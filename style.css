@@ -1,22 +1,22 @@
 /*
-  txtpod - Landing Page Styles
-  - Gradient background: top-right (#FF4019) to bottom-left (#E69525)
+  KiwiCamping – Landing Page Styles
+  - Deep forest gradient background for an outdoor feel
   - Responsive grid: 1 col (mobile) -> 3 cols (desktop)
   - Fonts: System UI sans fallback only
 */
 
 :root {
-  --bg-start: #5940ED;
-  --bg-end: #5940ED;
+  --bg-start: #0f3d32;
+  --bg-end: #1c6146;
   --text: #ffffff;
   --text-dim: rgba(255, 255, 255, 0.85);
   --card-bg: rgba(255, 255, 255, 0.10);
   --card-border: rgba(255, 255, 255, 0.18);
   --max-w: 1100px;
-  --hairline: rgba(255, 255, 255, 0.22);
-  --glass-bg: rgba(0, 0, 0, 0.14);
+  --hairline: rgba(255, 255, 255, 0.18);
+  --glass-bg: rgba(0, 0, 0, 0.26);
   --img-shadow: 10px 10px 30px rgba(0,0,0,0.5), 40px 40px 60px rgba(0,0,0,0.3);
-  --btn-hover-bg: rgba(255, 255, 255, 0.18);
+  --btn-hover-bg: rgba(255, 255, 255, 0.20);
 }
 
 /* Dark mode: use near-black background instead of blue */

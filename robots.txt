@@ -1,4 +1,4 @@
-# robots.txt for txtpod - Turn articles into a private podcast
+# robots.txt for KiwiCamping – Offline NZ camping map
 
 # Allow all crawlers to index the site
 User-agent: *
@@ -11,4 +11,4 @@ Allow: /index.html
 
 # Sitemap
 # Use absolute URL for clarity
-Sitemap: https://txtpod.app/sitemap.xml
+Sitemap: https://kiwicamping.app/sitemap.xml
