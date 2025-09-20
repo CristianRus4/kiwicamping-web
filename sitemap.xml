@@ -4,10 +4,46 @@
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kiwicamping.app/</loc>
+    <loc>https://campingapp.nz/</loc>
     <lastmod>2025-02-20T21:31:07Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/es/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/pt/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/fr/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/de/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/nl/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://campingapp.nz/it/</loc>
+    <lastmod>2025-02-20T21:31:07Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
 

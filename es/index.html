@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>KiwiCamping – Mapa y planificador de campings en Nueva Zelanda</title>
+    <meta name="description" content="KiwiCamping es la app offline de camping de Nueva Zelanda con refugios DOC, campamentos, reglas de freedom camping, puntos de descarga y planificación de road trips en todo el país." />
+
+    <!-- Theme/UI colors -->
+    <meta name="theme-color" content="#0E713C" />
+    <meta name="theme-color" content="#0E713C" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0E713C" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="application-name" content="KiwiCamping" />
+    <meta name="apple-mobile-web-app-title" content="KiwiCamping" />
+
+    <!-- iOS Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6746952595" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="KiwiCamping – Mapa y planificador de campings en Nueva Zelanda" />
+    <meta property="og:description" content="Descubre campamentos DOC, refugios, zonas de freedom camping, puntos de descarga y holiday parks. Planifica road trips y travesías en Nueva Zelanda sin conexión." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://campingapp.nz/images/kiwicamping-hero.webp" />
+    <meta property="og:url" content="https://campingapp.nz/es/" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale:alternate" content="en_NZ" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="es_419" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="pt_PT" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="KiwiCamping" />
+    <meta name="twitter:title" content="KiwiCamping – Mapa y planificador de campings en Nueva Zelanda" />
+    <meta name="twitter:description" content="Mapa de camping offline de NZ con refugios DOC, reglas de freedom camping, clima y herramientas para planificar tus viajes." />
+    <meta name="twitter:image" content="https://campingapp.nz/images/kiwicamping-hero.webp" />
+    <meta name="keywords" content="camping nz,campamentos,refugios doc,freedom camping,holiday parks,puntos de descarga,campervan,autocaravana,vanlife,road trip,mapa offline,trekking,senderismo,rutas" />
+
+    <!-- Canonical + icons -->
+    <link rel="canonical" href="https://campingapp.nz/es/" id="canonical-link" />
+    <link rel="alternate" hreflang="x-default" href="https://campingapp.nz/" />
+    <link rel="alternate" hreflang="en" href="https://campingapp.nz/" />
+    <link rel="alternate" hreflang="fr" href="https://campingapp.nz/fr/" />
+    <link rel="alternate" hreflang="de" href="https://campingapp.nz/de/" />
+    <link rel="alternate" hreflang="es" href="https://campingapp.nz/es/" />
+    <link rel="alternate" hreflang="es-419" href="https://campingapp.nz/es/" />
+    <link rel="alternate" hreflang="nl" href="https://campingapp.nz/nl/" />
+    <link rel="alternate" hreflang="it" href="https://campingapp.nz/it/" />
+    <link rel="alternate" hreflang="pt" href="https://campingapp.nz/pt/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://campingapp.nz/pt/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+    <link rel="manifest" href="../favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="../favicon/favicon.ico" />
+    <link rel="icon" sizes="192x192" href="../favicon/android-chrome-192x192.png" />
+    <link rel="icon" sizes="512x512" href="../favicon/android-chrome-512x512.png" />
+    <link rel="preload" as="image" href="../images/kiwicamping-hero.webp" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <!-- Fonts: use system UI stack (no external webfonts) -->
+
+    <link rel="preconnect" href="https://toolbox.marketingtools.apple.com" crossorigin />
+    <link rel="stylesheet" href="../style.css" />
+
+    <script>
+      (function () {
+        if (typeof window === 'undefined' || typeof document === 'undefined') return;
+        if (window.location.protocol === 'file:') return;
+
+        var supported = {
+          en: '/',
+          fr: '/fr/',
+          de: '/de/',
+          es: '/es/',
+          nl: '/nl/',
+          it: '/it/',
+          pt: '/pt/'
+        };
+
+        var alias = {
+          'en-au': 'en',
+          'en-gb': 'en',
+          'en-nz': 'en',
+          'en-us': 'en',
+          'fr-ca': 'fr',
+          'fr-fr': 'fr',
+          'fr-be': 'fr',
+          'fr-ch': 'fr',
+          'de-at': 'de',
+          'de-de': 'de',
+          'de-ch': 'de',
+          'es-es': 'es',
+          'es-ar': 'es',
+          'es-cl': 'es',
+          'es-co': 'es',
+          'es-mx': 'es',
+          'es-pe': 'es',
+          'es-uy': 'es',
+          'es-ve': 'es',
+          'es-419': 'es',
+          'nl-be': 'nl',
+          'nl-nl': 'nl',
+          'it-it': 'it',
+          'it-ch': 'it',
+          'pt-pt': 'pt',
+          'pt-br': 'pt'
+        };
+
+        function normalise(code) {
+          if (!code) return '';
+          var lower = code.toLowerCase();
+          if (supported[lower]) return lower;
+          if (alias[lower]) return alias[lower];
+          var base = lower.split('-')[0];
+          if (supported[base]) return base;
+          if (alias[base]) return alias[base];
+          return '';
+        }
+
+        function getStored() {
+          try {
+            return window.localStorage.getItem('kc-lang');
+          } catch (err) {
+            return null;
+          }
+        }
+
+        function setStored(lang) {
+          if (!lang) return;
+          try {
+            window.localStorage.setItem('kc-lang', lang);
+          } catch (err) {}
+        }
+
+        function getPathLang() {
+          var path = window.location.pathname || '/';
+          path = path.replace(/index\.html$/, '');
+          if (!path.endsWith('/')) path += '/';
+          var segments = path.split('/').filter(Boolean);
+          var first = segments[0] || '';
+          return supported[first] ? first : 'en';
+        }
+
+        function onEnglishRoot() {
+          var path = window.location.pathname || '/';
+          path = path.replace(/index\.html$/, '');
+          return path === '/' || path === '';
+        }
+
+        function getPreferred() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length ? navigator.languages : [];
+          if (!langs.length && navigator.language) langs = [navigator.language];
+          for (var i = 0; i < langs.length; i++) {
+            var match = normalise(langs[i]);
+            if (match) return match;
+          }
+          return 'en';
+        }
+
+        var queryLang = '';
+        try {
+          var params = new URLSearchParams(window.location.search);
+          queryLang = normalise(params.get('lang'));
+        } catch (err) {}
+
+        var pathLang = getPathLang();
+        var html = document.documentElement;
+        if (html.getAttribute('data-lang') !== pathLang) html.setAttribute('data-lang', pathLang);
+        if (html.getAttribute('lang') !== pathLang) html.setAttribute('lang', pathLang);
+
+        if (queryLang && supported[queryLang]) {
+          setStored(queryLang);
+          if (queryLang !== pathLang) {
+            window.location.replace(supported[queryLang]);
+          } else if (window.location.search) {
+            try {
+              var url = new URL(window.location.href);
+              url.searchParams.delete('lang');
+              window.history.replaceState({}, document.title, url.toString());
+            } catch (err) {}
+          }
+          return;
+        }
+
+        var stored = getStored();
+
+        if (pathLang !== 'en') {
+          if (stored !== pathLang) setStored(pathLang);
+          return;
+        }
+
+        if (stored) {
+          if (stored !== 'en' && supported[stored] && onEnglishRoot()) {
+            window.location.replace(supported[stored]);
+          }
+          return;
+        }
+
+        var preferred = getPreferred();
+        setStored(preferred);
+        if (preferred !== 'en' && supported[preferred] && onEnglishRoot()) {
+          window.location.replace(supported[preferred]);
+        }
+      })();
+    </script>
+
+    <!-- Ensure og:url and canonical reflect the deployed URL -->
+    <script>
+      (function () {
+        var url = window.location.href.split('#')[0];
+        var canonical = document.getElementById('canonical-link');
+        if (canonical && (!canonical.getAttribute('href') || canonical.getAttribute('href') === '#')) {
+          canonical.setAttribute('href', url);
+        }
+        var og = document.querySelector('meta[property="og:url"]');
+        if (!og) {
+          og = document.createElement('meta');
+          og.setAttribute('property', 'og:url');
+          document.head.appendChild(og);
+        }
+        if (!og.getAttribute('content')) {
+          og.setAttribute('content', url);
+        }
+      })();
+    </script>
+
+
+    <!-- WebSite structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "inLanguage": "es",
+      "name": "KiwiCamping",
+      "url": "https://campingapp.nz/es/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://campingapp.nz/es/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- FAQ structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {"@type": "Question", "name": "¿Qué es KiwiCamping?", "acceptedAnswer": {"@type": "Answer", "text": "KiwiCamping es una app de camping de NZ que funciona offline con más de 3.500 campamentos y refugios DOC, holiday parks, zonas de freedom camping, puntos de descarga y recursos para road trips en todo Aotearoa."}},
+        {"@type": "Question", "name": "¿KiwiCamping funciona sin conexión?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Descarga una vez la información oficial de DOC y de los concejos y podrás consultar campamentos, refugios, holiday parks y reglas sin señal. El clima en vivo y los mapas todavía requieren conexión."}},
+        {"@type": "Question", "name": "¿De dónde obtiene datos KiwiCamping?", "acceptedAnswer": {"@type": "Answer", "text": "Los datos provienen del Department of Conservation (DOC), los concejos de Nueva Zelanda, los avisos de NZTA y aportes verificados de la comunidad para que siempre tengas referencias oficiales."}},
+        {"@type": "Question", "name": "¿Qué significa self-contained en Nueva Zelanda?", "acceptedAnswer": {"@type": "Answer", "text": "Los vehículos self-contained cumplen la certificación NZS 5465 con sistemas a bordo de agua limpia, aguas grises y baño. KiwiCamping señala cuándo se exige certificación self-contained y enlaza con las reglas oficiales."}},
+        {"@type": "Question", "name": "¿Puede KiwiCamping filtrar solo sitios para self-contained?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Usa los filtros para mostrar lugares que exigen certificación self-contained, campamentos DOC, holiday parks u otras categorías que coincidan con tu vehículo."}}
+      ]
+    }
+    </script>
+
+    <!-- HowTo structured data: plan a camping trip -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "inLanguage": "es",
+      "name": "Planifica un viaje de camping por Nueva Zelanda con KiwiCamping",
+      "description": "Descarga KiwiCamping, sincroniza la información offline y crea una lista corta de campamentos DOC, refugios y puntos de descarga para tu road trip por NZ.",
+      "totalTime": "PT2M",
+      "tool": ["KiwiCamping app"],
+      "step": [
+        {"@type": "HowToStep", "name": "Descargar KiwiCamping", "text": "Instala KiwiCamping desde el App Store en tu iPhone o iPad."},
+        {"@type": "HowToStep", "name": "Sincroniza la información offline", "text": "Abre la app una vez para descargar datos de campamentos DOC, refugios, holiday parks, zonas de freedom camping y puntos de descarga para usarlos offline."},
+        {"@type": "HowToStep", "name": "Filtra y crea tu lista", "text": "Usa los filtros por tipo de vehículo, servicios, holiday parks y pases de refugios DOC para seleccionar los lugares que encajan con tu viaje."},
+        {"@type": "HowToStep", "name": "Planifica la ruta", "text": "Añade lugares al planificador para crear road trips, rutas de tramping o circuitos vanlife con tiempos de conducción y listas guardadas ilimitadas."}
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <nav class="top-nav" aria-label="Principal">
+      <div class="container nav-inner">
+        <a href="#" class="brand" aria-label="Inicio de KiwiCamping">KiwiCamping</a>
+        <a class="btn download-btn" href="https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595" target="_blank" rel="noopener">Descargar KiwiCamping</a>
+      </div>
+    </nav>
+
+    <!-- Floating App Store badge (shows at bottom until scroll) -->
+    <div class="appstore-floater" aria-label="Descargar en el App Store">
+      <a href="https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595" target="_blank" rel="noopener" aria-label="Descargar KiwiCamping en el App Store">
+        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1736726400" alt="Descargar KiwiCamping en el App Store" />
+      </a>
+    </div>
+    <header class="hero">
+      <div class="container">
+        <div class="hero-head">
+          <div class="hero-titles">
+            <p class="ios-badge" aria-label="Versión"><span class="ios-badge-text">Listo sin conexión • Islas Norte y Sur</span></p>
+            <h1 class="app-title">KiwiCamping</h1>
+            <p class="app-subtitle">Mapa de camping de NZ con campamentos, refugios DOC y reglas de freedom camping</p>
+          </div>
+          <div class="cta cta-desktop">
+            <a href="https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595" style="display: inline-block;" target="_blank" rel="noopener">
+              <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1736726400" alt="Descargar KiwiCamping en el App Store" style="width: 245px; height: 82px; vertical-align: middle; object-fit: contain;" />
+            </a>
+          </div>
+        </div>
+
+        <img src="../images/kiwicamping-hero.webp" alt="Mapa de KiwiCamping con campamentos DOC, refugios y paradas de freedom camping en toda Nueva Zelanda" class="hero-image" fetchpriority="high" decoding="async" />
+
+        <div class="cta cta-mobile">
+          <a href="https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595" style="display: inline-block;" target="_blank" rel="noopener">
+            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1736726400" alt="Descargar KiwiCamping en el App Store" style="width: 245px; height: 82px; vertical-align: middle; object-fit: contain;" />
+          </a>
+        </div>
+
+        <p class="hero-blurb">
+          KiwiCamping es el compañero imprescindible de camping sin conexión para Nueva Zelanda. Explora más de 3.500 campamentos y refugios DOC, holiday parks, zonas de freedom camping, puntos de descarga y paradas para campervans con datos oficiales de DOC y los concejos. Sincroniza esa información para tenerla offline y filtra por acceso de vehículos, servicios, pases de refugios DOC, requisitos de self-contained y tipo de instalación, incluso fuera de cobertura. Planifica road trips, rutas de tramping, viajes en camper o circuitos vanlife para furgonetas, caravanas y autocaravanas respetando siempre las reglas de camping de Nueva Zelanda.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section id="features" class="features container" aria-label="Características">
+        <div class="features-grid">
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-1.webp" alt="Mapa offline de Nueva Zelanda que destaca campamentos y refugios" loading="lazy" />
+            <h3>Guía de camping offline de NZ</h3>
+            <p>Sincroniza los datos oficiales de DOC y de los concejos para campamentos, refugios, holiday parks y puntos de descarga, así siempre tendrás lo esencial cuando se vaya la cobertura y los mapas listos al reconectarte.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-2.webp" alt="Filtros para servicios como baños, agua y sitios con electricidad" loading="lazy" />
+            <h3>Filtros potentes</h3>
+            <p>Filtra por tipo de vehículo, precio, baños, agua, puntos de descarga, tomas con electricidad, reglas para mascotas, accesibilidad y holiday parks para elegir siempre la parada adecuada.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-3.webp" alt="Detalles de refugios DOC con pases, capacidad y notas de acceso" loading="lazy" />
+            <h3>Refugios DOC y pases</h3>
+            <p>Consulta de un vistazo los pases de refugios, información de reservas de Great Walks, capacidades, dificultad de las rutas y notas de acceso sin tener que saltar entre aplicaciones.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-4.webp" alt="Planificador mostrando un itinerario en campervan por Nueva Zelanda" loading="lazy" />
+            <h3>Planificador de viajes</h3>
+            <p>Crea itinerarios para campervans, autocaravanas y mochileros con tiempos de conducción y listas guardadas ilimitadas de lugares para visitar o acampar, desde refugios DOC hasta holiday parks compatibles con vehículos self-contained.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-5.webp" alt="Reglas de freedom camping y ordenanzas regionales" loading="lazy" />
+            <h3>Reglas de freedom camping</h3>
+            <p>Comprende los requisitos de self-contained, las ordenanzas regionales, los límites de estancia y las multas con la guía oficial de DOC y los concejos para evitar sorpresas costosas.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="../images/kiwicamping-feature-6.webp" alt="Alertas de clima y seguridad en tiempo real para campamentos" loading="lazy" />
+            <h3>Clima y alertas</h3>
+            <p>Consulta pronósticos de Apple Weather en vivo, previsiones de siete días, horarios de mareas y alertas de seguridad cuando tengas conexión para que campervans, caravanas y excursionistas puedan reaccionar cuando cambian las condiciones.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="use-cases" class="use-cases container" aria-label="Casos de uso">
+        <h2>Diseñado para cada aventura en Aotearoa</h2>
+        <div class="use-cases-grid">
+          <article>
+            <h3>Vanlife y campervans</h3>
+            <p>Sigue zonas de freedom camping, puntos de descarga y sitios con electricidad que aceptan vans self-contained.</p>
+          </article>
+          <article>
+            <h3>Mochileros y tramping</h3>
+            <p>Conecta refugios DOC, inicios de ruta y puntos de reabastecimiento con información offline y direcciones listas para cuando vuelvas a conectarte.</p>
+          </article>
+          <article>
+            <h3>Familias y holiday parks</h3>
+            <p>Encuentra sitios con electricidad, áreas de juegos, duchas calientes y opciones asequibles cerca de tu ruta para una estadía familiar cómoda.</p>
+          </article>
+          <article>
+            <h3>Freedom campers</h3>
+            <p>Revisa las ordenanzas oficiales de los concejos, las reglas de self-contained, los límites de estancia y las notas de fiscalización para estacionar solo donde sea legal.</p>
+          </article>
+          <article>
+            <h3>Planificadores de road trips</h3>
+            <p>Organiza paradas aptas para self-contained, holiday parks y listas de refugios en planes flexibles con tiempos de conducción e información offline para todo el equipo.</p>
+          </article>
+          <article>
+            <h3>Excursionistas en las Great Walks</h3>
+            <p>Consulta la información oficial de DOC, encuentra refugios y campamentos cercanos y revisa el clima actual antes de confirmar tu reserva.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="why" class="why container">
+        <h2>¿Por qué KiwiCamping?</h2>
+        <p>
+          KiwiCamping combina los datos oficiales del DOC (Department of Conservation del Gobierno de Nueva Zelanda), las ordenanzas de los concejos locales, las actualizaciones de la NZTA y los consejos prácticos de la comunidad en una guía rápida. A diferencia de los directorios genéricos, KiwiCamping está ajustado a Nueva Zelanda: holiday parks, reglas de freedom camping, requisitos de self-contained, puntos de descarga y pases de refugios se apoyan en la información verificada más reciente. Pronósticos de clima en vivo, galerías de fotos y notas de viajeros mantienen a campervans, caravanas y mochileros con confianza en cualquier rincón de Aotearoa.
+        </p>
+      </section>
+
+      <section id="how" class="aso-highlights container" aria-label="Cómo funciona">
+        <div class="aso-grid">
+          <div class="aso-col">
+            <h2>Cómo funciona KiwiCamping</h2>
+            <ul class="checklist">
+              <li>Descarga la app y sincroniza una vez la información offline de campamentos, refugios y holiday parks de NZ.</li>
+              <li>Usa los filtros para mostrar refugios DOC, campamentos, puntos de descarga y los servicios que necesitas.</li>
+              <li>Añade lugares a tu planificador y accede a ellos en cualquier lugar, incluso sin cobertura.</li>
+            </ul>
+          </div>
+          <div class="aso-col">
+            <h2>Optimizada para la aventura</h2>
+            <ul class="checklist">
+              <li>Pronósticos de Apple Weather con condiciones en vivo, nieve, mareas y alertas.</li>
+              <li>Notas de acceso para vehículos con reglas de self-contained, caminos 4x4 y cierres estacionales.</li>
+              <li>Abre cualquier campamento, refugio u holiday park directamente en Apple Maps o Google Maps.</li>
+            </ul>
+          </div>
+      </section>
+
+      <section id="seo-intent" class="seo-intro container" aria-label="Comparaciones y alternativas">
+        <h2>Funciona en toda Nueva Zelanda</h2>
+        <p>
+          Desde el freedom camping en Northland hasta los refugios de Fiordland, KiwiCamping reúne todo en un solo mapa. Complementa la app con los pases de refugios DOC, las alertas viales de NZTA y las normativas más recientes de freedom camping y self-contained para conocer siempre las reglas. Úsala como tu alternativa offline a Rankers, CamperMate, WikiCamps o Campspot cuando explores las zonas remotas de Aotearoa.
+        </p>
+      </section>
+
+      <section id="alternatives" class="alternatives container" aria-label="Alternativas y comparaciones">
+        <h2>KiwiCamping frente a otras apps de camping de NZ</h2>
+        <div class="use-cases-grid">
+          <article>
+            <h3>Alternativa a Rankers</h3>
+            <p>Rankers es genial pero necesita cobertura. KiwiCamping guarda todo offline para consultar ordenanzas, puntos de descarga y reseñas incluso en plena naturaleza.</p>
+          </article>
+          <article>
+            <h3>Alternativa a CamperMate</h3>
+            <p>CamperMate destaca los holiday parks. KiwiCamping equilibra refugios DOC, freedom camping y holiday parks con filtros pensados para los road trips de NZ.</p>
+          </article>
+          <article>
+            <h3>Alternativa a WikiCamps</h3>
+            <p>WikiCamps es internacional. KiwiCamping está hecha específicamente para Nueva Zelanda con datos DOC, pases de refugios y reglas de camping propias del país.</p>
+          </article>
+          <article>
+            <h3>Alternativa a Campspot</h3>
+            <p>Campspot se centra en las reservas. KiwiCamping prioriza el descubrimiento, las ordenanzas y la planificación offline para saber dónde puedes acampar antes de reservar.</p>
+          </article>
+          <article>
+            <h3>Planificador para RV y vanlife</h3>
+            <p>Sigue puntos de descarga, agua potable, recargas de gas y sitios verificados para self-contained en una app clara creada para campervans y RVs.</p>
+          </article>
+          <article>
+            <h3>Compañera para las Great Walks</h3>
+            <p>Superpone refugios, puntos de inicio de rutas, clima y notas de transporte en un solo lugar. KiwiCamping es la aliada para las Great Walks que los usuarios de Rankers y CamperMate estaban esperando.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews container" aria-label="Reseñas y testimonios">
+        <h2>Lo que dicen los campistas Kiwi</h2>
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Todos los lugares, sin depender de señal</h3>
+            <p>Recorrimos Te Waipounamu en nuestra campervan y nunca perdimos los refugios, holiday parks ni las reglas de freedom camping. Los filtros offline salvaron nuestro viaje vanlife.</p>
+            <p class="reviewer"><em>- Aroha K.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Información DOC bien resuelta</h3>
+            <p>Pases de refugios, dificultad de rutas y alertas de Apple Weather en un mismo lugar superan andar con mil pestañas de DOC. Ahora es nuestro planificador de tramping.</p>
+            <p class="reviewer"><em>- Josh L.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Freedom camping sin complicaciones</h3>
+            <p>Las ordenanzas y notas de self-contained mantienen nuestra caravana legal desde Taranaki hasta Tasman.</p>
+            <p class="reviewer"><em>- Sienna R.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Planificador de viajes que sí usamos</h3>
+            <p>Planificamos un road trip de tres semanas en RV con puntos de descarga, refugios DOC y holiday parks. Las listas ilimitadas dejaron cada tramo listo para abrir en Apple Maps cuando salimos.</p>
+            <p class="reviewer"><em>- Nikau T.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Buscador de holiday parks</h3>
+            <p>El filtro familiar resalta sitios con electricidad, juegos y cocinas para que los niños siempre tengan una ducha caliente.</p>
+            <p class="reviewer"><em>- Maia F.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Organizador camper</h3>
+            <p>Los favoritos mantienen ordenada nuestra ruta: freedom spots para las mañanas, holiday parks para la noche de lavandería.</p>
+            <p class="reviewer"><em>- Dylan P.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Mapas listos para RV</h3>
+            <p>Las notas de ruta señalan puentes bajos y caminos 4x4 para que nuestra RV evite sorpresas en carreteras rurales estrechas.</p>
+            <p class="reviewer"><em>- Grace M.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Información amigable para caravanas</h3>
+            <p>Las fichas de holiday parks indican radios de giro y sitios con electricidad, oro puro cuando remolcas la caravana.</p>
+            <p class="reviewer"><em>- Kauri J.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Información de puntos de descarga al día</h3>
+            <p>Cada punto de descarga tiene notas de acceso y disponibilidad de agua, así que ya no adivinamos la próxima parada.</p>
+            <p class="reviewer"><em>- Isla W.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">De la montaña a la playa</h3>
+            <p>Refugios de las Great Walks, holiday parks costeros e info de ferris conviven juntos: perfecto para viajes combinados.</p>
+            <p class="reviewer"><em>- Tane H.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Confianza en el clima offline</h3>
+            <p>Los pronósticos de Apple Weather y las alertas de seguridad aparecen antes de los tramos alpinos, así sabemos cuándo abortar o seguir.</p>
+            <p class="reviewer"><em>- Riley C.</em></p>
+          </article>
+          <article class="review-card">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <h3 class="review-title">Favorita del equipo de road trip</h3>
+            <p>Las listas compartidas mantienen sincronizados a quienes viajan en van, caravana y tienda con holiday parks, refugios y noches de freedom.</p>
+            <p class="reviewer"><em>- Hana S.</em></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="faq container" aria-label="Preguntas frecuentes">
+        <h2>Preguntas frecuentes de KiwiCamping</h2>
+        <div class="faq-grid">
+          <details class="faq-item">
+            <summary>¿Qué es KiwiCamping?</summary>
+            <div class="faq-body">
+              <p>KiwiCamping es una app de camping de NZ que funciona offline con más de 3.500 campamentos y refugios DOC, puntos de descarga y holiday parks. Está hecha para campers, vanlifers, trampers y viajeros que exploran Aotearoa.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿KiwiCamping funciona sin conexión?</summary>
+            <div class="faq-body">
+              <p>Sí. Descarga una vez la información oficial de DOC y de los concejos y podrás buscar, filtrar y leer detalles sin cobertura. Los mapas y el clima en vivo sí necesitan conexión, pero la información de campamentos, refugios, holiday parks y reglas se mantiene en tu dispositivo.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Con qué frecuencia se actualizan los lugares?</summary>
+            <div class="faq-body">
+              <p>Actualizamos con frecuencia los datos de DOC, concejos y NZTA y publicamos pronto las novedades de la comunidad para que siempre tengas información vigente sobre cierres, alertas y nuevos servicios.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿KiwiCamping incluye los refugios DOC?</summary>
+            <div class="faq-body">
+              <p>Sí. Cada refugio DOC se alimenta de la información oficial del Department of Conservation, incluidos pases, capacidad, notas de acceso, dificultad de las rutas y enlaces de reserva de las Great Walks.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Puedo ver las reglas de freedom camping?</summary>
+            <div class="faq-body">
+              <p>Cada zona de freedom camping muestra las ordenanzas del concejo, los requisitos de self-contained, los límites de estancia y consejos de fiscalización basados en las normas oficiales.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿KiwiCamping muestra los puntos de descarga?</summary>
+            <div class="faq-body">
+              <p>Los puntos de descarga y agua potable están mapeados en todo el país con notas sobre acceso vehicular, horarios y servicios tomadas de los datos de los concejos.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿KiwiCamping muestra holiday parks y áreas para campervans?</summary>
+            <div class="faq-body">
+              <p>Sí. Los holiday parks, áreas para campervans y campamentos aptos para caravanas incluyen información de servicios, tomas con electricidad, precios orientativos y datos de contacto junto a refugios y campamentos DOC.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Puedo planificar road trips?</summary>
+            <div class="faq-body">
+              <p>Sí. Añade lugares a tu planificador, reordena paradas y crea tantas listas como quieras para futuras aventuras en campervan, caravana o tienda. Los planes permanecen en tu dispositivo y puedes abrir cualquier parada en Apple Maps o Google Maps cuando estés listo para conducir.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Qué significa self-contained en Nueva Zelanda?</summary>
+            <div class="faq-body">
+              <p>Los vehículos self-contained llevan sistemas certificados de agua limpia, aguas grises y baño que cumplen la norma NZS 5465. KiwiCamping indica si cada campamento o sitio de freedom camping exige certificación self-contained para que sepas si tu vehículo califica.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿KiwiCamping me ayuda a encontrar sitios solo para self-contained?</summary>
+            <div class="faq-body">
+              <p>Usa los filtros para mostrar sitios que exigen self-contained, campamentos DOC y holiday parks y ver solo estancias que coinciden con tu certificación y tipo de vehículo.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Necesito señal para el clima o los mapas?</summary>
+            <div class="faq-body">
+              <p>La información de campamentos, refugios y normas se mantiene offline, pero los pronósticos en vivo de Apple Weather, las mareas, las alertas de seguridad y los mapas en streaming requieren conexión.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿De dónde obtiene KiwiCamping sus reglas y alertas?</summary>
+            <div class="faq-body">
+              <p>Las ordenanzas de freedom camping, los requisitos de self-contained, las alertas y cierres provienen directamente del Department of Conservation, los concejos de Nueva Zelanda y los avisos de NZTA.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>¿Habrá versión para Android?</summary>
+            <div class="faq-body">
+              <p>KiwiCamping se lanza primero en iOS. Únete a la lista de espera dentro de la app para que te avisemos cuando Android esté listo.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>cntxt · Coded in NZ · © 2025</p>
+        <nav class="language-selector" aria-label="Language selector">
+          <button type="button" class="language-toggle" aria-expanded="false" aria-controls="language-menu">Versión en inglés</button>
+          <ul class="language-menu" id="language-menu" hidden>
+            <li><a data-lang="en" href="/">English</a></li>
+            <li><a data-lang="fr" href="/fr/">Français</a></li>
+            <li><a data-lang="de" href="/de/">Deutsch</a></li>
+            <li><a data-lang="es" href="/es/">Español</a></li>
+            <li><a data-lang="nl" href="/nl/">Nederlands</a></li>
+            <li><a data-lang="it" href="/it/">Italiano</a></li>
+            <li><a data-lang="pt" href="/pt/">Português</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#features">Características</a>
+          <a href="#why">¿Por qué KiwiCamping?</a>
+          <a href="#how">Cómo funciona</a>
+          <a href="#faq">Preguntas frecuentes</a>
+          <a href="https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595" target="_blank" rel="noopener">Descargar</a>
+          <a href="http://cristianrus.me/apps/kiwicamping" target="_blank" rel="noopener">Privacidad</a>
+        </nav>
+      </div>
+    </footer>
+
+
+    <script>
+      // Language selector toggle
+      (function () {
+        const toggle = document.querySelector('.language-toggle');
+        const menu = document.getElementById('language-menu');
+        if (!toggle || !menu) return;
+        const htmlLang = document.documentElement.getAttribute('data-lang') || 'en';
+
+        menu.querySelectorAll('a[data-lang]').forEach((link) => {
+          if (link.dataset.lang === htmlLang) {
+            link.setAttribute('aria-current', 'true');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+          link.addEventListener('click', () => {
+            try {
+              window.localStorage.setItem('kc-lang', link.dataset.lang);
+            } catch (err) {}
+            menu.hidden = true;
+            toggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+
+        const closeMenu = () => {
+          menu.hidden = true;
+          toggle.setAttribute('aria-expanded', 'false');
+        };
+
+        toggle.addEventListener('click', (event) => {
+          event.preventDefault();
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          if (expanded) {
+            closeMenu();
+          } else {
+            menu.hidden = false;
+            toggle.setAttribute('aria-expanded', 'true');
+          }
+        });
+
+        document.addEventListener('click', (event) => {
+          if (!menu.contains(event.target) && event.target !== toggle) {
+            closeMenu();
+          }
+        });
+
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            closeMenu();
+          }
+        });
+      })();
+
+      // Toggle 'scrolled' class and drive hero effects (fade/blur + parallax)
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const titleEl = document.querySelector('.app-title');
+      const subtitleEl = document.querySelector('.app-subtitle');
+      const iosBadgeEl = document.querySelector('.ios-badge');
+      const iosBadgeText = document.querySelector('.ios-badge-text');
+      const heroImg = document.querySelector('.hero-image');
+      const ctaDesktop = document.querySelector('.cta-desktop');
+      const mqDesktop = window.matchMedia('(min-width: 1024px)');
+
+      const setScrolled = () => {
+        document.body.classList.toggle('scrolled', window.scrollY > 4);
+      };
+
+      const clamp01 = (n) => Math.max(0, Math.min(1, n));
+      const updateHeroEffects = () => {
+        if (prefersReduced) return;
+        const y = window.scrollY || 0;
+        const titleStart = 20, titleRange = 180;
+        const subStart = 10, subRange = 160;
+        const t = clamp01((y - titleStart) / titleRange);
+        const blurMax = 8;
+        const parallaxFactor = 0.45;
+        if (titleEl) {
+          titleEl.style.opacity = (1 - t).toFixed(3);
+          titleEl.style.filter = `blur(${(t * blurMax).toFixed(2)}px)`;
+          const slow = y * parallaxFactor;
+          titleEl.style.transform = `translateY(${slow.toFixed(1)}px)`;
+        }
+        if (iosBadgeEl) {
+          iosBadgeEl.style.opacity = (1 - t).toFixed(3);
+          const slowB = y * parallaxFactor;
+          iosBadgeEl.style.transform = `translateY(${slowB.toFixed(1)}px)`;
+        }
+        if (iosBadgeText) {
+          iosBadgeText.style.filter = `blur(${(t * blurMax).toFixed(2)}px)`;
+        }
+        if (subtitleEl) {
+          const ts = clamp01((y - subStart) / subRange);
+          subtitleEl.style.opacity = (1 - ts).toFixed(3);
+          subtitleEl.style.filter = `blur(${(ts * blurMax).toFixed(2)}px)`;
+          const slowS = y * parallaxFactor;
+          subtitleEl.style.transform = `translateY(${slowS.toFixed(1)}px)`;
+        }
+        if (heroImg) {
+          heroImg.style.transform = 'none';
+        }
+        if (ctaDesktop && mqDesktop.matches) {
+          ctaDesktop.style.opacity = (1 - t).toFixed(3);
+          ctaDesktop.style.filter = `blur(${(t * blurMax).toFixed(2)}px)`;
+          const slowCta = y * parallaxFactor;
+          ctaDesktop.style.transform = `translateY(${slowCta.toFixed(1)}px)`;
+        } else if (ctaDesktop) {
+          ctaDesktop.style.opacity = '';
+          ctaDesktop.style.filter = '';
+          ctaDesktop.style.transform = '';
+        }
+      };
+
+      let ticking = false;
+      const onScroll = () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            setScrolled();
+            updateHeroEffects();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      };
+
+      setScrolled();
+      updateHeroEffects();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    </script>
+  </body>
+</html>
