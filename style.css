@@ -505,7 +505,19 @@ body.scrolled .appstore-floater { opacity: 0; transform: translate(-50%, 16px); 
 }
 
 /* Global link hover: bold instead of underline */
-a:hover { text-decoration: none; font-weight: 700; }
+a,
+a:visited {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(255, 255, 255, 0.55);
+  transition: color 160ms ease, font-weight 160ms ease, text-decoration-color 160ms ease;
+}
+
+a:hover {
+  font-weight: 700;
+  text-decoration-color: rgba(255, 255, 255, 0.9);
+}
 
 /* Prefer reduced motion */
 @media (prefers-reduced-motion: no-preference) {
@@ -538,3 +550,12 @@ a:hover { text-decoration: none; font-weight: 700; }
 .checklist { margin: 0; padding-left: 0; color: var(--text-dim); list-style: none; }
 .checklist li { margin: 6px 0; position: relative; padding-left: 16px; }
 .checklist li::before { content: "-"; position: absolute; left: 0; color: var(--text); opacity: 0.95; }
+.guides-header h2 {
+  font-size: clamp(26px, 3.6vw, 36px);
+  font-weight: 700;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.guides-header p {
+  max-width: 860px;
+}
