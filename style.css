@@ -515,8 +515,6 @@ body.scrolled .appstore-floater { opacity: 0; transform: translate(-50%, 16px); 
   .language-menu { position: static; width: 100%; box-shadow: none; margin-top: 6px; }
 }
 
-/* Global link hover: bold instead of underline */
-a,
 /* Prefer reduced motion */
 @media (prefers-reduced-motion: no-preference) {
   .hero-image {
@@ -548,6 +546,16 @@ a,
 .checklist { margin: 0; padding-left: 0; color: var(--text-dim); list-style: none; }
 .checklist li { margin: 6px 0; position: relative; padding-left: 16px; }
 .checklist li::before { content: "-"; position: absolute; left: 0; color: var(--text); opacity: 0.95; }
+.guides {
+  padding-block: 28px 24px;
+}
+
+.guides-header {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
 .guides-header h2 {
   font-size: clamp(26px, 3.6vw, 36px);
   font-weight: 700;
@@ -557,10 +565,24 @@ a,
 .guides-header p {
   max-width: 860px;
 }
-
 .guide-previews.guide-grid {
   display: grid;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+}
+
+.guide-grid-title {
+  margin: 0;
+  font-size: clamp(18px, 2.6vw, 22px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+@media (min-width: 900px) {
+  .guide-grid-title {
+    grid-column: 1 / -1;
+  }
 }
 
 .guide-preview {
@@ -572,6 +594,12 @@ a,
   display: grid;
   gap: 14px;
   transition: border-color 180ms ease, transform 180ms ease;
+  cursor: pointer;
+}
+
+.guide-preview:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 3px;
 }
 
 .guide-preview:hover {
@@ -596,6 +624,7 @@ a,
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -604,6 +633,7 @@ a,
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  text-decoration: none;
 }
 
 .link-arrow {
