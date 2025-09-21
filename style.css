@@ -662,3 +662,23 @@ body.scrolled .appstore-floater { opacity: 0; transform: translate(-50%, 16px); 
 
 /* Spacer after final CTA */
 .article-spacer { height: 28px; }
+
+/* Article-specific styles */
+.article-page a {
+  text-decoration: underline;
+}
+
+.article-page a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* Full width article images */
+.article-page .article-hero img,
+.article-page .article-figure img {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  border-radius: 0;
+}
