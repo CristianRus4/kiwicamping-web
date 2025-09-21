@@ -654,3 +654,11 @@ body.scrolled .appstore-floater { opacity: 0; transform: translate(-50%, 16px); 
   color: rgba(255, 255, 255, 0.95);
   transform: translateY(-50%) translateX(4px);
 }
+
+/* FAQ readability */
+.post-faq dl { margin: 1.25rem 0; }
+.post-faq dt { margin-top: .75rem; font-weight: 700; line-height: 1.35; }
+.post-faq dd { margin: .5rem 0 1rem 0; font-weight: 400; line-height: 1.55; }
+
+/* Spacer after final CTA */
+.article-spacer { height: 28px; }
