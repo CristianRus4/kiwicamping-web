@@ -673,6 +673,24 @@ body.scrolled .appstore-floater { opacity: 0; transform: translate(-50%, 16px); 
   font-weight: 700;
 }
 
+
+/* Make article titles bigger and more prominent */
+.article-page .guide-header h1 {
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 16px 0;
+  color: var(--text);
+}
+
+.article-page .guide-header .lede {
+  font-size: clamp(18px, 2.5vw, 24px);
+  color: var(--text-dim);
+  margin: 0;
+  line-height: 1.4;
+}
+
 /* Full width article images - break out of container but stay within body width */
 .article-page .article-hero img,
 .article-page .article-figure img {
