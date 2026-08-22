@@ -74,7 +74,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hero-proof strong { font-size: 22px; }
 .hero-proof small { color: var(--muted); font-size: 11px; }
 .hero-visual { min-height: 620px; display: grid; place-items: center; }
-.image-slot { background: transparent center / cover no-repeat; }
+.image-slot { background: transparent center / auto 90% no-repeat; }
 .hero-image-slot { width: min(100%, 490px); aspect-ratio: 1010 / 1515; border-radius: 10px; }
 .store-button { min-width: 190px; height: 48px; padding: 0 14px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; transition: background 180ms ease; }
 .store-button:hover { background: var(--store-button-hover); }
@@ -186,7 +186,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 
 .download-section { min-height: 690px; background: var(--deep); color: white; display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; overflow: hidden; }
 .download-section, .article-side-card { --store-button-bg: #f2f3ef; --store-button-fg: #10140e; --store-button-hover: #82ad78; }
-.download-image { height: 100%; min-height: 690px; background-size: contain; background-position: center bottom; }
+.download-image { height: 100%; min-height: 690px; background-size: auto 90%; background-position: center; }
 .download-copy { padding: 75px; }
 .download-copy .eyebrow { color: #abc17a; }
 .download-copy > p:nth-of-type(2) { color: #b5bfb0; }
