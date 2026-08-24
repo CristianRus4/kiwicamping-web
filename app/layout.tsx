@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | KiwiCamping",
   },
   description:
-    "Find 4,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+    "Find 6,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
   applicationName: "KiwiCamping",
   keywords: [
     "camping app New Zealand", "NZ camping map", "freedom camping NZ", "DOC campsites app",
@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     siteName: "KiwiCamping",
     title: "KiwiCamping: the camping map and road trip planner for New Zealand",
     description:
-      "4,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
+      "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
     url: SITE_URL,
     images: [{ url: "/images/kiwicamping-hero.webp", width: 1000, height: 1500, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "KiwiCamping: NZ camping map and road trip planner",
-    description: "4,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
+    description: "6,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
     images: ["/images/kiwicamping-hero.webp"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },

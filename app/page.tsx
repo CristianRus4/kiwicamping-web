@@ -12,7 +12,7 @@ import { homeSchema, seoLanguageTags } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner" },
-  description: "Find 4,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  description: "Find 6,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
   alternates: { canonical: "/", languages: seoLanguageTags("") },
 };
 
@@ -26,8 +26,8 @@ const features = [
 ];
 
 const faqs = [
-  ["What is KiwiCamping?", "KiwiCamping is an iPhone app for finding places to camp and stay around New Zealand. It bundles a directory of 4,500+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos."],
-  ["What places are included?", "More than 4,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands."],
+  ["What is KiwiCamping?", "KiwiCamping is an iPhone app for finding places to camp and stay around New Zealand. It bundles a directory of 6,500+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos."],
+  ["What places are included?", "More than 6,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands."],
   ["Does it work without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Street View, photos and provider pages still need a connection."],
   ["Can I plan a multi-stop road trip?", "Yes, and it is the app's main feature. Add places as stops, drag them into order, attach a date and arrival notes to each one, see the driving distance leg by leg and across the whole trip, open directions to the next stop, check the weather at each one, tick stops off as visited and keep the packing list beside the itinerary. Itinerary details can sync to Calendar."],
   ["What are collections?", "Two kinds. Smart collections (Liked, Starred, Want to visit, Visited, Pins and All saved) fill themselves as you mark places. On top of those you can create your own named collections with an icon and notes for a region, a season, a vehicle or a shortlist."],
@@ -62,9 +62,9 @@ export default function Home() {
           <div className="hero-copy">
             <span className="kicker"><TentTree size={14}/> The best camping app for New Zealand</span>
             <h1>New Zealand is big,<br/><em>your plan</em> can be simple</h1>
-            <p>4,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
+            <p>6,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
             <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
-            <div className="hero-proof"><span><strong>4,500+</strong><small>places across New Zealand</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>2,000+</strong><small>places to stay</small></span></div>
+            <div className="hero-proof"><span><strong>6,500+</strong><small>places across New Zealand</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>2,000+</strong><small>places to stay</small></span></div>
           </div>
           <div className="hero-visual">
             <div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/kiwicamping-hero.webp)"}} role="img" aria-label="KiwiCamping map screen" />
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="section story-section" id="how-it-works">
         <div className="section-head"><div><p className="eyebrow">From idea to open road</p><h2>Find a camp.<br/>Build the trip.</h2></div><p>Filter down to tonight’s camp, save tomorrow’s possibilities into collections and keep the route, distance, dates, notes and to-dos together in one trip.</p></div>
         <div className="steps-grid">
-          <article><Search/><h3>Find the exact place</h3><p>Search 4,500+ places, browse what is nearby, or stack filters until only the free camping areas with toilets and water in your corner of the map are left.</p></article>
+          <article><Search/><h3>Find the exact place</h3><p>Search 6,500+ places, browse what is nearby, or stack filters until only the free camping areas with toilets and water in your corner of the map are left.</p></article>
           <article><Heart/><h3>Save it into a collection</h3><p>Like, star or mark a place as visited and the smart collections update themselves. Build your own named lists for a region, a season or a shortlist.</p></article>
           <article><Route/><h3>Turn it into a trip</h3><p>Order the stops, see the distance between them, add dates and notes, check each stop’s weather, get directions and tick them off as you go.</p></article>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
 
       <section className="section faq-section"><div><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
 
-      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/kiwicamping-feature-6.webp)"}} role="img" aria-label="KiwiCamping app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>4,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.</p><DownloadCard/></div></section>
+      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/kiwicamping-feature-6.webp)"}} role="img" aria-label="KiwiCamping app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>6,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.</p><DownloadCard/></div></section>
     </main>
     <Button asChild className="mobile-cta"><a href={APP_STORE_URL} aria-label="Download KiwiCamping for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
     <Footer />

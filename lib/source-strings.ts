@@ -12,9 +12,9 @@ export const uiStrings = {
   /* Search-engine copy. Kept apart from the on-page headings because a page title and a headline
      have different jobs: the title has to win a click from a results page. */
   metaTitle: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner",
-  metaDescription: "Find 4,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  metaDescription: "Find 6,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
   ogTitle: "KiwiCamping: the camping map and road trip planner for New Zealand",
-  ogDescription: "4,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
+  ogDescription: "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
   metaKeywords: "camping app New Zealand, NZ camping map, freedom camping NZ, DOC campsites app, DOC huts map, holiday parks New Zealand, campervan app New Zealand, offline camping map NZ, New Zealand road trip planner",
   metaGuidesTitle: "New Zealand camping and road trip guides",
   metaGuidesDescription: "Camping rules, freedom camping and self-contained requirements, DOC sites, seasonal timing, real costs and practical planning for a New Zealand road trip.",
@@ -27,9 +27,9 @@ export const uiStrings = {
 
   heroKicker: "The best camping app for New Zealand",
   heroTitle: "New Zealand is big, your plan can be simple",
-  heroText: "4,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.",
+  heroText: "6,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.",
   seeHow: "See how it works",
-  statPlaces: "4,500+", statPlacesLabel: "places across New Zealand",
+  statPlaces: "6,500+", statPlacesLabel: "places across New Zealand",
   statOffline: "Offline", statOfflineLabel: "every place detail, no signal needed",
   statStays: "2,000+", statStaysLabel: "places to stay",
 
@@ -41,7 +41,7 @@ export const uiStrings = {
   processTitle: "Find a camp. Build the trip.",
   processText: "Filter down to tonight’s camp, save tomorrow’s possibilities into collections and keep the route, distance, dates, notes and to-dos together in one trip.",
   findTitle: "Find the exact place",
-  findText: "Search 4,500+ places, browse what is nearby, or stack filters until only the free camping areas with toilets and water in your corner of the map are left.",
+  findText: "Search 6,500+ places, browse what is nearby, or stack filters until only the free camping areas with toilets and water in your corner of the map are left.",
   saveTitle: "Save it into a collection",
   saveText: "Like, star or mark a place as visited and the smart collections update themselves. Build your own named lists for a region, a season or a shortlist.",
   planTitle: "Turn it into a trip",
@@ -102,9 +102,9 @@ export const uiStrings = {
   faqTitle: "Good questions. Clear answers.",
   faqIntro: "Straight answers about travelling with KiwiCamping.",
   faq1q: "What is KiwiCamping?",
-  faq1a: "KiwiCamping is an iPhone app for finding places to camp and stay around New Zealand. It bundles a directory of 4,500+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos.",
+  faq1a: "KiwiCamping is an iPhone app for finding places to camp and stay around New Zealand. It bundles a directory of 6,500+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos.",
   faq2q: "What places are included?",
-  faq2a: "More than 4,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands.",
+  faq2a: "More than 6,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands.",
   faq3q: "Does it work without reception?",
   faq3a: "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Street View, photos and provider pages still need a connection.",
   faq4q: "Can I plan a multi-stop road trip?",
@@ -126,7 +126,7 @@ export const uiStrings = {
 
   downloadEyebrow: "Your next place is out there",
   downloadTitle: "Find it. Save it. Plan the road ahead.",
-  downloadText: "4,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.",
+  downloadText: "6,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.",
 
   guidesEyebrow: "New Zealand camping guides",
   guidesTitle: "Follow the road somewhere good.",
@@ -172,7 +172,7 @@ export const uiStrings = {
   supportIntro: "Answers for finding places, saving favourites, planning trips and using KiwiCamping on the road.",
   contact: "Contact support", privacy: "Privacy", terms: "Terms",
   explore: "Explore", help: "Help", getApp: "Get the app", travelGuides: "Travel guides",
-  footerText: "Find 4,500+ New Zealand places offline, save the ones that matter and build complete road trips with routes, distance, dates, notes and to-dos.",
+  footerText: "Find 6,500+ New Zealand places offline, save the ones that matter and build complete road trips with routes, distance, dates, notes and to-dos.",
   footerLine: "Made for the long way around New Zealand.",
 
   rulesSafety: "Rules & safety", roadTrips: "Road trips", campingGuides: "Camping guides", tripPlanning: "Trip planning", costsBudget: "Costs & budget", appGuides: "App guides",

@@ -14,7 +14,7 @@ export function GET() {
   const md = `# KiwiCamping
 
 > KiwiCamping is an iPhone app for finding places to camp and stay across New Zealand, and for
-> turning the ones you save into a road trip. It bundles a directory of 4,500+ places so the details
+> turning the ones you save into a road trip. It bundles a directory of 6,500+ places so the details
 > stay readable with no mobile reception.
 
 - **Website:** ${SITE_URL}
@@ -27,7 +27,7 @@ export function GET() {
 
 ## What the app does
 
-**Offline place directory.** 4,500+ places ship inside the app: DOC campsites, backcountry huts,
+**Offline place directory.** 6,500+ places ship inside the app: DOC campsites, backcountry huts,
 holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use
 places. Names, categories, descriptions, fees, facilities, opening hours and conditions stay
 readable well beyond mobile signal. Live services (weather, routing, Street View, photos, provider

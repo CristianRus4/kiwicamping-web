@@ -68,7 +68,7 @@ const application = {
   publisher: { "@id": `${SITE_URL}/#organization` },
   offers: { "@type": "Offer", price: "0", priceCurrency: "NZD", availability: "https://schema.org/InStock" },
   featureList: [
-    "Offline directory of 4,500+ New Zealand places",
+    "Offline directory of 6,500+ New Zealand places",
     "DOC campsites, backcountry huts, holiday parks and freedom camping areas",
     "Filters for fee, facilities, access, region, rating and online booking",
     "Smart and custom collections",

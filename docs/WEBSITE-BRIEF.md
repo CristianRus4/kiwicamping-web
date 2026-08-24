@@ -6,7 +6,7 @@ KiwiCamping helps travellers explore New Zealand places, save the ones that matt
 
 ## Verified product facts
 
-- More than 4,500 bundled place records.
+- More than 6,500 bundled place records.
 - More than 2,000 places to stay across campsites, huts, holiday parks and other bookable accommodation.
 - Core place details remain available offline. Live maps, weather, routing and external pages can require reception.
 - Map, list and satellite exploration with detailed place and facility filters.

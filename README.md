@@ -1,6 +1,6 @@
 # KiwiCamping website
 
-The product and travel website for KiwiCamping, the iPhone app for exploring 4,500+ New Zealand places, saving collections and planning complete multi-stop road trips.
+The product and travel website for KiwiCamping, the iPhone app for exploring 6,500+ New Zealand places, saving collections and planning complete multi-stop road trips.
 
 This rebuild is deployed from `main` to GitHub Pages at [campingapp.nz](https://campingapp.nz/).
 
