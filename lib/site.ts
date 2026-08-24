@@ -12,7 +12,8 @@ export { makeArticle, section, articleHref } from "@/lib/article-model";
 
 export const SITE_URL = "https://campingapp.nz";
 export const APP_STORE_URL = "https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595";
-export const SUPPORT_EMAIL = "cristianrus4@gmail.com";
+export const SUPPORT_EMAIL = "support@cntxtlabs.co";
+export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=KiwiCamping%20web%20contact`;
 
 export const articles: Article[] = [
   ...roadTripArticles,

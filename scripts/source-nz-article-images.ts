@@ -11,12 +11,12 @@ const allowed = /CC0|Public domain|CC BY|CC BY-SA|PDM/i;
 
 async function fetchWithRetry(url: URL | string) {
   for (let attempt = 0; attempt < 6; attempt += 1) {
-    const response = await fetch(url, { headers: { "user-agent": "KiwiCampingWebsite/1.0 (image attribution build; cristianrus4@gmail.com)" } });
+    const response = await fetch(url, { headers: { "user-agent": "KiwiCampingWebsite/1.0 (image attribution build; support@cntxtlabs.co)" } });
     if (response.ok) return response;
     if (response.status !== 429 && response.status < 500) return response;
     await delay(700 * (attempt + 1));
   }
-  return fetch(url, { headers: { "user-agent": "KiwiCampingWebsite/1.0 (image attribution build; cristianrus4@gmail.com)" } });
+  return fetch(url, { headers: { "user-agent": "KiwiCampingWebsite/1.0 (image attribution build; support@cntxtlabs.co)" } });
 }
 
 function clean(value: string | undefined) {
