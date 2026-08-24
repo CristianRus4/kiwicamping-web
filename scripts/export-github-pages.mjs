@@ -15,7 +15,12 @@ const entries = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+
 const legacyRoutes = entries.filter((entry) => entry.legacyPath).map((entry) => entry.legacyPath);
 const guideSlugs = entries.filter((entry) => !entry.legacyPath).map((entry) => entry.slug);
 const rootRoutes = ["/", "/guides", ...guideSlugs.map((slug) => `/guides/${slug}`), ...legacyRoutes, "/tools", "/support", "/privacy", "/terms"];
-const localeRoutes=["de","es","fr","it","nl","pt"].flatMap((locale)=>["", "/guides", ...guideSlugs.map((slug)=>`/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route)=>`/${locale}${route}`));
+// A locale exports only the guides it has actually finished translating; road trips are never among
+// them. The translation file is the source of truth, and the content audit keeps it honest.
+const localeRoutes=(await Promise.all(["de","es","fr","it","nl","pt"].map(async (locale)=>{
+  const {articles}=JSON.parse(await readFile(resolve(root,`lib/translations/${locale}.json`),"utf8"));
+  return ["", "/guides", ...Object.keys(articles??{}).map((slug)=>`/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route)=>`/${locale}${route}`);
+}))).flat();
 const htmlRoutes = [...rootRoutes,...localeRoutes];
 
 // A route ending in .html is a real file path, not a directory with an index inside it.

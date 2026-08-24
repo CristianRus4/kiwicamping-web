@@ -11,7 +11,7 @@ async function entries(){const directory=new URL("../lib/content/",import.meta.u
 /** Every URL campingapp.nz ranks on today. These must keep resolving after the rebuild. */
 const rankingUrls=["/best-nz-camping-apps.html","/campfire-rules-nz.html","/camping-costs-nz.html","/camping-packing-list-nz.html","/doc-campsites-huts-guide.html","/dump-stations-nz.html","/free-camping-nz-legal.html","/freedom-camping-rules-nz.html","/holiday-parks-nz-booking-guide.html","/nz-camping-seasons-weather-sandflies.html","/responsible-camping-nz.html","/self-contained-vehicles-nz.html","/top-scenic-campsites-nz.html","/two-week-camper-itinerary-nz.html","/where-to-camp-in-new-zealand.html"];
 
-test("renders the KiwiCamping homepage with real product facts",async()=>{const response=await fetchPage();assert.equal(response.status,200);const html=await response.text();assert.match(html,/New Zealand is big/);assert.match(html,/4,500\+/);assert.match(html,/2,000\+/);assert.match(html,/route, distance, notes and to-dos/i);assert.match(html,/kiwicamping-qr\.png/);assert.match(html,/6746952595/);assert.match(html,/application\/ld\+json/);assert.doesNotMatch(html,/AussieCamps|Australian|(?:across|around|throughout|in) Australia\b|not available yet|section-number|useful place categories/i)});
+test("renders the KiwiCamping homepage with real product facts",async()=>{const response=await fetchPage();assert.equal(response.status,200);const html=await response.text();assert.match(html,/New Zealand is big/);assert.match(html,/4,500\+/);assert.match(html,/2,000\+/);assert.match(html,/routes, distance, dates, notes and to-dos/i);assert.match(html,/Offline/);assert.match(html,/trip planner/i);assert.match(html,/kiwicamping-qr\.png/);assert.match(html,/6746952595/);assert.match(html,/application\/ld\+json/);assert.doesNotMatch(html,/AussieCamps|Australian|(?:across|around|throughout|in) Australia\b|not available yet|section-number|useful place categories/i)});
 
 test("keeps every already-ranking URL live and canonical",async()=>{for(const url of rankingUrls){const response=await fetchPage(url);assert.equal(response.status,200,`${url} must still resolve`);const html=await response.text();assert.match(html,new RegExp(`rel="canonical"[^>]*href="[^"]*${url.replace(/[.]/g,"\\.")}"`),`${url} must be self-canonical`);assert.match(html,/<div class="article-body">/,`${url} must render a full article`)}});
 
@@ -27,6 +27,33 @@ test("renders dated New Zealand cost tables in ten currencies",async()=>{const r
 
 test("renders tools with official benchmark defaults",async()=>{const response=await fetchPage("/tools");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Currency converter/);assert.match(html,/Fuel calculator/);assert.match(html,/data-static-tools/);assert.match(html,/120\.0 L · NZ\$355\.20/)});
 
-test("publishes all six complete language editions",async()=>{for(const locale of ["de","es","fr","it","nl","pt"]){for(const route of ["", "/guides", "/guides/coromandel-rotorua-road-trip", "/tools", "/support", "/privacy", "/terms"]){const response=await fetchPage(`/${locale}${route}`);assert.equal(response.status,200,`${locale}${route}`);const html=await response.text();assert.doesNotMatch(html,/<h1>New Zealand is big\. Your plan can be simple\.<\/h1>/,`${locale}${route} leaked the English hero`)} } });
+test("publishes all six language editions, road trips excluded",async()=>{
+  for(const locale of ["de","es","fr","it","nl","pt"]){
+    for(const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms"]){
+      assert.equal((await fetchPage(`/${locale}${route}`)).status,200,`${locale}${route}`);
+    }
+    // Road trips stay English-only, so no locale may ever serve one.
+    assert.equal((await fetchPage("/"+locale+"/guides/coromandel-rotorua-road-trip")).status,404,`${locale} must not publish a translated road trip`);
+  }
+});
+
+test("never serves a half-translated guide",async()=>{
+  // A localised guide URL exists only where that locale's translation is complete. Anything partial
+  // or structurally stale must 404 rather than render a mixture of two languages. This is the exact
+  // defect that shipped once: English guides rewritten from three sections to seven, leaving
+  // translated prose under unrelated headings and four untranslated sections appended below.
+  // The content audit guarantees a locale file only ever contains guides the site can render, so
+  // the file's own keys are the list of what must resolve.
+  for(const locale of ["de","es","fr","it","nl","pt"]){
+    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+    const complete=new Set(Object.keys(file.articles??{}));
+    const index=await (await fetchPage(`/${locale}/guides`)).text();
+    for(const slug of ["doc-hut-rules-etiquette","camping-fees-new-zealand-2026","sandflies-new-zealand-camping"]){
+      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status,complete.has(slug)?200:404,`${locale}/${slug}`);
+      if(!complete.has(slug)) assert.ok(!index.includes(`/${locale}/guides/${slug}"`),`${locale} lists ${slug} it cannot serve`);
+    }
+    if(complete.size===0) assert.match(index,/Not available in this language yet/);
+  }
+});
 
 test("publishes crawler surfaces including every ranking URL",async()=>{const[robots,sitemap,llms]=await Promise.all([fetchPage("/robots.txt"),fetchPage("/sitemap.xml"),fetchPage("/llms.txt")]);assert.equal(robots.status,200);assert.equal(sitemap.status,200);assert.equal(llms.status,200);assert.match(await robots.text(),/Sitemap:/);const map=await sitemap.text();assert.match(map,/coromandel-rotorua-road-trip/);for(const url of rankingUrls)assert.ok(map.includes(url),`sitemap is missing ${url}`);assert.match(await llms.text(),/Core place details are available offline/)});

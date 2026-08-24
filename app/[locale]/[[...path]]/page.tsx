@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, getArticleByLegacyPath, guideArticles, legacyArticles } from "@/lib/site";
-import { getTranslation, isLocale, localeCodes } from "@/lib/localized";
+import { SITE_URL, getArticleByLegacyPath, legacyArticles } from "@/lib/site";
+import { getTranslation, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 
 export const dynamicParams = false;
 
@@ -15,7 +15,9 @@ export function generateStaticParams() {
   return [
     ...localeCodes.flatMap((locale) => [
       { locale, path: [] }, { locale, path: ["guides"] }, { locale, path: ["tools"] }, { locale, path: ["support"] }, { locale, path: ["privacy"] }, { locale, path: ["terms"] },
-      ...guideArticles.map((article) => ({ locale, path: ["guides", article.slug] })),
+      // Only guides this locale has actually finished. A stale or partial translation gets no
+      // URL at all, so the path 404s instead of serving a half-translated page.
+      ...localizedArticles(locale).map((article) => ({ locale, path: ["guides", article.slug] })),
     ]),
     ...legacyArticles.map((article) => ({ locale: article.legacyPath!.slice(1), path: [] as string[] })),
   ];
@@ -30,9 +32,13 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     alternates:{canonical:legacy.legacyPath},
     openGraph:{type:"article",title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
   };
-  if(!isLocale(locale))return{}; const translation=getTranslation(locale); const ui=translation.ui; const slug=path[0]==="guides"&&path[1]; const translatedArticles=translation.articles as Record<string,{title:string}>; const article=slug?translatedArticles[slug]:undefined;
-  const title=article&&typeof article==="object"&&"title" in article?String(article.title):path[0]==="guides"?ui.guidesTitle:path[0]==="tools"?ui.toolsTitle:path[0]==="support"?ui.supportTitle:`KiwiCamping | ${ui.heroTitle}`;
-  return {title,alternates:{canonical:`/${locale}/${path.join("/")}`},robots:{index:true,follow:true}};
+  if(!isLocale(locale))return{}; const ui=getTranslation(locale);
+  const slug=path[0]==="guides"?path[1]:undefined;
+  const article=slug?localizedArticles(locale).find((item)=>item.slug===slug):undefined;
+  const title=article?article.title:path[0]==="guides"?ui.guidesTitle:path[0]==="tools"?ui.toolsTitle:path[0]==="support"?ui.supportTitle:`KiwiCamping | ${ui.heroTitle}`;
+  // An untranslated locale still builds and renders, but it must not compete with the English
+  // site for the same words until a translator has filled its file in.
+  return {title,description:article?article.description:undefined,alternates:{canonical:`/${locale}/${path.join("/")}`},robots:{index:isTranslated(locale),follow:true}};
 }
 
 export default async function LocalizedRoute({params}:{params:Promise<{locale:string;path?:string[]}>}){

@@ -138,7 +138,7 @@ export const appArticles: Article[] = [
       ], ["4,500+ place records bundled", "Saved lists and trips stay readable", "Details travel with the app"]),
       s("What genuinely needs a connection", [
         "Weather forecasts, live routing and directions, external booking pages, provider websites and some map imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
-        "Apple Look Around imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends.",
+        "Street View imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends.",
       ]),
       s("Where in New Zealand this actually bites", [
         "The West Coast between Westport and Haast, most of Fiordland, the East Cape, the Catlins, inland Otago and large parts of the central North Island have long stretches with no usable mobile coverage. These are not remote outposts; they are on the main tourist routes, and they are exactly where you will be choosing a campsite.",
@@ -165,12 +165,12 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-weather-look-around",
-    title: "Use weather and Look Around before choosing a stay",
+    title: "Use weather and Street View before choosing a stay",
     description: "Compare the forecast and road environment with the actual campsite decision.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
-    places: ["Weather at the stay", "Apple Look Around", "Access road", "Nearby services", "MetService"],
+    places: ["Weather at the stay", "Street View", "Access road", "Nearby services", "MetService"],
     imageAlt: "Weather and place preview in KiwiCamping",
-    intro: "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Look Around fill in the parts that decide whether a night is comfortable.",
+    intro: "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Street View fill in the parts that decide whether a night is comfortable.",
     sections: [
       s("Check the forecast for the site, not the region", [
         "New Zealand weather varies dramatically over short distances. A forecast for the nearest town can be genuinely wrong for a campsite twenty minutes away on the other side of a range, and the difference between a sheltered valley and an exposed lake edge is not a detail.",
@@ -184,12 +184,12 @@ export const appArticles: Article[] = [
         "An in-app forecast is context for a comfort decision. For safety, use MetService warnings, Civil Defence advice, NZTA road conditions and DOC alerts, which is where severe weather, road closures, flooding and track warnings actually appear.",
         "Check these while you still have signal, and check them again close to departure on any day involving an alpine pass, a river crossing, an exposed coast or a forecast that has been shifting.",
       ], ["MetService for warnings", "NZTA for road conditions", "Recheck before alpine passes"]),
-      s("Preview the arrival with Look Around", [
-        "Where Apple Look Around imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
+      s("Preview the arrival with Street View", [
+        "Where Street View imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
         "It is equally useful for spotting what a listing will not tell you: that a site backs onto a main road, sits beside a rail line, or that the only access is a steep gravel descent you would rather not reverse out of.",
       ]),
       s("Treat imagery as old, because it is", [
-        "Look Around imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
+        "Street View imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
         "Use it to build an expectation, not a guarantee. Signs, barriers and conditions on arrival decide, and if the ground contradicts the imagery, the ground is right.",
       ], ["Imagery can be years old", "Slips and gates will not show", "The ground always wins"]),
       s("Look at what is around the site", [

@@ -29,6 +29,8 @@ for (const url of rankingUrls) assert.ok(declared.has(url), `Ranking URL ${url} 
 assert.equal(declared.size, rankingUrls.length, `Unexpected legacy path declared: ${[...declared].filter((url) => !rankingUrls.includes(url)).join(", ")}`);
 
 assert.doesNotMatch(content, /—/, "Em dashes are prohibited in public English content");
+// An escaped \u2014 renders as an em dash just the same, so the literal escape is banned too.
+assert.doesNotMatch(content, /\\u2014/, "Escaped em dashes are prohibited");
 // Guards against AussieCamps copy leaking into the New Zealand site. A bare country name is fine
 // (travellers do come from Australia); Australian-specific phrasing and branding is not.
 assert.doesNotMatch(content, /AussieCamps|Australian|Traditional Owners|(?:across|around|throughout|in) Australia\b|Australia's|not available yet|these names are intentionally|the website does not|editorial landscape image|realistic itinerary/i, "Foreign, internal or generic copy found");
@@ -36,17 +38,33 @@ assert.doesNotMatch(content, /https:\/\/images\.unsplash\.com/i, "Remote article
 // Copy must address travellers, not the developer building the page.
 assert.doesNotMatch(content, /this (section|page|guide|article) (explains|describes|shows|covers|will)|here goes|lorem ipsum|placeholder text|TODO|FIXME|coming soon|sample text/i, "Developer-facing or placeholder copy found");
 
-const localisable = entries.filter((entry) => !entry.legacyPath).map((entry) => entry.slug);
-for (const locale of ["de", "es", "fr", "it", "nl", "pt"]) {
+/**
+ * Translation contract.
+ *
+ * Road trip guides are deliberately English-only, so a locale file must never carry one. Everything
+ * else may be partial while a translation is in progress, because lib/localized.ts refuses to render
+ * anything incomplete and falls back to English instead. What this enforces is that a locale file
+ * never contains a translation the site cannot use: if an article is in the file, it must be
+ * complete and structurally identical to the English it translates. That is the check that would
+ * have caught the guides being rewritten from three sections to seven underneath their translations.
+ */
+const roadTripSlugs = new Set([...(await readFile(resolve(root, "lib/content/road-trips.ts"), "utf8")).matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
+assert.ok(roadTripSlugs.size >= 15, `Expected the road trip guides to be found, got ${roadTripSlugs.size}`);
+
+const { localeCodes, localizedArticles, translationProgress } = await import("../lib/localized.ts");
+const summary = [];
+for (const locale of localeCodes) {
   const translated = JSON.parse(await readFile(resolve(root, `lib/translations/${locale}.json`), "utf8"));
-  for (const slug of localisable) assert.ok(translated.articles[slug], `${locale} is missing a translation for ${slug}`);
-  assert.ok(translated.pages?.support && translated.pages?.privacy && translated.pages?.terms, `${locale} must contain translated information pages`);
+  for (const slug of roadTripSlugs) assert.ok(!translated.articles[slug], `${locale} carries ${slug}, but road trips stay English-only`);
   assert.doesNotMatch(JSON.stringify(translated), /—/, `${locale} contains an em dash`);
-  for (const [slug, article] of Object.entries(translated.articles)) {
-    if (!localisable.includes(slug)) continue;
-    assert.ok(article.sections?.length, `${locale}/${slug} must contain translated sections`);
-    for (const section of article.sections) assert.ok(section.body?.length, `${locale}/${slug} has a section with no translated prose`);
+
+  const renderable = new Set(localizedArticles(locale).map((article) => article.slug));
+  for (const slug of Object.keys(translated.articles)) {
+    assert.ok(renderable.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site cannot render it. Finish it or remove it.`);
   }
+  const progress = translationProgress(locale);
+  summary.push(`${locale} ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages`);
 }
 
-console.log(`Content audit passed: ${slugs.length} unique articles, all ${rankingUrls.length} ranking URLs preserved, ${localisable.length} articles translated into six languages.`);
+console.log(`Content audit passed: ${slugs.length} unique articles, all ${rankingUrls.length} ranking URLs preserved.`);
+console.log(`Translations: ${summary.join(" · ")}`);
