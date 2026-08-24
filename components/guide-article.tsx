@@ -5,21 +5,12 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { SITE_URL, articles, articleHref, type Article } from "@/lib/site";
+import { articleSchema } from "@/lib/seo";
 import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/currency";
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = articles.filter((candidate) => candidate.slug !== item.slug && (candidate.category === item.category || candidate.region === item.region)).slice(0, 3);
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: item.title,
-    description: item.description,
-    image: `${SITE_URL}${item.image}`,
-    author: { "@type": "Organization", name: "KiwiCamping" },
-    publisher: { "@type": "Organization", name: "KiwiCamping" },
-    mainEntityOfPage: `${SITE_URL}${articleHref(item)}`,
-    about: item.places,
-  };
+  const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
 
   return <>
     <Header />

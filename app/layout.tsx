@@ -2,22 +2,49 @@ import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
+import { localeCodes } from "@/lib/localized";
+import { seoLanguageTags } from "@/lib/seo";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "KiwiCamping | Explore New Zealand", template: "%s | KiwiCamping" },
-  description: "Find campsites, caravan parks, stays and useful road trip stops across New Zealand.",
+  title: {
+    default: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner",
+    template: "%s | KiwiCamping",
+  },
+  description:
+    "Find 4,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
   applicationName: "KiwiCamping",
-  keywords: ["New Zealand camping app", "campgrounds New Zealand", "caravan parks New Zealand", "road trip planner New Zealand", "free camping New Zealand"],
+  keywords: [
+    "camping app New Zealand", "NZ camping map", "freedom camping NZ", "DOC campsites app",
+    "DOC huts map", "holiday parks New Zealand", "campervan app New Zealand", "self contained camping NZ",
+    "offline camping map NZ", "New Zealand road trip planner", "dump stations NZ", "South Island camping",
+    "North Island camping", "best camping app NZ", "campsites near me New Zealand",
+  ],
+  category: "travel",
   authors: [{ name: "KiwiCamping" }],
   creator: "KiwiCamping",
   publisher: "KiwiCamping",
-  alternates: { canonical: "/", languages: { "en-NZ": "/", "de-DE": "/de", "es-ES": "/es", "fr-FR": "/fr", "it-IT": "/it", "nl-NL": "/nl", "pt-PT": "/pt", "x-default": "/" } },
-  openGraph: { type: "website", locale: "en_NZ", siteName: "KiwiCamping", title: "New Zealand is big. Your plan can be simple.", description: "Find 4,500+ places, know what is there and plan the road trip.", url: SITE_URL, images: [{ url: "/images/kiwicamping-hero.webp", width: 1000, height: 1500, alt: "KiwiCamping, the camping and road trip app for New Zealand" }] },
-  twitter: { card: "summary_large_image", title: "KiwiCamping", description: "Find camps. Know what is there. Build the road trip.", images: ["/images/kiwicamping-hero.webp"] },
-  robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
+  alternates: { canonical: "/", languages: seoLanguageTags("") },
+  openGraph: {
+    type: "website",
+    locale: "en_NZ",
+    alternateLocale: localeCodes.map((code) => ({ de: "de_DE", es: "es_ES", fr: "fr_FR", it: "it_IT", nl: "nl_NL", pt: "pt_PT" }[code])),
+    siteName: "KiwiCamping",
+    title: "KiwiCamping: the camping map and road trip planner for New Zealand",
+    description:
+      "4,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
+    url: SITE_URL,
+    images: [{ url: "/images/kiwicamping-hero.webp", width: 1000, height: 1500, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "KiwiCamping: NZ camping map and road trip planner",
+    description: "4,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
+    images: ["/images/kiwicamping-hero.webp"],
+  },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },
   other: { "apple-itunes-app": "app-id=6746952595" },
 };
