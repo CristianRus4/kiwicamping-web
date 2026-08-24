@@ -18,9 +18,9 @@ npm run translations:source
 
 That writes `lib/translations/en.json`. See [TRANSLATIONS.md](TRANSLATIONS.md) for the full process.
 
-Nothing is ever rendered half-translated. A guide is published in a locale only when its translation
-is complete and structurally identical to the English; otherwise its localised URL 404s and the
-reader gets the English guide. A locale is published only when every UI string is translated, and
+Nothing is ever rendered half-translated. Every guide is published in every locale: one whose
+translation is complete and structurally identical to the English is served translated, and any
+other is served whole in English. A locale is published only when every UI string is translated, and
 stays `noindex` and out of `sitemap.xml` and the footer language switcher until then.
 
 The previous generated translations were removed because the English guides had been rewritten and

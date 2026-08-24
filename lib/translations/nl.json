@@ -1,182 +1,332 @@
 {
   "locale": "nl",
   "ui": {
-    "languageName": "Engels",
-    "navFeatures": "Kenmerken",
+    "languageName": "Nederlands",
+    "navFeatures": "Functies",
     "navGuides": "Gidsen",
-    "navTools": "Gereedschap",
-    "navSupport": "Ondersteuning",
+    "navTools": "Rekenhulpen",
+    "navSupport": "Hulp",
     "download": "App downloaden",
-    "heroTitle": "Nieuw-Zeeland is groot. Uw plan kan eenvoudig zijn.",
-    "seeHow": "Kijk hoe het werkt",
-    "processEyebrow": "Van idee naar open weg",
-    "processTitle": "Zoek een kamp. Bouw de reis.",
-    "featuresEyebrow": "De volledige gereedschapskist",
-    "featuresTitle": "Vind het. Bewaar het. Plan de hele weg vooruit.",
-    "featuresText": "Verken plaatsen, vergelijk de details, organiseer favorieten en bouw een reis samen die ook na de planningstafel bruikbaar blijft.",
+    "heroKicker": "De beste kampeerapp voor Nieuw-Zeeland",
+    "heroTitle": "Nieuw-Zeeland is groot. Jouw plan mag simpel zijn.",
+    "heroText": "Ruim 4.500 plekken door heel Nieuw-Zeeland, offline meegeleverd zodat ze ook zonder bereik gewoon opengaan. Filter precies wat je nodig hebt, sla het op en maak van die selectie een roadtrip met route, afstand, data, notities en to-do’s.",
+    "seeHow": "Bekijk hoe het werkt",
+    "statPlaces": "4.500+",
+    "statPlacesLabel": "plekken door heel Nieuw-Zeeland",
+    "statOffline": "Offline",
+    "statOfflineLabel": "alle plekgegevens, zonder bereik",
+    "statStays": "2.000+",
+    "statStaysLabel": "plekken om te overnachten",
+    "trustLine": "Campings, hutten, holiday parks en handige stops door heel Nieuw-Zeeland.",
+    "trustCampsites": "Campings",
+    "trustHolidayParks": "Holiday parks",
+    "trustNationalParks": "Nationale parken",
+    "trustFreedomCamping": "Vrij kamperen",
+    "trustUsefulStops": "Handige stops",
+    "trustDayUse": "Dagrecreatieplekken",
+    "processEyebrow": "Van idee naar de weg op",
+    "processTitle": "Vind een plek. Bouw de reis.",
+    "processText": "Filter de plek voor vanavond eruit, bewaar de mogelijkheden van morgen in collecties en houd route, afstand, data, notities en to-do’s samen in één reis.",
+    "findTitle": "Vind precies de juiste plek",
+    "findText": "Zoek in ruim 4.500 plekken, kijk wat er in de buurt ligt of stapel filters tot alleen de gratis kampeerplekken met toilet en water in jouw stukje kaart overblijven.",
+    "saveTitle": "Bewaar het in een collectie",
+    "saveText": "Geef een hartje of ster of markeer een plek als bezocht, en de slimme collecties werken zichzelf bij. Eigen lijsten maak je voor een regio, een seizoen of een shortlist.",
+    "planTitle": "Maak er een reis van",
+    "planText": "Zet de stops op volgorde, zie de afstand ertussen, voeg data en notities toe, bekijk het weer per stop, start de navigatie en vink ze onderweg af.",
+    "featuresEyebrow": "Alles wat je nodig hebt",
+    "featuresTitle": "Vinden. Bewaren. De hele route plannen.",
+    "featuresText": "Ontdek plekken, vergelijk de details, ordent je favorieten en bouw een reis die ook onderweg nog nuttig is.",
+    "featureMainEyebrow": "Ken de plek voordat je er bent",
+    "featureMainTitle": "Elke plek opent met het detail dat de doorslag geeft.",
+    "featureMainText": "Foto’s, een echte beschrijving, openingstijden, tarieven, voorwaarden, faciliteiten gegroepeerd per soort, actuele meldingen, beoordelingen, contact- en boekingsgegevens, het weer en Street View om de inrit al vanaf de weg te zien.",
+    "featureList1": "Foto’s, tijden, tarieven, voorwaarden en faciliteiten",
+    "featureList2": "Street View, weer en navigatie ingebouwd",
+    "featureList3": "Offline meegeleverd, opent zonder bereik",
+    "feature1Title": "Slimme collecties en je eigen lijsten",
+    "feature1Text": "Leuk, Met ster, Wil ik heen en Bezocht vullen zichzelf zodra je plekken markeert. Daarbovenop maak je eigen collecties met een naam, voor een eiland, een seizoen of de shortlist waar jullie nog over discussiëren.",
+    "feature2Title": "Filters die een echte vraag beantwoorden",
+    "feature2Text": "Vraag om gratis kampeerplekken met toilet en drinkwater rond Queenstown en verfijn daarna op soort plek, tarief, beoordeling, online boeken, regio en gedetailleerde kenmerken voor faciliteiten en toegang.",
+    "feature3Title": "Standaard-, satelliet- en 3D-kaarten",
+    "feature3Text": "Wissel tussen de standaardkaart en satellietbeelden die je kunt kantelen en draaien tot je het echte reliëf ziet. Uitgezoomd bundelen de spelden zich tot aantallen en bij inzoomen vallen ze weer uiteen.",
+    "feature4Title": "Street View vóór de afslag",
+    "feature4Text": "Street View opent direct vanuit het plekscherm waar beelden bestaan, zodat je de inrit, het wegdek en de omgeving ziet voordat je de bus die afslag in stuurt.",
+    "feature5Title": "Weer bij elke plek",
+    "feature5Text": "De actuele situatie en de verwachting staan op het plekscherm en naast elke stop van de reis, zodat de keuze tussen twee campings met een blik op de lucht valt.",
+    "feature6Title": "Kosten in je eigen valuta",
+    "feature6Text": "Op bezoek en niet thuis in Nieuw-Zeelandse dollars? Kies je valuta, stel de koers één keer in, en de vermelde kosten verschijnen er ook bij in geld dat je meteen inschat.",
+    "plannerEyebrow": "Waar het om draait",
     "plannerTitle": "Stop voor stop. Dag na dag.",
+    "plannerText": "De reisplanner is waar al het andere naartoe werkt. Voeg bewaarde plekken toe als stops en sleep ze in de volgorde die je echt gaat rijden. Elke etappe toont de afstand, de navigatie naar de volgende opent meteen, elke stop draagt zijn eigen datum, aankomstnotities en weer, en onderweg vink je ze af als bezocht. Alternatieven in de buurt blijven eraan hangen voor de dagen die veranderen, de paklijst staat naast het reisschema en het geheel kan synchroniseren met Agenda.",
+    "plannerMetric1Title": "Afstand en navigatie",
+    "plannerMetric1Text": "per etappe en voor de hele reis",
+    "plannerMetric2Title": "Data en notities",
+    "plannerMetric2Text": "bij elke afzonderlijke stop",
+    "plannerMetric3Title": "Bezocht en to-do’s",
+    "plannerMetric3Text": "voortgang die je ziet",
+    "plannerMetric4Title": "Weer per stop",
+    "plannerMetric4Text": "naast het reisschema",
+    "routesEyebrow": "Gidsen om eerst te lezen",
+    "routesTitle": "Ken de regels. Ken de kosten.",
+    "routesText": "Praktische gidsen over kampeerregels, veiligheid, het juiste seizoen en wat een reis door Nieuw-Zeeland werkelijk kost.",
+    "exploreRoutes": "Ontdek de gidsen",
+    "audiencesEyebrow": "Hoe je ook reist",
+    "audiencesTitle": "Gemaakt voor tenten, bussen en grote rondes.",
+    "audience1Title": "Backpackers",
+    "audience1Text": "Laat een krap budget en een flexibele route samen werken.",
+    "audience2Title": "Campers",
+    "audience2Text": "Vind de voorzieningen, toegang en mix van overnachtingen die je nodig hebt.",
+    "audience3Title": "Caravans en grote combinaties",
+    "audience3Text": "Filter op ruimte, diensten en praktische opmerkingen over de toegang.",
+    "audience4Title": "Weekendkampeerders",
+    "audience4Text": "Houd favorieten dichtbij klaar voor als het vrijdag wordt.",
     "reviewsEyebrow": "Wat reizigers zeggen",
     "reviewsTitle": "Gemaakt voor plannen die veranderen.",
-    "review1Title": "Maakte onze Zuidereilandroute veel eenvoudiger",
-    "review1Quote": "We gebruikten het voor campings en vakantieparken tussen Christchurch en Queenstown. De offline details waren vooral handig toen we de hoofdwegen verlieten.",
-    "review1Country": "Duitsland",
-    "review2Title": "Precies wat we onderweg nodig hadden",
-    "review2Quote": "Snel bladeren, eenvoudig filteren en veel nuttiger dan het opslaan van een tiental browsertabbladen. We vonden bijna elke dag een geweldige plek om te stoppen.",
-    "review2Country": "Verenigde Staten",
-    "review3Title": "Een briljante reisgenoot",
-    "review3Quote": "De hutinformatie en toegangsnotities hebben ons veel planning bespaard. Het voelt alsof het gemaakt is voor mensen die daadwerkelijk door Nieuw-Zeeland reizen.",
-    "review3Country": "Verenigd Koninkrijk",
-    "review4Title": "Na een lange rit een rustige plek gevonden",
-    "review4Quote": "Na een lange rit hebben we via de filters een rustige plek gevonden met de faciliteiten die we nodig hadden. Veel minder stressvol dan raden vanaf een speld op een kaart.",
-    "review4Country": "Italië",
-    "review5Title": "Geweldige mix van praktische details",
-    "review5Quote": "Eenvoudig, duidelijk en echt nuttig. We gebruikten het voor een mix van betaalde accommodatie en gratis kamperen tijdens onze eerste reis en kwamen er steeds op terug.",
-    "review5Country": "Nederland",
-    "faqTitle": "Goede vragen. Duidelijke antwoorden.",
-    "faqIntro": "Duidelijke antwoorden over reizen met KiwiCamping.",
+    "principlesTitle": "Eerst nuttig. Altijd eerlijk.",
+    "principle1Title": "Borden gaan boven schermen",
+    "principle1Text": "Mededelingen ter plaatse, de beheerder van het terrein en actuele noodmeldingen gaan altijd vóór een vermelding.",
+    "principle2Title": "Actueel checken telt",
+    "principle2Text": "Bekijk vóór vertrek het laatste nieuws over boekingen, wegen, brand en afsluitingen.",
+    "principle3Title": "Laat plekken beter achter",
+    "principle3Text": "Kamperen waar het mag, afval zorgvuldig afvoeren en respect voor het whenua houden deze plekken open.",
+    "faqEyebrow": "Een paar heldere antwoorden",
+    "faqTitle": "Goede vragen. Heldere antwoorden.",
+    "faqIntro": "Directe antwoorden over reizen met KiwiCamping.",
     "faq1q": "Wat is KiwiCamping?",
-    "downloadTitle": "Vind het. Bewaar het. Plan de weg vooruit.",
+    "faq1a": "KiwiCamping is een iPhone-app waarmee je door heel Nieuw-Zeeland plekken vindt om te kamperen en te overnachten. Er zit een overzicht van ruim 4.500 plekken in de app, zodat de gegevens ook zonder bereik leesbaar blijven, en de plekken die je bewaart worden een roadtrip met stops op volgorde, data, notities en to-do’s.",
+    "faq2q": "Welke plekken zitten erin?",
+    "faq2a": "Meer dan 4.500 plekken: DOC-campings, hutten in de backcountry, holiday parks en andere boekbare overnachtingen, plekken voor vrij kamperen, openbare stortplaatsen en dagrecreatieplekken op beide eilanden.",
+    "faq3q": "Werkt het zonder bereik?",
+    "faq3a": "Het plekkenoverzicht zit in de app zelf, dus namen, categorieën, beschrijvingen, tarieven, faciliteiten en voorwaarden blijven ver buiten het netwerk leesbaar. Live diensten zoals weer, navigatie, Street View, foto’s en pagina’s van aanbieders hebben nog wel verbinding nodig.",
+    "faq4q": "Kan ik een roadtrip met meerdere stops plannen?",
+    "faq4a": "Ja, en dat is de hoofdfunctie van de app. Voeg plekken toe als stops, sleep ze op volgorde, geef elke stop een datum en aankomstnotities, bekijk de rijafstand per etappe en over de hele reis, start de navigatie naar de volgende, check daar het weer, vink stops af als bezocht en houd de paklijst naast het reisschema. Het reisschema kan synchroniseren met Agenda.",
+    "faq5q": "Wat zijn collecties?",
+    "faq5a": "Er zijn er twee soorten. Slimme collecties (Leuk, Met ster, Wil ik heen, Bezocht, Punaises en Alles bewaard) vullen zichzelf zodra je plekken markeert. Daarnaast maak je eigen collecties met naam, symbool en notities voor een regio, een seizoen, een voertuig of een shortlist.",
+    "faq6q": "Kan ik filteren op gratis plekken of zelfvoorzienende standplaatsen?",
+    "faq6a": "Ja, en ook op combinaties daarvan. De filters dekken soort plek, tarief, minimale beoordeling, online boeken, regio en gedetailleerde kenmerken voor faciliteiten en toegang, zodat „gratis kampeerplekken met toilet en drinkwater bij Queenstown” één enkele zoekopdracht is.",
+    "faq7q": "Wat staat er op een plekscherm?",
+    "faq7a": "Foto’s, een beschrijving, openingstijden, tarieven, voorwaarden, faciliteiten gegroepeerd per soort, actuele meldingen, beoordelingen, contact- en boekingsgegevens, weer, Street View waar beelden bestaan, navigatie en alternatieven in de buurt.",
+    "faq8q": "Welke kaartweergaven zijn er?",
+    "faq8a": "Een standaardkaart en een satellietweergave op basis van Apples flyover-beelden, die je kunt kantelen en draaien voor echt 3D-reliëf. Street View, gebaseerd op Apples Look Around-beelden, geeft het beeld op straatniveau vanaf het plekscherm.",
+    "faq9q": "Kan ik prijzen in mijn eigen valuta zien?",
+    "faq9a": "Ja. Kies je valuta in de instellingen en vul de omrekenkoers in, dan verschijnen de vermelde kosten in die valuta naast het bedrag in Nieuw-Zeelandse dollars.",
+    "faq10q": "Kan ik in KiwiCamping een camping boeken?",
+    "faq10a": "Open de boekingsgegevens van een plek om de aanbieder te bereiken en daar beschikbaarheid, prijzen en voorwaarden te controleren.",
+    "faq11q": "Zijn de kampeerregels overal in Nieuw-Zeeland hetzelfde?",
+    "faq11a": "Nee. Landelijke wetgeving, gemeentelijke verordeningen, natuurbeheerregels en de voorwaarden van de plek zelf kunnen allemaal gelden. Volg altijd de actuele borden, de aanwijzingen van de beheerder, de vuurbeperkingen en de officiële waarschuwingen.",
+    "downloadEyebrow": "Je volgende plek ligt daarbuiten",
+    "downloadTitle": "Vind het. Bewaar het. Plan de route.",
+    "downloadText": "Ruim 4.500 Nieuw-Zeelandse plekken offline, filters scherp genoeg om precies die ene te vinden, collecties die zichzelf ordenen en een reisplanner die de hele route draagt. KiwiCamping voor iOS.",
     "guidesEyebrow": "Nieuw-Zeelandse kampeergidsen",
-    "guidesTitle": "Volg de weg ergens goed.",
+    "guidesTitle": "Volg de weg naar iets goeds.",
+    "guidesIntro": "uitgebreide gidsen over campings, regels, kosten ter plaatse en praktische reisvoorbereiding door heel Nieuw-Zeeland.",
     "guideSingular": "gids",
     "guidePlural": "gidsen",
-    "readGuide": "Gids lezen",
-    "minuteRead": "minuut gelezen",
-    "places": "plaatsen",
+    "readGuide": "Lees de gids",
+    "minuteRead": "minuten lezen",
+    "places": "plekken",
     "backToGuides": "Gidsen",
-    "photoCredits": "Fotocredits",
+    "photoCredits": "Fotoverantwoording",
     "keepInMind": "Houd er rekening mee",
-    "placesAlong": "Plaatsen onderweg",
-    "checkBefore": "Controleer het voordat je vertrekt",
-    "checkText": "Regels en voorwaarden veranderen. Controleer voor vertrek nogmaals de officiële bron en de pagina voor uw exacte park of camping.",
-    "priceTitle": "Prijstabel in 10 valuta's",
-    "pricesChecked": "Prijzen gecontroleerd",
-    "conversionsUse": "Voor conversies worden RBNZ-tarieven gebruikt van",
-    "item": "Artikel",
-    "currencyDisclaimer": "Valutacijfers zijn mechanische conversies van de NZD-benchmark, geen kaart- of contante koersen. Banken en betaalaanbieders hanteren hun eigen tarieven en vergoedingen.",
-    "related": "Gerelateerde handleidingen",
-    "takeRoad": "Neem het mee op pad",
-    "savePlanTitle": "Bewaar de haltes. Plan de hele reis.",
-    "savePlanText": "Bouw een geordende route vanuit opgeslagen plaatsen, bereken de afstand en houd datums, notities en taken bij.",
+    "placesAlong": "Plekken onderweg",
+    "checkBefore": "Check voor vertrek",
+    "checkText": "Regels en omstandigheden veranderen. Controleer vóór vertrek nog een keer de officiële bron en de pagina van jouw specifieke park of camping.",
+    "priceTitle": "Prijstabel in 10 valuta’s",
+    "pricesChecked": "Prijzen gecontroleerd op",
+    "conversionsUse": "Omrekening met RBNZ-koersen van",
+    "item": "Post",
+    "currencyDisclaimer": "De bedragen in andere valuta’s zijn rekenkundige omrekeningen van de NZD-referentie, geen pas- of contantkoersen. Banken en betaaldienstverleners hanteren eigen koersen en kosten.",
+    "related": "Gerelateerde gidsen",
+    "takeRoad": "Neem het mee de weg op",
+    "savePlanTitle": "Bewaar de stops. Plan de hele reis.",
+    "savePlanText": "Bouw een geordende route uit bewaarde plekken, bereken de afstand en houd data, notities en to-do’s eraan gekoppeld.",
     "toolsEyebrow": "Nuttige cijfers",
-    "toolsTitle": "Hulpmiddelen voor roadtrips. Geen mysterieuze wiskunde.",
-    "toolsIntro": "Snelle planningscalculators voor prijzen en rijkosten in Nieuw-Zeeland. Elke aanname blijft zichtbaar, dus je kunt deze vervangen door het nummer dat bij jouw route past.",
-    "currencyTitle": "Valuta-omzetter",
-    "fuelTitle": "Brandstofkostencalculator",
+    "toolsTitle": "Rekenhulpen voor de roadtrip. Zonder rekenwerk vooraf.",
+    "toolsIntro": "Snelle rekenhulpen voor Nieuw-Zeelandse prijzen en rijkosten. Elke aanname blijft zichtbaar, zodat je die kunt vervangen door het getal dat bij jouw route past.",
+    "currencyTitle": "Valutarekenaar",
+    "fuelTitle": "Brandstofkostenrekenaar",
     "amount": "Bedrag",
     "from": "Van",
-    "to": "Aan",
+    "to": "Naar",
     "distance": "Afstand",
-    "fuelUse": "Brandstofverbruik",
-    "fuelPrice": "Brandstof prijs",
+    "fuelUse": "Verbruik",
+    "fuelPrice": "Brandstofprijs",
     "estimatedCost": "Geschatte kosten",
-    "calculatorNote": "Deze calculators zijn planningshulpmiddelen, geen live boekingen, tankstation- of valutakoersen. Controleer de huidige prijzen vóór aankoop.",
-    "supportTitle": "Hoe kunnen wij helpen?",
-    "supportIntro": "Antwoorden voor het vinden van plaatsen, het opslaan van favorieten, het plannen van reizen en het gebruiken van KiwiCamping onderweg.",
-    "contact": "Neem contact op met ondersteuning",
+    "calculatorNote": "Deze rekenhulpen zijn hulpmiddelen bij het plannen, geen actuele opgaven van boekingssites, tankstations of wisselkantoren. Controleer de actuele prijzen voordat je iets koopt.",
+    "supportTitle": "Waarmee kunnen we helpen?",
+    "supportIntro": "Antwoorden over plekken vinden, favorieten bewaren, reizen plannen en KiwiCamping onderweg gebruiken.",
+    "contact": "Neem contact op",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
-    "explore": "Ontdek",
+    "explore": "Ontdekken",
     "help": "Hulp",
-    "getApp": "Download de app",
+    "getApp": "Haal de app",
     "travelGuides": "Reisgidsen",
-    "footerLine": "Gemaakt voor de lange reis door Nieuw-Zeeland.",
-    "rulesSafety": "Regels & veiligheid",
-    "roadTrips": "Roadtrippen",
-    "campingGuides": "Campinggidsen",
-    "tripPlanning": "Reisplanning",
-    "costsBudget": "Kosten & budget",
-    "appGuides": "App-gidsen"
+    "footerText": "Vind ruim 4.500 Nieuw-Zeelandse plekken offline, bewaar de plekken die ertoe doen en bouw complete roadtrips met route, afstand, data, notities en to-do’s.",
+    "footerLine": "Gemaakt voor de lange weg rond Nieuw-Zeeland.",
+    "rulesSafety": "Regels en veiligheid",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Kampeergidsen",
+    "tripPlanning": "Reisvoorbereiding",
+    "costsBudget": "Kosten en budget",
+    "appGuides": "Appgidsen",
+    "review1Title": "Onze route over het Zuidereiland werd veel makkelijker",
+    "review1Quote": "We gebruikten het voor campings en holiday parks tussen Christchurch en Queenstown. De offline gegevens waren vooral nuttig zodra we de hoofdwegen verlieten.",
+    "review1Country": "Duitsland",
+    "review2Title": "Precies wat we onderweg nodig hadden",
+    "review2Quote": "Snel doorheen te bladeren, makkelijk te filteren en veel nuttiger dan een stuk of twaalf open tabbladen. We vonden bijna elke dag een goede plek om te stoppen.",
+    "review2Country": "Verenigde Staten",
+    "review3Title": "Een prima reisgezel",
+    "review3Quote": "De informatie over de hutten en de toegangsopmerkingen scheelden ons veel voorbereiding. Het voelt gemaakt voor mensen die echt door Nieuw-Zeeland trekken.",
+    "review3Country": "Verenigd Koninkrijk",
+    "review4Title": "Een rustige plek na een lange rijdag",
+    "review4Quote": "Na een lange rit gebruikten we de filters om een rustige plek te vinden met de voorzieningen die we nodig hadden. Veel minder stressvol dan gokken op basis van een speld op de kaart.",
+    "review4Country": "Italië",
+    "review5Title": "Goede mix van praktische gegevens",
+    "review5Quote": "Eenvoudig, helder en echt nuttig. Op onze eerste reis wisselden we betaalde overnachtingen af met gratis kamperen, en we bleven erop terugkomen.",
+    "review5Country": "Nederland"
   },
   "pages": {
-    "privacy": {
-      "effective": "Effectief 12 augustus 2026",
-      "title": "Privacybeleid",
-      "lede": "KiwiCamping helpt u bij het plannen van een reis zonder van uw reis een advertentieprofiel te maken.",
+    "support": {
+      "title": "Waarmee kunnen we helpen?",
+      "lede": "Heldere antwoorden over kaarten, bewaarde plekken, reisvoorbereiding en de weg die voor je ligt.",
       "sections": [
         {
-          "heading": "Informatie opgeslagen op uw apparaat",
+          "heading": "Plekken vinden",
           "paragraphs": [
-            "Opgeslagen plaatsen, collectielidmaatschap, reizen, notities, checklistitems en voorkeuren worden opgeslagen zodat de app werkt. Locatie kan worden gebruikt om uw positie en plaatsen in de buurt weer te geven nadat u toestemming heeft gegeven."
+            "Zoek op naam, adres of beschrijving. Verschuif de kaart en kies de optie voor het huidige gebied om de resultaten op het zichtbare deel te richten.",
+            "Filter op soort plek, tarief, minimale beoordeling, online boeken, regio en gedetailleerde kenmerken voor faciliteiten en toegang. Combineer alleen de filters die er echt toe doen, zodat goede alternatieven zichtbaar blijven.",
+            "Voorzieningen, tarieven, toegang en beheer kunnen veranderen. Volg de actuele borden en de beheerder van het terrein en stuur ons daarna een correctie, zodat het overzicht beter wordt."
+          ]
+        },
+        {
+          "heading": "Bewaarde plekken",
+          "paragraphs": [
+            "Leuk, Bezocht, Wil ik heen en Met ster werken zichzelf bij zodra je plekken markeert. Punaises en Alles bewaard bieden andere snelle overzichten.",
+            "Maak collecties met een naam, symbool en notities en voeg er elke plek aan toe. Gebruik ze voor een regio, een seizoen, een voertuig of een shortlist.",
+            "De app ondersteunt privésynchronisatie via iCloud voor markeringen, collecties en reisgegevens, zolang iCloud beschikbaar en ingeschakeld is."
+          ]
+        },
+        {
+          "heading": "Reisplanner",
+          "paragraphs": [
+            "Maak een reis aan, voeg plekken toe en sleep ze op volgorde. Elke stop kan een eigen aankomstdatum, notities, weer en bezochtstatus hebben, en de planner toont de rijafstand per etappe en over de hele reis.",
+            "De routeberekening hangt af van de beschikbare MapKit-navigatie. De planner behoudt de stops als een etappe mislukt, maar of de weg begaanbaar is moet je zelf nagaan.",
+            "Begin met de standaardlijst voor kampeerbenodigdheden of maak eigen taken. De voortgang van de reis houdt de lijst naast het reisschema, en het reisschema kan synchroniseren met Agenda."
+          ]
+        },
+        {
+          "heading": "Kaarten, weer en live gegevens",
+          "paragraphs": [
+            "Wissel tussen de standaardkaart en een satellietweergave op basis van Apples flyover-beelden, die kantelt en draait tot 3D-reliëf. Street View, gebaseerd op Apples Look Around-beelden, opent vanuit het plekscherm waar beelden bestaan.",
+            "Actueel weer en de verwachting hebben live gegevens nodig. Bewaar belangrijke verwachtingen en officiële waarschuwingen voordat je buiten bereik raakt.",
+            "Het meegeleverde overzicht houdt de belangrijkste gegevens beschikbaar ver voorbij betrouwbaar bereik. Live kaarten, routeberekening, weer, foto’s en externe pagina’s van aanbieders kunnen bereik vereisen."
+          ]
+        },
+        {
+          "heading": "Prijzen en valuta",
+          "paragraphs": [
+            "Kies je valuta in de instellingen en vul de omrekenkoers in. De vermelde kosten verschijnen dan in die valuta naast het bedrag in Nieuw-Zeelandse dollars, wat helpt als je op bezoek bent en de NZD niet gewend bent.",
+            "Open de boekings- of contactgegevens van een plek om beschikbaarheid, prijs en voorwaarden bij de aanbieder te controleren. De prijzen in de app zijn opgegeven bedragen, geen actuele offertes."
+          ]
+        },
+        {
+          "heading": "Premium en aankopen",
+          "paragraphs": [
+            "De kaart en de plekgegevens zijn gratis, samen met twee bewaarde lijsten.",
+            "Premium voegt onbeperkte lijsten, reisplanning, geavanceerde filters, weer bij plekken en roadtriproutes toe.",
+            "Gebruik Aankopen herstellen in het Premium-scherm terwijl je bent ingelogd met het Apple-account waarmee je oorspronkelijk hebt gekocht."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "lede": "KiwiCamping helpt je een reis te plannen zonder van je route een advertentieprofiel te maken.",
+      "sections": [
+        {
+          "heading": "Gegevens op je apparaat",
+          "paragraphs": [
+            "Bewaarde plekken, het lidmaatschap van collecties, reizen, notities, checklistitems en voorkeuren worden opgeslagen zodat de app werkt. Je locatie kan worden gebruikt om je positie en plekken in de buurt te tonen nadat je daarvoor toestemming geeft."
           ]
         },
         {
           "heading": "iCloud",
           "paragraphs": [
-            "Wanneer iCloud beschikbaar en ingeschakeld is, kan de app uw privé iCloud-database gebruiken om opgeslagen statussen, verzamelingen en app-records op al uw apparaten te synchroniseren. Apple levert de onderliggende dienst en hanteert eigen voorwaarden."
+            "Als iCloud beschikbaar en ingeschakeld is, kan de app je privé-iCloud-database gebruiken om markeringen, collecties en gegevens tussen je apparaten te synchroniseren. Apple levert de onderliggende dienst en hanteert eigen voorwaarden."
           ]
         },
         {
-          "heading": "Live Apple-services",
+          "heading": "Live diensten van Apple",
           "paragraphs": [
-            "Kaartweergave, routebeschrijvingen, rondkijken, weer, agenda-integratie en widgets kunnen Apple-frameworks gebruiken. Verzoeken en gegevensverwerking voor deze diensten worden beheerd door Apple. Toegang tot de kalender vindt alleen plaats na toestemming en wordt gebruikt om reisroute-informatie toe te voegen die u aanvraagt."
+            "Kaartweergave, navigatie, Look Around, weer, agenda-integratie en widgets kunnen frameworks van Apple gebruiken. Verzoeken en gegevensverwerking van die diensten vallen onder Apple. Toegang tot de agenda gebeurt pas na toestemming en dient om de reisgegevens toe te voegen die je zelf vraagt."
           ]
         },
         {
-          "heading": "Externe links en websitelogboeken",
+          "heading": "Externe links en serverlogs",
           "paragraphs": [
-            "Plaatsgegevens kunnen boekingsaanbieders, websites, sociale profielen, telefoonnummers, e-mailadressen en kaartapps openen. Deze services ontvangen informatie volgens hun eigen beleid wanneer u ervoor kiest ze te openen.",
-            "Hostingproviders kunnen routinematige technische logboeken verwerken, zoals IP-adres, browsertype en gevraagde URL, voor levering, betrouwbaarheid en veiligheid. KiwiCamping maakt op deze website geen gebruik van advertentietrackers."
+            "Vanuit de plekgegevens kun je boekingsaanbieders, websites, sociale profielen, telefoonnummers, e-mailadressen en kaartapps openen. Die diensten ontvangen gegevens volgens hun eigen beleid zodra je ervoor kiest ze te openen.",
+            "Hostingpartijen kunnen gebruikelijke technische logs verwerken, zoals IP-adres, browsertype en opgevraagde URL, voor levering, betrouwbaarheid en beveiliging. KiwiCamping gebruikt op deze website geen advertentietrackers."
           ]
         },
         {
-          "heading": "Retentie en controle",
+          "heading": "Bewaren en beheren",
           "paragraphs": [
-            "U kunt app-records verwijderen via de app en iCloud-gegevens beheren via uw Apple-account. Als u de app verwijdert, kunnen lokale gegevens worden verwijderd, terwijl gesynchroniseerde kopieën in iCloud kunnen blijven totdat ze afzonderlijk worden verwijderd."
+            "Je kunt gegevens in de app verwijderen en iCloud-gegevens beheren via je Apple-account. De app verwijderen kan lokale gegevens wissen, terwijl gesynchroniseerde kopieën in iCloud kunnen blijven staan tot je ze daar apart verwijdert."
           ]
         },
         {
           "heading": "Kinderen en contact",
           "paragraphs": [
-            "KiwiCamping is een algemeen reishulpprogramma en is niet gericht op kinderen. Geef geen persoonlijke informatie over een kind door via ondersteuning.",
-            "Neem voor privacyvragen contact op met de ondersteuning van KiwiCamping."
+            "KiwiCamping is een algemeen reishulpmiddel en richt zich niet op kinderen. Stuur via de ondersteuning geen persoonsgegevens van kinderen op.",
+            "Voor vragen over privacy kun je terecht bij de ondersteuning van KiwiCamping."
           ]
         }
-      ]
+      ],
+      "effective": "Van kracht vanaf 12 augustus 2026"
     },
     "terms": {
-      "effective": "Effectief 12 augustus 2026",
       "title": "Gebruiksvoorwaarden",
-      "lede": "KiwiCamping is een planningshulpmiddel. Het vervangt geen officiële borden, aanwijzingen van landbeheerders, noodwaarschuwingen, wegadvies of uw verantwoordelijkheid om binnen uw mogelijkheden te reizen.",
+      "lede": "KiwiCamping is een hulpmiddel bij het plannen. Het vervangt geen officiële borden, aanwijzingen van beheerders, noodwaarschuwingen of verkeersinformatie, en ook niet je eigen verantwoordelijkheid om te reizen binnen wat je aankunt.",
       "sections": [
         {
           "heading": "Reisinformatie verandert",
           "paragraphs": [
-            "Plaatsen, prijzen, toegang, faciliteiten, telefoondekking, weer, brandomstandigheden, wegen en boekingsregelingen kunnen zonder voorafgaande kennisgeving worden gewijzigd. Controleer kritische details bij de verantwoordelijke autoriteit of dienstverlener vóór de reis en nogmaals vlak voor vertrek."
+            "Plekken, prijzen, toegang, voorzieningen, telefoonbereik, weer, brandgevaar, wegen en boekingsvoorwaarden kunnen zonder aankondiging veranderen. Controleer doorslaggevende gegevens bij de verantwoordelijke instantie of de aanbieder voordat je vertrekt, en nog een keer vlak voor vertrek."
           ]
         },
         {
-          "heading": "Geen boekings- of toegangsgarantie",
+          "heading": "Geen garantie op boeking of toegang",
           "paragraphs": [
-            "Een vermelding garandeert niet dat een plaats open is, legaal is voor uw opstelling, bereikbaar is met uw voertuig of beschikbaar is. Voor uw gemak zijn er externe boekings- en contactlinks beschikbaar. Contracten zijn tussen u en de externe aanbieder."
+            "Een vermelding garandeert niet dat een plek open is, is toegestaan voor jouw combinatie, met jouw voertuig bereikbaar is of beschikbaar is. Externe boekings- en contactlinks staan er voor het gemak. Overeenkomsten komen tot stand tussen jou en de betreffende aanbieder."
           ]
         },
         {
           "heading": "Veiligheid en rechtmatig gebruik",
           "paragraphs": [
-            "U moet de borden, vergunningen, afsluitingen, brandbeperkingen, verkeersregels en aanwijzingen van rangers, iwi, hapū, hulpdiensten en landbeheerders opvolgen. Gebruik de app niet tijdens het rijden."
+            "Je moet borden, vergunningen, afsluitingen, vuurbeperkingen, verkeersregels en aanwijzingen van rangers, iwi, hapū, hulpdiensten en terreinbeheerders opvolgen. Gebruik de app niet tijdens het rijden."
           ]
         },
         {
           "heading": "Gebruikersgegevens",
           "paragraphs": [
-            "U bent verantwoordelijk voor aantekeningen, reisplannen en andere informatie die u opslaat. Bewaar afzonderlijke kopieën van vergunningen, boekingen en veiligheidsplannen wanneer verlies van toegang een reis in gevaar zou kunnen brengen."
+            "Je bent zelf verantwoordelijk voor notities, reisplannen en andere informatie die je bewaart. Bewaar vergunningen, boekingen en veiligheidskritische plannen ook apart wanneer verlies van toegang een reis in gevaar kan brengen."
           ]
         },
         {
           "heading": "Aankopen",
           "paragraphs": [
-            "Elke in-app-aankoop wordt verwerkt door Apple en is onderworpen aan de voorwaarden die bij aankoop worden vermeld. Functies, verpakking en prijzen kunnen waar toegestaan ​​veranderen. Gebruik de aankooptools van Apple voor facturerings-, annulerings- en terugbetalingszaken."
+            "Aankopen in de app worden door Apple afgehandeld en vallen onder de voorwaarden die bij de aankoop worden getoond. Functies, samenstelling en prijzen kunnen binnen de toegestane kaders wijzigen. Gebruik voor facturering, opzegging en terugbetaling de aankoophulpmiddelen van Apple."
           ]
         },
         {
           "heading": "Intellectueel eigendom en contact",
           "paragraphs": [
-            "De branding, interface en originele redactionele inhoud van KiwiCamping zijn eigendom van hun respectieve eigenaar. Plaatsnamen en openbare feiten blijven eigendom of verantwoordelijkheid van hun oorspronkelijke bronnen.",
-            "Vragen kunnen worden gestuurd naar de ondersteuning van KiwiCamping."
+            "Merk, interface en originele redactionele inhoud van KiwiCamping behoren toe aan de rechthebbende. Plaatsnamen en publieke feiten blijven eigendom of verantwoordelijkheid van hun oorspronkelijke bronnen.",
+            "Vragen kun je sturen naar de ondersteuning van KiwiCamping."
           ]
         }
-      ]
+      ],
+      "effective": "Van kracht vanaf 12 augustus 2026"
     }
   },
   "articles": {}

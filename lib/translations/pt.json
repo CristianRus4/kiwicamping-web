@@ -1,182 +1,332 @@
 {
   "locale": "pt",
   "ui": {
-    "languageName": "Inglês",
-    "navFeatures": "Recursos",
+    "languageName": "Português",
+    "navFeatures": "Funcionalidades",
     "navGuides": "Guias",
-    "navTools": "Ferramentas",
-    "navSupport": "Suporte",
-    "download": "Baixar o app",
-    "heroTitle": "A Nova Zelândia é grande. Seu plano pode ser simples.",
-    "seeHow": "Veja como funciona",
-    "processEyebrow": "Da ideia à estrada aberta",
-    "processTitle": "Encontre um acampamento. Construa a viagem.",
-    "featuresEyebrow": "O kit de ferramentas completo",
-    "featuresTitle": "Encontre-o. Salve-o. Planeje todo o caminho à frente.",
-    "featuresText": "Explore lugares, compare detalhes, organize favoritos e construa uma viagem que permaneça útil após o planejamento.",
-    "plannerTitle": "Pare por parada. Dia após dia.",
+    "navTools": "Calculadoras",
+    "navSupport": "Ajuda",
+    "download": "Transferir a app",
+    "heroKicker": "A melhor app de campismo para a Nova Zelândia",
+    "heroTitle": "A Nova Zelândia é grande. O teu plano pode ser simples.",
+    "heroText": "Mais de 4.500 locais em toda a Nova Zelândia, incluídos offline para continuarem a abrir sem rede. Filtra exatamente o que precisas, guarda e transforma essa seleção numa viagem com percurso, distância, datas, notas e tarefas.",
+    "seeHow": "Ver como funciona",
+    "statPlaces": "4.500+",
+    "statPlacesLabel": "locais em toda a Nova Zelândia",
+    "statOffline": "Offline",
+    "statOfflineLabel": "todos os detalhes, sem precisar de rede",
+    "statStays": "2.000+",
+    "statStaysLabel": "sítios para dormir",
+    "trustLine": "Parques de campismo, refúgios, holiday parks e paragens úteis em toda a Nova Zelândia.",
+    "trustCampsites": "Parques de campismo",
+    "trustHolidayParks": "Holiday parks",
+    "trustNationalParks": "Parques nacionais",
+    "trustFreedomCamping": "Campismo livre",
+    "trustUsefulStops": "Paragens úteis",
+    "trustDayUse": "Áreas de uso diurno",
+    "processEyebrow": "Da ideia para a estrada",
+    "processTitle": "Encontra o sítio. Constrói a viagem.",
+    "processText": "Filtra o sítio para esta noite, guarda as hipóteses de amanhã em coleções e mantém percurso, distância, datas, notas e tarefas juntos numa só viagem.",
+    "findTitle": "Encontra o sítio certo",
+    "findText": "Procura entre mais de 4.500 locais, vê o que há por perto ou junta filtros até sobrarem só as áreas de campismo gratuitas com casas de banho e água no teu canto do mapa.",
+    "saveTitle": "Guarda numa coleção",
+    "saveText": "Põe um coração, uma estrela ou marca um sítio como visitado e as coleções inteligentes atualizam-se sozinhas. As tuas listas crias para uma região, uma época ou uma pré-seleção.",
+    "planTitle": "Transforma numa viagem",
+    "planText": "Ordena as paragens, vê a distância entre elas, acrescenta datas e notas, consulta a meteorologia de cada uma, abre a navegação e vai riscando pelo caminho.",
+    "featuresEyebrow": "Tudo o que é preciso",
+    "featuresTitle": "Encontrar. Guardar. Planear a estrada toda.",
+    "featuresText": "Explora locais, compara os detalhes, organiza os favoritos e constrói uma viagem que continua útil depois da mesa de planeamento.",
+    "featureMainEyebrow": "Conhecer o sítio antes de lá chegar",
+    "featureMainTitle": "Cada local abre com o detalhe que decide.",
+    "featureMainText": "Fotografias, uma descrição a sério, horários, tarifas, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e reserva, a meteorologia e o Street View para ver a entrada a partir da estrada.",
+    "featureList1": "Fotografias, horários, tarifas, condições e instalações",
+    "featureList2": "Street View, meteorologia e navegação integrados",
+    "featureList3": "Incluído offline, abre sem rede",
+    "feature1Title": "Coleções inteligentes e listas tuas",
+    "feature1Text": "Gosto, Destacados, Quero ir e Visitados enchem-se sozinhos à medida que marcas locais. Por cima disso crias coleções com nome para uma ilha, uma época ou a pré-seleção sobre a qual ainda estão a discutir.",
+    "feature2Title": "Filtros que respondem a uma pergunta real",
+    "feature2Text": "Pede áreas de campismo gratuitas com casas de banho e água potável à volta de Queenstown e depois refina por tipo de local, tarifa, avaliação, reserva online, região e características detalhadas de instalações e acesso.",
+    "feature3Title": "Mapas padrão, satélite e 3D",
+    "feature3Text": "Alterna entre o mapa padrão e as imagens de satélite, que podes inclinar e rodar até veres o relevo real. Ao afastar, os marcadores juntam-se em números e ao aproximar voltam a separar-se.",
+    "feature4Title": "Street View antes do desvio",
+    "feature4Text": "O Street View abre diretamente a partir da ficha do local onde há imagens, por isso vês a entrada, o piso e a envolvente antes de meter a carrinha por ali.",
+    "feature5Title": "Meteorologia em cada local",
+    "feature5Text": "As condições atuais e a previsão estão na ficha do local e ao lado de cada paragem da viagem, para que a escolha entre dois parques se faça a olhar para o céu.",
+    "feature6Title": "Custos na tua própria moeda",
+    "feature6Text": "De visita e sem à-vontade com dólares neozelandeses? Escolhe a tua moeda, define a taxa uma vez e os custos indicados aparecem também em dinheiro que percebes de imediato.",
+    "plannerEyebrow": "O centro de tudo",
+    "plannerTitle": "Paragem a paragem. Dia após dia.",
+    "plannerText": "O planeador de viagens é aquilo para onde tudo o resto aponta. Junta os locais guardados como paragens e arrasta-os para a ordem em que vais mesmo conduzir. Cada troço mostra a sua distância, a navegação para o seguinte abre logo, cada paragem leva a sua data, notas de chegada e meteorologia, e vais marcando-as como visitadas pelo caminho. As alternativas próximas ficam associadas para os dias que mudam, a lista de bagagem fica ao lado do itinerário e tudo pode sincronizar com o Calendário.",
+    "plannerMetric1Title": "Distância e navegação",
+    "plannerMetric1Text": "troço a troço e na viagem inteira",
+    "plannerMetric2Title": "Datas e notas",
+    "plannerMetric2Text": "em cada uma das paragens",
+    "plannerMetric3Title": "Visitadas e tarefas",
+    "plannerMetric3Text": "progresso que se vê",
+    "plannerMetric4Title": "Meteorologia por paragem",
+    "plannerMetric4Text": "ao lado do itinerário",
+    "routesEyebrow": "Guias que vale a pena ler primeiro",
+    "routesTitle": "Conhece as regras. Conhece os custos.",
+    "routesText": "Guias práticos sobre regras de campismo, segurança, a melhor altura do ano e quanto custa mesmo uma viagem pela Nova Zelândia.",
+    "exploreRoutes": "Explorar os guias",
+    "audiencesEyebrow": "Seja como for que viajes",
+    "audiencesTitle": "Feita para tendas, carrinhas e voltas grandes.",
+    "audience1Title": "Mochileiros",
+    "audience1Text": "Faz um orçamento apertado e um percurso flexível funcionarem juntos.",
+    "audience2Title": "Autocaravanas",
+    "audience2Text": "Encontra as comodidades, o acesso e a mistura de dormidas de que precisas.",
+    "audience3Title": "Caravanas e conjuntos grandes",
+    "audience3Text": "Filtra por espaço, serviços e notas práticas de acesso.",
+    "audience4Title": "Campistas de fim de semana",
+    "audience4Text": "Tem os favoritos aqui perto prontos para quando chega sexta-feira.",
     "reviewsEyebrow": "O que dizem os viajantes",
-    "reviewsTitle": "Feito para planos que mudam.",
-    "review1Title": "Tornou nossa rota pela Ilha Sul muito mais fácil",
-    "review1Quote": "Nós o usamos para acampamentos e parques de férias entre Christchurch e Queenstown. Os detalhes offline foram especialmente úteis quando saímos das estradas principais.",
-    "review1Country": "Alemanha",
-    "review2Title": "Exatamente o que precisávamos na estrada",
-    "review2Quote": "Rápido de navegar, fácil de filtrar e muito mais útil do que salvar uma dúzia de guias do navegador. Encontramos um ótimo lugar para parar quase todos os dias.",
-    "review2Country": "Estados Unidos",
-    "review3Title": "Um companheiro de viagem brilhante",
-    "review3Quote": "As informações da cabana e as notas de acesso nos pouparam muito planejamento. Parece feito para pessoas que realmente viajam pela Nova Zelândia.",
-    "review3Country": "Reino Unido",
-    "review4Title": "Encontrei um lugar tranquilo depois de uma longa viagem",
-    "review4Quote": "Depois de uma longa viagem, usamos os filtros para encontrar um lugar tranquilo e com as instalações que precisávamos. Muito menos estressante do que adivinhar com um alfinete em um mapa.",
-    "review4Country": "Itália",
-    "review5Title": "Grande mistura de detalhes práticos",
-    "review5Quote": "Simples, claro e genuinamente útil. Nós o usamos para uma mistura de acomodação paga e acampamento gratuito em nossa primeira viagem e continuamos voltando a ele.",
-    "review5Country": "Holanda",
+    "reviewsTitle": "Feita para planos que mudam.",
+    "principlesTitle": "Primeiro útil. Sempre honesta.",
+    "principle1Title": "Os avisos no local mandam mais que o ecrã",
+    "principle1Text": "Os avisos no terreno, quem gere o espaço e os alertas de emergência em vigor vêm sempre antes de uma ficha.",
+    "principle2Title": "Verificar o atual conta",
+    "principle2Text": "Consulta as novidades mais recentes sobre reservas, estradas, incêndios e encerramentos antes de partir.",
+    "principle3Title": "Deixa os sítios melhores",
+    "principle3Text": "Acampar onde é permitido, tratar bem os resíduos e respeitar o whenua é o que mantém estes sítios abertos.",
+    "faqEyebrow": "Algumas respostas diretas",
     "faqTitle": "Boas perguntas. Respostas claras.",
-    "faqIntro": "Respostas diretas sobre como viajar com KiwiCamping.",
-    "faq1q": "O que é KiwiCamping?",
-    "downloadTitle": "Encontre-o. Salve-o. Planeje o caminho à frente.",
-    "guidesEyebrow": "Guias de acampamento na Nova Zelândia",
-    "guidesTitle": "Siga a estrada para algum lugar bom.",
+    "faqIntro": "Respostas diretas sobre viajar com a KiwiCamping.",
+    "faq1q": "O que é a KiwiCamping?",
+    "faq1a": "A KiwiCamping é uma app para iPhone com que encontras sítios para acampar e dormir em toda a Nova Zelândia. Traz um diretório de mais de 4.500 locais, por isso os detalhes continuam legíveis sem rede, e transforma os que guardas numa viagem com paragens ordenadas, datas, notas e tarefas.",
+    "faq2q": "Que locais estão incluídos?",
+    "faq2a": "Mais de 4.500 locais: parques de campismo do DOC, refúgios de montanha, holiday parks e outros alojamentos reserváveis, áreas de campismo livre, pontos públicos de despejo e áreas de uso diurno nas duas ilhas.",
+    "faq3q": "Funciona sem rede?",
+    "faq3a": "O diretório de locais vem incluído na app, por isso nomes, categorias, descrições, tarifas, instalações e condições continuam legíveis muito para lá da cobertura. Os serviços em direto, como meteorologia, navegação, Street View, fotografias e páginas dos operadores, continuam a precisar de ligação.",
+    "faq4q": "Posso planear uma viagem com várias paragens?",
+    "faq4a": "Sim, e é a funcionalidade principal da app. Junta locais como paragens, arrasta-os para os ordenar, dá a cada um data e notas de chegada, vê a distância troço a troço e na viagem inteira, abre a navegação para a seguinte, consulta a meteorologia de cada uma, marca as paragens como visitadas e mantém a lista de bagagem ao lado do itinerário. Os detalhes do itinerário podem sincronizar com o Calendário.",
+    "faq5q": "O que são coleções?",
+    "faq5a": "Há duas espécies. As coleções inteligentes (Gosto, Destacados, Quero ir, Visitados, Marcadores e Tudo o que guardaste) enchem-se sozinhas à medida que marcas locais. Além dessas, podes criar as tuas coleções com nome, ícone e notas para uma região, uma época, um veículo ou uma pré-seleção.",
+    "faq6q": "Posso filtrar campismo gratuito ou lugares para veículos autossuficientes?",
+    "faq6a": "Sim, e também combinações. Os filtros abrangem tipo de local, tarifa, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso, de modo que «áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown» é uma única pesquisa.",
+    "faq7q": "O que há na ficha de um local?",
+    "faq7a": "Fotografias, uma descrição, horários, tarifas, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e reserva, meteorologia, Street View onde há imagens, navegação e alternativas por perto.",
+    "faq8q": "Que vistas de mapa existem?",
+    "faq8a": "Um mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, que podes inclinar e rodar para ver relevo 3D real. O Street View, assente nas imagens Look Around da Apple, dá a vista ao nível da rua a partir da ficha do local.",
+    "faq9q": "Posso ver os preços na minha moeda?",
+    "faq9a": "Sim. Escolhe a tua moeda nas definições e define a taxa de câmbio, e os custos indicados aparecem nessa moeda ao lado do valor em dólares neozelandeses.",
+    "faq10q": "Posso reservar um parque de campismo na KiwiCamping?",
+    "faq10a": "Abre os dados de reserva de um local para contactar quem o gere e confirmar aí disponibilidade, preços e condições.",
+    "faq11q": "As regras de campismo são iguais em toda a Nova Zelândia?",
+    "faq11a": "Não. Podem aplicar-se ao mesmo tempo a lei nacional, os regulamentos municipais, as regras de conservação e as condições de cada sítio. Segue sempre os avisos em vigor, as indicações de quem gere o terreno, as restrições por incêndio e os alertas oficiais.",
+    "downloadEyebrow": "O teu próximo sítio está algures lá fora",
+    "downloadTitle": "Encontra. Guarda. Planeia a estrada.",
+    "downloadText": "Mais de 4.500 locais neozelandeses offline, filtros suficientemente finos para dar com o certo, coleções que se organizam sozinhas e um planeador que aguenta o percurso inteiro. KiwiCamping para iOS.",
+    "guidesEyebrow": "Guias de campismo na Nova Zelândia",
+    "guidesTitle": "Segue a estrada até um sítio bom.",
+    "guidesIntro": "guias detalhados sobre parques, regras, custos no terreno e planeamento prático em toda a Nova Zelândia.",
     "guideSingular": "guia",
     "guidePlural": "guias",
-    "readGuide": "Leia o guia",
-    "minuteRead": "minuto de leitura",
-    "places": "lugares",
+    "readGuide": "Ler o guia",
+    "minuteRead": "minutos de leitura",
+    "places": "locais",
     "backToGuides": "Guias",
-    "photoCredits": "Créditos das fotos",
-    "keepInMind": "Lembre-se",
-    "placesAlong": "Lugares ao longo do caminho",
-    "checkBefore": "Verifique antes de ir",
-    "checkText": "Regras e condições mudam. Verifique novamente a fonte oficial e a página do seu parque ou acampamento exato antes da partida.",
+    "photoCredits": "Créditos das fotografias",
+    "keepInMind": "Tem em conta",
+    "placesAlong": "Locais pelo caminho",
+    "checkBefore": "Confirma antes de partir",
+    "checkText": "As regras e as condições mudam. Volta a consultar a fonte oficial e a página do teu parque ou parque de campismo concreto antes de partir.",
     "priceTitle": "Tabela de preços em 10 moedas",
-    "pricesChecked": "Preços verificados",
-    "conversionsUse": "As conversões usam taxas RBNZ de",
-    "item": "Artigo",
-    "currencyDisclaimer": "Os valores monetários são conversões mecânicas do benchmark NZD, e não cotações de cartão ou dinheiro. Os bancos e provedores de pagamento aplicam suas próprias taxas e taxas.",
+    "pricesChecked": "Preços verificados a",
+    "conversionsUse": "Conversões com taxas do RBNZ de",
+    "item": "Item",
+    "currencyDisclaimer": "Os valores noutras moedas são conversões automáticas da referência em NZD, não cotações de cartão nem de numerário. Os bancos e os prestadores de pagamentos aplicam taxas e comissões próprias.",
     "related": "Guias relacionados",
-    "takeRoad": "Leve-o para a estrada",
-    "savePlanTitle": "Salve as paradas. Planeje toda a viagem.",
-    "savePlanText": "Crie uma rota ordenada a partir de locais salvos, calcule a distância e guarde datas, notas e tarefas anexadas.",
+    "takeRoad": "Leva-o para a estrada",
+    "savePlanTitle": "Guarda as paragens. Planeia a viagem toda.",
+    "savePlanText": "Constrói um percurso ordenado a partir dos locais guardados, calcula a distância e mantém datas, notas e tarefas associadas.",
     "toolsEyebrow": "Números úteis",
-    "toolsTitle": "Ferramentas de viagem. Sem matemática misteriosa.",
-    "toolsIntro": "Calculadoras de planejamento rápido para preços e custos de condução na Nova Zelândia. Cada suposição permanece visível para que você possa substituí-la pelo número adequado à sua rota.",
+    "toolsTitle": "Calculadoras de viagem. Sem contas obscuras.",
+    "toolsIntro": "Calculadoras rápidas para preços e custos de condução na Nova Zelândia. Cada pressuposto fica à vista para que o substituas pelo número que se ajusta ao teu percurso.",
     "currencyTitle": "Conversor de moeda",
     "fuelTitle": "Calculadora de custo de combustível",
-    "amount": "Quantidade",
+    "amount": "Montante",
     "from": "De",
     "to": "Para",
     "distance": "Distância",
-    "fuelUse": "Uso de combustível",
+    "fuelUse": "Consumo",
     "fuelPrice": "Preço do combustível",
     "estimatedCost": "Custo estimado",
-    "calculatorNote": "Essas calculadoras são auxiliares de planejamento, não de reservas ao vivo, postos de combustível ou cotações de câmbio. Confirme os preços atuais antes da compra.",
+    "calculatorNote": "Estas calculadoras são ajudas de planeamento, não cotações em direto de reservas, postos de combustível ou câmbios. Confirma os preços atuais antes de comprar.",
     "supportTitle": "Como podemos ajudar?",
-    "supportIntro": "Respostas para encontrar lugares, salvar favoritos, planejar viagens e usar KiwiCamping na estrada.",
-    "contact": "Contate o suporte",
+    "supportIntro": "Respostas para encontrar locais, guardar favoritos, planear viagens e usar a KiwiCamping na estrada.",
+    "contact": "Contactar o apoio",
     "privacy": "Privacidade",
     "terms": "Termos",
     "explore": "Explorar",
     "help": "Ajuda",
-    "getApp": "Obtenha o aplicativo",
+    "getApp": "Obter a app",
     "travelGuides": "Guias de viagem",
-    "footerLine": "Feito para percorrer o longo caminho pela Nova Zelândia.",
+    "footerText": "Encontra mais de 4.500 locais neozelandeses offline, guarda os que interessam e constrói viagens completas com percurso, distância, datas, notas e tarefas.",
+    "footerLine": "Feita para a volta longa à Nova Zelândia.",
     "rulesSafety": "Regras e segurança",
-    "roadTrips": "Viagens rodoviárias",
-    "campingGuides": "Guias de acampamento",
-    "tripPlanning": "Planejamento de viagem",
+    "roadTrips": "Viagens de carro",
+    "campingGuides": "Guias de campismo",
+    "tripPlanning": "Planeamento",
     "costsBudget": "Custos e orçamento",
-    "appGuides": "Guias de aplicativos"
+    "appGuides": "Guias da app",
+    "review1Title": "Facilitou muito o nosso percurso na Ilha Sul",
+    "review1Quote": "Usámo-la para parques de campismo e holiday parks entre Christchurch e Queenstown. Os detalhes offline foram especialmente úteis assim que saímos das estradas principais.",
+    "review1Country": "Alemanha",
+    "review2Title": "Exatamente o que precisávamos na estrada",
+    "review2Quote": "Rápida de percorrer, fácil de filtrar e muito mais útil do que uma dúzia de separadores abertos. Encontrámos um bom sítio para parar quase todos os dias.",
+    "review2Country": "Estados Unidos",
+    "review3Title": "Uma excelente companheira de viagem",
+    "review3Quote": "A informação sobre os refúgios e as notas de acesso pouparam-nos muito planeamento. Nota-se feita para quem anda mesmo a percorrer a Nova Zelândia.",
+    "review3Country": "Reino Unido",
+    "review4Title": "Um sítio calmo depois de um dia longo",
+    "review4Quote": "Depois de muitas horas ao volante, usámos os filtros para encontrar um sítio calmo com as instalações de que precisávamos. Muito menos stressante do que adivinhar a partir de um ponto no mapa.",
+    "review4Country": "Itália",
+    "review5Title": "Boa mistura de detalhes práticos",
+    "review5Quote": "Simples, clara e mesmo útil. Na primeira viagem misturámos alojamento pago e campismo gratuito, e voltávamos sempre a ela.",
+    "review5Country": "Países Baixos"
   },
   "pages": {
-    "privacy": {
-      "effective": "Em vigor a partir de 12 de agosto de 2026",
-      "title": "Política de privacidade",
-      "lede": "KiwiCamping ajuda você a planejar uma viagem sem transformá-la em um perfil publicitário.",
+    "support": {
+      "title": "Como podemos ajudar?",
+      "lede": "Respostas claras sobre mapas, locais guardados, planeamento e a estrada que tens pela frente.",
       "sections": [
         {
-          "heading": "Informações armazenadas no seu dispositivo",
+          "heading": "Encontrar locais",
           "paragraphs": [
-            "Locais salvos, associação a coleções, viagens, notas, itens de checklist e preferências são armazenados para que o aplicativo funcione. A localização pode ser usada para mostrar sua posição e locais próximos após você conceder permissão."
+            "Procura por nome, morada ou descrição. Move o mapa e escolhe a opção da área atual para concentrar os resultados na parte visível.",
+            "Filtra por tipo de local, tarifa, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso. Combina só os filtros que realmente interessam, para que continuem à vista alternativas úteis.",
+            "Comodidades, tarifas, acesso e gestão podem mudar. Segue os avisos em vigor e quem gere o terreno e depois envia-nos uma correção, para o diretório melhorar."
+          ]
+        },
+        {
+          "heading": "Locais guardados",
+          "paragraphs": [
+            "Gosto, Visitados, Quero ir e Destacados atualizam-se sozinhos quando marcas locais. Marcadores e Tudo o que guardaste dão outras vistas rápidas.",
+            "Cria coleções com nome, ícone e notas e junta-lhes qualquer local. Usa-as para uma região, uma época, um veículo ou uma pré-seleção.",
+            "A app suporta sincronização privada por iCloud para marcações, coleções e dados de viagens, sempre que o iCloud esteja disponível e ativo."
+          ]
+        },
+        {
+          "heading": "Planeador de viagens",
+          "paragraphs": [
+            "Cria uma viagem, junta locais e arrasta-os para os ordenar. Cada paragem pode ter a sua data de chegada, notas, meteorologia e estado de visitada, e o planeador mostra a distância troço a troço e na viagem inteira.",
+            "O cálculo do percurso depende das indicações disponíveis no MapKit. O planeador mantém as paragens se um troço falhar, mas confirmar que a estrada está transitável é contigo.",
+            "Começa pela lista base de campismo ou cria as tuas tarefas. O progresso da viagem mantém a lista ao lado do itinerário, e os detalhes do itinerário podem sincronizar com o Calendário."
+          ]
+        },
+        {
+          "heading": "Mapas, meteorologia e dados em direto",
+          "paragraphs": [
+            "Alterna entre o mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, que inclina e roda em relevo 3D. O Street View, assente nas imagens Look Around da Apple, abre a partir da ficha do local onde há imagens.",
+            "A meteorologia atual e a previsão precisam de dados em direto. Guarda as previsões importantes e os avisos oficiais antes de ficares sem cobertura.",
+            "O diretório incluído mantém os detalhes essenciais disponíveis muito para lá de uma rede fiável. Mapas em direto, cálculo de percursos, meteorologia, fotografias e páginas externas dos operadores podem exigir rede."
+          ]
+        },
+        {
+          "heading": "Preços e moeda",
+          "paragraphs": [
+            "Escolhe a tua moeda nas definições e define a taxa de câmbio. Os custos indicados passam a aparecer nessa moeda ao lado do valor em dólares neozelandeses, o que ajuda quando estás de visita e não tens à-vontade com o NZD.",
+            "Abre os dados de reserva ou contacto de um local para confirmar disponibilidade, preço e condições com quem o gere. Os preços na app são valores comunicados, não cotações em direto."
+          ]
+        },
+        {
+          "heading": "Premium e compras",
+          "paragraphs": [
+            "O mapa e as fichas dos locais são gratuitos, juntamente com duas listas guardadas.",
+            "O Premium acrescenta listas ilimitadas, planeamento de viagens, filtros avançados, meteorologia nos locais e percursos de viagem.",
+            "Usa Restaurar compras no ecrã Premium com sessão iniciada na conta Apple usada na compra original."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidade",
+      "lede": "A KiwiCamping ajuda-te a planear uma viagem sem transformar o teu percurso num perfil publicitário.",
+      "sections": [
+        {
+          "heading": "Informação guardada no teu dispositivo",
+          "paragraphs": [
+            "Os locais guardados, a pertença a coleções, as viagens, as notas, os itens das listas e as preferências ficam guardados para a app funcionar. A localização pode ser usada para mostrar a tua posição e os locais próximos depois de deres autorização."
           ]
         },
         {
           "heading": "iCloud",
           "paragraphs": [
-            "Quando o iCloud está disponível e ativado, o aplicativo pode usar seu banco de dados privado do iCloud para sincronizar estados salvos, coleções e registros de aplicativos em seus dispositivos. A Apple fornece o serviço subjacente e aplica os seus próprios termos."
+            "Quando o iCloud está disponível e ativo, a app pode usar a tua base de dados privada do iCloud para sincronizar marcações, coleções e registos entre os teus dispositivos. A Apple presta o serviço subjacente e aplica termos próprios."
           ]
         },
         {
-          "heading": "Serviços Apple ao vivo",
+          "heading": "Serviços em direto da Apple",
           "paragraphs": [
-            "Exibição de mapas, rotas, Look Around, previsão do tempo, integração de calendário e widgets podem usar estruturas da Apple. As solicitações e o tratamento de dados desses serviços são regidos pela Apple. O acesso ao calendário ocorre somente após permissão e é usado para adicionar informações do itinerário de viagem que você solicitar."
+            "A visualização de mapas, as indicações, o Look Around, a meteorologia, a integração com o calendário e os widgets podem usar frameworks da Apple. Os pedidos e o tratamento de dados desses serviços regem-se pela Apple. O acesso ao calendário só acontece depois de autorizares e serve para acrescentar a informação de itinerário que pedes."
           ]
         },
         {
-          "heading": "Links externos e registros de sites",
+          "heading": "Ligações externas e registos do site",
           "paragraphs": [
-            "Os detalhes do local podem abrir provedores de reservas, sites, perfis sociais, números de telefone, endereços de e-mail e aplicativos de mapas. Esses serviços recebem informações de acordo com suas próprias políticas quando você decide abri-los.",
-            "Os provedores de hospedagem podem processar registros técnicos de rotina, como endereço IP, tipo de navegador e URL solicitado para entrega, confiabilidade e segurança. KiwiCamping não usa rastreadores de publicidade neste site."
+            "A partir da ficha de um local podem abrir-se operadores de reserva, sites, perfis sociais, números de telefone, endereços de email e apps de mapas. Esses serviços recebem informação segundo as suas próprias políticas assim que escolhes abri-los.",
+            "Os fornecedores de alojamento podem tratar registos técnicos correntes, como endereço IP, tipo de navegador e URL pedido, para entrega, fiabilidade e segurança. A KiwiCamping não usa rastreadores publicitários neste site."
           ]
         },
         {
-          "heading": "Retenção e controle",
+          "heading": "Conservação e controlo",
           "paragraphs": [
-            "Você pode excluir registros de aplicativos por meio do aplicativo e gerenciar dados do iCloud por meio de sua conta Apple. A remoção do aplicativo pode remover dados locais, enquanto as cópias sincronizadas podem permanecer no iCloud até serem excluídas separadamente."
+            "Podes apagar os registos na própria app e gerir os dados do iCloud através da tua conta Apple. Remover a app pode apagar os dados locais, enquanto as cópias sincronizadas podem permanecer no iCloud até as apagares aí em separado."
           ]
         },
         {
-          "heading": "Crianças e contato",
+          "heading": "Crianças e contacto",
           "paragraphs": [
-            "KiwiCamping é um utilitário geral de viagens e não é direcionado a crianças. Não envie informações pessoais sobre uma criança através de apoio.",
-            "Para questões de privacidade, entre em contato com o suporte KiwiCamping."
+            "A KiwiCamping é uma ferramenta de viagem de uso geral e não se dirige a crianças. Não envies dados pessoais de crianças através do apoio.",
+            "Para questões de privacidade, escreve ao apoio da KiwiCamping."
           ]
         }
-      ]
+      ],
+      "effective": "Em vigor a 12 de agosto de 2026"
     },
     "terms": {
-      "effective": "Em vigor a partir de 12 de agosto de 2026",
-      "title": "Termos de uso",
-      "lede": "KiwiCamping é um auxílio de planejamento. Ele não substitui sinais oficiais, instruções do administrador de terra, avisos de emergência, conselhos rodoviários ou sua responsabilidade de viajar dentro de sua capacidade.",
+      "title": "Termos de utilização",
+      "lede": "A KiwiCamping é uma ajuda de planeamento. Não substitui os avisos oficiais, as indicações de quem gere o terreno, os alertas de emergência, a informação de trânsito nem a tua responsabilidade de viajar dentro das tuas capacidades.",
       "sections": [
         {
-          "heading": "Mudanças nas informações de viagem",
+          "heading": "A informação de viagem muda",
           "paragraphs": [
-            "Locais, preços, acessos, instalações, cobertura telefônica, clima, condições de incêndio, estradas e modalidades de reserva podem mudar sem aviso prévio. Verifique os detalhes críticos com a autoridade ou fornecedor responsável antes da viagem e novamente perto da partida."
+            "Locais, preços, acessos, comodidades, cobertura de rede, meteorologia, risco de incêndio, estradas e condições de reserva podem mudar sem aviso. Confirma os dados decisivos junto da autoridade responsável ou de quem gere o espaço antes de viajar e outra vez pouco antes de partir."
           ]
         },
         {
-          "heading": "Sem reserva ou garantia de acesso",
+          "heading": "Sem garantia de reserva ou de acesso",
           "paragraphs": [
-            "Uma listagem não garante que um local esteja aberto, legal para sua configuração, acessível por seu veículo ou disponível. Reservas externas e links de contato são fornecidos para sua conveniência. Os contratos são entre você e o fornecedor terceirizado."
+            "Uma ficha não garante que um local esteja aberto, seja permitido para o teu conjunto, acessível com o teu veículo ou disponível. As ligações externas de reserva e contacto existem por comodidade. Os contratos são entre ti e o operador em causa."
           ]
         },
         {
-          "heading": "Segurança e uso legal",
+          "heading": "Segurança e utilização lícita",
           "paragraphs": [
-            "Você deve obedecer a sinais, autorizações, fechamentos, restrições contra incêndio, regras de trânsito e instruções de guardas florestais, iwi, hapū, serviços de emergência e administradores de terras. Não use o aplicativo enquanto dirige."
+            "Tens de respeitar avisos, licenças, encerramentos, restrições por incêndio, regras de trânsito e indicações de guardas, iwi, hapū, serviços de emergência e gestores do terreno. Não uses a app enquanto conduzes."
           ]
         },
         {
-          "heading": "Dados do usuário",
+          "heading": "Dados do utilizador",
           "paragraphs": [
-            "Você é responsável pelas notas, planos de viagem e outras informações salvas. Mantenha cópias separadas de autorizações, reservas e planos críticos de segurança quando a perda de acesso puder colocar uma viagem em risco."
+            "És responsável pelas notas, planos de viagem e restante informação que guardas. Guarda cópias separadas de licenças, reservas e planos críticos para a segurança quando perder o acesso puder pôr uma viagem em risco."
           ]
         },
         {
           "heading": "Compras",
           "paragraphs": [
-            "Qualquer compra dentro do aplicativo é processada pela Apple e está sujeita aos termos mostrados na compra. Características, embalagens e preços podem mudar quando permitido. Use as ferramentas de compra da Apple para questões de cobrança, cancelamento e reembolso."
+            "Qualquer compra dentro da app é processada pela Apple e sujeita aos termos mostrados no momento da compra. Funcionalidades, pacotes e preços podem mudar dentro do que for permitido. Para faturação, cancelamento e reembolsos, usa as ferramentas de compra da Apple."
           ]
         },
         {
-          "heading": "Propriedade intelectual e contato",
+          "heading": "Propriedade intelectual e contacto",
           "paragraphs": [
-            "A marca KiwiCamping, a interface e o conteúdo editorial original pertencem aos seus respectivos proprietários. Nomes de lugares e fatos públicos permanecem propriedade ou responsabilidade de suas fontes originais.",
-            "Dúvidas podem ser enviadas para o suporte KiwiCamping."
+            "A marca, a interface e os conteúdos editoriais originais da KiwiCamping pertencem ao respetivo titular. Os nomes de locais e os factos públicos continuam a ser propriedade ou responsabilidade das suas fontes originais.",
+            "As perguntas podem ser enviadas ao apoio da KiwiCamping."
           ]
         }
-      ]
+      ],
+      "effective": "Em vigor a 12 de agosto de 2026"
     }
   },
   "articles": {}

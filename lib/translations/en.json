@@ -38,9 +38,9 @@
     "featuresText": "Explore places, compare the details, organise favourites and build a trip that stays useful after the planning table.",
     "featureMainEyebrow": "Know the place before you get there",
     "featureMainTitle": "Every place opens with the detail that decides it.",
-    "featureMainText": "Photos, a real description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, the weather, and Apple Look Around to see the entrance from the road.",
+    "featureMainText": "Photos, a real description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, the weather, and Street View to see the entrance from the road.",
     "featureList1": "Photos, hours, fees, conditions and facilities",
-    "featureList2": "Look Around, weather and directions built in",
+    "featureList2": "Street View, weather and directions built in",
     "featureList3": "Bundled offline, it opens with no signal",
     "feature1Title": "Smart collections and your own lists",
     "feature1Text": "Liked, Starred, Want to visit and Visited fill themselves as you mark places. Build named collections on top for an island, a season or the shortlist you are still arguing about.",
@@ -48,8 +48,8 @@
     "feature2Text": "Ask for free camping areas with toilets and drinking water around Queenstown, then narrow further by place type, fee, rating, online booking, region and detailed facility and access features.",
     "feature3Title": "Standard, satellite and 3D maps",
     "feature3Text": "Switch between the standard map and satellite imagery you can tilt and spin into real terrain. Pins group into counts when you are zoomed out and break apart as you move in.",
-    "feature4Title": "Street-level Look Around",
-    "feature4Text": "Apple Look Around opens straight from the place screen where coverage exists, so you can see the entrance, the road surface and the surroundings before committing the van to the turnoff.",
+    "feature4Title": "Street View before the turnoff",
+    "feature4Text": "Street View opens straight from the place screen where coverage exists, so you can see the entrance, the road surface and the surroundings before committing the van to the turnoff.",
     "feature5Title": "Weather on every place",
     "feature5Text": "Current conditions and the forecast sit on the place screen and beside each trip stop, so a choice between two camps can be made with the sky in mind.",
     "feature6Title": "Costs in your own currency",
@@ -96,7 +96,7 @@
     "faq2q": "What places are included?",
     "faq2a": "More than 4,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands.",
     "faq3q": "Does it work without reception?",
-    "faq3a": "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Look Around, photos and provider pages still need a connection.",
+    "faq3a": "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Street View, photos and provider pages still need a connection.",
     "faq4q": "Can I plan a multi-stop road trip?",
     "faq4a": "Yes, and it is the app's main feature. Add places as stops, drag them into order, attach a date and arrival notes to each one, see the driving distance leg by leg and across the whole trip, open directions to the next stop, check the weather at each one, tick stops off as visited and keep the packing list beside the itinerary. Itinerary details can sync to Calendar.",
     "faq5q": "What are collections?",
@@ -104,9 +104,9 @@
     "faq6q": "Can I filter for free camps or self-contained sites?",
     "faq6a": "Yes, and combinations of them. Filters cover place type, fee, minimum rating, online booking, region and detailed facility and access features, so “free camping areas with toilets and drinking water near Queenstown” is a single query.",
     "faq7q": "What is on a place screen?",
-    "faq7a": "Photos, a description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, weather, Apple Look Around where coverage exists, directions, and nearby alternatives.",
+    "faq7a": "Photos, a description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, weather, Street View where coverage exists, directions, and nearby alternatives.",
     "faq8q": "What map views are there?",
-    "faq8a": "A standard map and a satellite view built on Apple's flyover imagery, which you can tilt and rotate for real 3D terrain. Apple Look Around gives the street-level view from the place screen.",
+    "faq8a": "A standard map and a satellite view built on Apple's flyover imagery, which you can tilt and rotate for real 3D terrain. Street View, built on Apple's Look Around imagery, gives the street-level view from the place screen.",
     "faq9q": "Can I see prices in my own currency?",
     "faq9a": "Yes. Choose your currency in settings and set the conversion rate, and reported costs are shown in that currency alongside the New Zealand dollar figure.",
     "faq10q": "Can I book a campsite in KiwiCamping?",
@@ -217,7 +217,7 @@
         {
           "heading": "Maps, weather and live details",
           "paragraphs": [
-            "Switch between the standard map and a satellite view built on Apple's flyover imagery, which tilts and rotates into 3D terrain. Apple Look Around opens from the place screen where coverage exists.",
+            "Switch between the standard map and a satellite view built on Apple's flyover imagery, which tilts and rotates into 3D terrain. Street View, built on Apple's Look Around imagery, opens from the place screen where coverage exists.",
             "Current and forecast weather requires live data. Save critical forecasts and official warnings before leaving coverage.",
             "The bundled place directory keeps core place details available beyond reliable signal. Live maps, routing, weather, photos and external provider pages may require reception."
           ]
@@ -3341,7 +3341,7 @@
           "heading": "What genuinely needs a connection",
           "body": [
             "Weather forecasts, live routing and directions, external booking pages, provider websites and some map imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
-            "Apple Look Around imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends."
+            "Street View imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends."
           ],
           "tips": []
         },
@@ -3402,11 +3402,11 @@
       "priceTable": null
     },
     "kiwicamping-weather-look-around": {
-      "title": "Use weather and Look Around before choosing a stay",
+      "title": "Use weather and Street View before choosing a stay",
       "description": "Compare the forecast and road environment with the actual campsite decision.",
       "region": "KiwiCamping",
       "imageAlt": "Weather and place preview in KiwiCamping",
-      "intro": "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Look Around fill in the parts that decide whether a night is comfortable.",
+      "intro": "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Street View fill in the parts that decide whether a night is comfortable.",
       "sections": [
         {
           "heading": "Check the forecast for the site, not the region",
@@ -3441,9 +3441,9 @@
           ]
         },
         {
-          "heading": "Preview the arrival with Look Around",
+          "heading": "Preview the arrival with Street View",
           "body": [
-            "Where Apple Look Around imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
+            "Where Street View imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
             "It is equally useful for spotting what a listing will not tell you: that a site backs onto a main road, sits beside a rail line, or that the only access is a steep gravel descent you would rather not reverse out of."
           ],
           "tips": []
@@ -3451,7 +3451,7 @@
         {
           "heading": "Treat imagery as old, because it is",
           "body": [
-            "Look Around imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
+            "Street View imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
             "Use it to build an expectation, not a guarantee. Signs, barriers and conditions on arrival decide, and if the ground contradicts the imagery, the ground is right."
           ],
           "tips": [

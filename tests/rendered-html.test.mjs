@@ -27,32 +27,53 @@ test("renders dated New Zealand cost tables in ten currencies",async()=>{const r
 
 test("renders tools with official benchmark defaults",async()=>{const response=await fetchPage("/tools");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Currency converter/);assert.match(html,/Fuel calculator/);assert.match(html,/data-static-tools/);assert.match(html,/120\.0 L · NZ\$355\.20/)});
 
-test("publishes all six language editions, road trips excluded",async()=>{
+test("publishes every guide in every locale",async()=>{
+  // Every guide is available in all six languages. Ones a locale has not translated are served whole
+  // in English, road trips included, so no localised URL is ever missing.
   for(const locale of ["de","es","fr","it","nl","pt"]){
-    for(const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms"]){
+    for(const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms",
+                        "/guides/doc-hut-rules-etiquette", "/guides/coromandel-rotorua-road-trip"]){
       assert.equal((await fetchPage(`/${locale}${route}`)).status,200,`${locale}${route}`);
     }
-    // Road trips stay English-only, so no locale may ever serve one.
-    assert.equal((await fetchPage("/"+locale+"/guides/coromandel-rotorua-road-trip")).status,404,`${locale} must not publish a translated road trip`);
+  }
+});
+
+test("road trips are never translated",async()=>{
+  for(const locale of ["de","es","fr","it","nl","pt"]){
+    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+    assert.ok(!file.articles?.["coromandel-rotorua-road-trip"],`${locale} must not translate a road trip`);
   }
 });
 
 test("never serves a half-translated guide",async()=>{
-  // A localised guide URL exists only where that locale's translation is complete. Anything partial
-  // or structurally stale must 404 rather than render a mixture of two languages. This is the exact
-  // defect that shipped once: English guides rewritten from three sections to seven, leaving
-  // translated prose under unrelated headings and four untranslated sections appended below.
-  // The content audit guarantees a locale file only ever contains guides the site can render, so
-  // the file's own keys are the list of what must resolve.
+  // All or nothing per guide. Where a locale has no translation, the article's own prose must appear
+  // verbatim in English, so a reader never gets one paragraph in their language and the next in
+  // English. This is the exact defect that shipped once, when the English guides were rewritten from
+  // three sections to seven underneath their translations.
+  const slug="doc-hut-rules-etiquette";
+  const source=JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8")).articles[slug];
+  const prose=[source.intro,...source.sections.flatMap((section)=>[section.heading,...section.body])];
+  const decode=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/<!-- -->/g,"");
   for(const locale of ["de","es","fr","it","nl","pt"]){
     const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
-    const complete=new Set(Object.keys(file.articles??{}));
-    const index=await (await fetchPage(`/${locale}/guides`)).text();
-    for(const slug of ["doc-hut-rules-etiquette","camping-fees-new-zealand-2026","sandflies-new-zealand-camping"]){
-      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status,complete.has(slug)?200:404,`${locale}/${slug}`);
-      if(!complete.has(slug)) assert.ok(!index.includes(`/${locale}/guides/${slug}"`),`${locale} lists ${slug} it cannot serve`);
-    }
-    if(complete.size===0) assert.match(index,/Not available in this language yet/);
+    if(file.articles?.[slug])continue;
+    const page=decode(await (await fetchPage(`/${locale}/guides/${slug}`)).text());
+    for(const text of prose) assert.ok(page.includes(text),`${locale}/${slug} is missing English prose it should be falling back to`);
+  }
+});
+
+test("a published locale translates the whole interface",async()=>{
+  // A locale goes live only when every UI string is done, so a live locale must not leak English
+  // chrome, and one that is not live must stay noindex and out of the sitemap.
+  const sitemap=await (await fetchPage("/sitemap.xml")).text();
+  const total=Object.keys(JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8")).ui).length;
+  for(const locale of ["de","es","fr","it","nl","pt"]){
+    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+    const published=Object.keys(file.ui??{}).length===total;
+    assert.equal(sitemap.includes(`/${locale}/guides`),published,`${locale} sitemap presence must match its translation state`);
+    const html=await (await fetchPage(`/${locale}`)).text();
+    assert.match(html,published?/name="robots" content="index/:/name="robots" content="noindex/,`${locale} robots meta must match its translation state`);
+    if(published)for(const phrase of ["Download app","Explore the guides","Made for plans"])assert.ok(!html.includes(phrase),`${locale} leaked English chrome: ${phrase}`);
   }
 });
 

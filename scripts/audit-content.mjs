@@ -41,26 +41,28 @@ assert.doesNotMatch(content, /this (section|page|guide|article) (explains|descri
 /**
  * Translation contract.
  *
- * Road trip guides are deliberately English-only, so a locale file must never carry one. Everything
- * else may be partial while a translation is in progress, because lib/localized.ts refuses to render
- * anything incomplete and falls back to English instead. What this enforces is that a locale file
- * never contains a translation the site cannot use: if an article is in the file, it must be
- * complete and structurally identical to the English it translates. That is the check that would
- * have caught the guides being rewritten from three sections to seven underneath their translations.
+ * Every guide is published in every locale; ones a locale has not translated are served whole in
+ * English. Road trip guides are deliberately never translated, so a locale file must not carry one.
+ *
+ * What this enforces is that a locale file never contains a translation the site cannot use: if an
+ * article is in the file, it must be complete and structurally identical to the English it
+ * translates, or the site quietly falls back to English and the work looks done when it is not.
+ * That is the check that would have caught the guides being rewritten from three sections to seven
+ * underneath their translations.
  */
 const roadTripSlugs = new Set([...(await readFile(resolve(root, "lib/content/road-trips.ts"), "utf8")).matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
 assert.ok(roadTripSlugs.size >= 15, `Expected the road trip guides to be found, got ${roadTripSlugs.size}`);
 
-const { localeCodes, localizedArticles, translationProgress } = await import("../lib/localized.ts");
+const { localeCodes, fullyTranslatedSlugs, translationProgress } = await import("../lib/localized.ts");
 const summary = [];
 for (const locale of localeCodes) {
   const translated = JSON.parse(await readFile(resolve(root, `lib/translations/${locale}.json`), "utf8"));
   for (const slug of roadTripSlugs) assert.ok(!translated.articles[slug], `${locale} carries ${slug}, but road trips stay English-only`);
   assert.doesNotMatch(JSON.stringify(translated), /—/, `${locale} contains an em dash`);
 
-  const renderable = new Set(localizedArticles(locale).map((article) => article.slug));
+  const complete = new Set(fullyTranslatedSlugs(locale));
   for (const slug of Object.keys(translated.articles)) {
-    assert.ok(renderable.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site cannot render it. Finish it or remove it.`);
+    assert.ok(complete.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site falls back to English for it. Finish it or remove it.`);
   }
   const progress = translationProgress(locale);
   summary.push(`${locale} ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages`);

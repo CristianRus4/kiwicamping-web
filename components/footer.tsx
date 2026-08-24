@@ -14,7 +14,7 @@ export function Footer() {
       </div>
       <nav className="language-nav" aria-label="Languages"><Link href="/" aria-current="page">English</Link><Link href="/de">Deutsch</Link><Link href="/es">Español</Link><Link href="/fr">Français</Link><Link href="/it">Italiano</Link><Link href="/nl">Nederlands</Link><Link href="/pt">Português</Link></nav>
       {publishedLocales.length > 0 && <nav className="language-nav" aria-label="Languages"><Link href="/" aria-current="page">English</Link>{publishedLocales.map((code) => <Link href={`/${code}`} key={code}>{localeLabels[code]}</Link>)}</nav>}
-      <div className="footer-bottom"><span>© {new Date().getFullYear()} KiwiCamping</span><span>Made for the long way around New Zealand.</span></div>
+      <div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>Made for the long way around New Zealand.</span></div>
     </footer>
   );
 }
