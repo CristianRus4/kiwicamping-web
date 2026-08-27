@@ -11,7 +11,29 @@ export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, Article
 export { makeArticle, section, articleHref } from "@/lib/article-model";
 
 export const SITE_URL = "https://campingapp.nz";
-export const APP_STORE_URL = "https://apps.apple.com/us/app/nz-camping-map-kiwicamping/id6746952595";
+/** The App Store identifier KiwiCamping is published under. Every store link, the smart app banner,
+ * the QR card and the schema install URLs derive from this one constant. */
+export const APP_ID = "6746952595";
+/** The canonical listing URL, so store links never take a redirect hop. */
+export const APP_STORE_URL = `https://apps.apple.com/app/camping-map-nz-kiwicamping/id${APP_ID}`;
+/**
+ * The final URL for a site path.
+ *
+ * The host serves every directory route with a trailing slash and 301s the slash-less form, so
+ * `/guides` costs a redirect on every visit. Worse, it makes every canonical, hreflang tag and
+ * sitemap entry name a URL that redirects rather than the one that answers. Canonicals, alternates,
+ * sitemap entries and internal links all go through here so they name the served URL directly.
+ *
+ * Articles published at an existing `.html` URL are real files, not directories, and keep their
+ * exact published path.
+ */
+export function sitePath(path: string): string {
+  if (!path || path === "/") return "/";
+  const [base, hash] = path.split("#");
+  if (base.endsWith("/") || /\.[a-z0-9]+$/i.test(base)) return path;
+  return `${base}/${hash ? `#${hash}` : ""}`;
+}
+
 export const SUPPORT_EMAIL = "support@cntxtlabs.co";
 export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=KiwiCamping%20web%20contact`;
 

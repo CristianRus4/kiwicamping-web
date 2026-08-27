@@ -38,4 +38,4 @@ export function section(heading: string, first: string, second: string, tips?: s
 }
 
 /** Canonical site path for an article: its existing published URL when it has one, otherwise /guides/<slug>. */
-export const articleHref = (item: Pick<Article, "slug" | "legacyPath">) => item.legacyPath ?? `/guides/${item.slug}`;
+export const articleHref = (item: Pick<Article, "slug" | "legacyPath">) => item.legacyPath ?? `/guides/${item.slug}/`;

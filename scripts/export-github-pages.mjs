@@ -8,6 +8,8 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
 // campingapp.nz is served from a custom domain, so the site lives at the root. Only override this
 // when deploying to a project-page subpath.
+const defaultLang = "en-NZ";
+const siteName = "KiwiCamping";
 const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 const sources = await Promise.all((await readdir(resolve(root,"lib/content"))).filter((name)=>name.endsWith(".ts")).map((name) => readFile(resolve(root,"lib/content",name), "utf8")));
 // Articles that already rank keep their published .html URL; everything else lives under /guides/.
@@ -29,8 +31,14 @@ await cp(resolve(root, "dist/client"), output, { recursive: true });
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:resolve(root,"dist"),noCompression:true,purpose:"prerender"});
 
-function prepareHtml(html) {
+// The root layout renders a single <html> element for every route, so localised pages inherited
+// `lang="en-NZ"`. Each exported file knows its own locale, so the tag is corrected here.
+const localeLang = { de: "de-DE", es: "es-ES", fr: "fr-FR", it: "it-IT", nl: "nl-NL", pt: "pt-PT" };
+const routeLang = (route) => localeLang[route.split("/")[1]] ?? "en-NZ";
+
+function prepareHtml(html, route) {
   return html
+    .replace(/<html lang="[^"]*"/i, `<html lang="${routeLang(route)}"`)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
       return /type="application\/ld\+json"|data-static-tools/i.test(openingTag) ? script : "";
@@ -45,7 +53,7 @@ for (const route of htmlRoutes) {
   assert.equal(response.status, 200, `Could not export ${route}`);
   const target = outputPath(route);
   await mkdir(dirname(target), { recursive: true });
-  await writeFile(target, prepareHtml(await response.text()));
+  await writeFile(target, prepareHtml(await response.text(), route));
 }
 
 for (const route of textRoutes) {
@@ -64,6 +72,26 @@ for (const name of await readdir(resolve(output, "assets"))) {
   const css = await readFile(path, "utf8");
   await writeFile(path, css.replace(/url\(\/(?!\/)/g, `url(${basePath}/`));
 }
+
+// A short, memorable download URL for QR codes, print and link-in-bio. GitHub Pages cannot issue a
+// 301, so this is the static equivalent: an immediate meta refresh, noindex so it never competes in
+// search, and a real link for anything that ignores the refresh.
+const siteConstants = await readFile(resolve(root, "lib/site.ts"), "utf8");
+const appId = siteConstants.match(/APP_ID = "(\d+)"/)[1];
+const appStoreUrl = siteConstants.match(/export const APP_STORE_URL = `([^`]+)`/)[1].replace("${APP_ID}", appId);
+await mkdir(resolve(output, "download"), { recursive: true });
+await writeFile(resolve(output, "download/index.html"), `<!doctype html>
+<html lang="${defaultLang}">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=${appStoreUrl}">
+<link rel="canonical" href="${appStoreUrl}">
+<title>Download ${siteName}</title>
+</head>
+<body><p>Opening the App Store. <a href="${appStoreUrl}">Continue to ${siteName} on the App Store</a>.</p></body>
+</html>
+`);
 
 await writeFile(resolve(output, ".nojekyll"), "");
 // Without CNAME in the artifact GitHub Pages drops the campingapp.nz custom domain on deploy.

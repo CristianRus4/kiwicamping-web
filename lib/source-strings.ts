@@ -25,6 +25,14 @@ export const uiStrings = {
 
   navFeatures: "Features", navGuides: "Guides", navTools: "Tools", navSupport: "Support", download: "Download app", downloadShort: "Download",
 
+  /* Alt text for the app screenshots. Real <img> elements need real alt text, and a German page
+     describing its screenshots in English helps neither a reader nor an image search. */
+  altHero: "The KiwiCamping map for New Zealand, with campsite, holiday park and freedom camping pins across Golden Bay and the Explore list of nearby places below",
+  altPlaceScreen: "A KiwiCamping place screen for Robin Hood Bay Campsite in Marlborough, showing the free fee, opening status, amenities and a booking link",
+  altCollectionsScreen: "The KiwiCamping collections screen with Want to visit, Visited, Pins and All saved lists over a satellite map of Great Barrier Island",
+  altTripScreen: "A KiwiCamping road trip itinerary for the Bay of Islands, listing seven stops with driving distance, dates and the weather at each campsite",
+  altExploreScreen: "The KiwiCamping Explore list showing DOC huts and campsites in Southland, Auckland and Wellington with their distance from the map view",
+
   heroKicker: "The best camping app for New Zealand",
   heroTitle: "New Zealand is big, your plan can be simple",
   heroText: "6,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.",

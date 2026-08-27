@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { SITE_URL } from "@/lib/site";
+import { APP_ID, SITE_URL } from "@/lib/site";
 import { localeCodes } from "@/lib/localized";
 import { seoLanguageTags } from "@/lib/seo";
 
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },
-  other: { "apple-itunes-app": "app-id=6746952595" },
+  other: { "apple-itunes-app": `app-id=${APP_ID}` },
 };
 
 export const viewport: Viewport = {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, getArticleByLegacyPath, legacyArticles } from "@/lib/site";
+import { SITE_URL, getArticleByLegacyPath, legacyArticles , sitePath} from "@/lib/site";
 import { getTranslation, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
 
@@ -62,7 +62,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     title: path.length ? title : { absolute: title },
     description,
     keywords:ui.metaKeywords.split(", "),
-    alternates:{canonical:`/${locale}${suffix}`,languages:indexable?seoLanguageTags(suffix):undefined},
+    alternates:{canonical:sitePath(`/${locale}${suffix}`),languages:indexable?seoLanguageTags(suffix):undefined},
     openGraph:{
       type:article?"article":"website",
       siteName:"KiwiCamping",
