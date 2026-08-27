@@ -16,7 +16,7 @@ const sources = await Promise.all((await readdir(resolve(root,"lib/content"))).f
 const entries = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"(?:,\s*legacyPath:\s*"([^"]+)")?/g)].map((match) => ({ slug: match[1], legacyPath: match[2] })));
 const legacyRoutes = entries.filter((entry) => entry.legacyPath).map((entry) => entry.legacyPath);
 const guideSlugs = entries.filter((entry) => !entry.legacyPath).map((entry) => entry.slug);
-const rootRoutes = ["/", "/guides", ...guideSlugs.map((slug) => `/guides/${slug}`), ...legacyRoutes, "/tools", "/support", "/privacy", "/terms"];
+const rootRoutes = ["/", "/guides", ...guideSlugs.map((slug) => `/guides/${slug}`), ...legacyRoutes, "/tools", "/support", "/credits", "/privacy", "/terms"];
 // Every locale exports every guide; ones it has not translated are served in English.
 const localeRoutes=["de","es","fr","it","nl","pt"].flatMap((locale)=>["", "/guides", ...guideSlugs.map((slug)=>`/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route)=>`/${locale}${route}`));
 const htmlRoutes = [...rootRoutes,...localeRoutes];

@@ -54,7 +54,8 @@ const application = {
   "@type": "MobileApplication",
   "@id": `${SITE_URL}/#app`,
   name: "KiwiCamping",
-  alternateName: "KiwiCamping: NZ Camping Map",
+  // Exactly as the App Store lists it, so the two records describe the same product.
+  alternateName: "Camping Map NZ: KiwiCamping",
   operatingSystem: "iOS",
   applicationCategory: "TravelApplication",
   applicationSubCategory: "Camping and road trip planner",
@@ -80,17 +81,45 @@ const application = {
   ],
 };
 
-/** The homepage graph: who publishes the site, what the site is, what the app is, and the FAQ. */
-export function homeSchema(description: string, faqs: readonly (readonly [string, string])[]) {
+/**
+ * The homepage graph: who publishes the site, what the site is, what the app is, and the FAQ.
+ *
+ * Seven language editions render this, so the node identifiers matter. The publisher, the website
+ * and the app are one thing each however many languages describe them, and they keep one `@id` so
+ * the graph does not claim seven organisations. The page and its FAQ are genuinely per-language, so
+ * they are identified by the URL they are on. Previously every locale emitted `#faq` and a different
+ * `description` under the same identifiers, which asks Google to reconcile seven contradictory
+ * copies of one node.
+ */
+export function homeSchema(
+  description: string,
+  faqs: readonly (readonly [string, string])[],
+  page: { url?: string; inLanguage?: string } = {},
+) {
+  const url = page.url ?? `${SITE_URL}/`;
+  const inLanguage = page.inLanguage ?? defaultHreflang;
   return {
     "@context": "https://schema.org",
     "@graph": [
       organization,
-      { ...website, description },
+      website,
       application,
       {
+        "@type": "WebPage",
+        "@id": `${url}#webpage`,
+        url,
+        name: "KiwiCamping",
+        description,
+        inLanguage,
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        about: { "@id": `${SITE_URL}/#app` },
+        primaryImageOfPage: { "@type": "ImageObject", url: SCREENSHOT },
+      },
+      {
         "@type": "FAQPage",
-        "@id": `${SITE_URL}/#faq`,
+        "@id": `${url}#faq`,
+        inLanguage,
+        isPartOf: { "@id": `${url}#webpage` },
         mainEntity: faqs.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })),
       },
     ],
