@@ -36,13 +36,15 @@ export const metadata: Metadata = {
     description:
       "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
     url: SITE_URL,
-    images: [{ url: "/images/kiwicamping-hero.webp", width: 1000, height: 1500, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
+    // A 1200x630 card. The hero screenshot used to fill this slot, and being 1000x1500 it was
+    // centre-cropped to a strip by every social preview that rendered it.
+    images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "KiwiCamping: NZ camping map and road trip planner",
     description: "6,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
-    images: ["/images/kiwicamping-hero.webp"],
+    images: ["/images/kiwicamping-og.webp"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },

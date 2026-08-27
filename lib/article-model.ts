@@ -10,6 +10,15 @@ export type Article = {
    * path and are deliberately excluded from /guides/<slug> so a single page never has two live URLs.
    */
   legacyPath?: string;
+  /**
+   * Two questions this guide answers, in the words someone would search them.
+   *
+   * Deliberately not a duplicate of the homepage FAQ: two FAQPage blocks answering the same
+   * question on one site compete with each other. Road trip guides carry none, because an itinerary
+   * is not a question-shaped search and Google's own guidance points FAQ markup at pages that
+   * answer questions.
+   */
+  faq?: readonly (readonly [string, string])[];
   sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable;
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
