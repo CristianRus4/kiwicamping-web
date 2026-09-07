@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, getArticle, guideArticles } from "@/lib/site";
+import { SITE_URL, getArticle, guideArticles, sitePath } from "@/lib/site";
 import { seoLanguageTags } from "@/lib/seo";
 
 // Articles with a legacyPath are served at their existing campingapp.nz URL instead, so they are
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       locale: "en_NZ",
       title: item.title,
       description: item.description,
-      url: `${SITE_URL}/guides/${item.slug}`,
+      url: `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`,
       images: [{ url: item.image, alt: item.imageAlt }],
     },
     twitter: { card: "summary_large_image", title: item.title, description: item.description, images: [item.image] },
