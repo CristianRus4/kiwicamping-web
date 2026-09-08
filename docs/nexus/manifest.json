@@ -1,5 +1,5 @@
 {
   "schemaVersion": 1,
   "repository": "CristianRus4/kiwicamping-web",
-  "sources": [{ "project": "kiwicamping", "role": "website", "include": ["README.md", "docs/**/*.md"] }]
+  "sources": [{ "project": "kiwicamping", "role": "website", "include": ["README.md", "docs/*.md", "docs/**/*.md"] }]
 }
