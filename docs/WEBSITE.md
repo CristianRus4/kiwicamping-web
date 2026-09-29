@@ -6,4 +6,4 @@
 - Locale content: `lib/translations/*.json`
 
 Future SEO observations belong to the stable `kiwicamping-site` identity in
-Nexus; website implementation and content remain authoritative here.
+Context; website implementation and content remain authoritative here.

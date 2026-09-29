@@ -34,5 +34,4 @@ translations, source records, metadata, and web deployment. Official agencies
 and current on-the-ground notices outrank both for road, weather, conservation,
 fire, freedom-camping, and safety conditions.
 
-All Markdown under `docs/` is included by the Nexus manifest and syncs after a
-commit is pushed to main.
+Committed Markdown under `docs/` is available directly to Context.

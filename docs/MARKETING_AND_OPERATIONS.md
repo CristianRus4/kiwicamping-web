@@ -72,8 +72,6 @@ Rollback by reverting the faulty commit and allowing Pages to redeploy the last
 known-good source. For incorrect safety or legal content, remove or correct the
 page immediately and then complete the broader editorial audit.
 
-## Nexus
+## Repository documentation
 
-The docs workflow and Pages workflow are independent. Nexus receives the root
-README and `docs/**/*.md` only after the files are committed and pushed. Verify
-both checks when documentation accompanies a release.
+Committed documentation lives in this repository and Context reads it directly.

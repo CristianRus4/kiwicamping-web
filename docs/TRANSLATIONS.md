@@ -92,3 +92,9 @@ Translations: de 86/186 ui, 0/43 guides, 2/3 pages · es 86/186 ui, ...
 - Prices stay in NZD. The multi-currency table converts mechanically and its column headers are
   currency codes, which are not translated.
 - Place names, park names and official body names stay in their original form.
+
+## Engine integration
+
+The website publishes complete locale shells and only indexes a guide once its
+translation is structurally complete. The shared engine preserves nested keys,
+ordered arrays, links, markup, SEO fields, and protected New Zealand terms.
