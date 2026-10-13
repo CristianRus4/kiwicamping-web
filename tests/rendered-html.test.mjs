@@ -75,8 +75,10 @@ test("a published locale translates the whole interface",async()=>{
     assert.match(html,published?/name="robots" content="index/:/name="robots" content="noindex/,`${locale} robots meta must match its translation state`);
     if(published)for(const phrase of ["Download app","Explore the guides","Made for plans"])assert.ok(!html.includes(phrase),`${locale} leaked English chrome: ${phrase}`);
     const guide=await(await fetchPage(`/${locale}/guides/doc-hut-rules-etiquette`)).text();
-    assert.match(guide,/name="robots" content="noindex, follow"/,`${locale} untranslated guide must be noindex`);
-    assert.ok(!sitemap.includes(`/${locale}/guides/doc-hut-rules-etiquette/`),`${locale} untranslated guide must stay out of the sitemap`);
+    // A guide is indexable once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
+    const translatedGuide = Boolean(file.articles?.["doc-hut-rules-etiquette"]) && published;
+    assert.match(guide, translatedGuide ? /name="robots" content="index, follow/ : /name="robots" content="noindex, follow"/, `${locale} guide robots must match its translation state`);
+    assert.equal(sitemap.includes(`/${locale}/guides/doc-hut-rules-etiquette/`), translatedGuide, `${locale} guide sitemap presence must match its translation state`);
   }
 });
 

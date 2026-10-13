@@ -16,7 +16,9 @@
         { "locale": "nl", "path": "../lib/translations/nl.json" },
         { "locale": "pt", "path": "../lib/translations/pt.json" }
       ],
-      "protectedTerms": ["KiwiCamping", "Aotearoa", "Aoraki", "DOC", "Waka Kotahi", "NZD"]
+      "protectedTerms": ["KiwiCamping", "Aotearoa", "Aoraki", "DOC", "Waka Kotahi", "NZD", "North Island", "South Island", "Stewart Island"],
+      "varieties": { "pt": "pt-PT" },
+      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal" }
     }
   ]
 }
