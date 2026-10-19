@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Français",
     "metaTitle": "KiwiCamping : carte camping en Nouvelle-Zélande, DOC et road trip",
-    "metaDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de freedom camping en Nouvelle-Zélande. Fiches lisibles sans réseau, filtres précis, road trip étape par étape.",
+    "metaDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de freedom camping en Nouvelle-Zélande. Fiches lisibles sans réseau, filtres précis et planificateur de road trip étape par étape pour iPhone.",
     "ogTitle": "KiwiCamping : la carte camping et le planificateur de road trip pour la Nouvelle-Zélande",
     "ogDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de camping libre, intégrés à l’app et lisibles sans réseau. Filtrez, gardez vos favoris et préparez tout le voyage.",
     "metaKeywords": "application camping Nouvelle-Zélande, carte camping Nouvelle-Zélande, freedom camping Nouvelle-Zélande, camping gratuit Nouvelle-Zélande, campings DOC, refuges DOC, holiday parks Nouvelle-Zélande, van Nouvelle-Zélande, road trip Nouvelle-Zélande",
@@ -5109,6 +5109,513 @@
           {
             "label": "Train panoramique",
             "unit": "fourchette pour un aller simple"
+          }
+        ]
+      }
+    },
+    "freedom-camping-new-zealand-guide": {
+      "title": "Camping gratuit en Nouvelle-Zélande : où c’est légal et sûr",
+      "description": "Quels terrains autorisent une nuit gratuite, quelle certification exiger de votre véhicule et les bons usages qui évitent la fermeture des sites.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Van certifié sur une aire de freedom camping autorisée",
+      "intro": "Oui, on peut encore camper gratuitement dans toute l’Aotearoa, mais c’est aussi la partie du voyage qui vaut le plus souvent une amende de 400 $. Tout tient à trois choses : savoir quels terrains l’autorisent, vérifier que votre véhicule répond à la norme de certification, et respecter des usages auxquels la plupart des voyageurs ne pensent qu’au jour où une commune ferme un site.",
+      "sections": [
+        {
+          "heading": "Gratuit et libre ne veulent pas dire la même chose",
+          "body": [
+            "Le freedom camping (camping libre, hors camping aménagé) décrit l’endroit où vous dormez, pas ce que vous payez. Certaines aires de freedom camping autorisées ne coûtent rien, d’autres demandent une petite redevance ou un permis à obtenir à l’avance. À l’inverse, certaines des nuits légales les moins chères du pays se passent dans les campings basiques du DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés), des campings officiels qui se trouvent être gratuits.",
+            "Bien faire la différence fait gagner de l’argent et évite des ennuis. Si vous ne cherchez que le mot « gratuit », vous passez à côté des sites du DOC à 0 $, et si vous croyez que toutes les aires de freedom camping sont gratuites, vous pouvez découvrir un permis obligatoire une fois installé."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Où une nuit gratuite est réellement légale",
+          "body": [
+            "Les réserves publiques signalées spécialement pour le freedom camping sont l’option la plus fiable, et les communes publient les listes. Le DOC gère un grand nombre de campings basiques gratuits, en général avec des toilettes sèches et une source d’eau non traitée : idéal si vous êtes équipé pour être autonome. Certaines communes aménagent aussi des parkings, des aires de gravier ou des showgrounds (terrains de foire agricole) où les véhicules certifiés peuvent passer une nuit ou deux.",
+            "Les aires de repos de la NZTA existent pour la <a data-guide=\"alcohol-fatigue-driving-new-zealand\">fatigue</a> des conducteurs, pas pour camper : une pause pour dormir n’est pas une installation de camp, et des restrictions locales peuvent s’appliquer. Un terrain privé (le champ d’un ami, une ferme, un marae) compte comme camping gratuit si le propriétaire vous y autorise, et son accord doit être explicite, jamais supposé. Ne considérez jamais un pré ou une route forestière comme ouverts par défaut."
+          ],
+          "tips": [
+            "Les sites basiques du DOC sont souvent gratuits",
+            "Les aires de repos servent aux pauses anti-fatigue",
+            "L’accord d’un propriétaire doit être explicite"
+          ]
+        },
+        {
+          "heading": "La certification exigée",
+          "body": [
+            "La plupart des communes exigent pour le freedom camping un véhicule <a data-guide=\"self-contained-campervan-green-warrant\">certifié self-contained</a> (autonome), avec des toilettes fixes. Le système est encore en transition : les anciens warrants bleus restent valables jusqu’à leur expiration, et au plus tard jusqu’au 31 décembre 2027. Passé cette date, les zones réglementées exigeront le warrant vert de certification self-contained délivré dans le cadre du système réglementé.",
+            "On peut camper sans certification, mais seulement dans les rares zones qui l’autorisent expressément, ou en pleine nature, très loin des routes, là où ce sont les règles du DOC qui s’appliquent. En voiture, en tente ou en van non certifié, organisez-vous autour des sites qui acceptent précisément votre installation plutôt que d’espérer qu’une zone générale fasse l’affaire."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Les restrictions à prévoir",
+          "body": [
+            "Les séjours sont presque toujours limités à une ou deux nuits, souvent avec des plages d’arrivée et de départ : on se gare après le début de soirée et on part avant la fin de matinée. Le silence est exigé la nuit sur la plupart des sites urbains. Les districts les plus demandés, dont Queenstown-Lakes, Tauranga et Kaikōura, organisent des patrouilles le soir et à l’aube et vérifient la certification d’après la plaque.",
+            "Lisez le texte précis de l’<a data-guide=\"camping-rules-local-councils-new-zealand\">arrêté municipal</a> plutôt qu’un résumé. Quand une fiche indique « permis obligatoire », le permis est généralement gratuit, mais il faut l’obtenir avant d’arriver, et se présenter sans lui reste une infraction. Quand elle indique « camping de nuit interdit », cela vaut même si vous comptez rester calme et discret."
+          ],
+          "tips": [
+            "Comptez 1 à 2 nuits maximum",
+            "Le permis est souvent gratuit, mais à obtenir avant d’arriver",
+            "Les patrouilles passent au crépuscule et à l’aube"
+          ]
+        },
+        {
+          "heading": "Les bons usages gardent les sites ouverts",
+          "body": [
+            "Le camping gratuit repose sur la tolérance du public, et les sites ferment quand elle s’épuise. Restez discret : garez-vous dans l’emplacement marqué, rentrez auvents et chaises sauf si les panneaux l’autorisent, arrivez sans bruit et partez tôt. Deux véhicules, c’est un maximum raisonnable sur un spot urbain de freedom camping, et un convoi de six suffit à faire fermer le site pour tout le monde.",
+            "Videz vos réservoirs dans une <a data-guide=\"camping-wastewater-rubbish-new-zealand\">aire de vidange</a> avant d’arriver plutôt qu’après être parti, car l’odeur des eaux grises est la première cause de plainte. Changez de lieu plutôt que de vous installer une semaine au même endroit. Si des habitants ou des kaumātua (anciens māori) vous demandent de partir, partez poliment : la discussion qui suit un refus finit en général dans un courrier adressé à la commune."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "La sécurité, pas seulement la légalité",
+          "body": [
+            "Un site légal n’est pas forcément un bon site. Préférez les endroits où se trouvent d’autres voyageurs, évitez les aires isolées avec une seule entrée sans visibilité, et demandez-vous si vous pourriez repartir vite en cas de besoin. Garez-vous face à la sortie quand le site le permet.",
+            "Confrontez la météo au terrain lui-même. Les plaines inondables d’une rivière montent plus vite qu’on ne le croit, les parkings exposés du bord de mer deviennent inconfortables par vent du sud, et un site agréable en février peut être franchement dangereux lors d’une tempête hivernale. Gardez assez de carburant pour repartir, et ne comptez pas sur le réseau pour prendre cette décision."
+          ],
+          "tips": [
+            "Préférez les sites où d’autres sont présents",
+            "Garez-vous face à la sortie",
+            "Les plaines de rivière inondent vite"
+          ]
+        },
+        {
+          "heading": "Quatre-vingt-dix secondes de vérification avant de couper le moteur",
+          "body": [
+            "Lisez le panneau et vérifiez la durée de séjour, les horaires et si la certification est exigée. Assurez-vous que votre warrant est à jour et couvre le nombre de personnes à bord. Regardez si le site dispose d’équipements pour les déchets ou si vous devez arriver déjà vidé.",
+            "Passez ensuite aux questions pratiques : le sol est-il ferme, y a-t-il quelque chose au-dessus de vous, les autres véhicules peuvent-ils passer, et où se trouve l’alternative payante la plus proche si le site est complet ou ne convient pas. Si l’une de ces réponses reste floue, le camping à vingt minutes de là est une assurance bon marché."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Le camping gratuit est-il légal en Nouvelle-Zélande ?",
+          "Dans les zones désignées, oui. Il est légal là où une commune l’autorise et illégal là où elle ne l’autorise pas : la même aire peut être tolérée dans un district et valoir une amende dans le suivant. L’autorité, c’est le panneau sur place, pas une carte."
+        ],
+        [
+          "Faut-il un véhicule self-contained pour camper gratuitement ?",
+          "Pour une bonne part des sites gratuits, oui. Beaucoup de communes réservent le camping gratuit aux véhicules certifiés self-contained, et depuis les changements de 2023, cette certification suppose des toilettes fixes. Sans certification, le camping se limite aux sites avec toilettes à proximité, quand il est autorisé."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE : conseils sur le freedom camping"
+        },
+        {
+          "label": "DOC : freedom camping sur les terres protégées"
+        },
+        {
+          "label": "Registre des véhicules self-contained"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-rules-new-zealand": {
+      "title": "Règles du camping libre en Nouvelle-Zélande, région par région",
+      "description": "Freedom Camping Act, arrêtés municipaux, certification self-contained et réalité des contrôles sur le terrain.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Panneau de freedom camping autorisé à côté d’un van",
+      "intro": "En Nouvelle-Zélande, le freedom camping est légal là où il est autorisé et sanctionné partout ailleurs, et la frontière est tracée par l’organisme qui gère le terrain sous vos roues. Le Freedom Camping Act 2011 fixe un cadre national, mais chaque commune rédige son propre arrêté : la règle apprise dans un district ne vous dit presque rien du suivant.",
+      "sections": [
+        {
+          "heading": "Ce que freedom camping veut vraiment dire ici",
+          "body": [
+            "Le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> (camping libre) consiste à passer la nuit sur un terrain public, hors camping aménagé, là où le Freedom Camping Act 2011, un arrêté municipal ou le propriétaire du terrain l’autorise. Concrètement, cela couvre les réserves communales, certains parkings désignés, des aires de stationnement et une partie des terres protégées. Cela ne couvre ni les terres agricoles privées, ni les routes forestières, ni les refuges des parcs nationaux, et le terme décrit un lieu, pas la promesse d’une nuit gratuite.",
+            "La loi s’applique aux lieux situés à moins de 200 mètres d’une route aménagée ou d’un cours d’eau accessible en véhicule, et aux zones accessibles en véhicule. Au-delà, vous êtes en principe en camping de pleine nature, régi par les règles du DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés). Dans tous les cas, le panneau à l’entrée fait foi et l’emporte sur toute app, tout PDF ou toute couche de carte, y compris cette page."
+          ],
+          "tips": [
+            "Freedom désigne un lieu, pas un prix",
+            "Le panneau l’emporte sur n’importe quelle app",
+            "Le critère courant : 200 m d’une route aménagée"
+          ]
+        },
+        {
+          "heading": "Self-contained : la transition est désormais terminée",
+          "body": [
+            "Les règles ont changé par étapes. Depuis le 7 juin 2025, les nouvelles certifications exigent des toilettes fixes raccordées au véhicule et donnent droit à un warrant vert de <a data-guide=\"self-contained-campervan-green-warrant\">certification self-contained</a>. Les anciens warrants bleus, qui admettaient des toilettes portables, restent valables jusqu’à leur expiration, et au plus tard jusqu’au 31 décembre 2027. Passé cette date, une vignette bleue ne prouvera plus rien nulle part : vérifiez la date d’expiration inscrite sur la vôtre au lieu de supposer qu’elle compte encore.",
+            "La certification est encadrée par le Plumbers, Gasfitters and Drainlayers Board, et chaque véhicule certifié figure dans un registre public consultable par plaque d’immatriculation. Si vous louez ou achetez, consultez le registre au lieu de vous fier à l’autocollant sur le pare-brise : un warrant peut être expiré, transféré ou tout simplement faux. Vérifiez aussi que la capacité certifiée correspond au nombre de personnes qui dorment réellement dans le véhicule, car la certification porte sur un nombre d’occupants précis."
+          ],
+          "tips": [
+            "Les warrants bleus expirent au plus tard le 31 décembre 2027",
+            "Vérifiez la plaque dans le registre public",
+            "La capacité certifiée doit correspondre à votre groupe"
+          ]
+        },
+        {
+          "heading": "Les contrôles et leur coût",
+          "body": [
+            "La plupart des infractions de <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> valent une amende de 400 $. La plus courante : camper dans une zone réglementée sans véhicule certifié. Les infractions liées aux déchets, en particulier le rejet d’eaux de toilettes ou d’eaux grises, coûtent nettement plus cher et peuvent finir devant un tribunal, où les sanctions sont encore plus lourdes. En cas de récidive, le véhicule peut être enlevé.",
+            "Les contrôles sont bien réels. Dans les districts très fréquentés, les communes patrouillent au crépuscule puis de nouveau à l’aube tout l’été, et les agents vérifient le warrant, la plaque et la durée de séjour affichée. L’amende est rattachée au véhicule : un loueur vous la transmettra, avec des frais de dossier en plus."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Terrains communaux et terres protégées",
+          "body": [
+            "Les <a data-guide=\"camping-rules-local-councils-new-zealand\">arrêtés municipaux</a> fixent la durée de séjour, définissent des zones réservées aux véhicules self-contained et interdisent purement et simplement le camping dans beaucoup de zones urbaines. Ils varient énormément : certains districts ne publient qu’une poignée de sites autorisés, d’autres appliquent une autorisation générale assortie d’exclusions nommées. Chaque arrêté étant un texte local, la seule source fiable est la commune dont vous êtes sur le territoire.",
+            "Sur les terres protégées, le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> est en général autorisé, sauf là où il est interdit ou restreint, mais les parcs nationaux et beaucoup de réserves exigent de passer par les campings désignés du DOC ou par des zones de pleine nature reconnues. Le DOC publie des alertes de fermeture, et elles changent plus vite que les données des sites tiers ne se mettent à jour."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "L’île du Nord, en bref",
+          "body": [
+            "Le Northland fonctionne avec des zones désignées et des durées de séjour limitées, souvent à deux nuits, et les rangers patrouillent activement en été. Auckland est très restreinte : la plupart des sites autorisés exigent une certification, beaucoup imposent une plage horaire du soir au matin, et les baies populaires comme le front de mer du centre sont interdits. Le Waikato et la Bay of Plenty associent des réserves communales limitées à un solide réseau de <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>, et les sites au bord des lacs de Rotorua sont signalés très strictement.",
+            "Gisborne et la Hawke’s Bay autorisent certaines plages, parfois avec un permis de nuit à demander à l’avance. Dans le Taranaki, le Manawatū-Whanganui et la région de Wellington, les parkings côtiers sont souvent réservés aux véhicules certifiés, avec un maximum de 48 heures, et Wellington City fait respecter des zones d’interdiction autour du centre : prévoyez une solution du côté du port ou dans la Hutt Valley plutôt que d’improviser près du terminal."
+          ],
+          "tips": [
+            "Le centre d’Auckland et celui de Wellington sont en grande partie interdits",
+            "Certains sites de la côte est exigent un permis à l’avance",
+            "Deux nuits, c’est un maximum courant"
+          ]
+        },
+        {
+          "heading": "L’île du Sud, en bref",
+          "body": [
+            "Les districts de Tasman et de Nelson misent beaucoup sur des zones accessibles uniquement avec permis, et les warrants sont vérifiés tous les jours en été autour de Kaiteriteri et de Golden Bay. Les Marlborough Sounds se visitent depuis les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> plutôt que depuis des sites de camping libre, donc réservez à l’avance, et les parkings communaux de Kaikōura ont une capacité fixe, vite atteinte. Le Canterbury limite Christchurch à un petit nombre de parkings, tandis que les districts de Mackenzie et de Waitaki sont plus souples, mais fermes sur la certification.",
+            "L’Otago est strict là où la demande est la plus forte : Queenstown-Lakes et le Central Otago appliquent des zones précises avec des contrôles tôt le matin, et Dunedin propose des réserves côtières limitées à deux nuits, complètes avant la tombée du jour. Dans le Southland et le Fiordland, le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> est interdit près de Milford Sound et la réponse, ce sont les campings du DOC ; le district du Southland autorise certaines aires de gravier précises, qu’il vaut mieux repérer avant d’être fatigué et à la recherche d’un coin."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Un réflexe simple à l’arrivée",
+          "body": [
+            "Les recherches réduisent les options, mais la décision se prend à l’entrée du site. Entrez, repérez le panneau de <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, lisez la durée de séjour et les exigences sur le véhicule, puis photographiez le panneau. Cela prend une minute, et c’est la preuve qui règle tout litige ultérieur. Si le panneau et votre app se contredisent, c’est toujours le panneau qui gagne.",
+            "Les communes posent des restrictions temporaires après des crues, des glissements de terrain ou des événements, et elles apparaissent sur le terrain bien avant d’atteindre la moindre base de données. Si un site est complet, ne formez pas une file de débordement le long de l’accès : repliez-vous sur un camping payant. Garder une option payante légale en réserve évite à un conducteur fatigué de prendre une décision coûteuse à 21 h."
+          ],
+          "tips": [
+            "Photographiez le panneau",
+            "Gardez un camping payant en repli",
+            "Ne formez jamais de file de débordement"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelles sont les règles du camping libre en Nouvelle-Zélande ?",
+          "Le camping libre n’est autorisé que dans les zones qu’une commune permet, et chaque district fixe son propre arrêté. La plupart des zones autorisées exigent un véhicule certifié self-contained, et les amendes sont dressées sur place et portent sur le locataire du véhicule."
+        ],
+        [
+          "Quel est le montant de l’amende pour camping libre illégal ?",
+          "Les amendes atteignent plusieurs centaines de dollars pour une infraction courante et nettement plus pour des faits comme le rejet de déchets. Les loueurs répercutent l’amende sur le locataire, avec des frais de dossier."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE : freedom camping responsable"
+        },
+        {
+          "label": "DOC : freedom camping"
+        },
+        {
+          "label": "Registre des véhicules self-contained"
+        },
+        {
+          "label": "Plumbers, Gasfitters and Drainlayers Board"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsites-new-zealand-guide": {
+      "title": "Campings et refuges du DOC : catégories, tarifs et réservation",
+      "description": "Comment le Department of Conservation classe ses campings et ses refuges, ce que chaque catégorie comprend et comment fonctionne vraiment la réservation.",
+      "region": "Terres protégées de Nouvelle-Zélande",
+      "imageAlt": "Tente dans un camping du Department of Conservation",
+      "intro": "Le DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) exploite le plus grand réseau d’hébergements du pays : plusieurs centaines de campings et environ 950 refuges, classés en catégories qui disent presque tout de ce qui vous attend. Connaître les quatre catégories de campings et le système de tickets de refuge enlève l’essentiel de l’incertitude quand on prépare un séjour sur les terres protégées.",
+      "sections": [
+        {
+          "heading": "Les quatre catégories de campings",
+          "body": [
+            "Les campings Basic sont en général gratuits et offrent très peu : des toilettes sèches, parfois un point d’eau non traitée, et un accès en véhicule qui peut être rude. Les campings Standard ajoutent en principe une alimentation en eau fiable et de meilleures toilettes, et font payer un tarif modeste par adulte. Les campings Serviced forment le haut de gamme, avec WC à chasse, douches chaudes, cuisine ou abri pour cuisiner, collecte des déchets et souvent des emplacements avec électricité.",
+            "Les campings des Great Walks (les grandes randonnées emblématiques du pays) sortent de cette échelle : ils ont leur propre système de réservation et leurs propres tarifs, liés à chaque sentier. Ce sont les plus susceptibles d’afficher complet et les moins indulgents avec un projet flou, car l’alternative se trouve souvent à plusieurs heures de marche."
+          ],
+          "tips": [
+            "La catégorie dit les équipements et le prix",
+            "L’eau peut ne pas être traitée, quelle que soit la catégorie",
+            "Les sites des Great Walks se réservent à part"
+          ]
+        },
+        {
+          "heading": "Tarifs et mode de facturation",
+          "body": [
+            "Les tarifs des campings du DOC se paient en général par adulte et par nuit, et non par emplacement, ce qui inverse le calcul auquel la plupart des voyageurs sont habitués. Un groupe de quatre sur un site Standard paie quatre fois le tarif adulte : pour une famille, un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (camping privé tout équipé) facturé à l’emplacement peut donc coûter moins cher qu’un site du DOC qui semble moins cher par personne.",
+            "Les enfants paient un tarif réduit ou rien selon leur âge et le site. Une tarification saisonnière s’applique dans certains campings très demandés, et la page du camping concerné l’emporte toujours sur n’importe quel guide général des catégories."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Réservation, pass : deux choses différentes",
+          "body": [
+            "La page de chaque camping précise s’il est réservable, ouvert au premier arrivé ou couvert par un Campsite Pass. C’est le point sur lequel on se trompe le plus souvent : le Campsite Pass est un moyen de paiement, pas une réservation. Posséder un pass ne garantit pas une place sur un site qui exige une réservation, et il ne réserve rien sur un site au premier arrivé.",
+            "Là où la réservation est obligatoire, réservez pour le type de véhicule et le nombre de personnes que vous amenez vraiment, et gardez la confirmation dans votre téléphone, consultable sans réseau. Il n’y a souvent aucun réseau au camping lui-même, et une réservation impossible à présenter se défend mal quand un gardien répartit les places d’un camping complet."
+          ],
+          "tips": [
+            "Un pass n’est pas une réservation",
+            "Gardez vos confirmations consultables sans réseau",
+            "Réservez avec le vrai véhicule et le vrai nombre de personnes"
+          ]
+        },
+        {
+          "heading": "Refuges et système de tickets",
+          "body": [
+            "Les refuges sont eux aussi classés : de l’abri sommaire au refuge Standard avec couchettes et eau, jusqu’au refuge Serviced avec matelas, chauffage et parfois gaz. La plupart fonctionnent avec des tickets de refuge (hut tickets) ou un Backcountry Hut Pass, tandis que les refuges des Great Walks et plusieurs refuges d’altitude très fréquentés se réservent à l’avance en saison.",
+            "Dans les refuges non réservables, les couchettes ne sont pas attribuées, et la coutume veut que personne ne soit renvoyé : un refuge plein signifie de la place par terre, pas une porte fermée. Emportez un tapis de sol et de quoi camper à côté du refuge si la météo le permet, surtout sur les sentiers populaires en été."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Savoir-vivre au refuge et au camping",
+          "body": [
+            "Les règles non écrites comptent plus ici que dans un camping commercial. Enlevez vos chaussures à l’intérieur, laissez des couchettes libres pour ceux qui marchent encore, gardez vos affaires groupées plutôt qu’étalées sur un banc, et restez silencieux tôt le matin : les randonneurs partent avant l’aube. Remplissez le livre du refuge, par courtoisie et parce que c’est la première chose que lisent les secours.",
+            "Laissez le refuge en meilleur état que vous ne l’avez trouvé : balayez, reconstituez la réserve de petit bois là où il y a un poêle, et remportez tout ce que vous avez apporté, restes de nourriture compris. Ne brûlez pas vos déchets dans le poêle du refuge."
+          ],
+          "tips": [
+            "Remplissez le livre du refuge",
+            "Personne n’est refusé dans un refuge",
+            "Remportez tous vos déchets, restes compris"
+          ]
+        },
+        {
+          "heading": "Choisir le site selon le voyage",
+          "body": [
+            "Un site Basic est excellent par temps stable avec le bon équipement, et pénible quand tout est déjà mouillé. Une nuit en site Serviced règle d’un coup affaires humides, batteries à plat, lessive et moral, et vaut souvent plus que son prix après quelques jours éprouvants sur la côte.",
+            "Vérifiez les détails du site précis avant de vous engager : règles sur les feux, chiens admis ou non, restrictions sur les groupes électrogènes, durée maximale et accès routier saisonnier. Les accès d’altitude et les routes secondaires en particulier peuvent fermer sans grand préavis, et la page du camping affiche les alertes."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Combien coûte un camping du DOC ?",
+          "Cela suit la catégorie. Les sites Basic sont gratuits ou presque, les sites Standard et Scenic se situent autour de quelques dizaines de dollars, et les sites Serviced avec douches et électricité coûtent plus. Le DOC facture par adulte et par nuit plutôt que par emplacement, ce qui change le total pour une famille."
+        ],
+        [
+          "Faut-il réserver les campings du DOC ?",
+          "Certains, oui, d’autres non. Les campings Serviced et Scenic des zones très demandées prennent des réservations et se remplissent en été, alors que beaucoup de sites Basic et Standard fonctionnent au premier arrivé. Vérifiez la page du site avant de compter sur une arrivée tardive."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC : équipements et tarifs des campings"
+        },
+        {
+          "label": "DOC : refuges"
+        },
+        {
+          "label": "DOC : alertes et fermetures"
+        }
+      ],
+      "priceTable": null
+    },
+    "holiday-parks-new-zealand-guide": {
+      "title": "Holiday parks en Nouvelle-Zélande : bien choisir et réserver",
+      "description": "Emplacements avec électricité, bungalows, tarifs de haute saison et arrivée tardive : de quoi faire tenir votre réservation le jour J.",
+      "region": "Villes et côtes de Nouvelle-Zélande",
+      "imageAlt": "Holiday park néo-zélandais au bord de la mer",
+      "intro": "Les holiday parks (campings privés tout équipés) comblent l’écart entre un camping basique et l’hôtel, et ils se justifient à des moments très précis : après plusieurs nuits de pluie, avant un ferry matinal, ou chaque fois que la lessive, le courant et une douche chaude fiable comptent plus que la solitude. Bien réserver, c’est surtout comparer les bonnes choses.",
+      "sections": [
+        {
+          "heading": "Comprendre comment le tarif est construit",
+          "body": [
+            "Les holiday parks tarifent de trois façons, et la comparaison ne tient plus si on les mélange. Certains facturent par personne, d’autres par emplacement avec un nombre d’occupants défini, d’autres encore annoncent un tarif de base auquel s’ajoutent les personnes supplémentaires. Un emplacement à 45 $ pour deux et un tarif de 28 $ par personne reviennent au même pour un couple, mais très différemment pour une famille de cinq.",
+            "Regardez ensuite ce qui est inclus. L’électricité, le linge de lit, la vaisselle, les douches, le wifi et les frais de réservation varient d’un parc à l’autre, et un bungalow annoncé sans linge n’est pas comparable à un autre qui le comprend. Calculez le total pour votre groupe et votre nombre de nuits avant de décider quoi que ce soit."
+          ],
+          "tips": [
+            "Comparez le prix par personne et le prix par emplacement",
+            "Vérifiez si le linge est compris",
+            "Ajoutez les frais de réservation et de carte"
+          ]
+        },
+        {
+          "heading": "Réservez avec le véhicule que vous amenez vraiment",
+          "body": [
+            "Les dimensions de l’emplacement comptent plus que les voyageurs ne l’imaginent. Un grand camping-car, une caravane avec auvent ou un véhicule qui tracte une remorque ont besoin d’un emplacement où ils tiennent physiquement, et les parcs attribuent selon la longueur déclarée. Sous-déclarer provoque une conversation pénible à l’arrivée, et parfois l’absence d’emplacement.",
+            "Précisez si vous avez besoin d’un emplacement traversant, de l’électricité, ou d’être proche des sanitaires si quelqu’un du groupe a des difficultés à se déplacer. Ces demandes se règlent facilement à l’avance et presque jamais un samedi complet de janvier."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "La haute saison change les règles",
+          "body": [
+            "Entre Noël et fin janvier, ainsi qu’à Pâques et pendant les vacances scolaires, les parcs côtiers très demandés imposent des séjours minimaux, des tarifs plus élevés et des conditions non remboursables. Certains prennent les réservations un an à l’avance pour les meilleurs emplacements. Si votre route traverse une station balnéaire à cette période, réservez-la aussi tôt que le ferry.",
+            "Les événements locaux resserrent la disponibilité tout aussi fort, avec moins de préavis : un tournoi sportif régional ou un concert peut remplir tous les parcs d’un district. Quand vos dates sont incertaines, payez pour des conditions remboursables et notez la date limite d’annulation sur l’étape du voyage plutôt que de vous fier à votre mémoire."
+          ],
+          "tips": [
+            "Réservez très tôt dans les stations balnéaires",
+            "Surveillez les événements locaux",
+            "Notez les dates limites d’annulation"
+          ]
+        },
+        {
+          "heading": "Arriver après la fermeture de l’accueil",
+          "body": [
+            "La plupart des parcs ferment l’accueil le soir, et une longue <a data-guide=\"new-zealand-driving-day-planner\">journée de route</a> se termine souvent après. Demandez la procédure d’arrivée tardive en réservant : beaucoup laissent une enveloppe avec un numéro d’emplacement et un code de portail, mais il vaut mieux le savoir avant de vous retrouver devant une barrière fermée à 22 h, sans réseau.",
+            "Faites aussi confirmer le fonctionnement du portail pour les véhicules. Certains parcs baissent une barrière la nuit, ce qui compte si vous avez un ferry tôt le matin ou un départ à l’aube."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Utiliser les équipements à bon escient",
+          "body": [
+            "Une nuit en holiday park vaut surtout si vous utilisez ce que vous avez payé. La cuisine commune économise le gaz et garde les odeurs de cuisson hors d’un petit van, la laverie remet à zéro une semaine de linge humide, et l’<a data-guide=\"camping-wastewater-rubbish-new-zealand\">aire de vidange</a> et les robinets d’eau potable vous permettent de repartir avec des réservoirs d’eau pleins et des réservoirs d’eaux usées vides, dans le bon ordre.",
+            "Repérez l’agencement avant de brancher quoi que ce soit : ne remplissez jamais l’eau potable à un robinet proche du point de vidange, et demandez quels robinets donnent de l’eau potable, car ce n’est pas le cas de tous. Rincez et rangez les tuyaux séparément, et lavez-vous les mains après avoir manipulé le matériel de vidange."
+          ],
+          "tips": [
+            "Ne remplissez jamais l’eau près du point de vidange",
+            "Demandez quels robinets donnent de l’eau potable",
+            "Rangez les tuyaux séparément"
+          ]
+        },
+        {
+          "heading": "Un espace partagé, des règles partagées",
+          "body": [
+            "Les heures de silence sont appliquées, et les holiday parks sont des lieux denses où le bruit passe d’un emplacement à l’autre. Respectez les limites de votre emplacement, surveillez les enfants près des allées internes et des piscines, et vérifiez la politique sur les animaux avant d’arriver avec un chien : beaucoup de parcs les interdisent totalement en haute saison.",
+            "Mettez vos objets de valeur à l’abri, comme partout où le public a accès. Un holiday park est pratique et généralement sûr, mais reste un site animé où des véhicules circulent toute la journée."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la différence entre un holiday park et un camping ?",
+          "Un holiday park est un site commercial avec emplacements électrifiés, douches, cuisines, laverie et le plus souvent des bungalows, facturé à l’emplacement ou par personne. Un camping du DOC est situé sur des terres protégées publiques, avec bien moins d’équipements et un tarif bien plus bas."
+        ],
+        [
+          "Une carte de membre de holiday parks vaut-elle le coup ?",
+          "Cela dépend du nombre de nuits que vous y passerez. Les réductions proposées par les grandes chaînes sont en général amorties en quelques nuits, ce qui convient à un long voyage et rarement à un week-end."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC : alertes et fermetures"
+        },
+        {
+          "label": "NZTA : planificateur de trajet"
+        }
+      ],
+      "priceTable": null
+    },
+    "camping-fees-new-zealand-2026": {
+      "title": "Le vrai coût du camping en Nouvelle-Zélande : budget détaillé",
+      "description": "Tarifs du DOC, prix des holiday parks, carburant, repas et extras, réunis en budgets quotidiens sur lesquels vous pouvez vraiment compter.",
+      "region": "Camping en Nouvelle-Zélande",
+      "imageAlt": "Tente et van sur un camping néo-zélandais",
+      "intro": "Le camping est la façon la moins chère de voyager en Nouvelle-Zélande, mais « pas cher » recouvre une fourchette qui va de presque rien à plus qu’une chambre de motel. Le mot camping désigne aussi bien des toilettes sèches gratuites au bord d’un ruisseau non traité qu’un emplacement électrifié en front de mer avec cuisine et laverie : un tarif par nuit n’a de sens qu’une fois rattaché à une catégorie et à un nombre de personnes.",
+      "sections": [
+        {
+          "heading": "Le DOC facture par personne, pas par emplacement",
+          "body": [
+            "C’est le calcul qui surprend les familles. Les tarifs des <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) se paient en général par adulte et par nuit : les sites Basic sont gratuits, les sites Standard coûtent le plus souvent de 10 à 20 $ par adulte, et les sites Serviced sans électricité tournent couramment autour de 25 $. Les enfants bénéficient d’un tarif réduit ou de la gratuité selon leur âge et le site.",
+            "Comme le prix augmente avec le nombre de personnes, un groupe de quatre sur un site Serviced du DOC peut payer plus qu’un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (camping privé tout équipé) à tarif forfaitaire par emplacement. Faites toujours le calcul pour votre groupe réel plutôt que de supposer que le DOC est moins cher."
+          ],
+          "tips": [
+            "Le DOC facture par adulte",
+            "Pour une famille, un holiday park peut revenir moins cher",
+            "La page du site l’emporte sur la catégorie"
+          ]
+        },
+        {
+          "heading": "Les parcs commerciaux fonctionnent autrement",
+          "body": [
+            "Les <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> peuvent annoncer un prix par personne, par emplacement avec un nombre d’occupants défini, ou un tarif de base auquel s’ajoutent les personnes supplémentaires. L’électricité, les douches, l’accès à la cuisine, le linge et les frais de réservation modifient la comparaison, et un emplacement de choix en front de mer en été coûte bien plus qu’un emplacement ordinaire à l’intérieur des terres.",
+            "La haute saison, les vacances scolaires et les événements locaux font monter les tarifs et peuvent imposer des séjours minimaux. Cherchez avec les dates exactes, la longueur du véhicule et le nombre de personnes : un exemple hors saison ne dit presque rien d’un week-end de janvier au bord de la mer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Les coûts qui ne sont pas le camping",
+          "body": [
+            "Le carburant est en général le premier poste après l’hébergement, et il dépend de la distance et de la consommation, pas du nombre de nuits. Calculez-le correctement : kilomètres multipliés par litres aux 100 km, divisés par 100, fois le prix du litre. Un van à 12 l/100 km qui parcourt 3 000 km consomme 360 litres, et ce calcul pèse plus lourd que l’écart entre un camping à 15 $ et un autre à 25 $.",
+            "Ajoutez ensuite la nourriture, les traversées en ferry si vous passez le <a data-guide=\"cook-strait-ferry-campervan-guide\">détroit de Cook</a>, les activités, et le véhicule lui-même si vous le louez. Les frais de location en aller simple et le rachat de franchise d’assurance sont faciles à oublier et tous deux élevés."
+          ],
+          "tips": [
+            "Le carburant pèse en général plus que le camping",
+            "Le détroit de Cook est un poste fixe et important",
+            "Comptez à part les frais de location en aller simple"
+          ]
+        },
+        {
+          "heading": "Trois budgets quotidiens réalistes",
+          "body": [
+            "Un campeur économe qui fait sa cuisine, alterne sites gratuits et sites Standard du DOC, prépare presque tous ses repas et roule des distances modérées peut tabler sur 45 à 80 $ par personne et par jour, hors transport longue distance. Cela suppose d’être réellement autonome et d’accepter des équipements sommaires la plupart des nuits.",
+            "Une formule mixte (sites du DOC avec un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> toutes les trois ou quatre nuits, quelques repas au restaurant, quelques activités payantes) revient à environ 90 à 150 $ par personne et par jour. Un voyage orienté confort, avec surtout des emplacements électrifiés ou des bungalows, des repas réguliers au restaurant et des expériences réservées, dépasse largement ce niveau."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Quand le camping gratuit fait vraiment économiser, et quand non",
+          "body": [
+            "Le camping gratuit fait économiser de l’argent quand le véhicule est équipé pour et que l’itinéraire passe déjà par des zones adaptées. Il cesse d’en faire économiser quand vous roulez 60 km de plus pour atteindre un site gratuit, quand le manque d’équipements impose de toute façon une nuit payante, ou quand une amende de 400 $ arrive parce que la certification n’était pas à jour.",
+            "Prévoyez plus de nuits payantes que vous ne comptez en utiliser. Douches, lessive, recharge, eau et une vraie remise à zéro ont une vraie valeur, et s’imposer une nuit gratuite mal choisie après une semaine de pluie est une fausse économie."
+          ],
+          "tips": [
+            "Ne roulez pas loin pour économiser le prix d’un site",
+            "Prévoyez des nuits payantes que vous n’utiliserez peut-être pas",
+            "Une amende efface une semaine d’économies"
+          ]
+        },
+        {
+          "heading": "Garder un budget honnête",
+          "body": [
+            "Notez vos dépenses réelles pendant les trois ou quatre premiers jours et comparez-les au plan. Corriger tôt une petite dérive est simple ; découvrir à la quatrième semaine que vous avez dépassé de 40 % oblige à sacrifier la partie du voyage qui vous tenait le plus à cœur. Les postes qui dérapent sont presque toujours la nourriture et les petites activités payantes, pas l’hébergement.",
+            "Gardez une vraie réserve pour l’imprévu : un pneu, une journée de météo qui impose un bungalow, un changement de ferry. Un voyage sans marge financière transforme chaque petit problème en question de savoir s’il faut continuer."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Combien coûte une nuit de camping en Nouvelle-Zélande ?",
+          "De zéro sur les sites Basic du DOC jusqu’aux holiday parks, en passant par les sites Standard et Scenic ; le guide chiffre chaque catégorie avec des montants datés. Le DOC facture par adulte et les holiday parks souvent à l’emplacement : deux chiffres proches peuvent donc donner des totaux très différents."
+        ],
+        [
+          "Le camping en Nouvelle-Zélande revient-il moins cher que les auberges de jeunesse ?",
+          "Par nuit, nettement. Sur l’ensemble d’un voyage, tout dépend du véhicule : la location et le carburant qui rendent les sites bon marché accessibles coûtent en général plus que l’hébergement qu’ils remplacent."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC : équipements et tarifs des campings"
+        },
+        {
+          "label": "MBIE : conseils sur le freedom camping"
+        },
+        {
+          "label": "Reserve Bank of New Zealand : taux de change"
+        }
+      ],
+      "priceTable": {
+        "note": "Tarifs des catégories du DOC en vigueur en août 2026 ; les fourchettes commerciales sont des repères de planification. Les tarifs de haute saison en front de mer et en période d’événements peuvent être bien plus élevés.",
+        "rows": [
+          {
+            "label": "Camping Basic du DOC",
+            "unit": "par adulte et par nuit"
+          },
+          {
+            "label": "Camping Standard du DOC",
+            "unit": "par adulte et par nuit"
+          },
+          {
+            "label": "Camping Serviced du DOC, sans électricité",
+            "unit": "par adulte et par nuit"
+          },
+          {
+            "label": "Camping Serviced du DOC, avec électricité",
+            "unit": "par adulte et par nuit"
+          },
+          {
+            "label": "Emplacement en holiday park",
+            "unit": "emplacement type ou fourchette de base"
+          },
+          {
+            "label": "Journée de camping économique, par personne",
+            "unit": "tout compris, en cuisinant soi-même"
+          },
+          {
+            "label": "Formule mixte camping et holiday parks",
+            "unit": "par personne et par jour"
           }
         ]
       }
