@@ -166,8 +166,9 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
 /**
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
  * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL under `root`
- * (the edition's home path from `localeRoot`, e.g. `/de`). Any other tag is shown as text, never interpreted; a stray or unknown link is reduced to
- * its text.
+ * (the edition's home path from `localeRoot`, e.g. `/de`; "" for English, where a legacy guide
+ * links to its .html URL). Any other tag is shown as text, never interpreted; a stray or unknown
+ * link is reduced to its text.
  */
 export function renderGuideLinks(text: string, root: string): string {
   const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
@@ -176,7 +177,7 @@ export function renderGuideLinks(text: string, root: string): string {
   for (const match of text.matchAll(guideMarkup)) {
     html += clean(text.slice(last, match.index));
     const inner = clean(match[2]);
-    html += bySlug.has(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
+    html += bySlug.has(match[1]) ? `<a href="${sitePath(guideHref(match[1], root))}">${inner}</a>` : inner;
     last = match.index! + match[0].length;
   }
   return html + clean(text.slice(last));
