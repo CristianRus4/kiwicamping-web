@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, getArticleByLegacyPath, legacyArticles , sitePath} from "@/lib/site";
-import { getTranslation, isArticleTranslated, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
-import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
+import { SITE_URL, getArticleByLegacyPath } from "@/lib/site";
+import { getTranslation, localizedArticles } from "@/lib/localized";
+import { routedLocaleForSegment } from "@/lib/locales";
+import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale } from "@/lib/seo";
+import { exportRoutes, routeAt } from "@/lib/routes";
+import { guidePageKey } from "@/lib/routes/guides";
 import { smartBannerContent } from "@/lib/app-store";
 
 export const dynamicParams = false;
@@ -13,29 +16,29 @@ export const dynamicParams = false;
 //   /de, /es, ...        the localised sites
 //   /<name>.html         articles already published and ranking on campingapp.nz
 // Next.js allows only one dynamic segment per level, so both live here rather than in sibling routes.
+// Both come from the route manifest (lib/routes.ts), the same list the sitemap and exporter use.
 export function generateStaticParams() {
-  return [
-    ...localeCodes.flatMap((locale) => [
-      { locale, path: [] }, { locale, path: ["guides"] }, { locale, path: ["tools"] }, { locale, path: ["support"] }, { locale, path: ["privacy"] }, { locale, path: ["terms"] },
-      // Every guide is published in every locale. Ones this locale has not finished translating
-      // are served whole in English rather than as a mixture, so none of them is missing.
-      ...localizedArticles(locale).map((article) => ({ locale, path: ["guides", article.slug] })),
-    ]),
-    ...legacyArticles.map((article) => ({ locale: article.legacyPath!.slice(1), path: [] as string[] })),
-  ];
+  return exportRoutes().filter((route) => route.kind !== "crawler").flatMap((route) => {
+    if (route.locale !== "en") {
+      const [locale, ...path] = route.path.split("/").filter(Boolean);
+      return [{ locale, path }];
+    }
+    return route.path.endsWith(".html") && route.path.split("/").length === 2 ? [{ locale: route.path.slice(1), path: [] as string[] }] : [];
+  });
 }
 
 export async function generateMetadata({params}:{params:Promise<{locale:string;path?:string[]}>}):Promise<Metadata>{
-  const {locale,path=[]}=await params;
-  const legacy=getArticleByLegacyPath(`/${locale}`);
+  const {locale:segment,path=[]}=await params;
+  const legacy=getArticleByLegacyPath(`/${segment}`);
   if(legacy)return{
     title:legacy.title,
     description:legacy.description,
-    alternates:{canonical:legacy.legacyPath},
-    openGraph:{type:"article",siteName:"KiwiCamping",locale:"en_NZ",title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
+    alternates:{canonical:legacy.legacyPath,languages:alternatesFor(guidePageKey(legacy.slug))},
+    openGraph:{type:"article",siteName:"KiwiCamping",locale:defaultOgLocale,title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
     twitter:{card:"summary_large_image",title:legacy.title,description:legacy.description,images:[legacy.image]},
   };
-  if(!isLocale(locale))return{};
+  const locale=routedLocaleForSegment(segment);
+  if(!locale)return{};
   const ui=getTranslation(locale);
   const slug=path[0]==="guides"?path[1]:undefined;
   const article=slug?localizedArticles(locale).find((item)=>item.slug===slug):undefined;
@@ -52,23 +55,24 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     :section==="tools"?ui.metaToolsDescription
     :section==="support"?ui.metaSupportDescription
     :ui.metaDescription;
-  const suffix=path.length?`/${path.join("/")}`:"";
-  const url=`${SITE_URL}${sitePath(`/${locale}${suffix}`)}`;
+  const canonical=`/${[segment,...path].join("/")}/`;
+  const url=`${SITE_URL}${canonical}`;
   const image=article?article.image:"/images/kiwicamping-hero.webp";
-  // An untranslated guide still builds and renders, but it must not compete with the English site
-  // for the same words until its complete article translation is in place.
-  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug));
+  // An incomplete translation still builds and renders (in English), but it must not compete with
+  // the English site for the same words until its translation is complete. The manifest decides.
+  const route=routeAt(canonical);
+  const indexable=route?.indexable??false;
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
     title: path.length ? title : { absolute: title },
     description,
     keywords:ui.metaKeywords.split(", "),
-    alternates:{canonical:sitePath(`/${locale}${suffix}`),languages:indexable?seoLanguageTags(suffix):undefined},
+    alternates:{canonical,languages:indexable&&route?alternatesFor(route.pageKey):undefined},
     openGraph:{
       type:article?"article":"website",
       siteName:"KiwiCamping",
-      locale:ogLocale[locale],
-      alternateLocale:[defaultOgLocale,...localeCodes.filter((code)=>code!==locale).map((code)=>ogLocale[code])],
+      locale:ogLocale(locale),
+      alternateLocale:ogAlternates(locale),
       title:article?article.title:ui.ogTitle,
       description:article?article.description:ui.ogDescription,
       url,
@@ -81,10 +85,11 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
 }
 
 export default async function LocalizedRoute({params}:{params:Promise<{locale:string;path?:string[]}>}){
-  const {locale,path=[]}=await params;
-  const legacy=getArticleByLegacyPath(`/${locale}`);
+  const {locale:segment,path=[]}=await params;
+  const legacy=getArticleByLegacyPath(`/${segment}`);
   if(legacy&&path.length===0)return <GuideArticle item={legacy}/>;
-  if(!isLocale(locale))notFound();
+  const locale=routedLocaleForSegment(segment);
+  if(!locale)notFound();
   if(path.length===0)return <LocalizedHome locale={locale}/>;
   if(path.length===1&&path[0]==="guides")return <LocalizedGuides locale={locale}/>;
   if(path.length===2&&path[0]==="guides")return <LocalizedArticle locale={locale} slug={path[1]}/>;

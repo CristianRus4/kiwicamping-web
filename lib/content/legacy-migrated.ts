@@ -1,7 +1,7 @@
 import { makeArticle as a, type Article, type ArticlePriceTable, type ArticleSection } from "@/lib/article-model";
 
 const s = (heading: string, body: string[], tips?: string[]): ArticleSection => ({ heading, body, tips });
-const table = (note: string, rows: ArticlePriceTable["rows"]): ArticlePriceTable => ({ asOf: "18 August 2026", note, rows });
+const table = (note: string, rows: ArticlePriceTable["rows"]): ArticlePriceTable => ({ asOf: "2026-08-18", note, rows });
 const rbnz = { label: "Reserve Bank of New Zealand exchange rates", url: "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates" };
 
 /**

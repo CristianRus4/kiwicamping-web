@@ -23,9 +23,9 @@ export const APP_STORE_URL = `https://apps.apple.com/app/camping-map-nz-kiwicamp
  * The App Store Connect provider token (`pt`) for campaign links. Empty means store links stay the
  * plain listing URL with no campaign query string.
  */
-export const APPLE_PROVIDER_TOKEN = "127436485";
+export const APPLE_PROVIDER_TOKEN: string = "127436485";
 /** The GA4 measurement ID (G-XXXXXXX). Empty means no analytics script and no consent bar. */
-export const GA_MEASUREMENT_ID = "G-4SC3HZDXGS";
+export const GA_MEASUREMENT_ID: string = "G-4SC3HZDXGS";
 /**
  * The final URL for a site path.
  *

@@ -1,10 +1,21 @@
+#!/usr/bin/env node
 /**
- * The 15 legacy .html pages carry most of campingapp.nz's search traffic, so their English <body>
- * must not change underneath them. tests/fixtures/legacy-bodies/ holds each page's <body> as main
- * exported it before the growth push (commit d3de92b), and the test compares today's export to it.
+ * One-off check for foundation (platform) changes: the 15 legacy .html pages carry most of
+ * campingapp.nz's search traffic, so a platform change must not alter their English <body>.
  *
- * "Byte-identical" is measured after normalisation, and this is the complete list of what the
- * normalisation removes or masks, with the reason for each:
+ * It compares two exports page by page: a baseline export of origin/main and this branch's export.
+ * It is deliberately not a test and not part of `npm run check`: content work rewrites some legacy
+ * pages on purpose, so the baseline moves. The permanent guards are in tests/rendered-html.test.mjs
+ * (the 15 URLs export with 200, are self-canonical .html, and no English /guides/<legacy-slug>/
+ * exists).
+ *
+ *   git worktree add --detach /tmp/main-export origin/main
+ *   (cd /tmp/main-export && cp -cR <repo>/node_modules . && npm run build:pages)
+ *   npm run build:pages
+ *   node scripts/verify-legacy-bodies.mjs /tmp/main-export/pages-dist [pages-dist]
+ *
+ * "Byte-identical" is measured after normalising both sides, and this is the complete list of what
+ * the normalisation removes or masks, with the reason for each:
  *
  *  1. Everything outside <body>: canonical stays covered by its own test; the head may gain
  *     hreflang alternates, Smart App Banner campaign data and a new stylesheet hash.
@@ -12,8 +23,8 @@
  *     and the footer's "Privacy choices" link <a data-consent-open> (GA4 and Consent Mode).
  *  3. JSON-LD <script type="application/ld+json">: structured data, not visible text. It gains
  *     inLanguage and localised breadcrumbs.
- *  4. App Store link targets (href="https://apps.apple.com/...") and their data-cta attributes:
- *     they gain the App Store Connect campaign query string.
+ *  4. The query string of App Store links (the App Store Connect campaign) and their data-cta
+ *     attributes. The listing URL itself must not change.
  *  5. The data-page-kind, data-locale, data-slug and data-category attributes on <main>.
  *  6. The footer language switcher <nav class="language-nav">: it links to each live locale's
  *     equivalent page, so it changes whenever a translation or a new locale goes live.
@@ -25,15 +36,11 @@
  *
  * Everything else, including every word of the article, its headings, prose links, tips, FAQ,
  * sources, dates, images and the header and footer text, must match byte for byte.
- *
- * Regenerate the fixtures only for an intended change to a legacy page's English body, and review
- * the fixture diff like any other content change:
- *   node tests/legacy-body.mjs --write <path to an exported pages-dist>
  */
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-export const legacyPaths = [
+const legacyPaths = [
   "/best-nz-camping-apps.html", "/campfire-rules-nz.html", "/camping-costs-nz.html", "/camping-packing-list-nz.html",
   "/doc-campsites-huts-guide.html", "/dump-stations-nz.html", "/free-camping-nz-legal.html", "/freedom-camping-rules-nz.html",
   "/holiday-parks-nz-booking-guide.html", "/nz-camping-seasons-weather-sandflies.html", "/responsible-camping-nz.html",
@@ -41,10 +48,8 @@ export const legacyPaths = [
   "/where-to-camp-in-new-zealand.html",
 ];
 
-export const fixtureDir = new URL("./fixtures/legacy-bodies/", import.meta.url);
-
 /** The page's <body>, with exactly the exclusions documented above. */
-export function legacyBody(html) {
+function legacyBody(html) {
   const start = html.indexOf("<body");
   const end = html.lastIndexOf("</body>");
   if (start < 0 || end < 0) throw new Error("No <body> found");
@@ -53,7 +58,7 @@ export function legacyBody(html) {
     .replace(/<aside class="consent-bar"[\s\S]*?<\/aside>/g, "")
     .replace(/<a\b[^>]*data-consent-open[^>]*>[\s\S]*?<\/a>/g, "")
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "")
-    .replace(/href="https:\/\/apps\.apple\.com\/[^"]*"/g, 'href="APP_STORE"')
+    .replace(/href="(https:\/\/apps\.apple\.com\/[^"?]*)\?[^"]*"/g, 'href="$1"')
     .replace(/\s+data-cta="[^"]*"/g, "")
     .replace(/<main\b[^>]*>/g, (tag) => tag.replace(/\s+data-(?:page-kind|locale|slug|category)="[^"]*"/g, ""))
     .replace(/<nav class="language-nav"[\s\S]*?<\/nav>/g, "")
@@ -64,14 +69,22 @@ export function legacyBody(html) {
     .replace(/<!-- -->/g, "");
 }
 
-export const fixtureName = (path) => path.slice(1).replace(/\.html$/, ".body.html");
-
-if (process.argv[2] === "--write") {
-  const dist = resolve(process.argv[3] ?? "pages-dist");
-  await mkdir(fixtureDir, { recursive: true });
-  for (const path of legacyPaths) {
-    const html = await readFile(resolve(dist, path.slice(1)), "utf8");
-    await writeFile(new URL(fixtureName(path), fixtureDir), `${legacyBody(html)}\n`);
-  }
-  console.log(`Wrote ${legacyPaths.length} legacy body fixtures from ${dist}`);
+const [baselineArg, distArg = "pages-dist"] = process.argv.slice(2);
+if (!baselineArg) {
+  console.error("Usage: node scripts/verify-legacy-bodies.mjs <origin/main pages-dist> [this branch's pages-dist]");
+  process.exit(1);
 }
+const baseline = resolve(baselineArg);
+const dist = resolve(distArg);
+let changed = 0;
+for (const path of legacyPaths) {
+  const expected = legacyBody(await readFile(resolve(baseline, path.slice(1)), "utf8"));
+  const actual = legacyBody(await readFile(resolve(dist, path.slice(1)), "utf8"));
+  if (actual === expected) { console.log(`  same     ${path}`); continue; }
+  changed += 1;
+  let index = 0;
+  while (index < actual.length && actual[index] === expected[index]) index += 1;
+  console.log(`  CHANGED  ${path} at character ${index}:\n    main: …${expected.slice(Math.max(0, index - 120), index + 160)}…\n    now:  …${actual.slice(Math.max(0, index - 120), index + 160)}…`);
+}
+console.log(changed ? `${changed} of ${legacyPaths.length} legacy bodies differ from main's.` : `All ${legacyPaths.length} legacy bodies match main's byte for byte.`);
+process.exitCode = changed ? 1 : 0;

@@ -545,3 +545,24 @@ em { color: inherit; font: inherit; font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/*
+ * Japanese, Korean and Chinese editions (and any element marked with those languages).
+ *
+ * No web fonts: DM Sans stays first, so Latin letters and digits keep the site's face, and each
+ * language falls through to the CJK system font its readers already have. CJK type is set looser
+ * and flatter than Latin display type: no negative tracking (it collides ideographs), no weights
+ * above 700 (system CJK fonts have none and fake them), no italics or capitals (they do not
+ * exist), and more line height. Korean breaks between words, not inside them; Japanese and
+ * Chinese avoid breaking before small kana and closing punctuation.
+ */
+:lang(ja) { font-family: var(--font-sans), "Hiragino Sans", "Yu Gothic UI", Meiryo, "Noto Sans JP", sans-serif; line-break: strict; }
+:lang(zh-Hans) { font-family: var(--font-sans), "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif; line-break: strict; }
+:lang(zh-Hant) { font-family: var(--font-sans), "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif; line-break: strict; }
+:lang(ko) { font-family: var(--font-sans), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; word-break: keep-all; overflow-wrap: break-word; }
+:is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)) { font-style: normal; }
+:is(html, body, [lang]):is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)) { line-height: 1.8; }
+:is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(h1, h2, h3, h4, .hero-copy h1, .page-hero h1, .section h2, .feature-stage h2, .principles h2, .download-section h2, .reviews-section h2, .steps-grid h3, .feature-copy-large h3, .article-card h3, .review-card h3, .category-heading h2, .article-header h1, .article-body h2, .related-section h2, .legal-page h1, .tool-card h2, .tools-reading h2, .article-side-card h3, .editorial-opening blockquote) { line-height: 1.3; }
+:is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.brand, .hero-copy h1, .page-hero h1, .store-button, .section h2, .feature-stage h2, .principles h2, .download-section h2, .reviews-section h2, .steps-grid h3, .feature-copy-large h3, .article-card h3, .review-card h3, .category-heading h2, .article-header h1, .article-faq summary, .article-body h2, .editorial-opening blockquote, .related-section h2, .legal-page h1, .tool-card h2, .tools-reading h2) { letter-spacing: 0; }
+:is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.brand, .eyebrow, .kicker, .hero-copy h1, .page-hero h1, .section h2, .feature-stage h2, .principles h2, .download-section h2, .reviews-section h2, .feature-copy-large li, .text-link, .article-image > span, .review-avatar, .faq-list summary, .support-group summary, .guide-benefits span, .article-header h1, .editorial-opening blockquote, .sources a, .tool-output, .mobile-cta) { font-weight: 700; }
+:is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.eyebrow, .kicker, .trust-strip span, .article-image > span, .footer-grid strong, .category-heading span, .article-breadcrumb, .price-table thead th, .article-tips strong, .on-this-page strong) { text-transform: none; }
