@@ -15,7 +15,6 @@
         "pt",
         "ja",
         "ko",
-        "zh-hans",
         "zh-hant",
         "cs",
         "pl"
@@ -55,10 +54,6 @@
           "path": "../lib/translations/ko.json"
         },
         {
-          "locale": "zh-hans",
-          "path": "../lib/translations/zh-hans.json"
-        },
-        {
           "locale": "zh-hant",
           "path": "../lib/translations/zh-hant.json"
         },
@@ -86,7 +81,6 @@
       ],
       "varieties": {
         "pt": "pt-PT",
-        "zh-hans": "zh-Hans",
         "zh-hant": "zh-Hant"
       },
       "register": {
@@ -222,6 +216,63 @@
       },
       "styleGuide": {
         "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-zh-Hans",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hans"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "NZD",
+        "DOC",
+        "Aotearoa",
+        "Aoraki",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "dump station": {
+          "zh-hans": "排污站"
+        },
+        "freedom camping": {
+          "zh-hans": "自由露营"
+        },
+        "holiday park": {
+          "zh-hans": "假日公园"
+        },
+        "North Island": {
+          "zh-hans": "北岛"
+        },
+        "South Island": {
+          "zh-hans": "南岛"
+        },
+        "New Zealand": {
+          "zh-hans": "新西兰"
+        }
+      },
+      "register": {
+        "zh-hans": "informal"
+      },
+      "styleGuide": {
+        "zh-hans": "Follow docs/translation-style/zh-hans.md: write as a seasoned mainland Chinese self-drive guide writer, address the reader as 你, short topic-first clauses, full-width punctuation, “ ” quotes, no em dashes or 破折号, Simplified characters only, never claim an offline map."
+      },
+      "varieties": {
+        "zh-hans": "zh-Hans"
       }
     }
   ]
