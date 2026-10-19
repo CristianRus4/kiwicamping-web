@@ -18,6 +18,11 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 ## In progress (history)
 - Independent fact-check (never run by the previous session) of every changed rules/fee page. Page text exported to /tmp/kcontent-factcheck/<slug>.md by /tmp/kcontent-factcheck/export.ts (copy into repo root as .fc-export.ts, run `npx tsx ./.fc-export.ts <slugs>`, delete). Verdicts go to /tmp/kcontent-factcheck/verdict-<batch>.md. Batches A (self-contained/freedom) and B (DOC) DONE and fixed (commit 3b59721; verdicts copied to docs/growth/factcheck/). C (driving) DONE and fixed (d673c69). D relaunched on sonnet/high, awaiting verdict at /tmp/kcontent-factcheck/verdict-D.md. C driving (overseas licence, left-side, alcohol-fatigue, towing, campervan-road-rules, speed-limits), D commercial (best-nz-camping-apps, holiday parks, grocery, public-transport, eating-out, travel-cost, beer-wine-coffee, north-island geothermal lines).
 
+## Batch 2 (after handoff 1)
+- Done: fuel-cost page refreshed (MBIE wk ending 11 Oct 2026, monthly series; research in docs/growth/factcheck/k-content-E-fuel-research.md); dump-stations expanded (regional counts, $800 fine) + retitle; 13 P2 retitles (responsible camping, routes, costs, dogs, bus-ferry-train).
+- Running: sonnet fact-check E (fuel, dump stations, dogs) -> /tmp/kcontent-factcheck/verdict-E.md.
+- Not done on purpose: /tools fuel default ($2.96) and FX date: protected test hard-codes 'NZ$355.20'; needs foundation/orchestrator.
+
 ## Next
 1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
 2. Audit P0 left: new-zealand-road-trip-fuel-cost-2026 (dated MBIE monthly series + retitle 'NZ Petrol Prices 2026 and Campervan Fuel Cost'; needs research subagent). /tools FX date refresh (audit item 14).
