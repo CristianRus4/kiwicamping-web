@@ -87,7 +87,7 @@ const application = {
     "Smart and custom collections",
     "Multi-stop road trip planner with distance, directions, dates and notes",
     "Weather on every place and every trip stop",
-    "Standard, satellite and 3D maps with Street View",
+    "Standard, satellite and 3D maps with Apple Look Around",
     "Reported costs converted into your own currency",
   ],
 };

@@ -16,8 +16,8 @@
 export const articleFaqs: Record<string, readonly (readonly [string, string])[]> = {
   // --- Camping guides -------------------------------------------------------
   "doc-huts-new-zealand-guide": [
-    ["Do you need to book a DOC hut?", "It depends on the category. Great Walk and Serviced huts on popular tracks are booked and paid for in advance, often months ahead in summer. Standard and Basic huts generally work on hut tickets or a Backcountry Hut Pass with no booking, and a bunk is never guaranteed."],
-    ["What is actually provided in a backcountry hut?", "Usually bunks with mattresses, a water supply of some kind and a toilet. Cooking facilities, heating and lighting vary by category and many huts have none, so carry a stove, fuel and a light regardless of what the listing says."],
+    ["Do you need to book a DOC hut?", "Only some. Great Walk huts, every serviced hut since 1 October 2026 and some popular huts are booked on bookings.doc.govt.nz. Most standard huts are first come, paid with hut tickets or a Backcountry Hut Pass, and basic huts are free."],
+    ["How much does a DOC hut cost per night?", "For 2026/27 a standard hut is $15 for an adult and $7.50 for a child all year. A serviced hut is $25 from May to September and $28 to $34 from October to April, and a basic hut or bivvy is free. Great Walk and individually priced huts set their own fees."],
   ],
   "winter-camping-new-zealand": [
     ["Can you camp in New Zealand in winter?", "Yes, and it is the quietest time of year on the road. The limits are practical rather than legal: some DOC campsites and alpine roads close or become chain-only, daylight is short, and a van without insulation or a heater gets unpleasant fast."],
@@ -32,8 +32,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do you need a self-contained vehicle to camp for free?", "For a large share of free sites, yes. Many councils restrict free camping to certified self-contained vehicles, and since the 2023 changes that certification requires a fixed toilet. Non-self-contained camping is limited to sites with toilets nearby, where it is allowed at all."],
   ],
   "doc-campsites-new-zealand-guide": [
-    ["How much does a DOC campsite cost?", "It follows the category. Basic sites are free or close to it, Standard and Scenic sites sit in the low tens of dollars, and Serviced sites with showers and powered options cost more. DOC charges per adult per night rather than per site, which changes the total for a family."],
-    ["Do DOC campsites need to be booked?", "Some do and some do not. Serviced and Scenic campsites in high-demand areas take bookings and fill over summer, while many Basic and Standard sites are first-come. Check the individual site before relying on arriving late."],
+    ["How do you book a DOC hut or campsite?", "Online at bookings.doc.govt.nz with a free DOC account, or through a DOC visitor centre. You pay in full when you book and the confirmation email is your proof. Basic huts are free, and non-bookable standard huts are paid with hut tickets or a Backcountry Hut Pass."],
+    ["When did 2026/27 Great Walk bookings open?", "On seven opening days between 12 and 21 May 2026, at 9:30 am, for stays from 1 July 2026 to 30 June 2027. Peak Milford, Abel Tasman and Kepler dates go first, but cancellations come back on sale through the season."],
   ],
   "holiday-parks-new-zealand-guide": [
     ["What is the difference between a holiday park and a campsite?", "A holiday park is a commercial site with powered sites, showers, kitchens, laundry and usually cabins, priced per site or per person. A DOC campsite is public conservation land with far fewer facilities and a much lower fee."],
@@ -46,8 +46,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
 
   // --- Rules & safety -------------------------------------------------------
   "doc-campsite-rules": [
-    ["What are the rules at a DOC campsite?", "Pay the fee for every adult, camp only on marked sites, take all rubbish out, use the toilets provided and keep noise down after dark. Fires, dogs and generators are restricted or banned depending on the site, and the on-site signs override anything you read beforehand."],
-    ["Can you stay more than one night at a DOC campsite?", "Usually yes, though a maximum stay applies at busy sites and is posted at the entrance. Where a site is heavily booked over summer, the limit is enforced."],
+    ["What are the rules at a DOC campsite?", "Keep noise down from 10 pm to 7 am, check out by 10 am, take all rubbish away and bring no pets or drones unless DOC has authorised them. Smoking and vaping are banned in huts and toilet blocks, and each site's own page adds rules on fires, dogs, generators and vehicles."],
+    ["How long can you stay at a DOC campsite?", "Some campsites set a maximum stay on their DOC page, and a Campsite Pass covers no more than 7 nights in any 30 days at one campsite. Every night needs a booking or registration except at free basic campsites, and using a bookable site unbooked costs each person their normal fee plus a full adult fee."],
   ],
   "doc-hut-rules-etiquette": [
     ["Can you be turned away from a full DOC hut?", "On a bookable hut, yes: a bunk is only yours if you booked it. On a first-come hut nobody can be turned out, which is exactly why the etiquette matters and why you should always carry a tent or bivvy on a popular track."],
@@ -94,7 +94,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What does the one-lane bridge sign mean?", "The large arrow is your direction and the small arrow is the oncoming one. If your arrow is the small one, you give way, and on a long bridge that means waiting at the entrance rather than committing and reversing."],
   ],
   "overseas-driver-licence-new-zealand": [
-    ["Can you drive in New Zealand on a foreign licence?", "Yes, for up to 12 months from your arrival, provided the licence is current and for the class of vehicle you are driving. After 12 months you must convert to a New Zealand licence."],
+    ["Can you drive in New Zealand on a foreign licence?", "Yes. If you arrived between 1 November 2024 and 31 October 2026, a current overseas car licence lasts 18 months from that arrival; if you arrive on or after 1 November 2026, it lasts 12 months. After that you need a New Zealand licence."],
     ["Do you need an International Driving Permit for New Zealand?", "Only if your licence is not in English. Where it is not, you must carry either an accurate certified English translation or an International Driving Permit alongside the original licence."],
   ],
   "campervan-road-rules-new-zealand": [
@@ -106,8 +106,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What should you check before driving a rental campervan away?", "The WoF and registration labels, the self-containment certificate and its expiry, the tyres including the spare, and where the chains and the jack are. A self-containment certificate that expires mid-trip turns legal free camping into a fine."],
   ],
   "towing-caravan-new-zealand": [
-    ["What is the speed limit when towing in New Zealand?", "90 km/h, below the 100 km/h open road limit, and it applies whatever the sign says. Anything you tow also has to be within your vehicle's rated towing capacity, which is a legal limit and not a guideline."],
-    ["Do you need a special licence to tow a caravan in New Zealand?", "A full car licence covers most combinations up to 4,500 kg of combined weight. Above that you need a heavier class, and rental agreements often impose their own limits below the legal ones."],
+    ["What is the speed limit when towing in New Zealand?", "90 km/h on the open road with a towbar or other rigid connection, below the 100 km/h general limit, and any lower posted limit still applies. With a rope or other non-rigid connection the limit is 50 km/h on any road."],
+    ["Do you need a special licence to tow a caravan in New Zealand?", "Not usually. A full car licence lets you tow when the vehicle, trailer and load together weigh no more than 6,000 kg; on a learner or restricted licence the limit is 4,500 kg. Rental agreements can set their own lower limits."],
   ],
   "speed-limits-new-zealand-visitors": [
     ["What is the open road speed limit in New Zealand?", "100 km/h unless signed otherwise, 50 km/h in urban areas, and 90 km/h if you are towing. Some highways are signed at 110 km/h and many rural roads are signed lower."],
@@ -138,12 +138,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the biggest mistake campers make?", "Human waste. Toileting near a campsite or a waterway is the behaviour that closes free sites faster than anything else, and it is the reason the self-containment rules now require a fixed toilet."],
   ],
   "freedom-camping-rules-new-zealand": [
-    ["What are the freedom camping rules in New Zealand?", "Freedom camping is allowed only in areas a council permits, and each district sets its own bylaw. Most permitted areas require a certified self-contained vehicle, and fines are issued on the spot and apply to the vehicle's hirer."],
-    ["How much is the fine for illegal freedom camping?", "Infringement fees run to several hundred dollars for a standard breach and considerably more for offences such as dumping waste. Rental companies pass the fine on to the hirer along with an administration charge."],
+    ["What are the freedom camping rules in New Zealand?", "On council and conservation land, freedom camping is allowed unless a bylaw, a DOC notice or another law prohibits or restricts it, and on council land the vehicle must be certified self-contained unless a site is designated otherwise. Councils write their own bylaws, so stay limits and banned areas change between districts."],
+    ["How much is the fine for illegal freedom camping?", "Most breaches carry a $400 infringement fee, including camping where it is prohibited and using an uncertified vehicle where self-containment is required. Depositing waste is $800, and a rental company can pass the fee to the hirer."],
   ],
   "self-contained-campervan-green-warrant": [
-    ["What makes a vehicle certified self-contained in New Zealand?", "It must carry a fixed toilet, fresh and waste water capacity, a sealed rubbish container and the fittings to use them, and be certified by an authorised officer. The old blue warrant was replaced by a green warrant, and the fixed toilet is the change that made many older conversions ineligible."],
-    ["Do you have to have a green self-containment card?", "You do if you want to use the many council areas restricted to certified self-contained vehicles. The card and the green warrant must be current, so check the expiry date on a rental before you plan a trip around free sites."],
+    ["Are blue self-containment warrants still valid in NZ?", "Not for freedom camping. Since 7 June 2026 only a green warrant makes a vehicle self-contained on public land restricted to certified vehicles, whatever expiry date a blue card shows. Campgrounds, holiday parks and private land with permission need neither."],
+    ["What is the fine for freedom camping without a green warrant?", "Camping in an uncertified vehicle where self-containment is required carries a $400 infringement fee, and failing to display the warrant card is $200. With a rental, the hire agreement can make you pay and let the company charge your card."],
   ],
   "camping-wastewater-rubbish-new-zealand": [
     ["Where can you empty a campervan toilet in New Zealand?", "At a public dump station, at most holiday parks, and at some council facilities. Emptying a cassette into a public toilet, a storm drain or the bush is illegal and carries one of the larger infringement fees."],
@@ -195,19 +195,19 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "kiwicamping-offline-data-guide": [
     ["What works in KiwiCamping without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities, opening hours and conditions all open with no signal. Search, filters and your saved places work offline too."],
-    ["What needs a connection?", "The live services: weather, routing and directions, Street View, place photos and provider booking pages. Those are fetched when asked for, so the place screen still opens without them."],
+    ["What needs a connection?", "The live services: weather, routing and directions, Look Around imagery, place photos and provider booking pages. Those are fetched when asked for, so the place screen still opens without them."],
   ],
   "kiwicamping-weather-look-around": [
     ["Can you see the weather for a specific campsite?", "Yes. Current conditions and the forecast sit on each place screen and beside each stop in a trip, so a choice between two camps can be made with the sky in mind rather than a regional forecast."],
-    ["What is Street View useful for when choosing a campsite?", "Seeing the entrance and the road surface before you commit a van to a turnoff. Where Apple's Look Around imagery covers a road, it opens straight from the place screen, which answers the access question a listing cannot."],
+    ["What is Look Around useful for when choosing a campsite?", "Seeing the entrance and the road surface before you commit a van to a turnoff. Where Apple's Look Around imagery covers a road, it opens straight from the place screen, which answers the access question a listing cannot."],
   ],
   "kiwicamping-currency-place-costs": [
     ["Can KiwiCamping show prices in my own currency?", "Yes. Choose your currency in settings and set the conversion rate, and reported costs appear in that currency alongside the New Zealand dollar figure."],
     ["Are the converted prices exact?", "No, and they are not meant to be. They are a mechanical conversion of a reported New Zealand dollar figure at the rate you set, for judging one site against another. Your bank or card provider will apply its own rate and fees."],
   ],
   "best-nz-camping-apps": [
-    ["What should a New Zealand camping app actually do?", "Work without reception, carry accurate fee and facility data, filter to a real question rather than a category, and tell you whether a site needs a self-contained vehicle. Coverage counts for little if the details are wrong or unreadable off-grid."],
-    ["Is one camping app enough for New Zealand?", "For finding and planning, usually. Most travellers still keep a booking provider's own app for the sites they reserve, and the official DOC and NZTA sources for hut bookings and live road status."],
+    ["What is the best camping app for New Zealand?", "It depends on the trip. Rankers stands out for human-checked reviews and local notes, CamperMate for services and rental-company tie-ins, WikiCamps for community breadth, Campable for private land, and KiwiCamping for DOC campsites and huts with fees and booking status."],
+    ["Is there a free camping app for New Zealand?", "Rankers, CamperMate and Campable are free to download and earn from bookings. KiwiCamping is free to download with BookIt stays free, while DOC places need its Premium pass. WikiCamps New Zealand costs NZ$7.99 once on the App Store."],
   ],
 
   // --- Costs & budget -------------------------------------------------------
@@ -216,7 +216,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is New Zealand expensive to travel in?", "By international standards, yes, particularly for food, accommodation and domestic transport. Camping is the one category where it stays cheap, which is why the gap between a camping trip and a hotel trip here is unusually wide."],
   ],
   "new-zealand-grocery-prices-2026": [
-    ["How much does a week of groceries cost in New Zealand?", "The guide prices a real basket rather than an average, with dated figures per item. Fresh produce and dairy are close to what visitors expect, and packaged goods, meat and anything imported run noticeably higher."],
+    ["How much does a week of groceries cost in New Zealand?", "At Stats NZ's September 2026 average prices, a basic week of supermarket food for one person cooking most meals costs about NZ$116. Premium meat, convenience food and small remote stores push that up quickly."],
     ["Where is the cheapest place to buy food in New Zealand?", "The large supermarket chains in the main centres, and the difference against a small-town store is significant enough to plan around. Weekend produce markets beat both on seasonal fruit and vegetables."],
   ],
   "eating-out-new-zealand-prices-2026": [

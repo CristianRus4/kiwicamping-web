@@ -55,6 +55,18 @@ export function GuideArticle({ item }: { item: Article }) {
               </div>
               <p className="price-table-disclaimer">Currency figures are mechanical conversions of the NZD benchmark, not card or cash quotes. Banks and payment providers apply their own rates and fees.</p>
             </section>}
+            {item.comparison && <section className="article-price-section article-comparison-section">
+              <span className="section-count">VS</span>
+              <h2>{item.comparison.caption}</h2>
+              <p>{item.comparison.note}</p>
+              <div className="price-table-meta"><strong>Checked {item.comparison.asOf}</strong></div>
+              <div className="price-table-wrap">
+                <table className="price-table comparison-table">
+                  <thead><tr><th scope="col">App</th>{item.comparison.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+                  <tbody>{item.comparison.rows.map((row) => <tr key={row.label}><th scope="row"><strong>{row.label}</strong></th>{row.cells.map((cell, index) => <td key={item.comparison!.columns[index]}>{cell}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            </section>}
             {item.sections.map((part, index) => <section key={part.heading} id={`step-${index + 1}`}>
               <span className="section-count">{String(index + 1).padStart(2, "0")}</span>
               <h2>{part.heading}</h2>
