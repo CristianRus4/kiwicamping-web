@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, getArticle, guideArticles, sitePath } from "@/lib/site";
-import { seoLanguageTags } from "@/lib/seo";
+import { SITE_URL, getArticle, sitePath } from "@/lib/site";
+import { alternatesFor, defaultOgLocale } from "@/lib/seo";
+import { exportRoutes } from "@/lib/routes";
+import { guidePageKey } from "@/lib/routes/guides";
 
-// Articles with a legacyPath are served at their existing campingapp.nz URL instead, so they are
-// deliberately absent here — one page, one live URL.
+// Articles with a legacyPath are served at their existing campingapp.nz URL instead, so the
+// manifest never lists them under /guides/: one page, one live URL.
 export function generateStaticParams() {
-  return guideArticles.map(({ slug }) => ({ slug }));
+  return exportRoutes().filter((route) => route.locale === "en" && route.kind === "guide" && route.path.startsWith("/guides/")).map((route) => ({ slug: route.path.split("/")[2] }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -17,11 +19,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: item.title,
     description: item.description,
-    alternates: { canonical: `/guides/${item.slug}/`, languages: seoLanguageTags(`/guides/${item.slug}`) },
+    alternates: { canonical: `/guides/${item.slug}/`, languages: alternatesFor(guidePageKey(item.slug)) },
     openGraph: {
       type: "article",
       siteName: "KiwiCamping",
-      locale: "en_NZ",
+      locale: defaultOgLocale,
       title: item.title,
       description: item.description,
       url: `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`,

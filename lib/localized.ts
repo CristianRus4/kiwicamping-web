@@ -1,28 +1,20 @@
-import de from "./translations/de.json";
-import es from "./translations/es.json";
-import fr from "./translations/fr.json";
-import it from "./translations/it.json";
-import nl from "./translations/nl.json";
-import pt from "./translations/pt.json";
+import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { articles, categories, type Article, type ArticleCategory } from "./site";
+import { hasReviews, liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
 
-export const localeCodes = ["de", "es", "fr", "it", "nl", "pt"] as const;
-export type LocaleCode = (typeof localeCodes)[number];
-export const localeLabels: Record<LocaleCode, string> = { de: "Deutsch", es: "Español", fr: "Français", it: "Italiano", nl: "Nederlands", pt: "Português" };
+export { liveLocales, localeCodes, routedLocales, type LocaleCode };
+export const localeLabel = (code: LocaleCode) => localeEntry(code).label;
 
 /**
- * Road trips are deliberately English-only. They are long, heavily place-specific and lose more in
- * machine or hurried translation than they gain, so `translatableArticles` is what a translator is
- * asked for and what a localised /guides/ index lists. Articles published at an existing
- * campingapp.nz URL are excluded for the same reason they are excluded from /guides/: that URL
- * already ranks in English and must not gain a second live copy.
+ * Every guide is translatable, road trips and the legacy .html articles included. A legacy article
+ * keeps its English URL (/best-nz-camping-apps.html); its translations live at
+ * /<segment>/guides/<slug>/ and point back at it through hreflang.
  */
-export const untranslatedCategories: ArticleCategory[] = ["Road trips"];
-/** Every guide a locale publishes. Untranslated ones are served whole, in English. */
-export const localeArticles = articles.filter((item) => !item.legacyPath);
-/** The subset a translator is asked for. Road trips are long, heavily place-specific and lose
- * more in translation than they gain, so they stay English everywhere. */
+export const untranslatedCategories: ArticleCategory[] = [];
+/** Every guide a locale publishes. Untranslated ones are served whole, in English, and noindex. */
+export const localeArticles = articles;
+/** What a translator is asked for: everything. */
 export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
 export const localeCategories = categories;
 
@@ -40,9 +32,10 @@ type TranslationFile = {
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
 
-const files: Record<LocaleCode, TranslationFile> = { de, es, fr, it, nl, pt } as unknown as Record<LocaleCode, TranslationFile>;
+const files = translationFiles as Record<LocaleCode, TranslationFile>;
 
-export const isLocale = (value: string): value is LocaleCode => localeCodes.includes(value as LocaleCode);
+/** A route segment that names a locale with routes in this build (live, or a draft when previewing). */
+export const isLocale = (value: string): value is LocaleCode => routedLocaleForSegment(value) === value;
 
 /**
  * Nothing is ever shown half-translated. That is the whole point of the three checks below.
@@ -91,16 +84,29 @@ function isPageComplete(kind: StaticPageKind, page: StaticPage | undefined): boo
   });
 }
 
+/** The home page testimonials (reviewsEyebrow, reviewsTitle, review1Title ... review9Country). */
+export const isReviewKey = (key: string) => /^review(?:s[A-Z]|\d+[A-Z])/.test(key);
+
 /**
- * A locale is published only when **every** UI string is translated. A partial UI would put a German
- * hero above an English FAQ. Guides have a separate per-article indexability check below, so a
- * translated UI never makes an untranslated English article compete with the English site.
+ * The UI strings a locale must translate: all of them, except the testimonials in a locale whose
+ * home page does not show them (`reviews: false` in lib/locales.json). Testimonials are quotes from
+ * real reviews and are never translated into a new language.
+ */
+export const requiredUiKeys = (locale: LocaleCode) =>
+  (Object.keys(uiStrings) as (keyof UiStrings)[]).filter((key) => hasReviews(locale) || !isReviewKey(key));
+
+/**
+ * A locale is published only when **every** UI string it shows is translated. A partial UI would put
+ * a German hero above an English FAQ. Guides have a separate per-article indexability check below,
+ * so a translated UI never makes an untranslated English article compete with the English site.
  */
 export const isTranslated = (locale: LocaleCode) => {
   const overrides = files[locale].ui ?? {};
-  return Object.keys(uiStrings).every((key) => filled(overrides[key as keyof UiStrings]));
+  return requiredUiKeys(locale).every((key) => filled(overrides[key]));
 };
-export const publishedLocales = localeCodes.filter(isTranslated);
+/** Routed locales whose interface is complete: the ones search engines may index. Every live locale
+ * must be one of them (`npm run content:check` fails otherwise); a previewed draft usually is not. */
+export const publishedLocales = routedLocales.filter(isTranslated);
 
 /** A localised guide is indexable only when its complete article has been translated. */
 export function isArticleTranslated(locale: LocaleCode, slug: string) {
@@ -108,16 +114,24 @@ export function isArticleTranslated(locale: LocaleCode, slug: string) {
   return !!article && isArticleComplete(article, files[locale].articles?.[slug]);
 }
 
+/** A support, privacy or terms page is indexable in a locale only when its translation is complete. */
+export function isStaticPageTranslated(locale: LocaleCode, kind: StaticPageKind) {
+  return isPageComplete(kind, files[locale].pages?.[kind]);
+}
+
 /** How much of a locale is done, for the content audit and the build log. */
 export function translationProgress(locale: LocaleCode) {
   const overrides = files[locale].ui ?? {};
   const translatedArticles = files[locale].articles ?? {};
+  const required = requiredUiKeys(locale);
   return {
-    ui: Object.keys(uiStrings).filter((key) => filled(overrides[key as keyof UiStrings])).length,
-    uiTotal: Object.keys(uiStrings).length,
+    ui: required.filter((key) => filled(overrides[key])).length,
+    uiTotal: required.length,
     articles: translatableArticles.filter((article) => isArticleComplete(article, translatedArticles[article.slug])).length,
     articlesTotal: translatableArticles.length,
     pages: (["support", "privacy", "terms"] as StaticPageKind[]).filter((kind) => isPageComplete(kind, files[locale].pages?.[kind])).length,
+    consent: Object.keys(consentStrings).filter((key) => filled(files[locale].consent?.[key as ConsentKey])).length,
+    consentTotal: Object.keys(consentStrings).length,
   };
 }
 
@@ -128,7 +142,7 @@ export function getTranslation(locale: LocaleCode): UiStrings {
 }
 
 /** The consent bar strings: each one in the locale when translated, otherwise English. Never gates publishing. */
-export function getConsent(locale: LocaleCode | "en"): ConsentStrings {
+export function getConsentStrings(locale: LocaleCode | "en"): ConsentStrings {
   const overrides = locale === "en" ? {} : files[locale].consent ?? {};
   return Object.fromEntries(Object.entries(consentStrings).map(([key, english]) => [key, filled(overrides[key as ConsentKey]) ? overrides[key as ConsentKey]! : english])) as ConsentStrings;
 }
@@ -149,10 +163,11 @@ export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {
  */
 export function localizedArticles(locale: LocaleCode): Article[] {
   const translated = files[locale].articles ?? {};
+  const cjk = localeScript(locale) === "cjk";
   return localeArticles.map((article) => {
     const item = translated[article.slug];
     if (!isArticleComplete(article, item)) return article;
-    return {
+    const localized: Article = {
       ...article,
       title: item!.title!,
       description: item!.description!,
@@ -172,7 +187,21 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         rows: article.priceTable.rows.map((row, index) => ({ ...row, label: item!.priceTable!.rows![index].label!, unit: item!.priceTable!.rows![index].unit || row.unit })),
       } : undefined,
     };
+    // Word counts mean nothing in Japanese, Korean or Chinese, so CJK reading time comes from characters.
+    return cjk ? { ...localized, readTime: cjkReadingMinutes(localized) } : localized;
   });
+}
+
+/** Characters per minute for CJK prose, a common silent-reading rate for Japanese and Chinese. */
+const CJK_CHARACTERS_PER_MINUTE = 500;
+function cjkReadingMinutes(article: Article): number {
+  const text = [
+    article.intro,
+    ...article.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...(article.priceTable ? [article.priceTable.note, ...article.priceTable.rows.map((row) => `${row.label}${row.unit ?? ""}`)] : []),
+  ].join("").replace(/<[^>]+>/g, "");
+  const characters = text.match(/[\p{L}\p{N}]/gu)?.length ?? 0;
+  return Math.max(1, Math.round(characters / CJK_CHARACTERS_PER_MINUTE));
 }
 
 /** Slugs whose translation is complete, for the content audit and the build log. */

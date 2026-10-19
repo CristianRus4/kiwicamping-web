@@ -5,7 +5,9 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage } from "@/components/site-image";
-import { SITE_URL, articles, articleHref, type Article } from "@/lib/site";
+import { SITE_URL, articleHref, type Article } from "@/lib/site";
+import { relatedGuides } from "@/lib/related";
+import { guidePageKey } from "@/lib/routes/guides";
 import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
@@ -13,7 +15,7 @@ import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/curre
 import { mainData } from "@/lib/analytics";
 
 export function GuideArticle({ item }: { item: Article }) {
-  const related = articles.filter((candidate) => candidate.slug !== item.slug && (candidate.category === item.category || candidate.region === item.region)).slice(0, 3);
+  const related = relatedGuides(item);
   const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
@@ -44,7 +46,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <span className="section-count">NZD</span>
               <h2>Price table in 10 currencies</h2>
               <p>{item.priceTable.note}</p>
-              <div className="price-table-meta"><strong>Prices checked {item.priceTable.asOf}</strong><span>Conversions use RBNZ rates from {exchangeRateDate}.</span></div>
+              <div className="price-table-meta"><strong>Prices checked {formatArticleDate(item.priceTable.asOf)}</strong><span>Conversions use RBNZ rates from {formatArticleDate(exchangeRateDate)}.</span></div>
               <div className="price-table-wrap">
                 <table className="price-table">
                   <thead><tr><th scope="col">Item</th>{displayCurrencies.map((currency) => <th scope="col" key={currency}>{currency}</th>)}</tr></thead>
@@ -88,7 +90,7 @@ export function GuideArticle({ item }: { item: Article }) {
       </article>
       <section className="related-section"><p className="eyebrow">Keep planning</p><h2>Related guides</h2><div className="article-grid">{related.map((candidate) => <ArticleCard article={candidate} key={candidate.slug} />)}</div></section>
     </main>
-    <Footer />
+    <Footer pageKey={guidePageKey(item.slug)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   </>;
 }

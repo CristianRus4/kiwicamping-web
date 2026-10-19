@@ -1,7 +1,11 @@
-import { articles, articleHref, categories, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { articles, articleHref, categories, SITE_URL, SUPPORT_EMAIL, sitePath } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
-import { localeCodes, localeLabels } from "@/lib/localized";
-import { hreflang } from "@/lib/seo";
+import { publishedLocales } from "@/lib/localized";
+import { localeEntry, localeRoot } from "@/lib/locales";
+import { toolStrings } from "@/lib/source-strings";
+import { toolIds, toolPath } from "@/lib/tools";
+import { hubIndexIndexable, hubKinds, listedHubs } from "@/lib/hubs";
+import { hubCopy } from "@/components/hub-page";
 
 /**
  * /llms.txt — a markdown brief for AI crawlers and assistants.
@@ -76,17 +80,18 @@ figure, for visitors not fluent in NZD.
 - [Home](${SITE_URL}/)
 - [Guides](${SITE_URL}/guides) — ${articles.length} long-form guides
 - [Road trip tools](${SITE_URL}/tools) — currency, fuel, driving day, water and waste, campsite cost
+${toolIds.map((id) => `  - [${toolStrings[id].h1}](${SITE_URL}${toolPath("en", id)})`).join("\n")}
+${hubKinds.filter((kind) => hubIndexIndexable(kind)).map((kind) => `- [${hubCopy[kind].indexTitle}](${SITE_URL}/${kind}/): ${listedHubs(kind).length} pages from Department of Conservation data (CC BY 4.0)`).join("\n")}
 - [Support and FAQ](${SITE_URL}/support)
 - [Privacy](${SITE_URL}/privacy)
 - [Terms](${SITE_URL}/terms)
 
 ## Languages
 
-The site is published in English plus ${localeCodes.length} translated editions. Guide prose is
-English in the translated editions unless a translation is complete; road trip guides are English
-everywhere by design.
+The site is published in English plus ${publishedLocales.length} translated editions. A guide is
+shown in English in a translated edition until its translation is complete.
 
-${localeCodes.map((code) => `- ${localeLabels[code]} (${hreflang[code]}): ${SITE_URL}/${code}`).join("\n")}
+${publishedLocales.map((code) => `- ${localeEntry(code).label} (${localeEntry(code).hreflang.join(", ")}): ${SITE_URL}${sitePath(localeRoot(code))}`).join("\n")}
 
 ## Guides
 

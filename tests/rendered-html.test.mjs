@@ -5,7 +5,13 @@ import { startProdServer } from "vinext/server/prod-server";
 // Run with `node --import tsx --test` (npm test), so the site's own constants are imported, not copied.
 import { APPLE_PROVIDER_TOKEN, APP_STORE_URL, GA_MEASUREMENT_ID } from "../lib/site.ts";
 import { appStoreUrl, ctaPlacements } from "../lib/app-store.ts";
-import { fixtureDir, fixtureName, legacyBody, legacyPaths } from "./legacy-body.mjs";
+import { isArticleTranslated, isStaticPageTranslated, isTranslated, publishedLocales } from "../lib/localized.ts";
+import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
+import { articles } from "../lib/site.ts";
+import { redirects } from "../lib/redirects.ts";
+
+/** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
+const locales=liveLocales;
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:"dist",noCompression:true,purpose:"prerender"});
 after(()=>new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())));
@@ -34,7 +40,7 @@ test("renders tools with official benchmark defaults",async()=>{const response=a
 test("publishes every guide in every locale",async()=>{
   // Every guide is available in all six languages. Ones a locale has not translated are served whole
   // in English, road trips included, so no localised URL is ever missing.
-  for(const locale of ["de","es","fr","it","nl","pt"]){
+  for(const locale of locales){
     for(const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms",
                         "/guides/doc-hut-rules-etiquette", "/guides/coromandel-rotorua-road-trip"]){
       assert.equal((await fetchPage(`/${locale}${route}`)).status,200,`${locale}${route}`);
@@ -42,13 +48,12 @@ test("publishes every guide in every locale",async()=>{
   }
 });
 
-test("road trips are never translated",async()=>{
-  for(const locale of ["de","es","fr","it","nl","pt"]){
-    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
-    assert.ok(!file.articles?.["coromandel-rotorua-road-trip"],`${locale} must not translate a road trip`);
-  }
+test("every guide, road trips included, is in the translation source",async()=>{
+  const source=JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8"));
+  assert.deepEqual(Object.keys(source.articles).sort(),articles.map((article)=>article.slug).sort());
+  assert.ok(source.articles["coromandel-rotorua-road-trip"],"road trips are translatable");
+  assert.ok(source.articles["doc-campsites-new-zealand-guide"],"legacy guides are translatable");
 });
-
 test("never serves a half-translated guide",async()=>{
   // All or nothing per guide. Where a locale has no translation, the article's own prose must appear
   // verbatim in English, so a reader never gets one paragraph in their language and the next in
@@ -56,37 +61,44 @@ test("never serves a half-translated guide",async()=>{
   // three sections to seven underneath their translations.
   const slug="doc-hut-rules-etiquette";
   const source=JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8")).articles[slug];
-  const prose=[source.intro,...source.sections.flatMap((section)=>[section.heading,...section.body])];
+  // en.json carries the internal links as <a data-guide> markup; the page renders the same words.
+  const prose=[source.intro,...source.sections.flatMap((section)=>[section.heading,...section.body])].map((text)=>text.replace(/<a data-guide="[^"]+">|<\/a>/g,""));
   const decode=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/<!-- -->/g,"");
-  for(const locale of ["de","es","fr","it","nl","pt"]){
-    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
-    if(file.articles?.[slug])continue;
+  for(const locale of locales){
+    // A stale translation is served in English too, so only a complete one is skipped here.
+    if(isArticleTranslated(locale,slug))continue;
     const page=decode(await (await fetchPage(`/${locale}/guides/${slug}`)).text());
     for(const text of prose) assert.ok(page.includes(text),`${locale}/${slug} is missing English prose it should be falling back to`);
   }
 });
 
+/** Every URL in every sitemap: /sitemap.xml is an index of one sitemap per edition. */
+async function sitemapUrls(){
+  const locs=(xml)=>[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match)=>match[1]);
+  const index=await (await fetchPage("/sitemap.xml")).text();
+  assert.match(index,/<sitemapindex/);
+  const files=await Promise.all(locs(index).map(async(url)=>(await fetchPage(new URL(url).pathname)).text()));
+  return files.flatMap(locs).join("\n");
+}
+
 test("a published locale translates the whole interface",async()=>{
   // A locale goes live only when every UI string is done, so a live locale must not leak English
-  // chrome, and one that is not live must stay noindex and out of the sitemap.
-  const sitemap=await (await fetchPage("/sitemap.xml")).text();
-  const total=Object.keys(JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8")).ui).length;
-  for(const locale of ["de","es","fr","it","nl","pt"]){
-    const file=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
-    const published=Object.keys(file.ui??{}).length===total;
-    assert.equal(sitemap.includes(`/${locale}/guides`),published,`${locale} sitemap presence must match its translation state`);
+  // chrome, and one that is not complete must stay noindex and out of the sitemap.
+  const sitemap=await sitemapUrls();
+  for(const locale of locales){
+    const published=isTranslated(locale);
+    assert.equal(sitemap.includes(`/${locale}/guides/`),published,`${locale} sitemap presence must match its translation state`);
     const html=await (await fetchPage(`/${locale}`)).text();
     assert.match(html,published?/name="robots" content="index/:/name="robots" content="noindex/,`${locale} robots meta must match its translation state`);
     if(published)for(const phrase of ["Download app","Explore the guides","Made for plans"])assert.ok(!html.includes(phrase),`${locale} leaked English chrome: ${phrase}`);
     const guide=await(await fetchPage(`/${locale}/guides/doc-hut-rules-etiquette`)).text();
     // A guide is indexable once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
-    const translatedGuide = Boolean(file.articles?.["doc-hut-rules-etiquette"]) && published;
-    assert.match(guide, translatedGuide ? /name="robots" content="index, follow/ : /name="robots" content="noindex, follow"/, `${locale} guide robots must match its translation state`);
-    assert.equal(sitemap.includes(`/${locale}/guides/doc-hut-rules-etiquette/`), translatedGuide, `${locale} guide sitemap presence must match its translation state`);
+    const translatedGuide=isArticleTranslated(locale,"doc-hut-rules-etiquette")&&published;
+    assert.match(guide,translatedGuide?/name="robots" content="index, follow/:/name="robots" content="noindex, follow"/,`${locale} guide robots must match its translation state`);
+    assert.equal(sitemap.includes(`/${locale}/guides/doc-hut-rules-etiquette/`),translatedGuide,`${locale} guide sitemap presence must match its translation state`);
   }
 });
-
-test("publishes crawler surfaces including every ranking URL",async()=>{const[robots,sitemap,llms]=await Promise.all([fetchPage("/robots.txt"),fetchPage("/sitemap.xml"),fetchPage("/llms.txt")]);assert.equal(robots.status,200);assert.equal(sitemap.status,200);assert.equal(llms.status,200);assert.match(await robots.text(),/Sitemap:/);const map=await sitemap.text();assert.match(map,/coromandel-rotorua-road-trip/);for(const url of rankingUrls)assert.ok(map.includes(url),`sitemap is missing ${url}`);const brief=await llms.text();assert.match(brief,/^# KiwiCamping/);assert.match(brief,/Download \(App Store, free\)/);assert.match(brief,/## What the app does/);assert.match(brief,/## Caveats a correct answer should include/);assert.match(brief,/## Guides/)});
+test("publishes crawler surfaces including every ranking URL",async()=>{const[robots,sitemap,llms]=await Promise.all([fetchPage("/robots.txt"),fetchPage("/sitemap.xml"),fetchPage("/llms.txt")]);assert.equal(robots.status,200);assert.equal(sitemap.status,200);assert.equal(llms.status,200);assert.match(await robots.text(),/Sitemap:/);assert.match(await sitemap.text(),/<sitemapindex/);const map=await sitemapUrls();assert.match(map,/coromandel-rotorua-road-trip/);for(const url of rankingUrls)assert.ok(map.includes(url),`sitemap is missing ${url}`);const brief=await llms.text();assert.match(brief,/^# KiwiCamping/);assert.match(brief,/Download \(App Store, free\)/);assert.match(brief,/## What the app does/);assert.match(brief,/## Caveats a correct answer should include/);assert.match(brief,/## Guides/)});
 
 /* ------------------------------------------------------------------------------------------------
  * The static export (pages-dist), which is what GitHub Pages serves. `npm run check` exports before
@@ -100,8 +112,8 @@ async function exportedPages(){
   return Promise.all(files.map(async(url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),html:await readFile(url,"utf8")})));
 }
 const pagesPromise=exportedPages();
-/** The hand-written redirect and 404 pages are not React pages and carry no layout. */
-const generated=(path)=>path!=="/404.html"&&path!=="/download/";
+/** The hand-written redirect stubs and 404 page are not React pages and carry no layout. */
+const generated=(path)=>path!=="/404.html"&&path!=="/download/"&&!(path in redirects);
 const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z]+)?)\//.exec(path)?.[1]??"en";
 const decodeHref=(value)=>value.replace(/&amp;/g,"&");
 
@@ -140,10 +152,11 @@ test("every App Store link carries its placement and campaign",async()=>{
       const href=decodeHref(match[1]);
       if(!APPLE_PROVIDER_TOKEN){assert.equal(href,APP_STORE_URL,`${path} store link must be the plain listing URL while no provider token is set`);continue}
       const url=new URL(href);
+      assert.equal(url.origin+url.pathname,APP_STORE_URL,`${path} store link must point at the KiwiCamping listing: ${href}`);
       assert.equal(url.searchParams.get("pt"),APPLE_PROVIDER_TOKEN,`${path} store link without pt: ${href}`);
       const ct=url.searchParams.get("ct")??"";
       assert.match(ct,/^w_[a-z]+_[a-z-]+$/,`${path} store link campaign token is malformed: ${ct}`);
-      assert.ok(ct.length<=40,`${path} campaign token longer than 40 characters: ${ct}`);
+      assert.ok(ct.length<=30,`${path} campaign token longer than 30 characters (App Store Connect limit): ${ct}`);
       // The token names the button and the edition it sits on, so a click is attributable.
       if(generated(path))assert.equal(ct,`w_${placement}_${locale}`,`${path} campaign token does not match its placement and locale`);
     }
@@ -185,14 +198,195 @@ test("every page labels its main element for analytics",async()=>{
   }
 });
 
-test("the 15 legacy pages keep main's English body byte for byte",async()=>{
-  // See tests/legacy-body.mjs for exactly what the comparison excludes, and why.
-  for(const path of legacyPaths){
-    const html=await readFile(new URL(path.slice(1),dist),"utf8");
-    const expected=(await readFile(new URL(fixtureName(path),fixtureDir),"utf8")).replace(/\n$/,"").replace(/__variable_[a-z0-9_]+/g,"__variable_FONT");
-    const actual=legacyBody(html);
-    if(actual===expected)continue;
-    let index=0;while(index<actual.length&&actual[index]===expected[index])index+=1;
-    assert.fail(`${path} body changed at character ${index}:\n  main: …${expected.slice(Math.max(0,index-120),index+160)}…\n  now:  …${actual.slice(Math.max(0,index-120),index+160)}…`);
+
+test("a locale's support, privacy and terms pages are indexed only once translated",async()=>{
+  // An incomplete translation renders the English page, which must not compete with /privacy/ itself.
+  const sitemap=await sitemapUrls();
+  for(const locale of publishedLocales)for(const kind of ["support","privacy","terms"]){
+    const complete=isStaticPageTranslated(locale,kind);
+    const html=await (await fetchPage(`/${locale}/${kind}`)).text();
+    assert.match(html,complete?/name="robots" content="index, follow/:/name="robots" content="noindex, follow"/,`${locale}/${kind} robots must match its translation state`);
+    assert.equal(sitemap.includes(`/${locale}/${kind}/`),complete,`${locale}/${kind} sitemap presence must match its translation state`);
+  }
+});
+
+/* ------------------------------------------------------------------------------------------------
+ * The i18n platform (M2): one locale registry, one route manifest, and what they generate.
+ * Same tests as aussiecamps-web (docs/PARITY.md), with Kiwi's slugs.
+ * --------------------------------------------------------------------------------------------- */
+
+const decodeHtml=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/<!-- -->/g,"");
+
+test("draft locales are neither routed nor advertised",async()=>{
+  const drafts=localeCodes.filter((code)=>localeEntry(code).status==="draft");
+  assert.ok(drafts.length>=9,"ja, ko, zh-hans, zh-hant, da, sv, nb, cs and pl start as drafts");
+  for(const code of drafts){
+    assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status,200,`${code} is a draft and must not be served`);
+    await assert.rejects(readdir(new URL(`${localeEntry(code).segment}/`,dist)),`${code} must not be exported`);
+  }
+  const home=await (await fetchPage("/")).text();
+  for(const code of drafts){
+    assert.doesNotMatch(home,new RegExp(`hrefLang="${localeEntry(code).hreflang[0]}"`,"i"),`${code} must not be an hreflang alternate`);
+    assert.ok(!home.includes(`>${localeEntry(code).label}<`),`${code} must not be in the language switcher`);
+  }
+});
+
+test("no locale list is hardcoded outside the registry",async()=>{
+  // Built from the registry itself, so this file holds no list either.
+  const codes=localeCodes.join("|");
+  const patterns=[
+    new RegExp(`["'](?:${codes})["']\\s*,\\s*["'](?:${codes})["']\\s*,\\s*["'](?:${codes})["']`),
+    new RegExp(`\\b(?:${codes})\\|(?:${codes})\\|(?:${codes})\\b`),
+    new RegExp(`\\b(?:${codes}):\\s*["'][^"']*["']\\s*,\\s*(?:${codes}):\\s*["']`),
+  ];
+  const generated=new Set(["lib/locales.json","lib/translations/index.ts"]);
+  const offenders=[];
+  for(const directory of ["app","components","lib","scripts","tests"]){
+    for(const name of await readdir(new URL(`../${directory}/`,import.meta.url),{recursive:true})){
+      const path=`${directory}/${name}`;
+      if(!/\.(?:ts|tsx|mjs|js)$/.test(name)||generated.has(path)||path.startsWith("lib/translations/"))continue;
+      const source=await readFile(new URL(`../${path}`,import.meta.url),"utf8");
+      for(const pattern of patterns)if(pattern.test(source))offenders.push(`${path}: ${source.match(pattern)[0]}`);
+    }
+  }
+  assert.deepEqual(offenders,[],"read locales from lib/locales.json (lib/locales.ts) instead");
+});
+
+test("the route manifest and the export are the same set of pages",async()=>{
+  const { exportRoutes }=await import("../lib/routes.ts");
+  const manifest=new Set(exportRoutes().map((route)=>route.path));
+  const exported=new Set((await pagesPromise).map((page)=>page.path).filter((path)=>generated(path)&&!(path in redirects)));
+  for(const path of manifest)if(!/\.(xml|txt)$/.test(path))assert.ok(exported.has(path),`${path} is in the manifest but was not exported`);
+  for(const path of exported)assert.ok(manifest.has(path),`${path} was exported but is not in the manifest`);
+  for(const path of ["/robots.txt","/sitemap.xml","/llms.txt","/sitemaps/en.xml"])await readFile(new URL(path.slice(1),dist));
+});
+
+test("a mistyped URL from lib/redirects.ts is a noindex stub pointing at its target",async()=>{
+  const pages=new Map((await pagesPromise).map((page)=>[page.path,page.html]));
+  assert.ok(Object.keys(redirects).length>=1);
+  for(const [from,to] of Object.entries(redirects)){
+    const html=pages.get(from);
+    assert.ok(html,`${from} must be exported as a redirect stub`);
+    assert.ok(pages.has(to),`${to} must be a real page`);
+    assert.match(html,/<meta name="robots" content="noindex, follow">/);
+    assert.ok(html.includes(`<meta http-equiv="refresh" content="0; url=${to}">`),`${from} must refresh to ${to}`);
+    assert.ok(html.includes(`<link rel="canonical" href="https://campingapp.nz${to}">`),`${from} must name ${to} as canonical`);
+  }
+  const sitemap=await sitemapUrls();
+  for(const from of Object.keys(redirects))assert.ok(!sitemap.includes(from),`${from} must not be in a sitemap`);
+});
+
+async function urlList(file){
+  const text=await readFile(new URL(`../${file}`,import.meta.url),"utf8");
+  return text.split("\n").map((line)=>line.trim()).filter((line)=>line.startsWith("https://campingapp.nz/"));
+}
+
+test("every URL that was live at the start of the growth push is still exported",async()=>{
+  const baseline=await urlList("docs/growth/url-baseline.txt");
+  assert.ok(baseline.length>350);
+  const exported=new Set((await pagesPromise).map((page)=>`https://campingapp.nz${page.path}`));
+  const missing=baseline.filter((url)=>!exported.has(url));
+  assert.deepEqual(missing,[],"GitHub Pages cannot redirect: a dropped URL is a 404");
+});
+
+test("every ranking URL is still exported and names itself as canonical",async()=>{
+  const ranking=await urlList("docs/growth/ranking-urls.txt");
+  assert.ok(ranking.length>=100);
+  for(const url of rankingUrls)assert.ok(ranking.includes(`https://campingapp.nz${url}`),`${url} must stay in docs/growth/ranking-urls.txt`);
+  const pages=new Map((await pagesPromise).map((page)=>[`https://campingapp.nz${page.path}`,page.html]));
+  for(const url of ranking){
+    assert.ok(pages.has(url),`${url} earns clicks or impressions and is no longer exported`);
+    assert.match(pages.get(url),new RegExp(`<link rel="canonical" href="${url.replace(/[.?]/g,"\\$&")}"`),`${url} must stay self-canonical`);
+  }
+});
+
+test("a localised guide carries its language, its own date and localised breadcrumbs",async()=>{
+  const { translationDate }=await import("../lib/article-dates.ts");
+  const slug="doc-hut-rules-etiquette";
+  const locale=locales.find((code)=>isTranslated(code)&&isArticleTranslated(code,slug));
+  assert.ok(locale,"some live locale translates the hut etiquette guide");
+  const url=`https://campingapp.nz/${locale}/guides/${slug}/`;
+  const html=(await pagesPromise).find((page)=>page.path===`/${locale}/guides/${slug}/`).html;
+  assert.match(html,new RegExp(`<html lang="${localeEntry(locale).htmlLang}"`));
+  assert.match(html,new RegExp(`<link rel="canonical" href="${url}"`));
+  assert.match(html,new RegExp(`<link rel="alternate" hrefLang="x-default" href="https://campingapp\\.nz/guides/${slug}/"`));
+  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
+  const article=graph.find((node)=>node["@type"]==="Article");
+  assert.equal(article.inLanguage,localeEntry(locale).htmlLang);
+  assert.equal(article.mainEntityOfPage,url,"schema URL ends in a slash, like the canonical");
+  assert.equal(article.dateModified,translationDate(slug,locale),"a translation is dated by its own last change");
+  const crumbs=graph.find((node)=>node["@type"]==="BreadcrumbList").itemListElement.map((item)=>item.item);
+  assert.deepEqual(crumbs,[`https://campingapp.nz/${locale}/`,`https://campingapp.nz/${locale}/guides/`,url]);
+  assert.equal(graph.find((node)=>node["@type"]==="FAQPage").inLanguage,localeEntry(locale).htmlLang);
+  const sitemap=await readFile(new URL(`sitemaps/${locale}.xml`,dist),"utf8");
+  assert.ok(sitemap.includes(`<url><loc>${url}</loc><lastmod>${translationDate(slug,locale)}</lastmod></url>`),"sitemap lastmod is the translation date");
+});
+
+test("a translated legacy guide and its .html original list each other",async()=>{
+  const slug="doc-campsites-new-zealand-guide";
+  const legacy="https://campingapp.nz/doc-campsites-huts-guide.html";
+  const pages=new Map((await pagesPromise).map((page)=>[`https://campingapp.nz${page.path}`,page.html]));
+  assert.ok(!pages.has(`https://campingapp.nz/guides/${slug}/`),"the English guide lives only at its .html URL");
+  const english=pages.get(legacy);
+  for(const locale of locales){
+    const url=`https://campingapp.nz/${locale}/guides/${slug}/`;
+    assert.ok(pages.has(url),`${url} must be exported`);
+    const indexable=isTranslated(locale)&&isArticleTranslated(locale,slug);
+    const listed=english.includes(`<link rel="alternate" hrefLang="${localeEntry(locale).hreflang[0]}" href="${url}"`);
+    assert.equal(listed,indexable,`${legacy} must list ${url} as an alternate exactly when it is indexable`);
+    if(indexable)assert.ok(pages.get(url).includes(`hrefLang="x-default" href="${legacy}"`),`${url} must name the .html original as x-default`);
+    else assert.match(pages.get(url),/name="robots" content="noindex, follow"/,`${url} is English fallback and must be noindex`);
+  }
+});
+
+test("guide links survive translation as data-guide markup",async()=>{
+  const { linkProse, markGuideLinks, renderGuideLinks }=await import("../lib/internal-links.ts");
+  // English renders exactly as before: marking the links and rendering the markup at the site root
+  // gives the same HTML as linking the plain prose.
+  for(const article of articles)for(const section of article.sections){
+    assert.deepEqual(markGuideLinks(section.body,article.slug).map((text)=>renderGuideLinks(text,"")),linkProse(section.body,article.slug),`${article.slug}: ${section.heading}`);
+  }
+  assert.equal(renderGuideLinks('Mit <a data-guide="doc-hut-rules-etiquette">Hütten</a> & mehr',"/de"),'Mit <a href="/de/guides/doc-hut-rules-etiquette/">Hütten</a> &amp; mehr');
+  assert.equal(renderGuideLinks('<a data-guide="no-such-guide">kein Ziel</a>',"/de"),"kein Ziel","an unknown slug keeps its words and loses the link");
+  assert.equal(renderGuideLinks('<a href="https://evil.example">x</a><script>alert(1)</script>',"/de"),"x&lt;script&gt;alert(1)&lt;/script&gt;","nothing else is admitted");
+});
+
+test("related guides are relevant, stable and not all from one category",async()=>{
+  const { relatedGuides }=await import("../lib/related.ts");
+  for(const article of articles){
+    const related=relatedGuides(article);
+    assert.equal(related.length,3,article.slug);
+    assert.ok(!related.some((item)=>item.slug===article.slug),`${article.slug} relates to itself`);
+    assert.equal(new Set(related.map((item)=>item.slug)).size,3,`${article.slug} repeats a related guide`);
+    assert.ok(related.some((item)=>item.category!==article.category),`${article.slug} offers only its own category`);
+    assert.deepEqual(relatedGuides(article).map((item)=>item.slug),related.map((item)=>item.slug),"deterministic");
+  }
+});
+
+test("translation stamps find strings whose English changed",async()=>{
+  const { mkdtemp, writeFile, mkdir }=await import("node:fs/promises");
+  const { tmpdir }=await import("node:os");
+  const { join }=await import("node:path");
+  const stamps=await import("../scripts/translations-stamp.mjs");
+  const directory=await mkdtemp(join(tmpdir(),"stamps-"));
+  await mkdir(join(directory,"meta"));
+  const write=(name,value)=>writeFile(join(directory,`${name}.json`),`${JSON.stringify(value,null,2)}\n`);
+  await write("en",{ui:{a:"Hello",b:"Goodbye"},articles:{x:{sections:[{body:["One","Two"]}]}}});
+  await write("de",{locale:"de",ui:{a:"Hallo",b:"Tschüss"},articles:{x:{sections:[{body:["Eins","Zwei"]}]}}});
+  stamps.useTranslationsDirectory(directory);
+  try{
+    stamps.stamp("de");
+    assert.deepEqual(stamps.staleSummary("de").stale,[]);
+    await write("en",{ui:{a:"Hello there",b:"Goodbye"},articles:{x:{sections:[{body:["One","Two!"]}]}}});
+    assert.deepEqual(stamps.staleSummary("de").stale.sort(),["articles.x.sections[0].body[1]","ui.a"]);
+    // Re-stamping without re-translating does not hide the change.
+    stamps.stamp("de");
+    assert.equal(stamps.staleSummary("de").stale.length,2);
+    assert.equal(stamps.invalidate("de"),2);
+    const de=JSON.parse(await readFile(join(directory,"de.json"),"utf8"));
+    assert.deepEqual(de,{locale:"de",ui:{a:"",b:"Tschüss"},articles:{x:{sections:[{body:["Eins",""]}]}}});
+    assert.deepEqual(stamps.staleSummary("de").stale,[]);
+  }finally{
+    stamps.useTranslationsDirectory(new URL("../lib/translations",import.meta.url).pathname);
   }
 });

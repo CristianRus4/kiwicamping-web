@@ -2,6 +2,7 @@
   "categories": {
     "dayUseAreas": {
       "access": "pass",
+      "asOf": "2026-08-11",
       "inventoryOnly": true,
       "label": "Day-use areas",
       "source": "wikicamps",
@@ -9,6 +10,13 @@
     },
     "docCampsites": {
       "access": "pass",
+      "adultRate": {
+        "max": 25,
+        "median": 12.75,
+        "min": 5,
+        "placesWithRate": 208
+      },
+      "asOf": "2026-08-11",
       "bookable": 177,
       "byType": {
         "Backcountry campsite": 44,
@@ -40,6 +48,7 @@
         "Prohibited": 266,
         "Restricted": 85
       },
+      "asOf": "2026-08-11",
       "current": 287,
       "currentByType": {
         "Prohibited": 224,
@@ -53,6 +62,13 @@
     },
     "docHuts": {
       "access": "pass",
+      "adultRate": {
+        "max": 55,
+        "median": 10,
+        "min": 10,
+        "placesWithRate": 512
+      },
+      "asOf": "2026-08-11",
       "bookable": 127,
       "bunks": 7661,
       "byType": {
@@ -75,12 +91,14 @@
     },
     "docTracks": {
       "access": "pass",
+      "asOf": "2026-08-24",
       "label": "DOC tracks",
       "source": "doc",
       "total": 1453
     },
     "dumpStations": {
       "access": "pass",
+      "asOf": "2026-08-11",
       "fee": {
         "donation": 8,
         "free": 240,

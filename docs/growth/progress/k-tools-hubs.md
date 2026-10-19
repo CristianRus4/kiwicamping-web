@@ -4,8 +4,8 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 
 ## Status
 - M1 App data export: done, handed off (export script, lib/data/*.json, lib/hubs.ts gate, scripts/audit-hubs.mjs in content:check, credits Data sources)
-- M2 Tools split: not started
-- M3 Data hubs: not started
+- M2 Tools split: done, handed off. Five pages at /tools/<slug>/ (English + every locale, locale noindex until `tools` strings translated), `tools` namespace in lib/source-strings.ts, lib/tools.ts, lib/routes/tools.ts. Not exported or linked until the route manifest lands (`TOOL_PAGES_EXPORTED = false`).
+- M3 Data hubs: done, handed off. 52 hubs built (17 camping, 17 huts, 18 freedom-camping), 30 indexable (11 camping, 13 huts, 6 freedom-camping), 22 noindex, 20 not built. Pages: app/camping, app/huts, app/freedom-camping (+ index pages); components/hub-page.tsx, hub-map.tsx; lib/routes/hubs.ts (HUB_PAGES_EXPORTED = false). Prose: lib/hub-prose/{camping,huts,freedom-camping}.ts. Coastline: lib/data/nz-outline.json (Natural Earth, scripts/build-nz-outline.mjs).
 
 ## Decisions
 - **Source licences** (`scripts/export-app-data.mjs`, fails closed):
@@ -20,8 +20,21 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 - All 3 "permitted" notices are historic; current data has 224 prohibited and 63 restricted.
 - NaPALIS ids are land parcels and repeat (354 notices, 200 ids); notices join to `freedomgeo.geojson` by OBJECTID.
 
+- Tool pages: the framework renders each inline script twice, so the tool script binds once per tool (`data-bound`); `tool_used` fires once per tool per page view.
+- The old /tools/ defaults showed stale outputs (drive "4 h 32 min", tank grey "4.5", currency "US$58.72"); they are now computed from the same defaults the script uses.
+
+- Camping fact "Reached only on foot or by boat" now counts only campsites that list foot/boat access; blank access is its own row ("Access not listed by DOC").
+- Freedom pages never say the notices are in the app (unconfirmed, see the app bug above).
+- Council links for freedom hubs were matched by reverse-geocoding each notice point (OpenStreetMap). Central Otago DOC district notices all sit in Queenstown Lakes District (Wānaka). QLDC, Taupō and Ruapehu pages block plain curl (bot check), so a curl link checker will misreport them.
+
+## M4 Route wiring (done)
+- Rebased onto origin/main (6838b88, K-foundation M2). `toolRoutes()` and `hubRoutes()` return `ExportRoute[]` and are registered in lib/routes.ts; the `*_PAGES_EXPORTED` flags are gone. Tool paths use `localeRoot()`, hreflang comes from `alternatesFor(toolPageKey)`, `tools` strings are back in lib/translation-source.ts. /tools/ and /<locale>/tools/ link every calculator page. llms.txt lists the tool pages and indexable hub indexes.
+- Note: scripts/audit-hubs.mjs (protected, foundation-owned) was changed in M3 by this lane (prose and grounding checks for hubs). Flagged to the orchestrator.
+
+- DOC's campsite-categories page now 404s; links use /parks-and-recreation/places-to-stay/stay-at-a-campsite/ (also fixes the campsite tool's source link).
+
 ## Next
-- M2: tools split.
+- npm run check passed on 86e3720 (679 HTML pages exported; SEO audit 681 pages, 411 indexable; 36/36 tests). Lane complete. Follow-ups for others: links into hubs from guides (K-content); `tools` translations per locale (i18n threads).
 
 ## Blockers
 - None.

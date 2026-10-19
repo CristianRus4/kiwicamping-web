@@ -1,14 +1,17 @@
 import { Fuel } from "lucide-react";
+import { toolStrings, type ToolStrings } from "@/lib/source-strings";
+import { defaultOutput, toolDefaults } from "@/lib/tools";
 
-export function FuelCalculator() {
+export function FuelCalculator({ copy = toolStrings, tag = "en-NZ" }: { copy?: ToolStrings; tag?: string }) {
+  const t = copy.fuel, v = toolDefaults.fuel;
   return <section className="tool-card" data-fuel-tool>
-    <div className="tool-heading"><Fuel/><div><p className="eyebrow">Fuel calculator</p><h2>Price the driving distance.</h2></div></div>
-    <p>Enter the full route distance, the vehicle’s loaded fuel use and the expected price per litre. Remote prices can exceed city benchmarks.</p>
+    <div className="tool-heading"><Fuel/><div><p className="eyebrow">{t.cardEyebrow}</p><h2>{t.cardTitle}</h2></div></div>
+    <p>{t.cardText}</p>
     <div className="converter-grid">
-      <label><span>Distance (km)</span><input data-fuel-distance inputMode="decimal" defaultValue="1000" /></label>
-      <label><span>Consumption (L/100 km)</span><input data-fuel-consumption inputMode="decimal" defaultValue="12" /></label>
-      <label><span>Fuel price (NZD/L)</span><input data-fuel-price inputMode="decimal" defaultValue="2.96" /></label>
+      <label><span>{t.labelDistance}</span><input data-fuel-distance inputMode="decimal" defaultValue={v.distance} /></label>
+      <label><span>{t.labelConsumption}</span><input data-fuel-consumption inputMode="decimal" defaultValue={v.consumption} /></label>
+      <label><span>{t.labelPrice}</span><input data-fuel-price inputMode="decimal" defaultValue={v.price} /></label>
     </div>
-    <output className="tool-output" data-fuel-output>120.0 L · NZ$355.20</output>
+    <output className="tool-output" data-fuel-output>{defaultOutput("fuel", tag, copy)}</output>
   </section>;
 }

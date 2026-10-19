@@ -6,41 +6,159 @@
       "id": "kiwicamping-website",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["de", "es", "fr", "it", "nl", "pt"],
+      "locales": [
+        "de",
+        "es",
+        "fr",
+        "it",
+        "nl",
+        "pt",
+        "ko",
+        "zh-hans",
+        "zh-hant",
+        "da",
+        "sv",
+        "nb",
+        "cs",
+        "pl"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "de", "path": "../lib/translations/de.json" },
-        { "locale": "es", "path": "../lib/translations/es.json" },
-        { "locale": "fr", "path": "../lib/translations/fr.json" },
-        { "locale": "it", "path": "../lib/translations/it.json" },
-        { "locale": "nl", "path": "../lib/translations/nl.json" },
-        { "locale": "pt", "path": "../lib/translations/pt.json" }
+        {
+          "locale": "de",
+          "path": "../lib/translations/de.json"
+        },
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        },
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        },
+        {
+          "locale": "it",
+          "path": "../lib/translations/it.json"
+        },
+        {
+          "locale": "nl",
+          "path": "../lib/translations/nl.json"
+        },
+        {
+          "locale": "pt",
+          "path": "../lib/translations/pt.json"
+        },
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        },
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        },
+        {
+          "locale": "zh-hant",
+          "path": "../lib/translations/zh-hant.json"
+        },
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        },
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        },
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        },
+        {
+          "locale": "cs",
+          "path": "../lib/translations/cs.json"
+        },
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
       ],
-      "protectedTerms": ["KiwiCamping", "Aotearoa", "Aoraki", "DOC", "Waka Kotahi", "NZD", "North Island", "South Island", "Stewart Island"],
-      "varieties": { "pt": "pt-PT" },
-      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "North Island",
+        "South Island",
+        "Stewart Island",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "varieties": {
+        "pt": "pt-PT",
+        "zh-hans": "zh-Hans",
+        "zh-hant": "zh-Hant"
+      },
+      "register": {
+        "de": "informal",
+        "es": "informal",
+        "fr": "formal",
+        "it": "informal",
+        "nl": "informal",
+        "pt": "informal"
+      }
     },
     {
       "id": "kiwicamping-website-ja",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["ja"],
+      "locales": [
+        "ja"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "ja", "path": "../lib/translations/ja.json" }
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
       ],
-      "protectedTerms": ["KiwiCamping", "DOC", "NZD", "Waka Kotahi"],
-      "untranslatedKeys": ["ui.review*", "ui.reviewsEyebrow", "ui.reviewsTitle"],
+      "protectedTerms": [
+        "KiwiCamping",
+        "DOC",
+        "NZD",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
       "glossary": {
-        "New Zealand": { "ja": "ニュージーランド" },
-        "North Island": { "ja": "北島" },
-        "South Island": { "ja": "南島" },
-        "Stewart Island": { "ja": "スチュワート島" },
-        "Aoraki": { "ja": "アオラキ" },
-        "Aotearoa": { "ja": "アオテアロア" }
+        "New Zealand": {
+          "ja": "ニュージーランド"
+        },
+        "North Island": {
+          "ja": "北島"
+        },
+        "South Island": {
+          "ja": "南島"
+        },
+        "Stewart Island": {
+          "ja": "スチュワート島"
+        },
+        "Aoraki": {
+          "ja": "アオラキ"
+        },
+        "Aotearoa": {
+          "ja": "アオテアロア"
+        }
       },
-      "register": { "ja": "formal" },
-      "styleGuide": { "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims." }
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims."
+      }
     }
   ]
 }

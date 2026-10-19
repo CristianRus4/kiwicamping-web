@@ -11,11 +11,17 @@
  * inspected, the article's own block is extracted from that revision, and only a commit that changed
  * that block counts as a modification.
  *
- * Run `npm run articles:dates` after adding or rewriting a guide.
+ * Translations are dated the same way, separately: a German guide was last modified when its own
+ * German text last changed, not when the English did. For every locale file in the registry, each
+ * commit's `articles[slug]` is hashed, and the date recorded is the commit at which the current
+ * text appeared. Output: { slug: { published, modified, locales: { de: "YYYY-MM-DD", ... } } }.
+ *
+ * Runs before every build (`prebuild`), which is why CI checks out full history. Run
+ * `npm run articles:dates` by hand after adding or rewriting a guide.
  */
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { existsSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -58,5 +64,29 @@ for (const file of files) {
   for (const [slug, entry] of seen) dates[slug] = { published: entry.published, modified: entry.modified };
 }
 
+const registry = JSON.parse(readFileSync(join(ROOT, "lib/locales.json"), "utf8"));
+const digest = (value) => createHash("sha1").update(JSON.stringify(value)).digest("hex");
+let translated = 0;
+for (const { code } of registry) {
+  const file = `lib/translations/${code}.json`;
+  const commits = git("log", "--reverse", "--format=%H %aI", "--", file).trim().split("\n").filter(Boolean);
+  const current = new Map();
+  for (const line of commits) {
+    const [hash, iso] = line.split(" ");
+    let articles;
+    try { articles = JSON.parse(git("show", `${hash}:${file}`)).articles ?? {}; } catch { continue; }
+    for (const slug of [...current.keys()]) if (!(slug in articles)) current.delete(slug);
+    for (const [slug, article] of Object.entries(articles)) {
+      const hashOfText = digest(article);
+      if (current.get(slug)?.digest !== hashOfText) current.set(slug, { digest: hashOfText, since: day(iso) });
+    }
+  }
+  for (const [slug, { since }] of current) {
+    if (!dates[slug]) continue;
+    (dates[slug].locales ??= {})[code] = since;
+    translated += 1;
+  }
+}
+
 writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.entries(dates).sort()), null, 2) + "\n");
-console.log(`article dates: ${Object.keys(dates).length} guides`);
+console.log(`article dates: ${Object.keys(dates).length} guides, ${translated} dated translations`);

@@ -3,30 +3,41 @@ import { access, cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/pro
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { startProdServer } from "vinext/server/prod-server";
-// Run under tsx (`npm run export`), so the site's own TypeScript constants are the single source.
-import { APP_STORE_URL } from "../lib/site.ts";
+// Run under tsx (`npm run export`), so the site's own TypeScript is the single source: the route
+// manifest decides what is exported, the registry decides each page's language.
+import { APP_STORE_URL, SITE_URL } from "../lib/site.ts";
 import { appStoreUrl } from "../lib/app-store.ts";
+import { exportRoutes } from "../lib/routes.ts";
+import { englishLocale, htmlLang } from "../lib/locales.ts";
+import { redirects } from "../lib/redirects.ts";
+
+// Drafts render only in development. An export with them would publish unfinished languages.
+assert.notEqual(process.env.LOCALES_PREVIEW, "1", "Unset LOCALES_PREVIEW before exporting: draft locales are never published");
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
 // campingapp.nz is served from a custom domain, so the site lives at the root. Only override this
 // when deploying to a project-page subpath.
-const defaultLang = "en-NZ";
+const defaultLang = englishLocale.htmlLang;
 const siteName = "KiwiCamping";
 const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
-const sources = await Promise.all((await readdir(resolve(root,"lib/content"))).filter((name)=>name.endsWith(".ts")).map((name) => readFile(resolve(root,"lib/content",name), "utf8")));
-// Articles that already rank keep their published .html URL; everything else lives under /guides/.
-const entries = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"(?:,\s*legacyPath:\s*"([^"]+)")?/g)].map((match) => ({ slug: match[1], legacyPath: match[2] })));
-const legacyRoutes = entries.filter((entry) => entry.legacyPath).map((entry) => entry.legacyPath);
-const guideSlugs = entries.filter((entry) => !entry.legacyPath).map((entry) => entry.slug);
-const rootRoutes = ["/", "/guides", ...guideSlugs.map((slug) => `/guides/${slug}`), ...legacyRoutes, "/tools", "/support", "/credits", "/privacy", "/terms"];
-// Every locale exports every guide; ones it has not translated are served in English.
-const localeRoutes=["de","es","fr","it","nl","pt"].flatMap((locale)=>["", "/guides", ...guideSlugs.map((slug)=>`/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route)=>`/${locale}${route}`));
-const htmlRoutes = [...rootRoutes,...localeRoutes];
+
+/**
+ * Every file comes from the route manifest (lib/routes.ts), the same list that feeds the static
+ * params, the sitemaps and hreflang, so a new page type cannot be built but silently left out of
+ * the export. Articles that already rank keep their published .html URL; draft locales are not in
+ * it. Crawler files (robots.txt, the sitemaps, llms.txt) are written as they are served.
+ */
+const routes = exportRoutes();
+const htmlRoutes = routes.filter((route) => route.kind !== "crawler").map((route) => route.path);
+const textRoutes = routes.filter((route) => route.kind === "crawler").map((route) => route.path);
+const legacyRoutes = routes.filter((route) => route.locale === "en" && route.path.endsWith(".html")).map((route) => route.path);
+const langOf = new Map(routes.map((route) => [route.path, htmlLang(route.locale)]));
 
 // A route ending in .html is a real file path, not a directory with an index inside it.
 const outputPath = (route) => route === "/" ? resolve(output, "index.html") : route.endsWith(".html") ? resolve(output, route.slice(1)) : resolve(output, route.slice(1), "index.html");
-const textRoutes = ["/robots.txt", "/sitemap.xml", "/llms.txt"];
+// The server answers /guides, not /guides/ (it redirects the slash away); files keep the slash form.
+const fetchPath = (route) => route === "/" ? route : route.replace(/\/$/, "");
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
@@ -34,14 +45,11 @@ await cp(resolve(root, "dist/client"), output, { recursive: true });
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:resolve(root,"dist"),noCompression:true,purpose:"prerender"});
 
-// The root layout renders a single <html> element for every route, so localised pages inherited
-// `lang="en-NZ"`. Each exported file knows its own locale, so the tag is corrected here.
-const localeLang = { de: "de-DE", es: "es-ES", fr: "fr-FR", it: "it-IT", nl: "nl-NL", pt: "pt-PT" };
-const routeLang = (route) => localeLang[route.split("/")[1]] ?? "en-NZ";
-
+// The root layout renders a single <html> element for every route, so it says English everywhere.
+// Each exported file knows its own edition, so the tag is corrected here from the registry.
 function prepareHtml(html, route) {
   return html
-    .replace(/<html lang="[^"]*"/i, `<html lang="${routeLang(route)}"`)
+    .replace(/<html lang="[^"]*"/i, `<html lang="${langOf.get(route) ?? defaultLang}"`)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
       // Structured data, the page's own tool scripts and the analytics bootstrap are kept. Everything
@@ -54,7 +62,7 @@ function prepareHtml(html, route) {
 }
 
 for (const route of htmlRoutes) {
-  const response = await fetch(`http://127.0.0.1:${port}${route}`, { headers: { accept: "text/html" } });
+  const response = await fetch(`http://127.0.0.1:${port}${fetchPath(route)}`, { headers: { accept: "text/html" }, redirect: "manual" });
   assert.equal(response.status, 200, `Could not export ${route}`);
   const target = outputPath(route);
   await mkdir(dirname(target), { recursive: true });
@@ -62,9 +70,11 @@ for (const route of htmlRoutes) {
 }
 
 for (const route of textRoutes) {
-  const response = await fetch(`http://127.0.0.1:${port}${route}`);
+  const response = await fetch(`http://127.0.0.1:${port}${route}`, { redirect: "manual" });
   assert.equal(response.status, 200, `Could not export ${route}`);
-  await writeFile(resolve(output, route.slice(1)), await response.text());
+  const target = resolve(output, route.slice(1));
+  await mkdir(dirname(target), { recursive: true });
+  await writeFile(target, await response.text());
 }
 
 for (const name of await readdir(resolve(output, "assets"))) {
@@ -78,11 +88,13 @@ for (const name of await readdir(resolve(output, "assets"))) {
   await writeFile(path, css.replace(/url\(\/(?!\/)/g, `url(${basePath}/`));
 }
 
+const escapeAttribute = (value) => value.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+
 // A short, memorable download URL for QR codes, print and link-in-bio. GitHub Pages cannot issue a
 // 301, so this is the static equivalent: an immediate meta refresh, noindex so it never competes in
 // search, and a real link for anything that ignores the refresh. The redirect carries the `dl`
 // campaign; the canonical stays the clean listing URL.
-const downloadUrl = appStoreUrl({ placement: "dl", locale: "en" }).replace(/&/g, "&amp;");
+const downloadUrl = escapeAttribute(appStoreUrl({ placement: "dl", locale: "en" }));
 await mkdir(resolve(output, "download"), { recursive: true });
 await writeFile(resolve(output, "download/index.html"), `<!doctype html>
 <html lang="${defaultLang}">
@@ -96,6 +108,29 @@ await writeFile(resolve(output, "download/index.html"), `<!doctype html>
 <body><p>Opening the App Store. <a href="${downloadUrl}" data-cta="dl">Continue to ${siteName} on the App Store</a>.</p></body>
 </html>
 `);
+
+// Moved and mistyped URLs (lib/redirects.ts), as the same kind of static redirect: noindex, a
+// canonical at the target so any signal the old URL earned is passed on, and a visible link.
+const routeSet = new Set(htmlRoutes);
+for (const [from, to] of Object.entries(redirects)) {
+  assert.ok(!routeSet.has(from), `Redirect source ${from} is also a real page`);
+  assert.ok(routeSet.has(to), `Redirect target ${to} is not an exported page`);
+  const href = escapeAttribute(`${basePath}${to}`);
+  const target = outputPath(from);
+  await mkdir(dirname(target), { recursive: true });
+  await writeFile(target, `<!doctype html>
+<html lang="${langOf.get(to) ?? defaultLang}">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=${href}">
+<link rel="canonical" href="${SITE_URL}${escapeAttribute(to)}">
+<title>${siteName}</title>
+</head>
+<body><p><a href="${href}">${siteName}</a></p></body>
+</html>
+`);
+}
 
 await writeFile(resolve(output, ".nojekyll"), "");
 // Without CNAME in the artifact GitHub Pages drops the campingapp.nz custom domain on deploy.
@@ -130,7 +165,7 @@ function localTarget(reference) {
   if (clean === `${basePath}/`) return resolve(output, "index.html");
   if (!clean.startsWith(`${basePath}/`)) return null;
   const local = clean.slice(basePath.length + 1);
-  // .html targets are files; other extensionless paths are directories holding an index.html.
+  // .html and .xml targets are files; other extensionless paths are directories holding an index.html.
   return /\.[a-z0-9]+$/i.test(local) ? resolve(output, local) : resolve(output, local, "index.html");
 }
 
@@ -141,4 +176,4 @@ for (const [route, html] of exportedHtml) {
   }
 }
 
-console.log(`Exported ${htmlRoutes.length} HTML pages and ${textRoutes.length} crawler files for ${basePath}.`);
+console.log(`Exported ${htmlRoutes.length} HTML pages, ${Object.keys(redirects).length} redirects and ${textRoutes.length} crawler files for ${basePath || "/"}.`);

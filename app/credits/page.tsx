@@ -75,8 +75,8 @@ export default function CreditsPage() {
         <p className="eyebrow"><Database size={13} /> Data sources</p>
         <h2>Where the place data comes from</h2>
         <p>Facts about DOC campsites, huts and freedom-camping notices on this website come from the public data below. Data as of {dataMeta.dataAsOf}, exported {dataMeta.exportDate}. Partner booking feeds and third-party directories used inside the app are not republished on this website.</p>
-        <div className="price-table-wrap">
-          <table className="price-table credits-table">
+        <div className="hub-table-wrap">
+          <table className="hub-table">
             <thead><tr><th scope="col">Source</th><th scope="col">Attribution</th><th scope="col">Licence</th><th scope="col">Datasets</th></tr></thead>
             <tbody>
               {dataSources.map((source) => <tr key={source.key}>
@@ -88,8 +88,9 @@ export default function CreditsPage() {
             </tbody>
           </table>
         </div>
+        <p className="price-table-disclaimer">Coastline on the region maps: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain, simplified.</p>
       </section>
     </main>
-    <Footer />
+    <Footer pageKey="credits" />
   </>;
 }
