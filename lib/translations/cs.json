@@ -758,6 +758,336 @@
           }
         ]
       }
+    },
+    "doc-campsite-rules": {
+      "title": "Pravidla v kempech DOC: co by měl znát každý kempař",
+      "description": "Rezervace, noční klid, odpadky, domácí zvířata a místní podmínky: to vše rozhoduje o tom, jak bude vypadat pobyt v kempu na chráněném území.",
+      "region": "Kempy DOC",
+      "imageAlt": "Informační tabule Department of Conservation v kempu",
+      "intro": "Rezervací v kempu DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) přijímáte celostátní podmínky i místní pravidla daného místa. Stránku konkrétního kempu si přesto vždy přečtěte, protože příjezd, oheň, voda, psi i podmínky pro vozidla se místo od místa hodně liší.",
+      "sections": [
+        {
+          "heading": "Rezervujte poctivě",
+          "body": [
+            "Zarezervujte si správné datum, počet osob i druh místa a potvrzení mějte uložené offline. Kde se konkrétní místa nepřidělují, vybírejte jen z prostoru, který je při příjezdu volný.",
+            "Když na vícedenní rezervaci nepřijedete hned první noc, může vám ji DOC podle svých podmínek zrušit. Nedržte místo prázdným stanem, pokud v něm nikdo nehodlá spát."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Noční klid a čas odjezdu",
+          "body": [
+            "Podle standardních podmínek DOC platí noční klid od 22 do 7 hodin, pokud místní pravidla neurčují jinak, a místo se obvykle uvolňuje do 10 hodin. S generátorem, hudbou i popojížděním autem se držte v mezích, které kemp povoluje.",
+            "Rezervace v kempu neznamená, že smíte používat zázemí nedaleké horské chaty. Používejte jen toalety, přístřešky a místa s vodou, které k rezervovanému místu patří."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nechte místo připravené pro další",
+          "body": [
+            "Všechny odpadky si odvezte, jídlo mějte dobře uklizené a šedou vodu nikdy nevylévejte na zem. V chatách a na toaletách se nesmí kouřit ani vapovat.",
+            "Domácí zvířata a drony potřebují výslovné povolení. Ověřte si to na stránce konkrétního kempu a neberte liduprázdné místo jako tichý souhlas."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rezervace, pořadí příjezdu nebo Campsite Pass",
+          "body": [
+            "Na stránce každého kempu najdete, který systém v něm platí, a většina potíží při příjezdu vzniká tím, že si je lidé spletou. Campsite Pass je způsob placení, ne rezervace: v kempu s povinnou rezervací vám místo nezajistí a v kempu bez rezervací, který je už plný, vám nijak nepomůže.",
+            "Kde je rezervace povinná, rezervujte přesně pro tolik lidí a pro takové vozidlo, se kterými opravdu přijedete. Potvrzení mějte uložené offline, protože v kempech DOC často není signál, a rezervaci, kterou nemůžete ukázat, jen těžko obhájíte před správcem, který rozděluje místa v plném kempu."
+          ],
+          "tips": [
+            "Campsite Pass není rezervace",
+            "Potvrzení mějte offline",
+            "Rezervujte skutečné auto a počet lidí"
+          ]
+        },
+        {
+          "heading": "Voda často není upravená",
+          "body": [
+            "Řada kempů DOC bere vodu z potoků nebo z nádrží na dešťovou vodu ze střech a nijak ji neupravuje. V novozélandských vodách se vyskytuje giardie a čistý potok vám o ní nic neprozradí. Vodu převařte alespoň minutu, přefiltrujte nebo ošetřete chemicky a nepočítejte s tím, že je voda z kohoutku nezávadná jen proto, že tam kohoutek je.",
+            "Vozte s sebou tolik pitné vody, abyste vystačili sami aspoň na den. Nádrže vysychají, objevují se výzvy k převařování vody a kemp, u kterého je voda uvedená, může mít bez varování nefunkční přívod."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Generátory, drony a psi",
+          "body": [
+            "V mnoha kempech jsou generátory omezené nebo zakázané. Kde povolené jsou, smějí se obvykle používat jen ve stanovených hodinách. K létání s dronem na veřejných chráněných územích potřebujete ve většině případů povolení (concession) a přelet nad kempem bez svolení je nejen protizákonný, ale i mezi ostatními hosty hodně neoblíbený.",
+            "Na většině veřejných chráněných území jsou psi zakázaní, protože ohrožují ptáky hnízdící na zemi a kivi. Do několika kempů psi smějí, do většiny ne a v některých oblastech je k tomu potřeba povolení. Pravidla si ověřte u konkrétního kempu a nic nepředpokládejte."
+          ],
+          "tips": [
+            "Dron na území DOC jen s povolením",
+            "Do většiny kempů DOC psi nesmějí",
+            "Generátory bývají omezené nebo zakázané"
+          ]
+        },
+        {
+          "heading": "Maximální délka pobytu a chování v kempu",
+          "body": [
+            "Většina kempů DOC má stanovenou maximální délku pobytu, obvykle jen několik nocí po sobě, aby se v nich nikdo neusadil natrvalo. V oblíbených kempech ji správci v létě (prosinec až únor) opravdu hlídají a popojetí autem o pár metrů počítání nocí nevynuluje.",
+            "Zůstaňte na vyznačeném místě a tam, kde je těsno, ho nepřesahujte markýzou ani věcmi. Dodržujte noční klid. Kempy jsou společné, často plné a pohoda všech závisí na tom, aby každý zůstal na svém."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Příjezd a zabydlení",
+          "body": [
+            "Pokud to jde, přijeďte za světla. Vybrat místo, odhadnout, kudy poteče voda, všimnout si větví nad hlavou a vyrovnat auto je potmě mnohem těžší. Místo, které byste ve 4 odpoledne hned zavrhli, ve 9 večer unavení snadno vezmete.",
+            "Kde se platí do pokladničky na důvěru (honesty box) nebo samoregistrací, zaplaťte hned po příjezdu a neodkládejte to na později. Správci platby kontrolují, poplatek je malý a celý systém funguje jen proto, že většina lidí zaplatí, aniž by je někdo musel vyzývat.",
+            "Rozložte se jen na vyznačeném místě a nechte prostor těm, kdo přijedou po vás. Když je kemp v létě nabitý, věci rozložené přes dvě místa rozhodují o tom, jestli se vejdou všichni, nebo bude někdo muset odjet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Když je kemp plný",
+          "body": [
+            "Oblíbené kempy DOC jsou v létě plné už v půlce odpoledne a žádná náhradní plocha tam není. Udělat si místo navíc na trávě, na příjezdové cestě nebo vedle toalet nepřipadá v úvahu a správci vás pošlou jinam.",
+            "Legální záložní možnost si najděte ještě před příjezdem, ne až potom. Holiday park (komerční kemp s chatkami a zázemím) vzdálený půl hodiny jízdy je mnohem lepší řešení než pozdní jízda po neznámé silnici a hledání čehokoli, kde vás nechají přespat."
+          ],
+          "tips": [
+            "Oblíbené kempy se zaplní už odpoledne",
+            "Žádná náhradní plocha není",
+            "Zálohu si najděte předem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaká pravidla platí v kempech DOC?",
+          "Zaplaťte poplatek za každého dospělého, kempujte jen na vyznačených místech, všechny odpadky si odvezte, používejte toalety v kempu a po setmění buďte potichu. Oheň, psi a generátory jsou podle kempu omezené nebo zakázané a cedule na místě mají přednost před vším, co jste si přečetli předem."
+        ],
+        [
+          "Dá se v kempu DOC zůstat víc než jednu noc?",
+          "Většinou ano, ve vytížených kempech ale platí maximální délka pobytu, kterou najdete vyvěšenou u vjezdu. Kde je kemp v létě hodně obsazený, limit se opravdu vymáhá."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: rezervační podmínky pro ubytování"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-biosecurity-camping-gear": {
+      "title": "Karanténní pravidla na Novém Zélandu: výbava na kempování a treky",
+      "description": "Rizikové věci nahlaste na hranici a vybavení vyčistěte pokaždé, než se s ním přesunete k jiné řece, jezeru nebo do jiného lesa.",
+      "region": "Hranice a příroda Nového Zélandu",
+      "imageAlt": "Vyčištěné turistické boty připravené na novozélandskou karanténní kontrolu",
+      "intro": "Na použitém outdoorovém vybavení se mohou vézt semena, hlína, hmyz i vodní škůdci. Karanténní pravidla (biosecurity) začínají na hranici a platí dál, když se s výbavou přesouváte mezi novozélandskými ekosystémy.",
+      "sections": [
+        {
+          "heading": "Při příletu vše nahlaste",
+          "body": [
+            "Použité boty, stany, rybářské vybavení, jídlo, rostlinný materiál a živočišné produkty nahlaste, kdykoli se na ně ptá příletové prohlášení New Zealand Traveller Declaration. Nahlášené věci mohou úředníci posoudit a vyčistit. Riziko i pokutu přináší až zatajení.",
+            "Výbavu zabalte tak, aby se dala snadno zkontrolovat. Hlínu a zbytky rostlin před odletem vydrhněte, věc ale přesto nahlaste, pokud se na ni prohlášení ptá."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Čistěte při každém přesunu",
+          "body": [
+            "Lodě, brodicí kalhoty, pádla a rybářské vybavení zkontrolujte, vyčistěte a vysušte pokaždé, než se přesunete k další řece nebo jezeru. Mikroskopičtí škůdci přežijí i ve vlhku, které vypadá neškodně.",
+            "Při přesunu do jiného povodí okartáčujte semena a bláto z pneumatik, stanových kolíků a turistické výbavy. Kde jsou k dispozici místní mycí stanoviště, využijte je."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Při likvidaci odpadu neimprovizujte",
+          "body": [
+            "Návnady, vodu z akvária, jedlé rostliny ani neupravenou vodu z mytí nikdy nevypouštějte do přírody. Použijte popelnice a odpadní systémy určené pro daný druh odpadu.",
+            "Řiďte se regionálními oznámeními o hubení škůdců a dočasnými rāhui (maorský zákaz vstupu na určité místo nebo využívání jeho zdrojů). Místní omezení mohou druh nebo místo chránit víc, než vyžaduje celostátní minimum."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Na hranici nahlaste všechno",
+          "body": [
+            "Karanténní pravidla Nového Zélandu patří k nejpřísnějším na světě a za nenahlášené rizikové zboží se platí pokuta na místě. Nahlásit musíte použité turistické boty, stany, kempinkové vybavení, kola a cokoli, co bylo v hlíně nebo ve sladké vodě, a také téměř jakékoli jídlo.",
+            "Nahlášení nic nestojí a zabere minutu. Úředník může věc prohlédnout, vyčistit a pustit vás dál. Pokutu nedostanete za samotnou věc, ale za to, že jste ji nenahlásili, a právě na tomhle rozdílu se spálí spousta návštěvníků, kteří to mysleli dobře."
+          ],
+          "tips": [
+            "Nahlášení zdarma, zatajení pokuta",
+            "Použité boty a stany nahlaste",
+            "Nahlaste veškeré jídlo"
+          ]
+        },
+        {
+          "heading": "Výbavu vyčistěte ještě před balením",
+          "body": [
+            "Přileťte s botami vydrhnutými od hlíny, se suchými stany bez semen a hmyzu a se vším, co přišlo do styku s vodou, vyčištěným a vysušeným. Viditelně špinavou výbavu vám na hranici spíš zadrží k ošetření, což může znamenat, že si ji vyzvednete až později, nebo že o ni přijdete.",
+            "Prohledejte kapsy a vaky, jestli v nich nezůstala semena, zbytky listí nebo zaschlé bláto. Stan zabalený vlhký v jiné zemi často dorazí i s kolonií něčeho živého a s tím si snáz poradíte doma."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Check, Clean, Dry mezi řekami a jezery",
+          "body": [
+            "Didymo (invazní řasa) a další sladkovodní škůdci se mezi povodími šíří na vlhkém vybavení. Pravidlo platí pro boty, brodicí kalhoty, stany, rybářské vybavení, paddleboardy a vše ostatní, co bylo ve sladké vodě, a platí uvnitř Nového Zélandu stejně jako na hranici.",
+            "Vybavení důkladně vyčistěte, pak ho úplně vysušte a nechte suché aspoň 48 hodin, než s ním vstoupíte do další vody. Kde se sušit nedá, použijte místo toho doporučené roztoky k ošetření."
+          ],
+          "tips": [
+            "Platí i uvnitř země, nejen při vstupu",
+            "Před další vodou sušte 48 hodin",
+            "Týká se bot, stanů i paddleboardů"
+          ]
+        },
+        {
+          "heading": "Přesuny mezi ostrovy a regiony",
+          "body": [
+            "Kontroly fungují i uvnitř země. Pokud míříte na ostrov Ulva Island, na Rakiuru (Stewartův ostrov) nebo do jiných útočišť bez predátorů, musíte si před nástupem na loď zkontrolovat zavazadla, jestli v nich nejsou hlodavci nebo semena. Kontrolní stanoviště na molech nejsou formalita. Jediná krysa, která se dostane na ostrov, zničí desítky let práce.",
+            "Kvůli vrtulím (mouchám, které napadají ovoce) a dalším regionálním opatřením se občas omezuje převoz čerstvého ovoce a zeleniny uvnitř země. Kde kontrolní zóna platí, je označená a ohlášená a pravidla se týkají lednice v obytném autě stejně jako nákladního auta."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Proč jsou pravidla tak přísná",
+          "body": [
+            "Původní novozélandské druhy se vyvíjely bez suchozemských savců a proti nim nemají téměř žádnou obranu. Zavlečení predátoři, plevele a nemoci už některé druhy vyhubili a hraniční kontroly existují proto, že země dál přichází o druhy kvůli tomu, co přiletí v zavazadlech.",
+            "Slintavka a kulhavka, vrtule a rez myrtovitých (myrtle rust) jsou hrozby, jejichž zavlečení má největší ekonomické a ekologické dopady, a každou z nich už na hranici víckrát zachytili. Kontrola, která vás zdržuje, je přesně důvod, proč se to daří.",
+            "Když věci nahlásíte, je kontrola rychlá a úředníci vstřícní. Pokuta je za zatajení, ne za zablácené boty, a celý rozdíl je jen v tom, jestli zaškrtnete políčko."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Když ze země zase odlétáte",
+          "body": [
+            "Některé věci, které tu pořídíte, ze země vyvézt nesmíte a u jiných potřebujete papíry. Výrobky z chráněných druhů, nefrit (greenstone) odebraný z určitých oblastí a část rostlinného materiálu podléhají omezením, která se vyplatí ověřit ještě před balením.",
+            "Hlavně Austrálie má vlastní přísná hraniční pravidla, takže výbavu, která sem dorazila zablácená, čeká na cestě ven stejně důkladná kontrola. Před zpátečním letem všechno znovu vyčistěte."
+          ],
+          "tips": [
+            "Před vývozem si ověřte omezení",
+            "Austrálie je při vstupu stejně přísná",
+            "Před odletem domů výbavu znovu vyčistěte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Které vybavení na kempování musím nahlásit na novozélandské hranici?",
+          "Stany, boty, trekové hole, kola a cokoli dalšího, co bylo v zahraničí v kontaktu s hlínou nebo sladkou vodou, a k tomu jídlo, semena a dřevěné předměty. Nahlášení nic nestojí, za nenahlášení se platí pokuta na místě."
+        ],
+        [
+          "Jak připravit výbavu před odletem na Nový Zéland?",
+          "Vyčistěte ji ještě před balením. Když hlínu z bot a stanových kolíků odstraníte už doma a kolo nebo batoh vysušíte a okartáčujete, odbudete se dvouminutovou kontrolou. Jinak vám výbavu mohou ošetřit nebo zabavit."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Nový Zéland: karanténní pravidla při příletu (oficiální pokyny)"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-road-signs-visitors": {
+      "title": "Dopravní značky na Novém Zélandu pro zahraniční řidiče",
+      "description": "Zákazové a příkazové, výstražné i dočasné značky na Novém Zélandu čtěte vždy spolu s vodorovným značením a podmínkami na silnici.",
+      "region": "Silnice Nového Zélandu",
+      "imageAlt": "Novozélandská výstražná značka jednoproudého mostu",
+      "intro": "Novozélandské značky vycházejí ze známých mezinárodních principů, místní situace na silnicích ale návštěvníky umí překvapit. Přednost na jednoproudých mostech, doporučené rychlosti v zatáčkách a dočasné úpravy provozu musíte poznat dřív, než se silnice zúží.",
+      "sections": [
+        {
+          "heading": "Limity a doporučené rychlosti",
+          "body": [
+            "Číslo v červeném kruhu udává nejvyšší povolenou rychlost. Žluté číslo je jen doporučení: ukazuje bezpečnější rychlost pro zatáčku, nový limit to není. Podle podmínek můžete muset jet pomaleji, než ukazuje kterékoli z nich.",
+            "Dočasné oranžové značky a přenosné limity platí všude, kde jsou postavené, a jejich porušení se trestá. Dodržujte je až do konce úseku s pracemi."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jednoproudé mosty",
+          "body": [
+            "Značka s červeným okrajem znamená, že vozidla z vašeho směru musí dát přednost (give way). Modrá obdélníková značka dává přednost vašemu směru, ale jen tehdy, když je most volný a dá se na něj bezpečně vjet.",
+            "Zkontrolujte, jestli už na most nevjelo dlouhé nebo těžké vozidlo, a nikdy se s jiným řidičem nepřetahujte o to, kdo bude u vjezdu dřív."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Železnice a nástrahy venkovských silnic",
+          "body": [
+            "Na železničních přejezdech zastavte nebo dejte přednost podle značení, rozhlédněte se na obě strany a v koloně nikdy nestůjte na kolejích. Výstražné značky na venkově upozorňují i na dobytek, sesuvy, náledí a klikaté silnice.",
+            "Ještě než si vyzvednete auto z půjčovny, projděte si oficiální materiály pro zahraniční řidiče. Navigace vám neřekne, co znamená pokyn na značce u silnice."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Přednost v jízdě na křižovatkách",
+          "body": [
+            "Pravidla přednosti (give way) se na Novém Zélandu změnila v roce 2012 a starší rady ze zahraničí jsou dnes chybné. Platí, že na neřízené křižovatce nebo tam, kde mají obě vozidla stejnou značku, dává odbočující vozidlo přednost vozidlu, které jede rovně nebo odbočuje vlevo.",
+            "Na kruhových objezdech se jezdí ve směru hodinových ručiček a přednost mají vozidla zprava. Při výjezdu blikejte vlevo. Zvlášť opatrní buďte na víceproudých objezdech, kde o tom, kterým výjezdem smíte vyjet, rozhoduje vodorovné značení."
+          ],
+          "tips": [
+            "Odbočující dává přednost jedoucím rovně",
+            "Kruhový objezd po směru hodinových ručiček",
+            "Dejte přednost vozidlům zprava"
+          ]
+        },
+        {
+          "heading": "Značky u jednoproudých mostů",
+          "body": [
+            "Jednoproudé mosty jsou běžné, hlavně na West Coast a v Northlandu. Na značce jsou dvě šipky: větší černá ukazuje směr, který má přednost. Pokud je ta vaše menší a červená, dáváte přednost protijedoucím.",
+            "Některé mosty jsou společné pro silnici i železnici a pár jich je tak dlouhých, že mají výhybny. Před mostem zpomalte, než na něj vjedete, podívejte se až na druhý konec a radši počkejte, než abyste most za každou cenu zabrali jako první."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Doporučené rychlosti a výstražné značky",
+          "body": [
+            "Žluté značky ve tvaru kosočtverce jsou výstrahy, ne zákonné limity, a žlutá rychlost u zatáčky je doporučené maximum pro osobní auto za dobrých podmínek. V naloženém obytném autě, v dešti nebo s přívěsem je bezpečná rychlost nižší než doporučené číslo.",
+            "Hlídejte značky typické pro novozélandské podmínky: „Slippery when wet“ (za mokra kluzko), „Loose metal“ (volný štěrk), „Ford“ (brod), „Stock crossing“ (přechod dobytka) a výstrahu před padajícím kamením, kterou uvidíte hojně na West Coast a v horských průsmycích."
+          ],
+          "tips": [
+            "Žluté značky jen doporučují, nejsou limit",
+            "Doporučená rychlost počítá s autem za sucha",
+            "„Loose metal“ znamená štěrk"
+          ]
+        },
+        {
+          "heading": "Pruhy pro předjíždění a zálivy pro pomalá vozidla",
+          "body": [
+            "Pruhů pro předjíždění je na novozélandských silnicích málo. Pokud jedete pomaleji než auta za vámi, slušnost i místní zvyklost velí zajet do zálivu pro pomalá vozidla (slow vehicle bay) nebo zastavit u kraje tam, kde je to bezpečné, a nechat je projet. Nejde jen o zdvořilost: naštvaní řidiči v koloně za vámi způsobují nehody při předjíždění.",
+            "Když vás někdo v pruhu pro předjíždění předjíždí, nepřidávejte. Pokud se za vámi nahromadí pět nebo více vozidel, musíte ze zákona zajet ke kraji, jakmile to bude bezpečné."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Značky typické pro Nový Zéland",
+          "body": [
+            "Zkratka LSZ (Limited Speed Zone, zóna s omezenou rychlostí) označuje na některých venkovských silnicích úseky, kde se limit snižuje, když to vyžadují podmínky. Značka „Ford“ znamená, že silnice vede přes vodní tok, který může být podle toho, jak nedávno pršelo, suchý, nebo naopak nesjízdný.",
+            "Značky „Stock crossing“ a „Stock effluent“ (výkaly dobytka) prozrazují, že silnici aktivně využívají farmy. Značka „Slippery when wet“ stojí často na zpevněných venkovských silnicích, kde povrch z asfaltu a kamenné drti (chip seal) za mokra opravdu klouže, a v těžkém vozidle ji berte vážně.",
+            "Modrobílé značky označují turistické trasy a služby, hnědé historická a kulturní místa. Ani jedny ale neznamenají, že je silnice za nimi vhodná pro velké vozidlo, takže si to před odbočením ověřte zvlášť."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Silniční práce a provoz řízený STOP/GO",
+          "body": [
+            "Dočasné práce na silnicích jsou časté, hlavně po zimních škodách, a pracovník, který řídí provoz terčem STOP/GO (stůj/jeď), má zákonnou pravomoc. Počkejte na jeho pokyn a nepokračujte za autem před vámi, když se mezera už zavírá.",
+            "Dočasné limity platí bez ohledu na to, jestli se zrovna viditelně pracuje, tedy i v noci a o víkendech. Povrch v úseku prací bývá z volné kamenné drti, na které těžké vozidlo opravdu klouže."
+          ],
+          "tips": [
+            "Pracovník se STOP/GO má zákonnou pravomoc",
+            "Dočasné limity platí ve dne i v noci",
+            "Volná drť klouže"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Liší se dopravní značky na Novém Zélandu od jiných zemí?",
+          "Tvary a barvy vám budou povědomé, návštěvníky ale zaskočí ty místní: šipky přednosti na jednoproudých mostech, zóna s omezenou rychlostí LSZ a žluté výstražné značky před změnou povrchu na štěrk a před přechody dobytka."
+        ],
+        [
+          "Co znamená značka jednoproudého mostu?",
+          "Velká šipka je váš směr, malá šipka protijedoucí. Pokud je ta vaše malá, dáváte přednost, a na dlouhém mostě to znamená počkat před vjezdem, ne vjet na most a pak couvat."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: dopravní značky v Road Code (pravidla silničního provozu)"
+        }
+      ],
+      "priceTable": null
     }
   }
 }
