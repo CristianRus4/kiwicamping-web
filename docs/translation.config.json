@@ -8,7 +8,6 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es",
         "fr",
         "it",
         "nl",
@@ -28,10 +27,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "es",
-          "path": "../lib/translations/es.json"
         },
         {
           "locale": "fr",
@@ -111,6 +106,48 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      }
+    },
+    {
+      "id": "kiwicamping-website-es",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "es"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "glossary": {
+        "North Island": {
+          "es": "Isla Norte"
+        },
+        "South Island": {
+          "es": "Isla Sur"
+        },
+        "Stewart Island": {
+          "es": "Isla Stewart (Rakiura)"
+        }
+      },
+      "register": {
+        "es": "informal"
+      },
+      "styleGuide": {
+        "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish island names (Isla Norte, Isla Sur, Isla Stewart (Rakiura)), no calques, no offline-map claims."
       }
     }
   ]

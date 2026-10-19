@@ -57,9 +57,9 @@
     "featuresText": "Explora lugares, compara los detalles, organiza tus favoritos y prepara un viaje que te siga sirviendo cuando ya estés en la carretera.",
     "featureMainEyebrow": "Conoce el sitio antes de llegar",
     "featureMainTitle": "Cada ficha trae justo el dato que te hace decidir.",
-    "featureMainText": "Fotos, una descripción de verdad, horarios, tarifas, condiciones, instalaciones agrupadas por tipo, avisos vigentes, valoraciones, datos de contacto y de reserva, el tiempo y Street View para ver la entrada desde la carretera.",
+    "featureMainText": "Fotos, una descripción de verdad, horarios, tarifas, condiciones, instalaciones agrupadas por tipo, avisos vigentes, valoraciones, datos de contacto y de reserva, el tiempo y Mirar alrededor (Look Around) de Apple para ver la entrada desde la carretera.",
     "featureList1": "Fotos, horarios, tarifas, condiciones e instalaciones",
-    "featureList2": "Street View, el tiempo y la navegación integrados",
+    "featureList2": "Mirar alrededor, el tiempo y la navegación integrados",
     "featureList3": "Incluido en la app: se abre sin cobertura",
     "feature1Title": "Colecciones inteligentes y tus propias listas",
     "feature1Text": "Las listas «Me gustó», «Destacados», «Quiero visitar» y «Visitados» se llenan solas a medida que marcas lugares. Además, puedes crear colecciones con nombre para una isla, una temporada o esa preselección que todavía estás discutiendo.",
@@ -67,8 +67,8 @@
     "feature2Text": "Pide zonas de acampada gratuitas con baños y agua potable cerca de Queenstown y luego afina por tipo de lugar, tarifa, valoración, reserva online, región y características detalladas de instalaciones y acceso.",
     "feature3Title": "Mapa estándar, satélite y 3D",
     "feature3Text": "Cambia entre el mapa estándar y la vista satélite, que puedes inclinar y girar hasta ver el relieve real. Al alejarte, los marcadores se agrupan en un número y, al acercarte, se separan.",
-    "feature4Title": "Street View antes del desvío",
-    "feature4Text": "Street View se abre directamente desde la ficha del lugar donde hay imágenes, así que ves la entrada, el estado del camino y el entorno antes de meter la camper por ese desvío.",
+    "feature4Title": "Mirar alrededor antes del desvío",
+    "feature4Text": "Mirar alrededor (Look Around) de Apple se abre directamente desde la ficha del lugar donde hay imágenes, así que ves la entrada, el estado del camino y el entorno antes de meter la camper por ese desvío.",
     "feature5Title": "El tiempo en cada lugar",
     "feature5Text": "El tiempo actual y la previsión aparecen en la ficha del lugar y junto a cada parada del viaje, así que puedes elegir entre dos campings mirando también al cielo.",
     "feature6Title": "Precios en tu propia moneda",
@@ -115,7 +115,7 @@
     "faq2q": "¿Qué lugares incluye?",
     "faq2a": "Más de 6.500 lugares: campings del DOC, refugios de montaña, holiday parks y otros alojamientos que se pueden reservar, zonas de acampada libre, puntos de vaciado públicos y áreas recreativas en las dos islas.",
     "faq3q": "¿Funciona sin cobertura?",
-    "faq3a": "El directorio de lugares va incluido en la app, así que los nombres, categorías, descripciones, tarifas, instalaciones y condiciones se pueden consultar aunque estés lejos de cualquier cobertura. Los servicios en línea, como la previsión del tiempo, la navegación, Street View, las fotos y las webs de los proveedores, siguen necesitando conexión.",
+    "faq3a": "El directorio de lugares va incluido en la app, así que los nombres, categorías, descripciones, tarifas, instalaciones y condiciones se pueden consultar aunque estés lejos de cualquier cobertura. Los servicios en línea, como la previsión del tiempo, la navegación, las imágenes de Mirar alrededor, las fotos y las webs de los proveedores, siguen necesitando conexión.",
     "faq4q": "¿Puedo planificar un road trip con varias paradas?",
     "faq4a": "Sí, y es la función principal de la app. Añade lugares como paradas, arrástralos para ordenarlos, ponle a cada una su fecha y sus notas de llegada, mira la distancia en coche tramo a tramo y del viaje completo, abre la navegación hasta la siguiente parada, consulta el tiempo en cada una, márcalas como visitadas y ten la lista de equipaje junto al itinerario. Los datos del itinerario se pueden sincronizar con Calendario.",
     "faq5q": "¿Qué son las colecciones?",
@@ -123,9 +123,9 @@
     "faq6q": "¿Puedo filtrar por zonas de acampada gratuitas o por sitios para vehículos self-contained (autónomos)?",
     "faq6a": "Sí, y también combinarlos. Puedes filtrar por tipo de lugar, tarifa, valoración mínima, reserva online, región y características detalladas de instalaciones y acceso, así que «zonas de acampada gratuitas con baños y agua potable cerca de Queenstown» es una sola búsqueda.",
     "faq7q": "¿Qué aparece en la ficha de un lugar?",
-    "faq7a": "Fotos, una descripción, horarios, tarifas, condiciones, instalaciones agrupadas por tipo, avisos vigentes, valoraciones, datos de contacto y de reserva, el tiempo, Street View donde hay imágenes, la navegación y alternativas cercanas.",
+    "faq7a": "Fotos, una descripción, horarios, tarifas, condiciones, instalaciones agrupadas por tipo, avisos vigentes, valoraciones, datos de contacto y de reserva, el tiempo, Mirar alrededor donde hay imágenes, la navegación y alternativas cercanas.",
     "faq8q": "¿Qué vistas de mapa hay?",
-    "faq8a": "Un mapa estándar y una vista satélite basada en las imágenes Flyover de Apple, que puedes inclinar y girar para ver el relieve en 3D. Street View, basado en las imágenes de Mirar alrededor (Look Around) de Apple, te da la vista a pie de calle desde la ficha del lugar.",
+    "faq8a": "Un mapa estándar y una vista satélite basada en las imágenes Flyover de Apple, que puedes inclinar y girar para ver el relieve en 3D. Mirar alrededor (Look Around) de Apple te da la vista a pie de calle desde la ficha del lugar.",
     "faq9q": "¿Puedo ver los precios en mi moneda?",
     "faq9a": "Sí. Elige tu moneda en los ajustes, fija el tipo de cambio y los costes aparecerán en esa moneda junto al importe en dólares neozelandeses.",
     "faq10q": "¿Puedo reservar un camping desde KiwiCamping?",
@@ -291,7 +291,7 @@
         {
           "heading": "Mapas, previsión del tiempo y datos en línea",
           "paragraphs": [
-            "Cambia entre el mapa estándar y una vista satélite basada en las imágenes Flyover de Apple, que se inclina y gira hasta mostrar el relieve en 3D. Street View, basado en las imágenes de Mirar alrededor (Look Around) de Apple, se abre desde la ficha del lugar donde hay imágenes.",
+            "Cambia entre el mapa estándar y una vista satélite basada en las imágenes Flyover de Apple, que se inclina y gira hasta mostrar el relieve en 3D. Mirar alrededor (Look Around) de Apple, la vista a pie de calle, se abre desde la ficha del lugar donde hay imágenes.",
             "El tiempo actual y la previsión necesitan conexión. Guarda las previsiones importantes y los avisos oficiales antes de quedarte sin cobertura.",
             "El directorio incluido en la app mantiene disponibles los datos esenciales de cada lugar aunque no tengas buena señal. Los mapas online, la navegación, la previsión del tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura."
           ]
@@ -414,8 +414,8 @@
   },
   "articles": {
     "dogs-camping-new-zealand": {
-      "title": "Acampar con perro en Nueva Zelanda",
-      "description": "Acampar con perro en Nueva Zelanda: terrenos de conservación, municipales y holiday parks tienen normas distintas, aunque el perro no salga del vehículo.",
+      "title": "Acampar con perro en Nueva Zelanda: dónde se admiten perros (2026)",
+      "description": "Dónde acampar con perro en Nueva Zelanda: campings del DOC que admiten perros, parques nacionales que no, y cómo cambian las normas de los ayuntamientos y los holiday parks.",
       "region": "Nueva Zelanda",
       "imageAlt": "Perro con correa junto a un camping autorizado de Nueva Zelanda",
       "intro": "Si viajas con perro, comprueba las normas de cada terreno concreto. Para proteger la fauna autóctona, muchas zonas de conservación prohíben del todo las mascotas, incluso las que se quedan dentro del vehículo.",
@@ -431,15 +431,15 @@
         {
           "heading": "Ayuntamientos y parques privados",
           "body": [
-            "Las zonas de acampada del ayuntamiento (council) pueden combinar sus ordenanzas de acampada libre (freedom camping) con otras normas distintas sobre el control de perros. Un sitio puede permitirte pasar la noche en el vehículo y, aun así, prohibir los perros en el terreno municipal (council reserve) donde se encuentra.",
-            "Los holiday parks (campings privados con cabañas y servicios) fijan sus propias condiciones, a menudo según la temporada, el tamaño o el tipo de parcela. Pide la confirmación por escrito y, al reservar, avisa de todos los animales que llevas."
+            "Las zonas de acampada de los ayuntamientos (councils) pueden combinar <a data-guide=\"camping-rules-local-councils-new-zealand\">ordenanzas</a> de acampada libre (freedom camping) con normas distintas sobre el control de perros. Un sitio puede permitir pasar la noche en el vehículo y, aun así, prohibir los perros en el terreno municipal (council reserve).",
+            "Los <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (campings privados con cabañas y servicios) fijan sus propias condiciones, a menudo según la temporada, el tamaño o el tipo de parcela. Pide la confirmación por escrito y avisa de todos los animales al reservar."
           ],
           "tips": []
         },
         {
           "heading": "Protege la fauna y a los vecinos",
           "body": [
-            "Lleva al perro con correa donde sea obligatorio, evita que ladre y recoge siempre sus excrementos. Mantenlo lejos de las aves que están anidando, las focas, el ganado y las zonas con cebos envenenados para el control de plagas.",
+            "Lleva al perro con correa donde sea obligatorio, evita que ladre y recoge todos sus excrementos. Mantenlo lejos de las aves que anidan, las focas, el <a data-guide=\"wildlife-livestock-road-safety-new-zealand\">ganado</a> y las zonas con veneno para el control de plagas.",
             "Lleva la documentación de las vacunas y un sistema de sujeción seguro para el viaje. Si no tienes claro que pueda entrar, elige un camping privado que admita perros en lugar de poner a prueba la norma al llegar."
           ],
           "tips": []
@@ -467,7 +467,7 @@
         {
           "heading": "Holiday parks y terrenos municipales",
           "body": [
-            "Muchos holiday parks admiten perros, pero bastantes no, y los que sí suelen excluirlos en temporada alta o exigir que estén en una jaula o atados en todo momento. Si reservas sin confirmar su política de mascotas, es fácil que llegues y te quedes sin sitio para dormir.",
+            "Muchos <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> admiten perros, pero un número considerable no, y los que sí suelen excluirlos en temporada alta o exigir que estén en una jaula o con correa en todo momento. Reservar sin confirmar la política es una forma habitual de llegar y quedarte sin dónde alojarte.",
             "En los terrenos y playas municipales suele haber restricciones de temporada para perros, normalmente en primavera y verano, para proteger a las aves costeras que anidan. Están señalizadas en cada sitio, se vigilan y cambian de un municipio al de al lado."
           ],
           "tips": [
@@ -480,16 +480,16 @@
           "heading": "Viajar con perro en la práctica",
           "body": [
             "Dentro del vehículo, el perro tiene que ir sujeto, y si viaja en la caja de una pickup hay que asegurarlo bien. Aquí el calor en un vehículo aparcado mata en poco tiempo y la sombra se mueve, así que no puedes dejarlo dentro mientras haces una caminata en la que no se admiten perros.",
-            "Organiza el viaje en torno a los sitios que admiten perros en lugar de confiar en improvisar. En la práctica, eso suele significar senderos costeros, pistas forestales, parques regionales y holiday parks, no parques nacionales ni las Great Walks, las grandes rutas de senderismo de varios días del DOC."
+            "Organiza el viaje en torno a los sitios que admiten perros en lugar de confiar en improvisar. En la práctica, eso suele significar paseos costeros, pistas forestales, parques regionales y <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>, no parques nacionales ni las Great Walks (las grandes rutas de senderismo de varios días del DOC)."
           ],
           "tips": []
         },
         {
           "heading": "Adónde sí puedes ir con perro",
           "body": [
-            "En la práctica, las opciones que funcionan son los holiday parks que admiten perros, los terrenos municipales fuera de las temporadas con restricciones, los senderos de bosques y parques regionales, y la mayoría de las playas fuera de la época de nidificación. Es un viaje de verdad, pero distinto de uno pensado en torno a los parques nacionales.",
+            "En la práctica, las opciones viables son los <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> que admiten perros, los terrenos municipales fuera de las temporadas con restricciones, las pistas forestales y los senderos de parques regionales, y la mayoría de las playas fuera de la época de nidificación. Es un viaje de verdad, pero distinto de uno construido en torno a los parques nacionales.",
             "Varios parques regionales alrededor de Auckland y Wellington admiten perros con correa, y muchos senderos costeros los permiten todo el año. Suelen ser lugares sin kiwis ni otras aves que anidan en el suelo, o donde ya hay vallas que los mantienen apartados.",
-            "Planifica la ruta empezando por los sitios que admiten perros y completa el resto a su alrededor. Si intentas hacer con perro un itinerario típico por la South Island, acabarás con alguien esperando en el vehículo durante casi todas las buenas caminatas."
+            "Planifica la ruta empezando por los sitios que admiten perros y completa el resto a su alrededor. Si intentas hacer con perro un itinerario típico por la Isla Sur, acabarás con alguien esperando en el vehículo durante casi todas las buenas caminatas."
           ],
           "tips": []
         },
@@ -599,7 +599,7 @@
           "body": [
             "El error habitual es quedarse donde se está porque irse parece renunciar al plan. Trasladarte a un camping con servicios, una cabaña o un pueblo antes de que llegue el frente cuesta una noche y un trayecto corto, y elimina casi todo el riesgo.",
             "Decide mientras todavía tengas luz y cobertura, no cuando las condiciones ya hayan empeorado. Salir de noche de un sitio expuesto con un temporal que va a más es bastante peor que quedarse o que haberse ido antes.",
-            "Ten una alternativa concreta para cada región en lugar de una vaga intención de encontrar algo. Saber el nombre del holiday park y que tiene sitio es lo que facilita la decisión en el momento en que hay que tomarla."
+            "Ten una alternativa concreta para cada región en lugar de una vaga intención de encontrar algo. Saber el nombre del <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> y que tiene sitio es lo que facilita la decisión en el momento en que hay que tomarla."
           ],
           "tips": []
         },
@@ -637,17 +637,17 @@
       "priceTable": null
     },
     "overseas-driver-licence-new-zealand": {
-      "title": "Conducir en Nueva Zelanda con un permiso extranjero",
-      "description": "Permiso de conducir extranjero en Nueva Zelanda: revisa validez, traducción, plazos y peso del vehículo antes de recogerlo en la oficina de alquiler.",
+      "title": "Permiso de conducir extranjero en Nueva Zelanda 2026: plazo y campers",
+      "description": "Si llegas antes del 31 de octubre de 2026, un permiso de coche extranjero vale 18 meses; si llegas después, 12. Traducciones, IDP y el límite de 6.000 kg para campers.",
       "region": "Nueva Zelanda",
       "imageAlt": "Visitante revisando su permiso de conducir extranjero junto a una camper",
-      "intro": "Un permiso de conducir extranjero en vigor puede permitirte conducir en Nueva Zelanda como visitante, pero que esa autorización valga en tu caso depende del idioma del documento, del tiempo que llevas en el país, de las condiciones del permiso y del peso de la camper.",
+      "intro": "Un permiso de coche extranjero en vigor te permite conducir en Nueva Zelanda durante 18 meses desde tu última llegada si llegaste entre el 1 de noviembre de 2024 y el 31 de octubre de 2026, y durante 12 meses si llegas el 1 de noviembre de 2026 o después. Tiene que estar en inglés o ir acompañado de una traducción aprobada o de un permiso internacional de conducir (IDP), y como permiso de coche cubre vehículos de hasta 6.000 kg, lo que incluye la mayoría de las campers de alquiler. Siguen aplicándose las condiciones de tu permiso de origen, y la empresa de alquiler puede añadir las suyas.",
       "sections": [
         {
           "heading": "Plazos vigentes en 2026",
           "body": [
-            "A fecha de agosto de 2026, un permiso de coche extranjero que cumpla los requisitos sirve durante un máximo de 18 meses desde tu última llegada al país. A partir del 1 de noviembre de 2026, ese plazo para los permisos de coche baja a 12 meses.",
-            "Para los permisos extranjeros de moto y de camión, los plazos son otros. Si tu estancia abarca la fecha del cambio, consulta en la NZTA (NZ Transport Agency Waka Kotahi, la agencia de transporte de Nueva Zelanda) qué norma rige el día en que vayas a conducir."
+            "El plazo depende de cuándo llegaste por última vez. Una norma temporal vigente desde el 1 de noviembre de 2024 amplió de 12 a 18 meses la validez de los permisos de coche extranjeros, y termina para los recién llegados el 1 de noviembre de 2026. Si llegaste entre el 1 de noviembre de 2024 y el 31 de octubre de 2026, conservas 18 meses desde esa llegada mientras sigas en Nueva Zelanda. Si llegas el 1 de noviembre de 2026 o después, tienes 12 meses.",
+            "La ampliación solo se aplicó a los permisos de coche: los permisos extranjeros de moto y de vehículos pesados permiten 12 meses. El plazo cuenta desde tu llegada más reciente, así que salir del país y volver a entrar lo reinicia, pero el permiso en sí debe estar en vigor todo el tiempo."
           ],
           "tips": []
         },
@@ -670,19 +670,19 @@
         {
           "heading": "Qué puedes conducir y durante cuánto tiempo",
           "body": [
-            "Puedes conducir con un permiso extranjero en vigor hasta doce meses desde tu fecha de llegada, siempre que el permiso sea válido, no te hayan retirado el derecho a conducir y conduzcas solo las clases de vehículo que cubre. Pasados doce meses debes canjearlo por un permiso neozelandés.",
-            "El permiso tiene que estar en inglés o ir acompañado de una traducción exacta o de un permiso internacional de conducir. Lleva siempre el original encima: el IDP lo complementa, no lo sustituye."
+            "Puedes conducir con un permiso extranjero en vigor durante el plazo que te corresponda, 18 o 12 meses desde tu última llegada, siempre que el permiso sea válido, no te hayan retirado el derecho a conducir y conduzcas solo las clases de vehículo que cubre. Después necesitas un permiso neozelandés.",
+            "La policía puede pedirte el permiso cada vez que conduces, así que lleva siempre el original, junto con la traducción o el IDP si no está en inglés. El IDP acompaña al original y no lo sustituye."
           ],
           "tips": [
-            "Doce meses desde la fecha de llegada",
-            "Lleva el permiso original, no solo el internacional",
-            "Traducción obligatoria si no está en inglés"
+            "18 meses si llegaste hasta el 31 de octubre de 2026",
+            "12 meses si llegas desde el 1 de noviembre de 2026",
+            "Lleva el permiso original, no solo el IDP"
           ]
         },
         {
-          "heading": "Con una camper, la clase de vehículo importa",
+          "heading": "¿Puedes conducir una camper con un permiso de coche?",
           "body": [
-            "En Nueva Zelanda, un permiso de coche normal cubre vehículos de hasta 6.000 kg de peso total con carga, más margen que en varios otros países, y eso incluye la mayoría de las campers de alquiler. Las autocaravanas más grandes pueden quedar fuera, y la equivalencia la marca la clase de tu permiso de origen.",
+            "Normalmente, sí. El permiso de conducir de coche neozelandés (Class 1) cubre vehículos de hasta 6.000 kg de peso total con carga, más margen que en varios otros países, y abarca la mayoría de las campers y autocaravanas de alquiler. Las autocaravanas más grandes pueden quedar fuera, y lo que determina la equivalencia es la clase de tu permiso de origen.",
             "Las empresas de alquiler suman a la ley sus propias condiciones de edad y de permiso, y a menudo piden una edad mínima y una antigüedad mínima del permiso. Que una empresa te deje alquilar no te pone por encima de la ley de permisos, y cumplir esa ley tampoco anula las condiciones del alquiler."
           ],
           "tips": []
@@ -690,7 +690,7 @@
         {
           "heading": "Restricciones que arrastras de tu permiso de origen",
           "body": [
-            "Cualquier condición de tu permiso original se aplica aquí: lentes correctoras, solo cambio automático, un alcoholímetro antiarranque o una clase restringida. Conducir fuera de esas condiciones es conducir sin permiso, con las consecuencias que eso tiene para el seguro.",
+            "Cualquier condición de tu permiso original se aplica aquí: lentes correctoras, solo cambio automático, un dispositivo antiarranque por alcohol o una clase restringida. Conducir fuera de esas condiciones es una infracción y puede anular el seguro.",
             "Un permiso restringido o provisional de otro país suele conservar sus restricciones aquí. Si en tu país tienes un permiso por fases, mira qué implica antes de dar por hecho que en Nueva Zelanda puedes conducir sin limitaciones."
           ],
           "tips": [
@@ -710,9 +710,9 @@
         {
           "heading": "Canjear por un permiso neozelandés",
           "body": [
-            "Pasados doce meses tienes que canjearlo. Los conductores de una lista de países reconocidos pueden hacerlo sin exámenes teóricos ni prácticos, mientras que el resto debe aprobar ambos. La lista cambia, así que consulta la situación actual en lugar de fiarte de lo que te hayan contado.",
+            "Cuando se acaban tus 18 o 12 meses, tienes que canjear el permiso. Los conductores de una lista de países reconocidos pueden canjearlo sin hacer los exámenes teórico y práctico, mientras que el resto debe aprobar ambos. La lista cambia, así que consulta la situación actual en lugar de fiarte de información de segunda mano.",
             "Para el canje necesitas acreditar tu identidad, presentar tu permiso extranjero, pasar una prueba de vista y pagar una tasa, y se tramita en un agente autorizado (licensing agent). Ve con tiempo, porque el trámite no es inmediato y conducir cuando ya no tienes derecho a hacerlo es una infracción.",
-            "Si vas a quedarte a largo plazo y tu país no está reconocido, empieza pronto. Conseguir cita para el examen práctico puede llevar varias semanas en las ciudades principales, y la espera es aún mayor en verano."
+            "Si vas a quedarte a largo plazo y tu país no está reconocido, empieza pronto. Las citas para el examen práctico en las ciudades principales pueden tardar semanas, así que no lo dejes para el último mes."
           ],
           "tips": []
         },
@@ -732,16 +732,16 @@
       "faq": [
         [
           "¿Se puede conducir en Nueva Zelanda con un permiso extranjero?",
-          "Sí, hasta 12 meses desde tu llegada, siempre que el permiso esté en vigor y sea de la clase del vehículo que conduces. Pasados 12 meses debes canjearlo por un permiso neozelandés."
+          "Sí. Si llegaste entre el 1 de noviembre de 2024 y el 31 de octubre de 2026, un permiso de coche extranjero en vigor dura 18 meses desde esa llegada; si llegas el 1 de noviembre de 2026 o después, dura 12 meses. Después necesitas un permiso neozelandés."
         ],
         [
           "¿Necesitas un permiso internacional de conducir para Nueva Zelanda?",
-          "Solo si tu permiso no está en inglés. En ese caso, junto con el original tienes que llevar una traducción al inglés exacta y certificada o un permiso internacional de conducir."
+          "Solo si tu permiso no está en inglés. En ese caso, junto con el permiso original tienes que llevar una traducción exacta al inglés hecha por un traductor aprobado por la NZTA (NZ Transport Agency Waka Kotahi, la agencia de transporte de Nueva Zelanda) o un permiso internacional de conducir."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: conducir por las carreteras de Nueva Zelanda"
+          "label": "NZTA: conducir en Nueva Zelanda con un permiso extranjero"
         }
       ],
       "priceTable": null
@@ -789,14 +789,14 @@
           "heading": "Corrige pronto la estimación",
           "body": [
             "Apunta los litros y los kilómetros de los dos primeros repostajes y vuelve a calcular. El peso de la carga, el viento en contra, las carreteras de montaña, los cofres de techo y tener el motor encendido para la calefacción elevan el consumo por encima de la cifra del folleto, a veces en una cuarta parte.",
-            "El combustible en zonas remotas cuesta más, y el precio varía bastante entre una ciudad y un pueblo pequeño de la West Coast o de East Cape. Reposta en las poblaciones grandes cuando puedas, pero nunca pases de largo la última gasolinera antes de un tramo largo por ahorrarte unos céntimos."
+            "El <a data-guide=\"new-zealand-road-trip-fuel-cost-2026\">combustible</a> en zonas remotas cuesta más, y el precio varía bastante entre una ciudad y un pueblo pequeño de la West Coast o de East Cape. Reposta en las poblaciones grandes cuando puedas, pero nunca pases de largo la última gasolinera antes de un tramo largo por ahorrarte unos centavos."
           ],
           "tips": []
         },
         {
           "heading": "Presupuesta el ferri como un bloque fijo",
           "body": [
-            "El estrecho de Cook es un gasto grande e innegociable en cualquier viaje que cubra las dos islas, y su precio depende de la longitud y la altura del vehículo, no del número de pasajeros. Cruzar con una autocaravana cuesta varias veces lo que un coche, y un remolque o un portabicis vuelven a cambiar la categoría.",
+            "El <a data-guide=\"cook-strait-ferry-campervan-guide\">estrecho de Cook</a> es un gasto grande e innegociable en cualquier viaje que cubra las dos islas, y su precio depende de la longitud del vehículo, no del número de pasajeros. Cruzar con una autocaravana cuesta varias veces lo que un coche, y un remolque o un portabicis vuelven a cambiar la categoría.",
             "Resérvalo pronto para las travesías de verano y lee las condiciones de cambio y cancelación antes de elegir la tarifa más barata. Un ahorro no reembolsable desaparece la primera vez que el tiempo o un corte de carretera te obligan a cambiar de travesía."
           ],
           "tips": [
@@ -808,7 +808,7 @@
         {
           "heading": "Combina los tipos de pernocta a propósito",
           "body": [
-            "Un viaje basado solo en sitios gratuitos necesita un vehículo totalmente autosuficiente y aun así acaba pagando duchas, lavandería y agua en algún sitio. Un viaje basado solo en holiday parks cuesta el doble o el triple y apenas aporta nada las noches en que llegas tarde y te vas pronto.",
+            "Un viaje basado solo en sitios gratuitos necesita un vehículo totalmente autónomo y aun así acaba pagando duchas, lavandería y agua en algún sitio. Un viaje basado solo en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> cuesta el doble o el triple y apenas aporta nada las noches en que llegas tarde y te vas pronto.",
             "La pauta práctica son dos o tres noches baratas en sitios del DOC o de acampada libre seguidas de una noche con servicios que lo pone todo a cero de una vez: lavandería, duchas calientes, carga de baterías, agua potable y vaciado de residuos. Calculada así, la noche con servicios suele justificar su precio."
           ],
           "tips": []
@@ -897,7 +897,7 @@
           "heading": "Agua: saber qué grifo es cuál",
           "body": [
             "Llena el agua de beber solo en grifos señalizados como potables. No todos los grifos de un camping o una reserva son seguros, y algunos son expresamente de agua no potable para lavar. Donde el suministro no esté tratado o haya dudas, hiérvela o fíltrala en lugar de suponer que está bien porque parece limpia.",
-            "Mantén la manguera del agua potable físicamente separada de todo lo que se use cerca de un punto de vaciado, guárdala de forma que los extremos no toquen el suelo y lávate las manos después de manipular el equipo de residuos. Esta sola costumbre evita la causa más común de enfermedad en un viaje con vehículo autosuficiente."
+            "Mantén la manguera del agua potable físicamente separada de todo lo que se use cerca de un <a data-guide=\"camping-wastewater-rubbish-new-zealand\">punto de vaciado</a>, guárdala de forma que los extremos no toquen el suelo y lávate las manos después de manipular el equipo de residuos. Esta sola costumbre evita la causa más común de enfermedad en un viaje en un vehículo self-contained."
           ],
           "tips": [
             "Llena solo en grifos señalizados como potables",
@@ -909,14 +909,14 @@
           "heading": "GLP, bombonas de gas y tareas del vehículo",
           "body": [
             "Comprueba la conexión y cómo rellenar o cambiar tu bombona antes de que se acabe, porque no todas las gasolineras trabajan con todos los tipos y los sistemas de intercambio varían. Un vehículo de alquiler suele venir con un acuerdo concreto, así que pregunta al recogerlo en lugar de descubrirlo a mitad de viaje.",
-            "Agrupa las tareas del vehículo en la misma parada: combustible, GLP, revisar la presión de los neumáticos, agua, punto de vaciado y supermercado. Una parada bien elegida puede despachar la lista entera en menos de una hora, mientras que repartir lo mismo entre tres pueblos te come un día."
+            "Agrupa las tareas del vehículo en la misma parada: combustible, GLP, revisar la presión de los neumáticos, agua, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">punto de vaciado</a> y supermercado. Una parada bien elegida puede despachar la lista entera en menos de una hora, mientras que repartir lo mismo entre tres pueblos te come un día."
           ],
           "tips": []
         },
         {
           "heading": "Guarda en el plan las paradas de servicios",
           "body": [
-            "Merece la pena guardar los puntos de vaciado, el agua potable, el GLP y las lavanderías junto a tus sitios para dormir, con una nota sobre el horario. Un punto de vaciado que cierra a las cinco es como no tenerlo si llegas a las seis.",
+            "Merece la pena guardar los <a data-guide=\"camping-wastewater-rubbish-new-zealand\">puntos de vaciado</a>, el agua potable, el GLP y las lavanderías junto a tus sitios para dormir, con una nota sobre el horario. Un punto de vaciado que cierra a las cinco es como no tenerlo si llegas a las seis.",
             "Cuando se acerque un tramo remoto, identifica la parada concreta que vas a usar en lugar de suponer que aparecerá alguna. Planificar un vaciado o un repostaje de camino a otro sitio es fácil; volver a propósito para hacerlo no lo es."
           ],
           "tips": [
@@ -1309,48 +1309,48 @@
       }
     },
     "doc-huts-new-zealand-guide": {
-      "title": "Refugios del DOC en Nueva Zelanda: cómo funciona el sistema",
-      "description": "Los refugios con servicios, estándar, básicos y de las Great Walks tienen instalaciones, tarifas y normas de reserva distintas.",
+      "title": "Refugios del DOC en Nueva Zelanda por región: tipos, tarifas, tickets",
+      "description": "Dónde están los refugios del DOC por región, cuánto cuestan los refugios con servicios, estándar y básicos en 2026/27 y cómo funcionan tickets, Hut Pass y reservas.",
       "region": "Naturaleza remota de Nueva Zelanda",
       "imageAlt": "Refugio en las montañas de Nueva Zelanda",
-      "intro": "Un refugio es un techo compartido en plena naturaleza, no un alojamiento escondido en el bosque. El DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) tiene unos 950 repartidos por los terrenos públicos de conservación, desde edificios con servicios, calefacción y colchones hasta simples casetas de dos literas con suelo de tierra. Saber a qué categoría de refugio te diriges decide lo que tienes que llevar.",
+      "intro": "El DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) cuida más de 950 refugios, y los datos del DOC en KiwiCamping recogen 927 de ellos, desde refugios con servicios (serviced huts) con calefacción y colchones hasta casetas de dos literas (bivvies). La mayoría están en la Isla Sur: solo Canterbury tiene 180 y la West Coast 140, mientras que los grupos más grandes de la Isla Norte están en las cordilleras Ruahine, Kaweka y Tararua. En esos datos, revisados el 24 de agosto de 2026, solo 127 de los 927 se podían reservar, y aunque el DOC ya ha pasado a reserva online todos los refugios con servicios, la mayoría sigue funcionando por orden de llegada: gratis si es básico, de pago con tickets de refugio (hut tickets) o con un Backcountry Hut Pass si es estándar.",
       "sections": [
         {
-          "heading": "Las cuatro categorías de refugio",
+          "heading": "Categorías de refugio y tarifas de 2026/27",
           "body": [
-            "Los refugios con servicios (serviced huts) son los más equipados: literas con colchón, agua, baños y, normalmente, calefacción con el combustible incluido. Los estándar (standard huts) no incluyen combustible para la calefacción y a veces tampoco colchones, pero tienen literas, agua y baño. Los básicos (basic huts) son un techo y poco más, y puede que no tengan ninguna fuente de agua.",
-            "Los refugios de las Great Walks (las grandes rutas de senderismo de varios días del DOC) quedan fuera de esta escala. En temporada de senderismo están muy bien equipados, cuestan bastante más y tienen su propio sistema de reservas, ligado a cada ruta. Fuera de temporada suelen bajar de categoría y de precio, y se reducen o se retiran instalaciones."
+            "Los refugios con servicios (serviced huts) tienen colchones, agua, baños, lavamanos y calefacción con combustible. En 2026/27 un adulto paga 25 NZD por noche de mayo a septiembre; de octubre a abril, 28 NZD entre semana y 32 NZD los viernes y sábados, y 29 y 34 NZD de diciembre a febrero; los niños pagan la mitad, y acampar junto a un refugio cuesta la mitad de su tarifa. Los estándar (standard huts) tienen colchones, agua y baños, con estufas de leña por debajo del límite del bosque, por 15 NZD el adulto y 7,50 NZD el niño. Los básicos (basic huts) y los bivvies son gratuitos y ofrecen un techo y poco más. En los datos de KiwiCamping eso se reparte en 96 refugios con servicios, 408 estándar y 372 básicos.",
+            "Tres categorías quedan fuera de esa escala. Los refugios de las Great Walks (las grandes rutas de senderismo de varios días del DOC), 33 en los datos de KiwiCamping, tienen precios propios según la ruta, la temporada y la residencia, y hay que reservarlos en la temporada de las Great Walks. Los refugios con precio individual, entre ellos refugios alpinos con servicios como Mueller Hut, fijan su propia tarifa, y los refugios de club los gestionan clubes como el New Zealand Alpine Club, así que consulta la página del refugio en el DOC. Sea cual sea la categoría, el techo nunca sustituye al saco de dormir, el hornillo, la comida, la linterna frontal y la ropa de abrigo."
           ],
           "tips": [
-            "La categoría marca servicios y tarifa",
-            "Refugios de las Great Walks: reserva aparte",
-            "Los refugios básicos pueden no tener agua"
+            "Con servicios de 25 a 34 NZD según temporada, estándar 15 NZD, básico gratis",
+            "Refugios de Great Walks y alpinos: precio propio",
+            "Lleva el equipo completo sea cual sea la categoría"
           ]
         },
         {
-          "heading": "Lo que ofrece el refugio no sustituye a tu equipo",
+          "heading": "Dónde están los refugios, región por región",
           "body": [
-            "Tener un techo no te libra de llevar saco de dormir, esterilla, hornillo, combustible, comida, linterna frontal y ropa de abrigo. Los refugios no tienen personal ni guardan provisiones, y uno con servicios y estufa sigue estando frío si el grupo anterior gastó la última leña.",
-            "Prepara la mochila pensando en la caminata y en el tiempo, no en la descripción del refugio. Las condiciones alpinas de Nueva Zelanda cambian rápido, y el grupo que llega empapado y sin una capa de abrigo de repuesto está en apuros, ofrezca lo que ofrezca el edificio."
+            "La Isla Sur concentra la mayor parte de la red. Canterbury tiene 180 refugios, con el Lake Sumner Forest Park y el Arthur's Pass National Park a la cabeza; la West Coast, 140, muchos en los valles de Whitcombe y Styx; Nelson/Tasman, 99, con 45 en el Kahurangi National Park y 24 en Nelson Lakes; Otago, 78, entre ellos 12 en el Mount Aspiring National Park y 12 en el Hāwea Conservation Park; Southland, 70, de los cuales 30 en la Isla Stewart (<a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>); Marlborough, 60; y Fiordland, 55, casi todos dentro del Fiordland National Park.",
+            "En la Isla Norte, Hawke's Bay tiene 55 refugios repartidos entre los forest parks de Kaweka y Ruahine; Manawatū/Whanganui, 43; la East Coast, 38 entre Te Urewera y Whirinaki; Wairarapa, 36; y Wellington/Kāpiti, 24, la mayoría en la cordillera Tararua. El centro de la Isla Norte tiene 16, diez de ellos en el Tongariro National Park, y Bay of Plenty, Taranaki, Northland, Waikato, Coromandel y Auckland tienen ocho o menos cada uno."
           ],
           "tips": []
         },
         {
           "heading": "Tickets, pases y reservas de refugio",
           "body": [
-            "Los refugios que no se reservan suelen funcionar con tickets de refugio (hut tickets) comprados por adelantado o con un Backcountry Hut Pass, un pase que cubre un periodo de tiempo en lugar de una noche. Los reservables exigen una reserva a tu nombre para la fecha exacta, y los de las Great Walks se llenan con meses de antelación para la temporada de verano.",
-            "El error habitual es confundir un pase con una reserva. El Backcountry Hut Pass paga tus noches en los refugios que aceptan tickets, pero no te reserva nada y no sirve para los refugios de las Great Walks ni para otros reservables. Antes de salir, mira qué sistema usa el refugio concreto al que vas."
+            "Los refugios sin reserva funcionan con Backcountry Hut Tickets (tickets de refugio), que se compran antes del viaje y se dejan en la honesty box (una caja donde dejas el pago), o con un Backcountry Hut Pass, que cubre la mayoría de los refugios con servicios y estándar durante 12 meses. Desde el 1 de noviembre de 2026 los tickets de refugio también se pueden comprar en el sistema de reservas online del DOC, y los tickets en papel siguen siendo válidos hasta el 1 de noviembre de 2027. Los refugios reservables se reservan y se pagan en bookings.doc.govt.nz, y desde el 1 de octubre de 2026 eso incluye todos los refugios con servicios, así que los Serviced Hut Tickets se están retirando.",
+            "El error habitual es tratar un pase o un ticket como si fuera una reserva. Ninguno reserva una litera ni da prioridad en un refugio por orden de llegada. El Hut Pass puede pagar algunos refugios reservables si lo indicas al reservar, pero no los refugios de las Great Walks en su temporada de reservas ni los de la lista de exclusiones del DOC. Antes de salir, mira qué sistema usa el refugio concreto."
           ],
           "tips": [
             "Un pase no es una reserva",
-            "Compra los tickets antes de la ruta",
+            "Tickets online desde el 1 de noviembre de 2026",
             "Great Walks: refugios agotados meses antes"
           ]
         },
         {
-          "heading": "No se rechaza a nadie",
+          "heading": "Un refugio lleno sigue siendo un refugio en una emergencia",
           "body": [
-            "En los refugios sin reserva, las literas son para quien llega primero, y la costumbre de siempre es que un refugio lleno significa dormir en el suelo, no encontrarte la puerta cerrada. Que no queden literas no es motivo para seguir caminando de noche, y tampoco esperes que te guarden una por tener reserva en otro refugio.",
+            "En un refugio reservable, el DOC no guarda sitio para quien no tiene reserva y te pueden rechazar si está lleno. En los refugios sin reserva, las literas son para quien llega primero, y la costumbre es que un refugio lleno significa dormir en el suelo, no encontrarte la puerta cerrada. Todos los refugios siguen abiertos como refugio de emergencia con mal tiempo, así que no sigas caminando hacia la oscuridad porque las literas estén ocupadas.",
             "Lleva esterilla y lo necesario para dormir en el suelo; si el tiempo acompaña y se permite acampar en la zona, una tienda te da una alternativa real. En las rutas populares en enero, da por hecho que el refugio estará lleno y planifica contando con ello."
           ],
           "tips": []
@@ -1358,7 +1358,7 @@
         {
           "heading": "Agua, cocina y fuego",
           "body": [
-            "Potabiliza el agua del refugio salvo que la información actualizada del DOC sobre ese refugio diga que se puede beber. El agua de lluvia recogida del tejado puede estar contaminada, y en los ríos y arroyos de las zonas remotas de Nueva Zelanda hay giardia. Hervirla, filtrarla o tratarla con productos químicos funciona; lo que da problemas es dar por hecho que está bien.",
+            "Potabiliza el agua del refugio salvo que la información actual del DOC sobre ese refugio diga que se puede beber. El agua recogida del tejado puede estar contaminada, y hay giardia en el agua de las zonas remotas de Nueva Zelanda. Hervirla es el método más seguro, y el DOC indica tres minutos; también sirve un filtro homologado para protozoos. Lo que causa problemas es dar por hecho que está bien.",
             "Cocina con tu hornillo, fuera o en la zona habilitada, y nunca dentro de una tienda. Si hay estufa, úsala con moderación y deja astillas para encenderla a quien llegue después, quizá con peor tiempo que el que tuviste tú."
           ],
           "tips": [
@@ -1371,7 +1371,7 @@
           "heading": "Normas de convivencia en el refugio",
           "body": [
             "Dentro del refugio, sin botas. Ten tus cosas recogidas en la litera en vez de repartidas por la mesa y los bancos. Por la noche, silencio pronto, y por la mañana muévete sin hacer ruido: los senderistas salen antes del amanecer y, tras un día duro, todo el mundo duerme en la misma sala.",
-            "Rellena siempre el libro de registro del refugio, con la fecha y tus planes. Es una cortesía, pero sobre todo es lo primero que leen los equipos de búsqueda y rescate cuando alguien no vuelve a tiempo, y una anotación precisa ha acortado muchas búsquedas."
+            "Rellena el libro de registro del refugio siempre, con la fecha y tus planes. Es una cortesía y, sobre todo, puede ayudar a los equipos de búsqueda y rescate si alguien de tu grupo se retrasa."
           ],
           "tips": []
         },
@@ -1379,7 +1379,7 @@
           "heading": "Al dejar el refugio",
           "body": [
             "Barre el suelo, cierra bien las contraventanas y las puertas, y llévate todo lo que trajiste, restos de comida incluidos. La basura que se deja en un refugio atrae roedores y no hay servicio de recogida; lo que dejes se queda allí hasta que otro senderista se lo lleve.",
-            "Al volver, avisa al DOC de cualquier desperfecto, una estufa averiada, un suministro de agua que ha dejado de funcionar o un peligro. El mantenimiento de los refugios depende de lo que se comunica, y un mensaje de cinco minutos puede evitar que el siguiente grupo se encuentre un edificio que no funciona."
+            "Al terminar el viaje, avisa al DOC de cualquier desperfecto, una estufa averiada, un fallo en el suministro de agua o un peligro. Los avisos ayudan al DOC a priorizar las reparaciones, y un mensaje de cinco minutos puede evitar que el siguiente grupo llegue a un edificio que no funciona."
           ],
           "tips": [
             "Llévate toda la basura y los restos",
@@ -1391,19 +1391,19 @@
       "faq": [
         [
           "¿Hay que reservar un refugio del DOC?",
-          "Depende de la categoría. Los refugios de las Great Walks y los refugios con servicios de las rutas populares se reservan y se pagan por adelantado, a menudo con meses de antelación en verano. Los estándar y los básicos suelen funcionar con tickets o con un Backcountry Hut Pass, sin reserva, y nunca tienes una litera garantizada."
+          "Solo algunos. Los refugios de las Great Walks, todos los refugios con servicios desde el 1 de octubre de 2026 y algunos refugios populares se reservan en bookings.doc.govt.nz. La mayoría de los estándar funcionan por orden de llegada, con tickets de refugio o un Backcountry Hut Pass, y los básicos son gratuitos."
         ],
         [
-          "¿Qué hay realmente en un refugio de montaña?",
-          "Normalmente literas con colchón, algún tipo de suministro de agua y un baño. La cocina, la calefacción y la iluminación varían según la categoría y muchos refugios no tienen nada de eso, así que lleva hornillo, combustible y linterna digan lo que digan las fichas."
+          "¿Cuánto cuesta una noche en un refugio del DOC?",
+          "En 2026/27 un refugio estándar cuesta 15 NZD el adulto y 7,50 NZD el niño todo el año. Un refugio con servicios cuesta 25 NZD de mayo a septiembre y de 28 a 34 NZD de octubre a abril, y un refugio básico o bivvy es gratuito. Los refugios de las Great Walks y los de precio individual fijan sus propias tarifas."
         ]
       ],
       "sources": [
         {
-          "label": "Categorías de refugios del DOC"
+          "label": "Precios de alojamiento del DOC 2026/27 por categoría de refugio y de camping"
         },
         {
-          "label": "Alertas y cierres del DOC"
+          "label": "Nota de prensa del DOC, 1 de octubre de 2026: refugios con servicios reservables, tickets de refugio online"
         }
       ],
       "priceTable": null
@@ -1478,7 +1478,7 @@
         {
           "heading": "Cuenta con cierres y servicios reducidos",
           "body": [
-            "Muchos campings del DOC cierran en invierno o cortan el agua, algunas pistas de acceso se cierran tras las nevadas y los holiday parks de los pueblos pequeños pueden reducir horarios o cerrar del todo. Una ficha escrita para el verano no te lo dirá, así que comprueba el sitio concreto y las alertas actuales del DOC antes de contar con él.",
+            "Muchos <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> cierran en invierno o cortan el agua, algunas pistas de acceso se cierran tras las nevadas y los holiday parks de los pueblos pequeños pueden reducir horarios o cerrar del todo. Una ficha escrita para el verano no te lo dirá, así que comprueba el sitio concreto y las alertas actuales del DOC antes de contar con él.",
             "Lleva más agua, comida y batería de las que exige el plan, y trata una noche en una cabaña o un motel como una decisión normal por el tiempo, no como un fracaso. El invierno es la estación en la que pagar una habitación de vez en cuando es lo que hace que funcione el resto del viaje."
           ],
           "tips": [
@@ -1495,7 +1495,7 @@
         ],
         [
           "¿Qué zonas de Nueva Zelanda son más suaves en invierno?",
-          "La parte alta de la North Island es la más cálida, y en Northland y Coromandel se puede acampar todo el año. Central Otago y la región de Mackenzie sufren las heladas más fuertes, y la West Coast se mantiene suave pero muy lluviosa."
+          "La parte alta de la Isla Norte es la más cálida, y en Northland y Coromandel se puede acampar todo el año. Central Otago y la región de Mackenzie sufren las heladas más fuertes, y la West Coast se mantiene suave pero muy lluviosa."
         ]
       ],
       "sources": [
@@ -1512,52 +1512,52 @@
       "priceTable": null
     },
     "doc-campsite-rules": {
-      "title": "Normas de los campings del DOC que todo campista debería conocer",
-      "description": "Reservas, horario de silencio, basura, mascotas y las condiciones de cada camping: lo que define una estancia en terrenos de conservación.",
+      "title": "Normas de campings del DOC 2026: silencio, perros, drones, estancia",
+      "description": "Silencio de las 10 de la noche a las 7 de la mañana, salida antes de las 10, sin mascotas ni drones sin permiso del DOC y lo que cuesta acampar sin reserva: condiciones del DOC y normas locales.",
       "region": "Campings del DOC",
       "imageAlt": "Panel informativo de un camping del Department of Conservation",
-      "intro": "Al reservar con el DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) aceptas sus condiciones generales, comunes a todo el país, y las normas locales de ese lugar. Aun así, la página de cada camping sigue siendo imprescindible, porque el acceso, el fuego, el agua, los perros y las condiciones para vehículos cambian mucho de un sitio a otro.",
+      "intro": "Reservar un camping del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) significa aceptar las condiciones de reserva del DOC y las normas locales de la página de ese camping. Las nacionales son pocas: no hacer ruido de las 10 de la noche a las 7 de la mañana, dejar el camping antes de las 10, llevarte toda la basura, no llevar mascotas ni drones salvo que el DOC los haya autorizado, y no fumar ni vapear en los refugios ni en los baños. El fuego, el agua, los perros, los generadores y el acceso de vehículos varían según el camping, así que mira la página del DOC de ese camping y los carteles del lugar.",
       "sections": [
         {
           "heading": "Reserva con honestidad",
           "body": [
             "Reserva la fecha, el número de personas y el tipo de reserva correctos, y guarda la confirmación en el móvil para verla sin conexión. Donde las parcelas no se asignan una a una, elige solo entre las que estén libres cuando llegues.",
-            "Según las condiciones del DOC, una reserva de varias noches que no usas puede cancelarse a partir de la primera noche en que no te presentes. No guardes sitio con una tienda vacía si nadie va a dormir en ella."
+            "Si no te presentas la primera noche de una reserva de varias noches y nadie contacta con la oficina del camping en 24 horas, el DOC cancela el resto sin reembolso. No guardes sitio con una tienda o un vehículo vacíos cuando nadie piensa quedarse."
           ],
           "tips": []
         },
         {
           "heading": "Respeta los horarios del camping",
           "body": [
-            "Las condiciones generales del DOC fijan el horario de silencio de las 10 de la noche a las 7 de la mañana, salvo que las normas locales digan otra cosa, y la salida suele ser antes de las 10 de la mañana. Ajusta generadores, música y movimientos del vehículo a los límites del camping.",
-            "Reservar un camping no te da derecho a usar las instalaciones de los refugios cercanos. Usa solo los baños, las zonas cubiertas y los puntos de agua que incluye tu reserva."
+            "Las condiciones estándar del DOC fijan el horario de silencio de las 10 de la noche a las 7 de la mañana, salvo que las normas locales digan otra cosa, la salida antes de las 10 de la mañana y la entrada entre las 2 y las 8.30 de la tarde. Respeta los límites del camping en generadores, música y movimiento de vehículos.",
+            "Reservar un camping no garantiza el uso de las instalaciones de un refugio cercano, así que organízate con los baños, las zonas cubiertas y los puntos de agua que van con el camping."
           ],
           "tips": []
         },
         {
           "heading": "Deja la parcela lista",
           "body": [
-            "Llévate toda la basura, guarda bien la comida y no vacíes nunca aguas grises en el suelo. En los refugios y en los baños no se puede fumar ni vapear.",
+            "Llévate toda la basura, guarda bien la comida y vacía las aguas grises solo donde indique el camping. En los refugios y en los baños no se permite fumar ni vapear.",
             "Las mascotas y los drones necesitan permiso expreso. Consulta la página del camping concreto y no des por hecho que están permitidos solo porque el lugar sea tranquilo."
           ],
           "tips": []
         },
         {
-          "heading": "Con reserva, por orden de llegada o con pase",
+          "heading": "Reglas de reserva y penalización por no reservar",
           "body": [
-            "La página de cada camping indica qué sistema se aplica, y confundirlos es la causa de la mayoría de los problemas al llegar. El Campsite Pass (el pase de campings del DOC) es una forma de pago, no una reserva: no te guarda sitio en un camping que exige reservar ni te sirve de nada en uno por orden de llegada que ya está lleno.",
-            "Donde haya que reservar, hazlo para el grupo y el vehículo que de verdad vas a llevar. Guarda la confirmación para verla sin conexión, porque en los campings del DOC muchas veces no hay cobertura, y una reserva que no puedes enseñar es difícil de defender ante un guarda que está repartiendo sitio en un camping lleno."
+            "La página de cada camping indica si se reserva o si es de autorregistro, y de eso dependen las normas. En un camping con reserva necesitas una reserva válida para la noche que lo uses, incluso si tienes pase. Sin ella no tienes sitio garantizado y el DOC aplica su tarifa de penalización: cada persona paga su tarifa normal más una tarifa completa de adulto, salvo que se esté refugiando por condiciones adversas.",
+            "En un camping de autorregistro, rellena el formulario y paga al llegar. En ambos casos, la reserva o el registro es para las personas y el vehículo que realmente llevas, y hay que poder mostrar la confirmación si te la piden, así que guárdala donde puedas enseñarla <a data-guide=\"kiwicamping-offline-data-guide\">sin cobertura</a>."
           ],
           "tips": [
             "Un pase no es una reserva",
-            "Lleva las confirmaciones descargadas",
-            "Reserva para el vehículo y el grupo reales"
+            "Sin reserva, cada persona paga su tarifa más una de adulto",
+            "Regístrate y paga al llegar en campings por orden de llegada"
           ]
         },
         {
           "heading": "El agua a menudo no está tratada",
           "body": [
-            "Muchos campings del DOC sacan el agua de arroyos o de depósitos que recogen la lluvia del tejado, y no la tratan. En las aguas de Nueva Zelanda hay giardia, y que un arroyo sea cristalino no te dice nada. Hiérvela al menos un minuto, fíltrala o trátala con productos químicos, y no des por hecho que el agua es segura solo porque haya un grifo.",
+            "Muchos campings del DOC toman el agua de arroyos o de depósitos del tejado y no está tratada. En Nueva Zelanda hay giardia en el agua y un arroyo cristalino no te dice nada. Hierve al menos tres minutos, filtra o usa productos químicos, y no des por hecho que un grifo es seguro solo porque existe.",
             "Lleva agua potable suficiente para no depender de nadie durante un día. Los depósitos se vacían, aparecen avisos de hervir el agua y un camping que figura con agua puede tener el suministro averiado sin previo aviso."
           ],
           "tips": []
@@ -1565,19 +1565,19 @@
         {
           "heading": "Generadores, drones y perros",
           "body": [
-            "En muchos campings el uso de generadores está restringido o prohibido y, donde se permite, suele limitarse a ciertas horas. En la mayoría de los casos, para volar un dron en terrenos públicos de conservación hace falta una concesión (un permiso oficial del DOC), y volarlo sobre un camping sin permiso es ilegal y, además, sienta muy mal.",
-            "Los perros están prohibidos en la mayor parte de los terrenos públicos de conservación por el riesgo que suponen para las aves que anidan en el suelo y para el kiwi. Algunos campings los admiten, pero la mayoría no, y en ciertas zonas hace falta un permiso. Consulta las normas del camping concreto en vez de darlo por hecho."
+            "Las normas sobre generadores se fijan camping por camping, así que mira la página del DOC del camping antes de usar uno. Para volar un dron en terrenos públicos de conservación hace falta, en la mayoría de los casos, una concesión (un permiso oficial), y aun con permiso del DOC el dron debe mantenerse lejos de los campings y de los refugios.",
+            "La norma por defecto del DOC es no admitir perros en terrenos de conservación salvo que el DOC haya aprobado su acceso, y los perros no están permitidos en los parques nacionales sin permiso, para proteger al kiwi y a otras aves que anidan en el suelo. En los datos del DOC en KiwiCamping, 207 de los 287 campings no admiten perros y 74, alrededor de una cuarta parte, los admiten de alguna forma, sobre todo con correa o con permiso del DOC. Consulta el camping concreto en vez de darlo por hecho."
           ],
           "tips": [
             "Los drones necesitan una concesión en terrenos del DOC",
             "Perros prohibidos en la mayoría de campings del DOC",
-            "Los generadores están restringidos o prohibidos"
+            "Normas de generadores según camping"
           ]
         },
         {
           "heading": "Estancia máxima y convivencia en el camping",
           "body": [
-            "La mayoría de los campings del DOC tienen una estancia máxima, normalmente de unas pocas noches seguidas, para evitar que alguien se instale a largo plazo. Los guardas la hacen cumplir en los campings populares durante el verano, y mover el vehículo unos metros no pone el contador a cero.",
+            "Algunos <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> fijan una estancia máxima en su página del DOC para evitar la ocupación prolongada, y un Campsite Pass cubre como máximo 7 noches en cualquier periodo de 30 días en un mismo camping, con las noches extra pagadas a la tarifa normal. Mover el vehículo unos metros no reinicia ninguno de los dos límites.",
             "Quédate dentro de la parcela marcada, no la amplíes con toldos ni equipo cuando falta espacio y respeta el horario de silencio. Estos campings son compartidos, a menudo están llenos y el disfrute de todos depende de que cada uno se quede en su espacio."
           ],
           "tips": []
@@ -1594,12 +1594,12 @@
         {
           "heading": "Si el camping está lleno",
           "body": [
-            "Los campings más populares del DOC se llenan a media tarde en verano y no hay zona extra. Improvisar una parcela de más en el césped, en el camino de acceso o junto a los baños no es una opción, y los guardas te pedirán que te vayas.",
-            "Busca una alternativa legal antes de llegar, no después. Un holiday park (camping privado con cabañas y servicios) a media hora es mucho mejor opción que conducir de noche por una carretera que no conoces buscando cualquier sitio donde te dejen quedarte."
+            "Los campings populares del DOC pueden estar llenos en las tardes de verano, así que no cuentes con una zona extra. Improvisar una parcela de más en el césped, en el camino de acceso o junto a los baños no es una opción, y el personal del DOC puede pedirte que te vayas.",
+            "Ten una alternativa legal antes de llegar, no después. Un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (camping privado con cabañas y servicios) a media hora es mucho mejor resultado que conducir tarde por una carretera que no conoces buscando cualquier sitio que te acepte."
           ],
           "tips": [
-            "Los campings populares se llenan a media tarde",
-            "No hay zona extra",
+            "Los campings populares se llenan en verano",
+            "No cuentes con una zona extra",
             "Ten pensada una alternativa antes de llegar"
           ]
         }
@@ -1607,11 +1607,11 @@
       "faq": [
         [
           "¿Qué normas hay en un camping del DOC?",
-          "Paga la tarifa por cada adulto, acampa solo en las parcelas señaladas, llévate toda la basura, usa los baños del camping y no hagas ruido cuando oscurezca. El fuego, los perros y los generadores están restringidos o prohibidos según el camping, y los carteles del lugar mandan sobre cualquier cosa que hayas leído antes."
+          "Respeta el silencio de las 10 de la noche a las 7 de la mañana, deja el camping antes de las 10, llévate toda la basura y no lleves mascotas ni drones salvo que el DOC los haya autorizado. Está prohibido fumar y vapear en los refugios y en los baños, y la página de cada camping añade normas sobre fuego, perros, generadores y vehículos."
         ],
         [
-          "¿Se puede pasar más de una noche en un camping del DOC?",
-          "Normalmente sí, aunque en los campings con mucha demanda hay una estancia máxima, indicada en la entrada. Donde hay muchas reservas en verano, ese límite se hace cumplir."
+          "¿Cuánto tiempo puedes quedarte en un camping del DOC?",
+          "Algunos campings fijan una estancia máxima en su página del DOC, y un Campsite Pass cubre como máximo 7 noches en cualquier periodo de 30 días en un mismo camping. Cada noche necesita reserva o registro, salvo en los campings básicos gratuitos, y usar un camping con reserva sin haber reservado cuesta a cada persona su tarifa normal más una tarifa completa de adulto."
         ]
       ],
       "sources": [
@@ -1631,7 +1631,7 @@
         {
           "heading": "Lleva la autorización correcta",
           "body": [
-            "Reserva refugios y fechas concretos donde haya reserva, o lleva los tickets o el pase adecuados para los que no la tienen. El justificante debe poder consultarse sin cobertura.",
+            "Reserva los refugios y las fechas concretos donde se aplique reserva, o lleva los tickets o el pase adecuados para los que no se reservan. El justificante debe poder consultarse <a data-guide=\"kiwicamping-offline-data-guide\">sin cobertura</a>.",
             "No cuentes con plazas sin reservar en un refugio popular. El uso de emergencia sigue siendo posible con mal tiempo, otra razón más para llevar un equipo compacto y ser considerado."
           ],
           "tips": []
@@ -1653,9 +1653,9 @@
           "tips": []
         },
         {
-          "heading": "No se rechaza a nadie",
+          "heading": "Refugios llenos y reservas",
           "body": [
-            "En los refugios sin reserva, las literas son para quien llega primero, y la costumbre de siempre es que un refugio lleno significa dormir en el suelo, no encontrarse la puerta cerrada. No sigas caminando a oscuras porque las literas estén ocupadas y, del mismo modo, no esperes que alguien te ceda la litera que consiguió antes que tú.",
+            "Las literas de los refugios sin reserva son para quien llega primero, y la costumbre de siempre es que un refugio lleno significa dormir en el suelo, no encontrarte la puerta cerrada. Los refugios reservables, incluidos los de las Great Walks durante su temporada, funcionan de otra manera: necesitas una reserva y, sin ella, te pueden rechazar. No sigas caminando a oscuras porque las literas estén ocupadas y, del mismo modo, no esperes que alguien te ceda la litera que consiguió antes que tú.",
             "Lleva esterilla para que dormir en el suelo sea viable de verdad y, donde se permita acampar y el tiempo acompañe, una tienda te da una alternativa real. En los senderos populares en verano, planifica dando por hecho que el refugio estará lleno."
           ],
           "tips": [
@@ -1667,7 +1667,7 @@
         {
           "heading": "Rellena el libro del refugio, siempre",
           "body": [
-            "El libro de registro es lo primero que lee el equipo de búsqueda y rescate cuando un grupo no ha vuelto a tiempo, y una anotación precisa ha acortado muchas búsquedas. Apunta la fecha, quiénes vais, de dónde venís y adónde vais después.",
+            "El libro de registro es uno de los primeros sitios que miran los equipos de búsqueda y rescate cuando un grupo no ha vuelto a tiempo, y una anotación precisa ha acortado muchas búsquedas. Apunta la fecha, tu grupo, de dónde vienes y adónde vas después.",
             "Firma también la salida donde el libro lo permita. Un grupo que consta como llegado y nunca como salido provoca una búsqueda que no hacía falta."
           ],
           "tips": []
@@ -1687,7 +1687,7 @@
         {
           "heading": "Déjalo mejor de como lo encontraste",
           "body": [
-            "Barre, cierra bien las contraventanas y los pestillos de las puertas contra el viento y los roedores, y llévate todo lo que trajiste, restos de comida incluidos. En un refugio de montaña no hay recogida de basura, así que lo que dejes se queda allí hasta que otro senderista se lo lleve.",
+            "Barre, cierra bien las contraventanas y los pestillos de las puertas contra el viento y los roedores, y llévate todo lo que trajiste, restos de comida incluidos. En un <a data-guide=\"doc-huts-new-zealand-guide\">refugio de montaña</a> no hay recogida de basura, así que lo que dejes se queda allí hasta que otro senderista se lo lleve.",
             "Al volver, comunica al DOC los daños, un suministro de agua averiado o cualquier peligro. El mantenimiento se prioriza según lo que se comunica, y un mensaje breve puede evitar que el siguiente grupo llegue a un edificio que no funciona."
           ],
           "tips": []
@@ -1695,9 +1695,9 @@
         {
           "heading": "Compartir refugio con desconocidos",
           "body": [
-            "Un refugio de montaña mete en una sola sala a una docena de personas que no se conocen de nada, tras un día duro. Casi todas las normas de convivencia salen de ahí: mantén tus cosas en tu espacio, no apuntes con el hornillo ni con una luz potente a la cara de nadie y asume que alguien va a roncar.",
+            "Un <a data-guide=\"doc-huts-new-zealand-guide\">refugio de montaña</a> mete en una sola sala a una docena de personas que no se conocen, tras un día duro. Casi todas las normas de convivencia salen de ahí: mantén tus cosas en tu espacio, no uses un hornillo ni apuntes con una luz potente a la cara de nadie y asume que alguien va a roncar.",
             "Ofrece sitio en el banco y en las literas sin esperar a que te lo pidan. Los grupos que llegan tarde suelen venir mojados y con frío, y la diferencia entre un refugio acogedor y uno desagradable depende por completo de quien llegó primero.",
-            "Linterna frontal en modo rojo al anochecer, y prepara la mochila en el porche si sales antes que los demás. Hacer crujir una bolsa estanca a las cinco de la mañana es, con diferencia, la conducta que más quejas provoca en los refugios de Nueva Zelanda."
+            "Linterna frontal en modo rojo después de anochecer, y prepara la mochila en el porche si sales antes que los demás. Hacer crujir una bolsa estanca a las 5 de la mañana es una de las quejas más comunes en los refugios de Nueva Zelanda."
           ],
           "tips": []
         },
@@ -1726,7 +1726,7 @@
       ],
       "sources": [
         {
-          "label": "Categorías de refugios del DOC"
+          "label": "DOC: reservar y pagar refugios"
         }
       ],
       "priceTable": null
@@ -1842,8 +1842,8 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Bioseguridad en Nueva Zelanda para el equipo de camping y senderismo",
-      "description": "Declara en la frontera los artículos de riesgo y limpia el equipo antes de llevarlo de un río, un lago o un bosque a otro.",
+      "title": "Bioseguridad en Nueva Zelanda: declara botas y equipo de camping",
+      "description": "Las botas usadas, las tiendas y el equipo de pesca hay que declararlos al llegar a Nueva Zelanda. Qué limpiar antes de volar y cómo evitar llevar plagas de un río a otro.",
       "region": "Frontera y naturaleza de Nueva Zelanda",
       "imageAlt": "Botas de montaña limpias, listas para el control de bioseguridad de Nueva Zelanda",
       "intro": "El equipo usado de montaña y acampada puede llevar semillas, tierra, insectos y plagas acuáticas. La bioseguridad empieza en la frontera y continúa cada vez que el equipo pasa de un ecosistema neozelandés a otro.",
@@ -1867,7 +1867,7 @@
         {
           "heading": "No improvises a la hora de deshacerte de nada",
           "body": [
-            "No tires nunca al medio natural cebo, agua de acuario, plantas comestibles ni agua de lavado sin tratar. Usa los contenedores de basura y los sistemas de aguas residuales pensados para cada tipo de residuo.",
+            "No sueltes nunca en el medio natural cebo, agua de acuario, plantas comestibles ni agua de lavado sin tratar. Usa sistemas de basura y de <a data-guide=\"camping-wastewater-rubbish-new-zealand\">aguas residuales</a> pensados para cada material.",
             "Sigue los avisos regionales de control de plagas y los rāhui temporales (vedas que establece la comunidad maorí local). Las restricciones locales pueden proteger una especie o un lugar más allá del mínimo nacional."
           ],
           "tips": []
@@ -1907,7 +1907,7 @@
         {
           "heading": "Moverse entre islas y regiones",
           "body": [
-            "También hay controles internos. Ulva Island, Rakiura y otros santuarios libres de depredadores te piden revisar las bolsas en busca de roedores y semillas antes de embarcar, y los puestos de control de los muelles no son un trámite. Una sola rata que llegue a una isla echa por tierra décadas de trabajo.",
+            "También hay controles internos. Ulva Island, la Isla Stewart (<a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>) y otros santuarios libres de depredadores exigen revisar las bolsas en busca de roedores y semillas antes de embarcar, y los puestos de control de los muelles no son un mero trámite. Una sola rata que llegue a una isla echa por tierra décadas de trabajo.",
             "La mosca de la fruta y otros controles regionales limitan de vez en cuando el traslado de productos frescos dentro del país. Cuando hay una zona de control en vigor, está señalizada y anunciada, y las normas valen tanto para la nevera de una camper como para un camión."
           ],
           "tips": []
@@ -1952,8 +1952,8 @@
       "priceTable": null
     },
     "sandflies-new-zealand-camping": {
-      "title": "Sandflies en Nueva Zelanda: cómo acampar con menos picaduras",
-      "description": "Sandflies en la West Coast, Fiordland y los campings húmedos del bosque: necesitas mosquiteras, repelente y una rutina bien pensada para cuando llegas.",
+      "title": "Picaduras de sandflies en Nueva Zelanda: cómo acampar con menos",
+      "description": "Repelente, ropa, elección de parcela y una rutina de llegada con la puerta cerrada para la West Coast, Fiordland y los campings húmedos del bosque donde más pican las sandflies.",
       "region": "West Coast y Fiordland",
       "imageAlt": "Camping en Fiordland cerca de una zona de sandflies",
       "intro": "Las sandflies, unas mosquitas que pican, atacan con más fuerza junto a orillas húmedas y resguardadas, sobre todo en la West Coast y en Fiordland. Son una molestia, no un motivo para evitar la región, y unos pocos hábitos en el camping marcan una gran diferencia.",
@@ -1978,7 +1978,7 @@
           "heading": "Trata las picaduras y vigila las reacciones",
           "body": [
             "Lava las picaduras, no te rasques y usa un remedio corriente contra el picor cuando convenga. Busca atención médica si hay signos de infección o una reacción alérgica grave.",
-            "La cantidad de sandflies varía con el viento, la temperatura y la lluvia. Un holiday park (camping privado con cabañas y servicios) cercano y más expuesto al viento puede ser una alternativa sensata a un camping precioso junto al río pero sin nada de brisa."
+            "La presión de sandflies cambia con el viento, la temperatura y la lluvia. Un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> cercano y más expuesto puede ser una alternativa sensata a un camping precioso, pero sin brisa y junto al río."
           ],
           "tips": []
         },
@@ -2096,7 +2096,7 @@
           "heading": "Elegir un camping costero teniendo esto en cuenta",
           "body": [
             "Al llegar a un camping en la costa, dedica un minuto a localizar el camino a terreno elevado. Muchas zonas costeras de Nueva Zelanda tienen rutas de evacuación por tsunami señalizadas y líneas azules que marcan el límite de la zona segura, y saber dónde está la tuya no cuesta nada.",
-            "Esto importa sobre todo en la East Coast, Kaikōura, la costa sur de Wellington y la Bay of Plenty, todas con un riesgo importante de origen local. Se aplica tanto a un holiday park en primera línea de playa como a un sitio remoto del DOC."
+            "Esto importa sobre todo en la East Coast, Kaikōura, la costa sur de Wellington y la Bay of Plenty, todas con un riesgo considerable de origen local. Se aplica tanto a un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> en primera línea de playa como a un sitio remoto del DOC."
           ],
           "tips": []
         },
@@ -2163,9 +2163,9 @@
       "priceTable": null
     },
     "volcanic-safety-new-zealand-travel": {
-      "title": "Seguridad volcánica en Tongariro, Ruapehu y Rotorua",
-      "description": "Niveles de alerta volcánica, cierres de senderos y barreras en zonas geotérmicas: existen porque el peligro puede cambiar sin ninguna señal visible.",
-      "region": "Centro de la North Island",
+      "title": "Seguridad volcánica en Nueva Zelanda: alertas GeoNet y cierres",
+      "description": "Qué significan las alertas volcánicas de GeoNet para viajes a Tongariro, Ruapehu y Rotorua, cómo cierra senderos el DOC y cómo estar seguro cerca de zonas geotérmicas.",
+      "region": "Centro de la Isla Norte",
       "imageAlt": "Paisaje volcánico en el Tongariro National Park",
       "intro": "Las zonas volcánicas son sistemas activos, no un simple decorado. Los niveles de alerta de GeoNet (el servicio oficial de vigilancia de volcanes y terremotos), los cierres del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) y las indicaciones de los operadores locales cubren partes distintas de la seguridad, y conviene consultarlos todos.",
       "sections": [
@@ -2228,7 +2228,7 @@
         {
           "heading": "La lluvia de ceniza y sus efectos",
           "body": [
-            "La ceniza volcánica es vidrio abrasivo, no hollín blando. Daña motores y filtros de aire, atasca el lavaparabrisas, hace que las carreteras resbalen y, además, irrita de verdad las vías respiratorias. Incluso una lluvia de ceniza ligera puede cerrar carreteras y aeropuertos casi sin aviso.",
+            "La ceniza volcánica es vidrio abrasivo, no hollín blando. Daña los motores y los <a data-guide=\"kiwicamping-filters-guide\">filtros</a> de aire, atasca los lavaparabrisas, hace resbalar las carreteras y, además, irrita de verdad las vías respiratorias. Incluso una caída ligera de ceniza puede cerrar carreteras y aeropuertos con poco aviso.",
             "Si cae ceniza, quédate a cubierto o dentro del vehículo con la ventilación cerrada; si tienes que salir, ponte una mascarilla de verdad, no una de tela, y no conduzcas salvo que sea necesario. Moja la ceniza antes de retirarla para que no vuelva a levantarse."
           ],
           "tips": []
@@ -2276,8 +2276,8 @@
       "priceTable": null
     },
     "river-crossing-safety-new-zealand": {
-      "title": "Seguridad al cruzar ríos en senderos y campings de Nueva Zelanda",
-      "description": "La lluvia río arriba puede convertir un vado conocido en una barrera, y dar media vuelta suele ser la única técnica segura.",
+      "title": "Seguridad al cruzar ríos en Nueva Zelanda: cuándo cruzar y cuándo no",
+      "description": "Los ríos de Nueva Zelanda crecen rápido después de llover. Cómo valorar un cruce, cuándo esperar y por qué dar media vuelta suele ser la respuesta correcta.",
       "region": "Ríos de Nueva Zelanda",
       "imageAlt": "Río caudaloso de Nueva Zelanda que cruza una ruta de montaña",
       "intro": "Los ríos provocan incidentes graves en la montaña porque la profundidad, la velocidad y la estabilidad del lecho son difíciles de juzgar desde la orilla. Un punto de retorno planificado vale más que una técnica de vadeo memorizada.",
@@ -2468,7 +2468,7 @@
         {
           "heading": "Dónde dormir en invierno",
           "body": [
-            "Muchos campings del DOC cierran o cortan el agua en invierno, y los holiday parks de los pueblos pequeños reducen horarios. Las parcelas con electricidad valen bastante más cuando necesitas calefacción por la noche, y se agotan cerca de las estaciones de esquí.",
+            "Muchos <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> cierran o cortan el agua en invierno, y los holiday parks de los pueblos pequeños reducen horarios. Las parcelas con electricidad valen bastante más cuando necesitas calefacción por la noche, y se agotan cerca de las estaciones de esquí.",
             "Cuando la previsión sea mala, instálate en un pueblo en lugar de en sitios remotos. Poder ir andando a por comida y a un sitio caliente convierte un día de mal tiempo de una odisea en un día normal."
           ],
           "tips": [
@@ -2496,8 +2496,8 @@
       "priceTable": null
     },
     "new-zealand-road-signs-visitors": {
-      "title": "Señales de tráfico de Nueva Zelanda que todo visitante debería entender",
-      "description": "Señales de tráfico en Nueva Zelanda: las de reglamentación, las de advertencia y las provisionales se interpretan junto con las marcas viales y el estado de la carretera.",
+      "title": "Señales de tráfico de Nueva Zelanda y su significado para visitantes",
+      "description": "Las señales de ceda el paso, puente de un solo carril, velocidad recomendada y advertencia en Nueva Zelanda, y las situaciones que sorprenden a los visitantes en carreteras rurales.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Señal de advertencia de puente de un solo carril en Nueva Zelanda",
       "intro": "Las señales de Nueva Zelanda siguen ideas internacionales que te sonarán, pero algunas situaciones de sus carreteras sorprenden a los visitantes. Tienes que reconocer la prioridad en los puentes de un solo carril, las velocidades recomendadas en las curvas y la regulación provisional del tráfico antes de que la carretera se estreche.",
@@ -2541,7 +2541,7 @@
         {
           "heading": "Señalización de los puentes de un solo carril",
           "body": [
-            "Los puentes de un solo carril son habituales, sobre todo en la West Coast y en Northland. La señal muestra dos flechas: la flecha negra más grande indica el sentido con prioridad. Si la tuya es la roja más pequeña, cedes el paso al tráfico que viene de frente.",
+            "Los <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">puentes de un solo carril</a> son habituales, sobre todo en la West Coast y en Northland. La señal muestra dos flechas: la flecha negra más grande indica el sentido con prioridad. Si la tuya es la roja más pequeña, cedes el paso al tráfico que viene de frente.",
             "Algunos puentes se comparten con la vía del tren, y unos pocos son tan largos que tienen apartaderos. Reduce la velocidad al acercarte, mira el puente hasta el otro extremo antes de entrar y, si hace falta, espera en vez de acelerar para entrar tú primero."
           ],
           "tips": []
@@ -2562,7 +2562,7 @@
           "heading": "Carriles de adelantamiento y apartaderos para vehículos lentos",
           "body": [
             "En las carreteras de Nueva Zelanda los carriles de adelantamiento escasean, y si vas más lento que el tráfico de detrás, lo educado, y lo que se espera de ti, es meterte en el apartadero para vehículos lentos o hacerte a un lado donde sea seguro y dejar pasar. No es solo cuestión de cortesía: los conductores que se impacientan detrás provocan accidentes al adelantar.",
-            "No aceleres en un carril de adelantamiento cuando alguien te está adelantando. Si llevas cinco vehículos o más en cola detrás de ti, la ley te obliga a apartarte en cuanto sea seguro hacerlo."
+            "No aceleres en un carril de adelantamiento cuando alguien te esté adelantando. Si tu velocidad retiene al tráfico, las normas de circulación te obligan a apartarte a la izquierda y dejar pasar en cuanto sea seguro hacerlo."
           ],
           "tips": []
         },
@@ -2606,8 +2606,8 @@
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Conducir una camper en Nueva Zelanda: normas y seguridad",
-      "description": "Dimensiones, pasajeros, peso y restricciones del alquiler: tenlos claros antes de que una carretera estrecha te recuerde lo grande que es tu camper.",
+      "title": "Conducir una camper en Nueva Zelanda: permiso, velocidad y tamaño (2026)",
+      "description": "Conducir una camper en Nueva Zelanda: qué cubre un permiso de coche, límites de velocidad, viento en carreteras expuestas, medidas del ferri y los errores de los visitantes.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Camper grande en una carretera estrecha de Nueva Zelanda",
       "intro": "Una camper puede conducirse legalmente con el permiso de conducir de coche (Class 1) y, aun así, al volante se siente completamente distinta. En la entrega del vehículo tienen que quedar claros la altura, la anchura, la longitud, el peso cargado y todas las carreteras que excluye el contrato de alquiler.",
@@ -2640,7 +2640,7 @@
           "heading": "Conoce tus dimensiones antes de arrancar",
           "body": [
             "Apunta la altura, la longitud y el peso del vehículo y déjalo a la vista del conductor. La altura es la que provoca daños caros: en entradas de aparcamientos, drive-throughs, marquesinas de gasolineras y algunos pasos inferiores urbanos.",
-            "Antes de salir de la oficina de alquiler, revisa los retrovisores, los ángulos muertos y la cámara de marcha atrás, y da una vuelta alrededor del vehículo. La mayoría de los daños en campers de alquiler se producen en los dos primeros días, a baja velocidad y en aparcamientos."
+            "Revisa los retrovisores, los ángulos muertos y la cámara de marcha atrás antes de salir de la oficina de alquiler, y da una vuelta al vehículo. Gran parte de los daños en campers de alquiler se producen a baja velocidad, en aparcamientos."
           ],
           "tips": [
             "Apunta la altura junto al volante",
@@ -2660,11 +2660,11 @@
           "heading": "El viento, y por qué aquí importa más",
           "body": [
             "Un vehículo alto sufre mucho con el viento lateral, y Nueva Zelanda es un país ventoso, con carreteras costeras, puentes y pasos de montaña expuestos. Adelantar a un camión o salir de un tramo encajonado entre taludes provoca empujones laterales repentinos.",
-            "Sujeta bien el volante con las dos manos en los tramos expuestos, reduce antes de la ráfaga y no durante ella, y ten en cuenta que algunas rutas se cierran a vehículos altos con viento fuerte, como la Rimutaka Hill Road y partes de la Desert Road."
+            "Sujeta el volante con firmeza con las dos manos en los tramos expuestos, reduce antes de una ráfaga y no durante ella, y consulta el planificador de viajes de la NZTA antes de un cruce expuesto: la Remutaka Hill Road (SH2) se cierra con viento fuerte, y otras carreteras expuestas llevan avisos de viento."
           ],
           "tips": [
             "Reduce antes del tramo expuesto",
-            "Algunas carreteras se cierran a vehículos altos",
+            "Algunas carreteras cierran con viento fuerte",
             "Camiones y taludes provocan ráfagas bruscas"
           ]
         },
@@ -2672,7 +2672,7 @@
           "heading": "Adelantar y que te adelanten",
           "body": [
             "Una camper acelera despacio, así que adelantar exige mucha más carretera despejada que con un coche y pocas veces merece la pena. La mayoría de las carreteras de Nueva Zelanda son de dos carriles, con pocos carriles de adelantamiento y un mal historial de accidentes al adelantar.",
-            "Cuando se forme cola detrás de ti, apártate donde sea seguro y deja pasar. Si llevas cinco vehículos o más detrás, estás obligado a hacerlo en cuanto sea seguro, y además así quitas la presión que hace que la gente adelante mal."
+            "Cuando se forme cola detrás de ti, apártate donde sea seguro y deja pasar. Si estás reteniendo al tráfico, las normas de circulación te obligan a apartarte a la izquierda y dejar pasar en cuanto sea seguro, y además así quitas la presión que hace que la gente adelante mal."
           ],
           "tips": []
         },
@@ -2681,20 +2681,20 @@
           "body": [
             "Aparcar una camper no es lo mismo que acampar en ella. Puedes tener el vehículo aparcado legalmente en un sitio y aun así tener prohibido pasar la noche dentro, y la mayoría de las multas dependen precisamente de esa diferencia.",
             "Los límites de altura de los aparcamientos urbanos sorprenden a las campers una y otra vez, y la barrera suele ser el primer aviso. Fíjate en las señales de altura máxima antes de entrar y usa los aparcamientos al aire libre o las zonas extra para vehículos grandes que tienen la mayoría de los pueblos.",
-            "En las ciudades, lo práctico es dejar el vehículo en un camping o en un park-and-ride (un aparcamiento junto a una estación de tren o de autobús) y entrar en transporte público. Es más rápido, más barato y te quitas el problema de encima en vez de tener que gestionarlo."
+            "En las ciudades, lo práctico es dejar el vehículo en un camping o en un park-and-ride (un aparcamiento junto a una estación de tren o de autobús) y entrar en <a data-guide=\"public-transport-costs-new-zealand-2026\">transporte público</a>. Es más rápido, más barato y evita el problema entero en vez de gestionarlo."
           ],
           "tips": []
         },
         {
           "heading": "Ferris, túneles y límites de altura",
           "body": [
-            "Las tarifas del ferri del estrecho de Cook dependen de la longitud y la altura del vehículo, y se comprueban las dos. Algunos túneles urbanos y puentes antiguos tienen limitaciones de altura o de peso, y unas pocas rutas se cierran a vehículos altos con viento fuerte.",
+            "Las tarifas del ferri del <a data-guide=\"cook-strait-ferry-campervan-guide\">estrecho de Cook</a> se fijan según la longitud del vehículo, incluidos los portabicicletas y las barras de remolque, y la longitud se comprueba en el check-in. Algunos túneles urbanos y puentes antiguos tienen limitaciones de altura o de peso, y unas pocas rutas expuestas se cierran con viento fuerte.",
             "Conoce tus dimensiones con exactitud y compáralas con cualquier ruta que tenga un túnel, un puente bajo o una reserva de ferri. Calcular a ojo es lo que acaba en un ajuste caro en la terminal, o en algo peor en la carretera."
           ],
           "tips": [
             "Las tarifas del ferri dependen del tamaño",
             "Conoce la altura y la longitud exactas",
-            "Algunas rutas se cierran a furgonetas altas"
+            "Las rutas expuestas pueden cerrar con viento fuerte"
           ]
         }
       ],
@@ -2716,8 +2716,8 @@
       "priceTable": null
     },
     "wof-registration-campervan-new-zealand": {
-      "title": "Warrant of Fitness (WoF), registro y campers de alquiler",
-      "description": "WoF y registro de la camper en Nueva Zelanda: llevar la etiqueta en vigor es solo una de las pruebas de que un vehículo puede circular legalmente.",
+      "title": "WoF y registro de la camper en Nueva Zelanda: qué comprobar",
+      "description": "Cómo funcionan el Warrant of Fitness (WoF) y el registro del vehículo para una camper en Nueva Zelanda, cómo comprobar las fechas de caducidad y qué significa un WoF caducado.",
       "region": "Vehículos en Nueva Zelanda",
       "imageAlt": "Etiquetas de inspección y de registro de un vehículo en Nueva Zelanda",
       "intro": "Las campers ligeras suelen necesitar el WoF (Warrant of Fitness, la inspección técnica periódica) y el registro del vehículo (rego) en vigor, mientras que las más pesadas o las que prestan servicio de transporte de pasajeros pueden regirse por otros sistemas de inspección. Comprueba qué le corresponde al vehículo concreto y no des por hecho que la categoría del alquiler lo resuelve.",
@@ -2769,7 +2769,7 @@
         {
           "heading": "El certificado self-contained va aparte",
           "body": [
-            "La certificación self-contained (autónomo: váter fijo, depósitos de agua limpia y de aguas grises) no forma parte del WoF y no demuestra que el vehículo esté en condiciones de circular. Y al revés: un WoF en vigor no dice nada sobre si el vehículo se puede usar para la acampada libre (freedom camping). Son requisitos independientes y puede que necesites los dos.",
+            "La certificación self-contained (autónomo: váter fijo, depósitos de agua limpia y de aguas grises) no forma parte del WoF y no demuestra nada sobre el estado del vehículo. Del mismo modo, un WoF en vigor no dice nada sobre si el vehículo puede usarse para la <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> (freedom camping). Son requisitos independientes y puede que necesites los dos.",
             "Comprueba en el registro público que el certificado self-contained corresponde a la matrícula del vehículo, en vez de fiarte de la etiqueta, y confirma que el número de ocupantes certificado coincide con el de tu grupo."
           ],
           "tips": [
@@ -2782,7 +2782,7 @@
           "heading": "Lo que vale la pena revisar por tu cuenta",
           "body": [
             "Antes de una etapa larga, revisa la presión y el dibujo de los neumáticos (incluido el de repuesto), los niveles de aceite y refrigerante, las luces y el lavaparabrisas. Las campers de alquiler se entregan a menudo con las ruedas bajas de presión, y eso te cuesta combustible y estabilidad a la vez.",
-            "Comprueba que la rueda de repuesto, el gato y la llave de ruedas están de verdad en el vehículo y que sabes dónde van los puntos de apoyo del gato. Una pista de grava en la West Coast es un sitio bastante peor para descubrir que faltan."
+            "Comprueba que la rueda de repuesto, el gato y la llave de ruedas están de verdad en el vehículo y que sabes dónde están los puntos de apoyo del gato. Descubrir que faltan en una <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">pista de grava</a> de la West Coast es un momento bastante peor para enterarte."
           ],
           "tips": []
         },
@@ -2790,7 +2790,7 @@
           "heading": "Si algo falla en la carretera",
           "body": [
             "El contrato de alquiler dice a quién llamar y qué puedes gestionar por tu cuenta. Si haces reparaciones sin autorización, a menudo pierdes el derecho al reembolso, así que llama primero aunque el arreglo parezca obvio y la espera te desespere.",
-            "Si sufres una avería en una zona remota, quédate con el vehículo. Te da refugio, los equipos de rescate lo ven mucho más fácilmente que a una persona caminando, y en muchas carreteras de la South Island salir andando es bastante peor que esperar.",
+            "Si sufres una avería en una zona remota, quédate con el vehículo. Te da refugio, los equipos de rescate lo ven mucho más fácilmente que a una persona caminando, y en muchas carreteras de la Isla Sur salir andando es bastante peor que esperar.",
             "Lleva el número de asistencia en carretera apuntado en papel, no solo en el teléfono, y ten claro cómo describir dónde estás. Con el nombre de la carretera y el punto de referencia reconocible más cercano, la grúa suele poder encontrarte."
           ],
           "tips": []
@@ -2826,8 +2826,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Remolcar una caravana en Nueva Zelanda",
-      "description": "Si remolcas una caravana en Nueva Zelanda, el máximo de 90 km/h, el peso con carga y los cuatro segundos de distancia son el punto de partida, no la meta.",
+      "title": "Remolcar una caravana en Nueva Zelanda: permiso, peso y 90 km/h",
+      "description": "Máximo de 90 km/h con barra de remolque, 50 km/h con cuerda, 6.000 kg de peso combinado con un permiso de coche completo, y además carga, balanceo y las carreteras que conviene tomar despacio.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Coche remolcando una caravana por una carretera de Nueva Zelanda",
       "intro": "Para que una caravana vaya estable hacen falta un conjunto (coche y caravana) que cumpla la ley, una carga bien colocada y alguien al volante que reduzca antes de que la carretera se lo pida. Con las curvas y el viento de Nueva Zelanda, en muchos tramos la velocidad máxima permitida es lo de menos.",
@@ -2843,7 +2843,7 @@
         {
           "heading": "Velocidad y distancia",
           "body": [
-            "Si llevas remolque con enganche rígido, la velocidad máxima en carretera es de 90 km/h. Ve más despacio siempre que lo pidan la estabilidad, la visibilidad, la meteorología o el estado de la carretera.",
+            "La velocidad máxima fuera de las zonas urbanas al remolcar es de 90 km/h con un enganche rígido, como una barra de remolque. Con una cuerda u otro enganche no rígido, el límite es de 50 km/h en cualquier carretera. Ve más despacio siempre que lo exijan la estabilidad, la visibilidad, el tiempo o la carretera.",
             "Deja al menos cuatro segundos de distancia, y más con mal tiempo. Frena antes de las curvas y usa una marcha más corta en las bajadas."
           ],
           "tips": []
@@ -2851,7 +2851,7 @@
         {
           "heading": "Comparte las carreteras estrechas",
           "body": [
-            "Usa las zonas seguras para apartarte y dejar pasar al tráfico de detrás, y entra en los puentes de un solo carril solo cuando el conjunto entero pueda cruzar.",
+            "Usa las zonas seguras para apartarte y dejar pasar al tráfico que viene detrás, y entra en los <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">puentes de un solo carril</a> solo cuando el conjunto entero pueda cruzar.",
             "Con viento fuerte, si el remolque se balancea o si se te calientan los frenos, para. Y no intentes recuperar a base de velocidad el tiempo perdido en la ruta."
           ],
           "tips": []
@@ -2859,8 +2859,8 @@
         {
           "heading": "Con remolque, los límites de velocidad son más bajos",
           "body": [
-            "Con un remolque ligero o una caravana, el máximo fuera de las zonas urbanas es de 90 km/h, por debajo del límite general de 100 km/h, y los conjuntos con remolque pesado tampoco pueden pasar de 90 km/h. Ese límite se aplica aunque la señal marque más, y se controla.",
-            "Deja mucha más distancia con el vehículo de delante que si fueras solo con el coche. Con remolque, la distancia de frenado aumenta mucho, y en Nueva Zelanda los accidentes con remolque más habituales son los de quedarse sin espacio para frenar en una bajada."
+            "Los remolques ligeros y las caravanas están limitados a 90 km/h fuera de las zonas urbanas, por debajo del límite general de 100 km/h, y los conjuntos con remolque pesado también tienen un tope de 90 km/h. Es un máximo, no un objetivo: donde haya un límite inferior señalizado, se aplica el inferior.",
+            "Deja una distancia de seguridad mucho mayor que en un coche. La distancia de frenado aumenta bastante con un remolque, sobre todo en bajadas largas."
           ],
           "tips": [
             "Máximo de 90 km/h con remolque",
@@ -2891,7 +2891,7 @@
         {
           "heading": "Carreteras para pensárselo dos veces",
           "body": [
-            "Tākaka Hill, la Crown Range, la Rimutaka Hill Road, la 309 Road y buena parte de la costa de Coromandel son exigentes con caravana, y algunas están prohibidas o muy desaconsejadas para conjuntos grandes. Infórmate antes de meterte, porque a menudo no hay forma de dar la vuelta.",
+            "Tākaka Hill, la Crown Range, la Remutaka Hill Road, la 309 Road sin asfaltar y buena parte de la costa de Coromandel son empinadas, cerradas y lentas con una caravana, y la Remutaka Hill (SH2) se cierra con viento fuerte. Consulta el estado de las carreteras y las restricciones antes de meterte, porque a menudo no se puede dar la vuelta.",
             "En las bajadas, mete una marcha más corta y frena con el motor en lugar de ir con el pie en el freno todo el rato, porque los frenos acaban perdiendo eficacia. Apártate cada cierto tiempo para dejar pasar a los que vienen detrás, por cortesía y porque una cola detrás de ti acaba provocando adelantamientos arriesgados."
           ],
           "tips": []
@@ -2900,7 +2900,7 @@
           "heading": "Marcha atrás, aparcamiento y campings",
           "body": [
             "Practica la marcha atrás en un aparcamiento vacío antes del viaje. En los campings, muchas parcelas obligan a entrar marcha atrás en un hueco delimitado con vecinos muy cerca a los dos lados, y hacerlo por primera vez con gente mirando es como acaban muchas caravanas con golpes.",
-            "Reserva parcelas que se ajusten a la longitud de tu conjunto y avisa al reservar de que vas con remolque. Muchos holiday parks (campings privados con cabañas y servicios) tienen parcelas en las que se entra y se sale sin maniobrar (drive-through), y conseguir una te ahorra casi todas las complicaciones de la llegada.",
+            "Reserva parcelas que se ajusten a la longitud de tu conjunto y avisa de que vas con remolque al reservar. Muchos <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (campings privados con cabañas y servicios) tienen parcelas específicas en las que se entra y se sale sin maniobrar (drive-through), y conseguir una quita casi toda la dificultad de la llegada.",
             "Desenganchar te deja un vehículo normal para las excursiones de un día y merece la pena siempre que te quedes más de una noche. Usa calzos y rampas de nivelación, y comprueba que el freno de mano aguanta antes de desconectar nada."
           ],
           "tips": []
@@ -2908,7 +2908,7 @@
         {
           "heading": "Viento y carreteras expuestas",
           "body": [
-            "Una caravana es una gran superficie plana, y el viento lateral es la causa principal de que se pierda el control al remolcar. Los tramos expuestos de los alrededores de Wellington, la Desert Road, el Mackenzie y la costa de Canterbury son conocidos precisamente por eso.",
+            "Una caravana es una gran superficie plana, y el viento lateral es una de las principales causas de balanceo y de pérdida de control al remolcar. Los tramos expuestos de los alrededores de Wellington, la Desert Road, el Mackenzie y la costa de Canterbury son conocidos por ello.",
             "Reduce la velocidad antes de entrar en un tramo expuesto, no cuando ya estás en él, y ten especial cuidado al salir de un tramo entre taludes o al adelantar a un camión, porque ahí el empuje del viento aparece y desaparece de golpe."
           ],
           "tips": [
@@ -2921,23 +2921,23 @@
       "faq": [
         [
           "¿Cuál es el límite de velocidad con remolque en Nueva Zelanda?",
-          "90 km/h, por debajo del límite de 100 km/h en carretera, y se aplica diga lo que diga la señal. Además, lo que remolques no puede superar la capacidad de remolque homologada de tu vehículo, que es un límite legal y no una simple recomendación."
+          "90 km/h fuera de las zonas urbanas con una barra de remolque u otro enganche rígido, por debajo del límite general de 100 km/h, y cualquier límite inferior señalizado se sigue aplicando. Remolcar con una cuerda o con cualquier otro enganche no rígido reduce el límite a 50 km/h en todas partes."
         ],
         [
           "¿Hace falta un permiso especial para remolcar una caravana en Nueva Zelanda?",
-          "Con un permiso de conducir de coche completo (full licence) puedes llevar la mayoría de los conjuntos de hasta 4.500 kg de peso combinado. Por encima necesitas una clase superior, y los contratos de alquiler suelen fijar sus propios límites, más bajos que los legales."
+          "Normalmente no. Un permiso de coche completo te permite remolcar cuando el vehículo, el remolque y la carga juntos no pesan más de 6.000 kg; con un permiso de aprendiz o restringido el límite es de 4.500 kg. Los contratos de alquiler pueden fijar sus propios límites, más bajos."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: autocaravanas, caravanas y remolques ligeros"
+          "label": "NZTA Road Code: carga y remolque seguros en vehículos ligeros"
         }
       ],
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Límites de velocidad en Nueva Zelanda y a qué ritmo conducir",
-      "description": "Límites de velocidad en Nueva Zelanda: la señal marca el máximo con buenas condiciones, y muchas carreteras rurales piden ir bastante más despacio.",
+      "title": "Límites de velocidad en Nueva Zelanda 2026: 100 km/h, 90 con remolque",
+      "description": "Límites de velocidad en Nueva Zelanda para visitantes y campers: 100 km/h fuera de las zonas urbanas, 50 km/h en poblaciones, 90 km/h con remolque, y cuándo conducir muy por debajo.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Señal de límite de velocidad en una carretera rural de Nueva Zelanda",
       "intro": "Un límite legal no garantiza que esa carretera se pueda recorrer a esa velocidad. Las curvas, la lluvia, la grava, el ganado, los ciclistas y una camper a la que todavía no estás acostumbrado reducen el ritmo al que es seguro ir.",
@@ -2981,15 +2981,15 @@
         {
           "heading": "Se vigila más de lo que muchos visitantes esperan",
           "body": [
-            "El margen de tolerancia es pequeño, hay muchos radares, también móviles, y las multas van al titular registrado del vehículo, así que la empresa de alquiler te las pasará con un cargo de gestión. Los puntos no afectan a los permisos de conducir extranjeros, pero las multas sí, sin ninguna duda.",
-            "En los últimos años se han extendido tanto los controles de velocidad media por tramo como los límites más bajos en carreteras rurales. En vez de ir buscando radares, da por hecho que cualquier carretera puede estar vigilada."
+            "El margen de tolerancia es pequeño, hay radares por todas partes, incluidas unidades móviles, y las multas se envían al titular registrado, lo que significa que la empresa de alquiler te las pasará con un cargo administrativo. Las infracciones por las que te detiene la policía conllevan puntos de penalización incluso con un <a data-guide=\"overseas-driver-licence-new-zealand\">permiso extranjero</a>, y las multas también se aplican.",
+            "Los radares de velocidad media por tramo se han ampliado desde finales de 2025, así que da por hecho que cualquier carretera puede estar vigilada, en vez de ir buscando radares."
           ],
           "tips": []
         },
         {
           "heading": "Por qué las propias carreteras piden menos velocidad",
           "body": [
-            "Las carreteras de Nueva Zelanda son casi todas de dos carriles, sin separación entre sentidos, con curvas cerradas, peralte irregular, puentes de un solo carril, ganado sin vallar y muchos caminos laterales de tierra que echan grava sobre el asfalto. Apenas hay espacio a los lados para corregir un error.",
+            "Las carreteras de Nueva Zelanda son en su mayoría de dos carriles, sin separación entre sentidos, con curvas cerradas, peralte variable, <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">puentes de un solo carril</a>, ganado sin vallar y frecuentes caminos laterales sin asfaltar que echan grava sobre el firme. Hay muy poco arcén que perdone un error.",
             "Por esa combinación, los accidentes en los que hay turistas al volante se concentran en las carreteras rurales. La velocidad segura suele estar muy por debajo del límite, y en todo el día pierdes unos minutos, no la hora que la gente se imagina."
           ],
           "tips": [
@@ -3010,7 +3010,7 @@
           "heading": "Límites variables y reducidos",
           "body": [
             "Los límites junto a los colegios bajan en horarios determinados y se señalizan con paneles intermitentes o variables. Las obras tienen límites provisionales que se aplican se vea o no a alguien trabajando, y la tolerancia es igual de pequeña que con los límites permanentes.",
-            "En varias carreteras rurales el límite ha bajado de 100 km/h tras revisiones de seguridad, y si te guías por un mapa antiguo o por lo que recuerdas de otro viaje, puede que no notes el cambio. Lee las señales en vez de dar por hecho que vale el límite general de carretera.",
+            "Algunas carreteras rurales tienen límites inferiores a 100 km/h, y muchos límites reducidos se volvieron a subir en 2025, así que un mapa antiguo o un viaje anterior pueden equivocarse en un sentido o en otro. Lee las señales en vez de dar por hecho que se aplica el límite general fuera de las zonas urbanas.",
             "En las pistas sin asfaltar, el límite señalizado sigue siendo a menudo de 100 km/h, algo que no se parece en nada a una velocidad segura sobre grava. Aquí el límite es de verdad un máximo legal y no una indicación de lo que aguanta el firme."
           ],
           "tips": []
@@ -3019,7 +3019,7 @@
           "heading": "Cómo funcionan los radares y las multas",
           "body": [
             "Hay radares fijos y móviles por todo el país y la tolerancia es pequeña. Las multas se envían al titular registrado, así que le llegan a la empresa de alquiler, que te las repercute con un cargo de gestión.",
-            "Los puntos de penalización no se aplican a un permiso extranjero, pero las multas sí, y las infracciones sin pagar pueden perseguirte. Págalas en lugar de suponer que desaparecen cuando te vas."
+            "Las multas de los radares no conllevan puntos de penalización, pero las infracciones por las que te detiene la policía sí, incluso con un <a data-guide=\"overseas-driver-licence-new-zealand\">permiso extranjero</a>; 100 puntos en dos años suponen tres meses sin poder conducir en Nueva Zelanda. Paga las multas en lugar de suponer que desaparecen cuando te vas."
           ],
           "tips": [
             "Poco margen de tolerancia",
@@ -3046,8 +3046,8 @@
       "priceTable": null
     },
     "alcohol-fatigue-driving-new-zealand": {
-      "title": "Alcohol, cansancio y conducción de visitantes en Nueva Zelanda",
-      "description": "Un límite legal de alcohol no es un objetivo de seguridad, y el desfase horario puede afectar al primer trayecto antes incluso de que empiece la ruta.",
+      "title": "Límite de alcohol al volante en Nueva Zelanda para visitantes (2026)",
+      "description": "Límite: 250 microgramos por litro de aire espirado a partir de los 20 años, cero por debajo de 20. Cómo es un control y por qué el primer trayecto tras un vuelo debe ser corto.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Conductor descansando junto a una autocaravana antes de seguir",
       "intro": "Los visitantes suelen juntar en un mismo día un vuelo largo, un vehículo desconocido y la conducción por la izquierda. Trata el descanso como parte de la reserva y mantén el alcohol completamente separado de cualquier responsabilidad al volante.",
@@ -3072,7 +3072,7 @@
           "heading": "Haz descansos de verdad",
           "body": [
             "Turnaos al volante si los dos tenéis permiso y seguro, parad para moveros y evitad tramos largos de noche. Las áreas de descanso son para hacer paradas seguras, no lugares donde acampar legalmente sin más.",
-            "Planifica dónde vas a acampar antes de que el cansancio llegue al máximo. Un holiday park cercano y reservado sale más barato que un accidente, una multa o un vehículo dañado."
+            "Planifica dónde acampar antes de que el cansancio llegue al máximo. Un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> cercano y reservado sale más barato que un accidente, una multa o un vehículo dañado."
           ],
           "tips": []
         },
@@ -3099,12 +3099,12 @@
         {
           "heading": "En este viaje, el cansancio es el riesgo mayor",
           "body": [
-            "Llegar en un vuelo de larga distancia, el desfase horario, un vehículo desconocido, conducir por el otro lado y las carreteras con curvas son una mala combinación, y el cansancio influye en una parte importante de los accidentes de visitantes aquí. Las primeras 48 horas tras la llegada son el periodo de mayor riesgo de todo el viaje.",
-            "No recojas una autocaravana para conducir cuatro horas el día que llegas. Duerme cerca del aeropuerto la primera noche, haz corto el primer día de conducción y turnaos al volante con regularidad si podéis."
+            "Un vuelo de larga distancia, el desfase horario, un vehículo desconocido, conducir por el otro lado y las carreteras con curvas son una mala combinación, y los tramos largos y sinuosos entre pueblos dejan poco margen a un conductor cansado. Haz corto el primer <a data-guide=\"new-zealand-driving-day-planner\">día de conducción</a>, antes de que tu reloj biológico se haya ajustado.",
+            "No recojas una autocaravana para conducir cuatro horas el día que llegas. Duerme cerca del aeropuerto la primera noche, haz corto el primer día de conducción y, si puedes, cambia de conductor con regularidad."
           ],
           "tips": [
             "No conduzcas lejos el día de llegada",
-            "Las primeras 48 horas son las de mayor riesgo",
+            "Haz corto el primer día de conducción",
             "Cambiad de conductor cada dos horas"
           ]
         },
@@ -3129,12 +3129,12 @@
           "heading": "Cómo es un control",
           "body": [
             "La policía puede parar cualquier vehículo y exigir una prueba de aliento sin sospechar nada. Los controles aparecen en carreteras rurales y a cualquier hora, no solo de madrugada cerca de las ciudades.",
-            "La prueba de detección dura unos segundos. Negarse es una infracción en sí misma y se trata con más severidad que un resultado positivo, así que no se gana nada rechazándola."
+            "La prueba de detección dura unos segundos. Si no la superas, o no la haces o no puedes completarla, la policía puede exigir una prueba de alcoholemia evidencial o un análisis de sangre, y negarse a un análisis de sangre exigido es una infracción con penas similares a las de conducir bajo los efectos del alcohol. No se gana nada negándose."
           ],
           "tips": [
             "Pueden parar cualquier vehículo",
             "Hay controles a cualquier hora",
-            "Negarse es peor que dar positivo"
+            "Negarse a un análisis de sangre es una infracción"
           ]
         }
       ],
@@ -3159,8 +3159,8 @@
       "priceTable": null
     },
     "left-side-driving-new-zealand": {
-      "title": "Conducir por la izquierda en Nueva Zelanda por primera vez",
-      "description": "Los giros, las rotondas y volver a arrancar en carreteras tranquilas son los momentos en que vuelven las viejas costumbres.",
+      "title": "Conducir por la izquierda en Nueva Zelanda: guía del primer día",
+      "description": "En Nueva Zelanda se conduce por la izquierda. Cómo funcionan las rotondas y las normas de ceder el paso de 2012, y cómo evitar las viejas costumbres el primer día en una camper.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Vista de la conducción por la izquierda en una carretera de Nueva Zelanda",
       "intro": "Acordarse de ir por la izquierda es fácil con tráfico fluido y difícil después de una parada, en una carretera vacía o al girar. Crea comprobaciones sencillas que resistan las distracciones y el cansancio.",
@@ -3225,14 +3225,14 @@
           "heading": "Rotondas y ceda el paso",
           "body": [
             "En las rotondas se circula en el sentido de las agujas del reloj y se cede el paso a la derecha, justo lo contrario de lo que espera quien conduce por la derecha. Acércate despacio, mira a la derecha y no entres hasta estar seguro. En las rotondas de varios carriles hay que entrar por el carril correcto, marcado en el suelo.",
-            "En los cruces, la norma actual es que el vehículo que gira cede el paso al que sigue recto. Las indicaciones publicadas antes de 2012 dicen lo contrario y siguen circulando mucho, así que ignora todo lo que no coincida con esto."
+            "En las intersecciones, el vehículo que gira cede el paso al que sigue recto, una norma de toda la vida. Dos cambios desde el 25 de marzo de 2012 son los que los visitantes pasan por alto: si giras a la derecha, cedes el paso al tráfico que viene de frente y gira a la izquierda, y en una intersección en T el tráfico de la carretera que termina cede el paso a todo el tráfico de la carretera que continúa. Las guías escritas antes de 2012 describen la antigua norma del giro a la derecha, así que ignóralas."
           ],
           "tips": []
         },
         {
           "heading": "El primer día",
           "body": [
-            "No recojas un vehículo para ponerte de inmediato a recorrer una larga distancia, y menos aún recién bajado de un vuelo de larga distancia. Reserva algo cerca del punto de recogida para la primera noche y haz que el primer día de conducción sea corto y por carreteras principales, no por carreteras rurales con curvas.",
+            "No recojas un vehículo para ponerte de inmediato a recorrer una larga distancia, y menos aún recién bajado de un vuelo de larga distancia. Reserva algo cerca del punto de recogida para la primera noche y haz que el primer <a data-guide=\"new-zealand-driving-day-planner\">día de conducción</a> sea corto y por carreteras principales, no por carreteras rurales con curvas.",
             "Pide a un acompañante que haga de segundo par de ojos los primeros días, avisando expresamente en giros y arranques. Parece exagerado, y evita justo el error que provoca choques frontales.",
             "Cuenta con que la concentración que exige te canse. Conducir por el otro lado es realmente más exigente hasta que se vuelve automático, normalmente al cabo de dos o tres días, así que haz más pausas de las que harías normalmente."
           ],
@@ -3286,7 +3286,7 @@
         {
           "heading": "Adáptate a la grava",
           "body": [
-            "Reduce antes de llegar al firme suelto, aumenta la distancia de seguridad y evita los volantazos y las frenadas bruscas. El polvo puede ocultar vehículos, ciclistas y ganado.",
+            "Reduce la velocidad antes del firme suelto, aumenta la distancia de seguridad y evita los volantazos y las frenadas bruscas. El polvo puede ocultar vehículos, ciclistas y <a data-guide=\"wildlife-livestock-road-safety-new-zealand\">ganado</a>.",
             "Reduce mucho al cruzarte con otros vehículos para evitar daños por piedras y no perder el control cerca del borde."
           ],
           "tips": []
@@ -3344,7 +3344,7 @@
           "body": [
             "Los impactos de piedras son el daño más frecuente en pistas sin asfaltar, y muchos productos de reducción de franquicia excluyen los cristales. Comprueba si el tuyo lo hace antes de circular por grava y plantéate la cobertura de parabrisas aparte que ofrecen la mayoría de las empresas, que suele ser barata.",
             "Si pinchas, apártate bien de la carretera antes de levantar el vehículo con el gato, porque un vehículo sobre un arcén de grava blando o inclinado es realmente peligroso. Confirma que tienes rueda de repuesto, gato y llave, y que conoces los puntos de elevación, antes del viaje y no durante.",
-            "En una pista de grava remota sin cobertura, lo correcto es quedarte con el vehículo. Te da refugio, se ve y, en casi cualquier carretera que aparezca en un mapa, alguien acabará pasando."
+            "En una pista de grava remota <a data-guide=\"kiwicamping-offline-data-guide\">sin cobertura</a>, lo correcto es quedarte con el vehículo. Te da refugio, se ve y, en casi cualquier carretera que aparezca en un mapa, alguien acabará pasando."
           ],
           "tips": []
         },
@@ -3453,7 +3453,7 @@
           "heading": "Conducción rural más allá de los animales",
           "body": [
             "Los vehículos agrícolas, los tractores y los camiones de ganado circulan despacio por las carreteras rurales y giran hacia entradas sin señalizar con muy poco aviso. Cuenta con barro en la calzada cerca de las entradas de las granjas, que en un firme asfaltado puede resbalar tanto como el hielo.",
-            "Los camiones madereros de la West Coast y del centro de la North Island son anchos, rápidos y tienen poco margen para apartarse. Déjales el carril entero, reduce cuando se acerque uno en un tramo estrecho y no intentes adelantar a uno en una carretera con curvas.",
+            "Los camiones madereros de las carreteras de la West Coast y del centro de la Isla Norte son anchos, rápidos y no pueden apartarse mucho. Déjales el carril entero, reduce cuando se acerque uno en un tramo estrecho y no intentes adelantar a uno en una carretera con curvas.",
             "Muchos cruces rurales tienen poca visibilidad por los setos y las cortinas cortavientos. Trata cada cruce rural sin regular como uno del que puede salir algo, y recuerda que los conductores locales conocen la carretera y tú no."
           ],
           "tips": []
@@ -3502,7 +3502,7 @@
         {
           "heading": "Entiende las diferencias de cada sitio",
           "body": [
-            "Un ayuntamiento puede permitir solo vehículos autosuficientes certificados, mientras que otro indica sitios con baños donde pueden quedarse otros campistas. El número máximo de noches, las horas de llegada y los cierres de temporada también varían.",
+            "Un ayuntamiento puede permitir solo vehículos <a data-guide=\"self-contained-campervan-green-warrant\">self-contained certificados</a>, mientras que otro indica sitios con baños donde pueden quedarse otros campistas. El número máximo de noches, las horas de llegada y los cierres de temporada también varían.",
             "Pueden aplicarse a la vez las normas de aparcamiento y las de acampada libre. Pagar el aparcamiento de día no te da automáticamente derecho a pasar la noche."
           ],
           "tips": []
@@ -3518,7 +3518,7 @@
         {
           "heading": "Por qué las normas cambian en cada límite municipal",
           "body": [
-            "La Freedom Camping Act 2011 permite que cada autoridad territorial dicte su propia ordenanza para su distrito. Esa es toda la explicación: hay decenas de ayuntamientos, cada uno respondiendo a presiones distintas de sus vecinos, a condiciones distintas en sus sitios y a presupuestos distintos para hacer cumplir las normas.",
+            "La <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 permite que cada autoridad territorial dicte su propia ordenanza para su distrito. Esa es toda la explicación: hay decenas de ayuntamientos, cada uno respondiendo a presiones distintas de sus vecinos, a condiciones distintas en sus sitios y a presupuestos distintos para hacer cumplir las normas.",
             "La consecuencia práctica es que una norma que has comprobado en un distrito no te dice nada del siguiente, y el límite entre ambos a menudo no se ve desde la carretera. Suponer que todo sigue igual es la causa más frecuente de multa."
           ],
           "tips": [
@@ -3538,7 +3538,7 @@
         {
           "heading": "Cómo comprobarlo rápido",
           "body": [
-            "Averigua en qué distrito estás y busca la página de acampada libre o el mapa de la ordenanza de ese ayuntamiento. La mayoría publican un mapa de sitios permitidos, más rápido de consultar que el texto de la ordenanza y que es con lo que trabajan los inspectores.",
+            "Averigua en qué distrito estás y busca la página de <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> o el mapa de la ordenanza de ese ayuntamiento. La mayoría publican un mapa de sitios permitidos, más rápido de consultar que el texto de la ordenanza y que es con lo que trabajan los inspectores.",
             "Hazlo mientras todavía tengas cobertura, idealmente la noche anterior y no al anochecer, cuando estás cansado y buscando dónde parar. Haz una captura del mapa del distrito en el que vas a estar mañana."
           ],
           "tips": [
@@ -3595,8 +3595,8 @@
       "priceTable": null
     },
     "cook-strait-ferry-campervan-guide": {
-      "title": "El ferri del estrecho de Cook con autocaravana: reserva y embarque",
-      "description": "Las dimensiones del vehículo, la hora de facturación y la flexibilidad ante el mal tiempo importan más que la hora de salida.",
+      "title": "Ferri del estrecho de Cook en autocaravana: tarifas y reserva 2026",
+      "description": "Interislander o Bluebridge con una camper: cómo la longitud del vehículo fija la tarifa, cuándo reservar, el check-in y qué hacer antes de embarcar.",
       "region": "Wellington y Picton",
       "imageAlt": "Ferri del estrecho de Cook entrando en el puerto de Picton",
       "intro": "El ferri es lo que convierte dos viajes por islas distintas en un solo recorrido, y es lo menos flexible de todo el itinerario. Funciona como un día de transporte reservado, no como una parada panorámica, y los dos detalles que más problemas dan son las dimensiones del vehículo que declaraste y lo que programaste justo después.",
@@ -3604,7 +3604,7 @@
         {
           "heading": "Declara el vehículo con exactitud",
           "body": [
-            "Las tarifas se fijan por la longitud y la altura totales, y total significa con todo lo que lleve acoplado: portabicis, cofres de techo, kayaks, un toldo que sobresalga, un remolque. Declarar de menos supone un ajuste de tarifa en la facturación y, en una travesía llena, a veces quedarte sin sitio.",
+            "Las tarifas se fijan por la longitud total, y total significa incluyendo todo lo que va acoplado: portabicicletas, una barra de remolque, un toldo que sobresalga, un remolque. Declarar de menos supone un ajuste de tarifa en el check-in y, en una travesía llena, a veces quedarte sin sitio.",
             "Mide en lugar de calcular a ojo, y si vas a recoger un vehículo de alquiler, pide las dimensiones a la empresa antes de reservar la travesía. La diferencia entre una reserva de coche y una de autocaravana es tan grande que equivocarse sale caro en ambos sentidos."
           ],
           "tips": [
@@ -3636,7 +3636,7 @@
         {
           "heading": "Haz las tareas antes de la cola",
           "body": [
-            "Reposta, compra y vacía los depósitos de residuos antes de meterte en la cola de la terminal. Una vez en la fila ya no hay vuelta atrás, los servicios son limitados y la cola puede avanzar antes de lo previsto. Vaciar el casete en Picton porque no lo hiciste en Wellington te cuesta una hora de tu primera mañana en la South Island.",
+            "Reposta, compra y vacía los depósitos de residuos antes de ponerte en la cola de la terminal. Una vez en la fila ya no hay vuelta atrás, los servicios son limitados y la cola puede avanzar antes de lo esperado. Vaciar el casete en Picton porque no lo hiciste en Wellington te cuesta una hora de tu primera mañana en la Isla Sur.",
             "Llega dentro del margen de facturación que indica la naviera, que para los vehículos es antes de lo que la mayoría supone. Ten preparados la documentación y el localizador de la reserva en lugar de buscarlos en la cabina."
           ],
           "tips": []
@@ -3695,8 +3695,8 @@
       "priceTable": null
     },
     "new-zealand-driving-day-planner": {
-      "title": "¿Cuánto debería durar un día de conducción en Nueva Zelanda?",
-      "description": "Las carreteras de montaña, los puentes de un solo carril y las paradas panorámicas hacen que los kilómetros midan mal el esfuerzo.",
+      "title": "Cuánto conducir al día en Nueva Zelanda: tiempos y distancias",
+      "description": "Por qué los kilómetros de Nueva Zelanda tardan más de lo que dice el mapa: carreteras de montaña, puentes de un solo carril y paradas, y cuánto planificar para un día en camper.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Carretera con curvas entre colinas de Nueva Zelanda",
       "intro": "Las carreteras de Nueva Zelanda castigan los itinerarios hechos a base de distancias. Doscientos cincuenta kilómetros son una mañana tranquila en una carretera recta y un día entero y agotador entre curvas costeras y puentes de un solo carril. Planifica según el carácter de la carretera y la luz disponible, y usa los kilómetros solo como primera comprobación.",
@@ -3704,7 +3704,7 @@
         {
           "heading": "El tiempo en movimiento no es la duración del día",
           "body": [
-            "Toma la estimación del navegador como un mínimo y suma todo lo demás que trae el día: combustible, compra, café, obras, miradores, un paseo corto, fotos y el tiempo de encontrar y montar el sitio de esta noche. Recoger el campamento por la mañana es otra media hora con la que nadie cuenta.",
+            "Toma la estimación del navegador como un mínimo y suma todo lo demás que contiene el día: combustible, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">compra</a>, café, obras, miradores, un paseo corto, fotos y el tiempo de encontrar y montar el sitio de esta noche. Recoger el campamento por la mañana es otra media hora con la que nadie cuenta.",
             "Un multiplicador realista ronda una vez y media la estimación del navegador para un día de ruta con paradas. Si el resultado es incómodo, la solución es un tramo más corto, no uno más rápido."
           ],
           "tips": [
@@ -3717,7 +3717,7 @@
           "heading": "Entre tres y cuatro horas es un día cómodo",
           "body": [
             "La mayoría de quienes recorren Nueva Zelanda durante más de una semana acaban fijando entre tres y cuatro horas de conducción como el punto en el que el viaje sigue siendo agradable. A partir de ahí, las paradas se saltan, las caminatas se caen y el día pasa a tratarse de llegar y no de viajar.",
-            "Algún día más largo de vez en cuando no pasa nada, sobre todo en los tramos más rectos de Canterbury o del centro de la North Island. Lo que produce cansancio son los días largos seguidos, y el cansancio está detrás de una buena parte de los accidentes de visitantes aquí."
+            "Algún día más largo de vez en cuando no pasa nada, sobre todo en los tramos más rectos de Canterbury o del centro de la Isla Norte. Lo que produce <a data-guide=\"alcohol-fatigue-driving-new-zealand\">cansancio</a> son los días largos seguidos, y el cansancio está detrás de una buena parte de los accidentes de visitantes aquí."
           ],
           "tips": []
         },
@@ -3736,7 +3736,7 @@
         {
           "heading": "Puentes de un solo carril y grava",
           "body": [
-            "Los puentes de un solo carril son habituales, sobre todo en la West Coast y en Northland, y la prioridad está señalizada, no se supone: la flecha más grande indica el sentido con prioridad. Algunos se comparten con el tren. Reduce, mira a través y está dispuesto a esperar en lugar de correr para hacerte con el puente.",
+            "Los <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">puentes de un solo carril</a> son habituales, sobre todo en la West Coast y en Northland, y la prioridad está señalizada, no se supone: la flecha más grande indica el sentido con prioridad. Algunos se comparten con el tren. Reduce, mira a través y prepárate para esperar en lugar de correr para hacerte con el puente.",
             "No tomes un atajo sin asfaltar solo porque sea más corto. Los contratos de alquiler suelen prohibir pistas de grava concretas, el seguro puede no cubrir los daños en ellas, y una carretera que está bien en un febrero seco es otra historia después de llover."
           ],
           "tips": []
@@ -3804,7 +3804,7 @@
         {
           "heading": "Construye el esqueleto a partir de las noches fijas",
           "body": [
-            "Empieza por las fechas que no puedes mover. Una travesía del estrecho de Cook, un refugio reservado de un Great Walk, un camping en un pueblo de playa reservado hace meses, un vuelo desde Queenstown: son los anclajes alrededor de los cuales tiene que encajar el resto del viaje. Crea el viaje, añade esos primero y trata todo lo que queda entre medias como ajustable.",
+            "Empieza por las fechas que no puedes mover. Una travesía del <a data-guide=\"cook-strait-ferry-campervan-guide\">estrecho de Cook</a>, un refugio reservado de una Great Walk, un camping en un pueblo de playa reservado hace meses, un vuelo desde Queenstown: son los anclajes alrededor de los cuales tiene que encajar el resto del viaje. Crea el viaje, añade esos primero y trata todo lo que queda entre medias como ajustable.",
             "Este orden importa más de lo que parece. Quien monta un viaje de forma cronológica desde el primer día suele descubrir el noveno que el ferri no cuadra, y para entonces la mitad de las reservas no son reembolsables. Fijar primero las fechas inamovibles hace que cada cambio posterior salga barato."
           ],
           "tips": [
@@ -3836,7 +3836,7 @@
         {
           "heading": "Usa la lista de tareas para lo que te puede dejar tirado",
           "body": [
-            "Combustible antes de un tramo remoto, compra antes del último supermercado, agua antes de un tramo seco, un punto de vaciado antes de una serie de sitios de acampada libre, cadenas antes de un puerto alpino en invierno. Son las tareas cuya ausencia acaba mal un día, y es fácil olvidarlas precisamente porque son rutinarias.",
+            "Combustible antes de un tramo remoto, compra antes del último supermercado, agua antes de un tramo seco, un <a data-guide=\"camping-wastewater-rubbish-new-zealand\">punto de vaciado</a> antes de una serie de sitios de acampada libre, cadenas antes de un paso de montaña en invierno. Son las tareas cuya ausencia acaba mal un día, y es fácil olvidarlas precisamente porque son rutinarias.",
             "Ten la lista junto al itinerario y no en otra app. Marca las tareas como hechas solo cuando lo estén de verdad, porque un depósito de agua a medio llenar tachado con optimismo es peor que uno sin tachar."
           ],
           "tips": []
@@ -3917,7 +3917,7 @@
         {
           "heading": "Pon a las listas nombres que sigan teniendo sentido después",
           "body": [
-            "«South Island» no te dice nada dentro de cuatro meses. «South Island febrero, solo parcelas con electricidad» te dice qué problema estabas resolviendo y si se puede reutilizar. Nombrar por región, temporada, vehículo o viaje hace que la lista siga teniendo sentido cuando vuelvas a ella.",
+            "«Isla Sur» no te dice nada dentro de cuatro meses. «Isla Sur febrero, solo parcelas con electricidad» te dice qué problema estabas resolviendo y si se puede reutilizar. Nombrar por región, temporada, vehículo o viaje hace que la lista siga teniendo sentido cuando vuelvas a ella.",
             "Añade una breve descripción donde la app lo permita. El motivo por el que guardaste un lugar es lo primero que se olvida, y suele ser lo que importaba: resguardado del viento del sur, bueno para un vehículo grande, tranquilo entre semana."
           ],
           "tips": [
@@ -3937,7 +3937,7 @@
         {
           "heading": "Consulta los precios como cifras orientativas",
           "body": [
-            "Donde aparece un coste indicado, puedes verlo en tu propia moneda para comparar un sitio básico del DOC con un holiday park sin hacer cuentas en cada parada. Toma las cifras convertidas como ayuda para planificar: son conversiones automáticas de un importe indicado, no un presupuesto del proveedor ni de tu banco.",
+            "Donde aparece un coste indicado, puedes verlo en tu propia moneda para comparar un sitio básico del DOC con un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> sin hacer cuentas en cada parada. Toma las cifras convertidas como ayuda para planificar: son conversiones automáticas de un importe indicado, no un presupuesto del proveedor ni de tu banco.",
             "Confirma la tarifa real con el proveedor antes de que un precio decida tu ruta, y comprueba qué incluye la cifra. Las tarifas del DOC suelen ser por adulto y noche, mientras que los parques comerciales pueden cobrar por parcela, así que dos cifras parecidas pueden suponer totales muy distintos para una familia."
           ],
           "tips": [
@@ -3990,7 +3990,7 @@
         {
           "heading": "Empieza por el tipo de lugar y la zona",
           "body": [
-            "Decide qué tipo de noche buscas antes de afinar nada más. Un camping del DOC, un refugio de montaña, una zona designada de acampada libre, un holiday park y una cabaña son productos distintos, con normas, precios y sistemas de reserva distintos, y mezclarlos produce una lista que tienes que reordenar mentalmente.",
+            "Decide qué tipo de noche buscas antes de afinar nada más. Un camping del DOC, un refugio de montaña, una zona designada de <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a>, un holiday park y una cabaña son productos distintos, con normas, precios y sistemas de reserva distintos, y mezclarlos produce una lista que tienes que reordenar mentalmente.",
             "Después coloca el mapa a lo largo de la ruta que de verdad vas a conducir. Buscar en la zona visible mantiene los resultados relevantes para ese día, y evita que un lugar famoso a noventa minutos de la ruta domine una preselección en la que no pinta nada."
           ],
           "tips": [
@@ -4022,7 +4022,7 @@
         {
           "heading": "Filtra de otra manera para una noche de acampada libre",
           "body": [
-            "Una búsqueda de acampada libre es una cuestión legal, no de comodidad. Lo que importa es si el sitio está designado, si exige un vehículo autosuficiente certificado y cuál es el límite de estancia. Las instalaciones son secundarias porque a menudo no hay ninguna.",
+            "Una búsqueda de <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> es una cuestión legal, no de comodidad. Lo que importa es si el sitio está designado, si exige un vehículo self-contained certificado y cuál es el límite de estancia. Las instalaciones son secundarias porque a menudo no hay ninguna.",
             "Compara el requisito de certificación con tu propio certificado antes de contar con un sitio. El requisito va ligado al vehículo, y las multas también, así que un desajuste sale caro por mucho cuidado que hayas tenido con todo lo demás."
           ],
           "tips": []
@@ -4030,7 +4030,7 @@
         {
           "heading": "Busca servicios, no solo sitios donde dormir",
           "body": [
-            "Los puntos de vaciado, el agua potable, los contenedores de basura y el combustible son imprescindibles para el viaje por sí mismos, y merece la pena filtrarlos como una tarea aparte en lugar de esperar que aparezcan cerca del camping de esta noche. Planificar un vaciado de camino a algún sitio es mucho más fácil que hacer un viaje expreso cuando el depósito ya está lleno.",
+            "Los <a data-guide=\"camping-wastewater-rubbish-new-zealand\">puntos de vaciado</a>, el agua potable, los contenedores de basura y el combustible son imprescindibles para el viaje por sí mismos, y merece la pena filtrarlos como una tarea aparte en lugar de esperar que aparezcan cerca del camping de esta noche. Planificar un vaciado de camino a algún sitio es mucho más fácil que hacer un viaje solo para eso cuando el depósito ya está lleno.",
             "Lo mismo vale para una lavandería y una ducha caliente después de unos días de lluvia. Elegir una parada porque resuelve tres cosas a la vez suele salir mejor que elegir el marcador más barato y volver atrás para cada una."
           ],
           "tips": [
@@ -4050,7 +4050,7 @@
         {
           "heading": "Restablece los filtros entre regiones y tipos de viaje",
           "body": [
-            "Lo que necesitas para una caminata de refugio en refugio, una noche con electricidad y lavandería en un pueblo y una parada de acampada libre certificada no tiene casi nada en común. Los filtros que se quedaron puestos ayer son un motivo habitual de que una búsqueda salga hoy inesperadamente vacía.",
+            "Lo que necesitas para una caminata de refugio en refugio, una noche con electricidad y lavandería en un pueblo y una parada de <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> certificada no tiene casi nada en común. Los filtros que se quedaron puestos ayer son un motivo habitual de que una búsqueda salga hoy inesperadamente vacía.",
             "Borra el conjunto cada vez que el viaje cambie de carácter, sobre todo al pasar de la North Island a la South Island, de la costa a la alta montaña o de un tramo itinerante a unos días con base en un mismo pueblo."
           ],
           "tips": [
