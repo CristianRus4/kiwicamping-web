@@ -28,7 +28,7 @@ export const legacyOnlyArticles: Article[] = [
       rows: [
         { label: "KiwiCamping", cells: ["Free download; DOC places, dump stations and guides need the in-app Premium pass. BookIt stays and tours are free.", "iPhone", "DOC data for campsites, huts, tracks and freedom camping notices, plus BookIt holiday parks and tours", "Place details are stored on the phone; map tiles, routing and weather need signal", "DOC campsites and huts with fees and booking status, and an ordered trip planner"] },
         { label: "Rankers Camping NZ", cells: ["Free, no in-app purchases; funded by campground bookings and activity deals", "iPhone, iPad, Android and web", "Rankers' own list of 1,500+ places to stay, with 108,000+ traveller reviews checked by staff", "Campsite information works offline", "Reviews and local notes on legal places to stay"] },
-        { label: "CamperMate", cells: ["Free, no in-app purchases on iPhone; funded by bookings, deals, advertising and paid business listings", "iPhone, iPad and Android", "Campsites, holiday parks, freedom camping spots and services in NZ and Australia, with community reviews and photos", "Download maps and information for offline use", "Services such as toilets, Wi-Fi and dump stations, in 27 languages"] },
+        { label: "CamperMate", cells: ["Free, no in-app purchases on iPhone; funded by bookings, deals and advertising", "iPhone, iPad and Android", "Campsites, holiday parks, freedom camping spots and services in NZ and Australia, with community reviews and photos", "Download maps and information for offline use", "Services such as toilets, Wi-Fi and dump stations, in 27 languages"] },
         { label: "WikiCamps New Zealand", cells: ["NZ$7.99 one-off on the App Store; on Android a free download with a one-time in-app unlock; also takes bookings", "iPhone, iPad and Android", "Community-contributed listings, 12,000+ sites", "Offline mode downloads the data you need", "Detailed filters and a trip planner with a fuel estimate"] },
         { label: "Campable", cells: ["Free app; pay per night in the app with no guest booking fees, and Campable takes a commission from hosts", "iPhone and Android", "Hosts' own listings of private land such as vineyards, farms and orchards", "Arrival details work offline once booked", "Booking private sites, with a self-contained or non-self-contained filter"] },
       ],
@@ -40,7 +40,7 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Open a place in flight mode before you leave", "Ask who authorises each site", "Know how the app is funded"]),
       s("KiwiCamping", [
         "KiwiCamping is built on DOC's own data: campsites with their category, fee and whether they take bookings, huts with bunks and fees, tracks, and DOC's freedom camping notices showing where camping on conservation land is prohibited or restricted. Dump stations sit on the same map, and holiday parks and tours come from BookIt and can be booked in the app. Saved places become an ordered trip with distance, dates, notes and to-dos on each stop.",
-        "The limits are worth stating plainly. It is iPhone only. Place details are stored on the phone, but map tiles, routing, weather and photos need a connection. DOC's notices cover conservation land, not council bylaws, so check the council for town and roadside sites. Only BookIt stays and tours are free; DOC campsites, huts, dump stations, the notices and the guides need the Premium pass, sold as a one-off purchase or week by week in the App Store.",
+        "The limits are worth stating plainly. It is iPhone only. Place details are stored on the phone, but map tiles, routing, weather and photos need a connection. DOC's notices cover conservation land, not council bylaws, so check the council for town and roadside sites. Only BookIt stays and tours are free; DOC campsites, huts, dump stations, the notices and the guides need the Premium pass, with the current options listed on the App Store.",
       ]),
       s("Rankers Camping NZ", [
         "Rankers is a New Zealand-owned app that has collected camping information since 2007. It lists \"over 1500 places you can stay, including those where the local community has said you're welcome\", and more than 108,000 traveller reviews that its own staff read and check. If you want to know which end of a campground is quietest before a two-hour detour, its co-owner's on-the-ground notes cover exactly that.",
@@ -48,7 +48,7 @@ export const legacyOnlyArticles: Article[] = [
       ]),
       s("CamperMate", [
         "CamperMate covers New Zealand and Australia, and it is the official travel partner of the Apollo, Maui, Britz and Mighty rental brands, so many hire campervans come with it suggested. Beyond campsites and holiday parks it maps dump stations, public toilets, Wi-Fi and supermarkets, and it runs in 27 languages, which helps visitors who would rather not plan in English.",
-        "It is free, funded by bookings, deals, advertising and paid business listings, and you can download maps and information for offline use. With this many categories, its filters are the way to cut the map down to one thing, and much of the detail comes from community reviews, photos and updates, so confirm anything legally significant with the council or DOC.",
+        "It is free, funded by bookings, deals and advertising, and you can download maps and information for offline use. With this many categories, its filters are the way to cut the map down to one thing, and much of the detail comes from community reviews, photos and updates, so confirm anything legally significant with the council or DOC.",
       ]),
       s("WikiCamps New Zealand", [
         "WikiCamps New Zealand costs NZ$7.99 once on the App Store, with no subscription; on Android it is a free download with a one-time in-app unlock. It lists more than 12,000 sites contributed and kept up to date by its users, with detailed filters, collections, a trip planner that estimates fuel spend, and bookings for many sites inside the app. An offline mode downloads what you need before you lose signal.",
@@ -83,7 +83,7 @@ export const legacyOnlyArticles: Article[] = [
       { label: "Rankers Camping NZ", url: "https://www.rankers.co.nz/" },
       { label: "CamperMate", url: "https://campermate.com/en" },
       { label: "Campable: private land stays and guest fees", url: "https://campable.com/" },
-      { label: "Campable: how hosting and commission work", url: "https://campable.com/why-host" },
+      { label: "Campable: terms and conditions, including host commission", url: "https://campable.com/terms-and-conditions" },
       { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
       { label: "CamperMate on Google Play", url: "https://play.google.com/store/apps/details?id=nz.co.campermate" },
       { label: "Plumbers, Gasfitters and Drainlayers Board: green warrant rules", url: "https://www.pgdb.co.nz/self_contained_vehicles/private_vehicle_owners/" },

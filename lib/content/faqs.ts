@@ -212,7 +212,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
 
   // --- Costs & budget -------------------------------------------------------
   "new-zealand-travel-cost-2026": [
-    ["How much does a trip to New Zealand cost in 2026?", "It splits cleanly into transport, accommodation and food, and the choice of vehicle drives the total more than anything else. This guide sets out dated New Zealand dollar benchmarks for each and converts them into ten currencies."],
+    ["How much does a trip to New Zealand cost in 2026?", "Planning bands for 2026: about NZ$75 to $120 per person a day for a lean camper or backpacker, $150 to $260 for a comfortable independent trip and $280 to $450 with private rooms and paid activities. The choice of vehicle moves the total more than anything else."],
     ["Is New Zealand expensive to travel in?", "By international standards, yes, particularly for food, accommodation and domestic transport. Camping is the one category where it stays cheap, which is why the gap between a camping trip and a hotel trip here is unusually wide."],
   ],
   "new-zealand-grocery-prices-2026": [
@@ -220,11 +220,11 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Where is the cheapest place to buy food in New Zealand?", "The large supermarket chains in the main centres, and the difference against a small-town store is significant enough to plan around. Weekend produce markets beat both on seasonal fruit and vegetables."],
   ],
   "eating-out-new-zealand-prices-2026": [
-    ["How much is a meal out in New Zealand?", "The guide gives dated prices for a café brunch, a pub meal, a mid-range dinner and a takeaway, in New Zealand dollars and ten conversions. The step between a café and a restaurant is larger here than in most countries."],
+    ["How much is a meal out in New Zealand?", "Planning ranges for 2026: an inexpensive restaurant meal NZ$18 to $50, a fast-food combo $15 to $20, dinner for two at a mid-range restaurant $100 to $200 and a cappuccino $5 to $7.50. The step between a café and a restaurant is larger here than in most countries."],
     ["Do you tip in New Zealand?", "No. Tipping is not expected and service is not priced assuming it, and there is no service charge on a normal bill."],
   ],
   "beer-wine-coffee-prices-new-zealand": [
-    ["How much is a beer in New Zealand?", "The guide prices a pub pint, a craft beer, a supermarket six-pack, a glass and a bottle of wine, all with dated figures. Buying from a supermarket rather than a bar is the single biggest saving on a long trip."],
+    ["How much is a beer in New Zealand?", "In a pub a 500 ml domestic draught beer costs about NZ$7 to $15 and an imported bottle $9 to $15; a 500 ml domestic beer from the supermarket is $2.59 to $10. Buying from a supermarket rather than a bar is the single biggest saving on a long trip."],
     ["How much does coffee cost in New Zealand?", "A flat white sits in a fairly narrow band nationwide, with city cafés at the top of it. New Zealand coffee is genuinely good, which is the reason this line item creeps up on people."],
   ],
   "accommodation-costs-new-zealand-2026": [
@@ -237,7 +237,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "public-transport-costs-new-zealand-2026": [
     ["Is public transport in New Zealand good enough to travel without a car?", "Between the main cities, yes, and within them it varies a lot. It is the rural and coastal places, which is most of what people come to see, where the network effectively stops."],
-    ["How much does public transport cost in New Zealand cities?", "The guide gives dated fares for Auckland, Wellington and Christchurch. All three run tag-on cards with a daily cap, and buying the card early is worth it for a stay of more than a couple of days."],
+    ["How much does public transport cost in New Zealand cities?", "The table gives dated Auckland fares; check Metlink for Wellington and Metro for Christchurch. All three use tag-on cards: Auckland caps fares at $50 over seven days, Christchurch caps bus fares at $6 a day and Wellington sells day passes, so buying the card early is worth it for a stay of more than a couple of days."],
   ],
   "domestic-flight-costs-new-zealand-2026": [
     ["How much are domestic flights in New Zealand?", "The guide gives realistic sale floors and typical fares on the main routes rather than headline prices. Booking ahead matters more here than in larger markets, because the routes are thin and the last seats are expensive."],
