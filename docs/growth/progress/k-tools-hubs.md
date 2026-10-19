@@ -27,13 +27,14 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 - Freedom pages never say the notices are in the app (unconfirmed, see the app bug above).
 - Council links for freedom hubs were matched by reverse-geocoding each notice point (OpenStreetMap). Central Otago DOC district notices all sit in Queenstown Lakes District (Wānaka). QLDC, Taupō and Ruapehu pages block plain curl (bot check), so a curl link checker will misreport them.
 
-## Waiting on foundation M2
-- Register `toolRoutes` (lib/routes/tools.ts) and `hubRoutes` (lib/routes/hubs.ts) in lib/routes.ts, set `TOOL_PAGES_EXPORTED` and `HUB_PAGES_EXPORTED` to true, link locale /<locale>/tools/ to the tool pages, and add indexable hubs to the sitemap via the manifest.
+## M4 Route wiring (done)
+- Rebased onto origin/main (6838b88, K-foundation M2). `toolRoutes()` and `hubRoutes()` return `ExportRoute[]` and are registered in lib/routes.ts; the `*_PAGES_EXPORTED` flags are gone. Tool paths use `localeRoot()`, hreflang comes from `alternatesFor(toolPageKey)`, `tools` strings are back in lib/translation-source.ts. /tools/ and /<locale>/tools/ link every calculator page. llms.txt lists the tool pages and indexable hub indexes.
+- Note: scripts/audit-hubs.mjs (protected, foundation-owned) was changed in M3 by this lane (prose and grounding checks for hubs). Flagged to the orchestrator.
 
 - DOC's campsite-categories page now 404s; links use /parks-and-recreation/places-to-stay/stay-at-a-campsite/ (also fixes the campsite tool's source link).
 
 ## Next
-- Wire routes when foundation M2 lands. Then: links into hubs from guides (ask K-content), llms.txt entry for hubs.
+- npm run check passed on 86e3720 (679 HTML pages exported; SEO audit 681 pages, 411 indexable; 36/36 tests). Lane complete. Follow-ups for others: links into hubs from guides (K-content); `tools` translations per locale (i18n threads).
 
 ## Blockers
 - None.
