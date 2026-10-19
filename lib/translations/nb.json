@@ -123,7 +123,7 @@
     "faq7q": "Hva står på stedssiden?",
     "faq7a": "Bilder, en beskrivelse, åpningstider, priser, vilkår, fasiliteter sortert etter type, aktuelle varsler, vurderinger, kontakt- og bookinginfo, vær, Street View der det finnes bilder, veibeskrivelse og alternativer i nærheten.",
     "faq8q": "Hvilke kartvisninger finnes?",
-    "faq8a": "Et standardkart og en satellittvisning bygget på Apples flyover-bilder, som du kan vippe og rotere for ekte 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og viser gatebildet rett fra stedssiden.",
+    "faq8a": "Et standardkart og en satellittvisning bygget på flyover-bilder fra Apple, som du kan vippe og rotere for ekte 3D-terreng. Street View bygger på bilder fra Apple Look Around («Se deg rundt») og viser gatebildet rett fra stedssiden.",
     "faq9q": "Kan jeg se prisene i min egen valuta?",
     "faq9a": "Ja. Velg valuta i innstillingene og angi omregningskursen, så vises rapporterte priser i den valutaen ved siden av beløpet i newzealandske dollar.",
     "faq10q": "Kan jeg bestille en campingplass i KiwiCamping?",
@@ -254,7 +254,7 @@
         {
           "heading": "Kart, vær og direktedata",
           "paragraphs": [
-            "Bytt mellom standardkartet og en satellittvisning bygget på Apples flyover-bilder, som kan vippes og roteres til 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og åpnes fra stedssiden der det finnes bilder.",
+            "Bytt mellom standardkartet og en satellittvisning bygget på flyover-bilder fra Apple, som kan vippes og roteres til 3D-terreng. Street View bygger på bilder fra Apple Look Around («Se deg rundt») og åpnes fra stedssiden der det finnes bilder.",
             "Været nå og prognosen krever nettilgang. Lagre viktige prognoser og offisielle farevarsler før du kjører ut av dekning.",
             "Stedskatalogen følger med appen, så den viktigste stedsinformasjonen er tilgjengelig også der dekningen er dårlig. Direktekart, ruteplanlegging, vær, bilder og eksterne tilbyderes nettsider kan kreve dekning."
           ]
@@ -294,7 +294,7 @@
           ]
         },
         {
-          "heading": "Apples direktetjenester",
+          "heading": "Direktetjenester fra Apple",
           "paragraphs": [
             "Kartvisning, veibeskrivelse, «Se deg rundt», vær, kalenderintegrasjon og widgeter kan bruke rammeverk fra Apple. Forespørsler og databehandling for disse tjenestene reguleres av Apple. Appen får bare tilgang til kalenderen etter at du har gitt tillatelse, og bruker den til å legge inn informasjon fra reiseruten når du ber om det."
           ]
