@@ -8,7 +8,14 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 - Audit P0 (no research needed): offline-data guide, /support/ Pass boundary, North Island geothermal claim.
 - Audit P1 retitles all done (tools, speed-limits, campervan-road-rules, public-transport, eating-out, travel-cost, wof, road-signs, volcanic, biosecurity, beer-wine-coffee, cook-strait, taranaki, river-crossing; script /tmp/kcontent-factcheck/retitle.py logs to the changelog). Also: camping-costs-nz, campfire-rules-nz, nz-camping-seasons-weather-sandflies, sandflies guide, holiday-parks (expanded, TOP 10 Club figures, BookIt-free CTA).
 
-## In progress
+## Handoff 1 (20 Oct): all four fact-check batches applied (verdicts in docs/growth/factcheck/). npm run check: content, build, export, similarity, assets pass; 2 protected tests fail by design (see Blockers).
+
+## Blockers (orchestrator)
+- tests/rendered-html.test.mjs 'the 15 legacy pages keep main's English body byte for byte' freezes legacy bodies against tests/fixtures/legacy-bodies/ (pre-push snapshot). The brief rewrites 10 of them on purpose: best-nz-camping-apps, campfire-rules-nz, camping-costs-nz, doc-campsites-huts-guide, free-camping-nz-legal, freedom-camping-rules-nz, holiday-parks-nz-booking-guide, nz-camping-seasons-weather-sandflies, self-contained-vehicles-nz, where-to-camp-in-new-zealand. Fixtures need regenerating by the foundation thread/orchestrator (tests/** is protected).
+- Same file, 'renders dated New Zealand cost tables in ten currencies' hard-codes /Prices checked 12 August 2026/ for the grocery page; the table now carries Stats NZ September 2026 data.
+- Helper: node /tmp/kcontent-factcheck/legacydiff.mjs "$PWD" lists changed legacy bodies after an export.
+
+## In progress (history)
 - Independent fact-check (never run by the previous session) of every changed rules/fee page. Page text exported to /tmp/kcontent-factcheck/<slug>.md by /tmp/kcontent-factcheck/export.ts (copy into repo root as .fc-export.ts, run `npx tsx ./.fc-export.ts <slugs>`, delete). Verdicts go to /tmp/kcontent-factcheck/verdict-<batch>.md. Batches A (self-contained/freedom) and B (DOC) DONE and fixed (commit 3b59721; verdicts copied to docs/growth/factcheck/). C (driving) DONE and fixed (d673c69). D relaunched on sonnet/high, awaiting verdict at /tmp/kcontent-factcheck/verdict-D.md. C driving (overseas licence, left-side, alcohol-fatigue, towing, campervan-road-rules, speed-limits), D commercial (best-nz-camping-apps, holiday parks, grocery, public-transport, eating-out, travel-cost, beer-wine-coffee, north-island geothermal lines).
 
 ## Next
