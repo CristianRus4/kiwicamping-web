@@ -23,6 +23,11 @@ export type Article = {
   sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable;
   /** Hand-picked related guides, by slug, shown before the scored ones (see lib/related.ts). */
   related?: string[];
+  /**
+   * New guides only: the New Zealand day (YYYY-MM-DD) the guide goes live. Until then it is absent from
+   * the whole build (lib/publish.ts). Never set it on a guide that is already live, or on a legacy one.
+   */
+  publishAt?: string;
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
 

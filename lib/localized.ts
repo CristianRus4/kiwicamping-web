@@ -1,6 +1,6 @@
 import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
-import { articles, categories, type Article, type ArticleCategory } from "./site";
+import { allArticles, articles, categories, type Article, type ArticleCategory } from "./site";
 import { hasReviews, liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
 
 export { liveLocales, localeCodes, routedLocales, type LocaleCode };
@@ -15,7 +15,11 @@ export const untranslatedCategories: ArticleCategory[] = [];
 /** Every guide a locale publishes. Untranslated ones are served whole, in English, and noindex. */
 export const localeArticles = articles;
 /** What a translator is asked for: everything. */
-export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
+/**
+ * The guides a translator is asked for, scheduled ones included: a translation can be ready before
+ * its guide goes live (it is published with it), and en.json does not change on a publish day.
+ */
+export const translatableArticles = allArticles.filter((item) => !untranslatedCategories.includes(item.category));
 export const localeCategories = categories;
 
 type TranslatedSection = { heading?: string; body?: string[]; tips?: string[] };
