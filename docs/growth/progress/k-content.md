@@ -1,15 +1,21 @@
-# K-content progress (Ava)
+# K-content progress
 
-Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo.
+Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (every change is logged there; it is the done-list).
 
-## Done
-- Batch 0 (in progress): blue-warrant fix in every English occurrence (legacy-migrated.ts freedom-camping-rules + free-camping-nz-legal, legacy.ts where-to-camp, faqs.ts) and full 2026 rewrite of /self-contained-vehicles-nz.html. Facts verified on PGDB (private owners page, rental page, June 2026 media release), DOC freedom camping page, Freedom Camping Act Schedule 1AA, SR 2023/136 Schedule 2, SR 2023/217, PGD Act s87V.
+## Done (committed, not yet handed off)
+- Brief batches 0-3: blue-warrant fix everywhere + self-contained page rewrite; DOC booking page rewrite + doc-huts / doc-campsite-rules retitles; home meta + map-intent section + Look Around; best-nz-camping-apps rewrite with dated comparison table (new optional `comparison` field in lib/article-model.ts, rendered in components/guide-article.tsx; English-only pages).
+- Audit P0 confirmed errors: overseas licence (12-month rule from 1 Nov 2026), left-side-driving give-way, alcohol-fatigue, towing licence weight, grocery Woolworths, camping-costs "Scenic", doc-campsite-rules dogs (74 of 287), doc-hut-rules "turned away", Remutaka Hill / Desert Road (campervan-road-rules, towing, wellington-wairarapa loop).
+- Audit P1 retitles: camping-costs-nz, campfire-rules-nz, nz-camping-seasons-weather-sandflies, sandflies guide, holiday-parks (expanded, TOP 10 Club figures, BookIt-free CTA).
+
+## In progress
+- Independent fact-check (never run by the previous session) of every changed rules/fee page. Page text exported to /tmp/kcontent-factcheck/<slug>.md by /tmp/kcontent-factcheck/export.ts (copy into repo root as .fc-export.ts, run `npx tsx ./.fc-export.ts <slugs>`, delete). Verdicts go to /tmp/kcontent-factcheck/verdict-<batch>.md. Batches: A self-contained/freedom (4 pages), B DOC (5), C driving (5), D apps/holiday parks/groceries (3).
 
 ## Next
-- Fact-check verdict for batch 0, fix, commit, hand off.
-- Batch 1: DOC booking page rewrite + retitle doc-huts and doc-campsite-rules.
+1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
+2. Audit queue, remaining P0: new-zealand-road-trip-fuel-cost-2026 (dated MBIE series + retitle), kiwicamping-offline-data-guide, north-island-two-week-road-trip, /support/.
+3. Remaining P1 retitles from docs/growth/audit/summary.csv (tools, speed-limits, public-transport, eating-out, travel-cost, wof, road-signs, volcanic, biosecurity, beer-wine-coffee, cook-strait, taranaki, river-crossing), then P2, then brief batches 4-8 (check keyword-map.csv before new pages).
 
 ## Notes and constraints found
 - Translated guides (43 slugs in every locale file) must keep identical structure (section/paragraph/tip/FAQ/source/priceTable row counts) or content:check fails, and locale JSON is off limits. Legacy (.html) pages are not translated, so they can be restructured.
 - Counts taken from the app JSON (read-only) until lib/data/product-facts.json lands on main; reconcile then.
-- No locale JSON carries the "2027" blue-warrant claim (checked).
+- zsh: `echo =====` fails (equals expansion); ugrep is the default grep and chokes on `.{0,80}` with alternations, use /usr/bin/grep.
