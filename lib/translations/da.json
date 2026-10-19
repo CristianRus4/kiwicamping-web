@@ -120,7 +120,7 @@
     "faq7q": "Hvad står der på et steds side?",
     "faq7a": "Fotos, en beskrivelse, åbningstider, priser, vilkår, faciliteter ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret, Street View hvor der findes billeder, rutevejledning og alternativer i nærheden.",
     "faq8q": "Hvilke kortvisninger er der?",
-    "faq8a": "Et standardkort og en satellitvisning bygget på Apples flyover-billeder, som du kan vippe og dreje, så terrænet ses i 3D. Street View bygger på Apples billeder fra »Se dig omkring« og viser stedet fra gadeplan direkte fra stedets side.",
+    "faq8a": "Et standardkort og en satellitvisning bygget på flyover-billeder fra Apple, som du kan vippe og dreje, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og viser stedet fra gadeplan direkte fra stedets side.",
     "faq9q": "Kan jeg se priserne i min egen valuta?",
     "faq9a": "Ja. Vælg din valuta i indstillingerne, og angiv kursen, så vises de oplyste priser i den valuta ved siden af beløbet i newzealandske dollar.",
     "faq10q": "Kan jeg booke en campingplads i KiwiCamping?",
@@ -247,14 +247,14 @@
           "heading": "Rejseplanlæggeren",
           "paragraphs": [
             "Opret en tur, tilføj steder, og træk dem i rækkefølge. Hvert stop kan have sin egen ankomstdato, noter, vejrudsigt og status som besøgt, og planlæggeren viser køreafstanden etape for etape og for hele turen.",
-            "Ruteberegningen afhænger af, hvilke rutevejledninger MapKit kan levere. Planlæggeren beholder stoppene, hvis en etape ikke kan beregnes, men du må selv tjekke, om vejen er farbar lige nu.",
+            "Ruteberegningen afhænger af, hvilke rutevejledninger MapKit kan levere. Planlæggeren beholder stoppene, hvis en etape ikke kan beregnes, men du skal selv tjekke, om vejen er farbar lige nu.",
             "Start med en færdig liste over campingudstyr, eller lav dine egne opgaver. Turens fremskridt holder listen ved siden af rejseplanen, og rejseplanen kan synkroniseres med Kalender."
           ]
         },
         {
           "heading": "Kort, vejr og live-oplysninger",
           "paragraphs": [
-            "Skift mellem standardkortet og en satellitvisning bygget på Apples flyover-billeder, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på Apples billeder fra »Se dig omkring« og åbner fra stedets side, hvor der findes billeder.",
+            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og åbner fra stedets side, hvor der findes billeder.",
             "Aktuelt vejr og vejrudsigt kræver live-data. Gem vigtige prognoser og officielle varsler, før du kører ud af dækning.",
             "Registret over steder ligger i appen, så de vigtigste oplysninger om hvert sted er tilgængelige, også hvor dækningen er dårlig. Live-kort, ruteberegning, vejr, fotos og eksterne udbyderes sider kan kræve forbindelse."
           ]
@@ -294,9 +294,9 @@
           ]
         },
         {
-          "heading": "Apples live-tjenester",
+          "heading": "Live-tjenester fra Apple",
           "paragraphs": [
-            "Kortvisning, rutevejledning, »Se dig omkring«, vejr, integration med kalenderen og widgets kan bruge Apples frameworks. Forespørgsler og behandling af data for disse tjenester er underlagt Apples regler. Appen får kun adgang til kalenderen, efter du har givet tilladelse, og bruger den kun til at tilføje de oplysninger fra rejseplanen, du beder om."
+            "Kortvisning, rutevejledning, »Se dig omkring«, vejr, integration med kalenderen og widgets kan bruge Apple-frameworks. Forespørgsler og behandling af data for disse tjenester styres af Apple. Appen får kun adgang til kalenderen, efter du har givet tilladelse, og bruger den kun til at tilføje de oplysninger fra rejseplanen, du beder om."
           ]
         },
         {
@@ -325,7 +325,7 @@
           "heading": "Børn og kontakt",
           "paragraphs": [
             "KiwiCamping er et almindeligt rejseværktøj og er ikke rettet mod børn. Send ikke personoplysninger om et barn via support.",
-            "Har du spørgsmål om privatliv, så kontakt KiwiCampings support."
+            "Har du spørgsmål om privatliv, så kontakt supporten hos KiwiCamping."
           ]
         }
       ]
@@ -350,7 +350,7 @@
         {
           "heading": "Sikkerhed og lovlig brug",
           "paragraphs": [
-            "Du skal overholde skilte, tilladelser, lukninger, brandrestriktioner, færdselsregler og anvisninger fra rangers, iwi og hapū (māoriske stammer og slægtsgrupper), redningstjenester og de ansvarlige myndigheder. Brug ikke appen, mens du kører."
+            "Du skal overholde skilte, tilladelser, lukninger, brandrestriktioner, færdselsregler og anvisninger fra rangers, iwi og hapū, redningstjenester og de ansvarlige myndigheder. Brug ikke appen, mens du kører."
           ]
         },
         {
@@ -362,14 +362,14 @@
         {
           "heading": "Køb",
           "paragraphs": [
-            "Alle køb i appen behandles af Apple og er underlagt de vilkår, der vises ved købet. Funktioner, pakker og priser kan ændre sig, hvor det er tilladt. Brug Apples værktøjer til køb ved spørgsmål om betaling, opsigelse og refusion."
+            "Alle køb i appen behandles af Apple og er underlagt de vilkår, der vises ved købet. Funktioner, pakker og priser kan ændre sig, hvor det er tilladt. Har du spørgsmål om betaling, opsigelse eller refusion, så brug de værktøjer til køb, som Apple stiller til rådighed."
           ]
         },
         {
           "heading": "Immaterielle rettigheder og kontakt",
           "paragraphs": [
-            "KiwiCampings varemærke, brugerflade og originale redaktionelle indhold tilhører deres respektive ejer. Stednavne og offentlige fakta forbliver de oprindelige kilders ejendom eller ansvar.",
-            "Spørgsmål kan sendes til KiwiCampings support."
+            "Varemærket KiwiCamping, brugerfladen og det originale redaktionelle indhold tilhører de respektive ejere. Stednavne og offentlige fakta forbliver de oprindelige kilders ejendom eller ansvar.",
+            "Spørgsmål kan sendes til supporten hos KiwiCamping."
           ]
         }
       ]
@@ -496,7 +496,7 @@
         {
           "heading": "Deklarer ved ankomsten",
           "body": [
-            "Deklarer brugte støvler, telte, fiskegrej, mad, plantemateriale og animalske produkter, når New Zealand Traveller Declaration (indrejseerklæringen) spørger om det. Når du deklarerer, kan kontrollanterne vurdere og rengøre tingene. Det er det, du skjuler, der udgør risikoen og udløser straffen.",
+            "Deklarer brugte støvler, telte, fiskegrej, mad, plantemateriale og animalske produkter, når New Zealand Traveller Declaration spørger om det. Når du deklarerer, kan kontrollanterne vurdere og rengøre tingene. Det er det, du skjuler, der udgør risikoen og udløser straffen.",
             "Pak udstyret, så det er nemt at undersøge. Skrub jord og planterester af, før du flyver, men deklarer alligevel tingen, når spørgsmålet gælder den."
           ],
           "tips": []
@@ -513,7 +513,7 @@
           "heading": "Smid ikke noget ud på må og få",
           "body": [
             "Hæld eller smid aldrig agn, akvarievand, spiselige planter eller ubehandlet vaskevand ud i naturen. Brug de affalds- og <a data-guide=\"camping-wastewater-rubbish-new-zealand\">spildevandssystemer</a>, der er beregnet til det.",
-            "Følg de regionale meddelelser om skadedyrsbekæmpelse og midlertidige rāhui (forbud, som lokale Māori lægger på et område eller en ressource). Lokale restriktioner kan beskytte en art eller et sted ud over de nationale minimumskrav."
+            "Følg de regionale meddelelser om skadedyrsbekæmpelse og midlertidige rāhui. Lokale restriktioner kan beskytte en art eller et sted ud over de nationale minimumskrav."
           ],
           "tips": []
         },
@@ -540,7 +540,7 @@
         {
           "heading": "Check, Clean, Dry mellem søer og floder",
           "body": [
-            "Didymo (en invasiv kiselalge) og andre skadelige ferskvandsorganismer spredes med fugtigt udstyr fra det ene afvandingsområde til det næste. Kravet gælder støvler, waders, telte, fiskegrej, paddleboards og alt andet, der har været i ferskvand, og det gælder lige så meget inde i New Zealand som ved grænsen.",
+            "Didymo og andre skadelige ferskvandsorganismer spredes med fugtigt udstyr fra det ene afvandingsområde til det næste. Kravet gælder støvler, waders, telte, fiskegrej, paddleboards og alt andet, der har været i ferskvand, og det gælder lige så meget inde i New Zealand som ved grænsen.",
             "Rengør grundigt, lad derefter udstyret tørre helt, og hold det tørt i mindst 48 timer, før det kommer i en anden sø eller flod. Hvor det ikke kan lade sig gøre at tørre det, bruger du i stedet de anbefalede behandlingsmidler."
           ],
           "tips": [
@@ -561,7 +561,7 @@
           "heading": "Derfor er reglerne så strenge",
           "body": [
             "New Zealands hjemmehørende arter har udviklet sig uden landpattedyr og har næsten intet forsvar mod dem. Indførte rovdyr, ukrudt og sygdomme har allerede udryddet arter, og grænsekontrollen findes, fordi landet stadig mister arter til ting, der kommer ind med bagagen.",
-            "Mund- og klovesyge, frugtfluer og myrtle rust (en svampesygdom på myrteplanter) er de indslæbninger, der har de største økonomiske og økologiske konsekvenser, og hver af dem er blevet stoppet ved grænsen mere end én gang. Den kontrol, du synes er besværlig, er grunden til, at det lykkes.",
+            "Mund- og klovesyge, frugtfluer og myrtle rust er de indslæbninger, der har de største økonomiske og økologiske konsekvenser, og hver af dem er blevet stoppet ved grænsen mere end én gang. Den kontrol, du synes er besværlig, er grunden til, at det lykkes.",
             "Det går hurtigt, og kontrollanterne er hjælpsomme, når du deklarerer. Straffen gives for at skjule noget, ikke for at eje mudrede støvler, og hele forskellen ligger i, om du sætter krydset."
           ],
           "tips": []
@@ -569,7 +569,7 @@
         {
           "heading": "Når du forlader landet igen",
           "body": [
-            "Nogle ting, du får fat i her, må ikke tages ud af landet, og andre kræver papirer. Alt, der er lavet af beskyttede arter, greenstone (newzealandsk jade) fra bestemte områder og visse plantematerialer er omfattet af restriktioner, som er værd at tjekke, før du pakker.",
+            "Nogle ting, du får fat i her, må ikke tages ud af landet, og andre kræver papirer. Alt, der er lavet af beskyttede arter, greenstone fra bestemte områder og visse plantematerialer er omfattet af restriktioner, som er værd at tjekke, før du pakker.",
             "Især Australien har sine egne strenge grænseregler, så udstyr, der er mudret, møder den samme grundige kontrol, når du rejser ud igen. Rengør alt igen før flyveturen hjem."
           ],
           "tips": [
@@ -601,7 +601,7 @@
       "description": "Booking, nattero, affald, kæledyr og forholdene på den enkelte plads afgør, hvordan et ophold på en DOC-campingplads i New Zealands beskyttede natur forløber.",
       "region": "DOC-campingpladser",
       "imageAlt": "Informationstavle på en campingplads drevet af Department of Conservation",
-      "intro": "Når du booker hos DOC (Department of Conservation, New Zealands statslige naturforvaltning), accepterer du både de landsdækkende betingelser og de lokale regler for stedet. Siden for den enkelte campingplads er stadig afgørende, for adgangsvej, bål, vand, hunde og regler for køretøjer varierer meget fra sted til sted.",
+      "intro": "Når du booker hos DOC, accepterer du både de landsdækkende betingelser og de lokale regler for stedet. Siden for den enkelte campingplads er stadig afgørende, for adgangsvej, bål, vand, hunde og regler for køretøjer varierer meget fra sted til sted.",
       "sections": [
         {
           "heading": "Book ærligt",
@@ -642,7 +642,7 @@
         {
           "heading": "Vandet er ofte ubehandlet",
           "body": [
-            "Mange DOC-pladser henter vandet fra vandløb eller fra tanke, der opsamler regnvand fra tagene, og vandet bliver ikke behandlet. Der er giardia (en tarmparasit) i New Zealands vand, og at en bæk er klar, siger intet om den. Kog vandet i mindst et minut, filtrer det, eller rens det kemisk, og gå ikke ud fra, at en vandhane er sikker, bare fordi den er der.",
+            "Mange DOC-pladser henter vandet fra vandløb eller fra tanke, der opsamler regnvand fra tagene, og vandet bliver ikke behandlet. Der er giardia i New Zealands vand, og at en bæk er klar, siger intet om den. Kog vandet i mindst et minut, filtrer det, eller rens det kemisk, og gå ikke ud fra, at en vandhane er sikker, bare fordi den er der.",
             "Hav drikkevand nok til at klare dig selv i en dag. Tanke løber tørre, der kommer kogeanbefalinger, og en campingplads, der står opført med vand, kan uden varsel vise sig at have en defekt vandforsyning."
           ],
           "tips": []
@@ -650,7 +650,7 @@
         {
           "heading": "Generatorer, droner og hunde",
           "body": [
-            "På mange pladser er generatorer begrænset eller forbudt, og hvor de er tilladt, må de som regel kun køre på bestemte tidspunkter. Droner kræver i de fleste tilfælde en særlig tilladelse fra DOC (en concession) på statens naturområder, og at flyve med en drone over en campingplads uden tilladelse er både ulovligt og dybt upopulært.",
+            "På mange pladser er generatorer begrænset eller forbudt, og hvor de er tilladt, må de som regel kun køre på bestemte tidspunkter. Droner kræver i de fleste tilfælde en særlig tilladelse fra DOC på statens naturområder, og at flyve med en drone over en campingplads uden tilladelse er både ulovligt og dybt upopulært.",
             "Hunde er forbudt i de fleste af statens naturområder på grund af risikoen for jordrugende fugle og kiwier. Nogle få campingpladser tillader hunde, men de fleste gør ikke, og i nogle områder kræver det en tilladelse. Tjek den konkrete plads i stedet for at gætte."
           ],
           "tips": [
@@ -662,7 +662,7 @@
         {
           "heading": "Maksimal opholdstid og opførsel på pladsen",
           "body": [
-            "De fleste <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> har en maksimal opholdstid, typisk nogle få nætter i træk, som skal forhindre, at folk slår sig ned for længe. Opsynsmændene håndhæver den faktisk på populære pladser om sommeren (december til februar), og flytter du bilen et par meter, starter du ikke forfra.",
+            "De fleste <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> har en maksimal opholdstid, typisk nogle få nætter i træk, som skal forhindre, at folk slår sig ned for længe. Opsynsmændene håndhæver den faktisk på populære pladser om sommeren, og flytter du bilen et par meter, starter du ikke forfra.",
             "Hold dig inden for den afmærkede plads, bred dig ikke ud over den med markise eller grej, hvor der er trangt, og overhold natteroen. Pladserne deles af mange og er ofte fulde, og alles fornøjelse afhænger af, at hver især holder sig til sin egen plads."
           ],
           "tips": []
@@ -680,7 +680,7 @@
           "heading": "Hvis campingpladsen er fuld",
           "body": [
             "Populære DOC-pladser er fyldt op midt på eftermiddagen om sommeren, og der er intet ekstra areal at rykke ud på. Du kan ikke lave din egen ekstra plads på græsset, på tilkørselsvejen eller ved toiletbygningen, og opsynsmændene vil bede dig køre videre.",
-            "Find et lovligt alternativ, før du ankommer, ikke bagefter. En <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> (kommerciel campingplads) en halv time væk er en langt bedre løsning end at køre sent på en ukendt vej og lede efter et hvilket som helst sted, der vil tage imod dig."
+            "Find et lovligt alternativ, før du ankommer, ikke bagefter. En <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> en halv time væk er en langt bedre løsning end at køre sent på en ukendt vej og lede efter et hvilket som helst sted, der vil tage imod dig."
           ],
           "tips": [
             "Populære pladser er fulde midt på eftermiddagen",
@@ -780,7 +780,7 @@
         {
           "heading": "Frugt og grønt i sæson, og hvad der er værd at købe",
           "body": [
-            "Den reelle besparelse ligger i at købe det, der er i sæson lokalt. Stenfrugt i Central Otago i januar og februar, bær i Bay of Plenty om sommeren (december til februar), avocadoer i Northland og æbler i Hawke's Bay om efteråret (marts til maj) er alle langt billigere der, hvor de dyrkes.",
+            "Den reelle besparelse ligger i at købe det, der er i sæson lokalt. Stenfrugt i Central Otago i januar og februar, bær i Bay of Plenty om sommeren, avocadoer i Northland og æbler i Hawke's Bay om efteråret er alle langt billigere der, hvor de dyrkes.",
             "Vejboderne i landbrugsegnene kører tit på tillid med en pengekasse og er væsentligt billigere end supermarkedet. Hav små sedler og en pose med, for de tager som regel kun kontanter og dukker op uden varsel.",
             "Frisk frugt og grønt uden for sæsonen er importeret og koster derefter. Den vane, der mest af alt sænker madbudgettet på en lang tur, er at bygge måltiderne op om det, der er billigt i den uge, i stedet for at følge en fast indkøbsliste."
           ],
@@ -851,13 +851,13 @@
       "description": "DOC-hytterne i New Zealand findes i fire kategorier: Serviced, Standard, Basic og Great Walk. De har hver deres faciliteter, priser og regler for booking.",
       "region": "Baglandet i New Zealand",
       "imageAlt": "Fjeldhytte i bjergene i New Zealand",
-      "intro": "En hytte er et fælles ly ude i naturen, ikke et overnatningssted gemt i bushen. Der står omkring 950 af dem rundt om på statens naturområder, som DOC (Department of Conservation, New Zealands statslige naturforvaltning) forvalter. De spænder fra en veludstyret bygning med varme og madrasser til et skur med to køjer og jordgulv. Hvilken kategori du går mod, afgør, hvad du skal have i rygsækken.",
+      "intro": "En hytte er et fælles ly ude i naturen, ikke et overnatningssted gemt i bushen. Der står omkring 950 af dem rundt om på statens naturområder, som DOC forvalter. De spænder fra en veludstyret bygning med varme og madrasser til et skur med to køjer og jordgulv. Hvilken kategori du går mod, afgør, hvad du skal have i rygsækken.",
       "sections": [
         {
           "heading": "De fire hyttekategorier",
           "body": [
             "Serviced-hytter er de bedst udstyrede: madrasser på køjerne, vandforsyning, toiletter og som regel opvarmning, hvor brændslet følger med. Standard-hytter har ikke brændsel til varmen og nogle gange heller ikke madrasser, men der er køjer, vand og et toilet. Basic-hytter er ly og ikke meget mere, og der er måske slet ingen vandkilde.",
-            "Great Walk-hytterne (på Great Walks, New Zealands kendteste flerdagsvandringer) står uden for den rangorden. I vandresæsonen holder de en høj standard, de koster betydeligt mere, og de har deres eget bookingsystem knyttet til den enkelte rute. Uden for sæsonen falder de typisk til en lavere standard og en lavere pris, og faciliteterne bliver skåret ned eller fjernet."
+            "Great Walk-hytterne står uden for den rangorden. I vandresæsonen holder de en høj standard, de koster betydeligt mere, og de har deres eget bookingsystem knyttet til den enkelte rute. Uden for sæsonen falder de typisk til en lavere standard og en lavere pris, og faciliteterne bliver skåret ned eller fjernet."
           ],
           "tips": [
             "Kategorien viser faciliteter og pris",
@@ -1203,7 +1203,7 @@
       "eyebrow": "Campingprisberegner",
       "cardEyebrow": "Prissammenligning",
       "h1": "Campingprisberegner: pr. person eller pr. plads",
-      "intro": "DOC-campingpladser (DOC er New Zealands statslige naturforvaltning) tager betaling pr. voksen pr. nat, mens en Holiday Park som regel tager betaling pr. plads. Hvad der er billigst, skifter med selskabets størrelse, og her kan du regne det ud for dine nætter.",
+      "intro": "DOC-campingpladser tager betaling pr. voksen pr. nat, mens en Holiday Park som regel tager betaling pr. plads. Hvad der er billigst, skifter med selskabets størrelse, og her kan du regne det ud for dine nætter.",
       "cardTitle": "Pr. person eller pr. plads?",
       "cardText": "En DOC-campingplads tager som regel betaling pr. voksen, og en Holiday Park tager som regel betaling pr. plads. Den billigste løsning skifter med selskabets størrelse, og det overrasker mange familier.",
       "labelAdults": "Voksne",
