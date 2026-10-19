@@ -149,8 +149,8 @@ export const legacyOnlyArticles: Article[] = [
   a({
     slug: "responsible-camping-new-zealand",
     legacyPath: "/responsible-camping-nz.html",
-    title: "Responsible camping in New Zealand",
-    description: "Leave No Trace applied to Aotearoa: waste, biosecurity, rāhui, wildlife and the community expectations that keep sites open.",
+    title: "Responsible Camping NZ: Leave No Trace Rules and Etiquette",
+    description: "Leave No Trace in New Zealand: toilet waste, rubbish, biosecurity, rāhui and wildlife, and the habits that keep freedom camping sites open.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 12,

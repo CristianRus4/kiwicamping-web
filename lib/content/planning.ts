@@ -93,8 +93,8 @@ export const planningArticles: Article[] = [
 
   a({
     slug: "new-zealand-driving-day-planner",
-    title: "How long should a New Zealand driving day be?",
-    description: "Mountain roads, one-lane bridges and scenic stops make kilometres a poor measure of effort.",
+    title: "NZ Driving Times and Distances: How Far to Drive a Day",
+    description: "Why New Zealand kilometres take longer than the map says: mountain roads, one-lane bridges and stops, and how far to plan for a campervan day.",
     category: "Trip planning", region: "New Zealand roads", readTime: 4,
     places: ["West Coast", "Coromandel", "Tākaka Hill", "Milford Road", "Catlins", "Queen Charlotte Drive"],
     imageAlt: "Winding New Zealand road through hills",
