@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/guides/queenstown-glenorchy-camping/",
+ "slug": "queenstown-glenorchy-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "queenstown to glenorchy camping",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "'Queenstown Lakes District enforces freedom camping restrictions strictly, with defined zones, certification requirements': vague; Kiwi blue self-containment warrants are no longer recognised since 7 June 2026, so any certification wording must reflect the current rule and be sourced to QLDC/NZ Government",
+  "'Allow well over an hour each way' and '45 kilometres': Glenorchy is about 45 km from Queenstown; fine, but unsourced",
+  "DOC sites 'Twelve Mile Delta and Moke Lake': DOC lists Moke Lake as its conservation campsite (bookings required); Twelve Mile Delta operator is disputed in sources, so verify before asserting fees or pass use"
+ ],
+ "cannibalWith": [
+  "/guides/rakiura-stewart-island-camping-guide/",
+  "/guides/new-zealand-three-week-campervan-route/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Queenstown to Glenorchy Camping: 3-Day Trip Guide",
+  "meta": "Camp from Queenstown to Glenorchy and Paradise: DOC sites, freedom camping limits, gravel roads and walks.",
+  "h1": "Queenstown to Glenorchy: a 3-day camping escape",
+  "addSections": [
+   "Updated freedom-camping rule box with QLDC link and the June 2026 self-containment change",
+   "DOC campsite list with fee/booking status from app data",
+   "Distance and time table"
+  ],
+  "faqFromQueries": [
+   "Where can you camp near Queenstown?",
+   "Can you freedom camp in Queenstown?"
+  ],
+  "cta": "'See DOC campsites and freedom-camping notices around Lake Wakatipu in KiwiCamping' map screenshot + QR; DOC data is Pass; do not describe DOC notices as council bylaws.",
+  "linksIn": [
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/doc-campsite-rules/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/",
+   "/guides/river-crossing-safety-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/free-camping-nz-legal.html"
+  ]
+ },
+ "notes": "No Search Console impressions. Queenstown head terms are brutal; the page's value is as a support page for South Island route. Retain, fix the freedom-camping wording, and link in from the 3-week route."
+}

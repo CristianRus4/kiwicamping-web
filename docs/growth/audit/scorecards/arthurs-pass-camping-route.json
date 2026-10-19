@@ -1,0 +1,53 @@
+{
+ "url": "https://campingapp.nz/guides/arthurs-pass-camping-route/",
+ "slug": "arthurs-pass-camping-route",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 183,
+  "pos": 18.8,
+  "topQueries": []
+ },
+ "primaryQuery": "arthur's pass camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 52.6,
+ "accuracyFlags": [
+  "'Fill up in Springfield ... or Kumara' fuel claims unverified; Kumara fuel availability doubtful, check",
+  "No dated road-status or official NZTA/DOC links for the pass; closure claims undated"
+ ],
+ "cannibalWith": [
+  "/guides/wanaka-haast-pass-route",
+  "/guides/picton-kaikoura-christchurch-route"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Arthur's Pass Camping Route: Christchurch to West Coast",
+  "meta": "Where to camp and stop on SH73: Castle Hill, Arthur's Pass village, Otira Gorge, kea warnings and winter chain rules, with a map to save.",
+  "h1": "Arthur's Pass camping route from Christchurch to the West Coast",
+  "addSections": [
+   "Named DOC campsites with facilities and fees",
+   "Drive times and distances by leg",
+   "Winter conditions and NZTA status link",
+   "Lewis Pass alternative comparison"
+  ],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/wanaka-haast-pass-route",
+   "/guides/picton-kaikoura-christchurch-route"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "183 impr pos 18.8, CTR 1.1% meets expected for position. Needs named DOC campsites (Klondyke Corner, Lake Pearson etc.), drive times/distances, fees, winter chain rules with NZTA link."
+}

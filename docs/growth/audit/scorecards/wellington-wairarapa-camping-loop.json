@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/guides/wellington-wairarapa-camping-loop/",
+ "slug": "wellington-wairarapa-camping-loop",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "green warrant wellington (4, pos 18.5) [unrelated]"
+  ]
+ },
+ "primaryQuery": "wellington wairarapa camping road trip",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 42.1,
+ "accuracyFlags": [
+  "'Te Papa is free' - Te Papa has introduced charges for international visitors to some exhibitions; for an international audience, verify and date.",
+  "Spelling inconsistent: 'Remutaka Range' in intro, 'Rimutaka Hill Road' in body; use one official form (Remutaka) with both as aliases.",
+  "'250 steps up to the lighthouse' - Cape Palliser lighthouse is 253 steps; minor.",
+  "Rimutaka/Remutaka closure claim ('closes to high-sided vehicles in strong wind') has no NZTA source link."
+ ],
+ "cannibalWith": [
+  "/guides/ (no direct competitor on-site)"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Wellington and Wairarapa Camping Loop: 4 Days",
+  "meta": "A 4-day camping loop from Wellington over the Remutaka Hill to Martinborough and Cape Palliser, with wind tips for campervans.",
+  "h1": "Wellington and Wairarapa: a 4-day camping loop",
+  "addSections": [
+   "Where to camp: Hutt Valley, Martinborough, Cape Palliser area (DOC and parks)",
+   "Ferry-day last night planning with link to holiday park guide",
+   "NZTA Remutaka Hill Road status link"
+  ],
+  "faqFromQueries": [
+   "Can campervans drive the Remutaka Hill Road?",
+   "Where can you camp near Wellington?"
+  ],
+  "cta": "Open Wellington and Wairarapa in KiwiCamping to compare holiday parks and DOC campsites on the loop.",
+  "linksIn": [
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/alcohol-fatigue-driving-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/alcohol-fatigue-driving-new-zealand/",
+   "/holiday-parks-nz-booking-guide.html"
+  ]
+ },
+ "notes": "No GSC data. Page title uses exact place names; low competition niche. Related guides are unrelated Northland/Coromandel trips. Related-guides block shows North Island trips (Bay of Islands, Coromandel, Northland) regardless of topic; no contextual in-body links. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

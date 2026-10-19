@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/guides/wanaka-haast-pass-route/",
+ "slug": "wanaka-haast-pass-route",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 133,
+  "pos": 13.1,
+  "topQueries": [
+   "wanaka to haast pass (10, pos 10.0)",
+   "haast pass (23, pos 41.6)",
+   "wanaka to haast (7, pos 47.3)"
+  ]
+ },
+ "primaryQuery": "wanaka to haast pass",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'Review Waka Kotahi updates' - agency now brands as NZTA; the same site uses NZTA elsewhere. Replace and link NZTA highway status (SH6).",
+  "Blue Pools bridge/track status and 'Do not jump from the bridge; it is prohibited' - no dated DOC source; add current DOC link and date.",
+  "'Lowest road pass over the Southern Alps at 563 metres' - correct for Haast; add source."
+ ],
+ "cannibalWith": [
+  "/guides/west-coast-south-island-road-trip/ (Haast Pass / sandflies)",
+  "/guides/south-island-two-week-road-trip/"
+ ],
+ "action": "RETITLE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Wanaka to Haast Pass: Drive, Stops and Camping Guide",
+  "meta": "Wanaka to Haast Pass in 3 days: Lake Hawea, Makarora, Blue Pools and where to camp, plus road status checks and sandfly warnings.",
+  "h1": "Wānaka to Haast Pass: a 3-day camping route",
+  "addSections": [
+   "Fact box: Wanaka to Haast distance and drive time, fuel at Makarora",
+   "DOC campsites between Makarora and Haast (list from app data)",
+   "NZTA SH6 status link and winter chain note"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive Wanaka to Haast?",
+   "Is Haast Pass open?",
+   "Is there fuel between Wanaka and Haast?"
+  ],
+  "cta": "See DOC campsites along SH6 in KiwiCamping: facilities, fees and fee-free sites around Makarora and Haast (Pass).",
+  "linksIn": [
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/south-island-two-week-road-trip/",
+   "/guides/sandflies-new-zealand-camping/"
+  ],
+  "linksOut": [
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/sandflies-new-zealand-camping/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/"
+  ]
+ },
+ "notes": "133 impressions, 0 clicks at pos 13.1 (expected ~1 click at 1%): below half, but small numbers; 'wanaka to haast pass' ranks pos 10 so a tighter title and a fact box could convert. West Coast guide overlaps on Haast; keep this page as owner of 'wanaka to haast'. Stale agency name. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

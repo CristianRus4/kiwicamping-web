@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/top-scenic-campsites-nz.html",
+ "slug": "top-scenic-campsites-nz",
+ "gsc90": {
+  "clicks": 6,
+  "impr": 432,
+  "pos": 44.1,
+  "topQueries": [
+   "southern scenic route",
+   "best campsites new zealand",
+   "scenic campsites new zealand"
+  ]
+ },
+ "primaryQuery": "best scenic campsites new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 48.4,
+ "accuracyFlags": [
+  "Names regions but few named sites or fees; 'FAQ lists them region by region' promises more than the page delivers.",
+  "Dark sky reserve claim for the Mackenzie is correct (Aoraki Mackenzie International Dark Sky Reserve) but uncited; add the source.",
+  "'Fiordland... freedom camping near the fiords is not permitted' is stated without a source; link DOC and note it is DOC notices vs council bylaws."
+ ],
+ "cannibalWith": [
+  "/guides/where-to-camp-in-new-zealand",
+  "/guides/doc-campsites-huts-guide"
+ ],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Best Scenic Campsites in New Zealand, Region by Region",
+  "meta": "The best-known scenic NZ campsites by region, with booking needs, wind and flood risks and how to judge a view before you park.",
+  "h1": "Scenic campsites in New Zealand, region by region",
+  "addSections": [
+   "Named top sites per region with booking status and fee (DOC data)",
+   "Photo per region",
+   "Wind/flood risk quick table"
+  ],
+  "faqFromQueries": [
+   "What is the most scenic campsite in New Zealand?",
+   "Which scenic campsites need booking?"
+  ],
+  "cta": "Card on the app's DOC campsite map and filters (Pass) for named sites near each view",
+  "linksIn": [
+   "/guides/where-to-camp-in-new-zealand",
+   "/nz-camping-seasons-weather-sandflies.html",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/guides/doc-campsites-huts-guide",
+   "/nz-camping-seasons-weather-sandflies.html"
+  ]
+ },
+ "notes": "Pos 44 on 432 impressions: rewrite with named sites and DOC data to climb from page 5. Overlaps where-to-camp hub. Mostly editorial, not rule-bearing."
+}

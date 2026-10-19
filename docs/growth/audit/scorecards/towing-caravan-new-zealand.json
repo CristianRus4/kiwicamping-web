@@ -1,0 +1,72 @@
+{
+ "url": "https://campingapp.nz/guides/towing-caravan-new-zealand/",
+ "slug": "towing-caravan-new-zealand",
+ "gsc90": {
+  "clicks": 8,
+  "impr": 395,
+  "pos": 8.2,
+  "topQueries": [
+   "towing capacity nz (18, pos 48.2)",
+   "towing a caravan nz (9, pos 17.1)",
+   "caravan towing regulations (7, pos 63.7)",
+   "speed limit when towing a caravan (2, pos 5.0)",
+   "max speed towing a caravan (2, pos 8.0)"
+  ]
+ },
+ "primaryQuery": "towing a caravan nz / towing regulations nz",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 1,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 48.4,
+ "accuracyFlags": [
+  "FAQ: 'A full car licence covers most combinations up to 4,500 kg of combined weight. Above that you need a heavier class.' - wrong: NZTA says 4,500 kg combined is the limit for learner/restricted licences; a full class 1 licence allows combined weight up to 6,000 kg (and trailers over 3,500 GLW need a further endorsement). Fix.",
+  "FAQ: '90 km/h ... applies whatever the sign says' - wrong direction: 90 km/h is a maximum; a lower signed limit still applies.",
+  "Body: 'The maximum open-road speed while towing is 90 km/h with a rigid connection' - rigid-connection qualifier is correct but unexplained; non-rigid connection max is 50 km/h on any road.",
+  "Section 07 lists Crown Range and Rimutaka Hill Road as 'prohibited or strongly discouraged for large combinations' - neither is prohibited for ordinary caravans; Rimutaka closes to high-sided vehicles in wind only. Reword and cite NZTA.",
+  "'Light trailers and caravans are limited to 90 km/h' and 'ten percent tow ball weight' - unsourced beyond NZTA general page; add specific NZTA light-trailer and towing page links, dated 2026.",
+  "Page says tow capacity 'is a legal limit' - correct only for vehicle/towbar plate limits; clarify."
+ ],
+ "cannibalWith": [
+  "/guides/speed-limits-new-zealand-visitors/ (towing speed cluster)",
+  "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Towing a Caravan in NZ: Licence, Weight and 90 km/h Limit",
+  "meta": "NZ caravan towing rules for 2026: 90 km/h maximum, licence combined-weight limits, towbar ratings and the roads to avoid with a caravan.",
+  "h1": "Towing a caravan in New Zealand: rules, licence and weight limits",
+  "addSections": [
+   "Licence table: class 1 learner/restricted 4,500 kg combined; full licence 6,000 kg; trailers over 3,500 kg GLW (NZTA)",
+   "Brakes, WOF/COF and trailer registration basics for visitors with overseas licences",
+   "Towing capacity: where to find the plate figure, how rental limits differ",
+   "Roads and passes demanding for caravans (with NZTA link, not a prohibition list)"
+  ],
+  "faqFromQueries": [
+   "What is the maximum towing capacity in NZ?",
+   "Do I need a special licence to tow a caravan in NZ?",
+   "What is the speed limit when towing in NZ?",
+   "What are the caravan towing regulations in NZ?"
+  ],
+  "cta": "Plan caravan-friendly stops in KiwiCamping: filter DOC campsites by campervan access and powered sites, find dump stations on the route (Pass).",
+  "linksIn": [
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/winter-camping-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "https://www.nzta.govt.nz/vehicles/vehicle-types/motorhomes-caravans-light-trailers"
+  ]
+ },
+ "notes": "P0: licence-weight FAQ is wrong (4,500 kg is the restricted/learner figure; full licence 6,000 kg), also reproduced in FAQ schema, so rich results carry the error. Facts confirmed against NZTA via search: 90 km/h cap for light and heavy vehicles towing (rigid connection), light trailer = up to 3,500 kg GVM. After facts fixed, CTR 2.0% at pos 8.2 vs 3% expected is below par but above half; consider 'towing capacity nz' (pos 48) and 'towing regulations' (pos 64) as expansion targets. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

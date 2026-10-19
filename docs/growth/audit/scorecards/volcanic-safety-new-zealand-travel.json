@@ -1,0 +1,63 @@
+{
+ "url": "https://campingapp.nz/guides/volcanic-safety-new-zealand-travel/",
+ "slug": "volcanic-safety-new-zealand-travel",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 230,
+  "pos": 5.8,
+  "topQueries": [
+   "geonet tongariro volcanic alert level 0 (9, pos 6.0)",
+   "volcanic alert levels range from 0 to 5 (5, pos 8.4)"
+  ]
+ },
+ "primaryQuery": "volcanic alert levels nz",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'Level 2 and above bring closures of tracks and, at Tongariro, sections of the Alpine Crossing' - closures follow DOC risk assessment, not automatically VAL 2; the Crossing normally stays open at VAL 1 and can be open at 2. Reword.",
+  "FAQ: 'Level 0 to 2 covers everything from dormant to minor unrest' - GeoNet: 0 no unrest, 1 minor unrest, 2 moderate to heightened unrest, 3 minor eruption. Level 2 is not 'minor unrest'; fix definitions and cite GeoNet VAL table.",
+  "'Level 1 ... is common at Ruapehu and White Island' - White Island/Whakaari tours ended after the 2019 eruption; update and avoid implying visits.",
+  "Alert levels and Tongariro closure status are time-sensitive; page lacks a dated 'as of' with live GeoNet/DOC link at the top."
+ ],
+ "cannibalWith": [
+  "/guides/winter-camping-new-zealand/ (Tongariro conditions)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Volcanic Alert Levels 0-5 Explained for Travellers",
+  "meta": "What GeoNet volcanic alert levels 0 to 5 mean for Tongariro, Ruapehu and Rotorua trips, how closures work and where to check status.",
+  "h1": "Volcanic alert levels in New Zealand: what they mean for your trip",
+  "addSections": [
+   "Table of Levels 0-5 with GeoNet wording and what it means for access",
+   "Live status links: GeoNet, DOC Tongariro alerts",
+   "Camping near Tongariro and Ruapehu: DOC sites open under current alert"
+  ],
+  "faqFromQueries": [
+   "What do the volcanic alert levels mean in NZ?",
+   "What is the current volcanic alert level at Tongariro?",
+   "Is it safe to camp near Mount Ruapehu?"
+  ],
+  "cta": "Open Tongariro National Park in KiwiCamping to see DOC campsites, huts and track notices on the map (Pass).",
+  "linksIn": [
+   "/guides/winter-camping-new-zealand/",
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/doc-campsite-rules/"
+  ],
+  "linksOut": [
+   "/guides/winter-camping-new-zealand/",
+   "/guides/doc-campsite-rules/",
+   "https://www.geonet.org.nz/volcano/alertLevels",
+   "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/alerts/"
+  ]
+ },
+ "notes": "CTR 1.7% at pos 5.8 vs 6% expected: well under half (3%), so RETITLE; best-ranking page in the batch for queries matching alert-level definitions, so the table-of-levels must be correct (it is partially wrong in the FAQ). Title currently 'Volcanic safety around Tongariro...' does not lead with 'alert levels'. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

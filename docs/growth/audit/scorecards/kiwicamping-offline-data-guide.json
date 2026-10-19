@@ -1,0 +1,63 @@
+{
+ "url": "https://campingapp.nz/guides/kiwicamping-offline-data-guide/",
+ "slug": "kiwicamping-offline-data-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "does kiwicamping work offline / camping app offline new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 52.6,
+ "accuracyFlags": [
+  "Body says 'Street View imagery also needs a connection' and FAQ lists 'Street View': the app uses Apple Look Around, rename.",
+  "'bundles more than 6,500 New Zealand place records' (also in H-list) cannot be reconciled with lib/data/product-facts.json: DOC campsites 287 + huts 927 + tracks 1,453 + freedom notices 354 + dump stations 262 + day-use 1,699 = 4,982 (dataAsOf 2026-08-24). The rest would be partner BookIt stays; confirm the number or restate from product-facts. Not a headline total the owner excluded, so keep it verified.",
+  "Page title/H1 'What works offline' invites the 'offline maps' misread: add one explicit sentence that KiwiCamping is not an offline map app (place details, saved lists and guides work offline; map tiles, weather, routing, booking pages and Look Around need a connection). Body says 'some map imagery' needs connection, which is understated.",
+  "FAQ says 'Search, filters and your saved places work offline too' with no Pass boundary: free tier offline data is BookIt stays/tours only; DOC data requires Pass."
+ ],
+ "cannibalWith": [
+  "best-nz-camping-apps.html",
+  "kiwicamping-weather-look-around",
+  "plan-trip-kiwicamping"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Does KiwiCamping work offline? What needs signal",
+  "meta": "Place details, saved lists and guides work without reception; maps, weather, routing and Look Around need a connection. What to do before the West Coast.",
+  "h1": "What works offline in KiwiCamping (and what does not)",
+  "addSections": [
+   "Plain statement: not an offline map app",
+   "Table: works offline vs needs connection (Look Around, weather, routing, tiles, booking)",
+   "Free vs Pass offline data",
+   "Coverage black spots with links to West Coast, Fiordland and East Cape road trips"
+  ],
+  "faqFromQueries": [
+   "Does KiwiCamping work without internet?",
+   "Can I use a camping app offline in New Zealand?"
+  ],
+  "cta": "Before you leave signal: open the places for tonight and tomorrow so details are ready; screenshot of a place screen in airplane mode; Pass status note.",
+  "linksIn": [
+   "/guides/new-zealand-road-trip-fuel-cost-2026/",
+   "/guides/fiordland-camping-road-trip/",
+   "/guides/west-coast-south-island-road-trip/",
+   "/best-nz-camping-apps.html"
+  ],
+  "linksOut": [
+   "/guides/kiwicamping-weather-look-around/",
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/fiordland-camping-road-trip/",
+   "/guides/river-crossing-safety-new-zealand/"
+  ]
+ },
+ "notes": "No impressions. Accuracy gate fails on Street View wording and the unreconciled 6,500 count plus missing offline-map disclaimer. Only inbound contextual link seen is from the fuel-cost guide (anchor 'no reception'). Live CTA is the generic 'Save the stops. Plan the whole trip.' card with an App Store link (ct=w_card_en); no screenshot of the relevant feature, no QR, no Pass/free statement."
+}

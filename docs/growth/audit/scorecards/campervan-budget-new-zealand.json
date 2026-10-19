@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/campervan-budget-new-zealand/",
+ "slug": "campervan-budget-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": 0,
+  "topQueries": []
+ },
+ "primaryQuery": "new zealand campervan trip cost",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 41.1,
+ "accuracyFlags": [
+  "Cost page with no dated 2026 prices at all (only illustrative $5,000 excess, 12 L/100km); no official fuel or fare source",
+  "Overnight mix ignores that freedom camping needs a certified self-contained vehicle under the current regime"
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-travel-cost-2026",
+  "/guides/new-zealand-road-trip-fuel-cost-2026",
+  "/camping-costs-nz",
+  "/guides/public-transport-costs-new-zealand-2026"
+ ],
+ "action": "MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "NZ Campervan Trip Budget: Daily Costs 2026",
+  "meta": "Rental, fuel, campsites, ferry and food broken into a daily campervan budget, with the bond, excess and kilometre traps to price in.",
+  "h1": "How much does a New Zealand campervan trip cost?",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/new-zealand-travel-cost-2026",
+   "/guides/new-zealand-road-trip-fuel-cost-2026",
+   "/camping-costs-nz"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "No impressions in pages list; queries 'campervan fuel cost new zealand' pos 58 and 'camperhuur nz budget' pos 20 show scattered demand. Fold into new-zealand-travel-cost-2026 (356 impr pos 6.9) and redirect; alternative is rewriting with dated numbers."
+}

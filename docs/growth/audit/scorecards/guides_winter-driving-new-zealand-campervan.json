@@ -1,0 +1,60 @@
+{
+ "url": "https://campingapp.nz/guides/winter-driving-new-zealand-campervan/",
+ "slug": "guides_winter-driving-new-zealand-campervan",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "winter driving new zealand campervan",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "Section 04 lists the Desert Road among roads where chain fitting is 'required at times': the Desert Road (SH1) is usually closed rather than chain-controlled; verify against NZTA before keeping.",
+  "FAQ says 'Rental campervans usually carry them' (chains) while body says 'some rental agreements require you to carry them': inconsistent and unsourced; many rentals prohibit or exclude winter alpine use.",
+  "Refers to 'NZTA' and 'Waka Kotahi' interchangeably in sections 01 and 07; use NZTA Waka Kotahi once with the official link.",
+  "Midwinter 'roughly nine hours of usable light in the south' is unsourced; MetService/NIWA sunrise tables give about 8.5 h in Queenstown at the solstice."
+ ],
+ "cannibalWith": [
+  "/guides/campervan-road-rules-new-zealand",
+  "/guides/cook-strait-ferry-campervan-guide"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Winter Driving in a NZ Campervan: Chains, Ice and Passes",
+  "meta": "Snow chains, black ice and alpine pass rules for campervans in New Zealand: when chains are required, how to fit them and where to check NZTA road status.",
+  "h1": "Winter driving in a New Zealand campervan",
+  "addSections": [
+   "Chain-control signs explained (NZTA 'chains required' vs 'closed')",
+   "Rental agreement winter clauses to check",
+   "Winter pass table with NZTA live-status links"
+  ],
+  "faqFromQueries": [
+   "Do I need snow chains for a campervan in New Zealand?",
+   "Is the Crown Range open in winter?",
+   "Can I take a rental campervan over Arthur's Pass in winter?"
+  ],
+  "cta": "Card naming the app's road trip routes and DOC campsite open/closed status so winter stops can be checked before leaving",
+  "linksIn": [
+   "/guides/campervan-road-rules-new-zealand",
+   "/nz-camping-seasons-weather-sandflies.html",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/nz-camping-seasons-weather-sandflies.html",
+   "/guides/wof-registration-campervan-new-zealand/",
+   "/guides/cook-strait-ferry-campervan-guide"
+  ]
+ },
+ "notes": "No Search Console rows (below the 70-impression export floor), so no evidence of demand yet; new guide in the 13 Oct translation deploy. Keep, verify chain-control claims, add official-source detail. Contains road rules, so rulesOrLegal."
+}

@@ -1,0 +1,87 @@
+{
+ "url": "https://campingapp.nz/guides/campervan-road-rules-new-zealand/",
+ "slug": "campervan-road-rules-new-zealand",
+ "gsc90": {
+  "clicks": 3,
+  "impr": 507,
+  "pos": 11.0,
+  "topQueries": [
+   "can you drive a motorhome on a car licence nz",
+   "what size motorhome can i drive on a car licence",
+   "is it safe to drive campervan in new zealand"
+  ]
+ },
+ "primaryQuery": "campervan driving rules new zealand",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  {
+   "claim": "Wind section: 'some routes close to high-sided vehicles in strong wind, including the Rimutaka Hill Road and parts of the Desert Road' (lib/content/rules.ts).",
+   "correct": "Use the official name Remutaka Hill (SH2, renamed 2017). NZTA closes SH2 Remutaka Hill in severe wind (recently to all traffic) and warns high-sided vehicles; for SH1 Desert Road NZTA issues strong-wind cautions only, with no wind closure to high-sided vehicles found. Suggested: 'NZTA closes SH2 Remutaka Hill in severe wind and warns high-sided vehicles on exposed routes such as the SH1 Desert Road; check NZTA Journey Planner before you travel.'",
+   "source": "https://www.journeys.nzta.govt.nz/traffic-bulletins/state-highway-2-remutaka-hill-closed-due-to-high-winds ; https://nzta.govt.nz/media-releases/take-care-as-strong-winds-batter-sh2-remutaka-hill ; https://nzta.govt.nz/media-releases/take-care-its-windy-out-there"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/speed-limits-new-zealand-visitors",
+  "/guides/overseas-driver-licence-new-zealand",
+  "/guides/wof-registration-campervan-new-zealand",
+  "/guides/left-side-driving-new-zealand",
+  "/guides/towing-caravan-new-zealand"
+ ],
+ "action": "EXPAND",
+ "priority": "P1",
+ "proposed": {
+  "title": "Campervan Driving Rules NZ: Licence, Speed & Size (2026)",
+  "meta": "Can you drive a campervan on a car licence in NZ? Weight limits, seatbelts, wind closures, ferry height rules and the mistakes visitors make.",
+  "h1": "Campervan driving rules in New Zealand: licence, size and safety",
+  "addSections": [
+   "Car licence eligibility: Class 1 and GVM limit",
+   "Overseas licence and translation requirement",
+   "Speed limits by vehicle weight",
+   "Seatbelt and child restraint rules with NZTA source",
+   "Wind closure routes with NZTA link"
+  ],
+  "faqFromQueries": [
+   "Can you drive a motorhome on a car licence in NZ?",
+   "What size campervan can I drive on a car licence?",
+   "Is it safe to drive a campervan in New Zealand?"
+  ],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/speed-limits-new-zealand-visitors",
+   "/guides/overseas-driver-licence-new-zealand",
+   "/guides/wof-registration-campervan-new-zealand"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "507 impr pos 11.0, CTR 0.6% (expected 1%: not below half). Locale de/es also 355 impr. Page is a hub candidate: add licence/GVM answer, link to overseas-licence, WoF, speed-limits as spokes. Queries on car-licence eligibility rank pos 59-74.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 1,
+  "rejectedFlags": [
+   "Class 1 licence: 'A campervan can be legal on a Class 1 licence' is correct (full Class 1 covers up to 6,000 kg GLW; overseas licence holders treated as Class 1 for 12 months). Omission, not error.",
+   "3,500 kg speed threshold without 'gross': correct per NZTA (heavy vehicles over 3,500 kg gross 90 km/h); imprecise, not wrong.",
+   "Child restraints for under-sevens: matches NZTA; exemptions omitted, not an error."
+  ],
+  "editorialSuggestions": [
+   "Add the 6,000 kg Class 1 limit and overseas-licence rule: it answers the car-licence queries ranking at pos 59-74."
+  ],
+  "auditorFlagsBefore": [
+   "'Legal on a Class 1 licence' states no weight limit (Class 1 covers up to 6,000 kg GVM) and omits overseas licence/translation rules, though queries ask exactly this",
+   "Speed-limit FAQ cites 3,500 kg without saying it is gross vehicle mass; no 2026 dated NZTA source",
+   "Wind closures named for Rimutaka Hill and Desert Road: verify current NZTA high-sided-vehicle policy",
+   "Child restraint 'under-sevens' lacks the exemptions and standard wording from NZTA"
+  ]
+ }
+}

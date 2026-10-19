@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/guides/cook-strait-ferry-campervan-guide/",
+ "slug": "cook-strait-ferry-campervan-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 175,
+  "pos": 8.9,
+  "topQueries": [
+   "ferry prices",
+   "campervan ferry new zealand"
+  ]
+ },
+ "primaryQuery": "cook strait ferry campervan",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "No fare figures, sailing times or check-in minutes dated 2026; 'check-in an hour or more' not sourced to Interislander/Bluebridge",
+  "Cites NZTA journey planner and MetService but not the operators' official booking/vehicle-size pages",
+  "Crossing 'about three and a half hours' fine but undated"
+ ],
+ "cannibalWith": [
+  "/guides/bus-ferry-train-costs-new-zealand",
+  "/guides/picton-kaikoura-christchurch-route",
+  "/guides/public-transport-costs-new-zealand-2026"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Cook Strait Ferry with a Campervan: Fares & Booking 2026",
+  "meta": "Interislander vs Bluebridge for a campervan: how length and height set the fare, check-in times, change terms and what to do before boarding.",
+  "h1": "Cook Strait ferry with a campervan: booking and boarding",
+  "addSections": [
+   "Interislander vs Bluebridge comparison table",
+   "Sample 2026 campervan fares by length",
+   "Check-in time per operator"
+  ],
+  "faqFromQueries": [
+   "How much is the Cook Strait ferry for a campervan?",
+   "Interislander or Bluebridge for a campervan?"
+  ],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/bus-ferry-train-costs-new-zealand",
+   "/guides/picton-kaikoura-christchurch-route",
+   "/guides/public-transport-costs-new-zealand-2026"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "175 impr pos 8.9 and 0 clicks vs ~5 expected: RETITLE. Add a vehicle-size fare table with 2026 date and official operator links; keep fares in one place (cannibal with bus-ferry-train page)."
+}

@@ -1,0 +1,91 @@
+{
+ "url": "https://campingapp.nz/guides/doc-campsite-rules/",
+ "slug": "doc-campsite-rules",
+ "gsc90": {
+  "clicks": 7,
+  "impr": 518,
+  "pos": 6.8,
+  "topQueries": [
+   "doc campsites (pos 13, 553 impr)",
+   "doc campsite booking (pos 9)",
+   "doc campsite pass (pos 16.9)",
+   "doc campsite cancellation policy (pos 9.1)",
+   "doc campsite bookings (pos 6.5)"
+  ],
+  "note": "en only; fr 7/174, nl 4/162, es 0/119, pt 1/103 also at pos 6-8"
+ },
+ "primaryQuery": "doc campsite rules",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  {
+   "claim": "'Dogs are prohibited on most public conservation land ... A few campsites permit them; the majority do not, and a permit is required in some areas.' (lib/content/rules.ts line 6). 'A few' understates it; minor wording problem.",
+   "correct": "Most DOC campsites ban dogs (207 of 287 in the app's DOC campsite data, about 72%); about a quarter allow them in some form (42 on a leash, 5 unrestricted, 27 with a DOC permit; 74 of 287). Dogs are never allowed in national park campsites. Suggested: 'Most DOC campsites do not allow dogs; about a quarter do, on a leash or with a DOC permit. Check the specific campsite page.'",
+   "source": "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/dog-access/where-you-can-take-your-dog/ ; counts from Kiwi/Camp/BundledData/campsites.json 'dogs' field"
+  }
+ ],
+ "cannibalWith": [
+  "/doc-campsites-huts-guide (legacy hub, 12.6k impr, pos 9, owns 'doc campsites/booking' cluster)",
+  "/guides/doc-huts-new-zealand-guide",
+  "/guides/dogs-camping-new-zealand"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "DOC Campsite Rules 2026: Booking, Pass, Dogs, Fires | KiwiCamping",
+  "meta": "DOC campsite rules for 2026: how booking and the Campsite Pass differ, quiet hours, dogs, fires, generators and maximum stay. Check the site first.",
+  "h1": "DOC campsite rules for 2026: booking, passes, dogs and fires",
+  "addSections": [
+   "Booking vs Campsite Pass vs first-come (table) with the official DOC pages linked and dated",
+   "Dogs, fires, generators and drones by campsite type, using the 74-of-287 dogs-allowed figure from product facts",
+   "What to do if you can't book (links to the free-camping and holiday-park guides)"
+  ],
+  "faqFromQueries": [
+   "How do I book a DOC campsite?",
+   "What is the DOC Campsite Pass?",
+   "What is the DOC campsite cancellation policy?",
+   "Are dogs allowed at DOC campsites?"
+  ],
+  "cta": "Show the DOC campsites layer in KiwiCamping: bookable vs first-come, dogs allowed, fee and facilities per site (DOC data is Pass; stays/tours via BookIt free). Add a screenshot of a DOC campsite detail page and a desktop QR.",
+  "linksIn": [
+   "/doc-campsites-huts-guide.html",
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/dogs-camping-new-zealand/",
+   "/guides/where-can-you-camp-in-new-zealand/"
+  ],
+  "linksOut": [
+   "/doc-campsites-huts-guide.html",
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/dogs-camping-new-zealand/",
+   "/guides/kauri-dieback-camping-travel/"
+  ]
+ },
+ "notes": "Position 6.8 with 1.4% CTR vs 6% expected (below half). Queries are booking/navigational ('doc campsite booking', 'pass', 'login'), so the title must answer the booking question and the page should link visibly to DOC's booking site and then to the app for map/filtering. Rules page: needs dated DOC citations. Best candidate on this site for sitewide DOC-cluster work; coordinate with the legacy hub so only one URL owns 'doc campsites'.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 1,
+  "rejectedFlags": [
+   "Quiet hours 10 pm-7 am and 10 am checkout: correct per DOC Huts, Campsites, Cabins and Lodges T&Cs (May 2025) cl. 27 and 30.",
+   "Unused multi-day bookings cancelled after the first missed night: correct per cl. 23 (unless the site office is contacted within 24 hours; no refund).",
+   "No 2026-dated fees/sources: page states no fee, so nothing is out of date; the cited DOC terms page is current."
+  ],
+  "editorialSuggestions": [
+   "Optional: cite clause numbers (cl. 23, 27, 28, 29, 30, 32, 33) and add the 24-hour contact nuance; cite DOC's drone page."
+  ],
+  "auditorFlagsBefore": [
+   "'Standard DOC terms set quiet hours from 10 pm to 7 am ... checkout generally by 10 am' - stated as national DOC terms with no cited clause; verify against DOC booking terms and date it.",
+   "'Unused multi-day bookings can be cancelled after the first missed night' - verify against current DOC accommodation terms.",
+   "'Dogs prohibited on most public conservation land. A few campsites permit them' - app data shows 74 of 287 DOC campsites allow dogs in some form (about 26%), so 'a few' undersells; dogs page gives a different framing.",
+   "No fee, pass price or season is dated for 2026 and the only official link is the generic booking-terms page.",
+   "'Drones require a concession on public conservation land in most circumstances' - fine but cite DOC drone page."
+  ]
+ }
+}

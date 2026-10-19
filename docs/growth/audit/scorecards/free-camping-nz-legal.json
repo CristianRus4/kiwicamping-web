@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/free-camping-nz-legal.html",
+ "slug": "free-camping-nz-legal",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 843,
+  "pos": 39.7,
+  "topQueries": [
+   "free camping nz",
+   "free camping new zealand",
+   "new zealand free camping"
+  ]
+ },
+ "primaryQuery": "free camping nz",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 1,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 37.9,
+ "accuracyFlags": [
+  "Says 'older blue warrants remain valid until they expire, and no later than 31 December 2027': blue self-containment warrants are no longer recognised since 7 June 2026.",
+  "FAQ says 'since the 2023 changes that certification requires a fixed toilet' while /freedom-camping-rules-nz.html says 7 June 2025: the two pages disagree.",
+  "Opening line quotes a $400 infringement as the generic outcome; fine for bylaw breaches but waste offences are $800."
+ ],
+ "cannibalWith": [
+  "/freedom-camping-rules-nz.html",
+  "/self-contained-vehicles-nz.html"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Free Camping in NZ: Where It's Legal (2026)",
+  "meta": "Which NZ land allows a free night: DOC basic campsites, council freedom areas and private land, plus the green-warrant rule.",
+  "h1": "Free camping in New Zealand: where it is legal",
+  "addSections": [
+   "Correct certification section: blue warrants invalid since 7 June 2026",
+   "Free DOC campsite counts from data (63 free of 287)"
+  ],
+  "faqFromQueries": [
+   "Is free camping legal in NZ?",
+   "How many free DOC campsites are there?"
+  ],
+  "cta": "Filter free DOC campsites on the map in the app (Pass)",
+  "linksIn": [
+   "/freedom-camping-rules-nz.html"
+  ],
+  "linksOut": [
+   "/freedom-camping-rules-nz.html",
+   "/doc-campsites-huts-guide.html",
+   "/dump-stations-nz.html"
+  ]
+ },
+ "notes": "FIX-FACTS first, then consolidate: pos 39.7 and overlap with freedom-camping-rules-nz (pos 8.4) suggest 301 into it, keeping the free DOC campsite section. Source lib/content/legacy-migrated.ts:67."
+}

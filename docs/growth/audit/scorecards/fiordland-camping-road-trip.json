@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/fiordland-camping-road-trip/",
+ "slug": "fiordland-camping-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [],
+  "note": "not in pages-3m.tsv"
+ },
+ "primaryQuery": "fiordland camping road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "'Between roughly May and November' avalanche programme - NZTA runs it winter-spring; give dated NZTA source.",
+  "'Milford Sound receives around seven metres of rain' - about 6.8 m, fine, uncited.",
+  "No 'Check before you go' official-source block (NZTA SH94, DOC Fiordland)."
+ ],
+ "cannibalWith": [
+  "none"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Fiordland Camping Road Trip From Te Anau (Milford Road)",
+  "meta": "Base in Te Anau for four nights: Milford Road conditions, Eglinton Valley DOC camps, avalanche closures, sandflies and Doubtful Sound.",
+  "h1": "Fiordland camping road trip from Te Anau",
+  "addSections": [
+   "Official sources block",
+   "Eglinton Valley campsites list from DOC data"
+  ],
+  "faqFromQueries": [],
+  "cta": "Show Eglinton Valley DOC campsites in KiwiCamping (Pass).",
+  "linksIn": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/doc-campsite-rules/"
+  ]
+ },
+ "notes": "Road-trip content type is the worst performer across the site. No measurable demand yet."
+}

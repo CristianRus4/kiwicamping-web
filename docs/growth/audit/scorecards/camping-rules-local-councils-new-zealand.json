@@ -1,0 +1,52 @@
+{
+ "url": "https://campingapp.nz/guides/camping-rules-local-councils-new-zealand/",
+ "slug": "camping-rules-local-councils-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": 0,
+  "topQueries": []
+ },
+ "primaryQuery": "freedom camping rules nz",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  "Refers to 'certified self-contained vehicles' and a 'self-containment register' without stating the current regime; blue warrants not recognised since 7 June 2026, and other KiwiCamping pages still say blue warrants valid to 31 Dec 2027 (internal contradiction to resolve)",
+  "No infringement amount, Freedom Camping Act 2011 is named but not the self-contained vehicle legislation or MBIE source dated 2026",
+  "'Strictest districts' list (Queenstown Lakes, Auckland, Tasman, Thames-Coromandel, Kaikoura) unsourced",
+  "Does not say DOC conservation land is governed by DOC notices, not council bylaws"
+ ],
+ "cannibalWith": [
+  "/freedom-camping-rules-nz",
+  "/guides/doc-campsite-rules",
+  "/guides/camping-rules-local-councils-new-zealand"
+ ],
+ "action": "MERGE",
+ "priority": "P2",
+ "proposed": {
+  "title": "NZ Council Freedom Camping Rules: Why They Differ (2026)",
+  "meta": "Each council writes its own freedom camping bylaw. How to check a district, what the sign overrides and what enforcement looks like.",
+  "h1": "Why camping rules change between New Zealand councils",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/freedom-camping-rules-nz",
+   "/guides/doc-campsite-rules",
+   "/guides/camping-rules-local-councils-new-zealand"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "No GSC impressions. /freedom-camping-rules-nz (2,037 impr pos 8.4) owns 'freedom camping rules nz'. Merge unique content (sign overrides map, enforcement, rental admin fee) into it and 301."
+}

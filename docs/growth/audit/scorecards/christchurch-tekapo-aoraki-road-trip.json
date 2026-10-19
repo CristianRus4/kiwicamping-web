@@ -1,0 +1,48 @@
+{
+ "url": "https://campingapp.nz/guides/christchurch-tekapo-aoraki-road-trip/",
+ "slug": "christchurch-tekapo-aoraki-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 70,
+  "pos": 23.5,
+  "topQueries": [
+   "christchurch to lake tekapo",
+   "christchurch to aoraki"
+  ]
+ },
+ "primaryQuery": "christchurch to lake tekapo road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "No dated opening/closure info for Hooker Valley or Aoraki road; no DOC link"
+ ],
+ "cannibalWith": [
+  "/guides/wanaka-haast-pass-route"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Christchurch to Lake Tekapo and Aoraki Mount Cook: 5-Day Trip",
+  "meta": "A 5-day Mackenzie Country route: Geraldine, Tekapo dark skies, Pukaki and the Hooker Valley, with camping and weather tips.",
+  "h1": "Christchurch to Lake Tekapo and Aoraki: a 5-day road trip",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/wanaka-haast-pass-route"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "70 impr pos 23.5 (queries pos 27-48): too thin for REWRITE (<200 impr). Retitle to lead with the place names; add drive times."
+}

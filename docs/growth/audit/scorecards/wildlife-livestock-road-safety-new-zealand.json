@@ -1,0 +1,62 @@
+{
+ "url": "https://campingapp.nz/guides/wildlife-livestock-road-safety-new-zealand/",
+ "slug": "wildlife-livestock-road-safety-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "when a flock of sheep are coming towards you on a country road, what should you do? (18, pos 8.8)"
+  ]
+ },
+ "primaryQuery": "what to do when a flock of sheep is coming towards you on a country road",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 58.9,
+ "accuracyFlags": [
+  "'Call 111 for an emergency' - correct; but 'report stock strikes to the responsible authority' / 'DOC for protected wildlife' (DOC hotline 0800 362 468) should be named with the number and cited.",
+  "'Brake hard and straight and accept the impact' for large stock is the standard road-code advice but is stated bluntly; add NZTA road code source and 'if safe' qualifier.",
+  "'Never use the horn near stock' - consistent with NZTA road code, but cite it."
+ ],
+ "cannibalWith": [
+  "/guides/one-lane-bridges-gravel-roads-new-zealand/ (rural driving)",
+  "/guides/southern-scenic-route-camping/ (wildlife distance)"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Sheep and Stock on NZ Roads: What to Do When Driving",
+  "meta": "What to do when a flock of sheep or cattle is on the road in New Zealand: slow down, stop, no horn, plus seals, penguins and kea.",
+  "h1": "Sheep, livestock and wildlife on New Zealand roads",
+  "addSections": [
+   "Direct-answer box for \"what do you do when a flock of sheep is coming towards you\" (Road Code wording)",
+   "DOC wildlife hotline and stock-strike reporting steps",
+   "Link card to seal and sea lion distance rules"
+  ],
+  "faqFromQueries": [
+   "When a flock of sheep are coming towards you on a country road, what should you do?",
+   "Who do you call if you hit an animal in NZ?"
+  ],
+  "cta": "Browse rural and coastal places in KiwiCamping with access notes for unsealed roads and wildlife areas.",
+  "linksIn": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/southern-scenic-route-camping/",
+   "/guides/dogs-camping-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/dogs-camping-new-zealand/",
+   "https://nzta.govt.nz/roadcode"
+  ]
+ },
+ "notes": "Single long-tail Road Code question at pos 8.8 (18 impr) suggests quick win: put the one-line answer (slow down, stop, follow the farmer, no horn) at the very top and in FAQ schema. Related guides are DOC rules pages, not rural driving. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/guides/west-coast-south-island-road-trip/",
+ "slug": "west-coast-south-island-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "south island west coast road trip (6, pos 61.5)",
+   "christchurch to west coast (29, pos 51.2) [unconfirmed]",
+   "west coast camping (8, pos 35.6)"
+  ]
+ },
+ "primaryQuery": "west coast south island road trip",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "'Pounamu is legally owned by Ngai Tahu and taking greenstone from rivers and beaches is not permitted' - broadly right under the Ngai Tahu (Pounamu Vesting) Act 1997 but only for naturally occurring South Island pounamu; add the source and 'Ngai Tahu' macron.",
+  "Franz Josef/Fox glacier access statements need a dated DOC source; track closures change often.",
+  "Whitebait season 'runs in spring' - give the official West Coast dates and Fish and Game/DOC source."
+ ],
+ "cannibalWith": [
+  "/guides/wanaka-haast-pass-route/",
+  "/guides/south-island-two-week-road-trip/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "West Coast South Island Road Trip: Camping Guide",
+  "meta": "Westport to Haast in 6 to 7 days: Punakaiki tides, Franz Josef and Fox, sandflies and fuel gaps, with where to camp on the coast.",
+  "h1": "South Island West Coast camping road trip",
+  "addSections": [
+   "Fact box: Westport to Haast distance, fuel stops, no-service stretches",
+   "DOC campsites on the coast (from app data)",
+   "Glacier track status link (DOC) with date"
+  ],
+  "faqFromQueries": [
+   "How many days do you need for the West Coast of NZ?",
+   "Where can you camp on the West Coast?",
+   "Christchurch to West Coast route"
+  ],
+  "cta": "Open the West Coast in KiwiCamping to see DOC campsites, holiday parks and dump stations from Westport to Haast (Pass for DOC data).",
+  "linksIn": [
+   "/guides/south-island-two-week-road-trip/",
+   "/guides/wanaka-haast-pass-route/",
+   "/guides/sandflies-new-zealand-camping/"
+  ],
+  "linksOut": [
+   "/guides/wanaka-haast-pass-route/",
+   "/guides/sandflies-new-zealand-camping/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/south-island-two-week-road-trip/"
+  ]
+ },
+ "notes": "Under threshold. Query 'christchurch to west coast' (29 impr, pos 51) is a likely hit for this page or the two-week page; unconfirmed. Related-guides block irrelevant (North Island trips). Related-guides block shows North Island trips (Bay of Islands, Coromandel, Northland) regardless of topic; no contextual in-body links. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

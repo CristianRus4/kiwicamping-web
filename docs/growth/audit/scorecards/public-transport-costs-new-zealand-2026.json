@@ -1,0 +1,62 @@
+{
+ "url": "https://campingapp.nz/guides/public-transport-costs-new-zealand-2026/",
+ "slug": "public-transport-costs-new-zealand-2026",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 425,
+  "pos": 8.6,
+  "topQueries": [
+   "cost of public transport in new zealand",
+   "new zealand rail pass cost"
+  ]
+ },
+ "primaryQuery": "public transport cost new zealand 2026",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "FAQ says 'The guide gives dated fares for Auckland, Wellington and Christchurch. All three run tag-on cards with a daily cap' but the table and body only price Auckland: Wellington (Metlink) is mentioned without fares and Christchurch (Metro) has no figures at all",
+  "Page text says Wellington uses Snapper while contactless rollout is uneven: verify against Metlink 2026 since changes were effective 15 May 2026",
+  "Auckland figures (CityLink $0.95, 1 zone $3.00, 2 zones $4.90, 4+ zones $7.90, 7-day cap $50, contactless $20 daily cap) must be rechecked against the cited AT page; 'national community range $2.50-6.00' comes from a 'June 2026 community benchmark' without a named source"
+ ],
+ "cannibalWith": [
+  "/guides/bus-ferry-train-costs-new-zealand/",
+  "/guides/new-zealand-travel-cost-2026/"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Public Transport Costs 2026: Auckland Fares",
+  "meta": "Auckland bus, train and ferry fares from 1 Feb 2026: $3 for 1 zone, $50 weekly cap. Wellington and Christchurch compared.",
+  "h1": "Public transport costs in New Zealand cities in 2026",
+  "addSections": [
+   "Wellington Metlink and Christchurch Metro fare rows with sources (or remove FAQ claim)",
+   "Airport bus fares: Auckland SkyBus, Wellington 91, Christchurch Metro 29 with dates",
+   "Sample day: Auckland day with campervan parked at park-and-ride"
+  ],
+  "faqFromQueries": [
+   "How much does public transport cost in New Zealand?",
+   "How much is a bus in Auckland in 2026?",
+   "Is there a rail pass in New Zealand?"
+  ],
+  "cta": "'Find campsites with park-and-ride access to the city' only if app data supports it; otherwise point to the trip planner (free) with screenshot and QR.",
+  "linksIn": [
+   "/guides/new-zealand-travel-cost-2026/",
+   "/guides/bus-ferry-train-costs-new-zealand/",
+   "/guides/north-island-two-week-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/bus-ferry-train-costs-new-zealand/",
+   "/guides/new-zealand-travel-cost-2026/",
+   "/guides/cook-strait-ferry-campervan-guide/"
+  ]
+ },
+ "notes": "pos 8.6 with 425 impr (largest of the batch) but 1 click: CTR 0.2% vs 3% expected, so RETITLE. de locale also pos 6.7 with 443 impr and 1 click, pt 300 impr: same fix must propagate. Cannibalisation risk with bus-ferry-train-costs-new-zealand (intercity); split the intent: city fares here, intercity there. FAQ contradiction is a factual defect to fix in the same pass (accuracy 3, not P0 because the priced numbers appear sourced)."
+}

@@ -1,0 +1,65 @@
+{
+ "url": "https://campingapp.nz/guides/wof-registration-campervan-new-zealand/",
+ "slug": "guides_wof-registration-campervan-new-zealand",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 264,
+  "pos": 12.1,
+  "topQueries": [
+   "warrant of fitness and registration",
+   "wof neuseeland",
+   "wof expiry check",
+   "warrant of fitness and registration cost",
+   "caravan wof"
+  ]
+ },
+ "primaryQuery": "warrant of fitness and registration (campervan / rental)",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 1,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "Section 05 says 'Diesel vehicles additionally require road user charges': RUC also applies to electric vehicles (since 1 April 2024), plug-in hybrids and any vehicle over 3.5 t, so the diesel-only statement is incomplete.",
+  "Intro says light campervans 'generally need a current WoF', FAQ says 'every vehicle on the road needs a current one': inconsistent; heavier motorhomes use a Certificate of Fitness.",
+  "No cost, intervals (6 vs 12 months by age) or official figures despite the top queries being 'warrant of fitness and registration cost': add NZTA figures dated 2026.",
+  "Mentions 'registration labels on the windscreen' for rental checks: only the licence (rego) label and WoF label are displayed; avoid implying a separate registration label."
+ ],
+ "cannibalWith": [
+  "/self-contained-vehicles-nz.html",
+  "/guides/campervan-road-rules-new-zealand"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Campervan WoF and Rego: Cost, Expiry Check and Rental Rules",
+  "meta": "What a WoF and rego cost in New Zealand, how to check expiry, and the road-user-charge and rental checks that matter before you drive off in a campervan.",
+  "h1": "Warrant of Fitness, rego and rental campervans in New Zealand",
+  "addSections": [
+   "WoF and rego cost table (NZTA, 2026)",
+   "How to check WoF/rego expiry by plate",
+   "RUC explained: diesel, EV, PHEV, heavy vehicles"
+  ],
+  "faqFromQueries": [
+   "How much is a WoF and registration in New Zealand?",
+   "How do I check a WoF expiry in NZ?",
+   "Does a caravan need a WoF?"
+  ],
+  "cta": "Card pointing to the app's dump station and DOC campsite data so a pickup day plan includes the first stop",
+  "linksIn": [
+   "/self-contained-vehicles-nz.html",
+   "/guides/campervan-road-rules-new-zealand",
+   "/guides/cook-strait-ferry-campervan-guide"
+  ],
+  "linksOut": [
+   "/self-contained-vehicles-nz.html",
+   "/guides/campervan-road-rules-new-zealand"
+  ]
+ },
+ "notes": "Position 6.3 on 'warrant of fitness and registration' with 61 impressions and zero clicks, and the page title never says WoF, rego or cost. Retitle and add cost data. Contains legal requirements."
+}

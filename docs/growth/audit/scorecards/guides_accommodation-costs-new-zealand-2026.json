@@ -1,0 +1,50 @@
+{
+ "url": "https://campingapp.nz/guides/accommodation-costs-new-zealand-2026/",
+ "slug": "guides_accommodation-costs-new-zealand-2026",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 232,
+  "pos": 11.6,
+  "topQueries": []
+ },
+ "primaryQuery": "accommodation costs new zealand",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 1,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "Price bands rely on Hostelworld listings as the sole source and no dated official source; prices dated 12 August 2026."
+ ],
+ "cannibalWith": [
+  "/camping-costs-nz.html"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "NZ Accommodation Costs 2026: Hostels to Hotels",
+  "meta": "Hostel dorm, cabin, motel and hotel prices in NZD and 10 currencies, with when a roof is worth paying for.",
+  "h1": "Accommodation costs in New Zealand in 2026",
+  "addSections": [
+   "Regional price differences (Queenstown, Auckland, Bay of Islands)",
+   "Link to BookIt stays free in the app"
+  ],
+  "faqFromQueries": [
+   "How much is accommodation in NZ per night?"
+  ],
+  "cta": "Browse BookIt stays and tours in the app (free)",
+  "linksIn": [
+   "/camping-costs-nz.html",
+   "/guides/"
+  ],
+  "linksOut": [
+   "/camping-costs-nz.html"
+  ]
+ },
+ "notes": "pos 11.6, 232 impr, CTR 0.9% vs 1%: not below half. Thin depth and no contextual CTA; BookIt stays are the free feature that fits. Note canonical lacks .html pattern since this is a /guides/ page."
+}

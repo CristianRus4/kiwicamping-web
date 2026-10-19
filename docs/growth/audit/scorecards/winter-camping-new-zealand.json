@@ -1,0 +1,60 @@
+{
+ "url": "https://campingapp.nz/guides/winter-camping-new-zealand/",
+ "slug": "winter-camping-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "winter camping nz (2, pos 6.5)"
+  ]
+ },
+ "primaryQuery": "winter camping nz / winter campervan new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 56.8,
+ "accuracyFlags": [
+  "Chain requirements for Lindis Pass, Crown Range, Arthur's Pass, Desert Road and Milford Road: state that chain controls are signed and enforced by NZTA and rental firms; add NZTA link and 2026 season note.",
+  "'Carbon monoxide ... has killed people sleeping in vehicles in New Zealand' - plausible; add a source (Coroner or NZ Fire and Emergency).",
+  "DOC winter closures are generalised; link DOC alerts."
+ ],
+ "cannibalWith": [
+  "/guides/ (other winter or road guides not in this batch)"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Winter Camping in New Zealand: Campervan and Tent Guide",
+  "meta": "Winter camping NZ: warmth, condensation, chains and closures. What stays open, which passes need chains and how to stay safe.",
+  "h1": "Winter camping in New Zealand: warmth, roads and realistic plans",
+  "addSections": [
+   "Month-by-month: what is open (DOC campsites that close in winter)",
+   "Chain-controlled roads table with NZTA link",
+   "Best regions in winter (Northland, Coromandel)"
+  ],
+  "faqFromQueries": [
+   "Is winter a good time for camping in NZ?",
+   "Do you need chains for a campervan in NZ winter?"
+  ],
+  "cta": "In KiwiCamping filter DOC campsites by open status and campervan access before you commit to a winter stop (Pass).",
+  "linksIn": [
+   "/guides/volcanic-safety-new-zealand-travel/",
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/south-island-two-week-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/volcanic-safety-new-zealand-travel/",
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "Under threshold in GSC. Depth is the best in the batch for practical content. Links go to legacy .html pages (/free-camping-nz-legal.html etc.); fine if those are canonical. Seasonal page: schedule a refresh in April each year. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

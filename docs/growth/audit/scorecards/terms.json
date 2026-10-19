@@ -1,0 +1,43 @@
+{
+ "url": "https://campingapp.nz/terms/",
+ "slug": "terms",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "terms of use (legal)",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 1,
+  "links": 2,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  "Effective 12 August 2026 but Privacy is effective 19 October 2026; keep versions in step if analytics wording is referenced."
+ ],
+ "cannibalWith": [],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Terms of Use | KiwiCamping",
+  "meta": "Terms for using KiwiCamping and its travel information: planning aid, no access guarantee, purchases via Apple.",
+  "h1": "Terms of use",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "none",
+  "linksIn": [
+   "footer"
+  ],
+  "linksOut": [
+   "/privacy/",
+   "/support/"
+  ]
+ },
+ "notes": "Legal page, required, no GSC rows. Sound disclaimers (information changes, no booking guarantee, Apple handles purchases). Legal content."
+}

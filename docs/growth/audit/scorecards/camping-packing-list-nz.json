@@ -1,0 +1,50 @@
+{
+ "url": "https://campingapp.nz/camping-packing-list-nz.html",
+ "slug": "camping-packing-list-nz",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 220,
+  "pos": 30.1,
+  "topQueries": []
+ },
+ "primaryQuery": "nz camping packing list",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "No hard rule/price claims; chain and PLB advice fine. No official source beyond DOC/MetService links."
+ ],
+ "cannibalWith": [],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "NZ Camping Packing List (Printable, by Region)",
+  "meta": "Tent, campervan and DOC hut checklists for New Zealand, adjusted for West Coast rain, sandflies, alpine cold and remote roads.",
+  "h1": "New Zealand camping packing list, by region",
+  "addSections": [
+   "Checkbox list per trip type (tent, van, hut)",
+   "Printable/copyable list",
+   "Seasonal differences"
+  ],
+  "faqFromQueries": [
+   "What should I pack for camping in New Zealand?"
+  ],
+  "cta": "Keep the packing list beside your itinerary in the app trip planner",
+  "linksIn": [
+   "/guides/",
+   "/camping-costs-nz.html"
+  ],
+  "linksOut": [
+   "/campfire-rules-nz.html",
+   "/doc-campsites-huts-guide.html"
+  ]
+ },
+ "notes": "pos 30 with 220 impressions: REWRITE bracket, low priority. Prose list reads thin vs checklist competitors. App trip planner does keep a packing list, so a specific CTA is available."
+}

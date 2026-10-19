@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/guides/rakiura-stewart-island-camping-guide/",
+ "slug": "rakiura-stewart-island-camping-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "stewart island camping",
+   "camping stewart island",
+   "rakiura island"
+  ]
+ },
+ "primaryQuery": "stewart island camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "No ferry fare, DOC hut/campsite fee or booking date stated: the page gives no figures to be wrong, but 'rains roughly 275 days a year', 'about an hour across Foveaux Strait' and 'DOC campsite in Oban' are unsourced",
+  "'Guided evening trips to Ocean Beach have a high success rate' is an unsupported claim",
+  "Great Walk huts/campsites 'must be booked' correct, but add the DOC booking link and the fact that Rakiura Track is a Great Walk with seasonal fees"
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-three-week-campervan-route/",
+  "/guides/new-zealand-biosecurity-camping-gear/"
+ ],
+ "action": "EXPAND",
+ "priority": "P3",
+ "proposed": {
+  "title": "Stewart Island Camping Guide: Rakiura Track and Oban",
+  "meta": "How to camp on Stewart Island: Bluff ferry, Rakiura Track huts and campsites, Ulva Island, kiwi spotting and costs.",
+  "h1": "Stewart Island / Rakiura camping guide",
+  "addSections": [
+   "Ferry timetable and 2026 fare with operator link",
+   "Rakiura Track hut and campsite fees from DOC with dated source",
+   "Where to camp in Oban and on the track (names)",
+   "Packing list for mud and rain"
+  ],
+  "faqFromQueries": [
+   "Can you camp on Stewart Island?",
+   "How do you get to Stewart Island?",
+   "Is the Rakiura Track worth it?"
+  ],
+  "cta": "'See Rakiura Track huts and campsites in KiwiCamping' with DOC hut screenshot and QR; DOC data is Pass.",
+  "linksIn": [
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/new-zealand-biosecurity-camping-gear/",
+   "/guides/doc-hut-rules-etiquette/"
+  ],
+  "linksOut": [
+   "/guides/new-zealand-biosecurity-camping-gear/",
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/doc-campsite-rules/"
+  ]
+ },
+ "notes": "Impressions below the 70 threshold. Queries 'stewart island camping' pos 11.5 (6 impr) show room: title uses 'journey' not 'Stewart Island camping guide'. EXPAND is the lightest sensible action; low priority."
+}

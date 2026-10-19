@@ -1,0 +1,68 @@
+{
+ "url": "https://campingapp.nz/guides/doc-huts-new-zealand-guide/",
+ "slug": "doc-huts-new-zealand-guide",
+ "gsc90": {
+  "clicks": 8,
+  "impr": 747,
+  "pos": 7.9,
+  "topQueries": [
+   "doc huts (pos 7.6, 513 impr)",
+   "doc hut (pos 6.7)",
+   "department of conservation huts (pos 6.1)",
+   "doc huts new zealand (pos 14.3)",
+   "doc huts nz (pos 12.4)"
+  ],
+  "note": "de 2/201, it 1/145, nl 0/98, es 0/82, pt 1/76"
+ },
+ "primaryQuery": "doc huts",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'Around 950 of them' vs product facts: 927 DOC huts (908 open, 19 closed) as of 2026-08-24 - align to the data and date it.",
+  "Headline 'The four hut categories' then lists serviced, standard, basic and treats Great Walk as outside the ladder; DOC also uses 'Serviced alpine' (18) and 'Basic hut or bivvy' (372) - categories missing/misnamed vs data.",
+  "'Serviced huts ... heating with fuel provided' - not true of all serviced huts; verify against DOC hut categories.",
+  "Backcountry Hut Pass 'does not apply to Great Walk or other bookable huts' - correct in principle but no 2026 prices/hut tickets figures cited; add official source and date."
+ ],
+ "cannibalWith": [
+  "/doc-campsites-huts-guide (legacy, 12.6k impr)",
+  "/guides/doc-hut-rules-etiquette",
+  "/guides/doc-campsite-rules"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "DOC Huts NZ: Categories, Booking and Hut Pass (2026) | KiwiCamping",
+  "meta": "How DOC huts work: Great Walk, serviced, standard and basic huts, which need booking, what a Backcountry Hut Pass covers and what to carry.",
+  "h1": "DOC huts in New Zealand: categories, booking and hut passes",
+  "addSections": [
+   "Hut categories table with counts from product facts (927 huts, 127 bookable, 312 free)",
+   "Great Walk vs bookable vs first-come decision table",
+   "Hut-rules and etiquette section absorbed from the etiquette page (if merged)"
+  ],
+  "faqFromQueries": [
+   "How do I book a DOC hut?",
+   "How many DOC huts are there?",
+   "Do I need a hut pass?"
+  ],
+  "cta": "Browse all 927 DOC huts on the map in KiwiCamping, filter by bookable, bunks, fee and facilities (DOC data is Pass; BookIt stays/tours free). Screenshot of the hut layer plus desktop QR.",
+  "linksIn": [
+   "/doc-campsites-huts-guide.html",
+   "/guides/doc-campsite-rules/",
+   "/guides/where-can-you-camp-in-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/doc-campsite-rules/",
+   "/guides/dogs-camping-new-zealand/"
+  ]
+ },
+ "notes": "Pos 7.9, 1.1% CTR vs 3% expected (below half). Likely owner of the 'doc huts' cluster on the guide side; decide ownership vs the legacy /doc-campsites-huts-guide hub. Queries are largely 'doc hut booking' navigational intent; the meta should say what the page does and point to DOC's booking site honestly."
+}

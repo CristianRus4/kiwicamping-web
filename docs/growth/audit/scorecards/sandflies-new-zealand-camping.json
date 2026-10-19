@@ -1,0 +1,63 @@
+{
+ "url": "https://campingapp.nz/guides/sandflies-new-zealand-camping/",
+ "slug": "sandflies-new-zealand-camping",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 140,
+  "pos": 17.4,
+  "topQueries": [
+   "sandflies new zealand season",
+   "when are sandflies worst in new zealand",
+   "sandfly season",
+   "new zealand sand flies season"
+  ]
+ },
+ "primaryQuery": "sandflies new zealand season",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "Page has no seasonal answer: top queries ask when (season); it only says dawn/dusk and weather. Industry sources put peak around October to March with wet-region year-round presence; add a dated, sourced season note",
+  "Claims about repellent (DEET or picaridin), Haast Pass divide and citronella not working are unsourced; add a health source (e.g. Healthify/DOC)"
+ ],
+ "cannibalWith": [
+  "/guides/dogs-camping-new-zealand/"
+ ],
+ "action": "EXPAND",
+ "priority": "P1",
+ "proposed": {
+  "title": "Sandflies in NZ: Season, Where and How to Avoid Them",
+  "meta": "Sandfly season in NZ runs roughly Oct to March but weather matters more. Worst areas, what repellent works and how to camp with fewer bites.",
+  "h1": "Sandflies in New Zealand: season, worst areas and how to avoid bites",
+  "addSections": [
+   "Sandfly season: month-by-month note with caveat that West Coast and Fiordland have them year-round",
+   "Map or list of worst places (Milford, Haast, West Coast, Catlins)",
+   "Health source for bite care"
+  ],
+  "faqFromQueries": [
+   "When is sandfly season in New Zealand?",
+   "Where are sandflies worst in New Zealand?",
+   "What repellent works on sandflies?"
+  ],
+  "cta": "'Find exposed, breezy campsites on the West Coast and in Fiordland in KiwiCamping' with DOC campsite screenshot and QR; DOC campsites are Pass.",
+  "linksIn": [
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/doc-campsite-rules/",
+   "/guides/queenstown-glenorchy-camping/",
+   "/guides/rakiura-stewart-island-camping-guide/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/dogs-camping-new-zealand/"
+  ]
+ },
+ "notes": "pos 17.4 with 140 impr and 2.9% CTR (above half expected 1%); es version similar pos 25.6, 4 clicks. Four top queries are season questions and rank pos 3.4-8 on other URLs/variants, so a season H2 is the single best change. Missing Check-before-you-go sources."
+}

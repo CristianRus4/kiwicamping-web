@@ -1,0 +1,74 @@
+{
+ "url": "https://campingapp.nz/guides/alcohol-fatigue-driving-new-zealand/",
+ "slug": "alcohol-fatigue-driving-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": 0,
+  "topQueries": []
+ },
+ "primaryQuery": "drink driving limit new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  {
+   "claim": "Section 09: refusing the breath screening test 'is an offence in its own right and is treated more seriously than a positive result' (also the 'Refusing is worse than failing' callout).",
+   "correct": "Refusing a roadside breath screening test is not itself an offence (Land Transport Act 1998 s 68-69): refusal lets police require an evidential breath or blood test. Failing to accompany the officer or remain (s 59) carries up to $4,500 and possible disqualification; refusing a blood test (s 60) carries up to 3 months' prison or $4,500 plus at least 6 months' disqualification, the same as being over 400 mcg/L (s 56(1)) and harsher than the 251-400 mcg/L infringement band (s 56(1A)). Suggested: 'You can be required to take a screening test at any time. If you refuse, police will require you to come for an evidential breath or blood test. Refusing the blood test is a criminal offence with the same penalties as serious drink driving, so refusing gains you nothing.'",
+   "source": "https://www.legislation.govt.nz/act/public/1998/0110/latest/DLM434589.html (ss 56, 59, 60, 68, 69); https://ao.parliament.nz/2013/drink-driving/appendix3.htm"
+  },
+  {
+   "claim": "Section 06: 'fatigue is a factor in a substantial share of visitor crashes here. The first 48 hours after arrival are the highest risk period of the whole trip.'",
+   "correct": "Unsupported and contradicted: the Ministry of Transport's 'Overseas Drivers in Crashes' (2016) found very few short-term visitors crash in their first few days and fatigue is generally not a contributing factor; overseas licence holders are in under 6% of fatal and injury crashes. Remove the statistical claims or reword as general advice ('a long-haul flight and jet lag add to fatigue, so keep arrival day short').",
+   "source": "Ministry of Transport 'Overseas Drivers in Crashes' (2016), as quoted in Associate Transport Minister Craig Foss's release: https://www.newshub.co.nz/home/new-zealand/2016/04/foreign-driver-myths-debunked-by-report---foss.html ; https://autotalk.co.nz/?p=31337 (MoT stats hub bot-blocked when checked: https://www.transport.govt.nz/statistics-and-insights/safety-annual-statistics/sheet/overseas-drivers)"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/left-side-driving-new-zealand",
+  "/guides/overseas-driver-licence-new-zealand",
+  "/guides/beer-wine-coffee-prices-new-zealand",
+  "/guides/new-zealand-driving-day-planner"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Drink driving limit in New Zealand for visitors (2026)",
+  "meta": "NZ limit is 250 mcg/L breath (50 mg/100ml blood), zero under 20. What checkpoints involve and how fatigue after the flight adds risk.",
+  "h1": "Drink driving limit and fatigue for visitors in New Zealand",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/left-side-driving-new-zealand",
+   "/guides/overseas-driver-licence-new-zealand",
+   "/guides/beer-wine-coffee-prices-new-zealand"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "No English-URL impressions in GSC (only /de 128 impr pos 8.1). Not a hub. Fold unique fatigue/jet-lag content into left-side-driving or a driving-rules hub and 301, or keep only if hub is created. Content overlaps beer-wine page (sections 02/06). ADJUDICATION: Priority raised from MERGE/P3 to FIX-FACTS/P0 after adjudication confirmed two factual errors (one a legal misstatement). Fix in English and every locale version (/de has 128 impr), then proceed with the planned merge into the driving-rules hub.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 2,
+  "rejectedFlags": [
+   "'Alcohol clears at roughly one standard drink an hour': consistent with NZ standard-drink guidance (10 g, roughly an hour for an average adult); approximation, not an error.",
+   "Limits (250 mcg/L breath, 50 mg/100 ml blood, zero under 20) correct per LTA 1998 ss 56-57; page is dated 18 Aug 2026 and links NZTA, so no sourcing error."
+  ],
+  "editorialSuggestions": [],
+  "auditorFlagsBefore": [
+   "Refusing a breath test 'is treated more seriously than a positive result': unsourced, verify against NZTA/Police before keeping",
+   "'Alcohol clears at roughly one standard drink an hour' and 'fatigue is a factor in a substantial share of visitor crashes': no source or date",
+   "Limits (250 mcg/L breath, 50 mg/100ml blood, zero under 20) are correct; no 2026 official-source date shown"
+  ]
+ },
+ "actionBeforeAdjudication": "MERGE P3"
+}

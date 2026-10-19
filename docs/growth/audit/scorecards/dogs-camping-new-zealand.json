@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/guides/dogs-camping-new-zealand/",
+ "slug": "dogs-camping-new-zealand",
+ "gsc90": {
+  "clicks": 3,
+  "impr": 179,
+  "pos": 7.9,
+  "topQueries": [
+   "(no page-level queries above threshold; nl 0/107 pos 9.1)"
+  ],
+  "note": "en CTR 1.7% vs 3% expected, not below half"
+ },
+ "primaryQuery": "camping with dogs new zealand",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.7,
+ "accuracyFlags": [
+  "FAQ 'banned from ... all kiwi habitat' and 'always on a lead' on conservation land - overstated; DOC allows dogs at some campsites/tracks, and app data shows 74 of 287 DOC campsites allow dogs in some form.",
+  "'A single dog off a lead has killed multiple kiwi in a night' - unsourced; cite DOC.",
+  "'Pets generally not allowed at DOC camps ... without written approval' vs 'Some campsites expressly allow dogs' - fine but cite DOC pets page and date.",
+  "Dog restraint-in-vehicle/ute statement is stated as rule without a cited law (Animal Welfare / Land Transport rules); verify wording."
+ ],
+ "cannibalWith": [
+  "/guides/doc-campsite-rules",
+  "/guides/kauri-dieback-camping-travel (dog sections)"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Camping With a Dog in New Zealand: Where Dogs Are Allowed (2026)",
+  "meta": "Dogs are banned on most DOC land, but 74 DOC campsites allow them. See where, plus 1080, holiday parks and beach rules.",
+  "h1": "Camping with a dog in New Zealand: where dogs are allowed",
+  "addSections": [
+   "Dogs-allowed DOC campsites by region from product-facts (74 of 287, with conditions)",
+   "Dog-friendly holiday parks and council reserve checklist",
+   "1080 operations: official DOC/OSPRI links"
+  ],
+  "faqFromQueries": [
+   "Are dogs allowed at DOC campsites?",
+   "Can I take a dog in a campervan in NZ?"
+  ],
+  "cta": "Filter DOC campsites by 'dogs allowed' in KiwiCamping (DOC data is Pass; free tier covers BookIt stays/tours). Screenshot of the dogs filter plus desktop QR.",
+  "linksIn": [
+   "/guides/doc-campsite-rules/",
+   "/guides/kauri-dieback-camping-travel/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/",
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/kauri-dieback-camping-travel/"
+  ]
+ },
+ "notes": "Good unique angle; conversion is weak because it never uses the app's dogs-allowed data, which is a real differentiator."
+}

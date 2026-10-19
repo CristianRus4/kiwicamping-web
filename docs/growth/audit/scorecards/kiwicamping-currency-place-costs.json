@@ -1,0 +1,50 @@
+{
+ "url": "https://campingapp.nz/guides/kiwicamping-currency-place-costs/",
+ "slug": "kiwicamping-currency-place-costs",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [],
+  "note": "not in pages-3m.tsv"
+ },
+ "primaryQuery": "kiwicamping currency place costs",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 41.1,
+ "accuracyFlags": [
+  "Body says converted amounts use 'a dated reference rate'; FAQ says 'choose your currency in settings and set the conversion rate' (user-set). Contradictory; app code shows price comparison toggle ships off by default.",
+  "App parses only the first price per payer from the fee sentence (KiwiFeeParser); page does not state the toggle is off by default or this limitation."
+ ],
+ "cannibalWith": [
+  "none"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Show NZ Campsite Costs in Your Currency | KiwiCamping",
+  "meta": "Turn on price comparison in KiwiCamping to see reported campsite fees in your own currency. Planning figures only, confirm with the provider.",
+  "h1": "See reported place costs in your own currency",
+  "addSections": [
+   "Where the toggle lives and that it is off by default",
+   "Screenshot of the converted fee card"
+  ],
+  "faqFromQueries": [],
+  "cta": "Open a place page in KiwiCamping and turn on price comparison.",
+  "linksIn": [
+   "/guides/eating-out-new-zealand-prices-2026/"
+  ],
+  "linksOut": [
+   "/guides/eating-out-new-zealand-prices-2026/",
+   "/guides/doc-campsite-rules/"
+  ]
+ },
+ "notes": "App-feature page with no search demand; fix rate wording to match the app. Not a search target."
+}

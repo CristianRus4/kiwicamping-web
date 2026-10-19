@@ -1,0 +1,44 @@
+{
+ "url": "https://campingapp.nz/privacy/",
+ "slug": "privacy",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "privacy policy (legal)",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 1,
+  "links": 2,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  "States cookies expire after 13 months and data is kept 14 months: confirm against the live GA4 and cookie configuration after the cookie-lifetime commit.",
+  "Effective date 19 October 2026 postdates the 12 August Terms; confirm Terms still reference the same analytics practices."
+ ],
+ "cannibalWith": [],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Privacy Policy | KiwiCamping",
+  "meta": "How KiwiCamping handles app and website data, Google Analytics 4 consent and cookies.",
+  "h1": "Privacy policy",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "none",
+  "linksIn": [
+   "footer"
+  ],
+  "linksOut": [
+   "/terms/",
+   "/support/"
+  ]
+ },
+ "notes": "Legal page, required, no GSC rows. Keep indexable but low priority. Consent text matches the Oct 2026 GA4 setup. Contains legal statements."
+}

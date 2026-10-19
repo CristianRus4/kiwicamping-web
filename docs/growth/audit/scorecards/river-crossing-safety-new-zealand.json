@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/guides/river-crossing-safety-new-zealand/",
+ "slug": "river-crossing-safety-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 119,
+  "pos": 7.4,
+  "topQueries": [
+   "river crossing new zealand (inferred)"
+  ]
+ },
+ "primaryQuery": "river crossing safety new zealand tramping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "Section 05/06 mix directions: 'face upstream slightly while moving across and downstream at an angle' reads contradictory; check wording against DOC/MSC river-crossing guidance",
+  "'Cross as a linked group where possible, with the strongest members on the upstream and downstream ends' is technique advice that should match the DOC page cited; no date or attribution",
+  "'A personal locator beacon... cheap': PLBs cost hundreds to buy; hire is cheap, so say hire",
+  "Page quotes 'the New Zealand death' without source"
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-severe-weather-camping/",
+  "/guides/doc-hut-rules-etiquette/"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "River Crossing Safety NZ: When to Cross and When Not",
+  "meta": "NZ rivers rise fast. How to judge a crossing, unbuckle your pack, wait it out and get help, following DOC river safety advice.",
+  "h1": "River crossing safety in New Zealand: when to cross and when to wait",
+  "addSections": [
+   "Decision checklist at top (forecast, knee-height rule, can you wait a day?)",
+   "Link and attribution to DOC and Mountain Safety Council guidance with date",
+   "Fords for vehicles: NZTA and rental contract wording"
+  ],
+  "faqFromQueries": [
+   "How do you cross a river safely when tramping in NZ?",
+   "What should I do if a river is in flood on a track?"
+  ],
+  "cta": "'Check track and hut alerts before you go: DOC tracks and huts in KiwiCamping' screenshot + QR; DOC data is Pass.",
+  "linksIn": [
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/new-zealand-severe-weather-camping/",
+   "/guides/queenstown-glenorchy-camping/"
+  ],
+  "linksOut": [
+   "/guides/new-zealand-severe-weather-camping/",
+   "/guides/doc-hut-rules-etiquette/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "pos 7.4, 119 impr, 0 clicks (expected about 3.6): RETITLE. Safety content: technique wording must be verified against DOC. Page does cite DOC river safety in Check-before-you-go."
+}

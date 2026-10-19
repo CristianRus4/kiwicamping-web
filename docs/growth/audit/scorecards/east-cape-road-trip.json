@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/guides/east-cape-road-trip/",
+ "slug": "east-cape-road-trip",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 456,
+  "pos": 17.5,
+  "topQueries": [
+   "east cape road trip (pos 15, 48 impr)",
+   "are there day tours from gisborne out to the east cape? (pos 21.5, 54)",
+   "new zealand east cape (pos 56.9, 39)",
+   "east cape tours (pos 56.3, 34)"
+  ],
+  "note": "it 2/235, de 1/152, es 0/130, pt 0/81 (pos 66); /de/guides/east-camp-road-trip 404 has impressions"
+ },
+ "primaryQuery": "east cape road trip",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 58.9,
+ "accuracyFlags": [
+  "'review council and Waka Kotahi notices' - agency is NZ Transport Agency Waka Kotahi (NZTA); link the SH35 journey planner.",
+  "'Freedom camping is restricted in many places' - not backed by product data for this district; East Coast DOC notices show 2 prohibited in data, council bylaws are separate.",
+  "Lighthouse '700 steps', wharf 'over 600 m' are fine but unsourced."
+ ],
+ "cannibalWith": [
+  "none; competes with Tourism Eastland/NZ.com for 'east cape'"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "East Cape Road Trip: Gisborne to Opotiki Itinerary (3 Days)",
+  "meta": "Three-day East Cape road trip on SH35: fuel stops, Tolaga Bay wharf, East Cape Lighthouse, camping rules and reception gaps.",
+  "h1": "East Cape road trip: Gisborne to Opotiki",
+  "addSections": [
+   "Day-by-day with distances and fuel/camp stops",
+   "East Cape tours from Gisborne (answers 54-impression query)",
+   "Official sources block: NZTA SH35, DOC East Coast, Gisborne District Council freedom camping"
+  ],
+  "faqFromQueries": [
+   "Are there day tours from Gisborne to the East Cape?",
+   "How long does the East Cape road trip take?"
+  ],
+  "cta": "Save the East Cape stops and see distances in KiwiCamping; map layers for DOC campsites and dump stations along SH35 (Pass). Screenshot plus desktop QR.",
+  "linksIn": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/where-can-you-camp-in-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/doc-campsite-rules/"
+  ]
+ },
+ "notes": "Pos 17.5; weak head-term fit ('east cape' queries at pos 55-60). Add a redirect for /de/guides/east-camp-road-trip to east-cape-road-trip. No 'Check before you go' official source block on this page."
+}

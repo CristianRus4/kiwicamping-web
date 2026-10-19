@@ -1,0 +1,86 @@
+{
+ "url": "https://campingapp.nz/guides/left-side-driving-new-zealand/",
+ "slug": "left-side-driving-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 112,
+  "pos": 13.0,
+  "topQueries": [
+   "driving side in new zealand (3 impr, pos 54.7)",
+   "new zealand driving side (pos 54.7)",
+   "campervan new zealand driving licence (pos 63.6)"
+  ]
+ },
+ "primaryQuery": "driving on the left in new zealand / which side of the road does new zealand drive on",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 4,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 48.4,
+ "accuracyFlags": [
+  {
+   "claim": "Section 07: 'At intersections, the current rule is that a turning vehicle gives way to one going straight through. Guidance published before 2012 says the opposite and is still widely circulated, so ignore anything that does not match this.'",
+   "correct": "Turning-gives-way-to-not-turning is a long-standing rule, not a 2012 change. The 25 March 2012 changes were: (1) a driver turning right gives way to oncoming traffic turning left (same or no signs/signals, including green light); (2) at an uncontrolled T-intersection, traffic on the stem gives way to all traffic on the through road ('top of the T'), also at uncontrolled driveways. Roundabouts unchanged. Suggested: 'If you are turning, give way to all vehicles that are not turning. If you are turning right, also give way to oncoming vehicles turning left. Since 25 March 2012 this applies even when both of you face the same sign or signal. At an uncontrolled T-intersection, traffic on the top of the T goes first. Older guidance from before March 2012 gets these last two rules wrong.'",
+   "source": "https://www.nzta.govt.nz/driver-licences/getting-a-licence/road-code/give-way-rule-changes-2012 ; https://www.nzta.govt.nz/assets/resources/roadcode/docs/give-way-insert.pdf ; https://www.nzta.govt.nz/resources/rules/road-user-amendment-2011-qa ; https://www.nzta.govt.nz/roadcode/general-road-code/about-driving/giving-way/"
+  }
+ ],
+ "cannibalWith": [
+  "campervan-road-rules-new-zealand",
+  "overseas-driver-licence-new-zealand",
+  "new-zealand-road-signs-visitors",
+  "new-zealand-driving-day-planner"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Driving on the Left in New Zealand: First-Day Guide",
+  "meta": "Which side NZ drives on, how roundabouts and give-way work, and how to avoid the first-day mistakes in a campervan.",
+  "h1": "Driving on the left in New Zealand for the first time",
+  "addSections": [
+   "Which side of the road does New Zealand drive on (answer in first sentence)",
+   "Correct 2012 give-way rules with NZTA diagram link",
+   "Hire campervan first-day checklist",
+   "Licence and rental note linking overseas licence guide"
+  ],
+  "faqFromQueries": [
+   "Which side of the road do they drive on in New Zealand?",
+   "Can I drive a campervan in NZ on my overseas licence?"
+  ],
+  "cta": "Plan the first night near the depot: open KiwiCamping, filter holiday parks near the pickup city (screenshot); honest Pass note.",
+  "linksIn": [
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/new-zealand-road-signs-visitors/",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/new-zealand-road-signs-visitors/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/alcohol-fatigue-driving-new-zealand/"
+  ]
+ },
+ "notes": "112 impressions at pos 13 all-time-rolled (page-level), queries about driving side sit at pos 49-55: answer-first intro needed. Rules page: NZTA source only one. Linking out to just the driving-day planner contextually (3 'Related' cards are doc/hut/dog rules, irrelevant).",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 1,
+  "rejectedFlags": [
+   "Only one official source / give-way and roundabout claims need Road Code citations: editorial gap; roundabout statements are correct per NZTA."
+  ],
+  "editorialSuggestions": [
+   "Link the Road Code giving-way and roundabout pages when fixing section 07; 'place a small legal reminder' line is vague (style)."
+  ],
+  "auditorFlagsBefore": [
+   "'At intersections, the current rule is that a turning vehicle gives way to one going straight through. Guidance published before 2012 says the opposite' is misattributed. NZTA's 2012 change (25 March 2012) was: a driver turning RIGHT gives way to oncoming traffic turning LEFT, plus the top-of-the-T rule. Turning-gives-way-to-straight-through long predates 2012. Rewrite to the NZTA wording and link nzta.govt.nz/roadcode give way rules.",
+   "'Place a small legal reminder where the driver can see it' is vague; remove or specify.",
+   "'Roundabouts ... give way to your right' fine; but 'Signal ...' omission: rule is signal left on exit, stated on the signs page not here.",
+   "Only one source (NZTA visitors page); give-way and roundabout claims need the Road Code roundabout and give-way URLs."
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "url": "https://campingapp.nz/guides/beer-wine-coffee-prices-new-zealand/",
+ "slug": "beer-wine-coffee-prices-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 210,
+  "pos": 9.4,
+  "topQueries": [
+   "how much is a beer in new zealand",
+   "how much is a cup of coffee in new zealand",
+   "new zealand beer prices"
+  ]
+ },
+ "primaryQuery": "how much is a beer in new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "FAQ says guide prices 'a pub pint, a craft beer, a supermarket six-pack, a glass and a bottle of wine' and a flat white; table has none of those (cappuccino, 500 ml draft, 330 ml imported, 500 ml retail bottle, 750 ml wine)",
+  "Source is Numbeo crowd data ('community national ranges'); weak E-E-A-T, 'domestic beer 500 ml retail bottle $2.59-$10' range implausibly wide",
+  "Sections 05/08 and 02/06 repeat the same cellar-door and drink-driving text"
+ ],
+ "cannibalWith": [
+  "/guides/eating-out-new-zealand-prices-2026",
+  "/guides/new-zealand-grocery-prices-2026",
+  "/guides/accommodation-costs-new-zealand-2026"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "How Much Is a Beer in New Zealand? 2026 Pub & Shop Prices",
+  "meta": "A pint costs about NZ$7-15 in a pub and a coffee NZ$5-7.50. Supermarket vs bar prices, wine costs and tasting fees, in 10 currencies.",
+  "h1": "How much do beer, wine and coffee cost in New Zealand?",
+  "addSections": [],
+  "faqFromQueries": [
+   "How much is a pint of beer in New Zealand?",
+   "How much is a flat white in New Zealand?",
+   "Is alcohol expensive in New Zealand?",
+   "Can you buy spirits in a supermarket in NZ?"
+  ],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/eating-out-new-zealand-prices-2026",
+   "/guides/new-zealand-grocery-prices-2026",
+   "/guides/accommodation-costs-new-zealand-2026"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "210 impr pos 9.4, 0 clicks vs ~6 expected: RETITLE. Rank-1 for 'new zealand beer prices' on few impressions. Locale variants es/de/nl also have impressions with 0-1 clicks; retitle in each. Rebuild table with pint and flat white rows, drop duplicated paragraphs."
+}

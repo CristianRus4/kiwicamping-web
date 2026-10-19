@@ -1,0 +1,49 @@
+{
+ "url": "https://campingapp.nz/guides/food-fuel-resupply-new-zealand-road-trip/",
+ "slug": "food-fuel-resupply-new-zealand-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [],
+  "note": "not in pages-3m.tsv; adjacent queries: campervan fuel cost new zealand (pos 58, 21 impr), fuel calculator nz (pos 46, 21)"
+ },
+ "primaryQuery": "food fuel resupply nz road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 56.8,
+ "accuracyFlags": [
+  "Fuel-gap claims (Haast to Wanaka, Desert Road, East Cape) are plausible but uncited; no fuel prices given."
+ ],
+ "cannibalWith": [
+  "/guides/eating-out-new-zealand-prices-2026"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Food, Fuel and Resupply on a NZ Road Trip",
+  "meta": "Where to restock, fuel gaps, potable water and LPG on a New Zealand road trip, and how to save the service stops in your plan.",
+  "h1": "Food, fuel and resupply on a New Zealand road trip",
+  "addSections": [
+   "Add a fuel cost calculator example (litres per 100 km x NZD/L) to catch 'campervan fuel cost' queries"
+  ],
+  "faqFromQueries": [
+   "How much does fuel cost for a campervan in NZ?"
+  ],
+  "cta": "Dump stations and potable water layer in KiwiCamping (Pass); save as stops.",
+  "linksIn": [
+   "/guides/eating-out-new-zealand-prices-2026/"
+  ],
+  "linksOut": [
+   "/guides/eating-out-new-zealand-prices-2026/"
+  ]
+ },
+ "notes": "No demand yet; honest CTA about dump stations is a good fit (Pass-gated)."
+}

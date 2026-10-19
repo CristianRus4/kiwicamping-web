@@ -1,0 +1,57 @@
+{
+ "url": "https://campingapp.nz/guides/one-lane-bridges-gravel-roads-new-zealand/",
+ "slug": "one-lane-bridges-gravel-roads-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "one lane bridge rules new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "Section 01 describes a 'round red sign' and 'blue rectangular sign' for priority while section 04 describes a two-arrow sign (large black arrow priority, small red arrow give way): two different sign descriptions on one page may confuse readers; reconcile against the NZTA Road Code",
+  "Ninety Mile Beach/Skippers Canyon rental exclusions asserted without a source or date",
+  "Windscreen cover 'usually inexpensive': vague, no figure"
+ ],
+ "cannibalWith": [
+  "/guides/campervan-road-rules-new-zealand/",
+  "/guides/overseas-driver-licence-new-zealand/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "One-Lane Bridges and Gravel Roads in NZ: Rules",
+  "meta": "Who gives way on a one-lane bridge in NZ, how to drive gravel, and which rental contracts exclude unsealed roads.",
+  "h1": "One-lane bridges and gravel roads in New Zealand",
+  "addSections": [
+   "Road Code diagram of the one-lane bridge sign with NZTA link",
+   "Named gravel roads rentals commonly exclude, dated"
+  ],
+  "faqFromQueries": [
+   "Who has right of way on a one-lane bridge in NZ?",
+   "Can rental cars drive on gravel roads in NZ?"
+  ],
+  "cta": "'Check DOC access roads before you drive' linking the app's campsite entries with road-access notes, screenshot and QR.",
+  "linksIn": [
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/northland-cape-reinga-camping-route/",
+   "/guides/queenstown-glenorchy-camping/"
+  ],
+  "linksOut": [
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/wildlife-livestock-road-safety-new-zealand/"
+  ]
+ },
+ "notes": "No impressions in 3 months and no related queries in the top 1000. Only 2 internal links in body to non-guide hubs; the road-rules hub should link here. Keep as supporting page, add inbound links; merge candidate into campervan-road-rules if still dead after the next review."
+}

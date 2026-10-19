@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/guides/overseas-driver-licence-new-zealand/",
+ "slug": "overseas-driver-licence-new-zealand",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 134,
+  "pos": 6.4,
+  "topQueries": [
+   "can you drive a campervan on a car licence",
+   "campervan new zealand driving licence",
+   "can you drive a motorhome on a car licence nz"
+  ]
+ },
+ "primaryQuery": "driving in new zealand with overseas licence",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 1,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 41.1,
+ "accuracyFlags": [
+  "Sections 04 and 08 and the first FAQ state flatly 'up to twelve months from your date of arrival... After twelve months you must convert' while section 01 says 18 months (until 31 Oct 2026) then 12 months from 1 November 2026: the page contradicts itself. NZTA's rule depends on the arrival date: last arrival before 1 Nov 2026 keeps 18 months, on/after is 12 months",
+  "Section 01 wording 'From 1 November 2026, that car-licence period reduces to 12 months' omits that it depends on date of last arrival and that leaving and re-entering restarts the clock",
+  "Class 1 'up to 6,000 kg' is correct for GLW but 'overseas licence generally aligns' needs the NZTA source for class equivalence; claim that 'some countries are recognised for no-test conversion' is undated"
+ ],
+ "cannibalWith": [
+  "/guides/campervan-road-rules-new-zealand/",
+  "/guides/left-side-driving-new-zealand/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Driving in NZ on an Overseas Licence: 2026 Rules",
+  "meta": "How long you can drive in NZ on a foreign licence: 18 months if you arrive before 1 Nov 2026, 12 months after. IDP, translation, campervan class.",
+  "h1": "Driving in New Zealand with an overseas licence (2026 rules)",
+  "addSections": [
+   "Table: arrival date vs allowed time (before 1 Nov 2026 = 18 months, on or after = 12 months, re-entry restarts)",
+   "Can you drive a campervan or motorhome on a car licence? (Class 1, 6,000 kg GLW) as its own H2 since queries ask it",
+   "Fix all 12-month statements and FAQ answers to match",
+   "Link to NZTA time-limit page"
+  ],
+  "faqFromQueries": [
+   "Can you drive a motorhome on a car licence in NZ?",
+   "How long can I drive in NZ on my overseas licence?",
+   "Do I need an International Driving Permit for NZ?"
+  ],
+  "cta": "'Planning the drive? Save stops and see route distance in KiwiCamping' planner screenshot + QR; planner free.",
+  "linksIn": [
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/left-side-driving-new-zealand/",
+   "/guides/new-zealand-three-week-campervan-route/"
+  ],
+  "linksOut": [
+   "/guides/campervan-road-rules-new-zealand/",
+   "/guides/left-side-driving-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "Accuracy gate failed: internal contradiction on the 2026 time limit, which is the exact fact visitors search. Second action after fix: RETITLE (pos 6.4, 134 impr, 1.5% CTR vs 6% expected). Decide ownership vs campervan-road-rules (which also chases 'car licence motorhome' queries): this page should own licence validity, road-rules page links here. de and nl locales also rank (pos 7.2 and 19.4), so retranslate after fix."
+}

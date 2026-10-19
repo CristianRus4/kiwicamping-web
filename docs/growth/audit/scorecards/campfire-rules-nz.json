@@ -1,0 +1,71 @@
+{
+ "url": "https://campingapp.nz/campfire-rules-nz.html",
+ "slug": "campfire-rules-nz",
+ "gsc90": {
+  "clicks": 38,
+  "impr": 4200,
+  "pos": 7.2,
+  "topQueries": [
+   "open fire season nz",
+   "current fire bans nz",
+   "campfire rules nz",
+   "fire season nz"
+  ]
+ },
+ "primaryQuery": "campfire rules nz / fire season nz",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 5,
+  "depth": 3,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 58.9,
+ "accuracyFlags": [],
+ "cannibalWith": [],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Fire Season & Campfire Rules: Check Fire Bans (2026)",
+  "meta": "Open, restricted or prohibited? How NZ fire seasons work, when you need a permit, DOC fire rules and how to cook when fires are banned.",
+  "h1": "NZ fire seasons and campfire rules for campers",
+  "addSections": [
+   "Live-check box linking checkitsalright.nz with 'last reviewed' date",
+   "Table: open/restricted/prohibited with permit and gas stove rules",
+   "DOC campsites where fires are always banned"
+  ],
+  "faqFromQueries": [
+   "Is there a fire ban in NZ right now?",
+   "Can I use a gas stove in a total fire ban?",
+   "Do I need a permit for a campfire in NZ?"
+  ],
+  "cta": "Open the DOC campsite page in the app to see fire and facility notes before you go",
+  "linksIn": [
+   "/doc-campsites-huts-guide.html",
+   "/freedom-camping-rules-nz.html"
+  ],
+  "linksOut": [
+   "/doc-campsites-huts-guide.html",
+   "/dump-stations-nz.html",
+   "/camping-packing-list-nz.html"
+  ]
+ },
+ "notes": "CTR 0.9% at pos 7.2 vs 3% expected; clear title gap, queries are 'current fire bans' style so lead with check-the-ban. CTA is the generic 'Save the stops' trip block, not fire-relevant. Source lib/content/legacy-migrated.ts:294.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 0,
+  "rejectedFlags": [
+   "Gas stove 'unaffected by fire seasons' vs section 05 'a prohibited season can restrict some appliances': not a contradiction. FENZ 'Fire types and their status' fact sheet (27 Sep 2023) authorises gas appliances in restricted and prohibited seasons, while braziers, fire pits/bowls and drum incinerators are prohibited in a prohibited season. https://www.fireandemergency.nz/assets/Documents/Fire-season-and-permits/Fire-types-fact-sheet.pdf ; DOC: https://doc.govt.nz/contentassets/0b12e87b3b4a44a89fc2be792d17ab76/auth-fire-types-prohibited-season.pdf",
+   "Fire season descriptions match FENZ guidance; missing verification date is a style point, not an error."
+  ],
+  "editorialSuggestions": [
+   "Optional: section 05 'non-gas appliances such as braziers and incinerators'; FAQ 'gas stoves are authorised in all fire seasons if used safely' (FENZ ties authorisation to checkitsalright.nz safe-use guidance)."
+  ],
+  "auditorFlagsBefore": [
+   "FAQ says a gas stove 'is unaffected by fire seasons' while section 05 says a prohibited season 'can restrict some appliances too': contradictory.",
+   "Fire season descriptions (open/restricted/prohibited, FENZ permits, checkitsalright.nz) match FENZ guidance; no dated 2026 verification stamp."
+  ]
+ }
+}

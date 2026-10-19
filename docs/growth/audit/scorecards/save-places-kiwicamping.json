@@ -1,0 +1,52 @@
+{
+ "url": "https://campingapp.nz/guides/save-places-kiwicamping/",
+ "slug": "save-places-kiwicamping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "how to save places in KiwiCamping / camping app saved lists",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 4,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 62.1,
+ "accuracyFlags": [
+  "'With iCloud available and enabled, saved states, collections and trip data sync privately' - product claim not verified against app source here; confirm iCloud sync covers collections and trips and that smart collections are named Liked, Visited, Want to Visit, Starred, Pins, All Saved.",
+  "'Where a reported cost is shown, you can read it in your own currency' - confirm currency conversion exists in the app."
+ ],
+ "cannibalWith": [],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Save and Organise Places in KiwiCamping: Lists Guide",
+  "meta": "Sort camps, huts and holiday parks into trip, backup and idea lists, with smart collections and iCloud sync, so a full site never stalls a day.",
+  "h1": "How to save and organise places in KiwiCamping",
+  "addSections": [
+   "Screenshot callout of the collections screen with exact collection names",
+   "Short numbered \"save a place in 3 taps\" how-to for featured-snippet use"
+  ],
+  "faqFromQueries": [
+   "How do I save a campsite in KiwiCamping?",
+   "Can I make a list of DOC campsites to visit?"
+  ],
+  "cta": "Open the Saved tab: build a Trip, Backups and Ideas list from DOC campsites and huts (Pass) and BookIt stays (free).",
+  "linksIn": [
+   "/guides/kiwicamping-offline-data-guide/",
+   "/guides/ (app guides hub)"
+  ],
+  "linksOut": [
+   "/guides/kiwicamping-offline-data-guide/",
+   "/guides/south-island-two-week-road-trip/",
+   "plan-a-trip app guide"
+  ]
+ },
+ "notes": "Not in pages-3m.tsv (<70 impressions) and no matching queries. Feature explainer for existing users and for conversion; low organic value but low risk. Has 3 real screenshots (alt text present), no QR. Pass boundary not mentioned: add honest note on which saved places (DOC, dump stations, day-use) need Pass vs free BookIt stays/tours. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/bus-ferry-train-costs-new-zealand/",
+ "slug": "bus-ferry-train-costs-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 154,
+  "pos": 12.6,
+  "topQueries": []
+ },
+ "primaryQuery": "new zealand public transport costs",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "FAQ promises dated fares for 'a foot passenger, a car and a campervan' but table has a combined 'car or camper' row ($220-650), too wide to be useful",
+  "Fares are planning bands from 'Great Journeys' and 'InterCity' with no dated official fare link or 2026 sample journey",
+  "Cook Strait crossing price repeated in cook-strait guide"
+ ],
+ "cannibalWith": [
+  "/guides/public-transport-costs-new-zealand-2026",
+  "/guides/cook-strait-ferry-campervan-guide",
+  "/guides/domestic-flight-costs-new-zealand-2026"
+ ],
+ "action": "MERGE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Bus, Ferry and Train Costs in New Zealand (2026)",
+  "meta": "InterCity coach from NZ$20, Cook Strait ferry NZ$75-130 on foot, scenic rail NZ$180-400. Planning bands in 10 currencies.",
+  "h1": "Bus, ferry and scenic train costs in New Zealand",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/public-transport-costs-new-zealand-2026",
+   "/guides/cook-strait-ferry-campervan-guide",
+   "/guides/domestic-flight-costs-new-zealand-2026"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "/guides/public-transport-costs-new-zealand-2026 has 425 impr pos 8.6 and owns the cluster. 301 this page into it after moving the Cook Strait/rail rows and unique ferry/rail sections. 0 clicks on 154 impr."
+}

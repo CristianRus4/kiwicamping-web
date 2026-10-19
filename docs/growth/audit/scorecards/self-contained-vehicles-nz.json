@@ -1,0 +1,72 @@
+{
+ "url": "https://campingapp.nz/self-contained-vehicles-nz.html",
+ "slug": "self-contained-vehicles-nz",
+ "gsc90": {
+  "clicks": 28,
+  "impr": 2669,
+  "pos": 16.0,
+  "topQueries": [
+   "certified self-contained campervan",
+   "green warrant nz",
+   "green warrant card nz",
+   "self contained certification",
+   "what is a green warrant"
+  ]
+ },
+ "primaryQuery": "certified self-contained vehicle nz / green warrant",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 0,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "Section 01 says blue warrants 'remain valid until they expire, and no later than 31 December 2027': blue warrants have not been recognised since 7 June 2026, so this is wrong as of 19 October 2026.",
+  "Section 01 says 'From 7 June 2025, new certifications required a toilet fixed into the vehicle': the fixed-toilet regime started 7 June 2023 (date looks wrong by two years).",
+  "Second paragraph is future tense ('Once that period closes, a blue warrant will no longer establish compliance') and advises recertifying 'before the deadline': the deadline has passed.",
+  "'Keep in mind' box repeats 'Blue warrants lapse by 31 December 2027' and the page is stamped 'Updated 18 August 2026' despite being stale.",
+  "Link label 'MBIE freedom camping transition' points to a transition page that no longer reflects the current rules; replace with current MBIE / NZ Self Containment register pages.",
+  "Does not mention that DOC conservation-land notices differ from council bylaws; add one line with the DOC link."
+ ],
+ "cannibalWith": [
+  "/freedom-camping-rules-nz.html",
+  "/free-camping-nz-legal.html",
+  "/guides/campervan-road-rules-new-zealand",
+  "/guides/wof-registration-campervan-new-zealand/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Self-Contained Vehicle NZ 2026: Green Warrant Rules and Checks",
+  "meta": "Blue warrants are no longer valid since 7 June 2026. See what a green self-contained certificate needs, how to check a plate on the register and what it does not allow.",
+  "h1": "Certified self-contained vehicles and the green warrant (2026)",
+  "addSections": [
+   "Short answer box: blue warrants not recognised since 7 June 2026",
+   "Timeline 2023 to 2026 with official sources",
+   "Converted-van checklist and certifier costs"
+  ],
+  "faqFromQueries": [
+   "What is a green warrant in NZ?",
+   "Is a blue self-containment card still valid?",
+   "How do I check if a campervan is certified self-contained?",
+   "Can a non-self-contained van freedom camp in NZ?"
+  ],
+  "cta": "Card naming the app's DOC freedom-camping notices (conservation land, not council bylaws) and dump station data, Pass; free tier is BookIt stays and tours only",
+  "linksIn": [
+   "/freedom-camping-rules-nz.html",
+   "/free-camping-nz-legal.html",
+   "/guides/wof-registration-campervan-new-zealand/",
+   "/responsible-camping-nz.html"
+  ],
+  "linksOut": [
+   "/freedom-camping-rules-nz.html",
+   "/guides/dump-stations-nz",
+   "/guides/wof-registration-campervan-new-zealand/"
+  ]
+ },
+ "notes": "Accuracy gate fails: stale and wrong on the central fact of the page. Fix before any search work. Highest-impression page in the batch after seasons (2,669 impr at pos 16); 'self contained' queries at pos 40-60 show room once fixed. Same blue-warrant error exists on /freedom-camping-rules-nz.html. Consolidate: this URL owns 'green warrant' and 'self-contained certification'; freedom-camping-rules owns rules by region."
+}

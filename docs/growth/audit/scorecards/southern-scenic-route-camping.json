@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/guides/southern-scenic-route-camping/",
+ "slug": "southern-scenic-route-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "southern scenic route (14 impr, pos 59.6)",
+   "southern scenic route map (9, pos 64.7)"
+  ]
+ },
+ "primaryQuery": "southern scenic route",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 42.1,
+ "accuracyFlags": [
+  "'links more than 600 kilometres of coast, forest and lake country' - official Southern Scenic Route is about 440 km (Dunedin to Te Anau) per most sources; verify and correct.",
+  "Cathedral Caves and Curio Bay tide/season/fee claims have no dated source; Cathedral Caves access is by a privately managed seasonal permit and fee that changes yearly - add 2026 dates and source link.",
+  "'Twenty metres minimum' for seals and sea lions - check against current DOC marine mammal guidance (DOC advises 20 m for sea lions, 10 m for seals) and cite."
+ ],
+ "cannibalWith": [
+  "/guides/south-island-two-week-road-trip/",
+  "/guides/wildlife-livestock-road-safety-new-zealand/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Southern Scenic Route Camping Guide: Catlins to Fiordland",
+  "meta": "Plan the Southern Scenic Route in 7 days: Catlins beaches, Cathedral Caves tides, Invercargill and Te Anau, with camps and wildlife distances.",
+  "h1": "Southern Scenic Route camping guide: Dunedin to Queenstown",
+  "addSections": [
+   "Route stats box with verified distance and driving times",
+   "Cathedral Caves 2026 season, tide and fee with official link",
+   "Camp list: DOC and holiday parks per leg (from app data)"
+  ],
+  "faqFromQueries": [
+   "How long does the Southern Scenic Route take?",
+   "Where can you camp on the Southern Scenic Route?"
+  ],
+  "cta": "Open the Catlins and Southland in KiwiCamping to see DOC campsites and holiday parks along the route.",
+  "linksIn": [
+   "/guides/south-island-two-week-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/wildlife-livestock-road-safety-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/dogs-camping-new-zealand/"
+  ]
+ },
+ "notes": "Position 60 on a long-tail query with ~23 impressions in total; far under REWRITE threshold (200). Distance claim needs fixing. Related-guides block shows North Island trips (Bay of Islands, Coromandel, Northland) regardless of topic; no contextual in-body links. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

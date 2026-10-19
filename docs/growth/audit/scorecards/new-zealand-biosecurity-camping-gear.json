@@ -1,0 +1,74 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-biosecurity-camping-gear/",
+ "slug": "new-zealand-biosecurity-camping-gear",
+ "gsc90": {
+  "clicks": 10,
+  "impr": 340,
+  "pos": 5.5,
+  "topQueries": [
+   "(no biosecurity queries in the top-1000 list)"
+  ]
+ },
+ "primaryQuery": "new zealand biosecurity camping gear / declare hiking boots tent new zealand",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 5,
+  "depth": 4,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 68.4,
+ "accuracyFlags": [],
+ "cannibalWith": [
+  "kauri-dieback-camping-travel",
+  "rakiura-stewart-island-camping-guide"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Biosecurity: Declare Hiking Boots & Camping Gear",
+  "meta": "Used boots, tents and fishing gear must be declared on arrival in NZ. What to clean, the NZ$400 fine, and Check Clean Dry between waterways.",
+  "h1": "New Zealand biosecurity for camping and hiking gear",
+  "addSections": [
+   "Quick answer box: what to declare (boots, tent, fishing, food) and the 2026 infringement fee with MPI link",
+   "Check Clean Dry steps with DOC/MPI source",
+   "Kauri dieback cleaning stations link"
+  ],
+  "faqFromQueries": [
+   "Do I need to declare hiking boots in New Zealand?",
+   "Do I have to declare a tent in New Zealand?"
+  ],
+  "cta": "Find kauri/Check Clean Dry stations and DOC campsites near your arrival city in KiwiCamping (Pass for DOC data); screenshot.",
+  "linksIn": [
+   "/guides/kauri-dieback-camping-travel/",
+   "/guides/rakiura-stewart-island-camping-guide/",
+   "/camping-packing-list-nz.html",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/guides/kauri-dieback-camping-travel/",
+   "/camping-packing-list-nz.html",
+   "/guides/rakiura-stewart-island-camping-guide/"
+  ]
+ },
+ "notes": "340 impr pos 5.5 CTR 2.9% vs 6% expected (below half = RETITLE). Same page in de (316 impr pos 5.8), pt (286), it, es: strong cross-locale. Top-queries file has no matching English queries so primary query is inferred. Title (65 incl. suffix) has no verb or 'declare' intent. Related cards are doc/hut/dog rules (irrelevant); contextual links 2 only.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 0,
+  "rejectedFlags": [
+   "'Instant fines apply' with no figure: correct. MPI: false declaration of risk goods draws an NZ$400 infringement fee (Biosecurity Act 1993 s154N(21)); smuggling up to NZ$100,000 and 5 years. https://www.mpi.govt.nz/bring-send-to-nz/bringing-and-posting-items-to-nz/what-happens-if-you-fail-to-declare",
+   "Check, Clean, Dry (dry 48 hours) matches MPI guidance; sourcing gap only.",
+   "'Australia is equally strict inbound': true; unsourced is a style point."
+  ],
+  "editorialSuggestions": [
+   "Optional: add 'NZ$400 instant fine' with the MPI link."
+  ],
+  "auditorFlagsBefore": [
+   "No dollar figure for the instant fine (NZ$400 infringement) or the Traveller Declaration deadline; add with MPI link and date. Claims 'instant fines apply' are right but unquantified.",
+   "'Check, Clean, Dry ... dry for at least 48 hours' matches MPI Check Clean Dry; keep but cite the MPI/DOC page, current source is only the MPI arrivals page.",
+   "'Australia is equally strict inbound' is true but unsourced."
+  ]
+ }
+}

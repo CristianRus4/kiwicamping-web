@@ -1,0 +1,65 @@
+{
+ "url": "https://campingapp.nz/nz-camping-seasons-weather-sandflies.html",
+ "slug": "nz-camping-seasons-weather-sandflies",
+ "gsc90": {
+  "clicks": 49,
+  "impr": 3180,
+  "pos": 6.0,
+  "topQueries": [
+   "sandflies new zealand season",
+   "when are sandflies worst in new zealand",
+   "sandfly season new zealand",
+   "sandfly season",
+   "sandflies new zealand"
+  ]
+ },
+ "primaryQuery": "sandfly season new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "FAQ says 'Late February to March is the sweet spot' while body section 02 says 'March and April' are the best compromise: align.",
+  "Sandfly section gives no species or monthly pattern (peak roughly November to April, worst on the West Coast and Fiordland) or a DOC/NIWA source despite 'sandfly season' being the main query.",
+  "Claims 'Wind and cold suppress them' correct but unsourced; add DOC sandfly guidance."
+ ],
+ "cannibalWith": [
+  "/guides/sandflies-new-zealand-camping",
+  "/guides/winter-driving-new-zealand-campervan"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Sandfly Season NZ: When They're Worst + Best Months to Camp",
+  "meta": "Sandfly season in New Zealand runs spring to autumn and peaks on the West Coast and Fiordland. See worst months and places, plus the best time to camp.",
+  "h1": "Sandfly season in New Zealand, and the best months to camp",
+  "addSections": [
+   "Sandfly season by month table (region by region)",
+   "What actually keeps sandflies off (repellent, wind, clothing)",
+   "Merge or link the standalone sandflies guide"
+  ],
+  "faqFromQueries": [
+   "When is sandfly season in New Zealand?",
+   "Where are the worst sandflies in New Zealand?",
+   "Do sandflies bite in winter?"
+  ],
+  "cta": "Card about the app's place weather and DOC campsite data to pick wind-exposed sites; state free vs Pass honestly",
+  "linksIn": [
+   "/guides/sandflies-new-zealand-camping",
+   "/top-scenic-campsites-nz.html",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/guides/sandflies-new-zealand-camping",
+   "/guides/fiordland-camping-road-trip",
+   "/guides/winter-driving-new-zealand-campervan"
+  ]
+ },
+ "notes": "Best page in the batch: 3,180 impressions at pos 6.0 but CTR 1.5% against about 6% expected (under half), and 'sandfly season' phrasing is absent from the title. Retitle first; /guides/sandflies-new-zealand-camping splits the cluster."
+}

@@ -1,0 +1,45 @@
+{
+ "url": "https://campingapp.nz/guides/",
+ "slug": "guides",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "new zealand camping guides",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 5,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 61.1,
+ "accuracyFlags": [
+  "Lists a guide card 'Use weather and Street View before choosing a stay': should say Look Around (fix at source in lib/content/app-guides.ts)."
+ ],
+ "cannibalWith": [],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "NZ Camping & Road Trip Guides | KiwiCamping",
+  "meta": "78 guides on NZ camping rules, freedom camping, DOC sites, costs and road trips, written for iPhone map planning.",
+  "h1": "New Zealand camping and road trip guides",
+  "addSections": [
+   "Feature the highest-converting rules guides first"
+  ],
+  "faqFromQueries": [],
+  "cta": "Download app",
+  "linksIn": [
+   "/"
+  ],
+  "linksOut": [
+   "/freedom-camping-rules-nz.html",
+   "/best-nz-camping-apps.html"
+  ]
+ },
+ "notes": "Hub with strong internal links; no GSC row at the 70 impression cutoff. Keep indexed."
+}

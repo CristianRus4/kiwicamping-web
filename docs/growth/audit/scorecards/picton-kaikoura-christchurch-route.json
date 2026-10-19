@@ -1,0 +1,65 @@
+{
+ "url": "https://campingapp.nz/guides/picton-kaikoura-christchurch-route/",
+ "slug": "picton-kaikoura-christchurch-route",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 140,
+  "pos": 19.1,
+  "topQueries": [
+   "drive picton to christchurch",
+   "picton to christchurch road trip",
+   "picton to kaikoura to christchurch",
+   "christchurch to picton road trip"
+  ]
+ },
+ "primaryQuery": "picton to christchurch road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "'Picton to Christchurch is around five hours' and 'Lewis Pass adds several hours' are loose; give NZTA-style distances (Picton-Christchurch about 330 km via SH1) and say Lewis Pass detour via Murchison/Hanmer is far longer",
+  "'Whales are resident year-round': sperm whales are present year-round but not guaranteed on every trip; wording should be softened",
+  "No NZTA or DOC source linked despite saying 'check NZTA status'"
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-three-week-campervan-route/",
+  "/guides/cook-strait-ferry-campervan-guide/"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Picton to Christchurch Road Trip via Kaikoura (4 Days)",
+  "meta": "Drive Picton to Christchurch via Kaikoura: 330 km, 5 hours direct, where to stop, camp and book whales. Four-day plan with SH1 closure tips.",
+  "h1": "Picton to Christchurch via Kaikoura: a 4-day coastal road trip",
+  "addSections": [
+   "Distance and drive-time table per leg (Picton-Blenheim, Blenheim-Kaikoura, Kaikoura-Waipara, Waipara-Christchurch)",
+   "Named campsites and holiday parks per night",
+   "SH1 closure and NZTA Journey Planner link, Lewis Pass alternative with real extra time",
+   "Ferry arrival tips linked to Cook Strait guide"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive from Picton to Christchurch?",
+   "Is the Kaikoura coast road open?",
+   "Where to stay between Picton and Christchurch in a campervan?"
+  ],
+  "cta": "'Save Picton, Kaikoura and Waipara as a trip in KiwiCamping and see the distance' screenshot of planner + QR.",
+  "linksIn": [
+   "/guides/cook-strait-ferry-campervan-guide/",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/earthquake-tsunami-camping-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/cook-strait-ferry-campervan-guide/",
+   "/guides/earthquake-tsunami-camping-new-zealand/",
+   "/guides/plan-trip-kiwicamping/"
+  ]
+ },
+ "notes": "pos 19.1, 140 impr: distance-intent queries ('drive picton to christchurch' pos 26.7) are not answered by a fact box. Title currently leads with route, not the drive. Body links only to unrelated Northland/Coromandel guides."
+}

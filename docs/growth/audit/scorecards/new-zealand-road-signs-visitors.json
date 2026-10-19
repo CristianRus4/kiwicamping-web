@@ -1,0 +1,69 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-road-signs-visitors/",
+ "slug": "new-zealand-road-signs-visitors",
+ "gsc90": {
+  "clicks": 5,
+  "impr": 291,
+  "pos": 9.4,
+  "topQueries": [
+   "new zealand road signs (2 clicks, 25 impr, pos 9.6)",
+   "road signs in new zealand (9, pos 16)",
+   "nz road signs (6, pos 14.3)",
+   "nz road signs and meaning (5, pos 8)",
+   "new zealand road signs and their meanings (5, pos 9.2)",
+   "road signs nz meaning (5, pos 26)"
+  ]
+ },
+ "primaryQuery": "new zealand road signs and their meanings",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 56.8,
+ "accuracyFlags": [
+  "'LSZ marks a Limited Speed Zone on some rural roads, where the limit drops when conditions require it' is imprecise: LSZ sets a default limit that applies unless a lower safe speed is needed; verify wording against NZTA/Road Code before keeping.",
+  "'If five or more vehicles are queued behind you, you are legally required to pull over' verify against Land Transport (Road User) Rule 2004 and cite; no legal source linked, only NZTA signs page.",
+  "'Blue rectangular priority sign gives your direction priority' omits that the sign shows a large white arrow; fine but unsourced; page page also has two overlapping one-lane bridge sections.",
+  "Section 'One-lane bridge signage' duplicates 'One-lane bridges' and the separate one-lane-bridges guide."
+ ],
+ "cannibalWith": [
+  "one-lane-bridges-gravel-roads-new-zealand",
+  "speed-limits-new-zealand-visitors",
+  "campervan-road-rules-new-zealand"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Road Signs and Their Meanings for Visitors",
+  "meta": "Speed, give-way, one-lane bridge and warning signs in New Zealand explained, with the rules that catch visitors out. Check the official Road Code.",
+  "h1": "New Zealand road signs and their meanings",
+  "addSections": [
+   "Image grid of 12 key signs with plain meaning (use NZTA Road Code images or own drawings)",
+   "Give-way and roundabout rules with NZTA link",
+   "Rural-only signs: LSZ, ford, stock, loose chip"
+  ],
+  "faqFromQueries": [
+   "What do the yellow signs mean in New Zealand?",
+   "Who has priority on a one-lane bridge in NZ?",
+   "What does LSZ mean on NZ roads?"
+  ],
+  "cta": "Add stops to a KiwiCamping trip and read the access-road notes on each place; screenshot of the place access info; honest Pass note.",
+  "linksIn": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/left-side-driving-new-zealand/",
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/campervan-road-rules-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/speed-limits-new-zealand-visitors/",
+   "/guides/left-side-driving-new-zealand/"
+  ]
+ },
+ "notes": "EN 291 impr pos 9.4 CTR 1.7% vs 3% expected (below 1.5 half? 1.7 is just above half), the German version has 906 impr at pos 8.7, CTR 1.0%: de/ retitle too. Query 'nz road signs and meaning' pos 8 shows meaning-led titles are needed. Title lacks 'meanings'. Contradiction check: guide says one-lane bridge 'red-bordered give way' vs signage section. Cannibalised with the one-lane-bridges guide: pick one owner for bridge priority and link."
+}

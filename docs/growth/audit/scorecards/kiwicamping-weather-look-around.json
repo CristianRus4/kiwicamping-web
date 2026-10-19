@@ -1,0 +1,58 @@
+{
+ "url": "https://campingapp.nz/guides/kiwicamping-weather-look-around/",
+ "slug": "kiwicamping-weather-look-around",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "kiwicamping weather and look around / street view campsite",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  "Title, meta context, H1 and 4 H2s say 'Street View' (title: 'Use weather and Street View before choosing a stay'); the app uses Apple Look Around. Replace everywhere including FAQ question 'What is Street View useful for' and the internal-links pattern /\\bStreet View\\b/ in lib/internal-links.ts.",
+  "Slug 'kiwicamping-weather-look-around' already says look-around while visible copy says Street View: inconsistent.",
+  "Look Around only covers some roads; the page implies broad coverage 'Where Street View imagery exists' without saying it is Apple Maps coverage and mostly urban/main roads in NZ.",
+  "'Imagery can be several years out of date' fine, but no source or date."
+ ],
+ "cannibalWith": [
+  "kiwicamping-offline-data-guide",
+  "new-zealand-severe-weather-camping"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "KiwiCamping weather and Look Around for campsites",
+  "meta": "Check the forecast for the exact site and preview the access road with Apple Look Around before you commit a campervan.",
+  "h1": "Use weather and Look Around before choosing a stay",
+  "addSections": [
+   "Where Apple Look Around covers New Zealand roads and where it does not",
+   "Screenshot of a place screen with weather and Look Around button",
+   "MetService warnings vs in-app forecast"
+  ],
+  "faqFromQueries": [
+   "Can you see the weather for a specific campsite?",
+   "Is there a Look Around view for campsites?"
+  ],
+  "cta": "Open the place screen: forecast sits beside Look Around for the access road; screenshot; Pass note (DOC places need Pass).",
+  "linksIn": [
+   "/guides/new-zealand-severe-weather-camping/",
+   "/guides/new-zealand-driving-day-planner/"
+  ],
+  "linksOut": [
+   "/guides/new-zealand-severe-weather-camping/",
+   "/guides/kiwicamping-offline-data-guide/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "No impressions. Product-name error is the P0. Has links to severe weather and river crossing. Live CTA is the generic 'Save the stops. Plan the whole trip.' card with an App Store link (ct=w_card_en); no screenshot of the relevant feature, no QR, no Pass/free statement."
+}

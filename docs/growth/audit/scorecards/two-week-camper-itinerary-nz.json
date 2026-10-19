@@ -1,0 +1,62 @@
+{
+ "url": "https://campingapp.nz/two-week-camper-itinerary-nz.html",
+ "slug": "two-week-camper-itinerary-nz",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 95,
+  "pos": 47.5,
+  "topQueries": [
+   "new zealand campervan itinerary 2 weeks",
+   "south island itinerary 14 days",
+   "2 week north island itinerary"
+  ]
+ },
+ "primaryQuery": "2 week new zealand campervan itinerary",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "Day 14 says 'returns north to Queenstown' after Day 13 in the Catlins and Day 11 already in Queenstown; route as written loops Queenstown twice and the Auckland-to-Queenstown framing is inconsistent.",
+  "Final paragraph advises avoiding 'driving the Lindis at dawn' before a Queenstown flight: the Lindis Pass is on the Wānaka to Omarama road and is not on the Catlins to Queenstown route.",
+  "Says freedom camping on Taupō's eastern shore is available 'for certified vehicles': unverified against Taupō District bylaw and DOC notices; cite or remove.",
+  "Day 6 Napier to Wellington and Day 7 ferry plus Queen Charlotte Drive is compressed; no drive times quoted despite the 'three to four hours' claim."
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-three-week-campervan-route",
+  "/guides/cook-strait-ferry-campervan-guide"
+ ],
+ "action": "MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "2-Week New Zealand Campervan Itinerary: North and South Island",
+  "meta": "A 14-day NZ campervan route from Auckland to Queenstown: ferry day, realistic drive times, where to compress and a weather buffer.",
+  "h1": "Two-week New Zealand camper itinerary",
+  "addSections": [
+   "Day-by-day table with drive times",
+   "Where it differs from the 3-week route"
+  ],
+  "faqFromQueries": [
+   "How many days do you need to see New Zealand by campervan?",
+   "Can you do both islands in 2 weeks?"
+  ],
+  "cta": "Card naming the app's trip planner (ordered route, distance, dates, notes) and road trip routes (Pass)",
+  "linksIn": [
+   "/guides/new-zealand-three-week-campervan-route",
+   "/guides/cook-strait-ferry-campervan-guide",
+   "/top-scenic-campsites-nz.html"
+  ],
+  "linksOut": [
+   "/guides/new-zealand-three-week-campervan-route",
+   "/guides/cook-strait-ferry-campervan-guide",
+   "/guides/winter-driving-new-zealand-campervan"
+  ]
+ },
+ "notes": "95 impressions at pos 47.5, zero clicks, below the 200-impression rewrite threshold. Fold into the 3-week route as a '14-day cut' section (301 or canonical) or keep as a short variant if the owner wants a 14-day landing page. Fix route logic either way."
+}

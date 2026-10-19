@@ -1,0 +1,65 @@
+{
+ "url": "https://campingapp.nz/guides/northland-cape-reinga-camping-route/",
+ "slug": "northland-cape-reinga-camping-route",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 222,
+  "pos": 28.9,
+  "topQueries": [
+   "auckland to cape reinga",
+   "cape reinga camping",
+   "road trip auckland to cape reinga",
+   "cape reinga to auckland"
+  ]
+ },
+ "primaryQuery": "auckland to cape reinga road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "'Food is not permitted at the lighthouse area' is stated as a rule with no DOC/iwi source; verify against current Te Rerenga Wairua signage",
+  "'Kaitaia is the last town with full services' and 'sealed the whole way': plausible but undated and unsourced",
+  "No Check-before-you-go block; Ninety Mile Beach rental exclusion is true in practice but not cited"
+ ],
+ "cannibalWith": [
+  "/guides/bay-of-islands-camping-week/",
+  "/guides/east-cape-road-trip/"
+ ],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Auckland to Cape Reinga Road Trip: 7-Day Camping Route",
+  "meta": "Drive Auckland to Cape Reinga in 7 days: distances, where to camp, fuel at Kaitaia, why not to drive Ninety Mile Beach.",
+  "h1": "Auckland to Cape Reinga: a 7-day camping route",
+  "addSections": [
+   "Auckland to Cape Reinga distance and drive-time table (about 6 hours direct) and the 2-night vs 7-day options",
+   "Named camps (Ahipara, Pukenui, Tapotupotu DOC) with fee status",
+   "Fuel and supplies table with Kaitaia, Pukenui, Waitiki Landing",
+   "Official sources: DOC Northland, NZTA, Te Rerenga Wairua signage"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive from Auckland to Cape Reinga?",
+   "Can you camp at Cape Reinga?",
+   "Can you drive Ninety Mile Beach in a rental?"
+  ],
+  "cta": "'See DOC campsites near Cape Reinga and Ahipara in KiwiCamping' with map screenshot and desktop QR; DOC campsites are Pass.",
+  "linksIn": [
+   "/guides/bay-of-islands-camping-week/",
+   "/guides/kauri-dieback-camping-travel/",
+   "/guides/new-zealand-three-week-campervan-route/"
+  ],
+  "linksOut": [
+   "/guides/kauri-dieback-camping-travel/",
+   "/guides/bay-of-islands-camping-week/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "pos 28.9, 222 impressions (>200 so REWRITE rule applies); queries are distance/route intent ('auckland to cape reinga' pos 79.5, 25 impr) which the current 7-day framing does not answer in the title. Slug fine."
+}

@@ -1,0 +1,62 @@
+{
+ "url": "https://campingapp.nz/tools/",
+ "slug": "tools",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 1554,
+  "pos": 11.2,
+  "topQueries": [
+   "distance calculator nz",
+   "fuel calculator nz",
+   "campervan fuel cost new zealand",
+   "travel distance calculator nz",
+   "new zealand petrol price august 2026 average"
+  ]
+ },
+ "primaryQuery": "nz fuel calculator / distance calculator",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "Currency converter cites 'Reserve Bank of New Zealand rates from 12 August 2026': over two months old on 19 Oct 2026; refresh or state that it is a static reference.",
+  "Water planner assumption of 11 L fresh and 9 L grey per person per day is unsourced; note it is an assumption or cite a certifier/DOC figure.",
+  "Fuel price default (NZ$2.96/L implied by the example) is not dated or sourced."
+ ],
+ "cannibalWith": [
+  "/camping-costs-nz",
+  "/guides/campervan-budget-new-zealand"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Fuel and Distance Calculator for Road Trips | KiwiCamping",
+  "meta": "Free NZ road trip calculators: fuel cost, driving time, currency, water and waste days and campsite price per person or per site.",
+  "h1": "New Zealand road trip calculators",
+  "addSections": [
+   "Dated NZ petrol price benchmark with source",
+   "Driving distance between main towns table"
+  ],
+  "faqFromQueries": [
+   "How much fuel will a campervan use in New Zealand?",
+   "How long does it take to drive between NZ towns?"
+  ],
+  "cta": "Card on the app's trip planner distance and ordered route for the same calculation",
+  "linksIn": [
+   "/camping-costs-nz",
+   "/guides/campervan-budget-new-zealand",
+   "/guides/food-fuel-resupply-new-zealand-road-trip"
+  ],
+  "linksOut": [
+   "/camping-costs-nz",
+   "/guides/campervan-budget-new-zealand"
+  ]
+ },
+ "notes": "1,554 impressions at pos 11.2 with 4 clicks (0.3% vs 1% expected, under half). Queries are fuel and distance calculators while title leads with 'road trip calculators'. Retitle; refresh the dated FX rates."
+}

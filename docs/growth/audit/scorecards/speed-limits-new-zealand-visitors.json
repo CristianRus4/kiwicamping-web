@@ -1,0 +1,68 @@
+{
+ "url": "https://campingapp.nz/guides/speed-limits-new-zealand-visitors/",
+ "slug": "speed-limits-new-zealand-visitors",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 456,
+  "pos": 8.1,
+  "topQueries": [
+   "open road speed limit (13, pos 7.5)",
+   "open road speed limit nz (6, pos 9.2)",
+   "what is the open road speed limit in nz (4, pos 8.8)",
+   "speed limit new zealand (5, pos 9.8)",
+   "speed limits new zealand (5, pos 10.0)",
+   "new zealand speed limits (6, pos 26.7)"
+  ]
+ },
+ "primaryQuery": "open road speed limit nz / speed limits new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "Open-road figure stated as 100 km/h with no mention that heavy vehicles (over 3,500 kg GVM, including some large motorhomes) are capped at 90 km/h; for campervan readers this matters.",
+  "'Average speed enforcement ... expanded in recent years' - unsourced; NZ Police have limited point-to-point coverage. Verify or remove.",
+  "'A number of rural highways have had limits reduced' - stale: the 2024 Setting of Speed Limits Rule reversed many reductions; text reads as pre-2025 and should say limits changed back in places and 110 km/h now applies on some motorway sections (e.g. Christchurch Southern Motorway) - cite NZTA.",
+  "No NZTA/Police source is linked at body level (only a generic check block)."
+ ],
+ "cannibalWith": [
+  "/guides/towing-caravan-new-zealand/ (90 km/h towing, FAQ repeats it)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Speed Limits 2026: Open Road 100 km/h, Towing 90",
+  "meta": "New Zealand speed limits: 100 km/h open road, 50 km/h urban, 90 km/h towing or heavy vehicles, fines and cameras, for visitors and campervans.",
+  "h1": "New Zealand speed limits for visitors and campervans (2026)",
+  "addSections": [
+   "At-a-glance table: urban, open road, motorway 110 where signed, towing, heavy vehicle/large motorhome, roadworks",
+   "Campervan over 3,500 kg rule",
+   "Fines: overseas licence, rental admin fee (NZTA/Police sources)"
+  ],
+  "faqFromQueries": [
+   "What is the open road speed limit in NZ?",
+   "What is the speed limit when towing a caravan in NZ?",
+   "Do speed limits differ for campervans in NZ?",
+   "Are there speed cameras in New Zealand?"
+  ],
+  "cta": "Add the road trip to KiwiCamping: plan realistic drive times between camps from saved places and distance.",
+  "linksIn": [
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/towing-caravan-new-zealand/",
+   "/guides/overseas-driver-licence-new-zealand/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "https://nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads"
+  ]
+ },
+ "notes": "CTR 0.44% at pos 8.1 vs 3% expected: far below half, so RETITLE, but the 100-km/h-everything framing and the pre-2025 limit-reduction text need fact refresh in the same change. Current title is descriptive, not query-led ('speed limit' phrase appears after 'safe pace'). Cluster 'open road speed limit' is ours alone on-site but towing speed is duplicated on the towing page. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

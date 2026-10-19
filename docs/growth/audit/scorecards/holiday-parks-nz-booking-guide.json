@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/holiday-parks-nz-booking-guide.html",
+ "slug": "holiday-parks-nz-booking-guide",
+ "gsc90": {
+  "clicks": 6,
+  "impr": 509,
+  "pos": 15.8,
+  "topQueries": [
+   "kiwi holiday parks",
+   "kiwi holiday parks membership",
+   "holiday parks new zealand",
+   "holiday parks membership"
+  ]
+ },
+ "primaryQuery": "holiday parks new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "FAQ says membership discount schemes 'generally pay for themselves within a handful of nights': unsourced; compare against current published membership fees and discount rates.",
+  "The '$45 site for two' and '$28 per person' figures are illustrative but read like real prices; label them as examples or replace with dated 2026 ranges.",
+  "Peak 'Christmas to late January' minimum-stay and non-refundable terms stated as general fact with no operator source."
+ ],
+ "cannibalWith": [
+  "/camping-costs-nz",
+  "/guides/where-to-camp-in-new-zealand"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Holiday Parks in New Zealand: Chains, Prices and How to Book",
+  "meta": "Compare NZ holiday park chains, 2026 powered-site and cabin prices, memberships and after-hours arrival so your booking holds on the day.",
+  "h1": "Holiday parks in New Zealand: how to choose and book",
+  "addSections": [
+   "Main chains compared (Top 10, Kiwi Holiday Parks, Haven, Discovery) with membership cost and discount",
+   "Typical 2026 price ranges for powered site, tent site, cabin (dated, sourced)",
+   "Holiday park vs DOC campsite cost table"
+  ],
+  "faqFromQueries": [
+   "Is Kiwi Holiday Parks membership worth it?",
+   "How much is a powered site in a NZ holiday park?",
+   "Are holiday parks pet friendly in New Zealand?"
+  ],
+  "cta": "Card on the app's free BookIt stays and tours data to find and book holiday parks from the map; honest note that DOC campsite data is Pass",
+  "linksIn": [
+   "/camping-costs-nz",
+   "/guides/where-to-camp-in-new-zealand",
+   "/two-week-camper-itinerary-nz.html"
+  ],
+  "linksOut": [
+   "/camping-costs-nz",
+   "/guides/dump-stations-nz",
+   "/tools/"
+  ]
+ },
+ "notes": "Pos 10-16 on head terms with thin depth (no named operators, no prices). Expand rather than retitle first. Contains fee claims but no hard rules."
+}

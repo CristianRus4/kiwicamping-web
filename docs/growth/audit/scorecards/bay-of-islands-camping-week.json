@@ -1,0 +1,50 @@
+{
+ "url": "https://campingapp.nz/guides/bay-of-islands-camping-week/",
+ "slug": "bay-of-islands-camping-week",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 75,
+  "pos": 11.8,
+  "topQueries": []
+ },
+ "primaryQuery": "bay of islands camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "'Waitangi is worth the entry fee' gives no fee, no residents/visitor distinction, no date",
+  "Ferry 'costs little' with no figure; no 2026 prices for Urupukapuka water taxi or DOC campsite"
+ ],
+ "cannibalWith": [
+  "/guides/northland-cape-reinga-camping-route"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Bay of Islands Camping: A Week-Long Route (Paihia to Kerikeri)",
+  "meta": "Base in Paihia and Kerikeri, take the boat to Urupukapuka Island DOC camping, and plan around summer crowds. Route, bookings and rainy-day options.",
+  "h1": "Bay of Islands camping: a week from Paihia to Kerikeri",
+  "addSections": [
+   "Named campgrounds and DOC Urupukapuka booking steps with fees",
+   "Water taxi/ferry timetable and price",
+   "Itinerary table by day"
+  ],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/northland-cape-reinga-camping-route"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "Only 75 impr; related queries 'bay of islands camping' pos 16.8 and 'camping bay of islands' pos 13.2. Title should lead with 'Bay of Islands camping'. Needs named campgrounds and costs."
+}

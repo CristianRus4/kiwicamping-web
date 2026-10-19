@@ -1,0 +1,63 @@
+{
+ "url": "https://campingapp.nz/best-nz-camping-apps.html",
+ "slug": "best-nz-camping-apps",
+ "gsc90": {
+  "clicks": 135,
+  "impr": 5206,
+  "pos": 6.7,
+  "topQueries": [
+   "nz camping app",
+   "camping app nz",
+   "new zealand camping app",
+   "best camping apps nz"
+  ]
+ },
+ "primaryQuery": "best camping apps nz / nz camping app",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 4,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 58.9,
+ "accuracyFlags": [
+  "Says 'The free tier lets you find places on the map, while saving to lists, full place details, trip planning and advanced filters sit behind a paid pass' and 'free to download, with map and place discovery available at no cost': per product-facts passBoundary, free = BookIt stays/tours only; DOC campsites, huts, tracks, freedom notices, dump stations, day-use areas and guides are Pass.",
+  "Claims freedom camping areas are 'separated from certified-self-contained-only areas': the freedom data is DOC conservation-land notices (prohibited/restricted), not council bylaws, so the page should not imply bylaw-level self-contained flags.",
+  "'offline-first place data' fine, but ensure it does not read as offline maps: place details and guides work offline, map tiles do not.",
+  "Competitor claims (WikiCamps one-off licence, Rankers review depth, CamperMate offline packs, NZMCA members-only) are undated and unsourced; need 2026 verification."
+ ],
+ "cannibalWith": [
+  "/ (app brand queries)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Best Camping Apps for New Zealand (2026 Compared)",
+  "meta": "KiwiCamping, Rankers, CamperMate, WikiCamps and AllTrails compared on offline data, freedom camping rules and trip planning. Updated 2026.",
+  "h1": "The best camping apps for New Zealand, compared (2026)",
+  "addSections": [
+   "Comparison table: price model, offline, iPhone/Android, DOC data, trip planner",
+   "'Last checked' date and sources per competitor",
+   "Correct free vs Pass paragraph"
+  ],
+  "faqFromQueries": [
+   "What is the best free camping app for NZ?",
+   "Is there an offline camping app for New Zealand?",
+   "Best freedom camping app NZ"
+  ],
+  "cta": "Download app: DOC campsite, hut and dump station details that open with no signal (Pass)",
+  "linksIn": [
+   "/",
+   "/guides/"
+  ],
+  "linksOut": [
+   "/freedom-camping-rules-nz.html",
+   "/dump-stations-nz.html",
+   "/doc-campsites-huts-guide.html"
+  ]
+ },
+ "notes": "Best page by clicks/page (135 at pos 6.7) but CTR 2.6% is below half of the 6% pos 4-6 benchmark (3%), so retitle is queued after the facts fix. Add visible 2026 date. Source lib/content/legacy.ts."
+}

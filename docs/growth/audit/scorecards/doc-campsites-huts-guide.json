@@ -1,0 +1,66 @@
+{
+ "url": "https://campingapp.nz/doc-campsites-huts-guide.html",
+ "slug": "doc-campsites-huts-guide",
+ "gsc90": {
+  "clicks": 28,
+  "impr": 12621,
+  "pos": 9.0,
+  "topQueries": [
+   "doc hut bookings",
+   "doc campsites",
+   "doc huts online booking system",
+   "doc huts",
+   "doc campsites map"
+  ]
+ },
+ "primaryQuery": "doc campsites / doc huts",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 42.1,
+ "accuracyFlags": [
+  "Says 'four campsite categories' (Basic, Standard, Serviced, Great Walk) but the FAQ then refers to 'Standard and Scenic' sites: DOC's own categories include Scenic, so the intro count and list omit a tier. [CROSS-CHECK from the camping-costs-nz adjudication, 2026-10-19: DOC's current fee schedule has no Scenic category (Basic, Standard, Serviced, Backcountry, Great Walk), so the fix is to remove 'Scenic' from the FAQ, not to add a tier. Source: https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/. Remaining flags on this page are not yet official-source adjudicated.]",
+  "'roughly 950 huts' vs bundled DOC data of 927 huts (product-facts.json, 2026-08-24): align with the data or DOC's current figure.",
+  "Fee statements generic (no 2026 dollar figures, no official source dated).",
+  "Query intent is mostly navigational DOC booking ('doc hut bookings'); the page cannot win those so CTR stays low."
+ ],
+ "cannibalWith": [
+  "/camping-costs-nz.html",
+  "/campfire-rules-nz.html"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "DOC Campsites & Huts: Categories, Fees, Booking Guide",
+  "meta": "DOC campsite and hut categories, per-adult fees, how booking and passes really work, plus a map of 287 campsites and 927 huts.",
+  "h1": "DOC campsites and huts: categories, fees and how booking works",
+  "addSections": [
+   "Fix category list to include Scenic and Great Walk",
+   "Link out to the official DOC booking page and explain it is separate",
+   "Fee table for 2026 with DOC source"
+  ],
+  "faqFromQueries": [
+   "How do I book a DOC hut?",
+   "Do DOC campsites need booking?",
+   "Where is the DOC campsite map?"
+  ],
+  "cta": "Browse every DOC campsite and hut with fee, category and facilities in the app (Pass)",
+  "linksIn": [
+   "/",
+   "/camping-costs-nz.html",
+   "/campfire-rules-nz.html"
+  ],
+  "linksOut": [
+   "/camping-costs-nz.html",
+   "/campfire-rules-nz.html",
+   "/dump-stations-nz.html"
+  ]
+ },
+ "notes": "Largest impression pool on the site (12.6k, pos 9) at 0.2% CTR, 3% expected: queued RETITLE after fixes. Known DOC booking navigational leak per totals.md. Source lib/content/legacy-migrated.ts:161."
+}

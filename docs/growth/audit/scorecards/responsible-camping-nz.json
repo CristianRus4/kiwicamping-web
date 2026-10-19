@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/responsible-camping-nz.html",
+ "slug": "responsible-camping-nz",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 197,
+  "pos": 15.3,
+  "topQueries": [
+   "leave no trace principles nz"
+  ]
+ },
+ "primaryQuery": "leave no trace new zealand / responsible camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "'work at least 50 metres from any waterway' is unsourced; cite DOC or Leave No Trace NZ.",
+  "'treat rāhui as absolute rather than advisory' is a cultural expectation, not a statutory rule; word as such with a source."
+ ],
+ "cannibalWith": [
+  "/guides/freedom-camping-rules-nz",
+  "/guides/kauri-dieback-camping-travel",
+  "/guides/dump-stations-nz"
+ ],
+ "action": "RETITLE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Leave No Trace in NZ: Responsible Camping Rules and Etiquette",
+  "meta": "How to camp responsibly in New Zealand: waste and dump stations, kauri dieback, Check Clean Dry, rāhui and the habits that keep free sites open.",
+  "h1": "Responsible camping in New Zealand",
+  "addSections": [
+   "Leave No Trace NZ seven principles table with DOC links",
+   "Where to dump waste (link to dump station data)"
+  ],
+  "faqFromQueries": [
+   "What are the Leave No Trace principles in New Zealand?",
+   "Where can I dispose of campervan waste in NZ?"
+  ],
+  "cta": "Card on the app's dump station data (Pass) with honest free/Pass status",
+  "linksIn": [
+   "/freedom-camping-rules-nz.html",
+   "/guides/kauri-dieback-camping-travel",
+   "/guides/dump-stations-nz"
+  ],
+  "linksOut": [
+   "/guides/dump-stations-nz",
+   "/guides/kauri-dieback-camping-travel",
+   "/freedom-camping-rules-nz.html"
+  ]
+ },
+ "notes": "Zero clicks at pos 15 on 197 impressions; leave-no-trace query at pos 3.6 gets no clicks because title lacks the phrase. Retitle. States environmental rules and expectations."
+}

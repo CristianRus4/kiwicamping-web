@@ -1,0 +1,61 @@
+{
+ "url": "https://campingapp.nz/guides/north-island-two-week-road-trip/",
+ "slug": "north-island-two-week-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "north island campervan itinerary 2 weeks",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 40.0,
+ "accuracyFlags": [
+  "'Pick one paid park and one free thermal area' and 'Craters of the Moon is the cheap option... one of them free': Craters of the Moon (Taupo) charges an entry fee (adult NZ$10, child NZ$5 on current operator listings), so it is not free; none of the four named parks is free",
+  "Page gives no 2026 prices or dates for Tongariro shuttle, Waitomo, geothermal parks and cites no official source (no Check-before-you-go block); Tongariro 19.4 km and Mangatepopo time limit look right but are undated"
+ ],
+ "cannibalWith": [
+  "/guides/new-zealand-three-week-campervan-route/",
+  "/guides/coromandel-rotorua-road-trip/",
+  "/guides/bay-of-islands-camping-week/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "North Island Campervan Route: 14 Days, Camps and Drives",
+  "meta": "A 14-day North Island camping loop from Auckland: Coromandel, Rotorua, Taupo, Wellington, Taranaki. Drive times, camp stops and what to cut.",
+  "h1": "North Island camping road trip: a practical 14-day route",
+  "addSections": [
+   "Day-by-day table with drive time and distance per day",
+   "Correct geothermal costs: list each park with fee and date, remove 'one is free' claim",
+   "Named DOC campsites per stop with fee status (from app data)",
+   "Check before you go block: DOC Tongariro, NZTA, Cook Strait operators"
+  ],
+  "faqFromQueries": [
+   "How many days do you need for the North Island by campervan?",
+   "Best 2 week North Island campervan itinerary",
+   "Can you do Northland and the Coromandel in two weeks?"
+  ],
+  "cta": "'Save these 14 days as a trip in KiwiCamping: order the stops, see distance per day' with planner screenshot and desktop QR; planner is free, DOC data needs Pass.",
+  "linksIn": [
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/coromandel-rotorua-road-trip/",
+   "/guides/plan-trip-kiwicamping/"
+  ],
+  "linksOut": [
+   "/guides/plan-trip-kiwicamping/",
+   "/guides/doc-campsite-rules/",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/new-zealand-travel-cost-2026/"
+  ]
+ },
+ "notes": "No Search Console row (under 70 impressions in 3 months); related queries 'new zealand campervan itinerary 2 weeks' sit at pos 80 and 'camping on north island' at pos 4.2 with 29 impressions. Fix the Craters of the Moon claim first (P0 per gate), then treat as EXPAND later. Consider merging weaker road-trip pages under the 3-week route if they stay at zero impressions."
+}

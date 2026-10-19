@@ -1,0 +1,70 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-road-trip-fuel-cost-2026/",
+ "slug": "new-zealand-road-trip-fuel-cost-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 437,
+  "pos": 6.7,
+  "topQueries": [
+   "fuel calculator nz (21 impr, pos 46.1)",
+   "campervan fuel cost new zealand (21, pos 58.1)",
+   "new zealand petrol price february 2026 average 91 octane (20, pos 25.1)",
+   "new zealand petrol price august 2026 average (5, pos 7.6)",
+   "new zealand average 91 petrol price august 2026 (4, pos 9.2)"
+  ]
+ },
+ "primaryQuery": "new zealand petrol price 2026 average / campervan fuel cost new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 1,
+  "depth": 3,
+  "conversion": 1,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 37.9,
+ "accuracyFlags": [
+  "Headline benchmark '$2.96/L on 26 July 2026' is stale: MBIE's board price for week ending 2 Aug 2026 was $3.02 and the page is being read on 19 Oct 2026. Queries want 'august/september 2026 average': add dated monthly series.",
+  "'Stats NZ reported petrol prices up 20.1 percent in the June 2026 quarter' unverified: no match found in search; check against Stats NZ selected price indexes before keeping.",
+  "'Diesel is cheaper per litre at the pump' not guaranteed in 2026's volatile market; check MBIE diesel series.",
+  "'coasting in neutral ... illegal in effect' is not a stated NZ rule; remove or cite.",
+  "Table row values are arithmetically right (45 L, 110 L, 360 L x 2.96) but all depend on the stale benchmark."
+ ],
+ "cannibalWith": [
+  "food-fuel-resupply-new-zealand-road-trip",
+  "campervan-budget-new-zealand",
+  "new-zealand-travel-cost-2026"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "NZ Petrol Prices 2026 and Campervan Fuel Cost",
+  "meta": "Average NZ 91 petrol price this month, plus what 500 km to 3,000 km costs in a campervan at 9 to 12 L/100 km. Calculator and tips.",
+  "h1": "New Zealand petrol prices and campervan fuel costs in 2026",
+  "addSections": [
+   "Monthly average 91 and diesel table (Jan-Oct 2026) from MBIE CSV",
+   "Fuel calculator inputs worked example",
+   "Hire campervan vs motorhome consumption table"
+  ],
+  "faqFromQueries": [
+   "What is the average petrol price in New Zealand in 2026?",
+   "How much does it cost to fuel a campervan in NZ?",
+   "Fuel calculator NZ"
+  ],
+  "cta": "Find fuel and dump stations on your route in KiwiCamping; add stops to a trip to see the leg distance and plug into the calculator; screenshot; honest Pass note.",
+  "linksIn": [
+   "/guides/new-zealand-travel-cost-2026/",
+   "/guides/campervan-budget-new-zealand/",
+   "/camping-costs-nz.html",
+   "/guides/new-zealand-driving-day-planner/"
+  ],
+  "linksOut": [
+   "/guides/campervan-budget-new-zealand/",
+   "/guides/new-zealand-driving-day-planner/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/cook-strait-ferry-campervan-guide/"
+  ]
+ },
+ "notes": "437 impr pos 6.7 and 0 clicks: CTR 0% vs 6% expected -- RETITLE also required but FIX-FACTS comes first because the benchmark is stale. Many queries ask for monthly average (august, september 2026): ownership of that cluster is this page. Offline guide link pattern 'no reception' is irrelevant here. Link to non-existent calculator? 'Use the fuel calculator' in text but no calculator linked: check /tools/."
+}

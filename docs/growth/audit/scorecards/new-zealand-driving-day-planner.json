@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-driving-day-planner/",
+ "slug": "new-zealand-driving-day-planner",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 84,
+  "pos": 20.9,
+  "topQueries": [
+   "driving distance calculator nz (pos 18.9)",
+   "driving times and distances calculator nz (pos 24.3)",
+   "driving distances nz (pos 47.3)"
+  ]
+ },
+ "primaryQuery": "driving distances and times nz / how far can you drive in a day nz",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 4,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 61.1,
+ "accuracyFlags": [
+  "FAQ says '200-300 km a day', body says 'three to four hours'; FAQ 'add a third' vs body 'add 50 percent' contradict each other.",
+  "'fatigue ... underlying cause of a large share of visitor crashes' unsourced; cite NZTA visiting-drivers data."
+ ],
+ "cannibalWith": [
+  "two-week-camper-itinerary-nz.html",
+  "new-zealand-three-week-campervan-route",
+  "south-island-two-week-road-trip",
+  "north-island-two-week-road-trip"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "NZ Driving Times & Distances: How Far Per Day",
+  "meta": "Real driving times between NZ campsites and towns, why journey times run long, and how many hours of driving a campervan day should be.",
+  "h1": "How long should a New Zealand driving day be?",
+  "addSections": [
+   "Table of 15-20 common legs (Auckland-Rotorua, Picton-Kaikoura, Haast-Wanaka) with hours and distances from NZTA journey planner",
+   "Reconcile 50% vs 33% buffer into one rule",
+   "Link to NZTA Journeys for live conditions"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive from Auckland to Wellington?",
+   "Driving distance calculator NZ"
+  ],
+  "cta": "Add stops to a KiwiCamping trip: each leg shows distance between stops; screenshot of trip leg view; honest free/Pass note.",
+  "linksIn": [
+   "/guides/south-island-two-week-road-trip/",
+   "/guides/north-island-two-week-road-trip/",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/campervan-budget-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/new-zealand-road-trip-fuel-cost-2026/",
+   "/guides/plan-trip-kiwicamping/",
+   "/guides/left-side-driving-new-zealand/"
+  ]
+ },
+ "notes": "84 impr pos 20.9; user queries want distance/time lookup tables, which this essay lacks: EXPAND. Title 59 chars incl suffix. KiwiCamping CTA could name trip-leg distance feature (FAQ already says each leg shows distance)."
+}

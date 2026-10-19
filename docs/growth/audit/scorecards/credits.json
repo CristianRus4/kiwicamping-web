@@ -1,0 +1,42 @@
+{
+ "url": "https://campingapp.nz/credits/",
+ "slug": "credits",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "(none)",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 1,
+  "conversion": 0,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 35.8,
+ "accuracyFlags": [
+  "Alt text uses 'Street View' for a screenshot caption ('Use weather and Street View before choosing a stay'): should be Look Around."
+ ],
+ "cannibalWith": [],
+ "action": "NOINDEX",
+ "priority": "P3",
+ "proposed": {
+  "title": "Photo credits | KiwiCamping",
+  "meta": "Attribution and licence details for photographs used in KiwiCamping guides.",
+  "h1": "Photo credits",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "",
+  "linksIn": [
+   "footer"
+  ],
+  "linksOut": [
+   "/guides/"
+  ]
+ },
+ "notes": "No Search Console impressions (below the 70 impression cutoff). Attribution page must stay live and linked but need not be indexed; add robots noindex,follow. Fix Street View wording at source."
+}

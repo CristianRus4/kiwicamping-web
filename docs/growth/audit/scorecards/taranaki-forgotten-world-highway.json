@@ -1,0 +1,60 @@
+{
+ "url": "https://campingapp.nz/guides/taranaki-forgotten-world-highway/",
+ "slug": "taranaki-forgotten-world-highway",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 170,
+  "pos": 8.4,
+  "topQueries": []
+ },
+ "primaryQuery": "forgotten world highway / taranaki camping loop",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 4,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "'Operators run rail carts ... including through the Hobbits Hole tunnel' - Hobbit's Hole is the road tunnel (Moki Tunnel) on SH43, not on the Stratford-Okahukura railway used by the rail carts; looks conflated. Verify with Forgotten World Adventures and fix.",
+  "'Egmont National Park' - the park was renamed Te Papakura o Taranaki under the Taranaki Maunga settlement; verify and use the current name.",
+  "'Republic Day celebration runs biennially' - verify the next date (odd-numbered years, January) and date it for 2027.",
+  "Road status / fuel claims (no fuel along SH43, unsealed Tangarakau Gorge section) have no NZTA/DOC source link."
+ ],
+ "cannibalWith": [
+  "/guides/ (other North Island road trips only)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Forgotten World Highway Camping: Taranaki Loop Guide",
+  "meta": "Drive SH43 from Stratford to Taumarunui: no fuel for 150 km, the Moki Tunnel, Whangamomona and where to camp around Mount Taranaki.",
+  "h1": "Taranaki and the Forgotten World Highway camping loop",
+  "addSections": [
+   "Fact box: distance, drive time, fuel stops, unsealed km, tunnel height/width (NZTA)",
+   "Where to camp: Whangamomona, Stratford, Egmont/Te Papakura o Taranaki sites (DOC)",
+   "Corrected rail-cart and Hobbits Hole section"
+  ],
+  "faqFromQueries": [
+   "How long does the Forgotten World Highway take?",
+   "Is there fuel on the Forgotten World Highway?",
+   "Can a campervan drive the Forgotten World Highway?"
+  ],
+  "cta": "Open Taranaki and King Country in KiwiCamping: DOC campsites near Egmont plus holiday parks on the loop (Pass for DOC data).",
+  "linksIn": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/volcanic-safety-new-zealand-travel/"
+  ],
+  "linksOut": [
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/alcohol-fatigue-driving-new-zealand/",
+   "/guides/volcanic-safety-new-zealand-travel/"
+  ]
+ },
+ "notes": "CTR 1.2% at pos 8.4 vs 3% expected (half = 1.5%): below half. GSC shows no top queries >=2 impressions for this URL in the hand-transcribed list, so primary query is inferred from title. Factual fixes bundle with retitle. Best road-trip page by impressions; deserves care as the road-trip proof case. Related-guides block shows North Island trips (Bay of Islands, Coromandel, Northland) regardless of topic; no contextual in-body links. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

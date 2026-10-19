@@ -1,0 +1,74 @@
+{
+ "url": "https://campingapp.nz/camping-costs-nz.html",
+ "slug": "camping-costs-nz",
+ "gsc90": {
+  "clicks": 90,
+  "impr": 5327,
+  "pos": 6.5,
+  "topQueries": [
+   "how much do campsites cost in new zealand",
+   "camping cost nz",
+   "doc campsite fees"
+  ]
+ },
+ "primaryQuery": "camping costs nz / doc campsite fees",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 61.1,
+ "accuracyFlags": [
+  {
+   "claim": "FAQ 'How much does camping cost per night in New Zealand?' says costs run 'from free at Basic DOC sites through Standard and Scenic sites to holiday parks' and that the guide prices each tier; the price table has no Scenic row.",
+   "correct": "Drop 'Scenic' from the FAQ (do not add a Scenic row): DOC's current schedule is Basic (free), Standard ($10-$20 adult, $5-$10 child), Serviced ($25 adult unpowered, $20-$28 powered), Backcountry and Great Walk (varies); there is no Scenic category or fee. Suggested: 'from free at Basic DOC sites through Standard and Serviced sites to holiday parks'.",
+   "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/accommodation-costs-new-zealand-2026/"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Camping Costs 2026: DOC Fees & Daily Budget",
+  "meta": "DOC campsite fees, holiday park rates, fuel and food in NZD plus 10 currencies, built into daily budgets from $45 per person.",
+  "h1": "What camping in New Zealand really costs in 2026",
+  "addSections": [
+   "DOC fee table by category with official source and date",
+   "Cost per night for a family of four, DOC vs holiday park"
+  ],
+  "faqFromQueries": [
+   "How much do DOC campsites cost?",
+   "How much does camping cost per night in NZ?"
+  ],
+  "cta": "See each DOC campsite's fee and category in the app (Pass) before you choose",
+  "linksIn": [
+   "/doc-campsites-huts-guide.html",
+   "/guides/accommodation-costs-new-zealand-2026/"
+  ],
+  "linksOut": [
+   "/doc-campsites-huts-guide.html",
+   "/freedom-camping-rules-nz.html"
+  ]
+ },
+ "notes": "CTR 1.7% at pos 6.5 vs 6%; title is 73 chars so truncated. Good depth, unusual 10-currency table. Source lib/content/costs.ts / legacy-migrated.ts:477.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 1,
+  "rejectedFlags": [
+   "Serviced powered $20-$28 starting below serviced unpowered $25: matches DOC's published fee page exactly; not an error.",
+   "$400 freedom-camping infringement: consistent with the official schedule; no problem raised."
+  ],
+  "editorialSuggestions": [],
+  "auditorFlagsBefore": [
+   "Table lists 'DOC serviced unpowered $25' but 'DOC serviced powered $20-$28': powered range starts below the unpowered price, internally inconsistent; verify against the DOC fees page.",
+   "'Standard $10-$20' and 'Scenic' tier appear in FAQ but no Scenic row in table; verify DOC 2026 fee schedule and add Scenic.",
+   "$400 infringement is consistent with MBIE schedule (bylaw breach), waste offences $800."
+  ]
+ }
+}

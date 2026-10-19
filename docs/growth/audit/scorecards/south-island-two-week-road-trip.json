@@ -1,0 +1,68 @@
+{
+ "url": "https://campingapp.nz/guides/south-island-two-week-road-trip/",
+ "slug": "south-island-two-week-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "new zealand campervan itinerary 2 weeks (23 impr, pos 80.3) [not confirmed to this URL]",
+   "south island itinerary 14 days (7, pos 63.7)",
+   "3 week campervan itinerary new zealand south island (14, pos 62.4)",
+   "camping new zealand south island (17, pos 68)"
+  ]
+ },
+ "primaryQuery": "south island itinerary 14 days / 2 week south island campervan itinerary",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "'Download the route, tell someone your plan' - if this implies offline maps it is untrue: the app is not an offline map; place details and guides work offline, routes do not. Reword.",
+  "'Cross Haast Pass' and other road claims have no official source linked (NZTA road status, DOC) and no check-before-you-go block."
+ ],
+ "cannibalWith": [
+  "/guides/west-coast-south-island-road-trip/ (West Coast + Haast)",
+  "/guides/wanaka-haast-pass-route/",
+  "/guides/southern-scenic-route-camping/ (Fiordland/Catlins)"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "South Island Campervan Itinerary: 14 Days by Camp (2026)",
+  "meta": "A realistic 14-day South Island loop for campervans: Tekapo, Wanaka, Fiordland, the West Coast and Arthurs Pass, with camp stops and what to book first.",
+  "h1": "South Island campervan itinerary: a realistic 14-day camping loop",
+  "addSections": [
+   "Day-by-day table (day, drive time, km, suggested camp type)",
+   "Booking order: Milford, Aoraki, Great Walks with DOC booking link",
+   "Winter vs summer variant with chain/closure notes",
+   "Link cards to the 3 component guides"
+  ],
+  "faqFromQueries": [
+   "How many days do you need for the South Island in a campervan?",
+   "Is 2 weeks enough for the South Island?",
+   "Best South Island campervan route?"
+  ],
+  "cta": "Add each night as a stop in the KiwiCamping trip planner and see DOC campsites and holiday parks with powered-site and dump-station filters along the route.",
+  "linksIn": [
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/wanaka-haast-pass-route/",
+   "/guides/southern-scenic-route-camping/",
+   "/guides/winter-camping-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/wanaka-haast-pass-route/",
+   "/guides/southern-scenic-route-camping/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/one-lane-bridges-gravel-roads-new-zealand/"
+  ]
+ },
+ "notes": "Under GSC threshold; queries are 60-80 position and unconfirmed for this URL. Road-trip locale pages are the weakest category site-wide (183 URLs, 40 clicks). Keep as the South Island hub but make it own the 'itinerary' cluster and fold the three component guides into it via links. Related-guides shows North Island trips. Related-guides block shows North Island trips (Bay of Islands, Coromandel, Northland) regardless of topic; no contextual in-body links. CTA currently: Generic 'Save the stops. Plan the whole trip.' banner; names no page-specific app feature or data. No QR on desktop; hero and 2-3 other images are generic (not app screenshots) except the save-places guide. Live title/meta/H1/canonical checked via curl: canonical self, robots index."
+}

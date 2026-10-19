@@ -1,0 +1,67 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-grocery-prices-2026/",
+ "slug": "new-zealand-grocery-prices-2026",
+ "gsc90": {
+  "clicks": 10,
+  "impr": 1802,
+  "pos": 5.8,
+  "topQueries": [
+   "new zealand grocery prices (3 impr, pos 11)",
+   "grocery prices new zealand (pos 40)"
+  ]
+ },
+ "primaryQuery": "new zealand grocery prices / supermarket prices nz 2026",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 4,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 52.6,
+ "accuracyFlags": [
+  "'Countdown and New World cover most of the country': Countdown was rebranded Woolworths New Zealand (rollout from late 2023/2024). Replace with Woolworths NZ, New World, Pak'nSave.",
+  "Price table says 'community-contributed national benchmarks' sourced to Numbeo and 'last updated 12 June 2026'; stale by 4 months at 19 Oct 2026; Numbeo is crowd data. Refresh from Stats NZ selected price indexes / Stats NZ average prices (milk, eggs, bread, etc.).",
+  "'Stats NZ reported food prices up 2.5 percent annually in June 2026' cites the June 2026 release; update to the latest quarter/month before the new Stats NZ release, and verify the figure.",
+  "Weekly figure 'NZ$110 to NZ$180' unsourced own estimate."
+ ],
+ "cannibalWith": [
+  "food-fuel-resupply-new-zealand-road-trip",
+  "eating-out-new-zealand-prices-2026",
+  "new-zealand-travel-cost-2026",
+  "campervan-budget-new-zealand"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "NZ Grocery Prices 2026: Milk, Eggs, Bread, Meat",
+  "meta": "What groceries cost in New Zealand supermarkets in 2026, with price ranges for milk, eggs, bread and meat and a weekly campervan food budget.",
+  "h1": "New Zealand grocery prices in 2026",
+  "addSections": [
+   "Quick table at top: milk, bread, eggs, chicken, beef, apples with latest Stats NZ average price and date",
+   "Supermarket comparison: Woolworths vs New World vs Pak'nSave",
+   "Weekly food budget for 1, 2 and 4 people",
+   "Remote-area price premium"
+  ],
+  "faqFromQueries": [
+   "How much do groceries cost in New Zealand?",
+   "How much is milk in New Zealand?"
+  ],
+  "cta": "Find supermarkets, fuel and dump stations along your route in KiwiCamping (Pass for dump stations) -- screenshot of services filter; honest free/Pass note.",
+  "linksIn": [
+   "/guides/new-zealand-travel-cost-2026/",
+   "/guides/campervan-budget-new-zealand/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/camping-costs-nz.html"
+  ],
+  "linksOut": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/eating-out-new-zealand-prices-2026/",
+   "/guides/new-zealand-travel-cost-2026/",
+   "/camping-costs-nz.html"
+  ]
+ },
+ "notes": "1,802 impr pos 5.8 CTR 0.6% vs 6% expected: far below half, strongest RETITLE signal in the batch; but accuracy gate (Countdown name, stale 12 June data) comes first. Title 48 chars with suffix, no metric words; meta mentions 'ten currencies' (low-value hook). Primary queries in GSC list are tiny, impressions come from long tail. Live CTA is the generic 'Save the stops. Plan the whole trip.' card with an App Store link (ct=w_card_en); no screenshot of the relevant feature, no QR, no Pass/free statement."
+}

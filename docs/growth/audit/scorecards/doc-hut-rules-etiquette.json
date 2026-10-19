@@ -1,0 +1,77 @@
+{
+ "url": "https://campingapp.nz/guides/doc-hut-rules-etiquette/",
+ "slug": "doc-hut-rules-etiquette",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 123,
+  "pos": 11.9,
+  "topQueries": [
+   "doc hut booking (pos 8.5, 252 impr, shared with cluster)",
+   "doc hut bookings (pos 7.2)"
+  ],
+  "note": "no other locales listed"
+ },
+ "primaryQuery": "doc hut rules / hut etiquette",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  {
+   "claim": "Section 04 heading 'Nobody is turned away' (and chip 'Full hut means floor space') stated without qualification; body and FAQ give the exception, but the headline contradicts DOC's rule for bookable and Great Walk huts. Minor framing problem.",
+   "correct": "Retitle along the lines of 'Non-bookable huts: nobody is turned away'. Non-bookable huts are first come, first served and stay unlocked as emergency shelter; on Great Walk and other bookable huts DOC says that without a valid booking 'you may be charged a penalty, or turned away if the hut is full'.",
+   "source": "https://www.doc.govt.nz/milfordtrack ; https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/kepler-track/ ; https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/backcountry-hut-pass-terms-and-conditions/"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/doc-huts-new-zealand-guide (near-duplicate sections: nobody turned away, hut book, fire/cooking, leaving)",
+  "/doc-campsites-huts-guide"
+ ],
+ "action": "MERGE",
+ "priority": "P2",
+ "proposed": {
+  "title": "DOC Hut Rules and Etiquette: Bunks, Booking, Hut Book | KiwiCamping",
+  "meta": "DOC hut rules: when you need to book, what 'first come' really means, hut-book etiquette, fires and leaving a hut clean. Updated for 2026.",
+  "h1": "DOC hut rules and backcountry etiquette",
+  "addSections": [
+   "If keeping: a short bookable-vs-first-come table; otherwise fold the etiquette section into the huts guide and 301 this URL"
+  ],
+  "faqFromQueries": [
+   "Do I need to book a DOC hut?",
+   "Can I stay in a DOC hut without a booking?"
+  ],
+  "cta": "Show DOC huts in KiwiCamping with bookable vs first-come, bunks, fee and facilities (Pass); free BookIt stays/tours unaffected. Screenshot of a hut page plus desktop QR.",
+  "linksIn": [
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/doc-campsite-rules/"
+  ],
+  "linksOut": [
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/doc-campsite-rules/",
+   "/guides/dogs-camping-new-zealand/"
+  ]
+ },
+ "notes": "Low impressions (123) and heavily duplicated with the huts guide; merging gives one stronger URL for 'doc huts' (pos 7-8 queries with 500-900 impr). Alternatively keep as a thin etiquette page and canonicalise the shared sections. Fix the 'nobody is turned away' framing either way.",
+ "accuracyAdjudication": {
+  "status": "Official-source adjudication 2026-10-19 (FENZ, DOC, NZTA, MPI, legislation.govt.nz)",
+  "confirmed": 1,
+  "rejectedFlags": [
+   "Great Walk season/warden/gas claims: match 2026/27 DOC pages and are already hedged; missing date is not an error.",
+   "No hut fee or pass prices dated 2026: page states no price; content gap, not inaccuracy."
+  ],
+  "editorialSuggestions": [
+   "Optional: add 2026/27 season dates, note Paparoa and Waikaremoana are booked year-round, serviced huts $25 adult/night, and online Backcountry Hut Tickets from 1 Nov 2026 (not a booking)."
+  ],
+  "auditorFlagsBefore": [
+   "'Nobody is turned away' heading and the intro both say a full hut means floor space - true only for first-come huts; bookable huts (127 in app data) and Great Walk huts do turn people away. The FAQ states the exception but the section headline does not.",
+   "'Great Walk huts run a booked season with wardens and gas' - verify dates/fees for 2026-27 against DOC Great Walks and date it.",
+   "No fee, ticket or Backcountry Hut Pass price given or dated 2026; official link is only 'DOC hut categories'."
+  ]
+ }
+}

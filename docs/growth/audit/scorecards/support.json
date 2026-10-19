@@ -1,0 +1,50 @@
+{
+ "url": "https://campingapp.nz/support/",
+ "slug": "support",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "support (brand)",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 45.3,
+ "accuracyFlags": [
+  "FAQ 'What is included for free?' says 'Map and place details are free, together with two saved lists': per the product Pass boundary, free is BookIt stays and tours only, and DOC campsites, huts, tracks, freedom-camping notices, dump stations, day-use areas and guides are Pass; verify against RevenueCat entitlements before restating.",
+  "FAQ 'Which details are offline?' says 'bundled place directory keeps core place details available': true for place details and guides, but the apps are not offline maps; add that live maps/routing need signal (partly present, make explicit).",
+  "Uses 'Premium' while product facts and marketing use 'Pass'; confirm the current in-app naming.",
+  "H1 reads 'How can wehelp?' in rendered text (missing space between spans), verify visually."
+ ],
+ "cannibalWith": [],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "KiwiCamping Support and FAQ: Maps, Saved Places, Pass",
+  "meta": "Help with KiwiCamping maps, place details, filters, collections, trip planner, offline data and Pass access.",
+  "h1": "How can we help?",
+  "addSections": [
+   "Correct free vs Pass table"
+  ],
+  "faqFromQueries": [],
+  "cta": "none",
+  "linksIn": [
+   "footer",
+   "/privacy/",
+   "/terms/"
+  ],
+  "linksOut": [
+   "/privacy/",
+   "/terms/"
+  ]
+ },
+ "notes": "No GSC rows. Utility page; keep indexable. Fix the free-tier statement first. Not a rules page."
+}

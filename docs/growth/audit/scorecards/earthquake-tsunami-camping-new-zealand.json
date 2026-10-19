@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/earthquake-tsunami-camping-new-zealand/",
+ "slug": "earthquake-tsunami-camping-new-zealand",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [],
+  "note": "not in pages-3m.tsv (<70 impressions)"
+ },
+ "primaryQuery": "tsunami safety camping new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "'Aim for at least 35 metres above sea level or a kilometre inland' - official Get Ready wording is 'move immediately to the nearest high ground or as far inland as you can'; the 35 m/1 km figures need a cited source or removal.",
+  "'The 2016 Kaikoura earthquake generated waves within minutes of the shaking' - arrival times varied (tens of minutes at Kaikoura); verify and soften.",
+  "'Long or strong, get gone' attribution is correct (NEMA/Get Ready) but the official link should be dated 2026."
+ ],
+ "cannibalWith": [
+  "none"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Tsunami and Earthquake Safety for NZ Campers | KiwiCamping",
+  "meta": "Long or strong, get gone: what to do in an earthquake on the coast, how to find high ground and when to wait for official warnings.",
+  "h1": "Earthquake and tsunami safety for New Zealand campers",
+  "addSections": [
+   "Verify 35 m / 1 km claim against Get Ready/NEMA and cite",
+   "Link to NEMA tsunami evacuation maps"
+  ],
+  "faqFromQueries": [],
+  "cta": "Save the evacuation route as a note on the campsite in KiwiCamping.",
+  "linksIn": [
+   "/guides/doc-campsite-rules/",
+   "/guides/food-fuel-resupply-new-zealand-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/"
+  ]
+ },
+ "notes": "No measurable demand; keep as safety content with fact fixes. Safety/legal-adjacent so accuracy matters more than traffic."
+}

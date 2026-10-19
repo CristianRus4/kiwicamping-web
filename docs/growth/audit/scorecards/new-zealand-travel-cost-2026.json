@@ -1,0 +1,66 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-travel-cost-2026/",
+ "slug": "new-zealand-travel-cost-2026",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 356,
+  "pos": 6.9,
+  "topQueries": [
+   "new zealand travel daily budget accommodation food transport 2026",
+   "how much does it cost to travel new zealand (inferred)"
+  ]
+ },
+ "primaryQuery": "how much does it cost to travel new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "Daily ranges ($75-120 lean, $150-260 comfortable) rest on Numbeo crowd-sourced prices and a Stats NZ CPI note, not an official tourism or retail source; Numbeo is user-submitted, so the dated 'prices checked 12 August 2026' claim is only as good as that feed",
+  "Page says 'Prices checked 12 August 2026' but 'Updated 18 August 2026'; minor, but dates should agree",
+  "Costs section says the ferry, excess reduction etc. 'add several hundred dollars to a fortnight' with no figure or source; Cook Strait fare should be quoted from the operator with a date"
+ ],
+ "cannibalWith": [
+  "/guides/campervan-budget-new-zealand/",
+  "/guides/bus-ferry-train-costs-new-zealand/",
+  "/guides/eating-out-new-zealand-prices-2026/"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "NZ Travel Cost 2026: Daily Budget for Campers (NZD)",
+  "meta": "What a day in New Zealand costs in 2026: NZ$75-120 lean camper, $150-260 comfortable. Dated NZD prices converted into 10 currencies.",
+  "h1": "How much does it cost to travel New Zealand in 2026?",
+  "addSections": [
+   "Two-week and four-week sample totals for a campervan pair (vehicle, fuel, camps, food) with dated source",
+   "Cook Strait ferry and one-way fee line items with operator source",
+   "Quick-answer box at top: lean/comfortable/private per day in NZD, USD, GBP, EUR, AUD",
+   "What DOC campsite fees really are (link to app DOC campsite fee data: free 63, paid 211 of 287 in bundled data as of 2026-08-24)"
+  ],
+  "faqFromQueries": [
+   "How much do campsites cost in New Zealand?",
+   "How much does a trip to New Zealand cost per day in 2026?",
+   "Is New Zealand expensive for a camping trip?"
+  ],
+  "cta": "Name the feature: 'See fees on 287 DOC campsites and filter free sites in KiwiCamping' with screenshot of the fee filter and QR on desktop; DOC campsite data is Pass, say so honestly.",
+  "linksIn": [
+   "/guides/campervan-budget-new-zealand/",
+   "/guides/public-transport-costs-new-zealand-2026/",
+   "/",
+   "/guides/new-zealand-three-week-campervan-route/"
+  ],
+  "linksOut": [
+   "/guides/campervan-budget-new-zealand/",
+   "/guides/doc-campsite-rules/",
+   "/guides/cook-strait-ferry-campervan-guide/",
+   "/guides/eating-out-new-zealand-prices-2026/"
+  ]
+ },
+ "notes": "pos 6.9 with 356 impressions but 1 click (CTR 0.3% vs 6% expected, under half): clear RETITLE. Current title is 66 chars including suffix (over 60) and starts with a question rather than the query. Locale versions (nl/it) also get impressions at pos 8 with 0 clicks, so a retitle should be carried to translations. Canonical self-referencing, FAQ schema present, no QR/screenshot beyond generic Download card. Verify campervan-budget-new-zealand does not own the same cluster; if it does, differentiate (this = per-person daily budget, that = vehicle-hire trip total)."
+}

@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/kauri-dieback-camping-travel/",
+ "slug": "kauri-dieback-camping-travel",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [],
+  "note": "en not in pages-3m.tsv; de 0/90 pos 5.8, nl 0/81 pos 6.1"
+ },
+ "primaryQuery": "kauri dieback camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "'Large parts of the Waitakere Ranges ... closed under rahui, and some will not reopen' - Auckland Council has been reopening tracks in phases; state the current status and date it for 2026.",
+  "'Tane Mahuta' missing macron (Tāne Mahuta).",
+  "Penalty claim ('both an offence') should cite the Biosecurity Act / Auckland Council bylaw notice."
+ ],
+ "cannibalWith": [
+  "/guides/dogs-camping-new-zealand (dog advice)"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Kauri Dieback: Clean Camping Gear Before Northland Trips",
+  "meta": "Soil on boots, tent pegs and tyres spreads kauri dieback. How to scrub, spray and which Northland and Auckland tracks are open in 2026.",
+  "h1": "Kauri dieback: clean gear before northern camps and walks",
+  "addSections": [
+   "Current Waitakere track status table with dated official source"
+  ],
+  "faqFromQueries": [],
+  "cta": "Show DOC campsites near kauri forests in KiwiCamping (Pass).",
+  "linksIn": [
+   "/guides/doc-campsite-rules/",
+   "/guides/dogs-camping-new-zealand/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/",
+   "/guides/dogs-camping-new-zealand/"
+  ]
+ },
+ "notes": "German and Dutch variants get impressions at pos ~6 with no clicks; low title CTR. Not an English priority."
+}

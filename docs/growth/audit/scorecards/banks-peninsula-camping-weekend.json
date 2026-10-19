@@ -1,0 +1,51 @@
+{
+ "url": "https://campingapp.nz/guides/banks-peninsula-camping-weekend/",
+ "slug": "banks-peninsula-camping-weekend",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 102,
+  "pos": 8.7,
+  "topQueries": []
+ },
+ "primaryQuery": "banks peninsula camping",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "'Governors Bay and Diamond Harbour ... reachable by ferry from Lyttelton': only Diamond Harbour has a ferry; Governors Bay does not",
+  "Lyttelton tunnel height limit 'catches some campervans' given without a figure; add the NZTA-stated limit",
+  "Evans Pass road alternative: road reopened 2019 but status not dated; link to council"
+ ],
+ "cannibalWith": [
+  "/guides/picton-kaikoura-christchurch-route"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Banks Peninsula Camping Weekend from Christchurch",
+  "meta": "Camp at Akaroa, Okains Bay and Le Bons Bay: steep roads, campgrounds that fill on Fridays, dolphin cruises and a two-day plan.",
+  "h1": "Banks Peninsula camping weekend from Christchurch",
+  "addSections": [
+   "Named campgrounds in Akaroa and outer bays with fees",
+   "Sample Fri-Sun itinerary",
+   "Summit Road vs highway driving times"
+  ],
+  "faqFromQueries": [],
+  "cta": "Plan the route in KiwiCamping: save the stops, order them, see distance and keep notes and to-dos (Pass not needed for saving places); add app screenshot and desktop QR",
+  "linksIn": [
+   "/guides/picton-kaikoura-christchurch-route"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps",
+   "/freedom-camping-rules-nz"
+  ]
+ },
+ "notes": "CTR 2.0% at pos 8.7 vs 3% expected: not below half. Text repeats itself (sections 07 and 09 duplicate the ninety-minute line). Add named campgrounds and prices."
+}

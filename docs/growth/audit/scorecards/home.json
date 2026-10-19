@@ -1,0 +1,63 @@
+{
+ "url": "https://campingapp.nz/",
+ "slug": "home",
+ "gsc90": {
+  "clicks": 442,
+  "impr": 14583,
+  "pos": 16.2,
+  "topQueries": [
+   "nz camping app",
+   "new zealand camping app",
+   "freedom camping nz map",
+   "new zealand campsites map",
+   "campingplätze neuseeland karte"
+  ]
+ },
+ "primaryQuery": "nz camping app / new zealand campsites map",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 4,
+  "conversion": 4,
+  "links": 4,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 64.2,
+ "accuracyFlags": [
+  "Home page twice says 'Street View' (place-detail bullet 'Street View to see the entrance from the road' and a dedicated 'Street View before the turnoff' feature block, plus 'Street View, weather and directions built in'): the app uses Apple Look Around, not Street View.",
+  "FAQ 'Live services such as weather, routing, Street View, photos...' repeats the Street View term.",
+  "Title is 62 chars once &amp; is decoded (limit 60) and leads with the brand rather than the query cluster; meta is 178 chars (limit 155) and will be truncated."
+ ],
+ "cannibalWith": [
+  "/best-nz-camping-apps.html (camping app queries)",
+  "/guides/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "NZ Camping App: Map of DOC Sites & Freedom Camping",
+  "meta": "NZ camping app for iPhone: map DOC campsites, huts, dump stations and freedom camping notices, with place details that work offline. Plan the trip.",
+  "h1": "The NZ camping app for maps, DOC sites and road trips",
+  "addSections": [
+   "Replace every 'Street View' with 'Apple Look Around' (hero feature list, feature block, FAQ)",
+   "Short 'what is free vs Pass' strip: free = BookIt stays and tours only; Pass = DOC campsites, huts, tracks, freedom camping notices, dump stations, guides"
+  ],
+  "faqFromQueries": [
+   "Is there an offline map for New Zealand camping?",
+   "What is the best freedom camping app for NZ?"
+  ],
+  "cta": "Download app: find DOC campsites, huts and dump stations on the map and save them to a trip",
+  "linksIn": [
+   "/guides/",
+   "/best-nz-camping-apps.html"
+  ],
+  "linksOut": [
+   "/best-nz-camping-apps.html",
+   "/freedom-camping-rules-nz.html",
+   "/doc-campsites-huts-guide.html",
+   "/dump-stations-nz.html"
+  ]
+ },
+ "notes": "Accuracy gate fails on Street View. Homepage CTR 3.0% at pos 16 beats the 1% benchmark so do not touch the title beyond the char limit. Headline place counts, testimonials and user counts ignored per owner. Source: app/ home + lib/source-strings.ts, lib/content/faqs.ts."
+}

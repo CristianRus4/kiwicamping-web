@@ -1,0 +1,58 @@
+{
+ "url": "https://campingapp.nz/guides/domestic-flight-costs-new-zealand-2026/",
+ "slug": "domestic-flight-costs-new-zealand-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 266,
+  "pos": 15.6,
+  "topQueries": [
+   "domestic flights new zealand (pos 32.2, 13 impr)"
+  ],
+  "note": "0 clicks; off-core topic for a camping app"
+ },
+ "primaryQuery": "domestic flights new zealand cost",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  "Fare bands ($69-$149 sale, $120-$300 trunk, $200-$550 regional, $25-$80 bag) are presented as 'Prices checked 12 August 2026' with no named source or per-route evidence; only generic Air NZ/RBNZ links.",
+  "'Flying one leg ... relocation fee can be larger than the airfare' and 'Queenstown diverts often' - plausible but uncited.",
+  "Price table in 10 currencies is mechanically converted - fine but multiplies unsourced figures."
+ ],
+ "cannibalWith": [
+  "none on site; competes with Air NZ/Skyscanner/Finder for the query"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Domestic Flight Costs in NZ 2026: Real Trip Price Guide",
+  "meta": "Typical NZ domestic fares in 2026 plus bags, airport transport and one-way rental fees. See the real cost of flying vs driving.",
+  "h1": "Domestic flight costs in New Zealand (2026)",
+  "addSections": [
+   "Named route examples (AKL-ZQN, AKL-CHC, WLG-CHC) with sourced fare ranges and date",
+   "Fly vs drive vs ferry cost table for a camper",
+   "Link to rental/one-way fee guide"
+  ],
+  "faqFromQueries": [
+   "How much are domestic flights in New Zealand?",
+   "Is it cheaper to fly or drive in NZ?"
+  ],
+  "cta": "Compare against the real cost of driving: save stops in KiwiCamping and see route distance and fuel. Honest note: Pass is not needed for planning, only for DOC data.",
+  "linksIn": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/eating-out-new-zealand-prices-2026/"
+  ],
+  "linksOut": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/kiwicamping-currency-place-costs/"
+  ]
+ },
+ "notes": "Pos 15.6 with 0 clicks. Off-core and price figures unsourced; one quick fix is to cite named Air NZ/Jetstar fare examples. Consider noindex only if it stays thin."
+}

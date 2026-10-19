@@ -1,0 +1,65 @@
+{
+ "url": "https://campingapp.nz/guides/plan-trip-kiwicamping/",
+ "slug": "plan-trip-kiwicamping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "camping trip planner",
+   "camping planning app",
+   "driving distance calculator nz",
+   "camping itinerary"
+  ]
+ },
+ "primaryQuery": "camping trip planner app new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 62.1,
+ "accuracyFlags": [
+  "Page implies Pass not needed for planning but never states Pass status: add honest line (saving places and the planner are free; DOC data layers need Pass)",
+  "'Core place details are bundled and stay readable offline' is correct; make sure it is not described as offline maps (live routing and map imagery need a connection, already stated)"
+ ],
+ "cannibalWith": [
+  "/guides/save-places-kiwicamping/",
+  "/guides/kiwicamping-offline-data-guide/",
+  "/guides/kiwicamping-filters-guide/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Camping Trip Planner for NZ: Plan Routes in KiwiCamping",
+  "meta": "Plan a New Zealand camping trip: order stops, see route distance, keep notes and to-dos with each stop. Free trip planner in KiwiCamping.",
+  "h1": "How to plan a complete trip in KiwiCamping",
+  "addSections": [
+   "Screenshot of the trip planner with stops, distance and to-do list",
+   "Free vs Pass line",
+   "QR code on desktop"
+  ],
+  "faqFromQueries": [
+   "Is there a camping trip planner for New Zealand?",
+   "How do I calculate driving distance between campsites in NZ?"
+  ],
+  "cta": "Primary CTA is the app itself: Download KiwiCamping, with QR on desktop.",
+  "linksIn": [
+   "/",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/guides/north-island-two-week-road-trip/",
+   "/guides/picton-kaikoura-christchurch-route/",
+   "/guides/save-places-kiwicamping/"
+  ],
+  "linksOut": [
+   "/guides/save-places-kiwicamping/",
+   "/guides/kiwicamping-offline-data-guide/",
+   "/guides/kiwicamping-filters-guide/"
+  ]
+ },
+ "notes": "No page-level impressions (below 70) but queries 'camping trip planner' (1 click, pos 1.0, 2 impr) and 'camping planning app' pos 34 show intent. Page is an app guide so conversion expectations are higher: the CTA is the generic Download card and no screenshot/QR was seen in the rendered text. Needs inbound links from every road-trip guide (currently route guides link to Northland/Coromandel, not here)."
+}

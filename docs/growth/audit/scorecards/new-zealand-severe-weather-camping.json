@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-severe-weather-camping/",
+ "slug": "new-zealand-severe-weather-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "severe weather camping new zealand / MetService warnings camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 58.9,
+ "accuracyFlags": [
+  "Refers to 'Waka Kotahi' (body) while the agency is NZTA Waka Kotahi / now NZTA; update naming and cite NZTA Journeys.",
+  "Warning-level wording ('watches and warnings') should align with MetService colour-coded Orange/Red warnings; add the colour meanings and Civil Defence emergency mobile alert."
+ ],
+ "cannibalWith": [
+  "earthquake-tsunami-camping-new-zealand",
+  "river-crossing-safety-new-zealand",
+  "winter-camping-new-zealand",
+  "kiwicamping-weather-look-around"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Severe Weather and Camping in NZ: Warnings and Moves",
+  "meta": "How to read MetService warnings, when to leave river flats and exposed camps, and where to shelter in a New Zealand storm.",
+  "h1": "Severe weather and camping in New Zealand",
+  "addSections": [
+   "MetService Orange/Red warning meaning with link",
+   "Emergency Mobile Alert note",
+   "Fallback-camp checklist with KiwiCamping holiday parks filter"
+  ],
+  "faqFromQueries": [
+   "What do MetService orange and red warnings mean?"
+  ],
+  "cta": "In KiwiCamping, save a serviced-site fallback near each night's camp and check the in-app forecast for the exact place; screenshot; Pass note.",
+  "linksIn": [
+   "/guides/kiwicamping-weather-look-around/",
+   "/guides/river-crossing-safety-new-zealand/",
+   "/guides/winter-camping-new-zealand/",
+   "/nz-camping-seasons-weather-sandflies.html"
+  ],
+  "linksOut": [
+   "/guides/river-crossing-safety-new-zealand/",
+   "/guides/earthquake-tsunami-camping-new-zealand/",
+   "/nz-camping-seasons-weather-sandflies.html"
+  ]
+ },
+ "notes": "No impressions (not in pages-3m, nor locales). Good official sources (MetService, Get Ready). Overlaps seasons/weather legacy page. Treat as support content; could be merged if still empty after one more GSC pull. Title 55 chars incl suffix."
+}

@@ -1,0 +1,72 @@
+{
+ "url": "https://campingapp.nz/guides/nelson-abel-tasman-golden-bay/",
+ "slug": "nelson-abel-tasman-golden-bay",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "abel tasman camping (37 impr, pos 39.4)",
+   "abel tasman campsites (33, pos 48.6)",
+   "abel tasman bays (25, pos 51)",
+   "abel tasman golden bay (20, pos 16.2)",
+   "campsites abel tasman (15, pos 43.3)",
+   "nelson abel tasman (9, pos 44.8)"
+  ]
+ },
+ "primaryQuery": "abel tasman camping / abel tasman campsites",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "'Nelson has the highest sunshine hours in the country' (stated twice) is contestable; Blenheim/Whakatane/Nelson swap year to year. Soften to 'among the sunniest regions' and cite NIWA/MetService.",
+  "Tidal crossings 'passable only around low tide' for Awaroa and Torrent Bay: DOC gives specific windows (about 1-2 hours either side of low tide). Cite the DOC tide-crossing page.",
+  "Nothing says Abel Tasman Coast Track campsites/huts are DOC Great Walk bookings with 2026 fees; add dated DOC link."
+ ],
+ "cannibalWith": [
+  "rakiura-stewart-island-camping-guide",
+  "doc-campsites-huts-guide.html",
+  "where-to-camp-in-new-zealand.html"
+ ],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Abel Tasman Camping: Campsites, Bookings & Route",
+  "meta": "Where to camp in Abel Tasman, Nelson and Golden Bay: booking the Coast Track, tidal crossings, Takaka Hill and Wharariki, with a 6-day route.",
+  "h1": "Abel Tasman camping: a 6-day Nelson to Golden Bay route",
+  "addSections": [
+   "Abel Tasman campsites and huts: DOC Great Walk booking, 2026 fees, how far ahead",
+   "Tidal crossing table with DOC windows",
+   "Where to camp in Golden Bay (Pakawau, T\u0101kaka, Collingwood) with KiwiCamping place data",
+   "Water taxi planning"
+  ],
+  "faqFromQueries": [
+   "Can you camp in Abel Tasman?",
+   "Do you need to book Abel Tasman campsites?",
+   "How far is Abel Tasman from Golden Bay?"
+  ],
+  "cta": "Open the Tasman region in KiwiCamping: DOC campsites and huts (Pass) shown with fee and bookable status; screenshot of Marahau area map; honest Pass note.",
+  "linksIn": [
+   "/guides/christchurch-tekapo-aoraki-road-trip/",
+   "/guides/picton-kaikoura-christchurch-route/",
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/south-island-two-week-road-trip/",
+   "/guides/new-zealand-three-week-campervan-route/"
+  ],
+  "linksOut": [
+   "/guides/doc-campsite-rules/",
+   "/guides/doc-hut-rules-etiquette/",
+   "/doc-campsites-huts-guide.html",
+   "/guides/sandflies-new-zealand-camping/",
+   "/guides/picton-kaikoura-christchurch-route/"
+  ]
+ },
+ "notes": "Zero impressions on the EN URL (only /es/ 113 impr pos 45). Queries are 'abel tasman camping/campsites' (pos 39-51, ~110 impr combined across variants): title must lead with that and the page needs a real Abel Tasman campsite section. Title 62 chars with suffix. Meta 64 chars is too thin. Schema lacks FAQPage. Live 'Related guides' are Coromandel/Northland/Bay of Islands: wrong region. Sources block empty (no official links at all)."
+}

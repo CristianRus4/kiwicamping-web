@@ -1,0 +1,59 @@
+{
+ "url": "https://campingapp.nz/guides/kiwicamping-filters-guide/",
+ "slug": "kiwicamping-filters-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "kiwicamping filters / filter campsites new zealand app",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 56.8,
+ "accuracyFlags": [
+  "'Check the certification requirement against your own warrant' (filter section) does not say blue self-containment warrants stopped being recognised on 7 June 2026; readers holding a blue warrant could rely on it. Name the current certification (NZS 5465:2023 / green warrant) and link self-contained guide.",
+  "Section lists 'vehicle size, price band, dog access' as filters; FAQ lists fee, facilities, access features, place type, region, rating, online booking. Confirm each named filter exists in the app, no 'vehicle size' evidence found."
+ ],
+ "cannibalWith": [
+  "best-nz-camping-apps.html",
+  "plan-trip-kiwicamping",
+  "save-places-kiwicamping"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "KiwiCamping filters: find free camping with toilets",
+  "meta": "How to stack fee, facility and access filters in KiwiCamping so you find free campsites near you without hiding good options.",
+  "h1": "KiwiCamping filters: find the right campsite faster",
+  "addSections": [
+   "Which filters exist (fee, facilities, access features, place type, region, rating, online booking) with a screenshot",
+   "Free vs Pass: the free app shows BookIt stays and tours; DOC campsites, huts, tracks, freedom notices, dump stations and day-use areas need the Pass",
+   "How filters treat unknown data (blank = unknown)"
+  ],
+  "faqFromQueries": [
+   "Can you filter for free camping with toilets?",
+   "Why does my filtered search return nothing?"
+  ],
+  "cta": "Open KiwiCamping and set the Fee: Free + Toilets filters on the map; screenshot of the filter sheet; honest Pass note for DOC data; desktop QR.",
+  "linksIn": [
+   "/best-nz-camping-apps.html",
+   "/guides/plan-trip-kiwicamping/",
+   "/free-camping-nz-legal.html"
+  ],
+  "linksOut": [
+   "/guides/self-contained-campervan-green-warrant",
+   "/free-camping-nz-legal.html",
+   "/dump-stations-nz.html",
+   "/guides/kiwicamping-offline-data-guide/"
+  ]
+ },
+ "notes": "Zero impressions in 3 months for this path (not in pages-3m.tsv, threshold 70 impr). App feature page, no query demand; keep as a supporting app guide linked from the app hub, not a growth page. Title is 69 chars incl. ' | KiwiCamping' suffix (over 60) and does not lead with a query. Meta 93 chars OK. Live CTA is the generic 'Save the stops. Plan the whole trip.' card with an App Store link (ct=w_card_en); no screenshot of the relevant feature, no QR, no Pass/free statement. No dateModified in schema; 'Updated' label present. Internal links only 3 contextual (freedom camping x3 to the legacy page, dump stations)."
+}

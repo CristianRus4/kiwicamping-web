@@ -1,0 +1,64 @@
+{
+ "url": "https://campingapp.nz/freedom-camping-rules-nz.html",
+ "slug": "freedom-camping-rules-nz",
+ "gsc90": {
+  "clicks": 23,
+  "impr": 2037,
+  "pos": 8.4,
+  "topQueries": [
+   "freedom camping rules nz",
+   "freedom camping nz",
+   "freedom camping nz map",
+   "freedom camping app nz"
+  ]
+ },
+ "primaryQuery": "freedom camping rules nz",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 1,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 45.3,
+ "accuracyFlags": [
+  "Section 02 says blue warrants 'stay valid until they expire, and no later than 31 December 2027': blue warrants are no longer recognised since 7 June 2026 (and the heading 'transition is now complete' contradicts the text).",
+  "States new certifications changed 'From 7 June 2025'; the fixed-toilet regime started 7 June 2023: date looks wrong.",
+  "Title promises 'region by region' but sections give only broad outlines; no DOC notice data (224 prohibited / 63 restricted notices in 35 districts) is used, and DOC notices are not council bylaws.",
+  "FAQ says fines are 'several hundred dollars' while body says $400: align with MBIE schedule."
+ ],
+ "cannibalWith": [
+  "/free-camping-nz-legal.html",
+  "/self-contained-vehicles-nz.html"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Freedom Camping Rules NZ 2026: Region by Region",
+  "meta": "NZ freedom camping rules for 2026: green self-contained warrant, $400 fines, council vs DOC land and where it is allowed.",
+  "h1": "Freedom camping rules in New Zealand, region by region (2026)",
+  "addSections": [
+   "Corrected certification timeline with MBIE source",
+   "DOC freedom camping notices by district table from app data",
+   "Absorb free-camping-nz-legal content"
+  ],
+  "faqFromQueries": [
+   "Do I need a self-contained vehicle for freedom camping?",
+   "How much is the freedom camping fine in NZ?"
+  ],
+  "cta": "See DOC freedom camping notices (prohibited/restricted) on the map in the app (Pass)",
+  "linksIn": [
+   "/free-camping-nz-legal.html",
+   "/",
+   "/guides/"
+  ],
+  "linksOut": [
+   "/dump-stations-nz.html",
+   "/doc-campsites-huts-guide.html",
+   "/campfire-rules-nz.html"
+  ]
+ },
+ "notes": "Owns the freedom camping cluster. CTR 1.1% at pos 8.4 vs 3%: retitle after facts fixed. Source lib/content/legacy-migrated.ts:17."
+}

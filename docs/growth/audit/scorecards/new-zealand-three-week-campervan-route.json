@@ -1,0 +1,67 @@
+{
+ "url": "https://campingapp.nz/guides/new-zealand-three-week-campervan-route/",
+ "slug": "new-zealand-three-week-campervan-route",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "3 week campervan itinerary new zealand (24 impr, pos 58.8)",
+   "3 week campervan itinerary new zealand south island (14, pos 62.4)"
+  ]
+ },
+ "primaryQuery": "3 week campervan itinerary new zealand",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "'around eight days in the North Island' vs H2 'Nine days in the north' inconsistent.",
+  "'Freedom camping rules are local and vehicle-specific' ok, but page does not mention the 7 June 2026 end of blue warrant recognition for the self-contained night legs.",
+  "No distances, fares or ferry operator facts dated 2026."
+ ],
+ "cannibalWith": [
+  "two-week-camper-itinerary-nz.html",
+  "south-island-two-week-road-trip",
+  "north-island-two-week-road-trip"
+ ],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "3 Week Campervan Itinerary New Zealand: Both Islands",
+  "meta": "A day-by-day 3-week campervan route for New Zealand: 9 days north, ferry, 12 south, with where to stay two nights and when to rest.",
+  "h1": "3-week campervan itinerary for New Zealand",
+  "addSections": [
+   "Day-by-day table (21 days) with drive hours and nights per place",
+   "Booking order: ferry, campervan, Great Walk sites with 2026 dates",
+   "North-to-south vs round trip cost comparison",
+   "Links to each regional road trip"
+  ],
+  "faqFromQueries": [
+   "How long do you need for New Zealand in a campervan?",
+   "3 week campervan itinerary New Zealand south island"
+  ],
+  "cta": "Build this route as a KiwiCamping trip: drag stops in order, see leg distances; screenshot of trip planner; honest Pass note.",
+  "linksIn": [
+   "/two-week-camper-itinerary-nz.html",
+   "/guides/north-island-two-week-road-trip/",
+   "/guides/south-island-two-week-road-trip/",
+   "/guides/cook-strait-ferry-campervan-guide/"
+  ],
+  "linksOut": [
+   "/guides/coromandel-rotorua-road-trip/",
+   "/guides/picton-kaikoura-christchurch-route/",
+   "/guides/christchurch-tekapo-aoraki-road-trip/",
+   "/guides/fiordland-camping-road-trip/",
+   "/guides/west-coast-south-island-road-trip/",
+   "/guides/new-zealand-driving-day-planner/"
+  ]
+ },
+ "notes": "EN URL has 0 impressions in the 3-month data; only a nl variant (74 impr, pos 48.8). Query '3 week campervan itinerary' at pos 59-62: needs a day-by-day structure to compete. Likely cannibalises two-week-camper-itinerary-nz.html. Source list empty. Title 64 chars incl suffix doesn't lead with 'itinerary'."
+}

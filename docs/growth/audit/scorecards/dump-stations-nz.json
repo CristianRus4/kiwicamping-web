@@ -1,0 +1,58 @@
+{
+ "url": "https://campingapp.nz/dump-stations-nz.html",
+ "slug": "dump-stations-nz",
+ "gsc90": {
+  "clicks": 29,
+  "impr": 1935,
+  "pos": 9.5,
+  "topQueries": [
+   "dump stations nz",
+   "are dump stations free",
+   "dump station near me nz"
+  ]
+ },
+ "primaryQuery": "dump stations nz",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  "No dollar fines stated: 'substantially higher' with no figure; MBIE schedule lists $800 for dumping waste, add with source.",
+  "'many i-SITEs' offer dump stations is unsourced."
+ ],
+ "cannibalWith": [
+  "/freedom-camping-rules-nz.html"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Dump Stations in New Zealand: Map, Costs & Rules",
+  "meta": "Find NZ dump stations, how much they cost (most are free), how to empty black and grey water and the $800 fine for dumping.",
+  "h1": "Dump stations in New Zealand: where to find them and how to use them",
+  "addSections": [
+   "How many of the app's 262 dump stations are free (240) vs paid",
+   "Regional counts from product-facts",
+   "Fine table with MBIE source"
+  ],
+  "faqFromQueries": [
+   "Are dump stations free in NZ?",
+   "Where can I empty a campervan toilet in NZ?"
+  ],
+  "cta": "Show dump stations on the map in the app (Pass), 262 mapped with fee info",
+  "linksIn": [
+   "/freedom-camping-rules-nz.html",
+   "/camping-costs-nz.html"
+  ],
+  "linksOut": [
+   "/freedom-camping-rules-nz.html",
+   "/campfire-rules-nz.html"
+  ]
+ },
+ "notes": "CTR 1.5% at pos 9.5 equals half of the 3% benchmark, so not strictly RETITLE; thin on data the app uniquely has. Source lib/content/legacy-migrated.ts:250."
+}

@@ -1,0 +1,58 @@
+{
+ "url": "https://campingapp.nz/guides/eating-out-new-zealand-prices-2026/",
+ "slug": "eating-out-new-zealand-prices-2026",
+ "gsc90": {
+  "clicks": 3,
+  "impr": 317,
+  "pos": 7.9,
+  "topQueries": [
+   "(none above threshold in queries-3m)"
+  ],
+  "note": "de 2/253 pos 6.9, pt 0/142"
+ },
+ "primaryQuery": "eating out new zealand prices",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "FAQ promises 'dated prices for a cafe brunch, a pub meal, a mid-range dinner and a takeaway' but the table has restaurant meal, fast-food combo, mid-range dinner, cappuccino, soft drink - brunch and pub meal are not present.",
+  "Prices are Numbeo community-contributed ranges ('updated June 2026') presented as '2026 meal and coffee prices'; Numbeo is not an official source and 'Prices checked 12 August 2026' overstates verification.",
+  "'Public holiday surcharges ... typically around fifteen percent' - legal but typical level uncited."
+ ],
+ "cannibalWith": [
+  "none"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Eating Out in NZ: 2026 Meal and Coffee Prices",
+  "meta": "What a coffee, pie, cafe brunch and restaurant dinner cost in NZ in 2026, plus surcharges, tipping and how to budget meals on the road.",
+  "h1": "Eating out in New Zealand: 2026 meal and coffee prices",
+  "addSections": [
+   "Add cafe brunch, pub meal and bakery pie rows with sources",
+   "Supermarket vs eating out daily budget for campers"
+  ],
+  "faqFromQueries": [
+   "How much does a meal cost in NZ?",
+   "How much is a coffee in NZ?"
+  ],
+  "cta": "Log meals and costs against a trip in KiwiCamping; show reported place costs in your currency.",
+  "linksIn": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/kiwicamping-currency-place-costs/",
+   "/guides/domestic-flight-costs-new-zealand-2026/"
+  ],
+  "linksOut": [
+   "/guides/food-fuel-resupply-new-zealand-road-trip/",
+   "/guides/kiwicamping-currency-place-costs/"
+  ]
+ },
+ "notes": "Pos 7.9, 0.9% CTR vs 3% expected. Fix FAQ/table mismatch before retitling. Conversion is generic."
+}

@@ -1,0 +1,80 @@
+{
+ "url": "https://campingapp.nz/where-to-camp-in-new-zealand.html",
+ "slug": "where-to-camp-in-new-zealand",
+ "gsc90": {
+  "clicks": 6,
+  "impr": 3081,
+  "pos": 61.4,
+  "topQueries": [
+   "(page-level only; no per-page query split in queries-3m.tsv)",
+   "camping new zealand (591 impr, pos 37)",
+   "camping in new zealand (283, pos 43)",
+   "free camping nz (147, pos 54)",
+   "places to camp in new zealand (28, pos 62)"
+  ]
+ },
+ "primaryQuery": "where to camp in new zealand",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 1,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 33.0,
+ "accuracyFlags": [
+  "Section 07 says older blue certifications remain valid until they expire and no later than 31 December 2027: blue self-containment warrants are no longer recognised since 7 June 2026, so this is wrong and could lead to fines.",
+  "Section 01 says council reserves are 'the backbone of freedom camping' governed by local bylaws: the app's freedom camping data is DOC conservation-land notices, not council bylaws; reword and cite the Freedom Camping Act 2011 and the council/DOC split.",
+  "Section 05 says 'DOC basic sites are free' while section 01 says basic sites are 'free or a few dollars': internally inconsistent; DOC prices ($10-$20 standard, ~$25 serviced, holiday parks $25-$80) are undated and unsourced, verify against doc.govt.nz 2026 fees and add 'as of' date.",
+  "FAQ says 'Broadly five' types while the H2 says 'four land types': inconsistent.",
+  "Footer/CTA: 'Find 6,500+ New Zealand places offline' reads as offline maps; must say place details and guides work offline, not maps (headline counts out of scope).",
+  "'roughly 950 huts' and 'several hundred campsites' DOC counts are undated and uncited."
+ ],
+ "cannibalWith": [
+  "/free-camping-nz-legal.html",
+  "/holiday-parks-nz-booking-guide.html",
+  "/guides/doc-campsite-rules",
+  "/guides/doc-huts-new-zealand-guide",
+  "/ (home, camping nz / map queries)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Where to Camp in New Zealand: DOC, Freedom & Holiday Parks (2026)",
+  "meta": "Where you can legally camp in NZ in 2026: DOC campsites, freedom camping areas, holiday parks and iwi sites, with typical costs and booking rules.",
+  "h1": "Where to camp in New Zealand: DOC, freedom camping and holiday parks",
+  "addSections": [
+   "Corrected 2026 self-containment section: blue warrants no longer recognised since 7 June 2026; green warrant required where certified self-contained is needed",
+   "Comparison table of land types: who manages it, 2026 cost (dated, DOC-sourced), booking, vehicle requirement",
+   "Where to camp for free (DOC basic sites, designated freedom camping areas) linking to the free camping legal page",
+   "Region-by-region quick picks with links to regional guides",
+   "Official sources block (DOC, Freedom Camping Act 2011, NZTA, council bylaws) with checked date"
+  ],
+  "faqFromQueries": [
+   "Where can you camp for free in New Zealand?",
+   "Is wild camping legal in New Zealand?",
+   "Where can I camp in New Zealand without a self-contained vehicle?",
+   "How much do DOC campsites cost in 2026?",
+   "Do I need to book DOC campsites?"
+  ],
+  "cta": "Open the KiwiCamping map and filter DOC campsites, holiday parks and freedom camping notices, then save places and build a route. BookIt stays/tours are free in the app; Pass covers the rest. Place details and guides work offline (not maps). Add screenshot and desktop QR.",
+  "linksIn": [
+   "/free-camping-nz-legal.html",
+   "/guides/doc-campsite-rules",
+   "/holiday-parks-nz-booking-guide.html",
+   "/guides/new-zealand-three-week-campervan-route/",
+   "/"
+  ],
+  "linksOut": [
+   "/free-camping-nz-legal.html",
+   "/holiday-parks-nz-booking-guide.html",
+   "/guides/doc-campsite-rules",
+   "/guides/doc-huts-new-zealand-guide/",
+   "/guides/freedom-camping-nz (if exists)",
+   "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/"
+  ]
+ },
+ "notes": "Live 18 Aug 2026 update. Legacy .html page in lib/content/legacy.ts; faqs in lib/content/faqs.ts. 3,081 impressions at pos 61 with 0.2% CTR: head-term cluster 'camping new zealand' is split across home and several guides, so after fixing the blue-warrant fact, REWRITE as the hub for 'camping in new zealand / places to camp' with a unique cluster and canonicalise overlapping sections. Rubric action order puts FIX-FACTS first. WebSearch competitor depth not run (read-only time budget); depth scored from content: generic, undated, no table, no map screenshot, thin region coverage."
+}
