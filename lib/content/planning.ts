@@ -29,7 +29,7 @@ export const planningArticles: Article[] = [
         "Remote fuel costs more, and the price varies substantially between a city and a small West Coast or East Cape town. Fill in larger centres where you can, but never pass the last station before a long gap to save a few cents.",
       ]),
       s("Budget the ferry as a fixed block", [
-        "Cook Strait is a large, non-negotiable cost for any trip covering both islands, and it is priced on vehicle length and height rather than passenger count. A campervan crossing costs several times a car, and a towed trailer or bike rack changes the category again.",
+        "Cook Strait is a large, non-negotiable cost for any trip covering both islands, and it is priced on vehicle length rather than passenger count. A campervan crossing costs several times a car, and a towed trailer or bike rack changes the category again.",
         "Book it early for summer sailings, and read the change and cancellation terms before choosing the cheapest fare. A non-refundable saving disappears the first time weather or a road closure forces a different sailing.",
       ], ["Priced by vehicle size, not people", "Book summer sailings early", "Cheap fares cost more to change"]),
       s("Mix the overnight styles deliberately", [
@@ -50,14 +50,14 @@ export const planningArticles: Article[] = [
   a({
     slug: "cook-strait-ferry-campervan-guide",
     title: "Cook Strait Ferry with a Campervan: Fares and Booking 2026",
-    description: "Interislander or Bluebridge with a campervan: how vehicle length and height set the fare, when to book, check-in and what to do before boarding.",
+    description: "Interislander or Bluebridge with a campervan: how vehicle length sets the fare, when to book, check-in and what to do before boarding.",
     category: "Trip planning", region: "Wellington and Picton", readTime: 4,
     places: ["Wellington ferry terminal", "Cook Strait", "Picton ferry terminal", "Marlborough Sounds"],
     imageAlt: "Cook Strait ferry entering Picton Harbour",
     intro: "The ferry is what turns two island trips into one journey, and it is the least flexible thing in the itinerary. It behaves like a booked transport day rather than a scenic stop, and the two details that cause the most trouble are the vehicle dimensions you declared and what you scheduled immediately afterwards.",
     sections: [
       s("Declare the vehicle accurately", [
-        "Fares are set by total length and height, and total means including everything attached: bike racks, roof boxes, kayaks, an awning that projects, a towed trailer. Under-declaring produces a fare adjustment at check-in and, on a full sailing, occasionally no space at all.",
+        "Fares are set by total length, and total means including everything attached: bike racks, a towbar, an awning that projects, a towed trailer. Under-declaring produces a fare adjustment at check-in and, on a full sailing, occasionally no space at all.",
         "Measure rather than estimate, and if you are collecting a rental, get the dimensions from the operator before booking the crossing. The gap between a car booking and a campervan booking is large enough that guessing is expensive in both directions.",
       ], ["Include racks, boxes and trailers", "Get rental dimensions before booking", "Under-declaring can cost you the sailing"]),
       s("Choose the operator and sailing sensibly", [
