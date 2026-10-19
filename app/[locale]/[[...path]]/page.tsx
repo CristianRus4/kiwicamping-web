@@ -9,6 +9,8 @@ import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale } from "@/lib/se
 import { exportRoutes, routeAt } from "@/lib/routes";
 import { guidePageKey } from "@/lib/routes/guides";
 import { smartBannerContent } from "@/lib/app-store";
+import { ToolPage } from "@/components/tool-page";
+import { toolBySlug, toolCopy } from "@/lib/tools";
 
 export const dynamicParams = false;
 
@@ -39,6 +41,21 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   };
   const locale=routedLocaleForSegment(segment);
   if(!locale)return{};
+  const toolId=path[0]==="tools"&&path.length===2?toolBySlug(path[1]):undefined;
+  if(toolId){
+    const {tool}=toolCopy(locale,toolId);
+    const canonical=`/${segment}/tools/${path[1]}/`;
+    const route=routeAt(canonical);
+    const indexable=route?.indexable??false;
+    return{
+      title:tool.metaTitle,
+      description:tool.metaDescription,
+      alternates:{canonical,languages:indexable&&route?alternatesFor(route.pageKey):undefined},
+      openGraph:{type:"website",siteName:"KiwiCamping",locale:ogLocale(locale),alternateLocale:ogAlternates(locale),title:tool.metaTitle,description:tool.metaDescription,url:`${SITE_URL}${canonical}`,images:[{url:"/images/kiwicamping-og.webp",alt:"KiwiCamping"}]},
+      robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true}},
+      other:{"apple-itunes-app":smartBannerContent(locale)},
+    };
+  }
   const ui=getTranslation(locale);
   const slug=path[0]==="guides"?path[1]:undefined;
   const article=slug?localizedArticles(locale).find((item)=>item.slug===slug):undefined;
@@ -94,6 +111,8 @@ export default async function LocalizedRoute({params}:{params:Promise<{locale:st
   if(path.length===1&&path[0]==="guides")return <LocalizedGuides locale={locale}/>;
   if(path.length===2&&path[0]==="guides")return <LocalizedArticle locale={locale} slug={path[1]}/>;
   if(path.length===1&&path[0]==="tools")return <LocalizedTools locale={locale}/>;
+  const toolId=path.length===2&&path[0]==="tools"?toolBySlug(path[1]):undefined;
+  if(toolId)return <ToolPage id={toolId} locale={locale}/>;
   if(path.length===1&&["support","privacy","terms"].includes(path[0]))return <LocalizedInformationPage locale={locale} kind={path[0] as "support"|"privacy"|"terms"}/>;
   notFound();
 }

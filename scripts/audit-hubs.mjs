@@ -1,5 +1,6 @@
 /**
- * Validates the app-data export and the hub quality gate (run by `npm run content:check`).
+ * Validates the app-data export and the hub quality gate (run by `npm run content:check`), and the
+ * copy rules for the calculator pages, which have no other audit.
  *
  * Hard failures: malformed data, a hub built from a source whose licence does not allow it, image or
  * description fields, a hub path that collides with a published URL, hub prose that is ungrounded or
@@ -94,6 +95,25 @@ for (const hub of hubs) {
   for (const error of groundingErrors(hub, prose)) failures.push(error);
 }
 assert.deepEqual(failures, [], `Hub prose failed:\n  ${failures.join("\n  ")}`);
+
+/* Tools copy (lib/source-strings.ts `toolStrings`, lib/tools.ts) ---------------------------------- */
+
+const { toolStrings } = await import("../lib/source-strings.ts");
+const { toolIds, tools, copyValues } = await import("../lib/tools.ts");
+const toolText = strings(toolStrings).join("\n");
+assert.doesNotMatch(toolText, /—|\\u2014/, "Tool copy contains an em dash");
+assert.doesNotMatch(toolText, /offline map|offline-map/i, 'Tool copy says "offline map"');
+assert.doesNotMatch(toolText, /AussieCamps|Australian|TODO|lorem ipsum/i, "Tool copy has foreign or placeholder text");
+const knownValues = new Set([...Object.keys(copyValues("en-NZ")), "distance", "consumption", "litres", "price", "cost", "speed", "driving", "stops", "total", "hours", "minutes", "adults", "nights", "rateAdult", "totalAdult", "rateSite", "totalSite", "verdict", "perAdult", "perSite", "amount", "rate", "converted", "people", "freshTank", "greyTank", "freshDays", "greyDays", "fresh", "grey"]);
+for (const match of toolText.matchAll(/\{(\w+)\}/g)) assert.ok(knownValues.has(match[1]), `Tool copy uses an unknown placeholder {${match[1]}}`);
+const guideSlugs = new Set(legacySources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1])));
+for (const id of toolIds) {
+  for (const slug of tools[id].guides) assert.ok(guideSlugs.has(slug), `${id} links to a guide that does not exist: ${slug}`);
+  assert.ok(toolStrings[id].faq.length >= 2 && toolStrings[id].faq.length <= 3, `${id} needs 2 or 3 FAQs`);
+  assert.ok(toolStrings[id].metaTitle.length <= 62, `${id} title is too long for a results page`);
+}
+assert.equal(new Set(toolIds.map((id) => toolStrings[id].metaTitle)).size, toolIds.length, "Every tool page needs its own title");
+assert.ok(!toolIds.some((id) => toolStrings[id].metaTitle === toolStrings.index.metaTitle), "The /tools/ index needs a title distinct from the tool pages");
 
 /* Gate report ---------------------------------------------------------------------------------- */
 

@@ -238,9 +238,18 @@ const keyFacilities = (row, limit = 4) => {
 function feeSummary(price, fees) {
   if (price === "free") return "Free";
   const text = (fees ?? "").replace(/\s+/g, " ");
-  // When the text lists an older and a newer schedule, the newer one follows "Fees from".
-  const latest = text.lastIndexOf("Fees from");
+  // When the text lists an older and a newer schedule, the newer one follows "fees from".
+  const latest = text.toLowerCase().lastIndexOf("fees from");
   const segment = latest >= 0 && /\$\d/.test(text.slice(latest)) ? text.slice(latest) : text;
+  // Great Walk and Heaphy-style tables: "<season> $NZ-adult $INT-adult $NZ-child $INT-child Free".
+  if (/Adult NZ/.test(segment) && /Adult INT/.test(segment)) {
+    const rows = [...segment.matchAll(/\$(\d+(?:\.\d{1,2})?) \$(\d+(?:\.\d{1,2})?) \$\d+(?:\.\d{1,2})? \$\d+(?:\.\d{1,2})? Free/g)].map((match) => [Number(match[1]), Number(match[2])]);
+    if (rows.length) {
+      const span = (values) => Math.min(...values) === Math.max(...values) ? money(values[0]) : `${money(Math.min(...values))} to ${money(Math.max(...values))}`;
+      const resident = span(rows.map((row) => row[0])), visitor = span(rows.map((row) => row[1]));
+      return resident === visitor ? `Adult ${resident} per night` : `Adult ${resident} (NZ resident), ${visitor} (international) per night`;
+    }
+  }
   const amounts = [...segment.matchAll(/Adult[^$]{0,40}?\$\s?(\d+(?:\.\d{1,2})?)/gi)].map((match) => Number(match[1])).filter((value) => value > 0);
   if (amounts.length) {
     const low = Math.min(...amounts), high = Math.max(...amounts);
@@ -355,6 +364,15 @@ for (const notice of notices) {
   else freedomDistricts[slug].historic += 1;
 }
 
+/** The lowest adult nightly rate each paid place lists, summarised. Places without a readable rate are left out. */
+function rateStats(places) {
+  const rates = places.filter((place) => place.price === "paid").map((place) => adultRates(place)).filter((list) => list.length).map((list) => Math.min(...list)).sort((a, b) => a - b);
+  if (!rates.length) return null;
+  const middle = rates.length / 2;
+  const median = rates.length % 2 ? rates[Math.floor(middle)] : (rates[middle - 1] + rates[middle]) / 2;
+  return { placesWithRate: rates.length, min: rates[0], median, max: rates.at(-1) };
+}
+
 const productFacts = {
   dataAsOf: Object.values(sourceFiles).map((file) => file.date).filter(Boolean).sort().at(-1),
   passBoundary: {
@@ -363,10 +381,11 @@ const productFacts = {
   },
   categories: {
     docCampsites: {
-      label: "DOC campsites", access: "pass", source: "doc", total: campsites.length,
+      label: "DOC campsites", access: "pass", source: "doc", total: campsites.length, asOf: sourceFiles["campsites.json"].date,
       open: campsites.filter((place) => place.open).length, closed: campsites.filter((place) => !place.open).length,
       fee: { free: campsites.filter((place) => place.price === "free").length, paid: campsites.filter((place) => place.price === "paid").length, unlisted: campsites.filter((place) => !["free", "paid"].includes(place.price)).length },
       bookable: campsites.filter((place) => place.bookable).length,
+      adultRate: rateStats(campsites),
       byType: countBy(campsites, (place) => place.type),
       campervanAccess: campsites.filter((place) => place.access.includes("campervan")).length,
       dogsAllowedInSomeForm: campsites.filter((place) => /^Dogs/.test(place.dogs)).length,
@@ -375,24 +394,25 @@ const productFacts = {
       unpoweredSites: campsites.reduce((sum, place) => sum + place.unpowered, 0),
     },
     docHuts: {
-      label: "DOC huts", access: "pass", source: "doc", total: huts.length,
+      label: "DOC huts", access: "pass", source: "doc", total: huts.length, asOf: sourceFiles["huts.json"].date,
       open: huts.filter((place) => place.open).length, closed: huts.filter((place) => !place.open).length,
       fee: { free: huts.filter((place) => place.price === "free").length, paid: huts.filter((place) => place.price === "paid").length, unlisted: huts.filter((place) => !["free", "paid"].includes(place.price)).length },
       bookable: huts.filter((place) => place.bookable).length,
+      adultRate: rateStats(huts),
       byType: countBy(huts, (place) => place.type),
       bunks: huts.reduce((sum, hut) => sum + hut.bunks, 0),
     },
-    docTracks: { label: "DOC tracks", access: "pass", source: "doc", total: tracks.length },
+    docTracks: { label: "DOC tracks", access: "pass", source: "doc", total: tracks.length, asOf: sourceFiles["tracks.json"].date },
     docFreedomCampingNotices: {
-      label: "DOC freedom-camping notices on conservation land (not council bylaws)", access: "pass", source: "doc", total: notices.length,
+      label: "DOC freedom-camping notices on conservation land (not council bylaws)", access: "pass", source: "doc", total: notices.length, asOf: sourceFiles["freedom.json"].date,
       allStatusesByType: countBy(notices, (notice) => notice.type),
       current: notices.filter((notice) => notice.current).length,
       historic: notices.filter((notice) => !notice.current).length,
       currentByType: countBy(notices.filter((notice) => notice.current), (notice) => notice.type),
       districts: Object.keys(freedomDistricts).length,
     },
-    dumpStations: { label: "Dump stations", access: "pass", source: "wikicamps", inventoryOnly: true, total: dumps.length, fee: countBy(dumps, (place) => place.price || "unlisted") },
-    dayUseAreas: { label: "Day-use areas", access: "pass", source: "wikicamps", inventoryOnly: true, total: dayUse.length },
+    dumpStations: { label: "Dump stations", access: "pass", source: "wikicamps", inventoryOnly: true, total: dumps.length, asOf: sourceFiles["dumps.json"].date, fee: countBy(dumps, (place) => place.price || "unlisted") },
+    dayUseAreas: { label: "Day-use areas", access: "pass", source: "wikicamps", inventoryOnly: true, total: dayUse.length, asOf: sourceFiles["dayusenorth.json"].date },
   },
   regions: regionTotals,
   freedomDistricts,

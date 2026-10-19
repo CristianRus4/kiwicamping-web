@@ -4,7 +4,7 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 
 ## Status
 - M1 App data export: done, handed off (export script, lib/data/*.json, lib/hubs.ts gate, scripts/audit-hubs.mjs in content:check, credits Data sources)
-- M2 Tools split: not started
+- M2 Tools split: done, handed off. Five pages at /tools/<slug>/ (English + every locale, locale noindex until `tools` strings translated), `tools` namespace in lib/source-strings.ts, lib/tools.ts, lib/routes/tools.ts. Not exported or linked until the route manifest lands (`TOOL_PAGES_EXPORTED = false`).
 - M3 Data hubs: not started
 
 ## Decisions
@@ -20,8 +20,14 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 - All 3 "permitted" notices are historic; current data has 224 prohibited and 63 restricted.
 - NaPALIS ids are land parcels and repeat (354 notices, 200 ids); notices join to `freedomgeo.geojson` by OBJECTID.
 
+- Tool pages: the framework renders each inline script twice, so the tool script binds once per tool (`data-bound`); `tool_used` fires once per tool per page view.
+- The old /tools/ defaults showed stale outputs (drive "4 h 32 min", tank grey "4.5", currency "US$58.72"); they are now computed from the same defaults the script uses.
+
+## Waiting on foundation M2
+- Register `toolRoutes` (lib/routes/tools.ts) in lib/routes.ts, set `TOOL_PAGES_EXPORTED = true`, link locale /<locale>/tools/ to the tool pages. (CTA and acTrack already use foundation M1's appStoreUrl and acTrack.)
+
 ## Next
-- M2: tools split.
+- M3: hub pages, SVG dot maps, hub prose.
 
 ## Blockers
 - None.

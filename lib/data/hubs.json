@@ -1248,7 +1248,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$18"
+          "value": "$10 to $28"
         },
         {
           "key": "bookable",
@@ -1530,7 +1530,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $19 (NZ resident), $10 to $28 (international) per night",
           "id": "campsite:100065590",
           "locality": "Tongariro National Park",
           "name": "Mangatepopo Campsite",
@@ -1546,7 +1546,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $19 (NZ resident), $10 to $28 (international) per night",
           "id": "campsite:100044157",
           "locality": "Tongariro National Park",
           "name": "Oturere Campsite",
@@ -1562,7 +1562,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $19 (NZ resident), $10 to $28 (international) per night",
           "id": "campsite:100064828",
           "locality": "Tongariro National Park",
           "name": "Waihohonu Campsite",
@@ -2633,7 +2633,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$18"
+          "value": "$10 to $42"
         },
         {
           "key": "bookable",
@@ -2784,7 +2784,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $28 (NZ resident), $10 to $42 (international) per night",
           "id": "campsite:100065044",
           "locality": "Fiordland National Park",
           "name": "Brod Bay Campsite",
@@ -2820,7 +2820,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $28 (NZ resident), $10 to $42 (international) per night",
           "id": "campsite:100064957",
           "locality": "Fiordland National Park",
           "name": "Iris Burn Campsite",
@@ -2855,7 +2855,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $28 (NZ resident), $10 to $42 (international) per night",
           "id": "campsite:100030221",
           "locality": "Fiordland National Park",
           "name": "Lake Mackenzie Campsite",
@@ -3263,7 +3263,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$12"
+          "value": "$10 to $19"
         },
         {
           "key": "bookable",
@@ -3377,7 +3377,7 @@
             "Wheelchair access",
             "Non-flush toilets"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $19 per night",
           "id": "campsite:100044319",
           "locality": "Ohinepane Recreation Reserve",
           "name": "Ohinepane Campsite",
@@ -3398,7 +3398,7 @@
             "Wheelchair access",
             "Non-flush toilets"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $19 per night",
           "id": "campsite:100031361",
           "locality": "Whanganui National Park",
           "name": "Whakahoro Campsite",
@@ -3415,7 +3415,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100031360",
           "locality": "Whanganui National Park",
           "name": "Ngaporo Campsite",
@@ -3432,7 +3432,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100044320",
           "locality": "Whanganui National Park",
           "name": "Tīeke Marae/Kāinga Campsite",
@@ -3449,7 +3449,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100042738",
           "locality": "Whanganui National Park",
           "name": "John Coull Campsite",
@@ -3466,7 +3466,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100031359",
           "locality": "Whanganui National Park",
           "name": "Mangawaiiti Campsite",
@@ -3483,7 +3483,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100044318",
           "locality": "Whanganui National Park",
           "name": "Ohauora Campsite",
@@ -3500,7 +3500,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100031357",
           "locality": "Whanganui National Park",
           "name": "Mangapapa Campsite",
@@ -3517,7 +3517,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100044317",
           "locality": "Whanganui National Park",
           "name": "Maharanui Campsite",
@@ -3534,7 +3534,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100042739",
           "locality": "Whanganui National Park",
           "name": "Poukaria Campsite",
@@ -3599,7 +3599,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $12 to $19 per night",
           "id": "campsite:100031358",
           "locality": "Whanganui National Park",
           "name": "Mangapurua Campsite",
@@ -4497,7 +4497,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $30"
+          "value": "$10 to $31"
         },
         {
           "key": "bookable",
@@ -4662,7 +4662,7 @@
             "Campfires",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100065885",
           "locality": "Abel Tasman National Park",
           "name": "Bark Bay Campsite",
@@ -4737,7 +4737,7 @@
             "Flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $19 (NZ resident), $19 to $28 (international) per night",
           "id": "campsite:100042744",
           "locality": "Kahurangi National Park",
           "name": "Heaphy Campsite",
@@ -4753,7 +4753,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100065887",
           "locality": "Abel Tasman National Park",
           "name": "Mosquito Bay Campsite",
@@ -4771,7 +4771,7 @@
             "Campfires",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100043765",
           "locality": "Abel Tasman National Park",
           "name": "Mutton Cove Campsite",
@@ -4789,7 +4789,7 @@
             "Cooking shelter",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100065889",
           "locality": "Abel Tasman National Park",
           "name": "Onetahuti Bay Campsite",
@@ -4807,7 +4807,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100088343",
           "locality": "Abel Tasman National Park",
           "name": "Tōtaranui Great Walk Campsite",
@@ -4825,7 +4825,7 @@
             "Campfires",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100065883",
           "locality": "Abel Tasman National Park",
           "name": "Whariwharangi Bay Campsite",
@@ -4862,7 +4862,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100043769",
           "locality": "Abel Tasman National Park",
           "name": "Apple Tree Bay Campsite",
@@ -4879,7 +4879,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100043773",
           "locality": "Abel Tasman National Park",
           "name": "Tinline Campsite",
@@ -4915,7 +4915,7 @@
             "Flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $19 (NZ resident), $19 to $28 (international) per night",
           "id": "campsite:100065884",
           "locality": "Kahurangi National Park",
           "name": "Brown Campsite",
@@ -4988,7 +4988,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100066092",
           "locality": "Abel Tasman National Park",
           "name": "Torrent Bay Village Campsite",
@@ -5006,7 +5006,7 @@
             "Campfires",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100065882",
           "locality": "Abel Tasman National Park",
           "name": "Waiharakeke Bay Campsite",
@@ -5023,7 +5023,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $19 (NZ resident), $19 to $28 (international) per night",
           "id": "campsite:100044560",
           "locality": "Kahurangi National Park",
           "name": "Scotts Beach Campsite",
@@ -5057,7 +5057,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100043772",
           "locality": "Abel Tasman National Park",
           "name": "Te Pukatea Bay Campsite",
@@ -5074,7 +5074,7 @@
             "Flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $21 (NZ resident), $21 to $31 (international) per night",
           "id": "campsite:100043757",
           "locality": "Abel Tasman National Park",
           "name": "Anapai Bay Campsite",
@@ -5655,7 +5655,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$5 to $18"
+          "value": "$5 to $42"
         },
         {
           "key": "bookable",
@@ -6062,7 +6062,7 @@
             "Cooking shelter",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $10 to $28 (NZ resident), $10 to $42 (international) per night",
           "id": "campsite:100042528",
           "locality": "Mount Aspiring National Park",
           "name": "Routeburn Flats Campsite",
@@ -6333,7 +6333,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10"
+          "value": "$6 to $28"
         },
         {
           "key": "bookable",
@@ -6464,7 +6464,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $6 to $19 (NZ resident), $6 to $28 (international) per night",
           "id": "campsite:100042533",
           "locality": "Rakiura National Park",
           "name": "Māori Beach Campsite",
@@ -6481,7 +6481,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $6 to $19 (NZ resident), $6 to $28 (international) per night",
           "id": "campsite:100042716",
           "locality": "Rakiura National Park",
           "name": "North Arm Campsite",
@@ -6496,7 +6496,7 @@
             "Non-flush toilets",
             "Untreated tap water"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $6 to $19 (NZ resident), $6 to $28 (international) per night",
           "id": "campsite:100065045",
           "locality": "Rakiura National Park",
           "name": "Port William Campsite",
@@ -17295,7 +17295,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $25"
+          "value": "$10 to $66"
         },
         {
           "key": "bookable",
@@ -17384,7 +17384,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $25 to $44 (NZ resident), $25 to $66 (international) per night",
           "id": "hut:100081242",
           "locality": "Tongariro National Park",
           "name": "Waihohonu Hut",
@@ -17399,7 +17399,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $25 to $44 (NZ resident), $25 to $66 (international) per night",
           "id": "hut:100073019",
           "locality": "Tongariro National Park",
           "name": "Oturere Hut",
@@ -17414,7 +17414,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $25 to $44 (NZ resident), $25 to $66 (international) per night",
           "id": "hut:100000537",
           "locality": "Tongariro National Park",
           "name": "Mangatepopo Hut",
@@ -18434,7 +18434,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $25"
+          "value": "$10 to $152"
         },
         {
           "key": "bookable",
@@ -18572,7 +18572,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $35 to $88 (NZ resident), $35 to $132 (international) per night",
           "id": "hut:100033374",
           "locality": "Fiordland National Park",
           "name": "Luxmore Hut",
@@ -18587,7 +18587,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $88 (NZ resident), $30 to $132 (international) per night",
           "id": "hut:100055189",
           "locality": "Fiordland National Park",
           "name": "Iris Burn Hut",
@@ -18602,7 +18602,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $88 (NZ resident), $30 to $132 (international) per night",
           "id": "hut:100058875",
           "locality": "Fiordland National Park",
           "name": "Lake Mackenzie Hut",
@@ -18617,7 +18617,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $106 (NZ resident), $30 to $152 (international) per night",
           "id": "hut:100065076",
           "locality": "Fiordland National Park",
           "name": "Clinton Hut",
@@ -18632,7 +18632,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $106 (NZ resident), $30 to $152 (international) per night",
           "id": "hut:100058912",
           "locality": "Fiordland National Park",
           "name": "Dumpling Hut",
@@ -18647,7 +18647,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $106 (NZ resident), $30 to $152 (international) per night",
           "id": "hut:100133953",
           "locality": "Fiordland National Park",
           "name": "Mintaro Hut",
@@ -18662,7 +18662,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $88 (NZ resident), $30 to $132 (international) per night",
           "id": "hut:100055524",
           "locality": "Fiordland National Park",
           "name": "Moturau Hut",
@@ -19743,7 +19743,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $25"
+          "value": "$10 to $35"
         },
         {
           "key": "bookable",
@@ -19864,7 +19864,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $25 to $35 per night",
           "id": "hut:100061052",
           "locality": "Whanganui National Park",
           "name": "John Coull Hut",
@@ -19879,7 +19879,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $25 to $35 per night",
           "id": "hut:100063328",
           "locality": "Whanganui National Park",
           "name": "Tīeke Marae/Kāinga",
@@ -21031,7 +21031,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $30"
+          "value": "$10 to $84"
         },
         {
           "key": "bookable",
@@ -21213,7 +21213,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $33 to $55 (NZ resident), $33 to $84 (international) per night",
           "id": "hut:100094828",
           "locality": "Abel Tasman National Park",
           "name": "Anchorage Hut",
@@ -21228,7 +21228,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $33 to $55 (NZ resident), $33 to $84 (international) per night",
           "id": "hut:100075680",
           "locality": "Abel Tasman National Park",
           "name": "Bark Bay Hut",
@@ -21243,7 +21243,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $44 (NZ resident), $30 to $66 (international) per night",
           "id": "hut:100094975",
           "locality": "Kahurangi National Park",
           "name": "Heaphy Hut",
@@ -21303,7 +21303,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $44 (NZ resident), $30 to $66 (international) per night",
           "id": "hut:100098722",
           "locality": "Kahurangi National Park",
           "name": "James Mackay Hut",
@@ -21333,7 +21333,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $44 (NZ resident), $30 to $66 (international) per night",
           "id": "hut:100092426",
           "locality": "Kahurangi National Park",
           "name": "Perry Saddle Hut",
@@ -21363,7 +21363,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $33 to $55 (NZ resident), $33 to $84 (international) per night",
           "id": "hut:100042865",
           "locality": "Abel Tasman National Park",
           "name": "Awaroa Hut",
@@ -21453,7 +21453,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $33 to $55 (NZ resident), $33 to $84 (international) per night",
           "id": "hut:100061135",
           "locality": "Abel Tasman National Park",
           "name": "Whariwharangi Hut",
@@ -21483,7 +21483,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $44 (NZ resident), $30 to $66 (international) per night",
           "id": "hut:100075848",
           "locality": "Kahurangi National Park",
           "name": "Brown Hut",
@@ -21513,7 +21513,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $44 (NZ resident), $30 to $66 (international) per night",
           "id": "hut:100060081",
           "locality": "Kahurangi National Park",
           "name": "Saxon Hut",
@@ -22060,7 +22060,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $50"
+          "value": "$10 to $132"
         },
         {
           "key": "bookable",
@@ -22221,7 +22221,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $88 (NZ resident), $30 to $132 (international) per night",
           "id": "hut:100065316",
           "locality": "Mount Aspiring National Park",
           "name": "Routeburn Falls Hut",
@@ -22356,7 +22356,7 @@
             "Heating",
             "Mattresses"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $30 to $88 (NZ resident), $30 to $132 (international) per night",
           "id": "hut:100059056",
           "locality": "Mount Aspiring National Park",
           "name": "Routeburn Flats Hut",
@@ -22805,7 +22805,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10"
+          "value": "$10 to $66"
         },
         {
           "key": "bookable",
@@ -22958,7 +22958,7 @@
             "Mattresses",
             "Non-flush toilets"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $31 to $44 (NZ resident), $31 to $66 (international) per night",
           "id": "hut:100058703",
           "locality": "Rakiura National Park",
           "name": "North Arm Hut",
@@ -22973,7 +22973,7 @@
             "Mattresses",
             "Non-flush toilets"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $31 to $44 (NZ resident), $31 to $66 (international) per night",
           "id": "hut:100055526",
           "locality": "Rakiura National Park",
           "name": "Port William Hut",
@@ -25105,7 +25105,7 @@
         {
           "key": "adultRate",
           "label": "Adult nightly rates listed",
-          "value": "$10 to $30"
+          "value": "$10 to $117"
         },
         {
           "key": "bookable",
@@ -25323,7 +25323,7 @@
             "Mattresses",
             "Non-flush toilets"
           ],
-          "fee": "Adult $30 per night",
+          "fee": "Fee applies",
           "id": "hut:100059655",
           "locality": "Westland Tai Poutini National Park",
           "name": "Welcome Flat Hut",
@@ -25398,7 +25398,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $50 to $78 (NZ resident), $50 to $117 (international) per night",
           "id": "hut:100128444",
           "locality": "Paparoa National Park",
           "name": "Moonlight Tops Hut",
@@ -25413,7 +25413,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $50 to $61 (NZ resident), $50 to $92 (international) per night",
           "id": "hut:100128448",
           "locality": "Paparoa National Park",
           "name": "Pororari Hut",
@@ -25443,7 +25443,7 @@
             "Mattresses",
             "Cooking facilities"
           ],
-          "fee": "Fee applies",
+          "fee": "Adult $50 (NZ resident), $50 to $76 (international) per night",
           "id": "hut:100060940",
           "locality": "Paparoa National Park",
           "name": "Ces Clark Hut",
