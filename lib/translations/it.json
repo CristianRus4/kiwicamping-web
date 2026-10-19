@@ -2,17 +2,17 @@
   "locale": "it",
   "ui": {
     "languageName": "Italiano",
-    "metaTitle": "KiwiCamping: mappa campeggi, siti DOC e pianificatore di viaggio in Nuova Zelanda",
-    "metaDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di campeggio libero in tutta la Nuova Zelanda. Offline, con filtri precisi e pianificatore di viaggio per iPhone.",
-    "ogTitle": "KiwiCamping: la mappa dei campeggi e il pianificatore di viaggi della Nuova Zelanda",
-    "ogDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di campeggio libero, offline. Filtra, salva e pianifica tutto il viaggio.",
-    "metaKeywords": "app campeggio Nuova Zelanda, mappa campeggi Nuova Zelanda, campeggio libero Nuova Zelanda, campeggi DOC app, mappa rifugi DOC, holiday park Nuova Zelanda, app camper Nuova Zelanda, mappa campeggi offline Nuova Zelanda, pianificatore viaggi Nuova Zelanda",
-    "metaGuidesTitle": "Guide al campeggio e ai viaggi in Nuova Zelanda",
-    "metaGuidesDescription": "Regole del campeggio, campeggio libero e requisiti per i mezzi autosufficienti, siti DOC, stagione, costi reali e pianificazione pratica di un viaggio in Nuova Zelanda.",
-    "metaToolsTitle": "Calcolatori per un viaggio in Nuova Zelanda",
-    "metaToolsDescription": "Converti prezzi neozelandesi, calcola il carburante del percorso, stima una giornata di guida realistica, pianifica acqua e scarichi e confronta le tariffe dei campeggi.",
+    "metaTitle": "KiwiCamping: mappa campeggi, siti DOC e itinerari in Nuova Zelanda",
+    "metaDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di freedom camping in tutta la Nuova Zelanda. Schede consultabili offline, filtri precisi e un pianificatore di viaggio tappa per tappa per iPhone.",
+    "ogTitle": "KiwiCamping: la mappa dei campeggi e il pianificatore di viaggio per la Nuova Zelanda",
+    "ogDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di freedom camping, già nell’app e consultabili offline. Filtra, salva e pianifica tutto il viaggio.",
+    "metaKeywords": "app campeggio Nuova Zelanda, mappa campeggi Nuova Zelanda, freedom camping Nuova Zelanda, campeggio libero Nuova Zelanda, app campeggi DOC, mappa rifugi DOC, holiday park Nuova Zelanda, app camper Nuova Zelanda, app campeggi offline Nuova Zelanda, pianificatore di viaggio Nuova Zelanda",
+    "metaGuidesTitle": "Guide al campeggio e ai viaggi on the road in Nuova Zelanda",
+    "metaGuidesDescription": "Regole del campeggio, freedom camping e requisiti self-contained, siti DOC, stagioni, costi veri e consigli pratici per un viaggio on the road in Nuova Zelanda.",
+    "metaToolsTitle": "Calcolatori per un road trip in Nuova Zelanda",
+    "metaToolsDescription": "Converti i prezzi neozelandesi, calcola il carburante del viaggio, stima quanto dura davvero una giornata di guida, pianifica acqua e scarichi e confronta le tariffe dei campeggi.",
     "metaSupportTitle": "Assistenza e domande frequenti",
-    "metaSupportDescription": "Aiuto su mappe, schede dei luoghi, filtri, raccolte, pianificatore, dati offline, conversione di valuta e accesso premium di KiwiCamping.",
+    "metaSupportDescription": "Come usare mappe, schede dei luoghi, filtri, collezioni, pianificatore di viaggio, dati offline, conversione di valuta e accesso premium in KiwiCamping.",
     "navFeatures": "Funzioni",
     "navGuides": "Guide",
     "navTools": "Calcolatori",
@@ -21,19 +21,19 @@
     "downloadShort": "Scarica",
     "updated": "Aggiornato il",
     "commonQuestions": "Domande frequenti",
-    "altHero": "La mappa KiwiCamping della Nuova Zelanda, con i segnaposto di campeggi, holiday park e aree di campeggio libero intorno a Golden Bay e l’elenco dei luoghi vicini sotto",
-    "altPlaceScreen": "Una scheda luogo di KiwiCamping per il Robin Hood Bay Campsite nel Marlborough, con tariffa gratuita, stato di apertura, servizi e link per prenotare",
-    "altCollectionsScreen": "La schermata delle raccolte di KiwiCamping con gli elenchi Da visitare, Visitati, Segnaposti e Tutti i salvati, sopra una mappa satellitare di Great Barrier Island",
-    "altTripScreen": "Un itinerario KiwiCamping per la Bay of Islands, con sette tappe e la distanza, le date e il meteo di ogni campeggio",
-    "altExploreScreen": "L’elenco Esplora di KiwiCamping con rifugi DOC e campeggi di Southland, Auckland e Wellington e la loro distanza dalla mappa",
-    "heroKicker": "La migliore app di campeggio per la Nuova Zelanda",
-    "heroTitle": "La Nuova Zelanda è grande, il tuo piano può essere semplice",
-    "heroText": "Oltre 6.500 luoghi in tutta la Nuova Zelanda, inclusi offline così restano consultabili anche senza campo. Filtra esattamente quello che ti serve, salvalo e trasforma la selezione in un viaggio con percorso, distanza, date, note e cose da fare.",
+    "altHero": "La mappa di KiwiCamping sulla Nuova Zelanda, con i segnaposto di campeggi, holiday park e aree di freedom camping intorno a Golden Bay e, sotto, l’elenco Esplora con i luoghi vicini",
+    "altPlaceScreen": "La scheda del Robin Hood Bay Campsite, nel Marlborough, in KiwiCamping, con tariffa gratuita, apertura, servizi e link per la prenotazione",
+    "altCollectionsScreen": "La schermata delle collezioni di KiwiCamping con gli elenchi Da visitare, Visitati, Segnaposto e Tutti i salvati sopra una mappa satellitare di Great Barrier Island",
+    "altTripScreen": "Un itinerario di KiwiCamping nella Bay of Islands con sette tappe, la distanza in auto, le date e il meteo di ogni campeggio",
+    "altExploreScreen": "L’elenco Esplora di KiwiCamping con rifugi DOC e campeggi in Southland, ad Auckland e a Wellington e la loro distanza dalla zona inquadrata sulla mappa",
+    "heroKicker": "La migliore app per il campeggio in Nuova Zelanda",
+    "heroTitle": "La Nuova Zelanda è grande, il viaggio può essere semplice",
+    "heroText": "Oltre 6.500 luoghi in tutta la Nuova Zelanda, già dentro l’app, così si aprono anche quando non c’è campo. Filtra fino a trovare esattamente quello che ti serve, salvalo e trasforma la tua selezione in un viaggio con percorso, distanze, date, note e cose da fare.",
     "seeHow": "Guarda come funziona",
     "statPlaces": "6.500+",
     "statPlacesLabel": "luoghi in tutta la Nuova Zelanda",
     "statOffline": "Offline",
-    "statOfflineLabel": "tutti i dettagli, senza bisogno di campo",
+    "statOfflineLabel": "tutte le schede, anche senza campo",
     "statStays": "2.000+",
     "statStaysLabel": "posti dove dormire",
     "trustLine": "Campeggi, rifugi, holiday park e soste utili in tutta la Nuova Zelanda.",
@@ -42,102 +42,102 @@
     "trustNationalParks": "Parchi nazionali",
     "trustFreedomCamping": "Campeggio libero",
     "trustUsefulStops": "Soste utili",
-    "trustDayUse": "Aree diurne",
+    "trustDayUse": "Aree attrezzate per il giorno",
     "processEyebrow": "Dall’idea alla strada",
-    "processTitle": "Trova il posto. Costruisci il viaggio.",
-    "processText": "Filtra il posto per stanotte, raccogli le possibilità di domani nelle raccolte e tieni percorso, distanza, date, note e cose da fare insieme in un unico viaggio.",
-    "findTitle": "Trova il posto esatto",
-    "findText": "Cerca tra oltre 6.500 luoghi, guarda cosa c’è nei dintorni oppure somma i filtri finché restano solo le aree di sosta gratuite con bagni e acqua nel tuo angolo di mappa.",
-    "saveTitle": "Salvalo in una raccolta",
-    "saveText": "Metti un cuore, una stella o segna un posto come visitato e le raccolte intelligenti si aggiornano da sole. Le tue liste le crei per una regione, una stagione o una rosa di candidati.",
+    "processTitle": "Trova il campeggio. Prepara il viaggio.",
+    "processText": "Filtra fino a trovare dove dormire stanotte, salva le idee per domani nelle collezioni e tieni percorso, distanze, date, note e cose da fare insieme in un unico viaggio.",
+    "findTitle": "Trova proprio il posto che cerchi",
+    "findText": "Cerca tra oltre 6.500 luoghi, guarda cosa c’è nei dintorni o aggiungi filtri finché nel tuo angolo di mappa restano solo le aree di campeggio gratuite con bagni e acqua.",
+    "saveTitle": "Salvalo in una collezione",
+    "saveText": "Metti Mi piace, una stella o segna un posto come visitato e le collezioni intelligenti si aggiornano da sole. Poi crea le tue liste per una regione, una stagione o i posti ancora in lizza.",
     "planTitle": "Trasformalo in un viaggio",
-    "planText": "Ordina le tappe, guarda la distanza tra loro, aggiungi date e note, controlla il meteo di ognuna, avvia le indicazioni e spuntale strada facendo.",
+    "planText": "Metti in ordine le tappe, guarda la distanza tra una e l’altra, aggiungi date e note, controlla il meteo di ogni tappa, apri le indicazioni e spuntale man mano che procedi.",
     "featuresEyebrow": "Tutto quello che serve",
-    "featuresTitle": "Trova. Salva. Pianifica tutta la strada.",
-    "featuresText": "Esplora i luoghi, confronta i dettagli, organizza i preferiti e costruisci un viaggio che resta utile anche dopo il tavolo della pianificazione.",
+    "featuresTitle": "Trova, salva e pianifica tutta la strada.",
+    "featuresText": "Esplora i luoghi, confronta i dettagli, organizza i preferiti e prepara un viaggio che ti serve ancora quando sei già per strada.",
     "featureMainEyebrow": "Conosci il posto prima di arrivarci",
-    "featureMainTitle": "Ogni luogo si apre con il dettaglio che decide.",
-    "featureMainText": "Foto, una descrizione vera, orari, tariffe, condizioni, strutture raggruppate per tipo, avvisi in corso, valutazioni, contatti e prenotazione, il meteo e Street View per vedere l’ingresso dalla strada.",
-    "featureList1": "Foto, orari, tariffe, condizioni e strutture",
+    "featureMainTitle": "Ogni scheda ti dice subito quello che conta per decidere.",
+    "featureMainText": "Foto, una descrizione vera, orari, tariffe, condizioni, servizi divisi per tipo, avvisi in corso, valutazioni, contatti e prenotazione, il meteo e Street View per vedere l’ingresso dalla strada.",
+    "featureList1": "Foto, orari, tariffe, condizioni e servizi",
     "featureList2": "Street View, meteo e indicazioni integrati",
-    "featureList3": "Incluso offline, si apre anche senza campo",
-    "feature1Title": "Raccolte intelligenti e liste tue",
-    "feature1Text": "Mi piace, In evidenza, Da visitare e Visitati si riempiono da soli mentre segni i luoghi. Sopra a queste crei raccolte con un nome per un’isola, una stagione o la rosa su cui state ancora discutendo.",
-    "feature2Title": "Filtri che rispondono a una domanda vera",
-    "feature2Text": "Chiedi aree di sosta gratuite con bagni e acqua potabile intorno a Queenstown, poi restringi per tipo di luogo, tariffa, valutazione, prenotazione online, regione e caratteristiche dettagliate di strutture e accesso.",
-    "feature3Title": "Mappe standard, satellite e 3D",
-    "feature3Text": "Passa dalla mappa standard alle immagini satellitari, che puoi inclinare e ruotare fino a vedere il rilievo reale. Da lontano i segnaposto si raggruppano in numeri e si separano man mano che ti avvicini.",
-    "feature4Title": "Street View prima dello svincolo",
-    "feature4Text": "Street View si apre direttamente dalla scheda del luogo dove esistono le immagini, così vedi ingresso, fondo stradale e dintorni prima di infilarci il van.",
+    "featureList3": "Già nell’app: si apre anche senza campo",
+    "feature1Title": "Collezioni intelligenti e liste tutte tue",
+    "feature1Text": "Mi piace, Con stella, Da visitare e Visitati si riempiono da sole mentre segni i luoghi. Sopra a queste crei collezioni con un nome per un’isola, una stagione o la selezione su cui state ancora discutendo.",
+    "feature2Title": "Filtri che rispondono a domande vere",
+    "feature2Text": "Cerca le aree di campeggio gratuite con bagni e acqua potabile intorno a Queenstown, poi restringi ancora per tipo di luogo, tariffa, valutazione, prenotazione online, regione e, nel dettaglio, per servizi e accesso.",
+    "feature3Title": "Mappa standard, satellitare e 3D",
+    "feature3Text": "Passa dalla mappa standard alle immagini satellitari, che puoi inclinare e ruotare fino a vedere il rilievo vero. Da lontano i segnaposto si raggruppano con il numero dei luoghi e si separano man mano che ti avvicini.",
+    "feature4Title": "Street View prima di svoltare",
+    "feature4Text": "Dove ci sono le immagini, Street View si apre direttamente dalla scheda del luogo: vedi l’ingresso, il fondo stradale e i dintorni prima di infilarci il van.",
     "feature5Title": "Il meteo su ogni luogo",
-    "feature5Text": "Condizioni attuali e previsioni stanno sulla scheda del luogo e accanto a ogni tappa del viaggio, così la scelta tra due campeggi si fa guardando il cielo.",
+    "feature5Text": "Condizioni attuali e previsioni sono sulla scheda del luogo e accanto a ogni tappa del viaggio, così tra due campeggi scegli anche guardando il cielo.",
     "feature6Title": "I costi nella tua valuta",
-    "feature6Text": "In viaggio e poco pratico di dollari neozelandesi? Scegli la tua valuta, imposta il cambio una volta e i costi indicati compaiono anche in una moneta che valuti a colpo d’occhio.",
-    "plannerEyebrow": "Il cuore di tutto",
+    "feature6Text": "Sei in viaggio e i dollari neozelandesi non ti dicono molto? Scegli la tua valuta, imposta il cambio una volta e accanto ai costi segnalati vedi l’importo in una moneta che capisci al volo.",
+    "plannerEyebrow": "Il cuore dell’app",
     "plannerTitle": "Tappa dopo tappa. Giorno dopo giorno.",
-    "plannerText": "Il pianificatore è il punto verso cui converge tutto il resto. Aggiungi i luoghi salvati come tappe e trascinali nell’ordine in cui guiderai davvero. Ogni tratta mostra la sua distanza, le indicazioni verso la successiva si aprono subito, ogni tappa porta la propria data, le note di arrivo e il meteo, e strada facendo le spunti come visitate. Le alternative vicine restano collegate per i giorni che cambiano, la lista del carico sta accanto all’itinerario e tutto può sincronizzarsi con Calendario.",
-    "plannerMetric1Title": "Distanza e indicazioni",
-    "plannerMetric1Text": "tratta per tratta e sul viaggio intero",
+    "plannerText": "Tutto il resto confluisce nel pianificatore di viaggio. Aggiungi i luoghi salvati come tappe e trascinali nell’ordine in cui guiderai davvero. Ogni tratta mostra la sua distanza, le indicazioni per la tappa successiva si aprono con un tocco, ogni tappa ha la sua data, le note per l’arrivo e il meteo, e mentre viaggi le spunti come visitate. Le alternative nei dintorni restano a portata di mano per i giorni in cui cambia tutto, la lista dei bagagli sta accanto all’itinerario e tutto si può sincronizzare con Calendario.",
+    "plannerMetric1Title": "Distanze e indicazioni",
+    "plannerMetric1Text": "tratta per tratta e per tutto il viaggio",
     "plannerMetric2Title": "Date e note",
-    "plannerMetric2Text": "su ogni singola tappa",
-    "plannerMetric3Title": "Visitate e da fare",
-    "plannerMetric3Text": "progressi che si vedono",
+    "plannerMetric2Text": "su ogni tappa",
+    "plannerMetric3Title": "Visitati e da fare",
+    "plannerMetric3Text": "i progressi a colpo d’occhio",
     "plannerMetric4Title": "Meteo per tappa",
     "plannerMetric4Text": "accanto all’itinerario",
-    "routesEyebrow": "Guide da leggere per prime",
+    "routesEyebrow": "Guide da leggere prima di partire",
     "routesTitle": "Conosci le regole. Conosci i costi.",
-    "routesText": "Guide pratiche su regole del campeggio, sicurezza, stagione giusta e quanto costa davvero un viaggio in Nuova Zelanda.",
+    "routesText": "Guide pratiche su regole del campeggio, sicurezza, stagioni e quanto costa davvero un viaggio in Nuova Zelanda.",
     "exploreRoutes": "Esplora le guide",
-    "audiencesEyebrow": "Comunque tu viaggi",
-    "audiencesTitle": "Pensata per tende, van e grandi giri.",
+    "audiencesEyebrow": "Comunque ti porti dietro la casa",
+    "audiencesTitle": "Per chi viaggia in tenda, in van o fa il giro completo.",
     "audience1Title": "Backpacker",
-    "audience1Text": "Fai andare d’accordo un budget stretto e un itinerario flessibile.",
+    "audience1Text": "Budget stretto e itinerario flessibile possono andare d’accordo.",
     "audience2Title": "Camper",
-    "audience2Text": "Trova i servizi, l’accesso e il mix di notti che ti serve.",
-    "audience3Title": "Caravan e mezzi grandi",
-    "audience3Text": "Filtra per spazio, servizi e note pratiche di accesso.",
-    "audience4Title": "Campeggiatori del weekend",
-    "audience4Text": "Tieni pronti i preferiti vicino a casa quando arriva il venerdì.",
+    "audience2Text": "Trova i servizi, l’accesso e il giusto mix di posti per la notte.",
+    "audience3Title": "Roulotte e mezzi grandi",
+    "audience3Text": "Filtra per spazio, servizi e note pratiche sull’accesso.",
+    "audience4Title": "Chi campeggia nel weekend",
+    "audience4Text": "Tieni pronti i posti preferiti vicino a casa per quando arriva il venerdì.",
     "reviewsEyebrow": "Cosa dicono i viaggiatori",
     "reviewsTitle": "Fatta per i piani che cambiano.",
-    "principlesTitle": "Prima utile. Sempre onesta.",
-    "principle1Title": "I cartelli battono lo schermo",
-    "principle1Text": "Gli avvisi in loco, i gestori del sito e le indicazioni di emergenza in corso vengono sempre prima di una scheda.",
-    "principle2Title": "Controllare l’aggiornato conta",
-    "principle2Text": "Verifica le ultime notizie su prenotazioni, strade, incendi e chiusure prima di partire.",
-    "principle3Title": "Lascia i posti meglio di come li trovi",
-    "principle3Text": "Campeggiare dove è consentito, smaltire con attenzione e rispettare il whenua è ciò che tiene aperti questi luoghi.",
-    "faqEyebrow": "Qualche risposta chiara",
+    "principlesTitle": "Utile prima di tutto. Onesta sempre.",
+    "principle1Title": "I cartelli contano più dello schermo",
+    "principle1Text": "Gli avvisi sul posto, chi gestisce l’area e le indicazioni di emergenza in corso valgono sempre più di una scheda.",
+    "principle2Title": "Controlla sempre gli aggiornamenti",
+    "principle2Text": "Prima di partire verifica le ultime notizie su prenotazioni, strade, incendi e chiusure.",
+    "principle3Title": "Lascia i posti meglio di come li hai trovati",
+    "principle3Text": "Campeggiare dove è consentito, smaltire i rifiuti con cura e rispettare il whenua, la terra per i Māori, è ciò che tiene aperti questi posti.",
+    "faqEyebrow": "Risposte dirette",
     "faqTitle": "Belle domande. Risposte chiare.",
-    "faqIntro": "Risposte dirette su come si viaggia con KiwiCamping.",
+    "faqIntro": "Risposte chiare su come si viaggia con KiwiCamping.",
     "faq1q": "Che cos’è KiwiCamping?",
-    "faq1a": "KiwiCamping è un’app per iPhone con cui trovi posti dove campeggiare e dormire in tutta la Nuova Zelanda. Include un archivio di oltre 6.500 luoghi, così i dettagli restano leggibili anche senza campo, e trasforma quelli che salvi in un viaggio con tappe ordinate, date, note e cose da fare.",
-    "faq2q": "Quali luoghi sono inclusi?",
-    "faq2a": "Più di 6.500 luoghi: campeggi DOC, rifugi di montagna, holiday park e altre sistemazioni prenotabili, aree di campeggio libero, punti di scarico pubblici e aree diurne su entrambe le isole.",
+    "faq1a": "KiwiCamping è un’app per iPhone per trovare dove campeggiare e dormire in giro per la Nuova Zelanda. Contiene un archivio di oltre 6.500 luoghi, così i dettagli restano leggibili anche senza campo, e trasforma i posti che salvi in un viaggio con tappe in ordine, date, note e cose da fare.",
+    "faq2q": "Quali luoghi ci sono?",
+    "faq2a": "Più di 6.500 luoghi: campeggi DOC, rifugi nelle zone selvagge, holiday park e altre sistemazioni prenotabili, aree di freedom camping, punti di scarico pubblici e aree attrezzate per il giorno su entrambe le isole.",
     "faq3q": "Funziona senza campo?",
-    "faq3a": "L’archivio dei luoghi è incluso nell’app, quindi nomi, categorie, descrizioni, tariffe, strutture e condizioni restano leggibili ben oltre la copertura. I servizi in tempo reale come meteo, navigazione, Street View, foto e pagine dei gestori richiedono comunque una connessione.",
+    "faq3a": "L’archivio dei luoghi è dentro l’app, quindi nomi, categorie, descrizioni, tariffe, servizi e condizioni restano leggibili anche dove il segnale non arriva. I servizi in tempo reale, come meteo, percorsi, Street View, foto e pagine dei gestori, richiedono invece una connessione.",
     "faq4q": "Posso pianificare un viaggio con più tappe?",
-    "faq4a": "Sì, ed è la funzione principale dell’app. Aggiungi luoghi come tappe, trascinali in ordine, dai a ciascuna una data e note di arrivo, guarda la distanza tratta per tratta e sull’intero viaggio, avvia le indicazioni verso la successiva, controlla il meteo di ognuna, spunta le tappe come visitate e tieni la lista del carico accanto all’itinerario. I dettagli dell’itinerario possono sincronizzarsi con Calendario.",
-    "faq5q": "Cosa sono le raccolte?",
-    "faq5a": "Ce ne sono di due tipi. Le raccolte intelligenti (Mi piace, In evidenza, Da visitare, Visitati, Segnaposto e Tutti i salvati) si riempiono da sole man mano che segni i luoghi. Oltre a queste puoi creare raccolte tue, con nome, icona e note, per una regione, una stagione, un veicolo o una rosa di candidati.",
-    "faq6q": "Posso filtrare le soste gratuite o le piazzole per mezzi autosufficienti?",
-    "faq6a": "Sì, e anche combinandoli. I filtri coprono tipo di luogo, tariffa, valutazione minima, prenotazione online, regione e caratteristiche dettagliate di strutture e accesso, così «aree di sosta gratuite con bagni e acqua potabile vicino a Queenstown» è una sola ricerca.",
-    "faq7q": "Cosa c’è nella scheda di un luogo?",
-    "faq7a": "Foto, una descrizione, orari, tariffe, condizioni, strutture raggruppate per tipo, avvisi in corso, valutazioni, contatti e prenotazione, meteo, Street View dove esistono le immagini, indicazioni e alternative nei dintorni.",
-    "faq8q": "Quali viste della mappa ci sono?",
-    "faq8a": "Una mappa standard e una vista satellitare basata sulle immagini flyover di Apple, che puoi inclinare e ruotare per un rilievo 3D reale. Street View, basato sulle immagini Look Around di Apple, dà la vista al livello della strada dalla scheda del luogo.",
+    "faq4a": "Sì, ed è la funzione principale dell’app. Aggiungi i luoghi come tappe, trascinali nell’ordine giusto, dai a ognuna una data e delle note per l’arrivo, guarda la distanza in auto tratta per tratta e sull’intero viaggio, apri le indicazioni per la tappa successiva, controlla il meteo di ogni tappa, spunta quelle visitate e tieni la lista dei bagagli accanto all’itinerario. I dettagli dell’itinerario si possono sincronizzare con Calendario.",
+    "faq5q": "Cosa sono le collezioni?",
+    "faq5a": "Ce ne sono di due tipi. Le collezioni intelligenti (Mi piace, Con stella, Da visitare, Visitati, Segnaposto e Tutti i salvati) si riempiono da sole man mano che segni i luoghi. In più puoi creare collezioni tue, con nome, icona e note, per una regione, una stagione, un mezzo o una selezione di posti.",
+    "faq6q": "Posso filtrare le aree gratuite o i posti per mezzi self-contained?",
+    "faq6a": "Sì, anche combinando i filtri. Puoi filtrare per tipo di luogo, tariffa, valutazione minima, prenotazione online, regione e caratteristiche dettagliate di servizi e accesso: così «aree di campeggio gratuite con bagni e acqua potabile vicino a Queenstown» diventa un’unica ricerca.",
+    "faq7q": "Cosa trovo nella scheda di un luogo?",
+    "faq7a": "Foto, una descrizione, orari, tariffe, condizioni, servizi divisi per tipo, avvisi in corso, valutazioni, contatti e prenotazione, meteo, Street View dove ci sono le immagini, indicazioni stradali e alternative nei dintorni.",
+    "faq8q": "Che viste della mappa ci sono?",
+    "faq8a": "Una mappa standard e una vista satellitare basata sulle immagini Flyover di Apple, che puoi inclinare e ruotare per vedere il rilievo in 3D. Street View, basato sulle immagini di Guardati intorno (Look Around) di Apple, ti mostra il luogo dal livello della strada direttamente dalla scheda.",
     "faq9q": "Posso vedere i prezzi nella mia valuta?",
-    "faq9a": "Sì. Scegli la valuta nelle impostazioni e inserisci il tasso di cambio: i costi indicati compariranno in quella valuta accanto all’importo in dollari neozelandesi.",
+    "faq9a": "Sì. Scegli la valuta nelle impostazioni e inserisci il tasso di cambio: i costi segnalati compariranno in quella valuta accanto all’importo in dollari neozelandesi.",
     "faq10q": "Posso prenotare un campeggio da KiwiCamping?",
-    "faq10a": "Apri i dati di prenotazione di un luogo per contattare il gestore e verificare lì disponibilità, prezzi e condizioni.",
+    "faq10a": "Apri i dati di prenotazione del luogo per arrivare al sito del gestore e verificare lì disponibilità, prezzi e condizioni aggiornati.",
     "faq11q": "Le regole del campeggio sono uguali in tutta la Nuova Zelanda?",
-    "faq11a": "No. Possono valere insieme la legge nazionale, i regolamenti comunali, le norme di tutela ambientale e le condizioni del singolo sito. Segui sempre i cartelli in vigore, le indicazioni del gestore, le limitazioni per il rischio incendi e gli avvisi ufficiali.",
+    "faq11a": "No. Possono valere insieme la legge nazionale, i regolamenti comunali, le norme sulle aree protette e le condizioni del singolo posto. Segui sempre i cartelli in vigore, le indicazioni di chi gestisce l’area, le restrizioni sui fuochi e gli avvisi ufficiali.",
     "downloadEyebrow": "Il tuo prossimo posto è là fuori",
     "downloadTitle": "Trovalo. Salvalo. Pianifica la strada.",
-    "downloadText": "Oltre 6.500 luoghi neozelandesi offline, filtri abbastanza precisi da trovare proprio quello giusto, raccolte che si organizzano da sole e un pianificatore che regge l’intero percorso. KiwiCamping per iOS.",
+    "downloadText": "Oltre 6.500 luoghi neozelandesi consultabili offline, filtri così precisi da trovare proprio quello giusto, collezioni che si organizzano da sole e un pianificatore che tiene insieme tutto il percorso. KiwiCamping per iOS.",
     "guidesEyebrow": "Guide al campeggio in Nuova Zelanda",
-    "guidesTitle": "Segui la strada verso un bel posto.",
-    "guidesIntro": "guide dettagliate su campeggi, regole, costi sul posto e pianificazione pratica in tutta la Nuova Zelanda.",
+    "guidesTitle": "Segui la strada fino a un bel posto.",
+    "guidesIntro": "Guide dettagliate su campeggi, regole, costi sul posto e organizzazione del viaggio in tutta la Nuova Zelanda.",
     "guideSingular": "guida",
     "guidePlural": "guide",
     "readGuide": "Leggi la guida",
@@ -145,37 +145,37 @@
     "places": "luoghi",
     "backToGuides": "Guide",
     "photoCredits": "Crediti fotografici",
-    "keepInMind": "Tieni presente",
+    "keepInMind": "Da tenere presente",
     "placesAlong": "Luoghi lungo il percorso",
     "checkBefore": "Controlla prima di partire",
-    "checkText": "Regole e condizioni cambiano. Prima di partire ricontrolla la fonte ufficiale e la pagina del tuo parco o campeggio specifico.",
+    "checkText": "Regole e condizioni cambiano. Prima di partire ricontrolla la fonte ufficiale e la pagina del parco o del campeggio in cui vai.",
     "priceTitle": "Tabella prezzi in 10 valute",
     "pricesChecked": "Prezzi verificati il",
     "conversionsUse": "Conversioni ai tassi RBNZ del",
     "item": "Voce",
-    "currencyDisclaimer": "Gli importi in valuta sono conversioni automatiche del riferimento in NZD, non quotazioni di carta o contante. Banche e fornitori di pagamento applicano tassi e commissioni propri.",
-    "related": "Guide collegate",
-    "takeRoad": "Portala in viaggio",
+    "currencyDisclaimer": "Gli importi nelle altre valute sono conversioni automatiche del prezzo di riferimento in NZD, non quotazioni per carta o contanti. Banche e circuiti di pagamento applicano tassi e commissioni propri.",
+    "related": "Guide correlate",
+    "takeRoad": "Portala con te in viaggio",
     "savePlanTitle": "Salva le tappe. Pianifica tutto il viaggio.",
-    "savePlanText": "Costruisci un percorso ordinato dai luoghi salvati, calcola la distanza e tieni collegate date, note e cose da fare.",
+    "savePlanText": "Crea un percorso in ordine con i luoghi salvati, calcola la distanza e tieni date, note e cose da fare legate a ogni tappa.",
     "toolsEyebrow": "Numeri utili",
-    "toolsTitle": "Calcolatori da viaggio. Senza conti misteriosi.",
-    "toolsIntro": "Calcolatori rapidi per prezzi e costi di guida in Nuova Zelanda. Ogni ipotesi resta in vista, così la sostituisci con il numero adatto al tuo percorso.",
+    "toolsTitle": "Calcolatori per il viaggio. Niente conti misteriosi.",
+    "toolsIntro": "Calcolatori rapidi per prezzi e costi di guida in Nuova Zelanda. Ogni ipotesi resta in vista, così puoi sostituirla con il numero giusto per il tuo percorso.",
     "currencyEyebrow": "Convertitore di valuta",
     "currencyTitle": "Converti un prezzo neozelandese.",
-    "currencyText": "Conversione indicativa per pianificare, ai tassi della Reserve Bank of New Zealand. La tua banca o la tua carta possono applicare un altro tasso e aggiungere commissioni.",
-    "fuelEyebrow": "Calcolo carburante",
-    "fuelTitle": "Calcolo costo carburante",
-    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che ti aspetti. Lontano dalle città i prezzi possono superare parecchio i riferimenti urbani.",
+    "currencyText": "Conversione indicativa per organizzare il viaggio, ai tassi della Reserve Bank of New Zealand. La tua banca o la tua carta possono usare un altro tasso e aggiungere commissioni.",
+    "fuelEyebrow": "Calcolo del carburante",
+    "fuelTitle": "Quanto ti costa la strada.",
+    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare di parecchio quelli delle città.",
     "driveEyebrow": "Stima della giornata di guida",
     "driveTitle": "Quanto dura davvero quella giornata.",
-    "driveText": "I navigatori danno il tempo in movimento su strada ideale. Qui si aggiungono il carattere della strada e le tue soste reali, ed è lì che una giornata sfora.",
-    "tankEyebrow": "Pianificatore acqua e scarichi",
+    "driveText": "I navigatori ti danno il tempo di guida su una strada ideale. Qui aggiungi il tipo di strada e le soste che farai davvero, ed è proprio lì che di solito la giornata si allunga.",
+    "tankEyebrow": "Acqua e scarichi",
     "tankTitle": "Quanti giorni in autonomia.",
-    "tankText": "I litri diventano utili solo quando si traducono in giorni. Il serbatoio delle acque grigie di solito si riempie prima che finisca l’acqua pulita, perciò ci sono entrambi.",
-    "campEyebrow": "Confronto campeggi",
+    "tankText": "I litri diventano utili solo quando li trasformi in giorni. Di solito il serbatoio delle acque grigie si riempie prima che finisca l’acqua pulita, per questo li vedi entrambi.",
+    "campEyebrow": "Confronto tra campeggi",
     "campTitle": "A persona o a piazzola?",
-    "campText": "Un campeggio DOC di solito fa pagare a adulto, un holiday park a piazzola. Quale conviene si ribalta con il numero di persone, ed è proprio lì che le famiglie restano sorprese.",
+    "campText": "In un campeggio DOC di solito si paga per adulto, in un holiday park per piazzola. Quale conviene cambia con il numero di persone, ed è lì che le famiglie si fanno sorprendere.",
     "amount": "Importo",
     "from": "Da",
     "to": "A",
@@ -183,7 +183,7 @@
     "labelConsumption": "Consumo (l/100 km)",
     "labelFuelPrice": "Prezzo carburante (NZD/l)",
     "labelRoadType": "Tipo di strada",
-    "roadMotorway": "Autostrada o rettilineo",
+    "roadMotorway": "Autostrada o lunghi rettilinei",
     "roadHighway": "Strada principale",
     "roadWinding": "Tortuosa o costiera",
     "roadNarrow": "Stretta, ripida o sterrata",
@@ -195,19 +195,19 @@
     "labelNights": "Notti",
     "labelPerAdult": "Per adulto (NZD)",
     "labelPerSite": "Per piazzola (NZD)",
-    "toolsReadingTitle": "Costruisci il budget su riferimenti aggiornati.",
-    "toolsReadingText": "I calcolatori calcolano esattamente ciò che inserisci. Le nostre guide ai costi spiegano da dove arrivano i valori di partenza, quando sono stati verificati e cosa può cambiare il prezzo finale.",
-    "toolsReadingLink": "Esplora le guide ai costi",
-    "calculatorNote": "Questi calcolatori sono strumenti di pianificazione, non quotazioni in tempo reale di prenotazioni, distributori o cambi valuta. Verifica i prezzi correnti prima di acquistare.",
+    "toolsReadingTitle": "Costruisci il budget su dati aggiornati.",
+    "toolsReadingText": "I calcolatori fanno i conti esattamente con quello che inserisci. Le nostre guide ai costi spiegano da dove vengono i valori di partenza, quando sono stati verificati e cosa può cambiare il prezzo finale.",
+    "toolsReadingLink": "Vai alle guide ai costi",
+    "calculatorNote": "Questi calcolatori servono a organizzare il viaggio: non sono quotazioni in tempo reale di prenotazioni, distributori o cambi. La stima dei serbatoi considera circa 11 litri di acqua pulita e 9 litri di acque grigie a persona al giorno, valori che cambiano con docce e cucina. Prima di acquistare verifica i prezzi aggiornati.",
     "enterValidValues": "Inserisci valori validi",
     "enterValidAmount": "Inserisci un importo valido",
     "daysFresh": "giorni di acqua pulita",
     "daysGrey": "giorni di acque grigie",
     "theSame": "costa uguale",
-    "perAdultCheaper": "a persona conviene di più",
-    "perSiteCheaper": "a piazzola conviene di più",
+    "perAdultCheaper": "conviene pagare a persona",
+    "perSiteCheaper": "conviene pagare a piazzola",
     "supportTitle": "Come possiamo aiutarti?",
-    "supportIntro": "Risposte per trovare luoghi, salvare i preferiti, pianificare viaggi e usare KiwiCamping in viaggio.",
+    "supportIntro": "Risposte su come trovare luoghi, salvare i preferiti, pianificare i viaggi e usare KiwiCamping per strada.",
     "contact": "Contatta l’assistenza",
     "privacy": "Privacy",
     "terms": "Termini",
@@ -215,12 +215,12 @@
     "help": "Aiuto",
     "getApp": "Scarica l’app",
     "travelGuides": "Guide di viaggio",
-    "footerText": "Trova oltre 6.500 luoghi neozelandesi offline, salva quelli che contano e costruisci viaggi completi con percorso, distanza, date, note e cose da fare.",
-    "footerLine": "Fatta per il giro lungo della Nuova Zelanda.",
+    "footerText": "Trova oltre 6.500 luoghi neozelandesi consultabili offline, salva quelli che contano e costruisci viaggi completi con percorso, distanze, date, note e cose da fare.",
+    "footerLine": "Pensata per il giro lungo della Nuova Zelanda.",
     "rulesSafety": "Regole e sicurezza",
-    "roadTrips": "Viaggi in auto",
+    "roadTrips": "Road trip",
     "campingGuides": "Guide al campeggio",
-    "tripPlanning": "Pianificazione",
+    "tripPlanning": "Organizzare il viaggio",
     "costsBudget": "Costi e budget",
     "appGuides": "Guide all’app",
     "review1Title": "Il nostro giro della South Island molto più facile",
@@ -254,96 +254,96 @@
   "pages": {
     "support": {
       "title": "Come possiamo aiutarti?",
-      "lede": "Risposte chiare su mappe, luoghi salvati, pianificazione e la strada che hai davanti.",
+      "lede": "Risposte chiare su mappe, luoghi salvati, pianificazione del viaggio e la strada che hai davanti.",
       "sections": [
         {
           "heading": "Trovare i luoghi",
           "paragraphs": [
-            "Cerca per nome, indirizzo o descrizione. Sposta la mappa e scegli l’opzione dell’area corrente per concentrare i risultati sulla porzione visibile.",
-            "Filtra per tipo di luogo, tariffa, valutazione minima, prenotazione online, regione e caratteristiche dettagliate di strutture e accesso. Combina solo i filtri che contano davvero, così restano visibili anche le alternative utili.",
-            "Servizi, tariffe, accesso e gestione possono cambiare. Segui i cartelli in vigore e il gestore del sito, poi mandaci una correzione per migliorare l’archivio."
+            "Cerca per nome, indirizzo o descrizione. Sposta la mappa e scegli l’opzione per l’area attuale per vedere solo i risultati nella zona inquadrata.",
+            "Filtra per tipo di luogo, tariffa, valutazione minima, prenotazione online, regione e caratteristiche dettagliate di servizi e accesso. Combina solo i filtri che contano davvero, così restano visibili anche le alternative utili.",
+            "Servizi, tariffe, accesso e gestione possono cambiare. Segui i cartelli in vigore e le indicazioni di chi gestisce l’area, poi mandaci una correzione per migliorare l’archivio."
           ]
         },
         {
           "heading": "Luoghi salvati",
           "paragraphs": [
-            "Mi piace, Visitati, Da visitare e In evidenza si aggiornano da soli quando segni i luoghi. Segnaposto e Tutti i salvati offrono altre viste rapide.",
-            "Crea raccolte con nome, icona e note, poi aggiungi qualsiasi luogo. Usale per una regione, una stagione, un veicolo o una rosa di candidati.",
-            "L’app supporta la sincronizzazione privata iCloud per contrassegni, raccolte e dati dei viaggi, quando iCloud è disponibile e attivo."
+            "Mi piace, Visitati, Da visitare e Con stella si aggiornano da soli quando segni i luoghi. Segnaposto e Tutti i salvati ti danno altre viste rapide.",
+            "Crea collezioni con nome, icona e note, poi aggiungi i luoghi che vuoi. Usale per una regione, una stagione, un mezzo o una selezione di posti.",
+            "Quando iCloud è disponibile e attivo, l’app sincronizza in modo privato i luoghi salvati, le collezioni e i dati dei viaggi."
           ]
         },
         {
           "heading": "Pianificatore di viaggio",
           "paragraphs": [
-            "Crea un viaggio, aggiungi luoghi e trascinali in ordine. Ogni tappa può avere la propria data di arrivo, note, meteo e stato di visita, e il pianificatore mostra la distanza tratta per tratta e sull’intero viaggio.",
-            "Il calcolo del percorso dipende dalle indicazioni disponibili in MapKit. Il pianificatore mantiene le tappe se una tratta non riesce, ma verificare che la strada sia percorribile spetta a te.",
-            "Parti dal set base per il campeggio o crea le tue attività. L’avanzamento del viaggio tiene la lista accanto all’itinerario, e i dettagli dell’itinerario possono sincronizzarsi con Calendario."
+            "Crea un viaggio, aggiungi i luoghi e trascinali nell’ordine che vuoi. Ogni tappa può avere data di arrivo, note, meteo e stato di visita, e il pianificatore mostra la distanza in auto tratta per tratta e su tutto il viaggio.",
+            "Il calcolo del percorso si basa sulle indicazioni disponibili in MapKit. Se una tratta non si riesce a calcolare, le tappe restano dove sono, ma controllare che la strada sia percorribile spetta a te.",
+            "Parti dalla lista base per il campeggio o crea le tue voci. Con l’avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
           ]
         },
         {
           "heading": "Mappe, meteo e dati in tempo reale",
           "paragraphs": [
-            "Passa dalla mappa standard a una vista satellitare basata sulle immagini flyover di Apple, che si inclina e ruota in rilievo 3D. Street View, basato sulle immagini Look Around di Apple, si apre dalla scheda del luogo dove esistono le immagini.",
-            "Meteo attuale e previsioni richiedono dati in tempo reale. Salva le previsioni importanti e gli avvisi ufficiali prima di uscire dalla copertura.",
-            "L’archivio incluso mantiene disponibili i dettagli essenziali ben oltre il segnale affidabile. Mappe in tempo reale, calcolo percorsi, meteo, foto e pagine esterne dei gestori possono richiedere connessione."
+            "Passa dalla mappa standard a una vista satellitare basata sulle immagini Flyover di Apple, che puoi inclinare e ruotare per vedere il rilievo in 3D. Street View, basato sulle immagini di Guardati intorno (Look Around) di Apple, si apre dalla scheda del luogo dove ci sono le immagini.",
+            "Meteo attuale e previsioni hanno bisogno di dati in tempo reale. Salva le previsioni importanti e gli avvisi ufficiali prima di restare senza campo.",
+            "L’archivio dei luoghi è dentro l’app, quindi i dettagli principali restano consultabili anche dove il segnale non è affidabile. Mappe in tempo reale, percorsi, meteo, foto e pagine esterne dei gestori possono richiedere una connessione."
           ]
         },
         {
           "heading": "Prezzi e valuta",
           "paragraphs": [
-            "Scegli la valuta nelle impostazioni e inserisci il tasso di cambio. I costi indicati compariranno in quella valuta accanto all’importo in dollari neozelandesi, il che aiuta quando sei in visita e non hai dimestichezza con il NZD.",
-            "Apri i dati di prenotazione o contatto di un luogo per verificare disponibilità, prezzo e condizioni con il gestore. I prezzi nell’app sono valori riportati, non quotazioni in tempo reale."
+            "Scegli la valuta nelle impostazioni e inserisci il tasso di cambio. I costi segnalati compariranno in quella valuta accanto all’importo in dollari neozelandesi: comodo se sei in viaggio e non hai ancora l’occhio per gli NZD.",
+            "Apri i dati di prenotazione o di contatto di un luogo per verificare disponibilità, prezzo e condizioni con il gestore. I prezzi nell’app sono importi segnalati, non quotazioni in tempo reale."
           ]
         },
         {
           "heading": "Premium e acquisti",
           "paragraphs": [
-            "Mappa e schede dei luoghi sono gratuite, insieme a due liste salvate.",
-            "Premium aggiunge liste illimitate, pianificazione dei viaggi, filtri avanzati, meteo sui luoghi e percorsi per i viaggi in auto.",
-            "Usa Ripristina acquisti nella schermata Premium mentre sei connesso con l’account Apple usato per l’acquisto originale."
+            "La mappa e le schede dei luoghi sono gratuite, insieme a due liste salvate.",
+            "Premium aggiunge liste illimitate, pianificazione del viaggio, filtri avanzati, meteo sui luoghi e itinerari on the road.",
+            "Tocca Ripristina gli acquisti nella schermata Premium, con l’account Apple usato per l’acquisto originale."
           ]
         }
       ]
     },
     "privacy": {
       "title": "Informativa sulla privacy",
-      "lede": "KiwiCamping ti aiuta a pianificare un viaggio senza trasformare il tuo percorso in un profilo pubblicitario.",
+      "lede": "KiwiCamping ti aiuta a organizzare un viaggio senza trasformare i tuoi spostamenti in un profilo pubblicitario.",
       "sections": [
         {
-          "heading": "Informazioni conservate sul dispositivo",
+          "heading": "Dati conservati sul dispositivo",
           "paragraphs": [
-            "Luoghi salvati, appartenenza alle raccolte, viaggi, note, voci delle liste e preferenze vengono memorizzati perché l’app funzioni. La posizione può essere usata per mostrare dove sei e i luoghi vicini dopo che hai dato il permesso."
+            "Per funzionare, l’app memorizza i luoghi salvati, le collezioni in cui li hai inseriti, i viaggi, le note, le voci delle liste e le preferenze. Dopo che hai dato il permesso, la posizione può servire a mostrarti dove sei e i luoghi vicini."
           ]
         },
         {
           "heading": "iCloud",
           "paragraphs": [
-            "Quando iCloud è disponibile e attivo, l’app può usare il tuo database iCloud privato per sincronizzare contrassegni, raccolte e dati tra i tuoi dispositivi. Apple fornisce il servizio sottostante e applica le proprie condizioni."
+            "Quando iCloud è disponibile e attivo, l’app può usare il tuo database iCloud privato per sincronizzare luoghi salvati, collezioni e dati dell’app tra i tuoi dispositivi. Il servizio è fornito da Apple, che applica le proprie condizioni."
           ]
         },
         {
-          "heading": "Servizi in tempo reale di Apple",
+          "heading": "Servizi Apple in tempo reale",
           "paragraphs": [
-            "La visualizzazione delle mappe, le indicazioni, Look Around, il meteo, l’integrazione con il calendario e i widget possono usare framework Apple. Richieste e trattamento dei dati di quei servizi sono regolati da Apple. L’accesso al calendario avviene solo dopo il tuo permesso e serve ad aggiungere le informazioni di itinerario che richiedi."
+            "Visualizzazione della mappa, indicazioni, Guardati intorno (Look Around), meteo, integrazione con Calendario e widget possono usare framework di Apple. Le richieste e il trattamento dei dati per questi servizi sono regolati da Apple. L’app accede a Calendario solo dopo il tuo permesso e solo per aggiungere le informazioni dell’itinerario che richiedi."
           ]
         },
         {
           "heading": "Link esterni e log del sito",
           "paragraphs": [
-            "Dalla scheda di un luogo si possono aprire portali di prenotazione, siti web, profili social, numeri di telefono, indirizzi email e app di mappe. Quei servizi ricevono informazioni secondo le loro politiche nel momento in cui scegli di aprirli.",
-            "I fornitori di hosting possono trattare log tecnici ordinari come indirizzo IP, tipo di browser e URL richiesto, per distribuzione, affidabilità e sicurezza. KiwiCamping non usa tracker pubblicitari su questo sito."
+            "Dalla scheda di un luogo puoi aprire portali di prenotazione, siti web, profili social, numeri di telefono, indirizzi email e app di mappe. Quando scegli di aprirli, quei servizi ricevono informazioni secondo le loro politiche.",
+            "I fornitori di hosting possono trattare normali log tecnici, come indirizzo IP, tipo di browser e URL richiesto, per erogare il sito, mantenerlo affidabile e sicuro. KiwiCamping non usa tracker pubblicitari su questo sito."
           ]
         },
         {
           "heading": "Conservazione e controllo",
           "paragraphs": [
-            "Puoi eliminare i dati dall’app e gestire quelli su iCloud dal tuo account Apple. Rimuovere l’app può cancellare i dati locali, mentre le copie sincronizzate possono restare su iCloud finché non le elimini separatamente."
+            "Puoi eliminare i dati direttamente dall’app e gestire quelli su iCloud dal tuo account Apple. Disinstallare l’app può cancellare i dati locali, mentre le copie sincronizzate possono restare su iCloud finché non le elimini a parte."
           ]
         },
         {
           "heading": "Minori e contatti",
           "paragraphs": [
-            "KiwiCamping è uno strumento di viaggio generico e non è rivolto ai minori. Non inviare dati personali di minori tramite l’assistenza.",
+            "KiwiCamping è uno strumento di viaggio per tutti e non è rivolto ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
             "Per domande sulla privacy, scrivi all’assistenza di KiwiCamping."
           ]
         }
@@ -352,43 +352,43 @@
     },
     "terms": {
       "title": "Condizioni d’uso",
-      "lede": "KiwiCamping è uno strumento di supporto alla pianificazione. Non sostituisce i cartelli ufficiali, le indicazioni dei gestori, gli avvisi di emergenza, le informazioni sul traffico né la tua responsabilità di viaggiare nei limiti delle tue capacità.",
+      "lede": "KiwiCamping è uno strumento per organizzare il viaggio. Non sostituisce i cartelli ufficiali, le indicazioni di chi gestisce il territorio, gli avvisi di emergenza, le informazioni sulla viabilità né la tua responsabilità di viaggiare entro i tuoi limiti.",
       "sections": [
         {
           "heading": "Le informazioni di viaggio cambiano",
           "paragraphs": [
-            "Luoghi, prezzi, accessi, servizi, copertura telefonica, meteo, rischio incendi, strade e condizioni di prenotazione possono cambiare senza preavviso. Verifica i dettagli decisivi con l’autorità competente o con il gestore prima di partire e di nuovo poco prima della partenza."
+            "Luoghi, prezzi, accessi, servizi, copertura telefonica, meteo, rischio incendi, strade e modalità di prenotazione possono cambiare senza preavviso. Verifica i dettagli importanti con l’autorità competente o con il gestore prima di partire e di nuovo a ridosso della partenza."
           ]
         },
         {
           "heading": "Nessuna garanzia di prenotazione o di accesso",
           "paragraphs": [
-            "Una scheda non garantisce che un luogo sia aperto, consentito per il tuo mezzo, raggiungibile con il tuo veicolo o disponibile. I link esterni di prenotazione e contatto sono forniti per comodità. I contratti sono tra te e il fornitore terzo."
+            "Una scheda non garantisce che un luogo sia aperto, consentito per il tuo tipo di sistemazione, raggiungibile con il tuo mezzo o disponibile. I link esterni per prenotazioni e contatti sono forniti per comodità. Il contratto è tra te e il fornitore terzo."
           ]
         },
         {
-          "heading": "Sicurezza e uso lecito",
+          "heading": "Sicurezza e uso nel rispetto delle leggi",
           "paragraphs": [
-            "Devi rispettare cartelli, permessi, chiusure, limitazioni per il rischio incendi, regole della strada e indicazioni di ranger, iwi, hapū, servizi di emergenza e gestori del sito. Non usare l’app mentre guidi."
+            "Devi rispettare cartelli, permessi, chiusure, restrizioni sui fuochi, codice della strada e le indicazioni di ranger, iwi e hapū (le tribù e i clan māori), servizi di emergenza e di chi gestisce il territorio. Non usare l’app mentre guidi."
           ]
         },
         {
           "heading": "Dati dell’utente",
           "paragraphs": [
-            "Sei responsabile di note, piani di viaggio e altre informazioni che salvi. Conserva copie separate di permessi, prenotazioni e piani critici per la sicurezza quando perderne l’accesso potrebbe mettere a rischio un viaggio."
+            "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Tieni copie separate di permessi, prenotazioni e piani da cui dipende la tua sicurezza, se perderne l’accesso potrebbe mettere a rischio il viaggio."
           ]
         },
         {
           "heading": "Acquisti",
           "paragraphs": [
-            "Ogni acquisto in-app è gestito da Apple ed è soggetto alle condizioni mostrate al momento dell’acquisto. Funzioni, pacchetti e prezzi possono cambiare nei limiti consentiti. Per fatturazione, disdetta e rimborsi usa gli strumenti di acquisto di Apple."
+            "Ogni acquisto in-app è gestito da Apple ed è soggetto alle condizioni mostrate al momento dell’acquisto. Funzioni, pacchetti e prezzi possono cambiare nei limiti consentiti. Per fatturazione, disdette e rimborsi usa gli strumenti di Apple."
           ]
         },
         {
           "heading": "Proprietà intellettuale e contatti",
           "paragraphs": [
-            "Marchio, interfaccia e contenuti editoriali originali di KiwiCamping appartengono al rispettivo titolare. I nomi dei luoghi e i dati pubblici restano di proprietà o responsabilità delle fonti originali.",
-            "Le domande possono essere inviate all’assistenza di KiwiCamping."
+            "Il marchio, l’interfaccia e i contenuti editoriali originali di KiwiCamping appartengono al rispettivo titolare. I nomi dei luoghi e i dati pubblici restano di proprietà o responsabilità delle fonti originali.",
+            "Per qualsiasi domanda scrivi all’assistenza di KiwiCamping."
           ]
         }
       ],
@@ -931,56 +931,56 @@
     },
     "new-zealand-travel-cost-2026": {
       "title": "Quanto costa viaggiare in Nuova Zelanda nel 2026?",
-      "description": "Budget giornalieri per una coppia in campeggio, un backpacker e un viaggio on the road comodo, con prezzi neozelandesi datati.",
+      "description": "Budget giornalieri per una coppia in campeggio, un backpacker e un road trip comodo, calcolati su prezzi neozelandesi con la data di rilevazione.",
       "region": "Nuova Zelanda",
-      "imageAlt": "Viaggiatore che calcola il budget di un viaggio on the road in Nuova Zelanda",
-      "intro": "Percorso e ritmo contano più di una media nazionale. Spostarsi ogni giorno aumenta carburante e pressione sulle prenotazioni, mentre viaggiare più lentamente rende più facile cucinare da sé e sfruttare le tariffe settimanali.",
+      "imageAlt": "Viaggiatore che calcola il budget di un road trip in Nuova Zelanda",
+      "intro": "Contano più il percorso e il ritmo che una media nazionale. Spostarti ogni giorno fa salire la spesa per il carburante e il numero di prenotazioni da incastrare, mentre se viaggi più lentamente è più facile cucinare da te e sfruttare le tariffe settimanali.",
       "sections": [
         {
-          "heading": "Parti dallo stile di viaggio",
+          "heading": "Parti dal tuo modo di viaggiare",
           "body": [
-            "Un budget giornaliero ridotto presuppone spesa al supermercato, alloggi condivisi o semplici e spostamenti locali oculati. Non regge una stanza privata, una cena al ristorante e un’attività importante ogni giorno.",
-            "Per una coppia in camper, calcola il veicolo una volta sola per il gruppo, poi aggiungi carburante, campeggi e cibo. Dividere ogni voce a persona può nascondere i grossi costi fissi."
+            "Un budget giornaliero ridotto all’osso presuppone spesa al supermercato, alloggi condivisi o spartani e spostamenti locali oculati. Non regge una camera privata, una cena al ristorante e un’attività importante tutti i giorni.",
+            "Se viaggi in coppia in camper, conta il veicolo una volta sola per entrambi, poi aggiungi carburante, campeggi e cibo. Dividere ogni voce a persona rischia di nascondere i grossi costi fissi."
           ],
           "tips": []
         },
         {
           "heading": "Luogo e stagione",
           "body": [
-            "Queenstown, Aoraki, le spiagge d’estate e le date degli eventi possono stare molto sopra una città qualunque. Anche le zone isolate aggiungono costi di trasporto a carburante e spesa.",
-            "Stima direttamente le date fisse, poi usa le fasce nazionali per i giorni flessibili in mezzo."
+            "Queenstown, Aoraki, le spiagge d’estate e i giorni degli eventi possono costare molto più di una città qualsiasi. Nelle zone isolate, poi, carburante e spesa costano di più per via del trasporto.",
+            "Per le date obbligate controlla i prezzi uno per uno, poi usa le fasce nazionali per i giorni flessibili in mezzo."
           ],
           "tips": []
         },
         {
-          "heading": "Tieni una riserva utilizzabile",
+          "heading": "Tieni una riserva per gli imprevisti",
           "body": [
-            "Metti da parte soldi per un traghetto cambiato, una notte di alloggio in più, uno pneumatico o un’esigenza medica. Un campeggio legale di riserva va messo in budget anche quando hai in programma il campeggio libero.",
-            "Rivedi la spesa reale ogni pochi giorni. Carburante, cibo da asporto e attività sono le voci che più facilmente sfuggono in silenzio."
+            "Metti da parte dei soldi per un traghetto da cambiare, una notte di alloggio in più, una gomma o una spesa medica. Anche se pensi di fare freedom camping (il campeggio libero neozelandese), nel budget ci va un campeggio legale di riserva.",
+            "Controlla la spesa reale ogni due o tre giorni. Carburante, cibo da asporto e attività sono le voci che tendono a sfuggire senza che te ne accorga."
           ],
           "tips": []
         },
         {
-          "heading": "Com’è davvero una giornata a basso costo",
+          "heading": "Com’è davvero una giornata low cost",
           "body": [
-            "Una giornata a basso costo significa cucinare quasi tutti i pasti, alternare siti gratuiti e campeggi DOC economici e considerare le attività a pagamento occasionali e non quotidiane. È davvero sostenibile per mesi, e migliaia di persone lo fanno, ma richiede un veicolo attrezzato per l’autosufficienza e la capacità di adattarsi a servizi essenziali.",
-            "Il punto debole è pensare che basso costo significhi gratis. Docce, lavanderia, acqua, punti di scarico e la notte occasionale in un campeggio attrezzato costano tutti qualcosa, e un budget senza una voce per loro sarà sbagliato già alla fine della prima settimana."
+            "Una giornata low cost vuol dire cucinare quasi sempre, alternare campeggi gratuiti ed economici del DOC (Department of Conservation, l’ente neozelandese per la conservazione) e considerare le attività a pagamento un’eccezione, non un’abitudine quotidiana. È un ritmo che si regge davvero per mesi, e migliaia di persone lo fanno, ma serve un veicolo attrezzato per essere autosufficiente e un certo spirito di adattamento ai servizi spartani.",
+            "Il problema nasce quando si pensa che low cost voglia dire gratis. Docce, lavanderia, acqua, punti di scarico e qualche notte in un campeggio attrezzato costano comunque qualcosa, e un budget senza una voce per queste spese sarà sbagliato già alla fine della prima settimana."
           ],
           "tips": []
         },
         {
-          "heading": "Le due isole costano in modo diverso",
+          "heading": "Le due isole non costano uguale",
           "body": [
-            "La South Island comporta in genere distanze più lunghe tra le città, carburante più caro fuori dai centri principali e più pressione sugli alloggi a Queenstown, Wānaka e Aoraki. La North Island concentra di più in tragitti più brevi, il che riduce il carburante ma aumenta le attrazioni a pagamento a portata di mano.",
-            "Se il budget è stretto, un viaggio più lento nella North Island costa di solito meno al giorno dell’itinerario equivalente nella South Island. Se il budget è fisso e il tempo poco, la South Island ripaga la spesa in modo più evidente."
+            "Nell’Isola del Sud (South Island) le distanze tra una città e l’altra sono in genere più lunghe, il carburante costa di più fuori dai centri principali e a Queenstown, Wānaka e Aoraki gli alloggi sono molto più contesi. L’Isola del Nord (North Island) concentra più cose in tragitti più brevi: si spende meno di carburante, ma ci sono più attrazioni a pagamento a portata di mano.",
+            "Se il budget è stretto, un viaggio più lento nell’Isola del Nord (North Island) costa in genere meno al giorno dell’itinerario equivalente nell’Isola del Sud (South Island). Se invece il budget è fisso e hai poco tempo, è la South Island a ripagare la spesa in modo più evidente."
           ],
           "tips": []
         },
         {
-          "heading": "I costi che compaiono solo una volta qui",
+          "heading": "I costi che scopri solo una volta arrivato",
           "body": [
-            "La traversata dello Stretto di Cook, la riduzione della franchigia di un noleggio, i supplementi per la sola andata, una SIM o un piano roaming e il deposito bloccato sulla carta sono tutti importi reali che compaiono di rado in un budget giornaliero. Insieme aggiungono spesso diverse centinaia di dollari su due settimane.",
-            "Le attività sono l’altra voce silenziosa. Un solo volo sui ghiacciai, un giro in jet boat o una crociera a Milford possono valere diversi giorni di viaggio normale, quindi decidi in anticipo quali due o tre ne valgono la pena invece di deciderlo sul momento ogni volta."
+            "La traversata dello Stretto di Cook, la riduzione della franchigia sul noleggio, i supplementi per la sola andata, una SIM o un piano roaming e il deposito bloccato sulla carta sono tutte cifre reali che quasi mai finiscono nel budget giornaliero. Messe insieme, su due settimane aggiungono spesso diverse centinaia di dollari.",
+            "Le attività sono l’altra voce che cresce in silenzio. Un solo volo sui ghiacciai, un giro in jet boat o una crociera a Milford possono costare quanto diversi giorni di viaggio normale, quindi decidi in anticipo quali due o tre valgono la spesa, invece di decidere sul momento ogni volta."
           ],
           "tips": [
             "Calcola a parte il traghetto",
@@ -991,17 +991,17 @@
         {
           "heading": "Dove vanno davvero i soldi",
           "body": [
-            "Per la maggior parte dei viaggi in campeggio l’ordine è veicolo, carburante, cibo, campeggi, attività. I campeggi sono di solito una voce più piccola di quanto si creda e il carburante una più grande, ed è per questo che scegliere un percorso più lento fa risparmiare più che scegliere siti più economici.",
-            "Questo ordine ti dice anche dove guardare quando il budget sfugge. Passare da un campeggio da 25 $ a uno da 0 $ fa risparmiare meno che eliminare una deviazione di 300 chilometri, e ti costa una doccia."
+            "Nella maggior parte dei viaggi in campeggio l’ordine è questo: veicolo, carburante, cibo, campeggi, attività. I campeggi di solito pesano meno di quanto si creda e il carburante di più, ed è per questo che scegliere un percorso più lento fa risparmiare più che scegliere campeggi più economici.",
+            "Questo ordine ti dice anche dove intervenire quando il budget sfugge. Passare da un campeggio da 25 $ a uno da 0 $ fa risparmiare meno che eliminare una deviazione di 300 chilometri, e ti costa una doccia."
           ],
           "tips": []
         },
         {
-          "heading": "Pagare mentre sei qui",
+          "heading": "Come pagare in viaggio",
           "body": [
-            "Il pagamento contactless è accettato quasi ovunque, anche nei piccoli caffè di campagna, e il contante è davvero raro. Molti locali aggiungono un sovrapprezzo per la carta, di solito dall’uno al due per cento, che compare alla cassa e non sul menu.",
-            "Le commissioni sulle transazioni estere sono il costo silenzioso. Una carta da viaggio o una banca che non le applica fa risparmiare una cifra significativa in un mese, e toglie la tentazione di accettare la conversione dinamica della valuta al terminale, che ha sempre un tasso peggiore.",
-            "Tieni un po’ di contanti per le cassette delle offerte dei campeggi DOC, le bancarelle di frutta e verdura a bordo strada e il negozietto di campagna con la connessione ballerina. Cinquanta dollari in banconote coprono quasi tutto ciò per cui serve ancora il contante."
+            "Il pagamento contactless è accettato quasi ovunque, anche nei piccoli café di campagna, e il contante si usa davvero poco. Molti locali aggiungono un supplemento per la carta, di solito dall’uno al due per cento, che compare alla cassa e non sul menu.",
+            "Il costo nascosto sono le commissioni sulle transazioni in valuta estera. Con una carta da viaggio o una banca che non le applica risparmi una cifra significativa in un mese, e non sei tentato di accettare al POS la conversione dinamica della valuta, che ha sempre un cambio peggiore.",
+            "Tieni un po’ di contanti per le cassette dei campeggi DOC dove si paga sulla fiducia (honesty box), per le bancarelle di frutta e verdura lungo la strada e per qualche negozietto di campagna con la connessione ballerina. Cinquanta dollari in banconote bastano per quasi tutto quello per cui serve ancora il contante."
           ],
           "tips": []
         }
@@ -1009,11 +1009,11 @@
       "faq": [
         [
           "Quanto costa un viaggio in Nuova Zelanda nel 2026?",
-          "Si divide nettamente tra trasporti, alloggio e cibo, e la scelta del veicolo pesa sul totale più di ogni altra cosa. Questa guida fornisce per ciascuna voce riferimenti datati in dollari neozelandesi e li converte in dieci valute."
+          "La spesa si divide nettamente tra trasporti, alloggio e cibo, e la scelta del veicolo pesa sul totale più di qualsiasi altra cosa. Questa guida fornisce per ciascuna voce dei riferimenti in dollari neozelandesi, con la data di rilevazione, e li converte in dieci valute."
         ],
         [
           "Viaggiare in Nuova Zelanda è caro?",
-          "Per gli standard internazionali sì, soprattutto per cibo, alloggio e trasporti interni. Il campeggio è l’unica categoria che resta economica, ed è per questo che qui il divario tra un viaggio in campeggio e uno in hotel è insolitamente ampio."
+          "Per gli standard internazionali sì, soprattutto per cibo, alloggio e trasporti interni. Il campeggio è l’unica voce che resta economica, ed è per questo che qui la differenza tra un viaggio in campeggio e uno in hotel è insolitamente ampia."
         ]
       ],
       "sources": [
@@ -1028,18 +1028,18 @@
         }
       ],
       "priceTable": {
-        "note": "Scenari di pianificazione per un viaggiatore. Noleggio del veicolo, trasporti a lunga distanza e voli internazionali sono esclusi perché date e dimensioni del gruppo li fanno variare molto.",
+        "note": "Scenari indicativi per una persona. Sono esclusi il noleggio del veicolo, i trasporti a lunga distanza e i voli internazionali, perché date e numero di persone li fanno cambiare molto.",
         "rows": [
           {
-            "label": "Campeggiatore o backpacker a basso costo",
+            "label": "Campeggiatore o backpacker low cost",
             "unit": "a persona al giorno"
           },
           {
-            "label": "Viaggio indipendente comodo",
+            "label": "Viaggio comodo in autonomia",
             "unit": "a persona al giorno"
           },
           {
-            "label": "Stanze private e attività a pagamento",
+            "label": "Camere private e attività a pagamento",
             "unit": "a persona al giorno"
           }
         ]
@@ -1495,111 +1495,111 @@
       "priceTable": null
     },
     "doc-campsite-rules": {
-      "title": "Le regole dei campeggi DOC che ogni campeggiatore dovrebbe conoscere",
-      "description": "Prenotazioni, ore di silenzio, rifiuti, animali e condizioni locali definiscono un soggiorno sui terreni protetti.",
+      "title": "Campeggi DOC: le regole che ogni campeggiatore deve conoscere",
+      "description": "Prenotazioni, ore di silenzio, rifiuti, animali e regole del singolo sito: cosa conta per un soggiorno nelle aree protette della Nuova Zelanda.",
       "region": "Campeggi DOC",
       "imageAlt": "Pannello informativo di un campeggio del Department of Conservation",
-      "intro": "Prenotare con il DOC significa accettare le condizioni nazionali e le regole locali di quel posto. La pagina del singolo campeggio resta indispensabile, perché accesso, fuochi, acqua, cani e condizioni per i veicoli variano molto.",
+      "intro": "Quando prenoti con il DOC (Department of Conservation, l’ente neozelandese per la conservazione) accetti sia le condizioni nazionali sia le regole locali di quel posto. Per questo la pagina del singolo campeggio resta indispensabile: accesso, fuochi, acqua, cani e condizioni per i veicoli cambiano molto da un sito all’altro.",
       "sections": [
         {
-          "heading": "Prenota in modo onesto",
+          "heading": "Prenota con correttezza",
           "body": [
-            "Prenota la data, il numero di persone e la soluzione giusti, poi tieni la conferma disponibile offline. Dove le piazzole non sono assegnate singolarmente, scegli solo tra quelle libere al tuo arrivo.",
-            "Secondo le condizioni del DOC, una prenotazione di più notti non utilizzata può essere annullata dopo la prima notte saltata. Non occupare un posto con una tenda vuota se nessuno ha intenzione di dormirci."
+            "Prenota la data, il numero di persone e la tipologia di posto giusti, poi tieni la conferma a portata di mano anche senza campo. Dove le piazzole non sono assegnate, scegli il posto solo tra quelli liberi al tuo arrivo.",
+            "Con le condizioni del DOC, una prenotazione di più notti non utilizzata può essere annullata dopo la prima notte in cui non ti presenti. Non tenere occupato un posto con una tenda vuota se nessuno ha intenzione di dormirci."
           ],
           "tips": []
         },
         {
-          "heading": "Rispetta gli orari comuni",
+          "heading": "Rispetta gli orari del campeggio",
           "body": [
-            "Le condizioni standard del DOC fissano le ore di silenzio dalle 22 alle 7, salvo regole locali diverse, con partenza di solito entro le 10. Generatori, musica e spostamenti dei veicoli devono restare nei limiti del sito.",
-            "La prenotazione di un campeggio non dà diritto a usare i servizi di un rifugio vicino. Usa solo i bagni, i ripari e i punti acqua inclusi nella soluzione prenotata."
+            "Le condizioni standard del DOC prevedono il silenzio dalle 22 alle 7, salvo regole locali diverse, e la partenza di solito entro le 10. Generatori, musica e viavai dei veicoli devono restare nei limiti fissati dal campeggio.",
+            "Prenotare un campeggio non dà diritto a usare i servizi di un rifugio vicino. Usa solo i bagni, i ripari e i punti acqua compresi in ciò che hai prenotato."
           ],
           "tips": []
         },
         {
           "heading": "Lascia il posto in ordine",
           "body": [
-            "Porta via tutti i rifiuti, tieni il cibo al sicuro e non scaricare mai le acque grigie a terra. Nei rifugi e nei blocchi bagni è vietato fumare e svapare.",
-            "Animali e droni richiedono un’autorizzazione esplicita. Controlla la pagina del campeggio specifico invece di prendere un posto tranquillo per un tacito permesso."
+            "Porta via tutti i rifiuti, tieni il cibo chiuso al sicuro e non scaricare mai le acque grigie a terra. Nei rifugi e nei blocchi bagni non si fuma e non si svapa.",
+            "Per animali domestici e droni serve un’autorizzazione esplicita. Controlla la pagina di quel campeggio, invece di prendere un posto tranquillo per un tacito via libera."
           ],
           "tips": []
         },
         {
-          "heading": "Con prenotazione, chi prima arriva o con un pass",
+          "heading": "Su prenotazione, in ordine di arrivo o con il pass",
           "body": [
-            "La pagina di ogni campeggio indica quale sistema si applica, e confonderli causa la maggior parte dei problemi all’arrivo. Il Campsite Pass è un modo di pagare, non una prenotazione: non ti tiene un posto in un campeggio che richiede di prenotare, e non serve a nulla in un campeggio senza prenotazione già pieno.",
-            "Dove la prenotazione è obbligatoria, prenota per il gruppo e il veicolo che porti davvero. Tieni la conferma offline, perché nei campeggi DOC il campo spesso manca, e una prenotazione che non riesci a mostrare è difficile da difendere davanti a un ranger che sta distribuendo i posti di un campeggio pieno."
+            "La pagina di ogni campeggio indica quale sistema vale, e confonderli è la causa della maggior parte dei problemi all’arrivo. Il Campsite Pass è un modo per pagare, non una prenotazione: non ti garantisce un posto in un campeggio dove bisogna prenotare, e non serve a niente in un campeggio senza prenotazione che è già pieno.",
+            "Dove la prenotazione è obbligatoria, prenota per il gruppo e il veicolo con cui arrivi davvero. Tieni la conferma consultabile anche senza campo, perché nei campeggi DOC il segnale spesso manca, e una prenotazione che non riesci a mostrare è difficile da far valere con un ranger che deve distribuire i posti in un campeggio pieno."
           ],
           "tips": [
-            "Un pass non è una prenotazione",
-            "Tieni le conferme offline",
-            "Prenota per il veicolo e il gruppo reali"
+            "Il pass non è una prenotazione",
+            "Conferme consultabili anche senza campo",
+            "Prenota con il veicolo e il numero di persone reali"
           ]
         },
         {
           "heading": "Spesso l’acqua non è trattata",
           "body": [
-            "Molti siti DOC prendono l’acqua da torrenti o da cisterne che raccolgono la pioggia dal tetto, senza trattarla. La giardia è presente nelle acque neozelandesi e un torrente limpido non ti dice nulla al riguardo. Fai bollire per almeno un minuto, filtra o usa un trattamento chimico, e non considerare sicuro un rubinetto solo perché c’è.",
-            "Porta abbastanza acqua potabile per restare autonomo una giornata. Le cisterne si svuotano, compaiono avvisi di bollitura, e un campeggio indicato con acqua può ritrovarsi con l’impianto guasto senza alcun preavviso."
+            "Molti campeggi DOC prendono l’acqua da torrenti o da cisterne che raccolgono la pioggia dei tetti, e non la trattano. In Nuova Zelanda la giardia è presente nelle acque, e un torrente limpido non ti dice nulla. Falla bollire per almeno un minuto, filtrala o usa un trattamento chimico, e non dare per scontato che un rubinetto sia sicuro solo perché c’è.",
+            "Porta abbastanza acqua potabile per essere autonomo per un giorno. Le cisterne si svuotano, compaiono avvisi che impongono di bollire l’acqua, e un campeggio segnalato con acqua può ritrovarsi con l’impianto guasto senza alcun preavviso."
           ],
           "tips": []
         },
         {
           "heading": "Generatori, droni e cani",
           "body": [
-            "In molti siti l’uso del generatore è limitato o vietato e, dove è consentito, di solito è ristretto a determinati orari. Sui terreni pubblici protetti i droni richiedono quasi sempre una concessione, e farne volare uno sopra un campeggio senza permesso è illegale oltre che malvisto da tutti.",
-            "I cani sono vietati sulla maggior parte dei terreni pubblici protetti per il rischio che rappresentano per gli uccelli che nidificano a terra e per il kiwi. Pochi campeggi li ammettono; la maggioranza no, e in alcune zone serve un permesso. Controlla il sito specifico invece di dare per scontato."
+            "In molti campeggi il generatore è limitato o vietato e, dove è ammesso, di solito si può usare solo in certi orari. Nella maggior parte dei casi, per far volare un drone sulle aree protette pubbliche (conservation land) serve una concessione, e farlo sopra un campeggio senza permesso è illegale oltre che malvisto da tutti.",
+            "I cani sono vietati nella maggior parte delle aree protette pubbliche, perché mettono a rischio gli uccelli che nidificano a terra e i kiwi. Alcuni campeggi li ammettono, la maggioranza no, e in certe zone serve un permesso. Controlla il singolo campeggio, senza dare nulla per scontato."
           ],
           "tips": [
-            "I droni richiedono una concessione sui terreni DOC",
-            "Cani vietati nella maggior parte dei siti DOC",
+            "Per i droni sui terreni DOC serve una concessione",
+            "Cani vietati nella maggior parte dei campeggi DOC",
             "Generatori limitati o vietati"
           ]
         },
         {
-          "heading": "Permanenza massima e comportamento",
+          "heading": "Permanenza massima e comportamento in campeggio",
           "body": [
-            "Quasi tutti i campeggi DOC fissano una permanenza massima, spesso poche notti consecutive, per impedire occupazioni prolungate. Nei campeggi più frequentati in estate i ranger la fanno rispettare, e spostare il veicolo di qualche metro non azzera il conteggio.",
-            "Resta nella piazzola segnata, non allargarti con tendalino o attrezzatura quando lo spazio è poco e rispetta le ore di silenzio. Questi campeggi sono condivisi, spesso pieni, e il piacere di tutti dipende dal fatto che ognuno resti nel proprio spazio."
+            "La maggior parte dei campeggi DOC fissa una permanenza massima, spesso poche notti consecutive, per evitare che qualcuno ci si stabilisca. D’estate, nei campeggi più frequentati, i ranger la fanno rispettare davvero, e spostare il veicolo di qualche metro non azzera il conteggio.",
+            "Resta nella piazzola segnata, non allargarti con tendalino o attrezzatura quando lo spazio è poco e rispetta le ore di silenzio. Questi campeggi sono condivisi e spesso pieni: si sta bene tutti solo se ognuno resta nel proprio spazio."
           ],
           "tips": []
         },
         {
-          "heading": "Arrivare e sistemarsi",
+          "heading": "Arrivo e sistemazione",
           "body": [
-            "Quando puoi, arriva con la luce. Scegliere la piazzola, valutare il deflusso dell’acqua, notare i rami sopra la testa e livellare il veicolo è tutto molto più difficile al buio, e un posto chiaramente sbagliato alle 16 si accetta facilmente alle 21, quando sei stanco.",
-            "Dove c’è una cassetta per l’offerta o l’autoregistrazione, paga appena arrivi invece di rimandare. I ranger controllano, la cifra è piccola e il sistema funziona solo perché quasi tutti pagano senza che nessuno lo chieda.",
-            "Sistemati dentro la piazzola segnata e lascia spazio a chi arriva dopo di te. In un campeggio affollato d’estate, spargere l’attrezzatura su due posti fa la differenza tra un sito che accoglie tutti e persone che devono essere mandate via."
+            "Quando puoi, arriva con la luce. Scegliere la piazzola, capire dove defluisce l’acqua, notare i rami sopra la testa e mettere in bolla il veicolo è molto più difficile al buio, e un posto che alle 16 ti sembrerebbe chiaramente sbagliato, alle 21 e stanco, lo accetti senza pensarci.",
+            "Se il campeggio funziona con la cassetta per il pagamento (honesty box: si paga sulla fiducia) o con l’autoregistrazione, paga appena arrivi invece di pensare di sistemare dopo. I ranger controllano, la tariffa è bassa e il sistema regge solo perché quasi tutti pagano senza che nessuno glielo chieda.",
+            "Sistemati dentro la piazzola segnata e lascia spazio a chi arriva dopo di te. In un campeggio affollato d’estate, sparpagliare l’attrezzatura su due posti fa la differenza tra un campeggio dove c’è spazio per tutti e gente mandata via."
           ],
           "tips": []
         },
         {
           "heading": "Se il campeggio è pieno",
           "body": [
-            "In estate i campeggi DOC più richiesti si riempiono entro metà pomeriggio e non esiste un’area di riserva. Ricavarsi una piazzola in più sull’erba, sulla corsia di accesso o accanto ai bagni non è un’opzione, e i ranger ti faranno spostare.",
-            "Individua un’alternativa legale prima di arrivare, non dopo. Un holiday park a mezz’ora di distanza è un risultato di gran lunga migliore di una guida notturna su una strada sconosciuta in cerca di un posto qualsiasi che ti accolga."
+            "D’estate i campeggi DOC più richiesti si riempiono entro metà pomeriggio e non ci sono posti di riserva. Ricavarti una piazzola in più sul prato, sulla stradina d’accesso o accanto ai bagni non è un’opzione: i ranger ti faranno spostare.",
+            "Individua un’alternativa legale prima di arrivare, non dopo. Un holiday park (un campeggio-villaggio con bungalow, piscina e servizi) a mezz’ora di distanza è molto meglio che guidare a tarda sera su una strada che non conosci, cercando un posto qualsiasi che ti accolga."
           ],
           "tips": [
-            "I campeggi più richiesti si riempiono entro il pomeriggio",
-            "Non c’è un’area di riserva",
-            "Conosci la tua alternativa prima di arrivare"
+            "I campeggi più richiesti si riempiono entro metà pomeriggio",
+            "Niente posti di riserva",
+            "Decidi l’alternativa prima di arrivare"
           ]
         }
       ],
       "faq": [
         [
           "Quali sono le regole in un campeggio DOC?",
-          "Paga la tariffa per ogni adulto, campeggia solo nelle piazzole segnate, porta via tutti i rifiuti, usa i bagni a disposizione e fai poco rumore dopo il tramonto. Fuochi, cani e generatori sono limitati o vietati a seconda del sito, e i cartelli sul posto prevalgono su qualsiasi cosa tu abbia letto prima."
+          "Paga la tariffa per ogni adulto, campeggia solo nelle piazzole segnate, porta via tutti i rifiuti, usa i bagni a disposizione e fai poco rumore quando fa buio. Fuochi, cani e generatori sono limitati o vietati a seconda del campeggio, e i cartelli sul posto contano più di qualsiasi cosa tu abbia letto prima."
         ],
         [
           "Si può restare più di una notte in un campeggio DOC?",
-          "Di solito sì, ma nei siti più frequentati vale una permanenza massima indicata all’ingresso. Dove il sito è molto prenotato in estate, il limite viene fatto rispettare."
+          "Di solito sì, ma nei campeggi più frequentati c’è una permanenza massima, indicata all’ingresso. Dove d’estate le prenotazioni sono tante, il limite lo fanno rispettare."
         ]
       ],
       "sources": [
         {
-          "label": "Condizioni di prenotazione degli alloggi DOC"
+          "label": "DOC: condizioni di prenotazione degli alloggi"
         }
       ],
       "priceTable": null
@@ -2589,93 +2589,93 @@
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Regole e sicurezza alla guida di un camper in Nuova Zelanda",
-      "description": "Dimensioni, passeggeri, peso e limiti del noleggio contano prima che una strada stretta riveli quanto è grande il veicolo.",
+      "title": "Guidare un camper in Nuova Zelanda: regole e sicurezza",
+      "description": "Dimensioni, passeggeri, peso e limiti del noleggio: da conoscere prima che una strada stretta ti faccia capire quanto è grande il camper.",
       "region": "Strade della Nuova Zelanda",
       "imageAlt": "Grande camper su una strada stretta della Nuova Zelanda",
-      "intro": "Un camper può essere guidato legalmente con una patente Class 1 e sembrare comunque tutt’altra cosa rispetto a un’auto. Alla consegna devono essere chiari altezza, larghezza, lunghezza, peso a pieno carico e ogni strada esclusa dal contratto di noleggio.",
+      "intro": "Per guidare un camper può bastare la normale patente Class 1, eppure al volante è tutta un’altra cosa rispetto a un’auto. Alla consegna fatti indicare altezza, larghezza, lunghezza, peso a pieno carico e tutte le strade escluse dal contratto di noleggio.",
       "sections": [
         {
-          "heading": "Misura prima di muoverti",
+          "heading": "Prendi le misure prima di muoverti",
           "body": [
-            "Annota le dimensioni del veicolo dove il conducente può vederle. Oblò, condizionatori, portabici e sbalzo posteriore incidono sugli ingombri e sulle manovre.",
-            "Durante il viaggio tutti i passeggeri devono stare su sedili omologati con cintura. Letti e zona giorno posteriore non sono posti passeggero, a meno che non siano certificati come tali."
+            "Annota le dimensioni del veicolo in un punto che vedi dal posto di guida. Oblò, condizionatori sul tetto, portabici e sbalzo posteriore incidono sugli ingombri e sulle manovre.",
+            "In marcia tutti i passeggeri devono sedere su sedili omologati, con la cintura. Il letto e la zona giorno posteriore non sono posti a sedere, a meno che non siano omologati come tali."
           ],
           "tips": []
         },
         {
-          "heading": "Dai spazio al veicolo",
+          "heading": "Guida con margine",
           "body": [
-            "Frena prima, prendi le curve piano e lascia più distanza da chi ti precede. Usa gli specchietti con attenzione e lascia passare chi ti segue nelle piazzole sicure.",
-            "Un forte vento laterale può spostare un veicolo alto nella corsia. Rallenta o fermati quando devi correggere lo sterzo di continuo."
+            "Frena prima, prendi le curve piano e tieni più distanza dal veicolo davanti. Usa gli specchietti con metodo e lascia passare chi ti segue nelle piazzole adatte ad accostare in sicurezza.",
+            "Un forte vento laterale può spingere un veicolo alto da una parte all’altra della corsia. Rallenta o fermati quando ti ritrovi a correggere lo sterzo di continuo."
           ],
           "tips": []
         },
         {
-          "heading": "Rispetta le esclusioni",
+          "heading": "Rispetta i divieti del contratto",
           "body": [
-            "I contratti di noleggio possono vietare spiagge, strade sterrate o specifici percorsi isolati anche dove l’accesso pubblico è consentito. L’assicurazione può dipendere dalle stesse condizioni.",
-            "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado incerto. Il recupero del veicolo non sostituisce lo spazio libero."
+            "Il contratto di noleggio può vietare spiagge, strade sterrate o certi percorsi isolati indicati per nome, anche dove l’accesso è aperto al pubblico. E l’assicurazione può dipendere dalle stesse condizioni.",
+            "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado dall’esito incerto. Farti tirare fuori dal carro attrezzi dopo non è un piano: prima assicurati di passarci."
           ],
           "tips": []
         },
         {
-          "heading": "Conosci le tue dimensioni prima di partire",
+          "heading": "Conosci le misure del veicolo prima di partire",
           "body": [
-            "Scrivi altezza, lunghezza e peso del veicolo e tienili dove il conducente può vederli. L’altezza è quella che causa danni costosi, agli ingressi dei parcheggi, ai drive-through, sotto le pensiline dei distributori e in diversi sottopassi urbani.",
-            "Regola specchietti, angoli ciechi e retrocamera prima di lasciare il deposito e fai il giro del veicolo. La maggior parte dei danni ai camper a noleggio avviene nei primi due giorni, a bassa velocità, nei parcheggi."
+            "Scrivi altezza, lunghezza e peso del veicolo e tienili dove il conducente li vede. È l’altezza a causare i danni più costosi: agli ingressi dei parcheggi, nei drive-through, sotto le pensiline dei distributori e in diversi sottopassi urbani.",
+            "Prima di lasciare il deposito regola gli specchietti, controlla gli angoli ciechi e la retrocamera, e fai un giro intorno al veicolo. La maggior parte dei danni ai camper a noleggio avviene nei primi due giorni, a bassa velocità, nei parcheggi."
           ],
           "tips": [
             "Scrivi l’altezza sul cruscotto",
-            "Quasi tutti i danni avvengono nei parcheggi",
+            "I danni avvengono soprattutto nei parcheggi",
             "Fai il giro del veicolo prima di partire"
           ]
         },
         {
-          "heading": "Tutti viaggiano su un sedile vero",
+          "heading": "Ognuno su un sedile vero",
           "body": [
-            "Letti, dinette senza cinture e zone giorno non sono posti passeggero quando il veicolo è in movimento. Ogni occupante deve avere un sedile omologato con una cintura funzionante, e per i bambini sotto i sette anni servono seggiolini conformi a norme specifiche.",
-            "Prima di ogni tragitto fissa tutto ciò che è libero. Un’anta, una bombola del gas o un bollitore pieno diventano pericolosi in una frenata d’emergenza, e un camper frena più tardi e più bruscamente di un’auto."
+            "Con il veicolo in movimento, letti, dinette senza cinture e zona giorno non sono posti a sedere. Ogni occupante deve avere un sedile omologato con una cintura funzionante, e sotto i sette anni i bambini devono viaggiare su un seggiolino conforme a norme specifiche.",
+            "Prima di ogni tragitto fissa tutto quello che può muoversi. Un’anta, una bombola del gas o un bollitore pieno diventano pericolosi in una frenata d’emergenza, e un camper frena più tardi e più bruscamente di un’auto."
           ],
           "tips": []
         },
         {
-          "heading": "Il vento, e perché qui conta di più",
+          "heading": "Il vento: perché qui conta di più",
           "body": [
-            "Un veicolo alto soffre molto il vento laterale, e la Nuova Zelanda è un paese ventoso, con strade costiere esposte, ponti e varchi tra le montagne. Superare i camion e uscire da una trincea provocano entrambi spinte laterali improvvise.",
-            "Nei tratti esposti tieni saldamente il volante con due mani, rallenta prima di una raffica e non durante, e tieni presente che alcuni percorsi chiudono ai veicoli alti con vento forte, tra cui la Rimutaka Hill Road e parte della Desert Road."
+            "Un veicolo alto offre molta presa al vento laterale, e la Nuova Zelanda è un Paese ventoso, con strade costiere esposte, ponti e valichi tra le montagne. Il sorpasso dei camion e l’uscita da una trincea provocano spinte laterali improvvise.",
+            "Nei tratti esposti tieni il volante ben saldo con due mani, rallenta prima della raffica e non durante, e tieni presente che con vento forte alcune strade chiudono ai veicoli alti, tra cui la Rimutaka Hill Road e alcuni tratti della Desert Road."
           ],
           "tips": [
             "Rallenta prima del tratto esposto",
             "Alcune strade chiudono ai veicoli alti",
-            "Camion e trincee causano raffiche improvvise"
+            "Camion e trincee provocano colpi di vento improvvisi"
           ]
         },
         {
           "heading": "Sorpassare ed essere sorpassati",
           "body": [
-            "Un camper accelera lentamente, quindi sorpassare richiede molta più strada libera che con un’auto e raramente vale la pena tentarlo. Gran parte delle statali neozelandesi è a due corsie, con poche corsie di sorpasso e un brutto bilancio di incidenti in sorpasso.",
-            "Quando dietro di te si forma una coda, accosta dove è sicuro e lasciala passare. Se ci sono cinque o più veicoli in coda devi farlo appena possibile in sicurezza, e così togli anche la pressione che spinge la gente a sorpassare male."
+            "Un camper accelera lentamente: per sorpassare serve molta più strada libera che con un’auto, e quasi mai vale la pena tentare. La maggior parte delle statali neozelandesi ha una sola corsia per senso di marcia, poche corsie di sorpasso e un brutto bilancio di incidenti in sorpasso.",
+            "Quando dietro di te si forma una coda, accosta dove è sicuro e lascia passare. Se in coda ci sono cinque o più veicoli sei obbligato a farlo appena puoi in sicurezza, e così togli anche la pressione che spinge la gente a sorpassi azzardati."
           ],
           "tips": []
         },
         {
-          "heading": "Parcheggio e sosta notturna legale",
+          "heading": "Parcheggio e sosta notturna: cosa è legale",
           "body": [
-            "Parcheggiare un camper e campeggiarci dentro sono due questioni diverse. Un veicolo può essere parcheggiato legalmente in un posto ed essere comunque vietato occuparlo di notte, ed è su questa distinzione che si gioca la maggior parte delle infrazioni.",
-            "I limiti di altezza dei parcheggi urbani colgono di sorpresa i camper di continuo, e di solito il primo avviso è la sbarra. Cerca i limiti di altezza indicati prima di entrare e usa i parcheggi a raso o di riserva che quasi tutte le città prevedono per i veicoli grandi.",
-            "In città la soluzione pratica è lasciare il veicolo in un campeggio o in un parcheggio di interscambio e prendere i mezzi pubblici. È più veloce, costa meno ed evita del tutto il problema invece di gestirlo."
+            "Parcheggiare un camper è una cosa, campeggiarci dentro è un’altra. Puoi aver parcheggiato in regola e allo stesso tempo non avere il diritto di passarci la notte a bordo: è su questa distinzione che si gioca la maggior parte delle multe.",
+            "I limiti di altezza dei parcheggi urbani colgono di sorpresa i camper di continuo, e spesso il primo avviso è la sbarra. Prima di entrare cerca i cartelli con l’altezza massima e usa i parcheggi scoperti o di riserva che la maggior parte delle città mette a disposizione dei veicoli grandi.",
+            "In città la soluzione più pratica è lasciare il veicolo in un campeggio o in un parcheggio scambiatore (park-and-ride) e andare in centro con i mezzi pubblici. È più veloce, costa meno e il problema lo eviti del tutto, invece di doverlo gestire."
           ],
           "tips": []
         },
         {
           "heading": "Traghetti, gallerie e limiti di altezza",
           "body": [
-            "Le tariffe sullo Stretto di Cook dipendono da lunghezza e altezza del veicolo, ed entrambe vengono controllate. Alcune gallerie urbane e ponti vecchi hanno limiti di altezza o di peso, e qualche percorso chiude ai veicoli alti con vento forte.",
-            "Conosci con precisione le tue dimensioni e confrontale con qualsiasi percorso che includa una galleria, un ponte basso o una prenotazione del traghetto. È andare a occhio che porta a un costoso adeguamento al terminal, o peggio in strada."
+            "Sullo Stretto di Cook la tariffa dipende da lunghezza e altezza del veicolo, ed entrambe vengono controllate. Alcune gallerie urbane e alcuni ponti più vecchi hanno limiti di altezza o di peso, e qualche strada chiude ai veicoli alti quando c’è vento forte.",
+            "Conosci le tue misure con precisione e confrontale con qualsiasi percorso che preveda una galleria, un ponte basso o un traghetto da prenotare. È andando a occhio che ci si ritrova con un costoso adeguamento della tariffa al terminal, o con qualcosa di peggio per strada."
           ],
           "tips": [
-            "Il traghetto si paga in base alle dimensioni",
+            "Il traghetto si paga in base alle misure",
             "Conosci altezza e lunghezza esatte",
             "Alcuni percorsi chiudono ai camper alti"
           ]
@@ -2683,12 +2683,12 @@
       ],
       "faq": [
         [
-          "I limiti di velocità sono diversi per un camper?",
-          "Per la maggior parte dei camper e motorhome a noleggio sotto i 3.500 kg no: vale il normale limite fuori dai centri abitati. I veicoli più pesanti e chi traina hanno un limite più basso, e su una strada tortuosa il limite è un massimo, non un obiettivo."
+          "Per i camper i limiti di velocità sono diversi?",
+          "Per la maggior parte dei camper e motorhome a noleggio sotto i 3.500 kg, no: sulle strade extraurbane vale il limite normale. I veicoli più pesanti e chi traina un rimorchio hanno un limite più basso, e su una strada tortuosa il limite è un tetto massimo, non un obiettivo."
         ],
         [
           "Cosa mette in difficoltà chi guida un camper in Nuova Zelanda?",
-          "Altezza e larghezza sulle strade strette, il vento su passi e ponti esposti e la coda che si forma dietro di te. Accostare per lasciar passare è la norma qui ed è la cosa che più riduce il rischio."
+          "Altezza e larghezza sulle strade strette, il vento sui valichi e sui ponti esposti e la coda che tende a formarsi dietro di te. Qui accostare per lasciar passare è quello che tutti si aspettano, ed è la cosa che più di ogni altra riduce il rischio."
         ]
       ],
       "sources": [
@@ -4477,81 +4477,81 @@
     },
     "eating-out-new-zealand-prices-2026": {
       "title": "Mangiare fuori in Nuova Zelanda: prezzi di pasti e caffè nel 2026",
-      "description": "Le fasce di prezzo di caffè, asporto e ristoranti mostrano come un solo pasto comprato possa stravolgere un budget giornaliero.",
-      "region": "Città neozelandesi",
+      "description": "Prezzi di café, cibo da asporto e ristoranti: ecco perché basta un solo pasto comprato fuori per stravolgere il budget di una giornata.",
+      "region": "Città e paesi della Nuova Zelanda",
       "imageAlt": "Pasto e caffè in un locale neozelandese",
-      "intro": "Mangiare fuori va dal pranzo in panetteria alla cena di tre portate in città. I dati nazionali danno una scala utile, anche se singoli locali e località turistiche possono uscire da queste fasce.",
+      "intro": "Mangiare fuori può voler dire un pranzo in panetteria come una cena di tre portate in città. I dati nazionali danno un ordine di grandezza utile, ma singoli locali e località turistiche possono uscire da queste fasce.",
       "sections": [
         {
-          "heading": "Scegli il pasto che conta",
+          "heading": "Scegli il pasto su cui puntare",
           "body": [
-            "Compra il necessario per colazione e pranzo in viaggio, poi spendi consapevolmente per una cena locale. Così il cibo pronto non diventa un costo imprevisto tre volte al giorno.",
-            "Panetterie, food court e banconi da asporto offrono una via di mezzo, ma confronta porzione e valore nutrizionale, non solo il prezzo."
+            "Compra gli ingredienti per la colazione e per i pranzi in viaggio, poi concediti, per scelta, una cena in un locale del posto. Così il cibo pronto non diventa una spesa non prevista, tre volte al giorno.",
+            "Panetterie, food court e banconi da asporto possono essere una via di mezzo, ma confronta porzioni e valori nutrizionali, non solo il prezzo."
           ],
           "tips": []
         },
         {
-          "heading": "Il luogo cambia il conto",
+          "heading": "Il posto cambia il conto",
           "body": [
-            "Lungomari, località sciistiche e attrazioni isolate possono far pagare più dei quartieri residenziali. Il sovrapprezzo può comunque valere se ti evita un parcheggio o un altro tragitto.",
-            "Quando il budget è stretto, guarda il menu prima di sederti. Possono esserci supplementi nei giorni festivi, che devono essere indicati."
+            "Sul lungomare, nelle località sciistiche e vicino alle attrazioni isolate si può pagare più che nei centri di quartiere. Il sovrapprezzo può comunque valere se ti risparmia un parcheggio o un altro tragitto in auto.",
+            "Se il budget è stretto, guarda il menu prima di sederti. Nei giorni festivi può esserci un supplemento, che dev’essere indicato."
           ],
           "tips": []
         },
         {
-          "heading": "Annota il costo completo dell’uscita",
+          "heading": "Conta il costo di tutta l’uscita",
           "body": [
-            "Aggiungi al pasto bevande, trasporto, parcheggio ed eventuale sovrapprezzo per la carta. Un ristorante in teoria economico dall’altra parte della città può costare più che andare a piedi in uno un po’ più caro.",
-            "Tieni la spesa al ristorante separata da quella al supermercato, così resta chiaro da dove viene uno sforamento del budget."
+            "Al pasto aggiungi bevande, trasporto, parcheggio ed eventuale supplemento per il pagamento con carta. Un ristorante in teoria economico dall’altra parte della città può costare più di uno un po’ più caro che raggiungi a piedi.",
+            "Tieni le spese al ristorante separate da quelle al supermercato, così vedi subito da dove arriva uno sforamento del budget."
           ],
           "tips": []
         },
         {
-          "heading": "Dove stanno davvero i prezzi",
+          "heading": "Quanto si spende davvero",
           "body": [
-            "Una pie della panetteria e un caffè sono un pranzo davvero economico, disponibile in quasi ogni città. Il brunch al caffè è la spesa media più comune e sale più in fretta di quanto si pensi. Una cena al ristorante con bevande è spesso la voce più grossa della giornata, prima ancora dell’alloggio.",
-            "Il fish and chips resta il pasto caldo con il miglior rapporto qualità-prezzo nella maggior parte delle località costiere, e di solito la qualità è migliore in quelle più piccole. Ordinare al bancone e mangiare fuori costa una frazione del servizio al tavolo per un pasto simile."
+            "Una pie in panetteria (il tortino salato ripieno, un classico neozelandese) e un caffè sono un pranzo davvero economico, e li trovi in quasi ogni paese. Il brunch al café è la spesa intermedia più comune e sale più in fretta di quanto si pensi. Una cena al ristorante con le bevande è spesso la voce più pesante della giornata, più dell’alloggio.",
+            "Nella maggior parte delle località di mare il fish and chips resta il pasto caldo più conveniente, e di solito nei paesi più piccoli è anche più buono. Ordinare al bancone e mangiare all’aperto costa una frazione del servizio al tavolo, per un pasto simile."
           ],
           "tips": []
         },
         {
-          "heading": "Supplementi e commissioni di pagamento",
+          "heading": "Supplementi e costi del pagamento con carta",
           "body": [
-            "I supplementi nei giorni festivi sono legali e comuni, di solito intorno al quindici per cento, e devono essere comunicati. In molti locali c’è anche un sovrapprezzo per la carta, soprattutto per carte di credito e pagamenti contactless, che viene applicato alla cassa e non compare sul menu.",
-            "In Nuova Zelanda la mancia non è prevista e nessuno ti giudicherà se non la lasci. Alcuni locali ora propongono la mancia sul terminale di pagamento, un’abitudine importata di recente più che una norma locale."
+            "I supplementi nei giorni festivi sono legali e diffusi, di solito intorno al quindici per cento, e devono essere dichiarati. In molti locali c’è anche un supplemento per la carta, soprattutto di credito e per i pagamenti contactless, che viene aggiunto alla cassa e non compare sul menu.",
+            "In Nuova Zelanda la mancia non è prevista e nessuno penserà male di te se non la lasci. Alcuni locali ora te la propongono sul POS al momento di pagare: un’abitudine importata di recente, non una consuetudine locale."
           ],
           "tips": [
             "I supplementi festivi sono normali",
-            "Le commissioni sulla carta compaiono alla cassa",
+            "Il supplemento per la carta compare alla cassa",
             "La mancia non è prevista"
           ]
         },
         {
           "heading": "Mangiare bene in una località turistica",
           "body": [
-            "Queenstown, Wānaka, Taupō e Paihia hanno tutte un sovrapprezzo turistico, e i ristoranti direttamente sul lungomare sono di solito i più cari e raramente i migliori. Spostandosi di due strade si trova spesso cibo migliore a un prezzo più basso.",
-            "I menu del pranzo dei buoni ristoranti offrono spesso gran parte dell’esperienza serale per molto meno. Se vuoi un pasto memorabile in una località cara, prenotalo a pranzo."
+            "A Queenstown, Wānaka, Taupō e Paihia i prezzi sono gonfiati dal turismo, e i ristoranti direttamente sul lungomare sono di solito i più cari e raramente i migliori. Spostandoti di un paio di vie verso l’interno, di solito mangi meglio e spendi meno.",
+            "Nei buoni ristoranti il menu del pranzo offre spesso quasi la stessa esperienza della cena per molto meno. Se in una località cara vuoi concederti un pasto da ricordare, prenotalo a pranzo."
           ],
           "tips": []
         },
         {
           "heading": "Quando mangiare fuori vale la spesa",
           "body": [
-            "Spendi consapevolmente per pasti legati al luogo: aragosta a Kaikōura, whitebait sulla West Coast in stagione, ostriche di Bluff al sud, un pranzo in cantina a Hawke’s Bay. Sono cose che non puoi cucinare in un camper e che ricorderai.",
-            "Nei giorni di trasferimento, quando arrivi tardi e riparti presto e il pasto serve a fare il pieno di energie più che a vivere un’esperienza, usa una spesa semplice. Questo schema ti regala i pasti buoni senza rendere costosa ogni giornata."
+            "Spendi di proposito per i pasti legati al luogo: l’aragosta a Kaikōura, il whitebait (pesciolini simili ai nostri bianchetti) sulla West Coast in stagione, le ostriche di Bluff al sud, un pranzo in una cantina di Hawke’s Bay. Sono cose che in un van non puoi cucinare e che ricorderai.",
+            "Nei giorni di trasferimento, quando arrivi tardi e riparti presto e il pasto serve a ricaricarti più che a vivere un’esperienza, cucina qualcosa di semplice con la spesa. Così ti puoi permettere i pasti buoni senza che ogni giornata diventi cara."
           ],
           "tips": [
-            "Spendi per il cibo tipico della regione",
+            "Spendi per i piatti tipici della zona",
             "Spesa semplice nei giorni di trasferimento",
-            "Il menu del pranzo batte i prezzi della cena"
+            "Il menu del pranzo costa meno della cena"
           ]
         },
         {
           "heading": "Le panetterie e la questione della pie carne e formaggio",
           "body": [
-            "La pie della panetteria è il pasto caldo più economico del paese e un vero pezzo di cultura, con un concorso nazionale annuale preso molto più sul serio di quanto immagini chi viene da fuori. Le panetterie dei piccoli centri battono spesso quelle di città.",
-            "Il fish and chips ordinato al bancone e mangiato fuori è l’altro pasto economico affidabile, e la qualità è di solito più alta nelle località costiere che in città. Chiedi qual è il pesce del giorno invece di ordinare a caso.",
-            "I caffè di solito smettono di servire cibo prima di quanto si aspettino i visitatori, spesso a metà pomeriggio, e nei piccoli centri dopo le 20 può non esserci più nulla di aperto. Avere qualcosa da cucinare evita che un arrivo tardivo si trasformi in una cena costosa o saltata."
+            "La pie della panetteria è il pasto caldo più economico del Paese e un pezzo vero della cultura locale, con un concorso nazionale annuale preso molto più sul serio di quanto si aspetterebbe chi viene da fuori. Le panetterie dei piccoli centri battono spesso quelle di città.",
+            "Il fish and chips ordinato al bancone e mangiato all’aperto è l’altro pasto economico su cui contare, e di solito nelle località di mare è più buono che in città. Chiedi qual è il pesce del giorno, invece di ordinare il pesce generico.",
+            "I café di solito smettono di servire da mangiare prima di quanto si aspetti chi viene da fuori, spesso a metà pomeriggio, e nei piccoli centri dopo le 20 può non esserci più niente di aperto. Avere a bordo qualcosa da cucinare evita che un arrivo tardi si trasformi in una cena cara o in nessuna cena."
           ],
           "tips": []
         }
@@ -4559,11 +4559,11 @@
       "faq": [
         [
           "Quanto costa mangiare fuori in Nuova Zelanda?",
-          "La guida riporta prezzi datati per un brunch al caffè, un pasto al pub, una cena di fascia media e un piatto da asporto, in dollari neozelandesi e convertiti in dieci valute. Il salto tra un caffè e un ristorante qui è più marcato che nella maggior parte dei paesi."
+          "La guida riporta prezzi con la data di rilevazione per un brunch al café, un pasto al pub, una cena di fascia media e un piatto da asporto, in dollari neozelandesi e convertiti in dieci valute. Qui il salto di prezzo tra un café e un ristorante è più netto che nella maggior parte dei Paesi."
         ],
         [
           "In Nuova Zelanda si lascia la mancia?",
-          "No. La mancia non è prevista, i prezzi non sono calcolati contando su di essa e in un conto normale non c’è coperto né servizio."
+          "No. La mancia non è prevista, i prezzi non sono calcolati contando su di essa e in un conto normale non c’è nessuna voce per il servizio."
         ]
       ],
       "sources": [
@@ -4575,11 +4575,11 @@
         }
       ],
       "priceTable": {
-        "note": "Fasce neozelandesi raccolte dalla comunità, aggiornate a giugno 2026. In genere la mancia non è obbligatoria, ma possono applicarsi sovrapprezzi per la carta e tariffe festive.",
+        "note": "Fasce di prezzo neozelandesi inserite dagli utenti, aggiornate a giugno 2026. In genere la mancia non è obbligatoria, ma possono esserci supplementi per la carta e prezzi maggiorati nei giorni festivi.",
         "rows": [
           {
             "label": "Pasto in un ristorante economico",
-            "unit": "una persona"
+            "unit": "a persona"
           },
           {
             "label": "Menu fast food",
@@ -4601,82 +4601,82 @@
       }
     },
     "new-zealand-road-trip-fuel-cost-2026": {
-      "title": "I costi del carburante per un viaggio on the road in Nuova Zelanda nel 2026",
-      "description": "Usa la distanza e i litri ogni 100 chilometri con il riferimento nazionale ufficiale attuale per la benzina.",
+      "title": "Carburante in Nuova Zelanda nel 2026: quanto costa un road trip",
+      "description": "Calcola la spesa con i chilometri, i litri ogni 100 chilometri e l’attuale prezzo ufficiale di riferimento della benzina a livello nazionale.",
       "region": "Strade della Nuova Zelanda",
-      "imageAlt": "Camper che fa rifornimento durante un viaggio in Nuova Zelanda",
-      "intro": "Il carburante trasforma la progettazione dell’itinerario in un costo misurabile. Il 26 luglio 2026 il prezzo esposto di riferimento nazionale del MBIE per la benzina normale 91 era di 2,96 $ al litro, dopo un anno insolitamente volatile.",
+      "imageAlt": "Camper che fa rifornimento durante un road trip in Nuova Zelanda",
+      "intro": "È con il carburante che un itinerario diventa un costo misurabile. Il 26 luglio 2026, dopo un anno insolitamente volatile, il prezzo nazionale di riferimento alla pompa calcolato dal MBIE (il ministero neozelandese delle imprese, dell’innovazione e del lavoro) per la benzina normale 91 era di 2,96 $ al litro.",
       "sections": [
         {
-          "heading": "Fai il calcolo sul veicolo reale",
+          "heading": "Fai i conti sul tuo veicolo",
           "body": [
-            "Moltiplica i chilometri per i litri ogni 100 chilometri, dividi per 100 e poi moltiplica per il prezzo al litro. Usa il consumo probabile del camper carico, non la media di un’utilitaria.",
-            "Aggiungi deviazioni e spostamenti locali. Un percorso di 2.000 chilometri può generarne qualche centinaio in più tra campeggi, negozi e punti panoramici."
+            "Moltiplica i chilometri per i litri ogni 100 chilometri, dividi per 100 e moltiplica per il prezzo al litro. Usa il consumo probabile del camper a pieno carico, non la media di un’utilitaria.",
+            "Aggiungi le deviazioni e i giri sul posto. Su un percorso di 2.000 chilometri, tra campeggi, spesa e punti panoramici, si accumula facilmente qualche centinaio di chilometri in più."
           ],
           "tips": []
         },
         {
-          "heading": "Tieni conto della geografia",
+          "heading": "Fai i conti con la geografia",
           "body": [
-            "I distributori isolati e le direttrici turistiche possono superare il riferimento nazionale. Fai il pieno prima dei lunghi tratti senza distributori e non saltare un distributore affidabile per un piccolo risparmio sperato.",
-            "Vento contrario, strade di montagna, attrezzatura sul tetto e carico aumentano i consumi. Aggiorna la stima dopo i primi due pieni."
+            "Nei distributori isolati e lungo le rotte più turistiche il prezzo può superare il riferimento nazionale. Fai il pieno prima dei lunghi tratti senza distributori e non tirare dritto davanti a un distributore affidabile per inseguire un piccolo risparmio.",
+            "Vento contrario, strade di montagna, carico sul tetto e peso a bordo fanno salire i consumi. Aggiorna la stima dopo i primi due pieni."
           ],
           "tips": []
         },
         {
-          "heading": "Prendi sul serio la volatilità",
+          "heading": "Non sottovalutare la volatilità",
           "body": [
-            "Stats NZ ha registrato un aumento del 20,1% dei prezzi della benzina nel trimestre di giugno 2026, mentre il MBIE ha segnalato una volatilità insolita sui mercati internazionali. Una cifra vecchia può sottostimare in fretta il percorso.",
-            "Usa il calcolatore del carburante con il prezzo esposto di oggi e tieni un margine per la tappa isolata."
+            "Stats NZ (l’istituto di statistica neozelandese) ha registrato un aumento del 20,1% dei prezzi della benzina nel trimestre chiuso a giugno 2026, mentre il MBIE segnalava una volatilità insolita sui mercati internazionali. Un dato vecchio può farti sottostimare in fretta il costo del percorso.",
+            "Usa il calcolatore del carburante con il prezzo alla pompa di oggi e tieni un margine per la tratta isolata."
           ],
           "tips": []
         },
         {
           "heading": "Benzina, gasolio e road user charges",
           "body": [
-            "Il gasolio costa meno al litro alla pompa, ma i veicoli diesel pagano a parte le road user charges (RUC), acquistate in anticipo ogni mille chilometri. Se noleggi, verifica se le RUC sono incluse nella tariffa giornaliera o fatturate alla fine, perché cambiano in modo sostanziale il confronto con la benzina.",
-            "Per un veicolo privato le RUC devono coprire la distanza percorsa e vengono controllate. Acquistarle è semplice, online o tramite un agente autorizzato, e superare la distanza pagata comporta una sanzione."
+            "Alla pompa il gasolio costa meno al litro, ma i veicoli diesel pagano a parte le road user charges (RUC, una tassa sull’uso delle strade), che si comprano in anticipo a blocchi di mille chilometri. Se noleggi, chiedi se le RUC sono comprese nella tariffa giornaliera o addebitate alla fine, perché cambiano parecchio il confronto con la benzina.",
+            "Con un veicolo privato, le RUC devono coprire i chilometri che percorri, e i controlli ci sono. Si comprano senza problemi online o presso un agente autorizzato, e superare la distanza pagata comporta una multa."
           ],
           "tips": [
-            "Il diesel paga le RUC oltre al carburante",
+            "Col diesel paghi anche le RUC, oltre al carburante",
             "Chiedi se il noleggio include le RUC",
-            "Tieni le RUC avanti rispetto al contachilometri"
+            "RUC sempre in anticipo sul contachilometri"
           ]
         },
         {
           "heading": "Dove il carburante costa di più",
           "body": [
-            "I prezzi sono più bassi nei centri principali e intorno ai distributori periferici in concorrenza, e più alti nei tratti isolati con un solo gestore. West Coast, Fiordland, East Cape, Otago interno ed estremo nord hanno tutti un sovrapprezzo, a volte consistente.",
-            "Quel sovrapprezzo non è un motivo per viaggiare con il serbatoio in riserva. Il costo di venti litri pagati di più è irrisorio rispetto a restare a secco in un posto senza campo, e i distributori più cari sono di solito quelli senza concorrenti per cento chilometri."
+            "I prezzi sono più bassi nelle città principali e nei distributori di periferia in concorrenza tra loro, e più alti nei tratti isolati con un solo gestore. West Coast, Fiordland, East Cape, l’interno dell’Otago e l’estremo nord hanno tutti un sovrapprezzo, a volte pesante.",
+            "Questo sovrapprezzo non è un buon motivo per viaggiare in riserva. Pagare venti litri un po’ di più costa pochissimo rispetto a restare a secco in un posto senza campo, e i distributori più cari sono di solito quelli che non hanno concorrenti per cento chilometri."
           ],
           "tips": []
         },
         {
-          "heading": "Cosa cambia davvero i consumi",
+          "heading": "Cosa incide davvero sui consumi",
           "body": [
-            "Carico, box sul tetto, vento contrario, salite lunghe e velocità contano tutti, e un camper carico contro il nor’wester del Canterbury può consumare un quarto in più del dato della brochure. L’aria condizionata incide poco; tenere il motore acceso per il riscaldamento incide più di quanto si pensi.",
-            "La pressione delle gomme conta e va regolata per il veicolo carico, non vuoto. I camper a noleggio arrivano spesso con le gomme sgonfie, il che costa carburante e tenuta di strada insieme."
+            "Carico, box sul tetto, vento contrario, salite lunghe e velocità contano tutti, e un camper carico che affronta il nor’wester, il vento da nord-ovest del Canterbury, può consumare un quarto in più del dato dichiarato. L’aria condizionata incide poco; lasciare il motore acceso per il riscaldamento incide più di quanto si pensi.",
+            "La pressione delle gomme conta e va regolata per il veicolo carico, non vuoto. I camper a noleggio arrivano spesso con le gomme sgonfie, e questo costa carburante e tenuta di strada allo stesso tempo."
           ],
           "tips": [
-            "Regola la pressione per il veicolo carico",
-            "Il vento contrario costa più del condizionatore",
-            "I box sul tetto costano cari in velocità"
+            "Pressione delle gomme per il veicolo carico",
+            "Il vento contrario costa più dell’aria condizionata",
+            "In velocità il box sul tetto si paga caro"
           ]
         },
         {
-          "heading": "Ridurre il conto senza accorciare il viaggio",
+          "heading": "Spendere meno senza accorciare il viaggio",
           "body": [
-            "Il risparmio più grande sono i chilometri inutili in meno. Raggruppare le tappe vicine, evitare di tornare indietro e accettare che in dieci giorni non si vedono bene entrambe le isole fa risparmiare più di qualsiasi tecnica di guida attenta.",
-            "Dopo di che, velocità costante e frenate anticipate aiutano un po’. Non aiuta invece andare in folle, di fatto illegale oltre che pericoloso, né trasportare carburante in contenitori inadatti."
+            "Il risparmio più grande è fare meno chilometri inutili. Raggruppare le tappe vicine, non tornare sui propri passi e accettare che in dieci giorni non si vedono bene tutte e due le isole fa risparmiare più di qualunque accorgimento nella guida.",
+            "Dopo, una velocità costante e frenate anticipate aiutano un po’. Non aiuta invece procedere in folle, che di fatto è illegale oltre che pericoloso, né portarsi dietro carburante in contenitori non adatti."
           ],
           "tips": []
         },
         {
-          "heading": "Programmi fedeltà e dove fare il pieno",
+          "heading": "Sconti fedeltà e dove fare il pieno",
           "body": [
-            "I principali distributori di carburante hanno sconti legati alla spesa al supermercato, e i buoni si sommano ad alcune offerte delle carte. In un viaggio lungo fanno un risparmio reale, ma mai tale da giustificare il superamento dell’ultimo distributore prima di una tappa isolata.",
-            "I distributori automatici senza personale sono comuni nei piccoli centri e di solito più economici, ma alcuni rifiutano le carte straniere. Tieni una carta di riserva e non arrivare a uno di questi a tarda sera con il serbatoio vuoto sperando che funzioni.",
-            "I prezzi variano sensibilmente tra una città e l’altra anche nella stessa regione. Nei centri principali conviene fare il pieno prima di uscire invece che all’ultimo distributore di periferia, spesso il più caro del percorso."
+            "Le principali catene di distributori hanno sconti legati alla spesa al supermercato, e i buoni si possono cumulare con alcune offerte delle carte. In un viaggio lungo il risparmio è reale, ma mai abbastanza da farti saltare l’ultimo distributore prima di una tratta isolata.",
+            "Nei piccoli centri sono comuni i distributori automatici senza personale, di solito più economici, ma alcuni non accettano le carte straniere. Tieni una carta di riserva e non arrivarci a tarda sera con il serbatoio vuoto contando che funzioni.",
+            "I prezzi cambiano parecchio da una città all’altra, anche nella stessa regione. Nelle città principali conviene fare il pieno prima di uscire, non all’ultimo distributore di periferia, che spesso è il più caro di tutto il percorso."
           ],
           "tips": []
         }
@@ -4684,29 +4684,29 @@
       "faq": [
         [
           "Quanto costa il carburante in Nuova Zelanda?",
-          "La guida riporta un prezzo al litro datato per benzina e gasolio e lo applica a percorsi reali. Nelle zone isolate i prezzi salgono sensibilmente, e i veicoli diesel pagano anche le road user charges, che spesso ci si dimentica di mettere in budget."
+          "La guida riporta un prezzo al litro di benzina e gasolio, con la data di rilevazione, e lo applica a percorsi reali. Nelle zone isolate i prezzi salgono parecchio, e i veicoli diesel pagano anche le road user charges, che molti si dimenticano di mettere in budget."
         ],
         [
-          "Come si stima il carburante per un viaggio on the road in Nuova Zelanda?",
-          "Prendi la distanza del percorso, aggiungi un terzo per deviazioni e dislivelli, poi applica il consumo reale del tuo veicolo e non quello della brochure. Un camper controvento su una statale collinare non rispetterà i consumi dichiarati."
+          "Come stimare il carburante per un road trip in Nuova Zelanda?",
+          "Prendi la distanza del percorso, aggiungi un terzo per deviazioni e dislivelli, poi fai il conto con il consumo reale del tuo veicolo, non con quello della brochure. Un camper controvento su una statale collinare non raggiungerà i consumi dichiarati."
         ]
       ],
       "sources": [
         {
-          "label": "MBIE: monitoraggio settimanale dei prezzi del carburante"
+          "label": "MBIE: monitoraggio settimanale dei prezzi dei carburanti"
         },
         {
-          "label": "MBIE: prezzo esposto di riferimento"
+          "label": "MBIE: prezzo di riferimento alla pompa (fuel response)"
         },
         {
           "label": "Reserve Bank of New Zealand: tassi di cambio"
         }
       ],
       "priceTable": {
-        "note": "Il riferimento per la benzina è il dato ufficiale del MBIE per la settimana terminata il 26 luglio 2026. Gli esempi di percorso sono calcoli meccanici, senza le variazioni di prezzo delle zone isolate.",
+        "note": "Il riferimento per la benzina è il dato ufficiale del MBIE per la settimana chiusa il 26 luglio 2026. Gli esempi di percorso sono semplici calcoli, senza le variazioni di prezzo delle zone isolate.",
         "rows": [
           {
-            "label": "Benzina normale 91",
+            "label": "Benzina normale (91 ottani)",
             "unit": "al litro"
           },
           {
