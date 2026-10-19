@@ -31,6 +31,7 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 - Fact-check E done by this session (verdict docs/growth/factcheck/k-content-E-fuel-dump-dogs.md); one fix (MBIE week date 9 Oct).
 - Hub links: optional `hubs` field + English-only "Browse by region" block in GuideArticle (indexable hubs only). Added to DOC, freedom-camping, where-to-camp and 17 regional road trips. Commit bec9669. In legacy files `hubs` must come after `legacyPath` (audit regex).
 - content:check: only the known number-gate blocker fails (487 strings, unchanged).
+- Batch 2 (commit 5523a89): scenic campsites rewrite (24 named DOC sites, comparison table with fees/booking checked live on DOC 20 Oct), packing list retitle + MPI section, Cape Reinga / Abel Tasman / 3-week retitles + fact fixes. All five untranslated, so no translation impact. Verdict docs/growth/factcheck/k-content-F-batch2.md.
 
 ## Next
 1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
