@@ -14,7 +14,6 @@
         "nl",
         "pt",
         "ja",
-        "ko",
         "zh-hans",
         "zh-hant",
         "da",
@@ -52,10 +51,6 @@
         {
           "locale": "ja",
           "path": "../lib/translations/ja.json"
-        },
-        {
-          "locale": "ko",
-          "path": "../lib/translations/ko.json"
         },
         {
           "locale": "zh-hans",
@@ -111,6 +106,66 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      }
+    },
+    {
+      "id": "kiwicamping-website-ko",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ko"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "NZD",
+        "DOC",
+        "Aotearoa",
+        "Aoraki",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New Zealand": {
+          "ko": "뉴질랜드"
+        },
+        "holiday park": {
+          "ko": "홀리데이 파크"
+        },
+        "freedom camping": {
+          "ko": "프리덤 캠핑"
+        },
+        "self-contained": {
+          "ko": "셀프 컨테인드"
+        },
+        "dump station": {
+          "ko": "덤프 스테이션"
+        },
+        "Great Walk": {
+          "ko": "그레이트 워크"
+        },
+        "North Island": {
+          "ko": "북섬"
+        },
+        "South Island": {
+          "ko": "남섬"
+        },
+        "working holiday": {
+          "ko": "워킹홀리데이"
+        }
+      },
+      "styleGuide": {
+        "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms (북섬, 남섬, 퀸스타운) with Māori originals and macrons in parentheses on first mention, never bare 덤프, never 오프라인 지도."
       }
     }
   ]
