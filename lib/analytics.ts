@@ -109,6 +109,7 @@ d.addEventListener('click',function(e){var open=e.target&&e.target.closest?e.tar
 if(ask)show()}
 function boot(){
 var page=context();page.content_group=page.guide_category||page.page_kind||'other';
+gtag('set',page);
 gtag('event','page_view',page);
 consentBar()}
 if(d.readyState==='loading')d.addEventListener('DOMContentLoaded',boot);else boot();

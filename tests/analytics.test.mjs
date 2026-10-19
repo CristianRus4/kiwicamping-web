@@ -60,7 +60,9 @@ test("consent defaults come first, then the config with signals and ad personali
   assert.equal(page.appended[0].async, true);
   // The page view waits for <main>, then carries its labels.
   page.fire("DOMContentLoaded");
-  assert.deepEqual(page.calls().at(-1), ["event", "page_view", { page_kind: "guide", site_locale: "de", guide_slug: "doc-hut-rules-etiquette", guide_category: "Rules & safety", content_group: "Rules & safety" }]);
+  const labels = { page_kind: "guide", site_locale: "de", guide_slug: "doc-hut-rules-etiquette", guide_category: "Rules & safety", content_group: "Rules & safety" };
+  assert.deepEqual(page.calls().at(-2), ["set", labels], "page labels are set for every later event, not only the page view");
+  assert.deepEqual(page.calls().at(-1), ["event", "page_view", labels]);
 });
 
 test("a visitor in a European time zone is asked, and stays denied until they answer", () => {
@@ -119,6 +121,7 @@ test("blocked storage, a missing <main> and a missing bar never break the page",
   assert.deepEqual(blocked.calls().at(-1), ["consent", "update", { analytics_storage: "granted" }], "the choice still applies for this page");
 
   const bare = run({ main: null, bar: false, readyState: "complete" });
+  assert.deepEqual(bare.calls().at(-2), ["set", { content_group: "other" }]);
   assert.deepEqual(bare.calls().at(-1), ["event", "page_view", { content_group: "other" }]);
   assert.equal(typeof bare.window.acTrack, "function");
 });

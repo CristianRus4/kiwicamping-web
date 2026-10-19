@@ -156,7 +156,7 @@ test("every App Store link carries its placement and campaign",async()=>{
       assert.equal(url.searchParams.get("pt"),APPLE_PROVIDER_TOKEN,`${path} store link without pt: ${href}`);
       const ct=url.searchParams.get("ct")??"";
       assert.match(ct,/^w_[a-z]+_[a-z-]+$/,`${path} store link campaign token is malformed: ${ct}`);
-      assert.ok(ct.length<=40,`${path} campaign token longer than 40 characters: ${ct}`);
+      assert.ok(ct.length<=30,`${path} campaign token longer than 30 characters (App Store Connect limit): ${ct}`);
       // The token names the button and the edition it sits on, so a click is attributable.
       if(generated(path))assert.equal(ct,`w_${placement}_${locale}`,`${path} campaign token does not match its placement and locale`);
     }
