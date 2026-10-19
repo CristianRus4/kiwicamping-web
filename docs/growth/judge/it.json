@@ -1,0 +1,117 @@
+{
+ "branch": "i18n/k-it",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 330,
+ "improvedVsOld": "Clearly better overall. The new text follows the style guide glossary: collezioni, Mi piace, Con stella, Da visitare, Segnaposto, tariffe, punto di scarico, rifugi DOC, Stretto di Cook, Isola del Nord/Sud. It uses tu and active verbs throughout, glosses DOC, MBIE, Stats NZ, RUC, honesty box, holiday park, whenua, iwi/hapū and whitebait on first use, and keeps protected names and NZD symbols correct. Most article paragraphs now read like a native travel writer (e.g. 'prima di infilarci il van', 'arriva con la luce', 'mettere in bolla il veicolo'). Three units are worse than the old text: the privacy children clause, terms 'sistemazione' and the 'pesce generico' line. A few headings and eyebrows are still stiff (audiencesEyebrow, featuresTitle, trustDayUse), and 'siti DOC' persists in the meta title and guides description.",
+ "criticalIssues": [
+  "No critical translation defects: no em dashes, no offline-map claims, all numbers, prices, times, placeholders and markup are intact, and the macrons are correct (Wānaka, Taupō, Kaikōura, hapū, Māori). 'consultabili offline' mirrors the English 'offline place details' and never calls the app an offline map. 'mappa campeggi offline' in metaKeywords was correctly changed to 'app campeggi offline'.",
+  "This needs a rebase, and it is not caused by this branch. i18n/k-it was cut at d3de92b, before origin/main 8e4aa1e added GA4 and Consent Mode. On origin/main, en.json now has a 'Website analytics' privacy section (4 paragraphs), a renumbered privacy section list, a new 'effective' date and 6 consent.* banner strings. it.json lacks all of these, on main as well as on this branch. Once merged, the Italian privacy page will still be one section out of step with English: Italian section 4 is 'Conservazione e controllo', where English section 4 is 'Website analytics'. It will also have no GA4 disclosure and no Italian consent banner strings, so Italian visitors see a GDPR gap. Rebase onto origin/main and translate consent.* and pages.privacy.sections[4] (GA4) before or right after merging.",
+  "Three units got worse than the old text: pages.privacy 'Children and contact' (the new wording contradicts itself), pages.terms.sections[1] ('sistemazione' for setup) and eating-out sections[7].body[1] ('pesce generico'). Overall the new text is clearly better than the old. It moves raccolte to collezioni, Lei-style passives to tu, and adds glosses for DOC, MBIE, RUC, honesty box, holiday park, whitebait and pie, all in line with the guide."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[5].paragraphs[0] (on the branch's own en: 'Children and contact')",
+   "current": "KiwiCamping è uno strumento di viaggio per tutti e non è rivolto ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
+   "problem": "This is a regression from the old text. 'general travel utility' became 'per tutti' (for everyone), which contradicts 'non è rivolto ai minori' in the same sentence of a legal page. The old 'generico' was correct.",
+   "suggested": "KiwiCamping è un’app di viaggio per uso generale e non è rivolta ai minori. Non inviare dati personali di un minore tramite l’assistenza."
+  },
+  {
+   "key": "ui.audiencesEyebrow",
+   "current": "Comunque ti porti dietro la casa",
+   "problem": "Stiff calque of 'However you carry home'. A reader first takes 'Comunque' as 'anyway', and the line does not sound like Italian.",
+   "suggested": "Qualunque sia la tua casa su ruote"
+  },
+  {
+   "key": "ui.metaTitle",
+   "current": "KiwiCamping: mappa campeggi, siti DOC e itinerari in Nuova Zelanda",
+   "problem": "An Italian reads 'siti DOC' as wine DOC or as websites. The style guide's term is 'campeggi DOC'. 'itinerari' also drops the planner idea, and this title leads the SERP.",
+   "suggested": "KiwiCamping: mappa dei campeggi DOC e road trip in Nuova Zelanda"
+  },
+  {
+   "key": "ui.metaGuidesDescription",
+   "current": "Regole del campeggio, freedom camping e requisiti self-contained, siti DOC, stagioni, costi veri e consigli pratici per un viaggio on the road in Nuova Zelanda.",
+   "problem": "It uses the 'siti DOC' calque again, against the glossary's 'campeggi DOC'.",
+   "suggested": "Regole del campeggio, freedom camping e requisiti self-contained, campeggi DOC, stagioni, costi reali e consigli pratici per un viaggio on the road in Nuova Zelanda."
+  },
+  {
+   "key": "ui.trustDayUse (also ui.faq2a 'aree attrezzate per il giorno')",
+   "current": "Aree attrezzate per il giorno",
+   "problem": "Italian does not say 'aree attrezzate per il giorno'. It reads as translated.",
+   "suggested": "Aree di sosta diurna (in faq2a: 'aree di sosta diurna')"
+  },
+  {
+   "key": "ui.featuresTitle",
+   "current": "Trova, salva e pianifica tutta la strada.",
+   "problem": "'Pianificare la strada' is a literal rendering of 'plan the whole road ahead'. You plan the trip, not the road.",
+   "suggested": "Trova, salva e pianifica tutto il viaggio."
+  },
+  {
+   "key": "ui.audiencesTitle",
+   "current": "Per chi viaggia in tenda, in van o fa il giro completo.",
+   "problem": "'il giro completo' of what? 'big laps' needs an object in Italian. The line is unclear.",
+   "suggested": "Per chi viaggia in tenda, in van o fa il giro di tutta la Nuova Zelanda."
+  },
+  {
+   "key": "articles.campervan-road-rules-new-zealand.sections[2].body[1]",
+   "current": "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado dall’esito incerto. Farti tirare fuori dal carro attrezzi dopo non è un piano: prima assicurati di passarci.",
+   "problem": "Clunky. It uses the banned 'assicurati di' reflex, adds an idea the source does not have ('non è un piano'), and 'passarci' is vague.",
+   "suggested": "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado dall’esito incerto. Il carro attrezzi non sostituisce un controllo fatto prima: verifica che il mezzo ci passi."
+  },
+  {
+   "key": "articles.campervan-road-rules-new-zealand.sections[5].tips[2]",
+   "current": "Camion e trincee provocano colpi di vento improvvisi",
+   "problem": "Standing alone in a tip, 'trincee' first reads as war trenches. Road cuttings need a qualifier.",
+   "suggested": "Camion e tratti in trincea: occhio alle raffiche improvvise"
+  },
+  {
+   "key": "articles.new-zealand-travel-cost-2026.sections[4].body[1]",
+   "current": "Se il budget è stretto, un viaggio più lento nell’Isola del Nord (North Island) costa in genere meno al giorno dell’itinerario equivalente nell’Isola del Sud (South Island). Se invece il budget è fisso e hai poco tempo, è la South Island a ripagare la spesa in modo più evidente.",
+   "problem": "The unit glosses both islands and then switches to bare 'la South Island'. That mixes the conventions within one paragraph, and the style guide says to use 'Isola del Sud' after the first gloss.",
+   "suggested": "…nell’Isola del Sud (South Island). Se invece il budget è fisso e hai poco tempo, è l’Isola del Sud a ripagare la spesa in modo più evidente."
+  },
+  {
+   "key": "articles.eating-out-new-zealand-prices-2026.sections[7].body[1]",
+   "current": "…Chiedi qual è il pesce del giorno, invece di ordinare il pesce generico.",
+   "problem": "This is a regression. 'il pesce generico' is unnatural, and the old 'ordinare a caso' was idiomatic.",
+   "suggested": "…Chiedi qual è il pesce del giorno invece di ordinare a caso."
+  },
+  {
+   "key": "articles.eating-out-new-zealand-prices-2026.sections[0].body[0]",
+   "current": "…Così il cibo pronto non diventa una spesa non prevista, tre volte al giorno.",
+   "problem": "The comma before 'tre volte al giorno' breaks the idea, and 'non prevista' after 'non diventa' is heavy.",
+   "suggested": "…Così il cibo pronto non diventa una spesa imprevista da mettere in conto tre volte al giorno."
+  },
+  {
+   "key": "pages.terms.sections[1].paragraphs[0]",
+   "current": "Una scheda non garantisce che un luogo sia aperto, consentito per il tuo tipo di sistemazione, raggiungibile con il tuo mezzo o disponibile.…",
+   "problem": "This is a regression. 'setup' (tent/van/vehicle) became 'sistemazione', which means accommodation. The old 'consentito per il tuo mezzo' was closer.",
+   "suggested": "Una scheda non garantisce che un luogo sia aperto, consentito con il tuo mezzo o la tua attrezzatura, raggiungibile con il tuo veicolo o disponibile.…"
+  },
+  {
+   "key": "pages.support.sections[2].paragraphs[2]",
+   "current": "Parti dalla lista base per il campeggio o crea le tue voci. Con l’avanzamento del viaggio la lista resta accanto all’itinerario, …",
+   "problem": "'Trip progress' is the name of a feature/screen. 'Con l’avanzamento del viaggio' reads as 'as the trip goes on', which changes the meaning.",
+   "suggested": "Parti dalla lista base per il campeggio o crea le tue voci. Nella schermata con i progressi del viaggio la lista sta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
+  },
+  {
+   "key": "articles.new-zealand-road-trip-fuel-cost-2026.description",
+   "current": "Calcola la spesa con i chilometri, i litri ogni 100 chilometri e l’attuale prezzo ufficiale di riferimento della benzina a livello nazionale.",
+   "problem": "The meta description does not lead with the search term (guide section 6), and the chain 'prezzo ufficiale di riferimento della benzina a livello nazionale' is heavy.",
+   "suggested": "Quanto costa la benzina per un road trip in Nuova Zelanda: calcola la spesa con i chilometri, il consumo ogni 100 km e il prezzo ufficiale nazionale."
+  },
+  {
+   "key": "articles.doc-campsite-rules.description",
+   "current": "Prenotazioni, ore di silenzio, rifiuti, animali e regole del singolo sito: cosa conta per un soggiorno nelle aree protette della Nuova Zelanda.",
+   "problem": "'sito' is a calque of 'site'. The glossary term is 'campeggio'. The description should also lead with the search term 'campeggi DOC'.",
+   "suggested": "Campeggi DOC: prenotazioni, ore di silenzio, rifiuti, animali e regole del singolo campeggio nelle aree protette della Nuova Zelanda."
+  },
+  {
+   "key": "pages.terms.sections[2].paragraphs[0]",
+   "current": "…ranger, iwi e hapū (le tribù e i clan māori), …",
+   "problem": "The style guide capitalises Māori. The adjective is lowercased here.",
+   "suggested": "…ranger, iwi e hapū (le tribù e i clan Māori), …"
+  }
+ ]
+}

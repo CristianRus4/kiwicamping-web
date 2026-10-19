@@ -1,0 +1,110 @@
+{
+ "branch": "i18n/k-fr",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 189,
+ "improvedVsOld": "The new text is clearly better than the old. It removes calques (« camp », « check-lists », « Calculettes », « Votre prochain lieu est quelque part dehors », « la table de préparation ») and lines up the app labels with the glossary (« J’ai aimé », « Favoris », « Envie de visiter », « Visité », « Épingles », « tous les lieux enregistrés »). It also replaces most « hors connexion » wording with « lisibles sans réseau / intégrés à l’app », adds the 11 l / 9 l tank-assumption sentence that the old calculatorNote dropped, and fixes ui.fuelTitle, which used to repeat the eyebrow. Glossary terms (aires de vidange, aires de pique-nique, freedom camping glossed in meta, iwi et hapū glossed) and vous-register imperatives are used consistently. The only regressions are ui.driveTitle (the old version was better) and the double non-breaking spaces in saveText and faq5a.",
+ "criticalIssues": [
+  "The French privacy policy has no 'Website analytics' section. English on origin/main has 7 sections, including 4 paragraphs on GA4: the _ga and _ga_* cookies, 13-month expiry, consent for EEA/UK/CH visitors and 14-month retention. French has only 6 sections. app components/localized-site.tsx renders the French sections array as is, so French and EEA visitors get no analytics or cookie disclosure while GA4 runs. The branch was cut before the GA4 commit 8e4aa1e. Rebase it on main, translate pages.privacy.sections[4] (Website analytics, 4 paragraphs) and update pages.privacy.effective to 19 octobre 2026 before merging. Comparing by JSON path is currently misaligned for privacy sections[4] and [5].",
+  "No em dashes, no offline-map claims, no wrong script or characters, and no English left untranslated beyond protected or glossary terms. Brand names, NZD, numbers (6 500, 2 000, 11 l / 9 l) and Māori diacritics (māori, hapū) are intact. Minor note: ui.metaSupportDescription keeps « données hors connexion », which is not a map claim but is inconsistent with « sans réseau » everywhere else; « données consultables sans réseau » would be better."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.effective",
+   "current": "En vigueur depuis le 12 août 2026",
+   "problem": "Wrong date. English on origin/main now says 19 October 2026, because the GA4 privacy update (commit 8e4aa1e) landed after this branch was cut. The French legal date is wrong.",
+   "suggested": "En vigueur depuis le 19 octobre 2026 (only once the analytics section below is translated)"
+  },
+  {
+   "key": "ui.driveTitle",
+   "current": "Combien de temps prend vraiment cette journée.",
+   "problem": "This is a direct question but it ends with a full stop, so it reads like a broken sentence. The old version was better.",
+   "suggested": "Le temps que prend vraiment cette journée."
+  },
+  {
+   "key": "ui.metaTitle",
+   "current": "KiwiCamping : carte camping Nouvelle-Zélande, sites du DOC et road trip",
+   "problem": "At 71 characters it is over the 65-character limit. It stacks keywords with no preposition and drops the planner idea.",
+   "suggested": "KiwiCamping : carte camping en Nouvelle-Zélande, DOC et road trip"
+  },
+  {
+   "key": "ui.metaDescription",
+   "current": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de freedom camping (camping libre) dans toute la Nouvelle-Zélande. Fiches lisibles sans réseau, filtres précis et planificateur de road trip étape par étape, sur iPhone.",
+   "problem": "At 232 characters it is well over the 150 to 160 limit, so Google will cut the selling points.",
+   "suggested": "Plus de 6 500 campings, refuges du DOC, holiday parks et aires de freedom camping en Nouvelle-Zélande. Fiches sans réseau, filtres précis, road trip étape par étape."
+  },
+  {
+   "key": "ui.saveText",
+   "current": "Un cœur, une étoile ou «  Visité », et les collections intelligentes se mettent à jour d’elles-mêmes. …",
+   "problem": "Typography bug: there are two non-breaking spaces after «.",
+   "suggested": "Un cœur, une étoile ou « Visité », et les collections intelligentes se mettent à jour d’elles-mêmes. Créez aussi vos propres listes pour une région, une saison ou une présélection. (one U+00A0 after « and before »)"
+  },
+  {
+   "key": "ui.faq5a",
+   "current": "Les collections intelligentes («  J’ai aimé », «  Favoris », «  Envie de visiter », «  Visité », «  Épingles » et la liste de tous les lieux enregistrés) …",
+   "problem": "The same double non-breaking space after « appears five times.",
+   "suggested": "Les collections intelligentes (« J’ai aimé », « Favoris », « Envie de visiter », « Visité », « Épingles » et la liste de tous les lieux enregistrés) se remplissent toutes seules… (one U+00A0 inside each guillemet)"
+  },
+  {
+   "key": "ui.feature1Text",
+   "current": "« J’ai aimé », « Favoris », « Envie de visiter » et « Visité » se remplissent toutes seules à mesure que vous marquez des lieux. …",
+   "problem": "The subject is a string of quoted labels with a feminine plural agreement that has no noun to agree with. It reads as translated.",
+   "suggested": "Les listes « J’ai aimé », « Favoris », « Envie de visiter » et « Visité » se remplissent toutes seules à mesure que vous marquez des lieux. Ajoutez par-dessus vos propres collections pour une île, une saison ou la présélection dont vous débattez encore."
+  },
+  {
+   "key": "ui.audiencesEyebrow",
+   "current": "Quelle que soit votre maison sur roues",
+   "problem": "Factual drift. « Maison sur roues » leaves out tents, yet the title directly below names tents first.",
+   "suggested": "Tente, van ou caravane"
+  },
+  {
+   "key": "ui.fuelTitle",
+   "current": "Le prix de la distance.",
+   "problem": "Abstract and unidiomatic. A French reader would not understand it as « how much will the fuel cost ».",
+   "suggested": "Chiffrez le carburant du trajet."
+  },
+  {
+   "key": "ui.takeRoad",
+   "current": "Partez avec votre plan",
+   "problem": "« Votre plan » is vague and sounds odd as a CTA eyebrow.",
+   "suggested": "Votre voyage dans la poche"
+  },
+  {
+   "key": "ui.footerLine",
+   "current": "Pensée pour la Nouvelle-Zélande, par le chemin des écoliers.",
+   "problem": "The idiom is good, but the sentence is ambiguous: it can read as « designed by taking the long way ». The feminine participle also has no visible subject.",
+   "suggested": "Pour faire le tour de la Nouvelle-Zélande par le chemin des écoliers."
+  },
+  {
+   "key": "ui.tripPlanning",
+   "current": "Préparer son voyage",
+   "problem": "This is a guide category chip shown next to noun-phrase siblings (Règles et sécurité, Coûts et budget). The verb phrase with « son » breaks the pattern and the vous register.",
+   "suggested": "Préparation du voyage"
+  },
+  {
+   "key": "ui.guidesTitle",
+   "current": "Suivez la route vers un bel endroit.",
+   "problem": "Literal and flat for an H1. It reads as translated.",
+   "suggested": "Suivez la route jusqu’aux beaux coins."
+  },
+  {
+   "key": "ui.faq6q",
+   "current": "Puis-je filtrer les campings gratuits ou les sites réservés aux véhicules self-contained ?",
+   "problem": "The style guide requires a gloss the first time self-contained appears on a page, and this is its first appearance on the home page.",
+   "suggested": "Puis-je filtrer les campings gratuits ou les sites réservés aux véhicules certifiés self-contained (autonomes) ?"
+  },
+  {
+   "key": "pages.privacy.sections[3].paragraphs[0]",
+   "current": "Depuis la fiche d’un lieu, vous pouvez ouvrir des sites de réservation, des sites web, des profils sur les réseaux sociaux…",
+   "problem": "« des sites de réservation, des sites web » repeats « sites » and is clumsy.",
+   "suggested": "Depuis la fiche d’un lieu, vous pouvez ouvrir des plateformes de réservation, des sites web, des profils sur les réseaux sociaux, des numéros de téléphone, des adresses e-mail et des apps de cartographie. Quand vous choisissez de les ouvrir, ces services reçoivent des informations selon leurs propres règles."
+  },
+  {
+   "key": "pages.terms.sections[1].paragraphs[0]",
+   "current": "Une fiche ne garantit pas qu’un lieu soit ouvert, autorisé pour votre équipement, accessible avec votre véhicule ou disponible. …",
+   "problem": "English « legal for your setup » means your way of camping, for example self-contained or tent. « Équipement » (gear) misses that meaning, as did the old « équipage ».",
+   "suggested": "Une fiche ne garantit pas qu’un lieu soit ouvert, autorisé pour votre façon de camper, accessible avec votre véhicule ou disponible. Les liens externes de réservation et de contact sont fournis pour votre commodité. Tout contrat est conclu entre vous et le prestataire tiers."
+  }
+ ]
+}

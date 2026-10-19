@@ -1,0 +1,86 @@
+{
+ "branch": "i18n/k-de",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.35,
+ "unitsReviewed": 157,
+ "improvedVsOld": "Clearly better than the removed text overall. It applies the glossary and app labels consistently: „Wunschziele“, „Mit Stern“, „Gefällt mir“, intelligente Sammlungen, Detailseite instead of Ortsseite, Holiday Parks instead of Ferienparks, Freedom-Camping-Plätze, Backcountry-Hütten, Reiseroute, „Umsehen“ (Look Around). It removes the banned 'Offline Campingkarte' meta keyword and fixes the calques the style guide lists ('Nimm es mit auf die Straße', 'Schilder schlagen Bildschirme', the 'Nadeln' clustering sentence, 'Jeder Ort öffnet sich mit dem Detail'). It uses du-imperatives consistently and swaps 'Betreiber' for 'zuständige Stelle' where EN says land manager. It also restores a dropped fact: ui.calculatorNote now includes the 11 l fresh / 9 l grey water assumption that the old German left out. I found no em dashes, spaced en dashes, Sie, Führer, Offline-Karte or Campground in the added lines, and numbers, NZD, brand names and te reo terms (whenua, iwi, hapū) are intact. There are two small regressions: terms sections[5].heading went from 'Geistiges Eigentum' to the narrower 'Urheberrecht', and ui.to went from 'Nach' to the weaker 'In'.",
+ "criticalIssues": [
+  "The privacy page structure does not match English. pages.privacy in de.json has 6 sections, en.json has 7. The 'Website analytics' section (GA4, the _ga cookies, the 13-month cookie expiry, consent for EEA/UK/CH, 14-month retention) is missing entirely, and the retention and children/contact sections are each shifted up one index. Because isPageComplete in lib/localized.ts requires matching section and paragraph counts, /de/privacy currently falls back to the full English page. Nothing wrong is shown to users, but the German privacy page is not translated, and the three privacy units this branch edits never render. This was already broken on origin/main and the branch does not fix it. Fix: add a translated sections[4] for Website analytics with 4 paragraphs and move the existing two sections to [5] and [6].",
+  "Not a translation issue, but worth fixing: price-table dates come from lib/content (asOf, for example '12 August 2026') and are not localized. German pages therefore render 'Preise geprüft am 12 August 2026' without the day dot the style guide requires ('12. August 2026')."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[4].heading",
+   "current": "Speicherdauer und Kontrolle",
+   "problem": "Misaligned with English. EN sections[4] is 'Website analytics' (GA4, cookies, consent). The German privacy page has 6 sections where EN has 7, so the whole GA4/cookie section is missing and every later section is shifted by one. Fidelity 1.",
+   "suggested": "Webanalyse (then add the 4 GA4 paragraphs as sections[4].paragraphs[0..3], and move 'Speicherdauer und Kontrolle' to sections[5] and 'Kinder und Kontakt' to sections[6])"
+  },
+  {
+   "key": "pages.privacy.sections[4].paragraphs[0]",
+   "current": "App-Daten kannst du in der App löschen, iCloud-Daten verwaltest du über dein Apple-Konto. Wenn du die App löschst, können lokale Daten verloren gehen, synchronisierte Kopien bleiben aber in iCloud, bis du sie dort löschst.",
+   "problem": "Wrong content for this key: EN here is the Google Analytics 4 disclosure (processor, Google Ireland Limited for EEA/UK/CH). The retention text belongs in sections[5]. Fidelity 1.",
+   "suggested": "Diese Website nutzt Google Analytics 4, um Besuche zu zählen und zu sehen, welche Seiten Leute in den App Store führen. Google verarbeitet diese Daten in unserem Auftrag als Auftragsverarbeiter. Für Besucher im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz stellt Google Ireland Limited den Dienst bereit, sonst Google LLC."
+  },
+  {
+   "key": "pages.privacy.sections[5].paragraphs[0]",
+   "current": "KiwiCamping ist eine allgemeine Reise-App und richtet sich nicht an Kinder. Bitte schick über den Support keine personenbezogenen Daten von Kindern.",
+   "problem": "Wrong content for this key: EN sections[5] is 'Retention and control' (deleting app records, iCloud). The children text belongs in sections[6]. Fidelity 1.",
+   "suggested": "App-Daten kannst du in der App löschen, iCloud-Daten verwaltest du über dein Apple-Konto. Wenn du die App löschst, können lokale Daten verloren gehen, synchronisierte Kopien bleiben aber in iCloud, bis du sie dort eigens löschst."
+  },
+  {
+   "key": "pages.privacy.sections[5].paragraphs[1]",
+   "current": "Bei Fragen zum Datenschutz wende dich an den KiwiCamping-Support.",
+   "problem": "EN sections[5] has only one paragraph. This contact line belongs in sections[6].paragraphs[1], so the paragraph count is wrong too.",
+   "suggested": "Move to sections[6].paragraphs[1] unchanged; sections[5] should hold only the retention paragraph."
+  },
+  {
+   "key": "ui.calculatorNote",
+   "current": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Die Tankschätzung geht von etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag aus, je nachdem, wie viel du duschst und kochst. Prüf vor dem Kauf die aktuellen Preise.",
+   "problem": "'geht von ... aus, je nachdem, wie viel du duschst' makes the assumption itself depend on showering, which is muddled. EN says the real use varies. 'Tankschätzung' next to Tankstellen and fuel also reads as a fuel-tank estimate. Score 3.",
+   "suggested": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Für die Wassertanks rechnen wir mit etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag; wie viel es wirklich ist, hängt vom Duschen und Kochen ab. Prüf vor dem Kauf die aktuellen Preise."
+  },
+  {
+   "key": "pages.terms.sections[5].heading",
+   "current": "Urheberrecht und Kontakt",
+   "problem": "This is a regression from 'Geistiges Eigentum'. Urheberrecht means copyright only, but the paragraph covers branding (Marke) and interface too, so the meaning is narrowed. Score 3.",
+   "suggested": "Geistiges Eigentum und Kontakt"
+  },
+  {
+   "key": "ui.downloadText",
+   "current": "Über 6.500 Orte in Neuseeland, auch ohne Netz abrufbar, Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. KiwiCamping für iOS.",
+   "problem": "A run-on comma chain: 'auch ohne Netz abrufbar' sits among the list items, so it reads like one of them and the sentence is hard to parse. Score 3.5.",
+   "suggested": "Über 6.500 Orte in Neuseeland, auch ohne Netz abrufbar. Dazu Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. KiwiCamping für iOS."
+  },
+  {
+   "key": "ui.principle3Text",
+   "current": "Legal campen, Abfall sorgfältig entsorgen und Respekt vor dem Land, dem whenua: So bleiben diese Orte offen.",
+   "problem": "Broken parallelism: two infinitives followed by a bare noun phrase ('Respekt vor dem Land'). Score 3.5.",
+   "suggested": "Legal campen, Abfall sorgfältig entsorgen und das Land, das whenua, respektieren: So bleiben diese Orte offen."
+  },
+  {
+   "key": "ui.guidesTitle",
+   "current": "Folge der Straße an schöne Orte.",
+   "problem": "'folgen ... an' is an unidiomatic preposition; German uses 'zu' with folgen plus a destination. Score 3.5.",
+   "suggested": "Folge der Straße zu schönen Orten."
+  },
+  {
+   "key": "ui.to",
+   "current": "In",
+   "problem": "This is the label above the target-currency select, paired with 'Von'. A bare 'In' as a field label reads odd, and the old 'Nach' was the more natural German converter label. Score 3.5.",
+   "suggested": "Nach"
+  },
+  {
+   "key": "ui.featureList3",
+   "current": "Offline gespeichert, öffnet auch ohne Empfang",
+   "problem": "'öffnet' has no subject or object, which makes the bullet clumsy. Score 3.5.",
+   "suggested": "In der App gespeichert, auch ohne Empfang abrufbar"
+  },
+  {
+   "key": "ui.faq6q",
+   "current": "Kann ich nach kostenlosen Plätzen oder Plätzen für Self-contained-Fahrzeuge filtern?",
+   "problem": "Repeating 'Plätzen ... Plätzen' sounds clunky in an FAQ heading. Score 3.8.",
+   "suggested": "Kann ich nach kostenlosen Plätzen filtern oder nach Plätzen nur für Self-contained-Fahrzeuge?"
+  }
+ ]
+}

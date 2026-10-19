@@ -1,0 +1,74 @@
+{
+ "branch": "i18n/k-nl",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 373,
+ "improvedVsOld": "The new text is clearly better than the old in almost every unit. It uses the je-form consistently and has a shorter Dutch sentence rhythm. Glossary terms are fixed: freedom camping instead of 'vrij kamperen', self-contained instead of 'zelfvoorzienend', lozingspunt (dump station) instead of 'stortplaatsen', app list names ('Vond ik leuk', 'Wil bezoeken', 'Pinnen', 'Allemaal opgeslagen') instead of 'Leuk'/'Punaises'. Speeds are written km/u, prices NZ$ 110 tot 180. The banned 'offline kampeerkaart' keyword and 'ver buiten het netwerk' are gone. The style-guide examples (heroTitle, the DOC stiltetijden heading, the quiet-location sentence) are applied verbatim. It restores the tank-assumption sentence (11 l fresh, 9 l grey water) that the old calculatorNote had dropped. Titles and meta descriptions now lead with Dutch search terms. All six rewritten articles plus support and terms keep the same structure as the English. There are no em dashes, no u/uw, no bare $ amounts, macrons are intact (hapū, Māori) and there are no offline-map claims ('plekgegevens offline' / 'ook zonder bereik' only). Facts, numbers and dates match the English apart from the privacy issues listed under critical. Only one unit got worse: doc-huts sections[1].body[1], 'Pak in op'. Minor: ui.metaTitle (~74 chars) and ui.metaDescription run past the 60/155 targets. The ones listed as failing are the only units below 4.",
+ "criticalIssues": [
+  "Privacy page is structurally out of step with origin/main en.json. EN has 7 sections, with a new 'Website analytics' GA4/cookie section at index 4; NL has 6. lib/localized.ts isPageComplete() rejects it, so all 12 rewritten privacy units never render and Dutch visitors get the English page. The Dutch text also lacks the GA4 disclosure, which matters for EU (NL/BE) readers now that GA4 is live. Add the translated analytics section at index 4 and set effective to 'Geldig vanaf 19 oktober 2026' before merging.",
+  "nl.json has no 'consent' block, which origin/main added: Privacy choices, the banner text, Accept/Decline. The cookie bar falls back to English on /nl pages. It does not block publishing, but it should be translated in the same pass as the privacy section, e.g. label 'Privacykeuzes', accept 'Accepteren', decline 'Weigeren', policy 'Privacybeleid'."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[4..5] (whole privacy page structure)",
+   "current": "6 sections: ... [3] Externe links en websitelogs, [4] Bewaren en zelf beheren, [5] Kinderen en contact",
+   "problem": "origin/main en.json now has 7 privacy sections: 'Website analytics' (4 paragraphs on GA4, the _ga cookies, consent, 14-month retention) was added at index 4 after this branch was cut. The NL file still has 6. By JSON path, NL 'Bewaren en zelf beheren' sits under EN 'Website analytics', and NL 'Kinderen en contact' sits under EN 'Retention and control'. isPageComplete() in lib/localized.ts requires the same section count, so the whole rewritten Dutch privacy page is thrown away and English is served. Even if it were served, the GA4 disclosure would be missing.",
+   "suggested": "Insert a new section at index 4: heading 'Websitestatistieken', with 4 paragraphs translated from EN. Paragraph 1, for example: 'Deze website gebruikt Google Analytics 4 om bezoeken te tellen en te zien welke pagina’s mensen naar de App Store leiden. Google verwerkt deze gegevens in onze opdracht als verwerker. Voor bezoekers in de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland levert Google Ireland Limited de dienst, elders Google LLC.' Keep the existing 'Bewaren en zelf beheren' and 'Kinderen en contact' sections as sections 5 and 6."
+  },
+  {
+   "key": "pages.privacy.effective",
+   "current": "Geldig vanaf 12 augustus 2026",
+   "problem": "Wrong date. EN on main says 'Effective 19 October 2026'.",
+   "suggested": "Geldig vanaf 19 oktober 2026"
+  },
+  {
+   "key": "ui.takeRoad",
+   "current": "Neem het mee onderweg",
+   "problem": "Ungrammatical collocation: 'meenemen onderweg' is not idiomatic as a heading. The old text was closer.",
+   "suggested": "Neem het mee op reis"
+  },
+  {
+   "key": "articles.doc-campsite-rules.sections[3].tips[1]",
+   "current": "Heb je bevestiging offline bij de hand",
+   "problem": "There is no article and it reads like a question with the '?' missing ('Have you got confirmation...'). It is not a clear imperative tip.",
+   "suggested": "Zorg dat je bevestiging offline bij de hand is"
+  },
+  {
+   "key": "articles.doc-huts-new-zealand-guide.sections[1].body[1]",
+   "current": "Pak in op de tocht en het weer, niet op de beschrijving van de hut.",
+   "problem": "'Inpakken op' is unidiomatic. Dutch says 'inpakken voor'. This is a regression from the old text ('Pak in voor de tocht').",
+   "suggested": "Pak in voor de tocht en het weer, niet voor de beschrijving van de hut."
+  },
+  {
+   "key": "ui.processEyebrow",
+   "current": "Van eerste idee tot op weg",
+   "problem": "'tot op weg' is clumsy. The fixed expression needs the article.",
+   "suggested": "Van eerste idee tot op de weg"
+  },
+  {
+   "key": "ui.ogDescription",
+   "current": "Ruim 6.500 campings, DOC-hutten, holiday parks en plekken voor freedom camping, ook zonder bereik in de app. Filter, bewaar en plan je hele reis.",
+   "problem": "'ook zonder bereik in de app' is ambiguous word order. It reads as 'without reception inside the app'.",
+   "suggested": "Ruim 6.500 campings, DOC-hutten, holiday parks en plekken voor freedom camping, allemaal in de app en ook zonder bereik te bekijken. Filter, bewaar en plan je hele reis."
+  },
+  {
+   "key": "ui.feature6Text / ui.faq9a",
+   "current": "...je ziet de gemelde kosten ook in geld waar je meteen een gevoel bij hebt / ...dan zie je gemelde kosten in die valuta...",
+   "problem": "'gemelde kosten' is a calque of 'reported costs': 'gemeld' suggests an incident report. The support page uses 'doorgegeven prijzen' for the same thing, so the wording is inconsistent.",
+   "suggested": "...je ziet de vermelde kosten ook in geld waar je meteen een gevoel bij hebt / ...dan zie je de vermelde kosten in die valuta naast het bedrag in Nieuw-Zeelandse dollars."
+  },
+  {
+   "key": "pages.support.sections[3].paragraphs[0]",
+   "current": "...Street View werkt met de beelden van Kijk rond (Look Around) van Apple en open je vanaf het plekscherm, als er beelden van die plek zijn.",
+   "problem": "Zeugma: 'Street View' is the subject of 'werkt' and then silently becomes the object of 'open je'. The sentence reads as clumsy.",
+   "suggested": "...Street View gebruikt de Kijk rond-beelden (Look Around) van Apple. Je opent het vanaf het plekscherm, als er beelden van die plek zijn."
+  },
+  {
+   "key": "ui.audiencesTitle",
+   "current": "Voor tenten, campers en de lange route.",
+   "problem": "'big laps' (long round trips) becomes 'de lange route', which is vague and slightly odd as a slogan.",
+   "suggested": "Voor tenten, campers en lange rondreizen."
+  }
+ ]
+}

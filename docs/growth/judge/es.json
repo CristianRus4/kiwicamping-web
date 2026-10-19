@@ -1,0 +1,101 @@
+{
+ "branch": "i18n/k-es",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 128,
+ "improvedVsOld": "On the whole the new text is better than the old. It follows the style guide's before-and-after examples exactly (featureMainTitle, plannerText, principle2Title, metaGuidesDescription). App labels now match the glossary: Me gustó, Quiero visitar, Pines, Todos guardados, Mirar alrededor (Look Around). «autosuficiente» and «sitios del DOC» are gone. The faithful translation of calculatorNote puts back the 11-litre and 9-litre tank assumptions the old text had dropped. fuelTitle is now an actual translation instead of a reused label. The terms page now glosses iwi and hapū with the macron kept. There are no em or en dashes, no offline-map claims (the keyword was correctly changed to «app camping sin conexión»), no vosotros, usted or su, and every number is correct (6.500, 11 litros, 9 litros). The changes are worse than the old text in four places: toolsTitle («cuentas misteriosas»), the support heading and FAQ 3 where «tiempo real» runs into «el tiempo», and the support text «rutas de road trip». The meta descriptions also got longer, past the ~150-character target. Minor notes not scored below 4: «Arma» in savePlanText and footerText leans Latin American (the neutral choice is «Crea»), and «se llenan solas» in feature1Text uses the feminine without a feminine noun to agree with (old «solos»).",
+ "criticalIssues": [],
+ "failingUnits": [
+  {
+   "key": "ui.metaTitle",
+   "current": "KiwiCamping: mapa de campings, DOC y rutas por Nueva Zelanda",
+   "problem": "A bare «DOC» in the list reads as a noun with nothing attached (a map of DOC?). «sites» was dropped, and «Road Trip Planner» became just «rutas», so the planner, a key search term, is gone.",
+   "suggested": "KiwiCamping: mapa de campings y del DOC, y planificador de road trip"
+  },
+  {
+   "key": "ui.metaDescription",
+   "current": "Encuentra más de 6.500 campings, refugios del DOC, holiday parks y zonas de acampada libre en toda Nueva Zelanda. Fichas sin conexión, filtros precisos y un planificador de rutas parada a parada para iPhone.",
+   "problem": "At 207 characters it runs well past the ~150 the style guide sets, and longer than the old text (172), so Google will cut off the iPhone and planner part. The wording is otherwise good.",
+   "suggested": "Más de 6.500 campings, refugios del DOC, holiday parks y zonas de acampada libre en Nueva Zelanda. Fichas sin conexión, filtros precisos y planificador de road trip para iPhone."
+  },
+  {
+   "key": "ui.metaToolsDescription",
+   "current": "Convierte precios neozelandeses, calcula el combustible de la ruta, estima cuánto dura de verdad una jornada al volante, calcula tu autonomía de agua y aguas grises y compara precios de campings.",
+   "problem": "«calcula» appears twice and the text is 195 characters, about 45 over the guide.",
+   "suggested": "Convierte precios neozelandeses, calcula el combustible, estima una jornada realista al volante, planifica el agua y las aguas grises y compara precios de campings."
+  },
+  {
+   "key": "ui.altPlaceScreen",
+   "current": "Ficha del Robin Hood Bay Campsite, en Marlborough, en KiwiCamping: tarifa gratuita, si está abierto, los servicios y un enlace para reservar",
+   "problem": "«en Marlborough, en KiwiCamping» stacks two «en» phrases, so it reads as if the campsite were in KiwiCamping.",
+   "suggested": "Ficha de KiwiCamping del Robin Hood Bay Campsite (Marlborough): tarifa gratuita, si está abierto, los servicios y un enlace para reservar"
+  },
+  {
+   "key": "ui.altExploreScreen",
+   "current": "La lista Explorar de KiwiCamping con refugios del DOC y campings en Southland, Auckland y Wellington, y la distancia a la que están de la vista del mapa",
+   "problem": "«la distancia a la que están de la vista del mapa» is a heavy, translated-sounding construction.",
+   "suggested": "La lista Explorar de KiwiCamping con refugios del DOC y campings en Southland, Auckland y Wellington, y su distancia respecto a la zona del mapa que estás viendo"
+  },
+  {
+   "key": "ui.saveText",
+   "current": "Marca un lugar con Me gustó, como destacado o como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección.",
+   "problem": "«Marca un lugar con Me gustó, como destacado o como visitado» mixes «marcar con» and «marcar como» in one list, which doesn't parse cleanly.",
+   "suggested": "Dale a Me gustó, destaca un lugar o márcalo como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección."
+  },
+  {
+   "key": "ui.principle3Title",
+   "current": "Deja cada sitio mejor que como lo encontraste",
+   "problem": "Standard Spanish says «mejor de como»; «mejor que como» sounds off. It is also much longer than the three-word English heading.",
+   "suggested": "Deja cada sitio mejor de como lo encontraste"
+  },
+  {
+   "key": "ui.principle3Text",
+   "current": "Acampar solo donde se puede, deshacerte bien de los residuos y respetar el whenua, la tierra en el sentido maorí, es lo que mantiene abiertos estos lugares.",
+   "problem": "The impersonal infinitives «Acampar… respetar» sit beside the tú form «deshacerte». The gloss set off by commas makes the sentence hard to follow; the guide puts it in parentheses.",
+   "suggested": "Acampar solo donde está permitido, deshacerse bien de los residuos y respetar el whenua (la tierra, en sentido maorí) es lo que mantiene abiertos estos lugares."
+  },
+  {
+   "key": "ui.faq3a",
+   "current": "…Los servicios en tiempo real, como el tiempo, la navegación, Street View, las fotos y las webs de los proveedores, siguen necesitando conexión.",
+   "problem": "«en tiempo real, como el tiempo» puts real time and weather («tiempo») side by side, which reads badly. The old «en vivo» avoided this clash.",
+   "suggested": "…Los servicios en vivo, como la previsión del tiempo, la navegación, Street View, las fotos y las webs de los proveedores, siguen necesitando conexión."
+  },
+  {
+   "key": "ui.faq6q",
+   "current": "¿Puedo filtrar zonas de acampada gratuitas o sitios para vehículos self-contained?",
+   "problem": "«filtrar zonas» should be «filtrar por». This is the first use of self-contained on the homepage and it has none of the gloss the guide asks for.",
+   "suggested": "¿Puedo filtrar por zonas de acampada gratuitas o por sitios para vehículos self-contained (autónomos)?"
+  },
+  {
+   "key": "ui.toolsTitle",
+   "current": "Calculadoras para tu road trip. Sin cuentas misteriosas.",
+   "problem": "«cuentas misteriosas» is a literal translation of «mystery maths». The old «Sin cuentas raras» was more idiomatic, so this change makes the line worse.",
+   "suggested": "Calculadoras para tu road trip. Sin cuentas raras."
+  },
+  {
+   "key": "pages.support.sections[2].paragraphs[2]",
+   "current": "Empieza con la lista predefinida de básicos de camping o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario.",
+   "problem": "«básicos de camping» is a literal translation of «camping essentials».",
+   "suggested": "Empieza con la lista predefinida de imprescindibles para acampar o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario."
+  },
+  {
+   "key": "pages.support.sections[3].heading",
+   "current": "Mapas, tiempo y datos en tiempo real",
+   "problem": "«tiempo» appears twice with two meanings (weather, then real time), which is clumsy in a heading. This is worse than the old «datos en vivo».",
+   "suggested": "Mapas, previsión del tiempo y datos en vivo"
+  },
+  {
+   "key": "pages.support.sections[3].paragraphs[2]",
+   "current": "…Los mapas en tiempo real, la navegación, el tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura.",
+   "problem": "«mapas en tiempo real» is the wrong meaning: «live maps» here means online map tiles. It also puts «tiempo real» right next to «el tiempo».",
+   "suggested": "…Los mapas online, la navegación, la previsión del tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura."
+  },
+  {
+   "key": "pages.support.sections[5].paragraphs[1]",
+   "current": "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y rutas de road trip.",
+   "problem": "«rutas de road trip» says route twice (a road trip is a route) and reads badly.",
+   "suggested": "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y el cálculo de rutas del viaje."
+  }
+ ]
+}
