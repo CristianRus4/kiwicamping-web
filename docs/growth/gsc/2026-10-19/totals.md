@@ -1,0 +1,12 @@
+# campingapp.nz Search Console totals (pulled 2026-10-19)
+- Last 3 months: 1,320 clicks, 85.1k impressions, CTR 1.6%, avg position 11.9.
+- Monthly clicks/impressions: Sep 2025 3/276; Oct 26/2,149; Nov 95/6,053; Dec 116/8,043; Jan 2026 177/13,438; Feb 152/12,677; Mar 149/14,091; Apr 102/10,809; May 135/14,275; Jun 154/12,758; Jul 205/15,487; Aug 319/22,969; Sep 586/36,785; Oct (to 16th) 314/18,030.
+- Weekly clicks grew from ~50 (late Jul) to 130-150 (Sep-Oct); average position improved from ~17 to ~9.
+- Countries (3 months, clicks/impressions): NZ 517/41,594; Germany 109/3,762; Australia 108/6,246; UK 98/4,532; US 60/8,123; Netherlands 60/3,044; France 54/1,169; Canada 36/1,574; Spain 29/727; Italy 29/608; Switzerland 28/927; Singapore 21/1,194; Denmark 15/567; Belgium 11/455; Austria 10/341; Czechia 10/190; India 9/937; Japan 8/488; Hong Kong 6/420; Sweden 6/286; Poland 6/235; Brazil 5/407; Israel 4/267; South Korea 2/249; Taiwan 2/193; China 2/79.
+- Devices: mobile 745/40,379 (pos 9.0); desktop 535/43,499 (pos 14.8); tablet 40/1,224.
+- By locale (page clicks): en 995; de 128; fr 81; es 38; it 37; pt 23; nl 22.
+- By content type (3 months, page level, all locales): Home 645 clicks / 20.2k impr (CTR 3.2%); Rules & safety 251 / 21.3k (pos 10); App guides incl. best-apps 136 / 5.4k (CTR 2.5%, pos 7.3, best clicks/page); Costs 119 / 13.6k (pos 8.1); Camping guides 61 / 19.0k (CTR 0.3%: DOC booking leak); Trip planning 54 / 4.1k; Road trips 40 / 4.7k across 183 URLs (worst); Tools 16 / 2.0k.
+- Query clusters (16 months, top 1000 queries): app/brand 199 clicks / 11.6k impr (pos 12.6); map/finder 121 / 3.7k (CTR 3.3%, best); DOC/huts 33 / 13.8k (CTR 0.24%, biggest leak: navigational booking intent); parks/campgrounds/vans head terms 324 / 28.4k (pos ~28); freedom/free camping 65 / 4.3k (pos 26); self-contained 4 / 1.4k (pos 53); road trips 5 / 0.8k (pos 51); costs 5 / 1.4k (pos 30).
+- Page indexing: 391 indexed, 456 not indexed (266 "Excluded by noindex" — locale guides crawled before the 13 Oct translation deploy plus 120 intentionally-noindex road-trip locale pages; 169 "Page with redirect"; 19 "Alternate page with proper canonical"; 2 "Crawled - currently not indexed").
+- Known 404 with impressions: /de/guides/east-camp-road-trip/ (typo of east-cape-road-trip).
+- Note: queries-3m.tsv was transcribed by hand from the GSC table; spot typos are possible. pages-3m.tsv merges URL variants (slash / .html) and lists pages with >=70 impressions.
