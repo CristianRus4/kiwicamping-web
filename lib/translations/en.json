@@ -2504,8 +2504,8 @@
       "priceTable": null
     },
     "rakiura-stewart-island-camping-guide": {
-      "title": "Rakiura / Stewart Island camping journey",
-      "description": "Ferry weather, forest tracks and bird-rich nights beyond the end of the southern road.",
+      "title": "Stewart Island Camping Guide: Rakiura Track and Oban",
+      "description": "Camping on Stewart Island: Rakiura Track campsites from $19 a night in summer and booked all year, the one-hour Bluff ferry, Ulva Island and wild kiwi.",
       "region": "Rakiura",
       "imageAlt": "Remote beach and native forest on Rakiura",
       "intro": "Rakiura is a trip without the campervan. Leave the vehicle on the mainland, cross with a compact pack and let walking, water taxis and island weather set the pace for three or four nights.",
@@ -2549,7 +2549,7 @@
         {
           "heading": "Kiwi are actually visible here",
           "body": [
-            "Rakiura is the most reliable place in the country to see wild kiwi, and the Stewart Island tokoeka is active in daylight as well as at night, which is unusual. Guided evening trips to Ocean Beach have a high success rate.",
+            "Rakiura is one of the most reliable places in the country to see wild kiwi, and the Stewart Island tokoeka is active in daylight as well as at night, which is unusual. Guided evening kiwi-spotting trips run from Oban.",
             "Use a red light rather than white, keep quiet and stay on the track. Never approach or follow a bird, and keep well back if one crosses in front of you."
           ],
           "tips": []
@@ -2569,8 +2569,8 @@
         {
           "heading": "Weather, mud and the Rakiura Track",
           "body": [
-            "The Rakiura Track is a three-day Great Walk with huts and campsites that must be booked, and the North West Circuit beyond it is a serious multi-day route famous for deep mud. Neither should be underestimated because the island is small.",
-            "It rains on roughly 275 days a year. Waterproof boots, gaiters, dry bags and a genuine change of clothes are the difference between an enjoyable walk and a miserable one, and the mud is not an exaggeration."
+            "The Rakiura Track is a 32 km Great Walk loop, usually walked in three days. DOC's three campsites on it cost $19 per adult a night for New Zealanders and $28 for international visitors from 1 October to 30 April, and huts $44 and $66; every hut and campsite must be booked in advance all year, with a two-night maximum at each. The North West Circuit beyond it is a serious multi-day route famous for deep mud. Neither should be underestimated because the island is small.",
+            "Expect rain on most days, whatever the season. Waterproof boots, gaiters, dry bags and a genuine change of clothes are the difference between an enjoyable walk and a miserable one, and the mud is not an exaggeration."
           ],
           "tips": []
         },
@@ -2578,7 +2578,7 @@
           "heading": "How long to stay",
           "body": [
             "Two nights is the minimum that justifies the crossing, and three or four is better. A single night gives you an evening and a morning, which is not enough for both a kiwi trip and Ulva Island, and leaves you hostage to the ferry schedule.",
-            "Oban is the only settlement and has a hotel, a shop, a couple of places to eat and limited accommodation, all of which book out in summer. There is a <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> and backpacker options, and prices reflect that everything arrives by boat.",
+            "Oban is the only settlement and has a hotel, a shop, a couple of places to eat and limited accommodation, all of which book out in summer. There are backpacker options, but KiwiCamping's DOC data has no campsite in Oban itself: DOC's campsites on the island are the three on the Rakiura Track. Prices reflect that everything arrives by boat.",
             "Bring cash and anything specific you need, because the shop is small and <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">resupply</a> is not quick. The island runs on a slower rhythm than the mainland and that is largely the point of going."
           ],
           "tips": []
@@ -2596,7 +2596,17 @@
         }
       ],
       "faq": [],
-      "sources": [],
+      "sources": [
+        {
+          "label": "DOC Rakiura Track"
+        },
+        {
+          "label": "DOC Māori Beach Campsite"
+        },
+        {
+          "label": "RealNZ: ferry to Stewart Island planning guide"
+        }
+      ],
       "priceTable": null
     },
     "doc-huts-new-zealand-guide": {
@@ -7665,8 +7675,8 @@
       "priceTable": null
     },
     "two-week-camper-itinerary-new-zealand": {
-      "title": "Two-week New Zealand camper itinerary: North and South Islands",
-      "description": "A 14-day Auckland to Queenstown route with one Cook Strait crossing, realistic driving days and room for weather.",
+      "title": "2 Week NZ Campervan Itinerary: North and South Island",
+      "description": "A 14-day Auckland to Queenstown campervan itinerary: one Cook Strait crossing, the West Coast, Milford Sound and the Catlins, day by day.",
       "region": "New Zealand",
       "imageAlt": "Campervan on a New Zealand highway between mountains and lake",
       "intro": "Fourteen days is enough to see both islands properly only if you accept that it is a route, not a survey. This itinerary crosses Cook Strait once, keeps most driving legs to three or four hours, and leaves the last day soft so a delayed ferry or a closed pass does not put your flight at risk.",
@@ -7687,7 +7697,7 @@
           "heading": "Days 1 to 6, North Island",
           "body": [
             "Start north of Auckland rather than in it, stock up on the way out and take the first night near Ōrewa or the Hibiscus Coast. Day two runs into the Coromandel for Cathedral Cove and Hahei, which is worth an unhurried afternoon. Day three is Rotorua and its geothermal parks, where the <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> are genuinely convenient.",
-            "Day four takes you to Taupō for the lake and the Huka Falls, with <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> options on the eastern shore for certified vehicles. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal."
+            "Day four takes you to Taupō for the lake and the Huka Falls; stay at a holiday park or check Taupō District Council's <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> before parking for the night. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal."
           ],
           "tips": []
         },
@@ -7706,8 +7716,8 @@
         {
           "heading": "Days 11 to 14, the south",
           "body": [
-            "Queenstown on day eleven, then Milford Sound as a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect <a data-guide=\"kiwicamping-offline-data-guide\">no reception</a>, and check for avalanche closures in winter.",
-            "Day thirteen takes the Catlins coast towards Curio Bay for penguins and sea lions, and day fourteen returns north to Queenstown. If your flight is early, spend the final night near the airport rather than driving the Lindis at dawn."
+            "Day eleven runs from Wānaka to Te Anau through Queenstown, about three hours, then Milford Sound is a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect <a data-guide=\"kiwicamping-offline-data-guide\">no reception</a>, and check for avalanche closures in winter.",
+            "Day thirteen crosses Southland to the Catlins coast at Curio Bay for penguins and sea lions, and day fourteen drives back up to Queenstown, roughly four hours, to drop the vehicle. If your flight leaves early on day fourteen, skip the Catlins and drive Te Anau to Queenstown, about two hours, on day thirteen instead."
           ],
           "tips": []
         },

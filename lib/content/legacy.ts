@@ -194,9 +194,9 @@ export const legacyOnlyArticles: Article[] = [
 
   a({
     slug: "two-week-camper-itinerary-new-zealand",
-    legacyPath: "/two-week-camper-itinerary-nz.html",
-    title: "Two-week New Zealand camper itinerary: North and South Islands",
-    description: "A 14-day Auckland to Queenstown route with one Cook Strait crossing, realistic driving days and room for weather.",
+    legacyPath: "/two-week-camper-itinerary-nz.html", hubs: ["camping/coromandel","camping/west-coast","camping/fiordland"],
+    title: "2 Week NZ Campervan Itinerary: North and South Island",
+    description: "A 14-day Auckland to Queenstown campervan itinerary: one Cook Strait crossing, the West Coast, Milford Sound and the Catlins, day by day.",
     category: "Road trips",
     region: "New Zealand",
     readTime: 14,
@@ -211,15 +211,15 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book the ferry before anything else", "Price the one-way vehicle fee", "Check passes daily in winter"]),
       s("Days 1 to 6, North Island", [
         "Start north of Auckland rather than in it, stock up on the way out and take the first night near Ōrewa or the Hibiscus Coast. Day two runs into the Coromandel for Cathedral Cove and Hahei, which is worth an unhurried afternoon. Day three is Rotorua and its geothermal parks, where the holiday parks are genuinely convenient.",
-        "Day four takes you to Taupō for the lake and the Huka Falls, with freedom camping options on the eastern shore for certified vehicles. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
+        "Day four takes you to Taupō for the lake and the Huka Falls; stay at a holiday park or check Taupō District Council's freedom camping rules before parking for the night. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
       ]),
       s("Days 7 to 10, into the South", [
         "Day seven is the crossing and Queen Charlotte Drive, which is slower and more beautiful than the map suggests. Stop early on the Sounds rather than pushing towards Nelson in the dark.",
         "Days eight to ten run down the West Coast to the glaciers and across to Wānaka. This is the wettest and least populated stretch of the route, the sandflies are serious, and it is also where most people's photographs come from. Fuel up more often than feels necessary.",
       ], ["Sandfly repellent on the West Coast", "Fuel early, not at the last town", "Queen Charlotte Drive takes longer than it looks"]),
       s("Days 11 to 14, the south", [
-        "Queenstown on day eleven, then Milford Sound as a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
-        "Day thirteen takes the Catlins coast towards Curio Bay for penguins and sea lions, and day fourteen returns north to Queenstown. If your flight is early, spend the final night near the airport rather than driving the Lindis at dawn.",
+        "Day eleven runs from Wānaka to Te Anau through Queenstown, about three hours, then Milford Sound is a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
+        "Day thirteen crosses Southland to the Catlins coast at Curio Bay for penguins and sea lions, and day fourteen drives back up to Queenstown, roughly four hours, to drop the vehicle. If your flight leaves early on day fourteen, skip the Catlins and drive Te Anau to Queenstown, about two hours, on day thirteen instead.",
       ]),
       s("Where to lose a day if you need to", [
         "This route has three natural compression points. The Napier leg can be cut by running Taupō to Wellington directly, the Catlins can be dropped entirely, and Milford can become a scenic flight or a shorter Te Anau day if the weather closes in.",
