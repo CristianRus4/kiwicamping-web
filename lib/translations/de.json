@@ -24,7 +24,7 @@
     "altHero": "Die KiwiCamping-Karte von Neuseeland mit Pins für Campingplätze, Holiday Parks und Freedom-Camping-Plätze rund um die Golden Bay, darunter die Liste „Entdecken“ mit Orten in der Nähe",
     "altPlaceScreen": "Detailseite des Robin Hood Bay Campsite in Marlborough in KiwiCamping mit der Gebühr „kostenlos“, Öffnungsstatus, Ausstattung und Buchungslink",
     "altCollectionsScreen": "Die Sammlungen in KiwiCamping mit den Listen „Wunschziele“, „Besucht“, „Pins“ und „Alle gespeicherten“ über einer Satellitenkarte von Great Barrier Island",
-    "altTripScreen": "Eine Reiseroute in KiwiCamping für die Bay of Islands mit sieben Stopps, Fahrstrecke, Daten und dem Wetter an jedem Campingplatz",
+    "altTripScreen": "Eine Reiseroute in KiwiCamping für die Bay of Islands mit sieben Stopps, Fahrstrecke, Terminen und dem Wetter an jedem Campingplatz",
     "altExploreScreen": "Die Liste „Entdecken“ in KiwiCamping mit DOC-Hütten und Campingplätzen in Southland, Auckland und Wellington und ihrer Entfernung zum Kartenausschnitt",
     "heroKicker": "Die beste Camping-App für Neuseeland",
     "heroTitle": "Neuseeland ist groß, dein Plan darf einfach sein",
@@ -60,7 +60,7 @@
     "featureMainText": "Fotos, eine echte Beschreibung, Öffnungszeiten, Gebühren, Bedingungen, Ausstattung nach Art sortiert, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, das Wetter und Street View, damit du die Einfahrt schon vorher von der Straße aus siehst.",
     "featureList1": "Fotos, Öffnungszeiten, Gebühren, Bedingungen und Ausstattung",
     "featureList2": "Street View, Wetter und Navigation direkt eingebaut",
-    "featureList3": "Offline gespeichert, öffnet auch ohne Empfang",
+    "featureList3": "In der App gespeichert, auch ohne Empfang abrufbar",
     "feature1Title": "Intelligente Sammlungen und eigene Listen",
     "feature1Text": "„Gefällt mir“, „Mit Stern“, „Wunschziele“ und „Besucht“ füllen sich von selbst, sobald du Orte markierst. Dazu legst du eigene Sammlungen an, für eine Insel, eine Jahreszeit oder die Auswahl, über die ihr noch diskutiert.",
     "feature2Title": "Filter, die echte Fragen beantworten",
@@ -105,8 +105,8 @@
     "principle1Text": "Hinweise vor Ort, die zuständigen Stellen und aktuelle Warnungen haben immer Vorrang vor einem Eintrag in der App.",
     "principle2Title": "Immer aktuell prüfen",
     "principle2Text": "Prüf vor der Abfahrt die neuesten Infos zu Buchungen, Straßen, Feuer und Sperrungen.",
-    "principle3Title": "Plätze besser hinterlassen",
-    "principle3Text": "Legal campen, Abfall sorgfältig entsorgen und Respekt vor dem Land, dem whenua: So bleiben diese Orte offen.",
+    "principle3Title": "Plätze besser hinterlassen, als du sie vorgefunden hast",
+    "principle3Text": "Legal campen, Abfall sorgfältig entsorgen und das Land, das whenua, respektieren: So bleiben diese Orte offen.",
     "faqEyebrow": "Ein paar klare Antworten",
     "faqTitle": "Gute Fragen. Klare Antworten.",
     "faqIntro": "Klare Antworten rund ums Reisen mit KiwiCamping.",
@@ -120,7 +120,7 @@
     "faq4a": "Ja, das ist die wichtigste Funktion der App. Füge Orte als Stopps hinzu, zieh sie in die richtige Reihenfolge, gib jedem Stopp ein Datum und Ankunftsnotizen, sieh die Fahrstrecke pro Etappe und für die ganze Reise, starte die Navigation zum nächsten Stopp, prüf das Wetter an jedem Stopp, hak besuchte Stopps ab und behalte die Packliste neben der Reiseroute. Die Reisedaten lassen sich mit dem Kalender synchronisieren.",
     "faq5q": "Was sind Sammlungen?",
     "faq5a": "Es gibt zwei Arten. Intelligente Sammlungen („Gefällt mir“, „Mit Stern“, „Wunschziele“, „Besucht“, „Pins“ und „Alle gespeicherten“) füllen sich von selbst, sobald du Orte markierst. Dazu kannst du eigene Sammlungen mit Namen, Symbol und Notizen anlegen, etwa für eine Region, eine Jahreszeit, ein Fahrzeug oder deine engere Auswahl.",
-    "faq6q": "Kann ich nach kostenlosen Plätzen oder Plätzen für Self-contained-Fahrzeuge filtern?",
+    "faq6q": "Kann ich gezielt nach kostenlosen Plätzen oder Self-contained-Plätzen filtern?",
     "faq6a": "Ja, auch kombiniert. Die Filter decken Ortsart, Gebühr, Mindestbewertung, Onlinebuchung, Region sowie detaillierte Merkmale zu Ausstattung und Zufahrt ab. „Kostenlose Campingplätze mit Toiletten und Trinkwasser bei Queenstown“ ist damit eine einzige Suche.",
     "faq7q": "Was steht auf der Detailseite eines Ortes?",
     "faq7a": "Fotos, eine Beschreibung, Öffnungszeiten, Gebühren, Bedingungen, Ausstattung nach Art sortiert, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, Wetter, Street View, wo es Aufnahmen gibt, Navigation und Alternativen in der Nähe.",
@@ -134,9 +134,9 @@
     "faq11a": "Nein. Landesweite Gesetze, Satzungen der Gemeinden, Naturschutzregeln und die Bedingungen des einzelnen Platzes können alle gelten. Halte dich immer an aktuelle Schilder, die Anweisungen der zuständigen Stelle, Feuerverbote und offizielle Warnungen.",
     "downloadEyebrow": "Dein nächster Platz wartet schon",
     "downloadTitle": "Finden. Speichern. Die Strecke planen.",
-    "downloadText": "Über 6.500 Orte in Neuseeland, auch ohne Netz abrufbar, Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. KiwiCamping für iOS.",
+    "downloadText": "Über 6.500 Orte in Neuseeland, auch ohne Netz abrufbar. Dazu Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. KiwiCamping für iOS.",
     "guidesEyebrow": "Camping-Ratgeber für Neuseeland",
-    "guidesTitle": "Folge der Straße an schöne Orte.",
+    "guidesTitle": "Folge der Straße zu schönen Orten.",
     "guidesIntro": "ausführliche Ratgeber zu Campingplätzen, Regeln, Kosten vor Ort und praktischer Reiseplanung in ganz Neuseeland.",
     "guideSingular": "Ratgeber",
     "guidePlural": "Ratgeber",
@@ -178,7 +178,7 @@
     "campText": "DOC-Campingplätze rechnen meist pro Erwachsenem ab, Holiday Parks meist pro Stellplatz. Welche Variante günstiger ist, hängt von der Gruppengröße ab, und genau das überrascht viele Familien.",
     "amount": "Betrag",
     "from": "Von",
-    "to": "In",
+    "to": "Nach",
     "labelDistance": "Strecke (km)",
     "labelConsumption": "Verbrauch (l/100 km)",
     "labelFuelPrice": "Spritpreis (NZD/l)",
@@ -198,7 +198,7 @@
     "toolsReadingTitle": "Plane dein Budget mit aktuellen Richtwerten.",
     "toolsReadingText": "Die Rechner rechnen genau mit dem, was du einträgst. Unsere Kosten-Ratgeber erklären, woher die Ausgangswerte stammen, wann sie geprüft wurden und was den Endpreis noch verändern kann.",
     "toolsReadingLink": "Zu den Kosten-Ratgebern",
-    "calculatorNote": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Die Tankschätzung geht von etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag aus, je nachdem, wie viel du duschst und kochst. Prüf vor dem Kauf die aktuellen Preise.",
+    "calculatorNote": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Für die Wassertanks rechnen wir mit etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag. Wie viel es wirklich ist, hängt davon ab, wie viel du duschst und kochst. Prüf vor dem Kauf die aktuellen Preise.",
     "enterValidValues": "Gültige Werte eingeben",
     "enterValidAmount": "Gültigen Betrag eingeben",
     "daysFresh": "Tage Frischwasser",
@@ -207,7 +207,7 @@
     "perAdultCheaper": "pro Erwachsenem günstiger",
     "perSiteCheaper": "pro Stellplatz günstiger",
     "supportTitle": "Wie können wir helfen?",
-    "supportIntro": "Antworten rund ums Finden von Plätzen, Speichern von Favoriten, Planen von Reisen und zu KiwiCamping unterwegs.",
+    "supportIntro": "Antworten dazu, wie du Plätze findest, Favoriten speicherst, Reisen planst und KiwiCamping unterwegs nutzt.",
     "contact": "Support kontaktieren",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
@@ -250,6 +250,14 @@
     "review9Title": "hat 6 leute organisiert gehalten!!",
     "review9Country": "Irland",
     "review9Quote": "Sechs Leute, zwei Vans, niemand musste fragen, wo wir als Nächstes schlafen. Alles umzusortieren, als das Wetter kippte, ging einfach, womit ich nicht gerechnet hatte."
+  },
+  "consent": {
+    "label": "Datenschutzeinstellungen",
+    "text": "Darf KiwiCamping Cookies von Google Analytics nutzen, um zu erfahren, welche Seiten Reisenden weiterhelfen? Für Werbung werden sie nie verwendet.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "policy": "Datenschutzerklärung",
+    "choices": "Datenschutzeinstellungen"
   },
   "pages": {
     "support": {
@@ -307,7 +315,7 @@
     },
     "privacy": {
       "title": "Datenschutzerklärung",
-      "lede": "KiwiCamping hilft dir, eine Reise zu planen, ohne aus deiner Reise ein Werbeprofil zu machen.",
+      "lede": "KiwiCamping hilft dir bei der Reiseplanung, ohne aus deinen Fahrten ein Werbeprofil zu machen.",
       "sections": [
         {
           "heading": "Daten auf deinem Gerät",
@@ -335,6 +343,15 @@
           ]
         },
         {
+          "heading": "Webanalyse",
+          "paragraphs": [
+            "Diese Website nutzt Google Analytics 4, um Besuche zu zählen und zu sehen, welche Seiten Leute in den App Store führen. Google verarbeitet diese Daten in unserem Auftrag als Auftragsverarbeiter. Für Besucher aus dem Europäischen Wirtschaftsraum, dem Vereinigten Königreich und der Schweiz stellt Google Ireland Limited den Dienst bereit, für alle anderen Google LLC.",
+            "Erfasst werden die Seiten, die du aufrufst, dein Geräte-, Browser- und Bildschirmtyp, ein ungefährer Standort, der aus deiner IP-Adresse abgeleitet wird (die Adresse selbst speichert Google nicht), die Seite, über die du hierhergekommen bist, und deine Klicks auf App-Store-Links. Deinen Namen, deine E-Mail-Adresse oder etwas, das du in der App speicherst, erhält Google nie.",
+            "Wenn Analyse erlaubt ist, setzt Google Analytics zwei First-Party-Cookies: _ga und ein zweites, dessen Name mit _ga_ beginnt. Beide laufen nach 13 Monaten ab. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz werden diese Cookies erst gesetzt, wenn du in der Einwilligungsleiste „Akzeptieren“ wählst. Bis dahin, und wenn du „Ablehnen“ wählst, werden keine Analyse-Cookies gespeichert, und Google erhält nur cookielose Signale ohne Kennung. Deine Auswahl kannst du jederzeit über den Link „Datenschutzeinstellungen“ unten auf jeder Seite ändern.",
+            "Google Signals und personalisierte Werbung sind deaktiviert, deshalb werden die Analysedaten weder mit Google-Konten verknüpft noch für Werbung genutzt. Nach 14 Monaten werden sie gelöscht. KiwiCamping verwendet auf dieser Website weiterhin keine Werbetracker."
+          ]
+        },
+        {
           "heading": "Speicherdauer und Kontrolle",
           "paragraphs": [
             "App-Daten kannst du in der App löschen, iCloud-Daten verwaltest du über dein Apple-Konto. Wenn du die App löschst, können lokale Daten verloren gehen, synchronisierte Kopien bleiben aber in iCloud, bis du sie dort löschst."
@@ -348,7 +365,7 @@
           ]
         }
       ],
-      "effective": "Gültig ab 12. August 2026"
+      "effective": "Gültig ab 19. Oktober 2026"
     },
     "terms": {
       "title": "Nutzungsbedingungen",
@@ -385,7 +402,7 @@
           ]
         },
         {
-          "heading": "Urheberrecht und Kontakt",
+          "heading": "Geistiges Eigentum und Kontakt",
           "paragraphs": [
             "Marke, Oberfläche und eigene redaktionelle Inhalte von KiwiCamping gehören ihrem jeweiligen Inhaber. Ortsnamen und öffentlich verfügbare Fakten bleiben Eigentum oder Verantwortung ihrer ursprünglichen Quellen.",
             "Fragen kannst du an den KiwiCamping-Support schicken."
