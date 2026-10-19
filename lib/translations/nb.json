@@ -450,7 +450,7 @@
         {
           "heading": "Frukt og grønt i sesong: dette lønner seg",
           "body": [
-            "Den virkelige besparelsen ligger i å kjøpe det som er i sesong der du er. Steinfrukt i Central Otago i januar og februar, bær i Bay of Plenty om sommeren (desember til februar), avokado i Northland og epler i Hawke's Bay om høsten (mars til mai) er langt billigere der de dyrkes.",
+            "Den virkelige besparelsen ligger i å kjøpe det som er i sesong der du er. Steinfrukt i Central Otago i januar og februar, bær i Bay of Plenty om sommeren, avokado i Northland og epler i Hawke's Bay om høsten er langt billigere der de dyrkes.",
             "Mange veiboder i områdene der det dyrkes frukt og grønt, er ubetjente med et pengeskrin, og prisene ligger ofte godt under supermarkedet. Ha med småsedler og en pose, for de tar som regel bare kontanter og dukker opp uten forvarsel.",
             "Frukt og grønt utenfor sesong er importert og priset deretter. Den vanen som kutter mest i matbudsjettet på en lang tur, er å bygge måltidene rundt det som er billig den uken, i stedet for å følge en fast handleliste."
           ],
@@ -472,7 +472,7 @@
           "label": "Numbeo: priser på New Zealand, oppdatert juni 2026"
         },
         {
-          "label": "Stats NZ: prisindekser (Selected price indexes), juni 2026"
+          "label": "Stats NZ: prisindekser, juni 2026"
         },
         {
           "label": "Reserve Bank of New Zealand: valutakurser"
@@ -521,7 +521,7 @@
       "description": "Serviced, Standard, Basic eller Great Walk: DOC-hyttene på New Zealand har ulike fasiliteter, priser og regler for booking. Slik velger du riktig hytte.",
       "region": "Villmarka på New Zealand",
       "imageAlt": "Ubetjent hytte i fjellene på New Zealand",
-      "intro": "En hytte i villmarka er et felles ly, ikke et overnattingssted gjemt i skogen. Rundt 950 slike hytter står spredt på offentlige verneområder forvaltet av DOC (Department of Conservation, statens naturforvaltning på New Zealand). De spenner fra en bygning med oppvarming og madrasser til et skall med to køyer og jordgulv. Kategorien på hytta du går mot, avgjør hva du må ha i sekken.",
+      "intro": "En hytte i villmarka er et felles ly, ikke et overnattingssted gjemt i skogen. Rundt 950 slike hytter står spredt på offentlig vernet land. De spenner fra en bygning med oppvarming og madrasser til et skall med to køyer og jordgulv. Kategorien på hytta du går mot, avgjør hva du må ha i sekken.",
       "sections": [
         {
           "heading": "De fire hyttekategoriene",
@@ -618,7 +618,7 @@
     },
     "public-transport-costs-new-zealand-2026": {
       "title": "Kollektivtransport på New Zealand: priser i byene i 2026",
-      "description": "Sonene i Auckland, pristak per uke og vanlige billettpriser i resten av landet kan ikke slås sammen til én pris. Slik ser du hva reisene faktisk koster.",
+      "description": "Sonene i Auckland, pristak per uke og vanlige billettpriser i resten av landet kan ikke slås sammen til én pris.",
       "region": "Auckland og Wellington",
       "imageAlt": "Kollektivtransport i en newzealandsk by",
       "intro": "Billettprisene i byene styres av lokale reisekort, soner, egne regler for kontaktløs betaling og en rekke unntak. Sammenlign hva en hel dag eller uke med reiser faktisk koster, ikke én enkeltbillett fra hvert selskap.",
@@ -806,7 +806,7 @@
           "heading": "Anbefalt fart og fareskilt",
           "body": [
             "Gule, rombeformede skilt er fareskilt, ikke fartsgrenser, og den gule farten ved en sving er anbefalt maksfart for en personbil under gode forhold. Med fullastet bobil, i regn eller med campingvogn på slep er trygg fart lavere enn tallet på skiltet.",
-            "Se etter skiltene som hører til newzealandske forhold: glatt i vått føre, løs grus (på skiltet «Loose Metal»), vadested, kryssende husdyr og skiltet for steinsprang, som brukes mye på West Coast og over fjellovergangene."
+            "Se etter skiltene som hører til newzealandske forhold: glatt i vått føre, løs grus, vadested, kryssende husdyr og skiltet for steinsprang, som brukes mye på West Coast og over fjellovergangene."
           ],
           "tips": [
             "Gule skilt er råd, ikke fartsgrenser",
@@ -817,7 +817,7 @@
         {
           "heading": "Forbikjøringsfelt og lommer for saktegående",
           "body": [
-            "Det er langt mellom forbikjøringsfeltene på hovedveiene. Kjører du saktere enn trafikken bak, er det både høflig og forventet at du bruker lommene for saktegående kjøretøy (på skiltet «Slow Vehicle Bay») eller kjører inn til siden der det er trygt, så de kommer forbi. Det handler om mer enn høflighet: Frustrerte bilister i køen bak fører til forbikjøringsulykker.",
+            "Det er langt mellom forbikjøringsfeltene på hovedveiene. Kjører du saktere enn trafikken bak, er det både høflig og forventet at du bruker lommene for saktegående kjøretøy eller kjører inn til siden der det er trygt, så de kommer forbi. Det handler om mer enn høflighet: Frustrerte bilister i køen bak fører til forbikjøringsulykker.",
             "Ikke øk farten i et forbikjøringsfelt mens noen kjører forbi deg. Har du fem eller flere kjøretøy i kø bak deg, er du pålagt å kjøre inn til siden så snart det er trygt."
           ],
           "tips": []
@@ -888,7 +888,7 @@
           "heading": "Ikke finn på egne løsninger for avfall",
           "body": [
             "Slipp aldri ut agn, akvarievann, matplanter eller urenset vaskevann i naturen. Bruk søppel- og avløpsløsninger som er laget for det du skal bli kvitt.",
-            "Følg regionale varsler om skadedyrbekjempelse og rāhui (et midlertidig forbud som Māori legger på et område eller en ressurs). Lokale restriksjoner kan beskytte en art eller et sted ut over minstekravene som gjelder nasjonalt."
+            "Følg regionale varsler om skadedyrbekjempelse og rāhui. Lokale restriksjoner kan beskytte en art eller et sted ut over minstekravene som gjelder nasjonalt."
           ],
           "tips": []
         },
@@ -915,7 +915,7 @@
         {
           "heading": "Sjekk, rengjør og tørk mellom vassdrag",
           "body": [
-            "Didymo (en innført kiselalge) og andre skadeorganismer i ferskvann følger med fuktig utstyr fra ett vassdrag til et annet. Kravet («Check, Clean, Dry») gjelder sko, vadebukser, telt, fiskeutstyr, padlebrett og alt annet som har vært i ferskvann, og det gjelder like mye innenlands på New Zealand som ved grensen.",
+            "Didymo og andre skadeorganismer i ferskvann følger med fuktig utstyr fra ett vassdrag til et annet. Kravet gjelder sko, vadebukser, telt, fiskeutstyr, padlebrett og alt annet som har vært i ferskvann, og det gjelder like mye innenlands på New Zealand som ved grensen.",
             "Rengjør grundig, la utstyret tørke helt og hold det tørt i minst 48 timer før du går ut i et nytt vassdrag. Der det ikke er praktisk mulig å tørke utstyret, bruker du de anbefalte behandlingsmidlene i stedet."
           ],
           "tips": [
@@ -936,7 +936,7 @@
           "heading": "Hvorfor reglene er så strenge",
           "body": [
             "De stedegne artene på New Zealand utviklet seg uten landpattedyr og har nesten ikke noe forsvar mot dem. Innførte rovdyr, ugress og sykdommer har allerede utryddet arter, og grensekontrollen finnes fordi landet fortsatt mister arter til ting som kommer inn i bagasjen.",
-            "Munn- og klovsyke, fruktflue og myrterust (en soppsykdom på planter i myrtefamilien) er skadegjørerne med størst økonomiske og økologiske følger, og alle tre er stoppet ved grensen mer enn én gang. Kontrollen du synes er brysom, er grunnen til at de blir stoppet.",
+            "Munn- og klovsyke, fruktflue og myrterust er skadegjørerne med størst økonomiske og økologiske følger, og alle tre er stoppet ved grensen mer enn én gang. Kontrollen du synes er brysom, er grunnen til at de blir stoppet.",
             "Det går raskt, og kontrollørene er hjelpsomme når du deklarerer. Straffen gjelder det å skjule noe, ikke det å ha gjørmete sko, og hele forskjellen ligger i om du krysser av i ruten."
           ],
           "tips": []
@@ -944,7 +944,7 @@
         {
           "heading": "Når du reiser ut igjen",
           "body": [
-            "Noe av det du skaffer deg her, får ikke forlate landet, og annet krever papirer. Det gjelder blant annet alt som er laget av vernede arter, grønnstein (pounamu, newzealandsk jade) fra visse områder og en del plantemateriale, så sjekk reglene før du pakker.",
+            "Noe av det du skaffer deg her, får ikke forlate landet, og annet krever papirer. Det gjelder blant annet alt som er laget av vernede arter, grønnstein fra visse områder og en del plantemateriale, så sjekk reglene før du pakker.",
             "Særlig Australia har egne, strenge grenseregler, så utstyr som kom hit gjørmete, blir sjekket like nøye når du reiser videre. Rengjør alt på nytt før flyet hjem."
           ],
           "tips": [
@@ -976,7 +976,7 @@
       "description": "Slik fungerer DOC-campingplassene på New Zealand: booking og Campsite Pass, nattero, vann, søppel, hund, drone og aggregat, og hva du gjør når det er fullt.",
       "region": "DOC-campingplasser",
       "imageAlt": "Informasjonstavle fra Department of Conservation ved en campingplass",
-      "intro": "Når du bestiller hos DOC (Department of Conservation, statens naturforvaltning på New Zealand), godtar du både de nasjonale vilkårene og de lokale reglene for stedet. Les alltid siden for den enkelte campingplassen, for adkomst, bål, vann, hund og regler for kjøretøy varierer mye.",
+      "intro": "Når du bestiller hos DOC, godtar du både de nasjonale vilkårene og de lokale reglene for stedet. Les alltid siden for den enkelte campingplassen, for adkomst, bål, vann, hund og regler for kjøretøy varierer mye.",
       "sections": [
         {
           "heading": "Bruk bestillingen ærlig",
@@ -1025,8 +1025,8 @@
         {
           "heading": "Aggregat, droner og hund",
           "body": [
-            "Aggregat er begrenset eller forbudt på mange plasser, og der det er lov, gjelder det som regel bare innenfor faste tider. Droner krever i de fleste tilfeller tillatelse fra DOC («concession») på land som DOC forvalter, og å fly en drone over en campingplass uten tillatelse er både ulovlig og svært upopulært.",
-            "Hund er forbudt på det meste av landet DOC forvalter, fordi hunder er en fare for bakkehekkende fugler og kiwi. Noen få campingplasser tillater hund, de aller fleste gjør det ikke, og enkelte steder krever egen tillatelse. Sjekk akkurat den plassen du skal til, i stedet for å gå ut fra noe."
+            "Aggregat er begrenset eller forbudt på mange plasser, og der det er lov, gjelder det som regel bare innenfor faste tider. Droner krever i de fleste tilfeller en tillatelse («concession») på offentlig vernet land, og å fly en drone over en campingplass uten tillatelse er både ulovlig og svært upopulært.",
+            "Hund er forbudt på det meste av offentlig vernet land, fordi hunder er en fare for bakkehekkende fugler og kiwi. Noen få campingplasser tillater hund, de aller fleste gjør det ikke, og enkelte steder krever egen tillatelse. Sjekk akkurat den plassen du skal til, i stedet for å gå ut fra noe."
           ],
           "tips": [
             "Droner krever tillatelse på DOC-land",
@@ -1055,7 +1055,7 @@
           "heading": "Hvis campingplassen er full",
           "body": [
             "Populære DOC-plasser blir fulle midt på ettermiddagen om sommeren, og det finnes ikke noe reserveområde. Å lage en ekstra plass på gresset, i adkomstveien eller ved toalettbygget er ikke et alternativ, og oppsynet ber deg kjøre videre.",
-            "Finn et lovlig alternativ før du kommer frem, ikke etterpå. En feriepark (holiday park) en halvtime unna er mye bedre enn å kjøre sent på en ukjent vei og lete etter et sted som tar imot deg."
+            "Finn et lovlig alternativ før du kommer frem, ikke etterpå. En feriepark en halvtime unna er mye bedre enn å kjøre sent på en ukjent vei og lete etter et sted som tar imot deg."
           ],
           "tips": [
             "Populære plasser blir fulle midt på ettermiddagen",
@@ -1148,7 +1148,7 @@
           "heading": "Forbikjøring, og når du blir forbikjørt",
           "body": [
             "En bobil akselererer sakte. Derfor trenger du mye mer fri vei for å kjøre forbi enn i en bil, og det er sjelden verdt å prøve. De fleste hovedveiene på New Zealand har to felt og få forbikjøringsfelt, og forbikjøringsulykker er et kjent problem.",
-            "Når køen vokser bak deg, kjør inn til siden der det er trygt og slipp den forbi. Står det fem eller flere kjøretøy i kø bak deg, må du gjøre det så snart det er trygt. Det tar også bort presset som får folk til å kjøre forbi på dårlig sikt."
+            "Når køen vokser bak deg, kjør inn til siden der det er trygt og slipp den forbi. Står det fem eller flere kjøretøy i kø bak deg, må du gjøre det så snart det er trygt. Det tar også bort presset som får folk til å kjøre forbi uforsvarlig."
           ],
           "tips": []
         },
@@ -1193,7 +1193,7 @@
     },
     "east-cape-road-trip": {
       "title": "Roadtrip rundt East Cape: Gisborne til Ōpōtiki",
-      "description": "En rolig kysttur langs State Highway 35, forbi surfebyer, bukter med pōhutukawa og avsidesliggende veier i øst. Sett av tre dager.",
+      "description": "En rolig kysttur forbi surfebyer, bukter med pōhutukawa og avsidesliggende veier i øst.",
       "region": "East Cape",
       "imageAlt": "Avsidesliggende vei på East Cape langs Stillehavet",
       "intro": "State Highway 35 er en av landets mest givende veier for deg som vil kjøre sakte. Drivstoff, åpningstider og stormskader betyr mer her, så legg planen etter dagslyset og forholdene i stedet for faste ankomsttider.",
@@ -1202,7 +1202,7 @@
           "heading": "Fra Gisborne til Tolaga Bay",
           "body": [
             "Start med full tank og <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matvarer</a> fra Gisborne, og stopp i kystbyene uten å regne med at alt er åpent. Tolaga Bay er et lett sted å ta første natt, og der kan du gå en tur i stedet for å kjøre.",
-            "Spør om lov overalt der tilgangen til land eller strand ikke er tydelig åpen for alle. Marae (samlingssteder), urupā (gravplasser) og gårder i drift er ikke uformelle campingplasser, selv om en gammel kommentar på nettet skulle antyde noe annet."
+            "Spør om lov overalt der tilgangen til land eller strand ikke er tydelig åpen for alle. Marae, urupā og gårder i drift er ikke uformelle campingplasser, selv om en gammel kommentar på nettet skulle antyde noe annet."
           ],
           "tips": []
         },
@@ -1245,7 +1245,7 @@
         {
           "heading": "Du kjører gjennom iwi-land og små lokalsamfunn",
           "body": [
-            "Det meste av landet rundt kappet er Māori-eid, og lokalsamfunnene er små og tett knyttet sammen. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> (gratis overnatting utenfor campingplasser) er begrenset mange steder, og det forventes mye respekt, særlig rundt marae, urupā og adkomsten til strendene. Iwi betyr stamme.",
+            "Det meste av landet rundt kappet er Māori-eid, og lokalsamfunnene er små og tett knyttet sammen. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> er begrenset mange steder, og det forventes mye respekt, særlig rundt marae, urupā og adkomsten til strendene.",
             "Spør i stedet for å anta, handle i de lokale butikkene, og camp aldri et sted bare fordi ingen så ut til å stoppe deg. Gjestfriheten her er ekte, og den forutsetter at besøkende oppfører seg."
           ],
           "tips": [
@@ -1266,7 +1266,7 @@
           "heading": "Det som faktisk er verdt et stopp",
           "body": [
             "Bryggen i Tolaga Bay er den lengste i landet, med over 600 meter, og turen ut til enden er verdt det. Tokomaru Bay har ruinene etter det gamle slakteriet og en virkelig fin strand. Te Puia Springs og Waipiro Bay er små og stille, på en måte som lønner et stopp du ikke hadde planlagt.",
-            "I Tikitiki ligger St Mary's Church, med et av de mest bemerkelsesverdige kirkerommene på New Zealand. Det er dekorert over alt med treskurd og tukutuku (vevde veggpaneler) og bygget som minnesmerke over soldater fra Ngāti Porou. Kirken er ulåst og gratis, og de fleste kjører forbi uten å vite om den.",
+            "I Tikitiki ligger St Mary's Church, med et av de mest bemerkelsesverdige kirkerommene på New Zealand. Det er dekorert over alt med treskurd og tukutuku og bygget som minnesmerke over soldater fra Ngāti Porou. Kirken er ulåst og gratis, og de fleste kjører forbi uten å vite om den.",
             "Hicks Bay og Te Araroa markerer nordenden, og pōhutukawa-treet i Te Araroa skal være det største i landet. Derfra er det en kort kjøretur til veien opp til fyret, og så vestover mot Ōpōtiki."
           ],
           "tips": []
@@ -1399,10 +1399,10 @@
     },
     "new-zealand-road-trip-fuel-cost-2026": {
       "title": "Drivstoffpriser på New Zealand 2026: hva koster roadtrippen?",
-      "description": "Regn ut drivstoffkostnaden med distanse, liter per 100 km og den offisielle bensinprisen for hele landet. Tall fra MBIE per 26. juli 2026.",
+      "description": "Regn ut drivstoffkostnaden med distanse, liter per 100 km og den offisielle bensinprisen for hele landet. Tall fra MBIE.",
       "region": "Veiene på New Zealand",
       "imageAlt": "Bobil som fyller drivstoff under en roadtrip på New Zealand",
-      "intro": "Drivstoff gjør ruteplanleggingen om til en kostnad du kan måle. Den representative landsprisen på vanlig 91-bensin (prisen på skiltene ved pumpene, ifølge MBIE, det newzealandske næringsdepartementet) var 2,96 NZD per liter den 26. juli 2026, etter et uvanlig ustabilt år.",
+      "intro": "Drivstoff gjør ruteplanleggingen om til en kostnad du kan måle. Ifølge MBIE var den representative skiltprisen for hele landet på vanlig 91-bensin 2,96 NZD per liter den 26. juli 2026, etter et uvanlig ustabilt år.",
       "sections": [
         {
           "heading": "Regn ut for bilen du faktisk kjører",
@@ -1415,7 +1415,7 @@
         {
           "heading": "Ta hensyn til geografien",
           "body": [
-            "Avsidesliggende stasjoner og turistkorridorer kan ta mer enn landsprisen. Fyll før lange strekninger uten stasjoner, og kjør ikke forbi pålitelig drivstoff for å spare noen få kroner.",
+            "Avsidesliggende stasjoner og turistkorridorer kan ta mer enn landsprisen. Fyll før lange strekninger uten stasjoner, og kjør ikke forbi pålitelig drivstoff for å spare litt.",
             "Motvind, fjellveier, takutstyr og last øker forbruket. Juster anslaget etter de to første tankene."
           ],
           "tips": []
@@ -1431,7 +1431,7 @@
         {
           "heading": "Bensin, diesel og veibruksavgift (RUC)",
           "body": [
-            "Diesel er billigere per liter ved pumpa, men dieselbiler betaler veibruksavgift (RUC, Road User Charges) separat, kjøpt på forhånd per tusen kilometer. Leier du, bør du sjekke om RUC er inkludert i dagsprisen eller blir fakturert til slutt, for det endrer sammenligningen med bensin betydelig.",
+            "Diesel er billigere per liter ved pumpa, men dieselbiler betaler veibruksavgift (RUC) separat, kjøpt på forhånd per tusen kilometer. Leier du, bør du sjekke om RUC er inkludert i dagsprisen eller blir fakturert til slutt, for det endrer sammenligningen med bensin betydelig.",
             "For en privatbil må RUC være gyldig for distansen du kjører, og det blir kontrollert. Det er enkelt å kjøpe på nett eller hos en agent, og kjører du forbi distansen du har kjøpt, får du gebyr."
           ],
           "tips": [
@@ -1451,7 +1451,7 @@
         {
           "heading": "Det som faktisk påvirker forbruket",
           "body": [
-            "Last, takbokser, motvind, lange stigninger og fart har alt å si, og en lastet bobil i den kraftige nordvestvinden i Canterbury (nor'wester) kan bruke en fjerdedel mer enn tallet i brosjyren. Aircondition har liten effekt. Å la motoren gå på tomgang for å kjøre varmeapparatet har større effekt enn de fleste tror.",
+            "Last, takbokser, motvind, lange stigninger og fart har alt å si, og en lastet bobil i nordvestvinden i Canterbury (nor'wester) kan bruke en fjerdedel mer enn tallet i brosjyren. Aircondition har liten effekt. Å la motoren gå på tomgang for å kjøre varmeapparatet har større effekt enn de fleste tror.",
             "Dekktrykket spiller en rolle og bør stilles inn for lastet bil, ikke tom. Leiebobiler leveres ofte med for lavt trykk, og det koster både drivstoff og kjøreegenskaper."
           ],
           "tips": [
@@ -1567,7 +1567,7 @@
         {
           "heading": "Vekt, kapasitet og lasting",
           "body": [
-            "Bilens største tillatte tilhengervekt, kapasiteten på hengerfestet, campingvognens tillatte totalvekt og kulevekten (vekten på tilhengerkula) må stemme overens, og det laveste tallet setter grensen. Overskrider du noen av dem, påvirker det kjøreegenskaper, bremser og forsikring.",
+            "Bilens største tillatte tilhengervekt, kapasiteten på hengerfestet, campingvognens tillatte totalvekt og kulevekten må stemme overens, og det laveste tallet setter grensen. Overskrider du noen av dem, påvirker det kjøreegenskaper, bremser og forsikring.",
             "Plasser tunge ting lavt og over akselen, la omtrent ti prosent av vekten hvile på kula, og unngå å laste bakerst i vogna, for det er det som gir svaiing. Sjekk lasten på nytt etter første times kjøring."
           ],
           "tips": []
@@ -1596,7 +1596,7 @@
           "heading": "Rygging, parkering og campingplasser",
           "body": [
             "Øv på å rygge på en tom parkeringsplass før turen. På campingplasser må du ofte rygge inn på en avgrenset plass med naboer tett på begge sider, og å gjøre det første gang med tilskuere er slik folk skader vognene sine.",
-            "Bestill plasser som passer lengden på kombinasjonen, og si fra at du har campingvogn når du bestiller. Mange <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a> (holiday parks, store campingplasser med hytter og fellesfasiliteter) har egne gjennomkjøringsplasser, og får du en, slipper du det meste av vanskelighetene ved ankomst.",
+            "Bestill plasser som passer lengden på kombinasjonen, og si fra at du har campingvogn når du bestiller. Mange <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a> har egne gjennomkjøringsplasser, og får du en, slipper du det meste av vanskelighetene ved ankomst.",
             "Når du kobler fra, har du en vanlig bil til dagsturer, og det er verdt å gjøre når du blir mer enn én natt. Bruk hjulklosser og utjevningskiler, og sjekk at håndbremsen holder før du kobler fra noe."
           ],
           "tips": []
