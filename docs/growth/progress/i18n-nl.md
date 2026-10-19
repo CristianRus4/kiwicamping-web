@@ -10,15 +10,15 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - [x] Style guide `docs/translation-style/nl.md` (identical in both repos), with glossary and evidence.
 - [x] UI, support, privacy, terms rewritten on both sites (handoff 1, merged). Judge 4.45 (AU) / 4.4 (NZ); every failing unit fixed.
 - [x] Privacy rebuilt for the 7-section English page (GA4 section), consent namespace translated (both sites).
-- [x] AU guides: camping rules for all 8 states/territories, dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices.
-- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration.
+- [x] AU guides: camping rules for 7 states/territories (NSW, VIC, WA, SA, QLD, ACT, TAS; NT in progress), dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices, travel cost, interstate biosecurity, towing a caravan, fuel cost, best time to camp, caravan park vs holiday park, road rules by state, camping fees.
+- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration, accommodation costs, volcanic safety, beer/wine/coffee prices, camping with dogs.
 
 ## In progress
 - Full rewrite pass, every unit, both repos. Order: UI, support/privacy/terms, guides by English impressions (pages-3m.tsv).
 
 ## Next
 - Road trips, Kiwi legacy pages, consent/article/tools namespaces and data-guide link markup once the foundation milestones merge (wait for the orchestrator's message).
-- A-foundation M1 (pending merge): `consent` namespace (6 strings), privacy page gains a "Website analytics" section (nl privacy goes stale until re-translated), guide sections may gain `table: { caption, head, rows }`. Hand-off check becomes `npx tsx scripts/audit-content.mjs --strict --locale nl`.
+- A-foundation M1 is on main and done for nl (consent, GA4 privacy section). Hand-off check: `npx tsx scripts/audit-content.mjs --strict --locale nl`. Guide sections may gain `table: { caption, head, rows }`.
 - A-foundation M2: road trips translatable, `<a data-guide>` markup in en.json bodies, `npm run translations:stamp -- --locale nl` after each batch.
 
 ## Working method (to resume)
@@ -52,3 +52,9 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - (NZ) towing-caravan-new-zealand faq[1][1] says a full car licence covers combinations up to 4,500 kg; NZTA Class 1 is 6,000 kg GLW/GCW (4,500 kg is an Australian figure): verify. sections[6].body[0] "Rimutaka" → Remutaka.
 - (NZ) new-zealand-biosecurity-camping-gear sections[7].body[0] "no land mammals" ignores native bats; sections[7].body[1] treats myrtle rust as intercepted at the border (established in NZ since 2017).
 - (NZ) public-transport-costs-new-zealand-2026 faq[1][1] promises dated fares for Auckland, Wellington and Christchurch; the price table has Auckland only.
+- (NZ) volcanic-safety-new-zealand-travel sections[3].body[0] says tracks close from alert level 2 while faq[1][1] says tracks are usually open at levels 0 to 2 and calls level 2 "minor unrest" (GeoNet: moderate to heightened unrest).
+- (NZ) beer-wine-coffee-prices-new-zealand faq[0][1] promises pint, craft beer, six-pack and glass-of-wine prices the table lacks; sections [1]/[5], [2]/[6] and the cellar-door paragraphs repeat each other.
+- (NZ) dogs-camping-new-zealand: national parks are "entirely closed" (sections[0]) vs "most" (sections[3]) vs "almost all" (faq[0][1]); faq[1][1] bans dogs in "all kiwi habitat" while sections[8] advises aversion training for dogs in Northland, Coromandel and the West Coast.
+- (NZ) accommodation-costs-new-zealand-2026 faq[0][1] promises dated motel prices; the table has no motel row.
+- best-time-camping-australia faq[0][1] gives the northern dry season as May to September; the rest of the page says May to October.
+- caravan-park-vs-holiday-park sections[7].body[3] repeats sections[5].body[2]; camping-fees-australia-2026 faq[1][1] writes "holiday pass" in lowercase for the WA/Tasmania Holiday Pass products.
