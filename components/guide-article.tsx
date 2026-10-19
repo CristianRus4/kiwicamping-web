@@ -13,9 +13,29 @@ import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
 import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/currency";
 import { mainData } from "@/lib/analytics";
+import { hubCopy } from "@/components/hub-page";
+import { hubKinds, indexableHubs, listedHubs, type BuiltHubKind, type Hub } from "@/lib/hubs";
+
+/** The indexable DOC data hubs a guide names, grouped by kind, in the order the guide lists them. */
+function guideHubs(item: Article): { kind: BuiltHubKind; all: boolean; hubs: Hub[] }[] {
+  const groups = new Map<BuiltHubKind, { kind: BuiltHubKind; all: boolean; hubs: Hub[] }>();
+  for (const entry of item.hubs ?? []) {
+    const kind = (hubKinds as readonly string[]).includes(entry) ? entry as BuiltHubKind : undefined;
+    const picked = kind ? listedHubs(kind) : indexableHubs.filter((hub) => hub.id === entry);
+    for (const hub of picked) {
+      const hubKind = hub.kind as BuiltHubKind;
+      const group = groups.get(hubKind) ?? { kind: hubKind, all: false, hubs: [] };
+      if (kind) group.all = true;
+      if (!group.hubs.some((existing) => existing.id === hub.id)) group.hubs.push(hub);
+      groups.set(hubKind, group);
+    }
+  }
+  return [...groups.values()];
+}
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = relatedGuides(item);
+  const hubGroups = guideHubs(item);
   const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
@@ -100,6 +120,7 @@ export function GuideArticle({ item }: { item: Article }) {
           </aside>
         </div>
       </article>
+      {hubGroups.length > 0 && <section className="related-section guide-hubs"><p className="eyebrow">From DOC&apos;s own data</p><h2>Browse by region</h2>{hubGroups.map((group) => <div className="hub-directory" key={group.kind}><h3><Link href={`/${group.kind}/`}>{hubCopy[group.kind].indexTitle}</Link></h3><ul>{group.hubs.map((hub) => <li key={hub.id}><Link href={hub.path}><strong>{group.all ? hub.name : hubCopy[group.kind].h1(hub)}</strong><span>{hub.placeCount} {hubCopy[group.kind].noun}</span><ArrowRight /></Link></li>)}</ul></div>)}</section>}
       <section className="related-section"><p className="eyebrow">Keep planning</p><h2>Related guides</h2><div className="article-grid">{related.map((candidate) => <ArticleCard article={candidate} key={candidate.slug} />)}</div></section>
     </main>
     <Footer pageKey={guidePageKey(item.slug)} />

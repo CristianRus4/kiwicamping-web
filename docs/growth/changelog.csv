@@ -76,3 +76,11 @@ date,url,change_type,old_title,new_title,hypothesis
 2026-10-20,/guides/new-zealand-driving-day-planner/,retitle,How long should a New Zealand driving day be?,NZ Driving Times and Distances: How Far to Drive a Day,84 impr at pos 20.9; match 'nz driving times' and 'how far per day'.
 2026-10-20,/guides/dogs-camping-new-zealand/,retitle,Camping with a dog in New Zealand,Camping With a Dog in NZ: Where Dogs Are Allowed (2026),179 impr at pos 7.9; answer 'where can dogs camp' in the snippet.
 2026-10-20,/guides/bus-ferry-train-costs-new-zealand/,retitle,"Bus, ferry and scenic train costs in New Zealand","Bus, Ferry and Train Costs in New Zealand (2026)","154 impr at pos 12.6; audit MERGE not possible (URLs immutable), so differentiate toward intercity prices vs city fares."
+2026-10-20,/guides/new-zealand-road-trip-fuel-cost-2026/,fact-fix,,,MBIE week is dated 9 Oct 2026 in the CSV; stop inferring a Sunday week-end date.
+2026-10-20,/doc-campsites-huts-guide.html,hub-links,,,Browse-by-region block links the DOC campsite and hut data hubs; passes authority to the new hubs and helps readers pick a region.
+2026-10-20,/where-to-camp-in-new-zealand.html,hub-links,,,Same block (campsites and huts hubs).
+2026-10-20,/freedom-camping-rules-nz.html,hub-links,,,Same block (DOC freedom-camping notice hubs).
+2026-10-20,/free-camping-nz-legal.html,hub-links,,,Same block (DOC freedom-camping notice hubs).
+2026-10-20,/guides/doc-huts-new-zealand-guide/,hub-links,,,Same block (huts hubs).
+2026-10-20,/guides/doc-campsite-rules/,hub-links,,,Same block (campsite hubs).
+2026-10-20,/guides/ (17 regional road trips),hub-links,,,Each road trip links the indexable campsite/hut/notice hubs for its regions (hubs field in lib/content/road-trips.ts and camping.ts).

@@ -95,7 +95,7 @@ export const legacyOnlyArticles: Article[] = [
 
   a({
     slug: "where-to-camp-in-new-zealand",
-    legacyPath: "/where-to-camp-in-new-zealand.html",
+    legacyPath: "/where-to-camp-in-new-zealand.html", hubs: ["camping","huts"],
     title: "Where you can camp in New Zealand: a complete location guide",
     description: "DOC campsites, conservation land, council reserves, iwi-managed places and private holiday parks each carry different rules and costs.",
     category: "Camping guides",

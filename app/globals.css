@@ -607,3 +607,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .hub-places tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
   .hub-places th, .hub-places td { display: block; padding: 3px 14px; border: 0; }
 }
+.guide-hubs .hub-directory { margin-top: 18px; }
+.guide-hubs .hub-directory h3 { margin: 0 0 4px; font-size: 18px; }
+.guide-hubs .hub-directory h3 a { color: var(--fern); }
+.guide-hubs .hub-directory ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); column-gap: 28px; margin: 0; }

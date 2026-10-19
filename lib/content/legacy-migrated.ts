@@ -14,7 +14,7 @@ const rbnz = { label: "Reserve Bank of New Zealand exchange rates", url: "https:
 export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-rules-new-zealand",
-    legacyPath: "/freedom-camping-rules-nz.html",
+    legacyPath: "/freedom-camping-rules-nz.html", hubs: ["freedom-camping"],
     title: "Freedom camping rules in New Zealand, region by region",
     description: "The Freedom Camping Act, council bylaws, self-containment certification and what enforcement actually looks like on the ground.",
     category: "Rules & safety",
@@ -64,7 +64,7 @@ export const migratedArticles: Article[] = [
 
   a({
     slug: "freedom-camping-new-zealand-guide",
-    legacyPath: "/free-camping-nz-legal.html",
+    legacyPath: "/free-camping-nz-legal.html", hubs: ["freedom-camping"],
     title: "Can you camp for free in New Zealand? Where it is legal and safe",
     description: "Which land types allow a free night, what certification you need, and the etiquette that keeps these places open.",
     category: "Camping guides",
@@ -173,7 +173,7 @@ export const migratedArticles: Article[] = [
 
   a({
     slug: "doc-campsites-new-zealand-guide",
-    legacyPath: "/doc-campsites-huts-guide.html",
+    legacyPath: "/doc-campsites-huts-guide.html", hubs: ["camping","huts"],
     title: "DOC Hut & Campsite Bookings 2026: How to Book, Fees, Dates",
     description: "Book DOC huts, campsites and Great Walks at bookings.doc.govt.nz. 2026/27 fees, Hut Pass vs Campsite Pass, first-come huts and what to do when full.",
     category: "Camping guides",

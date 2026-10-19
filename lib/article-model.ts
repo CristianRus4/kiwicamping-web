@@ -29,6 +29,11 @@ export type Article = {
   sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable; comparison?: ArticleComparison;
   /** Hand-picked related guides, by slug, shown before the scored ones (see lib/related.ts). */
   related?: string[];
+  /**
+   * DOC data hubs this guide points readers to (English pages only): a hub kind ("camping", "huts",
+   * "freedom-camping") lists every indexable hub of that kind, a hub id ("huts/west-coast") just that one.
+   */
+  hubs?: readonly string[];
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
 

@@ -4,7 +4,7 @@ const s = (heading: string, body: string[], tips?: string[]): ArticleSection => 
 
 export const campingArticles: Article[] = [
   a({
-    slug: "doc-huts-new-zealand-guide",
+    slug: "doc-huts-new-zealand-guide", hubs: ["huts"],
     title: "DOC Huts in New Zealand by Region: Types, Fees, Tickets",
     description: "Where DOC's huts are, region by region, what serviced, standard and basic huts cost in 2026/27, and how hut tickets, the Hut Pass and bookings work.",
     category: "Camping guides", region: "New Zealand backcountry", readTime: 4,
