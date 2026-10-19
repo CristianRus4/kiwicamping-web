@@ -1,4 +1,4 @@
-import { consentStrings, staticPages, uiStrings } from "@/lib/source-strings";
+import { consentStrings, staticPages, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -28,6 +28,9 @@ export function translationSource() {
     // Its own namespace: these never gate publishing (see consentStrings in lib/source-strings.ts).
     consent: consentStrings,
     pages: staticPages,
+    // The calculator pages. Gated per tool (lib/tools.ts), so a partial `tools` block never
+    // unpublishes a locale; keep every {placeholder} exactly.
+    tools: toolStrings,
     articles: Object.fromEntries(translatableArticles.map((article) => [article.slug, forTranslation(article)])),
   };
 }

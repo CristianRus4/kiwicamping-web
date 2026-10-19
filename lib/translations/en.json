@@ -412,6 +412,232 @@
       ]
     }
   },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Home",
+      "breadcrumbTools": "Tools",
+      "howTitle": "How it's calculated",
+      "exampleTitle": "Worked example",
+      "assumptionsTitle": "Assumptions",
+      "sourcesTitle": "Sources",
+      "faqTitle": "Common questions",
+      "guidesTitle": "Related guides",
+      "otherToolsTitle": "More road trip calculators",
+      "openTool": "Open the calculator",
+      "ctaEyebrow": "Plan it in KiwiCamping",
+      "ctaTitle": "Find the stops, then do the maths.",
+      "ctaText": "KiwiCamping is free to download for iPhone. Bookable holiday parks, stays and tours are free in the app. DOC campsites, huts, dump stations and the guides open with the Pass.",
+      "ctaButton": "Download app",
+      "enterValidValues": "Enter valid values",
+      "enterValidAmount": "Enter a valid amount"
+    },
+    "index": {
+      "metaTitle": "NZ Road Trip Calculators: Fuel, Driving Time, Campsite Costs",
+      "metaDescription": "Free New Zealand road trip calculators: fuel cost, driving time by road type, campsite cost per person or per site, NZD currency conversion and campervan water tanks.",
+      "toolsTitle": "One calculator per question",
+      "toolsText": "Each calculator has its own page with the formula, a worked example using New Zealand figures, the assumptions behind it and answers to common questions."
+    },
+    "fuel": {
+      "metaTitle": "Fuel Cost Calculator NZ: Campervan Road Trip Fuel",
+      "metaDescription": "Work out litres and fuel cost for a New Zealand road trip from distance, L/100 km and the pump price, with the formula, a 1,000 km worked example and MBIE's benchmark.",
+      "eyebrow": "Fuel cost calculator",
+      "cardEyebrow": "Fuel calculator",
+      "h1": "Fuel cost calculator for a New Zealand road trip",
+      "intro": "Enter the route distance, your vehicle's loaded fuel use and the price per litre. The default price is MBIE's national board price for regular 91 petrol in the week ending 26 July 2026.",
+      "cardTitle": "Price the driving distance.",
+      "cardText": "Enter the full route distance, the vehicle's loaded fuel use and the expected price per litre. Remote prices can exceed city benchmarks.",
+      "labelDistance": "Distance (km)",
+      "labelConsumption": "Consumption (L/100 km)",
+      "labelPrice": "Fuel price (NZD/L)",
+      "formula": [
+        "Litres = distance (km) × consumption (L/100 km) ÷ 100",
+        "Cost = litres × price per litre (NZD)"
+      ],
+      "formulaNote": "Consumption is quoted per 100 kilometres, so dividing by 100 turns it into litres per kilometre. The sum is linear: double the distance and both the litres and the cost double.",
+      "example": "A {distance} km route in a campervan using {consumption} L/100 km needs {litres} litres of fuel. At {price} a litre, that is {cost}.",
+      "assumptions": [
+        "The default price is a national benchmark. Remote stations, including on the West Coast and in Fiordland, often charge more, so fill up before long gaps between towns.",
+        "Use the loaded consumption of the vehicle you are actually driving. A full campervan on hills and into a headwind uses more than its brochure figure.",
+        "Add the local driving around each stop. Supermarket runs, viewpoints and side roads add up over a long route.",
+        "Diesel vehicles pay road user charges (RUC) for every 1,000 km on top of fuel. This calculator covers fuel only."
+      ],
+      "faq": [
+        [
+          "How much fuel does a campervan use in New Zealand?",
+          "It depends on the vehicle, the load and the roads. Use the figure from your hire company or vehicle and allow a margin for hills. The 12 L/100 km default is a planning figure for a loaded campervan, not a measured average."
+        ],
+        [
+          "Does the fuel cost include road user charges?",
+          "No. Diesel vehicles in New Zealand pay road user charges per 1,000 km separately from fuel. Ask your hire company whether RUC is included in the rate, and check NZTA for current charges."
+        ],
+        [
+          "Where does the default fuel price come from?",
+          "It is MBIE's national board price for regular 91 petrol in the week ending 26 July 2026. MBIE publishes fuel prices every week, so check the latest figure before you go."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Driving Time Calculator NZ: Realistic Hours by Road Type",
+      "metaDescription": "Estimate how long a New Zealand driving day really takes from the distance, the kind of road and your stops, with the formula, a worked example and the speeds used.",
+      "eyebrow": "Driving time calculator",
+      "cardEyebrow": "Driving day estimator",
+      "h1": "Driving time calculator for New Zealand roads",
+      "intro": "Routing apps give moving time on an ideal road. This calculator takes the distance you already know, an average speed for the kind of road and 20 minutes for every stop, which is where a New Zealand driving day usually runs over.",
+      "cardTitle": "How long that day really takes.",
+      "cardText": "Routing apps give moving time on an ideal road. This adds the road character and your actual stops, which is where a day usually runs over.",
+      "labelDistance": "Distance (km)",
+      "labelRoadType": "Road type",
+      "roadMotorway": "Motorway or open straight",
+      "roadHighway": "Main highway",
+      "roadWinding": "Winding or coastal",
+      "roadNarrow": "Narrow, steep or gravel",
+      "labelStops": "Stops",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Driving minutes = distance (km) ÷ average speed (km/h) × 60",
+        "Total minutes = driving minutes + 20 × stops"
+      ],
+      "formulaNote": "The average speed is not the speed limit. It allows for corners, hills, one-lane bridges, towns and slower traffic. The four road types use 85, 70, 60 and 45 km/h.",
+      "example": "A {distance} km day on winding or coastal roads at {speed} km/h is {driving} of driving. Add {stops} stops at 20 minutes each and the day takes {total}.",
+      "assumptions": [
+        "The average speeds are planning figures for a car or campervan in good conditions, not measured averages for any one road.",
+        "Each stop counts 20 minutes for fuel, food, a toilet or a viewpoint. Ferries, road works and long walks need adding on top.",
+        "Weather, slips and closures change routes. Check NZTA's journey planner for current road conditions before you set off."
+      ],
+      "faq": [
+        [
+          "How far can you drive in a day in New Zealand?",
+          "There is no single number. Winding roads, one-lane bridges and stops keep average speeds well below the open-road limit, so a day that looks short on a map can take most of the daylight. Enter the distance and road type to see the hours, and plan regular rest breaks."
+        ],
+        [
+          "Why is this longer than my maps app?",
+          "Maps apps estimate moving time with no stops. This uses an average for the kind of road and adds time for each stop, which is closer to how a camping day actually goes."
+        ],
+        [
+          "Does it work for a campervan?",
+          "Yes. Choose a slower road type if you are driving a large vehicle, towing, or new to driving on the left."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campsite Cost Calculator NZ: Per Person or Per Site?",
+      "metaDescription": "Compare a DOC campsite charged per adult with a holiday park charged per site for your group and nights, with the formula, a worked example and DOC fee figures from the data.",
+      "eyebrow": "Campsite cost calculator",
+      "cardEyebrow": "Campsite comparison",
+      "h1": "Campsite cost calculator: per person or per site",
+      "intro": "DOC campsites charge per adult per night, while a holiday park usually charges per site. Which one is cheaper flips with the size of your group, and this works it out for your nights.",
+      "cardTitle": "Per person or per site?",
+      "cardText": "A DOC campsite usually charges per adult and a holiday park usually charges per site. The cheaper option flips with party size, which catches families out.",
+      "labelAdults": "Adults",
+      "labelNights": "Nights",
+      "labelPerAdult": "Per adult (NZD)",
+      "labelPerSite": "Per site (NZD)",
+      "comparison": "{perAdult} vs {perSite} · {verdict}",
+      "theSame": "the same",
+      "perAdultCheaper": "per-adult is cheaper",
+      "perSiteCheaper": "per-site is cheaper",
+      "formula": [
+        "Per-adult total = adults × nights × rate per adult",
+        "Per-site total = nights × rate per site",
+        "The lower total is the cheaper option for your group"
+      ],
+      "formulaNote": "The per-adult total grows with every extra adult, while the per-site total does not. That is why the answer changes between a couple and a family.",
+      "example": "{adults} adults staying {nights} nights at {rateAdult} per adult pay {totalAdult}. The same stay at {rateSite} per site costs {totalSite}, so {verdict}.",
+      "assumptions": [
+        "Children are left out. Many DOC campsites charge a reduced rate for ages 5 to 17 and nothing for infants, and holiday parks set their own child rates.",
+        "The default rates are examples, not quotes. In the DOC data as of {docDate}, {docFree} DOC campsites are free, and the lowest adult rate listed at paid ones runs from {docMin} to {docMax} per night.",
+        "Holiday parks set their own prices, which change with the season, power and site size. Check the park before you book."
+      ],
+      "faq": [
+        [
+          "How much does a campsite cost per night in New Zealand?",
+          "DOC campsites are either free or charge per adult. In the DOC data as of {docDate}, the lowest adult rate at paid DOC campsites runs from {docMin} to {docMax} per night, with a median of {docMedian}. Holiday parks set their own site prices, so compare the total for your group."
+        ],
+        [
+          "Is per person or per site cheaper for a family?",
+          "Per site usually wins as the group grows, because the site price stays the same while per-adult charges multiply. Enter your own rates to see where the break-even point falls."
+        ],
+        [
+          "Do children pay at DOC campsites?",
+          "At many DOC campsites children aged 5 to 17 pay a reduced rate and infants stay free. The fee for each campsite is on its DOC page."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "NZD Currency Converter: New Zealand Prices in 9 Currencies",
+      "metaDescription": "Convert New Zealand dollar prices to and from USD, EUR, GBP, AUD, JPY, CNY, KRW, INR and SGD using Reserve Bank of New Zealand reference rates.",
+      "eyebrow": "Currency converter",
+      "cardEyebrow": "Currency converter",
+      "h1": "NZD currency converter for New Zealand trip prices",
+      "intro": "Convert a New Zealand price into your own currency, or your currency into New Zealand dollars, using Reserve Bank of New Zealand reference rates from {rateDate}.",
+      "cardTitle": "Convert a New Zealand price.",
+      "cardText": "Reference conversion for trip planning using Reserve Bank of New Zealand rates from {rateDate}. Your bank or card may use another rate and add fees.",
+      "labelAmount": "Amount",
+      "labelFrom": "From",
+      "labelTo": "To",
+      "formula": [
+        "Amount in NZD = amount ÷ rate of the currency you convert from",
+        "Result = amount in NZD × rate of the currency you convert to"
+      ],
+      "formulaNote": "Each rate is the number of units of that currency per 1 New Zealand dollar, so every conversion passes through NZD.",
+      "example": "{amount} at {rate} US dollars per New Zealand dollar is {converted}.",
+      "assumptions": [
+        "These are reference rates from {rateDate}. Exchange rates move every day.",
+        "Banks, cards and cash machines use their own rates and may add fees, so the amount you pay can differ.",
+        "Japanese yen and Korean won are shown without decimals."
+      ],
+      "faq": [
+        [
+          "What currency is used in New Zealand?",
+          "The New Zealand dollar (NZD). Prices in shops, campsites and holiday parks are quoted in NZD."
+        ],
+        [
+          "Is this the rate my bank will give me?",
+          "Probably not exactly. This uses reference rates from {rateDate}. Your bank or card provider applies its own rate and fees, so treat the result as a planning figure."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Campervan Water Tank Calculator: Fresh and Grey Water Days",
+      "metaDescription": "Work out how many days a campervan's fresh and grey water tanks last for your group, with the formula, a worked example and the daily figures behind it.",
+      "eyebrow": "Water tank calculator",
+      "cardEyebrow": "Water and waste planner",
+      "h1": "Campervan water tank calculator",
+      "intro": "A tank size in litres only becomes useful once it is days. Enter the fresh and grey water capacity and the number of people to see which tank sets your limit.",
+      "cardTitle": "How many days off grid.",
+      "cardText": "Capacity in litres only becomes useful once it is expressed in days. Fresh and grey water are shown separately, because whichever runs out first sets the limit.",
+      "labelFresh": "Fresh water (L)",
+      "labelGrey": "Grey water (L)",
+      "labelPeople": "People",
+      "days": "{fresh} days fresh · {grey} days grey",
+      "formula": [
+        "Fresh water days = fresh tank (L) ÷ (people × 11 L a day)",
+        "Grey water days = grey tank (L) ÷ (people × 9 L a day)",
+        "The lower of the two is how long you can stay before refilling or emptying"
+      ],
+      "formulaNote": "Grey water is the waste from sinks and showers. It is lower than fresh water use because drinking water and cooking water do not all end up in the tank.",
+      "example": "{people} people with a {freshTank} litre fresh tank and a {greyTank} litre grey tank have {freshDays} days of fresh water and {greyDays} days of grey water, so the fresh tank sets the limit.",
+      "assumptions": [
+        "11 litres of fresh water and 9 litres of grey water per person per day are planning figures for careful use: drinking, cooking, washing up and a quick wash. Showers use far more.",
+        "Toilet cassettes and black water are not included.",
+        "Empty grey water only at a dump station. Never on the ground or into a stormwater drain."
+      ],
+      "faq": [
+        [
+          "How long does 100 litres of fresh water last in a campervan?",
+          "For two careful users at 11 litres each a day, about four and a half days. Showers and washing clothes shorten that a lot."
+        ],
+        [
+          "Where can I empty grey water in New Zealand?",
+          "At a dump station. Many holiday parks have one, and councils run public ones in many towns. Never empty grey water onto the ground or into a stormwater drain."
+        ],
+        [
+          "Which tank runs out first?",
+          "Whichever is smaller for your use. Grey tanks are often smaller than fresh tanks, so check both rather than only the fresh water gauge."
+        ]
+      ]
+    }
+  },
   "articles": {
     "coromandel-rotorua-road-trip": {
       "title": "Auckland, Coromandel and Rotorua: a 5-day camping loop",

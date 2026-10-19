@@ -566,3 +566,41 @@ em { color: inherit; font: inherit; font-style: normal; }
 :is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.brand, .hero-copy h1, .page-hero h1, .store-button, .section h2, .feature-stage h2, .principles h2, .download-section h2, .reviews-section h2, .steps-grid h3, .feature-copy-large h3, .article-card h3, .review-card h3, .category-heading h2, .article-header h1, .article-faq summary, .article-body h2, .editorial-opening blockquote, .related-section h2, .legal-page h1, .tool-card h2, .tools-reading h2) { letter-spacing: 0; }
 :is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.brand, .eyebrow, .kicker, .hero-copy h1, .page-hero h1, .section h2, .feature-stage h2, .principles h2, .download-section h2, .reviews-section h2, .feature-copy-large li, .text-link, .article-image > span, .review-avatar, .faq-list summary, .support-group summary, .guide-benefits span, .article-header h1, .editorial-opening blockquote, .sources a, .tool-output, .mobile-cta) { font-weight: 700; }
 :is(:lang(ja), :lang(ko), :lang(zh-Hans), :lang(zh-Hant)):is(.eyebrow, .kicker, .trust-strip span, .article-image > span, .footer-grid strong, .category-heading span, .article-breadcrumb, .price-table thead th, .article-tips strong, .on-this-page strong) { text-transform: none; }
+/* Calculator pages (/tools/<slug>/): one calculator above the article-style explanation. */
+.tool-page .tool-single { grid-template-columns: 1fr; max-width: 760px; padding-top: 10px; padding-bottom: 30px; }
+.tool-formula { padding: 0; list-style: none; display: grid; gap: 8px; }
+.tool-formula code { display: block; padding: 12px 16px; border-left: 4px solid var(--eucalyptus); background: var(--soft); font-size: 15px; white-space: normal; }
+.tool-assumptions li { margin-bottom: 8px; color: var(--muted); }
+.tools-directory ul { padding: 0; margin: 14px 0 0; list-style: none; display: grid; gap: 8px; }
+
+/* Data hubs (/camping/, /huts/, /freedom-camping/). */
+.hub-source { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+.hub-source svg { width: 15px; height: 15px; color: var(--fern); }
+.hub-source a { color: var(--fern); font-weight: 700; }
+.hub-map { margin: 22px 0 8px; }
+.hub-map svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border: 1px solid var(--line); }
+.hub-map-sea { fill: var(--soft); }
+.hub-map-land { fill: var(--paper); stroke: var(--line); stroke-width: 1; }
+.hub-map-dot { fill: var(--fern); fill-opacity: .82; stroke: var(--paper); stroke-width: 1; }
+.hub-map figcaption { margin-top: 8px; color: var(--muted); font-size: 12px; }
+.hub-facts th { font-weight: 600; }
+.hub-places th span { display: block; color: var(--muted); font-size: 12px; font-weight: 400; }
+.hub-council { padding: 22px 26px; border-left: 4px solid var(--eucalyptus); background: var(--soft); }
+.hub-council ul, .hub-directory ul { padding: 0; list-style: none; }
+.hub-council a { padding: 6px 0; color: var(--fern); display: flex; align-items: center; justify-content: space-between; font-weight: 750; }
+.hub-council svg, .hub-directory svg { width: 16px; }
+.hub-directory a { padding: 14px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto 20px; gap: 14px; align-items: center; }
+.hub-directory a span { color: var(--muted); font-size: 14px; }
+.hub-table-wrap { width: 100%; overflow-x: auto; border: 1px solid var(--line); }
+.hub-table { width: 100%; border-collapse: collapse; background: var(--paper); font-size: 14px; }
+.hub-table th, .hub-table td { padding: 11px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.hub-table thead th { background: var(--soft); color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.hub-facts th { width: 46%; color: var(--muted); font-weight: 500; }
+.hub-facts td { font-weight: 700; }
+.hub-places td { color: var(--muted); }
+.hub-places tbody th { min-width: 180px; }
+@media (max-width: 700px) {
+  .hub-places thead { display: none; }
+  .hub-places tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .hub-places th, .hub-places td { display: block; padding: 3px 14px; border: 0; }
+}

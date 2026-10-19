@@ -3,7 +3,7 @@
  *
  * Everything a locale can override lives in one file with the same shape as de.json/es.json/…:
  *
- *   { "ui": { … }, "pages": { support, privacy, terms }, "articles": { "<slug>": { … } } }
+ *   { "ui": { … }, "pages": { support, privacy, terms }, "tools": { shared, index, <tool> }, "articles": { "<slug>": { … } } }
  *
  * Translate the values, keep every key and every array position, save the result as
  * lib/translations/<code>.json, and the site picks it up on the next build. Partial files are fine:
