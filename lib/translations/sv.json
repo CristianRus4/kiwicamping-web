@@ -1,6 +1,1082 @@
 {
   "locale": "sv",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Svenska",
+    "metaTitle": "KiwiCamping: campingkarta, DOC-platser och reseplanerare för NZ",
+    "metaDescription": "Över 6 500 campingplatser, DOC-stugor, holiday parks och platser för freedom camping i Nya Zeeland. Platsinfo utan täckning, smarta filter och reseplanerare för iPhone.",
+    "ogTitle": "KiwiCamping: campingkartan och reseplaneraren för Nya Zeeland",
+    "ogDescription": "Över 6 500 campingplatser, DOC-stugor, holiday parks och platser för freedom camping, sparade offline i appen. Filtrera, spara och planera hela resan.",
+    "metaKeywords": "campingapp Nya Zeeland, campingkarta NZ, freedom camping NZ, fricamping Nya Zeeland, DOC-campingplatser app, DOC-stugor karta, holiday parks Nya Zeeland, husbil Nya Zeeland, reseplanerare Nya Zeeland",
+    "metaGuidesTitle": "Guider för camping och roadtrip i Nya Zeeland",
+    "metaGuidesDescription": "Campingregler, freedom camping och krav på self-contained, DOC-platser, rätt säsong, verkliga kostnader och praktisk planering för en roadtrip i Nya Zeeland.",
+    "metaToolsTitle": "Räknare för en roadtrip i Nya Zeeland",
+    "metaToolsDescription": "Räkna om nyzeeländska priser, beräkna bränslet för resan, uppskatta en realistisk kördag, se hur länge vatten- och gråvattentanken räcker och jämför campingpriser.",
+    "metaSupportTitle": "Support och vanliga frågor",
+    "metaSupportDescription": "Hjälp med kartor, platsinformation, filter, samlingar, reseplaneraren, offlinedata, valutaomräkning och Premium i KiwiCamping.",
+    "navFeatures": "Funktioner",
+    "navGuides": "Guider",
+    "navTools": "Verktyg",
+    "navSupport": "Support",
+    "download": "Ladda ner appen",
+    "downloadShort": "Ladda ner",
+    "updated": "Uppdaterad",
+    "commonQuestions": "Vanliga frågor",
+    "altHero": "KiwiCamping-kartan över Nya Zeeland med kartnålar för campingplatser, holiday parks och freedom camping runt Golden Bay, och listan Utforska med platser i närheten nedanför",
+    "altPlaceScreen": "En platssida i KiwiCamping för Robin Hood Bay Campsite i Marlborough, som visar att platsen är gratis, om den är öppen, faciliteter och en bokningslänk",
+    "altCollectionsScreen": "Samlingarna i KiwiCamping med listorna Vill besöka, Besökta, Pins och Alla sparade ovanpå en satellitkarta över Great Barrier Island",
+    "altTripScreen": "En resplan i KiwiCamping för Bay of Islands med sju stopp, körsträcka, datum och vädret vid varje campingplats",
+    "altExploreScreen": "Listan Utforska i KiwiCamping med DOC-stugor och campingplatser i Southland, Auckland och Wellington och hur långt bort de ligger från kartvyn",
+    "heroKicker": "Den bästa campingappen för Nya Zeeland",
+    "heroTitle": "Nya Zeeland är stort. Din plan kan vara enkel.",
+    "heroText": "Över 6 500 platser i hela Nya Zeeland, sparade i appen så att de öppnas även utan täckning. Filtrera fram exakt det du behöver, spara det och gör om urvalet till en roadtrip med rutt, avstånd, datum, anteckningar och att göra-lista.",
+    "seeHow": "Se hur det fungerar",
+    "statPlaces": "6 500+",
+    "statPlacesLabel": "platser i hela Nya Zeeland",
+    "statOffline": "Offline",
+    "statOfflineLabel": "all platsinformation, ingen täckning behövs",
+    "statStays": "2 000+",
+    "statStaysLabel": "boenden",
+    "trustLine": "Campingplatser, stugor, holiday parks och praktiska stopp i hela Nya Zeeland.",
+    "trustCampsites": "Campingplatser",
+    "trustHolidayParks": "Holiday parks",
+    "trustNationalParks": "Nationalparker",
+    "trustFreedomCamping": "Freedom camping",
+    "trustUsefulStops": "Praktiska stopp",
+    "trustDayUse": "Picknickplatser",
+    "processEyebrow": "Från idé till avfärd",
+    "processTitle": "Hitta campingen. Planera resan.",
+    "processText": "Filtrera fram var du ska sova i natt, spara morgondagens alternativ i samlingar och håll rutt, avstånd, datum, anteckningar och att göra-lista samlade i en och samma resa.",
+    "findTitle": "Hitta precis rätt plats",
+    "findText": "Sök bland över 6 500 platser, se vad som finns i närheten eller lägg på filter tills bara gratis campingplatser med toalett och vatten finns kvar på just din del av kartan.",
+    "saveTitle": "Spara den i en samling",
+    "saveText": "Gilla, stjärnmärk eller markera en plats som besökt, så uppdateras de smarta samlingarna av sig själva. Gör egna listor med namn för en region, en säsong eller ett urval.",
+    "planTitle": "Gör om den till en resa",
+    "planText": "Lägg stoppen i ordning, se avståndet mellan dem, lägg till datum och anteckningar, kolla vädret vid varje stopp, få vägbeskrivning och bocka av dem allteftersom.",
+    "featuresEyebrow": "Hela verktygslådan",
+    "featuresTitle": "Hitta den. Spara den. Planera hela resan.",
+    "featuresText": "Utforska platser, jämför detaljerna, ordna favoriterna och planera en resa som håller även när du har lämnat köksbordet.",
+    "featureMainEyebrow": "Lär känna platsen innan du kommer dit",
+    "featureMainTitle": "Varje plats öppnas med det som avgör valet.",
+    "featureMainText": "Foton, en riktig beskrivning, öppettider, avgifter, villkor, faciliteter sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder och Street View så att du ser infarten från vägen.",
+    "featureList1": "Foton, öppettider, avgifter, villkor och faciliteter",
+    "featureList2": "Street View, väder och vägbeskrivning direkt i appen",
+    "featureList3": "Finns offline och öppnas utan täckning",
+    "feature1Title": "Smarta samlingar och egna listor",
+    "feature1Text": "”Gillade”, ”Stjärnmärkt”, ”Vill besöka” och ”Besökta” fylls på av sig själva när du markerar platser. Skapa egna samlingar ovanpå för en ö, en säsong eller den lista ni fortfarande inte är överens om.",
+    "feature2Title": "Filter som svarar på en riktig fråga",
+    "feature2Text": "Sök efter gratis campingplatser med toalett och dricksvatten runt Queenstown och smalna sedan av efter typ av plats, avgift, betyg, bokning på nätet, region och detaljerade egenskaper för faciliteter och framkomlighet.",
+    "feature3Title": "Standardkarta, satellit och 3D",
+    "feature3Text": "Växla mellan standardkartan och satellitbilder som du kan luta och vrida till verklig terräng. Kartnålarna slås ihop till en siffra när du zoomar ut och delas upp igen när du zoomar in.",
+    "feature4Title": "Street View innan du svänger av",
+    "feature4Text": "Street View öppnas direkt från platssidan där det finns bilder, så att du ser infarten, vägbeläggningen och omgivningen innan du svänger in med husbilen.",
+    "feature5Title": "Väder för varje plats",
+    "feature5Text": "Aktuellt väder och prognos finns på platssidan och vid varje stopp på resan, så att du kan välja mellan två campingplatser med ett öga på himlen.",
+    "feature6Title": "Kostnader i din egen valuta",
+    "feature6Text": "På besök och inte van vid nyzeeländska dollar? Välj din valuta och ställ in kursen en gång, så visas de uppgivna kostnaderna även i en valuta du har känsla för.",
+    "plannerEyebrow": "Huvudnumret",
+    "plannerTitle": "Stopp för stopp. Dag för dag.",
+    "plannerText": "Reseplaneraren är navet som allt annat leder till. Lägg till sparade platser som stopp och dra dem i den ordning du faktiskt kommer att köra. Varje etapp visar sitt avstånd, vägbeskrivningen till nästa stopp är ett tryck bort, varje stopp har eget datum, egna anteckningar inför ankomsten och eget väder, och du bockar av stoppen som besökta under resan. Alternativ i närheten finns kvar för dagarna då planerna ändras, packlistan ligger bredvid resplanen och alltihop kan synkas med Kalender.",
+    "plannerMetric1Title": "Avstånd och vägbeskrivning",
+    "plannerMetric1Text": "etapp för etapp och för hela resan",
+    "plannerMetric2Title": "Datum och anteckningar",
+    "plannerMetric2Text": "kopplade till varje stopp",
+    "plannerMetric3Title": "Besökt och att göra",
+    "plannerMetric3Text": "så att du ser hur långt du har kommit",
+    "plannerMetric4Title": "Väder per stopp",
+    "plannerMetric4Text": "bredvid resplanen",
+    "routesEyebrow": "Guider värda att läsa först",
+    "routesTitle": "Koll på reglerna. Koll på kostnaderna.",
+    "routesText": "Praktiska guider om campingregler, säkerhet, rätt säsong och vad en resa i Nya Zeeland faktiskt kostar.",
+    "exploreRoutes": "Utforska guiderna",
+    "audiencesEyebrow": "Vilket hem du än tar med dig",
+    "audiencesTitle": "För tält, husbilar och varvet runt Australien.",
+    "audience1Title": "Backpackers",
+    "audience1Text": "Få en snål budget och en flexibel rutt att gå ihop.",
+    "audience2Title": "Husbilar",
+    "audience2Text": "Hitta rätt mix av faciliteter, framkomlighet och övernattningsplatser.",
+    "audience3Title": "Husvagnar och stora ekipage",
+    "audience3Text": "Filtrera på utrymme, service och praktisk info om framkomlighet.",
+    "audience4Title": "Helgcampare",
+    "audience4Text": "Ha favoriterna i närheten redo när fredagen kommer.",
+    "principlesTitle": "Användbart först. Ärligt alltid.",
+    "principle1Title": "Skyltarna gäller före skärmen",
+    "principle1Text": "Anslag på plats, förvaltarens besked och aktuella råd vid nödlägen går alltid före det som står i appen.",
+    "principle2Title": "Kolla läget innan du åker",
+    "principle2Text": "Kolla de senaste uppgifterna om bokning, vägar, brandrisk och avstängningar innan du ger dig av.",
+    "principle3Title": "Lämna platsen finare",
+    "principle3Text": "Laglig camping, genomtänkt avfallshantering och respekt för whenua (landet, på maori) gör att platserna får fortsätta vara öppna.",
+    "faqEyebrow": "Några raka svar",
+    "faqTitle": "Bra frågor. Tydliga svar.",
+    "faqIntro": "Raka svar om att resa med KiwiCamping.",
+    "faq1q": "Vad är KiwiCamping?",
+    "faq1a": "KiwiCamping är en iPhone-app för att hitta platser att campa och bo på runt om i Nya Zeeland. Appen har en inbyggd katalog med över 6 500 platser, så att informationen går att läsa utan täckning, och gör om de platser du sparar till en roadtrip med rutt i rätt ordning, datum, anteckningar och att göra-lista.",
+    "faq2q": "Vilka platser finns med?",
+    "faq2a": "Över 6 500 platser: DOC-campingplatser, stugor ute i obygden, holiday parks och andra boenden som går att boka, platser för freedom camping, offentliga tömningsstationer och platser för dagsbesök på båda öarna.",
+    "faq3q": "Fungerar den utan täckning?",
+    "faq3a": "Platskatalogen följer med appen, så namn, kategorier, beskrivningar, avgifter, faciliteter och villkor går att läsa långt bortom täckningen. Livetjänster som väder, ruttberäkning, Street View, foton och leverantörernas sidor kräver fortfarande uppkoppling.",
+    "faq4q": "Kan jag planera en roadtrip med flera stopp?",
+    "faq4a": "Ja, det är appens viktigaste funktion. Lägg till platser som stopp, dra dem i rätt ordning, koppla ett datum och anteckningar inför ankomsten till varje stopp, se körsträckan etapp för etapp och för hela resan, öppna vägbeskrivningen till nästa stopp, kolla vädret vid varje stopp, bocka av stoppen som besökta och ha packlistan bredvid resplanen. Resplanen kan synkas med Kalender.",
+    "faq5q": "Vad är samlingar?",
+    "faq5a": "Det finns två slags. Smarta samlingar (”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade”) fylls på av sig själva när du markerar platser. Utöver dem kan du skapa egna samlingar med namn, ikon och anteckningar för en region, en säsong, ett fordon eller ett urval.",
+    "faq6q": "Kan jag filtrera fram gratisplatser eller platser för self-contained-fordon?",
+    "faq6a": "Ja, och kombinera dem. Filtren täcker typ av plats, avgift, lägsta betyg, bokning på nätet, region och detaljerade egenskaper för faciliteter och framkomlighet, så ”gratis campingplatser med toalett och dricksvatten nära Queenstown” blir en enda sökning.",
+    "faq7q": "Vad finns på en platssida?",
+    "faq7a": "Foton, en beskrivning, öppettider, avgifter, villkor, faciliteter sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder, Street View där det finns bilder, vägbeskrivning och alternativ i närheten.",
+    "faq8q": "Vilka kartvyer finns det?",
+    "faq8a": "En standardkarta och en satellitvy som bygger på Apples Flyover-bilder, som du kan luta och vrida för verklig 3D-terräng. Street View, som bygger på bilderna från Apples Se dig omkring, ger vyn från gatunivå direkt från platssidan.",
+    "faq9q": "Kan jag se priserna i min egen valuta?",
+    "faq9a": "Ja. Välj valuta i inställningarna och ställ in växelkursen, så visas de uppgivna kostnaderna i den valutan bredvid beloppet i nyzeeländska dollar.",
+    "faq10q": "Kan jag boka en campingplats i KiwiCamping?",
+    "faq10a": "Öppna bokningsuppgifterna för en plats för att komma vidare till leverantören och kolla aktuell tillgänglighet, priser och villkor.",
+    "faq11q": "Är campingreglerna desamma i hela Nya Zeeland?",
+    "faq11a": "Nej. Nationell lag, kommunernas lokala föreskrifter, regler för skyddad natur och villkoren på den enskilda platsen kan gälla samtidigt. Följ alltid aktuella skyltar, förvaltarens anvisningar, eldningsrestriktioner och officiella varningar.",
+    "downloadEyebrow": "Nästa plats väntar där ute",
+    "downloadTitle": "Hitta den. Spara den. Planera resan.",
+    "downloadText": "Över 6 500 nyzeeländska platser offline, filter som hittar exakt rätt plats, samlingar som ordnar sig själva och en reseplanerare som rymmer hela rutten. KiwiCamping för iOS.",
+    "guidesEyebrow": "Campingguider för Nya Zeeland",
+    "guidesTitle": "Följ vägen dit det är fint.",
+    "guidesIntro": "Utförliga guider om campingplatser, regler, kostnader på plats och praktisk planering i hela Nya Zeeland.",
+    "guideSingular": "guide",
+    "guidePlural": "guider",
+    "readGuide": "Läs guiden",
+    "minuteRead": "min läsning",
+    "places": "platser",
+    "backToGuides": "Guider",
+    "photoCredits": "Bildkällor",
+    "keepInMind": "Tänk på",
+    "placesAlong": "Platser längs vägen",
+    "checkBefore": "Kolla innan du åker",
+    "checkText": "Regler och förhållanden ändras. Kolla den officiella källan och sidan för just din park eller campingplats igen innan du åker.",
+    "priceTitle": "Pristabell i 10 valutor",
+    "pricesChecked": "Priserna kontrollerade",
+    "conversionsUse": "Omräkningarna bygger på RBNZ:s kurser från",
+    "item": "Vara",
+    "currencyDisclaimer": "Beloppen i andra valutor är mekaniska omräkningar av referenspriset i NZD, inte kurser för kort eller kontanter. Banker och betaltjänster använder egna kurser och avgifter.",
+    "related": "Läs också",
+    "takeRoad": "Ta med appen på resan",
+    "savePlanTitle": "Spara stoppen. Planera hela resan.",
+    "savePlanText": "Lägg upp en rutt i rätt ordning av dina sparade platser, räkna ut avståndet och håll datum, anteckningar och att göra-lista samlade.",
+    "toolsEyebrow": "Bra siffror att ha",
+    "toolsTitle": "Räknare för roadtripen. Inga mystiska siffror.",
+    "toolsIntro": "Snabba räknare för nyzeeländska priser och vad körningen kostar. Varje antagande syns, så att du kan byta ut det mot den siffra som passar din rutt.",
+    "currencyEyebrow": "Valutaomräknare",
+    "currencyTitle": "Räkna om ett nyzeeländskt pris.",
+    "currencyText": "Referensomräkning för reseplanering med kurser från Reserve Bank of New Zealand. Din bank eller ditt kort kan använda en annan kurs och lägga på avgifter.",
+    "fuelEyebrow": "Bränsleräknare",
+    "fuelTitle": "Vad kostar sträckan?",
+    "fuelText": "Ange hela ruttens längd, fordonets förbrukning med full last och det literpris du räknar med. Långt ute på landsbygden kan priset ligga över storstädernas.",
+    "driveEyebrow": "Räkna på kördagen",
+    "driveTitle": "Så lång blir kördagen i verkligheten.",
+    "driveText": "Navigeringsappar räknar körtid på en perfekt väg. Här läggs vägens karaktär och dina faktiska stopp till, och det är där en dag oftast drar över.",
+    "tankEyebrow": "Planera vatten och gråvatten",
+    "tankTitle": "Så många dagar räcker tankarna.",
+    "tankText": "Tankvolym i liter blir användbar först när den räknas om till dagar. Gråvattentanken blir oftast full innan färskvattnet tar slut, så båda visas.",
+    "campEyebrow": "Jämför campingpriser",
+    "campTitle": "Per person eller per plats?",
+    "campText": "En DOC-campingplats tar oftast betalt per vuxen och en holiday park oftast per plats. Vilket som blir billigast beror på hur många ni är, och det är där barnfamiljer brukar gå bet.",
+    "amount": "Belopp",
+    "from": "Från",
+    "to": "Till",
+    "labelDistance": "Avstånd (km)",
+    "labelConsumption": "Förbrukning (l/100 km)",
+    "labelFuelPrice": "Bränslepris (NZD/l)",
+    "labelRoadType": "Vägtyp",
+    "roadMotorway": "Motorväg eller rak landsväg",
+    "roadHighway": "Större huvudväg",
+    "roadWinding": "Kurvig väg eller kustväg",
+    "roadNarrow": "Smal, brant väg eller grusväg",
+    "labelStops": "Stopp",
+    "labelFresh": "Färskvatten (l)",
+    "labelGrey": "Gråvatten (l)",
+    "labelPeople": "Personer",
+    "labelAdults": "Vuxna",
+    "labelNights": "Nätter",
+    "labelPerAdult": "Per vuxen (NZD)",
+    "labelPerSite": "Per plats (NZD)",
+    "toolsReadingTitle": "Gör budgeten utifrån aktuella riktpriser.",
+    "toolsReadingText": "Verktygen räknar exakt på det du matar in. Våra kostnadsguider förklarar var startsiffrorna kommer ifrån, när de kontrollerades och vad som kan ändra slutpriset.",
+    "toolsReadingLink": "Utforska kostnadsguiderna",
+    "calculatorNote": "Räknarna är ett stöd för planeringen, inte aktuella priser från bokningar, mackar eller valutaväxlare. Tankberäkningen utgår från ungefär 11 liter färskvatten och 9 liter gråvatten per person och dag, vilket varierar med hur mycket du duschar och lagar mat. Kolla aktuella priser innan du köper.",
+    "enterValidValues": "Ange giltiga värden",
+    "enterValidAmount": "Ange ett giltigt belopp",
+    "daysFresh": "dagar färskvatten",
+    "daysGrey": "dagar gråvatten",
+    "theSame": "samma",
+    "perAdultCheaper": "per vuxen är billigare",
+    "perSiteCheaper": "per plats är billigare",
+    "supportTitle": "Hur kan vi hjälpa till?",
+    "supportIntro": "Svar om att hitta platser, spara favoriter, planera resor och använda KiwiCamping på vägen.",
+    "contact": "Kontakta support",
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "explore": "Utforska",
+    "help": "Hjälp",
+    "getApp": "Hämta appen",
+    "travelGuides": "Reseguider",
+    "footerText": "Hitta över 6 500 nyzeeländska platser offline, spara dem som betyder något och planera hela roadtrips med rutter, avstånd, datum, anteckningar och att göra-listor.",
+    "footerLine": "Gjord för den långa vägen runt Nya Zeeland.",
+    "rulesSafety": "Regler och säkerhet",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Campingguider",
+    "tripPlanning": "Reseplanering",
+    "costsBudget": "Kostnader och budget",
+    "appGuides": "Appguider"
+  },
+  "consent": {
+    "label": "Integritetsval",
+    "text": "Får KiwiCamping använda cookies från Google Analytics för att se vilka sidor som hjälper resenärer? De används aldrig för reklam.",
+    "accept": "Godkänn",
+    "decline": "Avböj",
+    "policy": "Integritetspolicy",
+    "choices": "Integritetsval"
+  },
+  "pages": {
+    "support": {
+      "title": "Hur kan vi hjälpa till?",
+      "lede": "Tydliga svar om kartor, sparade platser, reseplanering och resan som ligger framför dig.",
+      "sections": [
+        {
+          "heading": "Hitta platser",
+          "paragraphs": [
+            "Sök på en plats namn, adress eller beskrivning. Flytta kartan och välj alternativet för det aktuella området, så samlas resultaten kring det du ser på kartan.",
+            "Filtrera på typ av plats, avgift, lägsta betyg, bokning på nätet, region och detaljerade egenskaper för faciliteter och framkomlighet. Kombinera bara de filter som spelar roll, så att användbara alternativ inte försvinner ur listan.",
+            "Faciliteter, avgifter, framkomlighet och förvaltning kan ändras. Följ aktuella skyltar och förvaltarens besked, och skicka sedan gärna en rättelse så att katalogen blir bättre."
+          ]
+        },
+        {
+          "heading": "Sparade platser",
+          "paragraphs": [
+            "”Gillade”, ”Besökta”, ”Vill besöka” och ”Stjärnmärkt” uppdateras automatiskt när du markerar platser. ”Pins” och ”Alla sparade” ger fler snabba vyer.",
+            "Skapa samlingar med namn, ikon och anteckningar och lägg sedan till vilka platser du vill. Använd dem för en region, en säsong, ett fordon eller ett urval.",
+            "Appen kan synka dina markeringar, samlingar och resor privat via iCloud när iCloud finns och är aktiverat."
+          ]
+        },
+        {
+          "heading": "Reseplaneraren",
+          "paragraphs": [
+            "Skapa en resa, lägg till platser och dra dem i rätt ordning. Varje stopp kan ha eget ankomstdatum, egna anteckningar, väder och status som besökt, och planeraren visar körsträckan etapp för etapp och för hela resan.",
+            "Ruttberäkningen bygger på de vägbeskrivningar som MapKit kan ta fram. Om en etapp inte går att beräkna finns stoppen kvar, men du måste själv kontrollera att vägen går att köra just nu.",
+            "Börja med en färdig mall med det viktigaste för campingen eller skriv egna uppgifter. I vyn ”Resans framsteg” ligger listan bredvid resplanen, och resplanen kan synkas med Kalender."
+          ]
+        },
+        {
+          "heading": "Kartor, väder och liveinformation",
+          "paragraphs": [
+            "Växla mellan standardkartan och en satellitvy som bygger på Apples Flyover-bilder och som går att luta och vrida till 3D-terräng. Street View, som bygger på bilderna från Apples Se dig omkring, öppnas från platssidan där det finns bilder.",
+            "Aktuellt väder och prognoser kräver uppkoppling. Spara viktiga prognoser och officiella varningar innan du lämnar täckningen.",
+            "Platskatalogen följer med appen, så den viktigaste platsinformationen finns kvar även där täckningen sviktar. Kartan, ruttberäkningen, vädret, foton och externa leverantörers sidor hämtas live och kan kräva täckning."
+          ]
+        },
+        {
+          "heading": "Priser och valuta",
+          "paragraphs": [
+            "Välj valuta i inställningarna och ställ in växelkursen. De uppgivna kostnaderna visas sedan i den valutan bredvid beloppet i nyzeeländska dollar, vilket hjälper när du är på besök och inte har någon känsla för NZD.",
+            "Öppna boknings- eller kontaktuppgifterna för en plats för att kolla tillgänglighet, pris och villkor med leverantören. Priserna i appen är uppgivna belopp, inte aktuella offerter."
+          ]
+        },
+        {
+          "heading": "Premium och köp",
+          "paragraphs": [
+            "Kartan och platsinformationen är gratis, liksom två sparade listor.",
+            "Premium ger obegränsat antal sparade listor, reseplanering, avancerade filter, väder för varje plats och färdiga rutter för roadtrips.",
+            "Tryck på ”Återställ köp” på Premiumskärmen medan du är inloggad med det Apple-konto som användes vid det ursprungliga köpet."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Gäller från 19 oktober 2026",
+      "title": "Integritetspolicy",
+      "lede": "KiwiCamping hjälper dig att planera en resa utan att göra dina resor till en reklamprofil.",
+      "sections": [
+        {
+          "heading": "Uppgifter som sparas på din enhet",
+          "paragraphs": [
+            "Sparade platser, vilka samlingar de ligger i, resor, anteckningar, punkter i checklistor och inställningar sparas för att appen ska fungera. Din position kan användas för att visa var du är och vilka platser som finns i närheten, men först när du har gett tillstånd."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "När iCloud finns och är aktiverat kan appen använda din privata iCloud-databas för att synka markeringar, samlingar och appdata mellan dina enheter. Apple tillhandahåller själva tjänsten, och där gäller Apples egna villkor."
+          ]
+        },
+        {
+          "heading": "Apple-tjänster som kräver uppkoppling",
+          "paragraphs": [
+            "Kartvisning, vägbeskrivningar, Se dig omkring, väder, kalenderkoppling och widgetar kan använda Apples ramverk. Förfrågningar och datahantering för de tjänsterna styrs av Apple. Appen använder kalendern först när du har gett tillstånd, och bara för att lägga in den information om resplanen som du själv ber om."
+          ]
+        },
+        {
+          "heading": "Externa länkar och webbplatsloggar",
+          "paragraphs": [
+            "Från platsinformationen kan du öppna bokningstjänster, webbplatser, sociala profiler, telefonnummer, e-postadresser och kartappar. De tjänsterna tar emot uppgifter enligt sina egna policyer när du väljer att öppna dem.",
+            "Webbhotellet kan behandla vanliga tekniska loggar som IP-adress, webbläsartyp och begärd URL för att kunna leverera webbplatsen, hålla den stabil och skydda den. KiwiCamping använder inga spårare för reklam på den här webbplatsen."
+          ]
+        },
+        {
+          "heading": "Webbanalys",
+          "paragraphs": [
+            "Den här webbplatsen använder Google Analytics 4 för att räkna besök och se vilka sidor som leder folk vidare till App Store. Google behandlar uppgifterna för vår räkning, som personuppgiftsbiträde. För besökare i Europeiska ekonomiska samarbetsområdet (EES), Storbritannien och Schweiz tillhandahålls tjänsten av Google Ireland Limited och i övriga världen av Google LLC.",
+            "Analysen registrerar vilka sidor du tittar på, vilken typ av enhet, webbläsare och skärm du använder, en ungefärlig position som härleds från din IP-adress (Google sparar inte själva adressen), sidan som skickade dig hit och dina klick på App Store-länkar. Den får aldrig ditt namn, din e-postadress eller något som du sparar i appen.",
+            "När analys är tillåten sätter Google Analytics två förstapartscookies: _ga och en andra vars namn börjar med _ga_. Båda slutar gälla efter 13 månader. I EES, Storbritannien och Schweiz sätts de först när du väljer ”Godkänn” i cookierutan. Fram till dess, och om du väljer ”Avböj”, sparas inga analyscookies och Google tar bara emot cookiefria signaler utan någon identifierare. Du kan ändra ditt val när som helst via länken ”Integritetsval” längst ner på varje sida.",
+            "Google-signaler och anpassade annonser är avstängda, så analysdata kopplas inte till Google-konton och används inte för reklam. Analysdata sparas i 14 månader och raderas sedan. KiwiCamping använder fortfarande inga spårare för reklam på den här webbplatsen."
+          ]
+        },
+        {
+          "heading": "Lagring och kontroll",
+          "paragraphs": [
+            "Du kan radera appens data i appen och hantera iCloud-data via ditt Apple-konto. Om du tar bort appen kan lokala data försvinna, medan synkade kopior kan ligga kvar i iCloud tills du raderar dem separat."
+          ]
+        },
+        {
+          "heading": "Barn och kontakt",
+          "paragraphs": [
+            "KiwiCamping är ett allmänt reseverktyg och riktar sig inte till barn. Skicka inte personuppgifter om ett barn via supporten.",
+            "Kontakta KiwiCamping support om du har frågor om integritet."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Gäller från 12 augusti 2026",
+      "title": "Användarvillkor",
+      "lede": "KiwiCamping är ett hjälpmedel för planering. Appen ersätter inte officiella skyltar, förvaltarens anvisningar, varningar vid nödlägen, trafikinformation eller ditt eget ansvar att bara ge dig ut på det du klarar av.",
+      "sections": [
+        {
+          "heading": "Reseinformation ändras",
+          "paragraphs": [
+            "Platser, priser, framkomlighet, faciliteter, mobiltäckning, väder, brandläge, vägar och bokningsvillkor kan ändras utan förvarning. Kontrollera viktiga uppgifter med ansvarig myndighet eller leverantör före resan och igen strax innan du åker."
+          ]
+        },
+        {
+          "heading": "Ingen garanti för bokning eller tillträde",
+          "paragraphs": [
+            "Att en plats finns i appen garanterar inte att den är öppen, tillåten för ditt fordon och din utrustning, går att nå med ditt fordon eller är ledig. Externa länkar för bokning och kontakt finns där för att underlätta. Avtal ingås mellan dig och den externa leverantören."
+          ]
+        },
+        {
+          "heading": "Säkerhet och laglig användning",
+          "paragraphs": [
+            "Du måste följa skyltar, tillstånd, avstängningar, eldningsrestriktioner, trafikregler och anvisningar från rangers, iwi och hapū (maoriska stammar och släktgrupper), räddningstjänst och markförvaltare. Använd inte appen medan du kör."
+          ]
+        },
+        {
+          "heading": "Dina uppgifter",
+          "paragraphs": [
+            "Du ansvarar själv för anteckningar, reseplaner och annan information som du sparar. Ha separata kopior av tillstånd, bokningar och planer som rör din säkerhet, om förlorad åtkomst skulle kunna äventyra resan."
+          ]
+        },
+        {
+          "heading": "Köp",
+          "paragraphs": [
+            "Alla köp i appen hanteras av Apple och omfattas av de villkor som visas vid köpet. Funktioner, paketering och priser kan ändras där det är tillåtet. Använd Apples verktyg för frågor om betalning, uppsägning och återbetalning."
+          ]
+        },
+        {
+          "heading": "Immateriella rättigheter och kontakt",
+          "paragraphs": [
+            "KiwiCampings varumärke, gränssnitt och originalinnehåll tillhör respektive ägare. Platsnamn och offentliga fakta förblir de ursprungliga källornas egendom eller ansvar.",
+            "Frågor kan skickas till KiwiCamping support."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {
+    "new-zealand-grocery-prices-2026": {
+      "title": "Matpriser i Nya Zeeland 2026: vad kostar maten?",
+      "description": "Matpriser i Nya Zeeland just nu: vad mjölk, ägg, bröd, kött, frukt och grönsaker kostar i butiken, med prisintervall omräknade till tio valutor.",
+      "region": "Matbutiker i Nya Zeeland",
+      "imageAlt": "Färska matvaror i en nyzeeländsk mataffär",
+      "intro": "Att laga maten själv är det mest direkta sättet att ha kontroll över campingbudgeten. Prisintervallen nedan bygger på priser som användare rapporterat in från hela landet, avstämda mot inflationssiffrorna för juni 2026. Se dem som riktvärden, inte som ett löfte om vad varje hylla kostar varje vecka.",
+      "sections": [
+        {
+          "heading": "Handla innan du kör ut i glesbygden",
+          "body": [
+            "De stora matbutikerna har brett sortiment och konkurrerar om kunderna. Små butiker långt från allt betalar för frakten och har mindre på hyllorna. Köp basvaror som håller innan du ger dig ut på East Cape, mot Fiordland eller längs de långa sträckorna på West Coast.",
+            "Köp gärna färskvaror i de lokala butikerna, men räkna inte med stadspriser. En del av det du betalar för är att de alls håller öppet där nästa alternativ ligger flera timmar bort."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Laga flera rätter av samma råvaror",
+          "body": [
+            "Planera måltider där ris, pasta, grönsaker, ägg och en eller två proteinkällor går igen. Med ett litet kylskåp lönar det sig att hålla inköpslistan kort och att faktiskt äta upp resterna.",
+            "Titta på jämförpriset, alltså kilo- eller literpriset, i stället för det stora priset på förpackningen. Storpack sparar bara pengar om du har plats och kyla nog för att inget ska behöva slängas."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Matpriserna står inte still",
+          "body": [
+            "Enligt Stats NZ, Nya Zeelands statistikmyndighet, hade matpriserna i juni 2026 stigit med 2,5 procent på ett år. Kött, fågel och fisk ökade ännu mer. Priserna på frukt och grönsaker svänger kraftigt med säsongen.",
+            "Använd intervallen när du planerar. Skriv sedan upp vad den första riktiga storhandlingen kostade och justera resten av budgeten efter det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "De två stora kedjorna och de billigare alternativen",
+          "body": [
+            "Countdown och New World finns i större delen av landet. Där det finns en Pak'nSave är den i regel billigast av de stora butikerna. Priserna skiljer sig märkbart mellan kedjorna i samma stad, så när du storhandlar och inte bara fyller på lönar det sig att köra en liten omväg till den billigare.",
+            "Bondemarknader och stånd längs vägen är utmärkta för frukt och grönt, och ofta billigare än mataffären för det som just då är i säsong på orten. Men oftast är det kontanter som gäller, och de har bara öppet på förmiddagen. Det är bra att veta innan du planerar efter dem."
+          ],
+          "tips": [
+            "Storhandla på Pak'nSave",
+            "Köp säsongens frukt och grönt vid vägkanten",
+            "Marknader: kontanter och förmiddagar"
+          ]
+        },
+        {
+          "heading": "Därför är det dyrare i glesbygden",
+          "body": [
+            "En liten butik på West Coast, längst upp i norr eller på East Cape har fraktkostnader att täcka, lägre omsättning och mindre konkurrens. Räkna med att basvarorna kostar en hel del mer och att det finns färre förpackningsstorlekar att välja mellan, framför allt bland färskvaror och mejeriprodukter.",
+            "Det handlar mindre om ocker än om ren matematik, och utan de här butikerna skulle många små orter inte ha någon affär alls. Fyll på ordentligt i den sista större staden och köp sedan lokalt det som är värt att köpa lokalt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Handla för ett litet kylskåp",
+          "body": [
+            "Kylskåpen i husbilar är små, och de som går på bilens batteri kyler sämre när det är varmt. Handla för två eller tre dagar i stället för en vecka, välj råvaror som går att använda i flera måltider och förvara rått kött väl förpackat längst ner, där det inte kan droppa på något.",
+            "Fiskkonserver, ägg, hårdost, havregryn, ris, pasta och rotfrukter klarar sig utan mycket kyla och räcker till många måltider. Med det som grund förlorar du inte hela storhandlingen bara för att kylan sviker en dag."
+          ],
+          "tips": [
+            "Handla för tre dagar, inte sju",
+            "Välj råvaror som funkar i flera rätter",
+            "Rått kött tätt förpackat och längst ner"
+          ]
+        },
+        {
+          "heading": "En realistisk veckobudget",
+          "body": [
+            "Reser du ensam, håller i pengarna och lagar det mesta själv kan du räkna med 110 till 180 NZD i veckan för matinköp. Ett par kommer billigare undan per person, eftersom de delar på basvarorna. Dyrare kött, färdigmat, specialkost och inköp i avlägsna butiker drar snabbt upp summan.",
+            "Lägg kaffe, takeaway och middagar ute med andra i en egen budgetpost. Räknar du allt du lägger på mat som matinköp döljer du just de utgifter som är lättast att skära i när budgeten behöver justeras."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Säsongens frukt och grönt, och vad som lönar sig",
+          "body": [
+            "Det är på säsongens lokala råvaror du sparar på riktigt. Stenfrukt i Central Otago i januari och februari, bär i Bay of Plenty under sommaren, avokado i Northland och äpplen i Hawke's Bay på hösten kostar alla mycket mindre där de odlas.",
+            "Stånden längs vägarna i odlingsbygderna bygger ofta på förtroende, med en låda där du lägger pengarna själv, och de är betydligt billigare än mataffären. Ha småsedlar och en kasse med dig, för de tar oftast bara kontanter och dyker upp utan förvarning.",
+            "Frukt och grönt utanför säsong är importerat, och det märks på priset. Att planera maten efter det som är billigt just den veckan, i stället för att följa en fast inköpslista, är den enskilda vana som sänker matkostnaden mest på en lång resa."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar en veckas matinköp i Nya Zeeland?",
+          "Guiden räknar på en riktig matkasse i stället för ett genomsnitt, med daterade priser för varje vara. Färskvaror och mejeriprodukter kostar ungefär vad de flesta besökare väntar sig, medan förpackade varor, kött och allt som är importerat är märkbart dyrare."
+        ],
+        [
+          "Var är det billigast att handla mat i Nya Zeeland?",
+          "Billigast är de stora matkedjorna i de större städerna, och skillnaden mot en butik på en liten ort är så stor att det är värt att planera inköpen efter den. På säsongens frukt och grönt slår helgmarknaderna dem båda."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: priser i Nya Zeeland, uppdaterade juni 2026"
+        },
+        {
+          "label": "Stats NZ: utvalda prisindex, juni 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: växelkurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Prisintervall för hela landet, inrapporterade av användare och senast uppdaterade 12 juni 2026. Märke, förpackningsstorlek, säsong och frakt till avlägsna orter förklarar en stor del av spridningen.",
+        "rows": [
+          {
+            "label": "Mjölk",
+            "unit": "1 liter"
+          },
+          {
+            "label": "Vitt bröd",
+            "unit": "500 g"
+          },
+          {
+            "label": "Ägg",
+            "unit": "12 stora"
+          },
+          {
+            "label": "Kycklingfilé",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Nötkött från låret",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Äpplen",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Tomater",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Potatis",
+            "unit": "1 kg"
+          }
+        ]
+      }
+    },
+    "doc-huts-new-zealand-guide": {
+      "title": "DOC-stugor i Nya Zeeland: så fungerar stugsystemet",
+      "description": "DOC-stugor i Nya Zeeland finns i fyra kategorier: Serviced, Standard, Basic och Great Walk. De skiljer sig åt i utrustning, avgifter och bokningsregler.",
+      "region": "Nya Zeelands vildmark",
+      "imageAlt": "Vildmarksstuga bland bergen i Nya Zeeland",
+      "intro": "En stuga i den nyzeeländska vildmarken är ett skydd som du delar med andra, inte ett boende som råkar ligga ute i skogen. Runt 950 stugor finns utspridda på den skyddade mark som DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) förvaltar. Systemet påminner om STF:s fjällstugor, men spännvidden är stor: från välutrustade hus med värme och madrasser till ett kalt skjul med två britsar och jordgolv. Vilken sorts stuga du är på väg mot avgör vad du ska ha i ryggsäcken.",
+      "sections": [
+        {
+          "heading": "Stugornas fyra kategorier",
+          "body": [
+            "Serviced-stugorna är bäst utrustade: madrasser på britsarna, vatten, toaletter och oftast uppvärmning med bränsle på plats. I Standard-stugorna finns inget bränsle till värmen och ibland inga madrasser, men däremot britsar, vatten och toalett. Basic-stugorna ger tak över huvudet och inte mycket mer, och det är inte säkert att det finns vatten alls.",
+            "Great Walk-stugorna står utanför den här skalan. De ligger längs Great Walks, DOC:s klassiska flerdagsvandringar, och håller hög standard under vandringssäsongen. De kostar betydligt mer och bokas i ett eget system som hör till just den leden. Utanför säsongen går de oftast ner till en enklare standard och ett lägre pris, och en del av servicen dras ner eller försvinner helt."
+          ],
+          "tips": [
+            "Kategorin visar vad som finns och vad det kostar",
+            "Great Walk-stugor bokas för sig",
+            "Basic-stugor kan sakna vatten"
+          ]
+        },
+        {
+          "heading": "Stugan ersätter inte packningen",
+          "body": [
+            "Ett tak över huvudet betyder inte att du kan lämna sovsäck, liggunderlag, stormkök, bränsle, mat, pannlampa och varma kläder hemma. Stugorna är obemannade, det finns inga förråd att ta ur, och en Serviced-stuga med kamin är kall ändå om sällskapet före dig eldade upp den sista veden.",
+            "Packa för vandringen och vädret, inte efter hur stugan beskrivs. Uppe i de nyzeeländska bergen kan förhållandena slå om snabbt, och den som kommer fram blöt utan något varmt att byta till har problem, hur stugan än är utrustad."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Stugbiljetter, pass och bokning",
+          "body": [
+            "I stugor som inte går att boka betalar du i regel med stugbiljetter (hut tickets) som du köper i förväg, eller med ett Backcountry Hut Pass som gäller en period i stället för en enstaka natt. I stugor som går att boka behöver du en bokning i ditt namn för rätt datum, och Great Walk-stugorna blir fullbokade flera månader i förväg inför sommarsäsongen.",
+            "Det klassiska misstaget är att tro att ett pass är en bokning. Ett Backcountry Hut Pass betalar för dig i stugor som tar biljetter, men det reserverar ingenting och gäller inte i Great Walk-stugor eller andra stugor som bokas. Kolla vilket system just din stuga har innan du ger dig av."
+          ],
+          "tips": [
+            "Ett pass är ingen bokning",
+            "Köp biljetterna innan du går ut på leden",
+            "Great Walk-stugor blir fullbokade månader i förväg"
+          ]
+        },
+        {
+          "heading": "Ingen blir utan tak över huvudet",
+          "body": [
+            "I stugor som inte går att boka är det först till kvarn som gäller för britsarna. Men enligt en gammal oskriven regel betyder en full stuga en plats på golvet, inte en stängd dörr. Gå inte vidare ut i mörkret för att britsarna är upptagna, och räkna inte med att någon håller en brits åt dig bara för att du har bokat en annan stuga.",
+            "Ha med liggunderlag och det du behöver för att sova på golvet. Om vädret är okej och det är tillåtet att tälta vid stugan är ett tält ett riktigt alternativ. På populära leder i januari ska du räkna med att stugan är full och planera efter det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vatten, matlagning och eld",
+          "body": [
+            "Rena vattnet i stugan, om inte DOC:s aktuella information om just den stugan säger att det går att dricka. Regnvatten som samlas från taket kan vara förorenat, och giardia förekommer i vattnet i den nyzeeländska vildmarken. Koka, filtrera eller rena kemiskt, allt fungerar. Det är när man tar för givet att vattnet är rent som det går fel.",
+            "Laga mat på ditt eget stormkök, utomhus eller där det är anvisat, och aldrig inne i ett tält. Finns det en kamin, elda sparsamt och fyll på med tändved åt nästa gäst, som kanske kommer fram i sämre väder än du hade."
+          ],
+          "tips": [
+            "Rena vattnet om inget annat sägs",
+            "Ta med stormkök oavsett stuga",
+            "Fyll på tändved innan du går"
+          ]
+        },
+        {
+          "heading": "Stugvett",
+          "body": [
+            "Kängorna av inomhus. Håll prylarna samlade på din brits i stället för utspridda över bordet och bänkarna. Dämpa ljudet tidigt på kvällen och rör dig tyst på morgonen. Vandrarna, trampers som nyzeeländarna säger, ger sig ofta av före gryningen, och efter en tung dag sover alla i samma rum.",
+            "Skriv i stugboken varje gång, med datum och vart du är på väg. Det är artigt, men framför allt är det det första räddningstjänsten läser när någon inte har kommit fram i tid, och noggranna anteckningar har gjort många sökinsatser kortare."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "När du lämnar stugan",
+          "body": [
+            "Sopa golvet, stäng luckor och dörrar ordentligt och bär ut allt du har burit in, matrester också. Sopor som blir kvar i en stuga lockar till sig gnagare, och ingen kommer och hämtar dem. Det du lämnar ligger kvar tills en annan vandrare tar med sig det.",
+            "Rapportera skador, en trasig spis, ett vattensystem som har slutat fungera eller andra risker till DOC efter turen. Stugorna underhålls utifrån det som rapporteras, och ett meddelande på fem minuter kan göra att nästa sällskap slipper komma fram till en stuga som inte går att använda."
+          ],
+          "tips": [
+            "Bär ut alla sopor och matrester",
+            "Stäng luckor och dörrar",
+            "Rapportera skador till DOC efteråt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Måste man boka en DOC-stuga?",
+          "Det beror på kategorin. Great Walk-stugor och Serviced-stugor på populära leder bokar och betalar du i förväg, på sommaren ofta flera månader innan. Standard- och Basic-stugor fungerar i regel med stugbiljetter eller ett Backcountry Hut Pass utan bokning, och där är du aldrig garanterad en brits."
+        ],
+        [
+          "Vad finns det egentligen i en stuga i vildmarken?",
+          "Oftast finns det britsar med madrasser, någon form av vatten och en toalett. Vad som finns för matlagning, värme och belysning varierar med kategorin, och många stugor har inget av det. Ta därför med stormkök, bränsle och lampa, oavsett vad det står i beskrivningen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: stugkategorier"
+        },
+        {
+          "label": "DOC: varningar och avstängningar"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsite-rules": {
+      "title": "Campingregler på DOC-campingar: det här behöver du veta",
+      "description": "Campingregler på DOC:s campingplatser i Nya Zeeland: bokning, nattro, sopor, husdjur och de lokala villkor som styr din vistelse på den skyddade marken.",
+      "region": "DOC-campingplatser",
+      "imageAlt": "Informationstavla vid en campingplats som sköts av Department of Conservation",
+      "intro": "När du bokar en campingplats hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) godkänner du både de nationella villkoren och de lokala reglerna för just den platsen. Läs därför alltid sidan för den enskilda campingen: tillfart, eldning, vatten, hundar och regler för fordon skiljer sig mycket från plats till plats.",
+      "sections": [
+        {
+          "heading": "Var ärlig när du bokar",
+          "body": [
+            "Boka rätt datum, rätt antal personer och rätt typ av plats, och se till att du kan visa bekräftelsen även utan täckning. Där du inte får en bestämd plats tilldelad väljer du bara bland de platser som är lediga när du kommer fram.",
+            "Enligt DOC:s villkor kan en bokning på flera nätter annulleras om du uteblir den första natten. Håll inte en plats med ett tomt tält när ingen tänker sova där."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Respektera nattro och tider",
+          "body": [
+            "Enligt DOC:s standardvillkor är det nattro kl. 22.00–07.00, om inte de lokala reglerna säger något annat, och i regel ska du ha lämnat platsen senast kl. 10.00. Håll generatorer, musik och bilkörning inom de gränser som gäller på campingen.",
+            "En bokad campingplats ger dig inte rätt att använda det som finns i en DOC-stuga i närheten. Använd bara de toaletter, vindskydd och vattenkranar som ingår i det du har bokat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Lämna platsen i skick för nästa gäst",
+          "body": [
+            "Ta med dig alla sopor, förvara maten ordentligt och häll aldrig ut gråvatten på marken. Det är förbjudet att röka och att använda e-cigarett i stugor och toaletthus.",
+            "Husdjur och drönare kräver uttryckligt tillstånd. Kolla sidan för just den campingen, och tro inte att något är okej bara för att platsen ligger lugnt och avskilt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bokning, först till kvarn eller pass",
+          "body": [
+            "På sidan för varje campingplats står det vilket system som gäller, och de flesta problem när folk kommer fram beror på att de har blandat ihop dem. Ett Campsite Pass är ett sätt att betala, inte en bokning. Det ger dig ingen plats på en camping som kräver bokning, och det hjälper inte heller på en camping med först till kvarn som redan är full.",
+            "Där bokning krävs bokar du för det sällskap och det fordon du faktiskt kommer med. Spara bekräftelsen så att du kan visa den utan nät, för på DOC:s campingplatser saknas ofta mobiltäckning. En bokning du inte kan visa upp är svår att hävda när campingvärden fördelar platserna på en full camping."
+          ],
+          "tips": [
+            "Ett pass är ingen bokning",
+            "Bekräftelsen ska gå att visa utan täckning",
+            "Boka för rätt fordon och rätt antal personer"
+          ]
+        },
+        {
+          "heading": "Vattnet är ofta orenat",
+          "body": [
+            "Många DOC-campingar tar vattnet från bäckar eller från tankar som samlar regnvatten från taken, och det renas inte. Giardia förekommer i nyzeeländskt vatten, och att en bäck är klar säger ingenting om den saken. Koka vattnet i minst en minut, filtrera det eller rena det kemiskt, och utgå inte från att vattnet går att dricka bara för att det finns en kran.",
+            "Ha med dig så mycket dricksvatten att du klarar dig en dag på egen hand. Tankar blir tomma, det kan komma kokningsrekommendationer, och en campingplats som enligt beskrivningen har vatten kan utan förvarning visa sig ha en trasig vattenförsörjning."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Generatorer, drönare och hundar",
+          "body": [
+            "På många platser är generatorer begränsade eller förbjudna, och där de är tillåtna får du oftast bara köra dem vissa tider. För att flyga drönare på den skyddade mark som DOC förvaltar krävs i de flesta fall ett särskilt tillstånd, en så kallad concession. Att flyga över en campingplats utan tillstånd är både olagligt och mycket illa sett.",
+            "Hundar är förbjudna på det mesta av den skyddade marken, eftersom de är ett hot mot markhäckande fåglar och kiwi. Några få campingplatser tillåter hund, men de flesta gör det inte, och i vissa områden krävs tillstånd. Kolla vad som gäller på just den platsen i stället för att gissa."
+          ],
+          "tips": [
+            "Drönare kräver tillstånd på DOC-mark",
+            "Hundar är förbjudna på de flesta DOC-campingar",
+            "Generatorer är begränsade eller förbjudna"
+          ]
+        },
+        {
+          "heading": "Maxtid och hänsyn på platsen",
+          "body": [
+            "De flesta DOC-campingar har en gräns för hur länge du får stanna, ofta bara några nätter i rad, för att ingen ska kunna bosätta sig där. På populära campingar kontrollerar campingvärdarna det faktiskt under sommaren, och det hjälper inte att flytta bilen några meter.",
+            "Håll dig inom den markerade platsen, bred inte ut dig med markis eller prylar när det är trångt, och respektera nattron. Campingarna delas av många och är ofta fulla, så alla trivs bara om var och en håller sig på sin egen plats."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "När du kommer fram",
+          "body": [
+            "Kom fram medan det är ljust om du kan. Att välja plats, se hur vattnet rinner undan, upptäcka grenar ovanför och få bilen i våg är mycket svårare i mörker. En plats som uppenbart är fel kl. 16.00 är lätt att godta kl. 21.00 när du är trött.",
+            "Där det finns en betallåda eller självregistrering betalar du direkt när du kommer, i stället för att tänka att du ordnar det sen. Campingvärdarna kontrollerar, avgiften är låg och systemet fungerar bara för att de flesta betalar utan att någon behöver be dem.",
+            "Slå upp lägret inom den markerade platsen och lämna utrymme åt dem som kommer efter dig. På en välbesökt camping på sommaren kan prylar utspridda över två platser vara skillnaden mellan att alla får plats och att någon måste vända."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Om campingen är full",
+          "body": [
+            "Populära DOC-campingar är fulla redan mitt på eftermiddagen på sommaren, och det finns ingen reservyta. Att ordna en egen plats på gräset, på infartsvägen eller bredvid toaletthuset är inget alternativ, och campingvärdarna kommer att be dig åka vidare.",
+            "Ta reda på ett lagligt alternativ innan du kommer fram, inte efteråt. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. En holiday park (en större camping med stugor, kök och ofta pool, ungefär som en svensk familjecamping) en halvtimme bort är mycket bättre än att köra sent på en okänd väg och leta efter något ställe som tar emot dig."
+          ],
+          "tips": [
+            "Populära campingar är fulla mitt på eftermiddagen",
+            "Det finns ingen reservyta",
+            "Ha en plan B innan du kommer fram"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vilka regler gäller på en DOC-camping?",
+          "Betala avgiften för varje vuxen, campa bara på markerade platser, ta med dig alla sopor, använd toaletterna som finns och var tyst när det har blivit mörkt. Eldning, hundar och generatorer är begränsade eller förbjudna beroende på campingplats, och skyltarna där gäller före allt du har läst i förväg."
+        ],
+        [
+          "Får man stanna mer än en natt på en DOC-camping?",
+          "Ja, oftast går det. På välbesökta platser finns dock en gräns för hur länge du får stanna, och den står anslagen vid infarten. Där det är hårt bokat på sommaren håller man också koll på att gränsen följs."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: bokningsvillkor för övernattning"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-road-rules-new-zealand": {
+      "title": "Köra husbil i Nya Zeeland: trafikregler och säkerhet",
+      "description": "Höjd, bredd, vikt, passagerare och hyresavtalets begränsningar: ha koll på allt det här innan en smal väg visar hur stor husbilen faktiskt är.",
+      "region": "Nya Zeelands vägar",
+      "imageAlt": "Stor husbil på en smal väg i Nya Zeeland",
+      "intro": "En husbil kan vara laglig att köra på ett vanligt Class 1-körkort (personbilskörkort) och ändå kännas helt annorlunda än en bil. Använd överlämningen till att ta reda på höjd, bredd, längd och vikt med last, och vilka vägar hyresavtalet inte tillåter.",
+      "sections": [
+        {
+          "heading": "Mät innan du kör",
+          "body": [
+            "Skriv upp bilens mått och sätt lappen där föraren ser den. Takluckor, AC-aggregat, cykelställ och överhänget bak påverkar både frihöjden och hur lätt bilen är att manövrera.",
+            "Alla passagerare ska sitta på godkända säten med bälte under färd. Sängar och boendedelen där bak räknas inte som passagerarplatser, om de inte är certifierade för det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ge bilen utrymme",
+          "body": [
+            "Bromsa tidigare, ta kurvorna lugnt och håll större avstånd till bilen framför. Håll koll i speglarna och släpp förbi trafiken bakom dig där det finns en säker ficka vid vägkanten.",
+            "Kraftig sidvind kan flytta en hög bil tvärs över körfältet. Sänk farten eller stanna om du hela tiden måste parera med ratten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Håll dig till hyresavtalet",
+          "body": [
+            "Hyresavtalet kan förbjuda körning på stränder, grusvägar eller vissa namngivna avlägsna vägar, även när de är öppna för allmänheten. Försäkringen kan hänga på samma villkor.",
+            "Stanna före en lågt hängande gren, en bro med viktbegränsning eller ett vadställe du är osäker på. Bärgning är ingen ersättning för tillräcklig frihöjd."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ha koll på måtten innan du kör iväg",
+          "body": [
+            "Skriv upp husbilens höjd, längd och vikt och fäst lappen väl synligt för föraren. Det är höjden som ger de dyra skadorna: vid infarten till parkeringshus och drive-in, under taket över pumparna på macken och under en del låga viadukter i städerna.",
+            "Kolla speglarna, döda vinklarna och backkameran innan du lämnar depån, och gå ett varv runt bilen. De flesta skador på hyrda husbilar uppstår under de två första dagarna, i låg fart, på parkeringsplatser."
+          ],
+          "tips": [
+            "Skriv höjden på instrumentbrädan",
+            "De flesta skador sker på parkeringen",
+            "Gå ett varv runt bilen innan du åker"
+          ]
+        },
+        {
+          "heading": "Alla sitter på ett riktigt säte",
+          "body": [
+            "Sängar, dinetter utan bälten och boendedelen är inga passagerarplatser när bilen rullar. Alla ombord behöver ett godkänt säte med ett fungerande bälte, och barn under sju år måste ha en bilbarnstol som uppfyller särskilda standarder.",
+            "Sätt fast allt som ligger löst före varje körning. En skåpdörr, en gasolflaska eller en full vattenkokare blir farlig vid en nödinbromsning. Och en husbil tar längre tid att stanna än en personbil, så inbromsningen blir ofta sen och hård."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vinden, och varför den betyder mer här",
+          "body": [
+            "En hög bil är känslig för sidvind, och Nya Zeeland är ett blåsigt land med utsatta kustvägar, broar och bergspass. När du kör om en lastbil eller kommer ut ur en bergskärning kan bilen plötsligt knuffas i sidled.",
+            "Håll ratten stadigt med båda händerna på utsatta sträckor och sänk farten före vindbyn, inte mitt i den. Tänk också på att vissa vägar stängs för höga fordon vid hård vind, bland annat Rimutaka Hill Road och delar av Desert Road."
+          ],
+          "tips": [
+            "Sänk farten före den utsatta sträckan",
+            "Vissa vägar stängs för höga fordon",
+            "Lastbilar och bergskärningar ger plötsliga vindbyar"
+          ]
+        },
+        {
+          "heading": "Köra om och bli omkörd",
+          "body": [
+            "En husbil accelererar långsamt, så en omkörning kräver mycket längre fri väg än med en personbil och är sällan värd att försöka. De flesta av Nya Zeelands huvudvägar har ett körfält i varje riktning, få omkörningsfiler och många olyckor vid omkörning.",
+            "När det bildas kö bakom dig, kör in till sidan där det är säkert och släpp förbi. Har du fem eller fler fordon bakom dig är du skyldig att göra det så snart det är säkert. Det tar dessutom bort stressen som får folk att göra dåliga omkörningar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Parkering och var du får övernatta",
+          "body": [
+            "Att parkera en husbil är en sak, att campa i den en annan. Bilen kan stå lagligt parkerad och det kan ändå vara förbjudet att sova i den. Det är just den skillnaden som de flesta böter faktiskt handlar om. Allemansrätten finns inte i Nya Zeeland: du får bara övernatta där det uttryckligen är tillåtet.",
+            "Husbilar fastnar ständigt på höjdbegränsningar i städernas parkeringshus, och ofta är bommen det första tecknet. Leta efter skyltad maxhöjd innan du kör in, och använd i stället de markparkeringar eller extraplatser för större fordon som finns på de flesta orter.",
+            "I städerna är det smidigast att lämna bilen på en campingplats eller en infartsparkering (park-and-ride) och åka kollektivt in. Det går snabbare, blir billigare och du slipper hela problemet i stället för att behöva lösa det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Färjor, tunnlar och höjdgränser",
+          "body": [
+            "Priset för färjan över Cooksundet (Cook Strait) beror på fordonets längd och höjd, och båda kontrolleras. Vissa tunnlar i städerna och äldre broar har höjd- eller viktbegränsningar, och några vägar stängs för höga fordon vid hård vind.",
+            "Ha exakt koll på måtten och jämför dem med varje rutt där det finns en tunnel, en låg bro eller en färjebokning. Det är gissningar som slutar med en dyr prisjustering vid terminalen, eller något värre ute på vägen."
+          ],
+          "tips": [
+            "Färjepriset beror på storleken",
+            "Vet exakt höjd och längd",
+            "Vissa vägar stängs för höga bilar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Gäller andra hastighetsgränser för husbilar?",
+          "För de flesta hyrda husbilar under 3 500 kg är svaret nej: där gäller den vanliga gränsen på landsväg. Tyngre fordon och fordon med släp har en lägre gräns, och på en kurvig väg är gränsen ett tak, inte ett mål."
+        ],
+        [
+          "Vad brukar ställa till det för husbilsförare i Nya Zeeland?",
+          "Höjd och bredd på smala vägar, vind på utsatta pass och broar, och att det så lätt bildas kö bakom dig. Här förväntas du köra in till sidan och släppa förbi, och det är det som mest av allt minskar risken."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: så kör du på Nya Zeelands vägar"
+        }
+      ],
+      "priceTable": null
+    },
+    "speed-limits-new-zealand-visitors": {
+      "title": "Hastighetsgränser och säker fart på Nya Zeelands vägar",
+      "description": "Hastighetsgränsen i Nya Zeeland är ett tak som gäller när förhållandena är goda. På många landsvägar ligger en säker fart betydligt lägre än skylten.",
+      "region": "Nya Zeelands vägar",
+      "imageAlt": "Skylt med hastighetsgräns vid en landsväg i Nya Zeeland",
+      "intro": "Att en hastighet är tillåten betyder inte att vägen går att köra i den farten. Kurvor, regn, grus, boskap, cyklister och en husbil du inte är van vid sänker alla den säkra farten.",
+      "sections": [
+        {
+          "heading": "Läs av varje ny gräns",
+          "body": [
+            "Hastighetsgränserna varierar mellan vägar och platser. Vid vägarbeten gäller tillfälliga gränser, och kring många samhällen och skolor är det lägre zoner. Följ skyltarna i stället för att gå på en allmän gräns du tror dig minnas.",
+            "En gul skylt med rekommenderad hastighet före en kurva är inte den lagliga gränsen, men den säger hur kurvan ser ut, och det ska du ta på allvar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sänk farten före faran",
+          "body": [
+            "Bromsa på rakan innan kurvan och håll så stor marginal att du kan stanna på den del av vägen du ser. Grus och blöta löv försämrar greppet långt innan någon varningsskylt dyker upp.",
+            "I mörker eller dimma sänker du farten tills strålkastarna lyser upp en tillräckligt lång stoppsträcka. På en slingrig väg hjälper inte ens helljuset."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Skapa ingen press",
+          "body": [
+            "Släpp förbi snabbare trafik där det finns en säker ficka. Gasa aldrig på i en omkörningsfil bara för att sedan hålla upp kön igen i nästa kurva.",
+            "Om du bara hinner fram i tid genom att ligga på högsta tillåtna hastighet hela vägen är resplanen redan för snäv."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Skylten visar ett tak, inte ett mål",
+          "body": [
+            "På landsväg är gränsen i regel 100 km/h och i tätort oftast 50 km/h, med varierande och sänkta gränser vid skolor, vägarbeten och på vissa huvudvägar på landsbygden. Gränsen utgår från idealiska förhållanden, en personbil och en förare som känner vägen.",
+            "Nästan ingen landsväg i Nya Zeeland är bekväm att köra i 100 km/h med en lastad husbil, i regn eller på en okänd, kurvig sträcka. Att anpassa farten efter förhållandena är både lagligt och förväntat. Men att krypa fram på en raksträcka är inte samma sak som att köra säkert."
+          ],
+          "tips": [
+            "100 km/h på landsväg, 50 i tätort",
+            "Gränsen förutsätter idealiska förhållanden",
+            "Med släp gäller högst 90 km/h"
+          ]
+        },
+        {
+          "heading": "Kontrollerna är hårdare än många besökare tror",
+          "body": [
+            "Toleransen är liten och fartkameror finns på många ställen, även mobila. Böterna skickas till fordonets registrerade ägare, så har du hyrt bil skickar uthyraren dem vidare till dig med en administrationsavgift. Prickar på körkortet (demerit points) gäller inte för utländska körkort, men böterna gäller definitivt.",
+            "Både kameror som mäter medelhastigheten över en sträcka och sänkta gränser på landsbygden har blivit vanligare de senaste åren. Utgå från att vilken väg som helst kan vara övervakad, i stället för att spana efter kameror."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Därför kräver vägarna själva lägre fart",
+          "body": [
+            "Nya Zeelands huvudvägar har oftast ett körfält i varje riktning och inget mitträcke. Kurvorna är snäva, doseringen skiftar, det finns enfiliga broar, boskap går utan stängsel och många grusade sidovägar drar ut grus på asfalten. Någon vägren som förlåter ett misstag finns knappt.",
+            "Den kombinationen förklarar varför olyckorna med utländska förare är koncentrerade till vägarna på landsbygden. En säker fart ligger oftast en bra bit under gränsen, och det du förlorar på en hel dag är några minuter, inte den timme många föreställer sig."
+          ],
+          "tips": [
+            "Ett körfält åt varje håll, inget mitträcke, smal vägren",
+            "Grus dras ut på asfalten",
+            "Lägre fart kostar minuter, inte timmar"
+          ]
+        },
+        {
+          "heading": "Farten och omkörningsfilen",
+          "body": [
+            "Öka inte farten när en omkörningsfil dyker upp och någon håller på att köra om dig. Det är den vanligaste orsaken till konflikter på Nya Zeelands huvudvägar, och det gör en säker omkörning farlig.",
+            "Ligger någon tätt bakom dig ska du heller inte känna dig pressad att köra fortare än du är bekväm med. Kör in i nästa slow vehicle bay (en ficka för långsamma fordon) eller på ett säkert ställe vid sidan av vägen och släpp förbi. Då försvinner pressen, och risken med den."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Varierande och sänkta gränser",
+          "body": [
+            "Vid skolor sänks gränsen vissa tider på dygnet, och det visas med blinkande eller variabla skyltar. Vid vägarbeten gäller tillfälliga gränser oavsett om någon syns arbeta eller inte, och de kontrolleras med samma lilla tolerans som de permanenta.",
+            "På flera huvudvägar på landsbygden har gränsen sänkts från 100 km/h efter säkerhetsöversyner, och det märks inte alltid om du utgår från en äldre karta eller ett tidigare besök. Läs skyltarna i stället för att anta att landsvägsgränsen gäller.",
+            "På grusvägar är den skyltade gränsen ofta fortfarande 100 km/h, vilket inte är i närheten av en säker fart på grus. Här är gränsen verkligen bara ett lagligt tak och säger ingenting om vad underlaget klarar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så fungerar fartkameror och böter",
+          "body": [
+            "Fasta och mobila kameror finns i hela landet, och toleransen är liten. Böterna går till fordonets registrerade ägare, så hyrfirman får dem och skickar dem vidare till dig med en administrationsavgift.",
+            "Prickarna gäller inte för utländska körkort, men böterna gör det, och obetalda böter kan komma ikapp dig senare. Betala dem i stället för att räkna med att de försvinner när du lämnar landet."
+          ],
+          "tips": [
+            "Liten tolerans",
+            "Hyrfirman lägger på en avgift",
+            "Obetalda böter följer med dig"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad är hastighetsgränsen på landsväg i Nya Zeeland?",
+          "100 km/h om inget annat är skyltat, 50 km/h i tätort och 90 km/h om du drar släp. Vissa huvudvägar är skyltade för 110 km/h, och många landsvägar har en lägre gräns."
+        ],
+        [
+          "Varför tar det längre tid att köra i Nya Zeeland än avståndet antyder?",
+          "För att den skyltade gränsen sällan går att hålla. Vägarna är smala och kurviga och har ofta bara ett körfält i varje riktning, så ett realistiskt snitt ligger en bra bit under gränsen och 300 km tar en hel dag."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: hastighetsgränser"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-road-trip-fuel-cost-2026": {
+      "title": "Bränslekostnader för en roadtrip i Nya Zeeland 2026",
+      "description": "Räkna ut bränslekostnaden för resan med sträckan, förbrukningen i liter per 100 km och det aktuella officiella riktpriset på bensin i Nya Zeeland.",
+      "region": "Nya Zeelands vägar",
+      "imageAlt": "Husbil som tankas under en roadtrip i Nya Zeeland",
+      "intro": "Med bränslet blir resplanen en kostnad som går att räkna på. Den 26 juli 2026 låg det representativa nationella pumppriset för vanlig blyfri 91 på 2,96 NZD per liter, enligt MBIE, Nya Zeelands näringsdepartement. Då hade priset svängt ovanligt mycket under året.",
+      "sections": [
+        {
+          "heading": "Räkna på bilen du faktiskt kör",
+          "body": [
+            "Multiplicera antalet kilometer med förbrukningen i liter per 100 km, dela med 100 och multiplicera sedan med literpriset. Utgå från vad en lastad husbil sannolikt drar, inte från snittet för en liten bil.",
+            "Lägg till avstickare och körning på plats. En rutt på 2 000 kilometer kan lätt ge flera hundra extra kilometer till och från campingplatser, affärer och utsiktsplatser."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Räkna med geografin",
+          "body": [
+            "Mackar i avlägsna trakter och längs turiststråken kan ta mer betalt än det nationella riktpriset. Tanka före långa sträckor utan mack, och kör inte förbi en mack du kan lita på för att kanske spara lite.",
+            "Motvind, bergsvägar, utrustning på taket och last ökar förbrukningen. Uppdatera kalkylen efter de två första tankningarna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Räkna ärligt med prissvängningarna",
+          "body": [
+            "Enligt Stats NZ (Nya Zeelands motsvarighet till SCB) steg bensinpriset med 20,1 procent under kvartalet som slutade i juni 2026, och MBIE pekade på ovanligt stora svängningar på världsmarknaden. En gammal siffra kan snabbt få resan att se billigare ut än den är.",
+            "Använd bränslekalkylatorn med dagens pumppris och lägg på en marginal för den avlägsna etappen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bensin, diesel och vägavgifter",
+          "body": [
+            "Diesel är billigare per liter vid pumpen, men dieselfordon betalar dessutom en separat vägavgift, road user charges (RUC), som köps i förskott per tusen kilometer. Hyr du bil, kolla om RUC ingår i dygnspriset eller faktureras i slutet, för det ändrar jämförelsen med bensin rejält.",
+            "Har du ett eget fordon måste RUC vara köpt för de kilometer du kör, och det kontrolleras. Det är enkelt att köpa på nätet eller hos ett ombud (licensing agent), och kör du längre än du har betalat för blir det böter."
+          ],
+          "tips": [
+            "Med diesel tillkommer RUC",
+            "Fråga om RUC ingår i hyran",
+            "Köp RUC innan mätaren hinner ikapp"
+          ]
+        },
+        {
+          "heading": "Där bränslet är dyrast",
+          "body": [
+            "Priserna är lägst i de stora städerna och vid förortsmackar med konkurrens, och högst på avlägsna sträckor med bara en mack. West Coast, Fiordland, East Cape, inlandet i Otago och längst upp i norr är alla dyrare, ibland betydligt dyrare.",
+            "Det högre priset är inget skäl att köra tanken nästan tom. Att tanka tjugo liter lite dyrare är en struntsumma jämfört med att få soppatorsk någonstans utan täckning, och de dyraste mackarna är oftast de som saknar konkurrent inom hundra kilometer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Det här påverkar förbrukningen på riktigt",
+          "body": [
+            "Last, takboxar, motvind, långa uppförsbackar och fart spelar alla in, och en lastad husbil i motvind från en nor'wester, nordvästvinden i Canterbury, kan dra en fjärdedel mer än broschyren lovar. AC:n gör liten skillnad. Att låta motorn gå på tomgång för värmens skull kostar mer än de flesta tror.",
+            "Däcktrycket spelar roll och ska ställas in för bilen med last, inte tom. Hyrda husbilar levereras ofta med för lågt däcktryck, och det kostar både bränsle och väghållning."
+          ],
+          "tips": [
+            "Anpassa däcktrycket efter lasten",
+            "Motvind kostar mer än AC:n",
+            "Takboxar drar mycket i hög fart"
+          ]
+        },
+        {
+          "heading": "Sänk notan utan att korta resan",
+          "body": [
+            "Den största besparingen är färre onödiga kilometer. Samla stopp som ligger nära varandra, undvik att köra samma väg tillbaka och acceptera att du inte hinner se båda öarna ordentligt på tio dagar. Det sparar mer än någon körteknik, hur sparsam den än är.",
+            "Därefter hjälper jämn fart och tidiga inbromsningar en del. Det som inte hjälper är att rulla i friläge, vilket i praktiken är olagligt och dessutom farligt, eller att ha med extra bränsle i olämpliga dunkar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rabattprogram och var du tankar",
+          "body": [
+            "De stora bränslekedjorna har rabattprogram kopplade till vad du handlar för i mataffären, och rabattkupongerna går att kombinera med vissa korterbjudanden. På en lång resa blir det en verklig besparing, men aldrig så stor att det är värt att köra förbi sista macken före en avlägsen etapp.",
+            "Obemannade automatmackar är vanliga i småorter och oftast billigare, men vissa tar inte utländska kort. Ha ett reservkort med dig, och räkna inte med att automaten fungerar om du kommer dit sent på kvällen med tom tank.",
+            "Priserna kan skilja märkbart mellan orter, även inom samma region. I de stora städerna lönar det sig att tanka innan du åker ut, inte på den sista förortsmacken, som ofta är den dyraste på hela sträckan."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar bränsle i Nya Zeeland?",
+          "Guiden anger ett daterat literpris för bensin och diesel och räknar igenom verkliga rutter. Priserna stiger märkbart i avlägsna trakter, och dieselfordon betalar dessutom vägavgift (RUC), något många glömmer att ta med i budgeten."
+        ],
+        [
+          "Hur räknar man ut bränslet för en roadtrip i Nya Zeeland?",
+          "Ta ruttens längd, lägg på en tredjedel för avstickare och terräng och räkna sedan med bilens verkliga förbrukning, inte broschyrens siffra. En husbil i motvind på en kuperad huvudväg kommer aldrig ner till den uppgivna förbrukningen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE: bränslepriser vecka för vecka"
+        },
+        {
+          "label": "MBIE: officiellt pumppris (fuel response)"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: växelkurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Riktpriset för bensin är MBIE:s officiella siffra för veckan som slutade 26 juli 2026. Ruttexemplen är rena räkneexempel och tar inte hänsyn till högre priser i avlägsna trakter.",
+        "rows": [
+          {
+            "label": "Vanlig blyfri 91",
+            "unit": "per liter"
+          },
+          {
+            "label": "500 km vid 9 l/100 km",
+            "unit": "45 liter"
+          },
+          {
+            "label": "1 000 km vid 11 l/100 km",
+            "unit": "110 liter"
+          },
+          {
+            "label": "3 000 km vid 12 l/100 km",
+            "unit": "360 liter"
+          }
+        ]
+      }
+    }
+  }
 }
