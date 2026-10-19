@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Português",
     "metaTitle": "KiwiCamping: mapa de campismo, locais do DOC e viagens na Nova Zelândia",
-    "metaDescription": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas sem rede, filtros e planeador de viagens para iPhone.",
+    "metaDescription": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas que abrem sem rede e planeador paragem a paragem para iPhone.",
     "ogTitle": "KiwiCamping: o mapa de campismo e planeador de viagens para a Nova Zelândia",
     "ogDescription": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre, incluídos na app para consultar sem rede. Filtra, guarda e planeia a viagem toda.",
     "metaKeywords": "app de campismo Nova Zelândia, mapa de campismo Nova Zelândia, campismo livre Nova Zelândia, freedom camping Nova Zelândia, parques de campismo DOC, refúgios DOC, holiday parks Nova Zelândia, campervan Nova Zelândia, autocaravana Nova Zelândia, planeador de viagens Nova Zelândia",
@@ -492,7 +492,7 @@
             "Mesmo um cão treinado tem de estar sob controlo. Na maior parte dos casos, os kiwis mortos por cães são vítimas de animais de estimação cujos donos tinham a certeza de que o animal não ia perseguir nada."
           ],
           "tips": [
-            "Nalgumas zonas, o treino é obrigatório",
+            "Nalgumas zonas, o treino de aversão é obrigatório",
             "Cão treinado também precisa de controlo",
             "Os casos envolvem sobretudo cães com dono"
           ]
@@ -800,7 +800,7 @@
         {
           "heading": "Combina os tipos de dormida de propósito",
           "body": [
-            "Uma viagem feita só com locais gratuitos precisa de um veículo totalmente autossuficiente e mesmo assim acaba por pagar duches, lavandaria e água algures. Uma viagem feita só com <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> custa o dobro ou o triplo e ganha pouco nas noites em que chegas tarde e sais cedo.",
+            "Uma viagem feita só com locais gratuitos precisa de um veículo totalmente autónomo e mesmo assim acaba por pagar duches, lavandaria e água algures. Uma viagem feita só com <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> custa o dobro ou o triplo e ganha pouco nas noites em que chegas tarde e sais cedo.",
             "O padrão prático são duas ou três noites baratas em locais do DOC ou de campismo livre seguidas de uma noite com serviços que repõe tudo de uma vez: lavandaria, duches quentes, carregamentos, água potável e despejo de resíduos. Contabilizada assim, a noite com serviços costuma justificar o preço."
           ],
           "tips": []
@@ -889,7 +889,7 @@
           "heading": "Água: saber que torneira é qual",
           "body": [
             "Enche a água para beber só em torneiras assinaladas como potáveis. Nem todas as torneiras de um parque ou de uma reserva são seguras, e algumas são expressamente de água não potável para lavagens. Onde o abastecimento não for tratado ou houver dúvidas, ferve ou filtra a água em vez de presumires que está boa por parecer limpa.",
-            "Mantém a mangueira da água potável fisicamente separada de tudo o que se usa perto de um <a data-guide=\"camping-wastewater-rubbish-new-zealand\">ponto de despejo</a>, guarda-a de forma a que as pontas não toquem no chão e lava as mãos depois de mexeres no equipamento de resíduos. Este único hábito evita a causa mais comum de doença numa viagem com veículo autossuficiente."
+            "Mantém a mangueira da água potável fisicamente separada de tudo o que se usa perto de um <a data-guide=\"camping-wastewater-rubbish-new-zealand\">ponto de despejo</a>, guarda-a de maneira que as pontas não toquem no chão e lava as mãos depois de mexeres no equipamento de resíduos. Este único hábito evita a causa mais comum de doença numa viagem com um veículo autónomo."
           ],
           "tips": [
             "Enche só em torneiras assinaladas como potáveis",
@@ -1219,7 +1219,7 @@
           "tips": [
             "Os motéis costumam ter kitchenette",
             "Para casais, um duplo no hostel bate o motel",
-            "Um bungalow resolve a chuva por pouco"
+            "Um bungalow salva uma noite de chuva por pouco"
           ]
         },
         {
@@ -1724,7 +1724,7 @@
       "priceTable": null
     },
     "kauri-dieback-camping-travel": {
-      "title": "Kauri dieback: regras para quem acampa e caminha",
+      "title": "Kauri dieback: limpa o equipamento antes de acampar no norte",
       "description": "A terra que fica nas botas, nas estacas da tenda e nos pneus pode levar o agente patogénico que mata os kauri, as grandes árvores nativas da Nova Zelândia.",
       "region": "Florestas de Northland e Auckland",
       "imageAlt": "Estação de higienização à entrada de um trilho numa floresta de kauri",
@@ -1798,7 +1798,7 @@
           "heading": "Porque é que isto vai além das árvores",
           "body": [
             "Os kauri são espécies estruturantes: comunidades inteiras de plantas, fungos e invertebrados dependem deles, e algumas não existem em mais lado nenhum. Perder um bosque não é perder umas árvores, é perder o sistema que se formou à sua volta ao longo de séculos.",
-            "São também taonga (tesouros, no sentido māori): há árvores com nome próprio, que carregam whakapapa (genealogia) e história. Tane Mahuta e Te Matua Ngahere não são atrações turísticas no sentido habitual, e os rāhui decretados sobre as florestas afetadas refletem esse estatuto.",
+            "São também taonga (tesouros, no sentido māori): há árvores com nome próprio, que carregam whakapapa (genealogia) e história. Tāne Mahuta e Te Matua Ngahere não são atrações turísticas no sentido habitual, e os rāhui decretados sobre as florestas afetadas refletem esse estatuto.",
             "As medidas de higiene pedem muito pouco a cada visitante. Trinta segundos numa estação de limpeza e não sair do passadiço é tudo o que se pede, e neste momento é a única coisa que está a abrandar a propagação."
           ],
           "tips": []
@@ -2709,7 +2709,7 @@
     },
     "wof-registration-campervan-new-zealand": {
       "title": "WoF e registo de uma campervan de aluguer na Nova Zelândia",
-      "description": "Ter o autocolante da inspeção em dia é só uma parte do que prova que um veículo pode circular legalmente nas estradas da Nova Zelândia: sozinho, não chega.",
+      "description": "Na Nova Zelândia, ter o autocolante da inspeção em dia é só uma parte do que é preciso para provar que um veículo pode circular legalmente na estrada.",
       "region": "Veículos na Nova Zelândia",
       "imageAlt": "Etiquetas de inspeção e de registo de um veículo na Nova Zelândia",
       "intro": "As campervans ligeiras precisam, em regra, de um Warrant of Fitness (WoF, a inspeção periódica de segurança) e de uma licença de circulação em dia, enquanto as mais pesadas ou as de transporte de passageiros podem estar sujeitas a outros sistemas de inspeção. Confirma o caso do veículo concreto em vez de partires do princípio de que a categoria do aluguer responde a isso.",
@@ -2928,7 +2928,7 @@
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Limites de velocidade na Nova Zelândia e o ritmo seguro",
+      "title": "Limites de velocidade na Nova Zelândia: conduzir a um ritmo seguro",
       "description": "Na Nova Zelândia, o limite de velocidade sinalizado é um máximo para quando as condições são boas, e em muitas estradas rurais o ritmo seguro fica muito abaixo.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Sinal de limite de velocidade numa estrada rural da Nova Zelândia",
@@ -3039,7 +3039,7 @@
     },
     "alcohol-fatigue-driving-new-zealand": {
       "title": "Álcool e cansaço ao volante na Nova Zelândia",
-      "description": "Estar dentro do limite legal de álcool não quer dizer que estás em segurança, e o jet lag pode afetar a primeira condução antes mesmo de a viagem começar.",
+      "description": "Estar dentro do limite legal de álcool não quer dizer que estejas em segurança, e o jet lag pode afetar a primeira condução antes mesmo de a viagem começar.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Condutor a descansar junto a uma campervan antes de seguir viagem",
       "intro": "Muitos visitantes juntam no mesmo dia um voo longo, um veículo que não conhecem e a condução pela esquerda. Encara o descanso como parte da reserva e mantém o álcool totalmente à parte de qualquer responsabilidade ao volante.",
@@ -3494,7 +3494,7 @@
         {
           "heading": "Percebe as diferenças de cada local",
           "body": [
-            "Uma câmara pode permitir apenas veículos <a data-guide=\"self-contained-campervan-green-warrant\">autossuficientes certificados</a>, enquanto outra indica locais com casas de banho onde outros campistas podem ficar. O número máximo de noites, as horas de chegada e os encerramentos sazonais também variam.",
+            "Uma câmara pode permitir apenas veículos <a data-guide=\"self-contained-campervan-green-warrant\">autónomos certificados</a>, enquanto outra indica locais com casas de banho onde outros campistas podem ficar. O número máximo de noites, as horas de chegada e os encerramentos sazonais também variam.",
             "As regras de estacionamento e as de campismo livre podem aplicar-se ao mesmo tempo. Pagar o estacionamento de dia não te dá automaticamente direito a pernoitar."
           ],
           "tips": []
@@ -3550,7 +3550,7 @@
         {
           "heading": "Como é realmente a fiscalização",
           "body": [
-            "Nos distritos com mais procura, os fiscais patrulham normalmente ao anoitecer e de novo por volta do amanhecer, e verificam a matrícula no registo de autossuficiência em vez de olharem para o autocolante. A multa fica associada ao veículo, por isso a empresa de aluguer passa-a para ti com uma taxa administrativa.",
+            "Nos distritos com mais procura, os fiscais patrulham normalmente ao anoitecer e de novo por volta do amanhecer, e verificam a matrícula no registo de autonomia em vez de olharem para o autocolante. A multa fica associada ao veículo, por isso a empresa de aluguer passa-a para ti com uma taxa administrativa.",
             "Algumas câmaras avisam primeiro e outras não, e não há coerência nenhuma em que confiar. Conta que o primeiro contacto vai ser uma multa, porque nos distritos mais concorridos costuma ser.",
             "Contestar uma multa depois é difícil sem provas. Fotografar o aviso quando chegas não custa nada e é a única coisa que ajuda de forma fiável se mais tarde surgir uma disputa."
           ],
@@ -3687,7 +3687,7 @@
       "priceTable": null
     },
     "new-zealand-driving-day-planner": {
-      "title": "Quantos quilómetros por dia na Nova Zelândia? Planear a condução",
+      "title": "Quantos quilómetros fazer por dia na Nova Zelândia (e quantas horas)",
       "description": "Com estradas de montanha, pontes de uma via e paragens para ver a paisagem, os quilómetros dizem pouco sobre o esforço de um dia de condução na Nova Zelândia.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Estrada sinuosa entre colinas na Nova Zelândia",
@@ -4014,7 +4014,7 @@
         {
           "heading": "Filtra de outra forma para uma noite de campismo livre",
           "body": [
-            "Uma pesquisa de <a data-guide=\"freedom-camping-new-zealand-guide\">campismo livre</a> é uma questão legal e não de conforto. O que conta é se o local é designado, se exige um veículo autossuficiente certificado e qual é o limite de estadia. As instalações são secundárias porque muitas vezes não existem.",
+            "Uma pesquisa de <a data-guide=\"freedom-camping-new-zealand-guide\">campismo livre</a> é uma questão legal e não de conforto. O que conta é se o local é designado, se exige um veículo autónomo certificado e qual é o limite de estadia. As instalações são secundárias porque muitas vezes não existem.",
             "Compara o requisito de certificação com o teu próprio certificado antes de contares com um local. O requisito está associado ao veículo, e a fiscalização também, por isso uma discrepância sai cara por mais cuidado que tenhas tido com tudo o resto."
           ],
           "tips": []
@@ -4556,7 +4556,7 @@
           ]
         },
         {
-          "heading": "Padarias e a questão da empada de carne picada e queijo",
+          "heading": "Padarias e a famosa pie de carne picada e queijo",
           "body": [
             "A pie de padaria é a refeição quente mais barata do país e faz mesmo parte da cultura, com um concurso nacional anual levado mais a sério do que alguém de fora imagina. As padarias das terras pequenas ganham muitas vezes às das cidades.",
             "O fish and chips pedido ao balcão e comido lá fora é a outra refeição barata que nunca falha, e a qualidade costuma ser melhor nas terras costeiras do que nas cidades. Pergunta qual é o peixe do dia em vez de pedires simplesmente «peixe».",
