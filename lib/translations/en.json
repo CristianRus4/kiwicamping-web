@@ -4080,17 +4080,17 @@
       "priceTable": null
     },
     "overseas-driver-licence-new-zealand": {
-      "title": "Driving in New Zealand with an overseas licence",
-      "description": "Validity, translations, time limits and vehicle weight all need checking before the rental handover.",
+      "title": "Overseas Licence NZ 2026: Time Limit and Campervan Rules",
+      "description": "Arrive by 31 October 2026 and an overseas car licence lasts 18 months; arrive later and it is 12. Translations, IDPs and the 6,000 kg campervan limit.",
       "region": "New Zealand",
       "imageAlt": "Visitor checking an overseas licence beside a campervan",
-      "intro": "A current overseas licence can allow visitor driving, but the document language, time since entry, licence conditions and campervan weight determine whether that permission applies.",
+      "intro": "A current overseas car licence lets you drive in New Zealand for 18 months from your last arrival if you arrived between 1 November 2024 and 31 October 2026, and for 12 months if you arrive on or after 1 November 2026. It must be in English or come with an approved translation or International Driving Permit, and as a car licence it covers vehicles up to 6,000 kg, which takes in most rental campervans. Your home licence conditions still apply, and the rental company can add its own.",
       "sections": [
         {
           "heading": "Current 2026 time limits",
           "body": [
-            "As of August 2026, an eligible overseas car licence can be used for up to 18 months from the last arrival. From 1 November 2026, that car-licence period reduces to 12 months.",
-            "Overseas motorcycle and truck licence limits differ. Anyone staying across the change should check NZTA for the rule on the actual driving date."
+            "The limit depends on when you last arrived. A temporary rule from 1 November 2024 extended overseas car licences from 12 to 18 months, and it ends for new arrivals on 1 November 2026. If you arrived between 1 November 2024 and 31 October 2026, you keep 18 months from that arrival for as long as you stay in New Zealand. If you arrive on or after 1 November 2026, you get 12 months.",
+            "The extension only ever applied to car licences: overseas motorcycle and heavy-vehicle licences allow 12 months. The period runs from your most recent arrival, so leaving and re-entering starts it again, but the licence itself must stay current the whole time."
           ],
           "tips": []
         },
@@ -4113,19 +4113,19 @@
         {
           "heading": "What you can drive on and for how long",
           "body": [
-            "You may drive on a current overseas licence for up to twelve months from your date of arrival, provided the licence is valid, you have not been disqualified, and you drive only the vehicle classes it covers. After twelve months you must convert to a New Zealand licence.",
-            "The licence must be in English or accompanied by an accurate translation, or an International Driving Permit. Carry the original licence at all times; an IDP supports it and does not replace it."
+            "You may drive on a current overseas licence for the period that applies to you, 18 or 12 months from your last arrival, provided the licence is valid, you have not been disqualified, and you drive only the vehicle classes it covers. After that you need a New Zealand licence.",
+            "Police can ask to see your licence whenever you drive, so carry the original licence every time, with the translation or IDP alongside it if it is not in English. An IDP supports the original and does not replace it."
           ],
           "tips": [
-            "Twelve months from date of arrival",
-            "Carry the original licence, not just an IDP",
-            "Translation required if not in English"
+            "18 months if you arrived by 31 October 2026",
+            "12 months if you arrive from 1 November 2026",
+            "Carry the original licence, not just an IDP"
           ]
         },
         {
-          "heading": "Vehicle class matters for campervans",
+          "heading": "Can you drive a campervan on a car licence?",
           "body": [
-            "A standard car licence covers vehicles up to 6,000 kg gross laden weight in New Zealand, which is more generous than several other countries and covers most rental campervans. Larger motorhomes may fall outside it, and your home licence class is what determines the equivalence.",
+            "Usually, yes. A New Zealand car licence (Class 1) covers vehicles up to 6,000 kg gross laden weight, which is more generous than several other countries and covers most rental campervans and motorhomes. Larger motorhomes may fall outside it, and your home licence class is what determines the equivalence.",
             "Rental companies apply their own age and licence conditions on top of the law, frequently requiring a minimum age and a licence held for a minimum period. Permission from a rental company does not override licensing law, and licensing law does not override the rental terms."
           ],
           "tips": []
@@ -4133,7 +4133,7 @@
         {
           "heading": "Restrictions carried from your home licence",
           "body": [
-            "Any condition on your original licence applies here: corrective lenses, automatic transmission only, an alcohol interlock, or a restricted class. Driving outside those conditions is driving unlicensed, with the insurance consequences that follow.",
+            "Any condition on your original licence applies here: corrective lenses, automatic transmission only, an alcohol interlock, or a restricted class. Driving outside those conditions is an offence, and it can void your insurance.",
             "A restricted or probationary licence from another country generally carries its restrictions with it. If you are on a graduated licence at home, check what that means before assuming you can drive freely here."
           ],
           "tips": [
@@ -4153,9 +4153,9 @@
         {
           "heading": "Converting to a New Zealand licence",
           "body": [
-            "After twelve months you must convert. Drivers from a list of recognised countries can convert without sitting theory or practical tests, while others must pass both. The list changes, so check the current position rather than relying on secondhand information.",
+            "Once your 18 or 12 months is up, you must convert. Drivers from a list of recognised countries can convert without sitting theory or practical tests, while others must pass both. The list changes, so check the current position rather than relying on secondhand information.",
             "Conversion requires proof of identity, your overseas licence, an eyesight check and a fee, and is handled through a licensing agent. Allow time, because the process is not instant and driving on an expired entitlement is an offence.",
-            "If you are staying long term and your country is not recognised, start early. Booking a practical test can take several weeks in the main centres, and the wait is longer again over summer."
+            "If you are staying long term and your country is not recognised, start early. Practical test bookings in the main centres can be weeks away, so do not leave it to the last month."
           ],
           "tips": []
         },
@@ -4175,7 +4175,7 @@
       "faq": [
         [
           "Can you drive in New Zealand on a foreign licence?",
-          "Yes, for up to 12 months from your arrival, provided the licence is current and for the class of vehicle you are driving. After 12 months you must convert to a New Zealand licence."
+          "Yes. If you arrived between 1 November 2024 and 31 October 2026, a current overseas car licence lasts 18 months from that arrival; if you arrive on or after 1 November 2026, it lasts 12 months. After that you need a New Zealand licence."
         ],
         [
           "Do you need an International Driving Permit for New Zealand?",
@@ -4184,7 +4184,7 @@
       ],
       "sources": [
         {
-          "label": "NZTA driving on New Zealand roads"
+          "label": "NZTA: driving in New Zealand on an overseas licence"
         }
       ],
       "priceTable": null
