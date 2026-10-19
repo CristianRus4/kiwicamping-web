@@ -30,13 +30,15 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 - Licence: verified against NZTA Factsheet 72 (July 2026) and the Amendment Rule 2024 Schedule 1AA Part 2 cl 2 (arrivals 1 Nov 2024 to 31 Oct 2026 keep 18 months). Page and FAQ consistent; no change. growth/k-content-licence rebased on origin/main: 6b10f69, content:check passes.
 - Fact-check E done by this session (verdict docs/growth/factcheck/k-content-E-fuel-dump-dogs.md); one fix (MBIE week date 9 Oct).
 - Hub links: optional `hubs` field + English-only "Browse by region" block in GuideArticle (indexable hubs only). Added to DOC, freedom-camping, where-to-camp and 17 regional road trips. Commit bec9669. In legacy files `hubs` must come after `legacyPath` (audit regex).
-- content:check: only the known number-gate blocker fails (487 strings, unchanged).
+- content:check: only the known number-gate blocker fails (487 strings, unchanged). Full check steps run separately: build, export, seo:audit, similarity, assets pass; tests 35/36 (only the protected grocery "Prices checked 12 August 2026" test fails; the legacy-bodies test now passes on main). Restored "Pacific beaches, forest roads and geothermal country" in the coromandel description (protected test 12 was broken by the earlier P2 retitle).
 - Batch 2 (commit 5523a89): scenic campsites rewrite (24 named DOC sites, comparison table with fees/booking checked live on DOC 20 Oct), packing list retitle + MPI section, Cape Reinga / Abel Tasman / 3-week retitles + fact fixes. All five untranslated, so no translation impact. Verdict docs/growth/factcheck/k-content-F-batch2.md.
+- Batch 3 (commit 47a2f3f): two-week legacy itinerary (route logic, retitle, hub links) and Stewart Island guide (DOC 2026/27 Rakiura fees, retitle). Untranslated. Verdict docs/growth/factcheck/k-content-G-batch3.md.
+- Skipped on purpose: camping-rules-local-councils-new-zealand (translated in 6 locales, 0 impressions, audit says merge into freedom-camping-rules-nz; flags are omissions, not errors). Editing it would stale six translations for no traffic; leave for the merge decision.
 
 ## Next
-1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
-2. Audit P0 left: new-zealand-road-trip-fuel-cost-2026 (dated MBIE monthly series + retitle 'NZ Petrol Prices 2026 and Campervan Fuel Cost'; needs research subagent). /tools FX date refresh (audit item 14).
-3. Then P2 rows of docs/growth/audit/summary.csv, then brief batches 4-8 (check keyword-map.csv before new pages).
+1. Remaining audit rows that are English-only or untranslated first: P3 EXPAND/KEEP rows are low value; P2 MERGE rows (doc-hut-rules, bus-ferry-train, camping-rules-local-councils, campervan-budget) need an orchestrator decision because they are translated and merging changes structure.
+2. Brief batch 4: where-to-camp national hub table (counts from product-facts), new map lander /guides/new-zealand-campsites-map/ (check keyword-map.csv; needs a unique Wikimedia hero image).
+3. Brief batch 7 new pages ('can I' Q&A guides, Great Walks costs 2026/27, summer/Christmas camping 2026-27) after keyword-map check.
 
 ## Subagent rules (orchestrator, 20 Oct, to save Kai's usage)
 - Fact-check and research subagents: model sonnet, effort high, ONE at a time.
