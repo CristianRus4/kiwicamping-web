@@ -1,0 +1,98 @@
+{
+ "branch": "i18n/k-pt",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.55,
+ "unitsReviewed": 535,
+ "improvedVsOld": "The new text is clearly better than the old in most units. The broken slogans are fixed ('Verificar o atual conta' becomes 'Confirma sempre o mais recente'; 'Cada local abre com o detalhe que decide' becomes 'Cada ficha mostra logo o que te faz decidir'; 'Há duas espécies' becomes 'Há dois tipos'). The app labels now match the glossary (Gosto, Com estrela, Quero visitar, Pins, Todos os guardados), 'autossuficiente' becomes 'autónomo', and every 'offline' claim in the changed units is rewritten as 'abre sem rede' or 'incluídos na app'. Prices change from $ to 'NZD' after the amount, and times use 22h/7h/16h/21h. Local terms get a gloss on first use (DOC, MBIE, Stats NZ, RUC, honesty box, rāhui, whitebait, Class 1, LSZ, pounamu, TVDE). Meta descriptions now include the target keywords, and the body prose reads like a native travel writer with natural tu voice and rhythm. There are no em dashes, no 'você', no Brazilianisms and no 'mapa offline' in the changed units. Markup and numbers are intact. A few things are worse: the generic 'parques de campismo' became 'áreas de campismo' in UI and meta text, against the glossary; ui.metaDescription grew to 209 characters; and a handful of eyebrows and labels are weaker idioms ('O prato principal', 'casa que levas às costas', 'Refúgios Basic').",
+ "criticalIssues": [
+  "The Portuguese privacy page is one section short and its sections are out of order. The English page (at origin/main and at the merge base) has 7 sections, including 'Website analytics' (GA4, 4 paragraphs). pt.json has 6, and its effective date is still 12 de agosto de 2026, where EN says 19 October 2026. isPageComplete() in /Users/cristian/Developer/Webs/kiwicamping-web/lib/localized.ts rejects the page, so /pt/privacy is served in English and every rewritten privacy unit on this branch is dead text. This gap existed before the branch, and all other locales on main share it, but this branch claims to rewrite privacy and does not fix it.",
+  "pt.json has no consent.* block (label, text, accept, decline, policy, choices), so the GA4 consent bar on /pt/ falls back to English."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[4..5] + pages.privacy.effective",
+   "current": "6 sections: ... [4] 'Conservação e controlo dos dados' / [5] 'Crianças e contacto' (2 paragraphs); effective 'Em vigor a partir de 12 de agosto de 2026'",
+   "problem": "The English privacy page has 7 sections. The 'Website analytics' section (GA4, 4 paragraphs) is missing, so every later section is shifted by one: pt sections[4] sits where EN 'Website analytics' is, and pt sections[5] has 2 paragraphs where EN has 1. The effective date is still 12 Aug, but EN says 19 Oct 2026. lib/localized.ts isPageComplete() therefore rejects the pt privacy page and /pt/privacy renders in English, so none of the rewritten privacy units ever show. This gap existed before the branch (old pt also had 6 sections) and was not fixed by the 'rewrite the support, privacy and terms pages' commit.",
+   "suggested": "Insert a new sections[4] 'Estatísticas do site' with 4 paragraphs translating the EN GA4 text (Google Analytics 4, Google Ireland Limited for EEE/Reino Unido/Suíça, Google LLC elsewhere, consent, etc.). Shift 'Conservação e controlo dos dados' to [5] and 'Crianças e contacto' to [6]. Set effective to 'Em vigor a partir de 19 de outubro de 2026'."
+  },
+  {
+   "key": "consent.label/text/accept/decline/policy/choices",
+   "current": "(missing)",
+   "problem": "pt.json has no consent block. getConsent() falls back to English, so the GA4 consent bar on /pt/ is in English.",
+   "suggested": "Add the 6 consent strings in pt-PT with tu (e.g. accept 'Aceitar', decline 'Recusar', choices 'Preferências de cookies')."
+  },
+  {
+   "key": "ui.metaDescription",
+   "current": "Mais de 6.500 áreas de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas que abrem sem rede, filtros precisos e um planeador de viagens paragem a paragem, para iPhone.",
+   "problem": "209 characters, well over the guide's 150–160. It also swaps the glossary's generic search term 'parques de campismo' for 'áreas de campismo', which the guide reserves for basic grounds. The same swap appears in ogDescription, trustLine, trustCampsites and the alt texts.",
+   "suggested": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas que abrem sem rede e planeador de viagens. (159 chars)"
+  },
+  {
+   "key": "ui.audiencesEyebrow",
+   "current": "Seja qual for a casa que levas às costas",
+   "problem": "'Às costas' means a backpack. The section that follows covers tents, campervans, caravans and big rigs, so the image is wrong for most of the audience and reads oddly.",
+   "suggested": "Seja qual for a casa que levas contigo"
+  },
+  {
+   "key": "ui.plannerEyebrow",
+   "current": "O prato principal",
+   "problem": "A culinary calque of 'the main event'. In a feature eyebrow it reads as a food reference. The old 'O centro de tudo' was better.",
+   "suggested": "O prato forte"
+  },
+  {
+   "key": "ui.faq6a",
+   "current": "Sim, e combiná-los. Os filtros abrangem ...",
+   "problem": "'Sim, e combiná-los' is an elliptical fragment with no verb a native writer would supply. It reads as a word-for-word rendering of 'Yes, and combinations of them'.",
+   "suggested": "Sim, e também podes combiná-los. Os filtros abrangem tipo de local, preço, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso, por isso «áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown» é uma só pesquisa."
+  },
+  {
+   "key": "ui.faq10a",
+   "current": "Abre os dados de reserva de um local para chegares ao respetivo operador e consultar aí a disponibilidade em tempo real, os preços e as condições.",
+   "problem": "The personal infinitive is not parallel ('chegares ... e consultar'), and 'respetivo' is administrative register.",
+   "suggested": "Abre os dados de reserva de um local para ires ao site do operador e confirmares lá a disponibilidade em tempo real, os preços e as condições."
+  },
+  {
+   "key": "ui.altPlaceScreen",
+   "current": "Ficha do Robin Hood Bay Campsite, em Marlborough, na KiwiCamping, com o preço (gratuito), se está aberto, as comodidades e uma ligação para reservar",
+   "problem": "The chain of commas is clumsy ('em Marlborough, na KiwiCamping'), and 'se está aberto' in the middle of a noun list breaks the parallel structure.",
+   "suggested": "Ficha do Robin Hood Bay Campsite (Marlborough) na KiwiCamping, com o preço (gratuito), o estado de abertura, as comodidades e uma ligação para reservar"
+  },
+  {
+   "key": "articles.doc-huts-new-zealand-guide.sections[0].tips[1], tips[2], sections[2].tips[2]",
+   "current": "Refúgios Basic podem não ter água / Refúgios Great Walk reservam-se à parte / Refúgios Great Walk esgotam meses antes",
+   "problem": "English category names are used as adjectives after a Portuguese noun with no article ('Refúgios Basic'). A Portuguese reader sees this as half-translated. The old 'Os refúgios básicos' read naturally.",
+   "suggested": "Os refúgios básicos podem não ter água / Os refúgios dos Great Walks reservam-se à parte / Os refúgios dos Great Walks esgotam com meses de antecedência"
+  },
+  {
+   "key": "articles.doc-huts-new-zealand-guide.description",
+   "current": "Refúgios Great Walk, Serviced, Standard e Basic: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva diferentes.",
+   "problem": "The meta description opens with a list of untranslated English category labels, which is unnatural and weak for Portuguese search.",
+   "suggested": "Refúgios com serviços, padrão, básicos e dos Great Walks: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva próprias."
+  },
+  {
+   "key": "articles.eating-out-new-zealand-prices-2026.sections[3].body[0]",
+   "current": "Uma pie de padaria (empada de massa folhada, normalmente de carne) e um café são um almoço mesmo barato, e encontra-se em quase todas as terras.",
+   "problem": "Agreement slip: the subject is plural (a pie and a coffee) but the verb is singular ('encontra-se').",
+   "suggested": "Uma pie de padaria (empada de massa folhada, normalmente de carne) e um café são um almoço mesmo barato, e há em quase todas as terras."
+  },
+  {
+   "key": "articles.eating-out-new-zealand-prices-2026.sections[7].heading",
+   "current": "Padarias e a questão da pie de carne picada e queijo",
+   "problem": "An English noun in a heading ('a pie de carne picada') reads as unfinished translation.",
+   "suggested": "Padarias e a questão da empada de carne picada e queijo"
+  },
+  {
+   "key": "articles.new-zealand-road-trip-fuel-cost-2026.sections[7].heading",
+   "current": "Descontos e onde abastecer",
+   "problem": "Drops 'loyalty schemes', the actual subject of the section (supermarket-linked fuel discount schemes).",
+   "suggested": "Cartões de desconto e onde abastecer"
+  },
+  {
+   "key": "pages.support.sections[3].paragraphs[0]",
+   "current": "Alterna entre o mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, ...",
+   "problem": "Inconsistent with the new UI. ui.feature3Title, feature3Text and faq8a now say 'mapa normal' and 'Flyover' (capitalised), but the support page keeps 'mapa padrão' and lowercase 'flyover'. support sections[2].p0 also keeps 'meteorologia' where the UI now says 'o tempo'.",
+   "suggested": "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar até veres o relevo em 3D. O Street View, feito com as imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura."
+  }
+ ]
+}
