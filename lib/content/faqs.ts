@@ -194,7 +194,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Why does a filtered search return nothing?", "Almost always because the filters are stacked tighter than the area allows. Widening the map or dropping the least important facility usually brings the list back, and it is worth clearing the rating filter first."],
   ],
   "kiwicamping-offline-data-guide": [
-    ["What works in KiwiCamping without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities, opening hours and conditions all open with no signal. Search, filters and your saved places work offline too."],
+    ["What works in KiwiCamping without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities, opening hours and conditions all open with no signal. Search, filters and saved places work offline too, for the places your access covers: BookIt stays and tours are free, DOC places and dump stations need the Premium pass."],
     ["What needs a connection?", "The live services: weather, routing and directions, Look Around imagery, place photos and provider booking pages. Those are fetched when asked for, so the place screen still opens without them."],
   ],
   "kiwicamping-weather-look-around": [

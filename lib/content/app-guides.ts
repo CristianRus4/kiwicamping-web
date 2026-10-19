@@ -125,19 +125,19 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-offline-data-guide",
-    title: "What works offline in KiwiCamping",
-    description: "Keep the bundled place directory and core details available when reception disappears.",
+    title: "Does KiwiCamping Work Offline? What Needs Signal",
+    description: "Place details, saved lists and guides work without reception; map tiles, weather, routing and Look Around need signal. Plan remote legs around that.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Offline places", "Place details", "Saved lists", "Trip plans", "West Coast", "Fiordland"],
     imageAlt: "KiwiCamping place details available without signal",
-    intro: "Offline means the place data stays useful outside coverage. It does not mean every service works without a network, and knowing exactly which half is which is the difference between a well-prepared remote leg and finding out at the wrong moment.",
+    intro: "KiwiCamping is not an offline map app. The place data stays useful outside coverage, but map tiles, weather, routing and photos need a network, and knowing exactly which half is which is the difference between a well-prepared remote leg and finding out at the wrong moment.",
     sections: [
       s("What stays available without reception", [
-        "The app bundles more than 6,500 New Zealand place records, covering campsites, backcountry huts, holiday parks and other bookable stays, designated freedom camping areas, dump stations and day-use places. Core details travel with the app rather than being fetched, so they remain readable when the signal does not.",
+        "The app bundles its New Zealand place records: DOC campsites, huts and tracks, DOC freedom camping notices, dump stations, day-use areas, and BookIt holiday parks and tours. Core details travel with the app rather than being fetched, so they remain readable when the signal does not. BookIt stays and tours are free; the DOC places, dump stations and day-use areas are part of the Premium pass.",
         "Saved lists and trip information stay usable too. You can review the plan, read the notes attached to each stop and check what you decided about a place, which is normally exactly what you need when you are deciding whether to push on or stop.",
-      ], ["6,500+ place records bundled", "Saved lists and trips stay readable", "Details travel with the app"]),
+      ], ["Place records bundled", "Saved lists and trips stay readable", "Details travel with the app"]),
       s("What genuinely needs a connection", [
-        "Weather forecasts, live routing and directions, external booking pages, provider websites and some map imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
+        "Weather forecasts, live routing and directions, external booking pages, provider websites, place photos, map tiles and satellite imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
         "Look Around imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends.",
       ]),
       s("Where in New Zealand this actually bites", [
