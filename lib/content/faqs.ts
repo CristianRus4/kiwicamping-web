@@ -94,7 +94,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What does the one-lane bridge sign mean?", "The large arrow is your direction and the small arrow is the oncoming one. If your arrow is the small one, you give way, and on a long bridge that means waiting at the entrance rather than committing and reversing."],
   ],
   "overseas-driver-licence-new-zealand": [
-    ["Can you drive in New Zealand on a foreign licence?", "Yes, for up to 12 months from your arrival, provided the licence is current and for the class of vehicle you are driving. After 12 months you must convert to a New Zealand licence."],
+    ["Can you drive in New Zealand on a foreign licence?", "Yes. If you arrived between 1 November 2024 and 31 October 2026, a current overseas car licence lasts 18 months from that arrival; if you arrive on or after 1 November 2026, it lasts 12 months. After that you need a New Zealand licence."],
     ["Do you need an International Driving Permit for New Zealand?", "Only if your licence is not in English. Where it is not, you must carry either an accurate certified English translation or an International Driving Permit alongside the original licence."],
   ],
   "campervan-road-rules-new-zealand": [
