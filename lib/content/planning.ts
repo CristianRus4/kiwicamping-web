@@ -49,8 +49,8 @@ export const planningArticles: Article[] = [
 
   a({
     slug: "cook-strait-ferry-campervan-guide",
-    title: "Cook Strait ferry with a campervan: booking and boarding",
-    description: "Vehicle dimensions, check-in time and rough-weather flexibility matter more than the sailing time.",
+    title: "Cook Strait Ferry with a Campervan: Fares and Booking 2026",
+    description: "Interislander or Bluebridge with a campervan: how vehicle length and height set the fare, when to book, check-in and what to do before boarding.",
     category: "Trip planning", region: "Wellington and Picton", readTime: 4,
     places: ["Wellington ferry terminal", "Cook Strait", "Picton ferry terminal", "Marlborough Sounds"],
     imageAlt: "Cook Strait ferry entering Picton Harbour",
