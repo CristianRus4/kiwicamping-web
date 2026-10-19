@@ -28,6 +28,9 @@ export const CONSENT_REGIONS = [
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT",
   "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE",
   "IS", "LI", "NO", "GB", "CH",
+  // EU outermost regions and territories Google geolocates under their own codes, the Crown
+  // dependencies and Gibraltar (their own GDPR-style laws) and the European microstates.
+  "RE", "GP", "MQ", "GF", "YT", "MF", "AX", "GI", "JE", "GG", "IM", "MC", "AD", "SM", "VA",
 ] as const;
 
 /** Where the visitor's choice is remembered: "granted" or "denied". */
@@ -55,6 +58,9 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
 try{stored=w.localStorage.getItem(key)}catch(e){}
 if(stored!=='granted'&&stored!=='denied')stored=null;
 if(stored)gtag('consent','update',{analytics_storage:stored});
+var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
+var europe=/^(Europe\\/|Atlantic\\/(Canary|Madeira|Azores|Reykjavik)$)/.test(tz);
+if(!stored&&europe)gtag('consent','update',{analytics_storage:'denied'});
 var tag=d.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);d.head.appendChild(tag);
 function context(){
 var m=d.querySelector('main[data-page-kind]'),out={};
@@ -81,10 +87,9 @@ function choose(value){stored=value;try{w.localStorage.setItem(key,value)}catch(
 bar.querySelector('[data-consent-accept]').addEventListener('click',function(){choose('granted')});
 bar.querySelector('[data-consent-decline]').addEventListener('click',function(){choose('denied')});
 d.addEventListener('click',function(e){var open=e.target&&e.target.closest?e.target.closest('[data-consent-open]'):null;if(!open)return;e.preventDefault();show();bar.querySelector('button').focus()});
-var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
-if(!stored&&/^(Europe\\/|Atlantic\\/(Canary|Madeira|Azores|Reykjavik)$)/.test(tz))show()}
+if(!stored&&europe)show()}
 function boot(){
-var page=context(),config={allow_google_signals:false,allow_ad_personalization_signals:false,content_group:page.guide_category||page.page_kind||'other'};
+var page=context(),config={allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:34128000,content_group:page.guide_category||page.page_kind||'other'};
 for(var k in page)config[k]=page[k];
 gtag('js',new Date());
 gtag('config',id,config);

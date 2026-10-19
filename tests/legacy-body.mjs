@@ -59,6 +59,8 @@ export function legacyBody(html) {
     .replace(/<nav class="language-nav"[\s\S]*?<\/nav>/g, "")
     .replace(/<section class="related-section">[\s\S]*?<\/section>/g, "")
     .replace(/^(<body[^>]*><div) lang="[^"]*"/, "$1 lang")
+    // next/font class hashes change between builds and dependency installs; they are not content.
+    .replace(/__variable_[a-z0-9_]+/g, "__variable_FONT")
     .replace(/<!-- -->/g, "");
 }
 
