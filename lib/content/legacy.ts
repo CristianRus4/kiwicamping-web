@@ -107,7 +107,7 @@ export const legacyOnlyArticles: Article[] = [
       "New Zealand's camping network runs across four quite different kinds of land, and the rules, price and booking system change with each one. Knowing which type you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask when something is unclear, and what you should expect to pay.",
     sections: [
       s("The four land types", [
-        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites can be free or a few dollars per person; serviced campgrounds have flush toilets, powered options and often a warden.",
+        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites are free; serviced campgrounds have flush toilets, powered options and often a warden.",
         "Council reserves are the backbone of freedom camping. They are governed by local bylaws rather than national rules, usually allow one or two nights, and are frequently restricted to certified self-contained vehicles. Because each council writes its own bylaw, a rule that applies in one district tells you nothing about the next one.",
       ]),
       s("Holiday parks and iwi-managed places", [
@@ -124,14 +124,14 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book Abel Tasman and Great Walk sites early", "Fiordland needs DOC bookings", "West Coast trades weather for space"]),
       s("What each land type costs", [
         "DOC basic sites are free and DOC standard sites generally run $10–$20 per adult per night, charged per person rather than per site. Serviced DOC campgrounds sit around $25 per adult. Because the charge scales with people, a family is often better off at a holiday park quoting a flat site rate.",
-        "Council freedom camping areas are usually free but may require a permit, and holiday parks range from roughly $25 to $80 for a site depending on season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
+        "Council freedom camping areas are usually free but may require a permit, and holiday park prices vary widely with season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
       ], ["DOC charges per adult", "Holiday parks may suit families better", "Koha is not a discount"]),
       s("Booking, or turning up", [
         "The four land types behave differently on arrival. Great Walk and Abel Tasman campsites are booked well ahead and turning up is not an option. Most DOC sites are first-come, which works outside peak season and fails badly between Christmas and late January. Holiday parks take bookings and fill early in beach towns.",
         "Council freedom camping areas cannot be reserved at all, which is exactly why they need a fallback. The workable pattern is to book the nights that are hard to replace, stay flexible on the rest, and always know where the nearest paid site is.",
       ]),
       s("The legal guardrails", [
-        "Freedom camping is allowed on council and conservation land unless a bylaw or DOC notice prohibits or restricts it, and on council land the default is certified self-contained vehicles only. Since 7 June 2026 certification means a green warrant: blue warrants no longer count for freedom camping, whatever their printed expiry. The certification is about the vehicle's capability, not your intentions, and campgrounds, holiday parks and private land with permission do not require it.",
+        "Freedom camping is allowed on council and conservation land unless a bylaw or DOC notice prohibits or restricts it, and on council land a vehicle must be certified self-contained unless a bylaw designates the site for non-self-contained vehicles. Since 7 June 2026 certification means a green warrant: blue warrants no longer count for freedom camping, whatever their printed expiry. The certification is about the vehicle's capability, not your intentions, and campgrounds, holiday parks and private land with permission do not require it.",
         "The bylaw or DOC notice is the rule, and the sign at the site is the quickest way to read it, though not every restricted area is signposted. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
       ]),
       s("Season and access", [

@@ -13,7 +13,7 @@ export const campingArticles: Article[] = [
     intro: "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard.",
     sections: [
       s("Hut categories and 2026/27 fees", [
-        "Serviced huts have mattresses, a water supply, toilets, handwashing and heating with fuel. For 2026/27 an adult pays $25 a night from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February; children pay half, and camping beside one is usually $12.50. Standard huts have mattresses, water and toilets, with wood heaters below the bush line, for $15 an adult and $7.50 a child. Basic huts and bivvies are free and offer shelter and little else. In KiwiCamping's data that splits into 96 serviced, 408 standard and 372 basic huts.",
+        "Serviced huts have mattresses, a water supply, toilets, handwashing and heating with fuel. For 2026/27 an adult pays $25 a night from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February; children pay half, and camping beside one costs half the hut fee. Standard huts have mattresses, water and toilets, with wood heaters below the bush line, for $15 an adult and $7.50 a child. Basic huts and bivvies are free and offer shelter and little else. In KiwiCamping's data that splits into 96 serviced, 408 standard and 372 basic huts.",
         "Three categories sit outside that ladder. Great Walk huts, 33 of them in KiwiCamping's data, have their own prices by track, season and residency and must be booked in the Great Walks season. Individually priced huts, including serviced alpine huts such as Mueller Hut, set their own fee, and club huts are run by clubs such as the New Zealand Alpine Club, so check the hut's DOC page. Whatever the category, the roof never replaces a sleeping bag, stove, food, head torch and warm layers.",
       ], ["Serviced $25 to $34 by season, standard $15, basic free", "Great Walk and alpine huts price individually", "Carry full gear whatever the category"]),
       s("Where the huts are, region by region", [
@@ -42,7 +42,7 @@ export const campingArticles: Article[] = [
       ], ["Carry out all rubbish and scraps", "Close shutters and doors", "Report damage to DOC afterwards"]),
     ],
     sources: [
-      { label: "DOC hut categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/hut-categories/" },
+      { label: "DOC accommodation prices 2026/27 by hut and campsite category", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/doc-accommodation-price-changes--20262027/" },
       { label: "DOC media release, 1 October 2026: serviced huts bookable, hut tickets online", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/more-doc-huts-go-online-as-booking-and-payment-gets-easier/" },
     ],
   }),
