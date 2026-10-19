@@ -2,7 +2,7 @@ import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { articles, categories, type Article, type ArticleCategory } from "./site";
 import { readingMinutesByCharacters } from "./article-model";
-import { isCjk, isLocale, liveLocales, localeCodes, locales, type LocaleCode } from "./locales";
+import { hasReviews, isCjk, isLocale, liveLocales, localeCodes, locales, type LocaleCode } from "./locales";
 
 export { isLocale, localeCodes, type LocaleCode };
 export const localeLabels = Object.fromEntries(locales.map((entry) => [entry.code, entry.label])) as Record<LocaleCode, string>;
@@ -82,14 +82,25 @@ function isPageComplete(kind: StaticPageKind, page: StaticPage | undefined): boo
   });
 }
 
+/** The home page testimonials (reviewsEyebrow, reviewsTitle, review1Title ... review9Country). */
+export const isReviewKey = (key: string) => /^review(?:s[A-Z]|\d+[A-Z])/.test(key);
+
 /**
- * A locale is published only when **every** UI string is translated. A partial UI would put a German
- * hero above an English FAQ. Guides have a separate per-article indexability check below, so a
- * translated UI never makes an untranslated English article compete with the English site.
+ * The UI strings a locale must translate: all of them, except the testimonials in a locale whose
+ * home page does not show them (`reviews: false` in lib/locales.json). Testimonials are quotes from
+ * real reviews and are never translated into a new language.
+ */
+export const requiredUiKeys = (locale: LocaleCode) =>
+  (Object.keys(uiStrings) as (keyof UiStrings)[]).filter((key) => hasReviews(locale) || !isReviewKey(key));
+
+/**
+ * A locale is published only when **every** UI string it shows is translated. A partial UI would put
+ * a German hero above an English FAQ. Guides have a separate per-article indexability check below,
+ * so a translated UI never makes an untranslated English article compete with the English site.
  */
 export const isTranslated = (locale: LocaleCode) => {
   const overrides = files[locale].ui ?? {};
-  return Object.keys(uiStrings).every((key) => filled(overrides[key as keyof UiStrings]));
+  return requiredUiKeys(locale).every((key) => filled(overrides[key]));
 };
 /**
  * Locales the site publishes: live in the registry and completely translated. A live locale with an
@@ -112,9 +123,10 @@ export function isStaticPageTranslated(locale: LocaleCode, kind: StaticPageKind)
 export function translationProgress(locale: LocaleCode) {
   const overrides = files[locale].ui ?? {};
   const translatedArticles = files[locale].articles ?? {};
+  const required = requiredUiKeys(locale);
   return {
-    ui: Object.keys(uiStrings).filter((key) => filled(overrides[key as keyof UiStrings])).length,
-    uiTotal: Object.keys(uiStrings).length,
+    ui: required.filter((key) => filled(overrides[key])).length,
+    uiTotal: required.length,
     articles: translatableArticles.filter((article) => isArticleComplete(article, translatedArticles[article.slug])).length,
     articlesTotal: translatableArticles.length,
     pages: (["support", "privacy", "terms"] as StaticPageKind[]).filter((kind) => isPageComplete(kind, files[locale].pages?.[kind])).length,

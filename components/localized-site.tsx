@@ -14,7 +14,7 @@ import { getPage, getTranslation, isArticleTranslated, isStaticPageTranslated, l
 import { articleSchema, homeSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate, localeModified } from "@/lib/article-dates";
 import { hasGuideLinks, linkProse, renderGuideLinks } from "@/lib/internal-links";
-import { english, htmlLangOf, intlOf, localeEntry } from "@/lib/locales";
+import { english, hasReviews, htmlLangOf, intlOf, localeEntry } from "@/lib/locales";
 import { relatedArticles } from "@/lib/related";
 import { articles } from "@/lib/site";
 import { LanguageSwitcher } from "./language-switcher";
@@ -71,7 +71,7 @@ export function LocalizedHome({ locale }: { locale: LocaleCode }) {
 
       <section className="section audiences"><div className="audience-copy"><p className="eyebrow">{ui.audiencesEyebrow}</p><h2>{ui.audiencesTitle}</h2></div><div className="audience-grid">{audiences.map(([Icon,title,text])=><article key={title}><Icon/><h3>{title}</h3><p>{text}</p></article>)}</div></section>
 
-      <section className="reviews-section"><div className="reviews-head"><div><p className="eyebrow">{ui.reviewsEyebrow}</p><h2>{ui.reviewsTitle}</h2></div></div><div className="review-wall">{reviews.map(([name,country,title,quote],index)=><article className={`review-card review-${index+1}`} key={name}><div className="review-stars">★★★★★</div><h3>{title}</h3><blockquote>“{quote}”</blockquote><footer><span className="review-avatar">{name[0]}</span><span><strong>{name}</strong><small>{country}</small></span></footer></article>)}</div></section>
+      {hasReviews(locale)&&<section className="reviews-section"><div className="reviews-head"><div><p className="eyebrow">{ui.reviewsEyebrow}</p><h2>{ui.reviewsTitle}</h2></div></div><div className="review-wall">{reviews.map(([name,country,title,quote],index)=><article className={`review-card review-${index+1}`} key={name}><div className="review-stars">★★★★★</div><h3>{title}</h3><blockquote>“{quote}”</blockquote><footer><span className="review-avatar">{name[0]}</span><span><strong>{name}</strong><small>{country}</small></span></footer></article>)}</div></section>}
 
       <section className="principles"><div><ShieldCheck/><h2>{ui.principlesTitle}</h2></div><div className="principle-list">{[[ui.principle1Title,ui.principle1Text],[ui.principle2Title,ui.principle2Text],[ui.principle3Title,ui.principle3Text]].map(([title,text])=><article key={title}><div><h3>{title}</h3><p>{text}</p></div></article>)}</div></section>
 

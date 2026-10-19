@@ -6,9 +6,12 @@
  *
  * - lib/translations/index.ts: a static import of every locale file, the `localeCodes` tuple and
  *   the `LocaleCode` type. Bundlers need static imports, so this cannot be computed at runtime.
- * - docs/translation.config.json: the translation engine's `locales`, `targets` and `varieties`
- *   (a locale whose engine variety differs from its code, such as pt -> pt-PT). Every other field
- *   in that file is left exactly as it is.
+ * - docs/translation.config.json: the shared `kiwicamping-website` catalog's `locales`, `targets`
+ *   and `varieties` (a locale whose engine variety differs from its code, such as pt -> pt-PT).
+ *   A locale that has a catalog of its own (an i18n thread's `kiwicamping-website-ja`, carrying
+ *   that language's glossary and style guide) is left to that catalog and not listed in the
+ *   shared one, so the engine never translates it twice. Every other field, and every other
+ *   catalog, is left exactly as it is.
  *
  * Run `npm run locales:sync` after adding a locale to the registry. `npm run content:check` fails
  * while either file is stale. Flipping a locale from draft to live changes neither file.
@@ -41,9 +44,11 @@ export const translationFiles: Record<LocaleCode, unknown> = { ${codes.map((code
   const config = JSON.parse(readFileSync(configPath, "utf8"));
   const catalog = config.catalogs.find((item) => item.id === "kiwicamping-website");
   if (!catalog) throw new Error("docs/translation.config.json has no kiwicamping-website catalog");
-  catalog.locales = codes;
-  catalog.targets = codes.map((code) => ({ locale: code, path: `../lib/translations/${code}.json` }));
-  const varieties = Object.fromEntries(registry.filter((entry) => entry.engine !== entry.code).map((entry) => [entry.code, entry.engine]));
+  const dedicated = new Set(config.catalogs.filter((item) => item !== catalog).flatMap((item) => item.locales ?? []));
+  const shared = registry.filter((entry) => !dedicated.has(entry.code));
+  catalog.locales = shared.map((entry) => entry.code);
+  catalog.targets = shared.map((entry) => ({ locale: entry.code, path: `../lib/translations/${entry.code}.json` }));
+  const varieties = Object.fromEntries(shared.filter((entry) => entry.engine !== entry.code).map((entry) => [entry.code, entry.engine]));
   if (Object.keys(varieties).length) catalog.varieties = varieties;
   else delete catalog.varieties;
   return [[barrelPath, barrel], [configPath, `${JSON.stringify(config, null, 2)}\n`]];

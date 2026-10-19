@@ -14,8 +14,11 @@ export type CtaPlacement = (typeof ctaPlacements)[number];
 /** `en` for the English site, otherwise the locale's URL segment (`de`, `zh-hans`, ...). */
 export type CtaLocale = string;
 
-/** App Store Connect truncates campaign tokens longer than 40 characters. */
-const MAX_CAMPAIGN_TOKEN = 40;
+/**
+ * App Store Connect accepts campaign tokens of up to 30 characters (the longest today,
+ * `w_stick_zh-hans`, is 15). Anything longer is refused here rather than silently truncated there.
+ */
+export const MAX_CAMPAIGN_TOKEN = 30;
 
 /** The campaign token for one placement on one edition of the site, e.g. `w_hero_de`. */
 export function campaignToken(placement: CtaPlacement, locale: CtaLocale): string {

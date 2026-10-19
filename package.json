@@ -25,7 +25,9 @@
     "similarity:check": "node scripts/audit-article-similarity.mjs",
     "smoke:live": "tsx scripts/smoke-live.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
-    "locales:sync": "node scripts/sync-locales.mjs"
+    "locales:sync": "node scripts/sync-locales.mjs",
+    "translations:stamp": "node scripts/translation-stamps.mjs stamp",
+    "translations:invalidate": "node scripts/translation-stamps.mjs invalidate"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.3.3",

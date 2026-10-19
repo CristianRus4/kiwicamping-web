@@ -13,13 +13,16 @@ export { localeCodes, type LocaleCode };
  *   regional tags).
  * - `og`: the Open Graph locale. `intl`: the Intl locale for dates and money.
  * - `engine`: the translation engine variety. `script`: "cjk" switches typography and reading time.
+ * - `reviews`: whether the home page shows the App Store testimonials. They are never translated into
+ *   a new language, so a locale without them omits the section, and its UI completeness check skips
+ *   those strings.
  * - `status`: "live" is built, exported, indexed and listed; "draft" is none of those, and renders
  *   only in development with LOCALES_PREVIEW=1. Only the orchestrator flips a locale to live, and
  *   content:check fails if a live locale's interface is not completely translated.
  */
 export type LocaleEntry = {
   code: LocaleCode; segment: string; label: string; htmlLang: string; hreflang: string[]; og: string;
-  intl: string; engine: string; script: "latin" | "cjk"; status: "live" | "draft";
+  intl: string; engine: string; script: "latin" | "cjk"; reviews: boolean; status: "live" | "draft";
 };
 
 export const locales = registry as LocaleEntry[];
@@ -50,5 +53,7 @@ export const htmlLangOf = (locale: SiteLocale) => (locale === "en" ? english.htm
 export const intlOf = (locale: SiteLocale) => (locale === "en" ? english.intl : localeEntry(locale).intl);
 export const ogOf = (locale: SiteLocale) => (locale === "en" ? english.og : localeEntry(locale).og);
 export const isCjk = (locale: SiteLocale) => locale !== "en" && localeEntry(locale).script === "cjk";
+/** Whether this edition's home page carries the testimonials (English always does). */
+export const hasReviews = (locale: SiteLocale) => locale === "en" || localeEntry(locale).reviews;
 /** The site path prefix for a locale: "" for English, "/de" for German. */
 export const localePrefix = (locale: SiteLocale) => (locale === "en" ? "" : `/${localeEntry(locale).segment}`);

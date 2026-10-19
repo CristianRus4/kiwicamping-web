@@ -1,7 +1,14 @@
 /**
- * The 15 legacy .html pages carry most of campingapp.nz's search traffic, so their English <body>
- * must not change underneath them. tests/fixtures/legacy-bodies/ holds each page's <body> as main
- * exported it before the growth push (commit d3de92b), and the test compares today's export to it.
+ * The 15 legacy .html pages carry most of campingapp.nz's search traffic, so a platform change must
+ * not alter their English <body> underneath them. tests/fixtures/legacy-bodies/ holds each page's
+ * <body> as main exported it before the growth push (commit d3de92b).
+ *
+ * This is a one-off verification for foundation (platform) changes, not a permanent test: content
+ * work deliberately rewrites some legacy pages, so it is not part of `npm test` or `npm run check`.
+ * The permanent guards live in tests/rendered-html.test.mjs: the 15 URLs export, answer 200, are
+ * self-canonical .html, and no English /guides/<legacy-slug>/ exists. Run it after `npm run export`:
+ *
+ *   node tests/legacy-body.mjs --check [pages-dist]
  *
  * "Byte-identical" is measured after normalisation, and this is the complete list of what the
  * normalisation removes or masks, with the reason for each:
@@ -65,6 +72,23 @@ export function legacyBody(html) {
 }
 
 export const fixtureName = (path) => path.slice(1).replace(/\.html$/, ".body.html");
+
+if (process.argv[2] === "--check") {
+  const dist = resolve(process.argv[3] ?? "pages-dist");
+  const font = (text) => text.replace(/__variable_[a-z0-9_]+/g, "__variable_FONT");
+  let changed = 0;
+  for (const path of legacyPaths) {
+    const actual = font(legacyBody(await readFile(resolve(dist, path.slice(1)), "utf8")));
+    const expected = font((await readFile(new URL(fixtureName(path), fixtureDir), "utf8")).replace(/\n$/, ""));
+    if (actual === expected) { console.log(`  same     ${path}`); continue; }
+    changed += 1;
+    let index = 0;
+    while (index < actual.length && actual[index] === expected[index]) index += 1;
+    console.log(`  CHANGED  ${path} at character ${index}:\n    main: …${expected.slice(Math.max(0, index - 120), index + 160)}…\n    now:  …${actual.slice(Math.max(0, index - 120), index + 160)}…`);
+  }
+  console.log(changed ? `${changed} of ${legacyPaths.length} legacy bodies differ from main's.` : `All ${legacyPaths.length} legacy bodies match main's byte for byte.`);
+  process.exitCode = changed ? 1 : 0;
+}
 
 if (process.argv[2] === "--write") {
   const dist = resolve(process.argv[3] ?? "pages-dist");
