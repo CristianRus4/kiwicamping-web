@@ -9,14 +9,19 @@
  * lib/translations/<code>.json, and the site picks it up on the next build. Partial files are fine:
  * lib/localized.ts falls back to the English value for anything a locale has not supplied.
  *
- * Road trip guides are deliberately absent — they stay English-only (see lib/localized.ts).
+ * Every guide is included: road trips and the legacy .html articles too.
  *
- * Run:  node --experimental-strip-types scripts/build-translation-source.mjs
+ * Contextual links are carried as markup: the phrase lib/internal-links.ts links in English is
+ * wrapped as <a data-guide="slug">phrase</a>. A translation keeps the tags (the engine checks they
+ * survive) around its own wording, and the site rewrites them to that edition's guide URL.
+ *
+ * Run:  npm run translations:source
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { consentStrings, uiStrings, staticPages } from "../lib/source-strings.ts";
 import { translatableArticles } from "../lib/localized.ts";
+import { markupLinks } from "../lib/internal-links.ts";
 
 const forTranslation = (article) => ({
   title: article.title,
@@ -24,7 +29,8 @@ const forTranslation = (article) => ({
   region: article.region,
   imageAlt: article.imageAlt,
   intro: article.intro,
-  sections: article.sections.map((part) => ({ heading: part.heading, body: part.body, tips: part.tips ?? [] })),
+  // One section at a time, exactly as the English page selects its links.
+  sections: article.sections.map((part) => ({ heading: part.heading, body: markupLinks(part.body, article.slug), tips: part.tips ?? [] })),
   faq: (article.faq ?? []).map(([question, answer]) => [question, answer]),
   sources: (article.sources ?? []).map((source) => ({ label: source.label })),
   priceTable: article.priceTable ? { note: article.priceTable.note, rows: article.priceTable.rows.map((row) => ({ label: row.label, unit: row.unit ?? "" })) } : null,

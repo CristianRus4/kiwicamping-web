@@ -4,8 +4,8 @@ import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { analyticsEnabled, analyticsScript } from "@/lib/analytics";
-import { localeCodes } from "@/lib/localized";
-import { seoLanguageTags } from "@/lib/seo";
+import { publishedLocales } from "@/lib/localized";
+import { english, ogOf } from "@/lib/locales";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
@@ -28,11 +28,10 @@ export const metadata: Metadata = {
   authors: [{ name: "KiwiCamping" }],
   creator: "KiwiCamping",
   publisher: "KiwiCamping",
-  alternates: { canonical: "/", languages: seoLanguageTags("") },
   openGraph: {
     type: "website",
-    locale: "en_NZ",
-    alternateLocale: localeCodes.map((code) => ({ de: "de_DE", es: "es_ES", fr: "fr_FR", it: "it_IT", nl: "nl_NL", pt: "pt_PT" }[code])),
+    locale: english.og,
+    alternateLocale: publishedLocales.map((code) => ogOf(code)),
     siteName: "KiwiCamping",
     title: "KiwiCamping: the camping map and road trip planner for New Zealand",
     description:
@@ -68,5 +67,6 @@ const headerScroll = `(function(){var h=document.querySelector(".site-header");i
 // GA4 and Consent Mode (lib/analytics.ts). First in <body> so the consent defaults are set before
 // anything else can send data; marked data-static-keep so the static export keeps it.
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en-NZ"><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  // Every route renders this one <html>; the exporter sets each locale page's lang from the registry.
+  return <html lang={english.htmlLang}><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }

@@ -1,28 +1,21 @@
-import de from "./translations/de.json";
-import es from "./translations/es.json";
-import fr from "./translations/fr.json";
-import it from "./translations/it.json";
-import nl from "./translations/nl.json";
-import pt from "./translations/pt.json";
+import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { articles, categories, type Article, type ArticleCategory } from "./site";
+import { readingMinutesByCharacters } from "./article-model";
+import { isCjk, isLocale, liveLocales, localeCodes, locales, type LocaleCode } from "./locales";
 
-export const localeCodes = ["de", "es", "fr", "it", "nl", "pt"] as const;
-export type LocaleCode = (typeof localeCodes)[number];
-export const localeLabels: Record<LocaleCode, string> = { de: "Deutsch", es: "Español", fr: "Français", it: "Italiano", nl: "Nederlands", pt: "Português" };
+export { isLocale, localeCodes, type LocaleCode };
+export const localeLabels = Object.fromEntries(locales.map((entry) => [entry.code, entry.label])) as Record<LocaleCode, string>;
 
 /**
- * Road trips are deliberately English-only. They are long, heavily place-specific and lose more in
- * machine or hurried translation than they gain, so `translatableArticles` is what a translator is
- * asked for and what a localised /guides/ index lists. Articles published at an existing
- * campingapp.nz URL are excluded for the same reason they are excluded from /guides/: that URL
- * already ranks in English and must not gain a second live copy.
+ * Every guide is translatable, road trips and the legacy .html articles included. A legacy article
+ * keeps its English URL (/best-nz-camping-apps.html); its translations live at
+ * /<segment>/guides/<slug>/ and point back at it through hreflang.
  */
-export const untranslatedCategories: ArticleCategory[] = ["Road trips"];
-/** Every guide a locale publishes. Untranslated ones are served whole, in English. */
-export const localeArticles = articles.filter((item) => !item.legacyPath);
-/** The subset a translator is asked for. Road trips are long, heavily place-specific and lose
- * more in translation than they gain, so they stay English everywhere. */
+export const untranslatedCategories: ArticleCategory[] = [];
+/** Every guide a locale publishes. Untranslated ones are served whole, in English, and noindex. */
+export const localeArticles = articles;
+/** What a translator is asked for: everything. */
 export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
 export const localeCategories = categories;
 
@@ -40,9 +33,7 @@ type TranslationFile = {
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
 
-const files: Record<LocaleCode, TranslationFile> = { de, es, fr, it, nl, pt } as unknown as Record<LocaleCode, TranslationFile>;
-
-export const isLocale = (value: string): value is LocaleCode => localeCodes.includes(value as LocaleCode);
+const files = translationFiles as Record<LocaleCode, TranslationFile>;
 
 /**
  * Nothing is ever shown half-translated. That is the whole point of the three checks below.
@@ -100,7 +91,11 @@ export const isTranslated = (locale: LocaleCode) => {
   const overrides = files[locale].ui ?? {};
   return Object.keys(uiStrings).every((key) => filled(overrides[key as keyof UiStrings]));
 };
-export const publishedLocales = localeCodes.filter(isTranslated);
+/**
+ * Locales the site publishes: live in the registry and completely translated. A live locale with an
+ * incomplete interface fails content:check, so in practice this is every live locale.
+ */
+export const publishedLocales = liveLocales.filter(isTranslated);
 
 /** A localised guide is indexable only when its complete article has been translated. */
 export function isArticleTranslated(locale: LocaleCode, slug: string) {
@@ -154,9 +149,15 @@ export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {
  */
 export function localizedArticles(locale: LocaleCode): Article[] {
   const translated = files[locale].articles ?? {};
+  const cjk = isCjk(locale);
   return localeArticles.map((article) => {
     const item = translated[article.slug];
     if (!isArticleComplete(article, item)) return article;
+    const sections = article.sections.map((section, index) => ({
+      heading: item!.sections![index].heading!,
+      body: item!.sections![index].body!,
+      tips: section.tips ? item!.sections![index].tips : undefined,
+    }));
     return {
       ...article,
       title: item!.title!,
@@ -164,11 +165,9 @@ export function localizedArticles(locale: LocaleCode): Article[] {
       region: item!.region!,
       imageAlt: item!.imageAlt!,
       intro: item!.intro!,
-      sections: article.sections.map((section, index) => ({
-        heading: item!.sections![index].heading!,
-        body: item!.sections![index].body!,
-        tips: section.tips ? item!.sections![index].tips : undefined,
-      })),
+      sections,
+      // Word counts mean nothing in Japanese, Korean or Chinese, so those read by character.
+      readTime: cjk ? readingMinutesByCharacters({ intro: item!.intro!, sections }) : article.readTime,
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),
       priceTable: article.priceTable ? {

@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { SUPPORT_MAILTO } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
-import { localeLabels, publishedLocales } from "@/lib/localized";
 import { BrandMark } from "./brand-mark";
 import { ConsentBar, PrivacyChoicesLink } from "./consent-bar";
+import { LanguageSwitcher } from "./language-switcher";
 
-export function Footer() {
+/** `pageKey` lets the language switcher link to this page in each language (see lib/routes.ts). */
+export function Footer({ pageKey = "home" }: { pageKey?: string }) {
   return (<>
     <footer className="footer">
       <div className="footer-grid">
@@ -14,7 +15,7 @@ export function Footer() {
         <div><strong>Help</strong><Link href="/support/">Support & FAQ</Link><a href={SUPPORT_MAILTO}>Contact</a></div>
         <div><strong>Get the app</strong><a href={appStoreUrl({ placement: "foot", locale: "en" })} data-cta="foot">Download app</a><Link href="/privacy/">Privacy</Link><Link href="/terms/">Terms</Link><PrivacyChoicesLink locale="en" /></div>
       </div>
-      {publishedLocales.length > 0 && <nav className="language-nav" aria-label="Languages"><Link href="/" aria-current="page">English</Link>{publishedLocales.map((code) => <Link href={`/${code}/`} key={code}>{localeLabels[code]}</Link>)}</nav>}
+      <LanguageSwitcher current="en" pageKey={pageKey} />
       <div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>Made for the long way around New Zealand.</span></div>
     </footer>
     <ConsentBar locale="en" />

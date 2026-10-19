@@ -11,12 +11,12 @@ import { Button } from "@/components/ui/button";
 import { articles } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
-import { homeSchema, seoLanguageTags } from "@/lib/seo";
+import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner" },
   description: "Find 6,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
-  alternates: { canonical: "/", languages: seoLanguageTags("") },
+  alternates: { canonical: "/", languages: alternatesFor("home") },
 };
 
 const features = [

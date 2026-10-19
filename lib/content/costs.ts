@@ -1,6 +1,6 @@
 import { makeArticle as a, section as s, type Article, type ArticlePriceTable } from "@/lib/article-model";
 
-const asOf = "12 August 2026";
+const asOf = "2026-08-12";
 const rbnz = {label:"Reserve Bank of New Zealand exchange rates",url:"https://www.rbnz.govt.nz/en/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index"};
 const numbeo = {label:"Numbeo New Zealand prices, updated June 2026",url:"https://www.numbeo.com/cost-of-living/country_result.jsp?country=New+Zealand"};
 const table = (note: string, rows: ArticlePriceTable["rows"]): ArticlePriceTable => ({asOf,note,rows});

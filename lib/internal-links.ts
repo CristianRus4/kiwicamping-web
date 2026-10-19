@@ -1,4 +1,5 @@
 import { articleHref, articles } from "@/lib/site";
+import { localeEntry, type LocaleCode } from "@/lib/locales";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -14,7 +15,7 @@ import { articleHref, articles } from "@/lib/site";
  * therefore the writer's own wording in its own sentence, which is what makes it worth anything.
  *
  * Rules the implementation enforces: never link a guide to itself, never link the same target twice
- * in one article, at most one link per paragraph, and a budget per article, so a guide reads as
+ * in one section, at most one link per paragraph, and a budget per section, so a guide reads as
  * prose and not as a link farm.
  */
 type LinkTarget = { pattern: RegExp; slug: string };
@@ -89,34 +90,95 @@ const live = targets.filter((target) => bySlug.has(target.slug));
 const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+/** One contextual link: the phrase at [start, end) of a paragraph links to the guide `slug`. */
+export type LinkSpan = { start: number; end: number; slug: string };
+
 /**
- * Returns each paragraph as HTML, with at most one contextual link added per paragraph.
+ * Which phrase, if any, becomes a link in each paragraph: at most one per paragraph, never the
+ * guide itself, never the same target twice in one call, and at most `budget` links per call.
+ * Callers pass one section's paragraphs at a time, so the budget is per section.
  *
- * The text is escaped first and the anchor inserted afterwards, so article prose can never inject
- * markup: the only HTML in the result is the anchor this function wrote.
+ * This is the single selection used three ways: English rendering (`linkProse`), the link markup
+ * written into en.json for translators (`markupLinks`), and therefore the links a translation
+ * carries (`renderGuideLinks`).
  */
-export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
+export function selectLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): (LinkSpan | null)[] {
   const used = new Set<string>([currentSlug]);
   let remaining = budget;
-  // A localised edition publishes guides only under its own prefix, and never the articles that
-  // live at an existing .html URL, so those are not linkable from one.
-  const linkable = prefix
-    ? live.filter((target) => !bySlug.get(target.slug)!.legacyPath)
-    : live;
-  const root = prefix.replace(/\/$/, "");
-  const hrefFor = (slug: string) => (root ? `${root}/guides/${slug}/` : articleHref(bySlug.get(slug)!));
   return paragraphs.map((paragraph) => {
-    const escaped = escapeHtml(paragraph);
-    if (remaining <= 0) return escaped;
-    for (const target of linkable) {
+    if (remaining <= 0) return null;
+    for (const target of live) {
       if (used.has(target.slug)) continue;
-      const match = target.pattern.exec(escaped);
+      const match = target.pattern.exec(paragraph);
       if (!match) continue;
       used.add(target.slug);
       remaining -= 1;
-      const anchor = `<a href="${hrefFor(target.slug)}">${match[0]}</a>`;
-      return escaped.slice(0, match.index) + anchor + escaped.slice(match.index + match[0].length);
+      return { start: match.index, end: match.index + match[0].length, slug: target.slug };
     }
-    return escaped;
+    return null;
   });
+}
+
+/** Every guide a guide's prose links to, for the related-guides score. */
+export function linkedSlugs(sections: readonly { body: readonly string[] }[], currentSlug: string): Set<string> {
+  return new Set(sections.flatMap((section) => selectLinks(section.body, currentSlug)).filter((span): span is LinkSpan => !!span).map((span) => span.slug));
+}
+
+/** Where a guide lives in an edition: its own URL in English (.html for legacy guides), /<segment>/guides/<slug>/ elsewhere. */
+function guideHref(slug: string, prefix: string) {
+  const root = prefix.replace(/\/$/, "");
+  return root ? `${root}/guides/${slug}/` : articleHref(bySlug.get(slug)!);
+}
+
+/**
+ * Returns each paragraph as HTML, with at most one contextual link added per paragraph.
+ *
+ * The text is escaped and the anchor inserted around the escaped phrase, so article prose can never
+ * inject markup: the only HTML in the result is the anchor this function wrote. `prefix` ("/de")
+ * renders an English guide inside a localised edition, linking that edition's guides.
+ */
+export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
+  const spans = selectLinks(paragraphs, currentSlug, budget);
+  return paragraphs.map((paragraph, index) => {
+    const span = spans[index];
+    if (!span) return escapeHtml(paragraph);
+    return escapeHtml(paragraph.slice(0, span.start)) + `<a href="${guideHref(span.slug, prefix)}">${escapeHtml(paragraph.slice(span.start, span.end))}</a>` + escapeHtml(paragraph.slice(span.end));
+  });
+}
+
+/**
+ * The same links, as markup a translator carries through: `<a data-guide="slug">phrase</a>`.
+ * scripts/build-translation-source.mjs writes these into en.json; the translation engine keeps the
+ * tags intact while the phrase between them is translated.
+ */
+export function markupLinks(paragraphs: readonly string[], currentSlug: string): string[] {
+  const spans = selectLinks(paragraphs, currentSlug);
+  return paragraphs.map((paragraph, index) => {
+    const span = spans[index];
+    if (!span) return paragraph;
+    return `${paragraph.slice(0, span.start)}<a data-guide="${span.slug}">${paragraph.slice(span.start, span.end)}</a>${paragraph.slice(span.end)}`;
+  });
+}
+
+const GUIDE_LINK = /<a data-guide="([a-z0-9-]+)">([\s\S]*?)<\/a>/g;
+
+/** Whether translated prose carries link markup (translations made before it existed do not). */
+export const hasGuideLinks = (paragraphs: readonly string[]) => paragraphs.some((paragraph) => /<a data-guide="/.test(paragraph));
+
+/**
+ * Translated prose as HTML. Everything is escaped; the only markup re-admitted is
+ * `<a data-guide="slug">`, and only for a guide that exists, rewritten to that guide's URL in this
+ * edition. Any other tag a translation contains is shown as text, never interpreted.
+ */
+export function renderGuideLinks(text: string, locale: LocaleCode): string {
+  const segment = localeEntry(locale).segment;
+  let html = "";
+  let last = 0;
+  for (const match of text.matchAll(GUIDE_LINK)) {
+    html += escapeHtml(text.slice(last, match.index));
+    const inner = escapeHtml(match[2]);
+    html += bySlug.has(match[1]) ? `<a href="/${segment}/guides/${match[1]}/">${inner}</a>` : inner;
+    last = match.index! + match[0].length;
+  }
+  return html + escapeHtml(text.slice(last));
 }

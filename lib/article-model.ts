@@ -1,5 +1,6 @@
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
 export type ArticleSection = { heading: string; body: string[]; tips?: string[] };
+/** `asOf` is an ISO date (YYYY-MM-DD), formatted per locale when rendered. */
 export type ArticlePriceTable = { asOf: string; note: string; rows: { label: string; nzdLow: number; nzdHigh?: number; unit?: string }[] };
 export type Article = {
   slug: string; title: string; description: string; category: ArticleCategory; region: string; readTime: number;
@@ -20,6 +21,8 @@ export type Article = {
    */
   faq?: readonly (readonly [string, string])[];
   sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable;
+  /** Hand-picked related guides, by slug, shown before the scored ones (see lib/related.ts). */
+  related?: string[];
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
 
@@ -36,6 +39,15 @@ export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { pr
   ];
   const words = parts.join(" ").trim().split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(words / 220));
+}
+
+/**
+ * Reading time for Japanese, Korean and Chinese, where words are not separated by spaces: about 400
+ * characters a minute, counting every character that is not whitespace.
+ */
+export function readingMinutesByCharacters(input: Pick<Article, "intro" | "sections">) {
+  const text = [input.intro, ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])])].join("");
+  return Math.max(1, Math.round(text.replace(/<[^>]+>/g, "").replace(/\s+/g, "").length / 400));
 }
 
 export function makeArticle(input: ArticleInput): Article {

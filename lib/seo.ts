@@ -1,27 +1,36 @@
-import { APP_ID, APP_STORE_URL, SITE_URL, sitePath } from "@/lib/site";
-import { articleDates } from "@/lib/article-dates";
-import { localeCodes, type LocaleCode } from "@/lib/localized";
+import { APP_ID, APP_STORE_URL, SITE_URL } from "@/lib/site";
+import { articleDates, localeModified } from "@/lib/article-dates";
+import { english, htmlLangOf, liveLocales, localeEntry, ogOf, type SiteLocale } from "@/lib/locales";
+import { publishedLocales } from "@/lib/localized";
+import { isIndexable, pageEntry } from "@/lib/routes";
 
-/** The BCP 47 tag each locale directory is published under. */
-export const hreflang: Record<LocaleCode, string> = { de: "de-DE", es: "es-ES", fr: "fr-FR", it: "it-IT", nl: "nl-NL", pt: "pt-PT" };
-export const ogLocale: Record<LocaleCode, string> = { de: "de_DE", es: "es_ES", fr: "fr_FR", it: "it_IT", nl: "nl_NL", pt: "pt_PT" };
-export const defaultHreflang = "en-NZ";
-export const defaultOgLocale = "en_NZ";
+/** Open Graph locale of every published edition, for `og:locale:alternate`. */
+export const ogLocale = (locale: SiteLocale) => ogOf(locale);
+export const defaultOgLocale = english.og;
+/** Every published edition's language, English first, for the site-wide schema nodes. */
+const siteLanguages = [english.htmlLang, ...publishedLocales.map((code) => localeEntry(code).htmlLang)];
 
 /**
- * The reciprocal hreflang set for one page, given its path below the locale root.
+ * The hreflang set for one page, by page key ("home", "privacy", "guide:<slug>").
  *
- * Every page exists in every language, so each one advertises all seven URLs plus x-default. Google
- * only honours hreflang when the references are reciprocal, which is why this is generated from one
- * place rather than written per page.
+ * English, plus every live locale whose edition of this page is complete and indexable, plus
+ * x-default pointing at English. Every page in the set computes the same set from the same data,
+ * so the references are reciprocal by construction, and an incomplete translation (which renders
+ * English, noindex) is never advertised. A noindex page emits no alternates at all; callers pass
+ * this only for indexable pages. Legacy guides pair their English .html URL with
+ * /<segment>/guides/<slug>/.
  */
-export function seoLanguageTags(path: string): Record<string, string> {
-  const english = sitePath(path);
-  return {
-    [defaultHreflang]: english,
-    ...Object.fromEntries(localeCodes.map((code) => [hreflang[code], sitePath(`/${code}${path}`)])),
-    "x-default": english,
-  };
+export function alternatesFor(key: string): Record<string, string> | undefined {
+  const page = pageEntry(key);
+  if (!page?.english) return undefined;
+  const englishUrl = `${SITE_URL}${page.english}`;
+  const tags: Record<string, string> = Object.fromEntries(english.hreflang.map((tag) => [tag, englishUrl]));
+  for (const locale of liveLocales) {
+    if (!isIndexable(key, locale)) continue;
+    for (const tag of localeEntry(locale).hreflang) tags[tag] = `${SITE_URL}${page.localized(locale)}`;
+  }
+  tags["x-default"] = englishUrl;
+  return tags;
 }
 
 export { APP_ID };
@@ -42,7 +51,7 @@ const website = {
   name: "KiwiCamping",
   url: SITE_URL,
   publisher: { "@id": `${SITE_URL}/#organization` },
-  inLanguage: [defaultHreflang, ...localeCodes.map((code) => hreflang[code])],
+  inLanguage: siteLanguages,
 };
 
 /**
@@ -64,7 +73,7 @@ const application = {
   downloadUrl: APP_STORE_URL,
   screenshot: SCREENSHOT,
   image: LOGO,
-  inLanguage: [defaultHreflang, ...localeCodes.map((code) => hreflang[code])],
+  inLanguage: siteLanguages,
   availableOnDevice: "iPhone",
   countriesSupported: "NZ",
   publisher: { "@id": `${SITE_URL}/#organization` },
@@ -97,7 +106,7 @@ export function homeSchema(
   page: { url?: string; inLanguage?: string } = {},
 ) {
   const url = page.url ?? `${SITE_URL}/`;
-  const inLanguage = page.inLanguage ?? defaultHreflang;
+  const inLanguage = page.inLanguage ?? english.htmlLang;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -126,8 +135,25 @@ export function homeSchema(
   };
 }
 
-/** A guide, with the breadcrumb Google needs to show the trail under the result. */
-export function articleSchema(item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] }, url: string) {
+type Crumb = { name: string; url: string };
+
+/**
+ * A guide, with the breadcrumb Google needs to show the trail under the result.
+ *
+ * `locale` decides the language of the nodes (inLanguage), the breadcrumb (names and URLs of that
+ * edition) and the modified date: a translation was last modified when its own text last changed.
+ */
+export function articleSchema(
+  item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] },
+  url: string,
+  options: { locale?: SiteLocale; home?: Crumb; guides?: Crumb } = {},
+) {
+  const locale = options.locale ?? "en";
+  const inLanguage = htmlLangOf(locale);
+  const home = options.home ?? { name: "Home", url: `${SITE_URL}/` };
+  const guides = options.guides ?? { name: "Guides", url: `${SITE_URL}/guides/` };
+  const dates = articleDates(item.slug);
+  const modified = locale === "en" ? dates?.modified : localeModified(item.slug, locale) ?? dates?.modified;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -136,12 +162,13 @@ export function articleSchema(item: { slug: string; title: string; description: 
         "@type": "Article",
         headline: item.title,
         description: item.description,
+        inLanguage,
         image: { "@type": "ImageObject", url: `${SITE_URL}${item.image}`, caption: item.imageAlt },
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: url,
         // From git history, not hand-typed: see scripts/build-article-dates.mjs.
-        ...(articleDates(item.slug) && { datePublished: articleDates(item.slug).published, dateModified: articleDates(item.slug).modified }),
+        ...(dates && { datePublished: dates.published, dateModified: modified }),
         about: item.places,
         articleSection: item.category,
         isPartOf: { "@id": `${SITE_URL}/#website` },
@@ -151,6 +178,7 @@ export function articleSchema(item: { slug: string; title: string; description: 
       ...(item.faq?.length ? [{
         "@type": "FAQPage",
         "@id": `${url}#faq`,
+        inLanguage,
         mainEntity: item.faq.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })),
       }] : []),
       // An app guide teaches a task in the app, so its sections are genuinely steps. Route and
@@ -160,19 +188,21 @@ export function articleSchema(item: { slug: string; title: string; description: 
         "@id": `${url}#howto`,
         name: item.title,
         description: item.description,
+        inLanguage,
         step: item.sections.map((section, index) => ({
           "@type": "HowToStep",
           position: index + 1,
           name: section.heading,
-          text: section.body[0],
+          // Prose may carry <a data-guide> link markup; schema text is plain.
+          text: section.body[0].replace(/<[^>]+>/g, ""),
           url: `${url}#step-${index + 1}`,
         })),
       }] : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}${sitePath("/guides")}` },
+          { "@type": "ListItem", position: 1, name: home.name, item: home.url },
+          { "@type": "ListItem", position: 2, name: guides.name, item: guides.url },
           { "@type": "ListItem", position: 3, name: item.title, item: url },
         ],
       },
