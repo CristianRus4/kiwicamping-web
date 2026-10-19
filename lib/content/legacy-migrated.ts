@@ -317,8 +317,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "camping-wastewater-rubbish-new-zealand",
     legacyPath: "/dump-stations-nz.html",
-    title: "Dump stations, wastewater and rubbish: doing it properly",
-    description: "How to find and use New Zealand dump stations, handle grey and black water, and avoid the fines that come with getting it wrong.",
+    title: "Dump Stations NZ: Locations by Region, Costs and Rules",
+    description: "Where to empty a campervan toilet in NZ: KiwiCamping's 262 dump stations by region, most of them free, how to use one and the $800 fine for dumping waste.",
     category: "Rules & safety",
     region: "New Zealand camps",
     readTime: 12,
@@ -332,15 +332,19 @@ export const migratedArticles: Article[] = [
         "Treat all three as containment problems rather than disposal problems. The question on the road is not where you can get rid of something, but whether you have capacity to hold it until you reach the right facility.",
       ], ["Grey water is not clean water", "Plan capacity, not disposal", "Rubbish usually leaves with you"]),
       s("Finding a dump station", [
-        "Dump stations are widely distributed across New Zealand, at holiday parks, council facilities, some service stations and many i-SITEs, and most are free or charge a small fee. They are mapped, and the sensible habit is to identify the next one on your route before you need it rather than searching when a tank is already full.",
+        "Dump stations are widely distributed across New Zealand, at holiday parks, council facilities, some service stations and town reserves, and most are free or charge a small fee. They are mapped, and the sensible habit is to identify the next one on your route before you need it rather than searching when a tank is already full.",
         "Facilities at holiday parks are often available to non-guests for a small charge, which is worth knowing on a long remote leg. Some are locked overnight, so arriving at 11pm with a full cassette is a planning failure rather than bad luck.",
       ]),
+      s("Dump stations by region", [
+        "KiwiCamping maps 262 public dump stations. By the DOC region of the nearest DOC campsite or hut, Canterbury has 38, Otago 28, Bay of Plenty 23, Northland 19, Auckland 17, Hawke's Bay and Wellington/Kāpiti 15 each, the Central North Island and the West Coast 14 each, Marlborough 11, Nelson/Tasman and Waikato 10 each, the Coromandel 9, Southland and Taranaki 8 each, the East Coast 7, Manawatū/Whanganui 6, and Fiordland and the Wairarapa 5 each.",
+        "Of the 262, the listings show 240 as free, 8 as asking for a donation and 6 as charging a fee, and 8 give no fee. The gaps matter more than the totals: Fiordland, the Wairarapa and the East Coast have few, so empty before you head into them rather than counting on one along the way. In the app, dump stations are part of the Premium pass, with the fee note and location stored on the phone.",
+      ], ["Canterbury and Otago have the most", "Most dump stations are free", "Empty before Fiordland and the East Coast"]),
       s("Using one correctly", [
         "Park so other vehicles can still pass, dump stations are frequently on a single access lane and a badly parked van blocks everyone. Use only the inlet marked for the waste you are emptying, empty black water first, then rinse, then grey water. Rinse without spraying the surrounding ground, and leave the area cleaner than you found it.",
         "Keep the drinking-water hose entirely separate from anything used at the dump point, and never fill fresh water from a tap at the dump station unless it is explicitly marked potable. Wash your hands afterwards, before touching anything in the vehicle.",
       ], ["Black water first, then rinse, then grey", "Keep hoses strictly separate", "Never fill drinking water at the dump point"]),
       s("What not to do, and why it costs", [
-        "Stormwater drains discharge directly to waterways with no treatment, so emptying a tank into one is a discharge to the environment rather than to a sewer. Public toilets are not designed for cassette volumes and block. Emptying into a hedge, a bush or a stream is the offence that draws the largest penalties and the most attention.",
+        "Stormwater drains discharge directly to waterways with no treatment, so emptying a tank into one is a discharge to the environment rather than to a sewer. Public toilets are not designed for cassette volumes and block. Emptying into a hedge, a bush or a stream is the offence that draws the largest penalties and the most attention: depositing waste while freedom camping is an $800 infringement fee.",
         "Use only treatment chemicals compatible with the receiving system. Many rural dump stations feed septic tanks, and harsh formaldehyde-based products damage the biological process that makes them work. Where you are unsure, choose a product marked as septic-safe.",
       ]),
       s("Rubbish and food waste", [
@@ -353,6 +357,7 @@ export const migratedArticles: Article[] = [
       ]),
     ],
     sources: [
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/136/en/latest/" },
       { label: "DOC camping responsibly", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/camping-responsibly/" },
       { label: "MBIE freedom camping guidance", url: "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-projects/freedom-camping" },
     ],
