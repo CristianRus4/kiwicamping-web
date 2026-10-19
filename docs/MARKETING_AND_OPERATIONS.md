@@ -41,8 +41,7 @@ checked against the current KiwiCamping target—not an older app or website.
 
 ```bash
 npm ci
-npm run check
-npm run build:pages
+npm run check   # content audit, build, export to pages-dist, tests, similarity, assets
 ```
 
 Then inspect `pages-dist` through a static server and verify:
@@ -55,18 +54,19 @@ Then inspect `pages-dist` through a static server and verify:
   locale structure;
 - representative locale pages and English-only road-trip behavior.
 
-`docs/WEBSITE-BRIEF.md` currently records an explicit hold on publishing the
-rebuild until the advertised app version is public and the owner approves.
-Meanwhile, `.github/workflows/pages.yml` deploys every push to `main`. Treat
-that combination as a hard branch-management rule: do not merge held content to
-main until the release gate is cleared.
+The site is live and `.github/workflows/pages.yml` deploys every push to
+`main`, so `main` must always be releasable. A claim that depends on an
+unreleased app version stays on its branch until that version is public.
 
 ## Deployment and rollback
 
-Pushing to `main` runs the GitHub Pages workflow with Node 22, installs locked
-dependencies, builds `pages-dist`, and deploys the artifact to the custom domain.
-Afterward, check the workflow, custom domain, certificate, a deep route, and
-static assets.
+Pushing to `main` runs the GitHub Pages workflow with Node 22 and full git
+history, installs locked dependencies and runs `npm run check`, which builds and
+exports `pages-dist` once and fails the job, before anything is uploaded, if any
+audit or test fails. Only a passing build is deployed to the custom domain.
+Afterward, run `npm run smoke:live` (live status codes, canonicals, robots,
+analytics and campaign links) and check the workflow, custom domain,
+certificate, a deep route, and static assets.
 
 Rollback by reverting the faulty commit and allowing Pages to redeploy the last
 known-good source. For incorrect safety or legal content, remove or correct the

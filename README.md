@@ -25,4 +25,11 @@ Core product copy is based on the current KiwiCamping app in `/Users/cristian/De
 
 ## Deployment
 
-Pushing to `main` runs `.github/workflows/pages.yml`, exports the static site and deploys it to the custom domain. The workflow deliberately uses no project base path because `campingapp.nz` is served from the domain root.
+Pushing to `main` runs `.github/workflows/pages.yml`, which runs `npm run check` (content audit, build, static export, tests, similarity and asset checks) and deploys `pages-dist` to the custom domain only if all of it passes. The workflow deliberately uses no project base path because `campingapp.nz` is served from the domain root. After a deploy, `npm run smoke:live` checks the live site.
+
+## Analytics and campaign links
+
+- `lib/site.ts` holds `GA_MEASUREMENT_ID` and `APPLE_PROVIDER_TOKEN`. Empty means no analytics script and plain store links.
+- Every store link goes through `appStoreUrl({ placement, locale })` in `lib/app-store.ts` and carries `data-cta="<placement>"`; with a provider token set, it adds `?pt=…&ct=w_<placement>_<locale>&mt=8`. `APP_STORE_URL` itself stays clean for the schema.
+- `lib/analytics.ts` renders the one inline GA4 script (Consent Mode v2, `app_store_click`, `window.acTrack`), kept by the exporter through `data-static-keep`. `<main>` carries `data-page-kind`, `data-locale`, `data-slug` and `data-category` for it.
+- The consent bar (`components/consent-bar.tsx`) shows only to visitors in a European time zone with no stored choice. Its strings live in the `consent` namespace, never in `ui`.

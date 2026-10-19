@@ -42,4 +42,4 @@ Never explain the website's content model to the visitor. Avoid generic SEO fill
 
 ## Publishing
 
-The rebuild remains local on branch `neue`. Do not push or deploy until the app update containing the advertised features is public and the owner explicitly approves release.
+The site is live at https://campingapp.nz and deploys from `main`. Every push to `main` runs `npm run check` in GitHub Actions (content audit, build, static export, tests, similarity and asset checks) and deploys `pages-dist` only when the whole check passes. Run `npm run smoke:live` after each deploy.
