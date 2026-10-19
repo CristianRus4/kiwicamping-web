@@ -40,8 +40,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is a holiday park membership worth it in New Zealand?", "The TOP 10 Club costs $55 for two years and takes 10 percent off each TOP 10 stay, up to $40 a stay, so it pays for itself once you spend about $550 at TOP 10 parks. That suits a long trip; for a weekend it rarely does."],
   ],
   "scenic-campsites-new-zealand": [
-    ["Which New Zealand campsites have the best views?", "The strongest are concentrated where the road meets water or mountains: the Catlins and Fiordland in the south, the Coromandel and Bay of Islands in the north, and the lake country around Tekapo and Wānaka. This guide lists them region by region."],
-    ["Do scenic campsites need booking?", "The well-known ones do, and in January the good ones go months ahead. Many of the quieter scenic sites are still first-come, which is where arriving early in the afternoon rather than at dusk makes the difference."],
+    ["Which New Zealand campsites have the best views?", "Among DOC campsites, standouts include Tapotupotu near Cape Reinga, Waikawau Bay on the Coromandel, Tōtaranui in Abel Tasman, Lake Māhinapua on the West Coast, Kinloch on Lake Wakatipu and Cascade Creek on the Milford Road. Those six charge $18 to $23 per adult per night."],
+    ["Do scenic campsites need booking?", "Most popular DOC sites take online bookings and fill for summer weekends and January. Maitai Bay, Tapotupotu, Kapowairua (Spirits Bay), Ahuriri Bridge and Twelve Mile Delta were not taking bookings in October 2026, so arrive early in the day."],
   ],
 
   // --- Rules & safety -------------------------------------------------------
@@ -172,8 +172,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How far apart are fuel stations in New Zealand?", "Close enough on the main routes and not on the others. Haast to Wānaka, the Desert Road, the East Cape and much of Southland have long gaps, and some rural pumps are card-only and unstaffed at night."],
   ],
   "new-zealand-camping-packing-list": [
-    ["What do you actually need to pack for camping in New Zealand?", "Layers for four seasons in a day, proper rain gear, insect repellent, a headtorch, and more warm clothing than the average forecast suggests. The guide splits the list by region, because the West Coast and Central Otago need different things."],
-    ["What do visitors most often forget?", "Repellent, a warm layer for summer evenings, and a way to charge things away from power. The other one is a physical map or offline data, because reception disappears exactly where the driving gets interesting."],
+    ["What do you actually need to pack for camping in New Zealand?", "Layers for four seasons in a day, proper rain gear, insect repellent, a headtorch, and more warm clothing than the average forecast suggests. Then reweight it by region: the West Coast needs rain and sandfly gear, Central Otago colder nights and stronger sun."],
+    ["What do visitors most often forget?", "Repellent, a warm layer for summer evenings, and a way to charge things away from power. The other is a paper map, because reception disappears exactly where the driving gets interesting."],
   ],
   "best-time-camping-new-zealand": [
     ["When is the best time to camp in New Zealand?", "For most trips, March and April: settled spells, campgrounds open but no longer full, and prices down once school holidays end. December and January bring the longest days but the fullest campsites and the highest prices."],
