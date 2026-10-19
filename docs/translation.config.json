@@ -17,7 +17,6 @@
         "ko",
         "zh-hans",
         "zh-hant",
-        "da",
         "nb",
         "cs",
         "pl"
@@ -63,10 +62,6 @@
         {
           "locale": "zh-hant",
           "path": "../lib/translations/zh-hant.json"
-        },
-        {
-          "locale": "da",
-          "path": "../lib/translations/da.json"
         },
         {
           "locale": "nb",
@@ -145,6 +140,53 @@
       },
       "styleGuide": {
         "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-da",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "da"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Stewart Island",
+        "Te Waipounamu",
+        "Rakiura",
+        "BookIt",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "North Island": {
+          "da": "Nordøen"
+        },
+        "South Island": {
+          "da": "Sydøen"
+        }
+      },
+      "register": {
+        "da": "informal"
+      },
+      "styleGuide": {
+        "da": "Follow docs/translation-style/da.md: native Danish travel-writer voice for Denmark, informal du, Danish number format (74.000, 2,08) and punctuation, autocamper/campingplads/tømmestation vocabulary, no calques, no offline-map claims."
       }
     }
   ]
