@@ -4844,11 +4844,11 @@
       }
     },
     "new-zealand-road-trip-fuel-cost-2026": {
-      "title": "New Zealand road-trip fuel costs in 2026",
-      "description": "Use distance and litres per 100 kilometres with the current official national petrol benchmark.",
+      "title": "NZ Petrol Prices 2026 and Campervan Fuel Cost",
+      "description": "Average NZ 91 petrol price by month in 2026 from MBIE, and what 500 to 3,000 km costs in a campervan at 9 to 12 L/100 km, plus diesel road user charges.",
       "region": "New Zealand roads",
       "imageAlt": "Campervan refuelling during a New Zealand road trip",
-      "intro": "Fuel turns itinerary design into a measurable cost. On 26 July 2026, MBIE's representative national board price for regular 91 petrol was $2.96 per litre after an unusually volatile year.",
+      "intro": "Fuel turns itinerary design into a measurable cost. In the week ending 11 October 2026, MBIE's national average board price for regular 91 petrol was $3.54 a litre and diesel $3.24, after a year that swung from $2.56 in February to $3.44 in April.",
       "sections": [
         {
           "heading": "Calculate the actual vehicle",
@@ -4869,7 +4869,7 @@
         {
           "heading": "Treat volatility honestly",
           "body": [
-            "Stats NZ reported petrol prices up 20.1 percent in the June 2026 quarter, while MBIE noted unusual international-market volatility. A stale figure can quickly understate the route.",
+            "Stats NZ reported petrol up 24.3 percent and diesel up 55.8 percent in the year to September 2026. MBIE's monthly averages for regular 91 ran $2.59 in January, $2.56 in February, $3.00 in March, $3.44 in April, $3.27 in May, $3.16 in June, $2.98 in July, $3.03 in August and $3.16 in September, so a figure from a few months ago can understate the route by 50 cents a litre.",
             "Use the fuel calculator with today's board price and keep a margin for the remote leg."
           ],
           "tips": []
@@ -4877,7 +4877,7 @@
         {
           "heading": "Petrol, diesel and road user charges",
           "body": [
-            "Diesel is cheaper per litre at the pump, but diesel vehicles pay road user charges separately, bought in advance per thousand kilometres. If you are hiring, check whether RUC is included in the daily rate or billed at the end, because it materially changes the comparison with petrol.",
+            "Diesel has been cheaper per litre than 91 for most of 2026, about 30 cents less in October, though it cost more for six weeks in April and May. Diesel vehicles also pay road user charges separately, bought in advance per thousand kilometres. If you are hiring, check whether RUC is included in the daily rate or billed at the end, because it materially changes the comparison with petrol.",
             "For a private vehicle, RUC must be current for the distance you drive and is enforced. Buying it is straightforward online or at a licensing agent, and running past your purchased distance carries a penalty."
           ],
           "tips": [
@@ -4910,7 +4910,7 @@
           "heading": "Reduce the bill without cutting the trip",
           "body": [
             "The largest saving available is fewer unnecessary kilometres. Grouping nearby stops, avoiding a backtrack and accepting that you cannot see both islands properly in ten days will save more than any amount of careful driving technique.",
-            "After that, steady speeds and early braking help modestly. What does not help is coasting in neutral, which is both illegal in effect and unsafe, or carrying fuel in unsuitable containers."
+            "After that, steady speeds and early braking help modestly. What does not help is coasting in neutral, which costs you engine braking and control on descents, or carrying fuel in unsuitable containers."
           ],
           "tips": []
         },
@@ -4927,7 +4927,7 @@
       "faq": [
         [
           "How much does fuel cost in New Zealand?",
-          "The guide gives a dated price per litre for petrol and diesel and works it through real routes. Prices climb noticeably in remote areas, and diesel vehicles also pay road user charges, which people forget to budget."
+          "Regular 91 averaged $3.54 a litre in the week ending 11 October 2026 (MBIE), so 1,000 km at 11 L/100 km costs about $390 in fuel. Prices climb noticeably in remote areas, and diesel vehicles also pay road user charges, which people forget to budget."
         ],
         [
           "How do you estimate fuel for a New Zealand road trip?",
@@ -4939,14 +4939,14 @@
           "label": "MBIE weekly fuel price monitoring"
         },
         {
-          "label": "MBIE fuel response board price"
+          "label": "Stats NZ: selected price indexes, September 2026"
         },
         {
           "label": "Reserve Bank of New Zealand exchange rates"
         }
       ],
       "priceTable": {
-        "note": "The petrol benchmark is the official MBIE week ending 26 July 2026. Route examples are mechanical calculations before remote price variation.",
+        "note": "The petrol benchmark is MBIE's national average board price for regular 91 in the week ending 11 October 2026 (provisional). Route examples are mechanical calculations before remote price variation.",
         "rows": [
           {
             "label": "Regular 91 petrol",

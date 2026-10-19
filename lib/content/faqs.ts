@@ -232,7 +232,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the cheapest way to sleep in New Zealand?", "Camping, by a wide margin, and a DOC campsite costs a fraction of a hostel dorm. The saving only holds if the vehicle and fuel to reach those sites are already part of the plan."],
   ],
   "new-zealand-road-trip-fuel-cost-2026": [
-    ["How much does fuel cost in New Zealand?", "The guide gives a dated price per litre for petrol and diesel and works it through real routes. Prices climb noticeably in remote areas, and diesel vehicles also pay road user charges, which people forget to budget."],
+    ["How much does fuel cost in New Zealand?", "Regular 91 averaged $3.54 a litre in the week ending 11 October 2026 (MBIE), so 1,000 km at 11 L/100 km costs about $390 in fuel. Prices climb noticeably in remote areas, and diesel vehicles also pay road user charges, which people forget to budget."],
     ["How do you estimate fuel for a New Zealand road trip?", "Take the route distance, add a third for detours and terrain, then divide by your vehicle's real consumption rather than its brochure figure. A campervan into a headwind on a hilly highway will not meet its rated economy."],
   ],
   "public-transport-costs-new-zealand-2026": [
