@@ -28,17 +28,17 @@ export function campaignToken(placement: CtaPlacement, locale: CtaLocale): strin
  * The store URL for a visible link. With no provider token configured it is the plain listing URL,
  * because a `ct` without a `pt` is ignored by App Store Connect and only adds noise.
  */
-export function appStoreUrl({ placement, locale }: { placement: CtaPlacement; locale: CtaLocale }): string {
+export function appStoreUrl({ placement, locale }: { placement: CtaPlacement; locale: CtaLocale }, providerToken: string = APPLE_PROVIDER_TOKEN): string {
   const ct = campaignToken(placement, locale);
-  if (!APPLE_PROVIDER_TOKEN) return APP_STORE_URL;
-  return `${APP_STORE_URL}?pt=${APPLE_PROVIDER_TOKEN}&ct=${ct}&mt=8`;
+  if (!providerToken) return APP_STORE_URL;
+  return `${APP_STORE_URL}?pt=${providerToken}&ct=${ct}&mt=8`;
 }
 
 /**
  * The Smart App Banner's meta content. `affiliate-data` carries the campaign so banner installs are
  * attributed like any other link; it is omitted when no provider token is configured.
  */
-export function smartBannerContent(locale: CtaLocale): string {
+export function smartBannerContent(locale: CtaLocale, providerToken: string = APPLE_PROVIDER_TOKEN): string {
   const ct = campaignToken("sb", locale);
-  return APPLE_PROVIDER_TOKEN ? `app-id=${APP_ID}, affiliate-data=pt=${APPLE_PROVIDER_TOKEN}&ct=${ct}` : `app-id=${APP_ID}`;
+  return providerToken ? `app-id=${APP_ID}, affiliate-data=pt=${providerToken}&ct=${ct}` : `app-id=${APP_ID}`;
 }

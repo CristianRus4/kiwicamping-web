@@ -8,30 +8,45 @@ import { GA_MEASUREMENT_ID } from "@/lib/site";
  *
  * 1. Consent defaults, before anything else runs. Analytics storage is denied in the EEA, the UK
  *    and Switzerland until the visitor accepts, and granted elsewhere. Ad storage, ad user data and
- *    ad personalisation are denied everywhere and are never updated.
- * 2. The page view, labelled from `<main data-page-kind data-locale data-slug data-category>`.
- *    Google signals and ad personalisation signals are switched off in the config.
+ *    ad personalisation are denied everywhere and are never updated. A stored choice is applied at
+ *    once, and a visitor who is about to be shown the bar stays denied until they answer.
+ * 2. The config, straight away (Google signals and ad personalisation signals off, 13-month
+ *    cookies, no automatic page view), then once the document is parsed a `page_view` labelled
+ *    from `<main data-page-kind data-locale data-slug data-category>`.
  * 3. One delegated click listener that sends `app_store_click` for every App Store link, with the
  *    link's `data-cta` placement and its `ct` campaign token. `window.acTrack(name, params)` sends
  *    any other event (the tools use it) with the same page context attached.
  *
  * The consent bar itself is server-rendered hidden (components/consent-bar.tsx); this script shows
- * it only when no choice is stored and the browser's time zone is in Europe. Google's per-region
- * default above is the backstop for visitors whose time zone says otherwise.
+ * it only when no choice is stored and the browser's time zone is in Europe (CONSENT_TIME_ZONES).
+ * Google's per-region default above is the backstop for visitors whose time zone says otherwise.
  *
  * With no measurement ID configured, nothing is rendered: no script, no bar, no footer link.
  */
 export const analyticsEnabled = GA_MEASUREMENT_ID !== "";
 
-/** EU 27 plus Iceland, Liechtenstein and Norway (the EEA), the United Kingdom and Switzerland. */
+/**
+ * EU 27 plus Iceland, Liechtenstein and Norway (the EEA), the United Kingdom and Switzerland. Then
+ * the EU territories Google geolocates under their own codes (Åland and the French outermost
+ * regions), Gibraltar and the Crown Dependencies, which follow UK-style data protection law, and
+ * the European microstates.
+ */
 export const CONSENT_REGIONS = [
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT",
   "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE",
   "IS", "LI", "NO", "GB", "CH",
-  // EU outermost regions and territories Google geolocates under their own codes, the Crown
-  // dependencies and Gibraltar (their own GDPR-style laws) and the European microstates.
-  "RE", "GP", "MQ", "GF", "YT", "MF", "AX", "GI", "JE", "GG", "IM", "MC", "AD", "SM", "VA",
+  "AX", "GF", "GP", "MQ", "RE", "YT", "MF", "GI", "JE", "GG", "IM", "MC", "AD", "SM", "VA",
 ] as const;
+
+/**
+ * Time zones whose visitors are asked: all of Europe/*, plus the parts of the EEA that report a
+ * zone outside it (the Canaries, Madeira, the Azores, Iceland, Cyprus, Ceuta and Melilla, and the
+ * French outermost regions).
+ */
+export const CONSENT_TIME_ZONES = /^(?:Europe\/.+|Atlantic\/(?:Canary|Madeira|Azores|Reykjavik)|Asia\/(?:Nicosia|Famagusta)|Africa\/Ceuta|America\/(?:Guadeloupe|Martinique|Cayenne|Marigot)|Indian\/(?:Reunion|Mayotte))$/;
+
+/** _ga and _ga_<id> expire after 13 months (GA4's default is two years), as the privacy policy says. */
+export const COOKIE_EXPIRES_SECONDS = 395 * 24 * 60 * 60;
 
 /** Where the visitor's choice is remembered: "granted" or "denied". */
 export const CONSENT_STORAGE_KEY = "analytics-consent";
@@ -49,7 +64,7 @@ export function mainData({ kind, locale, slug, category }: { kind: PageKind; loc
 
 export function analyticsScript(id: string = GA_MEASUREMENT_ID): string {
   return `(function(w,d){
-var id=${JSON.stringify(id)},key=${JSON.stringify(CONSENT_STORAGE_KEY)},stored=null;
+var id=${JSON.stringify(id)},key=${JSON.stringify(CONSENT_STORAGE_KEY)},stored=null,tz='';
 w.dataLayer=w.dataLayer||[];
 function gtag(){w.dataLayer.push(arguments)}
 w.gtag=gtag;
@@ -57,10 +72,12 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
 try{stored=w.localStorage.getItem(key)}catch(e){}
 if(stored!=='granted'&&stored!=='denied')stored=null;
-if(stored)gtag('consent','update',{analytics_storage:stored});
-var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
-var europe=/^(Europe\\/|Atlantic\\/(Canary|Madeira|Azores|Reykjavik)$)/.test(tz);
-if(!stored&&europe)gtag('consent','update',{analytics_storage:'denied'});
+try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
+var ask=!stored&&${CONSENT_TIME_ZONES.toString()}.test(tz);
+// A visitor about to be asked stays cookieless until they answer, whatever region Google infers.
+if(stored)gtag('consent','update',{analytics_storage:stored});else if(ask)gtag('consent','update',{analytics_storage:'denied'});
+gtag('js',new Date());
+gtag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:${COOKIE_EXPIRES_SECONDS}});
 var tag=d.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);d.head.appendChild(tag);
 function context(){
 var m=d.querySelector('main[data-page-kind]'),out={};
@@ -69,12 +86,14 @@ if(!m)return out;
 return out}
 function track(name,params){var data=context();params=params||{};for(var k in params)if(Object.prototype.hasOwnProperty.call(params,k))data[k]=params[k];gtag('event',name,data)}
 w.acTrack=track;
-d.addEventListener('click',function(e){
+function storeClick(e){
+if(e.type==='auxclick'&&e.button!==1)return;
 var link=e.target&&e.target.closest?e.target.closest('a[href*="apps.apple.com"]'):null;
 if(!link)return;
 var ct='';try{ct=new URL(link.href).searchParams.get('ct')||''}catch(x){}
-track('app_store_click',{placement:link.getAttribute('data-cta')||'',campaign_token:ct,link_url:link.href,transport_type:'beacon'})
-},true);
+track('app_store_click',{placement:link.getAttribute('data-cta')||'',campaign_token:ct,link_url:link.href,transport_type:'beacon'})}
+d.addEventListener('click',storeClick,true);
+d.addEventListener('auxclick',storeClick,true);
 function clearCookies(){
 var host=location.hostname,domains=['',host,'.'+host.replace(/^www\\./,'')];
 d.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(/^_ga(_|$)/.test(n))domains.forEach(function(dom){d.cookie=n+'=; Max-Age=0; path=/'+(dom?'; domain='+dom:'')})})}
@@ -87,12 +106,10 @@ function choose(value){stored=value;try{w.localStorage.setItem(key,value)}catch(
 bar.querySelector('[data-consent-accept]').addEventListener('click',function(){choose('granted')});
 bar.querySelector('[data-consent-decline]').addEventListener('click',function(){choose('denied')});
 d.addEventListener('click',function(e){var open=e.target&&e.target.closest?e.target.closest('[data-consent-open]'):null;if(!open)return;e.preventDefault();show();bar.querySelector('button').focus()});
-if(!stored&&europe)show()}
+if(ask)show()}
 function boot(){
-var page=context(),config={allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:34128000,content_group:page.guide_category||page.page_kind||'other'};
-for(var k in page)config[k]=page[k];
-gtag('js',new Date());
-gtag('config',id,config);
+var page=context();page.content_group=page.guide_category||page.page_kind||'other';
+gtag('event','page_view',page);
 consentBar()}
 if(d.readyState==='loading')d.addEventListener('DOMContentLoaded',boot);else boot();
 })(window,document);`;

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticleByLegacyPath, legacyArticles , sitePath} from "@/lib/site";
-import { getTranslation, isArticleTranslated, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
+import { getTranslation, isArticleTranslated, isLocale, isStaticPageTranslated, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
 import { smartBannerContent } from "@/lib/app-store";
 
@@ -57,7 +57,10 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   const image=article?article.image:"/images/kiwicamping-hero.webp";
   // An untranslated guide still builds and renders, but it must not compete with the English site
   // for the same words until its complete article translation is in place.
-  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug));
+  // The same holds for support, privacy and terms: until a locale's translation of the page is
+  // complete it shows the English text, so it stays noindex rather than duplicate the English page.
+  const staticKind=path.length===1&&(section==="support"||section==="privacy"||section==="terms")?section:undefined;
+  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug)) && (!staticKind || isStaticPageTranslated(locale, staticKind));
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
     title: path.length ? title : { absolute: title },

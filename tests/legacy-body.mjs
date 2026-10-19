@@ -12,8 +12,8 @@
  *     and the footer's "Privacy choices" link <a data-consent-open> (GA4 and Consent Mode).
  *  3. JSON-LD <script type="application/ld+json">: structured data, not visible text. It gains
  *     inLanguage and localised breadcrumbs.
- *  4. App Store link targets (href="https://apps.apple.com/...") and their data-cta attributes:
- *     they gain the App Store Connect campaign query string.
+ *  4. The query string of App Store links (the App Store Connect campaign) and their data-cta
+ *     attributes. The listing URL itself must not change.
  *  5. The data-page-kind, data-locale, data-slug and data-category attributes on <main>.
  *  6. The footer language switcher <nav class="language-nav">: it links to each live locale's
  *     equivalent page, so it changes whenever a translation or a new locale goes live.
@@ -53,7 +53,7 @@ export function legacyBody(html) {
     .replace(/<aside class="consent-bar"[\s\S]*?<\/aside>/g, "")
     .replace(/<a\b[^>]*data-consent-open[^>]*>[\s\S]*?<\/a>/g, "")
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "")
-    .replace(/href="https:\/\/apps\.apple\.com\/[^"]*"/g, 'href="APP_STORE"')
+    .replace(/href="(https:\/\/apps\.apple\.com\/[^"?]*)\?[^"]*"/g, 'href="$1"')
     .replace(/\s+data-cta="[^"]*"/g, "")
     .replace(/<main\b[^>]*>/g, (tag) => tag.replace(/\s+data-(?:page-kind|locale|slug|category)="[^"]*"/g, ""))
     .replace(/<nav class="language-nav"[\s\S]*?<\/nav>/g, "")

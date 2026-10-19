@@ -108,6 +108,11 @@ export function isArticleTranslated(locale: LocaleCode, slug: string) {
   return !!article && isArticleComplete(article, files[locale].articles?.[slug]);
 }
 
+/** A support, privacy or terms page is indexable in a locale only when its translation is complete. */
+export function isStaticPageTranslated(locale: LocaleCode, kind: StaticPageKind) {
+  return isPageComplete(kind, files[locale].pages?.[kind]);
+}
+
 /** How much of a locale is done, for the content audit and the build log. */
 export function translationProgress(locale: LocaleCode) {
   const overrides = files[locale].ui ?? {};

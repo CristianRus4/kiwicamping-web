@@ -6,6 +6,7 @@ import { startProdServer } from "vinext/server/prod-server";
 import { APPLE_PROVIDER_TOKEN, APP_STORE_URL, GA_MEASUREMENT_ID } from "../lib/site.ts";
 import { appStoreUrl, ctaPlacements } from "../lib/app-store.ts";
 import { fixtureDir, fixtureName, legacyBody, legacyPaths } from "./legacy-body.mjs";
+import { isStaticPageTranslated, publishedLocales } from "../lib/localized.ts";
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:"dist",noCompression:true,purpose:"prerender"});
 after(()=>new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())));
@@ -140,6 +141,7 @@ test("every App Store link carries its placement and campaign",async()=>{
       const href=decodeHref(match[1]);
       if(!APPLE_PROVIDER_TOKEN){assert.equal(href,APP_STORE_URL,`${path} store link must be the plain listing URL while no provider token is set`);continue}
       const url=new URL(href);
+      assert.equal(url.origin+url.pathname,APP_STORE_URL,`${path} store link must point at the KiwiCamping listing: ${href}`);
       assert.equal(url.searchParams.get("pt"),APPLE_PROVIDER_TOKEN,`${path} store link without pt: ${href}`);
       const ct=url.searchParams.get("ct")??"";
       assert.match(ct,/^w_[a-z]+_[a-z-]+$/,`${path} store link campaign token is malformed: ${ct}`);
@@ -194,5 +196,16 @@ test("the 15 legacy pages keep main's English body byte for byte",async()=>{
     if(actual===expected)continue;
     let index=0;while(index<actual.length&&actual[index]===expected[index])index+=1;
     assert.fail(`${path} body changed at character ${index}:\n  main: …${expected.slice(Math.max(0,index-120),index+160)}…\n  now:  …${actual.slice(Math.max(0,index-120),index+160)}…`);
+  }
+});
+
+test("a locale's support, privacy and terms pages are indexed only once translated",async()=>{
+  // An incomplete translation renders the English page, which must not compete with /privacy/ itself.
+  const sitemap=await (await fetchPage("/sitemap.xml")).text();
+  for(const locale of publishedLocales)for(const kind of ["support","privacy","terms"]){
+    const complete=isStaticPageTranslated(locale,kind);
+    const html=await (await fetchPage(`/${locale}/${kind}`)).text();
+    assert.match(html,complete?/name="robots" content="index, follow/:/name="robots" content="noindex, follow"/,`${locale}/${kind} robots must match its translation state`);
+    assert.equal(sitemap.includes(`/${locale}/${kind}/`),complete,`${locale}/${kind} sitemap presence must match its translation state`);
   }
 });
