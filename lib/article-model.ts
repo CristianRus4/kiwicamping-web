@@ -7,7 +7,7 @@ export type ArticlePriceTable = { asOf: string; note: string; rows: { label: str
  * no currency conversion. English-only pages use it today; it is not part of the translation
  * contract in lib/localized.ts, so do not add one to a translated guide without extending that.
  */
-export type ArticleComparison = { asOf: string; caption: string; note: string; columns: string[]; rows: { label: string; cells: string[] }[] };
+export type ArticleComparison = { asOf: string; caption: string; note: string; rowHeader?: string; columns: string[]; rows: { label: string; cells: string[] }[] };
 export type Article = {
   slug: string; title: string; description: string; category: ArticleCategory; region: string; readTime: number;
   places: string[]; image: string; imageAlt: string; intro: string; sections: ArticleSection[];

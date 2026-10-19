@@ -62,7 +62,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <div className="price-table-meta"><strong>Checked {item.comparison.asOf}</strong></div>
               <div className="price-table-wrap">
                 <table className="price-table comparison-table">
-                  <thead><tr><th scope="col">App</th>{item.comparison.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+                  <thead><tr><th scope="col">{item.comparison.rowHeader ?? "App"}</th>{item.comparison.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
                   <tbody>{item.comparison.rows.map((row) => <tr key={row.label}><th scope="row"><strong>{row.label}</strong></th>{row.cells.map((cell, index) => <td key={item.comparison!.columns[index]}>{cell}</td>)}</tr>)}</tbody>
                 </table>
               </div>
