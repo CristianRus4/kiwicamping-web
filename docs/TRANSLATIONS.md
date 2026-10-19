@@ -65,6 +65,15 @@ stale and the page silently falls back to English until they are updated. That i
 exactly the failure above, caught before a reader sees it. `npm run check` fails in that case and
 names the guide, so it cannot go unnoticed. Re-run `npm run translations:source` and re-translate it.
 
+An English edit that keeps every count the same (a reworded paragraph, a corrected fee) does not change
+the structure, so the gate cannot see it. Stamps catch it. After translating, the locale's thread runs
+`npm run translations:stamp -- --locale <code>`, which records in `lib/translations/meta/<code>.json` a
+hash of the English each string was translated from. `npm run content:check` then prints that locale's
+stale count, and `npm run translations:invalidate -- --locale <code>` blanks the stale strings so the
+translation engine lists them again (their guide falls back to English until they are redone). Add
+`--all` to `translations:stamp` only after reviewing the whole file, to accept every current
+translation as up to date.
+
 ## When a locale goes live
 
 A locale is published once **every** UI string is translated. A partial UI would put a translated
