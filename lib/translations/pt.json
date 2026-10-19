@@ -3,16 +3,16 @@
   "ui": {
     "languageName": "Português",
     "metaTitle": "KiwiCamping: mapa de campismo, locais do DOC e viagens na Nova Zelândia",
-    "metaDescription": "Mais de 6.500 áreas de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas que abrem sem rede, filtros precisos e um planeador de viagens paragem a paragem, para iPhone.",
+    "metaDescription": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre na Nova Zelândia. Fichas que abrem sem rede e planeador de viagens.",
     "ogTitle": "KiwiCamping: o mapa de campismo e planeador de viagens para a Nova Zelândia",
-    "ogDescription": "Mais de 6.500 áreas de campismo, refúgios do DOC, holiday parks e zonas de campismo livre, incluídos na app para consultar sem rede. Filtra, guarda e planeia a viagem toda.",
-    "metaKeywords": "app de campismo Nova Zelândia, mapa de campismo Nova Zelândia, campismo livre Nova Zelândia, freedom camping Nova Zelândia, parques de campismo DOC, refúgios DOC, holiday parks Nova Zelândia, campervan Nova Zelândia, app de campismo sem rede Nova Zelândia, planeador de viagens Nova Zelândia",
+    "ogDescription": "Mais de 6.500 parques de campismo, refúgios do DOC, holiday parks e zonas de campismo livre, incluídos na app para consultar sem rede. Filtra, guarda e planeia a viagem toda.",
+    "metaKeywords": "app de campismo Nova Zelândia, mapa de campismo Nova Zelândia, campismo livre Nova Zelândia, freedom camping Nova Zelândia, parques de campismo DOC, refúgios DOC, holiday parks Nova Zelândia, campervan Nova Zelândia, autocaravana Nova Zelândia, planeador de viagens Nova Zelândia",
     "metaGuidesTitle": "Guias de campismo e viagens de carro na Nova Zelândia",
-    "metaGuidesDescription": "Regras de campismo, campismo livre e requisitos de autonomia, locais do DOC, melhor época, custos reais e planeamento prático para uma viagem de carro pela Nova Zelândia.",
+    "metaGuidesDescription": "Regras de campismo, campismo livre e requisitos de autonomia, locais do DOC, melhor época, custos reais e planeamento para viajar de carro pela Nova Zelândia.",
     "metaToolsTitle": "Calculadoras para viajar de carro pela Nova Zelândia",
     "metaToolsDescription": "Converte preços neozelandeses, calcula o combustível da viagem, estima um dia de condução realista, planeia a água e as águas cinzentas e compara preços de campismo.",
     "metaSupportTitle": "Ajuda e perguntas frequentes",
-    "metaSupportDescription": "Ajuda com os mapas da KiwiCamping, as fichas dos locais, os filtros, as coleções, o planeador de viagens, os dados disponíveis sem rede, a conversão de moeda e o acesso premium.",
+    "metaSupportDescription": "Ajuda com mapas, fichas dos locais, filtros, coleções, planeador de viagens, dados disponíveis sem rede, conversão de moeda e acesso premium da KiwiCamping.",
     "navFeatures": "Funcionalidades",
     "navGuides": "Guias",
     "navTools": "Calculadoras",
@@ -21,11 +21,11 @@
     "downloadShort": "Transferir",
     "updated": "Atualizado a",
     "commonQuestions": "Perguntas frequentes",
-    "altHero": "O mapa da KiwiCamping na Nova Zelândia, com pins de áreas de campismo, holiday parks e zonas de campismo livre em Golden Bay e, por baixo, a lista Explorar com os locais próximos",
-    "altPlaceScreen": "Ficha do Robin Hood Bay Campsite, em Marlborough, na KiwiCamping, com o preço (gratuito), se está aberto, as comodidades e uma ligação para reservar",
+    "altHero": "O mapa da KiwiCamping na Nova Zelândia, com pins de parques de campismo, holiday parks e zonas de campismo livre em Golden Bay e, por baixo, a lista Explorar com os locais próximos",
+    "altPlaceScreen": "Ficha do Robin Hood Bay Campsite (Marlborough) na KiwiCamping, com o preço (gratuito), a indicação de aberto ou fechado, as comodidades e uma ligação para reservar",
     "altCollectionsScreen": "O ecrã de coleções da KiwiCamping com as listas Quero visitar, Visitados, Pins e Todos os guardados sobre um mapa de satélite de Great Barrier Island",
-    "altTripScreen": "Um itinerário na KiwiCamping pela Bay of Islands, com sete paragens, a distância de condução, as datas e o tempo previsto em cada área de campismo",
-    "altExploreScreen": "A lista Explorar da KiwiCamping com refúgios do DOC e áreas de campismo em Southland, Auckland e Wellington e a distância a que ficam da zona visível no mapa",
+    "altTripScreen": "Um itinerário na KiwiCamping pela Bay of Islands, com sete paragens, a distância de condução, as datas e o tempo previsto em cada parque de campismo",
+    "altExploreScreen": "A lista Explorar da KiwiCamping com refúgios do DOC e parques de campismo em Southland, Auckland e Wellington e a distância a que ficam da zona visível no mapa",
     "heroKicker": "A melhor app de campismo para a Nova Zelândia",
     "heroTitle": "A Nova Zelândia é grande, o teu plano pode ser simples",
     "heroText": "Mais de 6.500 locais em toda a Nova Zelândia, incluídos na app para abrirem mesmo sem rede. Filtra até ficar só o que precisas, guarda e transforma a tua seleção numa viagem com percurso, distâncias, datas, notas e tarefas.",
@@ -36,8 +36,8 @@
     "statOfflineLabel": "todos os detalhes dos locais, sem precisar de rede",
     "statStays": "2.000+",
     "statStaysLabel": "sítios para dormir",
-    "trustLine": "Áreas de campismo, refúgios, holiday parks e paragens úteis em toda a Nova Zelândia.",
-    "trustCampsites": "Áreas de campismo",
+    "trustLine": "Parques de campismo, refúgios, holiday parks e paragens úteis em toda a Nova Zelândia.",
+    "trustCampsites": "Parques de campismo",
     "trustHolidayParks": "Holiday parks",
     "trustNationalParks": "Parques nacionais",
     "trustFreedomCamping": "Campismo livre",
@@ -70,10 +70,10 @@
     "feature4Title": "Street View antes de virar",
     "feature4Text": "O Street View abre diretamente na ficha do local, onde houver imagens, para veres a entrada, o piso e o que está à volta antes de meteres a carrinha pelo desvio.",
     "feature5Title": "O tempo em cada local",
-    "feature5Text": "As condições atuais e a previsão aparecem na ficha do local e ao lado de cada paragem da viagem, para escolheres entre duas áreas de campismo a olhar para o céu.",
+    "feature5Text": "As condições atuais e a previsão aparecem na ficha do local e ao lado de cada paragem da viagem, para escolheres entre dois sítios para acampar a olhar para o céu.",
     "feature6Title": "Custos na tua moeda",
     "feature6Text": "Estás de visita e os dólares neozelandeses ainda não te dizem nada? Escolhe a tua moeda, define a taxa uma vez e os custos indicados aparecem também num valor que percebes à primeira.",
-    "plannerEyebrow": "O prato principal",
+    "plannerEyebrow": "O coração da app",
     "plannerTitle": "Paragem a paragem. Dia a dia.",
     "plannerText": "Tudo o resto vai dar ao planeador de viagens. Junta locais guardados como paragens e arrasta-os para a ordem em que vais mesmo conduzir. Cada troço mostra a distância, a navegação até à paragem seguinte abre logo, cada paragem tem a sua data, notas de chegada e previsão do tempo, e vais marcando-as como visitadas pelo caminho. As alternativas por perto ficam à mão para os dias em que os planos mudam, a lista do que levar fica ao lado do itinerário e tudo pode sincronizar com o Calendário.",
     "plannerMetric1Title": "Distâncias e navegação",
@@ -88,7 +88,7 @@
     "routesTitle": "Conhece as regras. Sabe quanto custa.",
     "routesText": "Guias práticos sobre regras de campismo, segurança, a melhor altura para ir e quanto custa mesmo uma viagem pela Nova Zelândia.",
     "exploreRoutes": "Explorar os guias",
-    "audiencesEyebrow": "Seja qual for a casa que levas às costas",
+    "audiencesEyebrow": "Seja qual for a casa que levas contigo",
     "audiencesTitle": "Feita para tendas, carrinhas e grandes voltas.",
     "audience1Title": "Mochileiros",
     "audience1Text": "Põe um orçamento apertado e um percurso flexível a jogar a teu favor.",
@@ -121,7 +121,7 @@
     "faq5q": "O que são coleções?",
     "faq5a": "Há dois tipos. As coleções inteligentes (Gosto, Com estrela, Quero visitar, Visitados, Pins e Todos os guardados) enchem-se sozinhas à medida que marcas locais. Além dessas, podes criar coleções tuas, com nome, ícone e notas, para uma região, uma época, um veículo ou uma pré-seleção.",
     "faq6q": "Posso filtrar campismo gratuito ou lugares para veículos autónomos?",
-    "faq6a": "Sim, e combiná-los. Os filtros abrangem tipo de local, preço, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso, por isso «áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown» é uma só pesquisa.",
+    "faq6a": "Sim, e também podes combiná-los. Os filtros abrangem tipo de local, preço, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso, por isso «áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown» é uma só pesquisa.",
     "faq7q": "O que tem a ficha de um local?",
     "faq7a": "Fotografias, uma descrição, horários, preços, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e dados de reserva, o tempo, Street View onde houver imagens, navegação e alternativas por perto.",
     "faq8q": "Que tipos de mapa há?",
@@ -129,7 +129,7 @@
     "faq9q": "Posso ver os preços na minha moeda?",
     "faq9a": "Sim. Escolhe a tua moeda nas definições e define a taxa de câmbio: os custos indicados passam a aparecer nessa moeda ao lado do valor em dólares neozelandeses.",
     "faq10q": "Posso reservar um lugar de campismo pela KiwiCamping?",
-    "faq10a": "Abre os dados de reserva de um local para chegares ao respetivo operador e consultar aí a disponibilidade em tempo real, os preços e as condições.",
+    "faq10a": "Abre os dados de reserva de um local para chegares ao operador e confirmares com ele a disponibilidade em tempo real, os preços e as condições.",
     "faq11q": "As regras de campismo são iguais em toda a Nova Zelândia?",
     "faq11a": "Não. Podem aplicar-se ao mesmo tempo a lei nacional, os regulamentos municipais, as regras de conservação e as condições de cada local. Segue sempre a sinalização em vigor, as indicações de quem gere o terreno, as restrições ao fogo e os alertas oficiais.",
     "downloadEyebrow": "O próximo sítio está à tua espera",
@@ -275,17 +275,17 @@
         {
           "heading": "Planeador de viagens",
           "paragraphs": [
-            "Cria uma viagem, acrescenta locais e arrasta-os para os ordenar. Cada paragem pode ter a sua data de chegada, notas, meteorologia e marca de visitada, e o planeador mostra a distância de carro troço a troço e no total da viagem.",
+            "Cria uma viagem, acrescenta locais e arrasta-os para os ordenar. Cada paragem pode ter a sua data de chegada, notas, previsão do tempo e marca de visitada, e o planeador mostra a distância de carro troço a troço e no total da viagem.",
             "O cálculo do percurso depende das indicações que o MapKit tiver disponíveis. Se um troço falhar, o planeador mantém as paragens, mas tens de ser tu a confirmar se as estradas estão transitáveis no momento.",
             "Começa pela lista predefinida de essenciais de campismo ou cria as tuas próprias tarefas. O progresso da viagem mantém a lista ao lado do itinerário, e os detalhes do itinerário podem ser sincronizados com o Calendário."
           ]
         },
         {
-          "heading": "Mapas, meteorologia e dados em direto",
+          "heading": "Mapas, previsão do tempo e dados em direto",
           "paragraphs": [
-            "Alterna entre o mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, que se inclina e roda até mostrar o relevo em 3D. O Street View, assente nas imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura.",
+            "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar até veres o relevo em 3D. O Street View, feito com as imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura.",
             "O tempo atual e a previsão precisam de dados em direto. Antes de ficares sem rede, guarda as previsões essenciais e os avisos oficiais.",
-            "O diretório de locais vem incluído na app, por isso os dados essenciais de cada local continuam disponíveis mesmo onde a rede deixa de ser fiável. Os mapas em direto, o cálculo de percursos, a meteorologia, as fotografias e as páginas externas dos operadores podem precisar de rede."
+            "O diretório de locais vem incluído na app, por isso os dados essenciais de cada local continuam disponíveis mesmo onde a rede deixa de ser fiável. Os mapas em direto, o cálculo de percursos, a previsão do tempo, as fotografias e as páginas externas dos operadores podem precisar de rede."
           ]
         },
         {
@@ -335,19 +335,29 @@
           ]
         },
         {
+          "heading": "Estatísticas do site",
+          "paragraphs": [
+            "Este site usa o Google Analytics 4 para contar visitas e ver que páginas levam as pessoas à App Store. A Google trata estes dados em nosso nome, como subcontratante. Para quem nos visita a partir do Espaço Económico Europeu, do Reino Unido e da Suíça, o serviço é prestado pela Google Ireland Limited e, no resto do mundo, pela Google LLC.",
+            "As estatísticas registam as páginas que vês, o tipo de dispositivo, de navegador e de ecrã, uma localização aproximada calculada a partir do teu endereço IP (a Google não guarda o endereço em si), a página que te trouxe até aqui e os teus cliques nas ligações para a App Store. Nunca recebem o teu nome, o teu email nem nada do que guardas na app.",
+            "Quando autorizas as estatísticas, o Google Analytics instala dois cookies próprios (first-party): o _ga e um segundo cujo nome começa por _ga_. Ambos expiram ao fim de 13 meses. No Espaço Económico Europeu, no Reino Unido e na Suíça, estes cookies só são instalados depois de escolheres Aceitar na barra de consentimento. Até lá, e se escolheres Recusar, não é guardado nenhum cookie de estatísticas e a Google recebe apenas sinais sem cookies, que não levam nenhum identificador. Podes mudar a tua escolha a qualquer momento na ligação Preferências de privacidade, no fundo de cada página.",
+            "Os Google signals e a personalização de anúncios estão desligados, por isso os dados das estatísticas não ficam associados a contas Google nem são usados para publicidade. Os dados das estatísticas são guardados durante 14 meses e depois apagados. A KiwiCamping continua a não usar rastreadores publicitários neste site."
+          ]
+        },
+        {
           "heading": "Conservação e controlo dos dados",
           "paragraphs": [
-            "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas separadamente."
+            "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas à parte."
           ]
         },
         {
           "heading": "Crianças e contacto",
           "paragraphs": [
-            "A KiwiCamping é uma ferramenta de viagem de uso geral e não se destina a crianças. Não envies ao apoio dados pessoais de uma criança."
+            "A KiwiCamping é uma ferramenta de viagem de uso geral e não se destina a crianças. Não envies ao apoio dados pessoais de uma criança.",
+            "Para questões de privacidade, contacta o apoio da KiwiCamping."
           ]
         }
       ],
-      "effective": "Em vigor a partir de 12 de agosto de 2026"
+      "effective": "Em vigor a partir de 19 de outubro de 2026"
     },
     "terms": {
       "title": "Termos de utilização",
@@ -1292,7 +1302,7 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "Refúgios do DOC (huts) na Nova Zelândia: como funciona o sistema",
-      "description": "Refúgios Great Walk, Serviced, Standard e Basic: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva diferentes.",
+      "description": "Refúgios com serviços, padrão, básicos e dos Great Walks: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva próprias.",
       "region": "Natureza remota da Nova Zelândia",
       "imageAlt": "Refúgio isolado nas montanhas da Nova Zelândia",
       "intro": "Um refúgio (hut) é um abrigo partilhado em zonas remotas, não um alojamento escondido no mato. Há cerca de 950 espalhados pelas áreas públicas de conservação, desde edifícios com serviços, aquecimento e colchões até barracões de dois beliches com chão de terra. A categoria do refúgio para onde vais decide o que tens de levar.",
@@ -1300,13 +1310,13 @@
         {
           "heading": "As quatro categorias de refúgios",
           "body": [
-            "Os refúgios Serviced (com serviços) são os mais equipados: beliches com colchão, água, WC e, normalmente, aquecimento com combustível incluído. Os Standard (padrão) dispensam o combustível para o aquecimento e às vezes os colchões, mas mantêm beliches, água e WC. Os Basic (básicos) são um abrigo e pouco mais, e podem nem ter fonte de água.",
-            "Os refúgios Great Walk ficam fora desta escala. Estão nos Great Walks, os grandes percursos pedestres de referência do país, e na época das caminhadas têm serviços de alto nível, custam bastante mais e funcionam com um sistema de reservas próprio, associado a cada trilho. Fora de época costumam baixar de nível e de preço, com instalações reduzidas ou mesmo retiradas."
+            "Os refúgios com serviços (Serviced) são os mais equipados: beliches com colchão, água, WC e, normalmente, aquecimento com combustível incluído. Os refúgios padrão (Standard) dispensam o combustível para o aquecimento e às vezes os colchões, mas mantêm beliches, água e WC. Os básicos (Basic) são um abrigo e pouco mais, e podem nem ter fonte de água.",
+            "Os refúgios dos Great Walks ficam fora desta escala. Estão nos Great Walks, os grandes percursos pedestres de referência do país, e na época das caminhadas têm serviços de alto nível, custam bastante mais e funcionam com um sistema de reservas próprio, associado a cada trilho. Fora de época costumam baixar de nível e de preço, com instalações reduzidas ou mesmo retiradas."
           ],
           "tips": [
             "A categoria diz o que há e quanto custa",
-            "Refúgios Great Walk reservam-se à parte",
-            "Refúgios Basic podem não ter água"
+            "Os refúgios dos Great Walks reservam-se à parte",
+            "Os refúgios básicos podem não ter água"
           ]
         },
         {
@@ -1321,12 +1331,12 @@
           "heading": "Hut tickets, passes e reservas",
           "body": [
             "Os refúgios sem reserva funcionam em geral com hut tickets (senhas compradas antecipadamente) ou com o Backcountry Hut Pass, um passe que cobre um período e não uma noite. Os refúgios com reserva exigem uma reserva nominal para a data certa, e os Great Walk esgotam com meses de antecedência para a época de verão.",
-            "O erro mais comum é confundir passe com reserva. O Backcountry Hut Pass paga a tua estadia nos refúgios que aceitam hut tickets, mas não reserva nada e não vale nos refúgios Great Walk nem nos outros refúgios com reserva. Antes de partir, confirma que sistema usa o refúgio para onde vais."
+            "O erro mais comum é confundir passe com reserva. O Backcountry Hut Pass paga a tua estadia nos refúgios que aceitam hut tickets (senhas de pernoita), mas não reserva nada e não vale nos refúgios dos Great Walks nem nos outros refúgios com reserva. Antes de partir, confirma que sistema usa o refúgio para onde vais."
           ],
           "tips": [
             "Um passe não é uma reserva",
             "Compra os hut tickets antes do trilho",
-            "Refúgios Great Walk esgotam meses antes"
+            "Os refúgios dos Great Walks esgotam com meses de antecedência"
           ]
         },
         {
@@ -1373,7 +1383,7 @@
       "faq": [
         [
           "É preciso reservar um refúgio do DOC?",
-          "Depende da categoria. Os refúgios Great Walk e os Serviced nos trilhos mais procurados reservam-se e pagam-se antecipadamente, muitas vezes com meses de antecedência no verão. Os Standard e os Basic funcionam em geral com hut tickets ou com o Backcountry Hut Pass, sem reserva, e nunca tens beliche garantido."
+          "Depende da categoria. Os refúgios dos Great Walks e os refúgios com serviços nos trilhos mais procurados reservam-se e pagam-se antecipadamente, muitas vezes com meses de antecedência no verão. Os refúgios padrão e os básicos funcionam em geral com hut tickets ou com o Backcountry Hut Pass, sem reserva, e nunca tens beliche garantido."
         ],
         [
           "O que há, de facto, num refúgio de montanha?",
@@ -4508,7 +4518,7 @@
         {
           "heading": "Onde se gasta de facto",
           "body": [
-            "Uma pie de padaria (empada de massa folhada, normalmente de carne) e um café são um almoço mesmo barato, e encontra-se em quase todas as terras. Um brunch num café é o gasto intermédio mais comum e soma-se mais depressa do que se espera. Um jantar num restaurante com bebidas é muitas vezes a maior despesa do dia, à frente do alojamento.",
+            "Uma pie de padaria (empada de massa folhada, normalmente de carne) e um café são um almoço mesmo barato, e encontram-se em quase todas as terras. Um brunch num café é o gasto intermédio mais comum e soma-se mais depressa do que se espera. Um jantar num restaurante com bebidas é muitas vezes a maior despesa do dia, à frente do alojamento.",
             "O fish and chips continua a ser a refeição quente com melhor relação qualidade-preço na maioria das terras costeiras, e costuma ser melhor nas mais pequenas. Pedir ao balcão e comer lá fora custa uma fração do que pagarias por uma refeição equivalente servida à mesa."
           ],
           "tips": []
@@ -4546,7 +4556,7 @@
           ]
         },
         {
-          "heading": "Padarias e a questão da pie de carne picada e queijo",
+          "heading": "Padarias e a questão da empada de carne picada e queijo",
           "body": [
             "A pie de padaria é a refeição quente mais barata do país e faz mesmo parte da cultura, com um concurso nacional anual levado mais a sério do que alguém de fora imagina. As padarias das terras pequenas ganham muitas vezes às das cidades.",
             "O fish and chips pedido ao balcão e comido lá fora é a outra refeição barata que nunca falha, e a qualidade costuma ser melhor nas terras costeiras do que nas cidades. Pergunta qual é o peixe do dia em vez de pedires simplesmente «peixe».",
@@ -4671,7 +4681,7 @@
           "tips": []
         },
         {
-          "heading": "Descontos e onde abastecer",
+          "heading": "Cartões de desconto e onde abastecer",
           "body": [
             "As principais gasolineiras têm descontos associados às compras no supermercado, e os vales acumulam com algumas ofertas de cartões. Numa viagem longa a poupança é real, mas nunca chega para justificar passar sem parar pelo último posto antes de um troço isolado.",
             "Os postos automáticos sem funcionários são comuns nas terras pequenas e costumam ser mais baratos, mas alguns recusam cartões estrangeiros. Leva um cartão alternativo e não chegues a um deles de depósito vazio, já de noite, a contar que funcione.",
@@ -5103,5 +5113,13 @@
         ]
       }
     }
+  },
+  "consent": {
+    "label": "Preferências de privacidade",
+    "text": "A KiwiCamping pode usar cookies do Google Analytics para perceber que páginas ajudam os viajantes? Nunca são usados para publicidade.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "policy": "Política de privacidade",
+    "choices": "Preferências de privacidade"
   }
 }
