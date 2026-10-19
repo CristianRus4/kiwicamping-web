@@ -61,3 +61,8 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - (NZ) overseas-driver-licence-new-zealand sections[0].body[0] says 18 months from last arrival until 1 November 2026, then 12 months; sections[3].body[0], sections[3].tips[0], sections[7].body[0] and faq[0][1] give a flat 12 months from arrival. faq[1][1] says "certified English translation" vs "approved translation" in sections[1], and "only if" not in English vs rental companies requiring an IDP anyway (sections[8]). Verify against NZTA.
 - (NZ) bus-ferry-train-costs-new-zealand faq[0][1] promises dated foot-passenger, car and campervan fares; the table has 2026 planning ranges with car and camper in one row.
 - (NZ) sandflies-new-zealand-camping sections[7].body[2] writes Maori and Hine-nui-te-po without macrons (Dutch uses Māori, Hine-nui-te-pō).
+
+## K-content batch sync (2026-10-20, branch i18n/k-nl-b1)
+- Merged i18n/k-nl into release/k-content-b1; 175 listed nl units translated from the new English; 75 `<a data-guide>` links restored in nl units; 2 extra number-parity fixes (cook-strait sections[2].body[0], new-zealand-travel-cost-2026 sections[7].body[2]).
+- Look Around is now "Kijk rond (van Apple)" everywhere in nl (was "Street View", a Google name). AussieCamps nl should follow in the same way.
+- Source: new English ui.faq3a/featureMainText etc. keep "Apple" for brand parity.
