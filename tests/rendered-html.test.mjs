@@ -7,7 +7,7 @@ import { APPLE_PROVIDER_TOKEN, APP_STORE_URL, GA_MEASUREMENT_ID } from "../lib/s
 import { appStoreUrl, ctaPlacements } from "../lib/app-store.ts";
 import { isArticleTranslated, isStaticPageTranslated, isTranslated, publishedLocales } from "../lib/localized.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
-import { articles } from "../lib/site.ts";
+import { allArticles, articles, isScheduled } from "../lib/site.ts";
 import { redirects } from "../lib/redirects.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
@@ -31,7 +31,10 @@ test("renders a genuine long-form New Zealand route with prose under every headi
 
 test("every article renders real prose and no templated filler",async()=>{const list=await entries();assert.ok(list.length>=78,`expected at least 78 articles, found ${list.length}`);
 const templates=[/the useful decisions around/,/gives the story a beginning, while/,/becomes easier when the route is divided into decisions/,/keep a workable alternative near/,/before leaving coverage, then attach the booking details/,/current signs, official alerts and the conditions on arrival take priority/,/as research anchors, recheck the responsible official source/,/Hold water, fuel, money and time in reserve between/];
-for(const {slug,legacyPath} of list){const route=legacyPath??`/guides/${slug}`;const response=await fetchPage(route);assert.equal(response.status,200,route);const html=await response.text();const body=html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1]??"";assert.ok((body.match(/<p[ >]/g)??[]).length>=6,`${route} needs at least six prose paragraphs`);for(const template of templates)assert.doesNotMatch(body,template,`${route} still contains templated filler`);assert.match(html,/section-count/)}});
+for(const {slug,legacyPath} of list){const route=legacyPath??`/guides/${slug}`;const response=await fetchPage(route);
+  // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).
+  if(isScheduled(slug)){assert.equal(response.status,404,`${slug} is scheduled but already served`);continue;}
+  assert.equal(response.status,200,route);const html=await response.text();const body=html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1]??"";assert.ok((body.match(/<p[ >]/g)??[]).length>=6,`${route} needs at least six prose paragraphs`);for(const template of templates)assert.doesNotMatch(body,template,`${route} still contains templated filler`);assert.match(html,/section-count/)}});
 
 test("renders dated New Zealand cost tables in ten currencies",async()=>{const response=await fetchPage("/guides/new-zealand-grocery-prices-2026");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Price table in 10 currencies/);assert.match(html.replace(/<!-- -->/g,""),/Prices checked 12 August 2026/);for(const currency of ["NZD","USD","GBP","AUD","JPY","EUR","CNY","KRW","INR","SGD"])assert.match(html,new RegExp(`>${currency}<`));assert.match(html,/Reserve Bank of New Zealand/)});
 
@@ -50,7 +53,8 @@ test("publishes every guide in every locale",async()=>{
 
 test("every guide, road trips included, is in the translation source",async()=>{
   const source=JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8"));
-  assert.deepEqual(Object.keys(source.articles).sort(),articles.map((article)=>article.slug).sort());
+  // Scheduled guides included: a translation can be ready before its guide goes live.
+  assert.deepEqual(Object.keys(source.articles).sort(),allArticles.map((article)=>article.slug).sort());
   assert.ok(source.articles["coromandel-rotorua-road-trip"],"road trips are translatable");
   assert.ok(source.articles["doc-campsites-new-zealand-guide"],"legacy guides are translatable");
 });
