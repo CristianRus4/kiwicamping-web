@@ -5,15 +5,16 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 ## Done (committed, not yet handed off)
 - Brief batches 0-3: blue-warrant fix everywhere + self-contained page rewrite; DOC booking page rewrite + doc-huts / doc-campsite-rules retitles; home meta + map-intent section + Look Around; best-nz-camping-apps rewrite with dated comparison table (new optional `comparison` field in lib/article-model.ts, rendered in components/guide-article.tsx; English-only pages).
 - Audit P0 confirmed errors: overseas licence (12-month rule from 1 Nov 2026), left-side-driving give-way, alcohol-fatigue, towing licence weight, grocery Woolworths, camping-costs "Scenic", doc-campsite-rules dogs (74 of 287), doc-hut-rules "turned away", Remutaka Hill / Desert Road (campervan-road-rules, towing, wellington-wairarapa loop).
-- Audit P1 retitles: camping-costs-nz, campfire-rules-nz, nz-camping-seasons-weather-sandflies, sandflies guide, holiday-parks (expanded, TOP 10 Club figures, BookIt-free CTA).
+- Audit P0 (no research needed): offline-data guide, /support/ Pass boundary, North Island geothermal claim.
+- Audit P1 retitles all done (tools, speed-limits, campervan-road-rules, public-transport, eating-out, travel-cost, wof, road-signs, volcanic, biosecurity, beer-wine-coffee, cook-strait, taranaki, river-crossing; script /tmp/kcontent-factcheck/retitle.py logs to the changelog). Also: camping-costs-nz, campfire-rules-nz, nz-camping-seasons-weather-sandflies, sandflies guide, holiday-parks (expanded, TOP 10 Club figures, BookIt-free CTA).
 
 ## In progress
-- Independent fact-check (never run by the previous session) of every changed rules/fee page. Page text exported to /tmp/kcontent-factcheck/<slug>.md by /tmp/kcontent-factcheck/export.ts (copy into repo root as .fc-export.ts, run `npx tsx ./.fc-export.ts <slugs>`, delete). Verdicts go to /tmp/kcontent-factcheck/verdict-<batch>.md. Batches: A self-contained/freedom (4 pages), B DOC (5), C driving (5), D apps/holiday parks/groceries (3).
+- Independent fact-check (never run by the previous session) of every changed rules/fee page. Page text exported to /tmp/kcontent-factcheck/<slug>.md by /tmp/kcontent-factcheck/export.ts (copy into repo root as .fc-export.ts, run `npx tsx ./.fc-export.ts <slugs>`, delete). Verdicts go to /tmp/kcontent-factcheck/verdict-<batch>.md. Batches: A self-contained/freedom (4 pages) and B DOC (5) launched 20 Oct; still to launch: C driving (overseas licence, left-side, alcohol-fatigue, towing, campervan-road-rules, speed-limits), D commercial (best-nz-camping-apps, holiday parks, grocery, public-transport, eating-out, travel-cost, beer-wine-coffee, north-island geothermal lines).
 
 ## Next
 1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
-2. Audit queue, remaining P0: new-zealand-road-trip-fuel-cost-2026 (dated MBIE series + retitle), kiwicamping-offline-data-guide, north-island-two-week-road-trip, /support/.
-3. Remaining P1 retitles from docs/growth/audit/summary.csv (tools, speed-limits, public-transport, eating-out, travel-cost, wof, road-signs, volcanic, biosecurity, beer-wine-coffee, cook-strait, taranaki, river-crossing), then P2, then brief batches 4-8 (check keyword-map.csv before new pages).
+2. Audit P0 left: new-zealand-road-trip-fuel-cost-2026 (dated MBIE monthly series + retitle 'NZ Petrol Prices 2026 and Campervan Fuel Cost'; needs research subagent). /tools FX date refresh (audit item 14).
+3. Then P2 rows of docs/growth/audit/summary.csv, then brief batches 4-8 (check keyword-map.csv before new pages).
 
 ## Notes and constraints found
 - Translated guides (43 slugs in every locale file) must keep identical structure (section/paragraph/tip/FAQ/source/priceTable row counts) or content:check fails, and locale JSON is off limits. Legacy (.html) pages are not translated, so they can be restructured.
