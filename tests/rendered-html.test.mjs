@@ -189,7 +189,7 @@ test("the 15 legacy pages keep main's English body byte for byte",async()=>{
   // See tests/legacy-body.mjs for exactly what the comparison excludes, and why.
   for(const path of legacyPaths){
     const html=await readFile(new URL(path.slice(1),dist),"utf8");
-    const expected=(await readFile(new URL(fixtureName(path),fixtureDir),"utf8")).replace(/\n$/,"");
+    const expected=(await readFile(new URL(fixtureName(path),fixtureDir),"utf8")).replace(/\n$/,"").replace(/__variable_[a-z0-9_]+/g,"__variable_FONT");
     const actual=legacyBody(html);
     if(actual===expected)continue;
     let index=0;while(index<actual.length&&actual[index]===expected[index])index+=1;
