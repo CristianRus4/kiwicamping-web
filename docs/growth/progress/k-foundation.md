@@ -28,31 +28,28 @@ Owner: K-foundation thread (Ava). Only this thread edits this file.
   legacy body byte-identity. Verified also with fake GA/pt values (17/17) and in a browser (Europe vs Auckland tz).
 - `next` pinned to 16.2.6 (matches aussiecamps-web). Obsolete "neue / do not push" hold removed from docs.
 
-## M2 i18n platform: IN PROGRESS (session 3, Kai, 2026-10-20)
+## M2 i18n platform: DONE (handed off 2026-10-20, session 3, Kai)
 Two parallel streams existed. Stream B (worktree growth-k-foundation-2, commits bcd59fe..28c926c) follows
-the aussiecamps-web file layout, has redirects and the reviews flag: growth/k-foundation now builds on it.
-Stream A (uncommitted Ava work left in growth-k-foundation until 04:00) is saved on branch
-growth/k-foundation-streamA; mine it only for pieces B lacks. Orchestrator addenda: real IDs and ct<=30
-are already in (check MAX_CAMPAIGN_TOKEN); redirects map done (lib/redirects.ts).
+the aussiecamps-web file layout, has redirects and the reviews flag: growth/k-foundation builds on it.
+Stream A (uncommitted Ava work left in growth-k-foundation until 04:00 on 2026-10-20) is saved on branch
+growth/k-foundation-streamA, unmerged; nothing from it is still needed.
 
-Done:
-- Registry, locales:sync, route manifest, exporter on manifest, sitemap index, alternatesFor, related,
-  dates, CJK CSS, switcher, stamps, redirects (stream B).
-- scripts/audit-seo.mjs in check (9b06a1a); docs/growth/ranking-urls.txt (115 URLs from GSC).
+- Registry, locales:sync (+ --check in content:check), route manifest, manifest-driven exporter, sitemap
+  index, alternatesFor, schema, dates, related, CJK CSS, switcher, reviews flag, redirects (stream B).
+- scripts/audit-seo.mjs in check; docs/growth/ranking-urls.txt (115 URLs from GSC 2026-10-19).
+- Names aligned with aussie PARITY: CAMPAIGN_TOKEN_MAX (30), campaignTokenPattern, getConsentStrings,
+  renderGuideLinks(text, root), scripts/translations-stamp.mjs, lib/translation-source.ts (+ en.json stale assert).
+- Legacy body byte-identity is a one-off: scripts/verify-legacy-bodies.mjs <origin/main pages-dist>.
+  Result vs origin/main 3204bd0: all 15 match. Permanent test and fixtures removed.
+- Tests ported from aussie (36/36). docs/PARITY.md. Stamps documented in docs/TRANSLATIONS.md.
+- npm run check green: 589 pages + 1 redirect exported, SEO audit 373 indexable, 115 ranking, 379 baseline.
 
-Next (in order):
-1. Name alignment with aussie PARITY: getConsent -> getConsentStrings; renderGuideLinks signature;
-   app-store CAMPAIGN_TOKEN_MAX/campaignTokenPattern/locale default; stamps script -> scripts/translations-stamp.mjs
-   (exports leaves, staleSummary, stamp, invalidate); lib/translation-source.ts + staleness assert; CJK reading time.
-2. Legacy body: replace permanent test with one-off scripts/verify-legacy-bodies.mjs (addendum 2); keep the
-   permanent guards (15 legacy URLs 200, self-canonical .html, no English /guides/<legacy-slug>/).
-3. Port aussie M2 tests: drafts not routed, table-shape gate, no hardcoded locale lists, manifest == export,
-   URL baseline, localized guide lang/date/breadcrumbs, data-guide links, related, stamps, translation source.
-4. docs/PARITY.md (copy aussie's, Kiwi columns; add the redirects mechanism).
-5. npm run check, hand off M2.
-Not in baseline but have GSC impressions (return when translated): it/de/es/pt east-cape-road-trip,
+Not in baseline but have GSC impressions (they come back when translated): it/de/es/pt east-cape-road-trip,
 fr coromandel-rotorua-road-trip, es nelson-abel-tasman-golden-bay, de rakiura-stewart-island-camping-guide,
-nl new-zealand-three-week-campervan-route.
+nl new-zealand-three-week-campervan-route. Add them to ranking-urls.txt once they are indexable.
+
+## Next
+Lane task complete unless the orchestrator returns review findings on M2.
 
 ## Blockers / notes for the orchestrator
 - None.
