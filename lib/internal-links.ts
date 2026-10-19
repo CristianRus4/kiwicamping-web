@@ -1,5 +1,4 @@
 import { articleHref, articles, sitePath } from "@/lib/site";
-import { localeRoot, type LocaleCode } from "@/lib/locales";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -166,12 +165,11 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
 
 /**
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
- * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in this locale's
- * edition. Any other tag is shown as text, never interpreted; a stray or unknown link is reduced to
+ * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL under `root`
+ * (the edition's home path from `localeRoot`, e.g. `/de`). Any other tag is shown as text, never interpreted; a stray or unknown link is reduced to
  * its text.
  */
-export function renderGuideLinks(text: string, locale: LocaleCode): string {
-  const root = localeRoot(locale);
+export function renderGuideLinks(text: string, root: string): string {
   const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
   let html = "";
   let last = 0;

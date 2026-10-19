@@ -53,7 +53,11 @@ assert.doesNotMatch(content, /this (section|page|guide|article) (explains|descri
 const { localeCodes, locales, liveLocales } = await import("../lib/locales.ts");
 const { fullyTranslatedSlugs, isArticleTranslated, isStaticPageTranslated, isTranslated, requiredUiKeys, translationProgress } = await import("../lib/localized.ts");
 const { staleFiles } = await import("./sync-locales.mjs");
-const { leaves, stampStatus } = await import("./translation-stamps.mjs");
+const { leaves, staleSummary } = await import("./translations-stamp.mjs");
+const { translationSourceText } = await import("../lib/translation-source.ts");
+
+// Translators work from en.json, so it must say exactly what the English site says.
+assert.equal(await readFile(resolve(root, "lib/translations/en.json"), "utf8"), translationSourceText(), "lib/translations/en.json is stale: run `npm run translations:source`");
 
 // The registry is the only hand-kept list of languages; the barrel and engine config follow it.
 const stale = staleFiles();
@@ -144,7 +148,7 @@ for (const locale of localeCodes) {
   }
 
   const progress = translationProgress(locale);
-  const stamps = stampStatus(locale);
+  const stamps = staleSummary(locale);
   const status = locales.find((entry) => entry.code === locale).status;
   summary.push(`${locale} (${status}) ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages, ${stamps.stamped ? `${stamps.stale.length} stale, ${stamps.unstamped} unstamped` : "not stamped"}`);
 }

@@ -142,7 +142,7 @@ export function getTranslation(locale: LocaleCode): UiStrings {
 }
 
 /** The consent bar strings: each one in the locale when translated, otherwise English. Never gates publishing. */
-export function getConsent(locale: LocaleCode | "en"): ConsentStrings {
+export function getConsentStrings(locale: LocaleCode | "en"): ConsentStrings {
   const overrides = locale === "en" ? {} : files[locale].consent ?? {};
   return Object.fromEntries(Object.entries(consentStrings).map(([key, english]) => [key, filled(overrides[key as ConsentKey]) ? overrides[key as ConsentKey]! : english])) as ConsentStrings;
 }

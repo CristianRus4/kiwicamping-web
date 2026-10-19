@@ -26,8 +26,8 @@
     "smoke:live": "tsx scripts/smoke-live.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
     "locales:sync": "node scripts/sync-locales.mjs",
-    "translations:stamp": "node scripts/translation-stamps.mjs stamp",
-    "translations:invalidate": "node scripts/translation-stamps.mjs invalidate",
+    "translations:stamp": "node scripts/translations-stamp.mjs",
+    "translations:invalidate": "node scripts/translations-stamp.mjs --invalidate",
     "seo:audit": "tsx scripts/audit-seo.mjs"
   },
   "dependencies": {
