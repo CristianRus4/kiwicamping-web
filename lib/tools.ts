@@ -1,13 +1,8 @@
-import de from "./translations/de.json";
-import es from "./translations/es.json";
-import fr from "./translations/fr.json";
-import it from "./translations/it.json";
-import nl from "./translations/nl.json";
-import pt from "./translations/pt.json";
+import { translationFiles } from "./translations/index";
 import productFacts from "./data/product-facts.json";
 import { toolStrings, type ToolId, type ToolStrings } from "./source-strings";
-import { isTranslated, localeCodes, type LocaleCode } from "./localized";
-import { hreflang } from "./seo";
+import { isTranslated, type LocaleCode } from "./localized";
+import { intlLocale as localeIntl, localeRoot } from "./locales";
 import { SITE_URL, articles, articleHref, sitePath } from "./site";
 import { exchangeRateDate, nzdRates } from "./currency";
 
@@ -45,7 +40,7 @@ export const toolBySlug = (slug: string) => toolIds.find((id) => tools[id].slug 
  * ---------------------------------------------------------------------------------------------- */
 
 type ToolsFile = { tools?: Partial<Record<keyof ToolStrings, unknown>> };
-const files: Record<LocaleCode, ToolsFile> = { de, es, fr, it, nl, pt } as unknown as Record<LocaleCode, ToolsFile>;
+const files = translationFiles as Record<LocaleCode, ToolsFile | undefined>;
 
 const filled = (value: unknown): boolean => typeof value === "string" ? value.trim().length > 0 : false;
 const placeholders = (text: string) => [...text.matchAll(/\{(\w+)\}/g)].map((match) => match[1]).sort().join(",");
@@ -58,7 +53,6 @@ function complete(english: unknown, translated: unknown): boolean {
 }
 
 export function isToolTranslated(locale: LocaleCode, id: ToolId) {
-  // Locales added after this file (ja, ko, ...) have no tools translation yet.
   const translated = files[locale]?.tools ?? {};
   return complete(toolStrings.shared, translated.shared) && complete(toolStrings[id], translated[id]);
 }
@@ -69,17 +63,25 @@ export const isToolIndexable = (locale: ToolPageLocale, id: ToolId) => locale ==
 /** All or nothing per tool: the complete translation, or the English. */
 export function toolCopy<T extends ToolId>(locale: ToolPageLocale, id: T): { shared: ToolStrings["shared"]; tool: ToolStrings[T]; translated: boolean } {
   if (locale !== "en" && isToolTranslated(locale, id)) {
-    const translated = files[locale].tools!;
+    const translated = files[locale]!.tools!;
     return { shared: translated.shared as ToolStrings["shared"], tool: translated[id] as ToolStrings[T], translated: true };
   }
   return { shared: toolStrings.shared, tool: toolStrings[id], translated: false };
 }
 
-/** The Intl tag numbers are formatted with: the locale's own once the page is translated. */
-export const intlLocale = (locale: ToolPageLocale, id: ToolId) => locale !== "en" && isToolTranslated(locale, id) ? hreflang[locale] : "en-NZ";
+/** The /tools/ index copy for a locale: its complete translation, or the English. */
+export function toolsIndexCopy(locale: ToolPageLocale): { index: ToolStrings["index"]; translated: boolean } {
+  const translated = locale === "en" ? undefined : files[locale]?.tools?.index;
+  return translated && complete(toolStrings.index, translated) ? { index: translated as ToolStrings["index"], translated: true } : { index: toolStrings.index, translated: locale === "en" };
+}
 
-export const toolPath = (locale: ToolPageLocale, id: ToolId) => sitePath(`${locale === "en" ? "" : `/${locale}`}/tools/${tools[id].slug}`);
-export const toolsIndexPath = (locale: ToolPageLocale) => sitePath(`${locale === "en" ? "" : `/${locale}`}/tools`);
+/** The Intl tag numbers are formatted with: the locale's own once the page is translated. */
+export const intlLocale = (locale: ToolPageLocale, id: ToolId) => locale !== "en" && isToolTranslated(locale, id) ? localeIntl(locale) : localeIntl("en");
+
+export const toolPath = (locale: ToolPageLocale, id: ToolId) => sitePath(`${localeRoot(locale)}/tools/${tools[id].slug}`);
+/** The page key every language edition of a tool page shares (hreflang, the language switcher). */
+export const toolPageKey = (id: ToolId) => `tool:${tools[id].slug}`;
+export const toolsIndexPath = (locale: ToolPageLocale) => sitePath(`${localeRoot(locale)}/tools`);
 
 /* ------------------------------------------------------------------------------------------------
  * Numbers
@@ -124,7 +126,7 @@ const campsiteFacts = productFacts.categories.docCampsites;
 /** Values the copy's {placeholders} may use, formatted for the page. */
 export function copyValues(tag: string) {
   return {
-    rateDate: exchangeRateDate,
+    rateDate: formatDate(exchangeRateDate, tag),
     docDate: formatDate(campsiteFacts.asOf, tag),
     docFree: formatNumber(campsiteFacts.fee.free, tag),
     docMin: formatMoney(campsiteFacts.adultRate.min, "NZD", tag),
@@ -192,7 +194,7 @@ export function toolSchema(locale: ToolPageLocale, id: ToolId) {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: shared.breadcrumbHome, item: `${SITE_URL}${sitePath(locale === "en" ? "/" : `/${locale}`)}` },
+          { "@type": "ListItem", position: 1, name: shared.breadcrumbHome, item: `${SITE_URL}${sitePath(localeRoot(locale) || "/")}` },
           { "@type": "ListItem", position: 2, name: shared.breadcrumbTools, item: `${SITE_URL}${toolsIndexPath(locale)}` },
           { "@type": "ListItem", position: 3, name: tool.h1, item: url },
         ],
@@ -210,19 +212,6 @@ export function toolSchema(locale: ToolPageLocale, id: ToolId) {
 export function toolGuides(locale: ToolPageLocale, id: ToolId) {
   return tools[id].guides.map((slug) => articles.find((article) => article.slug === slug)).filter((article) => !!article).map((article) => ({
     title: article!.title,
-    href: article!.legacyPath || locale === "en" ? articleHref(article!) : sitePath(`/${locale}/guides/${article!.slug}`),
+    href: locale === "en" ? articleHref(article!) : sitePath(`${localeRoot(locale)}/guides/${article!.slug}`),
   }));
-}
-
-/**
- * Reciprocal hreflang for a tool page: English plus every locale whose copy of the page is indexable.
- * A noindexed locale page is never advertised as an alternate.
- */
-export function toolAlternates(id: ToolId): Record<string, string> {
-  const english = toolPath("en", id);
-  return {
-    "en-NZ": english,
-    ...Object.fromEntries(localeCodes.filter((locale) => isToolIndexable(locale, id)).map((locale) => [hreflang[locale], toolPath(locale, id)])),
-    "x-default": english,
-  };
 }

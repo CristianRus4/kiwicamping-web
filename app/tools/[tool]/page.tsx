@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ToolPage } from "@/components/tool-page";
 import { SITE_URL } from "@/lib/site";
-import { toolAlternates, toolBySlug, toolCopy, toolIds, toolPath, tools } from "@/lib/tools";
+import { alternatesFor, defaultOgLocale } from "@/lib/seo";
+import { toolBySlug, toolCopy, toolIds, toolPageKey, toolPath, tools } from "@/lib/tools";
 
 export const dynamicParams = false;
 
@@ -18,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
-    alternates: { canonical: url, languages: toolAlternates(id) },
-    openGraph: { type: "website", siteName: "KiwiCamping", locale: "en_NZ", title: tool.metaTitle, description: tool.metaDescription, url: `${SITE_URL}${url}`, images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping" }] },
+    alternates: { canonical: url, languages: alternatesFor(toolPageKey(id)) },
+    openGraph: { type: "website", siteName: "KiwiCamping", locale: defaultOgLocale, title: tool.metaTitle, description: tool.metaDescription, url: `${SITE_URL}${url}`, images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping" }] },
     twitter: { card: "summary_large_image", title: tool.metaTitle, description: tool.metaDescription, images: ["/images/kiwicamping-og.webp"] },
   };
 }

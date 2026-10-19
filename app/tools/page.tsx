@@ -12,7 +12,6 @@ import { alternatesFor } from "@/lib/seo";
 import { mainData } from "@/lib/analytics";
 import { toolStrings } from "@/lib/source-strings";
 import { toolIds, toolPath, toolScript } from "@/lib/tools";
-import { TOOL_PAGES_EXPORTED } from "@/lib/routes/tools";
 
 const index = toolStrings.index;
 export const metadata: Metadata = { title: index.metaTitle, description: index.metaDescription, alternates: { canonical: "/tools/", languages: alternatesFor("tools") } };
@@ -38,10 +37,10 @@ export default function ToolsPage() {
       <DriveTimeCalculator/>
       <TankDurationCalculator/>
       <CampsiteCostCalculator/>
-      {TOOL_PAGES_EXPORTED && <section className="tools-reading tools-directory">
+      <section className="tools-reading tools-directory">
         <div><Calculator/><h2>{index.toolsTitle}</h2></div>
         <div><p>{index.toolsText}</p><ul>{toolIds.map((id) => <li key={id}><Link href={toolPath("en", id)} className="text-link">{toolStrings[id].h1} <ArrowRight/></Link></li>)}</ul></div>
-      </section>}
+      </section>
       <section className="tools-reading">
         <div><CircleDollarSign/><h2>Build the budget from current benchmarks.</h2></div>
         <p>The tools calculate exactly what you enter. Our cost guides explain where the starting figures came from, when they were checked and what can change the final price.</p>

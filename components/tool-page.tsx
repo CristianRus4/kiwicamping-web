@@ -11,7 +11,7 @@ import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
 import { CurrencyConverter } from "@/components/currency-converter";
 import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { toolStrings, type ToolStrings } from "@/lib/source-strings";
-import { copyValues, fill, intlLocale, toolCopy, toolGuides, toolIds, toolPath, toolSchema, toolScript, tools, toolsIndexPath, workedExample, type ToolId, type ToolPageLocale } from "@/lib/tools";
+import { copyValues, fill, intlLocale, toolCopy, toolGuides, toolIds, toolPageKey, toolPath, toolSchema, toolScript, tools, toolsIndexPath, workedExample, type ToolId, type ToolPageLocale } from "@/lib/tools";
 
 const calculators = { fuel: FuelCalculator, drive: DriveTimeCalculator, campsite: CampsiteCostCalculator, currency: CurrencyConverter, water: TankDurationCalculator };
 
@@ -75,7 +75,7 @@ export function ToolPage({ id, locale }: { id: ToolId; locale: ToolPageLocale })
         </div>
       </article>
     </main>
-    {locale === "en" ? <Footer /> : <LocalizedFooter locale={locale} />}
+    {locale === "en" ? <Footer pageKey={toolPageKey(id)} /> : <LocalizedFooter locale={locale} pageKey={toolPageKey(id)} />}
     <script data-static-tools dangerouslySetInnerHTML={{ __html: toolScript([id], tag, copy) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema(locale, id)) }} />
   </>;

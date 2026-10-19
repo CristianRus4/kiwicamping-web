@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { AppCta } from "@/components/app-cta";
 import { HubMap } from "@/components/hub-map";
 import { mainData } from "@/lib/analytics";
+import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { SITE_URL, articles, articleHref, sitePath } from "@/lib/site";
 import { builtHubs, factValue, hubGate, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import productFacts from "@/lib/data/product-facts.json";
@@ -183,7 +184,7 @@ export function HubPage({ hub }: { hub: Hub }) {
         </div>
       </article>
     </main>
-    <Footer />
+    <Footer pageKey={hubPageKey(hub.id)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(hubSchema(hub)) }} />
   </>;
 }
@@ -258,7 +259,7 @@ export function HubIndexPage({ kind }: { kind: BuiltHubKind }) {
         </div>
       </article>
     </main>
-    <Footer />
+    <Footer pageKey={hubIndexPageKey(kind)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   </>;
 }
