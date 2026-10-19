@@ -112,6 +112,51 @@
         "nl": "informal",
         "pt": "informal"
       }
+    },
+    {
+      "id": "kiwicamping-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD"
+      ],
+      "glossary": {
+        "North Island": {
+          "fr": "île du Nord"
+        },
+        "South Island": {
+          "fr": "île du Sud"
+        },
+        "Stewart Island": {
+          "fr": "île Stewart"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French island names, no calques, no offline-map claims."
+      },
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ]
     }
   ]
 }
