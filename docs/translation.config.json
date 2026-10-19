@@ -93,8 +93,6 @@
         "DOC",
         "Waka Kotahi",
         "NZD",
-        "North Island",
-        "South Island",
         "Stewart Island",
         "Te Waipounamu",
         "Rakiura"
@@ -111,6 +109,14 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      },
+      "glossary": {
+        "North Island": {
+          "de": "Nordinsel"
+        },
+        "South Island": {
+          "de": "Südinsel"
+        }
       }
     }
   ]
