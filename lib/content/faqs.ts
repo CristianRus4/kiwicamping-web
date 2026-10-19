@@ -106,7 +106,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What should you check before driving a rental campervan away?", "The WoF and registration labels, the self-containment certificate and its expiry, the tyres including the spare, and where the chains and the jack are. A self-containment certificate that expires mid-trip turns legal free camping into a fine."],
   ],
   "towing-caravan-new-zealand": [
-    ["What is the speed limit when towing in New Zealand?", "90 km/h on the open road with a towbar or other rigid connection, below the 100 km/h general limit, and any lower posted limit still applies. With a rope or other non-rigid connection the limit is 50 km/h on any road."],
+    ["What is the speed limit when towing in New Zealand?", "90 km/h on the open road with a towbar or other rigid connection, below the 100 km/h general limit, and any lower posted limit still applies. Towing on a rope or any other non-rigid link drops the limit to 50 km/h everywhere."],
     ["Do you need a special licence to tow a caravan in New Zealand?", "Not usually. A full car licence lets you tow when the vehicle, trailer and load together weigh no more than 6,000 kg; on a learner or restricted licence the limit is 4,500 kg. Rental agreements can set their own lower limits."],
   ],
   "speed-limits-new-zealand-visitors": [
