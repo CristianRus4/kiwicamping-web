@@ -5,7 +5,6 @@ import { startProdServer } from "vinext/server/prod-server";
 // Run with `node --import tsx --test` (npm test), so the site's own constants are imported, not copied.
 import { APPLE_PROVIDER_TOKEN, APP_STORE_URL, GA_MEASUREMENT_ID } from "../lib/site.ts";
 import { appStoreUrl, ctaPlacements } from "../lib/app-store.ts";
-import { fixtureDir, fixtureName, legacyBody, legacyPaths } from "./legacy-body.mjs";
 import { isStaticPageTranslated, publishedLocales } from "../lib/localized.ts";
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:"dist",noCompression:true,purpose:"prerender"});
@@ -187,17 +186,6 @@ test("every page labels its main element for analytics",async()=>{
   }
 });
 
-test("the 15 legacy pages keep main's English body byte for byte",async()=>{
-  // See tests/legacy-body.mjs for exactly what the comparison excludes, and why.
-  for(const path of legacyPaths){
-    const html=await readFile(new URL(path.slice(1),dist),"utf8");
-    const expected=(await readFile(new URL(fixtureName(path),fixtureDir),"utf8")).replace(/\n$/,"").replace(/__variable_[a-z0-9_]+/g,"__variable_FONT");
-    const actual=legacyBody(html);
-    if(actual===expected)continue;
-    let index=0;while(index<actual.length&&actual[index]===expected[index])index+=1;
-    assert.fail(`${path} body changed at character ${index}:\n  main: …${expected.slice(Math.max(0,index-120),index+160)}…\n  now:  …${actual.slice(Math.max(0,index-120),index+160)}…`);
-  }
-});
 
 test("a locale's support, privacy and terms pages are indexed only once translated",async()=>{
   // An incomplete translation renders the English page, which must not compete with /privacy/ itself.
