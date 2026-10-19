@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Français",
     "metaTitle": "KiwiCamping : carte camping en Nouvelle-Zélande, DOC et road trip",
-    "metaDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de freedom camping en Nouvelle-Zélande. Fiches lisibles sans réseau, filtres précis et planificateur de road trip étape par étape pour iPhone.",
+    "metaDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et aires de freedom camping en Nouvelle-Zélande. Fiches consultables sans réseau, filtres précis et planificateur de road trip pour iPhone.",
     "ogTitle": "KiwiCamping : la carte camping et le planificateur de road trip pour la Nouvelle-Zélande",
     "ogDescription": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de camping libre, intégrés à l’app et lisibles sans réseau. Filtrez, gardez vos favoris et préparez tout le voyage.",
     "metaKeywords": "application camping Nouvelle-Zélande, carte camping Nouvelle-Zélande, freedom camping Nouvelle-Zélande, camping gratuit Nouvelle-Zélande, campings DOC, refuges DOC, holiday parks Nouvelle-Zélande, van Nouvelle-Zélande, road trip Nouvelle-Zélande",
@@ -1535,7 +1535,7 @@
           "tips": []
         },
         {
-          "heading": "Réservation, premier arrivé ou pass",
+          "heading": "Sur réservation, premier arrivé premier servi, ou avec un pass",
           "body": [
             "La page de chaque camping précise le système en vigueur, et la plupart des problèmes à l’arrivée viennent d’une confusion entre les trois. Le Campsite Pass est un moyen de paiement, pas une réservation : il ne vous garantit aucune place dans un camping où il faut réserver, et ne vous sert à rien dans un camping sans réservation déjà plein.",
             "Là où la réservation est obligatoire, réservez pour le groupe et le véhicule que vous amenez vraiment. Gardez la confirmation consultable sans réseau, car les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> sont souvent en zone blanche, et une réservation impossible à présenter se défend mal face à un gardien qui répartit les places d’un camping complet."
@@ -2753,7 +2753,7 @@
         {
           "heading": "Immatriculation et road user charges",
           "body": [
-            "L’immatriculation, couramment appelée rego, doit être à jour ; sa vignette est apposée sur le pare-brise. Les véhicules diesel doivent en plus s’acquitter des road user charges (RUC), achetés à l’avance par tranche de mille kilomètres, et rouler au-delà de la distance payée expose à une pénalité.",
+            "L’immatriculation, couramment appelée rego, doit être à jour ; sa vignette est apposée sur le pare-brise. Les véhicules diesel doivent en plus s’acquitter des road user charges (RUC, une taxe kilométrique), achetées à l’avance par tranche de mille kilomètres, et rouler au-delà de la distance payée expose à une pénalité.",
             "En location, demandez si les RUC sont compris dans le tarif journalier ou facturés à part au retour : sur un long voyage en van diesel, la somme n’est pas négligeable et peut tomber comme un supplément imprévu."
           ],
           "tips": []
@@ -2881,7 +2881,7 @@
           ]
         },
         {
-          "heading": "Ces routes où réfléchir à deux fois",
+          "heading": "Des routes à aborder avec prudence",
           "body": [
             "Tākaka Hill, la Crown Range, la Rimutaka Hill Road, la 309 Road et une bonne partie de la côte du Coromandel sont exigeantes avec une caravane, et certaines sont interdites ou fortement déconseillées aux grands attelages. Renseignez-vous avant de vous engager : faire demi-tour y est souvent impossible.",
             "En descente, rétrogradez et utilisez le frein moteur plutôt que de rester sur les freins, qui finissent par perdre de leur efficacité. Rangez-vous régulièrement pour laisser passer ceux qui vous suivent, par courtoisie, mais aussi parce qu’une file derrière vous pousse à des dépassements risqués."
@@ -4547,7 +4547,7 @@
           "heading": "Quand le restaurant vaut la dépense",
           "body": [
             "Dépensez sciemment pour des repas liés au lieu : la langouste à Kaikōura, le whitebait (des alevins, une spécialité locale) en saison sur la côte Ouest (West Coast), les huîtres de Bluff dans le sud, un déjeuner dans un domaine viticole de Hawke’s Bay. Ce sont des plats impossibles à cuisiner dans un van, et dont vous vous souviendrez.",
-            "Les jours de transfert, quand vous arrivez tard, repartez tôt et que le repas sert surtout à reprendre des forces, contentez-vous de <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">courses</a> simples. Ce rythme vous paie les bons repas sans rendre chaque journée coûteuse."
+            "Les jours de transfert, quand vous arrivez tard, repartez tôt et que le repas sert surtout à reprendre des forces, contentez-vous de <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">courses</a> simples. C’est ce qui vous permet de vous offrir les bons repas sans que chaque journée vous coûte cher."
           ],
           "tips": [
             "Dépensez pour la cuisine de la région",
@@ -6103,7 +6103,7 @@
   },
   "consent": {
     "label": "Choix de confidentialité",
-    "text": "KiwiCamping peut-il utiliser les cookies de Google Analytics pour savoir quelles pages aident les voyageurs ? Ils ne servent jamais à la publicité.",
+    "text": "Acceptez-vous que KiwiCamping utilise les cookies de Google Analytics pour savoir quelles pages sont utiles aux voyageurs ? Ils ne servent jamais à la publicité.",
     "accept": "Accepter",
     "decline": "Refuser",
     "policy": "Politique de confidentialité",
