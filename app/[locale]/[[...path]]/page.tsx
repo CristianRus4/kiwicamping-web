@@ -5,6 +5,7 @@ import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticleByLegacyPath, legacyArticles , sitePath} from "@/lib/site";
 import { getTranslation, isArticleTranslated, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
+import { smartBannerContent } from "@/lib/app-store";
 
 export const dynamicParams = false;
 
@@ -75,6 +76,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     },
     twitter:{card:"summary_large_image",title:article?article.title:ui.ogTitle,description:article?article.description:ui.ogDescription,images:[image]},
     robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true,"max-image-preview":"large","max-snippet":-1}},
+    other:{"apple-itunes-app":smartBannerContent(locale)},
   };
 }
 

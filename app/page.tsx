@@ -8,7 +8,9 @@ import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { ScreenshotImage } from "@/components/site-image";
 import { Button } from "@/components/ui/button";
-import { APP_STORE_URL, articles } from "@/lib/site";
+import { articles } from "@/lib/site";
+import { appStoreUrl } from "@/lib/app-store";
+import { mainData } from "@/lib/analytics";
 import { homeSchema, seoLanguageTags } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -56,7 +58,7 @@ export default function Home() {
   const schema = homeSchema(metadata.description!, faqs as [string, string][]);
   return <>
     <Header />
-    <main>
+    <main {...mainData({ kind: "home", locale: "en" })}>
       <section className="hero">
         <div className="hero-glow"/>
         <div className="hero-grid">
@@ -64,7 +66,7 @@ export default function Home() {
             <span className="kicker"><TentTree size={14}/> The best camping app for New Zealand</span>
             <h1>New Zealand is big,<br/><em>your plan</em> can be simple</h1>
             <p>6,500+ places across New Zealand, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
-            <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
+            <div className="hero-actions"><DownloadCard placement="hero"/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
             <div className="hero-proof"><span><strong>6,500+</strong><small>places across New Zealand</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>2,000+</strong><small>places to stay</small></span></div>
           </div>
           <div className="hero-visual">
@@ -122,9 +124,9 @@ export default function Home() {
       <section className="section faq-section"><div><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support/">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
 
       <section className="download-section"><ScreenshotImage className="download-image" src="/images/kiwicamping-feature-6.webp" sizes="(max-width: 700px) 210px, 300px"
-          alt="The KiwiCamping Explore list showing DOC huts and campsites in Southland, Auckland and Wellington with their distance from the map view" /><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>6,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.</p><DownloadCard/></div></section>
+          alt="The KiwiCamping Explore list showing DOC huts and campsites in Southland, Auckland and Wellington with their distance from the map view" /><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>6,500+ New Zealand places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. KiwiCamping for iOS.</p><DownloadCard placement="card"/></div></section>
     </main>
-    <Button asChild className="mobile-cta"><a href={APP_STORE_URL} aria-label="Download KiwiCamping for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
+    <Button asChild className="mobile-cta"><a href={appStoreUrl({ placement: "stick", locale: "en" })} data-cta="stick" aria-label="Download KiwiCamping for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
     <Footer />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </>;

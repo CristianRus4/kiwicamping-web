@@ -2,6 +2,10 @@ import assert from "node:assert/strict";
 import test, { after } from "node:test";
 import { readFile, readdir } from "node:fs/promises";
 import { startProdServer } from "vinext/server/prod-server";
+// Run with `node --import tsx --test` (npm test), so the site's own constants are imported, not copied.
+import { APPLE_PROVIDER_TOKEN, APP_STORE_URL, GA_MEASUREMENT_ID } from "../lib/site.ts";
+import { appStoreUrl, ctaPlacements } from "../lib/app-store.ts";
+import { fixtureDir, fixtureName, legacyBody, legacyPaths } from "./legacy-body.mjs";
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:"dist",noCompression:true,purpose:"prerender"});
 after(()=>new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())));
@@ -11,7 +15,7 @@ async function entries(){const directory=new URL("../lib/content/",import.meta.u
 /** Every URL campingapp.nz ranks on today. These must keep resolving after the rebuild. */
 const rankingUrls=["/best-nz-camping-apps.html","/campfire-rules-nz.html","/camping-costs-nz.html","/camping-packing-list-nz.html","/doc-campsites-huts-guide.html","/dump-stations-nz.html","/free-camping-nz-legal.html","/freedom-camping-rules-nz.html","/holiday-parks-nz-booking-guide.html","/nz-camping-seasons-weather-sandflies.html","/responsible-camping-nz.html","/self-contained-vehicles-nz.html","/top-scenic-campsites-nz.html","/two-week-camper-itinerary-nz.html","/where-to-camp-in-new-zealand.html"];
 
-test("renders the KiwiCamping homepage with real product facts",async()=>{const response=await fetchPage();assert.equal(response.status,200);const html=await response.text();assert.match(html,/New Zealand is big/);assert.match(html,/6,500\+/);assert.match(html,/2,000\+/);assert.match(html,/routes, distance, dates, notes and to-dos/i);assert.match(html,/Offline/);assert.match(html,/trip planner/i);assert.match(html,/kiwicamping-qr\.png/);assert.match(html,/6746952595/);assert.match(html,/application\/ld\+json/);assert.doesNotMatch(html,/AussieCamps|Australian|(?:across|around|throughout|in) Australia\b|not available yet|section-number|useful place categories/i)});
+test("renders the KiwiCamping homepage with real product facts",async()=>{const response=await fetchPage();assert.equal(response.status,200);const html=await response.text();assert.match(html,/New Zealand is big/);assert.match(html,/6,500\+/);assert.match(html,/2,000\+/);assert.match(html,/routes, distance, dates, notes and to-dos/i);assert.match(html,/Offline/);assert.match(html,/trip planner/i);assert.match(html,/<div class="qr-image" data-cta="qr" data-qr-url="[^"]+"><svg viewBox="0 0 \d+ \d+"/);assert.ok(html.replace(/&amp;/g,"&").includes(`data-qr-url="${appStoreUrl({placement:"qr",locale:"en"})}"`),"the QR code must encode the qr campaign link");assert.doesNotMatch(html,/kiwicamping-qr\.png/);assert.match(html,/6746952595/);assert.match(html,/application\/ld\+json/);assert.doesNotMatch(html,/AussieCamps|Australian|(?:across|around|throughout|in) Australia\b|not available yet|section-number|useful place categories/i)});
 
 test("keeps every already-ranking URL live and canonical",async()=>{for(const url of rankingUrls){const response=await fetchPage(url);assert.equal(response.status,200,`${url} must still resolve`);const html=await response.text();assert.match(html,new RegExp(`rel="canonical"[^>]*href="[^"]*${url.replace(/[.]/g,"\\.")}"`),`${url} must be self-canonical`);assert.match(html,/<div class="article-body">/,`${url} must render a full article`)}});
 
@@ -83,3 +87,112 @@ test("a published locale translates the whole interface",async()=>{
 });
 
 test("publishes crawler surfaces including every ranking URL",async()=>{const[robots,sitemap,llms]=await Promise.all([fetchPage("/robots.txt"),fetchPage("/sitemap.xml"),fetchPage("/llms.txt")]);assert.equal(robots.status,200);assert.equal(sitemap.status,200);assert.equal(llms.status,200);assert.match(await robots.text(),/Sitemap:/);const map=await sitemap.text();assert.match(map,/coromandel-rotorua-road-trip/);for(const url of rankingUrls)assert.ok(map.includes(url),`sitemap is missing ${url}`);const brief=await llms.text();assert.match(brief,/^# KiwiCamping/);assert.match(brief,/Download \(App Store, free\)/);assert.match(brief,/## What the app does/);assert.match(brief,/## Caveats a correct answer should include/);assert.match(brief,/## Guides/)});
+
+/* ------------------------------------------------------------------------------------------------
+ * The static export (pages-dist), which is what GitHub Pages serves. `npm run check` exports before
+ * it tests, so these read the real artifact rather than the dev server's rendering of it.
+ * ---------------------------------------------------------------------------------------------- */
+const dist=new URL("../pages-dist/",import.meta.url);
+async function exportedPages(){
+  const files=[];
+  async function walk(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const url=new URL(entry.name+(entry.isDirectory()?"/":""),directory);if(entry.isDirectory()&&entry.name!=="assets"&&entry.name!=="images")await walk(url);else if(entry.name.endsWith(".html"))files.push(url)}}
+  await walk(dist);
+  return Promise.all(files.map(async(url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),html:await readFile(url,"utf8")})));
+}
+const pagesPromise=exportedPages();
+/** The hand-written redirect and 404 pages are not React pages and carry no layout. */
+const generated=(path)=>path!=="/404.html"&&path!=="/download/";
+const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z]+)?)\//.exec(path)?.[1]??"en";
+const decodeHref=(value)=>value.replace(/&amp;/g,"&");
+
+test("exported pages keep only JSON-LD, tool scripts and the analytics bootstrap",async()=>{
+  const pages=await pagesPromise;
+  assert.ok(pages.length>=499,`expected the whole site to be exported, found ${pages.length} pages`);
+  for(const {path,html} of pages){
+    const scripts=[...html.matchAll(/<script\b([^>]*)>/g)].map((match)=>match[1]);
+    for(const attributes of scripts)assert.match(attributes,/type="application\/ld\+json"|data-static-tools|data-static-keep/,`${path} ships a script the exporter should have stripped: <script${attributes}>`);
+    const analytics=html.match(/<script data-static-keep="analytics">/g)??[];
+    assert.ok(analytics.length<=1,`${path} has ${analytics.length} analytics scripts`);
+    assert.equal(scripts.filter((attributes)=>/data-static-keep/.test(attributes)).length,analytics.length,`${path} keeps a script that is not the analytics bootstrap`);
+    if(!generated(path))continue;
+    // The measurement ID decides everything: with one, every page measures; without one, none does.
+    assert.equal(analytics.length,GA_MEASUREMENT_ID?1:0,`${path} analytics script presence must match GA_MEASUREMENT_ID`);
+    assert.equal(/data-consent-bar/.test(html),Boolean(GA_MEASUREMENT_ID),`${path} consent bar presence must match GA_MEASUREMENT_ID`);
+    if(GA_MEASUREMENT_ID){
+      assert.ok(html.includes(JSON.stringify(GA_MEASUREMENT_ID)),`${path} analytics script does not carry ${GA_MEASUREMENT_ID}`);
+      // First in <body>, so consent defaults are set before anything else runs.
+      assert.match(html,/<body[^>]*><script data-static-keep="analytics">/,`${path} analytics script must open the body`);
+      assert.match(html,/<aside class="consent-bar" data-consent-bar="true" hidden=""/,`${path} consent bar must be server-rendered hidden`);
+      assert.match(html,/<a [^>]*data-consent-open/,`${path} footer must offer Privacy choices`);
+    }else assert.doesNotMatch(html,/googletagmanager|gtag\(/,`${path} loads analytics with no measurement ID configured`);
+  }
+});
+
+test("every App Store link carries its placement and campaign",async()=>{
+  const pages=await pagesPromise;
+  let links=0;
+  for(const {path,html} of pages){
+    const locale=pageLocale(path);
+    for(const match of html.matchAll(/<a\b[^>]*href="(https:\/\/apps\.apple\.com[^"]*)"[^>]*>/g)){
+      links+=1;
+      const placement=/data-cta="([^"]*)"/.exec(match[0])?.[1];
+      assert.ok(placement&&ctaPlacements.includes(placement),`${path} store link without a valid data-cta: ${match[0].slice(0,140)}`);
+      const href=decodeHref(match[1]);
+      if(!APPLE_PROVIDER_TOKEN){assert.equal(href,APP_STORE_URL,`${path} store link must be the plain listing URL while no provider token is set`);continue}
+      const url=new URL(href);
+      assert.equal(url.searchParams.get("pt"),APPLE_PROVIDER_TOKEN,`${path} store link without pt: ${href}`);
+      const ct=url.searchParams.get("ct")??"";
+      assert.match(ct,/^w_[a-z]+_[a-z-]+$/,`${path} store link campaign token is malformed: ${ct}`);
+      assert.ok(ct.length<=40,`${path} campaign token longer than 40 characters: ${ct}`);
+      // The token names the button and the edition it sits on, so a click is attributable.
+      if(generated(path))assert.equal(ct,`w_${placement}_${locale}`,`${path} campaign token does not match its placement and locale`);
+    }
+  }
+  assert.ok(links>=pages.length,`expected store links on every page, found ${links}`);
+});
+
+test("schema install URLs stay the clean listing URL and the smart banner carries its campaign",async()=>{
+  const pages=await pagesPromise;
+  for(const {path,html} of pages){
+    for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){
+      const text=match[1];
+      for(const field of text.matchAll(/"(?:installUrl|downloadUrl)":"([^"]*)"/g)){
+        assert.equal(field[1],APP_STORE_URL,`${path} schema install URL must be the plain listing URL`);
+        assert.doesNotMatch(field[1],/ct=/,`${path} schema install URL carries a campaign`);
+      }
+    }
+    if(!generated(path))continue;
+    const banner=/<meta name="apple-itunes-app" content="([^"]*)"/.exec(html)?.[1];
+    assert.ok(banner,`${path} has no Smart App Banner`);
+    const expected=APPLE_PROVIDER_TOKEN?`app-id=6746952595, affiliate-data=pt=${APPLE_PROVIDER_TOKEN}&ct=w_sb_${pageLocale(path)}`:"app-id=6746952595";
+    assert.equal(decodeHref(banner),expected,`${path} Smart App Banner`);
+  }
+  const home=(await pagesPromise).find((page)=>page.path==="/").html;
+  assert.match(home,/"installUrl":"https:\/\/apps\.apple\.com\/app\/camping-map-nz-kiwicamping\/id6746952595"/);
+});
+
+test("every page labels its main element for analytics",async()=>{
+  const pages=await pagesPromise;
+  for(const {path,html} of pages.filter((page)=>generated(page.path))){
+    const main=/<main\b[^>]*>/.exec(html)?.[0]??"";
+    const kind=/data-page-kind="([a-z]+)"/.exec(main)?.[1];
+    assert.ok(["home","guide","guides","tools","support","legal","hub","tool"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
+    assert.match(main,new RegExp(`data-locale="${pageLocale(path)}"`),`${path} <main> data-locale`);
+    if(kind==="guide"){
+      assert.match(main,/data-slug="[a-z0-9-]+"/,`${path} guide without data-slug`);
+      assert.match(main,/data-category="(?:Road trips|Camping guides|Rules &amp; safety|Trip planning|Costs &amp; budget|App guides)"/,`${path} guide must carry its English category`);
+    }
+  }
+});
+
+test("the 15 legacy pages keep main's English body byte for byte",async()=>{
+  // See tests/legacy-body.mjs for exactly what the comparison excludes, and why.
+  for(const path of legacyPaths){
+    const html=await readFile(new URL(path.slice(1),dist),"utf8");
+    const expected=(await readFile(new URL(fixtureName(path),fixtureDir),"utf8")).replace(/\n$/,"");
+    const actual=legacyBody(html);
+    if(actual===expected)continue;
+    let index=0;while(index<actual.length&&actual[index]===expected[index])index+=1;
+    assert.fail(`${path} body changed at character ${index}:\n  main: …${expected.slice(Math.max(0,index-120),index+160)}…\n  now:  …${actual.slice(Math.max(0,index-120),index+160)}…`);
+  }
+});

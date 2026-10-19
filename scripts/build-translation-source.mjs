@@ -15,7 +15,7 @@
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { uiStrings, staticPages } from "../lib/source-strings.ts";
+import { consentStrings, uiStrings, staticPages } from "../lib/source-strings.ts";
 import { translatableArticles } from "../lib/localized.ts";
 
 const forTranslation = (article) => ({
@@ -33,6 +33,7 @@ const forTranslation = (article) => ({
 const source = {
   locale: "en",
   ui: uiStrings,
+  consent: consentStrings,
   pages: staticPages,
   articles: Object.fromEntries(translatableArticles.map((article) => [article.slug, forTranslation(article)])),
 };

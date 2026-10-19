@@ -8,10 +8,11 @@
   "scripts": {
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
-    "build:pages": "npm run build && node scripts/export-github-pages.mjs",
+    "export": "tsx scripts/export-github-pages.mjs",
+    "build:pages": "npm run build && npm run export",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "node --test tests/rendered-html.test.mjs",
-    "check": "npm run content:check && npm run build && npm test && npm run similarity:check && npm run assets:check",
+    "test": "node --import tsx --test tests/rendered-html.test.mjs",
+    "check": "npm run content:check && npm run build && npm run export && npm test && npm run similarity:check && npm run assets:check",
     "content:check": "tsx scripts/audit-content.mjs",
     "images:manifest": "node scripts/build-image-manifest.mjs",
     "images:credits": "node scripts/build-image-credits.mjs",
@@ -19,6 +20,7 @@
     "translations:source": "tsx scripts/build-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",
+    "smoke:live": "tsx scripts/smoke-live.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next"
   },
   "dependencies": {
@@ -26,7 +28,8 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.31.0",
-    "next": "^16.3.0",
+    "next": "16.2.6",
+    "qrcode": "^1.5.4",
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "react-icons": "^5.7.0",
@@ -36,6 +39,7 @@
     "@cloudflare/vite-plugin": "1.37.1",
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "22.19.19",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
@@ -44,11 +48,11 @@
     "eslint-config-next": "16.2.6",
     "react-server-dom-webpack": "19.2.6",
     "tailwindcss": "4.2.1",
+    "tsx": "^4.20.3",
     "typescript": "5.9.3",
     "vinext": "0.0.50",
     "vite": "8.0.13",
-    "wrangler": "4.92.0",
-    "tsx": "^4.20.3"
+    "wrangler": "4.92.0"
   },
   "type": "module"
 }

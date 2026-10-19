@@ -19,13 +19,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: guide and translation dates (scripts/build-article-dates.mjs) come from git.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      # The whole gate, building once: content audit, build, static export (pages-dist), rendered
+      # HTML tests, similarity and asset checks. Any failure stops here, before the upload, so a
+      # broken site is never deployed.
       # No PAGES_BASE_PATH: campingapp.nz is a custom domain, so the site is served from the root.
-      - run: npm run build:pages
+      - run: npm run check
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

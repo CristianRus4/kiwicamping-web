@@ -4,7 +4,7 @@ import fr from "./translations/fr.json";
 import it from "./translations/it.json";
 import nl from "./translations/nl.json";
 import pt from "./translations/pt.json";
-import { staticPages, uiStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
+import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { articles, categories, type Article, type ArticleCategory } from "./site";
 
 export const localeCodes = ["de", "es", "fr", "it", "nl", "pt"] as const;
@@ -35,6 +35,7 @@ type TranslatedArticle = {
 type TranslationFile = {
   locale?: string;
   ui?: Partial<Record<keyof UiStrings, string>>;
+  consent?: Partial<Record<ConsentKey, string>>;
   articles?: Record<string, TranslatedArticle>;
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
@@ -124,6 +125,12 @@ export function translationProgress(locale: LocaleCode) {
 export function getTranslation(locale: LocaleCode): UiStrings {
   const overrides = files[locale].ui ?? {};
   return Object.fromEntries(Object.entries(uiStrings).map(([key, english]) => [key, overrides[key as keyof UiStrings] || english])) as UiStrings;
+}
+
+/** The consent bar strings: each one in the locale when translated, otherwise English. Never gates publishing. */
+export function getConsent(locale: LocaleCode | "en"): ConsentStrings {
+  const overrides = locale === "en" ? {} : files[locale].consent ?? {};
+  return Object.fromEntries(Object.entries(consentStrings).map(([key, english]) => [key, filled(overrides[key as ConsentKey]) ? overrides[key as ConsentKey]! : english])) as ConsentStrings;
 }
 
 export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {

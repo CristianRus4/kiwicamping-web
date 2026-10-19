@@ -10,6 +10,7 @@ import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
 import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/currency";
+import { mainData } from "@/lib/analytics";
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = articles.filter((candidate) => candidate.slug !== item.slug && (candidate.category === item.category || candidate.region === item.region)).slice(0, 3);
@@ -19,7 +20,7 @@ export function GuideArticle({ item }: { item: Article }) {
 
   return <>
     <Header />
-    <main>
+    <main {...mainData({ kind: "guide", locale: "en", slug: item.slug, category: item.category })}>
       <article className="article-page">
         <div className="article-breadcrumb"><Link href="/guides/"><ArrowLeft />Guides</Link><span>{item.category}</span></div>
         <header className="article-header">

@@ -15,8 +15,17 @@ export const SITE_URL = "https://campingapp.nz";
 /** The App Store identifier KiwiCamping is published under. Every store link, the smart app banner,
  * the QR card and the schema install URLs derive from this one constant. */
 export const APP_ID = "6746952595";
-/** The canonical listing URL, so store links never take a redirect hop. */
+/** The canonical listing URL, so store links never take a redirect hop. Kept free of campaign
+ * parameters: the schema install and download URLs use it as is. Visible links go through
+ * `appStoreUrl()` in lib/app-store.ts, which adds the App Store Connect campaign token. */
 export const APP_STORE_URL = `https://apps.apple.com/app/camping-map-nz-kiwicamping/id${APP_ID}`;
+/**
+ * The App Store Connect provider token (`pt`) for campaign links. Empty means store links stay the
+ * plain listing URL with no campaign query string.
+ */
+export const APPLE_PROVIDER_TOKEN = "";
+/** The GA4 measurement ID (G-XXXXXXX). Empty means no analytics script and no consent bar. */
+export const GA_MEASUREMENT_ID = "";
 /**
  * The final URL for a site path.
  *

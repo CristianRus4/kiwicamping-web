@@ -8,7 +8,7 @@ const sourceFiles = (await readdir(resolve(root, "lib/content"))).filter((name) 
 const sources = await Promise.all(sourceFiles.map((name) => readFile(resolve(root, "lib/content", name), "utf8")));
 const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
 
-const core = ["kiwicamping-app-icon.png", "kiwicamping-hero.webp", "kiwicamping-feature-1.webp", "kiwicamping-feature-2.webp", "kiwicamping-feature-3.webp", "kiwicamping-feature-4.webp", "kiwicamping-feature-5.webp", "kiwicamping-feature-6.webp", "kiwicamping-qr.png"];
+const core = ["kiwicamping-app-icon.png", "kiwicamping-hero.webp", "kiwicamping-feature-1.webp", "kiwicamping-feature-2.webp", "kiwicamping-feature-3.webp", "kiwicamping-feature-4.webp", "kiwicamping-feature-5.webp", "kiwicamping-feature-6.webp"];
 
 const missingCore = [];
 for (const name of core) await access(resolve(root, "public/images", name)).catch(() => missingCore.push(`public/images/${name}`));

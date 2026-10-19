@@ -202,9 +202,20 @@ em { color: inherit; font: inherit; font-style: normal; }
 .download-card:not(.download-card-compact) { width: 190px; }
 .download-card:not(.download-card-compact) .qr-image, .download-card:not(.download-card-compact) .store-button { width: 100%; min-width: 100%; }
 .download-copy > .download-card { margin-top: 44px; }
-.qr-image { position: relative; width: 190px; height: 190px; padding: 10px; border-radius: 14px; background: var(--store-button-bg); box-shadow: 0 1px 2px rgba(0,0,0,.03), 0 4px 12px rgba(0,0,0,.06); }
-.qr-image::after { content: ""; position: absolute; inset: 14px; background: var(--store-button-fg); -webkit-mask: var(--qr) center / contain no-repeat; mask: var(--qr) center / contain no-repeat; }
+.qr-image { position: relative; width: 190px; height: 190px; padding: 10px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); box-shadow: 0 1px 2px rgba(0,0,0,.03), 0 4px 12px rgba(0,0,0,.06); }
+.qr-image svg { position: absolute; inset: 14px; width: calc(100% - 28px); height: calc(100% - 28px); }
 .mobile-cta { display: none; }
+
+/* Analytics consent bar (components/consent-bar.tsx). Accept and Decline share one style. */
+.consent-bar { position: fixed; z-index: 200; left: 16px; right: 16px; bottom: 16px; max-width: 760px; margin: 0 auto; padding: 16px 18px; background: var(--paper); color: var(--ink); border: 1px solid var(--line); box-shadow: var(--shadow); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; font-size: 14px; line-height: 1.5; }
+.consent-bar[hidden] { display: none; }
+.consent-bar p { flex: 1 1 320px; margin: 0; }
+.consent-bar a { color: var(--fern); text-decoration: underline; }
+.consent-actions { display: flex; gap: 10px; }
+.consent-actions button { min-width: 112px; height: 42px; padding: 0 18px; border: 1px solid var(--ink); background: transparent; color: var(--ink); font: inherit; font-weight: 700; cursor: pointer; }
+.consent-actions button:hover { background: var(--soft); }
+.consent-actions button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.consent-open .mobile-cta { display: none !important; }
 
 .footer { padding: 68px max(25px, calc((100% - 1240px) / 2)) 30px; background: #10180d; color: #dce3d7; }
 .footer-grid { display: grid; grid-template-columns: 1.8fr repeat(3, 1fr); gap: 50px; }

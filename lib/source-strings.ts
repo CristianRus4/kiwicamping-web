@@ -210,6 +210,24 @@ export const uiStrings = {
   review9Quote: "Six people, two vans, nobody had to ask where we were staying next. Reordering everything when the weather turned was easy which I did not expect.",
 } as const;
 
+/**
+ * The analytics consent bar and its footer link.
+ *
+ * Deliberately not in `uiStrings`: a locale is published only when every `ui` key is translated
+ * (`isTranslated` in lib/localized.ts), so one new `ui` key would unpublish every language at once.
+ * Each `consent` string falls back to English on its own until a locale translates it.
+ */
+export const consentStrings = {
+  label: "Privacy choices",
+  text: "May KiwiCamping use Google Analytics cookies to learn which pages help travellers? They are never used for advertising.",
+  accept: "Accept",
+  decline: "Decline",
+  policy: "Privacy policy",
+  choices: "Privacy choices",
+} as const;
+export type ConsentKey = keyof typeof consentStrings;
+export type ConsentStrings = Record<ConsentKey, string>;
+
 export type UiKey = keyof typeof uiStrings;
 export type UiStrings = Record<UiKey, string>;
 
@@ -253,7 +271,7 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
     ],
   },
   privacy: {
-    effective: "Effective 12 August 2026",
+    effective: "Effective 19 October 2026",
     title: "Privacy policy",
     lede: "KiwiCamping helps you plan a trip without turning your journey into an advertising profile.",
     sections: [
@@ -263,6 +281,12 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
       { heading: "External links and website logs", paragraphs: [
         "Place details can open booking providers, websites, social profiles, phone numbers, email addresses and map apps. Those services receive information according to their own policies when you choose to open them.",
         "Hosting providers may process routine technical logs such as IP address, browser type and requested URL for delivery, reliability and security. KiwiCamping does not use advertising trackers on this website.",
+      ] },
+      { heading: "Website analytics", paragraphs: [
+        "This website uses Google Analytics 4 to count visits and to see which pages lead people to the App Store. Google processes this data on our behalf as a processor. For visitors in the European Economic Area, the United Kingdom and Switzerland the service is provided by Google Ireland Limited, and elsewhere by Google LLC.",
+        "Analytics records the pages you view, your device, browser and screen type, an approximate location derived from your IP address (Google does not store the address itself), the page that sent you here and your clicks on App Store links. It never receives your name, your email address or anything you save in the app.",
+        "When analytics is allowed, Google Analytics sets two first-party cookies: _ga, and a second whose name starts with _ga_. Both expire after 13 months. In the European Economic Area, the United Kingdom and Switzerland these cookies are set only after you choose Accept on the consent bar. Until then, and if you choose Decline, no analytics cookies are stored and Google receives only cookieless signals that carry no identifier. You can change your choice at any time with the Privacy choices link at the foot of every page.",
+        "Google signals and ad personalisation are switched off, so analytics data is not linked to Google accounts and is not used for advertising. Analytics data is kept for 14 months and then deleted. KiwiCamping still uses no advertising trackers on this website.",
       ] },
       { heading: "Retention and control", paragraphs: ["You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted."] },
       { heading: "Children and contact", paragraphs: [

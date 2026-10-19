@@ -7,9 +7,8 @@
 | `kiwicamping-app-icon.png` | Header, favicon and Apple touch icon |
 | `kiwicamping-hero.webp` | Homepage product hero |
 | `kiwicamping-feature-1.webp` to `kiwicamping-feature-6.webp` | Current app feature sections and app-guide articles |
-| `kiwicamping-qr.png` | QR for App Store app ID `6746952595` |
 
-The QR and App Store buttons must remain 190 pixels wide together on desktop. Buttons, screenshots and cards use square corners.
+The App Store QR code is not an image file: `components/qr-code.tsx` draws it at build time as inline SVG from `appStoreUrl({ placement: "qr", locale })`, so it carries the campaign token. The QR and App Store buttons must remain 190 pixels wide together on desktop. Buttons, screenshots and cards use square corners.
 
 ## Article assets
 

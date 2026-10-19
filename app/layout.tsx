@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { APP_ID, SITE_URL } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
+import { smartBannerContent } from "@/lib/app-store";
+import { analyticsEnabled, analyticsScript } from "@/lib/analytics";
 import { localeCodes } from "@/lib/localized";
 import { seoLanguageTags } from "@/lib/seo";
 
@@ -48,7 +50,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },
-  other: { "apple-itunes-app": `app-id=${APP_ID}` },
+  other: { "apple-itunes-app": smartBannerContent("en") },
 };
 
 export const viewport: Viewport = {
@@ -63,6 +65,8 @@ export const viewport: Viewport = {
 // all other scripts). Adds .is-scrolled once the page moves, so the header is invisible at the top.
 const headerScroll = `(function(){var h=document.querySelector(".site-header");if(!h)return;var f=function(){h.classList.toggle("is-scrolled",window.scrollY>8)};f();addEventListener("scroll",f,{passive:true})})();`;
 
+// GA4 and Consent Mode (lib/analytics.ts). First in <body> so the consent defaults are set before
+// anything else can send data; marked data-static-keep so the static export keeps it.
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en-NZ"><body className={sans.variable}>{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  return <html lang="en-NZ"><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }
