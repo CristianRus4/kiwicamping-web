@@ -113,7 +113,7 @@
     "faq1q": "O que é a KiwiCamping?",
     "faq1a": "A KiwiCamping é uma app para iPhone para encontrares sítios onde acampar e dormir em toda a Nova Zelândia. Traz um diretório com mais de 6.500 locais, cujos detalhes continuam legíveis sem rede, e transforma os que guardas numa viagem com percurso ordenado, datas, notas e tarefas.",
     "faq2q": "Que locais estão incluídos?",
-    "faq2a": "Mais de 6.500: áreas de campismo do DOC, refúgios de montanha, holiday parks e outros alojamentos que se podem reservar, zonas de campismo livre, pontos de despejo públicos e áreas de merendas nas duas ilhas.",
+    "faq2a": "Mais de 6.500: parques de campismo do DOC, refúgios de montanha, holiday parks e outros alojamentos que se podem reservar, zonas de campismo livre, pontos de despejo públicos e áreas de merendas nas duas ilhas.",
     "faq3q": "Funciona sem rede?",
     "faq3a": "O diretório de locais vem dentro da app, por isso nomes, categorias, descrições, preços, instalações e condições continuam legíveis muito para lá da última barra de rede. Os serviços em direto, como o tempo, a navegação, o Street View, as fotografias e as páginas dos operadores, continuam a precisar de ligação.",
     "faq4q": "Posso planear uma viagem com várias paragens?",
@@ -175,7 +175,7 @@
     "tankText": "A capacidade em litros só serve quando a traduzes em dias. O depósito de águas cinzentas costuma encher antes de a água limpa acabar, por isso aparecem as duas contas.",
     "campEyebrow": "Comparar preços de campismo",
     "campTitle": "Por pessoa ou por lugar?",
-    "campText": "Uma área de campismo do DOC costuma cobrar por adulto e um holiday park costuma cobrar por lugar. Qual sai mais barato muda com o tamanho do grupo, e é aí que muitas famílias são apanhadas.",
+    "campText": "Um parque de campismo do DOC costuma cobrar por adulto e um holiday park costuma cobrar por lugar. Qual sai mais barato muda com o tamanho do grupo, e é aí que muitas famílias são apanhadas.",
     "amount": "Valor",
     "from": "De",
     "to": "Para",
@@ -930,78 +930,78 @@
       "priceTable": null
     },
     "new-zealand-travel-cost-2026": {
-      "title": "Quanto custa viajar pela Nova Zelândia em 2026?",
-      "description": "Orçamentos diários para um casal de campistas, um mochileiro e uma viagem confortável, com preços neozelandeses datados.",
+      "title": "Custo de uma viagem à Nova Zelândia em 2026: orçamentos por dia",
+      "description": "Quanto gastas por dia na Nova Zelândia: orçamentos para um casal a acampar, um mochileiro e uma viagem confortável, com preços locais e a data de cada um.",
       "region": "Nova Zelândia",
       "imageAlt": "Viajante a calcular o orçamento de uma viagem pela Nova Zelândia",
-      "intro": "O percurso e o ritmo contam mais do que uma média nacional. Mudar de sítio todos os dias aumenta o combustível e a pressão das reservas, enquanto viajar mais devagar facilita cozinhar e aproveitar tarifas semanais.",
+      "intro": "O percurso e o ritmo pesam mais do que qualquer média nacional. Mudar de sítio todos os dias faz subir o combustível e a pressão das reservas; viajar mais devagar torna mais fácil cozinhar e aproveitar tarifas semanais.",
       "sections": [
         {
           "heading": "Parte do teu estilo de viagem",
           "body": [
-            "Um valor diário apertado pressupõe compras no supermercado, alojamento partilhado ou simples e transportes locais com cuidado. Não dá para quarto privado, jantar em restaurante e uma atividade importante todos os dias.",
-            "Para um casal de autocaravana, calcula o veículo uma só vez para o grupo e depois soma combustível, parques e comida. Dividir cada rubrica por pessoa pode esconder os grandes custos fixos."
+            "Um orçamento diário apertado parte do princípio de que compras no supermercado, ficas em alojamento partilhado ou simples e poupas nos transportes locais. Não dá para quarto privado, jantar em restaurante e uma grande atividade todos os dias.",
+            "Para um casal de campervan, conta o veículo uma só vez para o grupo e depois soma combustível, parques e comida. Dividir cada rubrica por pessoa pode esconder os grandes custos fixos."
           ],
           "tips": []
         },
         {
-          "heading": "Local e época",
+          "heading": "Onde e quando",
           "body": [
-            "Queenstown, Aoraki, as praias no verão e as datas com eventos podem ficar muito acima de uma terra comum. As zonas remotas também acrescentam o custo do transporte ao combustível e às compras.",
-            "Calcula diretamente o preço das datas fixas e usa os intervalos nacionais para os dias flexíveis entre elas."
+            "Queenstown, Aoraki, as praias no verão e as datas com eventos podem ficar muito acima de uma terra comum. Nas zonas remotas, o custo do transporte encarece também o combustível e as compras.",
+            "Vê os preços concretos das datas fixas e usa os intervalos nacionais para os dias flexíveis entre elas."
           ],
           "tips": []
         },
         {
-          "heading": "Tem uma reserva utilizável",
+          "heading": "Tem um fundo de reserva",
           "body": [
-            "Guarda dinheiro para uma mudança de ferry, uma noite extra de alojamento, um pneu ou uma necessidade médica. Uma alternativa de parque legal entra no orçamento mesmo quando está previsto campismo livre.",
-            "Revê os gastos reais de poucos em poucos dias. O combustível, a comida take-away e as atividades são as rubricas que mais tendem a derrapar sem dares por isso."
+            "Guarda dinheiro para uma alteração do ferry, uma noite extra de alojamento, um pneu ou uma despesa médica. Mesmo que contes fazer campismo livre (freedom camping), um parque de campismo legal como alternativa tem de entrar no orçamento.",
+            "Revê o que gastaste de poucos em poucos dias. O combustível, a comida take-away e as atividades são as rubricas que mais derrapam sem dares por isso."
           ],
           "tips": []
         },
         {
-          "heading": "Como é realmente um dia apertado",
+          "heading": "Como é, na prática, um dia apertado",
           "body": [
-            "Um dia apertado significa cozinhar quase todas as refeições, misturar locais do DOC gratuitos e baratos e tratar as atividades pagas como ocasionais e não diárias. É perfeitamente possível durante meses, e há milhares de pessoas a fazê-lo, mas exige um veículo preparado para a autossuficiência e tolerância a instalações básicas.",
-            "Onde falha é no pressuposto de que apertado significa grátis. Os duches, a lavandaria, a água, os pontos de despejo e uma ou outra noite com serviços custam alguma coisa, e um orçamento sem uma rubrica para isso vai estar errado no fim da primeira semana."
+            "Um dia apertado significa cozinhar quase todas as refeições, alternar entre parques do DOC (Department of Conservation, o serviço público que gere os parques e as áreas protegidas) gratuitos e baratos e tratar as atividades pagas como exceção e não como rotina. É perfeitamente possível durante meses seguidos, e há milhares de pessoas a fazê-lo, mas exige um veículo preparado para ser autónomo e paciência para instalações básicas.",
+            "O plano falha quando se parte do princípio de que apertado quer dizer gratuito. Duches, lavandaria, água, pontos de despejo e uma ou outra noite num parque com serviços custam sempre alguma coisa, e um orçamento sem uma rubrica para isso estará errado ao fim da primeira semana."
           ],
           "tips": []
         },
         {
-          "heading": "As duas ilhas custam de forma diferente",
+          "heading": "As duas ilhas não custam o mesmo",
           "body": [
-            "A South Island implica geralmente distâncias maiores entre localidades, combustível mais caro fora dos centros principais e mais pressão sobre o alojamento em Queenstown, Wānaka e Aoraki. A North Island concentra mais em viagens mais curtas, o que reduz o combustível mas aumenta o número de atrações pagas à mão de semear.",
-            "Se o orçamento for apertado, uma viagem lenta pela North Island custa normalmente menos por dia do que o percurso equivalente pela South Island. Se o orçamento for fixo e o tempo curto, a South Island recompensa o investimento de forma mais visível."
+            "Na South Island, as distâncias entre localidades são geralmente maiores, o combustível é mais caro fora das cidades principais e a procura de alojamento aperta mais em Queenstown, Wānaka e Aoraki. A North Island concentra mais coisas em trajetos mais curtos, o que reduz o combustível mas aumenta o número de atrações pagas à mão de semear.",
+            "Com o orçamento apertado, uma viagem mais lenta pela North Island costuma custar menos por dia do que o percurso equivalente na South Island. Com o orçamento fechado e pouco tempo, a South Island compensa o gasto de forma mais visível."
           ],
           "tips": []
         },
         {
           "heading": "Custos que só aparecem quando já cá estás",
           "body": [
-            "A travessia do estreito de Cook, a redução de franquia do aluguer, as taxas de devolução noutro local, um cartão SIM ou um plano de roaming e a caução retida no cartão são montantes reais que raramente aparecem num orçamento diário. Juntos, acrescentam habitualmente várias centenas de dólares a quinze dias.",
-            "As atividades são a outra rubrica silenciosa. Um único voo sobre um glaciar, um jet boat ou um cruzeiro em Milford pode equivaler a vários dias de viagem normal, por isso decide antecipadamente quais as duas ou três que valem a pena, em vez de decidires no momento em cada uma."
+            "A travessia do estreito de Cook, a redução da franquia do seguro do aluguer, as taxas de devolução do veículo noutra cidade, um cartão SIM ou um plano de roaming e a caução cativada no cartão são valores reais que raramente entram num orçamento diário. Juntos, acrescentam quase sempre várias centenas de dólares a quinze dias de viagem.",
+            "As atividades são a outra despesa silenciosa. Um único voo sobre um glaciar, um passeio de jet boat ou um cruzeiro em Milford pode custar o mesmo que vários dias de viagem normal, por isso decide de antemão quais são as duas ou três que valem a pena, em vez de decidires na hora, uma a uma."
           ],
           "tips": [
             "Calcula o ferry à parte",
             "A redução de franquia é um custo real",
-            "Escolhe antecipadamente as grandes atividades"
+            "Escolhe as grandes atividades com antecedência"
           ]
         },
         {
           "heading": "Para onde vai realmente o dinheiro",
           "body": [
-            "Na maioria das viagens de campismo a ordem é veículo, combustível, comida, parques e atividades. Os parques são normalmente uma rubrica mais pequena do que as pessoas esperam e o combustível uma maior, e é por isso que escolher um percurso mais lento poupa mais do que escolher sítios mais baratos.",
-            "Essa ordem também te diz onde olhar quando o orçamento derrapa. Passar de um parque de $25 para um de $0 poupa menos do que cortar um desvio de 300 quilómetros, e custa-te um duche."
+            "Na maioria das viagens de campismo, a ordem é veículo, combustível, comida, parques de campismo e atividades. Os parques pesam normalmente menos do que se pensa e o combustível mais, e é por isso que escolher um percurso mais lento poupa mais do que escolher sítios mais baratos.",
+            "Esta ordem diz-te também onde procurar quando o orçamento começa a derrapar. Passar de um parque de 25 NZD para um de 0 NZD poupa menos do que cortar um desvio de 300 quilómetros, e ainda te custa um duche."
           ],
           "tips": []
         },
         {
           "heading": "Pagar enquanto cá estás",
           "body": [
-            "O pagamento contactless com cartão é aceite quase em todo o lado, incluindo pequenos cafés rurais, e o numerário é mesmo raro. Muitos estabelecimentos acrescentam uma sobretaxa por pagamento com cartão, normalmente de um a dois por cento, que aparece na caixa e não no menu.",
-            "As comissões por transações no estrangeiro são o custo silencioso. Um cartão de viagem ou um banco que não as cobre poupa um valor considerável num mês, e tira a tentação de aceitar a conversão dinâmica de moeda no terminal, que tem sempre uma taxa pior.",
-            "Leva algum numerário para as caixas de pagamento por confiança dos parques do DOC, as bancas de fruta à beira da estrada e uma ou outra loja rural com ligação pouco fiável. Cinquenta dólares em notas cobrem quase tudo aquilo para que ainda é preciso numerário."
+            "O pagamento contactless é aceite quase em todo o lado, incluindo pequenos cafés no campo, e o dinheiro vivo é mesmo raro. Muitos estabelecimentos acrescentam uma sobretaxa de cartão, normalmente de um a dois por cento, que aparece na caixa e não na ementa.",
+            "As comissões por pagamentos em moeda estrangeira são o custo escondido. Um cartão de viagem ou um banco que não as cobre poupa um valor considerável num mês e tira-te a tentação de aceitar a conversão dinâmica de moeda no terminal, que tem sempre uma taxa pior.",
+            "Leva algum dinheiro para as caixas de pagamento por confiança (honesty box) dos parques do DOC, para as bancas de fruta e legumes à beira da estrada e para uma ou outra loja rural com ligação pouco fiável. Cinquenta dólares em notas chegam para quase tudo o que ainda se paga em dinheiro."
           ],
           "tips": []
         }
@@ -1009,38 +1009,38 @@
       "faq": [
         [
           "Quanto custa uma viagem à Nova Zelândia em 2026?",
-          "Divide-se claramente em transporte, alojamento e comida, e a escolha do veículo pesa mais no total do que qualquer outra coisa. Este guia apresenta referências datadas em dólares neozelandeses para cada rubrica e converte-as em dez moedas."
+          "O custo divide-se bem em transporte, alojamento e comida, e a escolha do veículo pesa no total mais do que qualquer outra coisa. Este guia dá valores de referência em dólares neozelandeses, com data, para cada uma destas rubricas e converte-os para dez moedas."
         ],
         [
           "É caro viajar pela Nova Zelândia?",
-          "Para os padrões internacionais, sim, sobretudo na comida, no alojamento e nos transportes internos. O campismo é a única categoria em que continua barato, e é por isso que a diferença entre uma viagem de campismo e uma de hotel aqui é invulgarmente grande."
+          "Para os padrões internacionais, sim, sobretudo na comida, no alojamento e nos transportes internos. O campismo é a única categoria em que continua barato, e é por isso que a diferença entre uma viagem a acampar e uma viagem de hotel é aqui invulgarmente grande."
         ]
       ],
       "sources": [
         {
-          "label": "Preços da Numbeo na Nova Zelândia, atualizados em junho de 2026"
+          "label": "Numbeo: preços na Nova Zelândia, atualizados em junho de 2026"
         },
         {
-          "label": "IPC de junho de 2026 da Stats NZ"
+          "label": "Stats NZ: índice de preços no consumidor (CPI) de junho de 2026"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of New Zealand"
+          "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Cenários de planeamento para um viajante. Ficam de fora o aluguer do veículo, os transportes de longa distância e os voos internacionais, porque as datas e o tamanho do grupo os fazem variar muito.",
+        "note": "Cenários de planeamento para um viajante. O aluguer do veículo, os transportes de longa distância e os voos internacionais ficam de fora, porque as datas e o tamanho do grupo os fazem variar muito.",
         "rows": [
           {
             "label": "Campista ou mochileiro com orçamento apertado",
-            "unit": "por pessoa e por dia"
+            "unit": "por pessoa, por dia"
           },
           {
-            "label": "Viagem independente confortável",
-            "unit": "por pessoa e por dia"
+            "label": "Viagem independente com conforto",
+            "unit": "por pessoa, por dia"
           },
           {
             "label": "Quartos privados e atividades pagas",
-            "unit": "por pessoa e por dia"
+            "unit": "por pessoa, por dia"
           }
         ]
       }
@@ -1292,57 +1292,57 @@
       }
     },
     "doc-huts-new-zealand-guide": {
-      "title": "Refúgios do DOC na Nova Zelândia: como funciona a rede de refúgios",
-      "description": "Os refúgios com serviços, padrão, básicos e dos Great Walks têm instalações, tarifas e regras de reserva diferentes.",
+      "title": "Refúgios do DOC (huts) na Nova Zelândia: como funciona o sistema",
+      "description": "Refúgios Great Walk, Serviced, Standard e Basic: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva diferentes.",
       "region": "Natureza remota da Nova Zelândia",
-      "imageAlt": "Refúgio de montanha nas montanhas da Nova Zelândia",
-      "intro": "Um refúgio é um abrigo partilhado em plena natureza, não um alojamento escondido no mato. Há cerca de 950 espalhados pelos terrenos públicos de conservação, e vão desde um edifício com serviços, aquecimento e colchões até um barracão de dois beliches com chão de terra. Saber para que categoria estás a caminhar decide o que levas na mochila.",
+      "imageAlt": "Refúgio isolado nas montanhas da Nova Zelândia",
+      "intro": "Um refúgio (hut) é um abrigo partilhado em zonas remotas, não um alojamento escondido no mato. Há cerca de 950 espalhados pelas áreas públicas de conservação, desde edifícios com serviços, aquecimento e colchões até barracões de dois beliches com chão de terra. A categoria do refúgio para onde vais decide o que tens de levar.",
       "sections": [
         {
-          "heading": "As quatro categorias de refúgio",
+          "heading": "As quatro categorias de refúgios",
           "body": [
-            "Os refúgios com serviços são os mais equipados: beliches com colchão, abastecimento de água, casas de banho e, normalmente, aquecimento com combustível fornecido. Os padrão deixam de lado o combustível para aquecimento e por vezes os colchões, mas mantêm beliches, água e casa de banho. Os básicos são um abrigo e pouco mais, e podem não ter qualquer fonte de água.",
-            "Os refúgios dos Great Walks ficam fora desta escala. Durante a época de caminhada têm serviços de alto nível, custam bastante mais e funcionam com um sistema de reservas próprio, ligado a cada trilho. Fora da época costumam descer de categoria e de preço, com instalações reduzidas ou retiradas."
+            "Os refúgios Serviced (com serviços) são os mais equipados: beliches com colchão, água, WC e, normalmente, aquecimento com combustível incluído. Os Standard (padrão) dispensam o combustível para o aquecimento e às vezes os colchões, mas mantêm beliches, água e WC. Os Basic (básicos) são um abrigo e pouco mais, e podem nem ter fonte de água.",
+            "Os refúgios Great Walk ficam fora desta escala. Estão nos Great Walks, os grandes percursos pedestres de referência do país, e na época das caminhadas têm serviços de alto nível, custam bastante mais e funcionam com um sistema de reservas próprio, associado a cada trilho. Fora de época costumam baixar de nível e de preço, com instalações reduzidas ou mesmo retiradas."
           ],
           "tips": [
-            "A categoria antecipa instalações e tarifa",
-            "Os refúgios dos Great Walks reservam-se à parte",
-            "Os refúgios básicos podem não ter água"
+            "A categoria diz o que há e quanto custa",
+            "Refúgios Great Walk reservam-se à parte",
+            "Refúgios Basic podem não ter água"
           ]
         },
         {
-          "heading": "As instalações nunca substituem o que levas",
+          "heading": "O refúgio não substitui o que levas",
           "body": [
-            "Ter um teto não te dispensa de levar saco-cama, colchão isolante, fogareiro, combustível, comida, lanterna frontal e roupa quente. Os refúgios não têm pessoal nem guardam mantimentos, e um refúgio com serviços e salamandra continua frio se o grupo anterior gastou a última lenha.",
-            "Prepara a mochila a pensar na caminhada e no tempo, não na descrição do refúgio. As condições alpinas da Nova Zelândia mudam depressa, e o grupo que chega encharcado e sem uma camada quente de reserva está em apuros, seja o que for que o edifício ofereça."
+            "Ter um teto não te dispensa de levar saco-cama, colchão isolante, fogareiro, combustível, comida, lanterna frontal e roupa quente. Os refúgios não têm pessoal nem guardam mantimentos, e mesmo um refúgio Serviced com salamandra fica frio se o grupo anterior gastou a última lenha.",
+            "Prepara a mochila a pensar na caminhada e no tempo, não na descrição do refúgio. Na montanha neozelandesa as condições mudam depressa, e um grupo que chega encharcado e sem roupa quente de reserva está em apuros, tenha o edifício o que tiver."
           ],
           "tips": []
         },
         {
-          "heading": "Senhas, passes e reservas de refúgio",
+          "heading": "Hut tickets, passes e reservas",
           "body": [
-            "Os refúgios sem reserva funcionam geralmente com hut tickets comprados antecipadamente ou com um Backcountry Hut Pass, que cobre um período e não uma noite. Os reserváveis exigem uma reserva nominal para a data certa, e os dos Great Walks esgotam com meses de antecedência para a época de verão.",
-            "O erro habitual é tratar um passe como uma reserva. Um Backcountry Hut Pass paga a tua entrada nos refúgios que aceitam senhas, mas não reserva nada e não vale nos refúgios dos Great Walks nem noutros reserváveis. Confirma que sistema usa o refúgio em concreto antes de partir."
+            "Os refúgios sem reserva funcionam em geral com hut tickets (senhas compradas antecipadamente) ou com o Backcountry Hut Pass, um passe que cobre um período e não uma noite. Os refúgios com reserva exigem uma reserva nominal para a data certa, e os Great Walk esgotam com meses de antecedência para a época de verão.",
+            "O erro mais comum é confundir passe com reserva. O Backcountry Hut Pass paga a tua estadia nos refúgios que aceitam hut tickets, mas não reserva nada e não vale nos refúgios Great Walk nem nos outros refúgios com reserva. Antes de partir, confirma que sistema usa o refúgio para onde vais."
           ],
           "tips": [
             "Um passe não é uma reserva",
-            "Compra as senhas antes do trilho",
-            "Os refúgios dos Great Walks esgotam com meses de antecedência"
+            "Compra os hut tickets antes do trilho",
+            "Refúgios Great Walk esgotam meses antes"
           ]
         },
         {
-          "heading": "Ninguém é mandado embora",
+          "heading": "Ninguém fica à porta",
           "body": [
-            "Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição de longa data é que um refúgio cheio significa dormir no chão, não dar com a porta fechada. Não continues a caminhar noite dentro por os beliches estarem ocupados, nem esperes que te guardem um por teres reservado outro refúgio.",
-            "Leva colchão isolante e o necessário para dormir no chão e, se o tempo o permitir e for autorizado acampar, uma tenda dá-te uma verdadeira alternativa. Nos trilhos populares em janeiro, conta que o refúgio vai estar cheio e planeia em conformidade."
+            "Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição, de longa data, é que um refúgio cheio quer dizer dormir no chão, não dar com a porta fechada. Não continues a andar pela noite dentro só porque os beliches estão ocupados, nem esperes que te guardem um por teres reserva noutro refúgio.",
+            "Leva colchão isolante e o necessário para dormir no chão. Se o tempo deixar e o local permitir acampar, uma tenda é uma alternativa a sério. Nos trilhos mais procurados em janeiro, parte do princípio de que o refúgio vai estar cheio e planeia em função disso."
           ],
           "tips": []
         },
         {
           "heading": "Água, cozinha e fogo",
           "body": [
-            "Trata a água do refúgio, a não ser que a informação atual do DOC sobre esse refúgio diga que é potável. A água recolhida do telhado pode estar contaminada, e a giárdia existe nas águas da natureza neozelandesa. Fervê-la, filtrá-la ou tratá-la quimicamente funciona; partir do princípio de que está boa é o que causa problemas.",
-            "Cozinha no teu próprio fogareiro, lá fora ou na zona indicada, e nunca dentro de uma tenda. Onde houver salamandra, usa-a com moderação e repõe a lenha miúda para quem chegar a seguir com pior tempo do que tu."
+            "Trata a água do refúgio, a não ser que a informação atualizada do DOC (Department of Conservation, o serviço público que gere as áreas protegidas) para esse refúgio diga que é potável. A água recolhida do telhado pode estar contaminada, e há giárdia nos rios e ribeiros das zonas remotas da Nova Zelândia. Ferver, filtrar ou tratar com químicos, tudo funciona; o que dá problemas é partir do princípio de que a água está boa.",
+            "Cozinha no teu fogareiro, cá fora ou na zona indicada, e nunca dentro de uma tenda. Onde houver salamandra, usa-a com moderação e repõe a lenha miúda para quem chegar a seguir, talvez com pior tempo do que o teu."
           ],
           "tips": [
             "Trata a água, salvo indicação em contrário",
@@ -1353,40 +1353,40 @@
         {
           "heading": "Regras de convivência no refúgio",
           "body": [
-            "Botas fora lá dentro. Mantém as tuas coisas arrumadas no beliche em vez de as espalhares pela mesa e pelos bancos. Faz silêncio cedo e mexe-te sem barulho de manhã, porque os caminheiros saem antes do amanhecer e o grupo inteiro dorme numa só sala depois de um dia duro.",
-            "Preenche o livro do refúgio, sempre, com a data e os teus planos. É uma cortesia, mas acima de tudo é a primeira coisa que as equipas de busca e salvamento leem quando alguém está atrasado, e um registo rigoroso já encurtou muitas buscas."
+            "Lá dentro, tira as botas. Mantém as tuas coisas juntas no beliche em vez de as espalhares pela mesa e pelos bancos. À noite, faz silêncio cedo e, de manhã, mexe-te sem barulho: há quem comece a caminhar antes do amanhecer, e o grupo todo dorme na mesma sala depois de um dia duro.",
+            "Preenche o livro do refúgio (hut book), sempre, com a data e os teus planos. É uma cortesia, mas sobretudo é a primeira coisa que as equipas de busca e salvamento leem quando alguém não regressa a horas, e um registo rigoroso já encurtou muitas buscas."
           ],
           "tips": []
         },
         {
           "heading": "Ao sair do refúgio",
           "body": [
-            "Varre o chão, fecha bem as portadas e as portas e leva tudo o que trouxeste, incluindo restos de comida. O lixo deixado num refúgio atrai roedores e não há recolha; o que deixares fica lá até outro caminheiro o levar.",
-            "Depois da viagem, comunica ao DOC danos, um fogão avariado, um abastecimento de água que falhou ou qualquer perigo. Os refúgios são mantidos com base no que é comunicado, e uma mensagem de cinco minutos pode evitar que o próximo grupo chegue a um edifício que não funciona."
+            "Varre o chão, fecha bem as portadas e as portas e leva contigo tudo o que trouxeste, incluindo restos de comida. O lixo deixado num refúgio atrai roedores e não há recolha: o que deixares fica lá até outro caminheiro o levar.",
+            "Depois da viagem, comunica ao DOC estragos, um fogão avariado, falta de água ou qualquer perigo. A manutenção dos refúgios depende do que é comunicado, e uma mensagem de cinco minutos pode evitar que o grupo seguinte encontre um edifício que não funciona."
           ],
           "tips": [
-            "Leva todo o lixo e restos",
+            "Leva contigo o lixo e os restos",
             "Fecha portadas e portas",
-            "Comunica os danos ao DOC depois"
+            "No regresso, comunica estragos ao DOC"
           ]
         }
       ],
       "faq": [
         [
           "É preciso reservar um refúgio do DOC?",
-          "Depende da categoria. Os refúgios dos Great Walks e os refúgios com serviços nos trilhos populares reservam-se e pagam-se antecipadamente, muitas vezes com meses de antecedência no verão. Os padrão e os básicos funcionam geralmente com hut tickets ou com um Backcountry Hut Pass, sem reserva, e nunca tens um beliche garantido."
+          "Depende da categoria. Os refúgios Great Walk e os Serviced nos trilhos mais procurados reservam-se e pagam-se antecipadamente, muitas vezes com meses de antecedência no verão. Os Standard e os Basic funcionam em geral com hut tickets ou com o Backcountry Hut Pass, sem reserva, e nunca tens beliche garantido."
         ],
         [
-          "O que existe realmente num refúgio de montanha?",
-          "Normalmente beliches com colchão, algum tipo de abastecimento de água e uma casa de banho. Cozinha, aquecimento e iluminação variam com a categoria e muitos refúgios não têm nada disso, por isso leva fogareiro, combustível e lanterna, diga a ficha o que disser."
+          "O que há, de facto, num refúgio de montanha?",
+          "Normalmente, beliches com colchão, algum tipo de abastecimento de água e WC. O equipamento para cozinhar, o aquecimento e a iluminação variam com a categoria e muitos refúgios não têm nada disso, por isso leva fogareiro, combustível e lanterna, diga a descrição o que disser."
         ]
       ],
       "sources": [
         {
-          "label": "Categorias de refúgios do DOC"
+          "label": "DOC: categorias de refúgios"
         },
         {
-          "label": "Alertas e encerramentos do DOC"
+          "label": "DOC: alertas e encerramentos"
         }
       ],
       "priceTable": null
@@ -1495,111 +1495,111 @@
       "priceTable": null
     },
     "doc-campsite-rules": {
-      "title": "Regras dos parques de campismo do DOC que todos os campistas devem conhecer",
-      "description": "As reservas, as horas de silêncio, o lixo, os animais de estimação e as condições de cada sítio marcam uma estadia em terrenos de conservação.",
+      "title": "Regras dos parques de campismo do DOC na Nova Zelândia",
+      "description": "Reservas, horas de silêncio, lixo, animais e regras locais: o que conta para acampar num parque de campismo do DOC, em terrenos de conservação da Nova Zelândia.",
       "region": "Parques de campismo do DOC",
-      "imageAlt": "Painel informativo de um parque de campismo do Department of Conservation",
-      "intro": "Uma reserva do DOC implica aceitar as condições nacionais e as regras locais desse sítio. A página de cada parque continua a ser indispensável, porque o acesso, o fogo, a água, os cães e as condições para veículos variam imenso.",
+      "imageAlt": "Painel informativo num parque de campismo do Department of Conservation",
+      "intro": "Ao reservar com o DOC (Department of Conservation, o serviço público que gere os parques e as áreas protegidas), aceitas as condições gerais, válidas em todo o país, e as regras locais desse sítio. A página de cada parque continua a ser indispensável, porque o acesso, o fogo, a água, os cães e as condições para veículos variam muito de um sítio para outro.",
       "sections": [
         {
-          "heading": "Usa a reserva com honestidade",
+          "heading": "Reserva com honestidade",
           "body": [
-            "Reserva a data, o grupo e a modalidade certos e tem a confirmação disponível offline. Onde os lugares não são atribuídos individualmente, escolhe apenas entre os que estiverem livres quando chegares.",
-            "Segundo as condições do DOC, as reservas de vários dias que não forem usadas podem ser canceladas depois da primeira noite em que não apareceres. Não guardes lugar com uma tenda vazia se ninguém tenciona ficar."
+            "Faz a reserva com a data, o grupo e a opção certos e guarda a confirmação num sítio onde a consigas abrir sem rede. Onde os lugares não são atribuídos um a um, escolhe apenas entre os da zona que estiver disponível quando chegares.",
+            "Pelas condições do DOC, uma reserva de várias noites que não está a ser usada pode ser cancelada a partir da primeira noite em que não apareces. Não guardes lugar com uma tenda vazia se ninguém vai lá dormir."
           ],
           "tips": []
         },
         {
-          "heading": "Respeita os horários comuns",
+          "heading": "Respeita os horários do parque",
           "body": [
-            "As condições gerais do DOC fixam horas de silêncio das 22h00 às 7h00, salvo regras locais diferentes, e a saída costuma ser até às 10h00. Mantém geradores, música e circulação de veículos dentro dos limites do sítio.",
-            "Reservar um parque de campismo não dá direito a usar as instalações dos refúgios próximos. Usa só as casas de banho, abrigos e pontos de água incluídos no que reservaste."
+            "As condições gerais do DOC impõem silêncio entre as 22h e as 7h, salvo regras locais diferentes, e a saída faz-se normalmente até às 10h. Mantém geradores, música e circulação de veículos dentro do que o parque permite.",
+            "Reservar um lugar num parque de campismo não dá direito a usar as instalações dos refúgios que fiquem perto. Usa só as casas de banho, os abrigos e os pontos de água incluídos naquilo que reservaste."
           ],
           "tips": []
         },
         {
-          "heading": "Deixa o sítio pronto",
+          "heading": "Deixa o lugar pronto para o próximo",
           "body": [
-            "Leva todo o lixo, guarda bem a comida e nunca despejes águas cinzentas no chão. Não é permitido fumar nem vaporizar nos refúgios nem nos blocos sanitários.",
-            "Os animais de estimação e os drones precisam de autorização expressa. Consulta a página do parque em concreto em vez de tomares um sítio sossegado como uma autorização implícita."
+            "Leva o lixo todo contigo, guarda bem a comida e nunca despejes águas cinzentas no chão. Não é permitido fumar nem usar cigarros eletrónicos nos refúgios nem nos sanitários.",
+            "Animais de estimação e drones precisam de autorização expressa. Confirma na página do parque em causa, em vez de tomares o sossego do sítio como autorização tácita."
           ],
           "tips": []
         },
         {
           "heading": "Com reserva, por ordem de chegada ou com passe",
           "body": [
-            "A página de cada parque indica que sistema se aplica, e confundi-los causa a maioria dos problemas à chegada. Um Campsite Pass é uma forma de pagamento, não uma reserva: não te guarda lugar num parque que exige reserva e não serve de nada num parque por ordem de chegada que já está cheio.",
-            "Onde for preciso reservar, reserva para o grupo e o veículo que vais mesmo levar. Tem a confirmação offline, porque nos parques do DOC muitas vezes não há rede e uma reserva que não consegues mostrar é difícil de defender perante um guarda a distribuir lugares num parque cheio."
+            "A página de cada parque indica que sistema se aplica, e é a confusão entre eles que causa a maioria dos problemas à chegada. Um Campsite Pass é uma forma de pagar, não uma reserva: não te guarda lugar num parque que exige reserva e de nada serve num parque por ordem de chegada que já esteja cheio.",
+            "Onde for obrigatório reservar, reserva para o grupo e o veículo que vais mesmo levar. Leva a confirmação guardada no telemóvel, porque nos parques do DOC muitas vezes não há rede, e uma reserva que não consegues mostrar é difícil de defender perante um guarda que está a distribuir lugares num parque cheio."
           ],
           "tips": [
             "Um passe não é uma reserva",
-            "Tem as confirmações offline",
+            "Guarda as confirmações para ver sem rede",
             "Reserva para o veículo e o grupo reais"
           ]
         },
         {
-          "heading": "A água muitas vezes não é tratada",
+          "heading": "Muitas vezes a água não é tratada",
           "body": [
-            "Muitos locais do DOC tiram a água de ribeiros ou de depósitos do telhado e não a tratam. A giárdia existe nas águas da Nova Zelândia, e um ribeiro cristalino não te diz nada sobre ela. Ferve-a pelo menos um minuto, filtra-a ou trata-a quimicamente, e não partas do princípio de que uma torneira é segura só porque existe.",
-            "Leva água potável suficiente para seres autónomo durante um dia. Os depósitos esvaziam, surgem avisos para ferver a água e um parque listado com água pode ter o abastecimento avariado sem aviso."
+            "Muitos parques do DOC tiram a água de ribeiros ou de depósitos de água da chuva, sem qualquer tratamento. A giárdia existe nas águas da Nova Zelândia e um ribeiro cristalino não te diz nada sobre ela. Ferve a água durante pelo menos um minuto, filtra-a ou trata-a com produtos químicos, e não partas do princípio de que uma torneira é segura só por estar ali.",
+            "Leva água potável que chegue para te aguentares um dia sem abastecimento. Os depósitos secam, aparecem avisos para ferver a água e um parque que surge listado com água pode ter o abastecimento avariado sem aviso prévio."
           ],
           "tips": []
         },
         {
           "heading": "Geradores, drones e cães",
           "body": [
-            "O uso de geradores é restrito ou proibido em muitos locais e, onde é permitido, costuma estar limitado a certas horas. Na maioria dos casos, voar um drone em terrenos públicos de conservação exige uma concessão, e fazê-lo sobre um parque de campismo sem autorização é ilegal e, além disso, muito mal visto.",
-            "Os cães são proibidos na maior parte dos terrenos públicos de conservação, pelo risco que representam para as aves que fazem ninho no chão e para o kiwi. Alguns parques aceitam-nos; a maioria não, e nalgumas zonas é preciso uma autorização. Consulta o sítio em concreto em vez de presumir."
+            "O uso de geradores é restrito ou proibido em muitos parques e, onde é permitido, costuma estar limitado a certas horas. Na maioria dos casos, voar com um drone em terrenos públicos de conservação exige uma concessão, e fazê-lo por cima de um parque de campismo sem autorização é ilegal e cai muito mal.",
+            "Os cães são proibidos na maior parte dos terrenos públicos de conservação, pelo risco que representam para as aves que fazem ninho no chão e para o kiwi. Alguns parques aceitam-nos, a maioria não, e nalgumas zonas é preciso uma autorização. Confirma as regras do parque em causa em vez de presumires."
           ],
           "tips": [
-            "Os drones precisam de concessão em terrenos do DOC",
-            "Cães proibidos na maioria dos locais do DOC",
-            "Os geradores são restritos ou proibidos"
+            "Drones só com concessão em terreno do DOC",
+            "Cães proibidos na maioria dos parques do DOC",
+            "Geradores restritos ou proibidos"
           ]
         },
         {
-          "heading": "Estadia máxima e comportamento no parque",
+          "heading": "Estadia máxima e regras de convivência",
           "body": [
-            "A maioria dos parques do DOC tem uma estadia máxima, normalmente de poucas noites seguidas, para evitar ocupações prolongadas. Os guardas fazem-na cumprir nos parques mais procurados durante o verão, e mudar o veículo uns metros não põe a contagem a zero.",
-            "Fica dentro do lugar marcado, não o alargues com toldos ou equipamento quando o espaço é apertado e respeita as horas de silêncio. Estes parques são partilhados, estão muitas vezes cheios e o bem-estar de todos depende de cada um ficar no seu espaço."
+            "A maioria dos parques de campismo do DOC tem uma estadia máxima, normalmente de poucas noites seguidas, para evitar ocupações prolongadas. Os guardas fazem-na mesmo cumprir nos parques mais procurados no verão, e mudar o veículo uns metros não põe a contagem a zero.",
+            "Fica dentro do lugar marcado, não te estendas para fora dele com toldos ou equipamento quando há pouco espaço e respeita as horas de silêncio. Estes parques são partilhados e estão muitas vezes cheios, e o bem-estar de todos depende de cada um ficar no seu espaço."
           ],
           "tips": []
         },
         {
-          "heading": "Chegar e instalar-se",
+          "heading": "Chegar e montar acampamento",
           "body": [
-            "Chega de dia sempre que puderes. Escolher o lugar, avaliar o escoamento da água, reparar em ramos por cima e nivelar o veículo é bastante mais difícil às escuras, e um sítio que às quatro da tarde seria claramente errado é fácil de aceitar às nove da noite, quando estás cansado.",
-            "Paga à chegada onde houver caixa de pagamento por confiança ou autorregisto, em vez de deixares para depois. Os guardas verificam mesmo, a tarifa é pequena e o sistema só funciona porque a maioria paga sem ninguém pedir.",
-            "Monta tudo dentro do lugar marcado e deixa espaço para quem chegar depois. Num parque concorrido no verão, espalhar o equipamento por dois lugares faz a diferença entre caberem todos e ter de se mandar gente embora."
+            "Chega de dia sempre que puderes. Escolher o lugar, ver por onde escorre a água, reparar nos ramos por cima e nivelar o veículo é tudo bem mais difícil às escuras, e um sítio que às 16h seria claramente mau é fácil de aceitar às 21h, quando estás cansado.",
+            "Paga logo à chegada onde houver caixa de pagamento por confiança (honesty box) ou autorregisto, em vez de contares tratar disso mais tarde. Os guardas verificam mesmo, a taxa é baixa e o sistema só funciona porque a maioria das pessoas paga sem ninguém pedir.",
+            "Monta tudo dentro do lugar marcado e deixa espaço para quem chegar depois. Num parque cheio no verão, espalhar o equipamento por dois lugares é a diferença entre caberem todos e haver quem tenha de ir embora."
           ],
           "tips": []
         },
         {
           "heading": "Se o parque estiver cheio",
           "body": [
-            "Os parques mais procurados do DOC enchem a meio da tarde no verão e não há zona extra. Improvisar um lugar a mais na relva, no caminho de acesso ou junto aos sanitários não é opção, e os guardas vão mandar-te sair.",
-            "Encontra uma alternativa legal antes de chegares, não depois. Um holiday park a meia hora é um desfecho muito melhor do que conduzir à noite por uma estrada desconhecida à procura de qualquer sítio que te aceite."
+            "Os parques do DOC mais procurados enchem até meio da tarde no verão e não há zona extra. Improvisar um lugar a mais na relva, no caminho de acesso ou ao lado dos sanitários não é opção, e os guardas mandam-te seguir.",
+            "Define uma alternativa legal antes de chegares, não depois. Um holiday park (parque de campismo privado, com bungalows e mais serviços) a meia hora de distância é uma solução muito melhor do que conduzir até tarde por uma estrada que não conheces à procura de qualquer sítio que te aceite."
           ],
           "tips": [
-            "Os parques mais procurados enchem a meio da tarde",
+            "Os mais procurados enchem a meio da tarde",
             "Não há zona extra",
-            "Tem a alternativa definida antes de chegar"
+            "Tem um plano B antes de chegar"
           ]
         }
       ],
       "faq": [
         [
-          "Que regras há num parque de campismo do DOC?",
-          "Paga a tarifa por cada adulto, acampa só nos lugares marcados, leva todo o lixo, usa as casas de banho disponíveis e faz pouco barulho depois de anoitecer. Fogo, cães e geradores são restritos ou proibidos consoante o local, e os avisos no próprio sítio prevalecem sobre tudo o que tenhas lido antes."
+          "Quais são as regras de um parque de campismo do DOC?",
+          "Paga a taxa por cada adulto, acampa só nos lugares marcados, leva o lixo todo contigo, usa as casas de banho do parque e faz pouco barulho depois de escurecer. Fogueiras, cães e geradores são restritos ou proibidos consoante o parque, e os avisos no local prevalecem sobre tudo o que tenhas lido antes."
         ],
         [
-          "Pode ficar-se mais de uma noite num parque do DOC?",
-          "Normalmente sim, embora nos locais mais procurados haja uma estadia máxima indicada à entrada. Onde um parque está muito reservado no verão, o limite é aplicado."
+          "Posso ficar mais de uma noite num parque de campismo do DOC?",
+          "Normalmente sim, embora nos parques mais procurados haja uma estadia máxima, indicada à entrada. Nos parques com muitas reservas no verão, esse limite é mesmo fiscalizado."
         ]
       ],
       "sources": [
         {
-          "label": "Condições de reserva de alojamento do DOC"
+          "label": "DOC: condições de reserva de alojamento"
         }
       ],
       "priceTable": null
@@ -1825,41 +1825,41 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Biossegurança na Nova Zelândia para equipamento de campismo e caminhada",
-      "description": "Declara os artigos de risco na fronteira e limpa o equipamento antes de o levares de um curso de água ou floresta para outro.",
+      "title": "Biossegurança na Nova Zelândia: equipamento de campismo e caminhada",
+      "description": "Na Nova Zelândia, declara os artigos de risco na fronteira e limpa o equipamento de campismo antes de o levares de um rio, lago ou floresta para outro.",
       "region": "Fronteira e natureza da Nova Zelândia",
-      "imageAlt": "Botas de caminhada limpas, preparadas para a biossegurança da Nova Zelândia",
-      "intro": "O equipamento de exterior usado pode trazer sementes, terra, insetos e pragas aquáticas. A biossegurança começa na fronteira e continua sempre que o equipamento passa de um ecossistema neozelandês para outro.",
+      "imageAlt": "Botas de caminhada limpas, prontas para o controlo de biossegurança da Nova Zelândia",
+      "intro": "O equipamento de outdoor já usado pode trazer sementes, terra, insetos e pragas aquáticas. A biossegurança começa na fronteira e continua sempre que o equipamento passa de um ecossistema neozelandês para outro.",
       "sections": [
         {
           "heading": "Declara à chegada",
           "body": [
-            "Declara botas usadas, tendas, material de pesca, alimentos, material vegetal e produtos de origem animal quando a New Zealand Traveller Declaration o exigir. A declaração permite aos agentes avaliar e limpar os artigos; escondê-los é que cria o risco e a coima.",
-            "Arruma o equipamento onde possa ser inspecionado com facilidade. Esfrega a terra e os restos vegetais antes do voo, mas declara na mesma o artigo quando a pergunta se aplicar."
+            "Declara botas usadas, tendas, material de pesca, alimentos, material vegetal e produtos de origem animal quando a New Zealand Traveller Declaration (a declaração obrigatória de entrada) o pedir. Ao declarares, os agentes podem avaliar e limpar os artigos; o risco, e a coima, vêm de os esconder.",
+            "Arruma o equipamento num sítio fácil de inspecionar. Antes do voo, esfrega a terra e os restos de plantas, mas declara o artigo na mesma quando a pergunta se aplicar."
           ],
           "tips": []
         },
         {
           "heading": "Limpa entre um sítio e outro",
           "body": [
-            "Verifica, limpa e seca barcos, botas de pesca, remos e material de pesca antes de os usares noutro curso de água. Há pragas microscópicas que sobrevivem em humidade aparentemente inofensiva.",
-            "Escova as sementes e a lama dos pneus, das estacas e do equipamento de caminhada antes de mudares de bacia hidrográfica. Usa as estações de lavagem locais onde existirem."
+            "Antes de passares para outro rio ou lago, verifica, limpa e seca barcos, botas de pesca, pagaias e material de pesca. Há pragas microscópicas que sobrevivem numa humidade que parece inofensiva.",
+            "Antes de mudares de bacia hidrográfica, escova as sementes e a lama dos pneus, das estacas e do material de caminhada. Usa as estações de lavagem locais onde as houver."
           ],
           "tips": []
         },
         {
-          "heading": "Não improvises na hora de deitar coisas fora",
+          "heading": "Não improvises na hora de deitar fora",
           "body": [
-            "Nunca libertes isco, água de aquário, plantas alimentares ou água de lavagem não tratada no ambiente. Usa os sistemas de lixo e de águas residuais pensados para cada material.",
-            "Segue os avisos regionais de controlo de pragas e os rāhui temporários. As restrições locais podem proteger uma espécie ou um sítio para lá do mínimo nacional."
+            "Nunca deites na natureza isco, água de aquário, plantas comestíveis ou água de lavagem sem tratamento. Usa os contentores do lixo e os sistemas de águas residuais próprios para cada coisa.",
+            "Respeita os avisos regionais de controlo de pragas e os rāhui temporários (proibições tradicionais māori de acesso ou de uso de um local). As restrições locais podem ir além do mínimo nacional para proteger uma espécie ou um sítio."
           ],
           "tips": []
         },
         {
           "heading": "Declara tudo na fronteira",
           "body": [
-            "O regime de biossegurança da Nova Zelândia é dos mais rigorosos do mundo, e os artigos de risco não declarados dão direito a coima imediata. Têm de ser declaradas as botas de caminhada usadas, tendas, equipamento de campismo, bicicletas e tudo o que tenha estado em contacto com terra ou água doce, e praticamente qualquer tipo de comida.",
-            "Declarar não custa nada e demora um minuto. O agente pode inspecionar e limpar o artigo e deixar-te seguir. O que dá coima é não declarar, não o artigo em si, e essa diferença apanha muitos visitantes bem-intencionados."
+            "O regime de biossegurança da Nova Zelândia está entre os mais rigorosos do mundo, e há coimas imediatas para artigos de risco não declarados. Botas de caminhada usadas, tendas, equipamento de campismo, bicicletas e tudo o que tenha estado em terra ou água doce têm de ser declarados, tal como quase qualquer tipo de comida.",
+            "Declarar não custa nada e demora um minuto. O agente pode inspecionar e limpar o artigo e deixar-te seguir. O que dá coima é não declarar, não o artigo em si, e é nessa diferença que muitos visitantes de boa-fé são apanhados."
           ],
           "tips": [
             "Declarar é grátis; não declarar dá coima",
@@ -1868,63 +1868,63 @@
           ]
         },
         {
-          "heading": "Limpa o equipamento antes de o pores na mala",
+          "heading": "Limpa o equipamento antes de fazeres a mala",
           "body": [
-            "Chega com as botas esfregadas e sem terra, a tenda seca e sem sementes nem insetos, e todo o equipamento que tenha estado na água limpo e seco. O equipamento que chega visivelmente sujo tem mais probabilidade de ficar retido para tratamento, o que pode significar ir buscá-lo mais tarde ou perdê-lo.",
-            "Verifica bolsos e sacos de compressão à procura de sementes, folhas secas e lama seca. Uma tenda arrumada húmida noutro país chega muitas vezes com uma colónia de alguma coisa, e é mais fácil resolver isso em casa."
+            "Chega com as botas esfregadas e sem terra, a tenda seca e sem sementes nem insetos, e tudo o que tenha estado na água limpo e seco. Equipamento que chega visivelmente sujo tem mais hipóteses de ficar retido para tratamento, o que pode querer dizer ires buscá-lo mais tarde ou ficares sem ele.",
+            "Vê bem os bolsos e os sacos de compressão: sementes, folhas secas e lama seca. Uma tenda arrumada húmida noutro país chega muitas vezes com uma colónia de qualquer coisa lá dentro, e é mais fácil tratar disso em casa."
           ],
           "tips": []
         },
         {
-          "heading": "Verifica, limpa e seca entre cursos de água",
+          "heading": "Verifica, limpa e seca (Check, Clean, Dry) entre cursos de água",
           "body": [
-            "O didymo e outras pragas de água doce viajam no equipamento húmido de uma bacia para outra. A exigência aplica-se a botas, botas de pesca, tendas, material de pesca, pranchas de paddle e tudo o resto que tenha estado em água doce, e vale dentro da Nova Zelândia tanto como na fronteira.",
-            "Limpa a fundo, seca por completo e deixa o equipamento seco pelo menos 48 horas antes de entrares noutro curso de água. Onde não for prático secar, usa as soluções de tratamento recomendadas."
+            "O didymo (uma microalga invasora) e outras pragas de água doce passam de uma bacia hidrográfica para outra no equipamento húmido. A regra aplica-se a botas, botas de pesca, tendas, material de pesca, pranchas de paddle e tudo o que tenha estado em água doce, e vale dentro da Nova Zelândia tanto quanto na fronteira.",
+            "Limpa bem, seca por completo e mantém o equipamento seco durante pelo menos 48 horas antes de entrares noutro curso de água. Onde não for prático secar, usa antes as soluções de tratamento recomendadas."
           ],
           "tips": [
-            "Aplica-se dentro da Nova Zelândia, não só à entrada",
-            "Seca durante 48 horas antes do próximo curso de água",
+            "Vale dentro do país, não só à entrada",
+            "Seca 48 horas entre cursos de água",
             "Inclui botas, tendas e pranchas"
           ]
         },
         {
           "heading": "Circular entre ilhas e regiões",
           "body": [
-            "Também há controlos internos. Ulva Island, Rakiura e outros santuários livres de predadores pedem-te que verifiques os sacos à procura de roedores e sementes antes de embarcares, e os postos de controlo nos cais não são uma formalidade. Um único rato que chegue a uma ilha deita por terra décadas de trabalho.",
-            "A mosca-da-fruta e outros controlos regionais restringem de vez em quando o transporte de produtos frescos dentro do país. Onde há uma zona de controlo em vigor, está sinalizada e divulgada, e as regras aplicam-se ao frigorífico de uma autocaravana tal como a um camião."
+            "Também há controlos dentro do país. Para ir a Ulva Island, Rakiura e outros santuários sem predadores, tens de verificar a bagagem à procura de roedores e sementes antes de embarcar, e os postos de controlo nos cais não são uma formalidade. Basta um rato chegar a uma ilha para deitar por terra décadas de trabalho.",
+            "Os controlos à mosca-da-fruta e outros controlos regionais restringem de vez em quando o transporte de fruta e legumes frescos dentro do país. Quando há uma zona de controlo em vigor, está sinalizada e anunciada, e as regras aplicam-se ao frigorífico de uma campervan tanto como a um camião."
           ],
           "tips": []
         },
         {
           "heading": "Porque é que as regras são tão rigorosas",
           "body": [
-            "As espécies nativas da Nova Zelândia evoluíram sem mamíferos terrestres e quase sem defesas contra eles. Predadores, infestantes e doenças introduzidos já causaram extinções, e os controlos fronteiriços existem porque o país continua a perder espécies por causa de coisas que chegam na bagagem.",
-            "A febre aftosa, a mosca-da-fruta e a ferrugem-da-murta são as incursões com maiores consequências económicas e ecológicas, e cada uma já foi intercetada na fronteira mais de uma vez. A inspeção que te parece um incómodo é a razão pela qual essas interceções acontecem.",
-            "O processo é rápido e os agentes ajudam quando declaras. A coima é por esconder, não por ter botas com lama, e a diferença está apenas em assinalares ou não a quadrícula."
+            "As espécies nativas da Nova Zelândia evoluíram sem mamíferos terrestres e quase sem defesas contra eles. Predadores, plantas invasoras e doenças introduzidos já causaram extinções, e os controlos na fronteira existem porque o país continua a perder espécies por causa do que chega na bagagem.",
+            "A febre aftosa, a mosca-da-fruta e a ferrugem-da-murta são as ameaças com maiores consequências económicas e ecológicas, e cada uma já foi intercetada na fronteira mais de uma vez. A inspeção que te parece um incómodo é o que permite essas interceções.",
+            "O processo é rápido e os agentes ajudam quando declaras. A coima é por esconder, não por teres botas com lama, e a diferença está toda em assinalares ou não a opção certa na declaração."
           ],
           "tips": []
         },
         {
-          "heading": "Ao sair do país",
+          "heading": "Quando saíres do país",
           "body": [
-            "Algumas coisas que adquiras aqui não podem sair do país, e outras precisam de papéis. Tudo o que é feito com espécies protegidas, a pedra verde recolhida em certas zonas e algum material vegetal têm restrições que vale a pena verificar antes de fazeres a mala.",
-            "A Austrália, em particular, tem as suas próprias regras fronteiriças rigorosas, por isso o equipamento que chega aqui com lama vai ter o mesmo escrutínio à saída. Volta a limpar tudo antes do voo de regresso."
+            "Algumas coisas que arranjes por cá não podem sair do país, e outras precisam de documentação. Objetos feitos de espécies protegidas, pedra verde (pounamu) recolhida em certas zonas e algum material vegetal têm restrições que vale a pena confirmar antes de fazeres a mala.",
+            "A Austrália, em especial, tem regras fronteiriças próprias e rigorosas, por isso o equipamento que aqui chega com lama vai passar pelo mesmo escrutínio à saída. Volta a limpar tudo antes do voo de regresso."
           ],
           "tips": [
-            "Verifica as restrições antes de levares artigos para fora",
+            "Confirma o que pode sair do país",
             "A Austrália é igualmente rigorosa à entrada",
-            "Volta a limpar o equipamento antes do voo para casa"
+            "Limpa tudo outra vez antes do voo"
           ]
         }
       ],
       "faq": [
         [
           "Que equipamento de campismo tem de ser declarado na fronteira da Nova Zelândia?",
-          "Tendas, botas, bastões de caminhada, bicicletas e tudo o resto que tenha tocado em terra ou água doce no estrangeiro, além de comida, sementes e objetos de madeira. Declarar não custa nada; não declarar dá direito a coima imediata."
+          "Tendas, botas, bastões de caminhada, bicicletas e tudo o que tenha tocado em terra ou água doce no estrangeiro, além de comida, sementes e objetos de madeira. Declarar não custa nada; não declarar implica uma coima imediata."
         ],
         [
-          "Como preparar o equipamento antes de voar para a Nova Zelândia?",
-          "Limpa-o antes de fazeres a mala. Tirar em casa a terra das botas e das estacas, e secar e escovar a bicicleta ou a mochila, é a diferença entre uma inspeção de dois minutos e ver o equipamento tratado ou confiscado."
+          "Como preparar o equipamento antes do voo para a Nova Zelândia?",
+          "Limpa-o antes de fazeres a mala. Tirar em casa a terra das botas e das estacas da tenda, e secar e escovar a bicicleta ou a mochila, é o que separa uma inspeção de dois minutos de ver o equipamento tratado ou confiscado."
         ]
       ],
       "sources": [
@@ -2479,72 +2479,72 @@
       "priceTable": null
     },
     "new-zealand-road-signs-visitors": {
-      "title": "Sinais de trânsito da Nova Zelândia que os visitantes devem perceber",
-      "description": "Os sinais de regulamentação, de perigo e os temporários têm de ser lidos em conjunto com as marcas rodoviárias e as condições da estrada.",
+      "title": "Sinais de trânsito na Nova Zelândia: o que precisas de saber",
+      "description": "Na Nova Zelândia, os sinais de regulamentação, de perigo e temporários leem-se em conjunto com as marcas rodoviárias e com o estado da estrada e do tempo.",
       "region": "Estradas da Nova Zelândia",
-      "imageAlt": "Sinal de aviso de ponte de via única na Nova Zelândia",
-      "intro": "Os sinais neozelandeses usam ideias internacionais conhecidas, mas as situações locais podem surpreender os visitantes. A prioridade nas pontes de via única, as velocidades aconselhadas nas curvas e os controlos temporários têm de ser reconhecidos antes de a estrada estreitar.",
+      "imageAlt": "Sinal de aviso de ponte de uma via na Nova Zelândia",
+      "intro": "Os sinais neozelandeses assentam em ideias internacionais conhecidas, mas há situações na estrada que surpreendem os visitantes. A prioridade nas pontes de uma via, as velocidades aconselhadas nas curvas e as restrições temporárias têm de ser reconhecidas antes de a estrada estreitar.",
       "sections": [
         {
           "heading": "Limites e velocidades aconselhadas",
           "body": [
-            "Um sinal de velocidade com orla vermelha fixa a velocidade máxima legal; um número amarelo aconselhado indica uma velocidade mais segura para a curva, não um novo limite. As condições podem obrigar a circular abaixo de ambos.",
-            "Os sinais laranja temporários e os limites portáteis são obrigatórios onde estiverem colocados. Continua a respeitá-los até ao fim da zona de obras."
+            "O sinal de velocidade com orla vermelha indica a velocidade máxima legal; o número em fundo amarelo é uma velocidade aconselhada, mais segura para a curva, e não um novo limite. Conforme as condições, pode ser preciso andar abaixo de ambos.",
+            "Os sinais laranja temporários e os limites em painéis móveis têm valor legal onde estiverem colocados. Respeita-os até ao fim da zona de obras."
           ],
           "tips": []
         },
         {
-          "heading": "Pontes de via única",
+          "heading": "Pontes de uma via",
           "body": [
-            "Um sinal de cedência de passagem com orla vermelha significa que o trânsito do teu sentido tem de ceder. Um sinal retangular azul de prioridade dá preferência ao teu sentido, mas só quando a ponte está livre e é seguro entrar.",
-            "Repara se há veículos longos ou pesados que já entraram e nunca faças corridas com outro condutor até à entrada."
+            "Um sinal de cedência de passagem com orla vermelha quer dizer que o trânsito do teu sentido tem de ceder. Um sinal azul retangular de prioridade dá preferência ao teu sentido, mas só quando a ponte está livre e é seguro entrar.",
+            "Vê se há veículos compridos ou pesados que já entraram e nunca disputes a entrada com outro condutor."
           ],
           "tips": []
         },
         {
-          "heading": "Passagens de nível e perigos rurais",
+          "heading": "Passagens de nível e perigos nas estradas rurais",
           "body": [
-            "Para ou cede a passagem nas passagens de nível conforme a sinalização, olha para os dois lados e nunca fiques na fila em cima da linha. Os sinais de perigo rurais também avisam de gado, deslizamentos de terra, gelo e estradas sinuosas.",
-            "Estuda o material oficial para condutores visitantes antes de levantares um veículo de aluguer. As indicações da navegação não explicam o significado de uma instrução à beira da estrada."
+            "Nas passagens de nível, para ou cede a passagem conforme a sinalização, olha para os dois lados e nunca fiques parado na fila em cima da linha. Nas zonas rurais, os sinais de perigo também avisam de gado, derrocadas, gelo e estradas sinuosas.",
+            "Estuda o material oficial para condutores estrangeiros antes de levantares o veículo alugado. O GPS indica o caminho, mas não explica o que quer dizer um sinal à beira da estrada."
           ],
           "tips": []
         },
         {
           "heading": "Regras de cedência de passagem nos cruzamentos",
           "body": [
-            "As regras de cedência de passagem da Nova Zelândia mudaram em 2012, e as orientações estrangeiras antigas estão erradas. Atualmente, num cruzamento sem sinalização ou quando os dois veículos têm o mesmo sinal, quem vira cede a passagem a quem segue em frente ou vira à esquerda.",
-            "Nas rotundas circula-se no sentido dos ponteiros do relógio e cede-se a passagem ao trânsito que vem da direita. Sinaliza à esquerda quando saíres e tem especial cuidado nas rotundas com várias vias, onde as marcas no chão determinam que saída podes tomar."
+            "As regras de cedência de passagem mudaram na Nova Zelândia em 2012, e os guias estrangeiros mais antigos estão errados. Hoje, num cruzamento sem sinalização, ou quando os dois veículos têm o mesmo sinal, quem vira cede a passagem a quem segue em frente ou vira à esquerda.",
+            "Nas rotundas circula-se no sentido dos ponteiros do relógio e cede-se a passagem a quem vem da direita. Liga o pisca para a esquerda à saída e tem especial cuidado nas rotundas com várias vias, onde as marcas no chão definem que saída podes tomar."
           ],
           "tips": [
-            "Quem vira cede a passagem a quem segue em frente",
-            "Nas rotundas circula-se no sentido dos ponteiros do relógio",
-            "Cede a passagem à tua direita"
+            "Quem vira cede a quem segue em frente",
+            "Rotundas no sentido dos ponteiros do relógio",
+            "Prioridade a quem vem da direita"
           ]
         },
         {
-          "heading": "Sinalização das pontes de via única",
+          "heading": "Sinalização das pontes de uma via",
           "body": [
-            "As pontes de via única são comuns, sobretudo na West Coast e em Northland. O sinal mostra duas setas: a seta preta maior indica o sentido com prioridade. Se a tua for a vermelha mais pequena, cedes a passagem ao trânsito em sentido contrário.",
-            "Algumas pontes são partilhadas com o comboio, e umas poucas são tão compridas que têm zonas de cruzamento. Abranda ao aproximares-te, olha através da ponte antes de entrares e está disposto a esperar em vez de acelerares para a apanhar primeiro."
+            "As pontes de uma via são comuns, sobretudo na West Coast e em Northland. O sinal mostra duas setas: a preta, maior, indica o sentido com prioridade. Se a tua for a vermelha, mais pequena, cedes a passagem a quem vem em sentido contrário.",
+            "Algumas pontes são partilhadas com a linha de comboio, e umas poucas são tão compridas que têm zonas para os veículos se cruzarem. Abranda ao aproximar-te, olha até ao fim da ponte antes de entrares e prefere esperar a acelerar para passar primeiro."
           ],
           "tips": []
         },
         {
           "heading": "Velocidades aconselhadas e sinais de perigo",
           "body": [
-            "Os sinais amarelos em forma de losango são avisos, não limites legais, e a velocidade amarela indicada numa curva é um máximo aconselhado para um carro em boas condições. Numa autocaravana carregada, com chuva ou a rebocar, a velocidade segura é inferior ao valor aconselhado.",
-            "Atenção aos sinais próprios das condições neozelandesas: piso escorregadio com chuva, gravilha solta (loose metal), vau, passagem de gado e o aviso de queda de pedras, muito usado na West Coast e nos passos de montanha."
+            "Os sinais amarelos em forma de losango são avisos, não limites legais, e a velocidade em amarelo numa curva é o máximo aconselhado para um carro em boas condições. Numa campervan carregada, à chuva ou a rebocar, a velocidade segura fica abaixo do valor indicado.",
+            "Atenção aos sinais próprios das estradas neozelandesas: piso escorregadio com chuva, gravilha solta (loose metal), vau, passagem de gado e queda de pedras, um aviso muito usado na West Coast e nos passos de montanha."
           ],
           "tips": [
-            "Os sinais amarelos são conselhos, não limites legais",
-            "As velocidades aconselhadas pressupõem um carro em piso seco",
-            "Loose metal significa gravilha"
+            "Sinais amarelos aconselham, não obrigam",
+            "Velocidade aconselhada: carro e piso seco",
+            "Loose metal quer dizer gravilha"
           ]
         },
         {
           "heading": "Vias de ultrapassagem e zonas de encosto para veículos lentos",
           "body": [
-            "Nas estradas da Nova Zelândia as vias de ultrapassagem são raras, e se fores mais lento do que o trânsito atrás de ti, o que é educado e esperado é usares a zona de encosto para veículos lentos ou encostares onde for seguro e deixares passar. Não é só cortesia: os condutores impacientes atrás de ti causam acidentes nas ultrapassagens.",
+            "Nas estradas principais da Nova Zelândia há poucas vias de ultrapassagem. Se fores mais lento do que o trânsito atrás de ti, o que se espera, e o que é educado, é usares a zona de encosto para veículos lentos ou encostares onde for seguro para deixar passar. É mais do que boas maneiras: os condutores que seguem atrás, impacientes, provocam acidentes em ultrapassagens.",
             "Não aceleres numa via de ultrapassagem quando alguém te está a ultrapassar. Se tiveres cinco ou mais veículos em fila atrás de ti, a lei obriga-te a encostar assim que for seguro."
           ],
           "tips": []
@@ -2552,21 +2552,21 @@
         {
           "heading": "Sinais próprios da Nova Zelândia",
           "body": [
-            "LSZ assinala uma Limited Speed Zone nalgumas estradas rurais, onde o limite desce quando as condições o exigem. Um sinal de Ford significa que a estrada atravessa um curso de água, que pode estar seco ou intransitável consoante a chuva recente.",
-            "Os sinais de passagem de gado e de dejetos de gado indicam uso agrícola ativo da estrada. O de piso escorregadio com chuva aparece por todo o lado em estradas rurais alcatroadas, onde o revestimento de gravilha fica mesmo escorregadio, e vale a pena levá-lo a sério num veículo pesado.",
-            "Os sinais azuis e brancos assinalam percursos turísticos e serviços, e os castanhos indicam locais históricos e culturais. Nenhum deles garante que a estrada a seguir é adequada a um veículo grande, por isso verifica isso à parte antes de virares."
+            "LSZ assinala uma Limited Speed Zone (zona de velocidade limitada) nalgumas estradas rurais, onde o limite baixa quando as condições o exigem. O sinal Ford indica que a estrada atravessa um curso de água (um vau), que pode estar seco ou intransitável, conforme a chuva dos últimos dias.",
+            "Os sinais de passagem de gado e de dejetos de gado (stock effluent) indicam que a estrada é usada pela atividade agrícola. O de piso escorregadio com chuva aparece por todo o lado nas estradas rurais asfaltadas, onde o revestimento de gravilha (chip seal) fica mesmo escorregadio, e convém levá-lo a sério num veículo pesado.",
+            "Os sinais azuis e brancos assinalam percursos turísticos e serviços, e os castanhos indicam locais históricos e culturais. Nenhum deles garante que a estrada a seguir serve para um veículo grande, por isso confirma isso à parte antes de virares."
           ],
           "tips": []
         },
         {
-          "heading": "Obras e controlo stop-go",
+          "heading": "Obras e sinaleiros stop-go",
           "body": [
-            "As obras temporárias são frequentes, sobretudo depois dos estragos do inverno, e o sinaleiro que controla o trânsito com a placa stop-go tem autoridade legal. Espera pelo sinal em vez de seguires o veículo da frente por um espaço que se está a fechar.",
-            "Os limites temporários aplicam-se haja ou não trabalho visível, incluindo de noite e ao fim de semana. O piso nas obras é muitas vezes gravilha solta, que é mesmo escorregadia para um veículo pesado."
+            "As obras são frequentes, sobretudo depois dos estragos do inverno, e o sinaleiro que controla o trânsito com a placa stop-go tem autoridade legal. Espera pelo sinal dele em vez de ires atrás do veículo da frente quando a passagem já está a fechar.",
+            "Os limites temporários aplicam-se haja ou não alguém a trabalhar, incluindo de noite e ao fim de semana. Nas obras, o piso é muitas vezes gravilha solta, que escorrega mesmo a sério num veículo pesado."
           ],
           "tips": [
-            "Os sinaleiros de stop-go têm autoridade legal",
-            "Os limites temporários aplicam-se a qualquer hora",
+            "Os sinaleiros stop-go têm autoridade legal",
+            "Limites temporários valem a qualquer hora",
             "A gravilha solta escorrega"
           ]
         }
@@ -2574,121 +2574,121 @@
       "faq": [
         [
           "Os sinais de trânsito da Nova Zelândia são diferentes dos de outros países?",
-          "As formas e as cores vão parecer-te familiares, mas os que apanham os visitantes desprevenidos são os locais: as setas de prioridade das pontes de via única, a zona de velocidade limitada LSZ e os sinais amarelos de mudança para gravilha e de passagem de gado."
+          "As formas e as cores vão parecer-te familiares, mas os sinais que apanham os visitantes desprevenidos são os locais: as setas de prioridade das pontes de uma via, a zona de velocidade limitada LSZ e os sinais amarelos que avisam de troços de gravilha e de passagem de gado."
         ],
         [
-          "O que significa o sinal de ponte de via única?",
-          "A seta grande é o teu sentido e a pequena é o sentido contrário. Se a tua seta for a pequena, cedes a passagem, e numa ponte comprida isso significa esperar à entrada em vez de avançares e teres de fazer marcha-atrás."
+          "O que significa o sinal de ponte de uma via?",
+          "A seta grande é o teu sentido e a pequena é o sentido contrário. Se a tua seta for a pequena, cedes a passagem, e numa ponte comprida isso quer dizer esperar à entrada em vez de avançares e teres de fazer marcha-atrás."
         ]
       ],
       "sources": [
         {
-          "label": "Sinais do código da estrada da NZTA"
+          "label": "NZTA: sinais do código da estrada (Road Code)"
         }
       ],
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Regras e segurança na condução de autocaravanas na Nova Zelândia",
-      "description": "As dimensões, os passageiros, o peso e as restrições do aluguer contam antes de uma estrada estreita pôr à prova o tamanho do veículo.",
+      "title": "Conduzir uma campervan na Nova Zelândia: regras e segurança",
+      "description": "Dimensões, passageiros, peso e restrições do aluguer: o que saber sobre a tua campervan antes que uma estrada estreita da Nova Zelândia te mostre o tamanho dela.",
       "region": "Estradas da Nova Zelândia",
-      "imageAlt": "Autocaravana grande numa estrada estreita da Nova Zelândia",
-      "intro": "Uma autocaravana pode ser legal com uma carta Class 1 e mesmo assim parecer completamente diferente de um carro. Na entrega do veículo devem ficar claros a altura, a largura, o comprimento, o peso carregado e todas as estradas excluídas pelo contrato de aluguer.",
+      "imageAlt": "Campervan grande numa estrada estreita da Nova Zelândia",
+      "intro": "Uma campervan pode ser conduzida legalmente com uma carta Class 1 (a carta de ligeiros neozelandesa) e, ainda assim, ser muito diferente de um carro ao volante. Na entrega do veículo, tens de ficar a saber a altura, a largura, o comprimento e o peso com carga, e todas as estradas que o contrato de aluguer exclui.",
       "sections": [
         {
           "heading": "Mede antes de arrancar",
           "body": [
-            "Aponta as dimensões do veículo onde o condutor as possa ver. Claraboias, aparelhos de ar condicionado, suportes de bicicletas e a saliência traseira afetam as alturas livres e as manobras.",
-            "Todos os passageiros precisam de bancos homologados e sistemas de retenção durante a viagem. As camas e as zonas de estar traseiras não são lugares de passageiros, a não ser que estejam certificadas como tal."
+            "Aponta as dimensões do veículo num sítio à vista do condutor. Claraboias, aparelhos de ar condicionado, suportes de bicicletas e a traseira saliente contam para a altura livre e para as manobras.",
+            "Durante a viagem, todos os passageiros têm de ir em bancos homologados e com cinto ou outro sistema de retenção. As camas e a zona de estar traseira não são lugares de passageiros, a não ser que estejam certificadas como tal."
           ],
           "tips": []
         },
         {
-          "heading": "Dá espaço ao veículo",
+          "heading": "Dá margem ao veículo",
           "body": [
-            "Trava mais cedo, faz as curvas devagar e deixa uma distância maior para o carro da frente. Usa os espelhos com atenção e deixa passar o trânsito de trás em zonas seguras preparadas para isso.",
-            "Vento lateral forte pode empurrar um veículo alto de um lado para o outro da faixa. Abranda ou para quando as correções de direção se tornarem constantes."
+            "Trava mais cedo, faz as curvas devagar e deixa mais distância para o veículo da frente. Usa os espelhos de forma consciente e deixa passar o trânsito que vem atrás em zonas de encosto seguras e preparadas para isso.",
+            "Um vento lateral forte pode empurrar um veículo alto de um lado ao outro da faixa. Abranda, ou para, quando tiveres de corrigir a direção constantemente."
           ],
           "tips": []
         },
         {
-          "heading": "Respeita as exclusões",
+          "heading": "Respeita as exclusões do contrato",
           "body": [
-            "Os contratos de aluguer podem proibir praias, estradas de terra ou percursos remotos concretos, mesmo com acesso público. O seguro pode depender dessas mesmas condições.",
-            "Para antes de um ramo baixo, de uma ponte com limite de peso ou de um vau duvidoso. O reboque do veículo não substitui ter altura livre."
+            "Os contratos de aluguer podem proibir praias, estradas de terra batida ou certos percursos remotos indicados pelo nome, mesmo quando têm acesso público. O seguro pode depender dessas mesmas condições.",
+            "Para antes de um ramo baixo, de uma ponte com limite de peso ou de um vau duvidoso. Um reboque não substitui ter espaço para passar."
           ],
           "tips": []
         },
         {
-          "heading": "Conhece as tuas dimensões antes de arrancar",
+          "heading": "Sabe as medidas do veículo antes de arrancar",
           "body": [
-            "Aponta a altura, o comprimento e o peso do veículo e mantém-nos onde o condutor os veja. A altura é a que causa danos caros: em entradas de parques de estacionamento, drive-throughs, coberturas de postos de combustível e algumas passagens inferiores urbanas.",
-            "Verifica os espelhos, os ângulos mortos e a câmara de marcha-atrás antes de saíres da agência e dá a volta ao veículo a pé. A maior parte dos danos em autocaravanas de aluguer acontece nos dois primeiros dias, a baixa velocidade, em parques de estacionamento."
+            "Aponta a altura, o comprimento e o peso do veículo e deixa-os à vista do condutor. A altura é a que provoca os estragos caros: em entradas de parques de estacionamento, drive-throughs, coberturas de bombas de gasolina e algumas passagens inferiores nas cidades.",
+            "Antes de saíres da agência, verifica os espelhos, os ângulos mortos e a câmara de marcha-atrás e dá uma volta a pé ao veículo. A maior parte dos danos nas campervans de aluguer acontece nos dois primeiros dias, a baixa velocidade, em parques de estacionamento."
           ],
           "tips": [
             "Aponta a altura no tablier",
-            "A maior parte dos danos acontece em parques de estacionamento",
+            "Os danos acontecem sobretudo nos estacionamentos",
             "Dá a volta ao veículo antes de partir"
           ]
         },
         {
-          "heading": "Todos viajam num banco a sério",
+          "heading": "Todos sentados num banco a sério",
           "body": [
-            "As camas, as mesas de refeição sem cintos e as zonas de estar não são lugares de passageiros com o veículo em andamento. Cada ocupante precisa de um banco homologado com cinto a funcionar, e as crianças com menos de sete anos têm de ir em sistemas de retenção que cumpram normas específicas.",
-            "Prende tudo o que estiver solto antes de cada viagem. A porta de um armário, uma garrafa de gás ou uma chaleira cheia tornam-se perigosas numa travagem de emergência, e as autocaravanas travam mais tarde e com mais força do que um carro."
+            "Com o veículo em andamento, as camas, as mesas de refeição sem cintos e as zonas de estar não são lugares de passageiros. Cada ocupante precisa de um banco homologado com um cinto a funcionar, e as crianças com menos de sete anos têm de ir numa cadeirinha que cumpra normas específicas.",
+            "Antes de cada arranque, prende tudo o que estiver solto. A porta de um armário, uma botija de gás ou uma chaleira cheia tornam-se perigosas numa travagem de emergência, e uma campervan trava mais tarde e com mais força do que um carro."
           ],
           "tips": []
         },
         {
-          "heading": "O vento, e porque conta mais aqui",
+          "heading": "Vento: porque conta mais aqui",
           "body": [
-            "Um veículo alto apanha muito o vento lateral, e a Nova Zelândia é um país ventoso, com estradas costeiras, pontes e portelas expostas. Ultrapassar camiões e sair de uma trincheira provocam empurrões laterais repentinos.",
-            "Segura bem o volante com as duas mãos nos troços expostos, abranda antes da rajada e não durante, e conta que alguns percursos fecham a veículos altos com vento forte, incluindo a Rimutaka Hill Road e partes da Desert Road."
+            "Um veículo alto apanha muito vento lateral, e a Nova Zelândia é um país ventoso, com estradas costeiras, pontes e passagens de montanha expostas. Tanto ultrapassar um camião como sair de uma trincheira dão empurrões laterais repentinos.",
+            "Nos troços expostos, segura bem o volante com as duas mãos, abranda antes da rajada e não durante, e fica a saber que alguns percursos fecham a veículos altos quando há vento forte, como a Rimutaka Hill Road e partes da Desert Road."
           ],
           "tips": [
             "Abranda antes do troço exposto",
             "Algumas estradas fecham a veículos altos",
-            "Os camiões e as trincheiras causam rajadas repentinas"
+            "Camiões e trincheiras trazem rajadas repentinas"
           ]
         },
         {
           "heading": "Ultrapassar e ser ultrapassado",
           "body": [
-            "Uma autocaravana acelera devagar, por isso ultrapassar exige muito mais estrada livre do que um carro e raramente vale a pena. A maior parte das estradas da Nova Zelândia tem duas faixas, poucas vias de ultrapassagem e um mau historial de acidentes em ultrapassagens.",
-            "Quando se formar fila atrás de ti, encosta onde for seguro e deixa passar. Se tiveres cinco ou mais veículos atrás, és obrigado a fazê-lo assim que for seguro, e isso também tira a pressão que leva as pessoas a ultrapassar mal."
+            "Uma campervan acelera devagar, por isso precisa de muito mais estrada livre para ultrapassar do que um carro, e raramente vale a pena tentar. A maior parte das estradas principais da Nova Zelândia tem uma faixa para cada lado, poucas vias de ultrapassagem e um mau historial de acidentes em ultrapassagens.",
+            "Quando se formar fila atrás de ti, encosta num sítio seguro e deixa passar. Se tiveres cinco ou mais veículos atrás, és obrigado a fazê-lo assim que for seguro, e isso ainda tira a pressão que leva as pessoas a fazer ultrapassagens perigosas."
           ],
           "tips": []
         },
         {
-          "heading": "Estacionar e pernoitar legalmente",
+          "heading": "Estacionar e pernoitar dentro da lei",
           "body": [
-            "Estacionar uma autocaravana não é o mesmo que acampar nela. Um veículo pode estar legalmente estacionado num sítio e mesmo assim ser proibido ficar lá dentro durante a noite, e é essa diferença que decide a maioria das multas.",
-            "Os limites de altura dos parques de estacionamento urbanos apanham as autocaravanas constantemente, e a barreira costuma ser o primeiro aviso. Procura os limites de altura sinalizados antes de entrares e usa os parques ao ar livre ou extra que a maioria das localidades tem para veículos grandes.",
-            "Nas cidades, o mais prático é deixar o veículo num parque de campismo ou num parque park-and-ride e entrar de transportes públicos. É mais rápido, mais barato e evita o problema por completo em vez de teres de o gerir."
+            "Estacionar uma campervan é uma coisa, acampar nela é outra. Um veículo pode estar bem estacionado num sítio onde, mesmo assim, é proibido passar a noite lá dentro, e é nesta diferença que assenta a maioria das multas.",
+            "Os limites de altura dos parques de estacionamento urbanos apanham campervans a toda a hora, e muitas vezes o primeiro aviso é a barreira. Procura a sinalização de altura máxima antes de entrar e usa os estacionamentos ao ar livre ou de recurso que a maioria das localidades tem para veículos grandes.",
+            "Nas cidades, o mais prático é deixar o veículo num parque de campismo ou num parque dissuasor (park-and-ride) e ir até ao centro de transportes públicos. É mais rápido, mais barato e evita o problema por completo, em vez de teres de o gerir."
           ],
           "tips": []
         },
         {
           "heading": "Ferries, túneis e limites de altura",
           "body": [
-            "As tarifas do estreito de Cook dependem do comprimento e da altura do veículo, e ambos são verificados. Alguns túneis urbanos e pontes antigas têm limites de altura ou de peso, e alguns percursos fecham a veículos altos com vento forte.",
-            "Conhece as tuas dimensões com exatidão e confronta-as com qualquer percurso que tenha um túnel, uma ponte baixa ou uma reserva de ferry. Adivinhar é o que acaba num acerto caro no terminal ou em coisa pior na estrada."
+            "As tarifas do ferry do Cook Strait dependem do comprimento e da altura do veículo, e as duas medidas são verificadas. Alguns túneis urbanos e pontes mais antigas têm limites de altura ou de peso, e há percursos que fecham a veículos altos com vento forte.",
+            "Sabe as medidas exatas do veículo e confronta-as com qualquer percurso que tenha um túnel, uma ponte baixa ou uma reserva de ferry. É por fazer as contas a olho que se acaba a pagar um acerto caro no terminal, ou pior, na estrada."
           ],
           "tips": [
             "As tarifas do ferry dependem do tamanho",
-            "Conhece a altura e o comprimento exatos",
-            "Alguns percursos fecham a carrinhas altas"
+            "Sabe a altura e o comprimento exatos",
+            "Há percursos fechados a carrinhas altas"
           ]
         }
       ],
       "faq": [
         [
-          "Os limites de velocidade são diferentes para uma autocaravana?",
-          "Para a maioria das autocaravanas de aluguer com menos de 3.500 kg, não: aplica-se o limite normal de estrada aberta. Os veículos mais pesados e qualquer veículo a rebocar têm um limite inferior, e numa estrada sinuosa o limite é um máximo, não um objetivo."
+          "Os limites de velocidade são diferentes para uma campervan?",
+          "Para a maioria das campervans e autocaravanas de aluguer com menos de 3.500 kg, não: aplica-se o limite normal fora das localidades. Os veículos mais pesados e qualquer veículo a rebocar têm um limite mais baixo, e numa estrada sinuosa o limite é um máximo, não um objetivo."
         ],
         [
-          "O que apanha desprevenidos os condutores de autocaravanas na Nova Zelândia?",
-          "A altura e a largura em estradas estreitas, o vento em passos de montanha e pontes expostos e o hábito de acumular fila atrás. Encostar para deixar passar é o que se espera aqui e é o que mais reduz o risco."
+          "O que costuma surpreender quem conduz uma campervan na Nova Zelândia?",
+          "A altura e a largura nas estradas estreitas, o vento nos passos de montanha e nas pontes expostas e a fila que se forma atrás de ti. Aqui espera-se que encostes para deixar passar, e é isso que mais reduz o risco."
         ]
       ],
       "sources": [
@@ -4336,61 +4336,61 @@
       "priceTable": null
     },
     "new-zealand-grocery-prices-2026": {
-      "title": "Preços dos supermercados na Nova Zelândia em 2026",
-      "description": "Intervalos atuais para leite, ovos, pão, carne, fruta e legumes, com conversões em dez moedas.",
-      "region": "Supermercados da Nova Zelândia",
+      "title": "Preços de supermercado na Nova Zelândia em 2026",
+      "description": "Quanto custam hoje o leite, os ovos, o pão, a carne, a fruta e os legumes nos supermercados da Nova Zelândia, com conversão dos preços para dez moedas.",
+      "region": "Supermercados na Nova Zelândia",
       "imageAlt": "Produtos frescos num supermercado da Nova Zelândia",
-      "intro": "Cozinhar por conta própria é a forma mais direta de controlar o orçamento de uma viagem de campismo. Os intervalos abaixo são referências nacionais contribuídas pela comunidade e confrontadas com os dados de inflação de junho de 2026, não uma promessa para cada prateleira ou semana.",
+      "intro": "Fazer as tuas próprias refeições é a forma mais direta de controlar o orçamento de uma viagem de campismo. Os intervalos abaixo são referências nacionais recolhidas pela comunidade e cruzadas com os dados da inflação de junho de 2026: servem para planear, não são uma promessa para todas as prateleiras nem para todas as semanas.",
       "sections": [
         {
-          "heading": "Faz compras antes do troço remoto",
+          "heading": "Faz as compras antes do troço mais isolado",
           "body": [
-            "Os grandes supermercados trazem variedade e concorrência, enquanto as lojas pequenas e isoladas pagam o transporte e têm menos stock. Compra os básicos duradouros antes do East Cape, de Fiordland ou dos troços longos da West Coast.",
-            "Apoia as lojas locais para os frescos sem esperar descontos de cidade. Parte do seu valor está em estarem abertas onde a alternativa seguinte fica a horas de distância."
+            "Nos grandes supermercados há variedade e concorrência, enquanto as lojas pequenas e isoladas pagam o transporte da mercadoria e têm menos stock. Compra os básicos que se conservam antes de seguires para o East Cape, Fiordland ou os troços longos da West Coast.",
+            "Para os frescos, apoia o comércio local, mas não esperes preços de cidade. Parte do que pagas é haver uma loja aberta num sítio onde a alternativa fica a horas de distância."
           ],
           "tips": []
         },
         {
           "heading": "Cozinha com ingredientes que se repetem",
           "body": [
-            "Planeia refeições que reaproveitem arroz, massa, legumes, ovos e uma ou duas proteínas. Um frigorífico pequeno recompensa listas de ingredientes curtas e restos bem geridos.",
-            "Repara no preço por unidade e não no destaque da embalagem. As embalagens grandes só poupam dinheiro quando o espaço e a refrigeração evitam desperdício."
+            "Planeia refeições que voltem a usar arroz, massa, legumes, ovos e uma ou duas proteínas. Com um frigorífico pequeno, compensa ter listas de ingredientes curtas e aproveitar os restos com disciplina.",
+            "Compara o preço por quilo ou por litro, não o preço em destaque na embalagem. As embalagens grandes só poupam dinheiro quando tens espaço e frio para as guardar sem desperdício."
           ],
           "tips": []
         },
         {
-          "heading": "Os preços da comida mudam",
+          "heading": "Os preços da comida variam",
           "body": [
-            "A Stats NZ registou uma subida anual de 2,5 por cento nos preços dos alimentos em junho de 2026, com a carne, as aves e o peixe a subirem mais. Os preços da fruta e dos legumes mudam muito com a época.",
-            "Usa o intervalo para planear, regista depois as primeiras compras reais e atualiza o resto do orçamento."
+            "Segundo a Stats NZ (o instituto de estatística neozelandês), os preços dos alimentos subiram 2,5% no ano terminado em junho de 2026, com a carne, as aves e o peixe a encarecerem mais. Os preços da fruta e dos legumes oscilam muito de estação para estação.",
+            "Usa o intervalo para planear; depois, aponta quanto gastaste nas primeiras compras a sério e ajusta o resto do orçamento."
           ],
           "tips": []
         },
         {
           "heading": "As duas grandes cadeias e as opções mais baratas",
           "body": [
-            "O Countdown e o New World cobrem a maior parte do país, e o Pak'nSave é geralmente o mais barato dos grandes formatos onde existe. Os preços variam bastante entre insígnias na mesma localidade, por isso vale a pena um pequeno desvio até à mais barata quando vais fazer uma reposição completa e não só completar.",
-            "Os mercados de produtores e as bancas à beira da estrada são excelentes para fruta e legumes, e muitas vezes mais baratos do que um supermercado para o que é da época na zona. Também costumam aceitar só numerário e abrir só de manhã, o que convém saber antes de contares com eles."
+            "O Countdown e o New World estão presentes na maior parte do país, e o Pak'nSave, onde existe, costuma ser o mais barato dos supermercados grandes. Os preços variam bastante de cadeia para cadeia na mesma terra, por isso, quando vais fazer uma compra grande e não só repor o que falta, vale a pena um pequeno desvio até ao mais barato.",
+            "Os mercados de produtores e as bancas à beira da estrada são ótimos para fruta e legumes e, no que é da época na zona, muitas vezes mais baratos do que o supermercado. Também costumam aceitar só dinheiro e funcionar apenas de manhã, o que convém saber antes de contares com eles."
           ],
           "tips": [
             "Pak'nSave para as compras grandes",
-            "Bancas à beira da estrada para os produtos da época",
-            "Os mercados são a dinheiro e de manhã"
+            "Bancas de estrada para os frescos da época",
+            "Mercados: só dinheiro e de manhã"
           ]
         },
         {
-          "heading": "Porque é que as lojas remotas são mais caras",
+          "heading": "Porque é que as lojas isoladas são mais caras",
           "body": [
-            "Uma loja pequena na West Coast, no extremo norte ou no East Cape suporta custos de transporte, menos rotação e menos concorrência. Conta com sobrepreços significativos nos básicos e menos variedade de tamanhos, sobretudo nos frescos e nos laticínios.",
-            "Não é tanto abuso como aritmética, e essas lojas são muitas vezes a única razão para uma comunidade pequena ter loja. Reabastece como deve ser no último centro grande e depois compra localmente o que vale a pena comprar localmente."
+            "Uma loja pequena na West Coast, no extremo norte ou no East Cape paga o transporte da mercadoria, vende menos e tem pouca concorrência. Conta com preços bem mais altos nos básicos e menos tamanhos à escolha, sobretudo nos frescos e nos laticínios.",
+            "Mais do que preços abusivos, é uma questão de contas, e muitas vezes é graças a estas lojas que uma pequena comunidade tem sequer onde comprar. Faz uma boa reposição no último centro grande e deixa para as lojas locais o que vale mesmo a pena comprar lá."
           ],
           "tips": []
         },
         {
-          "heading": "Fazer compras para um frigorífico pequeno",
+          "heading": "Compras para um frigorífico pequeno",
           "body": [
-            "Os frigoríficos das autocaravanas são pequenos, e os que funcionam com a bateria do veículo perdem eficiência com o calor. Compra para dois ou três dias e não para uma semana, dá preferência a ingredientes que sirvam para várias refeições e guarda a carne crua bem fechada e em baixo, onde não possa pingar.",
-            "O peixe enlatado, os ovos, o queijo curado, a aveia, o arroz, a massa e os tubérculos aguentam sem grande refrigeração e dão para muitas refeições. Com essa base, um mau dia de gelo não te faz perder as compras todas."
+            "Os frigoríficos das campervans são pequenos, e os que funcionam com a bateria do veículo perdem eficiência com o calor. Compra para dois ou três dias e não para uma semana, prefere ingredientes que sirvam para várias refeições e guarda a carne crua bem fechada e em baixo, onde não possa pingar para cima de nada.",
+            "Conservas de peixe, ovos, queijo curado, aveia, arroz, massa e legumes de raiz aguentam-se sem grande refrigeração e dão para muitas refeições. Com esta base, um dia em que o gelo falhe não te faz perder as compras todas."
           ],
           "tips": [
             "Compra para três dias, não para sete",
@@ -4401,17 +4401,17 @@
         {
           "heading": "Um valor semanal realista",
           "body": [
-            "Um viajante sozinho e cuidadoso que cozinha a maior parte das refeições pode contar com NZ$110 a NZ$180 por semana em supermercado, e os casais conseguem um valor por pessoa mais baixo ao partilhar os básicos. Carne de qualidade, refeições prontas, necessidades alimentares específicas e compras em zonas remotas fazem-no subir depressa.",
-            "Mantém o café, o take-away e as refeições partilhadas numa rubrica à parte. Chamar supermercado a toda a comida que compras esconde os gastos mais fáceis de ajustar quando o orçamento precisa de correção."
+            "Quem viaja sozinho, controla os gastos e cozinha a maior parte das refeições pode contar com 110 a 180 NZD por semana em supermercado; um casal consegue um valor por pessoa mais baixo porque partilha os básicos. Carne de melhor qualidade, refeições prontas, restrições alimentares e compras em zonas isoladas fazem esse valor subir depressa.",
+            "Põe o café, o take-away e as refeições partilhadas numa rubrica à parte. Se contares toda a comida como supermercado, deixas de ver precisamente os gastos mais fáceis de cortar quando o orçamento precisa de correção."
           ],
           "tips": []
         },
         {
-          "heading": "Produtos da época e o que vale a pena comprar",
+          "heading": "Frescos da época e o que vale a pena comprar",
           "body": [
-            "Comprar o que é da época na zona é onde está a verdadeira poupança. A fruta de caroço de Central Otago em janeiro e fevereiro, os frutos vermelhos da Bay of Plenty no verão, os abacates de Northland e as maçãs de Hawke's Bay no outono são muitíssimo mais baratos na origem.",
-            "As bancas à beira da estrada nas zonas produtoras funcionam muitas vezes com caixa de pagamento por confiança e ficam bastante abaixo dos supermercados. Leva notas pequenas e um saco, porque costumam aceitar só numerário e aparecem sem aviso.",
-            "A fruta e os legumes fora de época são importados e têm o preço correspondente. Organizar as refeições à volta do que estiver barato nessa semana, em vez de uma lista de compras fixa, é o hábito que mais reduz a conta da comida numa viagem longa."
+            "A verdadeira poupança está em comprar o que é da época na zona. A fruta de caroço em Central Otago em janeiro e fevereiro, os frutos vermelhos na Bay of Plenty durante o verão, os abacates em Northland e as maçãs em Hawke's Bay no outono custam muito menos na origem.",
+            "Nas zonas produtoras, as bancas à beira da estrada funcionam muitas vezes com uma honesty box (uma caixa onde deixas o dinheiro, sem ninguém a atender) e ficam bem abaixo dos preços do supermercado. Leva notas pequenas e um saco, porque costumam aceitar só dinheiro e aparecem sem aviso.",
+            "A fruta e os legumes fora de época são importados e o preço reflete isso. Organizar as refeições em função do que estiver barato nessa semana, em vez de seguir uma lista de compras fixa, é o hábito que mais reduz a conta da comida numa viagem longa."
           ],
           "tips": []
         }
@@ -4419,26 +4419,26 @@
       "faq": [
         [
           "Quanto custa uma semana de supermercado na Nova Zelândia?",
-          "O guia calcula um cabaz real e não uma média, com valores datados por produto. A fruta, os legumes e os laticínios estão perto do que os visitantes esperam, e os produtos embalados, a carne e tudo o que é importado ficam visivelmente mais caros."
+          "O guia faz as contas a um cabaz real, e não a uma média, com a data de verificação de cada produto. A fruta, os legumes e os laticínios andam perto do que os visitantes esperam; os produtos embalados, a carne e tudo o que é importado são bastante mais caros."
         ],
         [
           "Onde é mais barato comprar comida na Nova Zelândia?",
-          "Nas grandes cadeias de supermercados dos centros principais, e a diferença em relação a uma loja de terra pequena é grande o suficiente para a ter em conta ao planear. Os mercados de fim de semana batem ambos na fruta e nos legumes da época."
+          "Nos supermercados das grandes cadeias, nas cidades principais. A diferença face a uma loja de uma terra pequena é grande o suficiente para a teres em conta no planeamento. Na fruta e nos legumes da época, os mercados de fim de semana ganham a ambos."
         ]
       ],
       "sources": [
         {
-          "label": "Preços da Numbeo na Nova Zelândia, atualizados em junho de 2026"
+          "label": "Numbeo: preços na Nova Zelândia, atualizados em junho de 2026"
         },
         {
-          "label": "Índices de preços selecionados da Stats NZ, junho de 2026"
+          "label": "Stats NZ: índices de preços selecionados, junho de 2026"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of New Zealand"
+          "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Intervalos de preços nacionais contribuídos pela comunidade, atualizados pela última vez a 12 de junho de 2026. A marca, o tamanho da embalagem, a época e o transporte para zonas remotas explicam boa parte da diferença.",
+        "note": "Intervalos de preços nacionais recolhidos pela comunidade, atualizados pela última vez a 12 de junho de 2026. A marca, o tamanho da embalagem, a época do ano e o transporte para zonas isoladas explicam boa parte da diferença.",
         "rows": [
           {
             "label": "Leite",
@@ -4461,15 +4461,15 @@
             "unit": "1 kg"
           },
           {
-            "label": "Maçãs",
+            "label": "Maçã",
             "unit": "1 kg"
           },
           {
-            "label": "Tomates",
+            "label": "Tomate",
             "unit": "1 kg"
           },
           {
-            "label": "Batatas",
+            "label": "Batata",
             "unit": "1 kg"
           }
         ]
@@ -4477,120 +4477,120 @@
     },
     "eating-out-new-zealand-prices-2026": {
       "title": "Comer fora na Nova Zelândia: preços de refeições e café em 2026",
-      "description": "Os intervalos de cafés, take-away e restaurantes mostram porque é que uma só refeição paga pode mudar um orçamento diário.",
-      "region": "Vilas e cidades da Nova Zelândia",
-      "imageAlt": "Refeição e café num café da Nova Zelândia",
-      "intro": "Comer fora vai de um almoço de padaria a um jantar de três pratos na cidade. Os valores nacionais dão uma escala útil, embora estabelecimentos concretos e terras turísticas possam ficar fora deles.",
+      "description": "Preços de cafés, take-away e restaurantes na Nova Zelândia, e porque é que uma única refeição comprada fora pode mudar por completo o teu orçamento diário.",
+      "region": "Cidades e vilas da Nova Zelândia",
+      "imageAlt": "Refeição e café numa cafetaria da Nova Zelândia",
+      "intro": "Comer fora vai de um almoço numa padaria a um jantar de três pratos na cidade. Os valores nacionais dão uma boa ideia da escala, mas há restaurantes e terras turísticas que ficam fora deles.",
       "sections": [
         {
-          "heading": "Escolhe que refeição conta",
+          "heading": "Escolhe a refeição que conta",
           "body": [
-            "Compra o pequeno-almoço e os almoços para a estrada, e gasta de propósito num jantar local. Assim a comida de conveniência não se torna um custo não planeado três vezes por dia.",
-            "As padarias, as zonas de restauração e os balcões de take-away podem ser uma opção intermédia, mas compara a dose e o valor nutritivo e não só o preço."
+            "Compra o necessário para o pequeno-almoço e para os almoços na estrada e gasta de propósito num jantar local. Assim, a comida pronta não se transforma num gasto imprevisto três vezes por dia.",
+            "Padarias, zonas de restauração e balcões de take-away podem ser um meio-termo, mas compara o tamanho da dose e o valor nutritivo, não só o preço."
           ],
           "tips": []
         },
         {
           "heading": "O sítio muda a conta",
           "body": [
-            "As zonas ribeirinhas, as terras de esqui e as atrações isoladas podem cobrar mais do que os centros dos subúrbios. Mesmo assim, o sobrepreço pode valer a pena se te poupar o estacionamento ou mais uma viagem.",
-            "Vê o menu antes de te sentares quando o orçamento estiver apertado. Podem aplicar-se sobretaxas de feriado, que têm de estar indicadas."
+            "As zonas à beira-água, as terras de esqui e as atrações isoladas podem cobrar mais do que os centros dos subúrbios. Mesmo assim, o sobrepreço pode compensar se te poupar o estacionamento ou mais uma viagem de carro.",
+            "Quando o orçamento estiver apertado, vê a ementa antes de te sentares. Podem aplicar-se sobretaxas de feriado, que devem estar indicadas."
           ],
           "tips": []
         },
         {
-          "heading": "Regista a saída completa",
+          "heading": "Soma a saída inteira",
           "body": [
-            "Soma à refeição as bebidas, o transporte, o estacionamento e qualquer sobretaxa de cartão. Um restaurante teoricamente barato do outro lado da cidade pode sair mais caro do que ir a pé a um um pouco mais caro.",
-            "Mantém os gastos em restaurantes separados dos do supermercado, para que a origem de uma derrapagem do orçamento continue visível."
+            "Junta à refeição as bebidas, o transporte, o estacionamento e qualquer sobretaxa de cartão. Um restaurante barato no papel, do outro lado da cidade, pode sair mais caro do que ir a pé a outro com preços um pouco mais altos.",
+            "Regista os gastos em restaurantes à parte dos do supermercado, para veres logo de onde vem a derrapagem se o orçamento disparar."
           ],
           "tips": []
         },
         {
-          "heading": "Onde está realmente o preço",
+          "heading": "Onde se gasta de facto",
           "body": [
-            "Uma tarte de padaria e um café são um almoço mesmo barato e existem em quase todas as terras. Um brunch num café é o gasto intermédio mais comum e acumula-se mais depressa do que as pessoas esperam. Um jantar num restaurante com bebidas é muitas vezes a maior rubrica do dia, à frente do alojamento.",
-            "O fish and chips continua a ser a refeição quente com melhor relação qualidade-preço na maioria das terras costeiras, e a qualidade costuma ser melhor nas mais pequenas. Pedir ao balcão e comer lá fora custa uma fração de uma refeição comparável servida à mesa."
+            "Uma pie de padaria (empada de massa folhada, normalmente de carne) e um café são um almoço mesmo barato, e encontra-se em quase todas as terras. Um brunch num café é o gasto intermédio mais comum e soma-se mais depressa do que se espera. Um jantar num restaurante com bebidas é muitas vezes a maior despesa do dia, à frente do alojamento.",
+            "O fish and chips continua a ser a refeição quente com melhor relação qualidade-preço na maioria das terras costeiras, e costuma ser melhor nas mais pequenas. Pedir ao balcão e comer lá fora custa uma fração do que pagarias por uma refeição equivalente servida à mesa."
           ],
           "tips": []
         },
         {
           "heading": "Sobretaxas e comissões de pagamento",
           "body": [
-            "As sobretaxas de feriado são legais e comuns, normalmente à volta de quinze por cento, e têm de estar indicadas. Também há sobretaxas de cartão em muitos estabelecimentos, sobretudo com cartões de crédito e pagamentos contactless, e são aplicadas na caixa em vez de aparecerem no menu.",
-            "Na Nova Zelândia não se espera gorjeta e ninguém vai pensar mal de ti por não a dares. Alguns estabelecimentos mostram agora uma opção de gorjeta no terminal de pagamento, um hábito importado recentemente e não uma norma local."
+            "As sobretaxas de feriado são legais e comuns, normalmente à volta de quinze por cento, e têm de ser anunciadas. Muitos estabelecimentos cobram também uma sobretaxa pelo pagamento com cartão, sobretudo de crédito e contactless, e aplicam-na na caixa em vez de a mostrarem na ementa.",
+            "Na Nova Zelândia não se espera gorjeta e ninguém vai pensar mal de ti por não a deixares. Alguns sítios já mostram uma sugestão de gorjeta no terminal de pagamento, mas é um hábito importado há pouco tempo, não um costume local."
           ],
           "tips": [
-            "As sobretaxas de feriado são normais",
-            "As sobretaxas de cartão aparecem na caixa",
+            "Sobretaxa de feriado é normal",
+            "A sobretaxa de cartão aparece na caixa",
             "Não se espera gorjeta"
           ]
         },
         {
           "heading": "Comer bem numa terra turística",
           "body": [
-            "Queenstown, Wānaka, Taupō e Paihia têm um sobrepreço turístico, e os restaurantes mesmo à beira da água são normalmente os mais caros e raramente os melhores. Recuar duas ruas costuma dar melhor comida por menos dinheiro.",
-            "Os menus de almoço dos bons restaurantes dão muitas vezes quase toda a experiência do jantar por bastante menos. Se quiseres uma refeição memorável numa terra cara, marca-a ao almoço."
+            "Queenstown, Wānaka, Taupō e Paihia têm todas preços inflacionados pelo turismo, e os restaurantes mesmo à beira da água são normalmente os mais caros e raramente os melhores. Basta recuar duas ruas para encontrar, quase sempre, melhor comida por menos dinheiro.",
+            "Os menus de almoço dos bons restaurantes dão muitas vezes quase tudo o que o jantar dá, por bastante menos. Se quiseres uma refeição memorável numa terra cara, reserva para o almoço."
           ],
           "tips": []
         },
         {
-          "heading": "Decidir quando comer fora vale a pena",
+          "heading": "Quando vale a pena comer fora",
           "body": [
-            "Gasta de propósito em refeições ligadas ao sítio: lagosta em Kaikōura, whitebait na West Coast na época, ostras de Bluff no sul, um almoço numa adega de Hawke's Bay. São coisas que não consegues cozinhar numa carrinha e de que te vais lembrar.",
-            "Usa compras simples nos dias de deslocação, quando chegas tarde e sais cedo e a refeição é combustível e não uma experiência. Esse padrão paga-te as boas refeições sem tornar todos os dias caros."
+            "Gasta de propósito em refeições ligadas ao sítio: lagosta em Kaikōura, whitebait (peixinhos juvenis, uma iguaria local) na West Coast na época certa, ostras de Bluff no sul, um almoço numa adega de Hawke's Bay. São coisas que não consegues cozinhar numa carrinha e de que te vais lembrar.",
+            "Nos dias de estrada, quando chegas tarde e sais cedo e a refeição é só para matar a fome, não para ser uma experiência, recorre a compras simples do supermercado. É esta rotina que te paga as boas refeições sem tornar todos os dias caros."
           ],
           "tips": [
-            "Gasta em comida ligada à região",
-            "Supermercado nos dias de deslocação",
-            "Os menus de almoço batem os preços do jantar"
+            "Gasta em comida típica da região",
+            "Supermercado nos dias de estrada",
+            "Menus de almoço batem o preço do jantar"
           ]
         },
         {
-          "heading": "Padarias, e a questão da tarte de carne picada e queijo",
+          "heading": "Padarias e a questão da pie de carne picada e queijo",
           "body": [
-            "A tarte de padaria é a refeição quente mais barata do país e faz mesmo parte da cultura, com um concurso nacional anual levado mais a sério do que alguém de fora esperaria. As padarias das terras pequenas batem muitas vezes as da cidade.",
-            "O fish and chips pedido ao balcão e comido lá fora é a outra refeição barata e fiável, e a qualidade costuma ser maior nas terras costeiras do que nas cidades. Pergunta qual é o peixe do dia em vez de pedires sem mais.",
-            "Os cafés deixam normalmente de servir comida mais cedo do que os visitantes esperam, muitas vezes a meio da tarde, e nas terras pequenas pode não haver nada aberto depois das 20h00. Levar alguma coisa para cozinhar é o que impede uma chegada tardia de acabar num jantar caro ou sem jantar."
+            "A pie de padaria é a refeição quente mais barata do país e faz mesmo parte da cultura, com um concurso nacional anual levado mais a sério do que alguém de fora imagina. As padarias das terras pequenas ganham muitas vezes às das cidades.",
+            "O fish and chips pedido ao balcão e comido lá fora é a outra refeição barata que nunca falha, e a qualidade costuma ser melhor nas terras costeiras do que nas cidades. Pergunta qual é o peixe do dia em vez de pedires simplesmente «peixe».",
+            "Os cafés deixam de servir comida mais cedo do que os visitantes esperam, muitas vezes a meio da tarde, e nas terras pequenas pode não haver nada aberto depois das 20h. Ter sempre alguma coisa para cozinhar é o que impede que uma chegada tardia acabe num jantar caro ou sem jantar."
           ],
           "tips": []
         }
       ],
       "faq": [
         [
-          "Quanto custa uma refeição fora na Nova Zelândia?",
-          "O guia dá preços datados para um brunch num café, uma refeição num pub, um jantar de gama média e um take-away, em dólares neozelandeses e com dez conversões. O salto entre um café e um restaurante é maior aqui do que na maioria dos países."
+          "Quanto custa comer fora na Nova Zelândia?",
+          "O guia dá preços, com data, de um brunch num café, de uma refeição num pub, de um jantar de gama média e de um take-away, em dólares neozelandeses e convertidos para dez moedas. O salto de preço entre um café e um restaurante é maior aqui do que na maioria dos países."
         ],
         [
           "Dá-se gorjeta na Nova Zelândia?",
-          "Não. Não se espera gorjeta, os preços não são definidos a contar com ela e não há taxa de serviço numa conta normal."
+          "Não. Não se espera gorjeta, os preços não contam com ela e uma conta normal não traz taxa de serviço."
         ]
       ],
       "sources": [
         {
-          "label": "Preços da Numbeo na Nova Zelândia, atualizados em junho de 2026"
+          "label": "Numbeo: preços na Nova Zelândia, atualizados em junho de 2026"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of New Zealand"
+          "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Intervalos para a Nova Zelândia contribuídos pela comunidade, atualizados em junho de 2026. As gorjetas não são geralmente obrigatórias, mas podem aplicar-se sobretaxas de cartão e preços de feriado.",
+        "note": "Intervalos de preços na Nova Zelândia recolhidos junto da comunidade e atualizados em junho de 2026. A gorjeta não costuma ser obrigatória, mas podem aplicar-se sobretaxas de cartão e preços de feriado.",
         "rows": [
           {
-            "label": "Refeição num restaurante económico",
-            "unit": "uma pessoa"
+            "label": "Refeição num restaurante barato",
+            "unit": "por pessoa"
           },
           {
             "label": "Menu de fast food",
             "unit": "uma refeição"
           },
           {
-            "label": "Jantar de gama média",
+            "label": "Jantar num restaurante médio",
             "unit": "duas pessoas, três pratos"
           },
           {
-            "label": "Capucino",
+            "label": "Cappuccino",
             "unit": "uma chávena"
           },
           {
@@ -4601,82 +4601,82 @@
       }
     },
     "new-zealand-road-trip-fuel-cost-2026": {
-      "title": "Custo do combustível numa viagem pela Nova Zelândia em 2026",
-      "description": "Usa a distância e os litros aos 100 quilómetros com a referência nacional oficial atual da gasolina.",
+      "title": "Preço do combustível na Nova Zelândia: o custo da viagem em 2026",
+      "description": "Calcula o combustível da tua viagem pela Nova Zelândia com a distância, os litros aos 100 km e o preço oficial de referência da gasolina mais recente no país.",
       "region": "Estradas da Nova Zelândia",
-      "imageAlt": "Autocaravana a abastecer durante uma viagem pela Nova Zelândia",
-      "intro": "O combustível transforma o desenho do itinerário num custo mensurável. A 26 de julho de 2026, o preço de referência nacional do MBIE para a gasolina normal 91 era de $2,96 por litro, depois de um ano invulgarmente volátil.",
+      "imageAlt": "Campervan a abastecer durante uma viagem pela Nova Zelândia",
+      "intro": "É o combustível que transforma o itinerário num custo concreto. Segundo o MBIE (Ministry of Business, Innovation and Employment, o ministério da economia neozelandês), a 26 de julho de 2026 o preço representativo afixado nas bombas de todo o país para a gasolina normal 91 era de 2,96 NZD por litro, depois de um ano invulgarmente instável.",
       "sections": [
         {
-          "heading": "Calcula com o veículo real",
+          "heading": "Faz as contas com o teu veículo",
           "body": [
-            "Multiplica os quilómetros pelos litros aos 100 quilómetros, divide por 100 e multiplica pelo preço por litro. Usa o consumo provável da autocaravana carregada e não a média de um carro pequeno.",
-            "Soma desvios e deslocações locais. Um percurso de 2.000 quilómetros pode dar várias centenas de quilómetros extra entre parques, lojas e miradouros."
+            "Multiplica os quilómetros pelos litros aos 100 quilómetros, divide por 100 e multiplica pelo preço por litro. Usa o consumo provável da campervan carregada, não a média de um carro pequeno.",
+            "Soma os desvios e as voltas locais. Um percurso de 2.000 quilómetros pode ganhar várias centenas de quilómetros extra entre parques de campismo, lojas e miradouros."
           ],
           "tips": []
         },
         {
           "heading": "Conta com a geografia",
           "body": [
-            "Os postos remotos e os corredores turísticos podem cobrar mais do que a referência nacional. Atesta antes dos troços longos sem postos e não passes por combustível fiável por uma pequena poupança esperada.",
-            "O vento de frente, as estradas de montanha, o equipamento no tejadilho e a carga aumentam o consumo. Atualiza a estimativa depois dos dois primeiros depósitos."
+            "Os postos isolados e as rotas turísticas podem cobrar mais do que a referência nacional. Atesta antes dos troços longos sem postos e não deixes para trás um posto garantido à espera de uma pequena poupança mais à frente.",
+            "O vento de frente, as estradas de montanha, o equipamento no tejadilho e a carga aumentam o consumo. Revê a estimativa depois dos dois primeiros depósitos."
           ],
           "tips": []
         },
         {
-          "heading": "Encara a volatilidade com honestidade",
+          "heading": "Não subestimes a volatilidade",
           "body": [
-            "A Stats NZ registou uma subida de 20,1 por cento nos preços da gasolina no trimestre de junho de 2026, e o MBIE assinalou uma volatilidade invulgar nos mercados internacionais. Um valor desatualizado pode depressa subestimar o percurso.",
-            "Usa a calculadora de combustível com o preço de hoje e deixa margem para o troço remoto."
+            "A Stats NZ (o instituto de estatística neozelandês) registou uma subida de 20,1 por cento nos preços da gasolina no trimestre de junho de 2026, e o MBIE assinalou uma volatilidade invulgar nos mercados internacionais. Com um valor desatualizado, o custo do percurso pode facilmente ficar abaixo da realidade.",
+            "Usa a calculadora de combustível com o preço afixado nesse dia e deixa margem para o troço mais remoto."
           ],
           "tips": []
         },
         {
           "heading": "Gasolina, gasóleo e road user charges",
           "body": [
-            "O gasóleo é mais barato por litro na bomba, mas os veículos a gasóleo pagam à parte as road user charges, compradas antecipadamente por cada mil quilómetros. Se alugares, vê se as RUC estão incluídas na tarifa diária ou são cobradas no fim, porque mudam bastante a comparação com a gasolina.",
-            "Num veículo particular, as RUC têm de estar em dia para a distância que percorres, e isso é fiscalizado. Comprá-las é simples online ou num agente autorizado, e ultrapassar a distância comprada dá direito a sanção."
+            "O gasóleo é mais barato por litro na bomba, mas os veículos a gasóleo pagam à parte as road user charges (RUC, uma taxa de utilização da estrada), compradas antecipadamente por cada mil quilómetros. Se alugares, confirma se as RUC estão incluídas na tarifa diária ou são cobradas no fim, porque isso muda bastante a comparação com a gasolina.",
+            "Num veículo particular, as RUC têm de cobrir a distância que fazes, e isso é fiscalizado. Comprá-las é simples, online ou num agente autorizado, e ultrapassar a distância paga dá multa."
           ],
           "tips": [
-            "O gasóleo paga RUC além do combustível",
-            "Pergunta se a tarifa do aluguer inclui as RUC",
-            "Mantém as RUC à frente do conta-quilómetros"
+            "No gasóleo, pagas RUC além do combustível",
+            "Pergunta se o aluguer inclui as RUC",
+            "RUC sempre à frente do conta-quilómetros"
           ]
         },
         {
           "heading": "Onde o combustível é mais caro",
           "body": [
-            "Os preços são mais baixos nos centros principais e nos postos dos subúrbios com concorrência, e mais altos nos troços remotos com um só operador. A West Coast, Fiordland, o East Cape, o interior de Otago e o extremo norte têm sobrepreço, por vezes grande.",
-            "Esse sobrepreço não é razão para andar com o depósito em baixo. O custo de pôr vinte litros a um preço mais alto é insignificante comparado com ficar sem combustível num sítio sem rede, e os postos que cobram mais são normalmente os que não têm concorrência num raio de cem quilómetros."
+            "Os preços são mais baixos nas cidades principais e nos postos dos subúrbios onde há concorrência, e mais altos nos troços isolados com um único operador. A West Coast, Fiordland, o East Cape, o interior de Otago e o extremo norte têm todos sobrepreço, às vezes bem grande.",
+            "Esse sobrepreço não é razão para andares com o depósito em baixo. Pôr vinte litros a um preço mais alto custa pouco comparado com ficar sem combustível num sítio sem rede, e os postos que cobram mais são normalmente os que não têm concorrência num raio de cem quilómetros."
           ],
           "tips": []
         },
         {
-          "heading": "O que muda realmente o consumo",
+          "heading": "O que muda mesmo o consumo",
           "body": [
-            "A carga, as caixas de tejadilho, o vento de frente, as subidas prolongadas e a velocidade contam, e uma autocaravana carregada contra um nor'wester de Canterbury pode gastar mais um quarto do que o valor do folheto. O efeito do ar condicionado é pequeno; o do motor ao ralenti para aquecimento é maior do que a maioria pensa.",
-            "A pressão dos pneus conta e deve ser acertada para o veículo carregado e não vazio. As autocaravanas de aluguer chegam muitas vezes com pouca pressão, o que custa combustível e estabilidade ao mesmo tempo."
+            "A carga, as caixas de tejadilho, o vento de frente, as subidas longas e a velocidade contam todos, e uma campervan carregada contra um nor'wester de Canterbury (o vento forte de noroeste) pode gastar mais um quarto do que o consumo anunciado. O ar condicionado tem pouco efeito; deixar o motor ao ralenti para aquecer o interior pesa mais do que a maioria pensa.",
+            "A pressão dos pneus conta e deve ser a indicada para o veículo carregado, não vazio. As campervans de aluguer chegam muitas vezes com pouca pressão nos pneus, o que custa combustível e estabilidade ao mesmo tempo."
           ],
           "tips": [
-            "Acerta a pressão para o veículo carregado",
-            "O vento de frente custa mais do que o ar condicionado",
-            "As caixas de tejadilho saem caras em velocidade"
+            "Pressão dos pneus para o veículo carregado",
+            "Vento de frente gasta mais que o ar condicionado",
+            "Caixas de tejadilho gastam muito em velocidade"
           ]
         },
         {
-          "heading": "Reduz a conta sem cortar na viagem",
+          "heading": "Baixa a conta sem encurtar a viagem",
           "body": [
-            "A maior poupança possível são menos quilómetros desnecessários. Agrupar paragens próximas, evitar voltar para trás e aceitar que não dá para ver bem as duas ilhas em dez dias poupa mais do que qualquer técnica de condução cuidadosa.",
-            "Depois disso, velocidades constantes e travar cedo ajudam um pouco. O que não ajuda é andar em ponto-morto, que na prática é ilegal e perigoso, nem transportar combustível em recipientes inadequados."
+            "A maior poupança está em fazer menos quilómetros desnecessários. Agrupar paragens próximas, evitar voltar para trás e aceitar que não dá para ver bem as duas ilhas em dez dias poupa mais do que todo o cuidado que possas ter ao volante.",
+            "Depois disso, velocidade constante e travagens antecipadas ajudam um pouco. O que não ajuda é descer em ponto morto, que na prática é ilegal e perigoso, nem levar combustível em recipientes inadequados."
           ],
           "tips": []
         },
         {
-          "heading": "Programas de fidelização e onde abastecer",
+          "heading": "Descontos e onde abastecer",
           "body": [
-            "As principais gasolineiras têm programas de desconto ligados às compras no supermercado, e os vales acumulam com algumas ofertas de cartões. Numa viagem longa dão uma poupança real, embora nunca suficiente para justificar passar pelo último posto antes de um troço remoto.",
-            "Os postos automáticos sem pessoal são comuns nas terras pequenas e costumam ser mais baratos, mas alguns recusam cartões estrangeiros. Tem um cartão de reserva e não chegues a um com o depósito vazio à noite a contar que funcione.",
-            "Os preços variam bastante entre localidades, mesmo dentro de uma região. Nos centros principais vale a pena atestar antes de sair e não no último posto dos subúrbios, que é muitas vezes o mais caro do percurso."
+            "As principais gasolineiras têm descontos associados às compras no supermercado, e os vales acumulam com algumas ofertas de cartões. Numa viagem longa a poupança é real, mas nunca chega para justificar passar sem parar pelo último posto antes de um troço isolado.",
+            "Os postos automáticos sem funcionários são comuns nas terras pequenas e costumam ser mais baratos, mas alguns recusam cartões estrangeiros. Leva um cartão alternativo e não chegues a um deles de depósito vazio, já de noite, a contar que funcione.",
+            "Os preços variam bastante de terra para terra, mesmo dentro da mesma região. Nas cidades principais vale a pena atestar antes de partires e não no último posto dos subúrbios, que é muitas vezes o mais caro do percurso."
           ],
           "tips": []
         }
@@ -4684,26 +4684,26 @@
       "faq": [
         [
           "Quanto custa o combustível na Nova Zelândia?",
-          "O guia dá um preço por litro datado para gasolina e gasóleo e aplica-o a percursos reais. Os preços sobem visivelmente nas zonas remotas, e os veículos a gasóleo pagam ainda road user charges, que as pessoas se esquecem de orçamentar."
+          "Este guia dá um preço por litro, com data, para a gasolina e o gasóleo e aplica-o a percursos reais. Os preços sobem bastante nas zonas remotas, e os veículos a gasóleo pagam também road user charges, que muita gente se esquece de pôr no orçamento."
         ],
         [
-          "Como se estima o combustível para uma viagem pela Nova Zelândia?",
-          "Pega na distância do percurso, acrescenta um terço para desvios e relevo e aplica o consumo real do teu veículo, não o valor do folheto. Uma autocaravana com vento de frente numa estrada com subidas não vai cumprir o consumo homologado."
+          "Como calculo o combustível para uma viagem pela Nova Zelândia?",
+          "Pega na distância do percurso, acrescenta um terço para desvios e relevo e faz as contas com o consumo real do teu veículo, não com o consumo anunciado. Uma campervan com vento de frente numa estrada com muitas subidas não vai conseguir o consumo homologado."
         ]
       ],
       "sources": [
         {
-          "label": "Monitorização semanal dos preços dos combustíveis do MBIE"
+          "label": "MBIE: monitorização semanal dos preços dos combustíveis"
         },
         {
-          "label": "Preço de referência dos combustíveis do MBIE"
+          "label": "MBIE: preço de referência afixado nos postos (fuel response)"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of New Zealand"
+          "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "A referência da gasolina é a oficial do MBIE da semana terminada a 26 de julho de 2026. Os exemplos de percurso são cálculos automáticos antes da variação de preços nas zonas remotas.",
+        "note": "A referência da gasolina é o valor oficial do MBIE para a semana que terminou a 26 de julho de 2026. Os exemplos de percurso são contas simples, antes da variação de preços nas zonas remotas.",
         "rows": [
           {
             "label": "Gasolina normal 91",
@@ -4725,112 +4725,112 @@
       }
     },
     "public-transport-costs-new-zealand-2026": {
-      "title": "Custos dos transportes públicos nas cidades da Nova Zelândia em 2026",
-      "description": "As zonas de Auckland, os tetos semanais e os intervalos normais de bilhetes no país não devem ser reduzidos a uma única tarifa.",
+      "title": "Transportes públicos na Nova Zelândia: preços nas cidades em 2026",
+      "description": "Em Auckland pagas por zonas e há um teto semanal, e no resto do país os bilhetes têm outros preços: os transportes públicos neozelandeses não têm tarifa única.",
       "region": "Auckland e Wellington",
       "imageAlt": "Transportes públicos numa cidade da Nova Zelândia",
-      "intro": "As tarifas urbanas usam cartões locais, zonas, regras de pagamento contactless e exclusões. Compara o dia ou a semana de viagem reais em vez de um bilhete de cada rede.",
+      "intro": "Nas cidades, as tarifas dependem de cartões locais, zonas, regras próprias para o pagamento contactless e exclusões. Compara o custo do dia ou da semana que vais mesmo fazer, e não o de um bilhete em cada rede.",
       "sections": [
         {
-          "heading": "A forma de pagamento muda o resultado",
+          "heading": "A forma de pagar muda a conta",
           "body": [
-            "O teto de $50 em sete dias de Auckland aplica-se às viagens elegíveis com AT HOP, enquanto o pagamento contactless tem um teto diário de $20. Nem todos os ferries estão incluídos.",
-            "Valida corretamente à entrada e à saída. Uma validação em falta pode mudar o valor cobrado ou impedir que a viagem conte para o teto."
+            "Em Auckland, o teto de 50 NZD em sete dias (o máximo que pagas nesse período) aplica-se às viagens elegíveis com o cartão AT HOP, e o pagamento contactless tem um teto diário de 20 NZD. Nem todos os ferries estão incluídos.",
+            "Passa o cartão no leitor à entrada e à saída. Se falhares uma validação, podes pagar outro valor ou a viagem pode não contar para o teto."
           ],
           "tips": []
         },
         {
-          "heading": "As redes são locais",
+          "heading": "Cada cidade tem a sua rede",
           "body": [
-            "A Metlink usa zonas, tarifas e regras de transbordo próprias, com alterações em vigor desde 15 de maio de 2026. Outras cidades usam cartões ou sistemas contactless diferentes.",
-            "Consulta separadamente os autocarros do aeroporto, os ferries e os serviços turísticos, porque as tarifas fixas ou especiais ficam muitas vezes fora dos tetos normais."
+            "A Metlink, a rede de Wellington, tem zonas, tarifas e regras de transbordo próprias, com alterações em vigor desde 15 de maio de 2026. Outras cidades usam cartões próprios ou sistemas contactless diferentes.",
+            "Confirma caso a caso os autocarros do aeroporto, os ferries e os serviços turísticos, porque as tarifas fixas ou mais caras ficam muitas vezes fora dos tetos normais."
           ],
           "tips": []
         },
         {
-          "heading": "Deixa a autocaravana estacionada",
+          "heading": "Deixa a campervan estacionada",
           "body": [
-            "Os transportes públicos podem evitar os problemas de estacionar no centro, dos limites de altura e de conduzir depois de beber. Soma a ligação entre o parque e a paragem quando comparares custos.",
-            "Para duas ou mais pessoas, um bilhete simples continua a ter de ser multiplicado por cada viajante e pelos dois sentidos."
+            "Com os transportes públicos escapas aos problemas de estacionar no centro, dos limites de altura e de conduzir depois de beber. Quando comparares custos, soma a ligação entre o parque de campismo e a paragem.",
+            "Para duas ou mais pessoas, o preço de um bilhete simples tem de ser multiplicado pelo número de viajantes e pelos dois sentidos."
           ],
           "tips": []
         },
         {
           "heading": "Cartões, contactless e a manta de retalhos regional",
           "body": [
-            "A Nova Zelândia não tem um cartão de transportes nacional único. Auckland usa o AT HOP, Wellington usa o Snapper e outras regiões têm sistemas próprios, com o pagamento contactless com cartão bancário a chegar de forma desigual. Um cartão comprado numa cidade pode não servir para nada na seguinte.",
-            "Para uma visita curta, vê se a cidade onde estás aceita contactless antes de comprares um cartão pré-carregado. Para uma estadia mais longa em Auckland ou Wellington, o cartão costuma pagar-se depressa com tarifas mais baratas do que em numerário."
+            "A Nova Zelândia não tem um cartão de transportes nacional. Auckland usa o AT HOP, Wellington o Snapper e as outras regiões têm sistemas próprios, com o pagamento contactless com cartão bancário a chegar a ritmos diferentes. Um cartão comprado numa cidade pode não servir de nada na seguinte.",
+            "Numa visita curta, confirma se a cidade onde estás aceita contactless antes de comprares um cartão pré-carregado. Numa estadia mais longa em Auckland ou Wellington, o cartão costuma pagar-se depressa, porque as viagens saem mais baratas do que a pagar em dinheiro."
           ],
           "tips": [
             "Não há cartão de transportes nacional",
-            "Confirma o contactless antes de comprar um cartão",
-            "Pagar em numerário é o mais caro"
+            "Confirma o contactless antes de comprar cartão",
+            "Pagar em dinheiro sai mais caro"
           ]
         },
         {
           "heading": "Ligações ao aeroporto",
           "body": [
-            "Auckland, Wellington e Christchurch têm autocarros entre o aeroporto e a cidade, com preço à parte das tarifas urbanas normais e bastante mais baratos do que um táxi ou um TVDE. O autocarro do aeroporto de Queenstown é curto e barato. Nenhum está incluído num passe diário normal.",
-            "Calcula à parte a ligação ao aeroporto quando comparares opções e conta com a bagagem. Com três ou mais pessoas e malas, um TVDE às vezes compete com os bilhetes de autocarro individuais, o que raramente acontece a quem viaja sozinho."
+            "Auckland, Wellington e Christchurch têm autocarros entre o aeroporto e a cidade, com preços à parte das tarifas urbanas normais e bastante mais baratos do que um táxi ou um TVDE (Uber e afins). Em Queenstown, o autocarro do aeroporto faz um percurso curto e é barato. Nenhum destes serviços está incluído num passe diário normal.",
+            "Quando comparares opções, calcula à parte o custo da ligação ao aeroporto e conta com a bagagem. Com três ou mais pessoas e malas, um TVDE às vezes fica ao nível dos bilhetes de autocarro individuais, o que raramente acontece a quem viaja sozinho."
           ],
           "tips": []
         },
         {
-          "heading": "Quando os transportes públicos batem a autocaravana",
+          "heading": "Quando os transportes públicos ganham à campervan",
           "body": [
-            "Meter um veículo grande no centro de Auckland ou de Wellington é desagradável, e o estacionamento é caro e com limites de altura. Deixar a carrinha num parque de campismo ou num park-and-ride e entrar de autocarro ou de comboio costuma ser mais rápido, mais barato e muito menos stressante.",
-            "A mesma lógica aplica-se a Queenstown na época alta, onde estacionar uma autocaravana perto do centro é mesmo difícil. Fica nos arredores e usa o serviço local nos dias em que quiseres estar na cidade."
+            "Entrar com um veículo grande no centro de Auckland ou de Wellington não é agradável, e o estacionamento é caro e tem limites de altura. Deixar a carrinha num parque de campismo ou num park-and-ride (parque dissuasor junto aos transportes públicos) e entrar de autocarro ou de comboio costuma ser mais rápido, mais barato e muito menos stressante.",
+            "O mesmo vale para Queenstown na época alta, quando estacionar uma campervan perto do centro é mesmo difícil. Fica nos arredores e usa os transportes locais nos dias em que quiseres ir à cidade."
           ],
           "tips": [
-            "Os limites de altura apanham as autocaravanas",
+            "Os limites de altura apanham as campervans",
             "Park-and-ride para entrar em Auckland e Wellington",
-            "Estacionar em Queenstown na época alta é difícil"
+            "Queenstown na época alta: difícil estacionar"
           ]
         },
         {
-          "heading": "Onde não há serviço nenhum",
+          "heading": "Onde não há transporte nenhum",
           "body": [
-            "A maior parte da Nova Zelândia rural não tem transportes públicos dignos desse nome, e o que existe é muitas vezes um único serviço ligado à escola. Uma viagem planeada à volta dos autocarros funciona entre os centros principais e os polos turísticos, mas não para chegar à maioria dos parques, inícios de trilhos ou terras pequenas.",
-            "Se viajares sem veículo, planeia à volta da rede de autocarros expresso e dos transportes turísticos que servem trilhos específicos, e aceita que o itinerário é moldado por esses percursos e não por onde idealmente irias."
+            "Na maior parte da Nova Zelândia rural não há transportes públicos dignos desse nome, e o que existe é muitas vezes um único serviço ligado às escolas. Uma viagem planeada em função dos autocarros funciona entre os centros principais e os polos turísticos, mas não serve para chegar à maioria dos sítios de campismo, inícios de trilhos ou terras pequenas.",
+            "Se viajares sem veículo, organiza a viagem em função da rede de autocarros intercidades e dos shuttles turísticos que servem trilhos específicos, e aceita que o itinerário fica definido por essas rotas e não pelos sítios onde idealmente irias."
           ],
           "tips": []
         },
         {
           "heading": "Andar sem carro nas cidades",
           "body": [
-            "A rede de comboio e autocarro de Auckland cobre razoavelmente o istmo, e o ferry para Devonport e Waiheke vale a pena por si só. Wellington é suficientemente compacta para se fazer a pé, com o funicular e uma rede de comboios suburbanos para ir mais longe.",
-            "Christchurch tem uma rede de autocarros a partir de um interface central e é tão plana que andar de bicicleta é mesmo prático, com uma rede crescente de ciclovias separadas. O aluguer de bicicletas está muito difundido e muitas vezes compensa mais do que um dia de bilhetes de autocarro.",
-            "Há descontos para crianças e pessoas mais velhas, e algumas cidades têm passes diários que compensam mais do que os bilhetes avulsos a partir de três ou quatro viagens. Calcula quantas viagens vais fazer antes de escolheres entre um passe e pagar por viagem."
+            "Em Auckland, a rede de comboios e autocarros cobre razoavelmente o istmo, e o ferry para Devonport e Waiheke vale a pena só pela viagem. Wellington é compacta e faz-se bem a pé, com o funicular (cable car) e uma rede de comboios suburbanos para ir mais longe.",
+            "Christchurch tem uma rede de autocarros que parte de um interface central e é tão plana que a bicicleta é uma opção a sério, com cada vez mais ciclovias separadas do trânsito. Há aluguer de bicicletas em muitos sítios e muitas vezes compensa mais do que um dia de bilhetes de autocarro.",
+            "Há descontos para crianças e seniores, e algumas cidades têm passes diários que ficam mais baratos do que os bilhetes avulsos a partir de três ou quatro viagens. Antes de escolheres entre um passe e pagar viagem a viagem, calcula quantas viagens vais fazer."
           ],
           "tips": []
         }
       ],
       "faq": [
         [
-          "Os transportes públicos da Nova Zelândia chegam para viajar sem carro?",
-          "Entre as principais cidades, sim, e dentro delas varia muito. É nos sítios rurais e costeiros, que são a maior parte do que as pessoas vêm ver, que a rede praticamente acaba."
+          "Os transportes públicos na Nova Zelândia chegam para viajar sem carro?",
+          "Entre as principais cidades, sim; dentro delas, varia muito. É nas zonas rurais e costeiras, que são a maior parte do que se vem ver, que a rede praticamente acaba."
         ],
         [
           "Quanto custam os transportes públicos nas cidades da Nova Zelândia?",
-          "O guia dá tarifas datadas para Auckland, Wellington e Christchurch. As três têm cartões de validação com teto diário, e comprar o cartão cedo vale a pena para estadias de mais de dois ou três dias."
+          "O guia dá tarifas, com a data de verificação, para Auckland, Wellington e Christchurch. As três têm cartões que se validam à entrada, com teto diário, e numa estadia de mais de dois ou três dias compensa comprar o cartão logo no início."
         ]
       ],
       "sources": [
         {
-          "label": "Tarifas da Auckland Transport em 2026"
+          "label": "Auckland Transport: tarifas de 2026"
         },
         {
-          "label": "Teto de sete dias em Auckland"
+          "label": "Auckland: teto tarifário de sete dias"
         },
         {
-          "label": "Tarifas da Metlink"
+          "label": "Metlink: tarifas"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of New Zealand"
+          "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Tarifas de adulto de Auckland em vigor desde 1 de fevereiro de 2026. O intervalo nacional de bilhete simples é a referência da comunidade de junho de 2026.",
+        "note": "Tarifas de adulto em Auckland em vigor desde 1 de fevereiro de 2026. O intervalo nacional do bilhete simples é a referência da comunidade de junho de 2026.",
         "rows": [
           {
             "label": "CityLink de Auckland",
@@ -4854,7 +4854,7 @@
           },
           {
             "label": "Bilhete simples local típico",
-            "unit": "intervalo nacional da comunidade"
+            "unit": "referência nacional da comunidade"
           }
         ]
       }
