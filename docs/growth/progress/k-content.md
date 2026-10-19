@@ -25,6 +25,13 @@ Branch `growth/k-content`. Owner of `docs/growth/changelog.csv` in this repo (ev
 - Running: sonnet fact-check E (fuel, dump stations, dogs) -> /tmp/kcontent-factcheck/verdict-E.md.
 - Not done on purpose: /tools fuel default ($2.96) and FX date: protected test hard-codes 'NZ$355.20'; needs foundation/orchestrator.
 
+## Session 3 (20 Oct, background agent of the orchestrator)
+- Rebased on origin/main f5e27aa (K-tools-hubs). Conflict in app/tools/page.tsx resolved to main (tools-hubs now owns the tools titles in lib/source-strings.ts; my old /tools retitle is superseded).
+- Licence: verified against NZTA Factsheet 72 (July 2026) and the Amendment Rule 2024 Schedule 1AA Part 2 cl 2 (arrivals 1 Nov 2024 to 31 Oct 2026 keep 18 months). Page and FAQ consistent; no change. growth/k-content-licence rebased on origin/main: 6b10f69, content:check passes.
+- Fact-check E done by this session (verdict docs/growth/factcheck/k-content-E-fuel-dump-dogs.md); one fix (MBIE week date 9 Oct).
+- Hub links: optional `hubs` field + English-only "Browse by region" block in GuideArticle (indexable hubs only). Added to DOC, freedom-camping, where-to-camp and 17 regional road trips. Commit bec9669. In legacy files `hubs` must come after `legacyPath` (audit regex).
+- content:check: only the known number-gate blocker fails (487 strings, unchanged).
+
 ## Next
 1. Fix everything the fact-checks flag, commit, hand off (rebase, `npm run check`, report).
 2. Audit P0 left: new-zealand-road-trip-fuel-cost-2026 (dated MBIE monthly series + retitle 'NZ Petrol Prices 2026 and Campervan Fuel Cost'; needs research subagent). /tools FX date refresh (audit item 14).
