@@ -2,13 +2,13 @@
   "locale": "it",
   "ui": {
     "languageName": "Italiano",
-    "metaTitle": "KiwiCamping: mappa campeggi, siti DOC e itinerari in Nuova Zelanda",
+    "metaTitle": "KiwiCamping: mappa dei campeggi DOC e road trip in Nuova Zelanda",
     "metaDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di freedom camping in tutta la Nuova Zelanda. Schede consultabili offline, filtri precisi e un pianificatore di viaggio tappa per tappa per iPhone.",
     "ogTitle": "KiwiCamping: la mappa dei campeggi e il pianificatore di viaggio per la Nuova Zelanda",
     "ogDescription": "Oltre 6.500 campeggi, rifugi DOC, holiday park e aree di freedom camping, già nell’app e consultabili offline. Filtra, salva e pianifica tutto il viaggio.",
     "metaKeywords": "app campeggio Nuova Zelanda, mappa campeggi Nuova Zelanda, freedom camping Nuova Zelanda, campeggio libero Nuova Zelanda, app campeggi DOC, mappa rifugi DOC, holiday park Nuova Zelanda, app camper Nuova Zelanda, app campeggi offline Nuova Zelanda, pianificatore di viaggio Nuova Zelanda",
     "metaGuidesTitle": "Guide al campeggio e ai viaggi on the road in Nuova Zelanda",
-    "metaGuidesDescription": "Regole del campeggio, freedom camping e requisiti self-contained, siti DOC, stagioni, costi veri e consigli pratici per un viaggio on the road in Nuova Zelanda.",
+    "metaGuidesDescription": "Regole del campeggio, freedom camping e requisiti self-contained, campeggi DOC, stagioni, costi reali e consigli pratici per un viaggio on the road in Nuova Zelanda.",
     "metaToolsTitle": "Calcolatori per un road trip in Nuova Zelanda",
     "metaToolsDescription": "Converti i prezzi neozelandesi, calcola il carburante del viaggio, stima quanto dura davvero una giornata di guida, pianifica acqua e scarichi e confronta le tariffe dei campeggi.",
     "metaSupportTitle": "Assistenza e domande frequenti",
@@ -42,7 +42,7 @@
     "trustNationalParks": "Parchi nazionali",
     "trustFreedomCamping": "Campeggio libero",
     "trustUsefulStops": "Soste utili",
-    "trustDayUse": "Aree attrezzate per il giorno",
+    "trustDayUse": "Aree picnic",
     "processEyebrow": "Dall’idea alla strada",
     "processTitle": "Trova il campeggio. Prepara il viaggio.",
     "processText": "Filtra fino a trovare dove dormire stanotte, salva le idee per domani nelle collezioni e tieni percorso, distanze, date, note e cose da fare insieme in un unico viaggio.",
@@ -53,7 +53,7 @@
     "planTitle": "Trasformalo in un viaggio",
     "planText": "Metti in ordine le tappe, guarda la distanza tra una e l’altra, aggiungi date e note, controlla il meteo di ogni tappa, apri le indicazioni e spuntale man mano che procedi.",
     "featuresEyebrow": "Tutto quello che serve",
-    "featuresTitle": "Trova, salva e pianifica tutta la strada.",
+    "featuresTitle": "Trova, salva e pianifica tutto il viaggio.",
     "featuresText": "Esplora i luoghi, confronta i dettagli, organizza i preferiti e prepara un viaggio che ti serve ancora quando sei già per strada.",
     "featureMainEyebrow": "Conosci il posto prima di arrivarci",
     "featureMainTitle": "Ogni scheda ti dice subito quello che conta per decidere.",
@@ -88,8 +88,8 @@
     "routesTitle": "Conosci le regole. Conosci i costi.",
     "routesText": "Guide pratiche su regole del campeggio, sicurezza, stagioni e quanto costa davvero un viaggio in Nuova Zelanda.",
     "exploreRoutes": "Esplora le guide",
-    "audiencesEyebrow": "Comunque ti porti dietro la casa",
-    "audiencesTitle": "Per chi viaggia in tenda, in van o fa il giro completo.",
+    "audiencesEyebrow": "Comunque tu viaggi",
+    "audiencesTitle": "Per chi viaggia in tenda, in van o fa il giro di tutta la Nuova Zelanda.",
     "audience1Title": "Backpacker",
     "audience1Text": "Budget stretto e itinerario flessibile possono andare d’accordo.",
     "audience2Title": "Camper",
@@ -113,7 +113,7 @@
     "faq1q": "Che cos’è KiwiCamping?",
     "faq1a": "KiwiCamping è un’app per iPhone per trovare dove campeggiare e dormire in giro per la Nuova Zelanda. Contiene un archivio di oltre 6.500 luoghi, così i dettagli restano leggibili anche senza campo, e trasforma i posti che salvi in un viaggio con tappe in ordine, date, note e cose da fare.",
     "faq2q": "Quali luoghi ci sono?",
-    "faq2a": "Più di 6.500 luoghi: campeggi DOC, rifugi nelle zone selvagge, holiday park e altre sistemazioni prenotabili, aree di freedom camping, punti di scarico pubblici e aree attrezzate per il giorno su entrambe le isole.",
+    "faq2a": "Più di 6.500 luoghi: campeggi DOC, rifugi nelle zone selvagge, holiday park e altre sistemazioni prenotabili, aree di freedom camping, punti di scarico pubblici e aree picnic su entrambe le isole.",
     "faq3q": "Funziona senza campo?",
     "faq3a": "L’archivio dei luoghi è dentro l’app, quindi nomi, categorie, descrizioni, tariffe, servizi e condizioni restano leggibili anche dove il segnale non arriva. I servizi in tempo reale, come meteo, percorsi, Street View, foto e pagine dei gestori, richiedono invece una connessione.",
     "faq4q": "Posso pianificare un viaggio con più tappe?",
@@ -166,7 +166,7 @@
     "currencyText": "Conversione indicativa per organizzare il viaggio, ai tassi della Reserve Bank of New Zealand. La tua banca o la tua carta possono usare un altro tasso e aggiungere commissioni.",
     "fuelEyebrow": "Calcolo del carburante",
     "fuelTitle": "Quanto ti costa la strada.",
-    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare di parecchio quelli delle città.",
+    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare quelli delle città.",
     "driveEyebrow": "Stima della giornata di guida",
     "driveTitle": "Quanto dura davvero quella giornata.",
     "driveText": "I navigatori ti danno il tempo di guida su una strada ideale. Qui aggiungi il tipo di strada e le soste che farai davvero, ed è proprio lì che di solito la giornata si allunga.",
@@ -277,7 +277,7 @@
           "paragraphs": [
             "Crea un viaggio, aggiungi i luoghi e trascinali nell’ordine che vuoi. Ogni tappa può avere data di arrivo, note, meteo e stato di visita, e il pianificatore mostra la distanza in auto tratta per tratta e su tutto il viaggio.",
             "Il calcolo del percorso si basa sulle indicazioni disponibili in MapKit. Se una tratta non si riesce a calcolare, le tappe restano dove sono, ma controllare che la strada sia percorribile spetta a te.",
-            "Parti dalla lista base per il campeggio o crea le tue voci. Con l’avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
+            "Parti dalla lista base per il campeggio o crea le tue cose da fare. Nella schermata Avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
           ]
         },
         {
@@ -331,7 +331,16 @@
           "heading": "Link esterni e log del sito",
           "paragraphs": [
             "Dalla scheda di un luogo puoi aprire portali di prenotazione, siti web, profili social, numeri di telefono, indirizzi email e app di mappe. Quando scegli di aprirli, quei servizi ricevono informazioni secondo le loro politiche.",
-            "I fornitori di hosting possono trattare normali log tecnici, come indirizzo IP, tipo di browser e URL richiesto, per erogare il sito, mantenerlo affidabile e sicuro. KiwiCamping non usa tracker pubblicitari su questo sito."
+            "I fornitori di hosting possono trattare normali log tecnici, come indirizzo IP, tipo di browser e URL richiesto, per erogare il sito e mantenerlo affidabile e sicuro. KiwiCamping non usa tracker pubblicitari su questo sito."
+          ]
+        },
+        {
+          "heading": "Statistiche del sito",
+          "paragraphs": [
+            "Questo sito usa Google Analytics 4 per contare le visite e vedere quali pagine portano le persone all’App Store. Google tratta questi dati per nostro conto, come responsabile del trattamento. Per i visitatori dello Spazio economico europeo, del Regno Unito e della Svizzera il servizio è fornito da Google Ireland Limited, altrove da Google LLC.",
+            "Analytics registra le pagine che visiti, il tipo di dispositivo, di browser e di schermo, una posizione approssimativa ricavata dal tuo indirizzo IP (Google non conserva l’indirizzo in sé), la pagina da cui arrivi e i clic sui link all’App Store. Non riceve mai il tuo nome, il tuo indirizzo email o quello che salvi nell’app.",
+            "Quando le statistiche sono consentite, Google Analytics imposta due cookie di prima parte: _ga e un secondo il cui nome inizia con _ga_. Entrambi scadono dopo 13 mesi. Nello Spazio economico europeo, nel Regno Unito e in Svizzera questi cookie vengono impostati solo dopo che scegli Accetta nella barra del consenso. Fino ad allora, e se scegli Rifiuta, non viene salvato alcun cookie di analisi e Google riceve solo segnali senza cookie, privi di qualsiasi identificativo. Puoi cambiare la tua scelta in qualsiasi momento con il link Preferenze sulla privacy in fondo a ogni pagina.",
+            "Google Signals e la personalizzazione degli annunci sono disattivati, quindi i dati di analisi non vengono collegati agli account Google né usati per la pubblicità. I dati di analisi restano conservati per 14 mesi e poi vengono cancellati. KiwiCamping continua a non usare tracker pubblicitari su questo sito."
           ]
         },
         {
@@ -343,12 +352,12 @@
         {
           "heading": "Minori e contatti",
           "paragraphs": [
-            "KiwiCamping è uno strumento di viaggio per tutti e non è rivolto ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
+            "KiwiCamping è un’app di viaggio per uso generale e non è rivolta ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
             "Per domande sulla privacy, scrivi all’assistenza di KiwiCamping."
           ]
         }
       ],
-      "effective": "In vigore dal 12 agosto 2026"
+      "effective": "In vigore dal 19 ottobre 2026"
     },
     "terms": {
       "title": "Condizioni d’uso",
@@ -363,19 +372,19 @@
         {
           "heading": "Nessuna garanzia di prenotazione o di accesso",
           "paragraphs": [
-            "Una scheda non garantisce che un luogo sia aperto, consentito per il tuo tipo di sistemazione, raggiungibile con il tuo mezzo o disponibile. I link esterni per prenotazioni e contatti sono forniti per comodità. Il contratto è tra te e il fornitore terzo."
+            "Una scheda non garantisce che un luogo sia aperto, consentito con il tuo mezzo o la tua attrezzatura, raggiungibile con il tuo veicolo o disponibile. I link esterni per prenotazioni e contatti sono forniti per comodità. Il contratto è tra te e il fornitore terzo."
           ]
         },
         {
           "heading": "Sicurezza e uso nel rispetto delle leggi",
           "paragraphs": [
-            "Devi rispettare cartelli, permessi, chiusure, restrizioni sui fuochi, codice della strada e le indicazioni di ranger, iwi e hapū (le tribù e i clan māori), servizi di emergenza e di chi gestisce il territorio. Non usare l’app mentre guidi."
+            "Devi rispettare cartelli, permessi, chiusure, restrizioni sui fuochi, codice della strada e le indicazioni di ranger, iwi e hapū (le tribù e i clan Māori), servizi di emergenza e di chi gestisce il territorio. Non usare l’app mentre guidi."
           ]
         },
         {
           "heading": "Dati dell’utente",
           "paragraphs": [
-            "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Tieni copie separate di permessi, prenotazioni e piani da cui dipende la tua sicurezza, se perderne l’accesso potrebbe mettere a rischio il viaggio."
+            "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Se restare senza permessi, prenotazioni o piani importanti per la sicurezza può mettere a rischio il viaggio, tienine una copia a parte."
           ]
         },
         {
@@ -972,7 +981,7 @@
           "heading": "Le due isole non costano uguale",
           "body": [
             "Nell’Isola del Sud (South Island) le distanze tra una città e l’altra sono in genere più lunghe, il carburante costa di più fuori dai centri principali e a Queenstown, Wānaka e Aoraki gli alloggi sono molto più contesi. L’Isola del Nord (North Island) concentra più cose in tragitti più brevi: si spende meno di carburante, ma ci sono più attrazioni a pagamento a portata di mano.",
-            "Se il budget è stretto, un viaggio più lento nell’Isola del Nord (North Island) costa in genere meno al giorno dell’itinerario equivalente nell’Isola del Sud (South Island). Se invece il budget è fisso e hai poco tempo, è la South Island a ripagare la spesa in modo più evidente."
+            "Se il budget è stretto, un viaggio più lento nella North Island costa in genere meno al giorno dello stesso percorso nella South Island (l’Isola del Sud). Se invece il budget è fisso e hai poco tempo, è la South Island a ripagare la spesa in modo più evidente."
           ],
           "tips": []
         },
@@ -1496,7 +1505,7 @@
     },
     "doc-campsite-rules": {
       "title": "Campeggi DOC: le regole che ogni campeggiatore deve conoscere",
-      "description": "Prenotazioni, ore di silenzio, rifiuti, animali e regole del singolo sito: cosa conta per un soggiorno nelle aree protette della Nuova Zelanda.",
+      "description": "Campeggi DOC: prenotazioni, ore di silenzio, rifiuti, animali e regole del singolo campeggio nelle aree protette della Nuova Zelanda.",
       "region": "Campeggi DOC",
       "imageAlt": "Pannello informativo di un campeggio del Department of Conservation",
       "intro": "Quando prenoti con il DOC (Department of Conservation, l’ente neozelandese per la conservazione) accetti sia le condizioni nazionali sia le regole locali di quel posto. Per questo la pagina del singolo campeggio resta indispensabile: accesso, fuochi, acqua, cani e condizioni per i veicoli cambiano molto da un sito all’altro.",
@@ -2615,7 +2624,7 @@
           "heading": "Rispetta i divieti del contratto",
           "body": [
             "Il contratto di noleggio può vietare spiagge, strade sterrate o certi percorsi isolati indicati per nome, anche dove l’accesso è aperto al pubblico. E l’assicurazione può dipendere dalle stesse condizioni.",
-            "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado dall’esito incerto. Farti tirare fuori dal carro attrezzi dopo non è un piano: prima assicurati di passarci."
+            "Fermati prima di un ramo basso, di un ponte con limite di peso o di un guado dall’esito incerto. Il carro attrezzi non sostituisce un controllo fatto prima: verifica che il mezzo ci passi."
           ],
           "tips": []
         },
@@ -2648,7 +2657,7 @@
           "tips": [
             "Rallenta prima del tratto esposto",
             "Alcune strade chiudono ai veicoli alti",
-            "Camion e trincee provocano colpi di vento improvvisi"
+            "Camion e tratti in trincea: occhio alle raffiche improvvise"
           ]
         },
         {
@@ -4485,7 +4494,7 @@
         {
           "heading": "Scegli il pasto su cui puntare",
           "body": [
-            "Compra gli ingredienti per la colazione e per i pranzi in viaggio, poi concediti, per scelta, una cena in un locale del posto. Così il cibo pronto non diventa una spesa non prevista, tre volte al giorno.",
+            "Compra gli ingredienti per la colazione e per i pranzi in viaggio, poi concediti, per scelta, una cena in un locale del posto. Così il cibo pronto non diventa una spesa imprevista da mettere in conto tre volte al giorno.",
             "Panetterie, food court e banconi da asporto possono essere una via di mezzo, ma confronta porzioni e valori nutrizionali, non solo il prezzo."
           ],
           "tips": []
@@ -4550,7 +4559,7 @@
           "heading": "Le panetterie e la questione della pie carne e formaggio",
           "body": [
             "La pie della panetteria è il pasto caldo più economico del Paese e un pezzo vero della cultura locale, con un concorso nazionale annuale preso molto più sul serio di quanto si aspetterebbe chi viene da fuori. Le panetterie dei piccoli centri battono spesso quelle di città.",
-            "Il fish and chips ordinato al bancone e mangiato all’aperto è l’altro pasto economico su cui contare, e di solito nelle località di mare è più buono che in città. Chiedi qual è il pesce del giorno, invece di ordinare il pesce generico.",
+            "Il fish and chips ordinato al bancone e mangiato all’aperto è l’altro pasto economico su cui contare, e di solito nelle località di mare è più buono che in città. Chiedi qual è il pesce del giorno invece di ordinare a caso.",
             "I café di solito smettono di servire da mangiare prima di quanto si aspetti chi viene da fuori, spesso a metà pomeriggio, e nei piccoli centri dopo le 20 può non esserci più niente di aperto. Avere a bordo qualcosa da cucinare evita che un arrivo tardi si trasformi in una cena cara o in nessuna cena."
           ],
           "tips": []
@@ -4602,7 +4611,7 @@
     },
     "new-zealand-road-trip-fuel-cost-2026": {
       "title": "Carburante in Nuova Zelanda nel 2026: quanto costa un road trip",
-      "description": "Calcola la spesa con i chilometri, i litri ogni 100 chilometri e l’attuale prezzo ufficiale di riferimento della benzina a livello nazionale.",
+      "description": "Quanto costa la benzina per un road trip in Nuova Zelanda: calcola la spesa con i chilometri, il consumo ogni 100 km e il prezzo ufficiale nazionale.",
       "region": "Strade della Nuova Zelanda",
       "imageAlt": "Camper che fa rifornimento durante un road trip in Nuova Zelanda",
       "intro": "È con il carburante che un itinerario diventa un costo misurabile. Il 26 luglio 2026, dopo un anno insolitamente volatile, il prezzo nazionale di riferimento alla pompa calcolato dal MBIE (il ministero neozelandese delle imprese, dell’innovazione e del lavoro) per la benzina normale 91 era di 2,96 $ al litro.",
@@ -5104,5 +5113,13 @@
         ]
       }
     }
+  },
+  "consent": {
+    "label": "Preferenze sulla privacy",
+    "text": "KiwiCamping può usare i cookie di Google Analytics per capire quali pagine sono utili a chi viaggia? Non vengono mai usati per la pubblicità.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "policy": "Informativa sulla privacy",
+    "choices": "Preferenze sulla privacy"
   }
 }
