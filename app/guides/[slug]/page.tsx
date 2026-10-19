@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, defaultOgLocale } from "@/lib/seo";
 import { exportRoutes } from "@/lib/routes";
+import { guidePageKey } from "@/lib/routes/guides";
 
 // Articles with a legacyPath are served at their existing campingapp.nz URL instead, so the
 // manifest never lists them under /guides/: one page, one live URL.
@@ -18,11 +19,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: item.title,
     description: item.description,
-    alternates: { canonical: `/guides/${item.slug}/`, languages: alternatesFor(`guide:${item.slug}`) },
+    alternates: { canonical: `/guides/${item.slug}/`, languages: alternatesFor(guidePageKey(item.slug)) },
     openGraph: {
       type: "article",
       siteName: "KiwiCamping",
-      locale: "en_NZ",
+      locale: defaultOgLocale,
       title: item.title,
       description: item.description,
       url: `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`,

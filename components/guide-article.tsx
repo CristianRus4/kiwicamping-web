@@ -5,8 +5,9 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage } from "@/components/site-image";
-import { SITE_URL, articles, articleHref, type Article } from "@/lib/site";
-import { relatedArticles } from "@/lib/related";
+import { SITE_URL, articleHref, type Article } from "@/lib/site";
+import { relatedGuides } from "@/lib/related";
+import { guidePageKey } from "@/lib/routes/guides";
 import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
@@ -14,7 +15,7 @@ import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/curre
 import { mainData } from "@/lib/analytics";
 
 export function GuideArticle({ item }: { item: Article }) {
-  const related = relatedArticles(item, articles, articles);
+  const related = relatedGuides(item);
   const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
@@ -89,7 +90,7 @@ export function GuideArticle({ item }: { item: Article }) {
       </article>
       <section className="related-section"><p className="eyebrow">Keep planning</p><h2>Related guides</h2><div className="article-grid">{related.map((candidate) => <ArticleCard article={candidate} key={candidate.slug} />)}</div></section>
     </main>
-    <Footer pageKey={`guide:${item.slug}`} />
+    <Footer pageKey={guidePageKey(item.slug)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   </>;
 }

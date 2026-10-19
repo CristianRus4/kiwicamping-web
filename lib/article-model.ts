@@ -41,15 +41,6 @@ export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { pr
   return Math.max(1, Math.round(words / 220));
 }
 
-/**
- * Reading time for Japanese, Korean and Chinese, where words are not separated by spaces: about 400
- * characters a minute, counting every character that is not whitespace.
- */
-export function readingMinutesByCharacters(input: Pick<Article, "intro" | "sections">) {
-  const text = [input.intro, ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])])].join("");
-  return Math.max(1, Math.round(text.replace(/<[^>]+>/g, "").replace(/\s+/g, "").length / 400));
-}
-
 export function makeArticle(input: ArticleInput): Article {
   return { ...input, readTime: readingMinutes(input), image: `/images/articles/${input.slug}.webp` };
 }

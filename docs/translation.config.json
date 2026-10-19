@@ -16,7 +16,12 @@
         "ja",
         "ko",
         "zh-hans",
-        "zh-hant"
+        "zh-hant",
+        "da",
+        "sv",
+        "nb",
+        "cs",
+        "pl"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -59,6 +64,26 @@
         {
           "locale": "zh-hant",
           "path": "../lib/translations/zh-hant.json"
+        },
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        },
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        },
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        },
+        {
+          "locale": "cs",
+          "path": "../lib/translations/cs.json"
+        },
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
         }
       ],
       "protectedTerms": [

@@ -1,35 +1,37 @@
-import { APP_ID, APP_STORE_URL, SITE_URL } from "@/lib/site";
-import { articleDates, localeModified } from "@/lib/article-dates";
-import { english, htmlLangOf, liveLocales, localeEntry, ogOf, type SiteLocale } from "@/lib/locales";
-import { publishedLocales } from "@/lib/localized";
-import { isIndexable, pageEntry } from "@/lib/routes";
+import { APP_ID, APP_STORE_URL, SITE_URL, sitePath } from "@/lib/site";
+import { articleDates, translationDate } from "@/lib/article-dates";
+import { englishLocale, htmlLang, liveLocales, localeEntry, localeRoot, type LocaleCode } from "@/lib/locales";
+import { routesFor } from "@/lib/routes";
 
-/** Open Graph locale of every published edition, for `og:locale:alternate`. */
-export const ogLocale = (locale: SiteLocale) => ogOf(locale);
-export const defaultOgLocale = english.og;
-/** Every published edition's language, English first, for the site-wide schema nodes. */
-const siteLanguages = [english.htmlLang, ...publishedLocales.map((code) => localeEntry(code).htmlLang)];
+export const defaultHreflang = englishLocale.hreflang[0];
+export const defaultOgLocale = englishLocale.og;
+/** The Open Graph locale of a language edition. */
+export const ogLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.og : localeEntry(code).og);
+/** Open Graph alternates for a page: every other live language. */
+export const ogAlternates = (code: LocaleCode | "en") => [englishLocale.og, ...liveLocales.map((other) => localeEntry(other).og)].filter((og) => og !== ogLocale(code));
 
 /**
- * The hreflang set for one page, by page key ("home", "privacy", "guide:<slug>").
+ * The hreflang set for one page, from the route manifest.
  *
- * English, plus every live locale whose edition of this page is complete and indexable, plus
- * x-default pointing at English. Every page in the set computes the same set from the same data,
- * so the references are reciprocal by construction, and an incomplete translation (which renders
- * English, noindex) is never advertised. A noindex page emits no alternates at all; callers pass
- * this only for indexable pages. Legacy guides pair their English .html URL with
- * /<segment>/guides/<slug>/.
+ * Only language editions that are indexable are listed: English, plus every live locale where this
+ * page is complete (its translation passes the completeness gate). x-default is English. Google only
+ * honours hreflang when every listed page lists the others back, and a noindexed page must never be
+ * an alternate, so every page derives its set from the same list and a noindexed page emits none.
+ * A page with no other language edition returns undefined, as there is nothing to declare.
+ *
+ * Legacy guides pair their English .html URL with /<segment>/guides/<slug>/ (they share a page key).
+ * Paths are relative to the site root; Next resolves them against metadataBase.
  */
-export function alternatesFor(key: string): Record<string, string> | undefined {
-  const page = pageEntry(key);
-  if (!page?.english) return undefined;
-  const englishUrl = `${SITE_URL}${page.english}`;
-  const tags: Record<string, string> = Object.fromEntries(english.hreflang.map((tag) => [tag, englishUrl]));
-  for (const locale of liveLocales) {
-    if (!isIndexable(key, locale)) continue;
-    for (const tag of localeEntry(locale).hreflang) tags[tag] = `${SITE_URL}${page.localized(locale)}`;
+export function alternatesFor(pageKey: string): Record<string, string> | undefined {
+  const editions = routesFor(pageKey).filter((route) => route.indexable && route.kind !== "crawler");
+  if (editions.length < 2) return undefined;
+  const tags: Record<string, string> = {};
+  for (const route of editions) {
+    const codes = route.locale === "en" ? [...englishLocale.hreflang] : localeEntry(route.locale).hreflang;
+    for (const code of codes) tags[code] = route.path;
   }
-  tags["x-default"] = englishUrl;
+  const english = editions.find((route) => route.locale === "en");
+  if (english) tags["x-default"] = english.path;
   return tags;
 }
 
@@ -51,7 +53,7 @@ const website = {
   name: "KiwiCamping",
   url: SITE_URL,
   publisher: { "@id": `${SITE_URL}/#organization` },
-  inLanguage: siteLanguages,
+  inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
 };
 
 /**
@@ -73,7 +75,7 @@ const application = {
   downloadUrl: APP_STORE_URL,
   screenshot: SCREENSHOT,
   image: LOGO,
-  inLanguage: siteLanguages,
+  inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
   availableOnDevice: "iPhone",
   countriesSupported: "NZ",
   publisher: { "@id": `${SITE_URL}/#organization` },
@@ -106,7 +108,7 @@ export function homeSchema(
   page: { url?: string; inLanguage?: string } = {},
 ) {
   const url = page.url ?? `${SITE_URL}/`;
-  const inLanguage = page.inLanguage ?? english.htmlLang;
+  const inLanguage = page.inLanguage ?? englishLocale.htmlLang;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -135,25 +137,27 @@ export function homeSchema(
   };
 }
 
-type Crumb = { name: string; url: string };
+/** Schema text is plain: prose may carry <a data-guide> link markup. */
+const plain = (text: string) => text.replace(/<[^>]+>/g, "");
 
 /**
  * A guide, with the breadcrumb Google needs to show the trail under the result.
  *
- * `locale` decides the language of the nodes (inLanguage), the breadcrumb (names and URLs of that
- * edition) and the modified date: a translation was last modified when its own text last changed.
+ * `locale` is the language the page is actually written in: it decides inLanguage, the breadcrumb
+ * (that edition's home and guide index, `guidesLabel` in its language) and the modified date, since
+ * a translation was last modified when its own text last changed. A locale page that falls back to
+ * English passes its locale for the breadcrumb URLs but describes itself as English text.
  */
 export function articleSchema(
   item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] },
   url: string,
-  options: { locale?: SiteLocale; home?: Crumb; guides?: Crumb } = {},
+  { locale = "en", guidesLabel = "Guides", language }: { locale?: LocaleCode | "en"; guidesLabel?: string; language?: LocaleCode | "en" } = {},
 ) {
-  const locale = options.locale ?? "en";
-  const inLanguage = htmlLangOf(locale);
-  const home = options.home ?? { name: "Home", url: `${SITE_URL}/` };
-  const guides = options.guides ?? { name: "Guides", url: `${SITE_URL}/guides/` };
+  const written = language ?? locale;
+  const inLanguage = htmlLang(written);
   const dates = articleDates(item.slug);
-  const modified = locale === "en" ? dates?.modified : localeModified(item.slug, locale) ?? dates?.modified;
+  const modified = written === "en" ? dates?.modified : translationDate(item.slug, written) ?? dates?.modified;
+  const root = localeRoot(locale);
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -194,15 +198,15 @@ export function articleSchema(
           position: index + 1,
           name: section.heading,
           // Prose may carry <a data-guide> link markup; schema text is plain.
-          text: section.body[0].replace(/<[^>]+>/g, ""),
+          text: plain(section.body[0]),
           url: `${url}#step-${index + 1}`,
         })),
       }] : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: home.name, item: home.url },
-          { "@type": "ListItem", position: 2, name: guides.name, item: guides.url },
+          { "@type": "ListItem", position: 1, name: locale === "en" ? "Home" : "KiwiCamping", item: `${SITE_URL}${sitePath(root || "/")}` },
+          { "@type": "ListItem", position: 2, name: guidesLabel, item: `${SITE_URL}${sitePath(`${root}/guides`)}` },
           { "@type": "ListItem", position: 3, name: item.title, item: url },
         ],
       },

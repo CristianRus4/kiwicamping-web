@@ -9,10 +9,15 @@ import ja from "./ja.json";
 import ko from "./ko.json";
 import zhHans from "./zh-hans.json";
 import zhHant from "./zh-hant.json";
+import da from "./da.json";
+import sv from "./sv.json";
+import nb from "./nb.json";
+import cs from "./cs.json";
+import pl from "./pl.json";
 
 /** Every locale in the registry, live and draft, in registry order. */
-export const localeCodes = ["de", "es", "fr", "it", "nl", "pt", "ja", "ko", "zh-hans", "zh-hant"] as const;
+export const localeCodes = ["de", "es", "fr", "it", "nl", "pt", "ja", "ko", "zh-hans", "zh-hant", "da", "sv", "nb", "cs", "pl"] as const;
 export type LocaleCode = (typeof localeCodes)[number];
 
 /** Each locale's translation file, imported statically so the bundle carries it. */
-export const translationFiles: Record<LocaleCode, unknown> = { de, es, fr, it, nl, pt, ja, ko, "zh-hans": zhHans, "zh-hant": zhHant };
+export const translationFiles: Record<LocaleCode, unknown> = { de, es, fr, it, nl, pt, ja, ko, "zh-hans": zhHans, "zh-hant": zhHant, da, sv, nb, cs, pl };

@@ -21,7 +21,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { consentStrings, uiStrings, staticPages } from "../lib/source-strings.ts";
 import { translatableArticles } from "../lib/localized.ts";
-import { markupLinks } from "../lib/internal-links.ts";
+import { markGuideLinks } from "../lib/internal-links.ts";
 
 const forTranslation = (article) => ({
   title: article.title,
@@ -30,7 +30,7 @@ const forTranslation = (article) => ({
   imageAlt: article.imageAlt,
   intro: article.intro,
   // One section at a time, exactly as the English page selects its links.
-  sections: article.sections.map((part) => ({ heading: part.heading, body: markupLinks(part.body, article.slug), tips: part.tips ?? [] })),
+  sections: article.sections.map((part) => ({ heading: part.heading, body: markGuideLinks(part.body, article.slug), tips: part.tips ?? [] })),
   faq: (article.faq ?? []).map(([question, answer]) => [question, answer]),
   sources: (article.sources ?? []).map((source) => ({ label: source.label })),
   priceTable: article.priceTable ? { note: article.priceTable.note, rows: article.priceTable.rows.map((row) => ({ label: row.label, unit: row.unit ?? "" })) } : null,

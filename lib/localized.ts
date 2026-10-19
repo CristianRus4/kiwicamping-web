@@ -1,11 +1,10 @@
 import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { articles, categories, type Article, type ArticleCategory } from "./site";
-import { readingMinutesByCharacters } from "./article-model";
-import { hasReviews, isCjk, isLocale, liveLocales, localeCodes, locales, type LocaleCode } from "./locales";
+import { hasReviews, liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
 
-export { isLocale, localeCodes, type LocaleCode };
-export const localeLabels = Object.fromEntries(locales.map((entry) => [entry.code, entry.label])) as Record<LocaleCode, string>;
+export { liveLocales, localeCodes, routedLocales, type LocaleCode };
+export const localeLabel = (code: LocaleCode) => localeEntry(code).label;
 
 /**
  * Every guide is translatable, road trips and the legacy .html articles included. A legacy article
@@ -34,6 +33,9 @@ type TranslationFile = {
 };
 
 const files = translationFiles as Record<LocaleCode, TranslationFile>;
+
+/** A route segment that names a locale with routes in this build (live, or a draft when previewing). */
+export const isLocale = (value: string): value is LocaleCode => routedLocaleForSegment(value) === value;
 
 /**
  * Nothing is ever shown half-translated. That is the whole point of the three checks below.
@@ -102,11 +104,9 @@ export const isTranslated = (locale: LocaleCode) => {
   const overrides = files[locale].ui ?? {};
   return requiredUiKeys(locale).every((key) => filled(overrides[key]));
 };
-/**
- * Locales the site publishes: live in the registry and completely translated. A live locale with an
- * incomplete interface fails content:check, so in practice this is every live locale.
- */
-export const publishedLocales = liveLocales.filter(isTranslated);
+/** Routed locales whose interface is complete: the ones search engines may index. Every live locale
+ * must be one of them (`npm run content:check` fails otherwise); a previewed draft usually is not. */
+export const publishedLocales = routedLocales.filter(isTranslated);
 
 /** A localised guide is indexable only when its complete article has been translated. */
 export function isArticleTranslated(locale: LocaleCode, slug: string) {
@@ -130,6 +130,8 @@ export function translationProgress(locale: LocaleCode) {
     articles: translatableArticles.filter((article) => isArticleComplete(article, translatedArticles[article.slug])).length,
     articlesTotal: translatableArticles.length,
     pages: (["support", "privacy", "terms"] as StaticPageKind[]).filter((kind) => isPageComplete(kind, files[locale].pages?.[kind])).length,
+    consent: Object.keys(consentStrings).filter((key) => filled(files[locale].consent?.[key as ConsentKey])).length,
+    consentTotal: Object.keys(consentStrings).length,
   };
 }
 
@@ -161,25 +163,22 @@ export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {
  */
 export function localizedArticles(locale: LocaleCode): Article[] {
   const translated = files[locale].articles ?? {};
-  const cjk = isCjk(locale);
+  const cjk = localeScript(locale) === "cjk";
   return localeArticles.map((article) => {
     const item = translated[article.slug];
     if (!isArticleComplete(article, item)) return article;
-    const sections = article.sections.map((section, index) => ({
-      heading: item!.sections![index].heading!,
-      body: item!.sections![index].body!,
-      tips: section.tips ? item!.sections![index].tips : undefined,
-    }));
-    return {
+    const localized: Article = {
       ...article,
       title: item!.title!,
       description: item!.description!,
       region: item!.region!,
       imageAlt: item!.imageAlt!,
       intro: item!.intro!,
-      sections,
-      // Word counts mean nothing in Japanese, Korean or Chinese, so those read by character.
-      readTime: cjk ? readingMinutesByCharacters({ intro: item!.intro!, sections }) : article.readTime,
+      sections: article.sections.map((section, index) => ({
+        heading: item!.sections![index].heading!,
+        body: item!.sections![index].body!,
+        tips: section.tips ? item!.sections![index].tips : undefined,
+      })),
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),
       priceTable: article.priceTable ? {
@@ -188,7 +187,21 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         rows: article.priceTable.rows.map((row, index) => ({ ...row, label: item!.priceTable!.rows![index].label!, unit: item!.priceTable!.rows![index].unit || row.unit })),
       } : undefined,
     };
+    // Word counts mean nothing in Japanese, Korean or Chinese, so CJK reading time comes from characters.
+    return cjk ? { ...localized, readTime: cjkReadingMinutes(localized) } : localized;
   });
+}
+
+/** Characters per minute for CJK prose, a common silent-reading rate for Japanese and Chinese. */
+const CJK_CHARACTERS_PER_MINUTE = 500;
+function cjkReadingMinutes(article: Article): number {
+  const text = [
+    article.intro,
+    ...article.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...(article.priceTable ? [article.priceTable.note, ...article.priceTable.rows.map((row) => `${row.label}${row.unit ?? ""}`)] : []),
+  ].join("").replace(/<[^>]+>/g, "");
+  const characters = text.match(/[\p{L}\p{N}]/gu)?.length ?? 0;
+  return Math.max(1, Math.round(characters / CJK_CHARACTERS_PER_MINUTE));
 }
 
 /** Slugs whose translation is complete, for the content audit and the build log. */

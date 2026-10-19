@@ -1,25 +1,20 @@
 import Link from "next/link";
-import { builtLocales, localeEntry, type SiteLocale } from "@/lib/locales";
-import { localeLabels, publishedLocales } from "@/lib/localized";
-import { isIndexable, pagePath } from "@/lib/routes";
-
-const preview = typeof process !== "undefined" && process.env?.LOCALES_PREVIEW === "1";
+import { englishLocale, localeEntry, localeRoot, type LocaleCode } from "@/lib/locales";
+import { publishedLocales } from "@/lib/localized";
+import { routesFor } from "@/lib/routes";
+import { sitePath } from "@/lib/site";
 
 /**
- * The footer language switcher. Each language links to this same page in that language when its
- * translation is complete, and to that language's home page otherwise, so a reader never lands on
- * an English fallback by choosing their language. Lists published editions only (drafts too in a
- * LOCALES_PREVIEW=1 development build).
+ * The footer language list. Each language links to this same page in that language when that
+ * edition is complete (indexable); otherwise to that language's home, so a reader is never sent to an
+ * English fallback dressed up as a translation. A legacy guide's English edition is its .html URL.
  */
-export function LanguageSwitcher({ current, pageKey }: { current: SiteLocale; pageKey: string }) {
-  const editions = preview ? builtLocales : publishedLocales;
-  if (!editions.length) return null;
+export function LanguageSwitcher({ pageKey, current }: { pageKey: string; current: LocaleCode | "en" }) {
+  if (!publishedLocales.length) return null;
+  const editions = routesFor(pageKey);
+  const target = (locale: LocaleCode | "en") => editions.find((route) => route.locale === locale && route.indexable)?.path ?? sitePath(localeRoot(locale) || "/");
   return <nav className="language-nav" aria-label="Languages">
-    <Link href={pagePath(pageKey, "en") ?? "/"} aria-current={current === "en" ? "page" : undefined}>English</Link>
-    {editions.map((code) => {
-      const here = code === current;
-      const href = (here || isIndexable(pageKey, code) ? pagePath(pageKey, code) : null) ?? `/${localeEntry(code).segment}/`;
-      return <Link href={href} aria-current={here ? "page" : undefined} hrefLang={localeEntry(code).htmlLang} key={code}>{localeLabels[code]}</Link>;
-    })}
+    <Link href={target("en")} hrefLang={englishLocale.htmlLang} aria-current={current === "en" ? "page" : undefined}>English</Link>
+    {publishedLocales.map((code) => <Link href={target(code)} hrefLang={localeEntry(code).htmlLang} lang={localeEntry(code).htmlLang} aria-current={code === current ? "page" : undefined} key={code}>{localeEntry(code).label}</Link>)}
   </nav>;
 }

@@ -1,5 +1,5 @@
-import { articleHref, articles } from "@/lib/site";
-import { localeEntry, type LocaleCode } from "@/lib/locales";
+import { articleHref, articles, sitePath } from "@/lib/site";
+import { localeRoot, type LocaleCode } from "@/lib/locales";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -99,7 +99,7 @@ export type LinkSpan = { start: number; end: number; slug: string };
  * Callers pass one section's paragraphs at a time, so the budget is per section.
  *
  * This is the single selection used three ways: English rendering (`linkProse`), the link markup
- * written into en.json for translators (`markupLinks`), and therefore the links a translation
+ * written into en.json for translators (`markGuideLinks`), and therefore the links a translation
  * carries (`renderGuideLinks`).
  */
 export function selectLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): (LinkSpan | null)[] {
@@ -117,11 +117,6 @@ export function selectLinks(paragraphs: readonly string[], currentSlug: string, 
     }
     return null;
   });
-}
-
-/** Every guide a guide's prose links to, for the related-guides score. */
-export function linkedSlugs(sections: readonly { body: readonly string[] }[], currentSlug: string): Set<string> {
-  return new Set(sections.flatMap((section) => selectLinks(section.body, currentSlug)).filter((span): span is LinkSpan => !!span).map((span) => span.slug));
 }
 
 /** Where a guide lives in an edition: its own URL in English (.html for legacy guides), /<segment>/guides/<slug>/ elsewhere. */
@@ -147,12 +142,15 @@ export function linkProse(paragraphs: readonly string[], currentSlug: string, pr
 }
 
 /**
- * The same links, as markup a translator carries through: `<a data-guide="slug">phrase</a>`.
- * scripts/build-translation-source.mjs writes these into en.json; the translation engine keeps the
- * tags intact while the phrase between them is translated.
+ * The same links, as markup a translator carries across: `<a data-guide="slug">phrase</a>`.
+ *
+ * scripts/build-translation-source.mjs writes guide bodies into en.json this way, one section at a
+ * time exactly as the English page selects them. A translator keeps the tag and its slug and moves
+ * it onto the natural phrase in their language; `renderGuideLinks` turns it back into a link to that
+ * language's edition of the guide.
  */
-export function markupLinks(paragraphs: readonly string[], currentSlug: string): string[] {
-  const spans = selectLinks(paragraphs, currentSlug);
+export function markGuideLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): string[] {
+  const spans = selectLinks(paragraphs, currentSlug, budget);
   return paragraphs.map((paragraph, index) => {
     const span = spans[index];
     if (!span) return paragraph;
@@ -160,25 +158,28 @@ export function markupLinks(paragraphs: readonly string[], currentSlug: string):
   });
 }
 
-const GUIDE_LINK = /<a data-guide="([a-z0-9-]+)">([\s\S]*?)<\/a>/g;
-
-/** Whether translated prose carries link markup (translations made before it existed do not). */
+const guideMarkup = /<a data-guide="([a-z0-9-]+)">([\s\S]*?)<\/a>/g;
+/** True when translated prose carries link markup, rather than plain text from before the markup existed. */
 export const hasGuideLinks = (paragraphs: readonly string[]) => paragraphs.some((paragraph) => /<a data-guide="/.test(paragraph));
+/** Translated prose with its link markup removed, for structured data and plain-text uses. */
+export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2").replace(/<\/?a\b[^>]*>/g, "");
 
 /**
- * Translated prose as HTML. Everything is escaped; the only markup re-admitted is
- * `<a data-guide="slug">`, and only for a guide that exists, rewritten to that guide's URL in this
- * edition. Any other tag a translation contains is shown as text, never interpreted.
+ * Translated prose as HTML. Everything is escaped; the only markup let back in is
+ * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in this locale's
+ * edition. Any other tag is shown as text, never interpreted; a stray or unknown link is reduced to
+ * its text.
  */
 export function renderGuideLinks(text: string, locale: LocaleCode): string {
-  const segment = localeEntry(locale).segment;
+  const root = localeRoot(locale);
+  const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
   let html = "";
   let last = 0;
-  for (const match of text.matchAll(GUIDE_LINK)) {
-    html += escapeHtml(text.slice(last, match.index));
-    const inner = escapeHtml(match[2]);
-    html += bySlug.has(match[1]) ? `<a href="/${segment}/guides/${match[1]}/">${inner}</a>` : inner;
+  for (const match of text.matchAll(guideMarkup)) {
+    html += clean(text.slice(last, match.index));
+    const inner = clean(match[2]);
+    html += bySlug.has(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
     last = match.index! + match[0].length;
   }
-  return html + escapeHtml(text.slice(last));
+  return html + clean(text.slice(last));
 }

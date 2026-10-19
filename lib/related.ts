@@ -1,47 +1,50 @@
-import { linkedSlugs } from "@/lib/internal-links";
-import type { Article } from "@/lib/site";
+import { articles, type Article } from "@/lib/site";
+import { selectLinks } from "@/lib/internal-links";
 
 /**
- * The three related guides under an article.
+ * "Related guides" under an article, by relevance rather than by list order.
  *
- * It used to be the first three guides sharing the category or the region, in source order, so
- * the same handful of early guides filled the strip everywhere. Now each candidate is scored on
- * what actually connects it to this guide:
+ * Score per candidate: 3 for every place both guides name, 2 for the same region, 1 for the same
+ * category, and 2 more when the article's own prose already links to it. The country-wide region
+ * ("New Zealand") carries no signal, since most guides use it, so it earns no region points.
  *
- *   3 per place both guides name · 2 for the same region · 1 for the same category
- *   + 2 when this guide's prose already links to it
+ * Curated `related` slugs on the article come first, in their order. At least one pick is from
+ * another category, so a reader of a rules guide is also offered, say, the cost or planning guide that
+ * goes with it. Ties keep the guides' own order, so the result is stable from build to build.
  *
- * Hand-picked `related` slugs on the article come first. At least one of the three is from another
- * category, so a reader can step sideways (a rules guide to a cost guide) rather than only deeper.
- * Ties keep source order, so the result is stable from build to build.
- *
- * `pool` is the list the cards are drawn from (English, or a locale's localized articles); scoring
- * always uses the English source, so every edition shows the same three guides.
+ * Score English articles: a translation's region is translated text. A localised page picks with
+ * the English source and shows its own editions of the picks (see components/localized-site.tsx).
  */
-export function relatedArticles<T extends { slug: string }>(article: Article, pool: readonly T[], source: readonly Article[], count = 3): T[] {
-  const bySlug = new Map(pool.map((item) => [item.slug, item]));
-  const linked = linkedSlugs(article.sections, article.slug);
-  const places = new Set(article.places);
-  const score = (candidate: Article) =>
-    3 * candidate.places.filter((place) => places.has(place)).length
-    + (candidate.region === article.region ? 2 : 0)
-    + (candidate.category === article.category ? 1 : 0)
-    + (linked.has(candidate.slug) ? 2 : 0);
+export const COUNTRY_REGION = "New Zealand";
 
-  const curated = (article.related ?? []).filter((slug) => slug !== article.slug && bySlug.has(slug));
-  const ranked = source
-    .map((candidate, index) => ({ candidate, index, score: score(candidate) }))
-    .filter(({ candidate }) => candidate.slug !== article.slug && bySlug.has(candidate.slug) && !curated.includes(candidate.slug))
+export function relatedScore(item: Article, candidate: Article, linked: ReadonlySet<string> = linkedSlugs(item)): number {
+  const places = new Set(item.places);
+  const shared = candidate.places.filter((place) => places.has(place)).length;
+  const region = item.region === candidate.region && item.region !== COUNTRY_REGION ? 2 : 0;
+  const category = item.category === candidate.category ? 1 : 0;
+  return shared * 3 + region + category + (linked.has(candidate.slug) ? 2 : 0);
+}
+
+/** The guides an article's prose links to (the same choice `linkProse` renders). */
+export function linkedSlugs(item: Article): Set<string> {
+  return new Set(item.sections.flatMap((section) => selectLinks(section.body, item.slug)).flatMap((span) => (span ? [span.slug] : [])));
+}
+
+export function relatedGuides(item: Article, count = 3, pool: readonly Article[] = articles): Article[] {
+  const others = pool.filter((candidate) => candidate.slug !== item.slug);
+  const bySlug = new Map(others.map((candidate) => [candidate.slug, candidate]));
+  const curated = (item.related ?? []).flatMap((slug) => bySlug.get(slug) ?? []).slice(0, count);
+  const linked = linkedSlugs(item);
+  const ranked = others
+    .filter((candidate) => !curated.includes(candidate))
+    .map((candidate, index) => ({ candidate, index, score: relatedScore(item, candidate, linked) }))
     .sort((a, b) => b.score - a.score || a.index - b.index)
     .map(({ candidate }) => candidate);
-
-  const chosen = [...curated, ...ranked.map((candidate) => candidate.slug)].slice(0, count);
-  const category = (slug: string) => source.find((item) => item.slug === slug)?.category;
-  if (chosen.length === count && chosen.every((slug) => category(slug) === article.category)) {
-    const sideways = ranked.find((candidate) => candidate.category !== article.category);
-    // Replace the weakest scored pick, never a hand-picked one.
-    const replaceAt = chosen.length - 1 >= curated.length ? chosen.length - 1 : -1;
-    if (sideways && replaceAt >= 0) chosen[replaceAt] = sideways.slug;
+  const picks = [...curated, ...ranked].slice(0, count);
+  if (picks.length && picks.every((pick) => pick.category === item.category)) {
+    const outside = ranked.find((candidate) => candidate.category !== item.category);
+    const replaceable = picks.findLastIndex((pick) => !curated.includes(pick));
+    if (outside && replaceable >= 0) picks[replaceable] = outside;
   }
-  return chosen.map((slug) => bySlug.get(slug)!);
+  return picks;
 }

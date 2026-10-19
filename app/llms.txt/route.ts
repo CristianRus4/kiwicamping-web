@@ -1,7 +1,7 @@
-import { articles, articleHref, categories, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { articles, articleHref, categories, SITE_URL, SUPPORT_EMAIL, sitePath } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
-import { localeLabels, publishedLocales } from "@/lib/localized";
-import { localeEntry } from "@/lib/locales";
+import { publishedLocales } from "@/lib/localized";
+import { localeEntry, localeRoot } from "@/lib/locales";
 
 /**
  * /llms.txt — a markdown brief for AI crawlers and assistants.
@@ -85,7 +85,7 @@ figure, for visitors not fluent in NZD.
 The site is published in English plus ${publishedLocales.length} translated editions. A guide is
 shown in English in a translated edition until its translation is complete.
 
-${publishedLocales.map((code) => `- ${localeLabels[code]} (${localeEntry(code).hreflang.join(", ")}): ${SITE_URL}/${localeEntry(code).segment}/`).join("\n")}
+${publishedLocales.map((code) => `- ${localeEntry(code).label} (${localeEntry(code).hreflang.join(", ")}): ${SITE_URL}${sitePath(localeRoot(code))}`).join("\n")}
 
 ## Guides
 

@@ -1,6 +1,8 @@
-import { sitemapIndexXml } from "@/lib/sitemap";
+import { sitemapIndex } from "@/lib/sitemaps";
 
-/** The sitemap index robots.txt points at; see lib/sitemap.ts. */
+export const dynamic = "force-static";
+
+/** The sitemap index robots.txt points at; see lib/sitemaps.ts. */
 export function GET() {
-  return new Response(sitemapIndexXml(), { headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=3600" } });
+  return sitemapIndex();
 }

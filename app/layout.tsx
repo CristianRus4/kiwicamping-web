@@ -4,8 +4,8 @@ import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { analyticsEnabled, analyticsScript } from "@/lib/analytics";
-import { publishedLocales } from "@/lib/localized";
-import { english, ogOf } from "@/lib/locales";
+import { englishLocale } from "@/lib/locales";
+import { defaultOgLocale, ogAlternates } from "@/lib/seo";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   publisher: "KiwiCamping",
   openGraph: {
     type: "website",
-    locale: english.og,
-    alternateLocale: publishedLocales.map((code) => ogOf(code)),
+    locale: defaultOgLocale,
+    alternateLocale: ogAlternates("en"),
     siteName: "KiwiCamping",
     title: "KiwiCamping: the camping map and road trip planner for New Zealand",
     description:
@@ -68,5 +68,5 @@ const headerScroll = `(function(){var h=document.querySelector(".site-header");i
 // anything else can send data; marked data-static-keep so the static export keeps it.
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   // Every route renders this one <html>; the exporter sets each locale page's lang from the registry.
-  return <html lang={english.htmlLang}><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  return <html lang={englishLocale.htmlLang}><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }

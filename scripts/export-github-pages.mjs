@@ -8,8 +8,7 @@ import { startProdServer } from "vinext/server/prod-server";
 import { APP_STORE_URL, SITE_URL } from "../lib/site.ts";
 import { appStoreUrl } from "../lib/app-store.ts";
 import { exportRoutes } from "../lib/routes.ts";
-import { sitemapFiles } from "../lib/sitemap.ts";
-import { english, htmlLangOf } from "../lib/locales.ts";
+import { englishLocale, htmlLang } from "../lib/locales.ts";
 import { redirects } from "../lib/redirects.ts";
 
 // Drafts render only in development. An export with them would publish unfinished languages.
@@ -19,27 +18,26 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
 // campingapp.nz is served from a custom domain, so the site lives at the root. Only override this
 // when deploying to a project-page subpath.
-const defaultLang = english.htmlLang;
+const defaultLang = englishLocale.htmlLang;
 const siteName = "KiwiCamping";
 const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 
 /**
- * Every HTML page comes from the route manifest (lib/routes.ts), the same list that feeds the static
- * params and the sitemaps, so a new page type cannot be built but silently left out of the export.
- * Articles that already rank keep their published .html URL; draft locales are not in it.
+ * Every file comes from the route manifest (lib/routes.ts), the same list that feeds the static
+ * params, the sitemaps and hreflang, so a new page type cannot be built but silently left out of
+ * the export. Articles that already rank keep their published .html URL; draft locales are not in
+ * it. Crawler files (robots.txt, the sitemaps, llms.txt) are written as they are served.
  */
 const routes = exportRoutes();
-const htmlRoutes = routes.map((route) => route.path);
-assert.equal(new Set(htmlRoutes).size, htmlRoutes.length, "The route manifest lists a path twice");
+const htmlRoutes = routes.filter((route) => route.kind !== "crawler").map((route) => route.path);
+const textRoutes = routes.filter((route) => route.kind === "crawler").map((route) => route.path);
 const legacyRoutes = routes.filter((route) => route.locale === "en" && route.path.endsWith(".html")).map((route) => route.path);
-const langOf = new Map(routes.map((route) => [route.path, htmlLangOf(route.locale)]));
+const langOf = new Map(routes.map((route) => [route.path, htmlLang(route.locale)]));
 
 // A route ending in .html is a real file path, not a directory with an index inside it.
 const outputPath = (route) => route === "/" ? resolve(output, "index.html") : route.endsWith(".html") ? resolve(output, route.slice(1)) : resolve(output, route.slice(1), "index.html");
 // The server answers /guides, not /guides/ (it redirects the slash away); files keep the slash form.
 const fetchPath = (route) => route === "/" ? route : route.replace(/\/$/, "");
-// /sitemap.xml is a sitemap index of one file per edition (lib/sitemap.ts).
-const textRoutes = ["/robots.txt", "/sitemap.xml", ...sitemapFiles().map(({ name }) => `/sitemaps/${name}.xml`), "/llms.txt"];
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });

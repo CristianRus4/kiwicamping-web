@@ -3,10 +3,11 @@ import { notFound } from "next/navigation";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticleByLegacyPath } from "@/lib/site";
-import { getTranslation, localizedArticles, publishedLocales } from "@/lib/localized";
-import { localeForSegment, ogOf } from "@/lib/locales";
-import { alternatesFor, defaultOgLocale } from "@/lib/seo";
-import { exportRoutes, findRoute } from "@/lib/routes";
+import { getTranslation, localizedArticles } from "@/lib/localized";
+import { routedLocaleForSegment } from "@/lib/locales";
+import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale } from "@/lib/seo";
+import { exportRoutes, routeAt } from "@/lib/routes";
+import { guidePageKey } from "@/lib/routes/guides";
 import { smartBannerContent } from "@/lib/app-store";
 
 export const dynamicParams = false;
@@ -17,7 +18,7 @@ export const dynamicParams = false;
 // Next.js allows only one dynamic segment per level, so both live here rather than in sibling routes.
 // Both come from the route manifest (lib/routes.ts), the same list the sitemap and exporter use.
 export function generateStaticParams() {
-  return exportRoutes().flatMap((route) => {
+  return exportRoutes().filter((route) => route.kind !== "crawler").flatMap((route) => {
     if (route.locale !== "en") {
       const [locale, ...path] = route.path.split("/").filter(Boolean);
       return [{ locale, path }];
@@ -32,13 +33,12 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   if(legacy)return{
     title:legacy.title,
     description:legacy.description,
-    alternates:{canonical:legacy.legacyPath,languages:alternatesFor(`guide:${legacy.slug}`)},
+    alternates:{canonical:legacy.legacyPath,languages:alternatesFor(guidePageKey(legacy.slug))},
     openGraph:{type:"article",siteName:"KiwiCamping",locale:defaultOgLocale,title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
     twitter:{card:"summary_large_image",title:legacy.title,description:legacy.description,images:[legacy.image]},
   };
-  const entry=localeForSegment(segment);
-  if(!entry)return{};
-  const locale=entry.code;
+  const locale=routedLocaleForSegment(segment);
+  if(!locale)return{};
   const ui=getTranslation(locale);
   const slug=path[0]==="guides"?path[1]:undefined;
   const article=slug?localizedArticles(locale).find((item)=>item.slug===slug):undefined;
@@ -60,19 +60,19 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   const image=article?article.image:"/images/kiwicamping-hero.webp";
   // An incomplete translation still builds and renders (in English), but it must not compete with
   // the English site for the same words until its translation is complete. The manifest decides.
-  const route=findRoute(canonical);
+  const route=routeAt(canonical);
   const indexable=route?.indexable??false;
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
     title: path.length ? title : { absolute: title },
     description,
     keywords:ui.metaKeywords.split(", "),
-    alternates:{canonical,languages:indexable&&route?alternatesFor(route.key):undefined},
+    alternates:{canonical,languages:indexable&&route?alternatesFor(route.pageKey):undefined},
     openGraph:{
       type:article?"article":"website",
       siteName:"KiwiCamping",
-      locale:ogOf(locale),
-      alternateLocale:[defaultOgLocale,...publishedLocales.filter((code)=>code!==locale).map((code)=>ogOf(code))],
+      locale:ogLocale(locale),
+      alternateLocale:ogAlternates(locale),
       title:article?article.title:ui.ogTitle,
       description:article?article.description:ui.ogDescription,
       url,
@@ -88,9 +88,8 @@ export default async function LocalizedRoute({params}:{params:Promise<{locale:st
   const {locale:segment,path=[]}=await params;
   const legacy=getArticleByLegacyPath(`/${segment}`);
   if(legacy&&path.length===0)return <GuideArticle item={legacy}/>;
-  const entry=localeForSegment(segment);
-  if(!entry)notFound();
-  const locale=entry.code;
+  const locale=routedLocaleForSegment(segment);
+  if(!locale)notFound();
   if(path.length===0)return <LocalizedHome locale={locale}/>;
   if(path.length===1&&path[0]==="guides")return <LocalizedGuides locale={locale}/>;
   if(path.length===2&&path[0]==="guides")return <LocalizedArticle locale={locale} slug={path[1]}/>;
