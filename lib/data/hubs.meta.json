@@ -1,0 +1,96 @@
+{
+  "dataAsOf": "2026-08-24",
+  "exportDate": "2026-10-19",
+  "files": {
+    "bookit.json": {
+      "read": false,
+      "source": "bookit"
+    },
+    "bookit_full.csv": {
+      "read": false,
+      "source": "bookit"
+    },
+    "campsites.json": {
+      "date": "2026-08-11",
+      "records": 287,
+      "sha256": "75b066685312344bddd8f08d0d04e117b09bb2928499e452445ccacb972c380f",
+      "source": "doc"
+    },
+    "dayusenorth.json": {
+      "date": "2026-08-11",
+      "records": 988,
+      "sha256": "13451f75b7b83befb2b56aa97a994b9e45813bb509425f9ecd4355dc3d8c87cd",
+      "source": "wikicamps"
+    },
+    "dayusesouth.json": {
+      "date": "2026-08-11",
+      "records": 711,
+      "sha256": "f3055b74c9f060b2b96f3d55612448120c53544df6c407a516a317569390cacb",
+      "source": "wikicamps"
+    },
+    "dumps.json": {
+      "date": "2026-08-11",
+      "records": 262,
+      "sha256": "c6534c30b1ae99785c0a335b4099c3d2789fd17b265a08636161b3f065cedeb7",
+      "source": "wikicamps"
+    },
+    "freedom.json": {
+      "date": "2026-08-11",
+      "records": 354,
+      "sha256": "5ded2be73300872f32173cd75aaf206351df0f19d6675506501a1f106874fa1b",
+      "source": "doc"
+    },
+    "freedomgeo.geojson": {
+      "date": "2026-08-11",
+      "records": 354,
+      "sha256": "75a73abd37358b1d90bef6452cbba221c9b1d0f4ed7a1348e4cca935b2ca5ff5",
+      "source": "doc"
+    },
+    "huts.json": {
+      "date": "2026-08-11",
+      "records": 927,
+      "sha256": "f66948ded2a578ec9ea4535d7071603eb4885c54ba16e3fb63ba6ae04dea08b0",
+      "source": "doc"
+    },
+    "tracks.json": {
+      "date": "2026-08-24",
+      "records": 1453,
+      "sha256": "497bae55724d43c8920fbd456127c69b7cd703c2513950d26911f61e9db31352",
+      "source": "doc"
+    }
+  },
+  "hubKinds": {
+    "camping": "DOC campsites by DOC visitor region (campsites.json). Huts are a fact row linking to the matching huts hub.",
+    "dump-stations": "Not built: the only dump-station data in the app is excluded by licence (see sources.wikicamps).",
+    "freedom-camping": "Current DOC freedom-camping notices on conservation land by DOC district (freedom.json, positions from freedomgeo.geojson). Not council bylaws.",
+    "huts": "DOC huts by DOC visitor region (huts.json)."
+  },
+  "regionAssignment": {
+    "dayUseAreas": "Same method as dump stations.",
+    "dumpStations": "No region in the source. Each is assigned the DOC region of its nearest DOC campsite or hut by great-circle distance. Approximate near region lines."
+  },
+  "sources": {
+    "bookit": {
+      "inventoryCount": false,
+      "licence": "exclude",
+      "name": "BookIt (partner feed)",
+      "reason": "Partner data is never republished, counted or opened by this export."
+    },
+    "doc": {
+      "attribution": "Source: Department of Conservation. Licensed under CC BY 4.0.",
+      "changes": "Filtered, counted and summarised by KiwiCamping. Coordinates rounded to about 100 m. Fee summaries are our reading of the DOC fee text. No DOC description text or photographs are reproduced.",
+      "inventoryCount": true,
+      "licence": "cc-by-4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "Department of Conservation (DOC)",
+      "sourceUrl": "https://www.doc.govt.nz/",
+      "termsUrl": "https://www.doc.govt.nz/footer-links/copyright/"
+    },
+    "wikicamps": {
+      "inventoryCount": true,
+      "licence": "exclude",
+      "name": "WikiCamps NZ (dump stations and day-use areas in the app)",
+      "reason": "Every record links to wikicamps.co.nz, a commercial directory whose terms do not allow republication. Only the size of the app's inventory is reported; no record is republished."
+    }
+  }
+}

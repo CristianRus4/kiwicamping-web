@@ -1,0 +1,595 @@
+{
+  "categories": {
+    "dayUseAreas": {
+      "access": "pass",
+      "inventoryOnly": true,
+      "label": "Day-use areas",
+      "source": "wikicamps",
+      "total": 1699
+    },
+    "docCampsites": {
+      "access": "pass",
+      "bookable": 177,
+      "byType": {
+        "Backcountry campsite": 44,
+        "Basic campsite": 61,
+        "Great Walk campsite": 46,
+        "Serviced campsite": 5,
+        "Standard campsite": 131
+      },
+      "campervanAccess": 150,
+      "closed": 13,
+      "dogsAllowedInSomeForm": 74,
+      "fee": {
+        "free": 63,
+        "paid": 211,
+        "unlisted": 13
+      },
+      "label": "DOC campsites",
+      "noDogs": 207,
+      "open": 274,
+      "poweredSites": 134,
+      "source": "doc",
+      "total": 287,
+      "unpoweredSites": 7121
+    },
+    "docFreedomCampingNotices": {
+      "access": "pass",
+      "allStatusesByType": {
+        "Permitted": 3,
+        "Prohibited": 266,
+        "Restricted": 85
+      },
+      "current": 287,
+      "currentByType": {
+        "Prohibited": 224,
+        "Restricted": 63
+      },
+      "districts": 35,
+      "historic": 67,
+      "label": "DOC freedom-camping notices on conservation land (not council bylaws)",
+      "source": "doc",
+      "total": 354
+    },
+    "docHuts": {
+      "access": "pass",
+      "bookable": 127,
+      "bunks": 7661,
+      "byType": {
+        "Basic hut or bivvy": 372,
+        "Great Walk hut": 33,
+        "Serviced alpine hut": 18,
+        "Serviced hut": 96,
+        "Standard hut": 408
+      },
+      "closed": 19,
+      "fee": {
+        "free": 312,
+        "paid": 580,
+        "unlisted": 35
+      },
+      "label": "DOC huts",
+      "open": 908,
+      "source": "doc",
+      "total": 927
+    },
+    "docTracks": {
+      "access": "pass",
+      "label": "DOC tracks",
+      "source": "doc",
+      "total": 1453
+    },
+    "dumpStations": {
+      "access": "pass",
+      "fee": {
+        "donation": 8,
+        "free": 240,
+        "paid": 6,
+        "unlisted": 8
+      },
+      "inventoryOnly": true,
+      "label": "Dump stations",
+      "source": "wikicamps",
+      "total": 262
+    }
+  },
+  "dataAsOf": "2026-08-24",
+  "freedomDistricts": {
+    "bay-of-islands": {
+      "current": {
+        "prohibited": 5
+      },
+      "historic": 1,
+      "name": "Bay of Islands",
+      "operationsRegion": "Northern North Island"
+    },
+    "buller": {
+      "current": {
+        "prohibited": 5,
+        "restricted": 2
+      },
+      "historic": 11,
+      "name": "Buller",
+      "operationsRegion": "Western South Island"
+    },
+    "central-otago": {
+      "current": {
+        "prohibited": 11,
+        "restricted": 2
+      },
+      "historic": 2,
+      "name": "Central Otago",
+      "operationsRegion": "Southern South Island"
+    },
+    "coastal-otago": {
+      "current": {
+        "prohibited": 2,
+        "restricted": 1
+      },
+      "historic": 0,
+      "name": "Coastal Otago",
+      "operationsRegion": "Southern South Island"
+    },
+    "east-coast": {
+      "current": {
+        "prohibited": 2
+      },
+      "historic": 8,
+      "name": "East Coast",
+      "operationsRegion": "Eastern North Island"
+    },
+    "geraldine": {
+      "current": {
+        "prohibited": 6
+      },
+      "historic": 3,
+      "name": "Geraldine",
+      "operationsRegion": "Eastern South Island"
+    },
+    "golden-bay": {
+      "current": {
+        "prohibited": 6
+      },
+      "historic": 2,
+      "name": "Golden Bay",
+      "operationsRegion": "Northern South Island"
+    },
+    "greymouth": {
+      "current": {
+        "restricted": 1
+      },
+      "historic": 0,
+      "name": "Greymouth",
+      "operationsRegion": "Western South Island"
+    },
+    "hauraki": {
+      "current": {
+        "prohibited": 2
+      },
+      "historic": 0,
+      "name": "Hauraki",
+      "operationsRegion": "Hauraki-Waikato-Taranaki"
+    },
+    "hawkes-bay": {
+      "current": {
+        "prohibited": 10,
+        "restricted": 6
+      },
+      "historic": 3,
+      "name": "Hawkes Bay",
+      "operationsRegion": "Lower North Island"
+    },
+    "kaitaia": {
+      "current": {
+        "prohibited": 4
+      },
+      "historic": 0,
+      "name": "Kaitaia",
+      "operationsRegion": "Northern North Island"
+    },
+    "kauri-coast": {
+      "current": {
+        "prohibited": 5
+      },
+      "historic": 0,
+      "name": "Kauri Coast",
+      "operationsRegion": "Northern North Island"
+    },
+    "king-country": {
+      "current": {
+        "prohibited": 2,
+        "restricted": 1
+      },
+      "historic": 1,
+      "name": "King Country",
+      "operationsRegion": "Hauraki-Waikato-Taranaki"
+    },
+    "mahaanui": {
+      "current": {
+        "prohibited": 2
+      },
+      "historic": 0,
+      "name": "Mahaanui",
+      "operationsRegion": "Eastern South Island"
+    },
+    "motueka": {
+      "current": {
+        "prohibited": 5,
+        "restricted": 2
+      },
+      "historic": 0,
+      "name": "Motueka",
+      "operationsRegion": "Northern South Island"
+    },
+    "murihiku": {
+      "current": {
+        "prohibited": 3,
+        "restricted": 2
+      },
+      "historic": 0,
+      "name": "Murihiku",
+      "operationsRegion": "Southern South Island"
+    },
+    "nelson-lakes": {
+      "current": {
+        "prohibited": 6,
+        "restricted": 2
+      },
+      "historic": 0,
+      "name": "Nelson Lakes",
+      "operationsRegion": "Northern South Island"
+    },
+    "new-plymouth": {
+      "current": {
+        "prohibited": 13,
+        "restricted": 9
+      },
+      "historic": 1,
+      "name": "New Plymouth",
+      "operationsRegion": "Hauraki-Waikato-Taranaki"
+    },
+    "north-canterbury": {
+      "current": {
+        "prohibited": 5,
+        "restricted": 1
+      },
+      "historic": 6,
+      "name": "North Canterbury",
+      "operationsRegion": "Eastern South Island"
+    },
+    "sounds": {
+      "current": {
+        "prohibited": 10,
+        "restricted": 1
+      },
+      "historic": 0,
+      "name": "Sounds",
+      "operationsRegion": "Northern South Island"
+    },
+    "south-marlborough": {
+      "current": {
+        "prohibited": 4
+      },
+      "historic": 0,
+      "name": "South Marlborough",
+      "operationsRegion": "Northern South Island"
+    },
+    "south-westland": {
+      "current": {
+        "prohibited": 17,
+        "restricted": 1
+      },
+      "historic": 1,
+      "name": "South Westland",
+      "operationsRegion": "Western South Island"
+    },
+    "tamaki-makaurau-auckland-mainland": {
+      "current": {
+        "prohibited": 4
+      },
+      "historic": 0,
+      "name": "Tāmaki Makaurau/Auckland Mainland",
+      "operationsRegion": "Auckland"
+    },
+    "te-anau": {
+      "current": {
+        "prohibited": 24
+      },
+      "historic": 0,
+      "name": "Te Anau",
+      "operationsRegion": "Southern South Island"
+    },
+    "te-urewera": {
+      "current": {
+        "restricted": 1
+      },
+      "historic": 0,
+      "name": "Te Urewera",
+      "operationsRegion": "Te Urewera"
+    },
+    "tongariro": {
+      "current": {
+        "prohibited": 17,
+        "restricted": 5
+      },
+      "historic": 1,
+      "name": "Tongariro",
+      "operationsRegion": "Central North Island"
+    },
+    "turangi": {
+      "current": {
+        "prohibited": 21,
+        "restricted": 7
+      },
+      "historic": 10,
+      "name": "Turangi",
+      "operationsRegion": "Central North Island"
+    },
+    "twizel": {
+      "current": {
+        "restricted": 4
+      },
+      "historic": 2,
+      "name": "Twizel",
+      "operationsRegion": "Eastern South Island"
+    },
+    "waikato": {
+      "current": {
+        "prohibited": 1
+      },
+      "historic": 0,
+      "name": "Waikato",
+      "operationsRegion": "Hauraki-Waikato-Taranaki"
+    },
+    "wairarapa": {
+      "current": {
+        "prohibited": 2,
+        "restricted": 2
+      },
+      "historic": 0,
+      "name": "Wairarapa",
+      "operationsRegion": "Lower North Island"
+    },
+    "wakatipu": {
+      "current": {
+        "prohibited": 21,
+        "restricted": 8
+      },
+      "historic": 13,
+      "name": "Wakatipu",
+      "operationsRegion": "Southern South Island"
+    },
+    "wellington": {
+      "current": {
+        "prohibited": 3
+      },
+      "historic": 0,
+      "name": "Wellington",
+      "operationsRegion": "Lower North Island"
+    },
+    "whanganui": {
+      "current": {
+        "prohibited": 2,
+        "restricted": 1
+      },
+      "historic": 0,
+      "name": "Whanganui",
+      "operationsRegion": "Central North Island"
+    },
+    "whangarei": {
+      "current": {
+        "restricted": 4
+      },
+      "historic": 0,
+      "name": "Whangarei",
+      "operationsRegion": "Northern North Island"
+    },
+    "whitianga": {
+      "current": {
+        "prohibited": 4
+      },
+      "historic": 2,
+      "name": "Whitianga",
+      "operationsRegion": "Hauraki-Waikato-Taranaki"
+    }
+  },
+  "notes": [
+    "Counts describe the app's bundled data on dataAsOf. They are not totals for New Zealand.",
+    "Dump stations and day-use areas have no region in the data; dumpStationsNearest assigns each to the DOC region of its nearest DOC campsite or hut.",
+    "Freedom-camping notices are DOC notices for conservation land under the Freedom Camping Act 2011. They are not council bylaws."
+  ],
+  "passBoundary": {
+    "free": "BookIt stays and tours only. Partner data: never counted or republished here.",
+    "pass": [
+      "DOC campsites",
+      "DOC huts",
+      "DOC tracks",
+      "DOC freedom-camping notices",
+      "Dump stations",
+      "Day-use areas",
+      "Guides"
+    ]
+  },
+  "regions": {
+    "auckland": {
+      "campsites": 9,
+      "dumpStationsNearest": 17,
+      "hutBunks": 48,
+      "huts": 2,
+      "island": "North Island",
+      "name": "Auckland",
+      "tracks": 41
+    },
+    "bay-of-plenty": {
+      "campsites": 8,
+      "dumpStationsNearest": 23,
+      "hutBunks": 79,
+      "huts": 8,
+      "island": "North Island",
+      "name": "Bay of Plenty",
+      "tracks": 60
+    },
+    "canterbury": {
+      "campsites": 22,
+      "dumpStationsNearest": 38,
+      "hutBunks": 1155,
+      "huts": 180,
+      "island": "South Island",
+      "name": "Canterbury",
+      "tracks": 218
+    },
+    "central-north-island": {
+      "campsites": 14,
+      "dumpStationsNearest": 14,
+      "hutBunks": 228,
+      "huts": 16,
+      "island": "North Island",
+      "name": "Central North Island",
+      "tracks": 55
+    },
+    "chatham-islands": {
+      "campsites": 0,
+      "dumpStationsNearest": 0,
+      "hutBunks": 0,
+      "huts": 0,
+      "island": "Chatham Islands",
+      "name": "Chatham Islands",
+      "tracks": 4
+    },
+    "coromandel": {
+      "campsites": 20,
+      "dumpStationsNearest": 9,
+      "hutBunks": 90,
+      "huts": 2,
+      "island": "North Island",
+      "name": "Coromandel",
+      "tracks": 61
+    },
+    "east-coast": {
+      "campsites": 14,
+      "dumpStationsNearest": 7,
+      "hutBunks": 403,
+      "huts": 38,
+      "island": "North Island",
+      "name": "East Coast",
+      "tracks": 44
+    },
+    "fiordland": {
+      "campsites": 13,
+      "dumpStationsNearest": 5,
+      "hutBunks": 764,
+      "huts": 55,
+      "island": "South Island",
+      "name": "Fiordland",
+      "tracks": 62
+    },
+    "hawkes-bay": {
+      "campsites": 7,
+      "dumpStationsNearest": 15,
+      "hutBunks": 328,
+      "huts": 55,
+      "island": "North Island",
+      "name": "Hawke's Bay",
+      "tracks": 57
+    },
+    "manawatu-whanganui": {
+      "campsites": 20,
+      "dumpStationsNearest": 6,
+      "hutBunks": 308,
+      "huts": 43,
+      "island": "North Island",
+      "name": "Manawatū/Whanganui",
+      "tracks": 47
+    },
+    "marlborough": {
+      "campsites": 44,
+      "dumpStationsNearest": 11,
+      "hutBunks": 335,
+      "huts": 60,
+      "island": "South Island",
+      "name": "Marlborough",
+      "tracks": 56
+    },
+    "nelson-tasman": {
+      "campsites": 37,
+      "dumpStationsNearest": 10,
+      "hutBunks": 1046,
+      "huts": 99,
+      "island": "South Island",
+      "name": "Nelson/Tasman",
+      "tracks": 82
+    },
+    "northland": {
+      "campsites": 14,
+      "dumpStationsNearest": 19,
+      "hutBunks": 91,
+      "huts": 7,
+      "island": "North Island",
+      "name": "Northland",
+      "tracks": 92
+    },
+    "otago": {
+      "campsites": 30,
+      "dumpStationsNearest": 28,
+      "hutBunks": 670,
+      "huts": 78,
+      "island": "South Island",
+      "name": "Otago",
+      "tracks": 210
+    },
+    "southland": {
+      "campsites": 5,
+      "dumpStationsNearest": 8,
+      "hutBunks": 453,
+      "huts": 70,
+      "island": "South Island",
+      "name": "Southland",
+      "tracks": 39
+    },
+    "taranaki": {
+      "campsites": 0,
+      "dumpStationsNearest": 8,
+      "hutBunks": 126,
+      "huts": 8,
+      "island": "North Island",
+      "name": "Taranaki",
+      "tracks": 54
+    },
+    "waikato": {
+      "campsites": 7,
+      "dumpStationsNearest": 10,
+      "hutBunks": 60,
+      "huts": 6,
+      "island": "North Island",
+      "name": "Waikato",
+      "tracks": 55
+    },
+    "wairarapa": {
+      "campsites": 6,
+      "dumpStationsNearest": 5,
+      "hutBunks": 349,
+      "huts": 36,
+      "island": "North Island",
+      "name": "Wairarapa",
+      "tracks": 38
+    },
+    "wellington-kapiti": {
+      "campsites": 3,
+      "dumpStationsNearest": 15,
+      "hutBunks": 243,
+      "huts": 24,
+      "island": "North Island",
+      "name": "Wellington/Kāpiti",
+      "tracks": 31
+    },
+    "west-coast": {
+      "campsites": 14,
+      "dumpStationsNearest": 14,
+      "hutBunks": 885,
+      "huts": 140,
+      "island": "South Island",
+      "name": "West Coast",
+      "tracks": 147
+    }
+  }
+}
