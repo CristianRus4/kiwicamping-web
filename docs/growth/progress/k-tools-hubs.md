@@ -5,7 +5,7 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 ## Status
 - M1 App data export: done, handed off (export script, lib/data/*.json, lib/hubs.ts gate, scripts/audit-hubs.mjs in content:check, credits Data sources)
 - M2 Tools split: done, handed off. Five pages at /tools/<slug>/ (English + every locale, locale noindex until `tools` strings translated), `tools` namespace in lib/source-strings.ts, lib/tools.ts, lib/routes/tools.ts. Not exported or linked until the route manifest lands (`TOOL_PAGES_EXPORTED = false`).
-- M3 Data hubs: not started
+- M3 Data hubs: done, handed off. 52 hubs built (17 camping, 17 huts, 18 freedom-camping), 30 indexable (11 camping, 13 huts, 6 freedom-camping), 22 noindex, 20 not built. Pages: app/camping, app/huts, app/freedom-camping (+ index pages); components/hub-page.tsx, hub-map.tsx; lib/routes/hubs.ts (HUB_PAGES_EXPORTED = false). Prose: lib/hub-prose/{camping,huts,freedom-camping}.ts. Coastline: lib/data/nz-outline.json (Natural Earth, scripts/build-nz-outline.mjs).
 
 ## Decisions
 - **Source licences** (`scripts/export-app-data.mjs`, fails closed):
@@ -23,11 +23,17 @@ Thread: K-tools-hubs (Ava). Branch: `growth/k-tools-hubs`. Worktree: `~/.t3/work
 - Tool pages: the framework renders each inline script twice, so the tool script binds once per tool (`data-bound`); `tool_used` fires once per tool per page view.
 - The old /tools/ defaults showed stale outputs (drive "4 h 32 min", tank grey "4.5", currency "US$58.72"); they are now computed from the same defaults the script uses.
 
+- Camping fact "Reached only on foot or by boat" now counts only campsites that list foot/boat access; blank access is its own row ("Access not listed by DOC").
+- Freedom pages never say the notices are in the app (unconfirmed, see the app bug above).
+- Council links for freedom hubs were matched by reverse-geocoding each notice point (OpenStreetMap). Central Otago DOC district notices all sit in Queenstown Lakes District (Wānaka). QLDC, Taupō and Ruapehu pages block plain curl (bot check), so a curl link checker will misreport them.
+
 ## Waiting on foundation M2
-- Register `toolRoutes` (lib/routes/tools.ts) in lib/routes.ts, set `TOOL_PAGES_EXPORTED = true`, link locale /<locale>/tools/ to the tool pages. (CTA and acTrack already use foundation M1's appStoreUrl and acTrack.)
+- Register `toolRoutes` (lib/routes/tools.ts) and `hubRoutes` (lib/routes/hubs.ts) in lib/routes.ts, set `TOOL_PAGES_EXPORTED` and `HUB_PAGES_EXPORTED` to true, link locale /<locale>/tools/ to the tool pages, and add indexable hubs to the sitemap via the manifest.
+
+- DOC's campsite-categories page now 404s; links use /parks-and-recreation/places-to-stay/stay-at-a-campsite/ (also fixes the campsite tool's source link).
 
 ## Next
-- M3: hub pages, SVG dot maps, hub prose.
+- Wire routes when foundation M2 lands. Then: links into hubs from guides (ask K-content), llms.txt entry for hubs.
 
 ## Blockers
 - None.

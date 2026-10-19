@@ -440,10 +440,10 @@ const range = (values) => values.length ? (Math.min(...values) === Math.max(...v
 const top = (counts, labels) => Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([key, count]) => `${labels?.[key] ?? key} ${count}`).join(", ");
 
 const DOC_OFFICIAL = {
-  campsites: { label: "DOC campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/" },
+  campsites: { label: "DOC campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
   huts: { label: "DOC huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/" },
-  bookings: { label: "DOC bookings", url: "https://bookings.doc.govt.nz/" },
-  freedom: { label: "Freedom camping on conservation land (DOC)", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
+  bookings: { label: "DOC bookings", url: "https://bookings.doc.govt.nz/Web/" },
+  freedom: { label: "Freedom camping on conservation land (DOC)", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
 };
 
 const hubs = [];
@@ -467,7 +467,9 @@ for (const region of Object.values(DOC_REGIONS)) {
     fact("types", "Campsite categories", top(countBy(list, (place) => place.type))),
     fact("greatWalk", "Great Walk campsites", list.filter((place) => place.rawType === "great_walk").length),
     fact("campervan", "Campervan access", list.filter((place) => place.access.includes("campervan")).length),
-    fact("boatOrFoot", "Reached only on foot or by boat", list.filter((place) => !place.access.some((mode) => ["car", "campervan", "caravan", "4wd"].includes(mode))).length),
+    // Only campsites that list their access count here; a blank access field says nothing either way.
+    fact("boatOrFoot", "Reached only on foot or by boat", list.filter((place) => place.access.some((mode) => ["foot", "boat"].includes(mode)) && !place.access.some((mode) => ["car", "campervan", "caravan", "4wd"].includes(mode))).length),
+    fact("accessUnlisted", "Access not listed by DOC", list.filter((place) => !place.access.length).length),
     fact("dogs", "Dogs allowed in some form", list.filter((place) => /^Dogs/.test(place.dogs)).length),
     fact("flushToilets", "Flush toilets", list.filter((place) => place.tokens.has("toilets_flush")).length),
     fact("treatedWater", "Treated tap water", list.filter((place) => place.tokens.has("water_tap_treated")).length),

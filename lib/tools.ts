@@ -28,7 +28,7 @@ const MBIE_FUEL: Source = { label: "MBIE weekly fuel price monitoring", url: "ht
 const NZTA_RUC: Source = { label: "NZTA road user charges", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/" };
 const NZTA_JOURNEYS: Source = { label: "NZTA journey planner and road conditions", url: "https://www.journeys.nzta.govt.nz/" };
 const RBNZ: Source = { label: "Reserve Bank of New Zealand exchange rates", url: "https://www.rbnz.govt.nz/en/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index" };
-const DOC_FEES: Source = { label: "DOC campsite categories and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/" };
+const DOC_FEES: Source = { label: "DOC campsites: categories, fees and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" };
 
 /** Slug, the guides each tool links to (and asks to be linked from), and its official sources. */
 export const tools: Record<ToolId, { slug: string; icon: "fuel" | "clock" | "wallet" | "currency" | "droplets"; guides: string[]; sources: Source[] }> = {

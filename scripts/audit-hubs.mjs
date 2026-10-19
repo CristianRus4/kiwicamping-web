@@ -91,7 +91,9 @@ for (const hub of hubs) {
   if (/—|\\u2014/.test(all)) failures.push(`${hub.id} prose contains an em dash`);
   if (/offline map|offline-map/i.test(all)) failures.push(`${hub.id} prose says "offline map"`);
   if (hub.kind === "freedom-camping" && !/council bylaw/i.test(all)) failures.push(`${hub.id} prose must say these are DOC notices, not council bylaws`);
-  for (const source of prose.sources ?? []) if (!/^https:\/\/[a-z0-9.-]+\.(?:govt\.nz|org\.nz)\//.test(source.url)) failures.push(`${hub.id} cites ${source.url}, which is not an official New Zealand source`);
+  for (const source of [...(prose.sources ?? []), ...(prose.councils ?? [])]) if (!/^https:\/\/[a-z0-9.-]+\.(?:govt\.nz|org\.nz)\//.test(source.url)) failures.push(`${hub.id} cites ${source.url}, which is not an official New Zealand source`);
+  if (hub.kind === "freedom-camping" && !prose.councils?.length) failures.push(`${hub.id} prose must link the council freedom camping rules for council land`);
+  if (hub.kind !== "freedom-camping" && prose.councils?.length) failures.push(`${hub.id} lists councils, which only freedom-camping hubs carry`);
   for (const error of groundingErrors(hub, prose)) failures.push(error);
 }
 assert.deepEqual(failures, [], `Hub prose failed:\n  ${failures.join("\n  ")}`);

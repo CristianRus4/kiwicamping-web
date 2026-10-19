@@ -86,11 +86,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/auckland/",
@@ -401,11 +401,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/bay-of-plenty/",
@@ -653,8 +653,8 @@
           "value": 18
         },
         {
-          "key": "boatOrFoot",
-          "label": "Reached only on foot or by boat",
+          "key": "accessUnlisted",
+          "label": "Access not listed by DOC",
           "value": 2
         },
         {
@@ -714,11 +714,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/canterbury/",
@@ -1312,11 +1312,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/central-north-island/",
@@ -1678,7 +1678,12 @@
         {
           "key": "boatOrFoot",
           "label": "Reached only on foot or by boat",
-          "value": 6
+          "value": 5
+        },
+        {
+          "key": "accessUnlisted",
+          "label": "Access not listed by DOC",
+          "value": 1
         },
         {
           "key": "dogs",
@@ -1727,11 +1732,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/coromandel/",
@@ -2269,11 +2274,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/east-coast/",
@@ -2692,11 +2697,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/fiordland/",
@@ -3063,11 +3068,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/hawkes-bay/",
@@ -3288,7 +3293,12 @@
         {
           "key": "boatOrFoot",
           "label": "Reached only on foot or by boat",
-          "value": 17
+          "value": 15
+        },
+        {
+          "key": "accessUnlisted",
+          "label": "Access not listed by DOC",
+          "value": 2
         },
         {
           "key": "dogs",
@@ -3332,11 +3342,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/manawatu-whanganui/",
@@ -3860,11 +3870,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/marlborough/",
@@ -4581,11 +4591,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/nelson-tasman/",
@@ -5279,11 +5289,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/northland/",
@@ -5724,11 +5734,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/otago/",
@@ -6358,7 +6368,12 @@
         {
           "key": "boatOrFoot",
           "label": "Reached only on foot or by boat",
-          "value": 3
+          "value": 2
+        },
+        {
+          "key": "accessUnlisted",
+          "label": "Access not listed by DOC",
+          "value": 1
         },
         {
           "key": "dogs",
@@ -6397,11 +6412,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/southland/",
@@ -6617,11 +6632,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/waikato/",
@@ -6874,11 +6889,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/wairarapa/",
@@ -7084,8 +7099,8 @@
           "value": 2
         },
         {
-          "key": "boatOrFoot",
-          "label": "Reached only on foot or by boat",
+          "key": "accessUnlisted",
+          "label": "Access not listed by DOC",
           "value": 1
         },
         {
@@ -7130,11 +7145,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/wellington-kapiti/",
@@ -7308,11 +7323,11 @@
       "officialLinks": [
         {
           "label": "DOC campsites",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/campsite-categories/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/"
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/camping/west-coast/",
@@ -7716,7 +7731,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern North Island",
@@ -7905,7 +7920,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Western South Island",
@@ -8139,7 +8154,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Southern South Island",
@@ -8459,7 +8474,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Southern South Island",
@@ -8601,7 +8616,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Eastern North Island",
@@ -8722,7 +8737,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Eastern South Island",
@@ -8907,7 +8922,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern South Island",
@@ -9097,7 +9112,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Western South Island",
@@ -9202,7 +9217,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Hauraki-Waikato-Taranaki",
@@ -9343,7 +9358,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Lower North Island",
@@ -9703,7 +9718,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern North Island",
@@ -9851,7 +9866,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern North Island",
@@ -10040,7 +10055,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Hauraki-Waikato-Taranaki",
@@ -10177,7 +10192,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Eastern South Island",
@@ -10313,7 +10328,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern South Island",
@@ -10547,7 +10562,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Southern South Island",
@@ -10748,7 +10763,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern South Island",
@@ -11004,7 +11019,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Hauraki-Waikato-Taranaki",
@@ -11505,7 +11520,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Eastern South Island",
@@ -11712,7 +11727,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern South Island",
@@ -11977,7 +11992,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern South Island",
@@ -12150,7 +12165,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Western South Island",
@@ -12527,7 +12542,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Auckland",
@@ -12675,7 +12690,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Southern South Island",
@@ -13153,7 +13168,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Te Urewera",
@@ -13292,7 +13307,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Central North Island",
@@ -13774,7 +13789,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Central North Island",
@@ -14291,7 +14306,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Eastern South Island",
@@ -14448,7 +14463,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Hauraki-Waikato-Taranaki",
@@ -14578,7 +14593,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Lower North Island",
@@ -14768,7 +14783,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Southern South Island",
@@ -15283,7 +15298,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Lower North Island",
@@ -15440,7 +15455,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Central North Island",
@@ -15584,7 +15599,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Northern North Island",
@@ -15746,7 +15761,7 @@
       "officialLinks": [
         {
           "label": "Freedom camping on conservation land (DOC)",
-          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/"
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"
         }
       ],
       "operationsRegion": "Hauraki-Waikato-Taranaki",
@@ -15909,7 +15924,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/auckland/",
@@ -16048,7 +16063,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/bay-of-plenty/",
@@ -16310,7 +16325,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/canterbury/",
@@ -17353,7 +17368,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/central-north-island/",
@@ -17737,7 +17752,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/coromandel/",
@@ -17891,7 +17906,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/east-coast/",
@@ -18502,7 +18517,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/fiordland/",
@@ -19147,7 +19162,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/hawkes-bay/",
@@ -19806,7 +19821,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/manawatu-whanganui/",
@@ -20415,7 +20430,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/marlborough/",
@@ -21099,7 +21114,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/nelson-tasman/",
@@ -21879,7 +21894,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/northland/",
@@ -22128,7 +22143,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/otago/",
@@ -22873,7 +22888,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/southland/",
@@ -23558,7 +23573,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/taranaki/",
@@ -23804,7 +23819,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/waikato/",
@@ -24022,7 +24037,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/wairarapa/",
@@ -24622,7 +24637,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/wellington-kapiti/",
@@ -25168,7 +25183,7 @@
         },
         {
           "label": "DOC bookings",
-          "url": "https://bookings.doc.govt.nz/"
+          "url": "https://bookings.doc.govt.nz/Web/"
         }
       ],
       "path": "/huts/west-coast/",

@@ -116,6 +116,12 @@ const SENTENCE_STARTERS = new Set([
   "Such", "That", "The", "Their", "Then", "There", "These", "They", "This", "Those", "Three", "Through", "To",
   "Together", "Two", "Under", "Unlike", "Until", "Up", "Use", "Walkers", "Water", "We", "What", "When", "Where",
   "Whether", "Which", "While", "Who", "Why", "With", "Within", "Without", "Yet", "You", "Your",
+  "Access", "Anyone", "Arrive", "Being", "Best", "Booking", "Bookings", "Bunks", "Closed", "Coastal", "Despite",
+  "Everyone", "Far", "Fire", "First", "Free", "Getting", "Go", "Good", "Having", "Heating", "However", "Inside",
+  "Leave", "Let", "Longer", "Lower", "Make", "Mattresses", "Mostly", "Night", "Note", "Now", "Often", "Pack",
+  "Paid", "Part", "Plenty", "Powered", "Rates", "Remote", "Second", "Showers", "Sites", "Staying", "Take",
+  "Toilets", "Trampers", "Treat", "Unpowered", "Very", "Visitors", "Wherever", "Year", "Years", "Areas",
+  "Camping", "Freedom", "Self-contained", "Vehicles", "Notice", "Hours", "Between", "Behind",
 ]);
 
 const NUMBER = /\d[\d,]*(?:\.\d+)?/g;
@@ -135,7 +141,7 @@ function strings(value: unknown): string[] {
 export function groundingErrors(hub: Hub, prose: HubProse | undefined = proseFor(hub)): string[] {
   if (!prose) return [];
   const record = strings({ ...hub, placeIds: undefined, points: undefined });
-  const cited = strings(prose.sources ?? []);
+  const cited = strings([...(prose.sources ?? []), ...(prose.councils ?? [])]);
   const corpus = [...record, ...cited];
   // Links and record identifiers are full of digits that are not facts, so numbers come from text only.
   const numbers = new Set(corpus.filter((text) => !/^https?:|^[a-z-]+:\d+$/.test(text)).flatMap((text) => (text.match(NUMBER) ?? []).map(normaliseNumber)));
@@ -156,3 +162,13 @@ export function groundingErrors(hub: Hub, prose: HubProse | undefined = proseFor
   }
   return [...new Set(errors)];
 }
+
+/** The hub kinds that have pages. Dump stations have none: the only data for them is excluded by licence. */
+export const hubKinds = ["camping", "huts", "freedom-camping"] as const satisfies readonly HubKind[];
+export type BuiltHubKind = (typeof hubKinds)[number];
+
+/** Hubs an index page lists: indexable ones only. */
+export const listedHubs = (kind: HubKind) => indexableHubs.filter((hub) => hub.kind === kind);
+/** An index page is worth indexing once it lists at least three hubs. */
+export const hubIndexIndexable = (kind: HubKind) => listedHubs(kind).length >= 3;
+export const factValue = (hub: Hub, key: string) => hub.facts.find((fact) => fact.key === key)?.value;
