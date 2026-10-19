@@ -11,71 +11,91 @@ export const legacyOnlyArticles: Article[] = [
   a({
     slug: "best-nz-camping-apps",
     legacyPath: "/best-nz-camping-apps.html",
-    title: "The best camping apps for New Zealand, compared",
-    description: "How KiwiCamping, Rankers, CamperMate, WikiCamps and AllTrails differ on offline data, freedom camping rules and trip planning.",
+    title: "Best Camping Apps NZ 2026: Rankers, CamperMate, WikiCamps",
+    description: "Five New Zealand camping apps compared on price, data source, offline use and strengths, checked October 2026: KiwiCamping, Rankers, CamperMate and more.",
     category: "App guides",
     region: "New Zealand",
     readTime: 13,
-    places: ["DOC campsites", "Council reserves", "Holiday parks", "Dump stations"],
+    places: ["DOC campsites", "Council freedom camping areas", "Holiday parks", "Private land stays", "Dump stations"],
     imageAlt: "Camping app open on a phone beside a New Zealand campsite",
     intro:
-      "No single app covers every part of a New Zealand camping trip equally well. The useful question is not which app is best overall, but which one answers the question you are actually asking: where can I legally park tonight, which hut has a bunk free, or where is the nearest dump station. This comparison sets out what each of the main options is built around, so you can pick the combination that fits your trip.",
+      "Five apps come up most often for New Zealand camping trips: Rankers Camping NZ, CamperMate, WikiCamps New Zealand, Campable and KiwiCamping, which is ours. They differ more than their store pages suggest. Rankers and CamperMate are free and earn from bookings and deals, WikiCamps charges once on the App Store and also takes bookings, Campable books private land, and KiwiCamping sells a pass for its DOC and planning features. The table compares what each one costs, where its data comes from and what still works without signal, as checked on 19 October 2026, and the sections below say who each one suits.",
+    comparison: {
+      asOf: "19 October 2026",
+      caption: "Five NZ camping apps side by side",
+      note: "Prices are from each app's New Zealand App Store listing in NZD, checked on the date below. Data sources and offline features are as each developer describes them on its listing or website; check the listing for changes before you rely on one.",
+      columns: ["Price", "Platforms", "Where the data comes from", "Without signal", "Best at"],
+      rows: [
+        { label: "KiwiCamping", cells: ["Free download; DOC places, dump stations and guides need the in-app Premium pass. BookIt stays and tours are free.", "iPhone", "DOC data for campsites, huts, tracks and freedom camping notices, plus BookIt holiday parks and tours", "Place details are stored on the phone; map tiles, routing and weather need signal", "DOC campsites and huts with fees and booking status, and an ordered trip planner"] },
+        { label: "Rankers Camping NZ", cells: ["Free, no in-app purchases; funded by campground bookings and activity deals", "iPhone, iPad, Android and web", "Rankers' own list of 1,500+ places to stay, with 108,000+ traveller reviews checked by staff", "Campsite information works offline", "Reviews and local notes on legal places to stay"] },
+        { label: "CamperMate", cells: ["Free, no in-app purchases on iPhone; funded by bookings, deals and advertising", "iPhone, iPad and Android", "Campsites, holiday parks, freedom camping spots and services in NZ and Australia, with community reviews and photos", "Download maps and information for offline use", "Services such as toilets, Wi-Fi and dump stations, in 27 languages"] },
+        { label: "WikiCamps New Zealand", cells: ["NZ$7.99 one-off on the App Store; on Android a free download with a one-time in-app unlock; also takes bookings", "iPhone, iPad and Android", "Community-contributed listings, 12,000+ sites", "Offline mode downloads the data you need", "Detailed filters and a trip planner with a fuel estimate"] },
+        { label: "Campable", cells: ["Free app; pay per night in the app with no guest booking fees, and Campable takes a commission from hosts", "iPhone and Android", "Hosts' own listings of private land such as vineyards, farms and orchards", "Arrival details work offline once booked", "Booking private sites, with a self-contained or non-self-contained filter"] },
+      ],
+    },
     sections: [
-      s("What actually matters in a New Zealand camping app", [
-        "Four things separate a useful app from a directory. The first is whether core place data works without reception, because large parts of the West Coast, Fiordland, the East Cape and inland Otago have no usable signal at exactly the moment you need to choose a site. The second is whether the app distinguishes general freedom camping from certified-self-contained-only areas, since that distinction is what infringement notices are written against.",
-        "The third is trip planning that survives contact with a changed plan: ordered stops, saved alternatives and notes attached to the right place. The fourth is how the app makes its money, because a tool funded by bookings has a reason to show you bookable places first. Weigh these against your own trip rather than against a feature count.",
-      ], ["Test offline before you leave reception", "Check how self-contained areas are flagged", "Know how the app is funded"]),
+      s("What matters in a New Zealand camping app", [
+        "Four things separate a useful app from a directory. The first is whether place details open without reception, because large parts of the West Coast, Fiordland, the East Cape and inland Otago have no usable signal at exactly the moment you need to choose a site. The second is whether the app tells you who says you may stay: a council bylaw, a DOC notice, a campground or a private host. That is what an infringement notice is written against.",
+        "The third is trip planning that survives a changed plan: ordered stops, saved alternatives and notes attached to the right place. The fourth is how the app makes its money, because a tool funded by bookings has a reason to show you bookable places first. Weigh these against your own trip rather than against a feature count.",
+      ], ["Open a place in flight mode before you leave", "Ask who authorises each site", "Know how the app is funded"]),
       s("KiwiCamping", [
-        "KiwiCamping is built around offline-first place data and rule clarity. The bundled directory keeps campsite, hut, holiday park, dump station and potable water details available beyond reliable signal, and freedom camping areas are separated from certified-self-contained-only areas rather than lumped together under one label. Trips are built from saved places into an ordered route with distance, dates, notes and to-dos attached to individual stops.",
-        "The trade-offs are worth stating plainly. It is iPhone only, so Android travellers need something else. Live weather, road routing and provider booking pages still require a connection. The free tier lets you find places on the map, while saving to lists, full place details, trip planning and advanced filters sit behind a paid pass. Current pricing is shown in the App Store, since it varies by region.",
+        "KiwiCamping is built on DOC's own data: campsites with their category, fee and whether they take bookings, huts with bunks and fees, tracks, and DOC's freedom camping notices showing where camping on conservation land is prohibited or restricted. Dump stations sit on the same map, and holiday parks and tours come from BookIt and can be booked in the app. Saved places become an ordered trip with distance, dates, notes and to-dos on each stop.",
+        "The limits are worth stating plainly. It is iPhone only. Place details are stored on the phone, but map tiles, routing, weather and photos need a connection. DOC's notices cover conservation land, not council bylaws, so check the council for town and roadside sites. Only BookIt stays and tours are free; DOC campsites, huts, dump stations, the notices and the guides need the Premium pass, with the current options listed on the App Store.",
       ]),
-      s("Rankers", [
-        "Rankers has the deepest community review base in New Zealand and a long-running relationship with published camping data. If you want to read what other travellers thought of a site before committing to a two-hour detour, this is the strongest source, and its coverage of legal camping locations is genuinely broad.",
-        "It leans on connectivity more than an offline-first tool does, and reviews describe experience rather than current legal status. Treat the review wall as colour and the council bylaw as the authority. Many travellers run it alongside an offline app rather than instead of one.",
+      s("Rankers Camping NZ", [
+        "Rankers is a New Zealand-owned app that has collected camping information since 2007. It lists \"over 1500 places you can stay, including those where the local community has said you're welcome\", and more than 108,000 traveller reviews that its own staff read and check. If you want to know which end of a campground is quietest before a two-hour detour, its co-owner's on-the-ground notes cover exactly that.",
+        "It is free with no in-app purchases, and its listing says the campsite information works offline from the first launch. Rankers pays its way through around 500 bookable campgrounds and more than 150 activity deals, which it is open about. Treat a review as colour rather than as the current rule: a bylaw or DOC notice can change after the review was written.",
       ]),
       s("CamperMate", [
-        "CamperMate operates on both sides of the Tasman and is oriented towards holiday parks, bookings and local offers. For a powered-site-heavy trip where you want to reserve ahead and pick up deals, that orientation is an advantage rather than a compromise.",
-        "The breadth of categories can make the map busy when you are hunting for one specific thing, and offline packs are more limited than in tools built offline-first. If your route is mostly commercial parks with reliable coverage, that matters less.",
+        "CamperMate covers New Zealand and Australia, and it is the official travel partner of the Apollo, Maui, Britz and Mighty rental brands, so many hire campervans come with it suggested. Beyond campsites and holiday parks it maps dump stations, public toilets, Wi-Fi and supermarkets, and it runs in 27 languages, which helps visitors who would rather not plan in English.",
+        "It is free, funded by bookings, deals and advertising, and you can download maps and information for offline use. With this many categories, its filters are the way to cut the map down to one thing, and much of the detail comes from community reviews, photos and updates, so confirm anything legally significant with the council or DOC.",
       ]),
-      s("WikiCamps NZ", [
-        "WikiCamps is the most configurable of the group, with a flexible filter engine, user-contributed points of interest, discussion boards and checklists. Experienced travellers who know exactly what they are filtering for often prefer it, and it uses a one-off licence rather than a subscription after a short trial.",
-        "Because much of the data is user-contributed, verification varies between entries, and there is no official bylaw feed behind the freedom camping flags. Confirm anything legally significant against the council or DOC page before you rely on it.",
-      ], ["Cross-check user-added sites", "Good for very specific filters", "One-off licence, not a subscription"]),
-      s("AllTrails", [
-        "AllTrails is a tramping tool rather than a camping one. For topographic overlays, track conditions and GPX export it is excellent, and it is the right app for the walking half of a mixed trip.",
-        "It does not cover dump stations, freedom camping bylaws, holiday parks or vehicle access notes, so it cannot be the only app on a vehicle-based trip. Pair it with a camping app rather than choosing between them.",
+      s("WikiCamps New Zealand", [
+        "WikiCamps New Zealand costs NZ$7.99 once on the App Store, with no subscription; on Android it is a free download with a one-time in-app unlock. It lists more than 12,000 sites contributed and kept up to date by its users, with detailed filters, collections, a trip planner that estimates fuel spend, and bookings for many sites inside the app. An offline mode downloads what you need before you lose signal.",
+        "Because the listings are user-contributed, accuracy varies from one entry to the next, and a freedom camping pin is only as good as the last person who checked it. Use it for breadth and filters, and confirm anything that could earn you a fine against the council bylaw or the DOC page.",
+      ], ["Cross-check user-added sites", "Good for very specific filters", "One payment, no subscription"]),
+      s("Campable", [
+        "Campable is a different kind of app: it books nights on private land, such as vineyards, working farms, orchards and sports clubs, where the host has agreed to take motorhomes and campervans. You see the nightly price, facilities and house rules, book and pay in the app, and get the host's phone number with the booking.",
+        "The app is free, Campable says it charges guests no booking fees, and it earns a commission from hosts. Your arrival details work offline once booked. It has a filter for self-contained and non-self-contained vans, which matters since only green-warrant vehicles count as self-contained for freedom camping. It does not try to cover DOC campsites or council freedom camping areas, so pair it with one of the others.",
       ]),
-      s("Other New Zealand options worth knowing", [
-        "NZMCA's app is members-only and built on shared camping data, with the significant addition of member parks and dump stations that do not appear elsewhere. If you are a member, or considering joining for a long trip, that network changes the arithmetic considerably.",
-        "DOC's own Campsite Finder covers DOC campgrounds and nothing else. It is authoritative for exactly that, since the fees, categories and alerts come from the source, but it will not help you with council bylaws, holiday parks or dump stations, so it works as a reference rather than as a trip planner.",
+      s("Other options worth knowing", [
+        "The NZMCA app is for members of the New Zealand Motor Caravan Association and needs a membership login. It opens the association's travel directory, including its own member parks and other points of interest. If you are a member, or considering joining for a long trip, that network changes the arithmetic.",
+        "DOC's own website is the authority for its campsites, huts and alerts, and bookings.doc.govt.nz is where you book them; any app, ours included, is a step removed from that source. For the walking half of a trip, a dedicated tramping app usually handles tracks better than a camping app.",
       ]),
       s("Offline coverage is where apps differ most", [
-        "Offline means different things in different apps, and the distinction matters on the West Coast, in Fiordland and across the East Cape. Some tools cache map tiles only, so you get a map with no place details. Others bundle the place directory itself, so categories, facilities, fees and access notes stay readable with no signal at all.",
-        "Whatever you use, sync over Wi-Fi before you leave a main centre, and screenshot anything legally significant: a bylaw summary, a booking confirmation, an access note. A screenshot works in every app, on every phone, with no reception and a nearly flat battery.",
-      ], ["Cached tiles are not cached details", "Sync before leaving a main centre", "Screenshot anything legally important"]),
-      s("How the pricing models compare", [
-        "The apps are funded in four different ways, and each shapes what you see. Subscription tools charge directly and have no reason to prefer one place over another. Booking-funded apps earn from reservations, which tends to surface bookable commercial sites ahead of free ones. One-off licence apps charge once and are then indifferent. Free apps with no visible revenue are worth a moment's thought about where the value goes.",
-        "KiwiCamping is free to download, with map and place discovery available at no cost, and a paid pass covering saved lists, full place details, trip planning, advanced filters and offline access. Current prices are shown in the App Store because they differ by region and change; we would rather send you to the live figure than publish one that goes stale here.",
+        "Offline means different things in different apps, and the difference shows on the West Coast, in Fiordland and across the East Cape. Some tools let you download map areas; others store the place directory itself, so categories, facilities, fees and access notes stay readable with no signal at all. Few do everything without a connection: routing, weather and photos usually still need one.",
+        "Whatever you use, update it over Wi-Fi before you leave a main centre, and screenshot anything legally significant: a bylaw summary, a booking confirmation, an access note. A screenshot works in every app, on every phone, with no reception and a nearly flat battery.",
+      ], ["Downloaded maps are not the same as stored details", "Update before leaving a main centre", "Screenshot anything legally important"]),
+      s("How the apps make their money", [
+        "Rankers, CamperMate and WikiCamps all earn from in-app bookings and partner deals, and CamperMate also from advertising and paid listings; WikiCamps also charges up front on the App Store, and Campable takes a commission from hosts. Any app that sells bookings has a reason to put bookable places in front of you, and that includes the BookIt holiday parks and tours in KiwiCamping.",
+        "KiwiCamping sells a Premium pass for its DOC places, dump stations, guides and planning, while BookIt stays and tours are free to browse and book in the app. The App Store shows the current pass prices in your own currency, and those change more often than this page, so check the listing rather than relying on a figure copied here.",
       ]),
       s("Which combination suits your trip", [
-        "For a self-contained van moving through remote areas, prioritise offline data and rule clarity, then add a review-led app for the busier stretches where you have signal anyway. For a family trip built around powered sites and school holidays, a booking-oriented app earns its place and offline depth matters less.",
-        "For a mixed trip with serious walking, run a camping app for the vehicle nights and a tramping app for the tracks. Most people who travel New Zealand for more than a fortnight end up carrying two apps, and that is a reasonable outcome rather than a failure to choose.",
+        "For a self-contained van moving through remote areas, prioritise stored place details and clear rules, then add a review-led app for the busier stretches where you have signal anyway. For a family trip built around powered sites and school holidays, a booking-led app earns its place, and Campable adds quieter nights on private land.",
+        "For a mixed trip with serious walking, run a camping app for the vehicle nights and a tramping app for the tracks. Many travellers on a trip longer than a fortnight end up carrying two apps, and that is a reasonable outcome rather than a failure to choose.",
       ]),
       s("Check the rule, not the pin", [
-        "Every app in this comparison, including ours, is a planning aid. On-site signage, the current council bylaw, DOC alerts and land-manager directions override anything cached on a phone, and they change more often than app data refreshes. Fire restrictions and rāhui in particular can be imposed quickly.",
+        "Every app in this comparison, including ours, is a planning aid. The council bylaw, the DOC notice, DOC alerts and land-manager directions override anything stored on a phone, and they change more often than app data refreshes. Fire restrictions and rāhui in particular can be imposed quickly.",
         "Before you settle in for the night, read the sign at the entrance. If it disagrees with the app, the sign wins. That habit costs nothing and is what keeps freedom camping available.",
       ], ["Signs override app data", "Recheck DOC alerts before remote legs", "Fire restrictions can change overnight"]),
     ],
     sources: [
+      { label: "Rankers Camping NZ", url: "https://www.rankers.co.nz/" },
+      { label: "CamperMate", url: "https://campermate.com/en" },
+      { label: "Campable: private land stays and guest fees", url: "https://campable.com/" },
+      { label: "Campable: terms and conditions, including host commission", url: "https://campable.com/terms-and-conditions" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+      { label: "CamperMate on Google Play", url: "https://play.google.com/store/apps/details?id=nz.co.campermate" },
+      { label: "Plumbers, Gasfitters and Drainlayers Board: green warrant rules", url: "https://www.pgdb.co.nz/self_contained_vehicles/private_vehicle_owners/" },
+      { label: "New Zealand Motor Caravan Association", url: "https://www.nzmca.org.nz/" },
       { label: "DOC camping and accommodation", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
-      { label: "Plan a responsible camping trip (DOC)", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/camping-responsibly/" },
     ],
   }),
 
   a({
     slug: "where-to-camp-in-new-zealand",
-    legacyPath: "/where-to-camp-in-new-zealand.html",
+    legacyPath: "/where-to-camp-in-new-zealand.html", hubs: ["camping","huts"],
     title: "Where you can camp in New Zealand: a complete location guide",
     description: "DOC campsites, conservation land, council reserves, iwi-managed places and private holiday parks each carry different rules and costs.",
     category: "Camping guides",
@@ -87,7 +107,7 @@ export const legacyOnlyArticles: Article[] = [
       "New Zealand's camping network runs across four quite different kinds of land, and the rules, price and booking system change with each one. Knowing which type you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask when something is unclear, and what you should expect to pay.",
     sections: [
       s("The four land types", [
-        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites can be free or a few dollars per person; serviced campgrounds have flush toilets, powered options and often a warden.",
+        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites are free; serviced campgrounds have flush toilets, powered options and often a warden.",
         "Council reserves are the backbone of freedom camping. They are governed by local bylaws rather than national rules, usually allow one or two nights, and are frequently restricted to certified self-contained vehicles. Because each council writes its own bylaw, a rule that applies in one district tells you nothing about the next one.",
       ]),
       s("Holiday parks and iwi-managed places", [
@@ -104,15 +124,15 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book Abel Tasman and Great Walk sites early", "Fiordland needs DOC bookings", "West Coast trades weather for space"]),
       s("What each land type costs", [
         "DOC basic sites are free and DOC standard sites generally run $10–$20 per adult per night, charged per person rather than per site. Serviced DOC campgrounds sit around $25 per adult. Because the charge scales with people, a family is often better off at a holiday park quoting a flat site rate.",
-        "Council freedom camping areas are usually free but may require a permit, and holiday parks range from roughly $25 to $80 for a site depending on season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
+        "Council freedom camping areas are usually free but may require a permit, and holiday park prices vary widely with season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
       ], ["DOC charges per adult", "Holiday parks may suit families better", "Koha is not a discount"]),
       s("Booking, or turning up", [
         "The four land types behave differently on arrival. Great Walk and Abel Tasman campsites are booked well ahead and turning up is not an option. Most DOC sites are first-come, which works outside peak season and fails badly between Christmas and late January. Holiday parks take bookings and fill early in beach towns.",
         "Council freedom camping areas cannot be reserved at all, which is exactly why they need a fallback. The workable pattern is to book the nights that are hard to replace, stay flexible on the rest, and always know where the nearest paid site is.",
       ]),
       s("The legal guardrails", [
-        "Freedom camping is legal only where it is permitted, and in many districts only for certified self-contained vehicles with a fixed toilet. Older blue certifications remain valid only until they expire, and no later than 31 December 2027, after which a current green warrant is required. The certification is about the vehicle's capability, not your intentions, and enforcement is generally against the vehicle.",
-        "On-site signage overrides every app, PDF and blog post, including this one. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
+        "Freedom camping is allowed on council and conservation land unless a bylaw or DOC notice prohibits or restricts it, and on council land a vehicle must be certified self-contained unless a bylaw designates the site for non-self-contained vehicles. Since 7 June 2026 certification means a green warrant: blue warrants no longer count for freedom camping, whatever their printed expiry. The certification is about the vehicle's capability, not your intentions, and campgrounds, holiday parks and private land with permission do not require it.",
+        "The bylaw or DOC notice is the rule, and the sign at the site is the quickest way to read it, though not every restricted area is signposted. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
       ]),
       s("Season and access", [
         "Winter closes or restricts alpine access, Arthur's Pass, the Lindis and the Desert Road can all be affected by snow, and some DOC roads shut temporarily after heavy weather. Chains may be required, and a two-wheel-drive van is not always the right vehicle for a winter route.",
@@ -129,8 +149,8 @@ export const legacyOnlyArticles: Article[] = [
   a({
     slug: "responsible-camping-new-zealand",
     legacyPath: "/responsible-camping-nz.html",
-    title: "Responsible camping in New Zealand",
-    description: "Leave No Trace applied to Aotearoa: waste, biosecurity, rāhui, wildlife and the community expectations that keep sites open.",
+    title: "Responsible Camping NZ: Leave No Trace Rules and Etiquette",
+    description: "Leave No Trace in New Zealand: toilet waste, rubbish, biosecurity, rāhui and wildlife, and the habits that keep freedom camping sites open.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 12,
@@ -174,9 +194,9 @@ export const legacyOnlyArticles: Article[] = [
 
   a({
     slug: "two-week-camper-itinerary-new-zealand",
-    legacyPath: "/two-week-camper-itinerary-nz.html",
-    title: "Two-week New Zealand camper itinerary: North and South Islands",
-    description: "A 14-day Auckland to Queenstown route with one Cook Strait crossing, realistic driving days and room for weather.",
+    legacyPath: "/two-week-camper-itinerary-nz.html", hubs: ["camping/coromandel","camping/west-coast","camping/fiordland"],
+    title: "2 Week NZ Campervan Itinerary: North and South Island",
+    description: "A 14-day Auckland to Queenstown campervan itinerary: one Cook Strait crossing, the West Coast, Milford Sound and the Catlins, day by day.",
     category: "Road trips",
     region: "New Zealand",
     readTime: 14,
@@ -191,15 +211,15 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book the ferry before anything else", "Price the one-way vehicle fee", "Check passes daily in winter"]),
       s("Days 1 to 6, North Island", [
         "Start north of Auckland rather than in it, stock up on the way out and take the first night near Ōrewa or the Hibiscus Coast. Day two runs into the Coromandel for Cathedral Cove and Hahei, which is worth an unhurried afternoon. Day three is Rotorua and its geothermal parks, where the holiday parks are genuinely convenient.",
-        "Day four takes you to Taupō for the lake and the Huka Falls, with freedom camping options on the eastern shore for certified vehicles. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
+        "Day four takes you to Taupō for the lake and the Huka Falls; stay at a holiday park or check Taupō District Council's freedom camping rules before parking for the night. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
       ]),
       s("Days 7 to 10, into the South", [
         "Day seven is the crossing and Queen Charlotte Drive, which is slower and more beautiful than the map suggests. Stop early on the Sounds rather than pushing towards Nelson in the dark.",
         "Days eight to ten run down the West Coast to the glaciers and across to Wānaka. This is the wettest and least populated stretch of the route, the sandflies are serious, and it is also where most people's photographs come from. Fuel up more often than feels necessary.",
       ], ["Sandfly repellent on the West Coast", "Fuel early, not at the last town", "Queen Charlotte Drive takes longer than it looks"]),
       s("Days 11 to 14, the south", [
-        "Queenstown on day eleven, then Milford Sound as a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
-        "Day thirteen takes the Catlins coast towards Curio Bay for penguins and sea lions, and day fourteen returns north to Queenstown. If your flight is early, spend the final night near the airport rather than driving the Lindis at dawn.",
+        "Day eleven runs from Wānaka to Te Anau through Queenstown, about three hours, then Milford Sound is a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
+        "Day thirteen crosses Southland to the Catlins coast at Curio Bay for penguins and sea lions, and day fourteen drives back up to Queenstown, roughly four hours, to drop the vehicle. If your flight leaves early on day fourteen, skip the Catlins and drive Te Anau to Queenstown, about two hours, on day thirteen instead.",
       ]),
       s("Where to lose a day if you need to", [
         "This route has three natural compression points. The Napier leg can be cut by running Taupō to Wellington directly, the Catlins can be dropped entirely, and Milford can become a scenic flight or a shorter Te Anau day if the weather closes in.",
