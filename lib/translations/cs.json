@@ -1,6 +1,763 @@
 {
   "locale": "cs",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Čeština",
+    "metaTitle": "KiwiCamping: mapa kempů a chat DOC na Novém Zélandu a plánovač cest",
+    "metaDescription": "Přes 6 500 kempů, chat DOC, holiday parků a míst pro freedom camping po celém Novém Zélandu. Údaje o místech offline, přesné filtry a plánovač cesty po zastávkách. Pro iPhone.",
+    "ogTitle": "KiwiCamping: mapa kempů a plánovač road tripu po Novém Zélandu",
+    "ogDescription": "Přes 6 500 kempů, chat DOC, holiday parků a míst pro freedom camping, všechno uložené offline. Filtrujte, ukládejte a naplánujte si celou cestu.",
+    "metaKeywords": "aplikace na kempování Nový Zéland, mapa kempů Nový Zéland, freedom camping Nový Zéland, kempy DOC aplikace, chaty DOC mapa, holiday parky Nový Zéland, obytným autem po Novém Zélandu, kempy Nový Zéland offline, plánovač road tripu Nový Zéland",
+    "metaGuidesTitle": "Kempování a road trip po Novém Zélandu: praktické rady",
+    "metaGuidesDescription": "Pravidla kempování, freedom camping a požadavky na self-contained vozidla, kempy DOC, kdy jet, skutečné náklady a praktické plánování road tripu po Novém Zélandu.",
+    "metaToolsTitle": "Kalkulačky pro road trip po Novém Zélandu",
+    "metaToolsDescription": "Převeďte novozélandské ceny, spočítejte palivo na cestu, odhadněte skutečnou délku dne za volantem, naplánujte zásoby vody a odpadní nádrže a porovnejte ceny kempů.",
+    "metaSupportTitle": "Podpora a časté dotazy",
+    "metaSupportDescription": "Pomoc s mapami, údaji o místech, filtry, sbírkami, plánovačem cest, offline daty, převodem měn a prémiovým přístupem v KiwiCamping.",
+    "navFeatures": "Funkce",
+    "navGuides": "Průvodce",
+    "navTools": "Nástroje",
+    "navSupport": "Podpora",
+    "download": "Stáhnout aplikaci",
+    "downloadShort": "Stáhnout",
+    "updated": "Aktualizováno",
+    "commonQuestions": "Časté dotazy",
+    "altHero": "Mapa KiwiCamping pro Nový Zéland s piny kempů, holiday parků a míst pro freedom camping v oblasti Golden Bay a pod ní seznam Prozkoumat s místy v okolí",
+    "altPlaceScreen": "Detail místa v KiwiCamping pro kemp Robin Hood Bay Campsite v Marlborough s informací, že je zdarma, otevírací dobou, vybavením a odkazem na rezervaci",
+    "altCollectionsScreen": "Obrazovka sbírek v KiwiCamping se seznamy Chci navštívit, Navštíveno, Piny a Vše uloženo nad satelitní mapou ostrova Great Barrier Island",
+    "altTripScreen": "Itinerář road tripu v KiwiCamping po Bay of Islands se sedmi zastávkami, vzdáleností jízdy, daty a počasím u každého kempu",
+    "altExploreScreen": "Seznam Prozkoumat v KiwiCamping s chatami DOC a kempy v regionech Southland, Auckland a Wellington a jejich vzdáleností od výřezu mapy",
+    "heroKicker": "Nejlepší aplikace na kempování na Novém Zélandu",
+    "heroTitle": "Nový Zéland je velký, váš plán může být jednoduchý",
+    "heroText": "Přes 6 500 míst po celém Novém Zélandu, uložených offline, takže se otevřou i bez signálu. Vyfiltrujte přesně to, co potřebujete, uložte si to a z užšího výběru poskládejte road trip s trasou, vzdálenostmi, daty, poznámkami a úkoly.",
+    "seeHow": "Jak to funguje",
+    "statPlaces": "6 500+",
+    "statPlacesLabel": "míst po celém Novém Zélandu",
+    "statOffline": "Offline",
+    "statOfflineLabel": "všechny údaje o místech i bez signálu",
+    "statStays": "2 000+",
+    "statStaysLabel": "možností ubytování",
+    "trustLine": "Kempy, chaty, holiday parky a užitečné zastávky po celém Novém Zélandu.",
+    "trustCampsites": "Kempy",
+    "trustHolidayParks": "Holiday parky",
+    "trustNationalParks": "Národní parky",
+    "trustFreedomCamping": "Freedom camping",
+    "trustUsefulStops": "Užitečné zastávky",
+    "trustDayUse": "Místa pro denní pobyt",
+    "processEyebrow": "Od nápadu až na silnici",
+    "processTitle": "Najděte kemp. Poskládejte cestu.",
+    "processText": "Vyfiltrujte si kemp na dnešní noc, zítřejší možnosti uložte do sbírek a trasu, vzdálenosti, data, poznámky i úkoly mějte pohromadě v jedné cestě.",
+    "findTitle": "Najděte přesně to pravé místo",
+    "findText": "Prohledávejte přes 6 500 míst, procházejte okolí, nebo přidávejte filtry, dokud vám ve vašem koutě mapy nezůstanou jen místa ke kempování zdarma s toaletami a vodou.",
+    "saveTitle": "Uložte si ho do sbírky",
+    "saveText": "Když místu dáte Líbilo se, hvězdičku nebo ho označíte jako navštívené, chytré sbírky se aktualizují samy. Vlastní pojmenované seznamy si vytvořte pro region, roční období nebo užší výběr.",
+    "planTitle": "Udělejte z toho cestu",
+    "planText": "Seřaďte zastávky, podívejte se na vzdálenosti mezi nimi, přidejte data a poznámky, zkontrolujte počasí u každé zastávky, spusťte navigaci a odškrtávejte, co máte za sebou.",
+    "featuresEyebrow": "Kompletní výbava",
+    "featuresTitle": "Najděte. Uložte. Naplánujte celou cestu.",
+    "featuresText": "Prozkoumávejte místa, porovnávejte podrobnosti, třiďte oblíbená místa a sestavte si cestu, která vám poslouží i dlouho po plánování u stolu.",
+    "featureMainEyebrow": "Poznejte místo dřív, než tam dorazíte",
+    "featureMainTitle": "U každého místa najdete přesně to, podle čeho se rozhodnete.",
+    "featureMainText": "Fotky, skutečný popis, otevírací doba, poplatky, podmínky, vybavení seřazené podle typu, aktuální upozornění, hodnocení, kontakty a rezervace, počasí a Street View, ve kterém uvidíte vjezd ze silnice.",
+    "featureList1": "Fotky, otevírací doba, poplatky, podmínky a vybavení",
+    "featureList2": "Street View, počasí a navigace přímo v aplikaci",
+    "featureList3": "Uloženo offline, otevře se i bez signálu",
+    "feature1Title": "Chytré sbírky a vlastní seznamy",
+    "feature1Text": "Líbilo se, S hvězdičkou, Chci navštívit a Navštíveno se plní samy, jak místa označujete. Navíc si můžete vytvořit vlastní sbírky pro jeden ostrov, roční období nebo užší výběr, o kterém se ještě dohadujete.",
+    "feature2Title": "Filtry, které odpoví na skutečnou otázku",
+    "feature2Text": "Najděte místa ke kempování zdarma s toaletami a pitnou vodou kolem Queenstownu a pak výběr zužte podle typu místa, poplatku, hodnocení, online rezervace, regionu a podrobných vlastností vybavení a přístupu.",
+    "feature3Title": "Standardní, satelitní a 3D mapa",
+    "feature3Text": "Přepínejte mezi standardní mapou a satelitními snímky, které můžete naklonit a otočit do skutečného terénu. Při oddálení se piny seskupí a ukážou počet míst, při přiblížení se zase rozpadnou.",
+    "feature4Title": "Street View ještě před odbočkou",
+    "feature4Text": "Street View se otevírá přímo z detailu místa všude, kde je k dispozici, takže uvidíte vjezd, povrch cesty i okolí dřív, než s obytným autem odbočíte.",
+    "feature5Title": "Počasí u každého místa",
+    "feature5Text": "Aktuální počasí a předpověď najdete v detailu místa i u každé zastávky na cestě, takže se mezi dvěma kempy můžete rozhodnout i podle toho, co chystá obloha.",
+    "feature6Title": "Ceny ve vaší měně",
+    "feature6Text": "Jste na Novém Zélandu poprvé a v novozélandských dolarech se ještě nevyznáte? Zvolte si měnu, jednou nastavte kurz a nahlášené ceny uvidíte i v penězích, které odhadnete na první pohled.",
+    "plannerEyebrow": "Hlavní funkce",
+    "plannerTitle": "Zastávku po zastávce. Den po dni.",
+    "plannerText": "Všechno ostatní se nakonec sejde v plánovači cest. Přidejte uložená místa jako zastávky a přetáhněte je do pořadí, v jakém je opravdu pojedete. U každého úseku vidíte vzdálenost, navigaci k další zastávce otevřete jedním klepnutím, každá zastávka má vlastní datum, poznámky k příjezdu a počasí a během cesty je odškrtáváte jako navštívené. Alternativy v okolí zůstávají po ruce pro dny, kdy se plán změní, seznam věcí na cestu leží hned vedle itineráře a celé to můžete synchronizovat do Kalendáře.",
+    "plannerMetric1Title": "Vzdálenost a navigace",
+    "plannerMetric1Text": "po úsecích i za celou cestu",
+    "plannerMetric2Title": "Data a poznámky",
+    "plannerMetric2Text": "u každé zastávky",
+    "plannerMetric3Title": "Navštíveno a úkoly",
+    "plannerMetric3Text": "postup, který máte na očích",
+    "plannerMetric4Title": "Počasí u zastávek",
+    "plannerMetric4Text": "hned vedle itineráře",
+    "routesEyebrow": "Co si přečíst předem",
+    "routesTitle": "Znát pravidla. Znát náklady.",
+    "routesText": "Praktické rady k pravidlům kempování, bezpečnosti, nejlepšímu období a k tomu, kolik cesta po Novém Zélandu doopravdy stojí.",
+    "exploreRoutes": "Projít průvodce",
+    "audiencesEyebrow": "Ať cestujete jakkoli",
+    "audiencesTitle": "Pro stany, obytná auta i dlouhé cesty.",
+    "audience1Title": "Baťůžkáři",
+    "audience1Text": "Skloubíte napjatý rozpočet s volnou trasou.",
+    "audience2Title": "Campervany",
+    "audience2Text": "Najdete vybavení, příjezd a místa na noc, jaká potřebujete.",
+    "audience3Title": "Karavany a velké soupravy",
+    "audience3Text": "Filtrujte podle místa, služeb a praktických poznámek k příjezdu.",
+    "audience4Title": "Víkendoví kempaři",
+    "audience4Text": "Oblíbená místa v okolí máte připravená, až přijde pátek.",
+    "principlesTitle": "Hlavně užitečně. Vždy poctivě.",
+    "principle1Title": "Cedule mají přednost",
+    "principle1Text": "Značení na místě, pokyny správců území a aktuální varování záchranných složek mají vždy přednost před jakýmkoli záznamem v aplikaci.",
+    "principle2Title": "Vždy si ověřte aktuální stav",
+    "principle2Text": "Před odjezdem zkontrolujte nejnovější informace o rezervacích, silnicích, požárech a uzavírkách.",
+    "principle3Title": "Nechte místo lepší, než jste ho našli",
+    "principle3Text": "Legální kempování, ohleduplné nakládání s odpady a respekt k whenua (zemi v maorském pojetí) pomáhají, aby tato místa zůstala otevřená.",
+    "faqEyebrow": "Pár přímých odpovědí",
+    "faqTitle": "Dobré otázky. Jasné odpovědi.",
+    "faqIntro": "Přímé odpovědi na to, jak se s KiwiCamping cestuje.",
+    "faq1q": "Co je KiwiCamping?",
+    "faq1a": "KiwiCamping je aplikace pro iPhone, se kterou najdete místa ke kempování a přespání po celém Novém Zélandu. Obsahuje adresář více než 6 500 míst, takže údaje přečtete i bez signálu, a z uložených míst vám poskládá road trip s pořadím zastávek, daty, poznámkami a úkoly.",
+    "faq2q": "Jaká místa aplikace obsahuje?",
+    "faq2a": "Více než 6 500 míst: kempy DOC, horské chaty, holiday parky a další ubytování s rezervací, místa pro freedom camping, veřejné výlevky a místa pro denní pobyt na obou ostrovech.",
+    "faq3q": "Funguje aplikace bez signálu?",
+    "faq3a": "Adresář míst je přímo součástí aplikace, takže názvy, kategorie, popisy, poplatky, vybavení a podmínky přečtete i daleko od signálu. Živé služby, jako je počasí, navigace, Street View, fotky a stránky poskytovatelů, připojení dál potřebují.",
+    "faq4q": "Dá se naplánovat road trip s více zastávkami?",
+    "faq4a": "Ano, to je hlavní funkce aplikace. Přidejte místa jako zastávky, přetáhněte je do pořadí, ke každé připojte datum a poznámky k příjezdu, sledujte vzdálenost jízdy po úsecích i za celou cestu, otevřete navigaci k další zastávce, zkontrolujte počasí na každé z nich, odškrtávejte navštívené zastávky a seznam věcí na cestu mějte hned vedle itineráře. Podrobnosti itineráře můžete synchronizovat do Kalendáře.",
+    "faq5q": "Co jsou sbírky?",
+    "faq5a": "Jsou dvojího druhu. Chytré sbírky (Líbilo se, S hvězdičkou, Chci navštívit, Navštíveno, Piny a Vše uloženo) se plní samy, jak místa označujete. Kromě nich si můžete vytvořit vlastní pojmenované sbírky s ikonou a poznámkami pro region, roční období, vozidlo nebo užší výběr.",
+    "faq6q": "Dá se filtrovat podle míst zdarma nebo míst pro self-contained vozidla?",
+    "faq6a": "Ano, a filtry jdou i kombinovat. Pokrývají typ místa, poplatek, minimální hodnocení, online rezervaci, region a podrobné vlastnosti vybavení a přístupu, takže „místa ke kempování zdarma s toaletami a pitnou vodou u Queenstownu“ najdete jediným dotazem.",
+    "faq7q": "Co najdu v detailu místa?",
+    "faq7a": "Fotky, popis, otevírací dobu, poplatky, podmínky, vybavení seřazené podle typu, aktuální upozornění, hodnocení, kontakty a rezervace, počasí, Street View tam, kde je k dispozici, navigaci a alternativy v okolí.",
+    "faq8q": "Jaká zobrazení mapy jsou k dispozici?",
+    "faq8a": "Standardní mapa a satelitní zobrazení z leteckých snímků Apple Flyover, které můžete naklonit a otočit do skutečného 3D terénu. Street View, postavené na snímcích Apple Look Around, ukazuje pohled z úrovně ulice přímo z detailu místa.",
+    "faq9q": "Můžu vidět ceny ve své měně?",
+    "faq9a": "Ano. V nastavení si zvolte měnu a zadejte kurz a nahlášené ceny se zobrazí v této měně vedle částky v novozélandských dolarech.",
+    "faq10q": "Dá se v KiwiCamping rezervovat kemp?",
+    "faq10a": "Otevřete u místa rezervační údaje, dostanete se k poskytovateli a ověříte si aktuální dostupnost, ceny a podmínky.",
+    "faq11q": "Platí na celém Novém Zélandu stejná pravidla kempování?",
+    "faq11a": "Ne. Může platit celostátní zákon, obecní vyhlášky místních samospráv, pravidla ochrany přírody i podmínky konkrétního místa. Vždy se řiďte aktuálním značením, pokyny správce území, protipožárními omezeními a oficiálními výstrahami.",
+    "downloadEyebrow": "Další místo na vás čeká",
+    "downloadTitle": "Najděte. Uložte. Naplánujte cestu.",
+    "downloadText": "Přes 6 500 novozélandských míst offline, filtry, které najdou přesně to pravé, sbírky, které se třídí samy, a plánovač, který udrží celou trasu. KiwiCamping pro iOS.",
+    "guidesEyebrow": "Kempování na Novém Zélandu",
+    "guidesTitle": "Vydejte se na cestu, která stojí za to.",
+    "guidesIntro": "podrobných průvodců ke kempům, pravidlům, místním cenám a praktickému plánování cesty po Novém Zélandu.",
+    "guideSingular": "průvodce",
+    "guidePlural": "průvodců",
+    "readGuide": "Číst průvodce",
+    "minuteRead": "min čtení",
+    "places": "míst",
+    "backToGuides": "Průvodce",
+    "photoCredits": "Autoři fotografií",
+    "keepInMind": "Na co myslet",
+    "placesAlong": "Místa po cestě",
+    "checkBefore": "Před cestou si ověřte",
+    "checkText": "Pravidla a podmínky se mění. Před odjezdem si znovu zkontrolujte oficiální zdroj a stránku konkrétního parku nebo kempu.",
+    "priceTitle": "Ceny v 10 měnách",
+    "pricesChecked": "Ceny ověřeny",
+    "conversionsUse": "Přepočty podle kurzů RBNZ ze dne",
+    "item": "Položka",
+    "currencyDisclaimer": "Částky v jiných měnách jsou mechanické přepočty novozélandské ceny v NZD, ne kurzy pro platbu kartou nebo v hotovosti. Banky a platební služby používají vlastní kurzy a poplatky.",
+    "related": "Související průvodce",
+    "takeRoad": "Na cestu s sebou",
+    "savePlanTitle": "Uložte si zastávky. Naplánujte celou cestu.",
+    "savePlanText": "Z uložených míst sestavte trasu v pořadí, spočítejte vzdálenost a data, poznámky i úkoly mějte u každé zastávky.",
+    "toolsEyebrow": "Užitečná čísla",
+    "toolsTitle": "Nástroje na road trip. Bez záhadných výpočtů.",
+    "toolsIntro": "Rychlé kalkulačky pro plánování novozélandských cen a nákladů na jízdu. Všechny předpoklady vidíte, takže je můžete nahradit čísly, která sedí na vaši trasu.",
+    "currencyEyebrow": "Převodník měn",
+    "currencyTitle": "Přepočítejte novozélandskou cenu.",
+    "currencyText": "Orientační přepočet pro plánování cesty podle kurzů Reserve Bank of New Zealand. Vaše banka nebo karta může použít jiný kurz a připočítat poplatky.",
+    "fuelEyebrow": "Kalkulačka paliva",
+    "fuelTitle": "Kolik vás stojí ujeté kilometry.",
+    "fuelText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
+    "driveEyebrow": "Odhad dne za volantem",
+    "driveTitle": "Jak dlouho ten den doopravdy trvá.",
+    "driveText": "Navigace počítá čistý čas jízdy po ideální silnici. Tady se přidá charakter silnice a vaše skutečné zastávky, a právě kvůli nim se den obvykle protáhne.",
+    "tankEyebrow": "Plánovač vody a odpadu",
+    "tankTitle": "Kolik dní vydržíte bez přípojek.",
+    "tankText": "Objem v litrech začne dávat smysl, až když ho převedete na dny. Šedá voda se obvykle naplní dřív, než dojde čistá, proto uvidíte obojí.",
+    "campEyebrow": "Porovnání kempů",
+    "campTitle": "Za osobu, nebo za místo?",
+    "campText": "Kemp DOC obvykle účtuje za dospělého, holiday park za místo. Která varianta vyjde levněji, se mění podle počtu lidí, a na tom se nachytá hodně rodin.",
+    "amount": "Částka",
+    "from": "Z měny",
+    "to": "Na měnu",
+    "labelDistance": "Vzdálenost (km)",
+    "labelConsumption": "Spotřeba (l/100 km)",
+    "labelFuelPrice": "Cena paliva (NZD/l)",
+    "labelRoadType": "Typ silnice",
+    "roadMotorway": "Dálnice nebo rovná silnice",
+    "roadHighway": "Hlavní silnice",
+    "roadWinding": "Klikatá nebo pobřežní",
+    "roadNarrow": "Úzká, strmá nebo šotolinová",
+    "labelStops": "Zastávky",
+    "labelFresh": "Čistá voda (l)",
+    "labelGrey": "Šedá voda (l)",
+    "labelPeople": "Počet osob",
+    "labelAdults": "Dospělí",
+    "labelNights": "Noci",
+    "labelPerAdult": "Za dospělého (NZD)",
+    "labelPerSite": "Za místo (NZD)",
+    "toolsReadingTitle": "Rozpočet postavte na aktuálních cenách.",
+    "toolsReadingText": "Nástroje spočítají přesně to, co zadáte. Naši průvodci náklady vysvětlují, odkud výchozí čísla pocházejí, kdy jsme je ověřili a co může konečnou cenu změnit.",
+    "toolsReadingLink": "Průvodce náklady",
+    "calculatorNote": "Kalkulačky jsou pomůcky pro plánování, ne aktuální nabídky rezervací, čerpacích stanic nebo směnáren. Odhad nádrží počítá zhruba s 11 litry čisté vody a 9 litry šedé vody na osobu a den, což se liší podle sprchování a vaření. Před nákupem si ověřte aktuální ceny.",
+    "enterValidValues": "Zadejte platné hodnoty",
+    "enterValidAmount": "Zadejte platnou částku",
+    "daysFresh": "dne čisté vody",
+    "daysGrey": "dne šedé vody",
+    "theSame": "vyjde to nastejno",
+    "perAdultCheaper": "levnější je platba za dospělého",
+    "perSiteCheaper": "levnější je platba za místo",
+    "supportTitle": "S čím vám můžeme pomoci?",
+    "supportIntro": "Odpovědi k hledání míst, ukládání oblíbených, plánování cest a používání KiwiCamping na cestě.",
+    "contact": "Napsat podpoře",
+    "privacy": "Ochrana soukromí",
+    "terms": "Podmínky",
+    "explore": "Prozkoumat",
+    "help": "Nápověda",
+    "getApp": "Stáhnout aplikaci",
+    "travelGuides": "Cestovní průvodce",
+    "footerText": "Najděte přes 6 500 novozélandských míst offline, uložte si ta, na kterých záleží, a sestavte celé road tripy s trasou, vzdálenostmi, daty, poznámkami a úkoly.",
+    "footerLine": "Pro dlouhou cestu po Novém Zélandu.",
+    "rulesSafety": "Pravidla a bezpečnost",
+    "roadTrips": "Road tripy",
+    "campingGuides": "Kempování",
+    "tripPlanning": "Plánování cesty",
+    "costsBudget": "Náklady a rozpočet",
+    "appGuides": "Návody k aplikaci"
+  },
+  "consent": {
+    "label": "Nastavení soukromí",
+    "text": "Smíme v KiwiCamping používat soubory cookie Google Analytics, abychom věděli, které stránky cestovatelům pomáhají? K reklamě se nikdy nepoužívají.",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "policy": "Zásady ochrany osobních údajů",
+    "choices": "Nastavení soukromí"
+  },
+  "pages": {
+    "support": {
+      "title": "S čím vám můžeme pomoci?",
+      "lede": "Jasné odpovědi k mapám, uloženým místům, plánování cesty i k samotné cestě.",
+      "sections": [
+        {
+          "heading": "Hledání míst",
+          "paragraphs": [
+            "Hledat můžete podle názvu místa, adresy nebo popisu. Když posunete mapu a zvolíte hledání v aktuální oblasti, výsledky se soustředí na to, co právě vidíte.",
+            "Filtrovat můžete podle typu místa, poplatku, minimálního hodnocení, online rezervace, regionu a podrobných vlastností vybavení a přístupu. Kombinujte jen ty filtry, na kterých vám opravdu záleží, ať vám neutečou použitelné alternativy.",
+            "Vybavení, poplatky, přístup i správa místa se mohou změnit. Řiďte se aktuálním značením a pokyny správce území a pak nám pošlete opravu, ať je adresář přesnější."
+          ]
+        },
+        {
+          "heading": "Uložená místa",
+          "paragraphs": [
+            "Seznamy Líbilo se, Navštíveno, Chci navštívit a S hvězdičkou se aktualizují samy, jakmile místa označíte. Piny a Vše uloženo nabízejí další rychlé přehledy.",
+            "Vytvořte si vlastní pojmenované sbírky s ikonou a poznámkami a přidejte do nich jakékoli místo. Hodí se pro jeden region, roční období, konkrétní vozidlo nebo užší výběr.",
+            "Když je iCloud dostupný a zapnutý, aplikace přes něj soukromě synchronizuje označená místa, sbírky a data cest."
+          ]
+        },
+        {
+          "heading": "Plánovač cest",
+          "paragraphs": [
+            "Vytvořte si cestu, přidejte místa a přetáhněte je do správného pořadí. Každá zastávka může mít vlastní datum příjezdu, poznámky, počasí a stav navštíveno a plánovač ukazuje vzdálenost jízdy po jednotlivých úsecích i za celou cestu.",
+            "Trasy po silnicích závisí na tom, co zrovna nabídne navigace MapKit. Když se některý úsek spočítat nepodaří, plánovač zastávky zachová, ale aktuální sjízdnost silnice si musíte ověřit sami.",
+            "Začněte připraveným seznamem základní kempingové výbavy, nebo si vytvořte vlastní úkoly. V přehledu cesty máte seznam hned vedle itineráře a podrobnosti itineráře můžete synchronizovat do Kalendáře."
+          ]
+        },
+        {
+          "heading": "Mapy, počasí a živé údaje",
+          "paragraphs": [
+            "Přepínejte mezi standardní mapou a satelitním zobrazením z leteckých snímků Apple Flyover, které jde naklonit a otočit do 3D terénu. Street View, postavené na snímcích Apple Look Around, otevřete z detailu místa všude, kde je k dispozici.",
+            "Aktuální počasí i předpověď potřebují připojení. Důležité předpovědi a oficiální varování si uložte dřív, než ztratíte signál.",
+            "Adresář míst je přímo součástí aplikace, takže hlavní údaje o místech máte k dispozici i tam, kde signál spolehlivě nefunguje. Živé mapy, navigace, počasí, fotky a stránky externích poskytovatelů mohou připojení vyžadovat."
+          ]
+        },
+        {
+          "heading": "Ceny a měna",
+          "paragraphs": [
+            "V nastavení si zvolte měnu a zadejte kurz. Nahlášené ceny se pak zobrazí v této měně vedle částky v novozélandských dolarech, což oceníte, pokud v NZD ještě nepočítáte automaticky.",
+            "Dostupnost, cenu a podmínky si ověřte přímo u poskytovatele přes rezervační nebo kontaktní údaje v detailu místa. Ceny v aplikaci jsou nahlášené údaje, ne aktuální nabídky."
+          ]
+        },
+        {
+          "heading": "Premium a nákupy",
+          "paragraphs": [
+            "Mapa a údaje o místech jsou zdarma, spolu se dvěma uloženými seznamy.",
+            "Premium přidává neomezený počet uložených seznamů, plánování cest, pokročilé filtry, počasí u jednotlivých míst a trasy road tripů.",
+            "Na obrazovce Premium klepněte na Obnovit nákupy. Musíte být přihlášeni ke stejnému Apple účtu, přes který jste nákup původně provedli."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Platné od 19. října 2026",
+      "title": "Zásady ochrany osobních údajů",
+      "lede": "S KiwiCamping si naplánujete cestu, aniž by se z ní stal reklamní profil.",
+      "sections": [
+        {
+          "heading": "Údaje uložené ve vašem zařízení",
+          "paragraphs": [
+            "Aby aplikace fungovala, ukládá uložená místa, zařazení do sbírek, cesty, poznámky, položky kontrolních seznamů a nastavení. Polohu může po vašem svolení používat k zobrazení toho, kde jste, a míst v okolí."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Když je iCloud dostupný a zapnutý, může aplikace přes vaši soukromou databázi iCloud synchronizovat označená místa, sbírky a další záznamy mezi vašimi zařízeními. Samotnou službu poskytuje Apple a platí pro ni jeho vlastní podmínky."
+          ]
+        },
+        {
+          "heading": "Živé služby Apple",
+          "paragraphs": [
+            "Zobrazení mapy, navigace, Look Around, počasí, propojení s kalendářem a widgety mohou využívat technologie Apple. Požadavky na tyto služby a nakládání s daty se řídí pravidly společnosti Apple. Ke kalendáři aplikace přistupuje jen s vaším svolením, a to jen proto, aby do něj přidala údaje z itineráře, o které požádáte."
+          ]
+        },
+        {
+          "heading": "Externí odkazy a protokoly webu",
+          "paragraphs": [
+            "Z údajů o místě lze otevřít rezervační služby, weby, profily na sociálních sítích, telefonní čísla, e-mailové adresy a mapové aplikace. Pokud se je rozhodnete otevřít, dostanou tyto služby informace podle svých vlastních zásad.",
+            "Poskytovatelé hostingu mohou kvůli doručování obsahu, spolehlivosti a bezpečnosti zpracovávat běžné technické protokoly, například IP adresu, typ prohlížeče a požadovanou URL adresu. KiwiCamping na tomto webu nepoužívá reklamní sledovací nástroje."
+          ]
+        },
+        {
+          "heading": "Analytika webu",
+          "paragraphs": [
+            "Tento web používá Google Analytics 4, abychom mohli počítat návštěvy a vidět, které stránky lidi přivádějí do App Store. Google tato data zpracovává naším jménem jako zpracovatel. Návštěvníkům z Evropského hospodářského prostoru, Spojeného království a Švýcarska službu poskytuje společnost Google Ireland Limited, ostatním Google LLC.",
+            "Analytika zaznamenává stránky, které si prohlížíte, typ zařízení, prohlížeče a obrazovky, přibližnou polohu odvozenou z IP adresy (samotnou adresu Google neukládá), stránku, ze které jste přišli, a kliknutí na odkazy do App Store. Nikdy nedostane vaše jméno, e-mailovou adresu ani nic z toho, co si uložíte v aplikaci.",
+            "Když analytiku povolíte, Google Analytics uloží dva soubory cookie první strany: _ga a druhý, jehož název začíná _ga_. Oba vyprší po 13 měsících. V Evropském hospodářském prostoru, Spojeném království a Švýcarsku se tyto soubory cookie ukládají až poté, co na liště souhlasu zvolíte Přijmout. Do té doby, a také když zvolíte Odmítnout, se žádné analytické cookies neukládají a Google dostává jen signály bez cookies, které nenesou žádný identifikátor. Svou volbu můžete kdykoli změnit přes odkaz Nastavení soukromí v patičce každé stránky.",
+            "Google signály i personalizace reklam jsou vypnuté, takže data analytiky se nepropojují s účty Google a nepoužívají se k reklamě. Data analytiky uchováváme 14 měsíců a pak se mažou. KiwiCamping ani tak na tomto webu nepoužívá žádné reklamní sledovací nástroje."
+          ]
+        },
+        {
+          "heading": "Uchovávání dat a jejich správa",
+          "paragraphs": [
+            "Záznamy aplikace můžete smazat přímo v aplikaci a data na iCloudu spravovat ve svém Apple účtu. Odinstalováním aplikace se mohou smazat místní data, synchronizované kopie ale mohou na iCloudu zůstat, dokud je zvlášť nesmažete."
+          ]
+        },
+        {
+          "heading": "Děti a kontakt",
+          "paragraphs": [
+            "KiwiCamping je obecná cestovatelská aplikace a není určena dětem. Přes podporu nám neposílejte osobní údaje o dětech.",
+            "S dotazy k ochraně osobních údajů se obraťte na podporu KiwiCamping."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Platné od 12. srpna 2026",
+      "title": "Podmínky používání",
+      "lede": "KiwiCamping je pomůcka pro plánování. Nenahrazuje oficiální značení, pokyny správců území, varování před nebezpečím, dopravní informace ani vaši vlastní odpovědnost necestovat nad své síly.",
+      "sections": [
+        {
+          "heading": "Cestovní informace se mění",
+          "paragraphs": [
+            "Místa, ceny, přístup, vybavení, pokrytí signálem, počasí, požární situace, silnice i podmínky rezervací se mohou změnit bez upozornění. Důležité údaje si ověřte u příslušného úřadu nebo poskytovatele před cestou a znovu krátce před odjezdem."
+          ]
+        },
+        {
+          "heading": "Bez záruky rezervace nebo přístupu",
+          "paragraphs": [
+            "To, že je místo v adresáři, ještě neznamená, že je otevřené, že na něm s vaší výbavou smíte legálně zůstat, že k němu vaše vozidlo dojede ani že je volné. Externí odkazy na rezervace a kontakty slouží jen pro pohodlí. Smlouvu uzavíráte vy přímo s daným poskytovatelem."
+          ]
+        },
+        {
+          "heading": "Bezpečnost a dodržování zákonů",
+          "paragraphs": [
+            "Musíte dodržovat značení, povolení, uzavírky, protipožární omezení, pravidla silničního provozu a pokyny rangerů, iwi a hapū (maorských kmenů a rodů), záchranných složek a správců území. Aplikaci nepoužívejte během řízení."
+          ]
+        },
+        {
+          "heading": "Uživatelská data",
+          "paragraphs": [
+            "Za poznámky, plány cest a další informace, které si uložíte, odpovídáte vy. Povolení, rezervace a plány důležité pro bezpečnost si uchovávejte i jinde, pokud by ztráta přístupu k nim mohla cestu ohrozit."
+          ]
+        },
+        {
+          "heading": "Nákupy",
+          "paragraphs": [
+            "Nákupy v aplikaci zpracovává Apple a platí pro ně podmínky zobrazené při nákupu. Funkce, balíčky a ceny se mohou měnit, pokud je to přípustné. Platby, zrušení a vrácení peněz řešte přes nákupní nástroje Apple."
+          ]
+        },
+        {
+          "heading": "Duševní vlastnictví a kontakt",
+          "paragraphs": [
+            "Značka KiwiCamping, rozhraní a původní redakční obsah patří jejich vlastníkovi. Názvy míst a veřejné údaje zůstávají majetkem nebo v odpovědnosti svých původních zdrojů.",
+            "Dotazy můžete posílat na podporu KiwiCamping."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {
+    "doc-huts-new-zealand-guide": {
+      "title": "Chaty DOC na Novém Zélandu: jak funguje systém chat",
+      "description": "Chaty DOC se dělí na kategorie Serviced, Standard, Basic a chaty na Great Walks. Každá má jiné vybavení, poplatky i pravidla rezervace.",
+      "region": "Novozélandská divočina",
+      "imageAlt": "Chata v odlehlých horách Nového Zélandu",
+      "intro": "Horská chata v novozélandské divočině je společný přístřešek bez obsluhy, ne ubytování schované v buši. Na veřejných chráněných územích, která spravuje DOC (Department of Conservation, novozélandský úřad pro ochranu přírody), jich stojí kolem 950. Najdete mezi nimi dobře vybavené budovy s topením a matracemi i holé přístřešky se dvěma palandami a hliněnou podlahou. Co ponesete v batohu, záleží na tom, do jaké kategorie chaty míříte.",
+      "sections": [
+        {
+          "heading": "Čtyři kategorie chat",
+          "body": [
+            "Nejlépe vybavené jsou chaty kategorie Serviced: palandy s matracemi, zdroj vody, toalety a obvykle i topení, ke kterému je připravené palivo. Chaty Standard nemají palivo na topení a někdy ani matrace. Palandy, voda a toaleta v nich ale zůstávají. Chaty Basic poskytnou střechu nad hlavou a jen málo dalšího, vlastní zdroj vody mít vůbec nemusejí.",
+            "Chaty na Great Walks (nejznámějších vícedenních trecích, které spravuje DOC) do tohoto žebříčku nepatří. V turistické sezoně jsou vybavené na vysoké úrovni, stojí výrazně víc a rezervují se ve vlastním systému pro konkrétní trek. Mimo sezonu obvykle klesnou na nižší standard za nižší cenu a část vybavení se omezí nebo zmizí úplně."
+          ],
+          "tips": [
+            "Kategorie napoví vybavení i cenu",
+            "Chaty na Great Walks mají vlastní rezervace",
+            "U chat Basic nemusí být voda"
+          ]
+        },
+        {
+          "heading": "Vybavení chaty nenahradí výbavu v batohu",
+          "body": [
+            "Střecha nad hlavou neznamená, že se obejdete bez spacáku, karimatky, vařiče, paliva, jídla, čelovky a teplého oblečení. Na chatách nikdo neslouží, žádné zásoby tam nejsou a i chata Serviced s kamny zůstane studená, když předchozí skupina spálila poslední dřevo.",
+            "Balte se podle trasy a počasí, ne podle popisu chaty. Počasí v novozélandských horách se mění rychle a skupina, která dorazí promoklá a bez náhradní teplé vrstvy, má problém bez ohledu na to, co chata nabízí."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Lístky na chaty, permanentka a rezervace",
+          "body": [
+            "Na chatách, které se nerezervují, se obvykle platí předem koupenými lístky (hut tickets) nebo permanentkou Backcountry Hut Pass, která neplatí na jednu noc, ale na určité období. Na chaty s rezervací potřebujete rezervaci na své jméno a na správné datum. Chaty na Great Walks bývají na novozélandské léto vyprodané měsíce dopředu.",
+            "Častá chyba je brát permanentku jako rezervaci. Backcountry Hut Pass jen zaplatí přespání na chatách, kde se platí lístky. Nic nerezervuje a na chaty na Great Walks ani na jiné chaty s rezervací neplatí. Než vyrazíte, zjistěte si, jaký systém používá chata, na kterou jdete."
+          ],
+          "tips": [
+            "Permanentka není rezervace",
+            "Lístky kupte ještě před trekem",
+            "Chaty na Great Walks se vyprodají měsíce předem"
+          ]
+        },
+        {
+          "heading": "Nikdo nezůstane za dveřmi",
+          "body": [
+            "Na chatách bez rezervace platí u palend „kdo dřív přijde, ten dřív mele“ a podle dlouholetého zvyku plná chata znamená spaní na podlaze, ne zavřené dveře. Nepokračujte za tmy dál jen proto, že jsou palandy obsazené. A nečekejte, že vám tu někdo palandu podrží jen proto, že máte rezervaci na jiné chatě.",
+            "Mějte s sebou karimatku a všechno, co potřebujete ke spaní na podlaze. Když to dovolí počasí a u chaty se smí stanovat, je stan skutečná alternativa. V lednu, v hlavní sezoně, počítejte na oblíbených trecích s tím, že chata bude plná, a podle toho plánujte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Voda, vaření a oheň",
+          "body": [
+            "Vodu na chatě upravujte, pokud aktuální informace DOC k dané chatě neuvádějí, že je pitná. Dešťová voda svedená ze střechy může být kontaminovaná a ve vodě v novozélandské divočině se vyskytují giardie (lamblie). Zabere převaření, filtr i chemická úprava. Problémy začínají, když jen předpokládáte, že voda je v pořádku.",
+            "Vařte na vlastním vařiči venku nebo na vyhrazeném místě, nikdy ve stanu. Kde jsou v chatě kamna, topte střídmě a před odchodem doplňte podpal pro toho, kdo přijde po vás, třeba v horším počasí, než jste měli vy."
+          ],
+          "tips": [
+            "Vodu upravujte, pokud není výslovně pitná",
+            "Vařič noste vždy",
+            "Před odchodem doplňte podpal"
+          ]
+        },
+        {
+          "heading": "Jak se chovat na chatě",
+          "body": [
+            "Boty se uvnitř zouvají. Věci mějte pohromadě na své palandě, ne rozložené po stole a lavicích. Večer se brzy ztište a ráno se pohybujte potichu: turisté vyrážejí ještě před svítáním a po náročném dni spí všichni v jedné místnosti.",
+            "Do knihy návštěv na chatě (hut book) se zapište pokaždé, včetně data a toho, kam máte namířeno. Je to slušnost, ale hlavně je to první věc, kterou si přečtou záchranáři, když se někdo včas nevrátí. Přesný zápis už zkrátil nejedno pátrání."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Před odchodem z chaty",
+          "body": [
+            "Zameťte podlahu, pořádně zavřete okenice i dveře a odneste všechno, co jste přinesli, včetně zbytků jídla. Odpadky v chatě lákají hlodavce a nikdo je neodváží. Co necháte, zůstane tam, dokud to neodnese jiný turista.",
+            "Po návratu nahlaste DOC poškození, rozbitá kamna, nefunkční přívod vody nebo jakékoli nebezpečí. Chaty se opravují podle toho, co se nahlásí, a pětiminutová zpráva může další skupinu ušetřit příchodu do chaty, ve které nic nefunguje."
+          ],
+          "tips": [
+            "Odneste všechny odpadky i zbytky",
+            "Zavřete okenice i dveře",
+            "Škody pak nahlaste DOC"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Je potřeba rezervovat chatu DOC?",
+          "Záleží na kategorii. Chaty na Great Walks a chaty Serviced na oblíbených trecích se rezervují a platí předem, v létě často i měsíce dopředu. Na chatách Standard a Basic se obvykle platí lístky (hut tickets) nebo permanentkou Backcountry Hut Pass bez rezervace a palanda není nikdy zaručená."
+        ],
+        [
+          "Co skutečně najdete na chatě v novozélandských horách?",
+          "Obvykle palandy s matracemi, nějaký zdroj vody a toaletu. Možnosti vaření, topení a osvětlení se liší podle kategorie a na mnoha chatách nejsou vůbec. Vařič, palivo a svítilnu si proto noste vždy, ať popis chaty slibuje cokoli."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: kategorie chat"
+        },
+        {
+          "label": "DOC: upozornění a uzavírky"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-grocery-prices-2026": {
+      "title": "Ceny potravin na Novém Zélandu 2026",
+      "description": "Kolik stojí mléko, vejce, chléb, maso, ovoce a zelenina v novozélandských obchodech: aktuální rozpětí cen s přepočtem do deseti měn.",
+      "region": "Supermarkety na Novém Zélandu",
+      "imageAlt": "Čerstvé potraviny v novozélandském supermarketu",
+      "intro": "Vlastní vaření je nejpřímější způsob, jak mít rozpočet na kempování pod kontrolou. Rozpětí v tabulce vycházejí z cen, které zadávají sami nakupující po celé zemi, a jsou ověřená podle údajů o inflaci za červen 2026. Jde o orientační hodnoty, ne o ceny zaručené pro každý regál a každý týden.",
+      "sections": [
+        {
+          "heading": "Nakupte před odlehlým úsekem",
+          "body": [
+            "Velké supermarkety mají široký výběr a konkurují si, kdežto malé odlehlé obchody platí dopravu zboží a mají menší zásoby. Trvanlivé základní potraviny proto nakupte ještě před East Cape, Fiordlandem nebo dlouhými úseky na West Coast.",
+            "Na čerstvé potraviny klidně podpořte místní obchody, jen nečekejte městské slevy. Jejich přínos je i v tom, že mají otevřeno tam, kde je další obchod hodiny cesty daleko."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jedny suroviny, víc jídel",
+          "body": [
+            "Plánujte jídla, ve kterých se opakuje rýže, těstoviny, zelenina, vejce a jeden nebo dva zdroje bílkovin. V malé lednici se vyplatí krátký seznam surovin a důsledné dojídání zbytků.",
+            "Sledujte cenu za kilo nebo litr, ne cenu, která svítí na balení. Velká balení ušetří jen tehdy, když je máte kde skladovat a chladit a nic nevyhodíte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ceny potravin se mění",
+          "body": [
+            "Podle Stats NZ (novozélandský statistický úřad) byly ceny potravin v červnu 2026 meziročně o 2,5 % vyšší, maso, drůbež a ryby zdražily ještě výrazněji. Ceny ovoce a zeleniny se během roku prudce mění podle sezony.",
+            "Při plánování vyjděte z rozpětí, pak si zapište první skutečný nákup a podle něj upravte zbytek rozpočtu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dva velké řetězce a levnější možnosti",
+          "body": [
+            "Většinu země pokrývají Countdown a New World. Z velkých supermarketů bývá nejlevnější Pak'nSave, pokud ho v okolí najdete. Ceny se mezi řetězci ve stejném městě znatelně liší, takže když děláte velký nákup a ne jen doplňujete pár věcí, vyplatí se krátká zajížďka do toho levnějšího.",
+            "Farmářské trhy a stánky u silnice jsou na ovoce a zeleninu skvělé a na to, co v okolí právě roste, bývají často levnější než supermarket. Obvykle ale berou jen hotovost a fungují jen dopoledne, s čímž je dobré počítat, než na ně postavíte plán."
+          ],
+          "tips": [
+            "Na velký nákup do Pak'nSave",
+            "Sezonní ovoce a zelenina u silnice",
+            "Trhy: hotovost a dopoledne"
+          ]
+        },
+        {
+          "heading": "Proč jsou odlehlé obchody dražší",
+          "body": [
+            "Malý obchod na West Coast, na dalekém severu nebo na East Cape platí dopravu, má menší obrat a menší konkurenci. Počítejte se znatelně vyššími cenami základních potravin a menším výběrem velikostí balení, hlavně u čerstvého ovoce, zeleniny a mléčných výrobků.",
+            "Nejde ani tak o předražování jako o prostou matematiku a pro malou obec je takový obchod často jediná možnost, kde vůbec nakoupit. Pořádně nakupte v posledním větším městě a na místě kupujte to, co se vyplatí kupovat od místních."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nákupy do malé lednice",
+          "body": [
+            "Lednice v campervanu jsou malé a ty, které běží na baterii vozidla, v horku ztrácejí výkon. Nakupujte na dva tři dny, ne na týden, dávejte přednost surovinám, které použijete do více jídel, a syrové maso mějte dobře uzavřené a úplně dole, aby z něj nic neodkapávalo.",
+            "Rybí konzervy, vejce, tvrdý sýr, ovesné vločky, rýže, těstoviny a kořenová zelenina vydrží i bez velkého chlazení a uvaříte z nich spoustu jídel. S takovým základem vás jeden den, kdy chlazení nestíhá, nepřipraví o celý nákup."
+          ],
+          "tips": [
+            "Nakupujte na tři dny, ne na sedm",
+            "Suroviny, které použijete do více jídel",
+            "Syrové maso uzavřené a dole"
+          ]
+        },
+        {
+          "heading": "Reálný týdenní rozpočet",
+          "body": [
+            "Šetrný cestovatel, který jede sám a většinu jídel si uvaří, může na potraviny počítat se 110 až 180 NZD týdně. Páry vyjdou na osobu levněji, protože se o základní suroviny dělí. Kvalitnější maso, hotová jídla a polotovary, zvláštní dieta a nákupy v odlehlých místech tuhle částku rychle zvednou.",
+            "Kávu, jídlo s sebou a společná jídla venku si v rozpočtu veďte zvlášť. Když všechno jídlo započítáte do potravin, zamlžíte si právě ty výdaje, které se dají nejsnáz omezit, až bude potřeba rozpočet srovnat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sezonní ovoce a zelenina: co se vyplatí kupovat",
+          "body": [
+            "Skutečně ušetříte tím, že kupujete to, co v okolí zrovna dozrává. Peckovinové ovoce v Central Otago v lednu a únoru, bobuloviny v Bay of Plenty přes léto, avokáda v Northlandu a jablka v Hawke's Bay na podzim (březen až květen) stojí přímo u pěstitelů výrazně méně.",
+            "Stánky u silnic v pěstitelských oblastech často fungují na důvěru (honesty box: peníze necháte v kasičce) a bývají podstatně levnější než supermarkety. Mějte u sebe drobné bankovky a tašku, protože se u nich obvykle platí jen hotově a objevují se bez varování.",
+            "Čerstvé ovoce a zelenina mimo sezonu se dovážejí a podle toho také stojí. Nejvíc na jídle během dlouhé cesty ušetří jediný zvyk: vařit z toho, co je ten týden levné, a ne podle pevného nákupního seznamu."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Kolik stojí týdenní nákup potravin na Novém Zélandu?",
+          "Ceny v tabulce vycházejí ze skutečného nákupního košíku, ne z průměru, a u každé položky je uvedené datum. Čerstvé ovoce, zelenina a mléčné výrobky stojí zhruba tolik, kolik návštěvníci čekají, balené potraviny, maso a všechno dovážené je znatelně dražší."
+        ],
+        [
+          "Kde se na Novém Zélandu nakupuje nejlevněji?",
+          "Ve velkých supermarketových řetězcích ve větších městech. Rozdíl oproti obchodu v malém městě je tak velký, že se vyplatí s ním při plánování počítat. Sezonní ovoce a zeleninu ale nejlevněji seženete na víkendových trzích."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: ceny na Novém Zélandu (aktualizace červen 2026)"
+        },
+        {
+          "label": "Stats NZ: vybrané cenové indexy, červen 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: směnné kurzy"
+        }
+      ],
+      "priceTable": {
+        "note": "Celostátní rozpětí cen podle údajů od nakupujících, naposledy aktualizovaná 12. června 2026. Rozdíly vysvětluje z velké části značka, velikost balení, sezona a doprava do odlehlých míst.",
+        "rows": [
+          {
+            "label": "Mléko",
+            "unit": "1 litr"
+          },
+          {
+            "label": "Bílý chléb",
+            "unit": "500 g"
+          },
+          {
+            "label": "Vejce",
+            "unit": "12 ks, velká"
+          },
+          {
+            "label": "Kuřecí prsní řízky",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Hovězí kýta",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Jablka",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Rajčata",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Brambory",
+            "unit": "1 kg"
+          }
+        ]
+      }
+    },
+    "public-transport-costs-new-zealand-2026": {
+      "title": "Kolik stojí MHD v novozélandských městech v roce 2026",
+      "description": "Zóny v Aucklandu, týdenní strop jízdného a běžné ceny jízdenek v ostatních městech: jedna cena jízdného pro celý Nový Zéland neplatí.",
+      "region": "Auckland a Wellington",
+      "imageAlt": "Veřejná doprava v novozélandském městě",
+      "intro": "Jízdné v městské hromadné dopravě se řídí místními kartami, zónami, pravidly pro bezkontaktní platbu i výjimkami. Neporovnávejte jednu jízdenku z každé sítě, ale skutečný den nebo týden cestování.",
+      "sections": [
+        {
+          "heading": "Na způsobu platby záleží",
+          "body": [
+            "V Aucklandu zaplatíte za jízdy s kartou AT HOP nejvýš 50 NZD za sedm dní, pokud jde o spoje, které do stropu spadají. Při bezkontaktní platbě bankovní kartou platí denní strop 20 NZD. Ne všechny trajekty se do něj počítají.",
+            "Kartu vždy přiložte ke čtečce při nástupu i při výstupu. Když to zapomenete, může vám systém naúčtovat jinou částku nebo se jízda do stropu nezapočítá."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Každé město má vlastní síť",
+          "body": [
+            "Metlink (MHD ve Wellingtonu a okolí) má vlastní zóny, ceny a pravidla pro přestupy, změny platí od 15. května 2026. Ostatní města používají jiné karty nebo bezkontaktní systémy.",
+            "Letištní autobusy, trajekty a turistické linky si ověřte jednotlivě, protože pevné nebo prémiové jízdné do běžných stropů často nespadá."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nechte campervan stát",
+          "body": [
+            "S MHD odpadnou starosti s parkováním v centru, s výškovým omezením i s alkoholem za volantem. Při porovnávání cen ale připočtěte i cestu z kempu na zastávku.",
+            "Pokud jedete ve dvou a víc, jedno jízdné vynásobte počtem lidí a nezapomeňte na cestu tam i zpět."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Karty, bezkontaktní platby a regionální mozaika",
+          "body": [
+            "Jednotná celostátní karta na dopravu na Novém Zélandu není. Auckland používá AT HOP, Wellington Snapper a ostatní regiony mají vlastní systémy. Bezkontaktní platba bankovní kartou se zavádí nerovnoměrně. Karta koupená v jednom městě vám v dalším nemusí být k ničemu.",
+            "Když jste ve městě jen krátce, ověřte si, jestli se tam dá platit bezkontaktně, a teprve pak kupujte dobíjecí kartu. Při delším pobytu v Aucklandu nebo ve Wellingtonu se karta obvykle rychle zaplatí, protože jízdné s ní je levnější než v hotovosti."
+          ],
+          "tips": [
+            "Celostátní karta neexistuje",
+            "Před koupí karty ověřte bezkontaktní platbu",
+            "V hotovosti je jízdné nejdražší"
+          ]
+        },
+        {
+          "heading": "Spojení z letiště",
+          "body": [
+            "Z letiště v Aucklandu, ve Wellingtonu i v Christchurchi jezdí do města autobusy. Mají vlastní ceník mimo běžné městské jízdné a jsou výrazně levnější než taxi nebo odvoz přes aplikaci. Letištní autobus v Queenstownu jede jen kousek a stojí málo. Žádný z nich nepokrývá běžná celodenní jízdenka.",
+            "Při porovnávání spočítejte cestu z letiště zvlášť a myslete i na zavazadla. Ve třech a více lidech se zavazadly může odvoz přes aplikaci vyjít podobně jako jednotlivé jízdenky na autobus, což pro jednoho cestujícího platí málokdy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kdy je MHD lepší než campervan",
+          "body": [
+            "Vjet velkým autem do centra Aucklandu nebo Wellingtonu není nic příjemného a parkování je drahé a omezené výškou. Když necháte obytné auto v kempu nebo na parkovišti P+R a do centra pojedete autobusem či vlakem, bývá to rychlejší, levnější a mnohem méně stresující.",
+            "Totéž platí v hlavní sezoně v Queenstownu, kde je zaparkovat campervan blízko centra opravdu těžké. Ubytujte se mimo město a ve dny, kdy chcete být v centru, jezděte místní linkou."
+          ],
+          "tips": [
+            "Pozor na výškové omezení parkovišť",
+            "Do Aucklandu a Wellingtonu přes P+R",
+            "V sezoně se v Queenstownu těžko parkuje"
+          ]
+        },
+        {
+          "heading": "Kde nejezdí vůbec nic",
+          "body": [
+            "Na většině novozélandského venkova veřejná doprava prakticky neexistuje a to, co jezdí, bývá často jediný spoj navázaný na školní dopravu. Cesta naplánovaná podle autobusů funguje mezi velkými městy a turistickými centry, ale k většině kempů, výchozích bodů treků a malých měst se s ní nedostanete.",
+            "Pokud cestujete bez auta, plánujte podle sítě dálkových autobusů a turistických minibusů (shuttle), které jezdí ke konkrétním trekům. Počítejte s tím, že itinerář pak určují tyhle linky, ne to, kam byste ideálně chtěli."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Po městech bez auta",
+          "body": [
+            "Vlaky a autobusy v Aucklandu pokrývají šíji, na které město leží, docela slušně a trajekt do Devonportu a na ostrov Waiheke stojí za to už kvůli plavbě samotné. Wellington je tak malý, že ho projdete pěšky, a na vzdálenější místa máte pozemní lanovku (cable car) a příměstské vlaky.",
+            "V Christchurchi jezdí autobusy z centrálního přestupního terminálu. Město je navíc tak rovinaté, že kolo je tu opravdu praktické, a síť oddělených cyklostezek se dál rozrůstá. Půjčoven kol je hodně a pronájem často vyjde levněji než celý den jízd autobusem.",
+            "Děti a senioři mají zlevněné jízdné a některá města nabízejí celodenní jízdenky, které se oproti jednotlivým jízdenkám vyplatí od tří nebo čtyř jízd. Než se rozhodnete mezi celodenní jízdenkou a placením za každou jízdu zvlášť, odhadněte, kolikrát pojedete."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Dá se po Novém Zélandu cestovat bez auta, jen veřejnou dopravou?",
+          "Mezi velkými městy ano, ve městech samotných se to hodně liší. Síť prakticky končí na venkově a na pobřeží, tedy tam, kam se většina lidí jede hlavně dívat."
+        ],
+        [
+          "Kolik stojí MHD v novozélandských městech?",
+          "Ceny jízdného s datem platnosti uvádíme pro Auckland, Wellington a Christchurch. Všechna tři města mají karty, které se přikládají ke čtečce, a denní strop jízdného. Pokud zůstanete déle než pár dní, vyplatí se kartu koupit hned na začátku."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Transport: jízdné 2026"
+        },
+        {
+          "label": "Auckland: strop jízdného na sedm dní"
+        },
+        {
+          "label": "Metlink: ceny jízdného"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: směnné kurzy"
+        }
+      ],
+      "priceTable": {
+        "note": "Jízdné pro dospělé v Aucklandu platné od 1. února 2026. Celostátní rozpětí ceny jedné jízdy vychází z komunitních dat za červen 2026.",
+        "rows": [
+          {
+            "label": "Auckland, linka CityLink",
+            "unit": "AT HOP nebo bezkontaktně"
+          },
+          {
+            "label": "Auckland, 1 zóna",
+            "unit": "dospělý"
+          },
+          {
+            "label": "Auckland, 2 zóny",
+            "unit": "dospělý"
+          },
+          {
+            "label": "Auckland, 4 a více zón",
+            "unit": "dospělý"
+          },
+          {
+            "label": "Auckland, strop na 7 dní",
+            "unit": "spoje zapojené do AT HOP"
+          },
+          {
+            "label": "Běžná jednosměrná jízda ve městě",
+            "unit": "celostátní rozpětí (komunitní data)"
+          }
+        ]
+      }
+    }
+  }
 }
