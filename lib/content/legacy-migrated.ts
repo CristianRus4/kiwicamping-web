@@ -257,27 +257,35 @@ export const migratedArticles: Article[] = [
   a({
     slug: "holiday-parks-new-zealand-guide",
     legacyPath: "/holiday-parks-nz-booking-guide.html",
-    title: "Holiday parks in New Zealand: how to choose and book",
-    description: "Powered sites, cabins, peak-season pricing and after-hours arrival, explained so the booking holds up on the day.",
+    title: "Holiday Parks NZ 2026: Memberships, Costs and How to Book",
+    description: "TOP 10 Club costs $55 for two years and saves 10% a stay. How holiday park rates are built, when to book, late arrival, and the cost against DOC sites.",
     category: "Camping guides",
     region: "New Zealand towns and coast",
     readTime: 13,
-    places: ["Powered sites", "Tent sites", "Cabins", "Communal kitchens", "Dump stations"],
+    places: ["TOP 10 Holiday Parks", "Holiday Parks New Zealand", "Powered sites", "Cabins", "Communal kitchens", "Dump stations"],
     imageAlt: "New Zealand holiday park beside the coast",
     intro:
-      "Holiday parks fill the gap between a basic campsite and a hotel, and they earn their place on a trip at very specific moments: after several wet nights, before an early ferry, or whenever laundry, power and a dependable hot shower matter more than solitude. Booking one well is mostly a matter of comparing the right things.",
+      "A holiday park is a commercial campground with powered and tent sites, hot showers, a shared kitchen, laundry and usually cabins, and it is the night that resets a camping trip: after a wet week, before an early ferry, or whenever power and a dependable shower matter more than solitude. Most charge per site or per person, so the price only means something for your own party. The industry association, Holiday Parks New Zealand, lists 230 member parks, and the biggest chain, TOP 10, sells a $55 two-year club card that takes 10 percent off each stay. Below: how rates work, what a membership is worth, when to book and how to arrive late without trouble.",
     sections: [
       s("Understand how the rate is built", [
-        "Holiday parks price in three different ways and the comparison collapses if you mix them up. Some charge per person, some per site with a stated occupancy, and some quote a base rate with additional guests charged separately. A $45 site for two and a $28-per-person rate are the same price for a couple and very different for a family of five.",
+        "Holiday parks price in three different ways and the comparison collapses if you mix them up. Some charge per person, some per site with a stated occupancy, and some quote a base rate with additional guests charged separately. As an example, a $45 site for two and a $28-per-person rate are almost the same for a couple and very different for a family of five.",
         "Then check what is bundled. Power, linen, kitchen equipment, showers, Wi-Fi and booking fees vary between parks, and a cabin quoted without linen is not comparable to one that includes it. Work out the total for your actual party and nights before deciding anything.",
       ], ["Compare per-person against per-site", "Check whether linen is included", "Include booking and card fees"]),
+      s("Holiday park or DOC campsite: cost it for your party", [
+        "DOC charges per person, so the cheaper option depends on who is travelling. At a serviced DOC campsite an adult pays $25 a night unpowered and a child $12.50, so two adults and two children pay $75. At a standard DOC campsite the same family pays $30 to $60, and at a basic site nothing. Hold that against the park's quoted total for the same night, power and party, not against its headline site price.",
+        "For a couple, DOC usually wins on price and a park on facilities. For a family, a park charging per site often closes the gap or beats a serviced DOC ground, and adds laundry, a kitchen, hot showers and somewhere for children to burn off energy. Many trips work best mixing the two: DOC sites for the scenery, a holiday park every few nights for the reset.",
+      ], ["DOC charges per person, parks often per site", "Two adults and two children: $75 at a serviced DOC site", "Mix DOC nights with a park every few nights"]),
+      s("Chains, networks and memberships", [
+        "TOP 10 Holiday Parks is the largest chain. Its club card costs $55 for two years and takes 10 percent off accommodation at TOP 10 parks, capped at $40 a stay, plus 10 percent at more than 130 BIG4 parks across the Tasman, Interislander ferry savings and regional deals. The card pays for itself once your discounts pass $55, which at 10 percent means about $550 of TOP 10 stays over the two years: good value on a long trip, rarely on a weekend.",
+        "Holiday Parks New Zealand is the industry association rather than a chain. It lists 230 member parks, many of them independent, and arranges an Interislander discount for its member parks' guests. Motorhome owners who join the New Zealand Motor Caravan Association get its members-only parks and travel directory instead. Independent parks run their own discounts, so ask at booking rather than assuming a card applies.",
+      ], ["TOP 10 Club: $55 for two years, 10% off up to $40 a stay", "It pays off after about $550 of TOP 10 nights", "Independent parks set their own discounts"]),
       s("Book the vehicle you are actually bringing", [
         "Site dimensions matter more than travellers expect. A long motorhome, a caravan with an awning or a vehicle towing a trailer needs a site that physically fits, and parks allocate by the length you declared. Under-declaring produces an awkward conversation at check-in and sometimes no site at all.",
         "Say whether you need drive-through access, power, and proximity to amenities if anyone in the party has mobility needs. These are easy to arrange in advance and nearly impossible to fix on a full Saturday in January.",
       ]),
       s("Peak season changes the rules", [
-        "Between Christmas and late January, plus Easter and school holidays, popular coastal parks operate on minimum stays, higher rates and non-refundable terms. Some take bookings a year ahead for the best sites. If your route passes through a beach town in that window, book it as early as you book the ferry.",
-        "Local events compress availability just as hard and with less warning, a regional sports tournament or a concert can fill every park in a district. Where dates are uncertain, pay for refundable terms and note the cancellation deadline against the trip stop rather than trusting memory.",
+        "Between Christmas and late January, and over Easter and school holidays, popular coastal parks can set minimum stays, higher rates and stricter cancellation terms, and the best sites go early. If your route passes through a beach town in that window, book it as early as you book the ferry.",
+        "Local events compress availability just as hard and with less warning: a regional sports tournament or a concert can fill every park in a district. Where dates are uncertain, pay for refundable terms and note the cancellation deadline against the trip stop rather than trusting memory.",
       ], ["Book beach towns very early", "Watch for local events", "Note cancellation deadlines"]),
       s("Arriving after hours", [
         "Most parks close reception in the evening, and a long driving day frequently ends after that. Ask for the late-arrival procedure when you book: many leave an envelope with a site number and a gate code, but you need to know that before you are standing at a locked barrier at 10pm with no reception.",
@@ -288,12 +296,19 @@ export const migratedArticles: Article[] = [
         "Learn the layout before connecting anything: never fill drinking water from a tap near the dump point, and ask which taps are potable, because not all of them are. Rinse and stow hoses separately, and wash your hands after handling waste equipment.",
       ], ["Never fill water near the dump point", "Ask which taps are potable", "Keep hoses separate"]),
       s("Shared space, shared rules", [
-        "Quiet hours are enforced, and holiday parks are dense environments where sound carries between sites. Keep site boundaries, supervise children around internal roads and pools, and check the pet policy before arriving with a dog, many parks restrict animals entirely in peak season.",
+        "Quiet hours are enforced, and holiday parks are dense environments where sound carries between sites. Keep site boundaries, supervise children around internal roads and pools, and check the pet policy before arriving with a dog, because many parks restrict animals, especially in peak season.",
         "Secure valuables as you would anywhere with public access. A holiday park is convenient and generally safe, but it remains a busy site with vehicles moving through it all day.",
+      ]),
+      s("Finding and booking parks in KiwiCamping", [
+        "KiwiCamping shows holiday parks and tours from BookIt on the same map as DOC campsites and dump stations. The BookIt places are free in the app: open one to see its facilities and photos, then use Book now to check live availability and price. That makes it quick to find a powered site within an hour of where you are, even when you are choosing on the road.",
+        "DOC campsites, huts, dump stations and DOC's freedom camping notices are part of the Premium pass. Place details are stored on the phone, so you can compare a park against the nearest DOC site without signal, while live availability, maps and booking pages need a connection.",
       ]),
     ],
     sources: [
-      { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "TOP 10 Holiday Parks: club membership and member benefits", url: "https://top10.co.nz/membership/" },
+      { label: "Holiday Parks New Zealand: find a member park", url: "https://holidayparks.co.nz/" },
+      { label: "DOC campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "New Zealand Motor Caravan Association", url: "https://www.nzmca.org.nz/" },
       { label: "NZTA journey planner", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
@@ -345,8 +360,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "campfire-rules-new-zealand",
     legacyPath: "/campfire-rules-nz.html",
-    title: "Campfire rules, fire seasons and safe cooking outdoors",
-    description: "How New Zealand's fire season system works, when you need a permit, and how to cook safely when open fires are banned.",
+    title: "NZ Fire Season & Campfire Rules 2026: Check Fire Bans First",
+    description: "Open, restricted or prohibited: how NZ fire seasons work, where to check today's fire ban, when you need a permit and how to cook when fires are banned.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 12,
@@ -434,8 +449,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "best-time-camping-new-zealand",
     legacyPath: "/nz-camping-seasons-weather-sandflies.html",
-    title: "Seasons, weather and sandflies: when to camp in New Zealand",
-    description: "How the seasons behave region by region, where the sandflies are worst, and which months suit which kind of trip.",
+    title: "Sandfly Season NZ: When They're Worst and Best Months to Camp",
+    description: "When and where sandflies bite in New Zealand, worst on the West Coast and in Fiordland, plus how each season suits camping, region by region.",
     category: "Trip planning",
     region: "New Zealand seasons",
     readTime: 13,
@@ -457,8 +472,8 @@ export const migratedArticles: Article[] = [
         "Winter is a different trip rather than a worse one. It suits ski areas, clear southern night skies and travellers properly equipped for cold. Northern lowland camping stays mild, while Central Otago, Tongariro and the alpine passes require winter driving preparation, chains and a realistic view of daylight hours. It is a poor season to improvise.",
       ], ["Autumn is the best all-round compromise", "Spring is beautiful and unpredictable", "Winter needs equipment, not optimism"]),
       s("Sandflies: where and when", [
-        "Sandflies are concentrated on the West Coast, throughout Fiordland, around the Catlins and in damp bush near water anywhere in the country. They are worst at dawn and dusk, in still conditions, and near the coast and rivers. Wind and cold suppress them, which is why an exposed site is sometimes more comfortable than a sheltered one.",
-        "They are active through the warmer months and persist well into autumn. Bring strong repellent, cover ankles and wrists in the evening, keep the tent or van closed at dusk, and check the insect mesh before you travel. Bites can itch for days, so antihistamine cream is worth having with you rather than hunting for in a small town.",
+        "Sandflies, namu in te reo Māori, live wherever there is flowing water and bush, and two of New Zealand's 13 species bite. The West Coast and Fiordland are infamous for them, which is why the end of the Milford Track is called Sandfly Point, and beaches, lake edges and the Catlins are reliable spots too. They breed in fast-flowing streams, bite most as the light rises in the morning and fades at dusk, rarely bite in the dark, and in dull, overcast, humid weather keep biting all day.",
+        "There is no official sandfly season: in the wettest regions they are part of camping in any month, and most visitors meet them between spring and autumn, when campsites by rivers and lakes are full. An exposed, breezy pitch away from still water is usually more comfortable than a sheltered one. Bring strong repellent, cover ankles and wrists in the evening, keep the tent or van closed at dusk, and check the insect mesh before you travel. Bites can itch for days, so antihistamine cream is worth having with you rather than hunting for in a small town.",
       ]),
       s("Regional timing in short", [
         "Northland and the upper North Island are pleasant from October through April and humid at the height of summer. The central plateau and Tongariro are a summer and autumn proposition unless you are equipped for alpine winter. The East Coast is driest in summer and reliably sunny in autumn.",
@@ -470,6 +485,7 @@ export const migratedArticles: Article[] = [
       ]),
     ],
     sources: [
+      { label: "Te Ara: sandflies, New Zealand's blackflies", url: "https://teara.govt.nz/en/sandflies-and-mosquitoes/page-1" },
       { label: "MetService", url: "https://www.metservice.com/" },
       { label: "NZTA road conditions", url: "https://www.journeys.nzta.govt.nz/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
@@ -528,8 +544,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "camping-fees-new-zealand-2026",
     legacyPath: "/camping-costs-nz.html",
-    title: "The real cost of camping in New Zealand: a budget breakdown",
-    description: "DOC fees, holiday park rates, fuel, food and the extras, assembled into daily budgets you can actually plan against.",
+    title: "NZ Camping Costs 2026: DOC Fees, Holiday Parks, Daily Budget",
+    description: "DOC campsite fees per adult for 2026/27, holiday park rates, fuel and food, built into daily camping budgets in NZD and converted into 10 currencies.",
     category: "Costs & budget",
     region: "New Zealand camps",
     readTime: 14,
@@ -537,8 +553,10 @@ export const migratedArticles: Article[] = [
     imageAlt: "Tent and campervan at a New Zealand campsite",
     intro:
       "Camping is the cheapest way to travel New Zealand, but 'cheap' covers a range from about nothing to more than a motel room. The word campsite spans a free long-drop beside an untreated stream and a powered beachfront pitch with a kitchen and laundry, so a nightly figure only means something once you attach it to a category and a party size.",
-    priceTable: table(
-      "DOC category prices current in August 2026; commercial bands are planning ranges. Peak beachfront and event-period rates can sit well above these.",
+    priceTable: {
+      asOf: "20 October 2026",
+      note: "DOC category prices for the 2026/27 season, checked against DOC's fees page on 20 October 2026; the holiday park and daily figures are planning ranges, not quotes. Peak beachfront and event-period rates can sit well above these.",
+      rows:
       [
         { label: "DOC basic campsite", nzdLow: 0, unit: "per adult per night" },
         { label: "DOC standard campsite", nzdLow: 10, nzdHigh: 20, unit: "per adult per night" },
@@ -548,7 +566,7 @@ export const migratedArticles: Article[] = [
         { label: "Low-cost camping day, per person", nzdLow: 45, nzdHigh: 80, unit: "all-in, self-catering" },
         { label: "Mixed camping and holiday parks", nzdLow: 90, nzdHigh: 150, unit: "per person/day" },
       ],
-    ),
+    },
     sections: [
       s("DOC charges per person, not per site", [
         "This is the arithmetic that surprises families. DOC campsite fees are generally charged per adult per night: basic sites are free, standard sites usually fall between $10 and $20 per adult, and serviced unpowered sites are commonly around $25. Children are reduced or free depending on age and site.",

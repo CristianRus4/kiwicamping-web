@@ -37,7 +37,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "holiday-parks-new-zealand-guide": [
     ["What is the difference between a holiday park and a campsite?", "A holiday park is a commercial site with powered sites, showers, kitchens, laundry and usually cabins, priced per site or per person. A DOC campsite is public conservation land with far fewer facilities and a much lower fee."],
-    ["Is it worth joining a holiday park membership scheme?", "It depends how many nights you will spend in one. The discount schemes run by the main chains generally pay for themselves within a handful of nights, which suits a long trip and rarely suits a weekend."],
+    ["Is a holiday park membership worth it in New Zealand?", "The TOP 10 Club costs $55 for two years and takes 10 percent off each TOP 10 stay, up to $40 a stay, so it pays for itself once you spend about $550 at TOP 10 parks. That suits a long trip; for a weekend it rarely does."],
   ],
   "scenic-campsites-new-zealand": [
     ["Which New Zealand campsites have the best views?", "The strongest are concentrated where the road meets water or mountains: the Catlins and Fiordland in the south, the Coromandel and Bay of Islands in the north, and the lake country around Tekapo and Wānaka. This guide lists them region by region."],
@@ -176,7 +176,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What do visitors most often forget?", "Repellent, a warm layer for summer evenings, and a way to charge things away from power. The other one is a physical map or offline data, because reception disappears exactly where the driving gets interesting."],
   ],
   "best-time-camping-new-zealand": [
-    ["When is the best time to camp in New Zealand?", "Late February to March is the sweet spot: settled weather, warm water, and the summer crowds gone. December and January have the most reliable weather and the fullest campsites and highest prices."],
+    ["When is the best time to camp in New Zealand?", "For most trips, March and April: settled spells, campgrounds open but no longer full, and prices down once school holidays end. December and January bring the longest days but the fullest campsites and the highest prices."],
     ["What is camping like in the New Zealand shoulder season?", "Quiet, cheap and unpredictable. October to November and April to May give you sites without booking and roads without queues, at the cost of shorter days, colder nights and a real chance of a washed-out week."],
   ],
 
@@ -248,7 +248,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Are New Zealand's scenic trains worth the money?", "As an experience rather than transport, yes. The TranzAlpine and the Coastal Pacific are priced as sightseeing and run on schedules that will not fit a tight itinerary, so treat them as an activity you are buying."],
   ],
   "camping-fees-new-zealand-2026": [
-    ["How much does camping cost per night in New Zealand?", "It spans from free at Basic DOC sites through Standard and Scenic sites to holiday parks, and the guide prices each tier with dated figures. DOC charges per adult and holiday parks often charge per site, so two similar numbers can mean very different totals."],
+    ["How much does camping cost per night in New Zealand?", "From free at basic DOC campsites, through $10 to $20 an adult at standard sites and $25 at serviced sites, to holiday parks that often charge per site. Because DOC charges per adult, two similar-looking prices can mean very different totals for a family."],
     ["Is camping in New Zealand cheaper than staying in hostels?", "Per night, clearly. Across a whole trip the answer depends on the vehicle, because the rental and fuel that make cheap sites reachable usually cost more than the accommodation they replace."],
   ],
 };
