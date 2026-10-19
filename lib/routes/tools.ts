@@ -1,5 +1,5 @@
-import { localeCodes } from "@/lib/localized";
-import { isToolIndexable, toolIds, toolPath } from "@/lib/tools";
+import { localeCodes, type LocaleCode } from "@/lib/localized";
+import { isToolIndexable, isToolTranslated, toolIds, toolPath, tools } from "@/lib/tools";
 
 /**
  * Routes the tools feature adds, in the shape the route manifest (lib/routes.ts) registers:
@@ -22,3 +22,18 @@ export const toolRoutes: RouteEntry[] = [
  * when tools.ts is registered in lib/routes.ts.
  */
 export const TOOL_PAGES_EXPORTED = false;
+
+/**
+ * The same pages as `PageEntry`s for the route manifest (lib/routes.ts, foundation M2): register
+ * `toolPages` in its feature list. Every locale has an edition; it is complete once that tool's
+ * `tools` strings are translated.
+ */
+export function toolPages() {
+  return toolIds.map((id) => ({
+    key: `tool:${tools[id].slug}`,
+    kind: "tool" as const,
+    english: toolPath("en", id),
+    localized: (locale: string) => toolPath(locale as LocaleCode, id),
+    complete: (locale: string) => isToolTranslated(locale as LocaleCode, id),
+  }));
+}

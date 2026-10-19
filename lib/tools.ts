@@ -58,7 +58,8 @@ function complete(english: unknown, translated: unknown): boolean {
 }
 
 export function isToolTranslated(locale: LocaleCode, id: ToolId) {
-  const translated = files[locale].tools ?? {};
+  // Locales added after this file (ja, ko, ...) have no tools translation yet.
+  const translated = files[locale]?.tools ?? {};
   return complete(toolStrings.shared, translated.shared) && complete(toolStrings[id], translated[id]);
 }
 
