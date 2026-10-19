@@ -16,7 +16,6 @@
         "ja",
         "ko",
         "zh-hans",
-        "zh-hant",
         "da",
         "sv",
         "nb",
@@ -62,10 +61,6 @@
           "path": "../lib/translations/zh-hans.json"
         },
         {
-          "locale": "zh-hant",
-          "path": "../lib/translations/zh-hant.json"
-        },
-        {
           "locale": "da",
           "path": "../lib/translations/da.json"
         },
@@ -86,25 +81,75 @@
           "path": "../lib/translations/pl.json"
         }
       ],
-      "protectedTerms": ["KiwiCamping", "Aotearoa", "Aoraki", "DOC", "Waka Kotahi", "NZD", "North Island", "South Island", "Stewart Island"],
-      "varieties": { "pt": "pt-PT" },
-      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "North Island",
+        "South Island",
+        "Stewart Island",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "varieties": {
+        "pt": "pt-PT",
+        "zh-hans": "zh-Hans"
+      },
+      "register": {
+        "de": "informal",
+        "es": "informal",
+        "fr": "formal",
+        "it": "informal",
+        "nl": "informal",
+        "pt": "informal"
+      }
     },
     {
       "id": "kiwicamping-website-zh-Hant",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["zh-Hant"],
+      "locales": [
+        "zh-hant"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "zh-Hant", "path": "../lib/translations/zh-hant.json" }
+        {
+          "locale": "zh-hant",
+          "path": "../lib/translations/zh-hant.json"
+        }
       ],
-      "protectedTerms": ["KiwiCamping", "NZD", "DOC", "Aotearoa", "Aoraki", "Waka Kotahi"],
-      "untranslatedKeys": ["ui.review*", "ui.reviewsEyebrow", "ui.reviewsTitle"],
+      "protectedTerms": [
+        "KiwiCamping",
+        "NZD",
+        "DOC",
+        "Aotearoa",
+        "Aoraki",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
       "glossary": {
-        "North Island": { "zh-Hant": "北島" },
-        "South Island": { "zh-Hant": "南島" },
-        "Stewart Island": { "zh-Hant": "史都華島" }
+        "North Island": {
+          "zh-hant": "北島"
+        },
+        "South Island": {
+          "zh-hant": "南島"
+        },
+        "Stewart Island": {
+          "zh-hant": "史都華島"
+        }
+      },
+      "styleGuide": {
+        "zh-hant": "Follow docs/translation-style/zh-hant.md: native Taiwanese Traditional Chinese travel-writer voice, you not 您, Taiwan vocabulary, full-width punctuation, no dashes, no offline-map claims."
+      },
+      "varieties": {
+        "zh-hant": "zh-Hant"
       }
     }
   ]
