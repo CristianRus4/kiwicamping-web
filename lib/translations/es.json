@@ -2,15 +2,15 @@
   "locale": "es",
   "ui": {
     "languageName": "Español",
-    "metaTitle": "KiwiCamping: mapa de campings, DOC y rutas por Nueva Zelanda",
-    "metaDescription": "Encuentra más de 6.500 campings, refugios del DOC, holiday parks y zonas de acampada libre en toda Nueva Zelanda. Fichas sin conexión, filtros precisos y un planificador de rutas parada a parada para iPhone.",
+    "metaTitle": "KiwiCamping: mapa de campings y del DOC, y planificador de rutas",
+    "metaDescription": "Más de 6.500 campings, refugios del DOC, holiday parks y zonas de acampada libre en Nueva Zelanda. Fichas sin conexión, filtros precisos y planificador de rutas para iPhone.",
     "ogTitle": "KiwiCamping: el mapa de campings y planificador de rutas para Nueva Zelanda",
     "ogDescription": "Más de 6.500 campings, refugios del DOC, holiday parks y zonas de acampada libre, disponibles sin conexión. Filtra, guarda y planifica el viaje completo.",
     "metaKeywords": "app camping Nueva Zelanda, mapa camping Nueva Zelanda, acampada libre Nueva Zelanda, app campings DOC, mapa refugios DOC, holiday parks Nueva Zelanda, app autocaravana Nueva Zelanda, app camping sin conexión Nueva Zelanda, planificador road trip Nueva Zelanda",
     "metaGuidesTitle": "Guías de camping y road trip por Nueva Zelanda",
     "metaGuidesDescription": "Normas de acampada, acampada libre y requisitos self-contained, campings del DOC, mejor época, costes reales y planificación práctica para tu road trip por Nueva Zelanda.",
     "metaToolsTitle": "Calculadoras para tu road trip por Nueva Zelanda",
-    "metaToolsDescription": "Convierte precios neozelandeses, calcula el combustible de la ruta, estima cuánto dura de verdad una jornada al volante, calcula tu autonomía de agua y aguas grises y compara precios de campings.",
+    "metaToolsDescription": "Convierte precios neozelandeses, calcula el combustible, estima una jornada realista al volante, planifica el agua y las aguas grises y compara precios de campings.",
     "metaSupportTitle": "Ayuda y preguntas frecuentes",
     "metaSupportDescription": "Ayuda con los mapas de KiwiCamping, las fichas de lugares, los filtros, las colecciones, el planificador de viajes, los datos sin conexión, la conversión de moneda y el acceso premium.",
     "navFeatures": "Funciones",
@@ -22,10 +22,10 @@
     "updated": "Actualizado el",
     "commonQuestions": "Preguntas frecuentes",
     "altHero": "El mapa de KiwiCamping de Nueva Zelanda, con marcadores de campings, holiday parks y zonas de acampada libre en Golden Bay y, debajo, la lista Explorar con los lugares cercanos",
-    "altPlaceScreen": "Ficha del Robin Hood Bay Campsite, en Marlborough, en KiwiCamping: tarifa gratuita, si está abierto, los servicios y un enlace para reservar",
+    "altPlaceScreen": "Ficha de KiwiCamping del Robin Hood Bay Campsite (Marlborough): tarifa gratuita, si está abierto, los servicios y un enlace para reservar",
     "altCollectionsScreen": "La pantalla de colecciones de KiwiCamping con las listas Quiero visitar, Visitados, Pines y Todos guardados sobre un mapa satélite de Great Barrier Island",
     "altTripScreen": "Itinerario de un road trip por la Bay of Islands en KiwiCamping con siete paradas, la distancia en coche, las fechas y el tiempo en cada camping",
-    "altExploreScreen": "La lista Explorar de KiwiCamping con refugios del DOC y campings en Southland, Auckland y Wellington, y la distancia a la que están de la vista del mapa",
+    "altExploreScreen": "La lista Explorar de KiwiCamping con refugios del DOC y campings en Southland, Auckland y Wellington, y la distancia de cada uno a la zona del mapa que estás viendo",
     "heroKicker": "La mejor app de camping para Nueva Zelanda",
     "heroTitle": "Nueva Zelanda es grande. Tu plan puede ser sencillo",
     "heroText": "Más de 6.500 lugares en toda Nueva Zelanda, guardados en la app para que se abran aunque no tengas cobertura. Filtra hasta dar justo con lo que necesitas, guárdalo y convierte tu selección en un road trip con ruta, distancia, fechas, notas y tareas pendientes.",
@@ -49,7 +49,7 @@
     "findTitle": "Encuentra el sitio exacto",
     "findText": "Busca entre más de 6.500 lugares, mira qué tienes cerca o combina filtros hasta que en tu zona del mapa solo queden las zonas de acampada gratuitas con baños y agua.",
     "saveTitle": "Guárdalo en una colección",
-    "saveText": "Marca un lugar con Me gustó, como destacado o como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección.",
+    "saveText": "Dale a «Me gustó», destaca un lugar o márcalo como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección.",
     "planTitle": "Conviértelo en un viaje",
     "planText": "Ordena las paradas, mira la distancia entre ellas, añade fechas y notas, consulta el tiempo en cada una, abre la navegación y ve marcándolas a medida que avanzas.",
     "featuresEyebrow": "Todo lo que necesitas",
@@ -62,7 +62,7 @@
     "featureList2": "Street View, el tiempo y la navegación integrados",
     "featureList3": "Incluido en la app: se abre sin cobertura",
     "feature1Title": "Colecciones inteligentes y tus propias listas",
-    "feature1Text": "Me gustó, Destacados, Quiero visitar y Visitados se llenan solas a medida que marcas lugares. Además, puedes crear colecciones con nombre para una isla, una temporada o esa preselección que todavía está en discusión.",
+    "feature1Text": "Las listas «Me gustó», «Destacados», «Quiero visitar» y «Visitados» se llenan solas a medida que marcas lugares. Además, puedes crear colecciones con nombre para una isla, una temporada o esa preselección que todavía estás discutiendo.",
     "feature2Title": "Filtros que responden a una pregunta real",
     "feature2Text": "Pide zonas de acampada gratuitas con baños y agua potable cerca de Queenstown y luego afina por tipo de lugar, tarifa, valoración, reserva online, región y características detalladas de instalaciones y acceso.",
     "feature3Title": "Mapa estándar, satélite y 3D",
@@ -105,8 +105,8 @@
     "principle1Text": "Los avisos sobre el terreno, lo que indique quien gestiona el lugar y las alertas de emergencia vigentes siempre van por delante de una ficha.",
     "principle2Title": "Comprueba siempre lo último",
     "principle2Text": "Antes de salir, consulta las últimas novedades sobre reservas, carreteras, incendios y cierres.",
-    "principle3Title": "Deja cada sitio mejor que como lo encontraste",
-    "principle3Text": "Acampar solo donde se puede, deshacerte bien de los residuos y respetar el whenua, la tierra en el sentido maorí, es lo que mantiene abiertos estos lugares.",
+    "principle3Title": "Deja cada sitio mejor de como lo encontraste",
+    "principle3Text": "Acampar solo donde está permitido, gestionar bien los residuos y respetar el whenua (la tierra, en sentido maorí) es lo que mantiene abiertos estos lugares.",
     "faqEyebrow": "Unas cuantas respuestas claras",
     "faqTitle": "Buenas preguntas. Respuestas claras.",
     "faqIntro": "Respuestas claras sobre viajar con KiwiCamping.",
@@ -115,12 +115,12 @@
     "faq2q": "¿Qué lugares incluye?",
     "faq2a": "Más de 6.500 lugares: campings del DOC, refugios de montaña, holiday parks y otros alojamientos que se pueden reservar, zonas de acampada libre, puntos de vaciado públicos y áreas recreativas en las dos islas.",
     "faq3q": "¿Funciona sin cobertura?",
-    "faq3a": "El directorio de lugares va incluido en la app, así que los nombres, categorías, descripciones, tarifas, instalaciones y condiciones se pueden consultar aunque estés lejos de cualquier cobertura. Los servicios en tiempo real, como el tiempo, la navegación, Street View, las fotos y las webs de los proveedores, siguen necesitando conexión.",
+    "faq3a": "El directorio de lugares va incluido en la app, así que los nombres, categorías, descripciones, tarifas, instalaciones y condiciones se pueden consultar aunque estés lejos de cualquier cobertura. Los servicios en línea, como la previsión del tiempo, la navegación, Street View, las fotos y las webs de los proveedores, siguen necesitando conexión.",
     "faq4q": "¿Puedo planificar un road trip con varias paradas?",
     "faq4a": "Sí, y es la función principal de la app. Añade lugares como paradas, arrástralos para ordenarlos, ponle a cada una su fecha y sus notas de llegada, mira la distancia en coche tramo a tramo y del viaje completo, abre la navegación hasta la siguiente parada, consulta el tiempo en cada una, márcalas como visitadas y ten la lista de equipaje junto al itinerario. Los datos del itinerario se pueden sincronizar con Calendario.",
     "faq5q": "¿Qué son las colecciones?",
-    "faq5a": "Hay dos tipos. Las colecciones inteligentes (Me gustó, Destacados, Quiero visitar, Visitados, Pines y Todos guardados) se llenan solas a medida que marcas lugares. Además, puedes crear tus propias colecciones con nombre, icono y notas para una región, una temporada, un vehículo o una preselección.",
-    "faq6q": "¿Puedo filtrar zonas de acampada gratuitas o sitios para vehículos self-contained?",
+    "faq5a": "Hay dos tipos. Las colecciones inteligentes («Me gustó», «Destacados», «Quiero visitar», «Visitados», «Pines» y «Todos guardados») se llenan solas a medida que marcas lugares. Además, puedes crear tus propias colecciones con nombre, icono y notas para una región, una temporada, un vehículo o una preselección.",
+    "faq6q": "¿Puedo filtrar por zonas de acampada gratuitas o por sitios para vehículos self-contained (autónomos)?",
     "faq6a": "Sí, y también combinarlos. Puedes filtrar por tipo de lugar, tarifa, valoración mínima, reserva online, región y características detalladas de instalaciones y acceso, así que «zonas de acampada gratuitas con baños y agua potable cerca de Queenstown» es una sola búsqueda.",
     "faq7q": "¿Qué aparece en la ficha de un lugar?",
     "faq7a": "Fotos, una descripción, horarios, tarifas, condiciones, instalaciones agrupadas por tipo, avisos vigentes, valoraciones, datos de contacto y de reserva, el tiempo, Street View donde hay imágenes, la navegación y alternativas cercanas.",
@@ -157,9 +157,9 @@
     "related": "Guías relacionadas",
     "takeRoad": "Llévatelo a la carretera",
     "savePlanTitle": "Guarda las paradas. Planifica todo el viaje.",
-    "savePlanText": "Arma una ruta ordenada con los lugares guardados, calcula la distancia y ten las fechas, las notas y las tareas siempre a mano.",
+    "savePlanText": "Crea una ruta ordenada con los lugares guardados, calcula la distancia y ten las fechas, las notas y las tareas siempre a mano.",
     "toolsEyebrow": "Números útiles",
-    "toolsTitle": "Calculadoras para tu road trip. Sin cuentas misteriosas.",
+    "toolsTitle": "Calculadoras para tu road trip. Sin cuentas raras.",
     "toolsIntro": "Calculadoras rápidas para planificar precios y costes de conducción en Nueva Zelanda. Todos los supuestos quedan a la vista para que los cambies por la cifra que encaja con tu ruta.",
     "currencyEyebrow": "Conversor de moneda",
     "currencyTitle": "Convierte un precio neozelandés.",
@@ -175,7 +175,7 @@
     "tankText": "Los litros de capacidad solo te sirven cuando los pasas a días. El depósito de aguas grises suele llenarse antes de que se vacíe el de agua limpia, así que verás los dos.",
     "campEyebrow": "Comparador de campings",
     "campTitle": "¿Por persona o por parcela?",
-    "campText": "Un camping del DOC suele cobrar por adulto y un holiday park, por parcela. Cuál sale más barato cambia según el tamaño del grupo, y ahí es donde muchas familias se llevan la sorpresa.",
+    "campText": "Un camping del DOC suele cobrar por adulto y un holiday park (camping privado con cabañas y servicios), por parcela. Cuál sale más barato cambia según el tamaño del grupo, y ahí es donde muchas familias se llevan la sorpresa.",
     "amount": "Importe",
     "from": "De",
     "to": "A",
@@ -196,7 +196,7 @@
     "labelPerAdult": "Por adulto (NZD)",
     "labelPerSite": "Por parcela (NZD)",
     "toolsReadingTitle": "Haz el presupuesto con referencias actuales.",
-    "toolsReadingText": "Las calculadoras calculan exactamente lo que introduces. Nuestras guías de costes explican de dónde salen las cifras de partida, cuándo se comprobaron y qué puede hacer cambiar el precio final.",
+    "toolsReadingText": "Las calculadoras hacen la cuenta exacta con lo que introduces. Nuestras guías de costes explican de dónde salen las cifras de partida, cuándo se comprobaron y qué puede cambiar el precio final.",
     "toolsReadingLink": "Ver guías de costes",
     "calculatorNote": "Estas calculadoras sirven para planificar; no son precios en tiempo real de reservas, gasolineras ni cambio de divisas. El cálculo de los depósitos parte de unos 11 litros de agua limpia y 9 litros de aguas grises por persona y día, algo que varía según las duchas y lo que cocines. Confirma los precios actuales antes de pagar.",
     "enterValidValues": "Introduce valores válidos",
@@ -215,7 +215,7 @@
     "help": "Ayuda",
     "getApp": "Consigue la app",
     "travelGuides": "Guías de viaje",
-    "footerText": "Encuentra más de 6.500 lugares de Nueva Zelanda disponibles sin conexión, guarda los que te interesan y arma road trips completos con ruta, distancia, fechas, notas y tareas pendientes.",
+    "footerText": "Encuentra más de 6.500 lugares de Nueva Zelanda disponibles sin conexión, guarda los que te interesan y crea road trips completos con ruta, distancia, fechas, notas y tareas pendientes.",
     "footerLine": "Hecha para recorrer Nueva Zelanda sin prisa.",
     "rulesSafety": "Normas y seguridad",
     "roadTrips": "Rutas en coche",
@@ -251,6 +251,14 @@
     "review9Country": "Irlanda",
     "review9Quote": "Seis personas, dos furgonetas, nadie tuvo que preguntar dónde dormíamos la noche siguiente. Reordenarlo todo cuando cambió el tiempo fue fácil, y eso no me lo esperaba."
   },
+  "consent": {
+    "label": "Opciones de privacidad",
+    "text": "¿Puede KiwiCamping usar cookies de Google Analytics para saber qué páginas ayudan a los viajeros? Nunca se usan para publicidad.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "policy": "Política de privacidad",
+    "choices": "Opciones de privacidad"
+  },
   "pages": {
     "support": {
       "title": "¿En qué podemos ayudarte?",
@@ -267,7 +275,7 @@
         {
           "heading": "Lugares guardados",
           "paragraphs": [
-            "Me gustó, Visitados, Quiero visitar y Destacados se actualizan solos cuando marcas lugares. Pines y Todos guardados te dan otras vistas rápidas.",
+            "«Me gustó», «Visitados», «Quiero visitar» y «Destacados» se actualizan solos cuando marcas lugares. «Pines» y «Todos guardados» te dan otras vistas rápidas.",
             "Crea colecciones con nombre, icono y notas, y añade cualquier lugar. Úsalas para una región, una temporada, un vehículo o una preselección.",
             "La app permite sincronizar de forma privada con iCloud lo que has marcado, las colecciones y los datos de tus viajes, siempre que iCloud esté disponible y activado."
           ]
@@ -277,15 +285,15 @@
           "paragraphs": [
             "Crea un viaje, añade lugares y arrástralos para ordenarlos. Cada parada puede llevar su propia fecha de llegada, notas, el tiempo y si ya la has visitado, y el planificador muestra la distancia en coche tramo a tramo y del viaje completo.",
             "El cálculo de la ruta por carretera depende de las indicaciones disponibles en MapKit. Si falla un tramo, el planificador conserva las paradas, pero comprobar si la carretera está abierta es cosa tuya.",
-            "Empieza con la lista predefinida de básicos de camping o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario."
+            "Empieza con la lista predefinida de imprescindibles para acampar o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario."
           ]
         },
         {
-          "heading": "Mapas, tiempo y datos en tiempo real",
+          "heading": "Mapas, previsión del tiempo y datos en línea",
           "paragraphs": [
             "Cambia entre el mapa estándar y una vista satélite basada en las imágenes Flyover de Apple, que se inclina y gira hasta mostrar el relieve en 3D. Street View, basado en las imágenes de Mirar alrededor (Look Around) de Apple, se abre desde la ficha del lugar donde hay imágenes.",
             "El tiempo actual y la previsión necesitan conexión. Guarda las previsiones importantes y los avisos oficiales antes de quedarte sin cobertura.",
-            "El directorio de lugares incluido en la app mantiene disponibles los datos esenciales de cada lugar aunque no tengas buena señal. Los mapas en tiempo real, la navegación, el tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura."
+            "El directorio incluido en la app mantiene disponibles los datos esenciales de cada lugar aunque no tengas buena señal. Los mapas online, la navegación, la previsión del tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura."
           ]
         },
         {
@@ -299,7 +307,7 @@
           "heading": "Premium y compras",
           "paragraphs": [
             "El mapa y las fichas de los lugares son gratis, y también dos listas guardadas.",
-            "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y rutas de road trip.",
+            "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y rutas por carretera para tu road trip.",
             "Usa Restaurar compras en la pantalla de Premium con la sesión iniciada en la cuenta de Apple con la que compraste originalmente."
           ]
         }
@@ -335,6 +343,15 @@
           ]
         },
         {
+          "heading": "Analítica web",
+          "paragraphs": [
+            "Esta web usa Google Analytics 4 para contar las visitas y ver qué páginas llevan a la gente al App Store. Google trata estos datos por cuenta nuestra, como encargado del tratamiento. Para los visitantes del Espacio Económico Europeo, el Reino Unido y Suiza, el servicio lo presta Google Ireland Limited, y en el resto del mundo, Google LLC.",
+            "La analítica registra las páginas que ves, tu tipo de dispositivo, de navegador y de pantalla, una ubicación aproximada obtenida a partir de tu dirección IP (Google no guarda la dirección en sí), la página desde la que llegaste y tus clics en enlaces al App Store. Nunca recibe tu nombre, tu correo electrónico ni nada de lo que guardas en la app.",
+            "Cuando se permite la analítica, Google Analytics instala dos cookies propias: _ga y otra cuyo nombre empieza por _ga_. Las dos caducan a los 13 meses. En el Espacio Económico Europeo, el Reino Unido y Suiza, estas cookies solo se instalan después de que elijas «Aceptar» en la barra de consentimiento. Hasta entonces, y si eliges «Rechazar», no se guarda ninguna cookie de analítica y Google solo recibe señales sin cookies que no llevan ningún identificador. Puedes cambiar tu elección cuando quieras con el enlace «Opciones de privacidad» que hay al pie de cada página.",
+            "Google Signals y la personalización de anuncios están desactivados, así que los datos de analítica no se vinculan a cuentas de Google ni se usan para publicidad. Los datos de analítica se conservan 14 meses y después se eliminan. KiwiCamping sigue sin usar rastreadores publicitarios en esta web."
+          ]
+        },
+        {
           "heading": "Conservación y control",
           "paragraphs": [
             "Puedes borrar los registros desde la propia app y gestionar los datos de iCloud desde tu cuenta de Apple. Desinstalar la app puede eliminar los datos locales, mientras que las copias sincronizadas pueden permanecer en iCloud hasta que las borres allí por separado."
@@ -348,7 +365,7 @@
           ]
         }
       ],
-      "effective": "En vigor desde el 12 de agosto de 2026"
+      "effective": "En vigor desde el 19 de octubre de 2026"
     },
     "terms": {
       "title": "Términos de uso",
@@ -931,31 +948,31 @@
     },
     "new-zealand-travel-cost-2026": {
       "title": "¿Cuánto cuesta viajar por Nueva Zelanda en 2026?",
-      "description": "Presupuestos diarios para una pareja de campistas, un mochilero y una ruta cómoda, con precios neozelandeses fechados.",
+      "description": "Presupuesto diario para viajar por Nueva Zelanda: en pareja de camping, de mochilero o en un road trip cómodo, con precios locales y su fecha.",
       "region": "Nueva Zelanda",
       "imageAlt": "Viajero calculando el presupuesto de una ruta por Nueva Zelanda",
-      "intro": "La ruta y el ritmo importan más que una media nacional. Moverse cada día aumenta el gasto en combustible y la presión de las reservas, mientras que viajar más despacio facilita cocinar por tu cuenta y aprovechar tarifas semanales.",
+      "intro": "La ruta y el ritmo cuentan más que cualquier media nacional. Si cambias de sitio cada día, gastas más en combustible y vas siempre pendiente de reservar; si viajas más despacio, es más fácil cocinar por tu cuenta y aprovechar las tarifas semanales.",
       "sections": [
         {
           "heading": "Parte de tu forma de viajar",
           "body": [
-            "Una cifra diaria ajustada da por hecho que compras en el súper, te alojas en sitios compartidos o sencillos y te mueves con cuidado por la zona. No da para habitación privada, cena en restaurante y una actividad importante cada día.",
-            "Para una pareja en autocaravana, calcula el vehículo una sola vez para el grupo y luego suma combustible, campings y comida. Dividir cada partida por persona puede esconder los grandes costes fijos."
+            "Un presupuesto diario ajustado da por hecho que compras en el súper, duermes en alojamientos compartidos o sencillos y controlas lo que gastas en moverte por la zona. No da para habitación privada, cena en restaurante y una actividad grande todos los días.",
+            "Para una pareja en camper, cuenta el vehículo una sola vez para los dos y luego suma combustible, campings y comida. Si divides cada partida por persona, los gastos fijos grandes pueden quedar escondidos."
           ],
           "tips": []
         },
         {
           "heading": "Lugar y temporada",
           "body": [
-            "Queenstown, Aoraki, las playas en verano y las fechas con eventos pueden estar muy por encima de un pueblo corriente. Las zonas remotas también suman el coste del transporte al combustible y a la compra.",
-            "Calcula directamente el precio de las fechas fijas y usa los rangos nacionales para los días flexibles entre ellas."
+            "En Queenstown, en Aoraki, en las playas en verano o en fechas con eventos, los precios pueden estar muy por encima de los de un pueblo cualquiera. En las zonas remotas, además, el combustible y la compra salen más caros por el transporte hasta allí.",
+            "Mira los precios reales de las fechas que no puedes mover y usa los rangos nacionales para los días flexibles que quedan entre medias."
           ],
           "tips": []
         },
         {
-          "heading": "Ten una reserva que puedas usar",
+          "heading": "Guarda un fondo para imprevistos",
           "body": [
-            "Guarda dinero para un cambio de ferri, una noche extra de alojamiento, un neumático o un problema médico. Una alternativa de camping legal entra en el presupuesto aunque tengas prevista la acampada libre.",
+            "Aparta dinero por si tienes que cambiar el ferri, pagar una noche más de alojamiento, un neumático o un médico. Aunque pienses hacer acampada libre (freedom camping), incluye en el presupuesto un camping legal como plan B.",
             "Revisa el gasto real cada pocos días. El combustible, la comida para llevar y las actividades son las partidas que más tienden a desviarse sin que te des cuenta."
           ],
           "tips": []
@@ -963,45 +980,45 @@
         {
           "heading": "Cómo es de verdad un día ajustado",
           "body": [
-            "Un día ajustado significa cocinar casi todas las comidas, combinar sitios del DOC gratuitos y baratos y tratar las actividades de pago como algo ocasional, no diario. Se puede mantener de verdad durante meses, y miles de personas lo hacen, pero exige un vehículo preparado para ser autosuficiente y tolerancia a las instalaciones básicas.",
-            "Donde falla es en suponer que ajustado significa gratis. Las duchas, la lavandería, el agua, los puntos de vaciado y alguna noche con servicios cuestan algo, y un presupuesto sin una partida para ellos estará equivocado al final de la primera semana."
+            "Un día ajustado significa cocinar casi todo, combinar campings gratuitos y baratos del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) y dejar las actividades de pago para alguna vez, no para cada día. Se puede mantener durante meses, y miles de personas lo hacen, pero necesitas un vehículo preparado para no depender de servicios y aceptar instalaciones básicas.",
+            "El error está en creer que ajustado significa gratis. Las duchas, la lavandería, el agua, los puntos de vaciado y alguna noche en un camping con servicios cuestan dinero, y si el presupuesto no tiene una partida para eso, a la primera semana ya no cuadra."
           ],
           "tips": []
         },
         {
           "heading": "Las dos islas cuestan distinto",
           "body": [
-            "La South Island suele implicar distancias más largas entre pueblos, combustible más caro fuera de las ciudades principales y más presión sobre el alojamiento en Queenstown, Wānaka y Aoraki. La North Island concentra más en trayectos más cortos, lo que reduce el combustible pero aumenta el número de atracciones de pago a mano.",
-            "Si el presupuesto es ajustado, un viaje lento por la North Island suele costar menos al día que la ruta equivalente por la South Island. Si el presupuesto es fijo y el tiempo escaso, la South Island rentabiliza el gasto de forma más visible."
+            "En la South Island (Isla Sur) suele haber más distancia entre pueblos, el combustible es más caro fuera de las ciudades principales y el alojamiento se llena más en Queenstown, Wānaka y Aoraki. La North Island (Isla Norte) concentra más cosas en trayectos más cortos: gastas menos en combustible, pero tienes a mano más atracciones de pago.",
+            "Si vas justo de presupuesto, un viaje tranquilo por la North Island suele salir más barato por día que una ruta equivalente por la South Island. Si el presupuesto está cerrado y tienes poco tiempo, la South Island compensa más claramente lo que gastas."
           ],
           "tips": []
         },
         {
-          "heading": "Costes que solo aparecen cuando ya estás aquí",
+          "heading": "Gastos que solo aparecen cuando ya estás aquí",
           "body": [
-            "La travesía del estrecho de Cook, la reducción de franquicia del alquiler, los recargos por devolver el vehículo en otra ciudad, una SIM o un plan de itinerancia y el depósito retenido en la tarjeta son importes reales que rara vez aparecen en un presupuesto diario. Juntos suelen añadir varios cientos de dólares a una quincena.",
-            "Las actividades son la otra partida silenciosa. Un solo vuelo sobre un glaciar, un jet boat o un crucero por Milford puede equivaler a varios días de viaje normal, así que decide de antemano cuáles dos o tres merecen la pena en lugar de decidirlo en el momento en cada una."
+            "El ferri del estrecho de Cook, la reducción de la franquicia (el deducible) del seguro del alquiler, el recargo por devolver el vehículo en otra ciudad, la SIM o el roaming y el depósito que te retienen en la tarjeta son importes reales que casi nunca entran en un presupuesto diario. Juntos suelen sumar varios cientos de dólares neozelandeses en dos semanas.",
+            "Las actividades son el otro gasto que pasa desapercibido. Un solo vuelo sobre un glaciar, un paseo en jet boat (lancha rápida) o un crucero por Milford pueden costar lo mismo que varios días normales de viaje, así que decide de antemano qué dos o tres merecen la pena, en vez de decidirlo sobre la marcha en cada sitio."
           ],
           "tips": [
             "Calcula el ferri aparte",
-            "La reducción de franquicia es un coste real",
-            "Elige de antemano tus grandes actividades"
+            "Reducir la franquicia también cuesta",
+            "Elige antes las actividades grandes"
           ]
         },
         {
           "heading": "Adónde va de verdad el dinero",
           "body": [
-            "En la mayoría de los viajes de camping el orden es vehículo, combustible, comida, campings y actividades. Los campings suelen ser una partida más pequeña de lo que la gente espera y el combustible una mayor, y por eso elegir una ruta más lenta ahorra más que elegir sitios más baratos.",
-            "Ese orden también te dice dónde mirar cuando el presupuesto se desvía. Pasar de un camping de $25 a uno de $0 ahorra menos que quitar un desvío de 300 kilómetros, y además te cuesta una ducha."
+            "En la mayoría de los viajes de camping, el orden es vehículo, combustible, comida, campings y actividades. Los campings suelen pesar menos de lo que la gente cree y el combustible, más; por eso una ruta más lenta ahorra más que buscar campings más baratos.",
+            "Ese orden también te dice dónde mirar cuando el presupuesto se desvía. Pasar de un camping de 25 NZD a uno de 0 NZD ahorra menos que quitar un desvío de 300 kilómetros, y encima te quedas sin ducha."
           ],
           "tips": []
         },
         {
-          "heading": "Pagar mientras estás aquí",
+          "heading": "Cómo pagar en Nueva Zelanda",
           "body": [
-            "El pago sin contacto con tarjeta se acepta casi en todas partes, incluso en pequeñas cafeterías rurales, y el efectivo es realmente raro. Muchos establecimientos añaden un recargo por pago con tarjeta, normalmente de entre el uno y el dos por ciento, que aparece en caja y no en la carta.",
-            "Las comisiones por operaciones en el extranjero son el coste silencioso. Una tarjeta de viaje o un banco que no las cobre ahorra una cantidad apreciable en un mes, y elimina la tentación de aceptar la conversión dinámica de divisas en el datáfono, que siempre sale con un tipo peor.",
-            "Lleva algo de efectivo para las cajas de pago voluntario de los campings del DOC, los puestos de fruta en la carretera y alguna tienda rural con una conexión poco fiable. Cincuenta dólares en billetes cubren casi todo para lo que todavía hace falta efectivo."
+            "El pago sin contacto con tarjeta se acepta casi en todas partes, incluso en cafeterías pequeñas de zonas rurales, y el efectivo se usa muy poco. Muchos locales añaden un recargo por pagar con tarjeta, normalmente de entre el 1 y el 2 %, que aparece al cobrar y no en la carta.",
+            "Las comisiones por pagos en moneda extranjera son el gasto que no se ve. Una tarjeta de viaje o un banco que no las cobre te ahorra una cantidad apreciable en un mes, y te quita la tentación de aceptar la conversión dinámica de divisas cuando el lector de tarjetas te ofrece cobrarte en tu moneda: el tipo de cambio siempre es peor.",
+            "Lleva algo de efectivo para la honesty box (una caja donde dejas el pago) de los campings del DOC, los puestos de fruta y verdura junto a la carretera y alguna tienda rural con mala conexión. Con 50 NZD en billetes cubres casi todo lo que todavía se paga en efectivo."
           ],
           "tips": []
         }
@@ -1009,11 +1026,11 @@
       "faq": [
         [
           "¿Cuánto cuesta un viaje a Nueva Zelanda en 2026?",
-          "Se divide claramente en transporte, alojamiento y comida, y la elección del vehículo pesa en el total más que nada. Esta guía recoge referencias fechadas en dólares neozelandeses para cada partida y las convierte a diez monedas."
+          "El gasto se reparte claramente entre transporte, alojamiento y comida, y lo que más mueve el total es el vehículo que elijas. Esta guía da para cada partida precios de referencia en dólares neozelandeses, con su fecha, y los convierte a diez monedas."
         ],
         [
           "¿Es caro viajar por Nueva Zelanda?",
-          "Para los estándares internacionales, sí, sobre todo en comida, alojamiento y transporte interior. El camping es la única categoría en la que sigue siendo barato, y por eso la diferencia entre un viaje de camping y uno de hotel aquí es inusualmente grande."
+          "Comparado con otros países, sí, sobre todo en comida, alojamiento y transporte dentro del país. El camping es lo único que sigue siendo barato, y por eso aquí la diferencia entre un viaje de camping y uno de hotel es mucho mayor de lo habitual."
         ]
       ],
       "sources": [
@@ -1028,14 +1045,14 @@
         }
       ],
       "priceTable": {
-        "note": "Escenarios de planificación para un viajero. Se excluyen el alquiler del vehículo, el transporte de larga distancia y los vuelos internacionales porque las fechas y el tamaño del grupo los hacen variar mucho.",
+        "note": "Escenarios orientativos para una persona. No incluyen el alquiler del vehículo, el transporte de larga distancia ni los vuelos internacionales, porque cambian mucho según las fechas y el tamaño del grupo.",
         "rows": [
           {
             "label": "Campista o mochilero con presupuesto ajustado",
             "unit": "por persona y día"
           },
           {
-            "label": "Viaje independiente cómodo",
+            "label": "Viaje cómodo por tu cuenta",
             "unit": "por persona y día"
           },
           {
@@ -1047,23 +1064,23 @@
     },
     "beer-wine-coffee-prices-new-zealand": {
       "title": "Precios de la cerveza, el vino y el café en Nueva Zelanda",
-      "description": "Compara bebidas en cafeterías, pubs y supermercados sin tratar una consumición y una botella comprada en tienda como la misma compra.",
+      "description": "Precios de las bebidas en cafeterías, pubs y supermercados de Nueva Zelanda, y por qué no se puede comparar una copa servida con una botella del súper.",
       "region": "Nueva Zelanda",
       "imageAlt": "Café y vino de Nueva Zelanda sobre una mesa",
-      "intro": "Las bebidas se acumulan porque llegan en pequeñas compras. Una parada para el café, una ronda en el pub y una botella para el camping pueden superar el presupuesto de comida sin que ninguna compra parezca grande.",
+      "intro": "Las bebidas se van sumando porque se pagan en compras pequeñas. Una parada para tomar café, una ronda en el pub y una botella para el camping pueden superar el presupuesto de comida sin que ninguna compra parezca grande.",
       "sections": [
         {
           "heading": "Compara lo que es comparable",
           "body": [
-            "El precio en un pub paga el servicio y el local, mientras que una botella del súper se consume en otro sitio. No uses una para decir que la otra es especialmente cara.",
-            "Las catas en bodega pueden cobrar una tarifa, perdonarla si compras o exigir reserva. Infórmate antes de montar una tarde en torno a varias bodegas."
+            "En el pub pagas también el servicio y el local; la botella del súper te la bebes en otra parte. No uses un precio para decir que el otro es exageradamente caro.",
+            "Las catas en bodega pueden ser de pago, salir gratis si compras o necesitar reserva. Consulta antes de organizar una tarde recorriendo varias bodegas."
           ],
           "tips": []
         },
         {
           "heading": "Mantén el alcohol lejos del volante",
           "body": [
-            "Designa un conductor que no beba, haz una excursión organizada o deja la autocaravana aparcada. Un límite legal no es un objetivo, y el cansancio puede sumarse al deterioro.",
+            "Elige a alguien que no beba para conducir, apúntate a una excursión organizada o deja la camper aparcada. El límite legal no es una meta, y el cansancio puede sumarse a los efectos del alcohol.",
             "No lleves una bebida abierta donde lo prohíban las normas de circulación o las condiciones del alquiler. Guarda bien las botellas antes de ponerte en marcha."
           ],
           "tips": []
@@ -1071,16 +1088,16 @@
         {
           "heading": "Primero, el agua",
           "body": [
-            "Lleva agua potable en botellas rellenables para que los precios de las cafeterías remotas no se conviertan en tu forma de hidratarte. Confirma qué grifos son potables en los campings.",
-            "Presupuesta las bebidas como gasto prescindible. Saltarse una ronda a menudo protege una actividad que merece la pena o un camping mejor más adelante."
+            "Lleva agua potable en botellas rellenables para no depender de lo que cobre una cafetería perdida cada vez que tengas sed. En los campings, comprueba qué grifos dan agua apta para beber.",
+            "Trata las bebidas como un gasto prescindible. Saltarte una ronda muchas veces te deja dinero para una actividad que valga la pena o para un camping mejor más adelante."
           ],
           "tips": []
         },
         {
           "heading": "El café es una partida diaria, no ocasional",
           "body": [
-            "En Nueva Zelanda el café se toma en serio y el nivel en los pueblos pequeños es realmente alto, que es justo por lo que se convierte en una partida del presupuesto. Dos flat whites al día para dos personas suponen una cantidad semanal considerable, y se acumula sin parecer nunca una decisión.",
-            "Una cafetera italiana o una AeroPress en la furgoneta cubren el café de la mañana por una fracción del coste y dejan la parada en la cafetería como algo elegido y no automático. La mayoría de los viajeros que lo hacen acaban tomando mejor café, no peor."
+            "En Nueva Zelanda el café se toma en serio y el nivel es alto de verdad incluso en los pueblos pequeños, y precisamente por eso acaba siendo una partida del presupuesto. Dos flat whites (el café con leche típico de aquí) al día para dos personas suman una cantidad considerable a la semana, y se acumula sin que nunca lo sientas como una decisión.",
+            "Con una cafetera italiana o una AeroPress en la camper, el café de la mañana te cuesta una fracción, y la parada en la cafetería pasa a ser algo que eliges, no una costumbre automática. La mayoría de los viajeros que lo hacen acaban tomando mejor café, no peor."
           ],
           "tips": [
             "Dos cafés al día suman rápido",
@@ -1091,16 +1108,16 @@
         {
           "heading": "Comprar vino y cerveza con cabeza",
           "body": [
-            "Los supermercados venden cerveza y vino, pero no licores, que solo se venden en tiendas de bebidas con licencia. El vino es claramente lo que sale a cuenta: el vino local a precio de supermercado es muy bueno, y las regiones donde merece la pena comprarlo son las que vas recorriendo.",
+            "Los supermercados venden cerveza y vino, pero no licores, que solo se venden en bottle stores (tiendas de bebidas alcohólicas con licencia). Lo que de verdad sale a cuenta aquí es el vino: el vino local a precio de supermercado es muy bueno, y las regiones donde merece la pena comprarlo son las que vas recorriendo.",
             "Las catas en bodega suelen tener una tarifa que se descuenta si compras. Comprar una botella en la bodega rara vez sale más barato que en el súper, pero es la única forma de conseguir vinos de pequeña producción que nunca llegan a las estanterías."
           ],
           "tips": []
         },
         {
-          "heading": "La bebida y el día de conducción",
+          "heading": "Alcohol y días de carretera",
           "body": [
-            "El límite para adultos en Nueva Zelanda es de 250 microgramos por litro de aire espirado o 50 miligramos por cada 100 mililitros de sangre, y es cero para los conductores menores de veinte años. Se vigila activamente y los controles son frecuentes, también en carreteras rurales y a mediodía.",
-            "El único plan seguro en un viaje por carretera es separar por completo beber y conducir: quédate a dormir donde bebes, usa un conductor designado o bebe al final del día, cuando el vehículo ya esté aparcado para pasar la noche. Nunca trates una tabla de equivalencias como un permiso."
+            "En Nueva Zelanda, el límite para adultos es de 250 microgramos por litro de aire espirado o 50 miligramos por cada 100 mililitros de sangre, y para los conductores menores de 20 años es cero. La policía controla mucho y hay controles de alcoholemia a menudo, también en carreteras rurales y en pleno día.",
+            "Cuando vas de ruta, lo único seguro es separar del todo el alcohol y el volante: quédate a dormir donde bebas, deja que conduzca alguien que no beba o bebe al final del día, con el vehículo ya aparcado para pasar la noche. Nunca uses una tabla de equivalencias como si te dijera cuánto puedes beber."
           ],
           "tips": [
             "Tasa cero para menores de 20 años",
@@ -1109,18 +1126,18 @@
           ]
         },
         {
-          "heading": "El agua es lo que hay que hacer bien",
+          "heading": "El agua: aquí sí hay que acertar",
           "body": [
             "El agua del grifo es segura y excelente en casi toda Nueva Zelanda, y comprar agua embotellada es prácticamente tirar el dinero. Lleva botellas rellenables y llénalas en cualquier grifo potable de un pueblo, un camping o unas instalaciones públicas.",
-            "En plena naturaleza ocurre lo contrario: trata cualquier agua de un arroyo, un depósito o un suministro sin tratar, porque hay giardia. La norma es tan sencilla que se recuerda así: agua del pueblo, sí; agua salvaje, trátala."
+            "En plena naturaleza pasa lo contrario: potabiliza el agua de cualquier arroyo, depósito o suministro sin tratar, porque hay giardia. La regla se recuerda fácil: agua del pueblo, sí; agua de la naturaleza, potabilízala."
           ],
           "tips": []
         },
         {
           "heading": "Dónde comprar cada cosa",
           "body": [
-            "Aquí las licencias de alcohol separan ambas cosas: el vino y la cerveza están en las estanterías del súper, los licores no. Los horarios de venta de alcohol están regulados y varían según el distrito, y algunas zonas restringen la venta ciertos días, así que no des por hecho que podrás comprar tarde.",
-            "La cerveza artesana está muy asentada y la mayoría de las regiones tienen cerveceras locales que merece la pena probar en origen. Los taprooms suelen ofrecer tablas de degustación, una forma más barata de descubrir lo que te gusta que comprar botella a botella.",
+            "Las licencias de alcohol marcan la diferencia: el vino y la cerveza están en las estanterías del súper, los licores no. Los horarios de venta de alcohol están regulados y cambian según el distrito, y en algunas zonas se restringe la venta ciertos días, así que no des por hecho que podrás comprar a última hora.",
+            "La cerveza artesanal está muy asentada, y la mayoría de las regiones tienen cerveceras locales que vale la pena probar en el mismo sitio donde se hacen. En los taprooms (los bares de las propias cerveceras) suelen ofrecer degustaciones de varias cervezas en vasos pequeños, una forma más barata de descubrir lo que te gusta que comprar botella a botella.",
             "Comprar vino directamente en la bodega rara vez es más barato que en un supermercado, pero es la única forma de conseguir botellas de pequeña producción que nunca llegan a las estanterías. Si lo que manda es el precio, compra el vino de la región en el supermercado de esa misma región."
           ],
           "tips": []
@@ -1129,7 +1146,7 @@
       "faq": [
         [
           "¿Cuánto cuesta una cerveza en Nueva Zelanda?",
-          "La guía da precios fechados de una pinta en un pub, una cerveza artesana, un pack de seis en el súper, una copa y una botella de vino. Comprar en el supermercado en lugar de en un bar es el mayor ahorro en un viaje largo."
+          "La guía recoge precios con fecha de una pinta en un pub, una cerveza artesanal, un pack de seis en el súper y una copa y una botella de vino. Comprar en el supermercado en lugar de en un bar es lo que más ahorra en un viaje largo."
         ],
         [
           "¿Cuánto cuesta un café en Nueva Zelanda?",
@@ -1145,11 +1162,11 @@
         }
       ],
       "priceTable": {
-        "note": "Rangos nacionales aportados por la comunidad, actualizados en junio de 2026. El local, la ubicación, la marca y el tamaño de la consumición varían.",
+        "note": "Rangos de precios nacionales aportados por usuarios, actualizados en junio de 2026. Varían según el local, la zona, la marca y el tamaño de la copa o el vaso.",
         "rows": [
           {
             "label": "Capuchino",
-            "unit": "cafetería"
+            "unit": "en una cafetería"
           },
           {
             "label": "Cerveza nacional de barril",
@@ -2919,32 +2936,32 @@
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Límites de velocidad y ritmo seguro en las carreteras de Nueva Zelanda",
-      "description": "La cifra señalizada es un techo en buenas condiciones, y muchas carreteras rurales exigen bastante menos.",
+      "title": "Límites de velocidad en Nueva Zelanda y a qué ritmo conducir",
+      "description": "Límites de velocidad en Nueva Zelanda: la señal marca el máximo con buenas condiciones, y muchas carreteras rurales piden ir bastante más despacio.",
       "region": "Carreteras de Nueva Zelanda",
-      "imageAlt": "Señal de límite de velocidad de Nueva Zelanda en una carretera rural",
-      "intro": "Un límite legal no es una promesa de que la carretera pueda recorrerse a esa velocidad. Las curvas, la lluvia, la grava, el ganado, los ciclistas y una autocaravana que no conoces reducen el ritmo seguro.",
+      "imageAlt": "Señal de límite de velocidad en una carretera rural de Nueva Zelanda",
+      "intro": "Un límite legal no garantiza que esa carretera se pueda recorrer a esa velocidad. Las curvas, la lluvia, la grava, el ganado, los ciclistas y una camper a la que todavía no estás acostumbrado reducen el ritmo al que es seguro ir.",
       "sections": [
         {
           "heading": "Fíjate en cada cambio",
           "body": [
-            "Los límites de velocidad varían según la carretera y el lugar, con límites provisionales en obras y zonas más lentas cerca de muchas localidades o colegios. Fíjate en las señales en lugar de fiarte de un límite general que recuerdas.",
-            "Una velocidad amarilla recomendada antes de una curva no es el límite legal, pero transmite una geometría de la carretera que merece atención."
+            "Los límites de velocidad cambian según la carretera y el lugar: hay límites provisionales en las obras y zonas más lentas cerca de muchas poblaciones y colegios. Guíate por las señales, no por el límite general que tengas en la cabeza.",
+            "La velocidad recomendada en amarillo antes de una curva no es el límite legal, pero te avisa de cómo es el trazado, y conviene tomársela en serio."
           ],
           "tips": []
         },
         {
           "heading": "Reduce antes del peligro",
           "body": [
-            "Frena en la recta antes de entrar en la curva y deja margen suficiente para detenerte dentro de la carretera visible. La grava y las hojas mojadas reducen el agarre mucho antes de que aparezca una señal.",
-            "De noche o con niebla, reduce hasta que los faros iluminen suficiente distancia de frenado. Las largas no arreglan una carretera con curvas."
+            "Frena en la recta, antes de entrar en la curva, y deja margen para poder parar dentro del tramo que ves. La grava y las hojas mojadas te quitan agarre mucho antes de que aparezca una señal de aviso.",
+            "De noche o con niebla, baja la velocidad hasta que los faros te dejen ver la distancia que necesitas para frenar. Ni las luces más potentes enderezan una carretera de curvas."
           ],
           "tips": []
         },
         {
-          "heading": "No metas presión",
+          "heading": "No generes tensión en la carretera",
           "body": [
-            "Deja pasar al tráfico más rápido en zonas seguras habilitadas. Nunca aceleres en un carril de adelantamiento solo para volver a retener la cola en la siguiente curva.",
+            "Deja pasar a los más rápidos en zonas habilitadas donde puedas apartarte con seguridad. Nunca aceleres en un carril de adelantamiento para luego volver a llevar la cola detrás en la curva siguiente.",
             "Si la hora de llegada prevista depende de ir siempre al máximo señalizado, el itinerario ya está demasiado apretado."
           ],
           "tips": []
@@ -2952,31 +2969,31 @@
         {
           "heading": "El límite señalizado es un máximo, no un objetivo",
           "body": [
-            "El límite en carretera abierta suele ser de 100 km/h y en zona urbana normalmente de 50 km/h, con límites variables y reducidos cerca de colegios, obras y algunas carreteras rurales. El límite presupone condiciones ideales, un coche y un conductor que conoce la carretera.",
-            "Casi ninguna carretera rural neozelandesa resulta cómoda a 100 km/h en una autocaravana cargada, con lluvia o en un tramo de curvas desconocido. Conducir a una velocidad adecuada a las condiciones es legal y es lo que se espera, y conducir demasiado despacio en una recta no es lo mismo que conducir con seguridad."
+            "Fuera de las zonas urbanas el límite general es de 100 km/h, y dentro suele ser de 50 km/h, con límites variables o más bajos cerca de colegios, en obras y en algunas carreteras rurales. Ese límite presupone condiciones ideales, un coche y un conductor que conoce la carretera.",
+            "Casi ninguna carretera rural de Nueva Zelanda se hace cómoda a 100 km/h con una camper cargada, con lluvia o en un tramo de curvas que no conoces. Ir a la velocidad que piden las condiciones es legal y es lo que se espera de ti, pero ir demasiado despacio en una recta no es lo mismo que conducir con seguridad."
           ],
           "tips": [
-            "100 km/h en carretera abierta, 50 en ciudad",
+            "100 km/h en carretera, 50 en ciudad",
             "Los límites presuponen condiciones ideales",
-            "Remolcando, el tope es 90 km/h"
+            "Con remolque, máximo 90 km/h"
           ]
         },
         {
           "heading": "Se vigila más de lo que muchos visitantes esperan",
           "body": [
-            "El margen de tolerancia es pequeño, los radares están muy extendidos, también los móviles, y las multas se envían al titular registrado del vehículo, así que la empresa de alquiler te las repercutirá con un cargo de gestión. Los puntos no afectan a los permisos extranjeros, pero las multas sí, y de sobra.",
-            "En los últimos años se han ampliado tanto los controles de velocidad media como los límites rurales más bajos. Da por hecho que cualquier carretera puede estar vigilada en lugar de ir buscando radares."
+            "El margen de tolerancia es pequeño, hay muchos radares, también móviles, y las multas van al titular registrado del vehículo, así que la empresa de alquiler te las pasará con un cargo de gestión. Los puntos no afectan a los permisos de conducir extranjeros, pero las multas sí, sin ninguna duda.",
+            "En los últimos años se han extendido tanto los controles de velocidad media por tramo como los límites más bajos en carreteras rurales. En vez de ir buscando radares, da por hecho que cualquier carretera puede estar vigilada."
           ],
           "tips": []
         },
         {
           "heading": "Por qué las propias carreteras piden menos velocidad",
           "body": [
-            "Las carreteras de Nueva Zelanda son en su mayoría de dos carriles, sin separación, con curvas cerradas, peralte irregular, puentes de un solo carril, ganado sin vallar y frecuentes caminos laterales sin asfaltar que echan grava sobre el firme. Apenas hay arcén que perdone un error.",
-            "Esa combinación explica por qué los accidentes con conductores visitantes se concentran en carreteras rurales. El ritmo seguro suele estar muy por debajo del límite, y el tiempo que se pierde en un día son unos minutos, no la hora que la gente se imagina."
+            "Las carreteras de Nueva Zelanda son casi todas de dos carriles, sin separación entre sentidos, con curvas cerradas, peralte irregular, puentes de un solo carril, ganado sin vallar y muchos caminos laterales de tierra que echan grava sobre el asfalto. Apenas hay espacio a los lados para corregir un error.",
+            "Por esa combinación, los accidentes en los que hay turistas al volante se concentran en las carreteras rurales. La velocidad segura suele estar muy por debajo del límite, y en todo el día pierdes unos minutos, no la hora que la gente se imagina."
           ],
           "tips": [
-            "Dos carriles, sin separación y casi sin arcén",
+            "Dos carriles, sin separación, poco margen",
             "La grava acaba sobre las carreteras asfaltadas",
             "Ir más despacio cuesta minutos, no horas"
           ]
@@ -2985,15 +3002,15 @@
           "heading": "La velocidad y el carril de adelantamiento",
           "body": [
             "No aceleres cuando aparece un carril de adelantamiento y alguien te está adelantando. Es la fuente de conflicto más habitual en las carreteras de Nueva Zelanda y convierte un adelantamiento seguro en uno peligroso.",
-            "Del mismo modo, si alguien te sigue muy de cerca, no te sientas obligado a superar la velocidad a la que vas cómodo. Usa el siguiente apartadero para vehículos lentos o una zona segura para apartarte y déjale pasar; la presión desaparece y el riesgo también."
+            "Del mismo modo, si alguien te sigue muy de cerca, no te sientas obligado a ir más rápido de lo que te resulta cómodo. Métete en el siguiente apartadero para vehículos lentos o en una zona segura y deja que pase: se acaba la presión y, con ella, el riesgo."
           ],
           "tips": []
         },
         {
           "heading": "Límites variables y reducidos",
           "body": [
-            "Los límites junto a los colegios bajan en horarios determinados y se señalizan con paneles intermitentes o variables. Las obras tienen límites provisionales que se aplican se vea o no a alguien trabajando, y se vigilan con la misma tolerancia pequeña que los permanentes.",
-            "En varias carreteras rurales se ha rebajado el límite desde 100 km/h tras revisiones de seguridad, y el cambio no siempre es evidente si te guías por un mapa antiguo o por una visita anterior. Lee las señales en lugar de suponer que rige el límite de carretera abierta.",
+            "Los límites junto a los colegios bajan en horarios determinados y se señalizan con paneles intermitentes o variables. Las obras tienen límites provisionales que se aplican se vea o no a alguien trabajando, y la tolerancia es igual de pequeña que con los límites permanentes.",
+            "En varias carreteras rurales el límite ha bajado de 100 km/h tras revisiones de seguridad, y si te guías por un mapa antiguo o por lo que recuerdas de otro viaje, puede que no notes el cambio. Lee las señales en vez de dar por hecho que vale el límite general de carretera.",
             "En las pistas sin asfaltar, el límite señalizado sigue siendo a menudo de 100 km/h, algo que no se parece en nada a una velocidad segura sobre grava. Aquí el límite es de verdad un máximo legal y no una indicación de lo que aguanta el firme."
           ],
           "tips": []
@@ -3005,15 +3022,15 @@
             "Los puntos de penalización no se aplican a un permiso extranjero, pero las multas sí, y las infracciones sin pagar pueden perseguirte. Págalas en lugar de suponer que desaparecen cuando te vas."
           ],
           "tips": [
-            "Tolerancia pequeña",
-            "Los alquileres añaden un cargo de gestión",
+            "Poco margen de tolerancia",
+            "El alquiler suma un cargo de gestión",
             "Las multas sin pagar te persiguen"
           ]
         }
       ],
       "faq": [
         [
-          "¿Cuál es el límite de velocidad en carretera abierta en Nueva Zelanda?",
+          "¿Cuál es el límite de velocidad en carretera en Nueva Zelanda?",
           "100 km/h salvo que se indique otra cosa, 50 km/h en zona urbana y 90 km/h si remolcas. Algunas carreteras están señalizadas a 110 km/h y muchas carreteras rurales, por debajo."
         ],
         [
@@ -3023,7 +3040,7 @@
       ],
       "sources": [
         {
-          "label": "Límites de velocidad de NZTA"
+          "label": "Límites de velocidad de la NZTA"
         }
       ],
       "priceTable": null
@@ -4477,48 +4494,48 @@
     },
     "eating-out-new-zealand-prices-2026": {
       "title": "Comer fuera en Nueva Zelanda: precios de comidas y café en 2026",
-      "description": "Los rangos de cafeterías, comida para llevar y restaurantes muestran por qué una sola comida pagada puede cambiar un presupuesto diario.",
+      "description": "Precios de cafeterías, comida para llevar y restaurantes en Nueva Zelanda, y por qué una sola comida fuera puede cambiarte el presupuesto del día.",
       "region": "Pueblos y ciudades de Nueva Zelanda",
       "imageAlt": "Comida y café en una cafetería de Nueva Zelanda",
-      "intro": "Comer fuera va desde un almuerzo de panadería hasta una cena de tres platos en la ciudad. Las cifras nacionales dan una escala útil, aunque locales concretos y pueblos turísticos pueden quedar fuera de ellas.",
+      "intro": "Comer fuera va desde un almuerzo en una panadería hasta una cena de tres platos en la ciudad. Las cifras nacionales sirven para hacerte una idea, pero un local concreto o un pueblo turístico pueden salirse de ellas.",
       "sections": [
         {
-          "heading": "Elige qué comida importa",
+          "heading": "Elige en qué comida gastar",
           "body": [
-            "Compra lo del desayuno y los almuerzos para la carretera, y gasta a conciencia en una cena local. Así la comida rápida no se convierte en un gasto no previsto tres veces al día.",
-            "Las panaderías, las zonas de restauración y los mostradores de comida para llevar pueden ser una opción intermedia, pero compara la ración y lo que alimenta, no solo el precio."
+            "Compra lo del desayuno y los almuerzos para la ruta, y guarda el gasto para una cena bien elegida en un restaurante de la zona. Así no acabas pagando, sin haberlo previsto, tres comidas al día solo por comodidad.",
+            "Las panaderías, las zonas de comida de los centros comerciales y los locales de comida para llevar pueden ser un término medio, pero compara la ración y lo que te alimenta, no solo el precio."
           ],
           "tips": []
         },
         {
-          "heading": "El lugar cambia la cuenta",
+          "heading": "Dónde comes cambia la cuenta",
           "body": [
-            "Los paseos marítimos, los pueblos de esquí y las atracciones aisladas pueden cobrar más que los barrios residenciales. Aun así, el sobreprecio puede merecer la pena si te ahorra el aparcamiento u otro trayecto.",
-            "Mira la carta antes de sentarte cuando el presupuesto vaya justo. Pueden aplicarse recargos por festivos, que deben indicarse."
+            "Junto al agua, en los pueblos de esquí y en los lugares turísticos apartados, los restaurantes pueden cobrar más que en las zonas comerciales de barrio. Aun así, pagar ese extra puede compensar si te ahorra aparcar o hacer otro trayecto.",
+            "Si vas justo de presupuesto, mira la carta antes de sentarte. En los días festivos puede haber recargo, y el local tiene que indicarlo."
           ],
           "tips": []
         },
         {
-          "heading": "Apunta la salida completa",
+          "heading": "Apunta todo lo que cuesta salir a comer",
           "body": [
-            "Suma a la comida las bebidas, el transporte, el aparcamiento y cualquier recargo por tarjeta. Un restaurante en teoría barato al otro lado de la ciudad puede salir más caro que ir andando a uno algo más caro.",
-            "Lleva el gasto en restaurantes separado de la compra para que se vea de dónde sale un desvío del presupuesto."
+            "Al precio de la comida súmale las bebidas, el transporte, el aparcamiento y el recargo por tarjeta, si lo hay. Un restaurante en teoría barato en la otra punta de la ciudad puede salirte más caro que ir a pie a otro con precios algo más altos.",
+            "Separa lo que gastas en restaurantes de la compra del súper: así, si te pasas del presupuesto, verás enseguida de dónde viene."
           ],
           "tips": []
         },
         {
-          "heading": "Dónde está de verdad el precio",
+          "heading": "Cuánto cuesta de verdad cada opción",
           "body": [
-            "Una empanada de panadería y un café son un almuerzo realmente barato y se encuentran en casi cualquier pueblo. Un brunch en una cafetería es el gasto intermedio más habitual y se acumula más rápido de lo que la gente espera. Una cena en restaurante con bebidas suele ser la partida más grande del día, por delante del alojamiento.",
-            "El fish and chips sigue siendo la comida caliente con mejor relación calidad-precio en la mayoría de los pueblos costeros, y la calidad suele ser mejor en los más pequeños. Pedir en el mostrador y comer fuera cuesta una fracción de lo que costaría una comida parecida servida en mesa."
+            "Un pie de panadería (un pastel salado relleno, normalmente de carne) con un café es un almuerzo barato de verdad, y lo encuentras en casi cualquier pueblo. El brunch en una cafetería es el gasto intermedio más habitual y suma más deprisa de lo que la gente espera. Una cena en un restaurante con bebidas suele ser la partida más grande del día, por delante del alojamiento.",
+            "En la mayoría de los pueblos de costa, el fish and chips sigue siendo la comida caliente con mejor relación calidad-precio, y en los pueblos más pequeños suele estar más bueno. Pedirlo en el mostrador y comértelo al aire libre cuesta una fracción de lo que pagarías por algo parecido con servicio de mesa."
           ],
           "tips": []
         },
         {
           "heading": "Recargos y comisiones de pago",
           "body": [
-            "Los recargos por festivo son legales y habituales, normalmente de alrededor del quince por ciento, y deben indicarse. También hay recargos por tarjeta en muchos locales, sobre todo con tarjetas de crédito y pagos sin contacto, y se aplican en caja en lugar de aparecer en la carta.",
-            "En Nueva Zelanda no se espera propina y nadie pensará peor de ti por no dejarla. Algunos locales muestran ahora una opción de propina en el datáfono, una costumbre importada hace poco y no una norma local."
+            "Los recargos por día festivo son legales y habituales, suelen rondar el 15 %, y el local tiene que avisarlos. Muchos sitios cobran además un recargo por pagar con tarjeta, sobre todo con tarjeta de crédito o sin contacto, y lo aplican en caja, sin que aparezca en la carta.",
+            "En Nueva Zelanda no se espera propina, y nadie va a pensar mal de ti por no dejarla. Algunos locales han empezado a sugerirla en la pantalla del lector de tarjetas, una costumbre llegada de fuera hace poco, no algo propio del país."
           ],
           "tips": [
             "Los recargos por festivo son normales",
@@ -4529,29 +4546,29 @@
         {
           "heading": "Comer bien en un pueblo turístico",
           "body": [
-            "Queenstown, Wānaka, Taupō y Paihia tienen sobreprecio turístico, y los restaurantes en primera línea de agua suelen ser los más caros y rara vez los mejores. Alejarse dos calles suele llevarte a mejor comida por menos dinero.",
+            "Queenstown, Wānaka, Taupō y Paihia tienen precios de destino turístico, y los restaurantes que dan directamente al agua suelen ser los más caros y pocas veces los mejores. Si te alejas dos calles, normalmente comes mejor y pagas menos.",
             "Los menús de mediodía de los buenos restaurantes suelen ofrecer casi toda la experiencia de la cena por bastante menos. Si quieres una comida memorable en un pueblo caro, resérvala a mediodía."
           ],
           "tips": []
         },
         {
-          "heading": "Decidir cuándo merece la pena comer fuera",
+          "heading": "Cuándo sí merece la pena comer fuera",
           "body": [
-            "Gasta a conciencia en comidas ligadas al lugar: langosta en Kaikōura, whitebait en la West Coast en temporada, ostras de Bluff en el sur, un almuerzo en una bodega de Hawke's Bay. Son cosas que no puedes cocinar en una furgoneta y que vas a recordar.",
-            "Tira de compra sencilla los días de traslado, cuando llegas tarde, te vas pronto y la comida es combustible más que experiencia. Esa pauta te permite las buenas comidas sin que todos los días salgan caros."
+            "Gasta con intención en lo que es propio de cada lugar: langosta en Kaikōura, whitebait (alevines de pescado) en la West Coast cuando es temporada, ostras de Bluff en el sur o un almuerzo en una bodega de Hawke's Bay. Son cosas que no puedes preparar en la camper y que vas a recordar.",
+            "Los días de traslado, cuando llegas tarde, sales temprano y comer es solo para tener energía, arréglate con una compra sencilla del súper. Así te puedes permitir las buenas comidas sin que todos los días te salgan caros."
           ],
           "tips": [
-            "Gasta en comida ligada a la región",
+            "Gasta en lo típico de cada región",
             "Compra sencilla los días de traslado",
-            "Los menús de mediodía ganan a los precios de la cena"
+            "Mejor el menú de mediodía que la cena"
           ]
         },
         {
-          "heading": "Panaderías, y la cuestión de la empanada de carne picada y queso",
+          "heading": "Panaderías y el debate del pie de carne picada con queso",
           "body": [
-            "La empanada de panadería es la comida caliente más barata del país y forma parte de verdad de su cultura, con un concurso nacional anual que se toma más en serio de lo que un forastero esperaría. Las panaderías de los pueblos pequeños suelen superar a las de ciudad.",
-            "El fish and chips pedido en el mostrador y comido fuera es la otra comida barata y fiable, y la calidad suele ser mayor en los pueblos costeros que en las ciudades. Pregunta cuál es el pescado del día en lugar de pedir sin más.",
-            "Las cafeterías suelen dejar de servir comida antes de lo que esperan los visitantes, a menudo a media tarde, y en los pueblos pequeños puede no haber nada abierto después de las 20:00. Llevar algo que puedas cocinar es lo que evita que una llegada tardía acabe en una cena cara o sin cena."
+            "El pie de panadería es la comida caliente más barata del país y parte de verdad de su cultura: hay un concurso nacional cada año que se toma más en serio de lo que imaginaría alguien de fuera. Las panaderías de pueblo ganan a menudo a las de ciudad.",
+            "La otra comida barata que no falla es el fish and chips pedido en el mostrador y comido al aire libre, y suele estar mejor en los pueblos de costa que en las ciudades. Pregunta cuál es el pescado del día en vez de pedir sin más.",
+            "Las cafeterías suelen dejar de servir comida antes de lo que esperan los visitantes, muchas veces a media tarde, y en los pueblos pequeños puede que no haya nada abierto después de las 8 de la noche. Llevar algo que puedas cocinar es lo que evita que llegar tarde acabe en una cena cara o en quedarte sin cenar."
           ],
           "tips": []
         }
@@ -4559,7 +4576,7 @@
       "faq": [
         [
           "¿Cuánto cuesta comer fuera en Nueva Zelanda?",
-          "La guía da precios fechados de un brunch en una cafetería, una comida en un pub, una cena de gama media y comida para llevar, en dólares neozelandeses y con diez conversiones. El salto entre una cafetería y un restaurante es mayor aquí que en la mayoría de los países."
+          "La guía recoge precios con fecha de un brunch en una cafetería, una comida en un pub, una cena de gama media y comida para llevar, en dólares neozelandeses y convertidos a diez monedas. Aquí la diferencia entre una cafetería y un restaurante es mayor que en la mayoría de los países."
         ],
         [
           "¿Se deja propina en Nueva Zelanda?",
@@ -4575,11 +4592,11 @@
         }
       ],
       "priceTable": {
-        "note": "Rangos de Nueva Zelanda aportados por la comunidad, actualizados en junio de 2026. Las propinas no suelen ser obligatorias, pero pueden aplicarse recargos por tarjeta y precios de festivo.",
+        "note": "Rangos de precios en Nueva Zelanda aportados por usuarios, actualizados en junio de 2026. La propina no suele ser obligatoria, pero puede haber recargo por tarjeta y precios especiales en festivos.",
         "rows": [
           {
             "label": "Comida en un restaurante económico",
-            "unit": "una persona"
+            "unit": "por persona"
           },
           {
             "label": "Menú de comida rápida",
@@ -4591,7 +4608,7 @@
           },
           {
             "label": "Capuchino",
-            "unit": "una taza"
+            "unit": "por taza"
           },
           {
             "label": "Refresco",
