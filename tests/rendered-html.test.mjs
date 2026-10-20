@@ -9,6 +9,7 @@ import { isArticleTranslated, isStaticPageTranslated, isTranslated, publishedLoc
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 import { allArticles, articles, isScheduled } from "../lib/site.ts";
 import { redirects } from "../lib/redirects.ts";
+import { screenFigures } from "../lib/screen-figures.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
 const locales=liveLocales;
@@ -392,5 +393,55 @@ test("translation stamps find strings whose English changed",async()=>{
     assert.deepEqual(stamps.staleSummary("de").stale,[]);
   }finally{
     stamps.useTranslationsDirectory(new URL("../lib/translations",import.meta.url).pathname);
+  }
+});
+
+/** Text as React writes it into an attribute value. */
+const attribute=(text)=>text.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+/** Every screenshot figure in a page, as { tag, alt } for each <img> inside a figure.guide-figure. */
+const guideFigures=(html)=>[...html.matchAll(/<figure class="guide-figure">(<img [^>]*>)<\/figure>/g)].map((match)=>({tag:match[1],alt:match[1].match(/ alt="([^"]*)"/)?.[1]}));
+function assertFigureImage(tag,src,route){
+  const variant=src.replace(/\.webp$/,"-800.webp");
+  assert.match(tag,new RegExp(` src="${src}"`),`${route}: figure src`);
+  assert.match(tag,/ width="1600"/,`${route}: figure width`);
+  assert.match(tag,/ height="900"/,`${route}: figure height`);
+  assert.ok(tag.includes(` srcSet="${variant} 800w, ${src} 1600w"`)||tag.includes(` srcset="${variant} 800w, ${src} 1600w"`),`${route}: figure srcset must include ${variant}`);
+  assert.match(tag,/ sizes="[^"]+"/,`${route}: figure sizes`);
+  assert.match(tag,/ loading="lazy"/,`${route}: figure loads lazily`);
+  assert.match(tag,/ decoding="async"/,`${route}: figure decodes async`);
+}
+
+test("each screenshot figure sits in the section about KiwiCamping",()=>{
+  for(const figure of screenFigures){
+    const article=allArticles.find((item)=>item.slug===figure.slug);
+    assert.match(article.sections[figure.section].heading,/KiwiCamping/,`${figure.slug}: section ${figure.section} must be the KiwiCamping entry`);
+    assert.deepEqual(article.sections.flatMap((part,index)=>part.figure?[index]:[]),[figure.section],`${figure.slug}: exactly one figure`);
+  }
+});
+
+test("published figure guides export the screenshot in English and in every locale",async()=>{
+  const pages=new Map((await pagesPromise).map((page)=>[page.path,page.html]));
+  const published=screenFigures.filter((figure)=>articles.some((item)=>item.slug===figure.slug));
+  assert.ok(published.some((figure)=>figure.slug==="best-nz-camping-apps"),"best-nz-camping-apps is live and carries a figure");
+  for(const figure of published){
+    const article=articles.find((item)=>item.slug===figure.slug);
+    const route=article.legacyPath??`/guides/${figure.slug}/`;
+    const english=guideFigures(pages.get(route)??"");
+    assert.equal(english.length,1,`${route} must carry one screenshot figure`);
+    assertFigureImage(english[0].tag,figure.src,route);
+    assert.equal(english[0].alt,attribute(figure.alt),`${route}: English alt`);
+    for(const locale of locales){
+      const localeRoute=`/${locale}/guides/${figure.slug}/`;
+      const found=guideFigures(pages.get(localeRoute)??"");
+      assert.equal(found.length,1,`${localeRoute} must carry one screenshot figure`);
+      assertFigureImage(found[0].tag,figure.src,localeRoute);
+      if(isArticleTranslated(locale,figure.slug)){
+        // A translated page carries no English alt: the figure is described by the translated heading.
+        const translation=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+        assert.equal(found[0].alt,attribute(translation.articles[figure.slug].sections[figure.section].heading),`${localeRoute}: alt is the translated heading`);
+      }else{
+        assert.equal(found[0].alt,attribute(figure.alt),`${localeRoute} is the English fallback and keeps the English alt`);
+      }
+    }
   }
 });
