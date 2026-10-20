@@ -23,13 +23,14 @@ Batches (about five guides each):
 - [x] Batch 9 applied (3 guides): winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip.
 - [x] Batch 10 applied (2 road trips): wellington-wairarapa-camping-loop, north-island-two-week-road-trip.
 - [x] Batch 11 applied (4 road trips): west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip.
+- [x] Batch 12 applied (4 road trips): nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, rakiura-stewart-island-camping-guide.
 
 ## Next
-No subagents (overnight rule until 09:00). Next: the 4 remaining road trips: nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, rakiura-stewart-island-camping-guide. Then final gate check and the full npm run check.
-Audit rules: no genitive -s on KiwiCamping or other brands (MetService, Apple); English number-words stay words; keep English macron spelling exactly.
+Nothing left in this lane. All 62 assigned guides are in Swedish. Remaining untranslated on sv: the 7 listicles owned by another lane (rankers-alternatives, campermate-alternatives, free-camping-apps-new-zealand, road-trip-planner-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand). Gate script: 78 of 85 guides complete on sv, 0 incomplete.
+Audit rules learned (for later lanes): no genitive -s on KiwiCamping or other brands (MetService, Apple); English number-words stay words; keep English macron spelling exactly.
 
 ## Blockers
-none
+none. Lane complete.
 
 ## Working method (to resume)
 Scratch in `/tmp/sv-k2/` (not in repo): `k/full.json` = `translation-engine packet --config docs/translation.config.json --locale sv --catalog kiwicamping-website-sv --no-usage` (applied units drop out), `k/src/<slug>.json` per guide, `k/out/<slug>.json` values, `scripts/` (lint.py, neg.py, neg2.py, gloss.py, links.py, mkinput.py, gate.mts), `BRIEF.md` subagent brief, `k/ref-approved.txt` approved examples. If /tmp is lost, regenerate the packet and split by slug (units grouped by `articles.<slug>`).
