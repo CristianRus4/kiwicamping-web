@@ -223,7 +223,7 @@ const decodeHtml=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace
 
 test("draft locales are neither routed nor advertised",async()=>{
   const drafts=localeCodes.filter((code)=>localeEntry(code).status==="draft");
-  assert.ok(drafts.length>=9,"ja, ko, zh-hans, zh-hant, da, sv, nb, cs and pl start as drafts");
+  assert.ok(drafts.length>=8,"ja, ko, zh-hans, zh-hant, da, nb, cs and pl are still drafts");
   for(const code of drafts){
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status,200,`${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`${localeEntry(code).segment}/`,dist)),`${code} must not be exported`);
