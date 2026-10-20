@@ -19,8 +19,10 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 
 - Batch 6 (5316954, drafted and reviewed by me alone): picton-kaikoura-christchurch-route, wanaka-haast-pass-route, alcohol-fatigue-driving-new-zealand, doc-hut-rules-etiquette, river-crossing-safety-new-zealand. da 52/85 guides.
 
+- Batch 7 (drafted and reviewed by me alone): nelson-abel-tasman-golden-bay, left-side-driving-new-zealand, banks-peninsula-camping-weekend, two-week-camper-itinerary-new-zealand, new-zealand-driving-day-planner. da 57/85 guides.
+
 ## Next
-- b7 nelson-abel-tasman-golden-bay left-side-driving-new-zealand banks-peninsula-camping-weekend two-week-camper-itinerary-new-zealand new-zealand-driving-day-planner; then b8..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
+- b8 wildlife-livestock-road-safety-new-zealand bay-of-islands-camping-week rakiura-stewart-island-camping-guide new-zealand-three-week-campervan-route christchurch-tekapo-aoraki-road-trip; then b9..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
 - Working method without helpers (numbered): `python3 /tmp/da-k2/numview.py NAME` to read, write `N|||Danish` lines, `fromnum.py NAME lines out.json`, `edit.py` for fixes; then the steps below.
 - Earlier method: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
 
