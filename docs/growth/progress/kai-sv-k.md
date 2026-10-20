@@ -12,10 +12,10 @@ Batches (about five guides each):
 4+. the rest in impressions order, then zero-impression rules and safety, app guides, camping guides, trip planning, road trips.
 
 ## Done
-(nothing applied yet)
+- [x] Batch 1 applied (6 guides): self-contained-campervan-green-warrant, freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide, holiday-parks-new-zealand-guide, east-cape-road-trip. Negation re-read done against the English, content:check passes.
 
 ## Next
-Batch 1 drafting.
+Batch 2 (reviewing: scenic-campsites, eating-out, road-signs, flights, wof, accommodation), batch 3 drafting.
 
 ## Blockers
 none
