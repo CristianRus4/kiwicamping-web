@@ -7297,6 +7297,520 @@
         }
       ],
       "priceTable": null
+    },
+    "new-zealand-driving-day-planner": {
+      "title": "Kjøretider og avstander på New Zealand: hvor langt du bør kjøre per dag",
+      "description": "Hvorfor kilometerne på New Zealand tar lengre tid enn kartet sier: fjellveier, enfeltsbruer og stopp, og hvor langt du bør planlegge en dag i bobil.",
+      "region": "Veier på New Zealand",
+      "imageAlt": "Svingete vei over åser på New Zealand",
+      "intro": "Veiene på New Zealand straffer reiseruter som er bygget på avstand. To hundre og femti kilometer er en enkel formiddag på en rett vei og en hel, slitsom dag gjennom kystsvinger og enfeltsbruer. Planlegg ut fra veiens karakter og dagslyset du har, og bruk kilometer bare som en første fornuftssjekk.",
+      "sections": [
+        {
+          "heading": "Kjøretid er ikke det samme som dagens lengde",
+          "body": [
+            "Se på ruteberegningen som et minimum, og legg til alt annet dagen inneholder: drivstoff, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matvarer</a>, kaffe, veiarbeid, utsiktspunkter, en kort tur, bilder og tiden det tar å finne og sette opp kveldens plass. Å pakke sammen leiren om morgenen er en halvtime til som ingen setter av tid til.",
+            "En realistisk multiplikator er omtrent halvannen gang navigasjonens estimat for en turdag med stopp. Hvis det gir noe ubehagelig, er svaret en kortere etappe, ikke en raskere."
+          ],
+          "tips": [
+            "Legg 50 prosent til ruteberegningen",
+            "Å pakke sammen leiren tar reell tid",
+            "Å finne en plass tar lengre tid enn du tror"
+          ]
+        },
+        {
+          "heading": "Tre til fire timer er en behagelig dag",
+          "body": [
+            "De fleste som reiser på New Zealand i mer enn en uke, lander på tre til fire timers kjøring som det punktet der turen fortsatt er hyggelig. Utover det hoppes stoppene over, turene droppes, og dagen handler om å komme frem i stedet for å reise.",
+            "Enkelte lengre dager går fint, særlig på de rettere strekningene i Canterbury eller på det sentrale Nordøya. Etterfølgende lange dager er det som gir <a data-guide=\"alcohol-fatigue-driving-new-zealand\">trøtthet</a>, og trøtthet er den underliggende årsaken til en stor del av ulykkene med besøkende her."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Noen veier tar mye lengre tid enn de ser ut",
+          "body": [
+            "Kysten av Coromandel, Tākaka Hill, Queen Charlotte Drive, Catlins, Milford Road og store deler av West Coast er alle langsommere enn avstandene tilsier, selv om de er helt asfaltert. Krappe svinger, veiens tverrfall, enfeltsbruer og utsikt som får alle til å ville stoppe gjør til sammen at et estimat på to timer blir godt over tre.",
+            "Legg til en ukjent bobil, så strekkes det igjen. Bredde, høyde, bremselengde og svinger må øves på, og de to første dagene i et stort kjøretøy går merkbart langsommere enn resten av turen."
+          ],
+          "tips": [
+            "Kystveier tar godt over estimatet",
+            "Bobiler går saktere de to første dagene",
+            "Enfeltsbruer bryter rytmen"
+          ]
+        },
+        {
+          "heading": "Enfeltsbruer og grusvei",
+          "body": [
+            "<a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">Enfeltsbruer</a> er vanlige, særlig på West Coast og i Northland, og forkjørsretten er skiltet og ikke noe du kan anta: den største pila er din retning med forkjørsrett. Noen deles med jernbane. Sakt ned, se gjennom, og vær forberedt på å vente i stedet for å kappkjøre om å få bruen.",
+            "Ikke ta en snarvei uten asfalt bare fordi den er kortere. Leieavtaler forbyr ofte bestemte grusveier, forsikringen dekker kanskje ikke skader på dem, og en vei som er grei i en tørr februar, er noe helt annet etter regn."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Planlegg etter dagslyset, ikke klokka",
+          "body": [
+            "Midtvinters er det brukbare lyset i sør omtrent ni timer, og selv om sommeren mister en dal sola lenge før den offisielle solnedgangen. Planlegg bakover fra tidspunktet du vil stå parkert, ikke fremover fra når du håper å komme av gårde.",
+            "Sett et snutidspunkt for enhver tur og hold deg til det. Det meste av trøbbelet folk havner i på stiene på New Zealand, kommer av at de fortsetter forbi punktet der returen går innenfor lyset som er igjen."
+          ],
+          "tips": [
+            "Planlegg bakover fra ankomsttidspunktet",
+            "Dalene mister lyset tidlig",
+            "Sett et snutidspunkt for turer"
+          ]
+        },
+        {
+          "heading": "Daggry og skumring er de vanskelige timene",
+          "body": [
+            "Lav sol på en våt vei fjerner sikten nesten helt, og den kommer akkurat når du mest sannsynlig kjører hvis dagen har skredet ut av planen. Possumer, harer og buskap er også mest aktive rundt daggry og skumring, og å svinge unna for et dyr gir flere alvorlige ulykker enn å treffe det.",
+            "Prøv å være av veien, eller i det minste på en enkel strekning, i de timene. Å komme frem i dagslys betyr også at du kan se på plassen, sjekke adkomsten og stille bilen i vater uten hodelykt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hent inn en dag som sklir ut ved å kutte, ikke ved å kjøre fortere",
+          "body": [
+            "Når en dag blir forsinket, fjern en aktivitet eller flytt til reserveplassen du har lagret. Å kjøre fortere for å ta igjen en reiserute er den aller dårligste responsen du har, og det er slik trøtte sjåfører på ukjente veier havner i trøbbel.",
+            "Legg opp planen slik at det alltid er mulig å droppe én ting. En reiserute der hvert ledd er avgjørende, kan ikke ta imot en forsinkelse, og forsinkelser er normale og ikke uvanlige."
+          ],
+          "tips": [
+            "Kutt en aktivitet, aldri øk farten",
+            "Ha en reserveplass lagret",
+            "Hver dag trenger noe du kan droppe"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvor langt kan du realistisk kjøre på en dag på New Zealand?",
+          "Mye mindre enn avstanden tilsier. To hundre til tre hundre kilometer er en behagelig dag på vanlige hovedveier på New Zealand, og å presse seg forbi fire hundre betyr som regel at du kommer frem trøtt og har sett veien i stedet for landet."
+        ],
+        [
+          "Hvorfor tar reisetidene på New Zealand lengre tid enn kartappene sier?",
+          "Fordi estimatene forutsetter forhold veiene sjelden gir: ingen stopp, ingen sakte kjøretøy å følge, ingen veiarbeid og ingen bilder. Å legge til en tredjedel på estimatet ligger nærmere det en dag faktisk tar."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: veiforhold"
+        },
+        {
+          "label": "NZTA: kjøring på New Zealand"
+        }
+      ],
+      "priceTable": null
+    },
+    "wildlife-livestock-road-safety-new-zealand": {
+      "title": "Dyreliv, husdyr og trafikksikkerhet på bygdeveier",
+      "description": "Sauer, sel, fugler og landbrukskjøretøy kan komme ut på veien der en besøkende venter et tomt kjørefelt.",
+      "region": "Landsbygda og kysten på New Zealand",
+      "imageAlt": "Sauer ved siden av en bygdevei på New Zealand",
+      "intro": "Veiene på New Zealand går tett forbi gårder i drift og leveområder for dyreliv. Fart og avstand er de eneste pålitelige verktøyene når et dyr oppfører seg uforutsigbart.",
+      "sections": [
+        {
+          "heading": "Regn med buskap",
+          "body": [
+            "Sakt ned i god tid før sauer, storfe, hester eller en bonde som styrer flyttingen. Følg tegnene hans eller hennes, og bruk aldri hornet aggressivt gjennom en flokk.",
+            "Møkk, gjørme og vått gress kan gi dårligere grep etter at dyrene har passert. Gi gass forsiktig og gi landbrukskjøretøy plass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Beskytt dyrelivet langs kysten",
+          "body": [
+            "Ved områder med sel og pingviner skal du bare parkere på opparbeidede plasser og gå den siste strekningen. Hold den lovlige eller anbefalte avstanden, og still deg aldri mellom et dyr og sjøen.",
+            "Fugler kan hekke ved siden av veier eller kollidere med kjøretøy i skumringen. Sett ned farten ved skiltede leveområder, og unngå nattkjøring gjennom aktive områder."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Etter en kollisjon",
+          "body": [
+            "Stopp trygt, beskytt folk mot trafikken og ring 111 ved nødsituasjon. Meld fra om buskap eller skadet fredet dyreliv til ansvarlig myndighet.",
+            "Ikke ta på et skadet villdyr uten veiledning. Stress, tenner og trafikk kan gi enda en skadet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Buskap på veien er normalt her",
+          "body": [
+            "Flokker som flyttes mellom inngjerdede jorder på bygdeveier er rutine, og du kan komme rundt en sving og rett inn i en hel melkekuflokk. Sakt ned helt, stopp hvis du blir bedt om det, og følg anvisningene fra bonden eller den som flytter dem.",
+            "Kjør sakte og jevnt gjennom i stedet for å prøve å slingre mellom dyrene. Dyrene deler seg rundt et langsomt kjøretøy. Ikke bruk hornet, som skremmer buskapen og gjør det mye verre for alle."
+          ],
+          "tips": [
+            "Stopp og følg bondens anvisninger",
+            "Kjør sakte, ikke slingre",
+            "Bruk aldri hornet nær buskap"
+          ]
+        },
+        {
+          "heading": "Veier uten gjerder og dyr som streifer",
+          "body": [
+            "Mange bygdeveier og veier i høylandet har ingen gjerder, og sauer, storfe og hjort kan være i kjørebanen når som helst, dag og natt. Det er særlig vanlig i Mackenzie, Central Otago, Northland og på bakveier overalt.",
+            "Om natten dukker dyr opp i kanten av frontlysene med svært lite forvarsel. Sett ned farten på veier uten gjerder etter at det har blitt mørkt, og vær oppmerksom på at der det er ett dyr, er det som regel flere."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ikke svin unna",
+          "body": [
+            "Å bremse rett frem er nesten alltid riktig respons på et dyr på veien. Det er å svinge unna som gjør en dyrekollisjon til en velt, en frontkollisjon eller en utforkjøring, og i en høy bobil er faren for velt reell.",
+            "Possumer, harer og kaniner er de dyrene som oftest blir truffet, og de er ikke verdt noen unnamanøver i det hele tatt. For større buskap bremser du hardt og rett frem og tar støtet i stedet for å forlate veien."
+          ],
+          "tips": [
+            "Brems rett frem, svin aldri unna",
+            "Å svinge unna gir velt",
+            "Possumer er ikke verdt en unnamanøver"
+          ]
+        },
+        {
+          "heading": "Fredet dyreliv på og ved veiene",
+          "body": [
+            "Kea ved Arthur's Pass, Homer Tunnel og parkeringsplassene i Fiordland trekkes mot kjøretøy og blir jevnlig drept på veiene. Pingviner krysser veier nær kysten ved Oamaru, i Catlins og på Banks Peninsula, og blåpingviner hekker under bygninger og kjøretøy.",
+            "Fôr aldri kea, for det er det som lokket dem til parkeringsplassene i utgangspunktet. Sjekk under og rundt et parkert kjøretøy før du flytter det i pingvinområder, og kjør sakte gjennom skiltede soner for dyreliv etter at det har blitt mørkt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kjøring på landsbygda utover dyrene",
+          "body": [
+            "Landbrukskjøretøy, traktorer og dyretransporter bruker bygdeveiene i lav fart og svinger inn i umerkede innkjørsler med lite forvarsel. Regn med gjørme på veien nær gårdsinnkjørsler, som kan være like glatt som is på et asfaltert underlag.",
+            "Tømmerbiler på veiene på West Coast og det sentrale Nordøya er brede, raske og kan ikke vike mye. Gi dem hele kjørefeltet, sakt ned når en kommer mot deg på en smal strekning, og ikke forsøk å kjøre forbi en på en svingete vei.",
+            "Mange kryss på landsbygda har dårlig sikt på grunn av hekker og skjermbelter. Se på hvert kryss uten vikepliktregulering på landsbygda som et sted der noe kan dukke opp, og husk at lokale sjåfører kjenner veien og du ikke gjør det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Slik melder du fra om en dyrekollisjon",
+          "body": [
+            "Å treffe buskap er en sak for bonden, og du bør stoppe og melde fra, både fordi dyret kan trenge hjelp og fordi eieren må få vite det. Å treffe fredet dyreliv bør meldes til DOC.",
+            "Ikke forsøk å flytte et skadet stort dyr selv. Merk deg stedet, ring det inn, og vær klar over at et levende dyr på veien også er en fare for neste kjøretøy."
+          ],
+          "tips": [
+            "Stopp og meld fra om kollisjon med buskap",
+            "Meld fra til DOC om fredet dyreliv",
+            "Ikke ta på skadde dyr"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvilke dyr er en fare på veiene på New Zealand?",
+          "Først og fremst husdyr: sauer og storfe drives langs og over bygdeveier, og en flokk på veien er en vanlig hendelse, ikke en nødsituasjon. Possumer og fugler er den vanlige faren om natten, og å svinge unna for dem gjør langt mer skade enn å treffe dem."
+        ],
+        [
+          "Hva gjør du når du møter buskap på veien?",
+          "Sakt ned helt, stopp hvis flokken er tett, og følg bondens eller hundens anvisninger i stedet for å prøve å finne en vei gjennom. Ikke bruk hornet, som skremmer dyrene."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "bay-of-islands-camping-week": {
+      "title": "Camping i Bay of Islands: en uke fra Paihia til Kerikeri",
+      "description": "En uke med camping i Bay of Islands: øyferjer, skjermede viker og de historiske byene Paihia, Russell og Kerikeri fra én eller to baser.",
+      "region": "Bay of Islands",
+      "imageAlt": "Båter i en rolig vik i Bay of Islands",
+      "intro": "Bay of Islands fungerer best fra to baser i stedet for sju ulike campingplasser. La kjøretøyet stå noen dager, bruk ferjer og båter på vannet, og flytt deg så nordover til Kerikeri og de rolige buktene.",
+      "sections": [
+        {
+          "heading": "Velg første base",
+          "body": [
+            "Paihia har ferjer, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matvarer</a> og turer innen gangavstand, mens Russell byr på en mindre stemning langs sjøkanten etter at dagsbesøkende har reist. Bekreft parkering og vilkår for sen ankomst før du velger mellom dem.",
+            "Bruk første morgen på Waitangi, og sett av mer tid enn de største severdighetene tilsier. Området, museet og landskapet forklarer mye mer når besøket ikke er presset inn mellom båtavgangene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "La båten erstatte veien",
+          "body": [
+            "Seiling, kajakk og vanntaxier viser hvorfor denne regionen er en bukt og ikke en kjede av utsiktspunkter. Sjekk marinværet og operatørens vilkår, og ha med solbeskyttelse og et varmt lag selv om morgenen er lys.",
+            "Urupukapuka og andre øyer har verneregler som beskytter dyrelivet. Rengjør utstyret, ta søpla med deg og bruk bare campingplasser og fasiliteter som er angitt for overnatting."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kerikeri og de nordlige buktene",
+          "body": [
+            "Flytt til Kerikeri for mat, frukthager, historiske steder og enklere adgang til Matauri Bay eller Whangaroa. Sommerbestillinger og lokal trafikk kan gjøre det vanskelig å finne en spontan natt ved kysten.",
+            "La én dag stå uten plan. Vinden kan flytte en båttur, regnet kan favorisere en skogstur, og en fleksibel plan gir ukas beste bukt rom til å bli et andre besøk."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Å komme seg ut på vannet er poenget",
+          "body": [
+            "Bay of Islands er et reisemål på havet, og en uke helt på land går glipp av det meste. Mulighetene går fra passasjerferja mellom Paihia og Russell, som tar noen minutter og koster lite, til heldags seiling, delfinturer og turer til Hole in the Rock.",
+            "Bestill turer som er avhengige av været tidlig i oppholdet, ikke sent. Da kan en avlyst dag legges om innenfor uka i stedet for å bli det du gikk glipp av."
+          ],
+          "tips": [
+            "Bestill båtturer tidlig i uka",
+            "Russell-ferja er billig og rask",
+            "Ha en ledig dag til været"
+          ]
+        },
+        {
+          "heading": "Camping på Urupukapuka Island",
+          "body": [
+            "DOC driver campingplasser på Urupukapuka, som nås med vanntaxi fra Paihia eller Russell. Det er en virkelig annerledes opplevelse enn en <a data-guide=\"holiday-parks-new-zealand-guide\">feriepark</a> på fastlandet: ingen kjøretøy, begrensede fasiliteter, og du bærer alt inn og ut, også søpla.",
+            "Bestill plassen og båten sammen og sjekk returtidene nøye, for den siste vanntaxien er ikke til forhandling. Ta med mer vann enn du tror du trenger, for tilgangen på øya er begrenset og ubehandlet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Waitangi er verdt inngangsprisen",
+          "body": [
+            "Waitangi Treaty Grounds er det historisk viktigste stedet i landet, og det er den guidede turen og kulturforestillingen som får besøket til å sitte, ikke bygningene alene. Sett av en halv dag, og velg guidet tur i stedet for å gå rundt på egen hånd.",
+            "For et fyldigere bilde kan du kombinere det med museet i Russell og Christ Church, som har skader etter musketkuler fra kampene i 1845. De to stedene forklarer regionen langt bedre sammen enn hver for seg."
+          ],
+          "tips": [
+            "Ta den guidede turen, ikke på egen hånd",
+            "Sett av en halv dag på Waitangi",
+            "Kombiner med Russell for sammenhengen"
+          ]
+        },
+        {
+          "heading": "Sommeren her er virkelig travel",
+          "body": [
+            "Januar i Paihia og Russell betyr fulle campingplasser, utsolgte båtturer og kø til ferja. Det er også varmt og rolig og akkurat når vannet er best, så byttehandelen er reell og ikke ensidig.",
+            "Skuldersesongen i november eller mars gir deg den samme kystlinjen med plass og lavere priser, selv om vannet er kjøligere og noen operatører kutter rutene. Sjekk at turen du vil ha, fortsatt går."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvor du kan bo rundt bukta",
+          "body": [
+            "Paihia har mest overnatting og ferja til Russell, noe som gjør det til den praktiske basen for en uke uten båt. Det er også stedet som er travlest og mest støyende, særlig i januar. Russell er roligere og penere, men har færre campingplasser, og alt følger ferjetidene.",
+            "Kerikeri ligger inne i landet med den historiske Stone Store og Kemp House, god mat og billigere plasser, og fungerer bra for et par netter hvis du vil ha en pause fra sjøkanten. Det er omtrent tjue minutter fra Paihia.",
+            "For noe enda roligere gir campingplassene rundt Matauri Bay og Tauranga Bay nord for Bay of Islands deg sammenlignbar kystlinje med en brøkdel av trafikken, og de er en enkel avstikker på veien nordover."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Alternativer for regnværsdager",
+          "body": [
+            "Northland får mye regn, og en uke her vil som regel inneholde en våt dag. Waitangi Treaty Grounds, de historiske bygningene i Kerikeri og Kawiti-grottene med glødeorm ved Waiomio fungerer uansett vær.",
+            "Båtturer er det som oftest blir avlyst, og det er argumentet for å bestille dem tidlig i uka i stedet for å spare dem til slutten."
+          ],
+          "tips": [
+            "Bestill båtturer tidlig i uka",
+            "Waitangi og Kerikeri fungerer i regn"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "rakiura-stewart-island-camping-guide": {
+      "title": "Camping på Stewart Island: Rakiura Track og Oban",
+      "description": "Camping på Stewart Island: campingplassene på Rakiura Track fra 19 NZD per natt om sommeren og bestilt hele året, ferja fra Bluff på én time, Ulva Island og vill kiwi.",
+      "region": "Rakiura",
+      "imageAlt": "Avsidesliggende strand og stedegen skog på Rakiura",
+      "intro": "Rakiura er en tur uten bobilen. La kjøretøyet stå på fastlandet, kryss med en kompakt sekk og la gåing, vanntaxier og været på øya gi tempoet i tre eller fire netter.",
+      "sections": [
+        {
+          "heading": "Forberedelser på fastlandet",
+          "body": [
+            "Kjøp spesialmat og utstyr i Invercargill, og bekreft deretter sikker parkering og innsjekking i Bluff. Reglene for bagasje på ferja og sjøforholdene fortjener oppmerksomhet før avreisemorgenen.",
+            "Foveaux Strait kan være urolig, og tilbudet kan endre seg. Ha med nødvendige medisiner, varme klær og en fleksibel bestilling på fastlandet hvis overfarten blir forsinket."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Oban og Ulva Island",
+          "body": [
+            "Oban er servicebasen, ikke en stor by. Bestill overnatting, campingplasser eller hytter langs stien i forveien, og ta med det de små butikkene kanskje ikke har.",
+            "Ulva Island er et fristed uten rovdyr som nås med vanntaxi. Rengjør fottøy og bagger, følg <a data-guide=\"new-zealand-biosecurity-camping-gear\">biosikkerhetsreglene</a>, og hold maten forseglet så besøket ikke fører med seg skadedyr."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Stier og dyreliv om natten",
+          "body": [
+            "Rakiura Track krever riktig bestilling av hytte eller campingplass og utstyr for vedvarende gjørme og regn. Kortere turer ved Oban krever likevel lommelykt, et varmt lag og en realistisk tid for retur.",
+            "Kiwi-observasjon skjer stille og tålmodig. Bruk rødt lys der guidene ber om det, gi fuglene plass, og bruk aldri mat eller lyd for å lokke dyrelivet nærmere."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Å komme seg dit er et valg i seg selv",
+          "body": [
+            "Ferja fra Bluff bruker omtrent en time over Foveaux Strait, som har ord på seg for å være urolig, og det fortjener den fullt og helt. Alternativet er et kort fly fra Invercargill, som koster mer, har en streng bagasjegrense og er avhengig av været.",
+            "Du kan ikke ta med kjøretøy. La det stå på sikker parkering i Bluff eller Invercargill og planlegg å gå til fots på øya, som har svært få veier og der nesten alt uansett ligger innen gangavstand fra Oban."
+          ],
+          "tips": [
+            "Ingen kjøretøy på ferja",
+            "Foveaux Strait er virkelig urolig",
+            "Fly har strenge bagasjegrenser"
+          ]
+        },
+        {
+          "heading": "Kiwi er faktisk synlig her",
+          "body": [
+            "Rakiura er et av de mest pålitelige stedene i landet for å se vill kiwi, og Stewart Island-tokoeka er aktiv i dagslys så vel som om natten, noe som er uvanlig. Guidede kveldsturer for å se kiwi går fra Oban.",
+            "Bruk rødt lys i stedet for hvitt, vær stille og hold deg på stien. Gå aldri nær eller følg etter en fugl, og hold god avstand hvis en krysser foran deg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ulva Island er det enkle høydepunktet",
+          "body": [
+            "En kort tur med vanntaxi fra Golden Bay-kaia når Ulva Island, et åpent fristed uten rovdyr der saddleback, robin, kākā og weka er tallrike og uredde. Det er de beste få timene som finnes på øya, og det krever ingen erfaring med fotturer.",
+            "Sjekk sekken for gnagere og frø før du går om bord, og det er derfor kontrollstasjonene finnes. Én enkelt rotte som kommer til Ulva, ville ødelegge tiår med arbeid."
+          ],
+          "tips": [
+            "Sjekk sekken før du går om bord",
+            "Det beste fuglelivet du ser noe sted",
+            "Ingen erfaring med fotturer kreves"
+          ]
+        },
+        {
+          "heading": "Vær, gjørme og Rakiura Track",
+          "body": [
+            "Rakiura Track er en Great Walk-runde på 32 km, vanligvis gått på tre dager. DOCs tre campingplasser på den koster 19 NZD per voksen per natt for newzealendere og 28 NZD for utenlandske besøkende fra 1. oktober til 30. april, og hyttene 44 og 66 NZD. Hver hytte og campingplass må bestilles i forveien hele året, med maksimalt to netter på hver. North West Circuit videre er en krevende flerdagsrute som er kjent for dyp gjørme. Ingen av dem bør undervurderes fordi øya er liten.",
+            "Regn med regn de fleste dager, uansett årstid. Vanntette støvler, gamasjer, tørrsekker og et ekte skift med klær er forskjellen mellom en hyggelig tur og en elendig, og gjørmen er ingen overdrivelse."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvor lenge du bør bli",
+          "body": [
+            "To netter er minimum for at overfarten skal lønne seg, og tre eller fire er bedre. En enkelt natt gir deg en kveld og en morgen, som ikke er nok til både en kiwitur og Ulva Island, og gjør deg avhengig av ferjetidene.",
+            "Oban er den eneste bosetningen og har et hotell, en butikk, et par spisesteder og begrenset overnatting, som alt blir utsolgt om sommeren. Det finnes backpackeralternativer, men i dataene til KiwiCamping fra DOC finnes det ingen campingplass i selve Oban: DOCs campingplasser på øya er de tre på Rakiura Track. Prisene gjenspeiler at alt kommer med båt.",
+            "Ta med kontanter og alt spesielt du trenger, for butikken er liten og <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">påfyll av forsyninger</a> går ikke raskt. Øya går i en roligere rytme enn fastlandet, og det er i stor grad poenget med å dra dit."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Å bestille overfarten og været",
+          "body": [
+            "Ferjeavganger avlyses i dårlige forhold, og stredet er åpent mot været. Legg inn en ledig dag i begge ender i stedet for å knytte overfarten stramt til et fly eller en annen bestilling.",
+            "Ta medisin mot sjøsyke før du går om bord, ikke etter. En time på Foveaux Strait i dønning er en virkelig ubehagelig opplevelse hvis du er utsatt."
+          ],
+          "tips": [
+            "Legg inn en ledig dag i begge ender",
+            "Ta medisinen før du går om bord"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Rakiura Track"
+        },
+        {
+          "label": "DOC: Māori Beach Campsite"
+        },
+        {
+          "label": "RealNZ: planleggingsguide for ferja til Stewart Island"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-three-week-campervan-route": {
+      "title": "3 uker med bobil på New Zealand: rute for begge øyene",
+      "description": "Rute på 3 uker med bobil på New Zealand: ni dager nord, én overfart over Cookstredet, elleve dager sør, med hviledager og regelen om green warrant fra 2026.",
+      "region": "New Zealand",
+      "imageAlt": "Bobil ved en innsjø på New Zealand",
+      "intro": "Tre uker kan knytte sammen begge hovedøyene, men det er ikke plass til alle de kjente avstikkerne. Denne ruten holder nord sammenhengende, krysser Cookstredet én gang og samler Sørøya rundt Mackenzie Country, Fiordland og østkysten.",
+      "sections": [
+        {
+          "heading": "Ni dager i nord",
+          "body": [
+            "Kjør fra Auckland til Coromandel eller Bay of Plenty, og ta så to netter rundt Rotorua. Fortsett gjennom Taupō og Tongariro med en reserveplan for været før du kommer til Wellington.",
+            "Bruk ferieparker til av og til å vaske tøy, få strøm og ta lange dusjer, og bland inn passende DOC-plasser eller kommunale plasser. <a data-guide=\"freedom-camping-rules-new-zealand\">Reglene for freedom camping</a> er lokale og gjelder bestemte kjøretøy, ikke en generell tillatelse til å stoppe hvor som helst."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Cookstredet og sørover",
+          "body": [
+            "Bestill ferja for riktig kjøretøylengde, kom tidlig og ha en margin for forstyrrelser. Picton fortjener en hvilenatt etter en urolig overfart eller sen ankomst.",
+            "Kjør gjennom Kaikōura og Christchurch mot Tekapo og Aoraki. Beskytt dagene i høyfjellet mot en overfylt plan, for vind eller regn kan flytte dem med 24 timer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fiordland og avslutning",
+          "body": [
+            "Bruk Wānaka eller Queenstown som overgang, og ha så base i Te Anau for Fiordland. Kjør tilbake til Christchurch via den sørlige ruten eller Central Otago bare hvis de gjenværende dagene virkelig passer.",
+            "Planlegg de siste 48 timene rundt innleveringen av leiebilen, rengjøring og drivstoff. En god tur på tre uker ender med en rolig overlevering, ikke en siste nattkjøring."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tre uker er den første behagelige lengden",
+          "body": [
+            "Tjueen dager er omtrent punktet der begge øyene blir mulige uten at turen blir en kjøreøvelse. Det gir omtrent ni dager på Nordøya, én ferjedag og elleve på Sørøya, med to netter på stedene som fortjener det.",
+            "Motstå fristelsen til å legge til Northland og <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a> i endene. Begge gjør en behagelig tur til en hastig tur igjen, og begge er bedre som en egen reise."
+          ],
+          "tips": [
+            "Omtrent 8 nord, 1 ferje, 12 sør",
+            "Ikke legg til Northland eller Rakiura",
+            "To netter på stedene som fortjener det"
+          ]
+        },
+        {
+          "heading": "Én ferjeoverfart, bestilt først",
+          "body": [
+            "Kryss <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstredet</a> én gang, sørover, og bestill det før noe annet. En bobil prises etter lengde, sommeravgangene fylles, og overfarten tar det meste av en dag når innsjekking og kjøringen i begge ender regnes med.",
+            "Legg kvelden før nær terminalen og la dagen etter være myk. En kveldsankomst i Picton etterfulgt av en lang kjøretur er slik folk starter Sørøya-etappen trøtte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvor du bør bruke to netter",
+          "body": [
+            "Rotorua, Aoraki eller Tekapo, Te Anau og et sted på West Coast er de fire stedene der en andre natt endrer turen mest. Hvert av dem er enten avhengig av været eller har mer å gjøre enn én enkelt ettermiddag tillater.",
+            "Enkeltnetter fungerer fint for transittstopp som Taupō, Blenheim eller Greymouth. Feilen er å spre enkeltnetter jevnt over hele ruten, så du pakker sammen hver morgen i tre uker."
+          ],
+          "tips": [
+            "To netter: Rotorua, Aoraki, Te Anau, West Coast",
+            "Enkeltnetter i transittbyer",
+            "Å pakke sammen hver dag i 21 dager er slitsomt"
+          ]
+        },
+        {
+          "heading": "Å drive en bobil i tre uker",
+          "body": [
+            "Over denne lengden betyr rutinene med kjøretøyet noe: tøm og fyll på en fast rytme i stedet for når tankene er fulle, vask tøy hver femte eller sjette dag, og planlegg en natt med service etter hver runde med <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. Freedom camping i kjøretøy på kommunal grunn krever et sertifisert selvforsynt kjøretøy med mindre kommunen har satt av plassen til kjøretøy som ikke er det, mange varsler fra DOC stiller det samme vilkåret, og siden 7. juni 2026 teller bare kjøretøy med green warrant. Blå warrants teller ikke lenger, så sjekk warrantet på bilen når du henter den. Å la dette skli ut er det som gjør uke tre ubehagelig.",
+            "Hold gassflaska, dekktrykket og spylevæsken fylt opp underveis. Små jobber på bilen er enkle i en by og vanskelige på Milford-veien."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kjøreretning og enveislogistikk",
+          "body": [
+            "Å kjøre fra nord til sør, med henting i Auckland og levering i Christchurch eller Queenstown, fungerer vanligvis bedre enn motsatt vei, fordi det legger den mer krevende kjøringen på Sørøya til slutten, når du er vant til bilen.",
+            "Enveisavgiftene mellom øyene varierer mye og frafalles av og til i lavsesongen når utleierne trenger å få kjøretøy flyttet. Spør direkte i stedet for å anta at tilbudet på nett er fast, for det er det ofte ikke.",
+            "Alternativet er en rundtur fra Auckland, som betyr å krysse <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstredet</a> to ganger og gir omtrent to dagers ekstra kjøring og en andre ferjebillett. Det lønner seg bare hvis flyene dine er knyttet til Auckland i begge ender."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hviledager er en del av planen",
+          "body": [
+            "Tre uker med flytting hver dag er slitsomt, og turene folk husker godt, har som regel to eller tre dager der ingen kjører noe sted. Legg dem bevisst inn i stedet for å håpe på dem.",
+            "Velg steder det er verdt å bli værende på: en plass ved en innsjø, en by med god mat, et sted med en tur fra døra. En hviledag i en transittby er ingen hviledag."
+          ],
+          "tips": [
+            "Planlegg to eller tre dager uten kjøring",
+            "Hvil et sted det er verdt å bli"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Plumbers, Gasfitters and Drainlayers Board: utleiefirmaer for kjøretøy"
+        },
+        {
+          "label": "Plumbers, Gasfitters and Drainlayers Board: selvforsynte kjøretøy for private eiere"
+        },
+        {
+          "label": "DOC: freedom camping på vernet grunn"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
