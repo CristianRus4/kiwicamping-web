@@ -20,6 +20,10 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-nz-camping-apps | 1 (1. KiwiCamping: best for DOC campsites, huts and planning the route) | kiwicamping_weather_tongariro.png | KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby |
 | wikicamps-alternatives | 2 (1. KiwiCamping: best for DOC campsites and huts with DOC's own details) | Inbox: kiwicamping_place-detail_black-rock-campsite_fees-facilities.png | KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply |
 | best-campervan-apps-new-zealand | 1 (1. KiwiCamping: best for planning where the van sleeps each night) | Inbox: kiwicamping_guides_west-coast-road-trip_top.png | KiwiCamping on iPhone: a South Island West Coast road trip guide with its trip length, distance and a button to save every place it mentions |
+| best-weather-apps-new-zealand | 1 (1. KiwiCamping: best for comparing the weather at your next campsites) | Inbox: kiwicamping_place-detail_jollie-hut_middle.png | KiwiCamping on iPhone: a DOC hut's page with the wind gusts and a seven-day forecast |
+| fuel-price-apps-new-zealand | 7 (Where KiwiCamping fits) | Inbox: kiwicamping_collections_picton-christchurch-kaikoura_top.png | KiwiCamping on iPhone: a Picton to Christchurch collection showing 19 saved places and 277 km as the furthest distance between them |
+| working-holiday-apps-new-zealand | 1 (1. KiwiCamping: best for finding a bed between jobs) | Inbox: kiwicamping_map_new-zealand_clusters.png | KiwiCamping on iPhone: places grouped on a satellite map of the whole of New Zealand |
+| money-saving-travel-apps-new-zealand | 1 (1. KiwiCamping: best for cutting the accommodation bill) | Inbox: kiwicamping_place-detail_kumutoto-bay-campsite_fees-facilities.png | KiwiCamping on iPhone: a DOC campsite's amenities and its reported adult, child and infant prices |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

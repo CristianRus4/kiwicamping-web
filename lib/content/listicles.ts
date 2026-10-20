@@ -554,4 +554,327 @@ export const listicleArticles: Article[] = [
       { label: "Spaceships: road user charges", url: "https://faq.spaceshipsrentals.co.nz/content/what-are-road-user-charges-ruc-which-vehicle-s-does-it-apply-to" },
     ],
   }),
+
+  a({
+    slug: "best-weather-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-10-27",
+    title: "Best Weather Apps for Camping and Tramping in New Zealand 2026",
+    description: "MetService, Windy, Yr, Plan My Walk, Apple Weather and KiwiCamping compared for New Zealand camping and tramping, plus the mountain forecasts that live on websites. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Mountain forecasts", "Severe weather warnings", "Tramping tracks", "DOC huts", "Lake Pukaki"],
+    imageAlt: "Lenticular clouds over Lake Pukaki with Aoraki Mount Cook on the horizon",
+    related: ["new-zealand-severe-weather-camping", "kiwicamping-weather-look-around", "river-crossing-safety-new-zealand"],
+    intro:
+      "New Zealand weather turns quickly, and the right app depends on the question: whether a severe warning covers tonight's campsite, how strong the wind will be on a ridge tomorrow, or which hut on the route will be wet. No single app answers all three. These are the weather apps we would use for camping and tramping in 2026, with ratings and prices from the New Zealand App Store checked on 20 October 2026, and the official websites that still beat every app for mountain forecasts. KiwiCamping is ours, so it is listed first; it is the right pick for one job only, and the others are better for the rest.",
+    sections: [
+      s("The best weather apps at a glance", [
+        "Use MetService for the official warnings, Windy or Yr for a second forecast and for wind, and Plan My Walk on tramping days. KiwiCamping puts a forecast on each campsite and hut in your trip, which is useful for choosing between places but is not a warning service. Before going above the bushline, read MetService's mountain forecast and the New Zealand Avalanche Advisory on the web.",
+        "No independent test of weather app accuracy in New Zealand turned up in our research, so treat claims that one app is the most accurate as opinion. What can be checked is the source: MetService is the only authorised provider of severe weather warnings in New Zealand.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "A forecast for each campsite and hut on your trip", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["MetService", "Official warnings and watches", "Free with ads; ad-free NZ$1.99 a month", "2.4 (1,126)"],
+          ["Windy.com", "Wind, gusts and comparing models", "Free; Premium in-app purchase", "4.8 (9,058)"],
+          ["Yr", "A free second forecast", "Free", "3.6 (87)"],
+          ["Plan My Walk", "Tramping days and track alerts", "Free", "4.6 (612)"],
+          ["Apple Weather", "Quick checks, built into the iPhone", "Free", "4.7 (18,741)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for comparing the weather at your next campsites", [
+        "KiwiCamping shows Apple Weather on each place screen: current conditions, wind gusts, how warm it feels and seven days of highs and lows. In a trip, each stop shows the forecast for the day you plan to arrive, so you can see before you drive whether the lakeside campsite or the sheltered one in the bush suits the next two nights.",
+        "That makes it a planning tool, not a safety tool. It does not carry MetService's warnings, and it needs signal to load a forecast. Place details such as facilities and fees stay on the phone when reception drops. It is iPhone only, iOS 26 or later, with 4 New Zealand ratings (3.8).",
+      ], ["Choose it for: weather at each stop on your trip", "iPhone only, iOS 26 or later", "Not a warning service"], undefined, true),
+      s("2. MetService: best for official warnings", [
+        "MetService is New Zealand's national weather service and the only authorised provider of severe weather warnings. Its app shows warnings and watches for your location, rain radar, 48-hour forecast graphs, three-day rain maps and the UV index and fire danger, with notifications for severe weather. It is free with ads, or ad-free for NZ$1.99 a month or NZ$22.99 a year.",
+        "It is also the lowest-rated app here: 2.4 from 1,126 New Zealand ratings, with reviews on its App Store page objecting to ads and the design. Its mountain, marine and rural forecasts are on metservice.com rather than in this app, and its separate Marine and Rural Weather apps were last updated in 2023.",
+      ], ["Choose it for: official warnings and watches", "Ad-free NZ$1.99 a month", "Mountain forecasts are on the website"]),
+      s("3. Windy.com: best for wind and comparing forecasts", [
+        "Windy shows more than 15 weather models side by side, including the European ECMWF model, on animated maps of wind, gusts, rain and cloud. That is useful when forecasts disagree: if the models agree on a southerly change, plan around it; if they do not, keep the plan flexible. It rated 4.8 from 9,058 New Zealand ratings.",
+        "It is free, with a Premium in-app purchase that adds hourly forecasts, a longer outlook and longer radar loops. It does not issue New Zealand warnings, so pair it with MetService.",
+      ], ["Choose it for: wind, gusts and model comparisons", "Free; Premium optional", "No official NZ warnings"]),
+      s("4. Yr: best for a simple free second opinion", [
+        "Yr is the free app of Norway's public weather service, whose forecasts it uses worldwide, including New Zealand place forecasts. Its New Zealand listing shows no in-app purchases. It rated 3.6 from 87 New Zealand ratings.",
+        "Some trampers recommend it on forums, but we found no independent test of how it performs here. Use it as a cross-check against MetService rather than as your only source.",
+      ], ["Choose it for: a free cross-check", "Forecasts from Norway's weather service", "No NZ warnings"]),
+      s("5. Plan My Walk: best for the tramping days", [
+        "Plan My Walk, from the New Zealand Mountain Safety Council, combines weather forecasts and warnings with official track alerts for more than 3,500 tracks, huts and campsites, and sends your trip plan to an emergency contact. The app costs nothing, and 612 New Zealand App Store ratings average 4.6.",
+        "DOC's Land Safety Code asks you to check the forecast, change your plans if needed and leave your intentions with someone, and this app covers both on one screen.",
+      ], ["Choose it for: walks and tramps", "Sends your plan to a contact", "Free"]),
+      s("6. Apple Weather: best for a quick look on an iPhone", [
+        "Apple Weather comes with the iPhone, rated 4.7 from 18,741 New Zealand ratings. Apple lists MetService among its data sources for New Zealand severe weather, but next-hour rain forecasts are not offered here, so the minute-by-minute rain alerts some travellers expect from other countries will not appear.",
+        "It is fine for a glance at the week ahead. For a mountain day or an exposed campsite, look at MetService's own forecast as well.",
+      ], ["Choose it for: a quick daily check", "Built into iPhone", "No next-hour rain for NZ"]),
+      s("The forecasts that are only on websites", [
+        "MetService publishes mountain forecasts for national parks and regions such as Aoraki/Mount Cook, Arthur's Pass, Fiordland, Mount Aspiring, Nelson Lakes and Tongariro, with a New Zealand mountain forecast for areas above 800 metres that includes the freezing level. Its website also carries marine and rural forecasts.",
+        "DOC points trampers to NIWA's park forecasts on weather.niwa.co.nz, now run by Earth Sciences New Zealand, and to the New Zealand Avalanche Advisory before any trip into avalanche terrain. Save these pages before you lose signal; none of them will update once you are out of reception.",
+      ]),
+      s("Warnings, watches and what they ask of you", [
+        "MetService uses three levels. A yellow watch means severe weather is possible but not yet certain: stay alert. An orange warning means take action, and most warnings are orange. A red warning, kept for the most extreme events, means take action immediately.",
+        "For campers, an orange warning for heavy rain or wind is the moment to move away from rivers and exposed ridges and choose a sheltered site. Our guide to severe weather when camping covers what to do at each level.",
+      ]),
+      s("How we chose and checked", [
+        "We compared the weather apps most used by campers and trampers in New Zealand, favouring official sources. Ratings, prices and features come from each app's New Zealand App Store listing on 20 October 2026, and the warning definitions from MetService's own page.",
+        "We describe features as their developers do, so a feature not mentioned is not a claim that an app lacks it. Forecasts are forecasts: on the day, what you see on the hill outranks any app.",
+      ]),
+    ],
+    sources: [
+      { label: "MetService: about severe weather warnings", url: "https://about.metservice.com/about-severe-weather-warnings" },
+      { label: "MetService weather apps", url: "https://about.metservice.com/weather-apps" },
+      { label: "MetService mountains and parks forecasts", url: "https://www.metservice.com/mountains-and-parks/national-parks" },
+      { label: "Windy.com listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=1161387262&country=nz" },
+      { label: "Yr listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=490989206&country=nz" },
+      { label: "Plan My Walk (NZ Mountain Safety Council)", url: "https://www.mountainsafety.org.nz/plan-my-walk" },
+      { label: "Apple Weather data sources", url: "https://support.apple.com/en-nz/105038" },
+      { label: "DOC: weather and the Land Safety Code", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/weather/" },
+      { label: "NIWA Weather (Earth Sciences New Zealand)", url: "https://weather.niwa.co.nz/" },
+      { label: "New Zealand Avalanche Advisory", url: "https://www.avalanche.net.nz/" },
+    ],
+  }),
+
+  a({
+    slug: "fuel-price-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-10-29",
+    title: "Best Fuel Price Apps in New Zealand 2026: Gaspy, Brand Apps and Discounts Compared",
+    description: "Gaspy, Z, bp, Waitomo, Gull, g.a.s., Mobil and the supermarket fuel schemes compared: what each saves per litre, what it costs and where it works. Prices and terms checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["State highways", "Rural fuel stops", "Te Anau", "Supermarkets", "EV chargers"],
+    imageAlt: "State Highway 6 winding along the shore of Lake Wakatipu under grey cloud",
+    related: ["new-zealand-road-trip-fuel-cost-2026", "food-fuel-resupply-new-zealand-road-trip", "best-travel-apps-new-zealand"],
+    intro:
+      "Fuel has become one of the biggest costs of a New Zealand road trip in 2026. MBIE's weekly monitoring put regular 91 at 354.4 cents a litre on the price boards in the week dated 9 October 2026, against 260.6 cents a year earlier, and diesel at 323.8 cents before road user charges. At those prices it pays to know both where fuel is cheapest and which discounts you hold, so the best setup is one app that shows prices and one or two that cut them. We make KiwiCamping, a camping app that does not track fuel prices, so it is not ranked here; it appears at the end only for the planning job it can help with.",
+    sections: [
+      s("Fuel apps at a glance", [
+        "Start with Gaspy to see which station near you is cheapest. Then add the app for the network you pass most: Z's app gives a daily discount and a bigger one on Wednesdays, bp's app works with Woolworths' Everyday Rewards card, and Foodstuffs' Club+ turns a supermarket shop into a discount at Z and participating Caltex sites. Waitomo and Gull reward you through in-app credit and promotion days rather than a fixed cents-per-litre discount.",
+        "Discounts are capped per fill, usually at 50 or 100 litres, and the schemes can change their amounts at short notice. Check the terms in the app before a long drive rather than relying on last month's offer.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each company's own page. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "How it saves you money", "Price", "NZ rating"],
+        rows: [
+          ["Gaspy", "Shows user-reported pump prices", "Free; Gold NZ$1.69 a month", "4.0 (773)"],
+          ["Z Energy", "At least 6c a litre daily, 15c on Wednesdays", "Free", "4.8 (13,568)"],
+          ["BPme", "6c a litre with Everyday Rewards (up to 50 L)", "Free", "4.9 (34,764)"],
+          ["Club+ (Foodstuffs)", "8c a litre at Z or Caltex after a supermarket shop", "Free", "1.8 (682)"],
+          ["Waitomo", "Spin-to-win credit on fills of $20 or more", "Free", "4.8 (23,195)"],
+          ["Gull", "Promotion days; unlocks unmanned pumps", "Free", "4.8 (17,818)"],
+          ["g.a.s.", "Everyday Rewards discounts at g.a.s. sites", "Free", "4.7 (1,027)"],
+          ["Mobil", "Smiles points and paying from the car", "Free", "4.7 (10,135)"],
+        ],
+      }),
+      s("1. Gaspy: best for finding the cheapest station", [
+        "Gaspy is a crowd-sourced price map run by Hello World Limited. Its users enter the price shown on the pump, other users confirm it, and both earn Spy Coins when a price is confirmed. Gaspy's help page says updates are limited to stations near you because of past misuse, which keeps prices honest but means a remote station can show an old figure.",
+        "You can tell the app which discounts you hold, and it shows your discounted price above the pump price; the free version allows one custom discount and Gaspy Gold, NZ$1.69 a month, allows as many as you like. Favourites can send price alerts, and the map also lists EV chargers. It rated 4.0 from 773 New Zealand ratings.",
+      ], ["Choose it for: comparing stations", "Gold NZ$1.69 a month", "Check the time of the last update"]),
+      s("2. Z Energy app: best everyday discount on a major network", [
+        "Z Rewards in the Z app takes at least 6 cents a litre off every fill, up to 100 litres, and 15 cents a litre from 6am Wednesday to 6am Thursday when you scan in the app. You also earn a point for every dollar spent on fuel and Airpoints on fuel, and Sharetank lets you share a virtual fuel tank with up to five people.",
+        "It rated 4.8 from 13,568 New Zealand ratings. Z's Wednesday figure has changed before (it was 10 cents in mid-2025), so confirm it on the rewards page before you plan a fill around it.",
+      ], ["Choose it for: a steady discount at Z", "15c a litre on Wednesdays", "Up to 100 litres a fill"]),
+      s("3. BPme with Everyday Rewards: best if you shop at Woolworths", [
+        "bp takes 6 cents a litre off up to 50 litres when you scan an Everyday Rewards card, and the same card earns a point per litre towards $15 vouchers. Woolworths, which runs Everyday Rewards, also issues bonus fuel discounts for qualifying grocery spends; their size changes and is not fixed in its terms. BPme links your Everyday Rewards card in the app and rated 4.9 from 34,764 New Zealand ratings.",
+        "The same Everyday Rewards discount works at g.a.s. stations, and the g.a.s. app (4.7 from 1,027) links the card there.",
+      ], ["Choose it for: bp and g.a.s. with one card", "6c a litre on up to 50 L", "Bonus discounts vary"]),
+      s("4. Club+: best if you shop at PAK'nSAVE or New World", [
+        "Foodstuffs launched Club+ in June 2026 in place of the New World Clubcard. A qualifying spend of $1 or more at a store without its own fuel site earns an 8-cent-a-litre discount, up to 100 litres, to use at Z or participating Caltex sites within 30 days. PAK'nSAVE and New World stores with fuel on site give their own discount, which Club+ states as at least 8 cents a litre in the North Island and 4 cents in the South Island.",
+        "The Club+ app rated only 1.8 from 682 New Zealand ratings, and its terms let Foodstuffs change the discount at any time. Gull is not part of the scheme.",
+      ], ["Choose it for: Foodstuffs shoppers", "8c a litre at Z and Caltex", "Use within 30 days"]),
+      s("5. Waitomo, Gull and Mobil: best for their own networks", [
+        "Waitomo's app (4.8 from 23,195) gives a spin to win credit called Moolah on fills of $20 or more, plus scratchies when your monthly spend passes set amounts; Moolah is spent in the app. Gull's app (4.8 from 17,818) unlocks pumps at unmanned Gull stations and Pay at Pump lanes and runs promotion days. Neither states a fixed cents-per-litre discount.",
+        "Mobil's app (4.7 from 10,135) earns Smiles points and pays for fuel from the car. We could not load Mobil's own rewards page to confirm its current discount, so check it in the app.",
+      ], ["Waitomo: chance-based credit", "Gull: unmanned pumps and promo days", "Mobil: Smiles points"]),
+      s("Diesel, EVs and remote roads", [
+        "MBIE's diesel figure excludes road user charges. NZTA charges $76 per 1,000 km for light diesel vehicles, so add about 7.6 cents a kilometre to the pump cost when you compare a diesel campervan with a petrol car. Hire companies bill RUC in different ways; ask before you book.",
+        "For electric vehicles, PlugShare (4.6 from 4,173) maps chargers from many networks, and the Z app also handles Z's EV charging. On remote routes the cheapest fuel is the fuel you already have: DOC notes there are no fuel stations between Te Anau and Milford Sound, so fill up in Te Anau.",
+      ]),
+      s("Where KiwiCamping fits", [
+        "KiwiCamping does not show fuel prices, so it is not on the list above. What it does show is distance: a trip in KiwiCamping gives the distance and drive time between stops, and a collection of saved places shows the furthest gap between them, which tells you where the long, empty legs are and where to fill up before them.",
+        "KiwiCamping runs on iPhone with iOS 26 or later, and its four New Zealand ratings average 3.8. To turn those distances into dollars, our fuel and distance calculator on this site does the arithmetic.",
+      ], ["Use it for: spotting long legs between stops", "iPhone only, iOS 26 or later", "No fuel prices"], undefined, true),
+      s("How we chose and checked", [
+        "We included the price app with the most New Zealand use and the app of every fuel brand or loyalty scheme we could verify. Discounts and caps come from each company's own rewards or terms page on 20 October 2026; ratings come from the New Zealand App Store that day. Fuel prices come from MBIE's weekly monitoring table, which records board prices, not prices after discounts.",
+        "We describe each scheme as the company does. A discount or feature not mentioned here is not a claim that it does not exist.",
+      ]),
+    ],
+    sources: [
+      { label: "MBIE weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" },
+      { label: "Gaspy help", url: "https://www.gaspy.nz/help.html" },
+      { label: "Z Rewards promotions", url: "https://dynamic.z.co.nz/rewards-promotions/promotions" },
+      { label: "bp and Everyday Rewards", url: "https://www.bp.com/en_nz/new-zealand/home/products-and-services/promotions-and-rewards/everydayrewards" },
+      { label: "Everyday Rewards FAQs (Woolworths)", url: "https://www.woolworths.co.nz/help/everyday-rewards-faqs" },
+      { label: "Club+ fuel discounts", url: "https://www.clubplus.co.nz/fuel" },
+      { label: "Waitomo FAQ", url: "https://waitomogroup.co.nz/faq" },
+      { label: "Gull app", url: "https://gull.nz/app" },
+      { label: "NZTA road user charge rates", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/ruc-rates-and-transaction-fees" },
+      { label: "DOC: Milford Road tips for drivers", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/milford-road-tips-for-drivers/" },
+    ],
+  }),
+
+  a({
+    slug: "working-holiday-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-10-31",
+    title: "Best Apps for Working Holiday Makers in New Zealand 2026",
+    description: "The apps a working holiday maker in New Zealand actually uses in 2026: SEEK, Trade Me, Wise, bank and phone apps, seasonal work and farm stays, plus the official steps no app does for you. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Working holiday visa", "Seasonal work", "IRD number", "DOC campsites", "Marlborough"],
+    imageAlt: "Autumn vineyard rows in the Awatere Valley, Marlborough, below snow-capped ranges",
+    related: ["best-travel-apps-new-zealand", "campervan-budget-new-zealand", "new-zealand-travel-cost-2026"],
+    intro:
+      "A working holiday in New Zealand runs on a handful of apps: one to find work, one to move money, a bank and a phone plan, and something to tell you where to sleep when the job is three hours from the last one. These are the apps we would install for a working holiday in 2026, with ratings from the New Zealand App Store checked on 20 October 2026, and the official steps that still happen on government websites rather than in any app. We make KiwiCamping and list it first for the travelling part of the year; for jobs, money and paperwork the other apps below do the work.",
+    sections: [
+      s("Working holiday apps at a glance", [
+        "For jobs, install SEEK and Trade Me, and look at PickNZ for fruit and vegetable seasons. Wise moves money from home cheaply, a New Zealand bank app holds your wages, and a prepaid plan from Skinny, 2degrees, Spark or One NZ keeps you reachable for employers. KiwiCamping covers the nights between jobs, WWOOF and Workaway cover work in exchange for a bed, and the NZTA app helps once you own a car.",
+        "Your IRD number, tax code and visa conditions are handled on Inland Revenue and Immigration New Zealand websites. Sort those out first, because an employer needs your IRD number before your first pay.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each provider's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Job it does", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "Places to sleep between jobs", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["SEEK", "Job listings across New Zealand", "Free", "4.7 (68,389)"],
+          ["Trade Me", "Jobs, flats and used cars", "Free", "4.6 (65,564)"],
+          ["Wise", "Moving money from home", "Free app; fees from 0.22%", "4.8 (23,432)"],
+          ["BNZ Mobile", "A New Zealand bank account", "Free", "4.8 (56,574)"],
+          ["Skinny Mobile", "Prepaid phone and data", "Free app; prepaid plans", "4.4 (18,813)"],
+          ["Workaway", "Work in exchange for a bed", "Free app; yearly membership", "4.8 (144)"],
+          ["NZTA Waka Kotahi", "Rego, WoF and RUC for your car", "Free", "4.8 (581)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for finding a bed between jobs", [
+        "Seasonal work moves you around: kiwifruit in the Bay of Plenty, grapes in Marlborough, apples in Hawke's Bay. KiwiCamping is a map of where you can stay on the way, built on DOC's data, with 287 DOC campsites in its August 2026 data and the adult fees DOC lists, from $5 to $25 a night at the sites with a published rate. Holiday parks, stays and tours sit on the same map, and costs can be shown in your home currency alongside the New Zealand dollar figure.",
+        "Saved places go into collections, and a trip turns them into dated stops with notes and the distance between them, which helps when you are lining up a new job and a place to sleep near it. Place details stay on the phone when signal drops; map tiles, routing, weather and photos need a connection. It is iPhone only, needs iOS 26 or later and has 4 New Zealand ratings (3.8), with no traveller reviews.",
+      ], ["Choose it for: DOC campsites near the next job", "Costs in your own currency", "iPhone only, iOS 26 or later"], undefined, true),
+      s("2. SEEK and Trade Me: best for finding work", [
+        "SEEK lists jobs across New Zealand and Australia and lets you apply with a saved profile. It rated 4.7 from 68,389 New Zealand ratings. Trade Me, New Zealand's main marketplace, carries jobs in its main app as well as rentals and cars, and rated 4.6 from 65,564; the older standalone Trade Me Jobs app has not been updated since 2024.",
+        "Indeed (4.7 from 4,185) is a third source of listings. On any of them, read the listing for the hours and whether accommodation is offered, which matters more on a working holiday than the job title.",
+      ], ["SEEK for most job types", "Trade Me for jobs, flats and cars", "Indeed as a third source"]),
+      s("3. PickNZ: best for fruit and vegetable seasons", [
+        "PickNZ is a job board for fruit and vegetable work, searchable by region and crop, so you can line up the next harvest as the current one ends. Check the start date, the expected hours and how pay is calculated in each listing before you travel to the region.",
+        "We found no PickNZ app in the New Zealand App Store, so use the website. Some listings on it are for the Recognised Seasonal Employer scheme, which is a separate visa for workers from Pacific countries, not for working holiday makers.",
+      ], ["Website, no app found", "Search by crop and region", "RSE listings are a different visa"]),
+      s("4. WWOOF NZ and Workaway: best for work in exchange for a bed", [
+        "WWOOF New Zealand connects volunteers with organic farms; online membership costs NZ$25 for one person or NZ$30 for a couple and lasts 15 months. WWOOF NZ says you need a working holiday visa to volunteer even without wages, so check the conditions on your own visa with Immigration New Zealand. The international WWOOF app had only 3 New Zealand ratings, so the website is the easier way in.",
+        "Workaway covers hosts worldwide, including New Zealand, for a yearly membership of US$59 to US$79 depending on the plan; its app rated 4.8 from 144 New Zealand ratings. Both can stretch a budget a long way, but hours and conditions vary by host, so agree them before you arrive.",
+      ], ["WWOOF NZ NZ$25 for 15 months", "Workaway US$59 to US$79 a year", "Agree hours with the host"]),
+      s("5. Wise and a New Zealand bank app: best for money", [
+        "Wise moves money between currencies with a fee that starts at 0.22% of the amount, and its card gives 400 New Zealand dollars a month of free cash withdrawals, then 2.69% above that. It rated 4.8 from 23,432 New Zealand ratings and suits the first weeks before your bank account is running.",
+        "Wages go into a New Zealand account. BNZ lets you apply from overseas, ASB does too depending on your country and visa, ANZ lets you open an account before you arrive and activate it at a branch, and Westpac's migrant team can set one up up to 180 days before you move in some circumstances. Their apps rated 4.8 (BNZ, 56,574), 4.7 (Westpac, 24,380), 4.0 (ANZ, 7,946) and 3.2 (ASB, 2,106). A New Zealand bank account also helps your IRD number application.",
+      ], ["Wise for the first weeks", "Open a bank account early", "BNZ and Westpac apps rate highest"]),
+      s("6. Skinny, 2degrees, Spark or One NZ: best for staying reachable", [
+        "Employers ring, so a New Zealand number matters. Skinny's app rated 4.4 from 18,813 New Zealand ratings and Skinny sells 52-week prepaid plans from $296; 2degrees prepay starts from $8 a month, and its Data Clock app rated 4.7 from 17,570. Spark's app rated 3.7 and One NZ's 2.0.",
+        "Coverage away from towns varies by network, so check each provider's coverage map for the regions you expect to work in before choosing.",
+      ], ["Skinny 52-week plans from $296", "2degrees prepay from $8 a month", "Check coverage where you will work"]),
+      s("7. NZTA Waka Kotahi: best once you own a car", [
+        "If you buy a car or van, for example through Trade Me, the NZ Transport Agency's app shows the vehicles registered to you, tracks registration and WoF expiry dates and your road user charges, and takes rego and RUC payments. It rated 4.8 from 581 New Zealand ratings.",
+        "The AA's app (4.4 from 44) holds an AA membership card and Roadservice details if you join. Before buying, check the warrant of fitness and registration dates on the vehicle; our guide to WoF and registration explains both.",
+      ], ["Rego, WoF and RUC in one app", "Check dates before you buy", "AA app for members"]),
+      s("The official steps no app does for you", [
+        "Apply for your IRD number on Inland Revenue's website through myIR; it is free, and new arrivals can usually expect it within two days by text or email. Inland Revenue may ask for a working New Zealand bank account or a customer due diligence form (IR997). Give your employer the number and a tax code on an IR330 form, because without one you are taxed at the 45% non-declaration rate.",
+        "Know your conditions too. Since 20 April 2026 working holiday visas carry the condition that you must work for an employer, under an employment agreement or a contract for services, and you cannot employ other people. The adult minimum wage is $23.95 an hour from 1 April 2026 and applies to temporary migrants too. You cannot join KiwiSaver on a temporary or work visa, and holiday pay of 8% on each pay is only allowed for fixed-term work under 12 months or genuinely irregular work, agreed in your employment agreement.",
+      ]),
+      s("How we chose and checked", [
+        "We picked the apps that handle the jobs every working holiday maker faces, favouring the most-used option in each category. Ratings come from the New Zealand App Store on 20 October 2026, fees from each provider's own page, and every rule from Immigration New Zealand, Inland Revenue or Employment New Zealand that day.",
+        "Visa conditions, funds and lengths differ by passport, so read the page for your own country on immigration.govt.nz. We describe features as each provider does, and a feature not mentioned is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "Working holiday visas (Immigration New Zealand)", url: "https://www.immigration.govt.nz/visas/united-kingdom-working-holiday-visa/" },
+      { label: "Employment conditions for open work visas from 20 April 2026", url: "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-employment-conditions-for-open-work-visa-holders/" },
+      { label: "IRD number for new arrivals (Inland Revenue)", url: "https://www.ird.govt.nz/managing-my-tax/ird-numbers/ird-numbers-for-individuals/new-arrival-to-new-zealand---ird-number-application" },
+      { label: "Tax codes (Inland Revenue)", url: "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/about-tax-codes" },
+      { label: "Minimum wage rates (Employment New Zealand)", url: "https://www.employment.govt.nz/pay-and-hours/pay-and-wages/minimum-wage/minimum-wage-rates-and-types" },
+      { label: "Pay-as-you-go holiday pay (Employment New Zealand)", url: "https://www.employment.govt.nz/pay-and-hours/pay-and-wages/leave-and-holiday-pay/pay-as-you-go-annual-holiday-payments" },
+      { label: "Joining KiwiSaver (Inland Revenue)", url: "https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver" },
+      { label: "PickNZ", url: "https://www.picknz.co.nz/" },
+      { label: "WWOOF New Zealand membership", url: "https://wwoof.nz/join" },
+      { label: "Wise New Zealand pricing", url: "https://wise.com/nz/pricing/" },
+    ],
+  }),
+
+  a({
+    slug: "money-saving-travel-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-11-01",
+    title: "Best Apps to Save Money Travelling New Zealand in 2026",
+    description: "The apps that cut the real costs of a New Zealand trip in 2026: cheaper nights, fuel, groceries, food deals, ferries and shared costs. Ratings, prices and deal terms checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "Supermarkets", "Cook Strait ferries", "Auckland transport", "Moke Lake"],
+    imageAlt: "Mountains reflected in the still water of Moke Lake near Queenstown, where DOC runs a campsite",
+    related: ["new-zealand-travel-cost-2026", "fuel-price-apps-new-zealand", "camping-fees-new-zealand-2026"],
+    intro:
+      "Travelling New Zealand cost more in 2026 than a year before, and most of the rise sits in two places: fuel and where you sleep. MBIE's monitoring put regular petrol at 354.4 cents a litre on station price boards in the week dated 9 October 2026, and Stats NZ reported food prices up 2.4% in the year to September. The apps below go after those costs in order of how much they can save, with ratings from the New Zealand App Store and deal terms from each company's own page, checked on 20 October 2026. We make KiwiCamping, which is first because accommodation is the bill it helps with; for everything else the other apps do the saving.",
+    sections: [
+      s("Money-saving apps at a glance", [
+        "Cut the nightly bill with KiwiCamping's DOC campsite fees and cost filter, and the fuel bill with Gaspy. Load the loyalty app of the supermarket you use, and try Too Good To Go and First Table for cheaper meals. Rankers' deals and Interislander's promotion take a slice off ferries and activities, AT Mobile caps Auckland fares, and Splitwise or Tricount keeps a shared van fair.",
+        "Most of these savings depend on terms that change. Read the current conditions in each app before a deal decides your plans.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each company's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "What it saves on", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "Nights at DOC campsites and the route", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["Gaspy", "Fuel, by finding the cheapest station", "Free; Gold NZ$1.69 a month", "4.0 (773)"],
+          ["Club+ or Everyday Rewards", "Groceries and fuel discounts", "Free", "1.8 (682) / 2.2 (496)"],
+          ["Grocer", "Comparing supermarket prices", "Free", "3.6 (128)"],
+          ["Too Good To Go", "Unsold food from shops and cafes", "Free app; pay per bag", "4.9 (2,940)"],
+          ["First Table", "Half-price food at early sittings", "Free app; booking fee", "4.9 (8,549)"],
+          ["Rankers Camping NZ", "Ferry and activity discounts", "Free", "4.7 (3,322)"],
+          ["AT Mobile", "Auckland public transport fares", "Free", "4.5 (32,728)"],
+          ["Splitwise", "Sharing costs fairly", "Free", "4.4 (689)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for cutting the accommodation bill", [
+        "DOC campsites are among the cheapest places to sleep in New Zealand, and KiwiCamping is built around DOC's data. In its August 2026 data it held 287 DOC campsites, and at the 208 with a published adult rate the fee ran from $5 to $25 a night, with a median of $12.75. A cost filter narrows the map by fee, and each place shows the fees as reported in New Zealand dollars and, if you choose, your own currency.",
+        "Trips add up the distance between stops, which helps you spot a detour that costs more in fuel than it saves in fees. Place details stay on the phone without signal; map tiles, routing, weather and photos need a connection. It is iPhone only, needs iOS 26 or later and has 4 New Zealand ratings (3.8).",
+      ], ["Choose it for: cheaper nights at DOC campsites", "Fees in your own currency", "iPhone only, iOS 26 or later"], undefined, true),
+      s("2. Gaspy: best for the fuel bill", [
+        "With petrol above $3.50 a litre on the boards, choosing the cheaper station in each town is the simplest saving on a road trip. Gaspy shows prices that its users report from the pump and confirm, and it can show your price after a loyalty discount you hold. Its 773 New Zealand ratings average 4.0, and the optional Gold tier costs NZ$1.69 a month.",
+        "Our guide to fuel price apps compares Gaspy with the Z, bp, Waitomo and Gull apps and the supermarket fuel schemes in detail.",
+      ], ["Choose it for: comparing fuel prices", "Free; Gold NZ$1.69 a month", "Pair it with one discount scheme"]),
+      s("3. Supermarket apps and Grocer: best for groceries", [
+        "Foodstuffs' Club+ replaced the New World Clubcard in 2026. It earns Club+ Dollars, each worth $1, at 0.75% of your spend at New World and 0.38% at Four Square; PAK'nSAVE shoppers can spend them but do not earn them. Club+ also gives fuel discounts. Woolworths' Everyday Rewards works the same way with points, vouchers and bp fuel discounts. Both apps are poorly rated on the New Zealand App Store, 1.8 from 682 for Club+ and 2.2 from 496 for Everyday Rewards, but the card works whether or not you like the app.",
+        "Grocer, an independent app, compares grocery prices across the major supermarkets and keeps price history and shopping lists. It rated 3.6 from 128 New Zealand ratings and was last updated in December 2025, so treat its prices as a guide and check the shelf.",
+      ], ["Club+ for New World and PAK'nSAVE", "Everyday Rewards for Woolworths", "Grocer to compare prices"]),
+      s("4. Too Good To Go and Foodprint: best for cheap meals from food that would be wasted", [
+        "Too Good To Go sells surprise bags of unsold snacks, meals and ingredients from shops, cafes, grocery stores and restaurants near you at a reduced price. It rated 4.9 from 2,940 New Zealand ratings; check how many stores take part where you are travelling before you count on it.",
+        "Foodprint has a similar aim: partner eateries upload surplus and imperfect food each day at a discount, and you order and pay in the app. It rated 3.8 from 112 and was updated in August 2026.",
+      ], ["Choose it for: cheaper food", "Bag contents vary", "Check local coverage"]),
+      s("5. First Table: best for eating out for less", [
+        "First Table books the first table of the night at participating restaurants with 50% off the food bill. You pay a booking fee to lock it in, which First Table says varies by restaurant and is not taken off the bill, and the discount covers food, not drinks.",
+        "It rated 4.9 from 8,549 New Zealand ratings, the highest-rated app here. Early sittings suit a travel day that ends at a town before dark.",
+      ], ["Choose it for: half-price food", "Booking fee per table", "Food only, not drinks"]),
+      s("6. Rankers, GrabOne and the ferry deals: best for activities and the crossing", [
+        "Rankers' free app offers 10% off Bluebridge Cook Strait crossings with the code RANKERS and its free digital card shown at check-in, and its activity listings carry discounts of 10% to 15%. GrabOne (4.6 from 3,717) sells discounted vouchers for activities, food and stays.",
+        "Interislander's BoostSail promotion gives 15% off adult foot-passenger fares with the code BOOSTSAIL1 for bookings made between 21 September and 14 December 2026; it cannot be combined with other offers. Check both ferry companies before booking a vehicle, since fares vary by sailing and season.",
+      ], ["Rankers: 10% off Bluebridge", "Interislander BoostSail to 14 December", "GrabOne for vouchers"]),
+      s("Cheaper nights without an app", [
+        "DOC sets the campsite fees: basic campsites are free, standard campsites cost $10 to $20 per adult a night, and serviced campsites $25 per adult unpowered. Individual campsites can differ, so check each one. Members of the New Zealand Motor Caravan Association pay $252 in the first year and can then stay at NZMCA Parks for $5 per adult a night.",
+        "For hostels, Hostelworld (4.8 from 5,114) compares beds and YHA advertises a 10% saving for its members. A campervan relocation is the cheapest vehicle of all: Imoova lists them from $1 a day, though fuel is usually extra and the dates are fixed.",
+      ]),
+      s("Getting around and splitting costs", [
+        "In Auckland, AT Mobile (4.5 from 32,728) tops up an AT HOP card, and Auckland Transport caps fares at $50 over seven days with AT HOP and at $20 a day with a contactless bank card. Plan around those caps for a city stay before or after the road trip.",
+        "If you share a van, Splitwise (4.4 from 689) or Tricount (4.8 from 294) records who paid for what and settles up at the end, and TravelSpend (4.8 from 157) tracks spending against a daily budget. Wise (4.8 from 23,432) converts money from an overseas account with fees from 0.22%.",
+      ]),
+      s("How we chose and checked", [
+        "We ranked the apps by the size of the cost they attack, starting with accommodation and fuel. Ratings come from the New Zealand App Store on 20 October 2026; deal terms, fees and caps come from each company's own page that day, and price data from MBIE and Stats NZ.",
+        "Deals change often and some are seasonal. We describe each as the company does, and a feature not mentioned here is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "MBIE weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" },
+      { label: "Selected price indexes, September 2026 (Stats NZ)", url: "https://www.stats.govt.nz/information-releases/selected-price-indexes-september-2026/" },
+      { label: "DOC campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "Club+ launch (Foodstuffs)", url: "https://www.foodstuffs.co.nz/news-room/2026/new-world-pak-nsave-four-square-launch-club---a-smarter-way-to-save-on-groceries" },
+      { label: "First Table FAQ", url: "https://www.firsttable.co.nz/frequently-asked-questions" },
+      { label: "Rankers ferry discount", url: "https://www.rankers.co.nz/member-info/offers/ferry-discount" },
+      { label: "Interislander BoostSail promotion", url: "https://www.interislander.co.nz/book/promotions-and-deals/boostsail-promotion" },
+      { label: "Auckland Transport bus and train fares", url: "https://at.govt.nz/bus-train-ferry/fares-and-discounts/bus-and-train-fares" },
+      { label: "NZMCA membership", url: "https://www.nzmca.org.nz/join-us" },
+      { label: "Imoova: what is a relocation", url: "https://imoova.com/what-is-a-relocation" },
+    ],
+  }),
 ];
