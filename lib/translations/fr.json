@@ -8832,6 +8832,639 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-alternatives": {
+      "title": "Alternatives à WikiCamps en Nouvelle-Zélande : le top 5 en 2026",
+      "description": "WikiCamps (7,99 $ NZ) repose sur ses utilisateurs. KiwiCamping, Rankers, CamperMate, Campable et Overland Navigator comparées : prix, données, usage sans réseau (octobre 2026).",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Un bus aménagé, des voitures et une petite tente au camping de Cameron Flat, sous les sommets boisés du parc national de Mount Aspiring",
+      "intro": "WikiCamps New Zealand est une app payante qui a ses fidèles : 7,99 $ NZ en une seule fois sur l’App Store néo-zélandais, 4,5 étoiles sur 137 notes néo-zélandaises lors de notre vérification du 20 octobre 2026, et plus de 12 000 sites néo-zélandais ajoutés par ses propres utilisateurs. La plupart de ceux qui cherchent une alternative ne sont pas tant mécontents qu’hésitants : faut-il payer une app alors qu’il en existe de gratuites, les fiches ajoutées par les utilisateurs sont-elles à jour, ou faudra-t-il en racheter une pour l’Australie ? KiwiCamping est notre app, elle arrive donc en premier ci-dessous, mais chaque entrée dit clairement ce qu’elle fait mieux que WikiCamps et dans quels cas WikiCamps reste le meilleur achat.",
+      "sections": [
+        {
+          "heading": "Alternatives à WikiCamps en un coup d’œil",
+          "body": [
+            "En bref : si la plupart de vos nuits se passent dans des <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) ou dans des refuges, KiwiCamping vous donne les informations du DOC lui-même et un itinéraire daté. Si vous voulez une app gratuite, Rankers est le choix le plus solide pour la Nouvelle-Zélande, et CamperMate couvre aussi l’Australie. Campable sert aux nuits réservées dans des fermes et des vignobles, et Overland Navigator aux routes de gravier et aux pistes 4x4 qu’une app de camping généraliste ne cartographie pas.",
+            "La force de WikiCamps, c’est le volume. Ses fiches viennent de ceux qui l’utilisent, ce qui explique leur nombre, et aussi pourquoi un tarif ou une fermeture peut mettre du temps à y apparaître. Quelle que soit l’app choisie, le panneau sur place et la page de la municipalité ou du DOC ont le dernier mot pour savoir si vous avez le droit de vous y installer."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Vérifié le 20 octobre 2026 sur l’App Store néo-zélandais et sur le site de chaque développeur. Les notes sont les moyennes de l’App Store néo-zélandais, suivies du nombre de notes.",
+            "head": [
+              "App",
+              "À choisir plutôt que WikiCamps quand",
+              "Prix",
+              "Plateformes",
+              "Note NZ"
+            ],
+            "rows": [
+              [
+                "WikiCamps New Zealand",
+                "Vous voulez le plus de sites ajoutés par les utilisateurs (la référence)",
+                "7,99 $ NZ en une fois (iPhone)",
+                "iPhone, iPad, Android",
+                "4,5 (137)"
+              ],
+              [
+                "KiwiCamping",
+                "Vos nuits se passent dans des campings et refuges du DOC",
+                "Gratuit ; Pass de 3,99 à 12,99 $ NZ",
+                "iPhone (iOS 26+)",
+                "3,8 (4)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Vous voulez une app gratuite aux sites vérifiés",
+                "Gratuit",
+                "iPhone, iPad, Android, web",
+                "4,7 (3 322)"
+              ],
+              [
+                "CamperMate",
+                "Vous voulez du gratuit et le voyage passe par l’Australie",
+                "Gratuit ; contient des publicités",
+                "iPhone, iPad, Android, web",
+                "4,4 (606)"
+              ],
+              [
+                "Campable",
+                "Vous voulez une nuit réservée sur un terrain privé",
+                "App gratuite ; les hôtes fixent les prix",
+                "iPhone, Android",
+                "4,5 (13)"
+              ],
+              [
+                "Overland Navigator",
+                "Vous roulez sur des routes de gravier et des pistes 4x4",
+                "Gratuit ; All Access 7,99 $ NZ par mois",
+                "iPhone, iPad",
+                "4,5 (31)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pourquoi les voyageurs cherchent autre chose que WikiCamps",
+          "body": [
+            "WikiCamps reçoit peu d’avis sur l’App Store néo-zélandais : les 50 plus récents remontent à janvier 2020, et 13 seulement datent de 2024 ou après. Quarante et un donnent quatre ou cinq étoiles ; les éloges les plus fréquents, sept avis chacun, visent le planificateur de voyage et le fait de recenser plus de lieux que les apps gratuites. Les reproches : six décrivent des <a data-guide=\"kiwicamping-filters-guide\">filtres</a> ou des données qui cessent de fonctionner après une mise à jour, cinq d’entre eux en 2023 (la version actuelle, la 6.3.0, est sortie le 19 octobre 2026) ; cinq jugent les informations d’un site, ses tarifs ou son emplacement périmés ou faux ; deux disent que l’app se figeait ou refusait d’ouvrir le planificateur de voyage.",
+            "Deux points pratiques reviennent aussi. WikiCamps vend la Nouvelle-Zélande et l’Australie dans deux apps distinctes : une traversée de la mer de Tasman impose donc un second achat, WikiCamps Australia coûtant 11,99 $ NZ sur l’App Store néo-zélandais. Et sur Android, sa fiche Google Play affiche 3,0 sur 1 042 notes et porte les mentions « achats intégrés » et « publicités », bien que sa description la présente comme un achat unique."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping : la meilleure pour les campings et refuges du DOC, avec les informations du DOC lui-même",
+          "body": [
+            "Dans les données d’août 2026 de KiwiCamping, les 287 <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, les 927 refuges du DOC et les 1 453 sentiers du DOC proviennent des données du Department of Conservation, avec les tarifs adultes, les règles pour les chiens et les conditions de réservation que le DOC indique, et un lien vers la page du DOC pour le lieu. Pour les lieux du DOC, KiwiCamping affiche ce que le DOC publie.",
+            "Les lieux enregistrés deviennent un voyage avec des étapes ordonnées, des dates, des notes et la distance de l’itinéraire, et les <a data-guide=\"kiwicamping-filters-guide\">filtres</a> par tarif, équipements et chiens se combinent dans une même recherche. Les fiches des lieux restent sur le téléphone quand le réseau tombe ; les tuiles de carte, le calcul d’itinéraire, la météo et les photos, eux, nécessitent une connexion.",
+            "Les limites : la version gratuite n’ouvre que les séjours et activités BookIt ; les lieux du DOC, les <a data-guide=\"save-places-kiwicamping\">collections</a>, les voyages et les guides exigent le Pass KiwiCamping, affiché de 3,99 à 12,99 $ NZ. L’app n’existe que sur iPhone (iOS 26 ou version ultérieure), elle compte 4 notes néo-zélandaises (3,8) et aucun avis de voyageurs, et elle recense bien moins de lieux au total que les plus de 12 000 de WikiCamps."
+          ],
+          "tips": [
+            "À choisir pour : campings et refuges du DOC, itinéraire daté",
+            "Pass nécessaire pour les lieux du DOC et les voyages",
+            "iPhone uniquement, iOS 26 ou version ultérieure"
+          ]
+        },
+        {
+          "heading": "2. Rankers Camping NZ : la meilleure app gratuite aux sites vérifiés",
+          "body": [
+            "Rankers est la réponse gratuite à la question de savoir si WikiCamps vaut d’être payée. Elle recense plus de 1 500 campings parmi plus de 6 600 lieux, dont des <a data-guide=\"camping-wastewater-rubbish-new-zealand\">aires de vidange</a>, des points d’eau et du GPL, et affirme ne montrer que les lieux où la communauté locale a accepté que l’on passe la nuit. Ses plus de 108 000 avis de voyageurs sont chacun lus par une personne avant d’être publiés.",
+            "Sur le papier, elle est donc plus restreinte que WikiCamps, mais plus fiable fiche par fiche. Les informations sur les campings sont dans l’app dès la première installation, et les cartes détaillées se téléchargent en Wi-Fi. Elle est notée 4,7 sur 3 322 notes néo-zélandaises, le plus grand nombre de toutes les <a data-guide=\"best-nz-camping-apps\">apps de camping</a> comparées ici."
+          ],
+          "tips": [
+            "À choisir pour : une app gratuite aux campings vérifiés",
+            "Plus de 108 000 avis vérifiés",
+            "iPhone, Android et web"
+          ]
+        },
+        {
+          "heading": "3. CamperMate : la meilleure option gratuite si l’Australie est au programme",
+          "body": [
+            "CamperMate couvre la Nouvelle-Zélande et l’Australie dans une seule app gratuite : le second achat WikiCamps disparaît. Elle filtre les sites gratuits et payants, affiche les toilettes, les <a data-guide=\"camping-wastewater-rubbish-new-zealand\">aires de vidange</a> et les points Wi-Fi, permet de réserver des campings en affichant leurs disponibilités, et télécharge les cartes et les informations sur les lieux pour une utilisation sans réseau ; la version 5.8 a ajouté une vue satellite en octobre 2026.",
+            "Elle est notée 4,4 sur 606 notes néo-zélandaises et 4,0 sur 12 568 notes sur Google Play, et elle affiche des publicités. Parmi les 16 avis de CamperMate datés de 2025 ou 2026 dans les 50 plus récents de l’App Store néo-zélandais, sept incriminent sa dernière refonte : essayez-la donc avant un long voyage plutôt que dès la première nuit."
+          ],
+          "tips": [
+            "À choisir pour : une seule app gratuite pour deux pays",
+            "Contient des publicités",
+            "Téléchargez les cartes avant de partir"
+          ]
+        },
+        {
+          "heading": "4. Campable : la meilleure pour une nuit réservée au calme sur terrain privé",
+          "body": [
+            "Campable recense des centaines de sites privés, des fermes et des vignobles aux clubs sportifs, que leurs hôtes ouvrent aux vans et aux camping-cars. Vous réservez et payez dans l’app, et vous pouvez filtrer les sites qui acceptent les véhicules non certifiés self-contained (autonomes). Elle est notée 4,5 sur 13 notes néo-zélandaises.",
+            "Elle ne joue pas le même rôle que WikiCamps : quelques centaines de nuits garanties plutôt qu’un annuaire national. Servez-vous-en pour les nuits que vous voulez garantir à l’avance, comme un week-end prolongé dans une région très fréquentée."
+          ],
+          "tips": [
+            "À choisir pour : des séjours réservés sur terrain privé",
+            "Les hôtes fixent le prix",
+            "Filtre pour les véhicules non self-contained"
+          ]
+        },
+        {
+          "heading": "5. Overland Navigator : la meilleure pour les routes de gravier et les pistes 4x4",
+          "body": [
+            "Overland Navigator est une app néo-zélandaise pour l’arrière-pays : des centaines d’itinéraires, des routes de gravier panoramiques aux pistes 4x4 difficiles, chacun avec des photos, des avis et des informations sur les marées et les rivières, plus des campements isolés et des sites du DOC sur le trajet. Ses concepteurs affirment que chaque itinéraire est vérifié et praticable, et non simplement repris d’une carte.",
+            "Elle est gratuite pour commencer. Navigator All Access, à 7,99 $ NZ par mois ou 87,99 $ NZ par an, ajoute la navigation complète sur cartes téléchargées, CarPlay et d’autres itinéraires. Elle est notée 4,5 sur 31 notes néo-zélandaises et fonctionne sur iPhone et iPad ; c’est un outil de spécialiste, qui ne remplace pas un annuaire généraliste de campings."
+          ],
+          "tips": [
+            "À choisir pour : pistes tout-terrain et routes de gravier",
+            "All Access : 7,99 $ NZ par mois",
+            "La navigation sur cartes téléchargées est comprise dans All Access"
+          ]
+        },
+        {
+          "heading": "Quand WikiCamps reste le meilleur achat",
+          "body": [
+            "Si vous voulez le plus grand nombre de sites néo-zélandais dans une seule app, payée une fois, WikiCamps reste difficile à battre. Son planificateur de voyage estime les dépenses de carburant, son Offline Mode enregistre sur le téléphone les cartes et jusqu’à trois voyages planifiés, utilisables sans réseau, et ses <a data-guide=\"kiwicamping-filters-guide\">filtres</a> couvrent les campings gratuits, les sites acceptant les animaux, les points d’eau et les aires de vidange.",
+            "Beaucoup de voyageurs la gardent et ajoutent l’une des apps ci-dessus pour le manque qu’ils ressentent le plus : les informations du DOC, la sélection, le terrain privé, l’Australie ou l’arrière-pays. Les membres de la New Zealand Motor Caravan Association (l’association néo-zélandaise des camping-caristes) devraient aussi installer l’app NZMCA, qui montre aux membres les parcs et l’annuaire de l’association."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Comment nous avons comparé",
+          "body": [
+            "Le 20 octobre 2026, nous avons lu la fiche de chaque app sur l’App Store néo-zélandais et le site de son développeur, ainsi que la fiche Google Play quand il y en a une. Les prix sont ceux affichés ce jour-là sur l’App Store néo-zélandais ; le site de WikiCamps annonce 9,99 $ AU par plateforme : vérifiez donc le prix dans la boutique avant d’acheter. Les thèmes d’avis sont des décomptes tirés des 50 avis les plus récents de WikiCamps New Zealand, pas notre propre verdict.",
+            "Nous ne décrivons que les fonctions que les développeurs décrivent eux-mêmes : une fonction non mentionnée ici ne signifie donc pas qu’une app en est dépourvue."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps New Zealand est-elle gratuite ?",
+          "Non. Sur l’App Store néo-zélandais, elle coûte 7,99 $ NZ en une seule fois, sans abonnement dans sa fiche. Son site annonce 9,99 $ AU par plateforme : vérifiez donc le prix dans votre propre boutique avant d’acheter."
+        ],
+        [
+          "Existe-t-il une alternative gratuite à WikiCamps en Nouvelle-Zélande ?",
+          "Rankers Camping NZ est gratuite et ne répertorie que des lieux où passer la nuit approuvés par la communauté locale, avec des avis de voyageurs lus par son équipe. CamperMate est gratuite aussi et couvre en plus l’Australie. KiwiCamping se télécharge gratuitement, mais ses campings et refuges du DOC et ses voyages exigent le Pass payant."
+        ],
+        [
+          "Faut-il deux apps WikiCamps, une pour la Nouvelle-Zélande et une pour l’Australie ?",
+          "Oui. WikiCamps New Zealand et WikiCamps Australia sont deux apps distinctes, achetées chacune séparément ; WikiCamps Australia coûte 11,99 $ NZ sur l’App Store néo-zélandais. CamperMate couvre les deux pays dans une seule app gratuite."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "Données de la fiche WikiCamps New Zealand (Apple, boutique NZ)"
+        },
+        {
+          "label": "App Rankers Camping NZ"
+        },
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "Campable"
+        },
+        {
+          "label": "Données de la fiche Overland Navigator (Apple, boutique NZ)"
+        },
+        {
+          "label": "NZMCA : tarifs d’adhésion"
+        },
+        {
+          "label": "DOC : où séjourner"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-campervan-apps-new-zealand": {
+      "title": "Apps de van en Nouvelle-Zélande : les meilleures en 2026",
+      "description": "Voyage en van en Nouvelle-Zélande en 2026 : les apps pour louer, saisir une relocation à 1 $ par jour et trouver la nuit suivante. Prix et notes vérifiés en octobre 2026.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Un van ancien garé au bord d’un lac, avec deux chaises de camping et une table au bord de l’eau",
+      "intro": "Un voyage en van en Nouvelle-Zélande fait appel aux apps à trois moments : pour obtenir le van, pour y vivre et, parfois, pour le déplacer au profit d’un loueur contre une semaine à petit prix. Aucune app ne couvre les trois, et les plus utiles dépendent de votre loueur. Voici celles que nous installerions pour un voyage en van en 2026, avec les notes et les prix de l’App Store néo-zélandais vérifiés le 20 octobre 2026. Nous développons KiwiCamping, c’est pourquoi elle arrive en premier, et chaque section précise quand une autre app fait mieux le travail.",
+      "sections": [
+        {
+          "heading": "Les meilleures apps de van en un coup d’œil",
+          "body": [
+            "Pour planifier les nuits, KiwiCamping réunit au même endroit les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> (Department of Conservation, l’organisme public qui gère les espaces naturels protégés), les refuges et un itinéraire daté. Si votre van vient de Maui, Britz, Mighty ou Apollo, installez thl Roadtrip, vers laquelle ces marques orientent leurs clients ; Travellers Autobarn renvoie plutôt vers CamperMate. Rankers ajoute des avis de voyageurs sur les endroits où s’installer pour la nuit, Camplify loue des vans de particuliers, Imoova recense les offres de relocation (convoyage d’un van pour un loueur) et l’app NZMCA s’adresse aux membres de la New Zealand Motor Caravan Association (l’association néo-zélandaise des camping-caristes).",
+            "La règle qu’aucune app ne tranche à votre place, c’est l’autonomie du véhicule (self-containment). Depuis le 7 juin 2026, seul un warrant vert (certificat d’autonomie) est reconnu pour le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> (camping libre, hors camping aménagé) sur terrain public : demandez donc au loueur, avant de réserver, si le van en a un."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Vérifié le 20 octobre 2026 sur l’App Store néo-zélandais et sur le site de chaque société. Les notes sont les moyennes de l’App Store néo-zélandais, suivies du nombre de notes.",
+            "head": [
+              "App",
+              "Phase du voyage",
+              "Prix",
+              "Note NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Planifier les nuits et le trajet",
+                "Gratuit ; Pass de 3,99 à 12,99 $ NZ",
+                "3,8 (4)"
+              ],
+              [
+                "thl Roadtrip",
+                "Location chez Maui, Britz, Mighty ou Apollo",
+                "Gratuit",
+                "4,6 (122)"
+              ],
+              [
+                "CamperMate",
+                "Sur la route, NZ et Australie",
+                "Gratuit ; contient des publicités",
+                "4,4 (606)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Avis sur les lieux où dormir",
+                "Gratuit",
+                "4,7 (3 322)"
+              ],
+              [
+                "Camplify",
+                "Location d’un van de particulier",
+                "App gratuite ; les propriétaires fixent les tarifs",
+                "4,8 (23)"
+              ],
+              [
+                "Imoova",
+                "Offres de relocation",
+                "App gratuite ; offres à partir de 1 $ par jour",
+                "5,0 (1)"
+              ],
+              [
+                "App NZMCA",
+                "Membres de la NZMCA en long voyage",
+                "Adhésion de 252 $ NZ la première année",
+                "Pas encore de notes NZ"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping : la meilleure pour planifier où dort le van chaque nuit",
+          "body": [
+            "KiwiCamping est une carte de camping et un planificateur de voyage construits sur les données du Department of Conservation : 287 <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, 927 refuges du DOC et 1 453 sentiers du DOC dans ses données d’août 2026, avec les tarifs, les règles pour les chiens et les conditions de réservation que le DOC indique. Vous ajoutez les nuits à un voyage sous forme d’étapes ordonnées, avec dates, notes et tâches, vous voyez la distance et la durée de trajet entre elles, et vous consultez la météo de chaque étape. Ses guides de road trip proposent des itinéraires, avec les lieux à enregistrer en chemin.",
+            "Pour un van, cela compte, car le plus délicat de chaque journée, c’est la dernière heure : connaître le site, son tarif et savoir s’il faut réserver avant d’arriver. Les fiches des lieux restent sur le téléphone sans réseau, mais les tuiles de carte, le calcul d’itinéraire, la météo et les photos nécessitent une connexion.",
+            "Ce qu’elle ne fait pas : elle n’a aucune fonction de location de véhicule ni de relocation, et la version gratuite n’ouvre que les séjours et activités BookIt. Les lieux du DOC, les <a data-guide=\"save-places-kiwicamping\">collections</a>, les voyages et les guides exigent le Pass KiwiCamping, affiché de 3,99 à 12,99 $ NZ. Elle n’existe que sur iPhone (iOS 26 ou version ultérieure) et compte 4 notes néo-zélandaises (3,8)."
+          ],
+          "tips": [
+            "À choisir pour : planifier les nuits dans des campings du DOC",
+            "Pass nécessaire pour les lieux du DOC, les voyages et les guides",
+            "iPhone uniquement, iOS 26 ou version ultérieure"
+          ]
+        },
+        {
+          "heading": "2. thl Roadtrip : la meilleure si vous louez chez Maui, Britz, Mighty ou Apollo",
+          "body": [
+            "Tourism Holdings exploite Maui, Britz, Mighty et Apollo, et les quatre marques orientent leurs clients vers son app gratuite thl Roadtrip. Britz indique que l’app présente à quoi s’attendre à la prise en charge du véhicule ainsi qu’une vidéo de présentation du van réservé, que Britz demande de regarder avant d’arriver, plus des vidéos explicatives sur le véhicule. Sur la route, elle trouve les campings, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (campings privés tout équipés), stations-service, aires de vidange, toilettes, points GPL, laveries et points Wi-Fi gratuits à proximité, avec des alertes routières en temps réel.",
+            "Elle est notée 4,6 sur 122 notes néo-zélandaises, mais la version iPhone a été mise à jour pour la dernière fois en juin 2025 : voyez-y un compagnon de location plus qu’un planificateur principal."
+          ],
+          "tips": [
+            "À choisir pour : les vans de location thl",
+            "Vidéos explicatives sur le véhicule",
+            "Gratuit, NZ et Australie"
+          ]
+        },
+        {
+          "heading": "3. CamperMate : le meilleur compagnon gratuit si vous louez chez Travellers Autobarn",
+          "body": [
+            "CamperMate est l’app que Travellers Autobarn remet à ses clients, et Spaceships a fusionné sa propre app avec CamperMate en 2023. Elle est gratuite, couvre la Nouvelle-Zélande et l’Australie, affiche les campings, les toilettes, les <a data-guide=\"camping-wastewater-rubbish-new-zealand\">aires de vidange</a> et les points Wi-Fi, permet de réserver des campings et télécharge les cartes et les informations sur les lieux pour une utilisation sans réseau. CamperMate se présente aussi comme partenaire de voyage officiel d’Apollo, Maui, Britz et Mighty.",
+            "Sa moyenne sur l’App Store néo-zélandais était de 4,4 sur 606 notes ; sur Google Play, elle était de 4,0 sur 12 568 notes, et l’app affiche des publicités. Certains auteurs d’avis récents n’aiment pas sa refonte."
+          ],
+          "tips": [
+            "À choisir pour : une app gratuite polyvalente",
+            "Cartes téléchargeables",
+            "Contient des publicités"
+          ]
+        },
+        {
+          "heading": "4. Rankers Camping NZ : la meilleure pour les avis sur les lieux où passer la nuit",
+          "body": [
+            "Rankers est gratuite et recense plus de 1 500 campings parmi plus de 6 600 lieux, dont des aires de vidange, des points d’eau et du GPL, avec plus de 108 000 avis de voyageurs lus par son équipe. Elle ne montre que des lieux où passer la nuit approuvés par la communauté locale, ce qui convient à qui conduit un van et hésite, en fin de journée, entre un site gratuit et un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>.",
+            "Elle est notée 4,7 sur 3 322 notes néo-zélandaises. Les informations sur les campings sont intégrées à l’app et les cartes détaillées se téléchargent en Wi-Fi : téléchargez-les avant de quitter la ville. La limite est l’envers de ses contrôles : comme elle ne répertorie que les lieux approuvés par la communauté, elle montre bien moins de lieux que les plus de 12 000 sites ajoutés par les utilisateurs de WikiCamps New Zealand."
+          ],
+          "tips": [
+            "À choisir pour : les avis de voyageurs",
+            "Gratuit",
+            "Moins de lieux que WikiCamps"
+          ]
+        },
+        {
+          "heading": "5. Camplify : la meilleure pour louer un van de particulier",
+          "body": [
+            "Camplify est une plateforme de partage où des propriétaires louent leurs propres vans et camping-cars. Vous cherchez, réservez et gérez la location dans l’app, et vous écrivez directement au propriétaire. Son site néo-zélandais indique des tarifs journaliers à partir de 85 $, avec protection contre les dommages et assistance routière 24 h/24 et 7 j/7 incluses.",
+            "Elle est notée 4,8 sur 23 notes néo-zélandaises. Chaque van et ses règles varient selon le propriétaire : vérifiez donc, sur l’annonce, le warrant d’autonomie, la franchise d’assurance et les limites de kilométrage avant de réserver."
+          ],
+          "tips": [
+            "À choisir pour : les vans de particuliers",
+            "Écrivez au propriétaire dans l’app",
+            "Vérifiez le warrant sur chaque annonce"
+          ]
+        },
+        {
+          "heading": "6. Imoova : la meilleure pour les offres de relocation",
+          "body": [
+            "Les loueurs ont besoin que leurs vans soient ramenés là où se trouve la demande, et les sites de relocation vous laissent les conduire pour très peu. Imoova annonce des relocations à partir de 1 $ par jour et affichait 91 annonces néo-zélandaises le 20 octobre 2026. Elle précise que le carburant, les péages et le stationnement ne sont pas couverts, que certains loueurs ajoutent des avantages comme du carburant ou des billets de ferry pour les déplacements urgents, et que le nombre de jours pour terminer le trajet est limité.",
+            "Les loueurs publient aussi leurs propres relocations : Travellers Autobarn proposait une relocation de Christchurch à Auckland en novembre : sept jours gratuits, 1 500 km autorisés, une caution de 3 500 $ et 200 $ de frais d’annulation. L’app Imoova est gratuite mais ne comptait que 1 note néo-zélandaise : lisez donc attentivement la caution, le plafond de kilomètres et les dates de chaque annonce."
+          ],
+          "tips": [
+            "À choisir pour : des allers simples à petit prix",
+            "Carburant en général non compris",
+            "Dates imposées et caution à prévoir"
+          ]
+        },
+        {
+          "heading": "7. App NZMCA : la meilleure pour les membres de la NZMCA en long voyage",
+          "body": [
+            "L’app de la New Zealand Motor Caravan Association n’ouvre son Travel Directory qu’aux membres. L’adhésion coûte 252 $ NZ la première année (150 $ NZ de frais d’inscription et 102 $ NZ de cotisation annuelle), et les membres peuvent séjourner dans les NZMCA Parks pour 5 $ NZ par adulte et par nuit.",
+            "L’app iPhone n’avait pas encore de notes néo-zélandaises et la version Android était notée 3,2 sur 156 notes sur Google Play. Il n’est pas nécessaire de posséder un camping-car pour adhérer, mais tout véhicule utilisé doit être <a data-guide=\"self-contained-campervan-green-warrant\">certifié self-contained</a> : comparez donc le coût de l’adhésion au nombre de nuits que vous comptez passer dans ses parcs."
+          ],
+          "tips": [
+            "À choisir pour : les membres de la NZMCA en long voyage",
+            "Réservé aux membres",
+            "NZMCA Parks à 5 $ NZ par adulte"
+          ]
+        },
+        {
+          "heading": "Warrants verts : la vérification qu’aucune app ne fait pour vous",
+          "body": [
+            "Depuis le 7 juin 2026, les warrants d’autonomie bleus ne sont plus reconnus pour le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, et le Plumbers, Gasfitters and Drainlayers Board (l’autorité néo-zélandaise des plombiers, gaziers et poseurs de canalisations) indique que le freedom camping sur terrain public sans warrant vert est passible d’une amende forfaitaire de 400 $. Un véhicule certifié doit avoir des toilettes fixées à demeure et utilisables à l’intérieur, ainsi que une réserve d’eau propre, un évier et de quoi stocker les eaux usées et les déchets.",
+            "Ces règles s’appliquent au freedom camping sur terrain public, pas aux campings, aux holiday parks ni aux terrains privés. Le repère de freedom camping d’une app ne vous dit pas si votre van répond aux critères : cherchez donc la carte du <a data-guide=\"self-contained-campervan-green-warrant\">warrant vert</a> quand vous récupérez le van."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Autres apps utiles dans le van",
+          "body": [
+            "Gaspy affiche les prix du carburant signalés par ses utilisateurs et est gratuite, avec un abonnement Gold facultatif à 1,69 $ NZ par mois. MetService diffuse les alertes officielles de <a data-guide=\"new-zealand-severe-weather-camping\">météo violente</a>, qui comptent quand on roule en van sur une route exposée, et Plan My Walk couvre les alertes sur les sentiers pour les jours de randonnée.",
+            "Si votre van roule au diesel, demandez au loueur comment il facture les road user charges (redevances kilométriques) : Spaceships, par exemple, les facture après le voyage, selon la distance parcourue."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Comment nous avons choisi et vérifié",
+          "body": [
+            "Nous avons examiné les apps vers lesquelles les loueurs néo-zélandais orientent leurs clients, ainsi que celles que les voyageurs en van utilisent pour les sites, les relocations et l’adhésion. Les notes et les prix viennent de l’App Store néo-zélandais le 20 octobre 2026 ; les conditions de location et de relocation viennent du site de chaque société ce jour-là et changent souvent.",
+            "Nous présentons les fonctions comme les développeurs et les sociétés les décrivent : une fonction non mentionnée ici ne signifie donc pas qu’une app en est dépourvue."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la meilleure app pour un voyage en van en Nouvelle-Zélande ?",
+          "Cela dépend de la phase du voyage. Pour planifier les nuits dans des campings du DOC, nous recommandons KiwiCamping, que nous développons ; thl Roadtrip convient aux clients de Maui, Britz, Mighty et Apollo, CamperMate est une app gratuite polyvalente, et Rankers ajoute des avis de voyageurs sur les lieux où dormir."
+        ],
+        [
+          "Comment fonctionnent les relocations de vans en Nouvelle-Zélande ?",
+          "Un loueur a besoin qu’un van soit déplacé : il le propose donc à partir de 1 $ par jour, à des dates fixes. Imoova précise que le carburant, les péages et le stationnement ne sont pas couverts, même si certains loueurs ajoutent du carburant ou un billet de ferry, et des sociétés comme Travellers Autobarn demandent une caution."
+        ],
+        [
+          "Faut-il un warrant vert pour faire du freedom camping en van ?",
+          "Oui, sur les terrains publics où le freedom camping est limité aux véhicules self-contained. Depuis le 7 juin 2026, les warrants bleus ne sont plus reconnus, et camper sans warrant vert est passible d’une amende forfaitaire de 400 $. Les campings, holiday parks et terrains privés ne sont pas concernés par cette règle."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Britz : l’app thl Roadtrip"
+        },
+        {
+          "label": "Travellers Autobarn : l’app CamperMate"
+        },
+        {
+          "label": "Travellers Autobarn : relocations de vans"
+        },
+        {
+          "label": "Spaceships : apps de camping"
+        },
+        {
+          "label": "Imoova : qu’est-ce qu’une relocation"
+        },
+        {
+          "label": "Camplify New Zealand"
+        },
+        {
+          "label": "NZMCA : tarifs d’adhésion"
+        },
+        {
+          "label": "App Rankers Camping NZ"
+        },
+        {
+          "label": "Véhicules self-contained (Plumbers, Gasfitters and Drainlayers Board)"
+        },
+        {
+          "label": "Road user charges (redevances kilométriques, govt.nz)"
+        },
+        {
+          "label": "Spaceships : road user charges"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-weather-apps-new-zealand": {
+      "title": "Apps météo camping et randonnée en Nouvelle-Zélande en 2026",
+      "description": "MetService, Windy, Yr, Plan My Walk, Apple Weather et KiwiCamping comparées pour camper et randonner en Nouvelle-Zélande, plus les prévisions de montagne du web (octobre 2026).",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Nuages lenticulaires au-dessus du lac Pukaki, avec Aoraki Mount Cook à l’horizon",
+      "intro": "En Nouvelle-Zélande, le temps change vite, et la bonne app dépend de la question : une alerte de météo violente couvre-t-elle le camping de ce soir, quelle sera la force du vent demain sur une crête, ou quel refuge de l’itinéraire sera sous la pluie ? Aucune app ne répond aux trois. Voici les apps météo que nous utiliserions pour le camping et la randonnée (tramping) en 2026, avec les notes et les prix de l’App Store néo-zélandais vérifiés le 20 octobre 2026, ainsi que les sites officiels qui battent encore toutes les apps pour les prévisions de montagne. KiwiCamping est la nôtre, elle arrive donc en premier ; c’est le bon choix pour un seul usage, et les autres font mieux pour le reste.",
+      "sections": [
+        {
+          "heading": "Les meilleures apps météo en un coup d’œil",
+          "body": [
+            "Utilisez MetService pour les alertes officielles, Windy ou Yr pour une seconde prévision et pour le vent, et Plan My Walk les jours de randonnée. KiwiCamping affiche une prévision sur chaque camping et chaque refuge de votre voyage, ce qui aide à choisir entre plusieurs lieux mais n’est pas un service d’alerte. Avant de monter au-dessus de la limite des arbres, lisez sur le web les prévisions de montagne de MetService et le New Zealand Avalanche Advisory (bulletin d’avis d’avalanche).",
+            "Nos recherches n’ont trouvé aucun test indépendant de la précision des apps météo en Nouvelle-Zélande : considérez donc comme une opinion toute affirmation qu’une app est la plus précise. Ce qui se vérifie, c’est la source : MetService est le seul fournisseur autorisé d’alertes de <a data-guide=\"new-zealand-severe-weather-camping\">météo violente</a> en Nouvelle-Zélande."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Vérifié le 20 octobre 2026 sur l’App Store néo-zélandais. Les notes sont les moyennes de l’App Store néo-zélandais, suivies du nombre de notes.",
+            "head": [
+              "App",
+              "Idéale pour",
+              "Prix",
+              "Note NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Une prévision pour chaque camping et chaque refuge de votre voyage",
+                "Téléchargement gratuit, avec achats intégrés",
+                "3,8 (4)"
+              ],
+              [
+                "MetService",
+                "Alertes et vigilances officielles",
+                "Gratuit avec publicités ; sans publicité 1,99 $ NZ par mois",
+                "2,4 (1 126)"
+              ],
+              [
+                "Windy.com",
+                "Vent, rafales et nombreux modèles de prévision",
+                "Gratuit ; achat intégré Premium",
+                "4,8 (9 058)"
+              ],
+              [
+                "Yr",
+                "Une seconde prévision gratuite",
+                "Gratuit",
+                "3,6 (87)"
+              ],
+              [
+                "Plan My Walk",
+                "Jours de randonnée et alertes sur les sentiers",
+                "Gratuit",
+                "4,6 (612)"
+              ],
+              [
+                "Apple Weather",
+                "Coups d’œil rapides, intégrée à l’iPhone",
+                "Gratuit",
+                "4,7 (18 741)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping : la meilleure pour comparer la météo de vos prochains campings",
+          "body": [
+            "KiwiCamping affiche Apple Weather sur la fiche de chaque lieu : conditions actuelles, rafales, température ressentie et sept jours de maximales et de minimales. Dans un voyage, chaque étape montre la prévision du jour où vous comptez arriver : vous voyez donc, avant de prendre la route, si le camping au bord du lac ou celui, abrité, dans le bush convient mieux aux deux prochaines nuits.",
+            "C’est donc un outil de planification, pas un outil de sécurité. L’app ne relaie pas les alertes de MetService et a besoin de réseau pour charger une prévision. Les fiches des lieux, avec les équipements et les tarifs, restent sur le téléphone quand la couverture disparaît. Elle n’existe que sur iPhone, avec iOS 26 ou version ultérieure, et compte 4 notes néo-zélandaises (3,8)."
+          ],
+          "tips": [
+            "À choisir pour : la météo de chaque étape de votre voyage",
+            "iPhone uniquement, iOS 26 ou version ultérieure",
+            "Pas un service d’alerte"
+          ]
+        },
+        {
+          "heading": "2. MetService : la meilleure pour les alertes officielles",
+          "body": [
+            "MetService est le service météorologique national de la Nouvelle-Zélande et le seul fournisseur autorisé d’alertes de <a data-guide=\"new-zealand-severe-weather-camping\">météo violente</a>. Son app affiche les alertes et les vigilances pour votre position, le radar de pluie, des graphiques de prévisions à 48 heures, des cartes de pluie à trois jours, l’indice UV et le danger d’incendie, avec des notifications en cas de météo violente. Elle est gratuite avec publicités, ou sans publicité pour 1,99 $ NZ par mois ou 22,99 $ NZ par an.",
+            "C’est aussi l’app la moins bien notée de cette comparaison : 2,4 sur 1 126 notes néo-zélandaises, avec des avis, sur sa page de l’App Store, qui critiquent les publicités et le design. Ses prévisions de montagne, marines et rurales se trouvent sur metservice.com et non dans cette app, et ses apps distinctes Marine et Rural Weather ont été mises à jour pour la dernière fois en 2023."
+          ],
+          "tips": [
+            "À choisir pour : les alertes et vigilances officielles",
+            "Sans publicité : 1,99 $ NZ par mois",
+            "Les prévisions de montagne sont sur le site web"
+          ]
+        },
+        {
+          "heading": "3. Windy.com : la meilleure pour le vent et la comparaison des prévisions",
+          "body": [
+            "Windy propose plus de 15 modèles météo, dont le modèle européen ECMWF, sur des cartes animées du vent, des rafales, de la pluie et des nuages. C’est utile quand les prévisions divergent : si les modèles s’accordent sur un changement de temps avec un vent du sud, organisez-vous en conséquence ; sinon, gardez un plan flexible. Elle est notée 4,8 sur 9 058 notes néo-zélandaises.",
+            "Elle est gratuite, avec un achat intégré Premium qui ajoute la comparaison de modèles, des prévisions à résolution d’une heure, une tendance à 15 jours et des boucles radar sur 24 heures. Elle n’émet pas d’alertes pour la Nouvelle-Zélande : associez-la donc à MetService."
+          ],
+          "tips": [
+            "À choisir pour : le vent, les rafales et les modèles de prévision",
+            "Premium ajoute la comparaison de modèles",
+            "Pas d’alertes officielles néo-zélandaises"
+          ]
+        },
+        {
+          "heading": "4. Yr : la meilleure pour un second avis simple et gratuit",
+          "body": [
+            "Yr est l’app gratuite du service météorologique public norvégien, dont elle utilise les prévisions dans le monde entier, y compris les prévisions par lieu pour la Nouvelle-Zélande. Sa fiche néo-zélandaise n’indique aucun achat intégré. Elle est notée 3,6 sur 87 notes néo-zélandaises.",
+            "Certains randonneurs la recommandent sur des forums, mais nous n’avons trouvé aucun test indépendant de ses performances ici. Servez-vous-en pour recouper MetService plutôt que comme seule source."
+          ],
+          "tips": [
+            "À choisir pour : un recoupement gratuit",
+            "Prévisions du service météo norvégien",
+            "Pas d’alertes néo-zélandaises"
+          ]
+        },
+        {
+          "heading": "5. Plan My Walk : la meilleure pour les jours de randonnée",
+          "body": [
+            "Plan My Walk, du New Zealand Mountain Safety Council (conseil néo-zélandais de la sécurité en montagne), associe prévisions et alertes météo aux alertes officielles sur plus de 3 500 sentiers, refuges et campings, et envoie votre plan de sortie à un contact d’urgence. L’app est gratuite, et ses 612 notes sur l’App Store néo-zélandais donnent une moyenne de 4,6.",
+            "Le Land Safety Code du DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) vous demande de consulter la météo, de modifier vos plans au besoin et de prévenir quelqu’un de votre itinéraire ; cette app réunit les deux sur un seul écran."
+          ],
+          "tips": [
+            "À choisir pour : les balades et les randonnées",
+            "Envoie votre plan à un contact",
+            "Gratuit"
+          ]
+        },
+        {
+          "heading": "6. Apple Weather : la meilleure pour un coup d’œil rapide sur iPhone",
+          "body": [
+            "Apple Weather est livrée avec l’iPhone et notée 4,7 sur 18 741 notes néo-zélandaises. Apple cite MetService parmi ses sources de données pour la <a data-guide=\"new-zealand-severe-weather-camping\">météo violente</a> en Nouvelle-Zélande, mais les prévisions de pluie pour l’heure suivante n’y sont pas proposées : les alertes de pluie minute par minute que certains voyageurs connaissent dans d’autres pays n’apparaîtront donc pas.",
+            "Elle suffit pour un coup d’œil sur la semaine à venir. Pour une journée en montagne ou un camping exposé, consultez aussi la prévision de MetService elle-même."
+          ],
+          "tips": [
+            "À choisir pour : un contrôle quotidien rapide",
+            "Intégrée à l’iPhone",
+            "Pas de prévision de pluie pour l’heure suivante en NZ"
+          ]
+        },
+        {
+          "heading": "Les prévisions qui n’existent que sur des sites web",
+          "body": [
+            "MetService publie des prévisions de montagne pour des parcs nationaux et des régions comme Aoraki/Mount Cook, Arthur’s Pass, Fiordland, Mount Aspiring, Nelson Lakes et Tongariro, ainsi qu’une prévision de montagne pour la Nouvelle-Zélande, sur les zones au-dessus de 800 m, qui indique l’altitude du zéro degré. Son site propose aussi des prévisions marines et rurales.",
+            "Le DOC oriente les randonneurs vers les prévisions de parcs du NIWA sur weather.niwa.co.nz, désormais gérées par Earth Sciences New Zealand, et vers le New Zealand Avalanche Advisory avant toute sortie en terrain avalancheux. Enregistrez ces pages avant de perdre le réseau : aucune ne se mettra à jour une fois que vous serez hors couverture."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Alertes, vigilances et ce qu’elles vous demandent",
+          "body": [
+            "MetService utilise trois niveaux. Une vigilance jaune (watch) signifie qu’un épisode de <a data-guide=\"new-zealand-severe-weather-camping\">météo violente</a> est possible mais pas encore certaine : restez attentif. Une alerte orange (warning) demande d’agir, et la plupart des alertes sont orange. Une alerte rouge, réservée aux événements les plus extrêmes, demande d’agir immédiatement.",
+            "Pour les campeurs, une alerte orange pour fortes pluies ou vent signale qu’il est temps de s’éloigner des rivières et des crêtes exposées et de choisir un site abrité. Notre guide sur la météo violente en camping explique quoi faire à chaque niveau."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Comment nous avons choisi et vérifié",
+          "body": [
+            "Nous avons comparé les apps météo les plus utilisées par les campeurs et les randonneurs en Nouvelle-Zélande, en privilégiant les sources officielles. Les notes, les prix et les fonctions viennent de la fiche néo-zélandaise de chaque app sur l’App Store le 20 octobre 2026, et les définitions des alertes de la page de MetService elle-même.",
+            "Nous décrivons les fonctions comme le font leurs développeurs : une fonction non mentionnée ne signifie donc pas qu’une app en est dépourvue. Une prévision reste une prévision : le jour même, ce que vous voyez sur le terrain prime sur toute app."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la meilleure app météo pour la Nouvelle-Zélande ?",
+          "Pour les alertes officielles de météo violente, utilisez MetService, le seul fournisseur autorisé en Nouvelle-Zélande. Ajoutez Windy ou Yr pour une seconde prévision, Plan My Walk les jours de randonnée, et KiwiCamping, que nous développons, pour comparer la météo de chaque camping de votre voyage."
+        ],
+        [
+          "Quelle app météo est la plus précise en Nouvelle-Zélande ?",
+          "Nous n’avons trouvé aucun test indépendant qui permette de répondre. Comparez deux sources, comme MetService et Windy, et considérez leur accord comme plus fiable que l’une ou l’autre seule. En montagne, utilisez les prévisions de montagne de MetService sur son site."
+        ],
+        [
+          "Où trouver une prévision météo de montagne en Nouvelle-Zélande ?",
+          "MetService publie sur metservice.com des prévisions de montagne pour des parcs nationaux et des régions comme Aoraki/Mount Cook, Arthur’s Pass, Fiordland et Tongariro, avec l’altitude du zéro degré. Consultez aussi le New Zealand Avalanche Advisory avant de vous engager en terrain avalancheux."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MetService : à propos des alertes de météo violente"
+        },
+        {
+          "label": "MetService : apps météo"
+        },
+        {
+          "label": "MetService : prévisions de montagne et de parcs"
+        },
+        {
+          "label": "Données de la fiche Windy.com (Apple, boutique NZ)"
+        },
+        {
+          "label": "Données de la fiche Yr (Apple, boutique NZ)"
+        },
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "Apple Weather : sources de données"
+        },
+        {
+          "label": "DOC : la météo et le Land Safety Code"
+        },
+        {
+          "label": "NIWA Weather (Earth Sciences New Zealand)"
+        },
+        {
+          "label": "New Zealand Avalanche Advisory"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
