@@ -5121,5 +5121,231 @@
     "decline": "Weigeren",
     "policy": "Privacybeleid",
     "choices": "Privacykeuzes"
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Home",
+      "breadcrumbTools": "Rekenhulpen",
+      "howTitle": "Zo werkt de berekening",
+      "exampleTitle": "Rekenvoorbeeld",
+      "assumptionsTitle": "Aannames",
+      "sourcesTitle": "Bronnen",
+      "faqTitle": "Veelgestelde vragen",
+      "guidesTitle": "Gerelateerde gidsen",
+      "otherToolsTitle": "Meer rekenhulpen voor je roadtrip",
+      "openTool": "Open de rekenhulp",
+      "ctaEyebrow": "Plan het in KiwiCamping",
+      "ctaTitle": "Vind je stops en reken het dan uit.",
+      "ctaText": "KiwiCamping is gratis te downloaden voor iPhone. Boekbare holiday parks, verblijven en tours zijn gratis in de app. DOC-campings, hutten, lozingspunten en de gidsen open je met de Pass.",
+      "ctaButton": "Download de app",
+      "enterValidValues": "Vul geldige waarden in",
+      "enterValidAmount": "Vul een geldig bedrag in"
+    },
+    "index": {
+      "metaTitle": "Rekenhulpen Nieuw-Zeeland: brandstof, rijtijd, campingkosten",
+      "metaDescription": "Gratis rekenhulpen voor je roadtrip door Nieuw-Zeeland: brandstofkosten, rijtijd per soort weg, campingkosten per persoon of per plek, NZD omrekenen en watertanks van een camper.",
+      "toolsTitle": "Eén rekenhulp per vraag",
+      "toolsText": "Elke rekenhulp heeft een eigen pagina met de formule, een rekenvoorbeeld met Nieuw-Zeelandse cijfers, de aannames erachter en antwoorden op veelgestelde vragen."
+    },
+    "fuel": {
+      "metaTitle": "Brandstofkosten berekenen: camperreis Nieuw-Zeeland",
+      "metaDescription": "Bereken liters en brandstofkosten voor je roadtrip door Nieuw-Zeeland uit afstand, l/100 km en pompprijs. Met formule, voorbeeld van 1.000 km en MBIE-referentieprijs.",
+      "eyebrow": "Rekenhulp brandstofkosten",
+      "cardEyebrow": "Brandstofkosten",
+      "h1": "Brandstofkosten berekenen voor een roadtrip door Nieuw-Zeeland",
+      "intro": "Vul de routeafstand in, het verbruik van je voertuig met lading en de prijs per liter. De standaardprijs is de landelijke pompprijs van MBIE voor gewone 91-benzine in de week tot en met 26 juli 2026.",
+      "cardTitle": "Wat kost die afstand aan brandstof?",
+      "cardText": "Vul de volledige routeafstand in, het verbruik van het voertuig met lading en de verwachte prijs per liter. Op afgelegen plekken kunnen de prijzen hoger liggen dan de referentieprijzen voor steden.",
+      "labelDistance": "Afstand (km)",
+      "labelConsumption": "Verbruik (l/100 km)",
+      "labelPrice": "Brandstofprijs (NZD/l)",
+      "formula": [
+        "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
+        "Kosten = liters × prijs per liter (NZD)"
+      ],
+      "formulaNote": "Het verbruik staat per 100 kilometer, dus delen door 100 geeft liters per kilometer. De som is lineair: bij dubbele afstand verdubbelen zowel de liters als de kosten.",
+      "example": "Een route van {distance} km in een camper met een verbruik van {consumption} l/100 km heeft {litres} liter brandstof nodig. Bij {price} per liter is dat {cost}.",
+      "assumptions": [
+        "De standaardprijs is een landelijke referentie. Afgelegen tankstations, onder meer aan de West Coast en in Fiordland, rekenen vaak meer, dus tank vol voordat je aan een lang stuk zonder plaatsen begint.",
+        "Reken met het verbruik met lading van het voertuig waarin je echt rijdt. Een volgeladen camper gebruikt bergop en tegen de wind meer dan het cijfer in de folder.",
+        "Tel de ritjes rond elke stop erbij. Ritjes naar de supermarkt, uitzichtpunten en zijwegen lopen over een lange route flink op.",
+        "Dieselvoertuigen betalen bovenop de brandstof Road User Charges (RUC) per 1.000 km. Deze rekenhulp rekent alleen de brandstof."
+      ],
+      "faq": [
+        [
+          "Hoeveel brandstof verbruikt een camper in Nieuw-Zeeland?",
+          "Dat hangt af van het voertuig, de lading en de wegen. Gebruik het cijfer van je verhuurder of van het voertuig en houd marge aan voor heuvels. De standaardwaarde van 12 l/100 km is een planningscijfer voor een volgeladen camper, geen gemeten gemiddelde."
+        ],
+        [
+          "Zitten de Road User Charges in de brandstofkosten?",
+          "Nee. Dieselvoertuigen in Nieuw-Zeeland betalen Road User Charges per 1.000 km los van de brandstof. Vraag je verhuurder of RUC in het tarief zit, en check NZTA voor de actuele tarieven."
+        ],
+        [
+          "Waar komt de standaardprijs voor brandstof vandaan?",
+          "Het is de landelijke pompprijs van MBIE voor gewone 91-benzine in de week tot en met 26 juli 2026. MBIE publiceert elke week brandstofprijzen, dus check het nieuwste cijfer voordat je vertrekt."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: uren per soort weg",
+      "metaDescription": "Schat hoe lang een rijdag in Nieuw-Zeeland echt duurt uit afstand, soort weg en stops, met formule, rekenvoorbeeld en de gebruikte snelheden.",
+      "eyebrow": "Rekenhulp rijtijd",
+      "cardEyebrow": "Rijdag inschatten",
+      "h1": "Rijtijd berekenen voor wegen in Nieuw-Zeeland",
+      "intro": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp neemt de afstand die je al kent, een gemiddelde snelheid voor het soort weg en 20 minuten per stop, en daar loopt een rijdag in Nieuw-Zeeland meestal uit.",
+      "cardTitle": "Hoe lang die dag echt duurt.",
+      "cardText": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp telt het soort weg en je echte stops erbij, en daar loopt een dag meestal uit.",
+      "labelDistance": "Afstand (km)",
+      "labelRoadType": "Soort weg",
+      "roadMotorway": "Snelweg of lange rechte weg",
+      "roadHighway": "Hoofdweg",
+      "roadWinding": "Bochtig of langs de kust",
+      "roadNarrow": "Smal, steil of onverhard",
+      "labelStops": "Stops",
+      "hoursMinutes": "{hours} u {minutes} min",
+      "formula": [
+        "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
+        "Totaal aantal minuten = rijminuten + 20 × stops"
+      ],
+      "formulaNote": "De gemiddelde snelheid is niet de maximumsnelheid. Daarin zitten bochten, heuvels, eenbaansbruggen, dorpen en langzamer verkeer verrekend. De vier wegtypen rekenen met 85, 70, 60 en 45 km/u.",
+      "example": "Een dag van {distance} km over bochtige wegen of langs de kust met {speed} km/u is {driving} rijden. Tel {stops} stops van elk 20 minuten erbij en de dag duurt {total}.",
+      "assumptions": [
+        "De gemiddelde snelheden zijn planningscijfers voor een auto of camper bij goede omstandigheden, geen gemeten gemiddelden voor een bepaalde weg.",
+        "Elke stop telt als 20 minuten voor tanken, eten, een toilet of een uitzichtpunt. Veerboten, wegwerkzaamheden en lange wandelingen komen daar nog bovenop.",
+        "Het weer, aardverschuivingen en afsluitingen veranderen routes. Check de journey planner van NZTA voor de actuele toestand van de wegen voordat je vertrekt."
+      ],
+      "faq": [
+        [
+          "Hoe ver kun je in één dag rijden in Nieuw-Zeeland?",
+          "Daar bestaat geen vast getal voor. Bochtige wegen, eenbaansbruggen en stops houden de gemiddelde snelheid ruim onder de maximumsnelheid op open weg, dus een dag die op de kaart kort lijkt, kan het grootste deel van het daglicht kosten. Vul afstand en soort weg in om de uren te zien, en plan regelmatig een pauze."
+        ],
+        [
+          "Waarom duurt dit langer dan mijn kaartapp?",
+          "Kaartapps schatten de rijtijd zonder stops. Deze rekenhulp gebruikt een gemiddelde voor het soort weg en rekent tijd per stop erbij, en dat komt dichter bij hoe een kampeerdag echt verloopt."
+        ],
+        [
+          "Werkt het ook voor een camper?",
+          "Ja. Kies een langzamer wegtype als je in een groot voertuig rijdt, een aanhanger trekt of nog niet gewend bent aan links rijden."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campingkosten Nieuw-Zeeland: per persoon of per plek?",
+      "metaDescription": "Vergelijk een DOC-camping die per volwassene rekent met een holiday park dat per plek rekent, voor jouw groep en nachten, met formule, voorbeeld en DOC-tarieven uit de data.",
+      "eyebrow": "Rekenhulp campingkosten",
+      "cardEyebrow": "Campings vergelijken",
+      "h1": "Campingkosten berekenen: per persoon of per plek",
+      "intro": "DOC-campings rekenen per volwassene per nacht, een holiday park meestal per plek. Welke goedkoper is, wisselt met de grootte van je groep. Deze rekenhulp rekent het uit voor jouw nachten.",
+      "cardTitle": "Per persoon of per plek?",
+      "cardText": "Een DOC-camping rekent meestal per volwassene en een holiday park meestal per plek. Welke optie goedkoper is, wisselt met de groepsgrootte, en daar gaan gezinnen de mist mee in.",
+      "labelAdults": "Volwassenen",
+      "labelNights": "Nachten",
+      "labelPerAdult": "Per volwassene (NZD)",
+      "labelPerSite": "Per plek (NZD)",
+      "comparison": "{perAdult} tegenover {perSite} · {verdict}",
+      "theSame": "even duur",
+      "perAdultCheaper": "per volwassene is goedkoper",
+      "perSiteCheaper": "per plek is goedkoper",
+      "formula": [
+        "Totaal per volwassene = volwassenen × nachten × tarief per volwassene",
+        "Totaal per plek = nachten × tarief per plek",
+        "Het laagste totaal is de goedkoopste optie voor je groep"
+      ],
+      "formulaNote": "Het totaal per volwassene groeit met elke extra volwassene, het totaal per plek niet. Daarom verschilt het antwoord voor een stel en voor een gezin.",
+      "example": "{adults} volwassenen die {nights} nachten blijven, betalen bij {rateAdult} per volwassene {totalAdult}. Hetzelfde verblijf kost bij {rateSite} per plek {totalSite}, dus {verdict}.",
+      "assumptions": [
+        "Kinderen zijn niet meegerekend. Veel DOC-campings rekenen een lager tarief voor kinderen van 5 tot 17 jaar en niets voor baby’s, en holiday parks bepalen zelf hun kindertarieven.",
+        "De standaardtarieven zijn voorbeelden, geen prijsopgaven. In de DOC-data per {docDate} zijn {docFree} DOC-campings gratis, en het laagste tarief voor volwassenen bij de betaalde campings loopt uiteen van {docMin} tot {docMax} per nacht.",
+        "Holiday parks bepalen zelf hun prijzen, die wisselen met het seizoen, de stroom en de grootte van de plek. Check het park voordat je boekt."
+      ],
+      "faq": [
+        [
+          "Hoeveel kost een kampeerplek per nacht in Nieuw-Zeeland?",
+          "DOC-campings zijn gratis of rekenen per volwassene. In de DOC-data per {docDate} loopt het laagste tarief voor volwassenen bij betaalde DOC-campings uiteen van {docMin} tot {docMax} per nacht, met een mediaan van {docMedian}. Holiday parks bepalen zelf hun plekprijzen, dus vergelijk het totaal voor je groep."
+        ],
+        [
+          "Is per persoon of per plek goedkoper voor een gezin?",
+          "Per plek wint meestal naarmate de groep groter wordt, want de plekprijs blijft gelijk terwijl de kosten per volwassene zich vermenigvuldigen. Vul je eigen tarieven in om te zien waar het omslagpunt ligt."
+        ],
+        [
+          "Betalen kinderen op DOC-campings?",
+          "Op veel DOC-campings betalen kinderen van 5 tot 17 jaar een lager tarief en zijn baby’s gratis. Het tarief van elke camping staat op de DOC-pagina."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "NZD omrekenen: Nieuw-Zeelandse prijzen in 9 valuta",
+      "metaDescription": "Reken prijzen in Nieuw-Zeelandse dollars om naar en van USD, EUR, GBP, AUD, JPY, CNY, KRW, INR en SGD met referentiekoersen van de Reserve Bank of New Zealand.",
+      "eyebrow": "Valuta omrekenen",
+      "cardEyebrow": "Valuta omrekenen",
+      "h1": "NZD omrekenen voor prijzen op je reis door Nieuw-Zeeland",
+      "intro": "Reken een Nieuw-Zeelandse prijs om naar je eigen valuta, of je eigen valuta naar Nieuw-Zeelandse dollars, met referentiekoersen van de Reserve Bank of New Zealand van {rateDate}.",
+      "cardTitle": "Reken een Nieuw-Zeelandse prijs om.",
+      "cardText": "Richtomrekening voor je reisplanning met koersen van de Reserve Bank of New Zealand van {rateDate}. Je bank of kaart kan een andere koers gebruiken en kosten rekenen.",
+      "labelAmount": "Bedrag",
+      "labelFrom": "Van",
+      "labelTo": "Naar",
+      "formula": [
+        "Bedrag in NZD = bedrag ÷ koers van de valuta waarvan je omrekent",
+        "Resultaat = bedrag in NZD × koers van de valuta waarnaar je omrekent"
+      ],
+      "formulaNote": "Elke koers is het aantal eenheden van die valuta per 1 Nieuw-Zeelandse dollar, dus elke omrekening loopt via NZD.",
+      "example": "{amount} tegen {rate} Amerikaanse dollar per Nieuw-Zeelandse dollar is {converted}.",
+      "assumptions": [
+        "Dit zijn referentiekoersen van {rateDate}. Wisselkoersen veranderen elke dag.",
+        "Banken, kaarten en geldautomaten gebruiken eigen koersen en kunnen kosten rekenen, dus het bedrag dat je betaalt kan afwijken.",
+        "Japanse yen en Koreaanse won worden zonder decimalen getoond."
+      ],
+      "faq": [
+        [
+          "Welke valuta wordt in Nieuw-Zeeland gebruikt?",
+          "De Nieuw-Zeelandse dollar (NZD). Prijzen in winkels, op campings en in holiday parks staan in NZD."
+        ],
+        [
+          "Is dit de koers die mijn bank me geeft?",
+          "Waarschijnlijk niet precies. De rekenhulp gebruikt referentiekoersen van {rateDate}. Je bank of kaartuitgever rekent een eigen koers en kosten, dus zie het resultaat als een planningscijfer."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Watertank camper berekenen: dagen schoon water en grijswater",
+      "metaDescription": "Bereken hoeveel dagen de schoonwater- en grijswatertank van een camper meegaan voor jouw groep, met formule, rekenvoorbeeld en de dagcijfers erachter.",
+      "eyebrow": "Rekenhulp watertank",
+      "cardEyebrow": "Water en afvalwater plannen",
+      "h1": "Watertank camper berekenen",
+      "intro": "Een tankinhoud in liters wordt pas bruikbaar als je er dagen van maakt. Vul de inhoud van de schoonwater- en grijswatertank in en het aantal personen om te zien welke tank je limiet bepaalt.",
+      "cardTitle": "Hoeveel dagen kun je zonder voorzieningen?",
+      "cardText": "Een inhoud in liters wordt pas bruikbaar als je die in dagen uitdrukt. Schoon water en grijswater staan apart, want de tank die het eerst op is, bepaalt de limiet.",
+      "labelFresh": "Schoon water (l)",
+      "labelGrey": "Grijswater (l)",
+      "labelPeople": "Personen",
+      "days": "{fresh} dagen schoon water · {grey} dagen grijswater",
+      "formula": [
+        "Dagen schoon water = schoonwatertank (l) ÷ (personen × 11 l per dag)",
+        "Dagen grijswater = grijswatertank (l) ÷ (personen × 9 l per dag)",
+        "De laagste van de twee is hoe lang je kunt blijven staan voordat je moet bijvullen of legen"
+      ],
+      "formulaNote": "Grijswater is het afvalwater van gootsteen en douche. Het is minder dan het verbruik van schoon water, omdat drinkwater en kookwater niet allemaal in de tank terechtkomen.",
+      "example": "{people} personen met een schoonwatertank van {freshTank} liter en een grijswatertank van {greyTank} liter hebben {freshDays} dagen schoon water en {greyDays} dagen grijswater, dus de schoonwatertank bepaalt de limiet.",
+      "assumptions": [
+        "11 liter schoon water en 9 liter grijswater per persoon per dag zijn planningscijfers voor zuinig gebruik: drinken, koken, afwassen en een snelle wasbeurt. Douchen gebruikt veel meer.",
+        "Cassettetoiletten en zwartwater zijn niet meegerekend.",
+        "Loos grijswater alleen bij een lozingspunt. Nooit op de grond of in een regenwaterafvoer."
+      ],
+      "faq": [
+        [
+          "Hoe lang gaat 100 liter schoon water mee in een camper?",
+          "Voor twee zuinige gebruikers die elk 11 liter per dag gebruiken, ongeveer vier en een halve dag. Douchen en kleren wassen verkorten dat flink."
+        ],
+        [
+          "Waar kan ik grijswater lozen in Nieuw-Zeeland?",
+          "Bij een dump station. Veel holiday parks hebben er een, en in veel plaatsen beheert de gemeente openbare lozingspunten. Loos grijswater nooit op de grond of in een regenwaterafvoer."
+        ],
+        [
+          "Welke tank is het eerst op?",
+          "Degene die voor jouw gebruik het kleinst is. Grijswatertanks zijn vaak kleiner dan schoonwatertanks, dus check beide en kijk niet alleen naar de meter van het schoonwater."
+        ]
+      ]
+    }
   }
 }
