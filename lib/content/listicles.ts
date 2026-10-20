@@ -51,7 +51,7 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: one app for NZ and Australia", "Free; ads on Android", "Recent reviews are mixed"]),
       s("3. WikiCamps New Zealand: best for the most sites listed", [
         "WikiCamps New Zealand describes more than 12,000 New Zealand sites contributed by its users, with reviews, photos, a trip planner that estimates fuel spend and an Offline Mode for sites and trips. It costs NZ$7.99 once on the App Store, with no subscription.",
-        "The trade-off against Rankers is curation. Rankers lists only community-approved overnight spots; WikiCamps lists far more, and accuracy varies between entries. It rated 4.5 from 137 on the New Zealand App Store and 3.0 from 1,042 on Google Play.",
+        "The trade-off against Rankers is curation. Rankers lists only community-approved overnight spots; WikiCamps lists far more, added and kept up to date by its users, so you check more of them yourself. It rated 4.5 from 137 on the New Zealand App Store and 3.0 from 1,042 on Google Play.",
       ], ["Choose it for: maximum coverage, paid once", "NZ$7.99 upfront on iPhone", "Check user-added sites"]),
       s("4. thl Roadtrip: best for a simple, free view of what is nearby", [
         "thl Roadtrip is a free app from Tourism Holdings that uses your location to show nearby campsites, holiday parks, petrol stations and dump stations in New Zealand and Australia. It rated 4.7 from 122 ratings on the New Zealand App Store.",
