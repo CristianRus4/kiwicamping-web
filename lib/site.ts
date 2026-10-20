@@ -8,7 +8,7 @@ import { legacyOnlyArticles } from "@/lib/content/legacy";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
-export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection } from "@/lib/article-model";
+export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection, ArticleTable } from "@/lib/article-model";
 export { makeArticle, section, articleHref } from "@/lib/article-model";
 
 export const SITE_URL = "https://campingapp.nz";

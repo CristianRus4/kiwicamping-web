@@ -1,6 +1,6 @@
 import { translationFiles } from "./translations/index";
 import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
-import { articles, categories, type Article, type ArticleCategory } from "./site";
+import { articles, categories, type Article, type ArticleCategory, type ArticleTable } from "./site";
 import { hasReviews, liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
 
 export { liveLocales, localeCodes, routedLocales, type LocaleCode };
@@ -18,7 +18,7 @@ export const localeArticles = articles;
 export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
 export const localeCategories = categories;
 
-type TranslatedSection = { heading?: string; body?: string[]; tips?: string[] };
+type TranslatedSection = { heading?: string; body?: string[]; tips?: string[]; table?: { caption?: string; head?: string[]; rows?: string[][] } };
 type TranslatedArticle = {
   title?: string; description?: string; category?: string; region?: string; imageAlt?: string; intro?: string;
   sections?: TranslatedSection[]; sources?: { label?: string }[]; faq?: [string, string][];
@@ -178,6 +178,9 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         heading: item!.sections![index].heading!,
         body: item!.sections![index].body!,
         tips: section.tips ? item!.sections![index].tips : undefined,
+        // Shown only when translated whole, so a translated page never carries an English table.
+        table: section.table && tableTranslated(section.table, item!.sections![index].table) ? item!.sections![index].table as ArticleTable : undefined,
+        cta: section.cta,
       })),
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),
@@ -192,12 +195,18 @@ export function localizedArticles(locale: LocaleCode): Article[] {
   });
 }
 
+/** Same shape as the English table and every cell filled. */
+function tableTranslated(english: ArticleTable, translated: TranslatedSection["table"]): boolean {
+  return !!translated && filled(translated.caption) && translated.head?.length === english.head.length && translated.head.every(filled)
+    && translated.rows?.length === english.rows.length && translated.rows.every((row, index) => row.length === english.rows[index].length && row.every(filled));
+}
+
 /** Characters per minute for CJK prose, a common silent-reading rate for Japanese and Chinese. */
 const CJK_CHARACTERS_PER_MINUTE = 500;
 function cjkReadingMinutes(article: Article): number {
   const text = [
     article.intro,
-    ...article.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...article.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? []), ...(part.table ? [part.table.caption, ...part.table.head, ...part.table.rows.flat()] : [])]),
     ...(article.priceTable ? [article.priceTable.note, ...article.priceTable.rows.map((row) => `${row.label}${row.unit ?? ""}`)] : []),
   ].join("").replace(/<[^>]+>/g, "");
   const characters = text.match(/[\p{L}\p{N}]/gu)?.length ?? 0;
