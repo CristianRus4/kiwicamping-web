@@ -386,7 +386,7 @@
   "articles": {
     "new-zealand-biosecurity-camping-gear": {
       "title": "Vad får du ta med in i Nya Zeeland? Deklarera kängor och tält",
-      "description": "Använda kängor, tält och fiskeutrustning måste deklareras när du kommer till Nya Zeeland. Vad du rengör före flyget och hur du hindrar skadedjur mellan vattendrag.",
+      "description": "Använda kängor, tält och fiskeutrustning måste deklareras när du kommer till Nya Zeeland. Så rengör du utrustningen före flyget och undviker att sprida skadedjur mellan vattendrag.",
       "region": "Gränsen och naturen i Nya Zeeland",
       "imageAlt": "Rengjorda vandringskängor redo för gränskontrollen i Nya Zeeland",
       "intro": "Kängor, tält och annan utrustning som redan har varit ute i naturen kan föra med sig frön, jord, insekter och skadegörare som lever i vatten. Biosäkerheten börjar vid gränsen, men den fortsätter när du flyttar utrustningen mellan olika naturmiljöer i Nya Zeeland.",
@@ -496,7 +496,7 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Köra husbil i Nya Zeeland: körkort, fart och storlek (2026)",
-      "description": "Köra husbil i Nya Zeeland: vad ett vanligt körkort täcker, hastighetsgränser, vind på utsatta vägar, färjornas mått och misstagen som besökare gör.",
+      "description": "Köra husbil i Nya Zeeland: vad du får köra på ett vanligt körkort, hastighetsgränser, vind på utsatta vägar, färjornas mått och misstagen som besökare gör.",
       "region": "Nya Zeelands vägar",
       "imageAlt": "Stor husbil på en smal väg i Nya Zeeland",
       "intro": "En husbil kan vara laglig att köra på ett vanligt Class 1-körkort och ändå kännas helt annorlunda än en bil. Använd överlämningen till att ta reda på höjd, bredd, längd och vikt med last, och vilka vägar hyresavtalet inte tillåter.",
@@ -606,7 +606,7 @@
     },
     "towing-caravan-new-zealand": {
       "title": "Köra med husvagn i Nya Zeeland: körkort, vikt och 90 km/h",
-      "description": "Max 90 km/h med dragkrok, 50 km/h med rep, 6 000 kg sammanlagt på ett vanligt körkort, plus lastning, svajning och vägarna du ska ta långsamt.",
+      "description": "Max 90 km/h med dragkrok och 50 km/h vid bogsering med rep, 6 000 kg sammanlagt på ett vanligt körkort, plus lastning, slingring och vägarna där du ska ta det lugnt.",
       "region": "Nya Zeelands vägar",
       "imageAlt": "Bil med husvagn på en huvudväg i Nya Zeeland",
       "intro": "En husvagn går stabilt när ekipaget är lagligt, lasten rätt fördelad och föraren saktar in innan vägen kräver det. Med Nya Zeelands kurvor och vind spelar den högsta tillåtna hastigheten ingen roll på många sträckor.",
@@ -687,7 +687,7 @@
         {
           "heading": "Vind och utsatta vägar",
           "body": [
-            "En husvagn är en stor plan yta, och sidvind är en stor orsak till svajning och till att förare tappar kontrollen över ekipaget. Utsatta sträckor runt Wellington, Desert Road, Mackenzie och kusten i Canterbury är alla kända för det.",
+            "En husvagn är en stor plan yta, och sidvind är en viktig orsak till att ekipaget börjar slingra och att föraren tappar kontrollen. Utsatta sträckor runt Wellington, Desert Road, Mackenzie och kusten i Canterbury är alla kända för det.",
             "Sakta in innan du når en utsatt sträcka i stället för att reagera när du redan är där. Var extra försiktig när du kommer ut ur en bergskärning eller kör förbi en lastbil, för där tar vinden plötsligt tag och släpper lika plötsligt."
           ],
           "tips": [
@@ -1084,7 +1084,7 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Lägereld Nya Zeeland 2026: eldningssäsong, kolla förbud först",
+      "title": "Lägereld i Nya Zeeland 2026: kolla eldningsförbudet först",
       "description": "Öppen, begränsad eller förbjuden: så fungerar eldningssäsongerna i Nya Zeeland, var du kollar eldningsförbudet, när du behöver tillstånd och hur du lagar mat vid förbud.",
       "region": "Nya Zeeland",
       "imageAlt": "Liten kontrollerad lägereld på en godkänd eldplats",
@@ -1383,7 +1383,7 @@
     },
     "new-zealand-travel-cost-2026": {
       "title": "Resekostnad Nya Zeeland 2026: dagsbudget för campare (NZD)",
-      "description": "Vad en dag i Nya Zeeland kostar 2026: 75 till 120 NZD per person för en sparsam camper, 150 till 260 NZD för en bekväm resa, med daterade priser.",
+      "description": "Vad en dag i Nya Zeeland kostar 2026: 75 till 120 NZD per person för en sparsam campare, 150 till 260 NZD för en bekväm resa, med daterade priser.",
       "region": "Nya Zeeland",
       "imageAlt": "Resenär som räknar på budgeten för en roadtrip i Nya Zeeland",
       "intro": "Rutten och tempot betyder mer än ett nationellt snitt. Byter du ställe varje dag går det åt mer bränsle och du har mer att boka med kort varsel. Reser du lugnare blir det lättare att laga egen mat och utnyttja veckopriser.",
@@ -1461,7 +1461,7 @@
       "faq": [
         [
           "Vad kostar en resa till Nya Zeeland 2026?",
-          "Planeringsspann för 2026: ungefär 75 till 120 NZD per person och dag för en sparsam camper eller backpacker, 150 till 260 NZD för en bekväm resa på egen hand och 280 till 450 NZD med privata rum och betalda aktiviteter. Valet av fordon påverkar totalen mer än något annat."
+          "Planeringsspann för 2026: ungefär 75 till 120 NZD per person och dag för en sparsam campare eller backpacker, 150 till 260 NZD för en bekväm resa på egen hand och 280 till 450 NZD med eget rum och betalda aktiviteter. Valet av fordon påverkar totalen mer än något annat."
         ],
         [
           "Är Nya Zeeland dyrt att resa i?",
@@ -1600,7 +1600,7 @@
         }
       ],
       "priceTable": {
-        "note": "Stats NZ:s nationella genomsnittspriser i detaljhandeln för september 2026, publicerade den 16 oktober 2026. Mjölk anges per liter, utifrån genomsnittet för 2 liter. Erbjudanden, märke, förpackningsstorlek, säsong och frakt till avlägsna orter kan placera en enskild hylla över eller under dessa snitt.",
+        "note": "Stats NZ:s nationella genomsnittspriser i detaljhandeln för september 2026, publicerade den 16 oktober 2026. Mjölk anges per liter, utifrån genomsnittet för 2 liter. Extrapriser, märke, förpackningsstorlek, säsong och frakt till avlägsna orter gör att priset på en enskild hylla kan ligga över eller under dessa snitt.",
         "rows": [
           {
             "label": "Mjölk, standard",
@@ -1907,7 +1907,7 @@
           "heading": "De fyra markslagen",
           "body": [
             "Department of Conservation förvaltar det största allmänna nätverket, flera hundra campingplatser och cirka 950 stugor i nationalparker, skogsparker och naturreservat. Platserna graderas från Basic via Standard och Serviced till Great Walk, och graden säger både vad det kostar och vad som finns. Basic-platser är gratis, medan Serviced-campingarna har vattentoaletter, platser med el och ofta en campingvärd.",
-            "Kommunala friytor är ryggraden i <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. De styrs av lokala föreskrifter, inte av nationella regler, tillåter oftast en eller två nätter och är ofta begränsade till certifierade self-contained-fordon. Eftersom varje kommun skriver sina egna föreskrifter säger en regel som gäller i ett distrikt ingenting om nästa."
+            "Kommunala reservat är ryggraden i <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. De styrs av lokala föreskrifter, inte av nationella regler, tillåter oftast en eller två nätter och är ofta begränsade till certifierade self-contained-fordon. Eftersom varje kommun skriver sina egna föreskrifter säger en regel som gäller i ett distrikt ingenting om nästa."
           ],
           "tips": []
         },
@@ -1915,7 +1915,7 @@
           "heading": "Holiday parks och platser som förvaltas av iwi",
           "body": [
             "Privata <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (större campingar med stugor och kök, ungefär som en svensk familjecamping) har platser med el, varma duschar, tvättstugor, kök och stugor. De är bäst som andningshål mellan nätterna ute i det avlägsna, när tankarna, batterierna, tvätten och du själv behöver tas om hand på en gång. Under högsäsong och kring evenemang blir de fullbokade långt i förväg.",
-            "Platser som förvaltas av iwi, hapū och lokala samfund, med marae-campingar, showgrounds och domain reserves, erbjuder något som det kommersiella nätverket inte har, och de följer sina egna villkor. Respektera tikanga, lämna koha där det efterfrågas och kolla tillgängligheten i förväg i stället för att dyka upp oanmäld."
+            "Platser som förvaltas av iwi, hapū och lokalsamhället, som marae-campingar, showgrounds och domain reserves, erbjuder något som det kommersiella nätverket inte har, och de följer sina egna villkor. Respektera tikanga, lämna koha där det efterfrågas och kolla tillgängligheten i förväg i stället för att dyka upp oanmäld."
           ],
           "tips": [
             "Välj markslag efter vilken natt du behöver",
@@ -1956,7 +1956,7 @@
           ]
         },
         {
-          "heading": "Boka eller åka dit",
+          "heading": "Boka i förväg eller chansa på plats",
           "body": [
             "De fyra markslagen fungerar olika när du kommer fram. Great Walk-platserna och campingplatserna i Abel Tasman bokas långt i förväg, och att åka dit utan bokning är inget alternativ. De flesta DOC-platser är först till kvarn, vilket går bra utanför högsäsong och fungerar dåligt mellan jul och slutet av januari. <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday parks</a> tar emot bokningar och blir fulla tidigt i badorterna.",
             "Kommunala områden för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> går inte att reservera alls, och det är just därför du behöver en reservplan. Det som fungerar är att boka de nätter som är svåra att ersätta, vara flexibel på resten och alltid veta var närmaste betalda plats ligger."
@@ -2019,7 +2019,7 @@
           "tips": [
             "Skapa och testa ditt konto före öppningsdagen",
             "Betala hela beloppet vid bokning, Visa eller Mastercard",
-            "Spara bekräftelsen för användning utan täckning"
+            "Spara bekräftelsen så att du kan visa den utan täckning"
           ]
         },
         {
@@ -2043,7 +2043,7 @@
           "tips": [
             "Avgifterna gäller per person, inte per plats",
             "Ha med bevis om du bokar bosattpriset",
-            "Obokad användning ger DOC:s straffavgift"
+            "Campar du utan bokning tar DOC ut straffavgift"
           ]
         },
         {
@@ -2053,9 +2053,9 @@
             "Campsite Pass kostar 295 NZD för en vuxen i ett år och täcker de flesta DOC-campingplatser, både de som går att boka och de som inte gör det, i upp till 7 nätter under 30 dagar på en och samma campingplats, plus 3 NZD per passinnehavare och natt på en plats med el. På campingplatser som går att boka måste du fortfarande boka i systemet innan du kommer, eller betala en avgift på 10 NZD och riskera att bli avvisad om platsen är full. Inget av passen är en reservation, och inget av dem ger dig företräde på en stuga eller campingplats med först till kvarn, så för en enda kort resa är det oftast billigare att betala per natt."
           ],
           "tips": [
-            "Hut Pass: ungefär 11 nätter i en Standard-stuga för att gå runt",
-            "Campsite Pass: boka ändå platser som går att boka först",
-            "Inget av passen håller en säng eller en plats"
+            "Hut Pass: lönar sig efter ungefär 11 nätter i Standard-stuga",
+            "Campsite Pass: platser som går att boka måste ändå bokas i förväg",
+            "Inget av passen reserverar en säng eller en plats"
           ]
         },
         {
@@ -2081,13 +2081,13 @@
         {
           "heading": "När stugan eller campingplatsen du vill ha är fullbokad",
           "body": [
-            "Kolla samma plats igen på andra datum, särskilt veckorna i mellansäsong på båda sidor om skollovet, och titta på campingplatser: DOC säger att många fortfarande hade bra tillgång när stugorna var fulla, även om Milford Track och Paparoa Track inte har någon alls. Byt en utbokad Great Walk mot en med mer plats, eller vandra en led med stugor som inte går att boka i närheten. DOC:s eget råd är att fortsätta kolla under de kommande månaderna, eftersom folk avbokar och även Milford Track får avbokningar under hela året.",
+            "Kolla samma plats igen på andra datum, särskilt veckorna i mellansäsong före och efter skolloven, och titta på campingplatser: DOC säger att många fortfarande hade bra tillgång när stugorna var fulla, även om Milford Track och Paparoa Track inte har någon alls. Byt en fullbokad Great Walk mot en med mer plats, eller gå en led i närheten där stugorna inte går att boka. DOC:s eget råd är att fortsätta kolla under de kommande månaderna, eftersom folk avbokar och även Milford Track får avbokningar under hela året.",
             "För en natt med fordon är en holiday park eller en DOC-campingplats med självregistrering det realistiska reservalternativet. KiwiCamping visar varje <a data-guide=\"doc-huts-new-zealand-guide\">DOC-stuga</a> och campingplats i sin data med kategori, avgift och om den tar bokningar, tillsammans med holiday parks som du kan boka via BookIt i appen, så att du hittar närmaste alternativ utan täckning. DOC-platserna i appen kräver Pass, medan BookIt-vistelser är gratis att bläddra bland och boka."
           ],
           "tips": [
             "Prova datum i mellansäsong och campingplatser i närheten",
             "Heaphy, Waikaremoana och Whanganui har ofta plats",
-            "Håll en holiday park eller en plats med först till kvarn som plan B"
+            "Ha en holiday park eller en plats med först till kvarn som plan B"
           ]
         },
         {
@@ -2166,7 +2166,7 @@
         }
       ],
       "priceTable": {
-        "note": "DOC:s avgifter för säsongen 2026/27, per person och natt om inget annat anges, inklusive GST. Priserna för Great Walks gäller varje leds högsäsong, som slutar den 30 april och börjar den 1 oktober på de flesta leder, den 23 oktober på Tongariro Northern Circuit, den 27 oktober på Kepler och den 1 november på Milford och Routeburn. Serviced-stugor kostar 25 NZD från maj till september, 28 NZD på vardagskvällar och 32 NZD på fredags- och lördagskvällar från oktober till april, och 29 NZD och 34 NZD från december till februari. Barnpriser (5 till 17 år) är ungefär hälften och spädbarn under 5 år är gratis, utom på Great Walks, där internationella barn betalar från födseln på alla leder utom Lake Waikaremoana. Priset på platsens egen DOC-sida är det som gäller.",
+        "note": "DOC:s avgifter för säsongen 2026/27, per person och natt om inget annat anges, inklusive GST. Priserna för Great Walks gäller varje leds högsäsong, som slutar den 30 april och börjar den 1 oktober på de flesta leder, den 23 oktober på Tongariro Northern Circuit, den 27 oktober på Kepler och den 1 november på Milford och Routeburn. Serviced-stugor kostar 25 NZD från maj till september, 28 NZD på vardagsnätter och 32 NZD på fredags- och lördagsnätter från oktober till april, och 29 NZD och 34 NZD från december till februari. Barn (5 till 17 år) betalar ungefär hälften och barn under 5 år är gratis, utom på Great Walks, där internationella barn betalar från födseln på alla leder utom Lake Waikaremoana. Priset på platsens egen DOC-sida är det som gäller.",
         "rows": [
           {
             "label": "Standard-campingplats, vuxen",
@@ -2212,14 +2212,14 @@
       }
     },
     "best-time-camping-new-zealand": {
-      "title": "Sandflugor Nya Zeeland: värsta tiden, bästa månader att campa",
+      "title": "Sandflugor i Nya Zeeland: när är de värst och när ska du campa?",
       "description": "När och var sandflugorna biter i Nya Zeeland, värst på West Coast och i Fiordland, och hur varje årstid passar för camping, region för region.",
       "region": "Nya Zeelands årstider",
       "imageAlt": "Fyra årstider i ett campinglandskap i Nya Zeeland",
-      "intro": "Det finns ingen enskild bästa månad för hela landet, eftersom Nya Zeeland sträcker sig långt från norr till söder och det mesta av vädret avgörs av höjden och av vilken kust du är på. Att välja tid handlar mest om vad du är beredd att byta bort: värme mot folk, lugn mot dagsljus, eller utsikt mot säkerhet.",
+      "intro": "Det finns ingen enskild bästa månad för hela landet, eftersom Nya Zeeland sträcker sig långt från norr till söder och det mesta av vädret avgörs av höjden och av vilken kust du är på. Att välja tid handlar mest om vad du är beredd att byta bort: värme mot trängsel, lugn mot dagsljus, eller vackra vyer mot förutsägbart väder.",
       "sections": [
         {
-          "heading": "Sommar: dagsljus, och alla andra",
+          "heading": "Sommar: långa dagar, men alla andra är också ute",
           "body": [
             "December till februari ger långa kvällar, varma bad längs kusten och flest öppna campingplatser och tjänster. Det är också då landet själv har semester. Mellan jul och slutet av januari blir populära kustplatser fulla redan tidigt på eftermiddagen, färjor och hyrbilar tar slut och priserna går kraftigt upp.",
             "Boka de nätter som är svåra att ersätta (färjan, Great Walks, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> i badorterna) och låt de vanliga stoppen vara flexibla. Tänk på att sommar inte betyder varmt överallt: nätterna i fjällen är kalla, och eldningsförbud och vattenbrist är som mest troliga just under den här perioden."
@@ -2253,7 +2253,7 @@
         {
           "heading": "Sandflugor: var och när",
           "body": [
-            "<a data-guide=\"sandflies-new-zealand-camping\">Sandflugorna</a>, namu på te reo Māori, finns överallt där det finns rinnande vatten och skog, och två av Nya Zeelands 13 arter biter. West Coast och Fiordland är ökända för dem, och därför heter slutet på Milford Track Sandfly Point, men även stränder, sjökanter och Catlins är säkra ställen. De förökar sig i strömmande bäckar, biter mest när ljuset stiger på morgonen och avtar i skymningen, biter sällan i mörkret och fortsätter att bita hela dagen när vädret är mulet, grått och fuktigt.",
+            "<a data-guide=\"sandflies-new-zealand-camping\">Sandflugorna</a>, namu på te reo Māori, finns överallt där det finns rinnande vatten och skog, och två av Nya Zeelands 13 arter biter. West Coast och Fiordland är ökända för dem, och därför heter slutet på Milford Track Sandfly Point, men du kan räkna med dem även på stränder, vid sjökanter och i Catlins. De förökar sig i strömmande bäckar och biter mest när det ljusnar på morgonen och när ljuset falnar i skymningen. I mörker biter de sällan, men när vädret är mulet, grått och fuktigt fortsätter de att bita hela dagen.",
             "Det finns ingen officiell sandflugesäsong: i de blötaste regionerna hör de till campingen oavsett månad, och de flesta besökare möter dem mellan vår och höst, när campingplatserna vid floder och sjöar är fulla. En blåsig plats utan stilla vatten i närheten är oftast skönare än en skyddad. Ta med ett starkt myggmedel, täck anklar och handleder på kvällen, håll tältet eller bilen stängd i skymningen och kolla nätet mot insekter innan du åker. Bett kan klia i flera dagar, så antihistaminkräm är bra att ha med i stället för att behöva leta efter den i en liten stad."
           ],
           "tips": []
@@ -2262,7 +2262,7 @@
           "heading": "Regionerna i korthet",
           "body": [
             "Northland och norra delen av North Island är behagliga från oktober till april och fuktiga mitt i sommaren. Centrala platån och Tongariro är en sak för sommar och höst, om du inte är rustad för vinter i fjällen. East Coast är torrast på sommaren och pålitligt soligt på hösten.",
-            "West Coast är blött alla årstider, så planera för regn i stället för att hoppas slippa det, men får i gengäld nästan tomma campingplatser. Mackenzie och Central Otago är riktigt fina på hösten och kalla och klara på vintern. Fiordland är blött hela året och bäst att möta med flexibla dagar och utan fasta förväntningar på att få se Milford i solsken."
+            "West Coast är blött alla årstider, så planera för regn i stället för att hoppas slippa det. I gengäld har du campingplatserna nästan för dig själv. Mackenzie och Central Otago är riktigt fina på hösten och kalla och klara på vintern. Fiordland är blött hela året, så res dit med flexibla dagar och utan fasta förväntningar på att få se Milford i solsken."
           ],
           "tips": [
             "West Coast: räkna med regn alla årstider",
@@ -2286,7 +2286,7 @@
         ],
         [
           "Hur är det att campa i Nya Zeeland under mellansäsong?",
-          "Lugnt, billigt och oförutsägbart. Oktober till november och april till maj ger platser utan bokning och vägar utan köer, till priset av kortare dagar, kallare nätter och en verklig risk för en bortspolad vecka."
+          "Lugnt, billigt och oförutsägbart. Oktober till november och april till maj ger platser utan bokning och vägar utan köer, men dagarna är kortare, nätterna kallare och det finns en verklig risk att en hel vecka regnar bort."
         ]
       ],
       "sources": [
@@ -2341,7 +2341,7 @@
           "tips": [
             "Bränsle väger ofta tyngre än campingavgiften",
             "Cooksundet är en stor fast kostnad",
-            "Räkna avgiften för enkelriktad hyra separat"
+            "Räkna med avgiften för att lämna bilen på en annan ort för sig"
           ]
         },
         {
@@ -2361,7 +2361,7 @@
           "tips": [
             "Kör inte långt för att spara en platsavgift",
             "Budgetera för betalda nätter du kanske inte använder",
-            "En bot raderar en veckas besparingar"
+            "En bot äter upp en veckas besparingar"
           ]
         },
         {
