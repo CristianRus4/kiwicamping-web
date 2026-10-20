@@ -8455,6 +8455,471 @@
         }
       ],
       "priceTable": null
+    },
+    "plan-trip-kiwicamping": {
+      "title": "Sådan planlægger du en hel tur i KiwiCamping",
+      "description": "Sæt stop i rækkefølge, se rutens længde, og hav datoer, noter og huskeliste lige ved rejseplanen.",
+      "region": "KiwiCamping",
+      "imageAlt": "Vej mod Aoraki / Mount Cook under en blå himmel",
+      "intro": "En brugbar tur er mere end en streg mellem gemte pins. Rejseplanlæggeren samler ruten, afstanden, datoerne, noterne og de små opgaver ét sted, så planen overlever det øjeblik, hvor den skal ændres, og på en roadtrip i New Zealand er det som regel omkring dag tre.",
+      "sections": [
+        {
+          "heading": "Byg skelettet af faste nætter",
+          "body": [
+            "Begynd med de datoer, du ikke kan flytte. En overfart af <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a>, en booket Great Walk-hytte, en campingplads, der blev reserveret for måneder siden i en strandby, en flyvning fra Queenstown: Det er de pins, resten af turen må rette sig efter. Opret turen, læg dem ind først, og se alt imellem dem som noget, der kan justeres.",
+            "Den rækkefølge betyder mere, end man skulle tro. Rejsende, der bygger en tur kronologisk fra dag ét, opdager ofte på dag ni, at færgen ikke passer, og da er halvdelen af bookingerne ikke til at få refunderet. Når de faste datoer er forankret først, bliver hver senere ændring billig."
+          ],
+          "tips": [
+            "Færge- og Great Walk-datoer først",
+            "Alt imellem dem forbliver fleksibelt",
+            "Billige ændringer slår ombookede færger"
+          ]
+        },
+        {
+          "heading": "Sæt stoppene i køreorden",
+          "body": [
+            "Læg de steder, du har gemt, ind, og ordn dem i den rækkefølge, du faktisk kommer til at køre. Rejseplanlæggeren beregner rutens længde på tværs af de ordnede stop, og det er dér, en optimistisk rejseplan som regel falder fra hinanden: En dag, der så rimelig ud på et kort, viser sig at være seks timer, før der er et eneste stop, en gåtur eller et måltid.",
+            "Del enhver etape, der ikke levner plads til selve stedet. Som en grov arbejdsregel er tre til fire timers kørsel en behagelig dag på veje i New Zealand, og betydeligt mindre på Coromandel, i Catlins, på Queen Charlotte Drive eller alt med grus. Afstand undervurderer disse veje groft."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Knyt detaljerne til stoppet, ikke til et dokument",
+          "body": [
+            "Bekræftelsesnumre, ankomstvinduer, portkoder, opsynsmandens telefonnummer, hvilken side af floden indgangen ligger på: De hører til det enkelte stop og ikke i én lang note øverst i turen. På vejen leder du efter ét faktum ad gangen, som regel mens du er træt.",
+            "Korte noter slår lange. »Port låst efter kl. 21, kode 4417« er nyttigt kl. 20.45. Et afsnit, der beskriver hele campingpladsen, er det ikke. Skriv noten, når du booker, mens detaljen står foran dig, i stedet for at prøve at rekonstruere den bagefter."
+          ],
+          "tips": [
+            "Ét faktum pr. note",
+            "Skriv noter, mens du booker",
+            "Portkoder og ankomstvinduer betyder mest"
+          ]
+        },
+        {
+          "heading": "Brug huskelisten til de opgaver, der får dig til at strande",
+          "body": [
+            "Brændstof før en afsides etape, dagligvarer før det sidste supermarked, vand før en tør strækning, en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a> før en stribe freedom camping-steder, snekæder før et alpint pas om vinteren. Det er de opgaver, hvis fravær ender en dag dårligt, og de er lette at glemme netop fordi de er rutine.",
+            "Hav listen ved siden af rejseplanen i stedet for i en separat app. Marker kun ting som færdige, når de virkelig er gjort, for en halvfyldt vandtank, der optimistisk er afkrydset, er værre end en, der ikke er det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ændr ruten uden at bygge den om",
+          "body": [
+            "Vejret lukker et pas, en campingplads er fuld, nogen er for trætte til at køre, eller et sted fortjener en nat mere. Flyt eller udskift det berørte stop, og resten af rejseplanen forbliver intakt, sammen med alle noter og bookingreferencer, der hører til de stop, du ikke rørte.",
+            "Det er den praktiske fordel i forhold til en plan i faner i browseren. At omarrangere en tur, der ligger fordelt på femten faner og en tekstbesked, betyder at rekonstruere den; at omarrangere en ordnet liste betyder at trække ét stop. Afstanden genberegnes, og du kan straks se, om den nye form stadig er til at køre."
+          ],
+          "tips": [
+            "Flyt ét stop, behold resten",
+            "Afstanden genberegnes automatisk",
+            "Tjek, at den nye dag stadig kan køres"
+          ]
+        },
+        {
+          "heading": "Gør turen klar til ingen dækning",
+          "body": [
+            "Åbn de afgørende stop, før du forlader dækningen. Stedernes grundlæggende oplysninger følger med appen og kan læses uden dækning, men ruteberegning live, aktuelt vejr, udbydernes bookingsider og en del kortbilleder kræver forbindelse, og West Coast, Fiordland, East Cape og det indre af Otago fjerner den uden varsel.",
+            "Tag skærmbilleder af alt, der ville være dyrt at miste: bookingbekræftelsen, noten om adgang, campingpladsens telefonnummer. Et skærmbillede overlever en genstart efter fladt batteri, en tabt session og en app, du ikke har åbnet i tre dage."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Send rejseplanen til Kalender",
+          "body": [
+            "Turens datoer kan sendes til Kalender, så planen vises sammen med flyvninger, færgebookinger og alt andet, der allerede står i dit program. Det er mest nyttigt for rejsende, der koordinerer med folk, som ikke bruger appen, for en delt kalender besvarer spørgsmålet om, hvor I er i aften, uden en samtale.",
+            "Hold kalenderkopien som et resumé og ikke som den, der gælder. Selve turen rummer noter, rækkefølge og alternativer; kalenderen skal bare have nok til, at en anden kan følge med."
+          ],
+          "tips": [
+            "Kalenderen er et resumé, ikke planen",
+            "Nyttig for folk, der ikke bruger appen",
+            "Lad turen være det, der gælder"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvordan planlægger man en roadtrip med flere stop i KiwiCamping?",
+          "Gem de steder, du overvejer, læg dem ind i en tur som stop, og træk dem så i den rækkefølge, du kommer til at køre. Hver etape viser sin afstand, og hvert stop har sin egen dato, ankomstnoter og vejr."
+        ],
+        [
+          "Kan en tur i KiwiCamping lægges ind i en kalender?",
+          "Ja. Oplysninger fra rejseplanen kan synkroniseres til Kalender, og det er den praktiske måde at dele planen med dem, du rejser sammen med, uden at de skal have appen."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "save-places-kiwicamping": {
+      "title": "Sådan gemmer og organiserer du steder i KiwiCamping",
+      "description": "Hold bekræftede ophold, stærke alternativer og fremtidige idéer adskilt uden at miste dem på kortet.",
+      "region": "KiwiCamping",
+      "imageAlt": "Gyldent sand og turkisfarvet vand ved Torrent Bay i Abel Tasman National Park",
+      "intro": "At gemme alle interessante pins i én bunke flytter bare problemet med at søge et andet sted hen. En lille smule struktur, besluttet tidligt, gør tusindvis af campingpladser, hytter og Holiday Parks brugbare på tværs af flere ture i stedet for at blive en liste, du holder op med at åbne.",
+      "sections": [
+        {
+          "heading": "Adskil gemte steder efter hensigt",
+          "body": [
+            "Den brugbare opdeling er ikke efter region, men efter hvad du har tænkt dig at gøre med stedet. Én liste til den tur, du faktisk skal på, én til realistiske reserver inden for rækkevidde af ruten og én til idéer, du måske aldrig bruger. At blande de tre er det, der gør en gemt liste ubrugelig kl. 19, når en campingplads er fuld.",
+            "Reservelisten fortjener sin plads igen og igen. At vide, at du har to lovlige alternativer inden for fyrre minutter, ændrer, hvordan du håndterer en fuld plads, og det er forskellen på en rolig beslutning og en times kørsel, mens lyset forsvinder."
+          ],
+          "tips": [
+            "Tre lister: tur, reserver, idéer",
+            "Reserver inden for rækkevidde af ruten",
+            "Beslut strukturen, før du gemmer"
+          ]
+        },
+        {
+          "heading": "Brug smarte samlinger til status",
+          "body": [
+            "»Synes godt om«, »Besøgt«, »Ønsker at besøge« og »Stjernemarkeret« opdaterer sig selv, når du markerer steder, så de følger status og ikke planer. »Besøgt« er mere nyttig, end den først ser ud til på en lang tur: Den forhindrer dig i at undersøge det samme sted to gange og giver dig en rigtig oversigt over, hvor du har været.",
+            "»Pins« og »Alle gemte« giver dig det brede overblik, når du ikke kan huske, hvilken liste noget røg på. Se dem som sikkerhedsnettet og ikke som arkivsystemet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Navngiv lister, så de stadig giver mening senere",
+          "body": [
+            "»Sydøen« siger dig ingenting om fire måneder. »Sydøen feb., kun pladser med strøm« fortæller dig, hvad du ville løse, og om listen kan bruges igen. Hvis du navngiver efter region, sæson, køretøj eller tur, har listen stadig en mening, når du vender tilbage til den.",
+            "Tilføj en kort beskrivelse, hvor appen giver mulighed for det. Grunden til, at du gemte et sted, er den del, der falmer hurtigst, og som regel den del, der betød noget: beskyttet mod sydenvinden, god til en stor autocamper, stille midt på ugen."
+          ],
+          "tips": [
+            "Navngiv efter region, sæson og køretøj",
+            "Skriv, hvorfor du gemte det",
+            "Vage navne ældes dårligt"
+          ]
+        },
+        {
+          "heading": "Gem fra stedets side, ikke fra kortet",
+          "body": [
+            "Åbn stedet først. Adgangsnoter, faciliteter, prisstruktur og kilden til oplysningerne er det, der afgør, om det passer til dit setup, og intet af det kan ses ud fra en pin. At gemme fra kortet giver en liste med navne; at gemme fra stedets side giver en liste med muligheder.",
+            "Tilføj en note om den konkrete ting, der gjorde det værd at beholde. »Eneste plads her med tømmestation« eller »grusadgang, ikke for en lav bil« er mere værd end selve opslaget, når du vælger mellem fem gemte steder."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se priser som planlægningstal",
+          "body": [
+            "Hvor en indberettet pris vises, kan du læse den i din egen valuta for at sammenligne en enkel DOC-plads med en <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> uden at regne ved hvert stop. Se omregnede tal som hjælp til planlægningen: De er mekaniske omregninger af et indberettet beløb og ikke et tilbud fra udbyderen eller din bank.",
+            "Bekræft den faktiske pris hos udbyderen, før en pris afgør din rute, og tjek, hvad tallet dækker. DOC's priser er som regel pr. voksen pr. nat, mens kommercielle parker måske angiver pr. plads, så to tal, der ligner hinanden, kan give vidt forskellige samlede beløb for en familie."
+          ],
+          "tips": [
+            "Omregnede priser er planlægningstal",
+            "DOC tager betaling pr. voksen, parker ofte pr. plads",
+            "Bekræft, før en pris afgør ruten"
+          ]
+        },
+        {
+          "heading": "Lad gemte steder synkronisere mellem enheder",
+          "body": [
+            "Når iCloud er tilgængelig og slået til, synkroniserer gemte statusser, samlinger og turdata privat mellem dine enheder. Den praktiske fordel er, at du kan planlægge på en større skærm hjemme og have de samme lister på telefonen i autocamperen uden at eksportere noget.",
+            "Det betyder også, at en udskiftet eller nulstillet telefon ikke tager turen med sig, og det betyder mere på en lang tur end på en weekendtur."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ryd op i listen efter hver tur",
+          "body": [
+            "Marker, hvad du besøgte, slet de muligheder, der viste sig ikke at passe, og behold noter om adgang eller timing, der også vil gælde næste gang. Ti minutter ved turens slutning er det, der forhindrer, at listen bliver til tre hundrede pins, du ikke længere stoler på.",
+            "Flyt de stop, du faktisk har forpligtet dig til, ind i en tur. Lister er til muligheder; rejseplanlæggeren er til rejsen, og det er det at holde de to adskilt, der gør begge dele brugbare."
+          ],
+          "tips": [
+            "Ryd op, mens turen er frisk",
+            "Behold noter, der stadig er sande",
+            "Lister rummer muligheder, ture rummer planer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad er forskellen på smarte samlinger og egne samlinger?",
+          "Smarte samlinger udfylder sig selv: »Synes godt om«, »Stjernemarkeret«, »Ønsker at besøge«, »Besøgt«, »Pins« og »Alle gemte« opdateres, når du markerer steder. Egne samlinger er dem, du selv navngiver og bygger, til en region, en sæson, et køretøj eller en kortliste."
+        ],
+        [
+          "Synkroniserer gemte steder mellem enheder?",
+          "Med iCloud slået til, ja: Gemte statusser, samlinger og turdata følger din Apple-konto. Uden det bliver alt på den ene enhed."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-filters-guide": {
+      "title": "Find den rette campingplads hurtigere med filtre i KiwiCamping",
+      "description": "Afgræns efter type sted, faciliteter, pris og adgang uden at skjule alle brugbare alternativer.",
+      "region": "KiwiCamping",
+      "imageAlt": "Campingvogne ved campingpladsen ved Lake Clearwater under snedækkede tinder i Canterbury",
+      "intro": "Filtre er mest nyttige, når hvert af dem er en reel dealbreaker og ikke en præference. For mange filtre er den almindelige fejl: Det giver tre resultater, skjuler det fornuftige alternativ tyve minutter væk og giver et falsk indtryk af, at et område ikke har noget.",
+      "sections": [
+        {
+          "heading": "Begynd med type sted og område",
+          "body": [
+            "Beslut, hvilken slags nat du leder efter, før du afgrænser noget andet. En DOC-campingplads, en hytte i baglandet, et udpeget område til <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, en Holiday Park og en hytte er forskellige produkter med forskellige regler, priser og bookingsystemer, og at blande dem giver en liste, du må sortere om i hovedet.",
+            "Placér så kortet langs den rute, du faktisk kører. Når du søger i det synlige område, bliver resultaterne relevante for dagen, og et velkendt sted halvfems minutter fra ruten kommer ikke til at fylde på en kortliste, det ikke hører hjemme på."
+          ],
+          "tips": [
+            "Vælg først typen af nat",
+            "Søg langs ruten, ikke i regionen",
+            "Berømte steder er ofte den forkerte omvej"
+          ]
+        },
+        {
+          "heading": "Tilføj kun de betingelser, der ville udelukke et sted",
+          "body": [
+            "Toiletter, drikkevand, strøm, adgang for hunde, køretøjets størrelse, prisklasse: Brug dem, når fraværet virkelig afslutter muligheden. Hvis du har en fuld vandtank, fjerner et filter for drikkevand steder, der ville have været fine, og som måske er roligere.",
+            "Arbejd dig ned fra den hårdeste begrænsning. Adgang for køretøjer og krav om certificering udelukker flest muligheder og er det mindst forhandlingsparate, så hvis du bruger dem først, bliver listen kortere og mere ærlig at arbejde med."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Forstå, hvad et tomt felt betyder",
+          "body": [
+            "Manglende data betyder ukendt, ikke fraværende. Et sted uden registreret bruser har måske en, der aldrig blev noteret, og et strengt filter på faciliteter kasserer det uden at sige det. Det er den hyppigste måde, rejsende overbeviser sig selv om, at en region ikke har noget ledigt.",
+            "Når en filtreret søgning kommer næsten tom tilbage, så løsn den mindst vigtige betingelse i stedet for at konkludere, at området er uegnet. Resultaterne ændrer sig som regel markant, når ét filter fjernes."
+          ],
+          "tips": [
+            "Tomt betyder ukendt, ikke manglende",
+            "Løsn ét filter, før du giver op",
+            "Strenge filtre skjuler gode muligheder"
+          ]
+        },
+        {
+          "heading": "Filtrér anderledes til en nat med freedom camping",
+          "body": [
+            "En søgning efter <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> er et juridisk spørgsmål og ikke et spørgsmål om komfort. Det, der betyder noget, er, om stedet er udpeget, om det kræver et certificeret selvforsynende køretøj, og hvad grænsen for opholdstid er. Faciliteter er sekundære, for der er ofte ingen.",
+            "Tjek kravet om certificering mod dit eget warrant, før du stoler på et sted. Kravet hænger ved køretøjet, og håndhævelsen rettes mod køretøjet, så en uoverensstemmelse er dyr, uanset hvor omhyggelig du var med alt det andet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Søg efter service, ikke kun efter steder at sove",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tømmestationer</a>, drikkevand, bortskaffelse af affald og brændstof er afgørende på turen i sig selv, og de er værd at filtrere efter som en særskilt opgave i stedet for at håbe, at de dukker op nær aftenens plads. Det er meget lettere at planlægge et tømmestop på vejen et sted hen end at tage en særlig tur, når en tank er fuld.",
+            "Det samme gælder et vaskeri og et varmt bad efter en våd periode. At vælge et stop, fordi det løser tre opgaver på én gang, er som regel bedre værdi end at vælge den billigste pin og køre tilbage efter hver af dem."
+          ],
+          "tips": [
+            "Planlæg tømmestop på vejen",
+            "Vand og brændstof fortjener deres egen søgning",
+            "Ét stop, der løser tre opgaver, vinder"
+          ]
+        },
+        {
+          "heading": "Hav altid en reserve synlig",
+          "body": [
+            "Gem det foretrukne sted og mindst ét lovligt alternativ, før du forlader dækningen. Et sæt filtre, der er stramt nok til at give præcis ét resultat, har fjernet din reserve, og fyldte campingpladser en sommeraften er normalt og ikke uheld.",
+            "Reserven behøver ikke være lige så god. Den skal være lovlig, kunne nås i dagslys og have åbent. Det er et meget lettere krav at opfylde, og det er det, der forhindrer en træt chauffør i at tage en dårlig beslutning efter mørkets frembrud."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nulstil filtre mellem regioner og turtyper",
+          "body": [
+            "Kravene til en hyttetur, en aften med vask og strøm i en by og et certificeret stop med <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> har næsten intet til fælles. Filtre, der er tilbage fra i går, er en hyppig grund til, at en søgning ser uventet tom ud i dag.",
+            "Ryd sættet, hver gang turen skifter karakter, især når du krydser fra Nordøen til Sydøen, fra kysten til alpint land eller fra en rundrejse til nogle dage med base i én by."
+          ],
+          "tips": [
+            "Ryd filtre, når turen skifter",
+            "Gårsdagens filtre giver dagens tomme søgning",
+            "Hytte-, by- og freedom camping-nætter er helt forskellige"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man filtrere efter gratis camping med toiletter?",
+          "Ja, og den kombination er pointen med filtrene. Pris, faciliteter, adgangsforhold, type sted, region, vurdering og onlinebooking kan lægges oven på hinanden, så »områder med gratis camping med toiletter og drikkevand nær Queenstown« er én enkelt søgning."
+        ],
+        [
+          "Hvorfor giver en filtreret søgning ikke noget?",
+          "Næsten altid fordi filtrene er stablet strammere, end området tillader. Hvis du udvider kortet eller dropper den mindst vigtige facilitet, kommer listen som regel tilbage, og det er værd at rydde filtret for vurdering først."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-offline-data-guide": {
+      "title": "Virker KiwiCamping uden dækning? Det kræver signal",
+      "description": "Stedernes oplysninger, gemte lister og guider virker uden dækning; kortet, vejr, ruteberegning og »Se dig omkring« kræver signal. Planlæg afsides etaper efter det.",
+      "region": "KiwiCamping",
+      "imageAlt": "State Highway 94 snor sig gennem en afsides dal i Fiordland National Park",
+      "intro": "KiwiCamping er ikke en kortapp, der virker uden dækning. Stedernes data er stadig brugbare uden for dækningen, men kortet, vejr, ruteberegning og fotos kræver et net, og at vide præcis, hvilken halvdel der er hvilken, er forskellen på en veltilrettelagt afsides etape og at finde ud af det på det forkerte tidspunkt.",
+      "sections": [
+        {
+          "heading": "Hvad der stadig er tilgængeligt uden dækning",
+          "body": [
+            "Appen har sine stedsoplysninger for New Zealand med: DOC-campingpladser, -hytter og -vandreruter, DOC-meddelelser om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, tømmestationer, dagsområder samt Holiday Parks og ture fra BookIt. De grundlæggende oplysninger følger med appen i stedet for at blive hentet, så de kan læses, når signalet ikke er der. BookIt-ophold og -ture er gratis; DOC-steder, tømmestationer og dagsområder hører til Premium Pass.",
+            "Gemte lister og turoplysninger kan også bruges. Du kan se planen igennem, læse noterne til hvert stop og tjekke, hvad du besluttede om et sted, og det er som regel præcis det, du har brug for, når du skal afgøre, om du kører videre eller stopper."
+          ],
+          "tips": [
+            "Stedernes data følger med",
+            "Gemte lister og ture kan læses",
+            "Oplysningerne følger med appen"
+          ]
+        },
+        {
+          "heading": "Hvad der virkelig kræver forbindelse",
+          "body": [
+            "Vejrudsigter, ruteberegning og vejvisning live, eksterne bookingsider, udbydernes hjemmesider, fotos af steder, kortet og satellitbilleder kræver alle forbindelse. Intet af det fjerner den gemte stedsoplysning, men det betyder, at svaret på »kommer det til at regne« og »er der en seng ledig« ikke er tilgængeligt derude.",
+            "Billeder fra <a data-guide=\"kiwicamping-weather-look-around\">»Se dig omkring«</a> kræver også en forbindelse, hvilket er værd at vide, for de er mest nyttige netop, når du nærmer dig en uvant indkørsel, og det er ofte dér, dækningen slutter."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvor det rammer i New Zealand",
+          "body": [
+            "West Coast mellem Westport og Haast, det meste af Fiordland, East Cape, Catlins, det indre af Otago og store dele af det centrale Nordøen har lange strækninger uden brugbar mobildækning. Det er ikke afsides yderområder; de ligger på de store turistruter, og det er præcis dér, du skal vælge en campingplads.",
+            "Dækningskort smigrer også virkeligheden. En udbyder kan vise dækning i en dal, hvor signalet forsvinder bag den første ås, og roaming-SIM-kort klarer sig ofte dårligere end lokale. Planlæg efter mindre dækning, end kortet lover."
+          ],
+          "tips": [
+            "Store turistruter mister dækningen",
+            "Dækningskort er optimistiske",
+            "Roaming-SIM-kort klarer sig dårligere"
+          ]
+        },
+        {
+          "heading": "Tjek live, før du mister signalet",
+          "body": [
+            "Byg en vane op omkring den sidste by med dækning: Tjek vejrudsigten for de næste to dage, bekræft enhver booking, se vejforhold og advarsler, og åbn stedsoplysningerne for i aften og i morgen, så de er indlæst og velkendte.",
+            "Tag skærmbilleder af det, der ville koste dig noget, hvis det forsvandt. Bookingbekræftelser, portkoder, campingpladsens telefonnummer og enhver adgangsanvisning er et skærmbillede værd hver, for et skærmbillede kræver ingen app, ingen session og intet signal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Batteriet er en del af planlægningen uden dækning",
+          "body": [
+            "En app, der virker uden dækning, er til ingen nytte på en død telefon, og telefonen arbejder mere end normalt på en roadtrip: navigation, billeder, vejrtjek og søgning efter signal, hvilket dræner et batteri hurtigere end næsten noget andet. Slå strømsparetilstand til, før det bliver akut.",
+            "Hav en opladet powerbank og et kabel med, der faktisk virker i køretøjet. Kolde nætter nedsætter batteriets kapacitet mærkbart, så en telefon, der virkede fin til aftensmaden, kan være flad om morgenen på en alpin plads."
+          ],
+          "tips": [
+            "At lede efter signal dræner hurtigt",
+            "Hav en opladet powerbank med",
+            "Kolde nætter nedsætter batteriets kapacitet"
+          ]
+        },
+        {
+          "heading": "Opslaget går ikke forud for skiltet",
+          "body": [
+            "Data uden dækning fortæller, hvad der var sandt, da posten blev lavet. Rangers lukker pladser, kommuner ændrer regler, oversvømmelser tager adgangsveje, og <a data-guide=\"campfire-rules-new-zealand\">brandrestriktioner</a> kommer hurtigt. Når du ankommer, er det skiltet, afspærringen og den ansvarlige myndighed, der afgør, og de går altid forud for en gemt post.",
+            "Hvis det, du finder, modsiger det, du gemte, så følg det, der står foran dig, og flyt til din reserve. Det er hele grunden til at have fundet en, før du forlod dækningen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Apps uden dækning er ikke et sikkerhedssystem",
+          "body": [
+            "Til alt, hvor sikkerheden står på spil, så hav et downloadet eller papirbaseret topografisk kort med, og vid, hvordan man bruger det. Et campingregister er ikke et navigationsværktøj, og GPS i telefonen uden kortkontekst har ført folk ud i reelle vanskeligheder i baglandet i New Zealand.",
+            "Til afsides vandreture eller kørsel på bivejene, så lej en personlig nødpejlesender. De koster meget lidt for en tur, virker, hvor telefoner ikke gør, og er det eneste, der med størst sandsynlighed ændrer udfaldet af et alvorligt problem."
+          ],
+          "tips": [
+            "Hav et rigtigt topografisk kort med",
+            "Lej en nødpejlesender til afsides etaper",
+            "Et register er ikke et navigationsværktøj"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad virker i KiwiCamping uden dækning?",
+          "Stedsregistret følger med appen, så navne, kategorier, beskrivelser, priser, faciliteter, åbningstider og forhold åbner uden signal. Søgning, filtre og gemte steder virker også uden dækning, for de steder, din adgang dækker: BookIt-ophold og -ture er gratis, DOC-steder og tømmestationer kræver Premium Pass."
+        ],
+        [
+          "Hvad kræver en forbindelse?",
+          "De live tjenester: vejr, ruteberegning og vejvisning, billeder fra »Se dig omkring«, fotos af steder og udbydernes bookingsider. De hentes, når man beder om dem, så stedets side åbner stadig uden dem."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-weather-look-around": {
+      "title": "Brug vejr og »Se dig omkring«, før du vælger, hvor du bor",
+      "description": "Sammenlign vejrudsigten og vejmiljøet med den faktiske beslutning om campingpladsen.",
+      "region": "KiwiCamping",
+      "imageAlt": "Dramatiske skyer fra nordvest over det turkise vand i Lake Pukaki",
+      "intro": "En pin fortæller dig, hvor et sted er. Den fortæller ikke, at pladsen er en grusbanke, der er helt udsat for sydenvinden, at adgangen er en stejl, ensporet grusstigning, eller at indkørslen er let at overse i mørke. Vejret og »Se dig omkring« fra Apple udfylder de dele, der afgør, om en nat bliver behagelig.",
+      "sections": [
+        {
+          "heading": "Tjek vejrudsigten for pladsen, ikke for regionen",
+          "body": [
+            "Vejret i New Zealand varierer dramatisk over korte afstande. En vejrudsigt for den nærmeste by kan være helt forkert for en campingplads tyve minutter væk på den anden side af en bjergkæde, og forskellen på en beskyttet dal og en udsat søbred er ikke en detalje.",
+            "Læs de dele, der påvirker en nat udendørs, og ikke det overordnede ikon. Vindhastighed og -retning, minimumstemperatur om natten og regnmængder betyder langt mere for, hvordan du sover, end om dagens symbol er en sky eller en sol."
+          ],
+          "tips": [
+            "Vind og nattens laveste temperatur afgør komforten",
+            "Vejrudsigter for byer vildleder for pladser i nærheden",
+            "Læs mængderne, ikke ikonet"
+          ]
+        },
+        {
+          "heading": "Vind er som regel det afgørende",
+          "body": [
+            "Søbredder og udsatte kyster forstærker vinden, og den tager som regel til hen over aftenen i stedet for at lægge sig. Et telt, der er fint, når du slår det op kl. 17, kan være et alvorligt problem ved midnat, og fortelte, der er sat ud i stigende vind, er en af de hyppigste måder, campister beskadiger et køretøj på.",
+            "Hvor vejrudsigten er kraftig, så vælg ly frem for udsigten. En plads bag en banke eller en hæk uden udsigt giver en meget bedre nat end et fotogent sted på tværs af sydenvinden."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Brug officielle kilder til sikkerhedsbeslutninger",
+          "body": [
+            "En vejrudsigt i appen er baggrund for en beslutning om komfort. Til sikkerhed skal du bruge varsler fra MetService, råd fra Civil Defence, vejforhold fra NZTA og advarsler fra DOC, og det er dér, <a data-guide=\"new-zealand-severe-weather-camping\">hårdt vejr</a>, vejlukninger, oversvømmelse og advarsler om stier faktisk dukker op.",
+            "Tjek dem, mens du stadig har signal, og tjek dem igen tæt på afgang på enhver dag med et alpint pas, en <a data-guide=\"river-crossing-safety-new-zealand\">flodkrydsning</a>, en udsat kyst eller en vejrudsigt, der har skiftet."
+          ],
+          "tips": [
+            "MetService til varsler",
+            "NZTA til vejforhold",
+            "Tjek igen før alpine pas"
+          ]
+        },
+        {
+          "heading": "Se ankomsten på forhånd med »Se dig omkring«",
+          "body": [
+            "Hvor billeder fra »Se dig omkring« findes, viser de dig indkørslen, vejens bredde, underlaget og omgivelserne, før du forpligter et stort køretøj til den. Det er virkelig værdifuldt til <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> i uvante byer, hvor afkørslen ofte ikke er afmærket, og gaden er smallere end ventet.",
+            "Det er lige så nyttigt til at opdage det, et opslag ikke fortæller: at et sted ligger ud til en hovedvej, ved siden af en jernbane, eller at den eneste adgang er en stejl grusnedkørsel, du helst ikke vil bakke ud af."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se billederne som gamle, for det er de",
+          "body": [
+            "Billeder fra »Se dig omkring« kan være flere år gamle. Vejarbejde, jordskred, nye porte, ændrede skilte og lukkede indkørsler vises ikke, og i et land, hvor en enkelt storm kan omarrangere en vej på West Coast, har det hul betydning.",
+            "Brug dem til at skabe en forventning, ikke en garanti. Skilte, afspærringer og forhold ved ankomsten afgør, og hvis terrænet modsiger billederne, har terrænet ret."
+          ],
+          "tips": [
+            "Billeder kan være flere år gamle",
+            "Jordskred og porte vises ikke",
+            "Terrænet har altid ret"
+          ]
+        },
+        {
+          "heading": "Se på, hvad der er omkring pladsen",
+          "body": [
+            "Den bedre plads er ofte den, der løser morgendagens opgaver. Tjek, hvad der ligger i nærheden: brændstof, et supermarked, en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a>, drikkevand, et vaskeri. En lidt mindre naturskøn plads ved siden af den service, du har brug for, kan spare en time med at vende om om morgenen.",
+            "Se på udkørslen såvel som indkørslen. Hvis i morgen begynder med en lang køretur eller en tidlig færge, er en plads, der stiller dig på den rigtige side af byen, mere værd end en med bedre udsigt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gem forhåndsvisningen i planen",
+          "body": [
+            "Når vejret og billederne har fortalt dig noget nyttigt, så sæt det på stoppet som en note. »Udsat for sydenvind, tag den bageste række« eller »indkørslen er 200 m efter broen, let at overse« er præcis den slags detalje, der er indlysende nu og væk om en uge.",
+            "Gem den service i nærheden, du fandt, som et eget stop med en note om åbningstider. En <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a>, du ikke kan bruge, fordi den lukkede kl. 17, er det samme som ingen tømmestation overhovedet."
+          ],
+          "tips": [
+            "Skriv det, du lærte, ind på stoppet",
+            "Notér indkørslen, hvis den er svær at finde",
+            "Tjek servicestedernes åbningstider"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man se vejret for en bestemt campingplads?",
+          "Ja. Aktuelle forhold og vejrudsigten står på hver stedsside og ved siden af hvert stop i en tur, så et valg mellem to campingpladser kan tages med himlen i tankerne frem for en regional vejrudsigt."
+        ],
+        [
+          "Hvad er »Se dig omkring« nyttig til, når man vælger en campingplads?",
+          "At se indkørslen og vejoverfladen, før du sætter en van ind på en afkørsel. Hvor billederne i »Se dig omkring« fra Apple dækker en vej, åbner de direkte fra stedets side, og det besvarer det spørgsmål om adgang, som et opslag ikke kan."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
     }
   },
   "consent": {
