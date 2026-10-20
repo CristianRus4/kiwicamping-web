@@ -8,17 +8,12 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es",
-        "fr",
         "it",
         "nl",
         "pt",
         "ko",
         "zh-hans",
         "zh-hant",
-        "da",
-        "sv",
-        "nb",
         "cs",
         "pl"
       ],
@@ -27,14 +22,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "es",
-          "path": "../lib/translations/es.json"
-        },
-        {
-          "locale": "fr",
-          "path": "../lib/translations/fr.json"
         },
         {
           "locale": "it",
@@ -61,18 +48,6 @@
           "path": "../lib/translations/zh-hant.json"
         },
         {
-          "locale": "da",
-          "path": "../lib/translations/da.json"
-        },
-        {
-          "locale": "sv",
-          "path": "../lib/translations/sv.json"
-        },
-        {
-          "locale": "nb",
-          "path": "../lib/translations/nb.json"
-        },
-        {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
         },
@@ -88,8 +63,6 @@
         "DOC",
         "Waka Kotahi",
         "NZD",
-        "North Island",
-        "South Island",
         "Stewart Island",
         "Te Waipounamu",
         "Rakiura"
@@ -106,6 +79,227 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      },
+      "glossary": {
+        "North Island": {
+          "de": "Nordinsel"
+        },
+        "South Island": {
+          "de": "Südinsel"
+        }
+      }
+    },
+    {
+      "id": "kiwicamping-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD"
+      ],
+      "glossary": {
+        "North Island": {
+          "fr": "île du Nord"
+        },
+        "South Island": {
+          "fr": "île du Sud"
+        },
+        "Stewart Island": {
+          "fr": "île Stewart"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French island names, no calques, no offline-map claims."
+      },
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ]
+    },
+    {
+      "id": "kiwicamping-website-es",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "es"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "glossary": {
+        "North Island": {
+          "es": "Isla Norte"
+        },
+        "South Island": {
+          "es": "Isla Sur"
+        },
+        "Stewart Island": {
+          "es": "Isla Stewart (Rakiura)"
+        }
+      },
+      "register": {
+        "es": "informal"
+      },
+      "styleGuide": {
+        "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish island names (Isla Norte, Isla Sur, Isla Stewart (Rakiura)), no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-sv",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "sv"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "North Island",
+        "South Island",
+        "Stewart Island",
+        "BookIt",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "register": {
+        "sv": "informal"
+      },
+      "styleGuide": {
+        "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-da",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "da"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Stewart Island",
+        "Te Waipounamu",
+        "Rakiura",
+        "BookIt",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "North Island": {
+          "da": "Nordøen"
+        },
+        "South Island": {
+          "da": "Sydøen"
+        }
+      },
+      "register": {
+        "da": "informal"
+      },
+      "styleGuide": {
+        "da": "Follow docs/translation-style/da.md: native Danish travel-writer voice for Denmark, informal du, Danish number format (74.000, 2,08) and punctuation, autocamper/campingplads/tømmestation vocabulary, no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-nb",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "nb"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Stewart Island",
+        "Te Waipounamu",
+        "Rakiura",
+        "BookIt",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {},
+      "register": {
+        "nb": "informal"
+      },
+      "styleGuide": {
+        "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
       }
     },
     {

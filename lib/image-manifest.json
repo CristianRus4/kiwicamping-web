@@ -83,6 +83,20 @@
       }
     ]
   },
+  "/images/articles/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/best-nz-camping-apps.webp": {
     "width": 1600,
     "height": 900,
@@ -111,6 +125,20 @@
       }
     ]
   },
+  "/images/articles/best-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/best-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/best-travel-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/bus-ferry-train-costs-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -121,6 +149,20 @@
       },
       {
         "path": "/images/articles/bus-ferry-train-costs-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/campermate-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/campermate-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/campermate-alternatives.webp",
         "width": 1600
       }
     ]
@@ -401,6 +443,20 @@
       },
       {
         "path": "/images/articles/food-fuel-resupply-new-zealand-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/free-camping-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/free-camping-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/free-camping-apps-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -797,6 +853,20 @@
       }
     ]
   },
+  "/images/articles/rankers-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/rankers-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/rankers-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/responsible-camping-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -821,6 +891,20 @@
       },
       {
         "path": "/images/articles/river-crossing-safety-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/road-trip-planner-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/road-trip-planner-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/road-trip-planner-apps-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -1035,6 +1119,20 @@
       }
     ]
   },
+  "/images/articles/wikicamps-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wikicamps-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wikicamps-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wildlife-livestock-road-safety-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -1234,6 +1332,118 @@
       {
         "path": "/images/kiwicamping-og.webp",
         "width": 1200
+      }
+    ]
+  },
+  "/images/screens/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/best-nz-camping-apps.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-nz-camping-apps-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-nz-camping-apps.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/best-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-travel-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/campermate-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/campermate-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/free-camping-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/free-camping-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/free-camping-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/rankers-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/rankers-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/rankers-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/road-trip-planner-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/road-trip-planner-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/road-trip-planner-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/wikicamps-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/wikicamps-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/wikicamps-alternatives.webp",
+        "width": 1600
       }
     ]
   }

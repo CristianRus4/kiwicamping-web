@@ -38,6 +38,13 @@ Engine locale id: `pt` (variety pt-PT). Register: informal (tu), now set in both
   details, widgets: old labels Destacados / Quero ir / Marcadores / Tudo o que guardaste replaced).
 - KiwiCamping `ui.metaDescription` updated for the new English (mentions iPhone); `content:check` green on both.
 
+## Done (2026-10-20, K-content paired release sync)
+- Branch `i18n/k-pt-b1` (release/k-content-b1 + i18n/k-pt): all 175 listed pt units re-translated from the new English, plus
+  the stale overseas-driver-licence guide (17 units, old translation did not match the 18/12 month rule), the support
+  page Look Around paragraph and the eating-out title. Look Around kept as the Apple feature name (Apple kept where the
+  English says Apple). Stamps refreshed: pt 0 stale, 0 number/brand errors.
+- English oddity: speed-limits-new-zealand-visitors sections[4].body[1] repeats "assume any road may be monitored" twice.
+
 ## Next
 - AU still to review (not yet polished): first-campervan-trip-australia, road-trip-fuel-planning-australia,
   camping-weather-safety-australia, responsible-camping-australia, choosing-campsite-australia (old "autocaravana"

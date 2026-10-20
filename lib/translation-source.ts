@@ -15,7 +15,7 @@ const forTranslation = (article: Article) => ({
   imageAlt: article.imageAlt,
   intro: article.intro,
   // One section at a time, exactly as the English page selects its links.
-  sections: article.sections.map((part) => ({ heading: part.heading, body: markGuideLinks(part.body, article.slug), tips: part.tips ?? [] })),
+  sections: article.sections.map((part) => ({ heading: part.heading, body: markGuideLinks(part.body, article.slug), tips: part.tips ?? [], ...(part.table && { table: { caption: part.table.caption, head: part.table.head, rows: part.table.rows } }) })),
   faq: (article.faq ?? []).map(([question, answer]) => [question, answer]),
   sources: (article.sources ?? []).map((source) => ({ label: source.label })),
   priceTable: article.priceTable ? { note: article.priceTable.note, rows: article.priceTable.rows.map((row) => ({ label: row.label, unit: row.unit ?? "" })) } : null,

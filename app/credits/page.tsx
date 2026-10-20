@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import credits from "@/lib/image-credits.json";
 import dataMeta from "@/lib/data/hubs.meta.json";
-import { articleHref, articles } from "@/lib/site";
+import { articleHref, articles, isScheduled } from "@/lib/site";
 import { mainData } from "@/lib/analytics";
 
 type Credit = { slug: string; subject: string; creator: string; licence: string; licenceUrl?: string; sourceUrl?: string };
@@ -43,7 +43,8 @@ const dataSources = Object.entries(dataMeta.sources as Record<string, DataSource
 const licenceLabel = (licence: string) => licence === "cc-by-4.0" ? "CC BY 4.0" : "Facts only";
 
 export default function CreditsPage() {
-  const rows = credits as Credit[];
+  // A scheduled guide's photograph is credited from the day the guide is published.
+  const rows = (credits as Credit[]).filter((row) => !isScheduled(row.slug));
   return <>
     <Header />
     <main {...mainData({ kind: "legal", locale: "en" })}>
@@ -88,7 +89,7 @@ export default function CreditsPage() {
             </tbody>
           </table>
         </div>
-        <p className="price-table-disclaimer">Coastline on the region maps: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain, simplified.</p>
+        <p className="price-table-disclaimer">Coastline and lakes on the region maps: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain, simplified.</p>
       </section>
     </main>
     <Footer pageKey="credits" />
