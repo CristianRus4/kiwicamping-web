@@ -11,7 +11,6 @@
         "it",
         "nl",
         "pt",
-        "ja",
         "zh-hans",
         "cs",
         "pl"
@@ -33,10 +32,6 @@
         {
           "locale": "pt",
           "path": "../lib/translations/pt.json"
-        },
-        {
-          "locale": "ja",
-          "path": "../lib/translations/ja.json"
         },
         {
           "locale": "zh-hans",
@@ -399,6 +394,58 @@
       },
       "styleGuide": {
         "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms (북섬, 남섬, 퀸스타운) with Māori originals and macrons in parentheses on first mention, never bare 덤프, never 오프라인 지도."
+      }
+    },
+    {
+      "id": "kiwicamping-website-ja",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ja"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "DOC",
+        "NZD",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New Zealand": {
+          "ja": "ニュージーランド"
+        },
+        "North Island": {
+          "ja": "北島"
+        },
+        "South Island": {
+          "ja": "南島"
+        },
+        "Stewart Island": {
+          "ja": "スチュワート島"
+        },
+        "Aoraki": {
+          "ja": "アオラキ"
+        },
+        "Aotearoa": {
+          "ja": "アオテアロア"
+        }
+      },
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims."
       }
     }
   ]
