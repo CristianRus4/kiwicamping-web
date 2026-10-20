@@ -28,6 +28,8 @@ B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-c
 
 - `npm run check` passed (exit 0, 42 tests) on the final branch state, rebased on origin/main 47b8dae (de 83/89 guides, 0 stale, 0 unstamped). The 6 not translated are listicles: wikicamps-alternatives, best-campervan-apps-new-zealand (my skip list) and the four scheduled listicles that landed on main after this task was written (best-weather-apps, fuel-price-apps, working-holiday-apps, money-saving-travel-apps; treated as the listicle lane's).
 
+- Self-review pass 1 (no subagents before 09:00): re-read the rules/safety/fees guides (freedom-camping-rules, self-contained, responsible-camping, wastewater, campfire, camping-fees, freedom-camping guide, doc-campsites) against the English; fixed 11 wording defects (no negation or number problems found). Applied with the engine, restamped, content:check passes.
+
 ## Next
 - Native review (Opus, medium, 2 at a time) of all 35 guides is NOT done yet: subagents were not allowed before 09:00 on 21 Oct. Review packs and brief are prepared in /tmp/ava-de-k/review (pack-A..D.md, BRIEF.md); fixes get applied with the engine as a follow-up commit.
 - Then: ask the orchestrator whether the 4 new scheduled listicles are mine.
