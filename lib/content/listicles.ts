@@ -120,7 +120,7 @@ export const listicleArticles: Article[] = [
         "The limits: only BookIt stays and tours are free; DOC campsites, huts, tracks and dump stations, collections, trips and guides need the KiwiCamping Pass, from NZ$3.99 to NZ$12.99 on the New Zealand App Store. It is New Zealand only, iPhone only with iOS 26 or later, and it had 4 New Zealand ratings (3.8) with no traveller reviews, so pair it with Rankers if reviews matter to you.",
       ], ["Switch for: DOC data and route planning", "No ads", "New Zealand and iPhone only"], undefined, true),
       s("2. Rankers Camping NZ: best for traveller reviews", [
-        "Rankers has the most New Zealand App Store ratings of the apps compared here, 4.7 stars from 3,322, and says its team reads and checks each of its more than 108,000 reviews before publishing. It is free, and its listing says it only shows overnight spots the local community has approved.",
+        "Rankers has the most New Zealand App Store ratings of the apps compared here, 4.7 stars from 3,322, and says each of its more than 108,000 reviews is read and checked by a person on its team. It is free, and its listing says it only shows overnight spots the local community has approved.",
         "Campsite information is built in from the first install and detailed maps download over Wi-Fi. It covers New Zealand only, so it cannot replace CamperMate for the other half of a two-country trip.",
       ], ["Switch for: reviews and curated sites", "Free", "New Zealand only"]),
       s("3. WikiCamps New Zealand: best for coverage, paid once", [
