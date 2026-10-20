@@ -225,6 +225,16 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is the NZeTA cheaper in the app?", "Yes. Immigration New Zealand charges NZ$17 in the official NZeTA app and NZ$23 on its website, and most visitors pay the NZ$100 International Visitor Conservation and Tourism Levy on top. Use only the official app or immigration.govt.nz."],
     ["Which apps should I download before a New Zealand road trip?", "The NZeTA and Traveller Declaration apps for entry, Google Maps with offline areas downloaded, MetService for warnings and Plan My Walk for walks. For a camping trip add KiwiCamping, which we make, for DOC campsites and the route plan, and Rankers for traveller reviews."],
   ],
+  "wikicamps-alternatives": [
+    ["Is WikiCamps New Zealand free?", "No. On the New Zealand App Store it costs NZ$7.99 once, with no subscription in its listing. Its website quotes A$9.99 per platform, so check the price in your own store before you buy."],
+    ["What is a free alternative to WikiCamps in New Zealand?", "Rankers Camping NZ is free and lists only overnight spots the local community has approved, with traveller reviews read by its team. CamperMate is also free and covers Australia as well. KiwiCamping is free to download, but its DOC campsites, huts and trips need the paid Pass."],
+    ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes. WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own; WikiCamps Australia costs NZ$11.99 on the New Zealand App Store. CamperMate covers both countries in one free app."],
+  ],
+  "best-campervan-apps-new-zealand": [
+    ["What is the best app for a campervan trip in New Zealand?", "It depends on the stage. For planning nights at DOC campsites we recommend KiwiCamping, which we make; thl Roadtrip suits Maui, Britz, Mighty and Apollo hirers, CamperMate is a free all-rounder, and Rankers adds traveller reviews of where to stay."],
+    ["How do campervan relocations work in New Zealand?", "A hire company needs a van moved, so it offers it for as little as $1 a day on fixed dates. Imoova says fuel, tolls and parking are not covered, though some suppliers add fuel or a ferry ticket, and companies such as Travellers Autobarn ask for a bond."],
+    ["Do I need a green warrant to freedom camp in a campervan?", "Yes, on public land where freedom camping is limited to self-contained vehicles. Since 7 June 2026 blue warrants are no longer recognised, and camping without a green warrant can bring a $400 infringement notice. Campgrounds, holiday parks and private property are not covered by the rule."],
+  ],
   "best-nz-camping-apps": [
     ["What is the best camping app for New Zealand in 2026?", "It depends on the trip. For DOC campsites, huts and planning a route we recommend KiwiCamping, which we make; Rankers has the most New Zealand App Store ratings, CamperMate combines booking, deals and downloadable maps, and WikiCamps New Zealand publishes the biggest count of New Zealand sites. Many travellers carry two."],
     ["Is there a free camping app for New Zealand?", "Rankers and CamperMate are free to download. KiwiCamping is free to download, but DOC campsites, huts, tracks and dump stations, collections and trips need its paid Pass. WikiCamps New Zealand costs NZ$7.99 once on iPhone."],
