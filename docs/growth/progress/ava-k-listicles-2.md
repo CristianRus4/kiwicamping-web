@@ -26,8 +26,17 @@ Wikimedia Commons hero (1600x900 + 800) credited in `docs/IMAGE-SOURCES.md`, scr
 - Weather on place screens and trip stops is Apple Weather (WeatherKit): current conditions, gusts, feels-like, 7 daily highs/lows;
   trip stops show the forecast for the arrival day. Not official warnings. Needs signal.
 
+## Handoff 1 (2026-10-20): pages 1-2
+- Commits 55bd00a (wikicamps-alternatives), fbc5475 (best-campervan-apps-new-zealand), 47a4593 (similarity rewording).
+- `npm run check` passed: content, build, export (946 pages), SEO (504 indexable, unchanged), 42/42 tests, similarity, assets.
+- Local skeleton checker (not committed, excluded via .git/info/exclude): `npx tsx .skelcheck.mts <slug>...` mirrors the similarity audit without a build.
+
 ## Next
-- Research (3 sonnet subagents): A WikiCamps + campervan apps; B weather + fuel apps; C working holiday + money-saving apps.
+- Page 3 weather: draft in `.growth-lanes/research/k-listicles2-work/p3.py` (run `python3 -I p3.py <worktree>`); figure = Inbox kiwicamping_place-detail_jollie-hut_middle.png.
+- Page 4 fuel: draft in `p4.py`; KiwiCamping deliberately not ranked (no fuel prices); figure = Inbox kiwicamping_collections_picton-christchurch-kaikoura_top.png ("Furthest distance between places 277 km").
+- Pages 5-6: research in `k-listicles2-whv-money.md`; not drafted.
+- Held hero/screen images for pages 3-6: `.growth-lanes/research/k-listicles2-work/hold/` (move into public/images/articles with each page).
+- Research notes: Apple review RSS returned nothing for MetService/Gaspy/Z, so pages 3-4 report no review counts. Visitor licence duration (12 vs 18 months) unconfirmed: not stated on any page.
 
 ## Blockers
 - None.
