@@ -1537,7 +1537,7 @@
         {
           "heading": "Règles de réservation et pénalité sans réservation",
           "body": [
-            "La page de chaque camping indique s’il se réserve ou s’il fonctionne par auto-inscription, et les règles en découlent. Dans un camping réservable, il vous faut une réservation valable pour la nuit où vous l’utilisez, y compris si vous avez un pass. Sans elle, aucune place n’est garantie et le DOC applique son tarif de pénalité : chaque personne paie son tarif normal plus un plein tarif adulte, sauf si elle s’abrite à cause de conditions difficiles.",
+            "La page de chaque camping indique s’il se réserve ou s’il fonctionne par auto-inscription, et les règles en découlent. Dans un camping réservable, il vous faut une réservation valable pour la nuit où vous l’utilisez, y compris si vous avez un pass. Sans elle, aucune place n’est garantie et le DOC applique son tarif de pénalité : chaque personne paie son tarif normal plus un plein tarif adulte, sauf si elle s’abrite à cause de conditions difficiles. Les titulaires d’un Campsite Pass qui arrivent sans réservation paient à la place 10 $ de frais et sont refusés si le camping est complet.",
             "Dans un camping en auto-inscription, remplissez le formulaire et payez à l’arrivée. Dans les deux cas, la réservation ou l’inscription porte sur les personnes et le véhicule que vous amenez réellement, et la confirmation doit pouvoir être présentée sur demande : enregistrez-la là où vous pourrez la montrer <a data-guide=\"kiwicamping-offline-data-guide\">sans réseau</a>."
           ],
           "tips": [
@@ -1603,7 +1603,7 @@
         ],
         [
           "Combien de temps peut-on rester dans un camping du DOC ?",
-          "Certains campings fixent une durée maximale de séjour sur leur page DOC, et un Campsite Pass couvre au plus 7 nuits sur 30 jours dans un même camping. Chaque nuit exige une réservation ou une inscription, sauf dans les campings Basic gratuits, et occuper un emplacement réservable sans avoir réservé coûte à chaque personne son tarif normal plus un plein tarif adulte."
+          "Certains campings fixent une durée maximale de séjour sur leur page DOC, et un Campsite Pass couvre au plus 7 nuits sur 30 jours dans un même camping. Chaque nuit exige une réservation ou une inscription, sauf dans les campings Basic gratuits, et occuper un emplacement réservable sans avoir réservé coûte à chaque personne son tarif normal plus un plein tarif adulte, ou 10 $ pour les titulaires d’un Campsite Pass."
         ]
       ],
       "sources": [
@@ -5447,6 +5447,9 @@
           "label": "DOC : Backcountry Hut Pass"
         },
         {
+          "label": "DOC : refuges où le Backcountry Hut Pass n’est pas accepté"
+        },
+        {
           "label": "DOC : Campsite Pass"
         },
         {
@@ -5466,6 +5469,15 @@
         },
         {
           "label": "DOC : saison et réservations de la Milford Track"
+        },
+        {
+          "label": "DOC : saison et réservations de la Routeburn Track"
+        },
+        {
+          "label": "DOC : saison et réservations de la Kepler Track"
+        },
+        {
+          "label": "DOC : saison et réservations du Tongariro Northern Circuit"
         },
         {
           "label": "DOC : modifier ou annuler une réservation en ligne"
