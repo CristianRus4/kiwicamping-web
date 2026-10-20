@@ -15,10 +15,10 @@ Packets: `translation-engine packet --config docs/translation.config.json --loca
 - AussieCamps COMPLETE: the five listicles in de, sv, da, nb applied, native-reviewed (opus), stamped. All four locales are 80/80 guides.
 
 ## Done (KiwiCamping, branch i18n/k-nordic-gap)
-- sv ea3b23e, da 8c22365, de f257194: the six listicles each (de also one doc-campsite-rules unit), native-reviewed, stamped. de 89/89, da 89/89, sv 89/89.
+- sv ea3b23e, da 8c22365, de f257194, nb fbb59d8: the six listicles each (de also one doc-campsite-rules unit), native-reviewed (opus), stamped. de, da, sv, nb are each 89/89 guides on KiwiCamping.
 
 ## Next
-- KiwiCamping nb: six listicles (drafting), then review, apply, stamp, commit, hand off.
+- Nothing left in this lane: no gap in de, da, sv or nb on either site (checked with gaps.py against origin/main). Waiting for the orchestrator to merge `i18n/k-nordic-gap`.
 
 ## Blockers / notes
 - none
