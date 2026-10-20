@@ -10,7 +10,7 @@ Research fact sheets (dated, sourced): `/Users/cristian/Developer/Webs/.growth-l
 | 1 | wikicamps-alternatives | 2026-10-23 | committed |
 | 2 | best-campervan-apps-new-zealand | 2026-10-25 | committed |
 | 3 | best-weather-apps-new-zealand | 2026-10-27 | committed |
-| 4 | fuel-price-apps-new-zealand | 2026-10-29 | research |
+| 4 | fuel-price-apps-new-zealand | 2026-10-29 | committed |
 | 5 | working-holiday-apps-new-zealand | 2026-10-31 | research |
 | 6 | money-saving-travel-apps-new-zealand | 2026-11-01 | research |
 
@@ -36,7 +36,7 @@ Wikimedia Commons hero (1600x900 + 800) credited in `docs/IMAGE-SOURCES.md`, scr
 
 ## Next
 - Page 3 weather: committed 2026-10-21.
-- Page 4 fuel: draft in `p4.py` (still has Pass wording in the KiwiCamping section: rewrite to the owner rule before inserting); KiwiCamping deliberately not ranked (no fuel prices); figure = Inbox kiwicamping_collections_picton-christchurch-kaikoura_top.png ("Furthest distance between places 277 km").
+- Page 4 fuel: committed 2026-10-21 (KiwiCamping not ranked; 'Where KiwiCamping fits' section holds the figure).
 - Pages 5-6: research in `k-listicles2-whv-money.md`; not drafted.
 - Held hero/screen images for pages 3-6: `.growth-lanes/research/k-listicles2-work/hold/` (move into public/images/articles with each page).
 - Research notes: Apple review RSS returned nothing for MetService/Gaspy/Z, so pages 3-4 report no review counts. Visitor licence duration (12 vs 18 months) unconfirmed: not stated on any page.

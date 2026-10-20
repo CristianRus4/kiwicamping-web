@@ -38,3 +38,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-28 | road-trip-planner-apps-new-zealand | scheduled |
 | 2026-10-30 | best-travel-apps-new-zealand | scheduled |
 | 2026-10-27 | best-weather-apps-new-zealand | scheduled |
+| 2026-10-29 | fuel-price-apps-new-zealand | scheduled |

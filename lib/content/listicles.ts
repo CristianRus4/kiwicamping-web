@@ -634,4 +634,82 @@ export const listicleArticles: Article[] = [
       { label: "New Zealand Avalanche Advisory", url: "https://www.avalanche.net.nz/" },
     ],
   }),
+
+  a({
+    slug: "fuel-price-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-10-29",
+    title: "Best Fuel Price Apps in New Zealand 2026: Gaspy, Brand Apps and Discounts Compared",
+    description: "Gaspy, Z, bp, Waitomo, Gull, g.a.s., Mobil and the supermarket fuel schemes compared: what each saves per litre, what it costs and where it works. Prices and terms checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["State highways", "Rural fuel stops", "Te Anau", "Supermarkets", "EV chargers"],
+    imageAlt: "State Highway 6 winding along the shore of Lake Wakatipu under grey cloud",
+    related: ["new-zealand-road-trip-fuel-cost-2026", "food-fuel-resupply-new-zealand-road-trip", "best-travel-apps-new-zealand"],
+    intro:
+      "Fuel has become one of the biggest costs of a New Zealand road trip in 2026. MBIE's weekly monitoring put regular 91 at 354.4 cents a litre on the price boards in the week dated 9 October 2026, against 260.6 cents a year earlier, and diesel at 323.8 cents before road user charges. At those prices it pays to know both where fuel is cheapest and which discounts you hold, so the best setup is one app that shows prices and one or two that cut them. We make KiwiCamping, a camping app that does not track fuel prices, so it is not ranked here; it appears at the end only for the planning job it can help with.",
+    sections: [
+      s("Fuel apps at a glance", [
+        "Start with Gaspy to see which station near you is cheapest. Then add the app for the network you pass most: Z's app gives a daily discount and a bigger one on Wednesdays, bp's app works with Woolworths' Everyday Rewards card, and Foodstuffs' Club+ turns a supermarket shop into a discount at Z and participating Caltex sites. Waitomo and Gull reward you through in-app credit and promotion days rather than a fixed cents-per-litre discount.",
+        "Discounts are capped per fill, usually at 50 or 100 litres, and the schemes can change their amounts at short notice. Check the terms in the app before a long drive rather than relying on last month's offer.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each company's own page. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "How it saves you money", "Price", "NZ rating"],
+        rows: [
+          ["Gaspy", "Shows user-reported pump prices", "Free; Gold NZ$1.69 a month", "4.0 (773)"],
+          ["Z Energy", "At least 6c a litre daily, 15c on Wednesdays", "Free", "4.8 (13,568)"],
+          ["BPme", "6c a litre with Everyday Rewards (up to 50 L)", "Free", "4.9 (34,764)"],
+          ["Club+ (Foodstuffs)", "8c a litre at Z or Caltex after a supermarket shop", "Free", "1.8 (682)"],
+          ["Waitomo", "Spin-to-win credit on fills of $20 or more", "Free", "4.8 (23,195)"],
+          ["Gull", "Promotion days; unlocks unmanned pumps", "Free", "4.8 (17,818)"],
+          ["g.a.s.", "Everyday Rewards discounts at g.a.s. sites", "Free", "4.7 (1,027)"],
+          ["Mobil", "Smiles points and paying from the car", "Free", "4.7 (10,135)"],
+        ],
+      }),
+      s("1. Gaspy: best for finding the cheapest station", [
+        "Gaspy is a crowd-sourced price map run by Hello World Limited. Its users enter the price shown on the pump, other users confirm it, and both earn Spy Coins when a price is confirmed. Gaspy's help page says updates are limited to stations near you because of past misuse, which keeps prices honest but means a remote station can show an old figure.",
+        "You can tell the app which discounts you hold, and it shows your discounted price above the pump price; the free version allows one custom discount and Gaspy Gold, NZ$1.69 a month, allows as many as you like. Favourites can send price alerts, and the map also lists EV chargers. It rated 4.0 from 773 New Zealand ratings.",
+      ], ["Choose it for: comparing stations", "Gold NZ$1.69 a month", "Check the time of the last update"]),
+      s("2. Z Energy app: best everyday discount on a major network", [
+        "Z Rewards in the Z app takes at least 6 cents a litre off every fill, up to 100 litres, and 15 cents a litre from 6am Wednesday to 6am Thursday when you scan in the app. You also earn a point for every dollar spent on fuel and Airpoints on fuel, and Sharetank lets you share a virtual fuel tank with up to five people.",
+        "It rated 4.8 from 13,568 New Zealand ratings. Z's Wednesday figure has changed before (it was 10 cents in mid-2025), so confirm it on the rewards page before you plan a fill around it.",
+      ], ["Choose it for: a steady discount at Z", "15c a litre on Wednesdays", "Up to 100 litres a fill"]),
+      s("3. BPme with Everyday Rewards: best if you shop at Woolworths", [
+        "bp takes 6 cents a litre off up to 50 litres when you scan an Everyday Rewards card, and the same card earns a point per litre towards $15 vouchers. Woolworths, which runs Everyday Rewards, also issues bonus fuel discounts for qualifying grocery spends; their size changes and is not fixed in its terms. BPme links your Everyday Rewards card in the app and rated 4.9 from 34,764 New Zealand ratings.",
+        "The same Everyday Rewards discount works at g.a.s. stations, and the g.a.s. app (4.7 from 1,027) links the card there.",
+      ], ["Choose it for: bp and g.a.s. with one card", "6c a litre on up to 50 L", "Bonus discounts vary"]),
+      s("4. Club+: best if you shop at PAK'nSAVE or New World", [
+        "Foodstuffs launched Club+ in June 2026 in place of the New World Clubcard. A qualifying spend of $1 or more at a store without its own fuel site earns an 8-cent-a-litre discount, up to 100 litres, to use at Z or participating Caltex sites within 30 days. PAK'nSAVE and New World stores with fuel on site give their own discount, which Club+ states as at least 8 cents a litre in the North Island and 4 cents in the South Island.",
+        "The Club+ app rated only 1.8 from 682 New Zealand ratings, and its terms let Foodstuffs change the discount at any time. Gull is not part of the scheme.",
+      ], ["Choose it for: Foodstuffs shoppers", "8c a litre at Z and Caltex", "Use within 30 days"]),
+      s("5. Waitomo, Gull and Mobil: best for their own networks", [
+        "Waitomo's app (4.8 from 23,195) gives a spin to win credit called Moolah on fills of $20 or more, plus scratchies when your monthly spend passes set amounts; Moolah is spent in the app. Gull's app (4.8 from 17,818) unlocks pumps at unmanned Gull stations and Pay at Pump lanes and runs promotion days. Neither states a fixed cents-per-litre discount.",
+        "Mobil's app (4.7 from 10,135) earns Smiles points and pays for fuel from the car. We could not load Mobil's own rewards page to confirm its current discount, so check it in the app.",
+      ], ["Waitomo: chance-based credit", "Gull: unmanned pumps and promo days", "Mobil: Smiles points"]),
+      s("Diesel, EVs and remote roads", [
+        "MBIE's diesel figure excludes road user charges. NZTA charges $76 per 1,000 km for light diesel vehicles, so add about 7.6 cents a kilometre to the pump cost when you compare a diesel campervan with a petrol car. Hire companies bill RUC in different ways; ask before you book.",
+        "For electric vehicles, PlugShare (4.6 from 4,173) maps chargers from many networks, and the Z app also handles Z's EV charging. On remote routes the cheapest fuel is the fuel you already have: DOC notes there are no fuel stations between Te Anau and Milford Sound, so fill up in Te Anau.",
+      ]),
+      s("Where KiwiCamping fits", [
+        "KiwiCamping does not show fuel prices, so it is not on the list above. What it does show is distance: a trip in KiwiCamping gives the distance and drive time between stops, and a collection of saved places shows the furthest gap between them, which tells you where the long, empty legs are and where to fill up before them.",
+        "KiwiCamping runs on iPhone with iOS 26 or later, and its four New Zealand ratings average 3.8. To turn those distances into dollars, our fuel and distance calculator on this site does the arithmetic.",
+      ], ["Use it for: spotting long legs between stops", "iPhone only, iOS 26 or later", "No fuel prices"], undefined, true),
+      s("How we chose and checked", [
+        "We included the price app with the most New Zealand use and the app of every fuel brand or loyalty scheme we could verify. Discounts and caps come from each company's own rewards or terms page on 20 October 2026; ratings come from the New Zealand App Store that day. Fuel prices come from MBIE's weekly monitoring table, which records board prices, not prices after discounts.",
+        "We describe each scheme as the company does. A discount or feature not mentioned here is not a claim that it does not exist.",
+      ]),
+    ],
+    sources: [
+      { label: "MBIE weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" },
+      { label: "Gaspy help", url: "https://www.gaspy.nz/help.html" },
+      { label: "Z Rewards promotions", url: "https://dynamic.z.co.nz/rewards-promotions/promotions" },
+      { label: "bp and Everyday Rewards", url: "https://www.bp.com/en_nz/new-zealand/home/products-and-services/promotions-and-rewards/everydayrewards" },
+      { label: "Everyday Rewards FAQs (Woolworths)", url: "https://www.woolworths.co.nz/help/everyday-rewards-faqs" },
+      { label: "Club+ fuel discounts", url: "https://www.clubplus.co.nz/fuel" },
+      { label: "Waitomo FAQ", url: "https://waitomogroup.co.nz/faq" },
+      { label: "Gull app", url: "https://gull.nz/app" },
+      { label: "NZTA road user charge rates", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/ruc-rates-and-transaction-fees" },
+      { label: "DOC: Milford Road tips for drivers", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/milford-road-tips-for-drivers/" },
+    ],
+  }),
 ];

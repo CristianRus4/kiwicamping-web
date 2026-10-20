@@ -21,6 +21,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | wikicamps-alternatives | 2 (1. KiwiCamping: best for DOC campsites and huts with DOC's own details) | Inbox: kiwicamping_place-detail_black-rock-campsite_fees-facilities.png | KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply |
 | best-campervan-apps-new-zealand | 1 (1. KiwiCamping: best for planning where the van sleeps each night) | Inbox: kiwicamping_guides_west-coast-road-trip_top.png | KiwiCamping on iPhone: a South Island West Coast road trip guide with its trip length, distance and a button to save every place it mentions |
 | best-weather-apps-new-zealand | 1 (1. KiwiCamping: best for comparing the weather at your next campsites) | Inbox: kiwicamping_place-detail_jollie-hut_middle.png | KiwiCamping on iPhone: a DOC hut's page with the wind gusts and a seven-day forecast |
+| fuel-price-apps-new-zealand | 7 (Where KiwiCamping fits) | Inbox: kiwicamping_collections_picton-christchurch-kaikoura_top.png | KiwiCamping on iPhone: a Picton to Christchurch collection showing 19 saved places and 277 km as the furthest distance between them |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
