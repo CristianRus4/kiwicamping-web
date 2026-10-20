@@ -13,9 +13,10 @@ Batches (about five guides each):
 
 ## Done
 - [x] Batch 1 applied (6 guides): self-contained-campervan-green-warrant, freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide, holiday-parks-new-zealand-guide, east-cape-road-trip. Negation re-read done against the English, content:check passes.
+- [x] Batch 2 applied (6 guides): scenic-campsites-new-zealand, eating-out-new-zealand-prices-2026, new-zealand-road-signs-visitors, domestic-flight-costs-new-zealand-2026, wof-registration-campervan-new-zealand, accommodation-costs-new-zealand-2026.
 
 ## Next
-Batch 2 (reviewing: scenic-campsites, eating-out, road-signs, flights, wof, accommodation), batch 3 drafting.
+Batch 3 (volcanic-safety, packing-list, beer-wine-coffee, responsible-camping drafted; northland-cape-reinga, arthurs-pass, dogs, cook-strait drafting), batch 4a (taranaki, bus-ferry-train, coromandel-rotorua, picton-kaikoura) drafting. Audit rule: never write KiwiCampings (genitive) in sv.
 
 ## Blockers
 none
