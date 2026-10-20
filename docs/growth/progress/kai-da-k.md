@@ -12,8 +12,10 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 ## Done
 - Batch 1 (c5fc471, 3728b4b): doc-campsites-new-zealand-guide, campfire-rules-new-zealand, best-nz-camping-apps, camping-fees-new-zealand-2026, best-time-camping-new-zealand. Drafted (sonnet high), reviewed (opus medium), negation sweep by hand, engine apply, stamp, content:check clean (da 27/85 guides).
 
+- Batch 2 (fdd1023): where-to-camp-in-new-zealand, self-contained-campervan-green-warrant, freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide. da 32/85 guides. `npm run check` passed after batch 2 (handoff 1).
+
 ## Next
-- Batch 2 (in review): where-to-camp, self-contained-campervan-green-warrant, freedom-camping-rules, camping-wastewater-rubbish, freedom-camping-new-zealand-guide.
+- Batches 3, 4, 5 drafted/in flight (see /tmp/da-k2/out).
 - Queue for later batches: /tmp/da-k2/queue.json (b3 holiday-parks, scenic-campsites, sandflies, volcanic-safety, coromandel-rotorua; b4 dogs, domestic-flights, northland, packing-list, responsible-camping; then b5..b13).
 
 ## Blockers / questions
