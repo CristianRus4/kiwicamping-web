@@ -614,6 +614,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hub-map svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border: 1px solid var(--line); }
 .hub-map-sea { fill: var(--soft); }
 .hub-map-land { fill: var(--paper); stroke: var(--line); stroke-width: 1; }
+.hub-map-lake { fill: var(--soft); stroke: var(--line); stroke-width: .6; }
 .hub-map-dot { fill: var(--fern); fill-opacity: .82; stroke: var(--paper); stroke-width: 1; }
 .hub-map figcaption { margin-top: 8px; color: var(--muted); font-size: 12px; }
 .hub-facts th { font-weight: 600; }
