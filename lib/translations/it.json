@@ -5121,5 +5121,231 @@
     "decline": "Rifiuta",
     "policy": "Informativa sulla privacy",
     "choices": "Preferenze sulla privacy"
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Home",
+      "breadcrumbTools": "Calcolatori",
+      "howTitle": "Come si calcola",
+      "exampleTitle": "Esempio svolto",
+      "assumptionsTitle": "Ipotesi",
+      "sourcesTitle": "Fonti",
+      "faqTitle": "Domande frequenti",
+      "guidesTitle": "Guide correlate",
+      "otherToolsTitle": "Altri calcolatori per il road trip",
+      "openTool": "Apri il calcolatore",
+      "ctaEyebrow": "Pianifica con KiwiCamping",
+      "ctaTitle": "Trova le tappe, poi fai i conti.",
+      "ctaText": "KiwiCamping si scarica gratis su iPhone. Holiday park, soggiorni e tour prenotabili sono gratuiti nell’app. Campeggi DOC, rifugi, punti di scarico e guide si aprono con il Pass.",
+      "ctaButton": "Scarica l’app",
+      "enterValidValues": "Inserisci valori validi",
+      "enterValidAmount": "Inserisci un importo valido"
+    },
+    "index": {
+      "metaTitle": "Calcolatori road trip Nuova Zelanda: carburante, guida e campeggi",
+      "metaDescription": "Calcolatori gratuiti per il road trip in Nuova Zelanda: costo del carburante, tempi di guida per tipo di strada, campeggio a persona o a piazzola, cambio NZD e serbatoi del camper.",
+      "toolsTitle": "Un calcolatore per ogni domanda",
+      "toolsText": "Ogni calcolatore ha una pagina dedicata con la formula, un esempio svolto con cifre neozelandesi, le ipotesi che ci stanno dietro e le risposte alle domande più frequenti."
+    },
+    "fuel": {
+      "metaTitle": "Calcolatore carburante Nuova Zelanda: road trip in camper",
+      "metaDescription": "Calcola litri e costo del carburante per un road trip in Nuova Zelanda da distanza, L/100 km e prezzo alla pompa, con formula, esempio su 1.000 km e riferimento MBIE.",
+      "eyebrow": "Calcolatore del costo del carburante",
+      "cardEyebrow": "Calcolatore carburante",
+      "h1": "Calcolatore del costo del carburante per un road trip in Nuova Zelanda",
+      "intro": "Inserisci la distanza del percorso, il consumo del veicolo a pieno carico e il prezzo al litro. Il prezzo predefinito è il prezzo nazionale alla pompa rilevato dal MBIE per la benzina 91 regular nella settimana terminata il 26 luglio 2026.",
+      "cardTitle": "Calcola quanto costano i chilometri.",
+      "cardText": "Inserisci la distanza completa del percorso, il consumo del veicolo a pieno carico e il prezzo previsto al litro. Nei posti isolati i prezzi possono superare quelli di riferimento delle città.",
+      "labelDistance": "Distanza (km)",
+      "labelConsumption": "Consumo (L/100 km)",
+      "labelPrice": "Prezzo del carburante (NZD/L)",
+      "formula": [
+        "Litri = distanza (km) × consumo (L/100 km) ÷ 100",
+        "Costo = litri × prezzo al litro (NZD)"
+      ],
+      "formulaNote": "Il consumo è espresso ogni 100 chilometri, quindi dividendo per 100 si ottengono i litri per chilometro. Il calcolo è lineare: se raddoppi la distanza, raddoppiano sia i litri sia il costo.",
+      "example": "Un percorso di {distance} km in camper con un consumo di {consumption} L/100 km richiede {litres} litri di carburante. A {price} al litro, fanno {cost}.",
+      "assumptions": [
+        "Il prezzo predefinito è un riferimento nazionale. I distributori isolati, anche sulla West Coast e nel Fiordland, spesso costano di più, quindi fai il pieno prima dei lunghi tratti tra un centro abitato e l’altro.",
+        "Usa il consumo a pieno carico del veicolo che guidi davvero. Un camper carico, tra salite e vento contrario, consuma più di quanto dichiara la scheda tecnica.",
+        "Aggiungi gli spostamenti locali intorno a ogni tappa. Spesa al supermercato, punti panoramici e strade secondarie, su un percorso lungo, si sommano.",
+        "I veicoli diesel pagano le road user charges (RUC) ogni 1.000 km, oltre al carburante. Questo calcolatore considera solo il carburante."
+      ],
+      "faq": [
+        [
+          "Quanto carburante consuma un camper in Nuova Zelanda?",
+          "Dipende dal veicolo, dal carico e dalle strade. Usa il dato dell’azienda di noleggio o del veicolo e tieni un margine per le salite. I 12 L/100 km predefiniti sono un valore indicativo per pianificare con un camper carico, non una media misurata."
+        ],
+        [
+          "Il costo del carburante comprende le road user charges?",
+          "No. In Nuova Zelanda i veicoli diesel pagano le road user charges ogni 1.000 km, separatamente dal carburante. Chiedi all’azienda di noleggio se le RUC sono comprese nella tariffa e verifica con NZTA gli importi in vigore."
+        ],
+        [
+          "Da dove arriva il prezzo predefinito del carburante?",
+          "È il prezzo nazionale alla pompa rilevato dal MBIE per la benzina 91 regular nella settimana terminata il 26 luglio 2026. Il MBIE pubblica i prezzi dei carburanti ogni settimana, quindi controlla il dato più recente prima di partire."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Tempi di guida Nuova Zelanda: ore reali per tipo di strada",
+      "metaDescription": "Stima quanto dura davvero una giornata di guida in Nuova Zelanda da distanza, tipo di strada e soste, con formula, esempio svolto e le velocità usate.",
+      "eyebrow": "Calcolatore dei tempi di guida",
+      "cardEyebrow": "Stima della giornata di guida",
+      "h1": "Calcolatore dei tempi di guida sulle strade della Nuova Zelanda",
+      "intro": "Le app di navigazione danno il tempo in movimento su una strada ideale. Questo calcolatore parte dalla distanza che già conosci, da una velocità media per il tipo di strada e da 20 minuti per ogni sosta, ed è proprio lì che una giornata di guida in Nuova Zelanda di solito si allunga oltre il previsto.",
+      "cardTitle": "Quanto dura davvero quella giornata.",
+      "cardText": "Le app di navigazione danno il tempo in movimento su una strada ideale. Qui si aggiungono il tipo di strada e le soste vere, ed è lì che di solito la giornata si allunga oltre il previsto.",
+      "labelDistance": "Distanza (km)",
+      "labelRoadType": "Tipo di strada",
+      "roadMotorway": "Autostrada o lunghi rettilinei",
+      "roadHighway": "Strada statale principale",
+      "roadWinding": "Tortuosa o costiera",
+      "roadNarrow": "Stretta, ripida o sterrata",
+      "labelStops": "Soste",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minuti di guida = distanza (km) ÷ velocità media (km/h) × 60",
+        "Minuti totali = minuti di guida + 20 × soste"
+      ],
+      "formulaNote": "La velocità media non è il limite di velocità. Tiene conto di curve, salite, ponti a una corsia, centri abitati e traffico più lento. I quattro tipi di strada usano 85, 70, 60 e 45 km/h.",
+      "example": "Una giornata di {distance} km su strade tortuose o costiere a {speed} km/h sono {driving} di guida. Aggiungi {stops} soste da 20 minuti l’una e la giornata dura {total}.",
+      "assumptions": [
+        "Le velocità medie sono valori indicativi per pianificare con un’auto o un camper in buone condizioni, non medie misurate su una strada specifica.",
+        "Ogni sosta conta 20 minuti, per carburante, cibo, bagno o un punto panoramico. Traghetti, lavori stradali e lunghe camminate vanno aggiunti a parte.",
+        "Meteo, smottamenti e chiusure cambiano i percorsi. Prima di partire controlla le condizioni delle strade sul pianificatore di viaggio di NZTA."
+      ],
+      "faq": [
+        [
+          "Quanti chilometri si possono fare in un giorno in Nuova Zelanda?",
+          "Non esiste un numero unico. Strade tortuose, ponti a una corsia e soste tengono le medie molto sotto il limite fuori dai centri abitati, quindi una giornata che sulla mappa sembra corta può portarsi via quasi tutta la luce del giorno. Inserisci distanza e tipo di strada per vedere le ore e programma pause regolari per riposare."
+        ],
+        [
+          "Perché il tempo è più lungo di quello della mia app di mappe?",
+          "Le app di mappe stimano il tempo in movimento, senza soste. Qui si usa una media per il tipo di strada e si aggiunge il tempo di ogni sosta, che è più vicino a come va davvero una giornata di viaggio in campeggio."
+        ],
+        [
+          "Va bene anche per un camper?",
+          "Sì. Scegli un tipo di strada più lento se guidi un veicolo grande, se traini o se la guida a sinistra è una novità per te."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Costo campeggio Nuova Zelanda: a persona o a piazzola?",
+      "metaDescription": "Confronta un campeggio DOC a tariffa per adulto con un holiday park a tariffa per piazzola, per il tuo gruppo e le tue notti, con formula, esempio svolto e tariffe DOC tratte dai dati.",
+      "eyebrow": "Calcolatore del costo del campeggio",
+      "cardEyebrow": "Confronto tra campeggi",
+      "h1": "Calcolatore del costo del campeggio: a persona o a piazzola",
+      "intro": "I campeggi DOC fanno pagare per adulto a notte, mentre in un holiday park di solito si paga per piazzola. Quale conviene cambia con la dimensione del gruppo, e qui lo calcoli per le tue notti.",
+      "cardTitle": "A persona o a piazzola?",
+      "cardText": "Un campeggio DOC di solito fa pagare per adulto, un holiday park di solito per piazzola. L’opzione più conveniente cambia con il numero di persone, ed è lì che molte famiglie ci cascano.",
+      "labelAdults": "Adulti",
+      "labelNights": "Notti",
+      "labelPerAdult": "Per adulto (NZD)",
+      "labelPerSite": "Per piazzola (NZD)",
+      "comparison": "{perAdult} vs {perSite} · {verdict}",
+      "theSame": "il costo è lo stesso",
+      "perAdultCheaper": "conviene la tariffa a persona",
+      "perSiteCheaper": "conviene la tariffa a piazzola",
+      "formula": [
+        "Totale a persona = adulti × notti × tariffa per adulto",
+        "Totale a piazzola = notti × tariffa per piazzola",
+        "Il totale più basso è l’opzione più conveniente per il tuo gruppo"
+      ],
+      "formulaNote": "Il totale a persona cresce con ogni adulto in più, quello a piazzola no. Per questo la risposta cambia tra una coppia e una famiglia.",
+      "example": "{adults} adulti per {nights} notti a {rateAdult} per adulto pagano {totalAdult}. Lo stesso soggiorno a {rateSite} a piazzola costa {totalSite}, quindi {verdict}.",
+      "assumptions": [
+        "I bambini sono esclusi. Molti campeggi DOC applicano una tariffa ridotta dai 5 ai 17 anni e non fanno pagare i più piccoli, mentre gli holiday park fissano da soli le tariffe per i bambini.",
+        "Le tariffe predefinite sono esempi, non preventivi. Nei dati DOC aggiornati in data {docDate}, {docFree} campeggi DOC sono gratuiti e la tariffa adulto più bassa indicata in quelli a pagamento va da {docMin} a {docMax} a notte.",
+        "Gli holiday park fissano da soli i prezzi, che cambiano con la stagione, la corrente e le dimensioni della piazzola. Verifica con la struttura prima di prenotare."
+      ],
+      "faq": [
+        [
+          "Quanto costa un campeggio a notte in Nuova Zelanda?",
+          "I campeggi DOC sono gratuiti oppure si paga per adulto. Nei dati DOC aggiornati in data {docDate}, la tariffa adulto più bassa nei campeggi DOC a pagamento va da {docMin} a {docMax} a notte, con una mediana di {docMedian}. Gli holiday park fissano da soli i prezzi delle piazzole, quindi confronta il totale per il tuo gruppo."
+        ],
+        [
+          "Per una famiglia conviene di più a persona o a piazzola?",
+          "Di solito, man mano che il gruppo cresce, conviene la tariffa a piazzola, perché il prezzo della piazzola resta uguale mentre le tariffe per adulto si moltiplicano. Inserisci le tue tariffe per vedere dove cade il punto di pareggio."
+        ],
+        [
+          "I bambini pagano nei campeggi DOC?",
+          "In molti campeggi DOC i bambini dai 5 ai 17 anni pagano una tariffa ridotta e i più piccoli non pagano. La tariffa di ogni campeggio è sulla sua pagina DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Convertitore NZD: prezzi della Nuova Zelanda in 9 valute",
+      "metaDescription": "Converti i prezzi in dollari neozelandesi da e verso USD, EUR, GBP, AUD, JPY, CNY, KRW, INR e SGD con i tassi di riferimento della Reserve Bank of New Zealand.",
+      "eyebrow": "Convertitore di valuta",
+      "cardEyebrow": "Convertitore di valuta",
+      "h1": "Convertitore NZD per i prezzi del viaggio in Nuova Zelanda",
+      "intro": "Converti un prezzo neozelandese nella tua valuta, o la tua valuta in dollari neozelandesi, con i tassi di riferimento della Reserve Bank of New Zealand in data {rateDate}.",
+      "cardTitle": "Converti un prezzo neozelandese.",
+      "cardText": "Conversione di riferimento per pianificare il viaggio, con i tassi della Reserve Bank of New Zealand in data {rateDate}. La tua banca o la tua carta può usare un altro tasso e aggiungere commissioni.",
+      "labelAmount": "Importo",
+      "labelFrom": "Da",
+      "labelTo": "A",
+      "formula": [
+        "Importo in NZD = importo ÷ tasso della valuta di partenza",
+        "Risultato = importo in NZD × tasso della valuta di arrivo"
+      ],
+      "formulaNote": "Ogni tasso è il numero di unità di quella valuta per 1 dollaro neozelandese, quindi ogni conversione passa per l’NZD.",
+      "example": "Con un cambio di {rate} dollari statunitensi per dollaro neozelandese, {amount} corrispondono a {converted}.",
+      "assumptions": [
+        "Sono tassi di riferimento in data {rateDate}. I tassi di cambio si muovono ogni giorno.",
+        "Banche, carte e bancomat usano tassi propri e possono aggiungere commissioni, quindi l’importo che paghi può essere diverso.",
+        "Lo yen giapponese e il won coreano compaiono senza decimali."
+      ],
+      "faq": [
+        [
+          "Che valuta si usa in Nuova Zelanda?",
+          "Il dollaro neozelandese (NZD). I prezzi nei negozi, nei campeggi e negli holiday park sono in NZD."
+        ],
+        [
+          "È il tasso che mi darà la mia banca?",
+          "Probabilmente non proprio. Qui si usano tassi di riferimento in data {rateDate}. La banca o l’emittente della carta applica un tasso e commissioni propri, quindi prendi il risultato come una stima per pianificare."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Calcolo serbatoi acqua camper: giorni di acque chiare e grigie",
+      "metaDescription": "Calcola per quanti giorni bastano i serbatoi delle acque chiare e grigie del camper per il tuo gruppo, con formula, esempio svolto e i consumi giornalieri usati.",
+      "eyebrow": "Calcolatore dei serbatoi dell’acqua",
+      "cardEyebrow": "Pianificatore di acqua e scarichi",
+      "h1": "Calcolatore dei serbatoi dell’acqua del camper",
+      "intro": "La capacità di un serbatoio in litri diventa utile solo quando la trasformi in giorni. Inserisci la capacità delle acque chiare e grigie e il numero di persone per vedere quale serbatoio fissa il tuo limite.",
+      "cardTitle": "Quanti giorni in autonomia.",
+      "cardText": "La capacità in litri diventa utile solo quando è espressa in giorni. Acque chiare e grigie sono mostrate separatamente, perché il limite lo fissa quella che finisce prima.",
+      "labelFresh": "Acque chiare (L)",
+      "labelGrey": "Acque grigie (L)",
+      "labelPeople": "Persone",
+      "days": "{fresh} giorni di acque chiare · {grey} giorni di acque grigie",
+      "formula": [
+        "Giorni di acque chiare = serbatoio acque chiare (L) ÷ (persone × 11 L al giorno)",
+        "Giorni di acque grigie = serbatoio acque grigie (L) ÷ (persone × 9 L al giorno)",
+        "Il valore più basso dei due ti dice quanto puoi restare prima di riempire o svuotare i serbatoi"
+      ],
+      "formulaNote": "Le acque grigie sono i reflui di lavelli e docce. Sono meno dell’acqua chiara consumata perché l’acqua da bere e quella per cucinare non finiscono tutte nel serbatoio.",
+      "example": "{people} persone con un serbatoio di acque chiare da {freshTank} litri e uno di acque grigie da {greyTank} litri hanno {freshDays} giorni di acque chiare e {greyDays} giorni di acque grigie, quindi il limite lo fissa il serbatoio delle acque chiare.",
+      "assumptions": [
+        "11 litri di acque chiare e 9 litri di acque grigie a persona al giorno sono valori indicativi per un uso attento: bere, cucinare, lavare i piatti e una lavata veloce. Le docce consumano molto di più.",
+        "Le cassette del WC e le acque nere non sono incluse.",
+        "Svuota le acque grigie solo in un punto di scarico. Mai per terra né in un tombino delle acque piovane."
+      ],
+      "faq": [
+        [
+          "Quanto durano 100 litri di acqua chiara in un camper?",
+          "Per due persone attente, a 11 litri ciascuna al giorno, circa quattro giorni e mezzo. Con docce e bucato i giorni si riducono parecchio."
+        ],
+        [
+          "Dove posso svuotare le acque grigie in Nuova Zelanda?",
+          "In un punto di scarico. Molti holiday park ne hanno uno e in molti centri i comuni ne gestiscono di pubblici. Non svuotare mai le acque grigie per terra o in un tombino delle acque piovane."
+        ],
+        [
+          "Quale serbatoio finisce per primo?",
+          "Quello più piccolo rispetto al tuo consumo. I serbatoi delle acque grigie sono spesso più piccoli di quelli delle acque chiare, quindi controlla entrambi e non solo l’indicatore dell’acqua chiara."
+        ]
+      ]
+    }
   }
 }

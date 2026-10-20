@@ -6771,5 +6771,231 @@
     "decline": "Refuser",
     "policy": "Politique de confidentialité",
     "choices": "Choix de confidentialité"
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbTools": "Outils",
+      "howTitle": "Méthode de calcul",
+      "exampleTitle": "Exemple chiffré",
+      "assumptionsTitle": "Hypothèses",
+      "sourcesTitle": "Sources",
+      "faqTitle": "Questions fréquentes",
+      "guidesTitle": "Guides associés",
+      "otherToolsTitle": "Autres calculateurs de road trip",
+      "openTool": "Ouvrir le calculateur",
+      "ctaEyebrow": "Préparez votre road trip dans KiwiCamping",
+      "ctaTitle": "Trouvez les étapes, puis faites le calcul.",
+      "ctaText": "KiwiCamping se télécharge gratuitement sur iPhone. Les holiday parks réservables, les hébergements et les excursions sont gratuits dans l’app. Les campings du DOC, les refuges, les aires de vidange et les guides s’ouvrent avec le Pass.",
+      "ctaButton": "Télécharger l’app",
+      "enterValidValues": "Saisissez des valeurs valides",
+      "enterValidAmount": "Saisissez un montant valide"
+    },
+    "index": {
+      "metaTitle": "Calculateurs de road trip en Nouvelle-Zélande : carburant, durée, camping",
+      "metaDescription": "Calculateurs gratuits pour un road trip en Nouvelle-Zélande : carburant, durée de trajet selon la route, camping par personne ou par emplacement, conversion en NZD et réservoirs d’eau du van.",
+      "toolsTitle": "Un calculateur par question",
+      "toolsText": "Chaque calculateur a sa propre page avec la formule, un exemple de calcul avec des chiffres néo-zélandais, les hypothèses retenues et des réponses aux questions courantes."
+    },
+    "fuel": {
+      "metaTitle": "Calculateur de carburant en Nouvelle-Zélande : road trip en van",
+      "metaDescription": "Calculez les litres et le coût du carburant d’un road trip en Nouvelle-Zélande d’après la distance, les l/100 km et le prix à la pompe, avec la formule, un exemple sur 1 000 km et la référence du MBIE.",
+      "eyebrow": "Calculateur du coût du carburant",
+      "cardEyebrow": "Calcul du carburant",
+      "h1": "Calculateur du coût du carburant pour un road trip en Nouvelle-Zélande",
+      "intro": "Saisissez la distance du trajet, la consommation du véhicule chargé et le prix du litre. Le prix par défaut est le prix national affiché du sans-plomb 91 relevé par le MBIE pour la semaine se terminant le 26 juillet 2026.",
+      "cardTitle": "Chiffrez la distance à parcourir.",
+      "cardText": "Saisissez la distance totale du trajet, la consommation du véhicule chargé et le prix du litre prévu. Les prix en zone isolée peuvent dépasser les références des villes.",
+      "labelDistance": "Distance (km)",
+      "labelConsumption": "Consommation (l/100 km)",
+      "labelPrice": "Prix du carburant (NZD/l)",
+      "formula": [
+        "Litres = distance (km) × consommation (l/100 km) ÷ 100",
+        "Coût = litres × prix du litre (NZD)"
+      ],
+      "formulaNote": "La consommation s’exprime pour 100 kilomètres : la diviser par 100 donne des litres par kilomètre. Le calcul est linéaire : si la distance double, les litres et le coût doublent aussi.",
+      "example": "Un trajet de {distance} km dans un van qui consomme {consumption} l/100 km demande {litres} litres de carburant. À {price} le litre, cela fait {cost}.",
+      "assumptions": [
+        "Le prix par défaut est une référence nationale. Les stations isolées, notamment sur la West Coast et dans le Fiordland, sont souvent plus chères : faites le plein avant les longues portions entre deux villes.",
+        "Utilisez la consommation en charge du véhicule que vous conduisez réellement. Un van plein, en côte et face au vent, consomme plus que le chiffre de la brochure.",
+        "Ajoutez les déplacements locaux autour de chaque étape. Les courses au supermarché, les points de vue et les routes secondaires s’additionnent sur un long trajet.",
+        "Les véhicules diesel paient des redevances routières (RUC) par tranche de 1 000 km, en plus du carburant. Ce calculateur ne couvre que le carburant."
+      ],
+      "faq": [
+        [
+          "Combien de carburant consomme un van en Nouvelle-Zélande ?",
+          "Cela dépend du véhicule, de la charge et des routes. Prenez le chiffre de votre loueur ou de votre véhicule et prévoyez une marge pour les côtes. Les 12 l/100 km par défaut sont une valeur de planification pour un van chargé, pas une moyenne mesurée."
+        ],
+        [
+          "Le coût du carburant comprend-il les redevances routières ?",
+          "Non. En Nouvelle-Zélande, les véhicules diesel paient des redevances routières par tranche de 1 000 km, séparément du carburant. Demandez à votre loueur si les RUC sont comprises dans le tarif, et consultez la NZTA pour connaître les montants en vigueur."
+        ],
+        [
+          "D’où vient le prix du carburant par défaut ?",
+          "C’est le prix national affiché du sans-plomb 91 relevé par le MBIE pour la semaine se terminant le 26 juillet 2026. Le MBIE publie les prix du carburant chaque semaine : vérifiez le dernier chiffre avant de partir."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Durée de trajet en Nouvelle-Zélande : le vrai temps selon la route",
+      "metaDescription": "Estimez la durée réelle d’une journée de route en Nouvelle-Zélande d’après la distance, le type de route et vos arrêts, avec la formule, un exemple et les vitesses retenues.",
+      "eyebrow": "Calculateur de durée de trajet",
+      "cardEyebrow": "Durée d’une journée de route",
+      "h1": "Calculateur de durée de trajet sur les routes de Nouvelle-Zélande",
+      "intro": "Les applis de navigation donnent le temps de conduite sur une route idéale. Ce calculateur part de la distance que vous connaissez déjà, d’une vitesse moyenne selon le type de route et de 20 minutes par arrêt : c’est là qu’une journée de route en Nouvelle-Zélande déborde en général.",
+      "cardTitle": "Le temps réel d’une journée de route.",
+      "cardText": "Les applis de navigation donnent le temps de conduite sur une route idéale. Ce calcul ajoute la nature de la route et vos arrêts réels : c’est là qu’une journée déborde en général.",
+      "labelDistance": "Distance (km)",
+      "labelRoadType": "Type de route",
+      "roadMotorway": "Autoroute ou ligne droite dégagée",
+      "roadHighway": "Route nationale",
+      "roadWinding": "Route sinueuse ou côtière",
+      "roadNarrow": "Route étroite, raide ou en gravier",
+      "labelStops": "Arrêts",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minutes de conduite = distance (km) ÷ vitesse moyenne (km/h) × 60",
+        "Total en minutes = minutes de conduite + 20 × arrêts"
+      ],
+      "formulaNote": "La vitesse moyenne n’est pas la limitation de vitesse. Elle tient compte des virages, des côtes, des ponts à voie unique, des traversées de villes et d’une circulation plus lente. Les quatre types de route correspondent à 85, 70, 60 et 45 km/h.",
+      "example": "Une journée de {distance} km sur route sinueuse ou côtière à {speed} km/h représente {driving} de conduite. Avec {stops} arrêts de 20 minutes chacun, la journée dure {total}.",
+      "assumptions": [
+        "Les vitesses moyennes sont des valeurs de planification pour une voiture ou un van en bonnes conditions, pas des moyennes mesurées sur une route précise.",
+        "Chaque arrêt compte 20 minutes pour le carburant, un repas, les toilettes ou un point de vue. Les ferries, les travaux et les longues balades sont à ajouter en plus.",
+        "La météo, les glissements de terrain et les fermetures modifient les itinéraires. Consultez le planificateur de trajets de la NZTA pour connaître l’état des routes avant de partir."
+      ],
+      "faq": [
+        [
+          "Quelle distance peut-on parcourir en une journée en Nouvelle-Zélande ?",
+          "Il n’y a pas de chiffre unique. Les routes sinueuses, les ponts à voie unique et les arrêts maintiennent les vitesses moyennes bien en dessous de la vitesse maximale hors agglomération, si bien qu’une journée qui semble courte sur la carte peut prendre presque toute la lumière du jour. Saisissez la distance et le type de route pour voir les heures, et prévoyez des pauses régulières."
+        ],
+        [
+          "Pourquoi est-ce plus long que dans mon appli de navigation ?",
+          "Les applis de navigation estiment le temps de conduite sans aucun arrêt. Ce calculateur prend une moyenne selon le type de route et ajoute du temps pour chaque arrêt, ce qui correspond mieux au déroulement réel d’une journée de camping."
+        ],
+        [
+          "Est-ce adapté à un van ?",
+          "Oui. Choisissez un type de route plus lent si vous conduisez un gros véhicule, si vous tractez ou si vous n’avez pas l’habitude de rouler à gauche."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Coût du camping en Nouvelle-Zélande : par personne ou emplacement ?",
+      "metaDescription": "Comparez un camping du DOC facturé par adulte et un holiday park facturé par emplacement selon votre groupe et vos nuits, avec la formule, un exemple chiffré et les tarifs du DOC issus des données.",
+      "eyebrow": "Calculateur du coût du camping",
+      "cardEyebrow": "Comparaison des tarifs",
+      "h1": "Calculateur du coût du camping : par personne ou par emplacement",
+      "intro": "Les campings du DOC facturent par adulte et par nuit, alors qu’un holiday park facture en général par emplacement. La formule la moins chère s’inverse selon la taille du groupe, et ce calcul la détermine pour vos nuits.",
+      "cardTitle": "Par personne ou par emplacement ?",
+      "cardText": "Un camping du DOC facture en général par adulte, un holiday park par emplacement. L’option la moins chère s’inverse selon la taille du groupe, ce qui piège souvent les familles.",
+      "labelAdults": "Adultes",
+      "labelNights": "Nuits",
+      "labelPerAdult": "Par adulte (NZD)",
+      "labelPerSite": "Par emplacement (NZD)",
+      "comparison": "{perAdult} contre {perSite} · {verdict}",
+      "theSame": "le prix est le même",
+      "perAdultCheaper": "le tarif par adulte est moins cher",
+      "perSiteCheaper": "le tarif par emplacement est moins cher",
+      "formula": [
+        "Total par adulte = adultes × nuits × tarif par adulte",
+        "Total par emplacement = nuits × tarif par emplacement",
+        "Le total le plus bas indique l’option la moins chère pour votre groupe"
+      ],
+      "formulaNote": "Le total par adulte augmente avec chaque adulte en plus, alors que le total par emplacement ne bouge pas. C’est pourquoi la réponse change entre un couple et une famille.",
+      "example": "{adults} adultes qui séjournent {nights} nuits à {rateAdult} par adulte paient {totalAdult}. Le même séjour à {rateSite} par emplacement coûte {totalSite}, donc {verdict}.",
+      "assumptions": [
+        "Les enfants ne sont pas comptés. De nombreux campings du DOC appliquent un tarif réduit aux 5 à 17 ans et ne font rien payer aux tout-petits, et les holiday parks fixent leurs propres tarifs enfants.",
+        "Les tarifs par défaut sont des exemples, pas des devis. Dans les données du DOC au {docDate}, {docFree} campings du DOC sont gratuits, et le tarif adulte le plus bas affiché pour les campings payants va de {docMin} à {docMax} par nuit.",
+        "Les holiday parks fixent leurs propres prix, qui varient selon la saison, l’électricité et la taille de l’emplacement. Vérifiez auprès du parc avant de réserver."
+      ],
+      "faq": [
+        [
+          "Combien coûte un camping par nuit en Nouvelle-Zélande ?",
+          "Les campings du DOC sont soit gratuits, soit facturés par adulte. D’après les données du DOC au {docDate}, le tarif adulte le plus bas des campings du DOC payants va de {docMin} à {docMax} par nuit, avec une médiane de {docMedian}. Les holiday parks fixent eux-mêmes leurs prix d’emplacement : comparez donc le total pour votre groupe."
+        ],
+        [
+          "Est-ce moins cher par personne ou par emplacement pour une famille ?",
+          "Le tarif par emplacement l’emporte en général quand le groupe grandit, car le prix de l’emplacement reste le même alors que les tarifs par adulte se multiplient. Saisissez vos propres tarifs pour voir où se situe le point d’équilibre."
+        ],
+        [
+          "Les enfants paient-ils dans les campings du DOC ?",
+          "Dans de nombreux campings du DOC, les enfants de 5 à 17 ans paient un tarif réduit et les tout-petits ne paient rien. Le tarif de chaque camping figure sur sa page du DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Convertisseur NZD : prix néo-zélandais dans 9 devises",
+      "metaDescription": "Convertissez des prix en dollars néo-zélandais vers et depuis USD, EUR, GBP, AUD, JPY, CNY, KRW, INR et SGD, d’après les taux de référence de la Reserve Bank of New Zealand.",
+      "eyebrow": "Convertisseur de devises",
+      "cardEyebrow": "Convertisseur de devises",
+      "h1": "Convertisseur NZD pour les prix d’un voyage en Nouvelle-Zélande",
+      "intro": "Convertissez un prix néo-zélandais dans votre devise, ou votre devise en dollars néo-zélandais, aux taux de référence de la Reserve Bank of New Zealand du {rateDate}.",
+      "cardTitle": "Convertissez un prix néo-zélandais.",
+      "cardText": "Conversion indicative pour préparer le voyage, aux taux de la Reserve Bank of New Zealand du {rateDate}. Votre banque ou votre carte peut appliquer un autre taux et ajouter des frais.",
+      "labelAmount": "Montant",
+      "labelFrom": "De",
+      "labelTo": "Vers",
+      "formula": [
+        "Montant en NZD = montant ÷ taux de la devise de départ",
+        "Résultat = montant en NZD × taux de la devise d’arrivée"
+      ],
+      "formulaNote": "Chaque taux correspond au nombre d’unités de cette devise pour 1 dollar néo-zélandais : toute conversion passe donc par le NZD.",
+      "example": "{amount} au taux de {rate} dollar américain par dollar néo-zélandais font {converted}.",
+      "assumptions": [
+        "Ce sont des taux de référence du {rateDate}. Les taux de change bougent tous les jours.",
+        "Les banques, les cartes et les distributeurs appliquent leurs propres taux et peuvent ajouter des frais : le montant payé peut donc différer.",
+        "Le yen japonais et le won coréen sont affichés sans décimales."
+      ],
+      "faq": [
+        [
+          "Quelle monnaie utilise-t-on en Nouvelle-Zélande ?",
+          "Le dollar néo-zélandais (NZD). Les prix dans les magasins, les campings et les holiday parks sont indiqués en NZD."
+        ],
+        [
+          "Est-ce le taux que ma banque m’appliquera ?",
+          "Probablement pas exactement. Ce calculateur utilise les taux de référence du {rateDate}. Votre banque ou l’émetteur de votre carte applique son propre taux et ses propres frais : considérez le résultat comme un chiffre de planification."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Calculateur d’eau pour van : autonomie en eau propre et eaux grises",
+      "metaDescription": "Calculez combien de jours durent les réservoirs d’eau propre et d’eaux grises d’un van pour votre groupe, avec la formule, un exemple et les consommations journalières.",
+      "eyebrow": "Calculateur de réservoir d’eau",
+      "cardEyebrow": "Eau et eaux usées",
+      "h1": "Calculateur de réservoir d’eau pour van",
+      "intro": "La contenance d’un réservoir en litres ne devient utile qu’une fois convertie en jours. Saisissez la capacité en eau propre et en eaux grises et le nombre de personnes pour voir quel réservoir fixe votre limite.",
+      "cardTitle": "Combien de jours en autonomie.",
+      "cardText": "Une capacité en litres ne devient utile qu’une fois exprimée en jours. L’eau propre et les eaux grises sont affichées séparément, car le premier réservoir à se vider fixe la limite.",
+      "labelFresh": "Eau propre (l)",
+      "labelGrey": "Eaux grises (l)",
+      "labelPeople": "Personnes",
+      "days": "{fresh} jours d’eau propre · {grey} jours d’eaux grises",
+      "formula": [
+        "Jours d’eau propre = réservoir d’eau propre (l) ÷ (personnes × 11 l par jour)",
+        "Jours d’eaux grises = réservoir d’eaux grises (l) ÷ (personnes × 9 l par jour)",
+        "Le plus petit des deux résultats est la durée possible avant de refaire le plein ou de vidanger"
+      ],
+      "formulaNote": "Les eaux grises sont les eaux usées des éviers et des douches. Leur volume est inférieur à la consommation d’eau propre, car l’eau bue et l’eau de cuisson ne finissent pas toutes dans le réservoir.",
+      "example": "{people} personnes avec un réservoir d’eau propre de {freshTank} litres et un réservoir d’eaux grises de {greyTank} litres ont {freshDays} jours d’eau propre et {greyDays} jours d’eaux grises, donc c’est le réservoir d’eau propre qui fixe la limite.",
+      "assumptions": [
+        "11 litres d’eau propre et 9 litres d’eaux grises par personne et par jour sont des valeurs de planification pour un usage économe : boire, cuisiner, faire la vaisselle et une toilette rapide. Les douches consomment bien plus.",
+        "Les cassettes des WC chimiques et les eaux noires ne sont pas prises en compte.",
+        "Ne videz les eaux grises qu’à une aire de vidange. Jamais sur le sol ni dans une bouche d’égout pluvial."
+      ],
+      "faq": [
+        [
+          "Combien de temps durent 100 litres d’eau propre dans un van ?",
+          "Pour deux personnes économes, à 11 litres chacune par jour, environ quatre jours et demi. Les douches et les lessives raccourcissent beaucoup ce délai."
+        ],
+        [
+          "Où vider les eaux grises en Nouvelle-Zélande ?",
+          "À une aire de vidange. Beaucoup de holiday parks en ont une, et dans de nombreuses villes la municipalité en met une à la disposition du public. Ne videz jamais les eaux grises sur le sol ni dans une bouche d’égout pluvial."
+        ],
+        [
+          "Quel réservoir se vide en premier ?",
+          "Celui qui est le plus petit au regard de votre consommation. Les réservoirs d’eaux grises sont souvent plus petits que les réservoirs d’eau propre : vérifiez les deux plutôt que la seule jauge d’eau propre."
+        ]
+      ]
+    }
   }
 }
