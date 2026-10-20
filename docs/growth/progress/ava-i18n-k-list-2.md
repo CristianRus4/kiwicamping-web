@@ -18,10 +18,10 @@ Catalogs for engine apply: es `kiwicamping-website-es`, fr `kiwicamping-website-
 4. Merge into `lib/translations/<code>.json` via engine apply (values file, dry run first). 5. stamp, `npm run content:check`, commit.
 
 ## Done
-- (nothing yet)
+- es: all five listicles (513 units) drafted, opus native review (84 units fixed, negation check clean), engine apply 0 rejected, stamped (only these keys: `node /tmp/kl2/stampmine.mjs es`, because es has no meta file yet and a full stamp would hide other stale guides), content:check green.
 
 ## Next
-- es, fr, it, pt in that order.
+- fr (drafts in /tmp/kl2/fr, review running), then it, pt. Stamp fr and pt with `npm run translations:stamp -- --locale <code>`; es and it have no meta file, so stamp only the five articles.
 
 ## Blockers
 - None.
