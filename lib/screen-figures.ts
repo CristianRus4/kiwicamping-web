@@ -20,6 +20,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "free-camping-apps-new-zealand", section: 5, src: "/images/screens/free-camping-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the cost filter set to show free places" },
   { slug: "road-trip-planner-apps-new-zealand", section: 1, src: "/images/screens/road-trip-planner-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a South Island trip itinerary with the distance and drive time between stops" },
   { slug: "best-travel-apps-new-zealand", section: 1, src: "/images/screens/best-travel-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: places on the map with the Explore list below" },
+  { slug: "wikicamps-alternatives", section: 2, src: "/images/screens/wikicamps-alternatives.webp", alt: "KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply" },
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
 ];
 

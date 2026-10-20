@@ -87,3 +87,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `road-trip-planner-apps-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |
 | `free-camping-apps-new-zealand` | Lake Poaka Campsite, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Poaka_Campsite,_New_Zealand.jpg) |
 | `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |
+| `wikicamps-alternatives` | Cameron Flat Campground at dawn.jpg | Karitxa | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Cameron_Flat_Campground_at_dawn.jpg) |

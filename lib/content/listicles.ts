@@ -392,4 +392,79 @@ export const listicleArticles: Article[] = [
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
     ],
   }),
+
+  a({
+    slug: "wikicamps-alternatives",
+    listicle: true,
+    publishAt: "2026-10-23",
+    title: "5 Best WikiCamps New Zealand Alternatives in 2026",
+    description: "WikiCamps New Zealand costs NZ$7.99 and leans on user-added sites. KiwiCamping, Rankers, CamperMate, Campable and Overland Navigator compared on price, data and offline use. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "DOC huts", "Private land stays", "4WD tracks", "Australia"],
+    imageAlt: "A house bus, cars and a small tent at Cameron Flat campsite below the forested peaks of Mount Aspiring National Park at dawn",
+    related: ["best-nz-camping-apps", "rankers-alternatives", "campermate-alternatives"],
+    intro:
+      "WikiCamps New Zealand is a paid app with a loyal following: NZ$7.99 once on the New Zealand App Store, 4.5 stars from 137 New Zealand ratings when we checked on 20 October 2026, and more than 12,000 New Zealand sites that its own users have added. Most people who search for an alternative are not unhappy with it so much as unsure: whether to pay for an app when free ones exist, whether user-added listings are current, or whether they will need a second copy for Australia. KiwiCamping is our app, so it comes first below, but each entry says plainly what it does better than WikiCamps and when WikiCamps is still the better buy.",
+    sections: [
+      s("WikiCamps alternatives at a glance", [
+        "Short answer: if most of your nights are at DOC campsites or huts, KiwiCamping gives you DOC's own details and a dated plan. If you want a free app, Rankers is the strongest New Zealand choice and CamperMate also covers Australia. Campable is for booked nights on farms and vineyards, and Overland Navigator is for gravel roads and 4WD tracks that a general camping app does not map.",
+        "WikiCamps' strength is volume. Its listings come from the people using it, which is why it has so many, and also why a fee or a closure can lag behind reality. Whichever app you choose, the sign at the site and the council or DOC page are the final word on whether you can stay.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each developer's site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Pick it over WikiCamps when", "Price", "Platforms", "NZ rating"],
+        rows: [
+          ["WikiCamps New Zealand", "You want the most user-added sites (the baseline)", "NZ$7.99 once (iPhone)", "iPhone, iPad, Android", "4.5 (137)"],
+          ["KiwiCamping", "Your nights are DOC campsites and huts", "Free; Pass NZ$3.99 to NZ$12.99", "iPhone (iOS 26+)", "3.8 (4)"],
+          ["Rankers Camping NZ", "You want a free app with checked sites", "Free", "iPhone, iPad, Android, web", "4.7 (3,322)"],
+          ["CamperMate", "You want free and the trip includes Australia", "Free; ads on Android", "iPhone, iPad, Android, web", "4.4 (606)"],
+          ["Campable", "You want a booked night on private land", "Free app; hosts set prices", "iPhone, Android", "4.5 (13)"],
+          ["Overland Navigator", "You are driving gravel and 4WD routes", "Free; All Access NZ$7.99 a month", "iPhone, iPad", "4.5 (31)"],
+        ],
+      }),
+      s("What pushes people away from WikiCamps", [
+        "We read the 50 most recent WikiCamps New Zealand reviews on the New Zealand App Store. Reviews there are sparse, so those 50 reach back to January 2020, and only 13 date from 2024 or later. Forty-one gave four or five stars; the most common praise, seven reviews each, was for the trip planner and for listing more places than free apps. The complaints: six described filters or data breaking after an update, five said site details, fees or locations were out of date or wrong, and two said the app froze or would not open the trip planner.",
+        "Two practical points also come up. WikiCamps sells New Zealand and Australia as separate apps, so a trip across the Tasman means a second purchase: WikiCamps Australia costs NZ$11.99 on the New Zealand App Store. And on Android its Google Play listing rates 3.0 from 1,042 ratings and shows in-app purchase and ads labels, although its description calls it a one-time purchase.",
+      ]),
+      s("1. KiwiCamping: best for DOC campsites and huts with DOC's own details", [
+        "KiwiCamping starts from the Department of Conservation's data rather than from user submissions. In its August 2026 data it held 287 DOC campsites and 927 DOC huts, with the adult fees, dog rules and booking requirements that DOC lists, and a link to DOC's own page for the place. Where WikiCamps relies on its users to update a fee, KiwiCamping shows what DOC publishes.",
+        "Saved places become a trip with ordered stops, dates, notes and the route distance, and filters for cost, facilities and dogs can be combined in one search. Place details stay on the phone when you lose signal; map tiles, routing, weather and photos do not.",
+        "The limits: the free version opens only BookIt stays and tours, and DOC places, collections, trips and the guides need the KiwiCamping Pass, listed from NZ$3.99 to NZ$12.99. It runs on iPhone only (iOS 26 or later), it has 4 New Zealand ratings (3.8) and no traveller reviews, and it lists far fewer places in total than WikiCamps' 12,000-plus.",
+      ], ["Choose it for: DOC campsites, huts and a dated plan", "Pass needed for DOC places and trips", "iPhone only, iOS 26 or later"], undefined, true),
+      s("2. Rankers Camping NZ: best free app with checked sites", [
+        "Rankers is the free answer to the question of whether WikiCamps is worth paying for. It lists more than 1,500 campsites among 6,600-plus places, including dump stations, water and LPG, and it says it only shows spots where the local community has agreed overnight stays are welcome. Its 108,000-plus traveller reviews are each read by a person before they appear.",
+        "That makes it narrower than WikiCamps on paper but easier to trust per listing. Campsite information is in the app from the first install, and detailed maps download over Wi-Fi. It rated 4.7 from 3,322 New Zealand ratings, the most of any camping app here.",
+      ], ["Choose it for: free, checked campsites", "108,000-plus checked reviews", "iPhone, Android and web"]),
+      s("3. CamperMate: best free option when Australia is on the plan", [
+        "CamperMate covers New Zealand and Australia in a single free app, so the second WikiCamps purchase disappears. It filters free and paid sites, shows toilets, dump stations and Wi-Fi spots, books campgrounds with availability, and downloads maps and place information for use without signal; version 5.8 added a satellite view in October 2026.",
+        "It rated 4.4 from 606 New Zealand ratings and 4.0 from 12,568 on Google Play, where it shows ads. Several recent App Store reviewers dislike its latest redesign, so try it before a long trip rather than on the first night.",
+      ], ["Choose it for: one free app for two countries", "Ads on Android", "Download maps before you go"]),
+      s("4. Campable: best for a quiet booked night on private land", [
+        "Campable lists hundreds of private sites, from farms and vineyards to sports clubs, that hosts open to campervans and motorhomes. You book and pay in the app, and you can filter for sites that accept vehicles that are not self-contained. It rated 4.5 from 13 New Zealand ratings.",
+        "It does a different job from WikiCamps: a few hundred guaranteed nights instead of a national directory. Use it for the nights you want settled in advance, such as a long weekend in a busy region.",
+      ], ["Choose it for: booked private-land stays", "Hosts set the price", "Has a non-self-contained filter"]),
+      s("5. Overland Navigator: best for gravel roads and 4WD tracks", [
+        "Overland Navigator is a New Zealand app for the backcountry: hundreds of routes from scenic gravel drives to hard 4WD tracks, each with photos, reviews and tide and river information, plus remote camps and DOC sites along the way. Its makers say every route is checked and drivable rather than taken from a map.",
+        "It is free to start. Navigator All Access, NZ$7.99 a month or NZ$87.99 a year, adds full offline navigation, CarPlay and more routes. It rated 4.5 from 31 New Zealand ratings and runs on iPhone and iPad; it is a specialist tool, not a replacement for a general campsite directory.",
+      ], ["Choose it for: off-road and gravel routes", "All Access NZ$7.99 a month", "Offline navigation is in All Access"]),
+      s("When WikiCamps is still the better buy", [
+        "If you want the largest number of New Zealand sites in one app, paid for once, WikiCamps remains hard to beat. Its trip planner estimates fuel spend, its Offline Mode keeps maps and up to three planned trips available without signal, and its filters cover free campgrounds, pet-friendly sites, water refills and dump points.",
+        "Many travellers keep it and add one of the apps above for the gap they feel most: DOC detail, curation, private land, Australia or the backcountry. Members of the New Zealand Motor Caravan Association should also install the NZMCA App, which shows the association's own parks and directory to members.",
+      ]),
+      s("How we compared", [
+        "We read each app's New Zealand App Store listing and its developer's own site on 20 October 2026, plus the Google Play listing where it exists. Prices are as shown on the New Zealand App Store that day; WikiCamps' own website quotes A$9.99 per platform, so check the store before you buy. Review themes are counts from the 50 most recent WikiCamps New Zealand reviews, not our own verdict.",
+        "We describe only the features each developer describes, so a feature not mentioned here is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "WikiCamps New Zealand", url: "https://www.wikicamps.co.nz/" },
+      { label: "WikiCamps New Zealand listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=582527125&country=nz" },
+      { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
+      { label: "CamperMate", url: "https://campermate.com/" },
+      { label: "Campable", url: "https://www.campable.com/" },
+      { label: "Overland Navigator listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=1451030537&country=nz" },
+      { label: "NZMCA membership", url: "https://www.nzmca.org.nz/join-us" },
+      { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];

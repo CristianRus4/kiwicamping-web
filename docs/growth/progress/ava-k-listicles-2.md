@@ -7,8 +7,8 @@ Research fact sheets (dated, sourced): `/Users/cristian/Developer/Webs/.growth-l
 ## Pages (run 2), in order, with publishAt
 | # | Slug | publishAt | Status |
 |---|---|---|---|
-| 1 | wikicamps-alternatives | 2026-10-23 | research |
-| 2 | best-campervan-apps-new-zealand | 2026-10-25 | research |
+| 1 | wikicamps-alternatives | 2026-10-23 | committed |
+| 2 | best-campervan-apps-new-zealand | 2026-10-25 | drafting |
 | 3 | best-weather-apps-new-zealand | 2026-10-27 | research |
 | 4 | fuel-price-apps-new-zealand | 2026-10-29 | research |
 | 5 | working-holiday-apps-new-zealand | 2026-10-31 | research |
@@ -31,3 +31,15 @@ Wikimedia Commons hero (1600x900 + 800) credited in `docs/IMAGE-SOURCES.md`, scr
 
 ## Blockers
 - None.
+
+## Heroes (files written to public/images/articles; credit rows go in with each page commit)
+- wikicamps-alternatives: Cameron Flat Campground at dawn.jpg | Karitxa | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Cameron_Flat_Campground_at_dawn.jpg (candidates seen: Lake Poaka vans (logos), Tupungato West Coast RV (Apollo logo), Double Hut campsite, Lake Clearwater settlement, Lake Hawea campsite, Siberia campsite)
+- best-campervan-apps-new-zealand: Fiat Ducato, New Zealand, September 2016.jpg | dorfor | CC0 | https://commons.wikimedia.org/wiki/File:Fiat_Ducato,_New_Zealand,_September_2016.jpg (number plate and badge blurred; candidates: NZ Camper Vans (logos), Tupungato RV (logo), Cameron Flats first light (logo), several roads)
+- best-weather-apps-new-zealand: Clouds over Mt Cook. NZ (8364206704).jpg | Bernard Spragg. NZ | CC0 | https://commons.wikimedia.org/wiki/File:Clouds_over_Mt_Cook._NZ_(8364206704).jpg (candidates: two lenticular Mt Cook shots (watermarked), Milford Sound in the rain x2, Mueller Hut x2, trampers)
+- fuel-price-apps-new-zealand: State Highway 6 NZ 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:State_Highway_6_NZ_01.jpg (candidates: 6 NZ petrol stations, all with brand logos; Lindis Pass x2 (too close to an existing hero); SH6 Haast x2)
+- working-holiday-apps-new-zealand: Autumn in the Awatere Valley.jpg | Phillip Capper | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Autumn_in_the_Awatere_Valley.jpg (cropped above numbered posts; candidates: kiwifruit orchards x2, Napier apple orchards x2, Gibbston and Rippon vineyards, kiwifruit harvest)
+- money-saving-travel-apps-new-zealand: Moke Lake.jpg | André Richard Chalmers | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Moke_Lake.jpg (DOC campsite lake; candidates: 4 farmers markets, Lake Mahinapua picnic table, Matata DOC campsite)
+
+## Screen figures chosen
+- wikicamps-alternatives: Inbox kiwicamping_place-detail_black-rock-campsite_fees-facilities.png (rendered)
+- best-campervan-apps-new-zealand: Inbox kiwicamping_guides_west-coast-road-trip_top.png (rendered; avoids dump-station data, which came from WikiCamps)
