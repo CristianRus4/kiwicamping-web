@@ -8827,6 +8827,494 @@
       ],
       "sources": [],
       "priceTable": null
+    },
+    "plan-trip-kiwicamping": {
+      "title": "Slik planlegger du en hel tur i KiwiCamping",
+      "description": "Ordne stoppene, se avstanden på ruten og ha datoer, notater og gjøremål ved siden av reiseruten.",
+      "region": "KiwiCamping",
+      "imageAlt": "Vei mot Aoraki / Mount Cook under blå himmel",
+      "intro": "En nyttig tur er mer enn en strek mellom lagrede pinner. Reiseplanleggeren samler ruten, avstanden, datoene, notatene og de små oppgavene på ett sted, så planen overlever øyeblikket den må endres, som på en roadtrip på New Zealand som regel er et sted rundt dag tre.",
+      "sections": [
+        {
+          "heading": "Bygg skjelettet av faste netter",
+          "body": [
+            "Begynn med datoene du ikke kan flytte. En overfart over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstredet</a>, en bestilt hytte på en Great Walk, en campingplass som ble reservert for flere måneder siden i en strandby, et fly ut fra Queenstown: dette er pinnene resten av turen må passe rundt. Opprett turen, legg dem til først, og se på alt mellom dem som justerbart.",
+            "Denne rekkefølgen betyr mer enn det høres ut som. Reisende som bygger en tur kronologisk fra dag én, oppdager ofte på dag ni at ferja ikke passer, og da er halvparten av bestillingene uten refusjon. Når de harde datoene festes først, blir hver senere endring billig."
+          ],
+          "tips": [
+            "Ferje- og Great Walk-datoer først",
+            "Alt mellom dem forblir fleksibelt",
+            "Billige endringer slår ombookede ferjer"
+          ]
+        },
+        {
+          "heading": "Legg stoppene i kjørerekkefølge",
+          "body": [
+            "Legg til stedene du har lagret, og ordne dem i den rekkefølgen du faktisk kommer til å kjøre. Planleggeren beregner avstanden på ruten over de ordnede stoppene, og det er der en optimistisk reiserute som regel faller fra hverandre: en dag som så rimelig ut på kartet, viser seg å være seks timer før et eneste stopp, en eneste tur eller et eneste måltid.",
+            "Del opp enhver etappe som ikke gir plass til selve stedet. Som et grovt arbeidstall er tre til fire timers kjøring en behagelig dag på veiene på New Zealand, og betydelig mindre på Coromandel, i Catlins, på Queen Charlotte Drive eller alt med grus. Avstand undervurderer disse veiene kraftig."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Legg detaljene på stoppet, ikke i et dokument",
+          "body": [
+            "Bekreftelsesnumre, ankomstvinduer, portkoder, telefonnummeret til hytteverten, hvilken side av elven innkjørselen ligger på: dette hører hjemme på det enkelte stoppet og ikke i ett langt notat øverst i turen. På veien leter du etter ett faktum om gangen, som regel når du er trøtt.",
+            "Korte notater slår lange. «Porten er låst etter kl. 21, kode 4417» er nyttig kl. 20.45. Et avsnitt som beskriver hele campingplassen er det ikke. Legg til notatet når du bestiller, mens detaljen står foran deg, i stedet for å prøve å rekonstruere den senere."
+          ],
+          "tips": [
+            "Ett faktum per notat",
+            "Legg til notater ved bestilling",
+            "Portkoder og ankomstvinduer betyr mest"
+          ]
+        },
+        {
+          "heading": "Bruk gjøremålslisten til oppgavene som kan la deg stå fast",
+          "body": [
+            "Drivstoff før en avsidesliggende etappe, matvarer før den siste butikken, vann før en tørr strekning, en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestasjon</a> før en rekke med freedom camping-plasser, kjettinger før et fjellpass om vinteren. Dette er oppgavene som får en dag til å ende dårlig når de mangler, og de er lette å glemme nettopp fordi de er rutine.",
+            "Ha listen ved siden av reiseruten og ikke i en egen app. Merk bare oppgaver som utført når de faktisk er gjort, for en halvfull vanntank som er krysset av optimistisk, er verre enn en som ikke er krysset av."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Endre ruten uten å bygge den på nytt",
+          "body": [
+            "Været stenger et pass, en campingplass er full, noen er for trøtte til å kjøre, eller et sted viser seg å fortjene en natt til. Bytt rekkefølge på eller erstatt det berørte stoppet, så forblir resten av reiseruten intakt, sammen med alle notater og bestillingsreferanser som hører til stoppene du ikke rørte.",
+            "Dette er den praktiske fordelen fremfor en plan i nettleserfaner. Å omorganisere en tur som ligger fordelt på femten faner og en tekstsamtale betyr å rekonstruere den, mens å omorganisere en ordnet liste betyr å dra ett stopp. Avstanden beregnes på nytt, og du ser med en gang om den nye formen fortsatt er mulig å kjøre."
+          ],
+          "tips": [
+            "Flytt ett stopp, behold resten",
+            "Avstanden beregnes på nytt automatisk",
+            "Sjekk at den nye dagen fortsatt er mulig å kjøre"
+          ]
+        },
+        {
+          "heading": "Gjør turen klar for ingen dekning",
+          "body": [
+            "Åpne de kritiske stoppene før du forlater dekningen. Grunnleggende stedsopplysninger følger med appen og kan leses uten nett, men ruteplanlegging i sanntid, gjeldende vær, leverandørenes bestillingssider og noe kartmateriale krever forbindelse, og West Coast, Fiordland, East Cape og innlandet i Otago tar den bort uten varsel.",
+            "Ta skjermbilde av alt som ville vært dyrt å miste: bestillingsbekreftelsen, adkomstnotatet, telefonnummeret til campingplassen. Et skjermbilde overlever en omstart med tomt batteri, en tapt økt og en app du ikke har åpnet på tre dager."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Send reiseruten til Kalender",
+          "body": [
+            "Turdatoer kan sendes til Kalender, så planen vises ved siden av fly, ferjebestillinger og alt annet som allerede ligger i timeplanen din. Det er mest nyttig for reisende som koordinerer med folk som ikke bruker appen, for en delt kalender svarer på spørsmålet om hvor du er i kveld uten en samtale.",
+            "Behold kalenderkopien som et sammendrag og ikke som den egentlige kilden. Selve turen har notatene, rekkefølgen og alternativene. Kalenderen trenger bare nok til at noen andre kan følge med."
+          ],
+          "tips": [
+            "Kalenderen er et sammendrag, ikke planen",
+            "Nyttig for folk som ikke bruker appen",
+            "Behold turen som den egentlige kilden"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvordan planlegger du en roadtrip med flere stopp i KiwiCamping?",
+          "Lagre stedene du vurderer, legg dem til i en tur som stopp, og dra dem så i den rekkefølgen du skal kjøre. Hver etappe viser avstanden sin, og hvert stopp har sin egen dato, sine egne ankomstnotater og sitt eget vær."
+        ],
+        [
+          "Kan en tur i KiwiCamping legges til i en kalender?",
+          "Ja. Detaljer fra reiseruten kan synkroniseres til Kalender, som er den praktiske måten å dele planen med dem du reiser sammen med, uten at de trenger appen."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "save-places-kiwicamping": {
+      "title": "Slik lagrer og organiserer du steder i KiwiCamping",
+      "description": "Hold bekreftede opphold, sterke alternativer og fremtidige ideer adskilt uten å miste dem på kartet.",
+      "region": "KiwiCamping",
+      "imageAlt": "Gyllen sand og turkist vann ved Torrent Bay i Abel Tasman National Park",
+      "intro": "Å lagre alle interessante pinner i én bunke flytter bare søkeproblemet et annet sted. Litt struktur, bestemt tidlig, holder tusenvis av campingplasser, hytter og ferieparker brukbare på flere turer i stedet for å bli en liste du slutter å åpne.",
+      "sections": [
+        {
+          "heading": "Skill lagrede steder etter hensikt",
+          "body": [
+            "Den nyttige inndelingen er ikke etter region, men etter hva du har tenkt å gjøre med stedet. Én liste for turen du faktisk skal ta, én for realistiske reserver innen rekkevidde av ruten og én for ideer du kanskje aldri bruker. Å blande de tre er det som gjør en lagret liste ubrukelig kl. 19 når en campingplass er full.",
+            "Reservelisten fortjener plassen sin gang på gang. Å vite at du har to lovlige alternativer innen førti minutter endrer hvordan du håndterer en full plass, og det er forskjellen mellom en rolig beslutning og en time med kjøring mens lyset forsvinner."
+          ],
+          "tips": [
+            "Tur, reserver, ideer: tre lister",
+            "Reserver innen rekkevidde av ruten",
+            "Bestem strukturen før du lagrer"
+          ]
+        },
+        {
+          "heading": "Bruk smarte samlinger for status",
+          "body": [
+            "«Likte», «Besøkte», «Ønsker å besøke» og «Stjernemerket» oppdaterer seg selv når du markerer steder, så de følger status og ikke planer. «Besøkte» er mer nyttig enn den først virker på en lang tur: den hindrer deg i å undersøke et sted to ganger og gir deg en reell oversikt over hvor du har vært.",
+            "«Pinner» og «Alle lagret» gir deg det brede bildet når du ikke husker hvilken liste noe havnet i. Se på disse som sikkerhetsnettet og ikke som arkivsystemet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gi listene navn du forstår senere",
+          "body": [
+            "«Sørøya» sier deg ingenting om fire måneder. «Sørøya feb, bare plasser med strøm» sier hva du løste og om listen kan brukes på nytt. Når du navngir etter region, sesong, kjøretøy eller tur, har listen fortsatt mening når du kommer tilbake til den.",
+            "Legg til en kort beskrivelse der appen tillater det. Grunnen til at du lagret et sted, er delen som forsvinner raskest, og det er som regel delen som betydde noe: skjermet mot sønnavind, bra for en stor bobil, rolig midt i uka."
+          ],
+          "tips": [
+            "Navngi etter region, sesong og kjøretøy",
+            "Noter hvorfor du lagret det",
+            "Vage navn eldes dårlig"
+          ]
+        },
+        {
+          "heading": "Lagre fra stedsinformasjonen, ikke fra kartet",
+          "body": [
+            "Åpne stedet først. Adkomstnotater, fasiliteter, avgiftsstruktur og kilden til opplysningene er det som avgjør om det passer til oppsettet ditt, og ingenting av det er synlig fra en pinne. Å lagre fra kartet gir en liste med navn, mens å lagre fra detaljene gir en liste med alternativer.",
+            "Legg til et notat om det som gjorde stedet verdt å beholde. «Eneste plassen her med tømmestasjon» eller «grusadkomst, ikke for en lav bil» er verdt mer enn selve oppføringen når du velger mellom fem lagrede steder."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se på priser som planleggingstall",
+          "body": [
+            "Der en oppgitt pris vises, kan du lese den i din egen valuta for å sammenligne en Basic-plass hos DOC med en <a data-guide=\"holiday-parks-new-zealand-guide\">feriepark</a> uten å regne ved hvert stopp. Se på omregnede tall som planleggingshjelp: de er mekaniske omregninger av et oppgitt beløp, ikke et tilbud fra leverandøren eller banken din.",
+            "Bekreft den faktiske prisen hos leverandøren før en pris avgjør ruten din, og sjekk hva tallet dekker. Avgiftene hos DOC er vanligvis per voksen per natt, mens kommersielle parker kan oppgi pris per plass, så to tall som ser like ut, kan bety svært ulike totalbeløp for en familie."
+          ],
+          "tips": [
+            "Omregnede priser er planleggingstall",
+            "DOC tar betalt per voksen, parker ofte per plass",
+            "Bekreft før en pris avgjør ruten"
+          ]
+        },
+        {
+          "heading": "La lagrede steder synkroniseres mellom enheter",
+          "body": [
+            "Når iCloud er tilgjengelig og slått på, synkroniseres lagrede statuser, samlinger og turdata privat mellom enhetene dine. Den praktiske fordelen er at du kan planlegge på en større skjerm hjemme og ha de samme listene på telefonen i bobilen, uten å eksportere noe.",
+            "Det betyr også at en telefon som byttes ut eller nullstilles, ikke tar turen med seg, noe som betyr mer på en lang tur enn på en helgetur."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rydd i listen etter hver tur",
+          "body": [
+            "Marker det du besøkte, slett alternativene som viste seg ikke å passe, og behold adkomst- og tidsnotatene som fortsatt vil stemme neste gang. Ti minutter på slutten av en tur er det som hindrer at listen blir tre hundre pinner du ikke lenger stoler på.",
+            "Flytt stoppene du faktisk har bestemt deg for, inn i en tur. Lister er for muligheter, og planleggeren er for reisen, og å holde de to adskilt er det som gjør begge nyttige."
+          ],
+          "tips": [
+            "Rydd mens turen er fersk",
+            "Behold notater som fortsatt stemmer",
+            "Lister har alternativer, turer har planer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva er forskjellen på smarte samlinger og egne samlinger?",
+          "Smarte samlinger fyller seg selv: «Likte», «Stjernemerket», «Ønsker å besøke», «Besøkte», «Pinner» og «Alle lagret» oppdateres når du markerer steder. Egne samlinger er de du gir navn og bygger selv, for en region, en sesong, et kjøretøy eller en kortliste."
+        ],
+        [
+          "Synkroniseres lagrede steder mellom enheter?",
+          "Med iCloud slått på, ja: lagrede statuser, samlinger og turdata følger Apple-kontoen din. Uten det blir alt på den ene enheten."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "winter-camping-new-zealand": {
+      "title": "Vintercamping på New Zealand: varme, veier og realistiske planer",
+      "description": "Kalde netter, kort dagslys og kontroll på veiene i høyfjellet endrer hvordan en tur med bobil eller telt fungerer.",
+      "region": "New Zealand om vinteren",
+      "imageAlt": "Bobil i et snødekt landskap på New Zealand",
+      "intro": "Vinteren gir den klareste himmelen, de tomste campingplassene og den beste verdien i året, og den tar bort det meste av marginen for feil. Kalde netter, ni timer brukbart dagslys, krav om kjettinger og sesongstengninger er ikke hindringer du kan jobbe deg rundt etterpå, men det ruten bør bygges av.",
+      "sections": [
+        {
+          "heading": "Dimensjoner soveutstyret etter natten, ikke dagen",
+          "body": [
+            "En lys ettermiddag i Central Otago på femten grader kan følges av en natt under null. Velg en sovepose og et isolert underlag som er gradert for laveste temperatur om natten på det kaldeste stedet du skal stoppe, og legg til en margin, for komfortgraderingene er optimistiske, og en kald natt er virkelig elendig.",
+            "Underlaget betyr like mye som posen. Det meste av varmen forsvinner nedover i bakken eller bilgulvet, og et sommerunderlag under en god sovepose lar deg fortsatt fryse. I en van bør du isolere gulvet og vinduene før du legger til et teppe til."
+          ],
+          "tips": [
+            "Dimensjoner for nattens laveste temperatur, ikke dagens høyeste",
+            "Isolert underlag slår en varmere sovepose",
+            "Vangulv og vinduer lekker varme"
+          ]
+        },
+        {
+          "heading": "Hold kondens under kontroll",
+          "body": [
+            "Fire mennesker som puster i en lukket van, gir overraskende mye vann, og det ender i sengetøyet, veggene og til slutt madrassen. Ventilasjon føles feil når det fryser ute, men et kjøretøy som er permanent tettet, gir vått sengetøy innen andre morgen.",
+            "Åpne en luke eller et vindu på den skjermede siden om natten, og luft sengetøyet så snart sola kommer frem. Tørk kondens av vinduene om morgenen i stedet for å la den renne ned i listene og de myke møblene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Varm opp kjøretøyet trygt",
+          "body": [
+            "Bruk bare installert oppvarming som er godkjent av produsenten. Bærbare gassovner, kokeapparater og griller som brukes innendørs gir karbonmonoksid, som er luktfritt og har tatt livet av folk som sov i kjøretøy på New Zealand. Det finnes ingen trygg måte å improvisere oppvarming av oppholdsrommet i et lukket rom.",
+            "Har du en diesel- eller gassovn montert, sjekk at den virker før turen og vit hvordan den ventileres. En karbonmonoksidalarm koster svært lite og er verdt å ha i alle kjøretøy med en innretning som brenner drivstoff."
+          ],
+          "tips": [
+            "Bruk aldri et kokeapparat til å varme en van",
+            "Karbonmonoksid har ingen lukt",
+            "Monter en CO-alarm hvis du brenner drivstoff"
+          ]
+        },
+        {
+          "heading": "Kjettinger, dekk og kontroll på veiene i høyfjellet",
+          "body": [
+            "Lindis Pass, Crown Range, Arthur's Pass, Desert Road og Milford Road kan alle kreve kjettinger med kort varsel, og noen leieavtaler krever at du har dem med deg hele turen uansett værmelding. Å legge på kjettinger for første gang i sludd på en skulder er virkelig vanskelig.",
+            "Øv på å legge dem på i en tørr innkjørsel i dagslys før du drar. Sjekk mønsterdybde og trykk i dekkene, bekreft at batteriet er friskt, for kaldt vær finner et svakt, og les utleiefirmaets vinterbegrensninger før du planlegger en rute over et pass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Svart is og skyggefulle svinger",
+          "body": [
+            "Svart is dannes der veien bare ser våt ut, typisk i skygge, på bruer og i dagens første og siste timer. Den gir ingen forvarsel og ikke noe grep, og standardfeilen er å bremse eller styre skarpt når du kjenner den.",
+            "Sakt ned før skyggefulle strekninger i stedet for i dem, øk avstanden til bilen foran langt utover sommervanen, og utsett en kryssing av høyfjellet til sola har vært på veien. Å komme to timer senere er ikke en kostnad det er verdt å krangle om."
+          ],
+          "tips": [
+            "Skygge og bruer fryser først",
+            "Sakt ned før svingen, ikke i den",
+            "Vent til sola har vært på veien"
+          ]
+        },
+        {
+          "heading": "Bygg dagen rundt dagslyset",
+          "body": [
+            "Midtvinters gir omtrent ni timer brukbart lys i sør, og mindre i en dal. Det er ikke mye når du har pakket sammen leiren, kjørt, stoppet og funnet en plass, så planlegg kortere etapper enn du ville gjort i februar og sett et fast snutidspunkt for enhver tur.",
+            "Prøv å komme frem med lys til overs. Å velge plass, stille bilen i vater og sjekke adkomsten er alt vanskeligere i mørket og kulden, og en plass som ville vært åpenbart feil i dagslys, er lett å godta om natten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn med stengninger og redusert tilbud",
+          "body": [
+            "Mange <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> stenger om vinteren eller skrur av vannet, noen adkomstveier stenger etter snø, og ferieparker i små byer kan kutte åpningstidene eller stenge helt. En oppføring skrevet for sommeren forteller deg ikke dette, så sjekk den konkrete plassen og gjeldende varsler fra DOC før du forplikter deg til den.",
+            "Ha med mer vann, mat og strøm enn planen krever, og se på en natt i hytte eller motell som en vanlig værbeslutning og ikke en fiasko. Vinteren er sesongen der det å betale for et rom av og til er det som får resten av turen til å fungere."
+          ],
+          "tips": [
+            "Sjekk at plassen er åpen, ikke bare oppført",
+            "Ha med mer vann enn planen krever",
+            "En natt i hytte er en gyldig beslutning"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan du campe på New Zealand om vinteren?",
+          "Ja, og det er den roligste tiden av året på veien. Begrensningene er praktiske og ikke juridiske: noen DOC-campingplasser og veier i høyfjellet stenger eller er bare åpne med kjetting, dagslyset er kort, og en van uten isolasjon eller ovn blir fort ubehagelig."
+        ],
+        [
+          "Hvilke deler av New Zealand er mildest om vinteren?",
+          "Øvre Nordøya holder seg varmest, og Northland og Coromandel kan brukes til camping hele året. Central Otago og Mackenzie-distriktet får de hardeste frostnettene, og West Coast er mild, men svært våt."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: veiforhold og stengninger"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "DOC: varsler og stengninger"
+        }
+      ],
+      "priceTable": null
+    },
+    "fiordland-camping-road-trip": {
+      "title": "Camping og roadtrip i Fiordland fra Te Anau",
+      "description": "Dype innsjøer, regnmatede fosser og avsidesliggende veier bygget rundt en fast base i Te Anau.",
+      "region": "Fiordland",
+      "imageAlt": "Fiordland-fjell speilet i mørkt vann",
+      "intro": "Fiordland er enklere når campingplassen blir stående. Ha base rundt Te Anau i fire netter, og la været og veiforholdene avgjøre rekkefølgen på Milford Sound, Manapouri og turdagene.",
+      "sections": [
+        {
+          "heading": "Bygg basen",
+          "body": [
+            "Velg en feriepark i Te Anau for tjenester, eller en godkjent <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplass</a> som passer til kjøretøyet og vannbehovet. Bestill sommerdatoer tidlig, og bruk aldri et utgangspunkt for en sti som en improvisert overnattingsplass.",
+            "Kjøp mat og drivstoff før hver lange dag. Det finnes ingen vanlige bensinstasjoner på Milford Road, og dekningen er upålitelig i store deler av nasjonalparken."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Milford Road",
+          "body": [
+            "Sjekk veistatus, snøskredkontroll og vær før du drar. Kjør tidlig, bruk anviste stoppesteder og husk at de samme vakre fossene kan tyde på kraftig regn og stigende vann.",
+            "En cruisebestilling beskytter ikke mot en stengt vei. Hold operatøren informert, sett av rikelig med reisetid og godta at Fiordland av og til erstatter planen med vær."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Turer og restitusjon",
+          "body": [
+            "Bruk kantene av Kepler Track, innsjøkanten og kortere turer hos DOC til fleksible dager. Lengre fotturer krever hyttebestilling, utstyr for villmarka og en værmelding som passer for hele ruten.",
+            "Tørk støvlene, fyll vann og hvil mellom de store turene. Fiordlands skala tas best inn med ledig tid og ikke fra et kjøretøy som kommer tilbake til Te Anau utslitt hver kveld."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Milford-veien er en alvorlig kjøretur",
+          "body": [
+            "State Highway 94 fra Te Anau til Milford er 119 kilometer, tar minst to timer hver vei uten stopp, har ikke drivstoff, <a data-guide=\"kiwicamping-offline-data-guide\">ingen dekning</a> på det meste av strekningen, og kan stenges på grunn av snøskred om vinteren og våren. Det er også en av de beste kjøreturene noe sted.",
+            "Kjør tidlig, fyll opp i Te Anau, og sett av en hel dag til turen tur-retur med stopp ved Mirror Lakes, Chasm og Eglinton Valley. Ikke forsøk det som et tillegg på ettermiddagen til en annen dag."
+          ],
+          "tips": [
+            "Ingen drivstoff og ingen dekning på veien",
+            "To timer hver vei som minimum",
+            "En hel dag til turen tur-retur"
+          ]
+        },
+        {
+          "heading": "Snøskredkontroll om vinteren stenger veien",
+          "body": [
+            "Mellom omtrent mai og november er Milford-veien underlagt et program for snøskredfare, med planlagte stengninger og krav om å ha med kjettinger til tider. Stengninger kan varsles med kort varsel, og veien kan stenge med kjøretøy i Milford, slik at det blir nødvendig med en overnatting.",
+            "Sjekk statusen samme morgen som du reiser, ha med kjettinger hvis det kreves, og kjør aldri forbi en stengningsbom. Skredløpene over veien er store, og kontrollprogrammet finnes på grunn av en reell historie med dem."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn gjør Milford bedre",
+          "body": [
+            "Milford Sound får rundt sju meter regn i året, og fossene som gjør det ekstraordinært, går bare ordentlig når det regner. En klar dag gir deg toppene, og en våt dag gir deg hundrevis av midlertidige fosser nedover fjellveggene.",
+            "Bestill en cruise uansett værmelding, ha med et vanntett lag og gå ut på dekk. Reisende som avlyser på grunn av regn, avlyser den beste versjonen av opplevelsen."
+          ],
+          "tips": [
+            "Fossene trenger regn for å gå",
+            "Bestill cruisen uansett værmelding",
+            "Gå ut på dekk, ha med regntøy"
+          ]
+        },
+        {
+          "heading": "Camping og sandfluene",
+          "body": [
+            "Det finnes DOC-campingplasser gjennom Eglinton Valley langs veien, som er det praktiske alternativet siden overnatting i selve Milford er svært begrenset. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> nær fjordene er ikke tillatt, og forbudet håndheves.",
+            "<a data-guide=\"sandflies-new-zealand-camping\">Sandfluene</a> i Fiordland er de verste i landet, og de i Milford er legendariske. Insektmiddel er ikke valgfritt her, og å slå leir i Eglinton i skumringen uten det er virkelig ubehagelig."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Doubtful Sound og alternativet til Milford",
+          "body": [
+            "Doubtful Sound er større og roligere og nås med båt over Lake Manapouri etterfulgt av buss over Wilmot Pass, noe som gjør det til en hel dag og betydelig dyrere enn Milford. Til gjengjeld ser du nesten ingen andre fartøy.",
+            "For reisende som har tid og budsjett, er cruisene med overnatting på begge fjordene den versjonen folk husker best. De blir utsolgt langt i forveien om sommeren og er avhengige av været som alt annet her.",
+            "Manapouri selv er en roligere base enn Te Anau, med en god campingplass og utgangspunktet for Kepler Track i nærheten. Er Te Anau fullt, ligger det tjue minutter unna og har som regel plass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Te Anau som base",
+          "body": [
+            "Te Anau har tjenestene, DOC-besøkssenteret for informasjon om stier og vær, og overnattingen som Milford mangler. Nesten alle har base her og kjører ut, og det er den fornuftige ordningen.",
+            "Glødeormgrottene ved Te Anau nås med båt over innsjøen og fungerer godt som en kveldsaktivitet, særlig en dag da været utelukket noe annet."
+          ],
+          "tips": [
+            "Ha base i Te Anau, ikke i Milford",
+            "DOC-besøkssenteret for informasjon om stier"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "north-island-two-week-road-trip": {
+      "title": "Bobilrute på Nordøya: 14 dager med campingplasser og kjøreturer",
+      "description": "To uker fra Auckland gjennom vulkansk land, hovedstaden og vestkysten.",
+      "region": "Nordøya",
+      "imageAlt": "Bobilrute gjennom det sentrale Nordøya",
+      "intro": "To uker kan ikke dekke hvert hjørne av Te Ika-a-Māui godt. Denne ruten velger en sammenhengende runde, verner to netter på stedene som trenger det og lar Northland eller East Cape vente til en annen reise.",
+      "sections": [
+        {
+          "heading": "Fra Auckland til vulkansk land",
+          "body": [
+            "Bruk første natt utenfor trafikken i Auckland, og gi så Coromandel og Rotorua to netter hver. Det gir tid til en strand- eller skogdag og en geotermisk dag uten å pakke sammen leiren hver morgen.",
+            "Bruk Taupō til å fylle opp før Tongariro. Planer for høyfjellet må følge værmeldingen, transportordningene og <a data-guide=\"volcanic-safety-new-zealand-travel\">vulkan</a>- eller stivarsler, med en lavere tur klar når forholdene er feil."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sørover til Wellington",
+          "body": [
+            "Del opp kjøringen i midten rundt Whanganui eller Kāpiti Coast. Wellington belønner et parkert kjøretøy, og en campingplass nær <a data-guide=\"public-transport-costs-new-zealand-2026\">kollektivtransport</a> unngår høydebegrensninger og dyr parkering i sentrum.",
+            "Hvis en <a data-guide=\"cook-strait-ferry-campervan-guide\">ferje over Cookstredet</a> følger, sjekk inn i samsvar med bestillingen for kjøretøyet og regn med forstyrrelser på grunn av vind. Hold medisiner, varme lag og viktige dokumenter utenfor et bildekk du ikke kommer til underveis."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tilbake gjennom Taranaki",
+          "body": [
+            "Kjør nordover gjennom Wairarapa bare hvis tiden tillater det. Ellers bruker du vestkysten mot Taranaki. New Plymouth gir en enkel base for to netter med valg mellom kyst og fjell.",
+            "Avslutt gjennom Waikato med siste natt så nær Auckland at du kan komme rolig tilbake. Rengjøring, drivstoff og overlevering av leiebilen tar lengre tid enn siste linje i reiseruten tilsier."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fjorten dager betyr å velge side",
+          "body": [
+            "Den vanlige feilen er å prøve å få med Northland, Coromandel, det sentrale høylandet, East Cape og Taranaki på to uker. Det gir en kjøreferie uten tid til noe av det. Velg enten den nordlige runden eller den østlige og sentrale ruten, og gjør den ordentlig.",
+            "En gjennomførbar form er Auckland, Coromandel, Rotorua, Taupō, Tongariro, Napier, Wellington, med to netter på minst to av dem. Northland blir da en egen tur og ikke et hastverkstillegg."
+          ],
+          "tips": [
+            "Ikke prøv å få med Northland også",
+            "To netter på minst to steder",
+            "Velg én runde og gjør den ordentlig"
+          ]
+        },
+        {
+          "heading": "Tongariro Alpine Crossing trenger en ordentlig plan",
+          "body": [
+            "Det er en enveis fjellrute på 19,4 kilometer, den krever shuttletransport i begge ender, og det er en tidsbegrensning for parkering ved Mangatepopo som i praksis tvinger deg til shuttlen. Den er også ofte stengt eller utrygg i vind, skyer eller is, og folk havner i alvorlig trøbbel hvert år.",
+            "Bestill shuttlen, sjekk værmeldingen fra DOC samme morgen, ha med varme og vanntette lag uansett hvor sol det er på parkeringsplassen, og vær virkelig villig til å gi opp. Legg inn en ledig dag i reiseruten så en avlysning ikke blir slutten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Geotermisk land belønner nøye valg",
+          "body": [
+            "Rotorua og Taupō har flere geotermiske severdigheter enn noen trenger, og de er ikke utbyttbare. Wai-O-Tapu, Waimangu, Orakei Korako og Craters of the Moon byr hver på noe ulikt, alle tar inngangspenger, og prisene varierer mye.",
+            "Velg én betalt park og legg til Kuirau Park i sentrum av Rotorua, en gratis kommunal park med dampende kulper og gjørme, i stedet for tre betalte. Nyhetens interesse slites raskere ned enn inngangsprisene tilsier, og pengene brukes bedre på en innsjøtur eller en dagstur."
+          ],
+          "tips": [
+            "Én betalt park er som regel nok",
+            "De er ikke utbyttbare",
+            "Kuirau Park i Rotorua er gratis"
+          ]
+        },
+        {
+          "heading": "La den siste dagen være myk",
+          "body": [
+            "Hvis du flyr ut fra Auckland eller tar en ferje fra Wellington, bør du ikke planlegge å komme frem på avreisemorgenen. Veiarbeid, vær og en langsom siste dag er alle normale, og hovedrutene på Nordøya har mye trafikk rundt høytider.",
+            "Bruk siste natt innen en time fra terminalen eller flyplassen. Det gjør en stresset morgen til en vanlig morgen og koster ikke mer enn en litt kjedeligere siste campingplass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Waitomo, Napier og stoppene som blir kuttet",
+          "body": [
+            "Glødeormgrottene i Waitomo er et reelt høydepunkt og ligger klønete mellom Auckland og det sentrale høylandet, og derfor blir de ofte droppet. Svartvannsraftingen er mer minneverdig enn den vanlige guidede gåturen hvis du har tid og lyst.",
+            "Art deco-sentrum i Napier er kompakt nok til å se på en formiddag og passer godt sammen med vingårdene i Hawke's Bay, de fleste innen sykkelavstand fra byen. Det fungerer best som et stopp på to netter og ikke som et gjennomfartsstopp.",
+            "Er de to ukene stramme, er Napier det mest forsvarlige kuttet, for Waitomo har ingen erstatning noe annet sted på ruten, mens vinregioner dukker opp igjen i Marlborough hvis du fortsetter sørover."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvor kjøredagene biter",
+          "body": [
+            "Auckland til Coromandel og Taupo til Napier over Titiokura er de to etappene som oftest undervurderes. Begge har svingete partier som strekker seg godt forbi ruteestimatet.",
+            "Del opp en av dem med et stopp i stedet for å se på den som transport. Alternativet er å komme frem til et godt sted uten energi igjen til å nyte det."
+          ],
+          "tips": [
+            "Auckland til Coromandel tar lengre tid",
+            "Taupo til Napier er svingete"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Tongariro Alpine Crossing"
+        },
+        {
+          "label": "NZTA: reiseplanlegger"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
