@@ -82,3 +82,8 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `where-to-camp-in-new-zealand` | Campsite in Lake Clearwater, Canterbury, New Zealand 13.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Campsite_in_Lake_Clearwater,_Canterbury,_New_Zealand_13.jpg) |
 | `responsible-camping-new-zealand` | Green camping tent near Mueller Hut | Martina James | Unsplash License | [Source](https://unsplash.com/photos/green-camping-tent-near-rock-formations-g7vsFfGsDMc) |
 | `two-week-camper-itinerary-new-zealand` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
+| `rankers-alternatives` | DSCN2150 Medlands Beach Campsite.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:DSCN2150_Medlands_Beach_Campsite.jpg) |
+| `campermate-alternatives` | Waiohine Gorge campsite entrance.jpg | TimClicks | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Waiohine_Gorge_campsite_entrance.jpg) |
+| `road-trip-planner-apps-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |
+| `free-camping-apps-new-zealand` | Camp Sign - Lake Tutira campsite.jpg | studio tdes | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Camp_Sign_-_Lake_Tutira_campsite.jpg) |
+| `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |

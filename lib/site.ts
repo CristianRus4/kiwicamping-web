@@ -5,11 +5,12 @@ import { planningArticles } from "@/lib/content/planning";
 import { appArticles } from "@/lib/content/app-guides";
 import { costArticles } from "@/lib/content/costs";
 import { legacyOnlyArticles } from "@/lib/content/legacy";
+import { listicleArticles } from "@/lib/content/listicles";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
-export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection } from "@/lib/article-model";
+export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection, ArticleTable } from "@/lib/article-model";
 export { makeArticle, section, articleHref } from "@/lib/article-model";
 
 export const SITE_URL = "https://campingapp.nz";
@@ -61,6 +62,7 @@ export const allArticles: Article[] = [
   ...appArticles,
   ...costArticles,
   ...legacyOnlyArticles,
+  ...listicleArticles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   .concat(scheduleFixture<Article>() ?? []);

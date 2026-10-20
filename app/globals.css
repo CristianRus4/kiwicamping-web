@@ -284,6 +284,9 @@ em { color: inherit; font: inherit; font-style: normal; }
 .price-table { width: max-content; min-width: 100%; border-collapse: collapse; background: var(--paper); font-size: 11px; }
 .price-table th, .price-table td { min-width: 100px; padding: 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
 .price-table th:first-child { position: sticky; left: 0; z-index: 1; min-width: 215px; background: var(--paper); text-align: left; }
+.article-table caption { padding: 12px 14px; color: var(--muted); font-size: 13px; text-align: left; caption-side: top; }
+.article-table td { text-align: left; }
+.article-body section > .download-card-compact { margin-top: 18px; }
 .price-table thead th { background: var(--soft); color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .price-table thead th:first-child { z-index: 2; background: var(--soft); }
 .price-table tbody th strong, .price-table tbody th span { display: block; }

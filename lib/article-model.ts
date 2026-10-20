@@ -1,5 +1,9 @@
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
-export type ArticleSection = { heading: string; body: string[]; tips?: string[] };
+/** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
+ * and the first cell of each row is its label. Translated like the prose around it. */
+export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
+/** `cta` puts a store button under the section: comparison guides set it on the entry for KiwiCamping. */
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean };
 /** `asOf` is an ISO date (YYYY-MM-DD), formatted per locale when rendered. */
 export type ArticlePriceTable = { asOf: string; note: string; rows: { label: string; nzdLow: number; nzdHigh?: number; unit?: string }[] };
 export type Article = {
@@ -28,6 +32,8 @@ export type Article = {
    * the whole build (lib/publish.ts). Never set it on a guide that is already live, or on a legacy one.
    */
   publishAt?: string;
+  /** A "best apps" or "alternatives" comparison guide: its store links carry the `listicle` placement. */
+  listicle?: boolean;
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
 
@@ -39,7 +45,7 @@ export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: nu
 export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { priceTable?: Article["priceTable"] }) {
   const parts = [
     input.intro,
-    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? []), ...(part.table ? [part.table.caption, ...part.table.head, ...part.table.rows.flat()] : [])]),
     ...(input.priceTable ? [input.priceTable.note, ...input.priceTable.rows.map((row) => `${row.label} ${row.unit ?? ""}`)] : []),
   ];
   const words = parts.join(" ").trim().split(/\s+/).filter(Boolean).length;

@@ -30,3 +30,8 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 
 | Date | Slug | Status |
 |---|---|---|
+| 2026-10-22 | rankers-alternatives | scheduled |
+| 2026-10-24 | campermate-alternatives | scheduled |
+| 2026-10-26 | free-camping-apps-new-zealand | scheduled |
+| 2026-10-28 | road-trip-planner-apps-new-zealand | scheduled |
+| 2026-10-30 | best-travel-apps-new-zealand | scheduled |
