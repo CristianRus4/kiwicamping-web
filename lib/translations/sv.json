@@ -262,7 +262,7 @@
         {
           "heading": "Kartor, väder och liveinformation",
           "paragraphs": [
-            "Växla mellan standardkartan och en satellitvy med Flyover-bilder från Apple, som går att luta och vrida till 3D-terräng. Street View, som bygger på bilderna i Se dig omkring från Apple, öppnas från platssidan där det finns bilder.",
+            "Växla mellan standardkartan och en satellitvy med Flyover-bilder från Apple, som går att luta och vrida till 3D-terräng. Apple Look Around (Se dig omkring), gatuvyn, öppnas från platssidan där det finns bilder.",
             "Aktuellt väder och prognoser kräver uppkoppling. Spara viktiga prognoser och officiella varningar innan du lämnar täckningen.",
             "Platskatalogen följer med appen, så den viktigaste platsinformationen finns kvar även där täckningen sviktar. Kartan, ruttberäkningen, vädret, foton och externa leverantörers sidor hämtas live och kan kräva täckning."
           ]
@@ -385,8 +385,8 @@
   },
   "articles": {
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Vad får du ta med in i Nya Zeeland? Tält, kängor och mat",
-      "description": "Biosäkerhet i Nya Zeeland: deklarera kängor, tält och mat vid gränsen, och rengör utrustningen innan du tar den vidare till nästa vattendrag eller skog.",
+      "title": "Vad får du ta med in i Nya Zeeland? Deklarera kängor och tält",
+      "description": "Använda kängor, tält och fiskeutrustning måste deklareras när du kommer till Nya Zeeland. Vad du rengör före flyget och hur du hindrar skadedjur mellan vattendrag.",
       "region": "Gränsen och naturen i Nya Zeeland",
       "imageAlt": "Rengjorda vandringskängor redo för gränskontrollen i Nya Zeeland",
       "intro": "Kängor, tält och annan utrustning som redan har varit ute i naturen kan föra med sig frön, jord, insekter och skadegörare som lever i vatten. Biosäkerheten börjar vid gränsen, men den fortsätter när du flyttar utrustningen mellan olika naturmiljöer i Nya Zeeland.",
@@ -495,8 +495,8 @@
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Köra husbil i Nya Zeeland: trafikregler och säkerhet",
-      "description": "Höjd, bredd, vikt, passagerare och hyresavtalets begränsningar: ha koll på allt det här innan en smal väg visar hur stor husbilen faktiskt är.",
+      "title": "Köra husbil i Nya Zeeland: körkort, fart och storlek (2026)",
+      "description": "Köra husbil i Nya Zeeland: vad ett vanligt körkort täcker, hastighetsgränser, vind på utsatta vägar, färjornas mått och misstagen som besökare gör.",
       "region": "Nya Zeelands vägar",
       "imageAlt": "Stor husbil på en smal väg i Nya Zeeland",
       "intro": "En husbil kan vara laglig att köra på ett vanligt Class 1-körkort och ändå kännas helt annorlunda än en bil. Använd överlämningen till att ta reda på höjd, bredd, längd och vikt med last, och vilka vägar hyresavtalet inte tillåter.",
@@ -529,7 +529,7 @@
           "heading": "Ha koll på måtten innan du kör iväg",
           "body": [
             "Skriv upp husbilens höjd, längd och vikt och fäst lappen väl synligt för föraren. Det är höjden som ger de dyra skadorna: vid infarten till parkeringshus och drive-in, under taket över pumparna på macken och under en del låga viadukter i städerna.",
-            "Kolla speglarna, döda vinklarna och backkameran innan du lämnar depån, och gå ett varv runt bilen. De flesta skador på hyrda husbilar uppstår under de två första dagarna, i låg fart, på parkeringsplatser."
+            "Kolla speglarna, döda vinklarna och backkameran innan du lämnar depån, och gå ett varv runt bilen. Många skador på hyrda husbilar uppstår i låg fart, på parkeringsplatser."
           ],
           "tips": [
             "Skriv höjden på instrumentbrädan",
@@ -549,11 +549,11 @@
           "heading": "Vinden, och varför den betyder mer här",
           "body": [
             "En hög bil är känslig för sidvind, och Nya Zeeland är ett blåsigt land med utsatta kustvägar, broar och bergspass. När du kör om en lastbil eller kommer ut ur en bergskärning kan bilen plötsligt knuffas i sidled.",
-            "Håll ratten stadigt med båda händerna på utsatta sträckor och sänk farten före vindbyn, inte mitt i den. Tänk också på att vissa vägar stängs för höga fordon vid hård vind, bland annat Rimutaka Hill Road och delar av Desert Road."
+            "Håll ratten stadigt med båda händerna på utsatta sträckor och sänk farten före vindbyn, inte mitt i den. Kolla NZTA:s reseplanerare (journey planner) innan du kör en utsatt sträcka: Remutaka Hill Road (SH2) stängs vid svår vind, och andra utsatta vägar har vindvarningar."
           ],
           "tips": [
             "Sänk farten före den utsatta sträckan",
-            "Vissa vägar stängs för höga fordon",
+            "Vissa vägar stängs vid svår vind",
             "Lastbilar och bergskärningar ger plötsliga vindbyar"
           ]
         },
@@ -561,7 +561,7 @@
           "heading": "Köra om och bli omkörd",
           "body": [
             "En husbil accelererar långsamt, så en omkörning kräver mycket längre fri väg än med en personbil och är sällan värd att försöka. De flesta av Nya Zeelands huvudvägar har ett körfält i varje riktning, få omkörningsfiler och många olyckor vid omkörning.",
-            "När det bildas kö bakom dig, kör in till sidan där det är säkert och släpp förbi. Har du fem eller fler fordon bakom dig är du skyldig att göra det så snart det är säkert. Det tar dessutom bort stressen som får folk att göra dåliga omkörningar."
+            "När det bildas kö bakom dig, kör in till sidan där det är säkert och släpp förbi. Om du håller upp trafiken kräver vägreglerna att du håller åt vänster och släpper förbi så snart det är säkert. Det tar dessutom bort stressen som får folk att göra dåliga omkörningar."
           ],
           "tips": []
         },
@@ -577,13 +577,13 @@
         {
           "heading": "Färjor, tunnlar och höjdgränser",
           "body": [
-            "Priset för färjan över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> (Cook Strait) beror på fordonets längd och höjd, och båda kontrolleras. Vissa tunnlar i städerna och äldre broar har höjd- eller viktbegränsningar, och några vägar stängs för höga fordon vid hård vind.",
+            "Priset för fordon på färjan över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> (Cook Strait) beror på längden, inklusive cykelhållare och dragkrok, och längden kontrolleras vid incheckningen. Vissa tunnlar i städerna och äldre broar har höjd- eller viktbegränsningar, och några utsatta vägar stängs vid svår vind.",
             "Ha exakt koll på måtten och jämför dem med varje rutt där det finns en tunnel, en låg bro eller en färjebokning. Det är gissningar som slutar med en dyr prisjustering vid terminalen, eller något värre ute på vägen."
           ],
           "tips": [
             "Färjepriset beror på storleken",
             "Vet exakt höjd och längd",
-            "Vissa vägar stängs för höga bilar"
+            "Utsatta vägar kan stängas vid svår vind"
           ]
         }
       ],
@@ -605,8 +605,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Köra med husvagn i Nya Zeeland",
-      "description": "Husvagn i Nya Zeeland: max 90 km/h, viktgränserna med last och fyra sekunders avstånd är en utgångspunkt, inte något du ska sikta mot.",
+      "title": "Köra med husvagn i Nya Zeeland: körkort, vikt och 90 km/h",
+      "description": "Max 90 km/h med dragkrok, 50 km/h med rep, 6 000 kg sammanlagt på ett vanligt körkort, plus lastning, svajning och vägarna du ska ta långsamt.",
       "region": "Nya Zeelands vägar",
       "imageAlt": "Bil med husvagn på en huvudväg i Nya Zeeland",
       "intro": "En husvagn går stabilt när ekipaget är lagligt, lasten rätt fördelad och föraren saktar in innan vägen kräver det. Med Nya Zeelands kurvor och vind spelar den högsta tillåtna hastigheten ingen roll på många sträckor.",
@@ -622,7 +622,7 @@
         {
           "heading": "Fart och avstånd",
           "body": [
-            "Med släp på fast koppling är högsta hastighet på landsväg 90 km/h. Kör långsammare så fort stabiliteten, sikten, vädret eller vägen kräver det.",
+            "Högsta hastighet på landsväg med släp är 90 km/h med fast koppling, till exempel dragkrok. Med rep eller annan icke fast koppling är gränsen 50 km/h på alla vägar. Kör långsammare så fort stabiliteten, sikten, vädret eller vägen kräver det.",
             "Håll minst fyra sekunders avstånd, och mer i dåligt väder. Bromsa före kurvorna och lägg i en lägre växel i nedförsbackar."
           ],
           "tips": []
@@ -638,8 +638,8 @@
         {
           "heading": "Lägre hastighetsgräns med släp",
           "body": [
-            "Lätta släp och husvagnar får köra högst 90 km/h på landsväg, alltså under den allmänna gränsen på 100 km/h, och tunga släpekipage har också max 90 km/h. Gränsen gäller oavsett vad skylten säger, och den kontrolleras.",
-            "Håll mycket längre avstånd än när du kör bara bil. Bromssträckan blir betydligt längre med släp, och de vanligaste släpolyckorna här sker när föraren inte hinner stanna i en nedförsbacke."
+            "Lätta släp och husvagnar får köra högst 90 km/h på landsväg, alltså under den allmänna gränsen på 100 km/h, och tunga släpekipage har också max 90 km/h. Det är ett tak, inget mål: där en lägre gräns är skyltad gäller den lägre gränsen.",
+            "Håll mycket längre avstånd än när du kör bara bil. Bromssträckan blir betydligt längre med släp, särskilt i långa nedförsbackar."
           ],
           "tips": [
             "Max 90 km/h med släp",
@@ -670,7 +670,7 @@
         {
           "heading": "Vägar där du ska tänka efter en extra gång",
           "body": [
-            "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road och stora delar av Coromandelkusten är krävande med husvagn, och vissa är förbjudna för stora ekipage eller något man starkt avråder från. Kolla innan du kör in, för ofta går det inte att vända.",
+            "Tākaka Hill, Crown Range, Remutaka Hill Road, den oasfalterade 309 Road och stora delar av Coromandelkusten är branta, snäva och långsamma med husvagn, och Remutaka Hill (SH2) stängs vid svår vind. Kolla väglägen och eventuella begränsningar innan du kör in, för ofta går det inte att vända.",
             "I nedförsbackar lägger du i en lägre växel och motorbromsar i stället för att ligga på bromsen, som annars blir varm och tappar verkan. Kör in till sidan med jämna mellanrum och släpp förbi trafiken bakom dig, både av hänsyn och för att en kö bakom dig lockar till riskabla omkörningar."
           ],
           "tips": []
@@ -687,7 +687,7 @@
         {
           "heading": "Vind och utsatta vägar",
           "body": [
-            "En husvagn är en stor plan yta, och sidvind är den främsta orsaken till att förare tappar kontrollen över ekipaget. Utsatta sträckor runt Wellington, Desert Road, Mackenzie och kusten i Canterbury är alla kända för det.",
+            "En husvagn är en stor plan yta, och sidvind är en stor orsak till svajning och till att förare tappar kontrollen över ekipaget. Utsatta sträckor runt Wellington, Desert Road, Mackenzie och kusten i Canterbury är alla kända för det.",
             "Sakta in innan du når en utsatt sträcka i stället för att reagera när du redan är där. Var extra försiktig när du kommer ut ur en bergskärning eller kör förbi en lastbil, för där tar vinden plötsligt tag och släpper lika plötsligt."
           ],
           "tips": [
@@ -700,23 +700,23 @@
       "faq": [
         [
           "Vilken hastighetsgräns gäller med släp i Nya Zeeland?",
-          "90 km/h, alltså under gränsen på 100 km/h för landsväg, och den gäller oavsett vad skylten säger. Det du drar måste dessutom ligga inom bilens tillåtna dragvikt, och det är en lagstadgad gräns, inte en rekommendation."
+          "90 km/h på landsväg med dragkrok eller annan fast koppling, alltså under den allmänna gränsen på 100 km/h, och en lägre skyltad gräns gäller fortfarande. Drar du på rep eller annan icke fast koppling sjunker gränsen till 50 km/h överallt."
         ],
         [
           "Behöver man ett särskilt körkort för att dra husvagn i Nya Zeeland?",
-          "Ett fullständigt körkort för personbil räcker för de flesta ekipage upp till 4 500 kg sammanlagd vikt. Över det behöver du en tyngre behörighet, och hyrföretagen har ofta egna gränser i avtalet som ligger under de lagliga."
+          "Oftast inte. Ett fullständigt körkort för personbil låter dig dra när fordonet, släpet och lasten tillsammans väger högst 6 000 kg. Med övningskörkort eller provkörkort (learner or restricted licence) är gränsen 4 500 kg. Hyrföretagen kan ha egna, lägre gränser i avtalet."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: husbilar, husvagnar och lätta släp"
+          "label": "NZTA Road Code: säker lastning och dragning för lätta fordon"
         }
       ],
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Hastighetsgränser och säker fart på Nya Zeelands vägar",
-      "description": "Hastighetsgränsen i Nya Zeeland är ett tak som gäller när förhållandena är goda. På många landsvägar ligger en säker fart betydligt lägre än skylten.",
+      "title": "Hastighetsgränser i Nya Zeeland 2026: landsväg 100 km/h, släp 90",
+      "description": "Hastighetsgränser i Nya Zeeland för besökare och husbilar: 100 km/h på landsväg, 50 km/h i tätort, 90 km/h med släp och när du ska köra långt under dem.",
       "region": "Nya Zeelands vägar",
       "imageAlt": "Skylt med hastighetsgräns vid en landsväg i Nya Zeeland",
       "intro": "Att en hastighet är tillåten betyder inte att vägen går att köra i den farten. Kurvor, regn, grus, boskap, cyklister och en husbil du inte är van vid sänker alla den säkra farten.",
@@ -760,8 +760,8 @@
         {
           "heading": "Kontrollerna är hårdare än många besökare tror",
           "body": [
-            "Toleransen är liten och fartkameror finns på många ställen, även mobila. Böterna skickas till fordonets registrerade ägare, så har du hyrt bil skickar uthyraren dem vidare till dig med en administrationsavgift. Prickar på körkortet (demerit points) gäller inte för utländska körkort, men böterna gäller definitivt.",
-            "Både kameror som mäter medelhastigheten över en sträcka och sänkta gränser på landsbygden har blivit vanligare de senaste åren. Utgå från att vilken väg som helst kan vara övervakad, i stället för att spana efter kameror."
+            "Toleransen är liten och fartkameror finns på många ställen, även mobila. Böterna skickas till fordonets registrerade ägare, så har du hyrt bil skickar uthyraren dem vidare till dig med en administrationsavgift. Förseelser där polisen stoppar dig ger prickar (demerit points) även på ett <a data-guide=\"overseas-driver-licence-new-zealand\">utländskt körkort</a>, och böterna gäller också.",
+            "Kameror som mäter medelhastigheten över en sträcka har blivit fler sedan slutet av 2025. Utgå från att vilken väg som helst kan vara övervakad, i stället för att spana efter kameror."
           ],
           "tips": []
         },
@@ -789,7 +789,7 @@
           "heading": "Varierande och sänkta gränser",
           "body": [
             "Vid skolor sänks gränsen vissa tider på dygnet, och det visas med blinkande eller variabla skyltar. Vid vägarbeten gäller tillfälliga gränser oavsett om någon syns arbeta eller inte, och de kontrolleras med samma lilla tolerans som de permanenta.",
-            "På flera huvudvägar på landsbygden har gränsen sänkts från 100 km/h efter säkerhetsöversyner, och det märks inte alltid om du utgår från en äldre karta eller ett tidigare besök. Läs skyltarna i stället för att anta att landsvägsgränsen gäller.",
+            "Vissa vägar på landsbygden har lägre gränser än 100 km/h, och många sänkta gränser höjdes igen under 2025, så en äldre karta eller ett tidigare besök kan ha fel åt båda hållen. Läs skyltarna i stället för att anta att landsvägsgränsen gäller.",
             "På grusvägar är den skyltade gränsen ofta fortfarande 100 km/h, vilket inte är i närheten av en säker fart på grus. Här är gränsen verkligen bara ett lagligt tak och säger ingenting om vad underlaget klarar."
           ],
           "tips": []
@@ -798,7 +798,7 @@
           "heading": "Så fungerar fartkameror och böter",
           "body": [
             "Fasta och mobila kameror finns i hela landet, och toleransen är liten. Böterna går till fordonets registrerade ägare, så hyrfirman får dem och skickar dem vidare till dig med en administrationsavgift.",
-            "Prickarna gäller inte för <a data-guide=\"overseas-driver-licence-new-zealand\">utländska körkort</a>, men böterna gör det, och obetalda böter kan komma ikapp dig senare. Betala dem i stället för att räkna med att de försvinner när du lämnar landet."
+            "Böter från fartkameror ger inga prickar, men förseelser där polisen stoppar dig gör det, även på ett <a data-guide=\"overseas-driver-licence-new-zealand\">utländskt körkort</a>. 100 prickar inom två år innebär tre månaders körförbud i Nya Zeeland. Betala böterna i stället för att räkna med att de försvinner när du lämnar landet."
           ],
           "tips": [
             "Liten tolerans",
@@ -912,7 +912,7 @@
           "heading": "1. KiwiCamping: bäst för DOC-campingplatser, stugor och ruttplanering",
           "body": [
             "KiwiCamping är en campingkarta och reseplanerare för Nya Zeeland byggd på Department of Conservations egna data. I datan från augusti 2026 innehöll appen 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, 927 DOC-stugor (ungefär som STF:s fjällstugor) med 7 661 sovplatser och 1 453 DOC-leder, med de avgifter, hundregler och bokningskrav som DOC publicerar, där DOC publicerar dem. Platsinformationen ligger i telefonen, så en campingplats faciliteter och avgifter går att öppna på West Coast eller i Fiordland utan täckning. Kartbilder, ruttberäkning, väder och foton kräver fortfarande täckning, så appen ersätter inte en nedladdad karta.",
-            "Där den drar ifrån är planeringen. Platser hamnar under ”Gillade”, ”Stjärnmärkt”, ”Besökta”, ”Vill besöka” eller dina egna <a data-guide=\"save-places-kiwicamping\">samlingar</a>, och en resa innehåller de du väljer som stopp i ordning med datum, anteckningar, att göra-listor, total ruttlängd och hur mycket av resan du har besökt. Platssidorna visar lokalt väder, kostnader omräknade till din egen valuta och Apple Look Around (Se dig omkring) där Apple har det.",
+            "Där den drar ifrån är planeringen. Platser hamnar under ”Gillade”, ”Stjärnmärkt”, ”Besökta”, ”Vill besöka” eller dina egna samlingar, och en resa innehåller de du väljer som stopp i ordning med datum, anteckningar, att göra-listor, total ruttlängd och hur mycket av resan du har besökt. Platssidorna visar lokalt väder, kostnader omräknade till din egen valuta och Apple <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a> (Se dig omkring) där Apple har det.",
             "Pris och plattform: appen är gratis att ladda ner, men gratisversionen öppnar bara boenden och turer från BookIt. DOC-campingplatser, stugor, leder och <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstationer</a> (dump stations), sparade samlingar, resor och guiderna kräver KiwiCamping Pass, som i App Store för Nya Zeeland finns i varianter från 3,99 till 12,99 NZD. Appen finns bara för iPhone och kräver iOS 26 eller senare.",
             "De ärliga nackdelarna: den är ny, med 4 betyg i App Store för Nya Zeeland (3,8) mot Rankers 3 322, det finns inga recensioner från resenärer i appen och det finns ingen Android-version. Vill du läsa vad de senaste tio campingresenärerna tyckte om en plats får du mer av Rankers eller CamperMate."
           ],
@@ -1024,7 +1024,7 @@
         {
           "heading": "Kolla regeln, inte kartnålen",
           "body": [
-            "Varje app i den här jämförelsen, vår också, är ett planeringsstöd. Skyltar på platsen, kommunens gällande lokala föreskrifter, DOC:s varningar och markförvaltarens anvisningar gäller före allt som ligger sparat i en telefon, och de ändras oftare än appens data uppdateras. Särskilt <a data-guide=\"campfire-rules-new-zealand\">eldningsrestriktioner</a> och rāhui (tillfälliga förbud) kan införas med kort varsel.",
+            "Varje app i den här jämförelsen, vår också, är ett planeringsstöd. Kommunens lokala föreskrifter, DOC:s meddelanden, DOC:s varningar och markförvaltarens anvisningar gäller före allt som ligger sparat i en telefon, och de ändras oftare än appens data uppdateras. Särskilt <a data-guide=\"campfire-rules-new-zealand\">eldningsrestriktioner</a> och rāhui (tillfälliga förbud) kan införas med kort varsel.",
             "Innan du slår dig ner för natten: läs skylten vid entrén. Om den säger något annat än appen gäller skylten. Den vanan kostar ingenting och är det som gör att <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> fortsätter att vara möjligt."
           ],
           "tips": [
@@ -1084,8 +1084,8 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Lägereld i Nya Zeeland: eldningssäsonger och regler",
-      "description": "Så fungerar Nya Zeelands system med eldningssäsonger, när du behöver tillstånd och hur du lagar mat säkert när öppen eld är förbjuden.",
+      "title": "Lägereld Nya Zeeland 2026: eldningssäsong, kolla förbud först",
+      "description": "Öppen, begränsad eller förbjuden: så fungerar eldningssäsongerna i Nya Zeeland, var du kollar eldningsförbudet, när du behöver tillstånd och hur du lagar mat vid förbud.",
       "region": "Nya Zeeland",
       "imageAlt": "Liten kontrollerad lägereld på en godkänd eldplats",
       "intro": "En gammal eldstad och en hög med aska visar att någon har eldat här en gång, inte att du får göra det i dag. Nya Zeeland har ett system med tre eldningssäsonger som ändras med förhållandena, och den som förvaltar marken kan förbjuda eld oavsett vad systemet säger.",
