@@ -138,11 +138,11 @@
     "guidesIntro": "podrobných průvodců ke kempům, pravidlům, místním cenám a praktickému plánování cesty po Novém Zélandu.",
     "guideSingular": "průvodce",
     "guidePlural": "průvodců",
-    "guidePluralFew": "průvodci",
     "readGuide": "Číst průvodce",
+    "guidePluralFew": "průvodci",
+    "placesFew": "místa",
     "minuteRead": "min čtení",
     "places": "míst",
-    "placesFew": "místa",
     "backToGuides": "Průvodce",
     "photoCredits": "Autoři fotografií",
     "keepInMind": "Na co myslet",
@@ -382,6 +382,232 @@
             "Dotazy můžete posílat na podporu KiwiCamping."
           ]
         }
+      ]
+    }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Úvod",
+      "breadcrumbTools": "Nástroje",
+      "howTitle": "Jak se to počítá",
+      "exampleTitle": "Příklad výpočtu",
+      "assumptionsTitle": "Předpoklady",
+      "sourcesTitle": "Zdroje",
+      "faqTitle": "Časté otázky",
+      "guidesTitle": "Související průvodci",
+      "otherToolsTitle": "Další kalkulačky pro road trip",
+      "openTool": "Otevřít kalkulačku",
+      "ctaEyebrow": "Naplánujte to v KiwiCamping",
+      "ctaTitle": "Najděte zastávky, pak počítejte.",
+      "ctaText": "KiwiCamping pro iPhone se stahuje zdarma. Holiday parky, ubytování a zájezdy (tours) s možností rezervace jsou v aplikaci zdarma. Kempy DOC, chaty, výlevky a průvodce odemyká Pass.",
+      "ctaButton": "Stáhnout aplikaci",
+      "enterValidValues": "Zadejte platné hodnoty",
+      "enterValidAmount": "Zadejte platnou částku"
+    },
+    "index": {
+      "metaTitle": "Kalkulačky pro road trip po NZ: palivo, doba jízdy, cena kempu",
+      "metaDescription": "Bezplatné kalkulačky pro road trip po Novém Zélandu: náklady na palivo, doba jízdy podle typu silnice, cena kempu za osobu nebo za místo, převod NZD a vodní nádrže v campervanu.",
+      "toolsTitle": "Jedna kalkulačka na jednu otázku",
+      "toolsText": "Každá kalkulačka má vlastní stránku se vzorcem, příkladem s novozélandskými čísly, předpoklady, ze kterých vychází, a odpověďmi na časté otázky."
+    },
+    "fuel": {
+      "metaTitle": "Kalkulačka paliva NZ: palivo na road trip s campervanem",
+      "metaDescription": "Spočítejte litry a cenu paliva na road trip po Novém Zélandu podle vzdálenosti, spotřeby v l/100 km a ceny u pumpy. Se vzorcem, příkladem pro 1 000 km a orientační cenou MBIE.",
+      "eyebrow": "Kalkulačka nákladů na palivo",
+      "cardEyebrow": "Kalkulačka paliva",
+      "h1": "Kalkulačka nákladů na palivo pro road trip po Novém Zélandu",
+      "intro": "Zadejte délku trasy, spotřebu naloženého vozidla a cenu za litr. Výchozí cena je celostátní cena benzinu 91 z cenových tabulí podle MBIE (novozélandského ministerstva pro podnikání, inovace a zaměstnanost) za týden končící 26. července 2026.",
+      "cardTitle": "Kolik vás stojí ujeté kilometry.",
+      "cardText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
+      "labelDistance": "Vzdálenost (km)",
+      "labelConsumption": "Spotřeba (l/100 km)",
+      "labelPrice": "Cena paliva (NZD/l)",
+      "formula": [
+        "Litry = vzdálenost (km) × spotřeba (l/100 km) ÷ 100",
+        "Cena = litry × cena za litr (NZD)"
+      ],
+      "formulaNote": "Spotřeba se udává na 100 kilometrů, takže dělení stem z ní udělá litry na kilometr. Výpočet je lineární: dvojnásobná vzdálenost znamená dvojnásobek litrů i ceny.",
+      "example": "Trasa dlouhá {distance} km v campervanu se spotřebou {consumption} l/100 km vyžaduje {litres} l paliva. Při ceně {price} za litr to vyjde na {cost}.",
+      "assumptions": [
+        "Výchozí cena je celostátní orientační hodnota. Odlehlé čerpací stanice, například na West Coast a ve Fiordlandu, často účtují víc, proto tankujte před dlouhými úseky mezi městy.",
+        "Zadejte spotřebu vozidla, kterým skutečně jedete, a to naloženého. Plný campervan v kopcích a proti větru spotřebuje víc, než uvádí prospekt.",
+        "Připočítejte místní ježdění kolem každé zastávky. Cesty do supermarketu, k vyhlídkám a po vedlejších silnicích se na dlouhé trase sčítají.",
+        "Vozidla na naftu platí kromě paliva i poplatek RUC (road user charges, silniční poplatek za ujeté kilometry) za každých 1 000 km. Tato kalkulačka počítá jen palivo."
+      ],
+      "faq": [
+        [
+          "Kolik paliva spotřebuje campervan na Novém Zélandu?",
+          "Záleží na vozidle, nákladu a silnicích. Použijte údaj od půjčovny nebo z dokladů vozidla a počítejte s rezervou na kopce. Výchozích 12 l/100 km je plánovací hodnota pro naložený campervan, ne naměřený průměr."
+        ],
+        [
+          "Zahrnují náklady na palivo poplatek RUC?",
+          "Ne. Vozidla na naftu platí na Novém Zélandu poplatek RUC za každých 1 000 km odděleně od paliva. Zeptejte se půjčovny, jestli je RUC v ceně, a aktuální sazby si ověřte u NZTA."
+        ],
+        [
+          "Odkud pochází výchozí cena paliva?",
+          "Je to celostátní cena benzinu 91 z cenových tabulí podle MBIE za týden končící 26. července 2026. MBIE zveřejňuje ceny paliv každý týden, takže si před cestou ověřte nejnovější údaj."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Kalkulačka doby jízdy NZ: reálné hodiny podle typu silnice",
+      "metaDescription": "Odhadněte, jak dlouho den za volantem na Novém Zélandu skutečně trvá, podle vzdálenosti, typu silnice a zastávek. Se vzorcem, příkladem výpočtu a použitými rychlostmi.",
+      "eyebrow": "Kalkulačka doby jízdy",
+      "cardEyebrow": "Odhad dne za volantem",
+      "h1": "Kalkulačka doby jízdy po novozélandských silnicích",
+      "intro": "Navigace počítá čistý čas jízdy po ideální silnici. Tato kalkulačka vezme vzdálenost, kterou už znáte, průměrnou rychlost pro daný typ silnice a 20 minut na každou zastávku, protože právě kvůli zastávkám se den za volantem na Novém Zélandu obvykle protáhne.",
+      "cardTitle": "Jak dlouho ten den doopravdy trvá.",
+      "cardText": "Navigace počítá čistý čas jízdy po ideální silnici. Tady se přidá charakter silnice a vaše skutečné zastávky, a právě kvůli nim se den obvykle protáhne.",
+      "labelDistance": "Vzdálenost (km)",
+      "labelRoadType": "Typ silnice",
+      "roadMotorway": "Dálnice nebo rovná silnice",
+      "roadHighway": "Hlavní silnice",
+      "roadWinding": "Klikatá nebo pobřežní",
+      "roadNarrow": "Úzká, strmá nebo šotolinová",
+      "labelStops": "Zastávky",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minuty jízdy = vzdálenost (km) ÷ průměrná rychlost (km/h) × 60",
+        "Minuty celkem = minuty jízdy + 20 × počet zastávek"
+      ],
+      "formulaNote": "Průměrná rychlost není rychlostní limit. Počítá se zatáčkami, kopci, jednoproudými mosty, obcemi a pomalejším provozem. Čtyři typy silnic používají 85, 70, 60 a 45 km/h.",
+      "example": "Den s {distance} km po klikatých nebo pobřežních silnicích při {speed} km/h znamená {driving} jízdy. Po přičtení zastávek ({stops} × 20 minut) trvá celý den {total}.",
+      "assumptions": [
+        "Průměrné rychlosti jsou plánovací hodnoty pro osobní auto nebo campervan za dobrých podmínek, ne naměřené průměry pro konkrétní silnici.",
+        "Každá zastávka se počítá jako 20 minut na tankování, jídlo, toaletu nebo vyhlídku. Trajekty, práce na silnici a delší procházky je potřeba přičíst zvlášť.",
+        "Počasí, sesuvy a uzavírky mění trasy. Před odjezdem si ověřte aktuální stav silnic v plánovači cest NZTA."
+      ],
+      "faq": [
+        [
+          "Kolik se dá na Novém Zélandu ujet za den?",
+          "Jedno číslo neexistuje. Klikaté silnice, jednoproudé mosty a zastávky drží průměrnou rychlost hluboko pod limitem mimo obec, takže den, který na mapě vypadá krátce, může zabrat většinu denního světla. Zadejte vzdálenost a typ silnice, uvidíte počet hodin, a plánujte pravidelné přestávky na odpočinek."
+        ],
+        [
+          "Proč to vychází déle než v mapové aplikaci?",
+          "Mapové aplikace odhadují čistý čas jízdy bez zastávek. Tady se počítá s průměrem pro daný typ silnice a s časem na každou zastávku, což mnohem líp odpovídá skutečnému dni na cestě s kempováním."
+        ],
+        [
+          "Funguje to i pro campervan?",
+          "Ano. Pokud řídíte velké vozidlo, táhnete přívěs nebo s jízdou vlevo teprve začínáte, zvolte pomalejší typ silnice."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Kalkulačka ceny kempu NZ: za osobu, nebo za místo?",
+      "metaDescription": "Porovnejte kemp DOC s poplatkem za dospělého a holiday park s cenou za místo pro vaši skupinu a počet nocí. Se vzorcem, příkladem výpočtu a poplatky DOC z dat.",
+      "eyebrow": "Kalkulačka ceny kempu",
+      "cardEyebrow": "Porovnání kempů",
+      "h1": "Kalkulačka ceny kempu: za osobu, nebo za místo",
+      "intro": "Kempy DOC účtují za dospělého a noc, kdežto holiday park obvykle za místo. Která varianta je levnější, se mění s velikostí skupiny, a tato kalkulačka to spočítá pro vaše noci.",
+      "cardTitle": "Za osobu, nebo za místo?",
+      "cardText": "Kemp DOC obvykle účtuje za dospělého, holiday park za místo. Která varianta vyjde levněji, se mění podle počtu lidí, a na tom se nachytá hodně rodin.",
+      "labelAdults": "Dospělí",
+      "labelNights": "Noci",
+      "labelPerAdult": "Za dospělého (NZD)",
+      "labelPerSite": "Za místo (NZD)",
+      "comparison": "{perAdult} vs. {perSite} · {verdict}",
+      "theSame": "vyjde to nastejno",
+      "perAdultCheaper": "levnější je platba za dospělého",
+      "perSiteCheaper": "levnější je platba za místo",
+      "formula": [
+        "Celkem za dospělé = počet dospělých × počet nocí × sazba za dospělého",
+        "Celkem za místo = počet nocí × sazba za místo",
+        "Nižší částka je pro vaši skupinu levnější varianta"
+      ],
+      "formulaNote": "Částka za dospělé roste s každým dalším dospělým, částka za místo ne. Proto vychází jinak pro pár a jinak pro rodinu.",
+      "example": "Dospělí: {adults}, noci: {nights}, sazba {rateAdult} za dospělého, celkem {totalAdult}. Stejný pobyt za {rateSite} za místo stojí {totalSite}, takže {verdict}.",
+      "assumptions": [
+        "Děti nejsou započítané. Mnoho kempů DOC účtuje dětem od 5 do 17 let sníženou sazbu a malé děti neplatí nic; holiday parky mají vlastní dětské sazby.",
+        "Výchozí sazby jsou příklady, ne nabídky. V datech DOC k {docDate} je počet bezplatných kempů DOC {docFree} a nejnižší sazba za dospělého v placených kempech se pohybuje od {docMin} do {docMax} za noc.",
+        "Holiday parky si ceny určují samy a ty se mění podle sezony, elektřiny a velikosti místa. Před rezervací si cenu v daném parku ověřte."
+      ],
+      "faq": [
+        [
+          "Kolik stojí noc v kempu na Novém Zélandu?",
+          "Kempy DOC jsou buď zdarma, nebo účtují za dospělého. V datech DOC k {docDate} se nejnižší sazba za dospělého v placených kempech DOC pohybuje od {docMin} do {docMax} za noc, s mediánem {docMedian}. Holiday parky si ceny míst určují samy, takže porovnávejte celkovou částku za celou skupinu."
+        ],
+        [
+          "Co je pro rodinu levnější, platba za osobu, nebo za místo?",
+          "S rostoucí skupinou obvykle vyhrává platba za místo, protože cena místa zůstává stejná, kdežto poplatky za dospělé se násobí. Zadejte vlastní sazby a uvidíte, kde leží bod zvratu."
+        ],
+        [
+          "Platí děti v kempech DOC?",
+          "V mnoha kempech DOC platí děti od 5 do 17 let sníženou sazbu a malé děti spí zdarma. Poplatek pro každý kemp najdete na jeho stránce DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Převodník NZD: novozélandské ceny v 9 měnách",
+      "metaDescription": "Převádějte ceny v novozélandských dolarech na USD, EUR, GBP, AUD, JPY, CNY, KRW, INR a SGD a zpět podle referenčních kurzů Reserve Bank of New Zealand.",
+      "eyebrow": "Převodník měn",
+      "cardEyebrow": "Převodník měn",
+      "h1": "Převodník NZD pro ceny na cestě po Novém Zélandu",
+      "intro": "Převeďte novozélandskou cenu na svou měnu, nebo svou měnu na novozélandské dolary, podle referenčních kurzů Reserve Bank of New Zealand ze dne {rateDate}.",
+      "cardTitle": "Přepočítejte novozélandskou cenu.",
+      "cardText": "Orientační přepočet pro plánování cesty podle kurzů Reserve Bank of New Zealand ze dne {rateDate}. Vaše banka nebo karta může použít jiný kurz a připočítat poplatky.",
+      "labelAmount": "Částka",
+      "labelFrom": "Z měny",
+      "labelTo": "Na měnu",
+      "formula": [
+        "Částka v NZD = částka ÷ kurz měny, ze které převádíte",
+        "Výsledek = částka v NZD × kurz měny, na kterou převádíte"
+      ],
+      "formulaNote": "Každý kurz udává počet jednotek dané měny za 1 novozélandský dolar, takže každý převod jde přes NZD.",
+      "example": "{amount} při kurzu {rate} amerického dolaru za novozélandský dolar je {converted}.",
+      "assumptions": [
+        "Jde o referenční kurzy ze dne {rateDate}. Směnné kurzy se mění každý den.",
+        "Banky, karty a bankomaty používají vlastní kurzy a mohou připočítat poplatky, takže částka, kterou zaplatíte, se může lišit.",
+        "Japonské jeny a korejské wony se zobrazují bez desetinných míst."
+      ],
+      "faq": [
+        [
+          "Jaká měna se používá na Novém Zélandu?",
+          "Novozélandský dolar (NZD). Ceny v obchodech, kempech a holiday parcích se uvádějí v NZD."
+        ],
+        [
+          "Je to kurz, který mi dá moje banka?",
+          "Nejspíš ne přesně. Kalkulačka používá referenční kurzy ze dne {rateDate}. Vaše banka nebo vydavatel karty uplatní vlastní kurz a poplatky, takže výsledek berte jako plánovací údaj."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Kalkulačka vodních nádrží campervanu: dny čisté a šedé vody",
+      "metaDescription": "Spočítejte, na kolik dní vaší skupině vystačí nádrže na čistou a šedou vodu v campervanu. Se vzorcem, příkladem výpočtu a denními hodnotami, ze kterých vychází.",
+      "eyebrow": "Kalkulačka vodních nádrží",
+      "cardEyebrow": "Plánovač vody a odpadu",
+      "h1": "Kalkulačka vodních nádrží campervanu",
+      "intro": "Objem nádrže v litrech začne dávat smysl, až když ho převedete na dny. Zadejte objem nádrže na čistou a na šedou vodu a počet osob a uvidíte, která nádrž určuje limit.",
+      "cardTitle": "Kolik dní vydržíte bez přípojek.",
+      "cardText": "Objem v litrech začne dávat smysl, až když ho převedete na dny. Čistá a šedá voda se zobrazují zvlášť, protože limit určuje ta nádrž, která přestane stačit dřív.",
+      "labelFresh": "Čistá voda (l)",
+      "labelGrey": "Šedá voda (l)",
+      "labelPeople": "Počet osob",
+      "days": "{fresh} dne čisté vody · {grey} dne šedé vody",
+      "formula": [
+        "Dny čisté vody = nádrž na čistou vodu (l) ÷ (počet osob × 11 l denně)",
+        "Dny šedé vody = nádrž na šedou vodu (l) ÷ (počet osob × 9 l denně)",
+        "Nižší z obou čísel je doba, po kterou můžete zůstat, než bude potřeba doplnit vodu nebo vyprázdnit nádrž"
+      ],
+      "formulaNote": "Šedá voda je odpadní voda z dřezu a sprchy. Je jí méně, než se spotřebuje čisté vody, protože voda na pití a vaření v nádrži celá neskončí.",
+      "example": "Pro {people} osoby s nádrží na čistou vodu o objemu {freshTank} l a nádrží na šedou vodu o objemu {greyTank} l vystačí čistá voda na {freshDays} dne a šedá na {greyDays} dne, takže limit určuje nádrž na čistou vodu.",
+      "assumptions": [
+        "11 litrů čisté a 9 litrů šedé vody na osobu a den jsou plánovací hodnoty pro šetrné používání: pití, vaření, mytí nádobí a rychlé umytí. Sprchování spotřebuje mnohem víc.",
+        "Kazety chemických toalet a černá voda nejsou započítané.",
+        "Šedou vodu vyprazdňujte jen na výlevce (dump station). Nikdy ne na zem ani do dešťové kanalizace."
+      ],
+      "faq": [
+        [
+          "Na jak dlouho vystačí 100 litrů čisté vody v campervanu?",
+          "Pro dva šetrné uživatele s 11 litry na osobu a den zhruba na čtyři a půl dne. Sprchování a praní prádla tu dobu výrazně zkracují."
+        ],
+        [
+          "Kde se dá na Novém Zélandu vyprázdnit šedá voda?",
+          "Na výlevce (dump station). Mnoho holiday parků ji má a obce provozují veřejné výlevky v mnoha městech. Šedou vodu nikdy nevylévejte na zem ani do dešťové kanalizace."
+        ],
+        [
+          "Která nádrž dojde dřív?",
+          "Ta, která je při vašem používání menší. Nádrže na šedou vodu bývají menší než nádrže na čistou vodu, takže kontrolujte obě, ne jen ukazatel čisté vody."
+        ]
       ]
     }
   },
@@ -680,6 +906,102 @@
           "tips": [
             "Pohutukawa kvetou v prosinci",
             "Na podzim dobré počasí i klid"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "arthurs-pass-camping-route": {
+      "title": "Arthur's Pass: trasa s kempováním z Christchurch na West Coast",
+      "description": "Z Christchurch na West Coast přes Arthur's Pass: divočící řeky, horské túry, kde cestou kempovat a co obnáší jízda po silnici přes průsmyk.",
+      "region": "Canterbury a West Coast",
+      "imageAlt": "Silnice přes Arthur's Pass pod horskými štíty",
+      "intro": "State Highway 73 je přejezd přes hory, který si zaslouží dva nebo tři dny. Castle Hill, vesnici Arthur's Pass i sjezd do Otiry stojí za to projet za světla. Sníh, vítr a kea přitom vyžadují víc pozornosti, než by naznačovala samotná vzdálenost.",
+      "sections": [
+        {
+          "heading": "Příjezd z Canterbury",
+          "body": [
+            "Z Christchurch vyjeďte teprve poté, co zkontrolujete předpověď pro průsmyk a stav silnice. Na Castle Hill zastavujte jen na upraveném parkovišti a mezi vápencovými útvary dodržujte pokyny, které se týkají kulturního významu místa a ochrany přírody.",
+            "Lake Pearson a další kempy mají přesná pravidla pro vozidla, ohně a vybavení. Vybraný kemp si před příjezdem ověřte a vezměte si vodu na jednoduché přenocování v horách."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vesnice Arthur's Pass",
+          "body": [
+            "Vesnici využijte jako základnu pro túry a pro aktuální informace o stavu tras zajděte do informačního centra DOC (Department of Conservation, novozélandský úřad pro ochranu přírody). Horské trasy sahají od krátkých procházek údolím až po náročný vysokohorský terén a podle názvu se rozdíl poznat nedá.",
+            "Kea jsou chytří a u věcí bez dozoru dělají velké škody. Nikdy je nekrmte, volné předměty uschovejte a gumové díly i odkryté součásti chraňte tak, abyste ptákům neublížili."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Z Otiry k pobřeží",
+          "body": [
+            "Přes viadukt a prudké klesání sjíždějte opatrně a místo neustálého brzdění řaďte nižší rychlostní stupně. Led, vítr a těžká vozidla dokážou charakter silnice rychle změnit.",
+            "Do Hokitiky nebo Greymouthu dojeďte před setměním, abyste si mohli v klidu všechno srovnat. Pokud se průsmyk uzavře, počkejte nebo zvolte dobře naplánovanou objížďku a nehledejte zkratku po nezpevněné cestě."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nejvyšší ze tří horských přejezdů",
+          "body": [
+            "Arthur's Pass leží ve výšce 920 m a je nejvyšší z hlavních silničních přejezdů přes hory. Počasí ho také ovlivňuje nejvíc. Úsek Otira Gorge na západní straně je strmý a vede přes viadukt. Sníh, led a silný vítr ho v zimě pravidelně uzavírají.",
+            "Před odjezdem zkontrolujte stav silnice u Waka Kotahi (NZTA, novozélandský úřad pro dopravu), v zimě vozte sněhové řetězy a uzavírku berte jako důvod změnit trasu, ne čekat. Objížďka přes Lewis Pass i přes Haast Pass je dlouhá."
+          ],
+          "tips": [
+            "Nejvyšší hlavní horský přejezd, 920 m",
+            "Otira Gorge: strmý úsek s viaduktem",
+            "V zimě vozte sněhové řetězy"
+          ]
+        },
+        {
+          "heading": "Kea vám poškodí vozidlo",
+          "body": [
+            "Kea v okolí Arthur's Pass a Otiry jsou chytří, zvědaví a ničiví. Na zaparkovaném autě strhají gumová těsnění, stěrače, střešní nosiče i všechno měkké. Nejde o malé riziko: když necháte auto na tamních parkovištích bez dozoru, obvykle to tak dopadne.",
+            "Nikdy je nekrmte, protože právě lidské jídlo je přivádí na parkoviště a k silnicím, kde přicházejí o život. Všechno volné uložte a počítejte s tím, že kea otevřou i tašku, kterou jste považovali za dobře zajištěnou."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Túry jsou krátké a strmé",
+          "body": [
+            "K vodopádu Devils Punchbowl Falls a zpět to trvá hodinu, většinou po schodech. Výstup na Avalanche Peak je náročný celodenní horský podnik s opravdu exponovaným terénem a bez možnosti úkrytu. Přestože k němu od vesnice vede značená trasa, za špatného počasí ani bez pořádné výbavy se na něj nevydávejte.",
+            "Castle Hill na východní straně průsmyku nabízí snadnou procházku mezi vápencovými útvary a hodí se jako přestávka v jízdě. Pro Ngāi Tahu je to také významné místo, takže zůstaňte na stezkách a chovejte se tam s patřičným respektem."
+          ],
+          "tips": [
+            "Avalanche Peak je opravdová vysokohorská trasa",
+            "Devils Punchbowl: hodina po schodech",
+            "Castle Hill je snadná zastávka u silnice"
+          ]
+        },
+        {
+          "heading": "Služby ve vesnici jsou minimální",
+          "body": [
+            "Ve vesnici Arthur's Pass je malý obchod, kavárna a omezené možnosti tankování. Na velký nákup zásob se tu spoléhat nedá. Natankujte ve Springfieldu na východní straně nebo v Kumaře na západní a jídlo na přejezd si vezměte s sebou.",
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a> u vesnice jsou jednoduché a leží vysoko, takže v nich umí být velmi chladno i v létě. Vezměte si teplejší spací výbavu, než by se zdálo podle Canterbury Plains."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "TranzAlpine jako alternativa",
+          "body": [
+            "Vlak TranzAlpine jezdí zhruba stejnou trasou mezi Christchurch a Greymouthem a často se uvádí jako jedna z nejlepších železničních cest na světě. Hodí se na jednodenní jízdu tam a zpět z Christchurch bez auta, nebo když chcete průsmyk vidět za počasí, ve kterém by řízení nebylo nic příjemného.",
+            "Pokud jedete autem, vyhlídka Otira Viaduct Lookout a údolí Bealey Valley vám bez dlouhé túry ukážou, jak je průsmyk mohutný. U obou je parkoviště a na obou si kea vaše auto důkladně prohlédnou.",
+            "Od východu jízdu rozdělí zastávky Castle Hill a Cave Stream Scenic Reserve. Cave Stream je opravdový průchod jeskyní: potřebujete baterku a teplé oblečení a musíte hlídat výšku vody. Po dešti se tam nevydávejte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kde přejezd přerušit",
+          "body": [
+            "Vesnice Arthur's Pass se jako zastávka nabízí sama, ale je malá, studená a často plná. Springfield na východní straně a Kumara nebo Hokitika na západní nabízejí víc možností i lepší služby.",
+            "Pokud je průsmyk uzavřený nebo je předpověď špatná, náhradním přejezdem je Lewis Pass severněji, který stojí za projetí i sám o sobě. Cestou jsou termální bazény v Maruia."
+          ],
+          "tips": [
+            "Vesnice je malá a často plná",
+            "Lewis Pass je alternativní přejezd"
           ]
         }
       ],
@@ -1006,6 +1328,116 @@
       "sources": [
         {
           "label": "DOC: domácí zvířata na chráněných územích"
+        }
+      ],
+      "priceTable": null
+    },
+    "kauri-dieback-camping-travel": {
+      "title": "Kauri dieback: čistěte vybavení před kempy a túrami na severu",
+      "description": "Hlína na botách, kolících ke stanu a pneumatikách může přenášet patogen, který kauri zabíjí.",
+      "region": "Lesy v Northlandu a Aucklandu",
+      "imageAlt": "Hygienická stanice u stezky v lese s kauri",
+      "intro": "Kauri dieback se šíří kontaminovanou půdou a nedá se léčit. Kempingové vybavení přichází do styku s půdou na mnoha místech, takže nestačí čistit jen turistické boty.",
+      "sections": [
+        {
+          "heading": "Přijeďte s čistým vybavením",
+          "body": [
+            "Než vstoupíte do oblasti, kde rostou kauri, vydrhněte z obuvi, holí, kolíků ke stanu, podložek, pneumatik kol i nářadí každou viditelnou hrudku hlíny. Čistěte doma nebo na jiném vhodném tvrdém povrchu, odkud se voda z mytí nedostane do lesa.",
+            "Každou hygienickou stanici projděte ve vyznačeném směru, i když vybavení vypadá čistě. Dezinfekce účinkuje jen tehdy, když je hlína předem odstraněná."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Držte se otevřených stezek",
+          "body": [
+            "Dodržujte uzavírky, zábrany i pokyny u dřevěných chodníků. Když obcházíte bláto, rozšiřujete kontaminovanou plochu a můžete hlínu přenést ke kořenům kauri.",
+            "Když je stezka uzavřená, vyberte si jinou túru. Starý průvodce ani trasa uložená v GPS neopravňuje k průchodu ochrannou zónou."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Čistěte mezi regiony",
+          "body": [
+            "Čištění opakujte před odchodem z lesní oblasti i před dalším povodím s kauri. Špinavé vybavení uložte zvlášť, dokud ho nebude možné řádně ošetřit.",
+            "Kontaminovanou půdu mohou přenášet i psi a z dalších ochranářských důvodů pro ně může platit zákaz vstupu. Ověřte si pravidla pro kauri i pro domácí zvířata."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jak se nemoc doopravdy šíří",
+          "body": [
+            "Kauri dieback způsobuje patogen žijící v půdě, který se přenese už v jediném gramu hlíny na botě, kolíku ke stanu, pneumatice kola nebo psích tlapkách. Lék neexistuje a nakažené stromy hynou. Šíří ho téměř výhradně lidé, a právě proto existují hygienické stanice.",
+            "Rozhodující je mechanická část: hlínu musíte nejdřív fyzicky vydrhnout, teprve potom dezinfekce něco udělá. Postřik přes zaschlé bláto nepřinese vůbec nic, a přesto právě tento krok většina návštěvníků vynechává."
+          ],
+          "tips": [
+            "Nejdřív hlínu vydrhněte, pak stříkejte",
+            "Přenést ho může jediný gram hlíny",
+            "Postřik na bláto nic nezmůže"
+          ]
+        },
+        {
+          "heading": "Zůstaňte na chodnících",
+          "body": [
+            "V lese s kauri nejsou dřevěné chodníky a rohože pro pohodlí, ale proto, aby nákazu zadržely. Když sejdete stranou, abyste někoho pustili kolem, vyfotili si něco nebo našli lepší úhel, nanesete si na boty hlínu z kořenové zóny, která sahá daleko za viditelnou korunu stromu.",
+            "Kořeny kauri jsou mělké a rozložité. Ušlapaná půda je poškozuje přímo a k tomu se šíří patogen. Chodníky tu jsou proto, že chůze po zemi poblíž kauri stromu škodí dvakrát."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Některé stezky jsou uzavřené trvale",
+          "body": [
+            "Velké části pohoří Waitākere Ranges a dalších severních lesů jsou uzavřené na základě rāhui a formálních uzavírek a některé se už neotevřou. Staré články na blozích a průvodce, které tyto túry popisují, pořád hojně kolují a už neodpovídají skutečnosti.",
+            "Než naplánujete túru ke konkrétnímu stromu nebo na konkrétní stezku, ověřte si aktuální stav u DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) a u samosprávy Auckland Council. Vstup do uzavřené oblasti je přestupek a zároveň přímé ohrožení porostu, který uzavírka chrání."
+          ],
+          "tips": [
+            "Staré průvodce uvádějí zavřené trasy",
+            "Nejdřív zkontrolujte stav u DOC a samosprávy",
+            "Uzavírky rāhui nejsou dobrovolné"
+          ]
+        },
+        {
+          "heading": "Čistěte vybavení před příjezdem, ne jen mezi stezkami",
+          "body": [
+            "Patogen se mezi lesy šíří právě tak, že lidé přijedou do Northlandu nebo na Coromandel s hlínou z jiného regionu na botách. Obuv, kolíky ke stanu, hole a podložky pod stan očistěte a vysušte už před cestou na sever, ne jen u vstupu na stezku.",
+            "Totéž platí pro auta na nezpevněných lesních cestách a pro psy, kteří mají do většiny oblastí s kauri vstup zakázán zčásti právě z tohoto důvodu. Hlínu berte jako riziko, které musíte zvládnout, ne bláto jako pouhou nepříjemnost."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Proč na tom záleží i mimo samotné stromy",
+          "body": [
+            "Kauri jsou druh, na kterém stojí celý les: závisí na nich celá společenstva rostlin, hub a bezobratlých a některé z nich nežijí nikde jinde. Se ztrátou porostu nemizí jen stromy, ale celý systém, který se kolem nich po staletí utvářel.",
+            "Kauri jsou také taonga: jednotlivé stromy mají jména, vlastní whakapapa a historii. Tane Mahuta a Te Matua Ngahere nejsou turistické atrakce v běžném smyslu a rahui vyhlášená nad zasaženými lesy tomuto postavení odpovídají.",
+            "Hygienická opatření od jednotlivého návštěvníka chtějí velmi málo. Třicet sekund u čisticí stanice a chůze jen po dřevěném chodníku, víc se od vás nežádá. A zatím je to jediné, co šíření zpomaluje."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Co dělat, když najdete nemocný strom",
+          "body": [
+            "Mezi příznaky patří žloutnoucí listí, řídnoucí koruna, odumřelé větve a vytékající pryskyřice u paty kmene. Když je uvidíte, poznamenejte si místo a nahlaste ho, místo abyste se šli podívat zblízka.",
+            "Neodebírejte vzorky, nedotýkejte se vytékající pryskyřice a neodhrnujte půdu od stromu. Nahlášení přes DOC nebo regionální samosprávu (regional council) má opravdu smysl, protože sledování výskytu do velké míry stojí na hlášeních od veřejnosti."
+          ],
+          "tips": [
+            "Znakem je pryskyřice vytékající u paty kmene",
+            "Nahlaste, nezkoumejte",
+            "Půdu u nemocného stromu nikdy nepřemisťujte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co je kauri dieback a proč se týká kempujících?",
+          "Je to půdní choroba, která kauri zabíjí a nedá se léčit. Přenese se i v troše hlíny na botě nebo pneumatice, a proto ji mezi lesy roznášejí hlavně návštěvníci."
+        ],
+        [
+          "Jak čistit vybavení kvůli kauri dieback?",
+          "Z bot, holí, pneumatik a psích tlapek vydrhněte všechnu hlínu před každou návštěvou i po ní a potom použijte dezinfekční stanice u vstupů na stezky. Účinné je právě odstranění hlíny, dezinfekce na zablácené botě nic nezmůže."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: kauri dieback (pokyny)"
         }
       ],
       "priceTable": null
@@ -1995,6 +2427,106 @@
       "sources": [
         {
           "label": "NZTA: rychlostní limity"
+        }
+      ],
+      "priceTable": null
+    },
+    "cook-strait-ferry-campervan-guide": {
+      "title": "Trajekt přes Cookovu úžinu s campervanem: ceny a rezervace 2026",
+      "description": "Interislander nebo Bluebridge s campervanem: jak délka vozidla určuje cenu, kdy rezervovat, odbavení a co udělat před naloděním.",
+      "region": "Wellington a Picton",
+      "imageAlt": "Trajekt přes Cookovu úžinu vplouvá do přístavu v Pictonu",
+      "intro": "Teprve trajekt spojí cesty po obou ostrovech v jednu a v itineráři je to nejméně flexibilní položka. Berte ho jako pevně zarezervovaný den přesunu, ne jako vyhlídkovou zastávku. Nejvíc potíží dělají dvě věci: rozměry vozidla, které jste uvedli, a to, co máte naplánované hned po připlutí.",
+      "sections": [
+        {
+          "heading": "Uveďte přesné rozměry vozidla",
+          "body": [
+            "Cena se řídí celkovou délkou a celková znamená včetně všeho, co je k vozidlu připojené: nosiče kol, tažného zařízení, přečnívající markýzy nebo taženého přívěsu. Když délku podhodnotíte, při odbavení vám cenu doúčtují a na plně obsazené plavbě pro vás občas nezbude místo vůbec.",
+            "Vozidlo změřte, neodhadujte. Pokud si auto teprve vyzvedáváte v půjčovně, zjistěte si od ní rozměry ještě před rezervací trajektu. Rozdíl v ceně mezi osobním autem a campervanem je tak velký, že odhad vás vyjde draho, ať se spletete kterýmkoli směrem."
+          ],
+          "tips": [
+            "Započítejte nosiče, boxy a přívěs",
+            "Rozměry půjčeného vozu zjistěte před rezervací",
+            "Podhodnocená délka vás může připravit o plavbu"
+          ]
+        },
+        {
+          "heading": "Dopravce a plavbu vybírejte s rozmyslem",
+          "body": [
+            "Cookovu úžinu přeplouvá Interislander i Bluebridge. Každý má ve Wellingtonu jiný terminál, trochu jinou dobu plavby a jiné lodě. Ani jeden není lepší ve všem: ověřte si, který terminál vám sedí na trasu a po kterém odjezdu vám na druhé straně ještě zbude rozumná část dne.",
+            "Když započítáte čas na odbavení, samotnou plavbu i jízdu na obou koncích, zabere přeplavba většinu dne. Berte ji jako den přesunu, ne jako něco, co vměstnáte mezi dvě další jízdy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Než ušetříte, přečtěte si podmínky pro změny",
+          "body": [
+            "Nejlevnější tarify bývají nejméně flexibilní a plavby přes Cookovu úžinu se kvůli počasí poměrně pravidelně ruší nebo zpožďují. Ušetřit čtyřicet dolarů se nevyplatí, pokud změna rezervace stojí víc, a to se stává často.",
+            "Pokud jsou termíny aspoň trochu nejisté, zvlášť v zimě nebo když plavbě předchází dlouhá jízda přes hory, zaplaťte flexibilní tarif. Termín, do kdy lze rezervaci změnit, si zapište k zastávce v plánu cesty, místo abyste spoléhali na paměť."
+          ],
+          "tips": [
+            "Plavby se kvůli počasí běžně ruší",
+            "Flexibilní tarif je levná pojistka",
+            "Termín pro změny zapište k zastávce"
+          ]
+        },
+        {
+          "heading": "Všechno vyřiďte ještě před frontou",
+          "body": [
+            "Natankujte, nakupte a vypusťte odpadní nádrže, než se zařadíte do fronty před terminálem. Jakmile stojíte ve frontě, už není cesty zpět, zázemí je omezené a fronta se může pohnout dřív, než čekáte. Když kazetu vyprazdňujete v Pictonu, protože jste to nestihli ve Wellingtonu, přijdete o hodinu prvního rána na Jižním ostrově (South Island).",
+            "Přijeďte v čase pro odbavení, který uvádí dopravce. U vozidel začíná dřív, než si většina lidí myslí. Doklad totožnosti a číslo rezervace mějte připravené, ať je nehledáte až u přepážky."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zabalte si, co potřebujete na samotnou plavbu",
+          "body": [
+            "Za plavby je přístup na palubu s vozidly omezený, takže všechno, co během plavby potřebujete mít u sebe, si musíte vzít nahoru: léky, teplé oblečení, vodu, jídlo, nabitý telefon a zábavu pro děti. Pro zapomenutou bundu se dolů vrátit nedá.",
+            "Pokud někdo z vaší skupiny trpí mořskou nemocí, ať si lék vezme před naloděním, ne až když se loď rozjede. Cookova úžina umí být opravdu rozbouřená a nejhorší bývá za jižního větru."
+          ],
+          "tips": [
+            "Za plavby se na palubu s vozidly nedostanete",
+            "Léky si vezměte před naloděním",
+            "Teplé oblečení, voda a nabíječky s sebou nahoru"
+          ]
+        },
+        {
+          "heading": "Po připlutí si nechte časovou rezervu",
+          "body": [
+            "Nejčastější chybou u trajektu je zarezervovat si něco drahého, co nesmíte zmeškat, hned na dobu po plánovaném připlutí. Když se plavba zpozdí, přijdete o prohlídku s průvodcem nebo o rezervaci, nebo vás čeká dlouhá jízda za tmy. Program hned po připlutí nechte volný.",
+            "Neplánujte hned po vylodění dlouhou jízdu přes hory ani náročnou silnici, zvlášť po večerní plavbě. Queen Charlotte Drive je krásná a pomalá silnice, ale nechcete ji poprvé jet unavení za soumraku."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Přespěte v Pictonu nebo ve Wellingtonu",
+          "body": [
+            "Když loď připluje pozdě, zarezervujte si noc blízko terminálu na straně příjezdu. Krátká jízda do známého kempu je lepší než pokračovat k místu o několik hodin dál a další ráno pak začne normálně, ne hašením problémů.",
+            "Totéž platí před ranní plavbou. Noc poblíž terminálu má větší cenu než o něco lepší místo o hodinu dál, protože kdo zmešká odbavení, zmešká i plavbu."
+          ],
+          "tips": [
+            "Při pozdním připlutí přespěte u terminálu",
+            "Po večerní plavbě nejezděte daleko",
+            "Kdo zmešká odbavení, zmešká plavbu"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Je potřeba rezervovat trajekt přes Cookovu úžinu s campervanem předem?",
+          "Ano, a dřív, než byste čekali. Míst pro vozidla je omezeně, campervany zabírají víc místa s vlastní cenou a letní plavby bývají vyprodané týdny předem."
+        ],
+        [
+          "Jak dlouho trvá přeplavba Cookovou úžinou?",
+          "Zhruba tři a půl hodiny mezi Wellingtonem a Pictonem, k tomu odbavení vozidla hodinu nebo víc předem. Za špatného počasí se plavby ruší tak často, že plánovat ve stejný den návazné spojení na kterékoli straně je špatný nápad."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: plánovač cesty (journey planner)"
+        },
+        {
+          "label": "MetService: námořní předpovědi"
         }
       ],
       "priceTable": null
@@ -3372,6 +3904,100 @@
       ],
       "priceTable": null
     },
+    "responsible-camping-new-zealand": {
+      "title": "Zodpovědné kempování na Novém Zélandu: Leave No Trace a etiketa",
+      "description": "Leave No Trace na Novém Zélandu: odpad z toalet, odpadky, karanténní pravidla, rāhui, zvířata a návyky, které udrží místa pro freedom camping otevřená.",
+      "region": "Nový Zéland",
+      "imageAlt": "Kempující ukládá odpadky v kempu na Novém Zélandu",
+      "intro": "Freedom camping (volné kempování mimo placené kempy, které upravuje zákon Freedom Camping Act) na Novém Zélandu závisí na vůli místních samospráv (council) a správců území. Když je kvůli chování kempujících údržba místa příliš drahá, místo se zavře. Zodpovědné kempování proto není jen ekologický postoj, ale praktický důvod, proč tam bude smět zaparkovat i další cestovatel.",
+      "sections": [
+        {
+          "heading": "Leave No Trace v místních podmínkách",
+          "body": [
+            "Známé zásady platí i tady: plánujte dopředu, kempujte na odolném povrchu, s odpadem zacházejte správně, nechte věci tam, kde jste je našli, omezte dopady ohně, respektujte divoká zvířata a buďte ohleduplní k ostatním. Na Novém Zélandu se ale u každé z nich liší konkrétní podrobnosti.",
+            "Všechno si odvezte s sebou, i zbytky jídla. Mnoho samospráv a míst DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) uplatňuje zásadu „co přivezete, to odvezete“, a to i tam, kde je toaleta. Organický odpad v buši navíc může roznášet semena a škůdce a láká zvířata."
+          ],
+          "tips": [
+            "Odvezte i zbytky jídla",
+            "Kempujte na upravených plochách",
+            "Nepočítejte s koši, dokud je neuvidíte"
+          ]
+        },
+        {
+          "heading": "Odpad a voda",
+          "body": [
+            "Šedá voda a odpad z toalet patří do <a data-guide=\"camping-wastewater-rubbish-new-zealand\">výlevky (dump station, místo pro vylití WC kazety a šedé vody)</a>, ne do křoví, dešťové kanalizace ani řeky. Výlevky jsou zanesené v mapách, bývají zdarma nebo levné a vylití zabere pár minut. Vyprázdnit kazetu kdekoli jinde je to nejškodlivější, co může kempující udělat, a zároveň to nejspíš povede k zavření místa.",
+            "Nemyjte nádobí v řekách ani jezerech. Odpadní vodu odvezte, nebo se od vody vzdalte aspoň na 50 m a biologicky rozložitelné mýdlo používejte střídmě. Biologicky rozložitelné neznamená ve vodě neškodné."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Karanténní pravidla (biosecurity)",
+          "body": [
+            "<a data-guide=\"kauri-dieback-camping-travel\">Kauri dieback</a> se šíří hlínou na obuvi a vybavení. Používejte každou čisticí stanici, kterou míjíte, hlínu pořádně vydrhněte, ne jen opláchněte, a v lese s kauri zůstávejte na dřevěných chodnících. Stejně se šíří i myrtle rust a sladkovodní škůdci jako didymo: na vybavení, které mezi povodími nikdo neočistil.",
+            "Všechno, co bylo ve sladké vodě, zkontrolujte, očistěte a vysušte, než to použijete v jiném vodním toku. Týká se to bot, stanů, rybářského vybavení i paddleboardů, nejen lodí."
+          ],
+          "tips": [
+            "Používejte každou čisticí stanici",
+            "Mezi povodími: zkontrolovat, očistit, vysušit",
+            "U kauri zůstaňte na chodnících"
+          ]
+        },
+        {
+          "heading": "Divoká zvířata a rāhui",
+          "body": [
+            "Nekrmte kea, weka, delfíny ani nic jiného. Lidské jídlo mění chování zvířat a u kea přímo vede k tomu, že ptáci hynou na silnicích a parkovištích. Jídlo a odpadky ukládejte tam, kam se ptáci nedostanou, a počítejte s tím, že kea otevřou všechno, co jste považovali za zajištěné.",
+            "Na mnoha plážích a v rezervacích platí omezení pro psy, zvlášť v době, kdy hnízdí pobřežní ptáci. Rāhui a tradiční uzavírky se vyhlašují z dobrého důvodu, často po úmrtí nebo proto, aby se mohl obnovit nějaký přírodní zdroj. Berte je jako bezvýjimečný zákaz, ne jako doporučení."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zůstaňte na upraveném terénu",
+          "body": [
+            "Parkujte na zpevněných plochách a vyznačených místech. Trsnaté trávy, duny a okraje mokřadů se po jediném vozidle vzpamatovávají roky a právě tyhle škody samosprávy fotí, když navrhují oblast uzavřít.",
+            "Totéž platí pro pěší. Zkracování zatáček na stezkách silně urychluje erozi v horách, kde je vegetační období krátké a půda tenká."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Buďte dobrým sousedem poblíž měst",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> ve městech a na jejich okrajích stojí na neformálních dohodách. Večer buďte potichu, generátor raději nepouštějte, odjíždějte rozumně brzy a využívejte místní služby: palivo, kávu i potraviny kupujte na místě. Když se o místu jedná, zastupitelé slyší právě ekonomický argument.",
+            "Pokud vidíte, že někdo místo zneužívá, nahlaste to samosprávě nebo DOC, místo abyste to nechali být. Místa se obvykle zavírají proto, že problémy nikdo nenahlásil, dokud náklady na úklid nepřevážily užitek z toho, že místo zůstane otevřené."
+          ],
+          "tips": [
+            "Večer ticho, ráno pryč",
+            "Nakupujte na místě",
+            "Zneužití nahlaste, neignorujte ho"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co znamená zodpovědné kempování na Novém Zélandu?",
+          "Kempovat tam, kde je to dovoleno, odvézt každý kousek odpadu, odpadní vodu a odpad z toalet vylít na místě k tomu určeném, dodržovat pravidla pro oheň a nechat místo tak, jak jste ho našli. Dnešní omezení freedom campingu jsou přímou reakcí na návštěvníky, kteří to nedělali."
+        ],
+        [
+          "Jaká je největší chyba kempujících?",
+          "Lidské výkaly. Vykonávání potřeby poblíž kempu nebo vodního toku zavírá místa zdarma rychleji než cokoli jiného a právě kvůli tomu dnes pravidla pro self-contained (soběstačná) vozidla vyžadují pevně instalované WC."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: zodpovědné kempování"
+        },
+        {
+          "label": "Ochrana kauri"
+        },
+        {
+          "label": "Check, Clean, Dry"
+        },
+        {
+          "label": "Tiaki Promise"
+        }
+      ],
+      "priceTable": null
+    },
     "freedom-camping-rules-new-zealand": {
       "title": "Pravidla freedom campingu na Novém Zélandu podle regionů",
       "description": "Zákon Freedom Camping Act, obecní vyhlášky, certifikace self-contained a jak vypadá vymáhání v terénu.",
@@ -4257,6 +4883,112 @@
       ],
       "priceTable": null
     },
+    "new-zealand-camping-packing-list": {
+      "title": "Co sbalit na kempování na Novém Zélandu: seznam podle regionů",
+      "description": "Seznam věcí na kempování na Novém Zélandu: vítr, déšť, sandflies, studené noci a odlehlé silnice, plus úpravy pro West Coast, Otago, sever a výpravy do hor.",
+      "region": "Nový Zéland",
+      "imageAlt": "Kempingové vybavení sbalené u campervanu na Novém Zélandu",
+      "intro": "Na Novém Zélandu se nevyplácí balit podle seznamu pro jedno podnebí. Čtyři roční období v jednom dni tu umějí předvést opravdu přesvědčivě a rozdíl mezi pohodlnou a mizernou cestou obvykle dělají tři nebo čtyři konkrétní věci, ne větší hromada vybavení.",
+      "sections": [
+        {
+          "heading": "Spaní a přístřeší",
+          "body": [
+            "Vezměte si spací výbavu dimenzovanou na teplotu nižší, než má nejchladnější noc, kterou čekáte, a přidejte rezervu: ve vnitrozemí a na horských místech klesá teplota k bodu mrazu i dlouho mimo zimu, a to i po teplém dni. Izolační podložka je stejně důležitá jako spacák, protože většina tepla uniká dolů do země.",
+            "Celou sestavu vyzkoušejte doma před odjezdem: postavte stan, nafoukněte podložku, zkontrolujte pumpu a ventily. Jednu kompletní suchou vrstvu na spaní mějte zabalenou v nepromokavém vaku a přes den ji nikdy nenoste. Deštivé odpoledne na West Coast nesmí promáčet jediné teplé oblečení, které máte."
+          ],
+          "tips": [
+            "Spacák dimenzovaný pod čekané minimum",
+            "Izolační podložka, nejen spacák",
+            "Jednu suchou vrstvu na spaní zabalte zvlášť"
+          ]
+        },
+        {
+          "heading": "Vítr a déšť, nejen zima",
+          "body": [
+            "Nejvíc návštěvníci podceňují vítr. Vezměte si opravdu větruodolnou bundu, ne lehkou pláštěnku, a dost pevných kolíků a kotvicích lanek, aby stan udržely i na exponovaném místě u pobřeží: kolíky, které se dodávají k většině stanů, tu nestačí. Plachta pod stan a náhradní plachta se vám vyplatí znovu a znovu.",
+            "Berte rychleschnoucí vrstvy a na nic, na co se spoléháte, nepoužívejte bavlnu. Merino se osvědčuje ze stejného důvodu, proč ho tu nosí všichni: hřeje, i když je vlhké, a ani za dva týdny nezačne zapáchat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sandflies a slunce",
+          "body": [
+            "<a data-guide=\"sandflies-new-zealand-camping\">Sandflies</a> (drobné kousavé mušky, muchničky) nejsou na West Coast, ve Fiordlandu ani v Catlins drobná nepříjemnost. Vezměte silný repelent, za soumraku zakrývejte kotníky i zápěstí a doma před odjezdem zkontrolujte, jestli nemá hmyzí síťka ve stanu díry. Krém s antihistaminikem se vyplatí mít u sebe, protože štípance lidem nedají spát ještě dny poté.",
+            "UV záření je tu velmi silné a slunce pálí rychleji, než většina návštěvníků čeká, i když je zataženo, a ve výšce. Opalovací krém s vysokým faktorem, klobouk se širokou krempou a sluneční brýle patří do batohu na den, ne do kufru auta."
+          ],
+          "tips": [
+            "Repelent na West Coast a do Fiordlandu",
+            "Před odjezdem zkontrolujte síťku stanu",
+            "UV záření je silnější, než se zdá"
+          ]
+        },
+        {
+          "heading": "Kuchyně a voda",
+          "body": [
+            "Vezměte si stabilní plynový vařič určený pro venkovní použití, spolehlivý zapalovač plus záložní, jednoduché nádobí skládané do sebe a dost jídla, abyste přečkali i den zpoždění. Vařte venku nebo v dobře větraném prostoru, nikdy uvnitř zavřeného stanu ani auta.",
+            "Na pitnou a odpadní vodu používejte oddělené, jasně označené nádoby a mějte rezervu pitné vody, na kterou při běžném provozu v kempu nesáhnete. Voda na místech DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) často není upravená, takže mějte filtr nebo možnost vodu převařit. Nepočítejte s tím, že voda z kohoutku je pitná jen proto, že tam kohoutek je."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vybavení do vozidla a pro nouzi",
+          "body": [
+            "Zjistěte si, kde má vozidlo body pro zvedák, a před odjezdem z půjčovny ověřte, že rezerva, zvedák a klíč na kola ve voze opravdu jsou: u půjčených aut to často chybí. Mějte u sebe baterku nebo čelovku, powerbanku, základní lékárničku a papírovou mapu. Trasu na každý den a kemp si uložte dřív, než ztratíte signál.",
+            "Na horských trasách mohou být v zimě potřeba sněhové řetězy a některé půjčovní smlouvy nařizují vozit je s sebou bez ohledu na podmínky. Na odlehlé túry a silnice v divočině si můžete levně půjčit osobní nouzový maják (PLB). Je to jediná věc, která opravdu může rozhodnout o tom, jak to dopadne."
+          ],
+          "tips": [
+            "Při převzetí zkontrolujte rezervu a zvedák",
+            "Trasu uložte, než zmizí signál",
+            "Na odlehlé úseky si půjčte PLB"
+          ]
+        },
+        {
+          "heading": "Před odletem: očistěte a nahlaste vybavení",
+          "body": [
+            "Použité stany, turistické boty, kempingové vybavení a všechno, co bylo v hlíně nebo ve sladké vodě, musíte při příletu na Nový Zéland nahlásit. Před balením z nich očistěte hlínu, semena a zbytky rostlin a na příletové kartě přesto zaškrtněte „ano“, pokud se vás otázka týká: pokutu dostanete za nenahlášení, ne za čistý stan.",
+            "Nahlásit se musí i jídlo, takže turistickou směs dojezte v letadle, nebo ji nahlaste. Vybavení, které budete muset ukázat, mějte nahoře v zavazadle, aby kontrola trvala pár minut a nemuseli jste vybalovat všechno."
+          ],
+          "tips": [
+            "Nahlaste použité stany a boty",
+            "Před odletem očistěte hlínu",
+            "Nahlaste i jídlo"
+          ]
+        },
+        {
+          "heading": "Upravte podle cíle cesty",
+          "body": [
+            "Na West Coast a do Fiordlandu zaměřte balení na déšť, <a data-guide=\"sandflies-new-zealand-camping\">sandflies</a> a sušení: víc repelentu, víc nepromokavých vaků, víc náhradních ponožek. Pro Central Otago a Mackenzie ho zaměřte na studené noci a slunce: teplejší spacák a lepší ochrana očí, než potřebujete na pobřeží.",
+            "V Northlandu a na severu Severního ostrova (North Island) se důraz přesouvá na horko, vlhkost a stín. Na cokoli v horách nebo na zimu kdekoli na jihu přidejte řetězy, další izolaci a počítejte s opravdu kratším <a data-guide=\"new-zealand-driving-day-planner\">dnem za volantem</a>. Seznam se s každým regionem ani tak neprodlužuje, jako spíš mění důraz na jednotlivé položky."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Co si opravdu potřebujete sbalit na kempování na Novém Zélandu?",
+          "Vrstvy na čtyři roční období v jednom dni, pořádné oblečení do deště, repelent, čelovku a víc teplého oblečení, než naznačuje průměrná předpověď. Pak výbavu upravte podle regionu: na West Coast potřebujete vybavení na déšť a proti sandflies, v Central Otago počítejte se studenějšími nocemi a silnějším sluncem."
+        ],
+        [
+          "Co návštěvníci nejčastěji zapomínají?",
+          "Repelent, teplou vrstvu na letní večery a možnost nabíjet věci mimo elektrickou síť. A pak papírovou mapu, protože signál mizí přesně tam, kde začíná zajímavá jízda."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MPI: příjezd na Nový Zéland"
+        },
+        {
+          "label": "DOC: co vědět před cestou"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "NZTA: stav silnic"
+        }
+      ],
+      "priceTable": null
+    },
     "best-time-camping-new-zealand": {
       "title": "Sandflies na Novém Zélandu: kdy nejvíc koušou a kdy kempovat",
       "description": "Kdy a kde sandflies na Novém Zélandu kousají, nejvíc na West Coast a ve Fiordlandu, a jak se které roční období hodí ke kempování v jednotlivých regionech.",
@@ -4641,232 +5373,6 @@
           }
         ]
       }
-    }
-  },
-  "tools": {
-    "shared": {
-      "breadcrumbHome": "Úvod",
-      "breadcrumbTools": "Nástroje",
-      "howTitle": "Jak se to počítá",
-      "exampleTitle": "Příklad výpočtu",
-      "assumptionsTitle": "Předpoklady",
-      "sourcesTitle": "Zdroje",
-      "faqTitle": "Časté otázky",
-      "guidesTitle": "Související průvodci",
-      "otherToolsTitle": "Další kalkulačky pro road trip",
-      "openTool": "Otevřít kalkulačku",
-      "ctaEyebrow": "Naplánujte to v KiwiCamping",
-      "ctaTitle": "Najděte zastávky, pak počítejte.",
-      "ctaText": "KiwiCamping pro iPhone se stahuje zdarma. Holiday parky, ubytování a zájezdy (tours) s možností rezervace jsou v aplikaci zdarma. Kempy DOC, chaty, výlevky a průvodce odemyká Pass.",
-      "ctaButton": "Stáhnout aplikaci",
-      "enterValidValues": "Zadejte platné hodnoty",
-      "enterValidAmount": "Zadejte platnou částku"
-    },
-    "index": {
-      "metaTitle": "Kalkulačky pro road trip po NZ: palivo, doba jízdy, cena kempu",
-      "metaDescription": "Bezplatné kalkulačky pro road trip po Novém Zélandu: náklady na palivo, doba jízdy podle typu silnice, cena kempu za osobu nebo za místo, převod NZD a vodní nádrže v campervanu.",
-      "toolsTitle": "Jedna kalkulačka na jednu otázku",
-      "toolsText": "Každá kalkulačka má vlastní stránku se vzorcem, příkladem s novozélandskými čísly, předpoklady, ze kterých vychází, a odpověďmi na časté otázky."
-    },
-    "fuel": {
-      "metaTitle": "Kalkulačka paliva NZ: palivo na road trip s campervanem",
-      "metaDescription": "Spočítejte litry a cenu paliva na road trip po Novém Zélandu podle vzdálenosti, spotřeby v l/100 km a ceny u pumpy. Se vzorcem, příkladem pro 1 000 km a orientační cenou MBIE.",
-      "eyebrow": "Kalkulačka nákladů na palivo",
-      "cardEyebrow": "Kalkulačka paliva",
-      "h1": "Kalkulačka nákladů na palivo pro road trip po Novém Zélandu",
-      "intro": "Zadejte délku trasy, spotřebu naloženého vozidla a cenu za litr. Výchozí cena je celostátní cena benzinu 91 z cenových tabulí podle MBIE (novozélandského ministerstva pro podnikání, inovace a zaměstnanost) za týden končící 26. července 2026.",
-      "cardTitle": "Kolik vás stojí ujeté kilometry.",
-      "cardText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
-      "labelDistance": "Vzdálenost (km)",
-      "labelConsumption": "Spotřeba (l/100 km)",
-      "labelPrice": "Cena paliva (NZD/l)",
-      "formula": [
-        "Litry = vzdálenost (km) × spotřeba (l/100 km) ÷ 100",
-        "Cena = litry × cena za litr (NZD)"
-      ],
-      "formulaNote": "Spotřeba se udává na 100 kilometrů, takže dělení stem z ní udělá litry na kilometr. Výpočet je lineární: dvojnásobná vzdálenost znamená dvojnásobek litrů i ceny.",
-      "example": "Trasa dlouhá {distance} km v campervanu se spotřebou {consumption} l/100 km vyžaduje {litres} l paliva. Při ceně {price} za litr to vyjde na {cost}.",
-      "assumptions": [
-        "Výchozí cena je celostátní orientační hodnota. Odlehlé čerpací stanice, například na West Coast a ve Fiordlandu, často účtují víc, proto tankujte před dlouhými úseky mezi městy.",
-        "Zadejte spotřebu vozidla, kterým skutečně jedete, a to naloženého. Plný campervan v kopcích a proti větru spotřebuje víc, než uvádí prospekt.",
-        "Připočítejte místní ježdění kolem každé zastávky. Cesty do supermarketu, k vyhlídkám a po vedlejších silnicích se na dlouhé trase sčítají.",
-        "Vozidla na naftu platí kromě paliva i poplatek RUC (road user charges, silniční poplatek za ujeté kilometry) za každých 1 000 km. Tato kalkulačka počítá jen palivo."
-      ],
-      "faq": [
-        [
-          "Kolik paliva spotřebuje campervan na Novém Zélandu?",
-          "Záleží na vozidle, nákladu a silnicích. Použijte údaj od půjčovny nebo z dokladů vozidla a počítejte s rezervou na kopce. Výchozích 12 l/100 km je plánovací hodnota pro naložený campervan, ne naměřený průměr."
-        ],
-        [
-          "Zahrnují náklady na palivo poplatek RUC?",
-          "Ne. Vozidla na naftu platí na Novém Zélandu poplatek RUC za každých 1 000 km odděleně od paliva. Zeptejte se půjčovny, jestli je RUC v ceně, a aktuální sazby si ověřte u NZTA."
-        ],
-        [
-          "Odkud pochází výchozí cena paliva?",
-          "Je to celostátní cena benzinu 91 z cenových tabulí podle MBIE za týden končící 26. července 2026. MBIE zveřejňuje ceny paliv každý týden, takže si před cestou ověřte nejnovější údaj."
-        ]
-      ]
-    },
-    "drive": {
-      "metaTitle": "Kalkulačka doby jízdy NZ: reálné hodiny podle typu silnice",
-      "metaDescription": "Odhadněte, jak dlouho den za volantem na Novém Zélandu skutečně trvá, podle vzdálenosti, typu silnice a zastávek. Se vzorcem, příkladem výpočtu a použitými rychlostmi.",
-      "eyebrow": "Kalkulačka doby jízdy",
-      "cardEyebrow": "Odhad dne za volantem",
-      "h1": "Kalkulačka doby jízdy po novozélandských silnicích",
-      "intro": "Navigace počítá čistý čas jízdy po ideální silnici. Tato kalkulačka vezme vzdálenost, kterou už znáte, průměrnou rychlost pro daný typ silnice a 20 minut na každou zastávku, protože právě kvůli zastávkám se den za volantem na Novém Zélandu obvykle protáhne.",
-      "cardTitle": "Jak dlouho ten den doopravdy trvá.",
-      "cardText": "Navigace počítá čistý čas jízdy po ideální silnici. Tady se přidá charakter silnice a vaše skutečné zastávky, a právě kvůli nim se den obvykle protáhne.",
-      "labelDistance": "Vzdálenost (km)",
-      "labelRoadType": "Typ silnice",
-      "roadMotorway": "Dálnice nebo rovná silnice",
-      "roadHighway": "Hlavní silnice",
-      "roadWinding": "Klikatá nebo pobřežní",
-      "roadNarrow": "Úzká, strmá nebo šotolinová",
-      "labelStops": "Zastávky",
-      "hoursMinutes": "{hours} h {minutes} min",
-      "formula": [
-        "Minuty jízdy = vzdálenost (km) ÷ průměrná rychlost (km/h) × 60",
-        "Minuty celkem = minuty jízdy + 20 × počet zastávek"
-      ],
-      "formulaNote": "Průměrná rychlost není rychlostní limit. Počítá se zatáčkami, kopci, jednoproudými mosty, obcemi a pomalejším provozem. Čtyři typy silnic používají 85, 70, 60 a 45 km/h.",
-      "example": "Den s {distance} km po klikatých nebo pobřežních silnicích při {speed} km/h znamená {driving} jízdy. Po přičtení zastávek ({stops} × 20 minut) trvá celý den {total}.",
-      "assumptions": [
-        "Průměrné rychlosti jsou plánovací hodnoty pro osobní auto nebo campervan za dobrých podmínek, ne naměřené průměry pro konkrétní silnici.",
-        "Každá zastávka se počítá jako 20 minut na tankování, jídlo, toaletu nebo vyhlídku. Trajekty, práce na silnici a delší procházky je potřeba přičíst zvlášť.",
-        "Počasí, sesuvy a uzavírky mění trasy. Před odjezdem si ověřte aktuální stav silnic v plánovači cest NZTA."
-      ],
-      "faq": [
-        [
-          "Kolik se dá na Novém Zélandu ujet za den?",
-          "Jedno číslo neexistuje. Klikaté silnice, jednoproudé mosty a zastávky drží průměrnou rychlost hluboko pod limitem mimo obec, takže den, který na mapě vypadá krátce, může zabrat většinu denního světla. Zadejte vzdálenost a typ silnice, uvidíte počet hodin, a plánujte pravidelné přestávky na odpočinek."
-        ],
-        [
-          "Proč to vychází déle než v mapové aplikaci?",
-          "Mapové aplikace odhadují čistý čas jízdy bez zastávek. Tady se počítá s průměrem pro daný typ silnice a s časem na každou zastávku, což mnohem líp odpovídá skutečnému dni na cestě s kempováním."
-        ],
-        [
-          "Funguje to i pro campervan?",
-          "Ano. Pokud řídíte velké vozidlo, táhnete přívěs nebo s jízdou vlevo teprve začínáte, zvolte pomalejší typ silnice."
-        ]
-      ]
-    },
-    "campsite": {
-      "metaTitle": "Kalkulačka ceny kempu NZ: za osobu, nebo za místo?",
-      "metaDescription": "Porovnejte kemp DOC s poplatkem za dospělého a holiday park s cenou za místo pro vaši skupinu a počet nocí. Se vzorcem, příkladem výpočtu a poplatky DOC z dat.",
-      "eyebrow": "Kalkulačka ceny kempu",
-      "cardEyebrow": "Porovnání kempů",
-      "h1": "Kalkulačka ceny kempu: za osobu, nebo za místo",
-      "intro": "Kempy DOC účtují za dospělého a noc, kdežto holiday park obvykle za místo. Která varianta je levnější, se mění s velikostí skupiny, a tato kalkulačka to spočítá pro vaše noci.",
-      "cardTitle": "Za osobu, nebo za místo?",
-      "cardText": "Kemp DOC obvykle účtuje za dospělého, holiday park za místo. Která varianta vyjde levněji, se mění podle počtu lidí, a na tom se nachytá hodně rodin.",
-      "labelAdults": "Dospělí",
-      "labelNights": "Noci",
-      "labelPerAdult": "Za dospělého (NZD)",
-      "labelPerSite": "Za místo (NZD)",
-      "comparison": "{perAdult} vs. {perSite} · {verdict}",
-      "theSame": "vyjde to nastejno",
-      "perAdultCheaper": "levnější je platba za dospělého",
-      "perSiteCheaper": "levnější je platba za místo",
-      "formula": [
-        "Celkem za dospělé = počet dospělých × počet nocí × sazba za dospělého",
-        "Celkem za místo = počet nocí × sazba za místo",
-        "Nižší částka je pro vaši skupinu levnější varianta"
-      ],
-      "formulaNote": "Částka za dospělé roste s každým dalším dospělým, částka za místo ne. Proto vychází jinak pro pár a jinak pro rodinu.",
-      "example": "Dospělí: {adults}, noci: {nights}, sazba {rateAdult} za dospělého, celkem {totalAdult}. Stejný pobyt za {rateSite} za místo stojí {totalSite}, takže {verdict}.",
-      "assumptions": [
-        "Děti nejsou započítané. Mnoho kempů DOC účtuje dětem od 5 do 17 let sníženou sazbu a malé děti neplatí nic; holiday parky mají vlastní dětské sazby.",
-        "Výchozí sazby jsou příklady, ne nabídky. V datech DOC k {docDate} je počet bezplatných kempů DOC {docFree} a nejnižší sazba za dospělého v placených kempech se pohybuje od {docMin} do {docMax} za noc.",
-        "Holiday parky si ceny určují samy a ty se mění podle sezony, elektřiny a velikosti místa. Před rezervací si cenu v daném parku ověřte."
-      ],
-      "faq": [
-        [
-          "Kolik stojí noc v kempu na Novém Zélandu?",
-          "Kempy DOC jsou buď zdarma, nebo účtují za dospělého. V datech DOC k {docDate} se nejnižší sazba za dospělého v placených kempech DOC pohybuje od {docMin} do {docMax} za noc, s mediánem {docMedian}. Holiday parky si ceny míst určují samy, takže porovnávejte celkovou částku za celou skupinu."
-        ],
-        [
-          "Co je pro rodinu levnější, platba za osobu, nebo za místo?",
-          "S rostoucí skupinou obvykle vyhrává platba za místo, protože cena místa zůstává stejná, kdežto poplatky za dospělé se násobí. Zadejte vlastní sazby a uvidíte, kde leží bod zvratu."
-        ],
-        [
-          "Platí děti v kempech DOC?",
-          "V mnoha kempech DOC platí děti od 5 do 17 let sníženou sazbu a malé děti spí zdarma. Poplatek pro každý kemp najdete na jeho stránce DOC."
-        ]
-      ]
-    },
-    "currency": {
-      "metaTitle": "Převodník NZD: novozélandské ceny v 9 měnách",
-      "metaDescription": "Převádějte ceny v novozélandských dolarech na USD, EUR, GBP, AUD, JPY, CNY, KRW, INR a SGD a zpět podle referenčních kurzů Reserve Bank of New Zealand.",
-      "eyebrow": "Převodník měn",
-      "cardEyebrow": "Převodník měn",
-      "h1": "Převodník NZD pro ceny na cestě po Novém Zélandu",
-      "intro": "Převeďte novozélandskou cenu na svou měnu, nebo svou měnu na novozélandské dolary, podle referenčních kurzů Reserve Bank of New Zealand ze dne {rateDate}.",
-      "cardTitle": "Přepočítejte novozélandskou cenu.",
-      "cardText": "Orientační přepočet pro plánování cesty podle kurzů Reserve Bank of New Zealand ze dne {rateDate}. Vaše banka nebo karta může použít jiný kurz a připočítat poplatky.",
-      "labelAmount": "Částka",
-      "labelFrom": "Z měny",
-      "labelTo": "Na měnu",
-      "formula": [
-        "Částka v NZD = částka ÷ kurz měny, ze které převádíte",
-        "Výsledek = částka v NZD × kurz měny, na kterou převádíte"
-      ],
-      "formulaNote": "Každý kurz udává počet jednotek dané měny za 1 novozélandský dolar, takže každý převod jde přes NZD.",
-      "example": "{amount} při kurzu {rate} amerického dolaru za novozélandský dolar je {converted}.",
-      "assumptions": [
-        "Jde o referenční kurzy ze dne {rateDate}. Směnné kurzy se mění každý den.",
-        "Banky, karty a bankomaty používají vlastní kurzy a mohou připočítat poplatky, takže částka, kterou zaplatíte, se může lišit.",
-        "Japonské jeny a korejské wony se zobrazují bez desetinných míst."
-      ],
-      "faq": [
-        [
-          "Jaká měna se používá na Novém Zélandu?",
-          "Novozélandský dolar (NZD). Ceny v obchodech, kempech a holiday parcích se uvádějí v NZD."
-        ],
-        [
-          "Je to kurz, který mi dá moje banka?",
-          "Nejspíš ne přesně. Kalkulačka používá referenční kurzy ze dne {rateDate}. Vaše banka nebo vydavatel karty uplatní vlastní kurz a poplatky, takže výsledek berte jako plánovací údaj."
-        ]
-      ]
-    },
-    "water": {
-      "metaTitle": "Kalkulačka vodních nádrží campervanu: dny čisté a šedé vody",
-      "metaDescription": "Spočítejte, na kolik dní vaší skupině vystačí nádrže na čistou a šedou vodu v campervanu. Se vzorcem, příkladem výpočtu a denními hodnotami, ze kterých vychází.",
-      "eyebrow": "Kalkulačka vodních nádrží",
-      "cardEyebrow": "Plánovač vody a odpadu",
-      "h1": "Kalkulačka vodních nádrží campervanu",
-      "intro": "Objem nádrže v litrech začne dávat smysl, až když ho převedete na dny. Zadejte objem nádrže na čistou a na šedou vodu a počet osob a uvidíte, která nádrž určuje limit.",
-      "cardTitle": "Kolik dní vydržíte bez přípojek.",
-      "cardText": "Objem v litrech začne dávat smysl, až když ho převedete na dny. Čistá a šedá voda se zobrazují zvlášť, protože limit určuje ta nádrž, která přestane stačit dřív.",
-      "labelFresh": "Čistá voda (l)",
-      "labelGrey": "Šedá voda (l)",
-      "labelPeople": "Počet osob",
-      "days": "{fresh} dne čisté vody · {grey} dne šedé vody",
-      "formula": [
-        "Dny čisté vody = nádrž na čistou vodu (l) ÷ (počet osob × 11 l denně)",
-        "Dny šedé vody = nádrž na šedou vodu (l) ÷ (počet osob × 9 l denně)",
-        "Nižší z obou čísel je doba, po kterou můžete zůstat, než bude potřeba doplnit vodu nebo vyprázdnit nádrž"
-      ],
-      "formulaNote": "Šedá voda je odpadní voda z dřezu a sprchy. Je jí méně, než se spotřebuje čisté vody, protože voda na pití a vaření v nádrži celá neskončí.",
-      "example": "Pro {people} osoby s nádrží na čistou vodu o objemu {freshTank} l a nádrží na šedou vodu o objemu {greyTank} l vystačí čistá voda na {freshDays} dne a šedá na {greyDays} dne, takže limit určuje nádrž na čistou vodu.",
-      "assumptions": [
-        "11 litrů čisté a 9 litrů šedé vody na osobu a den jsou plánovací hodnoty pro šetrné používání: pití, vaření, mytí nádobí a rychlé umytí. Sprchování spotřebuje mnohem víc.",
-        "Kazety chemických toalet a černá voda nejsou započítané.",
-        "Šedou vodu vyprazdňujte jen na výlevce (dump station). Nikdy ne na zem ani do dešťové kanalizace."
-      ],
-      "faq": [
-        [
-          "Na jak dlouho vystačí 100 litrů čisté vody v campervanu?",
-          "Pro dva šetrné uživatele s 11 litry na osobu a den zhruba na čtyři a půl dne. Sprchování a praní prádla tu dobu výrazně zkracují."
-        ],
-        [
-          "Kde se dá na Novém Zélandu vyprázdnit šedá voda?",
-          "Na výlevce (dump station). Mnoho holiday parků ji má a obce provozují veřejné výlevky v mnoha městech. Šedou vodu nikdy nevylévejte na zem ani do dešťové kanalizace."
-        ],
-        [
-          "Která nádrž dojde dřív?",
-          "Ta, která je při vašem používání menší. Nádrže na šedou vodu bývají menší než nádrže na čistou vodu, takže kontrolujte obě, ne jen ukazatel čisté vody."
-        ]
-      ]
     }
   }
 }
