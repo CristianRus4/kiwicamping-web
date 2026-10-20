@@ -70,7 +70,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What actually works against sandflies?", "Covered skin and a repellent containing DEET or picaridin, reapplied. They cannot fly well in wind or in an enclosed tent, so choosing an exposed site and keeping the mesh shut does more than any spray."],
   ],
   "new-zealand-severe-weather-camping": [
-    ["How much warning do New Zealand storms give?", "Often less than a day. Weather here can turn from settled to severe in hours, particularly on the West Coast and in the exhausted alpine passes, so a forecast checked yesterday is not a plan."],
+    ["How much warning do New Zealand storms give?", "Often less than a day. Weather here can turn from settled to severe in hours, particularly on the West Coast and in the exposed alpine passes, so a forecast checked yesterday is not a plan."],
     ["What should you do if a severe weather warning is issued while camping?", "Move off riverbanks, beaches and under trees, and get to a town or a sheltered formal campground rather than sitting it out. Road closures follow storms quickly, so leaving early is usually the only option you get."],
   ],
   "earthquake-tsunami-camping-new-zealand": [
