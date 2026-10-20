@@ -17,9 +17,10 @@ best-travel-apps-new-zealand) into de, nl, da, nb, sv, one language at a time, a
 - nl: all 5 pages (513 units), same pipeline, applied, stamped (new `lib/translations/meta/nl.json`). `content:check` passes, nl guides 43 -> 48 of 83.
 - da: all 5 pages (513 units), same pipeline, applied, stamped. `content:check` passes, da guides 17 -> 22 of 83.
 - nb: all 5 pages (513 units), same pipeline, applied, stamped. `content:check` passes, nb guides 16 -> 21 of 83.
+- sv: all 5 pages (513 units), same pipeline (review removed an added allemansratten sentence), applied, stamped. `content:check` passes, sv guides 16 -> 21 of 83.
 
 ## Next
-- sv (review in progress).
+- All five languages done. Only the final `npm run check` result and hand-off remain.
 
 ## Blockers
 - None.

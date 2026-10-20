@@ -9,10 +9,10 @@ Research fact sheets (dated, sourced): `/Users/cristian/Developer/Webs/.growth-l
 |---|---|---|---|
 | 1 | wikicamps-alternatives | 2026-10-23 | committed |
 | 2 | best-campervan-apps-new-zealand | 2026-10-25 | committed |
-| 3 | best-weather-apps-new-zealand | 2026-10-27 | research |
-| 4 | fuel-price-apps-new-zealand | 2026-10-29 | research |
-| 5 | working-holiday-apps-new-zealand | 2026-10-31 | research |
-| 6 | money-saving-travel-apps-new-zealand | 2026-11-01 | research |
+| 3 | best-weather-apps-new-zealand | 2026-10-27 | committed |
+| 4 | fuel-price-apps-new-zealand | 2026-10-29 | committed |
+| 5 | working-holiday-apps-new-zealand | 2026-10-31 | committed |
+| 6 | money-saving-travel-apps-new-zealand | 2026-11-01 | committed |
 
 Each page: article in `lib/content/listicles.ts`, FAQ in `lib/content/faqs.ts`, keyword-map row, schedule row,
 Wikimedia Commons hero (1600x900 + 800) credited in `docs/IMAGE-SOURCES.md`, screen figure in `lib/screen-figures.ts`.
@@ -31,10 +31,14 @@ Wikimedia Commons hero (1600x900 + 800) credited in `docs/IMAGE-SOURCES.md`, scr
 - `npm run check` passed: content, build, export (946 pages), SEO (504 indexable, unchanged), 42/42 tests, similarity, assets.
 - Local skeleton checker (not committed, excluded via .git/info/exclude): `npx tsx .skelcheck.mts <slug>...` mirrors the similarity audit without a build.
 
+## Owner rule from 2026-10-21 (pages 3+)
+- Do not explain free vs Pass for KiwiCamping. Say what it has and does; table price line "Free to download, with in-app purchases". Never call Pass-only data free. Overnight: no subagents, one page per batch, commit, hand off.
+
 ## Next
-- Page 3 weather: draft in `.growth-lanes/research/k-listicles2-work/p3.py` (run `python3 -I p3.py <worktree>`); figure = Inbox kiwicamping_place-detail_jollie-hut_middle.png.
-- Page 4 fuel: draft in `p4.py`; KiwiCamping deliberately not ranked (no fuel prices); figure = Inbox kiwicamping_collections_picton-christchurch-kaikoura_top.png ("Furthest distance between places 277 km").
-- Pages 5-6: research in `k-listicles2-whv-money.md`; not drafted.
+- Page 3 weather: committed 2026-10-21.
+- Page 4 fuel: committed 2026-10-21 (KiwiCamping not ranked; 'Where KiwiCamping fits' section holds the figure).
+- Page 5 working holiday: committed 2026-10-21 (figure: Inbox kiwicamping_map_new-zealand_clusters.png).
+- Page 6 money-saving: committed 2026-10-21 (figure: Inbox kiwicamping_place-detail_kumutoto-bay-campsite_fees-facilities.png). All six pages done.
 - Held hero/screen images for pages 3-6: `.growth-lanes/research/k-listicles2-work/hold/` (move into public/images/articles with each page).
 - Research notes: Apple review RSS returned nothing for MetService/Gaspy/Z, so pages 3-4 report no review counts. Visitor licence duration (12 vs 18 months) unconfirmed: not stated on any page.
 
