@@ -9,7 +9,7 @@ export const appArticles: Article[] = [
     description: "Order stops, see route distance and keep dates, notes and to-dos beside the itinerary.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Trip planner", "Route distance", "Trip notes", "To-do list", "Calendar sync"],
-    imageAlt: "KiwiCamping trip planner on an iPhone",
+    imageAlt: "Road leading towards Aoraki / Mount Cook under a blue sky",
     intro: "A useful trip is more than a line between saved pins. The planner keeps the route, distance, dates, notes and small jobs in one place, so the plan survives the moment it has to change, which on a New Zealand road trip is usually somewhere around day three.",
     sections: [
       s("Build the skeleton from fixed nights", [
@@ -49,7 +49,7 @@ export const appArticles: Article[] = [
     description: "Keep confirmed stays, strong alternatives and future ideas separate without losing them on the map.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Saved places", "Custom lists", "Smart collections", "Trip options", "iCloud sync"],
-    imageAlt: "Saved place lists in KiwiCamping",
+    imageAlt: "Golden sand and turquoise water at Torrent Bay in Abel Tasman National Park",
     intro: "Saving every interesting pin into one pile just moves the search problem somewhere else. A small amount of structure, decided early, keeps thousands of campsites, huts and holiday parks usable across several trips instead of becoming a list you stop opening.",
     sections: [
       s("Separate saved places by intent", [
@@ -89,7 +89,7 @@ export const appArticles: Article[] = [
     description: "Narrow by place type, facilities, price and access without hiding every workable alternative.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Campsites", "Huts", "Freedom camping", "Holiday parks", "Dump stations"],
-    imageAlt: "KiwiCamping place filters on an iPhone",
+    imageAlt: "Caravans parked at the Lake Clearwater campsite below snowy peaks in Canterbury",
     intro: "Filters are most useful when each one represents a genuine deal-breaker rather than a preference. Over-filtering is the common mistake: it produces three results, hides the sensible alternative twenty minutes away, and gives a false impression that an area has nothing in it.",
     sections: [
       s("Start with place type and area", [
@@ -129,7 +129,7 @@ export const appArticles: Article[] = [
     description: "Place details, saved lists and guides work without reception; map tiles, weather, routing and Look Around need signal. Plan remote legs around that.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Offline places", "Place details", "Saved lists", "Trip plans", "West Coast", "Fiordland"],
-    imageAlt: "KiwiCamping place details available without signal",
+    imageAlt: "State Highway 94 winding through a remote valley in Fiordland National Park",
     intro: "KiwiCamping is not an offline map app. The place data stays useful outside coverage, but map tiles, weather, routing and photos need a network, and knowing exactly which half is which is the difference between a well-prepared remote leg and finding out at the wrong moment.",
     sections: [
       s("What stays available without reception", [
@@ -169,7 +169,7 @@ export const appArticles: Article[] = [
     description: "Compare the forecast and road environment with the actual campsite decision.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Weather at the stay", "Apple Look Around", "Access road", "Nearby services", "MetService"],
-    imageAlt: "Weather and place preview in KiwiCamping",
+    imageAlt: "Dramatic northwest clouds over the turquoise water of Lake Pukaki",
     intro: "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Apple Look Around fill in the parts that decide whether a night is comfortable.",
     sections: [
       s("Check the forecast for the site, not the region", [
@@ -209,7 +209,7 @@ export const appArticles: Article[] = [
     description: "Use consistent conversions to compare stays, then confirm the amount charged by the provider.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["New Zealand dollars", "Selected currency", "Reported fees", "Provider prices", "DOC fees"],
-    imageAlt: "KiwiCamping price shown in a selected currency",
+    imageAlt: "Campervans and caravans parked on the grass at Reefton Motor Camp",
     intro: "Travellers budget in the currency they think in, while every New Zealand campground charges New Zealand dollars. Showing reported costs in a familiar currency removes the mental arithmetic from every comparison, as long as nobody mistakes a conversion for a quote.",
     sections: [
       s("Pick the currency your budget is in", [
