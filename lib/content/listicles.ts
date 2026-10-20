@@ -554,4 +554,84 @@ export const listicleArticles: Article[] = [
       { label: "Spaceships: road user charges", url: "https://faq.spaceshipsrentals.co.nz/content/what-are-road-user-charges-ruc-which-vehicle-s-does-it-apply-to" },
     ],
   }),
+
+  a({
+    slug: "best-weather-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-10-27",
+    title: "Best Weather Apps for Camping and Tramping in New Zealand 2026",
+    description: "MetService, Windy, Yr, Plan My Walk, Apple Weather and KiwiCamping compared for New Zealand camping and tramping, plus the mountain forecasts that live on websites. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Mountain forecasts", "Severe weather warnings", "Tramping tracks", "DOC huts", "Lake Pukaki"],
+    imageAlt: "Lenticular clouds over Lake Pukaki with Aoraki Mount Cook on the horizon",
+    related: ["new-zealand-severe-weather-camping", "kiwicamping-weather-look-around", "river-crossing-safety-new-zealand"],
+    intro:
+      "New Zealand weather turns quickly, and the right app depends on the question: whether a severe warning covers tonight's campsite, how strong the wind will be on a ridge tomorrow, or which hut on the route will be wet. No single app answers all three. These are the weather apps we would use for camping and tramping in 2026, with ratings and prices from the New Zealand App Store checked on 20 October 2026, and the official websites that still beat every app for mountain forecasts. KiwiCamping is ours, so it is listed first; it is the right pick for one job only, and the others are better for the rest.",
+    sections: [
+      s("The best weather apps at a glance", [
+        "Use MetService for the official warnings, Windy or Yr for a second forecast and for wind, and Plan My Walk on tramping days. KiwiCamping puts a forecast on each campsite and hut in your trip, which is useful for choosing between places but is not a warning service. Before going above the bushline, read MetService's mountain forecast and the New Zealand Avalanche Advisory on the web.",
+        "No independent test of weather app accuracy in New Zealand turned up in our research, so treat claims that one app is the most accurate as opinion. What can be checked is the source: MetService is the only authorised provider of severe weather warnings in New Zealand.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "A forecast for each campsite and hut on your trip", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["MetService", "Official warnings and watches", "Free with ads; ad-free NZ$1.99 a month", "2.4 (1,126)"],
+          ["Windy.com", "Wind, gusts and comparing models", "Free; Premium in-app purchase", "4.8 (9,058)"],
+          ["Yr", "A free second forecast", "Free", "3.6 (87)"],
+          ["Plan My Walk", "Tramping days and track alerts", "Free", "4.6 (612)"],
+          ["Apple Weather", "Quick checks, built into the iPhone", "Free", "4.7 (18,741)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for comparing the weather at your next campsites", [
+        "KiwiCamping shows Apple Weather on each place screen: current conditions, wind gusts, how warm it feels and seven days of highs and lows. In a trip, each stop shows the forecast for the day you plan to arrive, so you can see before you drive whether the lakeside campsite or the sheltered one in the bush suits the next two nights.",
+        "That makes it a planning tool, not a safety tool. It does not carry MetService's warnings, and it needs signal to load a forecast. Place details such as facilities and fees stay on the phone when reception drops. It is iPhone only, iOS 26 or later, with 4 New Zealand ratings (3.8).",
+      ], ["Choose it for: weather at each stop on your trip", "iPhone only, iOS 26 or later", "Not a warning service"], undefined, true),
+      s("2. MetService: best for official warnings", [
+        "MetService is New Zealand's national weather service and the only authorised provider of severe weather warnings. Its app shows warnings and watches for your location, rain radar, 48-hour forecast graphs, three-day rain maps and the UV index and fire danger, with notifications for severe weather. It is free with ads, or ad-free for NZ$1.99 a month or NZ$22.99 a year.",
+        "It is also the lowest-rated app here: 2.4 from 1,126 New Zealand ratings, with reviews on its App Store page objecting to ads and the design. Its mountain, marine and rural forecasts are on metservice.com rather than in this app, and its separate Marine and Rural Weather apps were last updated in 2023.",
+      ], ["Choose it for: official warnings and watches", "Ad-free NZ$1.99 a month", "Mountain forecasts are on the website"]),
+      s("3. Windy.com: best for wind and comparing forecasts", [
+        "Windy shows more than 15 weather models side by side, including the European ECMWF model, on animated maps of wind, gusts, rain and cloud. That is useful when forecasts disagree: if the models agree on a southerly change, plan around it; if they do not, keep the plan flexible. It rated 4.8 from 9,058 New Zealand ratings.",
+        "It is free, with a Premium in-app purchase that adds hourly forecasts, a longer outlook and longer radar loops. It does not issue New Zealand warnings, so pair it with MetService.",
+      ], ["Choose it for: wind, gusts and model comparisons", "Free; Premium optional", "No official NZ warnings"]),
+      s("4. Yr: best for a simple free second opinion", [
+        "Yr is the free app of Norway's public weather service, whose forecasts it uses worldwide, including New Zealand place forecasts. Its New Zealand listing shows no in-app purchases. It rated 3.6 from 87 New Zealand ratings.",
+        "Some trampers recommend it on forums, but we found no independent test of how it performs here. Use it as a cross-check against MetService rather than as your only source.",
+      ], ["Choose it for: a free cross-check", "Forecasts from Norway's weather service", "No NZ warnings"]),
+      s("5. Plan My Walk: best for the tramping days", [
+        "Plan My Walk, from the New Zealand Mountain Safety Council, combines weather forecasts and warnings with official track alerts for more than 3,500 tracks, huts and campsites, and sends your trip plan to an emergency contact. The app costs nothing, and 612 New Zealand App Store ratings average 4.6.",
+        "DOC's Land Safety Code asks you to check the forecast, change your plans if needed and leave your intentions with someone, and this app covers both on one screen.",
+      ], ["Choose it for: walks and tramps", "Sends your plan to a contact", "Free"]),
+      s("6. Apple Weather: best for a quick look on an iPhone", [
+        "Apple Weather comes with the iPhone, rated 4.7 from 18,741 New Zealand ratings. Apple lists MetService among its data sources for New Zealand severe weather, but next-hour rain forecasts are not offered here, so the minute-by-minute rain alerts some travellers expect from other countries will not appear.",
+        "It is fine for a glance at the week ahead. For a mountain day or an exposed campsite, look at MetService's own forecast as well.",
+      ], ["Choose it for: a quick daily check", "Built into iPhone", "No next-hour rain for NZ"]),
+      s("The forecasts that are only on websites", [
+        "MetService publishes mountain forecasts for national parks and regions such as Aoraki/Mount Cook, Arthur's Pass, Fiordland, Mount Aspiring, Nelson Lakes and Tongariro, with a New Zealand mountain forecast for areas above 800 metres that includes the freezing level. Its website also carries marine and rural forecasts.",
+        "DOC points trampers to NIWA's park forecasts on weather.niwa.co.nz, now run by Earth Sciences New Zealand, and to the New Zealand Avalanche Advisory before any trip into avalanche terrain. Save these pages before you lose signal; none of them will update once you are out of reception.",
+      ]),
+      s("Warnings, watches and what they ask of you", [
+        "MetService uses three levels. A yellow watch means severe weather is possible but not yet certain: stay alert. An orange warning means take action, and most warnings are orange. A red warning, kept for the most extreme events, means take action immediately.",
+        "For campers, an orange warning for heavy rain or wind is the moment to move away from rivers and exposed ridges and choose a sheltered site. Our guide to severe weather when camping covers what to do at each level.",
+      ]),
+      s("How we chose and checked", [
+        "We compared the weather apps most used by campers and trampers in New Zealand, favouring official sources. Ratings, prices and features come from each app's New Zealand App Store listing on 20 October 2026, and the warning definitions from MetService's own page.",
+        "We describe features as their developers do, so a feature not mentioned is not a claim that an app lacks it. Forecasts are forecasts: on the day, what you see on the hill outranks any app.",
+      ]),
+    ],
+    sources: [
+      { label: "MetService: about severe weather warnings", url: "https://about.metservice.com/about-severe-weather-warnings" },
+      { label: "MetService weather apps", url: "https://about.metservice.com/weather-apps" },
+      { label: "MetService mountains and parks forecasts", url: "https://www.metservice.com/mountains-and-parks/national-parks" },
+      { label: "Windy.com listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=1161387262&country=nz" },
+      { label: "Yr listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=490989206&country=nz" },
+      { label: "Plan My Walk (NZ Mountain Safety Council)", url: "https://www.mountainsafety.org.nz/plan-my-walk" },
+      { label: "Apple Weather data sources", url: "https://support.apple.com/en-nz/105038" },
+      { label: "DOC: weather and the Land Safety Code", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/weather/" },
+      { label: "NIWA Weather (Earth Sciences New Zealand)", url: "https://weather.niwa.co.nz/" },
+      { label: "New Zealand Avalanche Advisory", url: "https://www.avalanche.net.nz/" },
+    ],
+  }),
 ];

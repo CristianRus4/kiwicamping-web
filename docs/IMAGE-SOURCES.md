@@ -89,3 +89,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |
 | `wikicamps-alternatives` | Cameron Flat Campground at dawn.jpg | Karitxa | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Cameron_Flat_Campground_at_dawn.jpg) |
 | `best-campervan-apps-new-zealand` | Fiat Ducato, New Zealand, September 2016.jpg | dorfor | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Fiat_Ducato,_New_Zealand,_September_2016.jpg) |
+| `best-weather-apps-new-zealand` | Clouds over Mt Cook. NZ (8364206704).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Clouds_over_Mt_Cook._NZ_(8364206704).jpg) |
