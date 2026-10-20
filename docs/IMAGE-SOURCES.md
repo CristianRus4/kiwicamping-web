@@ -62,12 +62,12 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `cook-strait-ferry-campervan-guide` | Aratere Interislander Ferry.jpg | Alexander Klink | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Aratere_Interislander_Ferry.jpg) |
 | `new-zealand-driving-day-planner` | Arch Hill Reserve In Auckland City I.jpg | Ingolfson | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Arch_Hill_Reserve_In_Auckland_City_I.jpg) |
 | `food-fuel-resupply-new-zealand-road-trip` | Toko, New Zealand.jpg | Aidan Wojtas | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Toko,_New_Zealand.jpg) |
-| `plan-trip-kiwicamping` | KiwiCamping product screenshot 1 | KiwiCamping | Original product asset | KiwiCamping |
-| `save-places-kiwicamping` | KiwiCamping product screenshot 2 | KiwiCamping | Original product asset | KiwiCamping |
-| `kiwicamping-filters-guide` | KiwiCamping product screenshot 3 | KiwiCamping | Original product asset | KiwiCamping |
-| `kiwicamping-offline-data-guide` | KiwiCamping product screenshot 4 | KiwiCamping | Original product asset | KiwiCamping |
-| `kiwicamping-weather-look-around` | KiwiCamping product screenshot 5 | KiwiCamping | Original product asset | KiwiCamping |
-| `kiwicamping-currency-place-costs` | KiwiCamping product screenshot 6 | KiwiCamping | Original product asset | KiwiCamping |
+| `plan-trip-kiwicamping` | Road to Aoraki - Flickr - jokin.lacalle.jpg | jokin.lacalle | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Road_to_Aoraki_-_Flickr_-_jokin.lacalle.jpg) |
+| `save-places-kiwicamping` | Torrent Bay.jpg | Javier Sánchez Portero | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Torrent_Bay.jpg) |
+| `kiwicamping-filters-guide` | Campsite in Lake Clearwater, Canterbury, New Zealand 12.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Campsite_in_Lake_Clearwater,_Canterbury,_New_Zealand_12.jpg) |
+| `kiwicamping-offline-data-guide` | State Highway 94 in Fiordland National Park.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_94_in_Fiordland_National_Park.jpg) |
+| `kiwicamping-weather-look-around` | Northwest sky over Lake Pukaki.NZ (10324852255).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Northwest_sky_over_Lake_Pukaki.NZ_(10324852255).jpg) |
+| `kiwicamping-currency-place-costs` | Reefton Motor Camp looking east from domain.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_looking_east_from_domain.jpg) |
 | `new-zealand-travel-cost-2026` | Nestor notabilis -Fiordland, New Zealand-8b.jpg | Mark Whatmough | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Nestor_notabilis_-Fiordland,_New_Zealand-8b.jpg) |
 | `new-zealand-grocery-prices-2026` | New Zealand Coromandel.jpg | MSeses | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:New_Zealand_Coromandel.jpg) |
 | `eating-out-new-zealand-prices-2026` | Coffee shop 1 - Wellington, New Zealand.jpg | Daderot | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Coffee_shop_1_-_Wellington,_New_Zealand.jpg) |
@@ -82,3 +82,10 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `where-to-camp-in-new-zealand` | Campsite in Lake Clearwater, Canterbury, New Zealand 13.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Campsite_in_Lake_Clearwater,_Canterbury,_New_Zealand_13.jpg) |
 | `responsible-camping-new-zealand` | Green camping tent near Mueller Hut | Martina James | Unsplash License | [Source](https://unsplash.com/photos/green-camping-tent-near-rock-formations-g7vsFfGsDMc) |
 | `two-week-camper-itinerary-new-zealand` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
+| `rankers-alternatives` | DSCN2150 Medlands Beach Campsite.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:DSCN2150_Medlands_Beach_Campsite.jpg) |
+| `campermate-alternatives` | A green tent with a tramper by Iron Lake, Kahurangi National Park, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:A_green_tent_with_a_tramper_by_Iron_Lake,_Kahurangi_National_Park,_New_Zealand.jpg) |
+| `road-trip-planner-apps-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |
+| `free-camping-apps-new-zealand` | Lake Poaka Campsite, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Poaka_Campsite,_New_Zealand.jpg) |
+| `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |
+| `wikicamps-alternatives` | Cameron Flat Campground at dawn.jpg | Karitxa | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Cameron_Flat_Campground_at_dawn.jpg) |
+| `best-campervan-apps-new-zealand` | Fiat Ducato, New Zealand, September 2016.jpg | dorfor | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Fiat_Ducato,_New_Zealand,_September_2016.jpg) |

@@ -1,7 +1,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { spawnSync } from "node:child_process";
 import { setTimeout as delay } from "node:timers/promises";
-import { articles } from "../lib/site";
+// Scheduled guides need their photograph before they go live.
+import { allArticles as articles } from "../lib/site";
 
 const outputDirectory = new URL("../public/images/articles/", import.meta.url);
 const attributionPath = new URL("../docs/IMAGE-SOURCES.md", import.meta.url);

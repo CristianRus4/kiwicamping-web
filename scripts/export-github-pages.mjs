@@ -15,7 +15,8 @@ import { redirects } from "../lib/redirects.ts";
 assert.notEqual(process.env.LOCALES_PREVIEW, "1", "Unset LOCALES_PREVIEW before exporting: draft locales are never published");
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const output = resolve(root, "pages-dist");
+// PAGES_DIST writes the export elsewhere; tests/publish-schedule.test.mjs exports a second copy with it.
+const output = resolve(root, process.env.PAGES_DIST ?? "pages-dist");
 // campingapp.nz is served from a custom domain, so the site lives at the root. Only override this
 // when deploying to a project-page subpath.
 const defaultLang = englishLocale.htmlLang;

@@ -65,5 +65,7 @@ export const localeRoot = (code: LocaleCode | "en") => (code === "en" ? "" : `/$
 export const intlLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.intl : localeEntry(code).intl);
 export const htmlLang = (code: LocaleCode | "en") => (code === "en" ? englishLocale.htmlLang : localeEntry(code).htmlLang);
 export const localeScript = (code: LocaleCode | "en"): LocaleScript => (code === "en" ? "latin" : localeEntry(code).script);
+/** The full stop after a date that ends a sentence: none in CJK, where the date closes the line as written. */
+export const dateSentenceEnd = (code: LocaleCode | "en") => (localeScript(code) === "cjk" ? "" : ".");
 /** Whether this edition's home page carries the testimonials (English always does). */
 export const hasReviews = (code: LocaleCode | "en") => code === "en" || localeEntry(code).reviews;

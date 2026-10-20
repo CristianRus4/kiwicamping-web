@@ -14,7 +14,7 @@ const rbnz = { label: "Reserve Bank of New Zealand exchange rates", url: "https:
 export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-rules-new-zealand",
-    legacyPath: "/freedom-camping-rules-nz.html",
+    legacyPath: "/freedom-camping-rules-nz.html", hubs: ["freedom-camping"],
     title: "Freedom camping rules in New Zealand, region by region",
     description: "The Freedom Camping Act, council bylaws, self-containment certification and what enforcement actually looks like on the ground.",
     category: "Rules & safety",
@@ -27,27 +27,27 @@ export const migratedArticles: Article[] = [
     sections: [
       s("What freedom camping actually means here", [
         "Freedom camping is staying overnight on public land outside a formal campground, where the Freedom Camping Act 2011, a council bylaw or the landowner permits it. In practice it covers council reserves, designated car parks, lay-bys and some conservation land. It does not cover private farmland, forestry roads or national park huts, and it is a description of the location rather than a promise that the night is free.",
-        "The Act applies to places within 200 metres of a formed road or a vehicle-accessible waterway, and to areas reachable by vehicle. Beyond that you are generally in backcountry camping territory, which follows DOC's rules instead. Either way, the sign at the entrance is the final authority and overrides any app, PDF or map layer, including this page.",
+        "The Act covers camping outside a camping ground within 200 metres of an area accessible by motor vehicle, within 200 metres of the sea or a harbour, or on or within 200 metres of a formed road or a Great Walks track. Beyond that you are generally in backcountry camping territory, which follows DOC's rules instead. Either way, the sign at the entrance is the final authority and overrides any app, PDF or map layer, including this page.",
       ], ["Freedom means location, not price", "Signage overrides every app", "200 m of a formed road is the usual test"]),
       s("Self-containment: the transition is now complete", [
-        "The rules changed in stages. From 7 June 2025, new certifications required a fixed toilet plumbed into the vehicle and issued a green Certified Self-Contained warrant. Older blue warrants, which allowed portable toilets, stay valid until they expire, and no later than 31 December 2027. After that a blue sticker will not demonstrate compliance anywhere, so check the expiry printed on yours rather than assuming it still counts.",
-        "Certification is regulated through the Plumbers, Gasfitters and Drainlayers Board, and each certified vehicle appears on a public register searchable by registration plate. If you are hiring or buying, check the register rather than trusting the sticker on the glass: a warrant can be expired, transferred or simply wrong. Match the certified occupancy to the number of people actually sleeping in the vehicle, because the certification covers a specific capacity.",
-      ], ["Blue warrants lapse by 31 December 2027", "Check the plate on the public register", "Certified occupancy must match your party"]),
+        "The rules changed in stages. The national green warrant system opened on 7 December 2023 and requires a toilet fixed inside the vehicle. Rental vehicles needed green warrants from 7 December 2024, and the transition for privately owned vehicles ended on 6 June 2026. Since 7 June 2026 a blue warrant no longer makes a vehicle self-contained for freedom camping, whatever expiry date it shows, so a van carrying only a blue sticker is treated as uncertified.",
+        "Certification is regulated by the Plumbers, Gasfitters and Drainlayers Board, and key details of every certified vehicle go onto a national register that enforcement officers check on the spot. If you are hiring or buying, use the register's public vehicle search to confirm the certificate is current and matches the plate rather than trusting the card on the glass, and read the card for how many people it covers. On council land, camping with more people than the vehicle is certified for is a separate $400 infringement.",
+      ], ["Blue warrants stopped counting on 7 June 2026", "Look the vehicle up on the national register", "Certified occupancy must match your party"]),
       s("Enforcement and what it costs", [
-        "Most unlawful freedom camping offences carry a $400 infringement fee. Camping in a restricted area without a certified vehicle is the common one. Waste offences, particularly discharging toilet or grey water, sit substantially higher and can be escalated to court, where penalties are larger again. Repeat offenders risk having the vehicle towed.",
-        "Enforcement is real rather than theoretical. Councils in high-demand districts patrol at dusk and again around dawn through summer, and officers check the warrant, the plate and the posted stay limit. The infringement attaches to the vehicle, which means a rental company will pass it to you with an administration fee on top.",
+        "Most freedom camping breaches carry a $400 infringement fee: camping where a bylaw or DOC notice prohibits or restricts it, using an uncertified vehicle where self-containment is required, or carrying more people than the certificate allows. Not displaying a warrant card is $200, refusing to leave when an officer tells you to is $600, and depositing waste or damaging the area is $800. On council and conservation land, officers can also seize and impound a vehicle where that is reasonable and necessary, for example to protect public health or safety, significant wildlife or access, or to stop an ongoing offence; if you are with the vehicle, they must first tell you to stop and warn you it can be taken.",
+        "Enforcement officers check the warrant card, the plate and the posted stay limit. When the vehicle is a rental, the notice usually goes to the company, and under the Freedom Camping Act a hire agreement can make you liable for the fee; if it authorises a card debit, the company must send you the notice within 5 working days before charging the card you left at pick-up, and you can still ask for a court hearing.",
       ]),
       s("Council land versus conservation land", [
         "Council bylaws set stay limits, define self-contained-only zones and prohibit camping outright in many urban areas. They vary enormously: some districts publish a handful of permitted sites, others operate a general permission with named exclusions. Because each bylaw is a local instrument, the only reliable source is the council whose boundary you are inside.",
         "On conservation land, freedom camping is generally allowed except where it is prohibited or restricted, but national parks and many reserves require you to use designated DOC campsites or recognised backcountry areas instead. DOC publishes alerts for closures, and those change faster than third-party data refreshes.",
       ]),
       s("North Island, in outline", [
-        "Northland works on designated zones with stay limits, commonly two nights, and rangers patrol actively over summer. Auckland is heavily restricted: most permitted sites require certification, many carry evening-to-morning time windows, and popular bays and the central waterfront are prohibited entirely. Waikato and Bay of Plenty mix limited council reserves with a strong holiday park network, and Rotorua's lakeside sites are signed tightly.",
-        "Gisborne and Hawke's Bay permit specific beaches, sometimes with an overnight permit that has to be arranged in advance. Through Taranaki, Manawatū-Whanganui and Wellington, coastal parking is frequently certified-vehicles-only with 48-hour maximums, and Wellington City enforces no-camping zones around the central city, so plan for a harbour-side or Hutt Valley alternative rather than improvising near the terminal.",
+        "Northland councils use designated zones with short stay limits, so check the Far North, Whangārei or Kaipara bylaw for the site. Auckland allows certified self-contained vehicles on most council roadsides and car parks for up to two nights, leaving by 9am, but reserves, regional parks and 58 listed areas are prohibited and 20 more are restricted. Waikato and Bay of Plenty mix limited council reserves with a strong holiday park network, and Rotorua's lakeside sites are signed tightly.",
+        "Gisborne and Hawke's Bay permit specific beaches, sometimes with an overnight permit that has to be arranged in advance. Through Taranaki, Manawatū-Whanganui and Wellington, coastal parking is frequently restricted to certified vehicles with short stay limits, and Wellington City enforces no-camping zones around the central city, so plan for a harbour-side or Hutt Valley alternative rather than improvising near the terminal.",
       ], ["Auckland and Wellington CBDs are largely prohibited", "Some east coast sites need a permit in advance", "Two nights is a common maximum"]),
       s("South Island, in outline", [
-        "Tasman and Nelson lean heavily on permit-only zones, and warrants are checked daily around Kaiteriteri and Golden Bay in summer. The Marlborough Sounds are served by DOC campsites rather than open freedom sites, so book ahead, and Kaikōura's council car parks have fixed capacity that fills early. Canterbury restricts Christchurch to a small number of car parks, while the Mackenzie and Waitaki districts are more permissive but firm about certification.",
-        "Otago is strict where demand is highest: Queenstown-Lakes and Central Otago enforce defined zones with early-morning checks, and Dunedin offers coastal reserves with two-night limits that fill before dusk. In Southland and Fiordland, freedom camping near Milford Sound is prohibited and DOC campsites are the answer; Southland District permits particular gravel lay-bys, which are worth identifying before you are tired and looking.",
+        "Tasman's 2025 bylaw limits freedom camping to designated sites for certified self-contained vehicles, and tent freedom camping is not allowed on council land. The Marlborough Sounds are largely served by DOC campsites, so book ahead, and Kaikōura's designated sites fill early in summer. Christchurch allows certified self-contained vehicles outside its listed prohibited and restricted areas and bans freedom camping in the central city, while the Mackenzie and Waitaki districts are more permissive but firm about certification.",
+        "Otago is strict where demand is highest: Queenstown-Lakes and Central Otago enforce defined zones, and Dunedin offers coastal reserves with two-night limits that fill before dusk. In Southland and Fiordland, freedom camping near Milford Sound is prohibited and DOC campsites are the answer; Southland District's bylaw sets out where you can stay, which is worth checking before you are tired and looking.",
       ]),
       s("A workable routine on arrival", [
         "Research narrows the options, but the decision happens at the entrance. Pull in, find the freedom camping board, read the stay limit and the vehicle requirement, and photograph the sign. It takes a minute and it is the evidence that settles any later dispute. If the sign and your app disagree, the sign wins, every time.",
@@ -64,7 +64,7 @@ export const migratedArticles: Article[] = [
 
   a({
     slug: "freedom-camping-new-zealand-guide",
-    legacyPath: "/free-camping-nz-legal.html",
+    legacyPath: "/free-camping-nz-legal.html", hubs: ["freedom-camping"],
     title: "Can you camp for free in New Zealand? Where it is legal and safe",
     description: "Which land types allow a free night, what certification you need, and the etiquette that keeps these places open.",
     category: "Camping guides",
@@ -76,7 +76,7 @@ export const migratedArticles: Article[] = [
       "Yes, free camping is still genuinely possible across Aotearoa, and it is also the part of a trip most likely to earn a $400 infringement. The difference comes down to understanding which kinds of land allow it, whether your vehicle meets the certification standard, and following an etiquette that most travellers never think about until a council closes a site.",
     sections: [
       s("Free and freedom are different words", [
-        "Freedom camping describes where you are, outside a formal campground, not what you pay. Some authorised freedom camping areas cost nothing, others charge a modest fee or require a permit obtained in advance. Conversely, some of the cheapest legal nights in the country are DOC basic campsites, which are formal campgrounds that happen to be free.",
+        "Freedom camping describes where you are, outside a formal campground, not what you pay. Most authorised freedom camping areas cost nothing, and a few require a permit arranged in advance; a site that charges a camping fee is legally a camping ground. Conversely, some of the cheapest legal nights in the country are DOC basic campsites, which are designated DOC campsites that happen to be free.",
         "Getting this distinction right saves money and trouble. Travellers looking only for the word 'free' miss the $0 DOC sites entirely, and travellers assuming every freedom camping area is free occasionally discover a permit requirement after they have settled in.",
       ]),
       s("Where a free night is actually legal", [
@@ -84,13 +84,13 @@ export const migratedArticles: Article[] = [
         "NZTA rest areas exist for driver fatigue rather than as campgrounds; a sleep break is a different thing from setting up camp, and local restrictions may still apply. Private land, a friend's paddock, a farm, a marae, counts as free camping when you have the owner's permission, which should be explicit rather than assumed. Never treat farmland or forestry roads as open by default.",
       ], ["DOC basic sites are often free", "Rest areas are for fatigue breaks", "Private permission must be explicit"]),
       s("The certification requirement", [
-        "Most councils require a certified self-contained vehicle with a fixed toilet for freedom camping in their district. The system is still in transition: older blue warrants remain valid until they expire, and no later than 31 December 2027, after which restricted areas require the green Certified Self-Contained warrant issued under the regulated system.",
-        "Camping without certification is possible, but only in the limited zones that expressly permit it, or in genuine backcountry contexts well away from roads where DOC's rules apply instead. If you are in a car, a tent or an uncertified van, plan around sites that specifically allow your setup rather than hoping a general area will do.",
+        "On most public land the default is that a vehicle used for freedom camping must be certified self-contained, unless the site is designated for vehicles that are not. Only a green warrant counts: the transition ended on 6 June 2026, and since 7 June a blue warrant has not made a vehicle self-contained for freedom camping, whatever expiry date it carries. Certification requires a toilet fixed inside the vehicle, so a car or van conversion with a portable toilet does not qualify.",
+        "Camping without certification is possible: on council land, only at sites a bylaw designates for non-self-contained vehicles; on conservation land, anywhere a DOC notice does not prohibit camping or restrict it to certified vehicles. Campgrounds, holiday parks and most DOC campsites take uncertified vans too. If you are in a car, a tent or an uncertified van, plan around sites that specifically allow your setup rather than hoping a general area will do.",
       ]),
       s("The restrictions you should expect", [
-        "Stay limits of one or two nights are the norm, often with arrival and departure windows, commonly park after early evening, leave by mid-morning. Noise curfews apply at most urban sites. Districts with the heaviest demand, including Queenstown-Lakes, Tauranga and Kaikōura, run both evening and dawn patrols and check certification against the plate.",
-        "Read the specific bylaw wording rather than a summary. Where a listing says permit required, the permit is usually free but has to be arranged ahead of arrival, and turning up without it is still an offence. Where it says no overnight camping, that applies regardless of how quiet or discreet you intend to be.",
-      ], ["Expect 1–2 night limits", "Permits are often free but must be pre-arranged", "Patrols run at dusk and dawn"]),
+        "Stay limits are short, commonly two to four nights, often with arrival and departure windows, commonly park after early evening, leave by mid-morning. Noise curfews apply at most urban sites. Councils in high-demand districts such as Queenstown-Lakes patrol freedom camping sites, and officers can check a vehicle's certification on the national register by its plate.",
+        "Read the specific bylaw wording rather than a summary. Where a listing says permit required, the permit has to be arranged before you arrive, sometimes for a fee, and turning up without it is still an offence. Where it says no overnight camping, that applies regardless of how quiet or discreet you intend to be.",
+      ], ["Expect 1–2 night limits", "Permits must be pre-arranged", "Patrols run at dusk and dawn"]),
       s("Etiquette is what keeps sites open", [
         "Free camping runs on public tolerance, and sites close when that tolerance runs out. Keep the footprint small: park within the marked bay, keep awnings and chairs in unless the signage allows otherwise, arrive without ceremony and leave early. Two vehicles is a sensible maximum at an urban freedom spot, and a convoy of six will end that site for everyone.",
         "Empty tanks at a dump station before you arrive rather than after you leave, because grey water odour is the single most common trigger for a complaint. Rotate destinations instead of settling into one spot for a week. If residents or kaumātua ask you to move on, move on courteously, the conversation that follows a refusal ends up in a council submission.",
@@ -114,89 +114,147 @@ export const migratedArticles: Article[] = [
   a({
     slug: "self-contained-campervan-green-warrant",
     legacyPath: "/self-contained-vehicles-nz.html",
-    title: "Certified self-contained vehicles and the green warrant",
-    description: "What the certification tests, what it does not permit, and how to verify a warrant before you hire or buy.",
+    title: "New Self-Containment Rules NZ 2026: Green Warrant Only",
+    description: "Blue warrants stopped counting on 7 June 2026. What a green warrant needs, the $400 fine, rental vans and where uncertified vans can stay.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 13,
-    places: ["Green warrant", "Vehicle register", "Fixed toilet", "Wastewater tank", "Rental depots"],
+    places: ["Green warrant card", "SCV register", "Certification authorities", "Council freedom camping areas", "DOC conservation land", "Holiday parks"],
     imageAlt: "Green self-contained vehicle warrant on a campervan",
     intro:
-      "Self-containment certification is the single document that decides whether most freedom camping areas in New Zealand are open to you. It is also widely misunderstood: it certifies what the vehicle can do, not where you may go, and the standard it tests against changed recently enough that plenty of vehicles on the road are no longer compliant.",
+      "Since 7 June 2026, only a vehicle with a green warrant counts as self-contained for freedom camping in New Zealand. The blue warrant transition is over: a blue card or sticker no longer qualifies on any public land restricted to self-contained vehicles, whatever expiry date is printed on it. To earn a green warrant, a vehicle needs a toilet permanently fixed inside it, a sink and wastewater tank, fresh water, ventilation and secure rubbish storage for three days. Without one you can still stay at campgrounds, holiday parks, on private land with permission, at council sites set aside for non-self-contained vehicles, and on conservation land that no DOC notice restricts to certified vehicles.",
     sections: [
-      s("Where the rules now stand", [
-        "The regulated system came in under the self-containment legislation and took effect in stages. From 7 June 2025, new certifications required a toilet fixed into the vehicle and issued a green warrant. Blue warrants issued under the older standard, which permitted portable toilets, remain valid until they expire, and no later than 31 December 2027.",
-        "Once that period closes, a blue warrant will no longer establish compliance, and any vehicle relying on self-containment for freedom camping will need a current green Certified Self-Contained warrant. If you own a converted van certified under the old standard with a portable toilet, plan for a fixed toilet and recertification before the deadline rather than after it.",
-      ], ["Blue warrants lapse by 31 December 2027", "A fixed toilet is required for new certification", "Recertification needs an approved authority"]),
-      s("What the certification actually tests", [
-        "The standard checks that the vehicle can support its occupants for three days without external services. That means a toilet fixed in place and usable inside with the bed made up, fresh water capacity, wastewater storage sized to match, a sink, and a sealed rubbish container, all scaled to the number of people the vehicle is certified for.",
-        "The certified occupancy matters and is frequently overlooked. A van certified for two people does not become compliant for four because four can fit on the bed. Enforcement checks the warrant against the people present.",
+      s("Blue warrants ended on 7 June 2026", [
+        "The Self-contained Motor Vehicles Legislation Act 2023 amended the Freedom Camping Act 2011 and moved certification to a national system run by the Plumbers, Gasfitters and Drainlayers Board. The green warrant system opened on 7 December 2023, rental vehicles had to switch by 7 December 2024, and privately owned vehicles had a transition period that ran until 6 June 2026. From 7 June 2026 the Board is explicit: vehicles with the old blue warrant cannot be used for freedom camping.",
+        "That makes the expiry date on a blue card irrelevant. A blue warrant issued in 2023 with years left to run stopped counting on the same day as one that was about to lapse. Many older conversions relied on a portable toilet that could be lifted out, and those never qualified for green certification. If your vehicle still carries only a blue sticker, treat it as not self-contained until a certification authority has inspected it and issued a green card.",
+      ], ["Blue warrants stopped counting on 7 June 2026", "The printed expiry on a blue card no longer matters", "Rental vehicles needed green warrants from 7 December 2024"]),
+      s("What a green warrant requires", [
+        "The Plumbers, Gasfitters, and Drainlayers (Self-Contained Vehicles) Regulations 2023 set eight requirements: a water supply system that keeps water from contamination, a fixed toilet, a wastewater system that holds both grey and black water, a sink that drains to the wastewater tank, a clean way to load water, a way to empty wastewater at a proper outfall, secure rubbish storage and ventilation. Each has to work for at least three days for the maximum number of people the vehicle is certified for.",
+        "The toilet is the part that ruled out most older vans. It must be permanently fixed to the vehicle and usable inside it, so a portable unit stored in a cupboard does not count. Size alone does not decide the outcome: the Board says some smaller vehicles can meet every requirement and others will not, so each vehicle is assessed on its own fittings. A certificate of self-containment lasts for up to four years and expires on the date printed on it, or sooner if the vehicle's self-containment fittings are materially changed or the certificate is revoked.",
+      ], ["Toilet must be fixed and usable inside the vehicle", "Systems must last three days for the certified occupancy", "Certificates run for up to four years"]),
+      s("Rental campervans and the green warrant", [
+        "Rental fleets moved first. During the final stage of the transition the law stopped recognising old-standard certification on vehicles owned by a rental company, so from 7 December 2024 any hired campervan sold as self-contained has needed a green warrant. A hired van without one is legal to drive and to sleep in at a campground, but it is not self-contained and cannot use self-contained-only freedom camping areas.",
+        "Before you drive away, find the green warrant card displayed in the vehicle, check the expiry date covers the whole hire, and confirm how many people the certificate covers. Ask whether the toilet is fixed or portable if the listing is vague. Read the infringement clause in the hire agreement too: under the Freedom Camping Act, a hirer who agrees to it can be made to pay any freedom camping infringement fee, and the company can charge the card on file if the agreement authorises it, after sending you the notice within 5 working days.",
+      ], ["Check the green card, expiry and certified occupancy", "No green card means not self-contained", "Fines can be charged to the hirer's card"]),
+      s("Fines for camping without certification", [
+        "Councils, the Department of Conservation and Land Information New Zealand enforce freedom camping on the land each of them manages. Under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023, freedom camping in a vehicle that is not self-contained where certification is required carries a $400 infringement fee. Breaching a prohibition or restriction in a bylaw or DOC notice is also $400, and on council land so is camping with more people than the vehicle is certified for.",
+        "Failing to display a warrant card is $200. Depositing waste or damaging the area while freedom camping is $800, and refusing to leave when an enforcement officer tells you to is $600. If an offence is prosecuted in court instead, the maximum fine is three times the infringement fee. Since 7 June 2026 a blue card is no defence: it does not make the vehicle self-contained, and it does not count as the warrant card you must display.",
       ]),
-      s("What it does not give you", [
-        "A green warrant is not permission to camp. It does not override a bylaw prohibiting overnight stays, does not create a right to a marked bay, and does not extend a stay limit. Where a council prohibits freedom camping, a certified vehicle is as prohibited as any other.",
-        "It also says nothing about roadworthiness. Warrant of Fitness, registration, gas certification and the rental company's own conditions are separate obligations, and a self-containment certificate does not imply any of them have been met.",
-      ], ["Certification is not permission", "WoF and gas are separate", "Occupancy is part of the certificate"]),
-      s("Verifying a warrant before you commit", [
-        "Every certified vehicle is listed on a public register searchable by registration plate. Check the plate rather than the sticker: warrants expire, vehicles get sold, and a card in the window proves very little on its own. Confirm the expiry date covers your entire trip, not just the pick-up date.",
-        "For a rental, ask the depot to confirm the certification and occupancy in writing before you drive away, and photograph the warrant and the plate together. If a rental turns out to be uncertified mid-trip, the infringements are yours to argue about later.",
-      ]),
-      s("Buying or converting a vehicle", [
-        "If you are buying a conversion, use an approved certification authority for the inspection rather than accepting the seller's assurance. Ask specifically what would need to change to satisfy the current standard, because a van marketed as self-contained may have been certified under rules that no longer apply.",
-        "If you are converting, involve the certifier early. Plumbing routes, tank sizes, toilet mounting and ventilation are much cheaper to get right during the build than to retrofit afterwards, and some alterations can affect gas or electrical compliance at the same time.",
-      ], ["Check the plate on the register", "Confirm expiry covers the whole trip", "Involve a certifier before converting"]),
-      s("Living up to the certificate", [
-        "Certification assumes the systems are actually used. Carry the toilet chemicals, empty tanks at proper dump stations, and keep the rubbish container sealed. A certified vehicle whose occupants use public toilets and tip grey water into a hedge is precisely the behaviour the standard exists to prevent.",
-        "Know your tank capacities in days rather than litres, how long before the fresh water runs out, how long before grey water needs emptying. That converts a specification into a planning tool, which is what makes the difference between a comfortable week and an unplanned detour.",
+      s("Where a non-self-contained van can stay", [
+        "The certification rule applies only to freedom camping on public land. The Board is clear that it does not apply at a campground, a holiday park or on private property where you have the owner's permission. Holiday parks are the most reliable option, with toilets and showers, and many have a dump station. Paid DOC campsites are camping grounds rather than freedom camping, and most take tents and uncertified vans, and a few DOC sites, such as the free Whakaipo campsite near Taupō, are for certified self-contained vehicles only, so check the campsite's DOC page.",
+        "Some councils also designate sites for vehicles that are not self-contained, usually with a toilet nearby, a short stay limit and sometimes a permit or fee. On conservation land, DOC notices prohibit camping at some places and restrict others to certified vehicles, and DOC-administered scenic and recreation reserves need a designated campsite. KiwiCamping shows DOC's conservation-land notices as prohibited, restricted or permitted on the map, but the council bylaw or DOC notice is what decides the night, and not every restricted area is signposted.",
+      ], ["Campgrounds and holiday parks need no certification", "Most DOC campsites take uncertified vans", "Some councils set aside non-self-contained sites"]),
+      s("What the green warrant does not cover", [
+        "A green warrant is not permission to camp. It does not override a bylaw that prohibits overnight stays, does not reserve a bay, and does not extend a stay limit. Where a council or DOC prohibits freedom camping, a certified vehicle is as prohibited as any other.",
+        "It also says nothing about roadworthiness. Warrant of Fitness or Certificate of Fitness, registration, gas certification and the rental company's own conditions are separate obligations. The Board notes that modifications made to fit a fixed toilet or tanks may also need low volume vehicle certification, which is a different process from self-containment.",
+      ], ["Certification is not permission", "WoF, registration and gas are separate", "Structural changes may need LVV certification"]),
+      s("Getting a vehicle certified, and what it costs", [
+        "Only a certification authority appointed by the Plumbers, Gasfitters and Drainlayers Board can issue a green warrant. The register site at certification.nzscv.co.nz lists the authorities operating in each region, and they are the people to ask whether your layout is likely to pass and what needs changing first. The Board expects inspections to be done in person, with remote inspection only in exceptional cases such as a vehicle in a remote area with no nearby authority.",
+        "There are two charges. The certification authority sets its own inspection fee, and every certification also carries a $120 self-containment levy, including GST, which the authority passes to the Board. If you are converting a van, involve a certifier before you build: tank sizes, toilet mounting, sink drainage and ventilation are far cheaper to get right during the build than to retrofit.",
+      ], ["Use a Board-appointed certification authority", "Budget the inspection fee plus the $120 levy", "Talk to a certifier before converting"]),
+      s("Checking a warrant before you buy, hire or camp", [
+        "Key details from every certificate go onto the national self-contained vehicle register, which enforcement officers can check on the spot, and the register has a public vehicle search. Look the vehicle up to confirm the certificate is current and belongs to that plate rather than trusting a card in the window, then read the card or certificate for how many people it covers.",
+        "When buying a used campervan, ask for the certificate itself, check the vehicle details on it match the van in front of you, and price in recertification if the warrant expires soon. A van advertised as self-contained with only a blue sticker has not been self-contained for freedom camping since 7 June 2026, and the asking price should reflect the cost of a fixed toilet and a green inspection.",
       ]),
     ],
     sources: [
-      { label: "Self-contained vehicle register", url: "https://www.nzscv.co.nz/" },
-      { label: "Plumbers, Gasfitters and Drainlayers Board", url: "https://www.pgdb.co.nz/" },
-      { label: "MBIE freedom camping transition", url: "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-projects/freedom-camping" },
+      { label: "Plumbers, Gasfitters and Drainlayers Board: self-contained vehicles for private owners", url: "https://www.pgdb.co.nz/self_contained_vehicles/private_vehicle_owners/" },
+      { label: "Plumbers, Gasfitters and Drainlayers Board: rental vehicle companies", url: "https://www.pgdb.co.nz/self_contained_vehicles/rental_vehicle_companies/" },
+      { label: "Plumbers, Gasfitters and Drainlayers Board media release, 3 June 2026: blue warrants expire", url: "https://www.pgdb.co.nz/media/xwqlsg2u/media-release-on-june-7-deadline.docx" },
+      { label: "Self-contained vehicle register and certification authority search", url: "https://certification.nzscv.co.nz/" },
+      { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Freedom Camping Act 2011: transitional provisions, rental hire agreements and offences", url: "https://www.legislation.govt.nz/act/public/2011/61/en/latest/" },
+      { label: "Regulations extending the self-containment transition to June 2026 (SL 2025/67)", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2025/67/en/latest/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/136/en/latest/" },
+      { label: "Plumbers, Gasfitters, and Drainlayers (Self-Contained Vehicles) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/217/en/latest/" },
+      { label: "Plumbers, Gasfitters, and Drainlayers Act 2006: certificates of self-containment", url: "https://www.legislation.govt.nz/act/public/2006/74/en/latest/" },
     ],
   }),
 
   a({
     slug: "doc-campsites-new-zealand-guide",
-    legacyPath: "/doc-campsites-huts-guide.html",
-    title: "DOC campsites and huts: categories, fees, bookings and etiquette",
-    description: "How the Department of Conservation grades its campsites and huts, what each tier includes, and how the booking system really works.",
+    legacyPath: "/doc-campsites-huts-guide.html", hubs: ["camping","huts"],
+    title: "DOC Hut & Campsite Bookings 2026: How to Book, Fees, Dates",
+    description: "Book DOC huts, campsites and Great Walks at bookings.doc.govt.nz. 2026/27 fees, Hut Pass vs Campsite Pass, first-come huts and what to do when full.",
     category: "Camping guides",
     region: "New Zealand conservation land",
     readTime: 14,
-    places: ["Basic campsites", "Standard campsites", "Serviced campsites", "Great Walk sites", "Backcountry huts"],
+    places: ["bookings.doc.govt.nz", "Great Walk huts", "Serviced huts", "Standard huts", "Serviced campsites", "Standard campsites", "DOC visitor centres"],
     imageAlt: "Tent at a Department of Conservation campsite",
     intro:
-      "DOC runs the largest accommodation network in the country, several hundred campsites and roughly 950 huts, and it is graded in tiers that predict almost everything about the experience. Learning the four campsite categories and the hut ticket system removes most of the uncertainty from planning a trip on conservation land.",
+      "DOC huts, campsites and Great Walks are booked on the Department of Conservation's own booking system at bookings.doc.govt.nz, or through a DOC visitor centre. You need a free account, you pay in full when you book, and the confirmation email is your proof on site. Bookings for the 2026/27 season, covering stays from 1 July 2026 to 30 June 2027, opened in May 2026. Most backcountry huts and many basic campsites cannot be booked at all and run first come, first served. Below: the fees, the two passes, which places need a booking and what to do when the one you want is full.",
+    priceTable: {
+      asOf: "2026-10-19",
+      note: "DOC fees for the 2026/27 season, per person per night unless stated, including GST. Great Walk rates are for each track's peak season, which ends on 30 April and starts on 1 October on most tracks, 23 October on the Tongariro Northern Circuit, 27 October on the Kepler and 1 November on the Milford and Routeburn. Serviced huts are $25 from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February. Child rates (5 to 17) are about half and infants under 5 are free, except on Great Walks, where international children pay from birth on every track but Lake Waikaremoana. The price on the place's own DOC page is the one that applies.",
+      rows: [
+        { label: "Standard campsite, adult", nzdLow: 10, nzdHigh: 20, unit: "per night" },
+        { label: "Serviced campsite, adult, unpowered", nzdLow: 25, unit: "per night" },
+        { label: "Standard hut, adult", nzdLow: 15, unit: "per night" },
+        { label: "Serviced hut, adult", nzdLow: 25, nzdHigh: 34, unit: "per night, by season" },
+        { label: "Great Walk hut, NZ resident adult, peak season", nzdLow: 35, nzdHigh: 106, unit: "per night" },
+        { label: "Great Walk hut, international adult, peak season", nzdLow: 35, nzdHigh: 152, unit: "per night" },
+        { label: "Great Walk campsite, NZ resident adult, summer", nzdLow: 19, nzdHigh: 28, unit: "per night" },
+        { label: "Great Walk campsite, international adult, summer", nzdLow: 19, nzdHigh: 42, unit: "per night" },
+        { label: "Backcountry Hut Pass, adult", nzdLow: 160, unit: "12 months" },
+        { label: "Campsite Pass, adult", nzdLow: 295, unit: "1 year" },
+      ],
+    },
     sections: [
-      s("The four campsite categories", [
-        "Basic campsites are usually free and provide very little: a long-drop toilet, perhaps a water source that is not treated, and vehicle access that may be rough. Standard campsites typically add a reliable water supply and better toilets, and generally charge a modest per-adult fee. Serviced campsites are the top tier, with flush toilets, hot showers, kitchens or cooking shelters, rubbish collection and often powered options.",
-        "Great Walk campsites sit outside this ladder and operate on their own booking system and pricing, tied to the specific track. They are the most likely to sell out and the least forgiving of a vague plan, because the alternative is often many hours' walk away.",
-      ], ["Category predicts facilities and price", "Water may be untreated at any tier", "Great Walk sites book separately"]),
-      s("Fees and how they are charged", [
-        "DOC campsite fees are generally charged per adult per night rather than per site, which inverts the arithmetic most travellers are used to. A group of four at a standard site pays four times the adult rate, so a commercial holiday park charging per site can be cheaper for a family than a DOC site that looks cheaper per head.",
-        "Children are charged at reduced rates or free depending on age and site. Seasonal pricing applies at some high-demand campgrounds, and the individual campsite page always overrides any general category guide.",
+      s("Where and how to book", [
+        "Go to bookings.doc.govt.nz, create an account and log in before you search. Find the hut, campsite or Great Walk, choose dates and party size, add the vehicle registration for a campsite, and pay by Visa or Mastercard. Full payment is taken at the time of booking and every price includes GST. DOC visitor centres can book many of the same places in person or by phone, for a $10 service fee.",
+        "The confirmation email is the booking. Download or print it before you leave reception, along with any pass, because rangers and hut wardens can ask for it and most DOC huts and many campsites have no signal. Bunks in bookable huts are not allocated, so a booking buys a bed rather than a particular one, and campsite bookings without numbered sites let you pick from whatever pitches are free when you arrive.",
+      ], ["Create and test your account before opening day", "Pay in full at booking, Visa or Mastercard", "Save the confirmation for use without signal"]),
+      s("Great Walks 2026/27: when bookings opened and what is left", [
+        "DOC opened 2026/27 Great Walk bookings in a staggered run: Paparoa Track on 12 May, Milford on 13 May, Abel Tasman Coast on 14 May, Routeburn on 15 May, Kepler on 19 May, Heaphy, Whanganui Journey and Lake Waikaremoana on 20 May, and Tongariro Northern Circuit and Rakiura on 21 May, each at 9:30 am. Other huts and lodges opened on 12 May, North Island campsites on 14 May, South Island campsites on 15 May and Tōtaranui on 22 May. The Hump Ridge Track is booked separately through its own trust.",
+        "DOC's figures from the 2025/26 summer suggest the Milford, Abel Tasman and Kepler peak dates are the hardest to find: huts ran at around 95 per cent occupancy on Milford and Abel Tasman and 91 per cent on the Kepler. DOC points walkers with flexible plans towards the Heaphy, Lake Waikaremoana and the Whanganui Journey, which often have space, and says many campsites still had good availability when huts were full. On opening days a virtual queue gives everyone in the lobby at 9:30 am a random place, so arriving early does not help, but anyone logging in after 9:30 joins the back.",
+      ], ["Bookings cover stays from 1 July 2026 to 30 June 2027", "Milford, Abel Tasman and Kepler fill first", "Hump Ridge is booked through its own trust"]),
+      s("Fees by category, and how they are charged", [
+        "DOC charges per person per night, not per site, so four adults at a $15 standard campsite pay $60. Basic campsites and basic huts are free. Standard campsites cost $10 to $20 an adult and serviced campsites $25 unpowered. Standard huts are $15 all year, and serviced huts $25 from May to September but $28 to $34 from October to April, highest on Friday and Saturday nights over December to February. Camping beside a serviced hut costs half the hut fee: $12.50 from May to September and $14 to $17 from October to April. Great Walk prices depend on the track, the season and whether you are a New Zealand resident: between 1 November and 30 April a night in a Milford Track hut is $106 for a resident adult and $152 for an international adult.",
+        "Residency has to be provable. The resident rate applies to New Zealand citizens and people ordinarily resident here, and DOC can ask for a passport, driver licence or similar on the track; a party that cannot show it pays the difference plus $50 a person. Turning up without a valid booking at a bookable place costs more again: DOC's penalty rate is the normal fee plus a full adult fee. Booking a campsite you do not intend to use, or holding a pitch with an empty tent, is charged at two adults.",
+      ], ["Fees are per person, not per site", "Carry proof if you book the resident rate", "Unbooked use attracts DOC's penalty rate"]),
+      s("Hut Pass, Campsite Pass or pay per night", [
+        "The Backcountry Hut Pass costs $160 for an adult for 12 months and covers most serviced and standard huts, plus most campsites outside serviced huts. At $15 a night in a standard hut it pays for itself after 11 nights, or after 5 to 7 serviced-hut nights depending on the season. Some bookable huts accept it, entered when you book, and in non-bookable huts you write your name and pass number in the hut book. Great Walk huts are priced separately, and DOC publishes a list of huts where the pass is not accepted.",
+        "The Campsite Pass costs $295 for an adult for one year and covers most DOC campsites, bookable and not, for up to 7 nights in any 30 days at a single campsite, plus $3 per pass holder per night at a powered site. At bookable campsites you must still book through the system before you arrive, or pay a $10 fee and risk being turned away if the ground is full. Neither pass is a reservation, and neither gives you priority at a first-come hut or campsite, so for a single short trip, paying per night is usually cheaper.",
+      ], ["Hut Pass: about 11 standard-hut nights to break even", "Campsite Pass: still book bookable sites first", "Neither pass holds a bed or a pitch"]),
+      s("Which huts and campsites are first come, first served", [
+        "Most of DOC's network still cannot be booked: DOC says the majority of its roughly 950 huts are non-bookable. In KiwiCamping's DOC data, checked on 24 August 2026, that included 350 basic huts and bivvies and 401 standard huts. Basic huts are free. For a non-bookable standard hut you pay with a Backcountry Hut Ticket or a Hut Pass, and paper tickets go in the honesty box at the hut. Huts stay unlocked as emergency shelter in bad weather, but shelter is not a bunk, so carrying a tent on busy tracks is sensible.",
+        "Two changes land this season. Since 1 October 2026 every DOC serviced hut is on the booking system, and Serviced Hut Tickets are being retired; tickets already bought can be applied to a booking until they expire. From 1 November 2026 Backcountry Hut Tickets for non-bookable huts can be bought on DOC's online booking system, still $15 an adult a night for a standard hut; they are payment, not a booking, and paper tickets stay valid until 1 November 2027. On the campsite side, 110 of the 287 DOC campsites in KiwiCamping are self-registration: mostly basic and backcountry sites, plus some standard ones where you fill in an envelope and pay on arrival.",
+      ], ["Basic huts are free; standard huts take tickets or the pass", "Hut tickets move online from 1 November 2026", "Every serviced hut is bookable since 1 October 2026"]),
+      s("Changing or cancelling a booking", [
+        "Cancel on the day you book or the following day, provided arrival is more than two days away, and DOC charges nothing. From 48 hours after booking to 15 days before arrival the fee is 10 per cent. Inside 14 days it climbs by type: huts 20 per cent, then 30 per cent from three days out; campgrounds 20 then 75 per cent; Great Walks 50 then 75 per cent; lodges, cabins and sole-occupancy huts 100 per cent. Cancelling the day before, on the day or after it forfeits the whole amount, and so does a no-show.",
+        "If you miss the first night of a multi-night booking and do not contact the site office within 24 hours, DOC cancels the rest without a refund. Weather refunds are not automatic. If DOC closes the place or cancels your stay, for example for a storm, flooding or an orange or red MetService warning for the area the day before, email DOC's booking team within 7 days, before changing the booking yourself, for a full refund of the unused nights or, if your stay has not started, a transfer to available dates in the same season. If the weather is merely bad and the place stays open, normal cancellation fees apply, which is why DOC recommends travel insurance.",
       ]),
-      s("Bookings, passes and the difference between them", [
-        "Each campsite page states whether the site is bookable, first-come-first-served, or covered by a Campsite Pass. This is the point people most often get wrong: a Campsite Pass is a payment mechanism, not a reservation. Holding a pass does not guarantee you a place at a site that requires booking, and it does not reserve anything at a first-come site.",
-        "Where booking is required, book for the vehicle type and party size you are actually bringing, and carry the confirmation offline. Reception at the campsite itself is often absent, and a booking you cannot produce is difficult to defend when a warden is allocating a full ground.",
-      ], ["A pass is not a booking", "Carry confirmations offline", "Book the real vehicle and party size"]),
-      s("Huts and the ticket system", [
-        "Huts are graded too, from basic shelters through standard huts with bunks and a water supply to serviced huts with mattresses, heating and sometimes gas. Most operate on hut tickets or a Backcountry Hut Pass, while Great Walk huts and a number of popular alpine huts require advance booking in the season.",
-        "Bunks in non-bookable huts are not reserved, and the convention is that nobody is turned away, a full hut means floor space, not a closed door. Carry a sleeping mat and the ability to camp beside the hut if the weather allows it, particularly on popular tracks in summer.",
-      ]),
-      s("Hut and campsite etiquette", [
-        "The unwritten rules matter more here than at a commercial park. Take boots off inside huts, leave bunks free for people still walking in, keep gear consolidated rather than spread across a bench, and be quiet early, trampers start before dawn. Fill in the hut book, both because it is courteous and because it is what search and rescue reads first.",
-        "Leave the hut better than you found it: sweep, restock kindling where a fire is provided, and carry out everything you carried in, including food scraps. Do not burn rubbish in the hut stove.",
-      ], ["Fill in the hut book", "Nobody is turned away from a hut", "Carry out all rubbish, including scraps"]),
-      s("Matching the site to the trip", [
-        "A basic site is excellent in settled weather with the right equipment, and miserable when everything is already wet. A serviced night solves wet gear, flat batteries, laundry and morale in one stop, and is often worth more than its price after a hard few days on the coast.",
-        "Check the specifics for the exact site before you commit: fire rules, whether dogs are permitted, generator restrictions, maximum stay and seasonal road access. Alpine and back-road access in particular can close without much warning, and the campsite page carries the alerts.",
+      s("When the hut or campsite you want is fully booked", [
+        "Check the same place again on other dates, especially shoulder-season weeks either side of the school holidays, and look at campsites: DOC says many still had good availability when huts were full, although the Milford and Paparoa tracks have none. Swap a booked-out Great Walk for one with more room, or walk a non-bookable hut track nearby. DOC's own advice is to keep checking over the following months, because people cancel and even the Milford Track has cancellations across the year.",
+        "For a vehicle-based night, a holiday park or a self-registration DOC campsite is the realistic fallback. KiwiCamping shows every DOC hut and campsite in its data with its category, fee and whether it takes bookings, alongside holiday parks you can book through BookIt in the app, so you can find the nearest alternative without signal. DOC places in the app need the Pass; BookIt stays are free to browse and book.",
+      ], ["Try shoulder dates and nearby campsites", "Heaphy, Waikaremoana and Whanganui often have space", "Hold a holiday park or first-come site as plan B"]),
+      s("Before you go", [
+        "Read the place's own DOC page as well as the booking: it lists the facilities, whether water is treated, fire and dog rules, road access and current alerts. Track and road closures after storms are common, and the alert on the DOC page outranks anything you booked months ago. Check-out is 10 am, check-in runs from 2 pm to 8.30 pm, and quiet hours are 10 pm to 7 am unless the site sets different ones.",
+        "Pack for the place rather than the booking. A bed in a serviced hut still needs a sleeping bag, food, a stove for most huts and warm layers, and a booked campsite does not include the hut beside it. Take all rubbish out, fill in the hut book, and leave the bunk or pitch ready for the next party.",
       ]),
     ],
     sources: [
-      { label: "DOC campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
-      { label: "DOC huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/" },
+      { label: "DOC online booking system", url: "https://bookings.doc.govt.nz/" },
+      { label: "DOC: booking and paying for a campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/" },
+      { label: "DOC: booking and paying for huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/" },
+      { label: "DOC: hut categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/hut-categories/" },
+      { label: "DOC: accommodation price changes 2026/27", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/doc-accommodation-price-changes--20262027/" },
+      { label: "DOC: Backcountry Hut Tickets", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/backcountry-hut-tickets/" },
+      { label: "DOC: Backcountry Hut Pass", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/backcountry-hut-pass/" },
+      { label: "DOC: huts where the Backcountry Hut Pass is not accepted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/backcountry-hut-pass/backcountry-hut-pass-exclusions/" },
+      { label: "DOC: Campsite Pass", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/campsite-pass/" },
+      { label: "DOC: campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release: 2026/27 booking opening dates", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC media release, 1 October 2026: all serviced huts bookable, hut tickets online", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/more-doc-huts-go-online-as-booking-and-payment-gets-easier/" },
+      { label: "DOC blog: your guide to booking a Great Walk, 2026/27", url: "https://blog.doc.govt.nz/2026/05/10/your-guide-to-booking-a-great-walk/" },
+      { label: "DOC: Milford Track season and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/milford-track/" },
+      { label: "DOC: Routeburn Track season and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/routeburn-track/" },
+      { label: "DOC: Kepler Track season and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/kepler-track/" },
+      { label: "DOC: Tongariro Northern Circuit season and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/things-to-do/tracks/tongariro-northern-circuit/" },
+      { label: "DOC: modify or cancel an online booking", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/modify-or-cancel-your-online-booking/" },
+      { label: "DOC: huts, campsites, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
+      { label: "DOC blog: Great Walks booking myths and tips", url: "https://blog.doc.govt.nz/2025/02/18/great-walks-mythbusting/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
     ],
   }),
@@ -204,27 +262,35 @@ export const migratedArticles: Article[] = [
   a({
     slug: "holiday-parks-new-zealand-guide",
     legacyPath: "/holiday-parks-nz-booking-guide.html",
-    title: "Holiday parks in New Zealand: how to choose and book",
-    description: "Powered sites, cabins, peak-season pricing and after-hours arrival, explained so the booking holds up on the day.",
+    title: "Holiday Parks NZ 2026: Memberships, Costs and How to Book",
+    description: "TOP 10 Club costs $55 for two years and saves 10% a stay. How holiday park rates are built, when to book, late arrival, and the cost against DOC sites.",
     category: "Camping guides",
     region: "New Zealand towns and coast",
     readTime: 13,
-    places: ["Powered sites", "Tent sites", "Cabins", "Communal kitchens", "Dump stations"],
+    places: ["TOP 10 Holiday Parks", "Holiday Parks New Zealand", "Powered sites", "Cabins", "Communal kitchens", "Dump stations"],
     imageAlt: "New Zealand holiday park beside the coast",
     intro:
-      "Holiday parks fill the gap between a basic campsite and a hotel, and they earn their place on a trip at very specific moments: after several wet nights, before an early ferry, or whenever laundry, power and a dependable hot shower matter more than solitude. Booking one well is mostly a matter of comparing the right things.",
+      "A holiday park is a commercial campground with powered and tent sites, hot showers, a shared kitchen, laundry and usually cabins, and it is the night that resets a camping trip: after a wet week, before an early ferry, or whenever power and a dependable shower matter more than solitude. Most charge per site or per person, so the price only means something for your own party. The industry association, Holiday Parks New Zealand, lists 230 member parks, and the biggest chain, TOP 10, sells a $55 two-year club card that takes 10 percent off each stay. Below: how rates work, what a membership is worth, when to book and how to arrive late without trouble.",
     sections: [
       s("Understand how the rate is built", [
-        "Holiday parks price in three different ways and the comparison collapses if you mix them up. Some charge per person, some per site with a stated occupancy, and some quote a base rate with additional guests charged separately. A $45 site for two and a $28-per-person rate are the same price for a couple and very different for a family of five.",
+        "Holiday parks price in three different ways and the comparison collapses if you mix them up. Some charge per person, some per site with a stated occupancy, and some quote a base rate with additional guests charged separately. As an example, a $56 site for two and a $28-per-person rate are the same price for a couple and very different for a family of five.",
         "Then check what is bundled. Power, linen, kitchen equipment, showers, Wi-Fi and booking fees vary between parks, and a cabin quoted without linen is not comparable to one that includes it. Work out the total for your actual party and nights before deciding anything.",
       ], ["Compare per-person against per-site", "Check whether linen is included", "Include booking and card fees"]),
+      s("Holiday park or DOC campsite: cost it for your party", [
+        "DOC charges per person, so the cheaper option depends on who is travelling. At a serviced DOC campsite an adult pays $25 a night unpowered and a child $12.50, so two adults and two children pay $75. At a standard DOC campsite the same family pays $30 to $60, and at a basic site nothing. Hold that against the park's quoted total for the same night, power and party, not against its headline site price.",
+        "For a couple, DOC usually wins on price and a park on facilities. For a family, a park charging per site often closes the gap or beats a serviced DOC ground, and adds laundry, a kitchen, hot showers and somewhere for children to burn off energy. Many trips work best mixing the two: DOC sites for the scenery, a holiday park every few nights for the reset.",
+      ], ["DOC charges per person, parks often per site", "Two adults and two children: $75 at a serviced DOC site", "Mix DOC nights with a park every few nights"]),
+      s("Chains, networks and memberships", [
+        "TOP 10 Holiday Parks is the largest chain. Its club card costs $55 for two years and takes 10 percent off accommodation at TOP 10 parks, capped at $40 a stay, plus 10 percent at more than 130 BIG4 parks across the Tasman, Interislander ferry savings and regional deals. The card pays for itself once your discounts pass $55, which at 10 percent means about $550 of TOP 10 stays over the two years: good value on a long trip, rarely on a weekend.",
+        "Holiday Parks New Zealand is the industry association rather than a chain. It lists 230 member parks, many of them independent, and arranges an Interislander discount for its member parks' guests. Motorhome owners who join the New Zealand Motor Caravan Association get its members-only parks and travel directory instead. Independent parks run their own discounts, so ask at booking rather than assuming a card applies.",
+      ], ["TOP 10 Club: $55 for two years, 10% off up to $40 a stay", "It pays off after about $550 of TOP 10 nights", "Independent parks set their own discounts"]),
       s("Book the vehicle you are actually bringing", [
         "Site dimensions matter more than travellers expect. A long motorhome, a caravan with an awning or a vehicle towing a trailer needs a site that physically fits, and parks allocate by the length you declared. Under-declaring produces an awkward conversation at check-in and sometimes no site at all.",
         "Say whether you need drive-through access, power, and proximity to amenities if anyone in the party has mobility needs. These are easy to arrange in advance and nearly impossible to fix on a full Saturday in January.",
       ]),
       s("Peak season changes the rules", [
-        "Between Christmas and late January, plus Easter and school holidays, popular coastal parks operate on minimum stays, higher rates and non-refundable terms. Some take bookings a year ahead for the best sites. If your route passes through a beach town in that window, book it as early as you book the ferry.",
-        "Local events compress availability just as hard and with less warning, a regional sports tournament or a concert can fill every park in a district. Where dates are uncertain, pay for refundable terms and note the cancellation deadline against the trip stop rather than trusting memory.",
+        "Between Christmas and late January, and over Easter and school holidays, popular coastal parks can set minimum stays, higher rates and stricter cancellation terms, and the best sites go early. If your route passes through a beach town in that window, book it as early as you book the ferry.",
+        "Local events compress availability just as hard and with less warning: a regional sports tournament or a concert can fill every park in a district. Where dates are uncertain, pay for refundable terms and note the cancellation deadline against the trip stop rather than trusting memory.",
       ], ["Book beach towns very early", "Watch for local events", "Note cancellation deadlines"]),
       s("Arriving after hours", [
         "Most parks close reception in the evening, and a long driving day frequently ends after that. Ask for the late-arrival procedure when you book: many leave an envelope with a site number and a gate code, but you need to know that before you are standing at a locked barrier at 10pm with no reception.",
@@ -235,12 +301,19 @@ export const migratedArticles: Article[] = [
         "Learn the layout before connecting anything: never fill drinking water from a tap near the dump point, and ask which taps are potable, because not all of them are. Rinse and stow hoses separately, and wash your hands after handling waste equipment.",
       ], ["Never fill water near the dump point", "Ask which taps are potable", "Keep hoses separate"]),
       s("Shared space, shared rules", [
-        "Quiet hours are enforced, and holiday parks are dense environments where sound carries between sites. Keep site boundaries, supervise children around internal roads and pools, and check the pet policy before arriving with a dog, many parks restrict animals entirely in peak season.",
+        "Quiet hours are enforced, and holiday parks are dense environments where sound carries between sites. Keep site boundaries, supervise children around internal roads and pools, and check the pet policy before arriving with a dog, because many parks restrict animals, especially in peak season.",
         "Secure valuables as you would anywhere with public access. A holiday park is convenient and generally safe, but it remains a busy site with vehicles moving through it all day.",
+      ]),
+      s("Finding and booking parks in KiwiCamping", [
+        "KiwiCamping shows holiday parks and tours from BookIt on the same map as DOC campsites and dump stations. The BookIt places are free in the app: open one to see its facilities and photos, then use Book now to check live availability and price. That makes it quick to find a powered site within an hour of where you are, even when you are choosing on the road.",
+        "DOC campsites, huts, dump stations and DOC's freedom camping notices are part of the Premium pass. Place details are stored on the phone, so you can compare a park against the nearest DOC site without signal, while live availability, maps and booking pages need a connection.",
       ]),
     ],
     sources: [
-      { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "TOP 10 Holiday Parks: club membership and member benefits", url: "https://top10.co.nz/membership/" },
+      { label: "Holiday Parks New Zealand: find a member park", url: "https://holidayparks.co.nz/" },
+      { label: "DOC campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "New Zealand Motor Caravan Association", url: "https://www.nzmca.org.nz/" },
       { label: "NZTA journey planner", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
@@ -248,8 +321,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "camping-wastewater-rubbish-new-zealand",
     legacyPath: "/dump-stations-nz.html",
-    title: "Dump stations, wastewater and rubbish: doing it properly",
-    description: "How to find and use New Zealand dump stations, handle grey and black water, and avoid the fines that come with getting it wrong.",
+    title: "Dump Stations NZ: Locations by Region, Costs and Rules",
+    description: "Where to empty a campervan toilet in NZ: KiwiCamping's 262 dump stations by region, most of them free, how to use one and the $800 fine for dumping waste.",
     category: "Rules & safety",
     region: "New Zealand camps",
     readTime: 12,
@@ -263,15 +336,19 @@ export const migratedArticles: Article[] = [
         "Treat all three as containment problems rather than disposal problems. The question on the road is not where you can get rid of something, but whether you have capacity to hold it until you reach the right facility.",
       ], ["Grey water is not clean water", "Plan capacity, not disposal", "Rubbish usually leaves with you"]),
       s("Finding a dump station", [
-        "Dump stations are widely distributed across New Zealand, at holiday parks, council facilities, some service stations and many i-SITEs, and most are free or charge a small fee. They are mapped, and the sensible habit is to identify the next one on your route before you need it rather than searching when a tank is already full.",
+        "Dump stations are widely distributed across New Zealand, at holiday parks, council facilities, some service stations and town reserves, and most are free or charge a small fee. They are mapped, and the sensible habit is to identify the next one on your route before you need it rather than searching when a tank is already full.",
         "Facilities at holiday parks are often available to non-guests for a small charge, which is worth knowing on a long remote leg. Some are locked overnight, so arriving at 11pm with a full cassette is a planning failure rather than bad luck.",
       ]),
+      s("Dump stations by region", [
+        "KiwiCamping maps 262 public dump stations. By the DOC region of the nearest DOC campsite or hut, Canterbury has 38, Otago 28, Bay of Plenty 23, Northland 19, Auckland 17, Hawke's Bay and Wellington/Kāpiti 15 each, the Central North Island and the West Coast 14 each, Marlborough 11, Nelson/Tasman and Waikato 10 each, the Coromandel 9, Southland and Taranaki 8 each, the East Coast 7, Manawatū/Whanganui 6, and Fiordland and the Wairarapa 5 each.",
+        "Of the 262, the listings show 240 as free, 8 as asking for a donation and 6 as charging a fee, and 8 give no fee. The gaps matter more than the totals: Fiordland, the Wairarapa and the East Coast have few, so empty before you head into them rather than counting on one along the way. In the app, dump stations are part of the Premium pass, with the fee note and location stored on the phone.",
+      ], ["Canterbury and Otago have the most", "Most dump stations are free", "Empty before Fiordland and the East Coast"]),
       s("Using one correctly", [
         "Park so other vehicles can still pass, dump stations are frequently on a single access lane and a badly parked van blocks everyone. Use only the inlet marked for the waste you are emptying, empty black water first, then rinse, then grey water. Rinse without spraying the surrounding ground, and leave the area cleaner than you found it.",
         "Keep the drinking-water hose entirely separate from anything used at the dump point, and never fill fresh water from a tap at the dump station unless it is explicitly marked potable. Wash your hands afterwards, before touching anything in the vehicle.",
       ], ["Black water first, then rinse, then grey", "Keep hoses strictly separate", "Never fill drinking water at the dump point"]),
       s("What not to do, and why it costs", [
-        "Stormwater drains discharge directly to waterways with no treatment, so emptying a tank into one is a discharge to the environment rather than to a sewer. Public toilets are not designed for cassette volumes and block. Emptying into a hedge, a bush or a stream is the offence that draws the largest penalties and the most attention.",
+        "Stormwater drains discharge directly to waterways with no treatment, so emptying a tank into one is a discharge to the environment rather than to a sewer. Public toilets are not designed for cassette volumes and block. Emptying into a hedge, a bush or a stream is the offence that draws the largest penalties and the most attention: depositing waste while freedom camping is an $800 infringement fee.",
         "Use only treatment chemicals compatible with the receiving system. Many rural dump stations feed septic tanks, and harsh formaldehyde-based products damage the biological process that makes them work. Where you are unsure, choose a product marked as septic-safe.",
       ]),
       s("Rubbish and food waste", [
@@ -284,6 +361,7 @@ export const migratedArticles: Article[] = [
       ]),
     ],
     sources: [
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/136/en/latest/" },
       { label: "DOC camping responsibly", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/camping-responsibly/" },
       { label: "MBIE freedom camping guidance", url: "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-projects/freedom-camping" },
     ],
@@ -292,8 +370,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "campfire-rules-new-zealand",
     legacyPath: "/campfire-rules-nz.html",
-    title: "Campfire rules, fire seasons and safe cooking outdoors",
-    description: "How New Zealand's fire season system works, when you need a permit, and how to cook safely when open fires are banned.",
+    title: "NZ Fire Season & Campfire Rules 2026: Check Fire Bans First",
+    description: "Open, restricted or prohibited: how NZ fire seasons work, where to check today's fire ban, when you need a permit and how to cook when fires are banned.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 12,
@@ -336,8 +414,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "new-zealand-camping-packing-list",
     legacyPath: "/camping-packing-list-nz.html",
-    title: "New Zealand camping packing list, with regional variants",
-    description: "What to pack for wind, rain, sandflies, cold nights and remote roads, adjusted for where you are actually going.",
+    title: "NZ Camping Packing List: What to Pack, by Region",
+    description: "A New Zealand camping packing list for wind, rain, sandflies, cold nights and remote roads, then adjusted for the West Coast, Otago, the north and alpine trips.",
     category: "Trip planning",
     region: "New Zealand",
     readTime: 13,
@@ -363,15 +441,20 @@ export const migratedArticles: Article[] = [
         "Use separate, clearly labelled containers for drinking water and waste, and carry a reserve of drinking water that is not touched during ordinary camp use. Water at DOC sites is frequently untreated, so bring a filter or the means to boil, and do not assume a tap is potable because it exists.",
       ]),
       s("Vehicle and emergency kit", [
-        "Know where the jack points are on your vehicle and confirm the spare, jack and wheel brace are actually present before you leave the depot, this is a common gap in rentals. Carry a torch or headlamp, a power bank, a basic first aid kit and a paper map or offline maps for the stretches with no reception.",
+        "Know where the jack points are on your vehicle and confirm the spare, jack and wheel brace are actually present before you leave the depot, this is a common gap in rentals. Carry a torch or headlamp, a power bank, a basic first aid kit and a paper map, with each day's route and campsite saved before you lose reception.",
         "Alpine routes may require chains in winter, and some rental agreements mandate carrying them regardless of conditions. For remote walks or back-country roads, a personal locator beacon is cheap to hire and is the one item that genuinely changes outcomes.",
-      ], ["Check the spare and jack at pickup", "Offline maps for no-reception legs", "Hire a PLB for remote legs"]),
+      ], ["Check the spare and jack at pickup", "Save the route before reception drops", "Hire a PLB for remote legs"]),
+      s("Before you fly: clean and declare your gear", [
+        "Used tents, hiking boots, camping gear and anything that has been in soil or fresh water must be declared when you arrive in New Zealand. Clean soil, seeds and plant material off them before you pack, and still tick yes on the arrival card when the question applies: failing to declare is what draws the fine, not the clean tent itself.",
+        "Food needs declaring too, so finish the trail mix on the plane or declare it. Pack the gear you will be asked to show near the top of the bag so the inspection takes minutes rather than a full unpack.",
+      ], ["Declare used tents and boots", "Clean off soil before you fly", "Declare food as well"]),
       s("Adjust for where you are going", [
         "For the West Coast and Fiordland, weight the packing towards rain, sandflies and drying, more repellent, more dry bags, more spare socks. For Central Otago and the Mackenzie, weight it towards cold nights and sun, with a warmer bag and better eye protection than the coast requires.",
         "For Northland and the upper North Island, the balance shifts to heat, humidity and shade. For anything alpine, or for winter anywhere in the south, add chains, extra insulation and a genuinely shorter driving day. The list does not get longer with each region so much as it gets reweighted.",
       ]),
     ],
     sources: [
+      { label: "MPI arriving in New Zealand", url: "https://www.mpi.govt.nz/travel-and-recreation/arriving-in-new-zealand/" },
       { label: "DOC know before you go", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/" },
       { label: "MetService", url: "https://www.metservice.com/" },
       { label: "NZTA road conditions", url: "https://www.journeys.nzta.govt.nz/" },
@@ -381,8 +464,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "best-time-camping-new-zealand",
     legacyPath: "/nz-camping-seasons-weather-sandflies.html",
-    title: "Seasons, weather and sandflies: when to camp in New Zealand",
-    description: "How the seasons behave region by region, where the sandflies are worst, and which months suit which kind of trip.",
+    title: "Sandfly Season NZ: When They're Worst and Best Months to Camp",
+    description: "When and where sandflies bite in New Zealand, worst on the West Coast and in Fiordland, plus how each season suits camping, region by region.",
     category: "Trip planning",
     region: "New Zealand seasons",
     readTime: 13,
@@ -404,8 +487,8 @@ export const migratedArticles: Article[] = [
         "Winter is a different trip rather than a worse one. It suits ski areas, clear southern night skies and travellers properly equipped for cold. Northern lowland camping stays mild, while Central Otago, Tongariro and the alpine passes require winter driving preparation, chains and a realistic view of daylight hours. It is a poor season to improvise.",
       ], ["Autumn is the best all-round compromise", "Spring is beautiful and unpredictable", "Winter needs equipment, not optimism"]),
       s("Sandflies: where and when", [
-        "Sandflies are concentrated on the West Coast, throughout Fiordland, around the Catlins and in damp bush near water anywhere in the country. They are worst at dawn and dusk, in still conditions, and near the coast and rivers. Wind and cold suppress them, which is why an exposed site is sometimes more comfortable than a sheltered one.",
-        "They are active through the warmer months and persist well into autumn. Bring strong repellent, cover ankles and wrists in the evening, keep the tent or van closed at dusk, and check the insect mesh before you travel. Bites can itch for days, so antihistamine cream is worth having with you rather than hunting for in a small town.",
+        "Sandflies, namu in te reo Māori, live wherever there is flowing water and bush, and two of New Zealand's 13 species bite. The West Coast and Fiordland are infamous for them, which is why the end of the Milford Track is called Sandfly Point, and beaches, lake edges and the Catlins are reliable spots too. They breed in fast-flowing streams, bite most as the light rises in the morning and fades at dusk, rarely bite in the dark, and in dull, overcast, humid weather keep biting all day.",
+        "There is no official sandfly season: in the wettest regions they are part of camping in any month, and most visitors meet them between spring and autumn, when campsites by rivers and lakes are full. An exposed, breezy pitch away from still water is usually more comfortable than a sheltered one. Bring strong repellent, cover ankles and wrists in the evening, keep the tent or van closed at dusk, and check the insect mesh before you travel. Bites can itch for days, so antihistamine cream is worth having with you rather than hunting for in a small town.",
       ]),
       s("Regional timing in short", [
         "Northland and the upper North Island are pleasant from October through April and humid at the height of summer. The central plateau and Tongariro are a summer and autumn proposition unless you are equipped for alpine winter. The East Coast is driest in summer and reliably sunny in autumn.",
@@ -417,6 +500,7 @@ export const migratedArticles: Article[] = [
       ]),
     ],
     sources: [
+      { label: "Te Ara: sandflies, New Zealand's blackflies", url: "https://teara.govt.nz/en/sandflies-and-mosquitoes/page-1" },
       { label: "MetService", url: "https://www.metservice.com/" },
       { label: "NZTA road conditions", url: "https://www.journeys.nzta.govt.nz/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
@@ -425,58 +509,110 @@ export const migratedArticles: Article[] = [
 
   a({
     slug: "scenic-campsites-new-zealand",
-    legacyPath: "/top-scenic-campsites-nz.html",
-    title: "Scenic campsites in New Zealand, region by region",
-    description: "Where the best-known views are, and how to judge whether a spectacular site is actually a good place to spend the night.",
+    legacyPath: "/top-scenic-campsites-nz.html", hubs: ["camping"],
+    title: "Best Scenic Campsites in New Zealand, Region by Region",
+    description: "24 DOC campsites with standout views, from Tapotupotu to Mavora Lakes, with each one's 2026 adult fee, vehicle access and whether to book ahead.",
     category: "Camping guides",
     region: "New Zealand",
     readTime: 13,
-    places: ["Northland", "Coromandel", "Abel Tasman", "West Coast", "Mackenzie Basin", "Fiordland", "Catlins"],
+    places: ["Northland", "Coromandel", "Abel Tasman", "West Coast", "Glenorchy", "Fiordland", "Catlins"],
     imageAlt: "Scenic lakeside campsite beneath New Zealand mountains",
     intro:
-      "The most photographed campsite in the country is not automatically the best place to be tonight. A view is worth having, but it competes with wind exposure, drainage, access, facilities and whether you can get a large vehicle onto the pitch in the dark. The good news is that New Zealand has enough spectacular sites that you rarely have to choose only one.",
+      "Every campsite below is a Department of Conservation site in KiwiCamping's DOC data, picked for what you see from the tent or the van door: a beach, a lake, a river or a mountain range. Each one comes with the adult fee DOC lists for it, the vehicles that can reach it and whether it takes bookings, so you can judge it as a place to sleep and not only as a photo.",
+    comparison: {
+      asOf: "2026-10-20",
+      caption: "Scenic DOC campsites by region",
+      note: "Adult fee per night and booking status from each campsite's DOC page, checked 20 October 2026; where two figures are shown the fee varies by season or pitch. Children pay less. 'Book' means DOC takes online bookings for the site; 'First come' means it currently does not.",
+      rowHeader: "Campsite",
+      columns: ["Region", "Adult per night", "Booking", "Vehicles"],
+      rows: [
+        { label: "Maitai Bay", cells: ["Northland", "$18", "First come", "Campervan, car, caravan"] },
+        { label: "Tapotupotu", cells: ["Northland", "$18", "First come", "Campervan, car"] },
+        { label: "Kapowairua (Spirits Bay)", cells: ["Northland", "$18", "First come", "Campervan, car"] },
+        { label: "Waikawau Bay", cells: ["Coromandel", "$18 to $23", "Book", "Campervan, car, caravan"] },
+        { label: "Stony Bay", cells: ["Coromandel", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Port Jackson", cells: ["Coromandel", "$18 to $20", "Book", "Campervan, car, caravan"] },
+        { label: "Mangahuia", cells: ["Central North Island", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Putangirua Pinnacles", cells: ["Wairarapa", "$10", "Book", "Campervan, car, caravan"] },
+        { label: "Tōtaranui", cells: ["Nelson/Tasman", "$18 to $20", "Book", "Campervan, car, caravan"] },
+        { label: "Kerr Bay", cells: ["Nelson/Tasman", "$25 to $30", "Book", "Campervan, car, caravan"] },
+        { label: "French Pass", cells: ["Marlborough", "$18 to $20", "Book", "Campervan, car, caravan"] },
+        { label: "Whites Bay", cells: ["Marlborough", "$15", "Book", "Campervan, car, caravan"] },
+        { label: "Lake Māhinapua", cells: ["West Coast", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Gillespies Beach", cells: ["West Coast", "$18 to $20", "Book", "Car"] },
+        { label: "Lake Paringa", cells: ["West Coast", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Lake Pearson (Moana Rua)", cells: ["Canterbury", "$15", "Book", "Campervan, car, caravan"] },
+        { label: "Ahuriri Bridge", cells: ["Canterbury", "Free", "First come", "Campervan, car, caravan"] },
+        { label: "Kinloch", cells: ["Otago", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Sylvan", cells: ["Otago", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Twelve Mile Delta", cells: ["Otago", "$15", "First come", "Campervan, car, caravan"] },
+        { label: "Purakaunui Bay", cells: ["Otago (Catlins)", "$15", "Book", "Campervan, car, caravan"] },
+        { label: "Cascade Creek", cells: ["Fiordland", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Henry Creek", cells: ["Fiordland", "$18", "Book", "Campervan, car, caravan"] },
+        { label: "Mavora Lakes", cells: ["Southland", "$10", "Book", "Campervan, car, caravan"] },
+      ],
+    },
     sections: [
-      s("Northland and the upper North Island", [
-        "The Far North delivers long empty beaches and campsites close to the water, with the trade-off that many are exposed and some close during significant local events. Sites around the Bay of Islands and the Karikari Peninsula combine swimming with reasonable shelter.",
-        "The Coromandel is the classic summer choice, with DOC sites tucked behind pōhutukawa on the east coast beaches. It is also the most competitive area in the country between Christmas and late January, when arriving without a booking is close to hopeless.",
-      ]),
+      s("Northland: the far north beaches", [
+        "Maitai Bay on the Karikari Peninsula is a sheltered bay under pōhutukawa with room for about 100 unpowered pitches, cold showers and flush toilets, at $18 per adult. It does not take bookings, so in summer the rule is to arrive early in the day rather than at dusk.",
+        "Tapotupotu and Kapowairua (Spirits Bay) are the two DOC campsites at the top of the country, each with about 45 unpowered sites at $18. Tapotupotu sits beside a lagoon you can swim in, a 5 to 10 minute gravel-road drive from Cape Reinga/Te Rerenga Wairua; Kapowairua is a long beach with bush behind it. DOC is not taking bookings for either at present, so in summer arrive early; both suit campervans and cars rather than caravans.",
+      ], ["Maitai Bay is first come", "Tapotupotu is 10 minutes from the Cape", "No dogs at any of the three"]),
+      s("Coromandel: white sand on the northern loop", [
+        "Waikawau Bay is the big one: about 120 unpowered and 12 powered sites behind an undeveloped white-sand beach, at $18 to $23 per adult depending on the season. Stony Bay ($18) is a 5-hectare site where the Coromandel Coastal Walkway starts for Fletcher Bay, and Port Jackson ($18 to $20) sits at the water's edge at the northern tip of the peninsula.",
+        "All three take bookings, and between Christmas and late January they fill well ahead. The northern roads are narrow and partly unsealed, so check your rental agreement allows them before you plan the loop.",
+      ], ["Book for January", "Waikawau has powered sites", "Northern roads are partly gravel"]),
       s("Central and lower North Island", [
-        "The central plateau offers something different: open tussock, volcanic horizons and genuinely dark skies around Tongariro, with the caveat that it is high, cold at night and windy far more often than photographs suggest. Lake Taupō's eastern shore has accessible sites with the mountains across the water.",
-        "Further south, the Wairarapa coast and the wild beaches near Castlepoint reward the detour, and Whanganui's river country is quiet in a way the coast never is. These are places where the scenery is in the landscape rather than a single viewpoint.",
-      ], ["Central plateau is cold and exposed", "Coromandel needs booking in summer", "East coast beaches suit sheltered nights"]),
-      s("Top of the South and the West Coast", [
-        "Abel Tasman's coastal campsites are among the best-known in the country and are booked rather than turn-up, often months ahead. Golden Bay and the Marlborough Sounds offer water-edge sites with easier access and less competition.",
-        "The West Coast is where the drama is: Lake Mahinapua, the beaches near Hokitika, and the sites around the glaciers. Accept the rain and the sandflies and you get scenery that is genuinely world-class with very few people in it. Bring repellent and expect to dry gear later.",
-      ]),
-      s("Canterbury, Mackenzie and Otago", [
-        "The Mackenzie Basin is the one most people come for, turquoise lakes, the Southern Alps behind them, and some of the clearest night skies anywhere, protected as a dark sky reserve. Sites around Lake Pukaki and Lake Tekapo deliver the view directly from the door, and they are cold, exposed and busy in proportion.",
-        "Central Otago trades lakes for gold-country landscapes and enormous autumn colour, while the Otago coast around the peninsula adds wildlife to the scenery. Wānaka and Glenorchy sit at the point where accessible and spectacular overlap most comfortably.",
-      ], ["Mackenzie skies are the draw", "Lakeside means wind", "Autumn is Central Otago's season"]),
-      s("Fiordland, Southland and the Catlins", [
-        "Fiordland is largely booked DOC accommodation and freedom camping near the fiords is not permitted, but the sites along the Milford road and around Te Anau are extraordinary. Weather here is its own planning constraint rather than a detail.",
-        "The Catlins coast is quieter than almost anywhere else with comparable scenery, sea lions, penguins, waterfalls and a coastline that feels genuinely remote. Stewart Island, if you have the days, is a different experience again.",
-      ]),
+        "Mangahuia is a quiet stream-side campsite on the edge of Tongariro National Park at $18, with about 21 unpowered sites. The plateau is high and cold at night even in summer, so the view of the volcanoes comes with a warm sleeping bag requirement.",
+        "Putangirua Pinnacles on the south Wairarapa coast costs $10, can be booked and looks across Cook Strait from beside the Putangirua Stream, with the walk to the Pinnacles from the campsite and the seal colony near Cape Palliser a short drive away. It is one of the few sites here where dogs are allowed, on a leash.",
+      ], ["Tongariro nights are cold", "Putangirua is $10 a night", "Dogs on a leash at Putangirua"]),
+      s("Nelson, Tasman and Marlborough", [
+        "Tōtaranui Campground at the northern end of Abel Tasman National Park is the largest site on this list, with about 269 unpowered pitches on the beach at $18 to $20, a dump station and cold showers. Kerr Bay on Lake Rotoiti in Nelson Lakes National Park costs $25 to $30 and is a serviced site with hot showers and powered sites in beech forest.",
+        "In Marlborough, French Pass ($18 to $20) is a small 18-site campsite with a jetty at the end of a long, narrow road, looking across to Rangitoto ki te Tonga/D'Urville Island. Whites Bay ($15) is the easy one: a sheltered beach about half an hour from Blenheim.",
+      ], ["Tōtaranui has a dump station", "Kerr Bay has hot showers and power", "The French Pass road is slow"]),
+      s("West Coast", [
+        "Lake Māhinapua ($18) is a lake-edge site in forest south of Hokitika with about 100 unpowered pitches and a jetty. Lake Paringa ($18) is a small lakeside site between Fox Glacier and Haast, and Gillespies Beach ($18 to $20) is an eight-site campsite at the end of a gravel road near Fox Glacier, by an old gold-mining settlement and a seal colony; DOC lists it for cars only.",
+        "The West Coast is wet and the sandflies are serious, which is exactly why these sites are quiet. Pitch with the door away from the wind, keep the screens closed at dusk and plan to dry gear later.",
+      ], ["Gillespies Beach is cars only", "Bring repellent", "Expect rain"]),
+      s("Canterbury and the Mackenzie", [
+        "Lake Pearson (Moana Rua) on the road to Arthur's Pass is a $15 lakeside site in the high-country Waimakariri Basin, with about 20 unpowered pitches and long-drop toilets only. Ahuriri Bridge near Omarama is free, takes no bookings and sits on the bank of the Ahuriri River under willows.",
+        "The turquoise lakes of the Mackenzie Basin are inside the Aoraki Mackenzie International Dark Sky Reserve, which is why the stars there are so good. KiwiCamping's DOC data has no campsite on the Tekapo or Pukaki shore itself, so a lakeside night there usually means a holiday park or a council site; check the council's rules before you park.",
+      ], ["Lake Pearson has toilets only", "Ahuriri Bridge is free", "Dark sky reserve around Tekapo"]),
+      s("Glenorchy, Queenstown and the Catlins", [
+        "Kinloch ($18) sits on the shore of Lake Wakatipu across from Glenorchy, with a jetty and the Greenstone and Caples tracks nearby. Sylvan ($18) is beside the Routeburn River near the start of the Routeburn Track, and Twelve Mile Delta ($15) is a 100-pitch site on a river delta on the Glenorchy road out of Queenstown that takes no bookings.",
+        "On the Catlins coast, Purakaunui Bay ($15) is a beach campsite with about 40 unpowered pitches where dogs are allowed on a leash, and the region around it has waterfalls, sea lions and very few people.",
+      ], ["Twelve Mile Delta is first come", "Sylvan is by the Routeburn start", "Purakaunui allows dogs on a leash"]),
+      s("Fiordland and Southland", [
+        "The Milford Road campsites are the way to sleep in Fiordland National Park with a car or campervan. Cascade Creek ($18) at the lower end of Lake Gunn has about 120 unpowered sites and suits larger vehicles; Henry Creek ($18) is a smaller site on the shore of Lake Te Anau. DOC lists 24 current notices in its Te Anau district that prohibit camping, including along the Milford Road, so plan each night at one of the campsites.",
+        "Mavora Lakes ($10) is the cheap, big-sky alternative: two camping areas between South and North Mavora Lake, reached by a long gravel road, with dogs allowed on a leash. Fiordland campsites are pack in, pack out, with no rubbish bins.",
+      ], ["Camp only at Milford Road campsites", "Mavora Lakes is $10", "Take your rubbish with you"]),
       s("Judging a site when you arrive", [
         "Read the landscape rather than the photograph. Lakeshores amplify wind and it usually rises in the evening. River flats and braided riverbeds flood far faster than they look capable of. Forest sites carry falling-branch risk in wind, particularly under older trees.",
-        "Arrive in daylight and walk the pitch before committing a large vehicle: check the slope, the firmness of the ground and the soft edges, look up for overhead branches, and confirm another vehicle can still get past you. A remote site also costs fuel and time to reach, so the nominally free night is sometimes the more expensive one.",
+        "Arrive in daylight and walk the pitch before committing a large vehicle: check the slope, the firmness of the ground and the soft edges, look up for overhead branches, and confirm another vehicle can still get past you.",
       ], ["Walk the pitch before driving onto it", "Wind rises on lakeshores at evening", "Look up before parking under trees"]),
+      s("Booking, fees and the app", [
+        "Most of the sites above take bookings through DOC's online booking system, and the popular ones fill for weekends and the summer holidays. The sites on the list DOC was not taking bookings for in October 2026 are Maitai Bay, Tapotupotu, Kapowairua, Ahuriri Bridge and Twelve Mile Delta, so those are first come. Fees are per adult per night; check the DOC page for child rates and any change before you go.",
+        "In KiwiCamping every DOC campsite carries its fee, facilities, vehicle access and dog rules, so you can compare them on the map and save a shortlist for the trip. DOC campsites are part of the Premium pass; only BookIt stays and tours are free in the app.",
+      ], ["Book the popular sites early", "Fees are per adult per night", "DOC data needs the Premium pass"]),
       s("Leaving it as you found it", [
-        "Stay on formed surfaces, use the toilets provided, and keep every waste stream contained. Do not move rocks, cut vegetation or improve a pitch to make a better photograph, these are exactly the marks that get a site closed.",
+        "Stay on formed surfaces, use the toilets provided, and keep every waste stream contained. Do not move rocks, cut vegetation or improve a pitch to make a better photograph; these are exactly the marks that get a site closed.",
         "Leave early if you like, but leave clean and quietly. Dawn light is not a reason to run a generator, fly a drone where it is prohibited, or wake a campground packing up. The best scenic sites stay open because the people who use them are unremarkable neighbours.",
       ]),
     ],
     sources: [
       { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "DOC campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "DOC online bookings", url: "https://bookings.doc.govt.nz/" },
+      { label: "DOC freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Aoraki Mackenzie International Dark Sky Reserve", url: "https://www.darkskyreserve.org.nz/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
-      { label: "MetService", url: "https://www.metservice.com/" },
     ],
   }),
 
   a({
     slug: "camping-fees-new-zealand-2026",
     legacyPath: "/camping-costs-nz.html",
-    title: "The real cost of camping in New Zealand: a budget breakdown",
-    description: "DOC fees, holiday park rates, fuel, food and the extras, assembled into daily budgets you can actually plan against.",
+    title: "NZ Camping Costs 2026: DOC Fees, Holiday Parks, Daily Budget",
+    description: "DOC campsite fees per adult for 2026/27, holiday park rates, fuel and food, built into daily camping budgets in NZD and converted into 10 currencies.",
     category: "Costs & budget",
     region: "New Zealand camps",
     readTime: 14,
@@ -484,8 +620,10 @@ export const migratedArticles: Article[] = [
     imageAlt: "Tent and campervan at a New Zealand campsite",
     intro:
       "Camping is the cheapest way to travel New Zealand, but 'cheap' covers a range from about nothing to more than a motel room. The word campsite spans a free long-drop beside an untreated stream and a powered beachfront pitch with a kitchen and laundry, so a nightly figure only means something once you attach it to a category and a party size.",
-    priceTable: table(
-      "DOC category prices current in August 2026; commercial bands are planning ranges. Peak beachfront and event-period rates can sit well above these.",
+    priceTable: {
+      asOf: "2026-10-20",
+      note: "DOC category prices for the 2026/27 season, checked against DOC's fees page on 20 October 2026; the holiday park and daily figures are planning ranges, not quotes. Peak beachfront and event-period rates can sit well above these.",
+      rows:
       [
         { label: "DOC basic campsite", nzdLow: 0, unit: "per adult per night" },
         { label: "DOC standard campsite", nzdLow: 10, nzdHigh: 20, unit: "per adult per night" },
@@ -495,7 +633,7 @@ export const migratedArticles: Article[] = [
         { label: "Low-cost camping day, per person", nzdLow: 45, nzdHigh: 80, unit: "all-in, self-catering" },
         { label: "Mixed camping and holiday parks", nzdLow: 90, nzdHigh: 150, unit: "per person/day" },
       ],
-    ),
+    },
     sections: [
       s("DOC charges per person, not per site", [
         "This is the arithmetic that surprises families. DOC campsite fees are generally charged per adult per night: basic sites are free, standard sites usually fall between $10 and $20 per adult, and serviced unpowered sites are commonly around $25. Children are reduced or free depending on age and site.",
