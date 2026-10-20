@@ -578,7 +578,7 @@ export const listicleArticles: Article[] = [
         rows: [
           ["KiwiCamping", "A forecast for each campsite and hut on your trip", "Free to download, with in-app purchases", "3.8 (4)"],
           ["MetService", "Official warnings and watches", "Free with ads; ad-free NZ$1.99 a month", "2.4 (1,126)"],
-          ["Windy.com", "Wind, gusts and comparing models", "Free; Premium in-app purchase", "4.8 (9,058)"],
+          ["Windy.com", "Wind, gusts and many forecast models", "Free; Premium in-app purchase", "4.8 (9,058)"],
           ["Yr", "A free second forecast", "Free", "3.6 (87)"],
           ["Plan My Walk", "Tramping days and track alerts", "Free", "4.6 (612)"],
           ["Apple Weather", "Quick checks, built into the iPhone", "Free", "4.7 (18,741)"],
@@ -593,9 +593,9 @@ export const listicleArticles: Article[] = [
         "It is also the lowest-rated app here: 2.4 from 1,126 New Zealand ratings, with reviews on its App Store page objecting to ads and the design. Its mountain, marine and rural forecasts are on metservice.com rather than in this app, and its separate Marine and Rural Weather apps were last updated in 2023.",
       ], ["Choose it for: official warnings and watches", "Ad-free NZ$1.99 a month", "Mountain forecasts are on the website"]),
       s("3. Windy.com: best for wind and comparing forecasts", [
-        "Windy shows more than 15 weather models side by side, including the European ECMWF model, on animated maps of wind, gusts, rain and cloud. That is useful when forecasts disagree: if the models agree on a southerly change, plan around it; if they do not, keep the plan flexible. It rated 4.8 from 9,058 New Zealand ratings.",
-        "It is free, with a Premium in-app purchase that adds hourly forecasts, a longer outlook and longer radar loops. It does not issue New Zealand warnings, so pair it with MetService.",
-      ], ["Choose it for: wind, gusts and model comparisons", "Free; Premium optional", "No official NZ warnings"]),
+        "Windy offers more than 15 weather models, including the European ECMWF model, on animated maps of wind, gusts, rain and cloud. That is useful when forecasts disagree: if the models agree on a southerly change, plan around it; if they do not, keep the plan flexible. It rated 4.8 from 9,058 New Zealand ratings.",
+        "It is free, with a Premium in-app purchase that adds model comparison, forecasts at one-hour resolution, a 15-day outlook and 24-hour radar loops. It does not issue New Zealand warnings, so pair it with MetService.",
+      ], ["Choose it for: wind, gusts and forecast models", "Premium adds model comparison", "No official NZ warnings"]),
       s("4. Yr: best for a simple free second opinion", [
         "Yr is the free app of Norway's public weather service, whose forecasts it uses worldwide, including New Zealand place forecasts. Its New Zealand listing shows no in-app purchases. It rated 3.6 from 87 New Zealand ratings.",
         "Some trampers recommend it on forums, but we found no independent test of how it performs here. Use it as a cross-check against MetService rather than as your only source.",
@@ -647,7 +647,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "State Highway 6 winding along the shore of Lake Wakatipu under grey cloud",
     related: ["new-zealand-road-trip-fuel-cost-2026", "food-fuel-resupply-new-zealand-road-trip", "best-travel-apps-new-zealand"],
     intro:
-      "Fuel has become one of the biggest costs of a New Zealand road trip in 2026. MBIE's weekly monitoring put regular 91 at 354.4 cents a litre on the price boards in the week dated 9 October 2026, against 260.6 cents a year earlier, and diesel at 323.8 cents before road user charges. At those prices it pays to know both where fuel is cheapest and which discounts you hold, so the best setup is one app that shows prices and one or two that cut them. We make KiwiCamping, a camping app that does not track fuel prices, so it is not ranked here; it appears at the end only for the planning job it can help with.",
+      "Fuel has become one of the biggest costs of a New Zealand road trip in 2026. MBIE's weekly monitoring put regular 91 at 354.4 cents a litre on the price boards in the week dated 9 October 2026, against 260.4 cents a year earlier, and diesel at 323.8 cents before road user charges; the latest week's figures are provisional. At those prices it pays to know both where fuel is cheapest and which discounts you hold, so the best setup is one app that shows prices and one or two that cut them. We make KiwiCamping, a camping app that does not track fuel prices, so it is not ranked here; it appears at the end only for the planning job it can help with.",
     sections: [
       s("Fuel apps at a glance", [
         "Start with Gaspy to see which station near you is cheapest. Then add the app for the network you pass most: Z's app gives a daily discount and a bigger one on Wednesdays, bp's app works with Woolworths' Everyday Rewards card, and Foodstuffs' Club+ turns a supermarket shop into a discount at Z and participating Caltex sites. Waitomo and Gull reward you through in-app credit and promotion days rather than a fixed cents-per-litre discount.",
@@ -691,7 +691,7 @@ export const listicleArticles: Article[] = [
         "For electric vehicles, PlugShare (4.6 from 4,173) maps chargers from many networks, and the Z app also handles Z's EV charging. On remote routes the cheapest fuel is the fuel you already have: DOC notes there are no fuel stations between Te Anau and Milford Sound, so fill up in Te Anau.",
       ]),
       s("Where KiwiCamping fits", [
-        "KiwiCamping does not show fuel prices, so it is not on the list above. What it does show is distance: a trip in KiwiCamping gives the distance and drive time between stops, and a collection of saved places shows the furthest gap between them, which tells you where the long, empty legs are and where to fill up before them.",
+        "KiwiCamping does not show fuel prices, so it is not on the list above. What it does show is distance: a trip in KiwiCamping gives the distance and drive time for each leg between stops, so you can see which legs are long and plan where to fill up before them. A collection of saved places also shows how far apart its two furthest places are, a rough idea of how much ground the trip covers.",
         "KiwiCamping runs on iPhone with iOS 26 or later, and its four New Zealand ratings average 3.8. To turn those distances into dollars, our fuel and distance calculator on this site does the arithmetic.",
       ], ["Use it for: spotting long legs between stops", "iPhone only, iOS 26 or later", "No fuel prices"], undefined, true),
       s("How we chose and checked", [
@@ -758,14 +758,14 @@ export const listicleArticles: Article[] = [
       ], ["Website, no app found", "Search by crop and region", "RSE listings are a different visa"]),
       s("4. WWOOF NZ and Workaway: best for work in exchange for a bed", [
         "WWOOF New Zealand connects volunteers with organic farms; online membership costs NZ$25 for one person or NZ$30 for a couple and lasts 15 months. WWOOF NZ says you need a working holiday visa to volunteer even without wages, so check the conditions on your own visa with Immigration New Zealand. The international WWOOF app had only 3 New Zealand ratings, so the website is the easier way in.",
-        "Workaway covers hosts worldwide, including New Zealand, for a yearly membership of US$59 to US$79 depending on the plan; its app rated 4.8 from 144 New Zealand ratings. Both can stretch a budget a long way, but hours and conditions vary by host, so agree them before you arrive.",
-      ], ["WWOOF NZ NZ$25 for 15 months", "Workaway US$59 to US$79 a year", "Agree hours with the host"]),
+        "Workaway covers hosts worldwide, including New Zealand, for a yearly membership from about US$59, depending on the plan; its app rated 4.8 from 144 New Zealand ratings. Both can stretch a budget a long way, but hours and conditions vary by host, so agree them before you arrive.",
+      ], ["WWOOF NZ NZ$25 for 15 months", "Workaway from about US$59 a year", "Agree hours with the host"]),
       s("5. Wise and a New Zealand bank app: best for money", [
         "Wise moves money between currencies with a fee that starts at 0.22% of the amount, and its card gives 400 New Zealand dollars a month of free cash withdrawals, then 2.69% above that. It rated 4.8 from 23,432 New Zealand ratings and suits the first weeks before your bank account is running.",
         "Wages go into a New Zealand account. BNZ lets you apply from overseas, ASB does too depending on your country and visa, ANZ lets you open an account before you arrive and activate it at a branch, and Westpac's migrant team can set one up up to 180 days before you move in some circumstances. Their apps rated 4.8 (BNZ, 56,574), 4.7 (Westpac, 24,380), 4.0 (ANZ, 7,946) and 3.2 (ASB, 2,106). A New Zealand bank account also helps your IRD number application.",
       ], ["Wise for the first weeks", "Open a bank account early", "BNZ and Westpac apps rate highest"]),
       s("6. Skinny, 2degrees, Spark or One NZ: best for staying reachable", [
-        "Employers ring, so a New Zealand number matters. Skinny's app rated 4.4 from 18,813 New Zealand ratings and Skinny sells 52-week prepaid plans from $296; 2degrees prepay starts from $8 a month, and its Data Clock app rated 4.7 from 17,570. Spark's app rated 3.7 and One NZ's 2.0.",
+        "Employers ring, so a New Zealand number matters. Skinny's app rated 4.4 from 18,813 New Zealand ratings and Skinny sells 52-week prepaid plans from $296; 2degrees prepay starts from $8 a month; its main 2degrees NZ app rated 1.6 from 998, and its Data Clock prepay app 4.7 from 17,570. Spark's app rated 3.7 and One NZ's 2.0.",
         "Coverage away from towns varies by network, so check each provider's coverage map for the regions you expect to work in before choosing.",
       ], ["Skinny 52-week plans from $296", "2degrees prepay from $8 a month", "Check coverage where you will work"]),
       s("7. NZTA Waka Kotahi: best once you own a car", [
@@ -791,6 +791,7 @@ export const listicleArticles: Article[] = [
       { label: "Joining KiwiSaver (Inland Revenue)", url: "https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver" },
       { label: "PickNZ", url: "https://www.picknz.co.nz/" },
       { label: "WWOOF New Zealand membership", url: "https://wwoof.nz/join" },
+      { label: "Workaway membership sign-up", url: "https://www.workaway.info/en/signup/workawayer" },
       { label: "Wise New Zealand pricing", url: "https://wise.com/nz/pricing/" },
     ],
   }),
@@ -807,7 +808,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "Mountains reflected in the still water of Moke Lake near Queenstown, where DOC runs a campsite",
     related: ["new-zealand-travel-cost-2026", "fuel-price-apps-new-zealand", "camping-fees-new-zealand-2026"],
     intro:
-      "Travelling New Zealand cost more in 2026 than a year before, and most of the rise sits in two places: fuel and where you sleep. MBIE's monitoring put regular petrol at 354.4 cents a litre on station price boards in the week dated 9 October 2026, and Stats NZ reported food prices up 2.4% in the year to September. The apps below go after those costs in order of how much they can save, with ratings from the New Zealand App Store and deal terms from each company's own page, checked on 20 October 2026. We make KiwiCamping, which is first because accommodation is the bill it helps with; for everything else the other apps do the saving.",
+      "Travelling New Zealand cost more in 2026 than a year before, and fuel led the rise: Stats NZ reported petrol up 24.3% and diesel up 55.8% in the year to September 2026, against 2.4% for food. MBIE's monitoring put regular petrol at 354.4 cents a litre on station price boards in the week dated 9 October 2026. The apps below go after the biggest costs of a trip in order of how much they can save, with ratings from the New Zealand App Store and deal terms from each company's own page, checked on 20 October 2026. We make KiwiCamping, which is first because accommodation is one of the largest daily costs of a trip and the bill it helps with; for everything else the other apps do the saving.",
     sections: [
       s("Money-saving apps at a glance", [
         "Cut the nightly bill with KiwiCamping's DOC campsite fees and cost filter, and the fuel bill with Gaspy. Load the loyalty app of the supermarket you use, and try Too Good To Go and First Table for cheaper meals. Rankers' deals and Interislander's promotion take a slice off ferries and activities, AT Mobile caps Auckland fares, and Splitwise or Tricount keeps a shared van fair.",
@@ -824,11 +825,11 @@ export const listicleArticles: Article[] = [
           ["First Table", "Half-price food at early sittings", "Free app; booking fee", "4.9 (8,549)"],
           ["Rankers Camping NZ", "Ferry and activity discounts", "Free", "4.7 (3,322)"],
           ["AT Mobile", "Auckland public transport fares", "Free", "4.5 (32,728)"],
-          ["Splitwise", "Sharing costs fairly", "Free", "4.4 (689)"],
+          ["Splitwise", "Sharing costs fairly", "Free; Pro in-app purchase", "4.4 (689)"],
         ],
       }),
       s("1. KiwiCamping: best for cutting the accommodation bill", [
-        "DOC campsites are among the cheapest places to sleep in New Zealand, and KiwiCamping is built around DOC's data. In its August 2026 data it held 287 DOC campsites, and at the 208 with a published adult rate the fee ran from $5 to $25 a night, with a median of $12.75. A cost filter narrows the map by fee, and each place shows the fees as reported in New Zealand dollars and, if you choose, your own currency.",
+        "DOC campsites are among the cheapest places to sleep in New Zealand, and KiwiCamping is built around DOC's data. In its August 2026 data it held 287 DOC campsites, and at the 208 with a published adult rate the fee ran from $5 to $25 a night, with a median of $12.75. A cost filter narrows the map by fee, and each place shows DOC's fee information in New Zealand dollars and, if you choose, your own currency. Where DOC lists a newer fee schedule with a start date, go by that one.",
         "Trips add up the distance between stops, which helps you spot a detour that costs more in fuel than it saves in fees. Place details stay on the phone without signal; map tiles, routing, weather and photos need a connection. It is iPhone only, needs iOS 26 or later and has 4 New Zealand ratings (3.8).",
       ], ["Choose it for: cheaper nights at DOC campsites", "Fees in your own currency", "iPhone only, iOS 26 or later"], undefined, true),
       s("2. Gaspy: best for the fuel bill", [
@@ -849,8 +850,8 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: half-price food", "Booking fee per table", "Food only, not drinks"]),
       s("6. Rankers, GrabOne and the ferry deals: best for activities and the crossing", [
         "Rankers' free app offers 10% off Bluebridge Cook Strait crossings with the code RANKERS and its free digital card shown at check-in, and its activity listings carry discounts of 10% to 15%. GrabOne (4.6 from 3,717) sells discounted vouchers for activities, food and stays.",
-        "Interislander's BoostSail promotion gives 15% off adult foot-passenger fares with the code BOOSTSAIL1 for bookings made between 21 September and 14 December 2026; it cannot be combined with other offers. Check both ferry companies before booking a vehicle, since fares vary by sailing and season.",
-      ], ["Rankers: 10% off Bluebridge", "Interislander BoostSail to 14 December", "GrabOne for vouchers"]),
+        "Interislander's BoostSail promotion gives 15% off adult foot-passenger fares with the code BOOSTSAIL1 for bookings made between 21 September and 14 December 2026, and every leg must be travelled by 15 December 2026. It does not cover vehicles and cannot be combined with other offers. Check both ferry companies before booking a vehicle, since fares vary by sailing and season.",
+      ], ["Rankers: 10% off Bluebridge", "BoostSail: foot passengers, travel by 15 December", "GrabOne for vouchers"]),
       s("Cheaper nights without an app", [
         "DOC sets the campsite fees: basic campsites are free, standard campsites cost $10 to $20 per adult a night, and serviced campsites $25 per adult unpowered. Individual campsites can differ, so check each one. Members of the New Zealand Motor Caravan Association pay $252 in the first year and can then stay at NZMCA Parks for $5 per adult a night.",
         "For hostels, Hostelworld (4.8 from 5,114) compares beds and YHA advertises a 10% saving for its members. A campervan relocation is the cheapest vehicle of all: Imoova lists them from $1 a day, though fuel is usually extra and the dates are fixed.",
