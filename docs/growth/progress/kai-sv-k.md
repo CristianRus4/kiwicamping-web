@@ -14,9 +14,11 @@ Batches (about five guides each):
 ## Done
 - [x] Batch 1 applied (6 guides): self-contained-campervan-green-warrant, freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide, holiday-parks-new-zealand-guide, east-cape-road-trip. Negation re-read done against the English, content:check passes.
 - [x] Batch 2 applied (6 guides): scenic-campsites-new-zealand, eating-out-new-zealand-prices-2026, new-zealand-road-signs-visitors, domestic-flight-costs-new-zealand-2026, wof-registration-campervan-new-zealand, accommodation-costs-new-zealand-2026.
+- [x] Batch 3 applied (8 guides): volcanic-safety-new-zealand-travel, new-zealand-camping-packing-list, beer-wine-coffee-prices-new-zealand, responsible-camping-new-zealand, northland-cape-reinga-camping-route, arthurs-pass-camping-route, dogs-camping-new-zealand, cook-strait-ferry-campervan-guide.
 
 ## Next
-Batch 3 (volcanic-safety, packing-list, beer-wine-coffee, responsible-camping drafted; northland-cape-reinga, arthurs-pass, dogs, cook-strait drafting), batch 4a (taranaki, bus-ferry-train, coromandel-rotorua, picton-kaikoura) drafting. Audit rule: never write KiwiCampings (genitive) in sv.
+Batches 4a (taranaki, bus-ferry-train, coromandel-rotorua, picton-kaikoura) and 4b (sandflies, overseas-driver-licence, wanaka-haast, doc-hut-rules) in review; 5a (river-crossing, left-side-driving, banks-peninsula, two-week-camper) drafting. Then driving-day-planner, bay-of-islands, christchurch-tekapo, then zero-impression guides.
+Audit rules: never KiwiCampings; English number-words stay words.
 
 ## Blockers
 none
