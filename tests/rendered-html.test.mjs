@@ -411,11 +411,17 @@ function assertFigureImage(tag,src,route){
   assert.match(tag,/ decoding="async"/,`${route}: figure decodes async`);
 }
 
-test("each screenshot figure sits in the section about KiwiCamping",()=>{
+test("each screenshot figure sits in the section that names KiwiCamping, one figure per guide",()=>{
+  // No exception on this site: every figure guide has a section whose heading names KiwiCamping.
+  // (AussieCamps documents one, a guide whose section body names the app; see docs/growth/screen-figures.md.)
+  const namedInBody=new Set();
   for(const figure of screenFigures){
     const article=allArticles.find((item)=>item.slug===figure.slug);
-    assert.match(article.sections[figure.section].heading,/KiwiCamping/,`${figure.slug}: section ${figure.section} must be the KiwiCamping entry`);
-    assert.deepEqual(article.sections.flatMap((part,index)=>part.figure?[index]:[]),[figure.section],`${figure.slug}: exactly one figure`);
+    const part=article.sections[figure.section];
+    if(namedInBody.has(figure.slug))assert.match(part.body.join(" "),/KiwiCamping/,`${figure.slug}: section ${figure.section} must name KiwiCamping`);
+    else assert.match(part.heading,/KiwiCamping/,`${figure.slug}: section ${figure.section} must be the KiwiCamping entry`);
+    assert.deepEqual(article.sections.flatMap((section,index)=>section.figure?[index]:[]),[figure.section],`${figure.slug}: exactly one figure`);
+    assert.deepEqual(part.figure,{src:figure.src,alt:figure.alt});
   }
 });
 
@@ -444,4 +450,23 @@ test("published figure guides export the screenshot in English and in every loca
       }
     }
   }
+});
+
+test("screen figures fail the build when they point at nothing",async()=>{
+  const {applyScreenFigures}=await import("../lib/screen-figures.ts");
+  const guides=[{slug:"a-guide",sections:[{heading:"One",body:["Text"]},{heading:"Two",body:["Text"]}]}];
+  const figure={slug:"a-guide",section:0,src:"/images/screens/best-nz-camping-apps.webp",alt:"A screenshot"};
+  assert.deepEqual(applyScreenFigures(guides,[figure])[0].sections[0].figure,{src:figure.src,alt:figure.alt});
+  assert.equal(applyScreenFigures(guides,[figure])[0].sections[1].figure,undefined);
+  assert.throws(()=>applyScreenFigures(guides,[figure,figure]),/^Error: screen-figures: section 0 of "a-guide" has two figures/);
+  assert.throws(()=>applyScreenFigures(guides,[figure,{...figure,section:1}]),/^Error: screen-figures: "a-guide" is listed twice/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,slug:"no-such-guide"}]),/^Error: screen-figures: unknown guide slug "no-such-guide"/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:2}]),/^Error: screen-figures: section 2 is out of range for "a-guide"/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:-1}]),/^Error: screen-figures: section -1 is out of range/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:0.5}]),/^Error: screen-figures: section 0.5 is out of range/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,src:"/images/screens/missing.webp"}]),/^Error: screen-figures: no image-manifest entry/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,alt:" "}]),/^Error: screen-figures: "a-guide" needs alt text/);
+  // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
+  const {translationSource}=await import("../lib/translation-source.ts");
+  assert.doesNotMatch(JSON.stringify(translationSource().articles),/images\/screens|"figure"/);
 });
