@@ -11,10 +11,7 @@
         "it",
         "nl",
         "pt",
-        "ja",
-        "zh-hans",
-        "cs",
-        "pl"
+        "cs"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -35,20 +32,8 @@
           "path": "../lib/translations/pt.json"
         },
         {
-          "locale": "ja",
-          "path": "../lib/translations/ja.json"
-        },
-        {
-          "locale": "zh-hans",
-          "path": "../lib/translations/zh-hans.json"
-        },
-        {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
-        },
-        {
-          "locale": "pl",
-          "path": "../lib/translations/pl.json"
         }
       ],
       "protectedTerms": [
@@ -63,8 +48,7 @@
         "Rakiura"
       ],
       "varieties": {
-        "pt": "pt-PT",
-        "zh-hans": "zh-Hans"
+        "pt": "pt-PT"
       },
       "register": {
         "de": "informal",
@@ -72,7 +56,8 @@
         "fr": "formal",
         "it": "informal",
         "nl": "informal",
-        "pt": "informal"
+        "pt": "informal",
+        "cs": "formal"
       },
       "glossary": {
         "North Island": {
@@ -399,6 +384,162 @@
       },
       "styleGuide": {
         "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms (북섬, 남섬, 퀸스타운) with Māori originals and macrons in parentheses on first mention, never bare 덤프, never 오프라인 지도."
+      }
+    },
+    {
+      "id": "kiwicamping-website-ja",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ja"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "DOC",
+        "NZD",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New Zealand": {
+          "ja": "ニュージーランド"
+        },
+        "North Island": {
+          "ja": "北島"
+        },
+        "South Island": {
+          "ja": "南島"
+        },
+        "Stewart Island": {
+          "ja": "スチュワート島"
+        },
+        "Aoraki": {
+          "ja": "アオラキ"
+        },
+        "Aotearoa": {
+          "ja": "アオテアロア"
+        }
+      },
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims."
+      }
+    },
+    {
+      "id": "kiwicamping-website-zh-Hans",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hans"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "NZD",
+        "DOC",
+        "Aotearoa",
+        "Aoraki",
+        "Waka Kotahi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "dump station": {
+          "zh-hans": "排污站"
+        },
+        "freedom camping": {
+          "zh-hans": "自由露营"
+        },
+        "holiday park": {
+          "zh-hans": "假日公园"
+        },
+        "North Island": {
+          "zh-hans": "北岛"
+        },
+        "South Island": {
+          "zh-hans": "南岛"
+        },
+        "New Zealand": {
+          "zh-hans": "新西兰"
+        }
+      },
+      "register": {
+        "zh-hans": "informal"
+      },
+      "styleGuide": {
+        "zh-hans": "Follow docs/translation-style/zh-hans.md: write as a seasoned mainland Chinese self-drive guide writer, address the reader as 你, short topic-first clauses, full-width punctuation, “ ” quotes, no em dashes or 破折号, Simplified characters only, never claim an offline map."
+      },
+      "varieties": {
+        "zh-hans": "zh-Hans"
+      }
+    },
+    {
+      "id": "kiwicamping-website-pl",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "pl"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "register": {
+        "pl": "informal"
+      },
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "North Island": {
+          "pl": "Wyspa Północna"
+        },
+        "South Island": {
+          "pl": "Wyspa Południowa"
+        },
+        "Stewart Island": {
+          "pl": "Wyspa Stewart"
+        }
+      },
+      "styleGuide": {
+        "pl": "Follow docs/translation-style/pl.md: native Polish travel-writer voice for readers from Poland, informal ty (singular, lower case, no Pan/Pani), no gendered forms aimed at the reader, Polish island names (Wyspa Północna, Wyspa Południowa, Wyspa Stewart), kemping and nocleg na dziko, DOC kept as DOC, no calques, no offline-map claims."
       }
     }
   ]
