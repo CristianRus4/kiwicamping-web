@@ -82,3 +82,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `where-to-camp-in-new-zealand` | Campsite in Lake Clearwater, Canterbury, New Zealand 13.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Campsite_in_Lake_Clearwater,_Canterbury,_New_Zealand_13.jpg) |
 | `responsible-camping-new-zealand` | Green camping tent near Mueller Hut | Martina James | Unsplash License | [Source](https://unsplash.com/photos/green-camping-tent-near-rock-formations-g7vsFfGsDMc) |
 | `two-week-camper-itinerary-new-zealand` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
+| `rankers-alternatives` | DSCN2150 Medlands Beach Campsite.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:DSCN2150_Medlands_Beach_Campsite.jpg) |

@@ -5,6 +5,7 @@ import { planningArticles } from "@/lib/content/planning";
 import { appArticles } from "@/lib/content/app-guides";
 import { costArticles } from "@/lib/content/costs";
 import { legacyOnlyArticles } from "@/lib/content/legacy";
+import { listicleArticles } from "@/lib/content/listicles";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
@@ -56,6 +57,7 @@ export const articles: Article[] = [
   ...appArticles,
   ...costArticles,
   ...legacyOnlyArticles,
+  ...listicleArticles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article));
 
