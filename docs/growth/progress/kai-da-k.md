@@ -23,10 +23,19 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 
 - Batch 8: wildlife-livestock-road-safety-new-zealand, bay-of-islands-camping-week, rakiura-stewart-island-camping-guide, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki-road-trip. da 62/85 guides.
 
+- Batch 9: new-zealand-severe-weather-camping, earthquake-tsunami-camping-new-zealand, winter-driving-new-zealand-campervan, one-lane-bridges-gravel-roads-new-zealand, camping-rules-local-councils-new-zealand. da 67/85 guides.
+
+- Batch 10 (app guides): plan-trip-kiwicamping, save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around. da 72/85 guides. No offline-map wording ("kortapp, der virker uden dækning"), Pass boundary kept (BookIt free; DOC places, dump stations, day-use areas need Premium Pass as the English says).
+
+- Batch 11: kiwicamping-currency-place-costs, winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, wellington-wairarapa-camping-loop. da 77/85 guides.
+
+- Batch 12 (last): north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip. da 83/85 guides.
+
 ## Next
-- b9 new-zealand-severe-weather-camping earthquake-tsunami-camping-new-zealand winter-driving-new-zealand-campervan one-lane-bridges-gravel-roads-new-zealand camping-rules-local-councils-new-zealand; then b10..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
-- Working method without helpers (numbered): `python3 /tmp/da-k2/numview.py NAME` to read, write `N|||Danish` lines, `fromnum.py NAME lines out.json`, `edit.py` for fixes; then the steps below.
-- Earlier method: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
+- Nothing left in my lane. The only two guides not complete in Danish are the skipped listicles owned by another lane: wikicamps-alternatives, best-campervan-apps-new-zealand.
+- Later, when the English of a translated guide changes, `npm run translations:invalidate`/stamp will mark it stale and it falls back to English until retranslated.
+
+- After the final rebase onto origin/main (47b8dae), four NEW App-guide listicles appeared (best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand, publishAt 27 Oct to 1 Nov). They are untranslated in every locale and not on my skip list, but they belong to the listicle series another lane owns, so I left them. Tell me if I should do them.
 
 ## Blockers / questions
 (none)
@@ -40,3 +49,4 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - doc-hut-rules-etiquette: English meta description is only 80 characters, so the Danish is short too (no facts added).
 - alcohol-fatigue-driving: Danish writes the blood limit as 0,05 with no promille gloss (section 0: no added conversions).
 - new-zealand-three-week-campervan-route: tip says "Roughly 8 north, 1 ferry, 12 south" but the body and description say nine days north, eleven south.
+- new-zealand-severe-weather-camping faq[0][1]: "exhausted alpine passes" is probably a typo for "exposed"; the Danish says "udmattede" as written.
