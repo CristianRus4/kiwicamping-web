@@ -21,9 +21,11 @@ B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-c
 - B3 applied, stamped, content:check passes (de 63/85): banks-peninsula-camping-weekend, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, responsible-camping-new-zealand, freedom-camping-rules-new-zealand.
 - B4 applied, stamped, content:check passes (de 68/85; the 17 left are the 2 skipped listicles + B5 + 10 road trips): self-contained-campervan-green-warrant, camping-wastewater-rubbish-new-zealand, campfire-rules-new-zealand, camping-fees-new-zealand-2026, freedom-camping-new-zealand-guide.
 - `npm run check` passed on B1..B3 (exit 0, 42 tests).
+- B5 applied, stamped, content:check passes (de 73/85): doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, scenic-campsites-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand.
+- `npm run check` passed on B1..B4 (exit 0).
 
 ## Next
-Hand off B1..B4 after `npm run check` and review of the rules units; then B4; after 09:00 start the Opus native review of B1..B3.
+Hand off B1..B5 (12 left: 10 road trips + 2 skipped listicles = 10 to do); B6/B7 road trips after `npm run check` and review of the rules units; then B4; after 09:00 start the Opus native review of B1..B3.
 
 ## Blockers
 None.
