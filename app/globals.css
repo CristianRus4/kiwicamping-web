@@ -292,6 +292,9 @@ em { color: inherit; font: inherit; font-style: normal; }
 .price-table tbody th strong, .price-table tbody th span { display: block; }
 .price-table tbody th span { color: var(--muted); font-weight: 500; }
 .price-table-disclaimer { margin-top: 12px; color: var(--muted) !important; font-size: 12px !important; }
+.comparison-table td { min-width: 170px; max-width: 230px; white-space: normal; text-align: left; vertical-align: top; line-height: 1.45; }
+.comparison-table th { text-align: left; }
+.comparison-table th:first-child { min-width: 140px; }
 .article-body .editorial-opening { padding: 18px 0 36px; border-top: 0; }
 .editorial-opening h2 { margin-bottom: 24px; font-size: 36px; }
 .editorial-opening blockquote { margin: 38px 0; padding: 12px 0 12px 28px; border-left: 4px solid var(--eucalyptus); color: var(--deep); font-size: clamp(27px, 3.4vw, 42px); font-weight: 720; letter-spacing: -0.015em; line-height: 1.22; }
@@ -607,3 +610,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .hub-places tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
   .hub-places th, .hub-places td { display: block; padding: 3px 14px; border: 0; }
 }
+.guide-hubs .hub-directory { margin-top: 18px; }
+.guide-hubs .hub-directory h3 { margin: 0 0 4px; font-size: 18px; }
+.guide-hubs .hub-directory h3 a { color: var(--fern); }
+.guide-hubs .hub-directory ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); column-gap: 28px; margin: 0; }

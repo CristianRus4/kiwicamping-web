@@ -1,0 +1,10 @@
+# Fact-check F: batch 2 (scenic campsites, packing list, Cape Reinga, Abel Tasman, 3-week route)
+
+Run 20 Oct 2026 by the K-content lane against the live official pages (curl of doc.govt.nz).
+
+- Scenic campsites table: every adult fee and booking status re-read from each campsite's DOC page on 20 Oct 2026. Corrections against the app data (Aug 2026): Twelve Mile Delta is $15, not $18; DOC is "not currently taking bookings" for Tapotupotu and Kapowairua (data said bookable); Putangirua Pinnacles takes bookings ("Bookings are open for stays up to 30 June 2027"; data said not). Table note now says fees and booking status were checked on DOC's pages on 20 Oct 2026.
+- Cape Reinga: DOC page: "Please do not eat any food at Cape Reinga/Te Rerenga Wairua. It is fine to drink water. If you wish to eat, Tapotupotu is a nice alternative. It is 5-10 min drive on a gravel road". Old text ("Food is not permitted at the lighthouse area") replaced.
+- Abel Tasman Coast Track (DOC track page): "4 huts and 18 campsites ... which must be booked in advance all year round"; campsites 1 Oct to 30 Apr $21 NZ / $31 international, 1 May to 30 Sep $21 / $21; Torrent Bay and Bark Bay estuaries 2 hours either side of low tide with all-tide tracks; Awaroa "only ... in daylight, and within 1 hour 30 minutes before and 2 hours after low tide".
+- 3-week route: blue warrants stopped counting on 7 June 2026 (wording and sources reused from the self-contained page, fact-check A); council sites may be set aside for non-self-contained vehicles; DOC notices restrict some conservation land to certified vehicles (85 restricted notices in freedom.json).
+- Packing list: declare used tents, boots and gear that has touched soil or fresh water, and food (MPI arriving in New Zealand; wording from the fact-checked biosecurity guide). No fine amount stated.
+- Dark Sky Reserve: Aoraki Mackenzie International Dark Sky Reserve (darkskyreserve.org.nz). Te Anau district DOC notices: 24 current, all prohibiting camping, including Milford Road sites (lib/data/hubs.json).

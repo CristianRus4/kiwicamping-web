@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Heart, Layers, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, SlidersHorizontal, TentTree, Trees } from "lucide-react";
+import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Droplets, Heart, Layers, ListChecks, Map, MapPinned, Mountain, Navigation, Route, Search, ShieldCheck, SlidersHorizontal, TentTree, Trees } from "lucide-react";
 import { FaApple } from "react-icons/fa6";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -15,7 +15,7 @@ import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner" },
-  description: "Find 6,500+ campsites, DOC huts, holiday parks and freedom camping areas across New Zealand. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  description: "NZ camping map and app for iPhone: 6,500+ places including DOC campsites, huts, holiday parks, freedom camping areas and dump stations, and a trip planner.",
   alternates: { canonical: "/", languages: alternatesFor("home") },
 };
 
@@ -23,7 +23,7 @@ const features = [
   {icon: Layers, title:"Smart collections and your own lists", text:"Liked, Starred, Want to visit and Visited fill themselves as you mark places. Build named collections on top for an island, a season or the shortlist you are still arguing about."},
   {icon: SlidersHorizontal, title:"Filters that answer a real question", text:"Ask for free camping areas with toilets and drinking water around Queenstown, then narrow further by place type, fee, rating, online booking, region and detailed facility and access features."},
   {icon: Map, title:"Standard, satellite and 3D maps", text:"Switch between the standard map and satellite imagery you can tilt and spin into real terrain. Pins group into counts when you are zoomed out and break apart as you move in."},
-  {icon: Binoculars, title:"Street View before the turnoff", text:"Street View opens straight from the place screen where coverage exists, so you can see the entrance, the road surface and the surroundings before committing the van to the turnoff."},
+  {icon: Binoculars, title:"Look Around before the turnoff", text:"Apple Look Around opens straight from the place screen where coverage exists, so you can see the entrance, the road surface and the surroundings before committing the van to the turnoff."},
   {icon: CloudSun, title:"Weather on every place", text:"Current conditions and the forecast sit on the place screen and beside each trip stop, so a choice between two camps can be made with the sky in mind."},
   {icon: CircleDollarSign, title:"Costs in your own currency", text:"Visiting and not fluent in New Zealand dollars? Choose your currency and set the rate once, and reported costs are shown alongside in money you can judge at a glance."},
 ];
@@ -31,12 +31,12 @@ const features = [
 const faqs = [
   ["What is KiwiCamping?", "KiwiCamping is an iPhone app for finding places to camp and stay around New Zealand. It bundles a directory of 6,500+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos."],
   ["What places are included?", "More than 6,500 places: DOC campsites, backcountry huts, holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use places across both islands."],
-  ["Does it work without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Street View, photos and provider pages still need a connection."],
+  ["Does it work without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, facilities and conditions stay readable well beyond signal. Live services such as weather, routing, Look Around imagery, photos and provider pages still need a connection."],
   ["Can I plan a multi-stop road trip?", "Yes, and it is the app's main feature. Add places as stops, drag them into order, attach a date and arrival notes to each one, see the driving distance leg by leg and across the whole trip, open directions to the next stop, check the weather at each one, tick stops off as visited and keep the packing list beside the itinerary. Itinerary details can sync to Calendar."],
   ["What are collections?", "Two kinds. Smart collections (Liked, Starred, Want to visit, Visited, Pins and All saved) fill themselves as you mark places. On top of those you can create your own named collections with an icon and notes for a region, a season, a vehicle or a shortlist."],
   ["Can I filter for free camps or self-contained sites?", "Yes, and combinations of them. Filters cover place type, fee, minimum rating, online booking, region and detailed facility and access features, so \u201cfree camping areas with toilets and drinking water near Queenstown\u201d is a single query."],
-  ["What is on a place screen?", "Photos, a description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, weather, Street View where coverage exists, directions, and nearby alternatives."],
-  ["What map views are there?", "A standard map and a satellite view built on Apple's flyover imagery, which you can tilt and rotate for real 3D terrain. Street View, built on Apple's Look Around imagery, gives the street-level view from the place screen."],
+  ["What is on a place screen?", "Photos, a description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, weather, Look Around where coverage exists, directions, and nearby alternatives."],
+  ["What map views are there?", "A standard map and a satellite view built on Apple's flyover imagery, which you can tilt and rotate for real 3D terrain. Apple Look Around gives the street-level view from the place screen."],
   ["Can I see prices in my own currency?", "Yes. Choose your currency in settings and set the conversion rate, and reported costs are shown in that currency alongside the New Zealand dollar figure."],
   ["Can I book a campsite in KiwiCamping?", "Open the booking details for a place to reach its provider and check live availability, prices and terms."],
   ["Are camping rules the same across New Zealand?", "No. National law, council bylaws, conservation rules and individual site conditions can all apply. Always follow current signs, land-manager directions, fire restrictions and official alerts."],
@@ -78,6 +78,15 @@ export default function Home() {
 
       <section className="trust-strip"><p>Campsites, caravan parks and useful stops across New Zealand.</p><div>{[TentTree,Caravan,Trees,Navigation,Map,CloudSun].map((Icon,i)=><span key={i}><Icon/>{["Campsites","Caravan parks","National parks","Rest areas","Useful stops","Experiences"][i]}</span>)}</div></section>
 
+      <section className="section map-intent-section" id="camping-map">
+        <div className="section-head"><div><p className="eyebrow">The New Zealand camping map</p><h2>DOC campsites, huts<br/>and <em>dump stations.</em></h2></div><p>One map for DOC campsites and huts, the dump stations between them and DOC&apos;s freedom camping notices for conservation land, with holiday parks and tours you can book through BookIt alongside. Place details stay on your phone without signal; map tiles, routing and weather need a connection. DOC places, dump stations and the notices are part of the Premium pass, while BookIt stays and tours are free.</p></div>
+        <div className="steps-grid">
+          <article><TentTree/><h3>287 DOC campsites</h3><p>From free basic sites to serviced grounds, each with its fee per adult, whether it takes bookings, the dog rules and which vehicles can get in.</p></article>
+          <article><Mountain/><h3>927 DOC huts</h3><p>Serviced, standard, basic and Great Walk huts with bunk numbers, the nightly fee and whether you book ahead or turn up first come, first served.</p></article>
+          <article><Droplets/><h3>262 dump stations</h3><p>Public dump stations for toilet cassettes and grey water, with fee notes, so you can plan the next empty before the tank decides for you. Most are free.</p></article>
+        </div>
+      </section>
+
       <section className="section story-section" id="how-it-works">
         <div className="section-head"><div><p className="eyebrow">From idea to open road</p><h2>Find a camp.<br/>Build the trip.</h2></div><p>Filter down to tonight’s camp, save tomorrow’s possibilities into collections and keep the route, distance, dates, notes and to-dos together in one trip.</p></div>
         <div className="steps-grid">
@@ -90,7 +99,7 @@ export default function Home() {
       <section className="feature-stage" id="features">
         <div className="feature-intro"><p className="eyebrow">The full toolkit</p><h2>Find it. Save it.<br/>Plan the whole road ahead.</h2><p>Explore places, compare the details, organise favourites and build a trip that stays useful after the planning table.</p></div>
         <div className="feature-showcase">
-          <div className="feature-copy-large"><div className="icon-tile"><MapPinned/></div><p className="eyebrow">Know the place before you get there</p><h3>Every place opens with the detail that decides it.</h3><p>Photos, a real description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, the weather, and Street View to see the entrance from the road.</p><ul><li><Check/>Photos, hours, fees, conditions and facilities</li><li><Check/>Street View, weather and directions built in</li><li><Check/>Bundled offline, it opens with no signal</li></ul></div>
+          <div className="feature-copy-large"><div className="icon-tile"><MapPinned/></div><p className="eyebrow">Know the place before you get there</p><h3>Every place opens with the detail that decides it.</h3><p>Photos, a real description, opening hours, fees, terms and conditions, facilities grouped by type, current alerts, ratings, contact and booking details, the weather, and Apple Look Around to see the entrance from the road.</p><ul><li><Check/>Photos, hours, fees, conditions and facilities</li><li><Check/>Look Around, weather and directions built in</li><li><Check/>Bundled offline, it opens with no signal</li></ul></div>
           <div className="product-images">
             <ScreenshotImage className="product-shot product-shot-one" src="/images/kiwicamping-feature-1.webp" sizes="(max-width: 700px) 150px, 185px"
               alt="A KiwiCamping place screen for Robin Hood Bay Campsite in Marlborough, showing the free fee, opening status, amenities and a booking link" />

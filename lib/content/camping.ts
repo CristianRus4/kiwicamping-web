@@ -4,46 +4,46 @@ const s = (heading: string, body: string[], tips?: string[]): ArticleSection => 
 
 export const campingArticles: Article[] = [
   a({
-    slug: "doc-huts-new-zealand-guide",
-    title: "DOC huts in New Zealand: how the hut system works",
-    description: "Serviced, standard, basic and Great Walk huts have different facilities, fees and booking rules.",
+    slug: "doc-huts-new-zealand-guide", hubs: ["huts"],
+    title: "DOC Huts in New Zealand by Region: Types, Fees, Tickets",
+    description: "Where DOC's huts are, region by region, what serviced, standard and basic huts cost in 2026/27, and how hut tickets, the Hut Pass and bookings work.",
     category: "Camping guides", region: "New Zealand backcountry", readTime: 4,
     places: ["Serviced huts", "Standard huts", "Basic huts", "Great Walk huts", "Hut tickets"],
     imageAlt: "Backcountry hut in New Zealand mountains",
-    intro: "A hut is shared shelter in the backcountry, not accommodation hidden in the bush. Around 950 of them sit across public conservation land, and they range from a serviced building with heating and mattresses to a two-bunk shell with a dirt floor. Knowing which category you are walking towards decides what you carry.",
+    intro: "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard.",
     sections: [
-      s("The four hut categories", [
-        "Serviced huts are the most equipped: mattresses on bunks, a water supply, toilets, and usually heating with fuel provided. Standard huts drop the heating fuel and sometimes the mattresses, but keep bunks, water and a toilet. Basic huts are shelter and little else, and may have no water source at all.",
-        "Great Walk huts sit outside this ladder. They are serviced to a high standard during the walking season, cost considerably more, and operate on their own booking system tied to the specific track. Outside the season they typically revert to a lower standard at a lower price, with facilities reduced or removed.",
-      ], ["Category predicts facilities and fee", "Great Walk huts book separately", "Basic huts may have no water"]),
-      s("Facilities never replace what you carry", [
-        "A roof does not remove the need for a sleeping bag, a mat, a stove, fuel, food, a head torch and warm layers. Huts are not staffed, they do not hold supplies, and a serviced hut with a fire is still cold if the previous party used the last of the wood.",
-        "Pack for the walk and the weather rather than for the hut description. New Zealand alpine conditions turn fast, and the party that arrives wet with no spare warm layer is in trouble regardless of what the building offers.",
+      s("Hut categories and 2026/27 fees", [
+        "Serviced huts have mattresses, a water supply, toilets, handwashing and heating with fuel. For 2026/27 an adult pays $25 a night from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February; children pay half, and camping beside one costs half the hut fee. Standard huts have mattresses, water and toilets, with wood heaters below the bush line, for $15 an adult and $7.50 a child. Basic huts and bivvies are free and offer shelter and little else. In KiwiCamping's data that splits into 96 serviced, 408 standard and 372 basic huts.",
+        "Three categories sit outside that ladder. Great Walk huts, 33 of them in KiwiCamping's data, have their own prices by track, season and residency and must be booked in the Great Walks season. Individually priced huts, including serviced alpine huts such as Mueller Hut, set their own fee, and club huts are run by clubs such as the New Zealand Alpine Club, so check the hut's DOC page. Whatever the category, the roof never replaces a sleeping bag, stove, food, head torch and warm layers.",
+      ], ["Serviced $25 to $34 by season, standard $15, basic free", "Great Walk and alpine huts price individually", "Carry full gear whatever the category"]),
+      s("Where the huts are, region by region", [
+        "The South Island holds most of the network. Canterbury has 180 huts, led by Lake Sumner Forest Park and Arthur's Pass National Park; the West Coast 140, many up the Whitcombe and Styx valleys; Nelson/Tasman 99, with 45 in Kahurangi National Park and 24 in Nelson Lakes; Otago 78, including 12 in Mount Aspiring National Park and 12 in Hāwea Conservation Park; Southland 70, including 30 on Rakiura; Marlborough 60; and Fiordland 55, almost all inside Fiordland National Park.",
+        "In the North Island, Hawke's Bay has 55 huts split between the Kaweka and Ruahine forest parks, Manawatū/Whanganui 43, the East Coast 38 across Te Urewera and Whirinaki, Wairarapa 36 and Wellington/Kāpiti 24, most of them in the Tararua Range. The Central North Island has 16, ten in Tongariro National Park, and Bay of Plenty, Taranaki, Northland, Waikato, Coromandel and Auckland have eight or fewer each.",
       ]),
       s("Hut tickets, passes and bookings", [
-        "Non-bookable huts generally use hut tickets bought in advance, or a Backcountry Hut Pass covering a period rather than a night. Bookable huts need a named reservation for the correct date, and Great Walk huts book out months ahead for the summer season.",
-        "The common mistake is treating a pass as a booking. A Backcountry Hut Pass pays your way into huts that accept tickets; it reserves nothing and does not apply to Great Walk or other bookable huts. Read which system the specific hut uses before you leave.",
-      ], ["A pass is not a reservation", "Buy tickets before the track", "Great Walk huts sell out months ahead"]),
-      s("Nobody is turned away", [
-        "Bunks in non-bookable huts are first come, and the long-standing convention is that a full hut means floor space rather than a closed door. Do not walk on into darkness because the bunks are taken, and do not expect a bunk to be held for you because you booked a different hut.",
+        "Non-bookable huts take Backcountry Hut Tickets, bought before the trip and posted in the honesty box, or a Backcountry Hut Pass that covers most serviced and standard huts for 12 months. From 1 November 2026 hut tickets can also be bought on DOC's online booking system, and paper tickets stay valid until 1 November 2027. Bookable huts are reserved and paid on bookings.doc.govt.nz, and since 1 October 2026 that includes every serviced hut, so Serviced Hut Tickets are being retired.",
+        "The common mistake is treating a pass or a ticket as a booking. Neither reserves a bunk or gives priority in a first-come hut. The Hut Pass can pay for some bookable huts if you enter it when booking, but not Great Walk huts in their booking season or the huts on DOC's exclusion list. Read which system the specific hut uses before you leave.",
+      ], ["A pass is not a reservation", "Hut tickets go online from 1 November 2026", "Great Walk huts sell out months ahead"]),
+      s("A full hut is still shelter in an emergency", [
+        "At a bookable hut, DOC keeps no space for people without a booking, and you can be turned away when it is full. At non-bookable huts bunks are first come, and the convention is that a full hut means floor space rather than a closed door. Every hut stays open as emergency shelter in bad weather, so do not walk on into darkness because the bunks are taken.",
         "Carry a mat and the means to sleep on the floor, and where the weather allows it and the site permits camping, a tent gives you a genuine alternative. On popular tracks in January, assume the hut will be full and plan accordingly.",
       ]),
       s("Water, cooking and fire", [
-        "Treat hut water unless current DOC information for that hut says it is safe to drink. Roof-collected supply can be contaminated, and giardia is present in New Zealand backcountry water. Boiling, filtering or chemical treatment all work; assuming is what causes problems.",
+        "Treat hut water unless current DOC information for that hut says it is safe to drink. Roof-collected supply can be contaminated, and giardia is present in New Zealand backcountry water. Boiling is the surest method, and DOC says three minutes; a filter rated for protozoa also works. Assuming is what causes problems.",
         "Cook on your own stove, outside or in the designated area, and never inside a tent. Where a fire is provided, use it sparingly and restock the kindling for whoever arrives next in worse weather than you had.",
       ], ["Treat the water unless told otherwise", "Carry a stove regardless", "Restock kindling before you leave"]),
       s("Hut etiquette", [
         "Boots off inside. Keep your gear consolidated on your bunk rather than spread across the table and benches. Be quiet early and move quietly in the morning, because trampers start before dawn and the whole party sleeps in one room after a hard day.",
-        "Fill in the hut book, every time, including the date and your intentions. It is a courtesy, but more importantly it is the first thing search and rescue reads when someone is overdue, and an accurate entry has shortened many searches.",
+        "Fill in the hut book, every time, including the date and your intentions. It is a courtesy, and more importantly it can help search and rescue if someone in your party is overdue.",
       ]),
       s("Leaving the hut", [
         "Sweep the floor, close the shutters and doors properly, and carry out everything you carried in, including food scraps. Rubbish left in a hut attracts rodents, and there is no collection service; whatever you leave stays until another walker removes it.",
-        "Report damage, a broken stove, a failed water supply or a hazard to DOC after your trip. Huts are maintained on the basis of what gets reported, and a five-minute message can prevent the next party arriving to a building that does not work.",
+        "Report damage, a broken stove, a failed water supply or a hazard to DOC after your trip. Reports help DOC prioritise repairs, and a five-minute message can prevent the next party arriving to a building that does not work.",
       ], ["Carry out all rubbish and scraps", "Close shutters and doors", "Report damage to DOC afterwards"]),
     ],
     sources: [
-      { label: "DOC hut categories", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/hut-categories/" },
-      { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "DOC accommodation prices 2026/27 by hut and campsite category", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/doc-accommodation-price-changes--20262027/" },
+      { label: "DOC media release, 1 October 2026: serviced huts bookable, hut tickets online", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/more-doc-huts-go-online-as-booking-and-payment-gets-easier/" },
     ],
   }),
 
