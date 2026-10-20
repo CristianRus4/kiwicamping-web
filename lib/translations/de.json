@@ -5121,5 +5121,231 @@
         ]
       }
     }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Startseite",
+      "breadcrumbTools": "Rechner",
+      "howTitle": "So wird gerechnet",
+      "exampleTitle": "Rechenbeispiel",
+      "assumptionsTitle": "Annahmen",
+      "sourcesTitle": "Quellen",
+      "faqTitle": "Häufige Fragen",
+      "guidesTitle": "Passende Ratgeber",
+      "otherToolsTitle": "Weitere Roadtrip-Rechner",
+      "openTool": "Rechner öffnen",
+      "ctaEyebrow": "Mit KiwiCamping planen",
+      "ctaTitle": "Erst die Stopps finden, dann rechnen.",
+      "ctaText": "KiwiCamping lässt sich kostenlos aufs iPhone laden. Buchbare Holiday Parks, Unterkünfte und Touren sind in der App kostenlos. DOC-Campingplätze, Hütten, Entsorgungsstationen und die Ratgeber gibt es mit dem Pass.",
+      "ctaButton": "App laden",
+      "enterValidValues": "Gültige Werte eingeben",
+      "enterValidAmount": "Gültigen Betrag eingeben"
+    },
+    "index": {
+      "metaTitle": "Roadtrip-Rechner Neuseeland: Sprit, Fahrzeit, Campingkosten",
+      "metaDescription": "Kostenlose Roadtrip-Rechner für Neuseeland: Spritkosten, Fahrzeit nach Straßenart, Campingkosten pro Person oder Stellplatz, NZD umrechnen und Wassertanks im Campervan.",
+      "toolsTitle": "Ein Rechner für jede Frage",
+      "toolsText": "Jeder Rechner hat eine eigene Seite mit der Formel, einem Rechenbeispiel mit neuseeländischen Zahlen, den zugrunde liegenden Annahmen und Antworten auf häufige Fragen."
+    },
+    "fuel": {
+      "metaTitle": "Spritkostenrechner Neuseeland: Roadtrip mit dem Campervan",
+      "metaDescription": "Spritmenge und Spritkosten für den Roadtrip in Neuseeland aus Strecke, l/100 km und Spritpreis berechnen, mit Formel, Rechenbeispiel für 1.000 km und MBIE-Richtwert.",
+      "eyebrow": "Spritkostenrechner",
+      "cardEyebrow": "Spritrechner",
+      "h1": "Spritkostenrechner für einen Roadtrip in Neuseeland",
+      "intro": "Trag die Streckenlänge, den Verbrauch deines Fahrzeugs bei voller Beladung und den Preis pro Liter ein. Voreingestellt ist der landesweite Aushangpreis des MBIE für Benzin Regular 91 in der Woche bis zum 26. Juli 2026.",
+      "cardTitle": "Was die Strecke kostet.",
+      "cardText": "Trag die gesamte Streckenlänge, den Verbrauch des Fahrzeugs bei voller Beladung und den erwarteten Preis pro Liter ein. In abgelegenen Gegenden können die Preise über den Richtwerten für Städte liegen.",
+      "labelDistance": "Strecke (km)",
+      "labelConsumption": "Verbrauch (l/100 km)",
+      "labelPrice": "Spritpreis (NZD/l)",
+      "formula": [
+        "Liter = Strecke (km) × Verbrauch (l/100 km) ÷ 100",
+        "Kosten = Liter × Preis pro Liter (NZD)"
+      ],
+      "formulaNote": "Der Verbrauch wird pro 100 Kilometer angegeben, deshalb teilt man durch 100, um Liter pro Kilometer zu erhalten. Die Rechnung ist linear: Bei doppelter Strecke verdoppeln sich Liter und Kosten.",
+      "example": "Für eine Strecke von {distance} km braucht ein Campervan mit {consumption} l/100 km {litres} Liter Sprit. Bei {price} pro Liter sind das {cost}.",
+      "assumptions": [
+        "Der voreingestellte Preis ist ein landesweiter Richtwert. Abgelegene Tankstellen, etwa an der West Coast und in Fiordland, verlangen oft mehr. Tank deshalb voll, bevor lange Abschnitte ohne Ortschaft kommen.",
+        "Nimm den Verbrauch bei voller Beladung für das Fahrzeug, mit dem du wirklich fährst. Ein vollbeladener Campervan braucht bergauf und bei Gegenwind mehr, als im Prospekt steht.",
+        "Rechne die Fahrten rund um jeden Stopp dazu. Einkaufsfahrten, Aussichtspunkte und Nebenstraßen läppern sich auf einer langen Route.",
+        "Dieselfahrzeuge zahlen zusätzlich zum Sprit für jeweils 1.000 km Straßennutzungsgebühren (Road User Charges, RUC). Dieser Rechner berücksichtigt nur den Sprit."
+      ],
+      "faq": [
+        [
+          "Wie viel Sprit braucht ein Campervan in Neuseeland?",
+          "Das hängt vom Fahrzeug, der Beladung und den Straßen ab. Nimm den Wert deiner Vermietung oder deines Fahrzeugs und plane für Steigungen einen Puffer ein. Die voreingestellten 12 l/100 km sind ein Planungswert für einen beladenen Campervan, kein gemessener Durchschnitt."
+        ],
+        [
+          "Sind die Straßennutzungsgebühren in den Spritkosten enthalten?",
+          "Nein. Dieselfahrzeuge zahlen in Neuseeland die Straßennutzungsgebühren pro 1.000 km getrennt vom Sprit. Frag bei deiner Vermietung nach, ob RUC im Preis enthalten ist, und prüf die aktuellen Gebühren bei der NZTA."
+        ],
+        [
+          "Woher kommt der voreingestellte Spritpreis?",
+          "Es ist der landesweite Aushangpreis des MBIE für Benzin Regular 91 in der Woche bis zum 26. Juli 2026. Das MBIE veröffentlicht die Spritpreise jede Woche, prüf also vor der Abreise den aktuellen Wert."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Fahrzeitrechner Neuseeland: Realistische Zeit je Straßenart",
+      "metaDescription": "Schätze, wie lange ein Fahrtag in Neuseeland wirklich dauert: aus Strecke, Straßenart und Stopps, mit Formel, Rechenbeispiel und den verwendeten Geschwindigkeiten.",
+      "eyebrow": "Fahrzeitrechner",
+      "cardEyebrow": "Fahrtag-Schätzer",
+      "h1": "Fahrzeitrechner für Straßen in Neuseeland",
+      "intro": "Routenplaner-Apps zeigen die reine Fahrzeit auf einer idealen Straße. Dieser Rechner nimmt die Strecke, die du schon kennst, eine Durchschnittsgeschwindigkeit für die Straßenart und 20 Minuten pro Stopp. Genau dort wird ein Fahrtag in Neuseeland meist länger als gedacht.",
+      "cardTitle": "Wie lange der Tag wirklich dauert.",
+      "cardText": "Routenplaner-Apps zeigen die Fahrzeit auf einer idealen Straße. Hier kommen die Art der Straße und deine tatsächlichen Stopps dazu, und genau dort wird ein Tag meist länger.",
+      "labelDistance": "Strecke (km)",
+      "labelRoadType": "Straßenart",
+      "roadMotorway": "Autobahn oder freie, gerade Strecke",
+      "roadHighway": "Fernstraße",
+      "roadWinding": "Kurvig oder an der Küste",
+      "roadNarrow": "Schmal, steil oder Schotter",
+      "labelStops": "Stopps",
+      "hoursMinutes": "{hours} Std. {minutes} Min.",
+      "formula": [
+        "Fahrminuten = Strecke (km) ÷ Durchschnittsgeschwindigkeit (km/h) × 60",
+        "Gesamtminuten = Fahrminuten + 20 × Stopps"
+      ],
+      "formulaNote": "Die Durchschnittsgeschwindigkeit ist nicht das Tempolimit. Sie berücksichtigt Kurven, Steigungen, einspurige Brücken, Ortschaften und langsameren Verkehr. Die vier Straßenarten rechnen mit 85, 70, 60 und 45 km/h.",
+      "example": "Ein Tag mit {distance} km auf kurvigen Straßen oder Küstenstraßen bei {speed} km/h bedeutet {driving} reine Fahrzeit. Mit {stops} Stopps à 20 Minuten dauert der Tag {total}.",
+      "assumptions": [
+        "Die Durchschnittsgeschwindigkeiten sind Planungswerte für ein Auto oder einen Campervan bei guten Bedingungen, keine gemessenen Durchschnitte für eine bestimmte Straße.",
+        "Für jeden Stopp sind 20 Minuten angesetzt: Tanken, Essen, Toilette oder Aussichtspunkt. Fähren, Baustellen und lange Spaziergänge musst du noch dazurechnen.",
+        "Wetter, Erdrutsche und Sperrungen verändern Routen. Schau vor der Abfahrt im Journey Planner der NZTA nach den aktuellen Straßenverhältnissen."
+      ],
+      "faq": [
+        [
+          "Wie weit kann man in Neuseeland an einem Tag fahren?",
+          "Eine feste Zahl gibt es nicht. Kurvige Straßen, einspurige Brücken und Stopps halten die Durchschnittsgeschwindigkeit weit unter dem Tempolimit außerorts. Ein Tag, der auf der Karte kurz aussieht, kann deshalb den größten Teil der hellen Stunden kosten. Gib Strecke und Straßenart ein, dann siehst du die Stunden. Plane regelmäßige Pausen ein."
+        ],
+        [
+          "Warum dauert es hier länger als in meiner Karten-App?",
+          "Karten-Apps schätzen die reine Fahrzeit ohne Stopps. Dieser Rechner nimmt einen Durchschnitt für die Straßenart und addiert Zeit für jeden Stopp. Das kommt dem tatsächlichen Ablauf eines Campingtags näher."
+        ],
+        [
+          "Funktioniert das auch für einen Campervan?",
+          "Ja. Wähle eine langsamere Straßenart, wenn du ein großes Fahrzeug fährst, mit Anhänger unterwegs bist oder noch nicht an den Linksverkehr gewöhnt bist."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campingkosten Neuseeland: pro Person oder pro Stellplatz?",
+      "metaDescription": "DOC-Campingplatz pro Erwachsenem oder Holiday Park pro Stellplatz? Vergleiche für deine Gruppe und Nächte, mit Formel, Rechenbeispiel und Gebühren aus den DOC-Daten.",
+      "eyebrow": "Campingkosten-Rechner",
+      "cardEyebrow": "Campingplatz-Vergleich",
+      "h1": "Campingkosten-Rechner: pro Person oder pro Stellplatz",
+      "intro": "DOC-Campingplätze berechnen den Preis pro Erwachsenem und Nacht, ein Holiday Park meist pro Stellplatz. Welche Variante günstiger ist, hängt von der Gruppengröße ab, und dieser Rechner ermittelt es für deine Nächte.",
+      "cardTitle": "Pro Person oder pro Stellplatz?",
+      "cardText": "Ein DOC-Campingplatz berechnet meist pro Erwachsenem, ein Holiday Park meist pro Stellplatz. Was günstiger ist, hängt von der Gruppengröße ab, und das überrascht Familien oft.",
+      "labelAdults": "Erwachsene",
+      "labelNights": "Nächte",
+      "labelPerAdult": "Pro Erwachsenem (NZD)",
+      "labelPerSite": "Pro Stellplatz (NZD)",
+      "comparison": "{perAdult} vs. {perSite} · {verdict}",
+      "theSame": "gleich teuer",
+      "perAdultCheaper": "pro Erwachsenem günstiger",
+      "perSiteCheaper": "pro Stellplatz günstiger",
+      "formula": [
+        "Gesamt bei Preis pro Erwachsenem = Erwachsene × Nächte × Preis pro Erwachsenem",
+        "Gesamt bei Preis pro Stellplatz = Nächte × Preis pro Stellplatz",
+        "Die niedrigere Summe ist für deine Gruppe die günstigere Option"
+      ],
+      "formulaNote": "Bei Preisen pro Erwachsenem wächst die Summe mit jedem weiteren Erwachsenen, bei Preisen pro Stellplatz nicht. Deshalb fällt die Antwort für ein Paar anders aus als für eine Familie.",
+      "example": "{adults} Erwachsene, die {nights} Nächte bleiben, zahlen bei {rateAdult} pro Erwachsenem {totalAdult}. Derselbe Aufenthalt bei {rateSite} pro Stellplatz kostet {totalSite}. Ergebnis: {verdict}.",
+      "assumptions": [
+        "Kinder sind nicht eingerechnet. Viele DOC-Campingplätze verlangen für Kinder von 5 bis 17 Jahren einen ermäßigten Preis und für Kleinkinder nichts, und Holiday Parks legen ihre Kinderpreise selbst fest.",
+        "Die voreingestellten Preise sind Beispiele, keine Angebote. In den DOC-Daten (Stand {docDate}) sind {docFree} DOC-Campingplätze kostenlos, und der niedrigste angegebene Erwachsenenpreis auf kostenpflichtigen Plätzen reicht von {docMin} bis {docMax} pro Nacht.",
+        "Holiday Parks legen ihre Preise selbst fest, und die ändern sich mit Saison, Strom und Stellplatzgröße. Prüf die Angaben beim Park, bevor du buchst."
+      ],
+      "faq": [
+        [
+          "Was kostet ein Campingplatz in Neuseeland pro Nacht?",
+          "DOC-Campingplätze sind entweder kostenlos oder verlangen eine Gebühr pro Erwachsenem. In den DOC-Daten (Stand {docDate}) reicht der niedrigste Erwachsenenpreis auf kostenpflichtigen DOC-Campingplätzen von {docMin} bis {docMax} pro Nacht, bei einem Median von {docMedian}. Holiday Parks legen ihre Stellplatzpreise selbst fest, vergleiche also die Gesamtsumme für deine Gruppe."
+        ],
+        [
+          "Was ist für eine Familie günstiger: pro Person oder pro Stellplatz?",
+          "Mit wachsender Gruppe liegt meist der Preis pro Stellplatz vorn, weil er gleich bleibt, während sich die Gebühren pro Erwachsenem vervielfachen. Trag deine eigenen Preise ein, dann siehst du, wo beide gleichauf liegen."
+        ],
+        [
+          "Zahlen Kinder auf DOC-Campingplätzen?",
+          "Auf vielen DOC-Campingplätzen zahlen Kinder von 5 bis 17 Jahren einen ermäßigten Preis, Kleinkinder übernachten kostenlos. Die Gebühr für den jeweiligen Campingplatz steht auf seiner DOC-Seite."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "NZD-Währungsrechner: Neuseeland-Preise in 9 Währungen",
+      "metaDescription": "Preise in Neuseeland-Dollar in USD, EUR, GBP, AUD, JPY, CNY, KRW, INR und SGD umrechnen und zurück, mit den Referenzkursen der Reserve Bank of New Zealand.",
+      "eyebrow": "Währungsrechner",
+      "cardEyebrow": "Währungsrechner",
+      "h1": "NZD-Währungsrechner für Reisepreise in Neuseeland",
+      "intro": "Rechne einen Preis aus Neuseeland in deine Währung um oder deine Währung in Neuseeland-Dollar, mit den Referenzkursen der Reserve Bank of New Zealand vom {rateDate}.",
+      "cardTitle": "Einen Preis aus Neuseeland umrechnen.",
+      "cardText": "Referenzumrechnung für die Reiseplanung mit Kursen der Reserve Bank of New Zealand vom {rateDate}. Deine Bank oder Karte kann einen anderen Kurs nehmen und Gebühren aufschlagen.",
+      "labelAmount": "Betrag",
+      "labelFrom": "Von",
+      "labelTo": "Nach",
+      "formula": [
+        "Betrag in NZD = Betrag ÷ Kurs der Ausgangswährung",
+        "Ergebnis = Betrag in NZD × Kurs der Zielwährung"
+      ],
+      "formulaNote": "Jeder Kurs gibt an, wie viele Einheiten der Währung auf 1 Neuseeland-Dollar kommen, deshalb läuft jede Umrechnung über NZD.",
+      "example": "{amount} bei {rate} US-Dollar pro Neuseeland-Dollar sind {converted}.",
+      "assumptions": [
+        "Das sind Referenzkurse vom {rateDate}. Wechselkurse ändern sich jeden Tag.",
+        "Banken, Karten und Geldautomaten nehmen eigene Kurse und können Gebühren aufschlagen, deshalb kann der Betrag, den du zahlst, abweichen.",
+        "Japanischer Yen und koreanischer Won werden ohne Nachkommastellen angezeigt."
+      ],
+      "faq": [
+        [
+          "Welche Währung gilt in Neuseeland?",
+          "Der Neuseeland-Dollar (NZD). Preise in Geschäften, auf Campingplätzen und in Holiday Parks werden in NZD angegeben."
+        ],
+        [
+          "Ist das der Kurs, den meine Bank mir gibt?",
+          "Wahrscheinlich nicht genau. Der Rechner nutzt Referenzkurse vom {rateDate}. Deine Bank oder dein Kartenanbieter rechnet mit eigenem Kurs und eigenen Gebühren, sieh das Ergebnis also als Planungswert."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Wassertank-Rechner Camper: Frisch- und Grauwasser in Tagen",
+      "metaDescription": "Berechne, wie viele Tage die Frisch- und Grauwassertanks eines Campervans für deine Gruppe reichen, mit Formel, Rechenbeispiel und den Tageswerten dahinter.",
+      "eyebrow": "Wassertank-Rechner",
+      "cardEyebrow": "Wasser- und Abwasserplaner",
+      "h1": "Wassertank-Rechner für den Campervan",
+      "intro": "Die Tankgröße in Litern hilft erst, wenn daraus Tage werden. Trag die Kapazität für Frisch- und Grauwasser und die Zahl der Personen ein, dann siehst du, welcher Tank deine Grenze setzt.",
+      "cardTitle": "Wie viele Tage autark.",
+      "cardText": "Eine Kapazität in Litern wird erst nützlich, wenn sie in Tagen ausgedrückt ist. Frisch- und Grauwasser stehen getrennt, weil der Tank, der zuerst leer ist, die Grenze setzt.",
+      "labelFresh": "Frischwasser (l)",
+      "labelGrey": "Grauwasser (l)",
+      "labelPeople": "Personen",
+      "days": "{fresh} Tage Frischwasser · {grey} Tage Grauwasser",
+      "formula": [
+        "Tage Frischwasser = Frischwassertank (l) ÷ (Personen × 11 l pro Tag)",
+        "Tage Grauwasser = Grauwassertank (l) ÷ (Personen × 9 l pro Tag)",
+        "Der niedrigere der beiden Werte gibt an, wie lange du bleiben kannst, bevor du auffüllen oder entleeren musst"
+      ],
+      "formulaNote": "Grauwasser ist das Abwasser von Spüle und Dusche. Davon fällt weniger an, als Frischwasser verbraucht wird, weil nicht alles Trink- und Kochwasser im Tank landet.",
+      "example": "{people} Personen mit einem Frischwassertank von {freshTank} Litern und einem Grauwassertank von {greyTank} Litern haben {freshDays} Tage Frischwasser und {greyDays} Tage Grauwasser, also setzt der Frischwassertank die Grenze.",
+      "assumptions": [
+        "11 Liter Frischwasser und 9 Liter Grauwasser pro Person und Tag sind Planungswerte für sparsamen Verbrauch: Trinken, Kochen, Abwaschen und eine Katzenwäsche. Duschen braucht deutlich mehr.",
+        "Toilettenkassetten und Schwarzwasser sind nicht enthalten.",
+        "Grauwasser nur an einer Entsorgungsstation ablassen. Niemals auf den Boden oder in einen Regenwasserkanal."
+      ],
+      "faq": [
+        [
+          "Wie lange reichen 100 Liter Frischwasser im Campervan?",
+          "Für zwei sparsame Personen mit je 11 Litern am Tag etwa viereinhalb Tage. Duschen und Wäschewaschen verkürzen das deutlich."
+        ],
+        [
+          "Wo kann ich in Neuseeland Grauwasser ablassen?",
+          "An einer Entsorgungsstation. Viele Holiday Parks haben eine, und in vielen Orten betreiben die Gemeinden öffentliche Stationen. Grauwasser niemals auf den Boden oder in einen Regenwasserkanal ablassen."
+        ],
+        [
+          "Welcher Tank ist zuerst leer?",
+          "Der, der bei deinem Verbrauch weniger Tage schafft. Grauwassertanks sind oft kleiner als Frischwassertanks, prüf deshalb beide und nicht nur die Frischwasseranzeige."
+        ]
+      ]
+    }
   }
 }
