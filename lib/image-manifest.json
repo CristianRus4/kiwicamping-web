@@ -125,6 +125,20 @@
       }
     ]
   },
+  "/images/articles/campermate-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/campermate-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/campervan-budget-new-zealand.webp": {
     "width": 1600,
     "height": 900,

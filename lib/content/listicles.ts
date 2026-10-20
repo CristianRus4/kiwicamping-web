@@ -81,4 +81,78 @@ export const listicleArticles: Article[] = [
       { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
   }),
+
+  a({
+    slug: "campermate-alternatives",
+    listicle: true,
+    title: "5 Best CamperMate Alternatives for New Zealand in 2026",
+    description: "Unhappy with CamperMate's redesign or ads? KiwiCamping, Rankers, WikiCamps, thl Roadtrip and the NZMCA App compared for New Zealand trips. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "Freedom camping", "Holiday parks", "NZMCA Parks", "Australia"],
+    imageAlt: "DOC sign at the entrance to Waiohine Gorge in Tararua Forest Park",
+    related: ["best-nz-camping-apps", "rankers-alternatives", "plan-trip-kiwicamping"],
+    intro:
+      "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and ads in the Android version. We checked the apps worth switching to on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+    sections: [
+      s("CamperMate alternatives at a glance", [
+        "For a New Zealand-only trip, the strongest pairing is Rankers for reviews and KiwiCamping for DOC campsites, huts and planning the route. If you need Australia too, thl Roadtrip and WikiCamps (which sells separate New Zealand and Australia apps) are the closest like-for-like swaps. Members of the New Zealand Motor Caravan Association should add the NZMCA App whatever else they use.",
+        "Before switching, check whether the thing you dislike is the redesign or the job itself. CamperMate's booking, deals and two-country coverage are still genuinely useful, and no single alternative replaces all of them.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each developer's site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Switch to it for", "Price", "Ads", "NZ rating"],
+        rows: [
+          ["CamperMate", "Booking and deals, NZ and Australia (the baseline)", "Free", "On Android", "4.4 (606)"],
+          ["KiwiCamping", "DOC campsites, huts and a dated route plan", "Free; Pass NZ$3.99 to NZ$12.99", "None", "3.8 (4)"],
+          ["Rankers Camping NZ", "The most NZ App Store ratings here", "Free", "Not shown on Google Play", "4.7 (3,322)"],
+          ["WikiCamps New Zealand", "The most NZ sites published, paid once", "NZ$7.99 upfront (iPhone)", "On Android", "4.5 (137)"],
+          ["thl Roadtrip", "A simple nearby finder, NZ and Australia", "Free", "Not stated", "4.7 (122)"],
+          ["NZMCA App", "NZMCA members and member parks", "Membership NZ$150 to join plus NZ$102 a year", "Not stated", "No ratings yet"],
+        ],
+      }),
+      s("Why people are looking beyond CamperMate", [
+        "Of the CamperMate reviews dated 2025 or 2026 among the 50 most recent on the New Zealand App Store, 12 of 16 gave one or two stars. Seven blamed the redesign, describing slow loading, wrong directions and sites that had disappeared, and two of those missed the LPG and self-contained filters. Four were about bookings and refunds. These are reviewers' accounts, not something we have tested.",
+        "The other side is real too. CamperMate has more than a million downloads on Google Play, 4.0 stars from 12,568 ratings there, and a reviewer who says it shows campsites they could not find elsewhere. Its listing also describes maps and information you can download and keep without an expiry date.",
+      ]),
+      s("1. KiwiCamping: best for DOC campsites and planning the whole route", [
+        "Where CamperMate leans towards bookable parks and deals, KiwiCamping is built on DOC's own records: 287 DOC campsites, 927 DOC huts and 1,453 DOC tracks in the app's August 2026 data, with DOC's fees, dog rules and booking requirements where DOC publishes them. There are no ads in the app.",
+        "Filters can be combined, including fee, facilities and access features, which matters if you were one of the reviewers who lost filters in the CamperMate redesign. Places go into collections such as Want to Visit, then into a trip with ordered stops, dates, notes, to-dos and the route distance. Place details stay on the phone when signal drops, while map tiles, routing, weather and photos need a connection.",
+        "The limits: only BookIt stays and tours are free; DOC campsites, huts, tracks and dump stations, collections, trips and guides need the KiwiCamping Pass, from NZ$3.99 to NZ$12.99 on the New Zealand App Store. It is New Zealand only, iPhone only with iOS 26 or later, and it had 4 New Zealand ratings (3.8) with no traveller reviews, so pair it with Rankers if reviews matter to you.",
+      ], ["Switch for: DOC data and route planning", "No ads", "New Zealand and iPhone only"], undefined, true),
+      s("2. Rankers Camping NZ: best for traveller reviews", [
+        "Rankers has the most New Zealand App Store ratings of the apps compared here, 4.7 stars from 3,322, and says its team reads and checks each of its more than 108,000 reviews before publishing. It is free, and its listing says it only shows overnight spots the local community has approved.",
+        "Campsite information is built in from the first install and detailed maps download over Wi-Fi. It covers New Zealand only, so it cannot replace CamperMate for the other half of a two-country trip.",
+      ], ["Switch for: reviews and curated sites", "Free", "New Zealand only"]),
+      s("3. WikiCamps New Zealand: best for coverage, paid once", [
+        "WikiCamps sells WikiCamps New Zealand as its own app for NZ$7.99 on the App Store, separate from WikiCamps Australia. Its users have added more than 12,000 New Zealand sites, and it includes a trip planner that estimates fuel spend, plus an Offline Mode covering sites and trips.",
+        "Coverage comes from users, so check anything legally important against the council or DOC. It rated 4.5 from 137 on the New Zealand App Store and 3.0 from 1,042 on Google Play.",
+      ], ["Switch for: the most sites listed", "NZ$7.99 once on iPhone", "Separate NZ and Australia apps"]),
+      s("4. thl Roadtrip: best like-for-like free swap for two countries", [
+        "thl Roadtrip, from Tourism Holdings, shows campsites, holiday parks, petrol stations and dump stations near you in New Zealand and Australia, free. It rated 4.7 from 122 ratings on the New Zealand App Store.",
+        "It is simpler than CamperMate, with a much smaller review base and no deals marketplace described in its listing. That simplicity is the point for travellers who found the redesign cluttered.",
+      ], ["Switch for: a simple two-country finder", "Free", "Smaller review base"]),
+      s("5. NZMCA App: best for members of the motor caravan association", [
+        "The New Zealand Motor Caravan Association's app gives members its Travel Directory and the association's NZMCA Parks, which charge $5 per adult per night. The app is free, while membership costs $150 to join and $102 a year.",
+        "It requires NZMCA membership, and it had no ratings yet on the New Zealand App Store (3.2 from 156 on Google Play). For a long trip in a certified self-contained motorhome, the member parks can pay for the membership.",
+      ], ["Switch for: NZMCA member parks", "Membership NZ$150 plus NZ$102 a year", "Members only"]),
+      s("When CamperMate is still the better choice", [
+        "If the trip covers both countries, you book most nights in holiday parks and you like picking up deals as you go, CamperMate still does all three in one free app. Its downloadable maps and 27 languages are also a real help for visitors who are not reading in English.",
+        "If the redesign is the problem rather than the app's purpose, it may be worth updating and trying the newest version before switching. Version 5.8 arrived on 16 October 2026.",
+      ]),
+      s("How we compared", [
+        "On 20 October 2026 we read each app's New Zealand App Store listing, its developer's own site and its Google Play listing where there is one. Ratings and prices are as shown that day. Review themes come from the 50 most recent CamperMate reviews on the New Zealand App Store, of which 16 were dated 2025 or 2026, and are reported as counts.",
+        "Features are described only as each developer describes them. Leaving a feature out is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "CamperMate on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campermate-australia-nz/id465040067" },
+      { label: "CamperMate on Google Play", url: "https://play.google.com/store/apps/details?id=nz.co.campermate" },
+      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
+      { label: "Rankers Camping NZ on the App Store (NZ)", url: "https://apps.apple.com/nz/app/rankers-camping-nz/id582914766" },
+      { label: "WikiCamps New Zealand on the App Store (NZ)", url: "https://apps.apple.com/nz/app/wikicamps-new-zealand/id582527125" },
+      { label: "thl Roadtrip on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id906468182" },
+      { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
+      { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];

@@ -83,3 +83,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `responsible-camping-new-zealand` | Green camping tent near Mueller Hut | Martina James | Unsplash License | [Source](https://unsplash.com/photos/green-camping-tent-near-rock-formations-g7vsFfGsDMc) |
 | `two-week-camper-itinerary-new-zealand` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
 | `rankers-alternatives` | DSCN2150 Medlands Beach Campsite.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:DSCN2150_Medlands_Beach_Campsite.jpg) |
+| `campermate-alternatives` | Waiohine Gorge campsite entrance.jpg | TimClicks | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Waiohine_Gorge_campsite_entrance.jpg) |
