@@ -264,8 +264,8 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
         "Open a place's booking or contact details to check availability, price and terms with the provider. Prices in the app are reported figures, not live quotes.",
       ] },
       { heading: "Premium and purchases", paragraphs: [
-        "Map and place details are free, together with two saved lists.",
-        "Premium adds unlimited saved lists, trip planning, advanced filters, place weather and road trip routes.",
+        "KiwiCamping is free to download, and the map and search show every place. Without the Pass, only bookable holiday parks, stays and tours from BookIt open in full, along with a few guides.",
+        "The Pass opens DOC campsites, huts and tracks, freedom camping spots, dump stations, day-use areas and every guide, and unlocks saving places, collections and the trip planner.",
         "Use Restore Purchases on the Premium screen while signed into the Apple account used for the original transaction.",
       ] },
     ],
