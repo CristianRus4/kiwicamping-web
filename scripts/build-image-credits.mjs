@@ -20,8 +20,11 @@ const DOCS = join(ROOT, "docs");
 const OUT = join(ROOT, "lib/image-credits.json");
 
 const cells = (line) => line.split("|").slice(1, -1).map((cell) => cell.trim());
-const link = (markdown) => markdown?.match(/\]\((https?:[^)]+)\)/)?.[1] ?? markdown?.match(/https?:\/\/\S+/)?.[0];
-const plain = (markdown) => (markdown ?? "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[`*]/g, "").replace(/\\/g, "").trim();
+// A Markdown link target may hold balanced parentheses, as Commons file names often do
+// ("File:Clouds_over_Mt_Cook._NZ_(8364206704).jpg"), so one nested pair is allowed inside the target.
+const TARGET = String.raw`(?:[^()\s]|\([^()\s]*\))+`;
+const link = (markdown) => markdown?.match(new RegExp(String.raw`\]\((https?:${TARGET})\)`))?.[1] ?? markdown?.match(/https?:\/\/\S+/)?.[0];
+const plain = (markdown) => (markdown ?? "").replace(new RegExp(String.raw`\[([^\]]*)\]\(${TARGET}\)`, "g"), "$1").replace(/[`*]/g, "").replace(/\\/g, "").trim();
 
 /** Canonical deed URL for a licence named the way Commons names it. */
 function licenceLink(licence) {
