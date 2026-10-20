@@ -140,9 +140,11 @@
     "guidesIntro": "guides détaillés sur les campings, les règles, les coûts sur place et la préparation d’un voyage en Nouvelle-Zélande.",
     "guideSingular": "guide",
     "guidePlural": "guides",
+    "guidePluralFew": "guides",
     "readGuide": "Lire le guide",
     "minuteRead": "min de lecture",
     "places": "lieux",
+    "placesFew": "lieux",
     "backToGuides": "Guides",
     "photoCredits": "Crédits photo",
     "keepInMind": "À garder en tête",
@@ -261,7 +263,7 @@
           "paragraphs": [
             "Cherchez par nom de lieu, adresse ou description. Déplacez la carte et choisissez l’option de zone actuelle pour concentrer les résultats sur la partie affichée.",
             "Filtrez par type de lieu, tarif, note minimale, réservation en ligne, région et détail des équipements et des accès. Ne combinez que les filtres qui comptent vraiment, pour garder en vue de bonnes alternatives.",
-            "Équipements, tarifs, accès et gestionnaire peuvent changer. Suivez les panneaux en vigueur et les consignes du gestionnaire, puis envoyez-nous une correction pour améliorer le répertoire."
+            "Équipements, tarifs, accès et gestionnaire peuvent changer. Suivez les panneaux en vigueur et les consignes du gestionnaire, puis envoyez une correction pour améliorer le répertoire."
           ]
         },
         {
@@ -7905,7 +7907,7 @@
         {
           "heading": "L’île du Nord en bref",
           "body": [
-            "Le Northland associe un long littoral de sites du DOC et de sites municipaux à une forte demande saisonnière et à quelques fermetures lors d’événements culturels importants. La Coromandel compte des sites du DOC en bord de plage qui se remplissent aussitôt en été, tandis que le Waikato, Taupō et Rotorua mêlent des <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> géothermiques et des sites au bord des lacs.",
+            "Le Northland associe un long littoral de sites du DOC et de sites municipaux à une forte demande saisonnière et à quelques fermetures lors d’événements culturels importants. La péninsule de Coromandel compte des sites du DOC en bord de plage qui se remplissent aussitôt en été, tandis que le Waikato, Taupō et Rotorua mêlent des <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> géothermiques et des sites au bord des lacs.",
             "Le plateau central dessert les randonnées du Tongariro depuis les parcs proches de Whakapapa et de Tūrangi. Gisborne et la Hawke’s Bay mêlent des campings du DOC en bord de plages de surf et des zones gérées par les municipalités, et à Wellington, les possibilités dépendent davantage des horaires du ferry que du paysage : un départ matinal vaut bien une dernière nuit moins agréable."
           ],
           "tips": []
@@ -8127,13 +8129,13 @@
       "description": "KiwiCamping, Rankers, CamperMate, WikiCamps, Campable, NZMCA et AllTrails comparées : prix, usage sans réseau, notes et points forts. Vérifié en octobre 2026.",
       "region": "Nouvelle-Zélande",
       "imageAlt": "App de camping ouverte sur un téléphone à côté d’un camping néo-zélandais",
-      "intro": "Il n’existe pas une seule meilleure app de camping pour la Nouvelle-Zélande en 2026, mais il y a une meilleure app pour chaque question que pose un voyage : quel camping du DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) accepte les chiens, ce que d’autres voyageurs ont pensé d’un site gratuit, où réserver un emplacement avec électricité ce soir, ou quel sentier faire demain. Nous avons passé en revue les sept apps qui comptent pour un voyage en camping en Nouvelle-Zélande, d’après leurs fiches actuelles de l’App Store et les sites de leurs développeurs, le 20 octobre 2026. Nous développons KiwiCamping, et nous l’avons donc placée en premier. Voici pourquoi, et dans quels cas une autre app vous convient mieux.",
+      "intro": "Il n’y a pas d’app de camping idéale pour toute la Nouvelle-Zélande en 2026, mais chaque question que pose un voyage a sa meilleure app : quel camping du DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) accepte les chiens, ce que d’autres voyageurs ont pensé d’un site gratuit, où réserver un emplacement avec électricité ce soir, ou quel sentier faire demain. Le 20 octobre 2026, nous avons passé en revue les sept apps qui comptent pour un voyage en camping en Nouvelle-Zélande, d’après leurs fiches actuelles sur l’App Store et les sites de leurs développeurs. Nous développons KiwiCamping, et nous l’avons donc placée en premier. Voici pourquoi, et dans quels cas une autre app vous conviendra mieux.",
       "sections": [
         {
           "heading": "Le verdict en bref",
           "body": [
-            "Choisissez KiwiCamping si votre voyage s’organise autour des <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, des refuges et des sentiers et que vous voulez transformer des lieux enregistrés en itinéraire daté et ordonné. Choisissez Rankers si les avis de voyageurs comptent avant tout, CamperMate si vous voulez réservation, bons plans et cartes téléchargeables dans une seule app gratuite qui couvre aussi l’Australie, et WikiCamps New Zealand si vous voulez le plus grand nombre publié de sites néo-zélandais pour un prix unique à l’achat.",
-            "Campable est la spécialiste de la nuit sur une ferme, un vignoble ou un autre terrain privé. L’app NZMCA n’a de sens que si vous êtes membre de la New Zealand Motor Caravan Association (l’association néo-zélandaise des camping-caristes), et AllTrails est celle à emporter pour la moitié randonnée d’un voyage mixte. La plupart des gens qui voyagent plus de deux semaines finissent avec deux de ces apps, en général une pour trouver et planifier les lieux et une pour les avis ou les réservations."
+            "Choisissez KiwiCamping si votre voyage s’organise autour des <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, des refuges et des sentiers et que vous voulez transformer des lieux enregistrés en itinéraire daté et ordonné. Choisissez Rankers si les avis de voyageurs comptent avant tout, CamperMate si vous voulez réservation, bons plans et cartes téléchargeables dans une seule app gratuite qui couvre aussi l’Australie, et WikiCamps New Zealand si vous voulez le plus grand nombre de sites néo-zélandais annoncé par un développeur, pour un prix unique payé à l’achat.",
+            "Campable est la spécialiste de la nuit à la ferme, dans un vignoble ou sur un autre terrain privé. L’app NZMCA n’a de sens que si vous êtes membre de la New Zealand Motor Caravan Association (l’association néo-zélandaise des camping-caristes), et AllTrails est celle à emporter pour le volet randonnée d’un voyage mixte. La plupart des gens qui voyagent plus de deux semaines finissent avec deux de ces apps, en général une pour trouver et planifier les lieux et une pour les avis ou les réservations."
           ],
           "tips": [],
           "table": {
@@ -8247,7 +8249,7 @@
           ]
         },
         {
-          "heading": "4. WikiCamps New Zealand : la meilleure pour la plus grande base de données alimentée par les utilisateurs",
+          "heading": "4. WikiCamps New Zealand : la plus grande base de données alimentée par les utilisateurs",
           "body": [
             "WikiCamps New Zealand est une app distincte de WikiCamps Australia, et elle coûte 7,99 $ NZ en une seule fois sur l’App Store, sans abonnement. Son développeur décrit plus de 12 000 sites néo-zélandais, des avis et des photos de la communauté, plus de 1 000 sites réservables et un <a data-guide=\"plan-trip-kiwicamping\">planificateur de voyage</a> qui estime les dépenses de carburant. Un Offline Mode garde les sites et les plans de voyage disponibles sans signal.",
             "Elle est notée 4,5 sur 137 notes sur l’App Store néo-zélandais et 3,0 sur 1 042 notes sur Google Play. Elle fonctionne sur iPhone, iPad et Android.",
@@ -8284,7 +8286,7 @@
           ]
         },
         {
-          "heading": "7. AllTrails : la meilleure pour la moitié randonnée du voyage",
+          "heading": "7. AllTrails : la meilleure pour le volet randonnée du voyage",
           "body": [
             "AllTrails est une app de marche et de randonnée (tramping) plutôt qu’une app de camping, et c’est l’app la mieux notée de cette liste, avec 4,8 sur 5 198 notes néo-zélandaises et 4,5 sur plus de 388 000 notes sur Google Play. Les cartes des sentiers, les avis et les enregistrements sont gratuits, et les cartes téléchargées pour une utilisation sans signal exigent un abonnement payant Plus ou Peak.",
             "Elle ne couvre ni les campings, ni les aires de vidange, ni les holiday parks, ni le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> : elle ne peut donc pas être la seule app d’un voyage en véhicule. Associez-la à une app de camping et consultez les alertes du DOC sur les sentiers avant une randonnée isolée."

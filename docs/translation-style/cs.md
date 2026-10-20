@@ -216,17 +216,17 @@ mistranslation (✗: use the fix).
 | Trips, trip planner | **cesty**, **plánovač cest**; app buttons quoted exactly („Nový výlet“, „Přidat k výletu“) |
 | To-dos, packing list | **úkoly** (app „Úkoly“), **seznam věcí na cestu** |
 | Directions | **navigace**, „trasa“ (✗ app „Pokyny“) |
-| Look Around / Street View | **Street View** (the site's name for it), „Look Around“ only where the English names Apple's imagery |
+| Look Around | **Apple Look Around** (the app uses Apple's imagery; never write Street View) |
 | Settings | **Nastavení** |
 | Filters | **filtry** |
 | the Pass, Premium | **Pass** (Passu, s Passem), **Premium**. ✗ App „Viz Průsmyk“ (mountain pass) |
 | Restore Purchases | **Obnovit nákupy** |
 | widgets | **widgety** |
-| App Store, iPhone, iOS, iCloud, Apple, MapKit, Street View, Look Around | unchanged |
+| App Store, iPhone, iOS, iCloud, Apple, MapKit, Look Around | unchanged |
 
 ### Names that never change, and how to write place names
 
-- Brands: AussieCamps, KiwiCamping, BookEasy, BookIt, App Store, Street View, Apple, Google.
+- Brands: AussieCamps, KiwiCamping, BookEasy, BookIt, App Store, Apple Look Around, Apple, Google.
 - **Protected state, territory and island names** (the engine rejects anything else): New South Wales,
   Victoria, Queensland, South Australia, Western Australia, Tasmania, Northern Territory, Australian
   Capital Territory, Central Australia; North Island, South Island, Stewart Island, Aotearoa, Aoraki.

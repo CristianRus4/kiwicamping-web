@@ -140,9 +140,11 @@
     "guidesIntro": "guías detalladas sobre campings, normas, costes locales y cómo planificar el viaje por toda Nueva Zelanda.",
     "guideSingular": "guía",
     "guidePlural": "guías",
+    "guidePluralFew": "guías",
     "readGuide": "Leer la guía",
     "minuteRead": "minutos de lectura",
     "places": "lugares",
+    "placesFew": "lugares",
     "backToGuides": "Guías",
     "photoCredits": "Créditos de las fotos",
     "keepInMind": "Ten en cuenta",
@@ -269,7 +271,7 @@
           "paragraphs": [
             "Busca por nombre de lugar, dirección o descripción. Mueve el mapa y elige la opción de zona actual para ver los resultados de la parte visible.",
             "Filtra por tipo de lugar, tarifa, valoración mínima, reserva online, región y características detalladas de instalaciones y acceso. Combina solo los filtros que de verdad te importan para que sigas viendo alternativas útiles.",
-            "Los servicios, las tarifas, el acceso y la gestión de un lugar pueden cambiar. Haz caso a los carteles vigentes y a quien gestiona el terreno, y después envíanos una corrección para que el directorio mejore."
+            "Los servicios, las tarifas, el acceso y la gestión de un lugar pueden cambiar. Haz caso a los carteles vigentes y a quien gestiona el terreno, y después envía una corrección para que el directorio mejore."
           ]
         },
         {
@@ -6432,7 +6434,7 @@
           ]
         },
         {
-          "heading": "La Isla Norte en resumen",
+          "heading": "La North Island en resumen",
           "body": [
             "Northland combina una larga costa de campings del DOC y de los ayuntamientos con mucha demanda estacional y algunos cierres durante acontecimientos culturales importantes. En Coromandel hay campings del DOC frente a la playa que se llenan enseguida en verano, mientras que Waikato, Taupō y Rotorua mezclan <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> geotérmicos con opciones junto a lagos.",
             "La meseta central sirve de base para las caminatas por Tongariro desde parques cercanos a Whakapapa y Tūrangi. Gisborne y Hawke's Bay combinan campings del DOC junto a playas de surf con zonas gestionadas por los ayuntamientos, y en Wellington las opciones dependen más del horario del ferri que del paisaje: merece la pena una última noche más sosa a cambio de un ferri temprano."
@@ -6440,7 +6442,7 @@
           "tips": []
         },
         {
-          "heading": "La Isla Sur en resumen",
+          "heading": "La South Island en resumen",
           "body": [
             "La Queen Charlotte Drive de Marlborough tiene campings del DOC y en concesión a lo largo de los Sounds. Nelson Tasman combina los campings municipales de Golden Bay con los campings de <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, la mayoría de los cuales funcionan con reserva y no por orden de llegada.",
             "La West Coast recompensa a quien acepta la lluvia y las sandflies (unas mosquitas que pican) a cambio de campings casi vacíos. Canterbury va de la zona de ríos trenzados a los holiday parks alpinos, y Otago y Southland tienen algunos de los campings más conocidos del país. Fiordland es sobre todo alojamiento del DOC con reserva, y la <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> cerca de los fiordos no está permitida."
@@ -6610,7 +6612,7 @@
     "coromandel-rotorua-road-trip": {
       "title": "Coromandel y Rotorua: ruta de camping de 5 días desde Auckland",
       "description": "Un circuito de camping de cinco días desde Auckland: playas del Pacífico, carreteras de bosque y zona geotérmica en Coromandel y Rotorua, con trayectos cortos.",
-      "region": "Parte alta de la Isla Norte",
+      "region": "Norte de la Isla Norte",
       "imageAlt": "Costa de Coromandel vista desde una carretera con curvas",
       "intro": "Cinco días bastan para unir la península de Coromandel con Rotorua si el primer y el último trayecto se hacen con disciplina. La recompensa es una ruta que pasa del aire salado al bosque nativo y al vapor geotérmico sin desperdiciar un día en desplazamientos.",
       "sections": [
@@ -6683,7 +6685,7 @@
           "body": [
             "Thames sirve para la primera noche si sales tarde de Auckland, pero es un pueblo de servicios más que un destino, y la península propiamente dicha empieza al norte. Whitianga y Hahei son las bases naturales de la costa este: Hahei es la más cercana a las caminatas y Whitianga tiene más servicios y más variedad de campings.",
             "En el tramo de Rotorua, los <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> junto al lago te dejan cerca de los parques geotérmicos y de las secuoyas sin tener que volver en coche al centro cada mañana. Blue Lake y Lake Ōkāreka son más tranquilos que las opciones céntricas y están a poca distancia en coche de las atracciones.",
-            "Si el tiempo empeora en la península, lo sensato es recortar un día de playa y llegar pronto a Rotorua. Casi todo allí funciona con lluvia, algo que rara vez ocurre en la costa de Coromandel."
+            "Si el tiempo empeora en la península, lo sensato es recortar un día de playa y llegar pronto a Rotorua. Allí casi todo se puede hacer con lluvia, algo que rara vez ocurre en la costa de Coromandel."
           ],
           "tips": []
         },
@@ -7036,7 +7038,7 @@
           "tips": []
         },
         {
-          "heading": "La carretera de la costa se ha reconstruido y aún se mueve",
+          "heading": "La carretera de la costa está reconstruida, pero sigue siendo inestable",
           "body": [
             "La State Highway 1 entre Picton y Christchurch quedó muy dañada en el <a data-guide=\"earthquake-tsunami-camping-new-zealand\">terremoto</a> de Kaikōura de 2016 y se ha reconstruido en gran parte, pero el tramo costero sigue siendo propenso a corrimientos de tierra y cierres con lluvia fuerte. Comprueba el estado en la NZTA (NZ Transport Agency Waka Kotahi, la agencia de transporte de Nueva Zelanda) antes de tomarla, en lugar de dar por hecho que está abierta.",
             "Cuando cierra, la alternativa es la ruta interior por el Lewis Pass, que suma varias horas. Conviene saberlo antes de reservar algo con hora fija en cualquiera de los dos extremos."
@@ -7064,7 +7066,7 @@
           "tips": [
             "A veinte metros de los lobos marinos",
             "La ruta de la orilla depende de la marea",
-            "La ruta del acantilado siempre funciona"
+            "La ruta del acantilado se puede hacer con cualquier marea"
           ]
         },
         {
@@ -7079,7 +7081,7 @@
           "heading": "Queen Charlotte Drive y los Sounds",
           "body": [
             "La carretera de Picton a Havelock tiene solo 35 kilómetros y se tarda casi una hora, con curvas continuas, tramos estrechos y miradores donde vale la pena parar. Es la mejor alternativa a la carretera directa si tienes tiempo, y una mala elección al anochecer si vas cansado.",
-            "Anakiwa, al final del Queen Charlotte Track, y los campings de Momorangi Bay te ponen junto al agua y son una buena primera noche en la Isla Sur. Los taxis acuáticos desde Picton te dan acceso al sendero sin comprometerte a hacer la ruta completa de varios días.",
+            "Anakiwa, al final del Queen Charlotte Track, y los campings de Momorangi Bay te ponen junto al agua y son una buena primera noche en la South Island (Isla Sur). Los taxis acuáticos desde Picton te dan acceso al sendero sin comprometerte a hacer la ruta completa de varios días.",
             "Si llegas en una travesía de la tarde, quédate en Picton en lugar de intentar esta carretera a oscuras. Es el tipo de ruta en la que el paisaje es la única razón para hacerla."
           ],
           "tips": []
@@ -7280,7 +7282,7 @@
           "heading": "Cuándo ir",
           "body": [
             "El Abel Tasman está en su mejor momento de diciembre a marzo y, en consecuencia, lleno, con las plazas de la ruta reservadas con meses de antelación. La temporada media te da la misma costa con disponibilidad y el agua más fría.",
-            "Nelson figura habitualmente entre los lugares más soleados de Nueva Zelanda, así que incluso fuera del verano las probabilidades de buen tiempo aquí son mejores que en la mayor parte de la Isla Sur."
+            "Nelson figura habitualmente entre los lugares más soleados de Nueva Zelanda, así que incluso fuera del verano las probabilidades de buen tiempo aquí son mejores que en la mayor parte de la South Island (Isla Sur)."
           ],
           "tips": [
             "Reserva con mucha antelación de diciembre a marzo",
@@ -7369,7 +7371,7 @@
           "heading": "Un fin de semana fácil desde Christchurch",
           "body": [
             "Toda la península queda a menos de noventa minutos de Christchurch, así que es el fin de semana local de siempre y los campings se llenan los viernes por la tarde en verano y en los fines de semana largos. Reservar con antelación importa más de lo que sugiere la distancia corta.",
-            "También funciona bien como primera o última parada de un viaje por la Isla Sur, porque está lo bastante cerca del aeropuerto como para encajar antes o después de un vuelo sin un trayecto largo."
+            "También funciona bien como primera o última parada de un viaje por la South Island (Isla Sur), porque está lo bastante cerca del aeropuerto como para encajar antes o después de un vuelo sin un trayecto largo."
           ],
           "tips": []
         },
@@ -7462,7 +7464,7 @@
           ]
         },
         {
-          "heading": "En verano aquí hay mucha gente de verdad",
+          "heading": "En verano, esto se llena de verdad",
           "body": [
             "En enero, Paihia y Russell tienen los campings llenos, las excursiones en barco agotadas y colas para el ferri. También hace calor, el tiempo está en calma y es justo cuando el agua está mejor, así que hay ventajas reales, no todo son inconvenientes.",
             "La temporada media de noviembre o marzo te da la misma costa con espacio y precios más bajos, aunque el agua está más fría y algunos operadores reducen sus horarios. Comprueba que la excursión concreta que quieres sigue en marcha."
@@ -7481,12 +7483,12 @@
         {
           "heading": "Opciones para días de lluvia",
           "body": [
-            "Northland recibe mucha lluvia y una semana aquí normalmente incluirá algún día mojado. Los Waitangi Treaty Grounds, los edificios históricos de Kerikeri y las cuevas de gusanos luminosos de Kawiti, cerca de Waiomio, funcionan con cualquier tiempo.",
+            "Northland recibe mucha lluvia y una semana aquí normalmente incluirá algún día mojado. Los Waitangi Treaty Grounds, los edificios históricos de Kerikeri y las cuevas de gusanos luminosos de Kawiti, cerca de Waiomio, se pueden visitar con cualquier tiempo.",
             "Las excursiones en barco son lo que más se suele cancelar, y por eso conviene reservarlas al principio de la semana en lugar de dejarlas para el final."
           ],
           "tips": [
             "Reserva las excursiones en barco al principio de la semana",
-            "Waitangi y Kerikeri funcionan con lluvia"
+            "Waitangi y Kerikeri, buenos planes con lluvia"
           ]
         }
       ],
@@ -7495,8 +7497,8 @@
       "priceTable": null
     },
     "rakiura-stewart-island-camping-guide": {
-      "title": "Camping en la Isla Stewart (Rakiura): Rakiura Track y Oban",
-      "description": "Acampar en la Isla Stewart (Rakiura): campings del Rakiura Track desde 19 NZD la noche en verano, con reserva todo el año, ferri de una hora desde Bluff, Ulva Island y kiwis salvajes.",
+      "title": "Camping en Stewart Island (Rakiura): Rakiura Track y Oban",
+      "description": "Acampar en Stewart Island (Rakiura): campings del Rakiura Track desde 19 NZD la noche en verano, con reserva todo el año, ferri de una hora desde Bluff, Ulva Island y kiwis salvajes.",
       "region": "Rakiura",
       "imageAlt": "Playa remota y bosque nativo en Rakiura",
       "intro": "Rakiura es un viaje sin la camper. Deja el vehículo en tierra firme, cruza con una mochila compacta y deja que las caminatas, los taxis acuáticos y el tiempo de la isla marquen el ritmo durante tres o cuatro noches.",
@@ -7540,7 +7542,7 @@
         {
           "heading": "Aquí los kiwis sí se ven",
           "body": [
-            "Rakiura es uno de los sitios más fiables del país para ver kiwis salvajes, y el tokoeka de la Isla Stewart (Rakiura) es activo tanto de día como de noche, algo poco habitual. Desde Oban salen excursiones guiadas de observación de kiwis al anochecer.",
+            "Rakiura es uno de los sitios más fiables del país para ver kiwis salvajes, y el tokoeka de Stewart Island (Rakiura) es activo tanto de día como de noche, algo poco habitual. Desde Oban salen excursiones guiadas de observación de kiwis al anochecer.",
             "Usa luz roja en lugar de blanca, guarda silencio y no te salgas del sendero. No te acerques nunca a un ave ni la sigas, y mantén bastante distancia si cruza por delante de ti."
           ],
           "tips": []
@@ -7595,7 +7597,7 @@
           "label": "DOC: Māori Beach Campsite"
         },
         {
-          "label": "RealNZ: guía para planificar el ferri a la Isla Stewart (Rakiura)"
+          "label": "RealNZ: guía para planificar el ferri a Stewart Island"
         }
       ],
       "priceTable": null
@@ -7605,7 +7607,7 @@
       "description": "Itinerario de 3 semanas en camper por Nueva Zelanda: nueve días al norte, un cruce del estrecho de Cook, once al sur, días de descanso y la norma de la tarjeta verde de 2026.",
       "region": "Nueva Zelanda",
       "imageAlt": "Camper junto a un lago de Nueva Zelanda",
-      "intro": "Tres semanas dan para unir las dos islas principales, pero no para todos los desvíos famosos. Esta ruta mantiene coherente el norte, cruza el estrecho de Cook una sola vez y en la Isla Sur se centra en Mackenzie Country, Fiordland y la costa este.",
+      "intro": "Tres semanas dan para unir las dos islas principales, pero no para todos los desvíos famosos. Esta ruta mantiene coherente el norte, cruza el estrecho de Cook una sola vez y en la South Island (Isla Sur) se centra en Mackenzie Country, Fiordland y la costa este.",
       "sections": [
         {
           "heading": "Nueve días en el norte",
@@ -7634,8 +7636,8 @@
         {
           "heading": "Tres semanas es la primera duración cómoda",
           "body": [
-            "Veintiún días es más o menos el punto en que las dos islas son posibles sin que el viaje se reduzca a conducir. Permite unos nueve días en la Isla Norte, un día de ferri y once en la Isla Sur, con dos noches en los sitios que lo merecen.",
-            "Resiste la tentación de añadir Northland y la <a data-guide=\"rakiura-stewart-island-camping-guide\">Isla Stewart (Rakiura)</a> en los extremos. Cualquiera de las dos convierte un viaje cómodo en uno con prisas, y ambas son mejores como viaje aparte."
+            "Veintiún días es más o menos el punto en que las dos islas son posibles sin que el viaje se reduzca a conducir. Permite unos nueve días en la North Island (Isla Norte), un día de ferri y once en la South Island, con dos noches en los sitios que lo merecen.",
+            "Resiste la tentación de añadir Northland y <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a> en los extremos. Cualquiera de las dos convierte un viaje cómodo en uno con prisas, y ambas son mejores como viaje aparte."
           ],
           "tips": [
             "Más o menos 8 al norte, 1 de ferri, 12 al sur",
@@ -7647,7 +7649,7 @@
           "heading": "Una sola travesía en ferri, reservada antes que nada",
           "body": [
             "Cruza el <a data-guide=\"cook-strait-ferry-campervan-guide\">estrecho de Cook</a> una sola vez, hacia el sur, y resérvalo antes que nada. La camper se paga según su longitud, las salidas de verano se llenan y la travesía se come casi todo un día si cuentas el check-in y los trayectos a cada lado.",
-            "Pasa la noche anterior cerca de la terminal y deja el día siguiente tranquilo. Llegar a Picton por la tarde y seguir con un trayecto largo es como mucha gente empieza cansada su etapa por la Isla Sur."
+            "Pasa la noche anterior cerca de la terminal y deja el día siguiente tranquilo. Llegar a Picton por la tarde y seguir con un trayecto largo es como mucha gente empieza cansada su etapa por la South Island."
           ],
           "tips": []
         },
@@ -7674,7 +7676,7 @@
         {
           "heading": "Sentido del viaje y logística de solo ida",
           "body": [
-            "Ir de norte a sur, recogiendo en Auckland y devolviendo en Christchurch o Queenstown, suele funcionar mejor que lo contrario, porque deja la conducción más exigente de la Isla Sur para el final, cuando ya te has acostumbrado al vehículo.",
+            "Ir de norte a sur, recogiendo en Auckland y devolviendo en Christchurch o Queenstown, suele funcionar mejor que lo contrario, porque deja la conducción más exigente de la South Island para el final, cuando ya te has acostumbrado al vehículo.",
             "Los suplementos por recoger en una isla y devolver en la otra varían mucho y a veces no se cobran en temporada baja, cuando las empresas necesitan reubicar vehículos. Pregunta directamente en lugar de dar por hecho que el presupuesto en línea es fijo, porque con frecuencia no lo es.",
             "La alternativa es un viaje de ida y vuelta desde Auckland, lo que supone cruzar el <a data-guide=\"cook-strait-ferry-campervan-guide\">estrecho de Cook</a> dos veces y añade unos dos días de conducción y un segundo billete de ferri. Solo compensa si tienes cerrados los vuelos de llegada y de salida en Auckland."
           ],

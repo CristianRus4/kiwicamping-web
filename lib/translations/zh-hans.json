@@ -90,9 +90,11 @@
     "guidesTitle": "沿着公路，去好地方。",
     "guideSingular": "篇攻略",
     "guidePlural": "篇攻略",
+    "guidePluralFew": "篇攻略",
     "readGuide": "阅读攻略",
     "minuteRead": "分钟读完",
     "places": "个地点",
+    "placesFew": "个地点",
     "backToGuides": "攻略",
     "photoCredits": "图片来源",
     "keepInMind": "要点",
@@ -232,7 +234,7 @@
           "paragraphs": [
             "按地点名称、地址或描述搜索。移动地图后选择“当前区域”选项，结果就会集中在屏幕上看到的范围内。",
             "可以按地点类型、费用、最低评分、能否在线预订、所在大区，以及设施和通行条件等细项筛选。只叠加真正要紧的条件，有用的备选才不会被筛掉。",
-            "设施、费用、通行条件和管理方都可能变化。以现场标识和土地管理方的要求为准，再把更正发给我们，帮地点资料变得更准。"
+            "设施、费用、通行条件和管理方都可能变化。以现场标识和土地管理方的要求为准，再提交更正，帮地点资料变得更准。"
           ]
         },
         {
@@ -742,8 +744,8 @@
         {
           "heading": "各地区的小屋分布",
           "body": [
-            "小屋大多在南岛。坎特伯雷有 180 座，以 Lake Sumner 森林公园和亚瑟隘口国家公园（Arthur's Pass）最多；西海岸 140 座，很多在 Whitcombe 和 Styx 河谷深处；尼尔森/塔斯曼（Nelson/Tasman）99 座，其中 45 座在卡胡朗吉国家公园（Kahurangi），24 座在尼尔森湖国家公园（Nelson Lakes）；奥塔哥（Otago）78 座，包括阿斯派林山国家公园（Mount Aspiring）的 12 座和 Hāwea 保护公园的 12 座；南地（Southland）70 座，其中 30 座在<a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>；马尔堡（Marlborough）60 座；峡湾地区（Fiordland）55 座，几乎全在峡湾国家公园范围内。",
-            "北岛方面，霍克斯湾（Hawke's Bay）有 55 座，分布在 Kaweka 和 Ruahine 两个森林公园；马纳瓦图/旺格努伊（Manawatū/Whanganui）43 座；东海岸（East Coast）38 座，分布在 Te Urewera 和 Whirinaki；怀拉拉帕（Wairarapa）36 座；惠灵顿/卡皮蒂（Wellington/Kāpiti）24 座，大多在 Tararua 山脉。北岛中部 16 座，其中 10 座在汤加里罗国家公园（Tongariro）；丰盛湾（Bay of Plenty）、塔拉纳基（Taranaki）、北地（Northland）、怀卡托（Waikato）、科罗曼德尔（Coromandel）和奥克兰各有 8 座或更少。"
+            "小屋大多在南岛。坎特伯雷有 180 座，以 Lake Sumner 森林公园和亚瑟山口国家公园（Arthur's Pass）最多；西海岸 140 座，很多在 Whitcombe 和 Styx 河谷深处；尼尔森/塔斯曼（Nelson/Tasman）99 座，其中 45 座在卡胡朗吉国家公园（Kahurangi），24 座在尼尔森湖国家公园（Nelson Lakes）；奥塔哥（Otago）78 座，包括阿斯派林山国家公园（Mount Aspiring）的 12 座和 Hāwea 保护公园的 12 座；南地（Southland）70 座，其中 30 座在 <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>；马尔堡（Marlborough）60 座；峡湾地区（Fiordland）55 座，几乎全在峡湾国家公园范围内。",
+            "北岛方面，霍克斯湾（Hawke's Bay）有 55 座，分布在 Kaweka 和 Ruahine 两个森林公园；马纳瓦图/旺格努伊（Manawatū/Whanganui）43 座；东海岸（East Coast）38 座，分布在 Te Urewera 和 Whirinaki；怀拉拉帕（Wairarapa）36 座；惠灵顿/卡皮蒂（Wellington/Kāpiti）24 座，大多在 Tararua 山脉。北岛中部 16 座，其中 10 座在汤加里罗国家公园（Tongariro）；丰盛湾（Bay of Plenty）、塔拉纳基（Taranaki）、北地（Northland）、怀卡托（Waikato）、科罗曼德（Coromandel）和奥克兰各有 8 座或更少。"
           ],
           "tips": []
         },
@@ -1119,7 +1121,7 @@
         {
           "heading": "规定最严的地区",
           "body": [
-            "皇后镇湖区（Queenstown Lakes）、奥克兰、塔斯曼（Tasman）、泰晤士-科罗曼德尔（Thames-Coromandel）和凯库拉（Kaikōura），管得都很严：指定地点、认证要求、时间窗口，还有人主动巡查。这些也正是需求最旺的地区，规定收紧的原因就在这里。",
+            "皇后镇湖区（Queenstown Lakes）、奥克兰、塔斯曼（Tasman）、泰晤士-科罗曼德（Thames-Coromandel）和凯库拉（Kaikōura），管得都很严：指定地点、认证要求、时间窗口，还有人主动巡查。这些也正是需求最旺的地区，规定收紧的原因就在这里。",
             "规定宽松一些的地区，同样有禁止区域和停留时限。宽松不等于没人管；不管这个区名声如何，具体地点的现场标识才是最终依据。"
           ],
           "tips": []
@@ -4692,7 +4694,7 @@
           "tips": [
             "震得久或猛，马上撤",
             "别等官方预警",
-            "步行上高 35 米或进内陆 1 公里"
+            "步行到 35 米高处，或往内陆走 1 公里"
           ]
         },
         {
@@ -4852,7 +4854,7 @@
         ],
         [
           "新西兰冬天哪里气候最温和？",
-          "北岛北部最暖和，北地（Northland）和科罗曼德尔（Coromandel）全年都能露营。中奥塔哥和麦肯齐地区（Mackenzie）霜冻最重；西海岸气候温和，但非常潮湿。"
+          "北岛北部最暖和，北地（Northland）和科罗曼德（Coromandel）全年都能露营。中奥塔哥和麦肯齐地区（Mackenzie）霜冻最重；西海岸气候温和，但非常潮湿。"
         ]
       ],
       "sources": [
@@ -5097,7 +5099,7 @@
         {
           "heading": "简短结论",
           "body": [
-            "如果行程以<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、小屋和步道为主，又想把收藏的地点排成有日期、有顺序的路线，就选 KiwiCamping。最看重旅行者评价，选 Rankers；想在一款同样覆盖澳洲的免费 App 里搞定预订、优惠和可下载地图，选 CamperMate；想一次付费就拿到公布数量最多的新西兰营地，选 WikiCamps New Zealand。",
+            "如果行程以 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、小屋和步道为主，又想把收藏的地点排成有日期、有顺序的路线，就选 KiwiCamping。最看重旅行者评价，选 Rankers；想在一款同样覆盖澳洲的免费 App 里搞定预订、优惠和可下载地图，选 CamperMate；想一次付费就拿到公布数量最多的新西兰营地，选 WikiCamps New Zealand。",
             "想在农场、葡萄园或其他私人土地上订一晚，Campable 是专门干这个的。NZMCA App 只有在你是新西兰房车协会（New Zealand Motor Caravan Association）会员时才有意义；AllTrails 则是混合行程里徒步那一半该带的 App。大多数在路上超过两周的人，最后都会装其中两款，通常一款用来找地点、做规划，另一款用来看评价或订位。"
           ],
           "table": {
@@ -5173,7 +5175,7 @@
         {
           "heading": "1. KiwiCamping：适合 DOC 营地、小屋和路线规划",
           "body": [
-            "KiwiCamping 是一款新西兰露营地图和行程规划 App，用的是新西兰保护部自己的数据。按 2026年8月的数据，App 收录了 287 个<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋（共 7,661 个床位）和 1,453 条 DOC 步道；DOC 公布了费用、狗只规定和预订要求的，也一并收录。地点详情存在手机上，所以在西海岸或峡湾地区没有信号时，营地的设施和费用照样能打开。地图图块、路线、天气和照片仍然需要信号，所以它代替不了提前下载好的地图。",
+            "KiwiCamping 是一款新西兰露营地图和行程规划 App，用的是新西兰保护部自己的数据。按 2026年8月的数据，App 收录了 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋（共 7,661 个床位）和 1,453 条 DOC 步道；DOC 公布了费用、狗只规定和预订要求的，也一并收录。地点详情存在手机上，所以在西海岸或峡湾地区没有信号时，营地的设施和费用照样能打开。地图图块、路线、天气和照片仍然需要信号，所以它代替不了提前下载好的地图。",
             "它真正胜出的地方在行程规划。地点可以放进“喜欢”“星标”“去过”“想去”或自建的收藏夹；行程里按顺序排好你选的站点，附上日期、备注、待办事项、路线总距离，以及行程里已经去过多少。地点详情页还会显示当地天气、换算成你自己货币的费用；Apple 有覆盖的地方，还能看 Apple 的<a data-guide=\"kiwicamping-weather-look-around\">“四处看看”</a>。",
             "价格和平台：可以免费下载，但免费版只能打开 BookIt 住宿和旅游项目。DOC 营地、小屋、步道和<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>，以及收藏夹、行程和指南，都需要 KiwiCamping 高级通行证；新西兰 App Store 上列出的方案从 NZ$3.99 到 NZ$12.99 不等。只支持 iPhone，需要 iOS 26 或更高版本。",
             "实话说缺点：这款 App 还很新，在新西兰 App Store 上有 4 个评分（3.8 分），而 Rankers 有 3,322 个；App 里没有旅行者评价，也没有 Android 版。如果你想看看最近十位露营者对某个营地的评价，Rankers 或 CamperMate 能告诉你更多。"
@@ -5374,7 +5376,7 @@
         {
           "heading": "北岛概览",
           "body": [
-            "北地（Northland）有很长的海岸线，沿途是 DOC 营地和地方议会营地，季节性需求很旺，重大文化活动期间部分地点会关闭。科罗曼德尔（Coromandel）有临海的 DOC 营地，一到夏天马上就满；怀卡托（Waikato）、陶波和罗托鲁瓦一带，既有地热<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>，也有湖边的选择。",
+            "北地（Northland）有很长的海岸线，沿途是 DOC 营地和地方议会营地，季节性需求很旺，重大文化活动期间部分地点会关闭。科罗曼德（Coromandel）有临海的 DOC 营地，一到夏天马上就满；怀卡托（Waikato）、陶波和罗托鲁瓦一带，既有地热<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>，也有湖边的选择。",
             "中部高原上，Whakapapa 和 Tūrangi 附近的营地是去汤加里罗（Tongariro）徒步的落脚点。吉斯伯恩（Gisborne）和霍克斯湾（Hawke's Bay）有冲浪海滩边的 DOC 营地，也有地方议会管理的区域；惠灵顿的选择更多取决于渡轮时间，而不是风景，为了赶早班船，最后一晚住得平淡些也值。"
           ],
           "tips": []
@@ -5983,7 +5985,7 @@
           "heading": "在哪里订、怎么订",
           "body": [
             "打开 bookings.doc.govt.nz，先注册账户并登录，再开始搜索。找到小屋、营地或 Great Walk 步道，选好日期和人数，订营地还要填车牌号，然后用 Visa 或 Mastercard 付款。预订时全额扣款，所有价格都含 GST。DOC 游客中心也能现场或电话预订很多同样的地点，收 10 新西兰元服务费。",
-            "确认邮件就是预订凭证。离开有信号的地方之前，把确认邮件和通票一起下载或打印好，因为巡护员和小屋管理员可能会查，而大多数<a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>和很多营地都没有信号。需要预订的小屋不分配具体铺位，订到的是一个床位，而不是指定哪一张；没有营位编号的营地，到了以后可以在空着的营位里挑。"
+            "确认邮件就是预订凭证。离开有信号的地方之前，把确认邮件和通票一起下载或打印好，因为巡护员和小屋管理员可能会查，而大多数 <a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>和很多营地都没有信号。需要预订的小屋不分配具体铺位，订到的是一个床位，而不是指定哪一张；没有营位编号的营地，到了以后可以在空着的营位里挑。"
           ],
           "tips": [
             "开放日前注册并试好账户",
@@ -6051,7 +6053,7 @@
           "heading": "想去的小屋或营地订满了怎么办",
           "body": [
             "换个日期再查同一个地方，特别是学校假期前后的平季几周；也看看营地：DOC 说，小屋订满时很多营地仍有不少空位，不过 Milford 和 Paparoa 两条步道没有营地。订满的 Great Walk 可以换一条空位多的，或者去附近一条小屋不用预订的步道。DOC 自己的建议是，接下来几个月持续关注，因为会有人取消，连 Milford Track 全年都有退订。",
-            "开车出行的话，现实的备选是假日公园或自助登记的 DOC 营地。KiwiCamping 会显示数据里的每一座<a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>和每个营地，标明类别、收费和是否接受预订，旁边还有可以在 App 里通过 BookIt 预订的假日公园，所以没信号也能找到最近的备选。App 里的 DOC 地点需要高级通行证；BookIt 住宿可以免费浏览和预订。"
+            "开车出行的话，现实的备选是假日公园或自助登记的 DOC 营地。KiwiCamping 会显示数据里的每一座 <a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>和每个营地，标明类别、收费和是否接受预订，旁边还有可以在 App 里通过 BookIt 预订的假日公园，所以没信号也能找到最近的备选。App 里的 DOC 地点需要高级通行证；BookIt 住宿可以免费浏览和预订。"
           ],
           "tips": [
             "试试平季日期和附近营地",
@@ -6214,7 +6216,7 @@
         {
           "heading": "假日公园还是 DOC 营地：按人数算账",
           "body": [
-            "DOC 按人收费，哪个更便宜，要看谁同行。在服务型<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，无电营位成人每晚 25 新西兰元，儿童 12.50 新西兰元，两大两小要付 75 新西兰元。同一家人住标准 DOC 营地要付 30 至 60 新西兰元，住简易营地不花钱。拿这个数去和假日公园同一晚、同样用电、同样人数的报价总额比，别和公园醒目标出的营位价比。",
+            "DOC 按人收费，哪个更便宜，要看谁同行。在服务型 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，无电营位成人每晚 25 新西兰元，儿童 12.50 新西兰元，两大两小要付 75 新西兰元。同一家人住标准 DOC 营地要付 30 至 60 新西兰元，住简易营地不花钱。拿这个数去和假日公园同一晚、同样用电、同样人数的报价总额比，别和公园醒目标出的营位价比。",
             "两个人出行，DOC 通常价格占优，假日公园胜在设施。一家人出行，按营位收费的假日公园往往能追平甚至比服务型 DOC 营地更便宜，还多了洗衣房、厨房、热水淋浴，孩子也有地方撒欢。很多行程两者混着住最好：DOC 营地看风景，每隔几晚住一次假日公园休整。"
           ],
           "tips": [
@@ -6286,7 +6288,7 @@
         {
           "heading": "在 KiwiCamping 里找和订假日公园",
           "body": [
-            "KiwiCamping 把 BookIt 的假日公园和旅游项目，与<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、排污站显示在同一张地图上。BookIt 的地点在 App 里免费：打开一个，就能看设施和照片，再点“Book now”查实时空位和价格。这样就算在路上临时挑，也能很快找到一小时车程内的有电营位。",
+            "KiwiCamping 把 BookIt 的假日公园和旅游项目，与 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、排污站显示在同一张地图上。BookIt 的地点在 App 里免费：打开一个，就能看设施和照片，再点“Book now”查实时空位和价格。这样就算在路上临时挑，也能很快找到一小时车程内的有电营位。",
             "DOC 营地、小屋、排污站，以及 DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>通告，都属于高级通行证内容。地点详情存在手机上，所以没信号也能把假日公园和最近的 DOC 营地比一比；实时空位、地图和预订页面则需要网络。"
           ],
           "tips": []
@@ -6351,7 +6353,7 @@
         {
           "heading": "各地区排污站",
           "body": [
-            "KiwiCamping 地图上标有 262 个公共排污站。按最近的<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>或小屋所属的 DOC 大区来分：坎特伯雷 38 个，奥塔哥 28 个，丰盛湾 23 个，北地 19 个，奥克兰 17 个，霍克斯湾和惠灵顿/卡皮蒂各 15 个，北岛中部和西海岸各 14 个，马尔堡 11 个，尼尔森/塔斯曼和怀卡托各 10 个，科罗曼德尔 9 个，南地和塔拉纳基各 8 个，东海岸 7 个，马纳瓦图/旺格努伊（Manawatū/Whanganui）6 个，峡湾地区和怀拉拉帕各 5 个。",
+            "KiwiCamping 地图上标有 262 个公共排污站。按最近的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>或小屋所属的 DOC 大区来分：坎特伯雷 38 个，奥塔哥 28 个，丰盛湾 23 个，北地 19 个，奥克兰 17 个，霍克斯湾和惠灵顿/卡皮蒂各 15 个，北岛中部和西海岸各 14 个，马尔堡 11 个，尼尔森/塔斯曼和怀卡托各 10 个，科罗曼德 9 个，南地和塔拉纳基各 8 个，东海岸 7 个，马纳瓦图/旺格努伊（Manawatū/Whanganui）6 个，峡湾地区和怀拉拉帕各 5 个。",
             "这 262 个排污站里，列表显示 240 个免费，8 个接受捐款，6 个收费，还有 8 个没写收费信息。比总数更要紧的是空白地带：峡湾地区、怀拉拉帕和东海岸排污站很少，进去之前先倒空，别指望路上能碰到。在 App 里，排污站属于高级通行证内容，收费说明和位置都存在手机上。"
           ],
           "tips": [
@@ -6722,18 +6724,18 @@
           "heading": "北地：最北端的海滩",
           "body": [
             "Karikari 半岛上的 Maitai Bay 是 pōhutukawa 树下的一处避风海湾，能容纳约 100 个无电营位，有冷水淋浴和冲水厕所，成人 18 新西兰元。这里不接受预订，夏天的规矩是白天早点到，别等到黄昏。",
-            "Tapotupotu 和 Kapowairua（Spirits Bay）是新西兰最北端的两个<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，各有约 45 个无电营位，18 新西兰元。Tapotupotu 紧挨一片能游泳的泻湖，从雷因格角（Cape Reinga/Te Rerenga Wairua）沿碎石路开 5 至 10 分钟就到；Kapowairua 是一片背靠丛林的长海滩。DOC 目前两个营地都不接受预订，夏天要早点到；两处都适合小型房车和轿车，不适合拖挂式房车。"
+            "Tapotupotu 和 Kapowairua（Spirits Bay）是新西兰最北端的两个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，各有约 45 个无电营位，18 新西兰元。Tapotupotu 紧挨一片能游泳的泻湖，从雷因加角（Cape Reinga/Te Rerenga Wairua）沿碎石路开 5 至 10 分钟就到；Kapowairua 是一片背靠丛林的长海滩。DOC 目前两个营地都不接受预订，夏天要早点到；两处都适合小型房车和轿车，不适合拖挂式房车。"
           ],
           "tips": [
             "Maitai Bay 先到先得",
-            "Tapotupotu 离雷因格角 10 分钟",
+            "Tapotupotu 离雷因加角 10 分钟",
             "三个营地都不能带狗"
           ]
         },
         {
-          "heading": "科罗曼德尔：北环线的白沙滩",
+          "heading": "科罗曼德：北环线的白沙滩",
           "body": [
-            "Waikawau Bay 规模最大：约 120 个无电营位和 12 个有电营位，就在一片未经开发的白沙滩后面，成人按季节 18 至 23 新西兰元。Stony Bay（18 新西兰元）占地 5 公顷，科罗曼德尔海岸步道（Coromandel Coastal Walkway）从这里出发，通往 Fletcher Bay；Port Jackson（18 至 20 新西兰元）位于半岛北端，紧挨水边。",
+            "Waikawau Bay 规模最大：约 120 个无电营位和 12 个有电营位，就在一片未经开发的白沙滩后面，成人按季节 18 至 23 新西兰元。Stony Bay（18 新西兰元）占地 5 公顷，科罗曼德海岸步道（Coromandel Coastal Walkway）从这里出发，通往 Fletcher Bay；Port Jackson（18 至 20 新西兰元）位于半岛北端，紧挨水边。",
             "三个营地都接受预订，圣诞节到1月下旬会提前很久订满。北部道路窄，部分路段没有铺装，计划这条环线之前，先确认租车合同允许开这些路。"
           ],
           "tips": [
@@ -6781,7 +6783,7 @@
         {
           "heading": "坎特伯雷和麦肯齐",
           "body": [
-            "去亚瑟隘口（Arthur's Pass）路上的 Lake Pearson（Moana Rua）是一处湖畔营地，位于 Waimakariri 盆地高地，15 新西兰元，约 20 个无电营位，只有旱厕。Omarama 附近的 Ahuriri Bridge 免费，不接受预订，就在 Ahuriri 河岸的柳树下。",
+            "去亚瑟山口（Arthur's Pass）路上的 Lake Pearson（Moana Rua）是一处湖畔营地，位于 Waimakariri 盆地高地，15 新西兰元，约 20 个无电营位，只有旱厕。Omarama 附近的 Ahuriri Bridge 免费，不接受预订，就在 Ahuriri 河岸的柳树下。",
             "麦肯齐盆地的青绿色湖泊都在 Aoraki Mackenzie 国际暗夜保护区范围内，所以那里的星空才这么好。KiwiCamping 的 DOC 数据里，特卡波湖和普卡基湖岸边本身没有营地，所以想在那里住湖边，一般要去<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>或地方议会营地；停车前先查地方议会的规定。"
           ],
           "tips": [
@@ -6830,7 +6832,7 @@
           "heading": "预订、收费和 App",
           "body": [
             "上面的营地大多可以通过 DOC 网上预订系统预订，热门营地一到周末和夏季假期就会订满。2026年10月时，清单上 DOC 不接受预订的营地有 Maitai Bay、Tapotupotu、Kapowairua、Ahuriri Bridge 和 Twelve Mile Delta，这几处先到先得。收费按每位成人每晚计；出发前到 DOC 页面查儿童价和有没有调价。",
-            "在 KiwiCamping 里，每个<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>都标有收费、设施、车辆通行和带狗规定，可以在地图上比较，还能为这趟行程存一份候选清单。DOC 营地属于高级通行证内容；App 里只有 BookIt 住宿和旅游项目是免费的。"
+            "在 KiwiCamping 里，每个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>都标有收费、设施、车辆通行和带狗规定，可以在地图上比较，还能为这趟行程存一份候选清单。DOC 营地属于高级通行证内容；App 里只有 BookIt 住宿和旅游项目是免费的。"
           ],
           "tips": [
             "热门营地早点订",
@@ -6850,7 +6852,7 @@
       "faq": [
         [
           "新西兰哪些营地风景最好？",
-          "DOC 营地里比较出众的有：雷因格角附近的 Tapotupotu、科罗曼德尔的 Waikawau Bay、亚伯塔斯曼的 Tōtaranui、西海岸的 Lake Māhinapua、瓦卡蒂普湖畔的 Kinloch，以及米尔福德公路上的 Cascade Creek。这六个营地成人每晚 18 至 23 新西兰元。"
+          "DOC 营地里比较出众的有：雷因加角附近的 Tapotupotu、科罗曼德的 Waikawau Bay、亚伯塔斯曼的 Tōtaranui、西海岸的 Lake Māhinapua、瓦卡蒂普湖畔的 Kinloch，以及米尔福德公路上的 Cascade Creek。这六个营地成人每晚 18 至 23 新西兰元。"
         ],
         [
           "风景营地需要预订吗？",
@@ -7738,7 +7740,7 @@
           ]
         },
         {
-          "heading": "凯库拉要预订，别路过",
+          "heading": "凯库拉要订好住宿，别只是路过",
           "body": [
             "观鲸、与海豚同游和看信天翁的出海项目都看天气，旺季也都会订满。这里的鲸鱼全年常驻，所以凯库拉格外靠谱，但海况导致取消的情况常常发生，只住一晚就是在赌运气。",
             "住两晚，把出海项目订在第一天上午。这样运营方就有第二个时段能给你改期，而不是在你开车离开时给你退款。"
@@ -8826,7 +8828,7 @@
         {
           "heading": "三周的房车日常",
           "body": [
-            "行程这么长，车辆的日常打理很关键：按固定节奏排污、加水，别等水箱满了才处理；每五六天洗一次衣服；每连续<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>一段之后，安排一晚住有服务设施的营地。在地方议会的土地上开车自由露营，必须是持有自给自足认证的车辆，除非地方议会专门把该地点留给没有认证的车辆；不少 DOC 告示也有同样的要求。从 2026年6月7日起，只有持绿色认证的车辆才算数，蓝色认证已经不算了，所以取车时要看一下车上的认证。这些事一拖，第三周就不好过了。",
+            "行程这么长，车辆的日常打理很关键：按固定节奏排污、加水，别等水箱满了才处理；每五六天洗一次衣服；每连续<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>一段之后，安排一晚住有服务设施的营地。在地方议会的土地上开车自由露营，必须是持有自给自足认证的车辆，除非地方议会专门把该地点留给没有认证的车辆；不少 DOC 告示也有同样的要求。从2026年6月7日起，只有持绿色认证的车辆才算数，蓝色认证已经不算了，所以取车时要看一下车上的认证。这些事一拖，第三周就不好过了。",
             "燃气瓶、胎压和玻璃水，边走边补。车上的小活在镇上很好办，到了米尔福德公路上就难了。"
           ],
           "tips": []
@@ -8974,20 +8976,20 @@
     },
     "rankers-alternatives": {
       "title": "2026 Rankers 替代 App 推荐：新西兰露营 5 款",
-      "description": "不想只用 Rankers Camping NZ？这里从价格、离线使用和各自更擅长的事，对比 KiwiCamping、CamperMate、WikiCamps、thl Roadtrip 和 Campable。2026 年 10 月核对。",
+      "description": "不想只用 Rankers Camping NZ？这里从价格、离线使用和各自更擅长的事，对比 KiwiCamping、CamperMate、WikiCamps、thl Roadtrip 和 Campable。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "大屏障岛 Medlands Beach，开花的新西兰圣诞树下是一片草地 DOC 营地",
-      "intro": "Rankers Camping NZ 是新西兰 App Store 上评分数最多的露营 App，免费，口碑也好：2026 年 10 月 20 日我们查看时，它在新西兰 App Store 有 3,322 个评分，4.7 星。很少有人因为它不好用而放弃它。大家去找别的 App，往往是因为行程需要的东西不是 Rankers 的重点，比如按天规划路线、徒步那几天要用的 DOC 小屋和步道、在农场住一晚，或者接着去澳洲。先说明一下：KiwiCamping 是我们自己的 App，所以排在第一位；下面每一款都会写清楚它比 Rankers 强在哪里，以及什么情况下该换用它。",
+      "intro": "Rankers Camping NZ 是新西兰 App Store 上评分数最多的露营 App，免费，口碑也好：2026年10月20日我们查看时，它在新西兰 App Store 有 3,322 个评分，4.7 星。很少有人因为它不好用而放弃它。大家去找别的 App，往往是因为行程需要的东西不是 Rankers 的重点，比如按天规划路线、徒步那几天要用的 DOC 小屋和步道、在农场住一晚，或者接着去澳洲。先说明一下：KiwiCamping 是我们自己的 App，所以排在第一位；下面每一款都会写清楚它比 Rankers 强在哪里，以及什么情况下该换用它。",
       "sections": [
         {
           "heading": "Rankers 替代 App 一览",
           "body": [
-            "只给一个建议的话：评价继续看 Rankers，等行程要排日期、住<a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>或走步道时，再加上 KiwiCamping。行程还要去澳洲，就改用 CamperMate；比起精选，更看重收录多少，就选 WikiCamps New Zealand；只想简单免费地看看附近有什么，选 thl Roadtrip；想订私人土地上的过夜位置，选 Campable。",
+            "只给一个建议的话：评价继续看 Rankers，等行程要排日期、住 <a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>或走步道时，再加上 KiwiCamping。行程还要去澳洲，就改用 CamperMate；比起精选，更看重收录多少，就选 WikiCamps New Zealand；只想简单免费地看看附近有什么，选 thl Roadtrip；想订私人土地上的过夜位置，选 Campable。",
             "这些 App 都代替不了<a data-guide=\"camping-rules-local-councils-new-zealand\">地方条例</a>和营地入口的标牌。Rankers 说它只收录当地社区认可过夜的地方，这是实打实的优势；收录地点更多的 App，如果每个地方还得你自己去核实，也不见得更好用。"
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "比 Rankers 更适合的情况",
@@ -9052,7 +9054,7 @@
         {
           "heading": "1. KiwiCamping：把收藏的地点变成带日期的路线",
           "body": [
-            "KiwiCamping 用的是新西兰保护部自己的数据。按 2026 年 8 月的数据，App 里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 列出了费用、带狗规定和预订要求的，App 里也都有。以评价为主的 App 最弱的地方，恰恰是它最强的地方：第四天要走去的小屋，还有从今晚营地出发的步道。",
+            "KiwiCamping 用的是新西兰保护部自己的数据。按 2026年8月的数据，App 里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 列出了费用、带狗规定和预订要求的，App 里也都有。以评价为主的 App 最弱的地方，恰恰是它最强的地方：第四天要走去的小屋，还有从今晚营地出发的步道。",
             "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>条件可以组合，一次搜索就能同时限定地点类型、费用、设施和通行条件。收藏的地点可以排成一趟行程，站点有先后顺序，还能加日期、备注、待办事项，并显示总里程；信号断了，手机上照样能看地点详情。地图、路线、天气和照片还是需要信号。",
             "费用和不足：下载免费，但免费版只能打开 BookIt 的住宿和旅游项目；DOC 营地、小屋、步道和<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>，以及收藏、行程和指南，都要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元。它只有 iPhone 版，需要 iOS 26 或更高版本，在新西兰只有 4 个评分（3.8），也没有旅行者评价。所以我们建议和 Rankers 搭配着用，而不是拿它来替代。"
           ],
@@ -9065,7 +9067,7 @@
         {
           "heading": "2. CamperMate：行程跨塔斯曼海就选它",
           "body": [
-            "CamperMate 一个免费 App 就能覆盖新西兰和澳洲，支持 27 种语言，可以按免费和收费筛选地点，有旅行者评价和照片，能查空位、订营地，还有当地优惠和租车链接。它的商店页面说，地图和地点信息可以下载下来，没信号也能用；2026 年 10 月中旬的 5.8 版又加了卫星视图。",
+            "CamperMate 一个免费 App 就能覆盖新西兰和澳洲，支持 27 种语言，可以按免费和收费筛选地点，有旅行者评价和照片，能查空位、订营地，还有当地优惠和租车链接。它的商店页面说，地图和地点信息可以下载下来，没信号也能用；2026年10月中旬的 5.8 版又加了卫星视图。",
             "它在新西兰有 606 个评分，4.4 分；在 Google Play 有 12,568 个评分，4.0 分。最近的评价褒贬不一：2025 年底和 2026 年的好几条评价不喜欢这次改版，另外 App 里有广告。如果你只在新西兰玩，又最看重评价，那两者相比还是 Rankers 更好。"
           ],
           "tips": [
@@ -9121,7 +9123,7 @@
         {
           "heading": "我们是怎么比较的",
           "body": [
-            "2026 年 10 月 20 日，我们查看了每款 App 在新西兰 App Store 的页面和开发者自己的网站，有 Google Play 页面的也一并看了。评分和价格以当天显示为准。评价反映的问题来自新西兰 App Store 上 Rankers 最新的 50 条评价，我们只统计条数，不代表我们自己的判断。",
+            "2026年10月20日，我们查看了每款 App 在新西兰 App Store 的页面和开发者自己的网站，有 Google Play 页面的也一并看了。评分和价格以当天显示为准。评价反映的问题来自新西兰 App Store 上 Rankers 最新的 50 条评价，我们只统计条数，不代表我们自己的判断。",
             "我们只写开发者自己介绍过的功能。这里没提到的功能，不等于这款 App 没有。"
           ],
           "tips": []
@@ -9161,10 +9163,10 @@
     },
     "campermate-alternatives": {
       "title": "2026 CamperMate 替代 App 推荐：新西兰 5 款",
-      "description": "对 CamperMate 改版或广告不满意？这里针对新西兰旅行，对比 KiwiCamping、Rankers、WikiCamps、thl Roadtrip 和 NZMCA App。2026 年 10 月核对。",
+      "description": "对 CamperMate 改版或广告不满意？这里针对新西兰旅行，对比 KiwiCamping、Rankers、WikiCamps、thl Roadtrip 和 NZMCA App。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "Kahurangi 国家公园 Iron Lake 边搭起的一顶小帐篷",
-      "intro": "这些年，CamperMate 几乎是在新西兰和澳洲开房车旅行的人必装的 App。它到现在还是免费，有 27 种语言，地图能下载下来没信号时用。最近不少人找替代品，原因很明确：新西兰 App Store 上有几位评价者从 2025 年底起就不喜欢它的改版，再加上 App 里的广告。2026 年 10 月 20 日，我们把值得换用的 App 都查了一遍。KiwiCamping 是我们自己的，所以它排第一这件事，你看的时候心里有数就好：我们会把理由讲清楚，也会说明哪些行程换别的 App 更合适。",
+      "intro": "这些年，CamperMate 几乎是在新西兰和澳洲开房车旅行的人必装的 App。它到现在还是免费，有 27 种语言，地图能下载下来没信号时用。最近不少人找替代品，原因很明确：新西兰 App Store 上有几位评价者从 2025 年底起就不喜欢它的改版，再加上 App 里的广告。2026年10月20日，我们把值得换用的 App 都查了一遍。KiwiCamping 是我们自己的，所以它排第一这件事，你看的时候心里有数就好：我们会把理由讲清楚，也会说明哪些行程换别的 App 更合适。",
       "sections": [
         {
           "heading": "CamperMate 替代 App 一览",
@@ -9174,7 +9176,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "换用理由",
@@ -9239,7 +9241,7 @@
         {
           "heading": "1. KiwiCamping：DOC 营地和整条路线规划",
           "body": [
-            "CamperMate 偏重可预订的营地和优惠，KiwiCamping 用的则是 DOC 自己的记录：按 App 2026 年 8 月的数据，有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 公布了费用、带狗规定和预订要求的，App 里也都有（以 DOC 公布的为准）。App 里没有广告。",
+            "CamperMate 偏重可预订的营地和优惠，KiwiCamping 用的则是 DOC 自己的记录：按 App 2026年8月的数据，有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 公布了费用、带狗规定和预订要求的，App 里也都有（以 DOC 公布的为准）。App 里没有广告。",
             "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>条件可以组合，包括费用、设施和通行条件；要是你也像一些评价者那样，在 CamperMate 改版后没了筛选功能，这一点就很关键。地点可以存进“想去”这样的收藏，也可以直接加进行程，站点有先后顺序，还能加日期、备注、待办事项，并显示路线里程。信号断了，地点详情照样在手机上；地图、路线、天气和照片则需要联网。",
             "不足：只有 BookIt 的住宿和旅游项目免费；DOC 营地、小屋、步道和<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>，以及收藏、行程和指南，都要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元。它只覆盖新西兰，只有 iPhone 版，需要 iOS 26 或更高版本，在新西兰只有 4 个评分（3.8），没有旅行者评价；看重评价的话，就和 Rankers 搭配用。"
           ],
@@ -9301,14 +9303,14 @@
           "heading": "什么时候还是 CamperMate 更好",
           "body": [
             "如果行程两个国家都要去，大部分晚上住<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>，又喜欢一路捡优惠，那 CamperMate 一个免费 App 就能把这三件事都包了。可下载的地图和 27 种语言，对不用英文阅读的游客也是实实在在的帮助。",
-            "如果问题出在改版，而不是这款 App 本身的用途，换之前不妨先更新到最新版试试。5.8 版是 2026 年 10 月 16 日推出的。"
+            "如果问题出在改版，而不是这款 App 本身的用途，换之前不妨先更新到最新版试试。5.8 版是 2026年10月16日推出的。"
           ],
           "tips": []
         },
         {
           "heading": "我们是怎么比较的",
           "body": [
-            "2026 年 10 月 20 日，我们查看了每款 App 在新西兰 App Store 的页面、开发者自己的网站，有 Google Play 页面的也一并看了。评分和价格以当天显示为准。评价反映的问题来自新西兰 App Store 上 CamperMate 最新的 50 条评价，其中 16 条写于 2025 年或 2026 年，我们只统计条数。",
+            "2026年10月20日，我们查看了每款 App 在新西兰 App Store 的页面、开发者自己的网站，有 Google Play 页面的也一并看了。评分和价格以当天显示为准。评价反映的问题来自新西兰 App Store 上 CamperMate 最新的 50 条评价，其中 16 条写于 2025 年或 2026 年，我们只统计条数。",
             "功能只按各开发者自己的介绍来写。没写到的功能，不等于这款 App 没有。"
           ],
           "tips": []
@@ -9351,10 +9353,10 @@
     },
     "road-trip-planner-apps-new-zealand": {
       "title": "2026 新西兰自驾行程规划 App 哪款好用：6 款对比",
-      "description": "规划新西兰自驾，KiwiCamping、Wanderlog、Google 地图、WikiCamps、Apple 地图和 Polarsteps 哪款好用？从停靠点、天数、离线使用和价格对比。2026 年 10 月核对。",
+      "description": "规划新西兰自驾，KiwiCamping、Wanderlog、Google 地图、WikiCamps、Apple 地图和 Polarsteps 哪款好用？从停靠点、天数、离线使用和价格对比。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "奥塔哥 Lindis Pass，长满丛生草的山谷和 8 号国道",
-      "intro": "新西兰自驾要提前想好三件事，而普通地图 App 恰恰都不擅长：每晚住哪里，下一段路在蜿蜒的双车道公路上实际要开多久，到了西海岸没信号时手机上还能看到什么。我们就这三个问题，对比了六款行程规划 App，依据是它们目前在新西兰 App Store 的页面和开发者自己的帮助页面，核对时间为 2026 年 10 月 20 日。KiwiCamping 是我们做的，所以排在第一；排第一的理由只针对露营旅行，其他类型的旅行，我们会直接说该用哪款。",
+      "intro": "新西兰自驾要提前想好三件事，而普通地图 App 恰恰都不擅长：每晚住哪里，下一段路在蜿蜒的双车道公路上实际要开多久，到了西海岸没信号时手机上还能看到什么。我们就这三个问题，对比了六款行程规划 App，依据是它们目前在新西兰 App Store 的页面和开发者自己的帮助页面，核对时间为 2026年10月20日。KiwiCamping 是我们做的，所以排在第一；排第一的理由只针对露营旅行，其他类型的旅行，我们会直接说该用哪款。",
       "sections": [
         {
           "heading": "两句话说结论",
@@ -9364,7 +9366,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各开发者帮助页面核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各开发者帮助页面核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "最适合",
@@ -9429,7 +9431,7 @@
           "heading": "1. KiwiCamping：按夜规划露营旅行",
           "body": [
             "KiwiCamping 把行程看成一晚接一晚的安排，而不只是地图上的一条线。做功课时把地点存进收藏，选定的再加进行程：站点排好顺序，记上日期，每一站可以写备注（比如大门密码、几点前到），还有加油、加水、买<a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">食品杂货</a>的待办清单，并显示整条路线的总里程和已经去过的比例。行程日期可以加到“日历”App，整个行程也能以文字形式分享。",
-            "这类旅行把它排第一，靠的就是过夜地点。按 2026 年 8 月的数据，App 里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 公布了费用、带狗规定和预订要求的，App 里也都有。这些详情存在手机上，没信号也能比较今晚住哪；地图、路线、天气和照片需要信号。",
+            "这类旅行把它排第一，靠的就是过夜地点。按 2026年8月的数据，App 里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，DOC 公布了费用、带狗规定和预订要求的，App 里也都有。这些详情存在手机上，没信号也能比较今晚住哪；地图、路线、天气和照片需要信号。",
             "不足：<a data-guide=\"save-places-kiwicamping\">收藏</a>、行程和 DOC 地点都要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元；只有 BookIt 的住宿和旅游项目免费。它只有 iPhone 版，需要 iOS 26 或更高版本，只覆盖新西兰，不会自动帮你优化站点顺序，在新西兰只有 4 个评分（3.8）。"
           ],
           "tips": [
@@ -9513,7 +9515,7 @@
         {
           "heading": "我们怎么选、怎么核对",
           "body": [
-            "我们对比的是新西兰旅行者常用来规划自驾的 App，于 2026 年 10 月 20 日根据各 App 的新西兰 App Store 页面和开发者帮助页面核对。没有收录 Roadtrippers，因为它的新西兰页面写明是为美国和加拿大设计的；也没有收录 TripIt，因为它整理的是预订信息，不是路线。",
+            "我们对比的是新西兰旅行者常用来规划自驾的 App，于 2026年10月20日根据各 App 的新西兰 App Store 页面和开发者帮助页面核对。没有收录 Roadtrippers，因为它的新西兰页面写明是为美国和加拿大设计的；也没有收录 TripIt，因为它整理的是预订信息，不是路线。",
             "评分、价格和停靠点上限以当天显示为准。功能只按开发者自己的介绍来写，所以这里没提到的功能，不等于这款 App 没有。"
           ],
           "tips": []
@@ -9559,10 +9561,10 @@
     },
     "free-camping-apps-new-zealand": {
       "title": "2026 新西兰免费露营 App 哪款好用：5 款对比",
-      "description": "找新西兰免费露营和自由露营，Rankers、CamperMate、WikiCamps、KiwiCamping 和 NZMCA App 哪款好用？附 2026 年自给自足规定。2026 年 10 月核对。",
+      "description": "找新西兰免费露营和自由露营，Rankers、CamperMate、WikiCamps、KiwiCamping 和 NZMCA App 哪款好用？附 2026 年自给自足规定。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "Twizel 附近的 Lake Poaka 湖畔营地，房车停在树丛间",
-      "intro": "在新西兰免费露营有两种：一种是自由露营，地方议会或 DOC 允许你在正规营地以外的地方过夜；另一种是不收费的营地，大多是设施简单的 DOC 营地。App 能帮你找到这两种地方，但能不能住，App 说了不算，要看地方条例、DOC 和现场标牌。我们对比了找免费过夜地点最有用的五款 App，核对时间为 2026 年 10 月 20 日。KiwiCamping 是我们做的，它没排第一，因为其中的免费 DOC 营地要付费的高级通行证才能看。下面也会说它在哪些地方还用得上。",
+      "intro": "在新西兰免费露营有两种：一种是自由露营，地方议会或 DOC 允许你在正规营地以外的地方过夜；另一种是不收费的营地，大多是设施简单的 DOC 营地。App 能帮你找到这两种地方，但能不能住，App 说了不算，要看地方条例、DOC 和现场标牌。我们对比了找免费过夜地点最有用的五款 App，核对时间为 2026年10月20日。KiwiCamping 是我们做的，它没排第一，因为其中的免费 DOC 营地要付费的高级通行证才能看。下面也会说它在哪些地方还用得上。",
       "sections": [
         {
           "heading": "找免费过夜地点用哪款",
@@ -9572,7 +9574,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "怎么找免费过夜点",
@@ -9616,11 +9618,11 @@
         {
           "heading": "2026 年最要紧的规定：绿色认证",
           "body": [
-            "在地方议会管理的土地上，法律规定只有<a data-guide=\"self-contained-campervan-green-warrant\">有自给自足认证</a>的车辆才能自由露营，除非地方条例允许其他车辆在某个地点过夜；而“有认证”的含义今年变了。旧的蓝色贴纸向法定绿色认证的过渡期已于 2026 年 6 月 7 日结束，蓝色贴纸不再有效。绿色认证要求车上装有固定马桶，便携式马桶不再符合要求。",
+            "在地方议会管理的土地上，法律规定只有<a data-guide=\"self-contained-campervan-green-warrant\">有自给自足认证</a>的车辆才能自由露营，除非地方条例允许其他车辆在某个地点过夜；而“有认证”的含义今年变了。旧的蓝色贴纸向法定绿色认证的过渡期已于 2026年6月7日结束，蓝色贴纸不再有效。绿色认证要求车上装有固定马桶，便携式马桶不再符合要求。",
             "在保护地上，DOC 自己定规则：DOC 的风景保护区和休闲保护区内不准<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>，除非 DOC 在那里设了营地；有些地区只允许自给自足车辆，或限制过夜天数，有些则完全禁止。没有绿色认证的话，车里过夜只能在两类地方：地方条例允许的地方议会土地，以及上述保护区和 DOC 禁止或限制区域以外的 DOC 土地。最省事的选择是免费的 DOC 营地。"
           ],
           "tips": [
-            "蓝色贴纸 2026 年 6 月 7 日起不再算数",
+            "蓝色贴纸 2026年6月7日起不再算数",
             "绿色认证要有固定厕所",
             "DOC 和各地方议会各有限制"
           ]
@@ -9640,7 +9642,7 @@
         {
           "heading": "2. CamperMate：免费和收费地点放在一起看",
           "body": [
-            "CamperMate 把<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>点和营地放在一起显示，覆盖新西兰和澳洲，可以按免费或收费筛选。它的商店页面没提到自给自足筛选，2026 年 1 月还有一位评价者说，2025 年底改版后这个选项好像没了，所以要看每个地点的介绍，确认对自给自足有没有要求。",
+            "CamperMate 把<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>点和营地放在一起显示，覆盖新西兰和澳洲，可以按免费或收费筛选。它的商店页面没提到自给自足筛选，2026年1月还有一位评价者说，2025 年底改版后这个选项好像没了，所以要看每个地点的介绍，确认对自给自足有没有要求。",
             "它免费，有广告，在新西兰 App Store 有 606 个评分，4.4 分。地图和地点信息可以下载，没信号也能用。"
           ],
           "tips": [
@@ -9662,9 +9664,9 @@
           ]
         },
         {
-          "heading": "4. KiwiCamping：免费的 DOC 营地",
+          "heading": "4. KiwiCamping：适合找不收费的 DOC 营地",
           "body": [
-            "按 2026 年 8 月的数据，KiwiCamping 收录了 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，其中 DOC 列为免费的有 63 个，费用、带狗规定和预订要求都按 DOC 公布的信息显示。免费的 DOC 营地一般只有厕所，别的设施很少。这 63 个里，DOC 标明房车能开到的有 29 个；其余很多要徒步、坐船或开四驱才能到，打算在哪个营地过夜之前，先查清怎么去。",
+            "按 2026年8月的数据，KiwiCamping 收录了 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，其中 DOC 列为免费的有 63 个，费用、带狗规定和预订要求都按 DOC 公布的信息显示。免费的 DOC 营地一般只有厕所，别的设施很少。这 63 个里，DOC 标明房车能开到的有 29 个；其余很多要徒步、坐船或开四驱才能到，打算在哪个营地过夜之前，先查清怎么去。",
             "问题是，DOC 地点、<a data-guide=\"save-places-kiwicamping\">收藏</a>和行程都要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元；App 里只有 BookIt 的住宿和旅游项目免费。它只有 iPhone 版，需要 iOS 26 或更高版本，免费地点数据来自 DOC 而不是地方议会，也没有旅行者评价，所以这里 Rankers 排在它前面。"
           ],
           "tips": [
@@ -9689,7 +9691,7 @@
           "heading": "没有收录的 App",
           "body": [
             "在 App Store 搜新西兰<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>，会出现一款叫 Freedom camping nz 的免费 App，最后一次更新是 2017 年，21 个评分平均 1.3 分，评价者说它的地图上新西兰的内容很少。我们不会靠它。park4night 和 iOverlander 这类国际 App 收录了很多国家的地点，但没说明在新西兰覆盖多少，所以我们没有给它们排名。",
-            "所有 App 页面、评分和价格，我们都在 2026 年 10 月 20 日根据新西兰 App Store 和开发者自己的网站核对过。功能只按各开发者自己的介绍来写，所以这里没写到的功能，不等于这款 App 没有。"
+            "所有 App 页面、评分和价格，我们都在 2026年10月20日根据新西兰 App Store 和开发者自己的网站核对过。功能只按各开发者自己的介绍来写，所以这里没写到的功能，不等于这款 App 没有。"
           ],
           "tips": []
         },
@@ -9713,7 +9715,7 @@
         ],
         [
           "没有自给自足认证的车，能在新西兰自由露营吗？",
-          "自 2026 年 6 月 7 日起，只有绿色认证才算自给自足。没有绿色认证，车辆只能在两类地方过夜：地方条例允许的地方议会土地，以及风景保护区、休闲保护区和 DOC 禁止或限制区域以外的 DOC 土地。最省事的选择是免费的 DOC 营地。"
+          "自 2026年6月7日起，只有绿色认证才算自给自足。没有绿色认证，车辆只能在两类地方过夜：地方条例允许的地方议会土地，以及风景保护区、休闲保护区和 DOC 禁止或限制区域以外的 DOC 土地。最省事的选择是免费的 DOC 营地。"
         ]
       ],
       "sources": [
@@ -9740,20 +9742,20 @@
     },
     "wikicamps-alternatives": {
       "title": "2026 WikiCamps 替代 App 推荐：新西兰露营 5 款",
-      "description": "WikiCamps New Zealand 售价 7.99 新西兰元，地点主要靠用户添加。这里从价格、数据和离线使用，对比 KiwiCamping、Rankers、CamperMate、Campable 和 Overland Navigator。2026 年 10 月核对。",
+      "description": "WikiCamps New Zealand 售价 7.99 新西兰元，地点主要靠用户添加。这里从价格、数据和离线使用，对比 KiwiCamping、Rankers、CamperMate、Campable 和 Overland Navigator。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "Mount Aspiring 国家公园林木茂密的群峰下，Cameron Flat 营地里停着一辆巴士改装房车、几辆汽车，还有一顶小帐篷",
-      "intro": "WikiCamps New Zealand 是一款付费 App，有一批忠实用户：在新西兰 App Store 一次买断 7.99 新西兰元；我们 2026 年 10 月 20 日查看时，它有 137 个新西兰评分，平均 4.5 星，收录的 12,000 多个新西兰地点都是用户自己添加的。大多数找替代品的人，其实不是对它不满意，而是拿不准：明明有免费 App，还要不要花钱；用户添加的信息是不是最新；去澳洲是不是还得再买一份。KiwiCamping 是我们的 App，所以排在第一位，不过每一款我们都会直说：它比 WikiCamps 强在哪里，什么情况下还是买 WikiCamps 更值。",
+      "intro": "WikiCamps New Zealand 是一款付费 App，有一批忠实用户：在新西兰 App Store 一次买断 7.99 新西兰元；我们 2026年10月20日查看时，它有 137 个新西兰评分，平均 4.5 星，收录的 12,000 多个新西兰地点都是用户自己添加的。大多数找替代品的人，其实不是对它不满意，而是拿不准：明明有免费 App，还要不要花钱；用户添加的信息是不是最新；去澳洲是不是还得再买一份。KiwiCamping 是我们的 App，所以排在第一位，不过每一款我们都会直说：它比 WikiCamps 强在哪里，什么情况下还是买 WikiCamps 更值。",
       "sections": [
         {
           "heading": "WikiCamps 替代 App 一览",
           "body": [
-            "简单说：如果大部分晚上住<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>或小屋，选 KiwiCamping，地点详情直接来自 DOC，还能排出带日期的行程。想要免费 App，在新西兰 Rankers 最强，CamperMate 还能覆盖澳洲。Campable 适合在农场和葡萄园预订过夜，Overland Navigator 适合跑通用露营 App 地图上没有的碎石路和四驱路线。",
+            "简单说：如果大部分晚上住 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>或小屋，选 KiwiCamping，地点详情直接来自 DOC，还能排出带日期的行程。想要免费 App，在新西兰 Rankers 最强，CamperMate 还能覆盖澳洲。Campable 适合在农场和葡萄园预订过夜，Overland Navigator 适合跑通用露营 App 地图上没有的碎石路和四驱路线。",
             "WikiCamps 胜在数量。地点都是用户自己添加的，所以才这么多，也正因为这样，收费变了或营地关了，App 里可能更新不及时。不管用哪款 App，能不能住，最终都以营地现场的标牌和地方议会或 DOC 的页面为准。"
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各开发者网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "比 WikiCamps 更适合的情况",
@@ -9810,7 +9812,7 @@
         {
           "heading": "为什么有人想换掉 WikiCamps",
           "body": [
-            "WikiCamps 在新西兰 App Store 的评价不多，最近 50 条一直能追溯到 2020 年 1 月，其中只有 13 条写于 2024 年或之后。41 条打了四星或五星；被夸得最多的是行程规划，以及收录的地点比免费 App 多，各有七条。差评方面：六条说更新后<a data-guide=\"kiwicamping-filters-guide\">筛选</a>或数据出了问题，其中五条在 2023 年（当前版本 6.3.0 于 2026 年 10 月 19 日发布）；五条说地点详情、收费或位置过时或有误；两条说 App 卡死，或者打不开行程规划。",
+            "WikiCamps 在新西兰 App Store 的评价不多，最近 50 条一直能追溯到 2020年1月，其中只有 13 条写于 2024 年或之后。41 条打了四星或五星；被夸得最多的是行程规划，以及收录的地点比免费 App 多，各有七条。差评方面：六条说更新后<a data-guide=\"kiwicamping-filters-guide\">筛选</a>或数据出了问题，其中五条在 2023 年（当前版本 6.3.0 于 2026年10月19日发布）；五条说地点详情、收费或位置过时或有误；两条说 App 卡死，或者打不开行程规划。",
             "还有两个实际问题。WikiCamps 的新西兰版和澳洲版是分开卖的两个 App，行程要跨塔斯曼海，就得再买一次：WikiCamps Australia 在新西兰 App Store 卖 11.99 新西兰元。另外，Android 版在 Google Play 上有 1,042 个评分，平均 3.0 分，页面标着含内购和含广告，尽管介绍里说是一次性购买。"
           ],
           "tips": []
@@ -9818,7 +9820,7 @@
         {
           "heading": "1. KiwiCamping：住 DOC 营地和小屋，详情来自 DOC",
           "body": [
-            "按 2026 年 8 月的数据，KiwiCamping 收录的 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道都来自新西兰保护部的数据，附有 DOC 列出的成人收费、带狗规定和预订要求，还有该地点 DOC 页面的链接。DOC 的地点，KiwiCamping 显示的就是 DOC 公布的内容。",
+            "按 2026年8月的数据，KiwiCamping 收录的 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道都来自新西兰保护部的数据，附有 DOC 列出的成人收费、带狗规定和预订要求，还有该地点 DOC 页面的链接。DOC 的地点，KiwiCamping 显示的就是 DOC 公布的内容。",
             "收藏的地点可以排成行程：停靠点有先后顺序，能记日期和备注，还显示路线距离；费用、设施和带狗这几项<a data-guide=\"kiwicamping-filters-guide\">筛选</a>可以在一次搜索里组合使用。没信号时，地点详情仍保存在手机上；地图图块、路线规划、天气和照片则不行。",
             "不足：免费版只能打开 BookIt 的住宿和旅游项目，DOC 地点、<a data-guide=\"save-places-kiwicamping\">收藏</a>、行程和指南都要 KiwiCamping 高级通行证，标价 3.99 至 12.99 新西兰元。它只有 iPhone 版（需 iOS 26 或更高版本），在新西兰有 4 个评分（3.8），还没有旅行者评价，收录的地点总数也远少于 WikiCamps 的 12,000 多个。"
           ],
@@ -9832,7 +9834,7 @@
           "heading": "2. Rankers Camping NZ：地点经过核查的免费首选",
           "body": [
             "WikiCamps 值不值得花钱？Rankers 给出的是免费的答案。它在 6,600 多个地点里收录了 1,500 多个营地，其余地点包括<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>、加水点和液化石油气，并表示只显示当地社区认可、欢迎过夜的地点。108,000 多条旅行者评价，每一条都先经人工审读才会上线。",
-            "所以纸面上它的覆盖面不如 WikiCamps，但单条信息更值得信赖。营地信息首次安装就内置在 App 里，详细地图可以连 Wi-Fi 下载。它在新西兰有 3,322 个评分，平均 4.7 分，是这里所有<a data-guide=\"best-nz-camping-apps\">露营 App</a>里评分数最多的。"
+            "所以纸面上它的覆盖面不如 WikiCamps，但单条信息更值得信赖。营地信息首次安装就内置在 App 里，详细地图可以连 Wi-Fi 下载。它在新西兰有 3,322 个评分，平均 4.7 分，是这里所有<a data-guide=\"best-nz-camping-apps\">露营 App</a> 里评分数最多的。"
           ],
           "tips": [
             "适合：免费、经过核查的营地",
@@ -9843,7 +9845,7 @@
         {
           "heading": "3. CamperMate：行程有澳洲，免费首选",
           "body": [
-            "CamperMate 一个免费 App 就覆盖新西兰和澳洲，第二份 WikiCamps 也就不用买了。它能按免费和收费筛选地点，显示厕所、<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>和 Wi-Fi 点，能查空位、预订营地，还能下载地图和地点信息，没信号也能用；2026 年 10 月的 5.8 版新增了卫星视图。",
+            "CamperMate 一个免费 App 就覆盖新西兰和澳洲，第二份 WikiCamps 也就不用买了。它能按免费和收费筛选地点，显示厕所、<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>和 Wi-Fi 点，能查空位、预订营地，还能下载地图和地点信息，没信号也能用；2026年10月的 5.8 版新增了卫星视图。",
             "它在新西兰有 606 个评分，平均 4.4 分，在 Google Play 有 12,568 个评分，平均 4.0 分，App 里有广告。CamperMate 在新西兰 App Store 最近的 50 条评价里，有 16 条写于 2025 年或 2026 年，其中七条把问题归咎于最近一次改版，所以长途出发前先试用，别等到第一晚才上手。"
           ],
           "tips": [
@@ -9861,7 +9863,7 @@
           "tips": [
             "适合：预订私人土地过夜",
             "价格由场地主人定",
-            "可筛选非自给自足车辆"
+            "可筛选接受非自给自足车辆的场地"
           ]
         },
         {
@@ -9887,7 +9889,7 @@
         {
           "heading": "我们是怎么比较的",
           "body": [
-            "2026 年 10 月 20 日，我们查看了每款 App 在新西兰 App Store 的页面和开发者自己的网站，有 Google Play 页面的也一并看了。价格以当天新西兰 App Store 显示的为准；WikiCamps 官网写的是每个平台 9.99 澳元，所以购买前先看一下商店里的价格。评价主题是对 WikiCamps New Zealand 最近 50 条评价的统计，不是我们自己的评判。",
+            "2026年10月20日，我们查看了每款 App 在新西兰 App Store 的页面和开发者自己的网站，有 Google Play 页面的也一并看了。价格以当天新西兰 App Store 显示的为准；WikiCamps 官网写的是每个平台 9.99 澳元，所以购买前先看一下商店里的价格。评价主题是对 WikiCamps New Zealand 最近 50 条评价的统计，不是我们自己的评判。",
             "我们只介绍各开发者自己写明的功能，这里没提到的功能，不代表 App 没有。"
           ],
           "tips": []
@@ -9937,10 +9939,10 @@
     },
     "best-travel-apps-new-zealand": {
       "title": "2026 新西兰旅行 App 推荐：10 款值得装",
-      "description": "2026 年新西兰自驾值得装的 App：入境、导航、天气、徒步安全、油价、城市交通和住宿，附 2026 年 10 月核对的价格和评分。",
+      "description": "2026 年新西兰自驾值得装的 App：入境、导航、天气、徒步安全、油价、城市交通和住宿，附 2026年10月核对的价格和评分。",
       "region": "新西兰",
       "imageAlt": "一辆房车行驶在 1 号国道的 Desert Road 路段上，朝鲁阿佩胡山（Ruapehu）方向开去",
-      "intro": "去新西兰旅行，要装的 App 其实没你想的多，但装对了，能实实在在省钱、省事：官方 NZeTA App 申请比官网便宜；长途开车，油价 App 省下的钱足够回本；徒步 App 还能把行程计划发给别人，万一徒步出了状况，对方会帮你报警。下面是我们 2026 年自驾会装的十款 App，按用途分组，评分和价格均为 2026 年 10 月 20 日在新西兰 App Store 核对。我们是 KiwiCamping 背后的团队，所以它排在最前，下面也会说明哪些人完全用不上它。",
+      "intro": "去新西兰旅行，要装的 App 其实没你想的多，但装对了，能实实在在省钱、省事：官方 NZeTA App 申请比官网便宜；长途开车，油价 App 省下的钱足够回本；徒步 App 还能把行程计划发给别人，万一徒步出了状况，对方会帮你报警。下面是我们 2026 年自驾会装的十款 App，按用途分组，评分和价格均为 2026年10月20日在新西兰 App Store 核对。我们是 KiwiCamping 背后的团队，所以它排在最前，下面也会说明哪些人完全用不上它。",
       "sections": [
         {
           "heading": "十款 App 一览",
@@ -9950,7 +9952,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和官方网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和官方网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "用途",
@@ -10024,7 +10026,7 @@
         {
           "heading": "1. KiwiCamping：住哪里、行程怎么串",
           "body": [
-            "KiwiCamping 是一款新西兰露营地图和行程规划 App，数据来自 DOC 自己：按 2026 年 8 月的数据，收录 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 公布的收费、带狗规定和预订要求。地点可以存进收藏，也可以加入行程，按顺序排好停靠点，记上日期、备注和待办事项，并显示路线距离；信号断了，地点详情照样能在手机上看。地图图块、路线规划、天气和照片需要联网。",
+            "KiwiCamping 是一款新西兰露营地图和行程规划 App，数据来自 DOC 自己：按 2026年8月的数据，收录 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 公布的收费、带狗规定和预订要求。地点可以存进收藏，也可以加入行程，按顺序排好停靠点，记上日期、备注和待办事项，并显示路线距离；信号断了，地点详情照样能在手机上看。地图图块、路线规划、天气和照片需要联网。",
             "下载免费，但不付费只能打开 BookIt 的住宿和旅游项目；DOC 地点、<a data-guide=\"save-places-kiwicamping\">收藏</a>、行程和指南要 KiwiCamping 高级通行证，标价 3.99 至 12.99 新西兰元。仅支持 iPhone，需 iOS 26 或更高版本，在新西兰有 4 个评分（3.8）。不露营的话，你用不着它。"
           ],
           "tips": [
@@ -10120,7 +10122,7 @@
         {
           "heading": "10. Rankers：看住宿地点的旅行者评价",
           "body": [
-            "Rankers Camping NZ 免费，在我们对比过的<a data-guide=\"best-nz-camping-apps\">露营 App</a>里，它的新西兰 App Store 评分数最多，3,322 个评分，平均 4.7 分，还有 108,000 多条旅行者评价，每条都由团队成员人工审读核对。它只收录当地社区认可的过夜地点。",
+            "Rankers Camping NZ 免费，在我们对比过的<a data-guide=\"best-nz-camping-apps\">露营 App</a> 里，它的新西兰 App Store 评分数最多，3,322 个评分，平均 4.7 分，还有 108,000 多条旅行者评价，每条都由团队成员人工审读核对。它只收录当地社区认可的过夜地点。",
             "它和 KiwiCamping 很互补：一个看评价，一个看 DOC 数据和做规划。我们的露营 App 对比对这两款讲得更细，还包括 CamperMate 和 WikiCamps。"
           ],
           "tips": [
@@ -10140,7 +10142,7 @@
         {
           "heading": "我们是怎么挑选和核查的",
           "body": [
-            "我们挑的是新西兰自驾游客最可能用到的 App，有官方 App 的优先选官方。评分、版本和价格来自 2026 年 10 月 20 日的新西兰 App Store，费用则来自新西兰移民局自己的页面。",
+            "我们挑的是新西兰自驾游客最可能用到的 App，有官方 App 的优先选官方。评分、版本和价格来自 2026年10月20日的新西兰 App Store，费用则来自新西兰移民局自己的页面。",
             "功能都按开发者自己的介绍来写，这里没提到的功能，不代表 App 没有。费用和规定会变，一切以官方页面为准。"
           ],
           "tips": []
@@ -10192,20 +10194,20 @@
     },
     "best-campervan-apps-new-zealand": {
       "title": "2026 新西兰房车 App 哪款好用：租车、调运和路上生活",
-      "description": "2026 年新西兰房车自驾用得上的 App：从租车、每天 1 新西兰元的调运，到找下一晚的落脚点，价格和评分于 2026 年 10 月核对。",
+      "description": "2026 年新西兰房车自驾用得上的 App：从租车、每天 1 新西兰元的调运，到找下一晚的落脚点，价格和评分于 2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "一辆老款房车停在湖边，水边摆着两把露营椅和一张桌子",
-      "intro": "在新西兰开房车旅行，App 主要用在三个环节：拿车、在车上生活，有时还会帮租车公司把车开到别处，换来一周很便宜的用车。没有哪款 App 能把三件事都包了，哪些最有用，还要看你在哪家租车。下面是我们 2026 年开房车旅行会装的 App，评分和价格均为 2026 年 10 月 20 日在新西兰 App Store 核对。KiwiCamping 是我们做的，所以排在第一，每一节也会写明什么时候别的 App 更合适。",
+      "intro": "在新西兰开房车旅行，App 主要用在三个环节：拿车、在车上生活，有时还会帮租车公司把车开到别处，换来一周很便宜的用车。没有哪款 App 能把三件事都包了，哪些最有用，还要看你在哪家租车。下面是我们 2026 年开房车旅行会装的 App，评分和价格均为 2026年10月20日在新西兰 App Store 核对。KiwiCamping 是我们做的，所以排在第一，每一节也会写明什么时候别的 App 更合适。",
       "sections": [
         {
           "heading": "好用的房车 App 一览",
           "body": [
             "规划每晚住哪，用 KiwiCamping，<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、小屋和带日期的路线都在一个 App 里。如果车是从 Maui、Britz、Mighty 或 Apollo 租的，就装 thl Roadtrip，这几个品牌都让租车客户用它；Travellers Autobarn 推荐的则是 CamperMate。Rankers 能看旅行者对过夜地点的评价，Camplify 可以租私人的房车，Imoova 汇集调运优惠，NZMCA App 则是给新西兰房车协会（New Zealand Motor Caravan Association）会员用的。",
-            "有一条规定，哪款 App 都替你搞不定：自给自足认证。自 2026 年 6 月 7 日起，在公共土地上<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>只认绿色认证，所以订车之前，先问清楚租车公司这辆车有没有。"
+            "有一条规定，哪款 App 都替你搞不定：自给自足认证。自 2026年6月7日起，在公共土地上<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>只认绿色认证，所以订车之前，先问清楚租车公司这辆车有没有。"
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日根据新西兰 App Store 和各公司网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
+            "caption": "2026年10月20日根据新西兰 App Store 和各公司网站核对。评分为新西兰 App Store 平均分，括号内为评分数。",
             "head": [
               "App",
               "阶段",
@@ -10261,7 +10263,7 @@
         {
           "heading": "1. KiwiCamping：规划房车每晚停哪过夜",
           "body": [
-            "KiwiCamping 是基于新西兰保护部数据做的露营地图和行程规划 App：按 2026 年 8 月的数据，收录 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 列出的收费、带狗规定和预订要求。你可以把每晚的住处按顺序作为停靠点加入行程，记上日期、备注和待办事项，查看各站之间的距离和车程，还能看每一站的天气预报。App 里的自驾指南会推荐路线，并列出沿途值得收藏的地点。",
+            "KiwiCamping 是基于新西兰保护部数据做的露营地图和行程规划 App：按 2026年8月的数据，收录 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 列出的收费、带狗规定和预订要求。你可以把每晚的住处按顺序作为停靠点加入行程，记上日期、备注和待办事项，查看各站之间的距离和车程，还能看每一站的天气预报。App 里的自驾指南会推荐路线，并列出沿途值得收藏的地点。",
             "开房车，这一点很关键，因为每天最难的是最后一小时：到之前就得知道营地情况、收多少钱、要不要预订。没信号时地点详情仍保存在手机上，但地图图块、路线规划、天气和照片需要联网。",
             "它做不了的：没有租车和调运功能，免费版只能打开 BookIt 的住宿和旅游项目。DOC 地点、<a data-guide=\"save-places-kiwicamping\">收藏</a>、行程和指南需要 KiwiCamping 高级通行证，标价 3.99 至 12.99 新西兰元。仅支持 iPhone（需 iOS 26 或更高版本），在新西兰有 4 个评分（3.8）。"
           ],
@@ -10275,7 +10277,7 @@
           "heading": "2. thl Roadtrip：在 Maui、Britz、Mighty 或 Apollo 租车就用它",
           "body": [
             "Maui、Britz、Mighty 和 Apollo 都由 Tourism Holdings 经营，四个品牌都让租车客户用它免费的 thl Roadtrip App。Britz 介绍说，App 里能看到取车时的流程，还有你所订房车的车内导览视频，并要求你到店前先看完，另外还有车辆操作教学视频。上路后，它能找附近的营地、<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>、加油站、排污站、厕所、液化石油气、自助洗衣房和免费 Wi-Fi，还有实时路况提醒。",
-            "它在新西兰有 122 个评分，平均 4.6 分，但 iPhone 版上次更新还是 2025 年 6 月，所以更适合当租车期间的辅助工具，别把它当主力规划 App。"
+            "它在新西兰有 122 个评分，平均 4.6 分，但 iPhone 版上次更新还是 2025年6月，所以更适合当租车期间的辅助工具，别把它当主力规划 App。"
           ],
           "tips": [
             "适合：thl 旗下的租车",
@@ -10322,7 +10324,7 @@
         {
           "heading": "6. Imoova：找调运优惠",
           "body": [
-            "租车公司需要把车开回需求大的地方，调运网站就让你只花很少的钱把车开过去。Imoova 宣传的调运每天 1 新西兰元起，2026 年 10 月 20 日有 91 条新西兰车源。它说明油费、过路费和停车费都不包含，有些供应商在车辆急需调运时会额外提供燃油或渡轮票之类的补贴，而且完成行程的天数有限。",
+            "租车公司需要把车开回需求大的地方，调运网站就让你只花很少的钱把车开过去。Imoova 宣传的调运每天 1 新西兰元起，2026年10月20日有 91 条新西兰车源。它说明油费、过路费和停车费都不包含，有些供应商在车辆急需调运时会额外提供燃油或渡轮票之类的补贴，而且完成行程的天数有限。",
             "租车公司自己也会发布调运信息：Travellers Autobarn 列出过 11 月从基督城开到奥克兰的调运，七天免费，允许行驶 1,500 公里，押金 3,500 新西兰元，取消费 200 新西兰元。Imoova App 免费，但在新西兰只有 1 个评分，所以每条信息的押金、里程上限和日期都要看仔细。"
           ],
           "tips": [
@@ -10346,7 +10348,7 @@
         {
           "heading": "绿色认证：App 替你查不了",
           "body": [
-            "自 2026 年 6 月 7 日起，<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>不再认可蓝色自给自足认证。水管工、燃气工和排水工委员会（Plumbers, Gasfitters and Drainlayers Board）表示，在公共土地上没有绿色认证就自由露营，可能会收到 400 新西兰元的罚单。持证车辆车内要有永久固定、可以使用的厕所，还要有净水、水槽，以及污水和垃圾存放设施。",
+            "自 2026年6月7日起，<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>不再认可蓝色自给自足认证。水管工、燃气工和排水工委员会（Plumbers, Gasfitters and Drainlayers Board）表示，在公共土地上没有绿色认证就自由露营，可能会收到 400 新西兰元的罚单。持证车辆车内要有永久固定、可以使用的厕所，还要有净水、水槽，以及污水和垃圾存放设施。",
             "这些规定针对公共土地上的自由露营，不涉及营地、假日公园或私人土地。App 上标着自由露营的图钉，并不能说明你的车符不符合要求，所以取车时要找一下<a data-guide=\"self-contained-campervan-green-warrant\">绿色认证</a>卡。"
           ],
           "tips": []
@@ -10362,7 +10364,7 @@
         {
           "heading": "我们是怎么挑选和核查的",
           "body": [
-            "我们查看了新西兰租车公司推荐给客户的 App，以及房车旅行者用来找营地、找调运和办会员的 App。评分和价格来自 2026 年 10 月 20 日的新西兰 App Store；租车和调运条款来自各公司当天的官网，变动很频繁。",
+            "我们查看了新西兰租车公司推荐给客户的 App，以及房车旅行者用来找营地、找调运和办会员的 App。评分和价格来自 2026年10月20日的新西兰 App Store；租车和调运条款来自各公司当天的官网，变动很频繁。",
             "功能都按开发者和公司自己的介绍来写，这里没提到的功能，不代表 App 没有。"
           ],
           "tips": []
@@ -10379,7 +10381,7 @@
         ],
         [
           "开房车自由露营，需要绿色认证吗？",
-          "需要，前提是在只允许自给自足车辆自由露营的公共土地上。自 2026 年 6 月 7 日起，已不再认可蓝色认证，没有绿色认证就露营，可能会收到 400 新西兰元的罚单。营地、假日公园和私人土地不受这条规定约束。"
+          "需要，前提是在只允许自给自足车辆自由露营的公共土地上。自 2026年6月7日起，已不再认可蓝色认证，没有绿色认证就露营，可能会收到 400 新西兰元的罚单。营地、假日公园和私人土地不受这条规定约束。"
         ]
       ],
       "sources": [
@@ -10421,10 +10423,10 @@
     },
     "best-weather-apps-new-zealand": {
       "title": "2026 新西兰天气 App 推荐：露营和徒步用哪款",
-      "description": "MetService、Windy、Yr、Plan My Walk、Apple 天气和 KiwiCamping，按新西兰露营和徒步的需要逐一对比，另附只在网站上发布的山地预报。2026 年 10 月核对。",
+      "description": "MetService、Windy、Yr、Plan My Walk、Apple 天气和 KiwiCamping，按新西兰露营和徒步的需要逐一对比，另附只在网站上发布的山地预报。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "普卡基湖上空的荚状云，远处天边是 Aoraki/库克山",
-      "intro": "新西兰的天气说变就变，该用哪款 App，要看你想知道什么：今晚的营地在不在恶劣天气预警范围里，明天山脊上的风有多大，或者路线上哪座小屋那边会下雨。没有哪款 App 能把这三个问题都答了。下面是我们 2026 年露营和徒步会用的天气 App，评分和价格来自 2026 年 10 月 20 日核对的新西兰 App Store；另外还有几个官方网站，看山地预报，至今仍比所有 App 都强。KiwiCamping 是我们做的，所以排第一；它只适合干一件事，其余的事，别的 App 做得更好。",
+      "intro": "新西兰的天气说变就变，该用哪款 App，要看你想知道什么：今晚的营地在不在恶劣天气预警范围里，明天山脊上的风有多大，或者路线上哪座小屋那边会下雨。没有哪款 App 能把这三个问题都答了。下面是我们 2026 年露营和徒步会用的天气 App，评分和价格来自 2026年10月20日核对的新西兰 App Store；另外还有几个官方网站，看山地预报，至今仍比所有 App 都强。KiwiCamping 是我们做的，所以排第一；它只适合干一件事，其余的事，别的 App 做得更好。",
       "sections": [
         {
           "heading": "天气 App 一览",
@@ -10434,7 +10436,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日在新西兰 App Store 核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "caption": "2026年10月20日在新西兰 App Store 核对。评分是新西兰 App Store 的平均分，附评分数量。",
             "head": [
               "App",
               "最适合",
@@ -10556,7 +10558,7 @@
         {
           "heading": "只在网站上发布的预报",
           "body": [
-            "MetService 为国家公园和各地区发布山地预报，比如 Aoraki/库克山、亚瑟隘口（Arthur's Pass）、峡湾（Fiordland）、阿斯帕林山（Mount Aspiring）、尼尔森湖（Nelson Lakes）和汤加里罗（Tongariro），还有一份覆盖海拔 800 米以上地区的新西兰山地预报，包括零度层高度。网站上还有海洋和乡村预报。",
+            "MetService 为国家公园和各地区发布山地预报，比如 Aoraki/库克山、亚瑟山口（Arthur's Pass）、峡湾地区（Fiordland）、阿斯帕林山（Mount Aspiring）、尼尔森湖（Nelson Lakes）和汤加里罗（Tongariro），还有一份覆盖海拔 800 米以上地区的新西兰山地预报，包括零度层高度。网站上还有海洋和乡村预报。",
             "DOC 建议徒步者去 weather.niwa.co.nz 看 NIWA 的国家公园预报（这个网站现在由 Earth Sciences New Zealand 运营），每次进入雪崩地形之前，还要看新西兰雪崩预警（New Zealand Avalanche Advisory）。趁还有信号，先把这些页面存下来；一旦没了信号，这些页面都不会再更新。"
           ],
           "tips": []
@@ -10572,7 +10574,7 @@
         {
           "heading": "我们怎么选、怎么核查",
           "body": [
-            "我们比较了新西兰露营者和徒步者用得最多的天气 App，有官方来源的优先。评分、价格和功能来自 2026 年 10 月 20 日各 App 在新西兰 App Store 的页面，预警的定义来自 MetService 自己的页面。",
+            "我们比较了新西兰露营者和徒步者用得最多的天气 App，有官方来源的优先。评分、价格和功能来自 2026年10月20日各 App 在新西兰 App Store 的页面，预警的定义来自 MetService 自己的页面。",
             "我们按开发者的描述来写功能，所以这里没提到的功能，不代表这款 App 没有。预报终归是预报：到了当天，山上亲眼看到的情况，比任何 App 都靠谱。"
           ],
           "tips": []
@@ -10589,7 +10591,7 @@
         ],
         [
           "新西兰的山地天气预报去哪里看？",
-          "去 metservice.com 看。MetService 在网站上为国家公园和各地区发布山地预报，比如 Aoraki/库克山、亚瑟隘口（Arthur's Pass）、峡湾（Fiordland）和汤加里罗（Tongariro），附零度层高度。进入雪崩地形之前，也要看新西兰雪崩预警（New Zealand Avalanche Advisory）。"
+          "去 metservice.com 看。MetService 在网站上为国家公园和各地区发布山地预报，比如 Aoraki/库克山、亚瑟山口（Arthur's Pass）、峡湾地区（Fiordland）和汤加里罗（Tongariro），附零度层高度。进入雪崩地形之前，也要看新西兰雪崩预警（New Zealand Avalanche Advisory）。"
         ]
       ],
       "sources": [
@@ -10628,10 +10630,10 @@
     },
     "fuel-price-apps-new-zealand": {
       "title": "2026 新西兰油价 App 推荐：Gaspy、品牌 App 和加油优惠对比",
-      "description": "Gaspy、Z、bp、Waitomo、Gull、g.a.s.、Mobil 和超市加油优惠逐一对比：每升能省多少、要花多少钱、在哪里能用。价格和条款于 2026 年 10 月核对。",
+      "description": "Gaspy、Z、bp、Waitomo、Gull、g.a.s.、Mobil 和超市加油优惠逐一对比：每升能省多少、要花多少钱、在哪里能用。价格和条款于 2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "灰色云层下，6 号国道沿着瓦卡蒂普湖岸蜿蜒",
-      "intro": "2026 年，油费已经成了新西兰自驾最大的开销之一。根据新西兰商业、创新与就业部（MBIE）的每周油价监测，在 2026 年 10 月 9 日这一周，加油站价格牌上的 91 号普通汽油是每升 354.4 分，一年前是 260.4 分；柴油在计入道路使用费之前是 323.8 分；最近一周的数据还是初步数据。油价这么高，既要知道哪里的油最便宜，也要清楚自己手上有哪些折扣，所以最好的搭配，是一款看油价的 App，再加一两款能打折的。我们做的 KiwiCamping 是露营 App，不追踪油价，所以不参加这里的排名，只在最后出现，讲讲它能帮上忙的规划环节。",
+      "intro": "2026 年，油费已经成了新西兰自驾最大的开销之一。根据新西兰商业、创新与就业部（MBIE）的每周油价监测，在 2026年10月9日这一周，加油站价格牌上的 91 号普通汽油是每升 354.4 分，一年前是 260.4 分；柴油在计入道路使用费之前是 323.8 分；最近一周的数据还是初步数据。油价这么高，既要知道哪里的油最便宜，也要清楚自己手上有哪些折扣，所以最好的搭配，是一款看油价的 App，再加一两款能打折的。我们做的 KiwiCamping 是露营 App，不追踪油价，所以不参加这里的排名，只在最后出现，讲讲它能帮上忙的规划环节。",
       "sections": [
         {
           "heading": "加油 App 一览",
@@ -10641,7 +10643,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各公司官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "caption": "2026年10月20日在新西兰 App Store 和各公司官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
             "head": [
               "App",
               "怎么帮你省钱",
@@ -10739,7 +10741,7 @@
         {
           "heading": "4. Club+：常去 PAK'nSAVE 或 New World 就选它",
           "body": [
-            "Foodstuffs 在 2026 年 6 月推出 Club+，取代 New World Clubcard。在没有自营加油站的门店，合格消费满 1 新西兰元，就能拿到每升减 8 分的折扣，最多 100 升，30 天内在 Z 或参与活动的 Caltex 加油站使用。带加油站的 PAK'nSAVE 和 New World 门店有自己的折扣，Club+ 写明北岛每升至少减 8 分，南岛至少减 4 分。",
+            "Foodstuffs 在 2026年6月推出 Club+，取代 New World Clubcard。在没有自营加油站的门店，合格消费满 1 新西兰元，就能拿到每升减 8 分的折扣，最多 100 升，30 天内在 Z 或参与活动的 Caltex 加油站使用。带加油站的 PAK'nSAVE 和 New World 门店有自己的折扣，Club+ 写明北岛每升至少减 8 分，南岛至少减 4 分。",
             "Club+ App 在新西兰只有 1.8 分（682 个评分），条款还允许 Foodstuffs 随时调整折扣。Gull 不在这个计划里。"
           ],
           "tips": [
@@ -10783,7 +10785,7 @@
         {
           "heading": "我们怎么选、怎么核查",
           "body": [
-            "我们收录了新西兰用的人最多的油价 App，以及我们能核实的每个加油品牌或会员计划的 App。折扣和上限来自 2026 年 10 月 20 日各公司自己的奖励或条款页面，评分来自同一天的新西兰 App Store。油价来自 MBIE 的每周监测表，记录的是价格牌上的价格，不是折后价。",
+            "我们收录了新西兰用的人最多的油价 App，以及我们能核实的每个加油品牌或会员计划的 App。折扣和上限来自 2026年10月20日各公司自己的奖励或条款页面，评分来自同一天的新西兰 App Store。油价来自 MBIE 的每周监测表，记录的是价格牌上的价格，不是折后价。",
             "每个方案我们都按公司自己的说法来写。这里没提到的折扣或功能，不代表没有。"
           ],
           "tips": []
@@ -10796,7 +10798,7 @@
         ],
         [
           "新西兰哪家加油折扣最大？",
-          "不固定。2026 年 10 月 20 日，Z 的 App 每天每升至少减 6 分，周三减 15 分；bp 和 g.a.s. 用 Everyday Rewards 减 6 分；Foodstuffs 的 Club+ 在 Z 和参与活动的 Caltex 加油站减 8 分。每个方案都限制每次加油的升数，也可以调整折扣金额。"
+          "不固定。2026年10月20日，Z 的 App 每天每升至少减 6 分，周三减 15 分；bp 和 g.a.s. 用 Everyday Rewards 减 6 分；Foodstuffs 的 Club+ 在 Z 和参与活动的 Caltex 加油站减 8 分。每个方案都限制每次加油的升数，也可以调整折扣金额。"
         ],
         [
           "在新西兰开柴油房车更费钱吗？",
@@ -10839,10 +10841,10 @@
     },
     "working-holiday-apps-new-zealand": {
       "title": "2026 新西兰打工度假 App 推荐",
-      "description": "2026 年在新西兰打工度假，真正用得上的 App：SEEK、Trade Me、Wise、银行和手机 App、季节工和农场换宿，外加 App 替你办不了的官方手续。2026 年 10 月核对。",
+      "description": "2026 年在新西兰打工度假，真正用得上的 App：SEEK、Trade Me、Wise、银行和手机 App、季节工和农场换宿，外加 App 替你办不了的官方手续。2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "马尔堡 Awatere Valley 秋天的一排排葡萄藤，背后是积雪的山脉",
-      "intro": "在新西兰打工度假，靠的就是几款 App：一款找工作，一款转钱，再加上银行和手机套餐；新工作离上一份有三小时车程，晚上睡哪儿，也得有个东西告诉你。下面是我们 2026 年打工度假会装的 App，评分来自 2026 年 10 月 20 日核对的新西兰 App Store；另外还有一些官方手续，至今仍在政府网站上办，哪个 App 都替代不了。KiwiCamping 是我们做的，一年里四处跑的那段时间用得上，所以排第一；找工作、管钱和办手续，靠的是下面其他 App。",
+      "intro": "在新西兰打工度假，靠的就是几款 App：一款找工作，一款转钱，再加上银行和手机套餐；新工作离上一份有三小时车程，晚上睡哪儿，也得有个东西告诉你。下面是我们 2026 年打工度假会装的 App，评分来自 2026年10月20日核对的新西兰 App Store；另外还有一些官方手续，至今仍在政府网站上办，哪个 App 都替代不了。KiwiCamping 是我们做的，一年里四处跑的那段时间用得上，所以排第一；找工作、管钱和办手续，靠的是下面其他 App。",
       "sections": [
         {
           "heading": "打工度假 App 一览",
@@ -10852,7 +10854,7 @@
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各服务商官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "caption": "2026年10月20日在新西兰 App Store 和各服务商官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
             "head": [
               "App",
               "用途",
@@ -10914,7 +10916,7 @@
         {
           "heading": "1. KiwiCamping：两份工作之间找地方睡",
           "body": [
-            "季节工会让你满新西兰跑：在丰盛湾（Bay of Plenty）摘奇异果，在马尔堡（Marlborough）摘葡萄，在霍克斯湾（Hawke's Bay）摘苹果。KiwiCamping 是一张沿途能住哪里的地图，建立在 DOC 的数据上：2026 年 8 月的数据里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，附 DOC 列出的成人费用，有公布价格的营地每晚 5 至 25 新西兰元。假日公园、住宿和旅游项目也在同一张地图上，费用可以用你本国的货币显示，旁边附新西兰元金额。",
+            "季节工会让你满新西兰跑：在丰盛湾（Bay of Plenty）摘奇异果，在马尔堡（Marlborough）摘葡萄，在霍克斯湾（Hawke's Bay）摘苹果。KiwiCamping 是一张沿途能住哪里的地图，建立在 DOC 的数据上：2026年8月的数据里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，附 DOC 列出的成人费用，有公布价格的营地每晚 5 至 25 新西兰元。假日公园、住宿和旅游项目也在同一张地图上，费用可以用你本国的货币显示，旁边附新西兰元金额。",
             "地点可以存进<a data-guide=\"save-places-kiwicamping\">收藏夹</a>，再在行程里排成带日期的停靠点，附备注和站与站之间的距离，一边找新工作、一边在附近找住处时，这很有用。信号断了，地点详情还留在手机上；地图图块、路线、天气和照片需要网络。只有 iPhone 版，要 iOS 26 或更高，在新西兰有 4 个评分（3.8），还没有旅行者评价。"
           ],
           "tips": [
@@ -10999,14 +11001,14 @@
           "heading": "App 替你办不了的官方手续",
           "body": [
             "IRD 号码在新西兰税务局（Inland Revenue）网站上通过 myIR 申请；免费，新到的人一般两天内会收到短信或邮件。税务局可能要求你提供能正常使用的新西兰银行账户，或一份客户尽职调查表（IR997）。用 IR330 表把号码和税码交给雇主，否则会按 45% 的未申报税率扣税。",
-            "签证条件也要清楚。从 2026 年 4 月 20 日起，打工度假签证附带条件：你必须为雇主工作，签雇佣协议或服务合同都可以，而且不能雇用别人。从 2026 年 4 月 1 日起，成人最低工资是每小时 23.95 新西兰元，临时移民同样适用。持临时签证或工作签证不能加入 KiwiSaver；每次发工资时附带 8% 假期工资的做法，只适用于不满 12 个月的定期工作或确实不规律的工作，而且要在雇佣协议里约定。"
+            "签证条件也要清楚。从 2026年4月20日起，打工度假签证附带条件：你必须为雇主工作，签雇佣协议或服务合同都可以，而且不能雇用别人。从 2026年4月1日起，成人最低工资是每小时 23.95 新西兰元，临时移民同样适用。持临时签证或工作签证不能加入 KiwiSaver；每次发工资时附带 8% 假期工资的做法，只适用于不满 12 个月的定期工作或确实不规律的工作，而且要在雇佣协议里约定。"
           ],
           "tips": []
         },
         {
           "heading": "我们怎么选、怎么核查",
           "body": [
-            "每个打工度假者都绕不开的几件事，我们各挑了对应的 App，每一类优先选用的人最多的那款。评分来自 2026 年 10 月 20 日的新西兰 App Store，费用来自各服务商自己的页面，每条规定都来自同一天新西兰移民局、税务局或新西兰就业局（Employment New Zealand）的页面。",
+            "每个打工度假者都绕不开的几件事，我们各挑了对应的 App，每一类优先选用的人最多的那款。评分来自 2026年10月20日的新西兰 App Store，费用来自各服务商自己的页面，每条规定都来自同一天新西兰移民局、税务局或新西兰就业局（Employment New Zealand）的页面。",
             "签证条件、资金要求和时长因护照而异，所以要在 immigration.govt.nz 上看你自己国家对应的页面。我们按各服务商的描述来写功能，这里没提到的功能，不代表这款 App 没有。"
           ],
           "tips": []
@@ -11023,7 +11025,7 @@
         ],
         [
           "2026 年新西兰最低工资是多少？",
-          "从 2026 年 4 月 1 日起，成人最低工资是每小时 23.95 新西兰元，新西兰就业局（Employment New Zealand）说，临时移民享有同样的最低就业权利。如果你没提供税码，雇主必须按 45% 的未申报税率扣税。"
+          "从 2026年4月1日起，成人最低工资是每小时 23.95 新西兰元，新西兰就业局（Employment New Zealand）说，临时移民享有同样的最低就业权利。如果你没提供税码，雇主必须按 45% 的未申报税率扣税。"
         ]
       ],
       "sources": [
@@ -11031,7 +11033,7 @@
           "label": "打工度假签证（新西兰移民局）"
         },
         {
-          "label": "2026 年 4 月 20 日起开放式工作签证的雇佣条件"
+          "label": "2026年4月20日起开放式工作签证的雇佣条件"
         },
         {
           "label": "刚到新西兰的人怎么申请 IRD 号码（Inland Revenue）"
@@ -11065,20 +11067,20 @@
     },
     "money-saving-travel-apps-new-zealand": {
       "title": "2026 新西兰旅行省钱 App 推荐",
-      "description": "2026 年新西兰旅行，这些 App 能压低实打实的开销：住宿、油费、买菜、餐饮优惠、渡轮和分摊费用。评分、价格和优惠条款于 2026 年 10 月核对。",
+      "description": "2026 年新西兰旅行，这些 App 能压低实打实的开销：住宿、油费、买菜、餐饮优惠、渡轮和分摊费用。评分、价格和优惠条款于 2026年10月核对。",
       "region": "新西兰",
       "imageAlt": "皇后镇附近的 Moke Lake，平静的湖面倒映着群山，DOC 在这里设有营地",
-      "intro": "2026 年在新西兰旅行比一年前贵，涨得最凶的是油价：据新西兰统计局（Stats NZ），截至 2026 年 9 月的一年里，汽油涨了 24.3%，柴油涨了 55.8%，食品则是 2.4%。新西兰商业、创新与就业部（MBIE）的监测显示，在 2026 年 10 月 9 日这一周，加油站价格牌上的普通汽油是每升 354.4 分。下面这些 App 针对旅行里最大的几项开销，按能省多少排序；评分来自新西兰 App Store，优惠条款来自各公司自己的页面，都在 2026 年 10 月 20 日核对。KiwiCamping 是我们做的，排第一，是因为住宿是旅行中每天最大的开销之一，它帮你省的正是这一项；其余的开销，靠别的 App 来省。",
+      "intro": "2026 年在新西兰旅行比一年前贵，涨得最凶的是油价：据新西兰统计局（Stats NZ），截至 2026年9月的一年里，汽油涨了 24.3%，柴油涨了 55.8%，食品则是 2.4%。新西兰商业、创新与就业部（MBIE）的监测显示，在 2026年10月9日这一周，加油站价格牌上的普通汽油是每升 354.4 分。下面这些 App 针对旅行里最大的几项开销，按能省多少排序；评分来自新西兰 App Store，优惠条款来自各公司自己的页面，都在 2026年10月20日核对。KiwiCamping 是我们做的，排第一，是因为住宿是旅行中每天最大的开销之一，它帮你省的正是这一项；其余的开销，靠别的 App 来省。",
       "sections": [
         {
           "heading": "省钱 App 一览",
           "body": [
-            "住宿费靠 KiwiCamping 的<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>费用和费用筛选来压，油费靠 Gaspy。装上你常去那家超市的会员 App，想吃得便宜些，试试 Too Good To Go 和 First Table。Rankers 的优惠和 Interislander 的促销能让渡轮和活动便宜一截，AT Mobile 给奥克兰的车费封顶，几个人合租一辆房车，用 Splitwise 或 Tricount 把账算清楚。",
+            "住宿费靠 KiwiCamping 的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>费用和费用筛选来压，油费靠 Gaspy。装上你常去那家超市的会员 App，想吃得便宜些，试试 Too Good To Go 和 First Table。Rankers 的优惠和 Interislander 的促销能让渡轮和活动便宜一截，AT Mobile 给奥克兰的车费封顶，几个人合租一辆房车，用 Splitwise 或 Tricount 把账算清楚。",
             "这些优惠大多要看条款，而条款会变。根据某个优惠来定行程之前，先在 App 里看一下当前的条件。"
           ],
           "tips": [],
           "table": {
-            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各公司官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "caption": "2026年10月20日在新西兰 App Store 和各公司官网核对。评分是新西兰 App Store 的平均分，附评分数量。",
             "head": [
               "App",
               "省在哪里",
@@ -11146,7 +11148,7 @@
         {
           "heading": "1. KiwiCamping：压低住宿费",
           "body": [
-            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>是新西兰最便宜的过夜地方之一，KiwiCamping 就是围绕 DOC 的数据做的。2026 年 8 月的数据里有 287 个 DOC 营地，其中 208 个公布了成人价格，每晚 5 至 25 新西兰元，中位数 12.75 新西兰元。费用筛选能按价格缩小地图上的范围，每个地点都显示 DOC 的费用信息，以新西兰元标价，愿意的话还能同时显示你本国的货币。如果 DOC 列出了带生效日期的新收费标准，以新的为准。",
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>是新西兰最便宜的过夜地方之一，KiwiCamping 就是围绕 DOC 的数据做的。2026年8月的数据里有 287 个 DOC 营地，其中 208 个公布了成人价格，每晚 5 至 25 新西兰元，中位数 12.75 新西兰元。费用筛选能按价格缩小地图上的范围，每个地点都显示 DOC 的费用信息，以新西兰元标价，愿意的话还能同时显示你本国的货币。如果 DOC 列出了带生效日期的新收费标准，以新的为准。",
             "行程会把站与站之间的距离加起来，帮你看出哪段绕路多花的油钱，比省下的营地费还多。没信号时，地点详情仍留在手机上；地图图块、路线、天气和照片需要网络。只有 iPhone 版，要 iOS 26 或更高，在新西兰有 4 个评分（3.8）。"
           ],
           "tips": [
@@ -11171,7 +11173,7 @@
           "heading": "3. 超市 App 和 Grocer：省买菜钱",
           "body": [
             "Foodstuffs 的 Club+ 在 2026 年取代了 New World Clubcard。在 New World 消费可以按 0.75% 攒 Club+ Dollars，在 Four Square 是 0.38%，每个值 1 新西兰元；在 PAK'nSAVE 购物能花，但攒不了。Club+ 还有加油折扣。Woolworths 的 Everyday Rewards 也是类似的玩法，有积分、代金券和 bp 加油折扣。两款 App 在新西兰 App Store 的评分都不高，Club+ 是 1.8 分（682 个评分），Everyday Rewards 是 2.2 分（496 个评分），但不管你喜不喜欢 App，卡都照样能用。",
-            "Grocer 是一款独立 App，能比较各大超市的<a data-guide=\"new-zealand-grocery-prices-2026\">商品价格</a>，还有价格历史和购物清单。在新西兰有 128 个评分，3.6 分，最后一次更新是 2025 年 12 月，所以上面的价格只能当参考，以货架上的为准。"
+            "Grocer 是一款独立 App，能比较各大超市的<a data-guide=\"new-zealand-grocery-prices-2026\">商品价格</a>，还有价格历史和购物清单。在新西兰有 128 个评分，3.6 分，最后一次更新是 2025年12月，所以上面的价格只能当参考，以货架上的为准。"
           ],
           "tips": [
             "New World 和 PAK'nSAVE 用 Club+",
@@ -11183,7 +11185,7 @@
           "heading": "4. Too Good To Go 和 Foodprint：低价买剩余餐食",
           "body": [
             "Too Good To Go 卖的是“惊喜袋”：附近商店、咖啡馆、超市和餐厅卖剩的零食、餐食和食材，打折出售。它在新西兰有 2,940 个评分，4.9 分；打算靠它吃饭之前，先看看你旅行的地方有多少家店参加。",
-            "Foodprint 的思路差不多：合作餐饮店每天把多余和卖相不好的食物打折上架，你在 App 里下单付款。它有 112 个评分，3.8 分，2026 年 8 月更新过。"
+            "Foodprint 的思路差不多：合作餐饮店每天把多余和卖相不好的食物打折上架，你在 App 里下单付款。它有 112 个评分，3.8 分，2026年8月更新过。"
           ],
           "tips": [
             "适合：吃得更便宜",
@@ -11207,11 +11209,11 @@
           "heading": "6. Rankers、GrabOne 和渡轮优惠：活动和过海峡",
           "body": [
             "Rankers 的免费 App 提供 Bluebridge <a data-guide=\"cook-strait-ferry-campervan-guide\">库克海峡</a>渡轮 10% 的折扣，用优惠码 RANKERS，办理登船时出示免费的电子卡就行；活动列表里的折扣在 10% 到 15% 之间。GrabOne（3,717 个评分，4.6 分）卖活动、餐饮和住宿的折扣券。",
-            "Interislander 的 BoostSail 促销：2026 年 9 月 21 日至 12 月 14 日之间预订，用优惠码 BOOSTSAIL1，成人步行乘客票价减 15%，每一程都必须在 2026 年 12 月 15 日前走完。不包括车辆，也不能和其他优惠叠加。要带车的话，订之前两家渡轮公司都看看，因为票价随班次和季节变化。"
+            "Interislander 的 BoostSail 促销：2026年9月21日至 12月14日之间预订，用优惠码 BOOSTSAIL1，成人步行乘客票价减 15%，每一程都必须在 2026年12月15日前走完。不包括车辆，也不能和其他优惠叠加。要带车的话，订之前两家渡轮公司都看看，因为票价随班次和季节变化。"
           ],
           "tips": [
             "Rankers：Bluebridge 减 10%",
-            "BoostSail：仅限步行乘客，12 月 15 日前出行",
+            "BoostSail：仅限步行乘客，12月15日前出行",
             "GrabOne 买折扣券"
           ]
         },
@@ -11234,7 +11236,7 @@
         {
           "heading": "我们怎么选、怎么核查",
           "body": [
-            "我们按 App 能压低的开销大小来排，先是住宿和油费。评分来自 2026 年 10 月 20 日的新西兰 App Store；优惠条款、费用和封顶来自同一天各公司自己的页面，价格数据来自 MBIE 和 Stats NZ。",
+            "我们按 App 能压低的开销大小来排，先是住宿和油费。评分来自 2026年10月20日的新西兰 App Store；优惠条款、费用和封顶来自同一天各公司自己的页面，价格数据来自 MBIE 和 Stats NZ。",
             "优惠变得快，有些还是季节性的。每个优惠我们都按公司自己的说法来写，这里没提到的功能，不代表这款 App 没有。"
           ],
           "tips": []
@@ -11251,7 +11253,7 @@
         ],
         [
           "过库克海峡有便宜的办法吗？",
-          "先按出行日期比较 Interislander 和 Bluebridge。Interislander 的 BoostSail 优惠码，在 2026 年 12 月 14 日前预订、2026 年 12 月 15 日前出行，成人步行乘客票价减 15%，不包括车辆；Rankers 的优惠码在 Bluebridge 减 10%。要带车的话，订之前先看清每个折扣包括什么。"
+          "先按出行日期比较 Interislander 和 Bluebridge。Interislander 的 BoostSail 优惠码，在 2026年12月14日前预订、2026年12月15日前出行，成人步行乘客票价减 15%，不包括车辆；Rankers 的优惠码在 Bluebridge 减 10%。要带车的话，订之前先看清每个折扣包括什么。"
         ]
       ],
       "sources": [
@@ -11259,7 +11261,7 @@
           "label": "MBIE 每周油价监测"
         },
         {
-          "label": "2026 年 9 月部分价格指数（Stats NZ）"
+          "label": "2026年9月部分价格指数（Stats NZ）"
         },
         {
           "label": "DOC 营地设施与收费"

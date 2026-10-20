@@ -138,9 +138,11 @@
     "guidesIntro": "podrobných průvodců ke kempům, pravidlům, místním cenám a praktickému plánování cesty po Novém Zélandu.",
     "guideSingular": "průvodce",
     "guidePlural": "průvodců",
+    "guidePluralFew": "průvodci",
     "readGuide": "Číst průvodce",
     "minuteRead": "min čtení",
     "places": "míst",
+    "placesFew": "místa",
     "backToGuides": "Průvodce",
     "photoCredits": "Autoři fotografií",
     "keepInMind": "Na co myslet",
@@ -194,7 +196,7 @@
     "labelPerAdult": "Za dospělého (NZD)",
     "labelPerSite": "Za místo (NZD)",
     "toolsReadingTitle": "Rozpočet postavte na aktuálních cenách.",
-    "toolsReadingText": "Nástroje spočítají přesně to, co zadáte. Naši průvodci náklady vysvětlují, odkud výchozí čísla pocházejí, kdy jsme je ověřili a co může konečnou cenu změnit.",
+    "toolsReadingText": "Nástroje spočítají přesně to, co zadáte. Naši průvodci náklady vysvětlují, odkud výchozí čísla pocházejí, kdy byla ověřena a co může konečnou cenu změnit.",
     "toolsReadingLink": "Průvodce náklady",
     "calculatorNote": "Kalkulačky jsou pomůcky pro plánování, ne aktuální nabídky rezervací, čerpacích stanic nebo směnáren. Odhad nádrží počítá zhruba s 11 litry čisté vody a 9 litry šedé vody na osobu a den, což se liší podle sprchování a vaření. Před nákupem si ověřte aktuální ceny.",
     "enterValidValues": "Zadejte platné hodnoty",
@@ -224,7 +226,7 @@
   },
   "consent": {
     "label": "Nastavení soukromí",
-    "text": "Smíme v KiwiCamping používat soubory cookie Google Analytics, abychom věděli, které stránky cestovatelům pomáhají? K reklamě se nikdy nepoužívají.",
+    "text": "Smí KiwiCamping používat soubory cookie Google Analytics, aby se zjistilo, které stránky cestovatelům pomáhají? K reklamě se nikdy nepoužívají.",
     "accept": "Přijmout",
     "decline": "Odmítnout",
     "policy": "Zásady ochrany osobních údajů",
@@ -240,7 +242,7 @@
           "paragraphs": [
             "Hledat můžete podle názvu místa, adresy nebo popisu. Když posunete mapu a zvolíte hledání v aktuální oblasti, výsledky se soustředí na to, co právě vidíte.",
             "Filtrovat můžete podle typu místa, poplatku, minimálního hodnocení, online rezervace, regionu a podrobných vlastností vybavení a přístupu. Kombinujte jen ty filtry, na kterých vám opravdu záleží, ať vám neutečou použitelné alternativy.",
-            "Vybavení, poplatky, přístup i správa místa se mohou změnit. Řiďte se aktuálním značením a pokyny správce území a pak nám pošlete opravu, ať je adresář přesnější."
+            "Vybavení, poplatky, přístup i správa místa se mohou změnit. Řiďte se aktuálním značením a pokyny správce území a pak pošlete opravu, ať je adresář přesnější."
           ]
         },
         {
@@ -277,7 +279,7 @@
         {
           "heading": "Premium a nákupy",
           "paragraphs": [
-            "KiwiCamping se stahuje zdarma a mapa i vyhledávání ukážou každé místo. Bez Passu se naplno otevřou jen holiday parky s možností rezervace, pobyty a výlety z BookIt, k tomu pár průvodců.",
+            "KiwiCamping se stahuje zdarma a mapa i vyhledávání ukážou každé místo. Bez Passu se naplno otevřou jen holiday parky s možností rezervace a ubytování a zájezdy (tours) z BookIt, k tomu pár průvodců.",
             "Pass odemyká kempy DOC, chaty a trasy, místa pro freedom camping, výlevky, místa jen pro denní pobyt a všechny průvodce a k tomu ukládání míst, sbírky a plánovač cest.",
             "Na obrazovce Premium klepněte na Obnovit nákupy. Musíte být přihlášeni ke stejnému Apple účtu, přes který jste nákup původně provedli."
           ]
@@ -320,7 +322,7 @@
             "Tento web používá Google Analytics 4, abychom mohli počítat návštěvy a vidět, které stránky lidi přivádějí do App Store. Google tato data zpracovává naším jménem jako zpracovatel. Návštěvníkům z Evropského hospodářského prostoru, Spojeného království a Švýcarska službu poskytuje společnost Google Ireland Limited, ostatním Google LLC.",
             "Analytika zaznamenává stránky, které si prohlížíte, typ zařízení, prohlížeče a obrazovky, přibližnou polohu odvozenou z IP adresy (samotnou adresu Google neukládá), stránku, ze které jste přišli, a kliknutí na odkazy do App Store. Nikdy nedostane vaše jméno, e-mailovou adresu ani nic z toho, co si uložíte v aplikaci.",
             "Když analytiku povolíte, Google Analytics uloží dva soubory cookie první strany: _ga a druhý, jehož název začíná _ga_. Oba vyprší po 13 měsících. V Evropském hospodářském prostoru, Spojeném království a Švýcarsku se tyto soubory cookie ukládají až poté, co na liště souhlasu zvolíte Přijmout. Do té doby, a také když zvolíte Odmítnout, se žádné analytické cookies neukládají a Google dostává jen signály bez cookies, které nenesou žádný identifikátor. Svou volbu můžete kdykoli změnit přes odkaz Nastavení soukromí v patičce každé stránky.",
-            "Google signály i personalizace reklam jsou vypnuté, takže data analytiky se nepropojují s účty Google a nepoužívají se k reklamě. Data analytiky uchováváme 14 měsíců a pak se mažou. KiwiCamping ani tak na tomto webu nepoužívá žádné reklamní sledovací nástroje."
+            "Google signály i personalizace reklam jsou vypnuté, takže data analytiky se nepropojují s účty Google a nepoužívají se k reklamě. Data analytiky se uchovávají 14 měsíců a pak se mažou. KiwiCamping ani tak na tomto webu nepoužívá žádné reklamní sledovací nástroje."
           ]
         },
         {
@@ -332,7 +334,7 @@
         {
           "heading": "Děti a kontakt",
           "paragraphs": [
-            "KiwiCamping je obecná cestovatelská aplikace a není určena dětem. Přes podporu nám neposílejte osobní údaje o dětech.",
+            "KiwiCamping je obecná cestovatelská aplikace a není určena dětem. Přes podporu neposílejte osobní údaje o dětech.",
             "S dotazy k ochraně osobních údajů se obraťte na podporu KiwiCamping."
           ]
         }
@@ -515,11 +517,11 @@
           "heading": "Ninety Mile Beach není silnice pro vaše auto",
           "body": [
             "Pláž je ze zákona silnice, ale také místo, kde příliv a měkký písek pravidelně uvězní auta. Půjčovní smlouvy jízdu po ní běžně zakazují, pojištění vyproštění neuhradí, a když auto uvízne a voda stoupá, přijdete o ně rychle.",
-            "Chcete-li pláží projet, vyberte si komerční autobusový výlet. Autobusy jezdí podle přílivu a odlivu, vozí vybavení na vyproštění, znají místa vjezdu a vyjde to na zlomek spoluúčasti při pojistné události."
+            "Chcete-li pláží projet, vyberte si komerční autobusový zájezd. Autobusy jezdí podle přílivu a odlivu, vozí vybavení na vyproštění, znají místa vjezdu a vyjde to na zlomek spoluúčasti při pojistné události."
           ],
           "tips": [
             "Na pláži pojištění půjčená auta nekryje",
-            "Jeďte raději autobusovým výletem",
+            "Jeďte raději autobusovým zájezdem",
             "Příliv auta zaskočí"
           ]
         },
@@ -885,7 +887,7 @@
         ],
         [
           "Jak dlouho se dá v kempu DOC zůstat?",
-          "Některé kempy mají maximální délku pobytu uvedenou na stránce DOC a Campsite Pass platí nejvýše na 7 nocí v kterýchkoli 30 dnech v jednom kempu. Na každou noc potřebujete rezervaci nebo registraci, s výjimkou bezplatných základních kempů, a pobyt v kempu s rezervací bez ní stojí každého jeho běžný poplatek plus plný poplatek za dospělého, držitele Campsite Passu poplatek 10 NZD."
+          "Některé kempy mají maximální délku pobytu uvedenou na stránce DOC a Campsite Pass platí nejvýše na 7 nocí v kterýchkoli 30 dnech v jednom kempu. Na každou noc potřebujete rezervaci nebo registraci, s výjimkou bezplatných kempů kategorie Basic, a pobyt v kempu s rezervací bez ní stojí každého jeho běžný poplatek plus plný poplatek za dospělého, držitele Campsite Passu poplatek 10 NZD."
         ]
       ],
       "sources": [
@@ -950,10 +952,10 @@
           "tips": []
         },
         {
-          "heading": "Holiday parky a plochy spravované samosprávou",
+          "heading": "Holiday parky a obecní pozemky",
           "body": [
             "Mnoho <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parků</a> psy přijímá, ale značná část ne, a ty, které ano, je v hlavní sezoně často odmítají nebo vyžadují, aby byli neustále v přepravce nebo na vodítku. Kdo rezervuje bez ověření pravidel, často pak na místě zjistí, že nemá kde spát.",
-            "Plochy spravované samosprávou (council reserves) a pláže mívají sezonní omezení pro psy na ochranu hnízdících pobřežních ptáků, obvykle na jaře a v létě. Jsou označena cedulemi přímo na místě, vymáhají se a mezi sousedními samosprávami se liší."
+            "Obecní pozemky (council reserves) a pláže mívají sezonní omezení pro psy na ochranu hnízdících pobřežních ptáků, obvykle na jaře a v létě. Jsou označeny cedulemi přímo na místě, vymáhají se a mezi sousedními samosprávami se liší."
           ],
           "tips": [
             "Při rezervaci ověřte pravidla pro psy",
@@ -972,16 +974,16 @@
         {
           "heading": "Kam se psem opravdu můžete",
           "body": [
-            "V praxi přicházejí v úvahu <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parky</a>, které psy přijímají, plochy spravované samosprávou mimo období omezení, stezky v lesích a regionálních parcích a většina pláží mimo dobu hnízdění. I z toho je plnohodnotná cesta, jen jiná než cesta postavená na národních parcích.",
+            "V praxi přicházejí v úvahu <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parky</a>, které psy přijímají, obecní pozemky mimo období omezení, stezky v lesích a regionálních parcích a většina pláží mimo dobu hnízdění. I z toho je plnohodnotná cesta, jen jiná než cesta postavená na národních parcích.",
             "Několik regionálních parků kolem Aucklandu a Wellingtonu psy na vodítku povoluje a mnoho pobřežních stezek je povoluje po celý rok. Bývají to místa, kde kiwi a ptáci hnízdící na zemi nežijí, nebo je od nich už odděluje plot.",
             "Trasu stavte nejdřív z míst, kde psi smějí, a zbytek doplňte kolem nich. Se psem na běžném itineráři po Jižním ostrově (South Island) skončíte tak, že při většině pěkných túr bude někdo čekat ve vozidle."
           ],
           "tips": []
         },
         {
-          "heading": "Výcvik psů, aby se kiwi vyhýbali",
+          "heading": "Výcvik psa, aby se vyhýbal kiwi",
           "body": [
-            "Některé regiony nabízejí výcvik psů, aby se kiwi vyhýbali, a v několika oblastech je podmínkou přístupu. Vyplatí se s každým psem, který tráví čas v Northlandu, na Coromandelu nebo na West Coast, i tam, kde se nevyžaduje.",
+            "Některé regiony nabízejí výcvik, při kterém se psi učí vyhýbat kiwi (kiwi aversion training), a v několika oblastech je podmínkou přístupu. Vyplatí se s každým psem, který tráví čas v Northlandu, na Coromandelu nebo na West Coast, i tam, kde se nevyžaduje.",
             "I vycvičený pes musí být pod kontrolou. Většinu kiwi, které psi zabijí, mají na svědomí domácí psi, jejichž majitelé si byli jistí, že jejich zvíře nic honit nebude."
           ],
           "tips": [
@@ -1448,7 +1450,7 @@
       "priceTable": null
     },
     "overseas-driver-licence-new-zealand": {
-      "title": "Řidičský průkaz na Novém Zélandu 2026: lhůty a campervan",
+      "title": "Zahraniční řidičský průkaz na Novém Zélandu 2026: lhůty a campervan",
       "description": "Přijedete-li do 31. října 2026, platí zahraniční průkaz na auto 18 měsíců, při pozdějším příjezdu 12 měsíců. Překlady, IDP a limit 6 000 kg pro campervan.",
       "region": "Nový Zéland",
       "imageAlt": "Návštěvník kontroluje zahraniční řidičský průkaz u campervanu",
@@ -2320,7 +2322,7 @@
           ],
           "tips": [
             "Utrácejte za jídlo typické pro region",
-            "Nákupy v přejezdových dnech",
+            "V přejezdových dnech jezte z vlastních zásob",
             "Obědové menu vyjde levněji než večeře"
           ]
         },
@@ -2921,7 +2923,7 @@
             "Na kratší přelety, které dobře nahradí pěkná cesta autem, se to málokdy vyplatí a nikdy se to nevyplatí, pokud byste platili za vozidlo, které mezitím na druhém konci nevyužité stojí. Počítejte cenu celého řešení, ne jen letenky."
           ],
           "tips": [
-            "Létejte na dlouhé diagonály",
+            "Letadlem jen dlouhé přesuny napříč zemí",
             "Nepřelétávejte krajinu, kvůli které jste přijeli",
             "Započítejte dny, kdy auto stojí"
           ]
@@ -3093,7 +3095,7 @@
           "body": [
             "KiwiCamping je novozélandská mapa pro kempování a plánovač cest postavený na vlastních datech Department of Conservation. V datech ze srpna 2026 měla aplikace 287 <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a>, 927 chat DOC se 7 661 lůžky a 1 453 tras DOC a u nich poplatky, pravidla pro psy a podmínky rezervace, které DOC zveřejňuje, tam, kde je zveřejňuje. Podrobnosti o místech jsou uložené v telefonu, takže vybavení a poplatky kempu se otevřou i na West Coast nebo ve Fiordlandu, kde signál není. Mapové dlaždice, navigace, počasí a fotky ale signál stále potřebují, takže aplikace staženou mapu nenahradí.",
             "Navrch má hlavně v plánování. Místa se ukládají do kategorií Líbilo se, S hvězdičkou, Navštíveno, Chci navštívit nebo do vlastních sbírek a do cesty zařadíte vybraná místa jako seřazené zastávky s daty, poznámkami a úkoly, s celkovou vzdáleností trasy a přehledem, kolik z cesty už máte navštíveno. Detail místa přidává místní počasí, ceny přepočtené do vaší měny a Apple <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a> tam, kde ho Apple má.",
-            "Cena a platforma: stažení je zdarma, ale bezplatná verze otevře jen pobyty a prohlídky (tours) z BookIt. Kempy DOC, chaty, trasy a <a data-guide=\"camping-wastewater-rubbish-new-zealand\">výlevky</a> (dump stations, místa pro vylití WC kazety a šedé vody), uložené sbírky, cesty i průvodce vyžadují KiwiCamping Pass, který novozélandský App Store nabízí ve variantách od 3,99 do 12,99 NZD. Aplikace funguje jen na iPhone a vyžaduje iOS 26 nebo novější.",
+            "Cena a platforma: stažení je zdarma, ale bezplatná verze otevře jen ubytování a zájezdy (tours) z BookIt. Kempy DOC, chaty, trasy a <a data-guide=\"camping-wastewater-rubbish-new-zealand\">výlevky</a> (dump stations, místa pro vylití WC kazety a šedé vody), uložené sbírky, cesty i průvodce vyžadují KiwiCamping Pass, který novozélandský App Store nabízí ve variantách od 3,99 do 12,99 NZD. Aplikace funguje jen na iPhone a vyžaduje iOS 26 nebo novější.",
             "Nevýhody bez příkras: aplikace je nová, v novozélandském App Store má 4 hodnocení (3,8) oproti 3 322 u Rankers, recenze cestovatelů v ní nejsou a verze pro Android neexistuje. Pokud si chcete přečíst, co si o místě mysleli posledních deset kempujících, víc vám řekne Rankers nebo CamperMate."
           ],
           "tips": [
@@ -3265,7 +3267,7 @@
     },
     "where-to-camp-in-new-zealand": {
       "title": "Kde se dá kempovat na Novém Zélandu: přehled všech typů míst",
-      "description": "Kempy DOC, chráněná území, obecní rezervace, místa spravovaná iwi a soukromé holiday parky mají každé jiná pravidla i ceny.",
+      "description": "Kempy DOC, chráněná území, obecní pozemky (council reserves), místa spravovaná iwi a soukromé holiday parky: každý typ má jiná pravidla i ceny.",
       "region": "Nový Zéland",
       "imageAlt": "Obytné auto zaparkované v pobřežním kempu na Novém Zélandu",
       "intro": "Kempování na Novém Zélandu se rozkládá na čtyřech docela odlišných typech pozemků a s každým se mění pravidla, cena i rezervační systém. Když víte, o jaký typ jde, víte téměř všechno podstatné: jestli můžete prostě přijet, jestli potřebujete certifikaci, koho se zeptat, když je něco nejasné, a kolik asi zaplatíte.",
@@ -3274,7 +3276,7 @@
           "heading": "Čtyři typy pozemků",
           "body": [
             "Department of Conservation (DOC) spravuje největší veřejnou síť: několik set kempů a zhruba 950 chat v národních parcích, lesních parcích a scenic reserves. Místa se dělí od Basic přes Standard a Serviced až po Great Walk a kategorie napoví poplatek i vybavení. Místa Basic jsou zdarma, kdežto kempy Serviced mají splachovací WC, místa s elektřinou a často i správce.",
-            "Obecní rezervace (council reserves) jsou páteří <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>. Řídí se místními vyhláškami, ne celostátními pravidly, obvykle povolují jednu nebo dvě noci a často jsou omezené na certifikovaná self-contained vozidla. Každá obec si vyhlášku píše sama, takže pravidlo, které platí v jednom okrese, o tom sousedním nic neříká."
+            "Obecní pozemky (council reserves) jsou páteří <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>. Řídí se místními vyhláškami, ne celostátními pravidly, obvykle povolují jednu nebo dvě noci a často jsou omezené na certifikovaná self-contained vozidla. Každá obec si vyhlášku píše sama, takže pravidlo, které platí v jednom okrese, o tom sousedním nic neříká."
           ],
           "tips": []
         },
@@ -3313,7 +3315,7 @@
         {
           "heading": "Kolik který typ stojí",
           "body": [
-            "Basic místa DOC jsou zdarma a Standard místa DOC stojí obvykle 10–20 NZD za dospělého a noc, účtuje se na osobu, ne na místo. Serviced kempy DOC se pohybují kolem 25 NZD za dospělého. Protože cena roste s počtem lidí, vyjde rodina často líp v <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parku</a> s pevnou cenou za místo.",
+            "Místa DOC kategorie Basic jsou zdarma a místa kategorie Standard stojí obvykle 10–20 NZD za dospělého a noc, účtuje se na osobu, ne na místo. Kempy DOC kategorie Serviced se pohybují kolem 25 NZD za dospělého. Protože cena roste s počtem lidí, vyjde rodina často líp v <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parku</a> s pevnou cenou za místo.",
             "Obecní oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> bývají zdarma, ale někdy se k nim vyžaduje povolení, a ceny v holiday parcích se výrazně liší podle sezony, polohy a toho, jestli chcete elektřinu. Místa spravovaná iwi a komunitami často fungují na koha, ne za pevnou cenu, což není pozvání zaplatit míň."
           ],
           "tips": [
@@ -3350,7 +3352,7 @@
       "faq": [
         [
           "Jaké typy kempování na Novém Zélandu existují?",
-          "Zhruba pět: kempy DOC, horské chaty, komerční holiday parky, oblasti pro freedom camping určené místními obcemi a soukromé místa nebo pobyty na farmě. Liší se cenou, vybavením i tím, jaké vozidlo přijmou, a pravidla k nim stanovují různé instituce."
+          "Zhruba pět: kempy DOC, horské chaty, komerční holiday parky, oblasti pro freedom camping určené místními obcemi a soukromá místa nebo pobyty na farmě. Liší se cenou, vybavením i tím, jaká vozidla přijmou, a pravidla k nim stanovují různé instituce."
         ],
         [
           "Dá se prostě zastavit a kempovat kdekoli?",
@@ -3380,13 +3382,13 @@
         {
           "heading": "Co freedom camping tady vlastně znamená",
           "body": [
-            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> je přespání na veřejném pozemku mimo oficiální kemp, kde to povoluje zákon Freedom Camping Act 2011, obecní vyhláška nebo vlastník pozemku. V praxi to zahrnuje obecní rezervace, vyhrazená parkoviště, zálivy u silnic a některá chráněná území. Netýká se soukromých pastvin, lesních cest ani chat v národních parcích a je to popis místa, ne příslib, že noc bude zdarma.",
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> je přespání na veřejném pozemku mimo oficiální kemp, kde to povoluje zákon Freedom Camping Act 2011, obecní vyhláška nebo vlastník pozemku. V praxi to zahrnuje obecní pozemky (council reserves), vyhrazená parkoviště, zálivy u silnic a některá chráněná území. Netýká se soukromých pastvin, lesních cest ani chat v národních parcích a je to popis místa, ne příslib, že noc bude zdarma.",
             "Zákon se vztahuje na kempování mimo kemp do 200 metrů od oblasti přístupné motorovým vozidlem, do 200 metrů od moře nebo přístavu a na upravené silnici či trase Great Walks nebo do 200 metrů od nich. Dál už jste obvykle v oblasti kempování v divočině, které se řídí pravidly DOC. Tak či tak je konečnou autoritou cedule u vjezdu, která má přednost před každou aplikací, PDF i vrstvou mapy, včetně této stránky."
           ],
           "tips": [
             "Freedom znamená místo, ne cenu",
             "Cedule má přednost před každou aplikací",
-            "Obvyklé kritérium je 200 m od zpevněné silnice"
+            "Obvyklé kritérium: do 200 m od upravené silnice"
           ]
         },
         {
@@ -3413,14 +3415,14 @@
           "heading": "Obecní půda a chráněná území",
           "body": [
             "<a data-guide=\"camping-rules-local-councils-new-zealand\">Obecní vyhlášky</a> stanovují limity pobytu, vymezují zóny jen pro self-contained vozidla a v mnoha městských oblastech kempování úplně zakazují. Velmi se liší: některé okresy zveřejňují hrstku povolených míst, jiné fungují s obecným povolením a vyjmenovanými výjimkami. Protože je každá vyhláška místní předpis, jediným spolehlivým zdrojem je obec, na jejímž území se nacházíte.",
-            "V chráněných územích je <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> obecně povolený, kromě míst, kde je zakázaný nebo omezený, ale národní parky a mnoho rezervací vyžaduje, abyste místo toho použili vyhrazené kempy DOC nebo uznané oblasti v divočině. DOC zveřejňuje upozornění na uzavírky a ta se mění rychleji, než se obnovují údaje třetích stran."
+            "V chráněných územích je <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> obecně povolený, kromě míst, kde je zakázaný nebo omezený, ale národní parky a mnoho chráněných ploch (reserves) vyžadují, abyste místo toho použili vyhrazené kempy DOC nebo uznané oblasti v divočině. DOC zveřejňuje upozornění na uzavírky a ta se mění rychleji, než se obnovují údaje třetích stran."
           ],
           "tips": []
         },
         {
           "heading": "Severní ostrov (North Island) ve stručnosti",
           "body": [
-            "Obce v Northlandu používají vyhrazené zóny s krátkými limity pobytu, takže si pro dané místo ověřte vyhlášku okresů Far North, Whangārei nebo Kaipara. Auckland povoluje <a data-guide=\"self-contained-campervan-green-warrant\">certifikovaná self-contained</a> vozidla u většiny obecních silnic a na většině obecních parkovišť až na dvě noci s odjezdem do 9 ráno, ale rezervace, regionální parky a 58 vyjmenovaných oblastí jsou zakázané a dalších 20 je omezených. Waikato a Bay of Plenty kombinují omezené obecní rezervace se silnou sítí holiday parků a místa u jezer v Rotorua jsou označena přísně.",
+            "Obce v Northlandu používají vyhrazené zóny s krátkými limity pobytu, takže si pro dané místo ověřte vyhlášku okresů Far North, Whangārei nebo Kaipara. Auckland povoluje <a data-guide=\"self-contained-campervan-green-warrant\">certifikovaná self-contained</a> vozidla u většiny obecních silnic a na většině obecních parkovišť až na dvě noci s odjezdem do 9 ráno, ale na veřejných pozemcích (reserves), v regionálních parcích a v 58 vyjmenovaných oblastech je freedom camping zakázaný a dalších 20 oblastí je omezených. Waikato a Bay of Plenty kombinují nemnoho obecních pozemků (council reserves) se silnou sítí holiday parků a místa u jezer v Rotorua jsou označena přísně.",
             "Gisborne a Hawke's Bay povolují konkrétní pláže, někdy s nočním povolením, které se musí zařídit předem. V Taranaki, Manawatū-Whanganui a ve Wellingtonu jsou pobřežní parkoviště často jen pro certifikovaná vozidla s krátkými limity pobytu a Wellington City v okolí centra vymáhá zóny zákazu kempování, takže počítejte s alternativou u přístavu nebo v údolí Hutt Valley a neimprovizujte u terminálu."
           ],
           "tips": [
@@ -3433,7 +3435,7 @@
           "heading": "Jižní ostrov (South Island) ve stručnosti",
           "body": [
             "Vyhláška okresu Tasman z roku 2025 omezuje <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> na vyhrazená místa pro certifikovaná self-contained vozidla a freedom camping ve stanu na obecní půdě není povolený. Marlborough Sounds obsluhují převážně kempy DOC, takže rezervujte předem, a vyhrazená místa v Kaikōura se v létě plní brzy. Christchurch povoluje certifikovaná self-contained vozidla mimo uvedené zakázané a omezené oblasti a v centru města freedom camping zakazuje, kdežto okresy Mackenzie a Waitaki jsou povolnější, ale na certifikaci trvají.",
-            "Otago je přísné tam, kde je poptávka nejvyšší: Queenstown-Lakes a Central Otago vymáhají vymezené zóny a Dunedin nabízí pobřežní rezervace s limitem dvou nocí, které se zaplní před soumrakem. V Southlandu a Fiordlandu je freedom camping u Milford Sound zakázaný a řešením jsou <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>; vyhláška okresu Southland určuje, kde můžete zůstat, a stojí za to ji ověřit dřív, než budete unavení a místo budete teprve hledat."
+            "Otago je přísné tam, kde je poptávka nejvyšší: Queenstown-Lakes a Central Otago vymáhají vymezené zóny a Dunedin nabízí pobřežní veřejné pozemky (coastal reserves) s limitem dvou nocí, které se zaplní před soumrakem. V Southlandu a Fiordlandu je freedom camping u Milford Sound zakázaný a řešením jsou <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>; vyhláška okresu Southland určuje, kde můžete zůstat, a stojí za to ji ověřit dřív, než budete unavení a místo budete teprve hledat."
           ],
           "tips": []
         },
@@ -3494,11 +3496,11 @@
         {
           "heading": "Kde je noc zdarma opravdu legální",
           "body": [
-            "Nejspolehlivější možností jsou veřejné rezervace výslovně označené pro freedom camping a obce zveřejňují jejich seznamy. DOC provozuje značný počet Basic kempů zdarma, obvykle se suchým WC (long-drop) a zdrojem neupravené vody, které jsou ideální, když jste vybaveni na soběstačnost. Některé obce nabízejí také vyhrazená parkoviště, štěrkové zálivy u silnic nebo showgrounds, kde mohou certifikovaná vozidla zůstat jednu nebo dvě noci.",
+            "Nejspolehlivější možností jsou veřejné pozemky (public reserves) výslovně označené pro freedom camping a obce zveřejňují jejich seznamy. DOC provozuje značný počet bezplatných kempů kategorie Basic, obvykle se suchým WC (long-drop) a zdrojem neupravené vody, které jsou ideální, když jste vybaveni na soběstačnost. Některé obce nabízejí také vyhrazená parkoviště, štěrkové zálivy u silnic nebo showgrounds, kde mohou certifikovaná vozidla zůstat jednu nebo dvě noci.",
             "Odpočívadla NZTA slouží kvůli <a data-guide=\"alcohol-fatigue-driving-new-zealand\">únavě</a> řidičů a nejsou to kempy: přestávka na spánek je něco jiného než rozbití tábora a mohou stále platit místní omezení. Soukromý pozemek, přátelova pastvina, farma nebo marae se počítá jako kempování zdarma, když máte svolení majitele, které má být výslovné, ne předpokládané. Zemědělské pozemky ani lesní cesty nikdy nepovažujte za otevřené automaticky."
           ],
           "tips": [
-            "Basic kempy DOC jsou často zdarma",
+            "Kempy DOC kategorie Basic jsou často zdarma",
             "Odpočívadla slouží k přestávkám kvůli únavě",
             "Svolení majitele musí být výslovné"
           ]
@@ -3749,7 +3751,7 @@
         {
           "heading": "Poplatky podle kategorie a jak se platí",
           "body": [
-            "DOC účtuje za osobu a noc, ne za místo, takže čtyři dospělí ve standardním kempu za 15 NZD zaplatí 60 NZD. Basic kempy a basic chaty jsou zdarma. Standardní kempy stojí 10 až 20 NZD za dospělého a serviced kempy (kempy se zázemím) 25 NZD bez elektřiny. Standardní chaty stojí celý rok 15 NZD a serviced chaty 25 NZD od května do září, ale 28 až 34 NZD od října do dubna, nejvíc v páteční a sobotní noci od prosince do února. Kempování u serviced chaty stojí polovinu poplatku za chatu: 12,50 NZD od května do září a 14 až 17 NZD od října do dubna. Ceny Great Walks závisejí na trase, sezoně a na tom, jestli jste rezident Nového Zélandu: mezi 1. listopadem a 30. dubnem stojí noc v chatě na Milford Track 106 NZD za dospělého rezidenta a 152 NZD za dospělého ze zahraničí.",
+            "DOC účtuje za osobu a noc, ne za místo, takže čtyři dospělí v kempu kategorie Standard za 15 NZD zaplatí 60 NZD. Kempy a chaty kategorie Basic jsou zdarma. Kempy Standard stojí 10 až 20 NZD za dospělého a kempy kategorie Serviced (kempy se zázemím) 25 NZD bez elektřiny. Chaty Standard stojí celý rok 15 NZD a chaty Serviced 25 NZD od května do září, ale 28 až 34 NZD od října do dubna, nejvíc v páteční a sobotní noci od prosince do února. Kempování u chaty Serviced stojí polovinu poplatku za chatu: 12,50 NZD od května do září a 14 až 17 NZD od října do dubna. Ceny Great Walks závisejí na trase, sezoně a na tom, jestli jste rezident Nového Zélandu: mezi 1. listopadem a 30. dubnem stojí noc v chatě na Milford Track 106 NZD za dospělého rezidenta a 152 NZD za dospělého ze zahraničí.",
             "Rezidentství se musí dát prokázat. Sazba pro rezidenty platí pro občany Nového Zélandu a lidi, kteří tu mají obvyklé bydliště, a DOC může na trase požádat o pas, řidičský průkaz nebo podobný doklad; skupina, která ho neukáže, zaplatí rozdíl plus 50 NZD za osobu. Příjezd bez platné rezervace na místo, kde se rezervuje, vyjde ještě dráž: pokutní sazba DOC je běžný poplatek plus plný poplatek za dospělého. Rezervace kempu, který nehodláte využít, nebo držení místa prázdným stanem se účtuje jako pobyt dvou dospělých."
           ],
           "tips": [
@@ -3761,11 +3763,11 @@
         {
           "heading": "Hut Pass, Campsite Pass, nebo platba za noc",
           "body": [
-            "Backcountry Hut Pass stojí pro dospělého 160 NZD na 12 měsíců a platí pro většinu serviced a standardních chat a pro většinu kempů, které nestojí u serviced chat. Při 15 NZD za noc ve standardní chatě se vyplatí po 11 nocích, u serviced chat po 5 až 7 nocích podle sezony. Některé chaty s rezervací ho přijímají (pass zadáte při rezervaci) a v chatách bez rezervace zapíšete jméno a číslo passu do knihy v chatě. Chaty na Great Walks se účtují zvlášť a DOC zveřejňuje seznam chat, kde se pass nepřijímá.",
+            "Backcountry Hut Pass stojí pro dospělého 160 NZD na 12 měsíců a platí pro většinu chat kategorie Serviced a Standard a pro většinu kempů, které nestojí u chat Serviced. Při 15 NZD za noc v chatě Standard se vyplatí po 11 nocích, u chat Serviced po 5 až 7 nocích podle sezony. Některé chaty s rezervací ho přijímají (pass zadáte při rezervaci) a v chatách bez rezervace zapíšete jméno a číslo passu do knihy v chatě. Chaty na Great Walks se účtují zvlášť a DOC zveřejňuje seznam chat, kde se pass nepřijímá.",
             "Campsite Pass stojí pro dospělého 295 NZD na rok a platí pro většinu kempů DOC, s rezervací i bez ní, nejvýše na 7 nocí v kterýchkoli 30 dnech v jednom kempu, plus 3 NZD za držitele passu a noc na místě s elektřinou. V kempech s rezervací musíte před příjezdem stejně rezervovat v systému, nebo zaplatit poplatek 10 NZD a riskovat odmítnutí, pokud je kemp plný. Žádný z passů není rezervace a ani jeden nedává přednost v chatě nebo kempu s pravidlem „kdo dřív přijde“, takže na jednu krátkou cestu vyjde platba za každou noc obvykle levněji."
           ],
           "tips": [
-            "Hut Pass: vyplatí se po zhruba 11 nocích ve standardní chatě",
+            "Hut Pass: vyplatí se po zhruba 11 nocích v chatě Standard",
             "Campsite Pass: místa s rezervací stejně rezervujte předem",
             "Ani jeden pass nezajistí lůžko ani místo"
           ]
@@ -3773,13 +3775,13 @@
         {
           "heading": "Které chaty a kempy fungují na principu „kdo dřív přijde“",
           "body": [
-            "Většinu sítě DOC stále nejde rezervovat: DOC uvádí, že většina z jeho zhruba 950 chat se nerezervuje. V datech DOC v KiwiCamping, ověřených 24. srpna 2026, mezi nimi bylo 350 basic chat a bivaků a 401 standardních chat. Basic chaty jsou zdarma. Za standardní chatu bez rezervace se platí lístkem Backcountry Hut Ticket nebo passem Hut Pass a papírové lístky se vhazují do pokladničky na důvěru v chatě. Chaty zůstávají za špatného počasí odemčené jako nouzový úkryt, ale úkryt není lůžko, takže na rušných trasách je rozumné nést stan.",
-            "V této sezoně přicházejí dvě změny. Od 1. října 2026 je každá serviced chata DOC v rezervačním systému a Serviced Hut Tickets se ruší; už zakoupené lístky lze uplatnit na rezervaci, dokud neskončí jejich platnost. Od 1. listopadu 2026 se Backcountry Hut Tickets pro chaty bez rezervace dají koupit v online rezervačním systému DOC, stále za 15 NZD za dospělého a noc ve standardní chatě; jsou platbou, ne rezervací, a papírové lístky platí do 1. listopadu 2027. U kempů funguje 110 z 287 kempů DOC v KiwiCamping se samoregistrací: většinou basic a backcountry kempy, plus některé standardní, kde se vyplní obálka a platí se při příjezdu."
+            "Většinu sítě DOC stále nejde rezervovat: DOC uvádí, že většina z jeho zhruba 950 chat se nerezervuje. V datech DOC v KiwiCamping, ověřených 24. srpna 2026, mezi nimi bylo 350 chat kategorie Basic a bivaků a 401 chat kategorie Standard. Chaty Basic jsou zdarma. Za chatu Standard bez rezervace se platí lístkem Backcountry Hut Ticket nebo passem Hut Pass a papírové lístky se vhazují do pokladničky na důvěru v chatě. Chaty zůstávají za špatného počasí odemčené jako nouzový úkryt, ale úkryt není lůžko, takže na rušných trasách je rozumné nést stan.",
+            "V této sezoně přicházejí dvě změny. Od 1. října 2026 je každá chata DOC kategorie Serviced v rezervačním systému a Serviced Hut Tickets se ruší; už zakoupené lístky lze uplatnit na rezervaci, dokud neskončí jejich platnost. Od 1. listopadu 2026 se Backcountry Hut Tickets pro chaty bez rezervace dají koupit v online rezervačním systému DOC, stále za 15 NZD za dospělého a noc v chatě Standard; jsou platbou, ne rezervací, a papírové lístky platí do 1. listopadu 2027. U kempů funguje 110 z 287 kempů DOC v KiwiCamping se samoregistrací: většinou kempy Basic a backcountry, plus některé kempy Standard, kde se vyplní obálka a platí se při příjezdu."
           ],
           "tips": [
-            "Basic chaty jsou zdarma, standardní berou lístky nebo pass",
+            "Chaty Basic zdarma, v chatách Standard lístky nebo pass",
             "Lístky na chaty se od 1. listopadu 2026 přesouvají online",
-            "Od 1. října 2026 jde rezervovat každou serviced chatu"
+            "Od 1. října 2026 jde rezervovat každou chatu Serviced"
           ]
         },
         {
@@ -3806,7 +3808,7 @@
           "heading": "Než vyrazíte",
           "body": [
             "Kromě rezervace si přečtěte i stránku místa na webu DOC: najdete tam vybavení, jestli je voda upravená, pravidla pro oheň a psy, příjezd i aktuální upozornění. Uzavírky tras a silnic po bouřích jsou běžné a upozornění na stránce DOC má přednost před čímkoli, co jste rezervovali před měsíci. Odjezd je do 10 hodin, příjezd od 14:00 do 20:30 a noční klid platí od 22 do 7 hodin, pokud místo nestanoví jiné hodiny.",
-            "Balte se podle místa, ne podle rezervace. I s lůžkem v serviced chatě potřebujete spacák, jídlo, u většiny chat vařič a teplé vrstvy oblečení a k rezervovanému kempu nepatří chata vedle něj. Všechny odpadky si odneste, zapište se do knihy chaty a lůžko nebo místo nechte připravené pro další skupinu."
+            "Balte se podle místa, ne podle rezervace. I s lůžkem v chatě Serviced potřebujete spacák, jídlo, u většiny chat vařič a teplé vrstvy oblečení a k rezervovanému kempu nepatří chata vedle něj. Všechny odpadky si odneste, zapište se do knihy chaty a lůžko nebo místo nechte připravené pro další skupinu."
           ],
           "tips": []
         }
@@ -3814,7 +3816,7 @@
       "faq": [
         [
           "Jak se rezervuje chata nebo kemp DOC?",
-          "Online na bookings.doc.govt.nz s bezplatným účtem DOC nebo přes informační centrum DOC. Platí se celá částka při rezervaci a potvrzovací e-mail je váš doklad. Basic chaty jsou zdarma a standardní chaty bez rezervace se platí lístky na chatu nebo passem Backcountry Hut Pass."
+          "Online na bookings.doc.govt.nz s bezplatným účtem DOC nebo přes informační centrum DOC. Celá částka se platí při rezervaci a potvrzovací e-mail je váš doklad. Chaty Basic jsou zdarma a v chatách Standard bez rezervace se platí lístky na chaty (hut tickets) nebo permanentkou Backcountry Hut Pass."
         ],
         [
           "Kdy se otevřely rezervace Great Walks na sezonu 2026/27?",
@@ -3859,7 +3861,7 @@
           "label": "Tisková zpráva DOC: termíny otevření rezervací 2026/27"
         },
         {
-          "label": "Tisková zpráva DOC z 1. října 2026: všechny serviced chaty se dají rezervovat, lístky na chaty online"
+          "label": "Tisková zpráva DOC z 1. října 2026: všechny chaty Serviced se dají rezervovat, lístky na chaty online"
         },
         {
           "label": "Blog DOC: jak rezervovat Great Walk, 2026/27"
@@ -3890,22 +3892,22 @@
         }
       ],
       "priceTable": {
-        "note": "Poplatky DOC pro sezonu 2026/27, za osobu a noc, pokud není uvedeno jinak, včetně GST. Sazby Great Walks platí pro hlavní sezonu každé trasy, která končí 30. dubna a začíná 1. října na většině tras, 23. října na Tongariro Northern Circuit, 27. října na Kepleru a 1. listopadu na trasách Milford a Routeburn. Serviced chaty stojí 25 NZD od května do září, od října do dubna 28 NZD ve všední noci a 32 NZD v páteční a sobotní noci a od prosince do února 29 a 34 NZD. Dětské sazby (5 až 17 let) jsou zhruba poloviční a děti do 5 let jsou zdarma, kromě Great Walks, kde zahraniční děti platí od narození na každé trase kromě Lake Waikaremoana. Platí cena uvedená na stránce daného místa na webu DOC.",
+        "note": "Poplatky DOC pro sezonu 2026/27, za osobu a noc, pokud není uvedeno jinak, včetně GST. Sazby Great Walks platí pro hlavní sezonu každé trasy, která končí 30. dubna a začíná 1. října na většině tras, 23. října na Tongariro Northern Circuit, 27. října na Kepleru a 1. listopadu na trasách Milford a Routeburn. Chaty Serviced stojí 25 NZD od května do září, od října do dubna 28 NZD ve všední noci a 32 NZD v páteční a sobotní noci a od prosince do února 29 a 34 NZD. Dětské sazby (5 až 17 let) jsou zhruba poloviční a děti do 5 let jsou zdarma, kromě Great Walks, kde zahraniční děti platí od narození na každé trase kromě Lake Waikaremoana. Platí cena uvedená na stránce daného místa na webu DOC.",
         "rows": [
           {
-            "label": "Standardní kemp, dospělý",
+            "label": "Kemp kategorie Standard, dospělý",
             "unit": "za noc"
           },
           {
-            "label": "Serviced kemp, dospělý, bez elektřiny",
+            "label": "Kemp kategorie Serviced, dospělý, bez elektřiny",
             "unit": "za noc"
           },
           {
-            "label": "Standardní chata, dospělý",
+            "label": "Chata kategorie Standard, dospělý",
             "unit": "za noc"
           },
           {
-            "label": "Serviced chata, dospělý",
+            "label": "Chata kategorie Serviced, dospělý",
             "unit": "za noc, podle sezony"
           },
           {
@@ -4029,7 +4031,7 @@
         {
           "heading": "Jak najít a rezervovat parky v KiwiCamping",
           "body": [
-            "KiwiCamping zobrazuje holiday parky a tours z BookIt na stejné mapě jako <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> a výlevky. Místa z BookIt jsou v aplikaci zdarma: otevřete si je, uvidíte zázemí a fotky, a po klepnutí na „Rezervujte nyní“ zkontrolujete aktuální dostupnost a cenu. Díky tomu rychle najdete místo s elektřinou do hodiny od místa, kde právě jste, i když vybíráte za jízdy.",
+            "KiwiCamping zobrazuje holiday parky a zájezdy (tours) z BookIt na stejné mapě jako <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> a výlevky. Místa z BookIt jsou v aplikaci zdarma: otevřete si je, uvidíte zázemí a fotky a po klepnutí na „Rezervujte nyní“ zkontrolujete aktuální dostupnost a cenu. Díky tomu rychle najdete místo s elektřinou do hodiny od místa, kde právě jste, i když vybíráte za jízdy.",
             "Kempy DOC, chaty, výlevky a upozornění DOC na <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> jsou součástí Premium Passu. Podrobnosti o místech jsou uložené v telefonu, takže park můžete porovnat s nejbližším místem DOC i bez signálu, zatímco aktuální dostupnost, mapy a rezervační stránky potřebují připojení."
           ],
           "tips": []
@@ -4189,7 +4191,7 @@
         {
           "heading": "Správce území může být přísnější",
           "body": [
-            "Požární sezona je spodní hranice, ne povolení. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a>, regionální parky, obecní rezervace i soukromé kempy mají vlastní pravidla a mnohé z nich zakazují otevřený oheň trvale, bez ohledu na sezonu. Kde platí dvě pravidla, rozhoduje to přísnější.",
+            "Požární sezona je spodní hranice, ne povolení. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a>, regionální parky, obecní pozemky (council reserves) i soukromé kempy mají vlastní pravidla a mnohé z nich zakazují otevřený oheň trvale, bez ohledu na sezonu. Kde platí dvě pravidla, rozhoduje to přísnější.",
             "Přečtěte si stránku konkrétního kempu a ceduli na místě. Některé kempy DOC povolují malý oheň jen ve vyhrazeném ohništi, jiné zakazují pevná paliva úplně a u ohňů v divočině platí zvláštní podmínky pro umístění, volný prostor kolem a velikost."
           ],
           "tips": []
@@ -4218,7 +4220,7 @@
           "heading": "Vaření, když jsou ohně zakázané",
           "body": [
             "Praktická odpověď jsou plynové vařiče, které bývají povolené, i když otevřené ohně ne, ale ověřte si to, protože zakázaná požární sezona může omezit i některé spotřebiče. Používejte je na stabilním rovném povrchu, daleko od plátna stanu i vegetace.",
-            "Nikdy nevařte uvnitř zavřeného stanu, v přístřešku ani v nevětraném autě. Hrozí oxid uhelnatý, který nemá zápach a na Novém Zélandu už kempující usmrtil. Nechte vařič úplně vychladnout, než ho dáte zpět do auta nebo stanu, a plynové lahve skladujte ve svislé poloze a větrané."
+            "Nikdy nevařte uvnitř zavřeného stanu, pod markýzou ani v nevětraném autě. Hrozí otrava oxidem uhelnatým, který nemá zápach a na Novém Zélandu už kempující usmrtil. Nechte vařič úplně vychladnout, než ho dáte zpět do auta nebo stanu, a plynové lahve skladujte nastojato na větraném místě."
           ],
           "tips": [
             "Nikdy nevařte v zavřeném stanu ani autě",
@@ -4238,7 +4240,7 @@
       "faq": [
         [
           "Smí se na Novém Zélandu rozdělat táborák?",
-          "Někdy, záleží na požární sezoně tam, kde jste. Fire and Emergency New Zealand zařazuje každý okres jako otevřený, omezený nebo zakázaný a v omezené sezoně potřebujete povolení, než cokoli zapálíte."
+          "Někdy. Záleží na požární sezoně tam, kde právě jste: Fire and Emergency New Zealand vyhlašuje pro každý okres sezonu otevřenou, omezenou, nebo zakázanou, a v omezené sezoně potřebujete povolení dřív, než cokoli zapálíte."
         ],
         [
           "Jak si před kempováním ověřit požární sezonu?",
@@ -4468,7 +4470,7 @@
           "heading": "Rezervace, poplatky a aplikace",
           "body": [
             "Většinu kempů výše lze rezervovat v online rezervačním systému DOC a oblíbené bývají plné na víkendy a letní prázdniny. Kempy ze seznamu, u nichž DOC v říjnu 2026 rezervace nepřijímal, jsou Maitai Bay, Tapotupotu, Kapowairua, Ahuriri Bridge a Twelve Mile Delta, takže tam platí „kdo dřív přijde“. Poplatky se platí za dospělého a noc; sazby pro děti a případné změny si před cestou ověřte na stránce DOC.",
-            "V KiwiCamping má každý <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a> uvedený poplatek, vybavení, přístup pro vozidla a pravidla pro psy, takže je můžete porovnat na mapě a uložit si užší výběr na cestu. Kempy DOC jsou součástí Premium Passu; zdarma jsou v aplikaci jen pobyty a výlety z BookIt."
+            "V KiwiCamping má každý <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a> uvedený poplatek, vybavení, přístup pro vozidla a pravidla pro psy, takže je můžete porovnat na mapě a uložit si užší výběr na cestu. Kempy DOC jsou součástí Premium Passu; zdarma jsou v aplikaci jen ubytování a zájezdy (tours) z BookIt."
           ],
           "tips": [
             "Oblíbené kempy rezervujte brzy",
@@ -4492,7 +4494,7 @@
         ],
         [
           "Je potřeba kempy s krásným výhledem rezervovat předem?",
-          "Většina oblíbených kempů DOC přijímá online rezervace a bývá plná o letních víkendech a v lednu. Maitai Bay, Tapotupotu, Kapowairua (Spirits Bay), Ahuriri Bridge a Twelve Mile Delta v říjnu 2026 rezervace nepřijímaly, proto přijeďte brzy během dne."
+          "Většina oblíbených kempů DOC přijímá online rezervace a bývá plná o letních víkendech a v lednu. Maitai Bay, Tapotupotu, Kapowairua (Spirits Bay), Ahuriri Bridge a Twelve Mile Delta v říjnu 2026 rezervace nepřijímaly, proto tam dorazte co nejdřív, nejlépe dopoledne."
         ]
       ],
       "sources": [
@@ -4527,8 +4529,8 @@
         {
           "heading": "DOC účtuje za osobu, ne za místo",
           "body": [
-            "Tohle je výpočet, který rodiny překvapí. Poplatky v <a data-guide=\"doc-campsites-new-zealand-guide\">kempech DOC</a> se obvykle platí za dospělého a noc: Basic místa jsou zdarma, Standard místa stojí většinou 10 až 20 NZD za dospělého a Serviced místa bez elektřiny se běžně pohybují kolem 25 NZD. Děti mají slevu nebo neplatí nic podle věku a místa.",
-            "Protože cena roste s počtem lidí, může čtyřčlenná skupina v Serviced kempu DOC zaplatit víc než v <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parku</a> s pevnou cenou za místo. Srovnání proto vždy spočítejte pro svou skutečnou skupinu a nepředpokládejte, že DOC je levnější."
+            "Tohle je výpočet, který rodiny překvapí. Poplatky v <a data-guide=\"doc-campsites-new-zealand-guide\">kempech DOC</a> se obvykle platí za dospělého a noc: místa kategorie Basic jsou zdarma, místa kategorie Standard stojí většinou 10 až 20 NZD za dospělého a místa kategorie Serviced bez elektřiny se běžně pohybují kolem 25 NZD. Děti mají slevu nebo neplatí nic podle věku a místa.",
+            "Protože cena roste s počtem lidí, může čtyřčlenná skupina v kempu DOC kategorie Serviced zaplatit víc než v <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parku</a> s pevnou cenou za místo. Srovnání proto vždy spočítejte pro svou skutečnou skupinu a nepředpokládejte, že DOC je levnější."
           ],
           "tips": [
             "DOC účtuje za dospělého",
@@ -4548,18 +4550,18 @@
           "heading": "Náklady, které s kempem nesouvisejí",
           "body": [
             "Palivo je po ubytování obvykle největší položkou a určuje ho vzdálenost a spotřeba, ne počet nocí. Spočítejte ho pořádně: kilometry krát litry na 100 km, děleno 100, krát cena za litr. Obytné auto se spotřebou 12 l/100 km, které ujede 3000 km, spotřebuje 360 litrů a tento výpočet váží víc než rozdíl mezi kempem za 15 NZD a za 25 NZD.",
-            "K tomu přidejte jídlo, trajekt, pokud přejíždíte <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookovu úžinu (Cook Strait)</a>, aktivity a samotné vozidlo, pokud si ho půjčujete. Poplatky za jednosměrnou půjčovnu i snížení spoluúčasti se snadno přehlédnou a oboje jsou značné částky."
+            "K tomu přidejte jídlo, trajekt, pokud přejíždíte <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookovu úžinu (Cook Strait)</a>, aktivity a samotné vozidlo, pokud si ho půjčujete. Poplatek za jednosměrný pronájem i snížení spoluúčasti se snadno přehlédnou a obojí jsou značné částky."
           ],
           "tips": [
             "Palivo obvykle převáží cenu kempu",
             "Cookova úžina je pevná velká položka",
-            "Jednosměrnou půjčovnu počítejte zvlášť"
+            "Poplatek za jednosměrný pronájem počítejte zvlášť"
           ]
         },
         {
           "heading": "Tři reálné denní rozpočty",
           "body": [
-            "Úsporný kemper, který vaří téměř všechno sám, střídá místa zdarma a Standard místa DOC a jezdí střední vzdálenosti, může počítat s 45 až 80 NZD na osobu a den, bez dálkové dopravy. Chce to být opravdu soběstačný a většinu nocí se smířit se základním vybavením.",
+            "Úsporný kemper, který vaří téměř všechno sám, střídá místa zdarma a místa DOC kategorie Standard a jezdí střední vzdálenosti, může počítat s 45 až 80 NZD na osobu a den, bez dálkové dopravy. Chce to být opravdu soběstačný a většinu nocí se smířit se základním vybavením.",
             "Smíšený přístup (kempy DOC a každou třetí nebo čtvrtou noc <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>, občas jídlo v restauraci, pár placených aktivit) vyjde zhruba na 90 až 150 NZD na osobu a den. Pohodlná cesta s většinou míst s elektřinou nebo chatek, pravidelným jídlem v restauraci a zarezervovanými zážitky se dostane výrazně výš."
           ],
           "tips": []
@@ -4588,7 +4590,7 @@
       "faq": [
         [
           "Kolik stojí kempování na Novém Zélandu za noc?",
-          "Od zdarma v kempech Basic DOC přes 10 až 20 NZD za dospělého na místech Standard a 25 NZD na místech Serviced až po holiday parky, které často účtují za místo. Protože DOC účtuje za dospělého, dvě podobně vypadající ceny mohou pro rodinu znamenat velmi odlišné částky."
+          "Od bezplatných kempů DOC kategorie Basic přes 10 až 20 NZD za dospělého v kempech Standard a 25 NZD v kempech Serviced až po holiday parky, které často účtují za místo. Protože DOC účtuje za dospělého, mohou dvě podobně vypadající ceny znamenat pro rodinu velmi odlišné částky."
         ],
         [
           "Je kempování na Novém Zélandu levnější než hostely?",
@@ -4610,19 +4612,19 @@
         "note": "Ceny kategorií DOC pro sezonu 2026/27, ověřené na stránce poplatků DOC 20. října 2026; údaje o holiday parcích a denní částky jsou orientační rozpětí, ne cenové nabídky. Sazby u pláže v hlavní sezoně a v době akcí mohou být výrazně vyšší.",
         "rows": [
           {
-            "label": "Basic kemp DOC",
+            "label": "Kemp DOC kategorie Basic",
             "unit": "za dospělého a noc"
           },
           {
-            "label": "Standard kemp DOC",
+            "label": "Kemp DOC kategorie Standard",
             "unit": "za dospělého a noc"
           },
           {
-            "label": "Serviced kemp DOC bez elektřiny",
+            "label": "Kemp DOC kategorie Serviced, bez elektřiny",
             "unit": "za dospělého a noc"
           },
           {
-            "label": "Serviced kemp DOC s elektřinou",
+            "label": "Kemp DOC kategorie Serviced, s elektřinou",
             "unit": "za dospělého a noc"
           },
           {
@@ -4631,7 +4633,7 @@
           },
           {
             "label": "Levný den kempování, na osobu",
-            "unit": "všechno v jednom, vaření vlastní"
+            "unit": "všechny náklady, vlastní vaření"
           },
           {
             "label": "Kempy kombinované s holiday parky",
@@ -4639,6 +4641,232 @@
           }
         ]
       }
+    }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Úvod",
+      "breadcrumbTools": "Nástroje",
+      "howTitle": "Jak se to počítá",
+      "exampleTitle": "Příklad výpočtu",
+      "assumptionsTitle": "Předpoklady",
+      "sourcesTitle": "Zdroje",
+      "faqTitle": "Časté otázky",
+      "guidesTitle": "Související průvodci",
+      "otherToolsTitle": "Další kalkulačky pro road trip",
+      "openTool": "Otevřít kalkulačku",
+      "ctaEyebrow": "Naplánujte to v KiwiCamping",
+      "ctaTitle": "Najděte zastávky, pak počítejte.",
+      "ctaText": "KiwiCamping pro iPhone se stahuje zdarma. Holiday parky, ubytování a zájezdy (tours) s možností rezervace jsou v aplikaci zdarma. Kempy DOC, chaty, výlevky a průvodce odemyká Pass.",
+      "ctaButton": "Stáhnout aplikaci",
+      "enterValidValues": "Zadejte platné hodnoty",
+      "enterValidAmount": "Zadejte platnou částku"
+    },
+    "index": {
+      "metaTitle": "Kalkulačky pro road trip po NZ: palivo, doba jízdy, cena kempu",
+      "metaDescription": "Bezplatné kalkulačky pro road trip po Novém Zélandu: náklady na palivo, doba jízdy podle typu silnice, cena kempu za osobu nebo za místo, převod NZD a vodní nádrže v campervanu.",
+      "toolsTitle": "Jedna kalkulačka na jednu otázku",
+      "toolsText": "Každá kalkulačka má vlastní stránku se vzorcem, příkladem s novozélandskými čísly, předpoklady, ze kterých vychází, a odpověďmi na časté otázky."
+    },
+    "fuel": {
+      "metaTitle": "Kalkulačka paliva NZ: palivo na road trip s campervanem",
+      "metaDescription": "Spočítejte litry a cenu paliva na road trip po Novém Zélandu podle vzdálenosti, spotřeby v l/100 km a ceny u pumpy. Se vzorcem, příkladem pro 1 000 km a orientační cenou MBIE.",
+      "eyebrow": "Kalkulačka nákladů na palivo",
+      "cardEyebrow": "Kalkulačka paliva",
+      "h1": "Kalkulačka nákladů na palivo pro road trip po Novém Zélandu",
+      "intro": "Zadejte délku trasy, spotřebu naloženého vozidla a cenu za litr. Výchozí cena je celostátní cena benzinu 91 z cenových tabulí podle MBIE (novozélandského ministerstva pro podnikání, inovace a zaměstnanost) za týden končící 26. července 2026.",
+      "cardTitle": "Kolik vás stojí ujeté kilometry.",
+      "cardText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
+      "labelDistance": "Vzdálenost (km)",
+      "labelConsumption": "Spotřeba (l/100 km)",
+      "labelPrice": "Cena paliva (NZD/l)",
+      "formula": [
+        "Litry = vzdálenost (km) × spotřeba (l/100 km) ÷ 100",
+        "Cena = litry × cena za litr (NZD)"
+      ],
+      "formulaNote": "Spotřeba se udává na 100 kilometrů, takže dělení stem z ní udělá litry na kilometr. Výpočet je lineární: dvojnásobná vzdálenost znamená dvojnásobek litrů i ceny.",
+      "example": "Trasa dlouhá {distance} km v campervanu se spotřebou {consumption} l/100 km vyžaduje {litres} l paliva. Při ceně {price} za litr to vyjde na {cost}.",
+      "assumptions": [
+        "Výchozí cena je celostátní orientační hodnota. Odlehlé čerpací stanice, například na West Coast a ve Fiordlandu, často účtují víc, proto tankujte před dlouhými úseky mezi městy.",
+        "Zadejte spotřebu vozidla, kterým skutečně jedete, a to naloženého. Plný campervan v kopcích a proti větru spotřebuje víc, než uvádí prospekt.",
+        "Připočítejte místní ježdění kolem každé zastávky. Cesty do supermarketu, k vyhlídkám a po vedlejších silnicích se na dlouhé trase sčítají.",
+        "Vozidla na naftu platí kromě paliva i poplatek RUC (road user charges, silniční poplatek za ujeté kilometry) za každých 1 000 km. Tato kalkulačka počítá jen palivo."
+      ],
+      "faq": [
+        [
+          "Kolik paliva spotřebuje campervan na Novém Zélandu?",
+          "Záleží na vozidle, nákladu a silnicích. Použijte údaj od půjčovny nebo z dokladů vozidla a počítejte s rezervou na kopce. Výchozích 12 l/100 km je plánovací hodnota pro naložený campervan, ne naměřený průměr."
+        ],
+        [
+          "Zahrnují náklady na palivo poplatek RUC?",
+          "Ne. Vozidla na naftu platí na Novém Zélandu poplatek RUC za každých 1 000 km odděleně od paliva. Zeptejte se půjčovny, jestli je RUC v ceně, a aktuální sazby si ověřte u NZTA."
+        ],
+        [
+          "Odkud pochází výchozí cena paliva?",
+          "Je to celostátní cena benzinu 91 z cenových tabulí podle MBIE za týden končící 26. července 2026. MBIE zveřejňuje ceny paliv každý týden, takže si před cestou ověřte nejnovější údaj."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Kalkulačka doby jízdy NZ: reálné hodiny podle typu silnice",
+      "metaDescription": "Odhadněte, jak dlouho den za volantem na Novém Zélandu skutečně trvá, podle vzdálenosti, typu silnice a zastávek. Se vzorcem, příkladem výpočtu a použitými rychlostmi.",
+      "eyebrow": "Kalkulačka doby jízdy",
+      "cardEyebrow": "Odhad dne za volantem",
+      "h1": "Kalkulačka doby jízdy po novozélandských silnicích",
+      "intro": "Navigace počítá čistý čas jízdy po ideální silnici. Tato kalkulačka vezme vzdálenost, kterou už znáte, průměrnou rychlost pro daný typ silnice a 20 minut na každou zastávku, protože právě kvůli zastávkám se den za volantem na Novém Zélandu obvykle protáhne.",
+      "cardTitle": "Jak dlouho ten den doopravdy trvá.",
+      "cardText": "Navigace počítá čistý čas jízdy po ideální silnici. Tady se přidá charakter silnice a vaše skutečné zastávky, a právě kvůli nim se den obvykle protáhne.",
+      "labelDistance": "Vzdálenost (km)",
+      "labelRoadType": "Typ silnice",
+      "roadMotorway": "Dálnice nebo rovná silnice",
+      "roadHighway": "Hlavní silnice",
+      "roadWinding": "Klikatá nebo pobřežní",
+      "roadNarrow": "Úzká, strmá nebo šotolinová",
+      "labelStops": "Zastávky",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minuty jízdy = vzdálenost (km) ÷ průměrná rychlost (km/h) × 60",
+        "Minuty celkem = minuty jízdy + 20 × počet zastávek"
+      ],
+      "formulaNote": "Průměrná rychlost není rychlostní limit. Počítá se zatáčkami, kopci, jednoproudými mosty, obcemi a pomalejším provozem. Čtyři typy silnic používají 85, 70, 60 a 45 km/h.",
+      "example": "Den s {distance} km po klikatých nebo pobřežních silnicích při {speed} km/h znamená {driving} jízdy. Po přičtení zastávek ({stops} × 20 minut) trvá celý den {total}.",
+      "assumptions": [
+        "Průměrné rychlosti jsou plánovací hodnoty pro osobní auto nebo campervan za dobrých podmínek, ne naměřené průměry pro konkrétní silnici.",
+        "Každá zastávka se počítá jako 20 minut na tankování, jídlo, toaletu nebo vyhlídku. Trajekty, práce na silnici a delší procházky je potřeba přičíst zvlášť.",
+        "Počasí, sesuvy a uzavírky mění trasy. Před odjezdem si ověřte aktuální stav silnic v plánovači cest NZTA."
+      ],
+      "faq": [
+        [
+          "Kolik se dá na Novém Zélandu ujet za den?",
+          "Jedno číslo neexistuje. Klikaté silnice, jednoproudé mosty a zastávky drží průměrnou rychlost hluboko pod limitem mimo obec, takže den, který na mapě vypadá krátce, může zabrat většinu denního světla. Zadejte vzdálenost a typ silnice, uvidíte počet hodin, a plánujte pravidelné přestávky na odpočinek."
+        ],
+        [
+          "Proč to vychází déle než v mapové aplikaci?",
+          "Mapové aplikace odhadují čistý čas jízdy bez zastávek. Tady se počítá s průměrem pro daný typ silnice a s časem na každou zastávku, což mnohem líp odpovídá skutečnému dni na cestě s kempováním."
+        ],
+        [
+          "Funguje to i pro campervan?",
+          "Ano. Pokud řídíte velké vozidlo, táhnete přívěs nebo s jízdou vlevo teprve začínáte, zvolte pomalejší typ silnice."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Kalkulačka ceny kempu NZ: za osobu, nebo za místo?",
+      "metaDescription": "Porovnejte kemp DOC s poplatkem za dospělého a holiday park s cenou za místo pro vaši skupinu a počet nocí. Se vzorcem, příkladem výpočtu a poplatky DOC z dat.",
+      "eyebrow": "Kalkulačka ceny kempu",
+      "cardEyebrow": "Porovnání kempů",
+      "h1": "Kalkulačka ceny kempu: za osobu, nebo za místo",
+      "intro": "Kempy DOC účtují za dospělého a noc, kdežto holiday park obvykle za místo. Která varianta je levnější, se mění s velikostí skupiny, a tato kalkulačka to spočítá pro vaše noci.",
+      "cardTitle": "Za osobu, nebo za místo?",
+      "cardText": "Kemp DOC obvykle účtuje za dospělého, holiday park za místo. Která varianta vyjde levněji, se mění podle počtu lidí, a na tom se nachytá hodně rodin.",
+      "labelAdults": "Dospělí",
+      "labelNights": "Noci",
+      "labelPerAdult": "Za dospělého (NZD)",
+      "labelPerSite": "Za místo (NZD)",
+      "comparison": "{perAdult} vs. {perSite} · {verdict}",
+      "theSame": "vyjde to nastejno",
+      "perAdultCheaper": "levnější je platba za dospělého",
+      "perSiteCheaper": "levnější je platba za místo",
+      "formula": [
+        "Celkem za dospělé = počet dospělých × počet nocí × sazba za dospělého",
+        "Celkem za místo = počet nocí × sazba za místo",
+        "Nižší částka je pro vaši skupinu levnější varianta"
+      ],
+      "formulaNote": "Částka za dospělé roste s každým dalším dospělým, částka za místo ne. Proto vychází jinak pro pár a jinak pro rodinu.",
+      "example": "Dospělí: {adults}, noci: {nights}, sazba {rateAdult} za dospělého, celkem {totalAdult}. Stejný pobyt za {rateSite} za místo stojí {totalSite}, takže {verdict}.",
+      "assumptions": [
+        "Děti nejsou započítané. Mnoho kempů DOC účtuje dětem od 5 do 17 let sníženou sazbu a malé děti neplatí nic; holiday parky mají vlastní dětské sazby.",
+        "Výchozí sazby jsou příklady, ne nabídky. V datech DOC k {docDate} je počet bezplatných kempů DOC {docFree} a nejnižší sazba za dospělého v placených kempech se pohybuje od {docMin} do {docMax} za noc.",
+        "Holiday parky si ceny určují samy a ty se mění podle sezony, elektřiny a velikosti místa. Před rezervací si cenu v daném parku ověřte."
+      ],
+      "faq": [
+        [
+          "Kolik stojí noc v kempu na Novém Zélandu?",
+          "Kempy DOC jsou buď zdarma, nebo účtují za dospělého. V datech DOC k {docDate} se nejnižší sazba za dospělého v placených kempech DOC pohybuje od {docMin} do {docMax} za noc, s mediánem {docMedian}. Holiday parky si ceny míst určují samy, takže porovnávejte celkovou částku za celou skupinu."
+        ],
+        [
+          "Co je pro rodinu levnější, platba za osobu, nebo za místo?",
+          "S rostoucí skupinou obvykle vyhrává platba za místo, protože cena místa zůstává stejná, kdežto poplatky za dospělé se násobí. Zadejte vlastní sazby a uvidíte, kde leží bod zvratu."
+        ],
+        [
+          "Platí děti v kempech DOC?",
+          "V mnoha kempech DOC platí děti od 5 do 17 let sníženou sazbu a malé děti spí zdarma. Poplatek pro každý kemp najdete na jeho stránce DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Převodník NZD: novozélandské ceny v 9 měnách",
+      "metaDescription": "Převádějte ceny v novozélandských dolarech na USD, EUR, GBP, AUD, JPY, CNY, KRW, INR a SGD a zpět podle referenčních kurzů Reserve Bank of New Zealand.",
+      "eyebrow": "Převodník měn",
+      "cardEyebrow": "Převodník měn",
+      "h1": "Převodník NZD pro ceny na cestě po Novém Zélandu",
+      "intro": "Převeďte novozélandskou cenu na svou měnu, nebo svou měnu na novozélandské dolary, podle referenčních kurzů Reserve Bank of New Zealand ze dne {rateDate}.",
+      "cardTitle": "Přepočítejte novozélandskou cenu.",
+      "cardText": "Orientační přepočet pro plánování cesty podle kurzů Reserve Bank of New Zealand ze dne {rateDate}. Vaše banka nebo karta může použít jiný kurz a připočítat poplatky.",
+      "labelAmount": "Částka",
+      "labelFrom": "Z měny",
+      "labelTo": "Na měnu",
+      "formula": [
+        "Částka v NZD = částka ÷ kurz měny, ze které převádíte",
+        "Výsledek = částka v NZD × kurz měny, na kterou převádíte"
+      ],
+      "formulaNote": "Každý kurz udává počet jednotek dané měny za 1 novozélandský dolar, takže každý převod jde přes NZD.",
+      "example": "{amount} při kurzu {rate} amerického dolaru za novozélandský dolar je {converted}.",
+      "assumptions": [
+        "Jde o referenční kurzy ze dne {rateDate}. Směnné kurzy se mění každý den.",
+        "Banky, karty a bankomaty používají vlastní kurzy a mohou připočítat poplatky, takže částka, kterou zaplatíte, se může lišit.",
+        "Japonské jeny a korejské wony se zobrazují bez desetinných míst."
+      ],
+      "faq": [
+        [
+          "Jaká měna se používá na Novém Zélandu?",
+          "Novozélandský dolar (NZD). Ceny v obchodech, kempech a holiday parcích se uvádějí v NZD."
+        ],
+        [
+          "Je to kurz, který mi dá moje banka?",
+          "Nejspíš ne přesně. Kalkulačka používá referenční kurzy ze dne {rateDate}. Vaše banka nebo vydavatel karty uplatní vlastní kurz a poplatky, takže výsledek berte jako plánovací údaj."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Kalkulačka vodních nádrží campervanu: dny čisté a šedé vody",
+      "metaDescription": "Spočítejte, na kolik dní vaší skupině vystačí nádrže na čistou a šedou vodu v campervanu. Se vzorcem, příkladem výpočtu a denními hodnotami, ze kterých vychází.",
+      "eyebrow": "Kalkulačka vodních nádrží",
+      "cardEyebrow": "Plánovač vody a odpadu",
+      "h1": "Kalkulačka vodních nádrží campervanu",
+      "intro": "Objem nádrže v litrech začne dávat smysl, až když ho převedete na dny. Zadejte objem nádrže na čistou a na šedou vodu a počet osob a uvidíte, která nádrž určuje limit.",
+      "cardTitle": "Kolik dní vydržíte bez přípojek.",
+      "cardText": "Objem v litrech začne dávat smysl, až když ho převedete na dny. Čistá a šedá voda se zobrazují zvlášť, protože limit určuje ta nádrž, která přestane stačit dřív.",
+      "labelFresh": "Čistá voda (l)",
+      "labelGrey": "Šedá voda (l)",
+      "labelPeople": "Počet osob",
+      "days": "{fresh} dne čisté vody · {grey} dne šedé vody",
+      "formula": [
+        "Dny čisté vody = nádrž na čistou vodu (l) ÷ (počet osob × 11 l denně)",
+        "Dny šedé vody = nádrž na šedou vodu (l) ÷ (počet osob × 9 l denně)",
+        "Nižší z obou čísel je doba, po kterou můžete zůstat, než bude potřeba doplnit vodu nebo vyprázdnit nádrž"
+      ],
+      "formulaNote": "Šedá voda je odpadní voda z dřezu a sprchy. Je jí méně, než se spotřebuje čisté vody, protože voda na pití a vaření v nádrži celá neskončí.",
+      "example": "Pro {people} osoby s nádrží na čistou vodu o objemu {freshTank} l a nádrží na šedou vodu o objemu {greyTank} l vystačí čistá voda na {freshDays} dne a šedá na {greyDays} dne, takže limit určuje nádrž na čistou vodu.",
+      "assumptions": [
+        "11 litrů čisté a 9 litrů šedé vody na osobu a den jsou plánovací hodnoty pro šetrné používání: pití, vaření, mytí nádobí a rychlé umytí. Sprchování spotřebuje mnohem víc.",
+        "Kazety chemických toalet a černá voda nejsou započítané.",
+        "Šedou vodu vyprazdňujte jen na výlevce (dump station). Nikdy ne na zem ani do dešťové kanalizace."
+      ],
+      "faq": [
+        [
+          "Na jak dlouho vystačí 100 litrů čisté vody v campervanu?",
+          "Pro dva šetrné uživatele s 11 litry na osobu a den zhruba na čtyři a půl dne. Sprchování a praní prádla tu dobu výrazně zkracují."
+        ],
+        [
+          "Kde se dá na Novém Zélandu vyprázdnit šedá voda?",
+          "Na výlevce (dump station). Mnoho holiday parků ji má a obce provozují veřejné výlevky v mnoha městech. Šedou vodu nikdy nevylévejte na zem ani do dešťové kanalizace."
+        ],
+        [
+          "Která nádrž dojde dřív?",
+          "Ta, která je při vašem používání menší. Nádrže na šedou vodu bývají menší než nádrže na čistou vodu, takže kontrolujte obě, ne jen ukazatel čisté vody."
+        ]
+      ]
     }
   }
 }

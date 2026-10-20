@@ -140,9 +140,11 @@
     "guidesIntro": "Uitgebreide gidsen over campings, regels, kosten ter plaatse en praktische reisvoorbereiding in heel Nieuw-Zeeland.",
     "guideSingular": "gids",
     "guidePlural": "gidsen",
+    "guidePluralFew": "gidsen",
     "readGuide": "Lees de gids",
     "minuteRead": "minuten leestijd",
     "places": "plekken",
+    "placesFew": "plekken",
     "backToGuides": "Gidsen",
     "photoCredits": "Fotoverantwoording",
     "keepInMind": "Goed om te weten",
@@ -261,7 +263,7 @@
           "paragraphs": [
             "Zoek op naam, adres of beschrijving van een plek. Verschuif de kaart en kies de optie voor het huidige gebied: de resultaten concentreren zich dan op het deel van de kaart dat je in beeld hebt.",
             "Filter op soort plek, tarief, minimale beoordeling, online boeken, regio en uitgebreide kenmerken voor voorzieningen en bereikbaarheid. Combineer alleen de filters die er echt toe doen, dan blijven bruikbare alternatieven in beeld.",
-            "Voorzieningen, tarieven, toegang en beheer kunnen veranderen. Volg de borden ter plekke en de aanwijzingen van de beheerder, en stuur ons daarna een correctie. Zo wordt het overzicht van plekken steeds beter."
+            "Voorzieningen, tarieven, toegang en beheer kunnen veranderen. Volg de borden ter plekke en de aanwijzingen van de beheerder, en stuur daarna een correctie in. Zo wordt het overzicht van plekken steeds beter."
           ]
         },
         {
@@ -6795,7 +6797,7 @@
           "tips": []
         },
         {
-          "heading": "Waar je elke nacht je uitvalsbasis kiest",
+          "heading": "Waar je de nachten doorbrengt",
           "body": [
             "Thames is prima voor de eerste nacht als je laat uit Auckland vertrekt, maar het is een stadje voor voorzieningen en geen bestemming, en het eigenlijke schiereiland begint ten noorden ervan. Whitianga en Hahei zijn de logische uitvalsbases aan de oostkust. Hahei ligt het dichtst bij de wandelingen, en Whitianga heeft meer voorzieningen en meer keuze aan campings.",
             "Op het stuk naar Rotorua liggen de <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> aan het meer dicht bij de geothermische parken en de redwoods, zonder dat je elke ochtend terug de stad in hoeft te rijden. Blue Lake en Lake Ōkāreka zijn rustiger dan de plekken in het centrum en liggen maar een kort stukje rijden van de attracties.",
@@ -7122,7 +7124,7 @@
     },
     "rakiura-stewart-island-camping-guide": {
       "title": "Kamperen op Stewart Island: Rakiura Track en Oban",
-      "description": "Kamperen op Stewart Island: campings langs de Rakiura Track vanaf NZ$ 19 per nacht, het hele jaar reserveren, veerboot van een uur vanaf Bluff, Ulva Island en wilde kiwi’s.",
+      "description": "Kamperen op Stewart Island: Rakiura Track-campings vanaf NZ$ 19 per nacht in de zomer, altijd reserveren, een uur met de veerboot vanaf Bluff, Ulva Island en wilde kiwi’s.",
       "region": "Rakiura",
       "imageAlt": "Afgelegen strand en inheems bos op Rakiura",
       "intro": "Rakiura is een reis zonder camper. Laat het voertuig op het vasteland achter, steek over met een compacte rugzak en laat wandelen, watertaxi’s en het weer op het eiland het tempo bepalen voor drie of vier nachten.",
@@ -7500,7 +7502,7 @@
         {
           "heading": "Waarom mensen verder kijken dan WikiCamps",
           "body": [
-            "WikiCamps krijgt weinig reviews in de Nieuw-Zeelandse App Store, dus de laatste 50 daar lopen terug tot januari 2020, en slechts 13 ervan zijn in 2024 of later geschreven. Eenenveertig gaven vier of vijf sterren; de meest voorkomende lof, in zeven reviews per onderwerp, ging naar de reisplanner en naar het grotere aantal plekken dan bij gratis apps. De klachten: zes beschreven <a data-guide=\"kiwicamping-filters-guide\">filters</a> of gegevens die na een update kapotgingen, vijf daarvan in 2023 (de huidige versie, 6.3.0, verscheen op 19 oktober 2026), vijf zeiden dat plekgegevens, tarieven of locaties verouderd of fout waren, en twee zeiden dat de app vastliep of de reisplanner niet wilde openen.",
+            "WikiCamps krijgt weinig reviews in de Nieuw-Zeelandse App Store: de laatste 50 gaan terug tot januari 2020, en maar 13 daarvan zijn in 2024 of later geschreven. Eenenveertig gaven vier of vijf sterren. Het vaakst geprezen werden de reisplanner en het feit dat de app meer plekken heeft dan gratis apps, elk in zeven reviews. De klachten: zes reviews beschreven <a data-guide=\"kiwicamping-filters-guide\">filters</a> of gegevens die na een update niet meer werkten, vijf daarvan uit 2023 (de huidige versie, 6.3.0, verscheen op 19 oktober 2026), vijf zeiden dat plekgegevens, tarieven of locaties verouderd of fout waren, en twee zeiden dat de app vastliep of de reisplanner niet wilde openen.",
             "Twee praktische punten komen ook naar voren. WikiCamps verkoopt Nieuw-Zeeland en Australië als aparte apps, dus voor een reis over de Tasmanzee koop je twee keer: WikiCamps Australia kost NZ$ 11,99 in de Nieuw-Zeelandse App Store. En op Android scoort de Google Play-pagina 3,0 uit 1.042 beoordelingen en toont die labels voor in-app-aankopen en advertenties, terwijl de beschrijving het een eenmalige aankoop noemt."
           ],
           "tips": []
@@ -7781,7 +7783,7 @@
         {
           "heading": "Green warrants: de check die geen enkele app voor je doet",
           "body": [
-            "Sinds 7 juni 2026 worden blue warrants voor self-containment niet meer erkend voor <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, en volgens de Plumbers, Gasfitters and Drainlayers Board kan freedom camping op openbare grond zonder green warrant een boete van NZ$ 400 opleveren. Een gecertificeerd voertuig moet een vast ingebouwd toilet hebben dat binnen bruikbaar is, plus vers water, een gootsteen en opslag voor afvalwater en afval.",
+            "Sinds 7 juni 2026 worden blue warrants voor self-containment niet meer erkend voor <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, en volgens de Plumbers, Gasfitters and Drainlayers Board kan freedom camping op openbare grond zonder green warrant je een boete van NZ$ 400 opleveren. Een gecertificeerd voertuig moet een vast ingebouwd toilet hebben dat je binnen kunt gebruiken, plus schoon water, een spoelbak en opslag voor afvalwater en afval.",
             "De regels gelden voor freedom camping op openbare grond, niet voor campings, holiday parks of privéterrein. De pin voor freedom camping in een app zegt niet of je camper voldoet, dus zoek bij het ophalen van de camper naar de kaart van de <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a>."
           ],
           "tips": []
@@ -9141,7 +9143,7 @@
           "heading": "Goedkoper slapen zonder app",
           "body": [
             "DOC bepaalt de tarieven van de campings: basiscampings zijn gratis, standaardcampings kosten NZ$ 10 tot 20 per volwassene per nacht, en serviced campings NZ$ 25 per volwassene zonder stroom. Afzonderlijke campings kunnen afwijken, dus check elke camping. Leden van de New Zealand Motor Caravan Association betalen NZ$ 252 in het eerste jaar en kunnen daarna op NZMCA Parks overnachten voor NZ$ 5 per volwassene per nacht.",
-            "Voor <a data-guide=\"accommodation-costs-new-zealand-2026\">hostels</a> vergelijkt Hostelworld (4,8 op basis van 5.114) bedden, en YHA adverteert met een besparing van 10% voor zijn leden. Een camper-relocation is het goedkoopste voertuig van allemaal: Imoova biedt ze aan vanaf NZ$ 1 per dag, al is brandstof meestal extra en liggen de datums vast."
+            "Voor <a data-guide=\"accommodation-costs-new-zealand-2026\">hostels</a> vergelijk je bedden met Hostelworld (4,8 op basis van 5.114), en YHA adverteert met 10% korting voor leden. Het goedkoopst kom je aan een camper met een relocatie: Imoova biedt ze aan vanaf NZ$ 1 per dag, al betaal je de brandstof meestal zelf en liggen de data vast."
           ],
           "tips": []
         },
@@ -9205,7 +9207,7 @@
           "label": "NZMCA-lidmaatschap"
         },
         {
-          "label": "Imoova: wat is een relocation"
+          "label": "Imoova: wat is een relocatie"
         }
       ],
       "priceTable": null
@@ -9277,7 +9279,7 @@
           "heading": "Kamperen en de sandflies",
           "body": [
             "Langs de weg liggen DOC-campings in de Eglinton Valley. Dat is de praktische optie, want accommodatie in Milford zelf is zeer beperkt. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> (vrij kamperen buiten een camping) bij de fjorden is niet toegestaan, en dat verbod wordt gehandhaafd.",
-            "De <a data-guide=\"sandflies-new-zealand-camping\">sandflies</a> (zandvliegjes) van Fiordland zijn de ergste van het land en die van Milford zijn legendarisch. Anti-insectenmiddel is hier verplichte kost: zonder bij schemering je kamp opzetten in de Eglinton is ronduit onaangenaam."
+            "De <a data-guide=\"sandflies-new-zealand-camping\">sandflies</a> (zandvliegjes) van Fiordland zijn de ergste van het land, en die van Milford zijn legendarisch. Zonder insectenwerend middel kom je hier niet ver: wie bij schemering zonder middel zijn kamp opzet in de Eglinton, heeft een ronduit ellendige avond."
           ],
           "tips": []
         },
@@ -9494,7 +9496,7 @@
         {
           "heading": "Leave No Trace, lokaal toegepast",
           "body": [
-            "De bekende principes zijn hier gewoon van toepassing: plan vooruit, kampeer op duurzame ondergrond, ruim afval correct op, laat achter wat je vindt, beperk de gevolgen van vuur, respecteer wilde dieren en houd rekening met anderen. Wat in Nieuw-Zeeland verschilt, zijn de details achter elk principe.",
+            "De bekende principes gelden hier gewoon: plan vooruit, kampeer op stevige ondergrond, ruim je afval goed op, laat achter wat je vindt, beperk de schade van vuur, respecteer wilde dieren en houd rekening met anderen. Wat in Nieuw-Zeeland anders is, zijn de details achter elk principe.",
             "Neem alles mee terug, ook etensresten. Veel gemeenten en plekken van DOC (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder) verwachten dat je alles wat je meebrengt ook weer meeneemt, zelfs als er een toilet is. Organisch afval dat in het bos achterblijft, kan zaden en plaagdieren verspreiden en trekt bovendien dieren aan."
           ],
           "tips": [
@@ -9559,7 +9561,7 @@
         ],
         [
           "Wat is de grootste fout die kampeerders maken?",
-          "Menselijk afval. Je behoefte doen bij een kampeerplek of een waterloop is het gedrag dat gratis plekken sneller doet sluiten dan wat ook, en het is de reden dat de regels voor self-contained voertuigen (met eigen toilet, watertanks en afvalwatertank) tegenwoordig een vast toilet vereisen."
+          "Menselijke uitwerpselen. Je behoefte doen bij een kampeerplek of een waterloop zorgt er sneller dan wat ook voor dat gratis plekken dichtgaan, en het is de reden dat de regels voor self-contained voertuigen (met eigen toilet, watertanks en afvalwatertank) nu een vast toilet vereisen."
         ]
       ],
       "sources": [
@@ -9778,7 +9780,7 @@
         {
           "heading": "Check de regel, niet de pin",
           "body": [
-            "Elke app in deze vergelijking, ook de onze, is een hulpmiddel bij het plannen. De verordening van de gemeente, de mededeling van DOC, de meldingen van DOC en de aanwijzingen van de beheerder gaan boven alles wat op een telefoon staat, en ze veranderen vaker dan appgegevens worden ververst. Met name <a data-guide=\"campfire-rules-new-zealand\">beperkingen voor vuur</a> en rāhui kunnen snel worden opgelegd.",
+            "Elke app in deze vergelijking, ook de onze, is een hulpmiddel bij het plannen. De verordening van de gemeente, mededelingen en meldingen van DOC en aanwijzingen van de beheerder gaan altijd voor op wat er in een telefoon staat, en ze veranderen vaker dan de app wordt bijgewerkt. Vooral <a data-guide=\"campfire-rules-new-zealand\">beperkingen voor vuur</a> en rāhui (een tijdelijk Māori-verbod op een gebied) kunnen snel worden ingesteld.",
             "Lees voordat je je installeert voor de nacht het bord bij de ingang. Als dat afwijkt van de app, wint het bord. Die gewoonte kost niets en houdt <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> beschikbaar."
           ],
           "tips": [

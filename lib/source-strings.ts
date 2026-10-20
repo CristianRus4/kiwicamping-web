@@ -145,6 +145,9 @@ export const uiStrings = {
   guidesTitle: "Follow the road somewhere good.",
   guidesIntro: "Detailed guides for camps, rules, local costs and practical trip planning across New Zealand.",
   guideSingular: "guide", guidePlural: "guides", readGuide: "Read guide",
+  // Count nouns for languages with a "few" plural (Czech, Polish: 2–4, 22–24 …), picked with
+  // Intl.PluralRules. Every other language repeats its plural here; English never shows them.
+  guidePluralFew: "guides", placesFew: "places",
 
   minuteRead: "minute read", places: "places", backToGuides: "Guides", photoCredits: "Photo credits",
   keepInMind: "Keep in mind", placesAlong: "Places along the way",

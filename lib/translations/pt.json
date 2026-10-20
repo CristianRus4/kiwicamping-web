@@ -140,9 +140,11 @@
     "guidesIntro": "Guias detalhados sobre onde acampar, regras, custos no terreno e planeamento prático de viagens em toda a Nova Zelândia.",
     "guideSingular": "guia",
     "guidePlural": "guias",
+    "guidePluralFew": "guias",
     "readGuide": "Ler o guia",
     "minuteRead": "minutos de leitura",
     "places": "locais",
+    "placesFew": "locais",
     "backToGuides": "Guias",
     "photoCredits": "Créditos das fotografias",
     "keepInMind": "A ter em conta",
@@ -261,7 +263,7 @@
           "paragraphs": [
             "Pesquisa pelo nome do local, pela morada ou pela descrição. Move o mapa e escolhe a opção da área atual para centrar os resultados na zona que tens à vista.",
             "Filtra por tipo de local, preço, avaliação mínima, reserva online, região e características detalhadas de instalações e de acesso. Combina só os filtros que importam mesmo, para não perderes de vista alternativas úteis.",
-            "As instalações, os preços, o acesso e a gestão podem mudar. Segue a sinalização em vigor e as indicações de quem gere o terreno e depois envia-nos uma correção para melhorarmos o diretório."
+            "As instalações, os preços, o acesso e a gestão podem mudar. Segue a sinalização em vigor e as indicações de quem gere o terreno e depois envia uma correção para que o diretório melhore."
           ]
         },
         {
@@ -6549,7 +6551,7 @@
         {
           "heading": "Os serviços e a rede são mesmo escassos",
           "body": [
-            "Há combustível a intervalos, mas não em todo o lado, os horários de abertura são curtos e os terminais de pagamento com cartão falham de vez em quando. Leva dinheiro vivo, atesta em Gisborne e em Ōpōtiki e reabastece sempre que passares por uma bomba de gasolina com mais de meio depósito.",
+            "Há combustível a intervalos, mas não em todo o lado, os horários de abertura são curtos e os terminais de pagamento com cartão falham de vez em quando. Leva dinheiro vivo, atesta em Gisborne e em Ōpōtiki e, sempre que passares por uma bomba de gasolina, volta a encher o depósito, mesmo que ainda tenhas mais de meio.",
             "A cobertura de rede móvel desaparece durante longos troços. Transfere o que precisares, diz a alguém mais ou menos o teu plano e não contes poder pesquisar nada nem ligar com antecedência a partir da estrada."
           ],
           "tips": []
@@ -6626,7 +6628,7 @@
           "heading": "Dias 4 e 5: Rotorua e o regresso",
           "body": [
             "Rotorua precisa de um dia inteiro para caminhadas geotérmicas, lagos e experiências culturais. Fica num parque de campismo autorizado ou num <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> e trata as vedações geotérmicas e as placas de aviso como limites que não se discutem.",
-            "Volta a Auckland por Waikato ou continua para sul se este circuito abrir caminho a uma viagem mais longa. Não juntes uma sessão tardia nas piscinas termais a uma condução cansada por estradas rurais desconhecidas."
+            "Volta a Auckland por Waikato ou continua para sul se este circuito abrir caminho a uma viagem mais longa. Não deixes uma ida tardia às piscinas termais para antes de conduzires cansado por estradas rurais que não conheces."
           ],
           "tips": []
         },
@@ -6730,7 +6732,7 @@
           "heading": "A Ninety Mile Beach não é uma estrada para o teu veículo",
           "body": [
             "A praia é legalmente uma estrada, e é também onde há veículos que ficam regularmente presos pela maré a subir e pela areia mole. Os contratos de aluguer proíbem-na com frequência, o seguro não cobre o resgate e um veículo atolado com a maré a subir perde-se depressa.",
-            "Faz uma excursão comercial de autocarro se queres percorrer a praia. Funcionam de acordo com as horas de maré favorável, levam equipamento de resgate e conhecem os pontos de entrada, e custa uma fração da franquia que pagarias numa participação ao seguro."
+            "Se queres percorrer a praia, faz uma excursão comercial de autocarro. Os operadores saem nas janelas de maré certas, levam equipamento de resgate e conhecem os pontos de entrada, e a excursão custa uma fração da franquia que pagarias numa participação ao seguro."
           ],
           "tips": [
             "Na praia, os veículos de aluguer não estão cobertos",
@@ -6946,7 +6948,7 @@
         {
           "heading": "Nas travessias de maré, o horário não é opcional",
           "body": [
-            "O trilho atravessa estuários de maré em Torrent Bay, Bark Bay e Awaroa. O DOC dá a Torrent Bay e a Bark Bay um intervalo de 2 horas para cada lado da maré baixa, com trilhos que funcionam com qualquer maré e contornam ambas, mas no Awaroa Inlet não há forma de contornar: atravessa-o de dia, entre 1 hora e 30 minutos antes e 2 horas depois da maré baixa. Perder esse intervalo significa uma longa espera ou um trilho alternativo de maré cheia, e há quem seja apanhado desprevenido com regularidade.",
+            "O trilho atravessa estuários de maré em Torrent Bay, Bark Bay e Awaroa. Em Torrent Bay e em Bark Bay, o DOC indica um intervalo de 2 horas antes e depois da maré baixa, e há trilhos que contornam ambas com qualquer maré; no Awaroa Inlet, porém, não há forma de contornar: atravessa-o de dia, desde 1h30 antes até 2 horas depois da maré baixa. Se perderes esse intervalo, tens pela frente uma longa espera ou um trilho alternativo para a maré cheia, e há quem seja apanhado desprevenido com regularidade.",
             "Arranja a tabela de marés quando reservares e planeia o dia em função dela, e não da distância. São as travessias dos estuários que ditam a hora a que começas, e não a tua preferência."
           ],
           "tips": []
@@ -6983,7 +6985,7 @@
         {
           "heading": "Quando ir",
           "body": [
-            "O Abel Tasman vive o seu melhor de dezembro a março e enche-se na mesma medida, com os lugares do trilho reservados com meses de antecedência. Na época intermédia tens a mesma costa, com disponibilidade e água mais fria.",
+            "O Abel Tasman está no seu melhor de dezembro a março e, por isso mesmo, está cheio, com os lugares do trilho reservados com meses de antecedência. Na época intermédia tens a mesma costa, com lugares disponíveis e a água mais fria.",
             "Nelson está regularmente entre os sítios mais soalheiros da Nova Zelândia, por isso, mesmo fora do verão, as probabilidades de bom tempo aqui são melhores do que na maior parte da South Island."
           ],
           "tips": [
