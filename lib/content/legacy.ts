@@ -30,7 +30,7 @@ export const legacyOnlyArticles: Article[] = [
         rows: [
           ["KiwiCamping", "DOC sites, huts and trip planning", "Free; Pass NZ$3.99 to NZ$12.99", "iPhone (iOS 26+)", "3.8 (4)", "Place details yes, map tiles no"],
           ["Rankers Camping NZ", "Traveller reviews", "Free", "iPhone, iPad, Android, web", "4.7 (3,322)", "Campsite info built in; maps by Wi-Fi download"],
-          ["CamperMate", "Booking, deals, NZ and Australia", "Free; ads on Android", "iPhone, iPad, Android, web", "4.4 (606)", "Downloadable maps and info"],
+          ["CamperMate", "Booking, deals, NZ and Australia", "Free; contains ads", "iPhone, iPad, Android, web", "4.4 (606)", "Downloadable maps and info"],
           ["WikiCamps New Zealand", "Most NZ sites listed", "NZ$7.99 upfront (iPhone)", "iPhone, iPad, Android", "4.5 (137)", "Offline Mode for sites and trips"],
           ["Campable", "Private land stays", "Free app; hosts set nightly prices", "iPhone, Android", "4.5 (13)", "Not stated"],
           ["NZMCA App", "NZMCA members", "Free app; membership NZ$150 to join plus NZ$102 a year", "iPhone, iPad, Android", "No ratings yet", "Not stated"],
@@ -50,9 +50,9 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Best for: reading other travellers' experience", "Free to download and use", "iPhone, iPad, Android and web"]),
       s("3. CamperMate: best for booking and deals across New Zealand and Australia", [
         "CamperMate covers both sides of the Tasman in one free app from Outdoria. It has a filter for free and paid places, traveller reviews and photos, saved lists, campground booking with availability, local deals and links to vehicle hire partners. Version 5.8, released in mid-October 2026, added a satellite view, and its listing says maps and place information can be downloaded for use without signal.",
-        "It held a 4.4 average from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play when we checked, and it is available in 27 languages. The app is free, and the Android version carries ads.",
-        "Strengths: one app for a trip that crosses to Australia, and the booking and deals side earns its place on a holiday-park-heavy route. Drawbacks: commercial listings and deals share the map with free sites, so it can be busy when you only want one thing, and the Android version shows ads.",
-      ], ["Best for: bookings and deals, NZ and Australia", "Free; ads on Android", "Maps and info download for use offline"]),
+        "It held a 4.4 average from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play when we checked, and it is available in 27 languages. The app is free and carries ads.",
+        "Strengths: one app for a trip that crosses to Australia, and the booking and deals side earns its place on a holiday-park-heavy route. Drawbacks: commercial listings and deals share the map with free sites, so it can be busy when you only want one thing, and the app shows ads.",
+      ], ["Best for: bookings and deals, NZ and Australia", "Free; contains ads", "Maps and info download for use offline"]),
       s("4. WikiCamps New Zealand: best for the largest user-built database", [
         "WikiCamps New Zealand is a separate app from WikiCamps Australia, and it costs NZ$7.99 once on the App Store rather than a subscription. Its developer describes more than 12,000 New Zealand sites, community reviews and photos, more than 1,000 bookable sites and a trip planner that estimates fuel spend. An Offline Mode keeps sites and trip plans available without signal.",
         "It rated 4.5 from 137 ratings on the New Zealand App Store and 3.0 from 1,042 on Google Play. It runs on iPhone, iPad and Android.",

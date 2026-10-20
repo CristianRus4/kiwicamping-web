@@ -31,9 +31,9 @@ export const listicleArticles: Article[] = [
         rows: [
           ["Rankers Camping NZ", "You want reviews (the baseline)", "Free", "iPhone, iPad, Android, web", "4.7 (3,322)"],
           ["KiwiCamping", "You are planning a dated route with DOC huts and tracks", "Free; Pass NZ$3.99 to NZ$12.99", "iPhone (iOS 26+)", "3.8 (4)"],
-          ["CamperMate", "Your trip continues to Australia", "Free; ads on Android", "iPhone, iPad, Android, web", "4.4 (606)"],
+          ["CamperMate", "Your trip continues to Australia", "Free; contains ads", "iPhone, iPad, Android, web", "4.4 (606)"],
           ["WikiCamps New Zealand", "You want the most sites listed", "NZ$7.99 upfront (iPhone)", "iPhone, iPad, Android", "4.5 (137)"],
-          ["thl Roadtrip", "You want a simple free nearby view", "Free", "iPhone, Android", "4.7 (122)"],
+          ["thl Roadtrip", "You want a simple free nearby view", "Free", "iPhone, Android", "4.6 (122)"],
           ["Campable", "You want to book a night on private land", "Free app; hosts set prices", "iPhone, Android", "4.5 (13)"],
         ],
       }),
@@ -48,14 +48,14 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: DOC huts, tracks and a dated plan", "Keep Rankers for reviews", "iPhone only, iOS 26 or later"], undefined, true),
       s("2. CamperMate: best if the trip crosses the Tasman", [
         "CamperMate covers New Zealand and Australia in one free app, in 27 languages, with a filter for free and paid places, traveller reviews and photos, campground booking with availability, local deals and links to vehicle hire. Its listing says maps and place information download for use without signal, and version 5.8 added a satellite view in mid-October 2026.",
-        "It rated 4.4 from 606 New Zealand ratings and 4.0 from 12,568 on Google Play. Recent reviews are mixed: several from late 2025 and 2026 dislike a redesign of the app, and the Android version shows ads. If you only travel in New Zealand and value reviews most, Rankers remains the stronger choice of the two.",
-      ], ["Choose it for: one app for NZ and Australia", "Free; ads on Android", "Recent reviews are mixed"]),
+        "It rated 4.4 from 606 New Zealand ratings and 4.0 from 12,568 on Google Play. Recent reviews are mixed: several from late 2025 and 2026 dislike a redesign of the app, and the app carries ads. If you only travel in New Zealand and value reviews most, Rankers remains the stronger choice of the two.",
+      ], ["Choose it for: one app for NZ and Australia", "Free; contains ads", "Recent reviews are mixed"]),
       s("3. WikiCamps New Zealand: best for the most sites listed", [
         "WikiCamps New Zealand describes more than 12,000 New Zealand sites contributed by its users, with reviews, photos, a trip planner that estimates fuel spend and an Offline Mode for sites and trips. It costs NZ$7.99 once on the App Store, with no subscription.",
         "The trade-off against Rankers is curation. Rankers lists only community-approved overnight spots; WikiCamps lists far more, added and kept up to date by its users, so you check more of them yourself. It rated 4.5 from 137 on the New Zealand App Store and 3.0 from 1,042 on Google Play.",
       ], ["Choose it for: maximum coverage, paid once", "NZ$7.99 upfront on iPhone", "Check user-added sites"]),
       s("4. thl Roadtrip: best for a simple, free view of what is nearby", [
-        "thl Roadtrip is a free app from Tourism Holdings that uses your location to show nearby campsites, holiday parks, petrol stations and dump stations in New Zealand and Australia. It rated 4.7 from 122 ratings on the New Zealand App Store.",
+        "thl Roadtrip is a free app from Tourism Holdings that uses your location to show nearby campsites, holiday parks, petrol stations and dump stations in New Zealand and Australia. It rated 4.6 from 122 ratings on the New Zealand App Store.",
         "It suits a traveller who wants to glance at what is around them at the end of a driving day rather than research sites in depth. It has a much smaller review base than Rankers, so it works best as a quick finder alongside a richer app.",
       ], ["Choose it for: quick nearby searches", "Free", "Covers NZ and Australia"]),
       s("5. Campable: best for a booked night on private land", [
@@ -93,7 +93,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "A small tent pitched beside Iron Lake in Kahurangi National Park",
     related: ["best-nz-camping-apps", "rankers-alternatives", "freedom-camping-rules-new-zealand"],
     intro:
-      "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and ads in the Android version. We checked the apps worth switching to on 20 October 2026. KiwiCamping is ours, so read its place at the top with that in mind: we set out the reasons, and the trips where one of the others is the better swap.",
+      "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and the ads in the app. We checked the apps worth switching to on 20 October 2026. KiwiCamping is ours, so read its place at the top with that in mind: we set out the reasons, and the trips where one of the others is the better swap.",
     sections: [
       s("CamperMate alternatives at a glance", [
         "For a New Zealand-only trip, the strongest pairing is Rankers for reviews and KiwiCamping for DOC campsites, huts and planning the route. If you need Australia too, thl Roadtrip and WikiCamps (which sells separate New Zealand and Australia apps) are the closest like-for-like swaps. Members of the New Zealand Motor Caravan Association should add the NZMCA App whatever else they use.",
@@ -102,11 +102,11 @@ export const listicleArticles: Article[] = [
         caption: "Checked 20 October 2026 on the New Zealand App Store and each developer's site. Ratings are New Zealand App Store averages with the number of ratings.",
         head: ["App", "Switch to it for", "Price", "Ads", "NZ rating"],
         rows: [
-          ["CamperMate", "Booking and deals, NZ and Australia (the baseline)", "Free", "On Android", "4.4 (606)"],
+          ["CamperMate", "Booking and deals, NZ and Australia (the baseline)", "Free", "Yes", "4.4 (606)"],
           ["KiwiCamping", "DOC campsites, huts and a dated route plan", "Free; Pass NZ$3.99 to NZ$12.99", "None", "3.8 (4)"],
           ["Rankers Camping NZ", "The most NZ App Store ratings here", "Free", "Not shown on Google Play", "4.7 (3,322)"],
           ["WikiCamps New Zealand", "The most NZ sites published, paid once", "NZ$7.99 upfront (iPhone)", "On Android", "4.5 (137)"],
-          ["thl Roadtrip", "A simple nearby finder, NZ and Australia", "Free", "Not stated", "4.7 (122)"],
+          ["thl Roadtrip", "A simple nearby finder, NZ and Australia", "Free", "Not stated", "4.6 (122)"],
           ["NZMCA App", "NZMCA members and member parks", "Membership NZ$150 to join plus NZ$102 a year", "Not stated", "No ratings yet"],
         ],
       }),
@@ -128,7 +128,7 @@ export const listicleArticles: Article[] = [
         "Coverage comes from users, so check anything legally important against the council or DOC. On the New Zealand App Store it averaged 4.5 from 137 ratings, against 3.0 from 1,042 on Google Play.",
       ], ["Switch for: the most sites listed", "NZ$7.99 once on iPhone", "Separate NZ and Australia apps"]),
       s("4. thl Roadtrip: best like-for-like free swap for two countries", [
-        "thl Roadtrip, from Tourism Holdings, shows campsites, holiday parks, petrol stations and dump stations near you in New Zealand and Australia, free. Its New Zealand App Store average was 4.7 across 122 ratings.",
+        "thl Roadtrip, from Tourism Holdings, shows campsites, holiday parks, petrol stations and dump stations near you in New Zealand and Australia, free. Its New Zealand App Store average was 4.6 across 122 ratings.",
         "It is simpler than CamperMate, with a much smaller review base and no deals marketplace described in its listing. That simplicity is the point for travellers who found the redesign cluttered.",
       ], ["Switch for: a simple two-country finder", "Free", "Smaller review base"]),
       s("5. NZMCA App: best for members of the motor caravan association", [
@@ -252,7 +252,7 @@ export const listicleArticles: Article[] = [
         head: ["App", "How it shows free nights", "App price", "NZ rating"],
         rows: [
           ["Rankers Camping NZ", "Community-approved free and freedom spots, with reviews", "Free", "4.7 (3,322)"],
-          ["CamperMate", "Free or paid filter; freedom spots beside campsites", "Free; ads on Android", "4.4 (606)"],
+          ["CamperMate", "Free or paid filter; freedom spots beside campsites", "Free; contains ads", "4.4 (606)"],
           ["WikiCamps New Zealand", "Free campgrounds filter on user-added sites", "NZ$7.99 upfront (iPhone)", "4.5 (137)"],
           ["KiwiCamping", "DOC campsites DOC lists with no fee", "Free; Pass NZ$3.99 to NZ$12.99 needed for DOC places", "3.8 (4)"],
           ["NZMCA App", "Member parks at NZ$5 per adult a night", "Free app; membership NZ$150 plus NZ$102 a year", "No ratings yet"],
@@ -268,8 +268,8 @@ export const listicleArticles: Article[] = [
       ], ["Best for: free spots with reviews", "Free", "Confirm self-contained rules locally"]),
       s("2. CamperMate: best for free and paid sites side by side", [
         "CamperMate shows freedom camping spots alongside campsites and lets you filter by free or paid, across New Zealand and Australia. Its listing does not mention a self-contained filter, and one reviewer in January 2026 said the option seemed to have gone after the late-2025 redesign, so read each place's description for its self-contained requirement.",
-        "It is free, with ads in the Android version, and rated 4.4 from 606 New Zealand App Store ratings. Its maps and place information download for use without signal.",
-      ], ["Best for: comparing free and paid nearby", "Free; ads on Android", "Read each place for self-contained rules"]),
+        "It is free, with ads, and rated 4.4 from 606 New Zealand App Store ratings. Its maps and place information download for use without signal.",
+      ], ["Best for: comparing free and paid nearby", "Free; contains ads", "Read each place for self-contained rules"]),
       s("3. WikiCamps New Zealand: best for the widest choice of sites", [
         "WikiCamps' site lists filters for free campgrounds, bookable sites, pet-friendly sites, water and dump points, and its users have added more than 12,000 New Zealand sites. It costs NZ$7.99 once on the App Store and rated 4.5 from 137 New Zealand ratings.",
         "Because its users add the sites, a free spot in WikiCamps is a traveller's report rather than a council decision. Treat it as a lead and confirm it against the bylaw or the sign.",
@@ -402,7 +402,7 @@ export const listicleArticles: Article[] = [
     category: "App guides",
     region: "New Zealand",
     places: ["DOC campsites", "DOC huts", "Private land stays", "4WD tracks", "Australia"],
-    imageAlt: "A house bus, cars and a small tent at Cameron Flat campsite below the forested peaks of Mount Aspiring National Park at dawn",
+    imageAlt: "A house bus, cars and a small tent at Cameron Flat campsite below the forested peaks of Mount Aspiring National Park",
     related: ["best-nz-camping-apps", "rankers-alternatives", "campermate-alternatives"],
     intro:
       "WikiCamps New Zealand is a paid app with a loyal following: NZ$7.99 once on the New Zealand App Store, 4.5 stars from 137 New Zealand ratings when we checked on 20 October 2026, and more than 12,000 New Zealand sites that its own users have added. Most people who search for an alternative are not unhappy with it so much as unsure: whether to pay for an app when free ones exist, whether user-added listings are current, or whether they will need a second copy for Australia. KiwiCamping is our app, so it comes first below, but each entry says plainly what it does better than WikiCamps and when WikiCamps is still the better buy.",
@@ -417,17 +417,17 @@ export const listicleArticles: Article[] = [
           ["WikiCamps New Zealand", "You want the most user-added sites (the baseline)", "NZ$7.99 once (iPhone)", "iPhone, iPad, Android", "4.5 (137)"],
           ["KiwiCamping", "Your nights are DOC campsites and huts", "Free; Pass NZ$3.99 to NZ$12.99", "iPhone (iOS 26+)", "3.8 (4)"],
           ["Rankers Camping NZ", "You want a free app with checked sites", "Free", "iPhone, iPad, Android, web", "4.7 (3,322)"],
-          ["CamperMate", "You want free and the trip includes Australia", "Free; ads on Android", "iPhone, iPad, Android, web", "4.4 (606)"],
+          ["CamperMate", "You want free and the trip includes Australia", "Free; contains ads", "iPhone, iPad, Android, web", "4.4 (606)"],
           ["Campable", "You want a booked night on private land", "Free app; hosts set prices", "iPhone, Android", "4.5 (13)"],
           ["Overland Navigator", "You are driving gravel and 4WD routes", "Free; All Access NZ$7.99 a month", "iPhone, iPad", "4.5 (31)"],
         ],
       }),
       s("What pushes people away from WikiCamps", [
-        "WikiCamps gets few New Zealand App Store reviews, so its latest 50 there stretch back to January 2020, and only 13 of them were written in 2024 or later. Forty-one gave four or five stars; the most common praise, seven reviews each, was for the trip planner and for listing more places than free apps. The complaints: six described filters or data breaking after an update, five said site details, fees or locations were out of date or wrong, and two said the app froze or would not open the trip planner.",
+        "WikiCamps gets few New Zealand App Store reviews, so its latest 50 there stretch back to January 2020, and only 13 of them were written in 2024 or later. Forty-one gave four or five stars; the most common praise, seven reviews each, was for the trip planner and for listing more places than free apps. The complaints: six described filters or data breaking after an update, five of them in 2023 (the current version, 6.3.0, came out on 19 October 2026), five said site details, fees or locations were out of date or wrong, and two said the app froze or would not open the trip planner.",
         "Two practical points also come up. WikiCamps sells New Zealand and Australia as separate apps, so a trip across the Tasman means a second purchase: WikiCamps Australia costs NZ$11.99 on the New Zealand App Store. And on Android its Google Play listing rates 3.0 from 1,042 ratings and shows in-app purchase and ads labels, although its description calls it a one-time purchase.",
       ]),
       s("1. KiwiCamping: best for DOC campsites and huts with DOC's own details", [
-        "KiwiCamping starts from the Department of Conservation's data rather than from user submissions. In its August 2026 data it held 287 DOC campsites and 927 DOC huts, with the adult fees, dog rules and booking requirements that DOC lists, and a link to DOC's own page for the place. Where WikiCamps relies on its users to update a fee, KiwiCamping shows what DOC publishes.",
+        "In its August 2026 data, KiwiCamping's 287 DOC campsites, 927 DOC huts and 1,453 DOC tracks come from the Department of Conservation's data, with the adult fees, dog rules and booking requirements that DOC lists, and a link to DOC's own page for the place. For DOC places, KiwiCamping shows what DOC publishes.",
         "Saved places become a trip with ordered stops, dates, notes and the route distance, and filters for cost, facilities and dogs can be combined in one search. Place details stay on the phone when you lose signal; map tiles, routing, weather and photos do not.",
         "The limits: the free version opens only BookIt stays and tours, and DOC places, collections, trips and the guides need the KiwiCamping Pass, listed from NZ$3.99 to NZ$12.99. It runs on iPhone only (iOS 26 or later), it has 4 New Zealand ratings (3.8) and no traveller reviews, and it lists far fewer places in total than WikiCamps' 12,000-plus.",
       ], ["Choose it for: DOC campsites, huts and a dated plan", "Pass needed for DOC places and trips", "iPhone only, iOS 26 or later"], undefined, true),
@@ -437,8 +437,8 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: free, checked campsites", "108,000-plus checked reviews", "iPhone, Android and web"]),
       s("3. CamperMate: best free option when Australia is on the plan", [
         "CamperMate covers New Zealand and Australia in a single free app, so the second WikiCamps purchase disappears. It filters free and paid sites, shows toilets, dump stations and Wi-Fi spots, books campgrounds with availability, and downloads maps and place information for use without signal; version 5.8 added a satellite view in October 2026.",
-        "It rated 4.4 from 606 New Zealand ratings and 4.0 from 12,568 on Google Play, where it shows ads. Several recent App Store reviewers dislike its latest redesign, so try it before a long trip rather than on the first night.",
-      ], ["Choose it for: one free app for two countries", "Ads on Android", "Download maps before you go"]),
+        "It rated 4.4 from 606 New Zealand ratings and 4.0 from 12,568 on Google Play, and it carries ads. Of the 16 CamperMate reviews from 2025 or 2026 among the 50 most recent on the New Zealand App Store, seven blamed its latest redesign, so try it before a long trip rather than on the first night.",
+      ], ["Choose it for: one free app for two countries", "Contains ads", "Download maps before you go"]),
       s("4. Campable: best for a quiet booked night on private land", [
         "Campable lists hundreds of private sites, from farms and vineyards to sports clubs, that hosts open to campervans and motorhomes. You book and pay in the app, and you can filter for sites that accept vehicles that are not self-contained. It rated 4.5 from 13 New Zealand ratings.",
         "It does a different job from WikiCamps: a few hundred guaranteed nights instead of a national directory. Use it for the nights you want settled in advance, such as a long weekend in a busy region.",
@@ -477,13 +477,13 @@ export const listicleArticles: Article[] = [
     category: "App guides",
     region: "New Zealand",
     places: ["Campervan hire", "Relocations", "DOC campsites", "NZMCA Parks", "Green warrants"],
-    imageAlt: "An older campervan parked on the shore of Lake Wakatipu with two camp chairs and a table by the water",
+    imageAlt: "An older campervan parked on a lake shore with two camp chairs and a table by the water",
     related: ["best-nz-camping-apps", "self-contained-campervan-green-warrant", "campervan-budget-new-zealand"],
     intro:
       "A campervan trip in New Zealand uses apps at three stages: getting the van, living in it, and sometimes moving it for a hire company in exchange for a cheap week. No single app covers all three, and the most useful ones depend on who you hire from. These are the ones we would install for a campervan trip in 2026, with ratings and prices from the New Zealand App Store checked on 20 October 2026. We built KiwiCamping, which is why it is listed first, and each section says when another app does the job better.",
     sections: [
       s("The best campervan apps at a glance", [
-        "For planning the nights, KiwiCamping puts DOC campsites, huts and a dated route in one place. If your van comes from Maui, Britz, Mighty or Apollo, install thl Roadtrip, which those brands point their hirers to; Travellers Autobarn points to CamperMate instead. Rankers adds traveller reviews of where to park up, Camplify rents privately owned vans, Imoova lists relocation deals and the NZMCA App is for members who own their motorhome.",
+        "For planning the nights, KiwiCamping puts DOC campsites, huts and a dated route in one place. If your van comes from Maui, Britz, Mighty or Apollo, install thl Roadtrip, which those brands point their hirers to; Travellers Autobarn points to CamperMate instead. Rankers adds traveller reviews of where to park up, Camplify rents privately owned vans, Imoova lists relocation deals and the NZMCA App is for members of the New Zealand Motor Caravan Association.",
         "The rule that no app settles for you is self-containment. Since 7 June 2026 only a green warrant counts for freedom camping on public land, so ask the hire company before you book whether the van has one.",
       ], undefined, {
         caption: "Checked 20 October 2026 on the New Zealand App Store and each company's site. Ratings are New Zealand App Store averages with the number of ratings.",
@@ -491,11 +491,11 @@ export const listicleArticles: Article[] = [
         rows: [
           ["KiwiCamping", "Planning nights and the route", "Free; Pass NZ$3.99 to NZ$12.99", "3.8 (4)"],
           ["thl Roadtrip", "Hire from Maui, Britz, Mighty or Apollo", "Free", "4.6 (122)"],
-          ["CamperMate", "On the road, NZ and Australia", "Free; ads on Android", "4.4 (606)"],
+          ["CamperMate", "On the road, NZ and Australia", "Free; contains ads", "4.4 (606)"],
           ["Rankers Camping NZ", "Reviews of where to stay", "Free", "4.7 (3,322)"],
           ["Camplify", "Hire a privately owned van", "Free app; owners set rates", "4.8 (23)"],
           ["Imoova", "Relocation deals", "Free app; deals from $1 a day", "5.0 (1)"],
-          ["NZMCA App", "Owners who are NZMCA members", "Membership NZ$252 in the first year", "No NZ ratings yet"],
+          ["NZMCA App", "NZMCA members on long trips", "Membership NZ$252 in the first year", "No NZ ratings yet"],
         ],
       }),
       s("1. KiwiCamping: best for planning where the van sleeps each night", [
@@ -509,12 +509,12 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: thl hire vans", "Vehicle how-to videos", "Free, NZ and Australia"]),
       s("3. CamperMate: best free companion if you hire from Travellers Autobarn", [
         "CamperMate is the app Travellers Autobarn gives its hirers, and Spaceships merged its own app into CamperMate in 2023. It is free, covers New Zealand and Australia, shows campsites, toilets, dump stations and Wi-Fi spots, books campgrounds, and downloads maps and place information for use without signal. CamperMate describes itself as an official travel partner of Apollo, Maui, Britz and Mighty too.",
-        "Its New Zealand App Store average was 4.4 across 606 ratings; on Google Play, where the app carries ads, it averaged 4.0 across 12,568. Some recent reviewers dislike its redesign.",
-      ], ["Choose it for: a free all-rounder", "Downloadable maps", "Ads on Android"]),
+        "Its New Zealand App Store average was 4.4 across 606 ratings; on Google Play it averaged 4.0 across 12,568, and the app carries ads. Some recent reviewers dislike its redesign.",
+      ], ["Choose it for: a free all-rounder", "Downloadable maps", "Contains ads"]),
       s("4. Rankers Camping NZ: best for reviews of where to park up", [
         "Rankers is free and lists more than 1,500 campsites among 6,600-plus places, including dump stations, water and LPG, with more than 108,000 traveller reviews read by its team. It shows only overnight spots the local community has approved, which suits a van driver choosing between a free site and a holiday park at the end of the day.",
-        "It rated 4.7 from 3,322 New Zealand ratings. Its campsite information is built into the app, and detailed maps download over Wi-Fi.",
-      ], ["Choose it for: traveller reviews", "Free", "Downloads maps over Wi-Fi"]),
+        "It rated 4.7 from 3,322 New Zealand ratings. Its campsite information is built into the app, and detailed maps download over Wi-Fi, so get them before you leave town. The limit is the other side of its checks: it lists only spots the community has approved, so it shows far fewer places than the 12,000-plus user-added sites in WikiCamps New Zealand.",
+      ], ["Choose it for: traveller reviews", "Free", "Fewer places than WikiCamps"]),
       s("5. Camplify: best for hiring a privately owned campervan", [
         "Camplify is a sharing platform where owners rent out their own campervans and motorhomes. You search, book and manage the hire in the app and message the owner directly. Its New Zealand site says daily rates start from $85, with damage protection and 24/7 roadside assistance included.",
         "It rated 4.8 from 23 New Zealand ratings. Each van and its rules differ by owner, so check the self-containment warrant, insurance excess and kilometre limits on the listing before you book.",
@@ -523,10 +523,10 @@ export const listicleArticles: Article[] = [
         "Hire companies need vans moved back to where demand is, and relocation sites let you drive them for very little. Imoova advertises relocations from $1 a day and showed 91 New Zealand listings on 20 October 2026. It says fuel, tolls and parking are not covered, that some suppliers add incentives such as fuel or ferry tickets for urgent moves, and that you have a limited number of days to finish the journey.",
         "Hire companies also advertise their own relocations: Travellers Autobarn listed seven free days from Christchurch to Auckland in November with 1,500 km allowed, a $3,500 bond and a $200 cancellation fee. The Imoova app is free but had only 1 New Zealand rating, so read each listing's bond, kilometre cap and dates carefully.",
       ], ["Choose it for: cheap one-way trips", "Fuel usually not included", "Fixed dates and bonds apply"]),
-      s("7. NZMCA App: best if you own a self-contained motorhome", [
+      s("7. NZMCA App: best for NZMCA members on long trips", [
         "The New Zealand Motor Caravan Association's app opens its Travel Directory to members only. Joining costs NZ$252 in the first year (a NZ$150 joining fee and a NZ$102 annual subscription), and members can stay at NZMCA Parks for NZ$5 per adult per night.",
-        "The iPhone app had no New Zealand ratings yet and the Android version rated 3.2 from 156 on Google Play. It is aimed at owners, so weigh the membership fee against how many nights you expect to spend in its parks.",
-      ], ["Choose it for: owners and long trips", "Members only", "NZMCA Parks at NZ$5 per adult"]),
+        "The iPhone app had no New Zealand ratings yet and the Android version rated 3.2 from 156 on Google Play. You do not need to own a motorhome to join, but any vehicle you use must be certified self-contained, so weigh the membership fee against how many nights you expect to spend in its parks.",
+      ], ["Choose it for: NZMCA members on long trips", "Members only", "NZMCA Parks at NZ$5 per adult"]),
       s("Green warrants: the check no app makes for you", [
         "From 7 June 2026, blue self-containment warrants are no longer recognised for freedom camping, and the Plumbers, Gasfitters and Drainlayers Board says freedom camping on public land without a green warrant can bring a $400 infringement notice. A certified vehicle needs a toilet permanently fixed and usable inside it, along with fresh water, a sink, wastewater and rubbish storage.",
         "The rules apply to freedom camping on public land, not to campgrounds, holiday parks or private property. An app's freedom-camping pin does not tell you whether your van qualifies, so look for the green warrant card when you collect the van.",
@@ -551,6 +551,7 @@ export const listicleArticles: Article[] = [
       { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
       { label: "Self-contained vehicles (Plumbers, Gasfitters and Drainlayers Board)", url: "https://www.pgdb.co.nz/self_contained_vehicles/scv_updates/" },
       { label: "Road user charges (govt.nz)", url: "https://www.govt.nz/browse/transport/keeping-a-vehicle-on-the-road/vehicle-licensing-and-road-user-charges/" },
+      { label: "Spaceships: road user charges", url: "https://faq.spaceshipsrentals.co.nz/content/what-are-road-user-charges-ruc-which-vehicle-s-does-it-apply-to" },
     ],
   }),
 ];

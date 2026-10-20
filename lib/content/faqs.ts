@@ -210,7 +210,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the best alternative to Rankers?", "For planning a dated route with DOC huts and tracks we recommend KiwiCamping, which we make, used alongside Rankers for reviews. CamperMate suits trips that continue to Australia, and WikiCamps New Zealand publishes the biggest count of New Zealand sites for a one-off NZ$7.99."],
   ],
   "campermate-alternatives": [
-    ["Is there a CamperMate alternative without ads?", "KiwiCamping has no ads, and Rankers' Google Play listing shows no ads label; CamperMate's Android version shows ads. KiwiCamping's DOC places, collections and trips need its paid Pass, while Rankers is free."],
+    ["Is there a CamperMate alternative without ads?", "KiwiCamping has no ads, and Rankers' Google Play listing shows no ads label; CamperMate carries ads. KiwiCamping's DOC places, collections and trips need its paid Pass, while Rankers is free."],
     ["What can I use instead of CamperMate for New Zealand and Australia?", "thl Roadtrip covers campsites, holiday parks, petrol and dump stations in both countries for free. WikiCamps sells separate New Zealand and Australia apps, each paid once."],
   ],
   "road-trip-planner-apps-new-zealand": [

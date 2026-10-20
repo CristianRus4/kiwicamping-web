@@ -5,13 +5,35 @@ import { routesFor } from "@/lib/routes";
 
 export const defaultHreflang = englishLocale.hreflang[0];
 
+/** Arial advance widths per 1000 em for the characters titles use; Google sets result titles in Arial at about 20px. */
+const arialWidths: Record<string, number> = {
+  " ": 278, "!": 278, "\"": 355, "#": 556, "$": 556, "%": 889, "&": 667, "'": 191, "(": 333, ")": 333, "*": 389, "+": 584,
+  ",": 278, "-": 333, ".": 278, "/": 278, ":": 278, ";": 278, "?": 556, "|": 260, "–": 556, "—": 1000, "’": 222, "‘": 222, "“": 333, "”": 333,
+  a: 556, b: 556, c: 500, d: 556, e: 556, f: 278, g: 556, h: 556, i: 222, j: 222, k: 500, l: 222, m: 833, n: 556, o: 556, p: 556,
+  q: 556, r: 333, s: 500, t: 278, u: 556, v: 500, w: 722, x: 500, y: 500, z: 500,
+  A: 667, B: 667, C: 722, D: 722, E: 667, F: 611, G: 778, H: 722, I: 278, J: 500, K: 667, L: 556, M: 833, N: 722, O: 778, P: 667,
+  Q: 778, R: 722, S: 667, T: 611, U: 722, V: 667, W: 944, X: 667, Y: 667, Z: 611,
+};
+/** Estimated width in pixels of a search result title (Arial, 20px). Digits are 556; accented letters use their base letter; CJK is a full em. */
+export function titleWidthPx(text: string): number {
+  let units = 0;
+  for (const char of text) {
+    const base = char.normalize("NFD")[0];
+    units += arialWidths[char] ?? arialWidths[base] ?? (/\d/u.test(char) ? 556 : /[\u3000-\u9fff\uac00-\ud7af\uff00-\uffef]/u.test(char) ? 1000 : 556);
+  }
+  return (units * 20) / 1000;
+}
+/** Desktop results show about 600px of title before cutting it off. */
+export const titleWidthLimitPx = 600;
+
 /**
  * A guide's <title>. The layout appends " | KiwiCamping", but guide titles lead with the search
- * query and most already run near 60 characters, where results truncate. Past 60 with the suffix,
- * a title drops the brand rather than the words people searched for.
+ * query, and when the title plus the suffix would be cut off in results, the brand goes rather than
+ * the words people searched for. Measured in estimated pixels, not characters, so a title that
+ * would show in full keeps the brand.
  */
 export function guideTitle(title: string): string | { absolute: string } {
-  return title.length + " | KiwiCamping".length <= 60 ? title : { absolute: title };
+  return titleWidthPx(`${title} | KiwiCamping`) <= titleWidthLimitPx ? title : { absolute: title };
 }
 export const defaultOgLocale = englishLocale.og;
 /** The Open Graph locale of a language edition. */

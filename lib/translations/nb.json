@@ -1855,6 +1855,9 @@
       "sources": [
         {
           "label": "DOC: vilkår for bestilling av overnatting"
+        },
+        {
+          "label": "DOC: Campsite Pass"
         }
       ],
       "priceTable": null
@@ -2265,7 +2268,7 @@
               [
                 "CamperMate",
                 "Turen fortsetter til Australia",
-                "Gratis; annonser på Android",
+                "Gratis; med annonser",
                 "iPhone, iPad, Android, nett",
                 "4,4 (606)"
               ],
@@ -2281,7 +2284,7 @@
                 "Du vil ha en enkel, gratis oversikt over nærområdet",
                 "Gratis",
                 "iPhone, Android",
-                "4,7 (122)"
+                "4,6 (122)"
               ],
               [
                 "Campable",
@@ -2318,11 +2321,11 @@
           "heading": "2. CamperMate: best hvis turen krysser Tasmanhavet",
           "body": [
             "CamperMate dekker New Zealand og Australia i én gratis app, på 27 språk, med filter for gratis og betalte steder, anmeldelser og bilder fra reisende, bestilling av campingplass der du ser hva som er ledig, lokale tilbud og lenker til utleie av kjøretøy. Ifølge oppføringen kan kart og stedsinformasjon lastes ned og brukes uten dekning, og versjon 5.8 la til en satellittvisning midt i oktober 2026.",
-            "Appen fikk 4,4 fra 606 vurderinger på New Zealand og 4,0 fra 12 568 på Google Play. De nyeste anmeldelsene er blandede: flere fra slutten av 2025 og 2026 misliker det nye designet i appen, og Android-versjonen viser annonser. Reiser du bare på New Zealand og legger mest vekt på anmeldelser, er Rankers fortsatt det sterkeste valget av de to."
+            "Appen fikk 4,4 fra 606 vurderinger på New Zealand og 4,0 fra 12 568 på Google Play. De nyeste anmeldelsene er blandede: flere fra slutten av 2025 og 2026 misliker det nye designet i appen, og appen viser annonser. Reiser du bare på New Zealand og legger mest vekt på anmeldelser, er Rankers fortsatt det sterkeste valget av de to."
           ],
           "tips": [
             "Velg den for: én app for NZ og Australia",
-            "Gratis; annonser på Android",
+            "Gratis; med annonser",
             "De nyeste anmeldelsene er blandede"
           ]
         },
@@ -2341,7 +2344,7 @@
         {
           "heading": "4. thl Roadtrip: best for en enkel, gratis oversikt over det som er i nærheten",
           "body": [
-            "thl Roadtrip er en gratis app fra Tourism Holdings som bruker posisjonen din til å vise campingplasser, <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a>, bensinstasjoner og tømmestasjoner i nærheten, på New Zealand og i Australia. Appen fikk 4,7 fra 122 vurderinger i App Store på New Zealand.",
+            "thl Roadtrip er en gratis app fra Tourism Holdings som bruker posisjonen din til å vise campingplasser, <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a>, bensinstasjoner og tømmestasjoner i nærheten, på New Zealand og i Australia. Appen fikk 4,6 fra 122 vurderinger i App Store på New Zealand.",
             "Den passer for deg som vil ta en rask titt på hva som finnes rundt deg etter en <a data-guide=\"new-zealand-driving-day-planner\">kjøredag</a>, i stedet for å undersøke steder grundig. Den har langt færre anmeldelser enn Rankers, så den fungerer best til raske oppslag ved siden av en mer omfattende app."
           ],
           "tips": [
@@ -2416,7 +2419,7 @@
       "description": "Misfornøyd med det nye designet eller annonsene i CamperMate? KiwiCamping, Rankers, WikiCamps, thl Roadtrip og NZMCA-appen sammenlignet for turer på New Zealand. Sjekket i oktober 2026.",
       "region": "New Zealand",
       "imageAlt": "Et lite telt slått opp ved Iron Lake i Kahurangi National Park",
-      "intro": "CamperMate har i mange år vært en selvfølgelig nedlasting for bobilreisende på New Zealand og i Australia. Appen er fortsatt gratis, oversatt til 27 språk og kan laste ned kartene for bruk uten dekning. Søkene etter et alternativ har en fersk årsak: et nytt design som flere anmeldere i App Store på New Zealand har vært misfornøyd med siden slutten av 2025, og annonser i Android-versjonen. Vi sjekket appene det er verdt å bytte til 20. oktober 2026. KiwiCamping er vår egen app, så ha det i bakhodet når du ser at den står øverst: vi forklarer hvorfor, og sier hvilke turer en av de andre passer bedre for.",
+      "intro": "CamperMate har i mange år vært en selvfølgelig nedlasting for bobilreisende på New Zealand og i Australia. Appen er fortsatt gratis, oversatt til 27 språk og kan laste ned kartene for bruk uten dekning. Søkene etter et alternativ har en fersk årsak: et nytt design som flere anmeldere i App Store på New Zealand har vært misfornøyd med siden slutten av 2025, og annonsene i appen. Vi sjekket appene det er verdt å bytte til 20. oktober 2026. KiwiCamping er vår egen app, så ha det i bakhodet når du ser at den står øverst: vi forklarer hvorfor, og sier hvilke turer en av de andre passer bedre for.",
       "sections": [
         {
           "heading": "Alternativer til CamperMate: kort oversikt",
@@ -2439,7 +2442,7 @@
                 "CamperMate",
                 "Bestilling og tilbud, NZ og Australia (utgangspunktet)",
                 "Gratis",
-                "På Android",
+                "Ja",
                 "4,4 (606)"
               ],
               [
@@ -2468,7 +2471,7 @@
                 "Enkelt søk i nærheten, NZ og Australia",
                 "Gratis",
                 "Ikke oppgitt",
-                "4,7 (122)"
+                "4,6 (122)"
               ],
               [
                 "NZMCA-appen",
@@ -2528,7 +2531,7 @@
         {
           "heading": "4. thl Roadtrip: best gratis erstatning for begge land",
           "body": [
-            "thl Roadtrip, fra Tourism Holdings, viser campingplasser, <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a>, bensinstasjoner og tømmestasjoner i nærheten av deg på New Zealand og i Australia, gratis. Snittet i App Store på New Zealand var 4,7 fra 122 vurderinger.",
+            "thl Roadtrip, fra Tourism Holdings, viser campingplasser, <a data-guide=\"holiday-parks-new-zealand-guide\">ferieparker</a>, bensinstasjoner og tømmestasjoner i nærheten av deg på New Zealand og i Australia, gratis. Snittet i App Store på New Zealand var 4,6 fra 122 vurderinger.",
             "Den er enklere enn CamperMate, har langt færre anmeldelser, og oppføringen beskriver ingen markedsplass for tilbud. Nettopp det enkle er poenget for reisende som syntes det nye designet var rotete."
           ],
           "tips": [
@@ -2569,7 +2572,7 @@
       "faq": [
         [
           "Finnes det et alternativ til CamperMate uten annonser?",
-          "KiwiCamping har ingen annonser, og oppføringen til Rankers på Google Play viser ingen annonsemerking. Android-versjonen av CamperMate viser annonser. DOC-stedene, samlingene og turene i KiwiCamping krever betalt Pass, mens Rankers er gratis."
+          "KiwiCamping har ingen annonser, og oppføringen til Rankers på Google Play viser ingen annonsemerking. CamperMate viser annonser. DOC-stedene, samlingene og turene i KiwiCamping krever betalt Pass, mens Rankers er gratis."
         ],
         [
           "Hva kan jeg bruke i stedet for CamperMate på New Zealand og i Australia?",
@@ -2633,7 +2636,7 @@
               [
                 "CamperMate",
                 "Filter for gratis eller betalt; freedom camping-steder sammen med campingplasser",
-                "Gratis; annonser på Android",
+                "Gratis; med annonser",
                 "4,4 (606)"
               ],
               [
@@ -2685,11 +2688,11 @@
           "heading": "2. CamperMate: best for gratis og betalte steder side om side",
           "body": [
             "CamperMate viser <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-steder ved siden av campingplasser og lar deg filtrere på gratis eller betalt, både på New Zealand og i Australia. Oppføringen nevner ikke noe filter for selvforsynt, og en anmelder i januar 2026 sa at valget så ut til å ha forsvunnet med det nye designet på slutten av 2025, så les beskrivelsen av hvert sted for kravet om selvforsynt.",
-            "Appen er gratis, med annonser i Android-versjonen, og har 4,4 fra 606 vurderinger i App Store på New Zealand. Kart og stedsinformasjon kan lastes ned og brukes uten dekning."
+            "Appen er gratis, med annonser, og har 4,4 fra 606 vurderinger i App Store på New Zealand. Kart og stedsinformasjon kan lastes ned og brukes uten dekning."
           ],
           "tips": [
             "Best for: å sammenligne gratis og betalt i nærheten",
-            "Gratis; annonser på Android",
+            "Gratis; med annonser",
             "Sjekk kravet om selvforsynt for hvert sted"
           ]
         },

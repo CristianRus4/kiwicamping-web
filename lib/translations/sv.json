@@ -868,7 +868,7 @@
               [
                 "CamperMate",
                 "Bokning, erbjudanden, NZ och Australien",
-                "Gratis; annonser på Android",
+                "Gratis; med annonser",
                 "iPhone, iPad, Android, webben",
                 "4,4 (606)",
                 "Nedladdningsbara kartor och information"
@@ -939,12 +939,12 @@
           "heading": "3. CamperMate: bäst för bokning och erbjudanden i Nya Zeeland och Australien",
           "body": [
             "CamperMate täcker båda sidorna av Tasmanhavet i en och samma gratisapp från Outdoria. Den har ett filter för gratis och betalda platser, recensioner och foton från resenärer, sparade listor, bokning av campingplatser där du ser lediga platser, lokala erbjudanden och länkar till samarbetspartner som hyr ut fordon. Version 5.8, som kom i mitten av oktober 2026, lade till en satellitvy, och enligt appens egen beskrivning går kartor och platsinformation att ladda ner för användning utan täckning.",
-            "När vi kontrollerade hade den 4,4 i snitt baserat på 606 betyg i App Store för Nya Zeeland och 4,0 baserat på 12 568 betyg i Google Play, och den finns på 27 språk. Appen är gratis, och Android-versionen har annonser.",
-            "Styrkor: en app för en resa som även går till Australien, och bokningarna och erbjudandena gör nytta på en rutt med många holiday parks (större campingar med stugor, kök och ofta pool, ungefär som en svensk familjecamping). Nackdelar: kommersiella platser och erbjudanden delar kartan med gratisplatserna, så den kan kännas rörig när du bara letar efter en sak, och Android-versionen visar annonser."
+            "När vi kontrollerade hade den 4,4 i snitt baserat på 606 betyg i App Store för Nya Zeeland och 4,0 baserat på 12 568 betyg i Google Play, och den finns på 27 språk. Appen är gratis och har annonser.",
+            "Styrkor: en app för en resa som även går till Australien, och bokningarna och erbjudandena gör nytta på en rutt med många holiday parks (större campingar med stugor, kök och ofta pool, ungefär som en svensk familjecamping). Nackdelar: kommersiella platser och erbjudanden delar kartan med gratisplatserna, så den kan kännas rörig när du bara letar efter en sak, och appen visar annonser."
           ],
           "tips": [
             "Passar bäst för: bokningar och erbjudanden, NZ och Australien",
-            "Gratis; annonser på Android",
+            "Gratis; med annonser",
             "Kartor och information går att ladda ner för användning utan täckning"
           ]
         },
@@ -1377,6 +1377,9 @@
       "sources": [
         {
           "label": "DOC: bokningsvillkor för övernattning"
+        },
+        {
+          "label": "DOC: Campsite Pass"
         }
       ],
       "priceTable": null

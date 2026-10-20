@@ -1609,6 +1609,9 @@
       "sources": [
         {
           "label": "DOC: condizioni di prenotazione degli alloggi"
+        },
+        {
+          "label": "DOC: Campsite Pass"
         }
       ],
       "priceTable": null
@@ -5154,7 +5157,7 @@
               [
                 "CamperMate",
                 "Il viaggio prosegue in Australia",
-                "Gratis; pubblicità su Android",
+                "Gratis; con pubblicità",
                 "iPhone, iPad, Android, web",
                 "4,4 (606)"
               ],
@@ -5170,7 +5173,7 @@
                 "Vuoi una vista semplice e gratuita dei dintorni",
                 "Gratis",
                 "iPhone, Android",
-                "4,7 (122)"
+                "4,6 (122)"
               ],
               [
                 "Campable",
@@ -5207,11 +5210,11 @@
           "heading": "2. CamperMate: ideale se il viaggio attraversa il Mar di Tasman",
           "body": [
             "CamperMate copre Nuova Zelanda e Australia in un’unica app gratuita, in 27 lingue, con un filtro per luoghi gratuiti e a pagamento, recensioni e foto dei viaggiatori, prenotazione dei campeggi con disponibilità, offerte locali e link al noleggio di veicoli. Nella scheda si legge che mappe e informazioni sui luoghi si scaricano per usarle senza segnale, e la versione 5.8 ha aggiunto la vista satellitare a metà ottobre 2026.",
-            "Ha una media di 4,4 su 606 valutazioni in Nuova Zelanda e di 4,0 su 12.568 su Google Play. Le recensioni recenti sono contrastanti: diverse tra fine 2025 e 2026 criticano il restyling dell’app, e la versione Android mostra pubblicità. Se viaggi solo in Nuova Zelanda e dai più valore alle recensioni, tra le due Rankers resta la scelta più solida."
+            "Ha una media di 4,4 su 606 valutazioni in Nuova Zelanda e di 4,0 su 12.568 su Google Play. Le recensioni recenti sono contrastanti: diverse tra fine 2025 e 2026 criticano il restyling dell’app, e l’app mostra pubblicità. Se viaggi solo in Nuova Zelanda e dai più valore alle recensioni, tra le due Rankers resta la scelta più solida."
           ],
           "tips": [
             "Sceglila per: un’unica app per NZ e Australia",
-            "Gratis; pubblicità su Android",
+            "Gratis; con pubblicità",
             "Le recensioni recenti sono contrastanti"
           ]
         },
@@ -5230,7 +5233,7 @@
         {
           "heading": "4. thl Roadtrip: ideale per una vista semplice e gratuita dei dintorni",
           "body": [
-            "thl Roadtrip è un’app gratuita di Tourism Holdings che usa la tua posizione per mostrare campeggi, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (campeggi-villaggio con bungalow, piscina e servizi), distributori e punti di scarico nei dintorni, in Nuova Zelanda e in Australia. Ha 4,7 su 122 valutazioni sull’App Store della Nuova Zelanda.",
+            "thl Roadtrip è un’app gratuita di Tourism Holdings che usa la tua posizione per mostrare campeggi, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (campeggi-villaggio con bungalow, piscina e servizi), distributori e punti di scarico nei dintorni, in Nuova Zelanda e in Australia. Ha 4,6 su 122 valutazioni sull’App Store della Nuova Zelanda.",
             "Va bene per chi a fine <a data-guide=\"new-zealand-driving-day-planner\">giornata di guida</a> vuole dare un’occhiata a ciò che ha intorno, senza studiare i siti a fondo. Ha molte meno recensioni di Rankers, quindi funziona meglio come ricerca rapida accanto a un’app più ricca."
           ],
           "tips": [
@@ -5305,7 +5308,7 @@
       "description": "Alternative a CamperMate se il restyling o le pubblicità non ti convincono: KiwiCamping, Rankers, WikiCamps, thl Roadtrip e la NZMCA App a confronto per i viaggi in Nuova Zelanda. Dati controllati a ottobre 2026.",
       "region": "Nuova Zelanda",
       "imageAlt": "Una piccola tenda montata accanto a Iron Lake nel Kahurangi National Park",
-      "intro": "Per anni CamperMate è stata una delle prime app che chi viaggia in camper in Nuova Zelanda e in Australia scarica, ed è ancora gratuita, tradotta in 27 lingue e in grado di scaricare le mappe per usarle senza segnale. Chi cerca un’alternativa ha un motivo recente: un restyling che diversi recensori dell’App Store della Nuova Zelanda non apprezzano dalla fine del 2025, e le pubblicità nella versione Android. Il 20 ottobre 2026 abbiamo controllato le app che valgono un cambio. KiwiCamping è la nostra, quindi leggi il suo primo posto tenendone conto: spieghiamo i motivi e indichiamo i viaggi in cui un’altra è la sostituta migliore.",
+      "intro": "Per anni CamperMate è stata una delle prime app che chi viaggia in camper in Nuova Zelanda e in Australia scarica, ed è ancora gratuita, tradotta in 27 lingue e in grado di scaricare le mappe per usarle senza segnale. Chi cerca un’alternativa ha un motivo recente: un restyling che diversi recensori dell’App Store della Nuova Zelanda non apprezzano dalla fine del 2025, e le pubblicità nell’app. Il 20 ottobre 2026 abbiamo controllato le app che valgono un cambio. KiwiCamping è la nostra, quindi leggi il suo primo posto tenendone conto: spieghiamo i motivi e indichiamo i viaggi in cui un’altra è la sostituta migliore.",
       "sections": [
         {
           "heading": "Alternative a CamperMate in sintesi",
@@ -5328,7 +5331,7 @@
                 "CamperMate",
                 "Prenotazioni e offerte, NZ e Australia (la base di partenza)",
                 "Gratis",
-                "Su Android",
+                "Sì",
                 "4,4 (606)"
               ],
               [
@@ -5357,7 +5360,7 @@
                 "Trovare in modo semplice cosa c’è nei dintorni, in NZ e Australia",
                 "Gratis",
                 "Non indicate",
-                "4,7 (122)"
+                "4,6 (122)"
               ],
               [
                 "NZMCA App",
@@ -5417,7 +5420,7 @@
         {
           "heading": "4. thl Roadtrip: l’alternativa gratuita più simile per due Paesi",
           "body": [
-            "thl Roadtrip, di Tourism Holdings, mostra gratis campeggi, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (campeggi-villaggio con bungalow, piscina e servizi), distributori e punti di scarico vicino a te in Nuova Zelanda e in Australia. Sull’App Store della Nuova Zelanda la media era 4,7 su 122 valutazioni.",
+            "thl Roadtrip, di Tourism Holdings, mostra gratis campeggi, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (campeggi-villaggio con bungalow, piscina e servizi), distributori e punti di scarico vicino a te in Nuova Zelanda e in Australia. Sull’App Store della Nuova Zelanda la media era 4,6 su 122 valutazioni.",
             "È più semplice di CamperMate, ha molte meno recensioni e nella scheda non compare un marketplace di offerte. Quella semplicità è il punto di forza per chi ha trovato il restyling troppo carico."
           ],
           "tips": [
@@ -5458,7 +5461,7 @@
       "faq": [
         [
           "Esiste un’alternativa a CamperMate senza pubblicità?",
-          "KiwiCamping non ha pubblicità, e la scheda di Rankers su Google Play non riporta l’etichetta degli annunci; la versione Android di CamperMate mostra pubblicità. I luoghi DOC, le collezioni e i viaggi di KiwiCamping richiedono il Pass a pagamento, mentre Rankers è gratuita."
+          "KiwiCamping non ha pubblicità, e la scheda di Rankers su Google Play non riporta l’etichetta degli annunci; CamperMate mostra pubblicità. I luoghi DOC, le collezioni e i viaggi di KiwiCamping richiedono il Pass a pagamento, mentre Rankers è gratuita."
         ],
         [
           "Cosa posso usare al posto di CamperMate per la Nuova Zelanda e l’Australia?",
@@ -5522,7 +5525,7 @@
               [
                 "CamperMate",
                 "Filtro gratis o a pagamento; posti di freedom camping accanto ai campeggi",
-                "Gratis; pubblicità su Android",
+                "Gratis; con pubblicità",
                 "4,4 (606)"
               ],
               [
@@ -5574,11 +5577,11 @@
           "heading": "2. CamperMate: ideale per vedere insieme siti gratuiti e a pagamento",
           "body": [
             "CamperMate mostra i posti di <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> accanto ai campeggi e puoi filtrare tra gratuiti e a pagamento, in Nuova Zelanda e in Australia. La scheda non cita un filtro self-contained, e un recensore a gennaio 2026 ha scritto che l’opzione sembrava sparita dopo il restyling di fine 2025, quindi leggi la descrizione di ogni posto per il requisito self-contained.",
-            "È gratuita, con pubblicità nella versione Android, e ha 4,4 su 606 valutazioni dell’App Store della Nuova Zelanda. Mappe e informazioni sui luoghi si scaricano per usarle senza segnale."
+            "È gratuita, con pubblicità, e ha 4,4 su 606 valutazioni dell’App Store della Nuova Zelanda. Mappe e informazioni sui luoghi si scaricano per usarle senza segnale."
           ],
           "tips": [
             "Ideale per: confrontare gratuiti e a pagamento nei dintorni",
-            "Gratis; pubblicità su Android",
+            "Gratis; con pubblicità",
             "Leggi la scheda di ogni posto per le regole self-contained"
           ]
         },

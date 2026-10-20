@@ -51,14 +51,14 @@ const copy: Record<ContextCtaVariant, Copy> = {
   rules: {
     eyebrow: "Find a legal night",
     title: "Check the campsite before you park",
-    body: `KiwiCamping lists ${count.campsites} DOC campsites with the fee, dog rules, vehicle access and whether each one takes bookings, so a legal paid fallback is already on your phone when a freedom camping spot is full or closed.`,
+    body: `KiwiCamping lists ${count.campsites} DOC campsites with the fee, facilities, dog rules and vehicle access, so a legal paid fallback is already on your phone when a freedom camping spot is full or closed.`,
     endTitle: "Know where you can stay tonight.",
     shot: shots.place,
   },
   doc: {
     eyebrow: "DOC places in your pocket",
-    title: `${count.huts} DOC huts and ${count.campsites} campsites, with fees and booking status`,
-    body: "Every hut and campsite in KiwiCamping shows its category, nightly fee and whether it takes bookings, and the details stay readable on the track without signal. The booking itself stays on DOC's own system.",
+    title: `${count.huts} DOC huts and ${count.campsites} campsites, with fees and facilities`,
+    body: "Every hut and campsite in KiwiCamping shows its category, nightly fee and facilities, and the details stay readable on the track without signal. The booking itself stays on DOC's own system.",
     endTitle: "Every DOC hut and campsite, before you book.",
     shot: shots.doc,
   },
@@ -86,7 +86,7 @@ const copy: Record<ContextCtaVariant, Copy> = {
   comparison: {
     eyebrow: "Try it yourself",
     title: "KiwiCamping is free to download",
-    body: `Open the map and see how it fits your trip. BookIt stays and tours are free, and the Premium pass adds ${count.campsites} DOC campsites, ${count.huts} huts and ${count.dumps} dump stations with their fees and booking status.`,
+    body: `Open the map and see how it fits your trip. BookIt stays and tours are free, and the Premium pass adds ${count.campsites} DOC campsites, ${count.huts} huts and ${count.dumps} dump stations with their fees and facilities.`,
     endTitle: "See how it fits your trip.",
     shot: shots.map,
   },
@@ -126,13 +126,13 @@ export function ctaVariantFor(item: Pick<Article, "slug" | "category" | "listicl
 /** The inline call to action, placed after the second section of a guide. */
 export function ContextCta({ variant }: { variant: ContextCtaVariant }) {
   const text = copy[variant];
-  return <div className="context-cta" role="complementary" aria-label="KiwiCamping app" data-cta-variant={variant}>
+  return <div className="context-cta" role="region" aria-label="Get the KiwiCamping app" data-cta-variant={variant}>
     <div className="eyebrow">{text.eyebrow}</div>
     <h3>{text.title}</h3>
     <div className="context-cta-body">{text.body}</div>
     <div className="context-cta-pass">{passLine}</div>
     <div className="context-cta-actions">
-      <a className="store-button" href={appStoreUrl({ placement: "inl" })} data-cta="inl" aria-label="Download KiwiCamping on the App Store">
+      <a className="store-button" href={appStoreUrl({ placement: "inl" })} data-cta="inl" aria-label="Download on the App Store: KiwiCamping">
         <span>Download on the App Store</span>
       </a>
       <span className="context-cta-iphone">{iphoneLine}</span>
