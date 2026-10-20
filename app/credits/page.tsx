@@ -89,7 +89,7 @@ export default function CreditsPage() {
             </tbody>
           </table>
         </div>
-        <p className="price-table-disclaimer">Coastline on the region maps: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain, simplified.</p>
+        <p className="price-table-disclaimer">Coastline and lakes on the region maps: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain, simplified.</p>
       </section>
     </main>
     <Footer pageKey="credits" />

@@ -5,7 +5,7 @@ import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticleByLegacyPath } from "@/lib/site";
 import { getTranslation, localizedArticles } from "@/lib/localized";
 import { routedLocaleForSegment } from "@/lib/locales";
-import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale } from "@/lib/seo";
+import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale, guideTitle } from "@/lib/seo";
 import { exportRoutes, routeAt } from "@/lib/routes";
 import { guidePageKey } from "@/lib/routes/guides";
 import { smartBannerContent } from "@/lib/app-store";
@@ -33,7 +33,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   const {locale:segment,path=[]}=await params;
   const legacy=getArticleByLegacyPath(`/${segment}`);
   if(legacy)return{
-    title:legacy.title,
+    title:guideTitle(legacy.title),
     description:legacy.description,
     alternates:{canonical:legacy.legacyPath,languages:alternatesFor(guidePageKey(legacy.slug))},
     openGraph:{type:"article",siteName:"KiwiCamping",locale:defaultOgLocale,title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
@@ -81,7 +81,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   const indexable=route?.indexable??false;
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
-    title: path.length ? title : { absolute: title },
+    title: !path.length ? { absolute: title } : article ? guideTitle(title) : title,
     description,
     keywords:ui.metaKeywords.split(", "),
     alternates:{canonical,languages:indexable&&route?alternatesFor(route.pageKey):undefined},

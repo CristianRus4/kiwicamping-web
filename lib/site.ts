@@ -10,7 +10,8 @@ import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
-export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection, ArticleTable } from "@/lib/article-model";
+import { applyScreenFigures } from "@/lib/screen-figures";
+export type { Article, ArticleCategory, ArticleFigure, ArticleInput, ArticlePriceTable, ArticleSection, ArticleTable } from "@/lib/article-model";
 export { makeArticle, section, articleHref } from "@/lib/article-model";
 
 export const SITE_URL = "https://campingapp.nz";
@@ -51,10 +52,11 @@ export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=KiwiCamping%20web
 
 /**
  * Every guide written, published or scheduled, each with its own two-question FAQ attached by slug
- * (see lib/content/faqs.ts). Only the translation source, the content audits and link selection read
- * this; everything a reader or crawler sees reads `articles`.
+ * (see lib/content/faqs.ts) and its screenshot figure, if any (lib/screen-figures.ts). Only the
+ * translation source, the content audits and link selection read this; everything a reader or
+ * crawler sees reads `articles`.
  */
-export const allArticles: Article[] = [
+export const allArticles: Article[] = applyScreenFigures([
   ...roadTripArticles,
   ...campingArticles,
   ...rulesArticles,
@@ -65,7 +67,7 @@ export const allArticles: Article[] = [
   ...listicleArticles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
-  .concat(scheduleFixture<Article>() ?? []);
+  .concat(scheduleFixture<Article>() ?? []));
 for (const item of allArticles) {
   assertPublishAt(item.slug, item.publishAt);
   // The legacy .html guides were live before the site had guides of its own: always published.

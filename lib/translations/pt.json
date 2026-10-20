@@ -57,9 +57,9 @@
     "featuresText": "Explora locais, compara os detalhes, organiza os favoritos e monta uma viagem que continua a servir-te já na estrada.",
     "featureMainEyebrow": "Conhece o sítio antes de lá chegares",
     "featureMainTitle": "Cada ficha mostra logo o que te faz decidir.",
-    "featureMainText": "Fotografias, uma descrição a sério, horários, preços, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e reservas, o tempo e o Street View para veres a entrada a partir da estrada.",
+    "featureMainText": "Fotografias, uma descrição a sério, horários, preços, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e reservas, o tempo e o Look Around da Apple para veres a entrada a partir da estrada.",
     "featureList1": "Fotografias, horários, preços, condições e instalações",
-    "featureList2": "Street View, tempo e navegação integrados",
+    "featureList2": "Look Around, tempo e navegação integrados",
     "featureList3": "Vem dentro da app e abre sem rede",
     "feature1Title": "Coleções inteligentes e listas à tua medida",
     "feature1Text": "Gosto, Com estrela, Quero visitar e Visitados enchem-se sozinhas à medida que marcas locais. Por cima, crias coleções com nome para uma ilha, uma época ou aquela pré-seleção que ainda está em discussão.",
@@ -67,8 +67,8 @@
     "feature2Text": "Pede áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown e depois afina por tipo de local, preço, avaliação, reserva online, região e características detalhadas de instalações e acesso.",
     "feature3Title": "Mapa normal, satélite e 3D",
     "feature3Text": "Alterna entre o mapa normal e as imagens de satélite, que podes inclinar e rodar até veres o relevo real. Com o mapa afastado, os pins agrupam-se num número; ao aproximares, voltam a separar-se.",
-    "feature4Title": "Street View antes de virar",
-    "feature4Text": "O Street View abre diretamente na ficha do local, onde houver imagens, para veres a entrada, o piso e o que está à volta antes de meteres a carrinha pelo desvio.",
+    "feature4Title": "Look Around antes de virar",
+    "feature4Text": "O Look Around da Apple abre diretamente na ficha do local, onde houver imagens, para veres a entrada, o piso e o que está à volta antes de meteres a carrinha pelo desvio.",
     "feature5Title": "O tempo em cada local",
     "feature5Text": "As condições atuais e a previsão aparecem na ficha do local e ao lado de cada paragem da viagem, para escolheres entre dois sítios para acampar a olhar para o céu.",
     "feature6Title": "Custos na tua moeda",
@@ -115,7 +115,7 @@
     "faq2q": "Que locais estão incluídos?",
     "faq2a": "Mais de 6.500: parques de campismo do DOC, refúgios de montanha, holiday parks e outros alojamentos que se podem reservar, zonas de campismo livre, pontos de despejo públicos e áreas de merendas nas duas ilhas.",
     "faq3q": "Funciona sem rede?",
-    "faq3a": "O diretório de locais vem dentro da app, por isso nomes, categorias, descrições, preços, instalações e condições continuam legíveis muito para lá da última barra de rede. Os serviços em direto, como o tempo, a navegação, o Street View, as fotografias e as páginas dos operadores, continuam a precisar de ligação.",
+    "faq3a": "O diretório de locais vem dentro da app, por isso nomes, categorias, descrições, preços, instalações e condições continuam legíveis muito para lá da última barra de rede. Os serviços em direto, como o tempo, a navegação, as imagens do Look Around, as fotografias e as páginas dos operadores, continuam a precisar de ligação.",
     "faq4q": "Posso planear uma viagem com várias paragens?",
     "faq4a": "Sim, e é a funcionalidade principal da app. Junta locais como paragens, arrasta-os para os pôr por ordem, dá a cada um uma data e notas de chegada, vê a distância de condução troço a troço e na viagem inteira, abre a navegação até à paragem seguinte, consulta o tempo em cada uma, marca as paragens como visitadas e tem a lista do que levar ao lado do itinerário. Os detalhes do itinerário podem sincronizar com o Calendário.",
     "faq5q": "O que são coleções?",
@@ -123,9 +123,9 @@
     "faq6q": "Posso filtrar campismo gratuito ou lugares para veículos autónomos?",
     "faq6a": "Sim, e também podes combiná-los. Os filtros abrangem tipo de local, preço, avaliação mínima, reserva online, região e características detalhadas de instalações e acesso, por isso «áreas de campismo gratuitas com casas de banho e água potável perto de Queenstown» é uma só pesquisa.",
     "faq7q": "O que tem a ficha de um local?",
-    "faq7a": "Fotografias, uma descrição, horários, preços, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e dados de reserva, o tempo, Street View onde houver imagens, navegação e alternativas por perto.",
+    "faq7a": "Fotografias, uma descrição, horários, preços, condições, instalações agrupadas por tipo, avisos em vigor, avaliações, contactos e dados de reserva, o tempo, o Look Around onde houver imagens, navegação e alternativas por perto.",
     "faq8q": "Que tipos de mapa há?",
-    "faq8a": "Um mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar para ver o relevo real em 3D. O Street View, feito com as imagens Look Around da Apple, mostra a vista ao nível da rua a partir da ficha do local.",
+    "faq8a": "Um mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar para ver o relevo real em 3D. O Look Around da Apple mostra a vista ao nível da rua a partir da ficha do local.",
     "faq9q": "Posso ver os preços na minha moeda?",
     "faq9a": "Sim. Escolhe a tua moeda nas definições e define a taxa de câmbio: os custos indicados passam a aparecer nessa moeda ao lado do valor em dólares neozelandeses.",
     "faq10q": "Posso reservar um lugar de campismo pela KiwiCamping?",
@@ -283,7 +283,7 @@
         {
           "heading": "Mapas, previsão do tempo e dados em direto",
           "paragraphs": [
-            "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar até veres o relevo em 3D. O Street View, feito com as imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura.",
+            "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar até veres o relevo em 3D. O Look Around da Apple, a vista ao nível da rua, abre-se a partir da ficha do local, onde houver cobertura.",
             "O tempo atual e a previsão precisam de dados em direto. Antes de ficares sem rede, guarda as previsões essenciais e os avisos oficiais.",
             "O diretório de locais vem incluído na app, por isso os dados essenciais de cada local continuam disponíveis mesmo onde a rede deixa de ser fiável. Os mapas em direto, o cálculo de percursos, a previsão do tempo, as fotografias e as páginas externas dos operadores podem precisar de rede."
           ]
@@ -298,8 +298,8 @@
         {
           "heading": "Premium e compras",
           "paragraphs": [
-            "O mapa e as fichas dos locais são gratuitos, tal como duas listas guardadas.",
-            "O Premium acrescenta listas guardadas ilimitadas, planeamento de viagens, filtros avançados, a meteorologia de cada local e percursos de road trip.",
+            "Podes transferir a KiwiCamping gratuitamente, e o mapa e a pesquisa mostram todos os locais. Sem o Pass, só abrem por completo os holiday parks, os alojamentos e os tours da BookIt que podes reservar, além de alguns guias.",
+            "O Pass abre os parques de campismo, refúgios e trilhos do DOC, as zonas de campismo livre, os pontos de despejo, as áreas de uso diurno e todos os guias, e desbloqueia guardar locais, as coleções e o planeador de viagens.",
             "No ecrã Premium, toca em Restaurar compras com sessão iniciada na mesma conta Apple com que fizeste a compra original."
           ]
         }
@@ -406,8 +406,8 @@
   },
   "articles": {
     "dogs-camping-new-zealand": {
-      "title": "Acampar com cães na Nova Zelândia: regras e sítios permitidos",
-      "description": "Nos terrenos de conservação, nas reservas municipais e nos holiday parks, as regras para cães não são as mesmas, mesmo que o animal fique dentro do veículo.",
+      "title": "Acampar com cão na Nova Zelândia: onde são permitidos (2026)",
+      "description": "Onde acampar com um cão na Nova Zelândia: parques do DOC que aceitam cães, parques nacionais que não os aceitam e como diferem as regras municipais e dos holiday parks.",
       "region": "Nova Zelândia",
       "imageAlt": "Cão com trela junto a um parque de campismo autorizado na Nova Zelândia",
       "intro": "O acesso com cão tem de ser confirmado para cada terreno em concreto. Para proteger a fauna nativa, muitas áreas de conservação proíbem por completo os animais de estimação, mesmo que fiquem dentro do veículo.",
@@ -629,17 +629,17 @@
       "priceTable": null
     },
     "overseas-driver-licence-new-zealand": {
-      "title": "Carta de condução estrangeira na Nova Zelândia: o que precisas",
-      "description": "Validade, tradução, prazos e peso do veículo: tudo o que tens de confirmar na tua carta de condução estrangeira antes de levantares o veículo de aluguer.",
+      "title": "Carta de condução estrangeira na Nova Zelândia 2026: prazo e regras",
+      "description": "Se chegares até 31 de outubro de 2026, a carta de ligeiros estrangeira vale 18 meses; se chegares depois, vale 12. Traduções, licença internacional e o limite de 6.000 kg para campervans.",
       "region": "Nova Zelândia",
       "imageAlt": "Visitante a verificar uma carta de condução estrangeira junto a uma campervan",
-      "intro": "Uma carta de condução estrangeira em vigor pode permitir-te conduzir como visitante, mas é a língua do documento, o tempo que passou desde a chegada, as condições da carta e o peso da campervan que decidem se essa autorização se aplica a ti.",
+      "intro": "Uma carta de ligeiros estrangeira em vigor permite-te conduzir na Nova Zelândia durante 18 meses a contar da tua última chegada, se chegaste entre 1 de novembro de 2024 e 31 de outubro de 2026, e durante 12 meses se chegares a partir de 1 de novembro de 2026. Tem de estar em inglês ou vir com uma tradução aprovada ou uma licença internacional de condução (International Driving Permit) e, sendo uma carta de ligeiros, cobre veículos até 6.000 kg, o que inclui a maioria das campervans de aluguer. As condições da tua carta de origem continuam a aplicar-se, e a empresa de aluguer pode acrescentar as suas.",
       "sections": [
         {
           "heading": "Prazos em vigor em 2026",
           "body": [
-            "Em agosto de 2026, uma carta de ligeiros estrangeira que cumpra os requisitos pode ser usada até 18 meses a contar da última chegada ao país. A partir de 1 de novembro de 2026, esse prazo para cartas de ligeiros passa para 12 meses.",
-            "Para cartas estrangeiras de motociclo e de pesados, os prazos são outros. Se a tua estadia apanhar a mudança, confirma na NZTA (a agência de transportes da Nova Zelândia) a regra que vale no dia em que vais mesmo conduzir."
+            "O limite depende de quando chegaste pela última vez. Uma regra temporária de 1 de novembro de 2024 alargou de 12 para 18 meses a validade das cartas de ligeiros estrangeiras, e termina para quem chega a partir de 1 de novembro de 2026. Se chegaste entre 1 de novembro de 2024 e 31 de outubro de 2026, ficas com 18 meses a contar dessa chegada enquanto estiveres na Nova Zelândia. Se chegares a partir de 1 de novembro de 2026, tens 12 meses.",
+            "O alargamento só se aplicou a cartas de ligeiros: as cartas estrangeiras de motociclo e de veículos pesados permitem 12 meses. O prazo conta a partir da tua chegada mais recente, por isso sair e voltar a entrar faz com que recomece, mas a carta tem de se manter em vigor durante todo esse tempo."
           ],
           "tips": []
         },
@@ -662,19 +662,19 @@
         {
           "heading": "Com que carta podes conduzir e durante quanto tempo",
           "body": [
-            "Podes conduzir com uma carta estrangeira até doze meses a contar da data de chegada, desde que a carta esteja em vigor, não estejas inibido de conduzir e só conduzas as categorias de veículo que ela abrange. Passados doze meses, tens de a trocar por uma carta neozelandesa.",
-            "A carta tem de estar em inglês ou ir acompanhada de uma tradução fiel ou de uma licença internacional de condução. Leva sempre contigo a carta original: a licença internacional complementa-a, não a substitui."
+            "Podes conduzir com uma carta estrangeira em vigor durante o prazo que se aplica ao teu caso, 18 ou 12 meses a contar da última chegada, desde que a carta seja válida, não estejas inibido de conduzir e só conduzas as categorias de veículo que ela abrange. Depois disso, precisas de uma carta neozelandesa.",
+            "A polícia pode pedir-te a carta sempre que conduzires, por isso leva sempre a carta original, com a tradução ou a licença internacional ao lado se não estiver em inglês. A licença internacional complementa a original e não a substitui."
           ],
           "tips": [
-            "Doze meses a contar da chegada",
-            "Leva a carta original, não só a internacional",
-            "Tradução obrigatória se não estiver em inglês"
+            "18 meses se chegaste até 31 de outubro de 2026",
+            "12 meses se chegares a partir de 1 de novembro de 2026",
+            "Leva a carta original, não só a licença internacional"
           ]
         },
         {
-          "heading": "Numa campervan, a categoria do veículo conta",
+          "heading": "Posso conduzir uma campervan com carta de ligeiros?",
           "body": [
-            "Na Nova Zelândia, a carta de ligeiros normal abrange veículos até 6.000 kg de peso bruto, um limite mais generoso do que em vários outros países e que chega para a maioria das campervans de aluguer. As autocaravanas maiores podem ficar de fora, e é a categoria da tua carta de origem que define a equivalência.",
+            "Normalmente sim. A carta de ligeiros neozelandesa (Class 1) cobre veículos até 6.000 kg de peso bruto, um limite mais generoso do que em vários outros países, que chega para a maioria das campervans e autocaravanas de aluguer. As autocaravanas maiores podem ficar de fora, e é a categoria da tua carta de origem que define a equivalência.",
             "As empresas de aluguer juntam à lei as suas próprias condições de idade e de carta, e muitas vezes exigem uma idade mínima e um tempo mínimo de carta. A autorização da empresa não se sobrepõe à lei, e a lei também não anula as condições do aluguer."
           ],
           "tips": []
@@ -682,7 +682,7 @@
         {
           "heading": "Restrições que trazes da tua carta de origem",
           "body": [
-            "Qualquer condição da tua carta original também vale aqui: lentes corretivas, só caixa automática, alcolock (bloqueio da ignição por álcool) ou uma categoria restrita. Conduzir fora dessas condições é conduzir sem carta, com as consequências que isso tem no seguro.",
+            "Qualquer condição da tua carta original também vale aqui: lentes corretivas, só caixa automática, alcolock (bloqueio da ignição por álcool) ou uma categoria restrita. Conduzir fora dessas condições é uma infração e pode anular o seguro.",
             "Uma carta restrita ou provisória de outro país mantém, em geral, as suas restrições. Se no teu país tens uma carta por fases (graduated licence), vê o que isso implica antes de partires do princípio de que aqui podes conduzir sem limitações."
           ],
           "tips": [
@@ -702,9 +702,9 @@
         {
           "heading": "Trocar a carta por uma neozelandesa",
           "body": [
-            "Passados doze meses, tens de trocar a carta. Quem vem de um país que conste da lista de países reconhecidos pode fazê-lo sem exame de código nem exame de condução; os restantes têm de passar nos dois. A lista muda, por isso confirma a situação atual em vez de confiares no que ouviste dizer.",
+            "Quando os teus 18 ou 12 meses terminarem, tens de trocar a carta. Quem vem de um dos países da lista de países reconhecidos pode fazê-lo sem exame de código nem exame prático; os restantes têm de passar nos dois. A lista muda, por isso confirma a situação atual em vez de confiares no que ouviste dizer.",
             "Para a troca precisas de um documento de identificação, da carta estrangeira e de um teste de visão, e tens de pagar uma taxa; o pedido é feito através de um agente autorizado (licensing agent). Conta com algum tempo, porque o processo não é imediato e conduzir com a autorização caducada é uma infração.",
-            "Se vais ficar muito tempo e o teu país não é reconhecido, começa cedo. Nas principais cidades, marcar o exame de condução pode demorar várias semanas, e no verão a espera é ainda maior."
+            "Se vais ficar muito tempo e o teu país não é reconhecido, começa cedo. Marcar o exame prático nas principais cidades pode demorar semanas, por isso não deixes para o último mês."
           ],
           "tips": []
         },
@@ -724,16 +724,16 @@
       "faq": [
         [
           "Posso conduzir na Nova Zelândia com uma carta estrangeira?",
-          "Sim, até 12 meses a contar da chegada, desde que a carta esteja em vigor e abranja a categoria do veículo que conduzes. Passados 12 meses, tens de a trocar por uma carta neozelandesa."
+          "Sim. Se chegaste entre 1 de novembro de 2024 e 31 de outubro de 2026, uma carta de ligeiros estrangeira em vigor vale 18 meses a contar dessa chegada; se chegares a partir de 1 de novembro de 2026, vale 12 meses. Depois disso precisas de uma carta neozelandesa."
         ],
         [
           "Preciso de carta de condução internacional para a Nova Zelândia?",
-          "Só se a tua carta não estiver em inglês. Nesse caso, tens de levar, junto com a carta original, uma tradução certificada e fiel para inglês ou uma licença internacional de condução."
+          "Só se a tua carta não estiver em inglês. Nesse caso, tens de levar, junto com a carta original, uma tradução fiel para inglês feita por um tradutor aprovado pela NZTA ou uma licença internacional de condução."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: conduzir nas estradas da Nova Zelândia"
+          "label": "NZTA: conduzir na Nova Zelândia com uma carta estrangeira"
         }
       ],
       "priceTable": null
@@ -788,7 +788,7 @@
         {
           "heading": "Orçamenta o ferry como um bloco fixo",
           "body": [
-            "O <a data-guide=\"cook-strait-ferry-campervan-guide\">estreito de Cook</a> é um custo grande e inegociável em qualquer viagem pelas duas ilhas, e o preço depende do comprimento e da altura do veículo, não do número de passageiros. Atravessar com uma autocaravana custa várias vezes o preço de um carro, e um reboque ou um suporte de bicicletas mudam outra vez a categoria.",
+            "O <a data-guide=\"cook-strait-ferry-campervan-guide\">estreito de Cook</a> é um custo grande e inegociável em qualquer viagem pelas duas ilhas, e o preço depende do comprimento do veículo, não do número de passageiros. Atravessar com uma campervan custa várias vezes o preço de um carro, e um reboque ou um suporte de bicicletas muda outra vez a categoria.",
             "Reserva cedo as travessias de verão e lê as condições de alteração e cancelamento antes de escolheres a tarifa mais barata. Uma poupança não reembolsável desaparece na primeira vez que o tempo ou uma estrada cortada te obrigam a mudar de travessia."
           ],
           "tips": [
@@ -939,8 +939,8 @@
       "priceTable": null
     },
     "new-zealand-travel-cost-2026": {
-      "title": "Custo de uma viagem à Nova Zelândia em 2026: orçamentos por dia",
-      "description": "Quanto gastas por dia na Nova Zelândia: orçamentos para um casal a acampar, um mochileiro e uma viagem confortável, com preços locais e a data de cada um.",
+      "title": "Custo de viajar pela Nova Zelândia em 2026: orçamento diário (NZD)",
+      "description": "Quanto custa um dia na Nova Zelândia em 2026: 75 a 120 NZD por pessoa para quem acampa com pouco, 150 a 260 NZD para uma viagem confortável, com a data de cada preço.",
       "region": "Nova Zelândia",
       "imageAlt": "Viajante a calcular o orçamento de uma viagem pela Nova Zelândia",
       "intro": "O percurso e o ritmo pesam mais do que qualquer média nacional. Mudar de sítio todos os dias faz subir o combustível e a pressão das reservas; viajar mais devagar torna mais fácil cozinhar e aproveitar tarifas semanais.",
@@ -1018,7 +1018,7 @@
       "faq": [
         [
           "Quanto custa uma viagem à Nova Zelândia em 2026?",
-          "O custo divide-se bem em transporte, alojamento e comida, e a escolha do veículo pesa no total mais do que qualquer outra coisa. Este guia dá valores de referência em dólares neozelandeses, com data, para cada uma destas rubricas e converte-os para dez moedas."
+          "Intervalos para planear em 2026: cerca de 75 a 120 NZD por pessoa e por dia para quem acampa com pouco ou viaja de mochila, 150 a 260 NZD para uma viagem independente e confortável e 280 a 450 NZD com quartos privados e atividades pagas. A escolha do veículo pesa no total mais do que qualquer outra coisa."
         ],
         [
           "É caro viajar pela Nova Zelândia?",
@@ -1055,8 +1055,8 @@
       }
     },
     "beer-wine-coffee-prices-new-zealand": {
-      "title": "Preço da cerveja, do vinho e do café na Nova Zelândia",
-      "description": "Compara o preço das bebidas em cafés, pubs e supermercados da Nova Zelândia, sem confundir um copo servido ao balcão com uma garrafa comprada numa loja.",
+      "title": "Preço da cerveja na Nova Zelândia: pubs e supermercados (2026)",
+      "description": "Uma caneca (pint) num pub custa cerca de 7 a 15 NZD e um cappuccino 5 a 7,50 NZD em 2026. Preços da cerveja e do vinho no supermercado comparados com bares e cafés.",
       "region": "Nova Zelândia",
       "imageAlt": "Café e vinho neozelandeses numa mesa",
       "intro": "Com as bebidas, a conta cresce aos poucos, porque são sempre compras pequenas. A paragem para o café, uma rodada no pub e uma garrafa para o acampamento podem ultrapassar o orçamento da comida sem que nenhuma compra pareça grande.",
@@ -1138,7 +1138,7 @@
       "faq": [
         [
           "Quanto custa uma cerveja na Nova Zelândia?",
-          "O guia dá preços com data para uma caneca (pint) num pub, uma cerveja artesanal, um pack de seis no supermercado e um copo e uma garrafa de vinho. Comprar no supermercado em vez de no bar é a maior poupança que podes fazer numa viagem longa."
+          "Num pub, uma cerveja de pressão nacional de 500 ml custa cerca de 7 a 15 NZD e uma garrafa de cerveja importada 9 a 15 NZD; uma cerveja nacional de 500 ml no supermercado custa entre 2,59 e 10 NZD. Comprar no supermercado em vez de no bar é a maior poupança que podes fazer numa viagem longa."
         ],
         [
           "Quanto custa um café na Nova Zelândia?",
@@ -1180,8 +1180,8 @@
       }
     },
     "accommodation-costs-new-zealand-2026": {
-      "title": "Preços de alojamento na Nova Zelândia em 2026",
-      "description": "Camaratas de hostel, bungalows e quartos privados na Nova Zelândia: cada tipo de alojamento tem o seu escalão de preço e inclui instalações diferentes.",
+      "title": "Preços de alojamento na Nova Zelândia 2026: hostels e hotéis",
+      "description": "Quanto custa uma cama em camarata, um bungalow num holiday park e um quarto privado na Nova Zelândia em 2026, e o que inclui cada escalão de preço, para planeares cada noite.",
       "region": "Nova Zelândia",
       "imageAlt": "Alojamento na Nova Zelândia com vista para as montanhas",
       "intro": "O preço do alojamento depende mais da data e do destino do que de qualquer média nacional. Um bungalow com casa de banho partilhada pode compensar mais do que um quarto privado num hostel, e um sítio isolado na montanha pode custar mais do que um hotel na cidade.",
@@ -1301,48 +1301,48 @@
       }
     },
     "doc-huts-new-zealand-guide": {
-      "title": "Refúgios do DOC (huts) na Nova Zelândia: como funciona o sistema",
-      "description": "Refúgios com serviços, padrão, básicos e dos Great Walks: cada categoria de refúgio do DOC na Nova Zelândia tem instalações, preços e regras de reserva próprias.",
+      "title": "Refúgios do DOC na Nova Zelândia por região: tipos, preços, bilhetes",
+      "description": "Onde ficam os refúgios do DOC, região a região, quanto custam os refúgios com serviços, padrão e básicos em 2026/27 e como funcionam os hut tickets, o Hut Pass e as reservas.",
       "region": "Natureza remota da Nova Zelândia",
       "imageAlt": "Refúgio isolado nas montanhas da Nova Zelândia",
-      "intro": "Um refúgio (hut) é um abrigo partilhado em zonas remotas, não um alojamento escondido no mato. Há cerca de 950 espalhados pelas áreas públicas de conservação, desde edifícios com serviços, aquecimento e colchões até barracões de dois beliches com chão de terra. A categoria do refúgio para onde vais decide o que tens de levar.",
+      "intro": "O DOC cuida de mais de 950 refúgios (huts), e os dados do DOC da KiwiCamping listam 927, desde refúgios com serviços, aquecimento e colchões até bivvies de dois beliches. A maioria fica na South Island: só Canterbury tem 180 e a West Coast 140, enquanto os maiores grupos da North Island estão nas serras Ruahine, Kaweka e Tararua. Nesses dados, verificados a 24 de agosto de 2026, só 127 dos 927 se podiam reservar, e embora o DOC tenha entretanto passado todos os refúgios com serviços para o sistema online, a maioria continua a funcionar por ordem de chegada: os básicos são gratuitos e os padrão pagam-se com hut tickets ou com um Backcountry Hut Pass.",
       "sections": [
         {
-          "heading": "As quatro categorias de refúgios",
+          "heading": "Categorias de refúgios e preços em 2026/27",
           "body": [
-            "Os refúgios com serviços (Serviced) são os mais equipados: beliches com colchão, água, WC e, normalmente, aquecimento com combustível incluído. Os refúgios padrão (Standard) dispensam o combustível para o aquecimento e às vezes os colchões, mas mantêm beliches, água e WC. Os básicos (Basic) são um abrigo e pouco mais, e podem nem ter fonte de água.",
-            "Os refúgios dos Great Walks ficam fora desta escala. Estão nos Great Walks, os grandes percursos pedestres de referência do país, e na época das caminhadas têm serviços de alto nível, custam bastante mais e funcionam com um sistema de reservas próprio, associado a cada trilho. Fora de época costumam baixar de nível e de preço, com instalações reduzidas ou mesmo retiradas."
+            "Os refúgios com serviços têm colchões, água, WC, lavatório para as mãos e aquecimento com combustível. Em 2026/27, um adulto paga 25 NZD por noite de maio a setembro, 28 NZD nas noites de semana e 32 NZD às sextas e sábados de outubro a abril, e 29 e 34 NZD de dezembro a fevereiro; as crianças pagam metade, e acampar ao lado de um refúgio custa metade do preço do refúgio. Os refúgios padrão têm colchões, água e WC, com salamandras a lenha abaixo do limite da vegetação, por 15 NZD por adulto e 7,50 NZD por criança. Os refúgios básicos e os bivvies são gratuitos e oferecem um abrigo e pouco mais. Nos dados da KiwiCamping, isso divide-se em 96 refúgios com serviços, 408 padrão e 372 básicos.",
+            "Três categorias ficam fora dessa escala. Os refúgios dos Great Walks (os grandes percursos pedestres de referência do país), 33 nos dados da KiwiCamping, têm preços próprios por trilho, época e residência e têm de ser reservados na época dos Great Walks. Os refúgios de preço individual, incluindo refúgios alpinos com serviços como o Mueller Hut, definem o seu próprio preço, e os refúgios de clube são geridos por clubes como o New Zealand Alpine Club, por isso consulta a página do DOC do refúgio. Seja qual for a categoria, o teto nunca substitui o saco-cama, o fogareiro, a comida, a lanterna frontal e a roupa quente."
           ],
           "tips": [
-            "A categoria diz o que há e quanto custa",
-            "Os refúgios dos Great Walks reservam-se à parte",
-            "Os refúgios básicos podem não ter água"
+            "Com serviços 25 a 34 NZD consoante a época, padrão 15 NZD, básico gratuito",
+            "Os refúgios dos Great Walks e os alpinos têm preço individual",
+            "Leva equipamento completo, seja qual for a categoria"
           ]
         },
         {
-          "heading": "O refúgio não substitui o que levas",
+          "heading": "Onde ficam os refúgios, região a região",
           "body": [
-            "Ter um teto não te dispensa de levar saco-cama, colchão isolante, fogareiro, combustível, comida, lanterna frontal e roupa quente. Os refúgios não têm pessoal nem guardam mantimentos, e mesmo um refúgio Serviced com salamandra fica frio se o grupo anterior gastou a última lenha.",
-            "Prepara a mochila a pensar na caminhada e no tempo, não na descrição do refúgio. Na montanha neozelandesa as condições mudam depressa, e um grupo que chega encharcado e sem roupa quente de reserva está em apuros, tenha o edifício o que tiver."
+            "A South Island concentra a maior parte da rede. Canterbury tem 180 refúgios, com destaque para o Lake Sumner Forest Park e o Arthur's Pass National Park; a West Coast tem 140, muitos nos vales Whitcombe e Styx; Nelson/Tasman tem 99, 45 deles no Kahurangi National Park e 24 em Nelson Lakes; Otago tem 78, incluindo 12 no Mount Aspiring National Park e 12 no Hāwea Conservation Park; Southland tem 70, 30 deles em <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>; Marlborough tem 60; e Fiordland tem 55, quase todos dentro do Fiordland National Park.",
+            "Na North Island, Hawke's Bay tem 55 refúgios repartidos entre os forest parks de Kaweka e Ruahine, Manawatū/Whanganui tem 43, a East Coast 38 entre Te Urewera e Whirinaki, Wairarapa 36 e Wellington/Kāpiti 24, a maior parte na Tararua Range. A zona central da North Island tem 16, dez no Tongariro National Park, e Bay of Plenty, Taranaki, Northland, Waikato, Coromandel e Auckland têm oito ou menos cada uma."
           ],
           "tips": []
         },
         {
           "heading": "Hut tickets, passes e reservas",
           "body": [
-            "Os refúgios sem reserva funcionam em geral com hut tickets (senhas compradas antecipadamente) ou com o Backcountry Hut Pass, um passe que cobre um período e não uma noite. Os refúgios com reserva exigem uma reserva nominal para a data certa, e os Great Walk esgotam com meses de antecedência para a época de verão.",
-            "O erro mais comum é confundir passe com reserva. O Backcountry Hut Pass paga a tua estadia nos refúgios que aceitam hut tickets (senhas de pernoita), mas não reserva nada e não vale nos refúgios dos Great Walks nem nos outros refúgios com reserva. Antes de partir, confirma que sistema usa o refúgio para onde vais."
+            "Os refúgios sem reserva aceitam Backcountry Hut Tickets, comprados antes da viagem e deixados na caixa de pagamento por confiança (honesty box), ou um Backcountry Hut Pass, que cobre a maioria dos refúgios com serviços e padrão durante 12 meses. A partir de 1 de novembro de 2026, os hut tickets também se podem comprar no sistema de reservas online do DOC, e os bilhetes em papel continuam válidos até 1 de novembro de 2027. Os refúgios com reserva reservam-se e pagam-se em bookings.doc.govt.nz, e desde 1 de outubro de 2026 isso inclui todos os refúgios com serviços, pelo que os Serviced Hut Tickets estão a ser retirados.",
+            "O erro mais comum é confundir um passe ou um bilhete com uma reserva. Nenhum dos dois reserva um beliche nem dá prioridade num refúgio por ordem de chegada. O Hut Pass pode pagar alguns refúgios com reserva se o indicares ao reservar, mas não os refúgios dos Great Walks na época de reservas nem os refúgios da lista de exclusões do DOC. Antes de partir, confirma que sistema usa o refúgio para onde vais."
           ],
           "tips": [
             "Um passe não é uma reserva",
-            "Compra os hut tickets antes do trilho",
+            "Hut tickets online a partir de 1 de novembro de 2026",
             "Os refúgios dos Great Walks esgotam com meses de antecedência"
           ]
         },
         {
-          "heading": "Ninguém fica à porta",
+          "heading": "Um refúgio cheio continua a ser abrigo numa emergência",
           "body": [
-            "Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição, de longa data, é que um refúgio cheio quer dizer dormir no chão, não dar com a porta fechada. Não continues a andar pela noite dentro só porque os beliches estão ocupados, nem esperes que te guardem um por teres reserva noutro refúgio.",
+            "Num refúgio com reserva, o DOC não guarda lugar a quem não tem reserva, e podem recusar-te se estiver cheio. Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição é que um refúgio cheio quer dizer dormir no chão, não dar com a porta fechada. Todos os refúgios ficam abertos como abrigo de emergência com mau tempo, por isso não continues a andar pela noite dentro só porque os beliches estão ocupados.",
             "Leva colchão isolante e o necessário para dormir no chão. Se o tempo deixar e o local permitir acampar, uma tenda é uma alternativa a sério. Nos trilhos mais procurados em janeiro, parte do princípio de que o refúgio vai estar cheio e planeia em função disso."
           ],
           "tips": []
@@ -1350,7 +1350,7 @@
         {
           "heading": "Água, cozinha e fogo",
           "body": [
-            "Trata a água do refúgio, a não ser que a informação atualizada do DOC (Department of Conservation, o serviço público que gere as áreas protegidas) para esse refúgio diga que é potável. A água recolhida do telhado pode estar contaminada, e há giárdia nos rios e ribeiros das zonas remotas da Nova Zelândia. Ferver, filtrar ou tratar com químicos, tudo funciona; o que dá problemas é partir do princípio de que a água está boa.",
+            "Trata a água do refúgio, a não ser que a informação atualizada do DOC (Department of Conservation, o serviço público que gere as áreas protegidas) para esse refúgio diga que é potável. A água recolhida do telhado pode estar contaminada, e há giárdia nos rios e ribeiros das zonas remotas da Nova Zelândia. Ferver é o método mais seguro, e o DOC indica três minutos; um filtro adequado a protozoários também serve. O que dá problemas é partir do princípio de que a água está boa.",
             "Cozinha no teu fogareiro, cá fora ou na zona indicada, e nunca dentro de uma tenda. Onde houver salamandra, usa-a com moderação e repõe a lenha miúda para quem chegar a seguir, talvez com pior tempo do que o teu."
           ],
           "tips": [
@@ -1363,7 +1363,7 @@
           "heading": "Regras de convivência no refúgio",
           "body": [
             "Lá dentro, tira as botas. Mantém as tuas coisas juntas no beliche em vez de as espalhares pela mesa e pelos bancos. À noite, faz silêncio cedo e, de manhã, mexe-te sem barulho: há quem comece a caminhar antes do amanhecer, e o grupo todo dorme na mesma sala depois de um dia duro.",
-            "Preenche o livro do refúgio (hut book), sempre, com a data e os teus planos. É uma cortesia, mas sobretudo é a primeira coisa que as equipas de busca e salvamento leem quando alguém não regressa a horas, e um registo rigoroso já encurtou muitas buscas."
+            "Preenche o livro do refúgio (hut book), sempre, com a data e os teus planos. É uma cortesia e, mais importante, pode ajudar as equipas de busca e salvamento se alguém do teu grupo não regressar a horas."
           ],
           "tips": []
         },
@@ -1371,7 +1371,7 @@
           "heading": "Ao sair do refúgio",
           "body": [
             "Varre o chão, fecha bem as portadas e as portas e leva contigo tudo o que trouxeste, incluindo restos de comida. O lixo deixado num refúgio atrai roedores e não há recolha: o que deixares fica lá até outro caminheiro o levar.",
-            "Depois da viagem, comunica ao DOC estragos, um fogão avariado, falta de água ou qualquer perigo. A manutenção dos refúgios depende do que é comunicado, e uma mensagem de cinco minutos pode evitar que o grupo seguinte encontre um edifício que não funciona."
+            "Depois da viagem, comunica ao DOC estragos, um fogão avariado, falta de água ou qualquer perigo. Os relatórios ajudam o DOC a dar prioridade às reparações, e uma mensagem de cinco minutos pode evitar que o grupo seguinte encontre um edifício que não funciona."
           ],
           "tips": [
             "Leva contigo o lixo e os restos",
@@ -1383,19 +1383,19 @@
       "faq": [
         [
           "É preciso reservar um refúgio do DOC?",
-          "Depende da categoria. Os refúgios dos Great Walks e os refúgios com serviços nos trilhos mais procurados reservam-se e pagam-se antecipadamente, muitas vezes com meses de antecedência no verão. Os refúgios padrão e os básicos funcionam em geral com hut tickets ou com o Backcountry Hut Pass, sem reserva, e nunca tens beliche garantido."
+          "Só alguns. Os refúgios dos Great Walks, todos os refúgios com serviços desde 1 de outubro de 2026 e alguns refúgios populares reservam-se em bookings.doc.govt.nz. A maioria dos refúgios padrão é por ordem de chegada, paga com hut tickets ou com um Backcountry Hut Pass, e os básicos são gratuitos."
         ],
         [
-          "O que há, de facto, num refúgio de montanha?",
-          "Normalmente, beliches com colchão, algum tipo de abastecimento de água e WC. O equipamento para cozinhar, o aquecimento e a iluminação variam com a categoria e muitos refúgios não têm nada disso, por isso leva fogareiro, combustível e lanterna, diga a descrição o que disser."
+          "Quanto custa por noite um refúgio do DOC?",
+          "Em 2026/27, um refúgio padrão custa 15 NZD por adulto e 7,50 NZD por criança durante todo o ano. Um refúgio com serviços custa 25 NZD de maio a setembro e entre 28 e 34 NZD de outubro a abril, e um refúgio básico ou bivvy é gratuito. Os refúgios dos Great Walks e os de preço individual definem o seu próprio preço."
         ]
       ],
       "sources": [
         {
-          "label": "DOC: categorias de refúgios"
+          "label": "DOC: preços de alojamento 2026/27 por categoria de refúgio e de parque de campismo"
         },
         {
-          "label": "DOC: alertas e encerramentos"
+          "label": "Comunicado do DOC de 1 de outubro de 2026: refúgios com serviços reserváveis, hut tickets online"
         }
       ],
       "priceTable": null
@@ -1504,52 +1504,52 @@
       "priceTable": null
     },
     "doc-campsite-rules": {
-      "title": "Regras dos parques de campismo do DOC na Nova Zelândia",
-      "description": "Reservas, horas de silêncio, lixo, animais e regras locais: o que conta para acampar num parque de campismo do DOC, em terrenos de conservação da Nova Zelândia.",
+      "title": "Regras dos parques de campismo do DOC 2026: silêncio, cães, drones",
+      "description": "Silêncio das 22h às 7h, saída até às 10h, sem animais nem drones sem autorização do DOC, e quanto custa acampar sem reserva: condições do DOC e regras locais.",
       "region": "Parques de campismo do DOC",
       "imageAlt": "Painel informativo num parque de campismo do Department of Conservation",
-      "intro": "Ao reservar com o DOC (Department of Conservation, o serviço público que gere os parques e as áreas protegidas), aceitas as condições gerais, válidas em todo o país, e as regras locais desse sítio. A página de cada parque continua a ser indispensável, porque o acesso, o fogo, a água, os cães e as condições para veículos variam muito de um sítio para outro.",
+      "intro": "Reservar um parque de campismo do DOC (Department of Conservation, o serviço público que gere os parques e as áreas protegidas) quer dizer aceitar as condições de reserva do DOC e as regras locais da página desse parque. As nacionais são poucas: faz silêncio das 22h às 7h, sai até às 10h, leva todo o lixo, não tragas animais nem drones sem autorização do DOC e não fumes nem uses cigarros eletrónicos nos refúgios nem nos blocos sanitários. Fogueiras, água, cães, geradores e acesso de veículos variam de parque para parque, por isso consulta a página do DOC e os avisos no local.",
       "sections": [
         {
           "heading": "Reserva com honestidade",
           "body": [
             "Faz a reserva com a data, o grupo e a opção certos e guarda a confirmação num sítio onde a consigas abrir sem rede. Onde os lugares não são atribuídos um a um, escolhe apenas entre os da zona que estiver disponível quando chegares.",
-            "Pelas condições do DOC, uma reserva de várias noites que não está a ser usada pode ser cancelada a partir da primeira noite em que não apareces. Não guardes lugar com uma tenda vazia se ninguém vai lá dormir."
+            "Se faltares à primeira noite de uma reserva de várias noites e ninguém contactar o escritório do parque no prazo de 24 horas, o DOC cancela o resto sem reembolso. Não guardes lugar com uma tenda ou um veículo vazio se ninguém vai lá dormir."
           ],
           "tips": []
         },
         {
           "heading": "Respeita os horários do parque",
           "body": [
-            "As condições gerais do DOC impõem silêncio entre as 22h e as 7h, salvo regras locais diferentes, e a saída faz-se normalmente até às 10h. Mantém geradores, música e circulação de veículos dentro do que o parque permite.",
-            "Reservar um lugar num parque de campismo não dá direito a usar as instalações dos refúgios que fiquem perto. Usa só as casas de banho, os abrigos e os pontos de água incluídos naquilo que reservaste."
+            "As condições gerais do DOC impõem silêncio entre as 22h e as 7h, salvo regras locais diferentes, saída até às 10h e check-in entre as 14h e as 20h30. Mantém geradores, música e circulação de veículos dentro do que o parque permite.",
+            "Reservar um lugar num parque de campismo não garante o uso das instalações de um refúgio que fique perto, por isso conta com as casas de banho, os abrigos e os pontos de água que vêm com o parque."
           ],
           "tips": []
         },
         {
           "heading": "Deixa o lugar pronto para o próximo",
           "body": [
-            "Leva o lixo todo contigo, guarda bem a comida e nunca despejes águas cinzentas no chão. Não é permitido fumar nem usar cigarros eletrónicos nos refúgios nem nos sanitários.",
+            "Leva o lixo todo contigo, guarda bem a comida e despeja as águas cinzentas só onde o parque indicar. Não é permitido fumar nem usar cigarros eletrónicos nos refúgios nem nos blocos sanitários.",
             "Animais de estimação e drones precisam de autorização expressa. Confirma na página do parque em causa, em vez de tomares o sossego do sítio como autorização tácita."
           ],
           "tips": []
         },
         {
-          "heading": "Com reserva, por ordem de chegada ou com passe",
+          "heading": "Regras de reserva e penalização por não reservar",
           "body": [
-            "A página de cada parque indica que sistema se aplica, e é a confusão entre eles que causa a maioria dos problemas à chegada. Um Campsite Pass é uma forma de pagar, não uma reserva: não te guarda lugar num parque que exige reserva e de nada serve num parque por ordem de chegada que já esteja cheio.",
-            "Onde for obrigatório reservar, reserva para o grupo e o veículo que vais mesmo levar. Leva a confirmação guardada no telemóvel, porque nos <a data-guide=\"doc-campsites-new-zealand-guide\">parques do DOC</a> muitas vezes não há rede, e uma reserva que não consegues mostrar é difícil de defender perante um guarda que está a distribuir lugares num parque cheio."
+            "A página de cada parque diz se é reservável ou de registo próprio, e as regras decorrem daí. Num parque reservável precisas de uma reserva válida para a noite em que o usas, mesmo com passe. Sem ela, não tens lugar garantido e o DOC aplica a taxa de penalização: cada pessoa paga a taxa normal mais a taxa completa de um adulto, a não ser que esteja a abrigar-se de condições adversas. Os titulares de um Campsite Pass que cheguem sem reserva pagam, em vez disso, uma taxa de 10 NZD e são recusados se o parque estiver cheio.",
+            "Num parque de registo próprio, preenche o formulário e paga à chegada. Seja como for, a reserva ou o registo vale para as pessoas e o veículo que levas mesmo, e a confirmação tem de poder ser mostrada se a pedirem, por isso guarda-a onde a possas mostrar <a data-guide=\"kiwicamping-offline-data-guide\">sem rede</a>."
           ],
           "tips": [
             "Um passe não é uma reserva",
-            "Guarda as confirmações para ver sem rede",
-            "Reserva para o veículo e o grupo reais"
+            "Sem reserva, cada pessoa paga a sua taxa mais a de um adulto",
+            "Nos parques por ordem de chegada, regista-te e paga à chegada"
           ]
         },
         {
           "heading": "Muitas vezes a água não é tratada",
           "body": [
-            "Muitos parques do DOC tiram a água de ribeiros ou de depósitos de água da chuva, sem qualquer tratamento. A giárdia existe nas águas da Nova Zelândia e um ribeiro cristalino não te diz nada sobre ela. Ferve a água durante pelo menos um minuto, filtra-a ou trata-a com produtos químicos, e não partas do princípio de que uma torneira é segura só por estar ali.",
+            "Muitos parques do DOC tiram a água de ribeiros ou de depósitos de água da chuva, sem qualquer tratamento. A giárdia existe nas águas da Nova Zelândia e um ribeiro cristalino não te diz nada sobre ela. Ferve a água durante pelo menos três minutos, filtra-a ou trata-a com produtos químicos, e não partas do princípio de que uma torneira é segura só por estar ali.",
             "Leva água potável que chegue para te aguentares um dia sem abastecimento. Os depósitos secam, aparecem avisos para ferver a água e um parque que surge listado com água pode ter o abastecimento avariado sem aviso prévio."
           ],
           "tips": []
@@ -1557,19 +1557,19 @@
         {
           "heading": "Geradores, drones e cães",
           "body": [
-            "O uso de geradores é restrito ou proibido em muitos parques e, onde é permitido, costuma estar limitado a certas horas. Na maioria dos casos, voar com um drone em terrenos públicos de conservação exige uma concessão, e fazê-lo por cima de um parque de campismo sem autorização é ilegal e cai muito mal.",
-            "Os cães são proibidos na maior parte dos terrenos públicos de conservação, pelo risco que representam para as aves que fazem ninho no chão e para o kiwi. Alguns parques aceitam-nos, a maioria não, e nalgumas zonas é preciso uma autorização. Confirma as regras do parque em causa em vez de presumires."
+            "As regras dos geradores variam de parque para parque, por isso consulta a página do DOC do parque antes de ligares um. Na maioria dos casos, voar com um drone em terrenos públicos de conservação exige uma concessão, e mesmo com autorização do DOC o drone tem de ficar longe dos parques de campismo e dos refúgios.",
+            "Por defeito, o DOC não permite cães em terrenos de conservação, a menos que tenha aprovado o acesso, e nos parques nacionais não são permitidos sem autorização, para proteger o kiwi e outras aves que fazem ninho no chão. Nos dados do DOC da KiwiCamping, 207 dos 287 parques de campismo não permitem cães e 74, cerca de um quarto, permitem-nos de alguma forma, sobretudo com trela ou com autorização do DOC. Confirma as regras do parque em causa em vez de presumires."
           ],
           "tips": [
             "Drones só com concessão em terreno do DOC",
             "Cães proibidos na maioria dos parques do DOC",
-            "Geradores restritos ou proibidos"
+            "As regras dos geradores variam por parque"
           ]
         },
         {
           "heading": "Estadia máxima e regras de convivência",
           "body": [
-            "A maioria dos <a data-guide=\"doc-campsites-new-zealand-guide\">parques de campismo do DOC</a> tem uma estadia máxima, normalmente de poucas noites seguidas, para evitar ocupações prolongadas. Os guardas fazem-na mesmo cumprir nos parques mais procurados no verão, e mudar o veículo uns metros não põe a contagem a zero.",
+            "Alguns <a data-guide=\"doc-campsites-new-zealand-guide\">parques de campismo do DOC</a> fixam uma estadia máxima na página do DOC, para evitar ocupações prolongadas, e um Campsite Pass cobre no máximo 7 noites em cada 30 dias no mesmo parque, com as noites extra pagas à taxa normal. Mudar o veículo uns metros não põe nenhum dos limites a zero.",
             "Fica dentro do lugar marcado, não te estendas para fora dele com toldos ou equipamento quando há pouco espaço e respeita as horas de silêncio. Estes parques são partilhados e estão muitas vezes cheios, e o bem-estar de todos depende de cada um ficar no seu espaço."
           ],
           "tips": []
@@ -1586,12 +1586,12 @@
         {
           "heading": "Se o parque estiver cheio",
           "body": [
-            "Os parques do DOC mais procurados enchem até meio da tarde no verão e não há zona extra. Improvisar um lugar a mais na relva, no caminho de acesso ou ao lado dos sanitários não é opção, e os guardas mandam-te seguir.",
+            "Os parques do DOC mais procurados podem estar cheios nas noites de verão, por isso não contes com uma zona extra. Improvisar um lugar a mais na relva, no caminho de acesso ou ao lado dos sanitários não é opção, e o pessoal do DOC pode mandar-te seguir.",
             "Define uma alternativa legal antes de chegares, não depois. Um <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> (parque de campismo privado, com bungalows e mais serviços) a meia hora de distância é uma solução muito melhor do que conduzir até tarde por uma estrada que não conheces à procura de qualquer sítio que te aceite."
           ],
           "tips": [
-            "Os mais procurados enchem a meio da tarde",
-            "Não há zona extra",
+            "Os mais procurados enchem no verão",
+            "Não contes com uma zona extra",
             "Tem um plano B antes de chegar"
           ]
         }
@@ -1599,16 +1599,19 @@
       "faq": [
         [
           "Quais são as regras de um parque de campismo do DOC?",
-          "Paga a taxa por cada adulto, acampa só nos lugares marcados, leva o lixo todo contigo, usa as casas de banho do parque e faz pouco barulho depois de escurecer. Fogueiras, cães e geradores são restritos ou proibidos consoante o parque, e os avisos no local prevalecem sobre tudo o que tenhas lido antes."
+          "Faz silêncio das 22h às 7h, sai até às 10h, leva todo o lixo e não tragas animais nem drones, a menos que o DOC os tenha autorizado. Fumar e usar cigarros eletrónicos são proibidos nos refúgios e nos blocos sanitários, e a página de cada parque acrescenta regras sobre fogueiras, cães, geradores e veículos."
         ],
         [
-          "Posso ficar mais de uma noite num parque de campismo do DOC?",
-          "Normalmente sim, embora nos parques mais procurados haja uma estadia máxima, indicada à entrada. Nos parques com muitas reservas no verão, esse limite é mesmo fiscalizado."
+          "Quanto tempo podes ficar num parque de campismo do DOC?",
+          "Alguns parques fixam uma estadia máxima na página do DOC, e um Campsite Pass cobre no máximo 7 noites em cada 30 dias no mesmo parque. Cada noite precisa de reserva ou de registo, exceto nos parques de campismo básicos gratuitos, e usar um lugar reservável sem reserva custa a cada pessoa a taxa normal mais a taxa completa de um adulto, ou uma taxa de 10 NZD para quem tem um Campsite Pass."
         ]
       ],
       "sources": [
         {
           "label": "DOC: condições de reserva de alojamento"
+        },
+        {
+          "label": "DOC: Campsite Pass"
         }
       ],
       "priceTable": null
@@ -1645,9 +1648,9 @@
           "tips": []
         },
         {
-          "heading": "Ninguém fica à porta",
+          "heading": "Refúgios cheios e reservas",
           "body": [
-            "Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição de sempre é que um refúgio cheio significa dormir no chão, não dar com a porta fechada. Não sigas caminho às escuras por os beliches estarem ocupados e, da mesma forma, não esperes que alguém te ceda o beliche que apanhou por ter chegado primeiro.",
+            "Nos refúgios sem reserva, os beliches são de quem chega primeiro, e a tradição de sempre é que um refúgio cheio significa dormir no chão, não dar com a porta fechada. Os refúgios com reserva, incluindo os dos Great Walks durante a época dos Great Walks, funcionam de outra forma: precisas de reserva e, sem ela, podem recusar-te. Não sigas caminho às escuras por os beliches estarem ocupados e, da mesma forma, não esperes que alguém te ceda o beliche que apanhou por ter chegado primeiro.",
             "Leva colchão isolante para que dormir no chão seja mesmo viável e, onde for permitido acampar e o tempo deixar, uma tenda dá-te uma alternativa a sério. Nos trilhos mais procurados no verão, planeia a contar que o refúgio vai estar cheio."
           ],
           "tips": [
@@ -1659,7 +1662,7 @@
         {
           "heading": "Preenche o livro do refúgio, sempre",
           "body": [
-            "O livro de registo (intentions book) é a primeira coisa que as equipas de busca e salvamento leem quando um grupo não regressa a tempo, e um registo rigoroso já encurtou muitas buscas. Aponta a data, quem vai no grupo, de onde vens e para onde segues.",
+            "O livro de registo (intentions book) é um dos primeiros sítios que as equipas de busca e salvamento consultam quando um grupo não regressa a tempo, e um registo rigoroso já encurtou muitas buscas. Aponta a data, quem vai no grupo, de onde vens e para onde segues.",
             "Onde o livro o permitir, regista a saída além da chegada. Um grupo que aparece como tendo chegado e nunca saído dá origem a uma busca que não era precisa."
           ],
           "tips": []
@@ -1689,7 +1692,7 @@
           "body": [
             "Um <a data-guide=\"doc-huts-new-zealand-guide\">refúgio de montanha</a> junta numa só sala uma dúzia de pessoas que nunca se viram, depois de um dia duro. Quase toda a etiqueta vem daí: mantém as tuas coisas no teu espaço, não ponhas um fogareiro nem uma luz forte na cara de ninguém e aceita que alguém vai ressonar.",
             "Oferece lugar no banco e nos beliches sem esperares que te peçam. Quem chega tarde vem normalmente molhado e com frio, e a diferença entre um refúgio acolhedor e um refúgio miserável depende só de quem lá chegou primeiro.",
-            "Depois de escurecer, lanterna frontal em modo vermelho, e arruma a mochila no alpendre se fores sair antes dos outros. Fazer barulho com um saco estanque às 5h é, de longe, o comportamento que mais queixas dá nos refúgios da Nova Zelândia."
+            "Depois de escurecer, lanterna frontal em modo vermelho, e arruma a mochila no alpendre se fores sair antes dos outros. Fazer barulho com um saco estanque às 5h é uma das queixas mais comuns nos refúgios da Nova Zelândia."
           ],
           "tips": []
         },
@@ -1718,7 +1721,7 @@
       ],
       "sources": [
         {
-          "label": "DOC: categorias de refúgios"
+          "label": "DOC: reservar e pagar refúgios"
         }
       ],
       "priceTable": null
@@ -1834,8 +1837,8 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Biossegurança na Nova Zelândia: equipamento de campismo e caminhada",
-      "description": "Na Nova Zelândia, declara os artigos de risco na fronteira e limpa o equipamento de campismo antes de o levares de um rio, lago ou floresta para outro.",
+      "title": "Biossegurança na Nova Zelândia: declara botas e material de campismo",
+      "description": "As botas usadas, as tendas e o material de pesca têm de ser declarados à chegada à Nova Zelândia. O que limpar antes de voares e como evitar levar pragas de um rio para outro.",
       "region": "Fronteira e natureza da Nova Zelândia",
       "imageAlt": "Botas de caminhada limpas, prontas para o controlo de biossegurança da Nova Zelândia",
       "intro": "O equipamento de outdoor já usado pode trazer sementes, terra, insetos e pragas aquáticas. A biossegurança começa na fronteira e continua sempre que o equipamento passa de um ecossistema neozelandês para outro.",
@@ -1944,8 +1947,8 @@
       "priceTable": null
     },
     "sandflies-new-zealand-camping": {
-      "title": "Sandflies na Nova Zelândia: como evitar as picadas ao acampar",
-      "description": "Na West Coast, em Fiordland e nas áreas de campismo húmidas no meio do mato, precisas de redes mosquiteiras, repelente e uma rotina pensada para quando chegas.",
+      "title": "Picadas de sandflies na Nova Zelândia: como acampar com menos",
+      "description": "Repelente, roupa, escolha do lugar e rotina de chegada com a porta fechada na West Coast, em Fiordland e nos parques húmidos no mato onde as sandflies mais picam.",
       "region": "West Coast e Fiordland",
       "imageAlt": "Parque de campismo em Fiordland perto de uma zona de sandflies",
       "intro": "As sandflies (pequenas moscas negras que picam) atacam com mais força junto à água, em margens húmidas e abrigadas, sobretudo na West Coast e em Fiordland. São mais irritantes do que outra coisa e não justificam evitar a região, mas pequenos hábitos no acampamento fazem uma grande diferença.",
@@ -2155,8 +2158,8 @@
       "priceTable": null
     },
     "volcanic-safety-new-zealand-travel": {
-      "title": "Segurança em zonas vulcânicas: Tongariro, Ruapehu e Rotorua",
-      "description": "Os níveis de alerta, os trilhos fechados e as barreiras nas zonas geotérmicas existem por uma razão: o perigo pode mudar sem nenhum sinal que se veja a tempo.",
+      "title": "Segurança vulcânica na Nova Zelândia: alertas GeoNet e trilhos",
+      "description": "O que significam os alertas vulcânicos da GeoNet em Tongariro, Ruapehu e Rotorua, como o DOC fecha trilhos e como te manteres em segurança junto a zonas geotérmicas.",
       "region": "Centro da North Island",
       "imageAlt": "Paisagem vulcânica no Tongariro National Park",
       "intro": "As zonas vulcânicas são sistemas ativos, não cenários de postal. Os níveis de alerta da GeoNet (o serviço público que vigia vulcões e sismos na Nova Zelândia), os encerramentos decididos pelo DOC (Department of Conservation, o serviço público que gere os parques e as áreas protegidas) e as instruções dos operadores locais mostram partes diferentes do quadro de segurança, e convém consultá-los todos.",
@@ -2268,8 +2271,8 @@
       "priceTable": null
     },
     "river-crossing-safety-new-zealand": {
-      "title": "Atravessar rios a vau na Nova Zelândia em segurança",
-      "description": "Na Nova Zelândia, a chuva a montante pode transformar um vau conhecido num obstáculo intransponível, e voltar para trás é muitas vezes a única técnica segura.",
+      "title": "Travessia de rios na Nova Zelândia: quando atravessar e quando não",
+      "description": "Os rios da Nova Zelândia sobem depressa depois da chuva. Como avaliar uma travessia, quando esperar que desça e porque voltar para trás é normalmente a resposta certa.",
       "region": "Rios da Nova Zelândia",
       "imageAlt": "Rio de corrente rápida a cortar um percurso remoto na Nova Zelândia",
       "intro": "Os rios estão na origem de incidentes graves nas zonas remotas porque a profundidade, a velocidade da corrente e a estabilidade do leito são difíceis de avaliar a partir da margem. Um ponto de retorno planeado vale mais do que uma técnica de travessia decorada.",
@@ -2488,8 +2491,8 @@
       "priceTable": null
     },
     "new-zealand-road-signs-visitors": {
-      "title": "Sinais de trânsito na Nova Zelândia: o que precisas de saber",
-      "description": "Na Nova Zelândia, os sinais de regulamentação, de perigo e temporários leem-se em conjunto com as marcas rodoviárias e com o estado da estrada e do tempo.",
+      "title": "Sinais de trânsito na Nova Zelândia: significado para visitantes",
+      "description": "Os sinais de cedência de passagem, de ponte de uma via, de velocidade recomendada e de perigo na Nova Zelândia, e as situações que apanham os visitantes desprevenidos nas estradas rurais.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Sinal de aviso de ponte de uma via na Nova Zelândia",
       "intro": "Os sinais neozelandeses assentam em ideias internacionais conhecidas, mas há situações na estrada que surpreendem os visitantes. A prioridade nas pontes de uma via, as velocidades aconselhadas nas curvas e as restrições temporárias têm de ser reconhecidas antes de a estrada estreitar.",
@@ -2554,7 +2557,7 @@
           "heading": "Vias de ultrapassagem e zonas de encosto para veículos lentos",
           "body": [
             "Nas estradas principais da Nova Zelândia há poucas vias de ultrapassagem. Se fores mais lento do que o trânsito atrás de ti, o que se espera, e o que é educado, é usares a zona de encosto para veículos lentos ou encostares onde for seguro para deixar passar. É mais do que boas maneiras: os condutores que seguem atrás, impacientes, provocam acidentes em ultrapassagens.",
-            "Não aceleres numa via de ultrapassagem quando alguém te está a ultrapassar. Se tiveres cinco ou mais veículos em fila atrás de ti, a lei obriga-te a encostar assim que for seguro."
+            "Não aceleres numa via de ultrapassagem quando alguém te está a ultrapassar. Se a tua velocidade estiver a atrasar o trânsito, as regras de trânsito obrigam-te a encostar à esquerda e a deixar passar assim que for seguro."
           ],
           "tips": []
         },
@@ -2598,8 +2601,8 @@
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Conduzir uma campervan na Nova Zelândia: regras e segurança",
-      "description": "Dimensões, passageiros, peso e restrições do aluguer: o que saber sobre a tua campervan antes que uma estrada estreita da Nova Zelândia te mostre o tamanho dela.",
+      "title": "Regras de condução de campervan na Nova Zelândia (2026)",
+      "description": "Conduzir uma campervan na Nova Zelândia: o que cobre a carta de ligeiros, limites de velocidade, vento em estradas expostas, medidas para o ferry e os erros típicos dos visitantes.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Campervan grande numa estrada estreita da Nova Zelândia",
       "intro": "Uma campervan pode ser conduzida legalmente com uma carta Class 1 (a carta de ligeiros neozelandesa) e, ainda assim, ser muito diferente de um carro ao volante. Na entrega do veículo, tens de ficar a saber a altura, a largura, o comprimento e o peso com carga, e todas as estradas que o contrato de aluguer exclui.",
@@ -2632,7 +2635,7 @@
           "heading": "Sabe as medidas do veículo antes de arrancar",
           "body": [
             "Aponta a altura, o comprimento e o peso do veículo e deixa-os à vista do condutor. A altura é a que provoca os estragos caros: em entradas de parques de estacionamento, drive-throughs, coberturas de bombas de gasolina e algumas passagens inferiores nas cidades.",
-            "Antes de saíres da agência, verifica os espelhos, os ângulos mortos e a câmara de marcha-atrás e dá uma volta a pé ao veículo. A maior parte dos danos nas campervans de aluguer acontece nos dois primeiros dias, a baixa velocidade, em parques de estacionamento."
+            "Antes de saíres da agência, verifica os espelhos, os ângulos mortos e a câmara de marcha-atrás e dá uma volta a pé ao veículo. Muitos dos danos nas campervans de aluguer acontecem a baixa velocidade, em parques de estacionamento."
           ],
           "tips": [
             "Aponta a altura no tablier",
@@ -2652,11 +2655,11 @@
           "heading": "Vento: porque conta mais aqui",
           "body": [
             "Um veículo alto apanha muito vento lateral, e a Nova Zelândia é um país ventoso, com estradas costeiras, pontes e passagens de montanha expostas. Tanto ultrapassar um camião como sair de uma trincheira dão empurrões laterais repentinos.",
-            "Nos troços expostos, segura bem o volante com as duas mãos, abranda antes da rajada e não durante, e fica a saber que alguns percursos fecham a veículos altos quando há vento forte, como a Rimutaka Hill Road e partes da Desert Road."
+            "Nos troços expostos, segura bem o volante com as duas mãos, abranda antes da rajada e não durante, e consulta o planeador de viagens (Journey Planner) da NZTA antes de uma travessia exposta: a Remutaka Hill Road (SH2) fecha com vento forte, e outras estradas expostas têm avisos de vento."
           ],
           "tips": [
             "Abranda antes do troço exposto",
-            "Algumas estradas fecham a veículos altos",
+            "Algumas estradas fecham com vento forte",
             "Camiões e trincheiras trazem rajadas repentinas"
           ]
         },
@@ -2664,7 +2667,7 @@
           "heading": "Ultrapassar e ser ultrapassado",
           "body": [
             "Uma campervan acelera devagar, por isso precisa de muito mais estrada livre para ultrapassar do que um carro, e raramente vale a pena tentar. A maior parte das estradas principais da Nova Zelândia tem uma faixa para cada lado, poucas vias de ultrapassagem e um mau historial de acidentes em ultrapassagens.",
-            "Quando se formar fila atrás de ti, encosta num sítio seguro e deixa passar. Se tiveres cinco ou mais veículos atrás, és obrigado a fazê-lo assim que for seguro, e isso ainda tira a pressão que leva as pessoas a fazer ultrapassagens perigosas."
+            "Quando se formar fila atrás de ti, encosta num sítio seguro e deixa passar. Se estiveres a atrasar o trânsito, as regras de trânsito obrigam-te a encostar à esquerda e a deixar passar assim que for seguro, e isso ainda tira a pressão que leva as pessoas a fazer ultrapassagens perigosas."
           ],
           "tips": []
         },
@@ -2680,13 +2683,13 @@
         {
           "heading": "Ferries, túneis e limites de altura",
           "body": [
-            "As tarifas do ferry do <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> dependem do comprimento e da altura do veículo, e as duas medidas são verificadas. Alguns túneis urbanos e pontes mais antigas têm limites de altura ou de peso, e há percursos que fecham a veículos altos com vento forte.",
+            "Os preços dos veículos no ferry do <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> dependem do comprimento, incluindo suportes de bicicletas e engates de reboque, e o comprimento é verificado no check-in. Alguns túneis urbanos e pontes mais antigas têm limites de altura ou de peso, e alguns percursos expostos fecham com vento forte.",
             "Sabe as medidas exatas do veículo e confronta-as com qualquer percurso que tenha um túnel, uma ponte baixa ou uma reserva de ferry. É por fazer as contas a olho que se acaba a pagar um acerto caro no terminal, ou pior, na estrada."
           ],
           "tips": [
             "As tarifas do ferry dependem do tamanho",
             "Sabe a altura e o comprimento exatos",
-            "Há percursos fechados a carrinhas altas"
+            "Percursos expostos podem fechar com vento forte"
           ]
         }
       ],
@@ -2708,8 +2711,8 @@
       "priceTable": null
     },
     "wof-registration-campervan-new-zealand": {
-      "title": "WoF e registo de uma campervan de aluguer na Nova Zelândia",
-      "description": "Na Nova Zelândia, ter o autocolante da inspeção em dia é só uma parte do que é preciso para provar que um veículo pode circular legalmente na estrada.",
+      "title": "WoF e registo (rego) de campervan na Nova Zelândia: o que verificar",
+      "description": "Como funcionam o Warrant of Fitness (WoF, a inspeção técnica) e o registo de uma campervan na Nova Zelândia, as datas de validade e o que significa um WoF caducado.",
       "region": "Veículos na Nova Zelândia",
       "imageAlt": "Etiquetas de inspeção e de registo de um veículo na Nova Zelândia",
       "intro": "As campervans ligeiras precisam, em regra, de um Warrant of Fitness (WoF, a inspeção periódica de segurança) e de uma licença de circulação em dia, enquanto as mais pesadas ou as de transporte de passageiros podem estar sujeitas a outros sistemas de inspeção. Confirma o caso do veículo concreto em vez de partires do princípio de que a categoria do aluguer responde a isso.",
@@ -2818,8 +2821,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Rebocar uma caravana na Nova Zelândia",
-      "description": "Na Nova Zelândia, o máximo de 90 km/h a rebocar, os pesos com carga e a distância de quatro segundos para o carro da frente são o ponto de partida, não a meta.",
+      "title": "Rebocar caravana na Nova Zelândia: carta, peso e limite de 90 km/h",
+      "description": "Máximo de 90 km/h com engate de reboque, 50 km/h com corda, 6.000 kg de peso combinado com a carta de ligeiros definitiva, mais carga, oscilação e as estradas a fazer devagar.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Carro a rebocar uma caravana numa estrada da Nova Zelândia",
       "intro": "Uma caravana estável depende de um conjunto legal, de uma carga correta e de um condutor que abranda antes de a estrada o obrigar. Com as curvas e o vento da Nova Zelândia, a velocidade máxima permitida deixa de interessar em muitos troços.",
@@ -2835,7 +2838,7 @@
         {
           "heading": "Velocidade e distância de segurança",
           "body": [
-            "Com ligação rígida, a velocidade máxima a rebocar fora das localidades é de 90 km/h. Anda mais devagar sempre que a estabilidade, a visibilidade, o tempo ou a estrada o exigirem.",
+            "Com uma ligação rígida, como um engate de reboque, a velocidade máxima a rebocar fora das localidades é de 90 km/h. Com uma corda ou outra ligação não rígida, o limite é de 50 km/h em qualquer estrada. Anda mais devagar sempre que a estabilidade, a visibilidade, o tempo ou a estrada o exigirem.",
             "Deixa pelo menos quatro segundos para o veículo da frente, e mais com mau tempo. Trava antes das curvas e engrena uma mudança mais baixa nas descidas."
           ],
           "tips": []
@@ -2851,8 +2854,8 @@
         {
           "heading": "A rebocar, os limites de velocidade são mais baixos",
           "body": [
-            "Os reboques ligeiros e as caravanas estão limitados a 90 km/h fora das localidades, abaixo do limite geral de 100 km/h, e os conjuntos com reboques pesados também não podem passar dos 90 km/h. O limite aplica-se seja qual for a velocidade sinalizada, e é fiscalizado.",
-            "Deixa muito mais distância para o veículo da frente do que deixarias num carro. Com reboque, a distância de travagem aumenta bastante, e os acidentes mais comuns com reboques aqui acontecem quando falta espaço para travar numa descida."
+            "Os reboques ligeiros e as caravanas estão limitados a 90 km/h fora das localidades, abaixo do limite geral de 100 km/h, e os conjuntos com reboques pesados também não podem passar dos 90 km/h. É um máximo, não uma meta: onde estiver sinalizado um limite mais baixo, aplica-se o mais baixo.",
+            "Deixa muito mais distância para o veículo da frente do que deixarias num carro. Com reboque, a distância de travagem aumenta bastante, sobretudo nas descidas longas."
           ],
           "tips": [
             "90 km/h no máximo a rebocar",
@@ -2883,7 +2886,7 @@
         {
           "heading": "Estradas em que vale a pena pensar duas vezes",
           "body": [
-            "Tākaka Hill, a Crown Range, a Rimutaka Hill Road, a 309 Road e boa parte da costa de Coromandel são exigentes com caravana, e algumas são proibidas ou muito desaconselhadas para conjuntos grandes. Informa-te antes de te meteres nelas, porque muitas vezes não há onde dar a volta.",
+            "Tākaka Hill, a Crown Range, a Remutaka Hill Road, a 309 Road, sem alcatrão, e boa parte da costa de Coromandel são íngremes, apertadas e lentas com caravana, e a Remutaka Hill (SH2) fecha com vento forte. Confirma o estado das estradas e eventuais restrições antes de te meteres nelas, porque muitas vezes não há onde dar a volta.",
             "Nas descidas, engrena uma mudança baixa e usa o travão-motor em vez de ires sempre com o pé no travão, que perde eficácia. Encosta regularmente para deixar passar quem vem atrás, por cortesia e porque uma fila atrás de ti aumenta o risco nas ultrapassagens."
           ],
           "tips": []
@@ -2900,7 +2903,7 @@
         {
           "heading": "Vento e estradas expostas",
           "body": [
-            "Uma caravana é uma grande superfície plana, e o vento lateral é a principal causa de perda de controlo a rebocar. Os troços expostos à volta de Wellington, a Desert Road, o Mackenzie e a costa de Canterbury são conhecidos por isso.",
+            "Uma caravana é uma grande superfície plana, e o vento lateral é uma das principais causas de oscilação e de perda de controlo a rebocar. Os troços expostos à volta de Wellington, a Desert Road, o Mackenzie e a costa de Canterbury são conhecidos por isso.",
             "Abranda antes dos troços expostos em vez de reagires já dentro deles, e tem especial cuidado ao sair de uma trincheira ou ao passar por um camião, onde o vento bate e desaparece de repente."
           ],
           "tips": [
@@ -2913,23 +2916,23 @@
       "faq": [
         [
           "Qual é o limite de velocidade a rebocar na Nova Zelândia?",
-          "90 km/h, abaixo do limite de 100 km/h fora das localidades, e aplica-se diga o sinal o que disser. Além disso, tudo o que rebocares tem de estar dentro da capacidade de reboque homologada do teu veículo, que é um limite legal e não uma simples recomendação."
+          "90 km/h fora das localidades com um engate de reboque ou outra ligação rígida, abaixo do limite geral de 100 km/h, e qualquer limite inferior sinalizado continua a aplicar-se. Rebocar com uma corda ou outra ligação não rígida baixa o limite para 50 km/h em qualquer lado."
         ],
         [
           "É preciso uma carta especial para rebocar uma caravana na Nova Zelândia?",
-          "Uma carta de ligeiros definitiva abrange a maioria dos conjuntos até 4.500 kg de peso total. Acima disso precisas de uma categoria superior, e os contratos de aluguer impõem muitas vezes limites próprios, mais baixos do que os legais."
+          "Normalmente não. Uma carta de ligeiros definitiva permite rebocar quando o veículo, o reboque e a carga pesam juntos no máximo 6.000 kg; com uma carta de aprendizagem ou restrita, o limite é de 4.500 kg. Os contratos de aluguer podem impor limites próprios, mais baixos."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: autocaravanas, caravanas e reboques ligeiros"
+          "label": "NZTA Road Code: carga e reboque seguros em veículos ligeiros"
         }
       ],
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Limites de velocidade na Nova Zelândia: conduzir a um ritmo seguro",
-      "description": "Na Nova Zelândia, o limite de velocidade sinalizado é um máximo para quando as condições são boas, e em muitas estradas rurais o ritmo seguro fica muito abaixo.",
+      "title": "Limites de velocidade na Nova Zelândia 2026: 100 km/h, reboque 90",
+      "description": "Limites de velocidade na Nova Zelândia para visitantes e campervans: 100 km/h fora das localidades, 50 km/h nas localidades, 90 km/h a rebocar, e quando ir mais devagar.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Sinal de limite de velocidade numa estrada rural da Nova Zelândia",
       "intro": "Um limite legal não garante que uma estrada se possa fazer a essa velocidade. Curvas, chuva, gravilha, gado, ciclistas e uma campervan a que não estás habituado, tudo isso baixa o ritmo seguro.",
@@ -2973,8 +2976,8 @@
         {
           "heading": "A fiscalização é mais apertada do que muitos visitantes esperam",
           "body": [
-            "A margem de tolerância é pequena, há radares por todo o lado, incluindo móveis, e as multas vão para o titular do registo do veículo: num aluguer, chegam à empresa, que te passa a conta com um custo administrativo por cima. Os pontos não contam para cartas estrangeiras, mas as multas contam, e de que maneira.",
-            "Nos últimos anos multiplicaram-se tanto os controlos de velocidade média como os limites mais baixos nas estradas rurais. Parte do princípio de que qualquer estrada pode estar vigiada, em vez de andares à procura de radares."
+            "A margem de tolerância é pequena, há radares por todo o lado, incluindo móveis, e as multas vão para o titular do registo do veículo: num aluguer, chegam à empresa, que te passa a conta com um custo administrativo por cima. As infrações apanhadas pela polícia contam pontos de penalização mesmo com uma <a data-guide=\"overseas-driver-licence-new-zealand\">carta estrangeira</a>, e as multas também se aplicam.",
+            "Os radares de velocidade média multiplicaram-se desde o final de 2025, por isso parte do princípio de que qualquer estrada pode estar vigiada, em vez de andares à procura de radares."
           ],
           "tips": []
         },
@@ -3002,7 +3005,7 @@
           "heading": "Limites variáveis e reduzidos",
           "body": [
             "Junto às escolas, os limites descem a horas definidas e são sinalizados com painéis intermitentes ou variáveis. Nas obras há limites temporários que se aplicam haja ou não alguém a trabalhar à vista, e são fiscalizados com a mesma pequena tolerância dos limites permanentes.",
-            "Em várias estradas principais rurais, o limite baixou dos 100 km/h depois de revisões de segurança, e a mudança nem sempre é evidente se te guias por um mapa antigo ou por uma visita anterior. Lê os sinais em vez de partires do princípio de que se aplica o limite fora das localidades.",
+            "Algumas estradas rurais têm limites abaixo de 100 km/h, e muitos limites reduzidos voltaram a subir em 2025, por isso um mapa antigo ou uma visita anterior podem estar errados num sentido ou no outro. Lê os sinais em vez de partires do princípio de que se aplica o limite fora das localidades.",
             "Nas estradas de terra batida, o limite sinalizado continua muitas vezes a ser de 100 km/h, o que está muito longe de uma velocidade segura em gravilha. Aqui, o limite é mesmo só um máximo legal, não uma indicação do que o piso aguenta."
           ],
           "tips": []
@@ -3011,7 +3014,7 @@
           "heading": "Como funcionam os radares e as multas",
           "body": [
             "Há radares fixos e móveis em todo o país, e a tolerância é pequena. As multas vão para o titular do registo do veículo, por isso, num aluguer, é a empresa que as recebe e depois te cobra o valor, com um custo administrativo por cima.",
-            "Os pontos de penalização não se aplicam a uma <a data-guide=\"overseas-driver-licence-new-zealand\">carta estrangeira</a>, mas as multas sim, e as que ficarem por pagar podem ir atrás de ti. Paga-as em vez de partires do princípio de que desaparecem quando saíres do país."
+            "As multas de radar não dão pontos de penalização, mas as infrações em que a polícia te manda parar dão, mesmo com uma <a data-guide=\"overseas-driver-licence-new-zealand\">carta estrangeira</a>; 100 pontos em dois anos significam três meses de proibição de conduzir na Nova Zelândia. Paga as multas em vez de partires do princípio de que desaparecem quando saíres do país."
           ],
           "tips": [
             "Margem de tolerância pequena",
@@ -3038,8 +3041,8 @@
       "priceTable": null
     },
     "alcohol-fatigue-driving-new-zealand": {
-      "title": "Álcool e cansaço ao volante na Nova Zelândia",
-      "description": "Estar dentro do limite legal de álcool não quer dizer que estejas em segurança, e o jet lag pode afetar a primeira condução antes mesmo de a viagem começar.",
+      "title": "Taxa de alcoolemia na Nova Zelândia: limite para visitantes (2026)",
+      "description": "Limite: 250 microgramas por litro de ar expirado a partir dos 20 anos, zero abaixo dos 20. Como funciona um controlo e porque a primeira condução depois do voo deve ser curta.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Condutor a descansar junto a uma campervan antes de seguir viagem",
       "intro": "Muitos visitantes juntam no mesmo dia um voo longo, um veículo que não conhecem e a condução pela esquerda. Encara o descanso como parte da reserva e mantém o álcool totalmente à parte de qualquer responsabilidade ao volante.",
@@ -3091,12 +3094,12 @@
         {
           "heading": "Nesta viagem, o cansaço é o risco maior",
           "body": [
-            "A chegada de um voo de longo curso, o jet lag, um veículo que não conheces, conduzir do lado contrário e estradas cheias de curvas são uma má combinação, e o cansaço pesa numa parte importante dos acidentes com visitantes na Nova Zelândia. As primeiras 48 horas depois de chegares são o período de maior risco de toda a viagem.",
-            "Não levantes uma campervan para conduzir quatro horas no dia em que chegas. Dorme perto do aeroporto na primeira noite, faz um primeiro <a data-guide=\"new-zealand-driving-day-planner\">dia de condução</a> curto e, se puderes, troca de condutor com regularidade."
+            "A chegada de um voo de longo curso, o jet lag, um veículo que não conheces, conduzir do lado contrário e estradas cheias de curvas são uma má combinação, e os troços longos e sinuosos entre localidades deixam pouca margem a um condutor cansado. Faz o primeiro <a data-guide=\"new-zealand-driving-day-planner\">dia de condução</a> curto, antes de o corpo se ajustar ao novo fuso horário.",
+            "Não levantes uma campervan para conduzir quatro horas no dia em que chegas. Dorme perto do aeroporto na primeira noite, faz um primeiro dia de condução curto e, se puderes, troca de condutor com regularidade."
           ],
           "tips": [
             "Pouca estrada no dia da chegada",
-            "As primeiras 48 horas são as de maior risco",
+            "Faz o primeiro dia de condução curto",
             "Troca de condutor de duas em duas horas"
           ]
         },
@@ -3121,12 +3124,12 @@
           "heading": "O que acontece numa operação stop",
           "body": [
             "A polícia pode mandar parar qualquer veículo e pedir um teste de alcoolemia ao ar expirado sem ter qualquer suspeita. Há operações stop em estradas rurais e a qualquer hora, não só de madrugada perto das cidades.",
-            "O teste demora segundos. Recusá-lo é uma infração por si só e é tratado com mais severidade do que um resultado positivo, por isso não ganhas nada em recusar."
+            "O teste de despistagem demora segundos. Se o falhares, ou se não o fizeres ou não conseguires completá-lo, a polícia pode exigir um teste de alcoolemia com valor probatório ou uma análise ao sangue, e recusar uma análise ao sangue exigida é uma infração com penas semelhantes às da condução sob o efeito do álcool. Não ganhas nada em recusar."
           ],
           "tips": [
             "Qualquer veículo pode ser mandado parar",
             "Há operações stop a qualquer hora",
-            "Recusar é pior do que acusar positivo"
+            "Recusar uma análise ao sangue é uma infração"
           ]
         }
       ],
@@ -3151,8 +3154,8 @@
       "priceTable": null
     },
     "left-side-driving-new-zealand": {
-      "title": "Conduzir pela esquerda na Nova Zelândia pela primeira vez",
-      "description": "Na Nova Zelândia, é nas viragens, nas rotundas e ao voltar a arrancar numa estrada sossegada que o velho hábito de conduzir pela direita teima em voltar.",
+      "title": "Conduzir pela esquerda na Nova Zelândia: guia do primeiro dia",
+      "description": "A Nova Zelândia conduz pela esquerda. Como funcionam as rotundas e as regras de cedência de passagem de 2012, e como afastar os velhos hábitos no primeiro dia de campervan.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Vista da condução pela esquerda numa estrada da Nova Zelândia",
       "intro": "Não esquecer a esquerda é mais fácil com trânsito a circular e mais difícil depois de uma paragem, numa estrada vazia ou ao virar. Cria verificações simples, que resistam à distração e ao cansaço.",
@@ -3217,7 +3220,7 @@
           "heading": "Rotundas e cedência de passagem",
           "body": [
             "Nas rotundas circula-se no sentido dos ponteiros do relógio e cede-se a passagem a quem vem da direita, exatamente o contrário do que espera quem conduz pela direita. Aproxima-te devagar, olha para a direita e só avança quando tiveres a certeza. Nas rotundas com várias vias, tens de entrar já na via certa, indicada no chão.",
-            "Nos cruzamentos, a regra atual é que quem vira cede a passagem a quem segue em frente. As orientações publicadas antes de 2012 dizem o contrário e ainda circulam muito, por isso ignora tudo o que não bata certo com isto."
+            "Nos cruzamentos, quem vai virar cede a passagem a quem segue em frente, uma regra de longa data. As duas mudanças de 25 de março de 2012 são as que os visitantes não conhecem: se vais virar à direita, cedes a passagem ao trânsito em sentido contrário que vira à esquerda, e num cruzamento em T o trânsito da estrada que acaba cede a passagem a todo o trânsito da estrada que continua. Os guias escritos antes de 2012 descrevem a antiga regra da viragem à direita, por isso ignora-os."
           ],
           "tips": []
         },
@@ -3587,8 +3590,8 @@
       "priceTable": null
     },
     "cook-strait-ferry-campervan-guide": {
-      "title": "Ferry do Cook Strait com campervan: reserva e embarque",
-      "description": "No ferry do Cook Strait com uma campervan, as medidas do veículo, a hora do check-in e a margem para o mau tempo contam mais do que o horário da travessia.",
+      "title": "Ferry do Cook Strait com campervan: preços e reserva 2026",
+      "description": "Interislander ou Bluebridge com uma campervan: como o comprimento do veículo define o preço, quando reservar, o check-in e o que fazer antes de embarcar.",
       "region": "Wellington e Picton",
       "imageAlt": "Ferry do Cook Strait a entrar no porto de Picton",
       "intro": "O ferry é o que junta as viagens pelas duas ilhas numa só, e é a parte menos flexível de todo o itinerário. Funciona mais como um dia de transporte com reserva do que como uma paragem para ver a paisagem, e os dois pormenores que dão mais problemas são as medidas do veículo que declaraste e aquilo que marcaste logo a seguir.",
@@ -3596,7 +3599,7 @@
         {
           "heading": "Declara as medidas exatas do veículo",
           "body": [
-            "As tarifas dependem do comprimento e da altura totais, e totais quer dizer com tudo o que vai preso ao veículo: suportes de bicicletas, caixas de tejadilho, caiaques, um toldo saliente, um atrelado. Se declarares medidas a menos, pagas a diferença no check-in e, numa travessia cheia, às vezes ficas mesmo sem lugar.",
+            "Os preços dependem do comprimento total, e total quer dizer com tudo o que vai preso ao veículo: suportes de bicicletas, engate de reboque, um toldo saliente, um reboque. Se declarares medidas a menos, pagas a diferença no check-in e, numa travessia cheia, às vezes ficas mesmo sem lugar.",
             "Mede em vez de estimar e, se vais levantar um veículo de aluguer, pede as medidas à empresa antes de reservares a travessia. A diferença entre reservar para um carro e para uma campervan é tão grande que adivinhar sai caro nos dois sentidos."
           ],
           "tips": [
@@ -3687,8 +3690,8 @@
       "priceTable": null
     },
     "new-zealand-driving-day-planner": {
-      "title": "Quantos quilómetros fazer por dia na Nova Zelândia (e quantas horas)",
-      "description": "Com estradas de montanha, pontes de uma via e paragens para ver a paisagem, os quilómetros dizem pouco sobre o esforço de um dia de condução na Nova Zelândia.",
+      "title": "Distâncias e tempos de condução na Nova Zelândia: quanto por dia",
+      "description": "Porque os quilómetros na Nova Zelândia demoram mais do que o mapa diz: estradas de montanha, pontes de uma via, paragens e quantos quilómetros planear num dia de campervan.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Estrada sinuosa entre colinas na Nova Zelândia",
       "intro": "As estradas da Nova Zelândia castigam os itinerários feitos só a contar com a distância. Duzentos e cinquenta quilómetros são uma manhã tranquila numa estrada a direito, mas um dia inteiro e cansativo entre as curvas da costa e as pontes de uma via. Planeia em função do tipo de estrada e da luz do dia disponível, e usa os quilómetros só como primeira verificação de bom senso.",
@@ -3790,7 +3793,7 @@
       "title": "Como planear uma viagem completa na KiwiCamping",
       "description": "Ordena as paragens, vê a distância do percurso e mantém datas, notas e tarefas ao lado do itinerário.",
       "region": "App KiwiCamping",
-      "imageAlt": "Planeador de viagens da KiwiCamping num iPhone",
+      "imageAlt": "Estrada em direção a Aoraki / Mount Cook sob um céu azul",
       "intro": "Uma viagem útil é mais do que uma linha entre marcadores guardados. O planeador junta o percurso, a distância, as datas, as notas e as pequenas tarefas num só sítio, para que o plano sobreviva ao momento em que tiver de mudar, o que numa viagem pela Nova Zelândia acontece normalmente lá para o terceiro dia.",
       "sections": [
         {
@@ -3848,7 +3851,7 @@
         {
           "heading": "Prepara a viagem para quando não houver rede",
           "body": [
-            "Abre as paragens essenciais antes de ficares sem rede. Os detalhes base de cada local vêm incluídos e continuam legíveis offline, mas a navegação em direto, a meteorologia atual, as páginas de reserva dos operadores e algumas imagens do mapa precisam de ligação, e a West Coast, Fiordland, o East Cape e o interior de Otago vão tirar-ta sem aviso.",
+            "Abre as paragens essenciais antes de ficares sem rede. Os detalhes base de cada local vêm incluídos e continuam legíveis offline, mas a navegação em direto, a meteorologia atual, as páginas de reserva dos operadores e algumas partes do mapa precisam de ligação, e a West Coast, Fiordland, o East Cape e o interior de Otago vão tirar-ta sem aviso.",
             "Tira captura de tudo o que seria caro perder: a confirmação da reserva, a nota de acesso, o telefone do parque. Uma captura sobrevive a um reinício com a bateria a zero, a uma sessão perdida e a uma app que não abres há três dias."
           ],
           "tips": []
@@ -3883,7 +3886,7 @@
       "title": "Como guardar e organizar locais na KiwiCamping",
       "description": "Mantém separadas as estadias confirmadas, as boas alternativas e as ideias para o futuro, sem as perder no mapa.",
       "region": "App KiwiCamping",
-      "imageAlt": "Listas de locais guardados na KiwiCamping",
+      "imageAlt": "Areia dourada e água turquesa em Torrent Bay, no Parque Nacional Abel Tasman",
       "intro": "Guardar todos os marcadores interessantes num só monte só muda o problema da pesquisa de sítio. Um pouco de estrutura, decidida cedo, mantém milhares de parques de campismo, refúgios e holiday parks utilizáveis ao longo de várias viagens, em vez de se tornarem uma lista que deixas de abrir.",
       "sections": [
         {
@@ -3976,7 +3979,7 @@
       "title": "Encontra mais depressa o parque certo com os filtros da KiwiCamping",
       "description": "Refina por tipo de local, instalações, preço e acesso sem esconder todas as alternativas viáveis.",
       "region": "App KiwiCamping",
-      "imageAlt": "Filtros de locais da KiwiCamping num iPhone",
+      "imageAlt": "Caravanas estacionadas no parque de campismo de Lake Clearwater, sob picos nevados em Canterbury",
       "intro": "Os filtros são mais úteis quando cada um representa um verdadeiro motivo de exclusão e não uma preferência. Filtrar demais é o erro comum: dá três resultados, esconde a alternativa sensata a vinte minutos e deixa a falsa impressão de que a zona não tem nada.",
       "sections": [
         {
@@ -4066,20 +4069,20 @@
       "priceTable": null
     },
     "kiwicamping-offline-data-guide": {
-      "title": "O que funciona offline na KiwiCamping",
-      "description": "Mantém disponíveis o diretório de locais incluído e os detalhes essenciais quando a rede desaparece.",
+      "title": "A KiwiCamping funciona sem rede? O que precisa de sinal",
+      "description": "Os detalhes dos locais, as listas guardadas e os guias funcionam sem rede; o mapa, a meteorologia, a navegação e o Look Around precisam de sinal. Planeia os troços remotos com isso em mente.",
       "region": "App KiwiCamping",
-      "imageAlt": "Detalhes de um local na KiwiCamping disponíveis sem rede",
-      "intro": "Offline significa que os dados dos locais continuam úteis fora de rede. Não significa que todos os serviços funcionem sem rede, e saber exatamente que metade é qual faz a diferença entre um troço remoto bem preparado e descobrir isso no pior momento.",
+      "imageAlt": "A State Highway 94 serpenteia por um vale remoto do Parque Nacional de Fiordland",
+      "intro": "A KiwiCamping não é uma app de mapas para usar sem rede. Os dados dos locais continuam úteis fora de cobertura, mas o próprio mapa, a meteorologia, a navegação e as fotografias precisam de rede, e saber exatamente o que funciona sem ela e o que não funciona faz a diferença entre um troço remoto bem preparado e descobrir isso no pior momento.",
       "sections": [
         {
           "heading": "O que continua disponível sem rede",
           "body": [
-            "A app inclui mais de 6.500 registos de locais da Nova Zelândia: parques de campismo, refúgios de montanha, holiday parks e outros alojamentos reserváveis, áreas designadas de <a data-guide=\"freedom-camping-new-zealand-guide\">campismo livre</a>, pontos de despejo e áreas de uso diurno. Os detalhes essenciais viajam com a app em vez de serem descarregados, por isso continuam legíveis quando a rede falha.",
+            "A app inclui os seus registos de locais da Nova Zelândia: parques de campismo, refúgios e trilhos do DOC, avisos de <a data-guide=\"freedom-camping-new-zealand-guide\">campismo livre</a> do DOC, pontos de despejo, áreas de uso diurno, e holiday parks e tours do BookIt. Os detalhes essenciais viajam com a app em vez de serem descarregados, por isso continuam legíveis quando a rede falha. As estadias e os tours do BookIt são gratuitos; os locais do DOC, os pontos de despejo e as áreas de uso diurno fazem parte do Premium.",
             "As listas guardadas e a informação das viagens também continuam utilizáveis. Podes rever o plano, ler as notas de cada paragem e ver o que decidiste sobre um local, que é normalmente exatamente o que precisas quando estás a decidir se continuas ou paras."
           ],
           "tips": [
-            "Mais de 6.500 registos de locais incluídos",
+            "Registos de locais incluídos",
             "As listas guardadas e as viagens continuam legíveis",
             "Os detalhes viajam com a app"
           ]
@@ -4087,8 +4090,8 @@
         {
           "heading": "O que precisa mesmo de ligação",
           "body": [
-            "As previsões meteorológicas, a navegação e as indicações em direto, as páginas de reserva externas, os sites dos operadores e algumas imagens do mapa precisam de ligação. Nada disto apaga o registo guardado do local, mas significa que lá fora não tens resposta para «vai chover?» nem para «há lugar livre?».",
-            "As imagens do <a data-guide=\"kiwicamping-weather-look-around\">Street View</a> também precisam de ligação, o que convém saber porque são mais úteis precisamente quando te aproximas de uma entrada desconhecida, e muitas vezes é aí que a rede acaba."
+            "As previsões meteorológicas, a navegação e as indicações em direto, as páginas de reserva externas, os sites dos operadores, as fotografias dos locais, o próprio mapa e as imagens de satélite precisam de ligação. Nada disto apaga o registo guardado do local, mas significa que lá fora não tens resposta para «vai chover?» nem para «há lugar livre?».",
+            "As imagens do <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a> também precisam de ligação, o que convém saber porque são mais úteis precisamente quando te aproximas de uma entrada desconhecida, e muitas vezes é aí que a rede acaba."
           ],
           "tips": []
         },
@@ -4148,22 +4151,22 @@
       "faq": [
         [
           "O que funciona na KiwiCamping sem rede?",
-          "O diretório de locais vem incluído na app, por isso nomes, categorias, descrições, tarifas, instalações, horários e condições abrem sem rede. A pesquisa, os filtros e os teus locais guardados também funcionam offline."
+          "O diretório de locais vem incluído na app, por isso nomes, categorias, descrições, preços, instalações, horários e condições abrem sem rede. A pesquisa, os filtros e os locais guardados também funcionam sem rede, para os locais que o teu acesso cobre: as estadias e os tours do BookIt são gratuitos, e os locais do DOC e os pontos de despejo precisam do Premium."
         ],
         [
           "O que precisa de ligação?",
-          "Os serviços em direto: meteorologia, navegação e indicações, Street View, fotografias dos locais e páginas de reserva dos operadores. São descarregados quando pedidos, por isso a ficha do local abre na mesma sem eles."
+          "Os serviços em direto: meteorologia, navegação e indicações, imagens do Look Around, fotografias dos locais e páginas de reserva dos operadores. São descarregados quando pedidos, por isso a ficha do local abre na mesma sem eles."
         ]
       ],
       "sources": [],
       "priceTable": null
     },
     "kiwicamping-weather-look-around": {
-      "title": "Usa a meteorologia e o Street View antes de escolher onde ficar",
+      "title": "Usa a meteorologia e o Look Around antes de escolheres onde ficar",
       "description": "Compara a previsão e o ambiente da estrada com a decisão real sobre o parque.",
       "region": "App KiwiCamping",
-      "imageAlt": "Pré-visualização da meteorologia e do local na KiwiCamping",
-      "intro": "Um marcador diz-te onde fica um local. Não te diz que o sítio é um banco de cascalho totalmente exposto ao vento sul, que o acesso é uma subida íngreme de gravilha com uma só via ou que a entrada é fácil de falhar às escuras. A meteorologia e o Street View preenchem as partes que decidem se uma noite é confortável.",
+      "imageAlt": "Nuvens dramáticas de noroeste sobre a água turquesa do lago Pukaki",
+      "intro": "Um marcador diz-te onde fica um local. Não te diz que o sítio é um banco de cascalho totalmente exposto ao vento sul, que o acesso é uma subida íngreme de gravilha com uma só via ou que a entrada é fácil de falhar às escuras. A meteorologia e o Look Around da Apple preenchem as partes que decidem se uma noite é confortável.",
       "sections": [
         {
           "heading": "Consulta a previsão para o local, não para a região",
@@ -4198,9 +4201,9 @@
           ]
         },
         {
-          "heading": "Antevê a chegada com o Street View",
+          "heading": "Antevê a chegada com o Look Around",
           "body": [
-            "Onde há imagens do Street View, mostram-te a entrada, a largura da estrada, o piso e a envolvente antes de meteres lá um veículo grande. É mesmo valioso para <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> em localidades desconhecidas, onde a entrada muitas vezes não está assinalada e a rua é mais estreita do que se esperava.",
+            "Onde há imagens do Look Around, mostram-te a entrada, a largura da estrada, o piso e a envolvente antes de meteres lá um veículo grande. É mesmo valioso para <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> em localidades desconhecidas, onde a entrada muitas vezes não está assinalada e a rua é mais estreita do que se esperava.",
             "É igualmente útil para perceber o que uma ficha não te diz: que o sítio dá para uma estrada principal, fica ao lado de uma linha de comboio ou que o único acesso é uma descida íngreme de gravilha de onde não quererias sair de marcha-atrás."
           ],
           "tips": []
@@ -4208,7 +4211,7 @@
         {
           "heading": "Parte do princípio de que as imagens são antigas, porque são",
           "body": [
-            "As imagens do Street View podem ter vários anos. Obras, deslizamentos, portões novos, sinalização alterada e entradas fechadas não aparecem, e num país onde uma única tempestade pode refazer uma estrada da West Coast, essa diferença conta.",
+            "As imagens do Look Around podem ter vários anos. Obras, deslizamentos, portões novos, sinalização alterada e entradas fechadas não aparecem, e num país onde uma única tempestade pode refazer uma estrada da West Coast, essa diferença conta.",
             "Usa-as para criar uma expectativa, não uma garantia. Quem decide são os avisos, as barreiras e as condições à chegada, e se o terreno contradisser as imagens, o terreno tem razão."
           ],
           "tips": [
@@ -4244,7 +4247,7 @@
           "Sim. As condições atuais e a previsão estão na ficha de cada local e ao lado de cada paragem de uma viagem, por isso a escolha entre dois parques pode fazer-se a olhar para o céu e não para uma previsão regional."
         ],
         [
-          "Para que serve o Street View na escolha de um parque?",
+          "Para que serve o Look Around na escolha de um parque?",
           "Para ver a entrada e o piso antes de meteres a carrinha num desvio. Onde as imagens Look Around da Apple cobrem uma estrada, abre diretamente a partir da ficha do local, o que responde à questão do acesso a que uma ficha não consegue responder."
         ]
       ],
@@ -4255,7 +4258,7 @@
       "title": "Vê os custos indicados de cada local na tua própria moeda",
       "description": "Usa conversões coerentes para comparar estadias e depois confirma o montante cobrado pelo operador.",
       "region": "App KiwiCamping",
-      "imageAlt": "Preço na KiwiCamping mostrado na moeda escolhida",
+      "imageAlt": "Autocaravanas e caravanas estacionadas na relva do Reefton Motor Camp",
       "intro": "Os viajantes fazem o orçamento na moeda em que pensam, enquanto todos os parques da Nova Zelândia cobram em dólares neozelandeses. Mostrar os custos indicados numa moeda familiar tira as contas de cabeça de cada comparação, desde que ninguém confunda uma conversão com um orçamento.",
       "sections": [
         {
@@ -4345,11 +4348,11 @@
       "priceTable": null
     },
     "new-zealand-grocery-prices-2026": {
-      "title": "Preços de supermercado na Nova Zelândia em 2026",
-      "description": "Quanto custam hoje o leite, os ovos, o pão, a carne, a fruta e os legumes nos supermercados da Nova Zelândia, com conversão dos preços para dez moedas.",
+      "title": "Preços de supermercado na Nova Zelândia 2026: leite, pão, carne",
+      "description": "Preços médios de supermercado da Stats NZ para setembro de 2026: leite, pão, ovos, frango, carne picada, fruta e legumes, e um cabaz semanal de 116 NZD, em dez moedas.",
       "region": "Supermercados na Nova Zelândia",
       "imageAlt": "Produtos frescos num supermercado da Nova Zelândia",
-      "intro": "Fazer as tuas próprias refeições é a forma mais direta de controlar o orçamento de uma viagem de campismo. Os intervalos abaixo são referências nacionais recolhidas pela comunidade e cruzadas com os dados da inflação de junho de 2026: servem para planear, não são uma promessa para todas as prateleiras nem para todas as semanas.",
+      "intro": "Fazer as tuas próprias refeições é a forma mais direta de controlar o orçamento de uma viagem de campismo. Os preços abaixo são os preços médios nacionais da Stats NZ para setembro de 2026: servem para planear, não são uma promessa para todas as prateleiras nem para todas as semanas.",
       "sections": [
         {
           "heading": "Faz as compras antes do troço mais isolado",
@@ -4370,7 +4373,7 @@
         {
           "heading": "Os preços da comida variam",
           "body": [
-            "Segundo a Stats NZ (o instituto de estatística neozelandês), os preços dos alimentos subiram 2,5% no ano terminado em junho de 2026, com a carne, as aves e o peixe a encarecerem mais. Os preços da fruta e dos legumes oscilam muito de estação para estação.",
+            "Segundo a Stats NZ (o instituto de estatística neozelandês), os preços dos alimentos subiram 2,4% no ano terminado em setembro de 2026, com destaque para os alimentos de mercearia, que subiram 3,0%, e para a carne, as aves e o peixe, que subiram 3,2%, enquanto a fruta e os legumes desceram 1,8%. As cebolas subiram mais de 86%, a maior subida anual desde que esta série começou, em 2008.",
             "Usa o intervalo para planear; depois, aponta quanto gastaste nas primeiras compras a sério e ajusta o resto do orçamento."
           ],
           "tips": []
@@ -4378,7 +4381,7 @@
         {
           "heading": "As duas grandes cadeias e as opções mais baratas",
           "body": [
-            "O Countdown e o New World estão presentes na maior parte do país, e o Pak'nSave, onde existe, costuma ser o mais barato dos supermercados grandes. Os preços variam bastante de cadeia para cadeia na mesma terra, por isso, quando vais fazer uma compra grande e não só repor o que falta, vale a pena um pequeno desvio até ao mais barato.",
+            "A Woolworths, antiga Countdown, e o New World estão presentes na maior parte do país, e o Pak'nSave, onde existe, costuma ser o mais barato dos supermercados grandes. Os preços variam bastante de cadeia para cadeia na mesma terra, por isso, quando vais fazer uma compra grande e não só repor o que falta, vale a pena um pequeno desvio até ao mais barato.",
             "Os mercados de produtores e as bancas à beira da estrada são ótimos para fruta e legumes e, no que é da época na zona, muitas vezes mais baratos do que o supermercado. Também costumam aceitar só dinheiro e funcionar apenas de manhã, o que convém saber antes de contares com eles."
           ],
           "tips": [
@@ -4410,7 +4413,7 @@
         {
           "heading": "Um valor semanal realista",
           "body": [
-            "Quem viaja sozinho, controla os gastos e cozinha a maior parte das refeições pode contar com 110 a 180 NZD por semana em <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">supermercado</a>; um casal consegue um valor por pessoa mais baixo porque partilha os básicos. Carne de melhor qualidade, refeições prontas, restrições alimentares e compras em zonas isoladas fazem esse valor subir depressa.",
+            "Com os preços médios de setembro de 2026 da Stats NZ, uma semana básica para uma pessoa que cozinha a maior parte das refeições fica por cerca de 116 NZD: quatro litros de leite, dois pães, uma dúzia de ovos, um quilo de peito de frango, meio quilo de carne picada, queijo, manteiga, iogurte, arroz, massa e molho, café solúvel, e fruta e legumes. Um casal gasta menos por pessoa porque partilha os básicos, enquanto carne de melhor qualidade, comida pronta, necessidades alimentares e lojas isoladas fazem o valor subir depressa.",
             "Põe o café, o <a data-guide=\"eating-out-new-zealand-prices-2026\">take-away</a> e as refeições partilhadas numa rubrica à parte. Se contares toda a comida como supermercado, deixas de ver precisamente os gastos mais fáceis de cortar quando o orçamento precisa de correção."
           ],
           "tips": []
@@ -4428,7 +4431,7 @@
       "faq": [
         [
           "Quanto custa uma semana de supermercado na Nova Zelândia?",
-          "O guia faz as contas a um cabaz real, e não a uma média, com a data de verificação de cada produto. A fruta, os legumes e os laticínios andam perto do que os visitantes esperam; os produtos embalados, a carne e tudo o que é importado são bastante mais caros."
+          "Aos preços médios de setembro de 2026 da Stats NZ, uma semana básica de comida de supermercado para uma pessoa que cozinha a maior parte das refeições custa cerca de 116 NZD. A carne de melhor qualidade, a comida pronta e as lojas pequenas e isoladas fazem esse valor subir depressa."
         ],
         [
           "Onde é mais barato comprar comida na Nova Zelândia?",
@@ -4437,36 +4440,36 @@
       ],
       "sources": [
         {
-          "label": "Numbeo: preços na Nova Zelândia, atualizados em junho de 2026"
+          "label": "Stats NZ: índices de preços selecionados, setembro de 2026"
         },
         {
-          "label": "Stats NZ: índices de preços selecionados, junho de 2026"
+          "label": "Stats NZ: preços dos alimentos sobem 2,4% no ano até setembro de 2026"
         },
         {
           "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Intervalos de preços nacionais recolhidos pela comunidade, atualizados pela última vez a 12 de junho de 2026. A marca, o tamanho da embalagem, a época do ano e o transporte para zonas isoladas explicam boa parte da diferença.",
+        "note": "Preços médios nacionais de retalho da Stats NZ para setembro de 2026, divulgados a 16 de outubro de 2026. O leite é por litro, a partir da média da embalagem de 2 litros. Promoções, marca, tamanho da embalagem, época do ano e transporte para zonas isoladas fazem qualquer prateleira ficar acima ou abaixo destas médias.",
         "rows": [
           {
-            "label": "Leite",
+            "label": "Leite normal",
             "unit": "1 litro"
           },
           {
-            "label": "Pão branco",
-            "unit": "500 g"
+            "label": "Pão branco, fatiado",
+            "unit": "pão de 600 g"
           },
           {
             "label": "Ovos",
-            "unit": "12 grandes"
+            "unit": "dúzia"
           },
           {
-            "label": "Bifes de frango",
+            "label": "Peito de frango",
             "unit": "1 kg"
           },
           {
-            "label": "Pojadouro de vaca",
+            "label": "Carne de vaca picada",
             "unit": "1 kg"
           },
           {
@@ -4485,8 +4488,8 @@
       }
     },
     "eating-out-new-zealand-prices-2026": {
-      "title": "Comer fora na Nova Zelândia: preços de refeições e café em 2026",
-      "description": "Preços de cafés, take-away e restaurantes na Nova Zelândia, e porque é que uma única refeição comprada fora pode mudar por completo o teu orçamento diário.",
+      "title": "Preços de comer fora na Nova Zelândia: refeições e café em 2026",
+      "description": "Quanto custa comer fora na Nova Zelândia em 2026: um cappuccino 5 a 7,50 NZD, uma refeição barata 18 a 50 NZD, jantar para dois 100 a 200 NZD, e como orçamentar tudo isto.",
       "region": "Cidades e vilas da Nova Zelândia",
       "imageAlt": "Refeição e café numa cafetaria da Nova Zelândia",
       "intro": "Comer fora vai de um almoço numa padaria a um jantar de três pratos na cidade. Os valores nacionais dão uma boa ideia da escala, mas há restaurantes e terras turísticas que ficam fora deles.",
@@ -4526,7 +4529,7 @@
         {
           "heading": "Sobretaxas e comissões de pagamento",
           "body": [
-            "As sobretaxas de feriado são legais e comuns, normalmente à volta de quinze por cento, e têm de ser anunciadas. Muitos estabelecimentos cobram também uma sobretaxa pelo pagamento com cartão, sobretudo de crédito e contactless, e aplicam-na na caixa em vez de a mostrarem na ementa.",
+            "As sobretaxas de feriado são legais e comuns, normalmente entre 10 e 15 por cento, e têm de ser anunciadas. Muitos estabelecimentos cobram também uma sobretaxa pelo pagamento com cartão, sobretudo de crédito e contactless, e aplicam-na na caixa em vez de a mostrarem na ementa.",
             "Na Nova Zelândia não se espera gorjeta e ninguém vai pensar mal de ti por não a deixares. Alguns sítios já mostram uma sugestão de gorjeta no terminal de pagamento, mas é um hábito importado há pouco tempo, não um costume local."
           ],
           "tips": [
@@ -4568,7 +4571,7 @@
       "faq": [
         [
           "Quanto custa comer fora na Nova Zelândia?",
-          "O guia dá preços, com data, de um brunch num café, de uma refeição num pub, de um jantar de gama média e de um take-away, em dólares neozelandeses e convertidos para dez moedas. O salto de preço entre um café e um restaurante é maior aqui do que na maioria dos países."
+          "Intervalos para planeamento em 2026: uma refeição barata num restaurante 18 a 50 NZD, um menu de fast-food 15 a 20 NZD, um jantar para dois num restaurante de gama média 100 a 200 NZD e um cappuccino 5 a 7,50 NZD. O salto de preço entre um café e um restaurante é maior aqui do que na maioria dos países."
         ],
         [
           "Dá-se gorjeta na Nova Zelândia?",
@@ -4610,11 +4613,11 @@
       }
     },
     "new-zealand-road-trip-fuel-cost-2026": {
-      "title": "Preço do combustível na Nova Zelândia: o custo da viagem em 2026",
-      "description": "Calcula o combustível da tua viagem pela Nova Zelândia com a distância, os litros aos 100 km e o preço oficial de referência da gasolina mais recente no país.",
+      "title": "Preço da gasolina na Nova Zelândia 2026 e custo em campervan",
+      "description": "Preço médio da gasolina 91 na Nova Zelândia por mês em 2026 (MBIE), quanto custam 500 a 3.000 km de campervan com consumos de 9 a 12 l/100 km e as road user charges do gasóleo.",
       "region": "Estradas da Nova Zelândia",
       "imageAlt": "Campervan a abastecer durante uma viagem pela Nova Zelândia",
-      "intro": "É o combustível que transforma o itinerário num custo concreto. Segundo o MBIE (Ministry of Business, Innovation and Employment, o ministério da economia neozelandês), a 26 de julho de 2026 o preço representativo afixado nas bombas de todo o país para a gasolina normal 91 era de 2,96 NZD por litro, depois de um ano invulgarmente instável.",
+      "intro": "É o combustível que transforma o itinerário num custo concreto. Na semana de 9 de outubro de 2026, o preço médio nacional afixado nas bombas para a gasolina normal 91, segundo o MBIE (Ministry of Business, Innovation and Employment, o ministério da economia neozelandês), era de 3,54 NZD por litro e o do gasóleo de 3,24 NZD, depois de um ano que oscilou de 2,56 NZD em fevereiro a 3,44 NZD em abril.",
       "sections": [
         {
           "heading": "Faz as contas com o teu veículo",
@@ -4635,7 +4638,7 @@
         {
           "heading": "Não subestimes a volatilidade",
           "body": [
-            "A Stats NZ (o instituto de estatística neozelandês) registou uma subida de 20,1 por cento nos preços da gasolina no trimestre de junho de 2026, e o MBIE assinalou uma volatilidade invulgar nos mercados internacionais. Com um valor desatualizado, o custo do percurso pode facilmente ficar abaixo da realidade.",
+            "A Stats NZ (o instituto de estatística neozelandês) registou uma subida de 24,3 por cento na gasolina e de 55,8 por cento no gasóleo no ano até setembro de 2026. As médias mensais do MBIE para a gasolina normal 91 foram de 2,59 NZD em janeiro, 2,56 em fevereiro, 3,00 em março, 3,44 em abril, 3,27 em maio, 3,16 em junho, 2,98 em julho, 3,03 em agosto e 3,16 em setembro, por isso um valor de há uns meses pode subestimar o custo do percurso em 50 cêntimos por litro.",
             "Usa a calculadora de combustível com o preço afixado nesse dia e deixa margem para o troço mais remoto."
           ],
           "tips": []
@@ -4643,7 +4646,7 @@
         {
           "heading": "Gasolina, gasóleo e road user charges",
           "body": [
-            "O gasóleo é mais barato por litro na bomba, mas os veículos a gasóleo pagam à parte as road user charges (RUC, uma taxa de utilização da estrada), compradas antecipadamente por cada mil quilómetros. Se alugares, confirma se as RUC estão incluídas na tarifa diária ou são cobradas no fim, porque isso muda bastante a comparação com a gasolina.",
+            "O gasóleo tem sido mais barato por litro do que a 91 durante a maior parte de 2026, cerca de 30 cêntimos menos em outubro, embora tenha custado mais durante seis semanas em abril e maio. Os veículos a gasóleo pagam também à parte as road user charges (RUC, uma taxa de utilização da estrada), compradas antecipadamente por cada mil quilómetros. Se alugares, confirma se as RUC estão incluídas no preço diário ou são cobradas no fim, porque isso muda bastante a comparação com a gasolina.",
             "Num veículo particular, as RUC têm de cobrir a distância que fazes, e isso é fiscalizado. Comprá-las é simples, online ou num agente autorizado, e ultrapassar a distância paga dá multa."
           ],
           "tips": [
@@ -4676,7 +4679,7 @@
           "heading": "Baixa a conta sem encurtar a viagem",
           "body": [
             "A maior poupança está em fazer menos quilómetros desnecessários. Agrupar paragens próximas, evitar voltar para trás e aceitar que não dá para ver bem as duas ilhas em dez dias poupa mais do que todo o cuidado que possas ter ao volante.",
-            "Depois disso, velocidade constante e travagens antecipadas ajudam um pouco. O que não ajuda é descer em ponto morto, que na prática é ilegal e perigoso, nem levar combustível em recipientes inadequados."
+            "Depois disso, velocidade constante e travagens antecipadas ajudam um pouco. O que não ajuda é descer em ponto morto, que te tira a travagem com o motor e o controlo nas descidas, nem levar combustível em recipientes inadequados."
           ],
           "tips": []
         },
@@ -4693,7 +4696,7 @@
       "faq": [
         [
           "Quanto custa o combustível na Nova Zelândia?",
-          "Este guia dá um preço por litro, com data, para a gasolina e o gasóleo e aplica-o a percursos reais. Os preços sobem bastante nas zonas remotas, e os veículos a gasóleo pagam também road user charges, que muita gente se esquece de pôr no orçamento."
+          "A gasolina normal 91 teve uma média de 3,54 NZD por litro na semana de 9 de outubro de 2026 (MBIE), por isso 1.000 km a 11 l/100 km custam cerca de 390 NZD em combustível. Os preços sobem bastante nas zonas remotas, e os veículos a gasóleo pagam também road user charges, que muita gente se esquece de pôr no orçamento."
         ],
         [
           "Como calculo o combustível para uma viagem pela Nova Zelândia?",
@@ -4705,14 +4708,14 @@
           "label": "MBIE: monitorização semanal dos preços dos combustíveis"
         },
         {
-          "label": "MBIE: preço de referência afixado nos postos (fuel response)"
+          "label": "Stats NZ: índices de preços selecionados, setembro de 2026"
         },
         {
           "label": "Reserve Bank of New Zealand: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "A referência da gasolina é o valor oficial do MBIE para a semana que terminou a 26 de julho de 2026. Os exemplos de percurso são contas simples, antes da variação de preços nas zonas remotas.",
+        "note": "A referência da gasolina é o preço médio nacional afixado nas bombas para a gasolina normal 91, segundo o MBIE, na semana de 9 de outubro de 2026 (provisório). Os exemplos de percurso são contas simples, antes da variação de preços nas zonas remotas.",
         "rows": [
           {
             "label": "Gasolina normal 91",
@@ -4734,8 +4737,8 @@
       }
     },
     "public-transport-costs-new-zealand-2026": {
-      "title": "Transportes públicos na Nova Zelândia: preços nas cidades em 2026",
-      "description": "Em Auckland pagas por zonas e há um teto semanal, e no resto do país os bilhetes têm outros preços: os transportes públicos neozelandeses não têm tarifa única.",
+      "title": "Preços de transportes públicos na Nova Zelândia 2026: Auckland",
+      "description": "Autocarros, comboios e ferries de Auckland em 2026: 3 NZD numa só zona, teto de 50 NZD em sete dias com o AT HOP e preços típicos de uma viagem simples noutras cidades.",
       "region": "Auckland e Wellington",
       "imageAlt": "Transportes públicos numa cidade da Nova Zelândia",
       "intro": "Nas cidades, as tarifas dependem de cartões locais, zonas, regras próprias para o pagamento contactless e exclusões. Compara o custo do dia ou da semana que vais mesmo fazer, e não o de um bilhete em cada rede.",
@@ -4821,7 +4824,7 @@
         ],
         [
           "Quanto custam os transportes públicos nas cidades da Nova Zelândia?",
-          "O guia dá tarifas, com a data de verificação, para Auckland, Wellington e Christchurch. As três têm cartões que se validam à entrada, com teto diário, e numa estadia de mais de dois ou três dias compensa comprar o cartão logo no início."
+          "A tabela traz os preços de Auckland com a data de verificação; consulta a Metlink para Wellington e a Metro para Christchurch. As três usam cartões que se validam à entrada: Auckland limita os preços a 50 NZD em sete dias, Christchurch limita os autocarros a 6 NZD por dia e Wellington vende passes diários, por isso numa estadia de mais de dois ou três dias compensa comprar o cartão logo no início."
         ]
       ],
       "sources": [
@@ -4869,8 +4872,8 @@
       }
     },
     "domestic-flight-costs-new-zealand-2026": {
-      "title": "Voos domésticos na Nova Zelândia: preços e custo real da viagem",
-      "description": "Uma tarifa só com o lugar no avião vale pouco até lhe somares a bagagem, o transporte de e para o aeroporto e tudo o que isso muda no aluguer do veículo.",
+      "title": "Voos domésticos na Nova Zelândia 2026: o preço real da viagem",
+      "description": "Quanto custa mesmo um voo doméstico na Nova Zelândia depois de somares a bagagem, o transporte para o aeroporto e o carro de aluguer ou a campervan que deixas para trás.",
       "region": "Aeroportos da Nova Zelândia",
       "imageAlt": "Avião de um voo doméstico a sobrevoar a Nova Zelândia",
       "intro": "As tarifas dos voos domésticos mudam depressa demais para que uma tabela nacional de preços fixos seja honesta. Usa os intervalos por cenário para fazer o orçamento e depois compara o total final no site da companhia aérea para a data exata.",
@@ -4990,8 +4993,8 @@
       }
     },
     "bus-ferry-train-costs-new-zealand": {
-      "title": "Preços de autocarro, ferry e comboio na Nova Zelândia",
-      "description": "O autocarro de longa distância, o ferry do Cook Strait e os comboios panorâmicos servem viagens diferentes, e cada um precisa de um orçamento feito à parte.",
+      "title": "Preços de autocarro, ferry e comboio na Nova Zelândia (2026)",
+      "description": "Autocarro de longa distância, ferry do Cook Strait e comboios panorâmicos na Nova Zelândia: a que viagem serve cada um e porque cada um precisa do seu próprio orçamento.",
       "region": "Viagens entre cidades na Nova Zelândia",
       "imageAlt": "Comboio panorâmico a atravessar a Nova Zelândia",
       "intro": "Os transportes públicos de longa distância misturam autocarros práticos, ferries que levam veículos e comboios pensados para o turismo. Compara em conjunto o preço, o horário, a bagagem e o transporte que cada opção substitui.",
@@ -5121,5 +5124,231 @@
     "decline": "Recusar",
     "policy": "Política de privacidade",
     "choices": "Preferências de privacidade"
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Início",
+      "breadcrumbTools": "Calculadoras",
+      "howTitle": "Como se calcula",
+      "exampleTitle": "Exemplo prático",
+      "assumptionsTitle": "Pressupostos",
+      "sourcesTitle": "Fontes",
+      "faqTitle": "Perguntas frequentes",
+      "guidesTitle": "Guias relacionados",
+      "otherToolsTitle": "Mais calculadoras para a tua viagem de carro",
+      "openTool": "Abrir a calculadora",
+      "ctaEyebrow": "Planeia na KiwiCamping",
+      "ctaTitle": "Encontra as paragens e depois faz as contas.",
+      "ctaText": "Podes transferir a KiwiCamping gratuitamente para o iPhone. Na app, os holiday parks, os alojamentos e os tours que podes reservar são gratuitos. Os parques de campismo do DOC, os refúgios, os pontos de despejo e os guias abrem com o Pass.",
+      "ctaButton": "Transferir a app",
+      "enterValidValues": "Introduz valores válidos",
+      "enterValidAmount": "Introduz um montante válido"
+    },
+    "index": {
+      "metaTitle": "Calculadoras para a Nova Zelândia: combustível, horas e campismo",
+      "metaDescription": "Calculadoras gratuitas para a Nova Zelândia: combustível, tempo de condução por tipo de estrada, campismo por pessoa ou por lugar, conversão de NZD e água da campervan.",
+      "toolsTitle": "Uma calculadora para cada pergunta",
+      "toolsText": "Cada calculadora tem a sua própria página, com a fórmula, um exemplo prático com valores da Nova Zelândia, os pressupostos por trás e respostas às perguntas mais frequentes."
+    },
+    "fuel": {
+      "metaTitle": "Calculadora de combustível na Nova Zelândia para campervan",
+      "metaDescription": "Calcula litros e custo de combustível na Nova Zelândia com a distância, os l/100 km e o preço na bomba, com fórmula, um exemplo de 1.000 km e a referência do MBIE.",
+      "eyebrow": "Calculadora de combustível",
+      "cardEyebrow": "Calculadora de combustível",
+      "h1": "Calculadora de custo de combustível para uma viagem pela Nova Zelândia",
+      "intro": "Introduz a distância do percurso, o consumo do veículo com carga e o preço por litro. O preço predefinido é o preço nacional na bomba publicado pelo MBIE para a gasolina normal 91 na semana que terminou a 26 de julho de 2026.",
+      "cardTitle": "Põe preço aos quilómetros.",
+      "cardText": "Introduz a distância total do percurso, o consumo do veículo com carga e o preço previsto por litro. Em zonas remotas, os preços podem ser superiores aos valores de referência das cidades.",
+      "labelDistance": "Distância (km)",
+      "labelConsumption": "Consumo (l/100 km)",
+      "labelPrice": "Preço do combustível (NZD/l)",
+      "formula": [
+        "Litros = distância (km) × consumo (l/100 km) ÷ 100",
+        "Custo = litros × preço por litro (NZD)"
+      ],
+      "formulaNote": "O consumo indica-se por cada 100 quilómetros, por isso dividir por 100 converte-o em litros por quilómetro. A conta é linear: se duplicares a distância, duplicam os litros e o custo.",
+      "example": "Um percurso de {distance} km numa campervan que consome {consumption} l/100 km precisa de {litres} litros de combustível. A {price} por litro, são {cost}.",
+      "assumptions": [
+        "O preço predefinido é uma referência nacional. Os postos de abastecimento remotos, incluindo na West Coast e em Fiordland, costumam cobrar mais, por isso atesta antes dos troços longos entre localidades.",
+        "Usa o consumo com carga do veículo que vais mesmo conduzir. Uma campervan cheia, em subidas e com vento de frente, gasta mais do que o valor do folheto.",
+        "Soma as voltas locais em redor de cada paragem. As idas ao supermercado, os miradouros e as estradas secundárias acumulam-se ao longo de um percurso comprido.",
+        "Os veículos a gasóleo pagam road user charges (RUC) por cada 1.000 km, além do combustível. Esta calculadora só inclui o combustível."
+      ],
+      "faq": [
+        [
+          "Quanto combustível gasta uma campervan na Nova Zelândia?",
+          "Depende do veículo, da carga e das estradas. Usa o valor da empresa de aluguer ou do veículo e deixa margem para as subidas. Os 12 l/100 km predefinidos são um valor de planeamento para uma campervan com carga, não uma média medida."
+        ],
+        [
+          "O custo do combustível inclui as road user charges?",
+          "Não. Na Nova Zelândia, os veículos a gasóleo pagam as road user charges por cada 1.000 km, à parte do combustível. Pergunta à empresa de aluguer se as RUC estão incluídas no preço e consulta a NZTA para saber os valores em vigor."
+        ],
+        [
+          "De onde vem o preço predefinido do combustível?",
+          "É o preço nacional de bomba do MBIE para a gasolina normal 91 na semana que terminou a 26 de julho de 2026. O MBIE publica os preços dos combustíveis todas as semanas, por isso confirma o valor mais recente antes de partires."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Tempo de condução na Nova Zelândia: horas por tipo de estrada",
+      "metaDescription": "Estima quanto dura mesmo um dia de condução na Nova Zelândia com a distância, o tipo de estrada e as paragens, com a fórmula, um exemplo prático e as velocidades usadas.",
+      "eyebrow": "Calculadora de tempo de condução",
+      "cardEyebrow": "Estimativa do dia de condução",
+      "h1": "Calculadora de tempo de condução para as estradas da Nova Zelândia",
+      "intro": "As apps de navegação dão o tempo em movimento numa estrada ideal. Esta calculadora usa a distância que já sabes, uma velocidade média para o tipo de estrada e 20 minutos por cada paragem, e é aí que um dia de condução na Nova Zelândia costuma demorar mais do que o previsto.",
+      "cardTitle": "Quanto demora mesmo esse dia.",
+      "cardText": "As apps de navegação dão o tempo em movimento numa estrada ideal. Aqui somam-se o tipo de estrada e as paragens reais, e é aí que um dia costuma demorar mais do que o previsto.",
+      "labelDistance": "Distância (km)",
+      "labelRoadType": "Tipo de estrada",
+      "roadMotorway": "Autoestrada ou estrada reta fora das localidades",
+      "roadHighway": "Estrada principal",
+      "roadWinding": "Sinuosa ou costeira",
+      "roadNarrow": "Estreita, íngreme ou de terra batida",
+      "labelStops": "Paragens",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minutos de condução = distância (km) ÷ velocidade média (km/h) × 60",
+        "Minutos totais = minutos de condução + 20 × paragens"
+      ],
+      "formulaNote": "A velocidade média não é o limite de velocidade. Tem em conta curvas, subidas, pontes de uma via, localidades e trânsito mais lento. Os quatro tipos de estrada usam 85, 70, 60 e 45 km/h.",
+      "example": "Um dia de {distance} km em estradas sinuosas ou costeiras a {speed} km/h dá {driving} de condução. Se somares {stops} paragens de 20 minutos cada, o dia demora {total}.",
+      "assumptions": [
+        "As velocidades médias são valores de planeamento para um carro ou campervan em boas condições, não médias medidas numa estrada em concreto.",
+        "Cada paragem conta 20 minutos para combustível, comida, casa de banho ou um miradouro. Os ferries, as obras na estrada e as caminhadas longas têm de ser acrescentados à parte.",
+        "O tempo, os deslizamentos de terras e os cortes de estrada alteram os percursos. Antes de partires, consulta o planeador de viagens da NZTA para saber o estado atual das estradas."
+      ],
+      "faq": [
+        [
+          "Quantos quilómetros consegues fazer num dia na Nova Zelândia?",
+          "Não há um número único. As estradas sinuosas, as pontes de uma via e as paragens mantêm as velocidades médias bem abaixo do limite fora das localidades, por isso um dia que parece curto no mapa pode ocupar a maior parte das horas de luz. Introduz a distância e o tipo de estrada para ver as horas e planeia pausas regulares."
+        ],
+        [
+          "Porque é que isto dá mais tempo do que a minha app de mapas?",
+          "As apps de mapas estimam o tempo em movimento, sem paragens. Aqui usa-se uma média para o tipo de estrada e soma-se tempo por cada paragem, o que se aproxima mais de como corre mesmo um dia de campismo."
+        ],
+        [
+          "Funciona para uma campervan?",
+          "Sim. Escolhe um tipo de estrada mais lento se conduzires um veículo grande, se levares um atrelado ou se ainda não estiveres habituado a conduzir pela esquerda."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Custo do campismo na Nova Zelândia: por pessoa ou por lugar?",
+      "metaDescription": "Compara um parque de campismo do DOC com preço por adulto e um holiday park com preço por lugar para o teu grupo e as tuas noites, com fórmula, exemplo e taxas do DOC.",
+      "eyebrow": "Calculadora de custo de campismo",
+      "cardEyebrow": "Comparação de parques de campismo",
+      "h1": "Calculadora de custo de campismo: por pessoa ou por lugar",
+      "intro": "Os parques de campismo do DOC cobram por adulto e por noite, enquanto um holiday park costuma cobrar por lugar. Qual dos dois sai mais barato muda consoante o tamanho do grupo, e aqui fazes a conta para as tuas noites.",
+      "cardTitle": "Por pessoa ou por lugar?",
+      "cardText": "Um parque de campismo do DOC costuma cobrar por adulto e um holiday park costuma cobrar por lugar. A opção mais barata muda consoante o tamanho do grupo, o que apanha as famílias de surpresa.",
+      "labelAdults": "Adultos",
+      "labelNights": "Noites",
+      "labelPerAdult": "Por adulto (NZD)",
+      "labelPerSite": "Por lugar (NZD)",
+      "comparison": "{perAdult} vs {perSite} · {verdict}",
+      "theSame": "sai ao mesmo preço",
+      "perAdultCheaper": "o preço por adulto sai mais barato",
+      "perSiteCheaper": "o preço por lugar sai mais barato",
+      "formula": [
+        "Total por adulto = adultos × noites × preço por adulto",
+        "Total por lugar = noites × preço por lugar",
+        "O total mais baixo é a opção mais barata para o teu grupo"
+      ],
+      "formulaNote": "O total por adulto aumenta com cada adulto a mais, ao passo que o total por lugar não. É por isso que a resposta muda entre um casal e uma família.",
+      "example": "{adults} adultos que fiquem {nights} noites a {rateAdult} por adulto pagam {totalAdult}. A mesma estadia a {rateSite} por lugar custa {totalSite}, por isso {verdict}.",
+      "assumptions": [
+        "As crianças ficam de fora. Muitos parques de campismo do DOC cobram uma taxa reduzida dos 5 aos 17 anos e nada pelos bebés, e os holiday parks definem os seus próprios preços para crianças.",
+        "Os preços predefinidos são exemplos, não orçamentos. Nos dados do DOC de {docDate}, {docFree} parques de campismo do DOC são gratuitos, e a taxa mais baixa por adulto indicada nos que são pagos varia entre {docMin} e {docMax} por noite.",
+        "Os holiday parks definem os seus próprios preços, que mudam com a época, a eletricidade e o tamanho do lugar. Confirma no parque antes de reservares."
+      ],
+      "faq": [
+        [
+          "Quanto custa uma noite de campismo na Nova Zelândia?",
+          "Os parques de campismo do DOC são gratuitos ou cobram por adulto. Nos dados do DOC de {docDate}, a taxa mais baixa por adulto nos parques de campismo do DOC pagos varia entre {docMin} e {docMax} por noite, com uma mediana de {docMedian}. Os holiday parks definem os preços dos seus lugares, por isso compara o total para o teu grupo."
+        ],
+        [
+          "Para uma família, sai mais barato pagar por pessoa ou por lugar?",
+          "Pagar por lugar costuma compensar à medida que o grupo cresce, porque o preço do lugar não muda, enquanto os preços por adulto se multiplicam. Introduz os teus preços para ver onde fica o ponto de equilíbrio."
+        ],
+        [
+          "As crianças pagam nos parques de campismo do DOC?",
+          "Em muitos parques de campismo do DOC, as crianças dos 5 aos 17 anos pagam uma taxa reduzida e os bebés não pagam. A taxa de cada parque está na respetiva página do DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Conversor de NZD: preços da Nova Zelândia em 9 moedas",
+      "metaDescription": "Converte preços em dólares neozelandeses de e para USD, EUR, GBP, AUD, JPY, CNY, KRW, INR e SGD com as taxas de referência do Reserve Bank of New Zealand.",
+      "eyebrow": "Conversor de moeda",
+      "cardEyebrow": "Conversor de moeda",
+      "h1": "Conversor de NZD para preços de viagem na Nova Zelândia",
+      "intro": "Converte um preço neozelandês para a tua moeda, ou a tua moeda para dólares neozelandeses, com as taxas de referência do Reserve Bank of New Zealand de {rateDate}.",
+      "cardTitle": "Converte um preço neozelandês.",
+      "cardText": "Conversão de referência para planear a viagem, com as taxas do Reserve Bank of New Zealand de {rateDate}. O teu banco ou cartão pode usar outra taxa e cobrar comissões.",
+      "labelAmount": "Montante",
+      "labelFrom": "De",
+      "labelTo": "Para",
+      "formula": [
+        "Montante em NZD = montante ÷ taxa da moeda de origem",
+        "Resultado = montante em NZD × taxa da moeda de destino"
+      ],
+      "formulaNote": "Cada taxa é o número de unidades dessa moeda por 1 dólar neozelandês, por isso todas as conversões passam pelo NZD.",
+      "example": "{amount} a {rate} dólares norte-americanos por dólar neozelandês são {converted}.",
+      "assumptions": [
+        "Estas são taxas de referência de {rateDate}. As taxas de câmbio mudam todos os dias.",
+        "Os bancos, os cartões e as caixas multibanco usam as suas próprias taxas e podem cobrar comissões, por isso o valor que pagas pode ser diferente.",
+        "O iene japonês e o won sul-coreano aparecem sem casas decimais."
+      ],
+      "faq": [
+        [
+          "Que moeda se usa na Nova Zelândia?",
+          "O dólar neozelandês (NZD). Os preços nas lojas, nos parques de campismo e nos holiday parks são indicados em NZD."
+        ],
+        [
+          "É esta a taxa que o meu banco me vai dar?",
+          "Provavelmente não será exatamente igual. A calculadora usa taxas de referência de {rateDate}. O teu banco ou o emissor do cartão aplica a sua própria taxa e comissões, por isso trata o resultado como um valor de planeamento."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Calculadora de água da campervan: dias de água limpa e cinzenta",
+      "metaDescription": "Calcula quantos dias duram os depósitos de água limpa e de águas cinzentas da campervan para o teu grupo, com fórmula, um exemplo prático e os consumos diários usados.",
+      "eyebrow": "Calculadora de depósitos de água",
+      "cardEyebrow": "Planeador de água e águas residuais",
+      "h1": "Calculadora de depósitos de água para campervan",
+      "intro": "A capacidade de um depósito em litros só é útil quando a traduzes em dias. Introduz a capacidade de água limpa e de águas cinzentas e o número de pessoas para ver qual dos depósitos define o teu limite.",
+      "cardTitle": "Quantos dias em autonomia.",
+      "cardText": "A capacidade em litros só é útil quando expressa em dias. A água limpa e as águas cinzentas aparecem em separado, porque o depósito que acabar primeiro define o limite.",
+      "labelFresh": "Água limpa (l)",
+      "labelGrey": "Águas cinzentas (l)",
+      "labelPeople": "Pessoas",
+      "days": "{fresh} dias de água limpa · {grey} dias de águas cinzentas",
+      "formula": [
+        "Dias de água limpa = depósito de água limpa (l) ÷ (pessoas × 11 l por dia)",
+        "Dias de águas cinzentas = depósito de águas cinzentas (l) ÷ (pessoas × 9 l por dia)",
+        "O mais baixo dos dois é o tempo que podes ficar antes de teres de encher ou esvaziar"
+      ],
+      "formulaNote": "As águas cinzentas são a água usada dos lava-loiças e dos duches. O volume fica abaixo do consumo de água limpa porque nem toda a água de beber e de cozinhar acaba no depósito.",
+      "example": "{people} pessoas com um depósito de água limpa de {freshTank} litros e um depósito de águas cinzentas de {greyTank} litros têm {freshDays} dias de água limpa e {greyDays} dias de águas cinzentas, por isso o depósito de água limpa define o limite.",
+      "assumptions": [
+        "11 litros de água limpa e 9 litros de águas cinzentas por pessoa e por dia são valores de planeamento para um uso cuidadoso: beber, cozinhar, lavar a loiça e uma lavagem rápida. Os duches gastam muito mais.",
+        "As cassetes da sanita e as águas negras não estão incluídas.",
+        "Esvazia as águas cinzentas só num ponto de despejo. Nunca para o chão nem para uma sarjeta."
+      ],
+      "faq": [
+        [
+          "Quanto tempo duram 100 litros de água limpa numa campervan?",
+          "Para duas pessoas com um uso cuidadoso, a 11 litros cada por dia, cerca de quatro dias e meio. Os duches e lavar roupa encurtam bastante esse tempo."
+        ],
+        [
+          "Onde posso esvaziar as águas cinzentas na Nova Zelândia?",
+          "Num ponto de despejo. Muitos holiday parks têm um e as câmaras municipais gerem pontos públicos em muitas localidades. Nunca esvazies as águas cinzentas para o chão nem para uma sarjeta."
+        ],
+        [
+          "Qual dos depósitos se esgota primeiro?",
+          "O que for mais pequeno para o teu consumo. Os depósitos de águas cinzentas costumam ser mais pequenos do que os de água limpa, por isso verifica os dois e não apenas o indicador da água limpa."
+        ]
+      ]
+    }
   }
 }

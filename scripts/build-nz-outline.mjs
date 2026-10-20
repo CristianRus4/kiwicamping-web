@@ -1,12 +1,16 @@
 /**
- * Builds lib/data/nz-outline.json, the coastline the hub dot maps are drawn over.
+ * Builds lib/data/nz-outline.json, the coastline and large lakes the hub dot maps are drawn over.
  *
- * Source: Natural Earth 1:10m Admin 0 countries (public domain, https://www.naturalearthdata.com/).
- * Download it once, outside the repository, and pass its path:
+ * Source: Natural Earth 1:10m Admin 0 countries and 1:10m lakes (public domain,
+ * https://www.naturalearthdata.com/). Download both once, outside the repository, and pass their paths:
  *
- *   curl -sSLo /tmp/ne/ne_10m_admin_0_countries.geojson \
- *     https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson
- *   node scripts/build-nz-outline.mjs /tmp/ne/ne_10m_admin_0_countries.geojson
+ *   base=https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson
+ *   curl -sSLo /tmp/ne/ne_10m_admin_0_countries.geojson $base/ne_10m_admin_0_countries.geojson
+ *   curl -sSLo /tmp/ne/ne_10m_lakes.geojson $base/ne_10m_lakes.geojson
+ *   node scripts/build-nz-outline.mjs /tmp/ne/ne_10m_admin_0_countries.geojson /tmp/ne/ne_10m_lakes.geojson
+ *
+ * Lakes of about 10 km² or more are kept, so inland hubs such as Taupō or the southern lakes read
+ * as places.
  *
  * Only New Zealand's mainland islands and their near-shore islands are kept (the Chatham, Kermadec and
  * subantarctic islands fall outside every hub), simplified to about 300 m and rounded to 3 decimals.
@@ -17,9 +21,10 @@ import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const input = process.argv[2];
-if (!input) throw new Error("Pass the path of ne_10m_admin_0_countries.geojson");
+const [input, lakesInput] = process.argv.slice(2);
+if (!input || !lakesInput) throw new Error("Pass the paths of ne_10m_admin_0_countries.geojson and ne_10m_lakes.geojson");
 const raw = await readFile(input);
+const lakesRaw = await readFile(lakesInput);
 const countries = JSON.parse(raw.toString("utf8"));
 const nz = countries.features.find((feature) => feature.properties.ADM0_A3 === "NZL");
 if (!nz) throw new Error("No NZL feature in the file");
@@ -48,9 +53,10 @@ function simplify(points, tolerance) {
 }
 
 const round = (value) => Math.round(value * 1000) / 1000;
-const rings = polygons
-  .map((polygon) => polygon[0])
-  .filter((ring) => inside(ring) && area(ring) >= MIN_AREA)
+const MIN_LAKE_AREA = 0.001; // square degrees, about 10 km²
+
+const prepare = (outer, minArea) => outer
+  .filter((ring) => inside(ring) && area(ring) >= minArea)
   .map((ring) => {
     // Split the closed ring in two so the simplification keeps a real shape at both ends.
     const half = Math.floor(ring.length / 2);
@@ -59,15 +65,22 @@ const rings = polygons
   })
   .filter((ring) => ring.length >= 4)
   .sort((a, b) => area(b) - area(a));
+const rings = prepare(polygons.map((polygon) => polygon[0]), MIN_AREA);
+const lakeRings = JSON.parse(lakesRaw.toString("utf8")).features
+  .flatMap((feature) => (feature.geometry.type === "Polygon" ? [feature.geometry.coordinates] : feature.geometry.type === "MultiPolygon" ? feature.geometry.coordinates : []))
+  .map((polygon) => polygon[0]);
+const lakes = prepare(lakeRings, MIN_LAKE_AREA);
 
 const output = resolve(dirname(fileURLToPath(import.meta.url)), "../lib/data/nz-outline.json");
 const body = {
-  source: "Natural Earth 1:10m Admin 0 countries (ne_10m_admin_0_countries), New Zealand",
+  source: "Natural Earth 1:10m Admin 0 countries (ne_10m_admin_0_countries), New Zealand, and 1:10m lakes (ne_10m_lakes)",
   licence: "Public domain",
   sourceUrl: "https://www.naturalearthdata.com/",
   sourceSha256: createHash("sha256").update(raw).digest("hex"),
-  simplified: `Douglas-Peucker ${TOLERANCE} degrees; islands under ${MIN_AREA} square degrees and outside ${JSON.stringify(BOUNDS)} dropped`,
+  lakesSha256: createHash("sha256").update(lakesRaw).digest("hex"),
+  simplified: `Douglas-Peucker ${TOLERANCE} degrees; islands under ${MIN_AREA} and lakes under ${MIN_LAKE_AREA} square degrees, and anything outside ${JSON.stringify(BOUNDS)}, dropped`,
   rings,
+  lakes,
 };
 await writeFile(output, `${JSON.stringify(body).replace(/\],\[/g, "],\n[")}\n`);
-console.log(`nz-outline.json: ${rings.length} rings, ${rings.reduce((sum, ring) => sum + ring.length, 0)} points`);
+console.log(`nz-outline.json: ${rings.length} rings, ${rings.reduce((sum, ring) => sum + ring.length, 0)} points; ${lakes.length} lakes, ${lakes.reduce((sum, ring) => sum + ring.length, 0)} points`);

@@ -185,6 +185,9 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         // Shown only when translated whole, so a translated page never carries an English table.
         table: section.table && tableTranslated(section.table, item!.sections![index].table) ? item!.sections![index].table as ArticleTable : undefined,
         cta: section.cta,
+        // The screenshot is not translated text: it keeps its image, and its alt becomes this
+        // locale's section heading, so a translated page carries no English alt text.
+        ...(section.figure && { figure: { src: section.figure.src, alt: item!.sections![index].heading! } }),
       })),
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),

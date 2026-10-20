@@ -8,8 +8,6 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es",
-        "fr",
         "it",
         "nl",
         "pt",
@@ -24,14 +22,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "es",
-          "path": "../lib/translations/es.json"
-        },
-        {
-          "locale": "fr",
-          "path": "../lib/translations/fr.json"
         },
         {
           "locale": "it",
@@ -73,8 +63,6 @@
         "DOC",
         "Waka Kotahi",
         "NZD",
-        "North Island",
-        "South Island",
         "Stewart Island",
         "Te Waipounamu",
         "Rakiura"
@@ -91,6 +79,101 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      },
+      "glossary": {
+        "North Island": {
+          "de": "Nordinsel"
+        },
+        "South Island": {
+          "de": "Südinsel"
+        }
+      }
+    },
+    {
+      "id": "kiwicamping-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD"
+      ],
+      "glossary": {
+        "North Island": {
+          "fr": "île du Nord"
+        },
+        "South Island": {
+          "fr": "île du Sud"
+        },
+        "Stewart Island": {
+          "fr": "île Stewart"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French island names, no calques, no offline-map claims."
+      },
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ]
+    },
+    {
+      "id": "kiwicamping-website-es",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "es"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "glossary": {
+        "North Island": {
+          "es": "Isla Norte"
+        },
+        "South Island": {
+          "es": "Isla Sur"
+        },
+        "Stewart Island": {
+          "es": "Isla Stewart (Rakiura)"
+        }
+      },
+      "register": {
+        "es": "informal"
+      },
+      "styleGuide": {
+        "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish island names (Isla Norte, Isla Sur, Isla Stewart (Rakiura)), no calques, no offline-map claims."
       }
     },
     {

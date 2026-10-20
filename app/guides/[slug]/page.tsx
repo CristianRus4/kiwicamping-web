@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
-import { alternatesFor, defaultOgLocale } from "@/lib/seo";
+import { alternatesFor, defaultOgLocale, guideTitle } from "@/lib/seo";
 import { exportRoutes } from "@/lib/routes";
 import { guidePageKey } from "@/lib/routes/guides";
 
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const item = getArticle(slug);
   if (!item || item.legacyPath) return {};
   return {
-    title: item.title,
+    title: guideTitle(item.title),
     description: item.description,
     alternates: { canonical: `/guides/${item.slug}/`, languages: alternatesFor(guidePageKey(item.slug)) },
     openGraph: {

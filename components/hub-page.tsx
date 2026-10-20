@@ -134,7 +134,7 @@ export function HubPage({ hub }: { hub: Hub }) {
         <div className="article-layout hub-layout">
           <div className="article-body">
             <p className="hub-source"><Database aria-hidden="true" /> Source: Department of Conservation, data as of {formatDate(hub.asOf)}. Licensed under CC BY 4.0. <Link href="/credits/#data-sources">Data credits</Link></p>
-            <HubMap points={hub.points} label={copy.mapLabel(hub)} caption="Positions rounded to about 100 m. Coastline: Natural Earth." />
+            <HubMap points={hub.points} label={copy.mapLabel(hub)} caption="Positions rounded to about 100 m. Coastline and lakes: Natural Earth." />
             <section>
               <span className="section-count">DATA</span>
               <h2>{hub.name} at a glance</h2>
@@ -244,7 +244,7 @@ export function HubIndexPage({ kind }: { kind: BuiltHubKind }) {
         <div className="article-layout hub-layout">
           <div className="article-body">
             <p className="hub-source"><Database aria-hidden="true" /> Source: Department of Conservation, data as of {formatDate(asOf)}. Licensed under CC BY 4.0. <Link href="/credits/#data-sources">Data credits</Link></p>
-            <HubMap points={listed.flatMap((hub) => hub.points)} label={`Map of the ${copy.noun} in the regions listed below`} caption="Positions rounded to about 100 m. Coastline: Natural Earth." />
+            <HubMap points={listed.flatMap((hub) => hub.points)} label={`Map of the ${copy.noun} in the regions listed below`} caption="Positions rounded to about 100 m. Coastline and lakes: Natural Earth." />
             <section>
               <span className="section-count">DATA</span>
               <h2>New Zealand at a glance</h2>
