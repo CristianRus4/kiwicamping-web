@@ -11,10 +11,14 @@ Main (9d0f03b) already carries almost everything, in newer fact-checked form. St
 5. **Lakes on hub maps** (063131a): main's outline has the coastline only.
 
 ## Done
-- Triage, this file.
+- Triage, this file. Rescue decisions: docs/growth/k-content-2-rescue.md.
+- 4faf9c2 English: doc-campsite-rules + FAQ ($10 Campsite Pass rule), DOC bookings guide sources (+ changelog).
+- 8a416a5 ContextCta. f4d69e1 guideTitle. 3c665aa lakes on hub maps (Natural Earth lakes in /tmp/ne, script args changed).
+- da1f548 translations (sonnet draft, opus review, negation check) in 9 live locales; stamped only these units in fr, pt, da, nb, sv (de, es, it, nl have no meta file on main; the stamp script would have created full files, so it was not run there). Working files /tmp/k3.
+- content:check passes.
 
 ## Next
-- ContextCta, guideTitle, content fixes + translations, lakes, rescue doc, changelog, npm run check, handoff.
+- npm run check, handoff. Then LANE COMPLETE.
 
 ## Blockers
 - None.
