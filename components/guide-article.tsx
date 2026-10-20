@@ -3,9 +3,10 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
+import { ContextCta, ContextEndCta, ctaVariantFor } from "@/components/context-cta";
 import { SectionTable } from "@/components/article-table";
 import { ArticleCard } from "@/components/article-card";
-import { CoverImage } from "@/components/site-image";
+import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SITE_URL, articleHref, type Article } from "@/lib/site";
 import { relatedGuides } from "@/lib/related";
 import { guidePageKey } from "@/lib/routes/guides";
@@ -14,13 +15,34 @@ import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
 import { displayCurrencies, exchangeRateDate, formatNzdRange } from "@/lib/currency";
 import { mainData } from "@/lib/analytics";
+import { hubCopy } from "@/components/hub-page";
+import { hubKinds, indexableHubs, listedHubs, type BuiltHubKind, type Hub } from "@/lib/hubs";
+
+/** The indexable DOC data hubs a guide names, grouped by kind, in the order the guide lists them. */
+function guideHubs(item: Article): { kind: BuiltHubKind; all: boolean; hubs: Hub[] }[] {
+  const groups = new Map<BuiltHubKind, { kind: BuiltHubKind; all: boolean; hubs: Hub[] }>();
+  for (const entry of item.hubs ?? []) {
+    const kind = (hubKinds as readonly string[]).includes(entry) ? entry as BuiltHubKind : undefined;
+    const picked = kind ? listedHubs(kind) : indexableHubs.filter((hub) => hub.id === entry);
+    for (const hub of picked) {
+      const hubKind = hub.kind as BuiltHubKind;
+      const group = groups.get(hubKind) ?? { kind: hubKind, all: false, hubs: [] };
+      if (kind) group.all = true;
+      if (!group.hubs.some((existing) => existing.id === hub.id)) group.hubs.push(hub);
+      groups.set(hubKind, group);
+    }
+  }
+  return [...groups.values()];
+}
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = relatedGuides(item);
+  const hubGroups = guideHubs(item);
   const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
+  const ctaVariant = ctaVariantFor(item);
 
   return <>
     <Header />
@@ -57,14 +79,28 @@ export function GuideArticle({ item }: { item: Article }) {
               </div>
               <p className="price-table-disclaimer">Currency figures are mechanical conversions of the NZD benchmark, not card or cash quotes. Banks and payment providers apply their own rates and fees.</p>
             </section>}
+            {item.comparison && <section className="article-price-section article-comparison-section">
+              <span className="section-count">VS</span>
+              <h2>{item.comparison.caption}</h2>
+              <p>{item.comparison.note}</p>
+              <div className="price-table-meta"><strong>Checked {item.comparison.asOf}</strong></div>
+              <div className="price-table-wrap">
+                <table className="price-table comparison-table">
+                  <thead><tr><th scope="col">{item.comparison.rowHeader ?? "App"}</th>{item.comparison.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+                  <tbody>{item.comparison.rows.map((row) => <tr key={row.label}><th scope="row"><strong>{row.label}</strong></th>{row.cells.map((cell, index) => <td key={item.comparison!.columns[index]}>{cell}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            </section>}
             {item.sections.map((part, index) => <section key={part.heading} id={`step-${index + 1}`}>
               <span className="section-count">{String(index + 1).padStart(2, "0")}</span>
               <h2>{part.heading}</h2>
               {/* The only HTML here is the anchor linkProse inserted; the prose itself is escaped. */}
               {linkProse(part.body, item.slug).map((paragraph, position) => <p key={part.body[position]} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+              {part.figure && <GuideFigure src={part.figure.src} alt={part.figure.alt} />}
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
               {part.cta && <DownloadCard compact placement={placement} />}
+              {index === 1 && !item.listicle && <ContextCta variant={ctaVariant} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>
@@ -81,10 +117,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>Common questions</h2>
               {item.faq.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}
             </section>}
-            <div className="article-end-cta">
-              <div><p className="eyebrow">Take it on the road</p><h2>Save the stops. Plan the whole trip.</h2><p>Build an ordered route from saved places, calculate the distance and keep dates, notes and to-dos attached.</p></div>
-              <DownloadCard compact placement={placement} />
-            </div>
+            <ContextEndCta variant={ctaVariant} placement={placement} />
           </div>
           <aside>
             <div className="article-side-card"><p className="eyebrow">Plan it in KiwiCamping</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact placement={placement} /></div>
@@ -92,6 +125,7 @@ export function GuideArticle({ item }: { item: Article }) {
           </aside>
         </div>
       </article>
+      {hubGroups.length > 0 && <section className="related-section guide-hubs"><p className="eyebrow">From DOC&apos;s own data</p><h2>Browse by region</h2>{hubGroups.map((group) => <div className="hub-directory" key={group.kind}><h3><Link href={`/${group.kind}/`}>{hubCopy[group.kind].indexTitle}</Link></h3><ul>{group.hubs.map((hub) => <li key={hub.id}><Link href={hub.path}><strong>{group.all ? hub.name : hubCopy[group.kind].h1(hub)}</strong><span>{hub.placeCount} {hubCopy[group.kind].noun}</span><ArrowRight /></Link></li>)}</ul></div>)}</section>}
       <section className="related-section"><p className="eyebrow">Keep planning</p><h2>Related guides</h2><div className="article-grid">{related.map((candidate) => <ArticleCard article={candidate} key={candidate.slug} />)}</div></section>
     </main>
     <Footer pageKey={guidePageKey(item.slug)} />

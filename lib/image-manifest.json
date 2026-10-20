@@ -83,6 +83,20 @@
       }
     ]
   },
+  "/images/articles/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/best-nz-camping-apps.webp": {
     "width": 1600,
     "height": 900,
@@ -1105,6 +1119,20 @@
       }
     ]
   },
+  "/images/articles/wikicamps-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wikicamps-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wikicamps-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wildlife-livestock-road-safety-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -1304,6 +1332,118 @@
       {
         "path": "/images/kiwicamping-og.webp",
         "width": 1200
+      }
+    ]
+  },
+  "/images/screens/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/best-nz-camping-apps.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-nz-camping-apps-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-nz-camping-apps.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/best-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-travel-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/campermate-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/campermate-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/free-camping-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/free-camping-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/free-camping-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/rankers-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/rankers-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/rankers-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/road-trip-planner-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/road-trip-planner-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/road-trip-planner-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/wikicamps-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/wikicamps-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/wikicamps-alternatives.webp",
+        "width": 1600
       }
     ]
   }

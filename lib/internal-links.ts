@@ -74,7 +74,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bStewart Island\b|\bRakiura\b/, slug: "rakiura-stewart-island-camping-guide" },
   { pattern: /\bcamping apps?\b/i, slug: "best-nz-camping-apps" },
   { pattern: /\bworks offline\b|\bwithout reception\b|\bno reception\b/i, slug: "kiwicamping-offline-data-guide" },
-  { pattern: /\bStreet View\b/, slug: "kiwicamping-weather-look-around" },
+  { pattern: /\bLook Around\b|\bStreet View\b/, slug: "kiwicamping-weather-look-around" },
   { pattern: /\bfilters\b/i, slug: "kiwicamping-filters-guide" },
   { pattern: /\bcollections\b/i, slug: "save-places-kiwicamping" },
   { pattern: /\btrip planner\b/i, slug: "plan-trip-kiwicamping" },

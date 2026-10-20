@@ -9,6 +9,7 @@ import { isArticleTranslated, isStaticPageTranslated, isTranslated, publishedLoc
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 import { allArticles, articles, isScheduled } from "../lib/site.ts";
 import { redirects } from "../lib/redirects.ts";
+import { screenFigures } from "../lib/screen-figures.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
 const locales=liveLocales;
@@ -36,7 +37,7 @@ for(const {slug,legacyPath} of list){const route=legacyPath??`/guides/${slug}`;c
   if(isScheduled(slug)){assert.equal(response.status,404,`${slug} is scheduled but already served`);continue;}
   assert.equal(response.status,200,route);const html=await response.text();const body=html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1]??"";assert.ok((body.match(/<p[ >]/g)??[]).length>=6,`${route} needs at least six prose paragraphs`);for(const template of templates)assert.doesNotMatch(body,template,`${route} still contains templated filler`);assert.match(html,/section-count/)}});
 
-test("renders dated New Zealand cost tables in ten currencies",async()=>{const response=await fetchPage("/guides/new-zealand-grocery-prices-2026");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Price table in 10 currencies/);assert.match(html.replace(/<!-- -->/g,""),/Prices checked 12 August 2026/);for(const currency of ["NZD","USD","GBP","AUD","JPY","EUR","CNY","KRW","INR","SGD"])assert.match(html,new RegExp(`>${currency}<`));assert.match(html,/Reserve Bank of New Zealand/)});
+test("renders dated New Zealand cost tables in ten currencies",async()=>{const response=await fetchPage("/guides/new-zealand-grocery-prices-2026");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Price table in 10 currencies/);assert.match(html.replace(/<!-- -->/g,""),/Prices checked 16 October 2026/);for(const currency of ["NZD","USD","GBP","AUD","JPY","EUR","CNY","KRW","INR","SGD"])assert.match(html,new RegExp(`>${currency}<`));assert.match(html,/Reserve Bank of New Zealand/)});
 
 test("renders tools with official benchmark defaults",async()=>{const response=await fetchPage("/tools");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Currency converter/);assert.match(html,/Fuel calculator/);assert.match(html,/data-static-tools/);assert.match(html,/120\.0 L · NZ\$355\.20/)});
 
@@ -393,4 +394,79 @@ test("translation stamps find strings whose English changed",async()=>{
   }finally{
     stamps.useTranslationsDirectory(new URL("../lib/translations",import.meta.url).pathname);
   }
+});
+
+/** Text as React writes it into an attribute value. */
+const attribute=(text)=>text.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+/** Every screenshot figure in a page, as { tag, alt } for each <img> inside a figure.guide-figure. */
+const guideFigures=(html)=>[...html.matchAll(/<figure class="guide-figure">(<img [^>]*>)<\/figure>/g)].map((match)=>({tag:match[1],alt:match[1].match(/ alt="([^"]*)"/)?.[1]}));
+function assertFigureImage(tag,src,route){
+  const variant=src.replace(/\.webp$/,"-800.webp");
+  assert.match(tag,new RegExp(` src="${src}"`),`${route}: figure src`);
+  assert.match(tag,/ width="1600"/,`${route}: figure width`);
+  assert.match(tag,/ height="900"/,`${route}: figure height`);
+  assert.ok(tag.includes(` srcSet="${variant} 800w, ${src} 1600w"`)||tag.includes(` srcset="${variant} 800w, ${src} 1600w"`),`${route}: figure srcset must include ${variant}`);
+  assert.match(tag,/ sizes="[^"]+"/,`${route}: figure sizes`);
+  assert.match(tag,/ loading="lazy"/,`${route}: figure loads lazily`);
+  assert.match(tag,/ decoding="async"/,`${route}: figure decodes async`);
+}
+
+test("each screenshot figure sits in the section that names KiwiCamping, one figure per guide",()=>{
+  // No exception on this site: every figure guide has a section whose heading names KiwiCamping.
+  // (AussieCamps documents one, a guide whose section body names the app; see docs/growth/screen-figures.md.)
+  const namedInBody=new Set();
+  for(const figure of screenFigures){
+    const article=allArticles.find((item)=>item.slug===figure.slug);
+    const part=article.sections[figure.section];
+    if(namedInBody.has(figure.slug))assert.match(part.body.join(" "),/KiwiCamping/,`${figure.slug}: section ${figure.section} must name KiwiCamping`);
+    else assert.match(part.heading,/KiwiCamping/,`${figure.slug}: section ${figure.section} must be the KiwiCamping entry`);
+    assert.deepEqual(article.sections.flatMap((section,index)=>section.figure?[index]:[]),[figure.section],`${figure.slug}: exactly one figure`);
+    assert.deepEqual(part.figure,{src:figure.src,alt:figure.alt});
+  }
+});
+
+test("published figure guides export the screenshot in English and in every locale",async()=>{
+  const pages=new Map((await pagesPromise).map((page)=>[page.path,page.html]));
+  const published=screenFigures.filter((figure)=>articles.some((item)=>item.slug===figure.slug));
+  assert.ok(published.some((figure)=>figure.slug==="best-nz-camping-apps"),"best-nz-camping-apps is live and carries a figure");
+  for(const figure of published){
+    const article=articles.find((item)=>item.slug===figure.slug);
+    const route=article.legacyPath??`/guides/${figure.slug}/`;
+    const english=guideFigures(pages.get(route)??"");
+    assert.equal(english.length,1,`${route} must carry one screenshot figure`);
+    assertFigureImage(english[0].tag,figure.src,route);
+    assert.equal(english[0].alt,attribute(figure.alt),`${route}: English alt`);
+    for(const locale of locales){
+      const localeRoute=`/${locale}/guides/${figure.slug}/`;
+      const found=guideFigures(pages.get(localeRoute)??"");
+      assert.equal(found.length,1,`${localeRoute} must carry one screenshot figure`);
+      assertFigureImage(found[0].tag,figure.src,localeRoute);
+      if(isArticleTranslated(locale,figure.slug)){
+        // A translated page carries no English alt: the figure is described by the translated heading.
+        const translation=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+        assert.equal(found[0].alt,attribute(translation.articles[figure.slug].sections[figure.section].heading),`${localeRoute}: alt is the translated heading`);
+      }else{
+        assert.equal(found[0].alt,attribute(figure.alt),`${localeRoute} is the English fallback and keeps the English alt`);
+      }
+    }
+  }
+});
+
+test("screen figures fail the build when they point at nothing",async()=>{
+  const {applyScreenFigures}=await import("../lib/screen-figures.ts");
+  const guides=[{slug:"a-guide",sections:[{heading:"One",body:["Text"]},{heading:"Two",body:["Text"]}]}];
+  const figure={slug:"a-guide",section:0,src:"/images/screens/best-nz-camping-apps.webp",alt:"A screenshot"};
+  assert.deepEqual(applyScreenFigures(guides,[figure])[0].sections[0].figure,{src:figure.src,alt:figure.alt});
+  assert.equal(applyScreenFigures(guides,[figure])[0].sections[1].figure,undefined);
+  assert.throws(()=>applyScreenFigures(guides,[figure,figure]),/^Error: screen-figures: section 0 of "a-guide" has two figures/);
+  assert.throws(()=>applyScreenFigures(guides,[figure,{...figure,section:1}]),/^Error: screen-figures: "a-guide" is listed twice/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,slug:"no-such-guide"}]),/^Error: screen-figures: unknown guide slug "no-such-guide"/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:2}]),/^Error: screen-figures: section 2 is out of range for "a-guide"/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:-1}]),/^Error: screen-figures: section -1 is out of range/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,section:0.5}]),/^Error: screen-figures: section 0.5 is out of range/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,src:"/images/screens/missing.webp"}]),/^Error: screen-figures: no image-manifest entry/);
+  assert.throws(()=>applyScreenFigures(guides,[{...figure,alt:" "}]),/^Error: screen-figures: "a-guide" needs alt text/);
+  // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
+  const {translationSource}=await import("../lib/translation-source.ts");
+  assert.doesNotMatch(JSON.stringify(translationSource().articles),/images\/screens|"figure"/);
 });

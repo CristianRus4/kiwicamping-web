@@ -2,11 +2,11 @@ import outline from "@/lib/data/nz-outline.json";
 
 /**
  * A static dot map: every place in a hub drawn over New Zealand's coastline, rendered to plain SVG at
- * build time. No tiles, no script. The coastline is Natural Earth (public domain, see
+ * build time. No tiles, no script. The coastline and large lakes are Natural Earth (public domain, see
  * scripts/build-nz-outline.mjs); positions come from the hub record, already rounded to 3 decimals.
  *
  * The frame fits the hub's own points with a margin, so a region hub shows its region and the index
- * pages show the country. Coastline rings that fall wholly outside the frame are left out.
+ * pages show the country. Coastline and lake rings that fall wholly outside the frame are left out.
  */
 const WIDTH = 640;
 
@@ -23,14 +23,17 @@ export function HubMap({ points, label, caption }: { points: [number, number][];
   const x = (lon: number) => (lon - frame.west) / (frame.east - frame.west) * WIDTH;
   const y = (lat: number) => (frame.north - lat) / (frame.north - frame.south) * height;
   const fixed = (value: number) => Math.round(value * 10) / 10;
-  const rings = (outline.rings as [number, number][][]).filter((ring) => ring.some(([lon, lat]) => lon >= frame.west - 1 && lon <= frame.east + 1 && lat >= frame.south - 1 && lat <= frame.north + 1));
-  const coast = rings.map((ring) => `M${ring.map(([lon, lat]) => `${fixed(x(lon))} ${fixed(y(lat))}`).join("L")}Z`).join("");
+  const inFrame = (ring: [number, number][]) => ring.some(([lon, lat]) => lon >= frame.west - 1 && lon <= frame.east + 1 && lat >= frame.south - 1 && lat <= frame.north + 1);
+  const draw = (rings: [number, number][][]) => rings.filter(inFrame).map((ring) => `M${ring.map(([lon, lat]) => `${fixed(x(lon))} ${fixed(y(lat))}`).join("L")}Z`).join("");
+  const coast = draw(outline.rings as [number, number][][]);
+  const lakes = draw(outline.lakes as [number, number][][]);
   const radius = points.length > 120 ? 3 : 4.5;
 
   return <figure className="hub-map">
     <svg viewBox={`0 0 ${WIDTH} ${height}`} role="img" aria-label={label} preserveAspectRatio="xMidYMid meet">
       <rect width={WIDTH} height={height} className="hub-map-sea" />
       <path d={coast} className="hub-map-land" />
+      {lakes && <path d={lakes} className="hub-map-lake" />}
       {points.map(([lat, lon], index) => <circle key={index} cx={fixed(x(lon))} cy={fixed(y(lat))} r={radius} className="hub-map-dot" />)}
     </svg>
     <figcaption>{caption}</figcaption>

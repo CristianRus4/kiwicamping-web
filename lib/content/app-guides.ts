@@ -9,7 +9,7 @@ export const appArticles: Article[] = [
     description: "Order stops, see route distance and keep dates, notes and to-dos beside the itinerary.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Trip planner", "Route distance", "Trip notes", "To-do list", "Calendar sync"],
-    imageAlt: "KiwiCamping trip planner on an iPhone",
+    imageAlt: "Road leading towards Aoraki / Mount Cook under a blue sky",
     intro: "A useful trip is more than a line between saved pins. The planner keeps the route, distance, dates, notes and small jobs in one place, so the plan survives the moment it has to change, which on a New Zealand road trip is usually somewhere around day three.",
     sections: [
       s("Build the skeleton from fixed nights", [
@@ -49,7 +49,7 @@ export const appArticles: Article[] = [
     description: "Keep confirmed stays, strong alternatives and future ideas separate without losing them on the map.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Saved places", "Custom lists", "Smart collections", "Trip options", "iCloud sync"],
-    imageAlt: "Saved place lists in KiwiCamping",
+    imageAlt: "Golden sand and turquoise water at Torrent Bay in Abel Tasman National Park",
     intro: "Saving every interesting pin into one pile just moves the search problem somewhere else. A small amount of structure, decided early, keeps thousands of campsites, huts and holiday parks usable across several trips instead of becoming a list you stop opening.",
     sections: [
       s("Separate saved places by intent", [
@@ -89,7 +89,7 @@ export const appArticles: Article[] = [
     description: "Narrow by place type, facilities, price and access without hiding every workable alternative.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Campsites", "Huts", "Freedom camping", "Holiday parks", "Dump stations"],
-    imageAlt: "KiwiCamping place filters on an iPhone",
+    imageAlt: "Caravans parked at the Lake Clearwater campsite below snowy peaks in Canterbury",
     intro: "Filters are most useful when each one represents a genuine deal-breaker rather than a preference. Over-filtering is the common mistake: it produces three results, hides the sensible alternative twenty minutes away, and gives a false impression that an area has nothing in it.",
     sections: [
       s("Start with place type and area", [
@@ -125,20 +125,20 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-offline-data-guide",
-    title: "What works offline in KiwiCamping",
-    description: "Keep the bundled place directory and core details available when reception disappears.",
+    title: "Does KiwiCamping Work Offline? What Needs Signal",
+    description: "Place details, saved lists and guides work without reception; map tiles, weather, routing and Look Around need signal. Plan remote legs around that.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["Offline places", "Place details", "Saved lists", "Trip plans", "West Coast", "Fiordland"],
-    imageAlt: "KiwiCamping place details available without signal",
-    intro: "Offline means the place data stays useful outside coverage. It does not mean every service works without a network, and knowing exactly which half is which is the difference between a well-prepared remote leg and finding out at the wrong moment.",
+    imageAlt: "State Highway 94 winding through a remote valley in Fiordland National Park",
+    intro: "KiwiCamping is not an offline map app. The place data stays useful outside coverage, but map tiles, weather, routing and photos need a network, and knowing exactly which half is which is the difference between a well-prepared remote leg and finding out at the wrong moment.",
     sections: [
       s("What stays available without reception", [
-        "The app bundles more than 6,500 New Zealand place records, covering campsites, backcountry huts, holiday parks and other bookable stays, designated freedom camping areas, dump stations and day-use places. Core details travel with the app rather than being fetched, so they remain readable when the signal does not.",
+        "The app bundles its New Zealand place records: DOC campsites, huts and tracks, DOC freedom camping notices, dump stations, day-use areas, and BookIt holiday parks and tours. Core details travel with the app rather than being fetched, so they remain readable when the signal does not. BookIt stays and tours are free; the DOC places, dump stations and day-use areas are part of the Premium pass.",
         "Saved lists and trip information stay usable too. You can review the plan, read the notes attached to each stop and check what you decided about a place, which is normally exactly what you need when you are deciding whether to push on or stop.",
-      ], ["6,500+ place records bundled", "Saved lists and trips stay readable", "Details travel with the app"]),
+      ], ["Place records bundled", "Saved lists and trips stay readable", "Details travel with the app"]),
       s("What genuinely needs a connection", [
-        "Weather forecasts, live routing and directions, external booking pages, provider websites and some map imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
-        "Street View imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends.",
+        "Weather forecasts, live routing and directions, external booking pages, provider websites, place photos, map tiles and satellite imagery all require connectivity. None of this removes the stored place record, but it does mean the answer to \"is it going to rain\" and \"is there a bed free\" is not available out there.",
+        "Look Around imagery also needs a connection, which is worth knowing because it is most useful precisely when you are approaching an unfamiliar entrance, and that is often where coverage ends.",
       ]),
       s("Where in New Zealand this actually bites", [
         "The West Coast between Westport and Haast, most of Fiordland, the East Cape, the Catlins, inland Otago and large parts of the central North Island have long stretches with no usable mobile coverage. These are not remote outposts; they are on the main tourist routes, and they are exactly where you will be choosing a campsite.",
@@ -165,12 +165,12 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-weather-look-around",
-    title: "Use weather and Street View before choosing a stay",
+    title: "Use weather and Look Around before choosing a stay",
     description: "Compare the forecast and road environment with the actual campsite decision.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
-    places: ["Weather at the stay", "Street View", "Access road", "Nearby services", "MetService"],
-    imageAlt: "Weather and place preview in KiwiCamping",
-    intro: "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Street View fill in the parts that decide whether a night is comfortable.",
+    places: ["Weather at the stay", "Apple Look Around", "Access road", "Nearby services", "MetService"],
+    imageAlt: "Dramatic northwest clouds over the turquoise water of Lake Pukaki",
+    intro: "A pin tells you where a place is. It does not tell you that the site is a shingle bank fully exposed to a southerly, that the access is a steep single-lane gravel climb, or that the entrance is easy to miss in the dark. Weather and Apple Look Around fill in the parts that decide whether a night is comfortable.",
     sections: [
       s("Check the forecast for the site, not the region", [
         "New Zealand weather varies dramatically over short distances. A forecast for the nearest town can be genuinely wrong for a campsite twenty minutes away on the other side of a range, and the difference between a sheltered valley and an exposed lake edge is not a detail.",
@@ -184,12 +184,12 @@ export const appArticles: Article[] = [
         "An in-app forecast is context for a comfort decision. For safety, use MetService warnings, Civil Defence advice, NZTA road conditions and DOC alerts, which is where severe weather, road closures, flooding and track warnings actually appear.",
         "Check these while you still have signal, and check them again close to departure on any day involving an alpine pass, a river crossing, an exposed coast or a forecast that has been shifting.",
       ], ["MetService for warnings", "NZTA for road conditions", "Recheck before alpine passes"]),
-      s("Preview the arrival with Street View", [
-        "Where Street View imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
+      s("Preview the arrival with Look Around", [
+        "Where Look Around imagery exists, it shows you the entrance, the road width, the surface and the surroundings before you commit a large vehicle to it. This is genuinely valuable for holiday parks in unfamiliar towns, where the turn is often unmarked and the street is narrower than expected.",
         "It is equally useful for spotting what a listing will not tell you: that a site backs onto a main road, sits beside a rail line, or that the only access is a steep gravel descent you would rather not reverse out of.",
       ]),
       s("Treat imagery as old, because it is", [
-        "Street View imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
+        "Look Around imagery can be several years out of date. Roadworks, slips, new gates, changed signage and closed entrances will not appear, and in a country where a single storm can rearrange a West Coast road, that gap matters.",
         "Use it to build an expectation, not a guarantee. Signs, barriers and conditions on arrival decide, and if the ground contradicts the imagery, the ground is right.",
       ], ["Imagery can be years old", "Slips and gates will not show", "The ground always wins"]),
       s("Look at what is around the site", [
@@ -209,7 +209,7 @@ export const appArticles: Article[] = [
     description: "Use consistent conversions to compare stays, then confirm the amount charged by the provider.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
     places: ["New Zealand dollars", "Selected currency", "Reported fees", "Provider prices", "DOC fees"],
-    imageAlt: "KiwiCamping price shown in a selected currency",
+    imageAlt: "Campervans and caravans parked on the grass at Reefton Motor Camp",
     intro: "Travellers budget in the currency they think in, while every New Zealand campground charges New Zealand dollars. Showing reported costs in a familiar currency removes the mental arithmetic from every comparison, as long as nobody mistakes a conversion for a quote.",
     sections: [
       s("Pick the currency your budget is in", [

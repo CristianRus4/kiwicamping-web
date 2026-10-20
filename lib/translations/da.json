@@ -54,9 +54,9 @@
     "featuresText": "Udforsk steder, sammenlign detaljerne, organisér favoritterne, og lav en tur, der stadig er til nytte, når du først er kørt hjemmefra.",
     "featureMainEyebrow": "Kend stedet, før du kommer frem",
     "featureMainTitle": "Stedets side viser med det samme det, der afgør valget.",
-    "featureMainText": "Fotos, en rigtig beskrivelse, åbningstider, priser, vilkår, faciliteter ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret og Street View, så du kan se indkørslen fra vejen.",
+    "featureMainText": "Fotos, en rigtig beskrivelse, åbningstider, priser, vilkår, faciliteter ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret og Apple Look Around, så du kan se indkørslen fra vejen.",
     "featureList1": "Fotos, åbningstider, priser, vilkår og faciliteter",
-    "featureList2": "Street View, vejr og rutevejledning indbygget",
+    "featureList2": "Look Around, vejr og rutevejledning indbygget",
     "featureList3": "Ligger i appen og åbner uden dækning",
     "feature1Title": "Smarte samlinger og dine egne lister",
     "feature1Text": "»Synes godt om«, »Stjernemarkeret«, »Ønsker at besøge« og »Besøgt« fylder sig selv, efterhånden som du markerer steder. Oven på dem kan du lave samlinger med navn til en ø, en årstid eller de steder, I stadig diskuterer.",
@@ -64,8 +64,8 @@
     "feature2Text": "Spørg efter gratis pladser med toiletter og drikkevand omkring Queenstown, og snævr så yderligere ind efter stedtype, pris, bedømmelse, onlinebooking, region og detaljerede funktioner for faciliteter og adgang.",
     "feature3Title": "Standardkort, satellit og 3D",
     "feature3Text": "Skift mellem standardkortet og satellitbilleder, som du kan vippe og dreje, så terrænet står frem. Når du zoomer ud, samles pins i grupper med et tal, og når du zoomer ind, skilles de ad igen.",
-    "feature4Title": "Street View før afkørslen",
-    "feature4Text": "Street View åbner direkte fra stedets side, hvor der findes billeder, så du kan se indkørslen, vejbelægningen og omgivelserne, før du drejer af med autocamperen.",
+    "feature4Title": "Look Around før afkørslen",
+    "feature4Text": "Apple Look Around åbner direkte fra stedets side, hvor der findes billeder, så du kan se indkørslen, vejbelægningen og omgivelserne, før du drejer af med autocamperen.",
     "feature5Title": "Vejret for hvert sted",
     "feature5Text": "Det aktuelle vejr og prognosen står på stedets side og ved hvert stop på turen, så du kan tage vejret med i betragtning, når du vælger mellem to pladser.",
     "feature6Title": "Priser i din egen valuta",
@@ -110,7 +110,7 @@
     "faq2q": "Hvilke steder er med?",
     "faq2a": "Over 6.500 steder: DOC-campingpladser, hytter i baglandet, Holiday Parks og andre steder, der kan bookes, freedom camping-områder, offentlige tømmestationer og dagspladser på begge øer.",
     "faq3q": "Virker appen uden dækning?",
-    "faq3a": "Registret over steder følger med appen, så navne, kategorier, beskrivelser, priser, faciliteter og vilkår kan læses langt uden for dækning. Live-tjenester som vejr, ruteberegning, Street View, fotos og udbydernes sider kræver stadig forbindelse.",
+    "faq3a": "Registret over steder følger med appen, så navne, kategorier, beskrivelser, priser, faciliteter og vilkår kan læses langt uden for dækning. Live-tjenester som vejr, ruteberegning, Look Around, fotos og udbydernes sider kræver stadig forbindelse.",
     "faq4q": "Kan jeg planlægge en roadtrip med flere stop?",
     "faq4a": "Ja, det er appens vigtigste funktion. Tilføj steder som stop, træk dem i rækkefølge, giv hvert stop en dato og noter til ankomsten, se køreafstanden etape for etape og for hele turen, åbn rutevejledningen til næste stop, tjek vejret ved hvert stop, sæt kryds ved stoppene, når du har besøgt dem, og hav pakkelisten ved siden af rejseplanen. Rejseplanen kan synkroniseres med Kalender.",
     "faq5q": "Hvad er samlinger?",
@@ -118,9 +118,9 @@
     "faq6q": "Kan jeg filtrere efter gratis pladser eller pladser til selvforsynende køretøjer?",
     "faq6a": "Ja, og også efter kombinationer. Filtrene dækker stedtype, pris, mindste bedømmelse, onlinebooking, region og detaljerede funktioner for faciliteter og adgang, så »gratis pladser med toiletter og drikkevand nær Queenstown« er én enkelt søgning.",
     "faq7q": "Hvad står der på et steds side?",
-    "faq7a": "Fotos, en beskrivelse, åbningstider, priser, vilkår, faciliteter ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret, Street View hvor der findes billeder, rutevejledning og alternativer i nærheden.",
+    "faq7a": "Fotos, en beskrivelse, åbningstider, priser, vilkår, faciliteter ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret, Look Around hvor der findes billeder, rutevejledning og alternativer i nærheden.",
     "faq8q": "Hvilke kortvisninger er der?",
-    "faq8a": "Et standardkort og en satellitvisning bygget på flyover-billeder fra Apple, som du kan vippe og dreje, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og viser stedet fra gadeplan direkte fra stedets side.",
+    "faq8a": "Et standardkort og en satellitvisning bygget på flyover-billeder fra Apple, som du kan vippe og dreje, så terrænet ses i 3D. Apple Look Around viser stedet fra gadeplan direkte fra stedets side.",
     "faq9q": "Kan jeg se priserne i min egen valuta?",
     "faq9a": "Ja. Vælg din valuta i indstillingerne, og angiv kursen, så vises de oplyste priser i den valuta ved siden af beløbet i newzealandske dollar.",
     "faq10q": "Kan jeg booke en campingplads i KiwiCamping?",
@@ -254,7 +254,7 @@
         {
           "heading": "Kort, vejr og live-oplysninger",
           "paragraphs": [
-            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og åbner fra stedets side, hvor der findes billeder.",
+            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Apple Look Around, visningen på gadeplan, åbnes fra stedets side, hvor der findes billeder.",
             "Aktuelt vejr og vejrudsigt kræver live-data. Gem vigtige prognoser og officielle varsler, før du kører ud af dækning.",
             "Registret over steder ligger i appen, så de vigtigste oplysninger om hvert sted er tilgængelige, også hvor dækningen er dårlig. Live-kort, ruteberegning, vejr, fotos og eksterne udbyderes sider kan kræve forbindelse."
           ]
@@ -269,8 +269,8 @@
         {
           "heading": "Premium og køb",
           "paragraphs": [
-            "Kortet og stedernes oplysninger er gratis, og det samme er to gemte lister.",
-            "Premium giver ubegrænsede gemte lister, rejseplanlægning, avancerede filtre, vejret for hvert sted og roadtrip-ruter.",
+            "KiwiCamping er gratis at downloade, og kortet og søgningen viser alle steder. Uden Pass får du kun fuld adgang til bookbare Holiday Parks, ophold og ture fra BookIt og til et par guider.",
+            "Pass åbner DOC-campingpladser, DOC-hytter og vandrestier, freedom camping-områder, tømmestationer, dagsrastepladser og alle guider og giver adgang til at gemme steder, til samlinger og til rejseplanlæggeren.",
             "Tryk på »Gendan køb« på skærmen »Premium«, mens du er logget ind med den Apple-konto, du brugte til det oprindelige køb."
           ]
         }
@@ -377,8 +377,8 @@
   },
   "articles": {
     "new-zealand-road-signs-visitors": {
-      "title": "Vejskilte i New Zealand: det skal du kende som turist",
-      "description": "Forbudsskilte, advarselsskilte og midlertidige skilte i New Zealand skal læses sammen med vejstriberne og forholdene på vejen.",
+      "title": "Vejskilte i New Zealand og deres betydning for turister",
+      "description": "Vigepligt, ensporet bro, vejledende hastighed og advarselsskilte i New Zealand forklaret, med de situationer på landevejene, der overrasker besøgende.",
       "region": "New Zealands veje",
       "imageAlt": "Advarselsskilt for en ensporet bro i New Zealand",
       "intro": "Skiltene i New Zealand bygger på velkendte internationale principper, men de lokale trafiksituationer kan overraske turister. Vigepligt på ensporede broer, vejledende hastigheder i sving og midlertidig trafikregulering skal du kunne genkende, før vejen bliver smal.",
@@ -443,7 +443,7 @@
           "heading": "Overhalingsspor og vigepladser til langsomme køretøjer",
           "body": [
             "Der er langt mellem overhalingssporene på New Zealands hovedveje. Kører du langsommere end trafikken bag dig, er det både høfligt og forventet, at du bruger vigepladserne for langsomme køretøjer (»Slow Vehicle Bay«) eller trækker ind til siden, hvor det er sikkert, og lader de andre komme forbi. Det handler om mere end god tone: Frustrerede bilister bagved forårsager ulykker ved overhaling.",
-            "Sæt ikke farten op i et overhalingsspor, mens nogen er ved at overhale dig. Kører der fem eller flere køretøjer i kø bag dig, skal du ifølge loven trække ind til siden, så snart det kan gøres sikkert."
+            "Sæt ikke farten op i et overhalingsspor, mens nogen er ved at overhale dig. Hvis din fart holder trafikken tilbage, kræver færdselsreglerne, at du kører ind til venstre og lader den komme forbi, så snart det kan gøres sikkert."
           ],
           "tips": []
         },
@@ -487,8 +487,8 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Biosikkerhed i New Zealand: telt, støvler og campingudstyr",
-      "description": "Deklarer risikovarer ved grænsen til New Zealand, og rengør udstyret, før det flytter mellem søer, floder og skove.",
+      "title": "Biosikkerhed i New Zealand: deklarer støvler og campingudstyr",
+      "description": "Brugte støvler, telte og fiskeudstyr skal deklareres, når du ankommer til New Zealand. Hvad du skal rengøre, før du flyver, og hvordan du forhindrer skadedyr i at sprede sig mellem floder.",
       "region": "Indrejse og natur i New Zealand",
       "imageAlt": "Rengjorte vandrestøvler klar til biosikkerhedskontrollen i New Zealand",
       "intro": "Brugt friluftsudstyr kan bære frø, jord, insekter og skadelige organismer fra søer og vandløb med sig. Biosikkerheden begynder ved grænsen og fortsætter, når udstyret flytter mellem New Zealands økosystemer.",
@@ -597,52 +597,52 @@
       "priceTable": null
     },
     "doc-campsite-rules": {
-      "title": "DOC-campingpladser: de regler, alle campister bør kende",
-      "description": "Booking, nattero, affald, kæledyr og forholdene på den enkelte plads afgør, hvordan et ophold på en DOC-campingplads i New Zealands beskyttede natur forløber.",
+      "title": "DOC-campingpladser 2026: nattero, hunde, droner og ophold",
+      "description": "Nattero fra kl. 22 til kl. 7, udtjekning senest kl. 10, ingen kæledyr eller droner uden DOC's tilladelse og hvad det koster at campere uden booking: DOC's betingelser plus de lokale regler.",
       "region": "DOC-campingpladser",
       "imageAlt": "Informationstavle på en campingplads drevet af Department of Conservation",
-      "intro": "Når du booker hos DOC, accepterer du både de landsdækkende betingelser og de lokale regler for stedet. Siden for den enkelte campingplads er stadig afgørende, for adgangsvej, bål, vand, hunde og regler for køretøjer varierer meget fra sted til sted.",
+      "intro": "Når du booker en DOC-campingplads, accepterer du DOC's bookingbetingelser og de lokale regler på pladsens egen side. De landsdækkende regler er korte: Hold ro fra kl. 22 til kl. 7, tjek ud senest kl. 10, tag alt affald med, tag hverken kæledyr eller droner med, medmindre DOC har godkendt det, og ryg eller vape ikke i hytter eller toiletbygninger. Bål, vand, hunde, generatorer og adgang med køretøj varierer fra plads til plads, så tjek pladsens DOC-side og skiltene på stedet.",
       "sections": [
         {
           "heading": "Book ærligt",
           "body": [
             "Book den rigtige dato, det rigtige antal personer og den rigtige type overnatning, og hav bekræftelsen klar, så den kan vises uden net. Hvor pladserne ikke fordeles på forhånd, vælger du kun blandt dem, der er ledige, når du ankommer.",
-            "Ifølge DOC's betingelser kan en booking på flere nætter, der ikke bliver brugt, annulleres efter den første nat, hvor du udebliver. Hold ikke en plads med et tomt telt, når ingen har tænkt sig at overnatte der."
+            "Hvis du udebliver den første nat af en booking på flere nætter, og ingen kontakter pladsens kontor inden for 24 timer, annullerer DOC resten uden refusion. Hold ikke en plads med et tomt telt eller køretøj, når ingen har tænkt sig at overnatte der."
           ],
           "tips": []
         },
         {
           "heading": "Respekter de fælles tider",
           "body": [
-            "Ifølge DOC's standardbetingelser er der nattero fra kl. 22 til kl. 7, medmindre de lokale regler siger noget andet, og du skal som regel tjekke ud senest kl. 10. Hold generator, musik og kørsel inden for de grænser, pladsen sætter.",
-            "En booking af en campingplads giver ikke adgang til faciliteterne i en hytte i nærheden. Brug kun de toiletter, læskure og vandposter, der hører til det, du har booket."
+            "Ifølge DOC's standardbetingelser er der nattero fra kl. 22 til kl. 7, medmindre de lokale regler siger noget andet, udtjekning senest kl. 10 og indtjekning mellem kl. 14 og kl. 20.30. Hold generator, musik og kørsel inden for de grænser, pladsen sætter.",
+            "En booking af en campingplads garanterer ikke, at du kan bruge faciliteterne i en hytte i nærheden, så regn med de toiletter, læskure og vandposter, der følger med campingpladsen."
           ],
           "tips": []
         },
         {
           "heading": "Efterlad pladsen klar til de næste",
           "body": [
-            "Tag alt affald med, opbevar maden sikkert, og hæld aldrig gråvand ud på jorden. Det er ikke tilladt at ryge eller vape i hytter og toiletbygninger.",
+            "Tag alt affald med, opbevar maden sikkert, og bortskaf kun gråvand de steder, hvor pladsen anviser det. Det er ikke tilladt at ryge eller vape i hytter og toiletbygninger.",
             "Kæledyr og droner kræver udtrykkelig tilladelse. Tjek siden for netop den campingplads, og gå ikke ud fra, at et stille sted er det samme som et stiltiende ja."
           ],
           "tips": []
         },
         {
-          "heading": "Booking, først til mølle eller Campsite Pass",
+          "heading": "Bookingregler og straffen, hvis du ikke har booket",
           "body": [
-            "Siden for hver campingplads oplyser, hvilket system der gælder, og de fleste problemer ved ankomsten skyldes, at man blander dem sammen. Et Campsite Pass er en måde at betale på, ikke en reservation. Det sikrer dig altså ikke en plads, hvor der skal bookes, og det hjælper intet på en plads med først til mølle, der allerede er fuld.",
-            "Hvor der skal bookes, booker du til det antal personer og det køretøj, du faktisk kommer med. Hav bekræftelsen klar, så den kan vises uden net, for der er ofte ingen dækning på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, og en booking, du ikke kan vise, er svær at forsvare over for en opsynsmand, der skal fordele pladserne på en fuld campingplads."
+            "Siden for hver campingplads oplyser, om den kan bookes, eller om den bruger selvregistrering, og reglerne følger af det. På en plads, der kan bookes, skal du have en gyldig booking for den nat, du bruger den, også hvis du har et pass. Uden booking har du ingen garanteret plads, og DOC opkræver straftakst: Hver person betaler den normale pris plus en fuld voksenpris, medmindre de søger ly under vanskelige forhold. Indehavere af et Campsite Pass, der ankommer uden booking, betaler i stedet et gebyr på 10 NZD og bliver afvist, hvis pladsen er fuld.",
+            "På en plads med selvregistrering udfylder du formularen og betaler ved ankomsten. Uanset hvilket system gælder bookingen eller registreringen de personer og det køretøj, du faktisk kommer med, og bekræftelsen skal kunne fremvises på forlangende, så gem den et sted, hvor du kan vise den <a data-guide=\"kiwicamping-offline-data-guide\">uden dækning</a>."
           ],
           "tips": [
             "Et Campsite Pass er ikke en booking",
-            "Hav bekræftelserne klar uden net",
-            "Book til det rigtige køretøj og antal personer"
+            "Uden booking betaler hver person prisen plus en voksenpris",
+            "Registrer dig og betal ved ankomsten på pladser med først til mølle"
           ]
         },
         {
           "heading": "Vandet er ofte ubehandlet",
           "body": [
-            "Mange DOC-pladser henter vandet fra vandløb eller fra tanke, der opsamler regnvand fra tagene, og vandet bliver ikke behandlet. Der er giardia i New Zealands vand, og at en bæk er klar, siger intet om den. Kog vandet i mindst et minut, filtrer det, eller rens det kemisk, og gå ikke ud fra, at en vandhane er sikker, bare fordi den er der.",
+            "Mange DOC-pladser henter vandet fra vandløb eller fra tanke, der opsamler regnvand fra tagene, og vandet bliver ikke behandlet. Der er giardia i New Zealands vand, og at en bæk er klar, siger intet om den. Kog vandet i mindst tre minutter, filtrer det, eller rens det kemisk, og gå ikke ud fra, at en vandhane er sikker, bare fordi den er der.",
             "Hav drikkevand nok til at klare dig selv i en dag. Tanke løber tørre, der kommer kogeanbefalinger, og en campingplads, der står opført med vand, kan uden varsel vise sig at have en defekt vandforsyning."
           ],
           "tips": []
@@ -650,19 +650,19 @@
         {
           "heading": "Generatorer, droner og hunde",
           "body": [
-            "På mange pladser er generatorer begrænset eller forbudt, og hvor de er tilladt, må de som regel kun køre på bestemte tidspunkter. Droner kræver i de fleste tilfælde en særlig tilladelse fra DOC på statens naturområder, og at flyve med en drone over en campingplads uden tilladelse er både ulovligt og dybt upopulært.",
-            "Hunde er forbudt i de fleste af statens naturområder på grund af risikoen for jordrugende fugle og kiwier. Nogle få campingpladser tillader hunde, men de fleste gør ikke, og i nogle områder kræver det en tilladelse. Tjek den konkrete plads i stedet for at gætte."
+            "Reglerne for generatorer fastsættes plads for plads, så tjek campingpladsens DOC-side, før du bruger en. Droner kræver i de fleste tilfælde en særlig tilladelse fra DOC på statens naturområder, og selv med DOC's tilladelse skal en drone holde sig væk fra campingpladser og hytter.",
+            "DOC's udgangspunkt er, at hunde ikke må komme ind på statens naturområder, medmindre DOC har godkendt adgang for hunde, og hunde er ikke tilladt i nationalparker uden tilladelse. Det skal beskytte kiwier og andre jordrugende fugle. I DOC-dataene hos KiwiCamping tillader 207 af de 287 campingpladser ingen hunde, og 74, cirka en fjerdedel, tillader dem i en eller anden form, oftest i snor eller med en tilladelse fra DOC. Tjek den konkrete plads i stedet for at gætte."
           ],
           "tips": [
             "Droner kræver tilladelse på DOC-arealer",
             "Hunde er forbudt på de fleste DOC-pladser",
-            "Generatorer er begrænset eller forbudt"
+            "Reglerne for generatorer varierer fra plads til plads"
           ]
         },
         {
           "heading": "Maksimal opholdstid og opførsel på pladsen",
           "body": [
-            "De fleste <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> har en maksimal opholdstid, typisk nogle få nætter i træk, som skal forhindre, at folk slår sig ned for længe. Opsynsmændene håndhæver den faktisk på populære pladser om sommeren, og flytter du bilen et par meter, starter du ikke forfra.",
+            "Nogle <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> har en maksimal opholdstid på deres DOC-side, som skal forhindre, at folk slår sig ned for længe, og et Campsite Pass dækker højst 7 nætter inden for en vilkårlig periode på 30 dage på den samme campingplads, hvor ekstra nætter betales til standardprisen. Flytter du bilen et par meter, starter ingen af grænserne forfra.",
             "Hold dig inden for den afmærkede plads, bred dig ikke ud over den med markise eller grej, hvor der er trangt, og overhold natteroen. Pladserne deles af mange og er ofte fulde, og alles fornøjelse afhænger af, at hver især holder sig til sin egen plads."
           ],
           "tips": []
@@ -671,7 +671,7 @@
           "heading": "Når du kommer frem og slår lejr",
           "body": [
             "Kom frem, mens det er lyst, hvis du kan. Det er langt sværere at vælge plads, vurdere, om vandet kan løbe væk, få øje på grene over dig og få bilen i vater, når det er mørkt, og en plads, du klart ville sige nej til kl. 16, er nem at sige ja til kl. 21, når du er træt.",
-            "Betal, når du ankommer, hvis pladsen har en tillidskasse (honesty box) eller selvregistrering, og vent ikke med at ordne det til senere. Opsynsmændene tjekker faktisk, gebyret er lille, og systemet fungerer kun, fordi de fleste betaler uden at blive bedt om det.",
+            "Betal, når du ankommer, hvis pladsen har en tillidskasse eller selvregistrering, og vent ikke med at ordne det til senere. Opsynsmændene tjekker faktisk, gebyret er lille, og systemet fungerer kun, fordi de fleste betaler uden at blive bedt om det.",
             "Slå lejren op inden for den afmærkede plads, og lad der være plads til dem, der kommer efter dig. På en travl campingplads om sommeren er grej, der flyder ud over to pladser, forskellen på, om der er plads til alle, eller om folk bliver afvist."
           ],
           "tips": []
@@ -679,12 +679,12 @@
         {
           "heading": "Hvis campingpladsen er fuld",
           "body": [
-            "Populære DOC-pladser er fyldt op midt på eftermiddagen om sommeren, og der er intet ekstra areal at rykke ud på. Du kan ikke lave din egen ekstra plads på græsset, på tilkørselsvejen eller ved toiletbygningen, og opsynsmændene vil bede dig køre videre.",
+            "Populære DOC-pladser kan være fyldt op på sommeraftener, så regn ikke med, at der er et ekstra areal at rykke ud på. Du kan ikke lave din egen ekstra plads på græsset, på tilkørselsvejen eller ved toiletbygningen, og DOC's medarbejdere kan bede dig køre videre.",
             "Find et lovligt alternativ, før du ankommer, ikke bagefter. En <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> en halv time væk er en langt bedre løsning end at køre sent på en ukendt vej og lede efter et hvilket som helst sted, der vil tage imod dig."
           ],
           "tips": [
-            "Populære pladser er fulde midt på eftermiddagen",
-            "Der er intet ekstra areal",
+            "Populære pladser bliver fulde om sommeren",
+            "Regn ikke med, at der er et ekstra areal",
             "Hav en plan B, før du kommer frem"
           ]
         }
@@ -692,26 +692,29 @@
       "faq": [
         [
           "Hvilke regler gælder på en DOC-campingplads?",
-          "Betal gebyret for alle voksne, slå kun lejr på de afmærkede pladser, tag alt affald med dig, brug de toiletter, der er, og dæmp støjen, når det er blevet mørkt. Bål, hunde og generatorer er begrænset eller forbudt afhængigt af pladsen, og skiltene på stedet går forud for alt, hvad du har læst på forhånd."
+          "Hold ro fra kl. 22 til kl. 7, tjek ud senest kl. 10, tag alt affald med, og tag hverken kæledyr eller droner med, medmindre DOC har godkendt det. Det er forbudt at ryge og vape i hytter og toiletbygninger, og siden for den enkelte campingplads har desuden regler om bål, hunde, generatorer og køretøjer."
         ],
         [
-          "Må man blive mere end én nat på en DOC-campingplads?",
-          "Som regel ja, men på travle pladser er der en maksimal opholdstid, som står opslået ved indkørslen. Hvor pladserne er hårdt booket om sommeren, bliver grænsen håndhævet."
+          "Hvor længe må man blive på en DOC-campingplads?",
+          "Nogle campingpladser har en maksimal opholdstid på deres DOC-side, og et Campsite Pass dækker højst 7 nætter inden for en vilkårlig periode på 30 dage på den samme campingplads. Hver nat kræver en booking eller registrering, undtagen på gratis Basic-campingpladser, og hvis du bruger en plads, der kan bookes, uden at have booket, koster det hver person den normale pris plus en fuld voksenpris, eller et gebyr på 10 NZD for en indehaver af et Campsite Pass."
         ]
       ],
       "sources": [
         {
           "label": "DOC: bookingbetingelser for overnatning"
+        },
+        {
+          "label": "DOC: Campsite Pass"
         }
       ],
       "priceTable": null
     },
     "new-zealand-grocery-prices-2026": {
-      "title": "Madpriser i New Zealand 2026: hvad koster dagligvarer?",
-      "description": "Hvad koster mælk, æg, brød, kød, frugt og grønt i New Zealands supermarkeder i 2026? Se de aktuelle prisspænd i NZD, omregnet til ti valutaer.",
+      "title": "Madpriser i New Zealand 2026: mælk, æg, brød og kød",
+      "description": "Stats NZ's gennemsnitlige supermarkedspriser for september 2026: mælk, brød, æg, kylling, hakket oksekød og frugt og grønt, plus en ugentlig indkøbskurv til 116 NZD, i ti valutaer.",
       "region": "Supermarkeder i New Zealand",
       "imageAlt": "Friske dagligvarer i et supermarked i New Zealand",
-      "intro": "Selvforplejning er den mest direkte måde at styre et campingbudget på. Prisspændene nedenfor er landsdækkende pejlemærker, som brugere har indrapporteret, og de er tjekket mod inflationstallene fra juni 2026. Men de er ikke et løfte om prisen på hver hylde i hver uge.",
+      "intro": "Selvforplejning er den mest direkte måde at styre et campingbudget på. Priserne nedenfor er Stats NZ's landsdækkende gennemsnitspriser for september 2026 og ikke et løfte om prisen på hver hylde i hver uge.",
       "sections": [
         {
           "heading": "Handl ind før de afsides strækninger",
@@ -732,7 +735,7 @@
         {
           "heading": "Madpriserne flytter sig",
           "body": [
-            "Ifølge Stats NZ steg fødevarepriserne 2,5 % på årsbasis i juni 2026, og kød, fjerkræ og fisk steg mere end det. Priserne på frugt og grønt svinger kraftigt med sæsonen.",
+            "Ifølge Stats NZ steg fødevarepriserne 2,4 % i året til september 2026, anført af dagligvarer, som steg 3,0 %, og kød, fjerkræ og fisk, som steg 3,2 %, mens frugt og grønt faldt 1,8 %. Løg steg med mere end 86 %, den største årlige stigning, siden serien begyndte i 2008.",
             "Brug prisspændet til at planlægge, skriv ned, hvad den første rigtige indkøbstur kostede, og ret resten af budgettet til efter det."
           ],
           "tips": []
@@ -740,7 +743,7 @@
         {
           "heading": "De to store kæder og de billigere alternativer",
           "body": [
-            "Countdown og New World dækker det meste af landet, og hvor der ligger en Pak'nSave, er den som regel den billigste af de store butikker. Priserne kan være mærkbart forskellige mellem kæderne i samme by, så når du skal fylde helt op og ikke bare supplere, er det en kort omvej værd at handle i den billigste.",
+            "Woolworths, tidligere Countdown, og New World dækker det meste af landet, og hvor der ligger en Pak'nSave, er den som regel den billigste af de store butikker. Priserne kan være mærkbart forskellige mellem kæderne i samme by, så når du skal fylde helt op og ikke bare supplere, er det en kort omvej værd at handle i den billigste.",
             "Bondemarkeder og boder ved vejen er rigtig gode til frugt og grønt og tit billigere end supermarkedet, når det gælder det, der er i sæson lokalt. De tager også som regel kun kontanter og har kun åbent om formiddagen, og det er godt at vide, før du planlægger efter dem."
           ],
           "tips": [
@@ -772,7 +775,7 @@
         {
           "heading": "Et realistisk ugebudget",
           "body": [
-            "En prisbevidst solorejsende, der selv laver det meste af maden, kan regne med 110–180 NZD om ugen til <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a>, og for par bliver det billigere pr. person, fordi de deler basisvarerne. Dyrt kød, færdigmad, særlige kosthensyn og indkøb i afsides områder trækker hurtigt beløbet op.",
+            "Regnet ud efter Stats NZ's gennemsnitspriser for september 2026 koster en almindelig uge til én person, der laver det meste af maden selv, omkring 116 NZD: fire liter mælk, to brød, et dusin æg, et kilo kyllingebryst, et halvt kilo hakket oksekød, ost, smør, yoghurt, ris, pasta og sauce, instant kaffe samt frugt og grønt. For par bliver det billigere pr. person, fordi de deler basisvarerne, mens dyrt kød, færdigmad, særlige kosthensyn og indkøb i afsides områder hurtigt trækker beløbet op.",
             "Hold kaffe, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> og fælles måltider på en budgetpost for sig. Kalder du alt madkøb for dagligvarer, skjuler du netop de udgifter, det er nemmest at skære i, når budgettet skal rettes op."
           ],
           "tips": []
@@ -790,7 +793,7 @@
       "faq": [
         [
           "Hvad koster en uges indkøb i New Zealand?",
-          "Guiden regner på en rigtig indkøbskurv frem for et gennemsnit, med daterede priser for hver vare. Frisk frugt og grønt og mejerivarer ligger tæt på det, besøgende forventer, mens færdigpakkede varer, kød og alt importeret er mærkbart dyrere."
+          "Ifølge Stats NZ's gennemsnitspriser for september 2026 koster en almindelig uge med mad fra supermarkedet til én person, der laver det meste af maden selv, omkring 116 NZD. Dyrt kød, færdigmad og små butikker i afsides områder trækker hurtigt beløbet op."
         ],
         [
           "Hvor er det billigst at købe mad i New Zealand?",
@@ -799,36 +802,36 @@
       ],
       "sources": [
         {
-          "label": "Numbeo: priser i New Zealand, opdateret juni 2026"
+          "label": "Stats NZ: Selected price indexes, september 2026"
         },
         {
-          "label": "Stats NZ: Selected price indexes, juni 2026"
+          "label": "Stats NZ: madpriserne steg 2,4 % i året til september 2026"
         },
         {
           "label": "Reserve Bank of New Zealand: valutakurser"
         }
       ],
       "priceTable": {
-        "note": "Landsdækkende prisspænd indrapporteret af brugere, senest opdateret 12. juni 2026. Mærke, pakkestørrelse, sæson og fragt til afsides områder forklarer en stor del af spredningen.",
+        "note": "Stats NZ's landsdækkende gennemsnitlige detailpriser for september 2026, offentliggjort 16. oktober 2026. Mælk er pr. liter, regnet ud fra gennemsnittet for 2 liter. Tilbud, mærke, pakkestørrelse, sæson og fragt til afsides områder kan flytte prisen på en enkelt hylde over eller under disse gennemsnit.",
         "rows": [
           {
-            "label": "Mælk",
+            "label": "Mælk, standard",
             "unit": "1 liter"
           },
           {
-            "label": "Franskbrød",
-            "unit": "500 g"
+            "label": "Franskbrød, skåret",
+            "unit": "600 g brød"
           },
           {
             "label": "Æg",
-            "unit": "12 store"
+            "unit": "dusin"
           },
           {
-            "label": "Kyllingefilet",
+            "label": "Kyllingebryst",
             "unit": "1 kg"
           },
           {
-            "label": "Oksekød, inderlår",
+            "label": "Hakket oksekød",
             "unit": "1 kg"
           },
           {
@@ -847,56 +850,56 @@
       }
     },
     "doc-huts-new-zealand-guide": {
-      "title": "DOC-hytter i New Zealand: sådan fungerer hyttesystemet",
-      "description": "DOC-hytterne i New Zealand findes i fire kategorier: Serviced, Standard, Basic og Great Walk. De har hver deres faciliteter, priser og regler for booking.",
+      "title": "DOC-hytter i New Zealand: regioner, priser og billetter",
+      "description": "Hvor DOC's hytter ligger, region for region, hvad Serviced-, Standard- og Basic-hytter koster i 2026/27, og hvordan hyttebilletter, Hut Pass og booking fungerer.",
       "region": "Baglandet i New Zealand",
       "imageAlt": "Fjeldhytte i bjergene i New Zealand",
-      "intro": "En hytte er et fælles ly ude i naturen, ikke et overnatningssted gemt i bushen. Der står omkring 950 af dem rundt om på statens naturområder, som DOC forvalter. De spænder fra en veludstyret bygning med varme og madrasser til et skur med to køjer og jordgulv. Hvilken kategori du går mod, afgør, hvad du skal have i rygsækken.",
+      "intro": "DOC driver mere end 950 hytter, og DOC-dataene hos KiwiCamping omfatter 927 af dem, fra Serviced-hytter med varme og madrasser til bivvyer med to køjer. De fleste ligger på Sydøen: Canterbury alene har 180 og West Coast 140, mens de største klynger på Nordøen ligger i Ruahine-, Kaweka- og Tararua-bjergene. I de data, der blev tjekket 24. august 2026, kunne kun 127 af de 927 bookes, og selvom DOC siden har lagt alle Serviced-hytter online, går de fleste hytter stadig efter først til mølle-princippet: De er gratis, hvis de er Basic, og betales med hyttebilletter eller et Backcountry Hut Pass, hvis de er Standard.",
       "sections": [
         {
-          "heading": "De fire hyttekategorier",
+          "heading": "Hyttekategorier og priser for 2026/27",
           "body": [
-            "Serviced-hytter er de bedst udstyrede: madrasser på køjerne, vandforsyning, toiletter og som regel opvarmning, hvor brændslet følger med. Standard-hytter har ikke brændsel til varmen og nogle gange heller ikke madrasser, men der er køjer, vand og et toilet. Basic-hytter er ly og ikke meget mere, og der er måske slet ingen vandkilde.",
-            "Great Walk-hytterne står uden for den rangorden. I vandresæsonen holder de en høj standard, de koster betydeligt mere, og de har deres eget bookingsystem knyttet til den enkelte rute. Uden for sæsonen falder de typisk til en lavere standard og en lavere pris, og faciliteterne bliver skåret ned eller fjernet."
+            "Serviced-hytter har madrasser, vandforsyning, toiletter, håndvask og opvarmning med brændsel. I 2026/27 betaler en voksen 25 NZD pr. nat fra maj til september, fra oktober til april 28 NZD på hverdagsaftener og 32 NZD fredag og lørdag, og fra december til februar 29 og 34 NZD. Børn betaler det halve, og at campere ved siden af en hytte koster halvdelen af hyttens pris. Standard-hytter har madrasser, vand og toiletter, med brændeovne under trægrænsen, for 15 NZD for en voksen og 7,50 NZD for et barn. Basic-hytter og bivvyer er gratis og tilbyder ly og ikke meget mere. I dataene hos KiwiCamping fordeler det sig på 96 Serviced-hytter, 408 Standard-hytter og 372 Basic-hytter.",
+            "Tre kategorier står uden for den rangorden. Great Walk-hytter, 33 af dem i dataene hos KiwiCamping, har egne priser efter rute, sæson og bopæl og skal bookes i Great Walk-sæsonen. Hytter med individuelle priser, herunder Serviced-fjeldhytter som Mueller Hut, fastsætter selv deres pris, og klubhytter drives af klubber som New Zealand Alpine Club, så tjek hyttens DOC-side. Uanset kategori erstatter taget aldrig sovepose, kogegrej, mad, pandelampe og varmt tøj."
           ],
           "tips": [
-            "Kategorien viser faciliteter og pris",
-            "Great Walk-hytter bookes for sig",
-            "Basic-hytter har måske intet vand"
+            "Serviced 25 til 34 NZD efter sæson, Standard 15 NZD, Basic gratis",
+            "Great Walk-hytter og fjeldhytter har hver deres pris",
+            "Tag fuldt udstyr med, uanset kategori"
           ]
         },
         {
-          "heading": "Faciliteterne erstatter aldrig det, du selv bærer",
+          "heading": "Hvor hytterne ligger, region for region",
           "body": [
-            "Et tag over hovedet betyder ikke, at du kan undvære sovepose, liggeunderlag, kogegrej, brændstof, mad, pandelampe og varmt tøj. Der er intet personale i hytterne, de har ingen forsyninger, og en Serviced-hytte med brændeovn er stadig kold, hvis gruppen før dig brugte det sidste brænde.",
-            "Pak efter turen og vejret, ikke efter beskrivelsen af hytten. I New Zealands bjerge slår vejret hurtigt om, og den gruppe, der når frem våd og uden et ekstra varmt lag, er ilde stedt, uanset hvad bygningen kan tilbyde."
+            "Sydøen har det meste af nettet. Canterbury har 180 hytter, anført af Lake Sumner Forest Park og Arthur's Pass National Park; West Coast 140, mange i Whitcombe- og Styx-dalene; Nelson/Tasman 99, med 45 i Kahurangi National Park og 24 i Nelson Lakes; Otago 78, heriblandt 12 i Mount Aspiring National Park og 12 i Hāwea Conservation Park; Southland 70, heriblandt 30 på <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>; Marlborough 60; og Fiordland 55, næsten alle inde i Fiordland National Park.",
+            "På Nordøen har Hawke's Bay 55 hytter fordelt mellem skovparkerne Kaweka og Ruahine, Manawatū/Whanganui 43, East Coast 38 i Te Urewera og Whirinaki, Wairarapa 36 og Wellington/Kāpiti 24, de fleste af dem i Tararua Range. Den centrale del af Nordøen har 16, heraf ti i Tongariro National Park, og Bay of Plenty, Taranaki, Northland, Waikato, Coromandel og Auckland har hver otte eller færre."
           ],
           "tips": []
         },
         {
           "heading": "Hyttebilletter, periodekort og booking",
           "body": [
-            "Hytter, der ikke kan bookes, bruger som regel hyttebilletter, som du køber på forhånd, eller et Backcountry Hut Pass, et periodekort, der gælder i et bestemt tidsrum frem for en enkelt nat. Hytter, der kan bookes, kræver en reservation i dit navn på den rigtige dato, og Great Walk-hytterne bliver udsolgt måneder i forvejen til sommersæsonen.",
-            "Den typiske fejl er at tro, at et Hut Pass er det samme som en booking. Et Backcountry Hut Pass betaler for dine nætter i hytter, der tager imod billetter, men det reserverer ingenting og gælder ikke i Great Walk-hytter eller andre hytter, der skal bookes. Tjek, hvilket system den pågældende hytte bruger, før du tager af sted."
+            "Hytter, der ikke kan bookes, tager imod hyttebilletter (Backcountry Hut Tickets), som du køber før turen og lægger i tillidskassen, eller et Backcountry Hut Pass, som dækker de fleste Serviced- og Standard-hytter i 12 måneder. Fra 1. november 2026 kan hyttebilletter også købes i DOC's onlinebookingsystem, og papirbilletter gælder indtil 1. november 2027. Hytter, der kan bookes, reserveres og betales på bookings.doc.govt.nz, og siden 1. oktober 2026 gælder det alle Serviced-hytter, så Serviced Hut Tickets udgår.",
+            "Den typiske fejl er at tro, at et Hut Pass eller en billet er en booking. Ingen af dem reserverer en køje eller giver fortrinsret i en hytte med først til mølle. Hut Pass kan betale for nogle hytter, der kan bookes, hvis du angiver det ved bookingen, men ikke for Great Walk-hytter i deres bookingsæson eller hytterne på DOC's udelukkelsesliste. Tjek, hvilket system den pågældende hytte bruger, før du tager af sted."
           ],
           "tips": [
             "Et Hut Pass er ikke en booking",
-            "Køb billetter, før du går ud på ruten",
+            "Hyttebilletter kommer online fra 1. november 2026",
             "Great Walk-hytter bliver udsolgt måneder i forvejen"
           ]
         },
         {
-          "heading": "Ingen bliver afvist",
+          "heading": "En fuld hytte er stadig ly i en nødsituation",
           "body": [
-            "Køjerne i hytter, der ikke kan bookes, går efter først til mølle-princippet, og den gamle tradition er, at en fuld hytte betyder en plads på gulvet, ikke en lukket dør. Gå ikke videre ud i mørket, fordi køjerne er optaget, og regn ikke med, at der bliver holdt en køje til dig, fordi du har booket en anden hytte.",
-            "Bær et liggeunderlag og det, du skal bruge for at sove på gulvet. Hvis vejret tillader det, og der må campes ved hytten, giver et telt dig et reelt alternativ. På populære ruter i januar skal du regne med, at hytten er fuld, og planlægge derefter."
+            "I en hytte, der kan bookes, holder DOC ingen plads til folk uden booking, og du kan blive afvist, hvis den er fuld. I hytter, der ikke kan bookes, går køjerne efter først til mølle, og traditionen er, at en fuld hytte betyder en plads på gulvet, ikke en lukket dør. Alle hytter er åbne som nødly i dårligt vejr, så gå ikke videre ud i mørket, fordi køjerne er optaget.",
+            "Hav et liggeunderlag med og det, du skal bruge for at sove på gulvet. Hvis vejret tillader det, og der må campes ved hytten, giver et telt dig et reelt alternativ. På populære ruter i januar skal du regne med, at hytten er fuld, og planlægge derefter."
           ],
           "tips": []
         },
         {
           "heading": "Vand, madlavning og ild",
           "body": [
-            "Rens vandet i hytten, medmindre DOC's aktuelle oplysninger om netop den hytte siger, at det kan drikkes. Vand, der er samlet op fra taget, kan være forurenet, og der er giardia i vandet i New Zealands bagland. Kog det, filtrer det eller rens det kemisk; alle tre metoder virker. Problemerne opstår, når man bare går ud fra, at det er i orden.",
+            "Rens vandet i hytten, medmindre DOC's aktuelle oplysninger om netop den hytte siger, at det kan drikkes. Vand, der er samlet op fra taget, kan være forurenet, og der er giardia i vandet i New Zealands bagland. Kogning er den sikreste metode, og DOC siger tre minutter; et filter, der er beregnet til protozoer, virker også. Problemerne opstår, når man bare går ud fra, at det er i orden.",
             "Lav mad på dit eget kogegrej, udenfor eller på det sted, der er beregnet til det, og aldrig inde i et telt. Er der en brændeovn, så brug den sparsomt, og læg nyt optændingsbrænde klar til dem, der kommer efter dig i værre vejr, end du havde."
           ],
           "tips": [
@@ -909,7 +912,7 @@
           "heading": "God skik i hytten",
           "body": [
             "Støvlerne af indenfor. Saml dine ting på køjen i stedet for at sprede dem ud over bordet og bænkene. Vær stille tidligt på aftenen, og bevæg dig lydløst om morgenen, for vandrere bryder op før daggry, og alle sover i ét rum efter en hård dag.",
-            "Skriv dig ind i hyttebogen hver gang, med dato og dine planer. Det er en høflighed, men endnu vigtigere: Hyttebogen er det første, redningsfolkene læser, når nogen ikke er kommet tilbage som planlagt, og præcise oplysninger har gjort mange eftersøgninger kortere."
+            "Skriv dig ind i hyttebogen hver gang, med dato og dine planer. Det er en høflighed, og endnu vigtigere kan det hjælpe redningsfolkene, hvis nogen i din gruppe ikke er kommet tilbage som planlagt."
           ],
           "tips": []
         },
@@ -917,7 +920,7 @@
           "heading": "Når du forlader hytten",
           "body": [
             "Fej gulvet, luk skodder og døre ordentligt, og tag alt det med ud, du bar ind, også madrester. Affald i en hytte tiltrækker gnavere, og der er ingen renovation. Det, du efterlader, bliver liggende, til en anden vandrer bærer det ud.",
-            "Meld det til DOC efter turen, hvis der er skader, en ødelagt ovn, en vandforsyning, der ikke virker, eller en fare. Hytterne bliver vedligeholdt ud fra det, der bliver meldt ind, og en besked på fem minutter kan forhindre, at den næste gruppe når frem til en bygning, der ikke fungerer."
+            "Meld det til DOC efter turen, hvis der er skader, en ødelagt ovn, en vandforsyning, der ikke virker, eller en fare. Meldingerne hjælper DOC med at prioritere reparationer, og en besked på fem minutter kan forhindre, at den næste gruppe når frem til en bygning, der ikke fungerer."
           ],
           "tips": [
             "Tag alt affald og alle madrester med ud",
@@ -929,26 +932,26 @@
       "faq": [
         [
           "Skal man booke en DOC-hytte?",
-          "Det afhænger af kategorien. Great Walk-hytter og Serviced-hytter på populære ruter skal bookes og betales på forhånd, om sommeren ofte flere måneder før. Standard- og Basic-hytter bruger som regel hyttebilletter eller et Backcountry Hut Pass uden booking, og du er aldrig garanteret en køje."
+          "Kun nogle. Great Walk-hytter, alle Serviced-hytter siden 1. oktober 2026 og nogle populære hytter bookes på bookings.doc.govt.nz. De fleste Standard-hytter er først til mølle og betales med hyttebilletter eller et Backcountry Hut Pass, og Basic-hytter er gratis."
         ],
         [
-          "Hvad er der egentlig i en hytte i baglandet?",
-          "Som regel køjer med madrasser, en eller anden form for vandforsyning og et toilet. Kogemuligheder, varme og lys varierer med kategorien, og mange hytter har ingen af delene, så tag kogegrej, brændstof og en lygte med, uanset hvad beskrivelsen siger."
+          "Hvad koster en DOC-hytte pr. nat?",
+          "I 2026/27 koster en Standard-hytte 15 NZD for en voksen og 7,50 NZD for et barn hele året. En Serviced-hytte koster 25 NZD fra maj til september og 28 til 34 NZD fra oktober til april, og en Basic-hytte eller bivvy er gratis. Great Walk-hytter og hytter med individuelle priser fastsætter selv deres priser."
         ]
       ],
       "sources": [
         {
-          "label": "DOC: hyttekategorier"
+          "label": "DOC: priser på overnatning 2026/27 efter hytte- og campingpladskategori"
         },
         {
-          "label": "DOC: advarsler og lukninger"
+          "label": "DOC: pressemeddelelse, 1. oktober 2026: Serviced-hytter kan bookes, hyttebilletter online"
         }
       ],
       "priceTable": null
     },
     "public-transport-costs-new-zealand-2026": {
-      "title": "Offentlig transport i New Zealand: priser i byerne 2026",
-      "description": "Aucklands zoner, ugentlige prislofter og almindelige billetpriser rundt i New Zealand kan ikke koges ned til én pris. Sammenlign det, rejsen faktisk koster.",
+      "title": "Offentlig transport i NZ 2026: priser og prisloft i Auckland",
+      "description": "Priser for bus, tog og færge i Auckland i 2026: 3 NZD for én zone, et prisloft på 50 NZD over syv dage med AT HOP og typiske enkeltbilletpriser i andre byer i New Zealand.",
       "region": "Auckland og Wellington",
       "imageAlt": "Offentlig transport i en by i New Zealand",
       "intro": "Billetpriserne i byerne afhænger af lokale rejsekort, zoner, regler for kontaktløs betaling og undtagelser. Sammenlign prisen for den dag eller uge, du faktisk skal rejse, i stedet for én billet fra hvert trafiknet.",
@@ -1034,7 +1037,7 @@
         ],
         [
           "Hvad koster offentlig transport i New Zealands byer?",
-          "Guiden har daterede priser for Auckland, Wellington og Christchurch. Alle tre har rejsekort, du checker ind med, og et dagligt prisloft, og det kan betale sig at købe kortet tidligt, hvis du bliver mere end et par dage."
+          "Tabellen har daterede priser for Auckland; tjek Metlink for Wellington og Metro for Christchurch. Alle tre bruger rejsekort, du checker ind med: Auckland har et prisloft på 50 NZD over syv dage, Christchurch har et prisloft på 6 NZD om dagen for bus, og Wellington sælger dagskort, så det kan betale sig at købe kortet tidligt, hvis du bliver mere end et par dage."
         ]
       ],
       "sources": [
@@ -1082,11 +1085,11 @@
       }
     },
     "new-zealand-road-trip-fuel-cost-2026": {
-      "title": "Benzinpris i New Zealand 2026: brændstof til roadtrippen",
-      "description": "Sådan regner du brændstoffet til en roadtrip i New Zealand ud: brug distancen, forbruget i liter pr. 100 km og den aktuelle officielle benzinpris for hele landet.",
+      "title": "Benzinpris i New Zealand 2026 og brændstof til autocamper",
+      "description": "Gennemsnitlig benzinpris på 91 i New Zealand pr. måned i 2026 ifølge MBIE, og hvad 500 til 3.000 km koster i en autocamper ved 9 til 12 l pr. 100 km, plus vejafgift for diesel.",
       "region": "New Zealands veje",
       "imageAlt": "Autocamper, der tanker op på en roadtrip i New Zealand",
-      "intro": "Det er brændstoffet, der gør ruteplanen til en udgift, du kan regne på. Den 26. juli 2026 var den repræsentative skiltepris for hele landet 2,96 NZD pr. liter for almindelig 91-oktan benzin ifølge MBIE, efter et usædvanligt uroligt år.",
+      "intro": "Det er brændstoffet, der gør ruteplanen til en udgift, du kan regne på. I ugen med dato 9. oktober 2026 var MBIE's landsgennemsnit for skiltepris på almindelig 91-oktan benzin 3,54 NZD pr. liter og for diesel 3,24 NZD, efter et år, der svingede fra 2,56 NZD i februar til 3,44 NZD i april.",
       "sections": [
         {
           "heading": "Regn med det køretøj, du faktisk kører i",
@@ -1107,7 +1110,7 @@
         {
           "heading": "Regn ærligt med prisudsvingene",
           "body": [
-            "Ifølge Stats NZ steg benzinpriserne 20,1 % i kvartalet til og med juni 2026, mens MBIE pegede på usædvanligt store udsving på de internationale markeder. Regner du med et gammelt tal, kan du hurtigt komme til at undervurdere, hvad ruten koster.",
+            "Ifølge Stats NZ steg benzin 24,3 % og diesel 55,8 % i året til september 2026. MBIE's månedlige gennemsnit for almindelig 91 var 2,59 NZD i januar, 2,56 NZD i februar, 3,00 NZD i marts, 3,44 NZD i april, 3,27 NZD i maj, 3,16 NZD i juni, 2,98 NZD i juli, 3,03 NZD i august og 3,16 NZD i september, så et tal fra nogle få måneder siden kan undervurdere, hvad ruten koster, med 50 cent pr. liter.",
             "Brug brændstofberegneren med dagens skiltepris, og læg en buffer ind til den afsidesliggende del af ruten."
           ],
           "tips": []
@@ -1115,8 +1118,8 @@
         {
           "heading": "Benzin, diesel og vejafgift (RUC)",
           "body": [
-            "Diesel er billigere pr. liter ved standeren, men dieselkøretøjer betaler særskilt vejafgift (Road User Charges, RUC), som købes på forhånd pr. 1.000 km. Lejer du, så tjek, om RUC er med i dagsprisen eller bliver lagt på regningen til sidst, for det ændrer sammenligningen med benzin markant.",
-            "Kører du i eget køretøj, skal der være betalt RUC for de kilometer, du kører, og det bliver kontrolleret. Det er nemt at købe online eller hos et godkendt kørekortkontor, og det giver bøde at køre længere end den distance, du har købt."
+            "Diesel har i det meste af 2026 været billigere pr. liter end 91, omkring 30 cent billigere i oktober, selvom den var dyrere i seks uger i april og maj. Dieselkøretøjer betaler også særskilt vejafgift (Road User Charges, RUC), som købes på forhånd pr. 1.000 km. Lejer du, så tjek, om RUC er med i dagsprisen eller bliver lagt på regningen til sidst, for det ændrer sammenligningen med benzin markant.",
+            "Kører du i eget køretøj, skal der være betalt RUC for de kilometer, du kører, og det bliver kontrolleret. RUC er nemt at købe online eller hos en godkendt forhandler, og det giver bøde at køre længere end den distance, du har købt."
           ],
           "tips": [
             "Med diesel kommer RUC oven i literprisen",
@@ -1148,7 +1151,7 @@
           "heading": "Sænk regningen uden at korte turen af",
           "body": [
             "Den største besparelse er færre unødvendige kilometer. Saml stop, der ligger tæt på hinanden, undgå at køre samme vej tilbage, og acceptér, at du ikke kan nå at se begge øer ordentligt på ti dage. Det sparer mere end nok så omhyggelig kørselsteknik.",
-            "Derefter hjælper en jævn fart og tidlig opbremsning en smule. Det hjælper til gengæld ikke at rulle i frigear, som i praksis er ulovligt og usikkert, eller at have brændstof med i dunke, der ikke er beregnet til det."
+            "Derefter hjælper en jævn fart og tidlig opbremsning en smule. Det hjælper til gengæld ikke at rulle i frigear, hvor du mister motorbremsen og kontrollen på nedkørsler, eller at have brændstof med i dunke, der ikke er beregnet til det."
           ],
           "tips": []
         },
@@ -1165,7 +1168,7 @@
       "faq": [
         [
           "Hvad koster benzin og diesel i New Zealand?",
-          "Guiden giver en dateret literpris for benzin og diesel og regner den igennem på rigtige ruter. Priserne stiger mærkbart i afsidesliggende områder, og dieselkøretøjer betaler også vejafgift (RUC), som folk glemmer at sætte af i budgettet."
+          "Almindelig 91 lå i gennemsnit på 3,54 NZD pr. liter i ugen med dato 9. oktober 2026 (MBIE), så 1.000 km ved 11 l pr. 100 km koster omkring 390 NZD i brændstof. Priserne stiger mærkbart i afsidesliggende områder, og dieselkøretøjer betaler også vejafgift (RUC), som folk glemmer at sætte af i budgettet."
         ],
         [
           "Hvordan beregner man brændstof til en roadtrip i New Zealand?",
@@ -1177,14 +1180,14 @@
           "label": "MBIE: ugentlig overvågning af brændstofpriser"
         },
         {
-          "label": "MBIE fuel response: skiltepris"
+          "label": "Stats NZ: Selected price indexes, september 2026"
         },
         {
           "label": "Reserve Bank of New Zealand: valutakurser"
         }
       ],
       "priceTable": {
-        "note": "Benzinprisen er MBIE's officielle referencepris for ugen, der sluttede 26. juli 2026. Ruteeksemplerne er rene regnestykker, før der er taget højde for prisforskelle i afsidesliggende områder.",
+        "note": "Benzinprisen er MBIE's landsgennemsnit for skiltepris på almindelig 91 i ugen med dato 9. oktober 2026 (foreløbig). Ruteeksemplerne er rene regnestykker, før der er taget højde for prisforskelle i afsidesliggende områder.",
         "rows": [
           {
             "label": "Almindelig benzin, 91 oktan",
@@ -1206,8 +1209,8 @@
       }
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Sådan kører du autocamper i New Zealand: regler og sikkerhed",
-      "description": "Kend autocamperens mål og vægt, reglerne for passagerer og lejekontraktens begrænsninger, før en smal vej i New Zealand afslører, hvor stort køretøjet er.",
+      "title": "Autocamper i New Zealand: kørekort, fart og størrelse (2026)",
+      "description": "At køre autocamper i New Zealand: hvad et almindeligt kørekort dækker, fartgrænser, vind på udsatte veje, færgens mål og de fejl, besøgende begår.",
       "region": "New Zealands veje",
       "imageAlt": "Stor autocamper på en smal vej i New Zealand",
       "intro": "En autocamper kan godt være lovlig at køre på et Class 1-kørekort og alligevel føles helt anderledes end en bil. Få styr på højde, bredde, længde og vægt med last ved udleveringen, og på alle de veje, lejekontrakten ikke tillader.",
@@ -1240,7 +1243,7 @@
           "heading": "Kend målene, inden du kører fra udlejeren",
           "body": [
             "Skriv køretøjets højde, længde og vægt ned, og læg sedlen, hvor føreren kan se den. Det er højden, der giver de dyre skader: ved indkørsler til parkeringshuse, drive-in-restauranter, overdækningen på tankstationer og en del underføringer i byerne.",
-            "Tjek spejle, blinde vinkler og bakkamera, før du forlader udlejeren, og gå en runde om køretøjet. De fleste skader på lejede autocampere sker i de første to dage, ved lav fart og på parkeringspladser."
+            "Tjek spejle, blinde vinkler og bakkamera, før du forlader udlejeren, og gå en runde om køretøjet. En stor del af skaderne på lejede autocampere sker ved lav fart, på parkeringspladser."
           ],
           "tips": [
             "Skriv højden op ved instrumentbrættet",
@@ -1260,11 +1263,11 @@
           "heading": "Derfor betyder vinden mere i New Zealand",
           "body": [
             "Et højt køretøj tager meget sidevind, og New Zealand er et blæsende land med åbne kystveje, broer og bjergpas. Lastbiler, der overhaler, og udkørslen fra en vejgennemskæring giver begge pludselige skub fra siden.",
-            "Hold godt fast i rattet med begge hænder på udsatte strækninger, og sæt farten ned før et vindstød, ikke midt i det. Vær også klar over, at nogle ruter lukker for høje køretøjer i kraftig vind, blandt andet Rimutaka Hill Road og dele af Desert Road."
+            "Hold godt fast i rattet med begge hænder på udsatte strækninger, og sæt farten ned før et vindstød, ikke midt i det. Tjek NZTA's rejseplanlægger, før du kører over en udsat strækning: Remutaka Hill Road (SH2) lukker i voldsom vind, og andre udsatte veje har vindadvarsler."
           ],
           "tips": [
             "Sæt farten ned før den udsatte strækning",
-            "Nogle veje lukker for høje køretøjer",
+            "Nogle veje lukker i voldsom vind",
             "Lastbiler og gennemskæringer giver pludselige vindstød"
           ]
         },
@@ -1272,7 +1275,7 @@
           "heading": "Overhale og blive overhalet",
           "body": [
             "En autocamper accelererer langsomt, så en overhaling kræver langt mere fri vej end i en bil, og den er sjældent forsøget værd. De fleste af New Zealands hovedveje har kun to spor og få overhalingsspor, og statistikken for ulykker ved overhaling er dårlig.",
-            "Når der samler sig trafik bag dig, så træk ind til siden, hvor det er sikkert, og lad den komme forbi. Kører der fem eller flere køretøjer i kø bag dig, skal du gøre det, så snart det er sikkert, og det fjerner samtidig det pres, der får folk til at lave farlige overhalinger."
+            "Når der samler sig trafik bag dig, så træk ind til siden, hvor det er sikkert, og lad den komme forbi. Holder du trafikken tilbage, kræver færdselsreglerne, at du kører ind til venstre og lader den passere, så snart det er sikkert, og det fjerner samtidig det pres, der får folk til at lave farlige overhalinger."
           ],
           "tips": []
         },
@@ -1288,13 +1291,13 @@
         {
           "heading": "Færger, tunneler og højdegrænser",
           "body": [
-            "Prisen på færgen over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> afhænger af køretøjets længde og højde, og begge dele bliver kontrolleret. Nogle tunneler i byerne og ældre broer har højde- eller vægtbegrænsning, og enkelte ruter er lukket for høje køretøjer i kraftig vind.",
+            "Prisen for et køretøj på færgen over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> afhænger af længden, inklusive cykelstativer og anhængertræk, og længden bliver kontrolleret ved indtjekning. Nogle tunneler i byerne og ældre broer har højde- eller vægtbegrænsning, og enkelte udsatte ruter lukker i voldsom vind.",
             "Kend køretøjets mål præcist, og tjek dem mod alle ruter med en tunnel, en lav bro eller en færgebooking. Det er gætteri, der fører til en dyr efterregulering ved færgeterminalen, eller noget værre ude på vejen."
           ],
           "tips": [
             "Færgeprisen afhænger af størrelsen",
             "Kend den præcise højde og længde",
-            "Nogle ruter lukker for høje autocampere"
+            "Udsatte ruter kan lukke i voldsom vind"
           ]
         }
       ],
@@ -1316,8 +1319,8 @@
       "priceTable": null
     },
     "eating-out-new-zealand-prices-2026": {
-      "title": "Spise ude i New Zealand 2026: priser på måltider og kaffe",
-      "description": "Prisspænd for caféer, takeaway og restauranter i New Zealand viser, hvorfor et enkelt måltid, du køber, kan ændre hele dagsbudgettet.",
+      "title": "Spise ude i New Zealand: priser på måltider og kaffe 2026",
+      "description": "Hvad det koster at spise ude i New Zealand i 2026: en cappuccino 5 til 7,50 NZD, et billigt måltid 18 til 50 NZD, middag for to 100 til 200 NZD, og hvordan du budgetterer med det.",
       "region": "Byer og småbyer i New Zealand",
       "imageAlt": "Måltid og kaffe på en café i New Zealand",
       "intro": "At spise ude kan være alt fra en frokost fra bageren til en treretters middag i en storby. De landsdækkende tal giver et brugbart billede af niveauet, men det enkelte spisested og feriebyerne kan ligge uden for dem.",
@@ -1357,7 +1360,7 @@
         {
           "heading": "Tillæg og gebyrer ved betaling",
           "body": [
-            "Helligdagstillæg er lovlige og almindelige, typisk omkring 15 %, og de skal oplyses. Mange steder lægger også et gebyr på kortbetaling, især for kreditkort og kontaktløs betaling, og det bliver lagt på ved kassen i stedet for at stå på menukortet.",
+            "Helligdagstillæg er lovlige og almindelige, typisk 10 til 15 %, og de skal oplyses. Mange steder lægger også et gebyr på kortbetaling, især for kreditkort og kontaktløs betaling, og det bliver lagt på ved kassen i stedet for at stå på menukortet.",
             "Ingen forventer drikkepenge i New Zealand, og ingen tænker dårligere om dig, fordi du ikke giver noget. Nogle steder spørger betalingsterminalen nu om drikkepenge, men det er en ny import og ikke en lokal skik."
           ],
           "tips": [
@@ -1399,7 +1402,7 @@
       "faq": [
         [
           "Hvad koster det at spise ude i New Zealand?",
-          "Guiden har daterede priser på brunch på en café, et måltid på en pub, en middag i mellemklassen og takeaway, i NZD og omregnet til ti valutaer. Springet fra café til restaurant er større her end i de fleste lande."
+          "Prisspænd til planlægning for 2026: et måltid på en billig restaurant 18–50 NZD, en fastfoodmenu 15–20 NZD, middag for to på en restaurant i mellemklassen 100–200 NZD og en cappuccino 5–7,50 NZD. Springet fra café til restaurant er større her end i de fleste lande."
         ],
         [
           "Giver man drikkepenge i New Zealand?",
@@ -1441,8 +1444,8 @@
       }
     },
     "new-zealand-travel-cost-2026": {
-      "title": "Hvad koster en rejse til New Zealand i 2026?",
-      "description": "Hvad koster en rejse til New Zealand? Dagsbudgetter for et campingpar, en backpacker og en mere komfortabel roadtrip, regnet ud fra daterede priser i NZD.",
+      "title": "Rejse til New Zealand 2026: dagsbudget for campister (NZD)",
+      "description": "Hvad en dag i New Zealand koster i 2026: 75 til 120 NZD pr. person for en spartansk campist, 150 til 260 NZD for en komfortabel tur, med daterede priser.",
       "region": "New Zealand",
       "imageAlt": "Rejsende regner på budgettet til en roadtrip i New Zealand",
       "intro": "Ruten og tempoet betyder mere end et landsgennemsnit. Kører du videre hver dag, bruger du mere brændstof og skal hele tiden have styr på næste overnatning, mens et roligere tempo gør det lettere at lave maden selv og udnytte ugepriser.",
@@ -1474,7 +1477,7 @@
         {
           "heading": "Sådan ser en stram budgetdag ud i praksis",
           "body": [
-            "En stram dag betyder, at du laver næsten alle måltider selv, skifter mellem gratis pladser og billige DOC-campingpladser og betaler for aktiviteter en gang imellem i stedet for hver dag. Det kan sagtens lade sig gøre i måneder ad gangen, og tusindvis af rejsende gør det, men det kræver en bil, der er indrettet til at være selvforsynende, og at du kan leve med enkle faciliteter.",
+            "En stram dag betyder, at du laver næsten alle måltider selv, skifter mellem gratis og billige DOC-campingpladser og betaler for aktiviteter en gang imellem i stedet for hver dag. Det kan sagtens lade sig gøre i måneder ad gangen, og tusindvis af rejsende gør det, men det kræver en bil, der er indrettet til at være selvforsynende, og at du kan leve med enkle faciliteter.",
             "Problemet opstår, når man tror, at billigt betyder gratis. Bad, tøjvask, vand, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestationer</a> og en enkelt nat på en campingplads med faciliteter koster alt sammen noget, og et budget, der ikke har en post til dem, er forkert, inden den første uge er omme."
           ],
           "tips": []
@@ -1520,7 +1523,7 @@
       "faq": [
         [
           "Hvad koster en rejse til New Zealand i 2026?",
-          "Udgifterne deler sig pænt i tre: transport, overnatning og mad, og valget af køretøj betyder mere for den samlede pris end noget andet. Guiden giver daterede pejlemærker i newzealandske dollar for hver af dem og omregner dem til ti valutaer."
+          "Planlægningsintervaller for 2026: omkring 75–120 NZD pr. person pr. dag for en spartansk campist eller backpacker, 150–260 NZD for en komfortabel selvstændig tur og 280–450 NZD med private værelser og betalte aktiviteter. Valget af køretøj flytter totalen mere end noget andet."
         ],
         [
           "Er det dyrt at rejse i New Zealand?",
@@ -1557,8 +1560,8 @@
       }
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Fartgrænser i New Zealand og et sikkert tempo på vejene",
-      "description": "Skiltet viser den højeste tilladte fart i godt føre, men på mange landeveje i New Zealand er det sikre tempo langt lavere.",
+      "title": "Fartgrænser i New Zealand 2026: landevej 100, træk 90 km/t",
+      "description": "Fartgrænser i New Zealand for besøgende og autocampere: 100 km/t på landevej, 50 km/t i byer, 90 km/t, når du trækker noget, og hvornår du skal køre langt under dem.",
       "region": "Vejene i New Zealand",
       "imageAlt": "Skilt med fartgrænse ved en landevej i New Zealand",
       "intro": "En fartgrænse er ikke et løfte om, at vejen kan køres med den fart. Sving, regn, grus, får og kvæg, cyklister og en autocamper, du ikke er vant til, trækker alle sammen det sikre tempo ned.",
@@ -1602,8 +1605,8 @@
         {
           "heading": "Kontrollen er strammere, end mange turister regner med",
           "body": [
-            "Tolerancen er lille, der er fartkameraer mange steder, også fotovogne, og bøden sendes til den registrerede ejer, så et udlejningsfirma sender den videre til dig med et administrationsgebyr oveni. Strafpoint gælder ikke for udenlandske kørekort, men det gør bøderne i allerhøjeste grad.",
-            "Strækningsmåling og lavere fartgrænser på landet har begge bredt sig i de senere år. Gå ud fra, at enhver vej kan være overvåget, i stedet for at holde udkig efter kameraer."
+            "Tolerancen er lille, der er fartkameraer mange steder, også fotovogne, og bøden sendes til den registrerede ejer, så et udlejningsfirma sender den videre til dig med et administrationsgebyr oveni. Lovovertrædelser, hvor politiet stopper dig, giver strafpoint, selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>, og bøderne gælder også.",
+            "Strækningsmålere har bredt sig siden slutningen af 2025, så regn med, at enhver vej kan være overvåget, i stedet for at holde udkig efter kameraer."
           ],
           "tips": []
         },
@@ -1631,7 +1634,7 @@
           "heading": "Variable og nedsatte fartgrænser",
           "body": [
             "Ved skoler falder grænsen på faste tidspunkter, og det vises med blinkende skilte eller elektroniske tavler. Ved vejarbejde gælder der midlertidige grænser, uanset om man kan se nogen arbejde, og de håndhæves med samme lille tolerance som de faste grænser.",
-            "En række hovedveje på landet har fået sænket grænsen fra 100 km/t efter sikkerhedsvurderinger, og ændringen er ikke altid til at se, hvis du kører efter et ældre kort eller husker vejen fra et tidligere besøg. Læs skiltene i stedet for at gå ud fra, at den almindelige landevejsgrænse gælder.",
+            "Nogle veje på landet har grænser under 100 km/t, og mange nedsatte grænser blev sat op igen i 2025, så et ældre kort eller et tidligere besøg kan tage fejl i begge retninger. Læs skiltene i stedet for at gå ud fra, at den almindelige landevejsgrænse gælder.",
             "På uasfalterede veje er den skiltede grænse ofte stadig 100 km/t, og det er langtfra en sikker fart på grus. Her er grænsen virkelig kun et lovligt maksimum og siger intet om, hvilken fart underlaget kan klare."
           ],
           "tips": []
@@ -1640,7 +1643,7 @@
           "heading": "Sådan fungerer fartkameraer og bøder",
           "body": [
             "Der er faste fartkameraer og fotovogne over hele landet, og tolerancen er lille. Bøderne sendes til den registrerede ejer, så har du lejet bilen, er det udlejningsfirmaet, der får dem, og det sender dem videre til dig med et administrationsgebyr.",
-            "Strafpoint gælder ikke for et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>, men det gør bøderne, og ubetalte bøder kan indhente dig senere. Betal dem i stedet for at regne med, at de forsvinder, når du rejser hjem."
+            "Bøder fra fartkameraer giver ingen strafpoint, men det gør lovovertrædelser, hvor politiet stopper dig, selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>; 100 point inden for to år betyder tre måneders forbud mod at køre i New Zealand. Betal bøderne i stedet for at regne med, at de forsvinder, når du rejser hjem."
           ],
           "tips": [
             "Lille tolerance ved fartkontrol",
@@ -1667,8 +1670,8 @@
       "priceTable": null
     },
     "beer-wine-coffee-prices-new-zealand": {
-      "title": "Priser på øl, vin og kaffe i New Zealand",
-      "description": "Hvad koster øl, vin og kaffe i New Zealand? Sammenlign priserne på café, pub og i supermarkedet uden at blande et glas over disken sammen med en flaske fra butikken.",
+      "title": "Hvad koster en øl i New Zealand? Pub- og butikspriser 2026",
+      "description": "En pint på pubben koster omkring 7 til 15 NZD og en cappuccino 5 til 7,50 NZD i 2026. Se priserne på øl og vin i supermarkedet sammenlignet med barer og caféer.",
       "region": "New Zealand",
       "imageAlt": "Kaffe og vin på et bord i New Zealand",
       "intro": "Drikkevarer løber op, netop fordi det er små beløb ad gangen. Et kaffestop, en omgang på pubben og en flaske til aftenen på campingpladsen kan tilsammen overstige madbudgettet, uden at det enkelte køb føles stort.",
@@ -1750,7 +1753,7 @@
       "faq": [
         [
           "Hvad koster en øl i New Zealand?",
-          "Guiden giver priser på en pint på pubben, en specialøl, en sixpack fra supermarkedet, et glas og en flaske vin, alle med daterede tal. Den største enkeltbesparelse på en lang tur er at købe i supermarkedet i stedet for på en bar."
+          "På en pub koster en newzealandsk fadøl på 500 ml omkring 7–15 NZD og en importeret flaske 9–15 NZD; en newzealandsk øl på 500 ml fra supermarkedet koster 2,59–10 NZD. Den største enkeltbesparelse på en lang tur er at købe i supermarkedet i stedet for på en bar."
         ],
         [
           "Hvad koster en kop kaffe i New Zealand?",
@@ -1792,8 +1795,8 @@
       }
     },
     "east-cape-road-trip": {
-      "title": "Roadtrip på East Cape: fra Gisborne til Ōpōtiki",
-      "description": "En rolig rundtur langs kysten gennem surfbyer, pōhutukawa-bugter og afsidesliggende veje i øst.",
+      "title": "Roadtrip på East Cape: campingrute fra Gisborne til Ōpōtiki",
+      "description": "Kør East Cape fra Gisborne til Ōpōtiki: surfbyer, pōhutukawa-bugter, afsidesliggende veje med få servicemuligheder og steder at campere undervejs.",
       "region": "East Cape",
       "imageAlt": "Afsides vej på East Cape ved Stillehavet",
       "intro": "State Highway 35 følger en af landets mest givende, langsomme veje. Brændstof, åbningstider og stormskader betyder mere her, så ruten bør følge dagslyset og de lokale forhold i stedet for et fast ankomsttidspunkt.",
@@ -1888,8 +1891,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Kør med campingvogn i New Zealand",
-      "description": "Maksimum på 90 km/t, vægt med last og fire sekunders afstand er udgangspunkter, ikke mål.",
+      "title": "Kør med campingvogn i New Zealand: kørekort, vægt og 90 km/t",
+      "description": "90 km/t som maksimum med anhængertræk, 50 km/t med et reb, 6.000 kg samlet vægt på et fuldt bilkørekort, plus lastning, slingren og de veje, du skal køre langsomt på.",
       "region": "Veje i New Zealand",
       "imageAlt": "Bil med campingvogn på en hovedvej i New Zealand",
       "intro": "En stabil campingvogn afhænger af en lovlig kombination, korrekt pakning og en fører, der sætter farten ned, før vejen kræver det. New Zealands sving og vind gør den højeste tilladte hastighed uden betydning på mange strækninger.",
@@ -1905,7 +1908,7 @@
         {
           "heading": "Fart og afstand",
           "body": [
-            "Den højeste hastighed på landevej med anhænger er 90 km/t med en fast kobling. Kør langsommere, når stabilitet, sigtbarhed, vejr eller vejen kræver det.",
+            "Den højeste hastighed på landevej med anhænger er 90 km/t med en fast kobling, for eksempel et anhængertræk. Med et reb eller en anden ikke-fast kobling er grænsen 50 km/t på alle veje. Kør langsommere, når stabilitet, sigtbarhed, vejr eller vejen kræver det.",
             "Hold mindst fire sekunders afstand, og mere i dårligt vejr. Brems før sving, og skift til et lavere gear ved nedkørsler."
           ],
           "tips": []
@@ -1921,8 +1924,8 @@
         {
           "heading": "Hastighedsgrænserne er lavere med anhænger",
           "body": [
-            "Lette anhængere og campingvogne er begrænset til 90 km/t på landevej, under den almindelige grænse på 100 km/t, og tunge anhængerkombinationer er også begrænset til 90 km/t. Grænsen gælder uanset den skiltede hastighed, og den bliver håndhævet.",
-            "Hold en meget større afstand, end du ville i en bil. Bremselængden bliver væsentligt længere med en anhænger, og de hyppigste ulykker med anhænger her handler om, at man løber tør for plads til at stoppe på en nedkørsel."
+            "Lette anhængere og campingvogne er begrænset til 90 km/t på landevej, under den almindelige grænse på 100 km/t, og tunge anhængerkombinationer er også begrænset til 90 km/t. Det er et maksimum, ikke et mål: Hvor der er skiltet med en lavere grænse, gælder den lavere grænse.",
+            "Hold en meget større afstand, end du ville i en bil. Bremselængden bliver væsentligt længere med en anhænger, især på lange nedkørsler."
           ],
           "tips": [
             "90 km/t som højeste hastighed med anhænger",
@@ -1953,7 +1956,7 @@
         {
           "heading": "Veje, der kræver ekstra omtanke",
           "body": [
-            "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road og store dele af Coromandel-kysten er krævende med campingvogn, og nogle er forbudt eller kraftigt frarådet for store kombinationer. Tjek, før du beslutter dig, for det er ofte ikke muligt at vende om.",
+            "Tākaka Hill, Crown Range, Remutaka Hill Road, den uasfalterede 309 Road og store dele af Coromandel-kysten er stejle, snævre og langsomme med campingvogn, og Remutaka Hill (SH2) lukker i voldsom vind. Tjek vejforhold og de begrænsninger, der gælder, før du beslutter dig, for det er ofte ikke muligt at vende om.",
             "Skift til et lavere gear på nedkørsler, og brug motorbremsen i stedet for at bremse hele vejen, for bremserne mister kraften. Hold ind med jævne mellemrum, så trafikken bag dig kan komme forbi, både af høflighed og fordi en kø bag dig skaber risiko for farlige overhalinger."
           ],
           "tips": []
@@ -1970,7 +1973,7 @@
         {
           "heading": "Vind og udsatte veje",
           "body": [
-            "En campingvogn er en stor, flad overflade, og sidevind er den vigtigste årsag til, at man mister herredømmet over kombinationen. Udsatte strækninger omkring Wellington, Desert Road, Mackenzie og Canterburys kyst er alle kendt for det.",
+            "En campingvogn er en stor, flad overflade, og sidevind er en væsentlig årsag til slingren og til, at man mister herredømmet over kombinationen. Udsatte strækninger omkring Wellington, Desert Road, Mackenzie og Canterburys kyst er alle kendt for det.",
             "Sæt farten ned før de udsatte strækninger i stedet for at reagere midt i dem, og vær særlig forsigtig, når du kommer ud af en vejgennemskæring eller passerer en lastbil, hvor vinden pludselig tager til og aftager."
           ],
           "tips": [
@@ -1983,23 +1986,23 @@
       "faq": [
         [
           "Hvad er fartgrænsen med anhænger i New Zealand?",
-          "90 km/t, under grænsen på 100 km/t på landevej, og den gælder, uanset hvad skiltet siger. Det, du trækker, skal også ligge inden for køretøjets godkendte trækkapacitet, som er en lovlig grænse og ikke en rettesnor."
+          "90 km/t på landevej med anhængertræk eller en anden fast kobling, under den almindelige grænse på 100 km/t, og en lavere skiltet grænse gælder stadig. Hvis du trækker i et reb eller en anden ikke-fast kobling, falder grænsen til 50 km/t overalt."
         ],
         [
           "Skal man have et særligt kørekort for at køre med campingvogn i New Zealand?",
-          "Et almindeligt bilkørekort dækker de fleste kombinationer op til 4.500 kg samlet vægt. Over det skal du have en tungere kørekortklasse, og lejeaftaler sætter ofte deres egne grænser under de lovlige."
+          "Som regel ikke. Et fuldt bilkørekort giver dig lov til at trække, når køretøj, anhænger og last tilsammen vejer højst 6.000 kg; med et øvelseskørekort eller et begrænset kørekort er grænsen 4.500 kg. Lejeaftaler kan sætte deres egne, lavere grænser."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: autocampere, campingvogne og lette anhængere"
+          "label": "NZTA Road Code: sikker lastning og kørsel med anhænger for lette køretøjer"
         }
       ],
       "priceTable": null
     },
     "wof-registration-campervan-new-zealand": {
-      "title": "Warrant of Fitness, registrering og lejede autocampere",
-      "description": "Et gyldigt mærkat er kun en del af beviset for, at et køretøj lovligt må køre på vejen.",
+      "title": "WoF og rego for autocamper i New Zealand: tjek, før du kører",
+      "description": "Sådan fungerer Warrant of Fitness og registrering for en autocamper i New Zealand, hvordan du tjekker udløbsdatoerne, og hvad en udløbet WoF betyder.",
       "region": "Køretøjer i New Zealand",
       "imageAlt": "Mærkater for syn og registrering på et køretøj i New Zealand",
       "intro": "Lette autocampere skal som regel have en gyldig Warrant of Fitness og køretøjslicens, mens tungere køretøjer eller køretøjer til persontransport kan køre under andre kontrolsystemer. Tjek det konkrete køretøj i stedet for at gå ud fra, at lejekategorien svarer på det.",
@@ -2108,8 +2111,8 @@
       "priceTable": null
     },
     "accommodation-costs-new-zealand-2026": {
-      "title": "Hvad koster overnatning i New Zealand i 2026?",
-      "description": "Sovesale, hytter og private værelser ligger i hvert sit prisleje og har forskellige faciliteter.",
+      "title": "Overnatning i New Zealand 2026: priser på hostel, hytte, hotel",
+      "description": "Hvad en seng på sovesal, en hytte på en Holiday Park og et privat værelse koster i New Zealand i 2026, og hvad hver prisklasse indeholder, så du kan budgettere hver nat.",
       "region": "New Zealand",
       "imageAlt": "Overnatning i New Zealand med udsigt til bjerge",
       "intro": "Prisen på overnatning afhænger mere af datoen og stedet end af, hvad typen koster i gennemsnit på landsplan. En hytte med delt badeværelse kan slå et privat værelse på et hostel, mens et afsides bjergsted kan koste mere end et hotel i en by.",
@@ -2328,12 +2331,1033 @@
         ],
         [
           "Skal man have et internationalt kørekort til New Zealand?",
-          "Kun hvis dit kørekort ikke er på engelsk. Er det ikke det, skal du medbringe enten en nøjagtig, bekræftet engelsk oversættelse eller et internationalt kørekort sammen med det originale kørekort."
+          "Kun hvis dit kørekort ikke er på engelsk. Er det ikke det, skal du medbringe enten en nøjagtig engelsk oversættelse fra en oversætter, som NZTA har godkendt, eller et internationalt kørekort sammen med det originale kørekort."
         ]
       ],
       "sources": [
         {
           "label": "NZTA: at køre i New Zealand på et udenlandsk kørekort"
+        }
+      ],
+      "priceTable": null
+    },
+    "rankers-alternatives": {
+      "title": "De 5 bedste alternativer til Rankers til camping i New Zealand 2026",
+      "description": "Alternativer til Rankers Camping NZ: KiwiCamping, CamperMate, WikiCamps, thl Roadtrip og Campable sammenlignet på pris, brug uden dækning og styrker. Tjekket oktober 2026.",
+      "region": "New Zealand",
+      "imageAlt": "Græsklædt DOC-campingplads under blomstrende pōhutukawa ved Medlands Beach på Great Barrier Island",
+      "intro": "Rankers Camping NZ er den campingapp med flest bedømmelser i App Store i New Zealand, den er gratis, og folk kan godt lide den: 4,7 stjerner ud fra 3.322 bedømmelser i App Store i New Zealand, da vi tjekkede den 20. oktober 2026. Folk forlader den sjældent, fordi den er dårlig. De leder videre, når turen kræver noget, som Rankers ikke er bygget omkring, for eksempel at planlægge ruten dag for dag, DOC-hytter og vandreruter til vandredagene, en nat på en farm eller en overfart til Australien. For god ordens skyld: KiwiCamping er vores egen app, og det er derfor, den står øverst på listen. Under hver app nedenfor står, hvad den gør bedre end Rankers, og hvornår du bør vælge den i stedet.",
+      "sections": [
+        {
+          "heading": "Alternativer til Rankers: overblik",
+          "body": [
+            "Hvis du kun vil have én anbefaling: behold Rankers til anmeldelserne, og tilføj KiwiCamping, når turen bliver til en plan med datoer, <a data-guide=\"doc-huts-new-zealand-guide\">DOC-hytter</a> eller vandreruter. Vælg i stedet CamperMate, hvis turen fortsætter til Australien, WikiCamps New Zealand, hvis antallet af steder betyder mere end udvælgelsen, thl Roadtrip til et enkelt, gratis overblik over, hvad der er i nærheden, og Campable til bookede ophold på privat jord.",
+            "Ingen af dem erstatter <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunens regler</a> eller skiltet ved indgangen til stedet. Rankers oplyser, at appen kun viser steder, som lokalsamfundet har godkendt til overnatning. Det er en reel styrke, og en app med flere steder er ikke automatisk mere nyttig, hvis du så selv skal tjekke hvert enkelt sted."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Tjekket 20. oktober 2026 i App Store i New Zealand og på hver udviklers hjemmeside. Bedømmelserne er gennemsnit fra App Store i New Zealand med antallet af bedømmelser.",
+            "head": [
+              "App",
+              "Vælg den frem for Rankers, når",
+              "Pris",
+              "Platforme",
+              "NZ-bedømmelse"
+            ],
+            "rows": [
+              [
+                "Rankers Camping NZ",
+                "Du vil have anmeldelser (udgangspunktet)",
+                "Gratis",
+                "iPhone, iPad, Android, web",
+                "4,7 (3.322)"
+              ],
+              [
+                "KiwiCamping",
+                "Du planlægger en rute med datoer, DOC-hytter og vandreruter",
+                "Gratis; Pass 3,99 til 12,99 NZD",
+                "iPhone (iOS 26+)",
+                "3,8 (4)"
+              ],
+              [
+                "CamperMate",
+                "Din tur fortsætter til Australien",
+                "Gratis; med reklamer",
+                "iPhone, iPad, Android, web",
+                "4,4 (606)"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Du vil have flest mulige steder",
+                "7,99 NZD engangskøb (iPhone)",
+                "iPhone, iPad, Android",
+                "4,5 (137)"
+              ],
+              [
+                "thl Roadtrip",
+                "Du vil have et enkelt, gratis overblik over området",
+                "Gratis",
+                "iPhone, Android",
+                "4,6 (122)"
+              ],
+              [
+                "Campable",
+                "Du vil booke en nat på privat jord",
+                "Gratis app; værterne bestemmer prisen",
+                "iPhone, Android",
+                "4,5 (13)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Derfor leder rejsende efter alternativer til Rankers",
+          "body": [
+            "Vi læste de 50 nyeste anmeldelser af Rankers i App Store i New Zealand. Toogfyrre gav fire eller fem stjerner, og rosen går på nøjagtigheden, prisen og de rejsendes grundige kommentarer. Klagerne var få og konkrete: tre anmeldere fandt steder, der manglede eller var forældede, tre skrev, at appen ikke ville åbne eller indlæse, to ville kunne kombinere <a data-guide=\"kiwicamping-filters-guide\">filtre</a> i stedet for at søge i én kategori ad gangen, to var utilfredse med et gebyr på bookinger via appen, og én kunne ikke finde anmeldelserne efter en opdatering.",
+            "Rankers er gratis og tjener penge på bookinger, aktivitetstilbud og henvisninger til udlejning af autocampere. Rankers oplyser, at provisionerne på booking og aktiviteter ikke koster dig noget ekstra. Den ærlige grund til at tilføje eller skifte app er derfor som regel en anden opgave, ikke en fejl: ruteplanlægning, vandring, privat jord eller et land mere."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping: bedst til at gøre gemte steder til en rute med datoer",
+          "body": [
+            "KiwiCamping bygger på data fra Department of Conservation selv. I appens data fra august 2026 lå der 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, 927 DOC-hytter og 1.453 DOC-vandreruter, med de gebyrer, hunderegler og bookingkrav, som DOC angiver, hvor DOC angiver dem. Det gør appen stærkest netop dér, hvor en app bygget på anmeldelser er tyndest: hytten, du går til på dag fire, og ruten, der starter fra aftenens campingplads.",
+            "<a data-guide=\"kiwicamping-filters-guide\">Filtre</a> kan kombineres, så én søgning kan spørge efter en type sted, et gebyr, faciliteter og adgangsforhold på én gang. Gemte steder bliver derefter til en tur med stop i rækkefølge, datoer, noter, to-dos og den samlede afstand, og stedets oplysninger kan stadig læses på telefonen, når dækningen forsvinder. Kortet, ruteberegning, vejr og fotos kræver stadig forbindelse.",
+            "Hvad den koster, og hvor den kommer til kort: Den er gratis at hente, men i den gratis version kan du kun åbne BookIt-ophold og -rundture. DOC-campingpladser, -hytter, -vandreruter og <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestationer</a>, samlinger, ture og guider kræver KiwiCamping Pass, som koster fra 3,99 til 12,99 NZD i App Store i New Zealand. Den findes kun til iPhone og kræver iOS 26 eller nyere, den havde 4 bedømmelser i New Zealand (3,8), og den har ingen anmeldelser fra rejsende. Derfor foreslår vi den som supplement til Rankers, ikke som erstatning."
+          ],
+          "tips": [
+            "Vælg den til: DOC-hytter, vandreruter og en plan med datoer",
+            "Behold Rankers til anmeldelser",
+            "Kun iPhone, iOS 26 eller nyere"
+          ]
+        },
+        {
+          "heading": "2. CamperMate: bedst, hvis turen krydser Tasmanhavet",
+          "body": [
+            "CamperMate dækker New Zealand og Australien i én gratis app, på 27 sprog, med et filter for gratis og betalte steder, anmeldelser og fotos fra rejsende, booking af campingpladser med ledighed, lokale tilbud og links til udlejning af køretøjer. Ifølge appens beskrivelse kan kort og oplysninger om steder downloades til brug uden dækning, og version 5.8 tilføjede en satellitvisning midt i oktober 2026.",
+            "Den har 4,4 ud fra 606 bedømmelser i New Zealand og 4,0 ud fra 12.568 på Google Play. De nyeste anmeldelser er blandede: Flere fra slutningen af 2025 og 2026 kan ikke lide et redesign af appen, og appen viser reklamer. Hvis du kun rejser i New Zealand og sætter mest pris på anmeldelser, er Rankers stadig det stærkeste valg af de to."
+          ],
+          "tips": [
+            "Vælg den til: én app til NZ og Australien",
+            "Gratis; med reklamer",
+            "De nyeste anmeldelser er blandede"
+          ]
+        },
+        {
+          "heading": "3. WikiCamps New Zealand: bedst til flest steder",
+          "body": [
+            "WikiCamps New Zealand oplyser, at brugerne har tilføjet over 12.000 steder i New Zealand, og appen har anmeldelser, fotos, en <a data-guide=\"plan-trip-kiwicamping\">rejseplanlægger</a>, der anslår brændstofudgiften, og en Offline Mode til steder og ture. Den koster 7,99 NZD én gang i App Store, uden abonnement.",
+            "Forskellen til Rankers er udvælgelsen. Rankers viser kun overnatningssteder, som lokalsamfundet har godkendt. WikiCamps viser langt flere, tilføjet og holdt ajour af brugerne, så du skal selv tjekke flere af dem. Den har 4,5 ud fra 137 bedømmelser i App Store i New Zealand og 3,0 ud fra 1.042 på Google Play."
+          ],
+          "tips": [
+            "Vælg den til: størst mulig dækning, betalt én gang",
+            "7,99 NZD engangskøb på iPhone",
+            "Tjek steder tilføjet af brugere"
+          ]
+        },
+        {
+          "heading": "4. thl Roadtrip: bedst til et enkelt, gratis overblik over, hvad der er i nærheden",
+          "body": [
+            "thl Roadtrip er en gratis app fra Tourism Holdings, der bruger din placering til at vise campingpladser, <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>, tankstationer og tømmestationer i nærheden i New Zealand og Australien. Den har 4,6 ud fra 122 bedømmelser i App Store i New Zealand.",
+            "Den passer til rejsende, der vil kaste et blik på, hvad der er omkring dem, når <a data-guide=\"new-zealand-driving-day-planner\">køredagen</a> er slut, i stedet for at undersøge steder i dybden. Den har langt færre anmeldelser end Rankers, så den fungerer bedst til hurtige opslag ved siden af en mere omfattende app."
+          ],
+          "tips": [
+            "Vælg den til: hurtige søgninger i nærheden",
+            "Gratis",
+            "Dækker NZ og Australien"
+          ]
+        },
+        {
+          "heading": "5. Campable: bedst til en booket nat på privat jord",
+          "body": [
+            "Med Campable booker du en plads til autocamperen på farme, vingårde, frugtplantager og hos sportsklubber. Værterne fastsætter prisen pr. nat, du betaler i appen, og du får værtens telefonnummer, når bookingen er bekræftet. Den har 4,5 ud fra 13 bedømmelser i New Zealand og findes til iPhone og Android.",
+            "Den er smallere end Rankers med vilje: hundredvis af steder frem for et landsdækkende register. Brug den til de nætter, hvor du vil være sikker på en plads og have ro, og noget bredere til resten."
+          ],
+          "tips": [
+            "Vælg den til: sikre nætter på privat jord",
+            "Værterne fastsætter prisen",
+            "iPhone og Android"
+          ]
+        },
+        {
+          "heading": "Når Rankers stadig er den rigtige app",
+          "body": [
+            "Hvis turen mest består af <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> og Holiday Parks, og du vælger ud fra, hvad de seneste rejsende har sagt, er Rankers svær at slå og koster ingenting. Oplysningerne om campingpladser er indbygget i appen fra første installation, og i appen til iPhone og Android kan de detaljerede kort downloades over Wi-Fi til brug uden for dækning.",
+            "Den findes også til Android og web, hvilket KiwiCamping ikke gør. Hvis to personer planlægger sammen på forskellige telefoner, kan det alene afgøre sagen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sådan har vi sammenlignet",
+          "body": [
+            "Den 20. oktober 2026 læste vi hver apps side i App Store i New Zealand og udviklerens egen hjemmeside samt siden på Google Play, hvor der er en. Bedømmelser og priser er, som de stod den dag. Temaerne i anmeldelserne kommer fra de 50 nyeste anmeldelser af Rankers i App Store i New Zealand og er opgivet som antal, ikke som vores egen vurdering.",
+            "Vi har kun beskrevet funktioner, som udviklerne selv beskriver. Hvis en funktion ikke er nævnt her, er det ikke en påstand om, at appen mangler den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Er Rankers Camping NZ gratis?",
+          "Ja. Appen er gratis at hente og bruge, og Rankers tjener penge på bookinger, aktivitetstilbud og henvisninger til udlejning af autocampere, der sker via appen. Den findes til iPhone, iPad, Android og web."
+        ],
+        [
+          "Hvad er det bedste alternativ til Rankers?",
+          "Til at planlægge en rute med datoer, DOC-hytter og vandreruter anbefaler vi KiwiCamping, som vi selv laver, brugt ved siden af Rankers til anmeldelser. CamperMate passer til ture, der fortsætter til Australien, og WikiCamps New Zealand opgiver flest steder i New Zealand og koster 7,99 NZD som engangskøb."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Rankers Camping NZ-appen"
+        },
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "Data om thl Roadtrip fra App Store (Apple, New Zealand)"
+        },
+        {
+          "label": "Campable"
+        },
+        {
+          "label": "DOC: steder at overnatte"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-alternatives": {
+      "title": "De 5 bedste alternativer til CamperMate i New Zealand 2026",
+      "description": "Utilfreds med redesignet eller reklamerne i CamperMate? KiwiCamping, Rankers, WikiCamps, thl Roadtrip og NZMCA App sammenlignet til ture i New Zealand. Tjekket oktober 2026.",
+      "region": "New Zealand",
+      "imageAlt": "Et lille telt slået op ved Iron Lake i Kahurangi National Park",
+      "intro": "CamperMate har i årevis været en selvfølgelig download for dem, der rejser i autocamper i New Zealand og Australien, og den er stadig gratis, oversat til 27 sprog og kan downloade sine kort til brug uden dækning. At folk nu leder efter et alternativ, har en ny årsag: et redesign, som flere anmeldere i App Store i New Zealand har været utilfredse med siden slutningen af 2025, og reklamerne i appen. Vi tjekkede de apps, det er værd at skifte til, den 20. oktober 2026. KiwiCamping er vores egen app, så læs placeringen øverst med det in mente: Vi gennemgår begrundelserne og de ture, hvor du hellere skal skifte til en af de andre.",
+      "sections": [
+        {
+          "heading": "Alternativer til CamperMate: overblik",
+          "body": [
+            "Til en tur kun i New Zealand er den stærkeste kombination Rankers til anmeldelser og KiwiCamping til <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, hytter og planlægning af ruten. Skal du også til Australien, er thl Roadtrip og WikiCamps (som sælger separate apps til New Zealand og Australien) de nærmeste erstatninger. Medlemmer af New Zealand Motor Caravan Association bør tilføje NZMCA App, uanset hvad de ellers bruger.",
+            "Før du skifter, så tjek, om det er redesignet eller selve opgaven, du ikke bryder dig om. Bookingen, tilbuddene og dækningen af to lande i CamperMate er stadig virkelig nyttige, og intet enkelt alternativ erstatter dem alle."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Tjekket 20. oktober 2026 i App Store i New Zealand og på hver udviklers hjemmeside. Bedømmelserne er gennemsnit fra App Store i New Zealand med antallet af bedømmelser.",
+            "head": [
+              "App",
+              "Skift for at få",
+              "Pris",
+              "Reklamer",
+              "NZ-bedømmelse"
+            ],
+            "rows": [
+              [
+                "CamperMate",
+                "Booking og tilbud, NZ og Australien (udgangspunktet)",
+                "Gratis",
+                "Ja",
+                "4,4 (606)"
+              ],
+              [
+                "KiwiCamping",
+                "DOC-campingpladser, hytter og en rute med datoer",
+                "Gratis; Pass 3,99 til 12,99 NZD",
+                "Ingen",
+                "3,8 (4)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Flest NZ-bedømmelser i App Store her",
+                "Gratis",
+                "Ikke vist på Google Play",
+                "4,7 (3.322)"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Flest udgivne steder i NZ, betalt én gang",
+                "7,99 NZD engangskøb (iPhone)",
+                "På Android",
+                "4,5 (137)"
+              ],
+              [
+                "thl Roadtrip",
+                "Enkel søgning i nærheden, NZ og Australien",
+                "Gratis",
+                "Ikke oplyst",
+                "4,6 (122)"
+              ],
+              [
+                "NZMCA App",
+                "NZMCA-medlemmer og medlemsparker",
+                "Medlemskab 150 NZD ved tilmelding plus 102 NZD om året",
+                "Ikke oplyst",
+                "Ingen bedømmelser endnu"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Derfor leder folk efter alternativer til CamperMate",
+          "body": [
+            "Blandt de 50 nyeste anmeldelser af CamperMate i App Store i New Zealand var 16 fra 2025 eller 2026, og 12 af dem gav en eller to stjerner. Syv gav redesignet skylden og beskrev langsom indlæsning, forkert rutevejledning og steder, der var forsvundet, og to af dem savnede <a data-guide=\"kiwicamping-filters-guide\">filtrene</a> for LPG og for selvforsynende køretøjer. Fire handlede om bookinger og refusioner. Det er anmeldernes egne beretninger, ikke noget, vi har testet.",
+            "Der er også en anden side. CamperMate har over en million downloads på Google Play, 4,0 stjerner ud fra 12.568 bedømmelser dér og en anmelder, der siger, at appen viser campingpladser, vedkommende ikke kunne finde andre steder. Ifølge appens beskrivelse kan kort og oplysninger downloades og beholdes uden udløbsdato."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping: bedst til DOC-campingpladser og planlægning af hele ruten",
+          "body": [
+            "Hvor CamperMate læner sig mod campingpladser, der kan bookes, og tilbud, er KiwiCamping bygget på registre fra DOC selv: 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, 927 DOC-hytter og 1.453 DOC-vandreruter i appens data fra august 2026, med gebyrer, hunderegler og bookingkrav fra DOC, hvor DOC offentliggør dem. Der er ingen reklamer i appen.",
+            "<a data-guide=\"kiwicamping-filters-guide\">Filtre</a> kan kombineres, også efter gebyr, faciliteter og adgangsforhold, og det er vigtigt, hvis du var en af de anmeldere, der mistede filtre ved redesignet af CamperMate. Steder kan gemmes i samlinger som »Ønsker at besøge« eller lægges direkte ind i en tur med stop i rækkefølge, datoer, noter, to-dos og ruteafstanden. Stedets oplysninger ligger på telefonen, når dækningen forsvinder, mens kortet, ruteberegning, vejr og fotos kræver forbindelse.",
+            "Begrænsningerne: Kun BookIt-ophold og -rundture er gratis. DOC-campingpladser, -hytter, -vandreruter og <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestationer</a>, samlinger, ture og guider kræver KiwiCamping Pass, som koster fra 3,99 til 12,99 NZD i App Store i New Zealand. Den dækker kun New Zealand, findes kun til iPhone med iOS 26 eller nyere og havde 4 bedømmelser i New Zealand (3,8) uden anmeldelser fra rejsende, så brug den sammen med Rankers, hvis anmeldelser betyder noget for dig."
+          ],
+          "tips": [
+            "Skift for at få: DOC-data og ruteplanlægning",
+            "Ingen reklamer",
+            "Kun New Zealand og iPhone"
+          ]
+        },
+        {
+          "heading": "2. Rankers Camping NZ: bedst til anmeldelser fra rejsende",
+          "body": [
+            "Rankers har flest bedømmelser i App Store i New Zealand af de apps, der sammenlignes her: 4,7 stjerner ud fra 3.322. Rankers oplyser, at hver af de over 108.000 anmeldelser bliver læst og kontrolleret af et menneske på holdet. Appen er gratis, og ifølge beskrivelsen viser den kun overnatningssteder, som lokalsamfundet har godkendt.",
+            "Oplysningerne om campingpladser er indbygget fra første installation, og detaljerede kort kan downloades over Wi-Fi. Den dækker kun New Zealand, så den kan ikke erstatte CamperMate på den anden halvdel af en tur til to lande."
+          ],
+          "tips": [
+            "Skift for at få: anmeldelser og udvalgte steder",
+            "Gratis",
+            "Kun New Zealand"
+          ]
+        },
+        {
+          "heading": "3. WikiCamps New Zealand: bedst til dækning, betalt én gang",
+          "body": [
+            "WikiCamps sælger WikiCamps New Zealand som en selvstændig app for 7,99 NZD i App Store, adskilt fra WikiCamps Australia. Brugerne har tilføjet over 12.000 steder i New Zealand, og appen har en <a data-guide=\"plan-trip-kiwicamping\">rejseplanlægger</a>, der anslår brændstofudgiften, samt en Offline Mode til steder og ture.",
+            "Dækningen kommer fra brugerne, så tjek alt, der har juridisk betydning, hos kommunen eller DOC. I App Store i New Zealand lå den i gennemsnit på 4,5 ud fra 137 bedømmelser mod 3,0 ud fra 1.042 på Google Play."
+          ],
+          "tips": [
+            "Skift for at få: flest steder",
+            "7,99 NZD engangskøb på iPhone",
+            "Separate apps til NZ og Australien"
+          ]
+        },
+        {
+          "heading": "4. thl Roadtrip: bedst som gratis erstatning i begge lande",
+          "body": [
+            "thl Roadtrip fra Tourism Holdings viser campingpladser, <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>, tankstationer og tømmestationer nær dig i New Zealand og Australien, gratis. Gennemsnittet i App Store i New Zealand var 4,6 ud fra 122 bedømmelser.",
+            "Den er enklere end CamperMate, med langt færre anmeldelser, og beskrivelsen nævner ingen markedsplads med tilbud. Netop enkelheden er pointen for rejsende, der syntes, at redesignet var rodet."
+          ],
+          "tips": [
+            "Skift for at få: enkel søgning i to lande",
+            "Gratis",
+            "Færre anmeldelser"
+          ]
+        },
+        {
+          "heading": "5. NZMCA App: bedst for medlemmer af New Zealand Motor Caravan Association",
+          "body": [
+            "Appen fra New Zealand Motor Caravan Association giver medlemmer adgang til Travel Directory og foreningens egne NZMCA Parks, som koster 5 NZD pr. voksen pr. nat. Appen er gratis, mens medlemskab koster 150 NZD ved tilmelding og 102 NZD om året.",
+            "Den kræver medlemskab af NZMCA og havde endnu ingen bedømmelser i App Store i New Zealand (3,2 ud fra 156 på Google Play). På en lang tur i en <a data-guide=\"self-contained-campervan-green-warrant\">certificeret selvforsynende</a> autocamper kan medlemsparkerne tjene medlemskabet ind igen."
+          ],
+          "tips": [
+            "Skift for at få: NZMCA-medlemsparker",
+            "Medlemskab 150 NZD plus 102 NZD om året",
+            "Kun for medlemmer"
+          ]
+        },
+        {
+          "heading": "Når CamperMate stadig er det bedste valg",
+          "body": [
+            "Hvis turen går gennem begge lande, du booker de fleste nætter på <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>, og du kan lide at samle tilbud op undervejs, klarer CamperMate stadig alle tre ting i én gratis app. Downloadbare kort og 27 sprog er også en reel hjælp for besøgende, der ikke læser engelsk.",
+            "Hvis problemet er redesignet frem for appens formål, kan det være værd at opdatere og prøve den nyeste version, før du skifter. Version 5.8 kom den 16. oktober 2026."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sådan har vi sammenlignet",
+          "body": [
+            "Den 20. oktober 2026 læste vi hver apps side i App Store i New Zealand, udviklerens egen hjemmeside og siden på Google Play, hvor der er en. Bedømmelser og priser er, som de stod den dag. Temaerne i anmeldelserne kommer fra de 50 nyeste anmeldelser af CamperMate i App Store i New Zealand, hvoraf 16 var fra 2025 eller 2026, og er opgivet som antal.",
+            "Funktioner er kun beskrevet, som hver udvikler beskriver dem. At en funktion er udeladt, er ikke en påstand om, at appen mangler den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Findes der et alternativ til CamperMate uden reklamer?",
+          "KiwiCamping har ingen reklamer, og Google Play-siden for Rankers har ingen markering om reklamer. CamperMate viser reklamer. I KiwiCamping kræver DOC-steder, samlinger og ture det betalte Pass, mens Rankers er gratis."
+        ],
+        [
+          "Hvad kan jeg bruge i stedet for CamperMate til New Zealand og Australien?",
+          "thl Roadtrip dækker campingpladser, Holiday Parks, tankstationer og tømmestationer i begge lande, gratis. WikiCamps sælger separate apps til New Zealand og Australien, begge betalt én gang."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "CamperMate på Google Play"
+        },
+        {
+          "label": "Rankers Camping NZ-appen"
+        },
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "Data om thl Roadtrip fra App Store (Apple, New Zealand)"
+        },
+        {
+          "label": "NZMCA: medlemsgebyrer"
+        },
+        {
+          "label": "DOC: steder at overnatte"
+        }
+      ],
+      "priceTable": null
+    },
+    "free-camping-apps-new-zealand": {
+      "title": "Apps til gratis camping i New Zealand 2026: de 5 bedste",
+      "description": "Rankers, CamperMate, WikiCamps, KiwiCamping og NZMCA App sammenlignet til gratis camping og freedom camping i New Zealand, med reglerne for selvforsynende køretøjer i 2026. Tjekket oktober 2026.",
+      "region": "New Zealand",
+      "imageAlt": "Autocampere parkeret mellem træer på campingpladsen Lake Poaka ved søen nær Twizel",
+      "intro": "Gratis camping i New Zealand findes i to former: freedom camping, hvor en kommune eller DOC tillader, at du overnatter et sted, der ikke er en campingplads, og campingpladser, der ikke koster noget, de fleste af dem enkle DOC-pladser. En app kan vise vej til begge dele, men ingen app afgør, om du må overnatte: Det gør kommunens regler, DOC og skiltet på stedet. Vi har sammenlignet de fem apps, der er mest nyttige til at finde gratis nætter, og tjekket dem den 20. oktober 2026. Vi laver KiwiCamping. Den står ikke først på listen, fordi de gratis DOC-campingpladser i appen ligger bag det betalte Pass. Her kan du se, hvor den alligevel er en hjælp.",
+      "sections": [
+        {
+          "heading": "Hvilken app skal du bruge til gratis nætter",
+          "body": [
+            "Rankers er det bedste sted at starte: Appen er gratis, den viser kun campingsteder, hvor lokalsamfundet officielt har sagt ja til overnatning, og anmeldelserne viser, om et gratis sted var det værd. CamperMate tilføjer et filter for gratis eller betalt og dækning af to lande, og WikiCamps New Zealand opgiver flest steder i New Zealand, har et filter for gratis campingpladser og koster 7,99 NZD som engangskøb.",
+            "Tilføj KiwiCamping, hvis du vil have registret fra DOC selv over, hvilke <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> der ikke koster noget. NZMCA-medlemmer har en helt anden ordning: foreningens egne parker for 5 NZD pr. voksen pr. nat, hvilket ikke er gratis, men tæt på."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Tjekket 20. oktober 2026 i App Store i New Zealand og på hver udviklers hjemmeside. Bedømmelserne er gennemsnit fra App Store i New Zealand med antallet af bedømmelser.",
+            "head": [
+              "App",
+              "Sådan viser den gratis nætter",
+              "Pris for appen",
+              "NZ-bedømmelse"
+            ],
+            "rows": [
+              [
+                "Rankers Camping NZ",
+                "Lokalt godkendte gratis steder og freedom camping, med anmeldelser",
+                "Gratis",
+                "4,7 (3.322)"
+              ],
+              [
+                "CamperMate",
+                "Filter for gratis eller betalt; freedom camping-steder ved siden af campingpladser",
+                "Gratis; med reklamer",
+                "4,4 (606)"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Filter for gratis campingpladser blandt brugernes steder",
+                "7,99 NZD engangskøb (iPhone)",
+                "4,5 (137)"
+              ],
+              [
+                "KiwiCamping",
+                "DOC-campingpladser, som DOC angiver uden gebyr",
+                "Gratis; Pass 3,99 til 12,99 NZD kræves til DOC-steder",
+                "3,8 (4)"
+              ],
+              [
+                "NZMCA App",
+                "Medlemsparker til 5 NZD pr. voksen pr. nat",
+                "Gratis app; medlemskab 150 NZD plus 102 NZD om året",
+                "Ingen bedømmelser endnu"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Den vigtigste regel i 2026: Green Warrant",
+          "body": [
+            "På kommunal grund må et køretøj ifølge loven kun fricampere, hvis det er <a data-guide=\"self-contained-campervan-green-warrant\">certificeret selvforsynende</a>, medmindre kommunens regler tillader andre køretøjer på et sted, og hvad der tæller som certificeret, ændrede sig i år. Overgangen fra det gamle blå klistermærke til det regulerede Green Warrant sluttede den 7. juni 2026, og blå klistermærker er ikke længere gyldige. Et Green Warrant kræver et toilet, der er fast monteret i køretøjet, så et bærbart toilet opfylder ikke længere kravet.",
+            "På statens naturområder fastsætter DOC sine egne regler: <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> er ikke tilladt i DOC-reservater af typen scenic reserve og recreation reserve, medmindre DOC stiller en campingplads til rådighed, nogle områder er kun for selvforsynende køretøjer eller begrænser antallet af nætter, og nogle forbyder det helt. Uden Green Warrant kan du kun overnatte i et køretøj på kommunal grund, hvor kommunens regler tillader det, og på DOC-grund uden for reservaterne og de områder, DOC forbyder eller begrænser. Gratis DOC-campingpladser er den enkleste løsning."
+          ],
+          "tips": [
+            "Blå klistermærker holdt op med at gælde 7. juni 2026",
+            "Green Warrant kræver et fast monteret toilet",
+            "DOC og hver kommune fastsætter deres egne grænser"
+          ]
+        },
+        {
+          "heading": "1. Rankers Camping NZ: bedst samlet til gratis steder og freedom camping",
+          "body": [
+            "Rankers oplyser, at de campingsteder, appen viser, kun er steder, hvor lokalsamfundet officielt har sagt ja til overnatning, hvilket er det rigtige startfilter til <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. Ifølge beskrivelsen har appen et filter for topplacerede Holiday Parks, DOC-steder og gratis steder samt over 108.000 anmeldelser, som hver bliver læst og kontrolleret af et menneske på holdet. Appen er gratis, med 4,7 stjerner ud fra 3.322 bedømmelser i App Store i New Zealand.",
+            "Uanset hvad appen viser, så tjek kravet om selvforsynende køretøj i kommunens <a data-guide=\"camping-rules-local-councils-new-zealand\">regler</a> eller på skiltet på stedet, før du overnatter. Oplysningerne om campingpladser er indbygget i appen, og detaljerede kort kan downloades over Wi-Fi til brug uden for dækning."
+          ],
+          "tips": [
+            "Bedst til: gratis steder med anmeldelser",
+            "Gratis",
+            "Tjek de lokale regler for selvforsynende køretøjer"
+          ]
+        },
+        {
+          "heading": "2. CamperMate: bedst til gratis og betalte steder side om side",
+          "body": [
+            "CamperMate viser <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-steder ved siden af campingpladser og lader dig filtrere på gratis eller betalt, i både New Zealand og Australien. Beskrivelsen nævner ikke noget filter for selvforsynende køretøjer, og en anmelder skrev i januar 2026, at muligheden tilsyneladende var forsvundet efter redesignet i slutningen af 2025. Læs derfor i hvert steds beskrivelse, om der er krav om selvforsynende køretøj.",
+            "Den er gratis, med reklamer, og har 4,4 ud fra 606 bedømmelser i App Store i New Zealand. Kort og oplysninger om steder kan downloades til brug uden dækning."
+          ],
+          "tips": [
+            "Bedst til: at sammenligne gratis og betalt i nærheden",
+            "Gratis; med reklamer",
+            "Tjek for hvert sted, om det kræver selvforsynende køretøj"
+          ]
+        },
+        {
+          "heading": "3. WikiCamps New Zealand: bedst til det bredeste udvalg af steder",
+          "body": [
+            "Ifølge hjemmesiden for WikiCamps har appen <a data-guide=\"kiwicamping-filters-guide\">filtre</a> for gratis campingpladser, steder, der kan bookes, kæledyrsvenlige steder, vandposter og tømmestationer, og brugerne har tilføjet over 12.000 steder i New Zealand. Den koster 7,99 NZD én gang i App Store og har 4,5 ud fra 137 bedømmelser i New Zealand.",
+            "Fordi brugerne tilføjer stederne, er et gratis sted i WikiCamps en rejsendes beretning frem for en kommunal beslutning. Se det som et tip, og tjek det i kommunens <a data-guide=\"camping-rules-local-councils-new-zealand\">regler</a> eller på skiltet."
+          ],
+          "tips": [
+            "Bedst til: det bredeste udvalg",
+            "7,99 NZD én gang på iPhone",
+            "Brugerrapporter, ikke kommunale regler"
+          ]
+        },
+        {
+          "heading": "4. KiwiCamping: bedst til gratis DOC-campingpladser",
+          "body": [
+            "I appens data fra august 2026 havde KiwiCamping 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, hvoraf DOC angiver 63 som gratis, med de gebyrer, hunderegler og bookingkrav, DOC offentliggør. Gratis DOC-campingpladser er som regel enkle pladser med et toilet og ikke meget andet. DOC angiver adgang for autocamper ved 29 af de 63. Mange af de øvrige nås til fods, med båd eller med firehjulstræk, så tjek adgangen, før du planlægger en overnatning på en af dem.",
+            "Hagen er, at DOC-steder, <a data-guide=\"save-places-kiwicamping\">samlinger</a> og ture alle kræver KiwiCamping Pass, som koster fra 3,99 til 12,99 NZD i App Store i New Zealand. Kun BookIt-ophold og -rundture er gratis i appen. Den findes kun til iPhone med iOS 26 eller nyere, dens data om gratis steder er fra DOC og ikke fra kommunerne, og den har ingen anmeldelser fra rejsende. Derfor står Rankers over den her."
+          ],
+          "tips": [
+            "Bedst til: gratis DOC-campingpladser",
+            "Pass kræves til DOC-steder",
+            "Kun iPhone, iOS 26 eller nyere"
+          ]
+        },
+        {
+          "heading": "5. NZMCA App: mest for pengene til medlemmer",
+          "body": [
+            "Appen fra New Zealand Motor Caravan Association giver medlemmer adgang til Travel Directory og foreningens egne NZMCA Parks, som er for medlemmer i <a data-guide=\"self-contained-campervan-green-warrant\">certificerede selvforsynende</a> køretøjer, til 5 NZD pr. voksen pr. nat. Medlemskab koster 150 NZD ved tilmelding plus 102 NZD om året, så parkerne tjener sig hjem på en lang tur, ikke på to uger.",
+            "Den kræver medlemskab og havde endnu ingen bedømmelser i App Store i New Zealand. Til en certificeret selvforsynende autocamper, der er på tur i flere måneder, er den ofte den billigste pålidelige løsning efter gratis steder."
+          ],
+          "tips": [
+            "Bedst til: lange ture i autocamper",
+            "5 NZD pr. voksen pr. nat i medlemsparker",
+            "Kræver medlemskab"
+          ]
+        },
+        {
+          "heading": "Apps, vi har udeladt",
+          "body": [
+            "En søgning i App Store efter <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> i New Zealand giver en gratis app, der hedder Freedom camping nz, sidst opdateret i 2017, med 1,3 i gennemsnit ud fra 21 bedømmelser og anmeldere, der skriver, at kortet ikke viser ret meget af New Zealand. Vi ville ikke stole på den. Internationale apps som park4night og iOverlander viser steder i mange lande, men oplyser ikke, hvor meget af New Zealand de dækker, så vi har ikke rangeret dem.",
+            "Vi tjekkede hver App Store-side, bedømmelse og pris den 20. oktober 2026 i App Store i New Zealand og på udviklernes egne hjemmesider. Funktioner er beskrevet, som hver udvikler beskriver dem, så når en funktion ikke er nævnt her, er det ikke en påstand om, at appen mangler den."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Før du overnatter",
+          "body": [
+            "Læs skiltet ved indgangen, tjek kommunens regler for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> i det distrikt, du er i, og find listen hos DOC over forbudte og begrænsede områder på statens naturområder. Reglerne kan ændre sig, og de vejer tungere end alle apps på denne side, også vores.",
+            "Efterlad stedet, som du fandt det, brug en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a> frem for et afløb, og kør videre, når opholdsgrænsen er nået. Gratis camping i New Zealand lever af kommunernes velvilje, og den er let at miste."
+          ],
+          "tips": [
+            "Skiltet og de kommunale regler vejer tungere end enhver app",
+            "Tjek listen fra DOC over begrænsede områder",
+            "Overhold opholdsgrænserne"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvilken app viser gratis campingpladser i New Zealand?",
+          "Rankers er den bedste gratis app til det: Den viser kun campingsteder, som lokalsamfundet har godkendt til overnatning, med anmeldelser fra rejsende. CamperMate filtrerer gratis og betalte steder, WikiCamps New Zealand har et filter for gratis campingpladser, og KiwiCamping viser de DOC-campingpladser, DOC angiver uden gebyr, bag det betalte Pass."
+        ],
+        [
+          "Må man fricampere i New Zealand uden et selvforsynende køretøj?",
+          "Siden 7. juni 2026 tæller kun et Green Warrant som selvforsynende. Uden Green Warrant må et køretøj kun overnatte på kommunal grund, hvor kommunens regler tillader det, og på DOC-grund uden for reservater af typen scenic reserve og recreation reserve og de områder, DOC forbyder eller begrænser. Gratis DOC-campingpladser er den enkleste løsning."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom camping og selvforsynende køretøjer (govt.nz)"
+        },
+        {
+          "label": "Freedom camping på statens naturområder (DOC)"
+        },
+        {
+          "label": "Rankers Camping NZ-appen"
+        },
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "NZMCA: medlemsgebyrer"
+        }
+      ],
+      "priceTable": null
+    },
+    "road-trip-planner-apps-new-zealand": {
+      "title": "Roadtrip i New Zealand 2026: de 6 bedste planlægningsapps",
+      "description": "KiwiCamping, Wanderlog, Google Maps, WikiCamps, Apple Maps og Polarsteps sammenlignet til en roadtrip i New Zealand: stop, dage, brug uden dækning og pris. Tjekket oktober 2026.",
+      "region": "New Zealand",
+      "imageAlt": "Dal med tussock og State Highway 8 ved Lindis Pass, Otago",
+      "intro": "En roadtrip i New Zealand planlægges ud fra tre ting, som en almindelig kortapp klarer dårligt: hvor du skal sove hver nat, hvor lang tid næste etape i virkeligheden tager på snoede veje med ét spor i hver retning, og hvad du stadig kan læse, når dækningen forsvinder på West Coast. Vi har sammenlignet seks planlægningsapps ud fra de tre spørgsmål, med udgangspunkt i deres nuværende sider i App Store i New Zealand og udviklernes egne hjælpesider. Vi tjekkede dem den 20. oktober 2026. Vi laver selv KiwiCamping, og derfor står den først. Grundene gælder campingture, og til andre slags ture siger vi lige ud, hvilken planlægger du bør bruge i stedet.",
+      "sections": [
+        {
+          "heading": "Konklusionen i to sætninger",
+          "body": [
+            "Til en campingtur eller en tur i autocamper: planlæg i KiwiCamping, for overnatningsstederne bygger på data fra DOC selv, og planen gemmer datoer, noter og to-dos på hvert stop. Lad så Google Maps eller Apple Maps tage sig af kørslen sving for sving. Planlægger du sammen med en gruppe, blander du hoteller og fly, eller vil du have en gratis planlægger uden grænse for antal stop, er Wanderlog det bedre valg.",
+            "Uanset hvad du planlægger i, så tjek Journeys-siden fra NZ Transport Agency for lukninger om morgenen, når du skal køre. Skred, sne og vejarbejde kan lukke pas som Arthur's Pass og Haast, og NZTA er den officielle kilde til, om en state highway er åben."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Tjekket 20. oktober 2026 i App Store i New Zealand og på hver udviklers hjælpesider. Bedømmelserne er gennemsnit fra App Store i New Zealand med antallet af bedømmelser.",
+            "head": [
+              "App",
+              "Bedst til",
+              "Pris",
+              "Ruter med flere stop",
+              "Uden dækning",
+              "NZ-bedømmelse"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Campingture nat for nat",
+                "Gratis; Pass 3,99 til 12,99 NZD til ture",
+                "Stop i rækkefølge med datoer og afstand",
+                "Stedsoplysninger ja, kortet nej",
+                "3,8 (4)"
+              ],
+              [
+                "Wanderlog",
+                "Grupperejser, budgetter, hoteller og fly",
+                "Gratis; Pro fra 27,99 NZD pr. måned",
+                "Ubegrænset antal stop, ruteoptimering",
+                "Planer gemt offline",
+                "4,9 (707)"
+              ],
+              [
+                "Google Maps",
+                "Navigation sving for sving",
+                "Gratis",
+                "Op til 9 stop pr. rute",
+                "Downloadede områder",
+                "4,7 (73.470)"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Campingpladser plus brændstofoverslag",
+                "7,99 NZD engangskøb (iPhone)",
+                "Rejseplanlægger med stop og noter",
+                "Op til tre planlagte ture",
+                "4,5 (137)"
+              ],
+              [
+                "Apple Maps",
+                "Kørsel på iPhone",
+                "Gratis, indbygget",
+                "Kørsel med flere stop",
+                "Downloadede kort",
+                "Indbygget i iPhone"
+              ],
+              [
+                "Polarsteps",
+                "Registrering af turen undervejs",
+                "Gratis; Plus 14,99 NZD pr. måned eller 49,99 NZD pr. år",
+                "Rejseplan og rutesporing",
+                "Ikke oplyst",
+                "4,9 (2.985)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: bedst til at planlægge en campingtur nat for nat",
+          "body": [
+            "I KiwiCamping er en tur en liste over nætter, ikke bare en streg på et kort. Mens du undersøger steder, gemmer du dem i samlinger, og dem, du vælger, lægger du på en tur i rækkefølge med datoer, en note til hvert stop med portkoder eller tidsrum for ankomst, en huskeliste til brændstof, vand og <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">indkøb</a>, den samlede rutelængde og hvor meget af turen, du har besøgt. Turens datoer kan lægges i Kalender, og rejseplanen kan deles som tekst.",
+            "Overnatningsstederne er grunden til, at den står først til den slags tur. I appens data fra august 2026 lå der 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, 927 DOC-hytter og 1.453 DOC-vandreruter med de gebyrer, hunderegler og bookingkrav, som DOC offentliggør, hvor DOC offentliggør dem. Oplysningerne ligger på telefonen, så du stadig kan sammenligne aftenens muligheder uden dækning. Kortet, ruteberegning, vejr og fotos kræver forbindelse.",
+            "Begrænsningerne: <a data-guide=\"save-places-kiwicamping\">Samlinger</a>, ture og DOC-stederne kræver alle KiwiCamping Pass, som koster fra 3,99 til 12,99 NZD i App Store i New Zealand. Kun BookIt-ophold og -rundture er gratis. Appen findes kun til iPhone med iOS 26 eller nyere, den er kun til New Zealand, den optimerer ikke rækkefølgen af stop for dig, og den havde 4 bedømmelser i New Zealand (3,8)."
+          ],
+          "tips": [
+            "Bedst til: nætter, ikke kun kørsel",
+            "Pass kræves til samlinger og ture",
+            "Overlad kørevejledningen til en kortapp"
+          ]
+        },
+        {
+          "heading": "2. Wanderlog: bedst til at planlægge sammen med andre",
+          "body": [
+            "Wanderlog er en almindelig rejseplanlægger med 4,9 ud fra 707 bedømmelser i New Zealand. Appens beskrivelse nævner en rejseplan på et kort i besøgsrækkefølge, stop, du kan trække på plads, tidspunkter, noter og links, et ubegrænset antal stop på roadtrips gratis, ruteoptimering med køretid og afstand pr. dag, samarbejde i realtid, budget og deling af regninger samt planer, der gemmes til brug offline.",
+            "Pro koster 27,99 NZD pr. måned i App Store i New Zealand, hvor der også står årsabonnementer, og giver blandt andet eksport til Google Maps. Der er intet særligt lag for camping i New Zealand, så tjek gebyrer, hunderegler og bookingoplysninger for <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> på hjemmesiden hos DOC."
+          ],
+          "tips": [
+            "Bedst til: grupper, budgetter, blandede ture",
+            "Ubegrænset antal stop gratis",
+            "Tjek DOC-oplysninger på hjemmesiden hos DOC"
+          ]
+        },
+        {
+          "heading": "3. Google Maps: bedst til selve kørslen",
+          "body": [
+            "Google Maps er standardvalget til navigation sving for sving med 4,7 ud fra 73.470 bedømmelser i New Zealand. Køreruten rummer op til 9 stop inklusive destinationen, hvilket dækker en dags eller to dages kørsel, ikke to uger, og selve ruten har hverken dage, noter eller budget.",
+            "Download områder til brug uden dækning, før du forlader en større by. Ifølge hjælpesiderne hos Google virker offline kørevejledning kun, når hele ruten ligger inden for et downloadet område, og i offlinetilstand er der hverken trafikinformation eller alternative ruter, så download rigeligt langs den strækning, du kører."
+          ],
+          "tips": [
+            "Bedst til: navigation",
+            "9 stop pr. rute",
+            "Download områder langs hele ruten"
+          ]
+        },
+        {
+          "heading": "4. WikiCamps New Zealand: bedst til campingpladser med overslag over brændstof",
+          "body": [
+            "WikiCamps New Zealand koster 7,99 NZD én gang i App Store og kombinerer en database over mere end 12.000 steder i New Zealand, bygget af brugerne, med en <a data-guide=\"plan-trip-kiwicamping\">rejseplanlægger</a>. På appens hjemmeside beskrives det, at man kan tilføje stop, noter, egne pins og ruter, få et overslag over brændstofudgifterne og få offline adgang til op til tre planlagte ture.",
+            "Til en campingtur er den det alternativ, der ligner KiwiCamping mest. Forskellen er dataene: Stederne i WikiCamps tilføjes og holdes opdateret af brugerne, mens DOC-stederne i KiwiCamping kommer fra data, som DOC har offentliggjort. Den har 4,5 ud fra 137 bedømmelser i App Store i New Zealand."
+          ],
+          "tips": [
+            "Bedst til: ture planlagt efter campingpladser, betalt én gang",
+            "Overslag over brændstofudgifter",
+            "Offline til op til tre ture"
+          ]
+        },
+        {
+          "heading": "5. Apple Maps: bedst, hvis du ikke vil have noget ekstra på en iPhone",
+          "body": [
+            "Apple Maps følger med hver iPhone, kan lave kørselsruter med flere stop og kan downloade kort til brug uden dækning. Har du kun brug for kørslen fra det ene stop til det næste, klarer den opgaven uden endnu en download.",
+            "Ligesom Google Maps er Apple Maps en navigationsapp og ikke en <a data-guide=\"plan-trip-kiwicamping\">rejseplanlægger</a>: En tur med flere stop har ingen nætter, datoer eller to-dos, noter hører til gemte steder og ikke til selve turen, og appen findes ikke til Android."
+          ],
+          "tips": [
+            "Bedst til: enkel navigation på iPhone",
+            "Download kort før afsidesliggende etaper",
+            "Ingen turdatoer eller to-dos"
+          ]
+        },
+        {
+          "heading": "6. Polarsteps: bedst til at registrere turen",
+          "body": [
+            "Polarsteps er først og fremmest en rejsedagbog, der registrerer din rute automatisk og laver et kort over, hvor du har været, og beskrivelsen nævner også en rejseplanlægger. Den har 4,9 ud fra 2.985 bedømmelser i New Zealand og tilbyder Plus til 14,99 NZD pr. måned eller 49,99 NZD pr. år.",
+            "Den er et godt supplement, hvis du vil dele turen med familien derhjemme. Den er ikke bygget op om campingpladser eller køretider, så brug den sammen med en planlægger og en navigationsapp."
+          ],
+          "tips": [
+            "Bedst til: en dagbog over turen, der kan deles",
+            "Plus er valgfrit",
+            "Brug den sammen med en planlægger"
+          ]
+        },
+        {
+          "heading": "Tjek NZTA Journeys før hver lang køretur",
+          "body": [
+            "Journeys-siden fra NZ Transport Agency viser lukninger af state highways, vejarbejde, trafikkameraer og prognoser for trafikken i ferier, og med en gratis My Journeys-konto får du mails om de ruter, du gemmer. Det er en hjemmeside og ikke en app, og den er den officielle kilde til, om vejen er åben.",
+            "Krydser din rute <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a>, så book først færgen hos Interislander eller Bluebridge, og byg dagene op omkring overfarten, for færgen er den eneste etape, du ikke kan rykke en time."
+          ],
+          "tips": [
+            "NZTA Journeys til lukninger",
+            "Book færgen over Cookstrædet først",
+            "Tjek igen samme morgen, som du kører"
+          ]
+        },
+        {
+          "heading": "Sådan har vi valgt og tjekket",
+          "body": [
+            "Den 20. oktober 2026 sammenlignede vi apps, som rejsende i New Zealand bruger til at planlægge en køretur, ud fra deres sider i App Store i New Zealand og udviklernes egne hjælpesider. Roadtrippers er udeladt, fordi dens side i App Store i New Zealand siger, at den er lavet til USA og Canada, og TripIt, fordi den samler bookinger og ikke ruter.",
+            "Bedømmelser, priser og grænser for antal stop er, som de stod opført den dag. Vi beskriver kun funktioner, sådan som udviklerne selv gør, så en funktion, der ikke nævnes her, er ikke en påstand om, at en app mangler den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Hvilken rejseplanlægger-app er bedst til en roadtrip i New Zealand?",
+          "Til en campingtur eller en tur i autocamper anbefaler vi KiwiCamping, som vi selv laver, for den planlægger nat for nat med DOC-campingpladser og DOC-hytter indbygget. Brug Google Maps eller Apple Maps til selve kørslen. Til grupperejser eller ture, der blander hoteller og fly, er Wanderlog den bedre planlægger."
+        ],
+        [
+          "Kan Google Maps planlægge en roadtrip med flere stop i New Zealand?",
+          "Ja, op til 9 stop inklusive destinationen på én rute, hvilket passer til en dag eller to og ikke til en hel tur. Download områder langs hele ruten, for offline kørevejledning virker kun inden for dem."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Wanderlog"
+        },
+        {
+          "label": "Google Maps: tilføj flere destinationer"
+        },
+        {
+          "label": "Google Maps: download områder til offlinebrug"
+        },
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "Polarsteps"
+        },
+        {
+          "label": "NZTA Journeys: vejforhold og lukninger"
+        },
+        {
+          "label": "Interislander"
+        },
+        {
+          "label": "Bluebridge"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-travel-apps-new-zealand": {
+      "title": "De bedste rejseapps til New Zealand 2026: 10 du bør installere",
+      "description": "Apps til en roadtrip i New Zealand i 2026: indrejse, navigation, vejr, sikkerhed på vandreture, brændstof, bytransport og overnatning, med priser og bedømmelser tjekket oktober 2026.",
+      "region": "New Zealand",
+      "imageAlt": "En autocamper på Desert Road, State Highway 1, på vej mod Mount Ruapehu",
+      "intro": "En tur til New Zealand kræver færre apps, end du måske tror, men de rigtige sparer dig for både penge og besvær: Den officielle NZeTA-app er billigere end hjemmesiden, en brændstofapp tjener sig selv ind på en lang køretur, og en app til vandreture kan sende din turplan til en person, der slår alarm, hvis en vandretur går galt. Her er de ti, vi ville installere til en roadtrip i 2026, sorteret efter den opgave, de løser, med bedømmelser og priser fra App Store i New Zealand, tjekket den 20. oktober 2026. Det er os, der laver KiwiCamping, og derfor står den først på listen. Længere nede skriver vi, hvem der slet ikke får brug for den.",
+      "sections": [
+        {
+          "heading": "De ti apps: overblik",
+          "body": [
+            "Før du flyver, klarer de officielle apps NZeTA og New Zealand Traveller Declaration indrejsen. Undervejs planlægger KiwiCamping, hvor du sover, Google Maps kører dig derhen, MetService advarer dig om vejret, og Plan My Walk dækker vandredagene. Gaspy og en app fra et brændstofselskab holder <a data-guide=\"new-zealand-road-trip-fuel-cost-2026\">brændstofudgifterne</a> nede, AT Mobile får dig rundt i Auckland, og Rankers tilføjer anmeldelser af campingpladser fra andre rejsende.",
+            "Du behøver ikke alle ti. En besøgende, der lejer bil og bor på hotel i en uge, kan springe <a data-guide=\"best-nz-camping-apps\">campingapps</a> over. Rejser du en måned i autocamper, får du brug for de fleste af dem."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Tjekket 20. oktober 2026 i App Store i New Zealand og på officielle hjemmesider. Bedømmelserne er gennemsnit fra App Store i New Zealand med antallet af bedømmelser.",
+            "head": [
+              "App",
+              "Opgave",
+              "Pris",
+              "NZ-bedømmelse"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Overnatning og ruteplan",
+                "Gratis; Pass 3,99 til 12,99 NZD",
+                "3,8 (4)"
+              ],
+              [
+                "NZeTA (Immigration NZ)",
+                "Elektronisk rejsetilladelse",
+                "17 NZD i appen plus besøgsafgiften på 100 NZD",
+                "4,5 (46)"
+              ],
+              [
+                "NZ Traveller Declaration",
+                "Erklæring ved ankomst",
+                "Gratis",
+                "4,7 (3.190)"
+              ],
+              [
+                "Google Maps",
+                "Navigation sving for sving",
+                "Gratis",
+                "4,7 (73.470)"
+              ],
+              [
+                "MetService",
+                "Officielle vejrudsigter og advarsler",
+                "Gratis med reklamer; uden reklamer 1,99 NZD pr. måned",
+                "2,4 (1.126)"
+              ],
+              [
+                "Plan My Walk",
+                "Ruteadvarsler og turplaner til vandreture",
+                "Gratis",
+                "4,6 (612)"
+              ],
+              [
+                "Gaspy",
+                "Brændstofpriser indberettet af brugerne",
+                "Gratis; Gold 1,69 NZD pr. måned",
+                "4,0 (773)"
+              ],
+              [
+                "En app fra et brændstofselskab",
+                "Bonusordning og betaling ved pumpen",
+                "Gratis",
+                "4,7 til 4,9"
+              ],
+              [
+                "AT Mobile",
+                "Offentlig transport i Auckland",
+                "Gratis",
+                "4,5 (32.728)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Anmeldelser af campingpladser fra rejsende",
+                "Gratis",
+                "4,7 (3.322)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: overnatning og hvordan du får turen til at hænge sammen",
+          "body": [
+            "KiwiCamping er et campingkort og en rejseplanlægger for New Zealand, bygget på data fra DOC selv: 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, 927 DOC-hytter og 1.453 DOC-vandreruter i appens data fra august 2026, med de gebyrer, hunderegler og bookingkrav, som DOC offentliggør. Steder kan gemmes i samlinger eller lægges på en tur med stop i rækkefølge, datoer, noter, to-dos og rutelængden, og stedernes oplysninger kan stadig læses på telefonen, når dækningen forsvinder. Kortet, ruteberegning, vejr og fotos kræver forbindelse.",
+            "Den er gratis at hente, men kun BookIt-ophold og -rundture er åbne uden betaling. DOC-steder, <a data-guide=\"save-places-kiwicamping\">samlinger</a>, ture og guiderne kræver KiwiCamping Pass, som koster fra 3,99 til 12,99 NZD. Den findes kun til iPhone, kræver iOS 26 eller nyere og havde 4 bedømmelser i New Zealand (3,8). Hvis du ikke skal campere, får du ikke brug for den."
+          ],
+          "tips": [
+            "Til: autocamper- og campingture",
+            "Pass kræves til DOC-steder og ture",
+            "Kun iPhone"
+          ]
+        },
+        {
+          "heading": "2. NZeTA: den billigere vej til din rejsetilladelse",
+          "body": [
+            "De fleste besøgende fra lande med visumfritagelse skal have en New Zealand Electronic Travel Authority, før de rejser. Immigration New Zealand tager 17 NZD, når du ansøger i den officielle NZeTA-app, og 23 NZD på hjemmesiden, og de fleste besøgende betaler samtidig International Visitor Conservation and Tourism Levy på 100 NZD.",
+            "Appen scanner dit pas og tager imod betalingen. Ansøg i god tid, før du flyver, og brug kun den officielle app eller immigration.govt.nz, for kopisider tager ekstra for det samme."
+          ],
+          "tips": [
+            "Gebyr 17 NZD i appen, 23 NZD på hjemmesiden",
+            "Plus afgiften på 100 NZD for de fleste besøgende",
+            "Brug kun den officielle app eller hjemmeside"
+          ]
+        },
+        {
+          "heading": "3. New Zealand Traveller Declaration: din ankomsterklæring",
+          "body": [
+            "New Zealand Traveller Declaration er den gratis digitale ankomsterklæring, som alle, der rejser ind i New Zealand, udfylder. Gør du det, før du flyver, slipper du for at udfylde en på papir om bord. Den officielle app fra Ministry of Business, Innovation and Employment lader dig udfylde den op til 24 timer før afrejsen og scanner dit pas, og der er intet at printe, fordi erklæringen knyttes til dit pas ved grænsen. Den har 4,7 ud fra 3.190 bedømmelser i New Zealand.",
+            "Du skal have forbindelse for at starte og indsende den, og den skal besvares på engelsk. Gør det aftenen før, du flyver, og ikke ved gaten."
+          ],
+          "tips": [
+            "Indsend inden for 24 timer før rejsen",
+            "Intet at printe",
+            "Kræver forbindelse for at starte og indsende"
+          ]
+        },
+        {
+          "heading": "4. Google Maps: navigation, men download kortet, før du får brug for det",
+          "body": [
+            "Google Maps er den navigationsapp, de fleste besøgende allerede kender, med 4,7 ud fra 73.470 bedømmelser i New Zealand. Download områder for hver region, før du forlader en større by: Ifølge hjælpesiderne hos Google virker offline kørevejledning kun, når hele ruten ligger inden for et downloadet område, og i offlinetilstand er der ingen trafikinformation.",
+            "Regn med længere tid, end appen forudsiger, på snoede veje med ét spor i hver retning, når du kører autocamper, og tjek Journeys-siden fra NZ Transport Agency for lukninger før alpine pas."
+          ],
+          "tips": [
+            "Download områder region for region",
+            "Ingen trafikinformation offline",
+            "Tjek NZTA Journeys for lukninger"
+          ]
+        },
+        {
+          "heading": "5. MetService: de officielle vejrudsigter og advarsler",
+          "body": [
+            "MetService er New Zealands nationale vejrtjeneste, og appen har <a data-guide=\"new-zealand-severe-weather-camping\">advarsler om farligt vejr</a>, lokale vejrudsigter og regnradar. Den er gratis med reklamer eller 1,99 NZD pr. måned uden. Den har 2,4 ud fra 1.126 bedømmelser i App Store i New Zealand. Advarslerne om farligt vejr er de officielle, og det betyder noget, når en front lukker et pas.",
+            "Skal du ud på vandet, har den separate Marine-app fra MetService kystvejrudsigter og tidevand."
+          ],
+          "tips": [
+            "Officielle advarsler om farligt vejr",
+            "Gratis med reklamer",
+            "Separat Marine-app til kysten"
+          ]
+        },
+        {
+          "heading": "6. Plan My Walk: til enhver tur, der er længere end en spadseretur",
+          "body": [
+            "Plan My Walk fra New Zealand Mountain Safety Council dækker over 3.500 vandreruter, hytter og campingpladser på officielle topografiske kort, viser officielle advarsler og lukninger for ruter og sender din turplan til en nødkontakt. Den er gratis og har 4,6 ud fra 612 bedømmelser i New Zealand.",
+            "DOC har ikke sin egen landsdækkende app til besøgende, så Plan My Walk er den nemmeste måde at se advarslerne fra DOC om vandreruter på telefonen. Fortæl altid en anden om din turplan før enhver tur, der går ud over dækningsområdet."
+          ],
+          "tips": [
+            "Sender din plan til en nødkontakt",
+            "Viser officielle advarsler om ruter",
+            "Gratis"
+          ]
+        },
+        {
+          "heading": "7. Gaspy og 8. en app fra et brændstofselskab: lavere brændstofregning",
+          "body": [
+            "Gaspy viser brændstofpriser, som brugerne selv indberetter, så du kan se, hvilken tankstation i en by der er billigst, før du kører ind. Den er gratis med et valgfrit Gold-abonnement til 1,69 NZD pr. måned og har 4,0 ud fra 773 bedømmelser i New Zealand.",
+            "Installer derefter appen for det mærke, du oftest tanker hos. Z, BP, Mobil, Waitomo og Gull har hver én med mellem 4,7 og 4,9 i App Store i New Zealand, og med bonusordninger, rabatter eller betaling ved pumpen fra telefonen. Tankstationer på landet varierer fra mærke til mærke, så planlæg ikke en afsidesliggende etape ud fra ét selskabs net."
+          ],
+          "tips": [
+            "Gaspy til den billigste station i byen",
+            "Én brændstofapp til bonus",
+            "Tank op før afsidesliggende etaper"
+          ]
+        },
+        {
+          "heading": "9. AT Mobile: sådan kommer du rundt i Auckland",
+          "body": [
+            "Hvis du bruger tid i Auckland før eller efter roadtrippen, planlægger AT Mobile-appen fra Auckland Transport rejser med bus, tog og færge, viser afgange i realtid, fylder penge på et AT HOP-kort og finder delte løbehjul, cykler og biler. Den er gratis og har 4,5 ud fra 32.728 bedømmelser i New Zealand, men den dækker kun Auckland.",
+            "I Wellington bruges Snapper-kort i busser og tog fra Metlink, og kontaktløse bankkort virker nu til enkeltbilletter for voksne. Snapper-appen tjekker saldoen på et kort og fylder penge på det."
+          ],
+          "tips": [
+            "Kun Auckland",
+            "Afgange i realtid, penge på AT HOP-kort",
+            "Snapper-app til Snapper-kort"
+          ]
+        },
+        {
+          "heading": "10. Rankers: anmeldelser af overnatningssteder fra rejsende",
+          "body": [
+            "Rankers Camping NZ er gratis og har flest bedømmelser i App Store i New Zealand af alle de <a data-guide=\"best-nz-camping-apps\">campingapps</a>, vi har sammenlignet: 4,7 ud fra 3.322, med over 108.000 anmeldelser fra rejsende, som alle er læst og kontrolleret af et menneske på holdet. Den viser kun overnatningssteder, som lokalsamfundet har godkendt.",
+            "Den supplerer KiwiCamping godt: den ene til anmeldelser, den anden til DOC-data og planlægning. Vores sammenligning af campingapps gennemgår begge mere indgående sammen med CamperMate og WikiCamps."
+          ],
+          "tips": [
+            "Gratis",
+            "Anmeldelser af campingpladser og freedom camping-steder",
+            "Fungerer godt sammen med en planlægger"
+          ]
+        },
+        {
+          "heading": "Glem ikke hjemmesiderne",
+          "body": [
+            "To af de mest nyttige kilder er ikke apps. Journeys-siden fra NZ Transport Agency viser lukninger af state highways, vejarbejde og prognoser for trafikken i ferier, og hjemmesiden hos DOC har advarsler om parker, vandreruter og campingpladser. Tjek begge om morgenen, inden du tager af sted på en lang dag eller ud i afsidesliggende egne.",
+            "Færgerne over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> bookes på hjemmesiderne hos Interislander og Bluebridge. Book overfarten først, og byg resten af turen op omkring den."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sådan har vi valgt og tjekket",
+          "body": [
+            "Vi har valgt de apps, som en besøgende på roadtrip i New Zealand med størst sandsynlighed bruger, og foretrukket officielle apps, hvor de findes. Bedømmelser, versioner og priser kommer fra App Store i New Zealand den 20. oktober 2026, og gebyrerne kommer fra Immigration New Zealand selv.",
+            "Vi beskriver funktioner, sådan som udviklerne beskriver dem, så en funktion, der ikke nævnes her, er ikke en påstand om, at en app mangler den. Gebyrer og regler ændrer sig, og den officielle side vejer altid tungere end denne."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Er NZeTA billigere i appen?",
+          "Ja. Immigration New Zealand tager 17 NZD i den officielle NZeTA-app og 23 NZD på hjemmesiden, og de fleste besøgende betaler desuden International Visitor Conservation and Tourism Levy på 100 NZD. Brug kun den officielle app eller immigration.govt.nz."
+        ],
+        [
+          "Hvilke apps skal jeg downloade før en roadtrip i New Zealand?",
+          "NZeTA-appen og Traveller Declaration-appen til indrejsen, Google Maps med downloadede områder, MetService til advarsler og Plan My Walk til vandreture. Til en campingtur tilføjer du KiwiCamping, som vi selv laver, til DOC-campingpladser og ruteplanen, og Rankers til anmeldelser fra rejsende."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZeTA-gebyrer (Immigration New Zealand)"
+        },
+        {
+          "label": "Gebyrer og afgifter (Immigration New Zealand)"
+        },
+        {
+          "label": "New Zealand Traveller Declaration"
+        },
+        {
+          "label": "Google Maps: download områder til offlinebrug"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "Gaspy"
+        },
+        {
+          "label": "AT Mobile (Auckland Transport)"
+        },
+        {
+          "label": "NZTA Journeys: vejforhold og lukninger"
+        },
+        {
+          "label": "DOC-advarsler og lukninger"
         }
       ],
       "priceTable": null

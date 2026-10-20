@@ -30,7 +30,7 @@ export const legacyOnlyArticles: Article[] = [
         rows: [
           ["KiwiCamping", "DOC sites, huts and trip planning", "Free; Pass NZ$3.99 to NZ$12.99", "iPhone (iOS 26+)", "3.8 (4)", "Place details yes, map tiles no"],
           ["Rankers Camping NZ", "Traveller reviews", "Free", "iPhone, iPad, Android, web", "4.7 (3,322)", "Campsite info built in; maps by Wi-Fi download"],
-          ["CamperMate", "Booking, deals, NZ and Australia", "Free; ads on Android", "iPhone, iPad, Android, web", "4.4 (606)", "Downloadable maps and info"],
+          ["CamperMate", "Booking, deals, NZ and Australia", "Free; contains ads", "iPhone, iPad, Android, web", "4.4 (606)", "Downloadable maps and info"],
           ["WikiCamps New Zealand", "Most NZ sites listed", "NZ$7.99 upfront (iPhone)", "iPhone, iPad, Android", "4.5 (137)", "Offline Mode for sites and trips"],
           ["Campable", "Private land stays", "Free app; hosts set nightly prices", "iPhone, Android", "4.5 (13)", "Not stated"],
           ["NZMCA App", "NZMCA members", "Free app; membership NZ$150 to join plus NZ$102 a year", "iPhone, iPad, Android", "No ratings yet", "Not stated"],
@@ -50,9 +50,9 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Best for: reading other travellers' experience", "Free to download and use", "iPhone, iPad, Android and web"]),
       s("3. CamperMate: best for booking and deals across New Zealand and Australia", [
         "CamperMate covers both sides of the Tasman in one free app from Outdoria. It has a filter for free and paid places, traveller reviews and photos, saved lists, campground booking with availability, local deals and links to vehicle hire partners. Version 5.8, released in mid-October 2026, added a satellite view, and its listing says maps and place information can be downloaded for use without signal.",
-        "It held a 4.4 average from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play when we checked, and it is available in 27 languages. The app is free, and the Android version carries ads.",
-        "Strengths: one app for a trip that crosses to Australia, and the booking and deals side earns its place on a holiday-park-heavy route. Drawbacks: commercial listings and deals share the map with free sites, so it can be busy when you only want one thing, and the Android version shows ads.",
-      ], ["Best for: bookings and deals, NZ and Australia", "Free; ads on Android", "Maps and info download for use offline"]),
+        "It held a 4.4 average from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play when we checked, and it is available in 27 languages. The app is free and carries ads.",
+        "Strengths: one app for a trip that crosses to Australia, and the booking and deals side earns its place on a holiday-park-heavy route. Drawbacks: commercial listings and deals share the map with free sites, so it can be busy when you only want one thing, and the app shows ads.",
+      ], ["Best for: bookings and deals, NZ and Australia", "Free; contains ads", "Maps and info download for use offline"]),
       s("4. WikiCamps New Zealand: best for the largest user-built database", [
         "WikiCamps New Zealand is a separate app from WikiCamps Australia, and it costs NZ$7.99 once on the App Store rather than a subscription. Its developer describes more than 12,000 New Zealand sites, community reviews and photos, more than 1,000 bookable sites and a trip planner that estimates fuel spend. An Offline Mode keeps sites and trip plans available without signal.",
         "It rated 4.5 from 137 ratings on the New Zealand App Store and 3.0 from 1,042 on Google Play. It runs on iPhone, iPad and Android.",
@@ -83,7 +83,7 @@ export const legacyOnlyArticles: Article[] = [
         "For a mixed trip with serious walking, run a camping app for the vehicle nights and AllTrails or DOC's track pages for the tramping days. Carrying two apps is a reasonable outcome, not a failure to choose.",
       ]),
       s("Check the rule, not the pin", [
-        "Every app in this comparison, including ours, is a planning aid. On-site signage, the current council bylaw, DOC alerts and land-manager directions override anything cached on a phone, and they change more often than app data refreshes. Fire restrictions and rāhui in particular can be imposed quickly.",
+        "Every app in this comparison, including ours, is a planning aid. The council bylaw, the DOC notice, DOC alerts and land-manager directions override anything stored on a phone, and they change more often than app data refreshes. Fire restrictions and rāhui in particular can be imposed quickly.",
         "Before you settle in for the night, read the sign at the entrance. If it disagrees with the app, the sign wins. That habit costs nothing and is what keeps freedom camping available.",
       ], ["Signs override app data", "Recheck DOC alerts before remote legs", "Fire restrictions can change overnight"]),
     ],
@@ -102,7 +102,7 @@ export const legacyOnlyArticles: Article[] = [
 
   a({
     slug: "where-to-camp-in-new-zealand",
-    legacyPath: "/where-to-camp-in-new-zealand.html",
+    legacyPath: "/where-to-camp-in-new-zealand.html", hubs: ["camping","huts"],
     title: "Where you can camp in New Zealand: a complete location guide",
     description: "DOC campsites, conservation land, council reserves, iwi-managed places and private holiday parks each carry different rules and costs.",
     category: "Camping guides",
@@ -114,7 +114,7 @@ export const legacyOnlyArticles: Article[] = [
       "New Zealand's camping network runs across four quite different kinds of land, and the rules, price and booking system change with each one. Knowing which type you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask when something is unclear, and what you should expect to pay.",
     sections: [
       s("The four land types", [
-        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites can be free or a few dollars per person; serviced campgrounds have flush toilets, powered options and often a warden.",
+        "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites are free; serviced campgrounds have flush toilets, powered options and often a warden.",
         "Council reserves are the backbone of freedom camping. They are governed by local bylaws rather than national rules, usually allow one or two nights, and are frequently restricted to certified self-contained vehicles. Because each council writes its own bylaw, a rule that applies in one district tells you nothing about the next one.",
       ]),
       s("Holiday parks and iwi-managed places", [
@@ -131,15 +131,15 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book Abel Tasman and Great Walk sites early", "Fiordland needs DOC bookings", "West Coast trades weather for space"]),
       s("What each land type costs", [
         "DOC basic sites are free and DOC standard sites generally run $10–$20 per adult per night, charged per person rather than per site. Serviced DOC campgrounds sit around $25 per adult. Because the charge scales with people, a family is often better off at a holiday park quoting a flat site rate.",
-        "Council freedom camping areas are usually free but may require a permit, and holiday parks range from roughly $25 to $80 for a site depending on season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
+        "Council freedom camping areas are usually free but may require a permit, and holiday park prices vary widely with season, location and power. Iwi and community-managed places frequently operate on koha rather than a fixed rate, which is not an invitation to underpay.",
       ], ["DOC charges per adult", "Holiday parks may suit families better", "Koha is not a discount"]),
       s("Booking, or turning up", [
         "The four land types behave differently on arrival. Great Walk and Abel Tasman campsites are booked well ahead and turning up is not an option. Most DOC sites are first-come, which works outside peak season and fails badly between Christmas and late January. Holiday parks take bookings and fill early in beach towns.",
         "Council freedom camping areas cannot be reserved at all, which is exactly why they need a fallback. The workable pattern is to book the nights that are hard to replace, stay flexible on the rest, and always know where the nearest paid site is.",
       ]),
       s("The legal guardrails", [
-        "Freedom camping is legal only where it is permitted, and in many districts only for certified self-contained vehicles with a fixed toilet. Older blue certifications remain valid only until they expire, and no later than 31 December 2027, after which a current green warrant is required. The certification is about the vehicle's capability, not your intentions, and enforcement is generally against the vehicle.",
-        "On-site signage overrides every app, PDF and blog post, including this one. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
+        "Freedom camping is allowed on council and conservation land unless a bylaw or DOC notice prohibits or restricts it, and on council land a vehicle must be certified self-contained unless a bylaw designates the site for non-self-contained vehicles. Since 7 June 2026 certification means a green warrant: blue warrants no longer count for freedom camping, whatever their printed expiry. The certification is about the vehicle's capability, not your intentions, and campgrounds, holiday parks and private land with permission do not require it.",
+        "The bylaw or DOC notice is the rule, and the sign at the site is the quickest way to read it, though not every restricted area is signposted. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
       ]),
       s("Season and access", [
         "Winter closes or restricts alpine access, Arthur's Pass, the Lindis and the Desert Road can all be affected by snow, and some DOC roads shut temporarily after heavy weather. Chains may be required, and a two-wheel-drive van is not always the right vehicle for a winter route.",
@@ -156,8 +156,8 @@ export const legacyOnlyArticles: Article[] = [
   a({
     slug: "responsible-camping-new-zealand",
     legacyPath: "/responsible-camping-nz.html",
-    title: "Responsible camping in New Zealand",
-    description: "Leave No Trace applied to Aotearoa: waste, biosecurity, rāhui, wildlife and the community expectations that keep sites open.",
+    title: "Responsible Camping NZ: Leave No Trace Rules and Etiquette",
+    description: "Leave No Trace in New Zealand: toilet waste, rubbish, biosecurity, rāhui and wildlife, and the habits that keep freedom camping sites open.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 12,
@@ -201,9 +201,9 @@ export const legacyOnlyArticles: Article[] = [
 
   a({
     slug: "two-week-camper-itinerary-new-zealand",
-    legacyPath: "/two-week-camper-itinerary-nz.html",
-    title: "Two-week New Zealand camper itinerary: North and South Islands",
-    description: "A 14-day Auckland to Queenstown route with one Cook Strait crossing, realistic driving days and room for weather.",
+    legacyPath: "/two-week-camper-itinerary-nz.html", hubs: ["camping/coromandel","camping/west-coast","camping/fiordland"],
+    title: "2 Week NZ Campervan Itinerary: North and South Island",
+    description: "A 14-day Auckland to Queenstown campervan itinerary: one Cook Strait crossing, the West Coast, Milford Sound and the Catlins, day by day.",
     category: "Road trips",
     region: "New Zealand",
     readTime: 14,
@@ -218,15 +218,15 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Book the ferry before anything else", "Price the one-way vehicle fee", "Check passes daily in winter"]),
       s("Days 1 to 6, North Island", [
         "Start north of Auckland rather than in it, stock up on the way out and take the first night near Ōrewa or the Hibiscus Coast. Day two runs into the Coromandel for Cathedral Cove and Hahei, which is worth an unhurried afternoon. Day three is Rotorua and its geothermal parks, where the holiday parks are genuinely convenient.",
-        "Day four takes you to Taupō for the lake and the Huka Falls, with freedom camping options on the eastern shore for certified vehicles. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
+        "Day four takes you to Taupō for the lake and the Huka Falls; stay at a holiday park or check Taupō District Council's freedom camping rules before parking for the night. Day five crosses to Napier for art deco and the wine trail, and day six runs down through the Wairarapa into Wellington. Position the last North Island night close to the ferry terminal.",
       ]),
       s("Days 7 to 10, into the South", [
         "Day seven is the crossing and Queen Charlotte Drive, which is slower and more beautiful than the map suggests. Stop early on the Sounds rather than pushing towards Nelson in the dark.",
         "Days eight to ten run down the West Coast to the glaciers and across to Wānaka. This is the wettest and least populated stretch of the route, the sandflies are serious, and it is also where most people's photographs come from. Fuel up more often than feels necessary.",
       ], ["Sandfly repellent on the West Coast", "Fuel early, not at the last town", "Queen Charlotte Drive takes longer than it looks"]),
       s("Days 11 to 14, the south", [
-        "Queenstown on day eleven, then Milford Sound as a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
-        "Day thirteen takes the Catlins coast towards Curio Bay for penguins and sea lions, and day fourteen returns north to Queenstown. If your flight is early, spend the final night near the airport rather than driving the Lindis at dawn.",
+        "Day eleven runs from Wānaka to Te Anau through Queenstown, about three hours, then Milford Sound is a long day out of Te Anau on day twelve. The Milford road is spectacular and unforgiving, leave early, expect no reception, and check for avalanche closures in winter.",
+        "Day thirteen crosses Southland to the Catlins coast at Curio Bay for penguins and sea lions, and day fourteen drives back up to Queenstown, roughly four hours, to drop the vehicle. If your flight leaves early on day fourteen, skip the Catlins and drive Te Anau to Queenstown, about two hours, on day thirteen instead.",
       ]),
       s("Where to lose a day if you need to", [
         "This route has three natural compression points. The Napier leg can be cut by running Taupō to Wellington directly, the Catlins can be dropped entirely, and Milford can become a scenic flight or a shorter Te Anau day if the weather closes in.",
