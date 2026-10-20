@@ -16,10 +16,10 @@ B5: doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, scenic-cam
 B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-coast-south-island, queenstown-glenorchy, southern-scenic-route, fiordland, nelson-abel-tasman, south-island-two-week, new-zealand-three-week, two-week-camper-itinerary)
 
 ## Done
-(nothing yet)
+- B1 applied, stamped, content:check passes (de 53/85): best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, rakiura-stewart-island-camping-guide, northland-cape-reinga-camping-route. Drafted directly (no subagents before 09:00); native-review pass by an Opus subagent is still to do after 09:00 (reviewer feedback gets applied as a follow-up commit).
 
 ## Next
-B1.
+B2, B3; after 09:00 start the Opus native review of B1..B3.
 
 ## Blockers
 None.
