@@ -21,8 +21,10 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 
 - Batch 7 (drafted and reviewed by me alone): nelson-abel-tasman-golden-bay, left-side-driving-new-zealand, banks-peninsula-camping-weekend, two-week-camper-itinerary-new-zealand, new-zealand-driving-day-planner. da 57/85 guides.
 
+- Batch 8: wildlife-livestock-road-safety-new-zealand, bay-of-islands-camping-week, rakiura-stewart-island-camping-guide, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki-road-trip. da 62/85 guides.
+
 ## Next
-- b8 wildlife-livestock-road-safety-new-zealand bay-of-islands-camping-week rakiura-stewart-island-camping-guide new-zealand-three-week-campervan-route christchurch-tekapo-aoraki-road-trip; then b9..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
+- b9 new-zealand-severe-weather-camping earthquake-tsunami-camping-new-zealand winter-driving-new-zealand-campervan one-lane-bridges-gravel-roads-new-zealand camping-rules-local-councils-new-zealand; then b10..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
 - Working method without helpers (numbered): `python3 /tmp/da-k2/numview.py NAME` to read, write `N|||Danish` lines, `fromnum.py NAME lines out.json`, `edit.py` for fixes; then the steps below.
 - Earlier method: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
 
@@ -37,3 +39,4 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - where-to-camp: body says four land types, faq[0] says "Broadly five"; freedom-camping guide: "two to four nights" vs tip "1-2 night limits"; camping-wastewater-rubbish sections[2].body[1] says "Premium pass" where other guides say KiwiCamping Pass.
 - doc-hut-rules-etiquette: English meta description is only 80 characters, so the Danish is short too (no facts added).
 - alcohol-fatigue-driving: Danish writes the blood limit as 0,05 with no promille gloss (section 0: no added conversions).
+- new-zealand-three-week-campervan-route: tip says "Roughly 8 north, 1 ferry, 12 south" but the body and description say nine days north, eleven south.
