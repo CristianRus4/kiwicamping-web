@@ -13,10 +13,10 @@ best-travel-apps-new-zealand) into de, nl, da, nb, sv, one language at a time, a
 - Catalogs: de, nl -> kiwicamping-website; da -> kiwicamping-website-da; nb -> kiwicamping-website-nb; sv -> kiwicamping-website-sv.
 
 ## Done
-(nothing committed yet)
+- de: all 5 pages (513 units), drafted (sonnet), reviewed (opus), negation re-read, applied, stamped (new `lib/translations/meta/de.json`, 2857 stamps, 0 stale). `content:check` passes, de guides 43 -> 48 of 83.
 
 ## Next
-- de, then nl, da, nb, sv.
+- nl (drafts and review in progress in /tmp/kl1/nl), then da, nb, sv.
 
 ## Blockers
 - None.
