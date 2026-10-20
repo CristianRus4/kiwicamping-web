@@ -16,10 +16,11 @@ Batches (about five guides each):
 - [x] Batch 2 applied (6 guides): scenic-campsites-new-zealand, eating-out-new-zealand-prices-2026, new-zealand-road-signs-visitors, domestic-flight-costs-new-zealand-2026, wof-registration-campervan-new-zealand, accommodation-costs-new-zealand-2026.
 - [x] Batch 3 applied (8 guides): volcanic-safety-new-zealand-travel, new-zealand-camping-packing-list, beer-wine-coffee-prices-new-zealand, responsible-camping-new-zealand, northland-cape-reinga-camping-route, arthurs-pass-camping-route, dogs-camping-new-zealand, cook-strait-ferry-campervan-guide.
 - [x] Batch 4 applied (8 guides): taranaki-forgotten-world-highway, bus-ferry-train-costs-new-zealand, coromandel-rotorua-road-trip, picton-kaikoura-christchurch-route, sandflies-new-zealand-camping, overseas-driver-licence-new-zealand, wanaka-haast-pass-route, doc-hut-rules-etiquette.
+- [x] Batch 5 applied (4 guides): river-crossing-safety-new-zealand, left-side-driving-new-zealand, banks-peninsula-camping-weekend, two-week-camper-itinerary-new-zealand.
 
 ## Next
-Overnight rule from 2026-10-21: no subagents, I draft and review myself. Next: river-crossing-safety (draft exists in /tmp/sv-k2/k/out, unreviewed), left-side-driving (draft may be partial), banks-peninsula, two-week-camper-itinerary, then driving-day-planner, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, then zero-impression guides (rules and safety, app guides, camping guides, trip planning, road trips).
-Audit rules: never KiwiCampings; English number-words stay words.
+No subagents (overnight rule until 09:00). Next: new-zealand-driving-day-planner, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, then zero-impression guides: rules and safety (kauri-dieback, severe-weather, earthquake-tsunami, winter-driving, alcohol-fatigue, one-lane-bridges, wildlife-livestock, camping-rules-local-councils), app guides (6), winter-camping, trip planning (campervan-budget, food-fuel-resupply), road trips (wellington-wairarapa, north-island-two-week, west-coast, queenstown-glenorchy, southern-scenic, fiordland, nelson-abel-tasman, south-island-two-week, three-week, rakiura).
+Audit rules: never KiwiCampings; English number-words stay words; keep English macron spelling exactly.
 
 ## Blockers
 none
