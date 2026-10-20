@@ -18,7 +18,6 @@
         "zh-hans",
         "zh-hant",
         "da",
-        "sv",
         "nb",
         "cs",
         "pl"
@@ -70,10 +69,6 @@
           "path": "../lib/translations/da.json"
         },
         {
-          "locale": "sv",
-          "path": "../lib/translations/sv.json"
-        },
-        {
           "locale": "nb",
           "path": "../lib/translations/nb.json"
         },
@@ -111,6 +106,45 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      }
+    },
+    {
+      "id": "kiwicamping-website-sv",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "sv"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "North Island",
+        "South Island",
+        "Stewart Island",
+        "BookIt",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "register": {
+        "sv": "informal"
+      },
+      "styleGuide": {
+        "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
       }
     }
   ]
