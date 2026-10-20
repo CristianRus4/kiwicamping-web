@@ -353,58 +353,6 @@
       "styleGuide": {
         "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims."
       }
-    },
-    {
-      "id": "kiwicamping-website-ja",
-      "adapter": "web-json",
-      "sourceLocale": "en",
-      "locales": [
-        "ja"
-      ],
-      "source": "../lib/translations/en.json",
-      "targets": [
-        {
-          "locale": "ja",
-          "path": "../lib/translations/ja.json"
-        }
-      ],
-      "protectedTerms": [
-        "KiwiCamping",
-        "DOC",
-        "NZD",
-        "Waka Kotahi"
-      ],
-      "untranslatedKeys": [
-        "ui.review*",
-        "ui.reviewsEyebrow",
-        "ui.reviewsTitle"
-      ],
-      "glossary": {
-        "New Zealand": {
-          "ja": "ニュージーランド"
-        },
-        "North Island": {
-          "ja": "北島"
-        },
-        "South Island": {
-          "ja": "南島"
-        },
-        "Stewart Island": {
-          "ja": "スチュワート島"
-        },
-        "Aoraki": {
-          "ja": "アオラキ"
-        },
-        "Aotearoa": {
-          "ja": "アオテアロア"
-        }
-      },
-      "register": {
-        "ja": "formal"
-      },
-      "styleGuide": {
-        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms with macron-free katakana for Māori names, no ダンプ and no offline-map claims."
-      }
     }
   ]
 }
