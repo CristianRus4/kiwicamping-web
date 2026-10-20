@@ -2232,5 +2232,231 @@
     "decline": "Avslå",
     "policy": "Personvernerklæring",
     "choices": "Personvernvalg"
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Hjem",
+      "breadcrumbTools": "Verktøy",
+      "howTitle": "Slik regnes det ut",
+      "exampleTitle": "Regneeksempel",
+      "assumptionsTitle": "Forutsetninger",
+      "sourcesTitle": "Kilder",
+      "faqTitle": "Vanlige spørsmål",
+      "guidesTitle": "Relaterte guider",
+      "otherToolsTitle": "Flere kalkulatorer for roadtrip",
+      "openTool": "Åpne kalkulatoren",
+      "ctaEyebrow": "Planlegg i KiwiCamping",
+      "ctaTitle": "Finn stoppene, og regn så på det.",
+      "ctaText": "KiwiCamping er gratis å laste ned til iPhone. Ferieparker, opphold og turer som kan bestilles, er gratis i appen. DOC-campingplasser, DOC-hytter, tømmestasjoner og guidene åpnes med Pass.",
+      "ctaButton": "Last ned appen",
+      "enterValidValues": "Skriv inn gyldige verdier",
+      "enterValidAmount": "Skriv inn et gyldig beløp"
+    },
+    "index": {
+      "metaTitle": "Roadtripkalkulatorer New Zealand: drivstoff, kjøretid, camping",
+      "metaDescription": "Gratis kalkulatorer for roadtrip på New Zealand: drivstoff, kjøretid etter veitype, campingpris per person eller plass, omregning av NZD og vanntanker i bobil.",
+      "toolsTitle": "Én kalkulator per spørsmål",
+      "toolsText": "Hver kalkulator har sin egen side med formelen, et regneeksempel med newzealandske tall, forutsetningene bak og svar på vanlige spørsmål."
+    },
+    "fuel": {
+      "metaTitle": "Drivstoffkalkulator New Zealand: bobil på roadtrip",
+      "metaDescription": "Regn ut liter og drivstoffkostnad for en roadtrip på New Zealand ut fra avstand, l/100 km og literpris, med formel, eksempel på 1 000 km og MBIEs referansepris.",
+      "eyebrow": "Drivstoffkalkulator",
+      "cardEyebrow": "Drivstoffkalkulator",
+      "h1": "Drivstoffkalkulator for roadtrip på New Zealand",
+      "intro": "Skriv inn lengden på ruten, forbruket til kjøretøyet med last og prisen per liter. Standardprisen er MBIEs nasjonale tavlepris for vanlig 91-bensin i uken som endte 26. juli 2026.",
+      "cardTitle": "Regn ut prisen på kjørestrekningen.",
+      "cardText": "Skriv inn lengden på hele ruten, kjøretøyets forbruk med last og forventet pris per liter. På avsidesliggende steder kan prisene ligge over referanseprisene i byene.",
+      "labelDistance": "Avstand (km)",
+      "labelConsumption": "Forbruk (l/100 km)",
+      "labelPrice": "Drivstoffpris (NZD/l)",
+      "formula": [
+        "Liter = avstand (km) × forbruk (l/100 km) ÷ 100",
+        "Kostnad = liter × pris per liter (NZD)"
+      ],
+      "formulaNote": "Forbruket oppgis per 100 kilometer, så når du deler på 100, får du liter per kilometer. Regnestykket er lineært: dobler du avstanden, dobles både litermengden og kostnaden.",
+      "example": "En rute på {distance} km i en bobil som bruker {consumption} l/100 km, trenger {litres} liter drivstoff. Til {price} per liter blir det {cost}.",
+      "assumptions": [
+        "Standardprisen er et nasjonalt referansetall. Avsidesliggende bensinstasjoner, blant annet på West Coast og i Fiordland, tar ofte mer, så fyll tanken før lange strekninger mellom tettstedene.",
+        "Bruk forbruket med last for kjøretøyet du faktisk kjører. En full bobil i bakker og motvind bruker mer enn brosjyretallet.",
+        "Legg til kjøringen rundt hvert stopp. Turer til matbutikken, utsiktspunkter og sideveier summerer seg på en lang rute.",
+        "Dieselkjøretøy betaler veibruksavgift (RUC) for hver 1 000 km, i tillegg til drivstoff. Kalkulatoren dekker bare drivstoff."
+      ],
+      "faq": [
+        [
+          "Hvor mye drivstoff bruker en bobil på New Zealand?",
+          "Det kommer an på kjøretøyet, lasten og veiene. Bruk tallet fra utleiefirmaet eller kjøretøyet, og legg inn en margin for bakker. Standardverdien på 12 l/100 km er et planleggingstall for en bobil med last, ikke et målt gjennomsnitt."
+        ],
+        [
+          "Er veibruksavgift med i drivstoffkostnaden?",
+          "Nei. Dieselkjøretøy på New Zealand betaler veibruksavgift per 1 000 km, atskilt fra drivstoff. Spør utleiefirmaet om RUC er inkludert i prisen, og sjekk gjeldende satser hos NZTA."
+        ],
+        [
+          "Hvor kommer standardprisen på drivstoff fra?",
+          "Det er MBIEs nasjonale tavlepris for vanlig 91-bensin i uken som endte 26. juli 2026. MBIE publiserer drivstoffpriser hver uke, så sjekk den siste prisen før du reiser."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Kjøretidskalkulator New Zealand: timer etter veitype",
+      "metaDescription": "Anslå hvor lang en kjøredag på New Zealand egentlig tar, ut fra avstand, veitype og stopp, med formel, regneeksempel og de gjennomsnittsfartene som brukes.",
+      "eyebrow": "Kjøretidskalkulator",
+      "cardEyebrow": "Anslag for kjøredagen",
+      "h1": "Kjøretidskalkulator for veiene på New Zealand",
+      "intro": "Navigasjonsapper viser ren kjøretid på en ideell vei. Kalkulatoren bruker avstanden du allerede kjenner, en gjennomsnittsfart for veitypen og 20 minutter for hvert stopp, og det er som regel der en kjøredag på New Zealand drar ut.",
+      "cardTitle": "Hvor lang tid dagen egentlig tar.",
+      "cardText": "Navigasjonsapper viser ren kjøretid på en ideell vei. Her kommer veiens karakter og de faktiske stoppene i tillegg, og det er som regel der en dag drar ut.",
+      "labelDistance": "Avstand (km)",
+      "labelRoadType": "Veitype",
+      "roadMotorway": "Motorvei eller åpen, rett strekning",
+      "roadHighway": "Hovedvei",
+      "roadWinding": "Svingete vei eller kystvei",
+      "roadNarrow": "Smal, bratt eller grusvei",
+      "labelStops": "Stopp",
+      "hoursMinutes": "{hours} t {minutes} min",
+      "formula": [
+        "Kjøreminutter = avstand (km) ÷ gjennomsnittsfart (km/t) × 60",
+        "Totalt antall minutter = kjøreminutter + 20 × antall stopp"
+      ],
+      "formulaNote": "Gjennomsnittsfarten er ikke fartsgrensen. Den tar høyde for svinger, bakker, enfeltsbruer, tettsteder og saktere trafikk. De fire veitypene bruker 85, 70, 60 og 45 km/t.",
+      "example": "En dag på {distance} km på svingete veier eller kystveier i {speed} km/t gir {driving} kjøring. Legg til {stops} stopp på 20 minutter hver, så tar dagen {total}.",
+      "assumptions": [
+        "Gjennomsnittsfartene er planleggingstall for bil eller bobil under gode forhold, ikke målte gjennomsnitt for en bestemt vei.",
+        "Hvert stopp regnes som 20 minutter til drivstoff, mat, toalett eller utsiktspunkt. Ferjer, veiarbeid og lange gåturer må legges til i tillegg.",
+        "Vær, ras og stengte veier endrer rutene. Sjekk NZTAs reiseplanlegger for gjeldende veiforhold før du kjører."
+      ],
+      "faq": [
+        [
+          "Hvor langt kan du kjøre på en dag på New Zealand?",
+          "Det finnes ikke ett tall. Svingete veier, enfeltsbruer og stopp holder gjennomsnittsfarten godt under fartsgrensen på åpen vei, så en dag som ser kort ut på kartet, kan ta mesteparten av dagslyset. Skriv inn avstand og veitype for å se hvor mange timer det tar, og planlegg jevnlige hvilepauser."
+        ],
+        [
+          "Hvorfor tar det lengre tid her enn i kartappen?",
+          "Kartapper anslår ren kjøretid uten stopp. Her brukes et gjennomsnitt for veitypen, og det legges til tid for hvert stopp. Det ligger nærmere hvordan en campingdag faktisk blir."
+        ],
+        [
+          "Fungerer den for bobil?",
+          "Ja. Velg en saktere veitype hvis du kjører et stort kjøretøy, kjører med henger eller ikke er vant til å kjøre på venstre side."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campingkalkulator New Zealand: per person eller per plass?",
+      "metaDescription": "Sammenlign en DOC-campingplass med pris per voksen og en feriepark med pris per plass for gruppen og nettene dine, med formel, regneeksempel og DOC-avgifter fra dataene.",
+      "eyebrow": "Kalkulator for campingkostnad",
+      "cardEyebrow": "Sammenligning av campingpriser",
+      "h1": "Kalkulator for campingkostnad: per person eller per plass",
+      "intro": "DOC-campingplasser tar betalt per voksen per natt, mens en feriepark vanligvis tar betalt per plass. Hvilken som er billigst, skifter med størrelsen på gruppen, og kalkulatoren regner det ut for nettene dine.",
+      "cardTitle": "Per person eller per plass?",
+      "cardText": "En DOC-campingplass tar vanligvis betalt per voksen og en feriepark vanligvis per plass. Det billigste alternativet skifter med gruppestørrelsen, noe som overrasker mange familier.",
+      "labelAdults": "Voksne",
+      "labelNights": "Netter",
+      "labelPerAdult": "Per voksen (NZD)",
+      "labelPerSite": "Per plass (NZD)",
+      "comparison": "{perAdult} mot {perSite} · {verdict}",
+      "theSame": "prisen er den samme",
+      "perAdultCheaper": "per voksen er billigst",
+      "perSiteCheaper": "per plass er billigst",
+      "formula": [
+        "Totalt per voksen = voksne × netter × pris per voksen",
+        "Totalt per plass = netter × pris per plass",
+        "Den laveste summen er det billigste alternativet for gruppen din"
+      ],
+      "formulaNote": "Summen per voksen vokser for hver ekstra voksen, mens summen per plass ikke gjør det. Derfor blir svaret et annet for et par enn for en familie.",
+      "example": "{adults} voksne som overnatter {nights} netter til {rateAdult} per voksen, betaler {totalAdult}. Samme opphold til {rateSite} per plass koster {totalSite}, så {verdict}.",
+      "assumptions": [
+        "Barn er ikke med. Mange DOC-campingplasser har redusert pris for alderen 5 til 17 år og ingen avgift for spedbarn, og ferieparkene setter egne barnepriser.",
+        "Standardsatsene er eksempler, ikke pristilbud. I DOC-dataene per {docDate} er {docFree} DOC-campingplasser gratis, og den laveste voksenprisen som er oppgitt på de betalte, varierer fra {docMin} til {docMax} per natt.",
+        "Ferieparkene setter egne priser, som endrer seg med sesong, strøm og størrelsen på plassen. Sjekk med parken før du bestiller."
+      ],
+      "faq": [
+        [
+          "Hva koster en campingplass per natt på New Zealand?",
+          "DOC-campingplasser er enten gratis eller tar betalt per voksen. I DOC-dataene per {docDate} varierer den laveste voksenprisen på betalte DOC-campingplasser fra {docMin} til {docMax} per natt, med en median på {docMedian}. Ferieparkene setter egne plasspriser, så sammenlign totalen for gruppen din."
+        ],
+        [
+          "Er det billigst per person eller per plass for en familie?",
+          "Per plass vinner som regel jo større gruppen blir, fordi plassprisen er den samme mens prisen per voksen ganges opp. Skriv inn egne satser for å se hvor skjæringspunktet ligger."
+        ],
+        [
+          "Betaler barn på DOC-campingplasser?",
+          "På mange DOC-campingplasser betaler barn fra 5 til 17 år redusert pris, og spedbarn er gratis. Prisen for hver campingplass står på DOC-siden."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Valutakalkulator NZD: newzealandske priser i 9 valutaer",
+      "metaDescription": "Regn newzealandske dollar til og fra USD, EUR, GBP, AUD, JPY, CNY, KRW, INR og SGD med referansekurser fra Reserve Bank of New Zealand.",
+      "eyebrow": "Valutakalkulator",
+      "cardEyebrow": "Valutakalkulator",
+      "h1": "Valutakalkulator for NZD: priser på turen til New Zealand",
+      "intro": "Regn om en newzealandsk pris til din egen valuta, eller din valuta til newzealandske dollar, med referansekurser fra Reserve Bank of New Zealand fra {rateDate}.",
+      "cardTitle": "Regn om en newzealandsk pris.",
+      "cardText": "Referanseomregning til bruk i turplanleggingen, med kurser fra Reserve Bank of New Zealand fra {rateDate}. Banken eller kortet ditt kan bruke en annen kurs og legge på gebyrer.",
+      "labelAmount": "Beløp",
+      "labelFrom": "Fra",
+      "labelTo": "Til",
+      "formula": [
+        "Beløp i NZD = beløp ÷ kursen til valutaen du regner fra",
+        "Resultat = beløp i NZD × kursen til valutaen du regner til"
+      ],
+      "formulaNote": "Hver kurs er antall enheter av valutaen per 1 newzealandsk dollar, så alle omregninger går via NZD.",
+      "example": "{amount} blir {converted} med en kurs på {rate} amerikanske dollar per newzealandsk dollar.",
+      "assumptions": [
+        "Dette er referansekurser fra {rateDate}. Valutakursene endrer seg hver dag.",
+        "Banker, kort og minibanker bruker egne kurser og kan legge på gebyrer, så beløpet du betaler, kan avvike.",
+        "Japanske yen og koreanske won vises uten desimaler."
+      ],
+      "faq": [
+        [
+          "Hvilken valuta brukes på New Zealand?",
+          "Newzealandsk dollar (NZD). Priser i butikker, på campingplasser og i ferieparker oppgis i NZD."
+        ],
+        [
+          "Er dette kursen banken min gir meg?",
+          "Sannsynligvis ikke helt. Her brukes referansekurser fra {rateDate}. Banken eller kortselskapet bruker sin egen kurs og egne gebyrer, så se på resultatet som et planleggingstall."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Vanntankkalkulator for bobil: dager med ferskvann og gråvann",
+      "metaDescription": "Regn ut hvor mange dager ferskvanns- og gråvannstankene i en bobil rekker for gruppen din, med formel, regneeksempel og dagstallene bak.",
+      "eyebrow": "Vanntankkalkulator",
+      "cardEyebrow": "Planlegger for vann og spillvann",
+      "h1": "Vanntankkalkulator for bobil",
+      "intro": "En tankstørrelse i liter blir først nyttig når den er regnet om til dager. Skriv inn kapasiteten for ferskvann og gråvann og antall personer for å se hvilken tank som setter grensen.",
+      "cardTitle": "Hvor mange dager du kan stå off grid.",
+      "cardText": "Kapasitet i liter blir først nyttig når den oppgis i dager. Ferskvann og gråvann vises hver for seg, fordi den tanken som går tom først, setter grensen.",
+      "labelFresh": "Ferskvann (l)",
+      "labelGrey": "Gråvann (l)",
+      "labelPeople": "Personer",
+      "days": "{fresh} dager ferskvann · {grey} dager gråvann",
+      "formula": [
+        "Dager med ferskvann = ferskvannstank (l) ÷ (personer × 11 l per dag)",
+        "Dager med gråvann = gråvannstank (l) ÷ (personer × 9 l per dag)",
+        "Det laveste av de to tallene er hvor lenge du kan bli før du må fylle eller tømme"
+      ],
+      "formulaNote": "Gråvann er spillvannet fra vasker og dusjer. Mengden er lavere enn ferskvannsforbruket, fordi ikke alt drikkevann og vann til matlaging havner i tanken.",
+      "example": "{people} personer med en ferskvannstank på {freshTank} liter og en gråvannstank på {greyTank} liter har {freshDays} dager med ferskvann og {greyDays} dager med gråvann, så ferskvannstanken setter grensen.",
+      "assumptions": [
+        "11 liter ferskvann og 9 liter gråvann per person per dag er planleggingstall for nøysom bruk: drikke, matlaging, oppvask og en rask vask. Dusjing bruker langt mer.",
+        "Toalettkassetter og svartvann er ikke med.",
+        "Tøm gråvann bare på en tømmestasjon. Aldri på bakken eller i et overvannssluk."
+      ],
+      "faq": [
+        [
+          "Hvor lenge varer 100 liter ferskvann i en bobil?",
+          "For to som bruker vann nøysomt, med 11 liter hver per dag, omtrent fire og en halv dag. Dusjing og klesvask gjør det mye kortere."
+        ],
+        [
+          "Hvor kan jeg tømme gråvann på New Zealand?",
+          "På en tømmestasjon. Mange ferieparker har en, og kommunene driver offentlige i mange byer. Tøm aldri gråvann på bakken eller i et overvannssluk."
+        ],
+        [
+          "Hvilken tank går tom først?",
+          "Den som er minst i forhold til bruken din. Gråvannstanker er ofte mindre enn ferskvannstanker, så sjekk begge i stedet for bare ferskvannsmåleren."
+        ]
+      ]
+    }
   }
 }
