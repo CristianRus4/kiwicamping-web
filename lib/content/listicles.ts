@@ -230,4 +230,75 @@ export const listicleArticles: Article[] = [
       { label: "Bluebridge", url: "https://www.bluebridge.co.nz/" },
     ],
   }),
+
+  a({
+    slug: "free-camping-apps-new-zealand",
+    listicle: true,
+    title: "Best Free Camping Apps for New Zealand 2026: 5 Compared",
+    description: "Rankers, CamperMate, WikiCamps, KiwiCamping and the NZMCA App compared for finding free and freedom camping in New Zealand, with the 2026 self-contained rules. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Freedom camping areas", "Free DOC campsites", "Council reserves", "NZMCA Parks"],
+    imageAlt: "Camp fees sign asking for a donation at Lake Tūtira campsite, Hawke's Bay",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "best-nz-camping-apps"],
+    intro:
+      "Free camping in New Zealand comes in two forms: freedom camping, where a council or DOC allows you to stay the night somewhere that is not a campground, and campsites that charge nothing, most of them basic DOC sites. An app can point you to both, but none of them decides whether you may stay; the council bylaw, DOC and the sign at the site do. We compared the five apps that are most useful for finding free nights, checked on 20 October 2026. We make KiwiCamping. It is not first on this list, because its free DOC campsites sit behind its paid Pass. Here is where it still helps.",
+    sections: [
+      s("Which app to use for free nights", [
+        "Rankers is the best place to start: it is free, the camping spots it shows are only ones where the local community has officially said yes to overnight stays, and its reviews tell you whether a free site was worth it. CamperMate adds a free or paid filter and two-country coverage, and WikiCamps New Zealand has the biggest published count of New Zealand sites, with a filter for free campgrounds, for a one-off NZ$7.99.",
+        "KiwiCamping is the one to add if you want DOC's own record of which DOC campsites charge nothing. NZMCA members get a different deal again: the association's own parks for $5 per adult a night, which is not free but is close.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each developer's site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "How it shows free nights", "App price", "NZ rating"],
+        rows: [
+          ["Rankers Camping NZ", "Community-approved free and freedom spots, with reviews", "Free", "4.7 (3,322)"],
+          ["CamperMate", "Free or paid filter; freedom spots beside campsites", "Free; ads on Android", "4.4 (606)"],
+          ["WikiCamps New Zealand", "Free campgrounds filter on user-added sites", "NZ$7.99 upfront (iPhone)", "4.5 (137)"],
+          ["KiwiCamping", "DOC campsites DOC lists with no fee", "Free; Pass NZ$3.99 to NZ$12.99 needed for DOC places", "3.8 (4)"],
+          ["NZMCA App", "Member parks at NZ$5 per adult a night", "Free app; membership NZ$150 plus NZ$102 a year", "No ratings yet"],
+        ],
+      }),
+      s("The 2026 rule that matters most: green warrants", [
+        "On council land, the law lets a vehicle freedom camp only if it is certified self-contained, unless a council bylaw allows other vehicles at a site, and the meaning of certified changed this year. The transition from the old blue sticker to the regulated green warrant ended on 7 June 2026, and blue stickers are no longer valid. A green warrant requires a toilet fixed in the vehicle, so a portable toilet no longer qualifies.",
+        "On conservation land DOC sets its own rules: freedom camping is not allowed in DOC scenic and recreation reserves unless DOC provides a campsite, some areas are for self-contained vehicles only or limit the number of nights, and some ban it outright. Without a green warrant, you can stay in a vehicle on council land only where a bylaw allows it, and on DOC land outside the reserves and areas DOC prohibits or restricts. Free DOC campsites are the simplest option.",
+      ], ["Blue stickers stopped counting on 7 June 2026", "Green warrants need a fixed toilet", "DOC and each council set their own limits"]),
+      s("1. Rankers Camping NZ: best overall for free and freedom spots", [
+        "Rankers says the camping spots it shows are only ones where the local community has officially said yes to overnight stays, which is the right starting filter for freedom camping. Its listing describes a filter for top-ranked holiday parks, DOC and free sites, and more than 108,000 reviews, each read and checked by a person on its team. The app is free, with 4.7 stars from 3,322 New Zealand App Store ratings.",
+        "Whatever the app shows, check the self-contained requirement on the council's bylaw or the site sign before you stay. Campsite information is built into the app, and detailed maps download over Wi-Fi for use beyond reception.",
+      ], ["Best for: free spots with reviews", "Free", "Confirm self-contained rules locally"]),
+      s("2. CamperMate: best for free and paid sites side by side", [
+        "CamperMate shows freedom camping spots alongside campsites and lets you filter by free or paid, across New Zealand and Australia. Its listing does not mention a self-contained filter, and one reviewer in January 2026 said the option seemed to have gone after the late-2025 redesign, so read each place's description for its self-contained requirement.",
+        "It is free, with ads in the Android version, and rated 4.4 from 606 New Zealand App Store ratings. Its maps and place information download for use without signal.",
+      ], ["Best for: comparing free and paid nearby", "Free; ads on Android", "Read each place for self-contained rules"]),
+      s("3. WikiCamps New Zealand: best for the widest choice of sites", [
+        "WikiCamps' site lists filters for free campgrounds, bookable sites, pet-friendly sites, water and dump points, and its users have added more than 12,000 New Zealand sites. It costs NZ$7.99 once on the App Store and rated 4.5 from 137 New Zealand ratings.",
+        "Because its users add the sites, a free spot in WikiCamps is a traveller's report rather than a council decision. Treat it as a lead and confirm it against the bylaw or the sign.",
+      ], ["Best for: the widest choice", "NZ$7.99 once on iPhone", "User reports, not council rules"]),
+      s("4. KiwiCamping: best for free DOC campsites", [
+        "In its August 2026 data, KiwiCamping held 287 DOC campsites, of which DOC lists 63 as free, with the fees, dog rules and booking requirements DOC publishes. Free DOC campsites are usually basic sites with a toilet and little else. DOC lists campervan access at 29 of the 63; many of the rest are reached on foot, by boat or by four-wheel drive, so check access before you plan a night around one.",
+        "The catch is that DOC places, collections and trips all need the KiwiCamping Pass, listed from NZ$3.99 to NZ$12.99 on the New Zealand App Store; only BookIt stays and tours are free in the app. It is iPhone only with iOS 26 or later, its free-site data is DOC's rather than the councils', and it has no traveller reviews, which is why Rankers sits above it here.",
+      ], ["Best for: free DOC campsites", "Pass needed for DOC places", "iPhone only, iOS 26 or later"], undefined, true),
+      s("5. NZMCA App: best value for members", [
+        "The New Zealand Motor Caravan Association's app gives members its Travel Directory and the association's NZMCA Parks, which are for members in certified self-contained vehicles, at $5 per adult per night. Membership costs $150 to join plus $102 a year, so the parks pay off over a long trip rather than a fortnight.",
+        "It requires membership and had no ratings yet on the New Zealand App Store. For a certified self-contained motorhome on the road for months, it is often the cheapest reliable option after free sites.",
+      ], ["Best for: long trips in a motorhome", "NZ$5 per adult a night at member parks", "Membership required"]),
+      s("Apps we left out", [
+        "An App Store search for freedom camping in New Zealand turns up a free app called Freedom camping nz, last updated in 2017, with a 1.3 average from 21 ratings and reviewers saying its map shows little of New Zealand. We would not rely on it. International apps such as park4night and iOverlander list places in many countries but do not state their New Zealand coverage, so we have not ranked them.",
+        "We checked every listing, rating and price on 20 October 2026 on the New Zealand App Store and the developers' own sites. Features are described as each developer describes them, so a feature missing here is not a claim that an app lacks it.",
+      ]),
+      s("Before you stay the night", [
+        "Read the sign at the entrance, check the council's freedom camping bylaw for the district you are in, and look up DOC's list of prohibited and restricted areas for conservation land. These can change, and they outrank every app on this page, ours included.",
+        "Leave the site as you found it, use a dump station rather than a drain, and move on when the stay limit is up. Free camping in New Zealand survives on councils' goodwill, and that goodwill is easy to lose.",
+      ], ["The sign and the bylaw outrank any app", "Check DOC's restricted areas list", "Respect stay limits"]),
+    ],
+    sources: [
+      { label: "Freedom camping and self-contained vehicles (govt.nz)", url: "https://www.govt.nz/browse/recreation-and-the-environment/freedom-camping/" },
+      { label: "Freedom camping on conservation land (DOC)", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/camping/freedom-camping/" },
+      { label: "Rankers Camping NZ on the App Store (NZ)", url: "https://apps.apple.com/nz/app/rankers-camping-nz/id582914766" },
+      { label: "CamperMate on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campermate-australia-nz/id465040067" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
+      { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
+    ],
+  }),
 ];

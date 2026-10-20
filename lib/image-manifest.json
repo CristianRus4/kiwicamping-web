@@ -419,6 +419,20 @@
       }
     ]
   },
+  "/images/articles/free-camping-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/free-camping-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/free-camping-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-new-zealand-guide.webp": {
     "width": 1600,
     "height": 900,
