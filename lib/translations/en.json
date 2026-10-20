@@ -2846,7 +2846,7 @@
         {
           "heading": "Booking rules and the unbooked penalty",
           "body": [
-            "Each campsite page says whether it is bookable or self-registration, and the rules follow from that. At a bookable site you need a valid booking for the night you use it, pass holders included. Without one you have no guaranteed space, and DOC charges its penalty rate: each person pays their normal fee plus a full adult fee, unless they are sheltering in adverse conditions.",
+            "Each campsite page says whether it is bookable or self-registration, and the rules follow from that. At a bookable site you need a valid booking for the night you use it, pass holders included. Without one you have no guaranteed space, and DOC charges its penalty rate: each person pays their normal fee plus a full adult fee, unless they are sheltering in adverse conditions. Campsite Pass holders who arrive without a booking pay a $10 fee instead and are turned away if the site is full.",
             "At a self-registration site, fill in the form and pay on arrival. Either way, the booking or registration is for the people and vehicle you actually bring, and the confirmation must be available on request, so save it where you can show it <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a>."
           ],
           "tips": [
@@ -2912,7 +2912,7 @@
         ],
         [
           "How long can you stay at a DOC campsite?",
-          "Some campsites set a maximum stay on their DOC page, and a Campsite Pass covers no more than 7 nights in any 30 days at one campsite. Every night needs a booking or registration except at free basic campsites, and using a bookable site unbooked costs each person their normal fee plus a full adult fee."
+          "Some campsites set a maximum stay on their DOC page, and a Campsite Pass covers no more than 7 nights in any 30 days at one campsite. Every night needs a booking or registration except at free basic campsites, and using a bookable site unbooked costs each person their normal fee plus a full adult fee, or a $10 fee for a Campsite Pass holder."
         ]
       ],
       "sources": [
@@ -9354,6 +9354,9 @@
           "label": "DOC: Backcountry Hut Pass"
         },
         {
+          "label": "DOC: huts where the Backcountry Hut Pass is not accepted"
+        },
+        {
           "label": "DOC: Campsite Pass"
         },
         {
@@ -9373,6 +9376,15 @@
         },
         {
           "label": "DOC: Milford Track season and bookings"
+        },
+        {
+          "label": "DOC: Routeburn Track season and bookings"
+        },
+        {
+          "label": "DOC: Kepler Track season and bookings"
+        },
+        {
+          "label": "DOC: Tongariro Northern Circuit season and bookings"
         },
         {
           "label": "DOC: modify or cancel an online booking"

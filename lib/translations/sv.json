@@ -1305,7 +1305,7 @@
         {
           "heading": "Bokningsregler och avgiften för obokad vistelse",
           "body": [
-            "På sidan för varje campingplats står det om den går att boka eller har självregistrering, och reglerna följer av det. På en camping som går att boka behöver du en giltig bokning för natten du använder platsen, även om du har ett pass. Utan bokning har du ingen garanterad plats, och DOC tar ut sin straffavgift: varje person betalar sin vanliga avgift plus en full vuxenavgift, om de inte söker skydd i dåliga förhållanden.",
+            "På sidan för varje campingplats står det om den går att boka eller har självregistrering, och reglerna följer av det. På en camping som går att boka behöver du en giltig bokning för natten du använder platsen, även om du har ett pass. Utan bokning har du ingen garanterad plats, och DOC tar ut sin straffavgift: varje person betalar sin vanliga avgift plus en full vuxenavgift, om de inte söker skydd i dåliga förhållanden. Den som har ett Campsite Pass och kommer utan bokning betalar i stället en avgift på 10 NZD och blir avvisad om platsen är full.",
             "På en camping med självregistrering fyller du i formuläret och betalar när du kommer fram. I båda fallen gäller bokningen eller registreringen de personer och det fordon du faktiskt kommer med, och bekräftelsen måste kunna visas på begäran, så spara den där du kan visa den <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a>."
           ],
           "tips": [
@@ -1371,7 +1371,7 @@
         ],
         [
           "Hur länge får du stanna på en DOC-camping?",
-          "Vissa campingplatser anger på sin sida hos DOC en gräns för hur länge du får stanna, och ett Campsite Pass gäller för högst 7 nätter under 30 dagar på samma camping. Varje natt kräver en bokning eller registrering utom på gratis Basic-campingplatser, och använder du en plats som går att boka utan bokning betalar varje person sin vanliga avgift plus en full vuxenavgift."
+          "Vissa campingplatser anger på sin sida hos DOC en gräns för hur länge du får stanna, och ett Campsite Pass gäller för högst 7 nätter under 30 dagar på samma camping. Varje natt kräver en bokning eller registrering utom på gratis Basic-campingplatser, och använder du en plats som går att boka utan bokning betalar varje person sin vanliga avgift plus en full vuxenavgift, eller 10 NZD för den som har ett Campsite Pass."
         ]
       ],
       "sources": [
@@ -2132,6 +2132,9 @@
           "label": "DOC: Backcountry Hut Pass"
         },
         {
+          "label": "DOC: stugor där Backcountry Hut Pass inte gäller"
+        },
+        {
           "label": "DOC: Campsite Pass"
         },
         {
@@ -2151,6 +2154,15 @@
         },
         {
           "label": "DOC: Milford Track, säsong och bokning"
+        },
+        {
+          "label": "DOC: Routeburn Track, säsong och bokning"
+        },
+        {
+          "label": "DOC: Kepler Track, säsong och bokning"
+        },
+        {
+          "label": "DOC: Tongariro Northern Circuit, säsong och bokning"
         },
         {
           "label": "DOC: ändra eller avboka en bokning på nätet"

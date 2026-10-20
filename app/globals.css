@@ -325,6 +325,22 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-end-cta h2 { margin: 7px 0; font-size: 28px; }
 .article-end-cta p { margin-bottom: 0; }
 .article-end-cta .store-button { min-width: 205px; }
+/* In-article App Store calls to action (components/context-cta.tsx). */
+.article-body .context-cta { margin: 30px 0 4px; padding: 22px 24px; border-left: 4px solid var(--eucalyptus); border-radius: 6px; background: #e2e5df; }
+.context-cta h3 { margin: 6px 0 8px; font-size: 22px; line-height: 1.2; }
+.context-cta-body { margin: 0 0 10px; font-size: 15px; line-height: 1.55; }
+.context-cta-pass, .context-cta-iphone { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.context-cta-actions { margin-top: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.context-cta-actions .store-button { min-width: 230px; }
+.context-end-shot { flex: none; width: 140px; height: 290px; }
+.context-end-shot > img { height: 100%; }
+.context-end-copy { flex: 1; }
+.article-end-cta .context-end-copy p { margin-bottom: 8px; }
+.article-end-cta .download-card:not(.download-card-compact) { width: 170px; }
+.article-end-cta .qr-image { width: 170px; height: 170px; }
+/* The app runs only on iPhone. iOS WebKit is the only engine that supports -webkit-touch-callout,
+   so iOS visitors do not see the "iPhone only" line. */
+@supports (-webkit-touch-callout: none) { .context-cta-iphone { display: none; } }
 .related-section { padding: 95px max(32px, calc((100% - 1120px) / 2)); background: #e7e8e4; }
 .related-section h2 { font-size: 44px; letter-spacing: -0.02em; }
 
@@ -482,6 +498,10 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-body h2 { font-size: 27px; }
   .article-end-cta { align-items: flex-start; flex-direction: column; }
   .article-end-cta .download-card, .article-end-cta .store-button { width: 100%; }
+  .context-end-shot { width: 120px; height: 250px; }
+  .article-end-cta .qr-image { display: none; }
+  .article-end-cta .download-card:not(.download-card-compact) { width: 100%; }
+  .context-cta-actions .store-button { width: 100%; }
   .related-section { padding: 70px 18px; }
   .support-shell { padding: 55px 18px 85px; }
   .contact-panel { grid-template-columns: 1fr; padding: 28px; }
@@ -547,7 +567,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-card { background: #191d17; }
   .article-card p, .article-body p { color: #b7beb3; }
   .article-intro { color: #dce1d8; }
-  .article-tips, .place-chips span, .article-end-cta { background: #252b22; }
+  .article-tips, .place-chips span, .article-end-cta, .article-body .context-cta { background: #252b22; }
   .editorial-opening blockquote { color: #eef1ea; }
   .article-side-card, .contact-panel { background: #0d130b; }
   .related-section { background: #171a16; }
@@ -594,6 +614,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hub-map svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border: 1px solid var(--line); }
 .hub-map-sea { fill: var(--soft); }
 .hub-map-land { fill: var(--paper); stroke: var(--line); stroke-width: 1; }
+.hub-map-lake { fill: var(--soft); stroke: var(--line); stroke-width: .6; }
 .hub-map-dot { fill: var(--fern); fill-opacity: .82; stroke: var(--paper); stroke-width: 1; }
 .hub-map figcaption { margin-top: 8px; color: var(--muted); font-size: 12px; }
 .hub-facts th { font-weight: 600; }

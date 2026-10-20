@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
+import { ContextCta, ContextEndCta, ctaVariantFor } from "@/components/context-cta";
 import { SectionTable } from "@/components/article-table";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage, GuideFigure } from "@/components/site-image";
@@ -41,6 +42,7 @@ export function GuideArticle({ item }: { item: Article }) {
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
+  const ctaVariant = ctaVariantFor(item);
 
   return <>
     <Header />
@@ -98,6 +100,7 @@ export function GuideArticle({ item }: { item: Article }) {
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
               {part.cta && <DownloadCard compact placement={placement} />}
+              {index === 1 && !item.listicle && <ContextCta variant={ctaVariant} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>
@@ -114,10 +117,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>Common questions</h2>
               {item.faq.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}
             </section>}
-            <div className="article-end-cta">
-              <div><p className="eyebrow">Take it on the road</p><h2>Save the stops. Plan the whole trip.</h2><p>Build an ordered route from saved places, calculate the distance and keep dates, notes and to-dos attached.</p></div>
-              <DownloadCard compact placement={placement} />
-            </div>
+            <ContextEndCta variant={ctaVariant} placement={placement} />
           </div>
           <aside>
             <div className="article-side-card"><p className="eyebrow">Plan it in KiwiCamping</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact placement={placement} /></div>

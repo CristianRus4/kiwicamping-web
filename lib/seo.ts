@@ -4,6 +4,15 @@ import { englishLocale, htmlLang, liveLocales, localeEntry, localeRoot, type Loc
 import { routesFor } from "@/lib/routes";
 
 export const defaultHreflang = englishLocale.hreflang[0];
+
+/**
+ * A guide's <title>. The layout appends " | KiwiCamping", but guide titles lead with the search
+ * query and most already run near 60 characters, where results truncate. Past 60 with the suffix,
+ * a title drops the brand rather than the words people searched for.
+ */
+export function guideTitle(title: string): string | { absolute: string } {
+  return title.length + " | KiwiCamping".length <= 60 ? title : { absolute: title };
+}
 export const defaultOgLocale = englishLocale.og;
 /** The Open Graph locale of a language edition. */
 export const ogLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.og : localeEntry(code).og);

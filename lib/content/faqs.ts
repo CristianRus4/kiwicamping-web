@@ -47,7 +47,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   // --- Rules & safety -------------------------------------------------------
   "doc-campsite-rules": [
     ["What are the rules at a DOC campsite?", "Keep noise down from 10 pm to 7 am, check out by 10 am, take all rubbish away and bring no pets or drones unless DOC has authorised them. Smoking and vaping are banned in huts and toilet blocks, and each site's own page adds rules on fires, dogs, generators and vehicles."],
-    ["How long can you stay at a DOC campsite?", "Some campsites set a maximum stay on their DOC page, and a Campsite Pass covers no more than 7 nights in any 30 days at one campsite. Every night needs a booking or registration except at free basic campsites, and using a bookable site unbooked costs each person their normal fee plus a full adult fee."],
+    ["How long can you stay at a DOC campsite?", "Some campsites set a maximum stay on their DOC page, and a Campsite Pass covers no more than 7 nights in any 30 days at one campsite. Every night needs a booking or registration except at free basic campsites, and using a bookable site unbooked costs each person their normal fee plus a full adult fee, or a $10 fee for a Campsite Pass holder."],
   ],
   "doc-hut-rules-etiquette": [
     ["Can you be turned away from a full DOC hut?", "On a bookable hut, yes: a bunk is only yours if you booked it. On a first-come hut nobody can be turned out, which is exactly why the etiquette matters and why you should always carry a tent or bivvy on a popular track."],
