@@ -750,6 +750,556 @@
           }
         ]
       }
+    },
+    "doc-campsite-rules": {
+      "title": "Kempingi DOC: zasady, które trzeba znać",
+      "description": "Rezerwacje, cisza nocna, śmieci, zwierzęta i warunki na miejscu decydują o tym, jak wygląda nocleg na terenie chronionym.",
+      "region": "Kempingi DOC",
+      "imageAlt": "Tablica informacyjna na kempingu urzędu Department of Conservation",
+      "intro": "Rezerwując kemping DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody), akceptujesz ogólne warunki i lokalne zasady danego miejsca. Strona konkretnego kempingu i tak zostaje najważniejsza, bo dojazd, ogień, woda, psy i wymogi dla pojazdów bardzo się różnią.",
+      "sections": [
+        {
+          "heading": "Rezerwuj uczciwie",
+          "body": [
+            "Zarezerwuj właściwy termin, liczbę osób i rodzaj noclegu, a potwierdzenie zapisz tak, żeby otwierało się bez internetu. Tam, gdzie miejsca nie są przypisane indywidualnie, wybieraj dopiero po przyjeździe i tylko z części kempingu, która jest dostępna.",
+            "Zgodnie z warunkami DOC niewykorzystana rezerwacja na kilka nocy może zostać anulowana już po pierwszej nocy, na którą się nie zjawisz. Nie blokuj miejsca pustym namiotem, jeśli nikt nie zamierza tam nocować."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pilnuj ciszy nocnej i godziny wymeldowania",
+          "body": [
+            "Według standardowych warunków DOC cisza nocna trwa od 22:00 do 7:00, chyba że lokalne zasady mówią inaczej, a wymeldować się trzeba zwykle do 10:00. Z generatorem, muzyką i jazdą pojazdem trzymaj się limitów danego kempingu.",
+            "Rezerwacja miejsca na kempingu nie daje prawa do korzystania z pobliskiego schroniska. Korzystaj tylko z toalet, wiat i punktów z wodą, które obejmuje twoja rezerwacja."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zostaw miejsce w dobrym stanie",
+          "body": [
+            "Zabierz wszystkie śmieci, zabezpiecz jedzenie i nigdy nie wylewaj szarej wody na ziemię. W schroniskach i budynkach z toaletami nie wolno palić papierosów ani używać e-papierosów.",
+            "Psy i inne zwierzęta oraz drony wymagają wyraźnego pozwolenia. Sprawdź stronę konkretnego kempingu: to, że miejsce jest ustronne, nie oznacza zgody."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Z rezerwacją, bez rezerwacji albo z karnetem",
+          "body": [
+            "Strona każdego kempingu podaje, jaki system obowiązuje, a mylenie ich to najczęstsza przyczyna kłopotów po przyjeździe. Karnet Campsite Pass to sposób płatności, a nie rezerwacja, więc nie gwarantuje miejsca tam, gdzie trzeba rezerwować, i nic nie daje na kempingu działającym na zasadzie „kto pierwszy, ten lepszy”, jeśli jest już pełny.",
+            "Tam, gdzie rezerwacja jest wymagana, zarezerwuj ją dla grupy i pojazdu, którymi naprawdę przyjedziesz. Zadbaj, żeby potwierdzenie otwierało się bez internetu, bo na <a data-guide=\"doc-campsites-new-zealand-guide\">kempingach DOC</a> zasięgu często brakuje, a rezerwację, której nie da się pokazać, trudno obronić przed strażnikiem przydzielającym miejsca na pełnym kempingu."
+          ],
+          "tips": [
+            "Karnet to nie rezerwacja",
+            "Potwierdzenie dostępne bez zasięgu",
+            "Rezerwuj na faktyczny pojazd i liczbę osób"
+          ]
+        },
+        {
+          "heading": "Woda bywa nieuzdatniona",
+          "body": [
+            "Na wielu kempingach DOC woda pochodzi z potoków albo ze zbiorników na deszczówkę z dachów i nie jest uzdatniana. W wodzie w Nowej Zelandii występuje Giardia, a przejrzysty strumień nic o tym nie mówi. Gotuj wodę co najmniej minutę, filtruj ją albo uzdatniaj chemicznie i nie zakładaj, że kran jest bezpieczny tylko dlatego, że istnieje.",
+            "Zabierz tyle wody pitnej, żeby przez dobę dać sobie radę bez kranu. Zbiorniki wysychają, pojawiają się komunikaty o konieczności gotowania wody, a na kempingu opisanym jako wyposażony w wodę ujęcie może bez ostrzeżenia okazać się zepsute."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Generatory, drony i psy",
+          "body": [
+            "Na wielu kempingach korzystanie z generatorów jest ograniczone lub zakazane, a tam, gdzie wolno, zwykle obowiązują ustalone godziny. Na publicznych terenach chronionych lot dronem w większości przypadków wymaga zezwolenia (concession), a latanie nim nad kempingiem bez zgody jest nielegalne i bardzo źle widziane.",
+            "Psy są zakazane na większości publicznych terenów chronionych, bo zagrażają ptakom gniazdującym na ziemi i kiwi. Kilka kempingów je dopuszcza, większość nie, a w niektórych rejonach potrzebne jest pozwolenie. Sprawdź zasady konkretnego miejsca, zamiast zgadywać."
+          ],
+          "tips": [
+            "Dron na terenach DOC wymaga zezwolenia",
+            "Psy zakazane na większości kempingów DOC",
+            "Generatory ograniczone lub zakazane"
+          ]
+        },
+        {
+          "heading": "Maksymalny czas pobytu i zachowanie na miejscu",
+          "body": [
+            "Na większości <a data-guide=\"doc-campsites-new-zealand-guide\">kempingów DOC</a> obowiązuje maksymalny czas pobytu, zwykle kilka nocy z rzędu, żeby nikt nie zajmował miejsca na długo. Latem na popularnych kempingach strażnicy naprawdę tego pilnują, a przestawienie pojazdu o kilka metrów nie zaczyna liczenia od nowa.",
+            "Trzymaj się wyznaczonej parceli, nie rozkładaj markizy ani sprzętu poza nią, gdy brakuje miejsca, i przestrzegaj ciszy nocnej. Takie kempingi są wspólne i często pełne, a komfort wszystkich zależy od tego, czy każdy mieści się na swoim miejscu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Przyjazd i rozłożenie się",
+          "body": [
+            "Jeśli się da, przyjeżdżaj za dnia. Wybór miejsca, ocena spływu wody, wypatrzenie nisko wiszących gałęzi i wypoziomowanie pojazdu są po ciemku znacznie trudniejsze, a miejsce, które o 16:00 od razu wydałoby się złym wyborem, o 21:00 łatwo zaakceptować, gdy zmęczenie daje o sobie znać.",
+            "Tam, gdzie działa skrzynka na opłaty (honesty box) albo samodzielna rejestracja, zapłać od razu po przyjeździe, zamiast zostawiać to na później. Strażnicy sprawdzają, opłata jest niewielka, a cały system działa tylko dlatego, że większość ludzi płaci bez przypominania.",
+            "Rozłóż się na wyznaczonej parceli i zostaw miejsce dla tych, którzy przyjadą po tobie. Na zatłoczonym kempingu latem zajęcie dwóch miejsc decyduje o tym, czy wszyscy się zmieszczą, czy część osób odejdzie z kwitkiem."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gdy kemping jest pełny",
+          "body": [
+            "Popularne kempingi DOC zapełniają się latem do połowy popołudnia i nie ma miejsc zapasowych. Urządzanie sobie dodatkowego miejsca na trawie, na drodze dojazdowej albo obok budynku z toaletami nie wchodzi w grę, a strażnicy każą jechać dalej.",
+            "Znajdź legalny plan B, zanim przyjedziesz, a nie dopiero potem. <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday park</a> (duży kemping z domkami, kuchnią i pralnią) pół godziny dalej to znacznie lepsze wyjście niż późna jazda nieznaną drogą w poszukiwaniu jakiegokolwiek miejsca, które cię przyjmie."
+          ],
+          "tips": [
+            "Popularne kempingi zapełniają się do połowy popołudnia",
+            "Nie ma miejsc zapasowych",
+            "Plan B ustal przed przyjazdem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jakie zasady obowiązują na kempingu DOC?",
+          "Zapłać za każdego dorosłego, rozbijaj się tylko na wyznaczonych miejscach, zabieraj wszystkie śmieci, korzystaj z udostępnionych toalet i zachowuj ciszę po zmroku. Ogień, psy i generatory są ograniczone lub zakazane, zależnie od miejsca, a znaki na miejscu mają pierwszeństwo przed wszystkim, co przeczytasz wcześniej."
+        ],
+        [
+          "Czy na kempingu DOC można zostać dłużej niż jedną noc?",
+          "Zwykle tak, ale na popularnych kempingach obowiązuje maksymalny czas pobytu, podany przy wjeździe. Gdy kemping jest latem mocno obłożony, limit jest egzekwowany."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Warunki rezerwacji noclegów DOC"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-biosecurity-camping-gear": {
+      "title": "Bioasekuracja w Nowej Zelandii: sprzęt kempingowy i trekkingowy",
+      "description": "Przedmioty ryzykowne zgłoś na granicy, a sprzęt wyczyść, zanim trafi z jednych wód do drugich albo z lasu do lasu.",
+      "region": "Nowa Zelandia: granica i natura",
+      "imageAlt": "Czyste buty trekkingowe przygotowane do kontroli bioasekuracyjnej w Nowej Zelandii",
+      "intro": "Używany sprzęt outdoorowy może przenosić nasiona, ziemię, owady i szkodniki wodne. Bioasekuracja (ochrona przed zawleczeniem szkodników i chorób) zaczyna się na granicy i trwa dalej, gdy sprzęt przemieszcza się między ekosystemami Nowej Zelandii.",
+      "sections": [
+        {
+          "heading": "Zgłoś przy przylocie",
+          "body": [
+            "Zgłoś używane buty, namioty, sprzęt wędkarski, jedzenie, materiał roślinny i produkty zwierzęce, gdy wymaga tego New Zealand Traveller Declaration. Zgłoszenie pozwala służbom ocenić i wyczyścić rzeczy, a ryzyko i kara biorą się z ukrywania.",
+            "Pakuj sprzęt tak, by dało się go łatwo skontrolować. Przed lotem zeszoruj ziemię i resztki roślin, ale i tak zgłoś przedmiot, jeśli pytanie w deklaracji go dotyczy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Czyść sprzęt między miejscami",
+          "body": [
+            "Sprawdź, wyczyść i wysusz łodzie, wodery, wiosła i sprzęt wędkarski, zanim użyjesz ich w innej rzece lub jeziorze. Mikroskopijne szkodniki przeżywają w wilgoci, która wygląda niewinnie.",
+            "Zanim zmienisz zlewnię, zdejmij szczotką nasiona i błoto z opon, śledzi namiotowych i sprzętu trekkingowego. Tam, gdzie są stanowiska do mycia, korzystaj z nich."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nie pozbywaj się niczego na własną rękę",
+          "body": [
+            "Nigdy nie wylewaj ani nie wyrzucaj do środowiska przynęty, wody z akwarium, roślin spożywczych ani nieoczyszczonej wody po myciu. Korzystaj ze śmietników i systemów <a data-guide=\"camping-wastewater-rubbish-new-zealand\">odprowadzania ścieków</a> przeznaczonych dla danego rodzaju odpadów.",
+            "Stosuj się do regionalnych komunikatów o zwalczaniu szkodników i do tymczasowych rāhui (zakazów wstępu lub korzystania z danego miejsca, ogłaszanych przez społeczność Māori). Lokalne ograniczenia mogą iść dalej niż krajowe minimum i chronić konkretny gatunek lub miejsce."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zgłaszaj wszystko na granicy",
+          "body": [
+            "System bioasekuracji w Nowej Zelandii należy do najsurowszych na świecie, a za niezgłoszone przedmioty ryzykowne grozi natychmiastowy mandat. Używane buty trekkingowe, namioty, sprzęt kempingowy, rowery i wszystko, co miało kontakt z ziemią lub słodką wodą, trzeba zgłosić. To samo dotyczy niemal każdego jedzenia.",
+            "Zgłoszenie nic nie kosztuje i zajmuje minutę. Pracownik kontroli może obejrzeć i wyczyścić rzecz, a potem puścić cię dalej. Mandat bierze się z niezgłoszenia, nie z samego przedmiotu, a ta różnica zaskakuje wielu turystów, którzy nie mieli nic złego na myśli."
+          ],
+          "tips": [
+            "Zgłoszenie jest bezpłatne, a brak zgłoszenia kończy się mandatem",
+            "Używane buty i namioty trzeba zgłosić",
+            "Każde jedzenie trzeba zgłosić"
+          ]
+        },
+        {
+          "heading": "Wyczyść sprzęt przed spakowaniem",
+          "body": [
+            "Przyjedź z butami oczyszczonymi z ziemi, suchymi namiotami bez nasion i owadów oraz wyczyszczonym i wysuszonym sprzętem mającym kontakt z wodą. Sprzęt, który przyjeżdża wyraźnie brudny, częściej jest zatrzymywany do odkażenia, co może oznaczać, że odbierzesz go później albo w ogóle go stracisz.",
+            "Przejrzyj kieszenie i pokrowce pod kątem nasion, resztek liści i zaschniętego błota. Namiot spakowany wilgotny w innym kraju często przyjeżdża z kolonią jakichś organizmów, a łatwiej sobie z tym poradzić w domu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Check, Clean, Dry: sprawdź, wyczyść i wysusz między rzekami i jeziorami",
+          "body": [
+            "Didymo i inne szkodniki wód słodkich przenoszą się na wilgotnym sprzęcie między zlewniami. Wymóg dotyczy butów, woderów, namiotów, sprzętu wędkarskiego, desek do paddleboardingu i wszystkiego innego, co miało kontakt ze słodką wodą, i obowiązuje wewnątrz kraju tak samo jak na granicy.",
+            "Wyczyść sprzęt dokładnie, potem wysusz go całkowicie i zostaw suchy na co najmniej 48 godzin, zanim użyjesz go w innej rzece lub jeziorze. Tam, gdzie suszenie jest niepraktyczne, użyj zalecanych roztworów do odkażania."
+          ],
+          "tips": [
+            "Obowiązuje też wewnątrz kraju, nie tylko przy wjeździe",
+            "Susz 48 godzin przed kolejną rzeką lub jeziorem",
+            "Dotyczy butów, namiotów i desek"
+          ]
+        },
+        {
+          "heading": "Przemieszczanie się między wyspami i regionami",
+          "body": [
+            "Istnieją też kontrole wewnętrzne. Na Ulva Island, <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a> i w innych sanktuariach wolnych od drapieżników trzeba przed wejściem na pokład sprawdzić bagaże pod kątem gryzoni i nasion, a punkty kontrolne na nabrzeżach nie są formalnością. Jeden szczur, który dotrze na wyspę, niweczy dekady pracy.",
+            "Kontrole związane z nasionnicami (fruit fly) i inne regionalne ograniczenia czasami utrudniają przewożenie świeżych produktów w obrębie kraju. Jeśli obszar kontroli obowiązuje, jest oznakowany i ogłaszany publicznie, a przepisy dotyczą lodówki w kamperze tak samo jak ciężarówki."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Skąd tak surowe przepisy",
+          "body": [
+            "Rodzime gatunki Nowej Zelandii wyewoluowały bez ssaków lądowych i prawie nie mają przed nimi obrony. Zawleczone drapieżniki, chwasty i choroby już doprowadziły do wymarcia gatunków, a kontrole graniczne istnieją, bo kraj wciąż traci gatunki przez to, co przyjeżdża w bagażu.",
+            "Pryszczyca, nasionnice i rdza mirtowatych (myrtle rust) to zagrożenia o największych skutkach gospodarczych i przyrodniczych, a każde z nich było już więcej niż raz przechwycone na granicy. To dzięki kontroli, która wydaje ci się uciążliwa, udaje się je zatrzymać.",
+            "Procedura jest szybka, a pracownicy kontroli pomagają, gdy coś zgłosisz. Kara grozi za ukrywanie, a nie za błotniste buty, i cała różnica sprowadza się do tego, czy zaznaczysz właściwe pole w formularzu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wyjazd z kraju",
+          "body": [
+            "Niektórych rzeczy zdobytych tutaj nie można wywieźć, a inne wymagają dokumentów. Wszystko, co wykonano z gatunków chronionych, nefryt (greenstone) wydobyty w niektórych rejonach i część materiału roślinnego podlegają ograniczeniom, które warto sprawdzić przed pakowaniem.",
+            "Szczególnie Australia ma własne surowe przepisy graniczne, więc sprzęt, który przyjechał tu zabłocony, po wyjeździe z Nowej Zelandii czeka równie dokładna kontrola. Przed lotem powrotnym wyczyść wszystko jeszcze raz."
+          ],
+          "tips": [
+            "Przed wywozem sprawdź ograniczenia",
+            "Australia jest równie surowa przy wjeździe",
+            "Przed lotem do domu wyczyść sprzęt jeszcze raz"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaki sprzęt kempingowy trzeba zgłosić na granicy Nowej Zelandii?",
+          "Namioty, buty, kije trekkingowe, rowery i wszystko, co miało kontakt z ziemią lub słodką wodą za granicą, a także jedzenie, nasiona i przedmioty drewniane. Zgłoszenie nic nie kosztuje, a niezgłoszenie kończy się natychmiastowym mandatem."
+        ],
+        [
+          "Jak przygotować sprzęt przed lotem do Nowej Zelandii?",
+          "Wyczyść go przed spakowaniem. Ziemia usunięta w domu z butów i śledzi namiotowych oraz rower lub plecak wysuszone i oczyszczone szczotką to różnica między dwuminutową kontrolą a poddaniem sprzętu zabiegom lub jego konfiskatą."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Wytyczne bioasekuracyjne dla przyjeżdżających do Nowej Zelandii"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-road-rules-new-zealand": {
+      "title": "Jazda kamperem po Nowej Zelandii: przepisy i bezpieczeństwo",
+      "description": "Wymiary, pasażerowie, masa i ograniczenia z umowy wynajmu: sprawdź je, zanim wąska droga pokaże, jak duży jest twój pojazd.",
+      "region": "Drogi w Nowej Zelandii",
+      "imageAlt": "Duży kamper na wąskiej drodze w Nowej Zelandii",
+      "intro": "Kamperem można legalnie jeździć z prawem jazdy Class 1, a mimo to prowadzi się go zupełnie inaczej niż samochód osobowy. Przy odbiorze trzeba ustalić wysokość, szerokość, długość, masę załadowanego pojazdu i każdą drogę wyłączoną w umowie wynajmu.",
+      "sections": [
+        {
+          "heading": "Zmierz, zanim ruszysz",
+          "body": [
+            "Zapisz wymiary pojazdu tak, by kierowca je widział. Wywietrzniki dachowe, klimatyzatory, bagażniki rowerowe i tylny zwis wpływają na to, pod czym przejedziesz, i na manewrowanie.",
+            "W czasie jazdy każdy pasażer musi siedzieć na homologowanym siedzeniu z pasami. Łóżka i tylna strefa mieszkalna nie są miejscami dla pasażerów, chyba że mają taki certyfikat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Daj pojazdowi miejsce",
+          "body": [
+            "Hamuj wcześniej, pokonuj zakręty wolno i zostawiaj większy odstęp od poprzedzającego pojazdu. Świadomie korzystaj z lusterek i przepuszczaj jadących z tyłu w bezpiecznych zatoczkach.",
+            "Silny boczny wiatr może przesunąć wysoki pojazd w poprzek pasa. Zwolnij albo zatrzymaj się, gdy musisz bez przerwy korygować tor jazdy kierownicą."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Przestrzegaj zakazów z umowy",
+          "body": [
+            "Umowy najmu mogą zakazywać jazdy po plażach, drogach szutrowych czy wskazanych odległych trasach, nawet jeśli są ogólnodostępne. Ubezpieczenie może zależeć od tych samych warunków.",
+            "Zatrzymaj się przed niską gałęzią, mostem z ograniczeniem masy albo niepewnym brodem. Wyciąganie pojazdu przez pomoc drogową nie zastąpi sprawdzenia, czy się zmieścisz."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Poznaj wymiary, zanim ruszysz",
+          "body": [
+            "Zapisz wysokość, długość i masę pojazdu i trzymaj kartkę w miejscu widocznym dla kierowcy. Najdroższe szkody powoduje wysokość: na wjazdach do parkingów, w okienkach drive-through, pod zadaszeniami stacji paliw i w niektórych miejskich przejazdach pod wiaduktami.",
+            "Przed wyjazdem z wypożyczalni sprawdź lusterka, martwe pola i kamerę cofania oraz obejdź pojazd dookoła. Większość szkód w wynajmowanych kamperach powstaje w pierwszych dwóch dniach, przy małej prędkości, na parkingach."
+          ],
+          "tips": [
+            "Zapisz wysokość na desce rozdzielczej",
+            "Najwięcej szkód powstaje na parkingach",
+            "Obejdź pojazd przed wyjazdem"
+          ]
+        },
+        {
+          "heading": "Każdy jedzie na właściwym siedzeniu",
+          "body": [
+            "Łóżka, kąciki jadalne bez pasów i część mieszkalna nie są miejscami dla pasażerów, gdy pojazd jedzie. Każda osoba w środku potrzebuje homologowanego siedzenia z działającym pasem, a dzieci poniżej siedmiu lat muszą jechać w fotelikach spełniających konkretne normy.",
+            "Przed każdą jazdą zabezpiecz wszystko, co luźne. Drzwiczki szafki, butla z gazem czy pełny czajnik stają się niebezpieczne przy hamowaniu awaryjnym, a kamper wyhamowuje później niż samochód osobowy i hamuje się nim gwałtowniej."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wiatr: dlaczego tu ma większe znaczenie",
+          "body": [
+            "Wysoki pojazd źle znosi boczny wiatr, a Nowa Zelandia to wietrzny kraj, z odsłoniętymi drogami nadmorskimi, mostami i przesmykami między górami. Wyprzedzanie ciężarówek i wyjazd z wykopu drogowego powodują nagłe boczne uderzenia wiatru.",
+            "Na odsłoniętych odcinkach trzymaj kierownicę mocno obiema rękami, zwalniaj przed podmuchem, a nie w jego trakcie, i pamiętaj, że niektóre trasy w silnym wietrze są zamykane dla wysokich pojazdów, w tym Rimutaka Hill Road i odcinki Desert Road."
+          ],
+          "tips": [
+            "Zwolnij przed odsłoniętym odcinkiem",
+            "Niektóre drogi zamykane dla wysokich pojazdów",
+            "Ciężarówki i wykopy dają nagłe podmuchy"
+          ]
+        },
+        {
+          "heading": "Wyprzedzanie i przepuszczanie innych",
+          "body": [
+            "Kamper przyspiesza wolno, więc wyprzedzanie wymaga znacznie więcej wolnej drogi niż w samochodzie osobowym i rzadko się opłaca. Większość nowozelandzkich dróg krajowych ma jeden pas w każdą stronę, niewiele pasów do wyprzedzania i dużo wypadków przy wyprzedzaniu.",
+            "Gdy za tobą narasta kolejka, zjedź tam, gdzie to bezpieczne, i przepuść pojazdy. Jeśli za tobą jedzie w kolejce pięć lub więcej pojazdów, masz obowiązek zrobić to, gdy tylko będzie to bezpieczne, a przy okazji znika presja, przez którą inni wyprzedzają ryzykownie."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Parkowanie i legalność noclegu",
+          "body": [
+            "Zaparkowanie kampera to coś innego niż nocowanie w nim. Pojazd może stać legalnie, a mimo to nocowanie w nim jest zabronione, i właśnie od tej różnicy zależy większość mandatów.",
+            "Kierowcy kamperów ciągle dają się zaskoczyć ograniczeniom wysokości na miejskich parkingach, a pierwszym sygnałem jest zwykle szlaban. Przed wjazdem wypatruj znaków z limitem wysokości i korzystaj z otwartych parkingów naziemnych lub dodatkowych, które większość miast wyznacza dla większych pojazdów.",
+            "W miastach praktyczne wyjście to zostawić pojazd na kempingu albo na parkingu typu park-and-ride i dojechać <a data-guide=\"public-transport-costs-new-zealand-2026\">transportem publicznym</a>. Jest szybciej, taniej i w ogóle omijasz problem, zamiast się z nim mocować."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Promy, tunele i ograniczenia wysokości",
+          "body": [
+            "Ceny <a data-guide=\"cook-strait-ferry-campervan-guide\">przeprawy przez Cieśninę Cooka</a> zależą od długości i wysokości pojazdu, a oba wymiary są sprawdzane. Niektóre miejskie tunele i starsze mosty mają ograniczenia wysokości lub masy, a kilka tras jest zamykanych dla wysokich pojazdów przy silnym wietrze.",
+            "Poznaj dokładne wymiary pojazdu i porównuj je z każdą trasą, na której jest tunel, niski most albo prom z rezerwacją. Zgadywanie kończy się drogą dopłatą w terminalu albo czymś gorszym na drodze."
+          ],
+          "tips": [
+            "Ceny promu zależą od rozmiaru",
+            "Dokładna wysokość i długość",
+            "Niektóre trasy zamknięte dla wysokich vanów"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy limity prędkości są inne dla kampera?",
+          "Nie, jeśli chodzi o większość wynajmowanych kamperów, także dużych (motorhome), o masie poniżej 3 500 kg: obowiązuje zwykły limit poza terenem zabudowanym. Cięższe pojazdy i zestawy z przyczepą mają niższy limit, a na krętej drodze limit to górna granica, a nie prędkość, którą trzeba jechać."
+        ],
+        [
+          "Co najczęściej zaskakuje kierowców kamperów w Nowej Zelandii?",
+          "Wysokość i szerokość na wąskich drogach, wiatr na odsłoniętych przełęczach i mostach oraz kolejka, która tworzy się za tobą. Zjeżdżanie na bok, żeby przepuścić innych, jest tu oczekiwane i to właśnie ono najbardziej zmniejsza ryzyko."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: jazda po drogach Nowej Zelandii"
+        }
+      ],
+      "priceTable": null
+    },
+    "towing-caravan-new-zealand": {
+      "title": "Jazda z przyczepą kempingową w Nowej Zelandii",
+      "description": "Limit 90 km/h, masa załadowanego zestawu i czterosekundowy odstęp to punkty wyjścia, a nie cele.",
+      "region": "Drogi w Nowej Zelandii",
+      "imageAlt": "Samochód z przyczepą kempingową na nowozelandzkiej drodze krajowej",
+      "intro": "O stabilności przyczepy decydują legalny zestaw, prawidłowy załadunek i kierowca, który zwalnia, zanim wymusi to droga. Na wielu odcinkach nowozelandzkie zakręty i wiatr sprawiają, że maksymalna dozwolona prędkość przestaje mieć znaczenie.",
+      "sections": [
+        {
+          "heading": "Poznaj swój zestaw",
+          "body": [
+            "Sprawdź dopuszczalną masę holowania, sprzęg, łańcuch zabezpieczający, światła, opony, hamulce i masy załadowane obu pojazdów. Dolicz wodę, gaz, rowery i sprzęt, których nie obejmuje masa pustego pojazdu z danych technicznych.",
+            "Pasażerowie nie mogą jechać w przyczepie podczas jazdy. Każdy ma siedzieć w homologowanym fotelu z pasami w pojeździe holującym."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Prędkość i odstęp",
+          "body": [
+            "Maksymalna prędkość poza terenem zabudowanym podczas holowania wynosi 90 km/h przy sztywnym połączeniu zestawu. Jedź wolniej, gdy wymagają tego stabilność, widoczność, pogoda albo droga.",
+            "Zachowaj co najmniej czterosekundowy odstęp, a w złą pogodę większy. Hamuj przed zakrętami i na zjazdach wrzucaj niższy bieg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Na wąskich drogach myśl o innych",
+          "body": [
+            "Zjeżdżaj w bezpiecznych zatoczkach, żeby przepuścić jadących z tyłu, a na <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">mosty jednopasmowe</a> wjeżdżaj tylko wtedy, gdy cały zestaw może przejechać na drugą stronę.",
+            "Silny wiatr, kołysanie przyczepy lub rozgrzane hamulce wymagają zatrzymania się. Nie próbuj nadrabiać opóźnień w planie podróży szybszą jazdą."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Z przyczepą obowiązują niższe limity",
+          "body": [
+            "Lekkie przyczepy i przyczepy kempingowe mają limit 90 km/h poza terenem zabudowanym, czyli poniżej ogólnego limitu 100 km/h, a ciężkie zestawy z przyczepą też są ograniczone do 90 km/h. Limit obowiązuje bez względu na prędkość podaną na znaku i jest egzekwowany.",
+            "Zostaw znacznie większy odstęp niż w samochodzie bez przyczepy. Droga hamowania z przyczepą wyraźnie się wydłuża, a najczęstsze wypadki zestawów z przyczepą zdarzają się tu wtedy, gdy na zjeździe zabraknie miejsca na zatrzymanie."
+          ],
+          "tips": [
+            "Podczas holowania maksymalnie 90 km/h",
+            "Droga hamowania mocno się wydłuża",
+            "Odstęp większy niż w samochodzie"
+          ]
+        },
+        {
+          "heading": "Masy, dopuszczalne wartości i załadunek",
+          "body": [
+            "Maksymalna masa holowania pojazdu, dopuszczalne obciążenie haka, dopuszczalna masa całkowita przyczepy i nacisk na kulę haka muszą do siebie pasować, a ograniczeniem jest zawsze najniższa z tych wartości. Przekroczenie którejkolwiek wpływa na prowadzenie, hamowanie i ubezpieczenie.",
+            "Ciężkie rzeczy układaj nisko i nad osią, utrzymuj około dziesięciu procent masy na kuli haka i nie obciążaj tyłu przyczepy, bo to powoduje kołysanie. Sprawdź załadunek jeszcze raz po pierwszej godzinie jazdy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kołysanie przyczepy: jak reagować",
+          "body": [
+            "Kołysanie zwykle zaczyna się od podmuchu bocznego wiatru, mijającej ciężarówki albo zbyt małego nacisku na kulę haka i narasta, zamiast samo się uspokoić. Odruch mocnego hamowania lub kontrowania kierownicą pogarsza sprawę.",
+            "Łagodnie zdejmij nogę z gazu, trzymaj kierownicę prosto i pozwól zestawowi zwolnić samoczynnie. Jeśli pojazd ma sterownik hamulca przyczepy, samo zahamowanie przyczepy może wyprostować zestaw. Potem zatrzymaj się i sprawdź załadunek."
+          ],
+          "tips": [
+            "Zdejmij nogę z gazu, nie hamuj mocno",
+            "Trzymaj kierownicę prosto",
+            "Potem zatrzymaj się i sprawdź załadunek"
+          ]
+        },
+        {
+          "heading": "Drogi, nad którymi warto się zastanowić",
+          "body": [
+            "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road i duża część wybrzeża Coromandel są wymagające z przyczepą, a niektóre są zakazane lub zdecydowanie odradzane dla dużych zestawów. Sprawdź to, zanim wjedziesz na taką drogę, bo często nie da się zawrócić.",
+            "Na zjazdach wrzucaj niższy bieg i hamuj silnikiem, zamiast trzymać nogę na hamulcu, bo hamulce tracą skuteczność. Regularnie zjeżdżaj na bok, żeby przepuścić jadących z tyłu, zarówno z grzeczności, jak i dlatego, że kolejka za tobą zwiększa ryzyko przy wyprzedzaniu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Cofanie, parkowanie i kempingi",
+          "body": [
+            "Przed wyjazdem poćwicz cofanie na pustym parkingu. Na kempingach często trzeba wycofać w wyznaczone miejsce z sąsiadami tuż po obu stronach, a gdy robi się to pierwszy raz przy publiczności, łatwo uszkodzić przyczepę.",
+            "Rezerwuj miejsca pasujące do długości zestawu i przy rezerwacji zaznacz, że jedziesz z przyczepą. Wiele <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parków</a> (dużych kempingów z domkami, kuchnią i pralnią) ma specjalne miejsca przejazdowe (drive-through), a takie miejsce oszczędza większości kłopotów przy przyjeździe.",
+            "Po odpięciu przyczepy masz zwykłe auto na wycieczki, więc warto to zrobić, gdy zostajesz dłużej niż jedną noc. Podłóż kliny pod koła, użyj podjazdów do poziomowania i zanim cokolwiek odłączysz, sprawdź, czy hamulec ręczny trzyma."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wiatr i odsłonięte drogi",
+          "body": [
+            "Przyczepa to duża płaska powierzchnia, a boczny wiatr jest główną przyczyną utraty panowania nad zestawem. Słyną z tego odsłonięte odcinki wokół Wellington, Desert Road, region Mackenzie i wybrzeże Canterbury.",
+            "Zwalniaj przed odsłoniętymi odcinkami, zamiast reagować w ich trakcie, i uważaj szczególnie przy wyjeździe z wykopu drogowego lub mijaniu ciężarówki, gdzie wiatr nagle uderza i słabnie."
+          ],
+          "tips": [
+            "Boczny wiatr to główne zagrożenie przy holowaniu",
+            "Zwolnij przed odsłoniętymi odcinkami",
+            "Ciężarówki powodują nagłe podmuchy"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaki jest limit prędkości przy holowaniu w Nowej Zelandii?",
+          "90 km/h, czyli poniżej limitu 100 km/h poza terenem zabudowanym, i obowiązuje on bez względu na to, co pokazuje znak. Wszystko, co holujesz, musi też mieścić się w dopuszczalnej masie holowania twojego pojazdu, która jest limitem prawnym, a nie wskazówką."
+        ],
+        [
+          "Czy do holowania przyczepy w Nowej Zelandii trzeba specjalnego prawa jazdy?",
+          "Pełne prawo jazdy na samochód obejmuje większość zestawów do 4 500 kg łącznej masy. Powyżej potrzebna jest wyższa kategoria, a umowy najmu często narzucają własne limity, niższe od prawnych."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: kampery, przyczepy kempingowe i lekkie przyczepy"
+        }
+      ],
+      "priceTable": null
+    },
+    "speed-limits-new-zealand-visitors": {
+      "title": "Limity prędkości i bezpieczne tempo na drogach Nowej Zelandii",
+      "description": "Liczba na znaku to górna granica w dobrych warunkach, a na wielu drogach poza miastem trzeba jechać znacznie wolniej.",
+      "region": "Drogi w Nowej Zelandii",
+      "imageAlt": "Znak ograniczenia prędkości na wiejskiej drodze w Nowej Zelandii",
+      "intro": "Limit prędkości nie gwarantuje, że daną drogą da się tak szybko jechać. Zakręty, deszcz, szuter, zwierzęta gospodarskie, rowerzyści i nieznany kamper obniżają bezpieczne tempo.",
+      "sections": [
+        {
+          "heading": "Wypatruj każdej zmiany limitu",
+          "body": [
+            "Limity zależą od drogi i miejsca: przy robotach drogowych obowiązują limity tymczasowe, a wokół wielu miejscowości i szkół niższe strefy. Patrz na znaki, zamiast polegać na zapamiętanej ogólnokrajowej wartości.",
+            "Żółty znak z prędkością zalecaną przed zakrętem nie jest prawnym limitem, ale mówi o kształcie drogi, na który trzeba uważać."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zwalniaj przed zagrożeniem",
+          "body": [
+            "Hamuj na prostej przed wjazdem w zakręt i zostaw zapas pozwalający zatrzymać się na widocznym odcinku drogi. Szuter i mokre liście zmniejszają przyczepność na długo przed pojawieniem się ostrzeżenia.",
+            "Nocą lub we mgle zwolnij tak, żeby w świetle reflektorów widzieć drogę na tyle daleko, by zdążyć się zatrzymać. Światła drogowe nie wyprostują krętej drogi."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nie wywieraj presji",
+          "body": [
+            "Przepuszczaj szybsze pojazdy w bezpiecznych zatoczkach. Nigdy nie przyspieszaj na pasie do wyprzedzania tylko po to, by na następnym zakręcie znów mieć za sobą kolejkę.",
+            "Jeśli planowany przyjazd zależy od jazdy z maksymalną dozwoloną prędkością na każdym odcinku, plan podróży jest już zbyt napięty."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Limit na znaku to maksimum, a nie cel",
+          "body": [
+            "Limit poza terenem zabudowanym wynosi zwykle 100 km/h, a w miastach zazwyczaj 50 km/h, z limitami zmiennymi i obniżonymi wokół szkół, robót drogowych i na niektórych drogach krajowych poza miastami. Limit zakłada idealne warunki, samochód osobowy i kierowcę znającego drogę.",
+            "Prawie na żadnej drodze krajowej poza miastami w Nowej Zelandii nie jedzie się komfortowo 100 km/h załadowanym kamperem, w deszczu ani na nieznanym, krętym odcinku. Jazda z prędkością dopasowaną do warunków jest legalna i oczekiwana, a zbyt wolna jazda na prostej to nie to samo co jazda bezpieczna."
+          ],
+          "tips": [
+            "100 km/h poza miastem, 50 w mieście",
+            "Limity zakładają idealne warunki",
+            "Z przyczepą maksymalnie 90 km/h"
+          ]
+        },
+        {
+          "heading": "Kontrole są ostrzejsze, niż wielu turystów się spodziewa",
+          "body": [
+            "Tolerancja jest niewielka, fotoradarów jest dużo, także mobilnych, a mandaty trafiają do zarejestrowanego posiadacza pojazdu, więc wypożyczalnia przekaże je dalej z opłatą administracyjną. Punkty karne nie dotyczą zagranicznych praw jazdy, ale mandaty jak najbardziej.",
+            "Odcinkowych pomiarów prędkości i niższych limitów poza miastami w ostatnich latach przybyło. Zakładaj, że każda droga może być monitorowana, zamiast wypatrywać kamer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dlaczego same drogi wymagają mniejszej prędkości",
+          "body": [
+            "Nowozelandzkie drogi krajowe mają w większości jeden pas w każdą stronę, bez rozdzielenia jezdni, ciasne łuki, zmienny przechył jezdni, <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">mosty jednopasmowe</a>, zwierzęta gospodarskie bez ogrodzenia i częste boczne drogi szutrowe, z których żwir trafia na jezdnię. Poboczy, które wybaczają błędy, jest bardzo mało.",
+            "To połączenie sprawia, że wypadki z udziałem kierowców z zagranicy koncentrują się na drogach poza miastem. Bezpieczne tempo jest zwykle znacznie poniżej limitu, a czas stracony w ciągu dnia to kilka minut, a nie godzina, jak się ludziom wydaje."
+          ],
+          "tips": [
+            "Pas w każdą stronę, bez rozdzielenia, mało pobocza",
+            "Żwir wyrzucany na asfalt",
+            "Wolniejsza jazda kosztuje minuty, nie godziny"
+          ]
+        },
+        {
+          "heading": "Prędkość i pas do wyprzedzania",
+          "body": [
+            "Nie zwiększaj prędkości, gdy pojawia się pas do wyprzedzania, a ktoś cię wyprzedza. To najczęstsza przyczyna konfliktów na nowozelandzkich drogach: bezpieczne wyprzedzanie staje się wtedy niebezpieczne.",
+            "Tak samo, jeśli ktoś jedzie tuż za tobą, nie daj się zmusić do jazdy szybciej, niż ci odpowiada. Zjedź w najbliższą zatoczkę dla wolnych pojazdów lub w inne bezpieczne miejsce i przepuść jadących za tobą; presja znika, a razem z nią ryzyko."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Limity zmienne i obniżone",
+          "body": [
+            "Limity przy szkołach spadają w ustalonych godzinach i są oznaczane migającymi lub zmiennymi wyświetlaczami. Przy robotach drogowych obowiązują limity tymczasowe, niezależnie od tego, czy kogoś widać przy pracy, i są egzekwowane z taką samą niewielką tolerancją jak limity stałe.",
+            "Na części dróg krajowych poza miastami po przeglądach bezpieczeństwa obniżono limit ze 100 km/h, a zmiana nie zawsze jest oczywista, jeśli korzystasz ze starszej mapy albo pamiętasz poprzednią wizytę. Czytaj znaki, zamiast zakładać, że obowiązuje limit poza terenem zabudowanym.",
+            "Na drogach szutrowych limit na znaku to często nadal 100 km/h, co jest bardzo dalekie od bezpiecznej prędkości na szutrze. Tu limit naprawdę jest tylko prawnym maksimum, a nie wskazówką, na jaką prędkość pozwala nawierzchnia."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jak działają fotoradary i mandaty",
+          "body": [
+            "Stałe i mobilne fotoradary działają w całym kraju, a tolerancja jest niewielka. Mandaty trafiają do zarejestrowanego posiadacza pojazdu, więc dostaje je wypożyczalnia i przekazuje dalej z opłatą administracyjną.",
+            "Punkty karne nie dotyczą <a data-guide=\"overseas-driver-licence-new-zealand\">zagranicznego prawa jazdy</a>, ale mandaty tak, a nieopłacone mogą cię dogonić. Zapłać je, zamiast zakładać, że znikną po twoim wyjeździe."
+          ],
+          "tips": [
+            "Niewielka tolerancja",
+            "Wypożyczalnie doliczają opłatę administracyjną",
+            "Nieopłacone mandaty cię dogonią"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaki jest limit prędkości poza terenem zabudowanym w Nowej Zelandii?",
+          "100 km/h, o ile znak nie mówi inaczej, 50 km/h w terenie zabudowanym i 90 km/h, jeśli jedziesz z przyczepą. Niektóre drogi mają znak 110 km/h, a na wielu drogach poza miastem obowiązują niższe limity."
+        ],
+        [
+          "Dlaczego jazda po Nowej Zelandii trwa dłużej, niż sugeruje odległość?",
+          "Bo limit na znaku rzadko da się osiągnąć. Drogi są wąskie, kręte i często mają jeden pas w każdą stronę, więc realna średnia jest wyraźnie niższa od limitu, a 300 km to cały dzień jazdy."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: limity prędkości"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
