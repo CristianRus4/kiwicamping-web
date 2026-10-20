@@ -32,7 +32,7 @@
     "seeHow": "Se hvordan det virker",
     "statPlaces": "6 500+",
     "statPlacesLabel": "steder på hele New Zealand",
-    "statOffline": "Offline",
+    "statOffline": "Uten dekning",
     "statOfflineLabel": "all stedsinformasjon, uten dekning",
     "statStays": "2 000+",
     "statStaysLabel": "steder å overnatte",
@@ -103,8 +103,8 @@
     "principle1Text": "Oppslag på stedet, forvalteren og gjeldende beredskapsråd går alltid foran en oppføring i appen.",
     "principle2Title": "Sjekk det som gjelder nå",
     "principle2Text": "Sjekk siste nytt om booking, veier, brannfare og stengninger før du drar.",
-    "principle3Title": "Legg igjen stedet bedre",
-    "principle3Text": "Lovlig camping, omtanke med avfall og respekt for whenua, landet, holder disse stedene åpne.",
+    "principle3Title": "Etterlat stedet bedre enn du fant det",
+    "principle3Text": "Lovlig camping, forsvarlig håndtering av avfall og respekt for whenua holder disse stedene åpne.",
     "faqEyebrow": "Rett på sak",
     "faqTitle": "Gode spørsmål. Klare svar.",
     "faqIntro": "Ærlige svar om å reise med KiwiCamping.",
@@ -527,7 +527,7 @@
           "heading": "De fire hyttekategoriene",
           "body": [
             "Serviced-hytter er best utstyrt: madrasser i køyene, vann, toalett og som regel oppvarming med brensel på plass. Standard-hytter har ikke brensel til oppvarmingen og noen ganger heller ikke madrasser, men har køyer, vann og toalett. Basic-hytter er lite mer enn tak over hodet, og noen har ingen vannkilde i det hele tatt.",
-            "Great Walk-hyttene ligger langs Great Walks, New Zealands mest kjente flerdagsturer, og står utenfor denne rangstigen. I sesongen holder de høy standard, koster betydelig mer og har sitt eget bookingsystem knyttet til hver enkelt løype. Utenfor sesongen går de som regel ned til en lavere standard og en lavere pris, med færre eller ingen fasiliteter."
+            "Great Walk-hyttene står utenfor denne rangstigen. I sesongen holder de høy standard, koster betydelig mer og har sitt eget bookingsystem knyttet til hver enkelt løype. Utenfor sesongen går de som regel ned til en lavere standard og en lavere pris, med færre eller ingen fasiliteter."
           ],
           "tips": [
             "Kategorien sier hva som finnes og hva det koster",
@@ -863,7 +863,7 @@
     },
     "new-zealand-biosecurity-camping-gear": {
       "title": "Biosikkerhet på New Zealand: telt, sko og campingutstyr",
-      "description": "Brukte tursko, telt, fiskeutstyr og mat må deklareres når du lander på New Zealand. Slik rengjør du utstyret og unngår bot ved grensen og mellom vassdrag.",
+      "description": "Brukte tursko, telt, fiskeutstyr og mat må deklareres når du lander på New Zealand. Slik unngår du bot ved grensen og rengjør utstyret før det flyttes mellom vassdrag og skoger.",
       "region": "Innreise og friluftsliv",
       "imageAlt": "Rengjorte tursko klare for biosikkerhetskontrollen på New Zealand",
       "intro": "Brukt friluftsutstyr kan ta med seg frø, jord, insekter og skadeorganismer som lever i vann. Biosikkerheten starter ved grensen og fortsetter når utstyret flyttes mellom ulike naturområder på New Zealand.",
@@ -888,7 +888,7 @@
           "heading": "Ikke finn på egne løsninger for avfall",
           "body": [
             "Slipp aldri ut agn, akvarievann, matplanter eller urenset vaskevann i naturen. Bruk søppel- og <a data-guide=\"camping-wastewater-rubbish-new-zealand\">avløpsløsninger</a> som er laget for det du skal bli kvitt.",
-            "Følg regionale varsler om skadedyrbekjempelse og rāhui. Lokale restriksjoner kan beskytte en art eller et sted ut over minstekravene som gjelder nasjonalt."
+            "Følg regionale varsler om skadedyrbekjempelse og midlertidige rāhui. Lokale restriksjoner kan beskytte en art eller et sted ut over minstekravene som gjelder nasjonalt."
           ],
           "tips": []
         },
@@ -1086,7 +1086,7 @@
       "description": "Mål, vekt, passasjerer og forbud i leieavtalen: det du bør ha på plass før en smal vei viser hvor stor bobilen egentlig er.",
       "region": "Veiene på New Zealand",
       "imageAlt": "Stor bobil på en smal vei på New Zealand",
-      "intro": "Du kan kjøre en bobil på førerkort klasse 1, men den oppfører seg helt annerledes enn en vanlig bil. Ved overtakelsen bør du få klart for deg høyde, bredde, lengde, totalvekt og alle veier som leieavtalen utelukker.",
+      "intro": "Du kan kjøre en bobil på førerkort klasse 1, men den oppfører seg helt annerledes enn en vanlig bil. Ved overtakelsen bør du få klart for deg høyde, bredde, lengde, vekt med last og alle veier som leieavtalen utelukker.",
       "sections": [
         {
           "heading": "Mål bilen før du kjører",
@@ -1108,7 +1108,7 @@
           "heading": "Respekter forbudene",
           "body": [
             "Leieavtalen kan forby strender, uasfalterte veier eller navngitte avsidesliggende ruter, selv om veien er åpen for alle. Forsikringen kan avhenge av de samme vilkårene.",
-            "Stopp før en lav gren, en bru med vektbegrensning eller en elvekrysning du ikke er sikker på. Bergingsbil løser ikke et problem med fri høyde."
+            "Stopp før en lav gren, en bru med vektbegrensning eller et vadested du ikke er sikker på. Å regne med å bli berget er ingen erstatning for nok klaring."
           ],
           "tips": []
         },
@@ -1432,7 +1432,7 @@
           "heading": "Bensin, diesel og veibruksavgift (RUC)",
           "body": [
             "Diesel er billigere per liter ved pumpa, men dieselbiler betaler veibruksavgift (RUC) separat, kjøpt på forhånd per tusen kilometer. Leier du, bør du sjekke om RUC er inkludert i dagsprisen eller blir fakturert til slutt, for det endrer sammenligningen med bensin betydelig.",
-            "For en privatbil må RUC være gyldig for distansen du kjører, og det blir kontrollert. Det er enkelt å kjøpe på nett eller hos en agent, og kjører du forbi distansen du har kjøpt, får du gebyr."
+            "For en privatbil må RUC være gyldig for distansen du kjører, og det blir kontrollert. Det er enkelt å kjøpe på nett eller hos et godkjent registreringskontor, og kjører du forbi distansen du har kjøpt, risikerer du straff."
           ],
           "tips": [
             "Diesel betaler RUC i tillegg",
@@ -1443,7 +1443,7 @@
         {
           "heading": "Der drivstoffet er dyrest",
           "body": [
-            "Prisene er lavest i de store byene og rundt konkurransepregede stasjoner i forstedene, og høyest på avsidesliggende strekninger med bare én aktør. Vestkysten, Fiordland, East Cape, indre Otago og langt nord har alle et påslag, noen ganger et stort.",
+            "Prisene er lavest i de store byene og rundt konkurransepregede stasjoner i forstedene, og høyest på avsidesliggende strekninger med bare én aktør. West Coast, Fiordland, East Cape, indre Otago og langt nord har alle et påslag, noen ganger et stort.",
             "Påslaget er ingen grunn til å kjøre med nesten tom tank. Å fylle tjue liter til høyere pris er ubetydelig sammenlignet med å gå tom et sted <a data-guide=\"kiwicamping-offline-data-guide\">uten dekning</a>, og stasjonene som tar mest, er som regel de som ikke har noen konkurrent på hundre kilometer."
           ],
           "tips": []
@@ -1650,7 +1650,7 @@
           "heading": "Sted og sesong",
           "body": [
             "Queenstown, Aoraki, strender om sommeren og datoer med arrangementer kan ligge langt over en vanlig by. Avsidesliggende områder gir også ekstra kostnader til frakt av drivstoff og dagligvarer.",
-            "Prissett de faste datoene direkte, og bruk landsintervallene for de fleksible dagene mellom dem."
+            "Finn prisen for de faste datoene først, og bruk prisspennene for hele landet til de fleksible dagene imellom."
           ],
           "tips": []
         },
@@ -1658,7 +1658,7 @@
           "heading": "Ha en brukbar reserve",
           "body": [
             "Sett av penger til en endret ferjeavgang, en ekstra overnatting, dekk eller helsehjelp. En lovlig reserveplass på campingplass hører hjemme i budsjettet selv om du planlegger <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>.",
-            "Gå gjennom det du faktisk bruker, hver tredje dag eller så. Drivstoff, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> og aktiviteter er postene som oftest glir stille av gårde."
+            "Gå gjennom det du faktisk har brukt, med noen dagers mellomrom. Drivstoff, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> og aktiviteter er postene som oftest glir stille av gårde."
           ],
           "tips": []
         },
@@ -1748,7 +1748,7 @@
       }
     },
     "eating-out-new-zealand-prices-2026": {
-      "title": "Matpriser på New Zealand 2026: restaurant, takeaway og kaffe",
+      "title": "Spise ute på New Zealand 2026: restaurant, takeaway og kaffe",
       "description": "Intervaller for kafé, takeaway og restaurant viser hvorfor ett måltid kan endre hele dagsbudsjettet.",
       "region": "Byer og tettsteder på New Zealand",
       "imageAlt": "Måltid og kaffe på en kafé på New Zealand",
@@ -1758,7 +1758,7 @@
           "heading": "Velg hvilket måltid som teller",
           "body": [
             "Kjøp frokostvarer og niste til veien, og bruk penger med vilje på én lokal middag. Da blir ikke hurtigmat en uplanlagt kostnad tre ganger om dagen.",
-            "Bakerier, spisesteder i matcourt og takeaway-disker kan være et mellomalternativ, men sammenlign porsjon og næringsinnhold, ikke bare pris."
+            "Bakerier, food courts og takeaway-disker kan være et mellomalternativ, men sammenlign porsjon og næringsinnhold, ikke bare pris."
           ],
           "tips": []
         },
@@ -1771,7 +1771,7 @@
           "tips": []
         },
         {
-          "heading": "Før hele utflukten",
+          "heading": "Regn med hele utflukten",
           "body": [
             "Legg til drikke, transport, parkering og eventuelt kortgebyr på måltidet. En tilsynelatende billig restaurant på andre siden av byen kan koste mer enn å gå til en som er litt dyrere.",
             "Hold restaurantutgiftene adskilt fra <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a>, så det fortsatt er synlig hva som sprengte budsjettet."
@@ -1782,7 +1782,7 @@
           "heading": "Der prisen faktisk ligger",
           "body": [
             "En bakeripai og en kaffe er en virkelig billig lunsj og finnes i nesten alle byer. En brunsj på kafé er den vanligste utgiften i mellomsjiktet og blir fort dyrere enn man tror. En middag på restaurant med drikke er ofte den største enkeltposten på en dag, større enn overnattingen.",
-            "Fish and chips er fortsatt det varme måltidet som gir mest for pengene i de fleste kystbyer, og kvaliteten er som regel bedre i de minste. Bestiller du ved disken og spiser ute, betaler du en brøkdel av bordservering for et sammenlignbart måltid."
+            "Fish and chips er fortsatt det varme måltidet som gir mest for pengene i de fleste kystbyer, og kvaliteten er som regel bedre i de minste. Bestiller du ved disken og spiser utendørs, betaler du en brøkdel av det bordservering koster for et tilsvarende måltid."
           ],
           "tips": []
         },
@@ -1822,7 +1822,7 @@
           "heading": "Bakerier, og spørsmålet om kjøttdeig og ost",
           "body": [
             "Bakeripaien er det billigste varme måltidet i landet og en ekte del av kulturen, med en årlig landsdekkende konkurranse som tas mer alvorlig enn en utenforstående ville ventet. Bakerier i småbyer slår ofte de i byene.",
-            "Fish and chips bestilt ved disken og spist ute er det andre pålitelige, rimelige måltidet, og kvaliteten er som regel høyere i kystbyene enn i byene. Spør hva dagens fisk er i stedet for å bestille på måfå.",
+            "Fish and chips bestilt ved disken og spist utendørs er det andre pålitelige, rimelige måltidet, og kvaliteten er som regel høyere i kystbyene enn i storbyene. Spør hva dagens fisk er i stedet for å bestille på måfå.",
             "Kafeer slutter vanligvis å servere mat tidligere enn besøkende venter, ofte midt på ettermiddagen, og i småbyer kan det være stengt overalt etter kl. 20.00. Har du noe du kan lage selv, slipper du at en sen ankomst ender med en dyr eller glipt middag."
           ],
           "tips": []
@@ -1899,7 +1899,7 @@
           "heading": "Søk, og noter deretter",
           "body": [
             "Bruk tabellen bare som en reserve i tidlig planlegging. Når datoene er kjent, lagrer du den eksakte summen og billettvilkårene fra flyselskapet.",
-            "Ha margin for vær og tilkobling, særlig for et regionalfly før en internasjonal avgang."
+            "Ha margin for vær og overganger, særlig når et regionalfly skal rekke en internasjonal avgang."
           ],
           "tips": []
         },
@@ -1930,7 +1930,7 @@
             "Ikke legg et innenriksfly så stramt mot en internasjonal avgang samme dag. En natt i avgangsbyen er langt billigere enn å gå glipp av langdistanseflyet."
           ],
           "tips": [
-            "Ikke legg stram tilkobling til utenlandsfly",
+            "Aldri stram overgang til et utenlandsfly",
             "Queenstown og Wellington omdirigeres ofte",
             "Legg inn en buffernatt før hjemreisen"
           ]
@@ -1956,7 +1956,7 @@
       "faq": [
         [
           "Hva koster innenriksfly på New Zealand?",
-          "Guiden oppgir realistiske bunnpriser og typiske priser på hovedrutene i stedet for overskriftspriser. Å bestille i god tid betyr mer her enn i større markeder, fordi rutene er tynne og de siste setene er dyre."
+          "Guiden oppgir realistiske bunnpriser på tilbud og typiske priser på hovedrutene i stedet for annonserte lokkepriser. Å bestille i god tid betyr mer her enn i større markeder, fordi rutene har få avganger og de siste setene er dyre."
         ],
         [
           "Lønner det seg å fly i stedet for å kjøre på New Zealand?",
@@ -2138,11 +2138,11 @@
           "heading": "Hva hver overnattingstype egentlig er til for",
           "body": [
             "En sovesal på hostel er den billigste sengen og gir deg kjøkken og andre reisende. En hytte på en <a data-guide=\"holiday-parks-new-zealand-guide\">feriepark</a> koster mer enn en plass, men mindre enn et motell, og løser en våt natt. En motellenhet er den vanlige mellomløsningen på New Zealand og har som regel en kjøkkenkrok, noe som senker matkostnadene ved å bo der.",
-            "Egne rom på backpackere ligger mellom sovesaler og moteller og er ofte det som gir mest for pengene for et par. Hoteller er stort sett et byprodukt her og sjelden riktig svar på en rundreise."
+            "Egne rom på et backpackerhostel ligger mellom sovesaler og moteller og er ofte det som gir mest for pengene for et par. Hoteller finnes stort sett bare i byene her og er sjelden riktig svar på en rundreise."
           ],
           "tips": [
             "Moteller har vanligvis kjøkkenkrok",
-            "Dobbeltrom på backpackere slår moteller for par",
+            "Dobbeltrom på backpackerhostel slår moteller for par",
             "Hytter løser en våt natt billig"
           ]
         },
@@ -2203,7 +2203,7 @@
         }
       ],
       "priceTable": {
-        "note": "Veiledende planleggingsintervaller satt sammen av eksempler fra live kataloger i 2026 og utleierguider. Søk på de nøyaktige datoene for et reelt tilbud.",
+        "note": "Veiledende planleggingsintervaller satt sammen av aktuelle eksempler fra nettkataloger i 2026 og guider fra tilbyderne. Søk på de nøyaktige datoene for et reelt tilbud.",
         "rows": [
           {
             "label": "Seng i sovesal på hostel",
