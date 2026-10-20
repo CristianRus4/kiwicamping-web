@@ -7125,6 +7125,1864 @@
       ],
       "priceTable": null
     },
+    "plan-trip-kiwicamping": {
+      "title": "Planera en hel resa i KiwiCamping: stopp, rutt och anteckningar",
+      "description": "Sortera stoppen, se ruttens avstånd och ha datum, anteckningar och att göra-listor bredvid resplanen.",
+      "region": "KiwiCamping",
+      "imageAlt": "Väg mot Aoraki / Mount Cook under en blå himmel",
+      "intro": "En användbar resa är mer än en linje mellan sparade pins. Reseplaneraren samlar rutt, avstånd, datum, anteckningar och små sysslor på ett ställe, så att planen klarar av att ändras, vilket på en roadtrip i Nya Zeeland oftast sker någonstans runt dag tre.",
+      "sections": [
+        {
+          "heading": "Bygg skelettet av fasta nätter",
+          "body": [
+            "Börja med de datum du inte kan flytta. En överfart över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a>, en bokad stuga på en Great Walk, en campingplats som reserverades för månader sedan i en badort, ett flyg hem från Queenstown: det är de pins resten av resan måste anpassas efter. Skapa resan, lägg in dem först och se allt däremellan som justerbart.",
+            "Den här ordningen spelar större roll än den låter. Den som bygger en resa kronologiskt från dag ett upptäcker ofta på dag nio att färjan inte passar, och då är hälften av bokningarna redan icke återbetalningsbara. När de hårda datumen sitter först blir varje senare ändring billig."
+          ],
+          "tips": [
+            "Färje- och Great Walk-datum först",
+            "Allt däremellan förblir flexibelt",
+            "Billiga ändringar slår ombokade färjor"
+          ]
+        },
+        {
+          "heading": "Lägg stoppen i körordning",
+          "body": [
+            "Lägg till de platser du har sparat och ordna dem i den följd du faktiskt kommer att köra. Reseplaneraren räknar ut ruttens avstånd över de ordnade stoppen, och det är där en optimistisk resplan oftast faller isär: en dag som såg rimlig ut på kartan visar sig vara sex timmar före ett enda stopp, en enda promenad eller en enda måltid.",
+            "Dela upp varje etapp som inte lämnar plats för själva platsen. Som en grov arbetssiffra är tre till fyra timmars körning en bekväm dag på Nya Zeelands vägar, och betydligt mindre på Coromandel, i Catlins, på Queen Charlotte Drive eller på allt som har grus. Avståndet underskattar de här vägarna rejält."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fäst detaljerna vid stoppet, inte vid ett dokument",
+          "body": [
+            "Bekräftelsenummer, ankomstfönster, grindkoder, stugvärdens telefonnummer, vilken sida av floden ingången ligger på: sådant hör hemma på det enskilda stoppet och inte i en lång anteckning överst i resan. På vägen letar du efter ett faktum i taget, oftast när du är trött.",
+            "Korta anteckningar slår långa. ”Grinden låst efter kl. 21.00, kod 4417” är användbart kl. 20.45. Ett stycke som beskriver hela campingplatsen är det inte. Lägg till anteckningen när du bokar, medan detaljen finns framför dig, i stället för att försöka rekonstruera den senare."
+          ],
+          "tips": [
+            "Ett faktum per anteckning",
+            "Lägg till anteckningar när du bokar",
+            "Grindkoder och ankomstfönster är viktigast"
+          ]
+        },
+        {
+          "heading": "Använd att göra-listan för sysslorna som lämnar dig strandsatt",
+          "body": [
+            "Tanka före en avlägsen etapp, handla före den sista matbutiken, fyll vatten före en torr sträcka, besök en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a> före en rad freedom camping-platser, ha snökedjor före ett alpint pass på vintern. Det är uppgifterna vars frånvaro gör att en dag slutar illa, och de är lätta att glömma just för att de är rutin.",
+            "Ha listan bredvid resplanen i stället för i en separat app. Bocka av saker först när de verkligen är gjorda, för en halvfylld vattentank som optimistiskt har bockats av är värre än en som inte är avbockad."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ändra rutten utan att bygga om den",
+          "body": [
+            "Vädret stänger ett pass, en campingplats är full, någon är för trött för att köra eller en plats visar sig förtjäna en natt till. Ordna om eller byt ut det berörda stoppet så förblir resten av resplanen intakt, tillsammans med varje anteckning och bokningsreferens som hör till de stopp du inte rörde.",
+            "Det är den praktiska fördelen jämfört med en plan i webbläsarflikar. Att ordna om en resa som ligger utspridd över femton flikar och en texttråd betyder att rekonstruera den, medan det att ordna om en ordnad lista betyder att dra ett stopp. Avståndet räknas om och du ser direkt om den nya formen fortfarande går att köra."
+          ],
+          "tips": [
+            "Flytta ett stopp, behåll resten",
+            "Avståndet räknas om automatiskt",
+            "Kolla att den nya dagen fortfarande går att köra"
+          ]
+        },
+        {
+          "heading": "Förbered resan för att klara dig utan täckning",
+          "body": [
+            "Öppna de viktiga stoppen innan du lämnar täckningen. Grundläggande platsinformation finns i appen och går att läsa offline, men routing i realtid, aktuellt väder, uthyrarnas bokningssidor och en del kartbilder kräver uppkoppling, och West Coast, Fiordland, East Cape och inlandet i Otago tar den ifrån dig utan förvarning.",
+            "Ta skärmdumpar av allt som skulle bli dyrt att förlora: bokningsbekräftelsen, anteckningen om tillfarten, campingplatsens telefonnummer. En skärmdump överlever en omstart med urladdat batteri, en förlorad session och en app du inte har öppnat på tre dagar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Skicka resplanen till Kalender",
+          "body": [
+            "Resans datum kan skickas till ”Kalender” så att planen syns bredvid flyg, färjebokningar och allt annat som redan finns i ditt schema. Det är mest användbart för resenärer som samordnar sig med människor som inte använder appen, eftersom en delad kalender besvarar frågan var-är-ni-i-kväll utan ett samtal.",
+            "Se kalenderkopian som en sammanfattning och inte som den enda sanningen. Själva resan innehåller anteckningar, ordning och alternativ, medan kalendern bara behöver nog för att någon annan ska kunna följa med."
+          ],
+          "tips": [
+            "Kalendern är en sammanfattning, inte planen",
+            "Användbart för dem som inte använder appen",
+            "Låt resan vara den enda sanningen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hur planerar man en roadtrip med flera stopp i KiwiCamping?",
+          "Spara de platser du funderar på, lägg till dem i en resa som stopp och dra dem sedan i den ordning du ska köra. Varje etapp visar sitt avstånd, och varje stopp har sitt eget datum, sina egna ankomstanteckningar och sitt eget väder."
+        ],
+        [
+          "Går det att lägga en KiwiCamping-resa i en kalender?",
+          "Ja. Detaljer i resplanen kan synkas till ”Kalender”, vilket är det praktiska sättet att dela planen med dem du reser med utan att de behöver ha appen."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "save-places-kiwicamping": {
+      "title": "Spara och organisera platser i KiwiCamping",
+      "description": "Håll bekräftade boenden, starka alternativ och framtida idéer isär utan att tappa bort dem på kartan.",
+      "region": "KiwiCamping",
+      "imageAlt": "Gyllene sand och turkost vatten vid Torrent Bay i Abel Tasman National Park",
+      "intro": "Att spara varje intressant pin i en enda hög flyttar bara sökproblemet någon annanstans. Lite struktur, bestämd tidigt, gör att tusentals campingplatser, stugor och holiday parks går att använda under flera resor i stället för att bli en lista du slutar öppna.",
+      "sections": [
+        {
+          "heading": "Skilj sparade platser åt efter syfte",
+          "body": [
+            "Den användbara indelningen är inte efter region utan efter vad du tänker göra med platsen. En lista för resan du faktiskt ska göra, en för realistiska reservplatser inom räckhåll för rutten och en för idéer du kanske aldrig använder. Att blanda de tre är det som gör en sparad lista oanvändbar kl. 19.00 när en campingplats är full.",
+            "Reservlistan betalar sig om och om igen. Att veta att du har två lagliga alternativ inom fyrtio minuter förändrar hur du hanterar en full plats, och det är skillnaden mellan ett lugnt beslut och en timmes körning medan ljuset försvinner."
+          ],
+          "tips": [
+            "Resa, reservplatser, idéer: tre listor",
+            "Reservplatser inom räckhåll för rutten",
+            "Bestäm strukturen innan du sparar"
+          ]
+        },
+        {
+          "heading": "Använd smarta samlingar för status",
+          "body": [
+            "”Gillade”, ”Besökta”, ”Vill besöka” och ”Stjärnmärkt” uppdaterar sig själva när du markerar platser, så de följer status och inte planer. ”Besökta” är mer användbar än den först verkar på en lång resa: den hindrar dig från att undersöka samma ställe två gånger och ger dig en riktig logg över var du har varit.",
+            "”Pins” och ”Alla sparade” ger dig helheten när du inte kommer ihåg i vilken lista något hamnade. Se dem som skyddsnätet och inte som arkivsystemet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Namnge listor så att de går att förstå senare",
+          "body": [
+            "”South Island” säger dig ingenting om fyra månader. ”South Island feb, bara platser med el” säger vad du försökte lösa och om listan går att använda igen. Om du namnger efter region, säsong, fordon eller resa har listan fortfarande en mening när du kommer tillbaka till den.",
+            "Lägg till en kort beskrivning där appen tillåter det. Anledningen till att du sparade en plats är det som bleknar snabbast, och det är oftast det som var viktigt: skyddad mot sydvinden, bra för ett stort ekipage, lugnt mitt i veckan."
+          ],
+          "tips": [
+            "Namnge efter region, säsong och fordon",
+            "Skriv ner varför du sparade den",
+            "Vaga namn åldras dåligt"
+          ]
+        },
+        {
+          "heading": "Spara från platsinformationen, inte från kartan",
+          "body": [
+            "Öppna platsen först. Tillfartsanteckningar, faciliteter, avgiftsstruktur och källan till uppgifterna är det som avgör om den passar din uppsättning, och inget av det syns från en pin. Att spara från kartan ger en lista med namn, medan att spara från platsinformationen ger en lista med alternativ.",
+            "Lägg till en anteckning om just det som gjorde platsen värd att behålla. ”Enda platsen här med tömningsstation” eller ”grusväg dit, inte för en låg bil” är värt mer än själva noteringen när du väljer mellan fem sparade platser."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se priser som planeringssiffror",
+          "body": [
+            "Där en rapporterad kostnad visas kan du läsa den i din egen valuta för att jämföra en enkel DOC-plats med en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> utan att räkna vid varje stopp. Se omräknade siffror som planeringshjälp: de är mekaniska omräkningar av ett rapporterat belopp, inte ett pris från uthyraren eller din bank.",
+            "Bekräfta det faktiska priset med leverantören innan ett pris avgör din rutt, och kolla vad siffran omfattar. DOC:s avgifter gäller oftast per vuxen och natt, medan kommersiella parker ofta anger pris per plats, så två liknande siffror kan betyda mycket olika totalsummor för en familj."
+          ],
+          "tips": [
+            "Omräknade priser är planeringssiffror",
+            "DOC tar betalt per vuxen, parker ofta per plats",
+            "Bekräfta innan ett pris avgör rutten"
+          ]
+        },
+        {
+          "heading": "Låt sparade platser synkas mellan enheter",
+          "body": [
+            "När iCloud finns och är aktiverat synkas sparade statusar, samlingar och resedata privat mellan dina enheter. Den praktiska nyttan är att du kan planera på en större skärm hemma och ha samma listor i telefonen i husbilen, utan att exportera något.",
+            "Det betyder också att en ersatt eller återställd telefon inte tar resan med sig, vilket spelar större roll på en lång resa än på en helg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rensa listan efter varje resa",
+          "body": [
+            "Markera det du besökte, ta bort alternativen som visade sig inte passa dig och behåll de anteckningar om tillfart eller tider som kommer att stämma nästa gång. Tio minuter i slutet av en resa är det som hindrar listan från att bli trehundra pins du inte längre litar på.",
+            "Flytta de stopp du faktiskt har bestämt dig för in i en resa. Listor är till för möjligheter, och reseplaneraren är till för själva resan, och att hålla de två isär är det som gör båda användbara."
+          ],
+          "tips": [
+            "Rensa medan resan är färsk",
+            "Behåll anteckningar som fortsätter att stämma",
+            "Listor har alternativ, resor har planer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad är skillnaden mellan smarta och egna samlingar?",
+          "Smarta samlingar fyller sig själva: ”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade” uppdateras när du markerar platser. Egna samlingar är sådana du namnger och bygger själv, för en region, en säsong, ett fordon eller en kortlista."
+        ],
+        [
+          "Synkas sparade platser mellan enheter?",
+          "Med iCloud aktiverat, ja: sparade statusar, samlingar och resedata följer ditt Apple-konto. Utan det stannar allt på den enda enheten."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-filters-guide": {
+      "title": "Hitta rätt campingplats snabbare med filter i KiwiCamping",
+      "description": "Begränsa efter platstyp, faciliteter, pris och tillgång utan att dölja varje fungerande alternativ.",
+      "region": "KiwiCamping",
+      "imageAlt": "Husvagnar parkerade vid campingplatsen Lake Clearwater under snötäckta toppar i Canterbury",
+      "intro": "Filter är mest användbara när varje filter står för ett verkligt krav och inte en preferens. Det vanliga misstaget är att filtrera för hårt: du får tre träffar, det förnuftiga alternativet tjugo minuter bort döljs, och du får felaktigt intrycket att ett område inte har något alls.",
+      "sections": [
+        {
+          "heading": "Börja med platstyp och område",
+          "body": [
+            "Bestäm vilken sorts natt du söker innan du begränsar något annat. En DOC-camping, en stuga i vildmarken, ett anvisat område för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, en holiday park och en stuga är olika produkter med olika regler, priser och bokningssystem, och att blanda dem ger en lista som du måste sortera om i huvudet.",
+            "Placera sedan kartan längs den rutt du faktiskt kör. Att söka i det synliga området håller träffarna relevanta för dagen och hindrar ett välkänt ställe nittio minuter från rutten från att ta över en kortlista som det inte hör hemma i."
+          ],
+          "tips": [
+            "Välj typ av natt först",
+            "Sök längs rutten, inte i regionen",
+            "Kända platser är ofta fel avstickare"
+          ]
+        },
+        {
+          "heading": "Lägg bara till villkor som skulle utesluta en plats",
+          "body": [
+            "Toaletter, dricksvatten, el, hundar, fordonsstorlek, prisnivå: använd dem när avsaknaden av dem verkligen gör att alternativet faller bort. Har du full vattentank tar ett filter för dricksvatten bort platser som hade varit fina och kanske lugnare för det.",
+            "Arbeta dig nedåt från det hårdaste kravet. Tillfart för fordonet och krav på certifiering tar bort flest alternativ och går minst att förhandla om, så om du använder dem först får du en kortare, ärligare lista att gå igenom."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Förstå vad ett tomt fält betyder",
+          "body": [
+            "Saknade uppgifter betyder okänt, inte frånvarande. En plats utan registrerad dusch kan ha en som aldrig har loggats, och ett strikt filter på faciliteter kastar tyst bort den. Det är det vanligaste sättet för resenärer att övertyga sig själva om att en region inte har något tillgängligt.",
+            "När en filtrerad sökning kommer tillbaka nästan tom: lätta på det minst viktiga villkoret i stället för att dra slutsatsen att området är olämpligt. Resultatet ändras oftast kraftigt när ett filter tas bort."
+          ],
+          "tips": [
+            "Tomt betyder okänt, inte saknas",
+            "Lätta på ett filter innan du ger upp",
+            "Strikta filter döljer bra alternativ"
+          ]
+        },
+        {
+          "heading": "Filtrera annorlunda för en natt med freedom camping",
+          "body": [
+            "En sökning efter <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> är en juridisk fråga och inte en bekvämlighetsfråga. Det som spelar roll är om platsen är anvisad, om den kräver ett certifierat self-contained-fordon och vilken tidsgräns som gäller. Faciliteter är underordnade eftersom det ofta inte finns några.",
+            "Kolla certifieringskravet mot ditt eget warrant innan du litar på en plats. Kravet gäller fordonet, och kontrollen sker mot fordonet, så en missmatch blir dyr oavsett hur noga du var med allt annat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sök efter service, inte bara platser att sova på",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tömningsstationer</a>, dricksvatten, sophantering och bränsle är viktiga för resan i sig, och det lönar sig att filtrera efter dem som en separat uppgift i stället för att hoppas att de dyker upp nära kvällens läger. Att planera ett tömningsstopp på vägen någonstans är mycket enklare än att göra en särskild resa när en tank redan är full.",
+            "Detsamma gäller tvättstuga och varm dusch efter en blöt sträcka. Att välja ett stopp för att det löser tre sysslor på en gång är oftast bättre värde än att välja den billigaste pinen och köra tillbaka för var och en av dem."
+          ],
+          "tips": [
+            "Planera tömningsstopp på vägen",
+            "Vatten och bränsle förtjänar en egen sökning",
+            "Ett stopp som löser tre sysslor vinner"
+          ]
+        },
+        {
+          "heading": "Ha alltid en reservplats synlig",
+          "body": [
+            "Spara den föredragna platsen och minst ett lagligt alternativ innan du lämnar täckningen. Ett filter som är så snävt att det ger exakt en träff har tagit bort din reservplan, och fulla campingplatser en sommarkväll är normalt och inte otur.",
+            "Reservplatsen behöver inte vara lika bra. Den behöver vara laglig, nåbar i dagsljus och öppen. Det är en mycket lättare standard att uppfylla, och det är den som hindrar en trött förare från att fatta ett dåligt beslut efter mörkrets inbrott."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nollställ filtren mellan regioner och resetyper",
+          "body": [
+            "Kraven för en stugvandring, en tvättkväll med el i en stad och ett certifierat stopp för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> har nästan ingenting gemensamt. Filter som blivit kvar sedan i går är en vanlig orsak till att en sökning ser oväntat tom ut i dag.",
+            "Rensa uppsättningen så fort resan ändrar karaktär, särskilt när du går från North Island till South Island, från kust till alpint land eller från en turiststräcka till några dagar på ett ställe i en stad."
+          ],
+          "tips": [
+            "Rensa filtren när resan ändrar karaktär",
+            "Gårdagens filter ger dagens tomma sökning",
+            "Stuga, stad och freedom camping skiljer sig helt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Går det att filtrera efter gratis camping med toaletter?",
+          "Ja, och den kombinationen är poängen med filtren. Avgift, faciliteter, tillgång, platstyp, region, betyg och onlinebokning går att kombinera, så ”områden för gratis camping med toaletter och dricksvatten nära Queenstown” blir en enda sökning."
+        ],
+        [
+          "Varför ger en filtrerad sökning inga träffar?",
+          "Nästan alltid för att filtren är staplade hårdare än området tillåter. Att vidga kartan eller ta bort den minst viktiga faciliteten får oftast tillbaka listan, och det är värt att rensa betygsfiltret först."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-offline-data-guide": {
+      "title": "Fungerar KiwiCamping offline? Det här kräver täckning",
+      "description": "Platsinformation, sparade listor och guider fungerar utan täckning, men kartbilder, väder, routing och Se dig omkring kräver uppkoppling. Planera avlägsna etapper efter det.",
+      "region": "KiwiCamping",
+      "imageAlt": "State Highway 94 slingrar sig genom en avlägsen dal i Fiordland National Park",
+      "intro": "KiwiCamping är inte en app som ger dig kartor utan uppkoppling. Platsdatan är fortfarande användbar utanför täckningen, men kartbilder, väder, routing och foton kräver ett nätverk, och att veta exakt vilken hälft som är vilken är skillnaden mellan en väl förberedd avlägsen etapp och att få veta det i fel ögonblick.",
+      "sections": [
+        {
+          "heading": "Vad som finns tillgängligt utan täckning",
+          "body": [
+            "Appen har Nya Zeelands platsregister inbyggt: DOC-campingplatser, stugor och leder, DOC:s meddelanden om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, tömningsstationer, rastplatser för dagsbesök samt holiday parks och turer från BookIt. Grunduppgifterna följer med appen i stället för att hämtas, så de går att läsa även när signalen saknas. BookIt-vistelser och turer är gratis. DOC-platserna, tömningsstationerna och rastplatserna för dagsbesök ingår i Premium Pass.",
+            "Sparade listor och reseinformation går också att använda. Du kan gå igenom planen, läsa anteckningarna som hör till varje stopp och kolla vad du bestämde om en plats, vilket oftast är precis vad du behöver när du ska avgöra om du kör vidare eller stannar."
+          ],
+          "tips": [
+            "Platsregistret finns inbyggt",
+            "Sparade listor och resor går att läsa",
+            "Uppgifterna följer med appen"
+          ]
+        },
+        {
+          "heading": "Vad som verkligen kräver uppkoppling",
+          "body": [
+            "Väderprognoser, routing och vägbeskrivningar i realtid, externa bokningssidor, leverantörers webbplatser, platsfoton, kartbilder och satellitbilder kräver alla uppkoppling. Inget av det tar bort den lagrade platsuppgiften, men det betyder att svaret på ”kommer det att regna” och ”finns det en ledig bädd” inte går att få där ute.",
+            "Bilderna i <a data-guide=\"kiwicamping-weather-look-around\">Se dig omkring</a> kräver också uppkoppling, vilket är bra att veta eftersom de är mest användbara just när du närmar dig en obekant infart, och det är ofta där täckningen tar slut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Var i Nya Zeeland det faktiskt märks",
+          "body": [
+            "West Coast mellan Westport och Haast, större delen av Fiordland, East Cape, Catlins, inlandet i Otago och stora delar av centrala North Island har långa sträckor utan användbar mobiltäckning. Det är inga avlägsna utposter: de ligger på de viktigaste turistvägarna, och det är precis där du ska välja campingplats.",
+            "Täckningskartor smickrar också verkligheten. Ett bolag kan visa täckning i en dal där signalen försvinner bakom första ryggen, och roaming-SIM presterar ofta sämre än lokala. Planera för sämre täckning än kartan lovar."
+          ],
+          "tips": [
+            "De stora turistvägarna förlorar täckning",
+            "Täckningskartor är optimistiska",
+            "Roaming-SIM presterar sämre"
+          ]
+        },
+        {
+          "heading": "Gör kontrollerna i realtid innan du tappar signalen",
+          "body": [
+            "Skaffa dig en vana kring den sista orten med täckning: kolla prognosen för de kommande två dagarna, bekräfta bokningar, titta på väglägen och varningar och öppna platsuppgifterna för i kväll och i morgon så att de är laddade och bekanta.",
+            "Ta skärmdumpar av sådant som skulle kosta dig om det försvann. Bokningsbekräftelser, grindkoder, campingplatsens telefonnummer och alla tillfartsanvisningar är värda en skärmdump var, för en skärmdump kräver ingen app, ingen session och ingen signal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Batteriet är en del av planeringen utan täckning",
+          "body": [
+            "En app som fungerar utan täckning är ingen nytta på en död telefon, och telefonen arbetar mer än vanligt på en roadtrip: navigering, foton, väderkontroller och letande efter signal, som tömmer ett batteri snabbare än nästan allt annat. Aktivera lågenergiläge innan det blir akut.",
+            "Ha med en laddad powerbank och en kabel som faktiskt fungerar i fordonet. Kalla nätter minskar batterikapaciteten märkbart, så en telefon som verkade fin vid middagen kan vara urladdad på morgonen på en alpin plats."
+          ],
+          "tips": [
+            "Att leta efter signal tömmer snabbt",
+            "Ha med en laddad powerbank",
+            "Kalla nätter minskar batterikapaciteten"
+          ]
+        },
+        {
+          "heading": "Noteringen går inte före skylten",
+          "body": [
+            "Data utan uppkoppling visar vad som gällde när uppgiften registrerades. Rangers stänger platser, kommuner ändrar föreskrifter, översvämningar tar ut tillfartsvägar och <a data-guide=\"campfire-rules-new-zealand\">eldningsbegränsningar</a> kommer snabbt. När du kommer fram är det skylten, avspärrningen och markförvaltaren som avgör, och de går alltid före en sparad uppgift.",
+            "Om det du hittar säger emot det du sparade: följ det som finns framför dig och byt till din reservplats. Det är hela skälet till att ha pekat ut en innan du lämnade täckningen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Appar utan uppkoppling är inget säkerhetssystem",
+          "body": [
+            "För allt som är säkerhetskritiskt: ha med en nedladdad eller pappersbaserad topografisk karta och kunna använda den. En campingkatalog är inget navigationsverktyg, och telefon-GPS utan kartsammanhang har lett människor in i verkliga problem i Nya Zeelands vildmark.",
+            "För avlägsna vandringar eller körning på små vägar: hyr en personlig nödsändare. De kostar mycket lite för en resa, fungerar där telefoner inte gör det och är det enskilda som mest sannolikt ändrar utgången av ett allvarligt problem."
+          ],
+          "tips": [
+            "Ha med en riktig topografisk karta",
+            "Hyr en PLB för avlägsna etapper",
+            "En katalog är inget navigationsverktyg"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad fungerar i KiwiCamping utan täckning?",
+          "Platskatalogen finns inbyggd i appen, så namn, kategorier, beskrivningar, avgifter, faciliteter, öppettider och förhållanden går att öppna utan signal. Sökning, filter och sparade platser fungerar också utan uppkoppling, för de platser din tillgång omfattar: BookIt-vistelser och turer är gratis, DOC-platser och tömningsstationer kräver Premium Pass."
+        ],
+        [
+          "Vad kräver uppkoppling?",
+          "Tjänsterna i realtid: väder, routing och vägbeskrivningar, bilder i Se dig omkring, platsfoton och leverantörers bokningssidor. De hämtas när du ber om dem, så platsskärmen öppnas ändå utan dem."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-weather-look-around": {
+      "title": "Kolla väder och Se dig omkring innan du väljer plats",
+      "description": "Jämför prognosen och vägmiljön med det faktiska valet av campingplats.",
+      "region": "KiwiCamping",
+      "imageAlt": "Dramatiska nordvästliga moln över det turkosa vattnet i Lake Pukaki",
+      "intro": "En pin säger var en plats ligger. Den säger inte att platsen är en grusbank helt utsatt för sydvind, att tillfarten är en brant enfilig grusbacke eller att infarten lätt missas i mörker. Vädret och Se dig omkring från Apple fyller i det som avgör om en natt blir bekväm.",
+      "sections": [
+        {
+          "heading": "Kolla prognosen för platsen, inte regionen",
+          "body": [
+            "Vädret i Nya Zeeland varierar dramatiskt över korta avstånd. En prognos för närmaste stad kan vara helt fel för en campingplats tjugo minuter bort på andra sidan en bergskedja, och skillnaden mellan en skyddad dal och en utsatt sjökant är ingen detalj.",
+            "Läs de delar som påverkar en natt utomhus i stället för ikonen i rubriken. Vindhastighet och vindriktning, lägsta temperatur under natten och regnmängder betyder mycket mer för hur du sover än om dagens symbol är ett moln eller en sol."
+          ],
+          "tips": [
+            "Vind och nattens lägsta temperatur avgör komforten",
+            "Stadsprognoser vilseleder för platser i närheten",
+            "Läs mängderna, inte ikonen"
+          ]
+        },
+        {
+          "heading": "Vinden är oftast det avgörande",
+          "body": [
+            "Sjöstränder och utsatta kuster förstärker vinden, och den ökar ofta under kvällen i stället för att avta. Ett tält som står bra när du ställer upp det klockan fem kan vara ett allvarligt problem vid midnatt, och markiser som står ute i stigande vind är ett av de vanligaste sätten för campare att skada ett fordon.",
+            "Där prognosen är kraftig: välj skydd framför utsikt. En plats bakom en vall eller en häck utan utsikt ger en mycket bättre natt än en fotogenisk plats rakt i sydvinden."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Använd officiella källor för säkerhetsbeslut",
+          "body": [
+            "En prognos i appen är underlag för ett komfortbeslut. För säkerhet: använd varningar från MetService, råd från Civil Defence, väglägen från NZTA och varningar från DOC, där <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>, vägavstängningar, översvämningar och varningar för leder faktiskt dyker upp.",
+            "Kolla dem medan du fortfarande har signal, och kolla igen nära avresan en dag som innehåller ett alpint pass, en <a data-guide=\"river-crossing-safety-new-zealand\">flodpassage</a>, en utsatt kust eller en prognos som har ändrats."
+          ],
+          "tips": [
+            "MetService för varningar",
+            "NZTA för väglägen",
+            "Kolla igen före alpina pass"
+          ]
+        },
+        {
+          "heading": "Förhandsvisa ankomsten med Se dig omkring",
+          "body": [
+            "Där det finns bilder i Se dig omkring visar de infarten, vägbredden, underlaget och omgivningen innan du styr ett stort fordon dit. Det är verkligt värdefullt för <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> i okända städer, där avfarten ofta är omärkt och gatan smalare än väntat.",
+            "Det är lika användbart för att upptäcka sådant som en notering inte berättar: att en plats ligger mot en huvudväg, intill en järnväg, eller att den enda tillfarten är en brant grusnedfart som du helst inte vill backa ut från."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se bilderna som gamla, för det är de",
+          "body": [
+            "Bilderna i Se dig omkring kan vara flera år gamla. Vägarbeten, jordskred, nya grindar, ändrade skyltar och stängda infarter syns inte, och i ett land där en enda storm kan göra om en väg på West Coast spelar det gapet roll.",
+            "Använd dem för att bilda dig en förväntan, inte en garanti. Skyltar, avspärrningar och förhållandena när du kommer fram avgör, och om marken säger emot bilderna har marken rätt."
+          ],
+          "tips": [
+            "Bilderna kan vara flera år gamla",
+            "Jordskred och grindar syns inte",
+            "Marken vinner alltid"
+          ]
+        },
+        {
+          "heading": "Titta på vad som finns runt platsen",
+          "body": [
+            "Det bättre lägret är ofta det som löser morgondagens sysslor. Kolla vad som finns i närheten: bränsle, en matbutik, en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a>, dricksvatten, en tvättstuga. En plats som är lite mindre vacker men ligger intill den service du behöver kan spara en timmes vändande på morgonen.",
+            "Titta på utfarten lika mycket som på infarten. Om morgondagen börjar med en lång körning eller en tidig färja är en plats som ställer dig på rätt sida av staden värd mer än en med bättre utsikt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Spara förhandsvisningen i planen",
+          "body": [
+            "När vädret och bilderna har sagt dig något användbart: lägg det på stoppet som en anteckning. ”Utsatt för sydvind, ta bakre raden” eller ”infarten ligger 200 m efter bron, lätt att missa” är precis den sortens detalj som är självklar nu och borta om en vecka.",
+            "Spara den service du hittade som ett eget stopp med en anteckning om öppettider. En <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a> som du inte kan använda för att den stängde klockan fem är detsamma som ingen tömningsstation alls."
+          ],
+          "tips": [
+            "Skriv det du lärde dig på stoppet",
+            "Notera infarten om den är svår att hitta",
+            "Kolla servicens öppettider"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man se vädret för en särskild campingplats?",
+          "Ja. Aktuella förhållanden och prognosen finns på varje platsskärm och bredvid varje stopp i en resa, så att ett val mellan två läger kan göras med himlen i åtanke och inte utifrån en regional prognos."
+        ],
+        [
+          "Vad är Se dig omkring bra för när man väljer campingplats?",
+          "Att se infarten och vägytan innan du styr en husbil in på en avfart. Där bilderna i Se dig omkring från Apple täcker en väg öppnas de direkt från platsskärmen, vilket besvarar den fråga om tillfarten som en notering inte kan."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-currency-place-costs": {
+      "title": "Se rapporterade platspriser i din egen valuta",
+      "description": "Använd enhetliga omräkningar för att jämföra boenden och bekräfta sedan beloppet som leverantören tar ut.",
+      "region": "KiwiCamping",
+      "imageAlt": "Husbilar och husvagnar parkerade på gräset vid Reefton Motor Camp",
+      "intro": "Resenärer budgeterar i den valuta de tänker i, medan varje campingplats i Nya Zeeland tar betalt i nyzeeländska dollar. Att visa rapporterade kostnader i en bekant valuta tar bort huvudräkningen ur varje jämförelse, så länge ingen tar en omräkning för ett pris från leverantören.",
+      "sections": [
+        {
+          "heading": "Välj den valuta din budget görs i",
+          "body": [
+            "Välj den valuta du faktiskt planerar i, inte den ditt kort är utfärdat i om de skiljer sig åt. Poängen är att jämföra en enkel DOC-plats, en plats på en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> och en stuga på samma skala, snabbt, i det ögonblick du väljer mellan dem.",
+            "Enhetlighet är det som gör det användbart. Om varje rapporterat belopp räknas om på samma sätt är de relativa skillnaderna pålitliga, även där den absoluta siffran är ungefärlig."
+          ],
+          "tips": [
+            "Använd den valuta du planerar i",
+            "Poängen är den relativa jämförelsen",
+            "Samma metod för varje plats"
+          ]
+        },
+        {
+          "heading": "Förstå vad en omräknad siffra är",
+          "body": [
+            "Det är en mekanisk omräkning av ett rapporterat pris med en daterad referenskurs. Det är inte en växelkurs i realtid, och det är inte vad din bank tar ut. Kort tillämpar sina egna kurser och lägger ofta på en avgift för utländska transaktioner, så beloppet som lämnar ditt konto blir ett annat.",
+            "Se omräknade belopp som planeringssiffror som är tillräckligt exakta för att välja mellan alternativ, och aldrig som talet att budgetera ner till sista öret. För den faktiska kostnaden: titta på beloppet i nyzeeländska dollar och på vad ditt kort tar ut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kolla vad priset faktiskt omfattar",
+          "body": [
+            "Det är här de flesta budgetfel sker. Avgifter för <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> tas oftast ut per vuxen och natt, medan kommersiella holiday parks kan ta betalt per plats med ett angivet antal personer, eller en grundavgift med extra gäster tillagda. Två liknande siffror kan betyda mycket olika totalsummor för en familj på fyra.",
+            "Kolla också om el, duschar, sängkläder och bokningsavgifter ingår eller läggs till. En stuga med angivet pris utan sängkläder och en stuga med sängkläder är inte samma produkt, och skillnaden är oftast större än skillnaden i grundpris."
+          ],
+          "tips": [
+            "DOC tar betalt per vuxen",
+            "Parker tar ofta betalt per plats",
+            "Kolla el, sängkläder och bokningsavgifter"
+          ]
+        },
+        {
+          "heading": "Bekräfta innan ett pris ändrar din rutt",
+          "body": [
+            "Rapporterade avgifter ändras med säsong, antal gäster, fordonstyp, åldersgrupp och efterfrågan. Innan ett pris avgör var du kör: öppna den officiella källan eller kontakta leverantören och bekräfta det aktuella priset för just dina datum och ditt sällskap.",
+            "För DOC-platser särskilt: kolla om platsen går att boka eller är först till kvarn, och om ett Campsite Pass gäller. Ett pass är ett betalningssätt och ingen reservation, och att blanda ihop de två ger en obehaglig ankomst till en full campingplats."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jämför hela natten, inte nattpriset",
+          "body": [
+            "Lägg ihop allt stoppet innebär: platsavgift, el, duschar, tvätt om du behöver den, bokningsavgifter och bränslet för att ta sig dit. En campingplats tjugo minuter från rutten är inte billigare än en lite dyrare som du kör förbi.",
+            "En central <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> kan också ta bort kostnader som aldrig syns på campingraden, som parkering i stan eller en extra tur in för matinköp. När du jämför totalen blir de synliga."
+          ],
+          "tips": [
+            "Räkna med bränslet för att ta sig dit",
+            "Lägg till el, duschar och avgifter",
+            "Centrala platser kan ta bort andra kostnader"
+          ]
+        },
+        {
+          "heading": "Ha en reserv i nyzeeländska dollar",
+          "body": [
+            "Ha tillräckligt med lokal valuta för sådant som inte respekterar en plan: en deposition, en stängd väg som tvingar fram en betald natt, ett däck, en färjeändring. Budgetar som utgår från att varje natt blir en gratis eller billig plats har inget utrymme för den dag som går fel.",
+            "Ett praktiskt sätt är att planera för en betald natt oftare än du tror att du kommer att ta en. Behöver du den inte blir pengarna kvar, och behöver du den är beslutet enkelt i stället för smärtsamt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Följ upp utgifterna de första dagarna",
+          "body": [
+            "Jämför vad du faktiskt spenderar med vad du planerade under de första tre eller fyra dagarna och justera sedan. Raderna som glider iväg är nästan alltid mat, kaffe och små betalda aktiviteter och inte boendet, och de är också enklast att rätta till tidigt.",
+            "Att fånga ett överskridande på tjugo procent i vecka ett betyder att dra ner på några restaurangmåltider. Att upptäcka det i vecka fyra betyder att ställa in den del av resan du helst ville göra."
+          ],
+          "tips": [
+            "Kolla utgifterna de första dagarna",
+            "Mat och kaffe glider iväg, inte campingplatserna",
+            "Tidig rättelse är billig"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan KiwiCamping visa priser i min egen valuta?",
+          "Ja. Välj din valuta i ”Inställningar” och ange omräkningskursen, så visas rapporterade kostnader i den valutan bredvid beloppet i nyzeeländska dollar."
+        ],
+        [
+          "Är de omräknade priserna exakta?",
+          "Nej, och det är inte meningen. De är en mekanisk omräkning av ett rapporterat belopp i nyzeeländska dollar med den kurs du har angett, för att bedöma en plats mot en annan. Din bank eller ditt kortföretag tillämpar sin egen kurs och sina egna avgifter."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "winter-camping-new-zealand": {
+      "title": "Vintercamping i Nya Zeeland: värme, vägar och realistiska planer",
+      "description": "Kalla nätter, kort dagsljus och alpina vägkontroller ändrar hur en resa med husbil eller tält fungerar.",
+      "region": "Nya Zeeland på vintern",
+      "imageAlt": "Husbil i ett snöigt landskap i Nya Zeeland",
+      "intro": "Vintern ger årets klaraste himmel, tommaste campingplatser och bästa värde, och den tar bort det mesta av din marginal för misstag. Kalla nätter, nio timmar användbart dagsljus, kedjekontroller och säsongsstängningar är inte hinder att jobba runt i efterhand, utan det som rutten ska byggas av.",
+      "sections": [
+        {
+          "heading": "Välj sovsystem efter natten, inte dagen",
+          "body": [
+            "En ljus eftermiddag i Central Otago med femton grader kan följas av en natt under noll. Välj en sovsäck och ett isolerande underlag som är gjorda för nattens lägsta temperatur på den kallaste plats du ska stanna på, och lägg sedan till en marginal, för komfortbetygen är optimistiska och en kall natt är riktigt eländig.",
+            "Underlaget betyder lika mycket som sovsäcken. Det mesta av värmen försvinner nedåt, ner i marken eller fordonets golv, och ett sommarunderlag under en bra sovsäck lämnar dig ändå kall. I en husbil: isolera golvet och fönstren innan du lägger på ännu en filt."
+          ],
+          "tips": [
+            "Välj efter nattens lägsta temperatur, inte dagens högsta",
+            "Isolerande underlag slår en varmare sovsäck",
+            "Golv och fönster i husbilar läcker värme"
+          ]
+        },
+        {
+          "heading": "Hantera kondens",
+          "body": [
+            "Fyra personer som andas i en sluten husbil ger förvånansvärt mycket vatten, och det hamnar i sängkläderna, väggarna och till slut madrassen. Ventilation känns fel när det är kallt ute, men ett permanent tillslutet fordon ger blöta sängkläder redan andra morgonen.",
+            "Öppna en ventil eller ett fönster på den skyddade sidan under natten och vädra sängkläderna så fort solen kommer fram. Torka bort kondens från fönstren på morgonen i stället för att låta den rinna in i listerna och de mjuka inredningsdetaljerna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Värm fordonet säkert",
+          "body": [
+            "Använd bara installerad värme som tillverkaren har godkänt. Bärbara gasvärmare, campingkök och grillar som används inomhus ger kolmonoxid, som är luktfri och har dödat människor som sov i fordon i Nya Zeeland. Det finns inget säkert sätt att improvisera värme i hytten i ett slutet utrymme.",
+            "Om du har en diesel- eller gasvärmare monterad: kolla att den fungerar före resan och ta reda på hur den ventileras. Ett kolmonoxidlarm kostar mycket lite och är värt att ha i varje fordon med en bränsleeldad apparat."
+          ],
+          "tips": [
+            "Använd aldrig ett campingkök för att värma en husbil",
+            "Kolmonoxid har ingen lukt",
+            "Montera ett CO-larm om du eldar bränsle"
+          ]
+        },
+        {
+          "heading": "Kedjor, däck och alpina vägkontroller",
+          "body": [
+            "Lindis Pass, Crown Range, Arthur's Pass, Desert Road och Milford Road kan alla kräva kedjor med kort varsel, och en del hyresavtal kräver att du har dem med under hela resan oavsett prognos. Att sätta på kedjor för första gången i snöblandat regn på en vägren är riktigt svårt.",
+            "Öva på att sätta på dem på en torr uppfart i dagsljus innan du åker. Kolla däckens mönsterdjup och lufttryck, se till att batteriet är i gott skick, för kallt väder hittar ett svagt, och läs uthyrarens vinterbegränsningar innan du planerar en rutt över ett pass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Svartis och skuggiga kurvor",
+          "body": [
+            "Svartis bildas där vägen bara ser våt ut, oftast i skugga, på broar och under dagens första och sista timmar. Den ger ingen förvarning och inget grepp, och det vanliga misstaget är att bromsa eller styra tvärt när man känner den.",
+            "Sakta ner före skuggiga sträckor i stället för i dem, öka avståndet till bilen framför långt över sommarvanan och vänta med en alpin passage tills solen har legat på vägen. Att komma två timmar senare är ingen kostnad värd att diskutera."
+          ],
+          "tips": [
+            "Skugga och broar fryser först",
+            "Sakta ner före kurvan, inte i den",
+            "Vänta på sol på vägen"
+          ]
+        },
+        {
+          "heading": "Bygg dagen runt dagsljuset",
+          "body": [
+            "Mitt i vintern ger ungefär nio timmar användbart ljus i söder, och mindre i en dal. Det är inte mycket när du har packat ihop lägret, kört, stannat och hittat en plats, så planera kortare etapper än i februari och sätt en fast vändtid för varje promenad.",
+            "Sikta på att komma fram med ljus i behåll. Att välja plats, ställa fordonet plant och kolla tillfarten är allt svårare i mörker och kyla, och en plats som uppenbart vore fel i dagsljus är lätt att acceptera på natten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Räkna med stängningar och minskad service",
+          "body": [
+            "Många <a data-guide=\"doc-campsites-new-zealand-guide\">campingplatser hos DOC</a> (Department of Conservation, Nya Zeelands naturvårdsmyndighet) stänger för vintern eller stänger av vattnet, en del tillfartsvägar stängs efter snö, och holiday parks i småstäder kan minska öppettiderna eller stänga helt. En notering som är skriven för sommaren berättar inte det, så kolla den särskilda platsen och de aktuella varningarna från DOC innan du bestämmer dig.",
+            "Ha med mer vatten, mat och laddning än planen kräver, och se en natt i stuga eller på motell som ett vanligt väderbeslut och inte som ett misslyckande. Vintern är säsongen där det är att betala för ett rum då och då som gör att resten av resan fungerar."
+          ],
+          "tips": [
+            "Kolla att platsen är öppen, inte bara listad",
+            "Ha med mer vatten än planen kräver",
+            "En natt i stuga är ett giltigt beslut"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man campa i Nya Zeeland på vintern?",
+          "Ja, och det är årets lugnaste tid på vägarna. Begränsningarna är praktiska och inte juridiska: en del campingplatser hos DOC och alpina vägar stänger eller blir enbart för bilar med kedjor, dagsljuset är kort, och en husbil utan isolering eller värmare blir snabbt obehaglig."
+        ],
+        [
+          "Vilka delar av Nya Zeeland är mildast på vintern?",
+          "Övre delen av North Island är varmast, och Northland och Coromandel går att campa i hela året. Central Otago och Mackenzie får de hårdaste frostnätterna, och West Coast är milt men mycket blött."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: väglägen och avstängningar"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "DOC: varningar och avstängningar"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-budget-new-zealand": {
+      "title": "Så bygger du en husbilsbudget för Nya Zeeland",
+      "description": "Hyra, bränsle, campingplatser, färjekostnader och mat beter sig olika, så prissätt varje post för sig.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Resenär som planerar en husbilsbudget för Nya Zeeland",
+      "intro": "Det annonserade dagspriset är det minst intressanta talet i en husbilsbudget. Självrisk i försäkringen, regeln för kilometer, färjan, ruttens form och hur ofta du betalar för en plats med el påverkar totalen långt mer än skillnaden mellan två uthyrare.",
+      "sections": [
+        {
+          "heading": "Prissätt fordonet som ett helt paket",
+          "body": [
+            "Jämför offerter för samma datum, fordonsklass, självrisk, kilometerpaket och medföljande utrustning. Ett lågt annonserat pris med 5 000 NZD i självrisk och ett begränsat dagligt kilometerpaket är en annan produkt än ett något dyrare med låg självrisk och obegränsat antal kilometer.",
+            "Lägg sedan till det som offereras separat: flygplatstransfer, avgifter för enkelhyra, extra förare, sängkläds- och köksset och kostnaden för att sänka självrisken. De lägger rutinmässigt på flera hundra dollar på två veckor och syns inte i jämförelsen du började med."
+          ],
+          "tips": [
+            "Jämför självrisken, inte bara dagspriset",
+            "Kolla kilometerpaketet",
+            "Lägg till avgifter för enkelhyra och extra förare"
+          ]
+        },
+        {
+          "heading": "Förstå depositionen och spärren",
+          "body": [
+            "De flesta uthyrare lägger en spärr på ett kreditkort vid upphämtningen, och där självrisken är hög kan spärren bli stor. Den släpps i stället för att dras, men den minskar krediten du har under resan, vilket spelar roll om samma kort betalar bränsle och campingplatser.",
+            "Kolla om uthyraren kräver ett kreditkort i huvudförarens namn, för betalkort nekas ofta. Att upptäcka det på en depå vid flygplatsen kl. 23.00 är en riktigt dålig start på en resa."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gör rutten till ett bränsletal",
+          "body": [
+            "Uppskatta ruttens faktiska kilometer i stället för att använda ett nationellt genomsnitt, och lägg sedan på tio till femton procent för avstickare, fel svängar och de körningar du ännu inte har tänkt på. Multiplicera sträckan med fordonets liter per 100 kilometer, dela med 100 och multiplicera med det aktuella literpriset.",
+            "En husbil på 12 l/100 km som kör 3 000 kilometer drar 360 liter, och den räkningen väger tyngre än skillnaden mellan en campingplats för 15 NZD och en för 25 NZD. Bränsle är oftast den näst största posten i budgeten och den som folk underskattar mest."
+          ],
+          "tips": [
+            "Lägg på 10 till 15 procent för avstickare",
+            "Använd fordonets verkliga förbrukning",
+            "Bränsle slår oftast kostnaden för campingplats"
+          ]
+        },
+        {
+          "heading": "Rätta uppskattningen tidigt",
+          "body": [
+            "Anteckna liter och kilometer för de två första tankningarna och räkna om. Lastvikt, motvind, bergsvägar, takboxar och att ha motorn igång för värme driver alla upp förbrukningen över broschyrens siffra, ibland med en fjärdedel.",
+            "Avlägset <a data-guide=\"new-zealand-road-trip-fuel-cost-2026\">bränsle</a> kostar mer, och priset varierar rejält mellan en stad och en liten ort på West Coast eller East Cape. Tanka i större orter där du kan, men kör aldrig förbi sista macken före ett långt glapp för att spara några ören."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Budgetera färjan som ett fast block",
+          "body": [
+            "<a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> är en stor kostnad som inte går att förhandla bort för varje resa som omfattar båda öarna, och den prissätts efter fordonets längd och inte efter antal passagerare. En överfart med husbil kostar flera gånger så mycket som med en bil, och en dragen släpvagn eller en cykelhållare ändrar kategorin igen.",
+            "Boka tidigt för sommaravgångar och läs villkoren för ändring och avbokning innan du väljer den billigaste biljetten. En icke återbetalningsbar besparing försvinner första gången vädret eller en vägavstängning tvingar fram en annan avgång."
+          ],
+          "tips": [
+            "Prissätts efter fordonets storlek, inte antal personer",
+            "Boka sommaravgångar tidigt",
+            "Billiga biljetter kostar mer att ändra"
+          ]
+        },
+        {
+          "heading": "Blanda övernattningssätten medvetet",
+          "body": [
+            "En resa som bygger helt på gratisplatser kräver ett helt självförsörjande fordon och slutar ändå med att du betalar för duschar, tvätt och vatten någonstans. En resa som bygger helt på <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> kostar två eller tre gånger så mycket och ger lite på de nätter då du kommer sent och åker tidigt.",
+            "Det praktiska mönstret är två eller tre billiga nätter hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) eller med freedom camping, följda av en natt med service som löser allt på en gång: tvätt, varma duschar, laddning, dricksvatten och avfall. Räknat så tjänar natten med service oftast in sitt pris."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ha en riktig buffert",
+          "body": [
+            "Spara pengar till det som inte finns i någons plan: ett däck, ett stenskott i vindrutan, en färjeändring, ett stängt pass som tvingar fram en betald natt, en dag då vädret gör en stuga till det förnuftiga valet. En budget utan marginal gör varje litet problem till ett beslut om du ska fortsätta.",
+            "Gå igenom dina faktiska utgifter efter tre eller fyra dagar och justera medan rättelsen fortfarande är liten. Raderna som glider iväg är nästan alltid mat, kaffe och betalda aktiviteter och inte boendet, och de är enklast att få tillbaka."
+          ],
+          "tips": [
+            "Ha en riktig reserv",
+            "Gå igenom utgifterna i vecka ett",
+            "Mat och aktiviteter glider iväg, inte campingplatserna"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar en husbilsresa i Nya Zeeland per dag?",
+          "Hyran och bränslet dominerar, och campingplatser är oftast den minsta posten. Guiden delar upp en realistisk dag i hyra, bränsle, campingavgifter, mat och aktiviteter, och skillnaden mellan den billigaste och den bekväma versionen är mest mat och aktiviteter."
+        ],
+        [
+          "Är en husbil billigare än hyrbil plus boende?",
+          "På en lång resa på sommaren, oftast ja. På en kort resa, ofta inte. En husbil har högre dagspris och sämre bränsleförbrukning, och den lönar sig bara när den ersätter betalt boende de flesta nätter."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE: råd om freedom camping"
+        },
+        {
+          "label": "DOC: faciliteter och avgifter på campingplatser"
+        }
+      ],
+      "priceTable": null
+    },
+    "food-fuel-resupply-new-zealand-road-trip": {
+      "title": "Mat, bränsle och påfyllning på en roadtrip i Nya Zeeland",
+      "description": "De stora orterna ger rytmen för matinköp, gasol, dricksvatten och fordonssysslor.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Husbil som fyller på mat och bränsle i en stad i Nya Zeeland",
+      "intro": "Påfyllning fungerar bäst som en rytm och inte som en reaktion. Att i förväg bestämma vilka orter som är dina påfyllningsstopp håller kostnaderna nere, hindrar ärenden från att äta upp varje eftermiddag och förebygger situationen där den sista butiken före en avlägsen natt är stängd och fyrtio kilometer bakom dig.",
+      "sections": [
+        {
+          "heading": "Fyll på i de stora orterna",
+          "body": [
+            "Gör storhandlingen där det finns val och pålitliga öppettider: Auckland, Hamilton, Tauranga, Rotorua, Napier, Wellington, Nelson, Christchurch, Dunedin, Queenstown och Invercargill har alla stora matbutiker. Specialkost, apoteksbehov och ersättningsutrustning är mycket lättare att hitta där.",
+            "Mindre orter är värda att stödja och har ofta utmärkta lokala råvaror, men de har kanske inte en särskild gasanslutning, ett särskilt läkemedel eller en reservdel. Köp det som skulle sabotera resan i den större orten, och köp det goda brödet och den lokala osten i den lilla."
+          ],
+          "tips": [
+            "Köp sådant som är avgörande för resan i stora orter",
+            "Små butiker för råvaror, inte reservdelar",
+            "Kolla öppettider på söndagar och helgdagar"
+          ]
+        },
+        {
+          "heading": "Planera måltider som delar ingredienser",
+          "body": [
+            "Kylen i en husbil är liten och förvaringen mindre. Två eller tre dagars måltider byggda kring en gemensam uppsättning ingredienser ger mycket mindre svinn än ett nytt recept varje kväll, och det betyder att ett inköp täcker perioden i stället för en daglig jakt på något särskilt.",
+            "Köp mindre mängder där kylan är begränsad eller du är på väg någonstans varmt. Ett rabatterat storpack är ingen besparing om hälften är osäkert redan dag tre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tanka före glappen, inte efter",
+          "body": [
+            "East Cape, West Coast mellan Westport och Haast, Fiordland, längst i norr och inlandet i Otago har alla långa sträckor med begränsat eller oregelbundet öppet bränsle. Se den sista pålitliga macken före de etapperna som obligatorisk, oavsett hur mycket som finns i tanken.",
+            "Öppettiderna spelar lika stor roll som avståndet. En mack som är markerad på en karta kan vara stängd en söndagskväll eller obemannad efter klockan sex, och pumpar som bara tar kort nekar ibland utländska kort. Planera inte att komma fram på ångorna någonstans."
+          ],
+          "tips": [
+            "Tanka före avlägsna etapper, inte under dem",
+            "Kolla öppettider, inte bara avstånd",
+            "Utländska kort kan nekas vid pumparna"
+          ]
+        },
+        {
+          "heading": "Följ din verkliga förbrukning",
+          "body": [
+            "Anteckna liter och kilometer för de första tankningarna och räkna ut vad fordonet faktiskt drar. Last, motvind, bergsvägar, takbox och att ha motorn igång för värme driver alla upp en husbil långt över siffran i broschyren.",
+            "När du har ett verkligt tal kan du räkna om varje etapp till liter och pengar i huvudet, vilket gör bränsle från en källa till oro till ett underlag för planeringen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vatten: vet vilken kran som är vilken",
+          "body": [
+            "Fyll dricksvatten bara från kranar som är märkta som dricksvatten. Inte varje kran på en campingplats eller i ett reservat är säker, och en del är uttryckligen skötselvatten som inte får drickas. Där en tillgång är obehandlad eller osäker: koka eller filtrera vattnet i stället för att anta att det är bra för att det ser rent ut.",
+            "Håll slangen för dricksvatten fysiskt åtskild från allt som används vid en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a>, förvara den så att ändarna inte rör marken och tvätta händerna efter att du har hanterat utrustning för avfall. Den enda vanan förebygger den vanligaste orsaken till sjukdom på en resa med self-contained-fordon."
+          ],
+          "tips": [
+            "Fyll bara från kranar märkta som dricksvatten",
+            "Håll slangen för dricksvatten åtskild",
+            "Koka eller filtrera obehandlat vatten"
+          ]
+        },
+        {
+          "heading": "Gasol, gasflaskor och fordonssysslor",
+          "body": [
+            "Kolla anslutningen och hur flaskan fylls på eller byts innan den tar slut, för inte varje bensinstation hanterar alla typer och bytessystemen varierar. En hyrbil kommer oftast med ett särskilt upplägg, så fråga vid upphämtningen i stället för att upptäcka det mitt på resan.",
+            "Samla fordonssysslorna i samma stopp i en ort: bränsle, gasol, en koll av lufttrycket i däcken, vatten, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a> och matbutiken. Ett väl valt stopp kan klara hela listan på under en timme, medan samma uppgifter utspridda över tre orter äter upp en dag."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Spara servicestoppen i planen",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tömningsstationer</a>, dricksvatten, gasol och tvättstugor är värda att spara tillsammans med dina övernattningsstopp, med en anteckning om öppettider. En tömningsstation som stänger klockan fem är detsamma som ingen tömningsstation när du kommer klockan sex.",
+            "Där en avlägsen etapp väntar: ta reda på det särskilda stopp du ska använda i stället för att anta att ett dyker upp. Att planera en tömning eller en tankning på vägen någonstans är enkelt, men att göra en särskild resa tillbaka för det är det inte."
+          ],
+          "tips": [
+            "Spara service som stopp med öppettider",
+            "Namnge det särskilda stoppet före avlägsna etapper",
+            "Ett stopp i en ort, hela listan avklarad"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Var ska man proviantera på en roadtrip i Nya Zeeland?",
+          "I de större orterna, för prisskillnaden mellan en stadsmatbutik och en butik i en liten ort är stor och utbudet går inte att jämföra. West Coast, Catlins och East Cape är de sträckor du ska köra in på redan välfylld."
+        ],
+        [
+          "Hur långt är det mellan bensinstationerna i Nya Zeeland?",
+          "Nära nog på de stora vägarna och inte på de andra. Haast till Wānaka, Desert Road, East Cape och stora delar av Southland har långa glapp, och en del pumpar på landsbygden tar bara kort och är obemannade på natten."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: reseplanerare"
+        },
+        {
+          "label": "DOC: ansvarsfull camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "wellington-wairarapa-camping-loop": {
+      "title": "Wellington och Wairarapa: campingrunda på 4 dagar",
+      "description": "Kullar vid hamnen, vinstäder och en utsatt sydkust på en kort rundtur.",
+      "region": "Södra North Island",
+      "imageAlt": "Kusten i Wairarapa och fyrvägen",
+      "intro": "Fyra dagar räcker för att ta sig från Wellingtons kompakta centrum till vinlandet i Wairarapa och den vilda kusten vid Cape Palliser. Avstånden är måttliga, men vinden och vägen över Remutaka avgör hur lugnt det känns.",
+      "sections": [
+        {
+          "heading": "Över Remutaka Range",
+          "body": [
+            "Lämna Wellington efter rusningstid och ta State Highway 2 mot Featherston. Kraftig vind, regn och trafik kan göra överfarten tröttande i en hög husbil, så sakta ner eller vänta i stället för att kämpa mot fordonet.",
+            "Martinborough och Greytown är praktiska baser med mat, platser med el och korta lokala turer. Om vin ingår i dagen: gå, cykla försiktigt eller åk på en tur i stället för att flytta fordonet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dagen vid Cape Palliser",
+          "body": [
+            "Vägen förbi Lake Ferry smalnar av och går nära havet före Cape Palliser. Kolla dyning, vind och senaste väglägen och lämna sedan tillräckligt med dagsljus för återvägen.",
+            "Håll avstånd till pälssälarna och blockera aldrig vägen eller båtarnas tillfart runt Ngawi. Trappan upp till fyren är brant, och kusten ger lite skydd när sydvinden kommer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tillbaka genom orterna",
+          "body": [
+            "Använd sista morgonen till de mindre orterna i Wairarapa eller en promenad runt våtmarkerna och åk sedan över bergskedjan innan <a data-guide=\"alcohol-fatigue-driving-new-zealand\">trötthet</a> och kvällstrafik slår ihop sig.",
+            "En <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> i Wellington-området kan vara den smartaste sista natten före en färja. Den ger tvätt, el och en förutsägbar avresa utan att lägga till ett parkeringsproblem i centrum."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Remutaka Hill Road sätter tonen",
+          "body": [
+            "Vägen mellan Upper Hutt och Featherston stiger brant med snäva kurvor och är utsatt för den vind som Wellington är känt för. Den går bra i en bil och kräver verklig uppmärksamhet i en husbil eller med släp, särskilt i nordlig vind.",
+            "Kolla vägstatus innan du kör över, för NZTA stänger den vid kraftig vind. Alternativen är långa, så en avstängning ändrar hela dagen i stället för att lägga till tjugo minuter."
+          ],
+          "tips": [
+            "Stängs vid kraftig vind",
+            "Brant med snäva kurvor",
+            "Omvägarna är långa"
+          ]
+        },
+        {
+          "heading": "Cape Palliser är rundans bästa dag",
+          "body": [
+            "Färden ut förbi Ngawi till fyren går längs en utsatt kust full av bulldozrar som används för att sjösätta fiskebåtar, förbi North Islands största koloni av pälssälar, till 250 trappsteg upp till fyren. Det känns betydligt mer avlägset än avståndet från Wellington antyder.",
+            "Håll dig långt bort från sälarna, särskilt mellan ungarna och vattnet, och gå aldrig mellan ett djur och dess flyktväg till havet. De rör sig snabbare än de ser ut och försvarar utrymmet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Martinborough passar på cykel",
+          "body": [
+            "Vingårdarna ligger i ett kompakt rutnät inom lätt cykelavstånd från byns torg, vilket gör cykling mellan dem till det vanliga och förnuftiga sättet att ha en provsmakningsdag. Det går att hyra cykel i byn, och det tar bort frågan om rattfylleri helt.",
+            "Boka bord till lunch i förväg på en helg, för byn är liten och blir full. De flesta vingårdar tar en avgift för provsmakning som dras av vid ett köp."
+          ],
+          "tips": [
+            "Hyr cykel, kör inte mellan vingårdarna",
+            "Boka helglunchen i förväg",
+            "Provsmakningsavgiften dras av vid köp"
+          ]
+        },
+        {
+          "heading": "Själva Wellington kräver en plan för fordonet",
+          "body": [
+            "Att parkera en husbil i centrala Wellington är svårt och dyrt, och höjdgränserna i de centrala parkeringshusen överraskar folk. Basera dig i Hutt Valley eller på en campingplats vid kusten och ta tåg eller buss in till staden.",
+            "Te Papa är gratis och riktigt i världsklass, och linbanan och Zealandia är båda värda en halv dag. Inget av det kräver att husbilen står i närheten av centrum."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Putangirua Pinnacles och kustvägen",
+          "body": [
+            "Pinnacles är en badlandsformation av eroderade grusspiror som nås med en promenad uppför en bäckfåra, och de användes som Paths of the Dead i filmtrilogin. Dalrutten är en klättring över löst berg. Leden på åsen ovanför ger överblicken och tar längre tid.",
+            "Vägen ut till Cape Palliser bortom Pinnacles är på sina håll oasfalterad och kan påverkas av jordskred och av havet vid kraftig dyning. Kolla förhållandena innan du bestämmer dig, särskilt i ett stort fordon, för det är svårt att vända.",
+            "Ngawi, fiskebyn med en rad bulldozrar på stranden, är den mest fotograferade delen av den här kusten och ett bra ställe att stanna på. Det finns ingen service bortom den, så bränsle och mat får du från Martinborough eller Featherston."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zealandia och stadens djurliv",
+          "body": [
+            "Zealandia är ett inhägnat stadsreservat där kaka, takahe, tuatara och tui är vanliga och lätta att se, och nattturen ger en realistisk chans att se kiwi nära stadens centrum.",
+            "Det blir fullbokat, särskilt nattturen, och det är en mycket bättre upplevelse av vilda djur än de flesta väntar sig av något inne i en huvudstad."
+          ],
+          "tips": [
+            "Nattturen ger en chans att se kiwi",
+            "Boka nattturen i förväg"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "north-island-two-week-road-trip": {
+      "title": "North Island med husbil: rutt på 14 dagar, camping och körning",
+      "description": "Två veckor från Auckland genom vulkanland, huvudstaden och västkusten.",
+      "region": "North Island",
+      "imageAlt": "Husbilsrutt genom centrala North Island",
+      "intro": "Två veckor räcker inte för att täcka varje hörn av Te Ika-a-Māui väl. Den här rutten väljer en sammanhängande runda, skyddar tvånattsvistelser på de ställen som behöver dem och lämnar Northland eller East Cape till en annan resa.",
+      "sections": [
+        {
+          "heading": "Från Auckland till vulkanland",
+          "body": [
+            "Tillbringa första natten utanför Aucklands trafik och ge sedan Coromandel och Rotorua två nätter var. Det ger tid för en dag vid stranden eller i skogen och en geotermisk dag utan att packa ihop lägret varje morgon.",
+            "Använd Taupō för att fylla på före Tongariro. Alpina planer måste följa prognosen, transportarrangemangen och <a data-guide=\"volcanic-safety-new-zealand-travel\">vulkaniska</a> varningar eller varningar för leder, med en lägre promenad redo när förhållandena är fel."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Söderut till Wellington",
+          "body": [
+            "Bryt den centrala körningen kring Whanganui eller Kāpiti Coast. Wellington belönar ett parkerat fordon, och en campingplats nära <a data-guide=\"public-transport-costs-new-zealand-2026\">kollektivtrafik</a> undviker höjdgränser och dyr parkering i centrum.",
+            "Om en <a data-guide=\"cook-strait-ferry-campervan-guide\">färja över Cooksundet</a> följer: checka in enligt fordonsbokningen och räkna med störningar på grund av vind. Ha mediciner, varma lager och viktiga dokument utanför ett bildäck som du inte kommer åt under överfarten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tillbaka genom Taranaki",
+          "body": [
+            "Åk norrut genom Wairarapa bara om tiden räcker, annars ta västkusten mot Taranaki. New Plymouth är en enkel bas för två nätter med alternativ vid kusten och berget.",
+            "Avsluta genom Waikato med sista natten tillräckligt nära Auckland för en lugn hemfärd. Rengöring, tankning och återlämning av hyrbilen tar längre tid än sista raden i resplanen antyder."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fjorton dagar betyder att välja en sida",
+          "body": [
+            "Det vanliga misstaget är att försöka få med Northland, Coromandel, det centrala höglandet, East Cape och Taranaki på en och samma tvåveckorsresa. Det ger en körsemester utan tid i något av dem. Välj antingen den norra rundan eller den östra och centrala rutten och gör den ordentligt.",
+            "En fungerande form är Auckland, Coromandel, Rotorua, Taupō, Tongariro, Napier, Wellington, med två nätter på minst två av dem. Northland blir då en egen resa i stället för ett förhastat bihang."
+          ],
+          "tips": [
+            "Försök inte få med Northland också",
+            "Två nätter på minst två ställen",
+            "Välj en runda och gör den ordentligt"
+          ]
+        },
+        {
+          "heading": "Tongariro Alpine Crossing kräver en riktig plan",
+          "body": [
+            "Det är en alpin led på 19,4 kilometer enkel väg, kräver skyttel i båda ändar, och det finns en tidsgräns för parkering vid Mangatepopo som i praktiken tvingar fram skytteln. Den är också ofta stängd eller osäker vid vind, moln eller is, och folk hamnar i allvarliga problem varje år.",
+            "Boka skytteln, kolla prognosen från DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) på morgonen, ha varma och vattentäta lager med dig oavsett solen på parkeringen och var verkligen beredd att avbryta. Lämna en reservdag i resplanen så att en inställd tur inte blir slutet på det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Geotermiskt land belönar noggranna val",
+          "body": [
+            "Rotorua och Taupō har fler geotermiska sevärdheter än någon behöver, och de går inte att byta mot varandra. Wai-O-Tapu, Waimangu, Orakei Korako och Craters of the Moon erbjuder var sin sak, alla tar inträde, och priserna varierar mycket.",
+            "Välj en betald park och lägg till Kuirau Park i centrala Rotorua, en gratis kommunal park med ångande pooler och lera, i stället för tre betalda. Nyheten tar slut snabbare än inträdesavgifterna antyder, och pengarna gör mer nytta på en sjötur eller en dagspromenad."
+          ],
+          "tips": [
+            "En betald park räcker oftast",
+            "De går inte att byta mot varandra",
+            "Kuirau Park i Rotorua är gratis"
+          ]
+        },
+        {
+          "heading": "Låt sista dagen vara mjuk",
+          "body": [
+            "Om du flyger hem från Auckland eller tar en färja från Wellington: planera inte att komma fram på avresedagens morgon. Vägarbeten, väder och en långsam sista dag är alla normala, och huvudvägarna på North Island har tung trafik runt helger.",
+            "Tillbringa sista natten inom en timme från terminalen eller flygplatsen. Det gör en stressig morgon till en vanlig och kostar inget mer än en något tråkigare sista campingplats."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Waitomo, Napier och stoppen som stryks",
+          "body": [
+            "Waitomos lysmaskgrottor är en verklig höjdpunkt och ligger obekvämt mellan Auckland och det centrala höglandet, och det är därför de ofta stryks. Forsränningen i svart vatten är mer minnesvärd än den vanliga vandringsturen om du har tid och lust.",
+            "Napiers art deco-centrum är kompakt nog att se på en förmiddag och passar bra ihop med vingårdarna i Hawke's Bay, av vilka de flesta ligger inom cykelavstånd från staden. Det fungerar bäst som ett stopp på två nätter och inte som en genomfart.",
+            "Om de två veckorna är knappa är Napier det mer försvarbara strecket, för Waitomo har ingen ersättare någon annanstans på rutten medan vinregioner dyker upp igen i Marlborough om du fortsätter söderut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Var körningsdagarna tar hårt",
+          "body": [
+            "Auckland till Coromandel, och Taupo till Napier över Titiokura, är de två etapperna som oftast underskattas. Båda har slingriga sträckor som tar långt över navigationens uppskattning.",
+            "Bryt vilken som helst av dem med ett stopp i stället för att se den som en transportsträcka. Alternativet är att komma fram till något bra utan ork kvar att njuta av det."
+          ],
+          "tips": [
+            "Auckland till Coromandel tar lång tid",
+            "Taupo till Napier är slingrig"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Tongariro Alpine Crossing"
+        },
+        {
+          "label": "NZTA: reseplanerare"
+        }
+      ],
+      "priceTable": null
+    },
+    "west-coast-south-island-road-trip": {
+      "title": "West Coast på South Island: roadtrip med camping",
+      "description": "Regnskog, kalksten, glaciärer och Tasmanhavet från Westport till Haast.",
+      "region": "West Coast",
+      "imageAlt": "Regnskog som möter Tasmanhavet på West Coast",
+      "intro": "West Coast är en resa genom väder och ingen checklista över sevärdheter. Sex eller sju dagar ger regnet utrymme att röra sig, hindrar glaciärdalarna från att bli hastiga stopp och placerar varje lång sträcka inom dagsljuset.",
+      "sections": [
+        {
+          "heading": "Från Westport till Hokitika",
+          "body": [
+            "Kolla Buller Gorge och kustvägen innan du åker och gör sedan en paus vid Punakaiki efter tidvatten och dyning i stället för efter en fast minut. Blåshålen är naturfenomen och inga schemalagda föreställningar.",
+            "Hokitika är den första riktigt bra <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">påfyllningen</a> och ett bra ställe att torka utrustning. Köp pounamu bara av välrenommerade lokala säljare och behandla kulturella berättelser med större omsorg än en souvenirlapp."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Glaciärlandet",
+          "body": [
+            "Franz Josef och Fox erbjuder dalpromenader, väderberoende flygturer och välfyllt boende under högsäsong. Dagens tillträde till glaciärerna följer markerade leder och avstängningar, och gamla foton visar inte var besökare säkert kan stå i dag.",
+            "Ha ett obokat aktivitetsfönster, för moln och regn rör sig snabbt. En blöt dag kan ändå passa för skogspromenader, varma bad eller en långsam bilfärd, men gå aldrig över en avspärrning för att få en klarare utsikt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Haast och vägen ut över bergen",
+          "body": [
+            "Vägen söderut har smala broar, vattenfall och sandflugeland. Ha med insektsmedel, stäng nät tidigt och använd anvisade mötesfickor i stället för att stanna i kurvor.",
+            "Kolla snö, jordskred och avstängningar innan du kör över Haast Pass. Tanka i Haast eller Fox och var framme i Wānaka före mörkret, för de sista kurvorna vid sjön kräver full uppmärksamhet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn är normalläget, inte undantaget",
+          "body": [
+            "Delar av West Coast får över fem meter regn om året, och Fox och Franz Josef ligger i några av de blötaste bebodda trakterna i världen. En resa som planeras för att undvika regn här misslyckas, men en resa som planeras för att resa i regn fungerar fint.",
+            "Packa för det ordentligt: ett riktigt vattentätt skal, vattentäta påsar till allt som spelar roll, extra strumpor och någonstans i fordonet att torka saker. Belöningen är nästan tomma campingplatser och en regnskog som ser ut som den gör på grund av vädret."
+          ],
+          "tips": [
+            "Planera för att resa i regn, inte undvika det",
+            "Vattentäta påsar till allt som spelar roll",
+            "Tomma campingplatser är belöningen"
+          ]
+        },
+        {
+          "heading": "Sandflugorna är ingen överdrift",
+          "body": [
+            "<a data-guide=\"sandflies-new-zealand-camping\">Sandflugorna</a> på West Coast är oförtröttliga vid gryning och skymning, nära vatten och i stillastående luft. De hittar varje glipa i tältets nät, och bitten kliar i flera dagar. Den enda faktorn förstör fler resor till West Coast än regnet.",
+            "Ha med starkt insektsmedel och smörj in dig innan du går ut ur fordonet och inte efter. Täck anklar och handleder på kvällen, kolla tältnätet innan du åker hemifrån och ta med antihistaminkräm, för du kommer att vilja ha den."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Glaciärerna har dragit sig tillbaka långt",
+          "body": [
+            "Franz Josef och Fox har inte längre tillträde till isen från dalbotten, och glaciärfronten ligger långt bortom där promenadlederna slutar. Dalpromenaderna är fortfarande värda att göra, men det enda sättet att komma upp på isen är helikopter, vilket är dyrt och väderberoende.",
+            "Boka en helikoptervandring tidigt under vistelsen så att en väderinställning kan flyttas. Om den inte går ger dalpromenaden vid Franz Josef och utsiktsplatsen vid Fox-glaciären fortfarande känslan för storleken, och promenaden vid Lake Matheson med speglingen är sannolikt den bättre upplevelsen."
+          ],
+          "tips": [
+            "Inget tillträde till isen från dalbotten längre",
+            "Helikoptervandringar ställs ofta in på grund av vädret",
+            "Lake Matheson är det pålitliga alternativet"
+          ]
+        },
+        {
+          "heading": "Bränsle, mat och glappet vid Haast",
+          "body": [
+            "Kusten har långa sträckor mellan servicen, och sträckan från Fox genom Haast till Wānaka är den att planera för. Tanka före Haast, ha med mat och räkna med <a data-guide=\"kiwicamping-offline-data-guide\">ingen täckning</a> på stora delar av den.",
+            "Punakaiki, Hokitika och Greymouth har alla förnödenheter och är värda stopp i sig. Pancake Rocks är som bäst vid högvatten med dyning, vilket är värt att kolla i stället för att komma vid stilla vatten en lugn dag."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Punakaiki, Hokitika och stoppen däremellan",
+          "body": [
+            "Pancake Rocks vid Punakaiki är som bäst vid högvatten med västlig dyning, då blåshålen fungerar. Vid lågvatten en lugn dag är de fortfarande intressanta men betydligt mindre dramatiska, så kolla tidvattnet innan du bestämmer när du stannar.",
+            "Hokitika Gorge, ungefär en halvtimme inåt land från staden, har vatten i en turkos färg som ser manipulerad ut på foton men inte är det. Det är en kort, enkel promenad och ett av kustens mer prisvärda stopp.",
+            "Mellan orterna har kusten en rad platser hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) och lagunsjöar som belönar ett oplanerat stopp. Lake Mahinapua, Lake Ianthe och Ship Creek har alla korta promenader och är långt lugnare än glaciärbyarna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Whitebait, grönsten och lokala regler",
+          "body": [
+            "Säsongen för whitebait är på våren med strikta regler för metod och plats, och den tas mycket på allvar lokalt. Pounamu ägs juridiskt av Ngai Tahu, och det är inte tillåtet att ta grönsten från floder och stränder.",
+            "Köp pounamu av en licensierad snidare i stället, vilket stöder dem den tillhör och ger dig ett bättre stycke än en flodsten."
+          ],
+          "tips": [
+            "Ta inte grönsten från floder",
+            "Köp pounamu av en licensierad snidare"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "queenstown-glenorchy-camping": {
+      "title": "Queenstown till Glenorchy: campingflykt på 3 dagar",
+      "description": "En kort väg med så mycket sjö, berg och vandringsland att det fyller en långhelg.",
+      "region": "Whakatipu",
+      "imageAlt": "Vägen längs Lake Whakatipu nära Glenorchy",
+      "intro": "Vägen till Glenorchy är bara ungefär 46 kilometer, men den förtjänar en hel dag. Tre nätter ger plats för inköp i Queenstown, en laglig campingplats vid sjön och en väderberoende promenad utan att göra varje utsiktsplats till ett hastigt stopp.",
+      "sections": [
+        {
+          "heading": "Lämna Queenstown förberedd",
+          "body": [
+            "Tanka och handla innan du lämnar staden och bekräfta sedan den valda campingplatsen och dess gränser för fordon. Twelve Mile Delta är utsatt och enkel, medan kommersiella alternativ ger större säkerhet för el och duschar.",
+            "Stanna bara i anlagda fickor på Glenorchy-vägen. Trafik, cyklister och blinda kurvor gör ett improviserat fotostopp farligt även när sjön ser tom ut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dagen i Glenorchy",
+          "body": [
+            "Gå på spången vid lagunen, besök hamnfronten och välj en led som passar prognosen. Rees-Dart, Routeburn och Greenstone nås med olika vägar, broar och förberedelser för vildmarken.",
+            "Servicen i Glenorchy är mindre än i Queenstown. Kom inte och räkna med sen tankning, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matinköp</a> eller en omedelbar bilreparation, och ha kontanter eller ett annat betalsätt med dig."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Paradise eller en lugn hemfärd",
+          "body": [
+            "Vägarna bortom Glenorchy kan vara oasfalterade, smala och påverkade av vadställen eller bortspolade partier. Hyresvillkoren kan förbjuda rutten, så stanna där fordonsavtalet och de aktuella förhållandena stannar.",
+            "Åk tillbaka i dagsljus och använd Bob's Cove eller ett annat anlagt stopp för den sista promenaden. Låt sjövägen förbli upplevelsen i stället för att klämma in den mellan bokningar i Queenstown."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Glenorchy-vägen är själva attraktionen",
+          "body": [
+            "De 45 kilometerna från Queenstown längs sjön hör till landets stora bilfärder, med en rad skyltade utsiktsplatser som alla är värda att stanna vid. Särskilt Bennett's Bluff förtjänar mer än en långsam färd förbi.",
+            "Vägen är också smal med snäva kurvor och mycket cykel- och turisttrafik. Räkna med en bra bit över en timme åt varje håll med stopp, och var extra försiktig med ett stort fordon vid mötesfickorna, som är små."
+          ],
+          "tips": [
+            "Räkna med över en timme åt varje håll",
+            "Bennett's Bluff är stoppet att göra",
+            "Mötesfickorna är små för husbilar"
+          ]
+        },
+        {
+          "heading": "Camping nära Queenstown är begränsad",
+          "body": [
+            "Queenstown Lakes District tillämpar begränsningarna för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> strikt, med avgränsade zoner, certifieringskrav och patruller tidigt på morgonen. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. Det här är inget distrikt där en omärkt parkeringsficka är ett rimligt vågspel, och böter är vanliga här.",
+            "Platserna hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) vid Twelve Mile Delta och Moke Lake är de praktiska alternativen nära staden och blir fulla tidigt på sommaren. Båda är värda att komma till tidigt på eftermiddagen och inte i skymningen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Paradise och Dart Valley",
+          "body": [
+            "Bortom Glenorchy blir vägen grusväg och fortsätter mot Paradise och Dart. Den går att köra i ett vanligt fordon vid goda förhållanden men har vadställen som blir omöjliga att korsa efter regn, och många hyresavtal förbjuder den.",
+            "Kolla ditt avtal och förhållandena innan du åker, och vänd vid varje vadställe där du inte ser botten. Landskapet är verkligen exceptionellt och är inte värt en bärgningsräkning eller värre."
+          ],
+          "tips": [
+            "Grusväg med vadställen bortom Glenorchy",
+            "Många hyrbilar förbjuder den här vägen",
+            "Korsa aldrig ett vadställe du inte ser ner i"
+          ]
+        },
+        {
+          "heading": "Queenstown utan adrenalinbudgeten",
+          "body": [
+            "Staden är byggd kring betalda äventyrsaktiviteter och det är lätt att spendera flera hundra dollar om dagen. Det är lika möjligt att ha några utmärkta dagar på promenaderna Queenstown Hill och Ben Lomond, vid strandpromenaden, i trädgårdarna och med ett dopp, och inget av det kostar något.",
+            "Om du vill ha en betald aktivitet är Shotover-jetbåten och gondolen de mest pålitligt väderoberoende. Fallskärmshoppning och skärmflygning ställs ofta in, så boka dem tidigt under vistelsen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Promenader från Glenorchy",
+          "body": [
+            "Routeburn Track börjar nära Glenorchy, och första delen till Routeburn Flats är en utmärkt dagspromenad utan behov av stugbokning. Hela överfarten är en Great Walk som kräver bokning långt i förväg och transport i båda ändar.",
+            "Lake Sylvan och lederna i Rees-Dart-dalen ger lugnare alternativ med enklare tillgång, och Glenorchy Walkway runt lagunen är platt, kort och har de bästa vyerna över sjöns övre ände med minimal ansträngning.",
+            "Routeburn-vägen och dalvägarna bortom Glenorchy är grusvägar och kan stängas och översvämmas. Kolla varningarna från DOC och ditt hyresavtal, och tänk på att parkeringen vid Routeburn blir full tidigt på sommaren."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vädret och sjön",
+          "body": [
+            "Lake Wakatipu skapar sin egen vind, och eftermiddagsbrisen uppför sjön är pålitlig nog att planera efter. Morgnarna är oftast lugnare, vilket spelar roll för kajak, fotografering och allt på vattnet.",
+            "Vintern ger skidorterna och en helt annan stad, där Crown Range kräver kedjor och väglägena på Glenorchy-vägen är värda att kolla innan du ger dig av."
+          ],
+          "tips": [
+            "Morgnarna är lugnast på sjön",
+            "Crown Range kräver kedjor på vintern"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "southern-scenic-route-camping": {
+      "title": "Southern Scenic Route: camping längs södra kusten",
+      "description": "Vilda stränder i Catlins, orter i söder och portarna till Fiordland mellan Dunedin och Queenstown.",
+      "region": "Southland och Otago",
+      "imageAlt": "Catlins-kusten längs Southern Scenic Route",
+      "intro": "Southern Scenic Route knyter ihop över 600 kilometer kust, skog och sjöland. Sju dagar ger Catlins två nätter, hindrar Fiordland från att bli en omväg och lämnar utrymme för vädret i söder.",
+      "sections": [
+        {
+          "heading": "Från Dunedin genom Catlins",
+          "body": [
+            "Handla i Dunedin och använd sedan Balclutha eller Owaka som praktisk ingång till Catlins. Vattenfall och stränder ligger vid sidovägar som gör ett kort avstånd på kartan till en hel eftermiddag.",
+            "Vid Nugget Point, Curio Bay och stränderna med vilda djur: följ säsongens regler för tillträde och håll dig långt från sjölejon, pingviner och häckande fåglar. Mörker och vilda djur gör sen körning längs kusten till ett dåligt byte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Invercargill och söderut",
+          "body": [
+            "Invercargill har reparationer, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matinköp</a> och alternativ inomhus efter blöta dagar. Bluff är en tillfredsställande geografisk markör, men det ska inte ersätta tid för lokala museer, mat eller en omställning av fordonet.",
+            "Om du ska till <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>: parkera eller boka fordonet enligt färjearrangemangen och räkna med att vädret i Foveaux Strait ändrar tidtabellerna. Ha en flexibel natt på fastlandet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Från Te Anau till Queenstown",
+          "body": [
+            "Använd Te Anau för Fiordland i stället för att köra Milford Sound som dagstur från Queenstown. Bränsle, väglägen och lavinkontroller behöver kollas före den tidiga starten.",
+            "Avsluta via sjöarna till Queenstown med tillräcklig marginal för trafik och vägarbeten. En kortare sista dag bevarar den koncentration som behövs efter en vecka med smala vägar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Catlins är skälet att ta den här rutten",
+          "body": [
+            "Mellan Balclutha och Invercargill rymmer kusten Nugget Point, Purakaunui Falls, Cathedral Caves och Curio Bay, och den har en bråkdel av trafiken på huvudvägen. Vägen har oasfalterade sträckor, och allt tar längre tid än kartan antyder.",
+            "Ge Catlins två dagar i stället för en. Pressat till en enda transportsträcka blir det en rad besök på parkeringsplatser, vilket är precis vad rutten inte är till för."
+          ],
+          "tips": [
+            "Två dagar för Catlins",
+            "Vissa sträckor är oasfalterade",
+            "Mycket lugnare än huvudvägen"
+          ]
+        },
+        {
+          "heading": "Cathedral Caves och Curio Bay styrs av tidvattnet",
+          "body": [
+            "Cathedral Caves går bara att nå ungefär två timmar före och efter lågvatten, tillfartsvägen drivs privat med inträdesavgift och säsongsöppet, och den stängs helt utanför säsongen. Att komma utan att ha kollat är det vanliga bakslaget här.",
+            "Den förstenade skogen vid Curio Bay är också tidvattenberoende, och gulögda pingviner kommer i land på kvällen. Håll dig långt tillbaka och bakom de avspärrade områdena, för störningar håller dem kvar till havs och borta från ungarna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vilda djur här kräver avstånd",
+          "body": [
+            "Nugget Point har pälssälar och sjölejon, Curio Bay har hoiho, och sjölejon drar upp på stränder i hela regionen. Nyzeeländska sjölejon är stora, snabba över korta sträckor och anfaller om du hamnar mellan dem och vattnet.",
+            "Tjugo meter är minimum för sälar och sjölejon, och betydligt mer för pingviner som kommer i land. Ställ dig aldrig mellan ett djur och havet, och håll hundar borta helt."
+          ],
+          "tips": [
+            "Minst tjugo meter från sjölejon",
+            "Blockera aldrig vägen till vattnet",
+            "Pingviner går inte i land om du syns"
+          ]
+        },
+        {
+          "heading": "Väder från söder",
+          "body": [
+            "Den här kusten vetter mot Södra ishavet och får vädret rakt därifrån. Den kan vara riktigt kall och vinddriven när som helst på året, och en varm eftermiddag i Invercargill säger ingenting om förhållandena vid Slope Point en timme senare.",
+            "Ha med varma och vindtäta lager oavsett säsong och välj skyddade campingplatser. En utsatt plats på den här kusten i sydvind är ingen bra natt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Otago Peninsula och Dunedin",
+          "body": [
+            "Halvön öster om Dunedin har världens enda koloni av kungsalbatrosser på fastlandet vid Taiaroa Head, tillsammans med sjölejon, pälssälar och gulögda pingviner. Albatrosscentret är en betald tur och fåglarna syns året runt, med bäst flygning när det blåser.",
+            "Vägen på halvön är smal, slingrig och långsam och går längs hamnkanten med nästan ingen vägren. Det är ingen bekväm körning i en stor husbil, och höjdvägen över ryggen är det enklare alternativet åt båda hållen.",
+            "Själva Dunedin har Otago Museum, Speight's bryggeri och Baldwin Street, och är den sista staden med full service före Invercargill. Handla ordentligt här, för Catlins har mycket få butiker."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Invercargill och Bluff",
+          "body": [
+            "Invercargill är den sista staden med full service och den naturliga påfyllningen före Fiordland eller färjan till <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>. Bluff, en halvtimme söderut, är vägvisaren i slutet av landet och avgångspunkten för Stewart Island.",
+            "Bluff-ostron är i säsong ungefär mars till augusti och är verkligen värda omvägen när de är det. Utanför det är orten lugn och körningen handlar mest om att ha nått slutet."
+          ],
+          "tips": [
+            "Handla i Invercargill",
+            "Bluff-ostron: mars till augusti"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "fiordland-camping-road-trip": {
+      "title": "Fiordland från Te Anau: roadtrip med camping",
+      "description": "Djupa sjöar, regnmatade vattenfall och avlägsna vägar kring en stabil bas i Te Anau.",
+      "region": "Fiordland",
+      "imageAlt": "Fiordlands berg speglade i mörkt vatten",
+      "intro": "Fiordland är lättare när campingplatsen stannar på samma ställe. Basera dig kring Te Anau i fyra nätter och låt sedan vädret och väglägena avgöra ordningen för Milford Sound, Manapouri och vandringsdagarna.",
+      "sections": [
+        {
+          "heading": "Bygg basen",
+          "body": [
+            "Välj en holiday park i Te Anau för service eller en godkänd <a data-guide=\"doc-campsites-new-zealand-guide\">campingplats hos DOC</a> (Department of Conservation, Nya Zeelands naturvårdsmyndighet) som passar fordonet och behovet av vatten. Boka sommardatum tidigt och använd aldrig en ledstart som en improviserad övernattningsplats.",
+            "Köp mat och bränsle före varje lång dag. Det finns inga vanliga bensinstationer på Milford Road, och täckningen är opålitlig på stora delar av nationalparken."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Milford Road",
+          "body": [
+            "Kolla vägstatus, lavinkontroller och väder innan du åker. Kör tidigt, använd anvisade stopp och kom ihåg att samma vackra vattenfall kan tyda på kraftigt regn och stigande vatten.",
+            "En kryssningsbokning skyddar inte mot en stängd väg. Håll arrangören informerad, räkna med gott om restid och acceptera att Fiordland ibland ersätter planen med väder."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vandring och återhämtning",
+          "body": [
+            "Använd kanterna av Kepler Track, strandpromenaden och kortare promenader hos DOC för flexibla dagar. Längre vandringar kräver stugbokningar, utrustning för vildmarken och en prognos som passar hela rutten.",
+            "Torka kängorna, fyll på vatten och vila mellan de stora utflykterna. Fiordlands storlek tas bäst in med tid över, inte från ett fordon som varje kväll kommer tillbaka till Te Anau utmattat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Milford-vägen är en seriös körning",
+          "body": [
+            "State Highway 94 från Te Anau till Milford är 119 kilometer, tar minst två timmar åt varje håll utan stopp, har inget bränsle, <a data-guide=\"kiwicamping-offline-data-guide\">ingen täckning</a> på det mesta av sin längd och kan stängas på grund av laviner på vintern och våren. Den är också en av de bästa bilfärderna någonstans.",
+            "Åk tidigt, tanka i Te Anau och räkna med en hel dag för tur och retur med stopp vid Mirror Lakes, Chasm och Eglinton Valley. Försök inte göra det som ett eftermiddagstillägg till en annan dag."
+          ],
+          "tips": [
+            "Inget bränsle och ingen täckning på vägen",
+            "Minst två timmar åt varje håll",
+            "En hel dag för tur och retur"
+          ]
+        },
+        {
+          "heading": "Lavinkontroll på vintern stänger vägen",
+          "body": [
+            "Ungefär mellan maj och november drivs Milford-vägen under ett program för lavinrisk, med schemalagda stängningar och obligatoriska snökedjor ibland. Stängningar kan meddelas med kort varsel, och vägen kan stängas med fordon i Milford, vilket kräver en övernattning.",
+            "Kolla status på morgonen du reser, ha med kedjor om det krävs och kör aldrig förbi en avspärrning. Lavinstråken ovanför vägen är stora, och kontrollprogrammet finns på grund av en verklig historia av laviner."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn gör Milford bättre",
+          "body": [
+            "Milford Sound får ungefär sju meter regn om året, och vattenfallen som gör platsen extraordinär rinner bara ordentligt när det regnar. En klar dag ger dig topparna, och en blöt dag ger dig hundratals tillfälliga fall nerför klippväggarna.",
+            "Boka en kryssning oavsett prognos, ta med ett vattentätt lager och gå ut på däck. De som ställer in på grund av regn ställer in den bättre versionen av upplevelsen."
+          ],
+          "tips": [
+            "Vattenfallen behöver regn för att rinna",
+            "Boka kryssningen oavsett prognos",
+            "Gå ut på däck, ta med regnkläder"
+          ]
+        },
+        {
+          "heading": "Camping och sandflugorna",
+          "body": [
+            "Det finns campingplatser hos DOC genom Eglinton Valley längs vägen, som är det praktiska alternativet eftersom boendet i själva Milford är mycket begränsat. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> nära fjordarna är inte tillåtet, och förbudet upprätthålls. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet.",
+            "<a data-guide=\"sandflies-new-zealand-camping\">Sandflugorna</a> i Fiordland är de värsta i landet, och de i Milford är legendariska. Insektsmedel är inte valfritt här, och att slå upp läger i Eglinton i skymningen utan det är riktigt obehagligt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Doubtful Sound och alternativet till Milford",
+          "body": [
+            "Doubtful Sound är större, lugnare och nås med båt över Lake Manapouri följt av buss över Wilmot Pass, vilket gör det till en hel dag och betydligt dyrare än Milford. I utbyte ser du nästan inga andra fartyg.",
+            "För resenärer som har tid och budget är övernattningskryssningarna på någon av fjordarna den version de flesta minns. De blir fullbokade långt i förväg på sommaren och är väderberoende som allt annat här.",
+            "Manapouri är en lugnare bas än Te Anau med en bra campingplats och Kepler Tracks ledstart i närheten. Om Te Anau är fullt ligger det tjugo minuter bort och har oftast plats."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Te Anau som bas",
+          "body": [
+            "Te Anau har servicen, besökscentret hos DOC för information om leder och väder och det boende som Milford saknar. Nästan alla har sin bas här och kör ut, vilket är det förnuftiga upplägget.",
+            "Grottorna med lysmaskar vid Te Anau nås med en båttur över sjön och fungerar bra som kvällsaktivitet, särskilt en dag när vädret satte stopp för något annat."
+          ],
+          "tips": [
+            "Ha basen i Te Anau, inte i Milford",
+            "Besökscentret hos DOC för information om leder"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "nelson-abel-tasman-golden-bay": {
+      "title": "Camping i Abel Tasman: campingplatser, bokning och rutt",
+      "description": "Campingplatserna på Abel Tasman Coast Track bokas året runt (21 NZD för nyzeeländare, upp till 31 NZD från utlandet). Tidvatten, Tōtaranui och rutten Nelson till Golden Bay.",
+      "region": "Tasman",
+      "imageAlt": "Gyllene strand i Abel Tasman National Park",
+      "intro": "Sex dagar ger Nelson en natt, Abel Tasman två och Golden Bay tillräckligt med tid för att det ska löna sig att köra över Tākaka Hill. Rutten fungerar bäst när transport på vattnet ersätter en del vägkilometer och sista kuststräckan förblir flexibel.",
+      "sections": [
+        {
+          "heading": "Från Nelson till Marahau",
+          "body": [
+            "Använd Nelson för förnödenheter och en natt i stan och gör sedan en paus i Māpua eller Motueka före Marahau. Sommartrafiken är långsam, och campingplatserna nära nationalparken blir fullbokade tidigt.",
+            "Boka vattentaxi, campingplatser och stugor hos rätt arrangör eller i systemet från DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet). Tidvattnet påverkar flera övergångar längs kustleden, så dagens schema ska börja med tidvattentabellen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Över Tākaka Hill",
+          "body": [
+            "Tanka i Motueka och kör över kullen i dagsljus. Vägen är brant, slingrig och tröttande för stora fordon, och is på vintern eller stormskador kan förekomma.",
+            "Tākaka är den praktiska basen för mat och väderbeslut. Te Waikoropupū Springs har strikta begränsningar för kontakt som skyddar vattnet, och varje avspärrning ska ses som icke förhandlingsbar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Norra Golden Bay",
+          "body": [
+            "Pūponga och Farewell Spit ligger längre från servicen än de ser ut. Följ med på en godkänd tur där tillträdet är begränsat och undvik att köra ut på tidvattensand.",
+            "Ha sista natten nära Tākaka om en färja eller ett flyg följer. Att köra över kullen och nå Nelson eller Picton under tidspress tar bort det lugn som gör Golden Bay värt ett besök."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Abel Tasman är en bokningsövning",
+          "body": [
+            "Kustledens 4 stugor och 18 campingplatser måste bokas i förväg året runt, och de blir slutsålda långt före sommarsäsongen. Campingplatserna på Great Walk kostar 21 NZD per vuxen och natt för nyzeeländare och 21 till 31 NZD för besökare från utlandet, beroende på säsong. Vattentaxi går från Marahau och Kaiteriteri och är det vanliga sättet att kombinera en vandring med en återresa, och även den måste bokas.",
+            "Bestäm formen på din vandring innan du bokar något: enkel väg med taxi tillbaka, en dagsvandring från Marahau eller flera dagar med nätter i stuga eller på campingplats. Var och en har olika bokningskrav, och de hänger ihop."
+          ],
+          "tips": [
+            "Platserna och stugorna på leden blir slutsålda tidigt",
+            "Vattentaxi måste också bokas",
+            "Bestäm formen före bokningen"
+          ]
+        },
+        {
+          "heading": "Tidvattenövergångarna går inte att tajma fritt",
+          "body": [
+            "Leden korsar tidvattenpåverkade flodmynningar vid Torrent Bay, Bark Bay och Awaroa. DOC ger Torrent Bay och Bark Bay ett fönster på 2 timmar före och efter lågvatten, med leder för alla tidvatten runt båda, men Awaroa Inlet har ingen väg runt: korsa den i dagsljus, inom 1 timme 30 minuter före och 2 timmar efter lågvatten. Att missa fönstret betyder en lång väntan eller en led för högvatten, och folk blir överraskade av det regelbundet.",
+            "Skaffa tidvattentabellen när du bokar och planera dagen efter den i stället för efter avståndet. Övergångarna över flodmynningarna bestämmer din starttid, inte dina önskemål."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tākaka Hill och Golden Bay",
+          "body": [
+            "Vägen över Tākaka Hill är brant, slingrig och långsam, och den är den enda vägen in till Golden Bay. Den tar längre tid än avståndet antyder och är ett riktigt träningspass i en husbil, men bukten på andra sidan är värd besväret.",
+            "Te Waikoropupū Springs hör till de klaraste sötvattenskällorna som uppmätts någonstans och har kulturell betydelse för Ngāti Tama och Te Ātiawa. Vattnet får inte beträdas, och spången håller dig borta från det."
+          ],
+          "tips": [
+            "Tākaka Hill är den enda vägen in",
+            "Gå inte ut i vattnet i Pupu Springs",
+            "Räkna med långt över den beräknade tiden"
+          ]
+        },
+        {
+          "heading": "Farewell Spit och öns yttersta norr",
+          "body": [
+            "Landtungan är en våtmark av internationell betydelse, och biltillträde bortom den första delen är begränsat till en licensierad turarrangör. Wharariki Beach, som nås med en promenad på tjugo minuter över betesmark, är den mer tillgängliga höjdpunkten och ofta den bättre.",
+            "Kolla tidvattnet för Wharariki, för bågarna och sälungarna i klipppölarna går bara att nå vid lägre vattenstånd. Promenaden går över privat betesmark, så håll dig till stigen och stäng grindarna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nelson och Great Taste Trail",
+          "body": [
+            "Nelson är en av de soligaste platserna i landet, med en omfattande konst- och matscen, och Great Taste Trail är en mestadels platt cykelled som knyter ihop vingårdar, bryggerier och caféer mellan staden, Māpua och Motueka. Cykeluthyrning och skytteltrafik gör en dag med enkel väg lätt.",
+            "Lördagsmarknaden i Nelson är en av landets bättre och värd att planera efter. Māpua wharf, vid leden, har en klunga bra mat och en passagerarfärja över flodmynningen.",
+            "Nelson fungerar också som påfyllningsstället före Golden Bay, eftersom butikerna bortom Tākaka är få och allt måste över kullen. Gör storhandlingen här i stället för i Motueka."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "När du åker",
+          "body": [
+            "Abel Tasman är som bäst från december till mars och är därefter full, med platser på leden bokade månader i förväg. Mellansäsongen ger dig samma kust med lediga platser och kallare vatten.",
+            "Nelson hör regelbundet till de soligaste platserna i Nya Zeeland, så även utanför sommaren är oddsen för bra väder här bättre än på de flesta ställen på South Island."
+          ],
+          "tips": [
+            "Boka december till mars långt i förväg",
+            "Mellansäsongen är mycket enklare"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Abel Tasman Coast Track"
+        },
+        {
+          "label": "DOC: onlinebokning"
+        },
+        {
+          "label": "DOC: Tōtaranui Campground"
+        }
+      ],
+      "priceTable": null
+    },
+    "south-island-two-week-road-trip": {
+      "title": "South Island med husbil: en realistisk runda på 14 dagar",
+      "description": "En tvåveckorsrutt som skyddar tid för berg, kust och Fiordland i stället för att samla orter.",
+      "region": "South Island",
+      "imageAlt": "Alpväg och husbil på South Island",
+      "intro": "Fjorton dagar räcker för en minnesvärd runda över Te Waipounamu när resplanen accepterar gränser. Den här versionen väljer Mackenzie Country, Wānaka, Fiordland och West Coast, med två flexibla nätter för vädret.",
+      "sections": [
+        {
+          "heading": "Från Christchurch till Fiordland",
+          "body": [
+            "Ge Tekapo eller Aoraki två nätter och åk sedan via Wānaka till Te Anau utan att tvinga in både långa promenader och långa körningar samma dag. Queenstown kan vara ett inköpsstopp eller en natt, men ingen skyldighet.",
+            "Boka de svårersatta nätterna först: aktiviteter i Milford, populära platser hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) och alla vistelser under helgperioder. Låt vanliga campingplatser i städer vara flexibla runt dem."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Norrut längs West Coast",
+          "body": [
+            "Kör över Haast Pass först när du har kollat vägen och prognosen. Glaciärlandet behöver minst två nätter om ett flyg eller en större promenad är viktig, eftersom moln och regn ofta ordnar om planen.",
+            "Hokitika eller Greymouth ger återhämtningen före Punakaiki och återvägen över bergen. Använd tvätt, bränsle och <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matinköp</a> med eftertanke i stället för att tappa tid på små ärenden varje dag."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tillbaka över Arthur's Pass",
+          "body": [
+            "Kör över Arthur's Pass i dagsljus med <a data-guide=\"winter-driving-new-zealand-campervan\">snökedjor</a> när det krävs och med förarens uppmärksamhet fräsch. Om passet stängs: acceptera förseningen i stället för att sträcka ut sista dagen till en osäker omväg.",
+            "Ha sista natten nära Christchurch för rengöring, tankning och återlämning av hyrbilen. Den extra marginalen skyddar också resan när vädret flyttar en tidigare del."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "En runda slår en linje",
+          "body": [
+            "Fjorton dagar räcker för en riktig runda på South Island om du står emot att lägga till <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a>, Catlins och Marlborough ovanpå. En fungerande krets är Christchurch, Tekapo, Aoraki, Wānaka, Queenstown, Te Anau, tillbaka upp längs West Coast och över Arthur's Pass.",
+            "Den formen undviker att köra samma väg två gånger, korsar alperna två gånger över olika pass och låter dig sluta nära där du började. Att lägga till en andra region betyder oftast att ta bort två nätter från de ställen du kom för."
+          ],
+          "tips": [
+            "En runda i stället för fram och tillbaka",
+            "Korsa alperna över två olika pass",
+            "Fler regioner kostar dig nätter"
+          ]
+        },
+        {
+          "heading": "Boka de tre sakerna som blir slutsålda",
+          "body": [
+            "Kryssningar i Milford, boende vid Aoraki och alla Great Walks är det som inte går att få sent. Allt annat på rundan går att ordna några dagar i förväg större delen av året.",
+            "Boka de tre först och bygg körningen runt dem. Att försöka passa in en kryssning i Milford i en rutt som planerades utan den betyder oftast en obehaglig körningsdag i ena änden."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vädret ändrar planen minst en gång",
+          "body": [
+            "Under två veckor på South Island ska du räkna med minst en dag då passet är stängt, kryssningen inställd eller promenaden osäker. Det är normalt och inte otur, och en resplan utan marginal gör det till en kris.",
+            "Bygg in två flexibla dagar och ha ett alternativ för blött väder i varje region. Te Papa finns inte här, men ett varmt bad, ett museum, ett bryggeri eller bara en långsammare morgon duger alla."
+          ],
+          "tips": [
+            "Räkna med minst en störd dag",
+            "Ha två flexibla dagar i planen",
+            "Ha ett alternativ för blött väder per region"
+          ]
+        },
+        {
+          "heading": "Avstånd mellan bränsle och mat",
+          "body": [
+            "South Island har långa sträckor utan service, särskilt på West Coast, genom Fiordland och över passen. Se Twizel, Wānaka, Te Anau, Hokitika och Greymouth som dina påfyllningsställen och tanka när du passerar i stället för när du behöver.",
+            "Täckningen försvinner i timmar i sträck på flera av de här etapperna. Ladda ner rutten, berätta för någon om din plan och räkna inte med att kunna ringa i förväg om en bokning."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vad du ska utelämna",
+          "body": [
+            "Två veckor rymmer inte bekvämt <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a>, Catlins, Marlborough och Nelson ovanpå huvudrundan. Var och en av dem lägger till två till tre dagar om det görs ordentligt, och att lägga till en betyder oftast att ta bort en natt från Aoraki eller Fiordland, vilket är ett dåligt byte.",
+            "Den vanligaste ångern är att ha pressat ihop West Coast. Det är sträckan med längst avstånd mellan servicen, mest väderstörningar och det landskap folk minns, och den belönar inte att man susar igenom på en och en halv dag.",
+            "Om du måste stryka något från standardrundan är Queenstown lättast att korta. Där finns det dyraste boendet, mest trängsel och minst som är unikt jämfört med Wānaka och Te Anau i närheten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Var du börjar och slutar",
+          "body": [
+            "Christchurch och Queenstown är de två huvudsakliga ingångarna och båda fungerar. Att börja i Christchurch och sluta i Queenstown undviker att köra samma väg tillbaka, medan en tur och retur till Christchurch undviker avgiften för enkelhyra.",
+            "Flygen till Queenstown påverkas mer av vädret än de till Christchurch, så om din avresa är tight är det säkrast att sluta i Christchurch."
+          ],
+          "tips": [
+            "Flyg till Queenstown omdirigeras oftare",
+            "Väg avgifter för enkelhyra mot att köra samma väg tillbaka"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "new-zealand-three-week-campervan-route": {
+      "title": "3 veckor med husbil i Nya Zeeland: båda öarna",
+      "description": "Husbilsrutt på 3 veckor i Nya Zeeland: nio dagar i norr, en överfart över Cooksundet, elva dagar i söder, med vilodagar och 2026 års regel om green warrant.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Husbil vid en sjö i Nya Zeeland",
+      "intro": "Tre veckor räcker för att knyta ihop de båda huvudöarna, men inte för att rymma varje berömd avstickare. Rutten håller norr sammanhållet, korsar Cooksundet en gång och koncentrerar South Island till Mackenzie Country, Fiordland och östkusten.",
+      "sections": [
+        {
+          "heading": "Nio dagar i norr",
+          "body": [
+            "Lämna Auckland för Coromandel eller Bay of Plenty och tillbringa sedan två nätter kring Rotorua. Fortsätt genom Taupō och Tongariro med en reservplan för vädret innan du når Wellington.",
+            "Använd holiday parks för tvätt då och då, el och långa duschar, och blanda sedan in lämpliga platser hos DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) eller kommuner. <a data-guide=\"freedom-camping-rules-new-zealand\">Reglerna för freedom camping</a> är lokala och gäller specifika fordon, och de är inget allmänt tillstånd att stanna var som helst. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Cooksundet och söderut",
+          "body": [
+            "Boka färjan för rätt fordonslängd, kom i god tid och ha marginal för störningar. Picton förtjänar en återhämtningsnatt efter en hård överfart eller en sen ankomst.",
+            "Åk genom Kaikōura och Christchurch mot Tekapo och Aoraki. Skydda de alpina dagarna från ett överfullt schema, för vind eller regn kan flytta dem med 24 timmar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fiordland och målgången",
+          "body": [
+            "Använd Wānaka eller Queenstown som övergång och ha sedan basen i Te Anau för Fiordland. Åk tillbaka till Christchurch via södra rutten eller centrala Otago bara om de återstående dagarna verkligen räcker.",
+            "Planera de sista 48 timmarna kring återlämningen av hyrbilen, rengöring och tankning. En bra resa på tre veckor slutar med en lugn överlämning och inte med en sista nattkörning."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tre veckor är den första bekväma längden",
+          "body": [
+            "Tjugoen dagar är ungefär den punkt där båda öarna blir möjliga utan att resan blir en körövning. Det ger runt nio dagar på North Island, en färjedag och elva på South Island, med två nätter på de ställen som förtjänar det.",
+            "Stå emot frestelsen att lägga till Northland och <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a> i ändarna. Vilket som helst av dem gör en bekväm resa till en jäktad igen, och båda är bättre som en egen resa."
+          ],
+          "tips": [
+            "Ungefär 8 i norr, 1 färja, 12 i söder",
+            "Lägg inte på Northland eller Rakiura",
+            "Två nätter på de ställen som förtjänar det"
+          ]
+        },
+        {
+          "heading": "En färjeöverfart, bokad först",
+          "body": [
+            "Korsa <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> en gång, söderut, och boka den före allt annat. En husbil prissätts efter längd, sommaravgångarna blir fulla och överfarten tar det mesta av en dag när incheckning och körningen i båda ändar räknas med.",
+            "Lägg natten före nära terminalen och låt dagen efter vara mjuk. En kvällsankomst i Picton följd av en lång körning är hur folk börjar sin etapp på South Island trötta."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Var du bör stanna två nätter",
+          "body": [
+            "Rotorua, Aoraki eller Tekapo, Te Anau och någonstans på West Coast är de fyra ställen där en andra natt förändrar resan mest. Var och en är antingen väderberoende eller har mer att göra än en enda eftermiddag rymmer.",
+            "Enstaka nätter fungerar bra för transitorter som Taupō, Blenheim eller Greymouth. Misstaget är att sprida enstaka nätter jämnt över hela rutten, vilket gör att du packar ihop varje morgon i tre veckor."
+          ],
+          "tips": [
+            "Två nätter: Rotorua, Aoraki, Te Anau, West Coast",
+            "Enstaka nätter för transitorter",
+            "Att packa ihop varje dag i 21 dagar är uttröttande"
+          ]
+        },
+        {
+          "heading": "Att sköta en husbil i tre veckor",
+          "body": [
+            "Under den här längden spelar fordonsrutinen roll: töm och fyll på regelbundet i stället för när tankarna är fulla, tvätta var femte eller sjätte dag och planera en natt med service efter varje period av <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. Freedom camping i ett fordon på kommunal mark kräver ett certifierat self-contained-fordon om inte kommunen har avsatt platsen för fordon som inte är det, många notiser från DOC ställer samma villkor, och sedan 7 juni 2026 räknas bara fordon med green warrant: blue warrants slutade gälla, så kolla warranten på husbilen vid upphämtningen. Om du låter det här glida blir vecka tre obekväm.",
+            "Håll gasflaskan, däcktrycket och spolarvätskan påfyllda allt eftersom. Små fordonssysslor är enkla i en stad och svåra på Milford-vägen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Färdriktning och logistik för enkelhyra",
+          "body": [
+            "Att åka från norr till söder, hämta i Auckland och lämna i Christchurch eller Queenstown, fungerar oftast bättre än tvärtom, eftersom det lägger den mer krävande körningen på South Island sist, när du är van vid fordonet.",
+            "Avgifter för enkelhyra mellan öarna varierar mycket och slopas ibland under lågsäsong när uthyrarna behöver flytta fordon. Fråga direkt i stället för att anta att onlineofferten är fast, för den är det ofta inte.",
+            "Alternativet är en tur och retur från Auckland, vilket betyder att korsa <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> två gånger och lägger till ungefär två dagars körning och en andra färjebiljett. Det är bara värt det om dina flyg är bundna till Auckland i båda ändar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vilodagar är en del av planen",
+          "body": [
+            "Tre veckor med förflyttning varje dag är uttröttande, och de resor man minns väl innehåller oftast två eller tre dagar då ingen kör någonstans. Bygg in dem medvetet i stället för att hoppas på dem.",
+            "Välj platser som är värda att stanna still på: en plats vid en sjö, en stad med bra mat, något med en promenad från dörren. En vilodag i en transitort är ingen vilodag."
+          ],
+          "tips": [
+            "Planera två eller tre dagar utan körning",
+            "Vila på ett ställe som är värt att stanna på"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Plumbers, Gasfitters and Drainlayers Board: uthyrningsföretag"
+        },
+        {
+          "label": "Plumbers, Gasfitters and Drainlayers Board: self-contained-fordon för privata ägare"
+        },
+        {
+          "label": "DOC: freedom camping på skyddad mark"
+        }
+      ],
+      "priceTable": null
+    },
+    "rakiura-stewart-island-camping-guide": {
+      "title": "Camping på Stewart Island: Rakiura Track och Oban",
+      "description": "Camping på Stewart Island: campingplatserna på Rakiura Track från 19 NZD per natt på sommaren och bokade året runt, färjan från Bluff på en timme, Ulva Island och vilda kiwi.",
+      "region": "Rakiura",
+      "imageAlt": "Avlägsen strand och inhemsk skog på Rakiura",
+      "intro": "Rakiura är en resa utan husbil. Lämna fordonet på fastlandet, åk över med en kompakt packning och låt promenader, vattentaxi och öns väder sätta takten under tre eller fyra nätter.",
+      "sections": [
+        {
+          "heading": "Förberedelser på fastlandet",
+          "body": [
+            "Köp specialmat och utrustning i Invercargill och bekräfta sedan säker parkering och incheckning i Bluff. Färjans regler för bagage och sjöförhållandena förtjänar uppmärksamhet redan före avresemorgonen.",
+            "Foveaux Strait kan vara hårt och servicen kan ändras. Ha nödvändig medicin, varma lager och en flexibel bokning på fastlandet med dig för en försenad överfart."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Oban och Ulva Island",
+          "body": [
+            "Oban är servicebasen och ingen stor stad. Boka boende, campingplatser eller stugor på lederna i förväg och ta med det som de små butikerna kanske inte har.",
+            "Ulva Island är ett rovdjursfritt reservat som nås med vattentaxi. Rengör skor och väskor, följ anvisningarna om <a data-guide=\"new-zealand-biosecurity-camping-gear\">biosäkerhet</a> och håll maten förseglad så att besöket inte för in skadedjur."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Leder och djur på natten",
+          "body": [
+            "Rakiura Track kräver rätt bokning av stuga eller campingplats och utrustning för ihållande lera och regn. Kortare promenader från Oban kräver ändå ficklampa, ett varmt lager och en realistisk tid för återvägen.",
+            "Att titta på kiwi är tyst och tålmodigt. Använd rött ljus där guiderna ber om det, ge fåglarna utrymme och använd aldrig mat eller ljud för att locka djur närmare."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Att ta sig dit är ett beslut i sig",
+          "body": [
+            "Färjan från Bluff tar ungefär en timme över Foveaux Strait, som har ett rykte om att vara hårt och som är helt förtjänat. Alternativet är ett kort flyg från Invercargill, som kostar mer, har en strikt bagagegräns och är väderberoende.",
+            "Du kan inte ta med ett fordon. Lämna det på säker parkering i Bluff eller Invercargill och räkna med att gå till fots på ön, som har mycket få vägar och där nästan allt ändå ligger inom gångavstånd från Oban."
+          ],
+          "tips": [
+            "Inga fordon på färjan",
+            "Foveaux Strait är verkligen hårt",
+            "Flygen har strikta bagagegränser"
+          ]
+        },
+        {
+          "heading": "Kiwi syns faktiskt här",
+          "body": [
+            "Rakiura är en av landets mest pålitliga platser för att se vilda kiwi, och tokoeka på Stewart Island är aktiv i dagsljus likaväl som på natten, vilket är ovanligt. Guidade kvällsturer för att leta efter kiwi går från Oban.",
+            "Använd rött ljus i stället för vitt, var tyst och håll dig på leden. Gå aldrig fram till eller följ efter en fågel, och håll dig långt tillbaka om en korsar framför dig."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ulva Island är den enkla höjdpunkten",
+          "body": [
+            "En kort vattentaxi från Golden Bay wharf tar dig till Ulva Island, ett rovdjursfritt öppet reservat där saddleback, robin, kākā och weka är många och orädda. Det är de bästa timmarna på ön och kräver ingen vandringserfarenhet.",
+            "Kolla väskan efter gnagare och frön innan du går ombord, vilket är skälet till att kontrollstationerna finns. En enda råtta som når Ulva skulle förstöra decennier av arbete."
+          ],
+          "tips": [
+            "Kolla väskan innan du går ombord",
+            "Bästa fågellivet du ser någonstans",
+            "Ingen vandringserfarenhet behövs"
+          ]
+        },
+        {
+          "heading": "Väder, lera och Rakiura Track",
+          "body": [
+            "Rakiura Track är en Great Walk-slinga på 32 km, som oftast går på tre dagar. DOC (Department of Conservation, Nya Zeelands naturvårdsmyndighet) har tre campingplatser på leden som kostar 19 NZD per vuxen och natt för nyzeeländare och 28 NZD för besökare från utlandet från 1 oktober till 30 april, och stugor 44 NZD och 66 NZD. Varje stuga och campingplats måste bokas i förväg året runt, med högst två nätter på varje. North West Circuit bortom den är en seriös flerdagsrutt som är berömd för djup lera. Ingen av dem ska underskattas för att ön är liten.",
+            "Räkna med regn de flesta dagar, oavsett säsong. Vattentäta kängor, damasker, vattentäta påsar och riktiga kläder att byta till är skillnaden mellan en trevlig vandring och en eländig, och leran är ingen överdrift."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hur länge du bör stanna",
+          "body": [
+            "Två nätter är minimum som motiverar överfarten, och tre eller fyra är bättre. En enda natt ger dig en kväll och en morgon, vilket inte räcker för både en kiwitur och Ulva Island, och gör dig beroende av färjetidtabellen.",
+            "Oban är den enda bebyggelsen och har ett hotell, en butik, ett par ställen att äta på och begränsat boende, och allt blir fullbokat på sommaren. Det finns alternativ för backpackers, men DOC-datan i KiwiCamping har ingen campingplats i själva Oban: DOC:s campingplatser på ön är de tre på Rakiura Track. Priserna speglar att allt kommer med båt.",
+            "Ha med kontanter och allt särskilt du behöver, för butiken är liten och <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">påfyllning</a> går inte snabbt. Ön går i en långsammare takt än fastlandet, och det är till stor del poängen med att åka dit."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Att boka överfarten och vädret",
+          "body": [
+            "Färjeavgångar ställs in vid dåliga förhållanden, och sundet är utsatt. Lägg in en reservdag i planen i vardera änden i stället för att knyta överfarten tätt till ett flyg eller en annan bokning.",
+            "Ta medicin mot åksjuka före ombordstigningen och inte efter. En timme på Foveaux Strait i dyning är en riktigt obehaglig upplevelse om du är känslig."
+          ],
+          "tips": [
+            "Lägg in en reservdag i vardera änden",
+            "Ta medicin före ombordstigningen"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Rakiura Track"
+        },
+        {
+          "label": "DOC: Māori Beach Campsite"
+        },
+        {
+          "label": "RealNZ: planeringsguide för färjan till Stewart Island"
+        }
+      ],
+      "priceTable": null
+    },
     "rankers-alternatives": {
       "title": "De 5 bästa alternativen till Rankers för camping i Nya Zeeland 2026",
       "description": "Vill du ha något annat än Rankers Camping NZ? KiwiCamping, CamperMate, WikiCamps, thl Roadtrip och Campable jämförda på pris, användning utan täckning och vad var och en gör bättre. Kontrollerat i oktober 2026.",
