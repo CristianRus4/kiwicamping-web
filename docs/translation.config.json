@@ -11,8 +11,7 @@
         "it",
         "nl",
         "pt",
-        "cs",
-        "pl"
+        "cs"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -35,10 +34,6 @@
         {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
-        },
-        {
-          "locale": "pl",
-          "path": "../lib/translations/pl.json"
         }
       ],
       "protectedTerms": [
@@ -498,6 +493,53 @@
       },
       "varieties": {
         "zh-hans": "zh-Hans"
+      }
+    },
+    {
+      "id": "kiwicamping-website-pl",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "pl"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
+      ],
+      "protectedTerms": [
+        "KiwiCamping",
+        "Aotearoa",
+        "Aoraki",
+        "DOC",
+        "Waka Kotahi",
+        "NZD",
+        "Te Waipounamu",
+        "Rakiura"
+      ],
+      "register": {
+        "pl": "informal"
+      },
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "North Island": {
+          "pl": "Wyspa Północna"
+        },
+        "South Island": {
+          "pl": "Wyspa Południowa"
+        },
+        "Stewart Island": {
+          "pl": "Wyspa Stewart"
+        }
+      },
+      "styleGuide": {
+        "pl": "Follow docs/translation-style/pl.md: native Polish travel-writer voice for readers from Poland, informal ty (singular, lower case, no Pan/Pani), no gendered forms aimed at the reader, Polish island names (Wyspa Północna, Wyspa Południowa, Wyspa Stewart), kemping and nocleg na dziko, DOC kept as DOC, no calques, no offline-map claims."
       }
     }
   ]
