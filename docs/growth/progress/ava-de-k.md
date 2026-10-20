@@ -24,6 +24,7 @@ B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-c
 - B5 applied, stamped, content:check passes (de 73/85): doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, scenic-campsites-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand.
 - `npm run check` passed on B1..B4 (exit 0).
 - B6 applied, stamped, content:check passes (de 79/85): wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip.
+- B7 applied, stamped, content:check passes (de 83/85, the 2 left are the skipped listicles wikicamps-alternatives and best-campervan-apps-new-zealand): nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, two-week-camper-itinerary-new-zealand.
 
 ## Next
 Hand off B1..B5 (12 left: 10 road trips + 2 skipped listicles = 10 to do); B6/B7 road trips after `npm run check` and review of the rules units; then B4; after 09:00 start the Opus native review of B1..B3.
