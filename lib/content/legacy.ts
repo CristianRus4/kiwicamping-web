@@ -138,7 +138,7 @@ export const legacyOnlyArticles: Article[] = [
         "Council freedom camping areas cannot be reserved at all, which is exactly why they need a fallback. The workable pattern is to book the nights that are hard to replace, stay flexible on the rest, and always know where the nearest paid site is.",
       ]),
       s("The legal guardrails", [
-        "Freedom camping is legal only where it is permitted, and in many districts only for certified self-contained vehicles with a fixed toilet. Older blue certifications remain valid only until they expire, and no later than 31 December 2027, after which a current green warrant is required. The certification is about the vehicle's capability, not your intentions, and enforcement is generally against the vehicle.",
+        "Freedom camping is legal only where it is permitted, and in many districts only for certified self-contained vehicles with a fixed toilet. Older blue certifications stopped counting when the transition ended on 7 June 2026, according to govt.nz, so a current green warrant is now required. The certification is about the vehicle's capability, not your intentions, and enforcement is generally against the vehicle.",
         "On-site signage overrides every app, PDF and blog post, including this one. Where a sign and a cached listing disagree, follow the sign. DOC visitor centres and i-SITEs hold current closure and alert information that has not reached third-party data yet.",
       ]),
       s("Season and access", [
