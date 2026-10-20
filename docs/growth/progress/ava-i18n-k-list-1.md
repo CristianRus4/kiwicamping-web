@@ -14,9 +14,10 @@ best-travel-apps-new-zealand) into de, nl, da, nb, sv, one language at a time, a
 
 ## Done
 - de: all 5 pages (513 units), drafted (sonnet), reviewed (opus), negation re-read, applied, stamped (new `lib/translations/meta/de.json`, 2857 stamps, 0 stale). `content:check` passes, de guides 43 -> 48 of 83.
+- nl: all 5 pages (513 units), same pipeline, applied, stamped (new `lib/translations/meta/nl.json`). `content:check` passes, nl guides 43 -> 48 of 83.
 
 ## Next
-- nl (drafts and review in progress in /tmp/kl1/nl), then da, nb, sv.
+- da (review in progress), nb (drafting), sv.
 
 ## Blockers
 - None.
