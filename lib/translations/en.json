@@ -7268,101 +7268,199 @@
       }
     },
     "best-nz-camping-apps": {
-      "title": "The best camping apps for New Zealand, compared",
-      "description": "How KiwiCamping, Rankers, CamperMate, WikiCamps and AllTrails differ on offline data, freedom camping rules and trip planning.",
+      "title": "Best Camping Apps for New Zealand 2026: 7 Compared",
+      "description": "KiwiCamping, Rankers, CamperMate, WikiCamps, Campable, NZMCA and AllTrails compared on price, offline use, ratings and what each does best. Checked October 2026.",
       "region": "New Zealand",
       "imageAlt": "Camping app open on a phone beside a New Zealand campsite",
-      "intro": "No single app covers every part of a New Zealand camping trip equally well. The useful question is not which app is best overall, but which one answers the question you are actually asking: where can I legally park tonight, which hut has a bunk free, or where is the nearest dump station. This comparison sets out what each of the main options is built around, so you can pick the combination that fits your trip.",
+      "intro": "There is no single best camping app for New Zealand in 2026, but there is a best app for each question a trip throws up: which DOC campsite allows dogs, what other travellers thought of a free site, where you can book a powered site tonight, or which track to walk tomorrow. We checked the seven apps that matter for a New Zealand camping trip against their current App Store listings and their developers' own sites on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
       "sections": [
         {
-          "heading": "What actually matters in a New Zealand camping app",
+          "heading": "The short verdict",
           "body": [
-            "Four things separate a useful app from a directory. The first is whether core place data works without reception, because large parts of the West Coast, Fiordland, the East Cape and inland Otago have no usable signal at exactly the moment you need to choose a site. The second is whether the app distinguishes general <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> from certified-self-contained-only areas, since that distinction is what infringement notices are written against.",
-            "The third is trip planning that survives contact with a changed plan: ordered stops, saved alternatives and notes attached to the right place. The fourth is how the app makes its money, because a tool funded by bookings has a reason to show you bookable places first. Weigh these against your own trip rather than against a feature count."
+            "Pick KiwiCamping if your trip is built around <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, huts and tracks and you want to turn saved places into a dated, ordered route. Pick Rankers if traveller reviews matter most, CamperMate if you want booking, deals and downloadable maps in one free app that also covers Australia, and WikiCamps New Zealand if you want the biggest published count of New Zealand sites for a single upfront price.",
+            "Campable is the specialist for booking a night on a farm, vineyard or other private land. The NZMCA App only makes sense if you are a member of the New Zealand Motor Caravan Association, and AllTrails is the one to carry for the walking half of a mixed trip. Most people on the road for more than a fortnight end up with two of these, usually one for finding and planning places and one for reviews or bookings."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Checked 20 October 2026 on the New Zealand App Store and each developer's site. Ratings are New Zealand App Store averages with the number of ratings.",
+            "head": [
+              "App",
+              "Best for",
+              "Price",
+              "Platforms",
+              "NZ rating",
+              "Without signal"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "DOC sites, huts and trip planning",
+                "Free; Pass NZ$3.99 to NZ$12.99",
+                "iPhone (iOS 26+)",
+                "3.8 (4)",
+                "Place details yes, map tiles no"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Traveller reviews",
+                "Free",
+                "iPhone, iPad, Android, web",
+                "4.7 (3,322)",
+                "Campsite info built in; maps by Wi-Fi download"
+              ],
+              [
+                "CamperMate",
+                "Booking, deals, NZ and Australia",
+                "Free; ads on Android",
+                "iPhone, iPad, Android, web",
+                "4.4 (606)",
+                "Downloadable maps and info"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Most NZ sites listed",
+                "NZ$7.99 upfront (iPhone)",
+                "iPhone, iPad, Android",
+                "4.5 (137)",
+                "Offline Mode for sites and trips"
+              ],
+              [
+                "Campable",
+                "Private land stays",
+                "Free app; hosts set nightly prices",
+                "iPhone, Android",
+                "4.5 (13)",
+                "Not stated"
+              ],
+              [
+                "NZMCA App",
+                "NZMCA members",
+                "Free app; membership NZ$150 to join plus NZ$102 a year",
+                "iPhone, iPad, Android",
+                "No ratings yet",
+                "Not stated"
+              ],
+              [
+                "AllTrails",
+                "Tramping and walking",
+                "Free; Plus or Peak paid tiers",
+                "iPhone, Android, web",
+                "4.8 (5,198)",
+                "Downloaded maps with a paid tier"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: best for DOC campsites, huts and planning the route",
+          "body": [
+            "KiwiCamping is a New Zealand camping map and trip planner built on the Department of Conservation's own data. In its August 2026 data the app carried 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, 927 DOC huts with 7,661 bunks and 1,453 DOC tracks, with the fees, dog rules and booking requirements DOC publishes, where it publishes them. The place details live on the phone, so a campsite's facilities and fees still open on the West Coast or in Fiordland with no reception. Map tiles, routing, weather and photos still need signal, so it does not replace a downloaded map.",
+            "Where it pulls ahead is planning. Places go into Liked, Starred, Visited, Want to Visit or your own <a data-guide=\"save-places-kiwicamping\">collections</a>, and a trip turns them into ordered stops with dates, notes, to-dos, the total route distance and how much of the trip you have visited. Place screens add the local weather, costs converted into your own currency and Apple Look Around where Apple has it.",
+            "Price and platform: free to download, but the free version opens only BookIt stays and tours. DOC campsites, huts, tracks and <a data-guide=\"camping-wastewater-rubbish-new-zealand\">dump stations</a>, saved collections, trips and the guides all need the KiwiCamping Pass, which the New Zealand App Store lists in options from NZ$3.99 to NZ$12.99. It runs on iPhone only and needs iOS 26 or later.",
+            "The honest drawbacks: it is new, with 4 ratings on the New Zealand App Store (3.8) against Rankers' 3,322, there are no traveller reviews in the app, and there is no Android version. If you want to read what the last ten campers thought of a site, Rankers or CamperMate will tell you more."
           ],
           "tips": [
-            "Test offline before you leave reception",
-            "Check how self-contained areas are flagged",
-            "Know how the app is funded"
+            "Best for: DOC-heavy trips and route planning",
+            "Pass needed for DOC places, collections and trips",
+            "iPhone only, iOS 26 or later"
           ]
         },
         {
-          "heading": "KiwiCamping",
+          "heading": "2. Rankers Camping NZ: best for traveller reviews",
           "body": [
-            "KiwiCamping is built around offline-first place data and rule clarity. The bundled directory keeps campsite, hut, holiday park, dump station and potable water details available beyond reliable signal, and <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> areas are separated from certified-self-contained-only areas rather than lumped together under one label. Trips are built from saved places into an ordered route with distance, dates, notes and to-dos attached to individual stops.",
-            "The trade-offs are worth stating plainly. It is iPhone only, so Android travellers need something else. Live weather, road routing and provider booking pages still require a connection. The free tier lets you find places on the map, while saving to lists, full place details, trip planning and advanced <a data-guide=\"kiwicamping-filters-guide\">filters</a> sit behind a paid pass. Current pricing is shown in the App Store, since it varies by region."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Rankers",
-          "body": [
-            "Rankers has the deepest community review base in New Zealand and a long-running relationship with published camping data. If you want to read what other travellers thought of a site before committing to a two-hour detour, this is the strongest source, and its coverage of legal camping locations is genuinely broad.",
-            "It leans on connectivity more than an offline-first tool does, and reviews describe experience rather than current legal status. Treat the review wall as colour and the <a data-guide=\"camping-rules-local-councils-new-zealand\">council bylaw</a> as the authority. Many travellers run it alongside an offline app rather than instead of one."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "CamperMate",
-          "body": [
-            "CamperMate operates on both sides of the Tasman and is oriented towards <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>, bookings and local offers. For a powered-site-heavy trip where you want to reserve ahead and pick up deals, that orientation is an advantage rather than a compromise.",
-            "The breadth of categories can make the map busy when you are hunting for one specific thing, and offline packs are more limited than in tools built offline-first. If your route is mostly commercial parks with reliable coverage, that matters less."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "WikiCamps NZ",
-          "body": [
-            "WikiCamps is the most configurable of the group, with a flexible filter engine, user-contributed points of interest, discussion boards and checklists. Experienced travellers who know exactly what they are filtering for often prefer it, and it uses a one-off licence rather than a subscription after a short trial.",
-            "Because much of the data is user-contributed, verification varies between entries, and there is no official bylaw feed behind the <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> flags. Confirm anything legally significant against the council or DOC page before you rely on it."
+            "Rankers has the most New Zealand App Store ratings of any app in this comparison: a 4.7 average from 3,322 when we checked. Its listing describes more than 1,500 campsites and 6,600 places, over 108,000 reviews that its team checks before publishing, and only community-approved sites. It also lists around 500 bookable campgrounds and more than 150 activity deals.",
+            "Campsite information is built into the app from the first install, and the detailed maps download over Wi-Fi so they work beyond reception; that works in the iPhone and Android apps but not the web version. It is free to download and use, and it runs on iPhone, iPad, Android and the web.",
+            "Strengths: it publishes the largest review count of any app here, more than 108,000, and it is useful for deciding whether a free site is worth a detour. Drawbacks: the iPhone download is large at about 794 MB, its Google Play rating is lower at 3.7 from 1,771 reviews, and reviews describe someone's night rather than the current rule. Check the <a data-guide=\"camping-rules-local-councils-new-zealand\">council bylaw</a> or the sign on site before you settle in."
           ],
           "tips": [
-            "Cross-check user-added sites",
-            "Good for very specific filters",
-            "One-off licence, not a subscription"
+            "Best for: reading other travellers' experience",
+            "Free to download and use",
+            "iPhone, iPad, Android and web"
           ]
         },
         {
-          "heading": "AllTrails",
+          "heading": "3. CamperMate: best for booking and deals across New Zealand and Australia",
           "body": [
-            "AllTrails is a tramping tool rather than a camping one. For topographic overlays, track conditions and GPX export it is excellent, and it is the right app for the walking half of a mixed trip.",
-            "It does not cover dump stations, <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> bylaws, holiday parks or vehicle access notes, so it cannot be the only app on a vehicle-based trip. Pair it with a camping app rather than choosing between them."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Other New Zealand options worth knowing",
-          "body": [
-            "NZMCA's app is members-only and built on shared camping data, with the significant addition of member parks and <a data-guide=\"camping-wastewater-rubbish-new-zealand\">dump stations</a> that do not appear elsewhere. If you are a member, or considering joining for a long trip, that network changes the arithmetic considerably.",
-            "DOC's own Campsite Finder covers DOC campgrounds and nothing else. It is authoritative for exactly that, since the fees, categories and alerts come from the source, but it will not help you with council bylaws, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> or dump stations, so it works as a reference rather than as a trip planner."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Offline coverage is where apps differ most",
-          "body": [
-            "Offline means different things in different apps, and the distinction matters on the West Coast, in Fiordland and across the East Cape. Some tools cache map tiles only, so you get a map with no place details. Others bundle the place directory itself, so categories, facilities, fees and access notes stay readable with no signal at all.",
-            "Whatever you use, sync over Wi-Fi before you leave a main centre, and screenshot anything legally significant: a <a data-guide=\"camping-rules-local-councils-new-zealand\">bylaw</a> summary, a booking confirmation, an access note. A screenshot works in every app, on every phone, with no reception and a nearly flat battery."
+            "CamperMate covers both sides of the Tasman in one free app from Outdoria. It has a filter for free and paid places, traveller reviews and photos, saved lists, campground booking with availability, local deals and links to vehicle hire partners. Version 5.8, released in mid-October 2026, added a satellite view, and its listing says maps and place information can be downloaded for use without signal.",
+            "It held a 4.4 average from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play when we checked, and it is available in 27 languages. The app is free, and the Android version carries ads.",
+            "Strengths: one app for a trip that crosses to Australia, and the booking and deals side earns its place on a holiday-park-heavy route. Drawbacks: commercial listings and deals share the map with free sites, so it can be busy when you only want one thing, and the Android version shows ads."
           ],
           "tips": [
-            "Cached tiles are not cached details",
-            "Sync before leaving a main centre",
-            "Screenshot anything legally important"
+            "Best for: bookings and deals, NZ and Australia",
+            "Free; ads on Android",
+            "Maps and info download for use offline"
           ]
         },
         {
-          "heading": "How the pricing models compare",
+          "heading": "4. WikiCamps New Zealand: best for the largest user-built database",
           "body": [
-            "The apps are funded in four different ways, and each shapes what you see. Subscription tools charge directly and have no reason to prefer one place over another. Booking-funded apps earn from reservations, which tends to surface bookable commercial sites ahead of free ones. One-off licence apps charge once and are then indifferent. Free apps with no visible revenue are worth a moment's thought about where the value goes.",
-            "KiwiCamping is free to download, with map and place discovery available at no cost, and a paid pass covering saved lists, full place details, trip planning, advanced <a data-guide=\"kiwicamping-filters-guide\">filters</a> and offline access. Current prices are shown in the App Store because they differ by region and change; we would rather send you to the live figure than publish one that goes stale here."
+            "WikiCamps New Zealand is a separate app from WikiCamps Australia, and it costs NZ$7.99 once on the App Store rather than a subscription. Its developer describes more than 12,000 New Zealand sites, community reviews and photos, more than 1,000 bookable sites and a <a data-guide=\"plan-trip-kiwicamping\">trip planner</a> that estimates fuel spend. An Offline Mode keeps sites and trip plans available without signal.",
+            "It rated 4.5 from 137 ratings on the New Zealand App Store and 3.0 from 1,042 on Google Play. It runs on iPhone, iPad and Android.",
+            "Strengths: the largest count of New Zealand sites any developer here publishes, and no ongoing cost on iPhone. Drawbacks: almost everything is contributed by users, so accuracy varies between entries, and its Google Play rating is lower at 3.0. Confirm anything legally significant against the council or DOC page."
+          ],
+          "tips": [
+            "Best for: maximum coverage, paid once",
+            "NZ$7.99 upfront on iPhone",
+            "Cross-check user-added sites"
+          ]
+        },
+        {
+          "heading": "5. Campable: best for a night on private land",
+          "body": [
+            "Campable books campervans and motorhomes onto private land: vineyards, farms, orchards and sports clubs. Hosts set their own nightly price, you book and pay in the app, and you get the host's phone number once the booking is made. It rated 4.5 from 13 ratings on the New Zealand App Store and is also on Android.",
+            "Strengths: instant booking for quiet, legal nights away from busy <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> areas. Drawbacks: it lists hundreds of hosts rather than a full directory, and it is a booking tool rather than a way to find DOC sites or holiday parks."
+          ],
+          "tips": [
+            "Best for: booked private-land stays",
+            "Hosts set the price",
+            "iPhone and Android"
+          ]
+        },
+        {
+          "heading": "6. NZMCA App: best for members of the motor caravan association",
+          "body": [
+            "The NZMCA App is the New Zealand Motor Caravan Association's members' app, with its Travel Directory and the association's own NZMCA Parks, which charge members $5 per adult per night. The app is free, but membership costs $150 to join plus $102 a year, so $252 in the first year.",
+            "Strengths: for a long trip in a <a data-guide=\"self-contained-campervan-green-warrant\">certified self-contained</a> motorhome, the member parks change the arithmetic. Drawbacks: it requires NZMCA membership, it had no ratings yet on the New Zealand App Store, and it rated 3.2 from 156 on Google Play."
+          ],
+          "tips": [
+            "Best for: NZMCA members",
+            "Membership NZ$150 plus NZ$102 a year",
+            "Member parks NZ$5 per adult a night"
+          ]
+        },
+        {
+          "heading": "7. AllTrails: best for the walking half of the trip",
+          "body": [
+            "AllTrails is a walking and tramping app rather than a camping one, and the best rated app in this list at 4.8 from 5,198 New Zealand ratings and 4.5 from more than 388,000 on Google Play. Track maps, reviews and recordings are free, and downloaded maps for use without signal need a paid Plus or Peak subscription.",
+            "It does not cover campsites, dump stations, holiday parks or <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, so it cannot be the only app on a vehicle-based trip. Pair it with a camping app and check DOC's track alerts before a remote walk."
+          ],
+          "tips": [
+            "Best for: tracks and tramping",
+            "Downloaded maps need a paid tier",
+            "Check DOC track alerts too"
+          ]
+        },
+        {
+          "heading": "Do not skip DOC's own booking system",
+          "body": [
+            "DOC does not publish a national camping app, but its booking system at bookings.doc.govt.nz is the only place to book Great Walk huts and campsites and DOC's other bookable sites. Great Walks bookings for the 2026/27 season opened in May 2026, and most Great Walks charge international visitors more than New Zealanders in summer.",
+            "Whatever app you use to choose a site, make the booking with DOC and keep the confirmation on your phone. An app listing is never proof of a booking, and DOC's alerts page is the place to check closures before you drive in."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "How we chose and checked",
+          "body": [
+            "We started from the apps New Zealand travellers actually search for and download, then kept the ones that cover camping, staying or walking in New Zealand today. Roadtrippers is left out because its New Zealand listing says it is designed for the United States and Canada, and Hipcamp because we could not verify its current New Zealand listing. Gaspy belongs in a fuel-price comparison rather than this one.",
+            "For each app we read the current New Zealand App Store listing, the developer's own website and, where it exists, the Google Play listing, all on 20 October 2026. Ratings, prices and features are as listed that day. We have not counted features we could not see described by the developer, and a feature missing from this page is not a claim that the app lacks it."
           ],
           "tips": []
         },
         {
           "heading": "Which combination suits your trip",
           "body": [
-            "For a self-contained van moving through remote areas, prioritise offline data and rule clarity, then add a review-led app for the busier stretches where you have signal anyway. For a family trip built around powered sites and school holidays, a booking-oriented app earns its place and offline depth matters less.",
-            "For a mixed trip with serious walking, run a camping app for the vehicle nights and a tramping app for the tracks. Most people who travel New Zealand for more than a fortnight end up carrying two apps, and that is a reasonable outcome rather than a failure to choose."
+            "For a self-contained van moving through remote areas, put DOC data that opens without signal first, then add a review-led app for the busier stretches where you have reception anyway. For a family trip built around powered sites and school holidays, a booking-oriented app earns its place and offline depth matters less.",
+            "For a mixed trip with serious walking, run a camping app for the vehicle nights and AllTrails or DOC's track pages for the tramping days. Carrying two apps is a reasonable outcome, not a failure to choose."
           ],
           "tips": []
         },
@@ -7381,23 +7479,52 @@
       ],
       "faq": [
         [
-          "What should a New Zealand camping app actually do?",
-          "Work without reception, carry accurate fee and facility data, filter to a real question rather than a category, and tell you whether a site needs a self-contained vehicle. Coverage counts for little if the details are wrong or unreadable off-grid."
+          "What is the best camping app for New Zealand in 2026?",
+          "It depends on the trip. For DOC campsites, huts and planning a route we recommend KiwiCamping, which we make; Rankers has the most traveller reviews, CamperMate combines booking, deals and downloadable maps, and WikiCamps New Zealand lists the most New Zealand sites. Many travellers carry two."
         ],
         [
-          "Is one camping app enough for New Zealand?",
-          "For finding and planning, usually. Most travellers still keep a booking provider's own app for the sites they reserve, and the official DOC and NZTA sources for hut bookings and live road status."
+          "Is there a free camping app for New Zealand?",
+          "Rankers and CamperMate are free to download. KiwiCamping is free to download, but DOC campsites, huts, tracks and dump stations, collections and trips need its paid Pass. WikiCamps New Zealand costs NZ$7.99 once on iPhone."
+        ],
+        [
+          "Which camping apps work without reception in New Zealand?",
+          "Rankers builds its campsite information into the app and downloads detailed maps over Wi-Fi, CamperMate lets you download maps and place information, and WikiCamps has an Offline Mode. KiwiCamping keeps place details on the phone, but its map tiles, routing and weather need signal."
+        ],
+        [
+          "Which app is best for freedom camping in New Zealand?",
+          "Use an app to shortlist spots, then let the council bylaw and the sign on site decide, because no app is the authority. Rankers, CamperMate and WikiCamps all carry traveller reports on free sites, and the rules themselves are set by each council and, on conservation land, by DOC."
         ]
       ],
       "sources": [
         {
-          "label": "DOC camping and accommodation"
+          "label": "KiwiCamping on the App Store (NZ)"
+        },
+        {
+          "label": "Rankers Camping NZ on the App Store (NZ)"
+        },
+        {
+          "label": "CamperMate on the App Store (NZ)"
+        },
+        {
+          "label": "WikiCamps New Zealand on the App Store (NZ)"
+        },
+        {
+          "label": "Campable on the App Store (NZ)"
+        },
+        {
+          "label": "NZMCA App on the App Store (NZ)"
+        },
+        {
+          "label": "NZMCA membership fees"
+        },
+        {
+          "label": "AllTrails on the App Store (NZ)"
+        },
+        {
+          "label": "DOC bookings"
         },
         {
           "label": "DOC alerts and closures"
-        },
-        {
-          "label": "Plan a responsible camping trip (DOC)"
         }
       ],
       "priceTable": null

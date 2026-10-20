@@ -206,8 +206,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Are the converted prices exact?", "No, and they are not meant to be. They are a mechanical conversion of a reported New Zealand dollar figure at the rate you set, for judging one site against another. Your bank or card provider will apply its own rate and fees."],
   ],
   "best-nz-camping-apps": [
-    ["What should a New Zealand camping app actually do?", "Work without reception, carry accurate fee and facility data, filter to a real question rather than a category, and tell you whether a site needs a self-contained vehicle. Coverage counts for little if the details are wrong or unreadable off-grid."],
-    ["Is one camping app enough for New Zealand?", "For finding and planning, usually. Most travellers still keep a booking provider's own app for the sites they reserve, and the official DOC and NZTA sources for hut bookings and live road status."],
+    ["What is the best camping app for New Zealand in 2026?", "It depends on the trip. For DOC campsites, huts and planning a route we recommend KiwiCamping, which we make; Rankers has the most traveller reviews, CamperMate combines booking, deals and downloadable maps, and WikiCamps New Zealand lists the most New Zealand sites. Many travellers carry two."],
+    ["Is there a free camping app for New Zealand?", "Rankers and CamperMate are free to download. KiwiCamping is free to download, but DOC campsites, huts, tracks and dump stations, collections and trips need its paid Pass. WikiCamps New Zealand costs NZ$7.99 once on iPhone."],
+    ["Which camping apps work without reception in New Zealand?", "Rankers builds its campsite information into the app and downloads detailed maps over Wi-Fi, CamperMate lets you download maps and place information, and WikiCamps has an Offline Mode. KiwiCamping keeps place details on the phone, but its map tiles, routing and weather need signal."],
+    ["Which app is best for freedom camping in New Zealand?", "Use an app to shortlist spots, then let the council bylaw and the sign on site decide, because no app is the authority. Rankers, CamperMate and WikiCamps all carry traveller reports on free sites, and the rules themselves are set by each council and, on conservation land, by DOC."],
   ],
 
   // --- Costs & budget -------------------------------------------------------
