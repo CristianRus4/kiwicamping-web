@@ -26,8 +26,18 @@ B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-c
 - B6 applied, stamped, content:check passes (de 79/85): wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip.
 - B7 applied, stamped, content:check passes (de 83/85, the 2 left are the skipped listicles wikicamps-alternatives and best-campervan-apps-new-zealand): nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, two-week-camper-itinerary-new-zealand.
 
+- `npm run check` passed (exit 0, 42 tests) on the final branch state, rebased on origin/main 47b8dae (de 83/89 guides, 0 stale, 0 unstamped). The 6 not translated are listicles: wikicamps-alternatives, best-campervan-apps-new-zealand (my skip list) and the four scheduled listicles that landed on main after this task was written (best-weather-apps, fuel-price-apps, working-holiday-apps, money-saving-travel-apps; treated as the listicle lane's).
+
 ## Next
-Hand off B1..B5 (12 left: 10 road trips + 2 skipped listicles = 10 to do); B6/B7 road trips after `npm run check` and review of the rules units; then B4; after 09:00 start the Opus native review of B1..B3.
+- Native review (Opus, medium, 2 at a time) of all 35 guides is NOT done yet: subagents were not allowed before 09:00 on 21 Oct. Review packs and brief are prepared in /tmp/ava-de-k/review (pack-A..D.md, BRIEF.md); fixes get applied with the engine as a follow-up commit.
+- Then: ask the orchestrator whether the 4 new scheduled listicles are mine.
+
+## English source oddities noticed (for the content lanes, not changed)
+- new-zealand-three-week-campervan-route: tip says "Roughly 8 north, 1 ferry, 12 south" but the text says nine north, one ferry, eleven south.
+- where-to-camp-in-new-zealand: section "The four land types" but the FAQ lists five kinds of camping.
+- arthurs-pass-camping-route: heading "The highest of the three alpine crossings" says 920 m is highest, but the text then compares only with Lewis and Haast.
+- best-time-camping-new-zealand: title and meta are about sandflies, the page is mostly seasons (sandflies is one section).
+- wanaka-haast-pass-route / west-coast: "Haast Pass" link texts point at the offline-data guide ("no reception").
 
 ## Blockers
 None.
