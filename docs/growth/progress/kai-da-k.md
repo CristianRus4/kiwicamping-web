@@ -35,6 +35,8 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - Nothing left in my lane. The only two guides not complete in Danish are the skipped listicles owned by another lane: wikicamps-alternatives, best-campervan-apps-new-zealand.
 - Later, when the English of a translated guide changes, `npm run translations:invalidate`/stamp will mark it stale and it falls back to English until retranslated.
 
+- After the final rebase onto origin/main (47b8dae), four NEW App-guide listicles appeared (best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand, publishAt 27 Oct to 1 Nov). They are untranslated in every locale and not on my skip list, but they belong to the listicle series another lane owns, so I left them. Tell me if I should do them.
+
 ## Blockers / questions
 (none)
 
