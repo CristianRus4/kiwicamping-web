@@ -254,7 +254,7 @@
         {
           "heading": "Kort, vejr og live-oplysninger",
           "paragraphs": [
-            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og åbner fra stedets side, hvor der findes billeder.",
+            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Apple Look Around (»Se dig omkring«), visningen på gadeplan, åbner fra stedets side, hvor der findes billeder.",
             "Aktuelt vejr og vejrudsigt kræver live-data. Gem vigtige prognoser og officielle varsler, før du kører ud af dækning.",
             "Registret over steder ligger i appen, så de vigtigste oplysninger om hvert sted er tilgængelige, også hvor dækningen er dårlig. Live-kort, ruteberegning, vejr, fotos og eksterne udbyderes sider kan kræve forbindelse."
           ]
@@ -377,8 +377,8 @@
   },
   "articles": {
     "new-zealand-road-signs-visitors": {
-      "title": "Vejskilte i New Zealand: det skal du kende som turist",
-      "description": "Forbudsskilte, advarselsskilte og midlertidige skilte i New Zealand skal læses sammen med vejstriberne og forholdene på vejen.",
+      "title": "Vejskilte i New Zealand og deres betydning for turister",
+      "description": "Vigepligt, ensporet bro, vejledende hastighed og advarselsskilte i New Zealand forklaret, med de situationer på landevejene, der overrasker besøgende.",
       "region": "New Zealands veje",
       "imageAlt": "Advarselsskilt for en ensporet bro i New Zealand",
       "intro": "Skiltene i New Zealand bygger på velkendte internationale principper, men de lokale trafiksituationer kan overraske turister. Vigepligt på ensporede broer, vejledende hastigheder i sving og midlertidig trafikregulering skal du kunne genkende, før vejen bliver smal.",
@@ -443,7 +443,7 @@
           "heading": "Overhalingsspor og vigepladser til langsomme køretøjer",
           "body": [
             "Der er langt mellem overhalingssporene på New Zealands hovedveje. Kører du langsommere end trafikken bag dig, er det både høfligt og forventet, at du bruger vigepladserne for langsomme køretøjer (»Slow Vehicle Bay«) eller trækker ind til siden, hvor det er sikkert, og lader de andre komme forbi. Det handler om mere end god tone: Frustrerede bilister bagved forårsager ulykker ved overhaling.",
-            "Sæt ikke farten op i et overhalingsspor, mens nogen er ved at overhale dig. Kører der fem eller flere køretøjer i kø bag dig, skal du ifølge loven trække ind til siden, så snart det kan gøres sikkert."
+            "Sæt ikke farten op i et overhalingsspor, mens nogen er ved at overhale dig. Hvis din fart holder trafikken tilbage, kræver færdselsreglerne, at du kører ind til venstre og lader den komme forbi, så snart det kan gøres sikkert."
           ],
           "tips": []
         },
@@ -487,8 +487,8 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Biosikkerhed i New Zealand: telt, støvler og campingudstyr",
-      "description": "Deklarer risikovarer ved grænsen til New Zealand, og rengør udstyret, før det flytter mellem søer, floder og skove.",
+      "title": "Biosikkerhed i New Zealand: deklarer støvler og campingudstyr",
+      "description": "Brugte støvler, telte og fiskeudstyr skal deklareres, når du ankommer til New Zealand. Hvad du skal rengøre, før du flyver, og hvordan du forhindrer skadedyr i at sprede sig mellem floder.",
       "region": "Indrejse og natur i New Zealand",
       "imageAlt": "Rengjorte vandrestøvler klar til biosikkerhedskontrollen i New Zealand",
       "intro": "Brugt friluftsudstyr kan bære frø, jord, insekter og skadelige organismer fra søer og vandløb med sig. Biosikkerheden begynder ved grænsen og fortsætter, når udstyret flytter mellem New Zealands økosystemer.",
@@ -1206,8 +1206,8 @@
       }
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Sådan kører du autocamper i New Zealand: regler og sikkerhed",
-      "description": "Kend autocamperens mål og vægt, reglerne for passagerer og lejekontraktens begrænsninger, før en smal vej i New Zealand afslører, hvor stort køretøjet er.",
+      "title": "Autocamper i New Zealand: kørekort, fart og størrelse (2026)",
+      "description": "At køre autocamper i New Zealand: hvad et almindeligt kørekort dækker, fartgrænser, vind på udsatte veje, færgens mål og de fejl, besøgende begår.",
       "region": "New Zealands veje",
       "imageAlt": "Stor autocamper på en smal vej i New Zealand",
       "intro": "En autocamper kan godt være lovlig at køre på et Class 1-kørekort og alligevel føles helt anderledes end en bil. Få styr på højde, bredde, længde og vægt med last ved udleveringen, og på alle de veje, lejekontrakten ikke tillader.",
@@ -1240,7 +1240,7 @@
           "heading": "Kend målene, inden du kører fra udlejeren",
           "body": [
             "Skriv køretøjets højde, længde og vægt ned, og læg sedlen, hvor føreren kan se den. Det er højden, der giver de dyre skader: ved indkørsler til parkeringshuse, drive-in-restauranter, overdækningen på tankstationer og en del underføringer i byerne.",
-            "Tjek spejle, blinde vinkler og bakkamera, før du forlader udlejeren, og gå en runde om køretøjet. De fleste skader på lejede autocampere sker i de første to dage, ved lav fart og på parkeringspladser."
+            "Tjek spejle, blinde vinkler og bakkamera, før du forlader udlejeren, og gå en runde om køretøjet. En stor del af skaderne på lejede autocampere sker ved lav fart, på parkeringspladser."
           ],
           "tips": [
             "Skriv højden op ved instrumentbrættet",
@@ -1260,11 +1260,11 @@
           "heading": "Derfor betyder vinden mere i New Zealand",
           "body": [
             "Et højt køretøj tager meget sidevind, og New Zealand er et blæsende land med åbne kystveje, broer og bjergpas. Lastbiler, der overhaler, og udkørslen fra en vejgennemskæring giver begge pludselige skub fra siden.",
-            "Hold godt fast i rattet med begge hænder på udsatte strækninger, og sæt farten ned før et vindstød, ikke midt i det. Vær også klar over, at nogle ruter lukker for høje køretøjer i kraftig vind, blandt andet Rimutaka Hill Road og dele af Desert Road."
+            "Hold godt fast i rattet med begge hænder på udsatte strækninger, og sæt farten ned før et vindstød, ikke midt i det. Tjek NZTA's rejseplanlægger, før du kører over en udsat strækning: Remutaka Hill Road (SH2) lukker i voldsom vind, og andre udsatte veje har vindadvarsler."
           ],
           "tips": [
             "Sæt farten ned før den udsatte strækning",
-            "Nogle veje lukker for høje køretøjer",
+            "Nogle veje lukker i voldsom vind",
             "Lastbiler og gennemskæringer giver pludselige vindstød"
           ]
         },
@@ -1272,7 +1272,7 @@
           "heading": "Overhale og blive overhalet",
           "body": [
             "En autocamper accelererer langsomt, så en overhaling kræver langt mere fri vej end i en bil, og den er sjældent forsøget værd. De fleste af New Zealands hovedveje har kun to spor og få overhalingsspor, og statistikken for ulykker ved overhaling er dårlig.",
-            "Når der samler sig trafik bag dig, så træk ind til siden, hvor det er sikkert, og lad den komme forbi. Kører der fem eller flere køretøjer i kø bag dig, skal du gøre det, så snart det er sikkert, og det fjerner samtidig det pres, der får folk til at lave farlige overhalinger."
+            "Når der samler sig trafik bag dig, så træk ind til siden, hvor det er sikkert, og lad den komme forbi. Holder du trafikken tilbage, kræver færdselsreglerne, at du kører ind til venstre og lader den passere, så snart det er sikkert, og det fjerner samtidig det pres, der får folk til at lave farlige overhalinger."
           ],
           "tips": []
         },
@@ -1288,13 +1288,13 @@
         {
           "heading": "Færger, tunneler og højdegrænser",
           "body": [
-            "Prisen på færgen over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> afhænger af køretøjets længde og højde, og begge dele bliver kontrolleret. Nogle tunneler i byerne og ældre broer har højde- eller vægtbegrænsning, og enkelte ruter er lukket for høje køretøjer i kraftig vind.",
+            "Prisen for et køretøj på færgen over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> afhænger af længden, inklusive cykelstativer og anhængertræk, og længden bliver kontrolleret ved indtjekning. Nogle tunneler i byerne og ældre broer har højde- eller vægtbegrænsning, og enkelte udsatte ruter lukker i voldsom vind.",
             "Kend køretøjets mål præcist, og tjek dem mod alle ruter med en tunnel, en lav bro eller en færgebooking. Det er gætteri, der fører til en dyr efterregulering ved færgeterminalen, eller noget værre ude på vejen."
           ],
           "tips": [
             "Færgeprisen afhænger af størrelsen",
             "Kend den præcise højde og længde",
-            "Nogle ruter lukker for høje autocampere"
+            "Udsatte ruter kan lukke i voldsom vind"
           ]
         }
       ],
@@ -1557,8 +1557,8 @@
       }
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Fartgrænser i New Zealand og et sikkert tempo på vejene",
-      "description": "Skiltet viser den højeste tilladte fart i godt føre, men på mange landeveje i New Zealand er det sikre tempo langt lavere.",
+      "title": "Fartgrænser i New Zealand 2026: landevej 100, træk 90 km/t",
+      "description": "Fartgrænser i New Zealand for besøgende og autocampere: 100 km/t på landevej, 50 km/t i byer, 90 km/t, når du trækker noget, og hvornår du skal køre langt under dem.",
       "region": "Vejene i New Zealand",
       "imageAlt": "Skilt med fartgrænse ved en landevej i New Zealand",
       "intro": "En fartgrænse er ikke et løfte om, at vejen kan køres med den fart. Sving, regn, grus, får og kvæg, cyklister og en autocamper, du ikke er vant til, trækker alle sammen det sikre tempo ned.",
@@ -1602,8 +1602,8 @@
         {
           "heading": "Kontrollen er strammere, end mange turister regner med",
           "body": [
-            "Tolerancen er lille, der er fartkameraer mange steder, også fotovogne, og bøden sendes til den registrerede ejer, så et udlejningsfirma sender den videre til dig med et administrationsgebyr oveni. Strafpoint gælder ikke for udenlandske kørekort, men det gør bøderne i allerhøjeste grad.",
-            "Strækningsmåling og lavere fartgrænser på landet har begge bredt sig i de senere år. Gå ud fra, at enhver vej kan være overvåget, i stedet for at holde udkig efter kameraer."
+            "Tolerancen er lille, der er fartkameraer mange steder, også fotovogne, og bøden sendes til den registrerede ejer, så et udlejningsfirma sender den videre til dig med et administrationsgebyr oveni. Lovovertrædelser, hvor politiet stopper dig, giver strafpoint, selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>, og bøderne gælder også.",
+            "Strækningsmålere har bredt sig siden slutningen af 2025, så gå ud fra, at enhver vej kan være overvåget. Regn med overvågning på enhver vej i stedet for at holde udkig efter kameraer."
           ],
           "tips": []
         },
@@ -1631,7 +1631,7 @@
           "heading": "Variable og nedsatte fartgrænser",
           "body": [
             "Ved skoler falder grænsen på faste tidspunkter, og det vises med blinkende skilte eller elektroniske tavler. Ved vejarbejde gælder der midlertidige grænser, uanset om man kan se nogen arbejde, og de håndhæves med samme lille tolerance som de faste grænser.",
-            "En række hovedveje på landet har fået sænket grænsen fra 100 km/t efter sikkerhedsvurderinger, og ændringen er ikke altid til at se, hvis du kører efter et ældre kort eller husker vejen fra et tidligere besøg. Læs skiltene i stedet for at gå ud fra, at den almindelige landevejsgrænse gælder.",
+            "Nogle veje på landet har grænser under 100 km/t, og mange nedsatte grænser blev sat op igen i 2025, så et ældre kort eller et tidligere besøg kan tage fejl i begge retninger. Læs skiltene i stedet for at gå ud fra, at den almindelige landevejsgrænse gælder.",
             "På uasfalterede veje er den skiltede grænse ofte stadig 100 km/t, og det er langtfra en sikker fart på grus. Her er grænsen virkelig kun et lovligt maksimum og siger intet om, hvilken fart underlaget kan klare."
           ],
           "tips": []
@@ -1640,7 +1640,7 @@
           "heading": "Sådan fungerer fartkameraer og bøder",
           "body": [
             "Der er faste fartkameraer og fotovogne over hele landet, og tolerancen er lille. Bøderne sendes til den registrerede ejer, så har du lejet bilen, er det udlejningsfirmaet, der får dem, og det sender dem videre til dig med et administrationsgebyr.",
-            "Strafpoint gælder ikke for et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>, men det gør bøderne, og ubetalte bøder kan indhente dig senere. Betal dem i stedet for at regne med, at de forsvinder, når du rejser hjem."
+            "Bøder fra fartkameraer giver ingen strafpoint, men det gør lovovertrædelser, hvor politiet stopper dig, selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">udenlandsk kørekort</a>; 100 point inden for to år betyder tre måneders forbud mod at køre i New Zealand. Betal bøderne i stedet for at regne med, at de forsvinder, når du rejser hjem."
           ],
           "tips": [
             "Lille tolerance ved fartkontrol",
@@ -1792,8 +1792,8 @@
       }
     },
     "east-cape-road-trip": {
-      "title": "Roadtrip på East Cape: fra Gisborne til Ōpōtiki",
-      "description": "En rolig rundtur langs kysten gennem surfbyer, pōhutukawa-bugter og afsidesliggende veje i øst.",
+      "title": "Roadtrip på East Cape: campingrute fra Gisborne til Ōpōtiki",
+      "description": "Kør East Cape fra Gisborne til Ōpōtiki: surfbyer, pōhutukawa-bugter, afsidesliggende veje med få servicemuligheder og steder at campere undervejs.",
       "region": "East Cape",
       "imageAlt": "Afsides vej på East Cape ved Stillehavet",
       "intro": "State Highway 35 følger en af landets mest givende, langsomme veje. Brændstof, åbningstider og stormskader betyder mere her, så ruten bør følge dagslyset og de lokale forhold i stedet for et fast ankomsttidspunkt.",
@@ -1888,8 +1888,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Kør med campingvogn i New Zealand",
-      "description": "Maksimum på 90 km/t, vægt med last og fire sekunders afstand er udgangspunkter, ikke mål.",
+      "title": "Kør med campingvogn i New Zealand: kørekort, vægt og 90 km/t",
+      "description": "90 km/t som maksimum med anhængertræk, 50 km/t med et reb, 6.000 kg samlet vægt på et fuldt bilkørekort, plus læsning, slingren og de veje, du skal køre langsomt på.",
       "region": "Veje i New Zealand",
       "imageAlt": "Bil med campingvogn på en hovedvej i New Zealand",
       "intro": "En stabil campingvogn afhænger af en lovlig kombination, korrekt pakning og en fører, der sætter farten ned, før vejen kræver det. New Zealands sving og vind gør den højeste tilladte hastighed uden betydning på mange strækninger.",
@@ -1905,7 +1905,7 @@
         {
           "heading": "Fart og afstand",
           "body": [
-            "Den højeste hastighed på landevej med anhænger er 90 km/t med en fast kobling. Kør langsommere, når stabilitet, sigtbarhed, vejr eller vejen kræver det.",
+            "Den højeste hastighed på landevej med anhænger er 90 km/t med en fast kobling, for eksempel et anhængertræk. Med et reb eller en anden ikke-fast kobling er grænsen 50 km/t på alle veje. Kør langsommere, når stabilitet, sigtbarhed, vejr eller vejen kræver det.",
             "Hold mindst fire sekunders afstand, og mere i dårligt vejr. Brems før sving, og skift til et lavere gear ved nedkørsler."
           ],
           "tips": []
@@ -1921,8 +1921,8 @@
         {
           "heading": "Hastighedsgrænserne er lavere med anhænger",
           "body": [
-            "Lette anhængere og campingvogne er begrænset til 90 km/t på landevej, under den almindelige grænse på 100 km/t, og tunge anhængerkombinationer er også begrænset til 90 km/t. Grænsen gælder uanset den skiltede hastighed, og den bliver håndhævet.",
-            "Hold en meget større afstand, end du ville i en bil. Bremselængden bliver væsentligt længere med en anhænger, og de hyppigste ulykker med anhænger her handler om, at man løber tør for plads til at stoppe på en nedkørsel."
+            "Lette anhængere og campingvogne er begrænset til 90 km/t på landevej, under den almindelige grænse på 100 km/t, og tunge anhængerkombinationer er også begrænset til 90 km/t. Det er et maksimum, ikke et mål: Hvor der er skiltet med en lavere grænse, gælder den lavere grænse.",
+            "Hold en meget større afstand, end du ville i en bil. Bremselængden bliver væsentligt længere med en anhænger, især på lange nedkørsler."
           ],
           "tips": [
             "90 km/t som højeste hastighed med anhænger",
@@ -1953,7 +1953,7 @@
         {
           "heading": "Veje, der kræver ekstra omtanke",
           "body": [
-            "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road og store dele af Coromandel-kysten er krævende med campingvogn, og nogle er forbudt eller kraftigt frarådet for store kombinationer. Tjek, før du beslutter dig, for det er ofte ikke muligt at vende om.",
+            "Tākaka Hill, Crown Range, Remutaka Hill Road, den uasfalterede 309 Road og store dele af Coromandel-kysten er stejle, snævre og langsomme med campingvogn, og Remutaka Hill (SH2) lukker i voldsom vind. Tjek vejforhold og de begrænsninger, der gælder, før du beslutter dig, for det er ofte ikke muligt at vende om.",
             "Skift til et lavere gear på nedkørsler, og brug motorbremsen i stedet for at bremse hele vejen, for bremserne mister kraften. Hold ind med jævne mellemrum, så trafikken bag dig kan komme forbi, både af høflighed og fordi en kø bag dig skaber risiko for farlige overhalinger."
           ],
           "tips": []
@@ -1970,7 +1970,7 @@
         {
           "heading": "Vind og udsatte veje",
           "body": [
-            "En campingvogn er en stor, flad overflade, og sidevind er den vigtigste årsag til, at man mister herredømmet over kombinationen. Udsatte strækninger omkring Wellington, Desert Road, Mackenzie og Canterburys kyst er alle kendt for det.",
+            "En campingvogn er en stor, flad overflade, og sidevind er en væsentlig årsag til slingren og til, at man mister herredømmet over kombinationen. Udsatte strækninger omkring Wellington, Desert Road, Mackenzie og Canterburys kyst er alle kendt for det.",
             "Sæt farten ned før de udsatte strækninger i stedet for at reagere midt i dem, og vær særlig forsigtig, når du kommer ud af en vejgennemskæring eller passerer en lastbil, hvor vinden pludselig tager til og aftager."
           ],
           "tips": [
@@ -1983,23 +1983,23 @@
       "faq": [
         [
           "Hvad er fartgrænsen med anhænger i New Zealand?",
-          "90 km/t, under grænsen på 100 km/t på landevej, og den gælder, uanset hvad skiltet siger. Det, du trækker, skal også ligge inden for køretøjets godkendte trækkapacitet, som er en lovlig grænse og ikke en rettesnor."
+          "90 km/t på landevej med anhængertræk eller en anden fast kobling, under den almindelige grænse på 100 km/t, og en lavere skiltet grænse gælder stadig. Hvis du trækker i et reb eller en anden ikke-fast kobling, falder grænsen til 50 km/t overalt."
         ],
         [
           "Skal man have et særligt kørekort for at køre med campingvogn i New Zealand?",
-          "Et almindeligt bilkørekort dækker de fleste kombinationer op til 4.500 kg samlet vægt. Over det skal du have en tungere kørekortklasse, og lejeaftaler sætter ofte deres egne grænser under de lovlige."
+          "Som regel ikke. Et fuldt bilkørekort giver dig lov til at trække, når køretøj, anhænger og last tilsammen vejer højst 6.000 kg; med et øvelseskørekort eller et begrænset kørekort er grænsen 4.500 kg. Lejeaftaler kan sætte deres egne, lavere grænser."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: autocampere, campingvogne og lette anhængere"
+          "label": "NZTA Road Code: sikker læsning og trækning med lette køretøjer"
         }
       ],
       "priceTable": null
     },
     "wof-registration-campervan-new-zealand": {
-      "title": "Warrant of Fitness, registrering og lejede autocampere",
-      "description": "Et gyldigt mærkat er kun en del af beviset for, at et køretøj lovligt må køre på vejen.",
+      "title": "WoF og rego for autocamper i New Zealand: tjek, før du kører",
+      "description": "Sådan fungerer Warrant of Fitness og registrering for en autocamper i New Zealand, hvordan du tjekker udløbsdatoerne, og hvad en udløbet WoF betyder.",
       "region": "Køretøjer i New Zealand",
       "imageAlt": "Mærkater for syn og registrering på et køretøj i New Zealand",
       "intro": "Lette autocampere skal som regel have en gyldig Warrant of Fitness og køretøjslicens, mens tungere køretøjer eller køretøjer til persontransport kan køre under andre kontrolsystemer. Tjek det konkrete køretøj i stedet for at gå ud fra, at lejekategorien svarer på det.",
@@ -2108,8 +2108,8 @@
       "priceTable": null
     },
     "accommodation-costs-new-zealand-2026": {
-      "title": "Hvad koster overnatning i New Zealand i 2026?",
-      "description": "Sovesale, hytter og private værelser ligger i hvert sit prisleje og har forskellige faciliteter.",
+      "title": "Overnatning i New Zealand 2026: priser på hostel, hytte, hotel",
+      "description": "Hvad en seng på sovesal, en hytte på en Holiday Park og et privat værelse koster i New Zealand i 2026, og hvad hver prisklasse indeholder, så du kan budgettere hver nat.",
       "region": "New Zealand",
       "imageAlt": "Overnatning i New Zealand med udsigt til bjerge",
       "intro": "Prisen på overnatning afhænger mere af datoen og stedet end af, hvad typen koster i gennemsnit på landsplan. En hytte med delt badeværelse kan slå et privat værelse på et hostel, mens et afsides bjergsted kan koste mere end et hotel i en by.",
@@ -2328,7 +2328,7 @@
         ],
         [
           "Skal man have et internationalt kørekort til New Zealand?",
-          "Kun hvis dit kørekort ikke er på engelsk. Er det ikke det, skal du medbringe enten en nøjagtig, bekræftet engelsk oversættelse eller et internationalt kørekort sammen med det originale kørekort."
+          "Kun hvis dit kørekort ikke er på engelsk. Er det ikke det, skal du medbringe enten en nøjagtig engelsk oversættelse fra en oversætter, som NZTA har godkendt, eller et internationalt kørekort sammen med det originale kørekort."
         ]
       ],
       "sources": [
