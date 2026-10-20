@@ -245,6 +245,11 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which fuel discount is biggest in New Zealand?", "It changes. On 20 October 2026 Z's app gave at least 6 cents a litre every day and 15 cents on Wednesdays, bp and g.a.s. gave 6 cents with Everyday Rewards, and Foodstuffs' Club+ gave 8 cents at Z and participating Caltex sites. Each scheme caps the litres per fill and can change its amounts."],
     ["Do diesel campervans cost more to run in New Zealand?", "Diesel is cheaper at the pump, but light diesel vehicles also pay road user charges of $76 per 1,000 km, about 7.6 cents a kilometre. Add that to the fuel cost when you compare a diesel campervan with a petrol vehicle."],
   ],
+  "working-holiday-apps-new-zealand": [
+    ["What apps do I need for a working holiday in New Zealand?", "SEEK and Trade Me for jobs, Wise for moving money, a New Zealand bank app and a prepaid phone plan. If you travel between seasonal jobs, KiwiCamping, which we make, shows DOC campsites and other places to stay on the way."],
+    ["How do I get an IRD number on a working holiday visa?", "Apply through myIR on Inland Revenue's website. It is free, and new arrivals usually receive the number by text or email within two days. Inland Revenue may ask for a New Zealand bank account or an IR997 form, so open the account early."],
+    ["What is the minimum wage in New Zealand in 2026?", "The adult minimum wage is $23.95 an hour from 1 April 2026, and Employment New Zealand says temporary migrants have the same minimum employment rights. Without a tax code from you, your employer must tax you at the 45% non-declaration rate."],
+  ],
   "best-nz-camping-apps": [
     ["What is the best camping app for New Zealand in 2026?", "It depends on the trip. For DOC campsites, huts and planning a route we recommend KiwiCamping, which we make; Rankers has the most New Zealand App Store ratings, CamperMate combines booking, deals and downloadable maps, and WikiCamps New Zealand publishes the biggest count of New Zealand sites. Many travellers carry two."],
     ["Is there a free camping app for New Zealand?", "Rankers and CamperMate are free to download. KiwiCamping is free to download, but DOC campsites, huts, tracks and dump stations, collections and trips need its paid Pass. WikiCamps New Zealand costs NZ$7.99 once on iPhone."],
