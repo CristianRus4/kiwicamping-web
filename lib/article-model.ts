@@ -2,8 +2,13 @@ export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety"
 /** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
  * and the first cell of each row is its label. Translated like the prose around it. */
 export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
-/** `cta` puts a store button under the section: comparison guides set it on the entry for KiwiCamping. */
-export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean };
+/** `cta` puts a store button under the section: comparison guides set it on the entry for KiwiCamping.
+ * `figure` is a screenshot of the app shown after the body. Never set it in an article literal: it
+ * comes from lib/screen-figures.ts, and it is not translated text (a translated page uses its own
+ * section heading as the alt). */
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean; figure?: ArticleFigure };
+/** A pre-rendered 1600x900 screenshot figure; `src` must have a lib/image-manifest.json entry. */
+export type ArticleFigure = { src: string; alt: string };
 /** `asOf` is an ISO date (YYYY-MM-DD), formatted per locale when rendered. */
 export type ArticlePriceTable = { asOf: string; note: string; rows: { label: string; nzdLow: number; nzdHigh?: number; unit?: string }[] };
 /**
