@@ -8,6 +8,7 @@ import { legacyOnlyArticles } from "@/lib/content/legacy";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
+import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 export type { Article, ArticleCategory, ArticleInput, ArticlePriceTable, ArticleSection } from "@/lib/article-model";
 export { makeArticle, section, articleHref } from "@/lib/article-model";
 
@@ -47,8 +48,12 @@ export function sitePath(path: string): string {
 export const SUPPORT_EMAIL = "support@cntxtlabs.co";
 export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=KiwiCamping%20web%20contact`;
 
-/** The guides, each with its own two-question FAQ attached by slug (see lib/content/faqs.ts). */
-export const articles: Article[] = [
+/**
+ * Every guide written, published or scheduled, each with its own two-question FAQ attached by slug
+ * (see lib/content/faqs.ts). Only the translation source, the content audits and link selection read
+ * this; everything a reader or crawler sees reads `articles`.
+ */
+export const allArticles: Article[] = [
   ...roadTripArticles,
   ...campingArticles,
   ...rulesArticles,
@@ -57,7 +62,19 @@ export const articles: Article[] = [
   ...costArticles,
   ...legacyOnlyArticles,
   ...migratedArticles,
-].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article));
+].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
+  .concat(scheduleFixture<Article>() ?? []);
+for (const item of allArticles) {
+  assertPublishAt(item.slug, item.publishAt);
+  // The legacy .html guides were live before the site had guides of its own: always published.
+  if (item.legacyPath && item.publishAt) throw new Error(`${item.slug}: a legacy guide cannot carry publishAt`);
+}
+
+/** The guides this build publishes: every guide whose publishAt, if it has one, has come (lib/publish.ts). */
+export const articles: Article[] = allArticles.filter((item) => isPublished(item));
+const scheduledSlugs = new Set(allArticles.filter((item) => !isPublished(item)).map((item) => item.slug));
+/** A guide that is written but not yet published, which nothing may link to or name. */
+export const isScheduled = (slug: string) => scheduledSlugs.has(slug);
 
 export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "Costs & budget", "App guides"];
 export const getArticle = (slug: string) => articles.find((item) => item.slug === slug);
