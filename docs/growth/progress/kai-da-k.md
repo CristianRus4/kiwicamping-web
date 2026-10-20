@@ -29,10 +29,11 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 
 - Batch 11: kiwicamping-currency-place-costs, winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, wellington-wairarapa-camping-loop. da 77/85 guides.
 
+- Batch 12 (last): north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip. da 83/85 guides.
+
 ## Next
-- b12 north-island-two-week-road-trip west-coast-south-island-road-trip queenstown-glenorchy-camping southern-scenic-route-camping fiordland-camping-road-trip; b13 south-island-two-week-road-trip (last), plus two guides outside the queue that need a recheck: none expected (see /tmp/da-k2/queue.json) in /tmp/da-k2/queue.json (b13 is a single road trip).
-- Working method without helpers (numbered): `python3 /tmp/da-k2/numview.py NAME` to read, write `N|||Danish` lines, `fromnum.py NAME lines out.json`, `edit.py` for fixes; then the steps below.
-- Earlier method: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
+- Nothing left in my lane. The only two guides not complete in Danish are the skipped listicles owned by another lane: wikicamps-alternatives, best-campervan-apps-new-zealand.
+- Later, when the English of a translated guide changes, `npm run translations:invalidate`/stamp will mark it stale and it falls back to English until retranslated.
 
 ## Blockers / questions
 (none)
