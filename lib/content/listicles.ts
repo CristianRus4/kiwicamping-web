@@ -17,9 +17,9 @@ export const listicleArticles: Article[] = [
     region: "New Zealand",
     places: ["DOC huts", "DOC tracks", "Holiday parks", "Private land stays", "Australia"],
     imageAlt: "Grassy DOC campsite under flowering pōhutukawa at Medlands Beach, Great Barrier Island",
-    related: ["best-nz-camping-apps", "campermate-alternatives", "kiwicamping-offline-data-guide"],
+    related: ["best-nz-camping-apps", "campermate-alternatives", "doc-huts-new-zealand-guide"],
     intro:
-      "Rankers Camping NZ is the most-rated camping app on the New Zealand App Store, free, and well liked: 4.7 stars from 3,322 ratings on the New Zealand App Store when we checked on 20 October 2026. People rarely leave it because it is bad. They look elsewhere when the trip asks for something Rankers is not built around, such as planning the route day by day, DOC huts and tracks for the walking days, a night on a farm, or a crossing to Australia. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+      "Rankers Camping NZ is the most-rated camping app on the New Zealand App Store, free, and well liked: 4.7 stars from 3,322 ratings on the New Zealand App Store when we checked on 20 October 2026. People rarely leave it because it is bad. They look elsewhere when the trip asks for something Rankers is not built around, such as planning the route day by day, DOC huts and tracks for the walking days, a night on a farm, or a crossing to Australia. Full disclosure: KiwiCamping is our own app, and that is why it heads this list; each entry below says what it does better than Rankers and when you should choose it instead.",
     sections: [
       s("Rankers alternatives at a glance", [
         "If you want one recommendation: keep Rankers for its reviews and add KiwiCamping when the trip becomes a plan with dates, DOC huts or tracks. Choose CamperMate instead if the trip continues to Australia, WikiCamps New Zealand if raw coverage matters more than curation, thl Roadtrip for a simple free view of what is near you, and Campable for booked stays on private land.",
@@ -71,13 +71,11 @@ export const listicleArticles: Article[] = [
       ]),
     ],
     sources: [
-      { label: "Rankers Camping NZ on the App Store (NZ)", url: "https://apps.apple.com/nz/app/rankers-camping-nz/id582914766" },
-      { label: "Rankers Camping NZ app page", url: "https://www.rankers.co.nz/apps/camping_nz" },
-      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
-      { label: "CamperMate on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campermate-australia-nz/id465040067" },
-      { label: "WikiCamps New Zealand on the App Store (NZ)", url: "https://apps.apple.com/nz/app/wikicamps-new-zealand/id582527125" },
-      { label: "thl Roadtrip on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id906468182" },
-      { label: "Campable on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campable/id1209349485" },
+      { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
+      { label: "CamperMate", url: "https://campermate.com/" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+      { label: "thl Roadtrip listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=906468182&country=nz" },
+      { label: "Campable", url: "https://www.campable.com/" },
       { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
   }),
@@ -91,9 +89,9 @@ export const listicleArticles: Article[] = [
     region: "New Zealand",
     places: ["DOC campsites", "Freedom camping", "Holiday parks", "NZMCA Parks", "Australia"],
     imageAlt: "DOC sign at the entrance to Waiohine Gorge in Tararua Forest Park",
-    related: ["best-nz-camping-apps", "rankers-alternatives", "plan-trip-kiwicamping"],
+    related: ["best-nz-camping-apps", "rankers-alternatives", "freedom-camping-rules-new-zealand"],
     intro:
-      "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and ads in the Android version. We checked the apps worth switching to on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+      "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and ads in the Android version. We checked the apps worth switching to on 20 October 2026. KiwiCamping is ours, so read its place at the top with that in mind: we set out the reasons, and the trips where one of the others is the better swap.",
     sections: [
       s("CamperMate alternatives at a glance", [
         "For a New Zealand-only trip, the strongest pairing is Rankers for reviews and KiwiCamping for DOC campsites, huts and planning the route. If you need Australia too, thl Roadtrip and WikiCamps (which sells separate New Zealand and Australia apps) are the closest like-for-like swaps. Members of the New Zealand Motor Caravan Association should add the NZMCA App whatever else they use.",
@@ -125,10 +123,10 @@ export const listicleArticles: Article[] = [
       ], ["Switch for: reviews and curated sites", "Free", "New Zealand only"]),
       s("3. WikiCamps New Zealand: best for coverage, paid once", [
         "WikiCamps sells WikiCamps New Zealand as its own app for NZ$7.99 on the App Store, separate from WikiCamps Australia. Its users have added more than 12,000 New Zealand sites, and it includes a trip planner that estimates fuel spend, plus an Offline Mode covering sites and trips.",
-        "Coverage comes from users, so check anything legally important against the council or DOC. It rated 4.5 from 137 on the New Zealand App Store and 3.0 from 1,042 on Google Play.",
+        "Coverage comes from users, so check anything legally important against the council or DOC. On the New Zealand App Store it averaged 4.5 from 137 ratings, against 3.0 from 1,042 on Google Play.",
       ], ["Switch for: the most sites listed", "NZ$7.99 once on iPhone", "Separate NZ and Australia apps"]),
       s("4. thl Roadtrip: best like-for-like free swap for two countries", [
-        "thl Roadtrip, from Tourism Holdings, shows campsites, holiday parks, petrol stations and dump stations near you in New Zealand and Australia, free. It rated 4.7 from 122 ratings on the New Zealand App Store.",
+        "thl Roadtrip, from Tourism Holdings, shows campsites, holiday parks, petrol stations and dump stations near you in New Zealand and Australia, free. Its New Zealand App Store average was 4.7 across 122 ratings.",
         "It is simpler than CamperMate, with a much smaller review base and no deals marketplace described in its listing. That simplicity is the point for travellers who found the redesign cluttered.",
       ], ["Switch for: a simple two-country finder", "Free", "Smaller review base"]),
       s("5. NZMCA App: best for members of the motor caravan association", [
@@ -145,12 +143,11 @@ export const listicleArticles: Article[] = [
       ]),
     ],
     sources: [
-      { label: "CamperMate on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campermate-australia-nz/id465040067" },
+      { label: "CamperMate", url: "https://campermate.com/" },
       { label: "CamperMate on Google Play", url: "https://play.google.com/store/apps/details?id=nz.co.campermate" },
-      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
-      { label: "Rankers Camping NZ on the App Store (NZ)", url: "https://apps.apple.com/nz/app/rankers-camping-nz/id582914766" },
-      { label: "WikiCamps New Zealand on the App Store (NZ)", url: "https://apps.apple.com/nz/app/wikicamps-new-zealand/id582527125" },
-      { label: "thl Roadtrip on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id906468182" },
+      { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+      { label: "thl Roadtrip listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=906468182&country=nz" },
       { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
       { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
@@ -167,7 +164,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "Tussock valley and State Highway 8 at Lindis Pass, Otago",
     related: ["plan-trip-kiwicamping", "new-zealand-driving-day-planner", "best-nz-camping-apps"],
     intro:
-      "A New Zealand road trip is planned around three things a general map app handles badly: where you will sleep each night, how long the next leg really takes on winding two-lane roads, and what you can still read when the signal drops on the West Coast. We compared six planner apps on those questions using their current New Zealand App Store listings and their developers' own help pages, checked on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+      "A New Zealand road trip is planned around three things a general map app handles badly: where you will sleep each night, how long the next leg really takes on winding two-lane roads, and what you can still read when the signal drops on the West Coast. We compared six planner apps on those questions using their current New Zealand App Store listings and their developers' own help pages, checked on 20 October 2026. Because we build KiwiCamping, it is listed first; the reasons are specific to camping trips, and for other kinds of trip we say plainly which planner to use instead.",
     sections: [
       s("The verdict in two sentences", [
         "For a camping or campervan trip, plan in KiwiCamping, because the places to sleep come from DOC's own data and the plan keeps dates, notes and to-dos on each stop; then let Google Maps or Apple Maps do the turn-by-turn driving. If you are planning with a group, mixing hotels and flights, or want a free planner with no stop limit, Wanderlog is the stronger choice.",
@@ -219,12 +216,11 @@ export const listicleArticles: Article[] = [
       ]),
     ],
     sources: [
-      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
-      { label: "Wanderlog on the App Store (NZ)", url: "https://apps.apple.com/nz/app/wanderlog-travel-planner/id1476732439" },
+      { label: "Wanderlog", url: "https://wanderlog.com/" },
       { label: "Google Maps: add multiple destinations", url: "https://support.google.com/maps/answer/144339" },
       { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
       { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
-      { label: "Polarsteps on the App Store (NZ)", url: "https://apps.apple.com/nz/app/polarsteps/id947925763" },
+      { label: "Polarsteps", url: "https://www.polarsteps.com/" },
       { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
       { label: "Interislander", url: "https://www.interislander.co.nz/" },
       { label: "Bluebridge", url: "https://www.bluebridge.co.nz/" },
@@ -294,10 +290,9 @@ export const listicleArticles: Article[] = [
     sources: [
       { label: "Freedom camping and self-contained vehicles (govt.nz)", url: "https://www.govt.nz/browse/recreation-and-the-environment/freedom-camping/" },
       { label: "Freedom camping on conservation land (DOC)", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/camping/freedom-camping/" },
-      { label: "Rankers Camping NZ on the App Store (NZ)", url: "https://apps.apple.com/nz/app/rankers-camping-nz/id582914766" },
-      { label: "CamperMate on the App Store (NZ)", url: "https://apps.apple.com/nz/app/campermate-australia-nz/id465040067" },
+      { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
+      { label: "CamperMate", url: "https://campermate.com/" },
       { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
-      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
       { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
     ],
   }),
@@ -313,7 +308,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "A motorhome on the Desert Road, State Highway 1, heading towards Mount Ruapehu",
     related: ["best-nz-camping-apps", "road-trip-planner-apps-new-zealand", "overseas-driver-licence-new-zealand"],
     intro:
-      "A New Zealand trip needs fewer apps than you might think, but the right ones save real money and trouble: the official NZeTA app costs less than the website, a fuel app pays for itself on a long drive, and a walking app can send your trip plan to someone who will raise the alarm if a tramp goes wrong. These are the ten we would install for a road trip in 2026, grouped by the job they do, with ratings and prices from the New Zealand App Store checked on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+      "A New Zealand trip needs fewer apps than you might think, but the right ones save real money and trouble: the official NZeTA app costs less than the website, a fuel app pays for itself on a long drive, and a walking app can send your trip plan to someone who will raise the alarm if a tramp goes wrong. These are the ten we would install for a road trip in 2026, grouped by the job they do, with ratings and prices from the New Zealand App Store checked on 20 October 2026. We are the team behind KiwiCamping, which is why it opens the list, and we say below who will not need it at all.",
     sections: [
       s("The ten apps at a glance", [
         "Before you fly, the official NZeTA and New Zealand Traveller Declaration apps handle entry. On the road, KiwiCamping plans where you sleep, Google Maps drives you there, MetService warns you about the weather and Plan My Walk covers the tramping days. Gaspy and a fuel company app keep fuel costs down, AT Mobile gets you around Auckland, and Rankers adds traveller reviews of campsites.",
@@ -383,12 +378,11 @@ export const listicleArticles: Article[] = [
       { label: "NZeTA fees (Immigration New Zealand)", url: "https://www.immigration.govt.nz/about-us/news-centre/requesting-a-new-zealand-electronic-travel-authority/" },
       { label: "Fees and levies (Immigration New Zealand)", url: "https://www.immigration.govt.nz/about-us/news-centre/fees-and-levies/" },
       { label: "New Zealand Traveller Declaration", url: "https://travellerdeclaration.govt.nz/" },
-      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
       { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
-      { label: "MetService on the App Store (NZ)", url: "https://apps.apple.com/nz/app/metservice/id525900888" },
-      { label: "Plan My Walk on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id1554411490" },
-      { label: "Gaspy on the App Store (NZ)", url: "https://apps.apple.com/nz/app/gaspy/id1157169797" },
-      { label: "AT Mobile on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id1207704356" },
+      { label: "MetService", url: "https://www.metservice.com/" },
+      { label: "Plan My Walk (NZ Mountain Safety Council)", url: "https://www.mountainsafety.org.nz/plan-my-walk" },
+      { label: "Gaspy", url: "https://www.gaspy.nz/" },
+      { label: "AT Mobile (Auckland Transport)", url: "https://at.govt.nz/bus-train-ferry/at-mobile-app" },
       { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
       { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
     ],
