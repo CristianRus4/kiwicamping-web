@@ -896,7 +896,7 @@
         {
           "heading": "Wasser: Wissen, welcher Hahn welcher ist",
           "body": [
-            "Füll Trinkwasser nur an Hähnen auf, die als trinkbar (potable) gekennzeichnet sind. Nicht jeder Hahn auf einem Campingplatz oder in einem Reserve ist sicher, und manche liefern ausdrücklich Brauchwasser. Wo die Versorgung unbehandelt oder unklar ist, koch das Wasser ab oder filtere es, statt es für gut zu halten, weil es sauber aussieht.",
+            "Füll Trinkwasser nur an Hähnen auf, die als trinkbar (potable) gekennzeichnet sind. Nicht jeder Hahn auf einem Campingplatz oder in einem Reserve ist sicher, und manche liefern ausdrücklich Brauchwasser. Wo das Wasser nicht aufbereitet oder seine Herkunft unklar ist, koch das Wasser ab oder filtere es, statt es für gut zu halten, weil es sauber aussieht.",
             "Halte den Trinkwasserschlauch strikt getrennt von allem, was an einer <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstation</a> benutzt wird, verstau ihn so, dass die Enden nicht den Boden berühren, und wasch dir nach dem Umgang mit Entsorgungsausrüstung die Hände. Diese eine Gewohnheit verhindert die häufigste Krankheitsursache auf einer Self-contained-Reise."
           ],
           "tips": [
@@ -1129,7 +1129,7 @@
           "heading": "Beim Wasser kommt es darauf an",
           "body": [
             "Leitungswasser ist in fast ganz Neuseeland sicher und hervorragend, Wasser in Flaschen zu kaufen ist so gut wie reine Geldverschwendung. Nimm nachfüllbare Flaschen mit und füll sie an jedem Trinkwasserhahn in Orten, auf Campingplätzen oder an öffentlichen Einrichtungen auf.",
-            "Im Hinterland ist es umgekehrt: Bereite jedes Wasser aus Bächen, Tanks oder unbehandelten Leitungen auf, denn dort kommen Giardien (Darmparasiten) vor. Die Regel ist leicht zu merken: Wasser aus dem Ort ja, Wasser aus der Natur nur aufbereitet."
+            "Im Hinterland ist es umgekehrt: Bereite jedes Wasser aus Bächen, Tanks oder nicht aufbereiteten Leitungen auf, denn dort kommen Giardien (Darmparasiten) vor. Die Regel ist leicht zu merken: Wasser aus dem Ort ja, Wasser aus der Natur nur aufbereitet."
           ],
           "tips": []
         },
@@ -6156,7 +6156,7 @@
           "heading": "Das Wichtigste in Kürze",
           "body": [
             "Nimm KiwiCamping, wenn deine Reise auf <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätzen</a>, Hütten und Tracks aufbaut und du gespeicherte Orte zu einer Route mit Datum und Reihenfolge machen willst. Nimm Rankers, wenn dir Bewertungen von Reisenden am wichtigsten sind, CamperMate, wenn du Buchung, Angebote und herunterladbare Karten in einer kostenlosen App willst, die auch Australien abdeckt, und WikiCamps New Zealand, wenn du für einen einmaligen Preis die größte veröffentlichte Zahl an Plätzen in Neuseeland haben willst.",
-            "Campable ist die Spezialistin, wenn du eine Nacht auf einer Farm, einem Weingut oder anderem Privatgrund buchen willst. Die NZMCA App lohnt sich nur als Mitglied der New Zealand Motor Caravan Association, und AllTrails ist die App für die Wanderhälfte einer gemischten Reise. Wer länger als zwei Wochen unterwegs ist, hat meist zwei dieser Apps: eine zum Finden und Planen von Plätzen, eine für Bewertungen oder Buchungen."
+            "Campable ist auf gebuchte Nächte auf Farmen, Weingütern oder anderem Privatgrund spezialisiert. Die NZMCA App lohnt sich nur als Mitglied der New Zealand Motor Caravan Association, und AllTrails ist die App für die Wanderhälfte einer gemischten Reise. Wer länger als zwei Wochen unterwegs ist, hat meist zwei dieser Apps: eine zum Finden und Planen von Plätzen, eine für Bewertungen oder Buchungen."
           ],
           "tips": [],
           "table": {
@@ -6422,7 +6422,7 @@
         {
           "heading": "Holiday Parks und Plätze der Iwi",
           "body": [
-            "Private <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> bieten Stellplätze mit Strom, heiße Duschen, Waschräume, Küchen und Cabins. Am besten eignen sie sich als Pausenpunkte zwischen abgelegenen Nächten, wenn Tanks, Batterien, Wäsche und Menschen alle gleichzeitig Aufmerksamkeit brauchen. In der Hochsaison und rund um Veranstaltungen sind sie lange im Voraus ausgebucht.",
+            "Private <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> bieten Stellplätze mit Strom, heiße Duschen, Waschmaschinen, Küchen und Cabins. Am besten eignen sie sich als Zwischenstopp zum Durchatmen zwischen abgelegenen Nächten, wenn Tanks, Batterien, Wäsche und Menschen alle gleichzeitig Aufmerksamkeit brauchen. In der Hochsaison und rund um Veranstaltungen sind sie lange im Voraus ausgebucht.",
             "Plätze, die Iwi (Stämme), Hapū (Unterstämme) und Gemeinschaften betreiben, etwa Marae-Campingplätze, Showgrounds und Domain Reserves, bieten etwas, das das kommerzielle Netz nicht hat, und sie folgen ihren eigenen Regeln. Respektiere die Tikanga (Bräuche der Māori), zahl Koha (eine Spende), wo darum gebeten wird, und frag die Verfügbarkeit vorher an, statt unangemeldet aufzutauchen."
           ],
           "tips": [
@@ -6474,7 +6474,7 @@
         {
           "heading": "Die rechtlichen Leitplanken",
           "body": [
-            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> ist auf Gemeinde- und Naturschutzland erlaubt, solange keine Satzung und kein DOC-Hinweis es verbietet oder einschränkt. Auf Gemeindeland muss das Fahrzeug als self-contained zertifiziert sein, es sei denn, eine Satzung weist den Platz für Fahrzeuge ohne diese Zertifizierung aus. Seit dem 7. Juni 2026 bedeutet Zertifizierung eine Green Warrant: Blue Warrants zählen für Freedom Camping nicht mehr, egal, welches Ablaufdatum aufgedruckt ist. Die Zertifizierung betrifft die Ausstattung des Fahrzeugs und nicht deine Absichten, und auf Campingplätzen, in Holiday Parks und auf Privatgrund mit Erlaubnis braucht man sie nicht.",
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> ist auf Gemeinde- und Naturschutzland erlaubt, solange keine Satzung und kein DOC-Hinweis es verbietet oder einschränkt. Auf Gemeindeland muss das Fahrzeug als self-contained zertifiziert sein, es sei denn, eine Satzung weist den Platz für Fahrzeuge ohne diese Zertifizierung aus. Seit dem 7. Juni 2026 bedeutet Zertifizierung einen Green Warrant: Blue Warrants zählen für Freedom Camping nicht mehr, egal, welches Ablaufdatum aufgedruckt ist. Die Zertifizierung betrifft die Ausstattung des Fahrzeugs und nicht deine Absichten, und auf Campingplätzen, in Holiday Parks und auf Privatgrund mit Erlaubnis braucht man sie nicht.",
             "Maßgeblich ist die <a data-guide=\"camping-rules-local-councils-new-zealand\">Satzung</a> oder der DOC-Hinweis, und am schnellsten liest du sie am Schild vor Ort, auch wenn nicht jedes eingeschränkte Gebiet ausgeschildert ist. Widersprechen sich Schild und ein zwischengespeicherter Eintrag, gilt das Schild. DOC-Besucherzentren und i-SITEs kennen aktuelle Informationen zu Sperrungen und Warnungen, die Daten von Drittanbietern noch nicht erreicht haben."
           ],
           "tips": []
@@ -6513,9 +6513,9 @@
     },
     "east-cape-road-trip": {
       "title": "Roadtrip East Cape: Camping-Route von Gisborne nach Ōpōtiki",
-      "description": "Die East Cape von Gisborne bis Ōpōtiki: Surfstädtchen, Buchten mit Pōhutukawa, abgelegene Straßen mit wenig Versorgung und wo du unterwegs campst.",
+      "description": "Das East Cape von Gisborne bis Ōpōtiki: Surfstädtchen, Buchten mit Pōhutukawa, abgelegene Straßen mit wenig Versorgung und wo du unterwegs campst.",
       "region": "East Cape",
-      "imageAlt": "Einsame Straße an der East Cape neben dem Pazifik",
+      "imageAlt": "Einsame Straße am East Cape neben dem Pazifik",
       "intro": "Der State Highway 35 folgt einer der lohnendsten langsamen Straßen des Landes. Sprit, Öffnungszeiten und Sturmschäden spielen hier eine größere Rolle, deshalb sollte sich die Route nach dem Tageslicht und den Bedingungen vor Ort richten und nicht nach einer festen Ankunftszeit.",
       "sections": [
         {
@@ -6530,7 +6530,7 @@
           "heading": "Rund um das Kap",
           "body": [
             "Tokomaru Bay und Te Araroa belohnen Reisende, die lange genug bleiben, um die Gemeinden zwischen den Aussichtspunkten wahrzunehmen. Fahr in den engen Kurven vorsichtig und rechne mit <a data-guide=\"wildlife-livestock-road-safety-new-zealand\">Vieh</a>, Radfahrern und Straßenarbeiten.",
-            "Der Abstecher zum Leuchtturm an der East Cape enthält eine lange Treppe und eine abgelegene Zufahrt. Prüf die Straße, bevor du losfährst, und verlass dich nicht darauf, mit Empfang kurzfristig noch einen Campingplatz zu finden."
+            "Der Abstecher zum Leuchtturm am East Cape enthält eine lange Treppe und eine abgelegene Zufahrt. Prüf die Straße, bevor du losfährst, und verlass dich nicht darauf, mit Empfang kurzfristig noch einen Campingplatz zu finden."
           ],
           "tips": []
         },
@@ -6549,7 +6549,7 @@
             "Plane mindestens drei Tage ein. Wer sie in zwei Tagen zwischen Gisborne und Ōpōtiki durchjagt, fährt lange durch Orte, an denen er nicht angehalten hat, und das ist der einzige Weg, diese Route falsch zu machen."
           ],
           "tips": [
-            "Mindestens drei Tage für die East Cape",
+            "Mindestens drei Tage für das East Cape",
             "Es gibt keine große Hauptattraktion",
             "Man begegnet fast niemandem, und das macht den Reiz aus"
           ]
@@ -6565,7 +6565,7 @@
         {
           "heading": "Du fährst durch Land der Iwi und durch kleine Gemeinden",
           "body": [
-            "Die Cape ist überwiegend Land der Māori, und die Gemeinden sind klein und eng verbunden. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> ist an vielen Stellen eingeschränkt, und die Erwartung an respektvolles Verhalten ist hoch, besonders bei Marae, Urupā und dem Zugang zu den Stränden.",
+            "Das East Cape ist überwiegend Land der Māori, und die Gemeinden sind klein und eng verbunden. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> ist an vielen Stellen eingeschränkt, und die Erwartung an respektvolles Verhalten ist hoch, besonders bei Marae, Urupā und dem Zugang zu den Stränden.",
             "Frag lieber, statt etwas anzunehmen, kauf in den örtlichen Läden ein und campe nie irgendwo, nur weil dich niemand aufgehalten zu haben scheint. Die Gastfreundschaft hier ist echt, und sie hängt davon ab, dass sich Besucher gut benehmen."
           ],
           "tips": [
@@ -6739,7 +6739,7 @@
         {
           "heading": "Cape Reinga und die letzte Nacht",
           "body": [
-            "Hab genug Sprit für den nördlichen Abschnitt dabei und prüf die Angaben zum Campingplatz, bevor der Empfang verschwindet. Die <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a> am nächsten zum Kap sind Tapotupotu, eine kurze Fahrt auf einer Schotterstraße vom Parkplatz entfernt, und Kapowairua (Spirits Bay), beide 18 NZD pro Erwachsenem mit kalten Duschen und unbehandeltem Wasser. DOC nahm im Oktober 2026 für keinen von beiden Buchungen an, komm im Sommer also früh. Beide liegen ungeschützt, sind einfach und werden am besten vor Einbruch der Dunkelheit angefahren.",
+            "Hab genug Sprit für den nördlichen Abschnitt dabei und prüf die Angaben zum Campingplatz, bevor der Empfang verschwindet. Die <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a> am nächsten zum Kap sind Tapotupotu, eine kurze Fahrt auf einer Schotterstraße vom Parkplatz entfernt, und Kapowairua (Spirits Bay), beide 18 NZD pro Erwachsenem mit kalten Duschen und nicht aufbereitetem Wasser. DOC nahm im Oktober 2026 für keinen von beiden Buchungen an, komm im Sommer also früh. Beide liegen ungeschützt, sind einfach und werden am besten vor Einbruch der Dunkelheit angefahren.",
             "Bleib am Cape Reinga auf den angelegten Wegen und respektiere die Bedeutung der Landzunge für die Māori. Heb dir die Rückfahrt für das Tageslicht auf und mach aus dem Besuch des Leuchtturms kein Rennen zurück nach Auckland."
           ],
           "tips": []
@@ -6760,7 +6760,7 @@
           "heading": "Nördlich von Kaitaia werden Sprit und Vorräte knapp",
           "body": [
             "Kaitaia ist die letzte größere Stadt vor Cape Reinga, und auf dem Abschnitt dahinter gibt es wenig Sprit, kaum Läden und lückenhaften Empfang. Tank und kauf dort ein, statt darauf zu hoffen, dass noch etwas auftaucht, und prüf die Öffnungszeiten, wenn du an einem Sonntag unterwegs bist.",
-            "Die Straße zum Kap ist inzwischen durchgehend asphaltiert, was Leute überrascht, die Schotter erwartet haben, aber es bleibt eine lange Fahrt hin und zurück. Rechne für die Rückfahrt von einem Standort bei Ahipara oder Pukenui mit dem größten Teil eines Tages."
+            "Die Straße zum Kap ist inzwischen durchgehend asphaltiert, was Leute überrascht, die Schotter erwartet haben, aber es bleibt eine lange Fahrt hin und zurück. Rechne für Hin- und Rückfahrt von einem Standort bei Ahipara oder Pukenui mit dem größten Teil eines Tages."
           ],
           "tips": []
         },
@@ -6876,7 +6876,7 @@
         {
           "heading": "Die Wanderungen sind kurz und steil",
           "body": [
-            "Zu den Devils Punchbowl Falls braucht man hin und zurück eine Stunde, und der Weg besteht größtenteils aus Stufen. Der Avalanche Peak ist ein ernster Tag im Hochgebirge mit echter Absturzgefahr und ohne Schutz, und obwohl er ab dem Dorf als Track ausgeschildert ist, sollte man ihn bei schlechtem Wetter oder ohne passende Ausrüstung nicht angehen.",
+            "Zu den Devils Punchbowl Falls braucht man hin und zurück eine Stunde, und der Weg besteht größtenteils aus Stufen. Der Avalanche Peak ist eine anspruchsvolle Tagestour im Hochgebirge mit echter Absturzgefahr und ohne Schutz, und obwohl er ab dem Dorf als Track ausgeschildert ist, sollte man ihn bei schlechtem Wetter oder ohne passende Ausrüstung nicht angehen.",
             "Castle Hill an der östlichen Anfahrt ist ein leichter Spaziergang durch Kalksteinformationen und eignet sich gut als Pause auf der Fahrt. Für Ngāi Tahu ist der Ort außerdem von großer Bedeutung, bleib also auf den Wegen und verhalte dich entsprechend."
           ],
           "tips": [
@@ -6889,7 +6889,7 @@
           "heading": "Das Dorf bietet kaum Versorgung",
           "body": [
             "Arthur's Pass Village hat einen kleinen Laden, ein Café und wenig Sprit und ist kein Ort, an dem du dich auf eine vollständige Versorgung verlassen solltest. Tank in Springfield auf der Ostseite oder in Kumara auf der Westseite voll und nimm Essen für die Überquerung mit.",
-            "Die <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a> beim Dorf sind einfach und können sehr kalt sein, denn sie liegen auch im Sommer in großer Höhe. Nimm wärmere Bettwäsche mit, als die Canterbury Plains vermuten lassen."
+            "Die <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a> beim Dorf sind einfach und können sehr kalt sein, denn sie liegen auch im Sommer in großer Höhe. Nimm wärmeres Bettzeug mit, als die Canterbury Plains vermuten lassen."
           ],
           "tips": []
         },
@@ -6950,7 +6950,7 @@
           "tips": []
         },
         {
-          "heading": "Der Forgotten World Highway ist eine Verpflichtung",
+          "heading": "Wer auf den Forgotten World Highway fährt, muss durch",
           "body": [
             "Der State Highway 43 führt rund 150 Kilometer zwischen Stratford und Taumarunui, ohne Tankstelle am Weg, mit einem unbefestigten Abschnitt durch die Tangarakau Gorge und einem einspurigen Tunnel. Er dauert weit länger, als die Entfernung vermuten lässt, und mittendrin gibt es keine Abkürzung hinaus.",
             "Tank an beiden Enden voll, nimm Wasser und Essen mit und prüf den Straßenzustand, bevor du losfährst. Bei halbwegs gutem Wetter ist es eine schöne Fahrt, bei starkem Regen eine unangenehme."
@@ -6964,13 +6964,13 @@
         {
           "heading": "Whangamōmona ist der Grund, langsam zu fahren",
           "body": [
-            "Die selbsternannte Republik Whangamōmona mit eigenen Pässen, die im Hotel abgestempelt werden, ist das Highlight der Route und ein wirklich guter Halt für eine Kneipe. Der Republic Day wird alle zwei Jahre gefeiert und füllt das Dorf völlig, was entweder der Grund für den Besuch ist oder der Grund, diese Termine zu meiden.",
+            "Die selbsternannte Republik Whangamōmona mit eigenen Pässen, die im Hotel abgestempelt werden, ist das Highlight der Route und ein wirklich guter Ort für eine Pause im Pub. Der Republic Day wird alle zwei Jahre gefeiert und füllt das Dorf völlig, was entweder der Grund für den Besuch ist oder der Grund, diese Termine zu meiden.",
             "Es gibt einen kleinen Campingbereich, und das Hotel hat Zimmer. Beides ist besser als der Versuch, den ganzen Highway zu fahren und die Stadt am anderen Ende noch am selben Tag zu erreichen."
           ],
           "tips": []
         },
         {
-          "heading": "Mount Taranaki ist ein ernster Berg",
+          "heading": "Mount Taranaki ist ein ernst zu nehmender Berg",
           "body": [
             "Die Pouākai Crossing und die Gipfelroute wirken von der Straße aus harmlos und sind es nicht. Taranaki hat eine hohe Zahl tödlicher Unfälle, Wetter, das innerhalb einer Stunde umschlägt, und Gelände, das in Wolken wirklich gefährlich wird. Es ist kein Berg, den man beiläufig angeht.",
             "Prüf die Vorhersage für den Berg und nicht für New Plymouth, sag jemandem, was du vorhast, und dreh früh um. Die unteren Wanderungen um die Dawson Falls und die Kamahi-Runde zeigen dir Wald und Aussicht ohne die Exponiertheit."
@@ -6984,7 +6984,7 @@
         {
           "heading": "New Plymouth ist als Basis unterschätzt",
           "body": [
-            "Der Coastal Walkway verläuft 13 Kilometer am Wasser entlang, das Len Lye Centre ist wirklich gut, und die Stadt hat die Versorgung, um eine Reise vor oder nach dem Highway richtig zurückzusetzen. Als Basis für zwei Nächte funktioniert sie weit besser als für eine einzelne.",
+            "Der Coastal Walkway verläuft 13 Kilometer am Wasser entlang, das Len Lye Centre ist wirklich gut, und die Stadt hat die Versorgung, um vor oder nach dem Highway auf der Reise wieder Ordnung zu schaffen. Als Basis für zwei Nächte funktioniert sie weit besser als für eine einzelne.",
             "Nutze sie zum Wäschewaschen, Auffüllen und für einen Blick auf die Vorhersage für den Berg, bevor du entscheidest, welche der Egmont-Wanderungen du angehst. Oft nimmt dir das Wetter die Entscheidung ab."
           ],
           "tips": []
@@ -7017,7 +7017,7 @@
     "coromandel-rotorua-road-trip": {
       "title": "Coromandel und Rotorua: 5 Tage mit dem Camper ab Auckland",
       "description": "Fünf Tage mit dem Camper ab Auckland: Pazifikstrände, Waldstraßen und Thermalgebiete auf der Coromandel und in Rotorua, mit kurzen Fahrstrecken.",
-      "region": "Obere Nordinsel",
+      "region": "Norden der Nordinsel",
       "imageAlt": "Küste der Coromandel von einer kurvigen Straße aus gesehen",
       "intro": "Fünf Tage reichen, um die Coromandel-Halbinsel mit Rotorua zu verbinden, wenn die erste und die letzte Fahrt diszipliniert bleiben. Dafür bekommst du eine Route, die von Salzluft über heimischen Wald bis zu Thermaldampf führt, ohne dass ein Tag für die Fahrt verloren geht.",
       "sections": [
@@ -7081,12 +7081,12 @@
           "heading": "Rotorua verdient einen langsameren Halt",
           "body": [
             "Die Thermalparks, die Redwoods und der See verdienen alle mehr als einen Nachmittag, und die <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> hier sind wirklich praktisch, dazu mit dem Reiz von Becken mit Thermalwasser. Es ist ein guter Ort für zwei Nächte statt einer, besonders wenn das Wetter auf der Coromandel nass war.",
-            "Der Schwefelgeruch ist echt und verschwindet nach ein paar Stunden aus deiner Wahrnehmung. Was nicht verschwindet, ist die Wirkung auf Silberschmuck, lass also alles Wertvolle während des Aufenthalts eingepackt."
+            "Der Schwefelgeruch ist nicht zu überriechen, aber nach ein paar Stunden nimmst du ihn kaum noch wahr. Was bleibt, ist die Wirkung auf Silberschmuck, lass also alles Wertvolle während des Aufenthalts eingepackt."
           ],
           "tips": []
         },
         {
-          "heading": "Wo du jede Nacht deine Basis wählst",
+          "heading": "Wo du die Nächte verbringst",
           "body": [
             "Thames funktioniert als erste Nacht, wenn du spät aus Auckland losfährst, ist aber eine Versorgungsstadt und kein Ziel, und die eigentliche Halbinsel beginnt nördlich davon. Whitianga und Hahei sind die naheliegenden Basen an der Ostküste, Hahei liegt am nächsten an den Wanderungen, und Whitianga bietet mehr Versorgung und eine größere Auswahl an Campingplätzen.",
             "Auf der Etappe nach Rotorua bringen dich die <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> am See nah an die Thermalparks und die Redwoods, ohne dass du jeden Morgen zurück in die Stadt fahren musst. Blue Lake und Lake Ōkāreka sind ruhiger als die zentralen Optionen und nur eine kurze Fahrt von den Attraktionen entfernt.",
@@ -7121,7 +7121,7 @@
           "heading": "Picton und Marlborough",
           "body": [
             "Fahr nach einer späten Fähre nicht gleich auf den Küstenhighway. Bleib die erste Nacht in Picton und erkunde dann die Sounds oder fahr nach einer richtigen Pause über Blenheim weiter.",
-            "Für Weingüter braucht man einen nüchternen Fahrplan, und viele haben nur nach Buchung oder zu saisonalen Zeiten geöffnet. Mit einem Campingplatz bei Blenheim oder Renwick bleibt das Fahrzeug stehen, während eine Tour den Transport übernimmt."
+            "Für Weinproben brauchst du einen Plan, wer nüchtern fährt, und viele Weingüter öffnen nur nach Buchung oder zu saisonalen Zeiten. Mit einem Campingplatz bei Blenheim oder Renwick bleibt das Fahrzeug stehen, während eine Tour den Transport übernimmt."
           ],
           "tips": []
         },
@@ -7154,7 +7154,7 @@
           ]
         },
         {
-          "heading": "Kaikōura ist eine Buchung, kein Durchfahrtsort",
+          "heading": "Kaikōura: buchen statt durchfahren",
           "body": [
             "Walbeobachtung, Schwimmen mit Delfinen und Albatross-Touren richten sich nach dem Wetter, und alle sind in der Saison ausgebucht. Die Wale leben das ganze Jahr hier, was Kaikōura ungewöhnlich verlässlich macht, aber der Seegang lässt Fahrten so regelmäßig ausfallen, dass ein Halt von nur einer Nacht ein Glücksspiel ist.",
             "Bleib zwei Nächte und buch die Tour für den ersten Morgen. Dann hat der Veranstalter ein zweites Zeitfenster, in das er dich umbuchen kann, statt dir das Geld zu erstatten, während du schon weiterfährst."
@@ -7264,7 +7264,7 @@
             "Diamond Lake und der Isthmus Peak Track bieten vergleichbare Aussichten mit weit weniger Leuten. Der einzelne Baum im See ist fünf Minuten von der Stadt entfernt und bei Sonnenaufgang am vollsten, und dann lohnt sich der Anblick auch."
           ],
           "tips": [
-            "Der Roys Peak sind sechs harte Stunden",
+            "Roys Peak: sechs harte Stunden",
             "Der Isthmus Peak bietet dieselbe Aussicht mit weniger Leuten",
             "Wānaka bietet mehr fürs Geld als Queenstown"
           ]
@@ -7273,7 +7273,7 @@
           "heading": "Die Sandflies beginnen am Pass",
           "body": [
             "Die Ostseite rund um Wānaka und Hāwea ist weitgehend frei von Sandflies, und sobald du auf der Westseite hinabfährst, ändert sich das völlig. Haast und die Küste dahinter sind ausgesprochenes Sandfly-Land, und der Übergang kommt abrupt.",
-            "Halte Mückenschutz griffbereit im Fahrerhaus, statt ihn hinten zu verstauen, bevor du die Abfahrt beginnst. Ohne ihn an den Thunder Creek Falls zu halten, ist ein einprägsamer Fehler."
+            "Halte Mückenschutz griffbereit im Fahrerhaus, statt ihn hinten zu verstauen, bevor du die Abfahrt beginnst. Wer ohne ihn an den Thunder Creek Falls hält, vergisst das so schnell nicht."
           ],
           "tips": []
         },
@@ -7304,7 +7304,7 @@
     },
     "banks-peninsula-camping-weekend": {
       "title": "Banks Peninsula: Camping-Wochenende ab Christchurch",
-      "description": "Ein Camping-Wochenende auf der Banks Peninsula ab Christchurch: vulkanische Buchten, steile Täler, Akaroa und die schmalen Straßen, die du einplanen musst.",
+      "description": "Ein Camping-Wochenende auf der Banks Peninsula ab Christchurch: vulkanische Naturhäfen, steile Buchten, Akaroa und die schmalen Straßen, die du einplanen musst.",
       "region": "Canterbury",
       "imageAlt": "Akaroa Harbour und die Hügel der Banks Peninsula",
       "intro": "Die Banks Peninsula liegt nah genug für ein Wochenende und ist langsam genug, um sich weiter weg anzufühlen. Die beste Route wählt einen Hafen, einen Campingplatz und eine größere Wanderung, statt jede steile Bucht anzufahren.",
@@ -7430,7 +7430,7 @@
           "tips": []
         },
         {
-          "heading": "Aufs Wasser zu gehen ist der Sinn",
+          "heading": "Raus aufs Wasser: darum geht es hier",
           "body": [
             "Die Bay of Islands ist ein Meeresziel, und wer eine Woche nur an Land verbringt, verpasst das meiste davon. Die Möglichkeiten reichen von der Passagierfähre zwischen Paihia und Russell, die nur Minuten braucht und wenig kostet, bis zu ganztägigen Segeltouren, Delfinfahrten und Touren zum Hole in the Rock.",
             "Buch wetterabhängige Fahrten früh in deinem Aufenthalt und nicht spät. So lässt sich ein ausgefallener Tag innerhalb der Woche nachholen, statt zu dem zu werden, was du verpasst hast."
@@ -7445,7 +7445,7 @@
           "heading": "Camping auf Urupukapuka Island",
           "body": [
             "DOC betreibt Campingplätze auf Urupukapuka, erreichbar mit dem Wassertaxi ab Paihia oder Russell. Es ist ein wirklich anderes Erlebnis als in einem <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> auf dem Festland: keine Fahrzeuge, begrenzte Ausstattung, und du trägst alles selbst hin und wieder hinaus, auch deinen Müll.",
-            "Buch Platz und Boot zusammen und prüf den Fahrplan für die Rückfahrt genau, denn das letzte Taxi ist nicht verhandelbar. Nimm mehr Wasser mit, als du zu brauchen glaubst, denn die Versorgung auf der Insel ist begrenzt und das Wasser unbehandelt."
+            "Buch Platz und Boot zusammen und prüf den Fahrplan für die Rückfahrt genau, denn das letzte Taxi wartet nicht. Nimm mehr Wasser mit, als du zu brauchen glaubst, denn die Versorgung auf der Insel ist begrenzt und das Wasser nicht aufbereitet."
           ],
           "tips": []
         },
@@ -7464,7 +7464,7 @@
         {
           "heading": "Im Sommer ist es hier wirklich voll",
           "body": [
-            "Im Januar bedeutet das in Paihia und Russell volle Campingplätze, ausgebuchte Bootsfahrten und Schlangen an der Fähre. Es ist aber auch warm, ruhig und genau dann ist das Wasser am besten, der Tausch ist also echt und nicht einseitig.",
+            "Im Januar heißt das in Paihia und Russell: volle Campingplätze, ausgebuchte Bootsfahrten und Schlangen an der Fähre. Dafür ist es warm und ruhig, und genau dann ist das Wasser am besten, es ist also ein echter Kompromiss und kein reiner Nachteil.",
             "In der Nebensaison im November oder März bekommst du dieselbe Küste mit Platz und niedrigeren Preisen, auch wenn das Wasser kühler ist und manche Anbieter ihren Fahrplan kürzen. Prüf, ob die Fahrt, die du willst, noch stattfindet."
           ],
           "tips": []
@@ -7499,7 +7499,7 @@
       "description": "Die Canterbury Plains, türkisfarbene Seen und Wetter wie im Hochgebirge auf der klassischen Route durchs Landesinnere.",
       "region": "Mackenzie Country",
       "imageAlt": "Die Straße Richtung Aoraki am Lake Pūkaki",
-      "intro": "Fünf Tage lassen das Mackenzie Basin atmen. Die Reise ist am stärksten, wenn Tekapo und Aoraki je einen ganzen Tag bekommen und das Wetter entscheidet, welche Wanderungen und Aussichtspunkte auf den Plan kommen.",
+      "intro": "Mit fünf Tagen hat das Mackenzie Basin genug Raum. Am schönsten wird die Reise, wenn Tekapo und Aoraki je einen ganzen Tag bekommen und das Wetter entscheidet, welche Wanderungen und Aussichtspunkte auf den Plan kommen.",
       "sections": [
         {
           "heading": "Über die Canterbury Plains",
@@ -7526,7 +7526,7 @@
           "tips": []
         },
         {
-          "heading": "Das Mackenzie ist ein Dark-Sky-Schutzgebiet",
+          "heading": "Das Mackenzie Country ist ein Dark-Sky-Schutzgebiet",
           "body": [
             "Das Aoraki Mackenzie International Dark Sky Reserve umfasst Tekapo, Twizel und das Gebiet um den Aoraki, und der Nachthimmel hier gehört zu den besten, die man irgendwo erreichen kann. Im ganzen Schutzgebiet ist Beleuchtung eingeschränkt, und deshalb sind die Sterne so gut, wie sie sind.",
             "Nimm eine rote Taschenlampe, lass die Scheinwerfer des Fahrzeugs aus, wo du kannst, und gib deinen Augen zwanzig Minuten, um sich richtig anzupassen. Ein Handydisplay mit voller Helligkeit macht das für alle um dich herum zunichte."
@@ -7540,8 +7540,8 @@
         {
           "heading": "Tekapo ist schön und extrem voll",
           "body": [
-            "Die Church of the Good Shepherd ist eines der meistfotografierten Gebäude des Landes, und der Busverkehr spiegelt das wider. Am frühen Morgen und späten Abend fühlt sie sich allein an wie der Ort auf den Fotos.",
-            "Sie ist außerdem eine aktive Kirche und kein Denkmal, und Gottesdienste gehen dem Fotografieren vor. Die Lupinen am Seeufer sind übrigens ein invasives Unkraut und kein heimisches Merkmal, so gut sie im November auch aussehen."
+            "Die Church of the Good Shepherd ist eines der meistfotografierten Gebäude des Landes, und der Busverkehr spiegelt das wider. Nur am frühen Morgen und am späten Abend wirkt sie wie auf den Fotos.",
+            "Sie ist außerdem eine aktive Kirche und kein Denkmal, und Gottesdienste gehen dem Fotografieren vor. Die Lupinen am Seeufer sind übrigens ein invasives Unkraut und keine heimische Pflanze, so gut sie im November auch aussehen."
           ],
           "tips": []
         },
@@ -7552,7 +7552,7 @@
             "Das Wetter im Dorf ist nicht das Wetter im Tal, und der Wind wird dort stark gebündelt. Nimm auch an einem warmen Tag eine windfeste Schicht mit und prüf die Vorhersage im Besucherzentrum, statt dich auf die Stadtvorhersage aus Twizel zu verlassen."
           ],
           "tips": [
-            "Das Hooker Valley sind drei Stunden hin und zurück",
+            "Hooker Valley Track: drei Stunden hin und zurück",
             "Der Wind wird im Tal stark gebündelt",
             "Vorhersagen im Besucherzentrum prüfen"
           ]
@@ -7577,7 +7577,7 @@
         {
           "heading": "Heiße Becken und die Variante bei Regen",
           "body": [
-            "Tekapo Springs und die Becken in Omarama geben dir etwas zu tun, wenn das Wetter zumacht, was es im Mackenzie ohne große Vorwarnung tut. Beide liegen nah an der Hauptroute.",
+            "Tekapo Springs und die Becken in Omarama geben dir etwas zu tun, wenn das Wetter umschlägt, was es im Mackenzie Country ohne große Vorwarnung tut. Beide liegen nah an der Hauptroute.",
             "Die Führungen im Mount John Observatory hängen vom Wetter ab und sind ausgebucht. Wenn die Vorhersage für deine erste Nacht klar ist, nimm sie dann und spar sie nicht auf."
           ],
           "tips": [
@@ -7595,7 +7595,7 @@
       "description": "Leave No Trace in Neuseeland: Toilettenabfall, Müll, Biosicherheit, Rāhui und Wildtiere, dazu die Gewohnheiten, die Freedom-Camping-Plätze offen halten.",
       "region": "Neuseeland",
       "imageAlt": "Camper packt Müll auf einem Campingplatz in Neuseeland ein",
-      "intro": "Freedom Camping gibt es in Neuseeland nur nach dem Ermessen von Gemeinden und Landverwaltern, und Plätze werden gesperrt, wenn Verhalten sie teuer in der Pflege macht. Verantwortungsvoll zu campen ist nicht nur eine Haltung zur Umwelt, sondern der ganz praktische Grund, warum der nächste Reisende dort noch parken darf.",
+      "intro": "Freedom Camping gibt es in Neuseeland nur nach dem Ermessen der Gemeinden und der zuständigen Stellen, und Plätze werden gesperrt, wenn das Verhalten der Gäste ihren Unterhalt zu teuer macht. Verantwortungsvoll zu campen ist nicht nur eine Haltung zur Umwelt, sondern der ganz praktische Grund, warum der nächste Reisende dort noch parken darf.",
       "sections": [
         {
           "heading": "Leave No Trace, vor Ort angewandt",
@@ -7633,7 +7633,7 @@
           "heading": "Wildtiere und Rāhui",
           "body": [
             "Füttere keine Keas, Wekas, Delfine oder sonst etwas. Essen von Menschen verändert das Verhalten, und bei Keas führt es direkt dazu, dass Vögel auf Straßen und Parkplätzen getötet werden. Bewahre Essen und Müll dort auf, wo Vögel nicht herankommen, und rechne damit, dass Keas alles öffnen, was du für gesichert hieltest.",
-            "Einschränkungen für Hunde gelten weithin an Stränden und in Reservaten, besonders in den Brutzeiten der Küstenvögel. Rāhui (von Māori verhängte Sperren) und traditionelle Sperrungen haben ihren guten Grund, oft nach einem Todesfall oder damit sich eine Ressource erholen kann. Nimm sie als absolut und nicht als Empfehlung."
+            "Einschränkungen für Hunde gelten weithin an Stränden und in Reservaten, besonders in den Brutzeiten der Küstenvögel. Rāhui (von Māori verhängte Sperren) und traditionelle Sperrungen haben ihren guten Grund, oft nach einem Todesfall oder damit sich eine Ressource erholen kann. Halte dich ausnahmslos daran, es sind keine bloßen Empfehlungen."
           ],
           "tips": []
         },
@@ -7646,7 +7646,7 @@
           "tips": []
         },
         {
-          "heading": "Ein guter Nachbar in der Nähe von Orten sein",
+          "heading": "Gute Nachbarschaft in Ortsnähe",
           "body": [
             "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in und nahe der Stadt lebt von informellen Absprachen. Halte abends die Lautstärke niedrig, verzichte auf Generatoren, fahr einigermaßen früh weiter und nutze den Ort: Sprit, Kaffee und Lebensmittel vor Ort kaufen. Das wirtschaftliche Argument hören Gemeinderäte, wenn über einen Platz diskutiert wird.",
             "Wenn du siehst, dass ein Platz missbraucht wird, melde es der Gemeinde oder DOC, statt es zu ignorieren. Plätze werden meist gesperrt, weil Probleme nicht gemeldet wurden, bis die Kosten fürs Aufräumen schwerer wogen als der Nutzen, sie offen zu halten."
@@ -7700,17 +7700,17 @@
           "tips": [
             "Freedom heißt Ort, nicht Preis",
             "Schilder gehen jeder App vor",
-            "200 m von einer ausgebauten Straße sind der übliche Test"
+            "Übliches Kriterium: 200 m von einer ausgebauten Straße"
           ]
         },
         {
           "heading": "Self-containment: die Umstellung ist jetzt abgeschlossen",
           "body": [
             "Die Regeln haben sich in Stufen geändert. Das nationale System der Green Warrants startete am 7. Dezember 2023 und verlangt eine fest im Fahrzeug eingebaute Toilette. Mietfahrzeuge brauchten ab dem 7. Dezember 2024 Green Warrants, und die Umstellung für Fahrzeuge in Privatbesitz endete am 6. Juni 2026. Seit dem 7. Juni 2026 macht ein Blue Warrant ein Fahrzeug für <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> nicht mehr self-contained, egal, welches Ablaufdatum darauf steht, ein Van mit nur einem blauen Aufkleber gilt also als nicht zertifiziert.",
-            "Die Zertifizierung wird vom Plumbers, Gasfitters and Drainlayers Board reguliert, und die wichtigsten Angaben jedes zertifizierten Fahrzeugs kommen in ein nationales Register, das Kontrolleure vor Ort prüfen. Wenn du mietest oder kaufst, nutz die öffentliche Fahrzeugsuche des Registers, um zu bestätigen, dass das Zertifikat aktuell ist und zum Kennzeichen passt, statt der Karte an der Scheibe zu vertrauen, und lies auf der Karte nach, für wie viele Personen sie gilt. Auf Gemeindeland ist Camping mit mehr Personen, als das Fahrzeug zertifiziert ist, ein eigenes Bußgeld von 400 NZD."
+            "Die Zertifizierung wird vom Plumbers, Gasfitters and Drainlayers Board reguliert, und die wichtigsten Angaben jedes zertifizierten Fahrzeugs kommen in ein nationales Register, das Kontrolleure vor Ort prüfen. Wenn du mietest oder kaufst, nutz die öffentliche Fahrzeugsuche des Registers, um zu bestätigen, dass das Zertifikat aktuell ist und zum Kennzeichen passt, statt der Karte an der Scheibe zu vertrauen, und lies auf der Karte nach, für wie viele Personen sie gilt. Auf Gemeindeland kostet Camping mit mehr Personen, als für das Fahrzeug zertifiziert sind, ein eigenes Bußgeld von 400 NZD."
           ],
           "tips": [
-            "Blue Warrants zählten ab dem 7. Juni 2026 nicht mehr",
+            "Blue Warrants zählen seit dem 7. Juni 2026 nicht mehr",
             "Das Fahrzeug im nationalen Register nachschlagen",
             "Die zertifizierte Personenzahl muss zu deiner Gruppe passen"
           ]
@@ -7738,7 +7738,7 @@
             "Gisborne und Hawke's Bay erlauben bestimmte Strände, manchmal mit einer Übernachtungsgenehmigung, die im Voraus eingeholt werden muss. Durch Taranaki, Manawatū-Whanganui und Wellington ist das Parken an der Küste häufig auf zertifizierte Fahrzeuge mit kurzen Höchstaufenthalten beschränkt, und die Stadt Wellington setzt Zonen ohne Camping rund um das Stadtzentrum durch. Plane deshalb eine Alternative am Hafen oder im Hutt Valley, statt in der Nähe der Fähre zu improvisieren."
           ],
           "tips": [
-            "Die Zentren von Auckland und Wellington sind weitgehend verboten",
+            "In den Zentren von Auckland und Wellington ist Freedom Camping weitgehend verboten",
             "Manche Plätze an der Ostküste brauchen vorab eine Genehmigung",
             "Zwei Nächte sind ein häufiges Maximum"
           ]
@@ -7804,7 +7804,7 @@
             "Damit ist das Ablaufdatum auf einer blauen Karte bedeutungslos. Ein Blue Warrant von 2023 mit noch jahrelanger Laufzeit zählte am selben Tag nicht mehr wie einer, der gerade auslief. Viele ältere Umbauten verließen sich auf eine tragbare Toilette, die sich herausheben ließ, und die kamen für ein grünes Zertifikat nie infrage. Trägt dein Fahrzeug weiterhin nur einen blauen Aufkleber, behandle es als nicht self-contained, bis eine Zertifizierungsstelle es geprüft und eine grüne Karte ausgestellt hat."
           ],
           "tips": [
-            "Blue Warrants zählten ab dem 7. Juni 2026 nicht mehr",
+            "Blue Warrants zählen seit dem 7. Juni 2026 nicht mehr",
             "Das aufgedruckte Ablaufdatum einer blauen Karte spielt keine Rolle mehr",
             "Mietfahrzeuge brauchten ab dem 7. Dezember 2024 Green Warrants"
           ]
@@ -7836,8 +7836,8 @@
         {
           "heading": "Bußgelder für Camping ohne Zertifizierung",
           "body": [
-            "Gemeinden, das Department of Conservation und Land Information New Zealand setzen <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> auf dem Land durch, das sie jeweils verwalten. Nach den Freedom Camping (Penalties for Infringement Offences) Regulations 2023 kostet Freedom Camping in einem Fahrzeug, das nicht self-contained ist, dort, wo eine Zertifizierung verlangt wird, 400 NZD Bußgeld. Ein Verstoß gegen ein Verbot oder eine Einschränkung in einer Satzung oder einem DOC-Hinweis kostet ebenfalls 400 NZD, und auf Gemeindeland gilt das auch für Camping mit mehr Personen, als das Fahrzeug zertifiziert ist.",
-            "Die Warrant Card nicht auszulegen kostet 200 NZD. Abfall abzuladen oder das Gelände beim Freedom Camping zu beschädigen kostet 800 NZD, und sich zu weigern zu gehen, wenn ein Kontrolleur es verlangt, 600 NZD. Wird eine Straftat stattdessen vor Gericht verfolgt, beträgt das Höchstbußgeld das Dreifache des Bußgelds. Seit dem 7. Juni 2026 ist eine blaue Karte keine Verteidigung: Sie macht das Fahrzeug nicht self-contained und zählt nicht als die Warrant Card, die du auslegen musst."
+            "Gemeinden, das Department of Conservation und Land Information New Zealand setzen <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> auf dem Land durch, das sie jeweils verwalten. Nach den Freedom Camping (Penalties for Infringement Offences) Regulations 2023 kostet Freedom Camping in einem Fahrzeug, das nicht self-contained ist, dort, wo eine Zertifizierung verlangt wird, 400 NZD Bußgeld. Ein Verstoß gegen ein Verbot oder eine Einschränkung in einer Satzung oder einem DOC-Hinweis kostet ebenfalls 400 NZD, und auf Gemeindeland gilt das auch für Camping mit mehr Personen, als für das Fahrzeug zertifiziert sind.",
+            "Die Warrant Card nicht auszulegen kostet 200 NZD. Abfall abzuladen oder das Gelände beim Freedom Camping zu beschädigen kostet 800 NZD, und sich zu weigern zu gehen, wenn ein Kontrolleur es verlangt, 600 NZD. Wird eine Straftat stattdessen vor Gericht verfolgt, beträgt das Höchstbußgeld das Dreifache des Bußgelds. Seit dem 7. Juni 2026 schützt eine blaue Karte nicht vor dem Bußgeld: Sie macht das Fahrzeug nicht self-contained und zählt nicht als die Warrant Card, die du auslegen musst."
           ],
           "tips": []
         },
@@ -7856,8 +7856,8 @@
         {
           "heading": "Was der Green Warrant nicht abdeckt",
           "body": [
-            "Ein Green Warrant ist keine Erlaubnis zu campen. Er hebt keine Satzung auf, die Übernachten verbietet, reserviert keinen Stellplatz und verlängert keinen Höchstaufenthalt. Wo eine Gemeinde oder DOC <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> verbietet, ist ein zertifiziertes Fahrzeug so verboten wie jedes andere.",
-            "Er sagt auch nichts über die Verkehrstauglichkeit. Der <a data-guide=\"wof-registration-campervan-new-zealand\">Warrant of Fitness</a> (WOF, die neuseeländische Hauptuntersuchung) oder das Certificate of Fitness, die Zulassung, die Gaszertifizierung und die eigenen Bedingungen der Vermietfirma sind getrennte Pflichten. Laut Board können für Änderungen, die für eine fest eingebaute Toilette oder Tanks gemacht wurden, auch eine Low-Volume-Vehicle-Zertifizierung nötig sein, ein anderes Verfahren als Self-containment."
+            "Ein Green Warrant ist keine Erlaubnis zu campen. Er hebt keine Satzung auf, die Übernachten verbietet, reserviert keinen Stellplatz und verlängert keinen Höchstaufenthalt. Wo eine Gemeinde oder DOC <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> verbietet, gilt das Verbot für ein zertifiziertes Fahrzeug genauso wie für jedes andere.",
+            "Er sagt auch nichts über die Verkehrstauglichkeit. Der <a data-guide=\"wof-registration-campervan-new-zealand\">Warrant of Fitness</a> (WOF, die neuseeländische Hauptuntersuchung) oder das Certificate of Fitness, die Zulassung, die Gaszertifizierung und die eigenen Bedingungen der Vermietfirma sind getrennte Pflichten. Laut Board kann für Umbauten, mit denen eine fest eingebaute Toilette oder Tanks eingebaut werden, auch eine Low-Volume-Vehicle-Zertifizierung nötig sein, ein anderes Verfahren als die Self-containment-Zertifizierung."
           ],
           "tips": [
             "Zertifizierung ist keine Erlaubnis",
@@ -7941,7 +7941,7 @@
           "heading": "Die drei Abfallströme kennen",
           "body": [
             "Schwarzwasser ist Toilettenabfall und gehört nur in einen Einlass einer Entsorgungsstation, der dafür gebaut ist. Grauwasser ist alles aus Spüle und Dusche, es enthält Speisereste, Seife, Fette und Bakterien und ist, obwohl es harmlos aussieht, nichts, was man auf den Boden kippt. Fester Müll ist der dritte Strom und muss in der Regel mit dir den Platz verlassen.",
-            "Betrachte alle drei als Aufgabe des Auffangens und nicht des Entsorgens. Die Frage unterwegs lautet nicht, wo du etwas loswerden kannst, sondern ob du genug Fassungsvermögen hast, es zu behalten, bis du die richtige Einrichtung erreichst."
+            "Bei allen drei geht es ums Sammeln, nicht ums Loswerden. Die Frage unterwegs lautet nicht, wo du etwas loswerden kannst, sondern ob du genug Fassungsvermögen hast, es zu behalten, bis du die richtige Einrichtung erreichst."
           ],
           "tips": [
             "Grauwasser ist kein sauberes Wasser",
@@ -8093,7 +8093,7 @@
           ]
         },
         {
-          "heading": "Wenn es dir entgleitet",
+          "heading": "Wenn das Feuer außer Kontrolle gerät",
           "body": [
             "Breitet sich ein Feuer aus und du hast es nicht mehr unter Kontrolle, versuch nicht, es über die ersten Sekunden hinaus zu bekämpfen. Geh weg, bergab und, wo es sicher ist, quer zum Hang, denn Feuer breitet sich bergauf am schnellsten aus, und ruf sofort die 111 an.",
             "Gib den klarsten Standort an, den du kannst: die Straße, den nächsten erkennbaren Orientierungspunkt und Koordinaten, wenn du sie offline gespeichert hast. Schnell sagen zu können, wo du bist, ist mehr wert als jede Ausrüstung, die du dabeihast."
@@ -8126,7 +8126,7 @@
       "description": "DOC-Campingplatzgebühren pro Erwachsenem für 2026/27, Preise der Holiday Parks, Sprit und Essen, zu Tagesbudgets für Camping in NZD zusammengerechnet und in 10 Währungen umgerechnet.",
       "region": "Camps in Neuseeland",
       "imageAlt": "Zelt und Campervan auf einem Campingplatz in Neuseeland",
-      "intro": "Camping ist die günstigste Art, durch Neuseeland zu reisen, aber „günstig“ reicht von fast nichts bis zu mehr als einem Motelzimmer. Das Wort Campingplatz umfasst ein kostenloses Plumpsklo an einem unbehandelten Bach ebenso wie einen Stellplatz mit Strom direkt am Strand mit Küche und Waschraum, ein Preis pro Nacht sagt also erst etwas, wenn du ihn einer Kategorie und einer Gruppengröße zuordnest.",
+      "intro": "Camping ist die günstigste Art, durch Neuseeland zu reisen, aber „günstig“ reicht von fast nichts bis zu mehr als einem Motelzimmer. Das Wort Campingplatz umfasst ein kostenloses Plumpsklo an einem Bach, dessen Wasser nicht aufbereitet ist, ebenso wie einen Stellplatz mit Strom direkt am Strand mit Küche und Waschküche, ein Preis pro Nacht sagt also erst etwas, wenn du ihn einer Kategorie und einer Gruppengröße zuordnest.",
       "sections": [
         {
           "heading": "DOC berechnet pro Person, nicht pro Platz",
@@ -8149,7 +8149,7 @@
           "tips": []
         },
         {
-          "heading": "Die Kosten, die nicht der Campingplatz sind",
+          "heading": "Kosten neben dem Campingplatz",
           "body": [
             "Sprit ist nach der Unterkunft meist der größte Posten, und er hängt von Entfernung und Verbrauch ab und nicht von den Nächten. Rechne ihn richtig aus: Kilometer mal Liter pro 100 km, geteilt durch 100, mal Preis pro Liter. Ein Campervan mit 12 l/100 km verbraucht bei 3.000 km 360 Liter, und diese Rechnung zählt mehr als der Unterschied zwischen einem Campingplatz für 15 NZD und einem für 25 NZD.",
             "Dann kommen Essen, Fährüberfahrten, wenn du die <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> überquerst, Aktivitäten und das Fahrzeug selbst, wenn du mietest. Gebühren für Einwegmieten und die Reduzierung der Selbstbeteiligung übersieht man leicht, und beide sind erheblich."
@@ -8262,7 +8262,7 @@
         {
           "heading": "Wo eine kostenlose Nacht tatsächlich legal ist",
           "body": [
-            "Öffentliche Reservate, die ausdrücklich für Freedom Camping ausgeschildert sind, sind die verlässlichste Option, und die Gemeinden veröffentlichen die Listen. DOC betreibt eine beachtliche Zahl einfacher Campingplätze ohne Gebühr, meist mit einem Plumpsklo und einer unbehandelten Wasserquelle, ideal, wenn du auf Selbstversorgung eingerichtet bist. Manche Gemeinden stellen auch ausgewiesene Parkplätze, Schotterbuchten oder Showgrounds bereit, wo zertifizierte Fahrzeuge ein oder zwei Nächte stehen dürfen.",
+            "Öffentliche Reservate, die ausdrücklich für Freedom Camping ausgeschildert sind, sind die verlässlichste Option, und die Gemeinden veröffentlichen die Listen. DOC betreibt eine beachtliche Zahl einfacher Campingplätze ohne Gebühr, meist mit einem Plumpsklo und einer Wasserquelle ohne Aufbereitung, ideal, wenn du auf Selbstversorgung eingerichtet bist. Manche Gemeinden stellen auch ausgewiesene Parkplätze, Schotterbuchten oder Showgrounds bereit, wo zertifizierte Fahrzeuge ein oder zwei Nächte stehen dürfen.",
             "Die Rastplätze der NZTA sind für Pausen bei <a data-guide=\"alcohol-fatigue-driving-new-zealand\">Müdigkeit</a> am Steuer gedacht und keine Campingplätze. Eine Schlafpause ist etwas anderes, als ein Lager aufzuschlagen, und örtliche Einschränkungen können trotzdem gelten. Privatgrund, die Weide eines Freundes, eine Farm, ein Marae, zählt als kostenloses Campen, wenn du die Erlaubnis des Eigentümers hast, und diese Erlaubnis sollte ausdrücklich erteilt und nicht bloß angenommen sein. Behandle Weideland oder Forststraßen nie als grundsätzlich offen."
           ],
           "tips": [
@@ -8294,7 +8294,7 @@
         {
           "heading": "Etikette hält die Plätze offen",
           "body": [
-            "Kostenloses Campen lebt von der Duldung der Öffentlichkeit, und Plätze werden gesperrt, wenn sie aufgebraucht ist. Halte den Fußabdruck klein: Park innerhalb der markierten Bucht, lass Markisen und Stühle drin, wenn die Beschilderung nichts anderes erlaubt, komm ohne großes Aufheben an und fahr früh wieder weg. Zwei Fahrzeuge sind an einem städtischen Freedom-Platz ein vernünftiges Maximum, und ein Konvoi von sechs beendet diesen Platz für alle.",
+            "Kostenloses Campen lebt von der Duldung der Öffentlichkeit, und Plätze werden gesperrt, wenn sie aufgebraucht ist. Nimm wenig Raum ein: Park innerhalb der markierten Bucht, lass Markisen und Stühle drin, wenn die Beschilderung nichts anderes erlaubt, komm ohne großes Aufheben an und fahr früh wieder weg. Zwei Fahrzeuge sind an einem städtischen Freedom-Camping-Platz ein vernünftiges Maximum, und ein Konvoi aus sechs Fahrzeugen bedeutet für alle das Aus dieses Platzes.",
             "Leere die Tanks an einer <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstation</a>, bevor du ankommst, und nicht, nachdem du gefahren bist, denn Grauwassergeruch ist der häufigste Auslöser für eine Beschwerde. Wechsle die Ziele, statt dich eine Woche an einem Platz einzurichten. Bitten dich Anwohner oder Kaumātua (Älteste) weiterzuziehen, zieh höflich weiter, denn das Gespräch nach einer Weigerung landet in einer Eingabe an die Gemeinde."
           ],
           "tips": []
@@ -8322,7 +8322,7 @@
       ],
       "faq": [
         [
-          "Ist kostenloses Campen (Wildcampen) in Neuseeland legal?",
+          "Ist kostenloses Campen in Neuseeland legal?",
           "In ausgewiesenen Bereichen ja. Freedom Camping ist auf Gemeinde- und Naturschutzland legal, solange keine Satzung und kein DOC-Hinweis es verbietet oder einschränkt, und auf Gemeindeland muss das Fahrzeug als self-contained zertifiziert sein, es sei denn, der Platz ist anders ausgewiesen. Deshalb kann dieselbe Parkbucht in einem Distrikt in Ordnung sein und im nächsten ein Bußgeld kosten. Maßgeblich ist die Beschilderung am Platz und nicht eine Karte."
         ],
         [
@@ -8401,19 +8401,19 @@
         {
           "heading": "Welche Hütten und Campingplätze nach Ankunftsreihenfolge vergeben werden",
           "body": [
-            "Der größte Teil von DOCs Netz lässt sich weiter nicht buchen: Laut DOC ist die Mehrheit der rund 950 Hütten nicht buchbar. In den DOC-Daten von KiwiCamping, geprüft am 24. August 2026, waren das 350 Basic-Hütten und Bivvies und 401 Standard-Hütten. Basic-Hütten sind kostenlos. Für eine nicht buchbare Standard-Hütte zahlst du mit einem Backcountry Hut Ticket oder einem Hut Pass, und Papiertickets kommen in die Spendenbox an der Hütte. Hütten bleiben bei schlechtem Wetter als Notunterkunft unverschlossen, aber eine Unterkunft ist kein Bett, ein Zelt auf stark begangenen Tracks mitzunehmen ist also sinnvoll.",
-            "In dieser Saison kommen zwei Änderungen. Seit dem 1. Oktober 2026 sind alle Serviced-Hütten von DOC im Buchungssystem, und die Serviced Hut Tickets werden eingestellt, bereits gekaufte Tickets lassen sich bis zu ihrem Ablauf auf eine Buchung anrechnen. Ab dem 1. November 2026 können Backcountry Hut Tickets für nicht buchbare Hütten im Online-Buchungssystem von DOC gekauft werden, weiter für 15 NZD pro Erwachsenem und Nacht in einer Standard-Hütte. Sie sind eine Bezahlung und keine Buchung, und Papiertickets bleiben bis zum 1. November 2027 gültig. Bei den Campingplätzen sind 110 der 287 DOC-Campingplätze in KiwiCamping Selbstregistrierung: überwiegend Basic- und Backcountry-Plätze, dazu einige Standard-Plätze, wo du einen Umschlag ausfüllst und bei der Ankunft zahlst."
+            "Der größte Teil von DOCs Netz lässt sich weiter nicht buchen: Laut DOC ist die Mehrheit der rund 950 Hütten nicht buchbar. In den DOC-Daten von KiwiCamping, geprüft am 24. August 2026, waren das 350 Basic-Hütten und Bivvies und 401 Standard-Hütten. Basic-Hütten sind kostenlos. Für eine nicht buchbare Standard-Hütte zahlst du mit einem Backcountry Hut Ticket oder einem Hut Pass, und Papiertickets kommen in die Vertrauenskasse (Honesty Box) an der Hütte. Hütten bleiben bei schlechtem Wetter als Notunterkunft unverschlossen, aber ein Dach über dem Kopf ist noch kein Schlafplatz, ein Zelt auf stark begangenen Tracks mitzunehmen ist also sinnvoll.",
+            "In dieser Saison kommen zwei Änderungen. Seit dem 1. Oktober 2026 sind alle Serviced-Hütten von DOC im Buchungssystem, und die Serviced Hut Tickets werden eingestellt, bereits gekaufte Tickets lassen sich bis zu ihrem Ablauf auf eine Buchung anrechnen. Ab dem 1. November 2026 können Backcountry Hut Tickets für nicht buchbare Hütten im Online-Buchungssystem von DOC gekauft werden, weiter für 15 NZD pro Erwachsenem und Nacht in einer Standard-Hütte. Sie sind eine Bezahlung und keine Buchung, und Papiertickets bleiben bis zum 1. November 2027 gültig. Bei den Campingplätzen funktionieren 110 der 287 DOC-Campingplätze in KiwiCamping über Selbstregistrierung: überwiegend Basic- und Backcountry-Plätze, dazu einige Standard-Plätze, wo du einen Umschlag ausfüllst und bei der Ankunft zahlst."
           ],
           "tips": [
             "Basic-Hütten sind kostenlos, Standard-Hütten nehmen Tickets oder den Pass",
-            "Hut Tickets wechseln ab dem 1. November 2026 online",
+            "Hut Tickets gibt es ab dem 1. November 2026 online",
             "Seit dem 1. Oktober 2026 ist jede Serviced-Hütte buchbar"
           ]
         },
         {
           "heading": "Eine Buchung ändern oder stornieren",
           "body": [
-            "Storniere am Tag der Buchung oder am Tag danach, sofern die Ankunft mehr als zwei Tage entfernt ist, und DOC berechnet nichts. Von 48 Stunden nach der Buchung bis 15 Tage vor der Ankunft beträgt die Gebühr 10 %. Innerhalb von 14 Tagen steigt sie nach Art: Hütten 20 %, dann 30 % ab drei Tagen vorher, Campingplätze 20, dann 75 %, Great Walks 50, dann 75 %, Lodges, Cabins und Hütten für eine Gruppe allein 100 %. Eine Stornierung am Tag vorher, am Tag selbst oder danach verfällt komplett, ebenso ein Nichterscheinen.",
+            "Storniere am Tag der Buchung oder am Tag danach, sofern die Ankunft mehr als zwei Tage entfernt ist, und DOC berechnet nichts. Von 48 Stunden nach der Buchung bis 15 Tage vor der Ankunft beträgt die Gebühr 10 %. Innerhalb von 14 Tagen steigt sie nach Art: Hütten 20 %, dann 30 % ab drei Tagen vorher, Campingplätze 20, dann 75 %, Great Walks 50, dann 75 %, Lodges, Cabins und Hütten für eine Gruppe allein 100 %. Bei einer Stornierung am Tag vorher, am Tag selbst oder danach verfällt der gesamte Betrag, ebenso bei Nichterscheinen.",
             "Verpasst du die erste Nacht einer Buchung über mehrere Nächte und meldest dich nicht binnen 24 Stunden beim Büro vor Ort, storniert DOC den Rest ohne Erstattung. Erstattungen bei Wetter gibt es nicht automatisch. Schließt DOC den Ort oder sagt deinen Aufenthalt ab, zum Beispiel bei einem Sturm, Hochwasser oder einer orangen oder roten Warnung des MetService für das Gebiet am Vortag, schreib innerhalb von 7 Tagen dem Buchungsteam von DOC eine E-Mail, bevor du die Buchung selbst änderst, für eine volle Erstattung der ungenutzten Nächte oder, wenn dein Aufenthalt noch nicht begonnen hat, eine Umbuchung auf freie Termine in derselben Saison. Ist das Wetter nur schlecht und der Ort bleibt offen, gelten die normalen Stornogebühren, weshalb DOC eine Reiseversicherung empfiehlt."
           ],
           "tips": []
@@ -8568,12 +8568,12 @@
       "description": "Der TOP 10 Club kostet 55 NZD für zwei Jahre und spart 10 % pro Aufenthalt. So setzen sich die Preise der Holiday Parks zusammen, wann du buchst, späte Ankunft und die Kosten im Vergleich zu DOC-Plätzen.",
       "region": "Orte und Küste in Neuseeland",
       "imageAlt": "Holiday Park in Neuseeland direkt an der Küste",
-      "intro": "Ein Holiday Park ist ein kommerzieller Campingplatz mit Stellplätzen mit Strom und Zeltplätzen, heißen Duschen, einer Gemeinschaftsküche, Waschraum und meist Cabins, und er ist die Nacht, die eine Camping-Reise zurücksetzt: nach einer nassen Woche, vor einer frühen Fähre oder immer dann, wenn Strom und eine verlässliche Dusche wichtiger sind als Einsamkeit. Die meisten berechnen pro Stellplatz oder pro Person, der Preis sagt also nur für deine eigene Gruppe etwas. Der Branchenverband Holiday Parks New Zealand listet 230 Mitgliedsparks, und die größte Kette, TOP 10, verkauft eine Clubkarte für 55 NZD für zwei Jahre, die bei jedem Aufenthalt 10 % abzieht. Unten steht, wie die Preise funktionieren, was eine Mitgliedschaft wert ist, wann du buchst und wie du spät ankommst, ohne Probleme zu bekommen.",
+      "intro": "Ein Holiday Park ist ein kommerzieller Campingplatz mit Stellplätzen mit Strom und Zeltplätzen, heißen Duschen, einer Gemeinschaftsküche, Waschküche und meist Cabins, und er ist die Nacht, in der du auf einer Camping-Reise wieder Ordnung schaffst: nach einer nassen Woche, vor einer frühen Fähre oder immer dann, wenn Strom und eine verlässliche Dusche wichtiger sind als Einsamkeit. Die meisten berechnen pro Stellplatz oder pro Person, der Preis sagt also nur für deine eigene Gruppe etwas. Der Branchenverband Holiday Parks New Zealand listet 230 Mitgliedsparks, und die größte Kette, TOP 10, verkauft eine Clubkarte für 55 NZD für zwei Jahre, die bei jedem Aufenthalt 10 % abzieht. Unten steht, wie die Preise funktionieren, was eine Mitgliedschaft wert ist, wann du buchst und wie du spät ankommst, ohne Probleme zu bekommen.",
       "sections": [
         {
           "heading": "Verstehen, wie der Preis zustande kommt",
           "body": [
-            "Holiday Parks rechnen auf drei verschiedene Arten ab, und der Vergleich bricht zusammen, wenn du sie durcheinanderbringst. Manche berechnen pro Person, manche pro Stellplatz mit angegebener Belegung, und manche nennen einen Grundpreis, bei dem zusätzliche Gäste gesondert berechnet werden. Ein Beispiel: Ein Stellplatz für zwei für 56 NZD und ein Preis von 28 NZD pro Person sind für ein Paar derselbe Preis und für eine fünfköpfige Familie sehr verschieden.",
+            "Holiday Parks rechnen auf drei verschiedene Arten ab, und der Vergleich hinkt, wenn du sie durcheinanderbringst. Manche berechnen pro Person, manche pro Stellplatz mit angegebener Belegung, und manche nennen einen Grundpreis, bei dem zusätzliche Gäste gesondert berechnet werden. Ein Beispiel: Ein Stellplatz für zwei für 56 NZD und ein Preis von 28 NZD pro Person sind für ein Paar derselbe Preis und für eine fünfköpfige Familie sehr verschieden.",
             "Prüf dann, was enthalten ist. Strom, Bettwäsche, Küchenausstattung, Duschen, WLAN und Buchungsgebühren unterscheiden sich von Park zu Park, und eine Cabin, die ohne Bettwäsche angeboten wird, ist mit einer, die sie einschließt, nicht vergleichbar. Rechne die Gesamtsumme für deine tatsächliche Gruppe und Nächte aus, bevor du dich entscheidest."
           ],
           "tips": [
@@ -8585,8 +8585,8 @@
         {
           "heading": "Holiday Park oder DOC-Campingplatz: rechne es für deine Gruppe durch",
           "body": [
-            "DOC berechnet pro Person, welche Option günstiger ist, hängt also davon ab, wer reist. Auf einem Serviced-<a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplatz</a> zahlt ein Erwachsener 25 NZD pro Nacht ohne Strom und ein Kind 12,50 NZD, zwei Erwachsene und zwei Kinder zahlen also 75 NZD. Auf einem Standard-Campingplatz von DOC zahlt dieselbe Familie 30 bis 60 NZD, auf einem Basic-Platz nichts. Halte das gegen die genannte Gesamtsumme des Parks für dieselbe Nacht, denselben Strom und dieselbe Gruppe und nicht gegen seinen Preis für den Stellplatz in der Werbung.",
-            "Für ein Paar gewinnt DOC meist beim Preis und ein Park bei der Ausstattung. Für eine Familie schließt ein Park mit Preis pro Stellplatz die Lücke oft oder unterbietet einen Serviced-Platz von DOC und bietet dazu Waschraum, Küche, heiße Duschen und einen Ort, an dem Kinder Energie loswerden. Viele Reisen funktionieren am besten mit einer Mischung: DOC-Plätze für die Landschaft, alle paar Nächte ein Holiday Park zum Zurücksetzen."
+            "DOC berechnet pro Person, welche Option günstiger ist, hängt also davon ab, wer reist. Auf einem Serviced-<a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplatz</a> zahlt ein Erwachsener 25 NZD pro Nacht ohne Strom und ein Kind 12,50 NZD, zwei Erwachsene und zwei Kinder zahlen also 75 NZD. Auf einem Standard-Campingplatz von DOC zahlt dieselbe Familie 30 bis 60 NZD, auf einem Basic-Platz nichts. Vergleich das mit der Gesamtsumme, die der Park für dieselbe Nacht, mit Strom und für dieselbe Gruppe nennt, und nicht mit dem beworbenen Stellplatzpreis.",
+            "Für ein Paar gewinnt DOC meist beim Preis und ein Park bei der Ausstattung. Für eine Familie schließt ein Park mit Preis pro Stellplatz die Lücke oft oder unterbietet einen Serviced-Platz von DOC und bietet dazu Waschküche, Küche, heiße Duschen und einen Ort, an dem Kinder Energie loswerden. Viele Reisen funktionieren am besten mit einer Mischung: DOC-Plätze für die Landschaft, alle paar Nächte ein Holiday Park zum Durchatmen und Aufräumen."
           ],
           "tips": [
             "DOC rechnet pro Person, Parks oft pro Stellplatz",
@@ -8607,7 +8607,7 @@
           ]
         },
         {
-          "heading": "Buche das Fahrzeug, das du wirklich mitbringst",
+          "heading": "Bei der Buchung das Fahrzeug angeben, das du wirklich mitbringst",
           "body": [
             "Die Maße des Stellplatzes zählen mehr, als Reisende erwarten. Ein langes Wohnmobil, ein Wohnwagen mit Vorzelt oder ein Fahrzeug mit Anhänger braucht einen Stellplatz, auf den es tatsächlich passt, und Parks vergeben nach der Länge, die du angegeben hast. Wer zu wenig angibt, erlebt beim Einchecken ein unangenehmes Gespräch und manchmal gar keinen Platz.",
             "Sag, ob du eine Durchfahrt, Strom und die Nähe zu den Einrichtungen brauchst, wenn jemand in der Gruppe in der Mobilität eingeschränkt ist. Das lässt sich im Voraus leicht regeln und an einem vollen Samstag im Januar fast nicht mehr beheben."
@@ -8637,7 +8637,7 @@
         {
           "heading": "Die Einrichtungen gezielt nutzen",
           "body": [
-            "Eine Nacht im Holiday Park ist am meisten wert, wenn du nutzt, wofür du bezahlt hast. Eine Gemeinschaftsküche spart Gas und hält Kochgerüche aus einem kleinen Van, der Waschraum setzt eine Woche feuchter Kleidung zurück, und mit <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstation</a> und Trinkwasserhähnen fährst du in der richtigen Reihenfolge mit vollen und leeren Tanks los.",
+            "Eine Nacht im Holiday Park ist am meisten wert, wenn du nutzt, wofür du bezahlt hast. Eine Gemeinschaftsküche spart Gas und hält Kochgerüche aus einem kleinen Van, in der Waschküche wird die feuchte Kleidung einer ganzen Woche wieder sauber und trocken, und mit <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstation</a> und Trinkwasserhähnen fährst du in der richtigen Reihenfolge mit vollen und leeren Tanks los.",
             "Lerne den Aufbau kennen, bevor du etwas anschließt: Füll nie Trinkwasser aus einem Hahn in der Nähe der Entsorgungsstelle, und frag, welche Hähne Trinkwasser liefern, denn nicht alle tun es. Spül und verstau Schläuche getrennt und wasch dir die Hände, nachdem du Abwasserausrüstung angefasst hast."
           ],
           "tips": [
@@ -8666,7 +8666,7 @@
       "faq": [
         [
           "Was ist der Unterschied zwischen einem Holiday Park und einem Campingplatz?",
-          "Ein Holiday Park ist ein kommerzieller Platz mit Stellplätzen mit Strom, Duschen, Küchen, Waschraum und meist Cabins, mit Preis pro Stellplatz oder pro Person. Ein DOC-Campingplatz ist öffentliches Naturschutzland mit weit weniger Ausstattung und einer viel niedrigeren Gebühr."
+          "Ein Holiday Park ist ein kommerzieller Platz mit Stellplätzen mit Strom, Duschen, Küchen, Waschküche und meist Cabins, mit Preis pro Stellplatz oder pro Person. Ein DOC-Campingplatz ist öffentliches Naturschutzland mit weit weniger Ausstattung und einer viel niedrigeren Gebühr."
         ],
         [
           "Lohnt sich eine Mitgliedschaft für Holiday Parks in Neuseeland?",
@@ -8702,7 +8702,7 @@
         {
           "heading": "Northland: die Strände im hohen Norden",
           "body": [
-            "Maitai Bay auf der Karikari Peninsula ist eine geschützte Bucht unter Pōhutukawa mit Platz für etwa 100 Stellplätze ohne Strom, kalten Duschen und Spültoiletten, für 18 NZD pro Erwachsenem. Sie nimmt keine Buchungen an, im Sommer gilt also die Regel, früh am Tag statt in der Dämmerung anzukommen.",
+            "Maitai Bay auf der Karikari Peninsula ist eine geschützte Bucht unter Pōhutukawa mit Platz für etwa 100 Stellplätze ohne Strom, mit kalten Duschen und Spültoiletten, für 18 NZD pro Erwachsenem. Buchen kann man nicht, im Sommer gilt also: früh am Tag ankommen, nicht erst in der Dämmerung.",
             "Tapotupotu und Kapowairua (Spirits Bay) sind die beiden <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a> an der Spitze des Landes, jeder mit etwa 45 Stellplätzen ohne Strom für 18 NZD. Tapotupotu liegt an einer Lagune, in der du schwimmen kannst, 5 bis 10 Minuten Fahrt auf einer Schotterstraße von Cape Reinga/Te Rerenga Wairua entfernt. Kapowairua ist ein langer Strand mit Busch dahinter. DOC nimmt derzeit für keinen von beiden Buchungen an, komm im Sommer also früh. Beide eignen sich für Campervans und Autos und nicht für Wohnwagen."
           ],
           "tips": [
@@ -8724,7 +8724,7 @@
           ]
         },
         {
-          "heading": "Zentrale und untere Nordinsel",
+          "heading": "Zentrale und südliche Nordinsel",
           "body": [
             "Mangahuia ist ein ruhiger Campingplatz an einem Bach am Rand des Tongariro National Park für 18 NZD, mit etwa 21 Stellplätzen ohne Strom. Das Plateau liegt hoch und ist nachts auch im Sommer kalt, der Blick auf die Vulkane setzt also einen warmen Schlafsack voraus.",
             "Putangirua Pinnacles an der Küste im Süden des Wairarapa kostet 10 NZD, ist buchbar und blickt vom Putangirua Stream aus über die <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a>, mit dem Weg zu den Pinnacles ab dem Campingplatz und der Robbenkolonie nahe Cape Palliser eine kurze Fahrt entfernt. Er ist einer der wenigen Plätze hier, auf denen Hunde an der Leine erlaubt sind."
@@ -8786,8 +8786,8 @@
         {
           "heading": "Fiordland und Southland",
           "body": [
-            "Die Campingplätze an der Milford Road sind der Weg, im Fiordland National Park mit Auto oder Campervan zu übernachten. Cascade Creek (18 NZD) am unteren Ende des Lake Gunn hat etwa 120 Stellplätze ohne Strom und eignet sich für größere Fahrzeuge, Henry Creek (18 NZD) ist ein kleinerer Platz am Ufer des Lake Te Anau. DOC führt in seinem Distrikt Te Anau 24 aktuelle Hinweise, die Camping verbieten, auch entlang der Milford Road, plane also jede Nacht auf einem der Campingplätze.",
-            "Mavora Lakes (10 NZD) ist die günstige Alternative unter weitem Himmel: zwei Campingbereiche zwischen South und North Mavora Lake, erreichbar über eine lange <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">Schotterstraße</a>, mit Hunden an der Leine erlaubt. In Fiordland gilt auf den Campingplätzen „reintragen, rausnehmen“, es gibt keine Mülleimer."
+            "Wer im Fiordland National Park mit Auto oder Campervan übernachten will, nutzt die Campingplätze an der Milford Road. Cascade Creek (18 NZD) am unteren Ende des Lake Gunn hat etwa 120 Stellplätze ohne Strom und eignet sich für größere Fahrzeuge, Henry Creek (18 NZD) ist ein kleinerer Platz am Ufer des Lake Te Anau. DOC führt in seinem Distrikt Te Anau 24 aktuelle Hinweise, die Camping verbieten, auch entlang der Milford Road, plane also jede Nacht auf einem der Campingplätze.",
+            "Mavora Lakes (10 NZD) ist die günstige Alternative unter weitem Himmel: zwei Campingbereiche zwischen South und North Mavora Lake, erreichbar über eine lange <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">Schotterstraße</a>, Hunde an der Leine sind erlaubt. In Fiordland gilt auf den Campingplätzen „reintragen, rausnehmen“, es gibt keine Mülleimer."
           ],
           "tips": [
             "Nur auf den Campingplätzen an der Milford Road campen",
@@ -8861,7 +8861,7 @@
       "priceTable": null
     },
     "new-zealand-camping-packing-list": {
-      "title": "Packliste fürs Camping in Neuseeland: Was nach Region mit muss",
+      "title": "Packliste fürs Camping in Neuseeland: was je nach Region mitmuss",
       "description": "Eine Packliste fürs Camping in Neuseeland für Wind, Regen, Sandflies, kalte Nächte und abgelegene Straßen, dann angepasst für die West Coast, Otago, den Norden und Touren im Hochgebirge.",
       "region": "Neuseeland",
       "imageAlt": "Campingausrüstung gepackt neben einem Campervan in Neuseeland",
@@ -8903,15 +8903,15 @@
           "heading": "Küche und Wasser",
           "body": [
             "Hab einen standfesten Gaskocher für den Einsatz im Freien dabei, ein verlässliches Feuerzeug plus ein Ersatzfeuerzeug, einfaches ineinander passendes Kochgeschirr und genug Essen, um einen verspäteten Tag aufzufangen. Koch draußen oder in einem richtig belüfteten Raum, nie in einem geschlossenen Zelt oder Van.",
-            "Benutz getrennte, deutlich beschriftete Behälter für Trinkwasser und Abwasser und hab einen Vorrat Trinkwasser, den du im normalen Campbetrieb nicht anrührst. Das Wasser auf DOC-Plätzen ist häufig unbehandelt, bring also einen Filter oder die Möglichkeit zum Abkochen mit und geh nicht davon aus, dass ein Hahn Trinkwasser liefert, nur weil es ihn gibt."
+            "Benutz getrennte, deutlich beschriftete Behälter für Trinkwasser und Abwasser und hab einen Vorrat Trinkwasser, den du im normalen Campbetrieb nicht anrührst. Das Wasser auf DOC-Plätzen ist häufig nicht aufbereitet, bring also einen Filter oder die Möglichkeit zum Abkochen mit und geh nicht davon aus, dass ein Hahn Trinkwasser liefert, nur weil es ihn gibt."
           ],
           "tips": []
         },
         {
           "heading": "Fahrzeug und Notfallausrüstung",
           "body": [
-            "Wisse, wo die Wagenheberpunkte an deinem Fahrzeug sind, und bestätige, dass Reserverad, Wagenheber und Radschlüssel tatsächlich da sind, bevor du die Station verlässt. Das ist eine häufige Lücke bei Mietfahrzeugen. Hab eine Taschenlampe oder Stirnlampe, eine Powerbank, ein einfaches Erste-Hilfe-Set und eine Papierkarte dabei und speichere die Route und den Campingplatz jedes Tages, bevor du den Empfang verlierst.",
-            "Auf Bergrouten können im Winter Schneeketten vorgeschrieben sein, und manche Mietverträge verlangen, sie unabhängig von den Bedingungen mitzuführen. Für abgelegene Wanderungen oder Straßen im Hinterland ist ein persönlicher Notfallsender (Personal Locator Beacon, PLB) günstig zu mieten und der eine Gegenstand, der den Ausgang wirklich verändert."
+            "Mach dich damit vertraut, wo die Wagenheberpunkte an deinem Fahrzeug sind, und bestätige, dass Reserverad, Wagenheber und Radschlüssel tatsächlich da sind, bevor du die Station verlässt. Das ist eine häufige Lücke bei Mietfahrzeugen. Hab eine Taschenlampe oder Stirnlampe, eine Powerbank, ein einfaches Erste-Hilfe-Set und eine Papierkarte dabei und speichere die Route und den Campingplatz jedes Tages, bevor du den Empfang verlierst.",
+            "Auf Bergrouten können im Winter Schneeketten vorgeschrieben sein, und manche Mietverträge verlangen, sie unabhängig von den Bedingungen mitzuführen. Für abgelegene Wanderungen oder Straßen im Hinterland ist ein persönlicher Notfallsender (Personal Locator Beacon, PLB) günstig zu mieten und das eine Ausrüstungsteil, das im Ernstfall wirklich etwas ändert."
           ],
           "tips": [
             "Reserverad und Wagenheber bei der Abholung prüfen",
@@ -8935,7 +8935,7 @@
           "heading": "Je nach Ziel anpassen",
           "body": [
             "Für die West Coast und Fiordland gewichte die Packliste in Richtung Regen, <a data-guide=\"sandflies-new-zealand-camping\">Sandflies</a> und Trocknen: mehr Mückenmittel, mehr wasserdichte Packsäcke, mehr Ersatzsocken. Für Central Otago und das Mackenzie gewichte sie in Richtung kalter Nächte und Sonne, mit einem wärmeren Schlafsack und besserem Augenschutz, als die Küste verlangt.",
-            "Für Northland und die obere Nordinsel verschiebt sich das Gleichgewicht zu Hitze, Feuchtigkeit und Schatten. Für alles im Hochgebirge oder für den Winter irgendwo im Süden kommen Schneeketten, zusätzliche Isolierung und ein deutlich kürzerer <a data-guide=\"new-zealand-driving-day-planner\">Fahrtag</a> dazu. Die Liste wird mit jeder Region nicht so sehr länger, als dass sie neu gewichtet wird."
+            "Für Northland und den Norden der Nordinsel verschiebt sich das Gleichgewicht zu Hitze, Feuchtigkeit und Schatten. Für alles im Hochgebirge oder für den Winter irgendwo im Süden kommen Schneeketten, zusätzliche Isolierung und ein deutlich kürzerer <a data-guide=\"new-zealand-driving-day-planner\">Fahrtag</a> dazu. Die Liste wird nicht mit jeder Region länger, sondern anders gewichtet."
           ],
           "tips": []
         }
@@ -8974,7 +8974,7 @@
       "intro": "Einen einzigen besten Monat für das ganze Land gibt es nicht, denn Neuseeland erstreckt sich weit von Nord nach Süd, und das meiste Wetter wird von der Höhe und der Küste bestimmt, an der du bist. Die Wahl der Reisezeit heißt vor allem, zu entscheiden, was du eintauschen willst: Wärme gegen Andrang, Ruhe gegen Tageslicht oder Landschaft gegen Verlässlichkeit.",
       "sections": [
         {
-          "heading": "Sommer: Tageslicht und alle anderen",
+          "heading": "Sommer: lange Tage, volle Plätze",
           "body": [
             "Dezember bis Februar bringt lange Abende, warmes Baden an der Küste und die größte Auswahl an geöffneten Campingplätzen und Versorgung. Es ist auch die Zeit, in der das Land selbst Urlaub macht. Zwischen Weihnachten und Ende Januar sind beliebte Plätze an der Küste schon am frühen Nachmittag voll, Fähren und Mietwagen ausverkauft, und die Preise steigen stark.",
             "Buch die Nächte, die sich wirklich schwer ersetzen lassen (die Fähre, Great Walks, <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> in Strandorten), und lass gewöhnliche Stopps flexibel. Beachte, dass Sommer nicht überall warm heißt: Nächte in den Bergen bleiben kalt, und Feuerverbote und Wasserknappheit sind genau in diesem Zeitraum am wahrscheinlichsten."
@@ -9016,7 +9016,7 @@
         {
           "heading": "Die Reisezeit nach Regionen im Überblick",
           "body": [
-            "Northland und die obere Nordinsel sind von Oktober bis April angenehm und im Hochsommer schwül. Das zentrale Plateau und Tongariro sind eine Sache für Sommer und Herbst, wenn du nicht für einen Winter im Hochgebirge ausgerüstet bist. Die East Coast ist im Sommer am trockensten und im Herbst verlässlich sonnig.",
+            "Northland und der Norden der Nordinsel sind von Oktober bis April angenehm und im Hochsommer schwül. Das zentrale Plateau und Tongariro sind eine Sache für Sommer und Herbst, wenn du nicht für einen Winter im Hochgebirge ausgerüstet bist. Die East Coast ist im Sommer am trockensten und im Herbst verlässlich sonnig.",
             "Die West Coast ist in jeder Jahreszeit nass, plane also mit Regen, statt zu hoffen, ihn zu vermeiden, und sie belohnt dafür mit fast leeren Plätzen. Das Mackenzie und Central Otago sind im Herbst hervorragend und im Winter kalt und klar. Fiordland ist das ganze Jahr nass und lässt sich am besten mit flexiblen Tagen und ohne feste Erwartung angehen, den Milford im Sonnenschein zu sehen."
           ],
           "tips": [
@@ -9063,7 +9063,7 @@
     "wellington-wairarapa-camping-loop": {
       "title": "Wellington und Wairarapa: Camping-Runde in 4 Tagen",
       "description": "Hügel am Hafen, Weinorte und eine ungeschützte Südküste auf einer kurzen Runde.",
-      "region": "Untere Nordinsel",
+      "region": "Süden der Nordinsel",
       "imageAlt": "Küste im Wairarapa und die Straße zum Leuchtturm",
       "intro": "Vier Tage reichen vom kompakten Zentrum Wellingtons bis in die Weinregion Wairarapa und zur wilden Küste am Cape Palliser. Die Entfernungen sind mäßig, aber Wind und die Remutaka-Straße entscheiden, wie entspannt sie sich anfühlen.",
       "sections": [
@@ -9087,7 +9087,7 @@
           "heading": "Zurück durch die Orte",
           "body": [
             "Nutze den letzten Morgen für die kleineren Orte im Wairarapa oder einen Spaziergang durch die Feuchtgebiete und überquere dann die Range, bevor sich <a data-guide=\"alcohol-fatigue-driving-new-zealand\">Müdigkeit</a> und Abendverkehr verbinden.",
-            "Ein <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> im Raum Wellington kann die klügste letzte Nacht vor einer Fähre sein. Er bietet Waschraum, Strom und eine planbare Abfahrt, ohne dass du ein Parkplatzproblem im Stadtzentrum bekommst."
+            "Ein <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> im Raum Wellington kann die klügste letzte Nacht vor einer Fähre sein. Er bietet Waschmaschinen, Strom und eine planbare Abfahrt, ohne dass du ein Parkplatzproblem im Stadtzentrum bekommst."
           ],
           "tips": []
         },
@@ -9104,7 +9104,7 @@
           ]
         },
         {
-          "heading": "Das Cape Palliser ist der beste Tag der Runde",
+          "heading": "Der Tag am Cape Palliser ist der schönste der Runde",
           "body": [
             "Die Fahrt hinaus an Ngawi vorbei zum Leuchtturm führt an einer ungeschützten Küste entlang, gesäumt von Bulldozern, mit denen Fischerboote zu Wasser gelassen werden, vorbei an der größten Seebärenkolonie der Nordinsel, bis zu 250 Stufen hinauf zum Leuchtturm. Es fühlt sich deutlich abgelegener an, als es der Entfernung von Wellington entspricht.",
             "Halte reichlich Abstand zu den Seebären, besonders zwischen Jungtieren und dem Wasser, und stell dich nie zwischen ein Tier und seinen Fluchtweg ins Meer. Sie sind schneller, als sie aussehen, und verteidigen ihren Raum."
@@ -9112,7 +9112,7 @@
           "tips": []
         },
         {
-          "heading": "Martinborough funktioniert mit dem Fahrrad",
+          "heading": "Martinborough erkundest du am besten mit dem Rad",
           "body": [
             "Die Weingüter liegen in einem kompakten Raster, in bequemer Fahrentfernung vom Dorfplatz, weshalb das Radfahren zwischen ihnen die übliche und vernünftige Art ist, einen Tag der Verkostungen zu machen. Fahrräder lassen sich im Dorf mieten, und die Frage nach dem Fahren unter Alkohol stellt sich gar nicht erst.",
             "Reservier an einem Wochenende vorab einen Tisch zum Mittagessen, denn das Dorf ist klein und füllt sich. Die meisten Weingüter berechnen eine Gebühr für die Verkostung, die auf einen Kauf angerechnet wird."
@@ -9144,7 +9144,7 @@
           "heading": "Zealandia und die Tiere der Stadt",
           "body": [
             "Zealandia ist ein eingezäuntes städtisches Schutzgebiet, in dem Kākā, Takahē, Tuatara und Tūī häufig und gut zu sehen sind, und die Nachttour bietet eine realistische Chance, in der Nähe des Stadtzentrums einen Kiwi zu sehen.",
-            "Es ist ausgebucht, besonders die Nachttour, und es ist ein viel besseres Erlebnis mit Wildtieren, als die meisten von etwas innerhalb einer Hauptstadt erwarten."
+            "Zealandia ist oft ausgebucht, besonders die Nachttour, und als Erlebnis mit Wildtieren viel besser, als die meisten es von etwas mitten in einer Hauptstadt erwarten."
           ],
           "tips": [
             "Die Nachttour bietet eine Chance auf einen Kiwi",
@@ -9161,7 +9161,7 @@
       "description": "Zwei Wochen ab Auckland durch Vulkanland, die Hauptstadt und die Westküste.",
       "region": "Nordinsel",
       "imageAlt": "Campervan-Route durch die zentrale Nordinsel",
-      "intro": "Zwei Wochen reichen nicht, um jede Ecke von Te Ika-a-Māui gut abzudecken. Diese Route wählt eine stimmige Runde, schützt zwei Nächte an den Orten, die sie brauchen, und lässt Northland oder die East Cape für eine andere Reise.",
+      "intro": "Zwei Wochen reichen nicht, um jede Ecke von Te Ika-a-Māui gut abzudecken. Diese Route wählt eine stimmige Runde, plant an den Orten, die es brauchen, fest zwei Nächte ein und lässt Northland oder das East Cape für eine andere Reise.",
       "sections": [
         {
           "heading": "Von Auckland ins Vulkanland",
@@ -9190,7 +9190,7 @@
         {
           "heading": "Vierzehn Tage heißt, sich für eine Seite zu entscheiden",
           "body": [
-            "Der übliche Fehler ist, Northland, die Coromandel, das zentrale Plateau, die East Cape und Taranaki in zwei Wochen zu pressen. Das ergibt einen Fahrurlaub ohne Zeit für irgendetwas davon. Such dir entweder die nördliche Runde oder die Route durch Osten und Mitte aus und mach sie richtig.",
+            "Der übliche Fehler ist, Northland, die Coromandel, das zentrale Plateau, das East Cape und Taranaki in zwei Wochen zu pressen. Das ergibt einen Fahrurlaub ohne Zeit für irgendetwas davon. Such dir entweder die nördliche Runde oder die Route durch Osten und Mitte aus und mach sie richtig.",
             "Eine machbare Form ist Auckland, Coromandel, Rotorua, Taupō, Tongariro, Napier, Wellington, mit zwei Nächten in mindestens zwei davon. Northland wird dann zu einer eigenen Reise und kein gehetzter Anhang."
           ],
           "tips": [
@@ -9222,7 +9222,7 @@
         {
           "heading": "Den letzten Tag locker lassen",
           "body": [
-            "Fliegst du ab Auckland oder nimmst eine Fähre ab Wellington, plane nicht, am Morgen der Abreise anzukommen. Straßenarbeiten, Wetter und ein langsamer letzter Tag sind normal, und die Hauptrouten der Nordinsel tragen rund um Feiertage starken Verkehr.",
+            "Fliegst du ab Auckland oder nimmst eine Fähre ab Wellington, plane nicht, am Morgen der Abreise anzukommen. Straßenarbeiten, Wetter und ein langsamer letzter Tag sind normal, und auf den Hauptrouten der Nordinsel herrscht rund um Feiertage starker Verkehr.",
             "Verbring die letzte Nacht innerhalb einer Stunde vom Terminal oder Flughafen. Das macht aus einem stressigen Morgen einen gewöhnlichen und kostet nicht mehr als einen etwas langweiligeren letzten Campingplatz."
           ],
           "tips": []
@@ -9294,19 +9294,19 @@
           "heading": "Regen ist der Normalzustand, nicht die Ausnahme",
           "body": [
             "Teile der West Coast bekommen über fünf Meter Regen im Jahr, und Fox und Franz Josef liegen in einer der nassesten bewohnten Gegenden überhaupt. Eine Reise, die darauf angelegt ist, Regen zu vermeiden, scheitert hier, eine, die darauf angelegt ist, im Regen zu reisen, funktioniert gut.",
-            "Pack richtig dafür: eine wirklich wasserdichte Jacke, wasserdichte Packsäcke für alles, was zählt, Ersatzsocken und im Fahrzeug einen Platz, an dem sich Dinge trocknen lassen. Der Lohn sind fast leere Campingplätze und Regenwald, der so aussieht, wie er aussieht, wegen des Wetters."
+            "Pack richtig dafür: eine wirklich wasserdichte Jacke, wasserdichte Packsäcke für alles, was zählt, Ersatzsocken und im Fahrzeug einen Platz, an dem sich Dinge trocknen lassen. Der Lohn sind fast leere Campingplätze und ein Regenwald, der gerade wegen des Wetters so aussieht, wie er aussieht."
           ],
           "tips": [
-            "Darauf planen, im Regen zu reisen, nicht ihn zu vermeiden",
+            "Mit Regen planen, statt ihn vermeiden zu wollen",
             "Wasserdichte Packsäcke für alles, was zählt",
             "Leere Campingplätze sind der Lohn"
           ]
         },
         {
-          "heading": "Die Sandflies sind nicht übertrieben",
+          "heading": "Die Warnungen vor Sandflies sind nicht übertrieben",
           "body": [
             "Die <a data-guide=\"sandflies-new-zealand-camping\">Sandflies</a> der West Coast sind unerbittlich im Morgengrauen und in der Dämmerung, in Wassernähe und bei Windstille. Sie finden jede Lücke im Zeltnetz, und die Stiche jucken tagelang. Dieser eine Faktor ruiniert mehr Reisen an die West Coast als der Regen.",
-            "Hab starkes Mückenmittel dabei und trag es auf, bevor du aus dem Fahrzeug steigst, nicht danach. Bedecke abends Knöchel und Handgelenke, prüf das Zeltnetz, bevor du von zu Hause losfährst, und pack eine Creme mit Antihistaminikum ein, denn du wirst sie wollen."
+            "Hab starkes Mückenmittel dabei und trag es auf, bevor du aus dem Fahrzeug steigst, nicht erst danach. Bedecke abends Knöchel und Handgelenke, prüf das Zeltnetz, bevor du von zu Hause losfährst, und pack eine Creme mit Antihistaminikum ein, denn du wirst sie brauchen."
           ],
           "tips": []
         },
@@ -9381,7 +9381,7 @@
         {
           "heading": "Paradise oder eine langsame Rückfahrt",
           "body": [
-            "Straßen hinter Glenorchy können unbefestigt und schmal sein und von Furten oder Auswaschungen betroffen. Mietbedingungen können die Strecke verbieten, halte also dort an, wo Mietvertrag und aktuelle Bedingungen enden.",
+            "Straßen hinter Glenorchy können unbefestigt und schmal sein und von Furten oder Auswaschungen betroffen. Mietbedingungen können die Strecke verbieten, kehr also dort um, wo Mietvertrag oder aktuelle Bedingungen es verlangen.",
             "Fahr bei Tageslicht zurück und nutz Bob's Cove oder einen anderen angelegten Halt für die letzte Wanderung. Lass die Straße am See das Erlebnis bleiben, statt sie zwischen Buchungen in Queenstown zu quetschen."
           ],
           "tips": []
@@ -9389,7 +9389,7 @@
         {
           "heading": "Die Straße nach Glenorchy ist die Attraktion",
           "body": [
-            "Die 45 Kilometer von Queenstown am See entlang gehören zu den großartigen Fahrten des Landes, mit einer Reihe ausgeschilderter Aussichtspunkte, bei denen es sich alle lohnt zu halten. Besonders Bennett's Bluff verdient mehr als eine langsame Fahrt daran vorbei.",
+            "Die 45 Kilometer von Queenstown am See entlang gehören zu den großartigen Fahrten des Landes, mit einer Reihe ausgeschilderter Aussichtspunkte, an denen sich jeder Halt lohnt. Besonders Bennett's Bluff verdient mehr, als langsam daran vorbeizufahren.",
             "Sie ist außerdem schmal mit engen Kurven und hat viel Verkehr von Radfahrern und Touristen. Rechne mit gut über einer Stunde pro Richtung mit Stopps und fahr in einem großen Fahrzeug besonders vorsichtig an den Haltebuchten, die klein sind."
           ],
           "tips": [
@@ -9462,14 +9462,14 @@
           "heading": "Von Dunedin durch die Catlins",
           "body": [
             "Deck dich in Dunedin ein und nutz dann Balclutha oder Owaka als praktischen Einstieg in die Catlins. Wasserfälle und Strände liegen an Nebenstraßen, die aus einer kurzen Entfernung auf der Karte einen ganzen Nachmittag machen.",
-            "Folge am Nugget Point, an der Curio Bay und an den Stränden mit Wildtieren dem saisonalen Zugang und halte reichlich Abstand zu Seelöwen, Pinguinen und brütenden Vögeln. Dunkelheit und Wildtiere machen späte Fahrten an der Küste zu einem schlechten Tausch."
+            "Folge am Nugget Point, an der Curio Bay und an den Stränden mit Wildtieren dem saisonalen Zugang und halte reichlich Abstand zu Seelöwen, Pinguinen und brütenden Vögeln. Dunkelheit und Wildtiere sprechen gegen späte Fahrten an der Küste."
           ],
           "tips": []
         },
         {
           "heading": "Invercargill und der Süden",
           "body": [
-            "Invercargill bietet Reparaturen, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">Lebensmittel</a> und Möglichkeiten drinnen nach nassen Tagen. Bluff ist eine befriedigende geografische Markierung, sollte aber nicht die Zeit für örtliche Museen, Essen oder ein Zurücksetzen des Fahrzeugs ersetzen.",
+            "Invercargill bietet Werkstätten, <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">Lebensmittel</a> und Möglichkeiten für drinnen nach nassen Tagen. Bluff ist als geografischer Endpunkt ein schöner Abschluss, sollte aber nicht die Zeit für örtliche Museen, gutes Essen oder einen Tag zum Aufräumen des Fahrzeugs verdrängen.",
             "Fährst du nach <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>, park oder buch das Fahrzeug nach den Fährplänen und rechne damit, dass das Wetter in der Foveaux Strait Fahrpläne verändert. Halte eine flexible Nacht auf dem Festland frei."
           ],
           "tips": []
@@ -9497,7 +9497,7 @@
         {
           "heading": "Cathedral Caves und Curio Bay richten sich nach den Gezeiten",
           "body": [
-            "Die Cathedral Caves sind nur etwa zwei Stunden vor und nach Niedrigwasser zugänglich, die Zufahrt wird privat verwaltet, mit Eintritt und saisonaler Öffnung, und sie ist außerhalb der Saison ganz gesperrt. Ohne Prüfung aufzutauchen ist hier die übliche Enttäuschung.",
+            "Die Cathedral Caves sind nur etwa zwei Stunden vor und nach Niedrigwasser zugänglich, die Zufahrt wird privat verwaltet, mit Eintritt und saisonaler Öffnung, und sie ist außerhalb der Saison ganz gesperrt. Wer ohne vorherige Prüfung auftaucht, wird hier meistens enttäuscht.",
             "Auch der versteinerte Wald der Curio Bay hängt von den Gezeiten ab, und die Gelbaugenpinguine (Hoiho) kommen abends an Land. Halte reichlich Abstand und bleib hinter den abgesperrten Bereichen, denn Störung hält sie auf dem Meer und weg von ihren Küken."
           ],
           "tips": []
@@ -9525,7 +9525,7 @@
         {
           "heading": "Die Otago Peninsula und Dunedin",
           "body": [
-            "Auf der Halbinsel östlich von Dunedin liegt am Taiaroa Head die einzige Königsalbatros-Kolonie auf dem Festland der Welt, dazu Seelöwen, Seebären und Gelbaugenpinguine. Das Albatross Centre ist eine kostenpflichtige Tour, und die Vögel sind das ganze Jahr zu sehen, mit dem besten Flug bei windigen Bedingungen.",
+            "Auf der Halbinsel östlich von Dunedin liegt am Taiaroa Head die einzige Königsalbatros-Kolonie auf dem Festland der Welt, dazu Seelöwen, Seebären und Gelbaugenpinguine. Das Albatross Centre ist eine kostenpflichtige Tour. Die Vögel sind das ganze Jahr zu sehen, am eindrucksvollsten fliegen sie bei Wind.",
             "Die Straße auf der Halbinsel ist schmal, kurvig und langsam, folgt dem Rand des Hafens und hat fast keinen Seitenstreifen. Mit einem großen Campervan ist sie keine bequeme Fahrt, und die Höhenstraße über den Kamm ist in beiden Richtungen die leichtere Alternative.",
             "Dunedin selbst hat das Otago Museum, die Speight's-Brauerei und die Baldwin Street und ist die letzte Stadt mit voller Versorgung vor Invercargill. Deck dich hier richtig ein, denn die Catlins haben nur sehr wenige Läden."
           ],
@@ -9573,13 +9573,13 @@
         {
           "heading": "Wandern und Erholung",
           "body": [
-            "Nutz die Ränder des Kepler Track, das Seeufer und kürzere DOC-Wanderungen für flexible Tage. Längere Tramps verlangen Hüttenbuchungen, Ausrüstung für das Hinterland und eine Vorhersage, die zur ganzen Route passt.",
+            "Nutz die ersten Abschnitte des Kepler Track, das Seeufer und kürzere DOC-Wanderungen für flexible Tage. Längere Tramps verlangen Hüttenbuchungen, Ausrüstung für das Hinterland und eine Vorhersage, die zur ganzen Route passt.",
             "Trockne die Stiefel, füll Wasser auf und ruh dich zwischen den großen Ausflügen aus. Fiordlands Größe nimmt man am besten mit Zeit auf und nicht aus einem Fahrzeug, das jeden Abend erschöpft nach Te Anau zurückkehrt."
           ],
           "tips": []
         },
         {
-          "heading": "Die Milford Road ist eine ernste Fahrt",
+          "heading": "Die Milford Road ist eine anspruchsvolle Fahrt",
           "body": [
             "Der State Highway 94 von Te Anau nach Milford ist 119 Kilometer lang, braucht ohne Stopps pro Richtung mindestens zwei Stunden, hat keinen Sprit, auf den meisten Abschnitten <a data-guide=\"kiwicamping-offline-data-guide\">keinen Empfang</a> und kann im Winter und Frühling wegen Lawinen gesperrt sein. Er ist auch eine der besten Fahrten überhaupt.",
             "Fahr früh los, tank in Te Anau voll und plane für die Hin- und Rückfahrt einen ganzen Tag ein, mit Stopps an den Mirror Lakes, am Chasm und im Eglinton Valley. Fahr sie nicht als Nachmittagszusatz zu einem anderen Tag."
@@ -9593,8 +9593,8 @@
         {
           "heading": "Lawinensprengungen im Winter sperren die Straße",
           "body": [
-            "Etwa zwischen Mai und November läuft die Milford Road unter einem Programm für Lawinengefahr, mit planmäßigen Sperrungen und zeitweise vorgeschriebenen Schneeketten. Sperrungen können kurzfristig angekündigt werden, und die Straße kann mit Fahrzeugen in Milford schließen, was eine Übernachtung dort erzwingt.",
-            "Prüf den Status am Morgen der Fahrt, hab Schneeketten dabei, wenn sie verlangt werden, und fahr nie an einer Absperrung vorbei. Die Lawinenzüge über dieser Straße sind groß, und das Programm gibt es wegen einer echten Geschichte von Lawinen."
+            "Etwa zwischen Mai und November läuft die Milford Road unter einem Programm für Lawinengefahr, mit planmäßigen Sperrungen und zeitweise vorgeschriebenen Schneeketten. Sperrungen können kurzfristig angekündigt werden, und die Straße kann gesperrt werden, während noch Fahrzeuge in Milford sind, was eine Übernachtung dort erzwingt.",
+            "Prüf den Status am Morgen der Fahrt, hab Schneeketten dabei, wenn sie verlangt werden, und fahr nie an einer Absperrung vorbei. Die Lawinenzüge über dieser Straße sind groß, und das Programm gibt es, weil dort tatsächlich immer wieder Lawinen abgegangen sind."
           ],
           "tips": []
         },
@@ -9614,7 +9614,7 @@
           "heading": "Camping und die Sandflies",
           "body": [
             "Entlang der Straße gibt es im Eglinton Valley DOC-Campingplätze, die die praktische Option sind, denn Unterkünfte in Milford selbst sind sehr begrenzt. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in der Nähe der Fjorde ist nicht erlaubt, und die Einschränkung wird durchgesetzt.",
-            "Die <a data-guide=\"sandflies-new-zealand-camping\">Sandflies</a> in Fiordland sind die schlimmsten im Land, und die von Milford sind legendär. Mückenmittel ist hier keine Option, und im Eglinton in der Dämmerung ohne es das Lager aufzuschlagen ist wirklich unangenehm."
+            "Die <a data-guide=\"sandflies-new-zealand-camping\">Sandflies</a> in Fiordland sind die schlimmsten im Land, und die von Milford sind legendär. Ohne Mückenmittel geht es hier nicht, und im Eglinton in der Dämmerung ohne Mückenschutz das Lager aufzuschlagen ist wirklich unangenehm."
           ],
           "tips": []
         },
@@ -9675,7 +9675,7 @@
           "tips": []
         },
         {
-          "heading": "Der Abel Tasman ist eine Buchungsaufgabe",
+          "heading": "Am Abel Tasman ist alles eine Frage der Buchung",
           "body": [
             "Die 4 Hütten und 18 Campingplätze des Küstentracks müssen das ganze Jahr im Voraus gebucht werden, und sie sind für die Sommersaison lange vorher ausverkauft. Campingplätze an den Great Walks kosten 21 NZD pro Erwachsenem und Nacht für Neuseeländer und 21 bis 31 NZD für internationale Gäste, je nach Saison. Wassertaxis fahren ab Marahau und Kaiteriteri und sind die übliche Art, eine Wanderung mit einer Rückfahrt zu verbinden, die ebenfalls gebucht werden muss.",
             "Entscheide, wie deine Wanderung aussehen soll, bevor du etwas buchst: einfache Strecke mit Abholung per Taxi, eine Tageswanderung ab Marahau oder mehrere Tage mit Nächten in Hütten oder auf Campingplätzen. Jede hat andere Anforderungen an die Buchung, und sie greifen ineinander."
@@ -9687,7 +9687,7 @@
           ]
         },
         {
-          "heading": "Die Zeit der Gezeiten ist nicht verhandelbar",
+          "heading": "Bei den Gezeitenquerungen gibt die Tide den Zeitplan vor",
           "body": [
             "Der Track quert Flussmündungen mit Gezeiten bei Torrent Bay, Bark Bay und Awaroa. DOC gibt für Torrent Bay und Bark Bay ein Zeitfenster von 2 Stunden vor und nach Niedrigwasser an, mit Wegen um beide herum, die bei jeder Tide gehen, aber am Awaroa Inlet gibt es keinen Weg drumherum: Quere ihn bei Tageslicht, von 1 Stunde 30 Minuten vor bis 2 Stunden nach Niedrigwasser. Verpasst du das Fenster, heißt das langes Warten oder einen Track für Hochwasser, und Leute werden hier regelmäßig erwischt.",
             "Besorg dir die Gezeitentabelle bei der Buchung und plane den Tag danach und nicht nach der Entfernung. Die Querungen der Flussmündungen bestimmen deine Startzeit, nicht deine Vorliebe."
@@ -9768,7 +9768,7 @@
           "heading": "Die West Coast nach Norden",
           "body": [
             "Fahr erst über den Haast Pass, wenn du Straße und Vorhersage geprüft hast. Das Gletscherland braucht mindestens zwei Nächte, wenn ein Flug oder eine größere Wanderung wichtig ist, denn Wolken und Regen ändern den Plan häufig.",
-            "Hokitika oder Greymouth bieten das Zurücksetzen vor Punakaiki und der Rückfahrt über die Berge. Nutze Waschraum, Sprit und <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">Lebensmittel</a> gezielt, statt jeden Tag Zeit mit kleinen Besorgungen zu verlieren."
+            "Hokitika oder Greymouth sind der Ort, um vor Punakaiki und der Rückfahrt über die Berge wieder Ordnung zu schaffen. Erledige Wäsche, Tanken und den Einkauf von <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">Lebensmitteln</a> gezielt auf einmal, statt jeden Tag Zeit mit kleinen Besorgungen zu verlieren."
           ],
           "tips": []
         },
@@ -9781,7 +9781,7 @@
           "tips": []
         },
         {
-          "heading": "Eine Runde schlägt eine Linie",
+          "heading": "Rundtour statt Einbahnstrecke",
           "body": [
             "Vierzehn Tage reichen für eine echte Runde durch die Südinsel, wenn du widerstehst, noch <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a>, die Catlins und Marlborough draufzusetzen. Ein machbarer Kreis ist Christchurch, Tekapo, Aoraki, Wānaka, Queenstown, Te Anau, zurück die West Coast hinauf und über den Arthur's Pass.",
             "Diese Form vermeidet Rückwege, quert die Alpen zweimal über verschiedene Pässe und lässt dich ungefähr dort enden, wo du angefangen hast. Eine zweite Region dazuzunehmen heißt meist, zwei Nächte an Orten zu streichen, derentwegen du gekommen bist."
@@ -9793,7 +9793,7 @@
           ]
         },
         {
-          "heading": "Die drei Dinge buchen, die ausverkauft sind",
+          "heading": "Die drei Dinge zuerst buchen, die schnell ausgebucht sind",
           "body": [
             "Milford-Cruises, Unterkünfte am Aoraki und jeder Great Walk sind die Teile, die spät nicht mehr zu haben sind. Alles andere auf dieser Runde lässt sich den größten Teil des Jahres ein paar Tage vorher regeln.",
             "Buch diese drei zuerst und bau die Fahrten darum herum. Versuchst du, eine Milford-Cruise in eine Route zu zwängen, die ohne sie geplant wurde, bedeutet das meist einen unangenehmen Fahrtag an einem Ende."
@@ -9823,8 +9823,8 @@
         {
           "heading": "Was du weglassen solltest",
           "body": [
-            "Zwei Wochen bieten nicht bequem Platz für <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a>, die Catlins, Marlborough und Nelson zusätzlich zur Hauptrunde. Jedes davon braucht richtig gemacht zwei bis drei Tage, und eines dazuzunehmen heißt meist, eine Nacht am Aoraki oder in Fiordland zu streichen, ein schlechter Tausch.",
-            "Das häufigste Bedauern ist, die West Coast zu verdichten. Sie ist der Abschnitt mit den längsten Strecken zwischen Versorgungspunkten, den meisten Wetterstörungen und der Landschaft, an die man sich erinnert, und sie belohnt es nicht, in anderthalb Tagen durchgejagt zu werden.",
+            "Zwei Wochen bieten nicht bequem Platz für <a data-guide=\"rakiura-stewart-island-camping-guide\">Stewart Island</a>, die Catlins, Marlborough und Nelson zusätzlich zur Hauptrunde. Jedes davon braucht richtig gemacht zwei bis drei Tage, und eines dazuzunehmen heißt meist, eine Nacht am Aoraki oder in Fiordland zu streichen, und das lohnt sich nicht.",
+            "Am häufigsten bereuen Reisende, die West Coast zu sehr gekürzt zu haben. Sie ist der Abschnitt mit den längsten Strecken zwischen Versorgungspunkten, den meisten Wetterstörungen und der Landschaft, an die man sich erinnert, und sie belohnt es nicht, in anderthalb Tagen durchgejagt zu werden.",
             "Musst du etwas aus der Standardrunde streichen, lässt sich Queenstown am leichtesten kürzen. Es hat die teuersten Unterkünfte, das meiste Gedränge und im Vergleich zu Wānaka und Te Anau in der Nähe am wenigsten, was nur dort zu finden ist."
           ],
           "tips": []
@@ -9856,7 +9856,7 @@
           "heading": "Neun Tage im Norden",
           "body": [
             "Fahr von Auckland zur Coromandel oder in die Bay of Plenty und verbring dann zwei Nächte rund um Rotorua. Weiter geht es über Taupō und Tongariro, mit einer Wetteralternative, bevor du Wellington erreichst.",
-            "Nutz Holiday Parks für gelegentlich Waschraum, Strom und lange Duschen und mische passende DOC- oder Gemeindeplätze dazu. Die <a data-guide=\"freedom-camping-rules-new-zealand\">Regeln für Freedom Camping</a> sind örtlich und fahrzeugabhängig und keine allgemeine Erlaubnis, überall zu halten."
+            "Nutz Holiday Parks ab und zu zum Wäschewaschen, für Strom und lange Duschen und misch passende DOC- oder Gemeindeplätze dazu. Die <a data-guide=\"freedom-camping-rules-new-zealand\">Regeln für Freedom Camping</a> sind örtlich und fahrzeugabhängig und keine allgemeine Erlaubnis, überall zu halten."
           ],
           "tips": []
         },
@@ -9892,7 +9892,7 @@
           "heading": "Eine Fährüberfahrt, zuerst gebucht",
           "body": [
             "Quere die <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> einmal, in Richtung Süden, und buch sie vor allem anderen. Ein Campervan wird nach Länge berechnet, Überfahrten im Sommer sind voll, und die Überfahrt kostet den größten Teil eines Tages, wenn man Check-in und die Fahrten an beiden Enden mitzählt.",
-            "Leg die Nacht davor in die Nähe des Terminals und halte den Tag danach locker. Eine Ankunft am Abend in Picton, gefolgt von einer langen Fahrt, ist die Art, wie Leute müde in ihre Etappe auf der Südinsel starten."
+            "Leg die Nacht davor in die Nähe des Terminals und halte den Tag danach locker. Wer abends in Picton ankommt und dann noch lange fährt, startet müde in die Etappe auf der Südinsel."
           ],
           "tips": []
         },
@@ -9959,7 +9959,7 @@
       "intro": "Vierzehn Tage reichen nur dann, um beide Inseln richtig zu sehen, wenn du akzeptierst, dass es eine Route und keine Bestandsaufnahme ist. Diese Reiseroute quert die Cook Strait einmal, hält die meisten Fahretappen bei drei oder vier Stunden und lässt den letzten Tag locker, damit eine verspätete Fähre oder ein gesperrter Pass deinen Flug nicht gefährdet.",
       "sections": [
         {
-          "heading": "Logistik vor den Tagen",
+          "heading": "Erst die Logistik, dann die Tage",
           "body": [
             "Buch zuerst die Fähre und bau den Rest darum herum. Interislander und Bluebridge queren beide die <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a>, Überfahrten sind im Sommer voll, und eine Überfahrt kostet den größten Teil eines Tages, wenn man Check-in und die Fahrt an beiden Enden mitrechnet. Alles andere auf dieser Route lässt sich leichter verschieben als die Fähre.",
             "Hol das Fahrzeug in Auckland ab und gib es in Queenstown zurück, wenn die Gebühr für die Einwegmiete vertretbar ist. Die Alternative ist eine lange Rückfahrt, die nichts bringt. Plane im Winter Zeit für die Pässe in den Bergen ein, hab Schneeketten dabei, wo sie verlangt werden, und prüf die Straßenbedingungen jeden Morgen und nicht am Abend vorher."
@@ -10001,8 +10001,8 @@
         {
           "heading": "Wo du einen Tag einsparen kannst, wenn es nötig ist",
           "body": [
-            "Diese Route hat drei natürliche Punkte zum Verdichten. Die Etappe nach Napier lässt sich streichen, indem du direkt von Taupō nach Wellington fährst, die Catlins können ganz entfallen, und Milford kann ein Panoramaflug oder ein kürzerer Tag ab Te Anau werden, wenn das Wetter zumacht.",
-            "Nicht verdichten solltest du den Fährtag und die West Coast. Beide bestrafen einen engen Plan, der eine mit Umbuchungsgebühren, die andere mit langen Strecken zwischen Sprit, Essen und Empfang."
+            "Diese Route hat drei Stellen, an denen sie sich gut kürzen lässt. Die Etappe nach Napier lässt sich streichen, indem du direkt von Taupō nach Wellington fährst, die Catlins können ganz entfallen, und Milford kann ein Panoramaflug oder ein kürzerer Tag ab Te Anau werden, wenn das Wetter umschlägt.",
+            "Nicht kürzen solltest du den Fährtag und die West Coast. Beide bestrafen einen engen Plan, der eine mit Umbuchungsgebühren, die andere mit langen Strecken zwischen Sprit, Essen und Empfang."
           ],
           "tips": []
         },
