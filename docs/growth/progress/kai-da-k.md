@@ -14,9 +14,12 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 
 - Batch 2 (fdd1023): where-to-camp-in-new-zealand, self-contained-campervan-green-warrant, freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide. da 32/85 guides. `npm run check` passed after batch 2 (handoff 1).
 
+- Batches 3-5 (ce56bac, ed42471, 7fb5092; b4 commit is ed42471): b3 holiday-parks, scenic-campsites, sandflies, volcanic-safety, coromandel-rotorua; b4 dogs, domestic-flights, northland-cape-reinga, packing-list, responsible-camping; b5 arthurs-pass, cook-strait-ferry, kauri-dieback, taranaki-forgotten-world, bus-ferry-train-costs. da 47/85 guides.
+- Overnight rule (to 09:00): no subagents; drafted b6+ myself (see Working notes).
+
 ## Next
-- Batches 3, 4, 5 drafted/in flight (see /tmp/da-k2/out).
-- Queue for later batches: /tmp/da-k2/queue.json (b3 holiday-parks, scenic-campsites, sandflies, volcanic-safety, coromandel-rotorua; b4 dogs, domestic-flights, northland, packing-list, responsible-camping; then b5..b13).
+- b6: picton-kaikoura-christchurch-route wanaka-haast-pass-route alcohol-fatigue-driving-new-zealand doc-hut-rules-etiquette river-crossing-safety-new-zealand; then b7..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
+- Working method without helpers: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
 
 ## Blockers / questions
 (none)
