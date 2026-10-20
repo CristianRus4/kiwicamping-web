@@ -111,6 +111,20 @@
       }
     ]
   },
+  "/images/articles/best-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/best-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/best-travel-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/bus-ferry-train-costs-new-zealand.webp": {
     "width": 1600,
     "height": 900,

@@ -86,3 +86,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `campermate-alternatives` | Waiohine Gorge campsite entrance.jpg | TimClicks | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Waiohine_Gorge_campsite_entrance.jpg) |
 | `road-trip-planner-apps-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |
 | `free-camping-apps-new-zealand` | Camp Sign - Lake Tutira campsite.jpg | studio tdes | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Camp_Sign_-_Lake_Tutira_campsite.jpg) |
+| `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |

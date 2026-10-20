@@ -301,4 +301,96 @@ export const listicleArticles: Article[] = [
       { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
     ],
   }),
+
+  a({
+    slug: "best-travel-apps-new-zealand",
+    listicle: true,
+    title: "Best Apps for Travelling New Zealand in 2026: 10 to Install",
+    description: "The apps worth installing for a New Zealand road trip in 2026: entry, navigation, weather, walking safety, fuel, city transport and where to stay, with prices and ratings checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Border entry", "State highways", "Auckland", "Tramping tracks", "DOC campsites"],
+    imageAlt: "A motorhome on the Desert Road, State Highway 1, heading towards Mount Ruapehu",
+    related: ["best-nz-camping-apps", "road-trip-planner-apps-new-zealand", "overseas-driver-licence-new-zealand"],
+    intro:
+      "A New Zealand trip needs fewer apps than you might think, but the right ones save real money and trouble: the official NZeTA app costs less than the website, a fuel app pays for itself on a long drive, and a walking app can send your trip plan to someone who will raise the alarm if a tramp goes wrong. These are the ten we would install for a road trip in 2026, grouped by the job they do, with ratings and prices from the New Zealand App Store checked on 20 October 2026. We make KiwiCamping, so we have put it first. Here is why, and when another app suits you better.",
+    sections: [
+      s("The ten apps at a glance", [
+        "Before you fly, the official NZeTA and New Zealand Traveller Declaration apps handle entry. On the road, KiwiCamping plans where you sleep, Google Maps drives you there, MetService warns you about the weather and Plan My Walk covers the tramping days. Gaspy and a fuel company app keep fuel costs down, AT Mobile gets you around Auckland, and Rankers adds traveller reviews of campsites.",
+        "You do not need all ten. A visitor hiring a car for a week of hotels can skip the camping apps; a campervan traveller on a month-long trip will use most of them.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and official sites. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Job", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "Where to stay and the route plan", "Free; Pass NZ$3.99 to NZ$12.99", "3.8 (4)"],
+          ["NZeTA (Immigration NZ)", "Electronic travel authority", "NZ$17 in the app plus the NZ$100 visitor levy", "4.5 (46)"],
+          ["NZ Traveller Declaration", "Arrival declaration", "Free", "4.7 (3,190)"],
+          ["Google Maps", "Turn-by-turn navigation", "Free", "4.7 (73,470)"],
+          ["MetService", "Official forecasts and warnings", "Free with ads; ad-free NZ$1.99 a month", "2.4 (1,126)"],
+          ["Plan My Walk", "Track alerts and trip plans for walks", "Free", "4.6 (612)"],
+          ["Gaspy", "Crowd-sourced fuel prices", "Free; Gold NZ$1.69 a month", "4.0 (773)"],
+          ["A fuel company app", "Rewards and paying at the pump", "Free", "4.7 to 4.9"],
+          ["AT Mobile", "Auckland public transport", "Free", "4.5 (32,728)"],
+          ["Rankers Camping NZ", "Traveller reviews of campsites", "Free", "4.7 (3,322)"],
+        ],
+      }),
+      s("1. KiwiCamping: where to stay and how to string the trip together", [
+        "KiwiCamping is a New Zealand camping map and trip planner built on DOC's own data: 287 DOC campsites, 927 DOC huts and 1,453 DOC tracks in its August 2026 data, with the fees, dog rules and booking requirements DOC publishes. Places can be saved to collections or added to a trip with ordered stops, dates, notes, to-dos and the route distance, and place details stay readable on the phone when signal drops. Map tiles, routing, weather and photos need a connection.",
+        "It is free to download, but only BookIt stays and tours are open without paying; DOC places, collections, trips and the guides need the KiwiCamping Pass, listed from NZ$3.99 to NZ$12.99. It is iPhone only, needs iOS 26 or later, and had 4 New Zealand ratings (3.8). If you are not camping, you will not need it.",
+      ], ["For: campervan and camping trips", "Pass needed for DOC places and trips", "iPhone only"], undefined, true),
+      s("2. NZeTA: the cheaper way to get your travel authority", [
+        "Most visitors from visa-waiver countries need a New Zealand Electronic Travel Authority before they travel. Immigration New Zealand charges NZ$17 when you request it in the official NZeTA app and NZ$23 on its website, and most visitors also pay the NZ$100 International Visitor Conservation and Tourism Levy with it.",
+        "The app scans your passport and takes the payment. Request it well before you fly, and use only the official app or immigration.govt.nz, because look-alike sites charge extra for the same thing.",
+      ], ["App fee NZ$17, website NZ$23", "Plus the NZ$100 levy for most visitors", "Use only the official app or site"]),
+      s("3. New Zealand Traveller Declaration: your arrival form", [
+        "The New Zealand Traveller Declaration is the free digital arrival declaration everyone entering New Zealand completes; doing it before you fly saves filling in a paper one on board. The official app, from the Ministry of Business, Innovation and Employment, lets you complete it up to 24 hours before you travel, scans your passport, and has nothing to print because the declaration is linked to your passport at the border. It rated 4.7 from 3,190 New Zealand ratings.",
+        "You need a connection to start and submit it, and it must be answered in English. Do it the evening before you fly rather than at the gate.",
+      ], ["Submit within 24 hours of travel", "Nothing to print", "Online to start and submit"]),
+      s("4. Google Maps: navigation, downloaded before you need it", [
+        "Google Maps is the navigator most visitors already know, rated 4.7 from 73,470 New Zealand ratings. Download offline areas for each region before you leave a main centre: Google's help pages say offline driving directions work only when the whole route is inside a downloaded area, and offline mode has no traffic information.",
+        "Allow longer than it predicts on winding two-lane roads with a campervan, and check the NZ Transport Agency's Journeys site for closures before alpine passes.",
+      ], ["Download offline areas region by region", "No traffic information offline", "Check NZTA Journeys for closures"]),
+      s("5. MetService: the official forecasts and warnings", [
+        "MetService is New Zealand's national weather forecaster, and its app carries severe weather warnings, location forecasts and rain radar. It is free with ads, or NZ$1.99 a month without. It rates 2.4 from 1,126 New Zealand App Store ratings; its severe weather warnings are the official ones, which matters when a front closes a pass.",
+        "If you are heading onto the water, MetService's separate Marine app has coastal forecasts and tides.",
+      ], ["Official severe weather warnings", "Free with ads", "Separate Marine app for the coast"]),
+      s("6. Plan My Walk: for every walk longer than a stroll", [
+        "Plan My Walk, from the New Zealand Mountain Safety Council, covers more than 3,500 tracks, huts and campsites on official topographic maps, shows official track alerts and closures, and sends your trip plan to an emergency contact. It is free and rated 4.6 from 612 New Zealand ratings.",
+        "DOC has no national visitor app of its own, so this is the easiest way to see its track alerts on your phone. Leave your intentions with someone before any walk that goes beyond reception.",
+      ], ["Sends your plan to an emergency contact", "Shows official track alerts", "Free"]),
+      s("7. Gaspy and 8. a fuel company app: lower fuel bills", [
+        "Gaspy shows fuel prices that its users report, so you can see which station in a town is cheapest before you pull in. It is free, with an optional Gold subscription at NZ$1.69 a month, and rated 4.0 from 773 New Zealand ratings.",
+        "Then install the app for the brand you fill up with most. Z, BP, Mobil, Waitomo and Gull each have one, rated between 4.7 and 4.9 on the New Zealand App Store, with rewards, discounts or paying at the pump from your phone. Rural stations vary by brand, so do not plan a remote leg around one company's network.",
+      ], ["Gaspy for the cheapest station in town", "One brand app for rewards", "Fill up before remote legs"]),
+      s("9. AT Mobile: getting around Auckland", [
+        "If you spend time in Auckland before or after the road trip, Auckland Transport's AT Mobile app plans journeys across buses, trains and ferries, shows live departures, tops up an AT HOP card and finds shared scooters, bikes and cars. It is free and rated 4.5 from 32,728 New Zealand ratings, but it covers Auckland only.",
+        "In Wellington, Snapper cards are used on Metlink buses and trains, and contactless bank cards now work for single adult fares; the Snapper app checks a card's balance and tops it up.",
+      ], ["Auckland only", "Live departures and AT HOP top-ups", "Snapper app for Snapper cards"]),
+      s("10. Rankers: traveller reviews of where you might stay", [
+        "Rankers Camping NZ is free and has the most New Zealand App Store ratings of any camping app we compared, 4.7 from 3,322, with more than 108,000 traveller reviews, each read and checked by a person on its team. It lists only overnight spots the local community has approved.",
+        "It complements KiwiCamping well: one for reviews, the other for DOC data and planning. Our comparison of camping apps covers both in more depth, along with CamperMate and WikiCamps.",
+      ], ["Free", "Reviews of campsites and freedom spots", "Pairs well with a planner"]),
+      s("Do not forget the websites", [
+        "Two of the most useful sources are not apps. The NZ Transport Agency's Journeys site shows state highway closures, roadworks and holiday traffic predictions, and DOC's website carries alerts for parks, tracks and campsites. Check both on the morning of any long or remote day.",
+        "Cook Strait ferries are booked on the Interislander and Bluebridge websites. Book the crossing first and build the rest of the trip around it.",
+      ]),
+      s("How we chose and checked", [
+        "We picked the apps a visitor on a New Zealand road trip is most likely to use, favouring official apps where they exist. Ratings, versions and prices come from the New Zealand App Store on 20 October 2026, and fees from Immigration New Zealand's own pages.",
+        "We describe features as their developers describe them, so a feature not mentioned here is not a claim that an app lacks it. Fees and rules change; the official page always outranks this one.",
+      ]),
+    ],
+    sources: [
+      { label: "NZeTA fees (Immigration New Zealand)", url: "https://www.immigration.govt.nz/about-us/news-centre/requesting-a-new-zealand-electronic-travel-authority/" },
+      { label: "Fees and levies (Immigration New Zealand)", url: "https://www.immigration.govt.nz/about-us/news-centre/fees-and-levies/" },
+      { label: "New Zealand Traveller Declaration", url: "https://travellerdeclaration.govt.nz/" },
+      { label: "KiwiCamping on the App Store (NZ)", url: "https://apps.apple.com/nz/app/camping-map-nz-kiwicamping/id6746952595" },
+      { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
+      { label: "MetService on the App Store (NZ)", url: "https://apps.apple.com/nz/app/metservice/id525900888" },
+      { label: "Plan My Walk on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id1554411490" },
+      { label: "Gaspy on the App Store (NZ)", url: "https://apps.apple.com/nz/app/gaspy/id1157169797" },
+      { label: "AT Mobile on the App Store (NZ)", url: "https://apps.apple.com/nz/app/id1207704356" },
+      { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+    ],
+  }),
 ];
