@@ -6,7 +6,7 @@
     "metaDescription": "Over 6.500 campingpladser, DOC-hytter, Holiday Parks og freedom camping-områder i New Zealand, også uden dækning. Skarpe filtre og rejseplanlægger til iPhone.",
     "ogTitle": "KiwiCamping: campingkortet og roadtrip-planlæggeren til New Zealand",
     "ogDescription": "Over 6.500 campingpladser, DOC-hytter, Holiday Parks og freedom camping-områder, der ligger i appen og virker uden dækning. Filtrér, gem og planlæg hele turen.",
-    "metaKeywords": "camping app New Zealand, campingpladser New Zealand, campingkort New Zealand, freedom camping New Zealand, DOC campingpladser, DOC-hytter, Holiday Parks New Zealand, autocamper New Zealand, rundrejse New Zealand, roadtrip New Zealand",
+    "metaKeywords": "camping app New Zealand, campingpladser New Zealand, campingkort New Zealand, freedom camping New Zealand, DOC-campingpladser, DOC-hytter, Holiday Parks New Zealand, autocamper New Zealand, rundrejse New Zealand, roadtrip New Zealand",
     "metaGuidesTitle": "Guider til camping og roadtrip i New Zealand",
     "metaGuidesDescription": "Campingregler, freedom camping og krav til selvforsynende køretøjer, DOC-pladser, årstider, reelle priser og praktisk planlægning af en roadtrip i New Zealand.",
     "metaToolsTitle": "Beregnere til din roadtrip i New Zealand",
@@ -129,10 +129,10 @@
     "faq11a": "Nej. Både landets love, kommunernes regler, regler for naturbeskyttelse og vilkårene på den enkelte plads kan gælde. Følg altid de aktuelle skilte, de ansvarlige myndigheders anvisninger, brandrestriktioner og officielle varsler.",
     "downloadEyebrow": "Dit næste sted venter derude",
     "downloadTitle": "Find det. Gem det. Planlæg turen.",
-    "downloadText": "Over 6.500 newzealandske steder offline, filtre der er skarpe nok til at finde præcis det rigtige, samlinger der organiserer sig selv og en rejseplanlægger med hele ruten. KiwiCamping til iOS.",
+    "downloadText": "Over 6.500 newzealandske steder offline, filtre, der er skarpe nok til at finde præcis det rigtige, samlinger, der organiserer sig selv, og en rejseplanlægger med hele ruten. KiwiCamping til iOS.",
     "guidesEyebrow": "Guider til camping i New Zealand",
     "guidesTitle": "Følg vejen til et godt sted.",
-    "guidesIntro": "grundige guider om campingpladser, regler, lokale priser og praktisk planlægning af turen rundt i New Zealand.",
+    "guidesIntro": "Grundige guider om campingpladser, regler, lokale priser og praktisk planlægning af turen rundt i New Zealand.",
     "guideSingular": "guide",
     "guidePlural": "guider",
     "readGuide": "Læs guiden",
@@ -248,7 +248,7 @@
           "paragraphs": [
             "Opret en tur, tilføj steder, og træk dem i rækkefølge. Hvert stop kan have sin egen ankomstdato, noter, vejrudsigt og status som besøgt, og planlæggeren viser køreafstanden etape for etape og for hele turen.",
             "Ruteberegningen afhænger af, hvilke rutevejledninger MapKit kan levere. Planlæggeren beholder stoppene, hvis en etape ikke kan beregnes, men du skal selv tjekke, om vejen er farbar lige nu.",
-            "Start med en færdig liste over campingudstyr, eller lav dine egne opgaver. Turens fremskridt holder listen ved siden af rejseplanen, og rejseplanen kan synkroniseres med Kalender."
+            "Start med en færdig liste over campingudstyr, eller lav dine egne opgaver. I oversigten over turens fremskridt ligger listen ved siden af rejseplanen, og rejseplanen kan synkroniseres med Kalender."
           ]
         },
         {
@@ -378,7 +378,7 @@
   "articles": {
     "new-zealand-road-signs-visitors": {
       "title": "Vejskilte i New Zealand: det skal du kende som turist",
-      "description": "Forbudsskilte, advarselsskilte og midlertidige skilte i New Zealand skal læses sammen med vejstriberne og forholdene, fra ensporede broer til vejarbejde.",
+      "description": "Forbudsskilte, advarselsskilte og midlertidige skilte i New Zealand skal læses sammen med vejstriberne og forholdene på vejen.",
       "region": "New Zealands veje",
       "imageAlt": "Advarselsskilt for en ensporet bro i New Zealand",
       "intro": "Skiltene i New Zealand bygger på velkendte internationale principper, men de lokale trafiksituationer kan overraske turister. Vigepligt på ensporede broer, vejledende hastigheder i sving og midlertidig trafikregulering skal du kunne genkende, før vejen bliver smal.",
@@ -481,14 +481,14 @@
       ],
       "sources": [
         {
-          "label": "NZTA: vejskilte i Road Code (de officielle færdselsregler)"
+          "label": "NZTA: vejskilte i Road Code"
         }
       ],
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
       "title": "Biosikkerhed i New Zealand: telt, støvler og campingudstyr",
-      "description": "Deklarer risikovarer som brugte støvler, telte og mad ved grænsen til New Zealand, og rengør udstyret, før det flytter mellem søer, floder og skove.",
+      "description": "Deklarer risikovarer ved grænsen til New Zealand, og rengør udstyret, før det flytter mellem søer, floder og skove.",
       "region": "Indrejse og natur i New Zealand",
       "imageAlt": "Rengjorte vandrestøvler klar til biosikkerhedskontrollen i New Zealand",
       "intro": "Brugt friluftsudstyr kan bære frø, jord, insekter og skadelige organismer fra søer og vandløb med sig. Biosikkerheden begynder ved grænsen og fortsætter, når udstyret flytter mellem New Zealands økosystemer.",
@@ -732,7 +732,7 @@
         {
           "heading": "Madpriserne flytter sig",
           "body": [
-            "Ifølge Stats NZ, New Zealands statistikbureau, steg fødevarepriserne 2,5 % på årsbasis i juni 2026, og kød, fjerkræ og fisk steg mere end det. Priserne på frugt og grønt svinger kraftigt med sæsonen.",
+            "Ifølge Stats NZ steg fødevarepriserne 2,5 % på årsbasis i juni 2026, og kød, fjerkræ og fisk steg mere end det. Priserne på frugt og grønt svinger kraftigt med sæsonen.",
             "Brug prisspændet til at planlægge, skriv ned, hvad den første rigtige indkøbstur kostede, og ret resten af budgettet til efter det."
           ],
           "tips": []
@@ -956,7 +956,7 @@
         {
           "heading": "Betalingsmåden afgør prisen",
           "body": [
-            "I Auckland gælder et prisloft på 50 NZD over syv dage for de rejser med AT HOP (Aucklands rejsekort), der tæller med, mens kontaktløs betaling har et dagligt prisloft på 20 NZD. Ikke alle færger er med.",
+            "I Auckland gælder et prisloft på 50 NZD over syv dage for de rejser med AT HOP, der tæller med, mens kontaktløs betaling har et dagligt prisloft på 20 NZD. Ikke alle færger er med.",
             "Check ind og ud korrekt. En glemt check-ind eller check-ud kan ændre prisen eller betyde, at turen ikke tæller med i prisloftet."
           ],
           "tips": []
@@ -964,7 +964,7 @@
         {
           "heading": "Trafiknettene er lokale",
           "body": [
-            "Metlink, den offentlige transport i Wellington-regionen, har sine egne zoner, priser og regler for omstigning, med ændringer, der gælder fra 15. maj 2026. Andre byer bruger deres egne kort eller systemer til kontaktløs betaling.",
+            "Metlink har sine egne zoner, priser og regler for omstigning, med ændringer, der gælder fra 15. maj 2026. Andre byer bruger deres egne kort eller systemer til kontaktløs betaling.",
             "Tjek lufthavnsbusser, færger og turistforbindelser hver for sig, for faste takster og tillægspriser ligger tit uden for de almindelige prislofter."
           ],
           "tips": []
@@ -1116,7 +1116,7 @@
           "heading": "Benzin, diesel og vejafgift (RUC)",
           "body": [
             "Diesel er billigere pr. liter ved standeren, men dieselkøretøjer betaler særskilt vejafgift (Road User Charges, RUC), som købes på forhånd pr. 1.000 km. Lejer du, så tjek, om RUC er med i dagsprisen eller bliver lagt på regningen til sidst, for det ændrer sammenligningen med benzin markant.",
-            "Kører du i eget køretøj, skal der være betalt RUC for de kilometer, du kører, og det bliver kontrolleret. Det er nemt at købe online eller hos en licensing agent, og det giver bøde at køre længere end den distance, du har købt."
+            "Kører du i eget køretøj, skal der være betalt RUC for de kilometer, du kører, og det bliver kontrolleret. Det er nemt at købe online eller hos et godkendt kørekortkontor, og det giver bøde at køre længere end den distance, du har købt."
           ],
           "tips": [
             "Med diesel kommer RUC oven i literprisen",
@@ -1377,7 +1377,7 @@
         {
           "heading": "Hvornår det er pengene værd at spise ude",
           "body": [
-            "Brug pengene bevidst på måltider, der hører stedet til: crayfish i Kaikōura, whitebait på West Coast i sæsonen, Bluff-østers nede sydpå og en frokost på en vingård i Hawke's Bay. Det er ting, du ikke kan lave i en van, og som du vil huske.",
+            "Brug pengene bevidst på måltider, der hører stedet til: languster i Kaikōura, whitebait på West Coast i sæsonen, Bluff-østers nede sydpå og en frokost på en vingård i Hawke's Bay. Det er ting, du ikke kan lave i en van, og som du vil huske.",
             "Hold dig til enkle <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">indkøb</a> på transportdagene, når du ankommer sent og kører tidligt, og maden er brændstof og ikke en oplevelse. På den måde får du råd til de gode måltider uden at gøre hver dag dyr."
           ],
           "tips": [
@@ -1512,7 +1512,7 @@
           "body": [
             "Du kan betale kontaktløst med kort næsten overalt, også på små caféer på landet, og kontanter ser man faktisk sjældent. Mange steder lægger et gebyr på kortbetalinger, typisk 1–2 %, og det står ikke på menuen, men dukker op ved kassen.",
             "Gebyrerne for kortbetaling i udenlandsk valuta er den skjulte udgift. Et betalingskort beregnet til rejser eller en bank, der ikke tager dem, sparer dig for et mærkbart beløb på en måned, og så slipper du også for fristelsen til at sige ja til dynamisk valutaomregning ved terminalen, hvor kursen altid er dårligere.",
-            "Hav lidt kontanter på dig til tillidskasserne på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladserne</a>, vejboderne med frugt og grønt og de få butikker på landet, hvor forbindelsen er ustabil. Med femti newzealandske dollar i sedler er du dækket ind til det meste af det, kontanter stadig bruges til."
+            "Hav lidt kontanter på dig til tillidskasserne på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladserne</a>, vejboderne med frugt og grønt og de få butikker på landet, hvor forbindelsen er ustabil. Med halvtreds newzealandske dollar i sedler er du dækket ind til det meste af det, kontanter stadig bruges til."
           ],
           "tips": []
         }
@@ -1520,7 +1520,7 @@
       "faq": [
         [
           "Hvad koster en rejse til New Zealand i 2026?",
-          "Udgifterne deler sig pænt i tre: transport, overnatning og mad, og valget af køretøj betyder mere for den samlede pris end noget andet. Guiden giver daterede pejlemærker i newzealandske dollars for hver af dem og omregner dem til ti valutaer."
+          "Udgifterne deler sig pænt i tre: transport, overnatning og mad, og valget af køretøj betyder mere for den samlede pris end noget andet. Guiden giver daterede pejlemærker i newzealandske dollar for hver af dem og omregner dem til ti valutaer."
         ],
         [
           "Er det dyrt at rejse i New Zealand?",
@@ -1677,7 +1677,7 @@
           "heading": "Sammenlign æbler med æbler",
           "body": [
             "På pubben betaler du for betjening og lokaler, mens en flaske fra supermarkedet bliver drukket et andet sted. Brug ikke den ene pris som bevis for, at den anden er usædvanlig dyr.",
-            "Smagninger ved en cellar door kan koste et gebyr, være gratis, hvis du køber noget, eller kræve booking. Tjek det, før du planlægger en eftermiddag med flere vingårde."
+            "Smagninger på vingårdene kan koste et gebyr, være gratis, hvis du køber noget, eller kræve booking. Tjek det, før du planlægger en eftermiddag med flere vingårde."
           ],
           "tips": []
         },
@@ -1712,8 +1712,8 @@
         {
           "heading": "Køb vin og øl med omtanke",
           "body": [
-            "Supermarkederne sælger øl og vin, men ikke spiritus, som kun må sælges i bottle stores. Det er vinen, der klart giver mest for pengene: Lokal vin til <a data-guide=\"new-zealand-grocery-prices-2026\">supermarkedspriser</a> er meget god, og de regioner, der er værd at købe fra, er dem, du alligevel kører igennem.",
-            "Smagninger ved en cellar door koster ofte et gebyr, som bliver trukket fra, hvis du køber noget. Det er sjældent billigere at købe en flaske på vingården end i supermarkedet, men det er den eneste måde at få fat i vinene fra de små produktioner, der aldrig kommer ud på hylderne."
+            "Supermarkederne sælger øl og vin, men ikke spiritus, som kun må sælges i butikker med særlig bevilling. Det er vinen, der klart giver mest for pengene: Lokal vin til <a data-guide=\"new-zealand-grocery-prices-2026\">supermarkedspriser</a> er meget god, og de regioner, der er værd at købe fra, er dem, du alligevel kører igennem.",
+            "Smagninger på vingårdene koster ofte et gebyr, som bliver trukket fra, hvis du køber noget. Det er sjældent billigere at købe en flaske på vingården end i supermarkedet, men det er den eneste måde at få fat i vinene fra de små produktioner, der aldrig kommer ud på hylderne."
           ],
           "tips": []
         },
@@ -1742,7 +1742,7 @@
           "body": [
             "Reglerne for alkoholsalg skiller de to ad: Vin og øl står på hylderne i supermarkedet, men det gør spiritus ikke. Tidspunkterne for salg af alkohol er reguleret og varierer fra kommune til kommune, og nogle steder er salget begrænset på bestemte dage, så regn ikke med, at du kan nå at købe noget sent.",
             "Specialøl har solidt fodfæste, og de fleste regioner har lokale bryggerier, der er værd at prøve på stedet. I bryggeriernes taprooms kan du som regel få et smagebræt med flere små glas, og det er en billigere måde at finde ud af, hvad du kan lide, end at købe flaske for flaske.",
-            "Det er sjældent billigere at købe vin direkte ved en cellar door end i supermarkedet, men det er den eneste måde at få fat i flasker fra små produktioner, der aldrig kommer ud på hylderne. Er prisen det vigtigste, så køb egnens vin i et supermarked i samme egn."
+            "Det er sjældent billigere at købe vin direkte fra vingården end i supermarkedet, men det er den eneste måde at få fat i flasker fra små produktioner, der aldrig kommer ud på hylderne. Er prisen det vigtigste, så køb egnens vin i et supermarked i samme egn."
           ],
           "tips": []
         }
@@ -1801,7 +1801,7 @@
         {
           "heading": "Fra Gisborne til Tolaga Bay",
           "body": [
-            "Start med fuld tank og <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a> fra Gisborne, og stop så i kystbyerne uden at gå ud fra, at alle tilbud har åbent. Tolaga Bay giver den første nat et nemt pejlemærke og en chance for at gå i stedet for at køre.",
+            "Start med fuld tank og <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a> fra Gisborne, og stop så i kystbyerne uden at gå ud fra, at alt har åbent. Tolaga Bay giver den første nat et nemt holdepunkt og en chance for at gå i stedet for at køre.",
             "Spørg om lov, hvor adgangen til land eller strand ikke tydeligt er offentlig. Marae, urupā og gårde i drift er ikke uformelle campingpladser, selv om en gammel kommentar på nettet siger noget andet."
           ],
           "tips": []
@@ -1825,13 +1825,13 @@
         {
           "heading": "Det er en rute om at sætte tempoet ned",
           "body": [
-            "State Highway 35 rundt om kappen er et af de få steder tilbage i New Zealand, hvor du kan køre en time og næsten ikke passere nogen. Der er ingen overskriftsattraktion, og rejsende, der kommer for at finde en, bliver som regel skuffede. Vejen, bugterne og tempoet er pointen.",
+            "State Highway 35 rundt om kappen er et af de få steder tilbage i New Zealand, hvor du kan køre en time og næsten ikke møde nogen. Der er ingen stor hovedattraktion, og rejsende, der kommer for at finde en, bliver som regel skuffede. Det er vejen, bugterne og tempoet, det handler om.",
             "Giv den mindst tre dage. Gør du den til en spurt på to dage mellem Gisborne og Ōpōtiki, bliver det en lang køretur gennem steder, du ikke stoppede ved, og det er den eneste måde at gøre ruten forkert på."
           ],
           "tips": [
             "Mindst tre dage til East Cape",
-            "Der er ingen overskriftsattraktion",
-            "At passere ingen er charmen"
+            "Der er ingen stor hovedattraktion",
+            "Charmen er, at du næsten ikke møder nogen"
           ]
         },
         {
@@ -1865,7 +1865,7 @@
         {
           "heading": "Det, der virkelig er værd at stoppe for",
           "body": [
-            "Tolaga Bay wharf er den længste i landet med over 600 meter og værd at gå helt ud på. Tokomaru Bay har ruinerne af det gamle frysehus og en rigtig god strand. Te Puia Springs og Waipiro Bay er små og stille på en måde, der belønner et uplanlagt stop.",
+            "Tolaga Bay Wharf er landets længste anløbsbro med over 600 meter og værd at gå helt ud ad. Tokomaru Bay har ruinerne af det gamle frysehus og en rigtig god strand. Te Puia Springs og Waipiro Bay er små og stille på en måde, der belønner et uplanlagt stop.",
             "Tikitiki har St Mary's Church, et af de mest bemærkelsesværdige interiører i New Zealand, udsmykket overalt med udskæringer og tukutuku og bygget som mindesmærke for soldater fra Ngāti Porou. Den er åben og gratis, og de fleste kører forbi uden at vide det.",
             "Hicks Bay og Te Araroa markerer den nordlige ende, og pōhutukawa-træet i Te Araroa siges at være det største i landet. Derfra er der en kort tur til vejen til fyrtårnet og så videre vestpå mod Ōpōtiki."
           ],
@@ -1879,7 +1879,7 @@
           ],
           "tips": [
             "Pohutukawa blomstrer i december",
-            "Efteråret balancerer vejret og roen"
+            "Efteråret giver både godt vejr og ro"
           ]
         }
       ],
@@ -1897,7 +1897,7 @@
         {
           "heading": "Kend kombinationen",
           "body": [
-            "Tjek trækkapacitet, kobling, sikkerhedskæde, lys, dæk, bremser og vægt med last for begge køretøjer. Regn med vand, gas, cykler og udstyr, der er kommet til efter den tomme specifikation.",
+            "Tjek trækkapacitet, kobling, sikkerhedskæde, lys, dæk, bremser og vægt med last for begge køretøjer. Husk at regne vand, gas, cykler og udstyr med, der kommer oven i egenvægten.",
             "Passagerer må ikke sidde i en campingvogn på vejen. Alle hører hjemme på et godkendt sæde med sele i trækbilen."
           ],
           "tips": []
@@ -1933,7 +1933,7 @@
         {
           "heading": "Vægt, kapacitet og pakning",
           "body": [
-            "Trækbilens maksimale trækkapacitet, kroghovedets kapacitet, campingvognens tilladte totalvægt og vægten på kuglekoblingen skal alle stemme overens, og det er det laveste tal, der sætter grænsen. Overskrider du nogen af dem, påvirker det køreegenskaber, bremser og forsikring.",
+            "Trækbilens maksimale trækkapacitet, anhængertrækkets godkendte belastning, campingvognens tilladte totalvægt og kugletrykket skal alle passe sammen, og det er det laveste tal, der sætter grænsen. Overskrider du nogen af dem, påvirker det køreegenskaber, bremser og forsikring.",
             "Læg tunge ting lavt og over akslen, hold cirka ti procent af vægten på kuglekoblingen, og undgå at læsse bagest i campingvognen, for det er det, der giver slingren. Tjek lasten igen efter den første times kørsel."
           ],
           "tips": []
@@ -1942,7 +1942,7 @@
           "heading": "Slingren og hvordan du reagerer",
           "body": [
             "Slingren starter som regel med et sidevindsstød, en forbikørende lastbil eller for lidt vægt på kuglekoblingen, og den vokser i stedet for at lægge sig. Instinktet til at bremse hårdt eller dreje mod den gør det værre.",
-            "Slip gassen forsigtigt, hold rattet lige, og lad kombinationen sætte farten ned af sig selv. Har din bil en bremsestyring til anhængeren, kan det trække kombinationen lige at bruge anhængerbremserne alene. Stop derefter, og tjek lasten."
+            "Slip gassen forsigtigt, hold rattet lige, og lad kombinationen sætte farten ned af sig selv. Har din bil en bremsestyring til anhængeren, kan du rette kombinationen op ved kun at bruge anhængerbremserne. Stop derefter, og tjek lasten."
           ],
           "tips": [
             "Slip gassen, brems ikke hårdt",
@@ -1951,7 +1951,7 @@
           ]
         },
         {
-          "heading": "Veje, du skal tænke dig om to gange før",
+          "heading": "Veje, der kræver ekstra omtanke",
           "body": [
             "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road og store dele af Coromandel-kysten er krævende med campingvogn, og nogle er forbudt eller kraftigt frarådet for store kombinationer. Tjek, før du beslutter dig, for det er ofte ikke muligt at vende om.",
             "Skift til et lavere gear på nedkørsler, og brug motorbremsen i stedet for at bremse hele vejen, for bremserne mister kraften. Hold ind med jævne mellemrum, så trafikken bag dig kan komme forbi, både af høflighed og fordi en kø bag dig skaber risiko for farlige overhalinger."
@@ -2008,7 +2008,7 @@
           "heading": "Læs mærkaterne",
           "body": [
             "Bekræft udløbsdatoerne for kontrol og licens, før du kører. En WoF kontrollerer bestemte sikkerhedspunkter på kontroldagen; den er ingen garanti mod mekaniske fejl senere.",
-            "Bed udlejeren forklare ethvert Certificate of Fitness eller enhver RUC-mærkat, der er relevant for køretøjet."
+            "Bed udlejeren om at forklare et eventuelt Certificate of Fitness eller RUC-mærkat, der gælder for køretøjet."
           ],
           "tips": []
         },
@@ -2072,7 +2072,7 @@
           "heading": "Hvis noget går galt på vejen",
           "body": [
             "Lejeaftaler fastlægger, hvem du skal ringe til, og hvad du selv må ordne. Får du lavet reparationer uden godkendelse, bortfalder refusionen tit, så ring først, selv om løsningen virker oplagt, og forsinkelsen er irriterende.",
-            "Ved et uheld et afsides sted skal du blive ved køretøjet. Det er ly, det er langt nemmere for redningsfolk at få øje på end en person, der går, og på mange veje på Sydøen er det langt værre at gå væk end at vente.",
+            "Går køretøjet i stykker et afsides sted, så bliv ved det. Det giver ly, det er langt nemmere for redningsfolk at få øje på end en person, der går, og på mange veje på Sydøen er det langt værre at gå derfra end at vente.",
             "Hav vejhjælpens nummer skrevet ned og ikke kun i telefonen, og vær klar til at beskrive, hvor du er. Et vejnavn og det nærmeste kendte landmærke er som regel nok til, at en bjergningsvogn kan finde dig."
           ],
           "tips": []
@@ -2112,13 +2112,13 @@
       "description": "Sovesale, hytter og private værelser ligger i hvert sit prisleje og har forskellige faciliteter.",
       "region": "New Zealand",
       "imageAlt": "Overnatning i New Zealand med udsigt til bjerge",
-      "intro": "Prisen på overnatning afhænger mere af datoen og stedet end af den nationale etiket. En hytte med delt badeværelse kan slå et privat værelse på et hostel, mens et afsides bjergsted kan koste mere end et hotel i en by.",
+      "intro": "Prisen på overnatning afhænger mere af datoen og stedet end af, hvad typen koster i gennemsnit på landsplan. En hytte med delt badeværelse kan slå et privat værelse på et hostel, mens et afsides bjergsted kan koste mere end et hotel i en by.",
       "sections": [
         {
           "heading": "Se, hvad der er privat",
           "body": [
             "Et privat soveværelse kan stadig bruge et fælles badeværelse eller køkken, mens en motelenhed ofte har køkkenfaciliteter. Sengelinned, håndklæder og rengøring kan også være forskellige.",
-            "Sammenlign slutbeløbet ved betalingen for det samme antal gæster. Grundpriser kan få ekstra personer eller kortgebyrer lagt oveni."
+            "Sammenlign slutbeløbet ved betalingen for det samme antal gæster. Oven i grundprisen kan der komme tillæg for ekstra personer eller kortgebyrer."
           ],
           "tips": []
         },
@@ -2142,7 +2142,7 @@
           "heading": "Hvad hver overnatningstype egentlig er til",
           "body": [
             "En seng på sovesal på et hostel er den billigste seng og giver dig køkken og andre rejsende. En hytte på en <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> koster mere end en plads, men mindre end et motel, og løser en våd nat. En motelenhed er den normale mellemløsning i New Zealand og har som regel et tekøkken, som sænker udgiften til mad, når du bor der.",
-            "Private værelser på backpacker-hostels ligger mellem sovesale og moteller og er tit den bedste værdi for et par. Hoteller er stort set et byprodukt her og sjældent det rigtige svar på en rundrejse."
+            "Private værelser på backpacker-hostels ligger mellem sovesale og moteller og giver tit mest for pengene for et par. Hoteller findes her mest i byerne og er sjældent det rigtige valg på en rundrejse."
           ],
           "tips": [
             "Moteller har som regel et tekøkken",
@@ -2229,17 +2229,17 @@
       }
     },
     "overseas-driver-licence-new-zealand": {
-      "title": "Kør bil i New Zealand med udenlandsk kørekort",
-      "description": "Gyldighed, oversættelser, tidsgrænser og køretøjets vægt skal tjekkes, før du henter lejebilen.",
+      "title": "Udenlandsk kørekort i New Zealand 2026: tidsgrænse og regler for autocamper",
+      "description": "Ankommer du senest den 31. oktober 2026, gælder et udenlandsk bilkørekort i 18 måneder, ellers i 12. Oversættelser, IDP og grænsen på 6.000 kg for autocampere.",
       "region": "New Zealand",
       "imageAlt": "Turist tjekker et udenlandsk kørekort ved en autocamper",
-      "intro": "Et gyldigt udenlandsk kørekort kan give lov til at køre som turist, men sproget i dokumentet, tiden siden indrejsen, kørekortets betingelser og autocamperens vægt afgør, om tilladelsen gælder.",
+      "intro": "Et gyldigt udenlandsk bilkørekort lader dig køre i New Zealand i 18 måneder fra din seneste ankomst, hvis du ankom mellem 1. november 2024 og 31. oktober 2026, og i 12 måneder, hvis du ankommer den 1. november 2026 eller senere. Det skal være på engelsk eller have en godkendt oversættelse eller et internationalt kørekort (IDP), og som bilkørekort dækker det køretøjer op til 6.000 kg, hvilket omfatter de fleste lejede autocampere. Betingelserne på dit kørekort derhjemme gælder stadig, og udlejeren kan tilføje sine egne.",
       "sections": [
         {
           "heading": "Gældende tidsgrænser i 2026",
           "body": [
-            "I august 2026 kan et gyldigt udenlandsk bilkørekort bruges i op til 18 måneder fra seneste ankomst. Fra 1. november 2026 bliver den periode for bilkørekort nedsat til 12 måneder.",
-            "Grænserne for udenlandske kørekort til motorcykel og lastbil er anderledes. Alle, der opholder sig i landet, mens reglen ændres, bør tjekke NZTA for reglen på selve kørselsdatoen."
+            "Grænsen afhænger af, hvornår du senest ankom. En midlertidig regel fra 1. november 2024 forlængede udenlandske bilkørekort fra 12 til 18 måneder, og den ophører for nye ankomster den 1. november 2026. Ankom du mellem 1. november 2024 og 31. oktober 2026, beholder du 18 måneder fra den ankomst, så længe du opholder dig i New Zealand. Ankommer du den 1. november 2026 eller senere, får du 12 måneder.",
+            "Forlængelsen har kun nogensinde gjaldt bilkørekort: udenlandske kørekort til motorcykel og tunge køretøjer giver 12 måneder. Perioden regnes fra din seneste ankomst, så hvis du rejser ud og ind igen, begynder den forfra, men selve kørekortet skal være gyldigt hele tiden."
           ],
           "tips": []
         },
@@ -2262,19 +2262,19 @@
         {
           "heading": "Hvad du må køre, og i hvor lang tid",
           "body": [
-            "Du må køre på et gyldigt udenlandsk kørekort i op til tolv måneder fra din ankomstdato, forudsat at kørekortet er gyldigt, du ikke er blevet frakendt retten til at køre, og du kun kører de køretøjsklasser, det dækker. Efter tolv måneder skal du omskrive til et newzealandsk kørekort.",
-            "Kørekortet skal være på engelsk eller ledsages af en nøjagtig oversættelse eller et internationalt kørekort. Medbring altid det originale kørekort; et IDP understøtter det og erstatter det ikke."
+            "Du må køre på et gyldigt udenlandsk kørekort i den periode, der gælder for dig, 18 eller 12 måneder fra din seneste ankomst, forudsat at kørekortet er gyldigt, du ikke er blevet frakendt retten til at køre, og du kun kører de køretøjsklasser, det dækker. Derefter skal du have et newzealandsk kørekort.",
+            "Politiet kan bede om at se dit kørekort, hver gang du kører, så medbring det originale kørekort hver gang, sammen med oversættelsen eller IDP, hvis det ikke er på engelsk. Et IDP understøtter det originale kørekort og erstatter det ikke."
           ],
           "tips": [
-            "Tolv måneder fra ankomstdatoen",
-            "Medbring det originale kørekort, ikke kun et IDP",
-            "Oversættelse er påkrævet, hvis det ikke er på engelsk"
+            "18 måneder, hvis du ankom senest den 31. oktober 2026",
+            "12 måneder, hvis du ankommer fra den 1. november 2026",
+            "Medbring det originale kørekort, ikke kun et IDP"
           ]
         },
         {
-          "heading": "Køretøjsklassen betyder noget for autocampere",
+          "heading": "Må du køre autocamper på et bilkørekort?",
           "body": [
-            "Et almindeligt bilkørekort dækker køretøjer op til 6.000 kg tilladt totalvægt i New Zealand, hvilket er mere generøst end i flere andre lande og dækker de fleste lejede autocampere. Større autocampere kan falde uden for, og det er dit hjemlige kørekorts klasse, der afgør ligestillingen.",
+            "Som regel ja. Et newzealandsk bilkørekort (Class 1) dækker køretøjer op til 6.000 kg tilladt totalvægt, hvilket er mere generøst end i flere andre lande og dækker de fleste lejede autocampere og store autocampere. Større autocampere kan falde uden for, og det er dit hjemlige kørekorts klasse, der afgør ligestillingen.",
             "Udlejere stiller deres egne krav til alder og kørekort oven i loven, og kræver tit en mindstealder og et kørekort, der har været holdt i en mindste periode. Tilladelse fra en udlejer ophæver ikke kørekortlovgivningen, og kørekortlovgivningen ophæver ikke lejevilkårene."
           ],
           "tips": []
@@ -2282,7 +2282,7 @@
         {
           "heading": "Begrænsninger fra dit hjemlige kørekort",
           "body": [
-            "Alle betingelser på dit originale kørekort gælder også her: korrigerende briller, kun automatgear, alkolås eller en begrænset klasse. Kører du uden for de betingelser, kører du uden kørekort, med de forsikringsmæssige konsekvenser, det har.",
+            "Alle betingelser på dit originale kørekort gælder også her: korrigerende briller, kun automatgear, alkolås eller en begrænset klasse. Kører du uden for de betingelser, er det en lovovertrædelse, og det kan gøre din forsikring ugyldig.",
             "Et begrænset kørekort eller et prøvekørekort fra et andet land har som regel sine begrænsninger med sig. Har du et trinvist kørekort derhjemme, så tjek, hvad det betyder, før du går ud fra, at du kan køre frit her."
           ],
           "tips": [
@@ -2302,9 +2302,9 @@
         {
           "heading": "Omskrivning til et newzealandsk kørekort",
           "body": [
-            "Efter tolv måneder skal du omskrive. Førere fra en liste over anerkendte lande kan omskrive uden teoriprøve og praktisk prøve, mens andre skal bestå begge dele. Listen ændres, så tjek den aktuelle situation i stedet for at stole på oplysninger fra anden hånd.",
-            "Omskrivning kræver bevis for identitet, dit udenlandske kørekort, en synstest og et gebyr, og den ordnes via et licensing agent. Afsæt tid, for processen går ikke lynhurtigt, og det er en lovovertrædelse at køre med en udløbet tilladelse.",
-            "Bliver du i landet i lang tid, og dit land ikke er anerkendt, så kom tidligt i gang. Det kan tage flere uger at booke en køreprøve i de store byer, og ventetiden er endnu længere om sommeren."
+            "Når dine 18 eller 12 måneder er gået, skal du omskrive. Førere fra en liste over anerkendte lande kan omskrive uden teoriprøve og praktisk prøve, mens andre skal bestå begge dele. Listen ændres, så tjek den aktuelle situation i stedet for at stole på oplysninger fra anden hånd.",
+            "Omskrivning kræver bevis for identitet, dit udenlandske kørekort, en synstest og et gebyr, og den ordnes hos et af de godkendte kørekortkontorer. Afsæt tid, for processen går ikke lynhurtigt, og det er en lovovertrædelse at køre med en udløbet tilladelse.",
+            "Bliver du i landet i lang tid, og dit land ikke er anerkendt, så kom tidligt i gang. Det kan tage uger, før du kan få en tid til en køreprøve i de store byer, så vent ikke til den sidste måned."
           ],
           "tips": []
         },
@@ -2324,7 +2324,7 @@
       "faq": [
         [
           "Må man køre bil i New Zealand på et udenlandsk kørekort?",
-          "Ja, i op til 12 måneder fra din ankomst, forudsat at kørekortet er gyldigt og gælder for den klasse af køretøj, du kører. Efter 12 måneder skal du omskrive til et newzealandsk kørekort."
+          "Ja. Ankom du mellem 1. november 2024 og 31. oktober 2026, gælder et udenlandsk bilkørekort i 18 måneder fra den ankomst. Ankommer du den 1. november 2026 eller senere, gælder det i 12 måneder. Derefter skal du have et newzealandsk kørekort."
         ],
         [
           "Skal man have et internationalt kørekort til New Zealand?",
@@ -2333,7 +2333,7 @@
       ],
       "sources": [
         {
-          "label": "NZTA: kørsel på New Zealands veje"
+          "label": "NZTA: at køre i New Zealand på et udenlandsk kørekort"
         }
       ],
       "priceTable": null
@@ -2374,13 +2374,13 @@
     },
     "fuel": {
       "metaTitle": "Brændstofberegner til New Zealand: autocamper på roadtrip",
-      "metaDescription": "Beregn liter og brændstofpris på en roadtrip i New Zealand ud fra distance, l/100 km og literprisen. Med formel, regneeksempel på 1.000 km og MBIE's benchmark.",
+      "metaDescription": "Beregn liter og brændstofpris på en roadtrip i New Zealand ud fra distance, l/100 km og literprisen. Med formel, regneeksempel på 1.000 km og MBIE's referencepris.",
       "eyebrow": "Brændstofberegner",
       "cardEyebrow": "Brændstofberegner",
       "h1": "Brændstofberegner til en roadtrip i New Zealand",
       "intro": "Tast rutens distance, køretøjets forbrug med fuld last og prisen pr. liter ind. Standardprisen er MBIE's landsdækkende skiltepris for almindelig benzin (Regular 91) i ugen, der sluttede 26. juli 2026.",
       "cardTitle": "Regn prisen ud for turen.",
-      "cardText": "Tast hele rutens distance, køretøjets forbrug med fuld last og den forventede pris pr. liter ind. Priserne langt fra byerne kan ligge over bybenchmarkene.",
+      "cardText": "Tast hele rutens distance, køretøjets forbrug med fuld last og den forventede pris pr. liter ind. Langt fra byerne kan priserne ligge over niveauet i byerne.",
       "labelDistance": "Distance (km)",
       "labelConsumption": "Forbrug (l/100 km)",
       "labelPrice": "Brændstofpris (NZD/l)",
@@ -2413,7 +2413,7 @@
     },
     "drive": {
       "metaTitle": "Køretidsberegner til New Zealand: realistiske timer efter vejtype",
-      "metaDescription": "Beregn, hvor lang en køredag i New Zealand reelt er, ud fra distance, vejtype og stop, med formel, regneeksempel og de brugte farter.",
+      "metaDescription": "Beregn, hvor lang en køredag i New Zealand reelt er, ud fra distance, vejtype og stop, med formel, regneeksempel og de gennemsnitsfarter, beregneren bruger.",
       "eyebrow": "Køretidsberegner",
       "cardEyebrow": "Køredagen",
       "h1": "Køretidsberegner til veje i New Zealand",
@@ -2446,7 +2446,7 @@
         ],
         [
           "Hvorfor bliver det længere end i min kortapp?",
-          "Kortapps regner køretiden uden stop. Her bruges et gennemsnit for vejtypen, og der lægges tid til for hvert stop, og det ligner mere, hvordan en campingdag faktisk går."
+          "Kortapps beregner køretiden uden stop. Her bruges en gennemsnitsfart for vejtypen plus ekstra tid for hvert stop, og det ligger tættere på, hvordan en campingdag faktisk forløber."
         ],
         [
           "Passer det til en autocamper?",
@@ -2456,7 +2456,7 @@
     },
     "campsite": {
       "metaTitle": "Campingprisberegner til New Zealand: pr. person eller pr. plads?",
-      "metaDescription": "Sammenlign en DOC-campingplads med pris pr. voksen og en Holiday Park med pris pr. plads ud fra dit selskab og antal nætter, med formel, regneeksempel og DOC's priser fra data.",
+      "metaDescription": "Sammenlign en DOC-campingplads med pris pr. voksen og en Holiday Park med pris pr. plads ud fra dit selskab og antal nætter, med formel, regneeksempel og priser fra DOC's egne data.",
       "eyebrow": "Campingprisberegner",
       "cardEyebrow": "Prissammenligning",
       "h1": "Campingprisberegner: pr. person eller pr. plads",
@@ -2468,7 +2468,7 @@
       "labelPerAdult": "Pr. voksen (NZD)",
       "labelPerSite": "Pr. plads (NZD)",
       "comparison": "{perAdult} mod {perSite} · {verdict}",
-      "theSame": "det samme",
+      "theSame": "lige dyrt",
       "perAdultCheaper": "pr. voksen er billigst",
       "perSiteCheaper": "pr. plads er billigst",
       "formula": [
@@ -2539,7 +2539,7 @@
       "cardEyebrow": "Vand- og spildevandsplanlægning",
       "h1": "Vandtankberegner til autocamper",
       "intro": "En tankstørrelse i liter bliver først brugbar, når den er regnet om til dage. Tast kapaciteten på friskvand og gråvand og antallet af personer ind, så kan du se, hvilken tank der sætter grænsen.",
-      "cardTitle": "Hvor mange dage kan du stå off grid.",
+      "cardTitle": "Hvor mange dage kan du klare dig selv?",
       "cardText": "Kapacitet i liter bliver først brugbar, når den er regnet om til dage. Friskvand og gråvand vises hver for sig, for den tank, der løber tør først, sætter grænsen.",
       "labelFresh": "Friskvand (l)",
       "labelGrey": "Gråvand (l)",
