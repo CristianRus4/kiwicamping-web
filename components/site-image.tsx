@@ -48,3 +48,21 @@ export function ScreenshotImage({ src, alt, sizes, priority = false, className =
 export function CoverImage({ src, alt, sizes, priority = false, className = "" }: ImageProps) {
   return <img className={`cover-image ${className}`.trim()} alt={alt} sizes={sizes} {...sourceAttributes(src, priority)} />;
 }
+
+/**
+ * The column a guide section's prose sits in: 720px less the 55px section indent on desktop, the
+ * full width less the page gutter and indent on tablets and phones (app/globals.css).
+ */
+const guideFigureSizes = "(max-width: 600px) calc(100vw - 64px), (max-width: 900px) calc(100vw - 85px), 665px";
+
+/**
+ * A screenshot figure inside a guide section (lib/screen-figures.ts): a pre-rendered 1600x900 image
+ * that already carries its gradient and shadow, so it is shown whole, lazily, with no caption or link.
+ */
+export function GuideFigure({ src, alt }: { src: string; alt: string }) {
+  return (
+    <figure className="guide-figure">
+      <img alt={alt} sizes={guideFigureSizes} {...sourceAttributes(src, false)} />
+    </figure>
+  );
+}
