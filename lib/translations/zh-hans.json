@@ -5115,7 +5115,7 @@
                 "KiwiCamping",
                 "DOC 营地、小屋和行程规划",
                 "免费；高级通行证 NZ$3.99 至 NZ$12.99",
-                "iPhone（iOS 26+）",
+                "iPhone（需 iOS 26 及以上）",
                 "3.8（4）",
                 "地点详情可以，地图图块不行"
               ],
@@ -5139,7 +5139,7 @@
                 "WikiCamps New Zealand",
                 "收录的新西兰营地最多",
                 "NZ$7.99 一次买断（iPhone）",
-                "iPhone、iPad、Android",
+                "iPhone、iPad 和 Android",
                 "4.5（137）",
                 "营地和行程可用离线模式（Offline Mode）"
               ],
@@ -5147,7 +5147,7 @@
                 "Campable",
                 "私人土地住宿",
                 "App 免费；场主自定每晚价格",
-                "iPhone、Android",
+                "iPhone 和 Android",
                 "4.5（13）",
                 "未说明"
               ],
@@ -5155,7 +5155,7 @@
                 "NZMCA App",
                 "NZMCA 会员",
                 "App 免费；入会费 NZ$150，另加每年 NZ$102",
-                "iPhone、iPad、Android",
+                "iPhone、iPad 和 Android",
                 "暂无评分",
                 "未说明"
               ],
@@ -5315,7 +5315,7 @@
       ],
       "sources": [
         {
-          "label": "Rankers Camping NZ App"
+          "label": "Rankers Camping NZ 应用"
         },
         {
           "label": "CamperMate"
@@ -5327,7 +5327,7 @@
           "label": "Campable"
         },
         {
-          "label": "NZMCA App"
+          "label": "NZMCA 应用"
         },
         {
           "label": "NZMCA 会员费"
@@ -8961,13 +8961,598 @@
       "faq": [],
       "sources": [
         {
-          "label": "DOC：Rakiura Track"
+          "label": "DOC：Rakiura 步道（Rakiura Track）"
         },
         {
           "label": "DOC：Māori Beach 营地"
         },
         {
           "label": "RealNZ：斯图尔特岛渡轮出行规划指南"
+        }
+      ],
+      "priceTable": null
+    },
+    "rankers-alternatives": {
+      "title": "2026 年 Rankers 的 5 个最佳替代品：新西兰露营",
+      "description": "想看 Rankers Camping NZ 之外的选择？KiwiCamping、CamperMate、WikiCamps、thl Roadtrip 和 Campable 按价格、离线使用和各自更擅长的事对比。2026 年 10 月核对。",
+      "region": "新西兰",
+      "imageAlt": "大堡岛 Medlands Beach 开着花的新西兰圣诞树下的草地 DOC 营地",
+      "intro": "Rankers Camping NZ 是新西兰 App Store 上评分最多的露营 App，免费，口碑也好：2026 年 10 月 20 日我们核对时，在新西兰 App Store 有 3,322 个评分，4.7 星。人们很少因为它不好而离开。他们是在行程需要 Rankers 并非围绕它而建的东西时，才去别处看，比如逐日规划路线、徒步日要用的 DOC 小屋和步道、在农场住一晚，或者去澳洲。先说明：KiwiCamping 是我们自己的 App，所以排在这份名单的第一位；下面每一项都会说明它比 Rankers 做得更好的地方，以及什么时候你该选它。",
+      "sections": [
+        {
+          "heading": "Rankers 替代品一览",
+          "body": [
+            "如果只要一个建议：保留 Rankers 看评价，等行程变成带日期、<a data-guide=\"doc-huts-new-zealand-guide\">DOC 小屋</a>或步道的计划时，再加 KiwiCamping。行程还要去澳洲，就改选 CamperMate；覆盖面比精选更重要，选 WikiCamps New Zealand；想简单免费地看附近有什么，选 thl Roadtrip；想订私人土地上的住宿，选 Campable。",
+            "这些 App 都不能取代<a data-guide=\"camping-rules-local-councils-new-zealand\">地方条例</a>或营地入口的标牌。Rankers 说它只列出当地社区认可可以过夜的地方，这是一个实实在在的长处，而一个列出更多地点的替代品，如果你还得自己逐个去查，也不一定更有用。"
+          ],
+          "tips": [],
+          "table": {
+            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各开发者网站核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "head": [
+              "App",
+              "这些情况选它而不选 Rankers",
+              "价格",
+              "平台",
+              "新西兰评分"
+            ],
+            "rows": [
+              [
+                "Rankers Camping NZ",
+                "你想要评价（基准）",
+                "免费",
+                "iPhone、iPad、Android、网页",
+                "4.7（3,322）"
+              ],
+              [
+                "KiwiCamping",
+                "你在规划带日期的路线，要用 DOC 小屋和步道",
+                "免费；通行证 3.99 至 12.99 新西兰元",
+                "iPhone（iOS 26 及以上）",
+                "3.8（4）"
+              ],
+              [
+                "CamperMate",
+                "你的行程还要去澳洲",
+                "免费；带广告",
+                "iPhone、iPad、Android、网页",
+                "4.4（606）"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "你想要收录地点最多的",
+                "7.99 新西兰元一次性付费（iPhone）",
+                "iPhone、iPad 和 Android",
+                "4.5（137）"
+              ],
+              [
+                "thl Roadtrip",
+                "你想要简单免费的附近视图",
+                "免费",
+                "iPhone 和 Android",
+                "4.6（122）"
+              ],
+              [
+                "Campable",
+                "你想订私人土地上的一晚",
+                "App 免费；房东定价",
+                "iPhone 和 Android",
+                "4.5（13）"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "旅行者为什么会找 Rankers 之外的选择",
+          "body": [
+            "我们读了新西兰 App Store 上 Rankers 最近的 50 条评价。42 条给了四星或五星，夸的是准确度、价格和旅行者评论的深度。抱怨很少，也很具体：三位评价者发现地点缺失或过时，三位说 App 打不开或加载不出来，两位想把<a data-guide=\"kiwicamping-filters-guide\">筛选</a>条件组合起来，而不是一次只搜一个类别，两位反对通过 App 预订要收费，一位更新之后找不到评价了。",
+            "Rankers 本身免费，收入来自预订、活动优惠和房车租赁的推荐；它说预订和活动的佣金不会让你多花钱。所以，添加或换 App 的真实原因，通常是要做另一件事，而不是它有毛病：路线规划、徒步、私人土地或第二个国家。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping：把收藏的地点变成带日期的路线",
+          "body": [
+            "KiwiCamping 建立在新西兰保护部自己的数据之上。在 2026 年 8 月的数据里，App 里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 列出的费用、狗的规定和预订要求（DOC 列出的地方才有）。这使它强在以评价为主的 App 最薄弱的地方：第四天要走到的小屋，和从今晚营地出发的步道。",
+            "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>可以组合，所以一次搜索就能同时问地点类型、费用、设施和通行情况。收藏的地点随后成为行程，有排好序的停靠点、日期、备注、待办事项和总距离，信号一断，地点详情仍然能在手机上看。地图图块、路线、天气和照片仍然需要信号。",
+            "它要花多少钱，不足在哪里：下载免费，但免费版只能完整打开 BookIt 的住宿和旅游项目；DOC 营地、小屋、步道和<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>、收藏、行程和指南，需要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元。它只有 iPhone 版，要 iOS 26 或更高，在新西兰有 4 个评分（3.8），也没有旅行者评价。所以我们建议把它和 Rankers 搭配用，而不是取代它。"
+          ],
+          "tips": [
+            "适合：DOC 小屋、步道和带日期的计划",
+            "评价留给 Rankers",
+            "只有 iPhone，要 iOS 26 及以上"
+          ]
+        },
+        {
+          "heading": "2. CamperMate：行程要过塔斯曼海就选它",
+          "body": [
+            "CamperMate 在一个免费 App 里覆盖新西兰和澳洲，支持 27 种语言，有免费和收费地点的筛选、旅行者评价和照片、可看空位的营地预订、当地优惠和租车链接。它的页面说，地图和地点信息可以下载，没信号也能用，5.8 版在 2026 年 10 月中旬新增了卫星视图。",
+            "它在新西兰有 606 个评分，4.4 分，在 Google Play 有 12,568 个评分，4.0 分。近期评价不一：2025 年末和 2026 年的好几条，不喜欢 App 的改版，而且 App 带广告。如果你只在新西兰旅行，又最看重评价，两者之间，Rankers 仍是更强的选择。"
+          ],
+          "tips": [
+            "适合：新西兰和澳洲通用一个 App",
+            "免费；带广告",
+            "近期评价不一"
+          ]
+        },
+        {
+          "heading": "3. WikiCamps New Zealand：收录地点最多",
+          "body": [
+            "WikiCamps New Zealand 称有 12,000 多个由用户贡献的新西兰地点，有评价、照片、会估算油费的<a data-guide=\"plan-trip-kiwicamping\">行程规划</a>，以及针对地点和行程的离线模式。它在 App Store 一次性 7.99 新西兰元，没有订阅。",
+            "和 Rankers 相比，取舍在于精选。Rankers 只列社区认可的过夜地点；WikiCamps 列得多得多，由用户添加和保持更新，所以你要自己多查一些。它在新西兰 App Store 有 137 个评分，4.5 分，在 Google Play 有 1,042 个评分，3.0 分。"
+          ],
+          "tips": [
+            "适合：覆盖面最大，一次性付费",
+            "iPhone 上 7.99 新西兰元一次性付费",
+            "要核对用户添加的地点"
+          ]
+        },
+        {
+          "heading": "4. thl Roadtrip：简单免费地看附近有什么",
+          "body": [
+            "thl Roadtrip 是 Tourism Holdings 的免费 App，用你的位置显示新西兰和澳洲附近的营地、<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>、加油站和排污站。它在新西兰 App Store 有 122 个评分，4.6 分。",
+            "它适合在<a data-guide=\"new-zealand-driving-day-planner\">开了一天车</a>之后，只想看一眼周围有什么、而不想深入研究地点的旅行者。它的评价基数比 Rankers 小得多，所以最适合做快速查找工具，搭配内容更丰富的 App。"
+          ],
+          "tips": [
+            "适合：快速搜附近",
+            "免费",
+            "覆盖新西兰和澳洲"
+          ]
+        },
+        {
+          "heading": "5. Campable：订私人土地上的一晚",
+          "body": [
+            "Campable 让房车和拖挂房车预订农场、葡萄园、果园和运动俱乐部里的位置。房东定每晚的价格，你在 App 里付款，预订确认后你会收到房东的电话号码。它在新西兰有 13 个评分，4.5 分，有 iPhone 和 Android 版。",
+            "它的设计比 Rankers 窄：是几百个地点，而不是全国的目录。把它用在你想要有保障、安静的夜晚，其余的夜晚用范围更广的 App。"
+          ],
+          "tips": [
+            "适合：有保障的私人土地夜晚",
+            "房东定价",
+            "iPhone 和 Android"
+          ]
+        },
+        {
+          "heading": "Rankers 仍然是合适的 App 的时候",
+          "body": [
+            "如果你的行程主要是<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>和假日公园，又靠最近几位旅行者怎么说来决定，Rankers 很难被超越，而且不花钱。它的营地信息从第一次安装起就内置在 App 里，iPhone 和 Android 版的详细地图可以通过 Wi-Fi 下载，供没有信号的地方使用。",
+            "它还有 Android 和网页版，KiwiCamping 没有。如果两个人在不同的手机上共同规划，光这一点就可能决定选择。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "我们怎么比较",
+          "body": [
+            "我们在 2026 年 10 月 20 日读了每款 App 在新西兰 App Store 的页面和开发者自己的网站，有 Google Play 页面的也读了。评分和价格是当天列出的。评价的主题来自新西兰 App Store 上 Rankers 最近的 50 条评价，按数量报告，不是我们自己的判断。",
+            "我们只描述了开发者自己描述的功能。这里没有提到的功能，不代表这款 App 没有。"
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Rankers Camping NZ 免费吗？",
+          "免费。App 免费下载和使用，Rankers 的收入来自通过它进行的预订、活动优惠和房车租赁推荐。它有 iPhone、iPad、Android 和网页版。"
+        ],
+        [
+          "Rankers 最好的替代品是什么？",
+          "要规划带日期、带 DOC 小屋和步道的路线，我们推荐我们自己做的 KiwiCamping，和 Rankers 搭配用，评价看 Rankers。CamperMate 适合行程还要去澳洲的情况，WikiCamps New Zealand 收录的新西兰地点数量最多，一次性 7.99 新西兰元。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Rankers Camping NZ 应用"
+        },
+        {
+          "label": "CamperMate 应用"
+        },
+        {
+          "label": "WikiCamps New Zealand 应用"
+        },
+        {
+          "label": "thl Roadtrip 页面数据（Apple，新西兰商店）"
+        },
+        {
+          "label": "Campable 应用"
+        },
+        {
+          "label": "DOC 住宿"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-alternatives": {
+      "title": "2026 年 CamperMate 的 5 个最佳替代品：新西兰",
+      "description": "对 CamperMate 的改版或广告不满意？KiwiCamping、Rankers、WikiCamps、thl Roadtrip 和 NZMCA App 为新西兰旅行做对比。2026 年 10 月核对。",
+      "region": "新西兰",
+      "imageAlt": "Kahurangi 国家公园 Iron Lake 边搭起的一顶小帐篷",
+      "intro": "多年来，CamperMate 一直是新西兰和澳洲房车旅行者默认下载的 App，它至今免费，翻译成了 27 种语言，地图可以下载，没信号也能用。人们去找替代品，有一个近期的原因：新西兰 App Store 上有几位评价者，从 2025 年末起不喜欢它的改版，还有 App 里的广告。我们在 2026 年 10 月 20 日核对了值得换用的 App。KiwiCamping 是我们的，所以看它排在最前面时请记住这一点：我们说明理由，也说明哪些行程里，别的 App 是更好的替换。",
+      "sections": [
+        {
+          "heading": "CamperMate 替代品一览",
+          "body": [
+            "只在新西兰旅行，最强的搭配是 Rankers 看评价，加 KiwiCamping 看 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、小屋和规划路线。如果还要去澳洲，thl Roadtrip 和 WikiCamps（它分别出售新西兰和澳洲的 App）是最接近的同类替换。新西兰房车协会（New Zealand Motor Caravan Association）的会员，不管用别的什么，都应该再加 NZMCA App。",
+            "换之前，先想清楚你不喜欢的是改版，还是这件事本身。CamperMate 的预订、优惠和两国覆盖仍然真的有用，没有哪个替代品能全部取代。"
+          ],
+          "tips": [],
+          "table": {
+            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各开发者网站核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "head": [
+              "App",
+              "为这个换它",
+              "价格",
+              "广告",
+              "新西兰评分"
+            ],
+            "rows": [
+              [
+                "CamperMate",
+                "预订和优惠，新西兰和澳洲（基准）",
+                "免费",
+                "有",
+                "4.4（606）"
+              ],
+              [
+                "KiwiCamping",
+                "DOC 营地、小屋和带日期的路线计划",
+                "免费；通行证 3.99 至 12.99 新西兰元",
+                "没有",
+                "3.8（4）"
+              ],
+              [
+                "Rankers Camping NZ",
+                "这里新西兰 App Store 评分最多的",
+                "免费",
+                "Google Play 上未显示",
+                "4.7（3,322）"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "发布的新西兰地点最多，一次性付费",
+                "7.99 新西兰元一次性付费（iPhone）",
+                "Android 上有",
+                "4.5（137）"
+              ],
+              [
+                "thl Roadtrip",
+                "简单的附近查找，新西兰和澳洲",
+                "免费",
+                "未说明",
+                "4.6（122）"
+              ],
+              [
+                "NZMCA App",
+                "NZMCA 会员和会员营地",
+                "会员入会 150 新西兰元，另加每年 102 新西兰元",
+                "未说明",
+                "还没有评分"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "人们为什么在 CamperMate 之外找选择",
+          "body": [
+            "在新西兰 App Store 最近的 50 条评价里，日期在 2025 年或 2026 年的 CamperMate 评价中，16 条里有 12 条只给一星或两星。七条归咎于改版，描述加载慢、导航错误、地点消失，其中两条怀念液化石油气和自给自足的<a data-guide=\"kiwicamping-filters-guide\">筛选</a>。四条是关于预订和退款的。这些是评价者的说法，不是我们测试过的。",
+            "另一面也是真的。CamperMate 在 Google Play 有一百多万次下载，有 12,568 个评分、4.0 星，还有一位评价者说，它显示了他在别处找不到的营地。它的页面还说，地图和信息下载后可以长期保存，没有到期日。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping：DOC 营地和整条路线规划",
+          "body": [
+            "CamperMate 偏向可预订的营地和优惠，KiwiCamping 则建立在 DOC 自己的记录上：App 2026 年 8 月的数据里有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 公布的费用、狗的规定和预订要求（DOC 公布的地方才有）。App 里没有广告。",
+            "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>可以组合，包括费用、设施和通行特征，如果你是在 CamperMate 改版里丢了筛选的评价者之一，这就很要紧。地点可以存到“想去”这样的收藏里，或直接加入行程，有排好序的停靠点、日期、备注、待办事项和路线距离。信号一断，地点详情仍然留在手机上，而地图图块、路线、天气和照片需要网络。",
+            "限制：只有 BookIt 的住宿和旅游项目免费；DOC 营地、小屋、步道和<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排污站</a>、收藏、行程和指南，需要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元。它只覆盖新西兰，只有 iPhone 版，要 iOS 26 或更高，在新西兰有 4 个评分（3.8），没有旅行者评价，所以如果你看重评价，就和 Rankers 搭配用。"
+          ],
+          "tips": [
+            "换它为：DOC 数据和路线规划",
+            "没有广告",
+            "只有新西兰和 iPhone"
+          ]
+        },
+        {
+          "heading": "2. Rankers Camping NZ：旅行者评价",
+          "body": [
+            "Rankers 是这里对比的 App 里新西兰 App Store 评分最多的，3,322 个评分，4.7 星，并说它 108,000 多条评价，每一条都由团队里的人阅读和核对过。它免费，页面说它只显示当地社区认可的过夜地点。",
+            "营地信息从第一次安装起就内置在里面，详细地图通过 Wi-Fi 下载。它只覆盖新西兰，所以不能取代 CamperMate 去管两国行程的另一半。"
+          ],
+          "tips": [
+            "换它为：评价和精选地点",
+            "免费",
+            "只有新西兰"
+          ]
+        },
+        {
+          "heading": "3. WikiCamps New Zealand：覆盖面大，一次性付费",
+          "body": [
+            "WikiCamps 把 WikiCamps New Zealand 作为单独的 App 在 App Store 出售，7.99 新西兰元，和 WikiCamps Australia 分开。它的用户添加了 12,000 多个新西兰地点，还有会估算油费的<a data-guide=\"plan-trip-kiwicamping\">行程规划</a>，以及涵盖地点和行程的离线模式。",
+            "覆盖面来自用户，所以凡是在法律上要紧的事，都要对照地方议会或 DOC 核对。它在新西兰 App Store 平均 4.5 分（137 个评分），在 Google Play 是 3.0 分（1,042 个评分）。"
+          ],
+          "tips": [
+            "换它为：收录地点最多",
+            "iPhone 上一次性 7.99 新西兰元",
+            "新西兰和澳洲是分开的 App"
+          ]
+        },
+        {
+          "heading": "4. thl Roadtrip：两国通用最接近的免费替换",
+          "body": [
+            "Tourism Holdings 的 thl Roadtrip，免费显示新西兰和澳洲你附近的营地、<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>、加油站和排污站。它在新西兰 App Store 的平均分是 4.6（122 个评分）。",
+            "它比 CamperMate 简单，评价基数小得多，页面里也没有提到优惠市场。对觉得改版太杂乱的旅行者来说，这种简单正是重点。"
+          ],
+          "tips": [
+            "换它为：简单的两国查找工具",
+            "免费",
+            "评价基数较小"
+          ]
+        },
+        {
+          "heading": "5. NZMCA App：给房车协会会员",
+          "body": [
+            "新西兰房车协会（New Zealand Motor Caravan Association）的 App，向会员提供它的 Travel Directory 和协会的 NZMCA Parks，每位成人每晚收 5 新西兰元。App 免费，会员入会 150 新西兰元，之后每年 102 新西兰元。",
+            "它要求有 NZMCA 会员资格，在新西兰 App Store 还没有评分（Google Play 上有 156 个评分，3.2 分）。长途旅行开<a data-guide=\"self-contained-campervan-green-warrant\">有自给自足认证</a>的房车，会员营地可以把会员费赚回来。"
+          ],
+          "tips": [
+            "换它为：NZMCA 会员营地",
+            "会员入会 150 新西兰元，另加每年 102 新西兰元",
+            "仅限会员"
+          ]
+        },
+        {
+          "heading": "CamperMate 仍然更好的时候",
+          "body": [
+            "如果行程涵盖两个国家，大多数夜晚订<a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>，又喜欢一路捡优惠，CamperMate 仍然在一个免费 App 里把三件事都做了。它可下载的地图和 27 种语言，对不读英语的游客也是真正的帮助。",
+            "如果问题出在改版，而不是 App 的用途，换之前，也许值得先更新并试试最新版本。5.8 版在 2026 年 10 月 16 日推出。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "我们怎么比较",
+          "body": [
+            "2026 年 10 月 20 日，我们读了每款 App 在新西兰 App Store 的页面、开发者自己的网站，以及有 Google Play 页面的也读了。评分和价格是当天显示的。评价的主题来自新西兰 App Store 上 CamperMate 最近的 50 条评价，其中 16 条日期在 2025 年或 2026 年，按数量报告。",
+            "功能只按各开发者自己的描述来写。没有写某项功能，不代表这款 App 没有。"
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "有没有没有广告的 CamperMate 替代品？",
+          "KiwiCamping 没有广告，Rankers 在 Google Play 的页面也没有广告标示；CamperMate 有广告。KiwiCamping 的 DOC 地点、收藏和行程需要付费的高级通行证，而 Rankers 免费。"
+        ],
+        [
+          "新西兰和澳洲两国旅行，可以用什么替代 CamperMate？",
+          "thl Roadtrip 免费覆盖两个国家的营地、假日公园、加油站和排污站。WikiCamps 分别出售新西兰和澳洲的 App，各自一次性付费。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "CamperMate 应用"
+        },
+        {
+          "label": "Google Play 上的 CamperMate"
+        },
+        {
+          "label": "Rankers Camping NZ 应用"
+        },
+        {
+          "label": "WikiCamps New Zealand 应用"
+        },
+        {
+          "label": "thl Roadtrip 页面数据（Apple，新西兰商店）"
+        },
+        {
+          "label": "NZMCA 会员费"
+        },
+        {
+          "label": "DOC 住宿"
+        }
+      ],
+      "priceTable": null
+    },
+    "road-trip-planner-apps-new-zealand": {
+      "title": "新西兰自驾行程规划 App 2026：6 款对比",
+      "description": "KiwiCamping、Wanderlog、Google 地图、WikiCamps、Apple 地图和 Polarsteps，为规划新西兰自驾做对比：停靠点、天数、离线使用和价格。2026 年 10 月核对。",
+      "region": "新西兰",
+      "imageAlt": "奥塔哥 Lindis Pass 的草原山谷和 8 号国道",
+      "intro": "规划新西兰自驾，要围绕通用地图 App 处理不好的三件事：每晚睡在哪里，下一段在蜿蜒的双车道公路上到底要开多久，以及在西海岸信号一断，还能读到什么。我们用这几个问题，比较了六款行程规划 App，依据是它们当前在新西兰 App Store 的页面和开发者自己的帮助页面，核对日期是 2026 年 10 月 20 日。因为 KiwiCamping 是我们做的，所以排第一；这些理由针对的是露营旅行，别的旅行类型，我们会直说该用哪款规划 App。",
+      "sections": [
+        {
+          "heading": "两句话的结论",
+          "body": [
+            "露营或房车旅行，用 KiwiCamping 规划，因为住宿的地点来自 DOC 自己的数据，计划里每个停靠点都带日期、备注和待办事项；然后让 Google 地图或 Apple 地图负责逐向导航开车。如果你是和一群人一起规划、要混合酒店和航班，或者想要一个停靠点不限数量的免费规划 App，Wanderlog 是更强的选择。",
+            "不管你用什么规划，开车那天早上，都要查新西兰交通局（NZ Transport Agency）的 Journeys 网站，看有没有封路。塌方、下雪和施工，可能封闭 Arthur's Pass 和 Haast 这样的山口，而 NZTA 是国道通不通的官方来源。"
+          ],
+          "tips": [],
+          "table": {
+            "caption": "2026 年 10 月 20 日在新西兰 App Store 和各开发者帮助页面核对。评分是新西兰 App Store 的平均分，附评分数量。",
+            "head": [
+              "App",
+              "最适合",
+              "价格",
+              "多站路线",
+              "没信号时",
+              "新西兰评分"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "按夜规划的露营自驾",
+                "免费；行程需要通行证 3.99 至 12.99 新西兰元",
+                "排好序的停靠点，带日期和距离",
+                "地点详情可以，地图图块不行",
+                "3.8（4）"
+              ],
+              [
+                "Wanderlog",
+                "团体旅行、预算、酒店和航班",
+                "免费；Pro 每月 27.99 新西兰元起",
+                "停靠点不限，路线优化",
+                "计划可离线保存",
+                "4.9（707）"
+              ],
+              [
+                "Google 地图",
+                "逐向驾车导航",
+                "免费",
+                "每条路线最多 9 个停靠点",
+                "下载过的区域",
+                "4.7（73,470）"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "营地加油费估算",
+                "7.99 新西兰元一次性付费（iPhone）",
+                "带停靠点和备注的行程规划",
+                "最多三个已规划的行程",
+                "4.5（137）"
+              ],
+              [
+                "Apple 地图",
+                "iPhone 上开车",
+                "免费，内置",
+                "多站驾车",
+                "下载过的地图",
+                "iPhone 内置"
+              ],
+              [
+                "Polarsteps",
+                "一路走一路记录旅行",
+                "免费；Plus 每月 14.99 新西兰元或每年 49.99 新西兰元",
+                "行程和路线追踪",
+                "未说明",
+                "4.9（2,985）"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping：按夜规划露营旅行",
+          "body": [
+            "KiwiCamping 把行程当作一份“夜晚”的清单，而不只是地图上的一条线。你在研究时把地点存进收藏，再把选中的加入行程，排好顺序，带日期、每个停靠点的备注（门禁密码或到达时段）、燃油、水和<a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">杂货</a>的待办清单、整条路线的总距离，以及你已走过多少。行程日期可以加入日历，行程也可以用文字分享。",
+            "这种旅行里，它排第一，原因就是住宿的地点。在 2026 年 8 月的数据里，App 有 287 个 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、927 座 DOC 小屋和 1,453 条 DOC 步道，附 DOC 公布的费用、狗的规定和预订要求（DOC 公布的地方才有）。这些详情存在手机里，所以没信号也能比较今晚的选择；地图图块、路线、天气和照片需要信号。",
+            "限制：<a data-guide=\"save-places-kiwicamping\">收藏</a>、行程和 DOC 地点都需要 KiwiCamping 高级通行证，新西兰 App Store 标价 3.99 至 12.99 新西兰元；只有 BookIt 的住宿和旅游项目免费。它只有 iPhone 版，要 iOS 26 或更高，只覆盖新西兰，不会替你优化停靠点的顺序，在新西兰有 4 个评分（3.8）。"
+          ],
+          "tips": [
+            "适合：按夜规划，不只是开车",
+            "收藏和行程要高级通行证",
+            "逐向导航交给地图 App"
+          ]
+        },
+        {
+          "heading": "2. Wanderlog：和别人一起规划",
+          "body": [
+            "Wanderlog 是通用的旅行规划 App，在新西兰有 707 个评分，4.9 分。它的页面描述了：按游览顺序标在地图上的行程、拖动排序、时间、备注和链接、免费且不限数量的自驾停靠点、带每天行车时间和距离的路线优化、实时协作、预算和分摊账单，以及可离线使用的已保存计划。",
+            "Pro 在新西兰 App Store 每月 27.99 新西兰元，也列出了年付选项，并增加导出到 Google 地图等功能。它没有专门的新西兰露营图层，所以 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>的费用、狗的规定和预订细节，要到 DOC 的网站上查。"
+          ],
+          "tips": [
+            "适合：团体、预算、混合行程",
+            "免费且停靠点不限",
+            "DOC 细节到 DOC 网站查"
+          ]
+        },
+        {
+          "heading": "3. Google 地图：开车本身",
+          "body": [
+            "Google 地图是逐向导航的默认选择，在新西兰有 73,470 个评分，4.7 分。它的路线最多接受 9 个停靠点（含目的地），够一两天的车程，不够两周，路线本身也没有天数、备注或预算。",
+            "离开主要城镇之前，要下载离线区域。Google 的帮助页面说，离线驾车导航只在整条路线都在已下载区域内时才有用，离线模式没有路况，也没有备选路线，所以沿着你要开的走廊，要多下载一些。"
+          ],
+          "tips": [
+            "适合：导航",
+            "每条路线 9 个停靠点",
+            "沿整条路线下载区域"
+          ]
+        },
+        {
+          "heading": "4. WikiCamps New Zealand：营地加油费估算",
+          "body": [
+            "WikiCamps New Zealand 在 App Store 一次性 7.99 新西兰元，把用户建立的 12,000 多个新西兰地点的数据库，和<a data-guide=\"plan-trip-kiwicamping\">行程规划</a>结合在一起。它的网站描述了：添加停靠点、备注、自定义图钉和路线，估算油费，以及最多三个已规划行程的离线访问。",
+            "对露营旅行来说，它是和 KiwiCamping 最接近的同类替代品。区别在数据：WikiCamps 的列表由它的用户社区添加并保持更新，而 KiwiCamping 的 DOC 地点来自 DOC 公布的数据。它在新西兰 App Store 有 137 个评分，4.5 分。"
+          ],
+          "tips": [
+            "适合：营地规划，一次性付费",
+            "油费估算",
+            "最多三个行程可离线"
+          ]
+        },
+        {
+          "heading": "5. Apple 地图：在 iPhone 上什么都不想多装就选它",
+          "body": [
+            "Apple 地图是每台 iPhone 自带的，支持多站驾车路线，可以下载地图供没信号时使用。如果只需要从一个停靠点开到下一个，它不用再多下载什么就能完成。",
+            "和 Google 地图一样，它是导航，不是<a data-guide=\"plan-trip-kiwicamping\">行程规划</a>：多站驾车没有夜晚、日期或待办事项，备注是记在收藏的地点上，而不是记在这趟路上，而且 Android 上用不了。"
+          ],
+          "tips": [
+            "适合：简单的 iPhone 导航",
+            "偏远路段前先下载地图",
+            "没有行程日期或待办"
+          ]
+        },
+        {
+          "heading": "6. Polarsteps：记录旅行",
+          "body": [
+            "Polarsteps 主要是旅行日志，会自动追踪你的路线，建立一张你去过哪里的地图，页面里还有行程规划。它在新西兰有 2,985 个评分，4.9 分，Plus 每月 14.99 新西兰元或每年 49.99 新西兰元。",
+            "它是和家里人分享旅行的好搭档。它不是围绕营地或行车时间建的，所以要配一个规划 App 和一个导航 App。"
+          ],
+          "tips": [
+            "适合：可分享的旅行记录",
+            "Plus 是可选的",
+            "配一个规划 App"
+          ]
+        },
+        {
+          "heading": "每次长途驾驶前查 NZTA Journeys",
+          "body": [
+            "新西兰交通局的 Journeys 网站，显示国道封闭、施工、交通摄像头和假期交通预测，免费的 My Journeys 账户会就你保存的路线给你发邮件。它是网站，不是 App，是路通不通的权威来源。",
+            "如果你的路线要过<a data-guide=\"cook-strait-ferry-campervan-guide\">库克海峡</a>，先向 Interislander 或 Bluebridge 订好渡轮，并围绕航班安排每天的行程，因为渡轮是唯一一段你没法挪动一小时的路程。"
+          ],
+          "tips": [
+            "封路查 NZTA Journeys",
+            "先订库克海峡渡轮",
+            "开车那天早上再查一次"
+          ]
+        },
+        {
+          "heading": "我们怎么选、怎么核查",
+          "body": [
+            "我们比较的是新西兰旅行者用来规划自驾旅行的 App，核对日期是 2026 年 10 月 20 日，依据是每款 App 在新西兰 App Store 的页面和开发者自己的帮助页面。没有收 Roadtrippers，因为它在新西兰的页面说，它是为美国和加拿大设计的；也没有收 TripIt，因为它整理的是预订，不是路线。",
+            "评分、价格和停靠点上限是当天列出的。我们只按开发者自己的描述来写功能，所以这里没有提到的功能，不代表这款 App 没有。"
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "新西兰最好用的自驾行程规划 App 是哪款？",
+          "露营或房车旅行，我们推荐我们自己做的 KiwiCamping，因为它按夜规划，内置 DOC 营地和小屋；开车用 Google 地图或 Apple 地图。团体旅行或混合酒店和航班的旅行，Wanderlog 是更强的规划 App。"
+        ],
+        [
+          "Google 地图能规划新西兰的多站自驾吗？",
+          "能，一条路线最多 9 个停靠点（含目的地），适合一两天，不适合整趟旅行。要沿整条路线下载离线区域，因为没网时的导航只在这些区域内有用。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Wanderlog 应用"
+        },
+        {
+          "label": "Google 地图：添加多个目的地"
+        },
+        {
+          "label": "Google 地图：下载区域供离线使用"
+        },
+        {
+          "label": "WikiCamps New Zealand 应用"
+        },
+        {
+          "label": "Polarsteps 应用"
+        },
+        {
+          "label": "NZTA Journeys：路况和封路"
+        },
+        {
+          "label": "Interislander 渡轮"
+        },
+        {
+          "label": "Bluebridge 渡轮"
         }
       ],
       "priceTable": null
