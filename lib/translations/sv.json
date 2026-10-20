@@ -88,8 +88,8 @@
     "routesTitle": "Koll på reglerna. Koll på kostnaderna.",
     "routesText": "Praktiska guider om campingregler, säkerhet, rätt säsong och vad en resa i Nya Zeeland faktiskt kostar.",
     "exploreRoutes": "Utforska guiderna",
-    "audiencesEyebrow": "Vilket hem du än tar med dig",
-    "audiencesTitle": "För tält, husbilar och varvet runt Australien.",
+    "audiencesEyebrow": "Oavsett hur du bor på vägen",
+    "audiencesTitle": "För tält, husbilar och långa rundresor i Nya Zeeland.",
     "audience1Title": "Backpackers",
     "audience1Text": "Få en snål budget och en flexibel rutt att gå ihop.",
     "audience2Title": "Husbilar",
@@ -119,7 +119,7 @@
     "faq5q": "Vad är samlingar?",
     "faq5a": "Det finns två slags. Smarta samlingar (”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade”) fylls på av sig själva när du markerar platser. Utöver dem kan du skapa egna samlingar med namn, ikon och anteckningar för en region, en säsong, ett fordon eller ett urval.",
     "faq6q": "Kan jag filtrera fram gratisplatser eller platser för self-contained-fordon?",
-    "faq6a": "Ja, och kombinera dem. Filtren täcker typ av plats, avgift, lägsta betyg, bokning på nätet, region och detaljerade egenskaper för faciliteter och framkomlighet, så ”gratis campingplatser med toalett och dricksvatten nära Queenstown” blir en enda sökning.",
+    "faq6a": "Ja, även i kombination. Filtren täcker typ av plats, avgift, lägsta betyg, bokning på nätet, region och detaljerade egenskaper för faciliteter och framkomlighet, så ”gratis campingplatser med toalett och dricksvatten nära Queenstown” blir en enda sökning.",
     "faq7q": "Vad finns på en platssida?",
     "faq7a": "Foton, en beskrivning, öppettider, avgifter, villkor, faciliteter sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder, Street View där det finns bilder, vägbeskrivning och alternativ i närheten.",
     "faq8q": "Vilka kartvyer finns det?",
@@ -333,7 +333,7 @@
           "heading": "Barn och kontakt",
           "paragraphs": [
             "KiwiCamping är ett allmänt reseverktyg och riktar sig inte till barn. Skicka inte personuppgifter om ett barn via supporten.",
-            "Kontakta KiwiCamping support om du har frågor om integritet."
+            "Kontakta KiwiCamping-supporten om du har frågor om integritet."
           ]
         }
       ]
@@ -377,7 +377,7 @@
           "heading": "Immateriella rättigheter och kontakt",
           "paragraphs": [
             "Varumärket KiwiCamping, gränssnittet och det ursprungliga redaktionella innehållet tillhör respektive ägare. Platsnamn och offentliga fakta förblir de ursprungliga källornas egendom eller ansvar.",
-            "Frågor kan skickas till KiwiCamping support."
+            "Frågor kan skickas till KiwiCamping-supporten."
           ]
         }
       ]
@@ -450,8 +450,8 @@
         {
           "heading": "En realistisk veckobudget",
           "body": [
-            "Reser du ensam, håller i pengarna och lagar det mesta själv kan du räkna med 110 till 180 NZD i veckan för matinköp. Ett par kommer billigare undan per person, eftersom de delar på basvarorna. Dyrare kött, färdigmat, specialkost och inköp i avlägsna butiker drar snabbt upp summan.",
-            "Lägg kaffe, takeaway och middagar ute med andra i en egen budgetpost. Räknar du allt du lägger på mat som matinköp döljer du just de utgifter som är lättast att skära i när budgeten behöver justeras."
+            "Reser du ensam, håller i pengarna och lagar det mesta själv kan du räkna med 110 till 180 NZD i veckan för <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">matinköp</a>. Ett par kommer billigare undan per person, eftersom de delar på basvarorna. Dyrare kött, färdigmat, specialkost och inköp i avlägsna butiker drar snabbt upp summan.",
+            "Lägg kaffe, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> och middagar ute med andra i en egen budgetpost. Räknar du allt du lägger på mat som matinköp döljer du just de utgifter som är lättast att skära i när budgeten behöver justeras."
           ],
           "tips": []
         },
@@ -659,7 +659,7 @@
           "heading": "Bokning, först till kvarn eller pass",
           "body": [
             "På sidan för varje campingplats står det vilket system som gäller, och de flesta problem när folk kommer fram beror på att de har blandat ihop dem. Ett Campsite Pass är ett sätt att betala, inte en bokning. Det ger dig ingen plats på en camping som kräver bokning, och det hjälper inte heller på en camping med först till kvarn som redan är full.",
-            "Där bokning krävs bokar du för det sällskap och det fordon du faktiskt kommer med. Spara bekräftelsen så att du kan visa den utan nät, för på DOC:s campingplatser saknas ofta mobiltäckning. En bokning du inte kan visa upp är svår att hävda när campingvärden fördelar platserna på en full camping."
+            "Där bokning krävs bokar du för det sällskap och det fordon du faktiskt kommer med. Spara bekräftelsen så att du kan visa den utan nät, för på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC:s campingplatser</a> saknas ofta mobiltäckning. En bokning du inte kan visa upp är svår att hävda när campingvärden fördelar platserna på en full camping."
           ],
           "tips": [
             "Ett pass är ingen bokning",
@@ -690,7 +690,7 @@
         {
           "heading": "Maxtid och hänsyn på platsen",
           "body": [
-            "De flesta DOC-campingar har en gräns för hur länge du får stanna, ofta bara några nätter i rad, för att ingen ska kunna bosätta sig där. På populära campingar kontrollerar campingvärdarna det faktiskt under sommaren, och det hjälper inte att flytta bilen några meter.",
+            "De flesta <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingar</a> har en gräns för hur länge du får stanna, ofta bara några nätter i rad, för att ingen ska kunna bosätta sig där. På populära campingar kontrollerar campingvärdarna det faktiskt under sommaren, och det hjälper inte att flytta bilen några meter.",
             "Håll dig inom den markerade platsen, bred inte ut dig med markis eller prylar när det är trångt, och respektera nattron. Campingarna delas av många och är ofta fulla, så alla trivs bara om var och en håller sig på sin egen plats."
           ],
           "tips": []
@@ -708,7 +708,7 @@
           "heading": "Om campingen är full",
           "body": [
             "Populära DOC-campingar är fulla redan mitt på eftermiddagen på sommaren, och det finns ingen reservyta. Att ordna en egen plats på gräset, på infartsvägen eller bredvid toaletthuset är inget alternativ, och campingvärdarna kommer att be dig åka vidare.",
-            "Ta reda på ett lagligt alternativ innan du kommer fram, inte efteråt. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. En holiday park en halvtimme bort är mycket bättre än att köra sent på en okänd väg och leta efter något ställe som tar emot dig."
+            "Ta reda på ett lagligt alternativ innan du kommer fram, inte efteråt. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. En <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> en halvtimme bort är mycket bättre än att köra sent på en okänd väg och leta efter något ställe som tar emot dig."
           ],
           "tips": [
             "Populära campingar är fulla mitt på eftermiddagen",
@@ -810,14 +810,14 @@
           "body": [
             "Att parkera en husbil är en sak, att campa i den en annan. Bilen kan stå lagligt parkerad och det kan ändå vara förbjudet att sova i den. Det är just den skillnaden som de flesta böter faktiskt handlar om. Allemansrätten finns inte i Nya Zeeland: du får bara övernatta där det uttryckligen är tillåtet.",
             "Husbilar fastnar ständigt på höjdbegränsningar i städernas parkeringshus, och ofta är bommen det första tecknet. Leta efter skyltad maxhöjd innan du kör in, och använd i stället de markparkeringar eller extraplatser för större fordon som finns på de flesta orter.",
-            "I städerna är det smidigast att lämna bilen på en campingplats eller en infartsparkering (park-and-ride) och åka kollektivt in. Det går snabbare, blir billigare och du slipper hela problemet i stället för att behöva lösa det."
+            "I städerna är det smidigast att lämna bilen på en campingplats eller en infartsparkering (park-and-ride) och åka <a data-guide=\"public-transport-costs-new-zealand-2026\">kollektivt</a> in. Det går snabbare, blir billigare och du slipper hela problemet i stället för att behöva lösa det."
           ],
           "tips": []
         },
         {
           "heading": "Färjor, tunnlar och höjdgränser",
           "body": [
-            "Priset för färjan över Cooksundet (Cook Strait) beror på fordonets längd och höjd, och båda kontrolleras. Vissa tunnlar i städerna och äldre broar har höjd- eller viktbegränsningar, och några vägar stängs för höga fordon vid hård vind.",
+            "Priset för färjan över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> (Cook Strait) beror på fordonets längd och höjd, och båda kontrolleras. Vissa tunnlar i städerna och äldre broar har höjd- eller viktbegränsningar, och några vägar stängs för höga fordon vid hård vind.",
             "Ha exakt koll på måtten och jämför dem med varje rutt där det finns en tunnel, en låg bro eller en färjebokning. Det är gissningar som slutar med en dyr prisjustering vid terminalen, eller något värre ute på vägen."
           ],
           "tips": [
@@ -898,7 +898,7 @@
         {
           "heading": "Därför kräver vägarna själva lägre fart",
           "body": [
-            "Nya Zeelands huvudvägar har oftast ett körfält i varje riktning och inget mitträcke. Kurvorna är snäva, doseringen skiftar, det finns enfiliga broar, boskap går utan stängsel och många grusade sidovägar drar ut grus på asfalten. Någon vägren som förlåter ett misstag finns knappt.",
+            "Nya Zeelands huvudvägar har oftast ett körfält i varje riktning och inget mitträcke. Kurvorna är snäva, doseringen skiftar, det finns <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">enfiliga broar</a>, boskap går utan stängsel och många grusade sidovägar drar ut grus på asfalten. Någon vägren som förlåter ett misstag finns knappt.",
             "Den kombinationen förklarar varför olyckorna med utländska förare är koncentrerade till vägarna på landsbygden. En säker fart ligger oftast en bra bit under gränsen, och det du förlorar på en hel dag är några minuter, inte den timme många föreställer sig."
           ],
           "tips": [
@@ -928,7 +928,7 @@
           "heading": "Så fungerar fartkameror och böter",
           "body": [
             "Fasta och mobila kameror finns i hela landet, och toleransen är liten. Böterna går till fordonets registrerade ägare, så hyrfirman får dem och skickar dem vidare till dig med en administrationsavgift.",
-            "Prickarna gäller inte för utländska körkort, men böterna gör det, och obetalda böter kan komma ikapp dig senare. Betala dem i stället för att räkna med att de försvinner när du lämnar landet."
+            "Prickarna gäller inte för <a data-guide=\"overseas-driver-licence-new-zealand\">utländska körkort</a>, men böterna gör det, och obetalda böter kan komma ikapp dig senare. Betala dem i stället för att räkna med att de försvinner när du lämnar landet."
           ],
           "tips": [
             "Liten tolerans",
@@ -1001,7 +1001,7 @@
           "heading": "Där bränslet är dyrast",
           "body": [
             "Priserna är lägst i de stora städerna och vid förortsmackar med konkurrens, och högst på avlägsna sträckor med bara en mack. West Coast, Fiordland, East Cape, inlandet i Otago och längst upp i norr är alla dyrare, ibland betydligt dyrare.",
-            "Det högre priset är inget skäl att köra tanken nästan tom. Att tanka tjugo liter lite dyrare är en struntsumma jämfört med att få soppatorsk någonstans utan täckning, och de dyraste mackarna är oftast de som saknar konkurrent inom hundra kilometer."
+            "Det högre priset är inget skäl att köra tanken nästan tom. Att tanka tjugo liter lite dyrare är en struntsumma jämfört med att få soppatorsk någonstans <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a>, och de dyraste mackarna är oftast de som saknar konkurrent inom hundra kilometer."
           ],
           "tips": []
         },
@@ -1079,7 +1079,7 @@
       }
     },
     "doc-campsites-new-zealand-guide": {
-      "title": "DOC-campingplatser och stugor: kategorier, avgifter och bokning",
+      "title": "DOC-campingplatser och stugor: kategorier, avgifter, bokning och etikett",
       "description": "Så delar DOC in sina campingplatser och stugor i kategorier, vad varje nivå ger dig och hur bokningssystemet egentligen fungerar.",
       "region": "Nya Zeelands skyddade natur",
       "imageAlt": "Tält på en DOC-campingplats",
@@ -1109,7 +1109,7 @@
           "heading": "Bokning, pass och skillnaden mellan dem",
           "body": [
             "På sidan för varje campingplats står det om platsen går att boka, är först till kvarn eller omfattas av ett Campsite Pass. Det här är det som flest missar: ett Campsite Pass är ett sätt att betala, inte en reservation. Har du ett pass är du inte garanterad en plats på en camping där bokning krävs, och passet reserverar ingenting på en först till kvarn-plats.",
-            "Där bokning krävs ska du boka för det fordon och det antal personer du faktiskt kommer med, och ha bekräftelsen sparad så att den går att visa utan täckning. Det finns ofta ingen reception på campingplatsen, och en bokning du inte kan visa upp är svår att försvara när en vakt fördelar platserna på en full camping."
+            "Där bokning krävs ska du boka för det fordon och det antal personer du faktiskt kommer med, och ha bekräftelsen sparad så att den går att visa utan täckning. På själva campingplatsen saknas ofta mobiltäckning, och en bokning du inte kan visa upp är svår att försvara när campingvärden fördelar platserna på en full camping."
           ],
           "tips": [
             "Ett pass är ingen bokning",
@@ -1141,7 +1141,7 @@
           "heading": "Välj plats efter resan",
           "body": [
             "En Basic-plats är utmärkt i stabilt väder med rätt utrustning, och eländig när allt redan är blött. En natt på en Serviced-plats löser blöt utrustning, tomma batterier, tvätt och humör på en gång, och är ofta värd mer än den kostar efter några tuffa dagar vid kusten.",
-            "Kolla detaljerna för just den plats du tänker på innan du bestämmer dig: regler för eld, om hundar är tillåtna, begränsningar för generatorer, längsta tillåtna vistelse och när vägen dit är öppen under säsongen. Fjällvägar och småvägar kan stänga med kort varsel, och larmen står på campingplatsens sida."
+            "Kolla detaljerna för just den plats du tänker på innan du bestämmer dig: regler för eld, om hundar är tillåtna, begränsningar för generatorer, längsta tillåtna vistelse och när vägen dit är öppen under säsongen. Fjällvägar och småvägar kan stänga med kort varsel, och aktuella varningar finns på campingplatsens sida."
           ],
           "tips": []
         }
@@ -1164,17 +1164,17 @@
           "label": "DOC: stugor"
         },
         {
-          "label": "DOC: larm och avstängningar"
+          "label": "DOC: varningar och avstängningar"
         }
       ],
       "priceTable": null
     },
     "camping-fees-new-zealand-2026": {
-      "title": "Vad kostar det att campa på Nya Zeeland? Budget 2026",
+      "title": "Vad kostar det att campa i Nya Zeeland? Budget 2026",
       "description": "Avgifter hos DOC, priser på holiday parks, bränsle, mat och extrakostnader, samlat i dagsbudgetar som går att planera efter.",
-      "region": "Campingplatser på Nya Zeeland",
-      "imageAlt": "Tält och husbil på en campingplats på Nya Zeeland",
-      "intro": "Att campa är det billigaste sättet att resa runt på Nya Zeeland, men ”billigt” rymmer allt från nästan gratis till dyrare än ett motellrum. Ordet campingplats kan betyda ett gratis utedass vid en bäck med obehandlat vatten, eller en strandnära elplats med kök och tvättstuga. En summa per natt säger därför inget förrän du kopplar den till en kategori och ett antal personer.",
+      "region": "Campingplatser i Nya Zeeland",
+      "imageAlt": "Tält och husbil på en campingplats i Nya Zeeland",
+      "intro": "Att campa är det billigaste sättet att resa runt i Nya Zeeland, men ”billigt” rymmer allt från nästan gratis till dyrare än ett motellrum. Ordet campingplats kan betyda ett gratis utedass vid en bäck med obehandlat vatten, eller en strandnära elplats med kök och tvättstuga. En summa per natt säger därför inget förrän du kopplar den till en kategori och ett antal personer.",
       "sections": [
         {
           "heading": "DOC tar betalt per person, inte per plats",
@@ -1197,15 +1197,15 @@
           "tips": []
         },
         {
-          "heading": "Kostnaderna som inte är campingplatsen",
+          "heading": "Kostnaderna utöver campingplatsen",
           "body": [
             "Bränsle är oftast den största posten efter boendet, och det styrs av körsträcka och förbrukning, inte av antalet nätter. Räkna ordentligt: kilometer gånger liter per 100 km, delat med 100, gånger literpriset. En husbil som drar 12 liter per 100 km och körs 3 000 km använder 360 liter, och den uträkningen betyder mer än skillnaden mellan en camping för 15 NZD och en för 25 NZD.",
-            "Lägg sedan till mat, färjor om du korsar <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a>, aktiviteter och själva fordonet om du hyr. Avgiften för enkelresa och självrisken i försäkringen är lätta att glömma och kostar båda mycket."
+            "Lägg sedan till mat, färjor om du korsar <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a>, aktiviteter och själva fordonet om du hyr. Avgiften för att lämna bilen på en annan ort och tillägget som sänker självrisken är lätta att glömma, och båda kostar mycket."
           ],
           "tips": [
             "Bränsle väger ofta tyngre än campingavgiften",
             "Cooksundet är en stor fast kostnad",
-            "Räkna enkelresa vid hyra för sig"
+            "Räkna avgiften för enkelriktad hyra separat"
           ]
         },
         {
@@ -1219,7 +1219,7 @@
         {
           "heading": "Var fricamping verkligen sparar pengar, och var inte",
           "body": [
-            "Fricamping sparar riktiga pengar när fordonet är utrustat för det och rutten redan passerar lämpliga platser. Det slutar löna sig när du kör 60 km extra för att nå en gratisplats, när bristen på faciliteter ändå tvingar fram en betald natt, eller när en bot på 400 NZD landar för att intyget inte var giltigt.",
+            "Fricamping sparar riktiga pengar när fordonet är utrustat för det och rutten redan passerar lämpliga platser. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. Det slutar löna sig när du kör 60 km extra för att nå en gratisplats, när bristen på faciliteter ändå tvingar fram en betald natt, eller när en bot på 400 NZD landar för att intyget inte var giltigt.",
             "Räkna med fler betalda nätter än du tänkt dig. Dusch, tvätt, laddning, vatten och en ordentlig återhämtning är värda något, och att tvinga fram en olämplig gratisnatt efter en blöt vecka är ingen besparing."
           ],
           "tips": [
@@ -1229,7 +1229,7 @@
           ]
         },
         {
-          "heading": "Håll budgeten ärlig",
+          "heading": "Håll koll på budgeten",
           "body": [
             "Skriv upp vad du faktiskt spenderar de första tre eller fyra dagarna och jämför med planen. Det är enkelt att rätta till en liten avvikelse tidigt, men upptäcker du i vecka fyra att du ligger 40 procent över måste du skära bort den del av resan du såg mest fram emot. Det som glider iväg är nästan alltid mat och små betalda aktiviteter, inte boendet.",
             "Ha en riktig reserv för det oväntade: ett däck, en regndag som gör att du måste ta en stuga, en ändrad färjetur. En resa utan ekonomiskt utrymme gör varje litet problem till en fråga om du ska fortsätta."
@@ -1239,12 +1239,12 @@
       ],
       "faq": [
         [
-          "Vad kostar det att campa per natt på Nya Zeeland?",
+          "Vad kostar det att campa per natt i Nya Zeeland?",
           "Det varierar från gratis på Basic-platser hos DOC, via Standard- och Scenic-platser, till holiday parks, och guiden anger priset för varje nivå med datum. DOC tar betalt per vuxen och holiday parks ofta per plats, så två liknande belopp kan ge helt olika totalsummor."
         ],
         [
-          "Är det billigare att campa på Nya Zeeland än att bo på vandrarhem?",
-          "Per natt, ja, tydligt. Över hela resan beror svaret på fordonet, eftersom hyran och bränslet som gör de billiga platserna nåbara oftast kostar mer än boendet de ersätter."
+          "Är det billigare att campa i Nya Zeeland än att bo på vandrarhem?",
+          "Per natt, utan tvekan. Över hela resan beror svaret på fordonet, eftersom hyran och bränslet som krävs för att ta sig till de billiga platserna oftast kostar mer än boendet de ersätter."
         ]
       ],
       "sources": [
@@ -1296,8 +1296,8 @@
       "title": "Campingappar för Nya Zeeland: en jämförelse",
       "description": "Så skiljer sig KiwiCamping, Rankers, CamperMate, WikiCamps och AllTrails åt när det gäller platsdata utan täckning, regler för freedom camping och reseplanering.",
       "region": "Nya Zeeland",
-      "imageAlt": "Campingapp öppen på en mobil vid en campingplats på Nya Zeeland",
-      "intro": "Ingen enskild app täcker alla delar av en campingresa på Nya Zeeland lika bra. Frågan som hjälper dig är inte vilken app som är bäst totalt, utan vilken som svarar på det du faktiskt undrar: var kan jag lagligt stå i natt, vilken stuga har en ledig brits, eller var ligger närmaste tömningsstation. Den här jämförelsen visar vad de största alternativen är byggda för, så att du kan välja den kombination som passar din resa.",
+      "imageAlt": "Campingapp öppen på en mobil vid en campingplats i Nya Zeeland",
+      "intro": "Ingen enskild app täcker alla delar av en campingresa i Nya Zeeland lika bra. Frågan som hjälper dig är inte vilken app som är bäst totalt, utan vilken som svarar på det du faktiskt undrar: var kan jag lagligt stå i natt, vilken stuga har en ledig brits, eller var ligger närmaste tömningsstation. Den här jämförelsen visar vad de största alternativen är byggda för, så att du kan välja den kombination som passar din resa.",
       "sections": [
         {
           "heading": "Vad som faktiskt spelar roll i en campingapp för Nya Zeeland",
@@ -1356,10 +1356,10 @@
           "tips": []
         },
         {
-          "heading": "Andra alternativ på Nya Zeeland som är värda att känna till",
+          "heading": "Andra alternativ i Nya Zeeland som är värda att känna till",
           "body": [
             "NZMCA:s app är bara för medlemmar och bygger på gemensam campingdata, med ett viktigt tillskott: medlemsplatser och <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstationer</a> som inte finns någon annanstans. Är du medlem, eller funderar på att gå med inför en lång resa, ändrar det nätverket kalkylen rejält.",
-            "DOC:s egen Campsite Finder täcker DOC:s campingplatser och inget annat. Den är den mest pålitliga källan för just det, eftersom avgifter, kategorier och larm kommer från källan, men den hjälper dig inte med kommunala föreskrifter, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> eller tömningsstationer, så den fungerar som uppslagsverk och inte som reseplanerare."
+            "DOC:s egen Campsite Finder täcker DOC:s campingplatser och inget annat. Den är den mest pålitliga källan för just det, eftersom avgifter, kategorier och varningar kommer direkt från DOC, men den hjälper dig inte med kommunala föreskrifter, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> eller tömningsstationer, så den fungerar som uppslagsverk och inte som reseplanerare."
           ],
           "tips": []
         },
@@ -1378,7 +1378,7 @@
         {
           "heading": "Så skiljer sig prismodellerna åt",
           "body": [
-            "Apparna finansieras på fyra olika sätt, och varje sätt påverkar vad du ser. Verktyg med prenumeration tar betalt direkt och har inget skäl att föredra en plats framför en annan. Bokningsfinansierade appar tjänar på reservationer, vilket brukar lyfta fram kommersiella platser som går att boka före gratisplatser. Appar med engångsavgift tar betalt en gång och är sedan oberoende. Gratisappar utan synliga intäkter är värda en stunds eftertanke om var värdet tar vägen.",
+            "Apparna finansieras på fyra olika sätt, och varje sätt påverkar vad du ser. Verktyg med prenumeration tar betalt direkt och har inget skäl att föredra en plats framför en annan. Bokningsfinansierade appar tjänar på reservationer, vilket brukar lyfta fram kommersiella platser som går att boka före gratisplatser. Appar med engångsavgift tar betalt en gång och har sedan inget intresse av vad du väljer. Gratisappar utan synliga intäkter är värda en stunds eftertanke: vem tjänar egentligen pengar på dem?",
             "KiwiCamping är gratis att ladda ner, med karta och platssökning utan kostnad, och ett betalt pass ger sparade listor, fullständiga platsuppgifter, reseplanering, avancerade <a data-guide=\"kiwicamping-filters-guide\">filter</a> och åtkomst utan täckning. Aktuella priser visas i App Store eftersom de skiljer sig mellan regioner och ändras. Vi hänvisar hellre till det gällande priset än publicerar ett som blir inaktuellt här."
           ],
           "tips": []
@@ -1387,19 +1387,19 @@
           "heading": "Vilken kombination passar din resa",
           "body": [
             "För en self-contained van som tar sig fram i avlägsna områden bör du prioritera data som fungerar utan täckning och tydliga regler, och lägga till en app med omdömen för de mer trafikerade sträckorna där du ändå har signal. För en familjeresa med elplatser och skollov har en bokningsinriktad app sin plats, och då spelar djupet utan täckning mindre roll.",
-            "På en blandad resa med riktig vandring kör du en campingapp för nätterna med fordonet och en vandringsapp för lederna. De flesta som reser på Nya Zeeland i mer än två veckor slutar med två appar, och det är ett rimligt resultat, inte ett misslyckande att välja."
+            "På en blandad resa med riktig vandring kör du en campingapp för nätterna med fordonet och en vandringsapp för lederna. De flesta som reser i Nya Zeeland i mer än två veckor slutar med två appar, och det är ett rimligt resultat, inte ett misslyckande att välja."
           ],
           "tips": []
         },
         {
           "heading": "Titta på regeln, inte på kartnålen",
           "body": [
-            "Alla appar i den här jämförelsen, vår egen med, är hjälpmedel för planeringen. Skyltar på plats, kommunens gällande föreskrifter, larm från DOC och anvisningar från markförvaltaren gäller före allt som ligger sparat i en telefon, och de ändras oftare än appdata uppdateras. <a data-guide=\"campfire-rules-new-zealand\">Eldningsförbud</a> och rāhui kan i synnerhet införas snabbt.",
+            "Alla appar i den här jämförelsen, vår egen med, är hjälpmedel för planeringen. Skyltar på plats, kommunens gällande föreskrifter, varningar från DOC och anvisningar från markförvaltaren gäller före allt som ligger sparat i en telefon, och de ändras oftare än appdata uppdateras. Framför allt <a data-guide=\"campfire-rules-new-zealand\">eldningsförbud</a> och rāhui (tillfälliga maoriska förbud) kan införas snabbt.",
             "Läs skylten vid entrén innan du slår dig ner för natten. Säger den något annat än appen är det skylten som gäller. Den vanan kostar ingenting och är det som gör att <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> fortfarande finns kvar."
           ],
           "tips": [
             "Skyltar gäller före appdata",
-            "Kolla DOC:s larm igen före avlägsna sträckor",
+            "Kolla DOC:s varningar igen före avlägsna sträckor",
             "Eldningsförbud kan ändras över natten"
           ]
         }
@@ -1410,7 +1410,7 @@
           "Fungera utan täckning, ha korrekta uppgifter om avgifter och utrustning, filtrera på en riktig fråga i stället för en kategori och tala om om en plats kräver ett self-contained-fordon. Många platser i katalogen hjälper lite om uppgifterna är fel eller inte går att läsa utan signal."
         ],
         [
-          "Räcker det med en campingapp på Nya Zeeland?",
+          "Räcker det med en campingapp i Nya Zeeland?",
           "För att hitta och planera, oftast ja. De flesta resenärer har ändå kvar bokningsleverantörens egen app för de platser de reserverar, och DOC:s och NZTA:s egna källor för bokning av stugor och aktuell vägstatus."
         ]
       ],
@@ -1419,7 +1419,7 @@
           "label": "DOC: camping och boende"
         },
         {
-          "label": "DOC: larm och avstängningar"
+          "label": "DOC: varningar och avstängningar"
         },
         {
           "label": "DOC: planera en ansvarsfull campingresa"
@@ -1428,7 +1428,7 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Lägereld på Nya Zeeland: eldningssäsonger och regler",
+      "title": "Lägereld i Nya Zeeland: eldningssäsonger och regler",
       "description": "Så fungerar Nya Zeelands system med eldningssäsonger, när du behöver tillstånd och hur du lagar mat säkert när öppen eld är förbjuden.",
       "region": "Nya Zeeland",
       "imageAlt": "Liten kontrollerad lägereld på en godkänd eldplats",
@@ -1458,7 +1458,7 @@
           "heading": "När eld faktiskt är tillåten",
           "body": [
             "Använd den godkända eldstad som finns i stället för att bygga en ny. Röj undan brännbart material långt runt omkring, håll elden liten och ha vatten inom räckhåll, inte i bilen utan bredvid dig. Tänd aldrig under överhängande träd, på torv, i hård vind eller nära torrt gräs, gorse eller mānuka, som alla sprider eld mycket snabbare än man tror.",
-            "Elda bara med bränsle du får använda. Det är förbjudet att samla levande växtlighet på skyddad mark, och på många platser måste du ta med eget ved. Bränn inte sopor, plast, folie eller behandlat virke."
+            "Elda bara med bränsle du får använda. Det är förbjudet att samla levande växtlighet på skyddad mark, och på många platser måste du ta med egen ved. Bränn inte sopor, plast, folie eller behandlat virke."
           ],
           "tips": [
             "Vatten bredvid dig, inte i bilen",
@@ -1478,7 +1478,7 @@
           "heading": "Matlagning när eld är förbjuden",
           "body": [
             "Gaskök är det praktiska svaret och är oftast tillåtna när öppen eld inte är det, men kolla, för en förbjuden eldningssäsong kan begränsa vissa apparater också. Ställ köket på ett stabilt, plant underlag, väl ifrån tältduk och växtlighet.",
-            "Laga aldrig mat i ett stängt tält, under en markis eller i ett fordon utan ventilation. Risken är kolmonoxid, som är luktfri och har dödat campare på Nya Zeeland. Låt köket svalna helt innan det åker tillbaka in i fordonet eller tältet, och förvara gasflaskor stående och ventilerat."
+            "Laga aldrig mat i ett stängt tält, under en markis eller i ett fordon utan ventilation. Risken är kolmonoxid, som är luktfri och har dödat campare i Nya Zeeland. Låt köket svalna helt innan det åker tillbaka in i fordonet eller tältet, och förvara gasflaskor stående och ventilerat."
           ],
           "tips": [
             "Laga aldrig mat i stängt tält eller stängd bil",
@@ -1497,7 +1497,7 @@
       ],
       "faq": [
         [
-          "Får man göra upp lägereld på Nya Zeeland?",
+          "Får man göra upp lägereld i Nya Zeeland?",
           "Ibland, och det beror på eldningssäsongen där du är. Fire and Emergency New Zealand sätter varje distrikt till öppet, begränsat eller förbjudet, och under en begränsad säsong behöver du tillstånd innan du tänder något."
         ],
         [
@@ -1516,10 +1516,10 @@
       "priceTable": null
     },
     "best-time-camping-new-zealand": {
-      "title": "Bästa tid att campa på Nya Zeeland: årstider och sandflugor",
+      "title": "Bästa tid att campa i Nya Zeeland: årstider och sandflugor",
       "description": "Så beter sig årstiderna region för region, var sandflugorna är värst och vilka månader som passar vilken sorts resa.",
       "region": "Nya Zeelands årstider",
-      "imageAlt": "Fyra årstider i ett campinglandskap på Nya Zeeland",
+      "imageAlt": "Fyra årstider i ett campinglandskap i Nya Zeeland",
       "intro": "Det finns ingen enskild bästa månad för hela landet, eftersom Nya Zeeland sträcker sig långt från norr till söder och det mesta av vädret avgörs av höjden och av vilken kust du är på. Att välja tid handlar mest om vad du är beredd att byta bort: värme mot folk, lugn mot dagsljus, eller utsikt mot säkerhet.",
       "sections": [
         {
@@ -1577,7 +1577,7 @@
         {
           "heading": "Läs prognosen rätt",
           "body": [
-            "Vädret på Nya Zeeland ändras snabbare än de flesta <a data-guide=\"new-zealand-driving-day-planner\">körsträckor per dag</a> är långa, och en prognos för en stad säger ganska lite om ett bergspass eller en utsatt kust tjugo minuter bort. Kolla MetService för den exakta platsen och kolla vägläget för sig, för de två svarar på olika frågor.",
+            "Vädret i Nya Zeeland ändras snabbare än de flesta <a data-guide=\"new-zealand-driving-day-planner\">körsträckor per dag</a> är långa, och en prognos för en stad säger ganska lite om ett bergspass eller en utsatt kust tjugo minuter bort. Kolla MetService för den exakta platsen och kolla vägläget för sig, för de två svarar på olika frågor.",
             "Lägg upp planen så att en dålig prognos ändrar dagen i stället för att ställa in resan. Ha ett alternativ inomhus, en kortare variant och en camping med service i reserv, så blir en regnig vecka en vanlig vecka."
           ],
           "tips": []
@@ -1585,11 +1585,11 @@
       ],
       "faq": [
         [
-          "När är det bäst att campa på Nya Zeeland?",
+          "När är det bäst att campa i Nya Zeeland?",
           "Sent i februari till mars är det bästa läget: stabilt väder, varmt vatten och sommarens folkmassor borta. December och januari har det mest tillförlitliga vädret men också de fullaste campingplatserna och de högsta priserna."
         ],
         [
-          "Hur är det att campa på Nya Zeeland under mellansäsong?",
+          "Hur är det att campa i Nya Zeeland under mellansäsong?",
           "Lugnt, billigt och oförutsägbart. Oktober till november och april till maj ger platser utan bokning och vägar utan köer, till priset av kortare dagar, kallare nätter och en verklig risk för en bortspolad vecka."
         ]
       ],
@@ -1601,7 +1601,7 @@
           "label": "NZTA: vägläge"
         },
         {
-          "label": "DOC: larm och avstängningar"
+          "label": "DOC: varningar och avstängningar"
         }
       ],
       "priceTable": null
@@ -2078,10 +2078,10 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Var kan du campa på Nya Zeeland? Guide till alla platstyper",
+      "title": "Var kan du campa i Nya Zeeland? Guide till alla platstyper",
       "description": "DOC-campingplatser, skyddad mark, kommunala områden, platser som förvaltas av iwi och privata holiday parks har olika regler och priser.",
       "region": "Nya Zeeland",
-      "imageAlt": "Husbil parkerad på en campingplats vid kusten på Nya Zeeland",
+      "imageAlt": "Husbil parkerad på en campingplats vid kusten i Nya Zeeland",
       "intro": "Nya Zeelands campingnät ligger på fyra ganska olika sorters mark, och regler, pris och bokningssystem ändras med varje sort. När du vet vilken typ du tittar på vet du det mesta av det du behöver: om du kan komma utan bokning, om du behöver certifiering, vem du ska fråga när något är oklart och vad du kan räkna med att betala.",
       "sections": [
         {
@@ -2095,7 +2095,7 @@
         {
           "heading": "Holiday parks och platser som förvaltas av iwi",
           "body": [
-            "Privata <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> har platser med el, varma duschar, tvättstugor, kök och stugor. De fungerar bäst som återhämtningspunkter mellan nätter ute i det avlägsna, när tankar, batterier, tvätt och människor behöver åtgärdas på en gång. Under högsäsong och kring evenemang blir de fullbokade långt i förväg.",
+            "Privata <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (större campingar med stugor och kök, ungefär som en svensk familjecamping) har platser med el, varma duschar, tvättstugor, kök och stugor. De är bäst som andningshål mellan nätterna ute i det avlägsna, när tankarna, batterierna, tvätten och du själv behöver tas om hand på en gång. Under högsäsong och kring evenemang blir de fullbokade långt i förväg.",
             "Platser som förvaltas av iwi, hapū och lokala samfund, med marae-campingar, showgrounds och domain reserves, erbjuder något som det kommersiella nätverket inte har, och de följer sina egna villkor. Respektera tikanga, lämna koha där det efterfrågas och kolla tillgängligheten i förväg i stället för att dyka upp oanmäld."
           ],
           "tips": [
@@ -2108,20 +2108,20 @@
           "heading": "North Island i korthet",
           "body": [
             "Northland har en lång kust med DOC-platser och kommunala platser, stor efterfrågan under säsongen och en del stängningar vid viktiga kulturella evenemang. Coromandel har DOC-platser vid stranden som blir fulla direkt på sommaren, medan Waikato, Taupō och Rotorua blandar <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> med geotermisk värme och platser vid sjöarna.",
-            "Centrala platån betjänar vandringen i Tongariro från campingar nära Whakapapa och Tūrangi. Gisborne och Hawke's Bay blandar DOC-läger vid surfstränderna med kommunala områden, och i Wellington styrs valen mer av färjetiderna än av utsikten: en tidig avgång är värd en tråkigare sista natt."
+            "På centrala platån bor du på campingar nära Whakapapa och Tūrangi när du ska vandra i Tongariro. Gisborne och Hawke's Bay blandar DOC-platser vid surfstränderna med kommunala områden, och i Wellington styrs valet mer av färjetiderna än av utsikten: en tidig avgång är värd en tråkigare sista natt."
           ],
           "tips": []
         },
         {
           "heading": "South Island i korthet",
           "body": [
-            "Marlboroughs Queen Charlotte Drive har DOC-platser och platser med koncession längs sunden. Nelson Tasman kombinerar kommunala platser i Golden Bay med campingplatserna i <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, där de flesta måste bokas och inte går att åka till utan bokning.",
-            "West Coast belönar den som accepterar regn och sandflugor med nästan tomma campingplatser. Canterbury sträcker sig från flätade flodområden till holiday parks i fjällen, och Otago och Southland har några av landets mest kända platser. Fiordland är till största delen bokade DOC-boenden, och <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> nära fjordarna är inte tillåtet."
+            "Längs Queen Charlotte Drive i Marlborough finns DOC-platser och privat drivna platser på DOC-mark (concession sites) utmed sunden. Nelson Tasman kombinerar kommunala platser i Golden Bay med campingplatserna i <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, där de flesta måste bokas i förväg.",
+            "West Coast belönar den som accepterar regn och sandflugor med nästan tomma campingplatser. Canterbury sträcker sig från flätade flodlandskap till holiday parks i fjällen, och Otago och Southland har några av landets mest kända platser. I Fiordland övernattar du mest på DOC-platser som måste bokas, och <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> nära fjordarna är inte tillåtet."
           ],
           "tips": [
             "Boka Abel Tasman och Great Walk-platser tidigt",
             "Fiordland kräver bokning hos DOC",
-            "West Coast byter väder mot utrymme"
+            "West Coast: sämre väder, men gott om plats"
           ]
         },
         {
@@ -2147,8 +2147,8 @@
         {
           "heading": "De lagliga ramarna",
           "body": [
-            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> är bara lagligt där det är tillåtet, och i många distrikt bara för certifierade self-contained-fordon med fast toalett. Äldre blå certifieringar gäller bara tills de löper ut, och senast till och med 31 december 2027, därefter krävs ett giltigt green warrant. Certifieringen gäller fordonets förmåga, inte dina avsikter, och kontrollerna riktas oftast mot fordonet.",
-            "Skyltarna på plats gäller före alla appar, PDF:er och blogginlägg, även det här. Om en skylt och en sparad uppgift säger emot varandra är det skylten du följer. DOC:s besökscenter och i-SITE har aktuell information om stängningar och larm som ännu inte har nått tredje parts data."
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> är bara lagligt där det är tillåtet, och i många distrikt bara för certifierade self-contained-fordon med fast toalett. Äldre blå certifieringar gäller bara tills de löper ut, och senast till och med 31 december 2027. Därefter krävs ett giltigt green warrant. Certifieringen gäller fordonets förmåga, inte dina avsikter, och kontrollerna riktas oftast mot fordonet.",
+            "Skyltarna på plats gäller före alla appar, PDF:er och blogginlägg, även det här. Om en skylt och en sparad uppgift säger emot varandra är det skylten du följer. DOC:s besökscenter och i-SITE har aktuell information om avstängningar och varningar som ännu inte har hunnit in i andra appar och tjänster."
           ],
           "tips": []
         },
@@ -2163,12 +2163,12 @@
       ],
       "faq": [
         [
-          "Vilka sorters camping finns det på Nya Zeeland?",
+          "Vilka sorters camping finns det i Nya Zeeland?",
           "Grovt sett fem: DOC-campingplatser, stugor i vildmarken, kommersiella holiday parks, områden för freedom camping som kommunerna bestämmer, och privata platser eller övernattning på gårdar. De skiljer sig i pris, utrustning och vilka fordon de tar emot, och reglerna för var och en bestäms av olika organ."
         ],
         [
           "Kan man bara stanna och campa var som helst?",
-          "Nej. Camping utanför anvisade områden är begränsad nästan överallt och leder till böter på plats i många distrikt. Vad som är tillåtet beror på kommunens lokala föreskrifter och på om ditt fordon är certifierat self-contained."
+          "Nej. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. Camping utanför anvisade områden är begränsad nästan överallt och leder till böter på plats i många distrikt. Vad som är tillåtet beror på kommunens lokala föreskrifter och på om ditt fordon är certifierat self-contained."
         ]
       ],
       "sources": [
@@ -2176,7 +2176,7 @@
           "label": "DOC: platser att bo på"
         },
         {
-          "label": "DOC: larm och avstängningar"
+          "label": "DOC: varningar och avstängningar"
         },
         {
           "label": "NZTA: vägläge"
