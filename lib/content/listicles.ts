@@ -90,7 +90,7 @@ export const listicleArticles: Article[] = [
     category: "App guides",
     region: "New Zealand",
     places: ["DOC campsites", "Freedom camping", "Holiday parks", "NZMCA Parks", "Australia"],
-    imageAlt: "DOC sign at the entrance to Waiohine Gorge in Tararua Forest Park",
+    imageAlt: "A small tent pitched beside Iron Lake in Kahurangi National Park",
     related: ["best-nz-camping-apps", "rankers-alternatives", "freedom-camping-rules-new-zealand"],
     intro:
       "CamperMate has been a default download for campervan travellers in New Zealand and Australia for years, and it is still free, translated into 27 languages and able to download its maps for use without signal. The searches for an alternative have a recent cause: a redesign that several reviewers on the New Zealand App Store have disliked since late 2025, and ads in the Android version. We checked the apps worth switching to on 20 October 2026. KiwiCamping is ours, so read its place at the top with that in mind: we set out the reasons, and the trips where one of the others is the better swap.",
@@ -239,7 +239,7 @@ export const listicleArticles: Article[] = [
     category: "App guides",
     region: "New Zealand",
     places: ["Freedom camping areas", "Free DOC campsites", "Council reserves", "NZMCA Parks"],
-    imageAlt: "Camp fees sign asking for a donation at Lake Tūtira campsite, Hawke's Bay",
+    imageAlt: "Campervans parked among trees at the lakeside Lake Poaka campsite near Twizel",
     related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "best-nz-camping-apps"],
     intro:
       "Free camping in New Zealand comes in two forms: freedom camping, where a council or DOC allows you to stay the night somewhere that is not a campground, and campsites that charge nothing, most of them basic DOC sites. An app can point you to both, but none of them decides whether you may stay; the council bylaw, DOC and the sign at the site do. We compared the five apps that are most useful for finding free nights, checked on 20 October 2026. We make KiwiCamping. It is not first on this list, because its free DOC campsites sit behind its paid Pass. Here is where it still helps.",
