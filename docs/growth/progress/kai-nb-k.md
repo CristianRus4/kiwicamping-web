@@ -10,16 +10,23 @@ Working files in `/tmp/nbk` (batches/nXX.input.json English, batches/nXX/<slug>.
 negcheck.py, merge.py, complete.py gate mirror). Queue order file: `/tmp/nbk-queue.json` (recreate from GSC pages-3m.tsv).
 
 ## Done
-n01-n03 (15 guides, nb 36/85 complete): doc-campsites-new-zealand-guide, camping-fees-new-zealand-2026, best-nz-camping-apps,
+n01-n06 (30 guides, nb 51/85 complete). n01-n03: doc-campsites-new-zealand-guide, camping-fees-new-zealand-2026, best-nz-camping-apps,
 campfire-rules-new-zealand, best-time-camping-new-zealand, where-to-camp-in-new-zealand, self-contained-campervan-green-warrant,
 freedom-camping-rules-new-zealand, camping-wastewater-rubbish-new-zealand, freedom-camping-new-zealand-guide,
 beer-wine-coffee-prices-new-zealand, holiday-parks-new-zealand-guide, scenic-campsites-new-zealand,
 overseas-driver-licence-new-zealand, sandflies-new-zealand-camping.
+n04-n06: volcanic-safety-new-zealand-travel, coromandel-rotorua-road-trip, dogs-camping-new-zealand,
+northland-cape-reinga-camping-route, new-zealand-camping-packing-list, responsible-camping-new-zealand, arthurs-pass-camping-route,
+cook-strait-ferry-campervan-guide, kauri-dieback-camping-travel, taranaki-forgotten-world-highway, bus-ferry-train-costs-new-zealand,
+picton-kaikoura-christchurch-route, wanaka-haast-pass-route, alcohol-fatigue-driving-new-zealand, doc-hut-rules-etiquette.
 
 ## Next
-n04-n06 drafted in parallel (volcanic-safety ... taranaki-forgotten-world-highway ... doc-hut-rules-etiquette), then native review,
-apply, negation check, commit. Then n07..n13 (see queue in /tmp/nbk-queue.json: GSC impressions, then rules and safety,
-costs, app guides, camping guides, road trips).
+n07..n13 (34 guides, working alone, no helpers, overnight rule): n07 river-crossing-safety, nelson-abel-tasman-golden-bay,
+left-side-driving, banks-peninsula, two-week-camper-itinerary; n08 driving-day-planner, wildlife-livestock-road-safety,
+bay-of-islands-camping-week, rakiura-stewart-island, three-week-campervan-route; n09..n13 as in /tmp/nbk-queue.json
+(recreate: GSC impressions, then rules and safety, costs, app guides, camping guides, road trips).
+Pipeline per batch: draft to /tmp/nbk/batches/nXX/<slug>.json, `python3 /tmp/nbk/merge.py nXX`, `python3 /tmp/nbk/applybatch.py nXX`
+(dry run), negation check with `negcheck.py`, then `/tmp/nbk/finish.sh nXX "message"` (apply, stamp, content:check, commit).
 
 ## Notes
 - The engine rejects a string whose protected-term counts (DOC, App Store, BookIt ...) differ from English: keep every DOC.
