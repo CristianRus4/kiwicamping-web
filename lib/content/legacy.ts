@@ -21,7 +21,7 @@ export const legacyOnlyArticles: Article[] = [
     intro:
       "Five apps come up most often for New Zealand camping trips: Rankers Camping NZ, CamperMate, WikiCamps New Zealand, Campable and KiwiCamping, which is ours. They differ more than their store pages suggest. Rankers and CamperMate are free and earn from bookings and deals, WikiCamps charges once on the App Store and also takes bookings, Campable books private land, and KiwiCamping sells a pass for its DOC and planning features. The table compares what each one costs, where its data comes from and what still works without signal, as checked on 19 October 2026, and the sections below say who each one suits.",
     comparison: {
-      asOf: "19 October 2026",
+      asOf: "2026-10-19",
       caption: "Five NZ camping apps side by side",
       note: "Prices are from each app's New Zealand App Store listing in NZD, checked on the date below. Data sources and offline features are as each developer describes them on its listing or website; check the listing for changes before you rely on one.",
       columns: ["Price", "Platforms", "Where the data comes from", "Without signal", "Best at"],

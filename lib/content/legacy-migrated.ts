@@ -184,7 +184,7 @@ export const migratedArticles: Article[] = [
     intro:
       "DOC huts, campsites and Great Walks are booked on the Department of Conservation's own booking system at bookings.doc.govt.nz, or through a DOC visitor centre. You need a free account, you pay in full when you book, and the confirmation email is your proof on site. Bookings for the 2026/27 season, covering stays from 1 July 2026 to 30 June 2027, opened in May 2026. Most backcountry huts and many basic campsites cannot be booked at all and run first come, first served. Below: the fees, the two passes, which places need a booking and what to do when the one you want is full.",
     priceTable: {
-      asOf: "19 October 2026",
+      asOf: "2026-10-19",
       note: "DOC fees for the 2026/27 season, per person per night unless stated, including GST. Great Walk rates are for each track's peak season, which ends on 30 April and starts on 1 October on most tracks, 23 October on the Tongariro Northern Circuit, 27 October on the Kepler and 1 November on the Milford and Routeburn. Serviced huts are $25 from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February. Child rates (5 to 17) are about half and infants under 5 are free, except on Great Walks, where international children pay from birth on every track but Lake Waikaremoana. The price on the place's own DOC page is the one that applies.",
       rows: [
         { label: "Standard campsite, adult", nzdLow: 10, nzdHigh: 20, unit: "per night" },
@@ -617,7 +617,7 @@ export const migratedArticles: Article[] = [
     intro:
       "Camping is the cheapest way to travel New Zealand, but 'cheap' covers a range from about nothing to more than a motel room. The word campsite spans a free long-drop beside an untreated stream and a powered beachfront pitch with a kitchen and laundry, so a nightly figure only means something once you attach it to a category and a party size.",
     priceTable: {
-      asOf: "20 October 2026",
+      asOf: "2026-10-20",
       note: "DOC category prices for the 2026/27 season, checked against DOC's fees page on 20 October 2026; the holiday park and daily figures are planning ranges, not quotes. Peak beachfront and event-period rates can sit well above these.",
       rows:
       [
