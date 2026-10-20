@@ -1,0 +1,25 @@
+# ava-de-k progress (German, KiwiCamping guides)
+
+Lane: ava-de-k (Ava account). Worktree `~/.t3/worktrees/kiwicamping-web/ava-de-k`, branch `i18n/k-de-2` (cut from origin/main 2026-10-21).
+Task: translate every untranslated KiwiCamping guide into German. Touch only `lib/translations/de.json`, `lib/translations/meta/de.json`, this file.
+Skipped (other lane's listicles): rankers-alternatives, campermate-alternatives, free-camping-apps-new-zealand, road-trip-planner-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand.
+
+Start state: de 48/85 guides complete; 35 to do (37 missing minus 2 skipped listicles).
+Working files (not committed): /tmp/ava-de-k (extract.mjs, check.mjs, apply.mjs, src/, out/). Subagents not allowed before 09:00 21 Oct, so drafting is done directly until then.
+
+## Order (GSC impressions first, then rules, costs, camping, planning, road trips)
+B1: best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, rakiura-stewart-island-camping-guide, northland-cape-reinga-camping-route
+B2: arthurs-pass-camping-route, taranaki-forgotten-world-highway, coromandel-rotorua-road-trip, picton-kaikoura-christchurch-route, wanaka-haast-pass-route
+B3: banks-peninsula-camping-weekend, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, responsible-camping-new-zealand, freedom-camping-rules-new-zealand
+B4: self-contained-campervan-green-warrant, camping-wastewater-rubbish-new-zealand, campfire-rules-new-zealand, camping-fees-new-zealand-2026, freedom-camping-new-zealand-guide
+B5: doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, scenic-campsites-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand
+B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-coast-south-island, queenstown-glenorchy, southern-scenic-route, fiordland, nelson-abel-tasman, south-island-two-week, new-zealand-three-week, two-week-camper-itinerary)
+
+## Done
+(nothing yet)
+
+## Next
+B1.
+
+## Blockers
+None.
