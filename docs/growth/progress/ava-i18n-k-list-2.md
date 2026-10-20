@@ -22,9 +22,11 @@ Catalogs for engine apply: es `kiwicamping-website-es`, fr `kiwicamping-website-
 
 - fr: all five listicles (513 units), opus review (~109 units fixed, negation check clean), engine apply 0 rejected, `translations:stamp -- --locale fr` run (3 stale are pre-existing, not these pages), content:check green.
 - it: all five listicles (513 units), opus review (65 units fixed, negation check clean), engine apply 0 rejected, stamped only these keys (`node /tmp/kl2/stampmine.mjs it`), content:check green.
+- pt: all five listicles (513 units), opus review (114 units fixed, negation check clean), engine apply 0 rejected, `translations:stamp -- --locale pt` run, content:check green.
+- Orchestrator already merged es, fr, it (aec06ce). Rebased the pt commit onto origin/main (1ead0f5); English of these pages had changed on main (thl Roadtrip 4.6 not 4.7, CamperMate ads no longer Android only), so 13 pt units were updated to match and re-stamped (0 stale).
 
 ## Next
-- pt (drafted, opus review running). Stamp fr and pt with `npm run translations:stamp -- --locale <code>`; es and it have no meta file, so stamp only the five articles.
+- Full `npm run check` once for all four languages, then hand off. No further translation work on these five pages. Stamp fr and pt with `npm run translations:stamp -- --locale <code>`; es and it have no meta file, so stamp only the five articles.
 
 ## Blockers
 - None.
