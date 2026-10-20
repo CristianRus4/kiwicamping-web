@@ -10,10 +10,18 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - Order: GSC impressions (docs/growth/gsc/2026-10-19, overall; there is no /da data), then rules and safety, app guides, camping guides, trip planning, road trips.
 
 ## Done
-(none yet)
+- Batch 1 (c5fc471, 3728b4b): doc-campsites-new-zealand-guide, campfire-rules-new-zealand, best-nz-camping-apps, camping-fees-new-zealand-2026, best-time-camping-new-zealand. Drafted (sonnet high), reviewed (opus medium), negation sweep by hand, engine apply, stamp, content:check clean (da 27/85 guides).
 
 ## Next
-- Batch 1: doc-campsites-new-zealand-guide, campfire-rules-new-zealand, best-nz-camping-apps, camping-fees-new-zealand-2026, best-time-camping-new-zealand.
+- Batch 2 (in review): where-to-camp, self-contained-campervan-green-warrant, freedom-camping-rules, camping-wastewater-rubbish, freedom-camping-new-zealand-guide.
+- Queue for later batches: /tmp/da-k2/queue.json (b3 holiday-parks, scenic-campsites, sandflies, volcanic-safety, coromandel-rotorua; b4 dogs, domestic-flights, northland, packing-list, responsible-camping; then b5..b13).
 
 ## Blockers / questions
 (none)
+
+## English source issues found (Danish follows the English)
+- campfire-rules: body says a prohibited fire season can restrict some appliances such as gas cookers; FAQ says a gas stove is unaffected by fire seasons.
+- doc-campsites: "most campsites outside serviced huts" (Backcountry Hut Pass) and "the Milford and Paparoa tracks have none" are ambiguous.
+- sandflies / best-time: sandfly guide title says "Sandfly Season"/worst on West Coast and Fiordland but best-time says no official season.
+- best-nz-camping-apps: bare "$" amounts where the table uses NZ$.
+- where-to-camp: body says four land types, faq[0] says "Broadly five"; freedom-camping guide: "two to four nights" vs tip "1-2 night limits"; camping-wastewater-rubbish sections[2].body[1] says "Premium pass" where other guides say KiwiCamping Pass.
