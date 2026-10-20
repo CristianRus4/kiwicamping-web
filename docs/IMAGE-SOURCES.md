@@ -84,3 +84,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `two-week-camper-itinerary-new-zealand` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
 | `rankers-alternatives` | DSCN2150 Medlands Beach Campsite.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:DSCN2150_Medlands_Beach_Campsite.jpg) |
 | `campermate-alternatives` | Waiohine Gorge campsite entrance.jpg | TimClicks | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Waiohine_Gorge_campsite_entrance.jpg) |
+| `road-trip-planner-apps-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |

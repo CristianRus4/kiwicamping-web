@@ -213,6 +213,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is there a CamperMate alternative without ads?", "KiwiCamping has no ads, and Rankers' Google Play listing shows no ads label; CamperMate's Android version shows ads. KiwiCamping's DOC places, collections and trips need its paid Pass, while Rankers is free."],
     ["What can I use instead of CamperMate for New Zealand and Australia?", "thl Roadtrip covers campsites, holiday parks, petrol and dump stations in both countries for free. WikiCamps sells separate New Zealand and Australia apps, each paid once."],
   ],
+  "road-trip-planner-apps-new-zealand": [
+    ["What is the best road trip planner app for New Zealand?", "For a camping or campervan trip we recommend KiwiCamping, which we make, because it plans by the night with DOC campsites and huts built in; use Google Maps or Apple Maps for the driving. For group trips or trips mixing hotels and flights, Wanderlog is the stronger planner."],
+    ["Can Google Maps plan a multi-stop road trip in New Zealand?", "Yes, up to 9 stops including the destination in one route, which suits a day or two rather than a whole trip. Download offline areas along the full route, because offline directions only work inside them."],
+  ],
   "best-nz-camping-apps": [
     ["What is the best camping app for New Zealand in 2026?", "It depends on the trip. For DOC campsites, huts and planning a route we recommend KiwiCamping, which we make; Rankers has the most New Zealand App Store ratings, CamperMate combines booking, deals and downloadable maps, and WikiCamps New Zealand publishes the biggest count of New Zealand sites. Many travellers carry two."],
     ["Is there a free camping app for New Zealand?", "Rankers and CamperMate are free to download. KiwiCamping is free to download, but DOC campsites, huts, tracks and dump stations, collections and trips need its paid Pass. WikiCamps New Zealand costs NZ$7.99 once on iPhone."],

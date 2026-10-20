@@ -853,6 +853,20 @@
       }
     ]
   },
+  "/images/articles/road-trip-planner-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/road-trip-planner-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/road-trip-planner-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/sandflies-new-zealand-camping.webp": {
     "width": 1600,
     "height": 900,
