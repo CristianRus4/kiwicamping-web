@@ -17,9 +17,10 @@ B6-B7: remaining road trips (wellington-wairarapa, north-island-two-week, west-c
 
 ## Done
 - B1 applied, stamped, content:check passes (de 53/85): best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, rakiura-stewart-island-camping-guide, northland-cape-reinga-camping-route. Drafted directly (no subagents before 09:00); native-review pass by an Opus subagent is still to do after 09:00 (reviewer feedback gets applied as a follow-up commit).
+- B2 applied, stamped, content:check passes (de 58/85): arthurs-pass-camping-route, taranaki-forgotten-world-highway, coromandel-rotorua-road-trip, picton-kaikoura-christchurch-route, wanaka-haast-pass-route.
 
 ## Next
-B2, B3; after 09:00 start the Opus native review of B1..B3.
+B3; after 09:00 start the Opus native review of B1..B3.
 
 ## Blockers
 None.
