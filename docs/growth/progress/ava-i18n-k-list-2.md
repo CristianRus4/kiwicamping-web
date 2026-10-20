@@ -20,8 +20,10 @@ Catalogs for engine apply: es `kiwicamping-website-es`, fr `kiwicamping-website-
 ## Done
 - es: all five listicles (513 units) drafted, opus native review (84 units fixed, negation check clean), engine apply 0 rejected, stamped (only these keys: `node /tmp/kl2/stampmine.mjs es`, because es has no meta file yet and a full stamp would hide other stale guides), content:check green.
 
+- fr: all five listicles (513 units), opus review (~109 units fixed, negation check clean), engine apply 0 rejected, `translations:stamp -- --locale fr` run (3 stale are pre-existing, not these pages), content:check green.
+
 ## Next
-- fr (drafts in /tmp/kl2/fr, review running), then it, pt. Stamp fr and pt with `npm run translations:stamp -- --locale <code>`; es and it have no meta file, so stamp only the five articles.
+- it (drafting in /tmp/kl2/it), then pt. Stamp fr and pt with `npm run translations:stamp -- --locale <code>`; es and it have no meta file, so stamp only the five articles.
 
 ## Blockers
 - None.
