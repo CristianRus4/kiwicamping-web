@@ -13,11 +13,11 @@ Opus-medium native review + negation table, apply with the engine, `translations
 - K3 6fd2bc9: banks-peninsula, bay-of-islands, rakiura-stewart-island, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki
 - K5 4271a1a: wellington-wairarapa, north-island-two-week, west-coast-south-island, queenstown-glenorchy, southern-scenic-route
 - K4 676305c (scheduled listicles): wikicamps-alternatives, best-campervan-apps, best-weather-apps, fuel-price-apps, working-holiday-apps, money-saving-travel-apps
-- K6 (in review): fiordland-camping-road-trip, south-island-two-week-road-trip, responsible-camping-new-zealand, two-week-camper-itinerary-new-zealand, freedom-camping-rules-new-zealand
-- K7 (drafting): freedom-camping-new-zealand-guide, self-contained-campervan-green-warrant, doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, camping-wastewater-rubbish-new-zealand
-- K8 (drafting): campfire-rules-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand, scenic-campsites-new-zealand, camping-fees-new-zealand-2026
+- K6 d99deec: fiordland-camping-road-trip, south-island-two-week-road-trip, responsible-camping-new-zealand, two-week-camper-itinerary-new-zealand, freedom-camping-rules-new-zealand
+- K7 d32d77a: freedom-camping-new-zealand-guide, self-contained-campervan-green-warrant, doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide, camping-wastewater-rubbish-new-zealand
+- K8 7ba5b0e: campfire-rules-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand, scenic-campsites-new-zealand, camping-fees-new-zealand-2026
 
-pt on KiwiCamping: 74/89 guides after K4 (K6, K7, K8 remain = 15).
+pt on KiwiCamping: 89/89 guides. LANE COMPLETE on this side (all 41 gaps filled). SHAs above are pre-rebase; use `git log` for current ones.
 
 ## Notes
 - Weather apps = "app de meteorologia". Māori spelling mirrors each English unit. Brand/agency names are never added where the English has a pronoun (engine count check). Descriptions stay within the English facts, so some are under 150 characters.
