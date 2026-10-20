@@ -224,8 +224,8 @@ const decodeHtml=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace
 
 test("draft locales are neither routed nor advertised",async()=>{
   const drafts=localeCodes.filter((code)=>localeEntry(code).status==="draft");
-  // Floor lowered from 6 to 5 when zh-hant went live (2026-10-21).
-  assert.ok(drafts.length>=5,"ja, ko, zh-hans, cs and pl are still drafts");
+  // Floor lowered from 6 to 5 when zh-hant went live, and from 5 to 4 when ko went live (both 2026-10-21).
+  assert.ok(drafts.length>=4,"ja, zh-hans, cs and pl are still drafts");
   for(const code of drafts){
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status,200,`${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`${localeEntry(code).segment}/`,dist)),`${code} must not be exported`);
