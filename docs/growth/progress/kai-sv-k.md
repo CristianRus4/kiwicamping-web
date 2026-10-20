@@ -19,10 +19,11 @@ Batches (about five guides each):
 - [x] Batch 5 applied (4 guides): river-crossing-safety-new-zealand, left-side-driving-new-zealand, banks-peninsula-camping-weekend, two-week-camper-itinerary-new-zealand.
 - [x] Batch 6 applied (5 guides): new-zealand-driving-day-planner, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, kauri-dieback-camping-travel, new-zealand-severe-weather-camping.
 - [x] Batch 7 applied (6 guides, rules and safety complete): earthquake-tsunami-camping-new-zealand, winter-driving-new-zealand-campervan, alcohol-fatigue-driving-new-zealand, one-lane-bridges-gravel-roads-new-zealand, wildlife-livestock-road-safety-new-zealand, camping-rules-local-councils-new-zealand.
+- [x] Batch 8 applied (6 app guides): plan-trip-kiwicamping, save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs. Checked Pass boundary and no offline-map wording (title/intro of the offline guide say the app does not give maps without a connection).
 
 ## Next
-No subagents (overnight rule until 09:00). Next: app guides (plan-trip-kiwicamping, save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs; mind the Pass boundary and no offline-map claim), winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, then road trips (wellington-wairarapa, north-island-two-week, west-coast-south-island, queenstown-glenorchy, southern-scenic-route, fiordland, nelson-abel-tasman-golden-bay, south-island-two-week, three-week-campervan-route, rakiura-stewart-island).
-Audit rules: no genitive -s on KiwiCamping or other brands (MetService); English number-words stay words; keep English macron spelling exactly.
+No subagents (overnight rule until 09:00). Next: winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, then road trips (wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, rakiura-stewart-island-camping-guide).
+Audit rules: no genitive -s on KiwiCamping or other brands (MetService, Apple); English number-words stay words; keep English macron spelling exactly.
 
 ## Blockers
 none

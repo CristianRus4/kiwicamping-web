@@ -7124,6 +7124,564 @@
         }
       ],
       "priceTable": null
+    },
+    "plan-trip-kiwicamping": {
+      "title": "Planera en hel resa i KiwiCamping: stopp, rutt och anteckningar",
+      "description": "Sortera stoppen, se ruttens avstånd och ha datum, anteckningar och att göra-listor bredvid resplanen.",
+      "region": "KiwiCamping",
+      "imageAlt": "Väg mot Aoraki / Mount Cook under en blå himmel",
+      "intro": "En användbar resa är mer än en linje mellan sparade pins. Reseplaneraren samlar rutt, avstånd, datum, anteckningar och små sysslor på ett ställe, så att planen klarar av att ändras, vilket på en roadtrip i Nya Zeeland oftast sker någonstans runt dag tre.",
+      "sections": [
+        {
+          "heading": "Bygg skelettet av fasta nätter",
+          "body": [
+            "Börja med de datum du inte kan flytta. En överfart över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a>, en bokad stuga på en Great Walk, en campingplats som reserverades för månader sedan i en badort, ett flyg hem från Queenstown: det är de pins resten av resan måste anpassas efter. Skapa resan, lägg in dem först och se allt däremellan som justerbart.",
+            "Den här ordningen spelar större roll än den låter. Den som bygger en resa kronologiskt från dag ett upptäcker ofta på dag nio att färjan inte passar, och då är hälften av bokningarna redan icke återbetalningsbara. När de hårda datumen sitter först blir varje senare ändring billig."
+          ],
+          "tips": [
+            "Färje- och Great Walk-datum först",
+            "Allt däremellan förblir flexibelt",
+            "Billiga ändringar slår ombokade färjor"
+          ]
+        },
+        {
+          "heading": "Lägg stoppen i körordning",
+          "body": [
+            "Lägg till de platser du har sparat och ordna dem i den följd du faktiskt kommer att köra. Reseplaneraren räknar ut ruttens avstånd över de ordnade stoppen, och det är där en optimistisk resplan oftast faller isär: en dag som såg rimlig ut på kartan visar sig vara sex timmar före ett enda stopp, en enda promenad eller en enda måltid.",
+            "Dela upp varje etapp som inte lämnar plats för själva platsen. Som en grov arbetssiffra är tre till fyra timmars körning en bekväm dag på Nya Zeelands vägar, och betydligt mindre på Coromandel, i Catlins, på Queen Charlotte Drive eller på allt som har grus. Avståndet underskattar de här vägarna rejält."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fäst detaljerna vid stoppet, inte vid ett dokument",
+          "body": [
+            "Bekräftelsenummer, ankomstfönster, grindkoder, stugvärdens telefonnummer, vilken sida av floden ingången ligger på: sådant hör hemma på det enskilda stoppet och inte i en lång anteckning överst i resan. På vägen letar du efter ett faktum i taget, oftast när du är trött.",
+            "Korta anteckningar slår långa. ”Grinden låst efter kl. 21.00, kod 4417” är användbart kl. 20.45. Ett stycke som beskriver hela campingplatsen är det inte. Lägg till anteckningen när du bokar, medan detaljen finns framför dig, i stället för att försöka rekonstruera den senare."
+          ],
+          "tips": [
+            "Ett faktum per anteckning",
+            "Lägg till anteckningar när du bokar",
+            "Grindkoder och ankomstfönster är viktigast"
+          ]
+        },
+        {
+          "heading": "Använd att göra-listan för sysslorna som lämnar dig strandsatt",
+          "body": [
+            "Tanka före en avlägsen etapp, handla före den sista matbutiken, fyll vatten före en torr sträcka, besök en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a> före en rad freedom camping-platser, ha snökedjor före ett alpint pass på vintern. Det är uppgifterna vars frånvaro gör att en dag slutar illa, och de är lätta att glömma just för att de är rutin.",
+            "Ha listan bredvid resplanen i stället för i en separat app. Bocka av saker först när de verkligen är gjorda, för en halvfylld vattentank som optimistiskt har bockats av är värre än en som inte är avbockad."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ändra rutten utan att bygga om den",
+          "body": [
+            "Vädret stänger ett pass, en campingplats är full, någon är för trött för att köra eller en plats visar sig förtjäna en natt till. Ordna om eller byt ut det berörda stoppet så förblir resten av resplanen intakt, tillsammans med varje anteckning och bokningsreferens som hör till de stopp du inte rörde.",
+            "Det är den praktiska fördelen jämfört med en plan i webbläsarflikar. Att ordna om en resa som ligger utspridd över femton flikar och en texttråd betyder att rekonstruera den, medan det att ordna om en ordnad lista betyder att dra ett stopp. Avståndet räknas om och du ser direkt om den nya formen fortfarande går att köra."
+          ],
+          "tips": [
+            "Flytta ett stopp, behåll resten",
+            "Avståndet räknas om automatiskt",
+            "Kolla att den nya dagen fortfarande går att köra"
+          ]
+        },
+        {
+          "heading": "Förbered resan för att klara dig utan täckning",
+          "body": [
+            "Öppna de viktiga stoppen innan du lämnar täckningen. Grundläggande platsinformation finns i appen och går att läsa offline, men routing i realtid, aktuellt väder, uthyrarnas bokningssidor och en del kartbilder kräver uppkoppling, och West Coast, Fiordland, East Cape och inlandet i Otago tar den ifrån dig utan förvarning.",
+            "Ta skärmdumpar av allt som skulle bli dyrt att förlora: bokningsbekräftelsen, anteckningen om tillfarten, campingplatsens telefonnummer. En skärmdump överlever en omstart med urladdat batteri, en förlorad session och en app du inte har öppnat på tre dagar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Skicka resplanen till Kalender",
+          "body": [
+            "Resans datum kan skickas till ”Kalender” så att planen syns bredvid flyg, färjebokningar och allt annat som redan finns i ditt schema. Det är mest användbart för resenärer som samordnar sig med människor som inte använder appen, eftersom en delad kalender besvarar frågan var-är-ni-i-kväll utan ett samtal.",
+            "Se kalenderkopian som en sammanfattning och inte som den enda sanningen. Själva resan innehåller anteckningar, ordning och alternativ, medan kalendern bara behöver nog för att någon annan ska kunna följa med."
+          ],
+          "tips": [
+            "Kalendern är en sammanfattning, inte planen",
+            "Användbart för dem som inte använder appen",
+            "Låt resan vara den enda sanningen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hur planerar man en roadtrip med flera stopp i KiwiCamping?",
+          "Spara de platser du funderar på, lägg till dem i en resa som stopp och dra dem sedan i den ordning du ska köra. Varje etapp visar sitt avstånd, och varje stopp har sitt eget datum, sina egna ankomstanteckningar och sitt eget väder."
+        ],
+        [
+          "Går det att lägga en KiwiCamping-resa i en kalender?",
+          "Ja. Detaljer i resplanen kan synkas till ”Kalender”, vilket är det praktiska sättet att dela planen med dem du reser med utan att de behöver ha appen."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "save-places-kiwicamping": {
+      "title": "Spara och organisera platser i KiwiCamping",
+      "description": "Håll bekräftade boenden, starka alternativ och framtida idéer isär utan att tappa bort dem på kartan.",
+      "region": "KiwiCamping",
+      "imageAlt": "Gyllene sand och turkost vatten vid Torrent Bay i Abel Tasman National Park",
+      "intro": "Att spara varje intressant pin i en enda hög flyttar bara sökproblemet någon annanstans. Lite struktur, bestämd tidigt, gör att tusentals campingplatser, stugor och holiday parks går att använda under flera resor i stället för att bli en lista du slutar öppna.",
+      "sections": [
+        {
+          "heading": "Skilj sparade platser åt efter syfte",
+          "body": [
+            "Den användbara indelningen är inte efter region utan efter vad du tänker göra med platsen. En lista för resan du faktiskt ska göra, en för realistiska reservplatser inom räckhåll för rutten och en för idéer du kanske aldrig använder. Att blanda de tre är det som gör en sparad lista oanvändbar kl. 19.00 när en campingplats är full.",
+            "Reservlistan betalar sig om och om igen. Att veta att du har två lagliga alternativ inom fyrtio minuter förändrar hur du hanterar en full plats, och det är skillnaden mellan ett lugnt beslut och en timmes körning medan ljuset försvinner."
+          ],
+          "tips": [
+            "Resa, reservplatser, idéer: tre listor",
+            "Reservplatser inom räckhåll för rutten",
+            "Bestäm strukturen innan du sparar"
+          ]
+        },
+        {
+          "heading": "Använd smarta samlingar för status",
+          "body": [
+            "”Gillade”, ”Besökta”, ”Vill besöka” och ”Stjärnmärkt” uppdaterar sig själva när du markerar platser, så de följer status och inte planer. ”Besökta” är mer användbar än den först verkar på en lång resa: den hindrar dig från att undersöka samma ställe två gånger och ger dig en riktig logg över var du har varit.",
+            "”Pins” och ”Alla sparade” ger dig helheten när du inte kommer ihåg i vilken lista något hamnade. Se dem som skyddsnätet och inte som arkivsystemet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Namnge listor så att de går att förstå senare",
+          "body": [
+            "”South Island” säger dig ingenting om fyra månader. ”South Island feb, bara platser med el” säger vad du försökte lösa och om listan går att använda igen. Om du namnger efter region, säsong, fordon eller resa har listan fortfarande en mening när du kommer tillbaka till den.",
+            "Lägg till en kort beskrivning där appen tillåter det. Anledningen till att du sparade en plats är det som bleknar snabbast, och det är oftast det som var viktigt: skyddad mot sydvinden, bra för ett stort ekipage, lugnt mitt i veckan."
+          ],
+          "tips": [
+            "Namnge efter region, säsong och fordon",
+            "Skriv ner varför du sparade den",
+            "Vaga namn åldras dåligt"
+          ]
+        },
+        {
+          "heading": "Spara från platsinformationen, inte från kartan",
+          "body": [
+            "Öppna platsen först. Tillfartsanteckningar, faciliteter, avgiftsstruktur och källan till uppgifterna är det som avgör om den passar din uppsättning, och inget av det syns från en pin. Att spara från kartan ger en lista med namn, medan att spara från platsinformationen ger en lista med alternativ.",
+            "Lägg till en anteckning om just det som gjorde platsen värd att behålla. ”Enda platsen här med tömningsstation” eller ”grusväg dit, inte för en låg bil” är värt mer än själva noteringen när du väljer mellan fem sparade platser."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se priser som planeringssiffror",
+          "body": [
+            "Där en rapporterad kostnad visas kan du läsa den i din egen valuta för att jämföra en enkel DOC-plats med en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> utan att räkna vid varje stopp. Se omräknade siffror som planeringshjälp: de är mekaniska omräkningar av ett rapporterat belopp, inte ett pris från uthyraren eller din bank.",
+            "Bekräfta det faktiska priset med leverantören innan ett pris avgör din rutt, och kolla vad siffran omfattar. DOC:s avgifter gäller oftast per vuxen och natt, medan kommersiella parker ofta anger pris per plats, så två liknande siffror kan betyda mycket olika totalsummor för en familj."
+          ],
+          "tips": [
+            "Omräknade priser är planeringssiffror",
+            "DOC tar betalt per vuxen, parker ofta per plats",
+            "Bekräfta innan ett pris avgör rutten"
+          ]
+        },
+        {
+          "heading": "Låt sparade platser synkas mellan enheter",
+          "body": [
+            "När iCloud finns och är aktiverat synkas sparade statusar, samlingar och resedata privat mellan dina enheter. Den praktiska nyttan är att du kan planera på en större skärm hemma och ha samma listor i telefonen i husbilen, utan att exportera något.",
+            "Det betyder också att en ersatt eller återställd telefon inte tar resan med sig, vilket spelar större roll på en lång resa än på en helg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rensa listan efter varje resa",
+          "body": [
+            "Markera det du besökte, ta bort alternativen som visade sig inte passa dig och behåll de anteckningar om tillfart eller tider som kommer att stämma nästa gång. Tio minuter i slutet av en resa är det som hindrar listan från att bli trehundra pins du inte längre litar på.",
+            "Flytta de stopp du faktiskt har bestämt dig för in i en resa. Listor är till för möjligheter, och reseplaneraren är till för själva resan, och att hålla de två isär är det som gör båda användbara."
+          ],
+          "tips": [
+            "Rensa medan resan är färsk",
+            "Behåll anteckningar som fortsätter att stämma",
+            "Listor har alternativ, resor har planer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad är skillnaden mellan smarta och egna samlingar?",
+          "Smarta samlingar fyller sig själva: ”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade” uppdateras när du markerar platser. Egna samlingar är sådana du namnger och bygger själv, för en region, en säsong, ett fordon eller en kortlista."
+        ],
+        [
+          "Synkas sparade platser mellan enheter?",
+          "Med iCloud aktiverat, ja: sparade statusar, samlingar och resedata följer ditt Apple-konto. Utan det stannar allt på den enda enheten."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-filters-guide": {
+      "title": "Hitta rätt campingplats snabbare med filter i KiwiCamping",
+      "description": "Begränsa efter platstyp, faciliteter, pris och tillgång utan att dölja varje fungerande alternativ.",
+      "region": "KiwiCamping",
+      "imageAlt": "Husvagnar parkerade vid campingplatsen Lake Clearwater under snötäckta toppar i Canterbury",
+      "intro": "Filter är mest användbara när varje filter står för ett verkligt krav och inte en preferens. Det vanliga misstaget är att filtrera för hårt: du får tre träffar, det förnuftiga alternativet tjugo minuter bort döljs, och du får felaktigt intrycket att ett område inte har något alls.",
+      "sections": [
+        {
+          "heading": "Börja med platstyp och område",
+          "body": [
+            "Bestäm vilken sorts natt du söker innan du begränsar något annat. En DOC-camping, en stuga i vildmarken, ett anvisat område för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, en holiday park och en stuga är olika produkter med olika regler, priser och bokningssystem, och att blanda dem ger en lista som du måste sortera om i huvudet.",
+            "Placera sedan kartan längs den rutt du faktiskt kör. Att söka i det synliga området håller träffarna relevanta för dagen och hindrar ett välkänt ställe nittio minuter från rutten från att ta över en kortlista som det inte hör hemma i."
+          ],
+          "tips": [
+            "Välj typ av natt först",
+            "Sök längs rutten, inte i regionen",
+            "Kända platser är ofta fel avstickare"
+          ]
+        },
+        {
+          "heading": "Lägg bara till villkor som skulle utesluta en plats",
+          "body": [
+            "Toaletter, dricksvatten, el, hundar, fordonsstorlek, prisnivå: använd dem när avsaknaden av dem verkligen gör att alternativet faller bort. Har du full vattentank tar ett filter för dricksvatten bort platser som hade varit fina och kanske lugnare för det.",
+            "Arbeta dig nedåt från det hårdaste kravet. Tillfart för fordonet och krav på certifiering tar bort flest alternativ och går minst att förhandla om, så om du använder dem först får du en kortare, ärligare lista att gå igenom."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Förstå vad ett tomt fält betyder",
+          "body": [
+            "Saknade uppgifter betyder okänt, inte frånvarande. En plats utan registrerad dusch kan ha en som aldrig har loggats, och ett strikt filter på faciliteter kastar tyst bort den. Det är det vanligaste sättet för resenärer att övertyga sig själva om att en region inte har något tillgängligt.",
+            "När en filtrerad sökning kommer tillbaka nästan tom: lätta på det minst viktiga villkoret i stället för att dra slutsatsen att området är olämpligt. Resultatet ändras oftast kraftigt när ett filter tas bort."
+          ],
+          "tips": [
+            "Tomt betyder okänt, inte saknas",
+            "Lätta på ett filter innan du ger upp",
+            "Strikta filter döljer bra alternativ"
+          ]
+        },
+        {
+          "heading": "Filtrera annorlunda för en natt med freedom camping",
+          "body": [
+            "En sökning efter <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> är en juridisk fråga och inte en bekvämlighetsfråga. Det som spelar roll är om platsen är anvisad, om den kräver ett certifierat self-contained-fordon och vilken tidsgräns som gäller. Faciliteter är underordnade eftersom det ofta inte finns några.",
+            "Kolla certifieringskravet mot ditt eget warrant innan du litar på en plats. Kravet gäller fordonet, och kontrollen sker mot fordonet, så en missmatch blir dyr oavsett hur noga du var med allt annat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sök efter service, inte bara platser att sova på",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tömningsstationer</a>, dricksvatten, sophantering och bränsle är viktiga för resan i sig, och det lönar sig att filtrera efter dem som en separat uppgift i stället för att hoppas att de dyker upp nära kvällens läger. Att planera ett tömningsstopp på vägen någonstans är mycket enklare än att göra en särskild resa när en tank redan är full.",
+            "Detsamma gäller tvättstuga och varm dusch efter en blöt sträcka. Att välja ett stopp för att det löser tre sysslor på en gång är oftast bättre värde än att välja den billigaste pinen och köra tillbaka för var och en av dem."
+          ],
+          "tips": [
+            "Planera tömningsstopp på vägen",
+            "Vatten och bränsle förtjänar en egen sökning",
+            "Ett stopp som löser tre sysslor vinner"
+          ]
+        },
+        {
+          "heading": "Ha alltid en reservplats synlig",
+          "body": [
+            "Spara den föredragna platsen och minst ett lagligt alternativ innan du lämnar täckningen. Ett filter som är så snävt att det ger exakt en träff har tagit bort din reservplan, och fulla campingplatser en sommarkväll är normalt och inte otur.",
+            "Reservplatsen behöver inte vara lika bra. Den behöver vara laglig, nåbar i dagsljus och öppen. Det är en mycket lättare standard att uppfylla, och det är den som hindrar en trött förare från att fatta ett dåligt beslut efter mörkrets inbrott."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nollställ filtren mellan regioner och resetyper",
+          "body": [
+            "Kraven för en stugvandring, en tvättkväll med el i en stad och ett certifierat stopp för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> har nästan ingenting gemensamt. Filter som blivit kvar sedan i går är en vanlig orsak till att en sökning ser oväntat tom ut i dag.",
+            "Rensa uppsättningen så fort resan ändrar karaktär, särskilt när du går från North Island till South Island, från kust till alpint land eller från en turiststräcka till några dagar på ett ställe i en stad."
+          ],
+          "tips": [
+            "Rensa filtren när resan ändrar karaktär",
+            "Gårdagens filter ger dagens tomma sökning",
+            "Stuga, stad och freedom camping skiljer sig helt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Går det att filtrera efter gratis camping med toaletter?",
+          "Ja, och den kombinationen är poängen med filtren. Avgift, faciliteter, tillgång, platstyp, region, betyg och onlinebokning går att kombinera, så ”områden för gratis camping med toaletter och dricksvatten nära Queenstown” blir en enda sökning."
+        ],
+        [
+          "Varför ger en filtrerad sökning inga träffar?",
+          "Nästan alltid för att filtren är staplade hårdare än området tillåter. Att vidga kartan eller ta bort den minst viktiga faciliteten får oftast tillbaka listan, och det är värt att rensa betygsfiltret först."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-offline-data-guide": {
+      "title": "Fungerar KiwiCamping offline? Det här kräver täckning",
+      "description": "Platsinformation, sparade listor och guider fungerar utan täckning, men kartbilder, väder, routing och Se dig omkring kräver uppkoppling. Planera avlägsna etapper efter det.",
+      "region": "KiwiCamping",
+      "imageAlt": "State Highway 94 slingrar sig genom en avlägsen dal i Fiordland National Park",
+      "intro": "KiwiCamping är inte en app som ger dig kartor utan uppkoppling. Platsdatan är fortfarande användbar utanför täckningen, men kartbilder, väder, routing och foton kräver ett nätverk, och att veta exakt vilken hälft som är vilken är skillnaden mellan en väl förberedd avlägsen etapp och att få veta det i fel ögonblick.",
+      "sections": [
+        {
+          "heading": "Vad som finns tillgängligt utan täckning",
+          "body": [
+            "Appen har Nya Zeelands platsregister inbyggt: DOC-campingplatser, stugor och leder, DOC:s meddelanden om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, tömningsstationer, rastplatser för dagsbesök samt holiday parks och turer från BookIt. Grunduppgifterna följer med appen i stället för att hämtas, så de går att läsa även när signalen saknas. BookIt-vistelser och turer är gratis. DOC-platserna, tömningsstationerna och rastplatserna för dagsbesök ingår i Premium Pass.",
+            "Sparade listor och reseinformation går också att använda. Du kan gå igenom planen, läsa anteckningarna som hör till varje stopp och kolla vad du bestämde om en plats, vilket oftast är precis vad du behöver när du ska avgöra om du kör vidare eller stannar."
+          ],
+          "tips": [
+            "Platsregistret finns inbyggt",
+            "Sparade listor och resor går att läsa",
+            "Uppgifterna följer med appen"
+          ]
+        },
+        {
+          "heading": "Vad som verkligen kräver uppkoppling",
+          "body": [
+            "Väderprognoser, routing och vägbeskrivningar i realtid, externa bokningssidor, leverantörers webbplatser, platsfoton, kartbilder och satellitbilder kräver alla uppkoppling. Inget av det tar bort den lagrade platsuppgiften, men det betyder att svaret på ”kommer det att regna” och ”finns det en ledig bädd” inte går att få där ute.",
+            "Bilderna i <a data-guide=\"kiwicamping-weather-look-around\">Se dig omkring</a> kräver också uppkoppling, vilket är bra att veta eftersom de är mest användbara just när du närmar dig en obekant infart, och det är ofta där täckningen tar slut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Var i Nya Zeeland det faktiskt märks",
+          "body": [
+            "West Coast mellan Westport och Haast, större delen av Fiordland, East Cape, Catlins, inlandet i Otago och stora delar av centrala North Island har långa sträckor utan användbar mobiltäckning. Det är inga avlägsna utposter: de ligger på de viktigaste turistvägarna, och det är precis där du ska välja campingplats.",
+            "Täckningskartor smickrar också verkligheten. Ett bolag kan visa täckning i en dal där signalen försvinner bakom första ryggen, och roaming-SIM presterar ofta sämre än lokala. Planera för sämre täckning än kartan lovar."
+          ],
+          "tips": [
+            "De stora turistvägarna förlorar täckning",
+            "Täckningskartor är optimistiska",
+            "Roaming-SIM presterar sämre"
+          ]
+        },
+        {
+          "heading": "Gör kontrollerna i realtid innan du tappar signalen",
+          "body": [
+            "Skaffa dig en vana kring den sista orten med täckning: kolla prognosen för de kommande två dagarna, bekräfta bokningar, titta på väglägen och varningar och öppna platsuppgifterna för i kväll och i morgon så att de är laddade och bekanta.",
+            "Ta skärmdumpar av sådant som skulle kosta dig om det försvann. Bokningsbekräftelser, grindkoder, campingplatsens telefonnummer och alla tillfartsanvisningar är värda en skärmdump var, för en skärmdump kräver ingen app, ingen session och ingen signal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Batteriet är en del av planeringen utan täckning",
+          "body": [
+            "En app som fungerar utan täckning är ingen nytta på en död telefon, och telefonen arbetar mer än vanligt på en roadtrip: navigering, foton, väderkontroller och letande efter signal, som tömmer ett batteri snabbare än nästan allt annat. Aktivera lågenergiläge innan det blir akut.",
+            "Ha med en laddad powerbank och en kabel som faktiskt fungerar i fordonet. Kalla nätter minskar batterikapaciteten märkbart, så en telefon som verkade fin vid middagen kan vara urladdad på morgonen på en alpin plats."
+          ],
+          "tips": [
+            "Att leta efter signal tömmer snabbt",
+            "Ha med en laddad powerbank",
+            "Kalla nätter minskar batterikapaciteten"
+          ]
+        },
+        {
+          "heading": "Noteringen går inte före skylten",
+          "body": [
+            "Data utan uppkoppling visar vad som gällde när uppgiften registrerades. Rangers stänger platser, kommuner ändrar föreskrifter, översvämningar tar ut tillfartsvägar och <a data-guide=\"campfire-rules-new-zealand\">eldningsbegränsningar</a> kommer snabbt. När du kommer fram är det skylten, avspärrningen och markförvaltaren som avgör, och de går alltid före en sparad uppgift.",
+            "Om det du hittar säger emot det du sparade: följ det som finns framför dig och byt till din reservplats. Det är hela skälet till att ha pekat ut en innan du lämnade täckningen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Appar utan uppkoppling är inget säkerhetssystem",
+          "body": [
+            "För allt som är säkerhetskritiskt: ha med en nedladdad eller pappersbaserad topografisk karta och kunna använda den. En campingkatalog är inget navigationsverktyg, och telefon-GPS utan kartsammanhang har lett människor in i verkliga problem i Nya Zeelands vildmark.",
+            "För avlägsna vandringar eller körning på små vägar: hyr en personlig nödsändare. De kostar mycket lite för en resa, fungerar där telefoner inte gör det och är det enskilda som mest sannolikt ändrar utgången av ett allvarligt problem."
+          ],
+          "tips": [
+            "Ha med en riktig topografisk karta",
+            "Hyr en PLB för avlägsna etapper",
+            "En katalog är inget navigationsverktyg"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad fungerar i KiwiCamping utan täckning?",
+          "Platskatalogen finns inbyggd i appen, så namn, kategorier, beskrivningar, avgifter, faciliteter, öppettider och förhållanden går att öppna utan signal. Sökning, filter och sparade platser fungerar också utan uppkoppling, för de platser din tillgång omfattar: BookIt-vistelser och turer är gratis, DOC-platser och tömningsstationer kräver Premium Pass."
+        ],
+        [
+          "Vad kräver uppkoppling?",
+          "Tjänsterna i realtid: väder, routing och vägbeskrivningar, bilder i Se dig omkring, platsfoton och leverantörers bokningssidor. De hämtas när du ber om dem, så platsskärmen öppnas ändå utan dem."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-weather-look-around": {
+      "title": "Kolla väder och Se dig omkring innan du väljer plats",
+      "description": "Jämför prognosen och vägmiljön med det faktiska valet av campingplats.",
+      "region": "KiwiCamping",
+      "imageAlt": "Dramatiska nordvästliga moln över det turkosa vattnet i Lake Pukaki",
+      "intro": "En pin säger var en plats ligger. Den säger inte att platsen är en grusbank helt utsatt för sydvind, att tillfarten är en brant enfilig grusbacke eller att infarten lätt missas i mörker. Vädret och Se dig omkring från Apple fyller i det som avgör om en natt blir bekväm.",
+      "sections": [
+        {
+          "heading": "Kolla prognosen för platsen, inte regionen",
+          "body": [
+            "Vädret i Nya Zeeland varierar dramatiskt över korta avstånd. En prognos för närmaste stad kan vara helt fel för en campingplats tjugo minuter bort på andra sidan en bergskedja, och skillnaden mellan en skyddad dal och en utsatt sjökant är ingen detalj.",
+            "Läs de delar som påverkar en natt utomhus i stället för ikonen i rubriken. Vindhastighet och vindriktning, lägsta temperatur under natten och regnmängder betyder mycket mer för hur du sover än om dagens symbol är ett moln eller en sol."
+          ],
+          "tips": [
+            "Vind och nattens lägsta temperatur avgör komforten",
+            "Stadsprognoser vilseleder för platser i närheten",
+            "Läs mängderna, inte ikonen"
+          ]
+        },
+        {
+          "heading": "Vinden är oftast det avgörande",
+          "body": [
+            "Sjöstränder och utsatta kuster förstärker vinden, och den ökar ofta under kvällen i stället för att avta. Ett tält som står bra när du ställer upp det klockan fem kan vara ett allvarligt problem vid midnatt, och markiser som står ute i stigande vind är ett av de vanligaste sätten för campare att skada ett fordon.",
+            "Där prognosen är kraftig: välj skydd framför utsikt. En plats bakom en vall eller en häck utan utsikt ger en mycket bättre natt än en fotogenisk plats rakt i sydvinden."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Använd officiella källor för säkerhetsbeslut",
+          "body": [
+            "En prognos i appen är underlag för ett komfortbeslut. För säkerhet: använd varningar från MetService, råd från Civil Defence, väglägen från NZTA och varningar från DOC, där <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>, vägavstängningar, översvämningar och varningar för leder faktiskt dyker upp.",
+            "Kolla dem medan du fortfarande har signal, och kolla igen nära avresan en dag som innehåller ett alpint pass, en <a data-guide=\"river-crossing-safety-new-zealand\">flodpassage</a>, en utsatt kust eller en prognos som har ändrats."
+          ],
+          "tips": [
+            "MetService för varningar",
+            "NZTA för väglägen",
+            "Kolla igen före alpina pass"
+          ]
+        },
+        {
+          "heading": "Förhandsvisa ankomsten med Se dig omkring",
+          "body": [
+            "Där det finns bilder i Se dig omkring visar de infarten, vägbredden, underlaget och omgivningen innan du styr ett stort fordon dit. Det är verkligt värdefullt för <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> i okända städer, där avfarten ofta är omärkt och gatan smalare än väntat.",
+            "Det är lika användbart för att upptäcka sådant som en notering inte berättar: att en plats ligger mot en huvudväg, intill en järnväg, eller att den enda tillfarten är en brant grusnedfart som du helst inte vill backa ut från."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se bilderna som gamla, för det är de",
+          "body": [
+            "Bilderna i Se dig omkring kan vara flera år gamla. Vägarbeten, jordskred, nya grindar, ändrade skyltar och stängda infarter syns inte, och i ett land där en enda storm kan göra om en väg på West Coast spelar det gapet roll.",
+            "Använd dem för att bilda dig en förväntan, inte en garanti. Skyltar, avspärrningar och förhållandena när du kommer fram avgör, och om marken säger emot bilderna har marken rätt."
+          ],
+          "tips": [
+            "Bilderna kan vara flera år gamla",
+            "Jordskred och grindar syns inte",
+            "Marken vinner alltid"
+          ]
+        },
+        {
+          "heading": "Titta på vad som finns runt platsen",
+          "body": [
+            "Det bättre lägret är ofta det som löser morgondagens sysslor. Kolla vad som finns i närheten: bränsle, en matbutik, en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a>, dricksvatten, en tvättstuga. En plats som är lite mindre vacker men ligger intill den service du behöver kan spara en timmes vändande på morgonen.",
+            "Titta på utfarten lika mycket som på infarten. Om morgondagen börjar med en lång körning eller en tidig färja är en plats som ställer dig på rätt sida av staden värd mer än en med bättre utsikt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Spara förhandsvisningen i planen",
+          "body": [
+            "När vädret och bilderna har sagt dig något användbart: lägg det på stoppet som en anteckning. ”Utsatt för sydvind, ta bakre raden” eller ”infarten ligger 200 m efter bron, lätt att missa” är precis den sortens detalj som är självklar nu och borta om en vecka.",
+            "Spara den service du hittade som ett eget stopp med en anteckning om öppettider. En <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstation</a> som du inte kan använda för att den stängde klockan fem är detsamma som ingen tömningsstation alls."
+          ],
+          "tips": [
+            "Skriv det du lärde dig på stoppet",
+            "Notera infarten om den är svår att hitta",
+            "Kolla servicens öppettider"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man se vädret för en särskild campingplats?",
+          "Ja. Aktuella förhållanden och prognosen finns på varje platsskärm och bredvid varje stopp i en resa, så att ett val mellan två läger kan göras med himlen i åtanke och inte utifrån en regional prognos."
+        ],
+        [
+          "Vad är Se dig omkring bra för när man väljer campingplats?",
+          "Att se infarten och vägytan innan du styr en husbil in på en avfart. Där bilderna i Se dig omkring från Apple täcker en väg öppnas de direkt från platsskärmen, vilket besvarar den fråga om tillfarten som en notering inte kan."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-currency-place-costs": {
+      "title": "Se rapporterade platspriser i din egen valuta",
+      "description": "Använd enhetliga omräkningar för att jämföra boenden och bekräfta sedan beloppet som leverantören tar ut.",
+      "region": "KiwiCamping",
+      "imageAlt": "Husbilar och husvagnar parkerade på gräset vid Reefton Motor Camp",
+      "intro": "Resenärer budgeterar i den valuta de tänker i, medan varje campingplats i Nya Zeeland tar betalt i nyzeeländska dollar. Att visa rapporterade kostnader i en bekant valuta tar bort huvudräkningen ur varje jämförelse, så länge ingen tar en omräkning för ett pris från leverantören.",
+      "sections": [
+        {
+          "heading": "Välj den valuta din budget görs i",
+          "body": [
+            "Välj den valuta du faktiskt planerar i, inte den ditt kort är utfärdat i om de skiljer sig åt. Poängen är att jämföra en enkel DOC-plats, en plats på en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> och en stuga på samma skala, snabbt, i det ögonblick du väljer mellan dem.",
+            "Enhetlighet är det som gör det användbart. Om varje rapporterat belopp räknas om på samma sätt är de relativa skillnaderna pålitliga, även där den absoluta siffran är ungefärlig."
+          ],
+          "tips": [
+            "Använd den valuta du planerar i",
+            "Poängen är den relativa jämförelsen",
+            "Samma metod för varje plats"
+          ]
+        },
+        {
+          "heading": "Förstå vad en omräknad siffra är",
+          "body": [
+            "Det är en mekanisk omräkning av ett rapporterat pris med en daterad referenskurs. Det är inte en växelkurs i realtid, och det är inte vad din bank tar ut. Kort tillämpar sina egna kurser och lägger ofta på en avgift för utländska transaktioner, så beloppet som lämnar ditt konto blir ett annat.",
+            "Se omräknade belopp som planeringssiffror som är tillräckligt exakta för att välja mellan alternativ, och aldrig som talet att budgetera ner till sista öret. För den faktiska kostnaden: titta på beloppet i nyzeeländska dollar och på vad ditt kort tar ut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kolla vad priset faktiskt omfattar",
+          "body": [
+            "Det är här de flesta budgetfel sker. Avgifter för <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> tas oftast ut per vuxen och natt, medan kommersiella holiday parks kan ta betalt per plats med ett angivet antal personer, eller en grundavgift med extra gäster tillagda. Två liknande siffror kan betyda mycket olika totalsummor för en familj på fyra.",
+            "Kolla också om el, duschar, sängkläder och bokningsavgifter ingår eller läggs till. En stuga med angivet pris utan sängkläder och en stuga med sängkläder är inte samma produkt, och skillnaden är oftast större än skillnaden i grundpris."
+          ],
+          "tips": [
+            "DOC tar betalt per vuxen",
+            "Parker tar ofta betalt per plats",
+            "Kolla el, sängkläder och bokningsavgifter"
+          ]
+        },
+        {
+          "heading": "Bekräfta innan ett pris ändrar din rutt",
+          "body": [
+            "Rapporterade avgifter ändras med säsong, antal gäster, fordonstyp, åldersgrupp och efterfrågan. Innan ett pris avgör var du kör: öppna den officiella källan eller kontakta leverantören och bekräfta det aktuella priset för just dina datum och ditt sällskap.",
+            "För DOC-platser särskilt: kolla om platsen går att boka eller är först till kvarn, och om ett Campsite Pass gäller. Ett pass är ett betalningssätt och ingen reservation, och att blanda ihop de två ger en obehaglig ankomst till en full campingplats."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jämför hela natten, inte nattpriset",
+          "body": [
+            "Lägg ihop allt stoppet innebär: platsavgift, el, duschar, tvätt om du behöver den, bokningsavgifter och bränslet för att ta sig dit. En campingplats tjugo minuter från rutten är inte billigare än en lite dyrare som du kör förbi.",
+            "En central <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> kan också ta bort kostnader som aldrig syns på campingraden, som parkering i stan eller en extra tur in för matinköp. När du jämför totalen blir de synliga."
+          ],
+          "tips": [
+            "Räkna med bränslet för att ta sig dit",
+            "Lägg till el, duschar och avgifter",
+            "Centrala platser kan ta bort andra kostnader"
+          ]
+        },
+        {
+          "heading": "Ha en reserv i nyzeeländska dollar",
+          "body": [
+            "Ha tillräckligt med lokal valuta för sådant som inte respekterar en plan: en deposition, en stängd väg som tvingar fram en betald natt, ett däck, en färjeändring. Budgetar som utgår från att varje natt blir en gratis eller billig plats har inget utrymme för den dag som går fel.",
+            "Ett praktiskt sätt är att planera för en betald natt oftare än du tror att du kommer att ta en. Behöver du den inte blir pengarna kvar, och behöver du den är beslutet enkelt i stället för smärtsamt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Följ upp utgifterna de första dagarna",
+          "body": [
+            "Jämför vad du faktiskt spenderar med vad du planerade under de första tre eller fyra dagarna och justera sedan. Raderna som glider iväg är nästan alltid mat, kaffe och små betalda aktiviteter och inte boendet, och de är också enklast att rätta till tidigt.",
+            "Att fånga ett överskridande på tjugo procent i vecka ett betyder att dra ner på några restaurangmåltider. Att upptäcka det i vecka fyra betyder att ställa in den del av resan du helst ville göra."
+          ],
+          "tips": [
+            "Kolla utgifterna de första dagarna",
+            "Mat och kaffe glider iväg, inte campingplatserna",
+            "Tidig rättelse är billig"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan KiwiCamping visa priser i min egen valuta?",
+          "Ja. Välj din valuta i ”Inställningar” och ange omräkningskursen, så visas rapporterade kostnader i den valutan bredvid beloppet i nyzeeländska dollar."
+        ],
+        [
+          "Är de omräknade priserna exakta?",
+          "Nej, och det är inte meningen. De är en mekanisk omräkning av ett rapporterat belopp i nyzeeländska dollar med den kurs du har angett, för att bedöma en plats mot en annan. Din bank eller ditt kortföretag tillämpar sin egen kurs och sina egna avgifter."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
     }
   },
   "tools": {
