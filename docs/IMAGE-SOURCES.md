@@ -88,3 +88,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `free-camping-apps-new-zealand` | Lake Poaka Campsite, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Poaka_Campsite,_New_Zealand.jpg) |
 | `best-travel-apps-new-zealand` | Desert Road, Tongariro National Park.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Desert_Road,_Tongariro_National_Park.jpg) |
 | `wikicamps-alternatives` | Cameron Flat Campground at dawn.jpg | Karitxa | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Cameron_Flat_Campground_at_dawn.jpg) |
+| `best-campervan-apps-new-zealand` | Fiat Ducato, New Zealand, September 2016.jpg | dorfor | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Fiat_Ducato,_New_Zealand,_September_2016.jpg) |

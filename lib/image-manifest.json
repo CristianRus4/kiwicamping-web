@@ -83,6 +83,20 @@
       }
     ]
   },
+  "/images/articles/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/best-campervan-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/best-nz-camping-apps.webp": {
     "width": 1600,
     "height": 900,
@@ -1318,6 +1332,20 @@
       {
         "path": "/images/kiwicamping-og.webp",
         "width": 1200
+      }
+    ]
+  },
+  "/images/screens/best-campervan-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/best-campervan-apps-new-zealand.webp",
+        "width": 1600
       }
     ]
   },

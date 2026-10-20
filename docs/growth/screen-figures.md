@@ -19,6 +19,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-travel-apps-new-zealand | 1 (1. KiwiCamping: where to stay and how to string the trip together) | kiwicamping_map-pins_mackenzie.png | KiwiCamping on iPhone: places on the map with the Explore list below |
 | best-nz-camping-apps | 1 (1. KiwiCamping: best for DOC campsites, huts and planning the route) | kiwicamping_weather_tongariro.png | KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby |
 | wikicamps-alternatives | 2 (1. KiwiCamping: best for DOC campsites and huts with DOC's own details) | Inbox: kiwicamping_place-detail_black-rock-campsite_fees-facilities.png | KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply |
+| best-campervan-apps-new-zealand | 1 (1. KiwiCamping: best for planning where the van sleeps each night) | Inbox: kiwicamping_guides_west-coast-road-trip_top.png | KiwiCamping on iPhone: a South Island West Coast road trip guide with its trip length, distance and a button to save every place it mentions |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

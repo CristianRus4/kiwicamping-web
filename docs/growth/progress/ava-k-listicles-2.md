@@ -8,7 +8,7 @@ Research fact sheets (dated, sourced): `/Users/cristian/Developer/Webs/.growth-l
 | # | Slug | publishAt | Status |
 |---|---|---|---|
 | 1 | wikicamps-alternatives | 2026-10-23 | committed |
-| 2 | best-campervan-apps-new-zealand | 2026-10-25 | drafting |
+| 2 | best-campervan-apps-new-zealand | 2026-10-25 | committed |
 | 3 | best-weather-apps-new-zealand | 2026-10-27 | research |
 | 4 | fuel-price-apps-new-zealand | 2026-10-29 | research |
 | 5 | working-holiday-apps-new-zealand | 2026-10-31 | research |
