@@ -9,7 +9,7 @@ Process per language: Sonnet drafts (high) -> Opus native review (medium) -> che
 lib/translations/<code>.json -> `npm run translations:stamp -- --locale <code>` -> `npm run content:check`.
 
 ## Done
-- All 8 languages: es (56386d7), de (84aa479), fr (e8bcfe2), nl (43ffd29), it (1e9b040), nb (51da972), sv (1cf09df), pt (see git log). 152 tools units each; Sonnet draft, Opus native review, negation and parenthesis check against the English, stamped. Final `npm run check` passed; /<locale>/tools/ and the five calculator pages export indexable for every language.
+- All 8 languages: es (56386d7), de (84aa479), fr (e8bcfe2), nl (43ffd29), it (1e9b040), nb (51da972), sv (1cf09df), pt (43fc2c9). 152 tools units each; Sonnet draft, Opus native review, negation and parenthesis check against the English, stamped. Final `npm run check` passed; /<locale>/tools/ and the five calculator pages export indexable for every language.
 
 ## Next
 Nothing; lane complete.
