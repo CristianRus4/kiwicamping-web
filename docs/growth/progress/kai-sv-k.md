@@ -20,9 +20,10 @@ Batches (about five guides each):
 - [x] Batch 6 applied (5 guides): new-zealand-driving-day-planner, bay-of-islands-camping-week, christchurch-tekapo-aoraki-road-trip, kauri-dieback-camping-travel, new-zealand-severe-weather-camping.
 - [x] Batch 7 applied (6 guides, rules and safety complete): earthquake-tsunami-camping-new-zealand, winter-driving-new-zealand-campervan, alcohol-fatigue-driving-new-zealand, one-lane-bridges-gravel-roads-new-zealand, wildlife-livestock-road-safety-new-zealand, camping-rules-local-councils-new-zealand.
 - [x] Batch 8 applied (6 app guides): plan-trip-kiwicamping, save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs. Checked Pass boundary and no offline-map wording (title/intro of the offline guide say the app does not give maps without a connection).
+- [x] Batch 9 applied (3 guides): winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip.
 
 ## Next
-No subagents (overnight rule until 09:00). Next: winter-camping-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, then road trips (wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, rakiura-stewart-island-camping-guide).
+No subagents (overnight rule until 09:00). Next: the 10 road trips: wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, nelson-abel-tasman-golden-bay, south-island-two-week-road-trip, new-zealand-three-week-campervan-route, rakiura-stewart-island-camping-guide. Then final gate check and the full npm run check.
 Audit rules: no genitive -s on KiwiCamping or other brands (MetService, Apple); English number-words stay words; keep English macron spelling exactly.
 
 ## Blockers
