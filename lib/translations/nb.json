@@ -254,7 +254,7 @@
         {
           "heading": "Kart, vær og direktedata",
           "paragraphs": [
-            "Bytt mellom standardkartet og en satellittvisning bygget på flyover-bilder fra Apple, som kan vippes og roteres til 3D-terreng. Street View bygger på bilder fra Apple Look Around («Se deg rundt») og åpnes fra stedssiden der det finnes bilder.",
+            "Bytt mellom standardkartet og en satellittvisning bygget på flyover-bilder fra Apple, som kan vippes og roteres til 3D-terreng. Apple Look Around, visningen fra gatenivå, åpnes fra stedssiden der det finnes bilder.",
             "Været nå og prognosen krever nettilgang. Lagre viktige prognoser og offisielle farevarsler før du kjører ut av dekning.",
             "Stedskatalogen følger med appen, så den viktigste stedsinformasjonen er tilgjengelig også der dekningen er dårlig. Direktekart, ruteplanlegging, vær, bilder og eksterne tilbyderes nettsider kan kreve dekning."
           ]
@@ -377,8 +377,8 @@
   },
   "articles": {
     "new-zealand-road-signs-visitors": {
-      "title": "Veiskilt på New Zealand: enfeltsbruer, vikeplikt og fart",
-      "description": "Veiskilt på New Zealand: fartsgrenser og anbefalt fart, enfeltsbruer, vikeplikt, rundkjøringer og veiarbeid. Les skiltene sammen med oppmerking og forhold.",
+      "title": "Veiskilt på New Zealand og hva de betyr for besøkende",
+      "description": "Skilt for vikeplikt, enfeltsbruer, anbefalt fart og advarsler på New Zealand forklart, med situasjonene som overrasker besøkende på landeveiene.",
       "region": "Veier på New Zealand",
       "imageAlt": "Varselskilt for enfeltsbru på New Zealand",
       "intro": "Skiltene på New Zealand bygger på kjente internasjonale prinsipper, men de lokale veiforholdene kan overraske. Vikeplikt på enfeltsbruer, anbefalt fart i svinger og midlertidig trafikkregulering må du kjenne igjen før veien smalner.",
@@ -443,7 +443,7 @@
           "heading": "Forbikjøringsfelt og lommer for saktegående",
           "body": [
             "Det er langt mellom forbikjøringsfeltene på hovedveiene. Kjører du saktere enn trafikken bak, er det både høflig og forventet at du bruker lommene for saktegående kjøretøy eller kjører inn til siden der det er trygt, så de kommer forbi. Det handler om mer enn høflighet: Frustrerte bilister i køen bak fører til forbikjøringsulykker.",
-            "Ikke øk farten i et forbikjøringsfelt mens noen kjører forbi deg. Har du fem eller flere kjøretøy i kø bak deg, er du pålagt å kjøre inn til siden så snart det er trygt."
+            "Ikke øk farten i et forbikjøringsfelt mens noen kjører forbi deg. Holder farten din opp trafikken, krever trafikkreglene at du flytter deg til venstre og slipper den forbi så snart det er trygt."
           ],
           "tips": []
         },
@@ -487,8 +487,8 @@
       "priceTable": null
     },
     "new-zealand-biosecurity-camping-gear": {
-      "title": "Biosikkerhet på New Zealand: telt, sko og campingutstyr",
-      "description": "Brukte tursko, telt, fiskeutstyr og mat må deklareres når du lander på New Zealand. Slik unngår du bot ved grensen og rengjør utstyret før det flyttes mellom vassdrag og skoger.",
+      "title": "Biosikkerhet på New Zealand: deklarer tursko og campingutstyr",
+      "description": "Brukte tursko, telt og fiskeutstyr må deklareres når du kommer til New Zealand. Hva du bør rengjøre før du flyr, og hvordan du hindrer at skadedyr spres mellom elver.",
       "region": "Innreise og friluftsliv",
       "imageAlt": "Rengjorte tursko klare for biosikkerhetskontrollen på New Zealand",
       "intro": "Brukt friluftsutstyr kan ta med seg frø, jord, insekter og skadeorganismer som lever i vann. Biosikkerheten starter ved grensen og fortsetter når utstyret flyttes mellom ulike naturområder på New Zealand.",
@@ -597,8 +597,8 @@
       "priceTable": null
     },
     "campervan-road-rules-new-zealand": {
-      "title": "Bobilkjøring på New Zealand: regler og sikkerhet",
-      "description": "Mål, vekt, passasjerer og forbud i leieavtalen: det du bør ha på plass før en smal vei viser hvor stor bobilen egentlig er.",
+      "title": "Bobilkjøring på New Zealand: førerkort, fart og størrelse (2026)",
+      "description": "Å kjøre bobil på New Zealand: hva et vanlig bilførerkort dekker, fartsgrenser, vind på åpne veier, mål for ferjen og feilene besøkende gjør.",
       "region": "Veiene på New Zealand",
       "imageAlt": "Stor bobil på en smal vei på New Zealand",
       "intro": "Du kan kjøre en bobil på førerkort klasse 1, men den oppfører seg helt annerledes enn en vanlig bil. Ved overtakelsen bør du få klart for deg høyde, bredde, lengde, vekt med last og alle veier som leieavtalen utelukker.",
@@ -631,7 +631,7 @@
           "heading": "Kjenn målene før du kjører av gårde",
           "body": [
             "Skriv ned høyde, lengde og vekt, og ha tallene synlige for sjåføren. Det er høyden som gir dyre skader: innkjøringer til parkeringshus, drive-through, tak over bensinstasjoner og flere underganger i byene.",
-            "Sjekk speil, blindsoner og ryggekamera før du forlater utleiestedet, og gå rundt bilen. De fleste skadene på leiebobiler skjer de to første dagene, i lav fart på parkeringsplasser."
+            "Sjekk speil, blindsoner og ryggekamera før du forlater utleiestedet, og gå rundt bilen. Mange skader på leiebobiler skjer i lav fart på parkeringsplasser."
           ],
           "tips": [
             "Skriv høyden på dashbordet",
@@ -651,11 +651,11 @@
           "heading": "Vind, og hvorfor den betyr mer her",
           "body": [
             "En høy bil tar mye sidevind, og New Zealand er et land med mye vind: åpne kystveier, bruer og fjellpass. Når du kjører forbi lastebiler eller kommer ut av en skjæring, kan du få et plutselig dytt sideveis.",
-            "Hold rattet fast med begge hender på åpne strekninger, sett ned farten før vindkastet i stedet for under det, og husk at enkelte veier stenges for høye kjøretøy i sterk vind, blant annet Rimutaka Hill Road og deler av Desert Road."
+            "Hold rattet fast med begge hender på åpne strekninger, sett ned farten før vindkastet i stedet for under det, og sjekk journey planner hos NZTA før en åpen kryssing: Remutaka Hill Road (SH2) stenges i kraftig vind, og andre åpne veier har vindadvarsler."
           ],
           "tips": [
             "Senk farten før den åpne strekningen",
-            "Noen veier stenges for høye kjøretøy",
+            "Noen veier stenges i kraftig vind",
             "Lastebiler og skjæringer gir plutselige vindkast"
           ]
         },
@@ -663,7 +663,7 @@
           "heading": "Forbikjøring, og når du blir forbikjørt",
           "body": [
             "En bobil akselererer sakte. Derfor trenger du mye mer fri vei for å kjøre forbi enn i en bil, og det er sjelden verdt å prøve. De fleste hovedveiene på New Zealand har to felt og få forbikjøringsfelt, og forbikjøringsulykker er et kjent problem.",
-            "Når køen vokser bak deg, kjør inn til siden der det er trygt og slipp den forbi. Står det fem eller flere kjøretøy i kø bak deg, må du gjøre det så snart det er trygt. Det tar også bort presset som får folk til å kjøre forbi uforsvarlig."
+            "Når køen vokser bak deg, kjør inn til siden der det er trygt og slipp den forbi. Holder du opp trafikken, krever trafikkreglene at du flytter deg til venstre og slipper den forbi så snart det er trygt. Det tar også bort presset som får folk til å kjøre forbi uforsvarlig."
           ],
           "tips": []
         },
@@ -679,13 +679,13 @@
         {
           "heading": "Ferjer, tunneler og høydebegrensninger",
           "body": [
-            "Prisen på <a data-guide=\"cook-strait-ferry-campervan-guide\">ferjen over Cookstredet</a> avhenger av kjøretøyets lengde og høyde, og begge deler blir kontrollert. Noen bytunneler og eldre bruer har høyde- eller vektbegrensning, og noen veier er stengt for høye kjøretøy i sterk vind.",
+            "Prisen på <a data-guide=\"cook-strait-ferry-campervan-guide\">ferjen over Cookstredet</a> settes etter kjøretøyets lengde, inkludert sykkelstativ og tilhengerfeste, og lengden kontrolleres ved innsjekk. Noen bytunneler og eldre bruer har høyde- eller vektbegrensning, og noen få åpne ruter stenges i kraftig vind.",
             "Kjenn målene dine nøyaktig og sjekk dem mot enhver rute med tunnel, lav bru eller ferjebestilling. Gjetter du, får du en dyr omberegning i terminalen, eller noe verre ute på veien."
           ],
           "tips": [
             "Ferjeprisen følger størrelsen",
             "Kjenn nøyaktig høyde og lengde",
-            "Noen ruter stenges for høye bobiler"
+            "Åpne ruter kan stenges i kraftig vind"
           ]
         }
       ],
@@ -707,8 +707,8 @@
       "priceTable": null
     },
     "east-cape-road-trip": {
-      "title": "Roadtrip rundt East Cape: Gisborne til Ōpōtiki",
-      "description": "En rolig kysttur forbi surfebyer, bukter med pōhutukawa og avsidesliggende veier i øst.",
+      "title": "Roadtrip rundt East Cape: campingrute fra Gisborne til Ōpōtiki",
+      "description": "Kjør rundt East Cape fra Gisborne til Ōpōtiki: surfebyer, bukter med pōhutukawa, avsidesliggende veier med få servicetilbud, og hvor du kan campe underveis.",
       "region": "East Cape",
       "imageAlt": "Avsidesliggende vei på East Cape langs Stillehavet",
       "intro": "State Highway 35 er en av landets mest givende veier for deg som vil kjøre sakte. Drivstoff, åpningstider og stormskader betyr mer her, så legg planen etter dagslyset og forholdene i stedet for faste ankomsttider.",
@@ -803,8 +803,8 @@
       "priceTable": null
     },
     "speed-limits-new-zealand-visitors": {
-      "title": "Fartsgrenser på New Zealand: slik kjører du trygt",
-      "description": "Fartsgrensen er et tak under gode forhold, og mange landeveier krever langt lavere fart. Slik leser du skiltene og holder et trygt tempo.",
+      "title": "Fartsgrenser New Zealand 2026: 100 km/t, 90 med henger",
+      "description": "Fartsgrenser på New Zealand for besøkende og bobiler: 100 km/t på åpen vei, 50 km/t i tettsteder, 90 km/t når du trekker henger, og når du bør kjøre godt under dem.",
       "region": "Veiene på New Zealand",
       "imageAlt": "Fartsgrenseskilt på en landevei på New Zealand",
       "intro": "En lovlig fartsgrense betyr ikke at du kan holde den farten på veien. Svinger, regn, grus, husdyr, syklister og en bobil du ikke kjenner gjør alle at den trygge farten blir lavere.",
@@ -848,8 +848,8 @@
         {
           "heading": "Kontrollene er strengere enn mange besøkende tror",
           "body": [
-            "Toleransen er liten, fotobokser finnes overalt, også mobile, og bøtene sendes til den registrerte eieren. Det betyr at et utleiefirma sender dem videre til deg, med et administrasjonsgebyr. Prikker gjelder ikke for utenlandske førerkort, men bøtene gjør det.",
-            "Strekningsmåling og lavere grenser på landeveier er blitt utvidet de siste årene. Regn med at alle veier kan være overvåket, i stedet for å speide etter fotobokser."
+            "Toleransen er liten, fotobokser finnes overalt, også mobile, og bøtene sendes til den registrerte eieren. Det betyr at et utleiefirma sender dem videre til deg, med et administrasjonsgebyr. Lovbrudd der politiet stanser deg, gir prikker selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">utenlandsk førerkort</a>, og bøtene gjelder også.",
+            "Fotobokser som måler gjennomsnittsfart, er blitt utvidet siden slutten av 2025, så regn med at alle veier kan være overvåket. Ikke speid etter fotobokser, men gå ut fra at enhver vei kan være overvåket."
           ],
           "tips": []
         },
@@ -877,7 +877,7 @@
           "heading": "Variable og reduserte grenser",
           "body": [
             "Grensene rundt skoler senkes til faste tider og vises på blinkende eller variable skilt. Ved veiarbeid gjelder midlertidige grenser uansett om noen er synlig i arbeid, og de håndheves med samme lille toleranse som faste grenser.",
-            "På flere landeveier er grensen satt ned fra 100 km/t etter sikkerhetsvurderinger, og endringen er ikke alltid lett å se hvis du bruker et eldre kart eller var her sist for lenge siden. Les skiltene i stedet for å anta at grensen for åpen vei gjelder.",
+            "Noen landeveier har grenser under 100 km/t, og mange nedsatte grenser ble satt opp igjen i 2025, så et eldre kart eller et tidligere besøk kan ta feil begge veier. Les skiltene i stedet for å anta at grensen for åpen vei gjelder.",
             "På uasfalterte veier er skiltet ofte fortsatt 100 km/t, som er langt fra trygg fart på grus. Her er grensen bare et lovlig tak og sier ingenting om hva veien tåler."
           ],
           "tips": []
@@ -886,7 +886,7 @@
           "heading": "Slik fungerer fotobokser og bøter",
           "body": [
             "Faste og mobile kontroller dekker hele landet, og toleransen er liten. Bøtene går til den registrerte eieren, så utleiefirmaet får dem og sender dem videre med et administrasjonsgebyr.",
-            "Prikker gjelder ikke for et <a data-guide=\"overseas-driver-licence-new-zealand\">utenlandsk førerkort</a>, men bøtene gjør det, og ubetalte bøter kan følge deg. Betal dem, i stedet for å anta at de forsvinner når du forlater landet."
+            "Bøter fra fotobokser gir ingen prikker, men lovbrudd der politiet stanser deg gjør det, selv på et <a data-guide=\"overseas-driver-licence-new-zealand\">utenlandsk førerkort</a>. 100 prikker i løpet av to år gir tre måneders kjøreforbud på New Zealand. Betal bøtene, i stedet for å anta at de forsvinner når du forlater landet."
           ],
           "tips": [
             "Liten toleranse",
@@ -913,8 +913,8 @@
       "priceTable": null
     },
     "towing-caravan-new-zealand": {
-      "title": "Kjøre med campingvogn på New Zealand: regler og råd",
-      "description": "90 km/t som øvre grense, lastet vekt og fire sekunders avstand er utgangspunkt, ikke mål. Slik kjører du trygt med campingvogn på New Zealand.",
+      "title": "Campingvogn på New Zealand: førerkort, vekt og 90 km/t",
+      "description": "90 km/t som høyeste fart med tilhengerfeste, 50 km/t med tau, 6 000 kg samlet vekt på fullt bilførerkort, pluss lasting, slingring og veiene du bør ta sakte.",
       "region": "Veiene på New Zealand",
       "imageAlt": "Bil med campingvogn på en hovedvei på New Zealand",
       "intro": "En stabil campingvogn avhenger av en lovlig kombinasjon, riktig lasting og en sjåfør som setter ned farten før veien krever det. På New Zealand gjør svingene og vinden at høyeste tillatte fart er uten betydning på mange strekninger.",
@@ -930,7 +930,7 @@
         {
           "heading": "Fart og avstand",
           "body": [
-            "Høyeste fart på åpen vei når du trekker henger, er 90 km/t med fast kobling. Kjør saktere når stabilitet, sikt, vær eller veien krever det.",
+            "Høyeste fart på åpen vei når du trekker henger, er 90 km/t med fast kobling, for eksempel tilhengerfeste. Med tau eller annen ikke-fast kobling er grensen 50 km/t på alle veier. Kjør saktere når stabilitet, sikt, vær eller veien krever det.",
             "Hold minst fire sekunders avstand, mer i dårlig vær. Brems før svingene og velg lavere gir i nedoverbakker."
           ],
           "tips": []
@@ -946,8 +946,8 @@
         {
           "heading": "Lavere fartsgrense når du trekker henger",
           "body": [
-            "Lette tilhengere og campingvogner er begrenset til 90 km/t på åpen vei, under den generelle grensen på 100 km/t, og tunge kombinasjoner er også begrenset til 90 km/t. Grensen gjelder uansett skiltet fart, og den håndheves.",
-            "Hold mye større avstand enn i en bil. Bremselengden øker kraftig med henger, og de vanligste ulykkene med campingvogn her handler om at bremselengden ikke rekker i en nedoverbakke."
+            "Lette tilhengere og campingvogner er begrenset til 90 km/t på åpen vei, under den generelle grensen på 100 km/t, og tunge kombinasjoner er også begrenset til 90 km/t. Det er en øvre grense, ikke et mål: der det er skiltet lavere fart, gjelder den lavere grensen.",
+            "Hold mye større avstand enn i en bil. Bremselengden øker kraftig med henger, særlig i lange nedoverbakker."
           ],
           "tips": [
             "90 km/t er maksimum med henger",
@@ -978,7 +978,7 @@
         {
           "heading": "Veier du bør tenke deg om to ganger før du kjører",
           "body": [
-            "Tākaka Hill, Crown Range, Rimutaka Hill Road, 309 Road og store deler av Coromandel-kysten er krevende med campingvogn, og noen er forbudt eller sterkt frarådet for store kombinasjoner. Sjekk før du bestemmer deg, for det er ofte ikke mulig å snu.",
+            "Tākaka Hill, Crown Range, Remutaka Hill Road, den uasfalterte 309 Road og store deler av Coromandel-kysten er bratte, trange og trege med campingvogn, og Remutaka Hill (SH2) stenges i kraftig vind. Sjekk veiforhold og eventuelle restriksjoner før du bestemmer deg, for det er ofte ikke mulig å snu.",
             "I nedoverbakker bør du velge lavere gir og bruke motorbremsen i stedet for å ligge på bremsene, som kan bli varme og svikte. Kjør jevnlig inn til siden og slipp trafikken bak deg forbi, både av høflighet og fordi en kø bak deg gir risiko for dårlige forbikjøringer."
           ],
           "tips": []
@@ -995,7 +995,7 @@
         {
           "heading": "Vind og åpne veier",
           "body": [
-            "En campingvogn har et stort, flatt sideareal, og sidevind er den vanligste årsaken til at man mister kontrollen med henger. Åpne strekninger rundt Wellington, Desert Road, Mackenzie og kysten av Canterbury er kjent for det.",
+            "En campingvogn har et stort, flatt sideareal, og sidevind er en viktig årsak til slingring og tap av kontroll når du trekker henger. Åpne strekninger rundt Wellington, Desert Road, Mackenzie og kysten av Canterbury er kjent for det.",
             "Sett ned farten før de åpne strekningene i stedet for å reagere midt i dem, og vær ekstra forsiktig når du kommer ut av en skjæring eller kjører forbi en lastebil, der vinden plutselig tar og slipper."
           ],
           "tips": [
@@ -1008,23 +1008,23 @@
       "faq": [
         [
           "Hva er fartsgrensen når du trekker henger på New Zealand?",
-          "90 km/t, under grensen på 100 km/t på åpen vei, og den gjelder uansett hva skiltet viser. Det du trekker, må også ligge innenfor kjøretøyets oppgitte tillatte tilhengervekt, som er en juridisk grense og ikke en anbefaling."
+          "90 km/t på åpen vei med tilhengerfeste eller annen fast kobling, under den generelle grensen på 100 km/t, og en lavere skiltet grense gjelder fortsatt. Trekker du på tau eller annen ikke-fast kobling, er grensen 50 km/t overalt."
         ],
         [
           "Trenger du spesielt førerkort for å trekke campingvogn på New Zealand?",
-          "Et vanlig bilførerkort dekker de fleste kombinasjoner opp til 4 500 kg samlet vekt. Over det trenger du en tyngre klasse, og leieavtaler har ofte egne grenser som ligger under de lovlige."
+          "Vanligvis ikke. Med fullt bilførerkort kan du trekke når kjøretøy, tilhenger og last til sammen veier høyst 6 000 kg. Med et learner- eller restricted-førerkort er grensen 4 500 kg. Leieavtaler kan ha egne, lavere grenser."
         ]
       ],
       "sources": [
         {
-          "label": "NZTA: bobiler, campingvogner og lette tilhengere"
+          "label": "NZTA Road Code: sikker lasting og tilhengerkjøring for lette kjøretøy"
         }
       ],
       "priceTable": null
     },
     "domestic-flight-costs-new-zealand-2026": {
-      "title": "Innenriksfly på New Zealand: slik priser du hele turen",
-      "description": "En billett uten bagasje blir først nyttig når bagasje, transport til flyplassen og følgene for bilen er lagt til.",
+      "title": "Innenriksfly New Zealand 2026: hva turen faktisk koster",
+      "description": "Hva et innenriksfly på New Zealand egentlig koster når bagasje, transport til flyplassen og leiebilen eller bobilen du lar stå igjen er lagt til.",
       "region": "Flyplasser på New Zealand",
       "imageAlt": "Innenriksfly over New Zealand",
       "intro": "Billettprisene på innenriksflygningene endrer seg for raskt til at en fast landsdekkende pristabell kan være ærlig. Bruk scenarieintervaller til å budsjettere, og sammenlign deretter hele kassebeløpet hos flyselskapet for den konkrete datoen.",
@@ -1144,8 +1144,8 @@
       }
     },
     "wof-registration-campervan-new-zealand": {
-      "title": "WOF og registrering for bobil på New Zealand",
-      "description": "Et gyldig klistremerke er bare én del av beviset på at kjøretøyet lovlig kan brukes på vei.",
+      "title": "WOF og rego for bobil på New Zealand: sjekk før du kjører",
+      "description": "Hvordan Warrant of Fitness og kjøretøyregistrering fungerer for en bobil på New Zealand, hvordan du sjekker utløpsdatoene og hva et utløpt WOF betyr.",
       "region": "Kjøretøy på New Zealand",
       "imageAlt": "Merkelapper for kjøretøykontroll og registrering på New Zealand",
       "intro": "Lette bobiler trenger vanligvis gyldig Warrant of Fitness (WOF) og gyldig registrering, mens tyngre kjøretøy eller kjøretøy i persontransport kan ha andre kontrollordninger. Sjekk det konkrete kjøretøyet i stedet for å anta at leiekategorien gir svaret.",
@@ -1254,8 +1254,8 @@
       "priceTable": null
     },
     "accommodation-costs-new-zealand-2026": {
-      "title": "Overnatting på New Zealand 2026: hva koster det per natt?",
-      "description": "Sovesal, hytte og eget rom ligger i ulike prisklasser og har ulike fasiliteter.",
+      "title": "Overnattingspriser New Zealand 2026: hostel, hytter og hotell",
+      "description": "Hva sovesalsenger, hytter på feriepark og private rom koster på New Zealand i 2026, og hva hver prisklasse inkluderer, så du kan budsjettere hver natt.",
       "region": "New Zealand",
       "imageAlt": "Overnatting med fjellutsikt på New Zealand",
       "intro": "Overnattingsprisen avhenger mer av dato og reisemål enn av landsgjennomsnittet. En hytte med delt bad kan slå et eget rom på hostel, mens et avsidesliggende fjellsted kan koste mer enn et hotell i byen.",
@@ -1370,6 +1370,856 @@
           {
             "label": "Hotell i mellomklassen",
             "unit": "per rom per natt"
+          }
+        ]
+      }
+    },
+    "new-zealand-grocery-prices-2026": {
+      "title": "Matpriser på New Zealand 2026: melk, egg, brød, kjøtt",
+      "description": "Gjennomsnittspriser fra Stats NZ for supermarkeder i september 2026: melk, brød, egg, kylling, kjøttdeig og frukt og grønt, pluss en ukehandel på 116 NZD, i ti valutaer.",
+      "region": "Matbutikker på New Zealand",
+      "imageAlt": "Ferske matvarer i et newzealandsk supermarked",
+      "intro": "Å lage maten selv er den mest direkte måten å styre campingbudsjettet på. Prisene nedenfor er gjennomsnittspriser for hele landet fra Stats NZ for september 2026. De er ikke et løfte om hva som står på hver hylle hver uke.",
+      "sections": [
+        {
+          "heading": "Handle inn før de øde etappene",
+          "body": [
+            "De store supermarkedene har bredt utvalg og konkurrerer på pris, mens små, avsidesliggende butikker må betale for frakten og har mindre på lager. Kjøp holdbare basisvarer før East Cape, Fiordland eller de lange strekningene på West Coast.",
+            "Støtt gjerne de lokale butikkene når du trenger ferskvarer, men ikke forvent bypriser. Mye av verdien ligger i at de har åpent der neste alternativ er flere timer unna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Planlegg måltider med de samme råvarene",
+          "body": [
+            "Lag måltider som bruker de samme varene om igjen: ris, pasta, grønnsaker, egg og én eller to proteinkilder. Med et lite kjøleskap lønner det seg med korte handlelister og god kontroll på restene.",
+            "Se på kilo- og literprisen, ikke prisen med store tall på pakken. Storpakninger sparer deg bare penger når du har plass og kjøling nok til at ingenting går til spille."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Matprisene endrer seg",
+          "body": [
+            "Stats NZ melder at matprisene steg 2,4 prosent i året til september 2026. Økningen var størst for dagligvarer med 3,0 prosent og for kjøtt, fjærfe og fisk med 3,2 prosent, mens frukt og grønnsaker falt 1,8 prosent. Løk steg med mer enn 86 prosent, den største årlige økningen siden serien startet i 2008.",
+            "Bruk prisspennene når du planlegger. Noter hva den første ordentlige handleturen faktisk kostet, og juster resten av budsjettet etter det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "De to store kjedene og de billigere alternativene",
+          "body": [
+            "Woolworths (tidligere Countdown) og New World finnes i det meste av landet, og Pak'nSave er som regel billigst av de store butikkene der det finnes en. Prisene varierer merkbart mellom kjedene i samme by, så når du skal fylle opp skikkelig og ikke bare supplere, lønner det seg med en liten omvei til den billigste.",
+            "Bondemarkeder og veiboder er gode steder å kjøpe frukt og grønt, og ofte billigere enn supermarkedet for det som er i sesong der du er. De tar som regel kun kontanter og har åpent bare om formiddagen, og det er greit å vite før du legger planer rundt dem."
+          ],
+          "tips": [
+            "Pak'nSave til storhandelen",
+            "Veiboder for frukt og grønt i sesong",
+            "Markeder: kontanter og formiddag"
+          ]
+        },
+        {
+          "heading": "Hvorfor butikkene langt ute er dyrere",
+          "body": [
+            "En liten butikk på West Coast, helt i nord eller på East Cape har fraktkostnader, lavere omsetning og mindre konkurranse. Regn med merkbare påslag på basisvarer og færre pakningsstørrelser, særlig på frukt, grønt og meieriprodukter.",
+            "Det handler mindre om å skru opp prisene og mer om ren matematikk, og ofte er det nettopp disse butikkene som gjør at et lite sted har en butikk i det hele tatt. Fyll opp skikkelig i det siste større tettstedet, og kjøp lokalt det som er verdt å kjøpe lokalt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Handle til et lite kjøleskap",
+          "body": [
+            "Kjøleskapene i bobiler er små, og de som går på bilbatteriet, kjøler dårligere når det er varmt. Handle for to eller tre dager i stedet for en uke, velg råvarer som kan brukes i flere måltider, og pakk rått kjøtt godt inn og legg det nederst, der det ikke kan dryppe på noe.",
+            "Hermetisk fisk, egg, hard ost, havregryn, ris, pasta og rotgrønnsaker klarer seg uten mye kjøling og holder til mange måltider. Har du det i bunnen, mister du ikke hele handelen om kjølingen svikter en dag."
+          ],
+          "tips": [
+            "Handle for tre dager, ikke sju",
+            "Råvarer som passer i flere måltider",
+            "Pakk inn rått kjøtt og legg det nederst"
+          ]
+        },
+        {
+          "heading": "Et realistisk ukebudsjett",
+          "body": [
+            "Med gjennomsnittsprisene fra Stats NZ for september 2026 blir en enkel uke for én person som lager de fleste måltidene selv, omtrent 116 NZD: fire liter melk, to brød, et dusin egg, et kilo kyllingbryst, et halvt kilo kjøttdeig, ost, smør, yoghurt, ris, pasta og saus, instantkaffe, og frukt og grønt. Par bruker mindre per person fordi de deler på basisvarene, mens dyrere kjøtt, ferdigmat, spesialkost og butikker langt ute trekker beløpet raskt opp.",
+            "Før kaffe, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> og måltider ute på en egen linje. Kaller du alt du kjøper av mat for dagligvarer, skjuler du nettopp de utgiftene som er lettest å kutte når budsjettet må justeres."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Frukt og grønt i sesong: dette lønner seg",
+          "body": [
+            "Den virkelige besparelsen ligger i å kjøpe det som er i sesong der du er. Steinfrukt i Central Otago i januar og februar, bær i Bay of Plenty om sommeren, avokado i Northland og epler i Hawke's Bay om høsten er langt billigere der de dyrkes.",
+            "Mange veiboder i områdene der det dyrkes frukt og grønt, er ubetjente med et pengeskrin, og prisene ligger ofte godt under supermarkedet. Ha med småsedler og en pose, for de tar som regel bare kontanter og dukker opp uten forvarsel.",
+            "Frukt og grønt utenfor sesong er importert og priset deretter. Den vanen som kutter mest i matbudsjettet på en lang tur, er å bygge måltidene rundt det som er billig den uken, i stedet for å følge en fast handleliste."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster dagligvarer for en uke på New Zealand?",
+          "Med gjennomsnittsprisene fra Stats NZ for september 2026 koster en enkel uke med mat fra supermarkedet for én person som lager de fleste måltidene selv, omtrent 116 NZD. Dyrere kjøtt, ferdigmat og små butikker langt ute trekker beløpet raskt opp."
+        ],
+        [
+          "Hvor er det billigst å handle mat på New Zealand?",
+          "Hos de store supermarkedkjedene i de største byene, og forskjellen mot en butikk på et lite sted er så stor at du bør planlegge etter den. På frukt og grønt i sesong slår helgemarkedene begge deler."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Stats NZ: utvalgte prisindekser, september 2026"
+        },
+        {
+          "label": "Stats NZ: matprisene steg 2,4 prosent i året til september 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: valutakurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Gjennomsnittlige utsalgspriser for hele landet fra Stats NZ for september 2026, publisert 16. oktober 2026. Melk er oppgitt per liter, regnet ut fra gjennomsnittet for to liter. Tilbud, merke, pakningsstørrelse, sesong og frakt til avsidesliggende steder kan gjøre at en enkelt hylle ligger over eller under disse gjennomsnittene.",
+        "rows": [
+          {
+            "label": "Melk, standard",
+            "unit": "1 liter"
+          },
+          {
+            "label": "Loff, skivet",
+            "unit": "600 g brød"
+          },
+          {
+            "label": "Egg",
+            "unit": "dusin"
+          },
+          {
+            "label": "Kyllingbryst",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Kjøttdeig av storfe",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Epler",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Tomater",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Poteter",
+            "unit": "1 kg"
+          }
+        ]
+      }
+    },
+    "public-transport-costs-new-zealand-2026": {
+      "title": "Kollektivtransport New Zealand 2026: Auckland-priser og pristak",
+      "description": "Priser for buss, tog og ferje i Auckland i 2026: 3 NZD for én sone, et pristak på 50 NZD over sju dager med AT HOP, og typiske enkeltbilletter i andre byer på New Zealand.",
+      "region": "Auckland og Wellington",
+      "imageAlt": "Kollektivtransport i en newzealandsk by",
+      "intro": "Billettprisene i byene styres av lokale reisekort, soner, egne regler for kontaktløs betaling og en rekke unntak. Sammenlign hva en hel dag eller uke med reiser faktisk koster, ikke én enkeltbillett fra hvert selskap.",
+      "sections": [
+        {
+          "heading": "Betalingsmåten avgjør prisen",
+          "body": [
+            "I Auckland gjelder pristaket på 50 NZD for sju dager for reiser med AT HOP-kortet som omfattes av ordningen, mens kontaktløs betaling har et pristak på 20 NZD per dag. Ikke alle ferjer er med.",
+            "Hold kortet mot kortleseren både når du går på og når du går av. Glemmer du det, kan du bli belastet et annet beløp, eller reisen blir ikke regnet med mot pristaket."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hver by har sitt eget system",
+          "body": [
+            "Metlink i Wellington har egne soner, priser og regler for overgang, med endringer fra 15. mai 2026. Andre byer bruker egne kort eller egne systemer for kontaktløs betaling.",
+            "Sjekk flybusser, ferjer og turisttilbud hver for seg, for de har ofte fastpris eller høyere takster og faller utenfor de vanlige pristakene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "La bobilen stå",
+          "body": [
+            "Med kollektivtransport slipper du å tenke på parkering i sentrum, høydebegrensninger og promille. Ta med veien fra campingplassen til holdeplassen når du sammenligner kostnaden.",
+            "Er dere to eller flere, må prisen for én billett fortsatt ganges med antall reisende og regnes både frem og tilbake."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Reisekort, kontaktløs betaling og et lappeteppe av regioner",
+          "body": [
+            "New Zealand har ikke ett nasjonalt reisekort. Auckland bruker AT HOP, Wellington bruker Snapper, og andre regioner har egne systemer, mens kontaktløs betaling med bankkort rulles ut ujevnt. Et kort du har kjøpt i én by, kan være ubrukelig i den neste.",
+            "Er du bare innom en kort tur, bør du sjekke om byen tar kontaktløs betaling før du kjøper et reisekort med saldo. Blir du lenger i Auckland eller Wellington, tjener kortet seg som regel raskt inn, fordi reisene blir billigere enn med kontanter."
+          ],
+          "tips": [
+            "Ikke noe nasjonalt reisekort",
+            "Sjekk kontaktløs betaling før du kjøper kort",
+            "Kontanter er dyrest"
+          ]
+        },
+        {
+          "heading": "Til og fra flyplassen",
+          "body": [
+            "Auckland, Wellington og Christchurch har alle busser mellom flyplassen og byen. De har egne priser, utenom de vanlige bytakstene, og er betydelig billigere enn taxi eller samkjøringstjenester. I Queenstown er bussturen fra flyplassen kort og billig. Ingen av disse er med i et vanlig dagskort.",
+            "Regn ut prisen for flyplassturen for seg når du sammenligner, og ta med bagasjen i regnestykket. Er dere tre eller flere med bagasje, kan en samkjøringstjeneste noen ganger konkurrere med en bussbillett per person, noe som sjelden stemmer når du reiser alene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Når kollektivtransport slår bobilen",
+          "body": [
+            "Det er lite hyggelig å kjøre et stort kjøretøy inn i sentrum av Auckland eller Wellington, og parkeringen er dyr og har høydebegrensninger. Lar du bobilen stå på en campingplass eller en innfartsparkering og tar buss eller tog inn, går det som regel raskere, blir billigere og er langt mindre stressende.",
+            "Det samme gjelder i Queenstown i høysesongen, der det er virkelig vanskelig å parkere en bobil nær sentrum. Bo utenfor byen, og bruk det lokale kollektivtilbudet de dagene du vil være i sentrum."
+          ],
+          "tips": [
+            "Høydebegrensninger overrasker mange bobilister",
+            "Bruk innfartsparkering ved Auckland og Wellington",
+            "Vanskelig å parkere i Queenstown i sesongen"
+          ]
+        },
+        {
+          "heading": "Der det ikke går noe i det hele tatt",
+          "body": [
+            "Det meste av landsbygda på New Zealand har ingen kollektivtransport å snakke om, og det som finnes, er ofte bare én rute knyttet til skolene. En tur planlagt rundt busser fungerer mellom de største byene og turistknutepunktene, men ikke for å komme til de fleste campingplasser, startpunkter for turer eller småsteder.",
+            "Reiser du uten egen bil, må du planlegge rundt <a data-guide=\"bus-ferry-train-costs-new-zealand\">langdistansebussene</a> og shuttlebussene som kjører turister til bestemte turløyper. Godta at det er disse rutene som former reiseruten, ikke hvor du helst ville dra."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Uten bil i byene",
+          "body": [
+            "I Auckland dekker tog- og bussnettet eidet som byen ligger på, rimelig godt, og ferjen til Devonport og Waiheke er verdt turen i seg selv. Wellington er så kompakt at du kan gå det meste, og kabelbanen og lokaltogene tar deg lenger ut.",
+            "Christchurch har et bussnett som går ut fra en sentral bussterminal, og byen er så flat at sykkel er et reelt alternativ, med stadig flere separate sykkelveier. Det er lett å leie sykkel, og det lønner seg ofte mer enn en dag med bussbilletter.",
+            "Barn og eldre får rabatt, og noen byer har dagskort som lønner seg når du tar tre eller fire turer. Regn ut hvor mange turer du venter å ta, før du velger mellom dagskort og å betale per tur."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Er kollektivtilbudet på New Zealand godt nok til å reise uten bil?",
+          "Mellom de største byene, ja, og inne i byene varierer det mye. Det er på landsbygda og langs kysten, altså det meste av det folk kommer for å se, at nettet i praksis stopper opp."
+        ],
+        [
+          "Hva koster kollektivtransport i byene på New Zealand?",
+          "Tabellen har daterte priser for Auckland. Sjekk Metlink for Wellington og Metro for Christchurch. Alle tre byene har reisekort du holder mot en kortleser: Auckland har et pristak på 50 NZD over sju dager, Christchurch har et tak på 6 NZD per dag for buss, og Wellington selger dagskort. Blir du mer enn et par dager, lønner det seg derfor å kjøpe kortet tidlig."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Transport: billettpriser 2026"
+        },
+        {
+          "label": "Pristak for sju dager i Auckland"
+        },
+        {
+          "label": "Metlink: billettpriser"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: valutakurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Voksenpriser i Auckland gjeldende fra 1. februar 2026. Prisspennet for en enkeltbillett i resten av landet er den brukerrapporterte referanseprisen fra juni 2026.",
+        "rows": [
+          {
+            "label": "CityLink-bussen i Auckland",
+            "unit": "AT HOP eller kontaktløst"
+          },
+          {
+            "label": "Auckland, 1 sone",
+            "unit": "voksen"
+          },
+          {
+            "label": "Auckland, 2 soner",
+            "unit": "voksen"
+          },
+          {
+            "label": "Auckland, 4+ soner",
+            "unit": "voksen"
+          },
+          {
+            "label": "Auckland, pristak 7 dager",
+            "unit": "AT HOP på ruter som omfattes"
+          },
+          {
+            "label": "Vanlig lokal enkeltbillett",
+            "unit": "brukerrapportert, hele landet"
+          }
+        ]
+      }
+    },
+    "doc-huts-new-zealand-guide": {
+      "title": "DOC-hytter på New Zealand: regioner, priser og billetter",
+      "description": "Hvor DOC-hyttene ligger, region for region, hva Serviced-, Standard- og Basic-hytter koster i 2026/27, og hvordan hyttebilletter, Hut Pass og bestilling fungerer.",
+      "region": "Villmarka på New Zealand",
+      "imageAlt": "Ubetjent hytte i fjellene på New Zealand",
+      "intro": "DOC forvalter mer enn 950 hytter, og DOC-dataene i KiwiCamping viser 927 av dem, fra Serviced-hytter med oppvarming og madrasser til bivvyer med to køyer. De fleste ligger på Sørøya: Canterbury alene har 180 og West Coast 140, mens de største klyngene på Nordøya ligger i fjellkjedene Ruahine, Kaweka og Tararua. I disse dataene, sjekket 24. august 2026, kunne bare 127 av de 927 bestilles. Selv om DOC siden har flyttet alle Serviced-hytter til nettbestilling, er de fleste hytter fortsatt førstemann til mølla: gratis hvis de er Basic, og betalt med hyttebilletter eller et Backcountry Hut Pass hvis de er Standard.",
+      "sections": [
+        {
+          "heading": "Hyttekategorier og priser for 2026/27",
+          "body": [
+            "Serviced-hytter har madrasser, vannforsyning, toaletter, håndvask og oppvarming med brensel. For 2026/27 betaler en voksen 25 NZD per natt fra mai til september, 28 NZD på hverdager og 32 NZD på fredager og lørdager fra oktober til april, og 29 og 34 NZD fra desember til februar. Barn betaler halv pris, og det koster halve hyttepriser å campe ved siden av en hytte. Standard-hytter har madrasser, vann og toaletter, med vedovner under skoggrensen, for 15 NZD per voksen og 7,50 NZD per barn. Basic-hytter og bivvyer er gratis og er lite mer enn et ly. I dataene til KiwiCamping fordeler det seg på 96 Serviced-, 408 Standard- og 372 Basic-hytter.",
+            "Tre kategorier står utenfor den rangstigen. Great Walk-hyttene, 33 av dem i dataene til KiwiCamping, har egne priser etter løype, sesong og bostedsstatus, og må bestilles i Great Walks-sesongen. Hytter med individuell pris, blant dem Serviced-fjellhytter som Mueller Hut, setter sin egen avgift, og klubbhytter drives av klubber som New Zealand Alpine Club, så sjekk DOC-siden for hytta. Uansett kategori erstatter taket aldri sovepose, kokeapparat, mat, hodelykt og varme klær."
+          ],
+          "tips": [
+            "Serviced 25–34 NZD etter sesong, Standard 15 NZD, Basic gratis",
+            "Great Walk-hytter og fjellhytter har egne priser",
+            "Ha full utrustning uansett kategori"
+          ]
+        },
+        {
+          "heading": "Hvor hyttene ligger, region for region",
+          "body": [
+            "Sørøya har det meste av nettverket. Canterbury har 180 hytter, med Lake Sumner Forest Park og Arthur's Pass National Park i spissen. West Coast har 140, mange opp Whitcombe- og Styx-dalene. Nelson/Tasman har 99, med 45 i Kahurangi National Park og 24 i Nelson Lakes. Otago har 78, blant dem 12 i Mount Aspiring National Park og 12 i Hāwea Conservation Park. Southland har 70, blant dem 30 på <a data-guide=\"rakiura-stewart-island-camping-guide\">Rakiura</a>. Marlborough har 60, og Fiordland 55, nesten alle i Fiordland National Park.",
+            "På Nordøya har Hawke's Bay 55 hytter fordelt mellom skogparkene Kaweka og Ruahine, Manawatū/Whanganui 43, East Coast 38 i Te Urewera og Whirinaki, Wairarapa 36 og Wellington/Kāpiti 24, de fleste i Tararua Range. Central North Island har 16, ti av dem i Tongariro National Park, og Bay of Plenty, Taranaki, Northland, Waikato, Coromandel og Auckland har åtte eller færre hver."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hyttebilletter, hyttepass og booking",
+          "body": [
+            "Hytter som ikke kan bestilles, bruker Backcountry Hut Tickets (hyttebilletter) som kjøpes før turen og legges i tillitsboksen, eller et Backcountry Hut Pass som dekker de fleste Serviced- og Standard-hytter i 12 måneder. Fra 1. november 2026 kan hyttebilletter også kjøpes i DOCs nettbaserte bestillingssystem, og papirbilletter gjelder til 1. november 2027. Hytter som kan bestilles, reserveres og betales på bookings.doc.govt.nz, og siden 1. oktober 2026 gjelder det alle Serviced-hytter, så Serviced Hut Tickets blir faset ut.",
+            "Den vanligste feilen er å tro at et pass eller en billett er en booking. Ingen av dem reserverer en køye eller gir prioritet i en hytte med førstemann til mølla. Hut Pass kan betale for noen hytter som kan bestilles, hvis du oppgir det når du bestiller, men ikke for Great Walk-hytter i bestillingssesongen eller hytter på DOCs unntaksliste. Sjekk hvilket system akkurat den hytta bruker, før du går."
+          ],
+          "tips": [
+            "Et pass er ingen reservasjon",
+            "Hyttebilletter kan kjøpes på nett fra 1. november 2026",
+            "Great Walk-hytter blir fullbooket måneder i forveien"
+          ]
+        },
+        {
+          "heading": "En full hytte er fortsatt ly i nødsfall",
+          "body": [
+            "Ved en hytte som kan bestilles, holder DOC ikke av plass til folk uten bestilling, og du kan bli avvist når den er full. I hytter som ikke kan bestilles, gjelder førstemann til mølla for køyene, og skikken er at en full hytte betyr plass på gulvet, ikke en stengt dør. Alle hytter er åpne som nødly i dårlig vær, så ikke gå videre ut i mørket fordi køyene er tatt.",
+            "Ha med liggeunderlag og det du trenger for å sove på gulvet. Der været tillater det og det er lov å telte, gir et telt deg et reelt alternativ. På populære turer i januar bør du regne med at hytta er full, og planlegge deretter."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vann, matlaging og fyring",
+          "body": [
+            "Rens vannet i hytta, med mindre gjeldende informasjon fra DOC om akkurat den hytta sier at det er trygt å drikke. Regnvann samlet fra taket kan være forurenset, og giardia finnes i vannet i villmarka på New Zealand. Koking er den sikreste metoden, og DOC sier tre minutter. Et filter som er godkjent mot protozoer, virker også. Det er antakelsene som skaper problemer.",
+            "Lag mat på ditt eget kokeapparat, ute eller på stedet som er satt av til det, og aldri inne i et telt. Der det finnes ovn, fyr sparsomt, og legg igjen opptenningsved til den som kommer etter deg i verre vær enn du hadde."
+          ],
+          "tips": [
+            "Rens vannet hvis ikke annet er oppgitt",
+            "Ha med kokeapparat uansett",
+            "Legg igjen opptenningsved før du går"
+          ]
+        },
+        {
+          "heading": "Hyttevett",
+          "body": [
+            "Støvlene av inne. Hold utstyret samlet på køya di i stedet for å spre det utover bordet og benkene. Vær stille tidlig på kvelden og rolig om morgenen, for mange går før det lysner, og etter en tung dag sover alle i samme rom.",
+            "Skriv deg inn i hytteboka hver gang, med dato og planene dine videre. Det er god skikk, og enda viktigere: det kan hjelpe redningstjenesten hvis noen i følget ikke har kommet frem som planlagt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Når du forlater hytta",
+          "body": [
+            "Fei gulvet, lukk skodder og dører ordentlig, og bær ut alt du bar inn, også matrester. Søppel i hytta trekker til seg gnagere, og ingen henter avfall. Det du legger igjen, blir liggende til en annen turgåer tar det med seg.",
+            "Meld fra til DOC etter turen om skader, en ødelagt ovn, vannforsyning som ikke virker, eller farer. Meldingene hjelper DOC å prioritere reparasjoner, og en melding på fem minutter kan spare neste turfølge for å komme frem til en hytte som ikke fungerer."
+          ],
+          "tips": [
+            "Bær ut alt søppel og alle matrester",
+            "Lukk skodder og dører",
+            "Meld skader til DOC etter turen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Må man bestille DOC-hytter på forhånd?",
+          "Bare noen. Great Walk-hytter, alle Serviced-hytter siden 1. oktober 2026 og noen populære hytter bestilles på bookings.doc.govt.nz. De fleste Standard-hytter er førstemann til mølla, betalt med hyttebilletter eller Backcountry Hut Pass, og Basic-hytter er gratis."
+        ],
+        [
+          "Hva koster en DOC-hytte per natt?",
+          "For 2026/27 koster en Standard-hytte 15 NZD for en voksen og 7,50 NZD for et barn hele året. En Serviced-hytte koster 25 NZD fra mai til september og 28 til 34 NZD fra oktober til april, og en Basic-hytte eller bivvy er gratis. Great Walk-hytter og hytter med individuell pris setter sin egen avgift."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: priser på overnatting 2026/27 etter kategori for hytter og campingplasser"
+        },
+        {
+          "label": "DOC: pressemelding 1. oktober 2026: Serviced-hytter kan bestilles, hyttebilletter på nett"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsite-rules": {
+      "title": "Regler på DOC-campingplasser 2026: nattero, hund, drone",
+      "description": "Nattero kl. 22.00 til 07.00, utsjekking innen kl. 10.00, ingen kjæledyr eller droner uten tillatelse fra DOC, og hva det koster å campe uten bestilling: vilkårene til DOC pluss lokale regler.",
+      "region": "DOC-campingplasser",
+      "imageAlt": "Informasjonstavle fra Department of Conservation ved en campingplass",
+      "intro": "Når du bestiller en DOC-campingplass, godtar du bookingvilkårene til DOC og de lokale reglene på campingplassens egen side. De nasjonale reglene er korte: vær stille fra kl. 22.00 til 07.00, sjekk ut innen kl. 10.00, ta med deg alt søppel, ta ikke med kjæledyr eller droner med mindre DOC har godkjent det, og ikke røyk eller bruk e-sigarett i hytter eller toalettbygg. Bål, vann, hund, aggregat og adkomst for kjøretøy varierer fra plass til plass, så sjekk DOC-siden for plassen og skiltene på stedet.",
+      "sections": [
+        {
+          "heading": "Bruk bestillingen ærlig",
+          "body": [
+            "Bestill riktig dato, riktig antall personer og riktig type overnatting, og ha bekreftelsen tilgjengelig uten nett. Der plassene ikke er fordelt på forhånd, velger du bare blant dem som er ledige når du kommer.",
+            "Hvis du ikke møter opp den første natten i en bestilling på flere netter og ingen kontakter plassens kontor innen 24 timer, kansellerer DOC resten uten refusjon. Ikke hold av en plass med et tomt telt eller kjøretøy når ingen har tenkt å overnatte der."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Respekter nattero og faste tider",
+          "body": [
+            "Etter standardvilkårene til DOC er det nattero fra kl. 22.00 til 07.00, med mindre lokale regler sier noe annet, utsjekking innen kl. 10.00 og innsjekking mellom kl. 14.00 og 20.30. Hold aggregat, musikk og kjøring innenfor det plassen tillater.",
+            "En bestilling på campingplassen garanterer ikke at du kan bruke fasilitetene i hytta like ved, så planlegg ut fra toalettene, leskurene og vannpostene som hører til campingplassen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Forlat plassen i orden",
+          "body": [
+            "Ta med deg alt søppel, oppbevar maten trygt og tøm gråvann bare der plassen anviser. Røyking og e-sigaretter er ikke tillatt i hytter eller toalettbygg.",
+            "Kjæledyr og droner krever uttrykkelig tillatelse. Sjekk siden for akkurat den campingplassen i stedet for å ta for gitt at det er greit fordi stedet er stille."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bestillingsregler og straffeavgift uten bestilling",
+          "body": [
+            "Siden til hver campingplass sier om den kan bestilles eller har selvregistrering, og reglene følger av det. På en plass som kan bestilles, trenger du en gyldig bestilling for natten du bruker den, også hvis du har pass. Uten bestilling har du ingen garantert plass, og DOC tar straffeavgift: hver person betaler vanlig pris pluss en full voksenavgift, med mindre de søker ly i vanskelige forhold.",
+            "På en plass med selvregistrering fyller du ut skjemaet og betaler når du kommer. Uansett gjelder bestillingen eller registreringen de personene og det kjøretøyet du faktisk kommer med, og bekreftelsen må kunne vises på forespørsel, så lagre den slik at du kan vise den <a data-guide=\"kiwicamping-offline-data-guide\">uten dekning</a>."
+          ],
+          "tips": [
+            "Et pass er ikke en bestilling",
+            "Bruk uten bestilling koster hver person avgiften pluss en voksenavgift",
+            "Registrer deg og betal ved ankomst på plasser med førstemann til mølla"
+          ]
+        },
+        {
+          "heading": "Vannet er ofte urenset",
+          "body": [
+            "Mange DOC-plasser henter vann fra bekker eller taktanker, og vannet blir ikke renset. Giardia finnes i vann på New Zealand, og en klar bekk sier ingenting om det. Kok vannet i minst tre minutter, filtrer det eller bruk kjemisk rensing, og ikke regn med at vannet fra en kran er trygt bare fordi kranen er der.",
+            "Ha med nok drikkevann til å klare deg selv en dag. Tanker går tomme, det kommer kokevarsler, og en campingplass som er oppført med vann, kan vise seg å ha en ødelagt forsyning uten forvarsel."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Aggregat, droner og hund",
+          "body": [
+            "Reglene for aggregat settes plass for plass, så sjekk DOC-siden for campingplassen før du kjører et. Droner krever i de fleste tilfeller en tillatelse («concession») på offentlig vernet land, og selv med tillatelse fra DOC må en drone holde seg unna campingplasser og hytter.",
+            "DOCs utgangspunkt er at hunder ikke er tillatt på vernet land med mindre DOC har godkjent hundeadgang, og hunder er ikke tillatt i nasjonalparker uten tillatelse, for å beskytte kiwi og andre bakkehekkende fugler. I dataene til KiwiCamping tillater 207 av de 287 campingplassene ingen hunder, og 74, omtrent en fjerdedel, tillater dem i en eller annen form, oftest i bånd eller med tillatelse fra DOC. Sjekk akkurat den plassen du skal til, i stedet for å gå ut fra noe."
+          ],
+          "tips": [
+            "Droner krever tillatelse på DOC-land",
+            "Hund forbudt på de fleste DOC-plasser",
+            "Reglene for aggregat varierer fra plass til plass"
+          ]
+        },
+        {
+          "heading": "Maks antall netter og oppførsel på plassen",
+          "body": [
+            "Noen <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> har en grense for hvor lenge du kan bli, oppgitt på DOC-siden, for å hindre at folk slår seg ned for lengre tid. Et Campsite Pass dekker ikke mer enn 7 netter i løpet av 30 dager på én campingplass, og ekstra netter betales til standardpris. Å flytte bilen noen meter nullstiller ingen av grensene.",
+            "Hold deg innenfor den merkede plassen, ikke bre deg utover med markise eller utstyr der det er trangt, og respekter nattero. Disse plassene er felles og ofte fulle, og trivselen for alle avhenger av at hver og en holder seg på sin egen plass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Når du kommer frem og skal rigge deg til",
+          "body": [
+            "Kom frem i dagslys hvis du kan. Det er langt vanskeligere å velge plass, vurdere avrenningen, se greiner som henger over og få bobilen i vater i mørket, og en plass som helt klart ville vært feil kl. 16, er lett å godta kl. 21 når du er sliten.",
+            "Betal med en gang der det er kasse for selvbetjent betaling («honesty box») eller selvregistrering, i stedet for å tenke at du ordner det senere. Oppsynet sjekker, avgiften er lav, og systemet fungerer bare fordi de fleste betaler uten å bli spurt.",
+            "Rigg deg til innenfor den merkede plassen og la det være rom for dem som kommer etter deg. På en travel campingplass om sommeren avgjør utstyr spredt over to plasser om alle kommer inn, eller om noen må avvises."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvis campingplassen er full",
+          "body": [
+            "Populære DOC-plasser kan være fulle om sommerkveldene, så ikke regn med at det finnes et reserveområde. Å lage en ekstra plass på gresset, i adkomstveien eller ved toalettbygget er ikke et alternativ, og DOCs ansatte kan be deg kjøre videre.",
+            "Finn et lovlig alternativ før du kommer frem, ikke etterpå. En <a data-guide=\"holiday-parks-new-zealand-guide\">feriepark</a> en halvtime unna er mye bedre enn å kjøre sent på en ukjent vei og lete etter et sted som tar imot deg."
+          ],
+          "tips": [
+            "Populære plasser blir fulle om sommeren",
+            "Ikke regn med et reserveområde",
+            "Ha en plan B før du kommer frem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvilke regler gjelder på DOC-campingplasser?",
+          "Vær stille fra kl. 22.00 til 07.00, sjekk ut innen kl. 10.00, ta med deg alt søppel og ikke ta med kjæledyr eller droner med mindre DOC har godkjent det. Røyking og e-sigaretter er forbudt i hytter og toalettbygg, og hver plass har egne regler for bål, hund, aggregat og kjøretøy på sin egen side."
+        ],
+        [
+          "Hvor lenge kan du bli på en DOC-campingplass?",
+          "Noen campingplasser har en grense for hvor lenge du kan bli, oppgitt på DOC-siden, og et Campsite Pass dekker ikke mer enn 7 netter i løpet av 30 dager på én campingplass. Hver natt krever bestilling eller registrering, unntatt på gratis Basic-campingplasser, og å bruke en plass som kan bestilles uten bestilling koster hver person vanlig pris pluss en full voksenavgift."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: vilkår for bestilling av overnatting"
+        }
+      ],
+      "priceTable": null
+    },
+    "new-zealand-road-trip-fuel-cost-2026": {
+      "title": "Bensinpriser på New Zealand 2026 og drivstoff i bobil",
+      "description": "Gjennomsnittlig bensinpris (91) per måned i 2026 fra MBIE, og hva 500 til 3 000 km koster i en bobil med 9 til 12 l/100 km, pluss veibruksavgift for diesel.",
+      "region": "Veiene på New Zealand",
+      "imageAlt": "Bobil som fyller drivstoff under en roadtrip på New Zealand",
+      "intro": "Drivstoff gjør ruteplanleggingen om til en kostnad du kan måle. Ifølge MBIE var gjennomsnittsprisen på skilt for hele landet for vanlig 91-bensin 3,54 NZD per liter og for diesel 3,24 NZD i uken datert 9. oktober 2026, etter et år som svingte fra 2,56 NZD i februar til 3,44 NZD i april.",
+      "sections": [
+        {
+          "heading": "Regn ut for bilen du faktisk kjører",
+          "body": [
+            "Gang kilometer med liter per 100 km, del på 100 og gang med literprisen. Bruk forbruket til den lastede bobilen, ikke snittet for en liten bil.",
+            "Legg til omveier og kjøring på stedet. En rute på 2 000 kilometer kan gi flere hundre ekstra kilometer til campingplasser, butikker og utsiktspunkter."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ta hensyn til geografien",
+          "body": [
+            "Avsidesliggende stasjoner og turistkorridorer kan ta mer enn landsprisen. Fyll før lange strekninger uten stasjoner, og kjør ikke forbi pålitelig drivstoff for å spare litt.",
+            "Motvind, fjellveier, takutstyr og last øker forbruket. Juster anslaget etter de to første tankene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vær ærlig om prissvingningene",
+          "body": [
+            "Stats NZ melder at bensin steg 24,3 prosent og diesel 55,8 prosent i året til september 2026. Månedsgjennomsnittene fra MBIE for vanlig 91 var 2,59 NZD i januar, 2,56 NZD i februar, 3,00 NZD i mars, 3,44 NZD i april, 3,27 NZD i mai, 3,16 NZD i juni, 2,98 NZD i juli, 3,03 NZD i august og 3,16 NZD i september, så et tall fra noen måneder tilbake kan gi et for lavt anslag for ruten med 50 cent literen.",
+            "Bruk drivstoffkalkulatoren med dagens skiltpris, og ha en margin for den avsidesliggende etappen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bensin, diesel og veibruksavgift (RUC)",
+          "body": [
+            "Diesel har vært billigere per liter enn 91 det meste av 2026, omtrent 30 cent billigere i oktober, selv om den kostet mer i seks uker i april og mai. Dieselbiler betaler også veibruksavgift (RUC) separat, kjøpt på forhånd per tusen kilometer. Leier du, bør du sjekke om RUC er inkludert i dagsprisen eller blir fakturert til slutt, for det endrer sammenligningen med bensin betydelig.",
+            "For en privatbil må RUC være gyldig for distansen du kjører, og det blir kontrollert. Det er enkelt å kjøpe på nett eller hos et godkjent registreringskontor, og kjører du forbi distansen du har kjøpt, risikerer du straff."
+          ],
+          "tips": [
+            "Diesel betaler RUC i tillegg",
+            "Spør om RUC er med i leieprisen",
+            "Hold RUC foran kilometertelleren"
+          ]
+        },
+        {
+          "heading": "Der drivstoffet er dyrest",
+          "body": [
+            "Prisene er lavest i de store byene og rundt konkurransepregede stasjoner i forstedene, og høyest på avsidesliggende strekninger med bare én aktør. West Coast, Fiordland, East Cape, indre Otago og langt nord har alle et påslag, noen ganger et stort.",
+            "Påslaget er ingen grunn til å kjøre med nesten tom tank. Å fylle tjue liter til høyere pris er ubetydelig sammenlignet med å gå tom et sted <a data-guide=\"kiwicamping-offline-data-guide\">uten dekning</a>, og stasjonene som tar mest, er som regel de som ikke har noen konkurrent på hundre kilometer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Det som faktisk påvirker forbruket",
+          "body": [
+            "Last, takbokser, motvind, lange stigninger og fart har alt å si, og en lastet bobil i nordvestvinden i Canterbury (nor'wester) kan bruke en fjerdedel mer enn tallet i brosjyren. Aircondition har liten effekt. Å la motoren gå på tomgang for å kjøre varmeapparatet har større effekt enn de fleste tror.",
+            "Dekktrykket spiller en rolle og bør stilles inn for lastet bil, ikke tom. Leiebobiler leveres ofte med for lavt trykk, og det koster både drivstoff og kjøreegenskaper."
+          ],
+          "tips": [
+            "Still dekktrykket for lastet bil",
+            "Motvind koster mer enn aircondition",
+            "Takbokser er dyre i fart"
+          ]
+        },
+        {
+          "heading": "Slik kutter du regningen uten å kutte turen",
+          "body": [
+            "Den største besparelsen er færre unødvendige kilometer. Slå sammen stopp som ligger nær hverandre, unngå å kjøre tilbake samme vei, og godta at du ikke rekker å se begge øyene ordentlig på ti dager. Det sparer mer enn noen kjøreteknikk.",
+            "Deretter hjelper jevn fart og tidlig bremsing litt. Det som ikke hjelper, er å trille i fri, som gir deg dårligere motorbrems og kontroll i nedoverbakker, eller å ha drivstoff på dunker som ikke er laget for det."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Lojalitetsprogrammer og hvor du fyller",
+          "body": [
+            "De største drivstoffkjedene har rabattordninger knyttet til kjøp i dagligvarebutikkene, og kupongene kan kombineres med enkelte kortavtaler. På en lang tur gir det en reell besparelse, men aldri nok til å forsvare at du kjører forbi siste stasjon før en avsidesliggende etappe.",
+            "Ubetjente automatstasjoner er vanlige i små tettsteder og er som regel billigere, men noen avviser utenlandske kort. Ha et reservekort, og ikke kom til en slik stasjon med tom tank sent på kvelden og regn med at det fungerer.",
+            "Prisene varierer merkbart mellom byene, selv innenfor samme region. Ved de store byene lønner det seg å fylle før du kjører ut, i stedet for på den siste stasjonen i forstaden, som ofte er den dyreste på ruten."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster drivstoff på New Zealand?",
+          "Vanlig 91 kostet i gjennomsnitt 3,54 NZD per liter i uken datert 9. oktober 2026 (MBIE), så 1 000 km med 11 l/100 km koster omtrent 390 NZD i drivstoff. Prisene stiger merkbart i avsidesliggende områder, og dieselbiler betaler dessuten veibruksavgift, som mange glemmer å budsjettere."
+        ],
+        [
+          "Hvordan regner du ut drivstoff til en roadtrip på New Zealand?",
+          "Ta distansen på ruten, legg til en tredjedel for omveier og terreng, og del på det reelle forbruket til bilen, ikke tallet i brosjyren. En bobil i motvind på en kupert vei holder ikke oppgitt forbruk."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE: ukentlig overvåking av drivstoffpriser"
+        },
+        {
+          "label": "Stats NZ: utvalgte prisindekser, september 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: valutakurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Bensinprisen er gjennomsnittlig skiltpris for hele landet fra MBIE for vanlig 91 i uken datert 9. oktober 2026 (foreløpig). Rutetallene er rene utregninger, før prisforskjeller på avsidesliggende steder.",
+        "rows": [
+          {
+            "label": "Vanlig 91-bensin",
+            "unit": "per liter"
+          },
+          {
+            "label": "500 km ved 9 l/100 km",
+            "unit": "45 liter"
+          },
+          {
+            "label": "1 000 km ved 11 l/100 km",
+            "unit": "110 liter"
+          },
+          {
+            "label": "3 000 km ved 12 l/100 km",
+            "unit": "360 liter"
+          }
+        ]
+      }
+    },
+    "new-zealand-travel-cost-2026": {
+      "title": "Hva koster en reise til New Zealand? Dagsbudsjett 2026 (NZD)",
+      "description": "Hva en dag på New Zealand koster i 2026: 75 til 120 NZD per person for en sparsom campingreisende, 150 til 260 NZD for en komfortabel tur, med daterte priser.",
+      "region": "New Zealand",
+      "imageAlt": "Reisende som regner på budsjettet for en roadtrip på New Zealand",
+      "intro": "Ruten og tempoet betyr mer enn et nasjonalt snitt. Kjører du videre hver dag, øker presset på drivstoff og bestilling, mens et roligere tempo gjør det lettere å lage maten selv og bruke ukepriser.",
+      "sections": [
+        {
+          "heading": "Bygg på reisestilen",
+          "body": [
+            "Et nøysomt dagsbeløp forutsetter <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a>, delt eller enkel overnatting og gjennomtenkt lokal transport. Det rekker ikke til eget rom, middag på restaurant og en stor aktivitet hver dag.",
+            "For et par i bobil regner du ut kjøretøyet én gang for hele gruppa, og legger deretter til drivstoff, campingplasser og mat. Deler du hver post på antall personer, kan de store faste kostnadene skjules."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sted og sesong",
+          "body": [
+            "Queenstown, Aoraki, strender om sommeren og datoer med arrangementer kan ligge langt over en vanlig by. Avsidesliggende områder gir også ekstra kostnader til frakt av drivstoff og dagligvarer.",
+            "Finn prisen for de faste datoene først, og bruk prisspennene for hele landet til de fleksible dagene imellom."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Ha en brukbar reserve",
+          "body": [
+            "Sett av penger til en endret ferjeavgang, en ekstra overnatting, dekk eller helsehjelp. En lovlig reserveplass på campingplass hører hjemme i budsjettet selv om du planlegger <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>.",
+            "Gå gjennom det du faktisk har brukt, med noen dagers mellomrom. Drivstoff, <a data-guide=\"eating-out-new-zealand-prices-2026\">takeaway</a> og aktiviteter er postene som oftest glir stille av gårde."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvordan en nøysom dag faktisk ser ut",
+          "body": [
+            "En nøysom dag betyr å lage nesten alle måltider selv, å blande gratis og rimelige DOC-plasser og å se på betalte aktiviteter som noe du gjør av og til, ikke hver dag. Det er fullt mulig å holde det gående i flere måneder, og tusenvis gjør det, men det krever en bil som er utstyrt for å klare seg selv og toleranse for enkle fasiliteter.",
+            "Der det svikter, er antakelsen om at nøysom betyr gratis. Dusj, vask, vann, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestasjoner</a> og en og annen natt med full service koster alle noe, og et budsjett uten post for dem vil være feil før første uke er over."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "De to øyene koster ulikt",
+          "body": [
+            "Sørøya har som regel lengre avstander mellom byene, dyrere drivstoff utenfor de store byene og høyere press på overnatting i Queenstown, Wānaka og Aoraki. Nordøya pakker mer inn i kortere kjøreturer, noe som gir lavere drivstoffkostnader, men flere betalte attraksjoner innen rekkevidde.",
+            "Er budsjettet stramt, koster en rolig tur på Nordøya som regel mindre per dag enn en tilsvarende rute på Sørøya. Er budsjettet fast og tiden knapp, gir Sørøya mer synlig igjen for pengene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kostnader som først dukker opp når du er her",
+          "body": [
+            "Overfarten over <a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstredet</a>, reduksjon av egenandel i forsikringen på en leiebil, enveisgebyr for kjøretøy, SIM-kort eller roamingabonnement og depositumet som holdes tilbake på kortet er alle reelle beløp som sjelden står i et dagsbudsjett. Til sammen legger de ofte flere hundre dollar til to uker.",
+            "Aktiviteter er den andre stille posten. Én enkelt flytur over isbreen, jetbåttur eller cruise på Milford kan tilsvare flere dager med vanlig reising, så bestem på forhånd hvilke to–tre som er verdt det, i stedet for å bestemme deg på stedet hver gang."
+          ],
+          "tips": [
+            "Regn ferjen for seg",
+            "Reduksjon av egenandel er en reell kostnad",
+            "Velg de store aktivitetene på forhånd"
+          ]
+        },
+        {
+          "heading": "Hvor pengene faktisk går",
+          "body": [
+            "På de fleste campingturer er rekkefølgen kjøretøy, drivstoff, mat, campingplasser, aktiviteter. Campingplassene er som regel en mindre post enn folk venter, og drivstoff en større, og derfor sparer du mer på å velge en roligere rute enn på å velge billigere plasser.",
+            "Rekkefølgen sier også hvor du skal se når budsjettet glir. Å kutte en campingplass fra 25 NZD til 0 sparer mindre enn å droppe én avstikker på 300 kilometer, og den koster deg en dusj."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Å betale for ting mens du er her",
+          "body": [
+            "Kontaktløs kortbetaling godtas nesten overalt, også på små kafeer på landet, og kontanter er virkelig sjeldne. Mange steder legger på et kortgebyr, typisk én til to prosent, og det kommer ved kassen, ikke på menyen.",
+            "Gebyrer for utenlandske transaksjoner er den stille kostnaden. Et reisekort eller en bank som ikke tar dem, sparer et merkbart beløp over en måned, og du slipper fristelsen til å godta dynamisk valutaomregning i terminalen, som alltid gir dårligere kurs.",
+            "Ha litt kontanter til tillitskasser på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a>, salgsboder langs veien og en og annen butikk på landet med ustabil forbindelse. Femti dollar i sedler dekker det meste du fortsatt trenger kontanter til."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster en tur til New Zealand i 2026?",
+          "Planleggingsrammer for 2026: omtrent 75 til 120 NZD per person per dag for en sparsom campingreisende eller backpacker, 150 til 260 NZD for en komfortabel tur på egen hånd og 280 til 450 NZD med private rom og betalte aktiviteter. Valget av kjøretøy påvirker totalen mer enn noe annet."
+        ],
+        [
+          "Er det dyrt å reise på New Zealand?",
+          "Etter internasjonale mål, ja, særlig mat, overnatting og innenlandsk transport. Camping er den ene kategorien som holder seg billig, og derfor er forskjellen mellom en campingtur og en hotelltur her uvanlig stor."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: priser på New Zealand, oppdatert juni 2026"
+        },
+        {
+          "label": "Stats NZ: konsumprisindeksen juni 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: valutakurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Planleggingsscenarioer for én reisende. Leie av kjøretøy, langdistansetransport og utenlandsreiser er utelatt, fordi datoer og antall reisende endrer dem kraftig.",
+        "rows": [
+          {
+            "label": "Nøysom camper eller backpacker",
+            "unit": "per person per dag"
+          },
+          {
+            "label": "Komfortabel selvstendig tur",
+            "unit": "per person per dag"
+          },
+          {
+            "label": "Egne rom og betalte aktiviteter",
+            "unit": "per person per dag"
+          }
+        ]
+      }
+    },
+    "eating-out-new-zealand-prices-2026": {
+      "title": "Spise ute på New Zealand 2026: priser på måltider og kaffe",
+      "description": "Hva det koster å spise ute på New Zealand i 2026: cappuccino 5 til 7,50 NZD, et rimelig måltid 18 til 50 NZD, middag for to 100 til 200 NZD, og hvordan du budsjetterer.",
+      "region": "Byer og tettsteder på New Zealand",
+      "imageAlt": "Måltid og kaffe på en kafé på New Zealand",
+      "intro": "Å spise ute spenner fra en bakerilunsj til en tretretters middag i byen. Landstallene gir en nyttig målestokk, mens enkeltsteder og feriebyer kan ligge utenfor dem.",
+      "sections": [
+        {
+          "heading": "Velg hvilket måltid som teller",
+          "body": [
+            "Kjøp frokostvarer og niste til veien, og bruk penger med vilje på én lokal middag. Da blir ikke hurtigmat en uplanlagt kostnad tre ganger om dagen.",
+            "Bakerier, food courts og takeaway-disker kan være et mellomalternativ, men sammenlign porsjon og næringsinnhold, ikke bare pris."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Stedet påvirker regningen",
+          "body": [
+            "Steder ved vannkanten, skibyer og avsidesliggende attraksjoner kan ta mer enn sentrene i forstedene. Påslaget kan likevel være verdt det hvis det sparer deg for parkering eller en ekstra kjøretur.",
+            "Sjekk menyen før du setter deg når budsjettet er stramt. Tillegg på helligdager kan forekomme og skal være oppgitt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn med hele utflukten",
+          "body": [
+            "Legg til drikke, transport, parkering og eventuelt kortgebyr på måltidet. En tilsynelatende billig restaurant på andre siden av byen kan koste mer enn å gå til en som er litt dyrere.",
+            "Hold restaurantutgiftene adskilt fra <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a>, så det fortsatt er synlig hva som sprengte budsjettet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Der prisen faktisk ligger",
+          "body": [
+            "En bakeripai og en kaffe er en virkelig billig lunsj og finnes i nesten alle byer. En brunsj på kafé er den vanligste utgiften i mellomsjiktet og blir fort dyrere enn man tror. En middag på restaurant med drikke er ofte den største enkeltposten på en dag, større enn overnattingen.",
+            "Fish and chips er fortsatt det varme måltidet som gir mest for pengene i de fleste kystbyer, og kvaliteten er som regel bedre i de minste. Bestiller du ved disken og spiser utendørs, betaler du en brøkdel av det bordservering koster for et tilsvarende måltid."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tilleggsgebyrer og betalingsgebyrer",
+          "body": [
+            "Tillegg på helligdager er lovlig og vanlig, typisk 10 til 15 prosent, og må oppgis. Kortgebyrer forekommer også på mange steder, særlig for kredittkort og kontaktløs betaling, og de legges på ved kassen i stedet for å stå på menyen.",
+            "Tips er ikke forventet på New Zealand, og ingen tenker dårligere om deg om du ikke gir det. Noen steder viser nå en tipsforespørsel på betalingsterminalen, men det er en nylig import, ikke en lokal skikk."
+          ],
+          "tips": [
+            "Tillegg på helligdager er normalt",
+            "Kortgebyrer kommer ved kassen",
+            "Tips er ikke forventet"
+          ]
+        },
+        {
+          "heading": "Å spise godt i en turistby",
+          "body": [
+            "Queenstown, Wānaka, Taupō og Paihia har alle et turistpåslag, og restaurantene rett ved vannkanten er som regel de dyreste og sjelden de beste. Går du to gater unna, finner du som regel bedre mat til lavere pris.",
+            "Lunsjmenyer på gode restauranter gir ofte det meste av middagsopplevelsen for mye mindre penger. Vil du ha ett minneverdig måltid i en dyr by, bestill bord til lunsj."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Å bestemme hvor det lønner seg å spise ute",
+          "body": [
+            "Bruk penger med vilje på måltider som hører til stedet: langust i Kaikōura, whitebait på West Coast når det er sesong, østers fra Bluff i sør, en vingårdslunsj i Hawke's Bay. Dette er ting du ikke kan lage i en bobil, og som du kommer til å huske.",
+            "Lag enkel mat av <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">dagligvarer</a> på dager du flytter deg, når du kommer sent og drar tidlig og måltidet er drivstoff, ikke en opplevelse. Med det mønsteret får du de gode måltidene uten at hver dag blir dyr."
+          ],
+          "tips": [
+            "Bruk penger på mat som hører til regionen",
+            "Dagligvarer på flyttedager",
+            "Lunsjmenyen slår middagsprisene"
+          ]
+        },
+        {
+          "heading": "Bakerier, og spørsmålet om kjøttdeig og ost",
+          "body": [
+            "Bakeripaien er det billigste varme måltidet i landet og en ekte del av kulturen, med en årlig landsdekkende konkurranse som tas mer alvorlig enn en utenforstående ville ventet. Bakerier i småbyer slår ofte de i byene.",
+            "Fish and chips bestilt ved disken og spist utendørs er det andre pålitelige, rimelige måltidet, og kvaliteten er som regel høyere i kystbyene enn i storbyene. Spør hva dagens fisk er i stedet for å bestille på måfå.",
+            "Kafeer slutter vanligvis å servere mat tidligere enn besøkende venter, ofte midt på ettermiddagen, og i småbyer kan det være stengt overalt etter kl. 20.00. Har du noe du kan lage selv, slipper du at en sen ankomst ender med en dyr eller glipt middag."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster et måltid ute på New Zealand?",
+          "Planleggingsrammer for 2026: et rimelig restaurantmåltid 18 til 50 NZD, en fastfood-meny 15 til 20 NZD, middag for to på en middels dyr restaurant 100 til 200 NZD og en cappuccino 5 til 7,50 NZD. Steget mellom en kafé og en restaurant er større her enn i de fleste land."
+        ],
+        [
+          "Gir man tips på New Zealand?",
+          "Nei. Tips er ikke forventet, tjenesten er ikke priset med tanke på det, og det er ingen serviceavgift på en vanlig regning."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: priser på New Zealand, oppdatert juni 2026"
+        },
+        {
+          "label": "Reserve Bank of New Zealand: valutakurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Intervaller fra brukerbidrag for New Zealand, oppdatert juni 2026. Tips er vanligvis ikke obligatorisk, men kortgebyrer og helligdagspriser kan forekomme.",
+        "rows": [
+          {
+            "label": "Enkelt restaurantmåltid",
+            "unit": "én person"
+          },
+          {
+            "label": "Fast food-meny",
+            "unit": "ett måltid"
+          },
+          {
+            "label": "Middag på middels dyr restaurant",
+            "unit": "to personer, tre retter"
+          },
+          {
+            "label": "Cappuccino",
+            "unit": "én kopp"
+          },
+          {
+            "label": "Brus",
+            "unit": "330 ml"
           }
         ]
       }
