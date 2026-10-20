@@ -17,9 +17,12 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - Batches 3-5 (ce56bac, ed42471, 7fb5092; b4 commit is ed42471): b3 holiday-parks, scenic-campsites, sandflies, volcanic-safety, coromandel-rotorua; b4 dogs, domestic-flights, northland-cape-reinga, packing-list, responsible-camping; b5 arthurs-pass, cook-strait-ferry, kauri-dieback, taranaki-forgotten-world, bus-ferry-train-costs. da 47/85 guides.
 - Overnight rule (to 09:00): no subagents; drafted b6+ myself (see Working notes).
 
+- Batch 6 (5316954, drafted and reviewed by me alone): picton-kaikoura-christchurch-route, wanaka-haast-pass-route, alcohol-fatigue-driving-new-zealand, doc-hut-rules-etiquette, river-crossing-safety-new-zealand. da 52/85 guides.
+
 ## Next
-- b6: picton-kaikoura-christchurch-route wanaka-haast-pass-route alcohol-fatigue-driving-new-zealand doc-hut-rules-etiquette river-crossing-safety-new-zealand; then b7..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
-- Working method without helpers: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
+- b7 nelson-abel-tasman-golden-bay left-side-driving-new-zealand banks-peninsula-camping-weekend two-week-camper-itinerary-new-zealand new-zealand-driving-day-planner; then b8..b13 in /tmp/da-k2/queue.json (b13 is a single road trip).
+- Working method without helpers (numbered): `python3 /tmp/da-k2/numview.py NAME` to read, write `N|||Danish` lines, `fromnum.py NAME lines out.json`, `edit.py` for fixes; then the steps below.
+- Earlier method: `python3 /tmp/da-k2/mkbatch.py NAME slugs...`, write `key|||Danish` lines, `fromlines.py`, `ap.sh --dry-run`, `qa.py`, side-by-side read (`side.py`, `neg.py`), apply, `translations:stamp -- --locale da`, `content:check`, commit.
 
 ## Blockers / questions
 (none)
@@ -30,3 +33,5 @@ Working files (inventory, packet, batches, subagent output, QA scripts): `/tmp/d
 - sandflies / best-time: sandfly guide title says "Sandfly Season"/worst on West Coast and Fiordland but best-time says no official season.
 - best-nz-camping-apps: bare "$" amounts where the table uses NZ$.
 - where-to-camp: body says four land types, faq[0] says "Broadly five"; freedom-camping guide: "two to four nights" vs tip "1-2 night limits"; camping-wastewater-rubbish sections[2].body[1] says "Premium pass" where other guides say KiwiCamping Pass.
+- doc-hut-rules-etiquette: English meta description is only 80 characters, so the Danish is short too (no facts added).
+- alcohol-fatigue-driving: Danish writes the blood limit as 0,05 with no promille gloss (section 0: no added conversions).
