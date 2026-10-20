@@ -25,6 +25,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-weather-apps-new-zealand", section: 1, src: "/images/screens/best-weather-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a DOC hut's page with the wind gusts and a seven-day forecast" },
   { slug: "fuel-price-apps-new-zealand", section: 7, src: "/images/screens/fuel-price-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a Picton to Christchurch collection showing 19 saved places and 277 km as the furthest distance between them" },
   { slug: "working-holiday-apps-new-zealand", section: 1, src: "/images/screens/working-holiday-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: places grouped on a satellite map of the whole of New Zealand" },
+  { slug: "money-saving-travel-apps-new-zealand", section: 1, src: "/images/screens/money-saving-travel-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a DOC campsite's amenities and its reported adult, child and infant prices" },
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
 ];
 

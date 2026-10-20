@@ -794,4 +794,87 @@ export const listicleArticles: Article[] = [
       { label: "Wise New Zealand pricing", url: "https://wise.com/nz/pricing/" },
     ],
   }),
+
+  a({
+    slug: "money-saving-travel-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-11-01",
+    title: "Best Apps to Save Money Travelling New Zealand in 2026",
+    description: "The apps that cut the real costs of a New Zealand trip in 2026: cheaper nights, fuel, groceries, food deals, ferries and shared costs. Ratings, prices and deal terms checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "Supermarkets", "Cook Strait ferries", "Auckland transport", "Moke Lake"],
+    imageAlt: "Mountains reflected in the still water of Moke Lake near Queenstown, where DOC runs a campsite",
+    related: ["new-zealand-travel-cost-2026", "fuel-price-apps-new-zealand", "camping-fees-new-zealand-2026"],
+    intro:
+      "Travelling New Zealand cost more in 2026 than a year before, and most of the rise sits in two places: fuel and where you sleep. MBIE's monitoring put regular petrol at 354.4 cents a litre on station price boards in the week dated 9 October 2026, and Stats NZ reported food prices up 2.4% in the year to September. The apps below go after those costs in order of how much they can save, with ratings from the New Zealand App Store and deal terms from each company's own page, checked on 20 October 2026. We make KiwiCamping, which is first because accommodation is the bill it helps with; for everything else the other apps do the saving.",
+    sections: [
+      s("Money-saving apps at a glance", [
+        "Cut the nightly bill with KiwiCamping's DOC campsite fees and cost filter, and the fuel bill with Gaspy. Load the loyalty app of the supermarket you use, and try Too Good To Go and First Table for cheaper meals. Rankers' deals and Interislander's promotion take a slice off ferries and activities, AT Mobile caps Auckland fares, and Splitwise or Tricount keeps a shared van fair.",
+        "Most of these savings depend on terms that change. Read the current conditions in each app before a deal decides your plans.",
+      ], undefined, {
+        caption: "Checked 20 October 2026 on the New Zealand App Store and each company's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "What it saves on", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "Nights at DOC campsites and the route", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["Gaspy", "Fuel, by finding the cheapest station", "Free; Gold NZ$1.69 a month", "4.0 (773)"],
+          ["Club+ or Everyday Rewards", "Groceries and fuel discounts", "Free", "1.8 (682) / 2.2 (496)"],
+          ["Grocer", "Comparing supermarket prices", "Free", "3.6 (128)"],
+          ["Too Good To Go", "Unsold food from shops and cafes", "Free app; pay per bag", "4.9 (2,940)"],
+          ["First Table", "Half-price food at early sittings", "Free app; booking fee", "4.9 (8,549)"],
+          ["Rankers Camping NZ", "Ferry and activity discounts", "Free", "4.7 (3,322)"],
+          ["AT Mobile", "Auckland public transport fares", "Free", "4.5 (32,728)"],
+          ["Splitwise", "Sharing costs fairly", "Free", "4.4 (689)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for cutting the accommodation bill", [
+        "DOC campsites are among the cheapest places to sleep in New Zealand, and KiwiCamping is built around DOC's data. In its August 2026 data it held 287 DOC campsites, and at the 208 with a published adult rate the fee ran from $5 to $25 a night, with a median of $12.75. A cost filter narrows the map by fee, and each place shows the fees as reported in New Zealand dollars and, if you choose, your own currency.",
+        "Trips add up the distance between stops, which helps you spot a detour that costs more in fuel than it saves in fees. Place details stay on the phone without signal; map tiles, routing, weather and photos need a connection. It is iPhone only, needs iOS 26 or later and has 4 New Zealand ratings (3.8).",
+      ], ["Choose it for: cheaper nights at DOC campsites", "Fees in your own currency", "iPhone only, iOS 26 or later"], undefined, true),
+      s("2. Gaspy: best for the fuel bill", [
+        "With petrol above $3.50 a litre on the boards, choosing the cheaper station in each town is the simplest saving on a road trip. Gaspy shows prices that its users report from the pump and confirm, and it can show your price after a loyalty discount you hold. Its 773 New Zealand ratings average 4.0, and the optional Gold tier costs NZ$1.69 a month.",
+        "Our guide to fuel price apps compares Gaspy with the Z, bp, Waitomo and Gull apps and the supermarket fuel schemes in detail.",
+      ], ["Choose it for: comparing fuel prices", "Free; Gold NZ$1.69 a month", "Pair it with one discount scheme"]),
+      s("3. Supermarket apps and Grocer: best for groceries", [
+        "Foodstuffs' Club+ replaced the New World Clubcard in 2026. It earns Club+ Dollars, each worth $1, at 0.75% of your spend at New World and 0.38% at Four Square; PAK'nSAVE shoppers can spend them but do not earn them. Club+ also gives fuel discounts. Woolworths' Everyday Rewards works the same way with points, vouchers and bp fuel discounts. Both apps are poorly rated on the New Zealand App Store, 1.8 from 682 for Club+ and 2.2 from 496 for Everyday Rewards, but the card works whether or not you like the app.",
+        "Grocer, an independent app, compares grocery prices across the major supermarkets and keeps price history and shopping lists. It rated 3.6 from 128 New Zealand ratings and was last updated in December 2025, so treat its prices as a guide and check the shelf.",
+      ], ["Club+ for New World and PAK'nSAVE", "Everyday Rewards for Woolworths", "Grocer to compare prices"]),
+      s("4. Too Good To Go and Foodprint: best for cheap meals from food that would be wasted", [
+        "Too Good To Go sells surprise bags of unsold snacks, meals and ingredients from shops, cafes, grocery stores and restaurants near you at a reduced price. It rated 4.9 from 2,940 New Zealand ratings; check how many stores take part where you are travelling before you count on it.",
+        "Foodprint has a similar aim: partner eateries upload surplus and imperfect food each day at a discount, and you order and pay in the app. It rated 3.8 from 112 and was updated in August 2026.",
+      ], ["Choose it for: cheaper food", "Bag contents vary", "Check local coverage"]),
+      s("5. First Table: best for eating out for less", [
+        "First Table books the first table of the night at participating restaurants with 50% off the food bill. You pay a booking fee to lock it in, which First Table says varies by restaurant and is not taken off the bill, and the discount covers food, not drinks.",
+        "It rated 4.9 from 8,549 New Zealand ratings, the highest-rated app here. Early sittings suit a travel day that ends at a town before dark.",
+      ], ["Choose it for: half-price food", "Booking fee per table", "Food only, not drinks"]),
+      s("6. Rankers, GrabOne and the ferry deals: best for activities and the crossing", [
+        "Rankers' free app offers 10% off Bluebridge Cook Strait crossings with the code RANKERS and its free digital card shown at check-in, and its activity listings carry discounts of 10% to 15%. GrabOne (4.6 from 3,717) sells discounted vouchers for activities, food and stays.",
+        "Interislander's BoostSail promotion gives 15% off adult foot-passenger fares with the code BOOSTSAIL1 for bookings made between 21 September and 14 December 2026; it cannot be combined with other offers. Check both ferry companies before booking a vehicle, since fares vary by sailing and season.",
+      ], ["Rankers: 10% off Bluebridge", "Interislander BoostSail to 14 December", "GrabOne for vouchers"]),
+      s("Cheaper nights without an app", [
+        "DOC sets the campsite fees: basic campsites are free, standard campsites cost $10 to $20 per adult a night, and serviced campsites $25 per adult unpowered. Individual campsites can differ, so check each one. Members of the New Zealand Motor Caravan Association pay $252 in the first year and can then stay at NZMCA Parks for $5 per adult a night.",
+        "For hostels, Hostelworld (4.8 from 5,114) compares beds and YHA advertises a 10% saving for its members. A campervan relocation is the cheapest vehicle of all: Imoova lists them from $1 a day, though fuel is usually extra and the dates are fixed.",
+      ]),
+      s("Getting around and splitting costs", [
+        "In Auckland, AT Mobile (4.5 from 32,728) tops up an AT HOP card, and Auckland Transport caps fares at $50 over seven days with AT HOP and at $20 a day with a contactless bank card. Plan around those caps for a city stay before or after the road trip.",
+        "If you share a van, Splitwise (4.4 from 689) or Tricount (4.8 from 294) records who paid for what and settles up at the end, and TravelSpend (4.8 from 157) tracks spending against a daily budget. Wise (4.8 from 23,432) converts money from an overseas account with fees from 0.22%.",
+      ]),
+      s("How we chose and checked", [
+        "We ranked the apps by the size of the cost they attack, starting with accommodation and fuel. Ratings come from the New Zealand App Store on 20 October 2026; deal terms, fees and caps come from each company's own page that day, and price data from MBIE and Stats NZ.",
+        "Deals change often and some are seasonal. We describe each as the company does, and a feature not mentioned here is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "MBIE weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" },
+      { label: "Selected price indexes, September 2026 (Stats NZ)", url: "https://www.stats.govt.nz/information-releases/selected-price-indexes-september-2026/" },
+      { label: "DOC campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "Club+ launch (Foodstuffs)", url: "https://www.foodstuffs.co.nz/news-room/2026/new-world-pak-nsave-four-square-launch-club---a-smarter-way-to-save-on-groceries" },
+      { label: "First Table FAQ", url: "https://www.firsttable.co.nz/frequently-asked-questions" },
+      { label: "Rankers ferry discount", url: "https://www.rankers.co.nz/member-info/offers/ferry-discount" },
+      { label: "Interislander BoostSail promotion", url: "https://www.interislander.co.nz/book/promotions-and-deals/boostsail-promotion" },
+      { label: "Auckland Transport bus and train fares", url: "https://at.govt.nz/bus-train-ferry/fares-and-discounts/bus-and-train-fares" },
+      { label: "NZMCA membership", url: "https://www.nzmca.org.nz/join-us" },
+      { label: "Imoova: what is a relocation", url: "https://imoova.com/what-is-a-relocation" },
+    ],
+  }),
 ];

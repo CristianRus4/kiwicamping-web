@@ -615,6 +615,20 @@
       }
     ]
   },
+  "/images/articles/money-saving-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/money-saving-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/money-saving-travel-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/nelson-abel-tasman-golden-bay.webp": {
     "width": 1600,
     "height": 900,
@@ -1471,6 +1485,20 @@
       },
       {
         "path": "/images/screens/fuel-price-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/money-saving-travel-apps-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/money-saving-travel-apps-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/money-saving-travel-apps-new-zealand.webp",
         "width": 1600
       }
     ]
