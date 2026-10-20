@@ -15,12 +15,16 @@ House terms: «el Pase»; glossary Isla Norte / Isla Sur / Isla Stewart (Rakiura
 ## Done
 - kb1a: best-nz-camping-apps (136 units). es 49/89 guides.
 
+- kb4 (591 units, 14 guides): where-to-camp-in-new-zealand, east-cape, coromandel-rotorua, northland-cape-reinga, arthurs-pass, taranaki-forgotten-world, picton-kaikoura-christchurch, wanaka-haast-pass, nelson-abel-tasman-golden-bay, banks-peninsula, bay-of-islands, rakiura-stewart-island, three-week-campervan-route, christchurch-tekapo-aoraki. es 63/89 guides.
+
 ## Next
-- Reviewing kb1b (where-to-camp, east-cape, coromandel, northland), kb2 (arthurs-pass, taranaki, picton-kaikoura, wanaka-haast, nelson), kb3 (banks, bay-of-islands, rakiura, three-week, christchurch-tekapo).
+- Drafting kl1..kl3 (6 listicles: wikicamps-alternatives, best-campervan-apps, best-weather-apps, fuel-price-apps, working-holiday-apps, money-saving).
 - Then kl1..kl3 (6 listicles), kr1..kr5 (rules/topic guides, remaining road trips): batches already built in /tmp/kai-es-gap/k/batches.
 
 ## Notes for orchestrator (English source oddities, translated faithfully)
 - best-nz-camping-apps: NZMCA section says the app "had no ratings yet" (past tense) while the table says "No ratings yet".
+
+- where-to-camp-in-new-zealand: "four land types" vs FAQ "broadly five"; FAQ "No. Not by default:" reads oddly. east-cape: top up "with more than half a tank showing" probably means less than; pohutukawa/Tane Mahuta macrons missing in places. arthurs-pass: one section says wait if the pass closes, another says reroute. nelson-abel-tasman: description says international price "up to $31", body says "$21 to $31"; wanaka-haast: "an hour from Queenstown" (more like 1h15-1h30); Isthmus Peak "comparable" vs tip "same" views. three-week route tip "8 north, 1 ferry, 12 south" vs body 9/1/11. christchurch-tekapo: Pūkaki/Pukaki both spelled. picton-kaikoura: one "Kaikoura" without macron (Spanish uses Kaikōura throughout). Style guide has no entry for seals (lobos marinos used).
 
 ## Blockers
 none
