@@ -8920,6 +8920,498 @@
       ],
       "sources": [],
       "priceTable": null
+    },
+    "kiwicamping-currency-place-costs": {
+      "title": "Se indberettede priser for steder i din egen valuta",
+      "description": "Brug ensartede omregninger til at sammenligne ophold, og bekræft så beløbet, udbyderen opkræver.",
+      "region": "KiwiCamping",
+      "imageAlt": "Autocampere og campingvogne parkeret på græsset ved Reefton Motor Camp",
+      "intro": "Rejsende budgetterer i den valuta, de tænker i, mens alle campingpladser i New Zealand opkræver New Zealand-dollar. At vise indberettede priser i en kendt valuta fjerner hovedregningen fra hver sammenligning, så længe ingen forveksler en omregning med et tilbud.",
+      "sections": [
+        {
+          "heading": "Vælg den valuta, dit budget er i",
+          "body": [
+            "Vælg den valuta, du faktisk planlægger i, og ikke den, dit kort er udstedt i, hvis de er forskellige. Pointen er at sammenligne en enkel DOC-plads, en plads på en <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> og en hytte på den samme skala, hurtigt, i det øjeblik du vælger mellem dem.",
+            "Ensartethed er det, der gør det nyttigt. Når hvert indberettet beløb omregnes på samme måde, er de relative forskelle pålidelige, også hvor det absolutte tal er omtrentligt."
+          ],
+          "tips": [
+            "Brug den valuta, du planlægger i",
+            "Relativ sammenligning er pointen",
+            "Samme metode for hvert sted"
+          ]
+        },
+        {
+          "heading": "Forstå, hvad et omregnet tal er",
+          "body": [
+            "Det er en mekanisk omregning af en indberettet pris med en dateret referencekurs. Det er ikke et live valutakurstilbud, og det er ikke det, din bank opkræver. Kort anvender deres egne kurser og lægger ofte et gebyr for udenlandske transaktioner til, så det beløb, der forlader din konto, vil være anderledes.",
+            "Se omregnede beløb som planlægningstal, der er nøjagtige nok til at vælge mellem muligheder, og aldrig som det tal, du skal budgettere efter til øre. For den faktiske pris skal du se på beløbet i New Zealand-dollar og på, hvad dit kort opkræver."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tjek, hvad prisen faktisk dækker",
+          "body": [
+            "Det er her, de fleste fejl i budgetter sker. Priser på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> opkræves som regel pr. voksen pr. nat, mens kommercielle Holiday Parks måske opkræver pr. plads med et angivet antal personer eller en grundpris med ekstra gæster lagt til. To tal, der ligner hinanden, kan give vidt forskellige samlede beløb for en familie på fire.",
+            "Tjek også, om strøm, brusere, sengelinned og bookinggebyrer er inkluderet eller lagt til. En hytte oplyst uden sengelinned og en hytte oplyst med er ikke det samme produkt, og forskellen er som regel større end forskellen i den overordnede pris."
+          ],
+          "tips": [
+            "DOC tager betaling pr. voksen",
+            "Parker tager ofte betaling pr. plads",
+            "Tjek strøm, sengelinned og bookinggebyrer"
+          ]
+        },
+        {
+          "heading": "Bekræft, før en pris ændrer din rute",
+          "body": [
+            "Indberettede priser skifter med sæson, antal gæster, køretøjstype, alderskategori og efterspørgsel. Før en pris afgør, hvor du kører, så åbn den officielle kilde eller kontakt udbyderen, og bekræft den aktuelle pris for dine præcise datoer og dit selskab.",
+            "For DOC-steder i særdeleshed skal du tjekke, om pladsen kan bookes eller er først til mølle, og om et Campsite Pass gælder. Et periodekort er en betalingsmåde og ikke en reservation, og at forveksle de to giver en ubehagelig ankomst til en fuld campingplads."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sammenlign hele natten, ikke prisen pr. nat",
+          "body": [
+            "Læg alt sammen, som stoppet indebærer: pladsgebyr, strøm, brusere, vask, hvis du har brug for det, bookinggebyrer og brændstoffet til at nå derhen. En campingplads tyve minutter fra ruten er ikke billigere end en lidt dyrere, du kører forbi.",
+            "En central <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> kan også fjerne udgifter, der aldrig står på campingpladslinjen, som parkering i byen eller en ekstra tur ind efter dagligvarer. Når du sammenligner helheden, bliver de synlige."
+          ],
+          "tips": [
+            "Medregn brændstoffet til at nå derhen",
+            "Læg strøm, brusere og gebyrer til",
+            "Centrale pladser kan fjerne andre udgifter"
+          ]
+        },
+        {
+          "heading": "Hav en reserve i New Zealand-dollar",
+          "body": [
+            "Hav nok lokal valuta til de ting, der ikke retter sig efter en plan: et depositum, en lukket vej, der tvinger dig til en betalt nat, et dæk, en ændring af færgen. Budgetter, der går ud fra, at hver nat bliver på en gratis eller billig plads, har ikke plads til den dag, hvor noget går galt.",
+            "En praktisk tilgang er at planlægge en betalt nat oftere, end du regner med at tage en. Hvis du ikke får brug for den, bliver pengene; hvis du gør, er beslutningen let og ikke smertefuld."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Følg dit forbrug de første dage",
+          "body": [
+            "Sammenlign, hvad du faktisk bruger, med det, du planlagde, over de første tre eller fire dage, og juster så. De poster, der skrider, er næsten altid mad, kaffe og små betalte aktiviteter og ikke overnatning, og de er også lettest at rette tidligt.",
+            "At opdage en overskridelse på tyve procent i uge ét betyder at skære nogle få måltider ude fra. At opdage den i uge fire betyder at aflyse den del af turen, du allermest ville opleve."
+          ],
+          "tips": [
+            "Tjek forbruget de første dage",
+            "Mad og kaffe skrider, ikke campingpladser",
+            "Tidlig rettelse er billig"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan KiwiCamping vise priser i min egen valuta?",
+          "Ja. Vælg din valuta i Indstillinger, og angiv omregningskursen, så vises indberettede priser i den valuta ved siden af beløbet i New Zealand-dollar."
+        ],
+        [
+          "Er de omregnede priser nøjagtige?",
+          "Nej, og det er ikke meningen, at de skal være det. De er en mekanisk omregning af et indberettet beløb i New Zealand-dollar til den kurs, du har angivet, til at bedømme ét sted op mod et andet. Din bank eller dit kortselskab anvender sin egen kurs og sine egne gebyrer."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "winter-camping-new-zealand": {
+      "title": "Vintercamping i New Zealand: varme, veje og realistiske planer",
+      "description": "Kolde nætter, kort dagslys og kontrol på alpine veje ændrer, hvordan en tur i autocamper eller telt fungerer.",
+      "region": "New Zealand om vinteren",
+      "imageAlt": "Autocamper i et snedækket landskab i New Zealand",
+      "intro": "Vinteren byder på den klareste himmel, de tomste campingpladser og den bedste værdi i året, og den fjerner det meste af din margin for fejl. Kolde nætter, ni timers brugbart dagslys, kædekontrol og lukninger i sæsonen er ikke forhindringer, du skal komme uden om bagefter; de er det, ruten skal bygges ud fra.",
+      "sections": [
+        {
+          "heading": "Vælg sovesystem efter natten, ikke dagen",
+          "body": [
+            "En lys eftermiddag i Central Otago ved femten grader kan efterfølges af en nat under nul. Vælg en sovepose og et isolerende underlag, der er beregnet til nattens minimum det koldeste sted, du kommer til at stoppe, og læg så en margin til, for komfortangivelser er optimistiske, og en kold nat er virkelig elendig.",
+            "Underlaget betyder lige så meget som soveposen. Det meste af varmen går tabt nedad i jorden eller køretøjets gulv, og et underlag til sommer under en god sovepose vil stadig lade dig fryse. I en van skal du isolere gulvet og vinduerne, før du lægger endnu et tæppe til."
+          ],
+          "tips": [
+            "Vælg efter nattens laveste temperatur, ikke dagens højeste",
+            "Isolerende underlag slår en varmere sovepose",
+            "Gulve og vinduer i vans lækker varme"
+          ]
+        },
+        {
+          "heading": "Styr kondens",
+          "body": [
+            "Fire personer, der trækker vejret i en lukket van, producerer overraskende meget vand, og det ender i sengetøjet, væggene og til sidst madrassen. Ventilation føles forkert, når det fryser udenfor, men et permanent lukket køretøj giver vådt sengetøj anden morgen.",
+            "Åbn en ventil eller et vindue på den beskyttede side om natten, og luft sengetøjet, hver gang solen kommer frem. Tør kondens af vinduerne om morgenen i stedet for at lade den løbe ind i pakningerne og de bløde møbler."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Varm køretøjet op på en sikker måde",
+          "body": [
+            "Brug kun installeret opvarmning, der er godkendt af producenten. Bærbare gasvarmere, campingkogegrej og grill, der bruges indendørs, producerer kulilte, som er lugtfri og har kostet folk livet, mens de sov i køretøjer i New Zealand. Der findes ingen sikker måde at improvisere opvarmning af kabinen i et lukket rum.",
+            "Hvis du har en diesel- eller gasvarmer monteret, så tjek, at den virker, før turen, og vid, hvordan den ventileres. En kulilte-alarm koster meget lidt og er værd at have i ethvert køretøj med et apparat, der brænder brændstof."
+          ],
+          "tips": [
+            "Brug aldrig et campingkogegrej til at varme en van op",
+            "Kulilte har ingen lugt",
+            "Montér en CO-alarm, hvis du brænder brændstof af"
+          ]
+        },
+        {
+          "heading": "Kæder, dæk og kontrol på alpine veje",
+          "body": [
+            "Lindis Pass, Crown Range, Arthur's Pass, Desert Road og Milford-vejen kan alle kræve kæder med kort varsel, og nogle lejeaftaler kræver, at du har dem med på hele turen uanset vejrudsigten. At montere kæder for første gang i slud på en vejskulder er virkelig svært.",
+            "Øv monteringen i en tør indkørsel i dagslys, før du tager af sted. Tjek dækkenes mønsterdybde og tryk, sørg for, at batteriet er i orden, for koldt vejr finder hurtigt et svagt, og læs udlejningsfirmaets vinterbegrænsninger, før du planlægger en rute over et pas."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sort is og skyggefulde sving",
+          "body": [
+            "Sort is opstår, hvor vejen bare ser våd ud, typisk i skygge, på broer og i dagslysets første og sidste timer. Den giver ingen varsel og intet vejgreb, og den almindelige fejl er at bremse eller dreje kraftigt, når du mærker den.",
+            "Sæt farten ned før skyggefulde strækninger og ikke i dem, øg afstanden til bilen foran langt ud over sommervanen, og udsæt en alpin krydsning, til solen har ramt vejen. At ankomme to timer senere er ikke en pris, det er værd at diskutere."
+          ],
+          "tips": [
+            "Skygge og broer fryser først",
+            "Sæt farten ned før svinget, ikke i det",
+            "Vent på sol på vejen"
+          ]
+        },
+        {
+          "heading": "Byg dagen op omkring dagslyset",
+          "body": [
+            "Midt om vinteren giver cirka ni timers brugbart lys i syd og mindre i en dal. Det er ikke meget, når du har pakket sammen, kørt, holdt ind og fundet en plads, så planlæg kortere etaper, end du ville i februar, og sæt et fast vendetidspunkt for enhver gåtur.",
+            "Sigt efter at ankomme med lys til overs. At vælge en plads, stille et køretøj i vater og tjekke adgangen er alt sammen sværere i mørke og koldere, og et sted, der tydeligt ville være forkert i dagslys, er let at acceptere om natten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regn med lukninger og færre faciliteter",
+          "body": [
+            "Mange <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a> lukker om vinteren eller slukker for vandet, nogle adgangsveje lukker efter sne, og Holiday Parks i små byer kan skære i åbningstiderne eller lukke helt. Et opslag, der er skrevet til sommeren, fortæller dig ikke det, så tjek det konkrete sted og de aktuelle advarsler fra DOC, før du forpligter dig.",
+            "Hav mere vand, mad og strøm med, end planen kræver, og se en nat i en hytte eller på et motel som en normal beslutning om vejret og ikke som en fiasko. Vinteren er sæsonen, hvor det at betale for et værelse en gang imellem er det, der får resten af turen til at fungere."
+          ],
+          "tips": [
+            "Tjek, at pladsen er åben, ikke bare opført",
+            "Hav mere vand med, end planen kræver",
+            "En nat i en hytte er en gyldig beslutning"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man campere i New Zealand om vinteren?",
+          "Ja, og det er den roligste tid på året på vejene. Begrænsningerne er praktiske og ikke juridiske: Nogle DOC-campingpladser og alpine veje lukker eller bliver kun åbne med kæder, dagslyset er kort, og en van uden isolering eller varmer bliver hurtigt ubehagelig."
+        ],
+        [
+          "Hvilke dele af New Zealand er mildest om vinteren?",
+          "Den nordlige del af Nordøen er den varmeste, og Northland og Coromandel kan campes hele året. Central Otago og Mackenzie-egnen får de hårdeste frostnætter, og West Coast er mild, men meget våd."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA om vejforhold og lukninger"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "DOC's advarsler og lukninger"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-budget-new-zealand": {
+      "title": "Sådan bygger du et budget til en tur i autocamper i New Zealand",
+      "description": "Leje, brændstof, campingpladser, færgepriser og mad opfører sig forskelligt, så prissæt hver post for sig.",
+      "region": "New Zealand",
+      "imageAlt": "Rejsende planlægger et budget for en tur i autocamper i New Zealand",
+      "intro": "Den annoncerede dagspris er det mindst interessante tal i et budget for en autocamper. Selvrisiko på forsikringen, regler for kilometer, færgen, rutens form og hvor ofte du betaler for en plads med strøm flytter totalen langt mere end forskellen mellem to udlejningsfirmaer.",
+      "sections": [
+        {
+          "heading": "Prissæt køretøjet som en samlet pakke",
+          "body": [
+            "Sammenlign tilbud på identiske datoer, køretøjsklasse, selvrisiko, kilometerramme og inkluderet udstyr. En lav overordnet pris med en selvrisiko på 5.000 NZD og en begrænset daglig kilometerramme er et andet produkt end en lidt dyrere med lav selvrisiko og ubegrænsede kilometer.",
+            "Læg så de ting til, der oplyses særskilt: transport fra lufthavnen, gebyrer for envejsleje, ekstra chauffører, sengetøj og køkkenpakker og udgiften til at nedsætte selvrisikoen. De lægger rutinemæssigt flere hundrede dollar til to uger og er usynlige i den sammenligning, du begyndte med."
+          ],
+          "tips": [
+            "Sammenlign selvrisiko, ikke kun dagsprisen",
+            "Tjek kilometerrammen",
+            "Læg gebyrer for envejsleje og ekstra chauffør til"
+          ]
+        },
+        {
+          "heading": "Forstå depositum og spærringen",
+          "body": [
+            "De fleste udlejere spærrer et beløb på et kreditkort ved afhentning, og hvor selvrisikoen er høj, kan spærringen være betydelig. Den frigives og trækkes ikke, men den nedsætter den kredit, du har til rådighed under turen, hvilket betyder noget, hvis det samme kort betaler brændstof og campingpladser.",
+            "Tjek, om udlejeren kræver et kreditkort i hovedchaufførens navn, for debetkort bliver ofte afvist. At opdage det på et depot i lufthavnen kl. 23 er en virkelig dårlig start på en tur."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Omsæt ruten til et brændstoftal",
+          "body": [
+            "Skøn de faktiske kilometer på din rute i stedet for at bruge et landsgennemsnit, og læg så ti til femten procent til omveje, forkerte afkørsler og de ture, du endnu ikke har tænkt på. Gang afstanden med køretøjets liter pr. 100 kilometer, divider med 100, og gang med den aktuelle pris pr. liter.",
+            "En autocamper med 12 l/100 km, der kører 3.000 kilometer, bruger 360 liter, og det regnestykke fylder mere end forskellen på en campingplads til 15 NZD og en til 25 NZD. Brændstof er som regel den næststørste post i budgettet og den, folk undervurderer mest."
+          ],
+          "tips": [
+            "Læg 10–15 procent til omveje",
+            "Brug køretøjets faktiske forbrug",
+            "Brændstof slår som regel prisen på campingpladser"
+          ]
+        },
+        {
+          "heading": "Ret skønnet tidligt",
+          "body": [
+            "Notér liter og kilometer for dine første to påfyldninger, og regn om. Lastet vægt, modvind, bjergveje, tagbokse og at lade motoren køre for varmens skyld presser alt sammen forbruget over brochuretallet, nogle gange med en fjerdedel.",
+            "Afsides <a data-guide=\"new-zealand-road-trip-fuel-cost-2026\">brændstof</a> koster mere, og prisen varierer betydeligt mellem en by og en lille by på West Coast eller East Cape. Tank op i de større byer, hvor du kan, men kør aldrig forbi den sidste tankstation før en lang strækning for at spare et par øre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Budgetter færgen som en fast blok",
+          "body": [
+            "<a data-guide=\"cook-strait-ferry-campervan-guide\">Cookstrædet</a> er en stor udgift, der ikke kan forhandles, på enhver tur, der dækker begge øer, og den prissættes efter køretøjets længde og ikke efter antal passagerer. En overfart med en autocamper koster flere gange en bil, og en trukket trailer eller et cykelstativ ændrer kategorien igen.",
+            "Book den tidligt til sommerafgange, og læs vilkårene for ændring og aflysning, før du vælger den billigste billet. En besparelse, der ikke kan refunderes, forsvinder første gang vejret eller en vejlukning tvinger dig til en anden afgang."
+          ],
+          "tips": [
+            "Prissat efter køretøjets størrelse, ikke personer",
+            "Book sommerafgange tidligt",
+            "Billige billetter koster mere at ændre"
+          ]
+        },
+        {
+          "heading": "Bland overnatningsformerne bevidst",
+          "body": [
+            "En tur bygget helt på gratis pladser kræver et fuldt selvforsynende køretøj og ender stadig med at betale for brusere, vask og vand et sted. En tur bygget helt på <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> koster to eller tre gange så meget og giver lidt på de nætter, hvor du ankommer sent og tager tidligt af sted.",
+            "Det praktiske mønster er to eller tre billige nætter hos DOC eller med freedom camping efterfulgt af én nat med service, der nulstiller alt på én gang: vask, varme bade, opladning, drikkevand og affald. Regnet sådan tjener natten med service som regel sin pris ind."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hav en reel reserve",
+          "body": [
+            "Hav penge til de ting, der ikke står i nogens plan: et dæk, et stenslag i forruden, en ændring af færgen, et lukket pas, der tvinger dig til en betalt nat, en dag, hvor vejret gør en hytte til det fornuftige valg. Et budget uden luft gør hvert lille problem til en beslutning om, hvorvidt du skal fortsætte.",
+            "Gennemgå dit faktiske forbrug efter tre eller fire dage, og juster, mens rettelsen stadig er lille. De poster, der skrider, er næsten altid mad, kaffe og betalte aktiviteter og ikke overnatning, og de er lettest at få tilbage."
+          ],
+          "tips": [
+            "Hav en ægte reserve",
+            "Gennemgå forbruget i uge ét",
+            "Mad og aktiviteter skrider, ikke campingpladser"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad koster en tur i autocamper i New Zealand pr. dag?",
+          "Lejen og brændstoffet fylder mest, og campingpladser er som regel den mindste post. Guiden deler en realistisk dag op i leje, brændstof, campinggebyrer, mad og aktiviteter, og forskellen mellem den billigste og den komfortable version er mest mad og aktiviteter."
+        ],
+        [
+          "Er en autocamper billigere end en lejebil plus overnatning?",
+          "På en lang tur om sommeren, som regel ja; på en kort tur, ofte ikke. En autocamper har en højere dagspris og dårligere brændstofforbrug, og den betaler sig kun, når den erstatter betalt overnatning de fleste nætter."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE om freedom camping"
+        },
+        {
+          "label": "DOC's faciliteter og priser på campingpladser"
+        }
+      ],
+      "priceTable": null
+    },
+    "food-fuel-resupply-new-zealand-road-trip": {
+      "title": "Mad, brændstof og forsyninger på en roadtrip i New Zealand",
+      "description": "De store byer sætter rytmen for dagligvarer, LPG, drikkevand og opgaver på køretøjet.",
+      "region": "New Zealand",
+      "imageAlt": "Autocamper fylder mad og brændstof op i en by i New Zealand",
+      "intro": "Forsyninger fungerer bedst som en rytme og ikke som en reaktion. At beslutte på forhånd, hvilke byer der er dine steder at proviantere, holder udgifterne nede, forhindrer, at ærinder æder hver eftermiddag, og forebygger den situation, hvor den sidste butik før en afsides nat er lukket og fyrre kilometer bag dig.",
+      "sections": [
+        {
+          "heading": "Proviantér i de store byer",
+          "body": [
+            "Gør det store indkøb, hvor der er valgmuligheder og pålidelige åbningstider: Auckland, Hamilton, Tauranga, Rotorua, Napier, Wellington, Nelson, Christchurch, Dunedin, Queenstown og Invercargill har alle store supermarkeder. Særlige kostprodukter, behov for apotek og erstatningsudstyr er meget lettere at finde dér.",
+            "Mindre byer er værd at støtte og har ofte fremragende lokale råvarer, men de fører måske ikke et bestemt gasfitting, en bestemt medicin eller en reservedel. Køb de ting, der ville vælte turen, i den større by, og køb det gode brød og den lokale ost i den lille."
+          ],
+          "tips": [
+            "Køb det, turen ikke kan undvære, i store byer",
+            "Små butikker til råvarer, ikke reservedele",
+            "Tjek åbningstider om søndagen og på helligdage"
+          ]
+        },
+        {
+          "heading": "Planlæg måltider, der deler ingredienser",
+          "body": [
+            "Et køleskab i en autocamper er lille, og opbevaringsplads er mindre. To eller tre dages måltider bygget op omkring et fælles sæt ingredienser spilder langt mindre end en ny opskrift hver aften, og det betyder, at ét indkøb dækker perioden i stedet for en daglig søgen efter noget bestemt.",
+            "Køb mindre mængder, hvor køling er begrænset, eller du er på vej et varmt sted hen. En storpakke på tilbud er ikke en besparelse, hvis halvdelen ikke kan bruges på dag tre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tank op før hullerne, ikke efter",
+          "body": [
+            "East Cape, West Coast mellem Westport og Haast, Fiordland, det yderste nord og det indre af Otago har alle lange strækninger med begrænset eller uregelmæssigt åbent brændstof. Se den sidste pålidelige tankstation før de etaper som obligatorisk, uanset hvor meget der er på tanken.",
+            "Åbningstider betyder lige så meget som afstand. En tankstation, der er markeret på et kort, kan være lukket en søndag aften eller ubemandet efter kl. 18, og pumper, der kun tager kort, afviser af og til udenlandske kort. Planlæg ikke at ankomme på dampen noget sted."
+          ],
+          "tips": [
+            "Tank op før afsides etaper, ikke under dem",
+            "Tjek åbningstider, ikke kun afstand",
+            "Udenlandske kort kan blive afvist ved pumperne"
+          ]
+        },
+        {
+          "heading": "Følg dit faktiske forbrug",
+          "body": [
+            "Notér liter og kilometer for de første par påfyldninger, og find ud af, hvad køretøjet faktisk bruger. Last, modvind, bjergveje, en tagboks og at lade motoren køre for varmens skyld presser alt sammen en autocamper et godt stykke over tallet i brochuren.",
+            "Når du har et rigtigt tal, kan du omsætte enhver etape til liter og penge i hovedet, og det gør brændstof fra en kilde til bekymring til et input til planlægningen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vand: vid, hvilken hane der er hvilken",
+          "body": [
+            "Fyld kun drikkevand fra haner, der er mærket som drikkevand. Ikke alle haner på en campingplads eller i et reservat er sikre, og nogle er udtrykkeligt mærket som vand til vask. Hvor en forsyning er ubehandlet eller usikker, så kog eller filtrér den i stedet for at gå ud fra, at den er fin, fordi den ser ren ud.",
+            "Hold drikkevandsslangen fysisk adskilt fra alt, der bruges ved en <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a>, opbevar den, så enderne ikke rører jorden, og vask hænder, når du har rørt ved udstyr til affald. Den ene vane forebygger den hyppigste årsag til sygdom på en tur med et selvforsynende køretøj."
+          ],
+          "tips": [
+            "Fyld kun fra haner, der er mærket som drikkevand",
+            "Hold drikkevandsslangen adskilt",
+            "Kog eller filtrér ubehandlet vand"
+          ]
+        },
+        {
+          "heading": "LPG, gasflasker og opgaver på køretøjet",
+          "body": [
+            "Tjek fittingen og ordningerne for påfyldning eller bytte til din flaske, før den løber tør, for ikke alle tankstationer klarer alle typer, og byttesystemer varierer. En lejebil kommer som regel med en bestemt ordning, så spørg ved afhentning i stedet for at opdage det midt på turen.",
+            "Saml opgaver på køretøjet i det samme stop i en by: brændstof, LPG, tjek af dæktryk, vand, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestation</a> og supermarkedet. Ét velvalgt stop kan klare hele listen på under en time, hvor de samme opgaver spredt over tre byer æder en dag."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gem servicestoppene i planen",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tømmestationer</a>, drikkevand, LPG og vaskerier er værd at gemme sammen med dine overnatningsstop, med en note om åbningstider. En tømmestation, der lukker kl. 17, er det samme som ingen tømmestation, når du ankommer kl. 18.",
+            "Hvor en afsides etape venter, så find det konkrete stop, du vil bruge, i stedet for at gå ud fra, at et dukker op. At planlægge en tømning eller en påfyldning på vejen et sted hen er let; at tage en særlig tur tilbage efter det er det ikke."
+          ],
+          "tips": [
+            "Gem service som stop med åbningstider",
+            "Find det konkrete stop før afsides etaper",
+            "Ét stop i en by, hele listen klaret"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvor skal man proviantere på en roadtrip i New Zealand?",
+          "I de større byer, for prisforskellen mellem et supermarked i en by og en butik i en lille by er betydelig, og udvalget kan ikke sammenlignes. West Coast, Catlins og East Cape er de strækninger, du skal køre ind på med forsyninger fra start."
+        ],
+        [
+          "Hvor langt er der mellem tankstationer i New Zealand?",
+          "Tæt nok på de store ruter og ikke på de andre. Fra Haast til Wānaka, Desert Road, East Cape og store dele af Southland er der lange huller, og nogle pumper på landet tager kun kort og er ubemandede om natten."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA's rejseplanlægger"
+        },
+        {
+          "label": "DOC om ansvarlig camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "wellington-wairarapa-camping-loop": {
+      "title": "Wellington og Wairarapa: en campingrundtur på 4 dage",
+      "description": "Havnebakker, vinbyer og en udsat sydkyst på en kort rundtur.",
+      "region": "Den nedre del af Nordøen",
+      "imageAlt": "Wairarapa-kysten og vejen til fyret",
+      "intro": "Fire dage kan føre fra Wellingtons kompakte centrum til vinlandet i Wairarapa og den vilde kyst ved Cape Palliser. Afstandene er moderate, men vinden og vejen over Remutaka afgør, hvor afslappede de føles.",
+      "sections": [
+        {
+          "heading": "Over Remutaka Range",
+          "body": [
+            "Kør fra Wellington efter myldretiden, og tag State Highway 2 mod Featherston. Kraftig vind, regn og trafik kan gøre krydsningen trættende i en høj autocamper, så sæt farten ned eller udsæt turen i stedet for at kæmpe med køretøjet.",
+            "Martinborough og Greytown er praktiske baser med mad, pladser med strøm og korte køreture i nærheden. Hvis vin er en del af dagen, så gå, cykl med omtanke, eller brug en arrangeret tur i stedet for at flytte køretøjet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dagen ved Cape Palliser",
+          "body": [
+            "Vejen forbi Lake Ferry bliver smallere og løber tæt på havet før Cape Palliser. Tjek dønning, vind og de seneste vejforhold, og lad så være dagslys nok til hjemturen.",
+            "Hold afstand til pelssæler, og spær aldrig vejen eller adgangen for både omkring Ngawi. Trappen til fyret er stejl, og kysten giver kun lidt læ, når en sydenvind kommer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Tilbage gennem byerne",
+          "body": [
+            "Brug den sidste morgen på de mindre byer i Wairarapa eller en gåtur rundt om vådområderne, og kør så over bjergkæden, før <a data-guide=\"alcohol-fatigue-driving-new-zealand\">træthed</a> og aftentrafik lægger sig sammen.",
+            "En <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> i Wellington-området kan være den smarteste sidste nat før en færge. Den giver vask, strøm og en forudsigelig afgang uden at tilføje et parkeringsproblem i centrum."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Remutaka Hill Road sætter tonen",
+          "body": [
+            "Vejen mellem Upper Hutt og Featherston stiger stejlt med skarpe sving og er udsat for den vind, Wellington er kendt for. Den er fin i en bil og kræver reel opmærksomhed i en autocamper eller med en trailer, især i nordenvind.",
+            "Tjek vejens status, før du krydser, for NZTA lukker den ved kraftig vind. De alternative ruter er lange, så en lukning ændrer hele dagen i stedet for at lægge tyve minutter til."
+          ],
+          "tips": [
+            "Lukker ved kraftig vind",
+            "Stejl med skarpe sving",
+            "Omvejene er lange"
+          ]
+        },
+        {
+          "heading": "Cape Palliser er den bedste dag på rundturen",
+          "body": [
+            "Turen ud forbi Ngawi til fyret fører dig langs en udsat kyst med bulldozere, der bruges til at sætte fiskebåde i vandet, forbi den største pelssælkoloni på Nordøen og til 250 trin op til fyret. Det føles betydeligt mere afsides, end afstanden fra Wellington antyder.",
+            "Hold god afstand til sælerne, især mellem ungerne og vandet, og kom aldrig mellem et dyr og dets flugtvej til havet. De bevæger sig hurtigere, end de ser ud, og vil forsvare pladsen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Martinborough fungerer på en cykel",
+          "body": [
+            "Vingårdene ligger i et kompakt net inden for let cykelafstand fra landsbyens torv, og det gør det til den almindelige og fornuftige måde at gennemføre en smagedag på at cykle imellem dem. Cykeludlejning findes i landsbyen og fjerner spørgsmålet om spirituskørsel helt.",
+            "Book et bord til frokost et sted i god tid i en weekend, for landsbyen er lille og bliver fyldt. De fleste vingårde opkræver et gebyr for smagning, som fratrækkes ved et køb."
+          ],
+          "tips": [
+            "Lej cykler, kør ikke mellem vingårdene",
+            "Book frokost i weekenden i forvejen",
+            "Gebyrer for smagning fratrækkes ved køb"
+          ]
+        },
+        {
+          "heading": "Wellington selv kræver en plan for køretøjet",
+          "body": [
+            "Det er svært og dyrt at parkere en autocamper i det centrale Wellington, og højdebegrænsningerne overrasker folk på de centrale parkeringspladser. Tag base i Hutt Valley eller på en campingplads ved kysten, og brug toget eller bussen ind til byen.",
+            "Te Papa er gratis og virkelig i verdensklasse, og kabelbanen og Zealandia er begge en halv dag værd. Intet af det kræver, at vanen er i nærheden af centrum."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Putangirua Pinnacles og kystvejen",
+          "body": [
+            "Pinnacles er en badlands-formation af eroderede grusspir, som nås ad en gåtur op ad et åløb, og de blev brugt som Paths of the Dead i filmtrilogien. Ruten gennem dalen er en klatretur over løs sten; stien på højderyggen ovenover giver overblikket og tager længere tid.",
+            "Vejen ud til Cape Palliser forbi Pinnacles er uasfalteret flere steder og kan blive påvirket af jordskred og af havet ved høj sø. Tjek forholdene, før du forpligter dig, især i et stort køretøj, for det er svært at vende om.",
+            "Ngawi, fiskerbyen med en række bulldozere på stranden, er den mest fotograferede del af denne kyst og et godt sted at holde ind. Der er ingen service ud over den, så brændstof og mad skal komme fra Martinborough eller Featherston."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zealandia og dyrelivet i byen",
+          "body": [
+            "Zealandia er et indhegnet reservat i byen, hvor kaka, takahe, tuatara og tui er almindelige og synlige, og aftenturen giver en realistisk chance for at se kiwier tæt på centrum.",
+            "Det bliver udsolgt, især aftenturen, og det er en meget bedre oplevelse med dyreliv, end de fleste forventer af noget inde i en hovedstad."
+          ],
+          "tips": [
+            "Aftenturen giver en chance for at se kiwier",
+            "Book aftenturen i forvejen"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
     }
   },
   "consent": {
