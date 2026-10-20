@@ -2144,10 +2144,10 @@
           "label": "DOC: priser för Great Walks"
         },
         {
-          "label": "DOC pressmeddelande: öppningsdatum för bokning 2026/27"
+          "label": "DOC:s pressmeddelande: öppningsdatum för bokning 2026/27"
         },
         {
-          "label": "DOC pressmeddelande 1 oktober 2026: alla Serviced-stugor går att boka, stugbiljetter på nätet"
+          "label": "DOC:s pressmeddelande, 1 oktober 2026: alla Serviced-stugor går att boka, stugbiljetter på nätet"
         },
         {
           "label": "DOC-bloggen: din guide till att boka en Great Walk 2026/27"
@@ -2455,7 +2455,7 @@
       "openTool": "Öppna räknaren",
       "ctaEyebrow": "Planera i KiwiCamping",
       "ctaTitle": "Hitta stoppen och räkna sedan på det.",
-      "ctaText": "KiwiCamping går att ladda ned gratis till iPhone. Holiday parks, boenden och turer som går att boka är gratis i appen. DOC-campingplatser, stugor, tömningsstationer och guiderna öppnas med Pass.",
+      "ctaText": "KiwiCamping är gratis att ladda ned till iPhone. Holiday parks, boenden och turer som går att boka ser du gratis i appen. DOC-campingplatser, stugor, tömningsstationer och guiderna låses upp med Pass.",
       "ctaButton": "Ladda ned appen",
       "enterValidValues": "Ange giltiga värden",
       "enterValidAmount": "Ange ett giltigt belopp"
@@ -2467,11 +2467,11 @@
       "toolsText": "Varje räknare har en egen sida med formeln, ett räkneexempel med nyzeeländska siffror, antagandena bakom och svar på vanliga frågor."
     },
     "fuel": {
-      "metaTitle": "Bränslekalkylator Nya Zeeland: bränslekostnad för roadtrip",
+      "metaTitle": "Bränslekostnad i Nya Zeeland: räkna på roadtripen med husbil",
       "metaDescription": "Räkna ut liter och bränslekostnad för en roadtrip i Nya Zeeland utifrån sträcka, L/100 km och pumppris, med formel, räkneexempel på 1 000 km och MBIE:s riktpris.",
       "eyebrow": "Räknare för bränslekostnad",
       "cardEyebrow": "Bränsleräknare",
-      "h1": "Bränslekalkylator: bränslekostnad för en roadtrip i Nya Zeeland",
+      "h1": "Räknare för bränslekostnaden på en roadtrip i Nya Zeeland",
       "intro": "Ange sträckan på rutten, fordonets förbrukning med last och priset per liter. Det förvalda priset är MBIE:s nationella skyltpris för blyfri 91 i veckan som slutade 26 juli 2026.",
       "cardTitle": "Vad kostar sträckan?",
       "cardText": "Ange hela sträckan på rutten, fordonets förbrukning med last och förväntat pris per liter. Priserna på avlägsna platser kan ligga över riktpriserna för städerna.",
@@ -2488,7 +2488,7 @@
         "Det förvalda priset är ett nationellt riktpris. Mackar på avlägsna platser, bland annat på West Coast och i Fiordland, tar ofta mer, så tanka före långa sträckor mellan städerna.",
         "Använd förbrukningen med last för det fordon du faktiskt kör. En fullastad husbil i backar och motvind drar mer än broschyrens siffra.",
         "Räkna också med körningen runt varje stopp. Matinköp, utsiktsplatser och sidovägar blir en hel del på en lång rutt.",
-        "Dieselfordon betalar road user charges (RUC) för varje 1 000 km utöver bränslet. Den här räknaren gäller bara bränsle."
+        "Dieselfordon betalar RUC (Road User Charges), en vägavgift per 1 000 km, utöver bränslet. Den här räknaren gäller bara bränsle."
       ],
       "faq": [
         [
@@ -2527,7 +2527,7 @@
         "Totalt antal minuter = körminuter + 20 × stopp"
       ],
       "formulaNote": "Medelhastigheten är inte hastighetsgränsen. Den tar hänsyn till kurvor, backar, enfiliga broar, samhällen och långsammare trafik. De fyra vägtyperna räknas med 85, 70, 60 och 45 km/h.",
-      "example": "En dag på {distance} km på kurviga vägar eller kustvägar i {speed} km/h blir {driving} körning. Lägg till {stops} stopp på 20 minuter vardera, så tar dagen {total}.",
+      "example": "En dag på {distance} km längs kurviga vägar eller kustvägar i {speed} km/h ger {driving} ren körtid. Lägg till {stops} stopp på 20 minuter vardera, så tar dagen {total}.",
       "assumptions": [
         "Medelhastigheterna är planeringssiffror för bil eller husbil under goda förhållanden, inte uppmätta genomsnitt för någon enskild väg.",
         "Varje stopp räknas som 20 minuter för bränsle, mat, toalett eller utsiktsplats. Färjor, vägarbeten och långa promenader måste läggas till utöver det.",
@@ -2573,8 +2573,8 @@
       "formulaNote": "Summan per vuxen växer med varje extra vuxen, medan summan per plats inte gör det. Därför ändras svaret mellan ett par och en familj.",
       "example": "{adults} vuxna som stannar {nights} nätter till {rateAdult} per vuxen betalar {totalAdult}. Samma vistelse till {rateSite} per plats kostar {totalSite}, så det blir {verdict}.",
       "assumptions": [
-        "Barn är inte med. Många DOC-campingplatser har en reducerad avgift för åldrarna 5 till 17 och tar inget för spädbarn, och holiday parks sätter egna barnpriser.",
-        "De förvalda priserna är exempel, inte offerter. I DOC-datan per {docDate} är {docFree} DOC-campingplatser gratis, och den lägsta vuxenavgiften på de betalda ligger mellan {docMin} och {docMax} per natt.",
+        "Barn räknas inte med. Många DOC-campingplatser har en reducerad avgift för barn mellan 5 och 17 år och tar inget för småbarn, och holiday parks sätter egna barnpriser.",
+        "De förvalda priserna är bara exempel, inte faktiska priser. Enligt DOC:s data från {docDate} är {docFree} DOC-campingplatser gratis, och på de betalda ligger den lägsta vuxenavgiften mellan {docMin} och {docMax} per natt.",
         "Holiday parks sätter egna priser, som ändras med säsong, el och platsstorlek. Kolla med parken innan du bokar."
       ],
       "faq": [
@@ -2588,7 +2588,7 @@
         ],
         [
           "Betalar barn på DOC-campingplatser?",
-          "På många DOC-campingplatser betalar barn i åldern 5 till 17 en reducerad avgift och spädbarn är gratis. Avgiften för varje campingplats står på dess DOC-sida."
+          "På många DOC-campingplatser betalar barn mellan 5 och 17 år en reducerad avgift, och småbarn bor gratis. Avgiften för varje campingplats står på dess sida hos DOC."
         ]
       ]
     },
@@ -2633,7 +2633,7 @@
       "cardEyebrow": "Planera vatten och gråvatten",
       "h1": "Räknare för vattentankarna i husbilen",
       "intro": "En tankstorlek i liter blir användbar först när den räknas om till dagar. Ange kapaciteten för färskvatten och gråvatten och antalet personer, så ser du vilken tank som sätter gränsen.",
-      "cardTitle": "Så många dagar klarar du dig off grid.",
+      "cardTitle": "Hur många dagar klarar du dig utan påfyllning?",
       "cardText": "Kapacitet i liter blir användbar först när den uttrycks i dagar. Färskvatten och gråvatten visas var för sig, eftersom den tank som tar slut först sätter gränsen.",
       "labelFresh": "Färskvatten (l)",
       "labelGrey": "Gråvatten (l)",
@@ -2649,7 +2649,7 @@
       "assumptions": [
         "11 liter färskvatten och 9 liter gråvatten per person och dag är planeringssiffror för sparsam användning: dricka, laga mat, diska och tvätta sig snabbt. Duschar använder mycket mer.",
         "Kassettoaletter och svartvatten ingår inte.",
-        "Töm gråvatten bara vid en tömningsstation. Aldrig på marken eller i en dagvattenbrunn."
+        "Töm gråvatten bara vid en tömningsstation (dump station), aldrig på marken eller i en dagvattenbrunn."
       ],
       "faq": [
         [
@@ -2658,7 +2658,7 @@
         ],
         [
           "Var kan jag tömma gråvatten i Nya Zeeland?",
-          "Vid en tömningsstation. Många holiday parks har en, och kommuner driver offentliga i många städer. Töm aldrig gråvatten på marken eller i en dagvattenbrunn."
+          "Vid en tömningsstation. Många holiday parks har en, och i många orter finns allmänna tömningsstationer som kommunen driver. Töm aldrig gråvatten på marken eller i en dagvattenbrunn."
         ],
         [
           "Vilken tank tar slut först?",

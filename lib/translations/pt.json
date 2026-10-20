@@ -5136,7 +5136,7 @@
       "openTool": "Abrir a calculadora",
       "ctaEyebrow": "Planeia na KiwiCamping",
       "ctaTitle": "Encontra as paragens e depois faz as contas.",
-      "ctaText": "A KiwiCamping é gratuita para transferir no iPhone. Os holiday parks, alojamentos e tours que se podem reservar são gratuitos na app. Os parques de campismo do DOC, os refúgios, os pontos de despejo e os guias abrem com o Pass.",
+      "ctaText": "Podes transferir a KiwiCamping gratuitamente para o iPhone. Na app, os holiday parks, os alojamentos e os tours que podes reservar são gratuitos. Os parques de campismo do DOC, os refúgios, os pontos de despejo e os guias abrem com o Pass.",
       "ctaButton": "Transferir a app",
       "enterValidValues": "Introduz valores válidos",
       "enterValidAmount": "Introduz um montante válido"
@@ -5153,7 +5153,7 @@
       "eyebrow": "Calculadora de combustível",
       "cardEyebrow": "Calculadora de combustível",
       "h1": "Calculadora de custo de combustível para uma viagem pela Nova Zelândia",
-      "intro": "Introduz a distância do percurso, o consumo do veículo com carga e o preço por litro. O preço de partida é o preço nacional de bomba do MBIE para a gasolina normal 91 na semana que terminou a 26 de julho de 2026.",
+      "intro": "Introduz a distância do percurso, o consumo do veículo com carga e o preço por litro. O preço predefinido é o preço nacional na bomba publicado pelo MBIE para a gasolina normal 91 na semana que terminou a 26 de julho de 2026.",
       "cardTitle": "Põe preço aos quilómetros.",
       "cardText": "Introduz a distância total do percurso, o consumo do veículo com carga e o preço previsto por litro. Em zonas remotas, os preços podem ser superiores aos valores de referência das cidades.",
       "labelDistance": "Distância (km)",
@@ -5166,7 +5166,7 @@
       "formulaNote": "O consumo indica-se por cada 100 quilómetros, por isso dividir por 100 converte-o em litros por quilómetro. A conta é linear: se duplicares a distância, duplicam os litros e o custo.",
       "example": "Um percurso de {distance} km numa campervan que consome {consumption} l/100 km precisa de {litres} litros de combustível. A {price} por litro, são {cost}.",
       "assumptions": [
-        "O preço de partida é uma referência nacional. Os postos de abastecimento remotos, incluindo na West Coast e em Fiordland, costumam cobrar mais, por isso atesta antes dos troços longos entre localidades.",
+        "O preço predefinido é uma referência nacional. Os postos de abastecimento remotos, incluindo na West Coast e em Fiordland, costumam cobrar mais, por isso atesta antes dos troços longos entre localidades.",
         "Usa o consumo com carga do veículo que vais mesmo conduzir. Uma campervan cheia, em subidas e com vento de frente, gasta mais do que o valor do folheto.",
         "Soma as voltas locais em redor de cada paragem. As idas ao supermercado, os miradouros e as estradas secundárias acumulam-se ao longo de um percurso comprido.",
         "Os veículos a gasóleo pagam road user charges (RUC) por cada 1.000 km, além do combustível. Esta calculadora só inclui o combustível."
@@ -5174,14 +5174,14 @@
       "faq": [
         [
           "Quanto combustível gasta uma campervan na Nova Zelândia?",
-          "Depende do veículo, da carga e das estradas. Usa o valor da empresa de aluguer ou do veículo e deixa margem para as subidas. Os 12 l/100 km de partida são um valor de planeamento para uma campervan com carga, não uma média medida."
+          "Depende do veículo, da carga e das estradas. Usa o valor da empresa de aluguer ou do veículo e deixa margem para as subidas. Os 12 l/100 km predefinidos são um valor de planeamento para uma campervan com carga, não uma média medida."
         ],
         [
           "O custo do combustível inclui as road user charges?",
           "Não. Na Nova Zelândia, os veículos a gasóleo pagam as road user charges por cada 1.000 km, à parte do combustível. Pergunta à empresa de aluguer se as RUC estão incluídas no preço e consulta a NZTA para saber os valores em vigor."
         ],
         [
-          "De onde vem o preço de partida do combustível?",
+          "De onde vem o preço predefinido do combustível?",
           "É o preço nacional de bomba do MBIE para a gasolina normal 91 na semana que terminou a 26 de julho de 2026. O MBIE publica os preços dos combustíveis todas as semanas, por isso confirma o valor mais recente antes de partires."
         ]
       ]
@@ -5197,7 +5197,7 @@
       "cardText": "As apps de navegação dão o tempo em movimento numa estrada ideal. Aqui somam-se o tipo de estrada e as paragens reais, e é aí que um dia costuma demorar mais do que o previsto.",
       "labelDistance": "Distância (km)",
       "labelRoadType": "Tipo de estrada",
-      "roadMotorway": "Autoestrada ou estrada aberta e reta",
+      "roadMotorway": "Autoestrada ou estrada reta fora das localidades",
       "roadHighway": "Estrada principal",
       "roadWinding": "Sinuosa ou costeira",
       "roadNarrow": "Estreita, íngreme ou de terra batida",
@@ -5217,7 +5217,7 @@
       "faq": [
         [
           "Quantos quilómetros consegues fazer num dia na Nova Zelândia?",
-          "Não há um número único. As estradas sinuosas, as pontes de uma via e as paragens mantêm as velocidades médias bem abaixo do limite em estrada aberta, por isso um dia que parece curto no mapa pode ocupar a maior parte da luz do dia. Introduz a distância e o tipo de estrada para ver as horas e planeia pausas regulares."
+          "Não há um número único. As estradas sinuosas, as pontes de uma via e as paragens mantêm as velocidades médias bem abaixo do limite fora das localidades, por isso um dia que parece curto no mapa pode ocupar a maior parte das horas de luz. Introduz a distância e o tipo de estrada para ver as horas e planeia pausas regulares."
         ],
         [
           "Porque é que isto dá mais tempo do que a minha app de mapas?",
@@ -5225,7 +5225,7 @@
         ],
         [
           "Funciona para uma campervan?",
-          "Sim. Escolhe um tipo de estrada mais lento se conduzires um veículo grande, se levares reboque ou se conduzir pela esquerda for novidade para ti."
+          "Sim. Escolhe um tipo de estrada mais lento se conduzires um veículo grande, se levares um atrelado ou se ainda não estiveres habituado a conduzir pela esquerda."
         ]
       ]
     },
@@ -5255,7 +5255,7 @@
       "example": "{adults} adultos que fiquem {nights} noites a {rateAdult} por adulto pagam {totalAdult}. A mesma estadia a {rateSite} por lugar custa {totalSite}, por isso {verdict}.",
       "assumptions": [
         "As crianças ficam de fora. Muitos parques de campismo do DOC cobram uma taxa reduzida dos 5 aos 17 anos e nada pelos bebés, e os holiday parks definem os seus próprios preços para crianças.",
-        "Os preços de partida são exemplos, não orçamentos. Nos dados do DOC de {docDate}, {docFree} parques de campismo do DOC são gratuitos, e a taxa mais baixa por adulto indicada nos que são pagos varia entre {docMin} e {docMax} por noite.",
+        "Os preços predefinidos são exemplos, não orçamentos. Nos dados do DOC de {docDate}, {docFree} parques de campismo do DOC são gratuitos, e a taxa mais baixa por adulto indicada nos que são pagos varia entre {docMin} e {docMax} por noite.",
         "Os holiday parks definem os seus próprios preços, que mudam com a época, a eletricidade e o tamanho do lugar. Confirma no parque antes de reservares."
       ],
       "faq": [
@@ -5314,7 +5314,7 @@
       "cardEyebrow": "Planeador de água e águas residuais",
       "h1": "Calculadora de depósitos de água para campervan",
       "intro": "A capacidade de um depósito em litros só é útil quando a traduzes em dias. Introduz a capacidade de água limpa e de águas cinzentas e o número de pessoas para ver qual dos depósitos define o teu limite.",
-      "cardTitle": "Quantos dias off grid.",
+      "cardTitle": "Quantos dias em autonomia.",
       "cardText": "A capacidade em litros só é útil quando expressa em dias. A água limpa e as águas cinzentas aparecem em separado, porque o depósito que acabar primeiro define o limite.",
       "labelFresh": "Água limpa (l)",
       "labelGrey": "Águas cinzentas (l)",
