@@ -1,4 +1,3 @@
-import { FaApple } from "react-icons/fa6";
 import facts from "@/lib/data/product-facts.json";
 import { appStoreUrl, type CtaPlacement } from "@/lib/app-store";
 import type { Article } from "@/lib/article-model";
@@ -15,8 +14,9 @@ import { ScreenshotImage } from "./site-image";
  * strings are not in a translation namespace, so localized guides keep their own download card.
  *
  * The inline block is site furniture, not article prose, so its text sits in <div>s rather than <p>s
- * (the similarity audit compares <p> paragraphs across guides) and it is never an <aside> (the
- * article body ends at the first `</div><aside>`).
+ * (the similarity audit compares <p> paragraphs across guides), it is never an <aside> (the
+ * article body ends at the first `</div><aside>`), and its button carries no inline SVG icon (the
+ * audit's `<p[^>]*>` also matches an SVG `<path>`, which would turn the CTA text into a paragraph).
  */
 export type ContextCtaVariant = "map" | "rules" | "doc" | "costs" | "roadtrip" | "holidayParks" | "comparison";
 
@@ -133,7 +133,6 @@ export function ContextCta({ variant }: { variant: ContextCtaVariant }) {
     <div className="context-cta-pass">{passLine}</div>
     <div className="context-cta-actions">
       <a className="store-button" href={appStoreUrl({ placement: "inl" })} data-cta="inl" aria-label="Download KiwiCamping on the App Store">
-        <FaApple aria-hidden="true" />
         <span>Download on the App Store</span>
       </a>
       <span className="context-cta-iphone">{iphoneLine}</span>

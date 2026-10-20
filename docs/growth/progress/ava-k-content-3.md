@@ -15,10 +15,10 @@ Main (9d0f03b) already carries almost everything, in newer fact-checked form. St
 - 4faf9c2 English: doc-campsite-rules + FAQ ($10 Campsite Pass rule), DOC bookings guide sources (+ changelog).
 - 8a416a5 ContextCta. f4d69e1 guideTitle. 3c665aa lakes on hub maps (Natural Earth lakes in /tmp/ne, script args changed).
 - da1f548 translations (sonnet draft, opus review, negation check) in 9 live locales; stamped only these units in fr, pt, da, nb, sv (de, es, it, nl have no meta file on main; the stamp script would have created full files, so it was not run there). Working files /tmp/k3.
-- content:check passes.
+- content:check passes. First full check failed similarity: the audit regex `<p[^>]*>` matched the inline button's SVG `<path>`; the inline CTA button now has no icon.
 
 ## Next
-- npm run check, handoff. Then LANE COMPLETE.
+- Handed off. npm run check passed on the final commit (946 pages exported, 504 indexable, 42/42 tests, similarity and assets pass). Lane complete.
 
 ## Blockers
 - None.
