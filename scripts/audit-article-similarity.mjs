@@ -17,6 +17,9 @@ const sources = await Promise.all((await readdir(contentDirectory)).filter((name
 const entries = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"(?:,\s*legacyPath:\s*"([^"]+)")?/g)].map((match) => ({ slug: match[1], legacyPath: match[2] })));
 const routes = entries.map((entry) => entry.legacyPath ?? `/guides/${entry.slug}`);
 
+// Every guide written, scheduled ones included (lib/publish.ts): a far-future publish day renders them
+// all, so a templated guide fails now rather than on the morning it goes live.
+process.env.BUILD_DATE = "9999-12-31";
 const { server, port } = await startProdServer({ port: 0, host: "127.0.0.1", outDir: "dist", noCompression: true, purpose: "prerender" });
 
 const plain = (value) => value.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#x27;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&#x2F;/g, "/").replace(/\s+/g, " ").trim();

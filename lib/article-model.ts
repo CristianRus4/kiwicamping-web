@@ -1,7 +1,22 @@
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
-export type ArticleSection = { heading: string; body: string[]; tips?: string[] };
+/** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
+ * and the first cell of each row is its label. Translated like the prose around it. */
+export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
+/** `cta` puts a store button under the section: comparison guides set it on the entry for KiwiCamping.
+ * `figure` is a screenshot of the app shown after the body. Never set it in an article literal: it
+ * comes from lib/screen-figures.ts, and it is not translated text (a translated page uses its own
+ * section heading as the alt). */
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean; figure?: ArticleFigure };
+/** A pre-rendered 1600x900 screenshot figure; `src` must have a lib/image-manifest.json entry. */
+export type ArticleFigure = { src: string; alt: string };
 /** `asOf` is an ISO date (YYYY-MM-DD), formatted per locale when rendered. */
 export type ArticlePriceTable = { asOf: string; note: string; rows: { label: string; nzdLow: number; nzdHigh?: number; unit?: string }[] };
+/**
+ * A dated side-by-side comparison, for the few guides that compare products or options. Text cells,
+ * no currency conversion. English-only pages use it today; it is not part of the translation
+ * contract in lib/localized.ts, so do not add one to a translated guide without extending that.
+ */
+export type ArticleComparison = { asOf: string; caption: string; note: string; rowHeader?: string; columns: string[]; rows: { label: string; cells: string[] }[] };
 export type Article = {
   slug: string; title: string; description: string; category: ArticleCategory; region: string; readTime: number;
   places: string[]; image: string; imageAlt: string; intro: string; sections: ArticleSection[];
@@ -20,9 +35,21 @@ export type Article = {
    * answer questions.
    */
   faq?: readonly (readonly [string, string])[];
-  sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable;
+  sources?: { label: string; url: string }[]; priceTable?: ArticlePriceTable; comparison?: ArticleComparison;
   /** Hand-picked related guides, by slug, shown before the scored ones (see lib/related.ts). */
   related?: string[];
+  /**
+   * New guides only: the New Zealand day (YYYY-MM-DD) the guide goes live. Until then it is absent from
+   * the whole build (lib/publish.ts). Never set it on a guide that is already live, or on a legacy one.
+   */
+  publishAt?: string;
+  /** A "best apps" or "alternatives" comparison guide: its store links carry the `listicle` placement. */
+  listicle?: boolean;
+  /**
+   * DOC data hubs this guide points readers to (English pages only): a hub kind ("camping", "huts",
+   * "freedom-camping") lists every indexable hub of that kind, a hub id ("huts/west-coast") just that one.
+   */
+  hubs?: readonly string[];
 };
 export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: number };
 
@@ -34,7 +61,7 @@ export type ArticleInput = Omit<Article, "image" | "readTime"> & { readTime?: nu
 export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { priceTable?: Article["priceTable"] }) {
   const parts = [
     input.intro,
-    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? []), ...(part.table ? [part.table.caption, ...part.table.head, ...part.table.rows.flat()] : [])]),
     ...(input.priceTable ? [input.priceTable.note, ...input.priceTable.rows.map((row) => `${row.label} ${row.unit ?? ""}`)] : []),
   ];
   const words = parts.join(" ").trim().split(/\s+/).filter(Boolean).length;

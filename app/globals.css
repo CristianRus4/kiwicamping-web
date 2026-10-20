@@ -284,14 +284,25 @@ em { color: inherit; font: inherit; font-style: normal; }
 .price-table { width: max-content; min-width: 100%; border-collapse: collapse; background: var(--paper); font-size: 11px; }
 .price-table th, .price-table td { min-width: 100px; padding: 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
 .price-table th:first-child { position: sticky; left: 0; z-index: 1; min-width: 215px; background: var(--paper); text-align: left; }
+.article-table caption { padding: 12px 14px; color: var(--muted); font-size: 13px; text-align: left; caption-side: top; }
+.article-table td { text-align: left; }
+.article-body section > .download-card-compact { margin-top: 18px; }
 .price-table thead th { background: var(--soft); color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .price-table thead th:first-child { z-index: 2; background: var(--soft); }
 .price-table tbody th strong, .price-table tbody th span { display: block; }
 .price-table tbody th span { color: var(--muted); font-weight: 500; }
 .price-table-disclaimer { margin-top: 12px; color: var(--muted) !important; font-size: 12px !important; }
+.comparison-table td { min-width: 170px; max-width: 230px; white-space: normal; text-align: left; vertical-align: top; line-height: 1.45; }
+.comparison-table th { text-align: left; }
+.comparison-table th:first-child { min-width: 140px; }
 .article-body .editorial-opening { padding: 18px 0 36px; border-top: 0; }
 .editorial-opening h2 { margin-bottom: 24px; font-size: 36px; }
 .editorial-opening blockquote { margin: 38px 0; padding: 12px 0 12px 28px; border-left: 4px solid var(--eucalyptus); color: var(--deep); font-size: clamp(27px, 3.4vw, 42px); font-weight: 720; letter-spacing: -0.015em; line-height: 1.22; }
+/* A screenshot figure inside a guide section (lib/screen-figures.ts). The image carries its own
+   gradient and shadow, so it only needs room around it. Corners match the hero image, which the
+   global `border-radius: 0 !important` reset keeps square on both sites. */
+.guide-figure { margin: 28px 0 6px; }
+.guide-figure img { display: block; width: 100%; height: auto; }
 .article-tips { margin-top: 24px; padding: 19px 22px; border-radius: 4px; background: #e7e9e4; }
 .article-tips strong { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
 .article-tips ul { margin: 9px 0 0; padding-left: 18px; }
@@ -314,6 +325,22 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-end-cta h2 { margin: 7px 0; font-size: 28px; }
 .article-end-cta p { margin-bottom: 0; }
 .article-end-cta .store-button { min-width: 205px; }
+/* In-article App Store calls to action (components/context-cta.tsx). */
+.article-body .context-cta { margin: 30px 0 4px; padding: 22px 24px; border-left: 4px solid var(--eucalyptus); border-radius: 6px; background: #e2e5df; }
+.context-cta h3 { margin: 6px 0 8px; font-size: 22px; line-height: 1.2; }
+.context-cta-body { margin: 0 0 10px; font-size: 15px; line-height: 1.55; }
+.context-cta-pass, .context-cta-iphone { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.context-cta-actions { margin-top: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.context-cta-actions .store-button { min-width: 230px; }
+.context-end-shot { flex: none; width: 140px; height: 290px; }
+.context-end-shot > img { height: 100%; }
+.context-end-copy { flex: 1; }
+.article-end-cta .context-end-copy p { margin-bottom: 8px; }
+.article-end-cta .download-card:not(.download-card-compact) { width: 170px; }
+.article-end-cta .qr-image { width: 170px; height: 170px; }
+/* The app runs only on iPhone. iOS WebKit is the only engine that supports -webkit-touch-callout,
+   so iOS visitors do not see the "iPhone only" line. */
+@supports (-webkit-touch-callout: none) { .context-cta-iphone { display: none; } }
 .related-section { padding: 95px max(32px, calc((100% - 1120px) / 2)); background: #e7e8e4; }
 .related-section h2 { font-size: 44px; letter-spacing: -0.02em; }
 
@@ -403,7 +430,8 @@ em { color: inherit; font: inherit; font-style: normal; }
   .download-section { grid-template-columns: 1fr; }
   .download-image { min-height: 620px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
-  .article-layout { grid-template-columns: 1fr; padding-inline: 15px; }
+  /* minmax(0, …), as on desktop: a bare 1fr lets a wide table stretch the column past a phone screen. */
+  .article-layout { grid-template-columns: minmax(0, 1fr); padding-inline: 15px; }
   .article-layout aside { display: none; }
   .article-hero-image { height: 450px; }
   .support-group { grid-template-columns: 1fr; }
@@ -463,12 +491,17 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-header > p { font-size: 17px; }
   .article-header > div { flex-direction: column; align-items: center; gap: 5px; }
   .article-hero-image { height: 310px; border-radius: 6px; }
+  .guide-figure { margin-top: 22px; }
   .article-layout { padding-top: 50px; }
   .article-intro { font-size: 22px; }
   .article-body section { padding-left: 34px; }
   .article-body h2 { font-size: 27px; }
   .article-end-cta { align-items: flex-start; flex-direction: column; }
   .article-end-cta .download-card, .article-end-cta .store-button { width: 100%; }
+  .context-end-shot { width: 120px; height: 250px; }
+  .article-end-cta .qr-image { display: none; }
+  .article-end-cta .download-card:not(.download-card-compact) { width: 100%; }
+  .context-cta-actions .store-button { width: 100%; }
   .related-section { padding: 70px 18px; }
   .support-shell { padding: 55px 18px 85px; }
   .contact-panel { grid-template-columns: 1fr; padding: 28px; }
@@ -534,7 +567,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-card { background: #191d17; }
   .article-card p, .article-body p { color: #b7beb3; }
   .article-intro { color: #dce1d8; }
-  .article-tips, .place-chips span, .article-end-cta { background: #252b22; }
+  .article-tips, .place-chips span, .article-end-cta, .article-body .context-cta { background: #252b22; }
   .editorial-opening blockquote { color: #eef1ea; }
   .article-side-card, .contact-panel { background: #0d130b; }
   .related-section { background: #171a16; }
@@ -581,6 +614,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hub-map svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border: 1px solid var(--line); }
 .hub-map-sea { fill: var(--soft); }
 .hub-map-land { fill: var(--paper); stroke: var(--line); stroke-width: 1; }
+.hub-map-lake { fill: var(--soft); stroke: var(--line); stroke-width: .6; }
 .hub-map-dot { fill: var(--fern); fill-opacity: .82; stroke: var(--paper); stroke-width: 1; }
 .hub-map figcaption { margin-top: 8px; color: var(--muted); font-size: 12px; }
 .hub-facts th { font-weight: 600; }
@@ -604,3 +638,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .hub-places tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
   .hub-places th, .hub-places td { display: block; padding: 3px 14px; border: 0; }
 }
+.guide-hubs .hub-directory { margin-top: 18px; }
+.guide-hubs .hub-directory h3 { margin: 0 0 4px; font-size: 18px; }
+.guide-hubs .hub-directory h3 a { color: var(--fern); }
+.guide-hubs .hub-directory ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); column-gap: 28px; margin: 0; }

@@ -35,7 +35,7 @@ export function GET() {
 **Offline place directory.** 6,500+ places ship inside the app: DOC campsites, backcountry huts,
 holiday parks and other bookable stays, freedom camping areas, public dump stations and day-use
 places. Names, categories, descriptions, fees, facilities, opening hours and conditions stay
-readable well beyond mobile signal. Live services (weather, routing, Street View, photos, provider
+readable well beyond mobile signal. Live services (weather, routing, Look Around imagery, photos, provider
 pages) still need a connection.
 
 **Trip planner.** The app's main feature. Add saved places as stops, drag them into order, attach a
@@ -52,8 +52,8 @@ access features, combinable in one query, for example "free camping areas with t
 water near Queenstown".
 
 **Place details.** Photos, description, opening hours, fees, terms and conditions, facilities
-grouped by type, current alerts, ratings, contact and booking details, weather, Street View (Apple
-Look Around imagery) where coverage exists, directions, and nearby alternatives.
+grouped by type, current alerts, ratings, contact and booking details, weather, Apple Look Around
+street-level imagery where coverage exists, directions, and nearby alternatives.
 
 **Maps.** A standard map and a satellite view built on Apple's flyover imagery that tilts and
 rotates into real 3D terrain. Pins group into counts when zoomed out. There is no traffic layer.
