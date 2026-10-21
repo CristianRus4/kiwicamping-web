@@ -535,6 +535,7 @@ for (const [slug, district] of Object.entries(freedomDistricts)) {
   const order = { prohibited: 0, restricted: 1, freedom: 2 };
   const listed = [...list].sort((a, b) => order[a.rawType] - order[b.rawType] || a.name.localeCompare(b.name, "en-NZ")).slice(0, MAX_LISTED);
   const largest = [...list].sort((a, b) => b.areaHa - a.areaHa || a.name.localeCompare(b.name, "en-NZ"))[0];
+  const smallest = [...list].filter((notice) => notice.areaHa).sort((a, b) => a.areaHa - b.areaHa || a.name.localeCompare(b.name, "en-NZ"))[0];
   const hectares = (rows) => { const total = rows.reduce((sum, notice) => sum + notice.areaHa, 0); return total ? `${(Math.round(total * 10) / 10).toLocaleString("en-NZ")} ha` : null; };
   const numbers = list.map((notice) => notice.noticeNumber).filter(Number.isInteger).sort((a, b) => a - b);
   const withCondition = (text) => list.filter((notice) => notice.conditions.includes(text)).length;
@@ -551,6 +552,7 @@ for (const [slug, district] of Object.entries(freedomDistricts)) {
     fact("prohibitedArea", "Area where camping is prohibited", hectares(list.filter((notice) => notice.rawType === "prohibited"))),
     fact("restrictedArea", "Area where camping is restricted", hectares(list.filter((notice) => notice.rawType === "restricted"))),
     fact("largest", "Largest notice area", largest.areaHa ? `${largest.name} (${largest.areaHa.toLocaleString("en-NZ")} ha)` : null),
+    fact("smallest", "Smallest notice area", list.length > 1 && smallest && smallest !== largest ? `${smallest.name} (${smallest.areaHa.toLocaleString("en-NZ")} ha)` : null),
     fact("totalArea", "Area covered by current notices", hectares(list)),
     fact("parcels", "Distinct conservation land parcels (NaPALIS)", new Set(list.map((notice) => notice.napalisId).filter(Boolean)).size),
     fact("noticeNumbers", "DOC notice numbers", numbers.length ? (numbers[0] === numbers.at(-1) ? `${numbers[0]}` : `${numbers[0]} to ${numbers.at(-1)}`) : null),
