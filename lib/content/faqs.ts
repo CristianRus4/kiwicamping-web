@@ -438,4 +438,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How do you get between Brown Hut and Kōhaihai?", "The Heaphy is not a circuit, and DOC's brochure says the two ends are 463 km apart by road. DOC says bus, taxi, vehicle relocation and air services are available from both ends, but its page does not name the operators, so check current ones before you book."],
     ["How much does a Heaphy Track campsite cost?", "From 1 October to 30 April it is $19 per adult per night for New Zealanders and $28 for international visitors. From 1 May to 30 September DOC lists $19 for everyone."],
   ],
+  "lake-waikaremoana-great-walk-camping-2026-27": [
+    ["How much does it cost to stay on the Lake Waikaremoana Great Walk?", "DOC lists the same rates all year: $35 a night in a hut and $19 a night at a campsite for each adult, with $18 and $9 for children. New Zealanders and international visitors pay the same, and there is no fee to enter Te Urewera."],
+    ["How long is the Lake Waikaremoana Great Walk and where do you stay?", "DOC gives 46 km one way and 3 to 4 days. There are four huts, Panekire, Waiopaoa, Marauiti and Waiharuru, and DOC's page says five campsites but names four: Waiopaoa, Korokoro, Maraunui and Waiharuru."],
+    ["Do I need to book the huts and campsites at Lake Waikaremoana?", "Yes. DOC requires advance bookings for the huts and campsites, and they can be made at any time of year. Turning up without one risks a penalty fee, or a refusal if the site is full."],
+    ["Can I drive to Onepoto and Hopuruahine in a 2WD car?", "Onepoto is about 20 minutes from Te Karetu, but DOC says the Hopuruahine road is currently unsuitable for 2WD, which can cut off the landing car park. DOC also advises a 4WD or SUV for the long gravel stretch of SH38 from Murupara to Tuai."],
+  ],
 };

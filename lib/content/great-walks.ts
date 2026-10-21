@@ -677,4 +677,87 @@ export const greatWalksArticles: Article[] = [
       { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+  a({
+    slug: "lake-waikaremoana-great-walk-camping-2026-27",
+    publishAt: "2026-12-12",
+    title: "Lake Waikaremoana Great Walk 2026/27: Huts, Campsites, Booking and Fees",
+    description: "Lake Waikaremoana Great Walk for 2026/27: the 46 km track, four huts and the four campsites DOC names, the $35 hut and $19 campsite fees for everyone, booking all year, no dogs, the gravel road in and the Tūhoe water taxi.",
+    category: "Camping guides",
+    region: "East Coast",
+    places: ["Onepoto", "Panekire Hut", "Waiopaoa", "Marauiti Hut", "Waiharuru", "Hopuruahine"],
+    imageAlt: "Lake Waikaremoana seen from high above its shore, with forested ridges and a forested peninsula reaching into calm blue water under a partly cloudy sky",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-huts-new-zealand-guide", "doc-hut-rules-etiquette", "doc-campsite-rules"],
+    hubs: ["huts/east-coast", "camping/east-coast"],
+    intro:
+      "The Lake Waikaremoana Great Walk is 46 km one way and takes 3 to 4 days, with four huts, the campsites DOC names at Waiopaoa, Korokoro, Maraunui and Waiharuru, and bookings required in advance all year. DOC charges $35 a night in a hut and $19 at a campsite per adult, the same for New Zealanders and international visitors, all year round, and no dogs are allowed on the track. DOC opened 2026/27 bookings on Wednesday 20 May 2026, lists Whanganui Hut as closed, and says the Hopuruahine road is not suitable for 2WD vehicles.",
+    sections: [
+      s("The track: 46 km one way, 3 to 4 days", [
+        "DOC calls Lake Waikaremoana a Great Walk that is more of a backcountry, off the beaten track experience: 46 km one way, 3 to 4 days, graded as an intermediate tramping track. It is not a circuit, so you walk from Onepoto in the south to Hopuruahine in the north or the other way round, and DOC describes it from Onepoto. Its suggested 3 night, 4 day trip sleeps at Panekire Hut, Waiopaoa Hut and Marauiti Hut and finishes at Hopuruahine. DOC's section distances add up to about 44 km, while the Te Urewera website gives rounded distances that add up to 46 km, so treat the headline figure as approximate.",
+        "DOC calls the first section from Onepoto, 8.8 km up to Panekire Hut in 4 to 6 hours, the most strenuous part of the trip. The track climbs through the former Armed Constabulary Redoubt to the top of Panekire Bluff, then follows the ridgeline past Puketapu Trig (1180 metres), and DOC says to expect about 600 m of climbing and descending over the Panekire Ridge. DOC says to plan on 4 to 6 hours of walking a day with a pack of up to 15 kg, and that the track is not recommended for children under 10 because of the exposed mountainous environment and often adverse weather. Guided options are available, according to DOC.",
+      ], ["46 km one way, not a circuit", "Day 1 from Onepoto is the hardest", "Not recommended for children under 10"], {
+        caption: "Distances and times from DOC's Lake Waikaremoana Great Walk page, read 21 October 2026. Whanganui Hut is closed and is not on this list.",
+        head: ["Section", "Distance", "DOC's time", "Where you can stay"],
+        rows: [
+          ["Onepoto to Panekire Hut", "8.8 km", "4 to 6 hours", "Panekire Hut"],
+          ["Panekire Hut to Waiopaoa Hut", "7.6 km", "3 to 4 hours", "Waiopaoa Hut and Waiopaoa Campsite"],
+          ["Waiopaoa Hut to Korokoro Campsite", "3.6 km", "1 hour 30 minutes", "Korokoro Campsite (Korokoro Falls is 1 hour return)"],
+          ["Korokoro Campsite to Maraunui Campsite", "6.8 km", "2 hours 30 minutes", "Maraunui Campsite"],
+          ["Maraunui Campsite to Marauiti Hut", "1.7 km", "30 minutes", "Marauiti Hut"],
+          ["Marauiti Hut to Waiharuru Hut", "6.2 km", "2 hours", "Waiharuru Hut and Waiharuru Campsite"],
+          ["Waiharuru Hut to Hopuruahine Landing", "9.5 km", "4 hours 30 minutes", "None, this is the northern end"],
+        ],
+      }),
+      s("Huts and the campsites DOC names", [
+        "DOC says there are four huts and five campsites on Lake Waikaremoana and that these must be booked in advance. The huts are Panekire (36 bunk beds), Waiopaoa (28) and Marauiti (26), plus Waiharuru, for which DOC's page gives no bunk count. DOC lists heating, mattresses, non-flush toilets and untreated tap water to boil before use at the three huts with a count, and notes that Panekire's tank can run low in summer. DOC's page says Whanganui Hut is closed, so it is not one of the four. The campsites DOC's text names are Waiopaoa, Korokoro, Maraunui and Waiharuru. That is four, not the five its count claims, and the page names no fifth, so check the booking system's list when you book.",
+        "DOC says the huts have no gas cooking facilities, lighting or toilet paper, so carry a portable stove and fuel, candles and toilet paper, and that some provisions are sold at the Lake Waikaremoana Holiday Park store. You cannot buy food on the track, and DOC does not provide emergency food in huts, so carry spare. DOC's gear list asks for a 3 to 4 season sleeping bag and warns that although the hut pages list heating, the bunkrooms do not have heating and can be cold, so pack warm clothes to sleep in. Camping on the track is only permitted at the designated campsites, which DOC says includes the lakeshore. DOC's page says Tūhoe wardens are stationed at major Great Walk huts in peak season.",
+      ], ["Four huts: Panekire, Waiopaoa, Marauiti, Waiharuru", "DOC says five campsites but names four", "No stove, lights or toilet paper in the huts"]),
+      s("Booking, fees and how to pay", [
+        "DOC says huts and campsites on the track can be booked all year, that bookings are open for the 2026/27 season, and that you pay your fees by booking before you start. DOC's text says bookings are required for children and youth and calls staying free for them, although its fee table lists $18 and $9 for children, so check the price when you book. Campsite bookings ask for the number of people and the number of tent sites. Without a valid booking you may be charged a penalty, or turned away if the hut or campsite is full. DOC's 26 March 2026 release opened Lake Waikaremoana bookings at 9:30 am on Wednesday 20 May 2026 for stays from 1 July 2026 to 30 June 2027, and it names the walk as one that often has space available. DOC has not published 2027/28 opening dates on the pages read.",
+        "The fees are the same for New Zealanders and international visitors, and DOC says they apply all year. A hut night is $35 and a campsite night is $19 per adult, with $18 and $9 for children. DOC says there is no fee to enter Te Urewera or to do a day walk on the track. The New Zealand infant rate for ages 0 to 4 is free, and a footnote on DOC's pricing page says international children aged 0 to 4 are free on this track. Transport is not part of the booking: DOC says the walk is one-way with the ends of the track around 30 km apart, and that you need to book transport to the start and from the end of the track.",
+      ], ["One fee for New Zealanders and visitors", "Book huts and campsites before you start", "Book transport separately"], {
+        caption: "Per person per night, NZ dollars including GST, from DOC's Lake Waikaremoana Great Walk page and Great Walks pricing page, read 21 October 2026. DOC lists the same rates all year.",
+        head: ["Who", "Hut night", "Campsite night"],
+        rows: [
+          ["Adult, New Zealand (18+)", "$35", "$19"],
+          ["Adult, international (18+)", "$35", "$19"],
+          ["Child, New Zealand (5 to 17)", "$18", "$9"],
+          ["Child, international (0 to 17)", "$18", "$9"],
+          ["Infant, New Zealand (0 to 4)", "Free", "Free"],
+        ],
+      }),
+      s("Te Urewera, tikanga and the rules on the track", [
+        "DOC says Te Urewera is recognised in New Zealand law as a living person, is spoken for and governed by a board, and that care for Te Urewera, including the tracks and facilities, is carried out by Te Uru Taumatua, Ngāi Tūhoe's operational entity. DOC describes the walk as passing through the home and ancestor of the Tūhoe people and asks all manuhiri (visitors) to respect the tikanga of the lake and follow the Care for Nature (Manaakitanga Te Urewera) principles. If you are unsure how best to respect Te Urewera, DOC suggests calling in at the Te Urewera Visitor Centre at Te Kura Whenua and speaking to the team there.",
+        "DOC's page says no dogs or other domestic animals are permitted on the track, to protect ground-dwelling birds. There are no rubbish facilities, so take everything you bring in out again. Fires can be used for cooking or warmth unless a temporary fire ban applies, and DOC says a portable stove is a better option. Hunting is by permit only. DOC says the lake lies between 600 and 1200 m, and that cold, snow, strong wind and heavy rain can occur at any time of year, including summer, so call in at the visitor centre for weather and track conditions, fill in hut books as you go and carry a distress beacon.",
+      ], ["No dogs or other domestic animals", "Pack in, pack out: no rubbish facilities", "Snow and heavy rain are possible in summer"]),
+      s("Getting to Onepoto and Hopuruahine", [
+        "DOC says Waikaremoana is approached on State Highway 38, which runs from Waiotapu in the north to Wairoa, and passes Te Karetu, where the Te Urewera Visitor Centre (6249 Lake Road, SH38) and the Waikaremoana Holiday Park are. The highway is gravel for about 90 km between Murupara and Tuai, which DOC says may be difficult for lower vehicles, and it recommends a 4WD or SUV. Onepoto is about 20 minutes' drive from Te Karetu. Hopuruahine is about half an hour away, and DOC says the Hopuruahine road is not currently suitable for 2WD vehicles, which may affect access to the landing car park 2 km off the main road. The Holiday Park page gives 57 km and about one hour from Wairoa, and 163 km and about 3 hours from Rotorua on the Te Urewera Rainforest Route.",
+        "The Ngāi Tūhoe alerts page, read on 21 October 2026, carried notices of road repair works on SH38 around Ruātahuna and Lake Waikaremoana in April 2026 and of daytime closures between the Holiday Park and Tuai, with no detours, running from 2 March to 5 June 2026. The Te Urewera safety page listed no current alerts, and NZTA's journey planner page for SH38 did not load for scripts, so check NZTA before you drive. On parking, DOC says it can be very busy in summer and is at the owner's risk. Spaces are at Onepoto, at Hopuruahine Landing and by the lakeside near the Holiday Park entrance, where parking is free for up to 10 days. The visitor centre has day-time parking only and no multi-day parking.",
+      ], ["SH38 is gravel for about 90 km", "Hopuruahine road: not suitable for 2WD, per DOC", "Visitor centre: no multi-day parking"]),
+      s("Water taxi, shuttles and the Whananui drop-off", [
+        "DOC says Tūhoe offers a water taxi to and from each end of the Great Walk, and to individual huts and campsites around the lake, out of Te Urewera Visitor Centre at Te Kura Whenua. It is usually available from October to April and not in winter, and DOC says to book early and to check Ngāi Tūhoe's website or phone +64 6 837 3803. The Te Urewera website names Waiwai Xpres as the water taxi, calls it the only licensed service, and says it also offers pack transfers. It names Tira 38 as a shuttle connecting Rotorua, Gisborne, Wairoa and Te Urewera, with scheduled and private transfers.",
+        "The Te Urewera website says the water taxi stops at Whananui, which is 5 km short of Hopuruahine. To walk the whole 46 km, it says to book a land taxi to or from Hopuruahine Landing Road, and if you are happy to skip the final 5 km, the water taxi will do. Its own distances give Waiharuru to Whananui as 6 km and 2 hours 30 minutes, and Whananui to Hopuruahine as 5 km and 1 hour 40 minutes. This page gives no water taxi or shuttle prices or timetables, because none were readable on the pages used: the Waiwai Xpres booking site blocked script access, so ask the operators or the visitor centre.",
+      ], ["Water taxi usually runs October to April", "Whananui is 5 km short of Hopuruahine", "Prices and timetables: ask the operators"]),
+      s("Camping near the lake: the Holiday Park, Te Taita a Makoro and Wairoa", [
+        "DOC says you can stay at the nearby Waikaremoana Holiday Park before or after the walk. Its DOC page lists 26 non-powered or tent sites, 32 powered sites, chalets, lakeside cabins, tourist flats, a bunkhouse and a family whare, with a kitchen and dining room, a shop with snacks and ice, and petrol and diesel. DOC says bookings are required, the DOC Campsite Pass cannot be used there, and no pets are allowed. It is 9.3 km from Onepoto, a 25 to 40 minute drive on a gravel road, and the page says Wairoa, one hour away, has supermarkets, with fuel also at Ruatahuna. DOC says mobile coverage is poor at the park, with wifi at the shop and the visitor centre.",
+        "Another option in the Wairoa i-SITE's listings is Te Taita a Makoro DOC Campsite, a basic campsite of 10 non-powered sites 4 km north of the lake beside SH38, with no booking and stays of up to 3 nights, on a gravel, narrow and winding access. Wairoa District Council's freedom camping page says self-contained camping is permitted on council land unless it is prohibited, and that a tent or a vehicle that is not certified self-contained may camp only in the restricted areas, Clyde Court in Wairoa and Oraka on the Mahia Peninsula. The pages read named no camping at Tuai, and the council page carried a boil water notice for the Tuai water scheme when read.",
+      ], ["Holiday Park: 26 tent sites, 32 powered", "Te Taita a Makoro: up to 3 nights, no booking", "Wairoa is about 1 hour away"]),
+      s("Using KiwiCamping at Lake Waikaremoana", [
+        "In KiwiCamping's DOC data (11 August 2026) the East Coast region holds 38 huts and 14 campsites, among them the Panekire, Waiopaoa, Marauiti and Waiharuru huts and the serviced Waikaremoana Holiday Park. Every entry carries DOC's fee notes and facilities and a link back to DOC's page, and Waiharuru, at 40 bunks, is the biggest hut listed for the region. A seven-day forecast sits on each place page, handy on a lake where DOC warns of snow and heavy rain in any season. Reception around the lake is poor, per DOC, so look up the details and guides you need before you leave Wairoa: those stay readable on the phone, while map tiles, routing, weather and photos have to load over a connection.",
+        "Build a trip from the nights you have booked: the huts or campsites on the track, a Holiday Park or Wairoa night either side, and the water taxi or shuttle day. Drag the stops into order, give each a date, and put every booking reference in a note, and the app shows the distance of each leg, including the gravel run in along SH38. Hut and campsite reservations are made with DOC and water taxi seats with the operator, never inside KiwiCamping. Free to download, with in-app purchases.",
+      ], ["Save each night with its booking reference", "Check the forecast at each stop", "Book with DOC and the operators, not in the app"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Lake Waikaremoana Great Walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/things-to-do/tracks/lake-waikaremoana-great-walk/" },
+      { label: "DOC: Lake Waikaremoana area", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/lake-waikaremoana-area/" },
+      { label: "DOC: Waikaremoana Holiday Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/things-to-do/campsites/waikaremoana-holiday-park/" },
+      { label: "DOC: Te Urewera Visitor Centre at Te Kura Whenua", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/te-urewera-visitor-centre-at-te-kura-whenua/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "Te Urewera: Waikaremoana Great Walk, water taxi and shuttles", url: "https://teurewera.iwi.nz/connection/enjoy-te-urewera/" },
+      { label: "Te Urewera: be safe and current alerts", url: "https://teurewera.iwi.nz/connection/be-safe/" },
+      { label: "Ngāi Tūhoe: alerts and important information", url: "http://www.ngaituhoe.iwi.nz/alerts-and-important-information" },
+      { label: "Wairoa i-SITE: Te Taita a Makoro DOC Campsite", url: "https://www.visitwairoa.co.nz/freedom-camping/te-taita-a-makoro-doc-campsite/" },
+      { label: "Wairoa District Council: freedom camping", url: "https://wairoadc.govt.nz/our-district/freedom-camping" },
+    ],
+  }),
 ];
