@@ -65,7 +65,7 @@ export const costsWhvArticlesA: Article[] = [
         "The same arithmetic applies to any company once you have a quote: the daily rate plus the daily cover, times the days, then the one-way fee, location fee, ferry and fuel.",
       ], ["Rate plus daily cover, times days","Add one-way, location and ferry fees","Not self-contained means campgrounds"]),
       s("Plan the hire around the route in KiwiCamping", [
-        `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026), with fees and facilities from DOC's own pages. You can save places, build a trip with ordered stops and read the distance and drive time between them, so you can see how many kilometres and nights a route needs before you pick a van size and hire length. Place details are stored on the phone, so they stay readable out of signal; the map, routing, weather and photos need a connection. KiwiCamping is free to download, with in-app purchases.`,
+        `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026), with fees and facilities from DOC's own pages. You can save places, build a trip with ordered stops and read the distance and drive time between them, so you can see how many kilometres and nights a route needs before you pick a van size and hire length. Its place details sit on your phone and open without signal, while map tiles, routing, weather and photos need coverage. KiwiCamping is free to download, with in-app purchases.`,
         "The app does not show hire prices. Use the rental company's site for the quote, and use the app to decide what the route needs.",
       ], ["Count the nights the route needs","Save campsites for each stop","Price the hire after you have the route"], undefined, true),
     ],
@@ -134,7 +134,7 @@ export const costsWhvArticlesA: Article[] = [
         "Search the same make and year on Trade Me and Backpacker Board on the day you buy, compare at least five listings, and treat asking prices as the start of a negotiation, not a sale price. Travellers Autobarn's NZ page quotes buy-back figures that do not agree with each other (50% in the text, 40% in an example), so get any buy-back schedule in writing.",
       ], ["Compare at least five listings","Asking price is not sale price","Buy-back terms in writing"]),
       s("Check the van and the route in KiwiCamping", [
-        `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026). Once you own a van, you can search by place, filter by facilities and cost, save the places you want and build a trip with ordered stops, distances and drive times. Place details are stored on the phone, so they stay readable out of signal; the map, routing, weather and photos need a connection. KiwiCamping is free to download, with in-app purchases.`,
+        `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026). Once you own a van, you can search by place, filter by facilities and cost, save the places you want and build a trip with ordered stops, distances and drive times. Saved places and their details still open in a dead zone; only the map tiles, routing, weather and photos wait for reception. KiwiCamping is free to download, with in-app purchases.`,
         "The app does not check a vehicle. Use the checks above for the van and the app for where to sleep in it.",
       ], ["Filter for facilities your van lacks","Save the stops for the first week","Check the DOC page for fees"], undefined, true),
     ],
@@ -195,14 +195,14 @@ export const costsWhvArticlesA: Article[] = [
         "A buyer who wants the warrant will check the register entry against the plate, so keep the paperwork with the van.",
       ], ["Note the warrant expiry","Do not call a blue sticker valid","Keep the certificate with the van"]),
       s("Plan the last weeks with KiwiCamping", [
-        `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026). Plan the last leg of your trip back to the city where you will sell, save the stops, and check each stop's fee and facilities before you drive there. Place details are stored on the phone, so they stay readable out of signal; the map, routing, weather and photos need a connection. KiwiCamping is free to download, with in-app purchases.`,
+        `Its bundled data, dated 24 August 2026, covers 927 DOC huts and 287 DOC campsites. Plan the last leg of your trip back to the city where you will sell, save the stops, and check each stop's fee and facilities before you drive there. Out of coverage you can still read every place page, though the map, directions, forecasts and photos load only with a connection. KiwiCamping is free to download, with in-app purchases.`,
         "Leave days at the end for the sale, the paperwork and a clean-out, and do not book your flight for the day after your last night in the van.",
       ], ["Finish the trip near where you sell","Leave days for paperwork","Empty the tanks before handover"], undefined, true),
     ],
     faq: [
-      ["How do I tell NZTA I sold my campervan?", "Record the sale online at the time of sale, which is free. You need your New Zealand driver licence and the buyer's full name and address. If you are a company or have no New Zealand licence, contact NZTA on 0800 108 809."],
+      ["How do I tell NZTA I sold my campervan?", "Record the sale online at the time of sale, which is free. Have your NZ driver licence ready, along with the buyer's full name and address. If you are a company or have no New Zealand licence, contact NZTA on 0800 108 809."],
       ["Do I get a rego refund when I sell my campervan in NZ?", "NZTA says it refunds unexpired licence fees only if you cancel the registration and hand in the plates, and the admin fee is not refundable. A plain sale does not trigger a refund, so price the remaining rego into the sale."],
-      ["What happens to the road user charges when I sell a diesel van?", "RUC licences belong to the vehicle, so unused RUC passes to the buyer. NZTA allows a refund of at least $20 if the vehicle is sold, scrapped or exported, claimed within 2 years of the licence issue date, and it does not mediate between buyer and seller."],
+      ["What happens to the road user charges when I sell a diesel van?", "Any unused road user charges stay with the vehicle and go to the buyer. NZTA allows a refund of at least $20 if the vehicle is sold, scrapped or exported, claimed within 2 years of the licence issue date, and it does not mediate between buyer and seller."],
       ["Where can I sell a campervan in New Zealand?", "Backpacker Board and Trade Me carry campervan listings, and dealers such as Travellers Autobarn sell their own vans. Compare live asking prices on the day you list, and get any buy-back terms in writing."],
     ],
     sources: [
