@@ -902,7 +902,7 @@ export const listicleArticles: Article[] = [
           ["KiwiCamping", "Nothing itself: shows Book now links for BookIt stays and bookable DOC places", "Free to download, with in-app purchases", "3.8 (4)"],
           ["DOC booking system", "DOC campsites, huts and Great Walks", "Website; no booking app found", "Not applicable"],
           ["TOP 10 Holiday Parks", "Its 52 holiday parks", "App free; membership card NZ$55 for 2 years", "No NZ ratings yet"],
-          ["Campable", "Private land stays for self-contained vans", "App free; no guest booking fee", "4.5 (13)"],
+          ["Campable", "Private land stays set by local hosts", "App free; no guest booking fee", "4.5 (13)"],
           ["CamperMate", "Campsites, holiday parks and experiences", "Free; contains ads", "4.4 (606)"],
           ["Rankers Camping NZ", "Around 500 bookable campgrounds", "Free", "4.7 (3,322)"],
           ["WikiCamps New Zealand", "More than 1,000 sites in the app", "NZ$7.99 once", "4.5 (137)"],
@@ -914,30 +914,30 @@ export const listicleArticles: Article[] = [
         "It is iPhone only (iOS 26 or later) and has 4 New Zealand ratings, averaging 3.8.",
       ], ["Choose it for: seeing what is bookable", "Links out to book", "iPhone only; no live availability"], undefined, true),
       s("2. The DOC booking system: best for huts, Great Walks and DOC campsites", [
-        "DOC's booking website covers Great Walks, huts, campsites and lodges, cabins and cottages, and DOC says not all facilities can be booked. Bookings are first come, first served, with no waiting lists for full facilities, and they are open for stays up to 30 June 2027. Great Walk bookings for 2026/27 opened on 12 May 2026 and DOC's upgraded system includes a virtual queue.",
+        "DOC's booking website covers Great Walks, huts, campsites and lodges, cabins and cottages, and DOC says not all facilities can be booked. Bookings are first come, first served, with no waiting lists for full facilities, and they are open for stays up to 30 June 2027. Great Walk bookings for 2026/27 opened in stages from 12 May 2026, and DOC's upgraded system includes a virtual queue.",
         "Campsite bookings are required for all serviced campsites and some scenic and standard campsites in the peak season, usually 1 October to 30 April. Other campsites are first come, first served, paid at the self-registration stand, and you pay for a bookable campsite or hut when you book. From 1 November 2026, hut tickets for non-bookable backcountry huts will be sold through the booking system too.",
         "DOC's terms add a cancellation fee that rises as the date gets closer, up to the full amount in the last day. DOC also sells a Backcountry Hut Pass and a Campsite Pass, and a bookable campsite still needs a booking even with a pass. We found no DOC app for bookings, so this is a website.",
       ], ["Choose it for: DOC huts and Great Walks", "Pay when you book", "Website only; cancellation fees rise near the date"]),
-      s("3. Holiday park chains: best for a guaranteed powered site", [
+      s("3. Holiday park chains: best for powered sites and facilities", [
         "TOP 10 Holiday Parks runs 52 parks in New Zealand and takes bookings on its website. Its membership card costs NZ$55 for 2 years and saves 10% on accommodation at all its parks, with terms. The free TOP 10 app holds the digital membership card and lets you view and manage bookings, but it has no New Zealand ratings yet, and its listing does not say you can make a new booking in it.",
-        "Holiday Parks New Zealand, the industry association, lists 230 member parks with a search and a near-me tool but no booking flow or app. Each chain books separately, and our camping fees guide covers what parks charge.",
+        "Holiday Parks New Zealand, the industry association, lists 230 member parks with a search and a near-me tool but no booking flow or app. Each chain takes its own bookings, and our camping fees guide covers what parks charge.",
       ], ["Choose it for: powered sites in peak summer", "TOP 10 card NZ$55 for 2 years", "Each chain books separately"]),
       s("4. Campable: best for private land stays", [
-        "Campable lists farms, vineyards, orchards, sports clubs and resorts whose hosts open a patch to self-contained vans, with some places confirming straight away and others asking the host first. It says it charges no guest booking fees, charges your card 14 days before the stay, and refunds in full if you cancel 6 or more days out (less the card fee), with 50% back for 1 to 5 days and none on the day.",
-        "Its app is free, rated 4.5 from 13 New Zealand ratings on the App Store, while Google Play shows 2.6 from 57, so check recent reviews. Only certified self-contained vehicles with a current green self-containment warrant are accepted, its coverage is host-driven, and you need a connection to book.",
-      ], ["Choose it for: quiet private stays", "Green warrant required", "Few ratings; Android lower"]),
+        "Campable lists farms, vineyards, orchards, sports clubs and resorts whose hosts open a patch to self-contained vans, with some places confirming straight away and others asking the host first. It says it charges no guest booking fees, and for Instant Book stays made more than 14 days ahead it charges your card 14 days before the stay. It refunds in full if you cancel 6 or more days out (less the card fee), with 50% back for 1 to 5 days and none on the day, and its peak-season terms from 20 December to 15 January and on public holiday weekends are stricter.",
+        "Its app is free, rated 4.5 from 13 New Zealand ratings on the App Store, while Google Play shows 2.6 from 57, so check recent reviews. Each host sets the vehicle rules, from certified self-contained vehicles only to portable toilets or tents, its coverage is host-driven, and you need a connection to book.",
+      ], ["Choose it for: quiet private stays", "Hosts set vehicle rules", "Few ratings; Android lower"]),
       s("5. CamperMate: best free all-rounder with bookings", [
         "CamperMate is free, covers New Zealand and Australia, and its listing says you can check availability and make secure bookings, with campsites, holiday parks and experiences. You can download maps and place information to use without signal.",
-        "It carries ads and rated 4.4 from 606 New Zealand ratings. Its pages do not name the company that handles the bookings, so read the booking terms before you pay.",
+        "It carries ads and rated 4.4 from 606 New Zealand ratings. Its booking links go to a BookIt NZ page on campermate.com, so read the booking terms before you pay.",
       ], ["Choose it for: free bookings and listings", "Downloadable maps", "Contains ads"]),
       s("6. Rankers Camping NZ: best for reviews with around 500 bookable campgrounds", [
         "Rankers is free and rated 4.7 from 3,322 New Zealand ratings. It lists around 500 bookable campground options, and DOC and some council sites link out to their own booking pages through Check Availability. Free sites have no in-app booking, and Rankers says it takes a small commission on bookings.",
         "Its campsite information works offline from day one, and detailed maps are a download, so get them over Wi-Fi before you leave town.",
       ], ["Choose it for: reviews and bookable sites", "Free", "Small commission on bookings"]),
-      s("7. WikiCamps New Zealand: best for the biggest list", [
+      s("7. WikiCamps New Zealand: best for a large community list", [
         "WikiCamps New Zealand costs NZ$7.99 once on the App Store and lists more than 12,000 New Zealand sites, with an offline mode and no subscription. It says you can book from more than 1,000 sites directly in the app, and rated 4.5 from 137 New Zealand ratings; Google Play shows 3.0 from 1,042.",
         "Listings come from travellers and the booking company is not named on its pages, so confirm the details with the site before you rely on them.",
-      ], ["Choose it for: the longest list", "NZ$7.99 once", "Booking provider not named"]),
+      ], ["Choose it for: a large list", "NZ$7.99 once", "Booking provider not named"]),
       s("Before you book anywhere", [
         "Check whether the place needs booking at all: basic DOC campsites are free, and most DOC huts are first come, first served. DOC campsite fees run from free at basic sites to $10 to $20 per adult at standard sites and $25 at serviced unpowered sites, with children 5 to 17 at half price and infants free.",
         "If you book a Great Walk, a hut or a peak-season campsite, keep the confirmation email, which is your proof of booking.",
@@ -974,19 +974,19 @@ export const listicleArticles: Article[] = [
     imageAlt: "A white campervan parked in a grassy paddock below native forest on the West Coast of the South Island",
     related: ["best-nz-camping-apps", "best-campsite-booking-apps-new-zealand", "self-contained-campervan-green-warrant", "free-camping-apps-new-zealand"],
     intro:
-      "Campable is a marketplace for private land: farms, orchards, vineyards and sports clubs whose hosts open a patch to self-contained campervans and motorhomes. It does that one job well, and people look for alternatives when they want public sites, free sites, a bigger list or a tent pitch. KiwiCamping is ours and heads this list as a planning tool, not a private-land marketplace, and each entry says what it does better than Campable and what it does not. Prices and ratings are from the New Zealand App Store and each company's own site, checked on 21 October 2026.",
+      "Campable is a marketplace for private land: farms, orchards, vineyards and sports clubs whose hosts open a patch to campervans and motorhomes, with each host setting the vehicle rules. It does that one job well, and people look for alternatives when they want public sites, free sites or a bigger list. KiwiCamping is ours and heads this list as a planning tool, not a private-land marketplace, and each entry says what it does better than Campable and what it does not. Prices and ratings are from the New Zealand App Store and each company's own site, checked on 21 October 2026.",
     sections: [
       s("Campable alternatives at a glance", [
-        "For public camping and a trip plan, start with KiwiCamping or CamperMate. For the longest list of sites, WikiCamps; for local reviews, Rankers; for conservation land, DOC's own booking site.",
-        "None of them replaces Campable's instant booking on private land, so some travellers keep Campable for the odd night on a farm and use another app for the rest.",
+        "For public camping and a trip plan, start with KiwiCamping or CamperMate. For a large list of sites, WikiCamps; for local reviews, Rankers; for conservation land, DOC's own booking site.",
+        "Campable is the one built around instant booking on hosted private land, so some travellers keep it for the odd night on a farm and use another app for the rest.",
       ], undefined, {
         caption: "Checked 21 October 2026 on the New Zealand App Store and each company's own site. Ratings are New Zealand App Store averages with the number of ratings.",
         head: ["App or site", "Best for", "Price", "NZ rating"],
         rows: [
-          ["Campable", "Private land stays for self-contained vans", "App free; no guest booking fee", "4.5 (13)"],
+          ["Campable", "Private land stays set by local hosts", "App free; no guest booking fee", "4.5 (13)"],
           ["KiwiCamping", "DOC places and a dated trip plan", "Free to download, with in-app purchases", "3.8 (4)"],
           ["CamperMate", "A free all-rounder, NZ and Australia", "Free; contains ads", "4.4 (606)"],
-          ["WikiCamps New Zealand", "The biggest list of sites", "NZ$7.99 once", "4.5 (137)"],
+          ["WikiCamps New Zealand", "A large list of sites", "NZ$7.99 once", "4.5 (137)"],
           ["Rankers Camping NZ", "Reviews of welcome overnight spots", "Free", "4.7 (3,322)"],
           ["DOC booking system", "Conservation-land campsites and huts", "Website; fees per DOC", "Not applicable"],
           ["Holiday park booking", "Powered sites and facilities", "TOP 10 card NZ$55 for 2 years", "Not applicable"],
@@ -999,28 +999,28 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: public sites and a trip plan", "No private-land booking", "iPhone only; few ratings"], undefined, true),
       s("2. CamperMate: best free all-rounder", [
         "CamperMate is free and covers New Zealand and Australia, with campsites, holiday parks, freedom-camping spots, dump stations and toilets, reviews and photos, and bookings you can check and make in the app. Its listing says you can download maps and use it without an internet connection.",
-        "It rated 4.4 from 606 New Zealand ratings and carries ads. Some reviewers dislike its recent redesign, and part of its data is contributed by travellers, so check a site's details before you rely on it.",
-      ], ["Choose it for: a free app that works offline", "Contains ads", "Redesign disliked by some"]),
-      s("3. WikiCamps New Zealand: best for the biggest list", [
+        "It rated 4.4 from 606 New Zealand ratings and carries ads. Part of its data is contributed by travellers, so check a site's details before you rely on it.",
+      ], ["Choose it for: a free app that works offline", "Contains ads", "Traveller-contributed data"]),
+      s("3. WikiCamps New Zealand: best for a large list", [
         "WikiCamps New Zealand costs NZ$7.99 once on the App Store, with no subscription, and lists more than 12,000 New Zealand sites with traveller reviews, photos and fee details. It includes a trip planner and an offline mode, and says you can book from more than 1,000 sites in the app.",
         "It rated 4.5 from 137 New Zealand ratings, with 3.0 from 1,042 on Google Play. Listings are written by travellers, and the bookable ones are about 1,000 of its 12,000.",
-      ], ["Choose it for: the longest list", "NZ$7.99 once, no subscription", "Mostly user-written listings"]),
+      ], ["Choose it for: a large list", "NZ$7.99 once, no subscription", "Mostly user-written listings"]),
       s("4. Rankers Camping NZ: best for local reviews", [
         "Rankers is free and the most-rated camping app on the New Zealand store, with 4.7 from 3,322 ratings. It lists places where the local community has said overnight stays are welcome, with more than 108,000 traveller reviews that its team reads, and around 500 bookable campground options.",
-        "Its campsite information works offline from the day you install it, and detailed maps download over Wi-Fi. It earns its income from commissions on bookings and activity deals, and from campervan hire, at no extra cost to you, so it lists fewer places than WikiCamps.",
+        "Its campsite information works offline from the day you install it, and detailed maps download over Wi-Fi. It earns commissions on bookings and activity deals and from campervan hire, at no extra cost to you, and it lists about 1,500 places against WikiCamps' 12,000.",
       ], ["Choose it for: vetted, welcome sites", "Free", "Fewer places than WikiCamps"]),
       s("5. DOC's booking site: best for conservation land", [
-        "DOC books Great Walks, huts, campsites and lodges on its own website, and there is no DOC app for it. Standard campsites cost $10 to $20 per adult a night, serviced ones $20 to $28 and basic ones are free, and most of DOC's roughly 950 huts are first come, first served.",
-        "It has no private land and bookings are online only, but you pay DOC's published prices with no marketplace in between. Our booking guide compares it with the other options.",
+        "DOC books Great Walks, huts, campsites and lodges on its own website, and we found no DOC app for it. Standard campsites cost $10 to $20 per adult a night, serviced ones $20 to $28 and basic ones are free, and most of DOC's roughly 950 huts are first come, first served.",
+        "It has no private land and takes bookings mainly online, but you pay DOC's published prices with no marketplace in between. Our booking guide compares it with the other options.",
       ], ["Choose it for: DOC huts and campsites", "Official prices", "No private land"]),
       s("6. Holiday parks: best for powered sites and facilities", [
-        "A park gives you a powered site, kitchens and showers with a guaranteed place, which Campable's hosts do not promise. TOP 10 Holiday Parks has 52 parks, books on its website, and sells a membership card for NZ$55 for 2 years that saves 10% on accommodation, and its free app holds the card.",
-        "Holiday Parks New Zealand lists 230 member parks. Each chain books separately, so there is no single app for all of them.",
+        "A park offers powered sites, kitchens and showers, and a booking secures your place. TOP 10 Holiday Parks has 52 parks, books on its website, and sells a membership card for NZ$55 for 2 years that saves 10% on accommodation, and its free app holds the card.",
+        "Holiday Parks New Zealand lists 230 member parks. Each chain takes its own bookings, though CamperMate also books some parks.",
       ], ["Choose it for: powered sites", "Chain by chain", "TOP 10 card saves 10%"]),
       s("When Campable is still the better choice", [
-        "Choose Campable for a quiet night on a farm, orchard or vineyard with a host to meet, and instant booking on real availability for some places. Its price is shown up front with no guest booking fee, though your card is charged 14 days before the stay and cancellations inside six days lose at least half.",
-        "Campable accepts only certified self-contained vehicles with a current green self-containment warrant, so it is not for tents or vans without one. Apple's rating of 4.5 from 13 sits beside Google Play's 2.6 from 57, so read recent reviews. Hipcamp lists private land in New Zealand on its website, but we found no Hipcamp app in the New Zealand App Store.",
-      ], ["Private land with a host", "Green warrant required", "Cancel 6 days out for a refund"]),
+        "Choose Campable for a quiet night on a farm, orchard or vineyard with a host to meet, and instant booking on real availability for some places. Its price is shown up front with no guest booking fee, though cancellations inside six days lose at least half, and peak-season terms from 20 December to 15 January and on public holiday weekends are stricter.",
+        "Campable says each host chooses the vehicle rules, so check a listing for whether it needs a green self-containment warrant, accepts a portable toilet or takes tents. Apple's rating of 4.5 from 13 sits beside Google Play's 2.6 from 57, so read recent reviews. Hipcamp lists private land in New Zealand on its website, but we found no Hipcamp app in the New Zealand App Store.",
+      ], ["Private land with a host", "Hosts set vehicle rules", "Cancel 6 days out for a refund"]),
       s("How we chose and checked", [
         "We picked the options a Campable user is most likely to compare it with, and checked their price, rating, version and features on the New Zealand App Store and each company's own site on 21 October 2026. Campable's terms come from its payments and cancellation pages.",
         "Terms change often, so read a service's current conditions before you pay. Leaving a feature out of this list is not a claim that the app lacks it.",
@@ -1207,6 +1207,87 @@ export const listicleArticles: Article[] = [
       { label: "Mighty Campers: travel app", url: "https://www.mightycampers.com/nz/en/travel-info/travel-app" },
       { label: "Rankers Camping NZ: about", url: "https://camping-nz.rankers.co.nz/about" },
       { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+    ],
+  }),
+  a({
+    slug: "best-south-island-road-trip-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-11-08",
+    title: "7 Best Apps for a South Island Road Trip in 2026",
+    description: "The best apps and official sources for a New Zealand South Island road trip in 2026: trip planning, road and weather warnings, fuel, campsites and huts, compared with prices and ratings checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Milford Road", "West Coast", "Mackenzie Country", "Queenstown", "Marlborough"],
+    imageAlt: "Golden tussock slopes above Lake Pukaki with Aoraki Mount Cook and the Southern Alps beyond",
+    related: ["south-island-two-week-road-trip", "best-weather-apps-new-zealand", "winter-driving-new-zealand-campervan", "one-lane-bridges-gravel-roads-new-zealand"],
+    intro:
+      "A South Island road trip has long gaps between towns, mountain passes that close in bad weather and campsites that fill up early in summer, so the apps that matter are the ones that tell you what is open, what the weather is doing and where you can sleep. This list covers seven, with official sources for roads and warnings, using prices and ratings from the New Zealand App Store checked on 21 October 2026. KiwiCamping is ours, and it leads as the trip planner; the road and weather information comes from the agencies that publish it.",
+    sections: [
+      s("South Island road trip apps at a glance", [
+        "Plan the nights and the route in KiwiCamping, check roads on NZTA's Journey Planner and weather on MetService, compare fuel in Gaspy and find a place to stay with CamperMate or Rankers. DOC's alerts page covers closures on conservation land.",
+        "The road and weather sources are official websites or agency apps; an app can tell you where a campsite is, but only the agency can tell you that a road is closed.",
+      ], undefined, {
+        caption: "Checked 21 October 2026 on the New Zealand App Store and each agency's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App or site", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "A dated trip plan with DOC places", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["NZTA Journey Planner", "Road closures, roadworks and cameras", "Free website", "Not applicable"],
+          ["MetService", "Weather warnings and rain radar", "Free", "2.4 (1,126)"],
+          ["Gaspy", "Crowd-sourced fuel prices", "Free; optional subscription NZ$1.69 a month", "4.0 (783)"],
+          ["CamperMate", "Free offline maps and listings", "Free; contains ads", "4.4 (606)"],
+          ["Rankers Camping NZ", "Reviews of welcome overnight spots", "Free", "4.7 (3,322)"],
+          ["Plan My Walk", "Short walks, alerts and trip plans", "Free", "4.6 (612)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for planning the nights and the drive", [
+        "KiwiCamping puts DOC campsites and huts, holiday parks and dump stations on one map, with fees, facilities and rules for each. In its August 2026 data the South Island's DOC regions hold 44 campsites in Marlborough, 37 in Nelson Tasman, 30 in Otago, 22 in Canterbury, 14 on the West Coast, 13 in Fiordland and 5 in Southland, and many more huts.",
+        "Its road-trip guides include Picton to Christchurch via Kaikōura, Christchurch to Tekapo and Aoraki, Queenstown to Glenorchy and the West Coast, each with a route on the map, a forecast and notes on what to book ahead. You can add stops with dates to a trip and see the drive time between them.",
+        "Place details stay on the phone without signal, but map tiles, routing, weather and photos need a connection, and it does not show road closures. It is iPhone only (iOS 26 or later) with 4 New Zealand ratings averaging 3.8.",
+      ], ["Choose it for: a dated route with DOC places", "No road closure data", "iPhone only; few ratings"], undefined, true),
+      s("2. NZTA Journey Planner: best for road closures and roadworks", [
+        "NZTA's Journey Planner is a website, not an app, and shows travel times, traffic cameras and updates on delays, roadworks and road closures. NZTA says its route suggestions come from Google, and there may be closures or unplanned events on state highways that make the route shown unsuitable, so check the map before you travel.",
+        "For local roads, NZTA tells you to check with the local or regional council. Our guide to one-lane bridges and gravel roads covers the driving side. The separate NZTA Waka Kotahi app is for licences and registration, not live traffic.",
+      ], ["Choose it for: closures and roadworks", "Check the map before you travel", "Website, not an app"]),
+      s("3. MetService: best for weather warnings", [
+        "MetService is New Zealand's official weather service. Its free app shows severe weather warnings and watches, a rain radar and live traffic cameras for urban locations. It rated 2.4 from 1,126 New Zealand ratings, which is low, so keep its website as a second check.",
+        "DOC points to MetService for mountain forecasts and says anyone going into the mountains should also check the New Zealand Avalanche Advisory. Our guide to weather apps compares it with the other options.",
+      ], ["Choose it for: official warnings", "Low app rating", "Mountain forecasts on its website"]),
+      s("4. Gaspy: best for fuel on the long stretches", [
+        "Gaspy shows crowd-sourced fuel prices and is free, with an optional subscription at NZ$1.69 a month. It rated 4.0 from 783 New Zealand ratings.",
+        "On the Milford Road, DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and to have a full tank before leaving Te Anau. A return trip from Te Anau is 240 km and DOC suggests allowing an eight-hour day.",
+      ], ["Choose it for: comparing fuel prices", "Full tank at Te Anau", "Crowd-sourced prices"]),
+      s("5. CamperMate: best free all-rounder with offline maps", [
+        "CamperMate is free and covers New Zealand and Australia, with campsites, holiday parks, dump stations, toilets and Wi-Fi, and its listing says you can download maps and use it without an internet connection. It rated 4.4 from 606 New Zealand ratings and shows ads.",
+        "On long stretches such as the West Coast, downloaded maps matter more than live data, so download the region before you leave town.",
+      ], ["Choose it for: maps without signal", "Contains ads", "Download before the long stretches"]),
+      s("6. Rankers Camping NZ: best for reviews of welcome overnight spots", [
+        "Rankers is free, and its 3,322 New Zealand ratings average 4.7. It lists places where the local community has said overnight stays are welcome, with traveller reviews that its team reads, and its campsite information works offline from the start.",
+        "Detailed maps are a download, so get them over Wi-Fi first, and it lists fewer places than the biggest community directories.",
+      ], ["Choose it for: vetted overnight spots", "Free", "Fewer places"]),
+      s("7. Plan My Walk: best for short walks and sharing your plan", [
+        "Plan My Walk is the Mountain Safety Council's free app, with alerts from DOC and local councils, forecasts from MetService and a trip planner that sends your plan to an emergency contact. It rated 4.6 from 612 New Zealand ratings.",
+        "It works offline only with an eligible satellite plan, otherwise you download a PDF of your trip plan first.",
+      ], ["Choose it for: walks and trip plans", "Free", "Offline needs a satellite plan or PDF"]),
+      s("The Milford Road and the mountain passes", [
+        "DOC says the Milford Road has public toilets only at Te Anau, Knob's Flat and Milford, that snow chains may be required and can be rented in Te Anau, and that drivers should check the status of State Highway 94. The section between the Hollyford Road junction and The Chasm is a Restricted No Stopping Zone because it is an avalanche area, and DOC says to take a bus if you are not confident driving in winter conditions.",
+        "DOC adds that dogs are not allowed in the national park. Check road status before you leave and again at your last town.",
+      ], ["Chains may be required", "No stopping in the avalanche zone", "Check SH94 status"]),
+      s("How we chose and checked", [
+        "We picked the tools a South Island driver uses for the trip plan, roads, weather, fuel and places to stay, and checked their price, rating and features on the New Zealand App Store on 21 October 2026. Road, weather and Milford Road information comes from NZTA, MetService and DOC.",
+        "Warnings and conditions change by the hour, so use these tools to plan and the agencies to decide. If an app has a feature we do not mention, that is an omission, not a claim.",
+      ]),
+    ],
+    sources: [
+      { label: "NZTA Waka Kotahi: Journey Planner", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Milford Road tips for drivers", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/places-to-go/milford-road-milford-sound-area/milford-road-tips-for-drivers/" },
+      { label: "DOC: alerts", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "DOC: weather and mountain forecasts", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/weather/" },
+      { label: "MetService: severe weather warnings", url: "https://about.metservice.com/about-severe-weather-warnings" },
+      { label: "MetService (App Store)", url: "https://apps.apple.com/nz/app/metservice/id525900888" },
+      { label: "Gaspy (App Store)", url: "https://apps.apple.com/nz/app/gaspy/id1157169797" },
+      { label: "Mountain Safety Council: Plan My Walk", url: "https://www.mountainsafety.org.nz/discover/plan-my-walk" },
+      { label: "Rankers Camping NZ: about", url: "https://camping-nz.rankers.co.nz/about" },
+      { label: "CamperMate", url: "https://campermate.com" },
     ],
   }),
 ];

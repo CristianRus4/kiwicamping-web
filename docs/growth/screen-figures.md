@@ -28,6 +28,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | campable-alternatives | 1 (1. KiwiCamping: best for public sites and a trip plan) | Inbox: kiwicamping_place-detail_kumutoto-bay-campsite_top.png | KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details |
 | best-tramping-great-walks-apps-new-zealand | 1 (1. KiwiCamping: best for DOC huts, tracks and campsites on your route) | Inbox: kiwicamping_tracks_inland-track_expanded.png | KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website |
 | best-dump-station-apps-new-zealand | 1 (1. KiwiCamping: best for planning dump stations into a route) | kiwicamping_place-card_lake-pukaki.png | KiwiCamping on iPhone: a map near Queenstown with pins for a public dump station with drinking water and another dump station, above a list of nearby huts and campsites |
+| best-south-island-road-trip-apps-new-zealand | 1 (1. KiwiCamping: best for planning the nights and the drive) | Inbox: kiwicamping_guides_christchurch-tekapo-aoraki_map.png | KiwiCamping on iPhone: the Christchurch, Tekapo and Aoraki road trip guide with its route on the map, a seven-day forecast and notes on what to book ahead |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

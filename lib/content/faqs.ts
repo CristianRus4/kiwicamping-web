@@ -307,13 +307,13 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How do I book a DOC campsite or hut?", "Through DOC's online booking system, which covers Great Walks, huts, campsites and lodges, cabins and cottages. Not every facility can be booked, and unbookable ones are first come, first served."],
     ["Is there an app for booking campsites in New Zealand?", "No single app books every campsite. DOC books through its website, holiday park chains book through their own sites, and CamperMate, Rankers and WikiCamps book some sites in the app."],
     ["Do I need to book a DOC campsite in summer?", "DOC requires bookings for all serviced campsites and some scenic and standard campsites in peak season, usually 1 October to 30 April. Other campsites are first come, first served and paid at the self-registration stand."],
-    ["Can I book private land camping in New Zealand?", "Yes. Campable lists hosts on farms, vineyards and other private land for certified self-contained vehicles, and says it charges guests no booking fee."],
+    ["Can I book private land camping in New Zealand?", "Yes. Campable lists hosts on farms, vineyards and other private land, with each host setting the vehicle rules, and says it charges guests no booking fee."],
   ],
   "campable-alternatives": [
-    ["What is an alternative to Campable in New Zealand?", "It depends on the job. CamperMate and WikiCamps list public and private sites, Rankers lists spots the local community welcomes, DOC's website books conservation-land campsites and huts, and KiwiCamping maps DOC places and plans a trip."],
-    ["Is Campable free to use?", "The app is free, and Campable says it charges guests no booking fees. You pay the host's nightly price and your card is charged 14 days before the stay."],
-    ["Do I need a self-contained vehicle to use Campable?", "Yes. Campable accepts only certified self-contained vehicles with a current green self-containment warrant, though some hosts accept a portable toilet."],
-    ["Can I book private land camping without Campable?", "Hipcamp lists private land in New Zealand on its website, and some stays can be found in CamperMate and WikiCamps. Campable remains the app built around hosted private land for self-contained vans."],
+    ["What is an alternative to Campable in New Zealand?", "It depends on the job. CamperMate and WikiCamps list a wide range of sites, Rankers lists spots the local community welcomes, DOC's website books conservation-land campsites and huts, and KiwiCamping maps DOC places and plans a trip."],
+    ["Is Campable free to use?", "The app is free, and Campable says it charges guests no booking fees. You pay the host's nightly price, and Instant Book stays made more than 14 days ahead are charged 14 days before the stay."],
+    ["Do I need a self-contained vehicle to use Campable?", "It depends on the host. Campable says each host chooses the vehicle rules, from certified self-contained vehicles only to portable toilets or tents, so check the listing."],
+    ["Can I book private land camping without Campable?", "Hipcamp lists private land in New Zealand on its website. Campable is the app built around hosted private land."],
   ],
   "best-tramping-great-walks-apps-new-zealand": [
     ["What is the best app for tramping in New Zealand?", "Most trampers combine apps: Plan My Walk for alerts and trip plans, an offline topo map such as NZ Topo50 or NZ Topo Maps, and DOC's website for hut and Great Walk information. KiwiCamping shows DOC hut, track and campsite details but is not a topo map."],
@@ -326,5 +326,11 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Are dump stations free in New Zealand?", "Many are, but it varies by council. Waitaki District Council lists several free ones and asks $5 by donation box at some lakes camping grounds when you have no camping ground ticket."],
     ["What is the fine for dumping waste while freedom camping?", "Depositing waste in or on the area while freedom camping carries an $800 infringement fee, with a court maximum of $2,400."],
     ["Do I need a green warrant to use a dump station?", "The green warrant requirement is for freedom camping on public land: since 7 June 2026 only a green warrant counts as self-contained, and it does not apply at campgrounds, holiday parks or private property."],
+  ],
+  "best-south-island-road-trip-apps-new-zealand": [
+    ["What apps do I need for a South Island road trip?", "A trip planner such as KiwiCamping, NZTA's Journey Planner for road closures, MetService for weather warnings, Gaspy for fuel and a camping app such as CamperMate or Rankers for places to stay."],
+    ["Is there fuel on the Milford Road?", "DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and to have a full tank before leaving Te Anau. A return trip from Te Anau is 240 km."],
+    ["How do I check if a South Island road is closed?", "Use NZTA's Journey Planner, which shows road closures, roadworks and traffic cameras. NZTA notes its route suggestions come from Google and may not reflect unplanned events on state highways."],
+    ["Do I need snow chains on the Milford Road?", "DOC says snow chains may be required and can be rented in Te Anau. Check the current status of State Highway 94 before you leave."],
   ],
 };
