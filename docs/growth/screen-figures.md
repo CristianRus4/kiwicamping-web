@@ -25,6 +25,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | working-holiday-apps-new-zealand | 1 (1. KiwiCamping: best for finding a bed between jobs) | Inbox: kiwicamping_map_new-zealand_clusters.png | KiwiCamping on iPhone: places grouped on a satellite map of the whole of New Zealand |
 | money-saving-travel-apps-new-zealand | 1 (1. KiwiCamping: best for cutting the accommodation bill) | Inbox: kiwicamping_place-detail_black-rock-campsite_lower.png (Black Rock: one fee schedule, so the card matches DOC's current fee) | KiwiCamping on iPhone: a DOC campsite's reported adult, child and infant prices above its seven-day weather forecast |
 | christmas-summer-camping-new-zealand-2026-27 | 7 (Using KiwiCamping over summer) | kiwicamping_place-detail_paihia-top-10-holiday-park_top.png | KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page in Northland with its Book now button |
+| new-years-eve-summer-event-camping-new-zealand | 7 (Using KiwiCamping at New Year) | kiwicamping_place-detail_glendhu-bay_top.png | KiwiCamping on iPhone: the Hampshire Holiday Parks Glendhu Bay page near Wānaka with its address, hours and Book now button |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

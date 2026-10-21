@@ -51,7 +51,7 @@ export const migratedArticles: Article[] = [
       ]),
       s("A workable routine on arrival", [
         "Research narrows the options, but the decision happens at the entrance. Pull in, find the freedom camping board, read the stay limit and the vehicle requirement, and photograph the sign. It takes a minute and it is the evidence that settles any later dispute. If the sign and your app disagree, the sign wins, every time.",
-        "Councils install temporary restrictions after floods, slips and events, and those appear on the ground long before they reach any dataset. If a site is full, do not create an overflow row along the access lane; move to a paid campground instead. Holding one legal paid option in reserve is what stops a tired driver making an expensive decision at 9pm.",
+        "Councils install temporary restrictions after floods, slips and events, and those appear on the ground long before they reach any dataset. If a site is full, do not create an overflow row along the access lane; move to a paid campground instead. Holding one legal paid option in reserve is what stops a tired driver making an expensive decision at 9pm. Summer liquor bans and freedom camping limits for the busiest night are collected in our guide to New Year's Eve camping.",
       ], ["Photograph the sign", "Hold a paid fallback", "Never form an overflow row"]),
     ],
     sources: [
@@ -302,7 +302,7 @@ export const migratedArticles: Article[] = [
       ], ["Never fill water near the dump point", "Ask which taps are potable", "Keep hoses separate"]),
       s("Shared space, shared rules", [
         "Quiet hours are enforced, and holiday parks are dense environments where sound carries between sites. Keep site boundaries, supervise children around internal roads and pools, and check the pet policy before arriving with a dog, because many parks restrict animals, especially in peak season.",
-        "Secure valuables as you would anywhere with public access. A holiday park is convenient and generally safe, but it remains a busy site with vehicles moving through it all day.",
+        "Secure valuables as you would anywhere with public access. A holiday park is convenient and generally safe, but it remains a busy site with vehicles moving through it all day. Booking terms for the New Year peak are compared in our guide to New Year's Eve camping.",
       ]),
       s("Finding and booking parks in KiwiCamping", [
         "KiwiCamping shows holiday parks and tours from BookIt on the same map as DOC campsites and dump stations. The BookIt places are free in the app: open one to see its facilities and photos, then use Book now to check live availability and price. That makes it quick to find a powered site within an hour of where you are, even when you are choosing on the road.",
@@ -492,7 +492,7 @@ export const migratedArticles: Article[] = [
       ]),
       s("Regional timing in short", [
         "Northland and the upper North Island are pleasant from October through April and humid at the height of summer. The central plateau and Tongariro are a summer and autumn proposition unless you are equipped for alpine winter. The East Coast is driest in summer and reliably sunny in autumn.",
-        "The West Coast is wet in every season, plan for rain rather than hoping to avoid it, but rewards it with near-empty sites. The Mackenzie and Central Otago are excellent in autumn and cold and clear in winter. Fiordland is wet year-round and best approached with flexible days and no fixed expectations about seeing Milford in sunshine.",
+        "The West Coast is wet in every season, plan for rain rather than hoping to avoid it, but rewards it with near-empty sites. The Mackenzie and Central Otago are excellent in autumn and cold and clear in winter. Fiordland is wet year-round and best approached with flexible days and no fixed expectations about seeing Milford in sunshine. Festival camping around 31 December is covered in our guide to New Year's Eve and summer event camping.",
       ], ["West Coast: plan for rain in any season", "Autumn suits Central Otago best", "Fiordland needs flexible days"]),
       s("Reading the forecast properly", [
         "New Zealand's weather changes faster than the length of most driving days, and a forecast for a town tells you relatively little about a pass or an exposed coast twenty minutes away. Check MetService for the specific location, and check the road conditions separately, the two answer different questions.",

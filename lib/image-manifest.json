@@ -1545,6 +1545,20 @@
       }
     ]
   },
+  "/images/screens/new-years-eve-summer-event-camping-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/new-years-eve-summer-event-camping-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/new-years-eve-summer-event-camping-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/rankers-alternatives.webp": {
     "width": 1600,
     "height": 900,

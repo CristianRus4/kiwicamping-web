@@ -176,7 +176,7 @@ CCC HTML is blocked to curl (403) but WebFetch read the freedom camping page.
 - **Kaiteriteri Recreation Reserve campground (reserve board, not council):** no ballot or New Year booking rule published on the pages read. Its FAQ says: "December to February are out busiest months by far with Kiwi's taking the chance to come and stay for one or two weeks over the summer school holidays." Pets: "there are no pets allowed." Booking via the site's online system; Labour Weekend must be booked by phone.
   - URL: https://experiencekaiteriteri.co.nz/faqs and https://experiencekaiteriteri.co.nz/stay?CAMPGROUND
   - Date read: 2026-10-21
-  - Quote: "Labour Weekend reservations must be made by calling 03 527 8010—online bookings are unavailable."
+  - Quote: "Labour Weekend reservations must be made by calling 03 527 8010" (the site then says online bookings are unavailable; dash in the original text omitted).
   - SEARCH EXTRACT: bookings only confirmed on deposit; full refund if cancelled at least 14 days before arrival (nelsontasman.nz listing, not the official site).
 - **Gisborne District Council:** blocked (403). Gisborne alcohol ban (city centre, with a New Year extension to Midway Beach) is SEARCH EXTRACT only (from a news summary), not verified. Rhythm and Vines official site is read in section 3.1.
 - **Mackenzie District Council (Lake Tekapo):** blocked (403 to curl and WebFetch). SEARCH EXTRACT: Responsible Freedom Camping Bylaw 2023 in force 16 December 2023 (https://www.mackenzie.govt.nz/__data/assets/pdf_file/0004/828193/Responsible-Freedom-Camping-Bylaw-2023.pdf, not read); whether Tekapo township is prohibited: needs hand check. Tekapo alcohol ban: not published/not found.
