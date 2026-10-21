@@ -383,7 +383,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the freedom camping fine in Waitaki?", "The bylaw says $400, and two of the council's web pages still say $200. Under the national regulations, camping in breach of a bylaw restriction or in a vehicle that is not self-contained where it is required is $400."],
   ],
   "freedom-camping-whakatane-2026": [
-    ["Where can I freedom camp in Ōhope?", "Certified self-contained vehicles can use three designated areas: West End Road car park, Maraetotara Reserve on Pohutukawa Avenue, and the eastern end of Harbour Road with Port Ōhope Reserve. The limit is three consecutive nights in any four weeks, and West End Road is closed from the third week of December to 31 March."],
+    ["Which spots at Ōhope allow freedom camping?", "Certified self-contained vehicles can use three designated areas: West End Road car park, Maraetotara Reserve on Pohutukawa Avenue, and the eastern end of Harbour Road with Port Ōhope Reserve. The limit is three consecutive nights in any four weeks, and West End Road is closed from the third week of December to 31 March."],
     ["Can a van that is not self-contained camp near Whakatāne?", "The bylaw's Schedule 1 lists one site for it, Aniwhenua Reserve at Galatea near Murupara, for up to seven nights in any four-week period."],
     ["Is Muriwai Drive open to freedom camping?", "No. Schedule 2 prohibits freedom camping on the full length of Muriwai Drive in Whakatāne, along with the reserves on it."],
   ],
