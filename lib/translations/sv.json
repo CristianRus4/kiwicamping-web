@@ -10005,6 +10005,1301 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-alternatives": {
+      "title": "De 5 bästa alternativen till WikiCamps New Zealand 2026",
+      "description": "WikiCamps New Zealand kostar 7,99 NZD och bygger på platser som användarna lagt till. KiwiCamping, Rankers, CamperMate, Campable och Overland Navigator jämförda på pris, data och användning utan täckning. Kontrollerat oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En husbil, bilar och ett litet tält på campingplatsen Cameron Flat under de skogklädda topparna i Mount Aspiring National Park",
+      "intro": "WikiCamps New Zealand är en betalapp med trogna användare: 7,99 NZD en gång i App Store för Nya Zeeland, 4,5 stjärnor av 137 betyg från Nya Zeeland när vi kontrollerade den 20 oktober 2026 och mer än 12 000 platser i Nya Zeeland som appens egna användare har lagt till. De flesta som söker efter ett alternativ är inte så mycket missnöjda som osäkra: ska man betala för en app när det finns gratisappar, är platser som användarna lagt till aktuella, eller måste man köpa en app till för Australien? KiwiCamping är vår egen app och kommer därför först nedan, men varje avsnitt säger rakt ut vad den gör bättre än WikiCamps och när WikiCamps ändå är det bättre köpet.",
+      "sections": [
+        {
+          "heading": "WikiCamps-alternativen i korthet",
+          "body": [
+            "Kort svar: om de flesta av dina nätter är på <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> eller i DOC-stugor ger KiwiCamping dig DOC:s egna uppgifter och en plan med datum. Vill du ha en gratisapp är Rankers det starkaste valet för Nya Zeeland, och CamperMate täcker dessutom Australien. Campable är till för bokade nätter på gårdar och vingårdar, och Overland Navigator för grusvägar och 4WD-vägar som en vanlig campingapp inte har med på kartan.",
+            "WikiCamps styrka är mängden. Platserna kommer från dem som använder appen, och därför finns det så många, men det är också därför en avgift eller en stängning kan ligga efter verkligheten. Vilken app du än väljer är det skylten på platsen och kommunens eller DOC:s sida som gäller när du ska avgöra om du får stanna."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland och på varje utvecklares webbplats. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Välj den framför WikiCamps när",
+              "Pris",
+              "Plattformar",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "WikiCamps New Zealand",
+                "Du vill ha flest platser som användarna lagt till (referenspunkten)",
+                "7,99 NZD en gång (iPhone)",
+                "iPhone, iPad, Android",
+                "4,5 (137)"
+              ],
+              [
+                "KiwiCamping",
+                "Dina nätter är på DOC-campingplatser och i DOC-stugor",
+                "Gratis; Pass 3,99–12,99 NZD",
+                "iPhone (iOS 26+)",
+                "3,8 (4)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Du vill ha en gratisapp med kontrollerade platser",
+                "Gratis",
+                "iPhone, iPad, Android, webben",
+                "4,7 (3 322)"
+              ],
+              [
+                "CamperMate",
+                "Du vill ha gratis och resan går även till Australien",
+                "Gratis; med annonser",
+                "iPhone, iPad, Android, webben",
+                "4,4 (606)"
+              ],
+              [
+                "Campable",
+                "Du vill ha en bokad natt på privat mark",
+                "Gratis app; värdarna sätter priset",
+                "iPhone, Android",
+                "4,5 (13)"
+              ],
+              [
+                "Overland Navigator",
+                "Du kör grusvägar och 4WD-vägar",
+                "Gratis; All Access 7,99 NZD i månaden",
+                "iPhone, iPad",
+                "4,5 (31)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Det som får folk att lämna WikiCamps",
+          "body": [
+            "WikiCamps får få omdömen i App Store för Nya Zeeland, så de senaste 50 går tillbaka till januari 2020 och bara 13 av dem skrevs 2024 eller senare. Fyrtioett gav fyra eller fem stjärnor; mest beröm, sju omdömen vardera, fick reseplaneraren och att appen har fler platser än gratisapparna. Klagomålen: sex beskrev <a data-guide=\"kiwicamping-filters-guide\">filter</a> eller data som slutade fungera efter en uppdatering, fem av dem under 2023 (den nuvarande versionen, 6.3.0, kom ut den 19 oktober 2026), fem sa att uppgifter om platser, avgifter eller lägen var inaktuella eller fel, och två sa att appen hängde sig eller inte ville öppna reseplaneraren.",
+            "Två praktiska saker kommer också upp. WikiCamps säljer Nya Zeeland och Australien som två separata appar, så en resa över Tasmanhavet betyder ett andra köp: WikiCamps Australia kostar 11,99 NZD i App Store för Nya Zeeland. Och på Android har appen i Google Play betyget 3,0 av 1 042 betyg och visar etiketterna för köp i appen och annonser, även om beskrivningen kallar den ett engångsköp."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "1. KiwiCamping: bäst för DOC-campingplatser och DOC-stugor med DOC:s egna uppgifter",
+          "body": [
+            "I datan från augusti 2026 kommer KiwiCampings 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, 927 DOC-stugor och 1 453 DOC-leder från Department of Conservations data, med de avgifter för vuxna, hundregler och bokningskrav som DOC anger, och en länk till DOC:s egen sida för platsen. För DOC-platser visar KiwiCamping det DOC publicerar.",
+            "Sparade platser blir en resa med stopp i ordning, datum, anteckningar och ruttens längd, och <a data-guide=\"kiwicamping-filters-guide\">filter</a> för kostnad, faciliteter och hundar går att kombinera i en och samma sökning. Platsinformationen finns kvar i telefonen när du tappar täckningen; kartbilder, ruttberäkning, väder och foton gör det inte.",
+            "Begränsningarna: gratisversionen öppnar bara boenden och turer från BookIt, och DOC-platser, <a data-guide=\"save-places-kiwicamping\">samlingar</a>, resor och guiderna kräver KiwiCamping Pass, som finns från 3,99 till 12,99 NZD. Appen finns bara för iPhone (iOS 26 eller senare), har 4 betyg från Nya Zeeland (3,8) och inga recensioner från resenärer, och den innehåller betydligt färre platser totalt än de över 12 000 som finns i WikiCamps."
+          ],
+          "tips": [
+            "Passar bäst för: DOC-campingplatser, DOC-stugor och en plan med datum",
+            "Pass krävs för DOC-platser och resor",
+            "Bara iPhone, iOS 26 eller senare"
+          ]
+        },
+        {
+          "heading": "2. Rankers Camping NZ: bäst som gratisapp med kontrollerade platser",
+          "body": [
+            "Rankers är gratissvaret på frågan om WikiCamps är värt att betala för. Appen har mer än 1 500 campingplatser bland över 6 600 platser, bland dem <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstationer</a>, vatten och gasol, och den säger att den bara visar platser där lokalsamhället har godkänt övernattning. Var och en av de över 108 000 recensionerna från resenärer läses av en person innan den publiceras.",
+            "Det gör appen smalare än WikiCamps på pappret men lättare att lita på per plats. Campinginformationen finns i appen från första installationen, och de detaljerade kartorna laddas ner över wifi. Appen fick 4,7 av 3 322 betyg från Nya Zeeland, flest av alla <a data-guide=\"best-nz-camping-apps\">campingappar</a> här."
+          ],
+          "tips": [
+            "Passar bäst för: gratis, kontrollerade campingplatser",
+            "Över 108 000 kontrollerade recensioner",
+            "iPhone, Android och webben"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: bäst som gratisalternativ när Australien ingår i planen",
+          "body": [
+            "CamperMate täcker Nya Zeeland och Australien i en enda gratisapp, så det andra WikiCamps-köpet försvinner. Appen filtrerar gratis och betalda platser, visar toaletter, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstationer</a> och wifi-platser, bokar campingplatser med tillgänglighet och laddar ner kartor och platsinformation som går att använda utan täckning; version 5.8 fick en satellitvy i oktober 2026.",
+            "Appen fick 4,4 av 606 betyg från Nya Zeeland och 4,0 av 12 568 i Google Play, och den har annonser. Av de 16 omdömena om CamperMate från 2025 eller 2026 bland de 50 senaste i App Store för Nya Zeeland skyllde sju på den senaste omdesignen, så prova den före en lång resa i stället för första kvällen."
+          ],
+          "tips": [
+            "Passar bäst för: en gratisapp för två länder",
+            "Har annonser",
+            "Ladda ner kartorna innan du åker"
+          ]
+        },
+        {
+          "heading": "4. Campable: bäst för en lugn bokad natt på privat mark",
+          "body": [
+            "Campable listar hundratals privata platser, från gårdar och vingårdar till idrottsklubbar, som värdarna öppnar för campervans och husbilar. Du bokar och betalar i appen, och du kan filtrera på platser som tar emot fordon som inte är self-contained. Appen fick 4,5 av 13 betyg från Nya Zeeland.",
+            "Den gör ett annat jobb än WikiCamps: några hundra säkra nätter i stället för en nationell katalog. Använd den för de nätter du vill ha ordnade i förväg, till exempel en långhelg i en region med mycket folk."
+          ],
+          "tips": [
+            "Passar bäst för: bokade övernattningar på privat mark",
+            "Värden sätter priset",
+            "Har filter för fordon som inte är self-contained"
+          ]
+        },
+        {
+          "heading": "5. Overland Navigator: bäst för grusvägar och 4WD-vägar",
+          "body": [
+            "Overland Navigator är en app från Nya Zeeland för körning i obygden: hundratals rutter, från vackra grusvägar till svåra 4WD-vägar, var och en med foton, recensioner och information om tidvatten och floder, plus avlägsna campingplatser och DOC-platser längs vägen. Utvecklarna säger att varje rutt är kontrollerad och körbar i stället för hämtad från en karta.",
+            "Appen är gratis att börja med. Navigator All Access, 7,99 NZD i månaden eller 87,99 NZD om året, lägger till full navigering utan täckning, CarPlay och fler rutter. Appen fick 4,5 av 31 betyg från Nya Zeeland och finns för iPhone och iPad; den är ett specialverktyg och inget som ersätter en vanlig campingkatalog."
+          ],
+          "tips": [
+            "Passar bäst för: terrängkörning och grusvägar",
+            "All Access 7,99 NZD i månaden",
+            "Navigering utan täckning ingår i All Access"
+          ]
+        },
+        {
+          "heading": "När WikiCamps ändå är det bättre köpet",
+          "body": [
+            "Vill du ha flest platser i Nya Zeeland i en och samma app, betald en gång, är WikiCamps fortfarande svårt att slå. Reseplaneraren uppskattar bränslekostnaden, Offline Mode håller kartor och upp till tre planerade resor tillgängliga utan täckning, och <a data-guide=\"kiwicamping-filters-guide\">filtren</a> täcker gratis campingplatser, husdjursvänliga platser, vattenpåfyllning och tömningsstationer.",
+            "Många behåller den och lägger till en av apparna ovan för det som saknas mest: DOC-uppgifter, urval, privat mark, Australien eller obygden. Medlemmar i New Zealand Motor Caravan Association bör också installera NZMCA App, som visar föreningens egna parker och katalog för medlemmar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så jämförde vi",
+          "body": [
+            "Vi läste varje apps sida i App Store för Nya Zeeland och utvecklarens egen webbplats den 20 oktober 2026, och Google Play-sidan där den finns. Priserna är de som visades i App Store för Nya Zeeland den dagen; WikiCamps egen webbplats anger 9,99 AUD per plattform, så kolla i butiken innan du köper. Teman i omdömena är räknade bland de 50 senaste omdömena om WikiCamps New Zealand, inte vår egen dom.",
+            "Vi beskriver bara de funktioner som utvecklarna själva beskriver, så en funktion som inte nämns här är inget påstående om att appen saknar den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Är WikiCamps New Zealand gratis?",
+          "Nej. I App Store för Nya Zeeland kostar den 7,99 NZD en gång, och appens sida nämner ingen prenumeration. Webbplatsen anger 9,99 AUD per plattform, så kolla priset i din egen butik innan du köper."
+        ],
+        [
+          "Vilket är ett gratisalternativ till WikiCamps i Nya Zeeland?",
+          "Rankers Camping NZ är gratis och listar bara övernattningsplatser som lokalsamhället har godkänt, med recensioner från resenärer som läses av teamet. CamperMate är också gratis och täcker dessutom Australien. KiwiCamping är gratis att ladda ner, men DOC-campingplatserna, DOC-stugorna och resorna kräver Pass, som kostar pengar."
+        ],
+        [
+          "Behöver jag olika WikiCamps-appar för Nya Zeeland och Australien?",
+          "Ja. WikiCamps New Zealand och WikiCamps Australia är två separata appar som köps var för sig; WikiCamps Australia kostar 11,99 NZD i App Store för Nya Zeeland. CamperMate täcker båda länderna i en gratisapp."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "WikiCamps New Zealand, uppgifter från appsidan (Apple, butiken för Nya Zeeland)"
+        },
+        {
+          "label": "Rankers Camping NZ-appen"
+        },
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "Campable"
+        },
+        {
+          "label": "Overland Navigator, uppgifter från appsidan (Apple, butiken för Nya Zeeland)"
+        },
+        {
+          "label": "NZMCA-medlemskap"
+        },
+        {
+          "label": "DOC: platser att övernatta på"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-campervan-apps-new-zealand": {
+      "title": "Bästa husbilsapparna för Nya Zeeland 2026: hyra, relocation och livet på vägen",
+      "description": "Apparna som hjälper på en husbilsresa i Nya Zeeland 2026, från att hyra bilen och relocations för 1 NZD om dagen till att hitta nästa övernattning, jämförda med priser och betyg kontrollerade i oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En äldre campervan parkerad vid en sjöstrand med två campingstolar och ett bord vid vattnet",
+      "intro": "På en husbilsresa i Nya Zeeland använder du appar i tre steg: att få tag på bilen, att leva i den och ibland att flytta den åt ett hyrbolag mot en billig vecka. Ingen enskild app täcker alla tre, och vilka som är mest användbara beror på vem du hyr av. Det här är apparna vi skulle installera inför en husbilsresa 2026, med betyg och priser från App Store för Nya Zeeland kontrollerade den 20 oktober 2026. Vi har byggt KiwiCamping, och det är därför den står först; varje avsnitt säger när en annan app gör jobbet bättre.",
+      "sections": [
+        {
+          "heading": "De bästa husbilsapparna i korthet",
+          "body": [
+            "För att planera nätterna samlar KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, DOC-stugor och en rutt med datum på ett ställe. Hyr du bilen av Maui, Britz, Mighty eller Apollo ska du installera thl Roadtrip, som de varumärkena hänvisar sina hyrkunder till; Travellers Autobarn hänvisar till CamperMate i stället. Rankers ger recensioner från resenärer om var man kan ställa sig, Camplify hyr ut privatägda bilar, Imoova listar relocation-erbjudanden och NZMCA App är till för medlemmar i New Zealand Motor Caravan Association.",
+            "Det enda ingen app kan avgöra åt dig är om bilen är self-contained, alltså certifierat självförsörjande. Sedan 7 juni 2026 är det bara ett green warrant som räknas för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på allmän mark, så fråga hyrbolaget innan du bokar om bilen har ett."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland och på varje företags webbplats. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Steg",
+              "Pris",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Planera nätterna och rutten",
+                "Gratis; Pass 3,99–12,99 NZD",
+                "3,8 (4)"
+              ],
+              [
+                "thl Roadtrip",
+                "Hyra av Maui, Britz, Mighty eller Apollo",
+                "Gratis",
+                "4,6 (122)"
+              ],
+              [
+                "CamperMate",
+                "På vägen, NZ och Australien",
+                "Gratis; med annonser",
+                "4,4 (606)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Recensioner av var man kan bo",
+                "Gratis",
+                "4,7 (3 322)"
+              ],
+              [
+                "Camplify",
+                "Hyra en privatägd bil",
+                "Gratis app; ägarna sätter priset",
+                "4,8 (23)"
+              ],
+              [
+                "Imoova",
+                "Relocation-erbjudanden",
+                "Gratis app; erbjudanden från 1 NZD om dagen",
+                "5,0 (1)"
+              ],
+              [
+                "NZMCA App",
+                "NZMCA-medlemmar på långa resor",
+                "Medlemskap 252 NZD första året",
+                "Inga betyg från NZ ännu"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: bäst för att planera var bilen står varje natt",
+          "body": [
+            "KiwiCamping är en campingkarta och reseplanerare byggd på Department of Conservations data: 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, 927 DOC-stugor och 1 453 DOC-leder i datan från augusti 2026, med de avgifter, hundregler och bokningskrav som DOC anger. Du lägger in nätterna i en resa som stopp i ordning med datum, anteckningar och att göra-listor, ser avståndet och körtiden mellan dem och kollar prognosen för varje stopp. Roadtrip-guiderna föreslår rutter med platser att spara längs vägen.",
+            "För en husbil spelar det roll, för det svåra på dagen är sista timmen: att veta vilken plats det är, vad den kostar och om den måste bokas innan du kommer fram. Platsinformationen finns kvar i telefonen utan täckning, men kartbilder, ruttberäkning, väder och foton kräver täckning.",
+            "Det den inte gör: den har inga funktioner för att hyra eller flytta bil, och gratisversionen öppnar bara boenden och turer från BookIt. DOC-platser, <a data-guide=\"save-places-kiwicamping\">samlingar</a>, resor och guider kräver KiwiCamping Pass, som finns från 3,99 till 12,99 NZD. Appen finns bara för iPhone (iOS 26 eller senare) och har 4 betyg från Nya Zeeland (3,8)."
+          ],
+          "tips": [
+            "Passar bäst för: att planera nätter på DOC-campingplatser",
+            "Pass krävs för DOC-platser, resor och guider",
+            "Bara iPhone, iOS 26 eller senare"
+          ]
+        },
+        {
+          "heading": "2. thl Roadtrip: bäst om du hyr av Maui, Britz, Mighty eller Apollo",
+          "body": [
+            "Tourism Holdings driver Maui, Britz, Mighty och Apollo, och alla fyra hänvisar hyrkunder till sin gratisapp thl Roadtrip. Britz säger att appen visar vad du kan vänta dig vid upphämtningen och en video som visar husbilen du har bokat, som du ska titta på innan du kommer, samt instruktionsvideor för bilen. På vägen hittar den campingplatser i närheten, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>, bensinstationer, tömningsstationer, toaletter, gasol, tvättomater och gratis wifi, med vägvarningar i realtid.",
+            "Appen fick 4,6 av 122 betyg från Nya Zeeland, men iPhone-versionen uppdaterades senast i juni 2025, så se den mer som ett hjälpmedel för hyrbilen än som din huvudsakliga planerare."
+          ],
+          "tips": [
+            "Passar bäst för: thl:s hyrbilar",
+            "Instruktionsvideor för bilen",
+            "Gratis, NZ och Australien"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: bäst som gratis följeslagare om du hyr av Travellers Autobarn",
+          "body": [
+            "CamperMate är appen som Travellers Autobarn ger sina hyrkunder, och Spaceships slog ihop sin egen app med CamperMate 2023. Den är gratis, täcker Nya Zeeland och Australien, visar campingplatser, toaletter, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tömningsstationer</a> och wifi-platser, bokar campingplatser och laddar ner kartor och platsinformation som går att använda utan täckning. CamperMate beskriver sig också som officiell resepartner till Apollo, Maui, Britz och Mighty.",
+            "Appens genomsnitt i App Store för Nya Zeeland var 4,4 av 606 betyg; i Google Play var det 4,0 av 12 568, och appen har annonser. Några av de senaste recensenterna ogillar omdesignen."
+          ],
+          "tips": [
+            "Passar bäst för: en gratis allroundapp",
+            "Nedladdningsbara kartor",
+            "Har annonser"
+          ]
+        },
+        {
+          "heading": "4. Rankers Camping NZ: bäst för recensioner av var man kan ställa sig",
+          "body": [
+            "Rankers är gratis och listar mer än 1 500 campingplatser bland över 6 600 platser, bland dem tömningsstationer, vatten och gasol, med över 108 000 recensioner från resenärer som läses av teamet. Appen visar bara övernattningsplatser som lokalsamhället har godkänt, vilket passar den som kör husbil och på kvällen väljer mellan en gratisplats och en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>.",
+            "Appen fick 4,7 av 3 322 betyg från Nya Zeeland. Campinginformationen är inbyggd i appen, och de detaljerade kartorna laddas ner över wifi, så hämta dem innan du lämnar stan. Begränsningen är kontrollernas baksida: appen listar bara platser som lokalsamhället har godkänt och visar därför långt färre platser än de över 12 000 som användarna har lagt till i WikiCamps New Zealand."
+          ],
+          "tips": [
+            "Passar bäst för: recensioner från resenärer",
+            "Gratis",
+            "Färre platser än WikiCamps"
+          ]
+        },
+        {
+          "heading": "5. Camplify: bäst för att hyra en privatägd husbil",
+          "body": [
+            "Camplify är en delningsplattform där ägare hyr ut sina egna campervans och husbilar. Du söker, bokar och sköter hyran i appen och skriver direkt till ägaren. Enligt företagets webbplats för Nya Zeeland börjar dygnspriset på 85 NZD, med skadeskydd och vägassistans 24/7 inkluderat.",
+            "Appen fick 4,8 av 23 betyg från Nya Zeeland. Varje bil och dess regler skiljer sig mellan ägarna, så kolla intyget för self-contained, självrisken och kilometergränserna i annonsen innan du bokar."
+          ],
+          "tips": [
+            "Passar bäst för: privatägda bilar",
+            "Skriv till ägaren i appen",
+            "Kolla intyget i varje annons"
+          ]
+        },
+        {
+          "heading": "6. Imoova: bäst för relocation-erbjudanden",
+          "body": [
+            "Hyrbolagen behöver få bilar flyttade tillbaka dit efterfrågan finns, och på relocation-sajter får du köra dem för mycket lite pengar. Imoova marknadsför relocations från 1 NZD om dagen och visade 91 annonser i Nya Zeeland den 20 oktober 2026. Företaget säger att bränsle, vägtullar och parkering inte ingår, att vissa leverantörer lägger till förmåner som bränsle eller färjebiljetter vid brådskande flyttar och att du har ett begränsat antal dagar på dig att köra färdigt.",
+            "Hyrbolagen annonserar också sina egna relocations: Travellers Autobarn listade sju gratisdagar från Christchurch till Auckland i november med 1 500 km tillåtna, en deposition på 3 500 NZD och en avbokningsavgift på 200 NZD. Imoova-appen är gratis men hade bara 1 betyg från Nya Zeeland, så läs varje annons noga när det gäller deposition, kilometergräns och datum."
+          ],
+          "tips": [
+            "Passar bäst för: billiga enkelresor",
+            "Bränsle ingår oftast inte",
+            "Fasta datum och depositioner gäller"
+          ]
+        },
+        {
+          "heading": "7. NZMCA App: bäst för NZMCA-medlemmar på långa resor",
+          "body": [
+            "New Zealand Motor Caravan Associations app öppnar sin Travel Directory bara för medlemmar. Att gå med kostar 252 NZD första året (150 NZD i anslutningsavgift och 102 NZD i årsavgift), och medlemmar kan stå på NZMCA Parks för 5 NZD per vuxen och natt.",
+            "iPhone-appen hade inga betyg från Nya Zeeland ännu, och Android-versionen fick 3,2 av 156 i Google Play. Du behöver inte äga en husbil för att gå med, men varje fordon du använder måste vara <a data-guide=\"self-contained-campervan-green-warrant\">certifierat self-contained</a>, så väg medlemsavgiften mot hur många nätter du räknar med att stå i parkerna."
+          ],
+          "tips": [
+            "Passar bäst för: NZMCA-medlemmar på långa resor",
+            "Bara för medlemmar",
+            "NZMCA Parks för 5 NZD per vuxen"
+          ]
+        },
+        {
+          "heading": "Green warrant: kontrollen som ingen app gör åt dig",
+          "body": [
+            "Från 7 juni 2026 gäller blå warrants för self-contained inte längre för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, och Plumbers, Gasfitters and Drainlayers Board säger att freedom camping på allmän mark utan green warrant kan ge böter på 400 NZD. Ett certifierat fordon måste ha en fast monterad toalett inne i fordonet som går att använda, samt färskvatten, diskbänk, förvaring av avloppsvatten och förvaring av sopor.",
+            "Reglerna gäller freedom camping på allmän mark, inte på campingplatser, holiday parks eller privat mark. En apps pin för freedom camping säger inte om din bil uppfyller kraven, så titta efter kortet med <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a> när du hämtar bilen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fler appar värda att ha i bilen",
+          "body": [
+            "Gaspy visar bränslepriser som användarna rapporterar och är gratis, med en valfri Gold-prenumeration för 1,69 NZD i månaden. MetService har de officiella varningarna för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>, som väger tungt i en husbil på en utsatt väg, och Plan My Walk har ledvarningar för vandringsdagarna.",
+            "Går bilen på diesel ska du fråga hyrbolaget hur de tar ut RUC (Road User Charges), alltså vägavgiften per kilometer för dieselfordon: Spaceships fakturerar den till exempel efter resan, efter hur långt du har kört."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så valde och kontrollerade vi",
+          "body": [
+            "Vi tittade på de appar som hyrbolagen i Nya Zeeland hänvisar sina kunder till, och på de appar som husbilsresenärer använder för platser, relocations och medlemskap. Betyg och priser kommer från App Store för Nya Zeeland den 20 oktober 2026; villkoren för hyra och relocation kommer från varje företags egen webbplats samma dag och ändras ofta.",
+            "Vi redovisar funktionerna så som utvecklarna och företagen beskriver dem, så en funktion som inte nämns här är inget påstående om att en app saknar den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vilken är den bästa appen för en husbilsresa i Nya Zeeland?",
+          "Det beror på steget. För att planera nätter på DOC-campingplatser rekommenderar vi KiwiCamping, som vi gör själva; thl Roadtrip passar dig som hyr av Maui, Britz, Mighty och Apollo, CamperMate är en gratis allroundapp och Rankers ger recensioner från resenärer om var man kan bo."
+        ],
+        [
+          "Hur fungerar relocation av husbil i Nya Zeeland?",
+          "Ett hyrbolag behöver få en bil flyttad och erbjuder den för så lite som 1 NZD om dagen på fasta datum. Imoova säger att bränsle, vägtullar och parkering inte ingår, men att vissa leverantörer lägger till bränsle eller en färjebiljett, och bolag som Travellers Autobarn kräver en deposition."
+        ],
+        [
+          "Behöver jag ett green warrant för att fricampa i husbil?",
+          "Ja, på allmän mark där freedom camping är begränsad till self-contained-fordon. Sedan 7 juni 2026 gäller inte blå warrants längre, och att campa utan green warrant kan ge böter på 400 NZD. Campingplatser, holiday parks och privat mark omfattas inte av regeln."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Britz: thl Roadtrip-appen"
+        },
+        {
+          "label": "Travellers Autobarn: CamperMate-appen"
+        },
+        {
+          "label": "Travellers Autobarn: relocation av husbil"
+        },
+        {
+          "label": "Spaceships: campingappar"
+        },
+        {
+          "label": "Imoova: vad är en relocation"
+        },
+        {
+          "label": "Camplify New Zealand"
+        },
+        {
+          "label": "NZMCA-medlemskap"
+        },
+        {
+          "label": "Rankers Camping NZ-appen"
+        },
+        {
+          "label": "Self-contained-fordon (Plumbers, Gasfitters and Drainlayers Board)"
+        },
+        {
+          "label": "Road user charges (govt.nz)"
+        },
+        {
+          "label": "Spaceships: road user charges"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-weather-apps-new-zealand": {
+      "title": "Bästa väderappar för camping och vandring i Nya Zeeland 2026",
+      "description": "MetService, Windy, Yr, Plan My Walk, Apple Weather och KiwiCamping jämförda för camping och vandring i Nya Zeeland, plus bergsprognoserna som bara finns på webbplatser. Kontrollerat oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Linsformade moln över Lake Pukaki med Aoraki Mount Cook vid horisonten",
+      "intro": "Vädret i Nya Zeeland slår snabbt om, och rätt app beror på frågan: om en varning för oväder gäller kvällens campingplats, hur hård vinden blir på en bergskam i morgon eller vilken stuga längs rutten som får regn. Ingen enskild app svarar på alla tre. Det här är väderapparna vi skulle använda för camping och vandring 2026, med betyg och priser från App Store för Nya Zeeland kontrollerade den 20 oktober 2026, och de officiella webbplatserna som fortfarande slår alla appar när det gäller bergsprognoser. KiwiCamping är vår egen, så den står först; den är rätt val för bara ett jobb, och de andra är bättre på resten.",
+      "sections": [
+        {
+          "heading": "De bästa väderapparna i korthet",
+          "body": [
+            "Använd MetService för de officiella varningarna, Windy eller Yr för en andra prognos och för vind, och Plan My Walk på vandringsdagarna. KiwiCamping lägger en prognos på varje campingplats och stuga i din resa, vilket är bra för att välja mellan platser men inte är en varningstjänst. Innan du går över trädgränsen ska du läsa MetServices bergsprognos och New Zealand Avalanche Advisory på webben.",
+            "Inget oberoende test av väderappars träffsäkerhet i Nya Zeeland dök upp i vår research, så se påståenden om att en app är den mest träffsäkra som åsikter. Det som går att kontrollera är källan: MetService är den enda auktoriserade leverantören av varningar för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a> i Nya Zeeland."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Bäst för",
+              "Pris",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "En prognos för varje campingplats och stuga på din resa",
+                "Gratis att ladda ner, med köp i appen",
+                "3,8 (4)"
+              ],
+              [
+                "MetService",
+                "Officiella varningar och bevakningar (watches)",
+                "Gratis med annonser; utan annonser 1,99 NZD i månaden",
+                "2,4 (1 126)"
+              ],
+              [
+                "Windy.com",
+                "Vind, vindbyar och många prognosmodeller",
+                "Gratis; Premium som köp i appen",
+                "4,8 (9 058)"
+              ],
+              [
+                "Yr",
+                "En gratis andra prognos",
+                "Gratis",
+                "3,6 (87)"
+              ],
+              [
+                "Plan My Walk",
+                "Vandringsdagar och ledvarningar",
+                "Gratis",
+                "4,6 (612)"
+              ],
+              [
+                "Apple Weather",
+                "Snabba kontroller, inbyggd i iPhone",
+                "Gratis",
+                "4,7 (18 741)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: bäst för att jämföra vädret på dina nästa campingplatser",
+          "body": [
+            "KiwiCamping visar Apple Weather på varje platssida: aktuellt väder, vindbyar, hur varmt det känns och sju dagars högsta och lägsta temperaturer. I en resa visar varje stopp prognosen för den dag du planerar att komma, så du ser innan du kör om campingplatsen vid sjön eller den skyddade i bushen passar de kommande två nätterna.",
+            "Det gör appen till ett planeringsverktyg och inte ett säkerhetsverktyg. Den har inte MetServices varningar, och den behöver täckning för att ladda en prognos. Platsinformation som faciliteter och avgifter finns kvar i telefonen när täckningen försvinner. Appen finns bara för iPhone, iOS 26 eller senare, med 4 betyg från Nya Zeeland (3,8)."
+          ],
+          "tips": [
+            "Passar bäst för: vädret vid varje stopp på din resa",
+            "Bara iPhone, iOS 26 eller senare",
+            "Inte en varningstjänst"
+          ]
+        },
+        {
+          "heading": "2. MetService: bäst för officiella varningar",
+          "body": [
+            "MetService är Nya Zeelands nationella vädertjänst och den enda auktoriserade leverantören av varningar för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>. Appen visar varningar och bevakningar (watches) för din plats, regnradar, 48-timmarsdiagram för prognosen, regnkartor för tre dygn samt UV-index och brandrisk, med notiser vid oväder. Den är gratis med annonser, eller utan annonser för 1,99 NZD i månaden eller 22,99 NZD om året.",
+            "Det är också appen med lägst betyg här: 2,4 av 1 126 betyg från Nya Zeeland, där recensionerna på appens sida i App Store klagar på annonserna och designen. Bergs-, sjö- och landsbygdsprognoserna finns på metservice.com och inte i den här appen, och de separata apparna Marine och Rural Weather uppdaterades senast 2023."
+          ],
+          "tips": [
+            "Passar bäst för: officiella varningar och bevakningar",
+            "Utan annonser 1,99 NZD i månaden",
+            "Bergsprognoserna finns på webbplatsen"
+          ]
+        },
+        {
+          "heading": "3. Windy.com: bäst för vind och för att jämföra prognoser",
+          "body": [
+            "Windy har fler än 15 vädermodeller, bland dem den europeiska ECMWF, på animerade kartor över vind, vindbyar, regn och moln. Det är bra när prognoserna spretar: är modellerna överens om ett vindskifte till sydlig vind kan du planera efter det, och är de inte det håller du planen flexibel. Appen fick 4,8 av 9 058 betyg från Nya Zeeland.",
+            "Den är gratis, och Premium, ett köp i appen, lägger till modelljämförelse, prognoser med en timmes upplösning, en 15-dagarsprognos och 24-timmars radarloopar. Den utfärdar inga varningar för Nya Zeeland, så kombinera den med MetService."
+          ],
+          "tips": [
+            "Passar bäst för: vind, vindbyar och prognosmodeller",
+            "Premium lägger till modelljämförelse",
+            "Inga officiella varningar för NZ"
+          ]
+        },
+        {
+          "heading": "4. Yr: bäst för en enkel gratis andra åsikt",
+          "body": [
+            "Yr är gratisappen från Norges offentliga vädertjänst, vars prognoser den använder över hela världen, även för platsprognoser i Nya Zeeland. Appens sida för Nya Zeeland visar inga köp i appen. Den fick 3,6 av 87 betyg från Nya Zeeland.",
+            "Vissa vandrare rekommenderar den på forum, men vi hittade inget oberoende test av hur den fungerar här. Använd den som en kontroll mot MetService och inte som din enda källa."
+          ],
+          "tips": [
+            "Passar bäst för: en gratis kontroll",
+            "Prognoser från Norges vädertjänst",
+            "Inga varningar för NZ"
+          ]
+        },
+        {
+          "heading": "5. Plan My Walk: bäst för vandringsdagarna",
+          "body": [
+            "Plan My Walk, från New Zealand Mountain Safety Council, kombinerar väderprognoser och varningar med officiella ledvarningar för fler än 3 500 leder, stugor och campingplatser och skickar din färdplan till en nödkontakt. Appen kostar ingenting, och 612 betyg i App Store för Nya Zeeland ger i snitt 4,6.",
+            "DOC:s Land Safety Code ber dig kolla prognosen, ändra planerna vid behov och lämna besked om din plan till någon, och den här appen sköter båda sakerna på en och samma skärm."
+          ],
+          "tips": [
+            "Passar bäst för: promenader och vandringar",
+            "Skickar din plan till en kontakt",
+            "Gratis"
+          ]
+        },
+        {
+          "heading": "6. Apple Weather: bäst för en snabb titt på en iPhone",
+          "body": [
+            "Apple Weather följer med iPhone och fick 4,7 av 18 741 betyg från Nya Zeeland. Apple anger MetService som en av datakällorna för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a> i Nya Zeeland, men regnprognoser för nästa timme erbjuds inte här, så de regnvarningar minut för minut som en del resenärer väntar sig från andra länder dyker inte upp.",
+            "Den duger för en titt på veckan som kommer. För en bergsdag eller en utsatt campingplats ska du också titta på MetServices egen prognos."
+          ],
+          "tips": [
+            "Passar bäst för: en snabb daglig kontroll",
+            "Inbyggd i iPhone",
+            "Ingen regnprognos för nästa timme i NZ"
+          ]
+        },
+        {
+          "heading": "Prognoserna som bara finns på webbplatser",
+          "body": [
+            "MetService publicerar bergsprognoser för nationalparker och regioner som Aoraki/Mount Cook, Arthur's Pass, Fiordland, Mount Aspiring, Nelson Lakes och Tongariro, med en bergsprognos för Nya Zeeland för områden över 800 meter som anger nollgradersgränsen. Webbplatsen har också sjö- och landsbygdsprognoser.",
+            "DOC hänvisar vandrare till NIWA:s parkprognoser på weather.niwa.co.nz, som nu drivs av Earth Sciences New Zealand, och till New Zealand Avalanche Advisory före varje tur i lavinterräng. Spara de här sidorna innan du tappar täckningen; ingen av dem uppdateras när du är utanför täckning."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Varningar, bevakningar och vad de kräver av dig",
+          "body": [
+            "MetService använder tre nivåer. En gul bevakning (watch) betyder att <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a> är möjligt men inte säkert än: var uppmärksam. En orange varning betyder att du ska agera, och de flesta varningar är orange. En röd varning, som är reserverad för de mest extrema händelserna, betyder att du ska agera omedelbart.",
+            "För campare är en orange varning för kraftigt regn eller vind tillfället att flytta bort från floder och utsatta bergskammar och välja en skyddad plats. Vår guide till oväder under campingresan går igenom vad du ska göra på varje nivå."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så valde och kontrollerade vi",
+          "body": [
+            "Vi jämförde de väderappar som campare och vandrare i Nya Zeeland använder mest, med företräde för officiella källor. Betyg, priser och funktioner kommer från varje apps sida i App Store för Nya Zeeland den 20 oktober 2026, och definitionerna av varningarna från MetServices egen sida.",
+            "Vi beskriver funktioner så som utvecklarna gör, så en funktion som inte nämns är inget påstående om att en app saknar den. Prognoser är prognoser: på dagen går det du ser på berget före vilken app som helst."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vilken är den bästa väderappen för Nya Zeeland?",
+          "För officiella varningar för oväder använder du MetService, den enda auktoriserade leverantören av dem i Nya Zeeland. Lägg till Windy eller Yr som en andra prognos, Plan My Walk på vandringsdagarna och KiwiCamping, som vi gör, för att jämföra prognosen för varje campingplats på din resa."
+        ],
+        [
+          "Vilken väderapp är mest träffsäker i Nya Zeeland?",
+          "Vi hittade inget oberoende test som svarar på det. Jämför två källor, till exempel MetService och Windy, och lita mer på det som båda är överens om än på någon av dem för sig. För berg använder du MetServices bergsprognoser på webbplatsen."
+        ],
+        [
+          "Var hittar jag en bergsprognos i Nya Zeeland?",
+          "MetService publicerar bergsprognoser för nationalparker och regioner som Aoraki/Mount Cook, Arthur's Pass, Fiordland och Tongariro på metservice.com, med nollgradersgränsen. Kolla också New Zealand Avalanche Advisory innan du går in i lavinterräng."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MetService: om varningar för oväder"
+        },
+        {
+          "label": "MetService: väderappar"
+        },
+        {
+          "label": "MetService: prognoser för berg och parker"
+        },
+        {
+          "label": "Windy.com: uppgifter från appsidan (Apple, butiken för Nya Zeeland)"
+        },
+        {
+          "label": "Yr: uppgifter från appsidan (Apple, butiken för Nya Zeeland)"
+        },
+        {
+          "label": "Plan My Walk (New Zealand Mountain Safety Council)"
+        },
+        {
+          "label": "Apple Weather: datakällor"
+        },
+        {
+          "label": "DOC: väder och Land Safety Code"
+        },
+        {
+          "label": "NIWA Weather (Earth Sciences New Zealand)"
+        },
+        {
+          "label": "New Zealand Avalanche Advisory"
+        }
+      ],
+      "priceTable": null
+    },
+    "fuel-price-apps-new-zealand": {
+      "title": "Bästa apparna för bränslepriser i Nya Zeeland 2026: Gaspy, kedjornas appar och rabatter jämförda",
+      "description": "Gaspy, Z, bp, Waitomo, Gull, g.a.s., Mobil och mataffärernas bränsleprogram jämförda: vad var och en sparar per liter, vad den kostar och var den gäller. Priser och villkor kontrollerade i oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "State Highway 6 slingrar sig längs stranden vid Lake Wakatipu under grå moln",
+      "intro": "Bränsle har blivit en av de största kostnaderna på en roadtrip i Nya Zeeland 2026. MBIE:s veckovisa uppföljning visade vanlig blyfri 91 på 354,4 cent per liter på prisskyltarna veckan som daterades 9 oktober 2026, mot 260,4 cent ett år tidigare, och diesel på 323,8 cent före RUC (Road User Charges, vägavgiften per kilometer för dieselfordon); siffrorna för den senaste veckan är preliminära. Med de priserna lönar det sig att veta både var bränslet är billigast och vilka rabatter du har, så det bästa upplägget är en app som visar priser och en eller två som sänker dem. Vi gör KiwiCamping, en campingapp som inte följer bränslepriser, så den är inte rankad här; den kommer med sist och bara för den planeringsuppgift den kan hjälpa till med.",
+      "sections": [
+        {
+          "heading": "Bränsleapparna i korthet",
+          "body": [
+            "Börja med Gaspy för att se vilken mack nära dig som är billigast. Lägg sedan till appen för den kedja du kör förbi oftast: Z:s app ger en daglig rabatt och en större på onsdagar, bp:s app fungerar med Woolworths kort Everyday Rewards, och Foodstuffs Club+ gör en vanlig matinhandling till rabatt hos Z och på deltagande Caltex-stationer. Waitomo och Gull belönar dig i stället med saldo i appen och kampanjdagar, inte med en fast rabatt i cent per liter.",
+            "Rabatterna är begränsade per tankning, oftast till 50 eller 100 liter, och programmen kan ändra beloppen med kort varsel. Kolla villkoren i appen före en lång körning i stället för att lita på förra månadens erbjudande."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland och på varje företags egen sida. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Så sparar du pengar",
+              "Pris",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "Gaspy",
+                "Visar pumppriser som användarna rapporterar",
+                "Gratis; Gold 1,69 NZD i månaden",
+                "4,0 (773)"
+              ],
+              [
+                "Z Energy",
+                "Minst 6 cent per liter varje dag, 15 cent på onsdagar",
+                "Gratis",
+                "4,8 (13 568)"
+              ],
+              [
+                "BPme",
+                "6 cent per liter med Everyday Rewards (upp till 50 l)",
+                "Gratis",
+                "4,9 (34 764)"
+              ],
+              [
+                "Club+ (Foodstuffs)",
+                "8 cent per liter hos Z eller Caltex efter ett mataffärsköp",
+                "Gratis",
+                "1,8 (682)"
+              ],
+              [
+                "Waitomo",
+                "Lyckohjul som ger saldo i appen vid tankning för 20 NZD eller mer",
+                "Gratis",
+                "4,8 (23 195)"
+              ],
+              [
+                "Gull",
+                "Kampanjdagar; låser upp obemannade pumpar",
+                "Gratis",
+                "4,8 (17 818)"
+              ],
+              [
+                "g.a.s.",
+                "Everyday Rewards-rabatter på g.a.s.-stationer",
+                "Gratis",
+                "4,7 (1 027)"
+              ],
+              [
+                "Mobil",
+                "Smiles-poäng och betalning från bilen",
+                "Gratis",
+                "4,7 (10 135)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. Gaspy: bäst för att hitta den billigaste macken",
+          "body": [
+            "Gaspy är en priskarta som byggs av användarna och drivs av Hello World Limited. Användarna skriver in priset som visas på pumpen, andra användare bekräftar det, och båda tjänar Spy Coins när ett pris har bekräftats. Enligt Gaspys hjälpsida kan uppdateringar bara göras för stationer nära dig på grund av tidigare missbruk, vilket håller priserna ärliga men gör att en avlägsen mack kan visa en gammal siffra.",
+            "Du kan tala om för appen vilka rabatter du har, så visar den ditt rabatterade pris ovanför pumppriset; gratisversionen tillåter en egen rabatt och Gaspy Gold, 1,69 NZD i månaden, så många du vill. Favoriter kan skicka prisvarningar, och kartan listar också laddstationer för elbilar. Appen fick 4,0 av 773 betyg från Nya Zeeland."
+          ],
+          "tips": [
+            "Passar bäst för: att jämföra stationer",
+            "Gold 1,69 NZD i månaden",
+            "Kolla när priset senast uppdaterades"
+          ]
+        },
+        {
+          "heading": "2. Z Energy-appen: bäst daglig rabatt hos en stor kedja",
+          "body": [
+            "Z Rewards i Z-appen tar av minst 6 cent per liter vid varje tankning, upp till 100 liter, och 15 cent per liter från kl. 6.00 på onsdagen till kl. 6.00 på torsdagen när du skannar i appen. Du får också en poäng för varje dollar du lägger på bränsle och Airpoints på bränsle, och med Sharetank kan du dela en virtuell tank med upp till fem personer.",
+            "Appen fick 4,8 av 13 568 betyg från Nya Zeeland. Z:s siffra för onsdagar har ändrats förut (den var 10 cent i mitten av 2025), så bekräfta den på sidan för belöningar innan du planerar en tankning efter den."
+          ],
+          "tips": [
+            "Passar bäst för: en jämn rabatt hos Z",
+            "15 cent per liter på onsdagar",
+            "Upp till 100 liter per tankning"
+          ]
+        },
+        {
+          "heading": "3. BPme med Everyday Rewards: bäst om du handlar på Woolworths",
+          "body": [
+            "bp tar av 6 cent per liter på upp till 50 liter när du skannar ett Everyday Rewards-kort, och samma kort ger en poäng per liter mot presentkort på 15 NZD. Woolworths, som driver Everyday Rewards, ger också bonusrabatter på bränsle för vissa matinköp; deras storlek ändras och är inte fastslagen i villkoren. BPme kopplar ditt Everyday Rewards-kort i appen och fick 4,9 av 34 764 betyg från Nya Zeeland.",
+            "Samma Everyday Rewards-rabatt gäller på g.a.s.-stationer, och g.a.s.-appen (4,7 av 1 027) kopplar kortet där."
+          ],
+          "tips": [
+            "Passar bäst för: bp och g.a.s. med ett kort",
+            "6 cent per liter på upp till 50 l",
+            "Bonusrabatterna varierar"
+          ]
+        },
+        {
+          "heading": "4. Club+: bäst om du handlar på PAK'nSAVE eller New World",
+          "body": [
+            "Foodstuffs lanserade Club+ i juni 2026 i stället för New Worlds Clubcard. Ett köp som räknas, på 1 NZD eller mer, i en butik utan egen bränslestation ger en rabatt på 8 cent per liter, upp till 100 liter, att använda hos Z eller på deltagande Caltex-stationer inom 30 dagar. PAK'nSAVE- och New World-butiker med bränsle på plats ger sin egen rabatt, som Club+ anger till minst 8 cent per liter på North Island och 4 cent på South Island.",
+            "Club+-appen fick bara 1,8 av 682 betyg från Nya Zeeland, och enligt villkoren får Foodstuffs ändra rabatten när som helst. Gull ingår inte i programmet."
+          ],
+          "tips": [
+            "Passar bäst för: Foodstuffs-kunder",
+            "8 cent per liter hos Z och Caltex",
+            "Använd inom 30 dagar"
+          ]
+        },
+        {
+          "heading": "5. Waitomo, Gull och Mobil: bäst på sina egna stationer",
+          "body": [
+            "Waitomos app (4,8 av 23 195) låter dig snurra ett lyckohjul och vinna Moolah, ett saldo i appen, när du tankar för 20 NZD eller mer, plus skraplotter när det du handlar för under en månad passerar vissa belopp; Moolah används i appen. Gulls app (4,8 av 17 818) låser upp pumparna på obemannade Gull-stationer och vid Pay at Pump-filerna och har kampanjdagar. Ingen av dem anger någon fast rabatt i cent per liter.",
+            "Mobils app (4,7 av 10 135) ger Smiles-poäng och låter dig betala bränslet från bilen. Vi kunde inte ladda Mobils egen sida för belöningar för att bekräfta den aktuella rabatten, så kolla den i appen."
+          ],
+          "tips": [
+            "Waitomo: saldo i appen som du vinner på tur",
+            "Gull: obemannade pumpar och kampanjdagar",
+            "Mobil: Smiles-poäng"
+          ]
+        },
+        {
+          "heading": "Diesel, elbilar och avlägsna vägar",
+          "body": [
+            "MBIE:s dieselsiffra är utan RUC. NZTA tar 76 NZD per 1 000 km för lätta dieselfordon, så lägg till ungefär 7,6 cent per kilometer på pumppriset när du jämför en dieselcampervan med en bensinbil. Hyrbolagen fakturerar RUC på olika sätt; fråga innan du bokar.",
+            "För elbilar visar PlugShare (4,6 av 4 173) laddare från många nätverk, och Z-appen hanterar också Z:s elbilsladdning. På avlägsna rutter är det billigaste bränslet det du redan har: DOC påpekar att det inte finns några bensinstationer mellan Te Anau och Milford Sound, så tanka i Te Anau."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Där KiwiCamping passar in",
+          "body": [
+            "KiwiCamping visar inte bränslepriser, så den finns inte med i listan ovan. Det den visar är avstånd: en resa i KiwiCamping ger avståndet och körtiden för varje etapp mellan stoppen, så du ser vilka etapper som är långa och kan planera var du tankar före dem. En samling sparade platser visar också hur långt det är mellan de två platser som ligger längst ifrån varandra, en grov bild av hur stor sträcka resan täcker.",
+            "KiwiCamping fungerar på iPhone med iOS 26 eller senare, och de fyra betygen från Nya Zeeland är i snitt 3,8. Vill du räkna om avstånden till dollar sköter vår kalkylator för bränsle och avstånd här på webbplatsen räknandet."
+          ],
+          "tips": [
+            "Använd den för: att upptäcka långa etapper mellan stopp",
+            "Bara iPhone, iOS 26 eller senare",
+            "Inga bränslepriser"
+          ]
+        },
+        {
+          "heading": "Så valde och kontrollerade vi",
+          "body": [
+            "Vi tog med prisappen med mest användning i Nya Zeeland och appen för varje bränslemärke eller lojalitetsprogram vi kunde verifiera. Rabatter och tak kommer från varje företags egen sida för belöningar eller villkor den 20 oktober 2026; betygen kommer från App Store för Nya Zeeland samma dag. Bränslepriserna kommer från MBIE:s veckotabell, som anger priset på skyltarna, inte priset efter rabatter.",
+            "Vi beskriver varje program så som företaget gör. En rabatt eller funktion som inte nämns här är inget påstående om att den inte finns."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vilken app visar de billigaste bensinpriserna i Nya Zeeland?",
+          "Gaspy. Användarna rapporterar priset på pumpen och andra användare bekräftar det, så du kan jämföra stationer nära dig innan du tankar. Appen är gratis, med en valfri Gold-prenumeration för 1,69 NZD i månaden som låter dig lägga till fler egna rabatter."
+        ],
+        [
+          "Vilken bränslerabatt är störst i Nya Zeeland?",
+          "Det ändras. Den 20 oktober 2026 gav Z:s app minst 6 cent per liter varje dag och 15 cent på onsdagar, bp och g.a.s. gav 6 cent med Everyday Rewards och Foodstuffs Club+ gav 8 cent hos Z och på deltagande Caltex-stationer. Varje program sätter ett tak för antal liter per tankning och kan ändra beloppen."
+        ],
+        [
+          "Kostar en dieselcampervan mer i drift i Nya Zeeland?",
+          "Diesel är billigare vid pumpen, men lätta dieselfordon betalar också RUC på 76 NZD per 1 000 km, ungefär 7,6 cent per kilometer. Lägg till det på bränslekostnaden när du jämför en dieselcampervan med ett bensinfordon."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE: veckovis uppföljning av bränslepriser"
+        },
+        {
+          "label": "Gaspy: hjälp"
+        },
+        {
+          "label": "Z Rewards: kampanjer"
+        },
+        {
+          "label": "bp och Everyday Rewards"
+        },
+        {
+          "label": "Everyday Rewards: vanliga frågor (Woolworths)"
+        },
+        {
+          "label": "Club+: bränslerabatter"
+        },
+        {
+          "label": "Waitomo: vanliga frågor"
+        },
+        {
+          "label": "Gull-appen"
+        },
+        {
+          "label": "NZTA: satser för road user charges"
+        },
+        {
+          "label": "DOC: tips för förare på Milford Road"
+        }
+      ],
+      "priceTable": null
+    },
+    "working-holiday-apps-new-zealand": {
+      "title": "Bästa apparna för working holiday i Nya Zeeland 2026",
+      "description": "Apparna du verkligen använder på working holiday i Nya Zeeland 2026: SEEK, Trade Me, Wise, bank- och mobilappar, säsongsjobb och farm stays, plus de officiella stegen som ingen app gör åt dig. Kontrollerat oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Höstfärgade rader av vinrankor i Awatere Valley i Marlborough under snötäckta bergskedjor",
+      "intro": "En working holiday i Nya Zeeland drivs av en handfull appar: en för att hitta jobb, en för att flytta pengar, en bank och ett mobilabonnemang, och något som talar om var du ska sova när jobbet ligger tre timmar från det förra. Det här är apparna vi skulle installera inför en working holiday 2026, med betyg från App Store för Nya Zeeland kontrollerade den 20 oktober 2026, och de officiella stegen som fortfarande sker på myndigheternas webbplatser och inte i någon app. Vi gör KiwiCamping och listar den först för resedelen av året; för jobb, pengar och pappersarbete är det de andra apparna nedan som gör jobbet.",
+      "sections": [
+        {
+          "heading": "Working holiday-apparna i korthet",
+          "body": [
+            "För jobb installerar du SEEK och Trade Me, och tittar på PickNZ för frukt- och grönsakssäsongerna. Wise flyttar pengar hemifrån billigt, en nyzeeländsk bankapp tar emot lönen, och ett kontantkort från Skinny, 2degrees, Spark eller One NZ gör att arbetsgivare når dig. KiwiCamping täcker nätterna mellan jobben, WWOOF och Workaway täcker arbete mot sängplats, och NZTA-appen hjälper när du väl äger en bil.",
+            "Ditt IRD-nummer, din skattekod och dina visumvillkor ordnas på Inland Revenues och Immigration New Zealands webbplatser. Fixa det först, för en arbetsgivare behöver ditt IRD-nummer före din första lön."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland och på varje leverantörs egen webbplats. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Uppgift",
+              "Pris",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Platser att sova på mellan jobben",
+                "Gratis att ladda ner, med köp i appen",
+                "3,8 (4)"
+              ],
+              [
+                "SEEK",
+                "Jobbannonser i hela Nya Zeeland",
+                "Gratis",
+                "4,7 (68 389)"
+              ],
+              [
+                "Trade Me",
+                "Jobb, bostäder och begagnade bilar",
+                "Gratis",
+                "4,6 (65 564)"
+              ],
+              [
+                "Wise",
+                "Flytta pengar hemifrån",
+                "Gratis app; avgifter från 0,22 procent",
+                "4,8 (23 432)"
+              ],
+              [
+                "BNZ Mobile",
+                "Ett nyzeeländskt bankkonto",
+                "Gratis",
+                "4,8 (56 574)"
+              ],
+              [
+                "Skinny Mobile",
+                "Kontantkort för samtal och data",
+                "Gratis app; kontantkort",
+                "4,4 (18 813)"
+              ],
+              [
+                "Workaway",
+                "Arbete mot sängplats",
+                "Gratis app; årligt medlemskap",
+                "4,8 (144)"
+              ],
+              [
+                "NZTA Waka Kotahi",
+                "Rego, WoF och RUC för bilen",
+                "Gratis",
+                "4,8 (581)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: bäst för att hitta en säng mellan jobben",
+          "body": [
+            "Säsongsjobb får dig att flytta runt: kiwi i Bay of Plenty, druvor i Marlborough, äpplen i Hawke's Bay. KiwiCamping är en karta över var du kan stanna på vägen, byggd på DOC:s data, med 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> i datan från augusti 2026 och de avgifter för vuxna som DOC anger, från 5 till 25 NZD per natt på de platser som har en publicerad avgift. Holiday parks, boenden och turer ligger på samma karta, och kostnader kan visas i din hemvaluta bredvid beloppet i nyzeeländska dollar.",
+            "Sparade platser läggs i <a data-guide=\"save-places-kiwicamping\">samlingar</a>, och en resa gör dem till stopp med datum, anteckningar och avståndet mellan dem, vilket hjälper när du ska ordna ett nytt jobb och en plats att sova nära det. Platsinformationen finns kvar i telefonen när täckningen försvinner; kartbilder, ruttberäkning, väder och foton kräver täckning. Appen finns bara för iPhone, kräver iOS 26 eller senare och har 4 betyg från Nya Zeeland (3,8), utan recensioner från resenärer."
+          ],
+          "tips": [
+            "Passar bäst för: DOC-campingplatser nära nästa jobb",
+            "Kostnader i din egen valuta",
+            "Bara iPhone, iOS 26 eller senare"
+          ]
+        },
+        {
+          "heading": "2. SEEK och Trade Me: bäst för att hitta jobb",
+          "body": [
+            "SEEK listar jobb i hela Nya Zeeland och Australien och låter dig söka med en sparad profil. Appen fick 4,7 av 68 389 betyg från Nya Zeeland. Trade Me, Nya Zeelands största marknadsplats, har jobb i sin huvudapp liksom hyresbostäder och bilar och fick 4,6 av 65 564; den äldre fristående appen Trade Me Jobs har inte uppdaterats sedan 2024.",
+            "Indeed (4,7 av 4 185) är en tredje källa till annonser. Oavsett vilken du använder: läs i annonsen vilka arbetstider som gäller och om boende erbjuds, för det betyder mer på en working holiday än jobbtiteln."
+          ],
+          "tips": [
+            "SEEK för de flesta typer av jobb",
+            "Trade Me för jobb, bostäder och bilar",
+            "Indeed som en tredje källa"
+          ]
+        },
+        {
+          "heading": "3. PickNZ: bäst för frukt- och grönsakssäsonger",
+          "body": [
+            "PickNZ är en jobbtavla för frukt- och grönsaksarbete, där du kan söka på region och gröda, så att du kan ordna nästa skördejobb när det pågående tar slut. Kolla startdatum, väntade arbetstider och hur lönen räknas ut i varje annons innan du reser till regionen.",
+            "Vi hittade ingen PickNZ-app i App Store för Nya Zeeland, så använd webbplatsen. Vissa annonser där gäller Recognised Seasonal Employer scheme, som är ett separat visum för arbetare från länder i Stillahavsområdet och inte för working holiday-resenärer."
+          ],
+          "tips": [
+            "Webbplats, ingen app hittades",
+            "Sök på gröda och region",
+            "RSE-annonser är ett annat visum"
+          ]
+        },
+        {
+          "heading": "4. WWOOF NZ och Workaway: bäst för arbete mot sängplats",
+          "body": [
+            "WWOOF New Zealand kopplar ihop volontärer med ekologiska gårdar; medlemskap på nätet kostar 25 NZD för en person eller 30 NZD för ett par och gäller i 15 månader. WWOOF NZ säger att du behöver ett working holiday-visum för att vara volontär även utan lön, så kolla villkoren för ditt eget visum med Immigration New Zealand. Den internationella WWOOF-appen hade bara 3 betyg från Nya Zeeland, så webbplatsen är det enklare sättet in.",
+            "Workaway har värdar över hela världen, bland annat i Nya Zeeland, mot ett årligt medlemskap från ungefär 59 USD beroende på abonnemang; appen fick 4,8 av 144 betyg från Nya Zeeland. Båda kan göra att pengarna räcker långt, men arbetstider och villkor varierar mellan värdarna, så kom överens om dem innan du kommer."
+          ],
+          "tips": [
+            "WWOOF NZ 25 NZD för 15 månader",
+            "Workaway från ungefär 59 USD om året",
+            "Kom överens om arbetstiderna med värden"
+          ]
+        },
+        {
+          "heading": "5. Wise och en nyzeeländsk bankapp: bäst för pengar",
+          "body": [
+            "Wise flyttar pengar mellan valutor med en avgift som börjar på 0,22 procent av beloppet, och kortet ger 400 nyzeeländska dollar i månaden i gratis kontantuttag, sedan 2,69 procent över det. Appen fick 4,8 av 23 432 betyg från Nya Zeeland och passar de första veckorna innan ditt bankkonto fungerar.",
+            "Lönen sätts in på ett nyzeeländskt konto. BNZ låter dig ansöka från utlandet, det gör ASB också beroende på ditt land och ditt visum, ANZ låter dig öppna ett konto innan du kommer och aktivera det på ett kontor, och Westpacs migrantteam kan i vissa fall ordna ett konto upp till 180 dagar innan du flyttar. Bankernas appar fick 4,8 (BNZ, 56 574), 4,7 (Westpac, 24 380), 4,0 (ANZ, 7 946) och 3,2 (ASB, 2 106). Ett nyzeeländskt bankkonto underlättar också ansökan om IRD-nummer."
+          ],
+          "tips": [
+            "Wise för de första veckorna",
+            "Öppna bankkontot tidigt",
+            "BNZ- och Westpac-apparna har högst betyg"
+          ]
+        },
+        {
+          "heading": "6. Skinny, 2degrees, Spark eller One NZ: bäst för att vara nåbar",
+          "body": [
+            "Arbetsgivare ringer, så ett nyzeeländskt nummer är viktigt. Skinnys app fick 4,4 av 18 813 betyg från Nya Zeeland och Skinny säljer kontantkort på 52 veckor från 296 NZD; 2degrees kontantkort börjar på 8 NZD i månaden; huvudappen 2degrees NZ fick 1,6 av 998 och kontantkortsappen Data Clock 4,7 av 17 570. Sparks app fick 3,7 och One NZ:s 2,0.",
+            "Täckningen utanför tätorterna varierar mellan nätverken, så kolla varje leverantörs täckningskarta för de regioner där du tänker arbeta innan du väljer."
+          ],
+          "tips": [
+            "Skinny 52-veckorskort från 296 NZD",
+            "2degrees kontantkort från 8 NZD i månaden",
+            "Kolla täckningen där du ska arbeta"
+          ]
+        },
+        {
+          "heading": "7. NZTA Waka Kotahi: bäst när du väl äger en bil",
+          "body": [
+            "Köper du en bil eller en van, till exempel via Trade Me, visar NZ Transport Agencys app vilka fordon som är registrerade på dig, håller koll på när registreringen (rego) och <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> (Warrant of Fitness, Nya Zeelands bilbesiktning) går ut och på dina RUC (Road User Charges, vägavgiften per kilometer för dieselfordon), och tar emot betalning av rego och RUC. Appen fick 4,8 av 581 betyg från Nya Zeeland.",
+            "AA:s app (4,4 av 44) rymmer ett AA-medlemskort och uppgifter om Roadservice om du går med. Kolla datumen för warrant of fitness och registrering på fordonet innan du köper; vår guide om WoF och registrering förklarar båda."
+          ],
+          "tips": [
+            "Rego, WoF och RUC i en app",
+            "Kolla datumen innan du köper",
+            "AA-appen för medlemmar"
+          ]
+        },
+        {
+          "heading": "De officiella stegen som ingen app gör åt dig",
+          "body": [
+            "Ansök om ditt IRD-nummer på Inland Revenues webbplats via myIR; det är gratis, och nyanlända kan oftast räkna med det inom två dagar via sms eller e-post. Inland Revenue kan be om ett fungerande nyzeeländskt bankkonto eller ett customer due diligence-formulär (IR997). Ge din arbetsgivare numret och en skattekod på ett IR330-formulär, för utan skattekod beskattas du enligt non-declaration-satsen på 45 procent.",
+            "Känn också till dina villkor. Sedan 20 april 2026 har working holiday-visum villkoret att du måste arbeta för en arbetsgivare, enligt ett anställningsavtal eller ett uppdragsavtal, och att du inte får anställa andra. Den lägsta timlönen för vuxna är 23,95 NZD i timmen från 1 april 2026 och gäller även tillfälliga migranter. Du kan inte gå med i KiwiSaver med ett tillfälligt visum eller arbetsvisum, och semesterersättning på 8 procent av varje lön får bara betalas ut löpande vid visstidsarbete under 12 månader eller verkligt oregelbundet arbete, och då bara om det är avtalat i ditt anställningsavtal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så valde och kontrollerade vi",
+          "body": [
+            "Vi valde de appar som sköter de uppgifter varje working holiday-resenär stöter på, med företräde för det mest använda alternativet i varje kategori. Betygen kommer från App Store för Nya Zeeland den 20 oktober 2026, avgifterna från varje leverantörs egen sida och varje regel från Immigration New Zealand, Inland Revenue eller Employment New Zealand samma dag.",
+            "Visumvillkor, krav på pengar och längd skiljer sig åt mellan pass, så läs sidan för ditt eget land på immigration.govt.nz. Vi beskriver funktioner så som varje leverantör gör, och en funktion som inte nämns är inget påstående om att en app saknar den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vilka appar behöver jag för en working holiday i Nya Zeeland?",
+          "SEEK och Trade Me för jobb, Wise för att flytta pengar, en nyzeeländsk bankapp och ett kontantkort till mobilen. Reser du mellan säsongsjobb visar KiwiCamping, som vi gör, DOC-campingplatser och andra platser att bo på vägen."
+        ],
+        [
+          "Hur får jag ett IRD-nummer med working holiday-visum?",
+          "Ansök via myIR på Inland Revenues webbplats. Det är gratis, och nyanlända får numret oftast via sms eller e-post inom två dagar. Inland Revenue kan be om ett nyzeeländskt bankkonto eller ett IR997-formulär, så öppna kontot tidigt."
+        ],
+        [
+          "Vad är lägsta timlön i Nya Zeeland 2026?",
+          "Den lägsta timlönen för vuxna är 23,95 NZD i timmen från 1 april 2026, och Employment New Zealand säger att tillfälliga migranter har samma minimirättigheter i arbetslivet. Utan skattekod från dig måste din arbetsgivare ta ut skatt enligt non-declaration-satsen på 45 procent."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Working holiday-visum (Immigration New Zealand)"
+        },
+        {
+          "label": "Anställningsvillkor för öppna arbetsvisum från 20 april 2026"
+        },
+        {
+          "label": "IRD-nummer för nyanlända (Inland Revenue)"
+        },
+        {
+          "label": "Skattekoder (Inland Revenue)"
+        },
+        {
+          "label": "Lägsta lön (Employment New Zealand)"
+        },
+        {
+          "label": "Löpande semesterersättning (Employment New Zealand)"
+        },
+        {
+          "label": "Gå med i KiwiSaver (Inland Revenue)"
+        },
+        {
+          "label": "PickNZ"
+        },
+        {
+          "label": "WWOOF New Zealand: medlemskap"
+        },
+        {
+          "label": "Workaway: registrering för medlemskap"
+        },
+        {
+          "label": "Wise New Zealand: priser"
+        }
+      ],
+      "priceTable": null
+    },
+    "money-saving-travel-apps-new-zealand": {
+      "title": "Bästa apparna för att spara pengar på resan i Nya Zeeland 2026",
+      "description": "Apparna som sänker de verkliga kostnaderna för en resa i Nya Zeeland 2026: billigare nätter, bränsle, matvaror, materbjudanden, färjor och delade kostnader. Betyg, priser och villkor kontrollerade i oktober 2026.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Berg som speglar sig i Moke Lakes stilla vatten nära Queenstown, där DOC driver en campingplats",
+      "intro": "Att resa i Nya Zeeland kostade mer 2026 än ett år tidigare, och bränslet drev uppgången: Stats NZ rapporterade att bensinen steg med 24,3 procent och dieseln med 55,8 procent under året till september 2026, mot 2,4 procent för mat. MBIE:s uppföljning visade vanlig bensin på 354,4 cent per liter på stationernas prisskyltar veckan som daterades 9 oktober 2026. Apparna nedan tar sig an en resas största kostnader i den ordning de kan spara mest, med betyg från App Store för Nya Zeeland och villkor för erbjudanden från varje företags egen sida, kontrollerade den 20 oktober 2026. Vi gör KiwiCamping, som står först eftersom boendet är en av de största dagliga kostnaderna på en resa och den hjälper till med just den räkningen; för allt annat är det de andra apparna som sparar pengarna.",
+      "sections": [
+        {
+          "heading": "Sparapparna i korthet",
+          "body": [
+            "Sänk notan för nätterna med avgifterna för <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> och kostnadsfiltret i KiwiCamping, och bränslenotan med Gaspy. Ladda ner appen för kundklubben i den mataffär du använder, och prova Too Good To Go och First Table för billigare måltider. Rankers erbjudanden och Interislanders kampanj tar en bit av priset på färjor och aktiviteter, AT Mobile sätter tak för biljettpriserna i Auckland, och Splitwise eller Tricount ser till att en delad husbil blir rättvis.",
+            "De flesta av de här besparingarna hänger på villkor som ändras. Läs de aktuella villkoren i varje app innan ett erbjudande avgör dina planer."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Kontrollerat 20 oktober 2026 i App Store för Nya Zeeland och på varje företags egen webbplats. Betygen är genomsnitt i App Store för Nya Zeeland med antal betyg.",
+            "head": [
+              "App",
+              "Det den sparar på",
+              "Pris",
+              "Betyg i NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Nätter på DOC-campingplatser och rutten",
+                "Gratis att ladda ner, med köp i appen",
+                "3,8 (4)"
+              ],
+              [
+                "Gaspy",
+                "Bränsle, genom att hitta den billigaste stationen",
+                "Gratis; Gold 1,69 NZD i månaden",
+                "4,0 (773)"
+              ],
+              [
+                "Club+ eller Everyday Rewards",
+                "Rabatter på matvaror och bränsle",
+                "Gratis",
+                "1,8 (682) / 2,2 (496)"
+              ],
+              [
+                "Grocer",
+                "Jämföra priser i mataffärer",
+                "Gratis",
+                "3,6 (128)"
+              ],
+              [
+                "Too Good To Go",
+                "Osåld mat från butiker och caféer",
+                "Gratis app; betala per påse",
+                "4,9 (2 940)"
+              ],
+              [
+                "First Table",
+                "Mat till halva priset vid tidiga sittningar",
+                "Gratis app; bokningsavgift",
+                "4,9 (8 549)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Färje- och aktivitetsrabatter",
+                "Gratis",
+                "4,7 (3 322)"
+              ],
+              [
+                "AT Mobile",
+                "Biljettpriser i Aucklands kollektivtrafik",
+                "Gratis",
+                "4,5 (32 728)"
+              ],
+              [
+                "Splitwise",
+                "Dela kostnader rättvist",
+                "Gratis; Pro som köp i appen",
+                "4,4 (689)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: bäst för att sänka boendekostnaden",
+          "body": [
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> är bland de billigaste ställena att sova på i Nya Zeeland, och KiwiCamping är byggd kring DOC:s data. I datan från augusti 2026 fanns 287 DOC-campingplatser, och på de 208 med en publicerad avgift för vuxna låg avgiften mellan 5 och 25 NZD per natt, med medianen 12,75 NZD. Ett kostnadsfilter avgränsar kartan efter avgift, och varje plats visar DOC:s avgiftsuppgifter i nyzeeländska dollar och, om du vill, i din egen valuta. Där DOC anger en nyare avgiftstabell med ett startdatum ska du gå efter den.",
+            "Resor räknar ihop avståndet mellan stoppen, vilket hjälper dig att upptäcka en avstickare som kostar mer i bränsle än den sparar i avgifter. Platsinformationen finns kvar i telefonen utan täckning; kartbilder, ruttberäkning, väder och foton kräver täckning. Appen finns bara för iPhone, kräver iOS 26 eller senare och har 4 betyg från Nya Zeeland (3,8)."
+          ],
+          "tips": [
+            "Passar bäst för: billigare nätter på DOC-campingplatser",
+            "Avgifter i din egen valuta",
+            "Bara iPhone, iOS 26 eller senare"
+          ]
+        },
+        {
+          "heading": "2. Gaspy: bäst för bränslenotan",
+          "body": [
+            "Med bensin över 3,50 NZD per liter på skyltarna är det enklaste sättet att spara på en roadtrip att välja den billigare stationen i varje stad. Gaspy visar priser som användarna rapporterar från pumpen och bekräftar, och kan visa ditt pris efter en kundrabatt du har. De 773 betygen från Nya Zeeland ligger i snitt på 4,0, och den valfria nivån Gold kostar 1,69 NZD i månaden.",
+            "Vår guide till bränsleprisappar jämför Gaspy med apparna från Z, bp, Waitomo och Gull och mataffärernas bränsleprogram i detalj."
+          ],
+          "tips": [
+            "Passar bäst för: att jämföra bränslepriser",
+            "Gratis; Gold 1,69 NZD i månaden",
+            "Kombinera den med ett rabattprogram"
+          ]
+        },
+        {
+          "heading": "3. Mataffärsappar och Grocer: bäst för matvaror",
+          "body": [
+            "Foodstuffs Club+ ersatte New Worlds Clubcard 2026. Programmet ger Club+ Dollars, som var och en är värd 1 NZD, motsvarande 0,75 procent av vad du handlar för på New World och 0,38 procent på Four Square; kunder på PAK'nSAVE kan använda dem men tjänar inte in några. Club+ ger också rabatter på bränsle. Woolworths Everyday Rewards fungerar likadant med poäng, presentkort och bp-rabatter på bränsle. Båda apparna är dåligt betygsatta i App Store för Nya Zeeland, 1,8 av 682 för Club+ och 2,2 av 496 för Everyday Rewards, men kortet fungerar oavsett om du gillar appen.",
+            "Grocer, en oberoende app, jämför <a data-guide=\"new-zealand-grocery-prices-2026\">matpriser</a> mellan de stora mataffärerna och sparar prishistorik och inköpslistor. Appen fick 3,6 av 128 betyg från Nya Zeeland och uppdaterades senast i december 2025, så se priserna som en fingervisning och kolla hyllan."
+          ],
+          "tips": [
+            "Club+ för New World och PAK'nSAVE",
+            "Everyday Rewards för Woolworths",
+            "Grocer för att jämföra priser"
+          ]
+        },
+        {
+          "heading": "4. Too Good To Go och Foodprint: bäst för billiga måltider av mat som annars skulle slängas",
+          "body": [
+            "Too Good To Go säljer överraskningspåsar med osålda mellanmål, måltider och råvaror från butiker, caféer, matbutiker och restauranger nära dig till ett nedsatt pris. Appen fick 4,9 av 2 940 betyg från Nya Zeeland; kolla hur många butiker som är med där du reser innan du räknar med den.",
+            "Foodprint har ett liknande syfte: samarbetande matställen lägger varje dag upp överskott och mat med skönhetsfel till rabatterat pris, och du beställer och betalar i appen. Appen fick 3,8 av 112 och uppdaterades i augusti 2026."
+          ],
+          "tips": [
+            "Passar bäst för: billigare mat",
+            "Innehållet i påsen varierar",
+            "Kolla utbudet där du är"
+          ]
+        },
+        {
+          "heading": "5. First Table: bäst för att äta ute för mindre",
+          "body": [
+            "First Table bokar kvällens första bord på deltagande restauranger med 50 procent rabatt på matnotan. Du betalar en bokningsavgift för att låsa bordet, som enligt First Table varierar mellan restaurangerna och inte dras av från notan, och rabatten gäller mat, inte drycker.",
+            "Appen fick 4,9 av 8 549 betyg från Nya Zeeland, högst av alla appar här. Tidiga sittningar passar en resedag som slutar i en stad före mörkret."
+          ],
+          "tips": [
+            "Passar bäst för: mat till halva priset",
+            "Bokningsavgift per bord",
+            "Bara mat, inte drycker"
+          ]
+        },
+        {
+          "heading": "6. Rankers, GrabOne och färjeerbjudandena: bäst för aktiviteter och överfarten",
+          "body": [
+            "Rankers gratisapp ger 10 procent rabatt på Bluebridges överfarter över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a> med koden RANKERS och appens gratis digitala kort, som du visar vid incheckningen, och aktiviteterna i appen har rabatter på 10 till 15 procent. GrabOne (4,6 av 3 717) säljer rabatterade kuponger på aktiviteter, mat och boende.",
+            "Interislanders kampanj BoostSail ger 15 procent rabatt på biljetter för vuxna gångpassagerare med koden BOOSTSAIL1 för bokningar gjorda mellan 21 september och 14 december 2026, och varje etapp måste resas senast 15 december 2026. Den gäller inte fordon och kan inte kombineras med andra erbjudanden. Kolla båda färjebolagen innan du bokar ett fordon, eftersom priserna varierar mellan avgångar och säsonger."
+          ],
+          "tips": [
+            "Rankers: 10 procent rabatt på Bluebridge",
+            "BoostSail: gångpassagerare, res senast 15 december",
+            "GrabOne för kuponger"
+          ]
+        },
+        {
+          "heading": "Billigare nätter utan app",
+          "body": [
+            "DOC bestämmer avgifterna för campingplatserna: enkla campingplatser är gratis, standardplatserna kostar 10 till 20 NZD per vuxen och natt och campingplatserna med service 25 NZD per vuxen utan el. Enskilda campingplatser kan skilja sig åt, så kolla varje plats. Medlemmar i New Zealand Motor Caravan Association betalar 252 NZD första året och kan sedan stå på NZMCA Parks för 5 NZD per vuxen och natt.",
+            "För <a data-guide=\"accommodation-costs-new-zealand-2026\">vandrarhem</a> jämför Hostelworld (4,8 av 5 114) sängar, och YHA anger en besparing på 10 procent för sina medlemmar. Billigast av allt är att köra en husbil åt ett hyrbolag, en så kallad relocation: Imoova listar dem från 1 NZD om dagen, men bränsle ingår oftast inte och datumen är fasta."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Att ta sig runt och dela kostnader",
+          "body": [
+            "I Auckland fyller AT Mobile (4,5 av 32 728) på ett AT HOP-kort, och Auckland Transport tar ut högst 50 NZD under sju dagar med AT HOP och 20 NZD per dag med ett kontaktlöst bankkort. Planera efter de taken för en stadsvistelse före eller efter roadtripen.",
+            "Delar du husbil med någon kan Splitwise (4,4 av 689) eller Tricount (4,8 av 294) hålla reda på vem som har betalat vad och göra upp i slutet, och TravelSpend (4,8 av 157) följer utgifterna mot en <a data-guide=\"new-zealand-travel-cost-2026\">daglig budget</a>. Wise (4,8 av 23 432) växlar pengar från ett utländskt konto med avgifter från 0,22 procent."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Så valde och kontrollerade vi",
+          "body": [
+            "Vi rangordnade apparna efter hur stor kostnad de angriper, med boende och bränsle först. Betygen kommer från App Store för Nya Zeeland den 20 oktober 2026; villkor för erbjudanden, avgifter och tak kommer från varje företags egen sida samma dag, och prisuppgifterna från MBIE och Stats NZ.",
+            "Erbjudanden ändras ofta och en del är säsongsbetonade. Vi beskriver varje erbjudande så som företaget gör, och en funktion som inte nämns här är inget påstående om att en app saknar den."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Vilket är det bästa sättet att spara pengar när man reser i Nya Zeeland?",
+          "Ta de två största kostnaderna först: sov på DOC-campingplatser, där avgifterna låg mellan 5 och 25 NZD per vuxen och natt på platserna med en publicerad avgift, och använd Gaspy för att hitta billigare bränsle. KiwiCamping, som vi gör, visar avgifterna för DOC-campingplatser och låter dig filtrera på kostnad."
+        ],
+        [
+          "Vilka appar ger rabatter i Nya Zeeland?",
+          "Mataffärsappar som Club+ och Everyday Rewards ger poäng och bränslerabatter, First Table ger 50 procent rabatt på mat vid tidiga sittningar, Too Good To Go säljer osåld mat billigt, och Rankers ger 10 procent rabatt på Bluebridge-färjor och 10 till 15 procent på vissa aktiviteter."
+        ],
+        [
+          "Finns det ett billigt sätt att ta sig över Cooksundet?",
+          "Jämför Interislander och Bluebridge för ditt datum. Interislanders BoostSail-kod ger 15 procent rabatt på biljetter för vuxna gångpassagerare för bokningar gjorda till och med 14 december 2026 och resa senast 15 december 2026, och den gäller inte fordon; Rankers kod ger 10 procent rabatt på Bluebridge. Kolla vad varje rabatt gäller innan du bokar ett fordon."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "MBIE: veckovis uppföljning av bränslepriser"
+        },
+        {
+          "label": "Utvalda prisindex, september 2026 (Stats NZ)"
+        },
+        {
+          "label": "DOC: faciliteter och avgifter på campingplatser"
+        },
+        {
+          "label": "Club+: lansering (Foodstuffs)"
+        },
+        {
+          "label": "First Table: vanliga frågor"
+        },
+        {
+          "label": "Rankers: färjerabatt"
+        },
+        {
+          "label": "Interislander: kampanjen BoostSail"
+        },
+        {
+          "label": "Auckland Transport: tåg- och bussbiljetter"
+        },
+        {
+          "label": "NZMCA-medlemskap"
+        },
+        {
+          "label": "Imoova: vad är en relocation"
+        }
+      ],
+      "priceTable": null
     }
   },
   "tools": {

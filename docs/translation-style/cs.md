@@ -158,6 +158,7 @@ section), not in the title or meta description. Glosses go in parentheses, short
 |---|---|---|
 | road trip | **road trip** (road tripu, road tripy), or „cesta autem“, „cesta obytným autem“ | ASO AU „roadtrip“; Web: travelbible „12denní road trip“. Write „road trip“ as two words |
 | trip (the app object and in general) | **cesta** | App's „výlet“ ✗ for a multi-week trip; quote app buttons exactly when naming them („Nový výlet“, „Přidat k výletu“) |
+| tours (BookEasy/BookIt, free) | **organizované zájezdy (tours)** | Judge rule: never the same word as for the Pass-only trips. Never „výlet/výlety“ for tours, and never „zájezd“ for trips (Pass) |
 | trip planner | **plánovač cest** | ASO KiwiCamping subtitle „Plánovač cest po NZ“ |
 | itinerary | **itinerář**, „plán cesty“ | ASO, App ✓ |
 | stop (on a trip) | **zastávka** | |
@@ -216,17 +217,17 @@ mistranslation (✗: use the fix).
 | Trips, trip planner | **cesty**, **plánovač cest**; app buttons quoted exactly („Nový výlet“, „Přidat k výletu“) |
 | To-dos, packing list | **úkoly** (app „Úkoly“), **seznam věcí na cestu** |
 | Directions | **navigace**, „trasa“ (✗ app „Pokyny“) |
-| Look Around | **Apple Look Around** (the app uses Apple's imagery; never write Street View) |
+| Look Around / Street View | **Street View** (the site's name for it), „Look Around“ only where the English names Apple's imagery |
 | Settings | **Nastavení** |
 | Filters | **filtry** |
 | the Pass, Premium | **Pass** (Passu, s Passem), **Premium**. ✗ App „Viz Průsmyk“ (mountain pass) |
 | Restore Purchases | **Obnovit nákupy** |
 | widgets | **widgety** |
-| App Store, iPhone, iOS, iCloud, Apple, MapKit, Look Around | unchanged |
+| App Store, iPhone, iOS, iCloud, Apple, MapKit, Street View, Look Around | unchanged |
 
 ### Names that never change, and how to write place names
 
-- Brands: AussieCamps, KiwiCamping, BookEasy, BookIt, App Store, Apple Look Around, Apple, Google.
+- Brands: AussieCamps, KiwiCamping, BookEasy, BookIt, App Store, Street View, Apple, Google.
 - **Protected state, territory and island names** (the engine rejects anything else): New South Wales,
   Victoria, Queensland, South Australia, Western Australia, Tasmania, Northern Territory, Australian
   Capital Territory, Central Australia; North Island, South Island, Stewart Island, Aotearoa, Aoraki.

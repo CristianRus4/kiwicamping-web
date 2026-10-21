@@ -196,6 +196,7 @@ mistranslation (listed here with the replacement). Labels go in »…«.
 | Pins | **»Pins«** | Pins |
 | All saved | **»Alle gemte«** | U: "Alt sammen gemt" (mistranslation) |
 | trip, trip planner | **tur**, **rejse**, **rejseplanlægger** | Rejseplanlægger |
+| tours (BookEasy/BookIt, free) | **udflugter** ("BookIt-ophold og -udflugter") | Judge rule: never "ture" for tours, because "ture" is the Pass-only trips. Using one word for both reads as if trips were free. |
 | itinerary | **rejseplan** | U: Rejseplan (not "Rejsevejledning") |
 | stop | **stop** (et stop, stoppet, flere stop) | Stop |
 | to-dos, packing list | **huskeliste**, **to-dos**, **pakkeliste** | U: huskeliste |
