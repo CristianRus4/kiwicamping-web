@@ -265,6 +265,20 @@
       }
     ]
   },
+  "/images/articles/can-i-camp-anywhere-on-doc-land.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/can-i-camp-anywhere-on-doc-land-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/can-i-camp-anywhere-on-doc-land.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/can-i-sleep-in-my-car-in-new-zealand.webp": {
     "width": 1600,
     "height": 900,

@@ -94,3 +94,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `working-holiday-apps-new-zealand` | Autumn in the Awatere Valley.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Autumn_in_the_Awatere_Valley.jpg) |
 | `money-saving-travel-apps-new-zealand` | Moke Lake.jpg | André Richard Chalmers | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Moke_Lake.jpg) |
 | `can-i-sleep-in-my-car-in-new-zealand` | A Nice Rest Area at Lake Taupo NZ - panoramio.jpg | Herman Darnel Ibrahi… | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:A_Nice_Rest_Area_at_Lake_Taupo_NZ_-_panoramio.jpg) |
+| `can-i-camp-anywhere-on-doc-land` | Siberia Campsite, Kahurangi, New Zealand 02.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Siberia_Campsite,_Kahurangi,_New_Zealand_02.jpg) |
