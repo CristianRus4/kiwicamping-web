@@ -10214,7 +10214,7 @@
           "heading": "De bästa husbilsapparna i korthet",
           "body": [
             "För att planera nätterna samlar KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, DOC-stugor och en rutt med datum på ett ställe. Hyr du bilen av Maui, Britz, Mighty eller Apollo ska du installera thl Roadtrip, som de varumärkena hänvisar sina hyrkunder till; Travellers Autobarn hänvisar till CamperMate i stället. Rankers ger recensioner från resenärer om var man kan ställa sig, Camplify hyr ut privatägda bilar, Imoova listar relocation-erbjudanden och NZMCA App är till för medlemmar i New Zealand Motor Caravan Association.",
-            "Regeln som ingen app avgör åt dig gäller self-containment. Sedan 7 juni 2026 är det bara ett green warrant som räknas för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på allmän mark, så fråga hyrbolaget innan du bokar om bilen har ett."
+            "Det enda ingen app kan avgöra åt dig är om bilen är self-contained, alltså certifierat självförsörjande. Sedan 7 juni 2026 är det bara ett green warrant som räknas för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på allmän mark, så fråga hyrbolaget innan du bokar om bilen har ett."
           ],
           "tips": [],
           "table": {
@@ -10368,7 +10368,7 @@
           "heading": "Fler appar värda att ha i bilen",
           "body": [
             "Gaspy visar bränslepriser som användarna rapporterar och är gratis, med en valfri Gold-prenumeration för 1,69 NZD i månaden. MetService har de officiella varningarna för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>, som väger tungt i en husbil på en utsatt väg, och Plan My Walk har ledvarningar för vandringsdagarna.",
-            "Går bilen på diesel ska du fråga hyrbolaget hur de tar ut road user charges: Spaceships fakturerar dem till exempel efter resan, efter hur långt du har kört."
+            "Går bilen på diesel ska du fråga hyrbolaget hur de tar ut RUC (Road User Charges), alltså vägavgiften per kilometer för dieselfordon: Spaceships fakturerar den till exempel efter resan, efter hur långt du har kört."
           ],
           "tips": []
         },
@@ -10463,7 +10463,7 @@
               ],
               [
                 "MetService",
-                "Officiella varningar och watches",
+                "Officiella varningar och bevakningar (watches)",
                 "Gratis med annonser; utan annonser 1,99 NZD i månaden",
                 "2,4 (1 126)"
               ],
@@ -10509,11 +10509,11 @@
         {
           "heading": "2. MetService: bäst för officiella varningar",
           "body": [
-            "MetService är Nya Zeelands nationella vädertjänst och den enda auktoriserade leverantören av varningar för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>. Appen visar varningar och watches för din plats, regnradar, 48-timmarsdiagram för prognosen, regnkartor för tre dygn samt UV-index och brandrisk, med notiser vid oväder. Den är gratis med annonser, eller utan annonser för 1,99 NZD i månaden eller 22,99 NZD om året.",
+            "MetService är Nya Zeelands nationella vädertjänst och den enda auktoriserade leverantören av varningar för <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a>. Appen visar varningar och bevakningar (watches) för din plats, regnradar, 48-timmarsdiagram för prognosen, regnkartor för tre dygn samt UV-index och brandrisk, med notiser vid oväder. Den är gratis med annonser, eller utan annonser för 1,99 NZD i månaden eller 22,99 NZD om året.",
             "Det är också appen med lägst betyg här: 2,4 av 1 126 betyg från Nya Zeeland, där recensionerna på appens sida i App Store klagar på annonserna och designen. Bergs-, sjö- och landsbygdsprognoserna finns på metservice.com och inte i den här appen, och de separata apparna Marine och Rural Weather uppdaterades senast 2023."
           ],
           "tips": [
-            "Passar bäst för: officiella varningar och watches",
+            "Passar bäst för: officiella varningar och bevakningar",
             "Utan annonser 1,99 NZD i månaden",
             "Bergsprognoserna finns på webbplatsen"
           ]
@@ -10575,9 +10575,9 @@
           "tips": []
         },
         {
-          "heading": "Varningar, watches och vad de ber dig göra",
+          "heading": "Varningar, bevakningar och vad de kräver av dig",
           "body": [
-            "MetService använder tre nivåer. En gul watch betyder att <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a> är möjligt men inte säkert än: var uppmärksam. En orange varning betyder att du ska agera, och de flesta varningar är orange. En röd varning, som är reserverad för de mest extrema händelserna, betyder att du ska agera omedelbart.",
+            "MetService använder tre nivåer. En gul bevakning (watch) betyder att <a data-guide=\"new-zealand-severe-weather-camping\">oväder</a> är möjligt men inte säkert än: var uppmärksam. En orange varning betyder att du ska agera, och de flesta varningar är orange. En röd varning, som är reserverad för de mest extrema händelserna, betyder att du ska agera omedelbart.",
             "För campare är en orange varning för kraftigt regn eller vind tillfället att flytta bort från floder och utsatta bergskammar och välja en skyddad plats. Vår guide till oväder under campingresan går igenom vad du ska göra på varje nivå."
           ],
           "tips": []
@@ -10644,12 +10644,12 @@
       "description": "Gaspy, Z, bp, Waitomo, Gull, g.a.s., Mobil och mataffärernas bränsleprogram jämförda: vad var och en sparar per liter, vad den kostar och var den gäller. Priser och villkor kontrollerade i oktober 2026.",
       "region": "Nya Zeeland",
       "imageAlt": "State Highway 6 slingrar sig längs stranden vid Lake Wakatipu under grå moln",
-      "intro": "Bränsle har blivit en av de största kostnaderna på en roadtrip i Nya Zeeland 2026. MBIE:s veckovisa uppföljning visade vanlig blyfri 91 på 354,4 cent per liter på prisskyltarna veckan som daterades 9 oktober 2026, mot 260,4 cent ett år tidigare, och diesel på 323,8 cent före road user charges; siffrorna för den senaste veckan är preliminära. Med de priserna lönar det sig att veta både var bränslet är billigast och vilka rabatter du har, så det bästa upplägget är en app som visar priser och en eller två som sänker dem. Vi gör KiwiCamping, en campingapp som inte följer bränslepriser, så den är inte rankad här; den kommer med sist och bara för den planeringsuppgift den kan hjälpa till med.",
+      "intro": "Bränsle har blivit en av de största kostnaderna på en roadtrip i Nya Zeeland 2026. MBIE:s veckovisa uppföljning visade vanlig blyfri 91 på 354,4 cent per liter på prisskyltarna veckan som daterades 9 oktober 2026, mot 260,4 cent ett år tidigare, och diesel på 323,8 cent före RUC (Road User Charges, vägavgiften per kilometer för dieselfordon); siffrorna för den senaste veckan är preliminära. Med de priserna lönar det sig att veta både var bränslet är billigast och vilka rabatter du har, så det bästa upplägget är en app som visar priser och en eller två som sänker dem. Vi gör KiwiCamping, en campingapp som inte följer bränslepriser, så den är inte rankad här; den kommer med sist och bara för den planeringsuppgift den kan hjälpa till med.",
       "sections": [
         {
           "heading": "Bränsleapparna i korthet",
           "body": [
-            "Börja med Gaspy för att se vilken mack nära dig som är billigast. Lägg sedan till appen för det nätverk du passerar oftast: Z:s app ger en daglig rabatt och en större på onsdagar, bp:s app fungerar med Woolworths kort Everyday Rewards, och Foodstuffs Club+ gör en mataffärsrunda till rabatt hos Z och på deltagande Caltex-stationer. Waitomo och Gull belönar dig med credit i appen och kampanjdagar i stället för en fast rabatt i cent per liter.",
+            "Börja med Gaspy för att se vilken mack nära dig som är billigast. Lägg sedan till appen för den kedja du kör förbi oftast: Z:s app ger en daglig rabatt och en större på onsdagar, bp:s app fungerar med Woolworths kort Everyday Rewards, och Foodstuffs Club+ gör en vanlig matinhandling till rabatt hos Z och på deltagande Caltex-stationer. Waitomo och Gull belönar dig i stället med saldo i appen och kampanjdagar, inte med en fast rabatt i cent per liter.",
             "Rabatterna är begränsade per tankning, oftast till 50 eller 100 liter, och programmen kan ändra beloppen med kort varsel. Kolla villkoren i appen före en lång körning i stället för att lita på förra månadens erbjudande."
           ],
           "tips": [],
@@ -10688,7 +10688,7 @@
               ],
               [
                 "Waitomo",
-                "Lyckohjul med credit vid tankning för 20 NZD eller mer",
+                "Lyckohjul som ger saldo i appen vid tankning för 20 NZD eller mer",
                 "Gratis",
                 "4,8 (23 195)"
               ],
@@ -10726,7 +10726,7 @@
           ]
         },
         {
-          "heading": "2. Z Energy-appen: bäst som daglig rabatt hos ett stort nätverk",
+          "heading": "2. Z Energy-appen: bäst daglig rabatt hos en stor kedja",
           "body": [
             "Z Rewards i Z-appen tar av minst 6 cent per liter vid varje tankning, upp till 100 liter, och 15 cent per liter från kl. 6.00 på onsdagen till kl. 6.00 på torsdagen när du skannar i appen. Du får också en poäng för varje dollar du lägger på bränsle och Airpoints på bränsle, och med Sharetank kan du dela en virtuell tank med upp till fem personer.",
             "Appen fick 4,8 av 13 568 betyg från Nya Zeeland. Z:s siffra för onsdagar har ändrats förut (den var 10 cent i mitten av 2025), så bekräfta den på sidan för belöningar innan du planerar en tankning efter den."
@@ -10762,13 +10762,13 @@
           ]
         },
         {
-          "heading": "5. Waitomo, Gull och Mobil: bäst för sina egna nätverk",
+          "heading": "5. Waitomo, Gull och Mobil: bäst på sina egna stationer",
           "body": [
-            "Waitomos app (4,8 av 23 195) ger ett lyckohjul med credit som heter Moolah vid tankning för 20 NZD eller mer, plus skraplotter när det du handlar för under en månad passerar vissa belopp; Moolah används i appen. Gulls app (4,8 av 17 818) låser upp pumpar på obemannade Gull-stationer och Pay at Pump-körfält och kör kampanjdagar. Ingen av dem anger någon fast rabatt i cent per liter.",
+            "Waitomos app (4,8 av 23 195) låter dig snurra ett lyckohjul och vinna Moolah, ett saldo i appen, när du tankar för 20 NZD eller mer, plus skraplotter när det du handlar för under en månad passerar vissa belopp; Moolah används i appen. Gulls app (4,8 av 17 818) låser upp pumparna på obemannade Gull-stationer och vid Pay at Pump-filerna och har kampanjdagar. Ingen av dem anger någon fast rabatt i cent per liter.",
             "Mobils app (4,7 av 10 135) ger Smiles-poäng och låter dig betala bränslet från bilen. Vi kunde inte ladda Mobils egen sida för belöningar för att bekräfta den aktuella rabatten, så kolla den i appen."
           ],
           "tips": [
-            "Waitomo: credit som bygger på tur",
+            "Waitomo: saldo i appen som du vinner på tur",
             "Gull: obemannade pumpar och kampanjdagar",
             "Mobil: Smiles-poäng"
           ]
@@ -10776,7 +10776,7 @@
         {
           "heading": "Diesel, elbilar och avlägsna vägar",
           "body": [
-            "MBIE:s dieselsiffra är utan road user charges. NZTA tar 76 NZD per 1 000 km för lätta dieselfordon, så lägg till ungefär 7,6 cent per kilometer på pumppriset när du jämför en dieselcampervan med en bensinbil. Hyrbolagen fakturerar RUC på olika sätt; fråga innan du bokar.",
+            "MBIE:s dieselsiffra är utan RUC. NZTA tar 76 NZD per 1 000 km för lätta dieselfordon, så lägg till ungefär 7,6 cent per kilometer på pumppriset när du jämför en dieselcampervan med en bensinbil. Hyrbolagen fakturerar RUC på olika sätt; fråga innan du bokar.",
             "För elbilar visar PlugShare (4,6 av 4 173) laddare från många nätverk, och Z-appen hanterar också Z:s elbilsladdning. På avlägsna rutter är det billigaste bränslet det du redan har: DOC påpekar att det inte finns några bensinstationer mellan Te Anau och Milford Sound, så tanka i Te Anau."
           ],
           "tips": []
@@ -10813,7 +10813,7 @@
         ],
         [
           "Kostar en dieselcampervan mer i drift i Nya Zeeland?",
-          "Diesel är billigare vid pumpen, men lätta dieselfordon betalar också road user charges på 76 NZD per 1 000 km, ungefär 7,6 cent per kilometer. Lägg till det på bränslekostnaden när du jämför en dieselcampervan med ett bensinfordon."
+          "Diesel är billigare vid pumpen, men lätta dieselfordon betalar också RUC på 76 NZD per 1 000 km, ungefär 7,6 cent per kilometer. Lägg till det på bränslekostnaden när du jämför en dieselcampervan med ett bensinfordon."
         ]
       ],
       "sources": [
@@ -10940,7 +10940,7 @@
           "heading": "2. SEEK och Trade Me: bäst för att hitta jobb",
           "body": [
             "SEEK listar jobb i hela Nya Zeeland och Australien och låter dig söka med en sparad profil. Appen fick 4,7 av 68 389 betyg från Nya Zeeland. Trade Me, Nya Zeelands största marknadsplats, har jobb i sin huvudapp liksom hyresbostäder och bilar och fick 4,6 av 65 564; den äldre fristående appen Trade Me Jobs har inte uppdaterats sedan 2024.",
-            "Indeed (4,7 av 4 185) är en tredje källa till annonser. Läs annonsen på vilken som helst av dem för arbetstiderna och om boende ingår, vilket betyder mer på en working holiday än jobbtiteln."
+            "Indeed (4,7 av 4 185) är en tredje källa till annonser. Oavsett vilken du använder: läs i annonsen vilka arbetstider som gäller och om boende erbjuds, för det betyder mer på en working holiday än jobbtiteln."
           ],
           "tips": [
             "SEEK för de flesta typer av jobb",
@@ -10999,7 +10999,7 @@
         {
           "heading": "7. NZTA Waka Kotahi: bäst när du väl äger en bil",
           "body": [
-            "Köper du en bil eller en van, till exempel via Trade Me, visar NZ Transport Agencys app fordonen som är registrerade på dig, följer registrering och utgångsdatum för <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> samt dina road user charges, och tar emot betalning av rego och RUC. Appen fick 4,8 av 581 betyg från Nya Zeeland.",
+            "Köper du en bil eller en van, till exempel via Trade Me, visar NZ Transport Agencys app vilka fordon som är registrerade på dig, håller koll på när registreringen (rego) och <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> (Warrant of Fitness, Nya Zeelands bilbesiktning) går ut och på dina RUC (Road User Charges, vägavgiften per kilometer för dieselfordon), och tar emot betalning av rego och RUC. Appen fick 4,8 av 581 betyg från Nya Zeeland.",
             "AA:s app (4,4 av 44) rymmer ett AA-medlemskort och uppgifter om Roadservice om du går med. Kolla datumen för warrant of fitness och registrering på fordonet innan du köper; vår guide om WoF och registrering förklarar båda."
           ],
           "tips": [
@@ -11232,7 +11232,7 @@
           "heading": "Billigare nätter utan app",
           "body": [
             "DOC bestämmer avgifterna för campingplatserna: enkla campingplatser är gratis, standardplatserna kostar 10 till 20 NZD per vuxen och natt och campingplatserna med service 25 NZD per vuxen utan el. Enskilda campingplatser kan skilja sig åt, så kolla varje plats. Medlemmar i New Zealand Motor Caravan Association betalar 252 NZD första året och kan sedan stå på NZMCA Parks för 5 NZD per vuxen och natt.",
-            "För <a data-guide=\"accommodation-costs-new-zealand-2026\">vandrarhem</a> jämför Hostelworld (4,8 av 5 114) sängar, och YHA anger en besparing på 10 procent för sina medlemmar. En relocation av husbil är det billigaste fordonet av alla: Imoova listar dem från 1 NZD om dagen, men bränsle ingår oftast inte och datumen är fasta."
+            "För <a data-guide=\"accommodation-costs-new-zealand-2026\">vandrarhem</a> jämför Hostelworld (4,8 av 5 114) sängar, och YHA anger en besparing på 10 procent för sina medlemmar. Billigast av allt är att köra en husbil åt ett hyrbolag, en så kallad relocation: Imoova listar dem från 1 NZD om dagen, men bränsle ingår oftast inte och datumen är fasta."
           ],
           "tips": []
         },
