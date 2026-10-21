@@ -30,18 +30,16 @@ KiwiCamping, 26 guides missing in fr (63/89 complete):
 `check.mjs` number/link/tag/dash/offline-map check, `merge.mjs` merges values files. Apply with `translation-engine apply`,
 `npm run translations:stamp -- --locale fr`, `npm run content:check`, commit.
 
-## Done
-- AU batch 1 (320 units, 6 road trips): melbourne-to-adelaide-coastal-route, sunshine-coast-hinterland-camping, gibb-river-road-camping,
-  nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping.
-- AU batch 2 (5 listicles, 776 units): best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-money-saving-travel-apps-australia,
-  best-weather-apps-camping-australia, hipcamp-alternatives.
-- Every batch: Sonnet draft, Opus native review with negation table, own negation re-read, typography check, stamped, content:check. AU fr is now 73/80;
-  `npm run check` passed on 2484ba4 (handoff 1).
+## Done (lane complete, 2026-10-21)
+- AussieCamps: all 18 gaps filled (6 road trips with impressions, 5 scheduled listicles, 7 other road trips) plus three lines that read as offline-map
+  advice reworded to « cartes téléchargées ». fr is 80/80 guides, 0 stale. Engine audit of the fr catalog: complete, warnings only (source-equal, glossary).
+- KiwiCamping: all 26 gaps filled (8 high-impression core guides, 6 listicles, wastewater, best-time, 10 road trips). fr is 89/89 guides, 0 stale.
+  Engine audit of the fr catalog: complete; 8 `register` warnings are false positives (Māori "Te Anau", "Te Papa", "Te Ara", "te reo").
+- Every batch: Sonnet draft, Opus native review with negation table, own negation re-read against the English, typography check, stamped,
+  `content:check` passing. Both branches rebased on origin/main; `npm run check` run before the final handoff.
 
 ## Next
-- AU batch 3: the 7 other road trips (tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop,
-  victoria-high-country-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend): drafts in progress.
-- Then KiwiCamping (26 guides, inputs made with `mkinput.mjs nz`): draft of best-nz-camping-apps, campfire-rules, where-to-camp, self-contained in progress.
+nothing: the lane is complete.
 
 ## English-source notes for the orchestrator (translated as written)
 - melbourne-to-adelaide sections[5].body[0]: describes a fixed fruit-fly checkpoint with bins on the coastal SA entry and says fresh produce "cannot be carried in";
@@ -55,6 +53,26 @@ KiwiCamping, 26 guides missing in fr (63/89 complete):
 - best-money-saving-travel-apps-australia: Splitwise "settles up at the end" (s12.body[0]) contradicts "you settle up yourself" (s12.body[1] and table).
 - best-weather-apps-camping-australia: Weatherzone Pro A$5.99 a month and ad-free A$5.99 a year cost the same, worth rechecking.
 - hipcamp-alternatives: the AussieCamps section never says campground data needs the Pass (translated as written).
+
+## Blockers
+none
+
+## English-source notes, KiwiCamping (translated as written)
+- best-nz-camping-apps: Rankers called the most-rated app (3,322 ratings) while the table gives AllTrails 5,198; sections[6].body[0] writes $5 / $150 / $102 / $252 without NZ.
+- campfire-rules-new-zealand: sections[4].body[0] says a prohibited season can restrict some appliances, but faq[1][1] says gas stoves are unaffected by fire seasons (a safety rule worth aligning).
+- where-to-camp-in-new-zealand: "four land types" in three places, but the FAQ says "broadly five"; council self-contained rule worded more broadly in sections[6].body[0] than in sections[0].body[1].
+- scenic-campsites-new-zealand: says "Premium pass" where other pages say "KiwiCamping Pass"; the "October 2026" booking status will date the page.
+- fuel and money listicles: money page calls First Table "the highest-rated app here" at 4.9 while Too Good To Go is also 4.9; the wikicamps-alternatives page repeats the Rankers "most ratings" claim.
+- new-zealand-three-week-campervan-route: a tip says "Roughly 8 north, 1 ferry, 12 south" against 9 / 1 / 11 in the body and description.
+- north-island-two-week-road-trip: the Napier "workable shape" conflicts with the main route and the Taranaki cut.
+- nelson-abel-tasman-golden-bay: the description's "$21 NZ" means the New Zealander rate (rendered « pour les Néo-Zélandais »); tide windows and "4 huts and 18 campsites" are worth a check against DOC.
+- queenstown-glenorchy-camping: 46 km in the intro vs 45 km in section 3; Whakatipu vs Wakatipu spelled both ways.
+- Macrons: "Ngai Tahu" has no macron in the English (west-coast road trip); the French writes « Ngāi Tahu » like the sibling pages. Taupo/Taupō and kaka/kākā are also inconsistent in the English.
+
+## English-source notes, AussieCamps road trips added in batch 3
+- tasmania-camping-loop: tip "Buy the holiday parks pass" contradicts the body (a national parks holiday pass); "book the pass in advance" probably means the shuttle or a campsite.
+- queensland-outback-way: lists Charleville as a service centre on a route that does not go through it. sydney-south-coast-camping: the NSW booking window is never defined.
+- kangaroo-island-camping-guide: intro recommends four or five nights, a later paragraph says three days is the minimum; a heading says "2020 fires" while its paragraph says 2019 to 2020. victoria-high-country-camping: "Queen's Birthday" (now King's Birthday); Dargo listed as a sealed road open all year.
 
 ## Blockers
 none
