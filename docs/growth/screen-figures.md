@@ -26,6 +26,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | money-saving-travel-apps-new-zealand | 1 (1. KiwiCamping: best for cutting the accommodation bill) | Inbox: kiwicamping_place-detail_black-rock-campsite_lower.png (Black Rock: one fee schedule, so the card matches DOC's current fee) | KiwiCamping on iPhone: a DOC campsite's reported adult, child and infant prices above its seven-day weather forecast |
 | best-campsite-booking-apps-new-zealand | 1 (1. KiwiCamping: best for deciding where to book) | Inbox: kiwicamping_place-detail_paihia-top-10-holiday-park_top.png | KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page with its rating and a Book now button |
 | campable-alternatives | 1 (1. KiwiCamping: best for public sites and a trip plan) | Inbox: kiwicamping_place-detail_kumutoto-bay-campsite_top.png | KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details |
+| best-tramping-great-walks-apps-new-zealand | 1 (1. KiwiCamping: best for DOC huts, tracks and campsites on your route) | Inbox: kiwicamping_tracks_inland-track_expanded.png | KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

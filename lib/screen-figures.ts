@@ -29,6 +29,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
   { slug: "best-campsite-booking-apps-new-zealand", section: 1, src: "/images/screens/best-campsite-booking-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page with its rating and a Book now button" },
   { slug: "campable-alternatives", section: 1, src: "/images/screens/campable-alternatives.webp", alt: "KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details" },
+  { slug: "best-tramping-great-walks-apps-new-zealand", section: 1, src: "/images/screens/best-tramping-great-walks-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
 ];
 
 const images = manifest as Record<string, unknown>;

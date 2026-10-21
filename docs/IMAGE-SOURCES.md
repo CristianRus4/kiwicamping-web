@@ -95,3 +95,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `money-saving-travel-apps-new-zealand` | Moke Lake.jpg | André Richard Chalmers | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Moke_Lake.jpg) |
 | `best-campsite-booking-apps-new-zealand` | Matata, view from the DOC campsite.jpg | Symac | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Matata,_view_from_the_DOC_campsite.jpg) |
 | `campable-alternatives` | 010 Freedom camping in New Zealand - parked campervan RVs in West Coast NZ.jpg | Marek Ślusarczyk (Tupungato) | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:010_Freedom_camping_in_New_Zealand_-_parked_campervan_RVs_in_West_Coast_NZ.jpg) |
+| `best-tramping-great-walks-apps-new-zealand` | Harris Saddle Hut, Routeburn Track (16513825076).jpg | Christoph Strässler | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Harris_Saddle_Hut,_Routeburn_Track_(16513825076).jpg) |

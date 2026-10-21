@@ -315,4 +315,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need a self-contained vehicle to use Campable?", "Yes. Campable accepts only certified self-contained vehicles with a current green self-containment warrant, though some hosts accept a portable toilet."],
     ["Can I book private land camping without Campable?", "Hipcamp lists private land in New Zealand on its website, and some stays can be found in CamperMate and WikiCamps. Campable remains the app built around hosted private land for self-contained vans."],
   ],
+  "best-tramping-great-walks-apps-new-zealand": [
+    ["What is the best app for tramping in New Zealand?", "Most trampers combine apps: Plan My Walk for alerts and trip plans, an offline topo map such as NZ Topo50 or NZ Topo Maps, and DOC's website for hut and Great Walk information. KiwiCamping shows DOC hut, track and campsite details but is not a topo map."],
+    ["Is there an app to book New Zealand Great Walks?", "No. DOC books Great Walks, huts and campsites through its online booking system, and we found no DOC app for bookings. Bookings are open for stays to 30 June 2027."],
+    ["Do tramping apps work without phone signal?", "The topo map apps store maps on the phone for use with no signal, such as NZ Topo50, NZ Topo Maps and TrailTreks. Plan My Walk works offline only with an eligible satellite plan, otherwise you download a PDF of your trip plan."],
+    ["Should I carry a personal locator beacon?", "The Mountain Safety Council recommends always taking another communication device on remote trips, and says a 406 MHz personal locator beacon must be registered with the Rescue Coordination Centre New Zealand."],
+  ],
 };

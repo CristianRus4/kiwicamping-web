@@ -1040,4 +1040,91 @@ export const listicleArticles: Article[] = [
       { label: "Hipcamp: New Zealand camping", url: "https://www.hipcamp.com/en-AU/d/new-zealand/camping/all" },
     ],
   }),
+  a({
+    slug: "best-tramping-great-walks-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-11-06",
+    title: "7 Best Tramping and Great Walks Apps for New Zealand in 2026",
+    description: "The best apps for tramping and the Great Walks in New Zealand in 2026: DOC hut and track data, offline topo maps, trip plans and mountain weather, compared with prices and ratings checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Great Walks", "DOC huts", "DOC tracks", "Topo maps", "Mountain weather"],
+    imageAlt: "A snow-dusted A-frame hut shelter at Harris Saddle on the Routeburn Track",
+    related: ["doc-huts-new-zealand-guide", "doc-hut-rules-etiquette", "new-zealand-severe-weather-camping", "best-weather-apps-new-zealand"],
+    intro:
+      "A tramp needs three things from your phone: where the hut or track is, a topographic map that works with no signal, and a weather forecast you can trust. No one app does all three well, and the Department of Conservation (DOC) books Great Walks and huts on a website, not in an app. This list covers the apps trampers use in 2026, with prices and ratings from the New Zealand App Store checked on 21 October 2026. KiwiCamping is ours, and it comes first for hut and track information only; it is not a topo map.",
+    sections: [
+      s("Tramping apps at a glance", [
+        "Use KiwiCamping for DOC hut, track and campsite details, Plan My Walk for alerts and sharing your trip plan, and one topo app for the map you carry. Add MetService or the mountain forecasts DOC links to for weather, and book Great Walks on DOC's site.",
+        "The topo apps below store maps on the phone, which is what keeps them useful when there is no signal.",
+      ], undefined, {
+        caption: "Checked 21 October 2026 on the New Zealand App Store and each organisation's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "DOC huts, tracks and campsites", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["Plan My Walk", "Alerts and trip plans to share", "Free", "4.6 (612)"],
+          ["NZ Topo50", "Offline topo maps, one island each", "NZ$6.99 per island", "4.4 (161) and 4.6 (225)"],
+          ["NZ Topo Maps", "LINZ Topo50 and Topo250 downloads", "Free; extra sheets NZ$14.99", "4.3 (1,746)"],
+          ["TrailTreks", "Free offline topo maps with DOC huts", "Free; PLUS NZ$13.99 a year", "4.4 (8)"],
+          ["AllTrails", "Trail reviews and recording", "Free; Plus from NZ$35.99", "4.8 (5,198)"],
+          ["MetService", "Official forecasts and warnings", "Free", "2.4 (1,126)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for DOC huts, tracks and campsites on your route", [
+        "KiwiCamping holds 927 DOC huts, 1,453 DOC tracks and 287 DOC campsites in its August 2026 data. A hut page shows its status, bunks, fees and facilities and links to DOC's page, and a track page shows distance, time, grade and an elevation profile. Of those places, 127 huts and 177 campsites are flagged as bookable and link out to book, and 33 of the huts are on Great Walks.",
+        "You can add huts and campsites to a trip with dates and see the drive to the trailhead, and the weather shown on a place is from Apple Weather. Place details are kept on the phone and open without signal, while the map, routing, weather and photos need a connection.",
+        "It is not a topographic map or a navigation app, so carry one of the apps below as your map. KiwiCamping is iPhone only (iOS 26 or later) and has 4 New Zealand ratings averaging 3.8.",
+      ], ["Choose it for: hut and track details", "Not a topo map", "iPhone only; few ratings"], undefined, true),
+      s("2. Plan My Walk: best for alerts and sharing your trip plan", [
+        "Plan My Walk comes from the Mountain Safety Council and is free. It lists more than 3,000 tracks, huts and campsites, shows alerts from DOC and local councils and forecasts from MetService, and has gear lists and a trip planner that sends your plan to an emergency contact. A free account is needed for trip plans. It rated 4.6 from 612 New Zealand ratings.",
+        "Its developer says the app works offline only with an eligible satellite plan; without one, you download a PDF of your trip plan to read offline. It does not describe offline maps, so pair it with a topo app.",
+      ], ["Choose it for: alerts and trip plans", "Free", "Offline needs a satellite plan or a PDF"]),
+      s("3. NZ Topo50: best for offline topo maps with no subscription", [
+        "NZ Topo50 sells complete LINZ Topo50 coverage of one island at NZ$6.99, with the North Island and South Island as separate apps. Its listing says you need no phone or wifi signal, and it includes DOC huts, campgrounds, tracks, GPS, track recording and GPX import. It rated 4.4 from 161 ratings for the North Island and 4.6 from 225 for the South Island.",
+        "You pay twice if you walk on both islands, but the maps ship inside the app and there is no subscription.",
+      ], ["Choose it for: maps that ship in the app", "NZ$6.99 per island", "No subscription"]),
+      s("4. NZ Topo Maps: best for downloading just the sheets you need", [
+        "NZ Topo Maps is free and pulls Topo250 and Topo50 maps from the LINZ data service, so you download only the areas you need. It shows DOC huts and campsites with the latest alerts and imports GPX files, and extra map sheets cost NZ$14.99 with a Routes option at NZ$6.99. It rated 4.3 from 1,746 ratings.",
+        "iHikeGPS NZ is a one-off alternative at NZ$4.99 using official LINZ topo maps, with no ads or subscription, though it has only 28 ratings.",
+      ], ["Choose it for: choosing your own sheets", "Free to start", "Extra sheets are paid"]),
+      s("5. TrailTreks: best free option, with few ratings", [
+        "TrailTreks is free with no ads, and its listing says its NZ topo maps work offline, with every DOC hut, campsite and track, DOC alert notifications, MetService severe weather warnings and location sharing. A PLUS plan costs NZ$1.49 a month or NZ$13.99 a year.",
+        "It has only 8 New Zealand ratings, averaging 4.4, and its first release was in September 2025, so test it at home before you trust it on a track.",
+      ], ["Choose it for: a free offline start", "PLUS NZ$13.99 a year", "New, 8 ratings"]),
+      s("6. AllTrails: best for reviews and recording", [
+        "AllTrails is a global trail app with reviews, recordings and more than 500,000 trails, free with Plus listed from NZ$35.99, and offline map downloads need Plus. It rated 4.8 from 5,198 New Zealand ratings.",
+        "Its trails are contributed by the community and its listing does not mention DOC alerts, so check DOC for closures and conditions.",
+      ], ["Choose it for: reviews and recording", "Offline maps need Plus", "Check DOC for closures"]),
+      s("7. MetService and mountain forecasts: best for the weather", [
+        "MetService is New Zealand's official weather service, and its free app is rated 2.4 from 1,126 New Zealand ratings. DOC says MetService provides the brief and extended New Zealand mountain forecasts on its website, and that anyone going into the mountains should also check the New Zealand Avalanche Advisory. The app's listing does not mention mountain forecasts, so use the website for them.",
+        "Mountain-Forecast.com covers New Zealand peaks such as Aoraki Mount Cook, but it is not an official New Zealand source.",
+      ], ["Choose it for: official warnings", "Mountain forecasts are on its website", "Low app rating"]),
+      s("Great Walks and huts: booking and prices", [
+        "DOC lists eleven Great Walks, and bookings are open for stays to 30 June 2027 through its online system. Great Walk bookings for 2026/27 opened from 12 May 2026 with a virtual queue, and the Hump Ridge Track is booked through its own trust's website. Summer hut fees differ for New Zealand residents and international visitors on some tracks: on the Routeburn an adult hut night is $88 for residents and $132 for international visitors, and DOC says it will make random checks.",
+        "Outside the Great Walks, DOC's Backcountry Hut Pass costs $160 for an adult and $80 for a child for 12 months and does not give you preference to a bunk at non-bookable huts. Backcountry Hut Tickets cost $15 for a standard hut adult night, and from 1 November 2026 they will be sold through DOC's online booking system.",
+      ], ["11 Great Walks", "Resident and international rates", "Hut Pass $160 an adult"]),
+      s("Plan the trip, then carry a way to call for help", [
+        "DOC's Land Safety Code says to choose the right trip for you, understand the weather, pack warm clothes and extra food, share your plans and take ways to get help, and take care of yourself and each other. It says telling a trusted person your trip details and taking a distress beacon can save your life.",
+        "The Mountain Safety Council recommends always carrying another communication device on remote trips and says a 406 MHz personal locator beacon must be registered with the Rescue Coordination Centre New Zealand. It also says the 111 number cannot accept calls from data-enabled apps, and that a phone call is not enough when you leave your trip intentions.",
+      ]),
+      s("How we chose and checked", [
+        "We picked the apps trampers use for huts, maps, trip plans and weather, and dropped apps with no updates for years or with too few ratings to judge. Prices, ratings and versions come from the New Zealand App Store on 21 October 2026, and rules and fees from DOC, the Mountain Safety Council and LINZ.",
+        "Prices and features change, and some apps here are new. A feature not mentioned is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "DOC: Great Walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC: Backcountry Hut Pass", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/backcountry-hut-pass/" },
+      { label: "DOC: Backcountry Hut Tickets", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/backcountry-hut-tickets/" },
+      { label: "DOC: weather and mountain forecasts", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/weather/" },
+      { label: "DOC: Land Safety Code", url: "https://www.doc.govt.nz/safety" },
+      { label: "Mountain Safety Council: Plan My Walk", url: "https://www.mountainsafety.org.nz/discover/plan-my-walk" },
+      { label: "Mountain Safety Council: communications and personal locator beacons", url: "https://www.mountainsafety.org.nz/learn/skills/communications" },
+      { label: "Mountain Safety Council: leaving trip intentions", url: "https://www.mountainsafety.org.nz/learn/skills/leaving-trip-intentions" },
+      { label: "LINZ: where to find maps", url: "https://www.linz.govt.nz/products-services/maps/where-find-maps" },
+      { label: "NZ Topo50, South Island (App Store)", url: "https://apps.apple.com/nz/app/id605676156" },
+      { label: "TrailTreks: NZ Topo Maps (App Store)", url: "https://apps.apple.com/nz/app/id6753130686" },
+    ],
+  }),
 ];
