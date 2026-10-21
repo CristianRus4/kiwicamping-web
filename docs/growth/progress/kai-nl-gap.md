@@ -19,8 +19,11 @@ nl 48/89 guides; 41 missing.
 - K8 (b5a5ef9): holiday-parks-new-zealand-guide, camping-wastewater-rubbish-new-zealand, campfire-rules-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand, scenic-campsites-new-zealand, camping-fees-new-zealand-2026.
 - KiwiCamping nl 89/89 guides. LANE COMPLETE (pending orchestrator merge).
 
+## Remaining untranslated in Dutch (KiwiCamping)
+None. All 89 of 89 guides are complete in nl (checked against origin/main on 2026-10-21 after the owner moved Dutch to the Max account). No batch was in progress; nothing is half-done. Stopped as instructed.
+
 ## Next
-- Nothing; waiting for the orchestrator to merge.
+- Nothing; waiting for the orchestrator to merge. Any new English guide added later needs a Dutch pass by whoever owns nl now.
 
 ## English source issues (NZ)
 - east-cape: "pōhutukawa" has the macron in two units, none in two others; "Tane Mahuta" has no macron.
