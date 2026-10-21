@@ -26,7 +26,10 @@ export function hubConfigText() {
   const sourceText = JSON.stringify(hubSource());
   const names = new Set();
   for (const hub of translatableHubs) {
-    for (const name of [hub.name, hub.operationsRegion, hub.island, ...hub.vocabulary]) if (name) names.add(name);
+    // The vocabulary also carries notice conditions ("Self-contained vehicles only"): those are copy to
+    // translate, not names, so anything that is one of the hub's own terms is left out.
+    const conditions = new Set(hub.places.flatMap((place) => place.conditions ?? []));
+    for (const name of [hub.name, hub.operationsRegion, hub.island, ...hub.vocabulary]) if (name && !conditions.has(name)) names.add(name);
     for (const place of hub.places) for (const name of [place.name, place.locality]) if (name) names.add(name);
     for (const fact of hub.facts) if (fact.key === "parks" && typeof fact.value === "string") for (const part of fact.value.split(", ")) names.add(part.replace(/ \d+$/, ""));
     const prose = proseFor(hub);
