@@ -134,3 +134,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-queenstown-drive-guide` | Lindis Pass, New Zealand (5).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_New_Zealand_(5).JPG) |
 | `queenstown-to-milford-sound-drive-guide` | Milford Sound Road 1 (31544166811).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Milford_Sound_Road_1_(31544166811).jpg) |
 | `auckland-to-bay-of-islands-drive-guide` | Opua-Okiato ferry.jpg | Phillip Capper from Wellington, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Opua-Okiato_ferry.jpg) |
+| `wellington-to-napier-drive-guide` | State Highway 2 (Rimutaka Hill Road) near the top of the range..jpg | Deano87 | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_2_(Rimutaka_Hill_Road)_near_the_top_of_the_range..jpg) |
