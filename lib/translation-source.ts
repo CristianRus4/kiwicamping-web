@@ -1,4 +1,4 @@
-import { consentStrings, staticPages, toolStrings, uiStrings } from "@/lib/source-strings";
+import { consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -27,6 +27,7 @@ export function translationSource() {
     ui: uiStrings,
     // Its own namespace: these never gate publishing (see consentStrings in lib/source-strings.ts).
     consent: consentStrings,
+    summer: summerStrings,
     pages: staticPages,
     // The calculator pages. Gated per tool (lib/tools.ts), so a partial `tools` block never
     // unpublishes a locale; keep every {placeholder} exactly.
