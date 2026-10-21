@@ -100,3 +100,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `can-i-park-a-campervan-on-the-street-overnight-nz` | 32 Bedford SB3 bus converted to camper in New Zealand.JPG | Marek Ślusarczyk (Tupungato) Photo portfolio | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:32_Bedford_SB3_bus_converted_to_camper_in_New_Zealand.JPG) |
 | `can-i-drive-a-campervan-on-a-car-licence-nz` | 00 1366 New Zealand State Higway 94.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1366_New_Zealand_State_Higway_94.jpg) |
 | `can-i-fly-a-drone-at-a-doc-campsite-nz` | Whangapoua Sunset.jpg | Skyviewphotography | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whangapoua_Sunset.jpg) |
+| `can-i-drive-on-the-beach-in-new-zealand` | Ninety Mile Beach at Hukatere2.JPG | User:Gadfium | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Ninety_Mile_Beach_at_Hukatere2.JPG) |
