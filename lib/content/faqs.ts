@@ -414,4 +414,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Where are the campsites on the Rakiura Track?", "DOC lists three: Maori Beach, Port William and North Arm. It says they are not next to the huts, that you may camp only at the designated campsites and that campers cannot use hut facilities."],
     ["How do I get to the start of the Rakiura Track?", "DOC says Stewart Island is a one-hour ferry ride from Bluff or 20 minutes by plane from Invercargill. The track starts at Lee Bay, 5 km from the DOC visitor centre in Oban, and DOC says shuttles can drop you there."],
   ],
+  "whanganui-journey-camping-2026-27": [
+    ["How much does it cost to stay on the Whanganui Journey?", "From 1 October to 30 April a hut night is $35 and a campsite night is $19 per adult, the same for New Zealanders and international visitors. DOC's summer child fees are $18 for a hut and $9 for a campsite, and there is no fee to enter Whanganui National Park."],
+    ["How long does the Whanganui Journey take?", "DOC says the full 145 km from Taumarunui to Pipiriki averages 5 days, and the 88 km from Whakahoro to Pipiriki averages 3 days. Businesses also offer 1-day and 2-day trips on sections of the river."],
+    ["Do I need to book huts and campsites on the Whanganui Journey?", "Yes in the Great Walks season, 1 October to 30 April: DOC says huts and campsites must be booked in advance. Outside the season bookings are not possible and sites are first come, first served."],
+    ["Can beginners do the Whanganui Journey unguided?", "DOC says it is not a trip for beginners. An unguided trip needs a confident swimmer with canoe experience who can paddle 6 to 7 hours a day, and DOC strongly recommends a guided trip for less experienced paddlers and solo travellers."],
+  ],
 };

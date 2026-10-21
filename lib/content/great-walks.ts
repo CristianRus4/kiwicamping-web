@@ -371,4 +371,81 @@ export const greatWalksArticles: Article[] = [
       { label: "Southland District Council: schedule of fees and charges 2026-2027 (visitor levy)", url: "https://www.southlanddc.govt.nz/assets/Fees-and-charges/individual/Fees-and-charges-Stewart-Island_Rakiura-visitor-levy.pdf" },
     ],
   }),
+  a({
+    slug: "whanganui-journey-camping-2026-27",
+    publishAt: "2026-12-11",
+    title: "Whanganui Journey 2026/27: Canoe Trip Huts, Campsites, Booking and Fees",
+    description: "Whanganui Journey for 2026/27: the 145 km and 88 km canoe trips, huts, bunkroom and nine campsites, DOC's $35 hut and $19 campsite fees for everyone, booking, river safety, hire and shuttles, and the Bridge to Nowhere.",
+    category: "Camping guides",
+    region: "Manawatū/Whanganui",
+    places: ["Taumarunui", "Ohinepane", "Whakahoro", "John Coull Hut", "Tīeke Kāinga", "Pipiriki"],
+    imageAlt: "A red canoe with two paddlers crossing a rapid on the Whanganui River below a white papa cliff and green bush, with a gravel bar in the foreground",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-campsites-new-zealand-guide", "doc-huts-new-zealand-guide", "new-zealand-severe-weather-camping"],
+    hubs: ["camping/manawatu-whanganui"],
+    intro:
+      "The Whanganui Journey is a canoe or kayak trip down the Whanganui River: 145 km from Taumarunui to Pipiriki, which DOC says takes about 5 days, or 88 km from Whakahoro to Pipiriki, which takes about 3. DOC's Great Walks season runs from 1 October to 30 April, huts and campsites must be booked in advance in that season, and in the season a night costs $35 in a hut or $19 at a campsite for every adult, whether a New Zealander or an international visitor. DOC opened 2026/27 bookings on Wednesday 20 May 2026. This page covers the huts, campsites, fees, river safety, hire and getting to both ends, and it is not a trip for beginners.",
+    sections: [
+      s("The route: 145 km or 88 km, and how long it takes", [
+        "DOC gives two ways to do the trip. The full 145 km from Taumarunui to Pipiriki averages 5 days, and the 88 km from Whakahoro to Pipiriki averages 3 days and is the most scenic section in DOC's words. Businesses also run 1-day and 2-day trips on sections of the river, some with jet boat legs. DOC's track page breaks the full trip into five sections that add up to 145 km, with the stops and the distance to each.",
+        "DOC says the Journey is not a trip for beginners. For an unguided trip you need to be a confident swimmer with canoe experience, able to paddle 6 to 7 hours a day (8 or more in low flows), over 10, and in a group of at least two plus enough adults to supervise any children and teens. DOC strongly recommends a guided trip for less experienced paddlers and solo travellers. Its brochure adds that there are no exit points between Whakahoro and Pipiriki and you cannot turn back.",
+      ], ["Full trip: 145 km, about 5 days", "Whakahoro to Pipiriki: 88 km, about 3 days", "No exit points between Whakahoro and Pipiriki"], {
+        caption: "Sections, distances and times from DOC's Whanganui Journey page, read 21 October 2026. Distances in brackets are from the previous stop.",
+        head: ["Section", "Distance", "DOC's time", "Stops on the way"],
+        rows: [
+          ["Taumarunui (Ngā Huinga, Cherry Grove) to Ohinepane Campsite", "22 km", "3 to 5 hours", "Ohinepane Campsite"],
+          ["Ohinepane to Whakahoro", "35 km", "6 to 8 hours", "Poukaria (14 km), Maharanui (17 km), Whakahoro Campsite and Bunkroom (4 km)"],
+          ["Whakahoro to John Coull Hut", "37.5 km", "7 to 9 hours", "Mangapapa (11 km), Ōhauora (16 km), John Coull Hut (10.5 km)"],
+          ["John Coull Hut to Tīeke Kāinga", "29 km", "7 to 9 hours", "Mangawaiiti (9.5 km), Mangapurua (9 km), Tīeke Kāinga (10.5 km)"],
+          ["Tīeke Kāinga to Pipiriki", "21.5 km", "4 to 6 hours", "Ngāporo Campsite (12.5 km), then 9 km to Pipiriki"],
+        ],
+      }),
+      s("Huts, the bunkroom and campsites", [
+        "DOC's track page names the Whakahoro Bunkroom, John Coull Hut and Tīeke Kāinga as the huts, and says Puketotara Hut on the Matemateaonga Range is an alternative about 1 hour 30 minutes up a track opposite Tīeke Kāinga. Its brochure gives 10 bunks at Whakahoro, 24 at John Coull and 20 at Tīeke Kāinga. The page names nine campsites: Ohinepane, Poukaria, Maharanui, Whakahoro, Mangapapa, Ōhauora, Mangawaiiti, Mangapurua and Ngāporo, and the brochure map also marks campsites at John Coull Hut and Tīeke Kāinga.",
+        "In the Great Walks season, DOC's brochure says the huts have mattresses, a water supply, toilets without toilet paper, handwashing facilities and heating with fuel, and that they may have lighting and basic cooking with fuel, and a hut ranger may be present. The campsites have basic facilities including toilets without toilet paper, sinks and a water supply, and some have picnic tables and cooking shelters. DOC's page says the water is not treated, so carry a way to boil or treat it, and that there are no rubbish bins. Tīeke Kāinga is a working marae as well as a hut, and DOC asks visitors to read its tikanga first, to ask permission before taking photos or video and not to drink alcohol there.",
+      ], ["Huts: Whakahoro Bunkroom, John Coull, Tīeke Kāinga", "Water is untreated and there is no toilet paper", "Tīeke Kāinga is a working marae"]),
+      s("Booking, fees and how to pay", [
+        "In the Great Walks season, 1 October to 30 April, DOC says you must book huts and campsites in advance and pay at booking. Outside the season bookings are not possible and sites are first come, first served. DOC says that without a valid booking you may be charged a penalty, or turned away if the hut or campsite is full, and that you will not be charged for an extra night caused by high river levels. DOC's 26 March 2026 release set the 2026/27 opening at 9:30 am on Wednesday 20 May 2026 for stays from 1 July 2026 to 30 June 2027, and it listed the Whanganui Journey among the walks that often have space available.",
+        "For New Zealanders and international visitors alike, a summer hut night is $35 and a campsite night is $19 per adult. DOC's summer child fee is $18 in a hut and $9 at a campsite, and DOC's track page lists New Zealand infants aged 0 to 4 as free. There is no fee to enter Whanganui National Park. The New Zealand child rate covers ages 5 to 17 and the international child rate ages 0 to 17, and the New Zealand price needs proof of eligibility. DOC's page also says hut fees can be paid with a Backcountry Hut Pass or hut tickets, and campsite fees in cash in the fee boxes at Ohinepane or Whakahoro, where you should pay for every campsite you will use because no other campsite has a fee box. It does not say which of these applies in the Great Walks season.",
+      ], ["Same fee for New Zealanders and visitors", "Fees are paid at booking in the season", "No charge for a night lost to high river levels"], {
+        caption: "Per person per night, NZ dollars including GST, from DOC's Whanganui Journey page and Great Walks pricing page, read 21 October 2026. The pricing page gives the same fee for New Zealand and international adults.",
+        head: ["Where you sleep", "Adult, 1 October to 30 April", "Child, 1 October to 30 April", "Adult, outside the season", "Child, outside the season"],
+        rows: [
+          ["Huts", "$35", "$18", "$25", "$12.50"],
+          ["Whakahoro Bunkroom", "$35", "$18", "$10 (1 May to 30 September)", "$5"],
+          ["Campsites", "$19", "$9", "$12", "$6"],
+          ["Ohinepane and Whakahoro campsites", "$19", "$9", "$10", "$5"],
+        ],
+      }),
+      s("River conditions, flooding and safety", [
+        "DOC's safety advice starts with the life jacket: always wear one on the river. It says not to paddle if the river is flooding, rising or predicted to flood, and that very low flows make paddling harder and expose more obstacles. DOC's guide says rain elsewhere in the large catchment can lift the river several metres overnight, so pull the canoe up high and tie it to something secure, and if the river rises, stay at your campsite or hut until it drops. DOC's page gives no formal river grade and names the Tarepōkiore whirlpool rapid and the large Ngāporo and Autapu rapids on the final stretch.",
+        "There is no mobile reception on the river. DOC's guide says emergency communication by DOC radio is available only at John Coull Hut and Tīeke Kāinga, and DOC advises carrying a distress beacon. Leave time to reach your stop in daylight and watch for it, because DOC says that if you go past a hut or campsite you may not be able to paddle back. If a jet boat approaches, DOC's protocol is to move to the right unless you are near the left bank, stop or back-paddle so it can pass, and turn at a right angle to the wake. DOC says not to drink alcohol on the river, and that from May to September the trip is only for people very experienced in canoeing remote New Zealand rivers in winter, with no hut rangers and huts that are not heated.",
+      ], ["Always wear a life jacket", "The river can rise several metres overnight", "Carry a distress beacon; there is no reception"]),
+      s("Canoe hire, guides, shuttles and jet boats", [
+        "DOC's page says you can hire canoes and paddle without a guide only if you have the skills and experience, and says many businesses run guided paddling trips and jet boat trips. A hire package from local suppliers includes a life jacket, a kayak or Canadian canoe, paddles including a spare, plastic drums or the equivalent and dry bags. DOC's page and brochure name no operators and publish no list of concessionaires that could be read for this page, so this page names none either. DOC's brochure lists booking canoes, equipment and transport as a separate step from booking huts and campsites.",
+        "DOC says several companies run on-demand shuttles to track starts and arrange car shuttles for people canoeing the river, and that there are regular bus services to Taumarunui and Whanganui. For more information its brochure gives the Tongariro National Park Visitor Centre in Whakapapa Village (phone 07 892 3729, email tongarirovc@doc.govt.nz). DOC's page says denim, cotton and hiking boots are not suitable for canoeing in, and its gear list for campers adds a tent, sleeping mat, ground sheet and gas cooker to a 3 to 4 season sleeping bag and a way to treat water.",
+      ], ["DOC names no operators on its Journey page", "Book canoes and transport separately from huts", "Bring a tent, mat and stove if camping"]),
+      s("Bridge to Nowhere and other side trips", [
+        "DOC's track page says the Bridge to Nowhere is reached from Mangapurua Landing, on a 3 km walk of about 1 hour 30 minutes return that is shared with cyclists, and its brochure suggests canoeists take a break from the water there to walk to the bridge. DOC's separate walk page gives about 40 minutes from the landing, so check which page you are reading before you plan the time. That page says you reach the landing by jet boat up the Whanganui River, or you can take the Mangapurua Track from the Whakahoro or Ruatiti road end. It also says fires are not permitted in the Mangapurua Valley and that all water should be treated or boiled.",
+        "DOC warns that Mangapurua Landing is very slippery when the rock is wet and can be crowded with canoes and boats. Its walk page lists no closures and says the track is part of Te Araroa. The other side trip on the track page is Ōhura Falls, a short paddle up the Ōhura River from the Ohinepane to Whakahoro section. DOC also says that you should not enter Tamatea's Cave, which is wāhi tapu (a sacred place).",
+      ], ["Bridge to Nowhere: 3 km, about 1 hour 30 minutes return", "Landing is slippery when wet", "Do not enter Tamatea's Cave"]),
+      s("Getting to Taumarunui and Pipiriki, and camping nearby", [
+        "The full trip starts at Ngā Huinga (Cherry Grove) Domain in Taumarunui. DOC says Ohinepane is reached from the Whanganui River Road (SH43) or from the river, and Whakahoro by turning off SH4 near Ōwhango onto Oio Road and driving about 43 km on a road DOC calls rough, narrow and winding. Pipiriki is about 76 km from Whanganui via the Whanganui River Road, or about 27 km from Raetihi on SH4 via the Pipiriki Raetihi Road. DOC's guide says the only road access to the river is at Ohinepane, Whakahoro and Pipiriki, and that there is no mobile coverage at any of the three.",
+        "Taumarunui Holiday Park, at 487 Totara Street, is listed on the Visit Ruapehu site with tent sites through to self-contained family units, open all year from 7:30 am to 10 pm, phone 07 895 9345. Check the details with the park, because Ruapehu District Council's own camping page was not readable for this guide. DOC's page names no camping or accommodation at Pipiriki, and the last DOC campsite before it is Ngāporo, 9 km upstream. KiwiCamping's DOC data (11 August 2026) lists 16 of the region's 20 DOC campsites in Whanganui National Park.",
+      ], ["Start: Ngā Huinga (Cherry Grove) Domain, Taumarunui", "Whakahoro road: about 43 km of rough gravel, per DOC", "Only three road access points to the river"]),
+      s("Using KiwiCamping on the Whanganui Journey", [
+        "KiwiCamping's DOC data (11 August 2026) lists 20 DOC campsites and 43 DOC huts in Manawatū/Whanganui, with fee notes, facilities and a link to DOC's own page for each, and John Coull Hut, with 24 bunks, is the region's largest hut in that data. Each place shows a seven-day forecast, which helps when river levels depend on rain. DOC's booking system stays the only place to reserve a night. Place details, saved places and guides open from the phone without signal, while map tiles, routing, weather and photos need a connection.",
+        "Save the river nights and the nights at Taumarunui and Pipiriki to a trip, put them in order with the dates, and add a note with each booking reference, your hire and shuttle arrangements and the river section for each day. The distances between legs help with the drives at each end, and DOC's table above covers the paddling. Free to download, with in-app purchases.",
+      ], ["Save each night with its booking reference", "Check the forecast for each stop", "Reserve on DOC's site, not in the app"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Whanganui Journey", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/manawatu-whanganui/places/whanganui-national-park/things-to-do/tracks/whanganui-journey/" },
+      { label: "DOC: Whanganui Journey brochure (October 2025)", url: "https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/wanganui/whanganui-journey-brochure-2025.pdf" },
+      { label: "DOC: Whanganui Journey guide", url: "https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/wanganui/whanganui-journey-guide.pdf" },
+      { label: "DOC: Bridge to Nowhere walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/manawatu-whanganui/places/whanganui-national-park/things-to-do/tracks/bridge-to-nowhere-walk/" },
+      { label: "DOC: Whanganui National Park, plan and prepare", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/manawatu-whanganui/places/whanganui-national-park/things-to-do/tracks/whanganui-journey/plan-and-prepare/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "Visit Ruapehu: Taumarunui Holiday Park", url: "https://www.visitruapehu.com/accommodation/apartments/taumarunui-holiday-park" },
+    ],
+  }),
 ];

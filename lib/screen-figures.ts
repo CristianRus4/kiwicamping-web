@@ -47,6 +47,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "routeburn-track-camping-2026-27", section: 5, src: "/images/screens/routeburn-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: the Queenstown and Glenorchy guide with a map of Lake Wakatipu showing campsite pins above a seven-day forecast" },
   { slug: "tongariro-northern-circuit-camping-2026-27", section: 5, src: "/images/screens/tongariro-northern-circuit-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a hut's page in Tongariro National Park with a seven-day forecast and useful places nearby" },
   { slug: "rakiura-track-camping-2026-27", section: 6, src: "/images/screens/rakiura-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC hut's page with its toilets and water supply listed above a seven-day weather forecast" },
+  { slug: "whanganui-journey-camping-2026-27", section: 7, src: "/images/screens/whanganui-journey-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
 ];
 
 const images = manifest as Record<string, unknown>;
