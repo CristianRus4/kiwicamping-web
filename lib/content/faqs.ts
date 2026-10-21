@@ -450,4 +450,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you mountain bike the Paparoa Track?", "Yes, DOC rates it Advanced Grade 4 and gives it 2 days for 56.2 km. E-bikes and night riding are banned, and bikers finish at Waikori Road car park instead of the walkers' Pororari River exit."],
     ["Which way should I walk or ride the Paparoa Track?", "DOC's track guide recommends going from south to north, from Smoke-ho car park near Blackball to Punakaiki. The track pages read set no rule making one direction compulsory."],
   ],
+  "hump-ridge-track-huts-booking-2026-27": [
+    ["Can I book the Hump Ridge Track on DOC's booking system?", "No. DOC sends walkers to the Hump Ridge Trust's own website, and a DOC hut pass is not accepted at the lodges. DOC's March 2026 release added that the track is booked separately and reservations open up to two years ahead."],
+    ["How much does the Hump Ridge Track cost?", "The Trust sells packages, not beds. An adult pays from $495 for the Freedom Walk in an 8-sleeper room, $575 in a 4-sleeper room, $1,195 for the Prime Package or $2,395 for the Guided Walk, and children aged 14 and under pay half price on the Freedom Walk."],
+    ["When is the Hump Ridge Track open in 2026/27?", "The Trust lists a summer season from 23 October 2026 to 17 April 2027 and calls the winter season strictly closed. DOC's page gives no dates of its own."],
+    ["Are the Hump Ridge Track viaducts open?", "Percy Burn and Edwin Burn are closed because of structural deterioration, but the track itself remains open and walkers cross by a bypass track and bridge. DOC says Sandhill Viaduct is still open."],
+  ],
 };

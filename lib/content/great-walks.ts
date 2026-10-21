@@ -838,4 +838,84 @@ export const greatWalksArticles: Article[] = [
       { label: "Grey District Council: freedom camping FAQs", url: "https://www.greydc.govt.nz/05our-district/freedom-camping/faqs" },
     ],
   }),
+  a({
+    slug: "hump-ridge-track-huts-booking-2026-27",
+    publishAt: "2026-12-14",
+    title: "Hump Ridge Track 2026/27: Huts, Booking, Fees and Getting There",
+    description: "Hump Ridge Track for 2026/27: the 61.5 km loop from Tuatapere, the Ōkaka and Port Craig lodges, packages from $495 booked through the Hump Ridge Trust rather than DOC, the 23 October to 17 April season, closed viaducts and the Rarakau shuttle.",
+    category: "Camping guides",
+    region: "Southland",
+    places: ["Tuatapere", "Rarakau car park", "Ōkaka Lodge", "Port Craig", "Te Waewae Bay", "Invercargill"],
+    imageAlt: "A grey boardwalk winding past weathered rock tors on the open tops of Hump Ridge, with forested hills, a distant lake and cloud under a blue sky",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "southern-scenic-route-camping", "freedom-camping-southland-2026", "doc-hut-rules-etiquette"],
+    hubs: ["huts/southland", "camping/southland"],
+    intro:
+      "The Hump Ridge Track is a 61.5 km loop of 3 days and 2 nights from Rarakau car park near Tuatapere in Southland, and DOC lists it as a Great Walk, but you book it with the Hump Ridge Trust, not in DOC's booking system. The Trust sells packages rather than single beds: from $495 a person for the Freedom Walk in shared bunk rooms at Ōkaka and Port Craig lodges, up to $2,395 for the Guided Walk, in a summer season it gives as 23 October 2026 to 17 April 2027. DOC says the track stays open, but the Percy Burn and Edwin Burn viaducts are closed and walkers use a bypass.",
+    sections: [
+      s("The loop: 61.5 km over 3 days from Rarakau", [
+        "DOC calls the Hump Ridge Track a 3 day loop over sub-alpine tops and around rugged coastline in southern Fiordland, gives it as 61.5 km and an intermediate tramping track, and says it opened as the 11th Great Walk on 25 October 2024. The Trust's own pages give 61 km and DOC's Great Walks comparison page rounds it to 60 km, so the three agree only roughly. From Rarakau car park the loop follows the South Coast Track around Te Waewae Bay, climbs to Ōkaka Lodge above the tree line, follows Hump Ridge to Tītahi (Luncheon Rock), descends to Port Craig and returns along the coast.",
+        "DOC says the track needs moderate to high fitness and is best suited to people who have done overnight hikes in New Zealand, with walking days of 7 to 9 hours over formed track, steps and boardwalk and significant elevation gain. Unless you arrange helicopter pack transport you carry all your food and gear, although meals can also be bought in the lodges. DOC lists a 45 minute boardwalk loop above Ōkaka Lodge among tors and tarns, and a side trip to the Port Craig settlement and wharf, and the Trust adds that the loop above the lodge rises to 950 m. The Trust gives shorter walking times than DOC for the first two days, so plan on DOC's.",
+      ], ["61.5 km loop, 3 days and 2 nights", "Starts and ends at Rarakau car park", "Days of 7 to 9 hours, per DOC"], {
+        caption: "Distances and times from DOC's Hump Ridge Track page and the Trust's package pages, read 21 October 2026.",
+        head: ["Day", "Route", "DOC", "The Trust"],
+        rows: [
+          ["Day 1", "Rarakau car park to Ōkaka Lodge", "20.6 km, 7 to 9 hours", "20.5 km, 6 to 8 hours"],
+          ["Day 2", "Ōkaka Lodge to Port Craig Lodge", "20.7 km, 7 to 9 hours", "20.7 km, 6 to 8 hours"],
+          ["Day 3", "Port Craig Lodge to Rarakau car park", "20.2 km, 5 to 7 hours", "20.2 km, 5 to 7 hours"],
+        ],
+      }),
+      s("Who books it: the Trust, not DOC", [
+        "DOC's track page says Hump Ridge Track bookings are made through the Hump Ridge Trust website, and that DOC hut passes cannot be used for the lodges. It calls the Great Walk a partnership between the Tuatapere Hump Track Charitable Trust and DOC, with the track and lodges maintained and operated by the Trust, and the Trust's own pages call it the only private, community-owned and operated Great Walk. DOC's 26 March 2026 release said Hump Ridge bookings are managed separately and can be made up to two years in advance. The Trust's pages read for this guide give no opening date for later seasons.",
+        "The Trust's cancellation terms for independent packages refund 75% of the cost if you cancel more than 8 weeks before departure, 50% from 8 to 4 weeks, and nothing within 4 weeks. For guided packages the 50% band runs from 8 to 6 weeks and nothing is refunded within 6 weeks. An independent booking can be transferred once to a date within 12 months for a fee of 10%, with at least 7 days' written notice, and not between people, and the Trust says transfers are not available for guided packages. The Trust recommends cancellation and travel insurance. All walkers, including children, must check in at the Trust's Tuatapere office, 31 Orawia Road, before driving to the car park, to sign a declaration, attend a safety briefing and collect maps and accommodation passes.",
+      ], ["Booked on the Trust's website, not DOC's", "DOC hut passes do not work at the lodges", "Check in at the Tuatapere office first"]),
+      s("Packages and fees", [
+        "The Trust's pages list four packages, each for 3 days and 2 nights, and no price for a bed on its own. The Freedom Walk is independent walking with multi-share bunk rooms, in 8-sleeper rooms, or in 4-sleeper rooms using the lower bunks only. The Prime Package adds made-up beds, hot showers, self-prepared evening meals, a night's bed and breakfast at Last Light Lodge in Tuatapere beforehand, and a helicopter bag transfer on day 1. The Guided Walk adds guides, all meals, track transport and a helicopter flight over Te Waewae Bay on day 1.",
+        "Freedom and Prime walkers are offered porridge for breakfast, and the Trust says a Freedom Walk booking needs your own sleeping bag in the multi-share rooms. Options are priced separately. A helicopter bag transfer is $150 a bag (up to 10 kg) and a helicopter lift to Ōkaka is $300 a person, both on Mondays and Thursdays subject to availability. The Trust's jet boat add-on, in which the WJet takes you 35 km up the Wairaurahiri River and across Lake Hauroko instead of walking out on day 3, is $299 a person and $175 for a child aged 16 or under. The pages read list one price for each package and say nothing about seasonal pricing.",
+      ], ["Four packages, none priced as a bed only", "Sleeping bag needed in multi-share rooms", "Helicopter options run Mondays and Thursdays"], {
+        caption: "Per person prices in NZ dollars from the Trust's package pages, read 21 October 2026. Child price is for ages 14 and under at the time of the walk.",
+        head: ["Package", "Adult", "Child", "What the Trust's page lists"],
+        rows: [
+          ["Freedom Walk, 8 Sleeper", "$495", "$247.50", "Shared 8-person bunk rooms at both lodges, porridge, self-prepared evening meals to buy in the lodge shops"],
+          ["Freedom Walk, 4 Sleeper", "$575", "$287.50", "The same rooms with lower bunks only"],
+          ["Prime Package", "$1,195", "$972.50", "Made-up beds, hot showers, evening meals, bed and breakfast the night before, helicopter bag transfer on day 1"],
+          ["Guided Walk", "$2,395", "No child price listed", "Guides, all meals, track transport, accommodation and a helicopter flight on day 1"],
+        ],
+      }),
+      s("The two lodges: Ōkaka and Port Craig", [
+        "DOC says the lodges are run by the Trust and offer a higher standard of accommodation than other Great Walk huts. The Trust describes them as backcountry lodges with gas heating and cooking, solar lighting, flush toilets, licensed lodge shops and shared kitchen and bathroom facilities. Ōkaka Lodge sits 835 m above sea level, and the Trust says Port Craig Lodge has a USB charging station and Ōkaka does not, with no plugs for personal use at either. Drinking water is available at both, and the Trust recommends boiling or treating it.",
+        "The Trust says the communal kitchen has six stove-top burners, four washing-up basins, and crockery, cutlery, pots and pans, and that only its stove tops are to be used for cooking, so you need no stove of your own. The lodge shops sell snacks, drinks and self-prepared meals, either a dehydrated pouch or the Tuatapere sausage meal, and take cash and cards. The lodges are on-licensed, so the Trust says you cannot bring alcohol onto the premises, and it adds that they have no drying rooms and are smoke-free. A hot shower is an extra that you add when you book, and the Trust does not recommend the track for children under 10.",
+      ], ["Gas cooking and heating, solar lighting", "No alcohol brought onto the premises", "No drying rooms"]),
+      s("Season, closed viaducts and coastal hazards", [
+        "The Trust gives its summer season as 23 October 2026 to 17 April 2027 and says the winter season is strictly closed. DOC's track page text gives no season dates. Both DOC and the Trust say the Percy Burn and Edwin Burn viaducts are closed. DOC's 2 April 2026 release said they and the Francis Burn Viaduct on the South Coast Track were closed in February because of structural deterioration, that the Hump Ridge Track remains open with walkers bypassing the two viaducts by an existing alternative track and bridge, and that Sandhill Viaduct remains open. The Trust's notice, last reviewed on 15 September 2026, says not to attempt to cross them and to use the alternative routes.",
+        "DOC lists hazards on the coast: tidal surges and rogue waves, rockfalls, landslides and tsunami risk, and it recommends not continuing if waves are washing over or near the track. The South Coast Track is only accessible at low tide at Blowholes Beach, according to DOC, which says to watch for tidal surges at all times. DOC adds that low cloud, high wind, rain and very cold temperatures are possible at any time of year, that there are wasps and hunting in the area, that mountain bikes and quad bikes are not allowed, and that you should stay off helicopter landing zones. DOC says no dogs, and the Trust points walkers to yr.no forecasts for Ōkaka.",
+      ], ["Trust season: 23 October to 17 April", "Percy Burn and Edwin Burn viaducts closed", "Blowholes Beach is passable at low tide only"]),
+      s("Getting to Tuatapere and Rarakau, shuttles and car parking", [
+        "DOC says Tuatapere is 1.15 hours from Invercargill Airport, 1.5 hours from Te Anau and 2.5 hours from Queenstown, while the Trust gives 1 hour 15 minutes from Te Anau, which is worth checking before you plan a day. The track starts at Rarakau car park, about a 30 minute drive past the Trust's office. The Trust says the car park is on private land, with a $5 koha asked for leaving a vehicle for the 3 days, and that the last 6 km are gravel with a 30 kph limit. DOC says cars are left at the owner's risk. The Trust suggests booking its track transport if you have a rental vehicle or a large campervan.",
+        "The Trust runs track transport from Tuatapere to Rarakau at 8:00 am daily, with pick-ups from accommodation in the township at 7:50 am, and back from Rarakau at 2:30 pm, for $45 return or $30 one way. Its Humpridge Shuttle runs from Invercargill and Te Anau at $110 return or $75 one way, and from Queenstown at $195 return or $145 one way, direct for groups of four or more and otherwise shared with Tracknet via Mossburn. You travel to Tuatapere the day before, and the Trust says you can return the same day only if you are off the track by 2:30 pm. Shuttles run only when someone has booked, and you must book the return track transport too.",
+      ], ["Rarakau car park: $5 koha for 3 days", "Track transport leaves Tuatapere at 8:00 am", "Shuttles from Invercargill, Te Anau and Queenstown"]),
+      s("Where to stay near Tuatapere", [
+        "The Trust's FAQ says Tuatapere has accommodation from motels and lodges to Airbnb, and that walkers using its transport should stay in the township, because it picks up and drops off only there. Last Light Lodge's own site says it has 21 rooms and a grassy camping area, 1 km from the Trust's office, with a powered site from $40 for one adult, a non-powered site from $35, $22 for each extra adult and $12 for each extra child, up to five guests a site. It lists a communal kitchen, hot showers, a dump station, free parking while you are away and $2 lockers. Tui Base Camp's own site lists motel and backpacker accommodation and powered and tent camping sites in the middle of town.",
+        "KiwiCamping's Southland freedom camping guide found no council freedom camping site at Tuatapere, and its guide to the Southern Scenic Route covers the wider drive through the south of the island. The commercial camping areas above are the sites to check first.",
+      ], ["Trust transport picks up in the township only", "Last Light Lodge: camping area, 1 km from the office", "No council freedom camping site, per the guide"]),
+      s("Using KiwiCamping on the Hump Ridge Track", [
+        "Ōkaka and Port Craig are Trust lodges rather than DOC huts, so the DOC pages in KiwiCamping's Southland data, 70 huts and 5 campsites at 11 August 2026, are for the nights around the loop rather than on it. Open a Southland place to read DOC's fee notes and facilities, look at its seven-day forecast and tap through to DOC's own page. Starred places, saved places and guides can be read without reception, but map tiles, routing, weather and photos need a connection.",
+        "Lay the trip out leg by leg: the drive from Invercargill, Te Anau or Queenstown, the night in Tuatapere, the three days on the loop and the way home. Give each stop a date, put the Trust's booking confirmation and your shuttle times in the notes, and the app shows the distance between legs. The Trust takes the bookings for the track, its lodges and its transport, and KiwiCamping does not. Free to download, with in-app purchases.",
+      ], ["Put the Trust's confirmation in a trip note", "Check the forecast before the drive in", "Book on the Trust's website"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Hump Ridge Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/hump-ridge-track/" },
+      { label: "DOC: compare the Great Walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/compare-great-walks/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC media release (2 April 2026): historic viaducts closed, Hump Ridge Track remains open", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/historic-viaducts-closed-for-safety-hump-ridge-track-remains-open/" },
+      { label: "Hump Ridge Trust: Humpridge Track home page", url: "https://humpridgetrack.co.nz/" },
+      { label: "Hump Ridge Trust: packages and pricing", url: "https://humpridgetrack.co.nz/packages/" },
+      { label: "Hump Ridge Trust: how to get here", url: "https://humpridgetrack.co.nz/how-to-get-here/" },
+      { label: "Hump Ridge Trust: frequently asked questions", url: "https://humpridgetrack.co.nz/frequently-asked-questions/" },
+      { label: "Hump Ridge Trust: helicopter options", url: "https://humpridgetrack.co.nz/heli-options/" },
+      { label: "Hump Ridge Trust: jet boat options", url: "https://humpridgetrack.co.nz/jetboat-options/" },
+      { label: "Hump Ridge Trust: our story", url: "https://humpridgetrack.co.nz/our-story/" },
+      { label: "Last Light Lodge, Tuatapere", url: "https://lastlightlodge.com/" },
+      { label: "Tui Base Camp, Tuatapere", url: "https://tuibasecamp.co.nz/" },
+    ],
+  }),
 ];
