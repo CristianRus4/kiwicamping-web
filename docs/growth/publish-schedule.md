@@ -70,3 +70,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-28 | freedom-camping-waitaki-2026 | scheduled |
 | 2026-11-29 | freedom-camping-whakatane-2026 | scheduled |
 | 2026-11-30 | tongariro-northern-circuit-camping-2026-27 | scheduled |
+| 2026-12-10 | rakiura-track-camping-2026-27 | scheduled |

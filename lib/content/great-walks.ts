@@ -289,4 +289,86 @@ export const greatWalksArticles: Article[] = [
       { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
     ],
   }),
+  a({
+    slug: "rakiura-track-camping-2026-27",
+    publishAt: "2026-12-10",
+    title: "Rakiura Track Camping 2026/27: Huts, Campsites, Booking, Fees and Getting There",
+    description: "Rakiura Track camping for 2026/27: the 2 huts and 3 campsites, DOC's $19 and $28 campsite fees, the two-night limit, booking all year, section times, the Bluff ferry, the Invercargill flight and the mud.",
+    category: "Camping guides",
+    region: "Southland",
+    places: ["Oban", "Lee Bay", "Maori Beach", "Port William", "North Arm", "Bluff"],
+    imageAlt: "A curved white sand beach at Maori Beach on Stewart Island, with tussock in the foreground and forested hills across a calm blue bay",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "rakiura-stewart-island-camping-guide", "doc-campsites-new-zealand-guide", "doc-hut-rules-etiquette"],
+    hubs: ["camping/southland"],
+    intro:
+      "The Rakiura Track is a 32 km Great Walk loop from Oban on Stewart Island/Rakiura, with two huts (Port William and North Arm) and three campsites (Maori Beach, Port William and North Arm). DOC says every hut and campsite must be booked in advance all year round, you can stay at most two nights at each, and from 1 October to 30 April a campsite costs $19 for a New Zealand adult and $28 for an international adult. DOC opened 2026/27 bookings on Thursday 21 May 2026, and this page covers the track itself: the sections, where you sleep, the fees, the crossing from the mainland and the mud. The island trip, Oban and Ulva Island are in the Stewart Island camping guide.",
+    sections: [
+      s("The loop: sections, distances and times", [
+        "DOC's comparison page gives the Rakiura Track as 32 km and 3 days, and DOC's track guide describes it as a 32 km loop. The track page lists the sections you walk, and they add up to more than 32 km because the list starts in Oban: the 5 km road and coast walk to Lee Bay is before the track proper, and a road walk of about 2 km from the Fern Gully car park takes you back to Oban at the end. The three track days in the guide are about 8 km, 13 km and 11 km.",
+        "DOC's guide sets the walk out as three days: Lee Bay to Port William, Port William to North Arm, and North Arm to the Fern Gully car park. It says trampers usually stay the night at Port William Hut and then backtrack about 40 minutes to the turn-off for the North Arm track, so the second day starts with a section you have already walked. The times are DOC's and vary with fitness, direction and weather. Little River and Maori Beach have both a high-tide and a low-tide route, and at Maori Beach DOC's guide says you can wade the creek if the tide is low and conditions are safe.",
+      ], ["Oban to Lee Bay is 5 km before the track starts", "Day 2 is the longest at 13 km and about 6 hours", "Use the high-tide tracks at Little River and Maori Beach when needed"], {
+        caption: "Sections and times from DOC's Rakiura Track page, read 21 October 2026. The track guide gives 8.1 km, 13 km and 11 km for the three track days.",
+        head: ["Section", "Distance", "DOC's time"],
+        rows: [
+          ["Oban to Lee Bay", "5 km", "1 hour 30 minutes"],
+          ["Lee Bay to Port William Hut", "8 km", "3 to 4 hours"],
+          ["Port William Hut to North Arm Hut", "13 km", "6 hours"],
+          ["North Arm Hut to Fern Gully car park", "11 km", "4 to 4 hours 30 minutes"],
+          ["Fern Gully car park to Oban", "About 2 km, road walk", "Not given on the track page; the guide says 20 to 30 minutes"],
+        ],
+      }),
+      s("Huts and campsites: where you can sleep", [
+        "There are two huts, Port William Hut and North Arm Hut, and three campsites, Maori Beach, Port William and North Arm. DOC says the campsites are not next to the huts and that you may camp only at the designated campsites. Campers cannot use hut facilities. DOC's page lists a cooking shelter, a water supply and a toilet at each campsite, and says the North Arm campsite sits above North Arm Hut.",
+        "DOC's 2021 track guide gives 24 bunks at each hut and room for 16 campers at each campsite, so check the live DOC page before relying on those numbers. It places Maori Beach campsite in a grassy clearing close to the beach, the Port William campsite above Magnetic Beach with the hut about 5 minutes further on, and the North Arm campsite above the hut. DOC's page says the huts have no gas cooking, lighting or toilet paper and are not heated, so a stove, fuel, candles and toilet paper are part of what you carry.",
+      ], ["Campsites are not beside the huts", "Campers cannot use hut facilities", "Huts have no gas cooking, lighting or heating"], {
+        caption: "Capacity from DOC's Rakiura Track guide (December 2021); facilities from DOC's Rakiura Track page, read 21 October 2026.",
+        head: ["Place", "Type", "Capacity in DOC's 2021 guide", "Where it sits"],
+        rows: [
+          ["Maori Beach", "Campsite", "16 campers", "Grassy clearing close to the beach, after Little River and Peters Point"],
+          ["Port William", "Campsite and hut", "16 campers; 24 bunks", "Campsite above Magnetic Beach; hut about 5 minutes beyond"],
+          ["North Arm", "Campsite and hut", "16 campers; 24 bunks", "Campsite above the hut"],
+        ],
+      }),
+      s("Booking, the two-night limit and fees", [
+        "DOC says all huts and campsites on the Rakiura Track must be booked in advance all year round, that bookings are open for the 2026/27 season and that the maximum stay is 2 nights at each hut or campsite. DOC's 26 March 2026 release set the opening at 9:30 am on Thursday 21 May 2026 for stays from 1 July 2026 to 30 June 2027, and it has not published dates for 2027/28. Without a valid booking you may be charged a penalty, or turned away if the site is full, and DOC says to carry your booking confirmation and ID.",
+        "From 1 October to 30 April a campsite night is $19 for a New Zealand adult and $28 for an international adult, and from 1 May to 30 September it is $6 for any adult. DOC's page gives a New Zealand child aged 5 to 17 at $9 and an international child aged 0 to 17 at $14 in summer, and $3 outside it, with New Zealand infants aged 0 to 4 free. Hut nights are $44 and $66 in summer, $38 from May to June and $31 from July to September. The New Zealand rate needs proof of eligibility, and the Great Walks guide covers proof of residency and cancellation fees.",
+      ], ["Book every night, all year", "Two nights at most at each site", "Winter campsite nights are $6 for adults"], {
+        caption: "Adult fee per person per night, NZ dollars including GST, from DOC's Rakiura Track page and Great Walks pricing page, read 21 October 2026.",
+        head: ["Season", "Campsite, New Zealand adult", "Campsite, international adult", "Hut, New Zealand adult", "Hut, international adult"],
+        rows: [
+          ["1 October to 30 April", "$19", "$28", "$44", "$66"],
+          ["1 May to 30 June", "$6", "$6", "$38", "$38"],
+          ["1 July to 30 September", "$6", "$6", "$31", "$31"],
+        ],
+      }),
+      s("Getting to Oban: the Bluff ferry and the Invercargill flight", [
+        "DOC says Stewart Island is a one-hour ferry ride from Bluff or 20 minutes by plane from Invercargill. RealNZ says it is the operator of the ferry, that Bluff is about 27 km south of Invercargill, that the crossing takes approximately one hour and that sailings run multiple times daily. Its page says timetables vary by season, that some sailings are subject to weather on the Strait, and that capacity tightens in winter and the shoulder season. It says the fare covers the crossing only. This page quotes no fare, because the current price is on RealNZ's booking page.",
+        "Stewart Island Flights lists a summer schedule from 1 October to 30 April and a winter schedule from 1 May to 30 September, and says additional flights are scheduled to meet demand. Its baggage policy gives each fare-paying customer a 15 kg limit, checked in 30 minutes before departure, plus one small carry-on item, and treats larger items as excess baggage subject to space on the day. The policy page says nothing specific about walkers' packs or gas canisters, so ask the airline before you fly with camping gear. Southland District Council's 2026-2027 fees schedule lists a Stewart Island/Rakiura visitor levy of $7.50 inbound and $7.50 outbound for passengers of approved operators, and $15.00 for freedom travellers. The council's page lists exemptions, including people under 18 and visits entirely within Rakiura National Park, so check with the council or your operator how it applies to your trip.",
+      ], ["Ferry: about 1 hour from Bluff, per DOC and RealNZ", "Flight: 20 minutes from Invercargill, per DOC", "Flight baggage limit is 15 kg per customer"]),
+      s("Oban before and after the track", [
+        "DOC says Oban is the only township and has accommodation, supplies, equipment hire and transport to the track start. The Rakiura National Park Visitor Centre is at 15 Main Road, Oban (phone +64 3 219 0009, from DOC's track guide), so confirm its opening hours with DOC. The Lee Bay start is 5 km from the visitor centre by Main Road, then Elgin Terrace past the supermarket, then the coastal road through Horseshoe Bay. DOC says shuttles can drop you at Lee Bay, water taxis can reach the huts and boat access to North Arm depends on the tide. It names no operators or prices, so ask at the visitor centre.",
+        "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, 3 of them Great Walk campsites and 3 of them in Rakiura National Park, and has no DOC campsite in Oban itself, as the Stewart Island camping guide also says. A night in Oban before or after the track therefore means the island's accommodation, and that guide covers Oban, Ulva Island and the kiwi trips. Build a spare day around the crossing, because RealNZ says some sailings are subject to weather on the Strait.",
+      ], ["Visitor centre: 15 Main Road, Oban", "Shuttles reach Lee Bay; water taxis reach the huts", "Allow a spare day for weather"]),
+      s("Mud, weather, safety and kiwi", [
+        "Between Port William Hut and North Arm Hut, DOC says long rain can make the track muddy above boot height in patches up to 500 m long. It recommends gaiters, says some walkers use tramping poles, and warns that exposed netting and wooden steps can be slippery. DOC's guide says two bridges between North Arm and Port William may become impassable in heavy rain, and that walkers should turn back or wait until it is safe. DOC says Stewart Island weather changes quickly and that strong winds, hail and heavy rain can occur at any time.",
+        "You cannot buy food on the track and DOC provides no emergency food, so carry all meals plus spares in rodent-proof containers. Mobile coverage is limited to the township, and DOC recommends a distress beacon. DOC's guide says no dogs or unpermitted drones are allowed, and that hunting occurs all year in Rakiura National Park but is not permitted near the track. Rakiura tokoeka (kiwi) are mostly active at night. If you look for them after dark, DOC says to cover your torch with a red filter or use a red light, and to avoid flash photography and bright lights.",
+      ], ["Gaiters for mud above boot height", "No food on the track, and no emergency food", "Red light only for kiwi"]),
+      s("Using KiwiCamping on the Rakiura Track", [
+        "KiwiCamping's DOC data lists the Rakiura Track's Great Walk campsites and the two Great Walk huts in Southland, with the huts' bunks, fee notes and facilities such as toilets and water supply, and each place shows a seven-day forecast, which matters on an island where DOC says the weather changes quickly. DOC's booking system stays the only place to reserve a night. Place details, saved places and guides open from the phone without signal, while map tiles, routing, weather and photos need a connection.",
+        "Save the three nights to a trip, add a note with each booking reference and the ferry or flight time, and put the Invercargill or Bluff night before and after in order. Free to download, with in-app purchases.",
+      ], ["Save each booked night with its reference", "Check the forecast for each hut and campsite", "Reserve on DOC's site, not in the app"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Rakiura Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/stewart-island-rakiura/rakiura-national-park/things-to-do/rakiura-track/" },
+      { label: "DOC: Rakiura Track guide (December 2021)", url: "https://www.doc.govt.nz/documents/parks-and-recreation/tracks-and-walks/southland/rakiura-track-guide.pdf" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC: Great Walks, compare the walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/compare-great-walks/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "RealNZ: ferry to Stewart Island planning guide", url: "https://www.realnz.com/en/blog/ferry-to-stewart-island-planning-guide/" },
+      { label: "Stewart Island Flights: timetable", url: "https://www.stewartislandflights.co.nz/timetable" },
+      { label: "Stewart Island Flights: baggage policy", url: "https://www.stewartislandflights.co.nz/baggagepolicy" },
+      { label: "Southland District Council: Stewart Island Visitor Levy", url: "https://www.southlanddc.govt.nz/community-and-facilities/working-living-or-visiting/stewart-island-visitor-levy/" },
+      { label: "Southland District Council: schedule of fees and charges 2026-2027 (visitor levy)", url: "https://www.southlanddc.govt.nz/assets/Fees-and-charges/individual/Fees-and-charges-Stewart-Island_Rakiura-visitor-levy.pdf" },
+    ],
+  }),
 ];

@@ -408,4 +408,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much does it cost to camp on the Tongariro Northern Circuit?", "From 23 October to 30 April it is $19 per adult per night for New Zealanders and $28 for international visitors, and from 1 May to 22 October it is $10 for everyone. Bookings are required all year."],
     ["Can I camp anywhere along the Tongariro Northern Circuit?", "No. The three huts each have a nearby campsite, and DOC says camping is not allowed within 500 m of the track."],
   ],
+  "rakiura-track-camping-2026-27": [
+    ["Do I have to book the Rakiura Track in winter?", "Yes. DOC says all huts and campsites on the Rakiura Track must be booked in advance all year round, and that the maximum stay is 2 nights at each hut or campsite. Without a valid booking you may be charged a penalty, or turned away if the site is full."],
+    ["How much does it cost to camp on the Rakiura Track?", "From 1 October to 30 April a campsite night is $19 per adult for New Zealanders and $28 for international visitors, and from 1 May to 30 September it is $6 for any adult. DOC lists the huts at $44 and $66 in summer."],
+    ["Where are the campsites on the Rakiura Track?", "DOC lists three: Maori Beach, Port William and North Arm. It says they are not next to the huts, that you may camp only at the designated campsites and that campers cannot use hut facilities."],
+    ["How do I get to the start of the Rakiura Track?", "DOC says Stewart Island is a one-hour ferry ride from Bluff or 20 minutes by plane from Invercargill. The track starts at Lee Bay, 5 km from the DOC visitor centre in Oban, and DOC says shuttles can drop you there."],
+  ],
 };

@@ -43,6 +43,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | abel-tasman-coast-track-campsites-2026-27 | 6 (Using KiwiCamping on the Abel Tasman) | Inbox: kiwicamping_place-detail_kumutoto-bay-campsite_fees-facilities.png | KiwiCamping on iPhone: a DOC campsite's amenities, including toilets and a water supply, above its reported adult, child and infant prices |
 | routeburn-track-camping-2026-27 | 5 (Using KiwiCamping for the Routeburn) | Inbox: kiwicamping_guides_queenstown-glenorchy_map.png | KiwiCamping on iPhone: the Queenstown and Glenorchy guide with a map of Lake Wakatipu showing campsite pins above a seven-day forecast |
 | tongariro-northern-circuit-camping-2026-27 | 5 (Using KiwiCamping for Tongariro) | kiwicamping_weather_tongariro.png | KiwiCamping on iPhone: a hut's page in Tongariro National Park with a seven-day forecast and useful places nearby |
+| rakiura-track-camping-2026-27 | 6 (Using KiwiCamping on the Rakiura Track) | Inbox: kiwicamping_place-detail_jollie-hut_middle.png | KiwiCamping on iPhone: a DOC hut's page with its toilets and water supply listed above a seven-day weather forecast |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

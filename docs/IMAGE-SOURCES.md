@@ -122,3 +122,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-new-plymouth-2026` | Mount Taranaki and Tui Tui (7087589543).jpg | Takver from Australia | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_and_Tui_Tui_(7087589543).jpg) |
 | `freedom-camping-waitaki-2026` | Poplars on the hills at Lake Benmore.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Poplars_on_the_hills_at_Lake_Benmore.jpg) |
 | `freedom-camping-whakatane-2026` | Ohope morning.JPG | Follash | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Ohope_morning.JPG) |
+| `rakiura-track-camping-2026-27` | Maori Beach in the morning.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Maori_Beach_in_the_morning.jpg) |
