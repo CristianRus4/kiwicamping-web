@@ -22,6 +22,8 @@ export const dynamicParams = false;
 export function generateStaticParams() {
   return exportRoutes().filter((route) => route.kind !== "crawler").flatMap((route) => {
     if (route.locale !== "en") {
+      // Localised hubs have their own routes (app/[locale]/camping/, huts/, freedom-camping/).
+      if (route.kind === "hub") return [];
       const [locale, ...path] = route.path.split("/").filter(Boolean);
       return [{ locale, path }];
     }
