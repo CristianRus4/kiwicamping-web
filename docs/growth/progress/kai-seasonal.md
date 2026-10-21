@@ -13,3 +13,9 @@ Branch `growth/k-seasonal`. Pages: `christmas-summer-camping-new-zealand-2026-27
 - Page 4 `new-years-eve-summer-event-camping-new-zealand`: research running (docs/growth/seasonal/nz-nye-events-facts.md), then draft in lib/content/seasonal.ts, FAQ, figure (Glendhu Bay holiday park top is a candidate), schedule 2026-11-03.
 - After both: cross-link sentences from existing NZ guides (each sentence must differ; similarity audit rejects shared skeletons; add link targets to lib/internal-links.ts), `npm run build` before `npm run similarity:check`, `npm run check`, handoff 2.
 - Subagents hit the account session limit at about 6:35pm NZ; resumed after 6:40pm.
+
+## Final (2026-10-21)
+- Pages 3 and 4 committed, opus fact-checked, fixes applied (docs/growth/seasonal/nz-christmas-factcheck.md, nz-nye-factcheck.md). Branch merged with origin/main (29c1d4f); content:check passes (106 articles).
+- Cross-link sentences in 10 existing guides (English only, each sentence different).
+- Not run, by owner rule: full `npm run check`, build, similarity audit. Orchestrator and GitHub run them. Likely items: none known; the link sentences were written to differ.
+- Lane complete.
