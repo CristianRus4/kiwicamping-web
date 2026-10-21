@@ -1063,7 +1063,7 @@ export const listicleArticles: Article[] = [
         rows: [
           ["KiwiCamping", "DOC huts, tracks and campsites", "Free to download, with in-app purchases", "3.8 (4)"],
           ["Plan My Walk", "Alerts and trip plans to share", "Free", "4.6 (612)"],
-          ["NZ Topo50", "Offline topo maps, one island each", "NZ$6.99 per island", "4.4 (161) and 4.6 (225)"],
+          ["NZ Topo50", "Offline topo maps, one island each", "NZ$6.99 per island", "4.4 (161) and 4.5 (225)"],
           ["NZ Topo Maps", "LINZ Topo50 and Topo250 downloads", "Free; extra sheets NZ$14.99", "4.3 (1,746)"],
           ["TrailTreks", "Free offline topo maps with DOC huts", "Free; PLUS NZ$13.99 a year", "4.4 (8)"],
           ["AllTrails", "Trail reviews and recording", "Free; Plus from NZ$35.99", "4.8 (5,198)"],
@@ -1072,15 +1072,15 @@ export const listicleArticles: Article[] = [
       }),
       s("1. KiwiCamping: best for DOC huts, tracks and campsites on your route", [
         "KiwiCamping holds 927 DOC huts, 1,453 DOC tracks and 287 DOC campsites in its August 2026 data. A hut page shows its status, bunks, fees and facilities and links to DOC's page, and a track page shows distance, time, grade and an elevation profile. Of those places, 127 huts and 177 campsites are flagged as bookable and link out to book, and 33 of the huts are on Great Walks.",
-        "You can add huts and campsites to a trip with dates and see the drive to the trailhead, and the weather shown on a place is from Apple Weather. Place details are kept on the phone and open without signal, while the map, routing, weather and photos need a connection.",
+        "You can add huts and campsites to a trip with dates and see the drive time between stops, and the weather shown on a place is from Apple Weather. Place details are kept on the phone and open without signal, while the map, routing, weather and photos need a connection.",
         "It is not a topographic map or a navigation app, so carry one of the apps below as your map. KiwiCamping is iPhone only (iOS 26 or later) and has 4 New Zealand ratings averaging 3.8.",
       ], ["Choose it for: hut and track details", "Not a topo map", "iPhone only; few ratings"], undefined, true),
       s("2. Plan My Walk: best for alerts and sharing your trip plan", [
         "Plan My Walk comes from the Mountain Safety Council and is free. It lists more than 3,000 tracks, huts and campsites, shows alerts from DOC and local councils and forecasts from MetService, and has gear lists and a trip planner that sends your plan to an emergency contact. A free account is needed for trip plans. It rated 4.6 from 612 New Zealand ratings.",
-        "Its developer says the app works offline only with an eligible satellite plan; without one, you download a PDF of your trip plan to read offline. It does not describe offline maps, so pair it with a topo app.",
+        "Its developer says the app works offline with an eligible satellite plan; without one, you download a PDF of your trip plan to read offline. It does not describe offline maps, so pair it with a topo app.",
       ], ["Choose it for: alerts and trip plans", "Free", "Offline needs a satellite plan or a PDF"]),
       s("3. NZ Topo50: best for offline topo maps with no subscription", [
-        "NZ Topo50 sells complete LINZ Topo50 coverage of one island at NZ$6.99, with the North Island and South Island as separate apps. Its listing says you need no phone or wifi signal, and it includes DOC huts, campgrounds, tracks, GPS, track recording and GPX import. It rated 4.4 from 161 ratings for the North Island and 4.6 from 225 for the South Island.",
+        "NZ Topo50 sells complete LINZ Topo50 coverage of one island at NZ$6.99, with the North Island and South Island as separate apps. Its listing says you need no phone or wifi signal, and it includes DOC huts, campgrounds, tracks, GPS, track recording and GPX import. It rated 4.4 from 161 ratings for the North Island and 4.5 from 225 for the South Island.",
         "You pay twice if you walk on both islands, but the maps ship inside the app and there is no subscription.",
       ], ["Choose it for: maps that ship in the app", "NZ$6.99 per island", "No subscription"]),
       s("4. NZ Topo Maps: best for downloading just the sheets you need", [
@@ -1089,23 +1089,23 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: choosing your own sheets", "Free to start", "Extra sheets are paid"]),
       s("5. TrailTreks: best free option, with few ratings", [
         "TrailTreks is free with no ads, and its listing says its NZ topo maps work offline, with every DOC hut, campsite and track, DOC alert notifications, MetService severe weather warnings and location sharing. A PLUS plan costs NZ$1.49 a month or NZ$13.99 a year.",
-        "It has only 8 New Zealand ratings, averaging 4.4, and its first release was in September 2025, so test it at home before you trust it on a track.",
+        "It has only 8 New Zealand ratings, averaging 4.4, and its first release was in September 2025, so it has a short track record.",
       ], ["Choose it for: a free offline start", "PLUS NZ$13.99 a year", "New, 8 ratings"]),
       s("6. AllTrails: best for reviews and recording", [
         "AllTrails is a global trail app with reviews, recordings and more than 500,000 trails, free with Plus listed from NZ$35.99, and offline map downloads need Plus. It rated 4.8 from 5,198 New Zealand ratings.",
-        "Its trails are contributed by the community and its listing does not mention DOC alerts, so check DOC for closures and conditions.",
+        "Its listing says reviews and photos come from its community and does not mention DOC alerts, so check DOC for closures and conditions.",
       ], ["Choose it for: reviews and recording", "Offline maps need Plus", "Check DOC for closures"]),
       s("7. MetService and mountain forecasts: best for the weather", [
         "MetService is New Zealand's official weather service, and its free app is rated 2.4 from 1,126 New Zealand ratings. DOC says MetService provides the brief and extended New Zealand mountain forecasts on its website, and that anyone going into the mountains should also check the New Zealand Avalanche Advisory. The app's listing does not mention mountain forecasts, so use the website for them.",
         "Mountain-Forecast.com covers New Zealand peaks such as Aoraki Mount Cook, but it is not an official New Zealand source.",
-      ], ["Choose it for: official warnings", "Mountain forecasts are on its website", "Low app rating"]),
+      ], ["Choose it for: official warnings", "Mountain forecasts are on its website", "Rated 2.4 from 1,126"]),
       s("Great Walks and huts: booking and prices", [
         "DOC lists eleven Great Walks, and bookings are open for stays to 30 June 2027 through its online system. Great Walk bookings for 2026/27 opened from 12 May 2026 with a virtual queue, and the Hump Ridge Track is booked through its own trust's website. Summer hut fees differ for New Zealand residents and international visitors on some tracks: on the Routeburn an adult hut night is $88 for residents and $132 for international visitors, and DOC says it will make random checks.",
         "Outside the Great Walks, DOC's Backcountry Hut Pass costs $160 for an adult and $80 for a child for 12 months and does not give you preference to a bunk at non-bookable huts. Backcountry Hut Tickets cost $15 for a standard hut adult night, and from 1 November 2026 they will be sold through DOC's online booking system.",
       ], ["11 Great Walks", "Resident and international rates", "Hut Pass $160 an adult"]),
       s("Plan the trip, then carry a way to call for help", [
         "DOC's Land Safety Code says to choose the right trip for you, understand the weather, pack warm clothes and extra food, share your plans and take ways to get help, and take care of yourself and each other. It says telling a trusted person your trip details and taking a distress beacon can save your life.",
-        "The Mountain Safety Council recommends always carrying another communication device on remote trips and says a 406 MHz personal locator beacon must be registered with the Rescue Coordination Centre New Zealand. It also says the 111 number cannot accept calls from data-enabled apps, and that a phone call is not enough when you leave your trip intentions.",
+        "The Mountain Safety Council recommends always taking another communication device, especially on trips into remote areas, and says a 406 MHz personal locator beacon must be registered with the Rescue Coordination Centre New Zealand. It also says the 111 number cannot accept calls from data-enabled apps, and that a phone call is not enough when you leave your trip intentions.",
       ]),
       s("How we chose and checked", [
         "We picked the apps trampers use for huts, maps, trip plans and weather, and dropped apps with no updates for years or with too few ratings to judge. Prices, ratings and versions come from the New Zealand App Store on 21 October 2026, and rules and fees from DOC, the Mountain Safety Council and LINZ.",
@@ -1139,7 +1139,7 @@ export const listicleArticles: Article[] = [
     imageAlt: "A roadside rest area on the shore of Lake Taupō with a picnic table and a parked car",
     related: ["camping-wastewater-rubbish-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-rules-new-zealand", "free-camping-apps-new-zealand"],
     intro:
-      "Emptying a campervan toilet is a daily job on a New Zealand trip, and we found no app in the New Zealand App Store built only for dump stations. The practical answer is a camping app, the NZMCA's directory or a council's own page. This list compares the options with prices and ratings from the New Zealand App Store checked on 21 October 2026, then gives the rules from official sources. We make KiwiCamping, which has a dump station layer, and we say what it leaves out.",
+      "Emptying a campervan toilet is a daily job on a New Zealand trip, and we found no app in the New Zealand App Store built only for New Zealand dump stations. The practical answer is a camping app, the NZMCA's directory or a council's own page. This list compares the options with prices and ratings from the New Zealand App Store checked on 21 October 2026, then gives the rules from official sources. We make KiwiCamping, which has a dump station layer, and we say what it leaves out.",
     sections: [
       s("Dump station apps at a glance", [
         "Use a camping app for the route and a council or NZMCA list to confirm a station before you rely on it. NZMCA's app needs a membership, Rankers and CamperMate are free, WikiCamps costs NZ$7.99 once, and KiwiCamping is free to download with in-app purchases.",
@@ -1151,7 +1151,7 @@ export const listicleArticles: Article[] = [
           ["KiwiCamping", "262 dump stations with fee notes and facilities", "Free to download, with in-app purchases", "3.8 (4)"],
           ["NZMCA App", "Directory with dump stations, recycling and water", "App free; membership NZ$252 first year", "No NZ ratings yet"],
           ["Rankers Camping NZ", "Public and holiday park dump stations", "Free", "4.7 (3,322)"],
-          ["CamperMate", "Dump stations, toilets and Wi-Fi", "Free; contains ads", "4.4 (606)"],
+          ["CamperMate", "Dump stations, toilets and Wi-Fi", "Free", "4.4 (606)"],
           ["WikiCamps New Zealand", "Dump points among 12,000 sites", "NZ$7.99 once", "4.5 (137)"],
           ["thl Roadtrip", "Dump stations near you, for hire customers", "Free", "4.6 (122)"],
         ],
@@ -1163,14 +1163,14 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: stations on a planned route", "Fee note on each record", "iPhone only; few ratings"], undefined, true),
       s("2. NZMCA App: best for members with a self-contained vehicle", [
         "The New Zealand Motor Caravan Association's app is for members: joining costs NZ$252 in the first year, made up of a NZ$150 joining fee and a NZ$102 annual subscription, and the NZMCA says the membership includes the app and its Travel Directory. The directory shows dump stations, recycling spots, laundromats and water refill stations, and NZMCA Parks cost $5 per adult a night.",
-        "Anything you drive or tow must be certified self-contained to use the benefits. The iPhone app had no New Zealand ratings when we checked and the Android app rated 3.2 from 156 reviews on Google Play. NZMCA says it only works on devices with their country set to New Zealand.",
+        "Anything you drive or tow must be certified self-contained to use the benefits. The iPhone app had no New Zealand ratings when we checked and the Android app rated 3.2 from 156 reviews on Google Play. NZMCA says the app is only available to download on devices with their country set to New Zealand.",
       ], ["Choose it for: NZMCA members", "Membership NZ$252 first year", "Certified self-contained vehicles"]),
       s("3. Rankers Camping NZ: best free app with dump stations", [
-        "Rankers is free and rated 4.7 from 3,322 New Zealand ratings, the most of any camping app on the store. Its listing says it covers more than 1,500 campsites and 6,600 places in all, including dump stations, water refills and LPG, and all public and holiday park dump stations.",
-        "It works offline straight out of the box, and each review is read by a person on its team. It lists only places the community has approved, so use it with a council list for rural stations.",
+        "Rankers is free and rated 4.7 from 3,322 New Zealand ratings, the most ratings among the camping apps we compared. Its listing says it covers more than 1,500 campsites and 6,600 places in all, including dump stations, water refills and LPG, and all public and holiday park dump stations.",
+        "It works offline straight out of the box, and each review is read by a person on its team. Its camping spots are ones the community has approved, so use it with a council list for rural stations.",
       ], ["Choose it for: free and well reviewed", "Works offline", "Approved places only"]),
       s("4. CamperMate: best free app that also shows toilets and Wi-Fi", [
-        "CamperMate is free and covers New Zealand and Australia. Its listing says you can find dump stations, public toilets, Wi-Fi spots and supermarkets, and download maps and place information to use without an internet connection. Its New Zealand average is 4.4 from 606 ratings, and it shows ads.",
+        "CamperMate is free and covers New Zealand and Australia. Its listing says you can find dump stations, public toilets, Wi-Fi spots and supermarkets, and download maps and place information to use without an internet connection. Its New Zealand average is 4.4 from 606 ratings, and Google Play marks it as containing ads.",
         "We could not find a published count of its dump stations.",
       ], ["Choose it for: a free offline all-rounder", "Contains ads", "No dump station count"]),
       s("5. WikiCamps New Zealand: best for a large community list", [
@@ -1183,7 +1183,7 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: thl hire vans", "Free", "Last updated June 2025"]),
       s("Council and NZMCA lists", [
         "Councils publish their own stations, and fees vary. Waitaki District Council lists free dump stations at north Oamaru, east Omarama and Mill Reserve in Palmerston, and at its lakes camping grounds it is free with a camping ground ticket and otherwise $5 by donation box. Hurunui District Council lists stations at Amberley Beach, Cheviot, Culverden, Hanmer Springs and Waikari and suggests checking the CamperMate app or an AA map for private ones.",
-        "NZMCA says public dump stations are typically built to the NZS 5465:2001 design for self-containment. Vehicle certification now runs under the Plumbers, Gasfitters and Drainlayers (Self-Contained Vehicles) Regulations 2023.",
+        "NZMCA says dump stations are typically built in accordance with NZ Standard 5465:2001. Vehicle certification now runs under the Plumbers, Gasfitters and Drainlayers (Self-Contained Vehicles) Regulations 2023.",
       ], ["Waitaki: free at several sites", "Hurunui: five listed stations", "Check the council before you go"]),
       s("The rules that sit behind a dump station", [
         "Since 7 June 2026 only a green-warrant vehicle counts as self-contained, and the old blue warrant cannot be used for freedom camping. The requirements do not apply at a campground, holiday park or private property. The 2023 regulations require a wastewater system that stores greywater and blackwater and a way to dispose of wastewater hygienically to an appropriate outfall.",
@@ -1225,7 +1225,7 @@ export const listicleArticles: Article[] = [
     sections: [
       s("South Island road trip apps at a glance", [
         "Plan the nights and the route in KiwiCamping, check roads on NZTA's Journey Planner and weather on MetService, compare fuel in Gaspy and find a place to stay with CamperMate or Rankers. DOC's alerts page covers closures on conservation land.",
-        "The road and weather sources are official websites or agency apps; an app can tell you where a campsite is, but only the agency can tell you that a road is closed.",
+        "The road and weather sources are official websites or agency apps; an app can tell you where a campsite is, but the agencies that run the roads and the weather publish the closures and warnings.",
       ], undefined, {
         caption: "Checked 21 October 2026 on the New Zealand App Store and each agency's own site. Ratings are New Zealand App Store averages with the number of ratings.",
         head: ["App or site", "Best for", "Price", "NZ rating"],
@@ -1242,19 +1242,19 @@ export const listicleArticles: Article[] = [
       s("1. KiwiCamping: best for planning the nights and the drive", [
         "KiwiCamping puts DOC campsites and huts, holiday parks and dump stations on one map, with fees, facilities and rules for each. In its August 2026 data the South Island's DOC regions hold 44 campsites in Marlborough, 37 in Nelson Tasman, 30 in Otago, 22 in Canterbury, 14 on the West Coast, 13 in Fiordland and 5 in Southland, and many more huts.",
         "Its road-trip guides include Picton to Christchurch via Kaikōura, Christchurch to Tekapo and Aoraki, Queenstown to Glenorchy and the West Coast, each with a route on the map, a forecast and notes on what to book ahead. You can add stops with dates to a trip and see the drive time between them.",
-        "Place details stay on the phone without signal, but map tiles, routing, weather and photos need a connection, and it does not show road closures. It is iPhone only (iOS 26 or later) with 4 New Zealand ratings averaging 3.8.",
-      ], ["Choose it for: a dated route with DOC places", "No road closure data", "iPhone only; few ratings"], undefined, true),
+        "Place details stay on the phone without signal, but map tiles, routing, weather and photos need a connection, so check NZTA for road closures. It is iPhone only (iOS 26 or later) with 4 New Zealand ratings averaging 3.8.",
+      ], ["Choose it for: a dated route with DOC places", "Check NZTA for road closures", "iPhone only; few ratings"], undefined, true),
       s("2. NZTA Journey Planner: best for road closures and roadworks", [
         "NZTA's Journey Planner is a website, not an app, and shows travel times, traffic cameras and updates on delays, roadworks and road closures. NZTA says its route suggestions come from Google, and there may be closures or unplanned events on state highways that make the route shown unsuitable, so check the map before you travel.",
         "For local roads, NZTA tells you to check with the local or regional council. Our guide to one-lane bridges and gravel roads covers the driving side. The separate NZTA Waka Kotahi app is for licences and registration, not live traffic.",
       ], ["Choose it for: closures and roadworks", "Check the map before you travel", "Website, not an app"]),
       s("3. MetService: best for weather warnings", [
-        "MetService is New Zealand's official weather service. Its free app shows severe weather warnings and watches, a rain radar and live traffic cameras for urban locations. It rated 2.4 from 1,126 New Zealand ratings, which is low, so keep its website as a second check.",
+        "MetService is New Zealand's official weather service. Its free app shows severe weather warnings and watches, a rain radar and live traffic cameras for urban locations. It rated 2.4 from 1,126 New Zealand ratings, and its website carries the mountain forecasts.",
         "DOC points to MetService for mountain forecasts and says anyone going into the mountains should also check the New Zealand Avalanche Advisory. Our guide to weather apps compares it with the other options.",
-      ], ["Choose it for: official warnings", "Low app rating", "Mountain forecasts on its website"]),
+      ], ["Choose it for: official warnings", "Rated 2.4 from 1,126", "Mountain forecasts on its website"]),
       s("4. Gaspy: best for fuel on the long stretches", [
         "Gaspy shows crowd-sourced fuel prices and is free, with an optional subscription at NZ$1.69 a month. It rated 4.0 from 783 New Zealand ratings.",
-        "On the Milford Road, DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and to have a full tank before leaving Te Anau. A return trip from Te Anau is 240 km and DOC suggests allowing an eight-hour day.",
+        "On the Milford Road, DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and to have a full tank before leaving Te Anau. A return trip from Te Anau is 240 km, and DOC says an eight-hour day is needed if you plan to take in the sights, short walks and a boat cruise.",
       ], ["Choose it for: comparing fuel prices", "Full tank at Te Anau", "Crowd-sourced prices"]),
       s("5. CamperMate: best free all-rounder with offline maps", [
         "CamperMate is free and covers New Zealand and Australia, with campsites, holiday parks, dump stations, toilets and Wi-Fi, and its listing says you can download maps and use it without an internet connection. It rated 4.4 from 606 New Zealand ratings and shows ads.",
@@ -1262,11 +1262,11 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: maps without signal", "Contains ads", "Download before the long stretches"]),
       s("6. Rankers Camping NZ: best for reviews of welcome overnight spots", [
         "Rankers is free, and its 3,322 New Zealand ratings average 4.7. It lists places where the local community has said overnight stays are welcome, with traveller reviews that its team reads, and its campsite information works offline from the start.",
-        "Detailed maps are a download, so get them over Wi-Fi first, and it lists fewer places than the biggest community directories.",
+        "Detailed maps are a download, so get them over Wi-Fi first, and it lists fewer places than WikiCamps.",
       ], ["Choose it for: vetted overnight spots", "Free", "Fewer places"]),
       s("7. Plan My Walk: best for short walks and sharing your plan", [
         "Plan My Walk is the Mountain Safety Council's free app, with alerts from DOC and local councils, forecasts from MetService and a trip planner that sends your plan to an emergency contact. It rated 4.6 from 612 New Zealand ratings.",
-        "It works offline only with an eligible satellite plan, otherwise you download a PDF of your trip plan first.",
+        "It works offline with an eligible satellite plan, and without one you download a PDF of your trip plan first.",
       ], ["Choose it for: walks and trip plans", "Free", "Offline needs a satellite plan or PDF"]),
       s("The Milford Road and the mountain passes", [
         "DOC says the Milford Road has public toilets only at Te Anau, Knob's Flat and Milford, that snow chains may be required and can be rented in Te Anau, and that drivers should check the status of State Highway 94. The section between the Hollyford Road junction and The Chasm is a Restricted No Stopping Zone because it is an avalanche area, and DOC says to take a bus if you are not confident driving in winter conditions.",
