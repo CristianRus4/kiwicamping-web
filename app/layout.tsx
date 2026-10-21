@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },
-  other: { "apple-itunes-app": smartBannerContent("en") },
+  other: { "apple-itunes-app": smartBannerContent("en"), "naver-site-verification": "0d9c5b2881ff6654540894f1693e36e57630c695" },
 };
 
 export const viewport: Viewport = {
