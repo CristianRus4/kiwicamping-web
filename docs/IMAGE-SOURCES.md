@@ -124,3 +124,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-whakatane-2026` | Ohope morning.JPG | Follash | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Ohope_morning.JPG) |
 | `rakiura-track-camping-2026-27` | Maori Beach in the morning.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Maori_Beach_in_the_morning.jpg) |
 | `whanganui-journey-camping-2026-27` | Whanganui journey rapids.jpg | ShakyIsles | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whanganui_journey_rapids.jpg) |
+| `milford-track-2026-27-huts-booking-fees` | Milford Track Clinton River 1.jpg | AlasdairW | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Milford_Track_Clinton_River_1.jpg) |

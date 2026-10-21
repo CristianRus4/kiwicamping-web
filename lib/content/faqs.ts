@@ -420,4 +420,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need to book huts and campsites on the Whanganui Journey?", "Yes in the Great Walks season, 1 October to 30 April: DOC says huts and campsites must be booked in advance. Outside the season bookings are not possible and sites are first come, first served."],
     ["Can beginners do the Whanganui Journey unguided?", "DOC says it is not a trip for beginners. An unguided trip needs a confident swimmer with canoe experience who can paddle 6 to 7 hours a day, and DOC strongly recommends a guided trip for less experienced paddlers and solo travellers."],
   ],
+  "milford-track-2026-27-huts-booking-fees": [
+    ["Can you camp on the Milford Track?", "No. DOC says camping is not permitted on the Milford Track. There are three huts, Clinton, Mintaro and Dumpling, and the track can only be walked in one direction over 3 nights and 4 days."],
+    ["When do Milford Track bookings open?", "DOC opened 2026/27 bookings at 9:30 am on Wednesday 13 May 2026, for stays from 1 July 2026 to 30 June 2027. DOC had not published the opening date for 2027/28 when this page was checked on 21 October 2026."],
+    ["How much do the Milford Track huts cost in 2026/27?", "From 1 November to 30 April a hut night is $106 for a New Zealand adult and $152 for an international adult, and children pay $53 (New Zealand, 5 to 17) or $76 (international, 0 to 17). From 1 May to 31 October DOC lists $30 per adult per night."],
+    ["How do you get to the start and finish of the Milford Track?", "DOC says to take a bus or private transport from Te Anau to Te Anau Downs, then a 1 hour 15 minute boat to Glade Wharf. At the end a 20 minute boat runs from Sandfly Point to Milford Sound/Piopiotahi, where buses go back to Te Anau and on to Queenstown. DOC says transport must be booked in advance and names four independent operators."],
+  ],
 };

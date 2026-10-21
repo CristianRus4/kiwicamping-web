@@ -448,4 +448,79 @@ export const greatWalksArticles: Article[] = [
       { label: "Visit Ruapehu: Taumarunui Holiday Park", url: "https://www.visitruapehu.com/accommodation/apartments/taumarunui-holiday-park" },
     ],
   }),
+  a({
+    slug: "milford-track-2026-27-huts-booking-fees",
+    publishAt: "2026-12-07",
+    title: "Milford Track 2026/27: Huts, Booking Dates, Fees and Where to Camp Nearby",
+    description: "The Milford Track has three huts and no camping, one direction only, over four days. 2026/27 season dates, hut fees from $106, booking opening, boats at both ends and where to camp near Te Anau the night before.",
+    category: "Camping guides",
+    region: "Fiordland",
+    places: ["Te Anau", "Te Anau Downs", "Glade Wharf", "Clinton Hut", "Mintaro Hut", "Dumpling Hut", "Sandfly Point"],
+    imageAlt: "The Clinton River on the Milford Track, clear green water running past fallen trees below forested slopes",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "fiordland-camping-road-trip", "freedom-camping-southland-2026", "doc-huts-new-zealand-guide"],
+    hubs: ["camping/fiordland", "huts/fiordland", "freedom-camping/te-anau"],
+    intro:
+      "The Milford Track has three huts, Clinton, Mintaro and Dumpling, and no camping: DOC says camping is not permitted, and the track can only be walked in one direction over 3 nights and 4 days. In the Great Walks season, which runs from 1 November 2026 to 30 April 2027 with a last departure on 28 April, a hut night costs $106 for New Zealand adults and $152 for international adults, and DOC opened 2026/27 bookings at 9:30 am on Wednesday 13 May 2026. Below are the huts, the four days, the boats at each end, the fees and what DOC says about booking, then where you can camp near Te Anau the night before.",
+    sections: [
+      s("The three huts and the four days", [
+        "DOC's Milford Track page gives the length as 53.5 km, one way, from Glade Wharf at the head of Lake Te Anau to Sandfly Point on Milford Sound. There are three huts, which must be booked well in advance in the Great Walks season, and every walker sleeps in each of them in turn. Clinton, Mintaro and Dumpling huts each have 40 bunk beds, flush toilets, heating, lighting, mattresses and basic cooking, with untreated tap water that DOC says to boil before use. A DOC ranger is in residence, and DOC says the huts do not provide cooking utensils or showers.",
+        "The first day is short, because you arrive by boat: DOC gives 5 km and 1 to 1 hour 30 minutes from Glade Wharf to Clinton Hut. Day two is 17.5 km and about 6 hours up the Clinton Valley to Mintaro Hut at the base of Omanui/McKinnon Pass, often spelled Mackinnon Pass. Day three climbs to the pass and then drops to Dumpling Hut, and day four is the longest walk, 18 km to Sandfly Point in time for the early afternoon boat. Two side trips are worth the daylight: the wetland walkway near Clinton Hut is 15 minutes return, and DOC calls the 1 hour 30 minutes return walk to Sutherland Falls a definite highlight, where the water drops 580 m in three leaps.",
+      ], ["Camping is not permitted on the track", "One direction only, over 3 nights", "Huts have no showers or cooking utensils"], {
+        caption: "Sections, distances and times from DOC's Milford Track page, read 21 October 2026. DOC says the third day climbs over 500 m to the pass and then descends 1000 m to Dumpling Hut.",
+        head: ["Day", "Section", "Distance", "Time"],
+        rows: [
+          ["1", "Glade Wharf to Clinton Hut, after a 1 hour 15 minute boat from Te Anau Downs", "5 km", "1 h to 1 h 30"],
+          ["2", "Clinton Hut to Mintaro Hut", "17.5 km", "6 h"],
+          ["3", "Mintaro Hut to Dumpling Hut over Omanui/McKinnon Pass Shelter (1154 m)", "13 km", "6 h to 7 h"],
+          ["4", "Dumpling Hut to Sandfly Point, then a boat to Milford Sound/Piopiotahi", "18 km", "5 h 30 to 6 h"],
+        ],
+      }),
+      s("Booking dates for 2026/27", [
+        "DOC's media release says Milford Track bookings opened at 9:30 am on Wednesday 13 May 2026, for stays from 1 July 2026 to 30 June 2027, the day after the Paparoa Track and the day before Abel Tasman. The release also says DOC's upgraded online booking system returns with a queue to manage peak demand. The Milford page says bookings are open for the 2026/27 season, that you need to book the huts online in the Great Walks season, and that a stay without a valid booking can bring a penalty, or you can be turned away if the hut is full. Check-in at Great Walk huts is from 2 pm to 8.30 pm and check-out is by 10 am, according to DOC's Great Walks terms.",
+        "DOC does not publish which dates are booked out, so availability only shows in the booking system. What it has published is last summer's occupancy: the release says Milford Track huts reached around 95 per cent. DOC's release says nothing about the 2027/28 opening dates, and none had been published when this page was checked on 21 October 2026, so treat any date you see for next May as a guess. Transport is a separate booking: DOC's page says bookings are required for huts and for transport. The Great Walks overview covers proof of residency, transfers and the cancellation scale.",
+      ], ["Bookings opened 13 May 2026 at 9:30 am", "Last departure is 28 April 2027", "2027/28 dates are not published"]),
+      s("What the huts cost in 2026/27", [
+        "DOC charges per person per night, and the Milford rate is the highest of the Great Walks. From 1 November to 30 April a hut night is $106 for a New Zealand adult and $152 for an international adult, a New Zealand child aged 5 to 17 pays $53, an international child aged 0 to 17 pays $76, and New Zealand infants aged 0 to 4 are free. Because the track is walked in three nights, the huts alone come to $318 for a New Zealand adult and $456 for an international adult, before boats and buses.",
+        "Outside the season DOC's rate drops to $30 per adult per night for everyone, and $15 for children, from 1 May to 31 October. DOC says proof of eligibility is required for the New Zealand rate, and staff make random checks at visitor centres and huts. The Great Walks overview sets out what DOC accepts as proof and the fee it charges if someone cannot show it.",
+      ], ["$106 NZ, $152 international per night in season", "Three nights: $318 or $456 for huts", "Outside the season it is $30 for everyone"], {
+        caption: "Hut fees per person per night, NZ dollars including GST, from DOC's Milford Track page and Great Walks pricing page, read 21 October 2026. There are no campsites.",
+        head: ["Dates", "Adult NZ", "Adult international", "Child NZ (5 to 17)", "Child international (0 to 17)"],
+        rows: [
+          ["1 November to 30 April", "$106", "$152", "$53", "$76"],
+          ["1 May to 30 June", "$30", "$30", "$15", "$15"],
+          ["1 July to 31 October", "$30", "$30", "$15", "$15"],
+        ],
+      }),
+      s("Boats, buses and getting to each end", [
+        "DOC says the track starts on Lake Te Anau. From Te Anau you take a bus or private transport to Te Anau Downs, which DOC gives as 30 minutes, then a boat to Glade Wharf at the head of the lake, 1 hour 15 minutes. The track finishes at Sandfly Point, and DOC says to take a boat trip of 20 minutes to Milford Sound/Piopiotahi, where there are bus services back to Te Anau and on to Queenstown. DOC says there is no vehicle or private access to the start or end of the track, and that transport must be booked in advance.",
+        "In the Great Walks season, DOC says full and partial transport packages are available from independent operators, and it names Cheeky Kiwi, Easyhike, Fiordland Outdoors Company and Tracknet. DOC does not give their prices or timetables, so contact the operator. Outside the season DOC says operators need minimum numbers and do not always run a daily service. Because the track starts near Te Anau and finishes at Milford Sound, the Milford Road is part of the plan, and the Fiordland camping road trip guide covers that road, fuel and the weather.",
+      ], ["Boat from Te Anau Downs: 1 h 15 min", "Boat from Sandfly Point: 20 min", "Contact the four operators DOC names"]),
+      s("Omanui/McKinnon Pass, avalanche risk and weather", [
+        "The pass shelter is the highest point on the track at 1154 m. DOC says the risk of avalanche can extend into December, that in the Great Walks season it manages this risk to a low level, and that walkers may be flown, at their own cost, over dangerous sections. It also says the Milford Track is not recommended for children under 10, because of the exposed mountainous environment and often adverse weather. DOC gives a NIWA forecast for the pass and a webcam on the pass, and both are worth checking before the long third day.",
+        "DOC says Fiordland National Park gets very high rainfall, up to 9000 mm a year, and that cold temperatures, snow, strong winds and heavy rain can occur at any time of the year. Track closures are possible, and DOC recommends travel insurance. There is no cellphone coverage on the track, and the Milford Track page says to store food in a rodent-proof container, that you cannot buy food on the track, and that huts do not carry emergency food. Didymo is present in Lake Te Anau and Milford Sound but, according to DOC, not in the Clinton and Arthur rivers, so use the Check, Clean, Dry steps when moving from the lake to the rivers.",
+      ], ["Avalanche risk can run into December", "No cellphone coverage", "Carry your own emergency food"]),
+      s("Independent walkers, guided walks and the months outside the season", [
+        "DOC's page describes the huts, fees and booking for walkers who book their own huts and transport. The only mention of guided walking is a line suggesting you consider guided walks on the Milford Track, with a link to the Visit Fiordland website, and DOC's page gives no prices or details for them. If you choose a guided option, ask the operator what is included and what DOC booking, if any, you still need to make.",
+        "From 1 May to 31 October the track is outside the Great Walks season. DOC says huts then do not need booking, bunks are first come, first served, and payment is with Backcountry Hut Tickets or a Backcountry Hut Pass, but the track is an advanced or expert route, bridges over some side streams are removed, and DOC does not manage hazards such as flooding and avalanches. Facilities are greatly reduced, so it should only be attempted by fit, experienced and well-equipped people. DOC describes the Great Walks season as the best time to walk the track, with more facilities and fewer hazards.",
+      ], ["Guided options: DOC links to Visit Fiordland", "1 May to 31 October is not a Great Walk", "Out-of-season huts are first come, first served"]),
+      s("Camping near Te Anau the night before", [
+        "You cannot camp on the track, so a campervan or tent night belongs at the start. Southland District Council's freedom camping location list shows toilets at Te Anau but no freedom camping site there, and the council's 2015 bylaw maps mark the town as camping prohibited, which the Southland freedom camping guide sets out. DOC's freedom camping notices around Te Anau prohibit camping at 24 places, including the Te Anau Downs and Lake Mistletoe carparks, according to KiwiCamping's DOC data (11 August 2026).",
+        "The closest DOC campsite on that road is Henry Creek Campsite, 23 km north of Te Anau, which DOC calls the closest DOC campsite to Te Anau on the scenic drive to Milford Sound. DOC lists 30 non-powered or tent sites at $18 per adult per night, bookings required, no dogs, and fires are not allowed at any time. DOC says if no availability shows online the campsite is fully booked, and that same-day bookings are available online until 8 pm if spaces remain. Totara Campsite is 50 km north of Te Anau, with 20 sites at the same fee. Check your bus and boat times with your transport operator before you choose where to sleep.",
+      ], ["DOC prohibits camping at 24 sites near Te Anau", "Henry Creek is 23 km north of Te Anau", "Book the campsite online"]),
+      s("Using KiwiCamping around the Milford Track", [
+        "KiwiCamping's DOC data (11 August 2026) lists 55 DOC huts in Fiordland, 7 of them Great Walk huts, and 13 DOC campsites, 10 bookable online through DOC, each with its category, fee notes, facilities and a link to DOC's own page. Searching for Milford Road in the app brings up Henry Creek Campsite, which is the easy way to compare it with the other Fiordland campsites before you book on DOC's site. Bookings for the huts and the boats stay with DOC and the operators. Place details, saved places and guides work offline; map tiles, routing, weather and photos need signal.",
+        "Save the Te Anau night before the track, then add the road legs either side so the trip shows the distance between them and a forecast at each place. Put the DOC booking reference and the boat times in a note, and use the forecast on the road leg and the Te Anau stop to decide how early to leave. Free to download, with in-app purchases.",
+      ], ["Save the Te Anau night before the start", "Keep the booking reference in a note", "Check the forecast at each stop"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Milford Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/milford-track/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May, and last summer's occupancy", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC: Great Walks terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/great-walks-terms-and-conditions/" },
+      { label: "DOC: Henry Creek Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/henry-creek-campsite/" },
+      { label: "DOC: Totara Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/totara-campsite/" },
+      { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Southland District Council: freedom camping sites and locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+    ],
+  }),
 ];
