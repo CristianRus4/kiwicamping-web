@@ -6,3 +6,8 @@ Translated: kauri-dieback-camping-travel, alcohol-fatigue-driving-new-zealand, n
 
 ## KiwiCamping batch 11 (Polish)
 Translated (script-validated, no separate review): winter-driving-new-zealand-campervan, earthquake-tsunami-camping-new-zealand, one-lane-bridges-gravel-roads-new-zealand, camping-rules-local-councils-new-zealand, campervan-budget-new-zealand, food-fuel-resupply-new-zealand-road-trip, plan-trip-kiwicamping.
+
+## KiwiCamping batch 12 (Polish)
+Translated (script-validated, no separate review): save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs, best-nz-camping-apps, where-to-camp-in-new-zealand, responsible-camping-new-zealand.
+- Editor note: the English offline-data guide title/description say "Offline"; Polish says "bez zasięgu" (works without signal) to avoid any offline-map claim.
+- Editor note: best-nz-camping-apps says "we"/"ours" for both the company and the researchers; Polish is impersonal.

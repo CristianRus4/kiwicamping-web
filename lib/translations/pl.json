@@ -6593,6 +6593,931 @@
       ],
       "sources": [],
       "priceTable": null
+    },
+    "save-places-kiwicamping": {
+      "title": "Jak zapisywać i porządkować miejsca w KiwiCamping",
+      "description": "Rozdziel potwierdzone noclegi, mocne zapasowe opcje i pomysły na później tak, żeby żadne miejsce nie zginęło ci na mapie.",
+      "region": "KiwiCamping",
+      "imageAlt": "Złoty piasek i turkusowa woda w Torrent Bay w Parku Narodowym Abel Tasman",
+      "intro": "Wrzucanie każdej ciekawej pinezki do jednego worka tylko przenosi problem wyszukiwania w inne miejsce. Odrobina struktury, ustalona od początku, sprawia, że tysiące kempingów, schronisk i holiday parków da się wykorzystać w kilku podróżach, zamiast zamienić się w listę, której przestajesz otwierać.",
+      "sections": [
+        {
+          "heading": "Rozdziel zapisane miejsca według zamiaru",
+          "body": [
+            "Przydatny podział nie biegnie według regionów, tylko według tego, co zamierzasz z danym miejscem zrobić. Jedna lista na podróż, którą naprawdę odbywasz, druga na realne opcje zapasowe w zasięgu trasy i trzecia na pomysły, z których może nigdy nie skorzystasz. Wymieszanie tych trzech to właśnie to, co sprawia, że zapisana lista jest bezużyteczna o 19:00, gdy kemping okazuje się pełny.",
+            "Lista zapasowa zwraca się raz po raz. Świadomość, że w promieniu czterdziestu minut masz dwie legalne alternatywy, zmienia podejście do pełnego kempingu: to różnica między spokojną decyzją a godziną jazdy, podczas której ucieka światło dnia."
+          ],
+          "tips": [
+            "Podróż, zapasowe, pomysły: trzy listy",
+            "Opcje zapasowe w zasięgu trasy",
+            "Ustal strukturę, zanim zaczniesz zapisywać"
+          ]
+        },
+        {
+          "heading": "Skorzystaj z inteligentnych kolekcji do oznaczania stanu",
+          "body": [
+            "„Polubione”, „Odwiedzone”, „Do odwiedzenia” i „Oznaczone gwiazdką” aktualizują się same, gdy oznaczasz miejsca, więc śledzą stan, a nie plany. „Odwiedzone” przydaje się w długiej podróży bardziej, niż się wydaje: nie szukasz tego samego miejsca dwa razy i masz prawdziwy zapis odwiedzonych miejsc.",
+            "„Pinezki” i „Wszystkie zapisane” dają szeroki widok, gdy nie pamiętasz, na której liście coś wylądowało. Traktuj je jak siatkę bezpieczeństwa, a nie system segregowania."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nazywaj listy tak, żeby miały sens także później",
+          "body": [
+            "„Wyspa Południowa” nic ci nie powie za cztery miesiące. „Wyspa Południowa, luty, tylko miejsca z prądem” mówi, co miała rozwiązać i czy lista nadaje się do ponownego użycia. Nazwa z regionem, porą roku, pojazdem lub podróżą sprawia, że lista nie traci sensu, gdy do niej wrócisz.",
+            "Dodaj krótki opis tam, gdzie aplikacja na to pozwala. Powód, dla którego zapisano miejsce, wylatuje z głowy najszybciej, a zwykle to właśnie on był najważniejszy: osłonięte od południowego wiatru, dobre dla dużego kampera, spokojnie w środku tygodnia."
+          ],
+          "tips": [
+            "Nazwa z regionem, porą roku i pojazdem",
+            "Zapisz, dlaczego to miejsce trafiło na listę",
+            "Ogólne nazwy szybko tracą sens"
+          ]
+        },
+        {
+          "heading": "Zapisuj z karty miejsca, nie z mapy",
+          "body": [
+            "Najpierw otwórz miejsce. Uwagi o dojeździe, udogodnienia, struktura opłat i źródło informacji decydują o tym, czy miejsce pasuje do twojego zestawu, a z samej pinezki nic z tego nie widać. Zapisywanie z mapy daje listę nazw, a zapisywanie z karty miejsca daje listę opcji.",
+            "Dopisz notatkę o tym jednym, co sprawiło, że warto było miejsce zachować. „Jedyne miejsce tutaj z punktem zrzutu” albo „dojazd szutrem, nie dla niskiego auta” znaczy więcej niż sam wpis, gdy wybierasz między pięcioma zapisanymi miejscami."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Traktuj ceny jak wartości orientacyjne do planowania",
+          "body": [
+            "Tam, gdzie pokazano zgłoszony koszt, możesz go zobaczyć we własnej walucie i porównać prosty kemping DOC z <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parkiem</a> bez liczenia na każdym przystanku. Przeliczone kwoty traktuj jako pomoc w planowaniu: to mechaniczne przeliczenie zgłoszonej kwoty, a nie oferta usługodawcy ani kurs twojego banku.",
+            "Zanim cena zdecyduje o trasie, potwierdź faktyczną stawkę u usługodawcy i sprawdź, co ta kwota obejmuje. Opłaty DOC pobiera się zwykle od osoby dorosłej za noc, a komercyjne parki mogą podawać cenę za miejsce, więc dwie podobnie wyglądające liczby mogą dla rodziny oznaczać bardzo różne sumy."
+          ],
+          "tips": [
+            "Przeliczone ceny są orientacyjne",
+            "DOC liczy od osoby dorosłej, parki często od miejsca",
+            "Potwierdź, zanim cena zdecyduje o trasie"
+          ]
+        },
+        {
+          "heading": "Pozwól zapisanym miejscom synchronizować się między urządzeniami",
+          "body": [
+            "Gdy iCloud jest dostępny i włączony, zapisane stany, kolekcje i dane podróży synchronizują się prywatnie między twoimi urządzeniami. W praktyce planujesz na większym ekranie w domu, a te same listy masz na telefonie w kamperze, bez żadnego eksportu.",
+            "Oznacza to też, że wymiana lub zresetowanie telefonu nie zabiera ze sobą podróży, co w długiej wyprawie liczy się bardziej niż podczas weekendowego wypadu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Przeglądaj i czyść listę po każdej podróży",
+          "body": [
+            "Oznacz to, co odwiedzone, usuń opcje, które się nie sprawdziły, i zostaw notatki o dojeździe lub godzinach, które pozostaną prawdziwe następnym razem. Dziesięć minut po zakończeniu podróży chroni listę przed zamianą w trzysta pinezek, którym już nie ufasz.",
+            "Przenieś do podróży przystanki, które naprawdę wchodzą w grę. Listy są na możliwości, a planer na samą wyprawę, i właśnie rozdzielenie obu sprawia, że każde z nich się przydaje."
+          ],
+          "tips": [
+            "Porządkuj, póki podróż jest świeża",
+            "Zachowaj notatki, które zostają aktualne",
+            "Listy to opcje, podróże to plany"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czym różnią się kolekcje inteligentne od własnych?",
+          "Kolekcje inteligentne wypełniają się same: „Polubione”, „Oznaczone gwiazdką”, „Do odwiedzenia”, „Odwiedzone”, „Pinezki” i „Wszystkie zapisane” aktualizują się, gdy oznaczasz miejsca. Kolekcje własne to te, które nazywasz i budujesz według własnego pomysłu, na przykład dla regionu, pory roku, pojazdu lub krótkiej listy faworytów."
+        ],
+        [
+          "Czy zapisane miejsca synchronizują się między urządzeniami?",
+          "Tak, gdy iCloud jest włączony: zapisane stany, kolekcje i dane podróży podążają za twoim kontem Apple. Bez iCloud wszystko zostaje na jednym urządzeniu."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-filters-guide": {
+      "title": "Filtry w KiwiCamping: szybciej znajdź kemping dla siebie",
+      "description": "Zawężaj według typu miejsca, udogodnień, ceny i dojazdu, ale nie ukrywaj przy tym każdej sensownej alternatywy.",
+      "region": "KiwiCamping",
+      "imageAlt": "Przyczepy kempingowe na kempingu nad Lake Clearwater pod ośnieżonymi szczytami w Canterbury",
+      "intro": "Filtry działają najlepiej wtedy, gdy każdy z nich oznacza rzeczywisty warunek nie do pominięcia, a nie preferencję. Typowy błąd to nadmiar filtrów: zostają trzy wyniki, sensowna alternatywa dwadzieścia minut dalej znika, a ty masz fałszywe wrażenie, że w okolicy nic nie ma.",
+      "sections": [
+        {
+          "heading": "Zacznij od typu miejsca i obszaru",
+          "body": [
+            "Zanim zawęzisz cokolwiek innego, zdecyduj, jakiej nocy szukasz. Kemping DOC, schronisko w głębi lądu, wyznaczony obszar <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>, holiday park i domek to różne produkty z innymi zasadami, cenami i systemami rezerwacji, a ich pomieszanie daje listę, którą trzeba w głowie porządkować od nowa.",
+            "Potem ustaw mapę wzdłuż trasy, którą naprawdę jedziesz. Wyszukiwanie w widocznym obszarze utrzymuje wyniki w kontekście dnia i nie pozwala, żeby znane miejsce leżące dziewięćdziesiąt minut od trasy zdominowało listę, na której nie ma czego szukać."
+          ],
+          "tips": [
+            "Najpierw wybierz typ nocy",
+            "Szukaj wzdłuż trasy, nie w całym regionie",
+            "Słynne miejsca często oznaczają zły objazd"
+          ]
+        },
+        {
+          "heading": "Dodawaj tylko warunki, które wykluczyłyby miejsce",
+          "body": [
+            "Toalety, woda pitna, prąd, wstęp z psem, rozmiar pojazdu, przedział cenowy: włączaj je wtedy, gdy ich brak naprawdę przekreśla opcję. Jeśli masz pełny zbiornik z wodą, filtr wody pitnej usunie miejsca, które byłyby w porządku, a przy okazji być może cichsze.",
+            "Zaczynaj od najtwardszego ograniczenia. Dojazd pojazdu i wymagany certyfikat eliminują najwięcej opcji i najmniej da się je negocjować, więc włączenie ich na początku zostawia krótszą, uczciwszą listę do przejrzenia."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zrozum, co znaczy puste pole",
+          "body": [
+            "Brak danych znaczy „nie wiadomo”, a nie „nie ma”. Miejsce bez zapisanego prysznica może go mieć, tyle że nikt go nie wpisał, a ścisłe filtrowanie według udogodnień po cichu je odrzuci. To najczęstszy sposób, w jaki podróżni przekonują się, że w regionie nic nie ma.",
+            "Gdy przefiltrowane wyszukiwanie zwraca prawie nic, poluzuj najmniej ważny warunek, zamiast uznawać, że okolica się nie nadaje. Wyniki zwykle zmieniają się mocno po usunięciu jednego filtra."
+          ],
+          "tips": [
+            "Puste pole znaczy „nie wiadomo”, nie „brak”",
+            "Poluzuj jeden filtr, zanim się poddasz",
+            "Zbyt ścisłe filtry ukrywają dobre opcje"
+          ]
+        },
+        {
+          "heading": "Filtruj inaczej przy noclegu w ramach freedom campingu",
+          "body": [
+            "Wyszukiwanie <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a> to kwestia prawa, a nie komfortu. Liczy się to, czy miejsce jest wyznaczone, czy wymaga pojazdu z certyfikatem self-contained i jaki jest limit pobytu. Udogodnienia są na drugim planie, bo często ich tam po prostu nie ma.",
+            "Zanim zaczniesz polegać na miejscu, porównaj wymagany certyfikat ze swoim warrantem. Wymóg dotyczy pojazdu i kontrole są wymierzone w pojazd, więc niezgodność kosztuje drogo, choćby wszystko inne było dopilnowane."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Szukaj usług, nie tylko miejsc do spania",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Stacje zrzutu nieczystości</a>, woda pitna, miejsca na śmieci i paliwo są ważne dla podróży same w sobie i warto ich szukać osobnym zadaniem, zamiast liczyć, że pojawią się w pobliżu dzisiejszego noclegu. Zaplanowanie zrzutu po drodze jest o wiele łatwiejsze niż osobny wyjazd, gdy zbiornik jest już pełny.",
+            "To samo dotyczy pralni i gorącego prysznica po deszczowym odcinku. Wybór przystanku, który załatwia trzy sprawy naraz, zwykle opłaca się bardziej niż najtańsza pinezka i powroty po każdą z nich."
+          ],
+          "tips": [
+            "Zaplanuj zrzut po drodze",
+            "Woda i paliwo zasługują na osobne wyszukiwanie",
+            "Wygrywa przystanek, który załatwia trzy sprawy"
+          ]
+        },
+        {
+          "heading": "Zawsze miej w zasięgu miejsce zapasowe",
+          "body": [
+            "Zapisz miejsce, które wolisz, i przynajmniej jedną legalną alternatywę, zanim opuścisz recepcję. Filtry zawężone tak, że zostaje dokładnie jeden wynik, odbierają ci plan awaryjny, a pełne kempingi w letni wieczór to norma, nie pech.",
+            "Miejsce zapasowe nie musi być tak dobre. Ma być legalne, osiągalne za dnia i otwarte. To znacznie łatwiejszy standard, a to właśnie on chroni zmęczonego kierowcę przed złą decyzją po zmroku."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Resetuj filtry między regionami i rodzajami podróży",
+          "body": [
+            "Wymagania na wędrówkę ze schroniskiem, wieczór z prądem i pralką w mieście oraz postój w ramach <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a> z certyfikatem prawie się nie pokrywają. Filtry zostawione z wczoraj to częsty powód, dla którego dzisiejsze wyszukiwanie wygląda nieoczekiwanie pusto.",
+            "Wyczyść zestaw za każdym razem, gdy podróż zmienia charakter, zwłaszcza gdy przenosisz się z Wyspy Północnej na Południową, znad morza w góry albo z odcinka w trasie do kilku dni w jednym mieście."
+          ],
+          "tips": [
+            "Czyść filtry, gdy zmienia się charakter podróży",
+            "Wczorajsze filtry dają dzisiejszą pustą listę",
+            "Schronisko, miasto i freedom camping to zupełnie inne noce"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy można filtrować darmowe kempingi z toaletami?",
+          "Tak, i właśnie po to są filtry. Opłata, udogodnienia, cechy dojazdu, typ miejsca, region, ocena i rezerwacja online łączą się ze sobą, więc „darmowe obszary kempingowe z toaletami i wodą pitną w pobliżu Queenstown” to jedno zapytanie."
+        ],
+        [
+          "Dlaczego przefiltrowane wyszukiwanie nic nie zwraca?",
+          "Prawie zawsze dlatego, że filtry są ustawione ciaśniej, niż pozwala okolica. Poszerzenie mapy albo zdjęcie najmniej ważnego udogodnienia zwykle przywraca listę, a w pierwszej kolejności warto wyczyścić filtr oceny."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-offline-data-guide": {
+      "title": "Czy KiwiCamping działa bez zasięgu? Co wymaga internetu",
+      "description": "Szczegóły miejsc, zapisane listy i poradniki działają bez zasięgu; mapa, pogoda, trasy i Rozejrzyj się wymagają internetu. Zaplanuj odludne odcinki.",
+      "region": "KiwiCamping",
+      "imageAlt": "State Highway 94 wijąca się przez odległą dolinę w Parku Narodowym Fiordland",
+      "intro": "KiwiCamping nie jest aplikacją z pobieraną mapą. Dane o miejscach zostają przydatne poza zasięgiem, ale kafelki mapy, pogoda, wyznaczanie trasy i zdjęcia potrzebują sieci, a dokładna wiedza, co jest po której stronie, to różnica między dobrze przygotowanym odludnym odcinkiem a przykrą niespodzianką w złym momencie.",
+      "sections": [
+        {
+          "heading": "Co zostaje dostępne bez zasięgu",
+          "body": [
+            "Aplikacja ma w sobie nowozelandzkie rekordy miejsc: kempingi, schroniska i szlaki DOC, komunikaty DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>, stacje zrzutu nieczystości, miejsca dzienne oraz holiday parki i wycieczki z BookIt. Podstawowe szczegóły są w aplikacji, a nie pobierane na bieżąco, więc da się je czytać, gdy sygnału nie ma. Noclegi i wycieczki BookIt są bezpłatne; miejsca DOC, stacje zrzutu i miejsca dzienne wchodzą w skład karnetu Premium.",
+            "Zapisane listy i informacje o podróży też działają. Możesz przejrzeć plan, przeczytać notatki przy każdym przystanku i sprawdzić, co postanowiono o danym miejscu, a to zwykle dokładnie to, czego potrzeba, gdy trzeba zdecydować, czy jechać dalej, czy stanąć."
+          ],
+          "tips": [
+            "Rekordy miejsc są w aplikacji",
+            "Zapisane listy i podróże da się czytać",
+            "Szczegóły podróżują razem z aplikacją"
+          ]
+        },
+        {
+          "heading": "Co naprawdę wymaga połączenia",
+          "body": [
+            "Prognozy pogody, wyznaczanie trasy na żywo i wskazówki dojazdu, zewnętrzne strony rezerwacji, strony usługodawców, zdjęcia miejsc, kafelki mapy i zdjęcia satelitarne wymagają łączności. Żaden z tych elementów nie usuwa zapisanego rekordu miejsca, ale oznacza, że odpowiedź na pytania „czy będzie padać” i „czy jest wolne łóżko” nie jest tam dostępna.",
+            "Zdjęcia <a data-guide=\"kiwicamping-weather-look-around\">Rozejrzyj się (Look Around)</a> też wymagają połączenia, co warto wiedzieć, bo najbardziej przydają się wtedy, gdy zbliżasz się do nieznanego wjazdu, a tam zasięg często się urywa."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gdzie w Nowej Zelandii to naprawdę doskwiera",
+          "body": [
+            "Wybrzeże West Coast między Westport a Haast, większość Fiordland, East Cape, Catlins, wnętrze Otago i duże części środka Wyspy Północnej mają długie odcinki bez użytecznego zasięgu telefonu. To nie są odległe zakątki, tylko główne trasy turystyczne i dokładnie tam będziesz wybierać kemping.",
+            "Mapy zasięgu też upiększają rzeczywistość. Operator może pokazywać sygnał w dolinie, w której znika on za pierwszym grzbietem, a karty SIM w roamingu zwykle działają gorzej niż lokalne. Zakładaj mniej zasięgu, niż obiecuje mapa."
+          ],
+          "tips": [
+            "Główne trasy turystyczne tracą zasięg",
+            "Mapy zasięgu są zbyt optymistyczne",
+            "Karty SIM w roamingu działają gorzej"
+          ]
+        },
+        {
+          "heading": "Sprawdzaj to, co działa na żywo, zanim stracisz sygnał",
+          "body": [
+            "Wyrób nawyk związany z ostatnim miastem z zasięgiem: sprawdź prognozę na dwa najbliższe dni, potwierdź rezerwacje, zerknij na warunki na drogach i komunikaty oraz otwórz rekordy miejsc na dziś i jutro, żeby były załadowane i znajome.",
+            "Zrób zrzuty ekranu rzeczy, których utrata kosztowałaby cię czas lub pieniądze. Potwierdzenia rezerwacji, kody do bramy, numer telefonu kempingu i każda instrukcja dojazdu zasługują na osobny zrzut ekranu, bo zrzut nie potrzebuje aplikacji, sesji ani sygnału."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bateria to część planowania bez zasięgu",
+          "body": [
+            "Aplikacja działająca bez sygnału na nic się nie zda na rozładowanym telefonie, a w podróży telefon pracuje więcej niż zwykle: nawigacja, zdjęcia, sprawdzanie pogody i szukanie zasięgu, co rozładowuje baterię szybciej niż prawie cokolwiek innego. Włącz tryb niskiego zużycia energii, zanim zrobi się pilnie.",
+            "Zabierz naładowany powerbank i kabel, który naprawdę działa w pojeździe. Zimne noce wyraźnie zmniejszają pojemność baterii, więc telefon, który przy kolacji wyglądał dobrze, w górskim miejscu rano może być rozładowany."
+          ],
+          "tips": [
+            "Szukanie zasięgu szybko rozładowuje baterię",
+            "Zabierz naładowany powerbank",
+            "Zimne noce obniżają pojemność baterii"
+          ]
+        },
+        {
+          "heading": "Wpis w aplikacji nie ma pierwszeństwa przed znakiem",
+          "body": [
+            "Dane zapisane w aplikacji mówią, co było prawdą w chwili tworzenia rekordu. Strażnicy zamykają miejsca, samorządy zmieniają przepisy lokalne, powodzie niszczą drogi dojazdowe, a <a data-guide=\"campfire-rules-new-zealand\">ograniczenia w używaniu ognia</a> pojawiają się szybko. Na miejscu o wszystkim decydują znak, szlaban i zarządca terenu i zawsze mają pierwszeństwo przed zapisanym rekordem.",
+            "Jeśli to, co zastajesz, przeczy temu, co zapisano, trzymaj się tego, co masz przed oczami, i przejdź do planu zapasowego. Po to właśnie warto go mieć, zanim opuścisz zasięg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Aplikacja bez zasięgu to nie system bezpieczeństwa",
+          "body": [
+            "W sprawach związanych z bezpieczeństwem zabierz pobraną lub papierową mapę topograficzną i naucz się z niej korzystać. Katalog kempingów nie jest narzędziem nawigacji, a GPS w telefonie bez kontekstu mapy na nowozelandzkim odludziu zaprowadził ludzi w poważne tarapaty.",
+            "Na odległe wędrówki i jazdę bocznymi drogami wypożycz osobisty nadajnik alarmowy (personal locator beacon, PLB). Kosztuje niewiele jak na całą podróż, działa tam, gdzie telefony nie działają, i jest tym jednym przedmiotem, który najczęściej zmienia wynik poważnego problemu."
+          ],
+          "tips": [
+            "Zabierz prawdziwą mapę topograficzną",
+            "Wypożycz PLB na odludne odcinki",
+            "Katalog to nie narzędzie nawigacji"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co działa w KiwiCamping bez zasięgu?",
+          "Katalog miejsc jest w aplikacji, więc nazwy, kategorie, opisy, opłaty, udogodnienia, godziny otwarcia i warunki otwierają się bez sygnału. Wyszukiwanie, filtry i zapisane miejsca też działają bez sieci, ale dla tych miejsc, do których masz dostęp: noclegi i wycieczki BookIt są bezpłatne, a miejsca DOC i stacje zrzutu wymagają karnetu Premium."
+        ],
+        [
+          "Co wymaga połączenia?",
+          "Usługi na żywo: pogoda, wyznaczanie trasy i wskazówki dojazdu, zdjęcia Rozejrzyj się (Look Around), zdjęcia miejsc i strony rezerwacji usługodawców. Są pobierane na żądanie, więc ekran miejsca otwiera się także bez nich."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-weather-look-around": {
+      "title": "Pogoda i Rozejrzyj się: sprawdź nocleg przed wyborem",
+      "description": "Porównaj prognozę i otoczenie drogi z realną decyzją o kempingu, zanim zdecydujesz, gdzie spędzisz noc w Nowej Zelandii.",
+      "region": "KiwiCamping",
+      "imageAlt": "Dramatyczne chmury z północnego zachodu nad turkusową wodą jeziora Lake Pukaki",
+      "intro": "Pinezka mówi, gdzie jest miejsce. Nie powie ci, że to żwirowa ławica w pełni wystawiona na południowy wiatr, że dojazd to stromy jednopasmowy podjazd szutrem albo że wjazd łatwo przeoczyć po ciemku. Pogoda i Apple Rozejrzyj się (Look Around) uzupełniają te elementy, które decydują, czy noc będzie wygodna.",
+      "sections": [
+        {
+          "heading": "Sprawdzaj prognozę dla miejsca, nie dla regionu",
+          "body": [
+            "Pogoda w Nowej Zelandii bywa bardzo różna na krótkim dystansie. Prognoza dla najbliższego miasta może być zupełnie nietrafiona dla kempingu oddalonego o dwadzieścia minut, po drugiej stronie pasma górskiego, a różnica między osłoniętą doliną a odkrytym brzegiem jeziora to nie szczegół.",
+            "Czytaj to, co wpływa na noc pod gołym niebem, a nie główną ikonę. Prędkość i kierunek wiatru, nocna temperatura minimalna i suma opadów znaczą dla twojego snu znacznie więcej niż to, czy dzienny symbol to chmura, czy słońce."
+          ],
+          "tips": [
+            "O komforcie decydują wiatr i nocne minima",
+            "Prognoza dla miasta myli przy pobliskich miejscach",
+            "Czytaj sumy opadów, nie ikonę"
+          ]
+        },
+        {
+          "heading": "Wiatr zwykle przesądza o wyborze",
+          "body": [
+            "Brzegi jezior i odsłonięte wybrzeża wzmacniają wiatr, który wieczorem zwykle rośnie, a nie słabnie. Namiot, który o piątej po południu stoi bez problemu, o północy może być poważnym kłopotem, a markizy zostawione przy narastającym wietrze to jeden z najczęstszych sposobów uszkodzenia pojazdu przez kamperowiczów.",
+            "Gdy prognoza jest ostra, wybierz osłonę zamiast widoku. Miejsce za skarpą lub żywopłotem bez panoramy daje o wiele lepszą noc niż fotogeniczne stanowisko ustawione bokiem do południowego wiatru."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Przy decyzjach o bezpieczeństwie korzystaj ze źródeł oficjalnych",
+          "body": [
+            "Prognoza w aplikacji to kontekst dla decyzji o komforcie. W sprawach bezpieczeństwa korzystaj z ostrzeżeń MetService, komunikatów Civil Defence, warunków na drogach z NZTA i alertów DOC, bo właśnie tam pojawiają się <a data-guide=\"new-zealand-severe-weather-camping\">gwałtowne zjawiska pogodowe</a>, zamknięcia dróg, powodzie i ostrzeżenia dotyczące szlaków.",
+            "Sprawdzaj je, póki masz zasięg, i jeszcze raz tuż przed wyjazdem w dniu, w którym czeka cię górska przełęcz, <a data-guide=\"river-crossing-safety-new-zealand\">przeprawa przez rzekę</a>, odsłonięte wybrzeże albo prognoza, która ciągle się zmienia."
+          ],
+          "tips": [
+            "MetService: ostrzeżenia",
+            "NZTA: warunki na drogach",
+            "Sprawdź jeszcze raz przed górskimi przełęczami"
+          ]
+        },
+        {
+          "heading": "Obejrzyj dojazd w Rozejrzyj się",
+          "body": [
+            "Tam, gdzie są zdjęcia Rozejrzyj się (Look Around), widać wjazd, szerokość drogi, nawierzchnię i otoczenie, zanim zdecydujesz się wjechać tam dużym pojazdem. To naprawdę cenne w przypadku <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parków</a> w nieznanych miasteczkach, gdzie skręt bywa nieoznakowany, a ulica węższa, niż się spodziewano.",
+            "Równie przydaje się do wychwycenia tego, czego nie powie opis: że miejsce przylega do głównej drogi, leży obok torów albo że jedyny dojazd to stromy zjazd szutrem, z którego wolisz nie cofać."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Traktuj zdjęcia jak stare, bo takie są",
+          "body": [
+            "Zdjęcia w Rozejrzyj się (Look Around) mogą mieć kilka lat. Roboty drogowe, osuwiska, nowe bramy, zmienione oznakowanie i zamknięte wjazdy na nich nie widać, a w kraju, w którym jedna burza potrafi przestawić drogę na West Coast, ta luka ma znaczenie.",
+            "Użyj ich do ukształtowania oczekiwań, nie jako gwarancji. O wszystkim decydują znaki, szlabany i warunki na miejscu, a jeśli teren przeczy zdjęciom, rację ma teren."
+          ],
+          "tips": [
+            "Zdjęcia mogą mieć kilka lat",
+            "Osuwisk i bram na nich nie widać",
+            "Rację zawsze ma teren"
+          ]
+        },
+        {
+          "heading": "Zobacz, co jest wokół miejsca",
+          "body": [
+            "Lepszy nocleg to często ten, który załatwia jutrzejsze sprawy. Sprawdź, co jest w pobliżu: paliwo, supermarket, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">stacja zrzutu nieczystości</a>, woda pitna, pralnia. Nieco mniej malownicze miejsce obok potrzebnych usług może oszczędzić godzinę zawracania rano.",
+            "Patrz na wyjazd tak samo jak na wjazd. Jeśli jutro zaczyna się długą jazdą lub wczesnym promem, miejsce, które ustawia cię po właściwej stronie miasta, jest warte więcej niż to z lepszym widokiem."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Zapisz podgląd w planie",
+          "body": [
+            "Gdy pogoda i zdjęcia powiedziały ci coś użytecznego, dopisz to jako notatkę do przystanku. „Wystawione na południowy wiatr, stań w tylnym rzędzie” albo „wjazd 200 m za mostem, łatwo przeoczyć” to dokładnie taki szczegół, który dziś jest oczywisty, a za tydzień go nie ma.",
+            "Zapisz pobliską usługę, która ci się przyda, jako osobny przystanek z notatką o godzinach otwarcia. <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Stacja zrzutu nieczystości</a>, z której nie da się skorzystać, bo zamknięto ją o piątej, jest tym samym co brak stacji."
+          ],
+          "tips": [
+            "Zapisz na przystanku to, co wiesz z pogody i zdjęć",
+            "Zanotuj wjazd, jeśli trudno go znaleźć",
+            "Sprawdź godziny otwarcia usług"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy można zobaczyć pogodę dla konkretnego kempingu?",
+          "Tak. Aktualne warunki i prognoza są na każdej karcie miejsca i obok każdego przystanku w podróży, więc wybór między dwoma kempingami można oprzeć na pogodzie, a nie na prognozie regionalnej."
+        ],
+        [
+          "Do czego przydaje się Rozejrzyj się (Look Around) przy wyborze kempingu?",
+          "Do obejrzenia wjazdu i nawierzchni drogi, zanim wjedziesz vanem w zjazd. Tam, gdzie zdjęcia Apple Rozejrzyj się (Look Around) obejmują drogę, otwierają się wprost z karty miejsca, co odpowiada na pytanie o dojazd, na które opis nie odpowie."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "kiwicamping-currency-place-costs": {
+      "title": "Ceny noclegów w twojej walucie",
+      "description": "Porównuj noclegi według jednolitych przeliczeń, a potem potwierdź kwotę, którą faktycznie naliczy usługodawca.",
+      "region": "KiwiCamping",
+      "imageAlt": "Kampery i przyczepy kempingowe na trawie na Reefton Motor Camp",
+      "intro": "Podróżni budżetują w walucie, w której myślą, a każdy nowozelandzki kemping pobiera dolary nowozelandzkie. Pokazanie zgłoszonych kosztów w znanej walucie oszczędza liczenia w głowie przy każdym porównaniu, o ile nikt nie weźmie przeliczenia za ofertę.",
+      "sections": [
+        {
+          "heading": "Wybierz walutę, w której masz budżet",
+          "body": [
+            "Wybierz walutę, w której naprawdę planujesz, a nie tę, w której wydano twoją kartę, jeśli to dwie różne waluty. Chodzi o to, żeby porównać prosty kemping DOC, miejsce w <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parku</a> i domek na jednej skali, szybko, w chwili wyboru między nimi.",
+            "O użyteczności decyduje spójność. Gdy każda zgłoszona kwota jest przeliczana tak samo, różnice względne są wiarygodne, nawet jeśli sama liczba jest przybliżona."
+          ],
+          "tips": [
+            "Użyj waluty, w której planujesz",
+            "Chodzi o porównanie względne",
+            "Ta sama metoda dla każdego miejsca"
+          ]
+        },
+        {
+          "heading": "Zrozum, czym jest przeliczona kwota",
+          "body": [
+            "To mechaniczne przeliczenie zgłoszonej ceny według datowanego kursu referencyjnego. Nie jest to kurs wymiany na żywo i nie jest to kwota, którą pobierze twój bank. Karty stosują własne kursy i często doliczają opłatę za transakcję zagraniczną, więc kwota zejdzie z konta inna.",
+            "Traktuj przeliczone kwoty jako wartości do planowania, dość dokładne, żeby wybierać między opcjami, a nigdy jako liczbę, według której rozliczasz budżet co do grosza. Realny koszt sprawdź w kwocie w dolarach nowozelandzkich i w tym, co pobiera twoja karta."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sprawdź, co faktycznie obejmuje cena",
+          "body": [
+            "Tu zdarza się większość błędów w budżecie. Opłaty za <a data-guide=\"doc-campsites-new-zealand-guide\">kempingi DOC</a> pobiera się zwykle od osoby dorosłej za noc, a komercyjne holiday parki mogą liczyć za miejsce z podaną liczbą osób albo stawkę podstawową z dopłatą za dodatkowych gości. Dwie podobne liczby mogą dla czteroosobowej rodziny oznaczać bardzo różne sumy.",
+            "Sprawdź też, czy prąd, prysznice, pościel i opłaty rezerwacyjne są wliczone, czy doliczane. Domek z pościelą i bez niej to nie ten sam produkt, a różnica jest zwykle większa niż różnica w cenie podstawowej."
+          ],
+          "tips": [
+            "DOC liczy od osoby dorosłej",
+            "Parki często liczą za miejsce",
+            "Sprawdź prąd, pościel i opłaty rezerwacyjne"
+          ]
+        },
+        {
+          "heading": "Potwierdź, zanim cena zmieni twoją trasę",
+          "body": [
+            "Zgłoszone opłaty zmieniają się wraz z sezonem, liczbą gości, typem pojazdu, kategorią wiekową i popytem. Zanim cena zdecyduje, dokąd jedziesz, otwórz oficjalne źródło lub skontaktuj się z usługodawcą i potwierdź aktualną stawkę dla swoich dokładnych dat i grupy.",
+            "W przypadku miejsc DOC sprawdź w szczególności, czy miejsce da się zarezerwować, czy obowiązuje zasada kto pierwszy, i czy dotyczy go karnet Campsite Pass. Karnet to sposób płatności, a nie rezerwacja, a pomylenie jednego z drugim kończy się przykrym przyjazdem na pełny kemping."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Porównuj całą noc, nie stawkę za noc",
+          "body": [
+            "Dodaj wszystko, co niesie ze sobą przystanek: opłatę za miejsce, prąd, prysznice, pralnię, jeśli jest potrzebna, opłaty rezerwacyjne i paliwo na dojazd. Kemping dwadzieścia minut od trasy nie jest tańszy od nieco droższego, który mijasz po drodze.",
+            "Centralny <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> może też usunąć koszty, które nigdy nie pojawiają się w pozycji za miejsce, jak parking w mieście albo dodatkowy wjazd po zakupy. Porównanie całości je uwidacznia."
+          ],
+          "tips": [
+            "Wlicz paliwo na dojazd",
+            "Dodaj prąd, prysznice i opłaty",
+            "Miejsca w centrum mogą oszczędzić inne koszty"
+          ]
+        },
+        {
+          "heading": "Miej rezerwę w dolarach nowozelandzkich",
+          "body": [
+            "Zachowaj tyle lokalnej waluty, żeby starczyło na rzeczy, które nie liczą się z planem: kaucję, zamkniętą drogę zmuszającą do płatnej nocy, oponę, zmianę promu. Budżet zakładający, że każda noc będzie na darmowym lub tanim miejscu, nie ma zapasu na dzień, w którym coś pójdzie źle.",
+            "Praktyczne podejście to planować płatną noc częściej, niż oczekujesz, że z niej skorzystasz. Jeśli nie będzie potrzebna, pieniądze zostają; jeśli będzie, decyzja jest łatwa, a nie bolesna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Śledź wydatki przez pierwsze dni",
+          "body": [
+            "Porównaj, ile wydajesz, z tym, co planowano, przez pierwsze trzy lub cztery dni, a potem skoryguj plan. Pozycje, które się rozjeżdżają, to prawie zawsze jedzenie, kawa i drobne płatne atrakcje, a nie nocleg, i właśnie je najłatwiej poprawić na początku.",
+            "Wychwycenie dwudziestoprocentowego przekroczenia w pierwszym tygodniu oznacza rezygnację z kilku posiłków na mieście. Odkrycie go w czwartym tygodniu oznacza odwołanie tej części podróży, na której zależało ci najbardziej."
+          ],
+          "tips": [
+            "Sprawdź wydatki w pierwszych dniach",
+            "Rozjeżdża się jedzenie i kawa, nie kempingi",
+            "Wczesna korekta jest tania"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy KiwiCamping może pokazywać ceny w mojej walucie?",
+          "Tak. Wybierz walutę w ustawieniach i ustaw kurs przeliczenia, a zgłoszone koszty pojawią się w tej walucie obok kwoty w dolarach nowozelandzkich."
+        ],
+        [
+          "Czy przeliczone ceny są dokładne?",
+          "Nie, i nie mają być dokładne. To mechaniczne przeliczenie zgłoszonej kwoty w dolarach nowozelandzkich według kursu, który ustawisz, służące do oceny jednego miejsca na tle drugiego. Twój bank lub wystawca karty zastosuje własny kurs i opłaty."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "best-nz-camping-apps": {
+      "title": "Najlepsze aplikacje kempingowe NZ 2026: porównanie 7",
+      "description": "KiwiCamping, Rankers, CamperMate, WikiCamps, Campable, NZMCA i AllTrails: cena, działanie bez zasięgu, oceny i mocne strony. Sprawdzono w październiku 2026.",
+      "region": "Nowa Zelandia",
+      "imageAlt": "Aplikacja kempingowa otwarta na telefonie obok nowozelandzkiego kempingu",
+      "intro": "Nie ma jednej najlepszej aplikacji kempingowej do Nowej Zelandii w 2026 roku, ale jest najlepsza aplikacja na każde pytanie, jakie stawia podróż: który kemping DOC przyjmuje psy, co inni podróżni myśleli o darmowym miejscu, gdzie można zarezerwować miejsce z prądem na dziś albo którym szlakiem iść jutro. Sprawdzono siedem aplikacji, które mają znaczenie w nowozelandzkiej podróży kempingowej, na podstawie ich aktualnych wpisów w App Store i stron samych deweloperów, 20 października 2026. Aplikację KiwiCamping tworzy ten serwis, dlatego stoi na pierwszym miejscu. Poniżej wyjaśniono, dlaczego, i kiedy lepsza będzie inna.",
+      "sections": [
+        {
+          "heading": "Krótki werdykt",
+          "body": [
+            "Wybierz KiwiCamping, jeśli podróż opierasz na <a data-guide=\"doc-campsites-new-zealand-guide\">kempingach DOC</a>, schroniskach i szlakach i chcesz zamienić zapisane miejsca w trasę z datami i kolejnością. Wybierz Rankers, jeśli najbardziej liczą się opinie podróżnych, CamperMate, jeśli chcesz rezerwacje, promocje i mapy do pobrania w jednej bezpłatnej aplikacji, która obejmuje też Australię, a WikiCamps New Zealand, jeśli chcesz największą opublikowaną liczbę nowozelandzkich miejsc za jednorazową cenę.",
+            "Campable to specjalista od rezerwowania nocy na farmie, w winnicy lub na innym terenie prywatnym. NZMCA App ma sens tylko wtedy, gdy jesteś członkiem New Zealand Motor Caravan Association, a AllTrails to aplikacja na pieszą część mieszanej podróży. Większość osób, które są w drodze dłużej niż dwa tygodnie, kończy z dwiema z nich: zwykle jedna służy do znajdowania miejsc i planowania, a druga do opinii lub rezerwacji."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Sprawdzono 20 października 2026 w nowozelandzkim App Store i na stronach deweloperów. Oceny to średnie z nowozelandzkiego App Store wraz z liczbą ocen.",
+            "head": [
+              "Aplikacja",
+              "Najlepsza do",
+              "Cena",
+              "Platformy",
+              "Ocena w NZ",
+              "Bez zasięgu"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Miejsca DOC, schroniska i planowanie podróży",
+                "Bezpłatna do pobrania; karnet Pass 3,99–12,99 NZD",
+                "iPhone (iOS 26+)",
+                "3,8 (4)",
+                "Szczegóły miejsc tak, kafelki mapy nie"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Opinie podróżnych",
+                "Bezpłatna",
+                "iPhone, iPad, Android, web",
+                "4,7 (3 322)",
+                "Informacje o kempingach w aplikacji; mapy do pobrania przez Wi-Fi"
+              ],
+              [
+                "CamperMate",
+                "Rezerwacje, promocje, NZ i Australia",
+                "Bezpłatna; zawiera reklamy",
+                "iPhone, iPad, Android, web",
+                "4,4 (606)",
+                "Mapy i informacje do pobrania"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Najwięcej miejsc w NZ",
+                "7,99 NZD jednorazowo (iPhone)",
+                "iPhone, iPad, Android",
+                "4,5 (137)",
+                "Offline Mode dla miejsc i podróży"
+              ],
+              [
+                "Campable",
+                "Noclegi na terenie prywatnym",
+                "Aplikacja bezpłatna; gospodarze ustalają ceny za noc",
+                "iPhone, Android",
+                "4,5 (13)",
+                "Brak informacji"
+              ],
+              [
+                "NZMCA App",
+                "Członkowie NZMCA",
+                "Aplikacja bezpłatna; członkostwo 150 NZD na start plus 102 NZD rocznie",
+                "iPhone, iPad, Android",
+                "Brak ocen",
+                "Brak informacji"
+              ],
+              [
+                "AllTrails",
+                "Trekking i spacery",
+                "Bezpłatna; płatne pakiety Plus lub Peak",
+                "iPhone, Android, web",
+                "4,8 (5 198)",
+                "Pobrane mapy w płatnym pakiecie"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: najlepsza dla kempingów DOC, schronisk i planowania trasy",
+          "body": [
+            "KiwiCamping to nowozelandzka mapa kempingów i planer podróży zbudowany na danych samego Department of Conservation. W danych z sierpnia 2026 aplikacja zawierała 287 <a data-guide=\"doc-campsites-new-zealand-guide\">kempingów DOC</a>, 927 schronisk DOC z 7 661 pryczami i 1 453 szlaki DOC, wraz z opłatami, zasadami dotyczącymi psów i wymogami rezerwacji, które DOC publikuje, tam gdzie je publikuje. Szczegóły miejsc są w telefonie, więc udogodnienia i opłaty kempingu otwierają się także na West Coast czy w Fiordland bez zasięgu. Kafelki mapy, wyznaczanie trasy, pogoda i zdjęcia nadal potrzebują sygnału, więc aplikacja nie zastąpi pobranej mapy.",
+            "Przewagę ma w planowaniu. Miejsca trafiają do „Polubione”, „Oznaczone gwiazdką”, „Odwiedzone”, „Do odwiedzenia” albo do twoich własnych kolekcji, a podróż zbiera wybrane z nich jako uporządkowane przystanki z datami, notatkami, zadaniami, łącznym dystansem trasy i informacją, jaka część podróży jest już odwiedzona. Karty miejsc dodają lokalną pogodę, koszty przeliczone na twoją walutę i Apple <a data-guide=\"kiwicamping-weather-look-around\">Rozejrzyj się (Look Around)</a>, tam gdzie Apple je ma.",
+            "Cena i platforma: pobranie jest bezpłatne, ale wersja bezpłatna otwiera tylko noclegi i wycieczki BookIt. Kempingi, schroniska, szlaki i <a data-guide=\"camping-wastewater-rubbish-new-zealand\">stacje zrzutu nieczystości</a> DOC, zapisane kolekcje, podróże i poradniki wymagają karnetu KiwiCamping Pass, który nowozelandzki App Store oferuje w opcjach od 3,99 do 12,99 NZD. Aplikacja działa tylko na iPhone i wymaga iOS 26 lub nowszego.",
+            "Szczere wady: jest nowa, ma 4 oceny w nowozelandzkim App Store (3,8) wobec 3 322 u Rankers, w aplikacji nie ma opinii podróżnych i nie ma wersji na Androida. Jeśli chcesz przeczytać, co o miejscu myślało ostatnich dziesięciu kamperowiczów, więcej powiedzą Rankers lub CamperMate."
+          ],
+          "tips": [
+            "Najlepsza do: podróży z dużą liczbą miejsc DOC i planowania trasy",
+            "Do miejsc DOC, kolekcji i podróży potrzebny karnet Pass",
+            "Tylko iPhone, iOS 26 lub nowszy"
+          ]
+        },
+        {
+          "heading": "2. Rankers Camping NZ: najlepsza do opinii podróżnych",
+          "body": [
+            "Rankers ma najwięcej ocen w nowozelandzkim App Store spośród wszystkich aplikacji w tym porównaniu: średnia 4,7 z 3 322 w dniu sprawdzenia. Jego wpis opisuje ponad 1 500 kempingów i 6 600 miejsc oraz ponad 108 000 opinii, z których każdą czyta i sprawdza osoba z zespołu, a także tylko miejsca zatwierdzone przez społeczność. Na liście jest też około 500 kempingów z rezerwacją i ponad 150 ofert atrakcji.",
+            "Informacje o kempingach są w aplikacji od pierwszej instalacji, a szczegółowe mapy pobiera się przez Wi-Fi, żeby działały poza zasięgiem; działa to w aplikacjach na iPhone i Androida, ale nie w wersji webowej. Aplikacja jest bezpłatna do pobrania i używania i działa na iPhone, iPadzie, Androidzie i w sieci.",
+            "Zalety: ma największą liczbę opinii spośród wszystkich tu opisanych aplikacji, ponad 108 000, i przydaje się do oceny, czy darmowe miejsce jest warte objazdu. Wady: pobranie na iPhone jest duże, około 794 MB, jego ocena w Google Play jest niższa, 3,7 z 1 771 opinii, a opinie opisują czyjąś noc, a nie obowiązującą zasadę. Zanim się rozłożysz, sprawdź <a data-guide=\"camping-rules-local-councils-new-zealand\">przepisy lokalne samorządu</a> lub znak na miejscu."
+          ],
+          "tips": [
+            "Najlepsza do: czytania doświadczeń innych podróżnych",
+            "Bezpłatna do pobrania i używania",
+            "iPhone, iPad, Android i web"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: najlepsza do rezerwacji i promocji w Nowej Zelandii i Australii",
+          "body": [
+            "CamperMate obejmuje obie strony Morza Tasmana w jednej bezpłatnej aplikacji od Outdoria. Ma filtr miejsc darmowych i płatnych, opinie i zdjęcia podróżnych, zapisane listy, rezerwację kempingów z dostępnością, lokalne promocje i linki do partnerów wypożyczających pojazdy. Wersja 5.8, wydana w połowie października 2026, dodała widok satelitarny, a według jej wpisu mapy i informacje o miejscach można pobrać do użytku bez sygnału.",
+            "W dniu sprawdzenia miała średnią 4,4 z 606 ocen w nowozelandzkim App Store i 4,0 z 12 568 w Google Play, a jest dostępna w 27 językach. Aplikacja jest bezpłatna i zawiera reklamy.",
+            "Zalety: jedna aplikacja na podróż, która przekracza Morze Tasmana do Australii, a strona rezerwacji i promocji zasługuje na miejsce na trasie pełnej holiday parków. Wady: oferty komercyjne i promocje dzielą mapę z darmowymi miejscami, więc bywa tłoczno, gdy chcesz tylko jednej rzeczy, a aplikacja pokazuje reklamy."
+          ],
+          "tips": [
+            "Najlepsza do: rezerwacji i promocji, NZ i Australia",
+            "Bezpłatna; zawiera reklamy",
+            "Mapy i informacje do pobrania do użytku bez zasięgu"
+          ]
+        },
+        {
+          "heading": "4. WikiCamps New Zealand: najlepsza jako największa baza tworzona przez użytkowników",
+          "body": [
+            "WikiCamps New Zealand to osobna aplikacja od WikiCamps Australia i kosztuje jednorazowo 7,99 NZD w App Store, a nie jest subskrypcją. Według dewelopera zawiera ponad 12 000 nowozelandzkich miejsc, opinie i zdjęcia społeczności, ponad 1 000 miejsc do rezerwacji oraz <a data-guide=\"plan-trip-kiwicamping\">planer podróży</a>, który szacuje wydatki na paliwo. Offline Mode udostępnia miejsca i plany podróży bez sygnału.",
+            "W nowozelandzkim App Store ocena wynosi 4,5 z 137 ocen, a w Google Play 3,0 z 1 042. Aplikacja działa na iPhone, iPadzie i Androidzie.",
+            "Zalety: największa liczba nowozelandzkich miejsc, jaką opublikował któryś z opisanych deweloperów, i brak stałych kosztów na iPhone. Wady: prawie wszystko dodają i aktualizują użytkownicy, a nie jest to sprawdzane w oficjalnym źródle, a ocena w Google Play jest niższa, 3,0. Wszystko, co ma znaczenie prawne, potwierdź na stronie samorządu lub DOC."
+          ],
+          "tips": [
+            "Najlepsza do: maksymalnego pokrycia, płatna jednorazowo",
+            "7,99 NZD jednorazowo na iPhone",
+            "Sprawdzaj miejsca dodane przez użytkowników"
+          ]
+        },
+        {
+          "heading": "5. Campable: najlepsza na noc na terenie prywatnym",
+          "body": [
+            "Campable rezerwuje miejsca dla kamperów i campervanów na terenach prywatnych: w winnicach, na farmach, w sadach i klubach sportowych. Gospodarze sami ustalają cenę za noc, rezerwujesz i płacisz w aplikacji, a numer telefonu gospodarza dostajesz po zarezerwowaniu noclegu. W nowozelandzkim App Store ma ocenę 4,5 z 13 ocen i jest też dostępna na Androida.",
+            "Zalety: natychmiastowa rezerwacja cichych, legalnych nocy z dala od zatłoczonych obszarów <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>. Wady: ma na liście setki gospodarzy, a nie pełny katalog, i jest narzędziem do rezerwacji, a nie sposobem na znajdowanie miejsc DOC czy holiday parków."
+          ],
+          "tips": [
+            "Najlepsza do: zarezerwowanych noclegów na terenie prywatnym",
+            "Gospodarze ustalają cenę",
+            "iPhone i Android"
+          ]
+        },
+        {
+          "heading": "6. NZMCA App: najlepsza dla członków stowarzyszenia kamperów",
+          "body": [
+            "NZMCA App to aplikacja dla członków New Zealand Motor Caravan Association, z jej Travel Directory i własnymi NZMCA Parks stowarzyszenia, w których członkowie płacą 5 NZD za osobę dorosłą za noc. Aplikacja jest bezpłatna, ale członkostwo kosztuje 150 NZD na start plus 102 NZD rocznie, czyli 252 NZD w pierwszym roku.",
+            "Zalety: przy długiej podróży kamperem <a data-guide=\"self-contained-campervan-green-warrant\">z certyfikatem self-contained</a> parki dla członków zmieniają rachunek. Wady: wymaga członkostwa NZMCA, w nowozelandzkim App Store nie miała jeszcze ocen, a w Google Play ma 3,2 z 156."
+          ],
+          "tips": [
+            "Najlepsza do: członków NZMCA",
+            "Członkostwo 150 NZD plus 102 NZD rocznie",
+            "Parki dla członków 5 NZD za osobę dorosłą za noc"
+          ]
+        },
+        {
+          "heading": "7. AllTrails: najlepsza na pieszą część podróży",
+          "body": [
+            "AllTrails to aplikacja do wędrówek i trekkingu, a nie do kempingu, i najwyżej oceniana na tej liście: 4,8 z 5 198 nowozelandzkich ocen i 4,5 z ponad 388 000 w Google Play. Mapy szlaków, opinie i nagrania są bezpłatne, a mapy pobrane do użytku bez sygnału wymagają płatnej subskrypcji Plus lub Peak.",
+            "Nie obejmuje kempingów, stacji zrzutu, holiday parków ani <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a>, więc nie może być jedyną aplikacją w podróży pojazdem. Połącz ją z aplikacją kempingową i przed odległą wędrówką sprawdź alerty DOC dotyczące szlaków."
+          ],
+          "tips": [
+            "Najlepsza do: szlaków i trekkingu",
+            "Pobrane mapy wymagają płatnego pakietu",
+            "Sprawdź też alerty DOC dla szlaków"
+          ]
+        },
+        {
+          "heading": "Nie pomijaj własnego systemu rezerwacji DOC",
+          "body": [
+            "DOC nie publikuje ogólnokrajowej aplikacji kempingowej, ale jego system rezerwacji pod adresem bookings.doc.govt.nz to jedyne miejsce, gdzie można zarezerwować schroniska i kempingi na szlakach Great Walk oraz inne miejsca DOC wymagające rezerwacji. Rezerwacje na szlaki Great Walk na sezon 2026/27 ruszyły w maju 2026, a większość szlaków Great Walk pobiera latem od odwiedzających z zagranicy więcej niż od Nowozelandczyków.",
+            "Niezależnie od tego, jakiej aplikacji używasz do wyboru miejsca, zarezerwuj w DOC i trzymaj potwierdzenie w telefonie. Wpis w aplikacji nigdy nie jest dowodem rezerwacji, a strona alertów DOC to miejsce, gdzie sprawdzisz zamknięcia, zanim ruszysz w drogę."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jak wybrano i sprawdzono aplikacje",
+          "body": [
+            "Punktem wyjścia były aplikacje, których nowozelandzcy podróżni faktycznie szukają i które pobierają, a potem zostały te, które dziś obejmują kempingowanie, nocowanie lub wędrówki w Nowej Zelandii. Roadtrippers pominięto, bo jego nowozelandzki wpis mówi, że aplikacja jest przeznaczona dla Stanów Zjednoczonych i Kanady, a Hipcamp, bo nie udało się zweryfikować jego aktualnego nowozelandzkiego wpisu. Gaspy należy do porównania cen paliwa, a nie do tego.",
+            "Dla każdej aplikacji przeczytano aktualny wpis w nowozelandzkim App Store, stronę dewelopera i, jeśli istnieje, wpis w Google Play, wszystko 20 października 2026. Oceny, ceny i funkcje są takie, jakie podano tego dnia. Nie liczono funkcji, których opisu u dewelopera nie dało się znaleźć, a brak funkcji na tej stronie nie jest twierdzeniem, że aplikacja jej nie ma."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Jaka kombinacja pasuje do twojej podróży",
+          "body": [
+            "Dla vana typu self-contained jadącego przez odludne tereny na pierwszym miejscu postaw dane DOC, które otwierają się bez sygnału, a potem dodaj aplikację opartą na opiniach na bardziej ruchliwe odcinki, gdzie i tak masz zasięg. Dla rodzinnej podróży opartej na miejscach z prądem i szkolnych feriach warto mieć aplikację nastawioną na rezerwacje, a dostępność danych bez zasięgu ma mniejsze znaczenie.",
+            "Na mieszaną podróż z poważnymi wędrówkami używaj aplikacji kempingowej na noce w pojeździe, a AllTrails albo stron szlaków DOC na dni trekkingu. Noszenie dwóch aplikacji to rozsądny wynik, a nie porażka w wyborze."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sprawdzaj zasadę, nie pinezkę",
+          "body": [
+            "Każda aplikacja w tym porównaniu, także ta od autorów serwisu, jest pomocą w planowaniu. Przepisy lokalne samorządu, komunikaty DOC, alerty DOC i polecenia zarządcy terenu mają pierwszeństwo przed wszystkim, co zapisano w telefonie, i zmieniają się częściej, niż odświeżają się dane aplikacji. <a data-guide=\"campfire-rules-new-zealand\">Ograniczenia w używaniu ognia</a> i rāhui (zakazy wstępu lub korzystania z danego miejsca, ogłaszane przez społeczność Māori) mogą zostać wprowadzone szybko.",
+            "Zanim rozłożysz się na noc, przeczytaj znak przy wjeździe. Jeśli różni się od aplikacji, wygrywa znak. Ten nawyk nic nie kosztuje i dzięki niemu <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> pozostaje dostępny."
+          ],
+          "tips": [
+            "Znaki mają pierwszeństwo przed danymi z aplikacji",
+            "Przed odludnymi odcinkami jeszcze raz sprawdź alerty DOC",
+            "Ograniczenia w używaniu ognia mogą zmienić się z dnia na dzień"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaka jest najlepsza aplikacja kempingowa do Nowej Zelandii w 2026?",
+          "To zależy od podróży. Do kempingów DOC, schronisk i planowania trasy polecany jest KiwiCamping, aplikacja tworzona przez ten serwis; Rankers ma najwięcej ocen w nowozelandzkim App Store, CamperMate łączy rezerwacje, promocje i mapy do pobrania, a WikiCamps New Zealand publikuje największą liczbę nowozelandzkich miejsc. Wielu podróżnych nosi dwie."
+        ],
+        [
+          "Czy jest darmowa aplikacja kempingowa do Nowej Zelandii?",
+          "Rankers i CamperMate są bezpłatne do pobrania. Aplikacja KiwiCamping jest bezpłatna do pobrania, ale kempingi, schroniska, szlaki i stacje zrzutu DOC, kolekcje i podróże wymagają płatnego karnetu Pass. WikiCamps New Zealand kosztuje jednorazowo 7,99 NZD na iPhone."
+        ],
+        [
+          "Które aplikacje kempingowe działają bez zasięgu w Nowej Zelandii?",
+          "Rankers ma informacje o kempingach w aplikacji i pobiera szczegółowe mapy przez Wi-Fi, CamperMate pozwala pobrać mapy i informacje o miejscach, a WikiCamps ma Offline Mode. KiwiCamping trzyma szczegóły miejsc w telefonie, ale jego kafelki mapy, wyznaczanie trasy i pogoda potrzebują sygnału."
+        ],
+        [
+          "Która aplikacja jest najlepsza do freedom campingu w Nowej Zelandii?",
+          "Użyj aplikacji do wybrania kilku miejsc, a potem niech zdecydują przepisy lokalne samorządu i znak na miejscu, bo żadna aplikacja nie jest tu autorytetem. Rankers, CamperMate i WikiCamps mają relacje podróżnych o darmowych miejscach, a same zasady ustala każdy samorząd, a na terenach ochrony przyrody DOC."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Aplikacja Rankers Camping NZ"
+        },
+        {
+          "label": "CamperMate"
+        },
+        {
+          "label": "WikiCamps New Zealand"
+        },
+        {
+          "label": "Campable"
+        },
+        {
+          "label": "Aplikacja NZMCA"
+        },
+        {
+          "label": "Opłaty członkowskie NZMCA"
+        },
+        {
+          "label": "AllTrails"
+        },
+        {
+          "label": "Rezerwacje DOC"
+        },
+        {
+          "label": "DOC: alerty i zamknięcia"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-camp-in-new-zealand": {
+      "title": "Gdzie kempingować w Nowej Zelandii: DOC, gminy, holiday parki",
+      "description": "Kempingi DOC, tereny ochrony przyrody, rezerwaty gminne, miejsca zarządzane przez iwi i prywatne holiday parki mają różne zasady i koszty. Sprawdź, gdzie stanąć.",
+      "region": "Nowa Zelandia",
+      "imageAlt": "Kamper zaparkowany na kempingu na nowozelandzkim wybrzeżu",
+      "intro": "Nowozelandzka sieć kempingów obejmuje cztery dość różne rodzaje terenu, a z każdym z nich zmieniają się zasady, cena i system rezerwacji. Wiedza, z którym typem masz do czynienia, mówi większość tego, co trzeba wiedzieć: czy możesz po prostu przyjechać, czy potrzebny jest certyfikat, kogo zapytać, gdy coś jest niejasne, i ile zapłacisz.",
+      "sections": [
+        {
+          "heading": "Cztery rodzaje terenu",
+          "body": [
+            "Department of Conservation (DOC, nowozelandzki urząd ochrony przyrody) zarządza największą publiczną siecią: kilkuset kempingami i około 950 schroniskami w parkach narodowych, parkach leśnych i rezerwatach krajobrazowych. Miejsca dzielą się na kategorie od Basic przez Standard i Serviced po Great Walk (najsłynniejsze wielodniowe szlaki Nowej Zelandii), a kategoria wskazuje i opłatę, i udogodnienia. Miejsca Basic są bezpłatne; kempingi Serviced mają toalety ze spłuczką, miejsca z prądem i często strażnika (warden).",
+            "Rezerwaty gminne to podstawa <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a> (legalnego, bezpłatnego noclegu poza kempingiem). Podlegają lokalnym przepisom (bylaws), a nie ogólnokrajowym, zwykle pozwalają na jedną lub dwie noce i często są ograniczone do pojazdów z certyfikatem self-contained. Ponieważ każdy samorząd (council) pisze własne przepisy, zasada obowiązująca w jednym dystrykcie nic nie mówi o następnym."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Holiday parki i miejsca zarządzane przez iwi",
+          "body": [
+            "Prywatne <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parki</a> (duże kempingi z domkami, kuchnią i pralnią) mają miejsca z prądem, gorące prysznice, pralnie, kuchnie i domki. Sprawdzają się najlepiej jako punkty odpoczynku między odludnymi nocami, gdy zbiorniki, akumulatory, pranie i ludzie potrzebują uwagi jednocześnie. W szczycie sezonu i przy wydarzeniach rezerwacje kończą się z dużym wyprzedzeniem.",
+            "Miejsca zarządzane przez iwi (plemię), hapū (podplemię) i społeczności lokalne, czyli kempingi przy marae (miejscach spotkań Māori), tereny wystawowe (showgrounds) i rezerwaty typu domain, oferują coś, czego sieć komercyjna nie ma, i działają na własnych zasadach. Szanuj tikanga (zwyczaje), zostaw koha (dobrowolną darowiznę), gdy się jej oczekuje, i potwierdź dostępność z wyprzedzeniem, zamiast przyjeżdżać bez zapowiedzi."
+          ],
+          "tips": [
+            "Dopasuj typ terenu do potrzebnej nocy",
+            "Holiday parki rezerwuj wcześnie latem",
+            "Z miejscami społecznymi skontaktuj się z wyprzedzeniem"
+          ]
+        },
+        {
+          "heading": "Wyspa Północna w zarysie",
+          "body": [
+            "Northland łączy długie wybrzeże z miejscami DOC i gminnymi z dużym popytem sezonowym i niektórymi zamknięciami podczas ważnych wydarzeń kulturalnych. Coromandel ma nadmorskie miejsca DOC, które latem zapełniają się natychmiast, a Waikato, Taupō i Rotorua łączą geotermalne <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parki</a> z miejscami nad jeziorami.",
+            "Płaskowyż centralny obsługuje wędrówki w Tongariro z parków w pobliżu Whakapapa i Tūrangi. Gisborne i Hawke's Bay łączą kempingi DOC nad morzem z miejscami zarządzanymi przez samorządy, a opcje w Wellington wyznacza raczej rozkład promów niż widoki: wczesny rejs jest wart nudniejszej ostatniej nocy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wyspa Południowa w zarysie",
+          "body": [
+            "Na Queen Charlotte Drive w Marlborough są miejsca DOC i koncesjonowane wzdłuż Sounds. Nelson Tasman łączy gminne miejsca w Golden Bay z kempingami w <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, z których większość trzeba rezerwować, a nie można po prostu przyjechać.",
+            "West Coast nagradza podróżnych, którzy przyjmują deszcz i meszki (sandflies) w zamian za prawie puste kempingi. Canterbury ciągnie się od terenów z rzekami warkoczowymi po alpejskie holiday parki, a Otago i Southland mają niektóre z najbardziej znanych miejsc w kraju. Fiordland to w większości noclegi DOC wymagające rezerwacji, a <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> w pobliżu fiordów jest niedozwolony."
+          ],
+          "tips": [
+            "Abel Tasman i Great Walk rezerwuj wcześnie",
+            "Fiordland wymaga rezerwacji DOC",
+            "West Coast: pogoda w zamian za przestrzeń"
+          ]
+        },
+        {
+          "heading": "Ile kosztuje każdy rodzaj terenu",
+          "body": [
+            "Miejsca DOC Basic są bezpłatne, a miejsca DOC Standard kosztują zwykle 10–20 NZD za osobę dorosłą za noc, naliczane od osoby, a nie od miejsca. Kempingi DOC Serviced to około 25 NZD za osobę dorosłą. Ponieważ opłata rośnie z liczbą osób, rodzinie często opłaca się bardziej <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> ze stałą stawką za miejsce.",
+            "Gminne obszary <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a> są zwykle bezpłatne, ale mogą wymagać pozwolenia, a ceny holiday parków mocno zależą od sezonu, lokalizacji i prądu. Miejsca zarządzane przez iwi i społeczności często działają na zasadzie koha, a nie stałej stawki, co nie jest zachętą do płacenia za mało."
+          ],
+          "tips": [
+            "DOC liczy od osoby dorosłej",
+            "Holiday parki mogą lepiej pasować rodzinom",
+            "Koha to nie zniżka"
+          ]
+        },
+        {
+          "heading": "Rezerwacja albo przyjazd bez niej",
+          "body": [
+            "Cztery rodzaje terenu zachowują się inaczej po przyjeździe. Kempingi na szlakach Great Walk i w Abel Tasman rezerwuje się z dużym wyprzedzeniem i przyjazd bez rezerwacji nie wchodzi w grę. Większość miejsc DOC działa na zasadzie kto pierwszy, co sprawdza się poza szczytem sezonu, a między Bożym Narodzeniem a końcem stycznia zawodzi. <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday parki</a> przyjmują rezerwacje i zapełniają się wcześnie w miasteczkach nad morzem.",
+            "Gminnych obszarów <a data-guide=\"freedom-camping-new-zealand-guide\">freedom campingu</a> nie można w ogóle zarezerwować, dlatego właśnie trzeba mieć plan awaryjny. Sprawdza się taki układ: zarezerwuj noce, które trudno zastąpić, resztę zostaw elastyczną i zawsze wiedz, gdzie jest najbliższe płatne miejsce."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Granice prawa",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> jest dozwolony na terenach gminnych i na terenach ochrony przyrody, chyba że przepisy lokalne lub komunikat DOC go zakazują albo ograniczają, a na terenie gminnym pojazd musi mieć certyfikat self-contained, chyba że przepisy lokalne wyznaczają dane miejsce dla pojazdów bez niego. Od 7 czerwca 2026 certyfikat oznacza zielony warrant: niebieskie warranty nie liczą się już do freedom campingu, niezależnie od wydrukowanej daty ważności. Certyfikat dotyczy możliwości pojazdu, a nie twoich zamiarów, a kempingi, holiday parki i teren prywatny za zgodą właściciela go nie wymagają.",
+            "Obowiązującą zasadą jest <a data-guide=\"camping-rules-local-councils-new-zealand\">przepis lokalny (bylaw)</a> lub komunikat DOC, a znak na miejscu to najszybszy sposób, żeby go przeczytać, choć nie każdy obszar z ograniczeniami jest oznakowany. Gdy znak i zapisany wpis się różnią, kieruj się znakiem. W centrach informacji DOC i i-SITE są aktualne informacje o zamknięciach i alertach, które nie dotarły jeszcze do danych firm trzecich."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pora roku i dojazd",
+          "body": [
+            "Zimą dojazd w góry bywa zamknięty lub ograniczony: Arthur's Pass, Lindis i Desert Road mogą być objęte śniegiem, a niektóre drogi DOC są tymczasowo zamykane po silnej pogodzie. Mogą być wymagane łańcuchy, a van z napędem na dwa koła nie zawsze jest właściwym pojazdem na zimową trasę.",
+            "Latem problem odwraca się: dojazd jest łatwy, ale miejsc brakuje. Popularne miejsca nad morzem zapełniają się już wczesnym popołudniem między Bożym Narodzeniem a końcem stycznia. Zarezerwuj, co możesz, miej płatną alternatywę na to, czego nie możesz, i nie przyjeżdżaj nigdzie po zmroku bez planu zapasowego."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Jakie są rodzaje kempingów w Nowej Zelandii?",
+          "Z grubsza pięć: kempingi DOC, schroniska w głębi lądu, komercyjne holiday parki, obszary freedom campingu wyznaczone przez samorządy oraz prywatne noclegi i pobyty na farmach. Różnią się ceną, udogodnieniami i tym, jaki pojazd przyjmą, a zasady dla każdego ustalają inne podmioty."
+        ],
+        [
+          "Czy można po prostu zjechać na pobocze i spać gdziekolwiek?",
+          "Nie. Nie domyślnie: freedom camping jest dozwolony na terenach gminnych i ochrony przyrody, chyba że przepisy lokalne lub komunikat DOC go zakazują albo ograniczają, ale popularne obszary zwykle są objęte ograniczeniami, a naruszenia kończą się mandatami. To, co wolno, zależy od lokalnych przepisów samorządu i od tego, czy twój pojazd ma certyfikat self-contained."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: miejsca noclegowe"
+        },
+        {
+          "label": "DOC: alerty i zamknięcia"
+        },
+        {
+          "label": "NZTA: warunki na drogach"
+        }
+      ],
+      "priceTable": null
+    },
+    "responsible-camping-new-zealand": {
+      "title": "Odpowiedzialny kemping w NZ: zasady Leave No Trace",
+      "description": "Leave No Trace w Nowej Zelandii: nieczystości, śmieci, bioasekuracja, rāhui i zwierzęta oraz nawyki, dzięki którym miejsca na freedom camping zostają otwarte.",
+      "region": "Nowa Zelandia",
+      "imageAlt": "Kamperowicz pakuje śmieci na nowozelandzkim kempingu",
+      "intro": "Freedom camping w Nowej Zelandii istnieje z łaski samorządów i zarządców terenu, a miejsca się zamyka, gdy zachowanie ludzi czyni ich utrzymanie zbyt kosztownym. Odpowiedzialne kempingowanie to nie tylko postawa ekologiczna, to praktyczny powód, dla którego następny podróżny nadal będzie mógł tam stanąć.",
+      "sections": [
+        {
+          "heading": "Leave No Trace w nowozelandzkich warunkach",
+          "body": [
+            "Znane zasady przekładają się wprost: zaplanuj z wyprzedzeniem, rozbijaj się na utwardzonym podłożu, właściwie pozbywaj się odpadów, zostawiaj to, co znajdziesz, ogranicz wpływ ognia, szanuj zwierzęta i bądź uprzejmy wobec innych. W Nowej Zelandii zmieniają się szczegóły stojące za każdą z nich.",
+            "Zabieraj ze sobą wszystko, także resztki jedzenia. W wielu miejscach zarządzanych przez samorządy i DOC obowiązuje zasada „zabierz wszystko ze sobą” (pack-in, pack-out), nawet gdy jest toaleta, a odpady organiczne zostawione w buszu mogą przenosić nasiona i szkodniki, a także przyciągać zwierzęta."
+          ],
+          "tips": [
+            "Zabieraj też resztki jedzenia",
+            "Rozbijaj się na utwardzonym podłożu",
+            "Zakładaj, że nie ma koszy, dopóki ich nie zobaczysz"
+          ]
+        },
+        {
+          "heading": "Odpady i woda",
+          "body": [
+            "Szara woda i nieczystości z toalety należą do <a data-guide=\"camping-wastewater-rubbish-new-zealand\">stacji zrzutu nieczystości</a>, a nie do żywopłotu, kratki burzowej ani rzeki. Stacje zrzutu są oznaczone na mapach, zwykle bezpłatne lub tanie, a skorzystanie z jednej zajmuje kilka minut. Opróżnianie kasety gdziekolwiek indziej to najbardziej szkodliwa rzecz, jaką może zrobić kamperowicz, i zachowanie, które najczęściej prowadzi do zamknięcia miejsca.",
+            "Nie myj naczyń w rzekach ani jeziorach. Wywoź zużytą wodę ze sobą albo przynajmniej zmywaj co najmniej 50 metrów od jakiegokolwiek cieku wodnego i używaj biodegradowalnego mydła oszczędnie. Biodegradowalne nie znaczy nieszkodliwe dla wody."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bioasekuracja",
+          "body": [
+            "<a data-guide=\"kauri-dieback-camping-travel\">Zamieranie kauri (kauri dieback)</a> rozprzestrzenia się z glebą na obuwiu i sprzęcie. Korzystaj z każdej stacji czyszczenia, którą mijasz, dokładnie szoruj glebę zamiast ją spłukiwać i trzymaj się kładek w lasach kauri. Rdza mirtowa (myrtle rust) i słodkowodne szkodniki, takie jak didymo, rozprzestrzeniają się tą samą drogą, na sprzęcie, który nie został wyczyszczony między zlewniami.",
+            "Sprawdź, wyczyść i wysusz wszystko, co miało kontakt ze słodką wodą, zanim użyjesz tego w innym cieku. Dotyczy to butów, namiotów, sprzętu wędkarskiego i desek SUP, a nie tylko łodzi."
+          ],
+          "tips": [
+            "Korzystaj z każdej stacji czyszczenia",
+            "Sprawdź, wyczyść, wysusz między zlewniami",
+            "Trzymaj się kładek w lasach kauri"
+          ]
+        },
+        {
+          "heading": "Zwierzęta i rāhui",
+          "body": [
+            "Nie karm kea (górskich papug), weka (nielotnych ptaków), delfinów ani niczego innego. Ludzkie jedzenie zmienia zachowanie zwierząt, a w przypadku kea prowadzi wprost do ginięcia ptaków na drogach i parkingach. Przechowuj jedzenie i śmieci tam, gdzie ptaki nie sięgną, i licz się z tym, że kea otworzy wszystko, co wydawało się zabezpieczone.",
+            "Ograniczenia dla psów obowiązują szeroko na plażach i w rezerwatach, zwłaszcza w okresach lęgowych ptaków przybrzeżnych. Rāhui (zakazy wstępu lub korzystania z danego miejsca, ogłaszane przez społeczność Māori) i zamknięcia wynikające z tradycji wprowadza się z ważnych powodów, często po czyjejś śmierci albo żeby zasób mógł się odtworzyć; traktuj je jako bezwzględne, a nie jako zalecenie."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Trzymaj się utwardzonego podłoża",
+          "body": [
+            "Parkuj na utworzonych placach i wyznaczonych miejscach. Kępy traw, wydmy i brzegi mokradeł odnawiają się latami po przejeździe jednego pojazdu, a właśnie takie zniszczenia fotografują samorządy, gdy proponują zamknięcie obszaru.",
+            "To samo dotyczy poruszania się pieszo. Skracanie zakosów na szlaku mocno przyspiesza erozję w strefach alpejskich, gdzie sezon wegetacyjny jest krótki, a gleba cienka."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bądź dobrym sąsiadem w pobliżu miast",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> w miastach i na ich obrzeżach opiera się na nieformalnych porozumieniach. Zachowuj ciszę wieczorem, nie używaj agregatów, wyjeżdżaj stosunkowo wcześnie i korzystaj z miasta: kupuj paliwo, kawę i zakupy na miejscu. Argument ekonomiczny trafia do radnych, gdy debatuje się nad danym miejscem.",
+            "Jeśli widzisz, że miejsce jest nadużywane, zgłoś to samorządowi lub DOC, zamiast przejść obok. Miejsca zamyka się zwykle dlatego, że problemy nie były zgłaszane, aż koszt sprzątania przewyższył korzyść z utrzymania ich otwartych."
+          ],
+          "tips": [
+            "Wieczorem cisza, rano wyjazd",
+            "Wydawaj pieniądze lokalnie",
+            "Zgłaszaj nadużycia, nie ignoruj ich"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co znaczy odpowiedzialne kempingowanie w Nowej Zelandii?",
+          "Kempingowanie tam, gdzie jest dozwolone, zabieranie każdego kawałka śmieci, pozbywanie się szarej wody i nieczystości w odpowiednim miejscu, używanie ognia zgodnie z przepisami i zostawianie miejsca takim, jakie się zastało. Obecne ograniczenia freedom campingu są bezpośrednią odpowiedzią na odwiedzających, którzy tego nie robili."
+        ],
+        [
+          "Jaki jest największy błąd, jaki popełniają kamperowicze?",
+          "Ludzkie odchody. Załatwianie się w pobliżu kempingu lub cieku wodnego to zachowanie, które zamyka bezpłatne miejsca szybciej niż cokolwiek innego, i właśnie dlatego zasady self-contained wymagają dziś stałej toalety."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: odpowiedzialne kempingowanie"
+        },
+        {
+          "label": "Ochrona kauri"
+        },
+        {
+          "label": "Check, Clean, Dry"
+        },
+        {
+          "label": "Tiaki Promise"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
