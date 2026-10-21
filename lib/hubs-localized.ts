@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL, sitePath } from "./site";
 import { intlLocale, liveLocales, localeRoot, routedLocales, type LocaleCode } from "./locales";
 import { isTranslated } from "./localized";
-import { alternatesFor, ogLocale } from "./seo";
+import { alternatesFor, homeOgImage, ogLocale } from "./seo";
 import { smartBannerContent } from "./app-store";
 import { hubGate, hubIndexIndexable, type BuiltHubKind, type Hub } from "./hubs";
 import { hubStrings, isHubCommonComplete, isHubTranslated, translatableHubs, fill } from "./hub-strings";
@@ -48,7 +48,7 @@ export type LocalizedHubView = ReturnType<typeof localizedHubView>;
 const robots = (index: boolean): Metadata["robots"] => ({ index, follow: true, googleBot: { index, follow: true } });
 const og = (locale: LocaleCode, title: string, description: string, path: string) => ({
   type: "website" as const, siteName: "KiwiCamping", locale: ogLocale(locale), title, description, url: `${SITE_URL}${path}`,
-  images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping" }],
+  images: [{ ...homeOgImage, alt: "KiwiCamping" }],
 });
 
 export function localizedHubMetadata(hub: Hub, locale: LocaleCode, pageKey: string): Metadata {

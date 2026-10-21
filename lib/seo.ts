@@ -5,6 +5,14 @@ import { routesFor } from "@/lib/routes";
 
 export const defaultHreflang = englishLocale.hreflang[0];
 
+/**
+ * The link-preview image of every page that is not a guide. PNG, not WebP: X, Facebook, WhatsApp and
+ * iMessage often show an empty card for a WebP og:image.
+ */
+export const homeOgImage = { url: `${SITE_URL}/images/kiwicamping-og.png`, width: 1200, height: 630, type: "image/png" };
+/** A guide's link-preview image: the JPG copy scripts/build-og-images.mjs makes of its WebP hero. */
+export const articleOgImage = (slug: string) => ({ url: `${SITE_URL}/images/og/${slug}.jpg`, width: 1200, height: 630, type: "image/jpeg" });
+
 /** Arial advance widths per 1000 em for the characters titles use; Google sets result titles in Arial at about 20px. */
 const arialWidths: Record<string, number> = {
   " ": 278, "!": 278, "\"": 355, "#": 556, "$": 556, "%": 889, "&": 667, "'": 191, "(": 333, ")": 333, "*": 389, "+": 584,
@@ -68,7 +76,7 @@ export function alternatesFor(pageKey: string): Record<string, string> | undefin
 
 export { APP_ID };
 const LOGO = `${SITE_URL}/images/kiwicamping-app-icon.png`;
-const SCREENSHOT = `${SITE_URL}/images/kiwicamping-og.webp`;
+const SCREENSHOT = homeOgImage.url;
 
 const organization = {
   "@type": "Organization",

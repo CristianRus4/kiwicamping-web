@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { analyticsEnabled, analyticsScript } from "@/lib/analytics";
 import { englishLocale } from "@/lib/locales";
-import { defaultOgLocale, ogAlternates } from "@/lib/seo";
+import { defaultOgLocale, homeOgImage, ogAlternates } from "@/lib/seo";
 import { SocialOverlay, SocialScript } from "@/components/social";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     url: SITE_URL,
     // A 1200x630 card. The hero screenshot used to fill this slot, and being 1000x1500 it was
     // centre-cropped to a strip by every social preview that rendered it.
-    images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
+    images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "KiwiCamping: NZ camping map and road trip planner",
     description: "6,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
-    images: ["/images/kiwicamping-og.webp"],
+    images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },

@@ -5,7 +5,7 @@ import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticleByLegacyPath } from "@/lib/site";
 import { getTranslation, localizedArticles } from "@/lib/localized";
 import { routedLocaleForSegment } from "@/lib/locales";
-import { alternatesFor, defaultOgLocale, ogAlternates, ogLocale, guideTitle } from "@/lib/seo";
+import { alternatesFor, articleOgImage, defaultOgLocale, guideTitle, homeOgImage, ogAlternates, ogLocale } from "@/lib/seo";
 import { exportRoutes, routeAt } from "@/lib/routes";
 import { guidePageKey } from "@/lib/routes/guides";
 import { smartBannerContent } from "@/lib/app-store";
@@ -38,8 +38,8 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     title:guideTitle(legacy.title),
     description:legacy.description,
     alternates:{canonical:legacy.legacyPath,languages:alternatesFor(guidePageKey(legacy.slug))},
-    openGraph:{type:"article",siteName:"KiwiCamping",locale:defaultOgLocale,title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{url:legacy.image,alt:legacy.imageAlt}]},
-    twitter:{card:"summary_large_image",title:legacy.title,description:legacy.description,images:[legacy.image]},
+    openGraph:{type:"article",siteName:"KiwiCamping",locale:defaultOgLocale,title:legacy.title,description:legacy.description,url:`${SITE_URL}${legacy.legacyPath}`,images:[{...articleOgImage(legacy.slug),alt:legacy.imageAlt}]},
+    twitter:{card:"summary_large_image",title:legacy.title,description:legacy.description,images:[{...articleOgImage(legacy.slug),alt:legacy.imageAlt}]},
   };
   const locale=routedLocaleForSegment(segment);
   if(!locale)return{};
@@ -53,7 +53,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
       title:tool.metaTitle,
       description:tool.metaDescription,
       alternates:{canonical,languages:indexable&&route?alternatesFor(route.pageKey):undefined},
-      openGraph:{type:"website",siteName:"KiwiCamping",locale:ogLocale(locale),alternateLocale:ogAlternates(locale),title:tool.metaTitle,description:tool.metaDescription,url:`${SITE_URL}${canonical}`,images:[{url:"/images/kiwicamping-og.webp",alt:"KiwiCamping"}]},
+      openGraph:{type:"website",siteName:"KiwiCamping",locale:ogLocale(locale),alternateLocale:ogAlternates(locale),title:tool.metaTitle,description:tool.metaDescription,url:`${SITE_URL}${canonical}`,images:[{...homeOgImage,alt:"KiwiCamping"}]},
       robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true}},
       other:{"apple-itunes-app":smartBannerContent(locale)},
     };
@@ -76,7 +76,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     :ui.metaDescription;
   const canonical=`/${[segment,...path].join("/")}/`;
   const url=`${SITE_URL}${canonical}`;
-  const image=article?article.image:"/images/kiwicamping-hero.webp";
+  const image={...(article?articleOgImage(article.slug):homeOgImage),alt:article?article.imageAlt:"KiwiCamping"};
   // An incomplete translation still builds and renders (in English), but it must not compete with
   // the English site for the same words until its translation is complete. The manifest decides.
   const route=routeAt(canonical);
@@ -95,7 +95,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
       title:article?article.title:ui.ogTitle,
       description:article?article.description:ui.ogDescription,
       url,
-      images:[{url:image,alt:article?article.imageAlt:"KiwiCamping"}],
+      images:[image],
     },
     twitter:{card:"summary_large_image",title:article?article.title:ui.ogTitle,description:article?article.description:ui.ogDescription,images:[image]},
     robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true,"max-image-preview":"large","max-snippet":-1}},
