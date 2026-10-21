@@ -58,3 +58,15 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-16 | can-i-drive-on-the-beach-in-new-zealand | scheduled |
 | 2026-11-17 | can-i-drink-the-water-at-nz-campsites | scheduled |
 | 2026-11-18 | can-i-go-to-the-toilet-outdoors-camping-nz | scheduled |
+| 2026-11-19 | freedom-camping-queenstown-lakes-2026 | scheduled |
+| 2026-11-20 | freedom-camping-thames-coromandel-2026 | scheduled |
+| 2026-11-21 | nz-great-walks-2026-27-huts-campsites-booking-fees | scheduled |
+| 2026-11-22 | freedom-camping-tauranga-2026 | scheduled |
+| 2026-11-23 | freedom-camping-whangarei-2026 | scheduled |
+| 2026-11-24 | abel-tasman-coast-track-campsites-2026-27 | scheduled |
+| 2026-11-25 | freedom-camping-southland-2026 | scheduled |
+| 2026-11-26 | freedom-camping-new-plymouth-2026 | scheduled |
+| 2026-11-27 | routeburn-track-camping-2026-27 | scheduled |
+| 2026-11-28 | freedom-camping-waitaki-2026 | scheduled |
+| 2026-11-29 | freedom-camping-whakatane-2026 | scheduled |
+| 2026-11-30 | tongariro-northern-circuit-camping-2026-27 | scheduled |

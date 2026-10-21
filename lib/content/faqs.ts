@@ -345,4 +345,67 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How do I check if a South Island road is closed?", "Use NZTA's Journey Planner, which shows road closures, roadworks and traffic cameras. NZTA notes its route suggestions come from Google and may not reflect unplanned events on state highways."],
     ["Do I need snow chains on the Milford Road?", "DOC says snow chains may be required and can be rented in Te Anau. Check the current status of State Highway 94 before you leave."],
   ],
+  "freedom-camping-queenstown-lakes-2026": [
+    ["Where can I freedom camp in Queenstown?", "Only in a certified self-contained vehicle, and only at the council's designated car parks, which the council's November 2025 release lists as 15 sites with 141 spaces, including Boundary Street, Lakeview and Industrial Place in Queenstown. Freedom camping is prohibited in urban areas, so the street is not an option."],
+    ["How many nights can I stay at a Queenstown Lakes freedom camping site?", "Two nights in any 30-day period, and you may not return to the marked spaces within that period. The council says to arrive after 6pm and leave before 8am."],
+    ["Can I freedom camp in a tent around Queenstown or Wānaka?", "The council's conditions for freedom camping start with using a certified self-contained motor vehicle, and most council reserves are prohibited for camping under the Reserves Act. For a tent, use a campground, a holiday park or a DOC campsite."],
+    ["Is the Queenstown Lakes freedom camping bylaw changing?", "The council is consulting on amendments to its 2025 bylaw, covering Allenby Place and Beacon Point Road in Wānaka and the number of spaces at the Wānaka Recreation Centre. Oral submissions are on 27 and 28 October 2026 and the council plans to decide on 17 December 2026."],
+  ],
+  "freedom-camping-thames-coromandel-2026": [
+    ["Can I freedom camp in a tent on the Coromandel?", "Not on council land. The council's bylaw requires a self-contained motor vehicle for freedom camping in every council area, so a tent camper needs a holiday park, a campground or a DOC campsite."],
+    ["How many nights can I freedom camp in Thames-Coromandel?", "The general limit is two consecutive nights, between 5pm and 9am, with the vehicle removed by 9am. Woollams Avenue car park in Coromandel Town allows one consecutive night, and Aickin Road Sports Reserve in Whangamatā has Saturday as its day to leave."],
+    ["Where can I freedom camp in Whitianga?", "The bylaw's Schedule 2 names two Whitianga sites: Lee Street car park with a limit of 8 vehicles, and the council's Mercury Bay Area office car park on Monk Street with 4 vehicles between 5pm and 8am. The Esplanade and the Dundas Street boat ramp area are prohibited."],
+    ["What is the fine for freedom camping in Thames-Coromandel?", "Most breaches of the bylaw carry a $400 infringement fee under the national regulations. A missing warrant card is $200, and damage or leaving waste is $800."],
+  ],
+  "freedom-camping-tauranga-2026": [
+    ["Can I freedom camp in Tauranga without a self-contained vehicle?", "No. The council's page says that without a self-contained vehicle with the necessary certification you will need to find a campground, and the bylaw permits freedom camping only in the places it lists."],
+    ["How long can I stay at a Tauranga freedom camping reserve?", "Two nights in any one location per calendar month, though you can visit other permitted locations. Five reserves allow camping only from 7pm on Sunday to 10am on Friday."],
+    ["Can I freedom camp at Mount Maunganui?", "Mount Greens car park in Kawaka Street takes 10 vehicles, inside marked spaces. The Mall, Pilot Bay and Marine Parade are prohibited, and the council-owned Beachside Holiday Park is closed after the January 2026 Mauao landslide."],
+  ],
+  "freedom-camping-whangarei-2026": [
+    ["Can I pitch a tent on public land around Whangārei?", "The council's page lists five areas for tents: Parua Bay, Reotahi, Sandy Bay, Tamaterau and Waipū Caves. Parua Bay allows up to three nights, and the other four allow one night."],
+    ["Can a van without a self-contained certificate camp in Whangārei?", "Yes, at the 17 sites the council lists for vehicles that are not certified self-contained, such as Bascule car park, Kowharewa Bay, Parua Bay and Waipū Caves. A.H. Reed Memorial Park is on the list but is temporarily closed to camping because of kauri dieback."],
+    ["How many nights can I stay at a Whangārei freedom camping site?", "One night in any four-week period at most designated sites, and three at Bascule car park and Parua Bay. Elsewhere on council land that is not prohibited, the council's page says three nights, then you must move at least one kilometre."],
+  ],
+  "freedom-camping-southland-2026": [
+    ["Can I freedom camp in Te Anau?", "The council's freedom camping locations list has no site at Te Anau, and the bylaw's township map marks Te Anau as camping prohibited. Use a campground, a holiday park or one of DOC's Fiordland campsites, and confirm boundaries on the council's interactive map."],
+    ["How many nights can I freedom camp in Southland?", "The bylaw's default is seven nights in any 30-day period, but the council's site list varies widely, from one night in 30 at Waikawa and Mandeville to 28 days a year at Haldane, Nightcaps and Thornbury."],
+    ["Can I use a tent or an uncertified van at a Southland site?", "Only at the sites that allow all types of camping, which the council's pages give as Dunsdale, Orepuki's Monkey Island and Thornbury, with Haldane, Lumsden and the Otautau Arboretum shown as green areas. At the others the council says tents, cars and uncertified vehicles are not allowed."],
+  ],
+  "freedom-camping-new-plymouth-2026": [
+    ["Can I camp in a tent in New Plymouth?", "No. The bylaw says a person must not freedom camp in any local authority area in tents or other temporary structures, and the council's page says camping in tents on public land is banned in the district."],
+    ["Where can a vehicle that is not self-contained camp in New Plymouth?", "Only at Lake Rotomanu in New Plymouth and Battiscombe Terrace in Waitara, each with six marked spaces, first come, first served, for one night in any 30-day period."],
+    ["How long can a self-contained vehicle stay in New Plymouth?", "A maximum of three nights in any 30-day period at any single location, counted as within 500 metres, and the bylaw allows no fires."],
+  ],
+  "freedom-camping-waitaki-2026": [
+    ["Does Waitaki have designated freedom camping sites?", "No. The bylaw permits freedom camping on council land anywhere that is not prohibited or restricted, for certified self-contained vehicles only, and lists prohibited areas by town. Tents and uncertified vehicles need one of the fee-paying campgrounds the bylaw names."],
+    ["How long can I freedom camp in Waitaki?", "Three nights in any four-week consecutive period in any one area, with the four weeks counted from your first overnight stay."],
+    ["What is the freedom camping fine in Waitaki?", "The bylaw says $400, and two of the council's web pages still say $200. Under the national regulations, camping in breach of a bylaw restriction or in a vehicle that is not self-contained where it is required is $400."],
+  ],
+  "freedom-camping-whakatane-2026": [
+    ["Where can I freedom camp in Ōhope?", "Certified self-contained vehicles can use three designated areas: West End Road car park, Maraetotara Reserve on Pohutukawa Avenue, and the eastern end of Harbour Road with Port Ōhope Reserve. The limit is three consecutive nights in any four weeks, and West End Road is closed from the third week of December to 31 March."],
+    ["Can a van that is not self-contained camp near Whakatāne?", "The bylaw's Schedule 1 lists one site for it, Aniwhenua Reserve at Galatea near Murupara, for up to seven nights in any four-week period."],
+    ["Is Muriwai Drive open to freedom camping?", "No. Schedule 2 prohibits freedom camping on the full length of Muriwai Drive in Whakatāne, along with the reserves on it."],
+  ],
+  "nz-great-walks-2026-27-huts-campsites-booking-fees": [
+    ["When do Great Walks bookings open for 2027/28?", "DOC has not published the dates. For 2026/27 it opened bookings at 9:30 am on set days from Tuesday 12 May to Thursday 21 May 2026, for stays up to 30 June 2027."],
+    ["Can you camp on the Milford Track?", "No. DOC says camping is not permitted on the Milford Track, and its three huts must be booked. The Paparoa Track has no campsites either."],
+    ["How much does a Great Walk campsite cost?", "DOC's summer rate per adult per night is $19 at the Heaphy, Rakiura, Lake Waikaremoana, Whanganui Journey and Tongariro Northern Circuit, $21 at the Abel Tasman Coast Track and $28 at the Kepler and Routeburn. International visitors pay more on most of them."],
+    ["Can I use a Campsite Pass on a Great Walk?", "No. DOC's Campsite Pass cannot be used at Great Walk campsites, which are booked and paid for separately."],
+  ],
+  "abel-tasman-coast-track-campsites-2026-27": [
+    ["How many campsites are there on the Abel Tasman Coast Track?", "DOC lists 18 campsites and 4 huts, and says all must be booked in advance all year round."],
+    ["How many nights can I stay at an Abel Tasman campsite?", "At most two nights at any hut or campsite from 1 October to 30 April and five nights from 1 May to 30 September. The Tōtaranui Great Walk Campsite can be booked for one night all year."],
+    ["When can I cross the Awaroa Inlet?", "DOC says to cross within 1 hour 30 minutes before and 2 hours after low tide, in daylight only, allowing about 25 minutes. DOC lists no alternative track."],
+  ],
+  "routeburn-track-camping-2026-27": [
+    ["Are there campsites on the Routeburn Track?", "Yes. DOC says there are three huts and two campsites, at Routeburn Flats and Lake Mackenzie, and that they must be booked well in advance in the Great Walks season, which runs from 1 November 2026 to 30 April 2027."],
+    ["How much does a Routeburn campsite cost?", "In the Great Walks season it is $28 per adult per night for New Zealanders and $42 for international visitors. From 1 May to 31 October DOC lists $10."],
+    ["Is there an avalanche risk on the Routeburn in summer?", "DOC says the track has more than 32 avalanche paths and that the risk can extend into December. In the Great Walks season it manages the risk and may close sections if there is an avalanche hazard."],
+  ],
+  "tongariro-northern-circuit-camping-2026-27": [
+    ["When does the new Oturere Hut open?", "DOC's 4 September 2026 release says the hut and its campsite open for bookings from 18 December 2026, later than planned because construction fell behind."],
+    ["How much does it cost to camp on the Tongariro Northern Circuit?", "From 23 October to 30 April it is $19 per adult per night for New Zealanders and $28 for international visitors, and from 1 May to 22 October it is $10 for everyone. Bookings are required all year."],
+    ["Can I camp anywhere along the Tongariro Northern Circuit?", "No. The three huts each have a nearby campsite, and DOC says camping is not allowed within 500 m of the track."],
+  ],
 };
