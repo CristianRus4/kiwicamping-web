@@ -15,3 +15,7 @@ Translated (script-validated, no separate review): save-places-kiwicamping, kiwi
 ## KiwiCamping batch 13 (Polish)
 Translated (script-validated, no separate review): two-week-camper-itinerary-new-zealand, rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand, free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand.
 - Editor note: competitor "trip planner" features (e.g. WikiCamps) are rendered "planer podróży" per the glossary even though they are the competitor's feature.
+
+## KiwiCamping batch 14 (Polish)
+Translated (script-validated, no separate review): best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand, freedom-camping-rules-new-zealand, freedom-camping-new-zealand-guide, self-contained-campervan-green-warrant, doc-campsites-new-zealand-guide.
+- Editor note: the English green-warrant guide intro lists requirements with "for three days" at the end; read as applying to all of them, matching the later section.
