@@ -8,6 +8,8 @@ import { legacyOnlyArticles } from "@/lib/content/legacy";
 import { listicleArticles } from "@/lib/content/listicles";
 import { seasonalArticles } from "@/lib/content/seasonal";
 import { canIArticles } from "@/lib/content/can-i";
+import { freedomCouncilArticles } from "@/lib/content/freedom-councils";
+import { greatWalksArticles } from "@/lib/content/great-walks";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
@@ -69,6 +71,8 @@ export const allArticles: Article[] = applyScreenFigures([
   ...listicleArticles,
   ...seasonalArticles,
   ...canIArticles,
+  ...freedomCouncilArticles,
+  ...greatWalksArticles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   .concat(scheduleFixture<Article>() ?? []));
