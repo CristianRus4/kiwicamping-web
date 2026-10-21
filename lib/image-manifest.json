@@ -293,6 +293,20 @@
       }
     ]
   },
+  "/images/articles/can-i-drive-a-campervan-on-a-car-licence-nz.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/can-i-drive-a-campervan-on-a-car-licence-nz-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/can-i-drive-a-campervan-on-a-car-licence-nz.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/can-i-park-a-campervan-on-the-street-overnight-nz.webp": {
     "width": 1600,
     "height": 900,

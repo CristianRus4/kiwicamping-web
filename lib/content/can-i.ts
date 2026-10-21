@@ -371,4 +371,72 @@ export const canIArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "can-i-drive-a-campervan-on-a-car-licence-nz",
+    publishAt: "2026-11-14",
+    title: "Can I Drive a Campervan on a Car Licence in NZ? (2026)",
+    description: "Yes, a full NZ car licence (Class 1) covers a campervan or motorhome up to 6,000 kg gross laden weight. Weights, towing, Class 2 and rentals explained for 2026.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["Rental campervans","Motorhomes over 3,500 kg","Towing a trailer or car","Overseas drivers"],
+    imageAlt: "State Highway 94 winding through a snow-dusted valley in Fiordland National Park",
+    related: ["campervan-road-rules-new-zealand","overseas-driver-licence-new-zealand","towing-caravan-new-zealand"],
+    intro:
+      "Yes, in most cases: a full New Zealand car licence (Class 1) lets you drive a campervan or motorhome as long as its gross laden weight (GLW) is 6,000 kg or less. Go above that, or tow enough to push the whole combination past 6,000 kg, and you need a Class 2 licence. That covers nearly every rental campervan and most privately owned motorhomes, so the useful question is not whether you hold the right licence but how heavy your particular van is once it is loaded.",
+    sections: [
+      s("The 6,000 kg line, and who applies it", [
+        "The Land Transport (Driver Licensing) Rule 1999 sets out which vehicles each licence class may drive. A full Class 1 licence covers any rigid vehicle with a gross laden weight of not more than 6,000 kg, and a motorhome is a rigid vehicle. NZTA administers the licensing system, and Police are the ones who check it at the roadside.",
+        "Class 1 is the ordinary car licence, so there is no separate campervan or motorhome licence in New Zealand. If you can legally drive a car and your van sits at or under the line, you are covered. Class 2 is the next step up, for rigid vehicles above 6,000 kg and up to 18,000 kg.",
+      ], ["No separate campervan licence exists","Full Class 1 covers up to 6,000 kg GLW","Above that you need Class 2"]),
+      s("What gross laden weight actually means for your van", [
+        "GLW is not the weight of the empty van. The rule defines it as the greatest of three figures: the manufacturer's stated gross laden weight, any weight set under the land transport rules, and the weight of the vehicle with whatever it is carrying at that moment. NZTA's guidance adds that you should not use the unladen or tare weight, or the weight on a road user charges (RUC) licence, when checking a licence class.",
+        "In practice, look for the manufacturer's maximum weight (often called the gross vehicle mass, or GVM) on the vehicle's plate or paperwork. For vehicles over 3,500 kg, NZTA says a certificate of loading, normally displayed on the windscreen, lists the tare weight and the GVM. Payload is simply GLW minus the empty weight, and it disappears faster than people expect: 100 litres of fresh water is about 100 kg before you add gas, bikes, food and passengers.",
+        "A van whose plate says 4,500 kg is nowhere near the line. A van whose plate says 6,000 kg has no spare margin, and loading it beyond its plated weight is both unsafe and a separate problem from the licence question. Check the plated figure, not the brochure.",
+      ], ["Use the plated maximum, not the empty weight","Water adds a kilogram per litre","Do not load beyond the plated weight"]),
+      s("Learner and restricted licences have a lower limit", [
+        "The 6,000 kg figure is for a full Class 1 licence. If you hold a learner (Class 1L) or restricted (Class 1R) licence, the rule limits you to vehicles with a GLW of 4,500 kg or less. There is one allowance for motorhomes: a motorised mobile home or self-propelled caravan with a GLW up to 6,000 kg, provided its on-road weight does not exceed 4,500 kg.",
+        "On-road weight is the vehicle as it is driven, with fuel, water, gear and passengers. That makes the restricted allowance easy to break without noticing, because a 6,000 kg-rated van that is half full of water and luggage can sit well above 4,500 kg on the road. If you are still on a restricted licence, pick a smaller van and weigh the loaded result, or wait until you hold a full licence.",
+      ]),
+      s("Towing changes the sum", [
+        "When you tow, the licence test moves from the van to the whole combination. A full Class 1 licence covers a combination with a gross combined weight of not more than 6,000 kg, and that figure is the total of the gross laden weights of every vehicle in the line. The rule counts a car on a tow bar the same way as a trailer.",
+        "So a motorhome plated at 4,500 kg can pull a trailer or small car up to a combined plated weight of 6,000 kg, and a 5,500 kg motorhome has almost no towing allowance at all. The same combination also carries lower speed limits: 90 km/h on the open road with a rigid connection, and 50 km/h on a non-rigid one. For loading, sway and caravan-specific limits, the guide to towing a caravan in New Zealand has the detail.",
+      ], ["Gross combined weight is the plated total","A towed car counts like a trailer","Check the towing page for speed and loading"]),
+      s("When you do need a Class 2 licence", [
+        "You need Class 2 for a rigid vehicle with a GLW of more than 6,000 kg and up to 18,000 kg, and for a combination with a gross combined weight of more than 6,000 kg and up to 12,000 kg. Large coach-built motorhomes and converted buses fall into this range. To apply for a Class 2 learner licence you must have held a full Class 1 licence for at least six months, pass the theory test and provide a medical certificate. The full Class 2 then follows after at least six months on the learner licence and a practical test, or an approved course.",
+        "A motorhome with a gross vehicle mass over 3,500 kg counts as a heavy motor vehicle under the road user rule, and it may not be driven above 90 km/h even where the open-road limit is 100. NZTA also treats heavy motorhomes differently for inspections and charges. They are inspected for a certificate of fitness rather than a Warrant of Fitness, and all heavy motorhomes pay road user charges whether petrol or diesel, while light ones pay only if they run on diesel. None of that stops you driving one on a car licence if it is at or below 6,000 kg, but it changes the running costs and the paperwork. If you are buying rather than hiring, the guide to registration and WoF for campervans covers the inspection side.",
+        "One recent change helps owners of electric vehicles. Since 6 August 2026 the rule lists zero-emission vehicles, meaning battery-electric or hydrogen fuel cell, up to 7,500 kg GLW under Class 1. That matters mainly for heavier electric vans, and it is worth asking a rental company or dealer how it applies to a specific model before you rely on it.",
+      ], ["Class 2 starts above 6,000 kg GLW","Six months on Class 1 before applying","Electric vehicles have a higher Class 1 limit"]),
+      s("Overseas licences and rental campervans", [
+        "A visitor on an overseas licence is treated as holding the New Zealand class that matches what that licence lets them drive at home. For an ordinary car licence, that is Class 1, so the 6,000 kg line applies the same way. An overseas licence is valid for 18 months for arrivals from 1 November 2024 to 31 October 2026, and for 12 months from 1 November 2026. The overseas licence guide covers translations, International Driving Permits and what happens when the period ends.",
+        "Rental companies will not hand over the keys unless your licence suits the vehicle, and most also apply their own minimum age and licence-held period. Some ask for an International Driving Permit, so confirm those conditions when you book rather than at the depot.",
+      ], ["Overseas car licences are treated as Class 1","Rental firms add their own age and licence rules","Confirm at booking, not at pick-up"]),
+      s("Fines and what a roadside check looks like", [
+        "Driving a vehicle your licence does not cover is an offence, with an infringement fee of $400 for driving without the appropriate current driver licence. Driving contrary to the conditions on your licence, such as needing glasses or being limited to automatics, carries the same fee. Failing to produce your licence on request is $55. These figures are from the Land Transport (Offences and Penalties) Regulations 1999, version as at 1 October 2026.",
+        "The bigger cost is usually insurance. A policy or rental agreement that assumes a properly licensed driver can be voided if you were not one, which turns a small fine into a very large bill after a crash. Carry your licence every time you drive, with a translation or International Driving Permit if it is not in English.",
+      ], ["$400 for driving without the right class","$55 for not producing your licence","Insurance can fail if you were unlicensed"]),
+      s("Check before you book", [
+        "Ask for the GLW or GVM of the exact vehicle in writing, not the berth count or the model name. Compare it with 6,000 kg, and if you plan to tow or carry a heavy load, ask for the plated weights of the trailer or towed car as well. Remember that being under the licence limit does not mean the van is comfortable to drive: height, width and length still matter on narrow roads, which the campervan driving rules guide covers.",
+        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal. It helps with planning where the van goes once you have the licence question settled.",
+      ]),
+      s("The short version", [
+        "A full Class 1 licence covers a campervan or motorhome up to 6,000 kg GLW, and a combination up to 6,000 kg gross combined weight. Learners and restricted drivers are held to 4,500 kg on the road. Above 6,000 kg you need Class 2, and heavy motorhomes over 3,500 kg bring a 90 km/h limit and different inspection and road user charge rules.",
+        "Before you pay a deposit, find the plated weight of the exact van, add up anything you plan to tow, and confirm the rental company's own age and licence conditions in writing. Those three checks settle almost every version of this question.",
+      ], ["Plated weight first","Add up anything you tow","Confirm rental conditions before paying"]),
+    ],
+    faq: [
+      ["What size motorhome can I drive on a car licence?", "On a full New Zealand car licence (Class 1) you can drive a motorhome with a gross laden weight of 6,000 kg or less. Learner and restricted licence holders are limited to 4,500 kg on the road, with a motorhome allowance only where the on-road weight stays at or under that figure."],
+      ["Can you drive a motorhome on a car licence in NZ?", "Yes, as long as it is within 6,000 kg gross laden weight and you are not towing so much that the whole combination exceeds 6,000 kg. There is no separate campervan licence, but a heavier motorhome needs a Class 2 licence."],
+      ["Do I need a special driving licence for a campervan in New Zealand?", "Not for the vast majority of rental campervans, which fall well under 6,000 kg. An overseas car licence is treated as Class 1 and is valid for 18 months for arrivals from 1 November 2024 to 31 October 2026, and 12 months from 1 November 2026."],
+    ],
+    sources: [
+      { label: "Legislation: Land Transport (Driver Licensing) Rule 1999 (Schedule 3, classes of licence)", url: "https://www.legislation.govt.nz/regulation/public/1999/0100/latest/whole.html" },
+      { label: "Legislation: Land Transport (Road User) Rule 2004 (heavy motor vehicles, towing speed limits)", url: "https://www.legislation.govt.nz/regulation/public/2004/0427/latest/whole.html" },
+      { label: "Legislation: Land Transport (Offences and Penalties) Regulations 1999", url: "https://www.legislation.govt.nz/regulation/public/1999/0099/latest/whole.html" },
+      { label: "Legislation: Land Transport (Driver Licensing) Amendment Rule 2024 (overseas licence time limit)", url: "https://www.legislation.govt.nz/regulation/public/2024/0222/latest/whole.html" },
+      { label: "NZTA: Driver licence classes and what you can drive", url: "https://www.nzta.govt.nz/driver-licences/getting-a-licence/licences-by-vehicle-type/what-you-can-drive" },
+      { label: "NZTA: Motorhomes, caravans and light trailers", url: "https://www.nzta.govt.nz/vehicles/vehicle-types/motorhomes-caravans-light-trailers" },
+      { label: "NZTA: Driving on New Zealand roads (visitors)", url: "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads" },
+    ],
+  }),
+
 ];
