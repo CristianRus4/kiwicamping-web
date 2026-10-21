@@ -7,9 +7,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  * hdr header · hero home hero · card download card · stick sticky mobile bar · foot footer ·
  * inl inline in prose · tool tool page · hub data hub · sb Smart App Banner · qr QR code ·
  * dl the /download redirect · llms llms.txt · listicle "best apps" and "alternatives" comparison
- * guides (their in-article and end CTAs)
+ * guides (their in-article and end CTAs) · ig, tt, fb social bio links opened from Instagram, TikTok or
+ * Facebook (lib/social.ts)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** `en` for the English site, otherwise the locale's URL segment (`de`, `zh-hans`, ...). */

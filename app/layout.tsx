@@ -6,6 +6,7 @@ import { smartBannerContent } from "@/lib/app-store";
 import { analyticsEnabled, analyticsScript } from "@/lib/analytics";
 import { englishLocale } from "@/lib/locales";
 import { defaultOgLocale, ogAlternates } from "@/lib/seo";
+import { SocialOverlay, SocialScript } from "@/components/social";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
@@ -68,5 +69,5 @@ const headerScroll = `(function(){var h=document.querySelector(".site-header");i
 // anything else can send data; marked data-static-keep so the static export keeps it.
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   // Every route renders this one <html>; the exporter sets each locale page's lang from the registry.
-  return <html lang={englishLocale.htmlLang}><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  return <html lang={englishLocale.htmlLang}><body className={sans.variable}>{analyticsEnabled && <script data-static-keep="analytics" dangerouslySetInnerHTML={{ __html: analyticsScript() }} />}<SocialScript />{children}<SocialOverlay /><script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }
