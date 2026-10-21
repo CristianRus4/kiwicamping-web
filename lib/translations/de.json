@@ -328,7 +328,7 @@
         {
           "heading": "iCloud",
           "paragraphs": [
-            "Wenn iCloud verfügbar und aktiviert ist, kann die App deine private iCloud-Datenbank nutzen, um Markierungen, Sammlungen und App-Daten zwischen deinen Geräten zu synchronisieren. Den zugrunde liegenden Dienst stellt Apple bereit, es gelten Apples eigene Bedingungen."
+            "Wenn iCloud verfügbar und aktiviert ist, kann die App deine private iCloud-Datenbank nutzen, um Markierungen, Sammlungen und App-Daten zwischen deinen Geräten zu synchronisieren. Den zugrunde liegenden Dienst stellt Apple bereit, es gelten dessen eigene Bedingungen."
           ]
         },
         {
@@ -348,7 +348,7 @@
           "heading": "Webanalyse",
           "paragraphs": [
             "Diese Website nutzt Google Analytics 4, um Besuche zu zählen und zu sehen, welche Seiten Leute in den App Store führen. Google verarbeitet diese Daten in unserem Auftrag als Auftragsverarbeiter. Für Besucher aus dem Europäischen Wirtschaftsraum, dem Vereinigten Königreich und der Schweiz stellt Google Ireland Limited den Dienst bereit, für alle anderen Google LLC.",
-            "Erfasst werden die Seiten, die du aufrufst, dein Geräte-, Browser- und Bildschirmtyp, ein ungefährer Standort, der aus deiner IP-Adresse abgeleitet wird (die Adresse selbst speichert Google nicht), die Seite, über die du hierhergekommen bist, und deine Klicks auf Links zum App Store. Deinen Namen, deine E-Mail-Adresse oder etwas, das du in der App speicherst, erhält Google nie.",
+            "Erfasst werden die Seiten, die du aufrufst, dein Geräte-, Browser- und Bildschirmtyp, ein ungefährer Standort, der aus deiner IP-Adresse abgeleitet wird (die Adresse selbst speichert Google nicht), die Seite, über die du hierhergekommen bist, und deine Klicks auf Links zum App Store. Deinen Namen, deine E-Mail-Adresse oder etwas, das du in der App speicherst, erhält Analytics nie.",
             "Wenn Analyse erlaubt ist, setzt Google Analytics zwei First-Party-Cookies: _ga und ein zweites, dessen Name mit _ga_ beginnt. Beide laufen nach 13 Monaten ab. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz werden diese Cookies erst gesetzt, wenn du in der Einwilligungsleiste „Akzeptieren“ wählst. Bis dahin, und wenn du „Ablehnen“ wählst, werden keine Analyse-Cookies gespeichert, und Google erhält nur cookielose Signale ohne Kennung. Deine Auswahl kannst du jederzeit über den Link „Datenschutzeinstellungen“ unten auf jeder Seite ändern.",
             "Google Signals und personalisierte Werbung sind deaktiviert, deshalb werden die Analysedaten weder mit Google-Konten verknüpft noch für Werbung genutzt. Nach 14 Monaten werden sie gelöscht. KiwiCamping verwendet auf dieser Website weiterhin keine Werbetracker."
           ]
@@ -3979,7 +3979,7 @@
         ],
         [
           "Werden gespeicherte Orte zwischen Geräten synchronisiert?",
-          "Mit aktiviertem iCloud ja: Markierungen, Sammlungen und Reisedaten folgen deinem Apple Account. Ohne iCloud bleibt alles auf dem einen Gerät."
+          "Mit aktiviertem iCloud ja: Markierungen, Sammlungen und Reisedaten folgen deinem Apple Account. Ohne das bleibt alles auf dem einen Gerät."
         ]
       ],
       "sources": [],
@@ -5208,7 +5208,7 @@
           "body": [
             "KiwiCamping baut auf den eigenen Daten des Department of Conservation auf. In den Daten vom August 2026 enthielt die App 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-Campingplätze</a>, 927 DOC-Hütten und 1.453 DOC-Tracks, mit den Gebühren, Hunderegeln und Buchungspflichten, die DOC angibt, sofern es sie angibt. Damit ist sie genau dort am stärksten, wo eine App, die von Rezensionen lebt, am wenigsten bietet: bei der Hütte, zu der du an Tag vier wanderst, und beim Track, der am Campingplatz für heute Nacht beginnt.",
             "<a data-guide=\"kiwicamping-filters-guide\">Filter</a> lassen sich kombinieren: Mit einer einzigen Suche fragst du Art des Ortes, Gebühr, Ausstattung und Zufahrt zusammen ab. Gespeicherte Orte werden dann zur Reise mit Stopps in fester Reihenfolge, Terminen, Notizen, To-dos und der Gesamtstrecke, und die Ortsdetails bleiben auf dem Handy lesbar, wenn der Empfang wegfällt. Kartenkacheln, Navigation, Wetter und Fotos brauchen trotzdem Empfang.",
-            "Was sie kostet und wo sie Grenzen hat: Der Download ist kostenlos, aber in der kostenlosen Version lassen sich nur BookIt-Aufenthalte und -Touren öffnen. DOC-Campingplätze, DOC-Hütten, DOC-Tracks und <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstationen</a>, Sammlungen, Reisen und Ratgeber brauchen den KiwiCamping Pass, im neuseeländischen App Store gelistet von 3,99 bis 12,99 NZD. Die App gibt es nur für iPhone, sie braucht iOS 26 oder neuer, sie hatte 4 Bewertungen in Neuseeland (3,8), und es gibt keine Rezensionen von Reisenden. Deshalb empfehlen wir sie neben Rankers und nicht statt Rankers."
+            "Was sie kostet und wo sie Grenzen hat: Der Download ist kostenlos, aber in der kostenlosen Version lassen sich nur BookIt-Aufenthalte und -Touren öffnen. DOC-Campingplätze, DOC-Hütten, DOC-Tracks und <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstationen</a>, Sammlungen, Reisen und Ratgeber brauchen den KiwiCamping Pass, im neuseeländischen App Store gelistet von 3,99 bis 12,99 NZD. Die App gibt es nur für iPhone, sie braucht iOS 26 oder neuer, sie hatte 4 Bewertungen in Neuseeland (3,8), und es gibt keine Rezensionen von Reisenden. Deshalb empfehlen wir sie neben Rankers und nicht an dessen Stelle."
           ],
           "tips": [
             "Geeignet für: DOC-Hütten, Tracks und einen Plan mit Terminen",
@@ -10141,7 +10141,7 @@
           "heading": "3. CamperMate: die beste kostenlose Option, wenn Australien auf dem Plan steht",
           "body": [
             "CamperMate deckt Neuseeland und Australien in einer einzigen kostenlosen App ab, der zweite WikiCamps-Kauf entfällt also. Die App filtert nach kostenlosen und kostenpflichtigen Plätzen, zeigt Toiletten, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstationen</a> und WLAN-Spots, bucht Campingplätze samt Verfügbarkeitsanzeige und lädt Karten und Ortsinformationen für die Nutzung ohne Empfang herunter; mit Version 5.8 kam im Oktober 2026 eine Satellitenansicht dazu.",
-            "CamperMate kommt auf 4,4 aus 606 Bewertungen in Neuseeland und 4,0 aus 12.568 bei Google Play und zeigt Werbung. Von den 16 CamperMate-Bewertungen aus 2025 oder 2026 unter den 50 neuesten im neuseeländischen App Store machten sieben das jüngste Redesign dafür verantwortlich. Probier die App also vor einer langen Reise aus und nicht erst in der ersten Nacht."
+            "Sie kommt auf 4,4 aus 606 Bewertungen in Neuseeland und 4,0 aus 12.568 bei Google Play und zeigt Werbung. Von den 16 CamperMate-Bewertungen aus 2025 oder 2026 unter den 50 neuesten im neuseeländischen App Store machten sieben das jüngste Redesign dafür verantwortlich. Probier die App also vor einer langen Reise aus und nicht erst in der ersten Nacht."
           ],
           "tips": [
             "Geeignet für: eine kostenlose App für zwei Länder",
@@ -10328,7 +10328,7 @@
         {
           "heading": "3. CamperMate: am besten als kostenloser Begleiter, wenn du bei Travellers Autobarn mietest",
           "body": [
-            "CamperMate ist die App, die Travellers Autobarn seinen Mietern mitgibt, und Spaceships hat seine eigene App 2023 in CamperMate aufgehen lassen. CamperMate ist kostenlos, deckt Neuseeland und Australien ab, zeigt Campingplätze, Toiletten, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstationen</a> und WLAN-Spots, bucht Campingplätze und lädt Karten und Ortsinformationen für die Nutzung ohne Empfang herunter. CamperMate bezeichnet sich außerdem als offizieller Reisepartner von Apollo, Maui, Britz und Mighty.",
+            "CamperMate ist die App, die Travellers Autobarn seinen Mietern mitgibt, und Spaceships hat seine eigene App 2023 in CamperMate aufgehen lassen. Sie ist kostenlos, deckt Neuseeland und Australien ab, zeigt Campingplätze, Toiletten, <a data-guide=\"camping-wastewater-rubbish-new-zealand\">Entsorgungsstationen</a> und WLAN-Spots, bucht Campingplätze und lädt Karten und Ortsinformationen für die Nutzung ohne Empfang herunter. CamperMate bezeichnet sich außerdem als offizieller Reisepartner von Apollo, Maui, Britz und Mighty.",
             "Im neuseeländischen App Store lag der Durchschnitt bei 4,4 aus 606 Bewertungen, bei Google Play bei 4,0 aus 12.568, und die App zeigt Werbung. Manche Nutzer, die zuletzt bewertet haben, mögen das Redesign nicht."
           ],
           "tips": [
