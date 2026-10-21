@@ -101,3 +101,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `can-i-drive-a-campervan-on-a-car-licence-nz` | 00 1366 New Zealand State Higway 94.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1366_New_Zealand_State_Higway_94.jpg) |
 | `can-i-fly-a-drone-at-a-doc-campsite-nz` | Whangapoua Sunset.jpg | Skyviewphotography | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whangapoua_Sunset.jpg) |
 | `can-i-drive-on-the-beach-in-new-zealand` | Ninety Mile Beach at Hukatere2.JPG | User:Gadfium | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Ninety_Mile_Beach_at_Hukatere2.JPG) |
+| `can-i-drink-the-water-at-nz-campsites` | Lake Dive Hut tank.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Lake_Dive_Hut_tank.jpg) |

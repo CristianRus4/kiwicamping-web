@@ -580,4 +580,71 @@ export const canIArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "can-i-drink-the-water-at-nz-campsites",
+    publishAt: "2026-11-17",
+    title: "Can I Drink the Water at NZ Campsites? (2026 Guide)",
+    description: "Only if the site says it is treated. Most DOC campsite and hut water is rain or stream water that must be boiled or filtered. 2026 guidance, notices and tanks.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["DOC campsites","DOC huts","Holiday parks","Council campgrounds"],
+    imageAlt: "A black rainwater tank on a timber stand beside a backcountry hut, with bush and hills behind",
+    related: ["doc-campsite-rules","doc-campsites-new-zealand-guide","holiday-parks-new-zealand-guide"],
+    intro:
+      "Only where the campsite says the water is treated; everywhere else, assume you need to boil, filter or treat it first. DOC says untreated campsite and hut water should be boiled before use, and many backcountry sites run on rainwater from the roof or a nearby stream, which a clear look and a tap do not make safe. A treated supply exists at some sites, such as White Horse Hill at Aoraki/Mount Cook, and the campsite's own DOC page is where it says which kind you have.",
+    sections: [
+      s("Treated, untreated, and why a tap does not settle it", [
+        "DOC's campsite categories describe the supply rather than promise it. Serviced and Standard campsites may have tap water that is treated or untreated, or a supply drawn from a stream or lake. Basic campsites may offer an untreated tank, a stream or a lake. Great Walk campsites have a water supply with some treated and some untreated. For every category DOC adds the same instruction: untreated water should be boiled before use to ensure it is safe.",
+        "Individual DOC pages say it more bluntly. The page for Black Rock campsite in the Queen Charlotte Sound says the water is collected from the shelter roof, so it is untreated and can be limited or unavailable in summer and droughts. The Queen Charlotte Track page warns that the taps at its campsites supply water that is not safe to drink. White Horse Hill, by contrast, lists treated drinking water on site, except in winter when the running water is off.",
+      ], ["A tap can still carry untreated water","Read the supply line on the campsite's DOC page","Treated water is the exception, not the default"]),
+      s("Why DOC water is usually untreated", [
+        "Taumata Arowai, the drinking water regulator, granted a general exemption covering 686 DOC backcountry huts and campsites, announced in June 2024. Those sites have no power supply and no permanent staff, and their water is usually rainwater from roofs stored in tanks, or taken from nearby waterways. The regulator accepted that running a treatment plant at each one is not practical. In return, the exemption requires clear signage telling visitors to boil the water, and DOC's website shows for each hut and campsite whether the water is treated or untreated.",
+        "That makes the DOC page and the sign at the tap the two things to trust. A campsite that DOC marks as untreated is a known and accepted arrangement, with the responsibility for making the water safe passed to you.",
+      ], ["Look for the boil-water sign at the tap","The DOC page states treated or untreated","Responsibility for treating it is yours"]),
+      s("How to make it safe", [
+        "DOC's hut guidance says to boil water for three minutes before use if you are unsure of its quality, and its campsite pages say all water should be treated, filtered or boiled for three minutes. Taumata Arowai's boiling advice is a rolling boil held for one minute, with bubbles breaking through the centre that do not stop when you stir. Use the longer DOC figure on conservation land and you will meet both. Store cooled boiled water in a clean, lidded container and use it within 24 hours.",
+        "Health NZ's guidance for people camping or tramping lists three options for untreated water from natural sources: bring it to the boil, disinfect it, or put it through an appropriate treatment unit. It also says it may be safest to carry your own bottled water. Carry enough for the day regardless, because taps run dry, tanks empty in a dry spell, and winter can turn off the supply.",
+      ], ["DOC: three minutes at a boil","Taumata Arowai: one minute rolling boil","Cool and store it in a lidded container"]),
+      s("What is in the water, and what it does", [
+        "Giardia is a waterborne parasite that DOC says may be present in hut water, and Health NZ's guidance notes that people, cats, dogs and cattle can carry it. Symptoms usually appear three to 25 days after infection, with a median of seven to 10 days, which is why a sick traveller often blames the wrong campsite. Campylobacter spreads in faeces from people and animals, and Health NZ's consumer sheet gives an incubation of one to 10 days, usually two to five, with diarrhoea that may contain blood and severe stomach cramps.",
+        "Neither is visible, and a clear mountain stream says nothing about what upstream animals did. Avoiding untreated water is the safest policy, and if you do get ongoing diarrhoea after camping, tell a doctor where you were and what you drank.",
+      ]),
+      s("Council supplies, holiday parks and boil-water notices", [
+        "Holiday parks and council campgrounds are a different case. Under campground rules, an operator who runs its own supply has a legal duty to provide water that is safe to drink, and Taumata Arowai tells operators to post a Boil Water or Do Not Drink notice above the taps when the water might be unsafe. A tap with untreated water for handwashing should carry a sign saying it is not safe to drink.",
+        "Notices come in different strengths. A Boil Water notice means the supply could contain bugs: boil or otherwise treat water for drinking, food, brushing teeth and infant formula. A Do Not Drink notice covers chemicals and toxins, and boiling does not fix that, so you need bottled water. In September 2025 the regulator responded to contamination at the Hanmer Springs Forest Camp, where 10 cases were confirmed and 37 probable, six people needed hospital treatment and every tap was marked as boil-only. When you arrive anywhere, read the tap signs and check the council or park noticeboard before filling a bottle.",
+      ], ["Boil Water means boil or treat it","Do Not Drink means boiling will not help","Read the sign at every tap"]),
+      s("Campervan tanks and hoses", [
+        "Taumata Arowai's campground guidance is written for operators, not for the hose or tank on a visitor's own campervan, so treat these points as habits rather than rules. Fill the fresh-water tank only from a tap marked as drinking water, such as a treated holiday park supply, and not from a stream or a DOC tank that is marked untreated. If you do fill from an untreated source for washing, keep that water out of the drinking supply or boil what you drink.",
+        "Keep the fresh-water hose separate from anything used at a dump point, which the guide to dump stations covers, and wash your hands after handling waste. If a tank has sat in the sun for days or been filled from a questionable tap, treat the water before drinking, and sanitise the tank at the start of a long trip.",
+      ], ["Fill only from taps marked for drinking","Keep fresh and waste hoses separate","Treat water from an unknown tap"]),
+      s("On the day, and what to carry", [
+        "Check the campsite's DOC page for the water line before you leave signal range, and look at the tap sign when you arrive. Carry a day's worth of drinking water as a baseline, plus a way to treat more: a stove that boils, a filter, or both. Share boiled water with others at the site to save fuel, as DOC's hut users code suggests.",
+        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal. Saving a campsite before you lose coverage means its details are still on your phone when you reach the tap.",
+      ]),
+      s("The short version", [
+        "Treat DOC campsite and hut water as untreated unless the page says otherwise, and boil it for three minutes, filter it or treat it. A holiday park's own supply is the operator's legal duty to keep safe, but read the tap signs and any notice.",
+        "Do not trust a clear stream, and carry spare water for a dry spell or a switched-off supply. Keep drinking-water hoses and tanks well away from anything used for waste.",
+      ]),
+    ],
+    faq: [
+      ["Can you drink the water at DOC campsites in NZ?", "Only if the campsite's DOC page says it is treated. DOC says untreated water at serviced, standard, basic and Great Walk campsites should be boiled before use, and its campsite and hut guidance gives three minutes."],
+      ["Is it safe to drink stream water in New Zealand?", "Not without treating it. Giardia and Campylobacter can be in stream water however clear it looks, and DOC and Health NZ advise boiling, filtering or an appropriate treatment unit first."],
+      ["How long do you boil water for camping in NZ?", "DOC gives three minutes for hut and campsite water, and Taumata Arowai's boil-water advice is a rolling boil for one minute. Use three minutes on conservation land, then cool the water in a lidded container and use it within 24 hours."],
+    ],
+    sources: [
+      { label: "DOC: Campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "DOC: About DOC huts (water supply, Giardia, boiling)", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/about-doc-huts/" },
+      { label: "DOC: Black Rock campsite, Queen Charlotte Sound", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/queen-charlotte-sound-totaranui-area/things-to-do/campsites/black-rock-campsite/" },
+      { label: "DOC: Queen Charlotte Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/queen-charlotte-sound-totaranui-area/things-to-do/tracks/queen-charlotte-track/" },
+      { label: "DOC: White Horse Hill Campsite, Aoraki/Mount Cook National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/white-horse-hill-campground/" },
+      { label: "Taumata Arowai: DOC backcountry huts and campsites exemption", url: "https://www.taumataarowai.govt.nz/home/articles/taumata-arowai-grants-686-doc-sites-an-exemption-from-drinking-water-rules" },
+      { label: "Taumata Arowai: Types of drinking water notices", url: "https://www.taumataarowai.govt.nz/for-the-public/drinking-water-in-an-emergency/drinking-water-notices" },
+      { label: "Taumata Arowai: Providing safe water for campers", url: "https://www.taumataarowai.govt.nz/drinking-water-suppliers-and-operators/for-drinking-water-suppliers/camping" },
+      { label: "Taumata Arowai: Response to campground drinking water contamination", url: "https://www.taumataarowai.govt.nz/home/articles/water-safety-authority-responds-to-campground-drinking-water-contamination" },
+      { label: "Health NZ: Cryptosporidium and Giardia (HealthEd HE1212)", url: "https://healthed.govt.nz/products/cryptosporidium-and-giardia" },
+      { label: "Health NZ: Campylobacter, E. coli and Salmonella (HealthEd HE1211)", url: "https://healthed.govt.nz/products/campylobacter-e-coli-and-salmonella" },
+      { label: "Health NZ: Giardiasis, Communicable Disease Control Manual", url: "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/conditions/communicable-disease-control-manual/giardiasis" },
+    ],
+  }),
+
 ];
