@@ -426,4 +426,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much do the Milford Track huts cost in 2026/27?", "From 1 November to 30 April a hut night is $106 for a New Zealand adult and $152 for an international adult, and children pay $53 (New Zealand, 5 to 17) or $76 (international, 0 to 17). From 1 May to 31 October DOC lists $30 per adult per night."],
     ["How do you get to the start and finish of the Milford Track?", "DOC says to take a bus or private transport from Te Anau to Te Anau Downs, then a 1 hour 15 minute boat to Glade Wharf. At the end a 20 minute boat runs from Sandfly Point to Milford Sound/Piopiotahi, where buses go back to Te Anau and on to Queenstown. DOC says transport must be booked in advance and names four independent operators."],
   ],
+  "kepler-track-camping-2026-27": [
+    ["Are there campsites on the Kepler Track?", "Yes, two: Brod Bay and Iris Burn, each with 15 non-powered or tent sites. The huts are Luxmore, Iris Burn and Moturau, and DOC says camping or staying overnight in the shelters at Forest Burn and Hanging Valley is not permitted."],
+    ["When does the 2026/27 Kepler Track season start?", "DOC's Great Walks season for the Kepler runs from 27 October 2026 to 30 April 2027. DOC opened 2026/27 bookings at 9:30 am on Tuesday 19 May 2026."],
+    ["How much does it cost to camp on the Kepler Track?", "In the season a campsite night is $28 per adult for New Zealanders and $42 for international visitors, with children at $14 or $21. From 1 May to 26 October DOC lists $10 per adult."],
+    ["Is there an avalanche risk on the Kepler Track in summer?", "DOC says the risk of avalanche can extend into December. During the Great Walks season it manages the risk and may close the alpine section between Luxmore Hut and Iris Burn Hut if there is avalanche hazard."],
+  ],
 };

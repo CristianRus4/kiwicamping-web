@@ -49,6 +49,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "rakiura-track-camping-2026-27", section: 6, src: "/images/screens/rakiura-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC hut's page with its toilets and water supply listed above a seven-day weather forecast" },
   { slug: "whanganui-journey-camping-2026-27", section: 7, src: "/images/screens/whanganui-journey-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
   { slug: "milford-track-2026-27-huts-booking-fees", section: 7, src: "/images/screens/milford-track-2026-27-huts-booking-fees.webp", alt: "KiwiCamping on iPhone: a search for milford road showing Henry Creek Campsite as a paid campsite in Southland, below an Apple Maps Look Around panel" },
+  { slug: "kepler-track-camping-2026-27", section: 7, src: "/images/screens/kepler-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC hut's page with its Open status, a link to the official DOC website and an amenities list starting with heating and mattresses" },
 ];
 
 const images = manifest as Record<string, unknown>;

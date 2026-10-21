@@ -523,4 +523,80 @@ export const greatWalksArticles: Article[] = [
       { label: "Southland District Council: freedom camping sites and locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
     ],
   }),
+  a({
+    slug: "kepler-track-camping-2026-27",
+    publishAt: "2026-12-08",
+    title: "Kepler Track Camping 2026/27: Campsites, Huts, Booking and Fees",
+    description: "Kepler Track camping for the 2026/27 Great Walks season from 27 October: Brod Bay and Iris Burn campsites, three huts, fees, how to reach the loop from Te Anau, avalanche risk and where to camp nearby.",
+    category: "Camping guides",
+    region: "Fiordland",
+    places: ["Te Anau", "Brod Bay", "Luxmore Hut", "Iris Burn", "Moturau Hut", "Rainbow Reach", "Lake Manapouri"],
+    imageAlt: "Walkers on a pale gravel track along a tussock ridge on the Kepler Track, with steep green slopes and mountains beyond",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "fiordland-camping-road-trip", "freedom-camping-southland-2026", "doc-campsites-new-zealand-guide"],
+    hubs: ["camping/fiordland", "huts/fiordland", "freedom-camping/te-anau"],
+    intro:
+      "The Kepler Track has two campsites, Brod Bay and Iris Burn, and three huts, Luxmore, Iris Burn and Moturau, and DOC says they must be booked well in advance during the Great Walks season, which runs from 27 October 2026 to 30 April 2027. In the season a campsite night costs $28 for New Zealand adults and $42 for international adults, against $10 outside it, and DOC opened 2026/27 bookings on Tuesday 19 May 2026. Below are the six sections of the 60 km loop, what the two campsites mean for a camper's itinerary, the fees, how to reach the track from Te Anau and where to camp nearby.",
+    sections: [
+      s("Huts, campsites and the six sections", [
+        "DOC describes the Kepler as a 60 km loop that most walkers take in 4 days and 3 nights. Luxmore Hut has 54 bunks, Iris Burn Hut 50 and Moturau Hut 40, and the huts have bunks, mattresses, heating, toilets, basic cooking, solar lighting and cold running water, with a DOC ranger in residence. DOC says the huts do not have food, cooking utensils or showers. The two campsites each have 15 non-powered or tent sites, non-flush toilets, a cooking shelter and untreated tap water that DOC says to boil before use, and DOC says campers cannot use the hut facilities.",
+        "Brod Bay is the first stop, on the shore of Lake Te Anau, and Iris Burn is in the middle of the loop. Luxmore and Moturau have huts only. DOC says camping or staying overnight in the shelters at Forest Burn and Hanging Valley is not permitted. The sections below are DOC's, listed in the order its page gives them, from the Kepler Track car park through Brod Bay and Luxmore Hut.",
+      ], ["Campsites: Brod Bay and Iris Burn only", "Luxmore and Moturau have huts only", "No camping in the Forest Burn or Hanging Valley shelters"], {
+        caption: "Sections, distances and times from DOC's Kepler Track page, read 21 October 2026. DOC gives the loop as 60 km.",
+        head: ["Section", "Distance", "Time", "Stop"],
+        rows: [
+          ["Kepler Track car park to Brod Bay", "5.6 km", "1 h 30", "Brod Bay campsite (15 tent sites)"],
+          ["Brod Bay to Luxmore Hut", "8.2 km", "3 h 30 to 4 h 30", "Luxmore Hut (54 bunks); Luxmore Hut is 45 minutes from the bushline"],
+          ["Luxmore Hut to Iris Burn Hut", "14.6 km", "5 h to 6 h", "Iris Burn Hut (50 bunks) and campsite (15 tent sites)"],
+          ["Iris Burn Hut to Moturau Hut", "16.2 km", "5 h to 6 h", "Moturau Hut (40 bunks) on Lake Manapouri"],
+          ["Moturau Hut to Rainbow Reach", "6 km", "1 h 30 to 2 h", "Swing bridge; shuttle to Te Anau"],
+          ["Rainbow Reach to Kepler Track car park", "9.5 km", "2 h 30 to 3 h 30", "End of the loop"],
+        ],
+      }),
+      s("What two campsites mean for a camping itinerary", [
+        "DOC does not publish a camping itinerary for the Kepler, but its section times show the shape of one. Walking from Brod Bay to Iris Burn passes Luxmore Hut and adds up to 22.8 km and 8 hours 30 minutes to 10 hours 30 minutes. From Iris Burn to the car park the three remaining sections add up to 31.7 km and 9 hours to 11 hours 30 minutes, and that is without a campsite in between, because Moturau has a hut only. Those sums are this page's arithmetic from DOC's figures, not a DOC recommendation.",
+        "One way to avoid the longest days is to mix nights: a hut booking at Luxmore or Moturau breaks them up, at the hut fee below. DOC's gear list for campers is a tent, a sleeping mat, a ground sheet and a gas cooker, and it says to store food in a rodent-proof container, which matters when camping. Kea are present on the alpine section and around Iris Burn, and DOC says they are interested in camping gear, so guard your tent and gear to avoid damage or loss.",
+      ], ["Brod Bay to Iris Burn is 22.8 km", "Iris Burn to the car park is 31.7 km", "Guard tents and gear from kea"]),
+      s("Fees and booking for 2026/27", [
+        "DOC charges per person per night. In the Great Walks season, 27 October to 30 April, a campsite night is $28 for a New Zealand adult and $42 for an international adult, with children at $14 (New Zealand, 5 to 17) or $21 (international, 0 to 17). Huts are $88 and $132 at all three huts, and children $44 and $66. From 1 May to 26 October campsites fall to $10, and huts to $30 at Iris Burn and Moturau and $35 at Luxmore. DOC says proof of eligibility is required for the New Zealand rate.",
+        "DOC's media release says Kepler bookings opened at 9:30 am on Tuesday 19 May 2026, for stays from 1 July 2026 to 30 June 2027, and that Kepler Track huts reached 91 per cent occupancy last summer. The Kepler page says bookings are required for huts and campsites in the season, and that a stay without a valid booking can bring a penalty, or you can be turned away if the site is full. DOC has not published the 2027/28 opening dates, and the Great Walks overview covers residency proof, transfers and the cancellation scale.",
+      ], ["Season campsite: $28 NZ, $42 international", "Season huts: $88 NZ, $132 international", "Bookings opened 19 May 2026"], {
+        caption: "Fees per person per night, NZ dollars including GST, from DOC's Kepler Track page and Great Walks pricing page, read 21 October 2026.",
+        head: ["Place", "Season (27 October to 30 April): NZ adult", "Season: international adult", "1 May to 26 October: adult"],
+        rows: [
+          ["Campsites (Brod Bay, Iris Burn)", "$28", "$42", "$10"],
+          ["Luxmore Hut", "$88", "$132", "$35"],
+          ["Iris Burn Hut and Moturau Hut", "$88", "$132", "$30"],
+        ],
+      }),
+      s("The loop from Te Anau: car park, shuttles and the boat", [
+        "The Kepler is a loop, so it starts and ends in the same place. DOC says it can be started from the Kepler Track car park, 5 km from Te Anau, from the Fiordland National Park Visitor Centre, which is a 50 minute walk along the lakefront to the entrance of the track, or from the Rainbow Reach car park, 12 km from Te Anau. In the Great Walks season, DOC says shuttle buses provide a daily service to the entry and exit points, and a scheduled boat service offers transport to Brod Bay. You can book transport between Te Anau and the ends of the track, otherwise DOC says it is a 50 minute walk.",
+        "DOC's Kepler page gives no parking rules or advice for the car parks, and it names no shuttle operator. DOC points to the Southland NZ website for transport operators, so confirm shuttle and boat times there before you book your nights. DOC lists day walks too, from the car park to Dock Bay and Brod Bay, from the car park to Rainbow Reach, from Rainbow Reach to Shallow Bay or Moturau Hut, and from the car park to Luxmore Hut, which suit a rest day in Te Anau.",
+      ], ["Car park is 5 km from Te Anau", "Rainbow Reach is 12 km from Te Anau", "Check shuttle and boat times with operators"]),
+      s("The alpine section, avalanche risk and water", [
+        "DOC says the risk of avalanche can extend into December, and that during the Great Walks season it manages the risk and may close the alpine section between Luxmore Hut and Iris Burn Hut if there is avalanche hazard. DOC also says the track is not recommended for children under 10, because of the exposed mountainous environment and often adverse weather, and that Fiordland has high rainfall, up to 9,000 mm a year, with cold, snow, strong winds and heavy rain possible at any time of year.",
+        "There are no reliable water sources along the alpine section until Iris Burn Hut, so DOC says to fill your bottles at Luxmore Hut before you leave. Luxmore Hut to Iris Burn is the 14.6 km day, with a side trip of 30 minutes return to the Luxmore summit at 1472 m, the highest point on the track. Didymo is present in Lake Te Anau, Lake Manapouri and the Waiau River but, according to DOC, not in the Iris Burn River, so follow the Check, Clean, Dry steps and do not take water from those places.",
+      ], ["Alpine section can close in the season", "Fill bottles at Luxmore Hut", "Avalanche risk can run into December"]),
+      s("Outside the season, and the Kepler Challenge", [
+        "From 1 May to 26 October DOC says the Kepler is outside the Great Walks season, and conditions can be cold and wet, with ice, snow and short daylight hours, the alpine section is unmarked and often under thick snow, and DOC says it does not manage hazards such as avalanches and flooding. DOC lists 9 avalanche paths, most of which can cross the track, rates the track advanced and expert, and says to carry food for two extra days, a stove, an ice axe and crampons, an avalanche beacon, shovel and probe, and a personal locator beacon.",
+        "Booking is different outside the season: DOC says only Luxmore Hut needs booking, while Iris Burn Hut and campsite, Moturau Hut and Brod Bay campsite are first come, first served. Payment for the huts is with Backcountry Hut Tickets or a Backcountry Hut Pass, and for the campsites with a Campsite Pass or Backcountry Hut Tickets. DOC also says the Kepler Challenge marathon is held each year on the first Saturday in December, when the track is busy with runners and you may want to book a different date.",
+      ], ["Season: 27 October 2026 to 30 April 2027", "Out of season only Luxmore Hut is booked", "Kepler Challenge: first Saturday in December"]),
+      s("Camping near Te Anau before or after the track", [
+        "Brod Bay and Iris Burn are track campsites for walkers, so a van or tent night at either end belongs near Te Anau. Southland District Council's freedom camping location list shows toilets in Te Anau but no freedom camping site, and its 2015 bylaw maps mark the town as camping prohibited, as the Southland freedom camping guide sets out. DOC's freedom camping notices prohibit camping at 24 places around Te Anau, including the Kepler Track and Control Gate carparks and the Queens and Rainbow Reaches carparks, according to KiwiCamping's DOC data (11 August 2026).",
+        "The closest DOC campsite on the Milford Road is Henry Creek, 23 km north of Te Anau, with 30 non-powered or tent sites at $18 per adult per night, bookings required, no dogs, and no fires at any time. DOC says if no availability shows online it is fully booked, and that same-day bookings are available online until 8 pm if spaces remain. The holiday parks guide covers the paid parks in town, and the Fiordland camping road trip guide covers the roads and the rest of the region.",
+      ], ["No freedom camping site at Te Anau", "Henry Creek is 23 km up the Milford Road", "Book the campsite online"]),
+      s("Using KiwiCamping around the Kepler", [
+        "KiwiCamping's DOC data (11 August 2026) lists Brod Bay, Iris Burn and Lake Mackenzie as the three Great Walk campsites in Fiordland, 13 DOC campsites in all with 10 bookable online through DOC, and 55 DOC huts with Luxmore Hut the largest at 54 bunks. Each has its category, fee notes, facilities and a link to DOC's own page, and the filters can narrow the map to huts or campsites. Bookings stay on DOC's site. Place details, saved places and guides work offline; map tiles, routing, weather and photos need signal.",
+        "Save the Kepler nights and the Te Anau stops to a trip, put them in order with the dates, and note the booking reference and shuttle times. The trip shows the distance between legs and a forecast at each place, which helps on an alpine route with a tight weather window. Free to download, with in-app purchases.",
+      ], ["Save each booked night with its reference", "Check the forecast for each stop", "Core place details work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Kepler Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/tracks/kepler-track/" },
+      { label: "DOC: Brod Bay Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/brod-bay-campsite/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May, and last summer's occupancy", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC: Henry Creek Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/henry-creek-campsite/" },
+      { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Southland District Council: freedom camping sites and locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+    ],
+  }),
 ];
