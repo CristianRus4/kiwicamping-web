@@ -35,10 +35,10 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-24 | campermate-alternatives | scheduled |
 | 2026-10-25 | best-campervan-apps-new-zealand | scheduled |
 | 2026-10-26 | free-camping-apps-new-zealand | scheduled |
-| 2026-10-28 | road-trip-planner-apps-new-zealand | scheduled |
-| 2026-10-30 | best-travel-apps-new-zealand | scheduled |
 | 2026-10-27 | best-weather-apps-new-zealand | scheduled |
+| 2026-10-28 | road-trip-planner-apps-new-zealand | scheduled |
 | 2026-10-29 | fuel-price-apps-new-zealand | scheduled |
+| 2026-10-30 | best-travel-apps-new-zealand | scheduled |
 | 2026-10-31 | working-holiday-apps-new-zealand | scheduled |
 | 2026-11-01 | money-saving-travel-apps-new-zealand | scheduled |
 | 2026-11-02 | christmas-summer-camping-new-zealand-2026-27 | scheduled |
@@ -70,3 +70,9 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-28 | freedom-camping-waitaki-2026 | scheduled |
 | 2026-11-29 | freedom-camping-whakatane-2026 | scheduled |
 | 2026-11-30 | tongariro-northern-circuit-camping-2026-27 | scheduled |
+| 2026-12-01 | campervan-hire-cost-new-zealand-2026 | scheduled |
+| 2026-12-02 | buying-a-campervan-new-zealand-working-holiday | scheduled |
+| 2026-12-03 | selling-a-campervan-new-zealand-before-you-leave | scheduled |
+| 2026-12-04 | working-holiday-road-trip-budget-new-zealand-2026 | scheduled |
+| 2026-12-05 | north-island-vs-south-island-campervan | scheduled |
+| 2026-12-06 | campervan-vs-car-and-tent-new-zealand | scheduled |

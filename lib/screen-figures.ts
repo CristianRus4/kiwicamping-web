@@ -46,6 +46,12 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "abel-tasman-coast-track-campsites-2026-27", section: 6, src: "/images/screens/abel-tasman-coast-track-campsites-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC campsite's amenities, including toilets and a water supply, above its reported adult, child and infant prices" },
   { slug: "routeburn-track-camping-2026-27", section: 5, src: "/images/screens/routeburn-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: the Queenstown and Glenorchy guide with a map of Lake Wakatipu showing campsite pins above a seven-day forecast" },
   { slug: "tongariro-northern-circuit-camping-2026-27", section: 5, src: "/images/screens/tongariro-northern-circuit-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a hut's page in Tongariro National Park with a seven-day forecast and useful places nearby" },
+  { slug: "campervan-hire-cost-new-zealand-2026", section: 6, src: "/images/screens/campervan-hire-cost-new-zealand-2026.webp", alt: "KiwiCamping on iPhone: a South Island trip itinerary with the distance and drive time between stops" },
+  { slug: "buying-a-campervan-new-zealand-working-holiday", section: 7, src: "/images/screens/buying-a-campervan-new-zealand-working-holiday.webp", alt: "KiwiCamping on iPhone: a Coromandel search showing campsites and huts on the map and in a list with paid or free labels" },
+  { slug: "selling-a-campervan-new-zealand-before-you-leave", section: 5, src: "/images/screens/selling-a-campervan-new-zealand-before-you-leave.webp", alt: "KiwiCamping on iPhone: a Picton to Christchurch collection showing 19 saved places and 277 km as the furthest distance between them" },
+  { slug: "working-holiday-road-trip-budget-new-zealand-2026", section: 5, src: "/images/screens/working-holiday-road-trip-budget-new-zealand-2026.webp", alt: "KiwiCamping on iPhone: the cost filter set to show free places" },
+  { slug: "north-island-vs-south-island-campervan", section: 6, src: "/images/screens/north-island-vs-south-island-campervan.webp", alt: "KiwiCamping on iPhone: the North Island 14-day road trip guide with its trip length, 21 places and 1,306 km" },
+  { slug: "campervan-vs-car-and-tent-new-zealand", section: 5, src: "/images/screens/campervan-vs-car-and-tent-new-zealand.webp", alt: "KiwiCamping on iPhone: combining filters for toilets and a water supply" },
 ];
 
 const images = manifest as Record<string, unknown>;
