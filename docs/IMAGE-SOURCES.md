@@ -133,3 +133,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `auckland-to-wellington-drive-guide` | Ruapehu and Ngauruhoe From Desert Road (51373471350).jpg | Geoff McKay from Palmerston North, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Ruapehu_and_Ngauruhoe_From_Desert_Road_(51373471350).jpg) |
 | `christchurch-to-queenstown-drive-guide` | Lindis Pass, New Zealand (5).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_New_Zealand_(5).JPG) |
 | `queenstown-to-milford-sound-drive-guide` | Milford Sound Road 1 (31544166811).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Milford_Sound_Road_1_(31544166811).jpg) |
+| `auckland-to-bay-of-islands-drive-guide` | Opua-Okiato ferry.jpg | Phillip Capper from Wellington, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Opua-Okiato_ferry.jpg) |

@@ -54,6 +54,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | auckland-to-wellington-drive-guide | 6 (Planning Auckland to Wellington in KiwiCamping) | Inbox: kiwicamping_guides_north-island-14-day_top.png | KiwiCamping on iPhone: a North Island road trip guide with its length in kilometres, a Save all mentioned places button and the top of a map with place markers near Hamilton |
 | christchurch-to-queenstown-drive-guide | 6 (Building the Christchurch to Queenstown drive in KiwiCamping) | Inbox: kiwicamping_guides_christchurch-tekapo-aoraki_map.png | KiwiCamping on iPhone: a route drawn across the Canterbury plains on a map with place markers, above a seven-day weather forecast |
 | queenstown-to-milford-sound-drive-guide | 6 (Planning Queenstown to Milford Sound in KiwiCamping) | kiwicamping_trip-planner_south-island-loop.png | KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time shown between each pair of stops |
+| auckland-to-bay-of-islands-drive-guide | 7 (Planning Auckland to the Bay of Islands in KiwiCamping) | Inbox: kiwicamping_guides_bay-of-islands-week_map.png | KiwiCamping on iPhone: a Bay of Islands road trip guide with its trip length, a Save all mentioned places button and a map of the bay with place markers around Paihia and Kerikeri |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
