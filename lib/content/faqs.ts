@@ -303,4 +303,34 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much does camping cost per night in New Zealand?", "From free at basic DOC campsites, through $10 to $20 an adult at standard sites and $25 at serviced sites, to holiday parks that often charge per site. Because DOC charges per adult, two similar-looking prices can mean very different totals for a family."],
     ["Is camping in New Zealand cheaper than staying in hostels?", "Per night, clearly. Across a whole trip the answer depends on the vehicle, because the rental and fuel that make cheap sites reachable usually cost more than the accommodation they replace."],
   ],
+  "best-campsite-booking-apps-new-zealand": [
+    ["How do I book a DOC campsite or hut?", "Through DOC's online booking system, which covers Great Walks, huts, campsites and lodges, cabins and cottages. Not every facility can be booked, and unbookable ones are first come, first served."],
+    ["Is there an app for booking campsites in New Zealand?", "No single app books every campsite. DOC books through its website, holiday park chains book through their own sites, and CamperMate, Rankers and WikiCamps book some sites in the app."],
+    ["Do I need to book a DOC campsite in summer?", "DOC requires bookings for all serviced campsites and some scenic and standard campsites in peak season, usually 1 October to 30 April. Other campsites are first come, first served and paid at the self-registration stand."],
+    ["Can I book private land camping in New Zealand?", "Yes. Campable lists hosts on farms, vineyards and other private land, with each host setting the vehicle rules, and says it charges guests no booking fee."],
+  ],
+  "campable-alternatives": [
+    ["What is an alternative to Campable in New Zealand?", "It depends on the job. CamperMate and WikiCamps list a wide range of sites, Rankers lists spots the local community welcomes, DOC's website books conservation-land campsites and huts, and KiwiCamping maps DOC places and plans a trip."],
+    ["Is Campable free to use?", "The app is free, and Campable says it charges guests no booking fees. You pay the host's nightly price, and Instant Book stays made more than 14 days ahead are charged 14 days before the stay."],
+    ["Do I need a self-contained vehicle to use Campable?", "It depends on the host. Campable says each host chooses the vehicle rules, from certified self-contained vehicles only to portable toilets or tents, so check the listing."],
+    ["Can I book private land camping without Campable?", "Hipcamp lists private land in New Zealand on its website. Campable is the app built around hosted private land."],
+  ],
+  "best-tramping-great-walks-apps-new-zealand": [
+    ["What is the best app for tramping in New Zealand?", "Many trampers combine apps: Plan My Walk for alerts and trip plans, an offline topo map such as NZ Topo50 or NZ Topo Maps, and DOC's website for hut and Great Walk information. KiwiCamping shows DOC hut, track and campsite details but is not a topo map."],
+    ["Is there an app to book New Zealand Great Walks?", "No. DOC books Great Walks, huts and campsites through its online booking system, and we found no DOC app for bookings. Bookings are open for stays to 30 June 2027."],
+    ["Do tramping apps work without phone signal?", "The topo map apps store maps on the phone for use with no signal, such as NZ Topo50, NZ Topo Maps and TrailTreks. Plan My Walk works offline with an eligible satellite plan, and without one you download a PDF of your trip plan."],
+    ["Should I carry a personal locator beacon?", "The Mountain Safety Council advises always taking a second way to communicate, particularly into remote areas, and says a 406 MHz personal locator beacon must be registered with the Rescue Coordination Centre New Zealand."],
+  ],
+  "best-dump-station-apps-new-zealand": [
+    ["What is the best app for dump stations in New Zealand?", "We found no app built only for New Zealand dump stations. Camping apps such as Rankers, CamperMate, WikiCamps and KiwiCamping list them, and NZMCA members get a directory with dump stations in the NZMCA app."],
+    ["Are dump stations free in New Zealand?", "Many are, but it varies by council. Waitaki District Council lists several free ones and asks $5 by donation box at its lakes camping grounds when you have no camping ground ticket."],
+    ["What is the fine for dumping waste while freedom camping?", "Depositing waste in or on the area while freedom camping carries an $800 infringement fee, with a court maximum of $2,400."],
+    ["What rules apply to freedom campers emptying waste?", "Since 7 June 2026 only a green warrant counts as self-contained for freedom camping on public land, and the requirement does not apply at campgrounds, holiday parks or private property. Depositing waste while freedom camping carries an $800 infringement fee."],
+  ],
+  "best-south-island-road-trip-apps-new-zealand": [
+    ["What apps do I need for a South Island road trip?", "A trip planner such as KiwiCamping, NZTA's Journey Planner for road closures, MetService for weather warnings, Gaspy for fuel and a camping app such as CamperMate or Rankers for places to stay."],
+    ["Is there fuel on the Milford Road?", "DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and to have a full tank before leaving Te Anau. A return trip from Te Anau is 240 km."],
+    ["How do I check if a South Island road is closed?", "Use NZTA's Journey Planner, which shows road closures, roadworks and traffic cameras. NZTA notes its route suggestions come from Google and may not reflect unplanned events on state highways."],
+    ["Do I need snow chains on the Milford Road?", "DOC says snow chains may be required and can be rented in Te Anau. Check the current status of State Highway 94 before you leave."],
+  ],
 };

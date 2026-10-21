@@ -27,6 +27,11 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "working-holiday-apps-new-zealand", section: 1, src: "/images/screens/working-holiday-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: places grouped on a satellite map of the whole of New Zealand" },
   { slug: "money-saving-travel-apps-new-zealand", section: 1, src: "/images/screens/money-saving-travel-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a DOC campsite's reported adult, child and infant prices above its seven-day weather forecast" },
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
+  { slug: "best-campsite-booking-apps-new-zealand", section: 1, src: "/images/screens/best-campsite-booking-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page with its rating and a Book now button" },
+  { slug: "campable-alternatives", section: 1, src: "/images/screens/campable-alternatives.webp", alt: "KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details" },
+  { slug: "best-tramping-great-walks-apps-new-zealand", section: 1, src: "/images/screens/best-tramping-great-walks-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
+  { slug: "best-dump-station-apps-new-zealand", section: 1, src: "/images/screens/best-dump-station-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a map near Queenstown with pins for a public dump station with drinking water and another dump station, above a list of nearby huts and campsites" },
+  { slug: "best-south-island-road-trip-apps-new-zealand", section: 1, src: "/images/screens/best-south-island-road-trip-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Christchurch, Tekapo and Aoraki road trip guide with its route on the map, a seven-day forecast and notes on what to book ahead" },
 ];
 
 const images = manifest as Record<string, unknown>;

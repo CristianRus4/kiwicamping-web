@@ -41,6 +41,11 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-29 | fuel-price-apps-new-zealand | scheduled |
 | 2026-10-31 | working-holiday-apps-new-zealand | scheduled |
 | 2026-11-01 | money-saving-travel-apps-new-zealand | scheduled |
+| 2026-11-04 | best-campsite-booking-apps-new-zealand | scheduled |
+| 2026-11-05 | campable-alternatives | scheduled |
+| 2026-11-06 | best-tramping-great-walks-apps-new-zealand | scheduled |
+| 2026-11-07 | best-dump-station-apps-new-zealand | scheduled |
+| 2026-11-08 | best-south-island-road-trip-apps-new-zealand | scheduled |
 | 2026-11-09 | can-i-sleep-in-my-car-in-new-zealand | scheduled |
 | 2026-11-10 | can-i-camp-anywhere-on-doc-land | scheduled |
 | 2026-11-11 | can-i-park-overnight-at-a-beach-in-new-zealand | scheduled |
