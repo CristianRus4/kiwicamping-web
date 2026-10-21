@@ -49,6 +49,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | kepler-track-camping-2026-27 | 7 (Using KiwiCamping around the Kepler) | Inbox: kiwicamping_place-detail_jollie-hut_top.png | KiwiCamping on iPhone: a DOC hut's page with its Open status, a link to the official DOC website and an amenities list starting with heating and mattresses |
 | heaphy-track-camping-2026-27 | 7 (Using KiwiCamping around the Heaphy) | Inbox: kiwicamping_place-detail_kapowairua-campsite_lower.png | KiwiCamping on iPhone: a DOC campsite's amenities (untreated tap water, a water supply, no dogs), its reported adult, child and infant prices, an Add a note field and a seven-day weather forecast |
 | lake-waikaremoana-great-walk-camping-2026-27 | 7 (Using KiwiCamping at Lake Waikaremoana) | Inbox: kiwicamping_place-detail_black-rock-campsite_fees-facilities.png | KiwiCamping on iPhone: a campsite's page with its adult, child and infant prices per night and an amenities list showing unpowered sites, non-flush toilets and untreated tap water |
+| paparoa-track-huts-booking-2026-27 | 7 (Using KiwiCamping on the Paparoa Track) | Inbox: kiwicamping_map_west-coast_huts-tracks.png | KiwiCamping on iPhone: a satellite map of the West Coast with numbered clusters and pins for campsites, huts and walks such as the Harihari Coastal Walkway and Scone Hut |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

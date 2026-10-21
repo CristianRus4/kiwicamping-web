@@ -760,4 +760,82 @@ export const greatWalksArticles: Article[] = [
       { label: "Wairoa District Council: freedom camping", url: "https://wairoadc.govt.nz/our-district/freedom-camping" },
     ],
   }),
+  a({
+    slug: "paparoa-track-huts-booking-2026-27",
+    publishAt: "2026-12-13",
+    title: "Paparoa Track 2026/27: Huts, Booking, Fees and Mountain Biking",
+    description: "Paparoa Track for 2026/27: 55 km in 2 to 3 days, the three huts priced separately from $50 to $117, no campsites, how to book, riding rules and the Punakaiki exit for bikes, the Pike29 Memorial Track and shuttles from Blackball and Punakaiki.",
+    category: "Camping guides",
+    region: "West Coast",
+    places: ["Blackball", "Smoke-ho car park", "Ces Clark Hut", "Moonlight Tops Hut", "Pororari Hut", "Punakaiki"],
+    imageAlt: "Two mountain bikers in blue and red jackets riding a narrow gravel track along a ridge through tussock and alpine scrub on the Paparoa Range",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "west-coast-south-island-road-trip", "doc-huts-new-zealand-guide", "doc-hut-rules-etiquette"],
+    hubs: ["huts/west-coast", "camping/west-coast"],
+    intro:
+      "The Paparoa Track is 55 km on foot, which DOC says takes 3 days, and 56.2 km by mountain bike, which takes 2 days, with three Great Walk huts, Ces Clark, Moonlight Tops and Pororari, and no campsites. Each hut is priced separately: from 1 October to 30 April an adult night is $50, $78 and $61 for New Zealanders and $76, $117 and $92 for international visitors. DOC opened 2026/27 bookings on Tuesday 12 May 2026, before any other Great Walk. Mountain bikers must leave by a different car park from walkers, and e-bikes are not allowed.",
+    sections: [
+      s("The track: 55 km, 2 to 3 days, Blackball to Punakaiki", [
+        "DOC says the Paparoa Track crosses the Paparoa Range through alpine tops, limestone karst landscapes and rainforest, 55 km one way on foot over 3 days and 56.2 km by bike over 2 days, and grades it intermediate for walking and Grade 4 for biking. It starts at Smoke-ho car park near Blackball and ends at Punakaiki. The first part follows the Croesus Track, built between 1881 and 1899 to reach gold mines in upper Blackball Creek, and DOC says that part is much rougher than the rest because of its historic nature. DOC's page says the track is a memorial to the 29 men who died in the Pike River Mine explosion on 19 November 2010, created with the families, DOC and Ngāti Waewae.",
+        "The track runs through Paparoa National Park, where DOC says the Ngāti Waewae hapū of Ngāi Tahu are the kaitiaki, the guardians of the area's native species and ecosystems. The hardest walking day is the middle one, 19.1 km between Moonlight Tops and Pororari huts, which DOC times at 5 to 7 hours. There is no cellphone coverage on most of the track, according to DOC, and you cannot buy food on it, so carry what you need.",
+      ], ["55 km on foot, 56.2 km by bike", "Three huts, no campsites", "Start at Smoke-ho, finish at Punakaiki"], {
+        caption: "Distances and times from DOC's Paparoa Track page, read 21 October 2026. DOC gives different end points for walkers and bikers.",
+        head: ["Section", "Distance", "Walking", "Mountain biking"],
+        rows: [
+          ["Smoke-ho car park to Ces Clark Hut", "10.3 km", "4 to 5 hours", "2 to 3 hours"],
+          ["Ces Clark Hut to Moonlight Tops Hut", "9.7 km", "3 hours", "1 hour 30 minutes to 2 hours 30 minutes"],
+          ["Moonlight Tops Hut to Pororari Hut", "19.1 km", "5 to 7 hours", "4 to 5 hours"],
+          ["Pororari Hut to Pororari River car park (walkers)", "16 km", "4 to 5 hours", "Not for bikes"],
+          ["Pororari Hut to Waikori Road car park (bikers)", "17.1 km", "Walkers can also use this exit", "2 hours 30 minutes to 3 hours 30 minutes"],
+        ],
+      }),
+      s("The three huts and why there is no camping", [
+        "DOC lists three Great Walk huts on the Paparoa Track: Ces Clark Hut with 16 bunk beds, Moonlight Tops Hut with 20 and Pororari Hut with 20. DOC says the huts have bunks, mattresses, heating, gas cooktops, toilets and a water supply, and that a DOC ranger may be present, but they do not provide food, cooking utensils or showers. The hut pages list non-flush toilets and untreated tap water to boil before use, and lighting at Moonlight Tops and Pororari. DOC says there are no campsites on the track, and its track guide says no camping within 500 m of the track, no fires except in fireplaces inside huts and no dogs.",
+        "You also cannot camp before you start: DOC says you need accommodation the night before your walk, and camping at Smoke-ho car park is not permitted. DOC's gear list asks for a 3 to 4 season sleeping bag, an emergency shelter for flooded rivers or bad weather and a distress beacon, and warns that hut bunkrooms do not have heating and can be cold, although each hut page lists heating. Croesus Top Hut, just before Ces Clark, is kept for historic purposes and you cannot stay there, though DOC says it can be used for shelter in an emergency.",
+      ], ["Huts: Ces Clark 16, Moonlight Tops 20, Pororari 20 bunks", "Camping at Smoke-ho car park is not permitted", "Croesus Top Hut is not for staying in"]),
+      s("Booking, fees and Backcountry Hut Passes", [
+        "DOC says bookings are open for the 2026/27 season and that all three huts must be booked in advance, with a penalty or being turned away if you have no valid booking. DOC's 26 March 2026 release listed the Paparoa Track first, opening at 9:30 am on Tuesday 12 May 2026 for stays from 1 July 2026 to 30 June 2027. Fees are charged per person per night, and DOC says there are no fees to day walk or ride the track or to enter Paparoa National Park. The New Zealand price needs proof of eligibility. Adding DOC's 1 October to 30 April adult fees for the three huts gives $189 for New Zealanders and $285 for international visitors.",
+        "Child fees are set per hut: from 1 October to 30 April a child night at Ces Clark is $25 for New Zealanders and $38 for international children, and DOC lists New Zealand infants aged 0 to 4 as free. Backcountry Hut Passes can be used at Ces Clark Hut but not at Moonlight Tops or Pororari huts. DOC says to book Ces Clark online, then email paparoavc@doc.govt.nz with your booking reference and a scanned copy of the pass to claim a refund. DOC's page publishes no 2027/28 opening dates.",
+      ], ["Each hut is priced separately", "Passes work at Ces Clark only", "No fee to enter the national park"], {
+        caption: "Adult fee per person per night, NZ dollars including GST, from DOC's Paparoa Track page and Great Walks pricing page, read 21 October 2026. DOC lists New Zealand infants aged 0 to 4 as free.",
+        head: ["Hut", "1 October to 30 April, NZ / international", "Rest of the year, NZ and international"],
+        rows: [
+          ["Ces Clark Hut", "$50 / $76", "$50 (1 May to 30 September)"],
+          ["Moonlight Tops Hut", "$78 / $117", "$61 (1 May to 30 June), $50 (1 July to 31 August), $61 (September)"],
+          ["Pororari Hut", "$61 / $92", "$50 (1 May to 30 September)"],
+        ],
+      }),
+      s("Choosing your nights, direction and weather", [
+        "DOC gives three options. For 1 or 2 nights to Pororari Hut there is a separate Pororari Hut Track page. For 2 nights, stay at Moonlight Tops and Pororari huts. A 3 night trip uses Ces Clark, Moonlight Tops and Pororari. DOC says staying at Ces Clark and Pororari only is not feasible, because it is 28.8 km and a 10 hour walk between them. On direction, DOC's track guide says it is best to hike or mountain bike the Paparoa Track from south to north, starting at Smoke-ho car park near Blackball and finishing at Punakaiki. The track pages read state no rule that makes one direction compulsory.",
+        "DOC says annual rainfall averages around 6,000 mm, and that heavy rain, snow, ice, fog and strong winds are possible at all times of the year, especially on exposed sections. Some Pororari Valley sections may become impassable in very heavy rain, and DOC says not to travel between Pororari Hut and the Punakaiki car parks then, but to wait in the hut. Landslides and rock falls can occur without warning, particularly during and after heavy rain, and DOC adds that Ongaonga, the native tree nettle, grows along the Pororari Valley and stings painfully.",
+      ], ["Skipping Ces Clark: 2 nights, Moonlight Tops and Pororari", "DOC's guide says south to north is best", "Wait in Pororari Hut if the valley floods"]),
+      s("Mountain biking and the Pike29 Memorial Track", [
+        "DOC calls the Paparoa Track an Advanced Grade 4 mountain bike ride and says to plan one night on the track. The section from Smoke-ho car park to Ces Clark Hut is a tough ride, rough and narrow in places, and DOC says most riders will find some sections easier to walk. The rules are DOC's: e-bikes are not allowed, because they are prohibited under the Paparoa National Park Management Plan; riding at night is not allowed, to protect nocturnal species; and the track is shared use, with DOC's guide saying bikers must give way to walkers. At the end of the Pororari section, DOC says walkers can exit to the Pororari River car park but mountain bikers must exit through the Punakaiki River valley to Waikori Road car park.",
+        "The Pike29 Memorial Track is 11.6 km from the former Pike River Mine site to the junction with the Paparoa Track, a Grade 4 shared-use track that climbs about 800 m. DOC gives 5 to 6 hours uphill and 3 hours 30 minutes to 4 hours 30 minutes downhill on foot, and 3 hours 30 minutes to 4 hours uphill and 1 to 2 hours downhill by bike. Riding from Smoke-ho car park to the Pike29 car park is 37 km and 6 hours 30 minutes to 9 hours 30 minutes, according to DOC. Its road, off Atarau Road via Logburn Road, is narrow, windy gravel with a small car park, and DOC says buses and long campervans are not recommended.",
+      ], ["No e-bikes and no night riding", "Bikers exit at Waikori Road car park", "Bikers give way to walkers"]),
+      s("Getting to the ends, shuttles and parking", [
+        "DOC lists three road access points: Smoke-ho car park at the end of Blackball Road, 8 km north of Blackball; Pororari River Track car park on SH6, 1.2 km north of Pancake Rocks; and Waikori Road car park on SH6, 2.4 km south of Pancake Rocks. The nearest towns are Blackball, Greymouth and Punakaiki. DOC's park page puts Westport 55 km north of Punakaiki and Greymouth 43 km south, says Intercity buses serve the area and says there is no petrol station in Punakaiki. DOC recommends leaving your car at your accommodation, because Smoke-ho car park is small and for day use only, and it warns of cars being broken into at the Smoke-ho, Waikori Road and Pororari River car parks, so leave no valuables.",
+        "DOC says several operators run shuttles to and from the track and links West Coast Tourism's track services list. That list names Paparoa Shuttles, GOTRACKS West Coast Shuttles, Paparoa Track Shuttles at Punakaiki Beach Camp, Buller Adventures, Coast Outdoors in Westport and Coastwide Helicopters, which lists heli bike lifts from Greymouth. Punakaiki Beach Camp's own site says its shuttle takes you to the Blackball track start, and that it offers car relocations and free secure parking. This page gives no shuttle prices, because the figures on the listing were not clear, so check each operator.",
+      ], ["Smoke-ho car park: small, day use only", "Leave no valuables in the car parks", "Shuttles run from Punakaiki and Greymouth"]),
+      s("Where to stay before and after: Punakaiki, Greymouth and Blackball", [
+        "Punakaiki Beach Camp's own site lists campsites, cabins and holiday houses beside the Pororari River, with a communal kitchen, and runs the Paparoa Track shuttles above. Grey District Council's list of registered camping grounds includes Greymouth Seaside Top 10 Holiday Park at 2 Chesterfield Street, Greymouth KIWI Holiday Park and Motels at 318 Main South Road, Coast Autos Central Motorhome Park at 117 Tainui Street and Rapahoe Beach Holiday Camp at 10 Hawken Street, Rapahoe. The council recommends a registered camping ground if you are not self-contained. DOC names Blackball as a nearest town, and no official accommodation page for it was read for this guide.",
+        "Grey District Council's freedom camping FAQ says self-contained vehicles can camp on council-controlled land except in listed areas, which include the McEwen Park area in Blackball and the McMillan Road area and Colville Close in Punakaiki. It limits stays to two consecutive nights in a location and says uncertified self-contained vehicles face $400 fines from 7 June 2026. For the drive along the coast, see KiwiCamping's West Coast road trip guide, and check signs on the ground.",
+      ], ["Council: use a registered ground if not self-contained", "Two consecutive nights on council land", "No camping at Smoke-ho car park"]),
+      s("Using KiwiCamping on the Paparoa Track", [
+        "The West Coast part of KiwiCamping's DOC data (11 August 2026) holds 140 huts and 14 campsites, and three of the huts are on this track: Ces Clark with 16 bunks, Moonlight Tops with 20 and Pororari with 20. Fee notes, facilities and DOC's own link come with each one, and the filters thin out what the map shows. Open a hut's seven-day forecast before a ridge day, since DOC lists rain, snow and fog as possible all year. With no signal on the range, the place details, saved places and guides you stored stay on the phone, whereas map tiles, routing, weather and photos stay blank until reception returns.",
+        "Plan the Paparoa as a short trip of its own: a night at Punakaiki or Greymouth before, up to three hut nights, and a night after. Order the stops, give each a date, and keep your DOC booking references and shuttle times in the notes. The app shows the distance between legs for the drive to Blackball or Punakaiki. Huts are booked through DOC and shuttles through the operators. Free to download, with in-app purchases.",
+      ], ["Save each night with its booking reference", "Check the forecast for each hut", "Reserve on DOC's site, not in the app"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Paparoa Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/paparoa-track/" },
+      { label: "DOC: Paparoa Track guide (PDF)", url: "https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/west-coast/paparoa-track-guide.pdf" },
+      { label: "DOC: Pike29 Memorial Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/pike29-memorial-track/" },
+      { label: "DOC: Paparoa National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "West Coast Tourism: track services", url: "https://westcoast.co.nz/visit/plan-your-trip/transport/track-services" },
+      { label: "Punakaiki Beach Camp", url: "https://www.punakaikibeachcamp.co.nz/" },
+      { label: "Grey District Council: registered camping grounds", url: "https://www.greydc.govt.nz/05our-district/freedom-camping/camping-grounds" },
+      { label: "Grey District Council: freedom camping FAQs", url: "https://www.greydc.govt.nz/05our-district/freedom-camping/faqs" },
+    ],
+  }),
 ];

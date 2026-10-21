@@ -444,4 +444,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need to book the huts and campsites at Lake Waikaremoana?", "Yes. DOC requires advance bookings for the huts and campsites, and they can be made at any time of year. Turning up without one risks a penalty fee, or a refusal if the site is full."],
     ["Can I drive to Onepoto and Hopuruahine in a 2WD car?", "Onepoto is about 20 minutes from Te Karetu, but DOC says the Hopuruahine road is currently unsuitable for 2WD, which can cut off the landing car park. DOC also advises a 4WD or SUV for the long gravel stretch of SH38 from Murupara to Tuai."],
   ],
+  "paparoa-track-huts-booking-2026-27": [
+    ["How much do the Paparoa Track huts cost?", "Each hut has its own price. Between 1 October and 30 April an adult pays $50 at Ces Clark, $78 at Moonlight Tops and $61 at Pororari if a New Zealander, or $76, $117 and $92 as an international visitor. Prices drop for part of the rest of the year, and DOC charges nothing to enter the park."],
+    ["Can you camp on the Paparoa Track?", "DOC lists no campsites, so the overnight stops are the three huts. A tent at Smoke-ho car park before you start is not permitted either, which means you need a bed booked for the night before."],
+    ["Can you mountain bike the Paparoa Track?", "Yes, DOC rates it Advanced Grade 4 and gives it 2 days for 56.2 km. E-bikes and night riding are banned, and bikers finish at Waikori Road car park instead of the walkers' Pororari River exit."],
+    ["Which way should I walk or ride the Paparoa Track?", "DOC's track guide recommends going from south to north, from Smoke-ho car park near Blackball to Punakaiki. The track pages read set no rule making one direction compulsory."],
+  ],
 };

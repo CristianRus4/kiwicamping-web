@@ -76,3 +76,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-08 | kepler-track-camping-2026-27 | scheduled |
 | 2026-12-09 | heaphy-track-camping-2026-27 | scheduled |
 | 2026-12-12 | lake-waikaremoana-great-walk-camping-2026-27 | scheduled |
+| 2026-12-13 | paparoa-track-huts-booking-2026-27 | scheduled |

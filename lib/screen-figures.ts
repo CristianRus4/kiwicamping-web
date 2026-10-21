@@ -52,6 +52,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "kepler-track-camping-2026-27", section: 7, src: "/images/screens/kepler-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC hut's page with its Open status, a link to the official DOC website and an amenities list starting with heating and mattresses" },
   { slug: "heaphy-track-camping-2026-27", section: 7, src: "/images/screens/heaphy-track-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a DOC campsite's amenities (untreated tap water, a water supply, no dogs), its reported adult, child and infant prices, an Add a note field and a seven-day weather forecast" },
   { slug: "lake-waikaremoana-great-walk-camping-2026-27", section: 7, src: "/images/screens/lake-waikaremoana-great-walk-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a campsite's page with its adult, child and infant prices per night and an amenities list showing unpowered sites, non-flush toilets and untreated tap water" },
+  { slug: "paparoa-track-huts-booking-2026-27", section: 7, src: "/images/screens/paparoa-track-huts-booking-2026-27.webp", alt: "KiwiCamping on iPhone: a satellite map of the West Coast with numbered clusters and pins for campsites, huts and walks such as the Harihari Coastal Walkway and Scone Hut" },
 ];
 
 const images = manifest as Record<string, unknown>;
