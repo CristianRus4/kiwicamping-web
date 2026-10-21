@@ -122,7 +122,7 @@ const generated=(path)=>path!=="/404.html"&&path!=="/download/"&&!(path in redir
 const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z]+)?)\//.exec(path)?.[1]??"en";
 const decodeHref=(value)=>value.replace(/&amp;/g,"&");
 
-test("exported pages keep only JSON-LD, tool scripts and the analytics bootstrap",async()=>{
+test("exported pages keep only JSON-LD, tool scripts, the analytics bootstrap and the social-link script",async()=>{
   const pages=await pagesPromise;
   assert.ok(pages.length>=499,`expected the whole site to be exported, found ${pages.length} pages`);
   for(const {path,html} of pages){
@@ -130,7 +130,10 @@ test("exported pages keep only JSON-LD, tool scripts and the analytics bootstrap
     for(const attributes of scripts)assert.match(attributes,/type="application\/ld\+json"|data-static-tools|data-static-keep/,`${path} ships a script the exporter should have stripped: <script${attributes}>`);
     const analytics=html.match(/<script data-static-keep="analytics">/g)??[];
     assert.ok(analytics.length<=1,`${path} has ${analytics.length} analytics scripts`);
-    assert.equal(scripts.filter((attributes)=>/data-static-keep/.test(attributes)).length,analytics.length,`${path} keeps a script that is not the analytics bootstrap`);
+    // The social-link script (lib/social.ts) is the only other kept script, at most once per page.
+    const social=html.match(/<script data-static-keep="social">/g)??[];
+    assert.ok(social.length<=1,`${path} has ${social.length} social-link scripts`);
+    assert.equal(scripts.filter((attributes)=>/data-static-keep/.test(attributes)).length,analytics.length+social.length,`${path} keeps a script that is neither the analytics bootstrap nor the social-link script`);
     if(!generated(path))continue;
     // The measurement ID decides everything: with one, every page measures; without one, none does.
     assert.equal(analytics.length,GA_MEASUREMENT_ID?1:0,`${path} analytics script presence must match GA_MEASUREMENT_ID`);
