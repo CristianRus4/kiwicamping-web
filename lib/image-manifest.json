@@ -55,6 +55,20 @@
       }
     ]
   },
+  "/images/articles/auckland-to-bay-of-islands-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/auckland-to-bay-of-islands-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/auckland-to-bay-of-islands-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/auckland-to-wellington-drive-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -513,6 +527,20 @@
       },
       {
         "path": "/images/articles/christchurch-tekapo-aoraki-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/christchurch-to-dunedin-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-dunedin-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-dunedin-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -1665,6 +1693,20 @@
       }
     ]
   },
+  "/images/articles/wellington-to-napier-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wellington-to-napier-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wellington-to-napier-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wellington-wairarapa-camping-loop.webp": {
     "width": 1600,
     "height": 900,
@@ -1965,6 +2007,20 @@
       }
     ]
   },
+  "/images/screens/auckland-to-bay-of-islands-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/auckland-to-bay-of-islands-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/auckland-to-bay-of-islands-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/auckland-to-wellington-drive-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -2115,6 +2171,20 @@
       },
       {
         "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/christchurch-to-dunedin-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/christchurch-to-dunedin-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/christchurch-to-dunedin-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -2493,6 +2563,20 @@
       },
       {
         "path": "/images/screens/tongariro-northern-circuit-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/wellington-to-napier-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/wellington-to-napier-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/wellington-to-napier-drive-guide.webp",
         "width": 1600
       }
     ]
