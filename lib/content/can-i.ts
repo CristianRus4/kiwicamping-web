@@ -416,7 +416,7 @@ export const canIArticles: Article[] = [
       ], ["$400 for driving without the right class","$55 for not producing your licence","Insurance can fail if you were unlicensed"]),
       s("Check before you book", [
         "Ask for the GLW or GVM of the exact vehicle in writing, not the berth count or the model name. Compare it with 6,000 kg, and if you plan to tow or carry a heavy load, ask for the plated weights of the trailer or towed car as well. Remember that being under the licence limit does not mean the van is comfortable to drive: height, width and length still matter on narrow roads, which the campervan driving rules guide covers.",
-        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal. It helps with planning where the van goes once you have the licence question settled.",
+        "With the licence question settled, the next one is where the van sleeps. KiwiCamping on iPhone holds DOC campsite and hut details, dump stations, filters, saved places and trips, and those details open without signal, although map tiles, routing, weather and photos need it.",
       ]),
       s("The short version", [
         "A full Class 1 licence covers a campervan or motorhome up to 6,000 kg GLW, and a combination up to 6,000 kg gross combined weight. Learners and restricted drivers are held to 4,500 kg on the road. Above 6,000 kg you need Class 2, and heavy motorhomes over 3,500 kg bring a 90 km/h limit and different inspection and road user charge rules.",
@@ -483,7 +483,7 @@ export const canIArticles: Article[] = [
       ], ["Offence under the Conservation Act","CAA can prosecute separately","Report to 0800 362 468"]),
       s("What to do instead", [
         "If the shot matters, buy the green-zone permit before you travel, choose a trailhead or lakeshore that is mapped green and not next to a campsite, and keep well clear of other people. If you only want a view from the pitch, a phone on a tripod or a small camera on a pole gets close, and DOC's own advice is to use a camera or selfie stick from solid ground or leave the technology behind.",
-        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal, so you can note which sites you plan to visit and check each against DOC's drone map before you go.",
+        "Saving the campsites on your route as places in KiwiCamping, an iPhone app, gives you a short list to check against DOC's drone map before you leave. The place details and saved places open without signal; map tiles, routing, weather and photos need it.",
       ]),
       s("The short version", [
         "No drone on a DOC campsite without a permit, and no flying close to campsites, huts or car parks even with one. Aoraki/Mount Cook bans recreational drones outright, and other parks list their own prohibitions.",
@@ -552,7 +552,7 @@ export const canIArticles: Article[] = [
       ], ["Police enforce road rules on beaches","Councils set bylaw fines up to $1,000","Regional rules can reach $4,000"]),
       s("What to do instead, and how to check on the day", [
         "Park at the formed access point and walk. Most of the beaches above are better seen on foot, and a campervan is safe and legal in a car park, a holiday park or a DOC campsite, where a vehicle on the beach is not. If you want to drive Ninety Mile Beach itself, look at a tour operator or a high-clearance vehicle you are allowed to take onto sand, rather than a rental motorhome.",
-        "On the day, read the sign at the access, check the tide table, and open the council or Regional Council page for that beach. KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal, so note the beach and the council page you need before you lose coverage.",
+        "On the day, read the sign at the access, check the tide table, and open the council or Regional Council page for that beach. A saved DOC campsite or dump station in KiwiCamping on your iPhone gives you somewhere to go when the tide or a sign rules the beach out. Its place details work without signal, while map tiles, routing, weather and photos need it, so open the council page for the beach before you lose coverage.",
       ]),
       s("The short version", [
         "Assume you cannot drive on a beach until a council or regional page says you can. Ninety Mile Beach is open at 30 and 60 km/h, Muriwai and Karioitahi need a permit, and Ruakākā, Waipū Cove and Pāpāmoa are largely closed or restricted.",
@@ -620,7 +620,7 @@ export const canIArticles: Article[] = [
       ], ["Fill only from taps marked for drinking","Keep fresh and waste hoses separate","Treat water from an unknown tap"]),
       s("On the day, and what to carry", [
         "Check the campsite's DOC page for the water line before you leave signal range, and look at the tap sign when you arrive. Carry a day's worth of drinking water as a baseline, plus a way to treat more: a stove that boils, a filter, or both. Share boiled water with others at the site to save fuel, as DOC's hut users code suggests.",
-        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal. Saving a campsite before you lose coverage means its details are still on your phone when you reach the tap.",
+        "Before you lose coverage, save the campsites on your route in KiwiCamping, the iPhone app. Each place page notes the facilities DOC lists, and the details stay on your phone when you reach the tap, while map tiles, routing, weather and photos need signal.",
       ]),
       s("The short version", [
         "Treat DOC campsite and hut water as untreated unless the page says otherwise, and boil it for three minutes, filter it or treat it. A holiday park's own supply is the operator's legal duty to keep safe, but read the tap signs and any notice.",
@@ -691,7 +691,7 @@ export const canIArticles: Article[] = [
       ], ["Carry a trowel and compostable bags","Seal sanitary products in a bag","Hand sanitiser, not stream water"]),
       s("What to do instead, and the app", [
         "The simplest alternative is planning. Use toilets in towns, at DOC campsites and at car parks before you set off, stay in places that have them, and treat a hole as an emergency tool. In busy places such as the Tongariro Alpine Crossing, DOC's own advice is to use the toilets when they are available.",
-        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal, so you can save a campsite or dump station near your route and still have it when the signal drops.",
+        "Dump stations and campsites near your route can be saved in KiwiCamping on iPhone and opened later without signal. Map tiles, routing, weather and photos are the parts that need reception, and the DOC details of a place you saved are not.",
       ]),
       s("The short version", [
         "Use a toilet if you can reach one. If you cannot, go 50 metres from water, tracks and campsites, bury it 15 to 20 cm deep with the paper, or carry it out in a bag where DOC asks you to.",
