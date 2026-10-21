@@ -19,8 +19,10 @@ House terms: «el Pase»; glossary Isla Norte / Isla Sur / Isla Stewart (Rakiura
 
 - kb5 (629 units, 6 listicles): wikicamps-alternatives, best-campervan-apps, best-weather-apps, fuel-price-apps, working-holiday-apps, money-saving-travel-apps (all NZ). es 69/89 guides.
 
+- kb6 (600 units, 11 guides): freedom-camping-rules, freedom-camping-guide, self-contained-campervan-green-warrant, camping-fees-2026, doc-campsites-guide, holiday-parks-guide, camping-wastewater-rubbish, campfire-rules, packing-list, best-time-camping, scenic-campsites. es 80/89 guides.
+
 ## Next
-- Drafting kr1 (freedom-camping-rules, freedom-camping-guide, self-contained, camping-fees), kr2 (doc-campsites, holiday-parks, wastewater), kr3 (campfire, packing, best-time, scenic-campsites); then kr4, kr5 (batches built).
+- Drafting kr4 (responsible-camping, two-week-camper-itinerary, wellington-wairarapa, north-island-two-week, west-coast-south-island) and kr5 (queenstown-glenorchy, southern-scenic-route, fiordland, south-island-two-week); then review, apply, LANE COMPLETE.
 - Then kl1..kl3 (6 listicles), kr1..kr5 (rules/topic guides, remaining road trips): batches already built in /tmp/kai-es-gap/k/batches.
 
 ## Notes for orchestrator (English source oddities, translated faithfully)
@@ -29,6 +31,8 @@ House terms: «el Pase»; glossary Isla Norte / Isla Sur / Isla Stewart (Rakiura
 - where-to-camp-in-new-zealand: "four land types" vs FAQ "broadly five"; FAQ "No. Not by default:" reads oddly. east-cape: top up "with more than half a tank showing" probably means less than; pohutukawa/Tane Mahuta macrons missing in places. arthurs-pass: one section says wait if the pass closes, another says reroute. nelson-abel-tasman: description says international price "up to $31", body says "$21 to $31"; wanaka-haast: "an hour from Queenstown" (more like 1h15-1h30); Isthmus Peak "comparable" vs tip "same" views. three-week route tip "8 north, 1 ferry, 12 south" vs body 9/1/11. christchurch-tekapo: Pūkaki/Pukaki both spelled. picton-kaikoura: one "Kaikoura" without macron (Spanish uses Kaikōura throughout). Style guide has no entry for seals (lobos marinos used).
 
 - Listicles: First Table called "highest-rated app" at 4.9 but Too Good To Go is also 4.9; "AT Mobile caps Auckland fares" (cap is Auckland Transport's AT HOP); Imoova "$1 a day"/Camplify "$85" are NZD by context only; Travellers Autobarn November relocation without a year.
+
+- Rules guides: stay limits disagree (body "two to four nights", tip "1–2 night limits", rules tip "two nights common"); "5 working days" for rental fee notices ambiguous; fees description says "converted into 10 currencies" but no table; rules intro "an infringement everywhere else" vs backcountry rules; wastewater description "$800 fine for dumping waste" vs body ($800 for depositing waste while freedom camping); campfire FAQ "gas stove unaffected by fire seasons" vs body; scenic FAQ "those six charge $18 to $23" (only Waikawau above $20); Tapotupotu 5-10 min vs 10 min; packing list English still says "arrival card" (applied biosecurity guide says New Zealand Traveller Declaration).
 
 ## Blockers
 none
