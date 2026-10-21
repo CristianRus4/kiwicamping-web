@@ -50,3 +50,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-15 | can-i-fly-a-drone-at-a-doc-campsite-nz | scheduled |
 | 2026-11-16 | can-i-drive-on-the-beach-in-new-zealand | scheduled |
 | 2026-11-17 | can-i-drink-the-water-at-nz-campsites | scheduled |
+| 2026-11-18 | can-i-go-to-the-toilet-outdoors-camping-nz | scheduled |

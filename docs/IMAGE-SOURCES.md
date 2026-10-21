@@ -102,3 +102,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `can-i-fly-a-drone-at-a-doc-campsite-nz` | Whangapoua Sunset.jpg | Skyviewphotography | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whangapoua_Sunset.jpg) |
 | `can-i-drive-on-the-beach-in-new-zealand` | Ninety Mile Beach at Hukatere2.JPG | User:Gadfium | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Ninety_Mile_Beach_at_Hukatere2.JPG) |
 | `can-i-drink-the-water-at-nz-campsites` | Lake Dive Hut tank.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Lake_Dive_Hut_tank.jpg) |
+| `can-i-go-to-the-toilet-outdoors-camping-nz` | Campsite and a toilet by Double Hut, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Campsite_and_a_toilet_by_Double_Hut,_Canterbury,_New_Zealand.jpg) |

@@ -647,4 +647,73 @@ export const canIArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "can-i-go-to-the-toilet-outdoors-camping-nz",
+    publishAt: "2026-11-18",
+    title: "Can I Go to the Toilet Outdoors Camping in NZ? (2026)",
+    description: "Only as a last resort: DOC says dig 15-20 cm deep, 50 m from water, tracks and campsites, or carry it out. Freedom campers face $800 fines for leaving waste.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["Backcountry tracks","DOC huts and campsites","Alpine areas","Freedom camping sites"],
+    imageAlt: "A lone toilet hut in a tussock valley near Double Hut in Canterbury, with mountains and cloud beyond",
+    related: ["responsible-camping-new-zealand","camping-wastewater-rubbish-new-zealand","freedom-camping-rules-new-zealand"],
+    intro:
+      "Only as a last resort, and only by the method DOC sets out: go at least 50 metres from water, tracks and campsites, dig a hole 15 to 20 cm deep, and bury everything. Where DOC or a track page says to carry waste out, as it does for Mueller Hut in winter, burying it is not enough. If you are freedom camping, leaving waste anywhere except in a proper receptacle is an $800 infringement fee under the Freedom Camping Act.",
+    sections: [
+      s("Use a toilet if there is one in reach", [
+        "DOC's advice starts with a toilet, not a spade. Every DOC hut and campsite has one, as do some busy car parks, but most tracks have none. DOC tells walkers to go before they set out, and if there is no toilet and they can wait for the next one, to wait. A poo left near water can carry giardia into streams that huts and campsites downstream drink from.",
+        "The picture changes with distance. Outside popular places, toilets can be hours apart, and DOC's page on the subject sets out two options for when you cannot wait: dig a hole, or carry it out. The first suits most forest and farmland tracks, and the second suits places where waste does not break down or where many people pass.",
+      ], ["Use the toilet at every hut, campsite and car park","Hold on if the next toilet is close","Poo near water spreads giardia"]),
+      s("The hole method, step by step", [
+        "DOC's method is specific. Walk at least 50 metres, about 70 steps, from water, tracks and campsites. Dig a hole 15 to 20 cm deep, roughly the length of your hand, and DOC suggests a sunny spot because it speeds decomposition. Bury the poo and all your toilet paper and fill the hole right to the top.",
+        "Use as little toilet paper as you can, or soft leaves or bark. DOC's line on wipes is blunt: don't use bleached toilet paper or wet wipes. Its page covers poo rather than urine, so going at least the same 50 metres from water, tracks and campsites is a sensible default. Wash your hands away from any water source, not in it.",
+      ], ["50 metres, about 70 steps, from water","15 to 20 cm deep, filled in to the top","No wet wipes, no bleached paper"]),
+      s("When you must carry it out", [
+        "DOC's second option is to carry it out. Put the poo and all toilet paper in a compostable bag and tie it closed, then place that bag in a poo pot or tube with a lid. At the next toilet, check that it is a composting or long-drop toilet before you put the bag in.",
+        "DOC is firm about where the bag must not go: flush toilets, containment-vault toilets, motor-home dump stations, gardens, rubbish bins and landfill. In alpine country the choice is made for you. DOC's page for the Mueller Hut Route says winter visitors, from May to late October, need a disposable travel toilet from the visitor centre to carry out all faecal waste, because faeces do not break down in the alpine environment and buried waste can reappear when the snow melts.",
+      ], ["Compostable bag, then a poo pot or tube","Only into composting or long-drop toilets","Never into dump stations or bins"]),
+      s("Huts, campsites and Great Walks", [
+        "At a DOC hut or campsite you should rarely need a hole. All DOC huts have toilets, and Great Walk campsites have basic facilities including toilets and handwashing sinks. DOC's Tongariro Northern Circuit page advises using a toilet when you see one and being prepared with a backup option, and notes that some Great Walk huts have sanitary bins while others do not.",
+        "Know what the toilets cannot take. DOC's page for White Horse Hill campsite at Aoraki/Mount Cook says chemical toilet and wastewater cannot be emptied into the campsite toilets, and that in winter the flush toilets give way to pit toilets. A campervan's cassette belongs at a dump station, which the guide to dump stations covers.",
+      ]),
+      s("Freedom camping: the law and the fines", [
+        "When you are freedom camping, the Freedom Camping Act 2011 turns this into an infringement offence. Depositing waste in or on a local authority area, conservation land or LINZ land, other than into an appropriate waste receptacle, is an infringement offence with an $800 fee and a maximum court fine of $2,400, and the prosecution does not have to prove you meant to do it. The Act defines waste to include human waste and a receptacle to include a public toilet or rubbish bin, so a hedge, a roadside or a stream bank does not count.",
+        "A tougher offence sits behind it. Discharging a substance in a way that is likely to have a significant adverse effect on the environment, or to cause significant concern to residents or other users, carries a fine of up to $10,000 on conviction. When the vehicle is a rental, the Act lets the hire company pass an infringement fee on to the hirer.",
+      ], ["$800 infringement fee for leaving waste","Up to $10,000 for harmful discharge","A public toilet is the appropriate receptacle"]),
+      s("Self-contained toilets and dump stations", [
+        "A self-contained vehicle exists so that you never face this question. Its toilet and waste tanks are emptied at a dump station or other facility provided for it, not at a public toilet that was built for small flushes and blocks under cassette volumes. If you are in a tent or a vehicle that is not self-contained, the toilets at the site are your only option, so choose a site that has them.",
+        "Do not tip a cassette into bushes, drains, rivers or the toilet at a DOC campsite. If you cannot reach the next dump point, a full tank is a planning problem to solve before the legal one starts, and the guide to dump stations covers how far apart they are.",
+      ]),
+      s("Toilet paper, wipes and sanitary products", [
+        "Paper goes in the hole with the poo, or in the bag if you are carrying out. Wet wipes are on DOC's list of things not to use at all. Plan to carry sanitary products out in a sealed bag, because DOC's Tongariro page notes that some huts have no sanitary bin and recommends coming prepared with your own disposal option.",
+        "Pack a small kit: a trowel, a few compostable bags, a lidded pot or tube, hand sanitiser and spare toilet paper in a zip bag. It weighs little, and it means the choice on a long day is yours rather than the track's.",
+      ], ["Carry a trowel and compostable bags","Seal sanitary products in a bag","Hand sanitiser, not stream water"]),
+      s("What to do instead, and the app", [
+        "The simplest alternative is planning. Use toilets in towns, at DOC campsites and at car parks before you set off, stay in places that have them, and treat a hole as an emergency tool. In busy places such as the Tongariro Alpine Crossing, DOC's own advice is to use the toilets when they are available.",
+        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal, so you can save a campsite or dump station near your route and still have it when the signal drops.",
+      ]),
+      s("The short version", [
+        "Use a toilet if you can reach one. If you cannot, go 50 metres from water, tracks and campsites, bury it 15 to 20 cm deep with the paper, or carry it out in a bag where DOC asks you to.",
+        "Never leave waste outside a proper receptacle while freedom camping, because it costs $800 on the spot and more in court, and never empty a cassette anywhere except a dump station.",
+      ]),
+    ],
+    faq: [
+      ["Is it legal to poo outside while camping in NZ?", "Not while freedom camping, where leaving waste outside an appropriate receptacle is an $800 infringement offence. On DOC land without a toilet, DOC's method is to go 50 metres from water, tracks and campsites and bury it 15 to 20 cm deep, or carry it out."],
+      ["How deep do you bury poo when camping in New Zealand?", "DOC says 15 to 20 cm, about the length of your hand, at least 50 metres (about 70 steps) from water, tracks and campsites. Bury the toilet paper too, and avoid bleached paper and wet wipes."],
+      ["Do you have to carry out your poo in New Zealand?", "In some places, yes. DOC says winter visitors to the Mueller Hut Route need a disposable travel toilet to carry out all faecal waste, and its carry-out option uses a compostable bag in a poo pot, emptied only into a composting or long-drop toilet."],
+    ],
+    sources: [
+      { label: "DOC: Poo in a loo (disposing of human waste)", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/disposing-of-human-waste/" },
+      { label: "DOC: Mueller Hut Route, Aoraki/Mount Cook National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/mueller-hut-route/" },
+      { label: "DOC: Tongariro Northern Circuit", url: "https://www.doc.govt.nz/tongarironortherncircuit" },
+      { label: "DOC: White Horse Hill Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/white-horse-hill-campground/" },
+      { label: "DOC: How to be a low impact hut user", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/how-to-be-a-low-impact-hut-user/" },
+      { label: "DOC blog: Tongariro Alpine Crossing how-to", url: "https://blog.doc.govt.nz/2026/04/01/tongariro-alpine-crossing-how-to/" },
+      { label: "DOC: Campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "Legislation: Freedom Camping Act 2011 (sections 20, 20A, 20B, 20D, 20E, 20F)", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Legislation: Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "Health NZ: Cryptosporidium and Giardia (HealthEd HE1212)", url: "https://healthed.govt.nz/products/cryptosporidium-and-giardia" },
+    ],
+  }),
+
 ];
