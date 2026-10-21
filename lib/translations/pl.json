@@ -9114,7 +9114,7 @@
           "heading": "1. KiwiCamping: najlepszy do porównania pogody na kolejnych kempingach",
           "body": [
             "KiwiCamping pokazuje Apple Weather na karcie każdego miejsca: aktualne warunki, porywy wiatru, temperaturę odczuwalną i siedem dni z temperaturami maksymalnymi i minimalnymi. W podróży każdy przystanek pokazuje prognozę na dzień planowanego przyjazdu, więc jeszcze przed wyjazdem widać, czy na dwie kolejne noce lepszy będzie kemping nad jeziorem, czy osłonięty w buszu.",
-            "To narzędzie do planowania, nie do bezpieczeństwa. Nie zawiera ostrzeżeń MetService, a do załadowania prognozy potrzebuje zasięgu. Szczegóły miejsc, takie jak udogodnienia i opłaty, zostają w telefonie, gdy zniknie zasięg. Działa tylko na iPhonie, z iOS 26 lub nowszym, ma 4 oceny w Nowej Zelandii (3,8)."
+            "To narzędzie do planowania, nie do bezpieczeństwa. Nie zawiera ostrzeżeń MetService, a do załadowania prognozy potrzebuje zasięgu. Szczegóły miejsc, takie jak udogodnienia i opłaty, zostają w telefonie, gdy zniknie zasięg. Działa tylko na telefonach iPhone, z iOS 26 lub nowszym, ma 4 oceny w Nowej Zelandii (3,8)."
           ],
           "tips": [
             "Wybierz go do: pogody na każdym przystanku podróży",
@@ -9149,7 +9149,7 @@
         {
           "heading": "4. Yr: najlepszy jako prosta, bezpłatna druga opinia",
           "body": [
-            "Yr to bezpłatna aplikacja norweskiej publicznej służby pogodowej, której prognoz używa na całym świecie, także dla miejsc w Nowej Zelandii. Jej strona w nowozelandzkim App Store nie pokazuje zakupów w aplikacji. Ma ocenę 3,6 z 87 ocen w Nowej Zelandii.",
+            "Yr to bezpłatna aplikacja norweskiej publicznej służby pogodowej, której prognoz używa na całym świecie, także dla miejsc w Nowej Zelandii. Jej nowozelandzka strona nie pokazuje zakupów w aplikacji. Ma ocenę 3,6 z 87 ocen w Nowej Zelandii.",
             "Część osób chodzących po górach poleca ją na forach, ale nie znaleziono niezależnego testu tego, jak sprawdza się tutaj. Używaj jej do porównania z MetService, a nie jako jedynego źródła."
           ],
           "tips": [
@@ -9171,9 +9171,9 @@
           ]
         },
         {
-          "heading": "6. Apple Weather: najlepsza na szybki rzut oka na iPhonie",
+          "heading": "6. Apple Weather: najlepsza na szybki rzut oka na telefonie iPhone",
           "body": [
-            "Apple Weather jest w iPhonie od początku i ma ocenę 4,7 z 18 741 ocen w Nowej Zelandii. Apple wymienia MetService wśród źródeł danych o <a data-guide=\"new-zealand-severe-weather-camping\">groźnej pogodzie</a> w Nowej Zelandii, ale prognoz deszczu na najbliższą godzinę tu nie ma, więc alerty o deszczu co do minuty, jakich część podróżnych oczekuje z innych krajów, się nie pojawią.",
+            "Apple Weather jest fabrycznie w telefonie iPhone i ma ocenę 4,7 z 18 741 ocen w Nowej Zelandii. Apple wymienia MetService wśród źródeł danych o <a data-guide=\"new-zealand-severe-weather-camping\">groźnej pogodzie</a> w Nowej Zelandii, ale prognoz deszczu na najbliższą godzinę tu nie ma, więc alerty o deszczu co do minuty, jakich część podróżnych oczekuje z innych krajów, się nie pojawią.",
             "Wystarczy do rzutu oka na nadchodzący tydzień. W dniu w górach albo na odsłoniętym kempingu sprawdź też prognozę samego MetService."
           ],
           "tips": [
@@ -9232,10 +9232,10 @@
           "label": "Prognozy MetService dla gór i parków"
         },
         {
-          "label": "Dane Windy.com (Apple, nowozelandzki App Store)"
+          "label": "Dane Windy.com (Apple, nowozelandzki sklep)"
         },
         {
-          "label": "Dane Yr (Apple, nowozelandzki App Store)"
+          "label": "Dane Yr (Apple, nowozelandzki sklep)"
         },
         {
           "label": "Plan My Walk (NZ Mountain Safety Council)"
@@ -9401,7 +9401,7 @@
           "heading": "Gdzie pasuje KiwiCamping",
           "body": [
             "KiwiCamping nie pokazuje cen paliwa, więc nie ma go na liście powyżej. Pokazuje za to dystans: podróż w KiwiCamping podaje odległość i czas jazdy każdego odcinka między przystankami, więc widać, które odcinki są długie, i można zaplanować, gdzie zatankować przed nimi. Kolekcja zapisanych miejsc pokazuje też, jak daleko od siebie leżą jej dwa najbardziej oddalone miejsca, co daje przybliżone pojęcie o tym, ile terenu obejmuje trasa.",
-            "KiwiCamping działa na iPhonie z iOS 26 lub nowszym, a jego cztery oceny w Nowej Zelandii dają średnią 3,8. Żeby zamienić te odległości na pieniądze, kalkulator paliwa i dystansu na tej stronie policzy to za ciebie."
+            "KiwiCamping działa na telefonach iPhone z iOS 26 lub nowszym, a jego cztery oceny w Nowej Zelandii dają średnią 3,8. Żeby zamienić te odległości na pieniądze, kalkulator paliwa i dystansu na tej stronie policzy to za ciebie."
           ],
           "tips": [
             "Użyj go do: wypatrzenia długich odcinków między przystankami",
@@ -9544,7 +9544,7 @@
           "heading": "1. KiwiCamping: najlepszy do znalezienia noclegu między pracami",
           "body": [
             "Praca sezonowa przenosi cię z miejsca na miejsce: kiwi w Bay of Plenty, winogrona w Marlborough, jabłka w Hawke's Bay. KiwiCamping to mapa miejsc, w których można się zatrzymać po drodze, oparta na danych DOC, z 287 <a data-guide=\"doc-campsites-new-zealand-guide\">kempingami DOC</a> w danych z sierpnia 2026 i opłatami dla dorosłych podawanymi przez DOC, od 5 do 25 NZD za noc na miejscach z opublikowaną stawką. Holiday parki, noclegi i wycieczki są na tej samej mapie, a koszty można pokazać w twojej walucie obok kwoty w dolarach nowozelandzkich.",
-            "Zapisane miejsca trafiają do <a data-guide=\"save-places-kiwicamping\">kolekcji</a>, a podróż zamienia je w przystanki z datami, notatkami i odległością między nimi, co pomaga, gdy układasz sobie nową pracę i miejsce do spania w pobliżu. Szczegóły miejsc zostają w telefonie, gdy zniknie zasięg; kafelki mapy, wyznaczanie trasy, pogoda i zdjęcia potrzebują połączenia. Działa tylko na iPhonie, wymaga iOS 26 lub nowszego i ma 4 oceny w Nowej Zelandii (3,8), bez opinii podróżnych."
+            "Zapisane miejsca trafiają do <a data-guide=\"save-places-kiwicamping\">kolekcji</a>, a podróż zamienia je w przystanki z datami, notatkami i odległością między nimi, co pomaga, gdy układasz sobie nową pracę i miejsce do spania w pobliżu. Szczegóły miejsc zostają w telefonie, gdy zniknie zasięg; kafelki mapy, wyznaczanie trasy, pogoda i zdjęcia potrzebują połączenia. Działa tylko na telefonach iPhone, wymaga iOS 26 lub nowszego i ma 4 oceny w Nowej Zelandii (3,8), bez opinii podróżnych."
           ],
           "tips": [
             "Wybierz go do: kempingów DOC blisko następnej pracy",
@@ -9776,7 +9776,7 @@
           "heading": "1. KiwiCamping: najlepszy do obniżenia rachunku za nocleg",
           "body": [
             "<a data-guide=\"doc-campsites-new-zealand-guide\">Kempingi DOC</a> należą do najtańszych miejsc do spania w Nowej Zelandii, a KiwiCamping jest zbudowany na danych DOC. W danych z sierpnia 2026 miał 287 kempingów DOC, a na 208 z opublikowaną stawką dla dorosłych opłata wynosiła od 5 do 25 NZD za noc, z medianą 12,75 NZD. Filtr kosztów zawęża mapę według opłaty, a każde miejsce pokazuje informacje DOC o opłatach w dolarach nowozelandzkich i, jeśli wybierzesz, w twojej walucie. Jeśli DOC podaje nowszy cennik z datą początku obowiązywania, kieruj się nim.",
-            "Podróże sumują odległości między przystankami, co pomaga zauważyć objazd, który kosztuje więcej w paliwie, niż oszczędza w opłatach. Szczegóły miejsc zostają w telefonie bez zasięgu; kafelki mapy, wyznaczanie trasy, pogoda i zdjęcia potrzebują połączenia. Działa tylko na iPhonie, wymaga iOS 26 lub nowszego i ma 4 oceny w Nowej Zelandii (3,8)."
+            "Podróże sumują odległości między przystankami, co pomaga zauważyć objazd, który kosztuje więcej w paliwie, niż oszczędza w opłatach. Szczegóły miejsc zostają w telefonie bez zasięgu; kafelki mapy, wyznaczanie trasy, pogoda i zdjęcia potrzebują połączenia. Działa tylko na telefonach iPhone, wymaga iOS 26 lub nowszego i ma 4 oceny w Nowej Zelandii (3,8)."
           ],
           "tips": [
             "Wybierz go do: tańszych nocy na kempingach DOC",
