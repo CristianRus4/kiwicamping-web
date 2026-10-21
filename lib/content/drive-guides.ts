@@ -397,4 +397,82 @@ export const driveGuideArticles: Article[] = [
       { label: "Masterton District Council: freedom camping", url: "https://www.mstn.govt.nz/recreation/camping/freedom-camping" },
     ],
   }),
+  a({
+    slug: "christchurch-to-dunedin-drive-guide",
+    publishAt: "2026-12-20",
+    title: "Christchurch to Dunedin Drive 2026: Route, Time, Moeraki and Camping",
+    description: "Christchurch to Dunedin by road on State Highway 1: about 360 km and 5 hours via Timaru, Ōamaru and the Moeraki Boulders, with the inland alternative, snow notes and where to camp.",
+    category: "Road trips",
+    region: "Canterbury and Otago",
+    places: ["Christchurch", "Timaru", "Ōamaru", "Moeraki", "Palmerston", "Dunedin"],
+    imageAlt: "Large round Moeraki Boulders resting on wet sand at low tide, with a scrub-covered sandstone cliff running along the back of the beach under a clear blue sky",
+    related: ["christchurch-tekapo-aoraki-road-trip", "southern-scenic-route-camping", "freedom-camping-waitaki-2026", "south-island-two-week-road-trip", "left-side-driving-new-zealand", "campervan-road-rules-new-zealand", "winter-driving-new-zealand-campervan", "food-fuel-resupply-new-zealand-road-trip"],
+    hubs: ["camping/canterbury", "camping/otago"],
+    intro:
+      "Driving from Christchurch to Dunedin means following State Highway 1 down the east coast through Timaru, Ōamaru and Moeraki, and the distances Tourism Waitaki gives add up to about 360 km and 5 hours before stops. Both figures are this page's sums, because no official page read gives one number for the whole drive. The route and its inland alternative, a table of official leg figures, the stops worth making, fuel, the snow record north of Dunedin and where to sleep follow.",
+    sections: [
+      s("The drive in one answer", [
+        "Tourism Waitaki lists two legs on the coast road: Christchurch to Ōamaru, 248 km and 3 hours 30 minutes, and Dunedin to Ōamaru, 113 km and 1 hour 30 minutes, both on State Highway 1. Put end to end they give 361 km and 5 hours. The South Canterbury district website gives a cross-check: Timaru is 2 hours 15 minutes from Christchurch and 2 hours 30 minutes from Dunedin, which adds to 4 hours 45 minutes, so about 5 hours is a fair plan.",
+        "Those times are for the driving alone. Timaru, Ōamaru and Moeraki all sit on State Highway 1 and make natural breaks, and the Moeraki Boulders need the tide on your side, so build the day around low water rather than the other way round.",
+      ], ["About 360 km and 5 hours, by this page's sums", "Timaru is 2h15 from Christchurch and 2h30 from Dunedin", "Plan the Moeraki stop around low tide"]),
+      s("The fastest route and the inland alternative", [
+        "State Highway 1 is both the fastest and the direct route. Tourism Waitaki tells drivers to follow the main highway down the east coast, and says it is State Highway 1 again north from Dunedin, along the coastline. The Southern Scenic Route guide picks up from Dunedin if you carry on towards the Catlins and Fiordland.",
+        "The alternative goes inland. Tourism Waitaki gives Christchurch to Ōmārama as 345 km and 4 hours through the Mackenzie Basin on State Highway 8, then Ōmārama to Ōamaru as 118 km and 1 hour 30 minutes down the Waitaki Valley on State Highway 83. Together that is 463 km and 5.5 hours to reach Ōamaru, against 248 km and 3.5 hours by the coast, so the loop costs about 215 km and 2 hours more, which is this page's arithmetic. The Christchurch to Tekapo and Aoraki guide covers the first half of it.",
+      ], ["State Highway 1 all the way on the coast", "Inland loop adds about 215 km and 2 hours to reach Ōamaru", "Dunedin is 113 km from Ōamaru"]),
+      s("Stops and distances from official figures", [
+        "The table gives each figure as its source states it, and no figure is invented to fill a gap. No official page read for this guide gives a figure for Ashburton, Rakaia or Temuka, so the table jumps from Christchurch to Timaru. The Timaru district's own council site blocked scripts, which is why the South Canterbury district website is the source for Timaru.",
+        "Moeraki sits between the other two big stops. Tourism Waitaki says the boulders are on State Highway 1 just south of Hampden, a 30-minute drive from Ōamaru and an hour from Dunedin, and that Timaru Airport is an hour's drive from Ōamaru. Read the sources as separate measurements that do not chain exactly.",
+      ], ["Timaru is near the midpoint on the South Canterbury figures", "Moeraki is 30 minutes from Ōamaru", "No official figure for Ashburton"], {
+        caption: "Figures as each source states them, read 21 October 2026.",
+        head: ["Leg", "Official figure", "Source"],
+        rows: [
+          ["Christchurch to Timaru", "2 hours 15 minutes", "South Canterbury district website"],
+          ["Timaru to Dunedin", "2 hours 30 minutes", "South Canterbury district website"],
+          ["Timaru Airport to Ōamaru", "1 hour", "Tourism Waitaki"],
+          ["Christchurch to Ōamaru, State Highway 1", "248 km, 3 hours 30 minutes", "Tourism Waitaki"],
+          ["Ōamaru to Moeraki Boulders", "30-minute drive", "Tourism Waitaki"],
+          ["Moeraki Boulders to Dunedin", "About an hour", "Tourism Waitaki"],
+          ["Dunedin to Ōamaru, State Highway 1", "113 km, 1 hour 30 minutes", "Tourism Waitaki"],
+          ["Dunedin Airport to Ōamaru", "2 hours", "Tourism Waitaki"],
+          ["Christchurch to Ōmārama, State Highway 8", "345 km, 4 hours", "Tourism Waitaki"],
+          ["Ōmārama to Ōamaru, State Highway 83", "118 km, 1 hour 30 minutes", "Tourism Waitaki"],
+        ],
+      }),
+      s("Stops worth making: Timaru, Ōamaru and Moeraki", [
+        "The South Canterbury district website describes Caroline Bay in Timaru as golden sands and a safe swimming beach, with boardwalks, native plantings and a playground, and the home of the Caroline Bay Christmas carnival. Tourism Waitaki calls Ōamaru's Victorian Precinct New Zealand's best preserved Victorian commercial streetscape, with Steampunk HQ at its entrance, and lists Bushy Beach for yellow-eyed penguins, a 340 m return walk to a viewing hide. The beach is closed after 3pm so the birds can come ashore undisturbed.",
+        "Ōamaru Penguins, formerly the Ōamaru Blue Penguin Colony, runs evening viewing from grandstands at 17 Waterfront Road and says flash photography is strictly prohibited. Its page says anywhere from 20 to over 200 penguins may arrive, depending on the time of year, and gives no ticket price, so ask the centre on 03 433 1195. At Moeraki, Tourism Waitaki says low tide is essential for the boulders, and offers a public car park at the end of Moeraki Boulders Road with a 5 to 10 minute walk down, or a track from the café for customers. Katiki Historic Reserve, nearby, has the lighthouse and yellow-eyed penguins.",
+      ], ["Bushy Beach closes at 3pm", "Penguin viewing is in the evening", "Moeraki Boulders: low tide, short walk"]),
+      s("Fuel, charging and food", [
+        "No official page read for this guide lists petrol stations between Christchurch and Dunedin, so this page names none, and the fuel price apps guide and the food and fuel resupply guide help with working out where to stop. NZTA's Journey Planner site has an EV chargers map and says the operators supply the details.",
+        "For a meal with a view the sources are thin. Tourism Waitaki says to stop at the café by the Moeraki Boulders for a coffee overlooking the coast, and lists Ōamaru Harbour for craft beer, whisky, restaurants and cafés. It gives no opening hours for either, so check on the day.",
+      ], ["No official fuel list read for this route", "EV chargers map on the Journey Planner", "Check café hours before relying on them"]),
+      s("Road rules and winter hazards", [
+        "Traffic keeps left, and the left-side driving guide covers roundabouts and give-way rules, with the campervan road rules guide covering vehicle rules. NZTA's pages on speed limits and tolls blocked scripts, so none are quoted here, and the winter driving guide fills in chains, ice and tyres.",
+        "NZTA's Journey Planner bulletins show that snow can reach the coast road. On 4 August 2026 State Highway 1 between Pine Hill and Waitati, north of Dunedin, reopened at midday after a snow closure, and NZTA then warned of ice and black ice, urging drivers to reduce speed, increase following distances and avoid sudden braking or turning. A bulletin dated 1 September 2026 reports snow closing State Highway 1 between Dunedin and Waitati for part of a morning, reopening at 1:50pm, and a strong wind warning for Otago with extra care required for high-sided vehicles like campervans.",
+      ], ["Dunedin to Waitati has closed for snow", "Black ice follows a cold snap", "Wind warnings affect campervans"]),
+      s("Where to sleep between Christchurch and Dunedin", [
+        "Freedom camping rules change at each council boundary, and the Waitaki freedom camping guide covers the Ōamaru and Moeraki stretch in full, so it is linked rather than summarised. Councils at the Timaru, Ashburton and Dunedin ends blocked scripts when this guide was researched, so none of their rules appear here. Check each council's page before you stop overnight outside a campground.",
+        "DOC's Trotters Gorge Campsite is about 3 km south of Moeraki, turning west off State Highway 1 into Horse Range Road. It has 10 sites at $15 per adult, bookings are required, fires are not allowed, and DOC says the gate is closed to vehicles in winter because of wet conditions. Otaio Gorge Campsite has 15 sites at $10 and is a longer detour: from St Andrews, south of Timaru, it is 19.5 km along Blue Cliffs Road then 5 km of gravel, and DOC says it can flood in heavy rain.",
+        "Behind the route sit the Canterbury hub, with 22 DOC campsites in KiwiCamping's snapshot of DOC data from 11 August 2026, and the Otago hub, with 30. The holiday parks guide covers powered sites in Timaru, Ōamaru and Dunedin.",
+      ], ["Trotters Gorge: winter gate closure", "Otaio Gorge: gravel road and flood risk", "Waitaki rules are in the Waitaki guide"]),
+      s("Planning Christchurch to Dunedin in KiwiCamping", [
+        "KiwiCamping is an iPhone app that groups the campsites, huts and holiday parks of the east coast on a map you can zoom from the whole island down to a single bay. Choose the places you want, order them as stops, and the app shows how far apart each pair is and the forecast where you will sleep, a help when the Dunedin hills can turn wintry. Directions turn by turn and traffic updates are outside what it does, so NZTA's Journey Planner covers closures.",
+        "When coverage fades, you can still read the stored details of a place, your own shortlist and the guides, but map tiles, routing, weather and photos want a connection. Trotters Gorge and Otaio Gorge are booked on DOC's site. Free to download, with in-app purchases.",
+      ], ["Order the stops as you will drive them", "Forecast at each place", "Book DOC nights on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "Tourism Waitaki: getting here (distances and drive times)", url: "https://www.waitakinz.com/about/getting-here" },
+      { label: "Tourism Waitaki: Moeraki Boulders", url: "https://waitakinz.com/explore/moeraki-boulders" },
+      { label: "Tourism Waitaki: Moeraki and Hampden", url: "https://waitakinz.com/destinations/moeraki-and-hampden" },
+      { label: "Tourism Waitaki: Ōamaru", url: "https://waitakinz.com/destinations/oamaru" },
+      { label: "Tourism Waitaki: Ōamaru Penguins", url: "https://waitakinz.com/explore/oamaru-blue-penguin-colony" },
+      { label: "Tourism Waitaki: Bushy Beach Walk", url: "https://waitakinz.com/explore/bushy-beach-walk" },
+      { label: "South Canterbury district website: Timaru", url: "https://southcanterbury.org.nz/town/timaru/" },
+      { label: "NZTA Journey Planner: icy roads the next challenge (4 August 2026)", url: "https://www.journeys.nzta.govt.nz/traffic-bulletins/update-several-highways-closed-by-snow" },
+      { label: "NZTA Journey Planner: SH1 snow closure north of Dunedin (1 September 2026)", url: "https://www.journeys.nzta.govt.nz/traffic-bulletins/sh1-snow-closure-north-of-dunedin" },
+      { label: "NZTA Journey Planner (conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Trotters Gorge Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/moeraki-area/things-to-do/trotters-gorge-campsite/" },
+      { label: "DOC: Otaio Gorge Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/hunters-hills-area/things-to-do/otaio-gorge-campsite/" },
+    ],
+  }),
 ];

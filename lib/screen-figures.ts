@@ -59,6 +59,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "queenstown-to-milford-sound-drive-guide", section: 6, src: "/images/screens/queenstown-to-milford-sound-drive-guide.webp", alt: "KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time shown between each pair of stops" },
   { slug: "auckland-to-bay-of-islands-drive-guide", section: 7, src: "/images/screens/auckland-to-bay-of-islands-drive-guide.webp", alt: "KiwiCamping on iPhone: a Bay of Islands road trip guide with its trip length, a Save all mentioned places button and a map of the bay with place markers around Paihia and Kerikeri" },
   { slug: "wellington-to-napier-drive-guide", section: 6, src: "/images/screens/wellington-to-napier-drive-guide.webp", alt: "KiwiCamping on iPhone: a road trip guide with a Save all mentioned places button, a map with an orange route line between campsite and dump station markers, and a seven-day weather forecast below it" },
+  { slug: "christchurch-to-dunedin-drive-guide", section: 7, src: "/images/screens/christchurch-to-dunedin-drive-guide.webp", alt: "KiwiCamping on iPhone: a satellite map of the South Island covered in green numbered markers that group nearby places, with labels such as 27 places and 33 places" },
 ];
 
 const images = manifest as Record<string, unknown>;

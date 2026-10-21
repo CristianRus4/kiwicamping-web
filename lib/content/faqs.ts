@@ -486,4 +486,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can a campervan drive over the Remutaka Hill?", "NZTA publishes no campervan ban in the bulletins read for this guide. It does say drivers of high-sided vehicles, which it lists as trucks, vans and campervans, should take care on exposed routes in strong wind, so check the Journey Planner before crossing."],
     ["Where can I park a campervan overnight on the way to Napier?", "Pūkaha near Eketāhuna has 6 powered sites for self-contained vehicles, booked with a guided tour, and DOC runs Holdsworth and Kiriwhakapapa near Masterton. In Napier, certified self-contained vehicles can use four council sites for two or three nights, within a limit of 10 nights in any 30 days."],
   ],
+  "christchurch-to-dunedin-drive-guide": [
+    ["How long does it take to drive from Christchurch to Dunedin?", "About 5 hours without stops, by the coast on State Highway 1. Tourism Waitaki gives 3 hours 30 minutes from Christchurch to Ōamaru and 1 hour 30 minutes from Dunedin to Ōamaru, and the South Canterbury website's 2 hours 15 minutes and 2 hours 30 minutes via Timaru come to roughly the same."],
+    ["How far is Christchurch to Dunedin by road?", "Roughly 360 km. Tourism Waitaki lists 248 km from Christchurch to Ōamaru and 113 km from Dunedin to Ōamaru, which total 361 km, though no official page gives one figure for the whole route."],
+    ["When is the best time to see the Moeraki Boulders?", "At low tide. Tourism Waitaki says the boulders are most accessible and visible then, so check a tide table before you go. They are just south of Hampden on State Highway 1, with a public car park and a 5 to 10 minute walk to the beach."],
+    ["Can I camp near Moeraki?", "DOC's Trotters Gorge Campsite, about 3 km south of Moeraki, has 10 sites at $15 per adult and needs a booking, and DOC closes its gate to vehicles in winter. Freedom camping in the Waitaki district follows the council's bylaw, set out in the Waitaki freedom camping guide."],
+  ],
 };
