@@ -80,3 +80,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-14 | hump-ridge-track-huts-booking-2026-27 | scheduled |
 | 2026-12-15 | auckland-to-wellington-drive-guide | scheduled |
 | 2026-12-16 | christchurch-to-queenstown-drive-guide | scheduled |
+| 2026-12-17 | queenstown-to-milford-sound-drive-guide | scheduled |

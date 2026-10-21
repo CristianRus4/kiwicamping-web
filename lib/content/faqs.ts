@@ -468,4 +468,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Does snow close the road over the Lindis Pass?", "It can. NZTA bulletins record State Highway 8 between Omarama and Tarras, including the Lindis Pass, closing for snow on 19 August 2025 and for snow and ice on 28 October 2025. Check NZTA's Journey Planner on the morning you drive, and ask your rental company what its contract says about winter roads."],
     ["Where can I buy fuel between Fairlie and Queenstown?", "Visit Mackenzie lists a BP in Fairlie, a Challenge station at the north end of Lake Tekapo, a Mobil in Twizel and a credit-card-only pump at Aoraki/Mount Cook. The pages read for this guide list no official fuel stops for Ōmārama, Tarras or Cromwell, so check a live map for those."],
   ],
+  "queenstown-to-milford-sound-drive-guide": [
+    ["How long does it take to drive from Queenstown to Milford Sound?", "About 4 hours each way without stops, from Visit Fiordland's 2 hours for 170 km to Te Anau and 2 hours for the 120 km Milford Road. DOC suggests basing yourself in Te Anau, because its figure for Queenstown to Milford and back is 12 to 14 hours."],
+    ["Is there petrol on the Milford Road?", "DOC says there are no shops or fuel stations between Te Anau and Milford Sound, and asks you to leave Te Anau with a full tank. It also lists public toilets at only three places: Te Anau, Knob's Flat and Milford."],
+    ["Do I need snow chains for the Milford Road?", "DOC says chains may be required in winter, which it defines as May to September, so check the road conditions first. You can rent chains in Te Anau, and you should know how to fit them before you start. DOC also says not to stop between the Hollyford Road junction and The Chasm, because it is an avalanche area."],
+    ["Can I camp along the Milford Road?", "DOC runs campsites between Te Anau and The Divide, including Henry Creek, Totara and Cascade Creek, at $18 per adult per night with bookings required. Freedom camping within 200 m of the road is not allowed on the Milford Road."],
+  ],
 };
