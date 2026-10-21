@@ -303,4 +303,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much does camping cost per night in New Zealand?", "From free at basic DOC campsites, through $10 to $20 an adult at standard sites and $25 at serviced sites, to holiday parks that often charge per site. Because DOC charges per adult, two similar-looking prices can mean very different totals for a family."],
     ["Is camping in New Zealand cheaper than staying in hostels?", "Per night, clearly. Across a whole trip the answer depends on the vehicle, because the rental and fuel that make cheap sites reachable usually cost more than the accommodation they replace."],
   ],
+  "best-campsite-booking-apps-new-zealand": [
+    ["How do I book a DOC campsite or hut?", "Through DOC's online booking system, which covers Great Walks, huts, campsites and lodges, cabins and cottages. Not every facility can be booked, and unbookable ones are first come, first served."],
+    ["Is there an app for booking campsites in New Zealand?", "No single app books every campsite. DOC books through its website, holiday park chains book through their own sites, and CamperMate, Rankers and WikiCamps book some sites in the app."],
+    ["Do I need to book a DOC campsite in summer?", "DOC requires bookings for all serviced campsites and some scenic and standard campsites in peak season, usually 1 October to 30 April. Other campsites are first come, first served and paid at the self-registration stand."],
+    ["Can I book private land camping in New Zealand?", "Yes. Campable lists hosts on farms, vineyards and other private land for certified self-contained vehicles, and says it charges guests no booking fee."],
+  ],
 };
