@@ -41,3 +41,13 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-29 | fuel-price-apps-new-zealand | scheduled |
 | 2026-10-31 | working-holiday-apps-new-zealand | scheduled |
 | 2026-11-01 | money-saving-travel-apps-new-zealand | scheduled |
+| 2026-11-09 | can-i-sleep-in-my-car-in-new-zealand | scheduled |
+| 2026-11-10 | can-i-camp-anywhere-on-doc-land | scheduled |
+| 2026-11-11 | can-i-park-overnight-at-a-beach-in-new-zealand | scheduled |
+| 2026-11-12 | can-i-camp-on-a-farm-or-private-land-in-nz | scheduled |
+| 2026-11-13 | can-i-park-a-campervan-on-the-street-overnight-nz | scheduled |
+| 2026-11-14 | can-i-drive-a-campervan-on-a-car-licence-nz | scheduled |
+| 2026-11-15 | can-i-fly-a-drone-at-a-doc-campsite-nz | scheduled |
+| 2026-11-16 | can-i-drive-on-the-beach-in-new-zealand | scheduled |
+| 2026-11-17 | can-i-drink-the-water-at-nz-campsites | scheduled |
+| 2026-11-18 | can-i-go-to-the-toilet-outdoors-camping-nz | scheduled |
