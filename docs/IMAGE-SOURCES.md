@@ -93,6 +93,8 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `fuel-price-apps-new-zealand` | State Highway 6 NZ 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_6_NZ_01.jpg) |
 | `working-holiday-apps-new-zealand` | Autumn in the Awatere Valley.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Autumn_in_the_Awatere_Valley.jpg) |
 | `money-saving-travel-apps-new-zealand` | Moke Lake.jpg | André Richard Chalmers | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Moke_Lake.jpg) |
+| `christmas-summer-camping-new-zealand-2026-27` | Totaranui Beach late afternoon.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Totaranui_Beach_late_afternoon.jpg) |
+| `new-years-eve-summer-event-camping-new-zealand` | Whangamata Beach (9993001275).jpg | russellstreet | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Whangamata_Beach_(9993001275).jpg) |
 | `can-i-sleep-in-my-car-in-new-zealand` | A Nice Rest Area at Lake Taupo NZ - panoramio.jpg | Herman Darnel Ibrahi… | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:A_Nice_Rest_Area_at_Lake_Taupo_NZ_-_panoramio.jpg) |
 | `can-i-camp-anywhere-on-doc-land` | Siberia Campsite, Kahurangi, New Zealand 02.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Siberia_Campsite,_Kahurangi,_New_Zealand_02.jpg) |
 | `can-i-park-overnight-at-a-beach-in-new-zealand` | Langs Beach. Northland NZ (20107502666).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Langs_Beach._Northland_NZ_(20107502666).jpg) |
