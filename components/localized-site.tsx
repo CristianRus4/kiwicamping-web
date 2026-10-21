@@ -11,7 +11,7 @@ import { ConsentBar, PrivacyChoicesLink } from "./consent-bar";
 import { QrCode } from "./qr-code";
 import { SectionTable } from "./article-table";
 import { displayCurrencies, exchangeRateDate, formatNzdRange, nzdRates } from "@/lib/currency";
-import { getPage, getTranslation, isArticleTranslated, isStaticPageTranslated, localizedArticles, localizedCategories, type LocaleCode } from "@/lib/localized";
+import { getPage, getSummerStrings, getTranslation, isArticleTranslated, isStaticPageTranslated, localizedArticles, localizedCategories, type LocaleCode } from "@/lib/localized";
 import { articleSchema, homeSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate, translationDate } from "@/lib/article-dates";
 import { hasGuideLinks, linkProse, renderGuideLinks } from "@/lib/internal-links";
@@ -19,6 +19,7 @@ import { englishLocale, hasReviews, dateSentenceEnd, htmlLang, intlLocale, local
 import { relatedGuides } from "@/lib/related";
 import { guidePageKey } from "@/lib/routes/guides";
 import { articles } from "@/lib/site";
+import { summerGuideSlugs } from "@/lib/summer";
 import { LanguageSwitcher } from "./language-switcher";
 import type { StaticPageKind } from "@/lib/source-strings";
 import { toolCopy, toolIds, toolPath, toolsIndexCopy } from "@/lib/tools";
@@ -56,6 +57,8 @@ const countGap=(locale:LocaleCode)=>localeScript(locale)==="cjk"?"":" ";
 export function LocalizedHome({ locale }: { locale: LocaleCode }) {
   const ui = getTranslation(locale);
   const articleList = localizedArticles(locale);
+  const summer = getSummerStrings(locale);
+  const summerGuides = summerGuideSlugs.flatMap((slug) => articleList.find((article) => article.slug === slug) ?? []);
   const features = [[Layers,ui.feature1Title,ui.feature1Text],[SlidersHorizontal,ui.feature2Title,ui.feature2Text],[Map,ui.feature3Title,ui.feature3Text],[Binoculars,ui.feature4Title,ui.feature4Text],[CloudSun,ui.feature5Title,ui.feature5Text],[CircleDollarSign,ui.feature6Title,ui.feature6Text]] as const;
   const reviews = [["Sofia M.",ui.review1Country,ui.review1Title,ui.review1Quote],["Daniel R.",ui.review2Country,ui.review2Title,ui.review2Quote],["Claire T.",ui.review3Country,ui.review3Title,ui.review3Quote],["Matteo B.",ui.review4Country,ui.review4Title,ui.review4Quote],["Emma L.",ui.review5Country,ui.review5Title,ui.review5Quote],["Hayden W.",ui.review6Country,ui.review6Title,ui.review6Quote],["Jess A.",ui.review7Country,ui.review7Title,ui.review7Quote],["Thomas F.",ui.review8Country,ui.review8Title,ui.review8Quote],["Niamh C.",ui.review9Country,ui.review9Title,ui.review9Quote]];
   const faqs = [[ui.faq1q,ui.faq1a],[ui.faq2q,ui.faq2a],[ui.faq3q,ui.faq3a],[ui.faq4q,ui.faq4a],[ui.faq5q,ui.faq5a],[ui.faq6q,ui.faq6a],[ui.faq7q,ui.faq7a],[ui.faq8q,ui.faq8a],[ui.faq9q,ui.faq9a],[ui.faq10q,ui.faq10a],[ui.faq11q,ui.faq11a]];
@@ -76,6 +79,8 @@ export function LocalizedHome({ locale }: { locale: LocaleCode }) {
       <section className="section itinerary-section"><ScreenshotImage className="itinerary-image" src="/images/kiwicamping-feature-3.webp" alt={ui.altTripScreen} sizes="(max-width: 700px) 200px, 285px"/><div className="itinerary-copy"><p className="eyebrow">{ui.plannerEyebrow}</p><h2>{ui.plannerTitle}</h2><p>{ui.plannerText}</p><div className="metric-grid"><div><Route/><strong>{ui.plannerMetric1Title}</strong><small>{ui.plannerMetric1Text}</small></div><div><CalendarDays/><strong>{ui.plannerMetric2Title}</strong><small>{ui.plannerMetric2Text}</small></div><div><ListChecks/><strong>{ui.plannerMetric3Title}</strong><small>{ui.plannerMetric3Text}</small></div><div><CloudSun/><strong>{ui.plannerMetric4Title}</strong><small>{ui.plannerMetric4Text}</small></div></div></div></section>
 
       <section className="section guide-preview"><div className="guide-preview-head"><div><p className="eyebrow">{ui.routesEyebrow}</p><h2>{ui.routesTitle}</h2></div><div><p>{ui.routesText}</p><Link href={prefix(locale,"/guides")} className="text-link">{ui.exploreRoutes}<ArrowRight/></Link></div></div><div className="article-grid guide-preview-grid">{articleList.slice(0,5).map((article,index)=><LocalizedCard article={article} locale={locale} priority={index===0} key={article.slug}/>)}</div></section>
+
+      {summerGuides.length > 0 && <section className="section guide-preview"><div className="guide-preview-head"><div><p className="eyebrow">{summer.eyebrow}</p><h2>{summer.title}</h2></div><div><p>{summer.text}</p></div></div><div className="article-grid guide-preview-grid">{summerGuides.map((article)=><LocalizedCard article={article} locale={locale} key={article.slug}/>)}</div></section>}
 
       <section className="section audiences"><div className="audience-copy"><p className="eyebrow">{ui.audiencesEyebrow}</p><h2>{ui.audiencesTitle}</h2></div><div className="audience-grid">{audiences.map(([Icon,title,text])=><article key={title}><Icon/><h3>{title}</h3><p>{text}</p></article>)}</div></section>
 

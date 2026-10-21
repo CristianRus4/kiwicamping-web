@@ -398,7 +398,7 @@ export const migratedArticles: Article[] = [
       ]),
       s("Cooking when fires are banned", [
         "Gas cookers are the practical answer and are generally permitted when open fires are not, but check, because a prohibited fire season can restrict some appliances too. Use them on a stable, level surface, well clear of tent fabric and vegetation.",
-        "Never cook inside a closed tent, an awning or an unventilated vehicle. The risk is carbon monoxide, which is odourless and has killed campers in New Zealand. Let a cooker cool completely before it goes back into a vehicle or tent, and store gas cylinders upright and ventilated.",
+        "Never cook inside a closed tent, an awning or an unventilated vehicle. The risk is carbon monoxide, which is odourless and has killed campers in New Zealand. Let a cooker cool completely before it goes back into a vehicle or tent, and store gas cylinders upright and ventilated. Heading to a summer event site? Its own fire rules apply on top, and the guide to New Year's Eve camping and summer events shows what to check before you go.",
       ], ["Never cook in a closed tent or van", "Carbon monoxide has no smell", "Let cookers cool before stowing"]),
       s("If it gets away from you", [
         "If a fire spreads beyond your control, do not try to fight it beyond the first few seconds. Move away, downhill and across the slope where safe, because fire travels fastest uphill, and call 111 immediately.",
