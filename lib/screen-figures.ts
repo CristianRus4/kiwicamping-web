@@ -27,6 +27,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "working-holiday-apps-new-zealand", section: 1, src: "/images/screens/working-holiday-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: places grouped on a satellite map of the whole of New Zealand" },
   { slug: "money-saving-travel-apps-new-zealand", section: 1, src: "/images/screens/money-saving-travel-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a DOC campsite's reported adult, child and infant prices above its seven-day weather forecast" },
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
+  { slug: "christmas-summer-camping-new-zealand-2026-27", section: 7, src: "/images/screens/christmas-summer-camping-new-zealand-2026-27.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page in Northland with its Book now button" },
 ];
 
 const images = manifest as Record<string, unknown>;

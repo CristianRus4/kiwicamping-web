@@ -279,6 +279,20 @@
       }
     ]
   },
+  "/images/articles/christmas-summer-camping-new-zealand-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christmas-summer-camping-new-zealand-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christmas-summer-camping-new-zealand-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/cook-strait-ferry-campervan-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -639,6 +653,20 @@
       },
       {
         "path": "/images/articles/nelson-abel-tasman-golden-bay.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/new-years-eve-summer-event-camping-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/new-years-eve-summer-event-camping-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/new-years-eve-summer-event-camping-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -1457,6 +1485,20 @@
       },
       {
         "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/christmas-summer-camping-new-zealand-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/christmas-summer-camping-new-zealand-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/christmas-summer-camping-new-zealand-2026-27.webp",
         "width": 1600
       }
     ]
