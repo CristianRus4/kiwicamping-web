@@ -11,3 +11,7 @@ Translated (script-validated, no separate review): winter-driving-new-zealand-ca
 Translated (script-validated, no separate review): save-places-kiwicamping, kiwicamping-filters-guide, kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs, best-nz-camping-apps, where-to-camp-in-new-zealand, responsible-camping-new-zealand.
 - Editor note: the English offline-data guide title/description say "Offline"; Polish says "bez zasięgu" (works without signal) to avoid any offline-map claim.
 - Editor note: best-nz-camping-apps says "we"/"ours" for both the company and the researchers; Polish is impersonal.
+
+## KiwiCamping batch 13 (Polish)
+Translated (script-validated, no separate review): two-week-camper-itinerary-new-zealand, rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand, free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand.
+- Editor note: competitor "trip planner" features (e.g. WikiCamps) are rendered "planer podróży" per the glossary even though they are the competitor's feature.
