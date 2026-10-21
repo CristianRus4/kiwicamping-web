@@ -867,6 +867,20 @@
       }
     ]
   },
+  "/images/articles/heaphy-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/heaphy-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/heaphy-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/holiday-parks-new-zealand-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -891,6 +905,20 @@
       },
       {
         "path": "/images/articles/kauri-dieback-camping-travel.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/kepler-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/kepler-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/kepler-track-camping-2026-27.webp",
         "width": 1600
       }
     ]
@@ -961,6 +989,20 @@
       },
       {
         "path": "/images/articles/left-side-driving-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/milford-track-2026-27-huts-booking-fees.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/milford-track-2026-27-huts-booking-fees-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/milford-track-2026-27-huts-booking-fees.webp",
         "width": 1600
       }
     ]
@@ -1273,6 +1315,20 @@
       }
     ]
   },
+  "/images/articles/rakiura-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/rakiura-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/rakiura-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/rankers-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -1549,6 +1605,20 @@
       },
       {
         "path": "/images/articles/west-coast-south-island-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/whanganui-journey-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/whanganui-journey-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/whanganui-journey-camping-2026-27.webp",
         "width": 1600
       }
     ]
@@ -2105,6 +2175,48 @@
       }
     ]
   },
+  "/images/screens/heaphy-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/heaphy-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/heaphy-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/kepler-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/kepler-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/kepler-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/milford-track-2026-27-huts-booking-fees.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/milford-track-2026-27-huts-booking-fees-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/milford-track-2026-27-huts-booking-fees.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/money-saving-travel-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -2143,6 +2255,20 @@
       },
       {
         "path": "/images/screens/nz-great-walks-2026-27-huts-campsites-booking-fees.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/rakiura-track-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/rakiura-track-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/rakiura-track-camping-2026-27.webp",
         "width": 1600
       }
     ]
@@ -2199,6 +2325,20 @@
       },
       {
         "path": "/images/screens/tongariro-northern-circuit-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/whanganui-journey-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/whanganui-journey-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/whanganui-journey-camping-2026-27.webp",
         "width": 1600
       }
     ]
