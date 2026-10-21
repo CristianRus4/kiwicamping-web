@@ -373,7 +373,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can I use a tent or an uncertified van at a Southland site?", "Only at the sites that allow all types of camping, which the council's pages give as Dunsdale, Orepuki's Monkey Island and Thornbury, with Haldane, Lumsden and the Otautau Arboretum shown as green areas. At the others the council says tents, cars and uncertified vehicles are not allowed."],
   ],
   "freedom-camping-new-plymouth-2026": [
-    ["Can I camp in a tent in New Plymouth?", "No. The bylaw says a person must not freedom camp in any local authority area in tents or other temporary structures, and the council's page says camping in tents on public land is banned in the district."],
+    ["Can I camp in a tent in New Plymouth?", "No. Tents and other temporary structures are not allowed for freedom camping anywhere in the district, and the council bans tent camping on public land, so book a campground instead."],
     ["Where can a vehicle that is not self-contained camp in New Plymouth?", "Only at Lake Rotomanu in New Plymouth and Battiscombe Terrace in Waitara, each with six marked spaces, first come, first served, for one night in any 30-day period."],
     ["How long can a self-contained vehicle stay in New Plymouth?", "A maximum of three nights in any 30-day period at any single location, counted as within 500 metres, and the bylaw allows no fires."],
   ],
