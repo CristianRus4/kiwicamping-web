@@ -7,6 +7,7 @@ import { costArticles } from "@/lib/content/costs";
 import { legacyOnlyArticles } from "@/lib/content/legacy";
 import { listicleArticles } from "@/lib/content/listicles";
 import { seasonalArticles } from "@/lib/content/seasonal";
+import { canIArticles } from "@/lib/content/can-i";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
@@ -67,6 +68,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...legacyOnlyArticles,
   ...listicleArticles,
   ...seasonalArticles,
+  ...canIArticles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   .concat(scheduleFixture<Article>() ?? []));

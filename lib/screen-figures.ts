@@ -29,6 +29,11 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-nz-camping-apps", section: 1, src: "/images/screens/best-nz-camping-apps.webp", alt: "KiwiCamping on iPhone: a place page with the local weather forecast and useful places nearby" },
   { slug: "christmas-summer-camping-new-zealand-2026-27", section: 7, src: "/images/screens/christmas-summer-camping-new-zealand-2026-27.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page in Northland with its Book now button" },
   { slug: "new-years-eve-summer-event-camping-new-zealand", section: 7, src: "/images/screens/new-years-eve-summer-event-camping-new-zealand.webp", alt: "KiwiCamping on iPhone: the Hampshire Holiday Parks Glendhu Bay page near Wānaka with its address, hours and Book now button" },
+  { slug: "best-campsite-booking-apps-new-zealand", section: 1, src: "/images/screens/best-campsite-booking-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page with its rating and a Book now button" },
+  { slug: "campable-alternatives", section: 1, src: "/images/screens/campable-alternatives.webp", alt: "KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details" },
+  { slug: "best-tramping-great-walks-apps-new-zealand", section: 1, src: "/images/screens/best-tramping-great-walks-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
+  { slug: "best-dump-station-apps-new-zealand", section: 1, src: "/images/screens/best-dump-station-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a map near Queenstown with pins for a public dump station with drinking water and another dump station, above a list of nearby huts and campsites" },
+  { slug: "best-south-island-road-trip-apps-new-zealand", section: 1, src: "/images/screens/best-south-island-road-trip-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Christchurch, Tekapo and Aoraki road trip guide with its route on the map, a seven-day forecast and notes on what to book ahead" },
 ];
 
 const images = manifest as Record<string, unknown>;
