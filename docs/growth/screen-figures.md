@@ -51,6 +51,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | lake-waikaremoana-great-walk-camping-2026-27 | 7 (Using KiwiCamping at Lake Waikaremoana) | Inbox: kiwicamping_place-detail_black-rock-campsite_fees-facilities.png | KiwiCamping on iPhone: a campsite's page with its adult, child and infant prices per night and an amenities list showing unpowered sites, non-flush toilets and untreated tap water |
 | paparoa-track-huts-booking-2026-27 | 7 (Using KiwiCamping on the Paparoa Track) | Inbox: kiwicamping_map_west-coast_huts-tracks.png | KiwiCamping on iPhone: a satellite map of the West Coast with numbered clusters and pins for campsites, huts and walks such as the Harihari Coastal Walkway and Scone Hut |
 | hump-ridge-track-huts-booking-2026-27 | 7 (Using KiwiCamping on the Hump Ridge Track) | kiwicamping_trip-planner_south-island-loop.png | KiwiCamping on iPhone: a trip itinerary of ordered stops, including tours, holiday parks and a campsite, with the distance and drive time shown between each leg |
+| auckland-to-wellington-drive-guide | 6 (Planning Auckland to Wellington in KiwiCamping) | Inbox: kiwicamping_guides_north-island-14-day_top.png | KiwiCamping on iPhone: a North Island road trip guide with its length in kilometres, a Save all mentioned places button and the top of a map with place markers near Hamilton |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

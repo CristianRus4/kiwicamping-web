@@ -54,6 +54,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "lake-waikaremoana-great-walk-camping-2026-27", section: 7, src: "/images/screens/lake-waikaremoana-great-walk-camping-2026-27.webp", alt: "KiwiCamping on iPhone: a campsite's page with its adult, child and infant prices per night and an amenities list showing unpowered sites, non-flush toilets and untreated tap water" },
   { slug: "paparoa-track-huts-booking-2026-27", section: 7, src: "/images/screens/paparoa-track-huts-booking-2026-27.webp", alt: "KiwiCamping on iPhone: a satellite map of the West Coast with numbered clusters and pins for campsites, huts and walks such as the Harihari Coastal Walkway and Scone Hut" },
   { slug: "hump-ridge-track-huts-booking-2026-27", section: 7, src: "/images/screens/hump-ridge-track-huts-booking-2026-27.webp", alt: "KiwiCamping on iPhone: a trip itinerary of ordered stops, including tours, holiday parks and a campsite, with the distance and drive time shown between each leg" },
+  { slug: "auckland-to-wellington-drive-guide", section: 6, src: "/images/screens/auckland-to-wellington-drive-guide.webp", alt: "KiwiCamping on iPhone: a North Island road trip guide with its length in kilometres, a Save all mentioned places button and the top of a map with place markers near Hamilton" },
 ];
 
 const images = manifest as Record<string, unknown>;
