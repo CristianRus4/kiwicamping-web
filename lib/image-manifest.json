@@ -55,6 +55,20 @@
       }
     ]
   },
+  "/images/articles/auckland-to-wellington-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/auckland-to-wellington-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/auckland-to-wellington-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/banks-peninsula-camping-weekend.webp": {
     "width": 1600,
     "height": 900,
@@ -503,6 +517,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-to-queenstown-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-queenstown-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-queenstown-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christmas-summer-camping-new-zealand-2026-27.webp": {
     "width": 1600,
     "height": 900,
@@ -895,6 +923,20 @@
       }
     ]
   },
+  "/images/articles/hump-ridge-track-huts-booking-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/hump-ridge-track-huts-booking-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/hump-ridge-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/kauri-dieback-camping-travel.webp": {
     "width": 1600,
     "height": 900,
@@ -975,6 +1017,20 @@
       },
       {
         "path": "/images/articles/kiwicamping-weather-look-around.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/lake-waikaremoana-great-walk-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/lake-waikaremoana-great-walk-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/lake-waikaremoana-great-walk-camping-2026-27.webp",
         "width": 1600
       }
     ]
@@ -1245,6 +1301,20 @@
       }
     ]
   },
+  "/images/articles/paparoa-track-huts-booking-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/paparoa-track-huts-booking-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/paparoa-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/picton-kaikoura-christchurch-route.webp": {
     "width": 1600,
     "height": 900,
@@ -1297,6 +1367,20 @@
       },
       {
         "path": "/images/articles/queenstown-glenorchy-camping.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/queenstown-to-milford-sound-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/queenstown-to-milford-sound-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/queenstown-to-milford-sound-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -1881,6 +1965,20 @@
       }
     ]
   },
+  "/images/screens/auckland-to-wellington-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/auckland-to-wellington-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/auckland-to-wellington-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/best-campervan-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -2017,6 +2115,20 @@
       },
       {
         "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/christchurch-to-queenstown-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/christchurch-to-queenstown-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/christchurch-to-queenstown-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -2189,6 +2301,20 @@
       }
     ]
   },
+  "/images/screens/hump-ridge-track-huts-booking-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/hump-ridge-track-huts-booking-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/hump-ridge-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/kepler-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,
@@ -2199,6 +2325,20 @@
       },
       {
         "path": "/images/screens/kepler-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/lake-waikaremoana-great-walk-camping-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/lake-waikaremoana-great-walk-camping-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/lake-waikaremoana-great-walk-camping-2026-27.webp",
         "width": 1600
       }
     ]
@@ -2255,6 +2395,34 @@
       },
       {
         "path": "/images/screens/nz-great-walks-2026-27-huts-campsites-booking-fees.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/paparoa-track-huts-booking-2026-27.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/paparoa-track-huts-booking-2026-27-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/paparoa-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/queenstown-to-milford-sound-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/queenstown-to-milford-sound-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/queenstown-to-milford-sound-drive-guide.webp",
         "width": 1600
       }
     ]
