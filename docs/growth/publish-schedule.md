@@ -76,3 +76,17 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-04 | working-holiday-road-trip-budget-new-zealand-2026 | scheduled |
 | 2026-12-05 | north-island-vs-south-island-campervan | scheduled |
 | 2026-12-06 | campervan-vs-car-and-tent-new-zealand | scheduled |
+| 2026-12-07 | milford-track-2026-27-huts-booking-fees | scheduled |
+| 2026-12-08 | kepler-track-camping-2026-27 | scheduled |
+| 2026-12-09 | heaphy-track-camping-2026-27 | scheduled |
+| 2026-12-10 | rakiura-track-camping-2026-27 | scheduled |
+| 2026-12-11 | whanganui-journey-camping-2026-27 | scheduled |
+| 2026-12-12 | lake-waikaremoana-great-walk-camping-2026-27 | scheduled |
+| 2026-12-13 | paparoa-track-huts-booking-2026-27 | scheduled |
+| 2026-12-14 | hump-ridge-track-huts-booking-2026-27 | scheduled |
+| 2026-12-15 | auckland-to-wellington-drive-guide | scheduled |
+| 2026-12-16 | christchurch-to-queenstown-drive-guide | scheduled |
+| 2026-12-17 | queenstown-to-milford-sound-drive-guide | scheduled |
+| 2026-12-18 | auckland-to-bay-of-islands-drive-guide | scheduled |
+| 2026-12-19 | wellington-to-napier-drive-guide | scheduled |
+| 2026-12-20 | christchurch-to-dunedin-drive-guide | scheduled |
