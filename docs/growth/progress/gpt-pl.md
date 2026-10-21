@@ -19,3 +19,7 @@ Translated (script-validated, no separate review): two-week-camper-itinerary-new
 ## KiwiCamping batch 14 (Polish)
 Translated (script-validated, no separate review): best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand, freedom-camping-rules-new-zealand, freedom-camping-new-zealand-guide, self-contained-campervan-green-warrant, doc-campsites-new-zealand-guide.
 - Editor note: the English green-warrant guide intro lists requirements with "for three days" at the end; read as applying to all of them, matching the later section.
+
+## KiwiCamping batch 15 (Polish) - KiwiCamping now 89/89
+Translated (script-validated, no separate review): holiday-parks-new-zealand-guide, camping-wastewater-rubbish-new-zealand, campfire-rules-new-zealand, new-zealand-camping-packing-list, best-time-camping-new-zealand, scenic-campsites-new-zealand, camping-fees-new-zealand-2026.
+- Batches 10-15 had no separate native review (owner speed rule); a Polish reader should spot-check the legal/fine sentences in the freedom-camping, campfire and wastewater guides.
