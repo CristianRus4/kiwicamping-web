@@ -37,6 +37,7 @@
 - **Property:** sc-domain:campingapp.nz.
 - **Sitemap:** https://campingapp.nz/sitemap.xml was submitted or resubmitted on 2026-10-19. Before that, the sitemap was either never submitted (aussiecamps) or last read on 20 Nov 2025 (campingapp).
 - **Baselines:** `docs/growth/gsc/2026-10-19/`.
+- **2026-10-21 (all 15 locales live):** sitemap index resubmitted; locale sitemaps Success (ja 89, ko 89, zh-hans 89, zh-hant 89, cs 66, pl 51, da 89, sv 89, nb 89). Validate fix started for "Excluded by 'noindex' tag" (266) and "Crawled - currently not indexed" (2); pages report: 391 indexed, 456 not indexed. Indexing requested for the 10 day-1 URLs (new language homes, best-nz-camping-apps, doc-campsites-huts-guide, self-contained-vehicles-nz, overseas-driver-licence). /de/guides/east-cape-road-trip/ inspected: on Google. Bing: sitemap resubmitted (379 URLs processing), 10 URLs submitted.
 
 ## Naver Search Advisor (Korean search)
 - Ownership verified for https://campingapp.nz on 2026-10-21 with the HTML meta tag (`naver-site-verification` in the root layout's `metadata.other`; keep it).
