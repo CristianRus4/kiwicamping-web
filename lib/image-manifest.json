@@ -1531,6 +1531,20 @@
       }
     ]
   },
+  "/images/screens/campable-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/campable-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/campable-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/campermate-alternatives.webp": {
     "width": 1600,
     "height": 900,

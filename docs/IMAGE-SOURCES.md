@@ -94,3 +94,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `working-holiday-apps-new-zealand` | Autumn in the Awatere Valley.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Autumn_in_the_Awatere_Valley.jpg) |
 | `money-saving-travel-apps-new-zealand` | Moke Lake.jpg | André Richard Chalmers | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Moke_Lake.jpg) |
 | `best-campsite-booking-apps-new-zealand` | Matata, view from the DOC campsite.jpg | Symac | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Matata,_view_from_the_DOC_campsite.jpg) |
+| `campable-alternatives` | 010 Freedom camping in New Zealand - parked campervan RVs in West Coast NZ.jpg | Marek Ślusarczyk (Tupungato) | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:010_Freedom_camping_in_New_Zealand_-_parked_campervan_RVs_in_West_Coast_NZ.jpg) |

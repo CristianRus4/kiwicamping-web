@@ -962,4 +962,82 @@ export const listicleArticles: Article[] = [
       { label: "CamperMate", url: "https://campermate.com" },
     ],
   }),
+  a({
+    slug: "campable-alternatives",
+    listicle: true,
+    publishAt: "2026-11-05",
+    title: "6 Best Campable Alternatives for New Zealand Camping in 2026",
+    description: "Looking past Campable? KiwiCamping, CamperMate, WikiCamps, Rankers, DOC and holiday parks compared on price, booking and offline use, with when Campable is still the right pick. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Private land stays", "DOC campsites", "Holiday parks", "Freedom camping", "Campervans"],
+    imageAlt: "A white campervan parked in a grassy paddock below native forest on the West Coast of the South Island",
+    related: ["best-nz-camping-apps", "best-campsite-booking-apps-new-zealand", "self-contained-campervan-green-warrant", "free-camping-apps-new-zealand"],
+    intro:
+      "Campable is a marketplace for private land: farms, orchards, vineyards and sports clubs whose hosts open a patch to self-contained campervans and motorhomes. It does that one job well, and people look for alternatives when they want public sites, free sites, a bigger list or a tent pitch. KiwiCamping is ours and heads this list as a planning tool, not a private-land marketplace, and each entry says what it does better than Campable and what it does not. Prices and ratings are from the New Zealand App Store and each company's own site, checked on 21 October 2026.",
+    sections: [
+      s("Campable alternatives at a glance", [
+        "For public camping and a trip plan, start with KiwiCamping or CamperMate. For the longest list of sites, WikiCamps; for local reviews, Rankers; for conservation land, DOC's own booking site.",
+        "None of them replaces Campable's instant booking on private land, so some travellers keep Campable for the odd night on a farm and use another app for the rest.",
+      ], undefined, {
+        caption: "Checked 21 October 2026 on the New Zealand App Store and each company's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App or site", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["Campable", "Private land stays for self-contained vans", "App free; no guest booking fee", "4.5 (13)"],
+          ["KiwiCamping", "DOC places and a dated trip plan", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["CamperMate", "A free all-rounder, NZ and Australia", "Free; contains ads", "4.4 (606)"],
+          ["WikiCamps New Zealand", "The biggest list of sites", "NZ$7.99 once", "4.5 (137)"],
+          ["Rankers Camping NZ", "Reviews of welcome overnight spots", "Free", "4.7 (3,322)"],
+          ["DOC booking system", "Conservation-land campsites and huts", "Website; fees per DOC", "Not applicable"],
+          ["Holiday park booking", "Powered sites and facilities", "TOP 10 card NZ$55 for 2 years", "Not applicable"],
+        ],
+      }),
+      s("1. KiwiCamping: best for public sites and a trip plan", [
+        "Where Campable lists private hosts, KiwiCamping maps public ones: DOC campsites and huts, holiday parks, dump stations and DOC's freedom-camping notices, with filters for water, toilets, showers, power, dogs, vehicle access and fees. A trip lets you order stops with dates, see the drive time between them and keep a checklist.",
+        "It does not book private land and has no live availability: BookIt stays and tours and bookable DOC places show a link out to book. Place details are stored on the phone, so they stay readable without signal, while map tiles, routing, weather and photos need a connection.",
+        "KiwiCamping is iPhone only (iOS 26 or later) and new, with 4 New Zealand ratings averaging 3.8.",
+      ], ["Choose it for: public sites and a trip plan", "No private-land booking", "iPhone only; few ratings"], undefined, true),
+      s("2. CamperMate: best free all-rounder", [
+        "CamperMate is free and covers New Zealand and Australia, with campsites, holiday parks, freedom-camping spots, dump stations and toilets, reviews and photos, and bookings you can check and make in the app. Its listing says you can download maps and use it without an internet connection.",
+        "It rated 4.4 from 606 New Zealand ratings and carries ads. Some reviewers dislike its recent redesign, and part of its data is contributed by travellers, so check a site's details before you rely on it.",
+      ], ["Choose it for: a free app that works offline", "Contains ads", "Redesign disliked by some"]),
+      s("3. WikiCamps New Zealand: best for the biggest list", [
+        "WikiCamps New Zealand costs NZ$7.99 once on the App Store, with no subscription, and lists more than 12,000 New Zealand sites with traveller reviews, photos and fee details. It includes a trip planner and an offline mode, and says you can book from more than 1,000 sites in the app.",
+        "It rated 4.5 from 137 New Zealand ratings, with 3.0 from 1,042 on Google Play. Listings are written by travellers, and the bookable ones are about 1,000 of its 12,000.",
+      ], ["Choose it for: the longest list", "NZ$7.99 once, no subscription", "Mostly user-written listings"]),
+      s("4. Rankers Camping NZ: best for local reviews", [
+        "Rankers is free and the most-rated camping app on the New Zealand store, with 4.7 from 3,322 ratings. It lists places where the local community has said overnight stays are welcome, with more than 108,000 traveller reviews that its team reads, and around 500 bookable campground options.",
+        "Its campsite information works offline from the day you install it, and detailed maps download over Wi-Fi. It earns its income from commissions on bookings and activity deals, and from campervan hire, at no extra cost to you, so it lists fewer places than WikiCamps.",
+      ], ["Choose it for: vetted, welcome sites", "Free", "Fewer places than WikiCamps"]),
+      s("5. DOC's booking site: best for conservation land", [
+        "DOC books Great Walks, huts, campsites and lodges on its own website, and there is no DOC app for it. Standard campsites cost $10 to $20 per adult a night, serviced ones $20 to $28 and basic ones are free, and most of DOC's roughly 950 huts are first come, first served.",
+        "It has no private land and bookings are online only, but you pay DOC's published prices with no marketplace in between. Our booking guide compares it with the other options.",
+      ], ["Choose it for: DOC huts and campsites", "Official prices", "No private land"]),
+      s("6. Holiday parks: best for powered sites and facilities", [
+        "A park gives you a powered site, kitchens and showers with a guaranteed place, which Campable's hosts do not promise. TOP 10 Holiday Parks has 52 parks, books on its website, and sells a membership card for NZ$55 for 2 years that saves 10% on accommodation, and its free app holds the card.",
+        "Holiday Parks New Zealand lists 230 member parks. Each chain books separately, so there is no single app for all of them.",
+      ], ["Choose it for: powered sites", "Chain by chain", "TOP 10 card saves 10%"]),
+      s("When Campable is still the better choice", [
+        "Choose Campable for a quiet night on a farm, orchard or vineyard with a host to meet, and instant booking on real availability for some places. Its price is shown up front with no guest booking fee, though your card is charged 14 days before the stay and cancellations inside six days lose at least half.",
+        "Campable accepts only certified self-contained vehicles with a current green self-containment warrant, so it is not for tents or vans without one. Apple's rating of 4.5 from 13 sits beside Google Play's 2.6 from 57, so read recent reviews. Hipcamp lists private land in New Zealand on its website, but we found no Hipcamp app in the New Zealand App Store.",
+      ], ["Private land with a host", "Green warrant required", "Cancel 6 days out for a refund"]),
+      s("How we chose and checked", [
+        "We picked the options a Campable user is most likely to compare it with, and checked their price, rating, version and features on the New Zealand App Store and each company's own site on 21 October 2026. Campable's terms come from its payments and cancellation pages.",
+        "Terms change often, so read a service's current conditions before you pay. Leaving a feature out of this list is not a claim that the app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "Campable: guest FAQ", url: "https://www.campable.com/faq-guest" },
+      { label: "Campable: payments", url: "https://www.campable.com/payments" },
+      { label: "Campable: cancellation policy", url: "https://www.campable.com/cancellation-policy" },
+      { label: "Rankers Camping NZ: about", url: "https://camping-nz.rankers.co.nz/about" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz" },
+      { label: "CamperMate", url: "https://campermate.com" },
+      { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
+      { label: "DOC: campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "TOP 10 Holiday Parks", url: "https://top10.co.nz" },
+      { label: "Holiday Parks New Zealand", url: "https://holidayparks.co.nz" },
+      { label: "Hipcamp: New Zealand camping", url: "https://www.hipcamp.com/en-AU/d/new-zealand/camping/all" },
+    ],
+  }),
 ];

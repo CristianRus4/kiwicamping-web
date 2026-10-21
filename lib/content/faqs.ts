@@ -309,4 +309,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need to book a DOC campsite in summer?", "DOC requires bookings for all serviced campsites and some scenic and standard campsites in peak season, usually 1 October to 30 April. Other campsites are first come, first served and paid at the self-registration stand."],
     ["Can I book private land camping in New Zealand?", "Yes. Campable lists hosts on farms, vineyards and other private land for certified self-contained vehicles, and says it charges guests no booking fee."],
   ],
+  "campable-alternatives": [
+    ["What is an alternative to Campable in New Zealand?", "It depends on the job. CamperMate and WikiCamps list public and private sites, Rankers lists spots the local community welcomes, DOC's website books conservation-land campsites and huts, and KiwiCamping maps DOC places and plans a trip."],
+    ["Is Campable free to use?", "The app is free, and Campable says it charges guests no booking fees. You pay the host's nightly price and your card is charged 14 days before the stay."],
+    ["Do I need a self-contained vehicle to use Campable?", "Yes. Campable accepts only certified self-contained vehicles with a current green self-containment warrant, though some hosts accept a portable toilet."],
+    ["Can I book private land camping without Campable?", "Hipcamp lists private land in New Zealand on its website, and some stays can be found in CamperMate and WikiCamps. Campable remains the app built around hosted private land for self-contained vans."],
+  ],
 };
