@@ -79,4 +79,76 @@ export const driveGuideArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-queenstown-drive-guide",
+    publishAt: "2026-12-16",
+    title: "Christchurch to Queenstown Drive 2026: Route, Time, Stops and Camping",
+    description: "Christchurch to Queenstown by road: about 6 hours via Lake Tekapo, Ōmārama and the Lindis Pass, with the Ōamaru and Crown Range alternatives, official leg times, fuel and camping.",
+    category: "Road trips",
+    region: "Canterbury and Otago",
+    places: ["Christchurch", "Geraldine", "Lake Tekapo", "Twizel", "Ōmārama", "Lindis Pass", "Cromwell", "Queenstown"],
+    imageAlt: "A wide tussock valley in the Lindis Pass with a road running along the far hillside under a clear blue sky",
+    related: ["christchurch-tekapo-aoraki-road-trip", "south-island-two-week-road-trip", "queenstown-glenorchy-camping", "freedom-camping-waitaki-2026", "freedom-camping-queenstown-lakes-2026", "left-side-driving-new-zealand", "campervan-road-rules-new-zealand", "winter-driving-new-zealand-campervan"],
+    hubs: ["camping/canterbury", "camping/otago"],
+    intro:
+      "The usual drive from Christchurch to Queenstown goes inland on State Highway 8 through Lake Tekapo, Twizel, Ōmārama and the Lindis Pass. Tourism Waitaki gives Christchurch to Ōmārama as 345 km and 4 hours, and its Queenstown Airport figure implies about 2 hours more, so allow roughly 6 hours of driving before stops, or about 6.5 hours if you go through Wānaka. No official page read for this guide gives one distance for the whole drive, so none is quoted. Below are the route options, a table of official leg times, fuel, the winter record on State Highway 8 and where to stay.",
+    sections: [
+      s("Christchurch to Queenstown: route, distance and time", [
+        "NZTA's traffic bulletins name the highways on the inland route: State Highway 79 between Geraldine and Fairlie, State Highway 8 from Fairlie through Burkes Pass to Lake Tekapo and on to Lake Pūkaki and Twizel, and State Highway 8 again from Ōmārama over the Lindis Pass to Tarras. Visit Mackenzie says driving south from Christchurch takes approximately three hours to Lake Tekapo, with Aoraki/Mount Cook one hour further, and asks you to allow more time for Fairlie and Geraldine. Tourism Waitaki puts Christchurch to Ōmārama at 345 km and 4 hours.",
+        "The last leg is this page's arithmetic. Tourism Waitaki gives Queenstown Airport to Ōamaru as 3.5 hours via State Highway 8 and then State Highway 83 at Ōmārama, and Ōmārama to Ōamaru as 1 hour 30 minutes, which leaves about 2 hours from Ōmārama to Queenstown and about 6 hours in all. Lake Wānaka Tourism gives Christchurch to Wānaka as 5.5 hours and Wānaka to Queenstown over the Crown Range as 1 hour, which makes 6.5 hours that way. The Christchurch to Tekapo and Aoraki guide covers the first half in detail, and the South Island two-week road trip guide puts the drive inside a longer loop.",
+      ], ["About 6 hours via Ōmārama, by this page's sums", "About 6.5 hours via Wānaka and the Crown Range", "No official single distance found"]),
+      s("The fastest route and the alternatives", [
+        "The direct route is the inland one through Geraldine, Fairlie and Burkes Pass, and Visit Mackenzie lists Fairlie to Lake Tekapo as 30 minutes and Lake Tekapo to Twizel as 45 minutes. Ōmārama is, in Tourism Waitaki's words, a crossroads between Queenstown, Twizel and Waitaki. The coastal alternative runs down State Highway 1 to Ōamaru, which Tourism Waitaki gives as 3 hours 30 minutes and 248 km from Christchurch, then inland up the Waitaki Valley on State Highway 83 to Ōmārama, 1 hour 30 minutes and 118 km. That totals 366 km and 5 hours to Ōmārama, against 345 km and 4 hours direct.",
+        "From the Lindis Pass you can reach Queenstown through Cromwell or through Wānaka. Lake Wānaka Tourism gives Wānaka to Queenstown as 1 hour over the Crown Range or 1 hour 15 minutes via Cromwell on State Highway 6, and calls the Cromwell route more gradual and recommended in poor weather or for those towing trailers or campervans. Its Crown Range page says chains must be carried from May to October, cites Queenstown Lakes District Council for that, and does not advise towing vehicles or vehicles longer than about 12 metres. The council's own page was bot-blocked when this guide was researched, so check it before a winter crossing.",
+      ], ["Burkes Pass and Lindis Pass are both on State Highway 8", "Via Ōamaru adds about an hour to reach Ōmārama", "Cromwell route suits caravans and campervans in poor weather"]),
+      s("Leg times and distances at a glance", [
+        "The table gathers the leg figures from the official pages read for this guide. Aoraki/Mount Cook is a side trip rather than a stop on the way: DOC says it is accessed off State Highway 8 at the end of State Highway 80, and is a 3.5 hour drive from Queenstown and a 4.5 hour drive from Christchurch. Tekapo, Twizel and the village are covered by the Tekapo and Aoraki guide.",
+        "Mixing sources needs care. Visit Mackenzie measures from Fairlie, Lake Tekapo and Twizel, Tourism Waitaki from Christchurch and Ōmārama, and Lake Wānaka Tourism from Wānaka, so the figures do not chain together exactly. Use them to see which stage is longest rather than to schedule to the minute.",
+      ], ["Tekapo is about 3 hours from Christchurch", "Aoraki is a one-hour side trip from Tekapo", "Figures come from four different tourism and DOC pages"], {
+        caption: "Times and distances exactly as each source gives them, read 21 October 2026.",
+        head: ["Leg", "Official figure", "Source"],
+        rows: [
+          ["Christchurch to Lake Tekapo", "About 3 hours", "Visit Mackenzie"],
+          ["Fairlie to Lake Tekapo", "30 minutes", "Visit Mackenzie"],
+          ["Lake Tekapo to Twizel", "45 minutes", "Visit Mackenzie"],
+          ["Lake Tekapo to Aoraki/Mount Cook Village (side trip)", "1 hour 15 minutes", "Visit Mackenzie"],
+          ["Christchurch to Ōmārama via State Highway 8", "345 km, 4 hours", "Tourism Waitaki"],
+          ["Christchurch to Ōamaru via State Highway 1", "248 km, 3 hours 30 minutes", "Tourism Waitaki"],
+          ["Ōmārama to Ōamaru via State Highway 83", "118 km, 1 hour 30 minutes", "Tourism Waitaki"],
+          ["Christchurch to Wānaka", "5.5 hours", "Lake Wānaka Tourism"],
+          ["Wānaka to Queenstown, Crown Range", "1 hour", "Lake Wānaka Tourism"],
+          ["Wānaka to Queenstown, via Cromwell", "1 hour 15 minutes", "Lake Wānaka Tourism"],
+        ],
+      }),
+      s("Fuel, charging and food stops", [
+        "Visit Mackenzie lists where to fill up: a BP in Fairlie on Main Street heading towards Lake Tekapo, a Challenge station at the north end of Lake Tekapo, a Mobil in Twizel on Mackenzie Drive in the centre of town, and a self-service pump at Aoraki/Mount Cook that takes credit cards only. No official page read for this guide lists fuel in Ōmārama, Tarras or Cromwell, so check opening hours on a live map before you cross the Lindis Pass.",
+        "The EV charging map on NZTA's Journey Planner site shows chargers along the route, with a note that the operators supply the details. Tourism Waitaki points to the Paritea Clay Cliffs as a stop near Ōmārama: from State Highway 8 you take Henburn Road, park, and walk 15 minutes. Stock up with the help of the food and fuel resupply guide before the high country.",
+      ], ["Fill up in Tekapo or Twizel before Ōmārama", "Aoraki pump is credit card only", "Clay Cliffs are a 15-minute walk from Henburn Road"]),
+      s("Road rules and winter closures on State Highway 8", [
+        "Destination Queenstown reminds visitors that New Zealand drives on the left, that roads can be narrow and winding, and that ice or snow on winter roads is possible. Visit Mackenzie adds that high-country roads have up-and-down slopes and winding sections. The left-side driving guide and the campervan road rules guide cover the rules, and the winter driving guide covers chains, ice and tyres.",
+        "NZTA's own bulletins show how the closures work. On 28 October 2025 it closed State Highway 8 from Fairlie to Twizel, including Lake Tekapo and Burkes Pass, and State Highway 80 for heavy snow, and listed State Highway 8 from Tarras to Omarama including the Lindis Pass among the closures for snow and ice. In its early-July 2026 updates, State Highway 8 between Fairlie and Lake Pūkaki closed more than once for snow. A third bulletin, from 19 August 2025, closed the Omārama to Tarras section for snow and advised extra care after it reopened. Snow in late October has closed the road before, and NZTA's Journey Planner is where to check on the day.",
+      ], ["Snow closed State Highway 8 in late October 2025", "Check the Journey Planner before the Lindis Pass", "Chains: carry them on the Crown Range from May to October"]),
+      s("Where to sleep between Christchurch and Queenstown", [
+        "DOC's Lake Poaka Campsite sits north of the Pūkaki Canal off State Highway 8 on the Tekapo to Twizel road: turn onto the private road and follow it 2.5 km. It has 30 non-powered or tent sites and a long drop toilet, is free, first come first served, with a maximum stay of four nights and no dogs, and DOC warns of loose gravel and corrugated surfaces on the access road. The Tekapo and Aoraki guide covers the other Mackenzie options.",
+        "Freedom camping rules change at each district boundary. The Waitaki council guide covers the Ōmārama end and the Queenstown Lakes guide covers the last stretch, with the Queenstown and Glenorchy guide for the lakeside camps. KiwiCamping's DOC snapshot of 11 August 2026 counts 22 DOC campsites in Canterbury and 30 in Otago, which is where most of the route lies.",
+      ], ["Lake Poaka is free with a four-night limit", "Check each council's rules on freedom camping", "Check Queenstown-area sites and rules before you arrive"]),
+      s("Building the Christchurch to Queenstown drive in KiwiCamping", [
+        "In KiwiCamping you can pin campsites, huts and holiday parks along the Mackenzie and Waitaki roads, drop them into a trip as ordered stops, and read the distance between each pair of stops with a forecast for every place on the list. The app is not a navigator, with no turn-by-turn directions and no live traffic, so NZTA's Journey Planner stays open on the side.",
+        "A night at Tekapo, a night at Ōmārama or Cromwell and a night in Queenstown become three stops you can reorder, and the saved places and place details stay readable when the signal drops, whereas map tiles, routing, weather and photos need coverage.",
+      ], ["Three stops are enough for most itineraries", "Forecast at every stop on the list", "Reorder stops when the weather changes"], undefined, true),
+    ],
+    sources: [
+      { label: "Visit Mackenzie: getting here and around", url: "https://www.mackenzienz.com/getting-here-and-around/" },
+      { label: "Tourism Waitaki: getting here", url: "https://www.waitakinz.com/about/getting-here" },
+      { label: "Tourism Waitaki: Ōmārama", url: "https://www.waitakinz.com/destinations/omarama" },
+      { label: "Lake Wānaka Tourism: driving to Wānaka", url: "https://www.wanaka.co.nz/plan-your-trip/getting-to-wanaka/driving-to-wanaka/" },
+      { label: "DOC: Aoraki/Mount Cook National Park, getting there", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/getting-there/" },
+      { label: "Destination Queenstown: getting here and getting around", url: "https://www.queenstownnz.co.nz/plan/getting-here-and-getting-around/" },
+      { label: "NZTA traffic bulletin (28 October 2025): final closed highway in south reopens", url: "https://www.journeys.nzta.govt.nz/traffic-bulletins/update-final-closed-highway-in-south-reopens" },
+      { label: "NZTA traffic bulletin (19 August 2025): SH8 reopens between Omarama and Tarras", url: "https://www.journeys.nzta.govt.nz/traffic-bulletins/lindis-passsh8-closed-due-to-snow" },
+      { label: "NZTA traffic bulletin (July 2026): caution urged with rain, snow and ice ahead", url: "https://www.journeys.nzta.govt.nz/traffic-bulletins/update-caution-urged-with-rain-snow-and-ice-ahead" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Lake Poaka Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/twizel-area/things-to-do/lake-poaka-campsite/" },
+    ],
+  }),
 ];
