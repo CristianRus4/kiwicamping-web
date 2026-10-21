@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { HubPage, hubMetadataFor } from "@/components/hub-page";
 import { getHub, hubsOfKind } from "@/lib/hubs";
 import { SITE_URL } from "@/lib/site";
+import { alternatesFor } from "@/lib/seo";
+import { hubPageKey } from "@/lib/routes/hubs";
 
 export const dynamicParams = false;
 
@@ -17,7 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ district:
   const { title, description, indexable } = hubMetadataFor(hub);
   return {
     title, description,
-    alternates: { canonical: hub.path },
+    // hreflang only once a second edition is indexable (the translated hubs are behind a switch).
+    alternates: { canonical: hub.path, languages: indexable ? alternatesFor(hubPageKey(hub.id)) : undefined },
     openGraph: { type: "website", siteName: "KiwiCamping", locale: "en_NZ", title, description, url: `${SITE_URL}${hub.path}`, images: [{ url: "/images/kiwicamping-og.webp", width: 1200, height: 630, alt: "KiwiCamping" }] },
     // Below the quality gate a hub is still built for visitors, but kept out of search.
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true } },

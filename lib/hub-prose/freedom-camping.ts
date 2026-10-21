@@ -45,6 +45,26 @@ export const freedomCampingProse: Record<string, HubProse> = {
     ],
   },
 
+  "freedom-camping/south-westland": {
+    paragraphs: [
+      "DOC's South Westland district has 18 current freedom camping notices on public conservation land. Of these, 17 prohibit camping outright and just 1 is restricted. These are DOC notices for land it manages, not council bylaws: on roadsides, reserves and car parks the council controls, the Westland District Council freedom camping rules apply instead.",
+      "The one restricted area is Whakapohai Road, South Westland, covering 3.1 ha. You may freedom camp there only in a certified self-contained vehicle, and for no more than 4 nights in a calendar month. Every other area on the list is closed to freedom camping, whatever you are driving and however self-contained it is.",
+      "The prohibited areas are mostly small car parks at the places visitors stop: Fox Glacier Visitor Centre Carpark, Franz Josef Glacier Road and Carparks, Lake Matheson Carpark, Haast Visitor Centre Carpark, Knights Point Viewpoint Carparks, Ship Creek Amenity Area and Carpark, Monro Beach Walk Carpark and Westland National Park Visitor Centre. Many cover less than 1 ha, and Wharekai -Te Kou Walk Carparks is the smallest at 0.1 ha. Roaring Billy Walk carpark is the largest notice area at 18.4 ha, ahead of Okarito Recreation Reserve at 9.9 ha, and prohibited land totals 41.9 ha of the 45 ha covered.",
+      "Three notices are recent. MacDonalds Creek and Peak Viewpoint were prohibited on 13 November 2021, and Southside Road, Fox Glacier Carparks on 13 December 2021; the other 15 date from 1 December 2012. Notice numbers run from 84 to 304, the notices sit on 12 distinct conservation land parcels, and 1 older notice for the district is historic and no longer current, so check an older list against these before relying on it.",
+    ],
+    councils: [{ label: "Westland District Council freedom camping rules", url: "https://westlanddc.govt.nz/responsible-camping-bylaw" }],
+  },
+
+  "freedom-camping/te-anau": {
+    paragraphs: [
+      "DOC's Te Anau district has 24 current freedom camping notices on public conservation land, and every one of them prohibits camping. There are no restricted areas here, so no notice lets even a certified self-contained vehicle stay: if a place is on this list, you cannot freedom camp there at all. The notices cover 4,046.5 ha in total. They were made by DOC for land it manages and are not council bylaws; on council land around Te Anau, the Southland District Council freedom camping rules apply instead.",
+      "One notice dwarfs the rest. Patience Bay, Milford Road is the largest notice area at 2,107.6 ha, more than half of the total. Eweburn covers 609.3 ha, Queens and Rainbow Reaches carparks 370.2 ha and Margin Forest 181.7 ha. At the other end, Pearl Harbour, Waiau River is the smallest at 1.1 ha, and Te Anau AO and Visitor Centre Carparks covers 1.6 ha, so the list runs from large blocks of land down to single car parks in town.",
+      "Many of the notices sit along the road to Milford: The Divide Carpark, Lake Gunn Walk Carpark, Lake Marian Falls Track Carpark, Mistake Creek Track Carpark, Monkey Creek, The Chasm Carpark, Hollyford Roadend and Moraine Creek Carpark, Homer Nature Walk & Gertrude Valley Track and Tutuko Valley Track. Of the 24 notices, 12 share one conservation land parcel. Kepler Track and Control Gate Carparks and Te Anau Downs and Lake Mistletoe Carparks are on the list too, so trailhead parking is not a place to sleep.",
+      "All 24 current notices were made on the same day in December 2012, with notice numbers running from 230 to 256, and none for this district is historic, so this list is the whole current picture for DOC land here. For somewhere to stay, look at the DOC campsites in the area or the council's rules for its own land, and read the freedom camping rules guide before you set off.",
+    ],
+    councils: [{ label: "Southland District Council freedom camping rules", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-need-to-know/" }],
+  },
+
   "freedom-camping/tongariro": {
     paragraphs: [
       "Prohibited areas dominate the Tongariro district. Of 22 current DOC notices, 17 prohibit freedom camping, and the largest notice area, Whakapapa Village at 43.5 ha, is one of them. Ohakune Lakes adds another 16.8 ha, and most of the rest are car parks at track ends, falls and viewpoints: Mangatepopo Roadend Carpark, Ketetahi Road Carpark, Tawhai Falls Carpark, Mounds Walk Carpark, Waitonga Falls Carpark, Raurimu Spiral Viewpoint and the Ohakune Visitor Centre among them. In a prohibited area you cannot freedom camp at all.",
