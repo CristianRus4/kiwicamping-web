@@ -1127,4 +1127,86 @@ export const listicleArticles: Article[] = [
       { label: "TrailTreks: NZ Topo Maps (App Store)", url: "https://apps.apple.com/nz/app/id6753130686" },
     ],
   }),
+  a({
+    slug: "best-dump-station-apps-new-zealand",
+    listicle: true,
+    publishAt: "2026-11-07",
+    title: "6 Best Dump Station Apps and Sites for New Zealand in 2026",
+    description: "The best apps and sites for finding a campervan dump station in New Zealand in 2026: NZMCA, Rankers, CamperMate, WikiCamps, thl Roadtrip and KiwiCamping compared on price and offline use. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Dump stations", "Campervans", "Self-contained vehicles", "Councils"],
+    imageAlt: "A roadside rest area on the shore of Lake Taupō with a picnic table and a parked car",
+    related: ["camping-wastewater-rubbish-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-rules-new-zealand", "free-camping-apps-new-zealand"],
+    intro:
+      "Emptying a campervan toilet is a daily job on a New Zealand trip, and we found no app in the New Zealand App Store built only for dump stations. The practical answer is a camping app, the NZMCA's directory or a council's own page. This list compares the options with prices and ratings from the New Zealand App Store checked on 21 October 2026, then gives the rules from official sources. We make KiwiCamping, which has a dump station layer, and we say what it leaves out.",
+    sections: [
+      s("Dump station apps at a glance", [
+        "Use a camping app for the route and a council or NZMCA list to confirm a station before you rely on it. NZMCA's app needs a membership, Rankers and CamperMate are free, WikiCamps costs NZ$7.99 once, and KiwiCamping is free to download with in-app purchases.",
+        "None of the lists is complete, and fees and opening times change, so treat a listing as a starting point.",
+      ], undefined, {
+        caption: "Checked 21 October 2026 on the New Zealand App Store and each organisation's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App or site", "Dump station data", "Price", "NZ rating"],
+        rows: [
+          ["KiwiCamping", "262 dump stations with fee notes and facilities", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["NZMCA App", "Directory with dump stations, recycling and water", "App free; membership NZ$252 first year", "No NZ ratings yet"],
+          ["Rankers Camping NZ", "Public and holiday park dump stations", "Free", "4.7 (3,322)"],
+          ["CamperMate", "Dump stations, toilets and Wi-Fi", "Free; contains ads", "4.4 (606)"],
+          ["WikiCamps New Zealand", "Dump points among 12,000 sites", "NZ$7.99 once", "4.5 (137)"],
+          ["thl Roadtrip", "Dump stations near you, for hire customers", "Free", "4.6 (122)"],
+        ],
+      }),
+      s("1. KiwiCamping: best for planning dump stations into a route", [
+        "KiwiCamping maps 262 dump stations in its August 2026 data, and the listings show 240 as free, 8 as asking a donation, 6 as charging a fee and 8 with no fee noted. A record has the name, address, fee note, facilities such as toilets, a water tap and a bin, and the coordinates, and you can add one to a trip beside DOC campsites and holiday parks.",
+        "Place details open without signal because they are stored on the phone, but map imagery, routing, weather and photos need a connection. Our dump station guide has the regional counts and how to use a station.",
+        "The app runs on iPhone only (iOS 26 or later), and its 4 New Zealand ratings average 3.8.",
+      ], ["Choose it for: stations on a planned route", "Fee note on each record", "iPhone only; few ratings"], undefined, true),
+      s("2. NZMCA App: best for members with a self-contained vehicle", [
+        "The New Zealand Motor Caravan Association's app is for members: joining costs NZ$252 in the first year, made up of a NZ$150 joining fee and a NZ$102 annual subscription, and the NZMCA says the membership includes the app and its Travel Directory. The directory shows dump stations, recycling spots, laundromats and water refill stations, and NZMCA Parks cost $5 per adult a night.",
+        "Anything you drive or tow must be certified self-contained to use the benefits. The iPhone app had no New Zealand ratings when we checked and the Android app rated 3.2 from 156 reviews on Google Play. NZMCA says it only works on devices with their country set to New Zealand.",
+      ], ["Choose it for: NZMCA members", "Membership NZ$252 first year", "Certified self-contained vehicles"]),
+      s("3. Rankers Camping NZ: best free app with dump stations", [
+        "Rankers is free and rated 4.7 from 3,322 New Zealand ratings, the most of any camping app on the store. Its listing says it covers more than 1,500 campsites and 6,600 places in all, including dump stations, water refills and LPG, and all public and holiday park dump stations.",
+        "It works offline straight out of the box, and each review is read by a person on its team. It lists only places the community has approved, so use it with a council list for rural stations.",
+      ], ["Choose it for: free and well reviewed", "Works offline", "Approved places only"]),
+      s("4. CamperMate: best free app that also shows toilets and Wi-Fi", [
+        "CamperMate is free and covers New Zealand and Australia. Its listing says you can find dump stations, public toilets, Wi-Fi spots and supermarkets, and download maps and place information to use without an internet connection. Its New Zealand average is 4.4 from 606 ratings, and it shows ads.",
+        "We could not find a published count of its dump stations.",
+      ], ["Choose it for: a free offline all-rounder", "Contains ads", "No dump station count"]),
+      s("5. WikiCamps New Zealand: best for a large community list", [
+        "WikiCamps New Zealand costs NZ$7.99 once, has an offline mode, and lists more than 12,000 sites that include dump points among its filters. It rated 4.5 from 137 New Zealand ratings, with 3.0 on Google Play.",
+        "Its listings come from travellers and we could not find a dump point count, so check a station with the council if it matters.",
+      ], ["Choose it for: a large list for one price", "NZ$7.99 once", "Community-written listings"]),
+      s("6. thl Roadtrip: best for thl hire customers", [
+        "Tourism Holdings' free thl Roadtrip app, which Britz and Mighty Campers describe for their hirers, finds the nearest campsites, holiday parks, petrol stations, dump stations, toilets and LPG for New Zealand and Australia. It rated 4.6 from 122 New Zealand ratings.",
+        "The iPhone version was last updated in June 2025, and Mighty Campers says its app is powered by CamperMate, so another camping app is a useful second check.",
+      ], ["Choose it for: thl hire vans", "Free", "Last updated June 2025"]),
+      s("Council and NZMCA lists", [
+        "Councils publish their own stations, and fees vary. Waitaki District Council lists free dump stations at north Oamaru, east Omarama and Mill Reserve in Palmerston, and at its lakes camping grounds it is free with a camping ground ticket and otherwise $5 by donation box. Hurunui District Council lists stations at Amberley Beach, Cheviot, Culverden, Hanmer Springs and Waikari and suggests checking the CamperMate app or an AA map for private ones.",
+        "NZMCA says public dump stations are typically built to the NZS 5465:2001 design for self-containment. Vehicle certification now runs under the Plumbers, Gasfitters and Drainlayers (Self-Contained Vehicles) Regulations 2023.",
+      ], ["Waitaki: free at several sites", "Hurunui: five listed stations", "Check the council before you go"]),
+      s("The rules that sit behind a dump station", [
+        "Since 7 June 2026 only a green-warrant vehicle counts as self-contained, and the old blue warrant cannot be used for freedom camping. The requirements do not apply at a campground, holiday park or private property. The 2023 regulations require a wastewater system that stores greywater and blackwater and a way to dispose of wastewater hygienically to an appropriate outfall.",
+        "Depositing waste while freedom camping carries an $800 infringement fee, with a court maximum of $2,400. See our freedom camping rules guide for where the fine applies.",
+      ], ["Green warrant since 7 June 2026", "$800 fine for depositing waste", "Use a dump station"]),
+      s("How we chose and checked", [
+        "We included the apps and lists that show dump stations in New Zealand and left out US-focused dump apps, apps with no updates for years and apps with too few ratings to judge. Prices, ratings and versions come from the New Zealand App Store on 21 October 2026, and rules and fines from the legislation and each council's own page.",
+        "Fees, counts and opening times change, and we describe each service as its owner does. A feature not mentioned here is not a claim that an app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "NZMCA: join us", url: "https://www.nzmca.org.nz/join-us" },
+      { label: "NZMCA: dump stations", url: "https://www.nzmca.org.nz/dump-stations" },
+      { label: "NZMCA: the NZMCA app", url: "https://www.nzmca.org.nz/the-nzmca-app" },
+      { label: "Waitaki District Council: caravan and campervan dump stations", url: "https://waitaki.govt.nz/our-facilities/camping/Pages/caravanandcampervandumpstations.aspx" },
+      { label: "Hurunui District Council: campervan and caravan dump stations", url: "https://www.hurunui.govt.nz/recreation/campervancaravan-dump-stations" },
+      { label: "Plumbers, Gasfitters and Drainlayers Board: self-contained vehicles", url: "https://www.pgdb.co.nz/self_contained_vehicles/private_vehicle_owners/" },
+      { label: "Plumbers, Gasfitters, and Drainlayers (Self-Contained Vehicles) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/217/en/latest/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2023/136/en/latest/" },
+      { label: "Britz: thl Roadtrip app", url: "https://www.britz.com/nz/en/travel-info/britz-roadtrip-app" },
+      { label: "Mighty Campers: travel app", url: "https://www.mightycampers.com/nz/en/travel-info/travel-app" },
+      { label: "Rankers Camping NZ: about", url: "https://camping-nz.rankers.co.nz/about" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
+    ],
+  }),
 ];

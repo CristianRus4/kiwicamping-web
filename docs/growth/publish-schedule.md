@@ -44,3 +44,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-04 | best-campsite-booking-apps-new-zealand | scheduled |
 | 2026-11-05 | campable-alternatives | scheduled |
 | 2026-11-06 | best-tramping-great-walks-apps-new-zealand | scheduled |
+| 2026-11-07 | best-dump-station-apps-new-zealand | scheduled |

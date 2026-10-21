@@ -30,6 +30,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-campsite-booking-apps-new-zealand", section: 1, src: "/images/screens/best-campsite-booking-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Paihia TOP 10 Holiday Park page with its rating and a Book now button" },
   { slug: "campable-alternatives", section: 1, src: "/images/screens/campable-alternatives.webp", alt: "KiwiCamping on iPhone: the Kumutoto Bay Campsite page in Marlborough with its Open and Paid status and DOC's fee details" },
   { slug: "best-tramping-great-walks-apps-new-zealand", section: 1, src: "/images/screens/best-tramping-great-walks-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: the Inland Track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website" },
+  { slug: "best-dump-station-apps-new-zealand", section: 1, src: "/images/screens/best-dump-station-apps-new-zealand.webp", alt: "KiwiCamping on iPhone: a map near Queenstown with pins for a public dump station with drinking water and another dump station, above a list of nearby huts and campsites" },
 ];
 
 const images = manifest as Record<string, unknown>;
