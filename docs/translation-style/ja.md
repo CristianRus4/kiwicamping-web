@@ -57,7 +57,7 @@ Write like an experienced Japanese travel writer who has driven these roads, wri
 ### Numbers, money, dates and units
 - Arabic numerals with comma thousands separators, exactly as in the English: 74,000, 6,500. Do not convert to 万. The parity check compares numbers.
 - "74,000+" becomes 「74,000か所以上」 in prose. A stat tile keeps `74,000+` as written.
-- Australian money in running text is 「30豪ドル」. New Zealand money is 「30NZドル」. The amount comes first and nothing goes between the number and the unit. If the English shows `A$30` or `NZ$30` inside a table or label, keep that token. Currency codes in labels stay: 「燃料価格（AUD/L）」. Do not add yen conversions, because the site's currency table does that.
+- Australian money in running text is 「30豪ドル」. New Zealand money is 「30NZドル」. The amount comes first and nothing goes between the number and the unit. If the English shows `A$30` or `NZ$30` inside a table cell or a source label, keep that token. Tips are prose: 「120NZドル」, 「3.99〜12.99NZドル」. Currency codes in labels stay: 「燃料価格（AUD/L）」. Do not add yen conversions, because the site's currency table does that.
 - Dates are 2026年10月19日, months are 10月, and financial years are 2025〜26年度. Times are 午前10時 and 午後5時.
 - Distances are 60km, 100km/h and 3,000km, with no space. Volumes are 11リットル in prose and 11L in labels. Temperatures are 15℃. Fuel use is L/100km.
 - Ordinals and counts take Japanese counters: 3泊, 2人, 7か所, 2週間, 1区間.
@@ -122,10 +122,12 @@ Sources: TA = Tourism Australia Japan (australia.com/ja-jp); VNSW = Visit NSW Ja
 | farm stay, station stay | ファームステイ, 牧場ステイ | |
 | backpacker hostel | バックパッカーズホステル | |
 | hut (NZ backcountry, DOC) | 山小屋 | The app label. TNZ and blogs also write ハット: use 「山小屋（ハット）」 on first mention, then 山小屋. |
+| DOC basic / standard / serviced campsite | 基本キャンプ場, 標準キャンプ場, 設備付きキャンプ場 | The DOC categories. Huts take the same words: 基本の山小屋, 標準の山小屋, 設備付きの山小屋. Never ベーシック, スタンダード, 設備充実型 or サービスキャンプ場. |
+| bivvy (DOC) | ビビィ（ごく小さな簡易避難小屋） | Gloss on first mention in each guide. A bivvy bag is ビビィサック. |
 | Great Walks | グレートウォーク | TNZ, Air NZ. No middle dot. |
 | tramping | トランピング（ニュージーランドでいう山歩き） | Gloss once. |
 | self-contained (vehicle, NZ) | セルフコンテインド | Native NZ blogs. Explain it once: 「トイレと給排水タンクを備えた、セルフコンテインド認証の車両」. Never 自己完結型 or 自給式. |
-| certified self-contained (CSC) | セルフコンテインド認証 | The warrant sticker is グリーンステッカー（緑のステッカー）; the old one is 青のステッカー. |
+| certified self-contained (CSC) | セルフコンテインド認証 | The warrant is グリーンステッカー. On its first mention in each guide write 「グリーンステッカー（緑のステッカー、正式にはグリーンウォラント）」, then グリーンステッカー. The old one is 青のステッカー. Never グリーンウォラント on its own, ウォラントカード or グリーンのカード. |
 | self-contained stays (AU app category: apartments) | 一棟貸し・アパートタイプの宿 | A different meaning from the NZ vehicle term. |
 
 ### Services, waste and water
@@ -186,6 +188,7 @@ Sources: TA = Tourism Australia Japan (australia.com/ja-jp); VNSW = Visit NSW Ja
 | WoF (NZ) | 「WoF（Warrant of Fitness、日本の車検にあたる定期点検）」 | Gloss once. |
 | rego | 車両登録（rego） | |
 | RUC (NZ) | 「道路使用料（RUC）」 | Paid by diesel vehicles. |
+| State Highway (NZ) | 国道 | 「国道8号線」, as Tourism NZ Japan writes. Never 州道: New Zealand has no states. |
 | Cook Strait ferry | クック海峡フェリー | インターアイランダー（Interislander）, ブルーブリッジ（Bluebridge） |
 
 ### Money and daily costs
@@ -222,7 +225,7 @@ Sources: TA = Tourism Australia Japan (australia.com/ja-jp); VNSW = Visit NSW Ja
 | to-dos, packing list | やることリスト, 持ち物リスト | |
 | Pass, premium | パス | Explain it once as 有料の「パス」. Never imply that Pass data is free. |
 | Street View | ストリートビュー | Built on Apple's Look Around: 「AppleのLook Aroundを使ったストリートビュー」. Keep Look Around in English, as Apple Japan does. |
-| satellite, standard map | 航空写真, 標準の地図 | |
+| satellite, standard map | 衛星表示（衛星画像）, 標準の地図 | Matches the app label 衛星. Never 航空写真. |
 | widgets, Home Screen | ウィジェット, ホーム画面 | Apple JP |
 | Calendar | 「カレンダー」 | iOS app name |
 | Settings | 設定 | |
@@ -246,7 +249,7 @@ The apps are not offline maps. Place details and guides are bundled and open wit
 **New Zealand**
 - Islands: 北島, 南島, スチュワート島, チャタム諸島.
 - Cities and towns: オークランド, ウェリントン, クライストチャーチ, クイーンズタウン, ロトルア, タウポ（Taupō）, ネルソン, ピクトン, ダニーデン, ワナカ（Wānaka）, テ・アナウ, インバーカーギル, ブラフ, グレイマウス, ホキティカ, カイコウラ（Kaikōura）, ファンガレイ（Whangārei）, テカポ（Takapō / Tekapo）, オアマル（Ōamaru）.
-- Landscapes and routes: アオラキ／マウント・クック, ミルフォード・サウンド, フィヨルドランド, エイベル・タスマン, トンガリロ, コロマンデル, ベイ・オブ・アイランズ, ノースランド, サウスランド, マールボロ, ゴールデン・ベイ, フランツ・ジョセフ, ハースト, アーサーズ・パス, ハウラキ湾, ワイヘキ島, グレート・バリア島, クック海峡.
+- Landscapes and routes: アオラキ／マウント・クック, ミルフォード・サウンド, フィヨルドランド, エイベル・タスマン, トンガリロ, コロマンデル, ベイ・オブ・アイランズ, ノースランド, サウスランド, マールボロ, ゴールデン・ベイ, フランツ・ジョセフ, ハースト, カトリンズ（Catlins）, アーサーズ・パス, ハウラキ湾, ワイヘキ島, グレート・バリア島, クック海峡.
 
 ## 7. Before and after
 
