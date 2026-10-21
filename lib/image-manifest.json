@@ -223,6 +223,20 @@
       }
     ]
   },
+  "/images/articles/buying-a-campervan-new-zealand-working-holiday.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/buying-a-campervan-new-zealand-working-holiday-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/buying-a-campervan-new-zealand-working-holiday.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/campable-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -265,6 +279,20 @@
       }
     ]
   },
+  "/images/articles/campervan-hire-cost-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/campervan-hire-cost-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/campervan-hire-cost-new-zealand-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/campervan-road-rules-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -275,6 +303,20 @@
       },
       {
         "path": "/images/articles/campervan-road-rules-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/campervan-vs-car-and-tent-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/campervan-vs-car-and-tent-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/campervan-vs-car-and-tent-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -1021,6 +1063,20 @@
       }
     ]
   },
+  "/images/articles/north-island-vs-south-island-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/north-island-vs-south-island-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/north-island-vs-south-island-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/northland-cape-reinga-camping-route.webp": {
     "width": 1600,
     "height": 900,
@@ -1241,6 +1297,20 @@
       },
       {
         "path": "/images/articles/self-contained-campervan-green-warrant.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/selling-a-campervan-new-zealand-before-you-leave.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/selling-a-campervan-new-zealand-before-you-leave-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/selling-a-campervan-new-zealand-before-you-leave.webp",
         "width": 1600
       }
     ]
@@ -1479,6 +1549,20 @@
       },
       {
         "path": "/images/articles/working-holiday-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/working-holiday-road-trip-budget-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/working-holiday-road-trip-budget-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/working-holiday-road-trip-budget-new-zealand-2026.webp",
         "width": 1600
       }
     ]
@@ -1741,6 +1825,20 @@
       }
     ]
   },
+  "/images/screens/buying-a-campervan-new-zealand-working-holiday.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/buying-a-campervan-new-zealand-working-holiday-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/buying-a-campervan-new-zealand-working-holiday.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/campable-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -1765,6 +1863,34 @@
       },
       {
         "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/campervan-hire-cost-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/campervan-hire-cost-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/campervan-hire-cost-new-zealand-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/campervan-vs-car-and-tent-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/campervan-vs-car-and-tent-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/campervan-vs-car-and-tent-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -1839,6 +1965,20 @@
       }
     ]
   },
+  "/images/screens/north-island-vs-south-island-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/north-island-vs-south-island-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/north-island-vs-south-island-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/rankers-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -1867,6 +2007,20 @@
       }
     ]
   },
+  "/images/screens/selling-a-campervan-new-zealand-before-you-leave.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/selling-a-campervan-new-zealand-before-you-leave-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/selling-a-campervan-new-zealand-before-you-leave.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/wikicamps-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -1891,6 +2045,20 @@
       },
       {
         "path": "/images/screens/working-holiday-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/working-holiday-road-trip-budget-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/working-holiday-road-trip-budget-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/working-holiday-road-trip-budget-new-zealand-2026.webp",
         "width": 1600
       }
     ]

@@ -58,3 +58,9 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-16 | can-i-drive-on-the-beach-in-new-zealand | scheduled |
 | 2026-11-17 | can-i-drink-the-water-at-nz-campsites | scheduled |
 | 2026-11-18 | can-i-go-to-the-toilet-outdoors-camping-nz | scheduled |
+| 2026-12-01 | campervan-hire-cost-new-zealand-2026 | scheduled |
+| 2026-12-02 | buying-a-campervan-new-zealand-working-holiday | scheduled |
+| 2026-12-03 | selling-a-campervan-new-zealand-before-you-leave | scheduled |
+| 2026-12-04 | working-holiday-road-trip-budget-new-zealand-2026 | scheduled |
+| 2026-12-05 | north-island-vs-south-island-campervan | scheduled |
+| 2026-12-06 | campervan-vs-car-and-tent-new-zealand | scheduled |
