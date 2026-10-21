@@ -21,9 +21,10 @@ House terms: «el Pase»; glossary Isla Norte / Isla Sur / Isla Stewart (Rakiura
 
 - kb6 (600 units, 11 guides): freedom-camping-rules, freedom-camping-guide, self-contained-campervan-green-warrant, camping-fees-2026, doc-campsites-guide, holiday-parks-guide, camping-wastewater-rubbish, campfire-rules, packing-list, best-time-camping, scenic-campsites. es 80/89 guides.
 
+- kb7 (364 units, 9 guides): responsible-camping, two-week-camper-itinerary, wellington-wairarapa, north-island-two-week, west-coast-south-island, queenstown-glenorchy, southern-scenic-route, fiordland, south-island-two-week. KiwiCamping es is now 89/89 guides.
+
 ## Next
-- Drafting kr4 (responsible-camping, two-week-camper-itinerary, wellington-wairarapa, north-island-two-week, west-coast-south-island) and kr5 (queenstown-glenorchy, southern-scenic-route, fiordland, south-island-two-week); then review, apply, LANE COMPLETE.
-- Then kl1..kl3 (6 listicles), kr1..kr5 (rules/topic guides, remaining road trips): batches already built in /tmp/kai-es-gap/k/batches.
+- Nothing: lane complete on both sites. Wait for orchestrator merge.
 
 ## Notes for orchestrator (English source oddities, translated faithfully)
 - best-nz-camping-apps: NZMCA section says the app "had no ratings yet" (past tense) while the table says "No ratings yet".
@@ -33,6 +34,9 @@ House terms: «el Pase»; glossary Isla Norte / Isla Sur / Isla Stewart (Rakiura
 - Listicles: First Table called "highest-rated app" at 4.9 but Too Good To Go is also 4.9; "AT Mobile caps Auckland fares" (cap is Auckland Transport's AT HOP); Imoova "$1 a day"/Camplify "$85" are NZD by context only; Travellers Autobarn November relocation without a year.
 
 - Rules guides: stay limits disagree (body "two to four nights", tip "1–2 night limits", rules tip "two nights common"); "5 working days" for rental fee notices ambiguous; fees description says "converted into 10 currencies" but no table; rules intro "an infringement everywhere else" vs backcountry rules; wastewater description "$800 fine for dumping waste" vs body ($800 for depositing waste while freedom camping); campfire FAQ "gas stove unaffected by fire seasons" vs body; scenic FAQ "those six charge $18 to $23" (only Waikawau above $20); Tapotupotu 5-10 min vs 10 min; packing list English still says "arrival card" (applied biosecurity guide says New Zealand Traveller Declaration).
+
+- Road trips (kb7): responsible-camping "work at least 50 metres from any waterway" has no verb (rendered as washing dishes); "Taupo"/"Ngai Tahu" lack macrons in English (Spanish writes Taupō, Ngāi Tahu as sibling guides do); two-week guide calls last day soft but day 14 has a ~4 h drive; north-island guide says pick one loop but route covers five regions; Napier both on the route and listed as a cut; Glenorchy road 46 km (intro) vs 45 km; Whakatipu/Wakatipu; Fiordland cruise booking vs closed road; south-island loop ends Christchurch but last section offers Queenstown finish; Dunedin and Invercargill both "last full-service city".
+- Style guide gaps: seals (lobos marinos / lobos marinos peleteros / leones marinos used), super/specified work/award/tax file number (AU side).
 
 ## Blockers
 none
