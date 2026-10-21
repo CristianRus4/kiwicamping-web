@@ -47,3 +47,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-12 | can-i-camp-on-a-farm-or-private-land-in-nz | scheduled |
 | 2026-11-13 | can-i-park-a-campervan-on-the-street-overnight-nz | scheduled |
 | 2026-11-14 | can-i-drive-a-campervan-on-a-car-licence-nz | scheduled |
+| 2026-11-15 | can-i-fly-a-drone-at-a-doc-campsite-nz | scheduled |

@@ -439,4 +439,73 @@ export const canIArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "can-i-fly-a-drone-at-a-doc-campsite-nz",
+    publishAt: "2026-11-15",
+    title: "Can I Fly a Drone at a DOC Campsite in NZ? (2026 Rules)",
+    description: "Not without a DOC permit, and even with one you must keep away from campsites and huts. The 2026 permit zones, fees, CAA Part 101 rules and council land.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["DOC campsites and huts","National parks","Council reserves","Near airports"],
+    imageAlt: "Aerial view of Whāngapoua Beach and the Coromandel coastline at sunset",
+    related: ["doc-campsite-rules","doc-campsites-new-zealand-guide","camping-rules-local-councils-new-zealand"],
+    intro:
+      "Not without a permit. Under the Conservation Act 1987, a drone counts as an aircraft, and DOC requires a concession (permit) for any aircraft that takes off, lands or hovers on public conservation land. Even with a permit, DOC's conditions tell you to stay away from busy places such as campsites, huts and car parks, so a campsite is the one place on DOC land where flying is least likely to be acceptable.",
+    sections: [
+      s("Why a campsite is the wrong place to fly", [
+        "Section 17ZF of the Conservation Act says no aircraft may land or take off from a conservation area unless a concession has been granted, and the same section says landing includes hovering. DOC reads that to cover drones for every purpose: recreation, commercial work and research. A drone launched from your campsite pitch, or held steady over the river behind it, is inside that rule.",
+        "DOC's own operating conditions for permit holders go further. They ask pilots to operate away from high-use recreation areas, naming campsites, campgrounds, huts, bivvies, lodges, car parks and picnic areas. They also ban flying or hovering over any person without that person's consent. A campground is full of people who came for quiet, which is why DOC's campsite and hut terms say no drones unless DOC permits them.",
+      ], ["A drone is an aircraft under the Conservation Act","Hovering counts the same as landing","Permit conditions steer you away from campsites"]),
+      s("Getting a DOC drone permit", [
+        "For recreational flying, DOC sorts conservation land into green, orange and red zones on its Discover the Outdoors map. In a green zone the permit is approved automatically and issued online straight away: $180 plus GST, which the DOC permits site shows as $207, valid for one year and for drones up to 25 kg. An orange zone is assessed case by case with a minimum fee of $2,450 plus GST, and a red zone is rarely approved, with a $180 minimum fee and a five working day turnaround.",
+        "Check the map by choosing the recreation drone permit layer and clicking the area. Zones can differ for recreational, research and commercial use, and DOC's page says to email permissions@doc.govt.nz when an area has no colour. Applications are no longer taken at local DOC offices or visitor centres. Orange and red applications go in by email on DOC's form, and DOC replies with a cost estimate before it processes anything.",
+      ], ["Green zone: $180 plus GST, issued immediately","Check the zone before you apply","Orange and red go by email, not at a visitor centre"]),
+      s("Places where the answer is simply no", [
+        "Some parks say so on their own pages. Aoraki/Mount Cook National Park bans recreational drone use throughout the park, and its White Horse Hill campsite page lists drones among the things not allowed. Tongariro Northern Circuit pages say flying a drone without a permit is strictly prohibited, and the Hump Ridge Track page says unauthorised drone use in Fiordland National Park is prohibited.",
+        "DOC's terms and conditions for huts, campsites, Great Walks, cabins and lodges include a clause that reads: no use of drones unless permitted by DOC. If you are staying at a bookable DOC site, you have agreed to that when you booked, so a drone in the car is a risk to your booking as well as to the neighbours.",
+      ]),
+      s("The Civil Aviation rules apply on top", [
+        "A DOC permit only deals with the land. Part 101 of the Civil Aviation Rules, administered by the Civil Aviation Authority (CAA), still applies to every flight: stay under 120 metres above ground, keep the drone in sight with your own eyes, fly in daylight, and get consent before flying over people and property. The rules also restrict flying within 4 km of an aerodrome boundary unless extra conditions are met.",
+        "DOC requires permit holders to log each flight with AirShare, the airspace app and website that also maps restricted areas. If you want to fly near an airport or aerodrome, check the map before you travel and keep inside the rules for that zone.",
+      ], ["120 metres maximum height","Daylight and line of sight only","Consent before flying over people or property"]),
+      s("Wildlife, wāhi tapu and noise", [
+        "Permit holders must take off and land at least 100 m from wildlife, stay at least 50 m away from it, and avoid roosting or nesting birds. Marine mammals such as dolphins, seals and whales need 150 m horizontally. If a bird repeatedly circles or dive-bombs the drone, land immediately.",
+        "DOC also asks pilots not to fly or film over wāhi tapu, and its application process includes input from hapū and iwi. Noise matters as much as distance: a drone hum carries a long way over a quiet river flat, and the people next to you chose a DOC site for that quiet.",
+      ]),
+      s("Council land and freedom camping spots", [
+        "Council reserves and roadside freedom camping areas are not conservation land, so they are not covered by DOC's permit. They have their own rules, and CAA Part 101 still applies. Auckland Council lets you fly in most local parks without a permit but bans drones in places such as cemeteries, Tūpuna Maunga sites, Cornwall Park and the Botanic Gardens, and requires a permit at regional parks.",
+        "Christchurch City Council allows a lightweight drone of 1.5 kg or less over most council property without permission, but wants permission for any weight near heritage parks, within 10 metres of a playground or park boundary, and at listed wetlands and coastal sites. Always read the council's own page for the place you are camping, and read the sign at the freedom camping area.",
+      ], ["Each council sets its own park rules","Weight limits differ between councils","A freedom camping area is not an invitation to fly"]),
+      s("Privacy, consent and what happens if you ignore the rules", [
+        "The Privacy Commissioner says footage you collect for your own purposes generally falls outside the Privacy Act, but filming that is highly offensive, such as into tents or bathrooms, can still raise legal issues. Separate from privacy, CAA rules require consent before you fly over people, and a strangers' campsite is exactly where nobody has given it.",
+        "Knowingly flying without a DOC concession is an offence under sections 39 and 43C of the Conservation Act, with a maximum penalty of two years in prison or a fine of up to $100,000 for an individual. The conservation infringement regulations list no drone-specific ticket, so a case goes through the courts. DOC can also end a permit by written notice if the conditions are breached, and CAA can take disciplinary action including prosecution. To report a drone, call the DOC hotline on 0800 DOC HOT (0800 362 468).",
+      ], ["Offence under the Conservation Act","CAA can prosecute separately","Report to 0800 362 468"]),
+      s("What to do instead", [
+        "If the shot matters, buy the green-zone permit before you travel, choose a trailhead or lakeshore that is mapped green and not next to a campsite, and keep well clear of other people. If you only want a view from the pitch, a phone on a tripod or a small camera on a pole gets close, and DOC's own advice is to use a camera or selfie stick from solid ground or leave the technology behind.",
+        "KiwiCamping is an iPhone app with DOC campsite and hut details, DOC freedom-camping notices by district, dump stations, filters, saved places and trips. Place details, saved places and guides work offline, while map tiles, routing, weather and photos need signal, so you can note which sites you plan to visit and check each against DOC's drone map before you go.",
+      ]),
+      s("The short version", [
+        "No drone on a DOC campsite without a permit, and no flying close to campsites, huts or car parks even with one. Aoraki/Mount Cook bans recreational drones outright, and other parks list their own prohibitions.",
+        "Check the zone map, carry your permit, log the flight in AirShare, keep under 120 metres, and leave the drone in the bag at the campground.",
+      ]),
+    ],
+    faq: [
+      ["Can I fly a drone at a DOC campsite in New Zealand?", "Not without a DOC permit, and DOC's conditions tell permit holders to keep away from campsites, huts and car parks even then. Some places, such as Aoraki/Mount Cook National Park, ban recreational drone use completely."],
+      ["Do I need a permit to fly a drone on DOC land?", "Yes. Any drone that takes off, lands or hovers on public conservation land needs a DOC concession. A recreational permit for a green zone costs $180 plus GST, is issued online immediately and lasts one year."],
+      ["Can I fly a drone in a national park in New Zealand?", "Only with DOC permission, and several national parks restrict it further. Aoraki/Mount Cook bans recreational use, and DOC says unauthorised drone use is prohibited in places such as the Tongariro Northern Circuit and Fiordland's Hump Ridge Track."],
+    ],
+    sources: [
+      { label: "DOC: Drone use on conservation land", url: "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land" },
+      { label: "DOC: Drone operating conditions", url: "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land/drone-operating-conditions/" },
+      { label: "DOC: Apply for a recreational drone permit", url: "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land/recreational-drone-use/" },
+      { label: "DOC permits site: Apply to fly a drone in green zones", url: "https://permits-licences.doc.govt.nz/apply-to-fly-green-zones/" },
+      { label: "DOC: Huts, campsites, Great Walks, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
+      { label: "DOC: White Horse Hill Campsite, Aoraki/Mount Cook National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/white-horse-hill-campground/" },
+      { label: "Legislation: Conservation Act 1987 (sections 17ZF, 39, 43C)", url: "https://www.legislation.govt.nz/act/public/1987/0065/latest/whole.html" },
+      { label: "CAA: Part 101 rules for drones", url: "https://www.aviation.govt.nz/drones/regulations/part-101-rules-for-drones/" },
+      { label: "Auckland Council: Flying drones and UAVs", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/get-outdoors/drones-unmanned-aerial-vehicles.html" },
+      { label: "Christchurch City Council: Drones and remotely piloted aircraft systems", url: "https://ccc.govt.nz/parks-and-gardens/make-a-booking/drones-and-remotely-piloted-aircraft-systems" },
+    ],
+  }),
+
 ];
