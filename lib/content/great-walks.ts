@@ -599,4 +599,82 @@ export const greatWalksArticles: Article[] = [
       { label: "Southland District Council: freedom camping sites and locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
     ],
   }),
+  a({
+    slug: "heaphy-track-camping-2026-27",
+    publishAt: "2026-12-09",
+    title: "Heaphy Track Camping 2026/27: Huts, Campsites, Booking, Bikes and Transport",
+    description: "Heaphy Track camping and huts for 2026/27: six huts, ten named campsites, booked all year, fees from $19, bikes from 1 May to 30 November, the new Heaphy River bridge and transport between Brown Hut and Kōhaihai.",
+    category: "Camping guides",
+    region: "Nelson/Tasman",
+    places: ["Collingwood", "Brown Hut", "Perry Saddle", "Gouland Downs", "James Mackay Hut", "Heaphy Hut", "Kōhaihai", "Karamea"],
+    imageAlt: "A narrow track beside a stony beach and tall nīkau palms on the Heaphy Track coast, with surf and low mist over forested hills",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "nelson-abel-tasman-golden-bay", "west-coast-south-island-road-trip", "doc-campsites-new-zealand-guide"],
+    hubs: ["camping/nelson-tasman", "huts/nelson-tasman", "camping/west-coast"],
+    intro:
+      "The Heaphy Track has 6 huts and, by DOC's count, 9 campsites, and DOC says all of them must be booked in advance all year round. DOC's page names ten campsites, not nine, so count the places rather than trust the number. Bookings for 2026/27 opened on Wednesday 20 May 2026, a campsite night is $19 for New Zealand adults and $28 for international adults from 1 October to 30 April, and mountain bikes are allowed from 1 May to 30 November. The track is 78.4 km one way between Brown Hut in Golden Bay and Kōhaihai near Karamea, and DOC says it has reopened as a through route with a new bridge across the Heaphy River.",
+    sections: [
+      s("Six huts and ten named campsites", [
+        "DOC's Heaphy page says there are 6 huts and 9 campsites, which must be booked well in advance all year round. The huts are Brown, Perry Saddle, Gouland Downs, Saxon, James Mackay and Heaphy. The campsites DOC lists beside them are Brown, Aorere Shelter, Perry Saddle, Gouland Downs, Saxon, James Mackay, Heaphy, Katipo Creek Shelter, Scotts Beach and Kōhaihai, which is ten, so the page's own count and its own list disagree. Check the live page and the booking system before you plan around either number.",
+        "DOC says huts have bunks, mattresses, heating, toilets and basic cooking facilities, and that they do not have food, cooking utensils, showers or bedding. Campsites have basic facilities including toilets, sinks and a water supply, and some have picnic tables and cooking shelters. DOC says campers cannot use hut facilities, and that Lewis Shelter, between James Mackay and Heaphy huts, is an emergency shelter with no overnight stays.",
+      ], ["Page says 9 campsites, names 10", "Campers cannot use hut facilities", "No overnight stays at Lewis Shelter"]),
+      s("Brown Hut to Kōhaihai, section by section", [
+        "DOC gives the track as 78.4 km one way and 4 to 6 days on foot, and its brochure sets out a four day walk from Brown Hut to Kōhaihai for independent, non-guided walkers. The track can be walked in either direction. The highest point is Flanagans Corner at 915 m, about 30 minutes before Perry Saddle Hut, and the track crosses Gouland Downs, an open tussock area where DOC warns that mist can make the featureless downs confusing and it is easy to become disorientated.",
+        "The big change is at the river: DOC says the track has reopened as a through route with a new bridge across the Heaphy River. DOC's brochure describes the 148.8 m Heaphy River bridge as the largest suspended deck bridge it has built. The last day follows the coast through nīkau, rātā and karaka forest to Scotts Beach, over Kōhaihai Saddle and 400 m along the Kōhaihai River bank to the car park.",
+      ], ["Either direction works", "New bridge across the Heaphy River", "Gouland Downs is easy to lose in mist"], {
+        caption: "Sections, distances and times on foot from DOC's Heaphy Track page, read 21 October 2026. The distances add up to the 78.4 km DOC gives for the track.",
+        head: ["Section", "Distance", "Walking time", "Mountain biking"],
+        rows: [
+          ["Brown Hut to Perry Saddle Hut (via Aorere Shelter)", "17.5 km", "5 h", "2 h 30 to 3 h 30"],
+          ["Perry Saddle Hut to Gouland Downs Hut", "7 km", "2 h", "1 h to 2 h"],
+          ["Gouland Downs Hut to Saxon Hut", "5.4 km", "1 h 30", "1 h to 2 h"],
+          ["Saxon Hut to James Mackay Hut", "11.8 km", "3 h", "2 h to 3 h"],
+          ["James Mackay Hut to Heaphy Hut (via Lewis Shelter)", "20.5 km", "6 h", "2 h 30 to 4 h 30"],
+          ["Heaphy Hut to Kōhaihai River mouth (via Katipo Creek and Scotts Beach)", "16.2 km", "5 h", "3 h to 4 h"],
+        ],
+      }),
+      s("Booking and fees for 2026/27", [
+        "DOC's media release says Heaphy bookings opened at 9:30 am on Wednesday 20 May 2026, for stays from 1 July 2026 to 30 June 2027, alongside the Whanganui Journey and Lake Waikaremoana. The release says tracks like the Heaphy often have space available, though it gives no occupancy figure for the Heaphy. The Heaphy page says a stay without a valid booking can bring a penalty, or you can be turned away if the hut or campsite is full. DOC has not published the 2027/28 opening dates, and the Great Walks overview covers proof of residency, transfers and the cancellation scale.",
+        "Fees are per person per night, and DOC says there are no fees for a day walk or for entry to Kahurangi National Park. From 1 October to 30 April a hut night is $44 for a New Zealand adult and $66 for an international adult, and a campsite night is $19 and $28, with children at about half. Hut fees fall in May, June, July, August and September, and from 1 May to 30 September a campsite is $19 for everyone. DOC's separate page for Kōhaihai Campsite lists $10 per adult per night, and a maximum of two consecutive nights, so check which fee applies to your booking.",
+      ], ["Season campsite: $19 NZ, $28 international", "Season hut: $44 NZ, $66 international", "Kōhaihai Campsite page lists $10"], {
+        caption: "Fees per person per night, NZ dollars including GST, from DOC's Heaphy Track page, read 21 October 2026. Children: hut $22 (New Zealand, 5 to 17) or $33 (international, 0 to 17) in season; campsite $9 or $14.",
+        head: ["Dates", "Hut, New Zealand adult", "Hut, international adult", "Campsite, New Zealand adult", "Campsite, international adult"],
+        rows: [
+          ["1 October to 30 April", "$44", "$66", "$19", "$28"],
+          ["1 May to 30 June", "$38", "$38", "$19", "$19"],
+          ["1 July to 31 August", "$30", "$30", "$19", "$19"],
+          ["1 to 30 September", "$38", "$38", "$19", "$19"],
+        ],
+      }),
+      s("Mountain biking from 1 May to 30 November", [
+        "DOC says you can mountain bike the Heaphy Track from 1 May to 30 November, so a ride is not possible between 1 December and 30 April. You can ride in both directions, in a group of no more than 6, and during the day only, from half an hour before sunrise to half an hour after sunset, which DOC says protects two threatened nocturnal species, the Powelliphanta snail and roa, the great spotted kiwi.",
+        "DOC says the Heaphy is a tough ride and not a cycle trail, suited to riders who can do advanced Grade 4 tracks. Fit, experienced riders should plan two full days with a night in a hut or designated campsite, and less experienced riders a 3 day, 2 night trip. Bikers must give way to walkers, electric bikes are not allowed, and bikes may not go into any hut or shelter or onto hut porches. DOC also says the track may be closed to bikes after storms, heavy rain, snow or high tides, and that kea at James Mackay Hut have become attracted to bike seats and brake lines, so take your seat off and cover the lines overnight.",
+      ], ["Bikes: 1 May to 30 November only", "Day riding only, groups of up to 6", "No e-bikes"]),
+      s("The transport problem: two ends, 463 km apart", [
+        "The Heaphy is not a circuit. DOC says you start either at Brown Hut in Golden Bay, 156 km and 2 hours 25 minutes from Nelson, at the end of Aorere Valley Road, or at Kōhaihai on the West Coast, 110 km and 1 hour 45 minutes from Westport, at the end of Kōhaihai Road. DOC's track brochure says the ends are 463 km apart by road, so you need transport at each end. The drive to Brown Hut is State Highway 60 from Nelson to Collingwood, 128 km, then 28 km up the Aorere Valley, and the drive to Kōhaihai is State Highway 67 from Westport to Karamea, 95 km, then 15 km north.",
+        "DOC says bus and taxi services reach either end from nearby towns, that regular bus services link Nelson and Westport, and that vehicle relocation services are available. For air access it says Air New Zealand flies into Nelson and Sounds Air into Westport, and that local operators provide air transport into Takaka and Karamea. DOC's page does not name the shuttle, taxi or relocation businesses, so look up current operators and book them before you book your nights. DOC says some transport businesses do not operate in winter, and its brochure says limited bus services operate then. There is mobile phone coverage at both ends, and DOC says the landlines at Brown Hut and Kōhaihai Campsite have been removed.",
+      ], ["Ends are 463 km apart by road", "DOC names no shuttle businesses", "Winter bus services are limited"]),
+      s("Floods, tides and weather on the Heaphy", [
+        "DOC says weather changes quickly and annual rainfall averages over 4,000 mm, and that it rains heavily with little warning. There are sometimes large floods between Lewis Shelter and Heaphy Hut, and DOC says it is not safe to proceed when the track is flooded, so wait in Lewis Shelter or Heaphy Hut. Flooding in the Saxon and James Mackay section and the lower Heaphy valley can reach 1.5 metres deep over the track, and DOC says to be prepared to wait until it is safe.",
+        "On the coast, DOC says large waves can wash over parts of the track at high tide in rough seas, so check tide charts and allow extra time. It adds that Crayfish Stream can flood quickly, and an alternative track bypasses the Kōhaihai River mouth when the river mouth is blocked. Do not swim or wade at the Heaphy River mouth or the Kōhaihai River mouth, because of strong currents. DOC says the coast, including Heaphy Hut, is at risk of tsunamis and that you should go to higher ground at once after a long or strong earthquake or a sudden change in sea level. It also says there is a small risk of giardia in the water, so treat it before you use it.",
+      ], ["Wait in Lewis Shelter or Heaphy Hut if flooded", "Check tide charts for the coast", "Do not swim at either river mouth"]),
+      s("Camping near Collingwood and Karamea", [
+        "At the Karamea end, DOC's Kōhaihai Campsite is at the road end and the start of the track: 50 non-powered or tent sites, $10 per adult per night, bookings required, a maximum of two consecutive nights, a picnic shelter, no fires at any time and dogs on a leash in the campsite only, not in the national park or on the track. Buller District Council's page says only certified self-contained vehicles may freedom camp in Buller, encouraged to stay no more than two consecutive nights and nine nights per calendar month, and that freedom camping is not permitted on Kōhaihai Road, Flagstaff Road or at the Ōpārara River mouth west of Kōhaihai Road. The council says it is reviewing the rules and will consult later in 2026, and a blue warrant has not counted since 7 June 2026, so carry a green one.",
+        "Karamea Domain Camp is a community-run campground with an on-site caretaker, 14 powered sites and numerous unpowered sites, according to the council's campgrounds page. At the Golden Bay end, the nearest night is Brown Campsite at the start of the track, if it is part of your booking, and the Aorere Valley and Collingwood are in Tasman District, whose council sets its own rules for council land and is not covered here, so check its responsible camping pages before you park. DOC's freedom camping notices in Golden Bay prohibit camping at six places, including Wainui Picnic Area and Carpark and Paines Ford picnic area, according to KiwiCamping's DOC data (11 August 2026).",
+      ], ["Kōhaihai Campsite: $10, two nights maximum", "No freedom camping on Kōhaihai Road", "Check Tasman District Council's rules for Collingwood"]),
+      s("Using KiwiCamping around the Heaphy", [
+        "KiwiCamping's DOC data (11 August 2026) lists Brown, Heaphy and Scotts Beach among the Great Walk campsites in Kahurangi National Park, and Kōhaihai Campsite as a standard campsite at $10 with campervan access, each with its category, fee notes, facilities and a link to DOC's own page. The Nelson/Tasman data lists 37 DOC campsites and 99 DOC huts, and the West Coast 14 campsites and 140 huts. Bookings stay on DOC's site. Place details, saved places and guides work offline; map tiles, routing, weather and photos need signal.",
+        "Save the nights before and after the track, then add the long road legs to Collingwood and Karamea so the trip shows the distance between them and a forecast at each place. Put the booking references and your shuttle or flight times in notes. Free to download, with in-app purchases.",
+      ], ["Save the nights before and after the track", "Note shuttle and flight times", "Check the forecast at each stop"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Heaphy Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/tracks/heaphy-track/" },
+      { label: "DOC: Heaphy Track brochure (PDF)", url: "https://www.doc.govt.nz/Documents/parks-and-recreation/tracks-and-walks/nelson-marlborough/heaphy-track-brochure.pdf" },
+      { label: "DOC: Kōhaihai Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/campsites/kohaihai-campsite/" },
+      { label: "DOC media release (26 March 2026): Great Walk bookings open from 12 May", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC: Great Walks pricing", url: "https://www.doc.govt.nz/about-us/our-role/managing-conservation/recreation-management/great-walks-management/pricing/" },
+      { label: "Buller District Council: freedom camping", url: "https://bullerdc.govt.nz/recreation/freedom-camping/" },
+      { label: "Buller District Council: campgrounds", url: "https://bullerdc.govt.nz/recreation/campgrounds/" },
+      { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

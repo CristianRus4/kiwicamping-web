@@ -432,4 +432,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much does it cost to camp on the Kepler Track?", "In the season a campsite night is $28 per adult for New Zealanders and $42 for international visitors, with children at $14 or $21. From 1 May to 26 October DOC lists $10 per adult."],
     ["Is there an avalanche risk on the Kepler Track in summer?", "DOC says the risk of avalanche can extend into December. During the Great Walks season it manages the risk and may close the alpine section between Luxmore Hut and Iris Burn Hut if there is avalanche hazard."],
   ],
+  "heaphy-track-camping-2026-27": [
+    ["How many campsites are on the Heaphy Track?", "DOC's page says 9 campsites but names ten: Brown, Aorere Shelter, Perry Saddle, Gouland Downs, Saxon, James Mackay, Heaphy, Katipo Creek Shelter, Scotts Beach and Kōhaihai. It also lists 6 huts, and says all huts and campsites must be booked in advance all year round."],
+    ["When can you mountain bike the Heaphy Track?", "DOC allows mountain bikes from 1 May to 30 November, in both directions, in groups of up to 6 and in daylight only. Electric bikes are not allowed, and DOC says it is a tough Grade 4 ride rather than a cycle trail."],
+    ["How do you get between Brown Hut and Kōhaihai?", "The Heaphy is not a circuit, and DOC's brochure says the two ends are 463 km apart by road. DOC says bus, taxi, vehicle relocation and air services are available from both ends, but its page does not name the operators, so check current ones before you book."],
+    ["How much does a Heaphy Track campsite cost?", "From 1 October to 30 April it is $19 per adult per night for New Zealanders and $28 for international visitors. From 1 May to 30 September DOC lists $19 for everyone."],
+  ],
 };

@@ -47,6 +47,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | whanganui-journey-camping-2026-27 | 7 (Using KiwiCamping on the Whanganui Journey) | Inbox: kiwicamping_tracks_inland-track_expanded.png | KiwiCamping on iPhone: a track page in Abel Tasman National Park with its distance, duration and grade and a link to the official DOC website |
 | milford-track-2026-27-huts-booking-fees | 7 (Using KiwiCamping around the Milford Track) | kiwicamping_streetview_milford-road.png | KiwiCamping on iPhone: a search for milford road showing Henry Creek Campsite as a paid campsite in Southland, below an Apple Maps Look Around panel |
 | kepler-track-camping-2026-27 | 7 (Using KiwiCamping around the Kepler) | Inbox: kiwicamping_place-detail_jollie-hut_top.png | KiwiCamping on iPhone: a DOC hut's page with its Open status, a link to the official DOC website and an amenities list starting with heating and mattresses |
+| heaphy-track-camping-2026-27 | 7 (Using KiwiCamping around the Heaphy) | Inbox: kiwicamping_place-detail_kapowairua-campsite_lower.png | KiwiCamping on iPhone: a DOC campsite's amenities (untreated tap water, a water supply, no dogs), its reported adult, child and infant prices, an Add a note field and a seven-day weather forecast |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

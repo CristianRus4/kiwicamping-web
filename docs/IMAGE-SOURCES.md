@@ -126,3 +126,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `whanganui-journey-camping-2026-27` | Whanganui journey rapids.jpg | ShakyIsles | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whanganui_journey_rapids.jpg) |
 | `milford-track-2026-27-huts-booking-fees` | Milford Track Clinton River 1.jpg | AlasdairW | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Milford_Track_Clinton_River_1.jpg) |
 | `kepler-track-camping-2026-27` | Kepler Track NZ Day 2 towards Hanging Valley.jpg | Robert (Bic) Bicknell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kepler_Track_NZ_Day_2_towards_Hanging_Valley.jpg) |
+| `heaphy-track-camping-2026-27` | Coastline section of Heaphy Track.jpg | Christoph Strässler | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Coastline_section_of_Heaphy_Track.jpg) |
