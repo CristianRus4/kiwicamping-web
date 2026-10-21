@@ -183,7 +183,7 @@ export const canIArticles: Article[] = [
       s("Seasons, ballots and night caps", [
         "A few beaches manage demand with permits. Central Hawke's Bay District Council requires a permit to camp at Pourerere Beach from mid-December to the end of February, allocated by ballot, with applications due each year by the end of October. Its bylaw allows vehicles that are not self-contained and tents at Pourerere Beach Road and Te Paerahi Beach in Pōrangahau, which makes them unusual, but they carry bylaw conditions such as a leave-by-noon rule and a one-week stand-down.",
         "The council's web page still mentions blue stickers, which stopped counting for freedom camping on 7 June 2026, and it gives a permit year that looks out of date. Treat the bylaw and the council's current permit page as the sources, and apply early rather than turning up in January hoping for a space.",
-      ], ["Ballot permits close around the end of October","Leave by noon and respect the stand-down","Use the bylaw, not an old listing"]),
+      ], ["Ballot applications close around the end of October each year","Leave by noon and respect the stand-down","Use the bylaw, not an old listing"]),
       s("Tides, tsunami and the edge of the sand", [
         "Check tide times before you park on or near sand, because a car left below the high-tide line can be reached by water in the night. Driving on beaches has its own rules and is not covered here. Park on firm ground above the debris line, leave room to drive out without crossing soft sand, and keep access clear for other users.",
         "Much of the coast sits in a tsunami zone. Christchurch changed its evacuation zones in October 2026 and now has one blue zone for Christchurch and Banks Peninsula, and it tells people to leave the zone immediately if an earthquake is long or strong, if the sea level changes suddenly or unusual noises come from the sea, or if an official warning arrives. The official rule is long or strong, get gone: move to high ground or inland straight away instead of waiting for a warning.",
@@ -416,7 +416,7 @@ export const canIArticles: Article[] = [
       ], ["$400 for driving without the right class","$55 for not producing your licence","Insurance can fail if you were unlicensed"]),
       s("Check before you book", [
         "Ask for the GLW or GVM of the exact vehicle in writing, not the berth count or the model name. Compare it with 6,000 kg, and if you plan to tow or carry a heavy load, ask for the plated weights of the trailer or towed car as well. Remember that being under the licence limit does not mean the van is comfortable to drive: height, width and length still matter on narrow roads, which the campervan driving rules guide covers.",
-        "With the licence question settled, the next one is where the van sleeps. KiwiCamping on iPhone holds DOC campsite and hut details, dump stations, filters, saved places and trips, and those details open without signal, although map tiles, routing, weather and photos need it.",
+        "With the licence question settled, the next one is where the van sleeps. KiwiCamping on iPhone holds DOC campsite and hut details, dump stations, saved places and trips, with filters to narrow them, and those details open without signal, although map tiles, routing, weather and photos need it.",
       ]),
       s("The short version", [
         "A full Class 1 licence covers a campervan or motorhome up to 6,000 kg GLW, and a combination up to 6,000 kg gross combined weight. Learners and restricted drivers are held to 4,500 kg on the road. Above 6,000 kg you need Class 2, and heavy motorhomes over 3,500 kg bring a 90 km/h limit and different inspection and road user charge rules.",
@@ -537,7 +537,7 @@ export const canIArticles: Article[] = [
       s("Auckland and Bay of Plenty", [
         "In the Auckland region you can drive on Muriwai and Karioitahi beaches only with a beach driving permit, which Auckland Council says is free, lasts a year and must be renewed per vehicle. You must carry the permit (a phone copy is fine) and photo ID. The limits include 30 km/h near the main access points at Muriwai, 60 km/h elsewhere at Muriwai, 20 km/h within 1,000 metres either side of Karioitahi Road and 60 km/h beyond that. Auckland's guidance also says to take a spade and a rope, drive with headlights on and limit access to three hours either side of low tide.",
         "Driving on all other Auckland beaches is prohibited except to launch or retrieve a boat or in an emergency, or with a separate beach access permit. Tauranga City Council takes a similar line at Pāpāmoa and Mount Maunganui: vehicles are generally not permitted on the beach, with exceptions to launch or retrieve a vessel at Taylor Reserve, Harrison's Cut and Pāpāmoa Domain, and permitted ATVs for fishing east of the Karewa Parade access point at 20 km/h.",
-      ], ["Free Auckland permit, renewed each year","Carry the permit and photo ID","Papamoa is mostly closed to vehicles"]),
+      ], ["Free Auckland permit, renewed each year","Carry the permit and photo ID","Pāpāmoa is mostly closed to vehicles"]),
       s("Dunes, shorebirds and DOC land", [
         "Dunes are the part drivers damage most, and the rules are strict. Northland Regional Council says one pass can kill dune plants and that vehicles are prohibited from most dunes. Use only signposted access tracks, and stay on the harder sand between the waterline and the high tide mark. Shorebirds nest in the soft sand and on the lower dunes, where nests are well camouflaged and easily run over.",
         "DOC reports vehicles driving through cordoned-off nesting areas, which breaches local bylaws. DOC's Rarawa Beach page notes that vehicle access rules have changed in several places in Northland and that you can no longer drive on the beach in some of them. To report a vehicle in a protected area, DOC takes calls on 0800 DOC HOT (0800 362 468), and the Regional Council takes reports of damage to dunes.",
@@ -552,7 +552,7 @@ export const canIArticles: Article[] = [
       ], ["Police enforce road rules on beaches","Councils set bylaw fines up to $1,000","Regional rules can reach $4,000"]),
       s("What to do instead, and how to check on the day", [
         "Park at the formed access point and walk. Most of the beaches above are better seen on foot, and a campervan is safe and legal in a car park, a holiday park or a DOC campsite, where a vehicle on the beach is not. If you want to drive Ninety Mile Beach itself, look at a tour operator or a high-clearance vehicle you are allowed to take onto sand, rather than a rental motorhome.",
-        "On the day, read the sign at the access, check the tide table, and open the council or Regional Council page for that beach. A saved DOC campsite or dump station in KiwiCamping on your iPhone gives you somewhere to go when the tide or a sign rules the beach out. Its place details work without signal, while map tiles, routing, weather and photos need it, so open the council page for the beach before you lose coverage.",
+        "On the day, read the sign at the access, check the tide table, and open the council or Regional Council page for that beach while you still have coverage. If the tide or a sign rules the beach out, a DOC campsite saved in KiwiCamping on your iPhone gives you somewhere else to stop, and its details open without signal, while map tiles, routing, weather and photos need it.",
       ]),
       s("The short version", [
         "Assume you cannot drive on a beach until a council or regional page says you can. Ninety Mile Beach is open at 30 and 60 km/h, Muriwai and Karioitahi need a permit, and Ruakākā, Waipū Cove and Pāpāmoa are largely closed or restricted.",
@@ -620,7 +620,7 @@ export const canIArticles: Article[] = [
       ], ["Fill only from taps marked for drinking","Keep fresh and waste hoses separate","Treat water from an unknown tap"]),
       s("On the day, and what to carry", [
         "Check the campsite's DOC page for the water line before you leave signal range, and look at the tap sign when you arrive. Carry a day's worth of drinking water as a baseline, plus a way to treat more: a stove that boils, a filter, or both. Share boiled water with others at the site to save fuel, as DOC's hut users code suggests.",
-        "Before you lose coverage, save the campsites on your route in KiwiCamping, the iPhone app. Each place page notes the facilities DOC lists, and the details stay on your phone when you reach the tap, while map tiles, routing, weather and photos need signal.",
+        "Before you lose coverage, save the campsites on your route in KiwiCamping, the iPhone app. Each campsite page lists the facilities DOC records, including whether the tap water is treated, and it still opens when you reach the tap with no signal. Map tiles, routing, weather and photos need coverage.",
       ]),
       s("The short version", [
         "Treat DOC campsite and hut water as untreated unless the page says otherwise, and boil it for three minutes, filter it or treat it. A holiday park's own supply is the operator's legal duty to keep safe, but read the tap signs and any notice.",
@@ -662,7 +662,7 @@ export const canIArticles: Article[] = [
       "Only as a last resort, and only by the method DOC sets out: go at least 50 metres from water, tracks and campsites, dig a hole 15 to 20 cm deep, and bury everything. Where DOC or a track page says to carry waste out, as it does for Mueller Hut in winter, burying it is not enough. If you are freedom camping, leaving waste anywhere except in a proper receptacle is an $800 infringement fee under the Freedom Camping Act.",
     sections: [
       s("Use a toilet if there is one in reach", [
-        "DOC's advice starts with a toilet, not a spade. Every DOC hut and campsite has one, as do some busy car parks, but most tracks have none. DOC tells walkers to go before they set out, and if there is no toilet and they can wait for the next one, to wait. A poo left near water can carry giardia into streams that huts and campsites downstream drink from.",
+        "DOC's advice starts with a toilet, not a spade. Every DOC hut has one, as do most DOC campsites and some busy car parks, but most tracks have none. DOC tells walkers to go before they set out, and if there is no toilet and they can wait for the next one, to wait. A poo left near water can carry giardia into streams that huts and campsites downstream drink from.",
         "The picture changes with distance. Outside popular places, toilets can be hours apart, and DOC's page on the subject sets out two options for when you cannot wait: dig a hole, or carry it out. The first suits most forest and farmland tracks, and the second suits places where waste does not break down or where many people pass.",
       ], ["Use the toilet at every hut, campsite and car park","Hold on if the next toilet is close","Poo near water spreads giardia"]),
       s("The hole method, step by step", [
@@ -691,7 +691,7 @@ export const canIArticles: Article[] = [
       ], ["Carry a trowel and compostable bags","Seal sanitary products in a bag","Hand sanitiser, not stream water"]),
       s("What to do instead, and the app", [
         "The simplest alternative is planning. Use toilets in towns, at DOC campsites and at car parks before you set off, stay in places that have them, and treat a hole as an emergency tool. In busy places such as the Tongariro Alpine Crossing, DOC's own advice is to use the toilets when they are available.",
-        "Dump stations and campsites near your route can be saved in KiwiCamping on iPhone and opened later without signal. Map tiles, routing, weather and photos are the parts that need reception, and the DOC details of a place you saved are not.",
+        "Dump stations and campsites near your route can be saved in KiwiCamping on iPhone, and each campsite page shows the toilets DOC lists there. A saved place still opens with no reception; map tiles, routing, weather and photos are the parts that need it.",
       ]),
       s("The short version", [
         "Use a toilet if you can reach one. If you cannot, go 50 metres from water, tracks and campsites, bury it 15 to 20 cm deep with the paper, or carry it out in a bag where DOC asks you to.",
