@@ -15743,6 +15743,280 @@
         }
       ],
       "priceTable": null
+    },
+    "freedom-camping-whangarei-2026": {
+      "title": "Campeggio libero a Whangārei 2026: dove puoi soggiornare",
+      "description": "Regolamento Whangārei per il campeggio in luoghi pubblici: 23 siti comunali per veicoli autosufficient, 17 per veicoli senza certificazione, cinque aree per tende, limiti notturni, aree senza campeggio, multe e campeggi DOC.",
+      "region": "Northland",
+      "imageAlt": "Le vette rocciose del Mount Manaia che si innalzano sopra le case a Whangārei Heads",
+      "intro": "Il consiglio elenca i siti per i veicoli autosufficientemente certificati, per i veicoli senza certificazione e per le tende. Il suo Regolamento sul campeggio nei luoghi pubblici copre tutti e tre, con 23 siti elencati per i veicoli autosufficientmente certificati, 17 dove può soggiornare un veicolo senza certificazione e cinque aree per le tende. La maggior parte dei siti consente una notte, un paio ne consentono tre e la pagina del consiglio elenca decine di posti dove nessuno può campeggiare. Il regolamento copre i terreni del consiglio; DOC, campeggi commerciali e terreni privati sono al di fuori di esso.",
+      "sections": [
+        {
+          "heading": "Il regolamento in termini semplici",
+          "body": [
+            "Il Regolamento <a data-guide=\"camping-rules-local-councils-new-zealand\">Bylaw</a> 2017 sui campeggi in luoghi pubblici è entrato in vigore il 21 ottobre 2017, è stato rivisto nell'ottobre 2020 e modificato il 26 febbraio 2021, e ha ulteriori modifiche che sono entrate in vigore il 7 giugno 2025 per allinearsi alla legge nazionale sui veicoli autosufficientii. La pagina del consiglio afferma che non si applica ai terreni del DOC, ai campeggi commerciali o agli spazi pubblici di proprietà privata come i parcheggi dei supermercati. La regola generale del regolamento ti permette di campeggiare con una tenda o un veicolo autosufficient per qualsiasi area del consiglio che non sia vietata o ristretta, mentre la pagina del consiglio è più specifica su dove ogni tipo di camper può effettivamente soggiornare.",
+            "Un veicolo a motore che non è autosufficientemente dotato può campeggiare solo nei siti elencati negli itinerari, e nei 23 siti elencati un veicolo autosufficientemente dotato deve utilizzare il sito designato o gli spazi contrassegnati. È consentito un solo veicolo a motore per spazio contrassegnato e non è consentito svuotare il serbatoio delle acque reflue in un bagno pubblico. Il regolamento richiede che la tessera di autorizzazione sia esposta. Secondo le norme nazionali, la tessera blu ha smesso di essere valida il 7 giugno 2026."
+          ],
+          "tips": [
+            "Solo terreni comunali",
+            "Un veicolo per spazio segnalato",
+            "Non svuotare mai i serbatoi nei bagni pubblici"
+          ]
+        },
+        {
+          "heading": "Siti e notti del consiglio",
+          "body": [
+            "La tabella del consiglio indica l'area, i posti e le notti di ogni sito, e i posti sono per lo più approssimativi: circa quattro in una baia tipica, sei-dieci a Ruakākā e Marsden Bay, circa 15 a Parua Bay. <a data-guide=\"camping-rules-local-councils-new-zealand\">regolamento comunale</a>il default per un sito designato è una notte in qualsiasi periodo di quattro settimane, a meno che il programma non specifichi diversamente, e la tabella mostra solo tre notti al parcheggio Bascule a Whangārei e a Parua Bay. Al di fuori dei siti elencati, la pagina del consiglio dice che puoi soggiornare al massimo per tre notti in qualsiasi altro luogo pubblico non vietato, quindi devi spostarti di almeno un chilometro e non tornare per quattro settimane.",
+            "Due parchi sportivi operano solo in stagione: Onerahi sportspark e Tikipunga sportspark permettono il campeggio dal 18 dicembre al Northland o al Northland Anniversary Day ogni anno, e la pagina non indica né il numero di posti né un limite di notti. A.H. Reed Memorial Park è in lista ma è temporaneamente vietato perché è stato riscontrato il <a data-guide=\"kauri-dieback-camping-travel\">marci del kauri</a> lì, e il parcheggio per i veicoli di Ocean Beach è permanentemente chiuso al campeggio."
+          ],
+          "tips": [
+            "Una notte è il limite usuale",
+            "Tre notti solo a Bascule e Parua Bay",
+            "A.H. Reed Park è chiuso al campeggio a causa del marciume del kauri"
+          ],
+          "table": {
+            "caption": "La tabella dei siti per veicoli autosufficienti del consiglio, consultata sulla sua pagina di campeggio libero il 21 ottobre 2026. Gli spazi sono come dichiarati dal consiglio e molti sono approssimativi.",
+            "head": [
+              "Sito",
+              "Area",
+              "Spazi",
+              "Notti"
+            ],
+            "rows": [
+              [
+                "Parcheggio Bascule, Port Road",
+                "Whangārei",
+                "8 marcato",
+                "3"
+              ],
+              [
+                "Tarewa i-Site, Tarewa Road",
+                "Whangārei",
+                "6 segnalati, veicoli piccoli",
+                "1"
+              ],
+              [
+                "Parcheggio Hatea East, Riverside",
+                "Whangārei",
+                "Non specificato",
+                "Non specificato"
+              ],
+              [
+                "Riserva panoramica delle Cascate di Otuihau / Whangārei",
+                "Tikipunga",
+                "4 marcato",
+                "1"
+              ],
+              [
+                "Tikipunga sportspark",
+                "Tikipunga",
+                "Non specificato",
+                "18 dicembre al giorno dell'anniversario"
+              ],
+              [
+                "Riserva Beach Road",
+                "Onerahi",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Parco sportivo",
+                "Onerahi",
+                "Non specificato",
+                "18 dicembre al giorno dell'anniversario"
+              ],
+              [
+                "Baia di Kowharewa",
+                "Whangārei Heads",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Parcheggio Manaia Walkway",
+                "Whangārei Heads",
+                "2 a 3",
+                "1"
+              ],
+              [
+                "Parcheggio Ocean Beach",
+                "Whangārei Heads",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Reotahi",
+                "Whangārei Heads",
+                "Fino a 3",
+                "1"
+              ],
+              [
+                "Sandy Bay, parcheggio blocchi servizi",
+                "Sandy Bay",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Baia di Parua",
+                "Baia di Parua",
+                "Intorno ai 15",
+                "3"
+              ],
+              [
+                "Tamaterau",
+                "Tamaterau",
+                "2 a 3",
+                "1"
+              ],
+              [
+                "Marsden Bay Reserve",
+                "Marsden Point",
+                "Intorno a 8-10",
+                "1"
+              ],
+              [
+                "Parcheggio per auto della rampa per barche One Tree Point",
+                "One Tree Point",
+                "4 siti",
+                "1"
+              ],
+              [
+                "Riserva di Ruakākā Beach",
+                "Ruakākā",
+                "Intorno a 6",
+                "1"
+              ],
+              [
+                "Grotte di Waipū",
+                "Waipū",
+                "Molti",
+                "1"
+              ],
+              [
+                "Matapouri, Wehiwehi Road",
+                "Matapouri",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Biblioteca Ngunguru, Ngunguru Road",
+                "Ngunguru",
+                "Il più possibile, in modo sicuro",
+                "1"
+              ],
+              [
+                "Baia di Wellington, Riserva di Whangaumu",
+                "Vicino a Tutukaka",
+                "Intorno a 4",
+                "1"
+              ],
+              [
+                "Woolleys Bay, parcheggio per auto occidentale",
+                "Vicino a Tutukaka",
+                "Intorno a 6",
+                "1"
+              ],
+              [
+                "Parco A.H. Reed Memorial, Whareora Road",
+                "Whangārei",
+                "2 segnalati, ma temporaneamente vietati",
+                "1"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Tende e veicoli senza certificazione",
+          "body": [
+            "La pagina del consiglio dice che un veicolo o un rimorchio non certificato come autosufficientemente può campeggiare nei luoghi che elenca: A.H. Reed Memorial Park, Bascule car park, Kowharewa Bay, Manaia Walkway car park, Marsden Bay Reserve, Matapouri Wehiwehi Road, Ngunguru Library, Ocean Beach car park, One Tree Point boat ramp car park, Parua Bay, Reotahi, Sandy Bay, Tamaterau, Tarewa i-Site, Waipū Caves, Wellingtons Bay e il parcheggio occidentale di Woolleys Bay, anche se A.H. Reed è attualmente chiuso al campeggio.",
+            "Per le tende la pagina dice che ci sono cinque aree su terreni pubblici: Parua Bay per circa 15 tende e fino a tre notti, Reotahi per fino a tre tende e una notte, Sandy Bay per circa quattro tende e una notte, Tamaterau per quattro o cinque tende e una notte, e Waipū Caves per molte tende e una notte. Dove è consentita una notte, pianifica di smontare e andartene la mattina dopo."
+          ],
+          "tips": [
+            "17 siti per veicoli senza certificazione",
+            "Cinque aree per tende",
+            "Una notte significa andare avanti il giorno dopo"
+          ]
+        },
+        {
+          "heading": "Dove nessuno può campeggiare",
+          "body": [
+            "La lista del consiglio dei \"no camping\" copre luoghi costieri come Bland Bay Reserve, Helena Bay, Langs Beach, Marsden Point Wharf, Moureeses Bay, Ruakākā Recreation Grounds, Tutukaka Marina Reserve, Whananaki Mangaiti Reserve e il parcheggio est di Woolleys Bay, oltre a siti urbani e rurali tra cui Drummond Park a Parihaka, Whau Valley Dam, Mander Park e Onerahi Beach Reserve. La pagina non fornisce un totale per questi luoghi.",
+            "Woolleys Bay mostra quanto siano viceste le due liste: il parcheggio a ovest è un sito comunale e quello a est è nella lista senza campeggio. Controlla il cartello e la mappa online del comune prima di impegnarti su un tratto di costa. Il comune può anche chiudere qualsiasi sito temporaneamente, per un massimo di 14 giorni ai sensi del regolamento, e la pagina dice che un <a data-guide=\"freedom-camping-new-zealand-guide\">ambasciatore di freedom camping</a> può confermare se un posto è consentito."
+          ],
+          "tips": [
+            "Woolleys Bay: ovest sì, est no",
+            "Il consiglio può chiudere un sito per 14 giorni",
+            "Chiedi all'ambasciatore del freedom camping"
+          ]
+        },
+        {
+          "heading": "Multe e contatti del consiglio",
+          "body": [
+            "Il regolamento stabilisce che le sanzioni previste dalla sezione 20E del <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act si applicano al campeggio in violazione di esso, con una nota esplicativa che la sanzione è di $400 o qualsiasi altra somma prevista nei regolamenti. Secondo il programma nazionale, la maggior parte delle violazioni costa $400, la mancanza della tessera di permesso costa $200 e danni o sprechi costano $800. La pagina del consiglio afferma inoltre che puoi essere multato ai sensi del Reserves Act e che puoi richiedere per iscritto un'esenzione con almeno 20 giorni lavorativi di anticipo.",
+            "Per chiedere informazioni su un sito o segnalare un problema, il numero del consiglio è 09 430 4200, con una linea gratuita al 0800 932 463, e la sua pagina ha un modulo online per segnalare problemi di campeggio libero. La pagina non elenca <a data-guide=\"camping-fees-new-zealand-2026\">tasse di campeggio</a>, permessi o prenotazioni per i siti."
+          ],
+          "tips": [
+            "$400 è la tariffa standard",
+            "Le esoneri richiedono 20 giorni lavorativi",
+            "I siti non hanno costi indicati"
+          ]
+        },
+        {
+          "heading": "Campeggi DOC e parchi per vacanze in Northland",
+          "body": [
+            "DOC e il consiglio sono proprietari diversi, e il regolamento copre solo quelli del consiglio. I dati di KiwiCamping DOC (11 agosto 2026) elencano 14 <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> in Northland, 11 prenotabili online tramite DOC, con tariffe notturni per adulti da $10 a $23 e Uretiti Beach Campsite il più grande. La pagina del consiglio indirizza i viaggiatori verso i campeggi DOC, il DOC Campsite Pass per risparmiare in molti di essi e i parchi per vacanze elencati sul sito di turismo di Northland.",
+            "Per un sito con elettricità o una notte con docce, la guida ai <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> spiega come prenotarne uno, e la guida ai campeggi DOC illustra le tariffe e le regole di prenotazione del DOC. La guida al viaggio in auto in Northland collega i siti di Whangārei al resto del percorso a nord."
+          ],
+          "tips": [
+            "14 campeggi DOC in Northland",
+            "Prenota i siti DOC tramite DOC",
+            "I parchi per campeggi coprono i siti con corrente"
+          ]
+        },
+        {
+          "heading": "Usando KiwiCamping intorno a Whangārei",
+          "body": [
+            "KiwiCamping copre i <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> e le baite del Northland con costi e servizi, oltre a parchi per vacanze e tour che puoi prenotare nell'app. I siti del consiglio e la sua lista dei divieti di campeggio non sono nell'app, quindi usa la mappa online del consiglio e i cartelli per quelli. I dettagli dei luoghi, i posti salvati e le guide vengono caricati dal telefono senza segnale, mentre le tessere della mappa, il routing, il meteos e le foto richiedono una connessione.",
+            "Su un percorso in Northland, salva un sito comunale e un campeggio a pagamento per la stessa notte, allinea le notti con le date e le note e controllalo il meteocannone per ogni tratta del viaggio. Gratuito da scaricare, con acquisti in-app."
+          ],
+          "tips": [
+            "Salva un sito comunale e un campeggio a pagamento",
+            "Usa la mappa del consiglio per i siti",
+            "I dettagli principali del luogo funzionano offline"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Puoi montare una tenda su terreni pubblici intorno a Whangārei?",
+          "La pagina del consiglio elenca cinque aree per tende: Parua Bay, Reotahi, Sandy Bay, Tamaterau e Waipū Caves. Parua Bay permette fino a tre notti, e le altre quattro ne permettono una."
+        ],
+        [
+          "Un camper senza certificato di autosufficienza può campeggiare a Whangārei?",
+          "Sì, nei 17 siti che il consiglio elenca per i veicoli non autosufficientemente certificati, come Bascule car park, Kowharewa Bay, Parua Bay e Waipū Caves. A.H. Reed Memorial Park è in lista ma è temporaneamente chiuso al campeggio a causa del marciume del kauri."
+        ],
+        [
+          "Quante notti puoi passare in un campeggio libero a Whangārei?",
+          "Una notte in qualsiasi periodo di quattro settimane nei siti designati, e tre al parcheggio Bascule e Parua Bay. Altrimenti, su terreni comunali non vietati, la pagina del consiglio dice tre notti, poi devi spostarti di almeno un chilometro."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Consiglio del Distretto di Whangārei: campeggio libero"
+        },
+        {
+          "label": "Regolamento del Consiglio del Distretto di Whangārei: Camping in Luoghi Pubblicii 2017 (modificato)"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Regolamento sulla libertà di campeggio (Sanzioni per violazioni) 2023"
+        },
+        {
+          "label": "DOC: campeggio libero"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
