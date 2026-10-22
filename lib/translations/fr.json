@@ -17876,6 +17876,179 @@
         }
       ],
       "priceTable": null
+    },
+    "north-island-vs-south-island-campervan": {
+      "title": "île du Nord contre île du Sud en camping-car : Lequel choisir ? (2026)",
+      "description": "Comparaison des îles en camping-car : règles du ferry du détroit de Cook, frais de location à sens unique, campings et refuges du DOC, Great Walks et routes hivernales. Faits officiels, sans exagération.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Le ferry Interislander traversant le détroit de Cook accostait à Picton, avec les collines boisées des Marlborough Sounds en arrière-plan.",
+      "intro": "Le île du Sud aussi DOC campings, cabanes et Great Walks que île du Nord mais les deux îles sont soumises à la même loi sur le camping sauvage, et la véritable différence pour un camping-car est le ferry de la détroit de Cook. Les sociétés de location indiquent qu'il faut prendre le ferry pour transporter un van entre les îles, cela prend environ 3,5 heures et doit être réservé séparément, et les locations à sens unique entre Auckland et le sud sont soumises à des frais. Les règles et les frais ci-dessous ont été consultés le 21 octobre 2026, et les chiffres proviennent de KiwiCamping données agrégées au 24 août 2026.",
+      "sections": [
+        {
+          "heading": "Le ferry de la Cook Strait est la ligne de démarcation",
+          "body": [
+            "La traversée d'Interislander entre Wellington et Picton dure environ 3,5 heures, et les tarifs pour les véhicules commencent à 258 $, le prix étant déterminé par la traversée, le type de tarif, la date de réservation et la longueur du véhicule. Vous ajoutez le véhicule lors de la réservation avec son type, sa hauteur et sa longueur totale incluant les porte-vélos, les coffres de toit et les barres de remorque. L'espace pour les véhicules se remplit rapidement, surtout les week-ends, les vacances scolaires et en été, et arriver sans réservation ne garantit pas une place. Les modifications coûtent 20 $ par personne et 30 $ par véhicule sur sa page des conditions tarifaires. Bluebridge dispose de catégories distinctes pour les camping-cars et les caravanes et facture des frais de modification de 20 $ par personne et par véhicule.",
+            "Le groupe thl rental indique qu'un trajet en ferry est nécessaire entre les îles, que vous devez le réserver vous-même et que vous devriez réserver une place pour un camping-car de 7,7 m quelle que soit la taille du van que vous avez loué. Wicked Campers précise également que le ferry n'est pas inclus. Le guide <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> couvre l'étape de la réservation étape par étape."
+          ],
+          "tips": [
+            "Réservez votre emplacement de véhicule à l'avance",
+            "Veuillez entrer la longueur réelle",
+            "Le ferry est séparé de la location"
+          ]
+        },
+        {
+          "heading": "Les frais de location à sens unique favorisent une seule île",
+          "body": [
+            "Un voyage commençant à Auckland et se terminant à Christchurch ou Queenstown nécessite une location à sens unique. Les frais du groupe thl sont de 200 $ du 1er avril au 30 septembre 2026 et de 300 $ du 1er octobre 2026 au 31 mars 2027 pour Auckland vers Christchurch ou Queenstown, et de 200 $ du 1er octobre au 31 mars dans l'autre sens. Christchurch vers Queenstown est de 200 $ toute l'année et Queenstown vers Christchurch est de 100 $ du 1er octobre au 31 mars. Spaceships indique que les voyages à sens unique n'entraînent aucun frais supplémentaire. thl facture également des frais de localisation de 270 $ à Queenstown.",
+            "Le forfait le moins cher pour un voyage plus court est une seule île, une location aller-retour et pas de traversée en ferry. Pour un voyage plus long, louer dans une ville et rendre dans une autre permet d'éviter les allers-retours, et le ferry devient une ligne du budget plutôt que le point principal."
+          ],
+          "tips": [
+            "Comparer les totaux aller-retour et aller simple",
+            "Veuillez vérifier les frais de Queenstown.",
+            "Liste des vaisseaux spatiaux sans frais d'aller simple"
+          ]
+        },
+        {
+          "heading": "Camping et équipement de randonnée par île",
+          "body": [
+            "Les données regroupées de KiwiCamping comptent les lieux par île. Les campings DOC, les cabanes et les sentiers sont plus nombreux sur l'île du Sud, qui possède également beaucoup plus de lits en cabane. DOC indique gérer plus de 320 campings à travers le pays et ne publie aucun décompte par île sur sa page <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, donc les chiffres ci-dessous sont le décompte propre de l'application des lieux qu'elle répertorie, et non une déclaration de tout ce qui existe en Nouvelle-Zélande.",
+            "Les listes de comparaison de DOC présentent onze randonnées : trois sur l'île du Nord (Lake Waikaremoana, Tongariro Northern Circuit et Whanganui Journey) et sept sur le continent de l'île du Sud (<a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, Heaphy, Paparoa, Routeburn, Kepler, Milford et Hump Ridge), avec le Rakiura Track sur l'île Stewart/Rakiura."
+          ],
+          "tips": [
+            "Les décomptes de l'application sont basés sur les données intégrées à l'application",
+            "Les Great Walks nécessitent des réservations auprès du DOC",
+            "Veuillez consulter la page de DOC pour chaque promenade"
+          ],
+          "table": {
+            "caption": "Lieux dans les données regroupées de KiwiCamping par île, au 24 août 2026. Les Great Walks de la page de comparaison de DOC, à lire le 21 octobre 2026.",
+            "head": [
+              "Île",
+              "DOC campsites",
+              "Cabanes DOC",
+              "Pistes DOC",
+              "Les Grandes Randonnées"
+            ],
+            "rows": [
+              [
+                "île du Nord",
+                "122",
+                "245",
+                "635",
+                "3"
+              ],
+              [
+                "île du Sud",
+                "165",
+                "682",
+                "814",
+                "7 sur le continent"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Les règles ne changent pas entre les îles",
+          "body": [
+            "La loi sur le <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a>, la règle nationale du laissez-passer vert et les amendes pour infraction s'appliquent dans tout le pays. Un véhicule autonome certifié avec un laissez-passer vert est nécessaire pour camper librement sur les terres publiques, sauf si un site est désigné pour d'autres véhicules, et les autocollants bleus ont cessé de compter le 7 juin 2026. Ce qui diffère, ce sont les règlements de chaque conseil et les avis de chaque district du DOC, vérifiez donc la règle locale pour la ville ou le district où vous vous trouvez.",
+            "La liste des routes interdites par la société de location s'applique sur les deux îles. thl et Travellers Autobarn interdisent la Crown Range et la Cardrona Valley road, la Skippers Road et la Ninety Mile Beach, et thl interdit également la Coromandel au nord de Colville et Waikawau ainsi que les routes d'accès aux pistes de ski du 1er juin au 31 octobre."
+          ],
+          "tips": [
+            "Même loi, différents règlements",
+            "Veuillez consulter les avis du DOC district.",
+            "Consulter la liste des locations de véhicules"
+          ]
+        },
+        {
+          "heading": "Hiver et cols de montagne",
+          "body": [
+            "NZTA Le Planificateur de voyage a publié des avertissements concernant la neige sur le Crown Range, le col de Haast, le col de Lindis, le col d'Arthur et le col de Lewis dans un bulletin de septembre 2025. Il s'agit d'un événement ponctuel, et non d'une règle permanente, mais cela montre que ces île du Sud Les passes peuvent se fermer ou nécessiter des soins par temps froid. Le <a data-guide=\"winter-driving-new-zealand-campervan\">Conduite en hiver</a> Le guide couvre les chaînes et les vérifications, et le NZTA Le planificateur d'itinéraire affiche les conditions en temps réel.",
+            "île du Nord Les itinéraires sont confrontés à d'autres limites, telles que la météo alpine de la région de Tongariro dans le guide de 14 jours de KiwiCamping, qui prévoit des navettes et les prévisions alpines. Les cols mentionnés dans le bulletin NZTA se trouvent tous dans le île du Sud, vérifiez donc les prévisions et les conditions en direct de NZTA avant de vous engager sur une étape de montagne en hiver."
+          ],
+          "tips": [
+            "Vérifiez NZTA avant chaque passage",
+            "Empruntez des chaînes si vous en louez.",
+            "Jours flexibles en hiver"
+          ]
+        },
+        {
+          "heading": "Quelle île vous convient le mieux ?",
+          "body": [
+            "Choisissez l'île du Sud si les cabanes, les sentiers et les Great Walks sont votre priorité : elle possède plus de chacun dans les données de KiwiCamping et sur la liste du DOC, avec les routes de col et les frais de ferry ou à sens unique qui s'ajoutent à un voyage là-bas. Choisissez l'île du Nord pour une boucle qui ne nécessite pas de ferry, comme l'itinéraire de 14 jours dans le guide de KiwiCamping.",
+            "Un voyage qui permet de visiter les deux îles prend en charge le ferry et une location aller simple, mais nécessite environ trois semaines pour éviter la précipitation. Le guide de l'itinéraire de trois semaines et celui de l'île du Nord de deux semaines montrent comment chaque option se déroule."
+          ],
+          "tips": [
+            "Court séjour : une île",
+            "Trois semaines : les deux",
+            "Veuillez indiquer le prix du ferry et les frais d'aller d'abord."
+          ]
+        },
+        {
+          "heading": "Plan sur les deux îles dans KiwiCamping",
+          "body": [
+            "KiwiCamping's île du Nord Le guide de 14 jours couvre 1 306 km avec 21 lieux, et vous pouvez enregistrer tous ses lieux en un seul clic, puis ajouter des arrêts sur le île du Sud Si vous croisez, vous pouvez construire un voyage avec des étapes ordonnées, des dates, la distance et le temps de trajet entre elles, et les données couvrent 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campings</a> et 927 DOC cabanes au 24 août 2026. Sans réception, les détails du camping et des cabanes restent lisibles, et les tuiles de carte, le routage, la météo et les photos réapparaissent lorsque vous vous reconnecterez. KiwiCamping Il est gratuit à télécharger, avec des achats intégrés.",
+            "L'application ne réserve ni le ferry ni le van. Utilisez-la pour voir la distance entre les arrêts, puis fixez le prix de la traversée."
+          ],
+          "tips": [
+            "Enregistrer un guide entier d'un coup",
+            "Veuillez vérifier le kilométrage total de l'itinéraire",
+            "Ajouter la journée de ferry comme étape"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Avez-vous besoin de prendre un camping-car sur le ferry de la détroit de Cook pour visiter les deux îles ?",
+          "Oui. thl, qui possède Maui, Britz, Apollo et Mighty, indique qu'un trajet en ferry est nécessaire entre les îles et que vous devez le réserver vous-même auprès de l'opérateur. La traversée dure environ 3,5 heures et les tarifs pour les véhicules d'Interislander commencent à 258 $."
+        ],
+        [
+          "Est-il moins cher de rester sur une seule île en camping-car ?",
+          "Habituellement, car vous évitez le ferry. Une location aller-retour depuis la même ville évite également les frais d'aller simple, que le groupe thl fixe à 200 $ ou 300 $ pour Auckland vers Christchurch ou Queenstown en fonction de la date."
+        ],
+        [
+          "Quelle île possède le plus de campings DOC ?",
+          "Dans les données regroupées de KiwiCamping au 24 août 2026, l'île du Sud compte 165 campings DOC et l'île du Nord 122, et l'île du Sud dispose de 682 refuges DOC contre 245 pour l'île du Nord."
+        ],
+        [
+          "Les règles concernant le camping sauvage diffèrent-elles entre l'Île du Nord et l'Île du Sud ?",
+          "La loi et les amendes sont nationales. Les conseils établissent leurs propres règlements et le DOC publie des avis par district, donc ce qui change est la règle locale pour la ville ou le district."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Interislander : Foire aux questions sur le ferry"
+        },
+        {
+          "label": "Interislander : Tarifs et options de paiement du ferry de la détroit de Cook"
+        },
+        {
+          "label": "Bluebridge : paiement"
+        },
+        {
+          "label": "Résumé des conditions de location, Nouvelle-Zélande, version 16"
+        },
+        {
+          "label": "Maui : questions fréquemment posées"
+        },
+        {
+          "label": "Vaisseaux spatiaux : Nouvelle-Zélande"
+        },
+        {
+          "label": "Travellers Autobarn : Conditions générales de vente Nouvelle-Zélande, 19 juin 2026"
+        },
+        {
+          "label": "DOC : Les Great Walks comparés"
+        },
+        {
+          "label": "DOC camping libre"
+        },
+        {
+          "label": "PGDB : véhicules autonomes, propriétaires de véhicules privés"
+        },
+        {
+          "label": "Plan de voyage NZTA : laissez la neige tomber, prenez votre temps"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
