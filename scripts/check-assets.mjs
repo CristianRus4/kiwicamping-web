@@ -8,7 +8,7 @@ const sourceFiles = (await readdir(resolve(root, "lib/content"))).filter((name) 
 const sources = await Promise.all(sourceFiles.map((name) => readFile(resolve(root, "lib/content", name), "utf8")));
 const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
 
-const core = ["kiwicamping-app-icon.png", "kiwicamping-hero.webp", "kiwicamping-feature-1.webp", "kiwicamping-feature-2.webp", "kiwicamping-feature-3.webp", "kiwicamping-feature-4.webp", "kiwicamping-feature-5.webp", "kiwicamping-feature-6.webp", "kiwicamping-og.png"];
+const core = ["kiwicamping-app-icon.png", "kiwicamping-hero.webp", "kiwicamping-feature-1.webp", "kiwicamping-feature-2.webp", "kiwicamping-feature-3.webp", "kiwicamping-feature-4.webp", "kiwicamping-feature-5.webp", "kiwicamping-feature-6.webp", "kiwicamping-og-v2.png"];
 
 const missingCore = [];
 for (const name of core) await access(resolve(root, "public/images", name)).catch(() => missingCore.push(`public/images/${name}`));
@@ -44,9 +44,9 @@ assert.equal(missingArticles.length, 0, `${missingArticles.length} article image
 
 // Link previews: the home image is a PNG and every guide has a JPG copy, because WebP previews often
 // show as an empty card on X, Facebook, WhatsApp and iMessage. `npm run images:og` makes the copies.
-const homeOg = await readFile(resolve(root, "public/images/kiwicamping-og.png"));
-assert.equal(homeOg.subarray(1, 4).toString(), "PNG", "public/images/kiwicamping-og.png is not a PNG file");
-assert.deepEqual([homeOg.readUInt32BE(16), homeOg.readUInt32BE(20)], [1200, 630], "public/images/kiwicamping-og.png must be 1200x630");
+const homeOg = await readFile(resolve(root, "public/images/kiwicamping-og-v2.png"));
+assert.equal(homeOg.subarray(1, 4).toString(), "PNG", "public/images/kiwicamping-og-v2.png is not a PNG file");
+assert.deepEqual([homeOg.readUInt32BE(16), homeOg.readUInt32BE(20)], [1200, 630], "public/images/kiwicamping-og-v2.png must be 1200x630");
 // Every hero in public/images/articles, minus its `-<width>.webp` variants.
 const heroNames = new Set((await readdir(resolve(root, "public/images/articles"))).filter((name) => name.endsWith(".webp")));
 const heroes = [...heroNames].filter((name) => { const base = name.replace(/-\d+\.webp$/, ".webp"); return base === name || !heroNames.has(base); });
