@@ -17711,6 +17711,530 @@
         }
       ],
       "priceTable": null
+    },
+    "working-holiday-road-trip-budget-new-zealand-2026": {
+      "title": "Working Holiday Roadtrip Budget in NZ 2026: Pro Woche",
+      "description": "Eine Woche Camping und Benzin im Van kostet etwa 318 $ bis 878 $, je nachdem, wo du schläfst. Siehe Visageld, Mindestlohn, DOC-Gebühren und die Mathematik hinter jeder Zahl.",
+      "region": "Neuseeland",
+      "imageAlt": "Schöne Reihen von Weinreben im Wairau Valley, Marlborough, mit trockenen Hügeln in der Ferne",
+      "intro": "Camping und Treibstoff für eine Woche auf einem Roadtrip in Neuseeland kosten etwa 318 $ bei Nutzung kostenloser DOC-Campingplätze und Freedom Camp, und bis zu etwa 878 $ pro Woche, wenn jede Nacht auf einem mit Strom versorgten Holiday Park-Platz verbracht wird, bei 800 km pro Woche in einem Benzin-Van. Das beinhaltet keine Verpflegung, den Van selbst und das Visum. Immigration New Zealand verlangt von Working Holiday Antragstellern aus den meisten Ländern 4.200 NZ$ an Mitteln und listet eine Visakosten von 770 NZ$ auf, und der Mindestlohn für Erwachsene beträgt ab dem 1. April 2026 23,95 $ pro Stunde. Alle Beträge sind in neuseeländischen Dollar angegeben, wurden am 21. Oktober 2026 gelesen und zeigen ihre Berechnung, sodass du die Annahmen ändern kannst.",
+      "sections": [
+        {
+          "heading": "Bevor du fliegst: Visum und Finanzen",
+          "body": [
+            "Immigration New Zealand veröffentlicht eine Seite für Working Holiday für jedes berechtigte Land. Die Seiten für Deutschland, Kanada, USA, Frankreich, Irland und Japan verlangen mindestens 4.200 $ an Mitteln, und die Seite für das Vereinigte Königreich verlangt mindestens 350 $ pro Monat. Du brauchst zusätzlich zu diesen Mitteln ein Weiterreiseticket oder das Geld, um eines zu kaufen, und als Nachweis dienen Konto- oder Kreditkartenabrechnungen. Jede Länderseite zeigt die Visagebühr als „ab 770 $“ an, und die genaue Gebühr für deinen Reisepass wird erst angezeigt, nachdem du deine Länderangaben eingegeben hast.",
+            "Die International Visitor Levy beträgt 100 $ für viele Working Holiday Reisende, und die Seite von Immigration New Zealand erklärt, wer zahlt. Dieser Guide konnte aus dem Text der Seite nicht bestätigen, ob dies zusätzlich zu den 770 $ berechnet wird, also überprüfe deine Antragsübersicht. Das Visum erlaubt dir, für die Dauer des Visums in temporären Jobs zu arbeiten, bis zu 6 Monate insgesamt zu studieren und benötigt kein Jobangebot, aber keinen festen Job, und du darfst kein Unternehmen betreiben. Altersgrenzen sind auf den meisten Länderseiten 18 bis 30 und für das Vereinigte Königreich und Kanada 18 bis 35."
+          ],
+          "tips": [
+            "Gelder unterscheiden sich je nach Land",
+            "Die 770 $ sind ein Ausgangswert",
+            "Überprüfe die Gebühr in deiner Bewerbung"
+          ]
+        },
+        {
+          "heading": "Was eine Woche kostet nach Camping-Stil",
+          "body": [
+            "Die Tabelle basiert auf zwei Annahmen. Der Kraftstoffverbrauch beträgt 800 km pro Woche bei 11 Litern pro 100 km, was 88 Liter entspricht, basierend auf dem nationalen Richtpreis für Benzin von MBIE von 3,617 $ pro Liter am 16. Oktober 2026 (vorläufig): 88 mal 3,617 $ ergibt ungefähr 318 $. Für das Camping wird die Seite der DOC-Gebühren und für <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> der Planungsbereich von 25 $ bis 80 $ pro Stellplatz pro Nacht aus dem Camping-Gebührenleitfaden verwendet, da Ketten von Holiday Parks die Nachttarife nur in ihren Buchungssystemen veröffentlichen.",
+            "Ein Dieselvan tauscht die Kraftstoffleitung. Bei 3,245 $ pro Liter kosten 88 Liter etwa 286 $, und die Gebühren für die Straßenbenutzung bei einem Mietvan von thl's 8,04 $ pro 100 km kommen für 800 km auf etwa 64 $, also ungefähr 350 $ für die Woche. Ein Van, den du besitzt, zahlt RUC pro 1.000 km, und der Satz findest du auf der NZTA-Seite."
+          ],
+          "tips": [
+            "Ändere die Kilometer, um zu deiner Route zu passen",
+            "Die Preise für Campingplätze sind die Preise für den Platz, nicht pro Person",
+            "Diesel fügt RUC hinzu"
+          ],
+          "table": {
+            "caption": "Camping plus Benzin für eine Woche, 7 Nächte, 800 km bei 11 L/100 km in einem Benzin-Van zu 3,617 $ pro Liter. Essen und der Van sind nicht inbegriffen.",
+            "head": [
+              "Camping-Stil",
+              "Camping, 7 Nächte",
+              "Mit Benzin, Alleinreisender",
+              "Mit Benzin, zwei Erwachsene in einem Van"
+            ],
+            "rows": [
+              [
+                "Kostenlos: einfache DOC-Campingplätze und Freedom Camping",
+                "$0",
+                "$318",
+                "$318"
+              ],
+              [
+                "DOC-Standard-Campingplätze, 10 bis 20 $ pro Erwachsen pro Nacht",
+                "70 $ bis 140 $ pro Erwachsenem",
+                "388 $ bis 458 $",
+                "458 $ bis 598 $"
+              ],
+              [
+                "DOC-Service, ohne Strom, 25 $ pro Erwachsen pro Nacht",
+                "175 $ pro Erwachsenem",
+                "$493",
+                "$668"
+              ],
+              [
+                "Campingplatz, 25 $ bis 80 $ pro Nacht (Planungsbereich)",
+                "175 $ bis 560 $ pro Stellplatz",
+                "493 $ bis 878 $",
+                "493 $ bis 878 $"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Camping-Kosten: DOC-Gebühren und der Campsite Pass",
+          "body": [
+            "DOCs Gebührenseite listet bewirtschaftete unversorgte oder Zeltplätze für 25 $ pro Erwachsenem (18 Jahre und älter) und 12,50 $ pro Kind (5 bis 17 Jahre), bewirtschaftete versorgte Plätze für 20 $ bis 28 $ pro Erwachsenem und 10 $ bis 14 $ pro Kind sowie Standard-Campingplätze für 10 $ bis 20 $ pro Erwachsenem und 5 $ bis 10 $ pro Kind. Einfache Campingplätze sind kostenlos, und Säuglinge sind kostenlos. Campingplätze im Backcountry und auf den Great Walks variieren. Ein unbesetztes Zelt oder Fahrzeug, das auf einem Platz steht, wird als zwei Erwachsene berechnet.",
+            "Der DOC Campsite Pass kostet 295 $ für Erwachsene und 147,50 $ für Kinder oder Jugendliche, gültig ein Jahr ab deinem gewählten Startdatum, und deckt die meisten <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> ab, außer einer ausgeschlossenen Liste. Er erlaubt maximal 7 Nächte in einem 30-Tage-Zeitraum an einem einzigen Campingplatz und kostet zusätzlich 3 $ pro Passnutzer pro Nacht an Strom-Campingplätzen. Bei 25 $ pro Nacht entsprechen 295 $ etwa 12 Nächten, sodass sich der Pass nur lohnt, wenn du viele kostenpflichtige DOC-Plätze besuchst. Die Holiday Park Clubs unterscheiden sich: Die eigene Seite von TOP 10 listet ihren Club für 55 $ für 2 Jahre, und die Wäsche an Wellington TOP 10 kostet 6 $ pro Waschgang und 6 $ pro Trockner."
+          ],
+          "tips": [
+            "Vergleiche 295 $ mit deinen wahrscheinlichen Nächten",
+            "Pass-Limits beschränken dich auf 7 Nächte in 30 Tagen pro Stellplatz",
+            "DOC-Gebühren können je nach Saison variieren"
+          ]
+        },
+        {
+          "heading": "Treibstoff, Fähre und der Van",
+          "body": [
+            "Kraftstoff ist der grösste laufende Kostenfaktor auf einer langen Route, also nutze den Kraftstoff-Guide, um deine Distanz umzurechnen. Die Überquerung der <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> mit einem Fahrzeug kostet mehr als ein Fahrgastticket: Interislander sagt, Fahrzeugpreise beginnen bei 258 $ und variieren je nach Fahrt, Tarifart und wie weit im Voraus du buchst, und die Preise richten sich nach der Fahrzeuglänge. Bluebridge zeigt auf seiner Seite keinen Fahrpreis an.",
+            "Wenn du mietest, deckt der Campervan-Mietkosten-Guide die Tagesrate, die Deckung, Einweggebühren und die Extras ab. Wenn du kaufst, deckt der Kauf-Guide <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a>, Zulassung und Eigentümerwechsel ab, und der Verkaufsguide behandelt das Abwickeln am Ende. Jucy's Crib kostet bei seinem Spitzenpreis von 95 $ für 7 Tage 665 $ vor Deckung und Extras."
+          ],
+          "tips": [
+            "Buche die Fähre früh im Sommer",
+            "Preise den Van separat von den Betriebskosten",
+            "Vergleich Mieten, Kaufen und Verkaufen"
+          ]
+        },
+        {
+          "heading": "Was du verdienen kannst",
+          "body": [
+            "Ab dem 1. April 2026 beträgt der Mindestlohn für Erwachsene 23,95 $ pro Stunde vor Steuern, was 191,60 $ für einen 8-Stunden-Tag und 958 $ für eine 40-Stunden-Woche entspricht. Die Einstiegs- und Schulungsraten betragen 19,16 $ pro Stunde. Employment New Zealand sagt, dass temporäre Wanderarbeiter die gleichen Mindestrechte haben, und die Sätze werden jedes Jahr überprüft.",
+            "Vergleiche das mit einer Woche Camping und Benzin von 318 $ bis 878 $: Mit dem Mindestlohn deckt eine 40-Stunden-Woche vor Steuern jede Zeile in der Tabelle, aber Essen, der Van und Steuern kommen noch dazu. Ernte- und Gastfreundschaftstunden variieren, also betrachte die Zahl als Obergrenze, nicht als Versprechen."
+          ],
+          "tips": [
+            "Preise verstehen sich zzgl. Steuern",
+            "Der Startpreis beträgt 19,16 $",
+            "Die Öffnungszeiten variieren je nach Job und Saison"
+          ]
+        },
+        {
+          "heading": "Plane die Route und die Nächte in KiwiCamping",
+          "body": [
+            "KiwiCamping listet 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC Campingplätze</a> und 927 DOC Hütten in seinen gebündelten Daten (Stand 24. August 2026), wobei die Kategorie und Gebühr jedes Ortes von DOC stammen. Filter nach Kosten, um kostenlose Orte zu finden, speichere die, die du möchtest, und erst eine Reise mit geordneten Stopps, Daten und der Entfernung sowie der Fahrzeit dazwischen, sodass deine Kilometer und damit deine Kraftstoffrechnung von einer echten Route kommen. Die Platzseiten funktionieren auch ohne Balken auf dem Handy; Karten, Routen, die Vorhersage und Fotos werden geladen, sobald du Empfang hast. KiwiCamping ist kostenlos zum Download, mit In-App-Käufen.",
+            "Die App gibt keine Preise für <a data-guide=\"holiday-parks-new-zealand-guide\">Campingplätze</a> oder Mietwagen an. Nutze sie, um Nächte und Kilometer zu zählen, und fülle dann die Tabelle oben aus."
+          ],
+          "tips": [
+            "Nutze den Kostenfilter für kostenlose Orte",
+            "Zuerst Nächte und Kilometer zählen",
+            "Speichere für jede Nacht eine Backup-Seite"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wie viel Geld brauchst du für einen Working Holiday in Neuseeland?",
+          "Die Einwanderungsbehörde Neuseelands verlangt auf den Seiten für Deutschland, Kanada, USA, Frankreich, Irland und Japan mindestens 4.200 $ an Mitteln und für das Vereinigte Königreich mindestens 350 $ pro Monat, zuzüglich eines Weiterflugtickets oder des Geldes dafür. Die Visagebühr wird mit ab 770 $ angegeben, der genaue Betrag wird bei der Antragstellung angezeigt."
+        ],
+        [
+          "Wie viel kostet eine Woche auf einem Roadtrip in Neuseeland?",
+          "Camping und Benzin kosten etwa 318 $ bis 878 $ pro Woche in einem Benzin-Van bei 800 km pro Woche: 318 $ mit kostenlosen Campingplätzen, bis zu 878 $ auf Strom-Plätzen in Ferienparks mit einem Planungsbereich von 25 $ bis 80 $. Essen, der Van und das Visum sind extra."
+        ],
+        [
+          "Ist der DOC Campsite Pass für einen Working Holiday lohnenswert?",
+          "Für 295 $ pro Erwachsenem lohnt es sich nur, wenn du viele Nächte auf bezahlten DOC-Campingplätzen bleibst. Für 25 $ pro Nacht deckst du etwa 12 Nächte ab und es erlaubt 7 Nächte in 30 Tagen auf einem einzigen Campingplatz und fügt 3 $ pro Nutzer pro Nacht an Stromversorgten Plätzen hinzu."
+        ],
+        [
+          "Der Mindestlohn in Neuseeland im Jahr 2026?",
+          "23,95 $ pro Stunde für Erwachsene ab dem 1. April 2026, noch vor Steuern, was 958 $ für eine 40-Stunden-Woche entspricht. Die Einstiegs- und Schulungsraten betragen 19,16 $, und temporäre Wanderarbeiter haben die gleichen Mindestrechte."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Einwanderung Neuseeland: Working Holiday Visum für Deutschland"
+        },
+        {
+          "label": "Einwanderung Neuseeland: Working Holiday Visum für das Vereinigte Königreich"
+        },
+        {
+          "label": "Einwanderung Neuseeland: Kanada Working Holiday Visum"
+        },
+        {
+          "label": "Einwanderung Neuseeland: Zahlung der International Visitor Levy"
+        },
+        {
+          "label": "Arbeitsrecht Neuseeland: Mindestlohn und Arten"
+        },
+        {
+          "label": "MBIE: wöchentliche Kraftstoffpreis-Überwachungsdaten"
+        },
+        {
+          "label": "DOC: Camping-Einrichtungen und Gebühren"
+        },
+        {
+          "label": "DOC: Camping-Pass"
+        },
+        {
+          "label": "TOP 10 Campingplätze: Wellington"
+        },
+        {
+          "label": "Interislander: Fahrpreise und Zahlungsmöglichkeiten für die Cook Strait Fähre"
+        },
+        {
+          "label": "Zusammenfassung der Mietbedingungen, Neuseeland, Version 16"
+        },
+        {
+          "label": "Jucy: Wie viel kostet es, einen Campervan in Neuseeland zu mieten?"
+        }
+      ],
+      "priceTable": null
+    },
+    "north-island-vs-south-island-campervan": {
+      "title": "Nordinsel vs Südinsel mit Campervan: Welche? (2026)",
+      "description": "Vergleich der Inseln mit dem Campervan: Regeln für die Cook Strait Fähre, Einwegmietpreise, DOC-Campingplätze und Hütten, Great Walks und Winterstraßen. Offizielle Fakten, ohne Übertreibungen.",
+      "region": "Neuseeland",
+      "imageAlt": "Die Fähre Interislander Cook Strait lag in Picton fest, mit den bewaldeten Marlborough Sounds Hügeln im Hintergrund",
+      "intro": "Die Südinsel hat mehr DOC Campingplätze, Hütten und Great Walks als die Nordinsel, aber beide Inseln fallen unter dasselbe Freiheitscamping-Gesetz, und der wirkliche Unterschied für einen Campervan ist die Cook Strait Fähre. Mietwagenfirmen sagen, du musst die Fähre benutzen, um einen Van zwischen den Inseln zu transportieren, es dauert etwa 3,5 Stunden und muss separat gebucht werden, und Einwegmieten zwischen Auckland und dem Süden fallen extra. Die unten aufgeführten Regeln und Gebühren wurden am 21. Oktober 2026 gelesen, und die Zahlen stammen aus den gebündelten Daten von KiwiCamping vom 24. August 2026.",
+      "sections": [
+        {
+          "heading": "Die Cook Strait Fähre ist die Trennlinie",
+          "body": [
+            "Die Überfahrt von Interislander zwischen Wellington und Picton dauert etwa 3,5 Stunden, und die Fahrzeugpreise beginnen bei 258 $; der Preis richtet sich nach der Fahrt, der Tarifart, wie weit im Voraus du buchst und der Länge des Fahrzeugs. Du gibst das Fahrzeug bei der Buchung mit Typ, Höhe und Gesamtlänge inklusive Fahrradträgern, Dachboxen und Towbars an. Der Platz für Fahrzeuge füllt sich schnell, besonders an Wochenenden, Schulferien und im Sommer, und eine Ankunft ohne Buchung garantiert keinen Platz. Änderungen kosten 20 $ pro Person und 30 $ pro Fahrzeug auf der Seite zu den Tarifbedingungen. Bluebridge hat separate Kategorien für Campervans und Wohnmobile und erhebt eine Änderungsgebühr von 20 $ pro Person und pro Fahrzeug.",
+            "Die thl Rental Group sagt, dass zwischen den Inseln eine Fährüberfahrt nötig ist, die du selbst buchen musst, und dass du einen Platz für einen 7,7 m Motorhome buchen sollst, egal welche Größe Van du gemietet hast. Wicked Campers gibt auch an, dass die Fähre nicht inbegriffen ist. Der <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> Guide erklärt den Buchungsprozess Schritt für Schritt."
+          ],
+          "tips": [
+            "Bu dir das Fahrzeug frühzeitig buchen",
+            "Gib die wahre Länge ein",
+            "Fähre ist separat von der Anmietung"
+          ]
+        },
+        {
+          "heading": "Einwegmietgebühren begünstigen eine einzige Insel",
+          "body": [
+            "Eine Reise, die in Auckland beginnt und in Christchurch oder Queenstown endet, benötigt eine Einwegmiete. Die Gebühr von thl beträgt 200 $ vom 1. April bis 30. September 2026 und 300 $ vom 1. Oktober 2026 bis 31. März 2027 von Auckland nach Christchurch oder Queenstown, und 200 $ vom 1. Oktober bis 31. März in die andere Richtung. Christchurch nach Queenstown kostet 200 $ das ganze Jahr und Queenstown nach Christchurch kostet 100 $ vom 1. Oktober bis 31. März. Spaceships sagt, dass Einwegfahrten keine zusätzlichen Gebühren haben. thl berechnet außerdem eine Standortgebühr von 270 $ für Queenstown.",
+            "Der günstigere Plan für eine kürzere Reise ist eine Insel, eine Hin- und Rückmiete und keine Fähre. Für eine längere Reise spart die Anmietung in einer Stadt und die Rückgabe in einer anderen das Zurückfahren, und die Fähre wird zu einem Posten im Budget statt zum Hauptpunkt."
+          ],
+          "tips": [
+            "Vergleich der Gesamtkosten für Hin- und Rückfahrt",
+            "Prüfe die Gebühr in Queenstown",
+            "Raumschiffe listen keine Einweggebühr"
+          ]
+        },
+        {
+          "heading": "Camping- und Wanderausrüstung nach Insel",
+          "body": [
+            "Die gebündelten Daten von KiwiCamping zählen Orte nach Insel. DOC-Campingplätze, Hütten und Wanderwege sind auf der Südinsel zahlreicher, und dort gibt es auch viel mehr Hüttenbetten. DOC gibt an, über 320 Campingplätze im ganzen Land zu verwalten, und es veröffentlicht keine Insel-spezifische Zählung auf seiner Seite zu <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, daher ist die unten angegebene Zählung die eigene Zählung der Orte, die die App enthält, und keine Aussage über alles in Neuseeland.",
+            "DOCs Vergleichsliste zeigt elf Wanderungen: drei auf der Nordinsel (Lake Waikaremoana, Tongariro Northern Circuit und die Whanganui Journey) und sieben auf dem Festland der Südinsel (<a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, Heaphy, Paparoa, Routeburn, Kepler, Milford und Hump Ridge), zuzüglich des Rakiura Track auf Stewart Island/Rakiura."
+          ],
+          "tips": [
+            "App-Zahlen beziehen sich auf die in der App enthaltenen Daten",
+            "Great Walks brauchen DOC-Buchungen",
+            "Schau dir die Seite von DOC für jeden Spaziergang an"
+          ],
+          "table": {
+            "caption": "Orte in den gebündelten Daten von KiwiCamping nach Insel, Stand 24. August 2026. Great Walks von DOC's Vergleichseite, gelesen 21. Oktober 2026.",
+            "head": [
+              "Insel",
+              "DOC-Campingplätze",
+              "DOC Hütten",
+              "DOC-Tracks",
+              "Große Wanderungen"
+            ],
+            "rows": [
+              [
+                "Nordinsel",
+                "122",
+                "245",
+                "635",
+                "3"
+              ],
+              [
+                "Südinsel",
+                "165",
+                "682",
+                "814",
+                "7 auf dem Festland"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Die Regeln ändern sich nicht zwischen den Inseln",
+          "body": [
+            "Das <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act, die nationale grüne Genehmigung und die Bußgelder gelten landesweit. Für das Freedom Camping auf öffentlichem Land ist ein zertifiziertes, autarkes Fahrzeug mit grüner Genehmigung erforderlich, außer wenn ein Platz für andere Fahrzeuge ausgewiesen ist, und blaue Aufkleber wurden am 7. Juni 2026 nicht mehr gezählt. Was sich unterscheidet, sind die Satzungen jeder Gemeinde und die Mitteilungen jedes DOC-Distrikts, also prüfe die örtlichen Regeln für die Stadt oder den Bezirk, in dem du dich befindest.",
+            "Die Straßenliste des Vermieters gilt auf beiden Inseln. thl und Travellers Autobarn sperren die Crown Range und Cardrona Valley Road, Skippers Road und Ninety Mile Beach, und thl sperrt auch die Coromandel nördlich von Colville und Waikawau sowie die Zufahrtsstraßen zu Skiflächen vom 1. Juni bis 31. Oktober."
+          ],
+          "tips": [
+            "Gleiches Gesetz, unterschiedliche Satzungen",
+            "Prüfe die DOC-Bezirksmitteilungen",
+            "Lies die Liste der Mietstraßen"
+          ]
+        },
+        {
+          "heading": "Winter und Bergpässe",
+          "body": [
+            "Der Journey Planner der NZTA hat in einem Bulletin vom September 2025 Warnungen vor Schnee auf dem Crown Range, Haast Pass, Lindis Pass, Arthur's Pass und Lewis Pass veröffentlicht. Das ist ein einzelnes Ereignis, keine feste Regel, aber es zeigt, dass diese Südinsel-Pässe bei kaltem Wetter geschlossen sein oder Vorsicht erfordern können. Der <a data-guide=\"winter-driving-new-zealand-campervan\">Winterfahrleit</a> führt zu Ketten und Überprüfungen, und der Journey Planner der NZTA zeigt die aktuellen Bedingungen live.",
+            "Nordinsel Routen stoßen auf andere Grenzen, wie das alpine Wetter in der Tongariro-Region KiwiCamping eigene 14-tägige Reiseführer, der Fahrten mit Shuttles und die alpine Vorhersage plant. Die in den Pässen genannten NZTA Bulletins sind alle in der Südinsel also Wettervorhersagen prüfen und NZTA die aktuellen Bedingungen, bevor du dich für eine Bergtour im Winter entscheidest."
+          ],
+          "tips": [
+            "Prüfe vor jeder Passfahrt die NZTA",
+            "Nimm Ketten mit, wenn du sie mietest",
+            "Flexible Tage im Winter planen"
+          ]
+        },
+        {
+          "heading": "Welche Insel passt zu dir?",
+          "body": [
+            "Wähle Südinsel, wenn Hütten, Wanderwege und Great Walks das Ziel sind: Es hat mehr davon in den Daten von KiwiCamping und auf der Liste von DOC, inklusive Passstraßen und der Fähren- oder Einbahngebühr, die mit einer Reise dorthin verbunden sind. Wähle Nordinsel für eine Runde, die keine Fähre benötigt, wie die 14-tägige Route im Guide von KiwiCamping.",
+            "Eine Reise, die Zeit für beide Inseln lässt, übernimmt die Kosten für die Fähre und eine Einwegmiete, braucht aber etwa drei Wochen, um nicht gehetzt zu sein. Die dreiwöchige Route und der Leitfaden für die Nordinsel in zwei Wochen zeigen, wie das jeweils aussieht."
+          ],
+          "tips": [
+            "Kurztrip: eine Insel",
+            "Drei Wochen: beides",
+            "Preis für die Fähre und die Einweggebühr zuerst"
+          ]
+        },
+        {
+          "heading": "Plan über beide Inseln in KiwiCamping",
+          "body": [
+            "Der 14-tägige Guide von KiwiCamping's Nordinsel deckt 1.306 km mit 21 Orten ab, und du kannst alle Orte mit einem Tipp speichern und dann Stopps auf Südinsel hinzufügen, falls du sie übersiehst. Du kannst eine Reise mit geordneten Stopps, Daten und der Entfernung sowie der Fahrzeit dazwischen erstellen, und die Daten umfassen 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC Campingplätze</a> und 927 DOC Hütten zum 24. August 2026. Ohne Empfang bleiben die Details zu Campingplätzen und Hütten lesbar, und die Kartenkacheln, Routen, das Wetter und Fotos werden wieder verfügbar, sobald du dich wieder verbindest. KiwiCamping ist kostenlos zum Download, mit In-App-Käufen.",
+            "Die App bucht die Fähre oder den Van nicht. Nutze sie, um zu sehen, wie weit die Haltestellen auseinanderliegen, und kalkuliere dann den Preis für die Überfahrt."
+          ],
+          "tips": [
+            "Einen ganzen Guide auf einmal speichern",
+            "Überprüfe die Gesamtstrecke der Route",
+            "Füge den Fähr-Tag als Zwischenstopp hinzu"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Musst du einen Campervan auf der Cook Strait Fähre mitnehmen, um beide Inseln zu besuchen?",
+          "Ja. thl, das Maui, Britz, Apollo und Mighty besitzt, sagt, dass zwischen den Inseln eine Fährüberfahrt nötig ist und dass du diese selbst beim Betreiber buchst. Die Überfahrt dauert etwa 3,5 Stunden und die Fahrzeugpreise von Interislander beginnen bei 258 $."
+        ],
+        [
+          "Ist es günstiger, auf einer Insel mit dem Camper zu bleiben?",
+          "Normalerweise vermeidest du die Fähre. Eine Hin- und Rückmiete aus derselben Stadt vermeidet auch die Einweggebühr, die die thl-Gruppe auf 200 $ oder 300 $ von Auckland nach Christchurch oder Queenstown je nach Datum festlegt."
+        ],
+        [
+          "Welche Insel hat mehr DOC-Campingplätze?",
+          "In den gebündelten Daten von KiwiCamping vom 24. August 2026 hat die Südinsel 165 DOC-Campingplätze und die Nordinsel 122, und die Südinsel hat 682 DOC-Hütten gegenüber 245 auf der Nordinsel."
+        ],
+        [
+          "Sind die Regeln für das Freikampen in der Nord- und Südinsel unterschiedlich?",
+          "Das Gesetz und die Bußgelder sind national. Die Räte legen ihre eigenen Satzungen fest und DOC veröffentlicht Mitteilungen nach Distrikt, daher ändert sich die lokale Regel für die Stadt oder den Bezirk."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Interislander: FAQ zur Fähre"
+        },
+        {
+          "label": "Interislander: Fahrpreise und Zahlungsmöglichkeiten für die Cook Strait Fähre"
+        },
+        {
+          "label": "Bluebridge: Zahlung"
+        },
+        {
+          "label": "Zusammenfassung der Mietbedingungen, Neuseeland, Version 16"
+        },
+        {
+          "label": "Maui: häufig gestellte Fragen"
+        },
+        {
+          "label": "Raumschiffe: Neuseeland"
+        },
+        {
+          "label": "Travellers Autobahn: Allgemeine Geschäftsbedingungen Neuseeland, 19. Juni 2026"
+        },
+        {
+          "label": "DOC: Große Wanderungen verglichen"
+        },
+        {
+          "label": "DOC: Freies Campen"
+        },
+        {
+          "label": "PGDB: autarke Fahrzeuge, Privatfahrzeugbesitzer"
+        },
+        {
+          "label": "NZTA Reiseplaner: Lass es schneien, nimm es langsam"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-vs-car-and-tent-new-zealand": {
+      "title": "Campervan vs. Auto und Zelt in Neuseeland: Kosten und Regeln (2026)",
+      "description": "Ein Campervan braucht eine grüne Genehmigung, um auf städtischem Grund wild zu campen; ein Zelt folgt der jeweiligen Satzung der Gemeinde. Vergleiche Bußgelder, DOC-Gebühren, Mietpreise und was alles kostet.",
+      "region": "Neuseeland",
+      "imageAlt": "Ein kleines orange Zelt, das auf einem grasbewachsenen DOC-Campingplatz auf Stewart Island aufgeschlagen ist, mit Campingplatzschildern davor",
+      "intro": "Ein Campervan darf auf den meisten öffentlichen Flächen nur mit einer grünen Selbstversorgungsbescheinigung campen, wozu eine im Fahrzeug installierte Toilette gehört, während Zelte den Satzungen jeder Gemeinde und den Mitteilungen des DOC unterliegen, und der DOC für ein Zelt oder ein Fahrzeug die gleiche Gebühr pro Person erhebt. Die Bußgelder bei Fehlverhalten sind durch nationale Vorschriften festgelegt: 400 $ für Wildcampen in einem nicht selbstversorgenden Fahrzeug auf Gemeindegebiet und 200 $ für das Nichtvorzeigen einer Bescheinigungskarte. Die unten aufgeführten Fakten wurden am 21. Oktober 2026 gelesen, und die Mietpreise sind die eigenen veröffentlichten Preise der Unternehmen.",
+      "sections": [
+        {
+          "heading": "Was das Gesetz von einem Van und einem Zelt verlangt",
+          "body": [
+            "DOC definiert in Abschnitt 5 des <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 Wildcampen als Camping außerhalb eines ausgewiesenen Campingplatzes in einem Abstand von 200 m zu einer Straße oder einem mit Kraftfahrzeugen zugänglichen Gebiet, in einem Abstand von 200 m zum Meer oder einem Hafen oder auf oder innerhalb von 200 m einer befestigten Straße oder einem Great Walks Track. Es umfasst Kraftfahrzeuge einschließlich Campervans sowie Zelte, Biwakplätze und temporäre Unterkünfte. Du kannst auf öffentlichem Naturschutzgebiet wildcampen, außer wo dies verboten oder eingeschränkt ist; in DOC Scenic oder Recreation Reserves kannst du nicht wildcampen, es sei denn, es wird ein Platz bereitgestellt oder genehmigt, und Feuer sind nicht gestattet.",
+            "Für Fahrzeuge ist standardmässig nur freies Campen auf öffentlichem Grund erlaubt, wenn das Fahrzeug <a data-guide=\"self-contained-campervan-green-warrant\">zertifiziert autark</a> ist und eine grüne Bescheinigung besitzt, es sei denn, der Ort ist für nicht autarke Fahrzeuge ausgewiesen. Ein Fahrzeug ohne diese Bescheinigung kann Campingplätze, Ferienparks und Privatgrund nutzen. Für ein Zelt gilt die gesetzliche Definition gleichermaßen, also prüfe die Gemeindeverordnung, die Gemeindekarte und die Mitteilung des DOC für das Gebiet, bevor du aufschlägst."
+          ],
+          "tips": [
+            "Ein grünes Genehmigungsschein ist für Vans auf öffentlichem Land nötig",
+            "Zelte entsprechen den Vorschriften und Hinweisen",
+            "Campingplätze sind immer eine Option"
+          ]
+        },
+        {
+          "heading": "Bußgelder in den Vorschriften von 2023",
+          "body": [
+            "Die <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> (Penalties for Infringement Offences) Regulations 2023 legen die Bußgelder und die Höchststrafe des Gerichts für jeden Verstoß fest. Dieser Leitfaden liest die Vorschriften in ihrer ursprünglichen Fassung, in Kraft seit dem 13. Juli 2023, und Änderungen seitdem wurden nicht überprüft, also bitte auf legislation.govt.nz prüfen."
+          ],
+          "tips": [
+            "Gebühren pro Vergehen",
+            "Gerichtshöhen sind höher",
+            "Die Garantiekarte muss vorgezeigt werden"
+          ],
+          "table": {
+            "caption": "Verletzungsgebühren und Höchststrafen des Gerichts gemäß den Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
+            "head": [
+              "Vergehen",
+              "Verletzungsgebühr",
+              "Höchststrafe des Gerichts"
+            ],
+            "rows": [
+              [
+                "Freies Camping auf städtischem Grund in einem nicht selbstversorgenden Fahrzeug, außer wo es erlaubt ist",
+                "$400",
+                "$1,200"
+              ],
+              [
+                "Freies Camping im Verstoß gegen eine Satzung",
+                "$400",
+                "$1,200"
+              ],
+              [
+                "Keine Bescheinigung über die Erlaubnis (Gemeinde, Naturschutz und LINZ Land) angezeigt",
+                "$200",
+                "$600"
+              ],
+              [
+                "Mehr Personen als das Fahrzeug zertifiziert ist",
+                "$400",
+                "$1,200"
+              ],
+              [
+                "Schädigen oder Müll hinterlassen",
+                "$800",
+                "$2,400"
+              ],
+              [
+                "Nicht gehen, wenn man es aufgefordert wird",
+                "$600",
+                "$1,800"
+              ],
+              [
+                "Veränderte oder betrügerische Gutschein- oder Zertifikatskarte",
+                "$600",
+                "$1,800"
+              ],
+              [
+                "Freies Camping auf Schutzgebieten gegen eine Anordnung",
+                "$400",
+                "$1,200"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Was jeder Aufwand kostet",
+          "body": [
+            "Ein <a data-guide=\"self-contained-campervan-green-warrant\">grünes Zertifikat</a> benötigt eine fest installierte Toilette im Fahrzeug, da mobile Toiletten nicht mehr qualifiziert sind, sowie Wasserversorgung, Abwasserentsorgung, Belüftung, Spüle und Müllbehälter. Die Kosten sind die eigene Prüfgebühr des Zertifizierers, die nicht zentral veröffentlicht wird, zuzüglich einer Gebühr von 120 $ inklusive MwSt., und das Zertifikat gilt für 4 Jahre. Das blaue Aufkleber hat am 7. Juni 2026 seine Gültigkeit verloren.",
+            "Mieten zeigt die Lücke. Jucy's Crib ist nicht autark und beginnt bei 35 bis 95 $ pro Tag je nach Saison. Wicked Campers zeigt seine Mystery Machine 2 und den Kleinwagen mit „ab 35 $“ pro Tag und listet die Mystery Machine 2 und die <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Aventus als zertifiziert autark. Travellers Autobarn's Kombi ist nicht zertifiziert, und seine Chubby, Hitop, Kuga und Hi5 sind als zertifiziert gelistet, mit einer Gebühr von 50 $ bei der Abholung für die Nutzung des Zertifikats. Die Preise sind die der Unternehmen vom 21. Oktober 2026, und „ab“-Preise haben keine angegebene Saison. Der Mietkostenführer enthält die Extras."
+          ],
+          "tips": [
+            "Festes Toilette ist der Kostenfaktor",
+            "Mietpreise sind ab-Preise",
+            "Frag den Mieter nach der Bescheinigung"
+          ]
+        },
+        {
+          "heading": "Campinggebühren: gleich für Zelt und Van",
+          "body": [
+            "DOC berechnet pro Person, nicht pro Fahrzeug oder Zelt. Serviced unpowered oder Zeltplätze kosten 25 $ pro Erwachsenem und 12,50 $ pro Kind, serviced powered Plätze kosten 20 $ bis 28 $ pro Erwachsenem, Standard-Campingplätze kosten 10 $ bis 20 $ pro Erwachsenem und Basic-Campingplätze sind kostenlos. Ein unbesetztes Zelt oder Fahrzeug, das auf einem Platz steht, wird als zwei Erwachsene berechnet. Der Campsite Pass kostet 295 $ für ein Jahr für einen Erwachsenen.",
+            "Ein Zelt oder ein Auto ohne <a data-guide=\"self-contained-campervan-green-warrant\">grüne Bescheinigung</a> zahlt daher die gleiche DOC-Gebühr wie ein Van, und der Unterschied liegt darin, wo du außerhalb eines Campingplatzes schlafen darfst. Ferienparks berechnen pro Stellplatz und Buchungsmaschine, also vergleiche deren Preise für deine Daten."
+          ],
+          "tips": [
+            "Gebühren pro Person",
+            "Lass kein leeres Zelt auf einem Stellplatz",
+            "Die Preise der Campingplätze variieren je nach Datum"
+          ]
+        },
+        {
+          "heading": "Komfort, Wetter und der wahre Kompromiss",
+          "body": [
+            "Ein Van hält Regen von deinem Bett und deiner Ausrüstung auf eine Weise ab, die ein Zelt nicht kann, und ein Zelt gibt dir ein Auto für Tagesausflüge, ohne das Lager zu verlassen. Bei Wicked's beginnen die Preise für ein Kleinwagen und einen zertifizierten Mystery Machine 2 mit 35 $ pro Tag, also prüfe die Preise für deine Daten. Ein Auto und ein Zelt können das Gemeindeland nicht nutzen, das ein zertifizierter Van nutzen kann, und benötigen mehr Nächte auf Campingplätzen, wobei jede Nacht Gebühren kostet.",
+            "Wähle nach Saison und Route. Im Sommer in einer geschützten Region ist ein Zelt praktikabel. An der Westküste oder in Fiordland regnet es häufig, und ein Van kann sich lohnen. Der Guide zum Schlafen im Auto erklärt, warum ein gewöhnliches Auto kein Zelt oder ein zertifizierter Van ist."
+          ],
+          "tips": [
+            "Nasse Strecken begünstigen einen Van",
+            "Kurztrips eignen sich für ein Zelt",
+            "Zähle die Campingplatzgebühren für einen oder den anderen"
+          ]
+        },
+        {
+          "heading": "Plane die Nächte in KiwiCamping",
+          "body": [
+            "KiwiCamping listet 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC Campingplätze</a> und 927 DOC Hütten in seinen gebündelten Daten (Stand 24. August 2026), und du kannst nach Einrichtungen filtern wie Toiletten und Wasserversorgung, was für einen Van ohne Zulassung und für ein Zelt gleichermaßen wichtig ist. Speichere die Orte, die du möchtest, und erst eine Reise mit geordneten Stopps, Daten und der Entfernung und Fahrzeit dazwischen. Details zu jedem Ort werden auf dem Gerät für Funklöcher gespeichert, während Karten, Routen, Wetter und Bilder eine Datenverbindung benötigen. KiwiCamping ist kostenlos zum Download, mit In-App-Käufen.",
+            "Die App zeigt die Mitteilungen des DOC für Schutzgebiete, nicht <a data-guide=\"camping-rules-local-councils-new-zealand\">Gemeindevorschriften</a>, also schau dir für eine Stadt die Karte der Gemeinde an."
+          ],
+          "tips": [
+            "Filter nach Toiletten und Wasser",
+            "Einen Campingplatz als Backup speichern",
+            "Überprüfe die Karten der Gemeinde auf Städte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kann ich in Neuseeland wild campen mit einem Zelt?",
+          "Die Definition des Gesetzes umfasst Zelte sowie Fahrzeuge, daher gelten dieselben 200 m Regeln. Ob du campieren darfst, hängt von der Satzung des Rates, der Mitteilung des DOC für das Gebiet und davon ab, ob das Land Schutzgebiet ist, also prüfe das, bevor du aufschlägst."
+        ],
+        [
+          "Brauchst du ein autarkes Fahrzeug, um auf städtischem Grund zu campen?",
+          "Für ein Fahrzeug: Du darfst auf öffentlichem Land nur wild campen, wenn das Fahrzeug als autark zertifiziert ist und eine grüne Bescheinigung hat, es sei denn, der Platz ist für nicht autarke Fahrzeuge ausgewiesen. Ansonsten beträgt die Strafe auf Gemeinde-Land 400 $."
+        ],
+        [
+          "Ist ein Zelt günstiger als ein Campervan zum Campen?",
+          "Auf DOC-Campingplätzen wird die Gebühr pro Person berechnet, das gilt also auch für ein Zelt oder einen Van. Ein Zelt erspart die Kosten für einen Van oder dessen Umweltzertifikat, kann aber kein auf selbstversorgte Fahrzeuge reserviertes städtisches Land nutzen."
+        ],
+        [
+          "Wie viel kostet ein grünes Warrant?",
+          "Eine Gebühr von 120 $ inklusive MwSt. zuzüglich der eigenen Prüfgebühr des Prüfers, die nicht zentral veröffentlicht wird. Das Fahrzeug benötigt eine funktionierende Toilette, und die Bescheinigung gilt für 4 Jahre."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Freies Campen"
+        },
+        {
+          "label": "DOC: Camping-Einrichtungen und Gebühren"
+        },
+        {
+          "label": "DOC: Camping-Pass"
+        },
+        {
+          "label": "Freedom Camping Act 2011 (legislation.govt.nz)"
+        },
+        {
+          "label": "Freedom Camping (Strafbestimmungen für Verstöße gegen Vorschriften) Regulations 2023"
+        },
+        {
+          "label": "PGDB: autarke Fahrzeuge, Privatfahrzeugbesitzer"
+        },
+        {
+          "label": "Jucy: Bett-Campervan"
+        },
+        {
+          "label": "Wicked Campers Neuseeland"
+        },
+        {
+          "label": "Reisende Autobahn: FAQs zur Campervan-Miete in Neuseeland"
+        }
+      ],
+      "priceTable": null
     }
   },
   "tools": {
