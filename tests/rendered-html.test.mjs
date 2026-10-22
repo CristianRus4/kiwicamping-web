@@ -403,7 +403,7 @@ test("translation stamps find strings whose English changed",async()=>{
 });
 
 /** Text as React writes it into an attribute value. */
-const attribute=(text)=>text.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const attribute=(text)=>text.replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/'/g,"&#x27;");
 /** Every screenshot figure in a page, as { tag, alt } for each <img> inside a figure.guide-figure. */
 const guideFigures=(html)=>[...html.matchAll(/<figure class="guide-figure">(<img [^>]*>)<\/figure>/g)].map((match)=>({tag:match[1],alt:match[1].match(/ alt="([^"]*)"/)?.[1]}));
 function assertFigureImage(tag,src,route){
