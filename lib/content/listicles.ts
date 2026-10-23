@@ -403,7 +403,7 @@ export const listicleArticles: Article[] = [
     region: "New Zealand",
     places: ["DOC campsites", "DOC huts", "Private land stays", "4WD tracks", "Australia"],
     imageAlt: "A house bus, cars and a small tent at Cameron Flat campsite below the forested peaks of Mount Aspiring National Park",
-    related: ["best-nz-camping-apps", "rankers-alternatives", "campermate-alternatives"],
+    related: ["best-nz-camping-apps", "rankers-alternatives", "freedom-camping-rules-new-zealand"],
     intro:
       "WikiCamps New Zealand is a paid app with a loyal following: NZ$7.99 once on the New Zealand App Store, 4.5 stars from 137 New Zealand ratings when we checked on 20 October 2026, and more than 12,000 New Zealand sites that its own users have added. Most people who search for an alternative are not unhappy with it so much as unsure: whether to pay for an app when free ones exist, whether user-added listings are current, or whether they will need a second copy for Australia. KiwiCamping is our app, so it comes first below, but each entry says plainly what it does better than WikiCamps and when WikiCamps is still the better buy.",
     sections: [
