@@ -35,6 +35,9 @@ assert.doesNotMatch(content, /\\u2014/, "Escaped em dashes are prohibited");
 // (travellers do come from Australia); Australian-specific phrasing and branding is not.
 assert.doesNotMatch(content, /AussieCamps|Australian|Traditional Owners|(?:across|around|throughout|in) Australia\b|Australia's|not available yet|these names are intentionally|the website does not|editorial landscape image|realistic itinerary/i, "Foreign, internal or generic copy found");
 assert.doesNotMatch(content, /https:\/\/images\.unsplash\.com/i, "Remote article images are prohibited");
+// A cited source never links to an App Store page: every App Store link in the export must be ours, with its
+// placement (tests/rendered-html.test.mjs), and a source is only rendered once its guide publishes. Cite the vendor's page.
+assert.doesNotMatch(content, /url:\s*"https?:\/\/apps\.apple\.com\//, "A cited source links to the App Store; cite the vendor's own page");
 // Copy must address travellers, not the developer building the page.
 assert.doesNotMatch(content, /this (section|page|guide|article) (explains|describes|shows|covers|will)|here goes|lorem ipsum|placeholder text|TODO|FIXME|coming soon|sample text/i, "Developer-facing or placeholder copy found");
 
