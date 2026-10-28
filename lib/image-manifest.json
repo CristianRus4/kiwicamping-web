@@ -811,6 +811,48 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-auckland-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-auckland-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-auckland-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-christchurch-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-christchurch-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-christchurch-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-mackenzie-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-mackenzie-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-mackenzie-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-new-plymouth-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -881,6 +923,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-tasman-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-tasman-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-tasman-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-tauranga-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -919,6 +975,20 @@
       },
       {
         "path": "/images/articles/freedom-camping-waitaki-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-westland-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-westland-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-westland-2026.webp",
         "width": 1600
       }
     ]
@@ -2067,6 +2137,26 @@
       }
     ]
   },
+  "/images/kiwicamping-og-v2.png": {
+    "width": 1200,
+    "height": 630,
+    "variants": [
+      {
+        "path": "/images/kiwicamping-og-v2.png",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/kiwicamping-og.png": {
+    "width": 1200,
+    "height": 630,
+    "variants": [
+      {
+        "path": "/images/kiwicamping-og.png",
+        "width": 1200
+      }
+    ]
+  },
   "/images/kiwicamping-og.webp": {
     "width": 1200,
     "height": 630,
@@ -2357,6 +2447,48 @@
       }
     ]
   },
+  "/images/screens/freedom-camping-auckland-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/freedom-camping-auckland-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/freedom-camping-auckland-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/freedom-camping-christchurch-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/freedom-camping-christchurch-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/freedom-camping-christchurch-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/freedom-camping-mackenzie-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/freedom-camping-mackenzie-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/freedom-camping-mackenzie-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/freedom-camping-new-plymouth-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -2399,6 +2531,20 @@
       }
     ]
   },
+  "/images/screens/freedom-camping-tasman-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/freedom-camping-tasman-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/freedom-camping-tasman-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/freedom-camping-tauranga-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -2437,6 +2583,20 @@
       },
       {
         "path": "/images/screens/freedom-camping-waitaki-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/freedom-camping-westland-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/freedom-camping-westland-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/freedom-camping-westland-2026.webp",
         "width": 1600
       }
     ]

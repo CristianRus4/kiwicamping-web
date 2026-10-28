@@ -566,4 +566,313 @@ export const freedomCouncilArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+  a({
+    slug: "freedom-camping-auckland-2026",
+    publishAt: "2026-12-21",
+    title: "Freedom Camping in Auckland 2026: Rules, Limits and Where to Stay",
+    description: "Auckland's Freedom Camping in Vehicles Bylaw: certified self-contained vehicles only, two nights, away by 9am, 58 prohibited and 20 restricted areas, Waiheke limits, fines and campgrounds that take everyone else.",
+    category: "Rules & safety",
+    region: "Auckland",
+    places: ["Auckland", "Gulf Harbour", "Waiheke Island", "Piha", "Orewa", "Westmere"],
+    imageAlt: "A wide view of Piha Beach on Auckland's west coast with Lion Rock standing at the southern end of the black sand",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "camping-rules-local-councils-new-zealand", "auckland-to-bay-of-islands-drive-guide"],
+    hubs: ["camping/auckland", "freedom-camping/tamaki-makaurau-auckland-mainland"],
+    intro:
+      "Auckland allows freedom camping on council roads and car parks only in certified self-contained vehicles, for at most two nights in the same spot, and you must be gone by 9am on the day you leave. The council's current page names 58 areas where the bylaw prohibits it and 20 where it is restricted, and council reserves and regional parks are closed to it altogether. Anyone with a tent or a van without a certificate needs a campground. This guide reads the council's rules, so DOC land and state highways follow other agencies' rules.",
+    sections: [
+      s("The bylaw in short", [
+        "Auckland's Freedom Camping in Vehicles Bylaw was adopted by the council's Governing Body on 23 June 2022 and took effect on 1 September 2022. Local Matters, reporting the adoption, quoted the council as restricting the practice to certified, self-contained vehicles. The bylaw deals with vehicles on roads and off-street car parks the council controls, and it replaced a patchwork of older local rules.",
+        "The council's page for campers sets out the day-to-day limits, which the table below repeats. The two-week gap is counted from 9am on the day you leave, so a van that moved on at 9am on a Monday can come back to the same street from 9am on the Monday fortnight. Normal parking, litter, fire, noise and alcohol rules still apply on top of the bylaw.",
+      ], ["Certified self-contained only", "Two nights, away by 9am", "No return for two weeks"], {
+        caption: "Auckland Council's general rules for freedom campers and the 2022 adoption notices, read on 28 October 2026.",
+        head: ["Rule", "What the council says"],
+        rows: [
+          ["Vehicle", "A certified self-contained vehicle; tents are not allowed in public places"],
+          ["Length of stay", "A maximum of two nights in the same road or off-road parking area"],
+          ["Departure", "Out of the space by 9am on the day you leave"],
+          ["Coming back", "Not to the same road or parking area within two weeks of leaving, counted from 9am"],
+          ["Where it applies", "Roads and car parks the council controls, outside the prohibited areas"],
+        ],
+      }),
+      s("Prohibited and restricted areas", [
+        "When the bylaw was adopted in 2022 it prohibited freedom camping in 45 areas and restricted it in 22. The council's page now gives 58 areas where the bylaw does not allow it and 20 restricted areas, where extra rules such as a parking limit or a cap on vehicle numbers apply. The council offers a search by address for its prohibited and restricted areas, and that is the check to use for a street, because the lists are long and the maps decide the boundary.",
+        "Named examples show how it works. The Hammerhead at Gulf Harbour was a restricted site with room for 10 self-contained vehicles at once. Coxs Bay at Westmere, which had three designated spaces and a one-night limit, stopped being a freedom camping site on 1 April 2026, when the council ended it, and the council has said a wider review of the sites follows. A site that worked on a past trip may be gone, so rely on the current list rather than a blog post.",
+      ], ["58 prohibited, 20 restricted", "Coxs Bay closed on 1 April 2026", "Search the address on the council page"]),
+      s("Reserves, regional parks and other agencies' land", [
+        "The bylaw excludes all public reserves. Section 44 of the Reserves Act 1977 generally prohibits camping in a reserve, and the council can fine you $800 under that Act where it manages the reserve. That includes the parks that look like obvious spots on a summer evening, such as a beach reserve behind a surf club.",
+        "Regional parks are not freedom camping land either. The council runs paid campgrounds in some of them, including Tāwharanui, Te Haruhi Bay at Shakespear and Ambury, and says to book early for the popular ones. Council car parks where parking is reserved or charged are out, and so are maunga, state highways and conservation land, which other bodies manage.",
+      ], ["Reserves are out", "Regional parks use booked campgrounds", "State highways and maunga sit outside the bylaw"]),
+      s("Waiheke Island", [
+        "On Waiheke the stay limit applies across the whole island rather than to a single street. Local Matters reported the council's rule that freedom campers must leave Waiheke after a maximum of two nights to dump their waste, unless they have arranged other accommodation. Vehicles reach the island on the vehicle ferry, so the sailing time and fare become part of the plan.",
+        "Because the island has few public dump stations, a van that arrives on a full tank of waste has little room. A holiday park or campground on the island is the easier fit for a longer visit, and the council's wording about alternative accommodation covers that.",
+      ], ["Two nights for the whole island", "Leave to dump waste", "Book accommodation for a longer stay"]),
+      s("Fines", [
+        "The council says it can issue infringement notices of up to $800 for offences such as camping in a prohibited area or a reserve, overstaying, not leaving by 9am and using a vehicle without the certificate. Under the national schedule the usual price for camping in breach of a bylaw is $400, a missing warrant card is $200, and refusing to move on when an enforcement officer asks costs $600.",
+        "The $800 level is the one that applies to damaging the area or leaving waste, and it also applies to Reserves Act offences. A notice goes to the registered owner of the vehicle, so a hire company will pass the cost to the renter. The green warrant has been the only certificate that counts since 7 June 2026, so check the card in the windscreen before you park anywhere.",
+      ], ["$400 is the usual fee", "$800 for damage, waste or reserves", "Hire companies pass notices on"]),
+      s("Campgrounds and DOC campsites to use instead", [
+        "A tent or a vehicle without a certificate belongs in a paid site. Auckland Council lists campgrounds at Tāwharanui, Te Haruhi Bay and Ambury, and its guidance points to holiday parks run by Auckland Holidays at Martin's Bay, Ōrewa Beach and Whangateau. Book early over summer, because the regional park sites fill.",
+        "For conservation land, KiwiCamping's DOC data (11 August 2026) lists 9 DOC campsites in the Auckland region, 8 of them bookable online through DOC, with adult nightly rates from $10 to $18. Home Bay on Motutapu Island is the largest, and most of the rest are on Great Barrier Island, so a ferry is part of the trip. The holiday parks guide explains how to book, and the DOC campsites guide covers DOC's booking rules.",
+      ], ["9 DOC campsites in the region", "Great Barrier Island needs a ferry", "Book regional park campgrounds early"]),
+      s("Using KiwiCamping around Auckland", [
+        "KiwiCamping puts Auckland's DOC campsites, holiday parks and nearby places on one map that you can switch to list or satellite view, with filters for the facilities you need. The council's prohibited and restricted maps are not in the app, so use the council's address search for the street you plan to park on. Place details, saved places and guides open without signal, while map tiles, routing, weather and photos wait for reception.",
+        "Save the places you like for the first night out of the city, then add a paid fallback in case a restricted site is full or has been withdrawn. A trip orders the nights with dates and notes, sums the distance of each leg and shows a forecast for every stop. Free to download, with in-app purchases.",
+      ], ["Check the council map for the street", "Save a paid fallback", "Place details work without signal"], undefined, true),
+    ],
+    sources: [
+      { label: "Auckland Council: general rules for freedom campers", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/freedom-camping-auckland/general-rules-information-freedom-campers-auckland.html" },
+      { label: "Auckland Council: Freedom Camping in Vehicles Bylaw", url: "https://aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/bylaws/freedom-camping-bylaw.html" },
+      { label: "Our Auckland: changes to freedom camping rules", url: "https://ourauckland.aucklandcouncil.govt.nz/news/2022/09/changes-to-freedom-camping-rules-from-today" },
+      { label: "Our Auckland: Coxs Bay freedom camping ban", url: "https://ourauckland.aucklandcouncil.govt.nz/media-centre/2026/march/auckland-council-bans-freedom-camping-at-coxs-bay/" },
+      { label: "Local Matters: freedom camping bylaw in place", url: "https://www.localmatters.co.nz/environment/council-happy-campers-now-freedom-camping-bylaw-in-place/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
+  a({
+    slug: "freedom-camping-christchurch-2026",
+    publishAt: "2026-12-22",
+    title: "Freedom Camping in Christchurch and Akaroa 2026: Where You Can Stay",
+    description: "Christchurch's Freedom Camping Bylaw 2021: two signposted areas at Naval Point and Akaroa for certified self-contained vehicles, two nights in 30 days, prohibited areas from New Brighton to Banks Peninsula, fines and council camping grounds.",
+    category: "Rules & safety",
+    region: "Canterbury",
+    places: ["Christchurch", "Lyttelton", "Akaroa", "New Brighton", "Banks Peninsula", "Duvauchelle"],
+    imageAlt: "Akaroa Harbour on Banks Peninsula, with calm blue water, green hills and the township along the shore",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "camping-rules-local-councils-new-zealand", "banks-peninsula-camping-weekend"],
+    hubs: ["camping/canterbury", "freedom-camping/mahaanui"],
+    intro:
+      "Christchurch City Council allows freedom camping in only a few places, and for certified self-contained vehicles at the two signposted areas, Naval Point in Lyttelton and the northern end of Akaroa, for up to two nights in any 30-day period. Everything else the council owns around the city and Banks Peninsula is either prohibited or restricted by its Freedom Camping Bylaw 2021, and a tent or a vehicle without on-board facilities belongs in a camping ground. The bylaw covers council land only.",
+    sections: [
+      s("The bylaw and what it covers", [
+        "The council's Freedom Camping Bylaw 2021 regulates camping on land the council controls. It was amended on 15 November 2023 to match the Self-contained Motor Vehicles Legislation Act 2023, and the amendments came into force on 22 November 2023. The council's page gives no later amendment, so that is the version to read.",
+        "For anyone without a certified self-contained vehicle, the council's camping page is blunt: you need to stay in a camping ground that has facilities you can use. It adds that camping is not allowed in any council park or reserve unless it is one of the four council camping grounds. Parking restrictions such as time limits and overnight bans can apply on top of the bylaw.",
+      ], ["Council land only", "Camping ground for tents and uncertified vans", "Parks and reserves are out"]),
+      s("The two signposted areas", [
+        "Certified self-contained vehicles can camp at the Naval Point Freedom Camping Area in Lyttelton and the Akaroa Freedom Camping Area for up to two nights in any 30-day period. Naval Point is signposted and sits north of the access road that continues from Charlotte Jane Quay. The Akaroa area is at the northern end of the township, with marked parking rows near the Croquet Club and along the northern fork of Grehan Stream.",
+        "A 2021 council announcement put the capacity of each area at up to 18 self-contained vehicles, and rows are marked, so only a marked space counts. The same announcement is the source for the figure, so treat it as a guide and check the signs on arrival. In both places the rest of the council's land is prohibited: all council land in the Naval Point area and all council land in Akaroa township apart from these areas.",
+      ], ["Naval Point, Lyttelton", "Akaroa Freedom Camping Area", "Two nights in any 30 days"]),
+      s("Where freedom camping is prohibited", [
+        "Schedule 1 of the bylaw lists the prohibited areas, and the council's page covers the central city, the east coast beaches and the settlements around the harbour. The table sets out the main ones in the council's own words.",
+        "Two zones are restricted rather than prohibited: the City Coastal Restricted Zone along the eastern coastline from Larnach Street to near Caspian Street, and the Christchurch Urban Restricted Area, which takes in the greater city urban areas including Lyttelton, Cass Bay, Corsair Bay, Rāpaki and Governors Bay outside the prohibited areas. The rules inside them sit in the bylaw's schedules and maps, so open the bylaw PDF before parking in one. A 2021 council announcement described a coastal limit of four nights in 30 days, with no more than two in one place, but that is not stated on the page now.",
+      ], ["Central city, New Brighton and Akaroa are out", "Restricted zones follow the bylaw maps", "Read the PDF for zone limits"], {
+        caption: "Prohibited areas in Schedule 1 of the Christchurch Freedom Camping Bylaw 2021, as the council's bylaw page listed them on 28 October 2026.",
+        head: ["Area", "What the council lists"],
+        rows: [
+          ["Central city", "Council land between and including Bealey, Fitzgerald, Moorhouse, Deans and Harper Avenues, and Little Hagley Park"],
+          ["New Brighton", "North and South Ramp car parks beside the pier"],
+          ["North Beach car park", "Applies from 7pm Friday to 7pm Sunday, and from 1 October to 1 May each year"],
+          ["Southshore Spit", "Council land on the spit"],
+          ["Lyttelton", "Main business area between London, Oxford, Norwich Quay and Dublin Streets, plus Naval Point apart from the signposted area"],
+          ["Banks Peninsula settlements", "Rāpaki, Takamatua, French Farm, Wainui including Stanbury Park, Ōnuku, Purau Bay foreshore and Koukourarata"],
+          ["Akaroa township", "All council land except the marked spaces in the Akaroa Freedom Camping Area"],
+        ],
+      }),
+      s("Fines", [
+        "The council's bylaw page does not list penalties, so the national schedule applies. Camping in breach of a bylaw is a $400 infringement, a self-contained vehicle with more people than it is certified for is $400 as well, and a warrant card missing from the windscreen is $200. If an officer tells you to leave and you stay, the fee is $600, and damage or waste left on the land is $800.",
+        "The council added in 2023 that the Minister of Tourism had lifted the bylaw fine from $200 to $400, so older websites quoting $200 are out of date. The notice goes to the registered owner, which for a rental is the hire company. Only the green self-containment warrant counts since 7 June 2026, and the blue one no longer does.",
+      ], ["$400 for most breaches", "Older pages quote $200", "Green warrant only"]),
+      s("Council camping grounds and DOC campsites", [
+        "The council's camping page names four camping grounds it operates around Banks Peninsula and the coast: Duvauchelle Holiday Park, Okains Bay Camping Ground, Pigeon Bay Camping Ground and Spencer Beach TOP 10 Holiday Park. They take tents and vans without certification, and the Banks Peninsula weekend guide shows how they fit into a short loop.",
+        "On conservation land, KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 14 of them bookable online through DOC, 6 of them free, with adult nightly rates from $10 to $23. Peel Forest Campground is the largest. DOC's own freedom camping notices, which are not council bylaws, apply on its land.",
+      ], ["Four council camping grounds", "22 DOC campsites in Canterbury", "DOC notices are separate"]),
+      s("Using KiwiCamping around Christchurch", [
+        "KiwiCamping shows the Canterbury campsites, holiday parks and DOC places on a map with list and satellite views, so a night near Akaroa or Lyttelton sits beside the DOC and holiday park options. It does not carry the council's signposted areas or restricted zones, so use the council's map for those. Saved places and guides stay readable without signal; the map tiles, routing, weather and photos need it.",
+        "Save two options for each night, one of them a paid site, and put the nights into a trip with dates and notes. Each leg shows its distance, and each stop has its forecast. Free to download, with in-app purchases.",
+      ], ["Use the council map for signposted areas", "Save a paid option as well", "Saved places work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Christchurch City Council: Freedom Camping Bylaw 2021", url: "https://ccc.govt.nz/freedom-camping-bylaw" },
+      { label: "Christchurch City Council: camping and campervans", url: "https://www.ccc.govt.nz/rec-and-sport/camping" },
+      { label: "Christchurch City Council Newsline: new freedom camping rules (1 December 2021)", url: "https://newsline.ccc.govt.nz/news/story/new-freedom-camping-rules-now-in-place" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
+  a({
+    slug: "freedom-camping-tasman-2026",
+    publishAt: "2026-12-23",
+    title: "Freedom Camping in Tasman 2026: Motueka, Richmond, Takaka and Abel Tasman",
+    description: "Tasman District's Responsible Camping Bylaw 2025: no tents on public land, three sites that take vehicles without certification, designated spaces for self-contained vehicles, prohibited beach townships, fines and DOC campsites.",
+    category: "Rules & safety",
+    region: "Nelson Tasman",
+    places: ["Motueka", "Richmond", "Takaka", "Kaiteriteri", "Mapua", "Ngātīmoti"],
+    imageAlt: "Golden sand and calm water at Kaiteriteri Beach in the Tasman District, with green hills behind the bay",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "nelson-abel-tasman-golden-bay", "abel-tasman-coast-track-campsites-2026-27"],
+    hubs: ["camping/nelson-tasman", "freedom-camping/motueka", "freedom-camping/golden-bay"],
+    intro:
+      "Tasman District Council's Responsible Camping Bylaw 2025 does not allow tents on public land, and it allows freedom camping only in designated spaces. The council names three sites where a vehicle without a self-contained certificate may stay, at Motueka, Ngātīmoti and Richmond, and the rest of its spaces are for certified self-contained vehicles. The bylaw came into effect on 1 November 2025 and covers council land only, so DOC campsites in the Abel Tasman and Golden Bay follow DOC's rules.",
+    sections: [
+      s("The bylaw and what it excludes", [
+        "The council adopted its Responsible Camping Bylaw on 11 September 2025, and it took effect on 1 November 2025, after submissions on a draft that was then called the Freedom Camping Bylaw. Its page says the bylaw does not apply to DOC land, commercial campgrounds or private land such as a supermarket car park. The council has published an interactive map of the designated spaces alongside it.",
+        "Freedom camping in a tent on public land is not permitted anywhere in the district, according to the council. That rules out the beaches and reserves that look tempting around Kaiteriteri and Mapua. A vehicle that is not certified self-contained has only the three sites below, and a tent needs a campground or a DOC campsite.",
+      ], ["Adopted 11 September 2025", "In effect 1 November 2025", "No tents on public land"]),
+      s("Sites that take vehicles without certification", [
+        "The council's page lists three designated sites where vehicles that are not self-contained may stay: Motueka Beach Reserve with 3 parking spaces, Alexander Bluff Road Reserve at Ngātīmoti with a maximum of 40 vehicles, and Fittal Street parking in Richmond with 12 spaces. Space is first come, first served, so a site that is full means a campground, not a nearby car park.",
+        "The council has also said it provides 147 freedom camping parking spaces across the district. That total, and the further sites in the table, follow the consultation draft of the bylaw, so they need checking on the council's map before you rely on them. Decks Reserve in Motueka, for instance, was drafted as a weeknight site only, from 6pm to 8am.",
+      ], ["Motueka Beach Reserve: 3 spaces", "Alexander Bluff Road Reserve: up to 40", "Fittal Street, Richmond: 12 spaces"], {
+        caption: "Designated sites named on Tasman District Council's responsible camping page (first three) and in the 2025 consultation draft's Schedule 2 (the rest, to be checked on the council's map). Facilities are not stated.",
+        head: ["Site", "Town", "Spaces", "Vehicle types"],
+        rows: [
+          ["Motueka Beach Reserve", "Motueka", "3 for vehicles without certification, 19 for self-contained in the draft", "Both"],
+          ["Alexander Bluff Road Reserve", "Ngātīmoti", "Up to 40", "Both"],
+          ["Fittal Street", "Richmond", "12", "Both"],
+          ["Decks Reserve", "Motueka", "40 in the draft, weeknights 6pm to 8am", "Self-contained"],
+          ["George Quay", "Motueka", "12 in the draft", "Self-contained"],
+          ["Motupipi Carpark", "Takaka", "11 in the draft", "Self-contained"],
+          ["Wai-iti Recreation Reserve", "Wai-iti", "Up to 10 in the draft", "Self-contained"],
+        ],
+      }),
+      s("Nights and the other conditions", [
+        "The draft bylaw set the maximum stay at two consecutive nights, on no more than two separate occasions in a calendar month, counted within 500 metres of a site. It asked campers to leave by 8am unless a site's entry says otherwise, to keep their belongings inside one parking space and to light no fires. The council's final text may differ in detail, so read the signs and the council page for the exact limit.",
+        "Self-contained vehicles are the default for every other space, and the draft defined them by a valid certificate. Blue warrants stopped counting on 7 June 2026, so the green card on the windscreen is the one to carry. The council can give written consent in advance for something outside the rules, with the draft asking for the application 20 working days ahead.",
+      ], ["Draft: two nights, twice a month", "Leave by 8am in the draft", "Green warrant only"]),
+      s("Where freedom camping is prohibited", [
+        "The draft's Schedule 1 prohibits camping in any reserve, park or sportsground that is not listed as a designated site, and in cemeteries. It also marks red the townships and beaches most visitors head for: Takaka, Pohara, Ligar Bay, Tata Beach, Wainui Bay at McShane Road, Marahau, Kaiteriteri and the Kaiteriteri to Sandy Bay road, Split Apple Rock, Riwaka and Motueka township, with a part of the Decks Reserve car park excepted.",
+        "Inland the draft names Saint Arnaud township and Lake Rotoiti's Kerr Bay, and Wakefield's Edward Baigent Scenic Reserve. Mapua is in neither schedule of the draft, and the council has no designated site there. If a spot is not on the map as a designated space, the safe reading is that you cannot stay.",
+      ], ["Kaiteriteri and Marahau are prohibited in the draft", "Reserves not listed are out", "Mapua has no designated site"]),
+      s("Fines", [
+        "The bylaw leaves penalties to the national schedule. Camping in breach of a bylaw costs $400, using a vehicle that is not self-contained where the rules require it also costs $400, and a missing warrant card costs $200. The fee for refusing to leave when an officer tells you to go is $600, and leaving waste on the land or damaging it costs $800.",
+        "Court fines can reach three times those amounts. The notice goes to the registered owner of the vehicle, which means the hire company for a rental, and the company will normally charge the renter plus an admin fee.",
+      ], ["$400 for most breaches", "$600 for refusing to leave", "$800 for damage or waste"]),
+      s("DOC campsites and the Abel Tasman", [
+        "KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson and Tasman, 31 of them bookable online through DOC, 2 of them free, with adult nightly rates from $10 to $31. Tōtaranui Campground is the largest. The bylaw does not reach DOC land, and DOC publishes its own notices for freedom camping on conservation land.",
+        "For the coast track, the Abel Tasman campsites guide covers the walkers' campsites, and the Nelson, Abel Tasman and Golden Bay guide covers a drive through the area. Booking early matters in January, because the Tasman's beach sites sell out first.",
+      ], ["37 DOC campsites in Nelson and Tasman", "Tōtaranui is the largest", "Book summer early"]),
+      s("Using KiwiCamping around Tasman", [
+        "KiwiCamping covers the DOC campsites, huts and holiday parks of the Tasman region on one map, with tracks, filters for facilities and a satellite view of the coast. The council's designated spaces are not in the app, so open the council's map for the one you intend to use. Place details, saved places and guides still open offline, while the map tiles, routing, weather and photos need signal.",
+        "Put a paid site beside each night that relies on a council space, since a space of three can be taken by 6pm. Trips keep the order of your nights with dates and notes, add up the distance of each leg and show the forecast at every stop. Free to download, with in-app purchases.",
+      ], ["Use the council map for spaces", "Save a campground beside each night", "Check the forecast per stop"], undefined, true),
+    ],
+    sources: [
+      { label: "Tasman District Council: responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Tasman District Council: camping bylaw", url: "https://www.tasman.govt.nz/my-council/key-documents/more/bylaws-and-regulations/camping-bylaw" },
+      { label: "Tasman District Council: Responsible Camping Bylaw adopted", url: "https://shape.tasman.govt.nz/camping-bylaw" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
+  a({
+    slug: "freedom-camping-westland-2026",
+    publishAt: "2026-12-24",
+    title: "Freedom Camping in Westland 2026: Hokitika, Franz Josef, Fox Glacier and Haast",
+    description: "Westland District's freedom camping rules: three community-run sites for certified self-contained vehicles, council dump stations, the 2024 draft bylaw's townships and sites, reserves ruled out, fines and DOC campsites on the West Coast.",
+    category: "Rules & safety",
+    region: "West Coast",
+    places: ["Hokitika", "Franz Josef", "Fox Glacier", "Haast", "Kumara", "Paringa"],
+    imageAlt: "The Franz Josef Glacier descending between steep forested valley walls on the West Coast of the South Island",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "west-coast-south-island-road-trip", "camping-rules-local-councils-new-zealand"],
+    hubs: ["camping/west-coast", "freedom-camping/south-westland", "freedom-camping/greymouth"],
+    intro:
+      "In the Westland District the council's own freedom camping sites are three, run by local communities, and they are open to certified self-contained vehicles. They are Kumara Domain, Woodstock Domain at Rimu and Paringa Salmon Farm, and the council's page says a donation is required. Council reserves cannot be used under the Reserves Act, and tent campers and vehicles without certification are told to use commercial operators. The council also consulted on a Responsible Freedom Camping Bylaw 2024, which this guide reports as a draft because its adoption could not be confirmed.",
+    sections: [
+      s("What the council's page says", [
+        "The council's campgrounds and responsible camping page states that freedom camping is only permitted if your vehicle is certified self-contained. It says council reserves are not permitted for freedom camping under the Reserves Act, and that tent campers and vehicles that are not certified should use commercial operators. The page leaves out the number of nights and any fine amounts, and says only that fines may be issued.",
+        "It names three responsible freedom camping sites run by local communities, each asking for a donation: Kumara Domain on Seddon Street in Kumara, Woodstock Domain at 47 Back Creek Road in Rimu, and Paringa Salmon Farm at 6156 Haast Highway in Paringa. Brochure maps for Kumara, Hokitika, Ross, Franz Josef and Fox Glacier, and Paringa and Haast, are linked from the page.",
+      ], ["Certified self-contained only", "Three community-run sites", "A donation is asked"]),
+      s("Council dump stations", [
+        "The council lists dump stations for certified self-contained vehicles at three places: the oxidation ponds on State Highway 6 near Hokitika, between Cron Street and State Highway 6 at Franz Josef, and by the toilets on Marks Road at Haast. Those are the places the draft bylaw names as the only legal destinations for wastewater, including human waste.",
+        "Between Hokitika and Haast the gaps are long, with only a few of these on the way, so empty the tanks at Hokitika or Franz Josef rather than hoping for another stop. The West Coast road trip guide has the distances between towns.",
+      ], ["Hokitika oxidation ponds", "Franz Josef, Cron Street to SH6", "Haast, Marks Road toilets"]),
+      s("The 2024 draft bylaw", [
+        "The council consulted from 25 October to 25 November 2024 on a Responsible Freedom Camping Bylaw 2024, with hearings in December that year. The draft PDF the council published has blank commencement and review dates, and no adoption notice turned up, so everything in this section is a proposal. If it was adopted, the council's page and the signs at each site are what to follow.",
+        "The draft would restrict freedom camping to named areas for certified self-contained and, in most cases, non-certified vehicles, between 8pm and 7am until the allocated car park is full. It would allow no more than two nights within 30 days, ban lighting fires, forbid camping within 20 metres of a lake, sea or beach unless a restricted area says otherwise, and prohibit tents and temporary structures on all council land in the district.",
+      ], ["Proposal only: 8pm to 7am", "Two nights in 30 days", "Tents prohibited in the draft"], {
+        caption: "Restricted areas in Schedule 2 of the published draft Responsible Freedom Camping Bylaw 2024. The draft is not confirmed as adopted, so check the council's page and the signs.",
+        head: ["Area", "Place in the draft", "Hours and spaces"],
+        rows: [
+          ["Kumara", "Kumara Domain, Seddon Street", "8pm to 7am; until the car park is full; community managed"],
+          ["Hokitika", "Sunset Point and the beachfront", "8pm to 7am; about 12 sites each"],
+          ["Rimu/Woodstock", "Woodstock Domain, Back Creek Road", "8pm to 7am; community managed"],
+          ["Kakapotahi", "Kakapotahi Beach, end of Beach Road", "8pm to 7am; certified self-contained only"],
+          ["Franz Josef", "Heliport car park", "8pm to 7am; until the car park is full"],
+          ["Paringa", "Public toilet car park at Paringa Salmon Farm", "8pm to 7am; until the car park is full"],
+          ["Haast", "Haast Playground, Marks Road", "8pm to 7am; 10 sites"],
+        ],
+      }),
+      s("Where the draft prohibits camping", [
+        "The draft's prohibited list is a set of township and open-space maps: Kaniere, Ruatapu, Ross, Harihari, Okarito, Fox Glacier, Bruce Bay, Hannahs Clearing, Okuru, Neils Beach and Jackson Bay. Fox Glacier appears only on the prohibited list, with no restricted site, so a night there means a campground or a holiday park.",
+        "Reserves would stay closed under the Reserves Act 1977 unless a reserve management plan or the council's delegated ministerial consent allows camping.",
+      ], ["Fox Glacier is prohibited only", "Ross, Okarito and Harihari prohibited", "Reserves stay closed"]),
+      s("Fines", [
+        "The draft points to the national schedule, which prices camping in breach of a bylaw at $400, a self-contained vehicle carrying more people than its certificate allows at $400, and a warrant card not on show at $200. Leaving rubbish or damaging the land costs $800, and failing to leave when an officer requires it costs $600.",
+        "The green warrant is the one that counts now, because blue ones were retired on 7 June 2026. A rental company receives the notice first and passes it on.",
+      ], ["$400 for most breaches", "$800 for waste or damage", "Check the card on the windscreen"]),
+      s("DOC campsites on the West Coast", [
+        "Conservation land runs by DOC's rules and DOC's booking. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites in the West Coast region, 12 of them bookable online through DOC, with adult nightly rates from $10 to $20. Lake Māhinapua Campsite, the largest, holds 100 sites.",
+        "Glacier country has few options between the township bans, so book a holiday park or a DOC campsite for Franz Josef and Fox Glacier in January, and read the DOC campsites guide for how its bookings work. The road trip guide for the coast links the stops in order.",
+      ], ["14 DOC campsites on the coast", "Lake Māhinapua is the largest", "Book Franz Josef and Fox Glacier early"]),
+      s("Using KiwiCamping on the West Coast", [
+        "KiwiCamping maps the West Coast's DOC campsites, huts, tracks and holiday parks, and its dump station pins help with the long gaps. The council's three community sites and its draft restricted areas are not in the app, so check the council page for the current list. With no signal the app keeps place details, saved places and guides, but the map tiles, routing, weather and photos wait for reception.",
+        "Build the coast as one trip, with a dated stop each night, a holiday park saved as the fallback for the night that depends on a community site, and the distance and forecast shown per leg. Free to download, with in-app purchases.",
+      ], ["Use the council page for sites", "Pin a dump station before long gaps", "Saved guides work without signal"], undefined, true),
+    ],
+    sources: [
+      { label: "Westland District Council: campgrounds and responsible camping", url: "https://www.westlanddc.govt.nz/recreation/campgrounds-and-responsible-camping/" },
+      { label: "Westland District Council: Responsible Freedom Camping Bylaw 2024 (draft)", url: "https://www.westlanddc.govt.nz/media/duib0fpm/westland-district-council-responsible-freedom-camping-bylaw-2024.pdf" },
+      { label: "Westland District Council: seeking submissions on the bylaw", url: "https://westlanddc.govt.nz/notices-news-and-events/posts/seeking-submissions-freedom-camping-bylaw" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
+  a({
+    slug: "freedom-camping-mackenzie-2026",
+    publishAt: "2026-12-25",
+    title: "Freedom Camping in Mackenzie 2026: Tekapo, Twizel and Lake Pukaki",
+    description: "Mackenzie District's Responsible Freedom Camping Bylaw 2023: prohibited areas at Tekapo and Twizel, a three-night limit at restricted sites, the 23 December to January closure window, self-contained rules and where else to stay.",
+    category: "Rules & safety",
+    region: "Mackenzie",
+    places: ["Tekapo", "Twizel", "Lake Pukaki", "Aoraki Mount Cook", "Fairlie", "Lake Ruataniwha"],
+    imageAlt: "Lake Tekapo's turquoise water with snow-dusted mountains beyond the shore and the small stone church beside the lake",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "christchurch-tekapo-aoraki-road-trip", "freedom-camping-waitaki-2026"],
+    hubs: ["camping/canterbury", "freedom-camping/twizel"],
+    intro:
+      "The Mackenzie District Council bans freedom camping in Tekapo township, the commercial centre of Twizel and along the Lake Ruataniwha lagoon shore, and elsewhere it points campers to a short list of restricted sites. Its page gives a maximum of three consecutive nights at restricted sites, and four sites are closed to camping between 23 December and the second Monday in January, which is 11 January 2027. Its Responsible Freedom Camping Bylaw 2023 covers council land only.",
+    sections: [
+      s("The bylaw and who it covers", [
+        "The council adopted its Responsible Freedom Camping Bylaw 2023 on 12 December 2023, with a review date of 12 December 2028. It is the council's rulebook for council land across the Mackenzie Basin, including Tekapo, Twizel and Fairlie. Land that DOC, Waka Kotahi NZTA or Land Information New Zealand manages has other rules.",
+        "The council tightened its definition of self-contained at the same time, and its page now describes a camper as having fully self-contained toilet facilities and being able to meet ablution needs for a minimum of three days without discharging waste. A motor caravan group argued the definition would keep legitimate certified vehicles out of public toilets. The test for a visitor is whether the vehicle carries a valid green warrant and can hold three days of waste.",
+      ], ["Adopted 12 December 2023", "Review due 12 December 2028", "Three days of waste capacity"]),
+      s("Where freedom camping is prohibited", [
+        "The council's camping page prohibits responsible camping in Tekapo township, in the commercial centre of Twizel and along the western shore of Lake Ruataniwha, known as the lagoon area. The bylaw also lists Tekapo's residential, recreation and open space, town centre and neighbourhood centre zones as prohibited. Reserves in the district fall under the Reserves Act, which generally bars camping.",
+        "That leaves little in the towns, so the places people actually use are the signposted sites outside them. Look for the council's sign before you stop, because an unmarked lay-by or lake edge is not a designated spot.",
+      ], ["Tekapo township is prohibited", "Twizel's commercial centre is prohibited", "The Ruataniwha lagoon shore is prohibited"]),
+      s("Restricted sites and the holiday closure", [
+        "At the sites with date restrictions the council allows a maximum of three consecutive nights. Four responsible camping sites are closed to camping from 23 December to the second Monday in January inclusive, so the busiest fortnight of the year is when these are not available. In 2026-27 that window runs from 23 December 2026 to 11 January 2027.",
+        "Lake Wardell on State Highway 8 near Twizel is described by the council as a site for certified self-contained vehicles, with spaces on a first come, first served basis. The 2023 consultation draft had proposed restricted camping at Lake Opuha, around the Bennetts Road, Hayes Road and Opuha Gorge Road areas, and at Edwards Stream, with tents and non-self-contained vehicles prohibited across the district. The adopted list may differ from the draft, so use the council's current map.",
+      ], ["Three consecutive nights at restricted sites", "No camping 23 December to 11 January at four sites", "Lake Wardell: self-contained only"]),
+      s("Fines", [
+        "The bylaw does not set its own penalties, so the national schedule applies. The infringement fee is $400 for freedom camping in breach of a bylaw, $200 for no warrant card on show, $600 for refusing to leave when an enforcement officer requires it and $800 for damage or waste left behind.",
+        "Courts can set penalties up to three times those fees. Notices go to the registered owner, which for a rental is the hire company. Since 7 June 2026 only the green warrant card satisfies the rules, so a van with the old blue sticker needs a campground.",
+      ], ["$400 for most breaches", "Green warrant card only", "Rental companies get the notice"]),
+      s("Other places to stay in the Mackenzie", [
+        "When the sites are full or closed, the options are the campgrounds and holiday parks at Tekapo, Twizel and Aoraki Mount Cook, and DOC's campsites. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 14 of them bookable online through DOC, with adult nightly rates from $10 to $23. Peel Forest Campground is the largest.",
+        "Over Christmas and New Year the basin books out, so reserve a holiday park or a DOC campsite before you set off. The Christchurch to Tekapo and Aoraki road trip guide covers the route, and the Christchurch to Queenstown drive guide covers State Highway 8 through Twizel.",
+      ], ["22 DOC campsites in Canterbury", "Book Christmas week early", "Council sites are closed in the holiday window"]),
+      s("Using KiwiCamping in the Mackenzie", [
+        "KiwiCamping shows the Mackenzie's campsites, holiday parks, walks and lookouts on a satellite or standard map, with place pages for fees and facilities. The council's restricted site list is not in the app, so confirm the site and the dates on the council's page. Without signal the app still opens place details, saved places and guides, while map tiles, routing, weather and photos need it.",
+        "Save a holiday park beside any night that depends on a restricted site, and plan the Lake Pukaki to Tekapo leg as a trip with dates, notes and the forecast at each stop. The distance of each leg is added up for you. Free to download, with in-app purchases.",
+      ], ["Confirm dates on the council page", "Save a holiday park as backup", "Forecasts show per stop"], undefined, true),
+    ],
+    sources: [
+      { label: "Mackenzie District Council: Responsible Freedom Camping Bylaw 2023", url: "https://www.mackenzie.govt.nz/__data/assets/pdf_file/0004/828193/Responsible-Freedom-Camping-Bylaw-2023.pdf" },
+      { label: "Mackenzie District Council: camping locations", url: "https://mackenzie.govt.nz/home/icon-redirects/row-1/camping" },
+      { label: "Mackenzie District Council: draft Responsible Freedom Camping Bylaw", url: "https://www.mackenzie.govt.nz/pages/public-notices/2023/draft-responsible-freedom-camping-bylaw" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
 ];

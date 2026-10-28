@@ -90,3 +90,8 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-18 | auckland-to-bay-of-islands-drive-guide | scheduled |
 | 2026-12-19 | wellington-to-napier-drive-guide | scheduled |
 | 2026-12-20 | christchurch-to-dunedin-drive-guide | scheduled |
+| 2026-12-21 | freedom-camping-auckland-2026 | scheduled |
+| 2026-12-22 | freedom-camping-christchurch-2026 | scheduled |
+| 2026-12-23 | freedom-camping-tasman-2026 | scheduled |
+| 2026-12-24 | freedom-camping-westland-2026 | scheduled |
+| 2026-12-25 | freedom-camping-mackenzie-2026 | scheduled |
