@@ -218,4 +218,69 @@ export const costsWhvArticlesA: Article[] = [
       { label: "Travellers Autobarn: Toyota Hiace campervans for sale", url: "https://www.travellers-autobarn.co.nz/toyota-hiace-campervans-for-sale" },
     ],
   }),
+  a({
+    slug: "holiday-park-prices-new-zealand-2026",
+    publishAt: "2026-12-26",
+    title: "Holiday Park Prices in NZ 2026: Powered, Unpowered and Cabin Rates",
+    description: "What NZ holiday parks publish for powered and unpowered sites and cabins, by region and season, set against DOC's serviced campsite fees, with the TOP 10 membership and ways to spend less.",
+    category: "Costs & budget",
+    region: "New Zealand",
+    places: ["Lake Hāwea", "Nelson", "Whangateau", "Christchurch", "Kaeo", "Auckland"],
+    imageAlt: "The grounds of Reefton Motor Camp on the West Coast, looking east across the grass from the domain",
+    related: ["holiday-parks-new-zealand-guide", "camping-fees-new-zealand-2026", "campervan-hire-cost-new-zealand-2026", "accommodation-costs-new-zealand-2026", "christmas-summer-camping-new-zealand-2026-27"],
+    intro:
+      "A powered site at a New Zealand holiday park publishes at roughly $50 to $75 a night for two people in summer, an unpowered site at about $20 to $26 per adult, and a basic cabin at about $80 to $100 for two, rising to $155 to $250 for four at peak. Those are the figures the parks list on their own pages and tourism listings, and they sit well above DOC's serviced campsites at $20 to $28 per adult. No park group publishes one national price list, so the table below uses named parks in different regions, read on 28 October 2026.",
+    sections: [
+      s("What a night costs", [
+        "Holiday park pricing has three moving parts: the type of site, the season and whether the price is per site or per adult. The Camp at Lake Hāwea, for example, charges for two adults on a powered site and then adds $25 a night for each extra adult and $15 for each child aged 5 to 15, with children under 5 free. Cable Bay Holiday Park outside Nelson charges per adult, at $28 powered and $26 unpowered, with children aged 5 to 13 at $15.",
+        "That means a couple pays about the same as a family of four only at parks that price per site, and the per-adult parks reward couples and singles. Before comparing two parks, convert both quotes to the same party, such as two adults in one campervan, and the same dates.",
+      ], ["Powered about $50 to $75 for two", "Unpowered about $20 to $26 per adult", "Compare the same party and dates"]),
+      s("Published rates by region and season", [
+        "The table collects what named parks in five regions publish, with the season each price belongs to. It is a sample of how prices behave rather than a national average, and the parks' own booking pages decide the price for your dates. Where a source gives only a range across every accommodation type, the table says so instead of guessing which part of the range is a powered site.",
+        "The pattern is the same everywhere: a lower price from May to September, a middle band for most of the summer half of the year and a peak that starts around 20 December and runs until after Waitangi Day. Cabins carry the steepest swing, since a Northland cabin lists $80 to $100 in winter for two and $155 to $250 at peak for four.",
+      ], ["Peak starts around 20 December", "Cabins swing the most", "Ranges cover every accommodation type"], {
+        caption: "Rates as published by each park's own page (The Camp, Cable Bay) or by its listing on newzealand.com (the others), read on 28 October 2026. Prices change, so confirm them for your dates.",
+        head: ["Park and region", "Powered site", "Unpowered site", "Cabin"],
+        rows: [
+          ["The Camp, Lake Hāwea (Otago)", "$50 for 2 adults, 1 May to 30 Sep; $60 from 1 Oct to 30 Apr; $70 at peak", "On a separate page", "On a separate page"],
+          ["Cable Bay Holiday Park, Nelson", "$28 per adult", "$26 per adult", "Powered cabin $90 for up to 2"],
+          ["Tauranga Bay Holiday Park, Kaeo (Northland)", "Not listed", "$20 per adult, $10 per child; peak $60 to $75 per site", "$80 to $100 for 2 in winter; $155 to $250 for 4 at peak"],
+          ["Whangateau Holiday Park (Auckland)", "Range across all types: $46 to $145 (Oct to Apr)", "Included in the range", "Included in the range"],
+          ["Spencer Beach Holiday Park (Christchurch)", "Range across all types: $27 to $150", "Included in the range", "Included in the range"],
+        ],
+      }),
+      s("Powered, unpowered and cabin: what you pay for", [
+        "A powered site adds a power point to the pitch, and in most parks it also brings you closer to the kitchen and amenity blocks. An unpowered site suits a tent or a campervan that does not need to plug in, and it costs less. A cabin includes a bed under a roof, so it is the choice when the forecast is poor or you travel without a tent.",
+        "DOC is the benchmark on conservation land. Its serviced campsites charge adults $25 for an unpowered site and $20 to $28 for a powered one, with children at $12.50 and $10 to $14, and infants free. Standard DOC campsites cost adults $10 to $20 and basic ones are free, but they have fewer facilities than a holiday park, so the price gap buys showers, kitchens and laundry.",
+      ], ["Powered sites add a power point", "Cabins include a bed", "DOC serviced sites cost $20 to $28 per adult"]),
+      s("The networks and memberships", [
+        "TOP 10 Holiday Parks says it has 52 parks in New Zealand. Its TOP 10 Club costs $55 for two years and gives 10% off accommodation at all TOP 10 parks, subject to terms and conditions, which one park's own blog describes as capped at $40 a stay. It takes about $550 of accommodation spend to earn back $55 at 10%, and a single three-night stay at $55 a night saves about $16.",
+        "Some parks belong to no network. Christchurch City Council operates Spencer Beach TOP 10 among its camping grounds, so a council park can sit inside a network and still set its own prices. Check whether a membership discount applies to a site, a cabin or both.",
+      ], ["TOP 10 Club: $55 for two years", "10% off, capped at $40 a stay per one park", "Council parks set their own prices"]),
+      s("Ways to spend less", [
+        "Travel outside the peak window, because the winter rate for a powered site at The Camp is $20 lower than its peak rate and Tauranga Bay lists its winter cabins well below its peak cabins. A night in a DOC serviced campsite costs less than most holiday park sites, so alternate the two on a longer trip.",
+        "Choose an unpowered site when the van has a house battery, since the per-adult price is lower, and watch the child rate when you travel as a family. Fewer, longer stays also cut the minimum-stay problem that some parks apply over peak and public holidays. A prepaid cancellation rule can cancel the saving, so read it before paying.",
+      ], ["Avoid the 20 December to Waitangi Day window", "Mix DOC and holiday park nights", "Read cancellation terms"]),
+      s("Booking terms that change the price", [
+        "Tauranga Bay's listing says a cancellation within 14 days of arrival costs one night's rate for each cabin or site booked. Spencer Beach's listing notes that minimum stays apply over the peak season and public holidays. The Camp's page says guests who stayed the previous summer book Christmas and New Year before 31 March, and new guests email the park from 1 April, so the best summer sites go early.",
+        "Parks also charge for pets, extra vehicles and visitors at some sites, so ask when you book. A quote that leaves them out will not match the final bill.",
+      ], ["Cancellation can cost a night", "Peak minimum stays apply", "Summer bookings open as early as April"]),
+      s("Using KiwiCamping to price a trip", [
+        "KiwiCamping lists holiday parks next to DOC campsites and huts, with a fees and facilities summary, a link to book where a park takes bookings, and the nightly cost shown in the currency you choose. A cost filter limits the map to free places or paid ones. Place details, saved places and guides work offline, and the map tiles, routing, weather and photos need signal.",
+        "Save a holiday park and a DOC campsite for each night, drop them into a trip with dates and notes, and compare the two on price and facilities. The trip adds up the driving between stops and shows the forecast at each one. Free to download, with in-app purchases.",
+      ], ["Compare a park and a DOC campsite", "Switch the currency", "Add a night's cost to the trip notes"], undefined, true),
+    ],
+    sources: [
+      { label: "The Camp, Lake Hāwea: powered sites", url: "https://thecamp.co.nz/accommodation/powered-sites/" },
+      { label: "Cable Bay Holiday Park, Nelson", url: "https://cablebayholidaypark.nz/" },
+      { label: "newzealand.com: Tauranga Bay Holiday Park pricing", url: "https://www.newzealand.com/au/plan/business/tauranga-bay-holiday-park" },
+      { label: "newzealand.com: Whangateau Holiday Park pricing", url: "https://www.newzealand.com/au/plan/business/whangateau-holiday-park" },
+      { label: "newzealand.com: Spencer Beach Holiday Park pricing", url: "https://www.newzealand.com/us/plan/business/spencer-beach-holiday-park/" },
+      { label: "TOP 10 Holiday Parks", url: "https://www.top10.co.nz/" },
+      { label: "DOC: campsite categories, facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "Christchurch City Council: camping and campervans", url: "https://www.ccc.govt.nz/rec-and-sport/camping" },
+    ],
+  }),
+
+
 ];

@@ -1049,6 +1049,20 @@
       }
     ]
   },
+  "/images/articles/holiday-park-prices-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/holiday-park-prices-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/holiday-park-prices-new-zealand-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/holiday-parks-new-zealand-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -2653,6 +2667,20 @@
       },
       {
         "path": "/images/screens/heaphy-track-camping-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/holiday-park-prices-new-zealand-2026.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/holiday-park-prices-new-zealand-2026-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/holiday-park-prices-new-zealand-2026.webp",
         "width": 1600
       }
     ]

@@ -70,6 +70,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "freedom-camping-tasman-2026", section: 6, src: "/images/screens/freedom-camping-tasman-2026.webp", alt: "KiwiCamping on iPhone: a satellite map of New Zealand with numbered clusters of places along the North and South Islands" },
   { slug: "freedom-camping-westland-2026", section: 6, src: "/images/screens/freedom-camping-westland-2026.webp", alt: "KiwiCamping on iPhone: a West Coast road trip route on a map with campsite, holiday park and dump station pins above a seven-day forecast" },
   { slug: "freedom-camping-mackenzie-2026", section: 5, src: "/images/screens/freedom-camping-mackenzie-2026.webp", alt: "KiwiCamping on iPhone: a satellite map of Lake Pukaki with walking track pins and numbered clusters of places" },
+  { slug: "holiday-park-prices-new-zealand-2026", section: 7, src: "/images/screens/holiday-park-prices-new-zealand-2026.webp", alt: "KiwiCamping on iPhone: a holiday park place page with its photo, a paid label, a 4.0 rating, its facilities and a Book now button" },
 
 ];
 

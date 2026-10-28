@@ -147,3 +147,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-westland-2026` | Franz Josef Glacier 14.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Franz_Josef_Glacier_14.jpg) |
 | `freedom-camping-christchurch-2026` | Akaroa Harbour NZ. (49671627386).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa_Harbour_NZ._(49671627386).jpg) |
 | `freedom-camping-mackenzie-2026` | Lake Tekapo Canterbury NZ.jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo_Canterbury_NZ.jpg) |
+| `holiday-park-prices-new-zealand-2026` | Reefton Motor Camp looking east from domain.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_looking_east_from_domain.jpg) |

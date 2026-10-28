@@ -68,6 +68,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | freedom-camping-tasman-2026 | 6 (Using KiwiCamping around Tasman) | Inbox: kiwicamping_map_south-island_clusters.png | KiwiCamping on iPhone: a satellite map of New Zealand with numbered clusters of places along the North and South Islands |
 | freedom-camping-westland-2026 | 6 (Using KiwiCamping on the West Coast) | Inbox: kiwicamping_guides_west-coast-road-trip_map.png | KiwiCamping on iPhone: a West Coast road trip route on a map with campsite, holiday park and dump station pins above a seven-day forecast |
 | freedom-camping-mackenzie-2026 | 5 (Using KiwiCamping in the Mackenzie) | Inbox: kiwicamping_map_lake-pukaki_satellite-pins.png | KiwiCamping on iPhone: a satellite map of Lake Pukaki with walking track pins and numbered clusters of places |
+| holiday-park-prices-new-zealand-2026 | 7 (Using KiwiCamping to price a trip) | Inbox: kiwicamping_place-detail_paihia-top-10-holiday-park_top.png | KiwiCamping on iPhone: a holiday park place page with its photo, a paid label, a 4.0 rating, its facilities and a Book now button |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

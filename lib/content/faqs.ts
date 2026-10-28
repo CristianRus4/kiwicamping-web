@@ -521,5 +521,11 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["When is the Mackenzie holiday camping closure in 2026-27?", "From 23 December 2026 to 11 January 2027 inclusive, at the four sites with date restrictions. Check the council's page for which sites they are."],
     ["Can I freedom camp at Lake Wardell near Twizel?", "The council describes Lake Wardell on State Highway 8 as a site for certified self-contained vehicles, with spaces first come, first served."],
   ],
+  "holiday-park-prices-new-zealand-2026": [
+    ["How much is a powered site at a New Zealand holiday park?", "Parks that publish a powered-site rate list about $50 to $70 for two people, such as The Camp at Lake Hāwea at $50 to $70 depending on season, or $28 per adult at Cable Bay near Nelson. The price depends on the park, the season and how many are in the party."],
+    ["Is a holiday park or a DOC campsite cheaper?", "DOC is usually cheaper: a serviced DOC campsite charges adults $25 unpowered and $20 to $28 powered, standard sites $10 to $20, and basic sites are free. A holiday park costs more but adds facilities such as kitchens and showers."],
+    ["Is the TOP 10 Club worth it?", "The club costs $55 for two years and takes 10% off accommodation at TOP 10 parks, so it earns back its price after about $550 of accommodation spend, depending on the cap that applies to each stay."],
+    ["When are holiday parks most expensive in New Zealand?", "From about 20 December until after Waitangi Day, when The Camp's powered rate is $70 and Tauranga Bay lists its peak cabins from $155 to $250 for four people."],
+  ],
 
 };
