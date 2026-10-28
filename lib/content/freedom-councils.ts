@@ -875,4 +875,325 @@ export const freedomCouncilArticles: Article[] = [
   }),
 
 
+
+  a({
+    slug: "freedom-camping-dunedin-2026",
+    publishAt: "2026-12-28",
+    title: "Freedom Camping in Dunedin 2026: Where You Can Stay",
+    description: "Dunedin's freedom camping rules: certified self-contained vehicles on most council parking land, two nights per location, three sites for tents and vehicles without certification, fines and DOC campsites.",
+    category: "Rules & safety",
+    region: "Otago",
+    places: ["Dunedin", "Warrington", "Ocean View", "Otago Peninsula", "Port Chalmers", "St Clair"],
+    imageAlt: "People walking along the wide sand of St Clair Beach in Dunedin, with a green headland beyond the surf",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "christchurch-to-dunedin-drive-guide", "southern-scenic-route-camping"],
+    hubs: ["camping/otago"],
+    intro:
+      "A certified self-contained vehicle may stay overnight on most gravelled or sealed Dunedin City Council land set aside for parking, for no more than two consecutive nights in one location. Vehicles without certification and tents are limited to three council sites, and only Warrington Domain takes tents. The council's page lists exceptions, scenic reserves are out, and DOC land is a separate landlord.",
+    sections: [
+      s("What the council's page says", [
+        "Dunedin City Council's freedom camping page starts from the vehicle: certified self-contained vehicles can stay overnight on most gravelled or sealed council land set aside for parking, with some exceptions the page outlines. It asks for the vehicle's certification to be clearly displayed, and it names the self-containment standard, NZS 5465.",
+        "The stay limit is two consecutive nights at any one location, with departure by 8.30am. Warrington is the one exception, where the departure time is 12 noon. The council's server refused scripted reads when this guide was prepared, so the wording above comes from the page's text as search tools returned it, and the council's own page is the version to trust on the day.",
+      ], ["Council parking land, with exceptions", "Two consecutive nights per location", "Out by 8.30am, or noon at Warrington"]),
+      s("Tents and vehicles without certification", [
+        "A council may designate places for vehicles that are not certified, and Dunedin's page names three: Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park. Tent campers have a single option, the designated area inside Warrington Domain.",
+        "The Thomas Burns Street site works on a season for non-self-contained vehicles: it is available from 1 November to 30 April. MBIE's fact sheet for councils says existing bylaws that designate places for non-self-contained vehicles continue to apply, which is why these three survive the 2023 law. If the vehicle is neither certified nor welcome at one of the three, a holiday park is the answer.",
+      ], ["Three sites for non-certified vehicles", "Tents at Warrington only", "Thomas Burns Street: 1 Nov to 30 Apr"], {
+        caption: "Sites for vehicles without certification and tents on Dunedin City Council's freedom camping page, as its text read in search results on 28 October 2026. Check the page before you travel.",
+        head: ["Site", "Who may stay", "Stay and departure"],
+        rows: [
+          ["Warrington Domain, designated area", "Tents and non-self-contained vehicles", "Two consecutive nights; leave by 12 noon"],
+          ["Ocean View Recreation Reserve", "Non-self-contained vehicles", "Two consecutive nights; leave by 8.30am"],
+          ["Thomas Burns Street car park", "Non-self-contained vehicles, 1 November to 30 April", "Two consecutive nights; leave by 8.30am"],
+        ],
+      }),
+      s("Where the council says no", [
+        "The council's list of prohibited places includes scenic reserves, and it names Warrington Domain, the Thomas Burns Street car park and Ocean View Recreation Reserve for anyone camping outside their designated areas. Reading the signs matters at these sites, because the permission covers a marked area, not the whole domain or car park.",
+        "The council patrols these places at night, and its page lists further exceptions to the parking-land rule that this guide does not copy out. A gravel car park beside a beach is not automatically open: look for a sign, and if there is none, ask the council before settling in.",
+      ], ["Scenic reserves are prohibited", "Stay inside the marked area", "Ask if there is no sign"]),
+      s("Fines", [
+        "Dunedin enforces its rules with infringement notices. Under the national regulations a breach of a bylaw restriction or prohibition costs $400, using a vehicle that is not self-contained where it is required costs $400, and a missing warrant card costs $200. Damage to the area or leaving waste in or on it costs $800.",
+        "If a case goes to court, the Freedom Camping Act lets a fine reach $3,000. For a rental, the notice normally lands with the hire company, which usually charges the cost on to the hirer.",
+      ], ["$400 for most breaches", "$800 for damage or waste", "Rental firms pass fines on"]),
+      s("DOC land and holiday parks around Dunedin", [
+        "The council's rules stop at its boundary. KiwiCamping's DOC data (11 August 2026) shows 30 DOC campsites in Otago, 16 of them bookable online through DOC, with adult nightly rates from $5 to $42 and 8 campsites listed as free. The region also holds 78 DOC huts, and the guide to DOC campsites explains how to book.",
+        "For power, showers and a certain bed, the holiday parks guide covers how to book a park in summer, when the council sites near the city fill early. A park is also the clean answer for a tent outside Warrington's designated area.",
+      ], ["30 DOC campsites in Otago", "Book DOC sites through DOC", "Holiday parks for tents and power"]),
+      s("Reaching Dunedin and going on from it", [
+        "From Christchurch the drive south on State Highway 1 passes Ōamaru and Moeraki, and the Christchurch to Dunedin guide covers the route, timings and the camping choices on the way. Going on from Dunedin, the Southern Scenic Route guide follows the Catlins towards Invercargill and Fiordland.",
+        "A two-night limit suits a base for the city and the peninsula, but it means moving every second day on a longer trip. Line up the next stop before the first one runs out.",
+      ], ["Christchurch to Dunedin guide", "Catlins on the Southern Scenic Route", "Two nights suits a city base"]),
+      s("Using KiwiCamping around Dunedin", [
+        "The app maps Otago's DOC campsites and huts with their fees and facilities, together with holiday parks and bookable stays and tours. Its freedom camping information comes from DOC's notices on conservation land, which are not council bylaws, so Warrington, Ocean View and Thomas Burns Street need the council's page and the signs on the day.",
+        "In a trip, a council site and a holiday park can sit beside each other for the same night, each stop with its date, a note and a forecast for the leg. Place details, saved places and guides open without signal on the phone, while map tiles, routing, weather and photos wait for reception. Free to download, with in-app purchases.",
+      ], ["Council sites need the council's page", "Pair a council site with a holiday park", "Place details open without signal"], undefined, true),
+    ],
+    sources: [
+      { label: "Dunedin City Council: freedom camping", url: "https://www.dunedin.govt.nz/community-facilities/freedom-camping" },
+      { label: "MBIE: freedom camping changes, fact sheet for councils", url: "https://www.mbie.govt.nz/dmsdocument/18069-freedom-camping-fact-sheet-councils" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-wellington-2026",
+    publishAt: "2026-12-29",
+    title: "Freedom Camping in Wellington 2026: Where You Can Stay",
+    description: "Wellington City's freedom camping rules: certified self-contained vehicles only, 52 spaces at Evans Bay Marina and 16 at Te Kopahou, four nights a month, the $30 Barnett Street option, fines and dump stations.",
+    category: "Rules & safety",
+    region: "Wellington",
+    places: ["Wellington", "Evans Bay", "Te Kopahou", "Owhiro Bay", "Hataitai", "Te Aro"],
+    imageAlt: "Evans Bay in Wellington, with sunlit water between two headlands under a cloudy sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "cook-strait-ferry-campervan-guide", "wellington-wairarapa-camping-loop"],
+    hubs: ["camping/wellington-kapiti"],
+    intro:
+      "Wellington City allows freedom camping only in a certified self-contained vehicle, and its free sites are two car parks: Evans Bay Marina with 52 designated spaces and Te Kopahou Visitors Centre with 16. Each area has a limit of four consecutive nights in a calendar month. Camping is prohibited on all land managed under the Reserves Act 1977 and the Wellington Town Belt Act 2016, which takes in many of its reserves.",
+    sections: [
+      s("The rules that apply across the city", [
+        "The council's freedom camping page sets out three restrictions for every area: the motor vehicle must be certified self-contained, no vehicle or tent may stay in any one area for more than four consecutive nights in a calendar month, and a camper may not freedom camp within 500 metres of an area where they already stayed four consecutive nights that month. The rules come from the Public Places Bylaw 2022, and Schedule One lists the restricted and prohibited areas.",
+        "The four-night limit and the 500 metre rule name tents and other temporary structures as well as vehicles. The self-contained requirement applies to motor vehicles, and the council's places to camp are car parks for vehicles, so a tent camper is better placed at a campground. If the vehicle is not certified, the council points to a campground or an on-street park. Since 7 June 2026 a green warrant is the only certification that counts.",
+      ], ["Certified self-contained vehicles", "Four consecutive nights per calendar month", "500 metres before you may camp again"]),
+      s("The two free sites", [
+        "Evans Bay Marina car park has 52 designated parks and Te Kopahou Visitors Centre car park has 16. The council says Te Kopahou is not suitable for vehicles over 7 metres or for caravans, and at both sites only the designated freedom camping parks may be used: the map at the entrance shows which they are.",
+        "On-street parking is the council's third free option, provided the vehicle keeps within any time limits that apply. Evans Bay Marina also has one of the city's two public dump stations; the other is at Ngauranga Gorge.",
+      ], ["52 spaces at Evans Bay Marina", "16 at Te Kopahou, not over 7 metres", "Dump stations at Evans Bay and Ngauranga Gorge"], {
+        caption: "Sites on Wellington City Council's freedom camping page, read on 28 October 2026.",
+        head: ["Site", "Spaces", "Cost", "Notes"],
+        rows: [
+          ["Evans Bay Marina car park, Hataitai", "52 designated", "Free", "Dump station on site"],
+          ["Te Kopahou Visitors Centre car park", "16 designated", "Free", "Not for vehicles over 7 m or caravans"],
+          ["Barnett Street car park, waterfront", "Not stated", "$30 per 24 hours", "No overnight parking on Saturday, because of the Sunday market"],
+          ["Cuba Street Motorhome Park, 25 Garrett Street", "Not stated", "Paid", "Electricity only"],
+        ],
+      }),
+      s("Paid overnight options in the city", [
+        "Barnett Street car park on the waterfront is open to self-contained freedom campers for $30 per 24 hours. The Harbourside Market uses the car park on Sunday mornings, so the council says nobody can park there overnight on a Saturday.",
+        "The Cuba Street Motorhome Park at 25 Garrett Street in Te Aro offers electricity only, and Capital Lodge Motor Inn in Newlands is also on the council's list. Further out, the page lists campgrounds and holiday parks at Porirua, Lower Hutt, Upper Hutt and Kāpiti, for tents and for vehicles without certification.",
+      ], ["Barnett Street: $30 per 24 hours", "Not on Saturday nights", "Holiday parks around the harbour"]),
+      s("Where camping is not allowed", [
+        "Camping is prohibited on all land managed under the Reserves Act and the Town Belt Act, which includes many reserves, coastal car parks, sports field car parks and play area car parks. Section 13 of the Public Places Bylaw explains the detail, and Schedule One, a 4.41 MB PDF on the council's page, maps the restricted and prohibited areas.",
+        "The result is a short list of permitted places in a big city, and a bylaw that does not turn a pretty coastal car park into a campsite. If a sign names a reserve or coastal car park, treat the sign as the final word.",
+      ], ["Reserves and Town Belt are prohibited", "Coastal and sports car parks too", "Schedule One has the map"]),
+      s("Fines and disputes", [
+        "The council's page puts the infringement fee at $400, issued under section 27(6) of the Freedom Camping Act. Other national fees apply to specific offences, including $200 for a missing warrant card and $800 for damage or waste.",
+        "A fine can be paid online with a credit card, using the Camping payment type, or at a council service desk. To dispute one, email parkranger@wcc.govt.nz or visit a service desk with your name, the issuing officer's name, the infringement number and when and where it was issued. The council says it will only issue a waiver in special circumstances, and it takes questions on 04 499 4444 at any hour.",
+      ], ["$400 is the council's stated fee", "Pay online or at a service desk", "Waivers only in special circumstances"]),
+      s("DOC campsites and the ferry", [
+        "The region has far less DOC camping than the South Island: KiwiCamping's DOC data (11 August 2026) lists 3 DOC campsites in Wellington and Kāpiti, 2 bookable online through DOC, at $10 an adult, and 24 DOC huts. Catchpool Valley Campsite in the Remutaka Forest Park is the largest, with 76 sites.",
+        "Many travellers arrive off the Cook Strait ferry, and the ferry guide covers booking a campervan crossing. A late sailing and a full Evans Bay car park is the combination to plan around, so keep a holiday park as the second choice for the first night.",
+      ], ["3 DOC campsites in the region", "24 DOC huts", "Plan the first night after the ferry"]),
+      s("Using KiwiCamping around Wellington", [
+        "KiwiCamping adds the Wellington and Kāpiti DOC campsites and huts, holiday parks and bookable stays to a map you can filter for toilets, water and vehicle access. The council's two car parks are not drawn as their own layer, so check the council's page before relying on a space, then save the fallback in the same trip.",
+        "A trip keeps the Wellington night beside the ferry or the Wairarapa leg, each stop dated with a note, a distance and a forecast. Saved places, place details and guides stay readable with no reception; the map tiles, routing, weather and photos are the parts that need signal. Free to download, with in-app purchases.",
+      ], ["Council car parks: check the council's page", "Save a holiday park as the fallback", "Saved places work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Wellington City Council: freedom camping in Wellington", url: "https://wellington.govt.nz/recreation/outdoors/camping-in-wellington" },
+      { label: "Wellington City Council: Public Places Bylaw 2022", url: "https://wellington.govt.nz/your-council/plans-policies-and-bylaws/bylaws/public-places-bylaw-2022" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-far-north-2026",
+    publishAt: "2026-12-30",
+    title: "Freedom Camping in the Far North 2026: Where You Can Stay",
+    description: "Far North District Council allows no camping or overnight parking in its parks, reserves and beaches, and points to seven approved sites near toilets and water. What the council says, the reported site list and the DOC alternatives.",
+    category: "Rules & safety",
+    region: "Northland",
+    places: ["Kawakawa", "Kaikohe", "Mangonui", "Awanui", "Okaihau", "Totara North"],
+    imageAlt: "Yachts and other boats moored in Mangonui Harbour below a forested hill",
+    related: ["freedom-camping-rules-new-zealand", "northland-cape-reinga-camping-route", "bay-of-islands-camping-week", "kauri-dieback-camping-travel"],
+    hubs: ["camping/northland"],
+    intro:
+      "Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches. It sends free campers to seven approved sites near public toilets and water supplies, some with a dump station nearby for self-contained campervans. The council's website refused scripted reads for this guide, so the page's wording comes from search results and the site names from RNZ's reporting, and the council's current list is the one to check before a night depends on it.",
+    sections: [
+      s("What the council says", [
+        "The council's responsible camping page, last updated in July 2024, says camping or parking overnight at council-controlled parks, reserves and beaches is not permitted. Free campers are asked to use seven approved sites across the district, chosen for their public toilets and water supplies.",
+        "That makes the district the opposite of an open-slather coast. The default is no, and the approved sites are the exception, so a beach car park with a view is not covered because it looks like one that is. Council land only is covered here: DOC's conservation land, private land and campgrounds follow their own rules.",
+      ], ["Parks, reserves and beaches: not permitted", "Seven approved sites", "Council land only"]),
+      s("The seven approved sites", [
+        "RNZ's December 2022 report lists the seven as Kawakawa (Te Hononga, Gillies Street), Kaikohe (Lindvart Park), Ohaeawai (Te Corner), Okaihau (Two Ponga Park), Totara North (200 metres off State Highway 1), Mangonui (Lions Park, Waterfront Drive) and Awanui (the village toilets and playground). A 2015 council decision, reported by the Northern Advocate, had named Centre Park in Kaitaia and Awanui Reserve among its earlier eight sites, so the list has moved before and can move again.",
+        "The 2022 report also describes a dump station at the Te Paki Stream Road intersection with State Highway 1, called New Zealand's northernmost freedom camping dump station. Night limits and vehicle counts are not on the pages this guide could read, so each site's sign sets them.",
+      ], ["Kawakawa, Kaikohe, Ohaeawai, Okaihau", "Totara North, Mangonui, Awanui", "Signs set the night limits"], {
+        caption: "Far North approved sites as RNZ reported them in December 2022, with the council's page of July 2024 saying seven remain. Confirm the current list with the council.",
+        head: ["Town", "Site", "Notes"],
+        rows: [
+          ["Kawakawa", "Te Hononga, Gillies Street", "Not stated"],
+          ["Kaikohe", "Lindvart Park", "Earlier council policy marked it self-contained only"],
+          ["Ohaeawai", "Te Corner", "Not stated"],
+          ["Okaihau", "Two Ponga Park", "Not stated"],
+          ["Totara North", "200 metres off State Highway 1", "Old dump site in 2015"],
+          ["Mangonui", "Lions Park, Waterfront Drive", "Not stated"],
+          ["Awanui", "Village toilets and playground", "Not stated"],
+        ],
+      }),
+      s("Which vehicles", [
+        "The sites are for camping in a vehicle, and the 2015 decision described them as for self-contained campervans only. The national law has since made certification the general rule on council land: since 7 June 2026 that means a green warrant on the windscreen, and portable toilets no longer qualify a vehicle.",
+        "Tents are not part of the council's approved-site message. A tent camper is better served by a DOC campsite or a commercial campground, and the Northland hub lists DOC's choices.",
+      ], ["Plan on a green warrant", "Tents: use DOC or a campground", "Confirm each site's vehicle rule"]),
+      s("Enforcement and fines", [
+        "Newstalk ZB's summer 2025-26 report said the council issued no freedom camping fines that season and relies on education, so a lenient summer is no promise about the next. Under the national regulations the usual infringement fee is $400, a missing warrant card costs $200, and damage or waste costs $800.",
+        "The Freedom Camping Act also allows a court fine of up to $3,000 for the offence. Camping where the council says it is not permitted is the case the $400 fee targets.",
+      ], ["$400 for most breaches", "No fines issued in summer 2025-26", "Education first, notices when needed"]),
+      s("DOC campsites in Northland", [
+        "DOC's land is the better answer for a longer stay. KiwiCamping's DOC data (11 August 2026) counts 14 campsites in Northland, 11 of them bookable online, with adult nightly rates from $10 to $23. Uretiti Beach Campsite is the biggest with 300 sites, and the region also has 7 DOC huts.",
+        "The kauri dieback guide matters on the walks from these campsites, and the DOC campsite guide explains how to book. For a certain bed with power, a holiday park is the alternative that does not depend on a council sign.",
+      ], ["14 DOC campsites in Northland", "Uretiti Beach is the largest", "Kauri dieback cleaning at tracks"]),
+      s("Routes through the Far North", [
+        "State Highway 1 north from Auckland reaches Kawakawa and Paihia before the Bay of Islands, and the Auckland to Bay of Islands guide covers the drive, ferry and camping on it. North of Kaitaia, the Cape Reinga route guide plans the nights on the way to the tip.",
+        "The approved sites sit along that axis: Kawakawa on the way in, Mangonui and Awanui on the way north. They are a late-arrival option, not the plan for the best nights of the trip.",
+      ], ["Auckland to Bay of Islands guide", "Cape Reinga route guide", "Approved sites are a late-arrival option"]),
+      s("Using KiwiCamping in the Far North", [
+        "The app shows Northland's DOC campsites, holiday parks and bookable stays with their facilities, plus DOC's freedom camping notices on conservation land, which are not council rules. The council's seven sites need the council's page and the signs on the day.",
+        "A trip can hold the Bay of Islands and Cape Reinga legs together, with each night dated, a note on its fallback and the forecast beside it. Place details, saved places and guides open on the phone without signal, and the map tiles, routing, weather and photos come back with reception. Free to download, with in-app purchases.",
+      ], ["Council sites: check the council's page", "Date each night and add a fallback", "Place details open offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Far North District Council: responsible camping", url: "https://www.fndc.govt.nz/District/Visiting-the-Far-North/responsible-camping" },
+      { label: "RNZ via 7me: Northland councils gearing up as peak freedom camping season begins", url: "https://7me.one/northland-councils-gearing-up-as-peak-freedom-camping-season-begins/" },
+      { label: "Northern Advocate: Freedom camp spots opened up in Far North", url: "https://www.nzherald.co.nz/northern-advocate/news/freedom-camp-spots-opened-up-in-far-north/5ZL3WCKD2LCTNEM5ZRSEBUSJHM/" },
+      { label: "Far North District Council: Camping in Public Places policy 2016", url: "https://fndc-web.matrix.squiz.cloud/__data/assets/pdf_file/0023/18095/camping-in-public-places-2016.pdf" },
+      { label: "Newstalk ZB: freedom camping hotspots see spike in fines this summer", url: "https://www.newstalkzb.co.nz/news/national/freedom-camping-hotspots-see-spike-in-fines-this-summer/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-marlborough-2026",
+    publishAt: "2026-12-31",
+    title: "Freedom Camping in Marlborough 2026: Where You Can Stay",
+    description: "Marlborough's Responsible Camping Control Bylaw 2022: certified self-contained vehicles at 11 council sites around Blenheim, Renwick and Rai Valley, one or two nights, the Wairau Diversion update, fines and DOC campsites.",
+    category: "Rules & safety",
+    region: "Marlborough",
+    places: ["Blenheim", "Renwick", "Picton", "Rai Valley", "Awatere Valley", "Lake Grassmere"],
+    imageAlt: "The Interislander ferry beside forested headlands at the entrance to Picton Harbour in the Marlborough Sounds",
+    related: ["freedom-camping-rules-new-zealand", "cook-strait-ferry-campervan-guide", "picton-kaikoura-christchurch-route", "nelson-abel-tasman-golden-bay"],
+    hubs: ["camping/marlborough"],
+    intro:
+      "Marlborough's council sites take certified self-contained vehicles only, with one exception: cyclists using the Awatere Valley Road may tent at Blairich Reserve. The council's table lists 11 places, from Renwick Domain with 20 spaces to Lansdowne Park, where a night is allowed only from Monday to Thursday. Stays are one or two nights, and no council site is listed in Picton itself.",
+    sections: [
+      s("The bylaw and the vehicle rule", [
+        "The Marlborough District Council Responsible Camping Control Bylaw 2022 was adopted in March 2023 and covers land the council administers. The council's page says it provides for camping by self-contained vehicles only at all sites, with the exception of Blairich Reserve, where tenting by cyclists using the Awatere Valley Road is allowed.",
+        "The page ties this to the national law, which on council land generally requires a certified self-contained vehicle. Vehicles with a portable toilet no longer qualify, and a green warrant is the only one that counts since 7 June 2026. The council asks all campers to use commercial campgrounds, DOC camps and its responsible camping sites.",
+      ], ["Self-contained vehicles only", "Tents: cyclists at Blairich Reserve only", "Green warrant since 7 June 2026"]),
+      s("The council's sites", [
+        "The council's table gives each site's vehicle spaces, nights and permitted times. Renwick Domain car park takes 20 vehicles for two nights between 6pm and 9am, and Wynen Street car park in Blenheim has the same two nights and the same 6pm to 9am window. Taylor Dam Reserve takes 10 vehicles for two nights, Opouri Road (Carluke Domain) takes 6 for two, and Lansdowne Park in Blenheim takes 4 for one night, Monday to Thursday only.",
+        "Three sites allow one night only: Lansdowne Park, Alfred Stream at Rai Valley with 5 spaces and Renwick Dog Park off Foxes Island Road with 5. Blairich Reserve on Awatere Valley Road, Lake Elterwater near Grassmere and Wash Bridge Reserve on State Highway 63 are listed for two nights with no space count.",
+      ], ["Two nights at most sites", "One night at three", "Check the permitted times"], {
+        caption: "Marlborough District Council's table of responsible camping sites, read on 28 October 2026. A dash in the council's table is shown as not stated.",
+        head: ["Site", "Vehicle spaces", "Nights", "Permitted times"],
+        rows: [
+          ["Wairau Diversion, near Blenheim (temporary area)", "Not stated", "2", "Not stated"],
+          ["Renwick Domain car park, Renwick", "20", "2", "6pm to 9am"],
+          ["Wynen Street car park, Blenheim", "Not stated", "2", "6pm to 9am"],
+          ["Lansdowne Park, Blenheim", "4", "1", "Monday to Thursday only"],
+          ["Taylor Dam Reserve, Blenheim", "10", "2", "Not stated"],
+          ["Blairich Reserve, Awatere Valley Road", "Not stated", "2", "Not stated"],
+          ["Lake Elterwater, Grassmere", "Not stated", "2", "Not stated"],
+          ["Opouri Road (Carluke Domain)", "6", "2", "Not stated"],
+          ["Alfred Stream, Rai Valley", "5", "1", "Not stated"],
+          ["Renwick Dog Park, off Foxes Island Road (SH 6)", "5", "1", "Not stated"],
+          ["Wash Bridge Reserve, State Highway 63", "Not stated", "2", "Not stated"],
+        ],
+      }),
+      s("The Wairau Diversion", [
+        "The Wairau Diversion near Blenheim is listed as a temporary responsible camping area. The council's update of 16 June 2026 says it will remain available for freedom campers until further notice, and that there is no access to the day stay area until construction in that area is finished.",
+        "A temporary site can close with little warning, and the table gives it two nights with no space count. Read the update on the council's camping page the week you travel, and keep Renwick Domain or Taylor Dam Reserve as the next choice.",
+      ], ["Temporary site, until further notice", "Day stay area closed during construction", "Check the page the week you go"]),
+      s("Picton and the Sounds", [
+        "The council's table has no site in Picton or the Marlborough Sounds. Arriving off the Cook Strait ferry, the nearest listed places are Blenheim's and Rai Valley's, about a drive away, so a late sailing needs a holiday park or a DOC campsite booked ahead.",
+        "The ferry guide covers booking a campervan crossing, and the Picton to Christchurch route guide takes the Kaikōura coast south. The council keeps its camping number, 03 520 7400, for reports of camping in places that are not permitted.",
+      ], ["No listed council site in Picton", "Book a park or DOC site for ferry nights", "Report problems on 03 520 7400"]),
+      s("Fines", [
+        "A breach of the bylaw is an infringement offence. The council's page notes that the original $200 fee became $400 or more under the 2023 law, and the national regulations put most freedom camping breaches at $400, a missing warrant card at $200 and damage or waste at $800.",
+        "A third night at a two-night site is over the limit, and the one-night sites leave no slack at all. Plan the move before the first night starts.",
+      ], ["$400 for most breaches", "$800 for damage or waste", "Do not repeat a site beyond its nights"]),
+      s("DOC campsites in Marlborough", [
+        "DOC runs far more of the region's camping than the council does. KiwiCamping's DOC data (11 August 2026) lists 44 campsites in Marlborough, 20 of them bookable online through DOC, 10 listed as free, with adult nightly rates from $10 to $27. Whites Bay Campsite is the largest with 67 sites, and the region has 60 DOC huts.",
+        "The DOC campsites guide covers how to book, and a holiday park is the practical choice for power. For the Sounds and the high country, DOC's campsites are the alternative to a council car park.",
+      ], ["44 DOC campsites", "10 free", "Whites Bay is the largest"]),
+      s("Using KiwiCamping around Marlborough", [
+        "KiwiCamping maps Marlborough's DOC campsites and huts with their fees and facilities, holiday parks and bookable stays. The 11 council sites are not in it, and its freedom camping information is DOC's notices on conservation land, so use the council's page for Renwick, Blenheim and Rai Valley.",
+        "A trip can run from the ferry through Marlborough to Kaikōura, each night dated, with a note for the fallback and the weather for the leg. Place details, saved places and guides load from the phone without signal; map tiles, routing, weather and photos need reception. Free to download, with in-app purchases.",
+      ], ["Council sites: use the council's page", "Date the ferry night", "Place details work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Marlborough District Council: camping in Marlborough", url: "https://www.marlborough.govt.nz/recreation/responsible-camping/camping-in-marlborough" },
+      { label: "Marlborough District Council: Responsible Camping Control Bylaw 2022", url: "https://www.marlborough.govt.nz/your-council/bylaws/responsible-camping-control-bylaw-2022" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-rotorua-2026",
+    publishAt: "2027-01-01",
+    title: "Freedom Camping in Rotorua 2026: Where You Can Stay",
+    description: "Rotorua Lakes Council's six camping sites: three free for certified self-contained vehicles (Government Gardens, Hamurana, Trout Pool), three paid lake reserves, two nights per calendar month, tents at two reserves and fines.",
+    category: "Rules & safety",
+    region: "Bay of Plenty",
+    places: ["Rotorua", "Hamurana", "Ōkere Falls", "Lake Ōkāreka", "Lake Ōkaro", "Lake Rerewhakaaitu"],
+    imageAlt: "The shore of Lake Rotorua seen through flowering shrubs, with a sandy path running down to the water",
+    related: ["freedom-camping-rules-new-zealand", "coromandel-rotorua-road-trip", "freedom-camping-tauranga-2026", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/bay-of-plenty"],
+    intro:
+      "Rotorua Lakes Council runs six camping sites: three free ones for certified self-contained vehicles and three paid lake reserves. Every site allows 2 consecutive nights per calendar month, the sites are first come, first served, and freedom camping is not permitted on any other park or neighbourhood recreation reserve. Tents are allowed only at Lake Ōkaro and Guy Roe Reserve.",
+    sections: [
+      s("What the council's page says", [
+        "The council describes Rotorua as a motorhome-friendly district and lists its camping locations on its freedom camping page. Overnight parking is available only at the spaces marked on the map, none of the sites can be reserved, and limited spaces mean arrival time matters.",
+        "From 7 June 2026 the page requires vehicles used for freedom camping to be certified self-contained, with a fixed toilet and the wastewater, water supply, ventilation, sink and rubbish storage requirements. The certificate card must be displayed on the windscreen and the certificate kept in the vehicle; a blue or green responsible camper sticker is not enough.",
+      ], ["Marked spaces only", "No reservations", "Certification card on the windscreen"]),
+      s("The three free sites", [
+        "Government Gardens Motorhome and Campervan Parking Area is on Hinemoa Street opposite the Polynesian Spa, with space for 17 vehicles and no toilets, showers or water. Hamurana Reserve on Lake Rotorua has space for 10, with public toilets, a water tap with drinkable water, a food preparation area without hot water, and a barbecue and playground nearby.",
+        "Trout Pool Reserve at Ōkere Falls has space for 5, with a composting toilet and no drinking water. At all three, only self-contained campervans and motorhomes may stay overnight, tents are not permitted, dogs are not allowed and fires and fireworks are banned.",
+      ], ["17 spaces at Government Gardens", "10 at Hamurana", "5 at Ōkere Falls"], {
+        caption: "Rotorua Lakes Council's freedom camping page, read on 28 October 2026. Every site is limited to 2 consecutive nights per calendar month.",
+        head: ["Site", "Spaces", "Fee per night", "Who may stay"],
+        rows: [
+          ["Government Gardens, Hinemoa Street", "17", "Free", "Self-contained vehicles only"],
+          ["Hamurana Reserve, Lake Rotorua", "10", "Free", "Self-contained vehicles only"],
+          ["Trout Pool Reserve, Ōkere Falls", "5", "Free", "Self-contained vehicles only"],
+          ["Boyes Beach, Lake Ōkāreka", "Designated area", "$20 adult, $10 child, under 5 free", "Vehicles; no tents"],
+          ["Lake Ōkaro Reserve", "Not stated", "$10 adult, $5 child, under 5 free", "Vehicles and tents"],
+          ["Guy Roe Reserve, Lake Rerewhakaaitu", "Not stated", "$10 adult, $5 child, under 5 free", "Vehicles and tents"],
+        ],
+      }),
+      s("The three paid lake reserves", [
+        "Boyes Beach at Lake Ōkāreka costs $20 per adult and $10 per child a night, with children under 5 free. It has public toilets, paid showers at $2, a phone charging unit at $1 an hour, dishwashing facilities and a children's playground, and payment is by internet banking, the Penny app or Eftpos to the site manager.",
+        "Lake Ōkaro Reserve and Guy Roe Reserve at Lake Rerewhakaaitu cost $10 per adult and $5 per child, under 5 free, paid through a secure pay link that asks for the vehicle registration and the site name, or through Penny. Both have composting toilets, picnic tables and a boat ramp, and the tap water needs boiling for three minutes before drinking.",
+      ], ["Boyes Beach: $20 adult, $10 child", "Ōkaro and Guy Roe: $10 adult, $5 child", "Boil tap water for 3 minutes"]),
+      s("Vehicles without certification and the 2026 rule", [
+        "The council's entries for the three paid reserves still say that self-contained and non-self-contained campervans can stay, while its headline from 7 June 2026 says vehicles must be certified. The page does not explain how the two sit together, so a vehicle without certification should ring the council on 07 348 4199 before counting on a paid site.",
+        "Tents are clearer: they are allowed only at Lake Ōkaro and Guy Roe Reserve, and the council says tents are not permitted at Boyes Beach or at the three free sites. In any case the stay limit is 2 consecutive nights per calendar month at each site.",
+      ], ["Ring 07 348 4199 if uncertified", "Tents at Ōkaro and Guy Roe only", "2 nights per calendar month"]),
+      s("Waste, rubbish and fires", [
+        "Wastewater tanks and cassettes can be emptied for free, 24 hours a day, at the wastewater treatment plant and at Gull Ngongotahā. The council says not to empty wastewater into the composting toilets at Ōkere Falls and Lake Ōkaro.",
+        "Rubbish and recycling go to the landfill, the recycling centre or a rural transfer station, whose hours are on the council's pages. Every site bans fires and fireworks, and dogs are limited site by site, including a daytime ban on the Boyes Beach reserve from 15 December to 1 March.",
+      ], ["Free dumping at two locations", "Take rubbish with you", "No fires or fireworks"]),
+      s("Fines and reporting", [
+        "Freedom camping in Rotorua outside these sites falls under the national infringement scheme: $400 for camping in breach of a restriction or prohibition, $200 for a missing warrant card, $800 for damage or waste. The council's page warns of the $400 fine in connection with the certification change.",
+        "To report illegal camping, ring the council on 07 348 4199, which it staffs round the clock, and ring 111 for illegal or antisocial behaviour that needs the Police.",
+      ], ["$400 for most breaches", "Council line: 07 348 4199", "111 for antisocial behaviour"]),
+      s("DOC campsites and holiday parks near Rotorua", [
+        "The Bay of Plenty hub in KiwiCamping lists 8 DOC campsites and 8 DOC huts, with 5 of the campsites bookable online through DOC and adult nightly rates from $10 to $18. The council's own page points to DOC, the district's holiday parks and the NZ Motor Caravan Association.",
+        "For tents on a busy summer weekend, the council's two reserves can be full, and a holiday park is the dependable bed. The Coromandel to Rotorua road trip guide shows how the city fits into a longer route.",
+      ], ["8 DOC campsites in the Bay of Plenty", "Holiday parks for summer weekends", "Coromandel to Rotorua route guide"]),
+      s("Using KiwiCamping around Rotorua", [
+        "The app shows DOC campsites and huts across the Bay of Plenty, holiday parks with their facilities and bookable stays, which suits a night when the council's small sites are full. The six council sites are not drawn in it, so the council's page and its map are the source for Government Gardens, Hamurana and the lake reserves.",
+        "Add the Rotorua night to a trip with its date, a note on the fallback and the forecast, and read the distance to the next leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council sites: use the council's map", "Keep a holiday park as the fallback", "Saved places work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Rotorua Lakes Council: freedom camping on parks and reserves", url: "https://www.rotorualakescouncil.nz/parks-lakes-recreation/freedom-camping" },
+      { label: "NZ Self Containment certification", url: "https://certification.nzscv.co.nz" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

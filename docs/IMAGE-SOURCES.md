@@ -149,3 +149,9 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-mackenzie-2026` | Lake Tekapo Canterbury NZ.jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo_Canterbury_NZ.jpg) |
 | `holiday-park-prices-new-zealand-2026` | Reefton Motor Camp looking east from domain.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_looking_east_from_domain.jpg) |
 | `roadtrippers-alternatives` | State Highway 6, close to Haast Pass 06.jpg | Szilas | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_6,_close_to_Haast_Pass_06.jpg) |
+| `freedom-camping-dunedin-2026` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
+| `freedom-camping-wellington-2026` | Evans Bay.jpg | Turnagra | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Evans_Bay.jpg) |
+| `freedom-camping-far-north-2026` | 00 0534 New Zealand - Mangonui Harbour.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_0534_New_Zealand_-_Mangonui_Harbour.jpg) |
+| `freedom-camping-marlborough-2026` | Picton Harbour, Marlborough Sounds.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Picton_Harbour,_Marlborough_Sounds.jpg) |
+| `freedom-camping-rotorua-2026` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
+| `hipcamp-alternatives` | Stewart Island Maori Beach Campsite tent.jpg | AlasdairW | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Stewart_Island_Maori_Beach_Campsite_tent.jpg) |

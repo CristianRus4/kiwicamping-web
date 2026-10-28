@@ -1367,4 +1367,87 @@ export const listicleArticles: Article[] = [
   }),
 
 
+  a({
+    slug: "hipcamp-alternatives",
+    listicle: true,
+    publishAt: "2027-01-02",
+    title: "7 Best Hipcamp Alternatives in New Zealand in 2026",
+    description: "Hipcamp lists private land, holiday parks and campsites on the web. KiwiCamping, Campable, CamperMate, WikiCamps, Rankers, DOC and holiday parks compared on price, booking and offline use, with when Hipcamp is still the better pick.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Private land stays", "DOC campsites", "Holiday parks", "Freedom camping", "Tents and campervans"],
+    imageAlt: "An orange tent on a grassy campsite beside a DOC sign at Māori Beach on Stewart Island",
+    related: ["campable-alternatives", "best-campsite-booking-apps-new-zealand", "best-nz-camping-apps", "doc-campsites-new-zealand-guide"],
+    intro:
+      "Hipcamp is a booking site for private land, holiday parks and campsites, and its New Zealand page lists more than 3,300 places for tents, campervans and lodging. People look for alternatives when they want a phone app, public and free sites, or a planner that links the nights together. The publisher of this guide makes KiwiCamping, so it is listed first with reasons, and each entry says what it does better than Hipcamp and what it does worse. Prices and ratings are from the New Zealand App Store and each company's own site, checked on 21 October 2026, and Hipcamp's own page was read on 28 October 2026.",
+    sections: [
+      s("Hipcamp alternatives at a glance", [
+        "For public camping and a dated trip plan, start with KiwiCamping. For a similar private-land booking marketplace made for campervans, Campable is the closest match, and for a free all-round app, CamperMate.",
+        "WikiCamps suits a very large list of sites, Rankers local reviews of welcome places, DOC's website conservation-land campsites and huts, and a holiday park a powered bed that is certain.",
+      ], undefined, {
+        caption: "Checked 21 October 2026 on the New Zealand App Store and each company's own site. Ratings are New Zealand App Store averages with the number of ratings.",
+        head: ["App or site", "Best for", "Price", "NZ rating"],
+        rows: [
+          ["Hipcamp", "Private land, holiday parks and campsites booked on the web", "Browsing is free; check fees at booking", "No NZ App Store listing"],
+          ["KiwiCamping", "DOC places and a dated trip plan", "Free to download, with in-app purchases", "3.8 (4)"],
+          ["Campable", "Instant-book private land for campervans", "App free; no guest booking fee", "4.5 (13)"],
+          ["CamperMate", "A free all-rounder, NZ and Australia", "Free; contains ads", "4.4 (606)"],
+          ["WikiCamps New Zealand", "A large list of sites", "NZ$7.99 once", "4.5 (137)"],
+          ["Rankers Camping NZ", "Reviews of welcome overnight spots", "Free", "4.7 (3,322)"],
+          ["DOC booking system", "Conservation-land campsites and huts", "Website; fees per DOC", "Not applicable"],
+          ["Holiday park booking", "Powered sites and facilities", "TOP 10 card NZ$55 for 2 years", "Not applicable"],
+        ],
+      }),
+      s("1. KiwiCamping: best for public sites and a dated trip plan", [
+        "Hipcamp is built around hosts and bookings, while KiwiCamping is built around the route: a map of DOC campsites, huts and tracks, holiday parks, dump stations, day-use areas and DOC's freedom camping notices, with filters for water, toilets, showers, power, dogs, vehicle access and fees. A trip puts each night on a date, shows the distance between stops and carries a checklist.",
+        "It is not a marketplace for private land and has no live availability. Stays and tours through BookIt and the DOC places that are open to booking send you to the partner or to DOC to book. Place details are saved on the phone, so they read without reception, while map tiles, routing, weather and photos need a connection.",
+        "The app is for iPhone, needs iOS 26 or later, and is new, so its rating rests on 4 New Zealand reviews that average 3.8.",
+      ], ["Choose it for: public sites and a trip plan", "No private-land booking", "iPhone only; few ratings"], undefined, true),
+      s("2. Campable: best for private land booked for a campervan", [
+        "Campable is the closest in spirit to Hipcamp's private-land listings. Hosts of farms, orchards and vineyards open a patch to campervans and motorhomes, some places book instantly and others ask the host first, and the price shown is the price paid, with no guest booking fee.",
+        "It wants a certified self-contained vehicle, hosts choose the other rules, and cancellations inside six days lose at least half. The iPhone listing rates 4.5 from 13 New Zealand ratings, while Google Play shows a lower score from more reviews, so read recent comments.",
+      ], ["Choose it for: instant-book private land", "Self-contained vehicles", "Strict late cancellation"]),
+      s("3. CamperMate: best free all-rounder", [
+        "CamperMate costs nothing, covers New Zealand and Australia, and lists campsites, holiday parks, freedom camping spots, dump stations and toilets with reviews and photos. Its listing says maps can be downloaded for use without an internet connection, and bookings can be checked and made in the app.",
+        "It carries ads and has 4.4 from 606 New Zealand ratings. Some of its places are added or corrected by travellers, so confirm a site's rules before you drive to it.",
+      ], ["Choose it for: a free app with downloadable maps", "Contains ads", "Traveller-added places"]),
+      s("4. Rankers Camping NZ: best for local reviews", [
+        "Rankers is free and has the biggest rating base of any New Zealand camping app, 4.7 from 3,322 reviews. It focuses on places where the local community has said overnight stays are welcome, backed by more than 108,000 traveller reviews that its team reads, and it adds about 500 campgrounds you can book.",
+        "Campsite information works offline from the day you install it, and map packs download over Wi-Fi. It earns commission on bookings and activity deals at no extra cost to you, and its list of roughly 1,500 places is shorter than WikiCamps'.",
+      ], ["Choose it for: places that are welcome", "Free", "Shorter list than WikiCamps"]),
+      s("5. WikiCamps New Zealand: best for the longest list", [
+        "WikiCamps costs NZ$7.99 once on the New Zealand App Store with no subscription. It lists over 12,000 sites with traveller reviews, photos and fee notes, includes a trip planner and an offline mode, and says more than 1,000 sites can be booked inside the app.",
+        "It has 4.5 from 137 New Zealand ratings and a lower Google Play score from over a thousand. Listings are written by users, so a site's details can lag, and the bookable sites are a small part of the whole.",
+      ], ["Choose it for: the longest list", "NZ$7.99 once", "User-written listings"]),
+      s("6. DOC's booking website: best for conservation land", [
+        "DOC books Great Walk huts and campsites, other huts, standard and serviced campsites and lodges through its own website, and offers no app for it. Standard campsites cost $10 to $20 an adult a night, serviced ones $20 to $28, and basic ones are free; most of the roughly 950 huts are first come, first served.",
+        "There is no private land on it and no marketplace in between, so you pay DOC's published prices. The booking guide on this site compares it with the other routes.",
+      ], ["Choose it for: DOC huts and campsites", "Official prices", "Website, not an app"]),
+      s("7. Holiday parks: best for powered sites and facilities", [
+        "A holiday park gives powered sites, kitchens and showers, and a booking holds the spot for a busy summer night. TOP 10 Holiday Parks runs 52 parks, takes bookings on its website and sells a membership card for NZ$55 over 2 years that takes 10% off accommodation, and Holiday Parks New Zealand represents 230 member parks.",
+        "Each chain or park books for itself, and Hipcamp also lists some holiday parks, so the same bed can turn up in more than one place at different prices. Compare the total at checkout before you pay.",
+      ], ["Choose it for: certainty and power", "Chain by chain", "Compare totals at checkout"]),
+      s("When Hipcamp is still the better choice", [
+        "Choose Hipcamp for browsing private land, holiday parks and campsites in one place on a laptop or phone browser, with photos, filters for tents, RVs, lodging, pets, toilets and showers, and guest ratings shown as a percentage. Its New Zealand page lists 3,302 places, a larger set than the private-land marketplaces and a mix of hosted land and commercial parks.",
+        "Hipcamp's iPhone app is listed in the United States App Store, but no New Zealand listing turned up on 28 October 2026, so a New Zealand traveller books through the site. The page did not state guest fees or cancellation terms, so read them at checkout, and check that a listing's host and vehicle rules suit your rig.",
+      ], ["Private land and parks in one place", "3,302 NZ listings on its page", "Read fees and terms at checkout"]),
+      s("How the list was chosen and checked", [
+        "The list covers the options a Hipcamp user is most likely to compare it with: another private-land marketplace, three directory apps, DOC's official booking and holiday parks. Price, rating, version and features came from the New Zealand App Store and each company's own pages on 21 October 2026, and Hipcamp's New Zealand page was read on 28 October 2026.",
+        "Terms change often, so read a service's current conditions before paying. Leaving a feature out of an entry is not a claim that the app lacks it.",
+      ]),
+    ],
+    sources: [
+      { label: "Hipcamp: New Zealand camping", url: "https://www.hipcamp.com/en-AU/d/new-zealand/camping/all" },
+      { label: "Campable: guest FAQ", url: "https://www.campable.com/faq-guest" },
+      { label: "Campable: payments", url: "https://www.campable.com/payments" },
+      { label: "Campable: cancellation policy", url: "https://www.campable.com/cancellation-policy" },
+      { label: "Rankers Camping NZ: about", url: "https://camping-nz.rankers.co.nz/about" },
+      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz" },
+      { label: "CamperMate", url: "https://campermate.com" },
+      { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
+      { label: "DOC: campsite facilities and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/facilities-and-fees/" },
+      { label: "TOP 10 Holiday Parks", url: "https://top10.co.nz" },
+      { label: "Holiday Parks New Zealand", url: "https://holidayparks.co.nz" },
+    ],
+  }),
 ];

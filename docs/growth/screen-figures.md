@@ -70,6 +70,12 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | freedom-camping-mackenzie-2026 | 5 (Using KiwiCamping in the Mackenzie) | Inbox: kiwicamping_map_lake-pukaki_satellite-pins.png | KiwiCamping on iPhone: a satellite map of Lake Pukaki with walking track pins and numbered clusters of places |
 | holiday-park-prices-new-zealand-2026 | 6 (Using KiwiCamping to price a trip) | Inbox: kiwicamping_place-detail_paihia-top-10-holiday-park_top.png | KiwiCamping on iPhone: a holiday park place page with its photo, a paid label, a 4.0 rating, its facilities and a Book now button |
 | roadtrippers-alternatives | 1 (1. KiwiCamping: best for camping nights and DOC places) | kiwicamping_trip-planner_south-island-loop.png | KiwiCamping on iPhone: a South Island trip itinerary with the distance and drive time between stops |
+| freedom-camping-dunedin-2026 | 6 (Using KiwiCamping around Dunedin) | Inbox: kiwicamping_map_south-otago_tracks.png | KiwiCamping on iPhone: a satellite map of South Otago with numbered clusters of tracks and places |
+| freedom-camping-wellington-2026 | 6 (Using KiwiCamping around Wellington) | Inbox: kiwicamping_guides_north-island-14-day_top.png | KiwiCamping on iPhone: the North Island 14-day road trip guide with its trip length, 21 places and 1,306 km |
+| freedom-camping-far-north-2026 | 6 (Using KiwiCamping in the Far North) | Inbox: kiwicamping_guides_bay-of-islands-week_map.png | KiwiCamping on iPhone: the Bay of Islands week guide with a map of campsite and holiday park pins above a seven-day forecast |
+| freedom-camping-marlborough-2026 | 6 (Using KiwiCamping around Marlborough) | Inbox: kiwicamping_guides_picton-christchurch-kaikoura_map.png | KiwiCamping on iPhone: a Picton to Christchurch route on a map above a seven-day forecast for Picton and Marlborough |
+| freedom-camping-rotorua-2026 | 7 (Using KiwiCamping around Rotorua) | Inbox: kiwicamping_place-detail_forest-waters_top.png | KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button |
+| hipcamp-alternatives | 1 (1. KiwiCamping: best for public sites and a dated trip plan) | Inbox: kiwicamping_collections_my-collections_list-expanded.png | KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

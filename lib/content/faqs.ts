@@ -534,4 +534,40 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is there a free Roadtrippers alternative?", "Google Maps is free for directions but accepts up to 9 stops in a route. Wanderlog has a free version with a paid Pro tier, and KiwiCamping is free to download, with in-app purchases."],
   ],
 
+  "freedom-camping-dunedin-2026": [
+    ["Can I freedom camp in a campervan in Dunedin?", "Yes, if it is certified self-contained. The city council says such vehicles can stay overnight on most gravelled or sealed land it has set aside for parking, with exceptions listed on its page, for up to two consecutive nights in one place."],
+    ["Where can a tent go up in Dunedin?", "The council names one place for tent campers: the designated area at Warrington Domain. Everywhere else a tent needs a holiday park, a campground or a DOC campsite."],
+    ["Can a van without a self-containment certificate stay in Dunedin?", "Only at the three sites the council names: Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park. Thomas Burns Street takes such vehicles from 1 November to 30 April."],
+    ["What time do I have to leave a Dunedin freedom camping site?", "The council's page gives 8.30am, except at Warrington, where the cut-off is 12 noon."],
+  ],
+  "freedom-camping-wellington-2026": [
+    ["Which freedom camping sites does Wellington City have?", "The council's two free car parks are Evans Bay Marina, with 52 designated spaces, and Te Kopahou Visitors Centre, with 16. Both are for certified self-contained vehicles only."],
+    ["How long can I stay at Wellington's freedom camping sites?", "No more than four consecutive nights in a calendar month in any one area, and a camper has to move at least 500 metres from an area where that limit was used up."],
+    ["Is there a paid alternative to the free car parks in Wellington?", "Barnett Street car park on the waterfront takes self-contained vehicles for $30 per 24 hours, except on Saturday nights because of the Sunday market. The Cuba Street Motorhome Park in Te Aro offers powered sites."],
+    ["How much is a freedom camping fine in Wellington?", "The council gives $400 for a breach of its Public Places Bylaw. You can pay online or at a service desk, and disputes go to parkranger@wcc.govt.nz."],
+  ],
+  "freedom-camping-far-north-2026": [
+    ["Can I camp on a beach or in a reserve in the Far North?", "The district council says overnight camping and parking is not permitted in its parks, reserves and beaches. It points free campers to approved sites near toilets and water."],
+    ["Which Far North freedom camping sites are approved?", "RNZ's December 2022 report named seven: Kawakawa, Kaikohe's Lindvart Park, Ohaeawai, Okaihau, Totara North, Mangonui's Lions Park and Awanui. Check the council's page, because the list has changed before."],
+    ["Do I need a self-contained vehicle in the Far North?", "On council land a certified self-contained vehicle is the general national rule, and the council's sites were set up for campervans. A tent camper should book a DOC campsite or a campground."],
+    ["Has the Far North council been fining freedom campers?", "Newstalk ZB reported that it issued no fines over the 2025-26 summer and relies on education, but the national fee of $400 applies to a breach."],
+  ],
+  "freedom-camping-marlborough-2026": [
+    ["How many freedom camping sites does Marlborough have?", "The council's table lists 11, including a temporary area at the Wairau Diversion near Blenheim. They are around Blenheim, Renwick, the Awatere Valley, Lake Grassmere and Rai Valley."],
+    ["Can I camp in a tent in Marlborough?", "Not at the council's sites, with a single exception: cyclists using the Awatere Valley Road may tent at Blairich Reserve."],
+    ["Is there a freedom camping site in Picton?", "None is listed in the council's table. Ferry arrivals should book a holiday park or a DOC campsite for the first night."],
+    ["How many nights can I stay at Renwick Domain?", "Two nights, between 6pm and 9am, with space for 20 vehicles."],
+  ],
+  "freedom-camping-rotorua-2026": [
+    ["Is freedom camping free in Rotorua?", "At three sites it is: Government Gardens, Hamurana Reserve and Trout Pool Reserve at Ōkere Falls. Boyes Beach, Lake Ōkaro Reserve and Guy Roe Reserve charge a nightly fee."],
+    ["Can I use a tent at a Rotorua freedom camping site?", "Only at Lake Ōkaro Reserve and Guy Roe Reserve, for $10 per adult and $5 per child a night."],
+    ["How many nights can I stay in Rotorua?", "Each of the six council sites allows 2 consecutive nights per calendar month, and none can be booked ahead."],
+    ["Where can I empty my tanks in Rotorua?", "The council lists free 24-hour wastewater disposal at its wastewater treatment plant and at Gull Ngongotahā."],
+  ],
+  "hipcamp-alternatives": [
+    ["Is there a Hipcamp app in New Zealand?", "No New Zealand App Store listing turned up on 28 October 2026. Hipcamp's New Zealand listings are booked through its website."],
+    ["What is the closest alternative to Hipcamp for campervans?", "Campable, which lists private land such as farms, orchards and vineyards for self-contained campervans and motorhomes, with instant booking at some places."],
+    ["Which Hipcamp alternative is free?", "CamperMate and Rankers Camping NZ are free to download, and KiwiCamping is free to download with in-app purchases. WikiCamps New Zealand costs NZ$7.99 once."],
+    ["Where do I book DOC campsites and huts?", "On DOC's own website, which takes bookings for Great Walk huts, other huts and campsites at DOC's published prices."],
+  ],
 };

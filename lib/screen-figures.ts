@@ -72,7 +72,12 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "freedom-camping-mackenzie-2026", section: 5, src: "/images/screens/freedom-camping-mackenzie-2026.webp", alt: "KiwiCamping on iPhone: a satellite map of Lake Pukaki with walking track pins and numbered clusters of places" },
   { slug: "holiday-park-prices-new-zealand-2026", section: 6, src: "/images/screens/holiday-park-prices-new-zealand-2026.webp", alt: "KiwiCamping on iPhone: a holiday park place page with its photo, a paid label, a 4.0 rating, its facilities and a Book now button" },
   { slug: "roadtrippers-alternatives", section: 1, src: "/images/screens/roadtrippers-alternatives.webp", alt: "KiwiCamping on iPhone: a South Island trip itinerary with the distance and drive time between stops" },
-
+  { slug: "freedom-camping-dunedin-2026", section: 6, src: "/images/screens/freedom-camping-dunedin-2026.webp", alt: "KiwiCamping on iPhone: a satellite map of South Otago with numbered clusters of tracks and places" },
+  { slug: "freedom-camping-wellington-2026", section: 6, src: "/images/screens/freedom-camping-wellington-2026.webp", alt: "KiwiCamping on iPhone: the North Island 14-day road trip guide with its trip length, 21 places and 1,306 km" },
+  { slug: "freedom-camping-far-north-2026", section: 6, src: "/images/screens/freedom-camping-far-north-2026.webp", alt: "KiwiCamping on iPhone: the Bay of Islands week guide with a map of campsite and holiday park pins above a seven-day forecast" },
+  { slug: "freedom-camping-marlborough-2026", section: 6, src: "/images/screens/freedom-camping-marlborough-2026.webp", alt: "KiwiCamping on iPhone: a Picton to Christchurch route on a map above a seven-day forecast for Picton and Marlborough" },
+  { slug: "freedom-camping-rotorua-2026", section: 7, src: "/images/screens/freedom-camping-rotorua-2026.webp", alt: "KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button" },
+  { slug: "hipcamp-alternatives", section: 1, src: "/images/screens/hipcamp-alternatives.webp", alt: "KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops" },
 ];
 
 const images = manifest as Record<string, unknown>;
