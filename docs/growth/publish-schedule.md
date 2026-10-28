@@ -93,3 +93,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-28 | freedom-camping-dunedin-2026 | scheduled |
 | 2026-12-29 | freedom-camping-wellington-2026 | scheduled |
 | 2026-12-30 | freedom-camping-far-north-2026 | scheduled |
+| 2026-12-31 | freedom-camping-marlborough-2026 | scheduled |

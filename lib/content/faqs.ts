@@ -510,4 +510,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need a self-contained vehicle in the Far North?", "On council land a certified self-contained vehicle is the general national rule, and the council's sites were set up for campervans. A tent camper should book a DOC campsite or a campground."],
     ["Has the Far North council been fining freedom campers?", "Newstalk ZB reported that it issued no fines over the 2025-26 summer and relies on education, but the national fee of $400 applies to a breach."],
   ],
+  "freedom-camping-marlborough-2026": [
+    ["How many freedom camping sites does Marlborough have?", "The council's table lists 11, including a temporary area at the Wairau Diversion near Blenheim. They are around Blenheim, Renwick, the Awatere Valley, Lake Grassmere and Rai Valley."],
+    ["Can I camp in a tent in Marlborough?", "Not at the council's sites, with a single exception: cyclists using the Awatere Valley Road may tent at Blairich Reserve."],
+    ["Is there a freedom camping site in Picton?", "None is listed in the council's table. Ferry arrivals should book a holiday park or a DOC campsite for the first night."],
+    ["How many nights can I stay at Renwick Domain?", "Two nights, between 6pm and 9am, with space for 20 vehicles."],
+  ],
 };

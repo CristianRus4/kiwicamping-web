@@ -754,5 +754,72 @@ export const freedomCouncilArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "freedom-camping-marlborough-2026",
+    publishAt: "2026-12-31",
+    title: "Freedom Camping in Marlborough 2026: Where You Can Stay",
+    description: "Marlborough's Responsible Camping Control Bylaw 2022: certified self-contained vehicles at 11 council sites around Blenheim, Renwick and Rai Valley, one or two nights, the Wairau Diversion update, fines and DOC campsites.",
+    category: "Rules & safety",
+    region: "Marlborough",
+    places: ["Blenheim", "Renwick", "Picton", "Rai Valley", "Awatere Valley", "Lake Grassmere"],
+    imageAlt: "The Interislander ferry beside forested headlands at the entrance to Picton Harbour in the Marlborough Sounds",
+    related: ["freedom-camping-rules-new-zealand", "cook-strait-ferry-campervan-guide", "picton-kaikoura-christchurch-route", "nelson-abel-tasman-golden-bay"],
+    hubs: ["camping/marlborough"],
+    intro:
+      "Marlborough's council sites take certified self-contained vehicles only, with one exception: cyclists using the Awatere Valley Road may tent at Blairich Reserve. The council's table lists 11 places, from Renwick Domain with 20 spaces to Lansdowne Park, where a night is allowed only from Monday to Thursday. Stays are one or two nights, and no council site is listed in Picton itself.",
+    sections: [
+      s("The bylaw and the vehicle rule", [
+        "The Marlborough District Council Responsible Camping Control Bylaw 2022 was adopted in March 2023 and covers land the council administers. The council's page says it provides for camping by self-contained vehicles only at all sites, with the exception of Blairich Reserve, where tenting by cyclists using the Awatere Valley Road is allowed.",
+        "The page ties this to the national law, which on council land generally requires a certified self-contained vehicle. Vehicles with a portable toilet no longer qualify, and a green warrant is the only one that counts since 7 June 2026. The council asks all campers to use commercial campgrounds, DOC camps and its responsible camping sites.",
+      ], ["Self-contained vehicles only", "Tents: cyclists at Blairich Reserve only", "Green warrant since 7 June 2026"]),
+      s("The council's sites", [
+        "The council's table gives each site's vehicle spaces, nights and permitted times. Renwick Domain car park takes 20 vehicles for two nights between 6pm and 9am, and Wynen Street car park in Blenheim has the same two nights and the same 6pm to 9am window. Taylor Dam Reserve takes 10 vehicles for two nights, Opouri Road (Carluke Domain) takes 6 for two, and Lansdowne Park in Blenheim takes 4 for one night, Monday to Thursday only.",
+        "Three sites allow one night only: Lansdowne Park, Alfred Stream at Rai Valley with 5 spaces and Renwick Dog Park off Foxes Island Road with 5. Blairich Reserve on Awatere Valley Road, Lake Elterwater near Grassmere and Wash Bridge Reserve on State Highway 63 are listed for two nights with no space count.",
+      ], ["Two nights at most sites", "One night at three", "Check the permitted times"], {
+        caption: "Marlborough District Council's table of responsible camping sites, read on 28 October 2026. A dash in the council's table is shown as not stated.",
+        head: ["Site", "Vehicle spaces", "Nights", "Permitted times"],
+        rows: [
+          ["Wairau Diversion, near Blenheim (temporary area)", "Not stated", "2", "Not stated"],
+          ["Renwick Domain car park, Renwick", "20", "2", "6pm to 9am"],
+          ["Wynen Street car park, Blenheim", "Not stated", "2", "6pm to 9am"],
+          ["Lansdowne Park, Blenheim", "4", "1", "Monday to Thursday only"],
+          ["Taylor Dam Reserve, Blenheim", "10", "2", "Not stated"],
+          ["Blairich Reserve, Awatere Valley Road", "Not stated", "2", "Not stated"],
+          ["Lake Elterwater, Grassmere", "Not stated", "2", "Not stated"],
+          ["Opouri Road (Carluke Domain)", "6", "2", "Not stated"],
+          ["Alfred Stream, Rai Valley", "5", "1", "Not stated"],
+          ["Renwick Dog Park, off Foxes Island Road (SH 6)", "5", "1", "Not stated"],
+          ["Wash Bridge Reserve, State Highway 63", "Not stated", "2", "Not stated"],
+        ],
+      }),
+      s("The Wairau Diversion", [
+        "The Wairau Diversion near Blenheim is listed as a temporary responsible camping area. The council's update of 16 June 2026 says it will remain available for freedom campers until further notice, and that there is no access to the day stay area until construction in that area is finished.",
+        "A temporary site can close with little warning, and the table gives it two nights with no space count. Read the update on the council's camping page the week you travel, and keep Renwick Domain or Taylor Dam Reserve as the next choice.",
+      ], ["Temporary site, until further notice", "Day stay area closed during construction", "Check the page the week you go"]),
+      s("Picton and the Sounds", [
+        "The council's table has no site in Picton or the Marlborough Sounds. Arriving off the Cook Strait ferry, the nearest listed places are Blenheim's and Rai Valley's, about a drive away, so a late sailing needs a holiday park or a DOC campsite booked ahead.",
+        "The ferry guide covers booking a campervan crossing, and the Picton to Christchurch route guide takes the Kaikōura coast south. The council keeps its camping number, 03 520 7400, for reports of camping in places that are not permitted.",
+      ], ["No listed council site in Picton", "Book a park or DOC site for ferry nights", "Report problems on 03 520 7400"]),
+      s("Fines", [
+        "A breach of the bylaw is an infringement offence. The council's page notes that the original $200 fee became $400 or more under the 2023 law, and the national regulations put most freedom camping breaches at $400, a missing warrant card at $200 and damage or waste at $800.",
+        "A third night at a two-night site is over the limit, and the one-night sites leave no slack at all. Plan the move before the first night starts.",
+      ], ["$400 for most breaches", "$800 for damage or waste", "Do not repeat a site beyond its nights"]),
+      s("DOC campsites in Marlborough", [
+        "DOC runs far more of the region's camping than the council does. KiwiCamping's DOC data (11 August 2026) lists 44 campsites in Marlborough, 20 of them bookable online through DOC, 10 listed as free, with adult nightly rates from $10 to $27. Whites Bay Campsite is the largest with 67 sites, and the region has 60 DOC huts.",
+        "The DOC campsites guide covers how to book, and a holiday park is the practical choice for power. For the Sounds and the high country, DOC's campsites are the alternative to a council car park.",
+      ], ["44 DOC campsites", "10 free", "Whites Bay is the largest"]),
+      s("Using KiwiCamping around Marlborough", [
+        "KiwiCamping maps Marlborough's DOC campsites and huts with their fees and facilities, holiday parks and bookable stays. The 11 council sites are not in it, and its freedom camping information is DOC's notices on conservation land, so use the council's page for Renwick, Blenheim and Rai Valley.",
+        "A trip can run from the ferry through Marlborough to Kaikōura, each night dated, with a note for the fallback and the weather for the leg. Place details, saved places and guides load from the phone without signal; map tiles, routing, weather and photos need reception. Free to download, with in-app purchases.",
+      ], ["Council sites: use the council's page", "Date the ferry night", "Place details work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Marlborough District Council: camping in Marlborough", url: "https://www.marlborough.govt.nz/recreation/responsible-camping/camping-in-marlborough" },
+      { label: "Marlborough District Council: Responsible Camping Control Bylaw 2022", url: "https://www.marlborough.govt.nz/your-council/bylaws/responsible-camping-control-bylaw-2022" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 
 ];
