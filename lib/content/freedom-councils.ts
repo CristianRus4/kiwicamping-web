@@ -822,4 +822,69 @@ export const freedomCouncilArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "freedom-camping-rotorua-2026",
+    publishAt: "2027-01-01",
+    title: "Freedom Camping in Rotorua 2026: Where You Can Stay",
+    description: "Rotorua Lakes Council's six camping sites: three free for certified self-contained vehicles (Government Gardens, Hamurana, Trout Pool), three paid lake reserves, two nights per calendar month, tents at two reserves and fines.",
+    category: "Rules & safety",
+    region: "Bay of Plenty",
+    places: ["Rotorua", "Hamurana", "Ōkere Falls", "Lake Ōkāreka", "Lake Ōkaro", "Lake Rerewhakaaitu"],
+    imageAlt: "The shore of Lake Rotorua seen through flowering shrubs, with a sandy path running down to the water",
+    related: ["freedom-camping-rules-new-zealand", "coromandel-rotorua-road-trip", "freedom-camping-tauranga-2026", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/bay-of-plenty"],
+    intro:
+      "Rotorua Lakes Council runs six camping sites: three free ones for certified self-contained vehicles and three paid lake reserves. Every site allows 2 consecutive nights per calendar month, the sites are first come, first served, and freedom camping is not permitted on any other park or neighbourhood recreation reserve. Tents are allowed only at Lake Ōkaro and Guy Roe Reserve.",
+    sections: [
+      s("What the council's page says", [
+        "The council describes Rotorua as a motorhome-friendly district and lists its camping locations on its freedom camping page. Overnight parking is available only at the spaces marked on the map, none of the sites can be reserved, and limited spaces mean arrival time matters.",
+        "From 7 June 2026 the page requires vehicles used for freedom camping to be certified self-contained, with a fixed toilet and the wastewater, water supply, ventilation, sink and rubbish storage requirements. The certificate card must be displayed on the windscreen and the certificate kept in the vehicle; a blue or green responsible camper sticker is not enough.",
+      ], ["Marked spaces only", "No reservations", "Certification card on the windscreen"]),
+      s("The three free sites", [
+        "Government Gardens Motorhome and Campervan Parking Area is on Hinemoa Street opposite the Polynesian Spa, with space for 17 vehicles and no toilets, showers or water. Hamurana Reserve on Lake Rotorua has space for 10, with public toilets, a water tap with drinkable water, a food preparation area without hot water, and a barbecue and playground nearby.",
+        "Trout Pool Reserve at Ōkere Falls has space for 5, with a composting toilet and no drinking water. At all three, only self-contained campervans and motorhomes may stay overnight, tents are not permitted, dogs are not allowed and fires and fireworks are banned.",
+      ], ["17 spaces at Government Gardens", "10 at Hamurana", "5 at Ōkere Falls"], {
+        caption: "Rotorua Lakes Council's freedom camping page, read on 28 October 2026. Every site is limited to 2 consecutive nights per calendar month.",
+        head: ["Site", "Spaces", "Fee per night", "Who may stay"],
+        rows: [
+          ["Government Gardens, Hinemoa Street", "17", "Free", "Self-contained vehicles only"],
+          ["Hamurana Reserve, Lake Rotorua", "10", "Free", "Self-contained vehicles only"],
+          ["Trout Pool Reserve, Ōkere Falls", "5", "Free", "Self-contained vehicles only"],
+          ["Boyes Beach, Lake Ōkāreka", "Designated area", "$20 adult, $10 child, under 5 free", "Vehicles; no tents"],
+          ["Lake Ōkaro Reserve", "Not stated", "$10 adult, $5 child, under 5 free", "Vehicles and tents"],
+          ["Guy Roe Reserve, Lake Rerewhakaaitu", "Not stated", "$10 adult, $5 child, under 5 free", "Vehicles and tents"],
+        ],
+      }),
+      s("The three paid lake reserves", [
+        "Boyes Beach at Lake Ōkāreka costs $20 per adult and $10 per child a night, with children under 5 free. It has public toilets, paid showers at $2, a phone charging unit at $1 an hour, dishwashing facilities and a children's playground, and payment is by internet banking, the Penny app or Eftpos to the site manager.",
+        "Lake Ōkaro Reserve and Guy Roe Reserve at Lake Rerewhakaaitu cost $10 per adult and $5 per child, under 5 free, paid through a secure pay link that asks for the vehicle registration and the site name, or through Penny. Both have composting toilets, picnic tables and a boat ramp, and the tap water needs boiling for three minutes before drinking.",
+      ], ["Boyes Beach: $20 adult, $10 child", "Ōkaro and Guy Roe: $10 adult, $5 child", "Boil tap water for 3 minutes"]),
+      s("Vehicles without certification and the 2026 rule", [
+        "The council's entries for the three paid reserves still say that self-contained and non-self-contained campervans can stay, while its headline from 7 June 2026 says vehicles must be certified. The page does not explain how the two sit together, so a vehicle without certification should ring the council on 07 348 4199 before counting on a paid site.",
+        "Tents are clearer: they are allowed only at Lake Ōkaro and Guy Roe Reserve, and the council says tents are not permitted at Boyes Beach or at the three free sites. In any case the stay limit is 2 consecutive nights per calendar month at each site.",
+      ], ["Ring 07 348 4199 if uncertified", "Tents at Ōkaro and Guy Roe only", "2 nights per calendar month"]),
+      s("Waste, rubbish and fires", [
+        "Wastewater tanks and cassettes can be emptied for free, 24 hours a day, at the wastewater treatment plant and at Gull Ngongotahā. The council says not to empty wastewater into the composting toilets at Ōkere Falls and Lake Ōkaro.",
+        "Rubbish and recycling go to the landfill, the recycling centre or a rural transfer station, whose hours are on the council's pages. Every site bans fires and fireworks, and dogs are limited site by site, including a daytime ban on the Boyes Beach reserve from 15 December to 1 March.",
+      ], ["Free dumping at two locations", "Take rubbish with you", "No fires or fireworks"]),
+      s("Fines and reporting", [
+        "Freedom camping in Rotorua outside these sites falls under the national infringement scheme: $400 for camping in breach of a restriction or prohibition, $200 for a missing warrant card, $800 for damage or waste. The council's page warns of the $400 fine in connection with the certification change.",
+        "To report illegal camping, ring the council on 07 348 4199, which it staffs round the clock, and ring 111 for illegal or antisocial behaviour that needs the Police.",
+      ], ["$400 for most breaches", "Council line: 07 348 4199", "111 for antisocial behaviour"]),
+      s("DOC campsites and holiday parks near Rotorua", [
+        "The Bay of Plenty hub in KiwiCamping lists 8 DOC campsites and 8 DOC huts, with 5 of the campsites bookable online through DOC and adult nightly rates from $10 to $18. The council's own page points to DOC, the district's holiday parks and the NZ Motor Caravan Association.",
+        "For tents on a busy summer weekend, the council's two reserves can be full, and a holiday park is the dependable bed. The Coromandel to Rotorua road trip guide shows how the city fits into a longer route.",
+      ], ["8 DOC campsites in the Bay of Plenty", "Holiday parks for summer weekends", "Coromandel to Rotorua route guide"]),
+      s("Using KiwiCamping around Rotorua", [
+        "The app shows DOC campsites and huts across the Bay of Plenty, holiday parks with their facilities and bookable stays, which suits a night when the council's small sites are full. The six council sites are not drawn in it, so the council's page and its map are the source for Government Gardens, Hamurana and the lake reserves.",
+        "Add the Rotorua night to a trip with its date, a note on the fallback and the forecast, and read the distance to the next leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council sites: use the council's map", "Keep a holiday park as the fallback", "Saved places work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Rotorua Lakes Council: freedom camping on parks and reserves", url: "https://www.rotorualakescouncil.nz/parks-lakes-recreation/freedom-camping" },
+      { label: "NZ Self Containment certification", url: "https://certification.nzscv.co.nz" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

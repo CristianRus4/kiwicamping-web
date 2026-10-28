@@ -516,4 +516,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is there a freedom camping site in Picton?", "None is listed in the council's table. Ferry arrivals should book a holiday park or a DOC campsite for the first night."],
     ["How many nights can I stay at Renwick Domain?", "Two nights, between 6pm and 9am, with space for 20 vehicles."],
   ],
+  "freedom-camping-rotorua-2026": [
+    ["Is freedom camping free in Rotorua?", "At three sites it is: Government Gardens, Hamurana Reserve and Trout Pool Reserve at Ōkere Falls. Boyes Beach, Lake Ōkaro Reserve and Guy Roe Reserve charge a nightly fee."],
+    ["Can I use a tent at a Rotorua freedom camping site?", "Only at Lake Ōkaro Reserve and Guy Roe Reserve, for $10 per adult and $5 per child a night."],
+    ["How many nights can I stay in Rotorua?", "Each of the six council sites allows 2 consecutive nights per calendar month, and none can be booked ahead."],
+    ["Where can I empty my tanks in Rotorua?", "The council lists free 24-hour wastewater disposal at its wastewater treatment plant and at Gull Ngongotahā."],
+  ],
 };
