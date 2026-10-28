@@ -1326,9 +1326,9 @@ export const listicleArticles: Article[] = [
         "The limits are plain. It runs on iPhone only, it covers New Zealand and nothing else, it does not reorder your stops into the shortest route, and it hands off to a maps app for turn-by-turn directions. It is free to download, with in-app purchases.",
       ], ["Best for: nights, fees and DOC places", "iPhone only, New Zealand only", "Use a maps app to navigate"], undefined, true),
       s("2. CamperMate: best for finding and booking campsites", [
-        "CamperMate describes itself as a way to find and book campsites, holiday parks and experiences in Australia and New Zealand, and its site mentions offline maps and more than 70,000 points of interest. Listings carry badges such as Same Day Booking and Instant Book, so it suits a traveller who wants to book a site from the same screen they found it on.",
+        "CamperMate describes itself as a way to find and book campsites, holiday parks and experiences in New Zealand and Australia, and its site mentions offline maps and more than 70,000 points of interest. Listings carry badges such as Same Day Booking and Instant Book, so it suits a traveller who wants to book a site from the same screen they found it on.",
         "Its site does not say whether the app is free or what a paid tier costs, so check that before you rely on it. It also links to itineraries without describing how they work, which leaves the trip-planning side less clear than its booking side.",
-      ], ["Best for: booking a site in the app", "Covers Australia and New Zealand", "Check the price on its own page"]),
+      ], ["Best for: booking a site in the app", "Covers New Zealand and Australia", "Check the price on its own page"]),
       s("3. Wanderlog: best for group and mixed trips", [
         "Wanderlog puts the itinerary and the map on one screen. Its site lists route optimisation based on the places you choose, offline access, an AI assistant, real-time collaboration, budgeting, reservation import from email and packing checklists. That mix makes it the closest match to Roadtrippers' shared trips, with the difference that it plans any kind of travel, not only road trips.",
         "It has no camping layer for New Zealand, so check DOC fees and booking rules on DOC's own site. The site describes a free version and a paid Pro, but the pricing page could not be read when this guide was checked, so look at it before you commit.",
@@ -1342,9 +1342,9 @@ export const listicleArticles: Article[] = [
         "Pair it with a planner. Download the offline area for each region before you leave town, because Google says offline directions work only when the whole route lies inside a downloaded area.",
       ], ["Best for: turn-by-turn directions", "9 stops per route", "Download areas before remote legs"]),
       s("6. WikiCamps New Zealand: best for a large list of sites", [
-        "WikiCamps' own site says it has over 12,000 sites, covering campgrounds, hostels, caravan parks, dump points and showers, with wishlists, itineraries, a trip planner and an offline mode. It lists a one-off purchase of $9.99 in Australian dollars per platform, and says you can book from more than 1,000 sites in the app.",
+        "WikiCamps' own site says it has over 12,000 sites, covering campgrounds, hostels, caravan parks, dump points and showers, with wishlists, itineraries, a trip planner and an offline mode. It lists a one-off purchase of $9.99 AUD per platform, and says you can book from more than 1,000 sites in the app.",
         "Entries are mostly added by travellers, so quality varies by place. It is the closest like-for-like option to KiwiCamping when you want a camping planner, and the trade-off is a user-built list instead of DOC's published data.",
-      ], ["Best for: the largest list", "One-off price in Australian dollars", "Mostly traveller-added listings"]),
+      ], ["Best for: the largest list", "One-off price listed in AUD", "Mostly traveller-added listings"]),
       s("Roadtrippers itself", [
         "Roadtrippers' homepage says it plans trips from what it has learned in over 42 million trips, with 5 million points of interest, an Autopilot itinerary tool, trip sharing, offline maps and live traffic. Stop limits are 3 on Free, 20 on Basic, 50 on Pro and 150 on Premium, and the paid plans are listed at $35.99, $49.99 and $59.99 a year.",
         "Its examples are American, so New Zealand details such as DOC campsite fees are not something its pages describe. Treat it as a good planner with thin New Zealand camping data and check the details that decide a night on DOC and council sites.",
