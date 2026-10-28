@@ -64,6 +64,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | wellington-to-napier-drive-guide | 6 (Planning Wellington to Napier in KiwiCamping) | Inbox: kiwicamping_guides_east-cape_map.png | KiwiCamping on iPhone: a road trip guide with a Save all mentioned places button, a map with an orange route line between campsite and dump station markers, and a seven-day weather forecast below it |
 | christchurch-to-dunedin-drive-guide | 7 (Planning Christchurch to Dunedin in KiwiCamping) | Inbox: kiwicamping_map_south-island_clusters.png | KiwiCamping on iPhone: a satellite map of the South Island covered in green numbered markers that group nearby places, with labels such as 27 places and 33 places |
 | freedom-camping-dunedin-2026 | 6 (Using KiwiCamping around Dunedin) | Inbox: kiwicamping_map_south-otago_tracks.png | KiwiCamping on iPhone: a satellite map of South Otago with numbered clusters of tracks and places |
+| freedom-camping-wellington-2026 | 6 (Using KiwiCamping around Wellington) | Inbox: kiwicamping_guides_north-island-14-day_top.png | KiwiCamping on iPhone: the North Island 14-day road trip guide with its trip length, 21 places and 1,306 km |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the

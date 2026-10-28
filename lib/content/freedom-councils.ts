@@ -627,6 +627,66 @@ export const freedomCouncilArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "freedom-camping-wellington-2026",
+    publishAt: "2026-12-29",
+    title: "Freedom Camping in Wellington 2026: Where You Can Stay",
+    description: "Wellington City's freedom camping rules: certified self-contained vehicles only, 52 spaces at Evans Bay Marina and 16 at Te Kopahou, four nights a month, the $30 Barnett Street option, fines and dump stations.",
+    category: "Rules & safety",
+    region: "Wellington",
+    places: ["Wellington", "Evans Bay", "Te Kopahou", "Owhiro Bay", "Hataitai", "Te Aro"],
+    imageAlt: "Evans Bay in Wellington, with sunlit water between two headlands under a cloudy sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "cook-strait-ferry-campervan-guide", "wellington-wairarapa-camping-loop"],
+    hubs: ["camping/wellington-kapiti"],
+    intro:
+      "Wellington City allows freedom camping only in a certified self-contained vehicle, and its free sites are two car parks: Evans Bay Marina with 52 designated spaces and Te Kopahou Visitors Centre with 16. Each area has a limit of four consecutive nights in a calendar month. Camping is prohibited on all land managed under the Reserves Act 1977 and the Wellington Town Belt Act 2016, which takes in many of its reserves.",
+    sections: [
+      s("The rules that apply across the city", [
+        "The council's freedom camping page sets out three restrictions for every area: the motor vehicle must be certified self-contained, no vehicle or tent may stay in any one area for more than four consecutive nights in a calendar month, and a camper may not freedom camp within 500 metres of an area where they already stayed four consecutive nights that month. The rules come from the Public Places Bylaw 2022, and Schedule One lists the restricted and prohibited areas.",
+        "The four-night limit and the 500 metre rule name tents and other temporary structures as well as vehicles. The self-contained requirement applies to motor vehicles, and the council's places to camp are car parks for vehicles, so a tent camper is better placed at a campground. If the vehicle is not certified, the council points to a campground or an on-street park. Since 7 June 2026 a green warrant is the only certification that counts.",
+      ], ["Certified self-contained vehicles", "Four consecutive nights per calendar month", "500 metres before you may camp again"]),
+      s("The two free sites", [
+        "Evans Bay Marina car park has 52 designated parks and Te Kopahou Visitors Centre car park has 16. The council says Te Kopahou is not suitable for vehicles over 7 metres or for caravans, and at both sites only the designated freedom camping parks may be used: the map at the entrance shows which they are.",
+        "On-street parking is the council's third free option, provided the vehicle keeps within any time limits that apply. Evans Bay Marina also has one of the city's two public dump stations; the other is at Ngauranga Gorge.",
+      ], ["52 spaces at Evans Bay Marina", "16 at Te Kopahou, not over 7 metres", "Dump stations at Evans Bay and Ngauranga Gorge"], {
+        caption: "Sites on Wellington City Council's freedom camping page, read on 28 October 2026.",
+        head: ["Site", "Spaces", "Cost", "Notes"],
+        rows: [
+          ["Evans Bay Marina car park, Hataitai", "52 designated", "Free", "Dump station on site"],
+          ["Te Kopahou Visitors Centre car park", "16 designated", "Free", "Not for vehicles over 7 m or caravans"],
+          ["Barnett Street car park, waterfront", "Not stated", "$30 per 24 hours", "No overnight parking on Saturday, because of the Sunday market"],
+          ["Cuba Street Motorhome Park, 25 Garrett Street", "Not stated", "Paid", "Electricity only"],
+        ],
+      }),
+      s("Paid overnight options in the city", [
+        "Barnett Street car park on the waterfront is open to self-contained freedom campers for $30 per 24 hours. The Harbourside Market uses the car park on Sunday mornings, so the council says nobody can park there overnight on a Saturday.",
+        "The Cuba Street Motorhome Park at 25 Garrett Street in Te Aro offers electricity only, and Capital Lodge Motor Inn in Newlands is also on the council's list. Further out, the page lists campgrounds and holiday parks at Porirua, Lower Hutt, Upper Hutt and Kāpiti, for tents and for vehicles without certification.",
+      ], ["Barnett Street: $30 per 24 hours", "Not on Saturday nights", "Holiday parks around the harbour"]),
+      s("Where camping is not allowed", [
+        "Camping is prohibited on all land managed under the Reserves Act and the Town Belt Act, which includes many reserves, coastal car parks, sports field car parks and play area car parks. Section 13 of the Public Places Bylaw explains the detail, and Schedule One, a 4.41 MB PDF on the council's page, maps the restricted and prohibited areas.",
+        "The result is a short list of permitted places in a big city, and a bylaw that does not turn a pretty coastal car park into a campsite. If a sign names a reserve or coastal car park, treat the sign as the final word.",
+      ], ["Reserves and Town Belt are prohibited", "Coastal and sports car parks too", "Schedule One has the map"]),
+      s("Fines and disputes", [
+        "The council's page puts the infringement fee at $400, issued under section 27(6) of the Freedom Camping Act. Other national fees apply to specific offences, including $200 for a missing warrant card and $800 for damage or waste.",
+        "A fine can be paid online with a credit card, using the Camping payment type, or at a council service desk. To dispute one, email parkranger@wcc.govt.nz or visit a service desk with your name, the issuing officer's name, the infringement number and when and where it was issued. The council says it will only issue a waiver in special circumstances, and it takes questions on 04 499 4444 at any hour.",
+      ], ["$400 is the council's stated fee", "Pay online or at a service desk", "Waivers only in special circumstances"]),
+      s("DOC campsites and the ferry", [
+        "The region has far less DOC camping than the South Island: KiwiCamping's DOC data (11 August 2026) lists 3 DOC campsites in Wellington and Kāpiti, 2 bookable online through DOC, at $10 an adult, and 24 DOC huts. Catchpool Valley Campsite in the Remutaka Forest Park is the largest, with 76 sites.",
+        "Many travellers arrive off the Cook Strait ferry, and the ferry guide covers booking a campervan crossing. A late sailing and a full Evans Bay car park is the combination to plan around, so keep a holiday park as the second choice for the first night.",
+      ], ["3 DOC campsites in the region", "24 DOC huts", "Plan the first night after the ferry"]),
+      s("Using KiwiCamping around Wellington", [
+        "KiwiCamping adds the Wellington and Kāpiti DOC campsites and huts, holiday parks and bookable stays to a map you can filter for toilets, water and vehicle access. The council's two car parks are not drawn as their own layer, so check the council's page before relying on a space, then save the fallback in the same trip.",
+        "A trip keeps the Wellington night beside the ferry or the Wairarapa leg, each stop dated with a note, a distance and a forecast. Saved places, place details and guides stay readable with no reception; the map tiles, routing, weather and photos are the parts that need signal. Free to download, with in-app purchases.",
+      ], ["Council car parks: check the council's page", "Save a holiday park as the fallback", "Saved places work offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Wellington City Council: freedom camping in Wellington", url: "https://wellington.govt.nz/recreation/outdoors/camping-in-wellington" },
+      { label: "Wellington City Council: Public Places Bylaw 2022", url: "https://wellington.govt.nz/your-council/plans-policies-and-bylaws/bylaws/public-places-bylaw-2022" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 
 
 

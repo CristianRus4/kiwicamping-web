@@ -498,4 +498,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can a van without a self-containment certificate stay in Dunedin?", "Only at the three sites the council names: Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park. Thomas Burns Street takes such vehicles from 1 November to 30 April."],
     ["What time do I have to leave a Dunedin freedom camping site?", "The council's page gives 8.30am, except at Warrington, where the cut-off is 12 noon."],
   ],
+  "freedom-camping-wellington-2026": [
+    ["Which freedom camping sites does Wellington City have?", "The council's two free car parks are Evans Bay Marina, with 52 designated spaces, and Te Kopahou Visitors Centre, with 16. Both are for certified self-contained vehicles only."],
+    ["How long can I stay at Wellington's freedom camping sites?", "No more than four consecutive nights in a calendar month in any one area, and a camper has to move at least 500 metres from an area where that limit was used up."],
+    ["Is there a paid alternative to the free car parks in Wellington?", "Barnett Street car park on the waterfront takes self-contained vehicles for $30 per 24 hours, except on Saturday nights because of the Sunday market. The Cuba Street Motorhome Park in Te Aro offers powered sites."],
+    ["How much is a freedom camping fine in Wellington?", "The council gives $400 for a breach of its Public Places Bylaw. You can pay online or at a service desk, and disputes go to parkranger@wcc.govt.nz."],
+  ],
 };
