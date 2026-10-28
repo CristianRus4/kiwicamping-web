@@ -147,3 +147,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-far-north-2026` | 00 0534 New Zealand - Mangonui Harbour.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_0534_New_Zealand_-_Mangonui_Harbour.jpg) |
 | `freedom-camping-marlborough-2026` | Picton Harbour, Marlborough Sounds.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Picton_Harbour,_Marlborough_Sounds.jpg) |
 | `freedom-camping-rotorua-2026` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
+| `hipcamp-alternatives` | Stewart Island Maori Beach Campsite tent.jpg | AlasdairW | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Stewart_Island_Maori_Beach_Campsite_tent.jpg) |

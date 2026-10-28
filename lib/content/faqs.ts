@@ -522,4 +522,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How many nights can I stay in Rotorua?", "Each of the six council sites allows 2 consecutive nights per calendar month, and none can be booked ahead."],
     ["Where can I empty my tanks in Rotorua?", "The council lists free 24-hour wastewater disposal at its wastewater treatment plant and at Gull Ngongotahā."],
   ],
+  "hipcamp-alternatives": [
+    ["Is there a Hipcamp app in New Zealand?", "No New Zealand App Store listing turned up on 28 October 2026. Hipcamp's New Zealand listings are booked through its website."],
+    ["What is the closest alternative to Hipcamp for campervans?", "Campable, which lists private land such as farms, orchards and vineyards for self-contained campervans and motorhomes, with instant booking at some places."],
+    ["Which Hipcamp alternative is free?", "CamperMate and Rankers Camping NZ are free to download, and KiwiCamping is free to download with in-app purchases. WikiCamps New Zealand costs NZ$7.99 once."],
+    ["Where do I book DOC campsites and huts?", "On DOC's own website, which takes bookings for Great Walk huts, other huts and campsites at DOC's published prices."],
+  ],
 };

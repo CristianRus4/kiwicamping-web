@@ -71,6 +71,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "freedom-camping-far-north-2026", section: 6, src: "/images/screens/freedom-camping-far-north-2026.webp", alt: "KiwiCamping on iPhone: the Bay of Islands week guide with a map of campsite and holiday park pins above a seven-day forecast" },
   { slug: "freedom-camping-marlborough-2026", section: 6, src: "/images/screens/freedom-camping-marlborough-2026.webp", alt: "KiwiCamping on iPhone: a Picton to Christchurch route on a map above a seven-day forecast for Picton and Marlborough" },
   { slug: "freedom-camping-rotorua-2026", section: 7, src: "/images/screens/freedom-camping-rotorua-2026.webp", alt: "KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button" },
+  { slug: "hipcamp-alternatives", section: 1, src: "/images/screens/hipcamp-alternatives.webp", alt: "KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops" },
 ];
 
 const images = manifest as Record<string, unknown>;
