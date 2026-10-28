@@ -68,6 +68,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "christchurch-to-dunedin-drive-guide", section: 7, src: "/images/screens/christchurch-to-dunedin-drive-guide.webp", alt: "KiwiCamping on iPhone: a satellite map of the South Island covered in green numbered markers that group nearby places, with labels such as 27 places and 33 places" },
   { slug: "freedom-camping-dunedin-2026", section: 6, src: "/images/screens/freedom-camping-dunedin-2026.webp", alt: "KiwiCamping on iPhone: a satellite map of South Otago with numbered clusters of tracks and places" },
   { slug: "freedom-camping-wellington-2026", section: 6, src: "/images/screens/freedom-camping-wellington-2026.webp", alt: "KiwiCamping on iPhone: the North Island 14-day road trip guide with its trip length, 21 places and 1,306 km" },
+  { slug: "freedom-camping-far-north-2026", section: 6, src: "/images/screens/freedom-camping-far-north-2026.webp", alt: "KiwiCamping on iPhone: the Bay of Islands week guide with a map of campsite and holiday park pins above a seven-day forecast" },
 ];
 
 const images = manifest as Record<string, unknown>;

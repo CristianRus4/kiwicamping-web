@@ -144,3 +144,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-dunedin-drive-guide` | Moeraki Boulders Otago NZ (26411317600).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Moeraki_Boulders_Otago_NZ_(26411317600).jpg) |
 | `freedom-camping-dunedin-2026` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
 | `freedom-camping-wellington-2026` | Evans Bay.jpg | Turnagra | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Evans_Bay.jpg) |
+| `freedom-camping-far-north-2026` | 00 0534 New Zealand - Mangonui Harbour.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_0534_New_Zealand_-_Mangonui_Harbour.jpg) |

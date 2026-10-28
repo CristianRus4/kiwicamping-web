@@ -504,4 +504,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is there a paid alternative to the free car parks in Wellington?", "Barnett Street car park on the waterfront takes self-contained vehicles for $30 per 24 hours, except on Saturday nights because of the Sunday market. The Cuba Street Motorhome Park in Te Aro offers powered sites."],
     ["How much is a freedom camping fine in Wellington?", "The council gives $400 for a breach of its Public Places Bylaw. You can pay online or at a service desk, and disputes go to parkranger@wcc.govt.nz."],
   ],
+  "freedom-camping-far-north-2026": [
+    ["Can I camp on a beach or in a reserve in the Far North?", "The district council says overnight camping and parking is not permitted in its parks, reserves and beaches. It points free campers to approved sites near toilets and water."],
+    ["Which Far North freedom camping sites are approved?", "RNZ's December 2022 report named seven: Kawakawa, Kaikohe's Lindvart Park, Ohaeawai, Okaihau, Totara North, Mangonui's Lions Park and Awanui. Check the council's page, because the list has changed before."],
+    ["Do I need a self-contained vehicle in the Far North?", "On council land a certified self-contained vehicle is the general national rule, and the council's sites were set up for campervans. A tent camper should book a DOC campsite or a campground."],
+    ["Has the Far North council been fining freedom campers?", "Newstalk ZB reported that it issued no fines over the 2025-26 summer and relies on education, but the national fee of $400 applies to a breach."],
+  ],
 };

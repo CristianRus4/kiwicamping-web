@@ -688,6 +688,71 @@ export const freedomCouncilArticles: Article[] = [
     ],
   }),
 
+  a({
+    slug: "freedom-camping-far-north-2026",
+    publishAt: "2026-12-30",
+    title: "Freedom Camping in the Far North 2026: Where You Can Stay",
+    description: "Far North District Council allows no camping or overnight parking in its parks, reserves and beaches, and points to seven approved sites near toilets and water. What the council says, the reported site list and the DOC alternatives.",
+    category: "Rules & safety",
+    region: "Northland",
+    places: ["Kawakawa", "Kaikohe", "Mangonui", "Awanui", "Okaihau", "Totara North"],
+    imageAlt: "Yachts and other boats moored in Mangonui Harbour below a forested hill",
+    related: ["freedom-camping-rules-new-zealand", "northland-cape-reinga-camping-route", "bay-of-islands-camping-week", "kauri-dieback-camping-travel"],
+    hubs: ["camping/northland"],
+    intro:
+      "Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches. It sends free campers to seven approved sites near public toilets and water supplies, some with a dump station nearby for self-contained campervans. The council's website refused scripted reads for this guide, so the page's wording comes from search results and the site names from RNZ's reporting, and the council's current list is the one to check before a night depends on it.",
+    sections: [
+      s("What the council says", [
+        "The council's responsible camping page, last updated in July 2024, says camping or parking overnight at council-controlled parks, reserves and beaches is not permitted. Free campers are asked to use seven approved sites across the district, chosen for their public toilets and water supplies.",
+        "That makes the district the opposite of an open-slather coast. The default is no, and the approved sites are the exception, so a beach car park with a view is not covered because it looks like one that is. Council land only is covered here: DOC's conservation land, private land and campgrounds follow their own rules.",
+      ], ["Parks, reserves and beaches: not permitted", "Seven approved sites", "Council land only"]),
+      s("The seven approved sites", [
+        "RNZ's December 2022 report lists the seven as Kawakawa (Te Hononga, Gillies Street), Kaikohe (Lindvart Park), Ohaeawai (Te Corner), Okaihau (Two Ponga Park), Totara North (200 metres off State Highway 1), Mangonui (Lions Park, Waterfront Drive) and Awanui (the village toilets and playground). A 2015 council decision, reported by the Northern Advocate, had named Centre Park in Kaitaia and Awanui Reserve among its earlier eight sites, so the list has moved before and can move again.",
+        "The 2022 report also describes a dump station at the Te Paki Stream Road intersection with State Highway 1, called New Zealand's northernmost freedom camping dump station. Night limits and vehicle counts are not on the pages this guide could read, so each site's sign sets them.",
+      ], ["Kawakawa, Kaikohe, Ohaeawai, Okaihau", "Totara North, Mangonui, Awanui", "Signs set the night limits"], {
+        caption: "Far North approved sites as RNZ reported them in December 2022, with the council's page of July 2024 saying seven remain. Confirm the current list with the council.",
+        head: ["Town", "Site", "Notes"],
+        rows: [
+          ["Kawakawa", "Te Hononga, Gillies Street", "Not stated"],
+          ["Kaikohe", "Lindvart Park", "Earlier council policy marked it self-contained only"],
+          ["Ohaeawai", "Te Corner", "Not stated"],
+          ["Okaihau", "Two Ponga Park", "Not stated"],
+          ["Totara North", "200 metres off State Highway 1", "Old dump site in 2015"],
+          ["Mangonui", "Lions Park, Waterfront Drive", "Not stated"],
+          ["Awanui", "Village toilets and playground", "Not stated"],
+        ],
+      }),
+      s("Which vehicles", [
+        "The sites are for camping in a vehicle, and the 2015 decision described them as for self-contained campervans only. The national law has since made certification the general rule on council land: since 7 June 2026 that means a green warrant on the windscreen, and portable toilets no longer qualify a vehicle.",
+        "Tents are not part of the council's approved-site message. A tent camper is better served by a DOC campsite or a commercial campground, and the Northland hub lists DOC's choices.",
+      ], ["Plan on a green warrant", "Tents: use DOC or a campground", "Confirm each site's vehicle rule"]),
+      s("Enforcement and fines", [
+        "Newstalk ZB's summer 2025-26 report said the council issued no freedom camping fines that season and relies on education, so a lenient summer is no promise about the next. Under the national regulations the usual infringement fee is $400, a missing warrant card costs $200, and damage or waste costs $800.",
+        "The Freedom Camping Act also allows a court fine of up to $3,000 for the offence. Camping where the council says it is not permitted is the case the $400 fee targets.",
+      ], ["$400 for most breaches", "No fines issued in summer 2025-26", "Education first, notices when needed"]),
+      s("DOC campsites in Northland", [
+        "DOC's land is the better answer for a longer stay. KiwiCamping's DOC data (11 August 2026) counts 14 campsites in Northland, 11 of them bookable online, with adult nightly rates from $10 to $23. Uretiti Beach Campsite is the biggest with 300 sites, and the region also has 7 DOC huts.",
+        "The kauri dieback guide matters on the walks from these campsites, and the DOC campsite guide explains how to book. For a certain bed with power, a holiday park is the alternative that does not depend on a council sign.",
+      ], ["14 DOC campsites in Northland", "Uretiti Beach is the largest", "Kauri dieback cleaning at tracks"]),
+      s("Routes through the Far North", [
+        "State Highway 1 north from Auckland reaches Kawakawa and Paihia before the Bay of Islands, and the Auckland to Bay of Islands guide covers the drive, ferry and camping on it. North of Kaitaia, the Cape Reinga route guide plans the nights on the way to the tip.",
+        "The approved sites sit along that axis: Kawakawa on the way in, Mangonui and Awanui on the way north. They are a late-arrival option, not the plan for the best nights of the trip.",
+      ], ["Auckland to Bay of Islands guide", "Cape Reinga route guide", "Approved sites are a late-arrival option"]),
+      s("Using KiwiCamping in the Far North", [
+        "The app shows Northland's DOC campsites, holiday parks and bookable stays with their facilities, plus DOC's freedom camping notices on conservation land, which are not council rules. The council's seven sites need the council's page and the signs on the day.",
+        "A trip can hold the Bay of Islands and Cape Reinga legs together, with each night dated, a note on its fallback and the forecast beside it. Place details, saved places and guides open on the phone without signal, and the map tiles, routing, weather and photos come back with reception. Free to download, with in-app purchases.",
+      ], ["Council sites: check the council's page", "Date each night and add a fallback", "Place details open offline"], undefined, true),
+    ],
+    sources: [
+      { label: "Far North District Council: responsible camping", url: "https://www.fndc.govt.nz/District/Visiting-the-Far-North/responsible-camping" },
+      { label: "RNZ via 7me: Northland councils gearing up as peak freedom camping season begins", url: "https://7me.one/northland-councils-gearing-up-as-peak-freedom-camping-season-begins/" },
+      { label: "Northern Advocate: Freedom camp spots opened up in Far North", url: "https://www.nzherald.co.nz/northern-advocate/news/freedom-camp-spots-opened-up-in-far-north/5ZL3WCKD2LCTNEM5ZRSEBUSJHM/" },
+      { label: "Far North District Council: Camping in Public Places policy 2016", url: "https://fndc-web.matrix.squiz.cloud/__data/assets/pdf_file/0023/18095/camping-in-public-places-2016.pdf" },
+      { label: "Newstalk ZB: freedom camping hotspots see spike in fines this summer", url: "https://www.newstalkzb.co.nz/news/national/freedom-camping-hotspots-see-spike-in-fines-this-summer/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 
 
 ];
