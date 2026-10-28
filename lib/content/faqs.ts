@@ -527,5 +527,11 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is the TOP 10 Club worth it?", "The club costs $55 for two years and takes 10% off accommodation at TOP 10 parks, so it earns back its price after about $550 of accommodation spend, depending on the cap that applies to each stay."],
     ["When are holiday parks most expensive in New Zealand?", "From about 20 December until after Waitangi Day, when The Camp's powered rate is $70 and Tauranga Bay lists its peak cabins from $155 to $250 for four people."],
   ],
+  "roadtrippers-alternatives": [
+    ["Does Roadtrippers work in New Zealand?", "Roadtrippers' own About page says its location database covers the United States, Canada, New Zealand and Australia. Its homepage examples are American, and it does not describe New Zealand details such as DOC campsite fees."],
+    ["What is the best Roadtrippers alternative for a New Zealand campervan trip?", "For camping, KiwiCamping plans a trip by the night with DOC campsites, holiday parks and a dated itinerary on iPhone. CamperMate and WikiCamps are the other camping-focused options, and Wanderlog or Furkot suit general trip planning."],
+    ["How many stops can I add on Roadtrippers?", "Its homepage lists 3 stops on the Free plan, 20 on Basic, 50 on Pro and 150 on Premium."],
+    ["Is there a free Roadtrippers alternative?", "Google Maps is free for directions but accepts up to 9 stops in a route. Wanderlog has a free version with a paid Pro tier, and KiwiCamping is free to download, with in-app purchases."],
+  ],
 
 };

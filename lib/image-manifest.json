@@ -1637,6 +1637,20 @@
       }
     ]
   },
+  "/images/articles/roadtrippers-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/roadtrippers-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/roadtrippers-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/routeburn-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,
@@ -2863,6 +2877,20 @@
       },
       {
         "path": "/images/screens/road-trip-planner-apps-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/roadtrippers-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/roadtrippers-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/roadtrippers-alternatives.webp",
         "width": 1600
       }
     ]

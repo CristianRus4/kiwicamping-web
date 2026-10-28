@@ -1290,4 +1290,81 @@ export const listicleArticles: Article[] = [
       { label: "CamperMate", url: "https://campermate.com" },
     ],
   }),
+  a({
+    slug: "roadtrippers-alternatives",
+    listicle: true,
+    publishAt: "2026-12-27",
+    title: "6 Best Roadtrippers Alternatives for New Zealand in 2026",
+    description: "Roadtrippers plans road trips well but knows little about NZ campsites. KiwiCamping, CamperMate, Wanderlog, Furkot, Google Maps and WikiCamps compared on stops, camping data and price. Checked October 2026.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["State highways", "DOC campsites", "Holiday parks", "Campervans", "Cook Strait"],
+    imageAlt: "State Highway 6 near Haast Pass, a sealed road running through bush with mountains beyond",
+    related: ["road-trip-planner-apps-new-zealand", "best-nz-camping-apps", "campermate-alternatives", "plan-trip-kiwicamping"],
+    intro:
+      "Roadtrippers is a trip planner built around stops, and its own site says its location database covers the United States, Canada, New Zealand and Australia. People leave it for a New Zealand camping trip for practical reasons: its free plan is capped at 3 stops, and a campervan itinerary needs DOC campsite fees, holiday parks and dump stations more than it needs a long list of roadside attractions. KiwiCamping is ours, so it comes first here, and each entry says what it does well, what it does not, and who should pick another app. Prices and features are taken from each company's own pages, checked on 28 October 2026.",
+    sections: [
+      s("Roadtrippers alternatives at a glance", [
+        "For a camping trip with a night-by-night plan, try KiwiCamping. For a big list of sites with bookings, CamperMate or WikiCamps; for a planner that works for any kind of trip, Wanderlog or Furkot; for turn-by-turn driving alone, Google Maps.",
+        "Roadtrippers stays the better pick if you are also planning a drive in the United States and want one app for both, or if you like its Autopilot itineraries and shared trips.",
+      ], undefined, {
+        caption: "Checked 28 October 2026 on each company's own site. Prices are those the companies list; the table gives only what a page states.",
+        head: ["App", "Best for", "Price", "Stops on a trip"],
+        rows: [
+          ["KiwiCamping", "Camping nights and DOC places", "Free to download, with in-app purchases", "Ordered stops with dates and notes"],
+          ["CamperMate", "Finding and booking campsites", "Not stated on its site", "Itineraries"],
+          ["Wanderlog", "Group trips and mixed travel", "Free version, Pro tier", "Itinerary and map together"],
+          ["Furkot", "Long routes with daily limits", "Not stated on its site", "Planned by daily travel time"],
+          ["Google Maps", "Turn-by-turn driving", "Free", "Up to 9 stops per route"],
+          ["WikiCamps NZ", "A large list of sites", "One-off purchase listed as $9.99 AUD per platform", "Trip planner with wishlists"],
+          ["Roadtrippers (for comparison)", "Autopilot itineraries", "Free; paid plans $35.99 to $59.99 a year", "3 free; 20, 50 or 150 on paid plans"],
+        ],
+      }),
+      s("1. KiwiCamping: best for camping nights and DOC places", [
+        "KiwiCamping plans a trip as a sequence of nights. You save places as you research, then put the ones you choose into a trip with their order, dates, a note on each stop and a to-do list, and the trip shows the total distance and the forecast at each place. The place data covers New Zealand only, with 287 DOC campsites, 927 DOC huts and 1,453 DOC tracks in the app's data, alongside holiday parks and DOC's freedom camping notices.",
+        "That focus is what Roadtrippers lacks for a campervan. Filters narrow the map by water, toilets, showers, power, dogs, vehicle access and fees, and a place page keeps the details DOC publishes. Place details, saved places and guides still open with no signal; the map tiles, routing, weather and photos need it.",
+        "The limits are plain. It runs on iPhone only, it covers New Zealand and nothing else, it does not reorder your stops into the shortest route, and it hands off to a maps app for turn-by-turn directions. It is free to download, with in-app purchases.",
+      ], ["Best for: nights, fees and DOC places", "iPhone only, New Zealand only", "Use a maps app to navigate"], undefined, true),
+      s("2. CamperMate: best for finding and booking campsites", [
+        "CamperMate describes itself as a way to find and book campsites, holiday parks and experiences in Australia and New Zealand, and its site mentions offline maps and more than 70,000 points of interest. Listings carry badges such as Same Day Booking and Instant Book, so it suits a traveller who wants to book a site from the same screen they found it on.",
+        "Its site does not say whether the app is free or what a paid tier costs, so check that before you rely on it. It also links to itineraries without describing how they work, which leaves the trip-planning side less clear than its booking side.",
+      ], ["Best for: booking a site in the app", "Covers Australia and New Zealand", "Check the price on its own page"]),
+      s("3. Wanderlog: best for group and mixed trips", [
+        "Wanderlog puts the itinerary and the map on one screen. Its site lists route optimisation based on the places you choose, offline access, an AI assistant, real-time collaboration, budgeting, reservation import from email and packing checklists. That mix makes it the closest match to Roadtrippers' shared trips, with the difference that it plans any kind of travel, not only road trips.",
+        "It has no camping layer for New Zealand, so check DOC fees and booking rules on DOC's own site. The site describes a free version and a paid Pro, but the pricing page could not be read when this guide was checked, so look at it before you commit.",
+      ], ["Best for: groups, budgets and bookings", "Route optimisation", "No NZ camping data"]),
+      s("4. Furkot: best for long routes with daily limits", [
+        "Furkot calls itself a road trip planner that plans the route in the most efficient way and lets you set daily limits on travel time, after which it suggests overnight stops along the route. You can drag stops around, reverse the itinerary and add meals, fuel and attractions. Its lodging search lists hotels, campgrounds and apartments.",
+        "The site does not state a price, the platforms it runs on or whether it works offline, and it shows campground partners from North America rather than New Zealand. It is a strong planning tool for a long drive, but it needs a New Zealand camping source beside it.",
+      ], ["Best for: daily travel-time limits", "Suggests overnight stops", "Price and offline use not stated"]),
+      s("5. Google Maps: best for the drive itself", [
+        "Google Maps handles directions for a leg and accepts up to 9 stops in a single route, according to Google's help page, which is enough for a day or two but not a three-week loop. It has no nights, dates or notes in the route, and it is not a source of DOC fees.",
+        "Pair it with a planner. Download the offline area for each region before you leave town, because Google says offline directions work only when the whole route lies inside a downloaded area.",
+      ], ["Best for: turn-by-turn directions", "9 stops per route", "Download areas before remote legs"]),
+      s("6. WikiCamps New Zealand: best for a large list of sites", [
+        "WikiCamps' own site says it has over 12,000 sites, covering campgrounds, hostels, caravan parks, dump points and showers, with wishlists, itineraries, a trip planner and an offline mode. It lists a one-off purchase of $9.99 in Australian dollars per platform, and says you can book from more than 1,000 sites in the app.",
+        "Entries are mostly added by travellers, so quality varies by place. It is the closest like-for-like option to KiwiCamping when you want a camping planner, and the trade-off is a user-built list instead of DOC's published data.",
+      ], ["Best for: the largest list", "One-off price in Australian dollars", "Mostly traveller-added listings"]),
+      s("Roadtrippers itself", [
+        "Roadtrippers' homepage says it plans trips from what it has learned in over 42 million trips, with 5 million points of interest, an Autopilot itinerary tool, trip sharing, offline maps and live traffic. Stop limits are 3 on Free, 20 on Basic, 50 on Pro and 150 on Premium, and the paid plans are listed at $35.99, $49.99 and $59.99 a year.",
+        "Its examples are American, so New Zealand details such as DOC campsite fees are not something its pages describe. Treat it as a good planner with thin New Zealand camping data and check the details that decide a night on DOC and council sites.",
+      ], ["Free plan: 3 stops", "Paid plans from $35.99 a year", "Examples are American"]),
+      s("How these apps were chosen", [
+        "The list covers planners a New Zealand traveller is likely to meet when searching for a Roadtrippers replacement, with at least one that is built for camping. Each fact comes from the developer's own site or help page, read on 28 October 2026. Features are described as the companies describe them, so a feature not mentioned here is not a claim that an app lacks it.",
+        "KiwiCamping is ours, and that is why it comes first. The reasons are the DOC data and the dated trip plan, and the entry above says where another app suits you better.",
+      ]),
+    ],
+    sources: [
+      { label: "Roadtrippers", url: "https://roadtrippers.com/" },
+      { label: "Roadtrippers: about", url: "https://roadtrippers.com/about/" },
+      { label: "CamperMate", url: "https://campermate.com" },
+      { label: "Wanderlog", url: "https://wanderlog.com/" },
+      { label: "Furkot", url: "https://trips.furkot.com/" },
+      { label: "Google Maps: add multiple destinations", url: "https://support.google.com/maps/answer/144339" },
+      { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
+      { label: "WikiCamps", url: "https://wikicamps.co.nz/" },
+    ],
+  }),
+
+
 ];
