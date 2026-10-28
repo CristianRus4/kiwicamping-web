@@ -492,4 +492,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["When is the best time to see the Moeraki Boulders?", "At low tide. Tourism Waitaki says the boulders are most accessible and visible then, so check a tide table before you go. They are just south of Hampden on State Highway 1, with a public car park and a 5 to 10 minute walk to the beach."],
     ["Can I camp near Moeraki?", "DOC's Trotters Gorge Campsite, about 3 km south of Moeraki, has 10 sites at $15 per adult and needs a booking, and DOC closes its gate to vehicles in winter. Freedom camping in the Waitaki district follows the council's bylaw, set out in the Waitaki freedom camping guide."],
   ],
+  "freedom-camping-dunedin-2026": [
+    ["Can I freedom camp in a campervan in Dunedin?", "Yes, if it is certified self-contained. The city council says such vehicles can stay overnight on most gravelled or sealed land it has set aside for parking, with exceptions listed on its page, for up to two consecutive nights in one place."],
+    ["Where can a tent go up in Dunedin?", "The council names one place for tent campers: the designated area at Warrington Domain. Everywhere else a tent needs a holiday park, a campground or a DOC campsite."],
+    ["Can a van without a self-containment certificate stay in Dunedin?", "Only at the three sites the council names: Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park. Thomas Burns Street takes such vehicles from 1 November to 30 April."],
+    ["What time do I have to leave a Dunedin freedom camping site?", "The council's page gives 8.30am, except at Warrington, where the cut-off is 12 noon."],
+  ],
 };

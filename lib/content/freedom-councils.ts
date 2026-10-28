@@ -566,4 +566,68 @@ export const freedomCouncilArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-dunedin-2026",
+    publishAt: "2026-12-28",
+    title: "Freedom Camping in Dunedin 2026: Where You Can Stay",
+    description: "Dunedin's freedom camping rules: certified self-contained vehicles on most council parking land, two nights per location, three sites for tents and vehicles without certification, fines and DOC campsites.",
+    category: "Rules & safety",
+    region: "Otago",
+    places: ["Dunedin", "Warrington", "Ocean View", "Otago Peninsula", "Port Chalmers", "St Clair"],
+    imageAlt: "People walking along the wide sand of St Clair Beach in Dunedin, with a green headland beyond the surf",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "christchurch-to-dunedin-drive-guide", "southern-scenic-route-camping"],
+    hubs: ["camping/otago"],
+    intro:
+      "A certified self-contained vehicle may stay overnight on most gravelled or sealed Dunedin City Council land set aside for parking, for no more than two consecutive nights in one location. Vehicles without certification and tents are limited to three council sites, and only Warrington Domain takes tents. The council's page lists exceptions, scenic reserves are out, and DOC land is a separate landlord.",
+    sections: [
+      s("What the council's page says", [
+        "Dunedin City Council's freedom camping page starts from the vehicle: certified self-contained vehicles can stay overnight on most gravelled or sealed council land set aside for parking, with some exceptions the page outlines. It asks for the vehicle's certification to be clearly displayed, and it names the self-containment standard, NZS 5465.",
+        "The stay limit is two consecutive nights at any one location, with departure by 8.30am. Warrington is the one exception, where the departure time is 12 noon. The council's server refused scripted reads when this guide was prepared, so the wording above comes from the page's text as search tools returned it, and the council's own page is the version to trust on the day.",
+      ], ["Council parking land, with exceptions", "Two consecutive nights per location", "Out by 8.30am, or noon at Warrington"]),
+      s("Tents and vehicles without certification", [
+        "A council may designate places for vehicles that are not certified, and Dunedin's page names three: Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park. Tent campers have a single option, the designated area inside Warrington Domain.",
+        "The Thomas Burns Street site works on a season for non-self-contained vehicles: it is available from 1 November to 30 April. MBIE's fact sheet for councils says existing bylaws that designate places for non-self-contained vehicles continue to apply, which is why these three survive the 2023 law. If the vehicle is neither certified nor welcome at one of the three, a holiday park is the answer.",
+      ], ["Three sites for non-certified vehicles", "Tents at Warrington only", "Thomas Burns Street: 1 Nov to 30 Apr"], {
+        caption: "Sites for vehicles without certification and tents on Dunedin City Council's freedom camping page, as its text read in search results on 28 October 2026. Check the page before you travel.",
+        head: ["Site", "Who may stay", "Stay and departure"],
+        rows: [
+          ["Warrington Domain, designated area", "Tents and non-self-contained vehicles", "Two consecutive nights; leave by 12 noon"],
+          ["Ocean View Recreation Reserve", "Non-self-contained vehicles", "Two consecutive nights; leave by 8.30am"],
+          ["Thomas Burns Street car park", "Non-self-contained vehicles, 1 November to 30 April", "Two consecutive nights; leave by 8.30am"],
+        ],
+      }),
+      s("Where the council says no", [
+        "The council's list of prohibited places includes scenic reserves, and it names Warrington Domain, the Thomas Burns Street car park and Ocean View Recreation Reserve for anyone camping outside their designated areas. Reading the signs matters at these sites, because the permission covers a marked area, not the whole domain or car park.",
+        "The council patrols these places at night, and its page lists further exceptions to the parking-land rule that this guide does not copy out. A gravel car park beside a beach is not automatically open: look for a sign, and if there is none, ask the council before settling in.",
+      ], ["Scenic reserves are prohibited", "Stay inside the marked area", "Ask if there is no sign"]),
+      s("Fines", [
+        "Dunedin enforces its rules with infringement notices. Under the national regulations a breach of a bylaw restriction or prohibition costs $400, using a vehicle that is not self-contained where it is required costs $400, and a missing warrant card costs $200. Damage to the area or leaving waste in or on it costs $800.",
+        "If a case goes to court, the Freedom Camping Act lets a fine reach $3,000. For a rental, the notice normally lands with the hire company, which usually charges the cost on to the hirer.",
+      ], ["$400 for most breaches", "$800 for damage or waste", "Rental firms pass fines on"]),
+      s("DOC land and holiday parks around Dunedin", [
+        "The council's rules stop at its boundary. KiwiCamping's DOC data (11 August 2026) shows 30 DOC campsites in Otago, 16 of them bookable online through DOC, with adult nightly rates from $5 to $42 and 8 campsites listed as free. The region also holds 78 DOC huts, and the guide to DOC campsites explains how to book.",
+        "For power, showers and a certain bed, the holiday parks guide covers how to book a park in summer, when the council sites near the city fill early. A park is also the clean answer for a tent outside Warrington's designated area.",
+      ], ["30 DOC campsites in Otago", "Book DOC sites through DOC", "Holiday parks for tents and power"]),
+      s("Reaching Dunedin and going on from it", [
+        "From Christchurch the drive south on State Highway 1 passes Ōamaru and Moeraki, and the Christchurch to Dunedin guide covers the route, timings and the camping choices on the way. Going on from Dunedin, the Southern Scenic Route guide follows the Catlins towards Invercargill and Fiordland.",
+        "A two-night limit suits a base for the city and the peninsula, but it means moving every second day on a longer trip. Line up the next stop before the first one runs out.",
+      ], ["Christchurch to Dunedin guide", "Catlins on the Southern Scenic Route", "Two nights suits a city base"]),
+      s("Using KiwiCamping around Dunedin", [
+        "The app maps Otago's DOC campsites and huts with their fees and facilities, together with holiday parks and bookable stays and tours. Its freedom camping information comes from DOC's notices on conservation land, which are not council bylaws, so Warrington, Ocean View and Thomas Burns Street need the council's page and the signs on the day.",
+        "In a trip, a council site and a holiday park can sit beside each other for the same night, each stop with its date, a note and a forecast for the leg. Place details, saved places and guides open without signal on the phone, while map tiles, routing, weather and photos wait for reception. Free to download, with in-app purchases.",
+      ], ["Council sites need the council's page", "Pair a council site with a holiday park", "Place details open without signal"], undefined, true),
+    ],
+    sources: [
+      { label: "Dunedin City Council: freedom camping", url: "https://www.dunedin.govt.nz/community-facilities/freedom-camping" },
+      { label: "MBIE: freedom camping changes, fact sheet for councils", url: "https://www.mbie.govt.nz/dmsdocument/18069-freedom-camping-fact-sheet-councils" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+
+
+
 ];

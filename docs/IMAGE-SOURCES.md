@@ -142,3 +142,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `auckland-to-bay-of-islands-drive-guide` | Opua-Okiato ferry.jpg | Phillip Capper from Wellington, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Opua-Okiato_ferry.jpg) |
 | `wellington-to-napier-drive-guide` | State Highway 2 (Rimutaka Hill Road) near the top of the range..jpg | Deano87 | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_2_(Rimutaka_Hill_Road)_near_the_top_of_the_range..jpg) |
 | `christchurch-to-dunedin-drive-guide` | Moeraki Boulders Otago NZ (26411317600).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Moeraki_Boulders_Otago_NZ_(26411317600).jpg) |
+| `freedom-camping-dunedin-2026` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
