@@ -22,7 +22,7 @@ import { fileURLToPath } from "node:url";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = resolve(repo, "lib/data");
-const appRoot = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/Camping");
+const appRoot = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
 const dataDir = resolve(appRoot, "Kiwi/Camp/BundledData");
 
 const inside = (child, parent) => child === parent || child.startsWith(parent + sep);

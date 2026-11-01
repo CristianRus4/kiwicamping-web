@@ -21,7 +21,7 @@ Open `http://localhost:3000`. Run the full verification suite with `npm run chec
 - English plus complete German, Spanish, French, Italian, Dutch and Portuguese editions
 - 74 different local article images with source and licence records in `docs/IMAGE-SOURCES.md`
 
-Core product copy is based on the current KiwiCamping app in `/Users/cristian/Developer/Apps/Camping/Kiwi`, not the former website. The App Store destination and QR code both resolve to app ID `6746952595`.
+Core product copy is based on the current KiwiCamping app in `/Users/cristian/Developer/Apps/AppStore/Camping/Kiwi`, not the former website. The App Store destination and QR code both resolve to app ID `6746952595`.
 
 ## Deployment
 
