@@ -416,7 +416,7 @@
       "eyebrow": "Brændstofberegner",
       "cardEyebrow": "Brændstofberegner",
       "h1": "Brændstofberegner til en roadtrip i New Zealand",
-      "intro": "Tast rutens distance, køretøjets forbrug med fuld last og prisen pr. liter ind. Standardprisen er MBIE's landsdækkende skiltepris for almindelig benzin (Regular 91) i ugen, der sluttede 26. juli 2026.",
+      "intro": "Tast rutens distance, køretøjets forbrug med fuld last og prisen pr. liter ind. Standardprisen er MBIE's landsdækkende gennemsnit for almindelig benzin (Regular 91): {fuelPrice} pr. liter i ugen dateret {fuelDate}. Premium 95, diesel og vejafgift står i tabellen nedenfor.",
       "cardTitle": "Regn prisen ud for turen.",
       "cardText": "Tast hele rutens distance, køretøjets forbrug med fuld last og den forventede pris pr. liter ind. Langt fra byerne kan priserne ligge over niveauet i byerne.",
       "labelDistance": "Distance (km)",
@@ -437,17 +437,28 @@
       "faq": [
         [
           "Hvor meget brændstof bruger en autocamper i New Zealand?",
-          "Det afhænger af køretøjet, lasten og vejene. Brug tallet fra udlejeren eller fra køretøjet, og læg en margin på for bakker. Standardværdien på 12 l/100 km er et planlægningstal for en fyldt autocamper og ikke et målt gennemsnit."
+          "Det afhænger af køretøjet, lasten og vejene. Slå køretøjets officielle tal op på Rightcar (rightcar.govt.nz) eller spørg udlejeren, og læg lidt til for bakker og fuld last. Standardværdien på 12 l/100 km er et planlægningstal for en lastet autocamper, ikke et målt gennemsnit."
         ],
         [
-          "Er vejafgift med i brændstofprisen?",
-          "Nej. Dieselkøretøjer i New Zealand betaler vejafgift pr. 1.000 km ved siden af brændstoffet. Spørg udlejeren, om RUC er med i prisen, og tjek de aktuelle satser hos NZTA."
+          "Er en diesel- eller benzinautocamper billigst i drift?",
+          "Diesel er billigere ved pumpen, men et let dieselkøretøj betaler også vejafgift på {ruc} pr. 1.000 km, som hverken pumpeprisen eller denne beregner tager med. På 1.000 km ved 12 l/100 km giver det {dieselTotal} for diesel inklusive RUC mod {petrolTotal} for almindelig 91, så det afhænger af, hvor meget mindre dieselen bruger. Spørg udlejeren, om RUC er med i prisen."
         ],
         [
-          "Hvor kommer standardprisen på brændstof fra?",
-          "Det er MBIE's landsdækkende skiltepris for almindelig benzin 91 i ugen, der sluttede 26. juli 2026. MBIE offentliggør brændstofpriserne hver uge, så tjek det nyeste tal, før du tager af sted."
+          "Hvad koster benzin i New Zealand lige nu?",
+          "MBIE's landsdækkende gennemsnitlige skiltepriser for ugen dateret {fuelDate} var {fuelPrice} pr. liter for almindelig 91, {premiumPrice} for premium 95 og {dieselPrice} for diesel. Beregneren starter med prisen for almindelig 91. MBIE offentliggør priserne hver uge, og afsides tankstationer tager ofte mere, så tjek det, før du tager af sted."
         ]
-      ]
+      ],
+      "pricesTitle": "Aktuelle brændstofpriser i New Zealand",
+      "pricesNote": "MBIE's landsdækkende gennemsnitlige pumpepriser for ugen dateret {fuelDate}, foreløbige, i newzealandske dollar pr. liter inklusive afgifter. Lette dieselkøretøjer op til 3.500 kg betaler desuden vejafgift (Road User Charges, RUC) på {ruc} pr. 1.000 km, som ikke er med i pumpeprisen.",
+      "pricesHead": [
+        "Brændstof",
+        "Pris pr. liter",
+        "{distance} km ved {consumption} l/100 km"
+      ],
+      "fuelRegular": "Almindelig benzin 91",
+      "fuelPremium": "Premium benzin 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} i RUC"
     },
     "drive": {
       "metaTitle": "Køretidsberegner til New Zealand: realistiske timer efter vejtype",
@@ -489,6 +500,50 @@
         [
           "Passer det til en autocamper?",
           "Ja. Vælg en langsommere vejtype, hvis du kører et stort køretøj, har campingvogn på krogen eller er ny i venstrekørsel."
+        ]
+      ],
+      "routesTitle": "Køretider mellem de største byer i New Zealand",
+      "routesNote": "Planlægningstider uden pauser ad hovedruten på State Highways. Læg tid til for pauser, vejarbejde og vejr, og tjek hos NZTA, om veje er lukket, før du kører.",
+      "routesHead": [
+        "Rute",
+        "Afstand",
+        "Køretid"
+      ],
+      "routes": [
+        [
+          "Auckland til Wellington",
+          "640 km",
+          "8 til 8,5 timer"
+        ],
+        [
+          "Auckland til Bay of Islands",
+          "240 km",
+          "3 til 3,5 timer"
+        ],
+        [
+          "Picton til Christchurch via Kaikōura",
+          "335 km",
+          "4,5 til 5 timer"
+        ],
+        [
+          "Christchurch til Queenstown via Tekapo",
+          "480 km",
+          "Omkring 6 timer"
+        ],
+        [
+          "Christchurch til Dunedin",
+          "360 km",
+          "Omkring 5 timer"
+        ],
+        [
+          "Queenstown til Te Anau",
+          "170 km",
+          "Omkring 2 timer"
+        ],
+        [
+          "Te Anau til Milford Sound",
+          "120 km",
+          "Omkring 2 timer"
         ]
       ]
     },

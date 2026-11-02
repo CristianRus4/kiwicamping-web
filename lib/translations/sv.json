@@ -416,7 +416,7 @@
       "eyebrow": "Räknare för bränslekostnad",
       "cardEyebrow": "Bränsleräknare",
       "h1": "Räknare för bränslekostnaden på en roadtrip i Nya Zeeland",
-      "intro": "Ange sträckan på rutten, fordonets förbrukning med last och priset per liter. Det förvalda priset är MBIE:s nationella skyltpris för blyfri 91 i veckan som slutade 26 juli 2026.",
+      "intro": "Ange sträckan på rutten, fordonets förbrukning med last och priset per liter. Det förvalda priset är MBIE:s nationella genomsnitt för blyfri 91: {fuelPrice} per liter veckan daterad {fuelDate}. Blyfri 95, diesel och vägavgiften RUC finns i tabellen nedan.",
       "cardTitle": "Vad kostar sträckan?",
       "cardText": "Ange hela sträckan på rutten, fordonets förbrukning med last och förväntat pris per liter. Priserna på avlägsna platser kan ligga över riktpriserna för städerna.",
       "labelDistance": "Sträcka (km)",
@@ -437,17 +437,28 @@
       "faq": [
         [
           "Hur mycket bränsle drar en husbil i Nya Zeeland?",
-          "Det beror på fordonet, lasten och vägarna. Använd siffran från uthyrningsfirman eller fordonet och räkna med marginal för backar. Förvalet på 12 L/100 km är en planeringssiffra för en lastad husbil, inte ett uppmätt genomsnitt."
+          "Det beror på fordonet, lasten och vägarna. Slå upp fordonets officiella siffra på Rightcar (rightcar.govt.nz) eller fråga uthyraren, och lägg till marginal för backar och full last. Förvalet 12 l/100 km är en planeringssiffra för en lastad husbil, inte ett uppmätt genomsnitt."
         ],
         [
-          "Ingår road user charges i bränslekostnaden?",
-          "Nej. Dieselfordon i Nya Zeeland betalar road user charges per 1 000 km vid sidan av bränslet. Fråga uthyrningsfirman om RUC ingår i priset och kolla NZTA för aktuella avgifter."
+          "Är en diesel- eller bensinhusbil billigast att köra?",
+          "Diesel är billigare vid pumpen, men ett lätt dieselfordon betalar också RUC på {ruc} per 1 000 km, som varken pumppriset eller den här räknaren tar med. På 1 000 km med 12 l/100 km blir det {dieselTotal} för diesel inklusive RUC mot {petrolTotal} för blyfri 91, så det beror på hur mycket mindre dieseln drar. Fråga uthyraren om RUC ingår i priset."
         ],
         [
-          "Var kommer det förvalda bränslepriset ifrån?",
-          "Det är MBIE:s nationella skyltpris för blyfri 91 i veckan som slutade 26 juli 2026. MBIE publicerar bränslepriser varje vecka, så kolla den senaste siffran innan du åker."
+          "Vad kostar bensin i Nya Zeeland just nu?",
+          "MBIE:s nationella genomsnittliga skyltpriser för veckan daterad {fuelDate} var {fuelPrice} per liter för blyfri 91, {premiumPrice} för blyfri 95 och {dieselPrice} för diesel. Räknaren utgår från priset på blyfri 91. MBIE publicerar priserna varje vecka och avlägsna mackar tar ofta mer, så kolla innan du åker."
         ]
-      ]
+      ],
+      "pricesTitle": "Aktuella bränslepriser i Nya Zeeland",
+      "pricesNote": "MBIE:s nationella genomsnittliga pumppriser för veckan daterad {fuelDate}, preliminära, i nyzeeländska dollar per liter inklusive skatter. Lätta dieselfordon upp till 3 500 kg betalar dessutom RUC (Road User Charges), en vägavgift på {ruc} per 1 000 km, som inte ingår i pumppriset.",
+      "pricesHead": [
+        "Bränsle",
+        "Pris per liter",
+        "{distance} km med {consumption} l/100 km"
+      ],
+      "fuelRegular": "Blyfri 91",
+      "fuelPremium": "Blyfri 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} i RUC"
     },
     "drive": {
       "metaTitle": "Körtid i Nya Zeeland: räkna realistiska timmar per vägtyp",
@@ -489,6 +500,50 @@
         [
           "Fungerar den för husbil?",
           "Ja. Välj en långsammare vägtyp om du kör ett stort fordon, kör med släp eller är ovan vid vänstertrafik."
+        ]
+      ],
+      "routesTitle": "Körtider mellan de största orterna i Nya Zeeland",
+      "routesNote": "Planeringstider utan stopp längs huvudvägen på State Highways. Lägg till tid för stopp, vägarbeten och väder, och kolla hos NZTA om vägar är avstängda innan du åker.",
+      "routesHead": [
+        "Sträcka",
+        "Avstånd",
+        "Körtid"
+      ],
+      "routes": [
+        [
+          "Auckland till Wellington",
+          "640 km",
+          "8 till 8,5 timmar"
+        ],
+        [
+          "Auckland till Bay of Islands",
+          "240 km",
+          "3 till 3,5 timmar"
+        ],
+        [
+          "Picton till Christchurch via Kaikōura",
+          "335 km",
+          "4,5 till 5 timmar"
+        ],
+        [
+          "Christchurch till Queenstown via Tekapo",
+          "480 km",
+          "Cirka 6 timmar"
+        ],
+        [
+          "Christchurch till Dunedin",
+          "360 km",
+          "Cirka 5 timmar"
+        ],
+        [
+          "Queenstown till Te Anau",
+          "170 km",
+          "Cirka 2 timmar"
+        ],
+        [
+          "Te Anau till Milford Sound",
+          "120 km",
+          "Cirka 2 timmar"
         ]
       ]
     },

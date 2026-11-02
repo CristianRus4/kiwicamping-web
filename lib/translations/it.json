@@ -23771,7 +23771,7 @@
       "eyebrow": "Calcolatore del costo del carburante",
       "cardEyebrow": "Calcolatore carburante",
       "h1": "Calcolatore del costo del carburante per un road trip in Nuova Zelanda",
-      "intro": "Inserisci la distanza del percorso, il consumo del veicolo a pieno carico e il prezzo al litro. Il prezzo predefinito è il prezzo nazionale alla pompa rilevato dal MBIE per la benzina 91 regular nella settimana terminata il 26 luglio 2026.",
+      "intro": "Inserisci la distanza del percorso, il consumo del veicolo a pieno carico e il prezzo al litro. Il prezzo predefinito è la media nazionale del MBIE per la benzina 91 regular: {fuelPrice} al litro nella settimana del {fuelDate}. Benzina premium 95, diesel e road user charges sono nella tabella qui sotto.",
       "cardTitle": "Calcola quanto costano i chilometri.",
       "cardText": "Inserisci la distanza completa del percorso, il consumo del veicolo a pieno carico e il prezzo previsto al litro. Nei posti isolati i prezzi possono superare quelli di riferimento delle città.",
       "labelDistance": "Distanza (km)",
@@ -23792,17 +23792,28 @@
       "faq": [
         [
           "Quanto carburante consuma un camper in Nuova Zelanda?",
-          "Dipende dal veicolo, dal carico e dalle strade. Usa il dato dell’azienda di noleggio o del veicolo e tieni un margine per le salite. I 12 L/100 km predefiniti sono un valore indicativo per pianificare con un camper carico, non una media misurata."
+          "Dipende dal veicolo, dal carico e dalle strade. Cerca il dato ufficiale del veicolo su Rightcar (rightcar.govt.nz) o chiedi all'agenzia di noleggio, poi aggiungi un margine per salite e pieno carico. I 12 l/100 km predefiniti sono un valore di pianificazione per un camper carico, non una media misurata."
         ],
         [
-          "Il costo del carburante comprende le road user charges?",
-          "No. In Nuova Zelanda i veicoli diesel pagano le road user charges ogni 1.000 km, separatamente dal carburante. Chiedi all’azienda di noleggio se le RUC sono comprese nella tariffa e verifica con NZTA gli importi in vigore."
+          "Costa meno un camper diesel o uno a benzina?",
+          "Il diesel costa meno alla pompa, ma un veicolo diesel leggero paga anche le road user charges, {ruc} ogni 1.000 km, che non rientrano né nel prezzo alla pompa né in questo calcolatore. Su 1.000 km a 12 l/100 km fanno {dieselTotal} per il diesel con le RUC contro {petrolTotal} per la benzina 91, quindi dipende da quanto consuma in meno il diesel. Chiedi all'agenzia di noleggio se le RUC sono incluse nella tariffa."
         ],
         [
-          "Da dove arriva il prezzo predefinito del carburante?",
-          "È il prezzo nazionale alla pompa rilevato dal MBIE per la benzina 91 regular nella settimana terminata il 26 luglio 2026. Il MBIE pubblica i prezzi dei carburanti ogni settimana, quindi controlla il dato più recente prima di partire."
+          "Quanto costa la benzina in Nuova Zelanda adesso?",
+          "I prezzi medi nazionali del MBIE per la settimana del {fuelDate} erano {fuelPrice} al litro per la benzina 91 regular, {premiumPrice} per la premium 95 e {dieselPrice} per il diesel. Il calcolatore parte dal prezzo della 91. Il MBIE pubblica i prezzi ogni settimana e i distributori isolati spesso costano di più, quindi controlla prima di partire."
         ]
-      ]
+      ],
+      "pricesTitle": "Prezzi attuali del carburante in Nuova Zelanda",
+      "pricesNote": "Prezzi medi nazionali alla pompa rilevati dal MBIE per la settimana del {fuelDate}, provvisori, in dollari neozelandesi al litro tasse incluse. I veicoli diesel leggeri fino a 3.500 kg pagano anche le road user charges (RUC), {ruc} ogni 1.000 km, che non sono comprese nel prezzo alla pompa.",
+      "pricesHead": [
+        "Carburante",
+        "Prezzo al litro",
+        "{distance} km a {consumption} l/100 km"
+      ],
+      "fuelRegular": "Benzina 91 regular",
+      "fuelPremium": "Benzina premium 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} più {ruc} di RUC"
     },
     "drive": {
       "metaTitle": "Tempi di guida Nuova Zelanda: ore reali per tipo di strada",
@@ -23844,6 +23855,50 @@
         [
           "Va bene anche per un camper?",
           "Sì. Scegli un tipo di strada più lento se guidi un veicolo grande, se traini o se la guida a sinistra è una novità per te."
+        ]
+      ],
+      "routesTitle": "Tempi di guida tra le principali località della Nuova Zelanda",
+      "routesNote": "Tempi indicativi senza soste sul percorso principale delle State Highway. Aggiungi tempo per soste, lavori stradali e meteo, e controlla le chiusure su NZTA prima di partire.",
+      "routesHead": [
+        "Percorso",
+        "Distanza",
+        "Tempo di guida"
+      ],
+      "routes": [
+        [
+          "Da Auckland a Wellington",
+          "640 km",
+          "Da 8 a 8,5 ore"
+        ],
+        [
+          "Da Auckland alla Bay of Islands",
+          "240 km",
+          "Da 3 a 3,5 ore"
+        ],
+        [
+          "Da Picton a Christchurch via Kaikōura",
+          "335 km",
+          "Da 4,5 a 5 ore"
+        ],
+        [
+          "Da Christchurch a Queenstown via Tekapo",
+          "480 km",
+          "Circa 6 ore"
+        ],
+        [
+          "Da Christchurch a Dunedin",
+          "360 km",
+          "Circa 5 ore"
+        ],
+        [
+          "Da Queenstown a Te Anau",
+          "170 km",
+          "Circa 2 ore"
+        ],
+        [
+          "Da Te Anau a Milford Sound",
+          "120 km",
+          "Circa 2 ore"
         ]
       ]
     },

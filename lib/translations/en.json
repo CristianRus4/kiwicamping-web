@@ -439,23 +439,34 @@
       "enterValidAmount": "Enter a valid amount"
     },
     "index": {
-      "metaTitle": "NZ Road Trip Calculators: Fuel, Driving Time, Campsite Costs",
-      "metaDescription": "Free New Zealand road trip calculators: fuel cost, driving time by road type, campsite cost per person or per site, NZD currency conversion and campervan water tanks.",
+      "metaTitle": "NZ Road Trip Calculator: Fuel, Distance and Travel Time",
+      "metaDescription": "Free NZ road trip calculators: fuel cost at the latest petrol and diesel prices, travel times and distances between main towns, campsite costs, NZD and water tanks.",
       "toolsTitle": "One calculator per question",
       "toolsText": "Each calculator has its own page with the formula, a worked example using New Zealand figures, the assumptions behind it and answers to common questions."
     },
     "fuel": {
-      "metaTitle": "Fuel Cost Calculator NZ: Campervan Road Trip Fuel",
-      "metaDescription": "Work out litres and fuel cost for a New Zealand road trip from distance, L/100 km and the pump price, with the formula, a 1,000 km worked example and MBIE's benchmark.",
+      "metaTitle": "Fuel Cost Calculator NZ: Petrol, Diesel and RUC (2026)",
+      "metaDescription": "Work out petrol or diesel cost for a NZ road trip at MBIE's latest prices for 91, 95 and diesel, with road user charges for diesel and a 1,000 km campervan example.",
       "eyebrow": "Fuel cost calculator",
       "cardEyebrow": "Fuel calculator",
       "h1": "Fuel cost calculator for a New Zealand road trip",
-      "intro": "Enter the route distance, your vehicle's loaded fuel use and the price per litre. The default price is MBIE's national board price for regular 91 petrol in the week ending 26 July 2026.",
+      "intro": "Enter the route distance, your vehicle's loaded fuel use and the price per litre. The default price is MBIE's national average for regular 91 petrol, {fuelPrice} a litre in the week dated {fuelDate}. Premium 95, diesel and road user charges are in the table below.",
       "cardTitle": "Price the driving distance.",
       "cardText": "Enter the full route distance, the vehicle's loaded fuel use and the expected price per litre. Remote prices can exceed city benchmarks.",
       "labelDistance": "Distance (km)",
       "labelConsumption": "Consumption (L/100 km)",
       "labelPrice": "Fuel price (NZD/L)",
+      "pricesTitle": "Latest fuel prices in New Zealand",
+      "pricesNote": "MBIE's national average pump prices for the week dated {fuelDate}, provisional, in New Zealand dollars per litre including taxes. Light diesel vehicles up to 3,500 kg also pay road user charges of {ruc} per 1,000 km, which is not in the pump price.",
+      "pricesHead": [
+        "Fuel",
+        "Price per litre",
+        "{distance} km at {consumption} L/100 km"
+      ],
+      "fuelRegular": "Regular 91 petrol",
+      "fuelPremium": "Premium 95 petrol",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} RUC",
       "formula": [
         "Litres = distance (km) × consumption (L/100 km) ÷ 100",
         "Cost = litres × price per litre (NZD)"
@@ -471,21 +482,21 @@
       "faq": [
         [
           "How much fuel does a campervan use in New Zealand?",
-          "It depends on the vehicle, the load and the roads. Use the figure from your hire company or vehicle and allow a margin for hills. The 12 L/100 km default is a planning figure for a loaded campervan, not a measured average."
+          "It depends on the vehicle, the load and the roads. Look up the vehicle's official figure on Rightcar (rightcar.govt.nz) or ask the hire company, then allow a margin for hills and a full load. The 12 L/100 km default is a planning figure for a loaded campervan, not a measured average."
         ],
         [
-          "Does the fuel cost include road user charges?",
-          "No. Diesel vehicles in New Zealand pay road user charges per 1,000 km separately from fuel. Ask your hire company whether RUC is included in the rate, and check NZTA for current charges."
+          "Is a diesel or petrol campervan cheaper to run?",
+          "Diesel is cheaper at the pump, but a light diesel vehicle also pays road user charges of {ruc} per 1,000 km, which the pump price and this calculator leave out. Over 1,000 km at 12 L/100 km that is {dieselTotal} for diesel including RUC against {petrolTotal} for regular 91, so the answer depends on how much less fuel the diesel uses. Ask your hire company whether RUC is included in the rate."
         ],
         [
-          "Where does the default fuel price come from?",
-          "It is MBIE's national board price for regular 91 petrol in the week ending 26 July 2026. MBIE publishes fuel prices every week, so check the latest figure before you go."
+          "How much is petrol in New Zealand right now?",
+          "MBIE's national average board prices for the week dated {fuelDate} were {fuelPrice} a litre for regular 91, {premiumPrice} for premium 95 and {dieselPrice} for diesel. The calculator starts at the regular 91 price. MBIE publishes prices every week and remote stations often charge more, so check before you go."
         ]
       ]
     },
     "drive": {
-      "metaTitle": "Driving Time Calculator NZ: Realistic Hours by Road Type",
-      "metaDescription": "Estimate how long a New Zealand driving day really takes from the distance, the kind of road and your stops, with the formula, a worked example and the speeds used.",
+      "metaTitle": "Driving Time Calculator NZ: Travel Times Between Towns",
+      "metaDescription": "How long New Zealand drives take: Auckland to Wellington 8 to 8.5 hours, Christchurch to Queenstown about 6. Main routes, distances and a calculator for any day.",
       "eyebrow": "Driving time calculator",
       "cardEyebrow": "Driving day estimator",
       "h1": "Driving time calculator for New Zealand roads",
@@ -500,6 +511,50 @@
       "roadNarrow": "Narrow, steep or gravel",
       "labelStops": "Stops",
       "hoursMinutes": "{hours} h {minutes} min",
+      "routesTitle": "Driving times between main New Zealand towns",
+      "routesNote": "Planning times without stops on the main state highway route. Add time for stops, road works and weather, and check NZTA for closures before you set off.",
+      "routesHead": [
+        "Route",
+        "Distance",
+        "Driving time"
+      ],
+      "routes": [
+        [
+          "Auckland to Wellington",
+          "640 km",
+          "8 to 8.5 hours"
+        ],
+        [
+          "Auckland to the Bay of Islands",
+          "240 km",
+          "3 to 3.5 hours"
+        ],
+        [
+          "Picton to Christchurch via Kaikōura",
+          "335 km",
+          "4.5 to 5 hours"
+        ],
+        [
+          "Christchurch to Queenstown via Tekapo",
+          "480 km",
+          "About 6 hours"
+        ],
+        [
+          "Christchurch to Dunedin",
+          "360 km",
+          "About 5 hours"
+        ],
+        [
+          "Queenstown to Te Anau",
+          "170 km",
+          "About 2 hours"
+        ],
+        [
+          "Te Anau to Milford Sound",
+          "120 km",
+          "About 2 hours"
+        ]
+      ],
       "formula": [
         "Driving minutes = distance (km) ÷ average speed (km/h) × 60",
         "Total minutes = driving minutes + 20 × stops"
@@ -22941,22 +22996,47 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "DOC Hut & Campsite Bookings 2026: How to Book, Fees, Dates",
-      "description": "Book DOC huts, campsites and Great Walks at bookings.doc.govt.nz. 2026/27 fees, Hut Pass vs Campsite Pass, first-come huts and what to do when full.",
+      "description": "DOC bookings are made at bookings.doc.govt.nz. How to log in and book huts, campsites and Great Walks, 2026/27 fees for adults and children, and cancellations.",
       "region": "New Zealand conservation land",
       "imageAlt": "Tent at a Department of Conservation campsite",
-      "intro": "DOC huts, campsites and Great Walks are booked on the Department of Conservation's own booking system at bookings.doc.govt.nz, or through a DOC visitor centre. You need a free account, you pay in full when you book, and the confirmation email is your proof on site. Bookings for the 2026/27 season, covering stays from 1 July 2026 to 30 June 2027, opened in May 2026. Most backcountry huts and many basic campsites cannot be booked at all and run first come, first served. Below: the fees, the two passes, which places need a booking and what to do when the one you want is full.",
+      "intro": "DOC huts, campsites and Great Walks are booked on one official site, the Department of Conservation's booking system at bookings.doc.govt.nz, or at a DOC visitor centre. Create a free account and log in, search for the place, pick dates and party size, then pay the full price by Visa or Mastercard; the confirmation email is your booking. Bookings for the 2026/27 season, covering stays from 1 July 2026 to 30 June 2027, opened in May 2026. Great Walk huts and campsites in season, every serviced hut and many campsites must be booked, while most backcountry huts and many basic campsites run first come, first served. Below: fees for adults and children, New Zealand residents and international visitors, cancellation fees and what to do when the place you want is full.",
       "sections": [
         {
           "heading": "Where and how to book",
           "body": [
-            "Go to bookings.doc.govt.nz, create an account and log in before you search. Find the hut, campsite or Great Walk, choose dates and party size, add the vehicle registration for a campsite, and pay by Visa or Mastercard. Full payment is taken at the time of booking and every price includes GST. DOC visitor centres can book many of the same places in person or by phone, for a $10 service fee.",
+            "Go to bookings.doc.govt.nz, create an account and log in before you search. Find the hut, campsite or Great Walk, choose dates and party size, add the vehicle registration for a campsite, and pay by Visa or Mastercard. Great Walks work the same way: there is no deposit or payment plan, the whole stay is charged for every person and every night when you book, and a booking is not valid until it is paid and confirmed. Every price is in New Zealand dollars and includes GST. DOC visitor centres can book many of the same places in person or by phone, for a $10 service fee.",
             "The confirmation email is the booking. Download or print it before you leave reception, along with any pass, because rangers and hut wardens can ask for it and most <a data-guide=\"doc-huts-new-zealand-guide\">DOC huts</a> and many campsites have no signal. Bunks in bookable huts are not allocated, so a booking buys a bed rather than a particular one, and campsite bookings without numbered sites let you pick from whatever pitches are free when you arrive."
           ],
           "tips": [
             "Create and test your account before opening day",
             "Pay in full at booking, Visa or Mastercard",
             "Save the confirmation for use without signal"
-          ]
+          ],
+          "table": {
+            "caption": "Booking a DOC hut, campsite or Great Walk online",
+            "head": [
+              "Step",
+              "What to do"
+            ],
+            "rows": [
+              [
+                "1. Log in",
+                "Open bookings.doc.govt.nz and log in, or create a free account first"
+              ],
+              [
+                "2. Search",
+                "Find the hut, campsite or Great Walk and check availability for your dates"
+              ],
+              [
+                "3. Choose",
+                "Pick dates, the number of adults and children, and add your vehicle registration for a campsite"
+              ],
+              [
+                "4. Pay",
+                "Pay the full amount by Visa or Mastercard, then save the confirmation email to show on site"
+              ]
+            ]
+          }
         },
         {
           "heading": "Great Walks 2026/27: when bookings opened and what is left",
@@ -22968,7 +23048,75 @@
             "Bookings cover stays from 1 July 2026 to 30 June 2027",
             "Milford, Abel Tasman and Kepler fill first",
             "Hump Ridge is booked through its own trust"
-          ]
+          ],
+          "table": {
+            "caption": "Great Walk campsite fees per person per night, peak season 2026/27 (NZD, children 5 to 17)",
+            "head": [
+              "Track",
+              "NZ resident adult",
+              "NZ resident child",
+              "International adult",
+              "International child"
+            ],
+            "rows": [
+              [
+                "Abel Tasman Coast Track",
+                "$21",
+                "$10",
+                "$31",
+                "$15"
+              ],
+              [
+                "Heaphy Track",
+                "$19",
+                "$9",
+                "$28",
+                "$14"
+              ],
+              [
+                "Kepler Track",
+                "$28",
+                "$14",
+                "$42",
+                "$21"
+              ],
+              [
+                "Lake Waikaremoana Track",
+                "$19",
+                "$9",
+                "$19",
+                "$9"
+              ],
+              [
+                "Rakiura Track",
+                "$19",
+                "$9",
+                "$28",
+                "$14"
+              ],
+              [
+                "Routeburn Track",
+                "$28",
+                "$14",
+                "$42",
+                "$21"
+              ],
+              [
+                "Tongariro Northern Circuit",
+                "$19",
+                "$9",
+                "$28",
+                "$14"
+              ],
+              [
+                "Whanganui Journey",
+                "$19",
+                "$9",
+                "$19",
+                "$9"
+              ]
+            ]
+          }
         },
         {
           "heading": "Fees by category, and how they are charged",
@@ -22980,7 +23128,103 @@
             "Fees are per person, not per site",
             "Carry proof if you book the resident rate",
             "Unbooked use attracts DOC's penalty rate"
-          ]
+          ],
+          "table": {
+            "caption": "Great Walk hut fees per person per night, peak season 2026/27 (NZD, children 5 to 17; international children pay from birth except at Lake Waikaremoana)",
+            "head": [
+              "Track",
+              "NZ resident adult",
+              "NZ resident child",
+              "International adult",
+              "International child"
+            ],
+            "rows": [
+              [
+                "Milford Track",
+                "$106",
+                "$53",
+                "$152",
+                "$76"
+              ],
+              [
+                "Routeburn Track",
+                "$88",
+                "$44",
+                "$132",
+                "$66"
+              ],
+              [
+                "Kepler Track",
+                "$88",
+                "$44",
+                "$132",
+                "$66"
+              ],
+              [
+                "Paparoa Track, Moonlight Hut",
+                "$78",
+                "$39",
+                "$117",
+                "$59"
+              ],
+              [
+                "Paparoa Track, Pororari Hut",
+                "$61",
+                "$31",
+                "$92",
+                "$46"
+              ],
+              [
+                "Abel Tasman Coast Track",
+                "$55",
+                "$28",
+                "$84",
+                "$42"
+              ],
+              [
+                "Paparoa Track, Ces Clarke Hut",
+                "$50",
+                "$25",
+                "$76",
+                "$38"
+              ],
+              [
+                "Heaphy Track",
+                "$44",
+                "$22",
+                "$66",
+                "$33"
+              ],
+              [
+                "Rakiura Track",
+                "$44",
+                "$22",
+                "$66",
+                "$33"
+              ],
+              [
+                "Tongariro Northern Circuit",
+                "$44",
+                "$22",
+                "$66",
+                "$33"
+              ],
+              [
+                "Lake Waikaremoana Track",
+                "$35",
+                "$18",
+                "$35",
+                "$18"
+              ],
+              [
+                "Whanganui Journey",
+                "$35",
+                "$18",
+                "$35",
+                "$18"
+              ]
+            ]
+          }
         },
         {
           "heading": "Hut Pass, Campsite Pass or pay per night",
@@ -23010,14 +23254,59 @@
           "heading": "Changing or cancelling a booking",
           "body": [
             "Cancel on the day you book or the following day, provided arrival is more than two days away, and DOC charges nothing. From 48 hours after booking to 15 days before arrival the fee is 10 per cent. Inside 14 days it climbs by type: huts 20 per cent, then 30 per cent from three days out; campgrounds 20 then 75 per cent; Great Walks 50 then 75 per cent; lodges, cabins and sole-occupancy huts 100 per cent. Cancelling the day before, on the day or after it forfeits the whole amount, and so does a no-show.",
-            "If you miss the first night of a multi-night booking and do not contact the site office within 24 hours, DOC cancels the rest without a refund. Weather refunds are not automatic. If DOC closes the place or cancels your stay, for example for a storm, flooding or an orange or red MetService warning for the area the day before, email DOC's booking team within 7 days, before changing the booking yourself, for a full refund of the unused nights or, if your stay has not started, a transfer to available dates in the same season. If the weather is merely bad and the place stays open, normal cancellation fees apply, which is why DOC recommends travel insurance."
+            "If you miss the first night of a multi-night booking and do not contact the site office within 24 hours, DOC cancels the rest without a refund. Weather refunds are not automatic. If DOC closes the place or cancels your stay, for example for a storm, flooding or an orange or red MetService warning for the area the day before, email DOC's booking team at booking@doc.govt.nz within 7 days, before changing the booking yourself, for a full refund of the unused nights or, if your stay has not started, a transfer to available dates in the same season. If the weather is merely bad and the place stays open, normal cancellation fees apply, which is why DOC recommends travel insurance."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "DOC cancellation fees, as a share of the booking, by time before the first night (DOC terms and conditions)",
+            "head": [
+              "Booking type",
+              "Day of booking or the day after",
+              "48 hours after booking, 15 or more days out",
+              "14 to 4 days out",
+              "3 to 2 days out",
+              "Day before, on the day or a no-show"
+            ],
+            "rows": [
+              [
+                "Great Walks",
+                "0%",
+                "10%",
+                "50%",
+                "75%",
+                "100%"
+              ],
+              [
+                "Huts and backcountry campsites",
+                "0%",
+                "10%",
+                "20%",
+                "30%",
+                "100%"
+              ],
+              [
+                "Campgrounds",
+                "0%",
+                "10%",
+                "20%",
+                "75%",
+                "100%"
+              ],
+              [
+                "Lodges, cabins and sole-occupancy huts",
+                "0%",
+                "10%",
+                "100%",
+                "100%",
+                "100%"
+              ]
+            ]
+          }
         },
         {
           "heading": "When the hut or campsite you want is fully booked",
           "body": [
-            "Check the same place again on other dates, especially shoulder-season weeks either side of the school holidays, and look at campsites: DOC says many still had good availability when huts were full, although the Milford and Paparoa tracks have none. Swap a booked-out Great Walk for one with more room, or walk a non-bookable hut track nearby. DOC's own advice is to keep checking over the following months, because people cancel and even the Milford Track has cancellations across the year.",
+            "Check the same place again on other dates, especially shoulder-season weeks either side of the school holidays, and look at campsites: DOC says many still had good availability when huts were full, although the Milford and Paparoa tracks have none. Swap a booked-out Great Walk for one with more room, or walk a non-bookable hut track nearby. DOC's own advice is to keep checking over the following months, because people cancel and even the Milford Track has cancellations across the year. Cancelled places reappear on bookings.doc.govt.nz for anyone to book. Independent alert services such as GreatWalkHuts.com, greatwalks.online, HutSnag and NZtracker watch the system and email you when a place frees up; they are private businesses, not part of DOC, some charge a fee per alert (checked 3 November 2026), and you still book and pay on DOC's own site.",
             "For a vehicle-based night, a holiday park or a self-registration DOC campsite is the realistic fallback. KiwiCamping shows every DOC hut and campsite in its data with its category, fee and whether it takes bookings, alongside holiday parks you can book through BookIt in the app, so you can find the nearest alternative without signal. DOC places in the app need the Pass; BookIt stays are free to browse and book. Peak-week rules at the busiest campsites, such as the minimum fee at Tōtaranui, are in our guide to <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over Christmas</a> and summer 2026-27."
           ],
           "tips": [
@@ -23392,29 +23681,58 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "NZ Fire Season & Campfire Rules 2026: Check Fire Bans First",
-      "description": "Open, restricted or prohibited: how NZ fire seasons work, where to check today's fire ban, when you need a permit and how to cook when fires are banned.",
+      "title": "Fire Ban NZ 2026-27: Fire Seasons and Campfire Rules",
+      "description": "Check today's fire season for your area at checkitsalright.nz. Open, restricted and prohibited seasons, total fire bans, DOC campfires and gas cookers.",
       "region": "New Zealand",
       "imageAlt": "Small controlled campfire in a legal fire site",
-      "intro": "An existing fire ring and a pile of old ash prove that someone had a fire here once, not that you may have one today. New Zealand runs a three-tier fire season system that changes with conditions, and the land manager can prohibit fires regardless of what that system says.",
+      "intro": "Check today's fire season for your area at checkitsalright.nz, run by Fire and Emergency New Zealand: enter the address or place and it tells you whether you can light a fire and whether you need a permit. Every area is always in one of three fire seasons. Open means you may light an outdoor fire without a permit, restricted means you need a Fire and Emergency permit first, and prohibited, which most people call a total fire ban, means no outdoor fires at all. On conservation land DOC keeps a restricted season all year, so campfires are allowed only in a designated fireplace at a DOC campsite when no ban is in place. Gas cookers need no permit. An old fire ring proves that someone had a fire here once, not that you may have one today.",
       "sections": [
         {
           "heading": "The three fire seasons",
           "body": [
-            "In an open fire season you may light a fire in the open air without a permit, subject to the land manager's own rules. In a restricted fire season you need a permit from Fire and Emergency New Zealand before lighting anything in the open. In a prohibited fire season, open-air fires are banned outright and no permit will be issued.",
-            "The season is set by district and changes with conditions, sometimes at short notice during a dry spell. Check the current status for the exact district you are in on the day, not the district you drove through this morning. How these rules meet this summer's El Niño outlook is covered in our guide to <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over Christmas</a> and summer 2026-27."
+            "In an open fire season you may light a fire in the open air without a permit, subject to the land manager's own rules. In a restricted fire season you need a permit from Fire and Emergency New Zealand for most outdoor fires, and you must follow its conditions. A prohibited fire season is a total fire ban: open-air fires are banned outright, permits already issued are suspended and new ones are granted only in exceptional circumstances.",
+            "Fire and Emergency sets the season zone by zone and changes it with conditions, sometimes at short notice during a dry spell, and announces each change for the area. Many areas move to a restricted season as summer dries out, and some to prohibited, so a fire that was legal in October may not be in January. Check checkitsalright.nz for the exact place you are camping on the day, not the district you drove through this morning, and look at the fire danger too: Fire and Emergency asks you to postpone even a permitted fire when the danger is Very High or Extreme. How these rules meet this summer's El Niño outlook is covered in our guide to <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over Christmas</a> and summer 2026-27."
           ],
           "tips": [
             "Check the district on the day",
             "Restricted means permit required",
             "Prohibited means no fire at all"
-          ]
+          ],
+          "table": {
+            "caption": "What each fire season means for campers (Fire and Emergency New Zealand and DOC, checked 3 November 2026)",
+            "head": [
+              "Fire season",
+              "Campfire on council or private land",
+              "Campfire at a DOC campsite",
+              "Gas cooker"
+            ],
+            "rows": [
+              [
+                "Open",
+                "Allowed without a permit, unless the landowner or a bylaw says no",
+                "Designated fireplace only",
+                "Allowed"
+              ],
+              [
+                "Restricted",
+                "Fire and Emergency permit needed",
+                "Designated fireplace only",
+                "Allowed, no permit needed"
+              ],
+              [
+                "Prohibited (total fire ban)",
+                "Not allowed",
+                "Not allowed",
+                "Usually allowed; check the sign"
+              ]
+            ]
+          }
         },
         {
           "heading": "The land manager can be stricter",
           "body": [
-            "The fire season is a floor, not a permission. <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, regional parks, council reserves and private campgrounds all set their own rules, and many prohibit open fires permanently regardless of the season. Where two rules apply, the stricter one controls.",
-            "Read the specific campsite page and the sign at the site. Some DOC campsites permit a small fire only in a provided fireplace, some prohibit solid fuel entirely, and backcountry fires carry separate conditions about location, clearance and size."
+            "The fire season is a floor, not a permission. <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, regional parks, council reserves and private campgrounds all set their own rules, and many prohibit open fires permanently regardless of the season. Where two rules apply, the stricter one controls. On public conservation land DOC runs a restricted fire season all year, and some places, such as DOC-managed offshore islands, have a total fire ban all year.",
+            "At a DOC campsite or day area, a campfire is allowed only in the designated fireplace or fire pit and only when there is no fire ban. In the backcountry DOC allows a small cooking or warming fire smaller than half a metre wide and high, at least 3 metres from trees and anything that could catch fire, and only when no ban or notice prohibits it. Bonfires, charcoal barbecues and hāngī on DOC land need a Fire and Emergency permit, which DOC says is usually not granted. Read the campsite page and the sign at the site as well."
           ],
           "tips": []
         },
@@ -23441,7 +23759,7 @@
         {
           "heading": "Cooking when fires are banned",
           "body": [
-            "Gas cookers are the practical answer and are generally permitted when open fires are not, but check, because a prohibited fire season can restrict some appliances too. Use them on a stable, level surface, well clear of tent fabric and vegetation.",
+            "Gas cookers are the practical answer. Fire and Emergency says you do not need a fire permit for gas barbecues, cookers or heaters, and DOC says you can usually use gas burners and enclosed liquid-fuel stoves for cooking at any time, though not open-topped liquid-fuel cookers such as methylated spirits smokers. A council or landowner can still restrict them, so check the sign. Use them on a stable, level surface, well clear of tent fabric and vegetation, and keep spare gas bottles 5 metres from the flame.",
             "Never cook inside a closed tent, an awning or an unventilated vehicle. The risk is carbon monoxide, which is odourless and has killed campers in New Zealand. Let a cooker cool completely before it goes back into a vehicle or tent, and store gas cylinders upright and ventilated. Heading to a summer event site? Its own fire rules apply on top, and the guide to <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">New Year's Eve camping</a> and summer events shows what to check before you go."
           ],
           "tips": [

@@ -23771,7 +23771,7 @@
       "eyebrow": "Rekenhulp brandstofkosten",
       "cardEyebrow": "Brandstofkosten",
       "h1": "Brandstofkosten berekenen voor een roadtrip door Nieuw-Zeeland",
-      "intro": "Vul de routeafstand in, het verbruik van je volgeladen voertuig en de prijs per liter. De standaardprijs is de landelijke pompprijs van MBIE voor gewone 91-benzine in de week tot en met 26 juli 2026.",
+      "intro": "Vul de routeafstand in, het verbruik van je volgeladen voertuig en de prijs per liter. De standaardprijs is het landelijke gemiddelde van MBIE voor gewone 91-benzine: {fuelPrice} per liter in de week van {fuelDate}. Premium 95, diesel en de Road User Charges staan in de tabel hieronder.",
       "cardTitle": "Wat kost die afstand aan brandstof?",
       "cardText": "Vul de volledige routeafstand in, het verbruik van het volgeladen voertuig en de verwachte prijs per liter. Op afgelegen plekken kunnen de prijzen hoger liggen dan de referentieprijzen voor steden.",
       "labelDistance": "Afstand (km)",
@@ -23792,17 +23792,28 @@
       "faq": [
         [
           "Hoeveel brandstof verbruikt een camper in Nieuw-Zeeland?",
-          "Dat hangt af van het voertuig, de lading en de wegen. Gebruik het cijfer van je verhuurder of van het voertuig en houd marge aan voor heuvels. De standaardwaarde van 12 l/100 km is een planningscijfer voor een volgeladen camper, geen gemeten gemiddelde."
+          "Dat hangt af van het voertuig, de lading en de wegen. Zoek het officiële verbruik van het voertuig op bij Rightcar (rightcar.govt.nz) of vraag het aan het verhuurbedrijf, en reken wat extra voor heuvels en een volle lading. De standaard 12 l/100 km is een planningscijfer voor een beladen camper, geen gemeten gemiddelde."
         ],
         [
-          "Zitten de Road User Charges in de brandstofkosten?",
-          "Nee. Dieselvoertuigen in Nieuw-Zeeland betalen Road User Charges per 1.000 km los van de brandstof. Vraag je verhuurder of RUC in het tarief zit, en check NZTA voor de actuele tarieven."
+          "Is een diesel- of benzinecamper goedkoper?",
+          "Diesel is goedkoper aan de pomp, maar een licht dieselvoertuig betaalt daarnaast Road User Charges van {ruc} per 1.000 km, die niet in de pompprijs en niet in deze rekenhulp zitten. Over 1.000 km bij 12 l/100 km is dat {dieselTotal} voor diesel inclusief RUC tegenover {petrolTotal} voor gewone 91, dus het hangt ervan af hoeveel minder de diesel verbruikt. Vraag het verhuurbedrijf of RUC in de prijs zit."
         ],
         [
-          "Waar komt de standaardprijs voor brandstof vandaan?",
-          "Het is de landelijke pompprijs van MBIE voor gewone 91-benzine in de week tot en met 26 juli 2026. MBIE publiceert elke week brandstofprijzen, dus check het nieuwste cijfer voordat je vertrekt."
+          "Wat kost benzine in Nieuw-Zeeland nu?",
+          "De landelijke gemiddelde prijzen van MBIE voor de week van {fuelDate} waren {fuelPrice} per liter voor gewone 91, {premiumPrice} voor premium 95 en {dieselPrice} voor diesel. De rekenhulp begint met de prijs van gewone 91. MBIE publiceert de prijzen elke week en afgelegen pompen vragen vaak meer, dus check het voordat je vertrekt."
         ]
-      ]
+      ],
+      "pricesTitle": "Actuele brandstofprijzen in Nieuw-Zeeland",
+      "pricesNote": "Landelijke gemiddelde pompprijzen van MBIE voor de week van {fuelDate}, voorlopig, in Nieuw-Zeelandse dollars per liter inclusief belastingen. Lichte dieselvoertuigen tot 3.500 kg betalen daarnaast Road User Charges (RUC) van {ruc} per 1.000 km, die niet in de pompprijs zitten.",
+      "pricesHead": [
+        "Brandstof",
+        "Prijs per liter",
+        "{distance} km bij {consumption} l/100 km"
+      ],
+      "fuelRegular": "Gewone 91-benzine",
+      "fuelPremium": "Premium 95-benzine",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
       "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: uren per soort weg",
@@ -23844,6 +23855,50 @@
         [
           "Werkt het ook voor een camper?",
           "Ja. Kies een langzamer wegtype als je in een groot voertuig rijdt, een aanhanger trekt of nog niet gewend bent aan links rijden."
+        ]
+      ],
+      "routesTitle": "Rijtijden tussen de belangrijkste plaatsen in Nieuw-Zeeland",
+      "routesNote": "Planningstijden zonder stops over de hoofdroute via de State Highways. Tel tijd op voor stops, wegwerkzaamheden en weer, en check bij NZTA of er wegen dicht zijn voordat je vertrekt.",
+      "routesHead": [
+        "Route",
+        "Afstand",
+        "Rijtijd"
+      ],
+      "routes": [
+        [
+          "Auckland naar Wellington",
+          "640 km",
+          "8 tot 8,5 uur"
+        ],
+        [
+          "Auckland naar de Bay of Islands",
+          "240 km",
+          "3 tot 3,5 uur"
+        ],
+        [
+          "Picton naar Christchurch via Kaikōura",
+          "335 km",
+          "4,5 tot 5 uur"
+        ],
+        [
+          "Christchurch naar Queenstown via Tekapo",
+          "480 km",
+          "Ongeveer 6 uur"
+        ],
+        [
+          "Christchurch naar Dunedin",
+          "360 km",
+          "Ongeveer 5 uur"
+        ],
+        [
+          "Queenstown naar Te Anau",
+          "170 km",
+          "Ongeveer 2 uur"
+        ],
+        [
+          "Te Anau naar Milford Sound",
+          "120 km",
+          "Ongeveer 2 uur"
         ]
       ]
     },

@@ -11,7 +11,8 @@ import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
 import { CurrencyConverter } from "@/components/currency-converter";
 import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { toolStrings, type ToolStrings } from "@/lib/source-strings";
-import { copyValues, fill, intlLocale, toolCopy, toolGuides, toolIds, toolPageKey, toolPath, toolSchema, toolScript, tools, toolsIndexPath, workedExample, type ToolId, type ToolPageLocale } from "@/lib/tools";
+import { SectionTable } from "@/components/article-table";
+import { copyValues, fill, intlLocale, toolCopy, toolTable, toolGuides, toolIds, toolPageKey, toolPath, toolSchema, toolScript, tools, toolsIndexPath, workedExample, type ToolId, type ToolPageLocale } from "@/lib/tools";
 
 const calculators = { fuel: FuelCalculator, drive: DriveTimeCalculator, campsite: CampsiteCostCalculator, currency: CurrencyConverter, water: TankDurationCalculator };
 
@@ -29,7 +30,9 @@ export function ToolPage({ id, locale }: { id: ToolId; locale: ToolPageLocale })
   const Calculator = calculators[id];
   const guides = toolGuides(locale, id);
   const others = toolIds.filter((other) => other !== id);
+  const table = toolTable(id, tag, copy);
   const sections = [
+    ...(table ? [{ heading: table.title, body: <SectionTable table={{ caption: table.note, head: table.head, rows: table.rows }} /> }] : []),
     { heading: shared.howTitle, body: <><ul className="tool-formula">{tool.formula.map((line) => <li key={line}><code>{line}</code></li>)}</ul><p>{tool.formulaNote}</p></> },
     { heading: shared.exampleTitle, body: <p>{workedExample(id, tag, copy)}</p> },
     { heading: shared.assumptionsTitle, body: <ul className="tool-assumptions">{tool.assumptions.map((line) => <li key={line}>{fill(line, values)}</li>)}</ul> },

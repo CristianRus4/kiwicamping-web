@@ -445,7 +445,7 @@
       "eyebrow": "Spritkostenrechner",
       "cardEyebrow": "Spritrechner",
       "h1": "Spritkostenrechner für einen Roadtrip in Neuseeland",
-      "intro": "Trag die Streckenlänge, den Verbrauch deines Fahrzeugs bei voller Beladung und den Preis pro Liter ein. Voreingestellt ist der landesweite Aushangpreis des MBIE für Benzin Regular 91 in der Woche bis zum 26. Juli 2026.",
+      "intro": "Trag die Streckenlänge, den Verbrauch deines Fahrzeugs bei voller Beladung und den Preis pro Liter ein. Voreingestellt ist der landesweite Durchschnittspreis des MBIE für Benzin Regular 91: {fuelPrice} pro Liter in der Woche vom {fuelDate}. Super 95, Diesel und die Straßennutzungsgebühren stehen in der Tabelle unten.",
       "cardTitle": "Was die Strecke kostet.",
       "cardText": "Trag die gesamte Streckenlänge, den Verbrauch des Fahrzeugs bei voller Beladung und den erwarteten Preis pro Liter ein. In abgelegenen Gegenden können die Preise über den Richtwerten für Städte liegen.",
       "labelDistance": "Strecke (km)",
@@ -466,17 +466,28 @@
       "faq": [
         [
           "Wie viel Sprit braucht ein Campervan in Neuseeland?",
-          "Das hängt vom Fahrzeug, der Beladung und den Straßen ab. Nimm den Wert deiner Vermietung oder deines Fahrzeugs und plane für Steigungen einen Puffer ein. Die voreingestellten 12 l/100 km sind ein Planungswert für einen beladenen Campervan, kein gemessener Durchschnitt."
+          "Das hängt vom Fahrzeug, der Beladung und den Straßen ab. Schau den offiziellen Verbrauchswert des Fahrzeugs bei Rightcar (rightcar.govt.nz) nach oder frag den Vermieter und rechne für Steigungen und volle Beladung etwas dazu. Die voreingestellten 12 l/100 km sind ein Planungswert für einen beladenen Campervan, kein gemessener Durchschnitt."
         ],
         [
-          "Sind die Straßennutzungsgebühren in den Spritkosten enthalten?",
-          "Nein. Dieselfahrzeuge zahlen in Neuseeland die Straßennutzungsgebühren pro 1.000 km getrennt vom Sprit. Frag bei deiner Vermietung nach, ob RUC im Preis enthalten ist, und prüf die aktuellen Gebühren bei der NZTA."
+          "Ist ein Diesel- oder ein Benzin-Campervan günstiger?",
+          "Diesel ist an der Zapfsäule günstiger, aber ein leichtes Dieselfahrzeug zahlt zusätzlich Straßennutzungsgebühren von {ruc} pro 1.000 km, die weder im Spritpreis noch in diesem Rechner stecken. Auf 1.000 km bei 12 l/100 km sind das {dieselTotal} für Diesel inklusive RUC gegenüber {petrolTotal} für Regular 91. Es kommt also darauf an, wie viel weniger der Diesel verbraucht. Frag den Vermieter, ob die RUC im Mietpreis enthalten sind."
         ],
         [
-          "Woher kommt der voreingestellte Spritpreis?",
-          "Es ist der landesweite Aushangpreis des MBIE für Benzin Regular 91 in der Woche bis zum 26. Juli 2026. Das MBIE veröffentlicht die Spritpreise jede Woche, prüf also vor der Abreise den aktuellen Wert."
+          "Was kostet Benzin in Neuseeland gerade?",
+          "Die landesweiten Durchschnittspreise des MBIE für die Woche vom {fuelDate} lagen bei {fuelPrice} pro Liter für Regular 91, {premiumPrice} für Super 95 und {dieselPrice} für Diesel. Der Rechner startet mit dem Preis für Regular 91. Das MBIE veröffentlicht die Preise jede Woche, und abgelegene Tankstellen verlangen oft mehr, prüf also vor der Abreise."
         ]
-      ]
+      ],
+      "pricesTitle": "Aktuelle Spritpreise in Neuseeland",
+      "pricesNote": "Landesweite Durchschnittspreise an der Zapfsäule laut MBIE für die Woche vom {fuelDate}, vorläufig, in Neuseeland-Dollar pro Liter inklusive Steuern. Leichte Dieselfahrzeuge bis 3.500 kg zahlen zusätzlich Straßennutzungsgebühren (RUC) von {ruc} pro 1.000 km, die nicht im Spritpreis enthalten sind.",
+      "pricesHead": [
+        "Kraftstoff",
+        "Preis pro Liter",
+        "{distance} km bei {consumption} l/100 km"
+      ],
+      "fuelRegular": "Benzin Regular 91",
+      "fuelPremium": "Benzin Super 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
       "metaTitle": "Fahrzeitrechner Neuseeland: Realistische Zeit je Straßenart",
@@ -518,6 +529,50 @@
         [
           "Funktioniert das auch für einen Campervan?",
           "Ja. Wähle eine langsamere Straßenart, wenn du ein großes Fahrzeug fährst, mit Anhänger unterwegs bist oder noch nicht an den Linksverkehr gewöhnt bist."
+        ]
+      ],
+      "routesTitle": "Fahrzeiten zwischen den wichtigsten Orten Neuseelands",
+      "routesNote": "Planungswerte ohne Pausen auf der Hauptroute über die State Highways. Rechne Zeit für Pausen, Baustellen und Wetter dazu und prüf vor der Abfahrt bei NZTA, ob Straßen gesperrt sind.",
+      "routesHead": [
+        "Strecke",
+        "Entfernung",
+        "Fahrzeit"
+      ],
+      "routes": [
+        [
+          "Auckland nach Wellington",
+          "640 km",
+          "8 bis 8,5 Stunden"
+        ],
+        [
+          "Auckland zur Bay of Islands",
+          "240 km",
+          "3 bis 3,5 Stunden"
+        ],
+        [
+          "Picton nach Christchurch über Kaikōura",
+          "335 km",
+          "4,5 bis 5 Stunden"
+        ],
+        [
+          "Christchurch nach Queenstown über Tekapo",
+          "480 km",
+          "Etwa 6 Stunden"
+        ],
+        [
+          "Christchurch nach Dunedin",
+          "360 km",
+          "Etwa 5 Stunden"
+        ],
+        [
+          "Queenstown nach Te Anau",
+          "170 km",
+          "Etwa 2 Stunden"
+        ],
+        [
+          "Te Anau zum Milford Sound",
+          "120 km",
+          "Etwa 2 Stunden"
         ]
       ]
     },

@@ -23742,7 +23742,7 @@
       "eyebrow": "Kalkulator kosztu paliwa",
       "cardEyebrow": "Kalkulator paliwa",
       "h1": "Kalkulator kosztu paliwa na road trip po Nowej Zelandii",
-      "intro": "Wpisz długość trasy, spalanie załadowanego pojazdu i cenę za litr. Domyślna cena to krajowa cena benzyny 91 z tablic na stacjach według MBIE (nowozelandzkiego ministerstwa gospodarki) w tygodniu kończącym się 26 lipca 2026.",
+      "intro": "Wpisz długość trasy, spalanie załadowanego pojazdu i cenę za litr. Domyślna cena to średnia krajowa według MBIE dla benzyny 91: {fuelPrice} za litr w tygodniu oznaczonym datą {fuelDate}. Benzyna 95, olej napędowy i opłata drogowa RUC są w tabeli poniżej.",
       "cardTitle": "Policz koszt przejazdu.",
       "cardText": "Wpisz długość całej trasy, spalanie załadowanego pojazdu i spodziewaną cenę za litr. Na odludziu ceny bywają wyższe niż w miastach.",
       "labelDistance": "Odległość (km)",
@@ -23763,17 +23763,28 @@
       "faq": [
         [
           "Ile paliwa spala kamper w Nowej Zelandii?",
-          "To zależy od pojazdu, ładunku i dróg. Weź wartość od wypożyczalni albo z danych pojazdu i dolicz zapas na podjazdy. Domyślne 12 l/100 km to liczba do planowania dla załadowanego kampera, a nie zmierzona średnia."
+          "To zależy od pojazdu, ładunku i dróg. Sprawdź oficjalne spalanie pojazdu w serwisie Rightcar (rightcar.govt.nz) albo zapytaj wypożyczalnię i dolicz zapas na podjazdy i pełny załadunek. Domyślne 12 l/100 km to wartość do planowania dla załadowanego kampera, a nie zmierzona średnia."
         ],
         [
-          "Czy koszt paliwa obejmuje opłatę RUC?",
-          "Nie. Pojazdy z silnikiem Diesla płacą w Nowej Zelandii opłatę RUC za każde 1000 km osobno od paliwa. Zapytaj wypożyczalnię, czy RUC jest wliczony w stawkę, i sprawdź aktualne stawki w NZTA."
+          "Czy tańszy w utrzymaniu jest kamper z silnikiem Diesla, czy benzynowy?",
+          "Olej napędowy jest tańszy na stacji, ale lekki pojazd z silnikiem Diesla płaci też opłatę drogową RUC w wysokości {ruc} za każde 1000 km, której nie ma ani w cenie na stacji, ani w tym kalkulatorze. Na 1000 km przy 12 l/100 km daje to {dieselTotal} za olej napędowy z RUC wobec {petrolTotal} za benzynę 91, więc wszystko zależy od tego, o ile mniej pali diesel. Zapytaj wypożyczalnię, czy RUC jest wliczone w cenę."
         ],
         [
-          "Skąd pochodzi domyślna cena paliwa?",
-          "To krajowa cena benzyny 91 z tablic na stacjach według MBIE w tygodniu kończącym się 26 lipca 2026. MBIE publikuje ceny paliw co tydzień, więc przed wyjazdem sprawdź najnowsze dane."
+          "Ile kosztuje teraz benzyna w Nowej Zelandii?",
+          "Średnie krajowe ceny z tablic według MBIE za tydzień oznaczony datą {fuelDate} wynosiły {fuelPrice} za litr benzyny 91, {premiumPrice} za benzynę 95 i {dieselPrice} za olej napędowy. Kalkulator zaczyna od ceny benzyny 91. MBIE publikuje ceny co tydzień, a odległe stacje często biorą więcej, więc sprawdź przed wyjazdem."
         ]
-      ]
+      ],
+      "pricesTitle": "Aktualne ceny paliw w Nowej Zelandii",
+      "pricesNote": "Średnie krajowe ceny na stacjach według MBIE za tydzień oznaczony datą {fuelDate}, wstępne, w dolarach nowozelandzkich za litr z podatkami. Lekkie pojazdy z silnikiem Diesla do 3500 kg płacą dodatkowo opłatę drogową RUC (road user charges) w wysokości {ruc} za każde 1000 km, której nie ma w cenie na stacji.",
+      "pricesHead": [
+        "Paliwo",
+        "Cena za litr",
+        "{distance} km przy {consumption} l/100 km"
+      ],
+      "fuelRegular": "Benzyna 91",
+      "fuelPremium": "Benzyna 95 premium",
+      "fuelDiesel": "Olej napędowy",
+      "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
       "metaTitle": "Kalkulator czasu jazdy NZ: realne godziny według rodzaju drogi",
@@ -23815,6 +23826,50 @@
         [
           "Czy to działa dla kampera?",
           "Tak. Jeśli prowadzisz duży pojazd, holujesz przyczepę albo dopiero uczysz się jazdy lewą stroną, wybierz wolniejszy rodzaj drogi."
+        ]
+      ],
+      "routesTitle": "Czas jazdy między głównymi miejscowościami Nowej Zelandii",
+      "routesNote": "Czasy do planowania bez postojów, główną trasą po drogach krajowych (State Highways). Dolicz czas na postoje, roboty drogowe i pogodę, a przed wyjazdem sprawdź w NZTA, czy drogi nie są zamknięte.",
+      "routesHead": [
+        "Trasa",
+        "Odległość",
+        "Czas jazdy"
+      ],
+      "routes": [
+        [
+          "Z Auckland do Wellington",
+          "640 km",
+          "8–8,5 godz."
+        ],
+        [
+          "Z Auckland do Bay of Islands",
+          "240 km",
+          "3–3,5 godz."
+        ],
+        [
+          "Z Picton do Christchurch przez Kaikōurę",
+          "335 km",
+          "4,5–5 godz."
+        ],
+        [
+          "Z Christchurch do Queenstown przez Tekapo",
+          "480 km",
+          "Około 6 godz."
+        ],
+        [
+          "Z Christchurch do Dunedin",
+          "360 km",
+          "Około 5 godz."
+        ],
+        [
+          "Z Queenstown do Te Anau",
+          "170 km",
+          "Około 2 godz."
+        ],
+        [
+          "Z Te Anau do Milford Sound",
+          "120 km",
+          "Około 2 godz."
         ]
       ]
     },

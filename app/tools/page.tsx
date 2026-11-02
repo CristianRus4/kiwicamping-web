@@ -27,9 +27,8 @@ export default function ToolsPage() {
 
   return <><Header/><main {...mainData({ kind: "tools", locale: "en" })}>
     <section className="page-hero tools-hero">
-      <p className="eyebrow">Useful numbers</p>
-      <h1>Road trip tools.<br/>No mystery maths.</h1>
-      <p>Quick planning calculators for New Zealand prices, distances and capacity. Every assumption stays visible so you can replace it with the number that fits your route.</p>
+      <h1>New Zealand road trip calculators</h1>
+      <p>A fuel cost calculator with MBIE&apos;s latest petrol and diesel prices, a driving time calculator with travel times and distances between main towns, a campsite cost calculator, an NZD currency converter and a campervan water tank calculator.</p>
     </section>
     <section className="tools-shell">
       <CurrencyConverter/>

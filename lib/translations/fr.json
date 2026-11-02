@@ -445,7 +445,7 @@
       "eyebrow": "Calculateur du coût du carburant",
       "cardEyebrow": "Calcul du carburant",
       "h1": "Calculateur du coût du carburant pour un road trip en Nouvelle-Zélande",
-      "intro": "Saisissez la distance du trajet, la consommation du véhicule chargé et le prix du litre. Le prix par défaut est le prix national affiché du sans-plomb 91 relevé par le MBIE pour la semaine se terminant le 26 juillet 2026.",
+      "intro": "Saisissez la distance du trajet, la consommation du véhicule chargé et le prix du litre. Le prix par défaut est la moyenne nationale du MBIE pour le sans-plomb 91 : {fuelPrice} le litre pour la semaine du {fuelDate}. Le sans-plomb 95, le diesel et les redevances routières figurent dans le tableau ci-dessous.",
       "cardTitle": "Chiffrez la distance à parcourir.",
       "cardText": "Saisissez la distance totale du trajet, la consommation du véhicule chargé et le prix du litre prévu. Les prix en zone isolée peuvent dépasser les références des villes.",
       "labelDistance": "Distance (km)",
@@ -466,17 +466,28 @@
       "faq": [
         [
           "Combien de carburant consomme un van en Nouvelle-Zélande ?",
-          "Cela dépend du véhicule, de la charge et des routes. Prenez le chiffre de votre loueur ou de votre véhicule et prévoyez une marge pour les côtes. Les 12 l/100 km par défaut sont une valeur de planification pour un van chargé, pas une moyenne mesurée."
+          "Cela dépend du véhicule, de la charge et des routes. Consultez la valeur officielle du véhicule sur Rightcar (rightcar.govt.nz) ou demandez au loueur, puis prévoyez une marge pour les côtes et un véhicule chargé. Les 12 l/100 km par défaut sont une valeur de planification pour un camping-car chargé, pas une moyenne mesurée."
         ],
         [
-          "Le coût du carburant comprend-il les redevances routières ?",
-          "Non. En Nouvelle-Zélande, les véhicules diesel paient des redevances routières par tranche de 1 000 km, séparément du carburant. Demandez à votre loueur si les RUC sont comprises dans le tarif, et consultez la NZTA pour connaître les montants en vigueur."
+          "Un camping-car diesel ou essence revient-il moins cher ?",
+          "Le diesel est moins cher à la pompe, mais un véhicule diesel léger paie aussi des redevances routières de {ruc} par tranche de 1 000 km, que ni le prix à la pompe ni ce calculateur n'incluent. Sur 1 000 km à 12 l/100 km, cela fait {dieselTotal} en diesel, RUC compris, contre {petrolTotal} en sans-plomb 91 : tout dépend donc de combien le diesel consomme en moins. Demandez au loueur si les RUC sont compris dans le tarif."
         ],
         [
-          "D’où vient le prix du carburant par défaut ?",
-          "C’est le prix national affiché du sans-plomb 91 relevé par le MBIE pour la semaine se terminant le 26 juillet 2026. Le MBIE publie les prix du carburant chaque semaine : vérifiez le dernier chiffre avant de partir."
+          "Combien coûte l'essence en Nouvelle-Zélande en ce moment ?",
+          "Les prix moyens nationaux affichés relevés par le MBIE pour la semaine du {fuelDate} étaient de {fuelPrice} le litre pour le sans-plomb 91, {premiumPrice} pour le 95 et {dieselPrice} pour le diesel. Le calculateur part du prix du 91. Le MBIE publie les prix chaque semaine et les stations isolées sont souvent plus chères : vérifiez avant de partir."
         ]
-      ]
+      ],
+      "pricesTitle": "Prix actuels du carburant en Nouvelle-Zélande",
+      "pricesNote": "Prix moyens nationaux à la pompe relevés par le MBIE pour la semaine du {fuelDate}, provisoires, en dollars néo-zélandais par litre, taxes comprises. Les véhicules diesel légers jusqu'à 3 500 kg paient en plus des redevances routières (RUC) de {ruc} par tranche de 1 000 km, non comprises dans le prix à la pompe.",
+      "pricesHead": [
+        "Carburant",
+        "Prix au litre",
+        "{distance} km à {consumption} l/100 km"
+      ],
+      "fuelRegular": "Sans-plomb 91",
+      "fuelPremium": "Sans-plomb 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} de RUC"
     },
     "drive": {
       "metaTitle": "Durée de trajet en Nouvelle-Zélande : le vrai temps selon la route",
@@ -518,6 +529,50 @@
         [
           "Est-ce adapté à un van ?",
           "Oui. Choisissez un type de route plus lent si vous conduisez un gros véhicule, si vous tractez ou si vous n’avez pas l’habitude de rouler à gauche."
+        ]
+      ],
+      "routesTitle": "Temps de route entre les principales villes de Nouvelle-Zélande",
+      "routesNote": "Temps de planification sans arrêt sur l'itinéraire principal par les State Highways. Ajoutez du temps pour les arrêts, les travaux et la météo, et vérifiez les fermetures auprès de la NZTA avant de partir.",
+      "routesHead": [
+        "Trajet",
+        "Distance",
+        "Temps de conduite"
+      ],
+      "routes": [
+        [
+          "Auckland à Wellington",
+          "640 km",
+          "8 à 8,5 heures"
+        ],
+        [
+          "Auckland à la Bay of Islands",
+          "240 km",
+          "3 à 3,5 heures"
+        ],
+        [
+          "Picton à Christchurch par Kaikōura",
+          "335 km",
+          "4,5 à 5 heures"
+        ],
+        [
+          "Christchurch à Queenstown par Tekapo",
+          "480 km",
+          "Environ 6 heures"
+        ],
+        [
+          "Christchurch à Dunedin",
+          "360 km",
+          "Environ 5 heures"
+        ],
+        [
+          "Queenstown à Te Anau",
+          "170 km",
+          "Environ 2 heures"
+        ],
+        [
+          "Te Anau à Milford Sound",
+          "120 km",
+          "Environ 2 heures"
         ]
       ]
     },

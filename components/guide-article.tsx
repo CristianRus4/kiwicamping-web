@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react";
+import { ArrowLeft, ArrowRight, CalendarDays, Clock, ExternalLink, MapPin } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
@@ -53,6 +53,7 @@ export function GuideArticle({ item }: { item: Article }) {
           <p className="eyebrow">{item.category} · {item.region}</p>
           <h1>{item.title}</h1>
           <p>{item.description}</p>
+          {item.officialLink && <a className="official-link" href={item.officialLink.url} rel="noopener">{item.officialLink.domain}<ExternalLink /></a>}
           <div>
             <span><Clock />{item.readTime} minute read</span>
             <span><MapPin />{item.places.length} places</span>

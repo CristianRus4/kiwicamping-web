@@ -259,6 +259,9 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-header > div { margin-top: 24px; display: flex; justify-content: center; gap: 22px; color: var(--muted); font-size: 11px; }
 .article-header > div span { display: flex; align-items: center; gap: 6px; }
 .article-header svg { width: 14px; }
+.article-header .official-link { margin-top: 26px; min-height: 48px; padding: 0 20px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; transition: background 180ms ease; }
+.article-header .official-link:hover { background: var(--store-button-hover); }
+.article-header .official-link svg { width: 16px; height: 16px; }
 .article-hero-image { height: 610px; margin-top: 0; margin-bottom: 0; border-radius: 8px; overflow: hidden; position: relative; }
 /* The per-guide FAQ reuses the accordion the homepage and support pages already use. */
 .article-faq details { border-bottom: 1px solid var(--line); }

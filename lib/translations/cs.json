@@ -416,7 +416,7 @@
       "eyebrow": "Kalkulačka nákladů na palivo",
       "cardEyebrow": "Kalkulačka paliva",
       "h1": "Kalkulačka nákladů na palivo pro road trip po Novém Zélandu",
-      "intro": "Zadejte délku trasy, spotřebu naloženého vozidla a cenu za litr. Výchozí cena je celostátní cena benzinu 91 z cenových tabulí podle MBIE (novozélandského ministerstva pro podnikání, inovace a zaměstnanost) za týden končící 26. července 2026.",
+      "intro": "Zadejte délku trasy, spotřebu naloženého vozidla a cenu za litr. Výchozí cena je celostátní průměr podle MBIE pro benzin 91: {fuelPrice} za litr v týdnu s datem {fuelDate}. Benzin 95, nafta a silniční poplatek RUC jsou v tabulce níže.",
       "cardTitle": "Kolik vás stojí ujeté kilometry.",
       "cardText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
       "labelDistance": "Vzdálenost (km)",
@@ -437,17 +437,28 @@
       "faq": [
         [
           "Kolik paliva spotřebuje campervan na Novém Zélandu?",
-          "Záleží na vozidle, nákladu a silnicích. Použijte údaj od půjčovny nebo z dokladů vozidla a počítejte s rezervou na kopce. Výchozích 12 l/100 km je plánovací hodnota pro naložený campervan, ne naměřený průměr."
+          "Záleží na vozidle, nákladu a silnicích. Oficiální údaj o spotřebě vozidla najdete na Rightcar (rightcar.govt.nz), případně se zeptejte půjčovny, a připočtěte rezervu na kopce a plné naložení. Výchozích 12 l/100 km je plánovací hodnota pro naložený obytný vůz, ne naměřený průměr."
         ],
         [
-          "Zahrnují náklady na palivo poplatek RUC?",
-          "Ne. Vozidla na naftu platí na Novém Zélandu poplatek RUC za každých 1 000 km odděleně od paliva. Zeptejte se půjčovny, jestli je RUC v ceně, a aktuální sazby si ověřte u NZTA."
+          "Vyjde levněji obytný vůz na naftu, nebo na benzin?",
+          "Nafta je u stojanu levnější, ale lehké vozidlo na naftu platí i silniční poplatek RUC {ruc} za každých 1 000 km, který není v ceně u stojanu ani v této kalkulačce. Na 1 000 km při 12 l/100 km to dělá {dieselTotal} za naftu včetně RUC proti {petrolTotal} za benzin 91, takže rozhoduje, o kolik méně nafta spotřebuje. Zeptejte se půjčovny, zda je RUC v ceně."
         ],
         [
-          "Odkud pochází výchozí cena paliva?",
-          "Je to celostátní cena benzinu 91 z cenových tabulí podle MBIE za týden končící 26. července 2026. MBIE zveřejňuje ceny paliv každý týden, takže si před cestou ověřte nejnovější údaj."
+          "Kolik teď stojí benzin na Novém Zélandu?",
+          "Celostátní průměrné ceny z cenových tabulí podle MBIE za týden s datem {fuelDate} byly {fuelPrice} za litr benzinu 91, {premiumPrice} za benzin 95 a {dieselPrice} za naftu. Kalkulačka začíná cenou benzinu 91. MBIE zveřejňuje ceny každý týden a odlehlé čerpací stanice bývají dražší, takže si je před cestou ověřte."
         ]
-      ]
+      ],
+      "pricesTitle": "Aktuální ceny paliv na Novém Zélandu",
+      "pricesNote": "Celostátní průměrné ceny u stojanu podle MBIE za týden s datem {fuelDate}, předběžné, v novozélandských dolarech za litr včetně daní. Lehká vozidla na naftu do 3 500 kg platí navíc silniční poplatek RUC (road user charges) {ruc} za každých 1 000 km, který v ceně u stojanu není.",
+      "pricesHead": [
+        "Palivo",
+        "Cena za litr",
+        "{distance} km při {consumption} l/100 km"
+      ],
+      "fuelRegular": "Benzin 91",
+      "fuelPremium": "Benzin 95 prémiový",
+      "fuelDiesel": "Nafta",
+      "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
       "metaTitle": "Kalkulačka doby jízdy NZ: reálné hodiny podle typu silnice",
@@ -489,6 +500,50 @@
         [
           "Funguje to i pro campervan?",
           "Ano. Pokud řídíte velké vozidlo, táhnete přívěs nebo s jízdou vlevo teprve začínáte, zvolte pomalejší typ silnice."
+        ]
+      ],
+      "routesTitle": "Doba jízdy mezi hlavními místy Nového Zélandu",
+      "routesNote": "Plánovací časy bez zastávek po hlavní trase po státních silnicích (State Highways). Připočtěte čas na zastávky, opravy silnic a počasí a před odjezdem si u NZTA ověřte, zda nejsou silnice uzavřené.",
+      "routesHead": [
+        "Trasa",
+        "Vzdálenost",
+        "Doba jízdy"
+      ],
+      "routes": [
+        [
+          "Z Aucklandu do Wellingtonu",
+          "640 km",
+          "8 až 8,5 hodiny"
+        ],
+        [
+          "Z Aucklandu do Bay of Islands",
+          "240 km",
+          "3 až 3,5 hodiny"
+        ],
+        [
+          "Z Pictonu do Christchurche přes Kaikōuru",
+          "335 km",
+          "4,5 až 5 hodin"
+        ],
+        [
+          "Z Christchurche do Queenstownu přes Tekapo",
+          "480 km",
+          "Asi 6 hodin"
+        ],
+        [
+          "Z Christchurche do Dunedinu",
+          "360 km",
+          "Asi 5 hodin"
+        ],
+        [
+          "Z Queenstownu do Te Anau",
+          "170 km",
+          "Asi 2 hodiny"
+        ],
+        [
+          "Z Te Anau do Milford Sound",
+          "120 km",
+          "Asi 2 hodiny"
         ]
       ]
     },

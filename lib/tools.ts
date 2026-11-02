@@ -99,9 +99,17 @@ export function formatMoney(value: number, currency: string, tag: string, digits
 }
 const currencyDigits = (currency: string) => currency === "JPY" || currency === "KRW" ? 0 : 2;
 
+/**
+ * MBIE's national average board prices (NZD a litre, provisional) for its latest week, and the road
+ * user charge for a light diesel vehicle (RUC type 1, up to 3,500 kg, Road User Charges (Rates)
+ * Regulations 2015, Schedule 1). Update the figures and the date together; every page that quotes
+ * them (intro, table, FAQ, worked example) reads them from here, so no translation changes.
+ */
+export const fuelPrices = { week: "2026-10-23", regular: 3.61, premium: 3.81, diesel: 3.24, rucPer1000: 76 } as const;
+
 /** The values each calculator opens with. The rendered output and the worked example use the same ones. */
 export const toolDefaults = {
-  fuel: { distance: 1000, consumption: 12, price: 2.96 },
+  fuel: { distance: 1000, consumption: 12, price: fuelPrices.regular },
   drive: { distance: 250, speed: 60, stops: 3 },
   campsite: { adults: 2, nights: 5, perAdult: 20, perSite: 50 },
   currency: { amount: 100, from: "NZD", to: "USD" },
@@ -132,7 +140,49 @@ export function copyValues(tag: string) {
     docMin: formatMoney(campsiteFacts.adultRate.min, "NZD", tag),
     docMax: formatMoney(campsiteFacts.adultRate.max, "NZD", tag),
     docMedian: formatMoney(campsiteFacts.adultRate.median, "NZD", tag),
+    ...fuelValues(tag),
   };
+}
+
+/** The fuel prices, the RUC rate and the 1,000 km trip each fuel costs at the default consumption. */
+function fuelValues(tag: string) {
+  const { distance, consumption } = toolDefaults.fuel;
+  const litres = distance * consumption / 100;
+  return {
+    fuelDate: formatDate(fuelPrices.week, tag),
+    fuelPrice: formatMoney(fuelPrices.regular, "NZD", tag, 2),
+    premiumPrice: formatMoney(fuelPrices.premium, "NZD", tag, 2),
+    dieselPrice: formatMoney(fuelPrices.diesel, "NZD", tag, 2),
+    ruc: formatMoney(fuelPrices.rucPer1000, "NZD", tag),
+    distance: formatNumber(distance, tag),
+    consumption: formatNumber(consumption, tag),
+    petrolTotal: formatMoney(litres * fuelPrices.regular, "NZD", tag, 2),
+    dieselTotal: formatMoney(litres * fuelPrices.diesel + distance / 1000 * fuelPrices.rucPer1000, "NZD", tag, 2),
+  };
+}
+
+/** The data table a tool page shows above its formula: this week's fuel prices, or the main driving routes. */
+export function toolTable(id: ToolId, tag: string, copy: ToolStrings): { title: string; note: string; head: string[]; rows: string[][] } | undefined {
+  const values = copyValues(tag);
+  if (id === "fuel") {
+    const { distance, consumption } = toolDefaults.fuel;
+    const litres = distance * consumption / 100;
+    const trip = (price: number) => formatMoney(litres * price, "NZD", tag, 2);
+    const t = copy.fuel;
+    return {
+      title: t.pricesTitle, note: fill(t.pricesNote, values), head: t.pricesHead.map((cell) => fill(cell, values)),
+      rows: [
+        [t.fuelRegular, values.fuelPrice, trip(fuelPrices.regular)],
+        [t.fuelPremium, values.premiumPrice, trip(fuelPrices.premium)],
+        [t.fuelDiesel, values.dieselPrice, fill(t.dieselRuc, { cost: trip(fuelPrices.diesel), ruc: values.ruc })],
+      ],
+    };
+  }
+  if (id === "drive") {
+    const t = copy.drive;
+    return { title: t.routesTitle, note: t.routesNote, head: [...t.routesHead], rows: t.routes.map((row) => [...row]) };
+  }
+  return undefined;
 }
 const formatDate = (iso: string, tag: string) => new Intl.DateTimeFormat(tag, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
 

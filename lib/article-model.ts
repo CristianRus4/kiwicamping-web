@@ -43,6 +43,12 @@ export type Article = {
    * the whole build (lib/publish.ts). Never set it on a guide that is already live, or on a legacy one.
    */
   publishAt?: string;
+  /**
+   * The official site a reader came to find (DOC bookings, the fire season map), shown as a button
+   * under the title. Its label is the bare domain, so it reads the same in every locale and needs no
+   * translation; the guide's own prose names the site too.
+   */
+  officialLink?: { domain: string; url: string };
   /** A "best apps" or "alternatives" comparison guide: its store links carry the `listicle` placement. */
   listicle?: boolean;
   /**
