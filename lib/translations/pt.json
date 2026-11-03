@@ -12499,6 +12499,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Road user charges (RUC) para autocaravanas na Nova Zelândia 2026/27: tarifas e custos do aluguer",
+      "description": "As autocaravanas a gasóleo pagam 76 NZD de RUC por cada 1.000 km e as empresas de aluguer cobram cerca de 8 NZD por cada 100 km. Quanto custa a RUC e se o gasóleo compensa mais do que a gasolina.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Um pequeno posto de abastecimento G.A.S em Waikari, em North Canterbury, com as bombas em frente a uma loja laranja e branca",
+      "intro": "Na Nova Zelândia, os veículos a gasóleo não pagam o imposto de circulação no preço do combustível: pagam, em vez disso, road user charges (RUC) por quilómetro. Para um veículo a gasóleo ligeiro até 3.500 kg, a RUC é de 76 NZD por cada 1.000 km, cerca de 7,6 cêntimos por quilómetro, e uma empresa de aluguer cobra-a a cerca de 8 NZD por cada 100 km quando devolves a carrinha. Os veículos a gasolina pagam o imposto de circulação na bomba e nenhuma RUC. Lemos as tabelas de tarifas e as condições das empresas de aluguer a 3 de novembro de 2026.",
+      "sections": [
+        {
+          "heading": "Tarifas de RUC para autocaravanas",
+          "body": [
+            "A RUC compra-se em blocos de 1.000 km para um veículo próprio, a uma tarifa definida pelo tipo e peso do veículo. A maioria das autocaravanas são veículos ligeiros, até 3.500 kg, a 76 NZD por cada 1.000 km. Uma autocaravana maior, de 3.501 a 6.000 kg, paga 82 NZD. A cada compra junta-se uma taxa administrativa: 12,44 NZD online ou na app da NZTA e 13,71 NZD no balcão de um agente.",
+            "Os veículos elétricos a bateria pagam os mesmos 76 NZD que os ligeiros a gasóleo, e os híbridos plug-in a gasolina 38 NZD. Um veículo normal a gasolina ou híbrido a gasolina não paga RUC. A página de tarifas da própria NZTA bloqueia a leitura automática, por isso estes valores vêm de uma cópia publicada da tabela de tarifas em vigor desde 6 de agosto de 2026; confirma-os na NZTA antes de comprares."
+          ],
+          "tips": [
+            "Ligeiro a gasóleo: 76 NZD por 1.000 km",
+            "De 3,5 a 6 toneladas: 82 NZD",
+            "Taxa administrativa: 12,44 NZD online"
+          ],
+          "table": {
+            "caption": "Tarifas de RUC para veículos ligeiros por cada 1.000 km, com GST (imposto sobre bens e serviços) incluído, em vigor desde 6 de agosto de 2026.",
+            "head": [
+              "Veículo",
+              "Tarifa por 1.000 km"
+            ],
+            "rows": [
+              [
+                "Ligeiro a gasóleo, até 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Gasóleo, de 3.501 a 6.000 kg (dois eixos)",
+                "82 NZD"
+              ],
+              [
+                "Elétrico a bateria, até 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Híbrido plug-in a gasolina",
+                "38 NZD"
+              ],
+              [
+                "Gasolina ou híbrido a gasolina",
+                "Sem RUC; o imposto está no preço do combustível"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "O que cobram as empresas de aluguer",
+          "body": [
+            "Uma empresa de aluguer compra a RUC das suas carrinhas e cobra-te os quilómetros que conduzes, normalmente quando a devolves. A Maui cobra 8,04 NZD por cada 100 km, ou 8,18 NZD nos veículos de 4 e 6 camas com casa de banho e duche, e diz que o valor é calculado e cobrado na devolução. O contrato de aluguer da JUCY para reservas a partir de 1 de maio de 2026 fixa 8,00 NZD por cada 100 km. A Mighty Campers indica 7,64 NZD, ou 8,04 NZD nos veículos de 4 e 6 camas com casa de banho e duche.",
+            "Uma viagem de 2.000 km numa carrinha de aluguer a gasóleo acrescenta, por isso, cerca de 160 a 165 NZD de RUC à fatura final. Algumas empresas deixam-te pagá-la antecipadamente como tarifa diária; pergunta qual compensa mais para a distância que planeias e confirma a tarifa no teu próprio contrato, porque uma empresa pode alterá-la."
+          ],
+          "tips": [
+            "RUC do aluguer: cerca de 8 NZD por 100 km",
+            "Faturada quando devolves a carrinha",
+            "2.000 km: cerca de 160 NZD"
+          ],
+          "table": {
+            "caption": "Custos de RUC das empresas de aluguer por cada 100 km, a partir das condições de cada empresa. Lido a 3 de novembro de 2026.",
+            "head": [
+              "Empresa",
+              "Carrinhas standard",
+              "4 e 6 camas com casa de banho e duche"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (uma tarifa para todas as carrinhas)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Uma autocaravana a gasóleo é mais barata do que a gasolina?",
+          "body": [
+            "Por litro, o gasóleo é mais barato na bomba porque não leva imposto de circulação. O acompanhamento semanal dos preços dos combustíveis do MBIE para a semana de 23 de outubro de 2026 indicava a gasolina normal 91 a 3,61 NZD o litro e o gasóleo a 3,24 NZD. A RUC acrescenta depois cerca de 7,6 cêntimos por quilómetro na tua carrinha, ou cerca de 8 cêntimos numa de aluguer.",
+            "Com o mesmo consumo, ganha a gasolina: uma carrinha que gasta 10 litros aos 100 km custa cerca de 36 NZD aos 100 km a gasolina e cerca de 32 NZD a gasóleo mais 8 NZD de RUC, ou seja, 40 NZD. O gasóleo só compensa quando a carrinha a gasóleo gasta claramente menos do que a de gasolina. Compara o consumo real das duas carrinhas, não o preço na bomba."
+          ],
+          "tips": [
+            "Mesmo consumo: a gasolina é mais barata",
+            "O gasóleo só ganha com menor consumo",
+            "Compara litros aos 100 km"
+          ]
+        },
+        {
+          "heading": "Se tens uma autocaravana a gasóleo",
+          "body": [
+            "Uma carrinha tua tem de ter uma licença de RUC válida, visível no para-brisas, que cubra a distância do conta-quilómetros, e compras o bloco seguinte antes de atingires o limite. A licença fica com o veículo, por isso a RUC por usar passa ao proprietário seguinte quando vendes, e podes pedir um reembolso por um veículo que vendas, abates ou exportes se sobrarem pelo menos 20 NZD por usar.",
+            "Quando comprares uma carrinha usada a gasóleo, compara a etiqueta da RUC com o conta-quilómetros. Se a carrinha já passou da licença, estás a comprar também essa distância."
+          ],
+          "tips": [
+            "Mantém a RUC à frente do conta-quilómetros",
+            "A RUC por usar fica com a carrinha",
+            "Confirma a etiqueta quando compras"
+          ]
+        },
+        {
+          "heading": "O que muda a seguir",
+          "body": [
+            "A Nova Zelândia não reduziu o imposto especial sobre os combustíveis nem a RUC durante a crise dos combustíveis de 2026; a ministra das Finanças descartou uma redução da RUC em março de 2026. A 31 de agosto de 2026, o Governo eliminou o aumento do imposto especial sobre os combustíveis previsto para 1 de janeiro de 2027 e adiou também o aumento correspondente da RUC, com aumentos agora previstos a partir de 1 de janeiro de 2028.",
+            "O Governo também planeia passar os veículos a gasolina para a RUC e eliminar o imposto especial sobre a gasolina. O projeto de lei Land Transport (Revenue) Amendment Bill, apresentado em novembro de 2025, inicia essa mudança, mas não foi fixada data para a passagem dos carros a gasolina, por isso uma autocaravana a gasolina continua a pagar o imposto de circulação na bomba em 2026/27."
+          ],
+          "tips": [
+            "Sem aumento da RUC a 1 de janeiro de 2027",
+            "Carros a gasolina ainda fora da RUC",
+            "Aumentos previstos a partir de 2028"
+          ]
+        },
+        {
+          "heading": "Planeia as distâncias no KiwiCamping",
+          "body": [
+            "O KiwiCamping soma a distância de condução entre as paragens da tua viagem, para estimares os quilómetros, e a RUC de uma carrinha de aluguer a gasóleo, antes de reservares. Guarda os parques de campismo e os <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a> onde vais parar, e a viagem guarda o total.",
+            "A distância precisa de ligação para calcular o percurso, como o mapa, o tempo e as fotografias, mas cada local guardado mantém os seus detalhes no telemóvel para os troços sem cobertura."
+          ],
+          "tips": [
+            "Soma a distância da tua viagem",
+            "Estima a RUC antes de reservares"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Pago road user charges numa autocaravana de aluguer na Nova Zelândia?",
+          "Sim, se for a gasóleo. A empresa de aluguer cobra a RUC pelos quilómetros que conduzes, normalmente quando devolves a carrinha: a Maui cobra 8,04 NZD por cada 100 km, a JUCY 8,00 NZD e a Mighty Campers 7,64 NZD na maioria das carrinhas. As carrinhas a gasolina não pagam RUC."
+        ],
+        [
+          "Quanto é a RUC de uma autocaravana a gasóleo em 2026?",
+          "76 NZD por cada 1.000 km para um veículo ligeiro a gasóleo até 3.500 kg e 82 NZD para de 3.501 a 6.000 kg, mais uma taxa administrativa de 12,44 NZD quando compras online. O aumento previsto para 1 de janeiro de 2027 foi adiado para 2028."
+        ],
+        [
+          "É mais barata uma autocaravana a gasóleo ou a gasolina na Nova Zelândia?",
+          "Com o mesmo consumo, a gasolina é mais barata: o gasóleo custa menos na bomba, mas a RUC acrescenta cerca de 8 cêntimos por quilómetro. Uma carrinha a gasóleo só poupa dinheiro se gastar claramente menos combustível do que a de gasolina."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: tarifas de RUC e taxas de transação"
+        },
+        {
+          "label": "Calculate.co.nz: tarifas de RUC na Nova Zelândia 2026"
+        },
+        {
+          "label": "Maui: perguntas frequentes"
+        },
+        {
+          "label": "JUCY New Zealand: contrato de aluguer, reservas a partir de 1 de maio de 2026"
+        },
+        {
+          "label": "Mighty Campers: taxas e custos"
+        },
+        {
+          "label": "MBIE: acompanhamento semanal dos preços dos combustíveis"
+        },
+        {
+          "label": "RNZ: Nicola Willis descarta redução da RUC"
+        },
+        {
+          "label": "1News: Governo elimina o aumento do imposto sobre os combustíveis de 2027"
+        },
+        {
+          "label": "Ministry of Transport: o sistema de RUC"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Posso dormir no carro na Nova Zelândia? Regras de 2026",
       "description": "Parar para descansar por cansaço ao volante está isento, mas uma noite planeada no carro em terreno municipal custa 400 NZD de multa, salvo se um regulamento indicar o local. Regras de 2026.",

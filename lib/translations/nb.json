@@ -12470,6 +12470,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Veibruksavgift (RUC) for campervans på New Zealand 2026/27: satser og leiegebyrer",
+      "description": "Diesel-campervans betaler 76 NZD i RUC per 1 000 km, og utleierne tar rundt 8 NZD per 100 km. Hva RUC koster, og om diesel slår bensin.",
+      "region": "New Zealand",
+      "imageAlt": "En liten G.A.S-bensinstasjon i Waikari i North Canterbury, med pumper foran en oransje og hvit butikk",
+      "intro": "På New Zealand betaler dieselkjøretøy ikke veiavgift i drivstoffprisen. De betaler i stedet veibruksavgift (Road User Charges, RUC) per kilometer. For et lett dieselkjøretøy på opptil 3 500 kg er RUC 76 NZD per 1 000 km, rundt 7,6 cent per kilometer, og en utleier fakturerer den med rundt 8 NZD per 100 km når du leverer tilbake vanen. Bensinkjøretøy betaler veiavgiften ved pumpen og ingen RUC. Vi leste satstabellene og utleiernes vilkår 3. november 2026.",
+      "sections": [
+        {
+          "heading": "RUC-satser for campervans",
+          "body": [
+            "RUC kjøpes i blokker på 1 000 km for et kjøretøy du eier, til en sats som settes etter kjøretøyets type og vekt. De fleste campervans er lette kjøretøy på opptil 3 500 kg, til 76 NZD per 1 000 km. En større bobil på 3 501 til 6 000 kg betaler 82 NZD. Til hvert kjøp legges et administrasjonsgebyr: 12,44 NZD på nett eller i NZTAs app og 13,71 NZD i en agents skranke.",
+            "Batterielektriske kjøretøy betaler de samme 76 NZD som lette dieselkjøretøy, og ladbare bensinhybrider 38 NZD. Et vanlig bensin- eller bensinhybridkjøretøy betaler ingen RUC. NZTAs egen satsside blokkerer automatisk avlesing, så tallene her kommer fra en publisert kopi av satstabellen som gjelder fra 6. august 2026. Bekreft dem hos NZTA før du kjøper."
+          ],
+          "tips": [
+            "Lett diesel: 76 NZD per 1 000 km",
+            "3,5 til 6 tonn: 82 NZD",
+            "Administrasjonsgebyr: 12,44 NZD på nett"
+          ],
+          "table": {
+            "caption": "RUC-satser for lette kjøretøy per 1 000 km inkludert GST (merverdiavgift), gjeldende fra 6. august 2026.",
+            "head": [
+              "Kjøretøy",
+              "Sats per 1 000 km"
+            ],
+            "rows": [
+              [
+                "Lett diesel, opptil 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Diesel, 3 501 til 6 000 kg (to aksler)",
+                "82 NZD"
+              ],
+              [
+                "Batterielektrisk, opptil 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Ladbar bensinhybrid",
+                "38 NZD"
+              ],
+              [
+                "Bensin eller bensinhybrid",
+                "Ingen RUC; avgiften ligger i drivstoffprisen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hva utleierne tar",
+          "body": [
+            "En utleier kjøper RUC for vanene sine og fakturerer deg for kilometerne du kjører, vanligvis når du leverer tilbake vanen. Maui tar 8,04 NZD per 100 km, eller 8,18 NZD for kjøretøy med 4 og 6 sengeplasser med toalett og dusj, og sier at beløpet beregnes og kreves inn ved innlevering. JUCYs leieavtale for bookinger fra 1. mai 2026 fastsetter 8,00 NZD per 100 km. Mighty Campers oppgir 7,64 NZD, eller 8,04 NZD for kjøretøy med 4 og 6 sengeplasser med toalett og dusj.",
+            "En tur på 2 000 km i en leid diesel-van legger derfor rundt 160 til 165 NZD i RUC oppå sluttregningen. Noen firmaer lar deg forhåndsbetale den som en dagssats i stedet. Spør hva som er billigst for distansen du har planlagt, og sjekk satsen i din egen avtale, for et firma kan endre den."
+          ],
+          "tips": [
+            "RUC ved leie: rundt 8 NZD per 100 km",
+            "Faktureres når du leverer tilbake vanen",
+            "2 000 km: rundt 160 NZD"
+          ],
+          "table": {
+            "caption": "Utleiernes RUC-gebyrer per 100 km, fra hvert firmas vilkår. Lest 3. november 2026.",
+            "head": [
+              "Firma",
+              "Standardvans",
+              "4 og 6 sengeplasser med toalett og dusj"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (én sats for alle vans)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Er en diesel-campervan billigere enn bensin?",
+          "body": [
+            "Per liter er diesel billigere ved pumpen fordi den ikke har veiavgift i prisen. MBIEs ukentlige overvåking av drivstoffpriser for uken 23. oktober 2026 satte vanlig 91-bensin til 3,61 NZD per liter og diesel til 3,24 NZD. RUC legger så til rundt 7,6 cent per kilometer på din egen van, eller rundt 8 cent på en leid van.",
+            "Ved samme forbruk vinner bensin: En van som bruker 10 liter per 100 km koster rundt 36 NZD per 100 km på bensin og rundt 32 NZD i diesel pluss 8 NZD i RUC, altså 40 NZD. Diesel kommer bare bedre ut når diesel-vanen bruker tydelig mindre drivstoff enn bensin-vanen. Sammenlign de to vanenes faktiske forbruk, ikke pumpeprisen."
+          ],
+          "tips": [
+            "Samme forbruk: bensin er billigere",
+            "Diesel vinner bare ved lavere forbruk",
+            "Sammenlign liter per 100 km"
+          ]
+        },
+        {
+          "heading": "Hvis du eier en diesel-campervan",
+          "body": [
+            "En van du eier må ha en gyldig RUC-lisens, synlig på frontruten, som dekker distansen kilometertelleren viser, og du kjøper neste blokk før du når grensen. Lisensen følger kjøretøyet, så ubrukt RUC går videre til neste eier når du selger, og du kan få refusjon for et kjøretøy du selger, skroter eller eksporterer hvis minst 20 NZD er ubrukt.",
+            "Når du kjøper en brukt diesel-van, sammenlign RUC-etiketten med kilometertelleren. Hvis vanen allerede har kjørt forbi lisensen, kjøper du den distansen også."
+          ],
+          "tips": [
+            "Hold RUC foran kilometertelleren",
+            "Ubrukt RUC følger vanen",
+            "Sjekk etiketten når du kjøper"
+          ]
+        },
+        {
+          "heading": "Hva som endres neste gang",
+          "body": [
+            "New Zealand kuttet verken drivstoffavgiften eller RUC under drivstoffkrisen i 2026. Finansministeren avviste et RUC-kutt i mars 2026. 31. august 2026 skrotet regjeringen økningen i drivstoffavgiften som skulle komme 1. januar 2027, og utsatte også den tilsvarende RUC-økningen, med økninger som nå er planlagt fra 1. januar 2028.",
+            "Regjeringen planlegger også å flytte bensinkjøretøy over på RUC og fjerne bensinavgiften. Lovforslaget Land Transport (Revenue) Amendment Bill, lagt fram i november 2025, setter i gang den endringen, men ingen dato for overgangen for bensinbiler er fastsatt, så en bensin-campervan betaler fortsatt veiavgiften ved pumpen i 2026/27."
+          ],
+          "tips": [
+            "Ingen RUC-økning 1. januar 2027",
+            "Bensinbiler er ikke på RUC ennå",
+            "Økninger planlagt fra 2028"
+          ]
+        },
+        {
+          "heading": "Planlegg distanser i KiwiCamping",
+          "body": [
+            "KiwiCamping legger sammen kjøreavstanden mellom stoppene på turen din, så du kan anslå kilometerne, og RUC på en leid diesel-van, før du booker. Lagre campingplassene og <a data-guide=\"holiday-parks-new-zealand-guide\">feriesentrene</a> der du stopper, så beholder turen totalen.",
+            "Distansen krever tilkobling for å beregne ruten, som kartet, været og bildene, men hvert lagrede sted beholder detaljene sine på telefonen for strekningene uten dekning."
+          ],
+          "tips": [
+            "Legg sammen distansen på turen din",
+            "Anslå RUC før du booker"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Betaler jeg veibruksavgift (RUC) på en campervan jeg leier på New Zealand?",
+          "Ja, hvis den er diesel. Utleieren fakturerer RUC for kilometerne du kjører, vanligvis når du leverer tilbake vanen: Maui tar 8,04 NZD per 100 km, JUCY 8,00 NZD og Mighty Campers 7,64 NZD for de fleste vans. Bensin-vans betaler ingen RUC."
+        ],
+        [
+          "Hvor mye er RUC for en diesel-campervan i 2026?",
+          "76 NZD per 1 000 km for et lett dieselkjøretøy på opptil 3 500 kg og 82 NZD for 3 501 til 6 000 kg, pluss et administrasjonsgebyr på 12,44 NZD når du kjøper på nett. Økningen som var planlagt 1. januar 2027, er utsatt til 2028."
+        ],
+        [
+          "Er en diesel- eller bensin-campervan billigst på New Zealand?",
+          "Ved samme drivstofforbruk er bensin billigere: Diesel koster mindre ved pumpen, men RUC legger til rundt 8 cent per kilometer. En diesel-van sparer bare penger hvis den bruker tydelig mindre drivstoff enn bensin-vanen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: RUC-satser og transaksjonsgebyrer"
+        },
+        {
+          "label": "Calculate.co.nz: newzealandske RUC-satser 2026"
+        },
+        {
+          "label": "Maui: vanlige spørsmål"
+        },
+        {
+          "label": "JUCY New Zealand: leieavtale, bookinger fra 1. mai 2026"
+        },
+        {
+          "label": "Mighty Campers: gebyrer og kostnader"
+        },
+        {
+          "label": "MBIE: ukentlig overvåking av drivstoffpriser"
+        },
+        {
+          "label": "RNZ: Nicola Willis avviser kutt i RUC"
+        },
+        {
+          "label": "1News: regjeringen skrotter økningen i drivstoffavgiften i 2027"
+        },
+        {
+          "label": "Ministry of Transport: RUC-systemet"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Kan jeg sove i bilen på New Zealand? Regler for 2026",
       "description": "Å hvile for å unngå trøtthet bak rattet er unntatt, men en planlagt natt i bil på kommunal grunn gir 400 NZD i bot, med mindre en forskrift nevner stedet. Regler for 2026, etter type grunn.",

@@ -12759,6 +12759,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Silniční poplatek RUC pro obytné vozy na Novém Zélandu 2026/27: sazby a poplatky půjčoven",
+      "description": "Naftové obytné vozy platí 76 NZD RUC za každých 1 000 km a půjčovny si účtují asi 8 NZD za 100 km. Kolik RUC stojí a zda nafta vyjde levněji než benzin.",
+      "region": "Nový Zéland",
+      "imageAlt": "Malá čerpací stanice G.A.S ve Waikari v North Canterbury, se stojany před oranžovobílým obchodem",
+      "intro": "Na Novém Zélandu platí naftová vozidla silniční daň mimo cenu paliva. Místo toho platí silniční poplatek RUC (road user charges) za každý kilometr. U lehkého naftového vozidla do 3 500 kg činí RUC 76 NZD za 1 000 km, tedy asi 7,6 centu za kilometr, a půjčovna ho účtuje asi 8 NZD za 100 km, když vrátíte dodávku. Benzinová vozidla platí silniční daň u stojanu a žádné RUC. Tabulky sazeb a podmínky půjčoven jsme četli 3. listopadu 2026.",
+      "sections": [
+        {
+          "heading": "Sazby RUC pro obytné vozy",
+          "body": [
+            "RUC se kupuje po blocích po 1 000 km pro vozidlo, které vlastníte, podle sazby určené typem a hmotností vozidla. Většina obytných vozů jsou lehká vozidla do 3 500 kg za 76 NZD za 1 000 km. Větší obytný vůz o hmotnosti 3 501 až 6 000 kg platí 82 NZD. Ke každému nákupu se připočítává administrativní poplatek: 12,44 NZD online nebo v aplikaci NZTA a 13,71 NZD na přepážce agenta.",
+            "Bateriová elektrická vozidla platí stejných 76 NZD jako lehká naftová a plug-in hybridy na benzin 38 NZD. Běžné benzinové nebo hybridní vozidlo na benzin RUC neplatí. Stránka NZTA se sazbami blokuje automatické čtení, takže tyto údaje pocházejí ze zveřejněné kopie tabulky sazeb platné od 6. srpna 2026. Před nákupem je ověřte u NZTA."
+          ],
+          "tips": [
+            "Lehká nafta: 76 NZD za 1 000 km",
+            "3,5 až 6 tun: 82 NZD",
+            "Administrativní poplatek: 12,44 NZD online"
+          ],
+          "table": {
+            "caption": "Sazby RUC pro lehká vozidla za 1 000 km, včetně GST (daně ze zboží a služeb), platné od 6. srpna 2026.",
+            "head": [
+              "Vozidlo",
+              "Sazba za 1 000 km"
+            ],
+            "rows": [
+              [
+                "Lehká nafta, do 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Nafta, 3 501 až 6 000 kg (dvě nápravy)",
+                "82 NZD"
+              ],
+              [
+                "Bateriové elektrické, do 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Plug-in hybrid na benzin",
+                "38 NZD"
+              ],
+              [
+                "Benzin nebo hybrid na benzin",
+                "Bez RUC; daň je v ceně paliva"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Co účtují půjčovny",
+          "body": [
+            "Půjčovna kupuje RUC pro své dodávky a účtuje vám ujeté kilometry, obvykle při vrácení vozu. Maui účtuje 8,04 NZD za 100 km, nebo 8,18 NZD za vozidla se 4 a 6 lůžky s toaletou a sprchou, a uvádí, že se částka vypočítá a vybere při vrácení. Nájemní smlouva JUCY pro rezervace od 1. května 2026 stanoví 8,00 NZD za 100 km. Mighty Campers uvádí 7,64 NZD, nebo 8,04 NZD za vozidla se 4 a 6 lůžky s toaletou a sprchou.",
+            "Cesta o 2 000 km v půjčené naftové dodávce tedy přidá ke konečnému účtu asi 160 až 165 NZD na RUC. Některé firmy vám umožní zaplatit RUC předem jako denní sazbu. Zeptejte se, co je pro plánovanou vzdálenost levnější, a zkontrolujte sazbu ve své smlouvě, protože ji firma může změnit."
+          ],
+          "tips": [
+            "RUC při půjčení: asi 8 NZD za 100 km",
+            "Účtuje se při vrácení dodávky",
+            "2 000 km: asi 160 NZD"
+          ],
+          "table": {
+            "caption": "Poplatky půjčoven za RUC na 100 km z podmínek každé firmy. Přečteno 3. listopadu 2026.",
+            "head": [
+              "Firma",
+              "Standardní dodávky",
+              "4 a 6 lůžek s toaletou a sprchou"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (jedna sazba pro všechny dodávky)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Je naftový obytný vůz levnější než benzinový?",
+          "body": [
+            "Na litr je nafta u stojanu levnější, protože neobsahuje silniční daň. Týdenní sledování cen paliv MBIE za týden z 23. října 2026 uvádělo běžný benzin 91 za 3,61 NZD za litr a naftu za 3,24 NZD. RUC pak u vaší vlastní dodávky přidá asi 7,6 centu na kilometr, u půjčené asi 8 centů.",
+            "Při stejné spotřebě vyhrává benzin: dodávka se spotřebou 10 litrů na 100 km stojí na benzin asi 36 NZD na 100 km a na naftu asi 32 NZD plus 8 NZD RUC, tedy 40 NZD. Nafta vychází lépe jen tehdy, když naftová dodávka spotřebuje zřetelně méně paliva než benzinová. Porovnávejte skutečnou spotřebu obou dodávek, ne cenu u stojanu."
+          ],
+          "tips": [
+            "Stejná spotřeba: benzin je levnější",
+            "Nafta vyhrává jen při nižší spotřebě",
+            "Porovnávejte litry na 100 km"
+          ]
+        },
+        {
+          "heading": "Pokud vlastníte naftový obytný vůz",
+          "body": [
+            "Dodávka, kterou vlastníte, musí mít platnou licenci RUC, viditelnou na čelním skle, která pokrývá vzdálenost na tachometru, a další blok kupujete, než dosáhnete limitu. Licence zůstává u vozidla, takže nevyužité RUC při prodeji přechází na dalšího majitele a za vozidlo, které prodáte, sešrotujete nebo vyvezete, můžete požádat o vrácení, pokud zbývá nevyužito alespoň 20 NZD.",
+            "Když kupujete ojetou naftovou dodávku, porovnejte štítek RUC s tachometrem. Pokud už dodávka ujela víc, než pokrývá licence, kupujete i tuto vzdálenost."
+          ],
+          "tips": [
+            "Držte RUC před tachometrem",
+            "Nevyužité RUC zůstává u dodávky",
+            "Při koupi zkontrolujte štítek"
+          ]
+        },
+        {
+          "heading": "Co se změní dál",
+          "body": [
+            "Nový Zéland během palivové krize v roce 2026 nesnížil spotřební daň z paliv ani RUC. Ministryně financí snížení RUC v březnu 2026 vyloučila. Dne 31. srpna 2026 vláda zrušila zvýšení spotřební daně z paliv plánované na 1. ledna 2027 a odložila i odpovídající zvýšení RUC, přičemž zvýšení jsou nyní plánována od 1. ledna 2028.",
+            "Vláda také plánuje převést benzinová vozidla na RUC a zrušit spotřební daň z benzinu. Návrh zákona Land Transport (Revenue) Amendment Bill, předložený v listopadu 2025, tuto změnu zahajuje, ale datum přechodu benzinových aut nebylo stanoveno, takže benzinový obytný vůz v sezoně 2026/27 stále platí silniční daň u stojanu."
+          ],
+          "tips": [
+            "Žádné zvýšení RUC 1. ledna 2027",
+            "Benzinová auta zatím nejsou v RUC",
+            "Zvýšení plánována od roku 2028"
+          ]
+        },
+        {
+          "heading": "Plánujte vzdálenosti v KiwiCamping",
+          "body": [
+            "KiwiCamping sčítá jízdní vzdálenost mezi zastávkami vaší cesty, takže můžete před rezervací odhadnout kilometry a RUC u půjčené naftové dodávky. Uložte si kempy a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninové parky</a>, kde se zastavíte, a cesta si uchová součet.",
+            "Vzdálenost potřebuje k výpočtu trasy připojení, stejně jako mapa, počasí a fotografie, ale každé uložené místo si ponechává své údaje v telefonu pro úseky bez signálu."
+          ],
+          "tips": [
+            "Sečtěte vzdálenost své cesty",
+            "Odhadněte RUC před rezervací"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Platím silniční poplatek RUC u půjčeného obytného vozu na Novém Zélandu?",
+          "Ano, pokud jede na naftu. Půjčovna účtuje RUC za ujeté kilometry, obvykle při vrácení dodávky: Maui účtuje 8,04 NZD za 100 km, JUCY 8,00 NZD a Mighty Campers 7,64 NZD u většiny dodávek. Benzinové dodávky RUC neplatí."
+        ],
+        [
+          "Kolik je RUC za naftový obytný vůz v roce 2026?",
+          "76 NZD za 1 000 km u lehkého naftového vozidla do 3 500 kg a 82 NZD za 3 501 až 6 000 kg, plus administrativní poplatek 12,44 NZD při nákupu online. Zvýšení plánované na 1. ledna 2027 bylo odloženo na rok 2028."
+        ],
+        [
+          "Je na Novém Zélandu levnější naftový, nebo benzinový obytný vůz?",
+          "Při stejné spotřebě je levnější benzin: nafta stojí u stojanu méně, ale RUC přidá asi 8 centů na kilometr. Naftová dodávka ušetří peníze jen tehdy, když spotřebuje zřetelně méně paliva než benzinová."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: sazby RUC a transakční poplatky"
+        },
+        {
+          "label": "Calculate.co.nz: novozélandské sazby RUC 2026"
+        },
+        {
+          "label": "Maui: často kladené otázky"
+        },
+        {
+          "label": "JUCY New Zealand: nájemní smlouva, rezervace od 1. května 2026"
+        },
+        {
+          "label": "Mighty Campers: poplatky a náklady"
+        },
+        {
+          "label": "MBIE: týdenní sledování cen paliv"
+        },
+        {
+          "label": "RNZ: Nicola Willis vylučuje snížení RUC"
+        },
+        {
+          "label": "1News: vláda ruší zvýšení spotřební daně z paliv v roce 2027"
+        },
+        {
+          "label": "Ministry of Transport: systém RUC"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Můžete spát v autě na Novém Zélandu? Pravidla 2026",
       "description": "Odpočinek kvůli únavě řidiče je z pravidel vyňat, ale plánovaná noc v autě na pozemku samosprávy stojí pokutu 400 NZD, pokud vyhláška dané místo nejmenuje. Pravidla 2026 podle typu pozemku.",

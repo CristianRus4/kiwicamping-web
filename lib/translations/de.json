@@ -12788,6 +12788,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Straßennutzungsgebühren (RUC) für Campervans in Neuseeland 2026/27: Tarife und Mietgebühren",
+      "description": "Diesel-Campervans zahlen 76 NZD RUC pro 1.000 km, Vermieter berechnen etwa 8 NZD pro 100 km. Was RUC kostet und ob Diesel günstiger ist als Benzin.",
+      "region": "Neuseeland",
+      "imageAlt": "Eine kleine G.A.S-Tankstelle in Waikari in North Canterbury, mit Zapfsäulen vor einem orange-weißen Laden",
+      "intro": "In Neuseeland steckt die Straßensteuer bei Dieselfahrzeugen nicht im Spritpreis. Sie zahlen stattdessen Straßennutzungsgebühren (Road User Charges, RUC) pro Kilometer. Für ein leichtes Dieselfahrzeug bis 3.500 kg betragen die RUC 76 NZD pro 1.000 km, also etwa 7,6 Cent pro Kilometer, und ein Vermieter berechnet sie bei der Rückgabe mit etwa 8 NZD pro 100 km. Benzinfahrzeuge zahlen ihre Straßensteuer an der Zapfsäule und keine RUC. Wir haben die Tariftabellen und die Bedingungen der Vermieter am 3. November 2026 gelesen.",
+      "sections": [
+        {
+          "heading": "RUC-Tarife für Campervans",
+          "body": [
+            "RUC kauft man für ein eigenes Fahrzeug in Blöcken zu 1.000 km, zu einem Tarif, der von Fahrzeugart und Gewicht abhängt. Die meisten Campervans sind leichte Fahrzeuge bis 3.500 kg und zahlen 76 NZD pro 1.000 km. Ein größeres Wohnmobil von 3.501 bis 6.000 kg zahlt 82 NZD. Bei jedem Kauf kommt eine Bearbeitungsgebühr dazu: 12,44 NZD online oder in der NZTA-App und 13,71 NZD am Schalter einer Vertretung.",
+            "Batterie-Elektrofahrzeuge zahlen mit 76 NZD dasselbe wie leichte Diesel, Plug-in-Benzin-Hybride 38 NZD. Ein normales Benzin- oder Benzin-Hybridfahrzeug zahlt keine RUC. Die eigene Tarifseite der NZTA blockiert automatisches Auslesen, deshalb stammen diese Zahlen aus einer veröffentlichten Kopie der Tariftabelle, die ab 6. August 2026 gilt. Prüf sie vor dem Kauf bei der NZTA nach."
+          ],
+          "tips": [
+            "Leichter Diesel: 76 NZD pro 1.000 km",
+            "3,5 bis 6 Tonnen: 82 NZD",
+            "Bearbeitungsgebühr: 12,44 NZD online"
+          ],
+          "table": {
+            "caption": "RUC-Tarife für leichte Fahrzeuge pro 1.000 km, inklusive GST (Mehrwertsteuer), gültig ab 6. August 2026.",
+            "head": [
+              "Fahrzeug",
+              "Tarif pro 1.000 km"
+            ],
+            "rows": [
+              [
+                "Leichter Diesel, bis 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Diesel, 3.501 bis 6.000 kg (zwei Achsen)",
+                "82 NZD"
+              ],
+              [
+                "Batterie-Elektro, bis 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Plug-in-Benzin-Hybrid",
+                "38 NZD"
+              ],
+              [
+                "Benzin oder Benzin-Hybrid",
+                "Keine RUC; die Steuer steckt im Spritpreis"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Was Vermieter berechnen",
+          "body": [
+            "Ein Vermieter kauft die RUC für seine Vans und berechnet dir die gefahrenen Kilometer, meist bei der Rückgabe. Maui berechnet 8,04 NZD pro 100 km oder 8,18 NZD für die Fahrzeuge mit 4 und 6 Schlafplätzen mit Toilette und Dusche und sagt, dass der Betrag bei der Rückgabe berechnet und eingezogen wird. Der Mietvertrag von JUCY für Buchungen ab 1. Mai 2026 legt 8,00 NZD pro 100 km fest. Mighty Campers nennt 7,64 NZD oder 8,04 NZD für seine Fahrzeuge mit 4 und 6 Schlafplätzen mit Toilette und Dusche.",
+            "Eine Fahrt von 2.000 km im gemieteten Diesel-Van erhöht die Endabrechnung also um etwa 160 bis 165 NZD an RUC. Manche Firmen lassen dich die RUC stattdessen als Tagespauschale im Voraus zahlen. Frag, was für deine geplante Strecke günstiger ist, und prüf den Tarif in deinem eigenen Vertrag, denn eine Firma kann ihn ändern."
+          ],
+          "tips": [
+            "RUC bei der Miete: etwa 8 NZD pro 100 km",
+            "Abrechnung bei der Rückgabe des Vans",
+            "2.000 km: etwa 160 NZD"
+          ],
+          "table": {
+            "caption": "RUC-Gebühren der Vermieter pro 100 km, aus den Bedingungen der jeweiligen Firma. Gelesen am 3. November 2026.",
+            "head": [
+              "Firma",
+              "Standard-Vans",
+              "4 und 6 Schlafplätze mit Toilette und Dusche"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (ein Tarif für alle Vans)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ist ein Diesel-Campervan günstiger als Benzin?",
+          "body": [
+            "Pro Liter ist Diesel an der Zapfsäule günstiger, weil keine Straßensteuer darin steckt. Die wöchentliche Kraftstoffpreisbeobachtung des MBIE für die Woche vom 23. Oktober 2026 nannte für Super 91 einen Preis von 3,61 NZD pro Liter und für Diesel 3,24 NZD. Dazu kommen dann bei deinem eigenen Van etwa 7,6 Cent pro Kilometer RUC, bei einem Mietvan etwa 8 Cent.",
+            "Bei gleichem Verbrauch gewinnt Benzin: Ein Van mit 10 Litern auf 100 km kostet mit Benzin etwa 36 NZD pro 100 km, mit Diesel etwa 32 NZD plus 8 NZD RUC, also 40 NZD. Diesel liegt nur vorn, wenn der Diesel-Van deutlich weniger verbraucht als der Benziner. Vergleich den tatsächlichen Verbrauch der beiden Vans, nicht den Preis an der Zapfsäule."
+          ],
+          "tips": [
+            "Gleicher Verbrauch: Benzin ist günstiger",
+            "Diesel gewinnt nur bei geringerem Verbrauch",
+            "Liter pro 100 km vergleichen"
+          ]
+        },
+        {
+          "heading": "Wenn dir ein Diesel-Campervan gehört",
+          "body": [
+            "Ein eigener Van braucht eine gültige RUC-Lizenz an der Windschutzscheibe, die den Kilometerstand abdeckt. Den nächsten Block kaufst du, bevor du das Limit erreichst. Die Lizenz bleibt am Fahrzeug, nicht verbrauchte RUC gehen beim Verkauf also an den nächsten Besitzer über. Verkaufst, verschrottest oder exportierst du das Fahrzeug, kannst du eine Erstattung beantragen, wenn mindestens 20 NZD übrig sind.",
+            "Wenn du einen gebrauchten Diesel-Van kaufst, vergleich das RUC-Etikett mit dem Kilometerstand. Ist der Van schon über seine Lizenz hinausgefahren, kaufst du diese Strecke mit."
+          ],
+          "tips": [
+            "RUC dem Kilometerstand voraus halten",
+            "Nicht verbrauchte RUC bleiben beim Van",
+            "Beim Kauf das Etikett prüfen"
+          ]
+        },
+        {
+          "heading": "Was sich als Nächstes ändert",
+          "body": [
+            "Neuseeland hat die Kraftstoffsteuer (Excise) und die RUC während der Spritkrise 2026 nicht gesenkt. Die Finanzministerin schloss im März 2026 eine RUC-Senkung aus. Am 31. August 2026 strich die Regierung die für den 1. Januar 2027 vorgesehene Erhöhung der Kraftstoffsteuer und verschob auch die entsprechende RUC-Erhöhung. Die Erhöhungen sind jetzt ab 1. Januar 2028 geplant.",
+            "Die Regierung plant außerdem, Benzinfahrzeuge auf RUC umzustellen und die Benzinsteuer abzuschaffen. Der im November 2025 eingebrachte Land Transport (Revenue) Amendment Bill leitet diese Änderung ein, aber ein Umstellungstermin für Benzin-Pkw steht noch nicht fest. Ein Benzin-Campervan zahlt seine Straßensteuer 2026/27 also weiterhin an der Zapfsäule."
+          ],
+          "tips": [
+            "Keine RUC-Erhöhung am 1. Januar 2027",
+            "Benziner noch nicht bei RUC",
+            "Erhöhungen ab 2028 geplant"
+          ]
+        },
+        {
+          "heading": "Strecken in KiwiCamping planen",
+          "body": [
+            "KiwiCamping addiert die Fahrstrecke zwischen den Stopps deiner Reise. So kannst du die Kilometer und die RUC für einen gemieteten Diesel-Van schon vor der Buchung abschätzen. Speichere die Campingplätze und <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>, an denen du hältst, und die Reise behält die Summe.",
+            "Für die Strecke braucht es eine Verbindung, wie auch für Karte, Wetter und Fotos. Jeder gespeicherte Ort behält seine Details aber auf dem Handy, für die Abschnitte ohne Empfang."
+          ],
+          "tips": [
+            "Gesamtstrecke deiner Reise addieren",
+            "RUC vor der Buchung abschätzen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Zahle ich in Neuseeland RUC für einen gemieteten Campervan?",
+          "Ja, wenn er Diesel fährt. Der Vermieter berechnet die RUC für die gefahrenen Kilometer, meist bei der Rückgabe: Maui berechnet 8,04 NZD pro 100 km, JUCY 8,00 NZD und Mighty Campers 7,64 NZD für die meisten Vans. Benzin-Vans zahlen keine RUC."
+        ],
+        [
+          "Wie viel kosten RUC für einen Diesel-Campervan 2026?",
+          "76 NZD pro 1.000 km für ein leichtes Dieselfahrzeug bis 3.500 kg und 82 NZD für 3.501 bis 6.000 kg, dazu eine Bearbeitungsgebühr von 12,44 NZD beim Kauf online. Die für den 1. Januar 2027 geplante Erhöhung wurde auf 2028 verschoben."
+        ],
+        [
+          "Ist ein Diesel- oder ein Benzin-Campervan in Neuseeland günstiger?",
+          "Bei gleichem Verbrauch ist Benzin günstiger: Diesel kostet an der Zapfsäule weniger, aber die RUC schlagen mit etwa 8 Cent pro Kilometer zu Buche. Ein Diesel-Van spart nur Geld, wenn er deutlich weniger verbraucht als der Benziner."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: RUC-Tarife und Transaktionsgebühren"
+        },
+        {
+          "label": "Calculate.co.nz: neuseeländische RUC-Tarife 2026"
+        },
+        {
+          "label": "Maui: häufig gestellte Fragen"
+        },
+        {
+          "label": "JUCY New Zealand: Mietvertrag, Buchungen ab 1. Mai 2026"
+        },
+        {
+          "label": "Mighty Campers: Gebühren und Kosten"
+        },
+        {
+          "label": "MBIE: wöchentliche Kraftstoffpreisbeobachtung"
+        },
+        {
+          "label": "RNZ: Nicola Willis schließt Senkung der RUC aus"
+        },
+        {
+          "label": "1News: Regierung streicht Erhöhung der Kraftstoffsteuer 2027"
+        },
+        {
+          "label": "Ministry of Transport: das RUC-System"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Kann ich in meinem Auto in Neuseeland schlafen? (Regeln 2026)",
       "description": "Ausruhen, um Fahrermüdigkeit zu vermeiden, ist ausgenommen, aber eine geplante Nacht im Auto auf kommunalem Land kostet 400 $ Bußgeld, es sei denn, eine Satzung benennt diesen Ort. Regeln 2026, nach Landtyp.",

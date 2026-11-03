@@ -12788,6 +12788,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Road user charges (RUC) para autocaravanas en Nueva Zelanda 2026/27: tarifas y cargos de alquiler",
+      "description": "Las autocaravanas diésel pagan 76 NZD de RUC por cada 1.000 km y las empresas de alquiler cobran unos 8 NZD por cada 100 km. Cuánto cuesta el RUC y si el diésel sale mejor que la gasolina.",
+      "region": "Nueva Zelanda",
+      "imageAlt": "Una pequeña gasolinera G.A.S en Waikari, en North Canterbury, con los surtidores delante de una tienda naranja y blanca",
+      "intro": "En Nueva Zelanda, los vehículos diésel no pagan el impuesto de carretera dentro del precio del combustible: pagan en su lugar road user charges (RUC) por kilómetro. Para un vehículo diésel ligero de hasta 3.500 kg, el RUC es de 76 NZD por cada 1.000 km, unos 7,6 centavos por kilómetro, y la empresa de alquiler lo cobra a unos 8 NZD por cada 100 km cuando devuelves la furgoneta. Los vehículos de gasolina pagan su impuesto de carretera en el surtidor y no pagan RUC. Leímos las tablas de tarifas y las condiciones de las empresas de alquiler el 3 de noviembre de 2026.",
+      "sections": [
+        {
+          "heading": "Tarifas de RUC para autocaravanas",
+          "body": [
+            "El RUC se compra en bloques de 1.000 km para un vehículo propio, con una tarifa que depende del tipo y el peso del vehículo. La mayoría de las autocaravanas son vehículos ligeros, de hasta 3.500 kg, a 76 NZD por cada 1.000 km. Una autocaravana más grande, de 3.501 a 6.000 kg, paga 82 NZD. A cada compra se añade una tarifa de gestión: 12,44 NZD por internet o en la aplicación de la NZTA y 13,71 NZD en el mostrador de un agente.",
+            "Los vehículos eléctricos de batería pagan los mismos 76 NZD que los diésel ligeros, y los híbridos enchufables de gasolina 38 NZD. Un vehículo de gasolina o híbrido de gasolina normal no paga RUC. La propia página de tarifas de la NZTA bloquea la lectura automática, así que estas cifras salen de una copia publicada de la tabla de tarifas vigente desde el 6 de agosto de 2026; confírmalas en la NZTA antes de comprar."
+          ],
+          "tips": [
+            "Diésel ligero: 76 NZD por 1.000 km",
+            "De 3,5 a 6 toneladas: 82 NZD",
+            "Tarifa de gestión: 12,44 NZD por internet"
+          ],
+          "table": {
+            "caption": "Tarifas de RUC para vehículos ligeros por cada 1.000 km, con GST (impuesto sobre bienes y servicios) incluido, vigentes desde el 6 de agosto de 2026.",
+            "head": [
+              "Vehículo",
+              "Tarifa por 1.000 km"
+            ],
+            "rows": [
+              [
+                "Diésel ligero, hasta 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Diésel, de 3.501 a 6.000 kg (dos ejes)",
+                "82 NZD"
+              ],
+              [
+                "Eléctrico de batería, hasta 3.500 kg",
+                "76 NZD"
+              ],
+              [
+                "Híbrido enchufable de gasolina",
+                "38 NZD"
+              ],
+              [
+                "Gasolina o híbrido de gasolina",
+                "Sin RUC; el impuesto va en el precio del combustible"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Lo que cobran las empresas de alquiler",
+          "body": [
+            "Una empresa de alquiler compra el RUC de sus furgonetas y te cobra los kilómetros que conduces, normalmente cuando la devuelves. Maui cobra 8,04 NZD por cada 100 km, u 8,18 NZD en sus vehículos de 4 y 6 plazas con baño y ducha, y dice que se calcula y se cobra a la devolución. El contrato de alquiler de JUCY para reservas desde el 1 de mayo de 2026 fija 8,00 NZD por cada 100 km. Mighty Campers indica 7,64 NZD, u 8,04 NZD en sus vehículos de 4 y 6 plazas con baño y ducha.",
+            "Un viaje de 2.000 km en una furgoneta diésel de alquiler suma por tanto unos 160 a 165 NZD de RUC a la factura final. Algunas empresas te dejan pagarlo por adelantado como tarifa diaria; pregunta cuál sale mejor para la distancia que planeas y comprueba la tarifa en tu propio contrato, porque una empresa puede cambiarla."
+          ],
+          "tips": [
+            "RUC de alquiler: unos 8 NZD por 100 km",
+            "Se factura al devolver la furgoneta",
+            "2.000 km: unos 160 NZD"
+          ],
+          "table": {
+            "caption": "Cargos de RUC de las empresas de alquiler por cada 100 km, según las condiciones de cada empresa. Leído el 3 de noviembre de 2026.",
+            "head": [
+              "Empresa",
+              "Furgonetas estándar",
+              "De 4 y 6 plazas con baño y ducha"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (una tarifa para todas las furgonetas)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "¿Es más barata una autocaravana diésel que una de gasolina?",
+          "body": [
+            "Por litro, el diésel es más barato en el surtidor porque no lleva impuesto de carretera. El seguimiento semanal de precios de combustible del MBIE para la semana del 23 de octubre de 2026 situó la gasolina normal 91 en 3,61 NZD el litro y el diésel en 3,24 NZD. El RUC suma luego unos 7,6 centavos por kilómetro en una furgoneta propia, o unos 8 centavos en una de alquiler.",
+            "Con el mismo consumo, gana la gasolina: una furgoneta que gasta 10 litros por 100 km cuesta unos 36 NZD por 100 km con gasolina, y unos 32 NZD en diésel más 8 NZD de RUC, es decir, 40 NZD. El diésel solo sale ganando cuando la furgoneta diésel gasta claramente menos combustible que la de gasolina. Compara el consumo real de las dos furgonetas, no el precio del surtidor."
+          ],
+          "tips": [
+            "Mismo consumo: la gasolina sale más barata",
+            "El diésel solo gana con menor consumo",
+            "Compara litros por 100 km"
+          ]
+        },
+        {
+          "heading": "Si tienes una autocaravana diésel",
+          "body": [
+            "Una furgoneta propia debe llevar una licencia de RUC en vigor, visible en el parabrisas, que cubra la distancia del cuentakilómetros, y compras el siguiente bloque antes de llegar al límite. La licencia se queda con el vehículo, así que el RUC sin usar pasa al siguiente propietario cuando vendes, y puedes pedir un reembolso por un vehículo que vendas, desguaces o exportes si quedan al menos 20 NZD sin usar.",
+            "Cuando compres una furgoneta diésel usada, compara la etiqueta del RUC con el cuentakilómetros. Si la furgoneta ya ha recorrido más que su licencia, también estarás comprando esa distancia."
+          ],
+          "tips": [
+            "Mantén el RUC por delante del cuentakilómetros",
+            "El RUC sin usar se queda con la furgoneta",
+            "Comprueba la etiqueta al comprar"
+          ]
+        },
+        {
+          "heading": "Qué cambia a continuación",
+          "body": [
+            "Nueva Zelanda no redujo el impuesto especial sobre el combustible ni el RUC durante la crisis de combustible de 2026; la ministra de Finanzas descartó una rebaja del RUC en marzo de 2026. El 31 de agosto de 2026 el Gobierno eliminó el aumento del impuesto especial sobre el combustible previsto para el 1 de enero de 2027 y retrasó también el aumento equivalente del RUC, con subidas previstas ahora desde el 1 de enero de 2028.",
+            "El Gobierno también planea pasar los vehículos de gasolina al RUC y eliminar el impuesto especial sobre la gasolina. El proyecto de ley Land Transport (Revenue) Amendment Bill, presentado en noviembre de 2025, inicia ese cambio, pero no se ha fijado fecha para el cambio de los coches de gasolina, así que una autocaravana de gasolina sigue pagando su impuesto de carretera en el surtidor en 2026/27."
+          ],
+          "tips": [
+            "Sin subida del RUC el 1 de enero de 2027",
+            "Los coches de gasolina aún no pagan RUC",
+            "Subidas previstas desde 2028"
+          ]
+        },
+        {
+          "heading": "Planifica las distancias en KiwiCamping",
+          "body": [
+            "KiwiCamping suma la distancia de conducción entre las paradas de tu viaje, para que puedas estimar los kilómetros, y el RUC de una furgoneta diésel de alquiler, antes de reservar. Guarda los campings y <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> donde vas a parar, y el viaje guarda el total.",
+            "La distancia necesita conexión para calcular la ruta, igual que el mapa, el tiempo y las fotos, pero cada lugar guardado conserva sus datos en el teléfono para los tramos sin cobertura."
+          ],
+          "tips": [
+            "Suma la distancia de tu viaje",
+            "Estima el RUC antes de reservar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Pago road user charges en una autocaravana de alquiler en Nueva Zelanda?",
+          "Sí, si es diésel. La empresa de alquiler cobra el RUC por los kilómetros que conduces, normalmente cuando devuelves la furgoneta: Maui cobra 8,04 NZD por cada 100 km, JUCY 8,00 NZD y Mighty Campers 7,64 NZD en la mayoría de las furgonetas. Las furgonetas de gasolina no pagan RUC."
+        ],
+        [
+          "¿Cuánto es el RUC de una autocaravana diésel en 2026?",
+          "76 NZD por cada 1.000 km para un vehículo diésel ligero de hasta 3.500 kg y 82 NZD para de 3.501 a 6.000 kg, más una tarifa de gestión de 12,44 NZD si compras por internet. El aumento previsto para el 1 de enero de 2027 se ha retrasado a 2028."
+        ],
+        [
+          "¿Es más barata una autocaravana diésel o de gasolina en Nueva Zelanda?",
+          "Con el mismo consumo, la gasolina sale más barata: el diésel cuesta menos en el surtidor, pero el RUC suma unos 8 centavos por kilómetro. Una furgoneta diésel solo ahorra dinero si gasta claramente menos combustible que la de gasolina."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: tarifas de RUC y tasas por transacción"
+        },
+        {
+          "label": "Calculate.co.nz: tarifas de RUC en Nueva Zelanda 2026"
+        },
+        {
+          "label": "Maui: preguntas frecuentes"
+        },
+        {
+          "label": "JUCY New Zealand: contrato de alquiler, reservas desde el 1 de mayo de 2026"
+        },
+        {
+          "label": "Mighty Campers: tarifas y cargos"
+        },
+        {
+          "label": "MBIE: seguimiento semanal de precios de combustible"
+        },
+        {
+          "label": "RNZ: Nicola Willis descarta una reducción del RUC"
+        },
+        {
+          "label": "1News: el Gobierno elimina el aumento del impuesto al combustible de 2027"
+        },
+        {
+          "label": "Ministry of Transport: el sistema de RUC"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "¿Puedo dormir en mi coche en Nueva Zelanda? Normas 2026",
       "description": "Descansar por fatiga está exento, pero una noche planificada en coche en terreno municipal cuesta 400 NZD si ninguna ordenanza cita el sitio. Normas 2026.",

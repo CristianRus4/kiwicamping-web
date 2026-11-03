@@ -12788,6 +12788,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Redevances routières (RUC) pour les camping-cars en Nouvelle-Zélande 2026/27 : tarifs et frais de location",
+      "description": "Les camping-cars diesel paient 76 $ de RUC par tranche de 1 000 km, et les loueurs facturent environ 8 $ par 100 km. Ce que coûte la RUC et si le diesel est plus avantageux que l'essence.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Une petite station-service G.A.S à Waikari, dans le North Canterbury, avec des pompes devant une boutique orange et blanche",
+      "intro": "En Nouvelle-Zélande, les véhicules diesel ne paient pas la taxe routière dans le prix du carburant : ils paient à la place des redevances routières (RUC, road user charges) au kilomètre. Pour un véhicule diesel léger de 3 500 kg au plus, la RUC est de 76 $ par tranche de 1 000 km, soit environ 7,6 cents le kilomètre, et un loueur la facture à environ 8 $ par 100 km quand vous rendez le van. Les véhicules à essence paient leur taxe routière à la pompe et pas de RUC. Nous avons lu les barèmes et les conditions des loueurs le 3 novembre 2026.",
+      "sections": [
+        {
+          "heading": "Les tarifs de RUC pour les camping-cars",
+          "body": [
+            "La RUC s'achète par tranches de 1 000 km pour un véhicule dont vous êtes propriétaire, à un tarif fixé selon le type et le poids du véhicule. La plupart des camping-cars sont des véhicules légers, de 3 500 kg au plus, à 76 $ par tranche de 1 000 km. Un camping-car plus gros, de 3 501 à 6 000 kg, paie 82 $. Des frais de gestion s'ajoutent à chaque achat : 12,44 $ en ligne ou dans l'appli de la NZTA, et 13,71 $ au guichet d'un agent.",
+            "Les véhicules électriques à batterie paient les mêmes 76 $ que les diesel légers, et les hybrides rechargeables à essence 38 $. Un véhicule à essence ou hybride à essence ordinaire ne paie pas de RUC. La page des tarifs de la NZTA bloque la lecture automatique, donc ces chiffres viennent d'une copie publiée du barème en vigueur depuis le 6 août 2026 ; vérifiez-les auprès de la NZTA avant d'acheter."
+          ],
+          "tips": [
+            "Diesel léger : 76 $ par 1 000 km",
+            "De 3,5 à 6 tonnes : 82 $",
+            "Frais de gestion : 12,44 $ en ligne"
+          ],
+          "table": {
+            "caption": "Tarifs de RUC pour les véhicules légers par tranche de 1 000 km, GST (taxe sur les biens et services) comprise, en vigueur depuis le 6 août 2026.",
+            "head": [
+              "Véhicule",
+              "Tarif par 1 000 km"
+            ],
+            "rows": [
+              [
+                "Diesel léger, jusqu'à 3 500 kg",
+                "76 $"
+              ],
+              [
+                "Diesel, de 3 501 à 6 000 kg (deux essieux)",
+                "82 $"
+              ],
+              [
+                "Électrique à batterie, jusqu'à 3 500 kg",
+                "76 $"
+              ],
+              [
+                "Hybride rechargeable à essence",
+                "38 $"
+              ],
+              [
+                "Essence ou hybride à essence",
+                "Pas de RUC ; la taxe est dans le prix du carburant"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ce que facturent les loueurs",
+          "body": [
+            "Un loueur achète la RUC de ses vans et vous facture les kilomètres parcourus, en général au retour du van. Maui facture 8,04 $ par 100 km, ou 8,18 $ pour ses véhicules de 4 et 6 couchages avec toilettes et douche, et précise que le montant est calculé et prélevé au retour. Le contrat de location de JUCY pour les réservations à partir du 1er mai 2026 fixe 8,00 $ par 100 km. Mighty Campers indique 7,64 $, ou 8,04 $ pour ses véhicules de 4 et 6 couchages avec toilettes et douche.",
+            "Un trajet de 2 000 km dans un van diesel de location ajoute donc environ 160 à 165 $ de RUC à la facture finale. Certains loueurs vous laissent la prépayer sous forme de tarif journalier ; demandez ce qui est le moins cher pour la distance prévue, et vérifiez le tarif dans votre propre contrat, car un loueur peut le modifier."
+          ],
+          "tips": [
+            "RUC en location : environ 8 $ par 100 km",
+            "Facturée au retour du van",
+            "2 000 km : environ 160 $"
+          ],
+          "table": {
+            "caption": "Frais de RUC des loueurs par 100 km, d'après les conditions de chaque société. Consulté le 3 novembre 2026.",
+            "head": [
+              "Société",
+              "Vans standard",
+              "4 et 6 couchages avec toilettes et douche"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 $",
+                "8,18 $"
+              ],
+              [
+                "JUCY",
+                "8,00 $",
+                "8,00 $ (un seul tarif pour tous les vans)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 $",
+                "8,04 $"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Un camping-car diesel coûte-t-il moins cher qu'à l'essence ?",
+          "body": [
+            "Au litre, le diesel est moins cher à la pompe parce qu'il ne contient pas de taxe routière. Le suivi hebdomadaire des prix des carburants du MBIE pour la semaine du 23 octobre 2026 donnait le sans-plomb 91 à 3,61 $ le litre et le diesel à 3,24 $. La RUC ajoute ensuite environ 7,6 cents le kilomètre sur votre propre van, ou environ 8 cents sur un van de location.",
+            "À consommation égale, l'essence gagne : un van qui consomme 10 litres aux 100 km coûte environ 36 $ aux 100 km à l'essence, et environ 32 $ en diesel plus 8 $ de RUC, soit 40 $. Le diesel ne l'emporte que si le van diesel consomme nettement moins que celui à essence. Comparez la consommation réelle des deux vans, pas le prix à la pompe."
+          ],
+          "tips": [
+            "Même consommation : l'essence coûte moins",
+            "Le diesel ne gagne qu'avec une consommation plus basse",
+            "Comparez les litres aux 100 km"
+          ]
+        },
+        {
+          "heading": "Si vous possédez un camping-car diesel",
+          "body": [
+            "Un van dont vous êtes propriétaire doit porter une licence RUC en cours de validité, visible sur le pare-brise, qui couvre la distance de son compteur, et vous achetez la tranche suivante avant d'atteindre la limite. La licence reste attachée au véhicule : la RUC non utilisée passe donc au propriétaire suivant à la revente, et vous pouvez demander un remboursement pour un véhicule que vous vendez, mettez à la casse ou exportez si au moins 20 $ restent inutilisés.",
+            "Quand vous achetez un van diesel d'occasion, comparez l'étiquette RUC avec le compteur. Si le van a déjà dépassé sa licence, vous achetez aussi cette distance."
+          ],
+          "tips": [
+            "Gardez la RUC en avance sur le compteur",
+            "La RUC non utilisée reste avec le van",
+            "Vérifiez l'étiquette à l'achat"
+          ]
+        },
+        {
+          "heading": "Ce qui change ensuite",
+          "body": [
+            "La Nouvelle-Zélande n'a réduit ni l'accise sur les carburants ni la RUC pendant la crise des carburants de 2026 ; la ministre des Finances a écarté une baisse de la RUC en mars 2026. Le 31 août 2026, le gouvernement a supprimé la hausse de l'accise sur les carburants prévue le 1er janvier 2027 et a aussi repoussé la hausse correspondante de la RUC, avec des hausses désormais prévues à partir du 1er janvier 2028.",
+            "Le gouvernement prévoit aussi de faire passer les véhicules à essence à la RUC et de supprimer l'accise sur l'essence. Le projet de loi Land Transport (Revenue) Amendment Bill, présenté en novembre 2025, lance ce changement, mais aucune date de bascule n'a été fixée pour les voitures à essence : un camping-car à essence paie donc toujours sa taxe routière à la pompe en 2026/27."
+          ],
+          "tips": [
+            "Pas de hausse de la RUC le 1er janvier 2027",
+            "Les voitures à essence pas encore à la RUC",
+            "Hausses prévues à partir de 2028"
+          ]
+        },
+        {
+          "heading": "Planifier les distances dans KiwiCamping",
+          "body": [
+            "KiwiCamping additionne la distance de conduite entre les étapes de votre voyage, pour que vous puissiez estimer les kilomètres, et la RUC d'un van diesel de location, avant de réserver. Enregistrez les campings et <a data-guide=\"holiday-parks-new-zealand-guide\">parcs de vacances</a> où vous vous arrêterez, et le voyage garde le total.",
+            "La distance demande une connexion pour calculer l'itinéraire, comme la carte, la météo et les photos, mais chaque lieu enregistré garde ses détails sur le téléphone pour les tronçons sans réseau."
+          ],
+          "tips": [
+            "Additionnez la distance de votre voyage",
+            "Estimez la RUC avant de réserver"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Dois-je payer des redevances routières sur un camping-car de location en Nouvelle-Zélande ?",
+          "Oui, s'il roule au diesel. Le loueur facture la RUC pour les kilomètres parcourus, en général au retour du van : Maui facture 8,04 $ par 100 km, JUCY 8,00 $ et Mighty Campers 7,64 $ pour la plupart des vans. Les vans à essence ne paient pas de RUC."
+        ],
+        [
+          "Combien coûte la RUC pour un camping-car diesel en 2026 ?",
+          "76 $ par tranche de 1 000 km pour un véhicule diesel léger de 3 500 kg au plus, et 82 $ pour 3 501 à 6 000 kg, plus 12,44 $ de frais de gestion quand vous achetez en ligne. La hausse prévue le 1er janvier 2027 a été repoussée à 2028."
+        ],
+        [
+          "Un camping-car diesel ou à essence coûte-t-il moins cher en Nouvelle-Zélande ?",
+          "À consommation égale, l'essence coûte moins : le diesel est moins cher à la pompe, mais la RUC ajoute environ 8 cents le kilomètre. Un van diesel ne fait économiser de l'argent que s'il consomme nettement moins que celui à essence."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA : tarifs de RUC et frais de transaction"
+        },
+        {
+          "label": "Calculate.co.nz : tarifs de RUC en Nouvelle-Zélande 2026"
+        },
+        {
+          "label": "Maui : questions fréquentes"
+        },
+        {
+          "label": "JUCY New Zealand : contrat de location, réservations à partir du 1er mai 2026"
+        },
+        {
+          "label": "Mighty Campers : frais et tarifs"
+        },
+        {
+          "label": "MBIE : suivi hebdomadaire des prix des carburants"
+        },
+        {
+          "label": "RNZ : Nicola Willis écarte une baisse de la RUC"
+        },
+        {
+          "label": "1News : le gouvernement supprime la hausse de l'accise sur les carburants de 2027"
+        },
+        {
+          "label": "Ministry of Transport : le système de RUC"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Puis-je dormir dans ma voiture en Nouvelle-Zélande ? (Règles 2026)",
       "description": "Le stationnement pour éviter la fatigue du conducteur est exempt, mais passer une nuit planifiée dans un véhicule sur un terrain municipal est passible d'une amende de 400 $, sauf si un règlement le prévoit. Règles 2026, par type de terrain.",

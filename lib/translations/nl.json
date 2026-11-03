@@ -12499,6 +12499,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Kilometerheffing (RUC) voor campers in Nieuw-Zeeland 2026/27: tarieven en huurkosten",
+      "description": "Dieselcampers betalen NZ$ 76 RUC per 1.000 km en verhuurbedrijven rekenen ongeveer NZ$ 8 per 100 km. Wat RUC kost en of diesel goedkoper is dan benzine.",
+      "region": "Nieuw-Zeeland",
+      "imageAlt": "Een klein G.A.S-tankstation in Waikari in North Canterbury, met pompen voor een oranje-witte winkel",
+      "intro": "In Nieuw-Zeeland zit de wegenbelasting voor dieselvoertuigen niet in de brandstofprijs. Ze betalen in plaats daarvan een kilometerheffing, de Road User Charges (RUC), per kilometer. Voor een lichte dieselauto tot 3.500 kg is de RUC NZ$ 76 per 1.000 km, ongeveer 7,6 cent per kilometer, en een verhuurbedrijf rekent die bij het inleveren van de camper door voor ongeveer NZ$ 8 per 100 km. Benzinevoertuigen betalen hun wegenbelasting aan de pomp en geen RUC. We hebben de tariefkaarten en de voorwaarden van de verhuurbedrijven op 3 november 2026 gelezen.",
+      "sections": [
+        {
+          "heading": "RUC-tarieven voor campers",
+          "body": [
+            "RUC koop je in blokken van 1.000 km voor een voertuig dat je zelf bezit, tegen een tarief dat afhangt van type en gewicht. De meeste campers zijn lichte voertuigen tot 3.500 kg, tegen NZ$ 76 per 1.000 km. Een grotere kampeerauto van 3.501 tot 6.000 kg betaalt NZ$ 82. Bij elke aankoop komen administratiekosten: NZ$ 12,44 online of in de NZTA-app en NZ$ 13,71 aan de balie van een agent.",
+            "Elektrische voertuigen met een accu betalen dezelfde NZ$ 76 als lichte diesels en plug-in benzinehybrides NZ$ 38. Een gewoon benzine- of benzinehybridevoertuig betaalt geen RUC. De tarievenpagina van de NZTA blokkeert automatisch uitlezen, dus deze cijfers komen uit een gepubliceerde kopie van de tariefkaart die per 6 augustus 2026 geldt. Controleer ze bij de NZTA voordat je koopt."
+          ],
+          "tips": [
+            "Lichte diesel: NZ$ 76 per 1.000 km",
+            "3,5 tot 6 ton: NZ$ 82",
+            "Administratiekosten: NZ$ 12,44 online"
+          ],
+          "table": {
+            "caption": "RUC-tarieven voor lichte voertuigen per 1.000 km, inclusief GST (btw), geldig per 6 augustus 2026.",
+            "head": [
+              "Voertuig",
+              "Tarief per 1.000 km"
+            ],
+            "rows": [
+              [
+                "Lichte diesel, tot 3.500 kg",
+                "NZ$ 76"
+              ],
+              [
+                "Diesel, 3.501 tot 6.000 kg (twee assen)",
+                "NZ$ 82"
+              ],
+              [
+                "Elektrisch met accu, tot 3.500 kg",
+                "NZ$ 76"
+              ],
+              [
+                "Plug-in benzinehybride",
+                "NZ$ 38"
+              ],
+              [
+                "Benzine of benzinehybride",
+                "Geen RUC; de belasting zit in de brandstofprijs"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Wat verhuurbedrijven rekenen",
+          "body": [
+            "Een verhuurbedrijf koopt de RUC voor zijn campers en rekent je de gereden kilometers aan, meestal bij het inleveren. Maui rekent NZ$ 8,04 per 100 km, of NZ$ 8,18 voor zijn voertuigen met 4 en 6 slaapplaatsen met toilet en douche, en zegt dat het bedrag bij inlevering wordt berekend en geïnd. De huurovereenkomst van JUCY voor boekingen vanaf 1 mei 2026 stelt NZ$ 8,00 per 100 km vast. Mighty Campers noemt NZ$ 7,64, of NZ$ 8,04 voor zijn voertuigen met 4 en 6 slaapplaatsen met toilet en douche.",
+            "Een rit van 2.000 km in een gehuurde dieselcamper telt dus ongeveer NZ$ 160 tot NZ$ 165 aan RUC op bij de eindafrekening. Sommige bedrijven laten je de RUC vooruitbetalen als dagtarief. Vraag wat voor je geplande afstand goedkoper is en controleer het tarief in je eigen overeenkomst, want een bedrijf kan het wijzigen."
+          ],
+          "tips": [
+            "RUC bij huur: ongeveer NZ$ 8 per 100 km",
+            "Gefactureerd bij het inleveren van de camper",
+            "2.000 km: ongeveer NZ$ 160"
+          ],
+          "table": {
+            "caption": "RUC-kosten van verhuurbedrijven per 100 km, uit de voorwaarden van elk bedrijf. Gelezen op 3 november 2026.",
+            "head": [
+              "Bedrijf",
+              "Standaardcampers",
+              "4 en 6 slaapplaatsen met toilet en douche"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "NZ$ 8,04",
+                "NZ$ 8,18"
+              ],
+              [
+                "JUCY",
+                "NZ$ 8,00",
+                "NZ$ 8,00 (één tarief voor alle campers)"
+              ],
+              [
+                "Mighty Campers",
+                "NZ$ 7,64",
+                "NZ$ 8,04"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Is een dieselcamper goedkoper dan benzine?",
+          "body": [
+            "Per liter is diesel aan de pomp goedkoper omdat er geen wegenbelasting in zit. De wekelijkse brandstofprijsmonitor van het MBIE voor de week van 23 oktober 2026 noemde gewone benzine 91 NZ$ 3,61 per liter en diesel NZ$ 3,24. De RUC telt daar bij je eigen camper ongeveer 7,6 cent per kilometer bij op, bij een huurcamper ongeveer 8 cent.",
+            "Bij hetzelfde verbruik wint benzine: een camper die 10 liter per 100 km verbruikt kost op benzine ongeveer NZ$ 36 per 100 km en op diesel ongeveer NZ$ 32 plus NZ$ 8 RUC, dus NZ$ 40. Diesel komt pas voordeliger uit als de dieselcamper duidelijk minder verbruikt dan de benzinecamper. Vergelijk het werkelijke verbruik van de twee campers, niet de pompprijs."
+          ],
+          "tips": [
+            "Zelfde verbruik: benzine is goedkoper",
+            "Diesel wint alleen bij lager verbruik",
+            "Vergelijk liters per 100 km"
+          ]
+        },
+        {
+          "heading": "Als je een dieselcamper bezit",
+          "body": [
+            "Een camper die je bezit moet een geldige RUC-licentie hebben, zichtbaar op de voorruit, die de kilometerstand dekt, en je koopt het volgende blok voordat je de limiet bereikt. De licentie blijft bij het voertuig, dus ongebruikte RUC gaat bij verkoop naar de volgende eigenaar, en je kunt restitutie krijgen voor een voertuig dat je verkoopt, sloopt of exporteert als minstens NZ$ 20 ongebruikt is.",
+            "Vergelijk bij de aankoop van een gebruikte dieselcamper het RUC-label met de kilometerteller. Als de camper al voorbij zijn licentie is gereden, koop je die afstand ook mee."
+          ],
+          "tips": [
+            "Houd de RUC voor op de kilometerteller",
+            "Ongebruikte RUC blijft bij de camper",
+            "Controleer het label bij aankoop"
+          ]
+        },
+        {
+          "heading": "Wat er hierna verandert",
+          "body": [
+            "Nieuw-Zeeland verlaagde de brandstofaccijns en de RUC niet tijdens de brandstofcrisis van 2026. De minister van Financiën sloot in maart 2026 een RUC-verlaging uit. Op 31 augustus 2026 schrapte de regering de op 1 januari 2027 geplande verhoging van de brandstofaccijns en stelde ook de bijbehorende RUC-verhoging uit, met verhogingen die nu gepland staan vanaf 1 januari 2028.",
+            "De regering wil ook benzinevoertuigen onder de RUC brengen en de benzineaccijns afschaffen. Het wetsvoorstel Land Transport (Revenue) Amendment Bill, ingediend in november 2025, zet die verandering in gang, maar er is nog geen overgangsdatum voor benzineauto's vastgesteld, dus een benzinecamper betaalt in 2026/27 zijn wegenbelasting nog aan de pomp."
+          ],
+          "tips": [
+            "Geen RUC-verhoging op 1 januari 2027",
+            "Benzineauto's nog niet onder de RUC",
+            "Verhogingen gepland vanaf 2028"
+          ]
+        },
+        {
+          "heading": "Afstanden plannen in KiwiCamping",
+          "body": [
+            "KiwiCamping telt de rijafstand tussen de stops van je reis bij elkaar op, zodat je de kilometers, en de RUC op een gehuurde dieselcamper, kunt inschatten voordat je boekt. Bewaar de campings en <a data-guide=\"holiday-parks-new-zealand-guide\">vakantieparken</a> waar je stopt, en de reis houdt het totaal bij.",
+            "Voor de afstand is een verbinding nodig om de route te berekenen, net als voor de kaart, het weer en de foto's, maar elke bewaarde plek houdt zijn details op de telefoon voor de stukken zonder bereik."
+          ],
+          "tips": [
+            "Tel de afstand van je reis op",
+            "Schat de RUC in voordat je boekt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Betaal ik kilometerheffing op een gehuurde camper in Nieuw-Zeeland?",
+          "Ja, als hij op diesel rijdt. Het verhuurbedrijf rekent de RUC door voor de gereden kilometers, meestal bij het inleveren: Maui rekent NZ$ 8,04 per 100 km, JUCY NZ$ 8,00 en Mighty Campers NZ$ 7,64 voor de meeste campers. Benzinecampers betalen geen RUC."
+        ],
+        [
+          "Hoeveel is RUC voor een dieselcamper in 2026?",
+          "NZ$ 76 per 1.000 km voor een lichte dieselauto tot 3.500 kg en NZ$ 82 voor 3.501 tot 6.000 kg, plus NZ$ 12,44 administratiekosten bij online aankoop. De voor 1 januari 2027 geplande verhoging is uitgesteld tot 2028."
+        ],
+        [
+          "Is een diesel- of benzinecamper goedkoper in Nieuw-Zeeland?",
+          "Bij hetzelfde verbruik is benzine goedkoper: diesel kost minder aan de pomp, maar de RUC telt er ongeveer 8 cent per kilometer bij op. Een dieselcamper bespaart alleen geld als hij duidelijk minder verbruikt dan de benzinecamper."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: RUC-tarieven en transactiekosten"
+        },
+        {
+          "label": "Calculate.co.nz: Nieuw-Zeelandse RUC-tarieven 2026"
+        },
+        {
+          "label": "Maui: veelgestelde vragen"
+        },
+        {
+          "label": "JUCY New Zealand: huurovereenkomst, boekingen vanaf 1 mei 2026"
+        },
+        {
+          "label": "Mighty Campers: kosten en tarieven"
+        },
+        {
+          "label": "MBIE: wekelijkse brandstofprijsmonitor"
+        },
+        {
+          "label": "RNZ: Nicola Willis sluit verlaging van de RUC uit"
+        },
+        {
+          "label": "1News: regering schrapt brandstofaccijnsverhoging van 2027"
+        },
+        {
+          "label": "Ministry of Transport: het RUC-systeem"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Mag ik in mijn auto slapen in Nieuw-Zeeland? (Regels 2026)",
       "description": "Rust uit om rijmoeheid tegen te gaan is vrijgesteld, maar een geplande nacht in een auto op gemeentegrond leidt tot een boete van $400, tenzij een verordening de plek noemt. Regels 2026, per grondsoort.",

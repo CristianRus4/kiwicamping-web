@@ -12759,6 +12759,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Vägavgiften RUC för husbilar på Nya Zeeland 2026/27: avgifter och hyreskostnader",
+      "description": "Dieselhusbilar betalar 76 NZD i RUC per 1 000 km, och uthyrarna tar ungefär 8 NZD per 100 km. Vad RUC kostar och om diesel slår bensin.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En liten G.A.S-bensinstation i Waikari i North Canterbury, med pumpar framför en orange och vit butik",
+      "intro": "På Nya Zeeland betalar dieselfordon inte vägskatt i bränslepriset. De betalar i stället vägavgiften RUC (Road User Charges) per kilometer. För ett lätt dieselfordon på upp till 3 500 kg är RUC 76 NZD per 1 000 km, ungefär 7,6 cent per kilometer, och en uthyrare debiterar den med ungefär 8 NZD per 100 km när du lämnar tillbaka bilen. Bensinfordon betalar sin vägskatt vid pumpen och ingen RUC. Vi läste avgiftstabellerna och uthyrarnas villkor den 3 november 2026.",
+      "sections": [
+        {
+          "heading": "RUC-avgifter för husbilar",
+          "body": [
+            "RUC köps i block om 1 000 km för ett fordon du äger, till en avgift som bestäms av fordonets typ och vikt. De flesta husbilar är lätta fordon på upp till 3 500 kg, till 76 NZD per 1 000 km. En större husbil på 3 501 till 6 000 kg betalar 82 NZD. Till varje köp läggs en administrationsavgift: 12,44 NZD online eller i NZTA:s app och 13,71 NZD i ett ombuds lucka.",
+            "Batterielektriska fordon betalar samma 76 NZD som lätta dieselfordon, och laddhybrider med bensin 38 NZD. Ett vanligt bensin- eller bensinhybridfordon betalar ingen RUC. NZTA:s egen avgiftssida blockerar automatisk avläsning, så siffrorna kommer från en publicerad kopia av avgiftstabellen som gäller från 6 augusti 2026. Bekräfta dem hos NZTA innan du köper."
+          ],
+          "tips": [
+            "Lätt diesel: 76 NZD per 1 000 km",
+            "3,5 till 6 ton: 82 NZD",
+            "Administrationsavgift: 12,44 NZD online"
+          ],
+          "table": {
+            "caption": "RUC-avgifter för lätta fordon per 1 000 km inklusive GST (moms), gäller från 6 augusti 2026.",
+            "head": [
+              "Fordon",
+              "Avgift per 1 000 km"
+            ],
+            "rows": [
+              [
+                "Lätt diesel, upp till 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Diesel, 3 501 till 6 000 kg (två axlar)",
+                "82 NZD"
+              ],
+              [
+                "Batterielektrisk, upp till 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Laddhybrid med bensin",
+                "38 NZD"
+              ],
+              [
+                "Bensin eller bensinhybrid",
+                "Ingen RUC; skatten ligger i bränslepriset"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vad uthyrarna tar ut",
+          "body": [
+            "En uthyrare köper RUC för sina bilar och debiterar dig för de kilometer du kör, oftast när du lämnar tillbaka bilen. Maui tar 8,04 NZD per 100 km, eller 8,18 NZD för fordon med 4 och 6 sovplatser med toalett och dusch, och säger att beloppet beräknas och tas ut vid återlämningen. JUCY:s hyresavtal för bokningar från 1 maj 2026 anger 8,00 NZD per 100 km. Mighty Campers anger 7,64 NZD, eller 8,04 NZD för fordon med 4 och 6 sovplatser med toalett och dusch.",
+            "En resa på 2 000 km i en hyrd dieselbil lägger därför ungefär 160 till 165 NZD i RUC på sluträkningen. Vissa företag låter dig förbetala den som en dagsavgift i stället. Fråga vad som är billigast för din planerade sträcka och kontrollera avgiften i ditt eget avtal, eftersom ett företag kan ändra den."
+          ],
+          "tips": [
+            "RUC vid hyra: ungefär 8 NZD per 100 km",
+            "Debiteras när du lämnar tillbaka bilen",
+            "2 000 km: ungefär 160 NZD"
+          ],
+          "table": {
+            "caption": "Uthyrarnas RUC-avgifter per 100 km, från varje företags villkor. Läst den 3 november 2026.",
+            "head": [
+              "Företag",
+              "Standardbilar",
+              "4 och 6 sovplatser med toalett och dusch"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (en avgift för alla bilar)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Är en dieselhusbil billigare än bensin?",
+          "body": [
+            "Per liter är diesel billigare vid pumpen eftersom den inte har någon vägskatt i priset. MBIE:s veckovisa bevakning av bränslepriser för veckan den 23 oktober 2026 angav vanlig 91-bensin till 3,61 NZD per liter och diesel till 3,24 NZD. RUC lägger sedan på ungefär 7,6 cent per kilometer på din egen bil, eller ungefär 8 cent på en hyrbil.",
+            "Vid samma förbrukning vinner bensin: en bil som drar 10 liter per 100 km kostar ungefär 36 NZD per 100 km på bensin och ungefär 32 NZD i diesel plus 8 NZD i RUC, alltså 40 NZD. Diesel kommer bara bättre ut när dieselbilen drar tydligt mindre bränsle än bensinbilen. Jämför de två bilarnas verkliga förbrukning, inte pumppriset."
+          ],
+          "tips": [
+            "Samma förbrukning: bensin är billigare",
+            "Diesel vinner bara vid lägre förbrukning",
+            "Jämför liter per 100 km"
+          ]
+        },
+        {
+          "heading": "Om du äger en dieselhusbil",
+          "body": [
+            "En bil du äger måste ha en giltig RUC-licens, synlig på vindrutan, som täcker den sträcka mätaren visar, och du köper nästa block innan du når gränsen. Licensen följer fordonet, så oanvänd RUC går vidare till nästa ägare när du säljer, och du kan få återbetalning för ett fordon du säljer, skrotar eller exporterar om minst 20 NZD är oanvända.",
+            "När du köper en begagnad dieselbil, jämför RUC-etiketten med mätaren. Om bilen redan har kört förbi sin licens köper du den sträckan också."
+          ],
+          "tips": [
+            "Håll RUC före mätaren",
+            "Oanvänd RUC följer med bilen",
+            "Kontrollera etiketten när du köper"
+          ]
+        },
+        {
+          "heading": "Vad som ändras härnäst",
+          "body": [
+            "Nya Zeeland sänkte varken bränsleskatten eller RUC under bränslekrisen 2026. Finansministern uteslöt en RUC-sänkning i mars 2026. Den 31 augusti 2026 skrotade regeringen den höjning av bränsleskatten som skulle ha skett den 1 januari 2027 och sköt också upp den motsvarande RUC-höjningen, med höjningar som nu planeras från 1 januari 2028.",
+            "Regeringen planerar också att flytta bensinfordon till RUC och ta bort bensinskatten. Lagförslaget Land Transport (Revenue) Amendment Bill, som lades fram i november 2025, inleder den förändringen, men inget datum för övergången för bensinbilar har fastställts, så en bensinhusbil betalar fortfarande sin vägskatt vid pumpen 2026/27."
+          ],
+          "tips": [
+            "Ingen RUC-höjning den 1 januari 2027",
+            "Bensinbilar är inte med i RUC än",
+            "Höjningar planeras från 2028"
+          ]
+        },
+        {
+          "heading": "Planera sträckor i KiwiCamping",
+          "body": [
+            "KiwiCamping summerar körsträckan mellan stoppen på din resa, så att du kan uppskatta kilometerna, och RUC på en hyrd dieselbil, innan du bokar. Spara de campingplatser och <a data-guide=\"holiday-parks-new-zealand-guide\">semesterparker</a> där du stannar, så behåller resan summan.",
+            "Sträckan kräver uppkoppling för att räkna ut rutten, precis som kartan, vädret och bilderna, men varje sparad plats behåller sina uppgifter på telefonen för sträckorna utan täckning."
+          ],
+          "tips": [
+            "Summera din resas sträcka",
+            "Uppskatta RUC innan du bokar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Betalar jag vägavgiften RUC på en hyrd husbil på Nya Zeeland?",
+          "Ja, om den går på diesel. Uthyraren debiterar RUC för de kilometer du kör, oftast när du lämnar tillbaka bilen: Maui tar 8,04 NZD per 100 km, JUCY 8,00 NZD och Mighty Campers 7,64 NZD för de flesta bilar. Bensinbilar betalar ingen RUC."
+        ],
+        [
+          "Hur mycket är RUC för en dieselhusbil 2026?",
+          "76 NZD per 1 000 km för ett lätt dieselfordon på upp till 3 500 kg och 82 NZD för 3 501 till 6 000 kg, plus en administrationsavgift på 12,44 NZD när du köper online. Höjningen som planerades till 1 januari 2027 har skjutits upp till 2028."
+        ],
+        [
+          "Är en diesel- eller bensinhusbil billigare på Nya Zeeland?",
+          "Vid samma bränsleförbrukning är bensin billigare: diesel kostar mindre vid pumpen, men RUC lägger på ungefär 8 cent per kilometer. En dieselbil sparar bara pengar om den drar tydligt mindre bränsle än bensinbilen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: RUC-avgifter och transaktionsavgifter"
+        },
+        {
+          "label": "Calculate.co.nz: nyzeeländska RUC-avgifter 2026"
+        },
+        {
+          "label": "Maui: vanliga frågor"
+        },
+        {
+          "label": "JUCY New Zealand: hyresavtal, bokningar från 1 maj 2026"
+        },
+        {
+          "label": "Mighty Campers: avgifter och kostnader"
+        },
+        {
+          "label": "MBIE: veckovis bevakning av bränslepriser"
+        },
+        {
+          "label": "RNZ: Nicola Willis utesluter sänkning av RUC"
+        },
+        {
+          "label": "1News: regeringen skrotar höjningen av bränsleskatten 2027"
+        },
+        {
+          "label": "Ministry of Transport: RUC-systemet"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Sova i bilen på Nya Zeeland: vad gäller? (regler 2026)",
       "description": "Vila mot trötthet är undantaget, men en planerad natt i bilen på kommunal mark ger 400 NZD i böter om ingen föreskrift pekar ut platsen. Regler 2026 per marktyp.",

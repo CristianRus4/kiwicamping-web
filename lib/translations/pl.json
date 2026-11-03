@@ -12470,6 +12470,184 @@
       ],
       "priceTable": null
     },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Opłata drogowa RUC dla kamperów w Nowej Zelandii 2026/27: stawki i opłaty w wypożyczalniach",
+      "description": "Kampery z silnikiem diesla płacą 76 NZD RUC za każde 1 000 km, a wypożyczalnie doliczają około 8 NZD za 100 km. Ile kosztuje RUC i czy diesel wygrywa z benzyną.",
+      "region": "Nowa Zelandia",
+      "imageAlt": "Mała stacja G.A.S w Waikari w North Canterbury, z dystrybutorami przed pomarańczowo-białym sklepem",
+      "intro": "W Nowej Zelandii pojazdy z silnikiem diesla nie płacą podatku drogowego w cenie paliwa. Zamiast tego płacą opłatę drogową RUC (Road User Charges) za każdy kilometr. Dla lekkiego pojazdu z silnikiem diesla o masie do 3 500 kg RUC wynosi 76 NZD za 1 000 km, czyli około 7,6 centa za kilometr, a wypożyczalnia nalicza ją w wysokości około 8 NZD za 100 km, gdy oddajesz vana. Pojazdy benzynowe płacą podatek drogowy przy dystrybutorze i nie płacą RUC. Tabele stawek i warunki wypożyczalni przeczytaliśmy 3 listopada 2026 roku.",
+      "sections": [
+        {
+          "heading": "Stawki RUC dla kamperów",
+          "body": [
+            "RUC kupuje się w blokach po 1 000 km dla pojazdu, którego jesteś właścicielem, według stawki ustalanej na podstawie typu i masy pojazdu. Większość kamperów to pojazdy lekkie, do 3 500 kg, w cenie 76 NZD za 1 000 km. Większy kamper o masie od 3 501 do 6 000 kg płaci 82 NZD. Do każdego zakupu dolicza się opłatę administracyjną: 12,44 NZD online lub w aplikacji NZTA i 13,71 NZD przy okienku agenta.",
+            "Pojazdy elektryczne płacą tyle samo co lekkie diesle, czyli 76 NZD, a hybrydy plug-in na benzynę 38 NZD. Zwykły pojazd benzynowy lub hybrydowy na benzynę nie płaci RUC. Strona NZTA ze stawkami blokuje automatyczne odczytywanie, więc te liczby pochodzą z opublikowanej kopii tabeli stawek obowiązującej od 6 sierpnia 2026 roku. Przed zakupem potwierdź je w NZTA."
+          ],
+          "tips": [
+            "Lekki diesel: 76 NZD za 1 000 km",
+            "Od 3,5 do 6 ton: 82 NZD",
+            "Opłata administracyjna: 12,44 NZD online"
+          ],
+          "table": {
+            "caption": "Stawki RUC dla pojazdów lekkich za 1 000 km, z GST (podatkiem od towarów i usług), obowiązujące od 6 sierpnia 2026 roku.",
+            "head": [
+              "Pojazd",
+              "Stawka za 1 000 km"
+            ],
+            "rows": [
+              [
+                "Lekki diesel, do 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Diesel, od 3 501 do 6 000 kg (dwie osie)",
+                "82 NZD"
+              ],
+              [
+                "Elektryczny na baterię, do 3 500 kg",
+                "76 NZD"
+              ],
+              [
+                "Hybryda plug-in na benzynę",
+                "38 NZD"
+              ],
+              [
+                "Benzyna lub hybryda na benzynę",
+                "Bez RUC; podatek jest w cenie paliwa"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ile doliczają wypożyczalnie",
+          "body": [
+            "Wypożyczalnia kupuje RUC dla swoich vanów i nalicza ci przejechane kilometry, zwykle przy zwrocie vana. Maui liczy 8,04 NZD za 100 km, a 8,18 NZD za pojazdy z 4 i 6 miejscami do spania z toaletą i prysznicem, i podaje, że kwota jest obliczana i pobierana przy zwrocie. Umowa najmu JUCY dla rezerwacji od 1 maja 2026 roku ustala 8,00 NZD za 100 km. Mighty Campers podaje 7,64 NZD, a 8,04 NZD dla pojazdów z 4 i 6 miejscami do spania z toaletą i prysznicem.",
+            "Przejazd 2 000 km wynajętym vanem z silnikiem diesla dodaje więc do końcowego rachunku około 160 do 165 NZD RUC. Niektóre firmy pozwalają zapłacić je z góry jako stawkę dzienną. Zapytaj, co jest tańsze przy planowanym dystansie, i sprawdź stawkę w swojej umowie, bo firma może ją zmienić."
+          ],
+          "tips": [
+            "RUC przy wynajmie: około 8 NZD za 100 km",
+            "Naliczane przy zwrocie vana",
+            "2 000 km: około 160 NZD"
+          ],
+          "table": {
+            "caption": "Opłaty RUC w wypożyczalniach za 100 km, z warunków każdej firmy. Odczytano 3 listopada 2026 roku.",
+            "head": [
+              "Firma",
+              "Standardowe vany",
+              "4 i 6 miejsc do spania z toaletą i prysznicem"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 NZD",
+                "8,18 NZD"
+              ],
+              [
+                "JUCY",
+                "8,00 NZD",
+                "8,00 NZD (jedna stawka dla wszystkich vanów)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 NZD",
+                "8,04 NZD"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Czy kamper z silnikiem diesla jest tańszy niż benzynowy?",
+          "body": [
+            "Za litr diesel jest tańszy przy dystrybutorze, bo nie zawiera podatku drogowego. Cotygodniowy monitoring cen paliw MBIE za tydzień z 23 października 2026 roku podawał cenę zwykłej benzyny 91 w wysokości 3,61 NZD za litr, a diesla 3,24 NZD. RUC dodaje potem około 7,6 centa za kilometr w twoim własnym vanie albo około 8 centów w wynajętym.",
+            "Przy takim samym zużyciu paliwa wygrywa benzyna: van spalający 10 litrów na 100 km kosztuje około 36 NZD na 100 km na benzynie i około 32 NZD na dieslu plus 8 NZD RUC, czyli 40 NZD. Diesel wychodzi lepiej tylko wtedy, gdy van z silnikiem diesla spala wyraźnie mniej paliwa niż benzynowy. Porównaj rzeczywiste zużycie obu vanów, a nie cenę przy dystrybutorze."
+          ],
+          "tips": [
+            "Takie samo zużycie: benzyna jest tańsza",
+            "Diesel wygrywa tylko przy niższym zużyciu",
+            "Porównuj litry na 100 km"
+          ]
+        },
+        {
+          "heading": "Jeśli masz kamper z silnikiem diesla",
+          "body": [
+            "Van, którego jesteś właścicielem, musi mieć ważną licencję RUC, widoczną na przedniej szybie, obejmującą dystans z licznika, a kolejny blok kupujesz, zanim dojedziesz do limitu. Licencja zostaje przy pojeździe, więc niewykorzystane RUC przechodzi na kolejnego właściciela przy sprzedaży, a za pojazd, który sprzedajesz, złomujesz lub eksportujesz, możesz ubiegać się o zwrot, jeśli niewykorzystane jest co najmniej 20 NZD.",
+            "Kupując używanego vana z silnikiem diesla, porównaj naklejkę RUC z licznikiem. Jeśli van przejechał już więcej niż obejmuje licencja, kupujesz też ten dystans."
+          ],
+          "tips": [
+            "Trzymaj RUC przed licznikiem",
+            "Niewykorzystane RUC zostaje przy vanie",
+            "Sprawdź naklejkę przy zakupie"
+          ]
+        },
+        {
+          "heading": "Co zmieni się dalej",
+          "body": [
+            "Nowa Zelandia nie obniżyła akcyzy na paliwa ani RUC podczas kryzysu paliwowego w 2026 roku. Minister finansów wykluczył obniżkę RUC w marcu 2026 roku. 31 sierpnia 2026 roku rząd zrezygnował z podwyżki akcyzy na paliwa zaplanowanej na 1 stycznia 2027 roku i odroczył też odpowiadającą jej podwyżkę RUC, a podwyżki są teraz planowane od 1 stycznia 2028 roku.",
+            "Rząd planuje też przenieść pojazdy benzynowe na RUC i zlikwidować akcyzę na benzynę. Projekt ustawy Land Transport (Revenue) Amendment Bill, złożony w listopadzie 2025 roku, rozpoczyna tę zmianę, ale nie ustalono terminu przejścia samochodów benzynowych, więc kamper benzynowy w sezonie 2026/27 nadal płaci podatek drogowy przy dystrybutorze."
+          ],
+          "tips": [
+            "Brak podwyżki RUC 1 stycznia 2027 roku",
+            "Samochody benzynowe jeszcze nie w RUC",
+            "Podwyżki planowane od 2028 roku"
+          ]
+        },
+        {
+          "heading": "Planowanie dystansów w KiwiCamping",
+          "body": [
+            "KiwiCamping sumuje dystans jazdy między przystankami twojej podróży, więc możesz oszacować kilometry oraz RUC w wynajętym vanie z silnikiem diesla, zanim zarezerwujesz. Zapisz pola kempingowe i <a data-guide=\"holiday-parks-new-zealand-guide\">parki wakacyjne</a>, w których się zatrzymasz, a podróż zachowa sumę.",
+            "Dystans wymaga połączenia, żeby wyznaczyć trasę, tak jak mapa, pogoda i zdjęcia, ale każde zapisane miejsce zachowuje szczegóły w telefonie na odcinki bez zasięgu."
+          ],
+          "tips": [
+            "Zsumuj dystans swojej podróży",
+            "Oszacuj RUC przed rezerwacją"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy płacę opłatę drogową RUC za wynajęty kamper w Nowej Zelandii?",
+          "Tak, jeśli ma silnik diesla. Wypożyczalnia nalicza RUC za przejechane kilometry, zwykle przy zwrocie vana: Maui liczy 8,04 NZD za 100 km, JUCY 8,00 NZD, a Mighty Campers 7,64 NZD za większość vanów. Vany benzynowe nie płacą RUC."
+        ],
+        [
+          "Ile wynosi RUC dla kampera z silnikiem diesla w 2026 roku?",
+          "76 NZD za 1 000 km dla lekkiego pojazdu z silnikiem diesla do 3 500 kg i 82 NZD za 3 501 do 6 000 kg, plus opłata administracyjna 12,44 NZD przy zakupie online. Podwyżka planowana na 1 stycznia 2027 roku została odroczona do 2028 roku."
+        ],
+        [
+          "Czy kamper z silnikiem diesla czy benzynowy jest tańszy w Nowej Zelandii?",
+          "Przy takim samym zużyciu paliwa benzyna jest tańsza: diesel kosztuje mniej przy dystrybutorze, ale RUC dodaje około 8 centów za kilometr. Van z silnikiem diesla oszczędza pieniądze tylko wtedy, gdy spala wyraźnie mniej paliwa niż benzynowy."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: stawki RUC i opłaty transakcyjne"
+        },
+        {
+          "label": "Calculate.co.nz: nowozelandzkie stawki RUC 2026"
+        },
+        {
+          "label": "Maui: najczęściej zadawane pytania"
+        },
+        {
+          "label": "JUCY New Zealand: umowa najmu, rezerwacje od 1 maja 2026 roku"
+        },
+        {
+          "label": "Mighty Campers: opłaty i koszty"
+        },
+        {
+          "label": "MBIE: cotygodniowy monitoring cen paliw"
+        },
+        {
+          "label": "RNZ: Nicola Willis wyklucza obniżkę RUC"
+        },
+        {
+          "label": "1News: rząd rezygnuje z podwyżki akcyzy na paliwa w 2027 roku"
+        },
+        {
+          "label": "Ministry of Transport: system RUC"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Czy w Nowej Zelandii można spać w samochodzie? Zasady 2026",
       "description": "Odpoczynek z powodu zmęczenia za kierownicą jest wyłączony z przepisów, ale zaplanowana noc w aucie na ziemi samorządu to mandat 400 NZD, chyba że lokalna uchwała (bylaw) wskazuje to miejsce. Zasady 2026 według rodzaju terenu.",
