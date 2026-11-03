@@ -1050,7 +1050,7 @@ export const listicleArticles: Article[] = [
     region: "New Zealand",
     places: ["Great Walks", "DOC huts", "DOC tracks", "Topo maps", "Mountain weather"],
     imageAlt: "A snow-dusted A-frame hut shelter at Harris Saddle on the Routeburn Track",
-    related: ["doc-huts-new-zealand-guide", "doc-hut-rules-etiquette", "new-zealand-severe-weather-camping", "best-weather-apps-new-zealand"],
+    related: ["easy-doc-huts-families-first-timers", "doc-huts-new-zealand-guide", "doc-hut-rules-etiquette", "new-zealand-severe-weather-camping", "best-weather-apps-new-zealand"],
     intro:
       "A tramp needs three things from your phone: where the hut or track is, a topographic map that works with no signal, and a weather forecast you can trust. No one app does all three well, and the Department of Conservation (DOC) books Great Walks and huts on a website, not in an app. This list covers the apps trampers use in 2026, with prices and ratings from the New Zealand App Store checked on 21 October 2026. KiwiCamping is ours, and it comes first for hut and track information only; it is not a topo map.",
     sections: [

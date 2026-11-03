@@ -301,7 +301,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-park-a-campervan-on-the-street-overnight-nz",
-    publishAt: "2026-11-13",
+    publishAt: "2027-01-03",
     title: "Can I Park a Campervan on the Street Overnight in NZ?",
     description: "Certified self-contained campervans may stay a few nights on some council streets, but many urban areas ban it and vans without a green warrant cannot (2026).",
     category: "Rules & safety",
@@ -373,7 +373,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-drive-a-campervan-on-a-car-licence-nz",
-    publishAt: "2026-11-14",
+    publishAt: "2027-01-04",
     title: "Can I Drive a Campervan on a Car Licence in NZ? (2026)",
     description: "Yes, a full NZ car licence (Class 1) covers a campervan or motorhome up to 6,000 kg gross laden weight. Weights, towing, Class 2 and rentals explained for 2026.",
     category: "Rules & safety",

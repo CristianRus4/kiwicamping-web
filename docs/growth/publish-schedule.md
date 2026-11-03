@@ -52,8 +52,8 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-10 | can-i-camp-anywhere-on-doc-land | scheduled |
 | 2026-11-11 | can-i-park-overnight-at-a-beach-in-new-zealand | scheduled |
 | 2026-11-12 | can-i-camp-on-a-farm-or-private-land-in-nz | scheduled |
-| 2026-11-13 | can-i-park-a-campervan-on-the-street-overnight-nz | scheduled |
-| 2026-11-14 | can-i-drive-a-campervan-on-a-car-licence-nz | scheduled |
+| 2026-11-13 | doc-hut-great-walk-booked-out | scheduled |
+| 2026-11-14 | school-public-holidays-new-zealand-2027 | scheduled |
 | 2026-11-15 | can-i-fly-a-drone-at-a-doc-campsite-nz | scheduled |
 | 2026-11-16 | can-i-drive-on-the-beach-in-new-zealand | scheduled |
 | 2026-11-17 | can-i-drink-the-water-at-nz-campsites | scheduled |
@@ -103,3 +103,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-31 | freedom-camping-marlborough-2026 | scheduled |
 | 2027-01-01 | freedom-camping-rotorua-2026 | scheduled |
 | 2027-01-02 | hipcamp-alternatives | scheduled |
+| 2027-01-03 | can-i-park-a-campervan-on-the-street-overnight-nz | scheduled |
+| 2027-01-04 | can-i-drive-a-campervan-on-a-car-licence-nz | scheduled |
+| 2027-01-05 | road-user-charges-campervan-new-zealand | scheduled |
+| 2027-01-06 | easy-doc-huts-families-first-timers | scheduled |

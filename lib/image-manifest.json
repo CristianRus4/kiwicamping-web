@@ -671,6 +671,20 @@
       }
     ]
   },
+  "/images/articles/doc-hut-great-walk-booked-out.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/doc-hut-great-walk-booked-out-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/doc-hut-great-walk-booked-out.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/doc-hut-rules-etiquette.webp": {
     "width": 1600,
     "height": 900,
@@ -751,6 +765,20 @@
       },
       {
         "path": "/images/articles/east-cape-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/easy-doc-huts-families-first-timers.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/easy-doc-huts-families-first-timers-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/easy-doc-huts-families-first-timers.webp",
         "width": 1600
       }
     ]
@@ -1721,6 +1749,20 @@
       }
     ]
   },
+  "/images/articles/road-user-charges-campervan-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/road-user-charges-campervan-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/road-user-charges-campervan-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/roadtrippers-alternatives.webp": {
     "width": 1600,
     "height": 900,
@@ -1787,6 +1829,20 @@
       },
       {
         "path": "/images/articles/scenic-campsites-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/school-public-holidays-new-zealand-2027.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/school-public-holidays-new-zealand-2027-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/school-public-holidays-new-zealand-2027.webp",
         "width": 1600
       }
     ]

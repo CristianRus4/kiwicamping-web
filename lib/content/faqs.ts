@@ -570,4 +570,24 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which Hipcamp alternative is free?", "CamperMate and Rankers Camping NZ are free to download, and KiwiCamping is free to download with in-app purchases. WikiCamps New Zealand costs NZ$7.99 once."],
     ["Where do I book DOC campsites and huts?", "On DOC's own website, which takes bookings for Great Walk huts, other huts and campsites at DOC's published prices."],
   ],
+  "doc-hut-great-walk-booked-out": [
+    ["Does DOC have a waiting list for Great Walks?", "No. DOC's booking terms say no waitlists are held for future availability. When someone cancels, the bed goes straight back on sale in the booking system, first come, first served, so check the dates you want often."],
+    ["Are Great Walk cancellation alert services worth it?", "Only if your dates are fixed and the walk sells out, such as the Milford Track. Private services watch DOC's booking site and text or email you when a bed comes free; you still book and pay on DOC's site, and DOC does not run or endorse them."],
+    ["What is DOC's cancellation policy for Great Walks?", "DOC keeps 10% of the booking if you cancel 15 or more days before arrival, 50% from 14 to 4 days, 75% from 3 days to the day before, and 100% after that. A booking cancelled the same or next day after making it, or for medical reasons with a certificate, costs nothing."],
+  ],
+  "school-public-holidays-new-zealand-2027": [
+    ["When are the New Zealand school holidays in 2027?", "The autumn break runs from 10 to 26 April, the winter break from 3 to 18 July and the spring break from 25 September to 10 October. Term 4 ends no later than Friday 17 December, and term 1 starts between 28 January and 3 February, as each school chooses."],
+    ["When is Waitangi Day observed in 2027?", "Waitangi Day falls on Saturday 6 February 2027, so it is observed on Monday 8 February for people who would not have worked the Saturday. That makes a long weekend, a week after Auckland and Nelson anniversary days on Monday 1 February."],
+    ["When is Matariki in 2027?", "Friday 25 June 2027, the Friday before the winter school holidays start on Saturday 3 July."],
+  ],
+  "road-user-charges-campervan-new-zealand": [
+    ["Do I pay road user charges on a hire campervan in New Zealand?", "Yes, if it is diesel. The hire company bills RUC for the kilometres you drive, usually when you return the van: Maui charges $8.04 per 100 km, JUCY $8.00 and Mighty Campers $7.64 for most vans. Petrol vans pay no RUC."],
+    ["How much is RUC for a diesel campervan in 2026?", "$76 per 1,000 km for a light diesel vehicle up to 3,500 kg, and $82 for 3,501 to 6,000 kg, plus an administration fee of $12.44 when you buy online. The increase planned for 1 January 2027 has been delayed to 2028."],
+    ["Is a diesel or petrol campervan cheaper in New Zealand?", "At the same fuel use, petrol is cheaper: diesel costs less at the pump, but RUC adds about 8 cents a kilometre. A diesel van only saves money if it uses clearly less fuel than the petrol one."],
+  ],
+  "easy-doc-huts-families-first-timers": [
+    ["Can you drive to a DOC hut?", "Not to the door. DOC's easiest bookable huts are a walk of two to three and a half hours from the road end, and two, Lane Cove and Lakehead, can also be reached by water. For a night beside the car, book a DOC campsite instead."],
+    ["What is the best first DOC hut for a family?", "DOC lists seven bookable huts for families and new trampers. Atiwhakatu, three hours from the Mt Holdsworth road end near Masterton, and Anti Crow, three hours up a flat valley in Arthur's Pass, are its picks near Wellington and Christchurch."],
+    ["How much does a DOC hut cost per night?", "At the easy bookable huts, $15 an adult at standard huts such as Atiwhakatu and Anti Crow, and $25 to $34 at serviced huts such as Bushline and Lakehead, depending on the season and day. Children under five stay free."],
+  ],
 };

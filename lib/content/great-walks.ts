@@ -17,7 +17,7 @@ export const greatWalksArticles: Article[] = [
     region: "New Zealand",
     places: ["Abel Tasman", "Routeburn", "Kepler", "Milford", "Tongariro Northern Circuit", "Heaphy"],
     imageAlt: "A forested valley on the Milford Track with steep rock walls and snow-dusted peaks at its head",
-    related: ["doc-campsites-new-zealand-guide", "doc-huts-new-zealand-guide", "christmas-summer-camping-new-zealand-2026-27", "best-tramping-great-walks-apps-new-zealand"],
+    related: ["doc-hut-great-walk-booked-out", "doc-campsites-new-zealand-guide", "doc-huts-new-zealand-guide", "christmas-summer-camping-new-zealand-2026-27", "best-tramping-great-walks-apps-new-zealand"],
     intro:
       "DOC lists 11 Great Walks. Ten are booked in DOC's own booking system, and the Hump Ridge Track is booked through its own trust. For 2026/27, bookings opened between 12 and 21 May 2026 for stays from 1 July 2026 to 30 June 2027, and DOC had not published the 2027/28 opening dates when this page was checked on 21 October 2026. This page puts the walks side by side so you can see which ones have campsites, what they cost and what is different this season; the booking steps themselves are in the DOC bookings guide.",
     sections: [
