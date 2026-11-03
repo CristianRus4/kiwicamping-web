@@ -5,6 +5,8 @@ const s = (heading: string, body: string[], tips?: string[]): ArticleSection => 
 export const campingArticles: Article[] = [
   a({
     slug: "doc-huts-new-zealand-guide", hubs: ["huts"],
+    // Scheduled guides: each joins the related list on its publish day (lib/related.ts uses published guides only).
+    related: ["easy-doc-huts-families-first-timers", "doc-hut-great-walk-booked-out"],
     title: "DOC Huts in New Zealand by Region: Types, Fees, Tickets",
     description: "927 DOC huts by region with 2026/27 fees, and the three ways to pay for a night: book at bookings.doc.govt.nz, hut tickets or the Backcountry Hut Pass.",
     category: "Camping guides", region: "New Zealand backcountry", readTime: 4,

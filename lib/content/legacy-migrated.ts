@@ -174,6 +174,8 @@ export const migratedArticles: Article[] = [
   a({
     slug: "doc-campsites-new-zealand-guide",
     legacyPath: "/doc-campsites-huts-guide.html", hubs: ["camping","huts"],
+    // Scheduled guides: each joins the related list on its publish day (lib/related.ts uses published guides only).
+    related: ["doc-hut-great-walk-booked-out", "easy-doc-huts-families-first-timers"],
     officialLink: { domain: "bookings.doc.govt.nz", url: "https://bookings.doc.govt.nz/" },
     title: "DOC Hut & Campsite Bookings 2026: How to Book, Fees, Dates",
     description: "DOC bookings are made at bookings.doc.govt.nz. How to log in and book huts, campsites and Great Walks, 2026/27 fees for adults and children, and cancellations.",

@@ -13,6 +13,8 @@ Branch `growth/k-oct-pages`. Brief: `/Users/cristian/Developer/Webs/.growth-lane
 
 - Milestone 3: a download line right after the opening answer on the 8 guides and 2 calculators I changed, with campaign token w_ans_<locale>, translated into all 15 locales.
 
+- The DOC bookings and DOC huts pages list the booked-out guide (from 13 Nov) and the easy huts guide (from 6 Jan) first under Related guides.
+
 ## Next
 - Waiting for the orchestrator on the cost pages: headline prices in the first sentence need the intros changed in all 15 locales (the number gate fails otherwise), and those are guide locale strings owned by the tech lane.
 - doc-campsite-rules and self-contained-vehicles: left as they are (answer-first already; retitled 19 Oct; the .html vs slashless split is the tech lane's).
