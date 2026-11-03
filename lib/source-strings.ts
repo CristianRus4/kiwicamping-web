@@ -422,8 +422,8 @@ export const toolStrings = {
     routes: [
       ["Auckland to Wellington", "640 km", "8 to 8.5 hours"],
       ["Auckland to the Bay of Islands", "240 km", "3 to 3.5 hours"],
-      ["Picton to Christchurch via Kaikōura", "335 km", "4.5 to 5 hours"],
-      ["Christchurch to Queenstown via Tekapo", "480 km", "About 6 hours"],
+      ["Picton to Christchurch via Kaikōura", "About 336 km", "4.5 to 5 hours"],
+      ["Christchurch to Queenstown via Tekapo", "About 480 km", "About 6 hours"],
       ["Christchurch to Dunedin", "360 km", "About 5 hours"],
       ["Queenstown to Te Anau", "170 km", "About 2 hours"],
       ["Te Anau to Milford Sound", "120 km", "About 2 hours"],

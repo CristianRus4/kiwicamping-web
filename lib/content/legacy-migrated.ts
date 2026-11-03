@@ -15,15 +15,15 @@ export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-rules-new-zealand",
     legacyPath: "/freedom-camping-rules-nz.html", hubs: ["freedom-camping"],
-    title: "Freedom camping rules in New Zealand, region by region",
-    description: "The Freedom Camping Act, council bylaws, self-containment certification and what enforcement actually looks like on the ground.",
+    title: "Freedom Camping Rules NZ 2026: Where It's Legal and the Fines",
+    description: "Where you can freedom camp in New Zealand in 2026: council bylaws, DOC land, the green warrant your vehicle needs since June, stay limits and the fines.",
     category: "Rules & safety",
     region: "New Zealand",
     readTime: 15,
     places: ["Council land", "DOC land", "NZTA land", "Northland", "Queenstown-Lakes", "Fiordland"],
     imageAlt: "Authorised freedom camping sign beside a campervan",
     intro:
-      "Freedom camping in New Zealand is legal where it is permitted and an infringement everywhere else, and the line between the two is drawn by whichever body manages the land under your wheels. The Freedom Camping Act 2011 sets a national frame, but councils write their own bylaws, so a rule you learned in one district tells you very little about the next one.",
+      "Freedom camping in New Zealand is legal only where the body that manages the land allows it: on council land under that council's bylaw, on conservation land unless a DOC notice prohibits or restricts it, and never on private land without permission. Most council sites and many DOC areas admit only certified self-contained vehicles, and since 7 June 2026 only a green warrant counts. The Freedom Camping Act 2011 sets the national frame, but councils write their own bylaws, so a rule you learned in one district tells you very little about the next one.",
     sections: [
       s("What freedom camping actually means here", [
         "Freedom camping is staying overnight on public land outside a formal campground, where the Freedom Camping Act 2011, a council bylaw or the landowner permits it. In practice it covers council reserves, designated car parks, lay-bys and some conservation land. It does not cover private farmland, forestry roads or national park huts, and it is a description of the location rather than a promise that the night is free.",
@@ -378,7 +378,7 @@ export const migratedArticles: Article[] = [
     places: ["Dump stations", "Grey water", "Black water", "Potable water", "Transfer stations"],
     imageAlt: "Campervan using a marked dump station",
     intro:
-      "Waste is where responsible camping becomes concrete, and where the penalties get serious. Discharging toilet or grey water in the wrong place carries substantially higher fines than an ordinary freedom camping infringement, and it is the behaviour most likely to get a popular site closed permanently.",
+      "Empty a campervan toilet cassette or grey water tank only at a dump station. Our data lists 262 public dump stations across New Zealand, and most of them are free to use. Discharging toilet or grey water anywhere else carries a higher fine than an ordinary freedom camping infringement, and it is the behaviour most likely to get a popular site closed permanently.",
     sections: [
       s("Know your three waste streams", [
         "Black water is toilet waste and goes only into a dump station inlet designed for it. Grey water is everything from the sink and shower, it contains food particles, soap, fats and bacteria, and despite looking harmless it is not something to tip on the ground. Solid rubbish is the third stream and generally has to leave with you.",

@@ -531,12 +531,12 @@
         ],
         [
           "Picton to Christchurch via Kaikōura",
-          "335 km",
+          "About 336 km",
           "4.5 to 5 hours"
         ],
         [
           "Christchurch to Queenstown via Tekapo",
-          "480 km",
+          "About 480 km",
           "About 6 hours"
         ],
         [
@@ -1004,10 +1004,10 @@
     },
     "east-cape-road-trip": {
       "title": "East Cape Road Trip: Gisborne to Ōpōtiki Camping Route",
-      "description": "Drive the East Cape from Gisborne to Ōpōtiki: surf towns, pōhutukawa bays, remote roads with few services, and where to camp on the way round.",
+      "description": "The East Cape road trip on State Highway 35 from Gisborne to Ōpōtiki in three days or more: Tolaga Bay wharf, the lighthouse, fuel stops and where to camp.",
       "region": "East Cape",
       "imageAlt": "Remote East Cape road beside the Pacific",
-      "intro": "State Highway 35 traces one of the country's most rewarding slow roads. Fuel, opening hours and storm damage matter more here, so the itinerary should follow daylight and local conditions instead of a fixed arrival time.",
+      "intro": "The East Cape road trip follows State Highway 35 around the Cape from Gisborne to Ōpōtiki, and it needs three days or more, with nights around Tolaga Bay, Te Araroa and Waihau Bay. It is one of the country's most rewarding slow roads, but fuel, opening hours and storm damage matter more here, so fill up in Gisborne and Ōpōtiki and let daylight and local conditions set the itinerary instead of a fixed arrival time.",
       "sections": [
         {
           "heading": "Gisborne to Tolaga Bay",
@@ -2673,10 +2673,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "DOC Huts in New Zealand by Region: Types, Fees, Tickets",
-      "description": "Where DOC's huts are, region by region, what serviced, standard and basic huts cost in 2026/27, and how hut tickets, the Hut Pass and bookings work.",
+      "description": "927 DOC huts by region with 2026/27 fees, and the three ways to pay for a night: book at bookings.doc.govt.nz, hut tickets or the Backcountry Hut Pass.",
       "region": "New Zealand backcountry",
       "imageAlt": "Backcountry hut in New Zealand mountains",
-      "intro": "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard.",
+      "intro": "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard. So there are three ways to pay for a night: book serviced and Great Walk huts at bookings.doc.govt.nz, buy Backcountry Hut Tickets, online since 1 November 2026, for a standard hut, or carry a Hut Pass that covers most serviced and standard huts for 12 months.",
       "sections": [
         {
           "heading": "Hut categories and 2026/27 fees",
@@ -4306,10 +4306,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Campervan Driving Rules NZ: Licence, Speed and Size (2026)",
-      "description": "Driving a campervan in New Zealand: what a car licence covers, speed limits, wind on exposed roads, ferry dimensions and the mistakes visitors make.",
+      "description": "A full car licence covers campervans up to 6,000 kg in New Zealand. Speed limits, letting traffic pass, wind, height and ferry length.",
       "region": "New Zealand roads",
       "imageAlt": "Large campervan on a narrow New Zealand road",
-      "intro": "A campervan can be legal on a Class 1 licence and still feel completely different from a car. The handover should establish height, width, length, loaded weight and every road excluded by the rental agreement.",
+      "intro": "A full car licence (Class 1), or a full overseas car licence you are allowed to drive on here, covers campervans and motorhomes up to 6,000 kg gross laden weight. Under 3,500 kg the normal open-road speed limit applies; heavier vehicles have a lower limit. A campervan can be legal on a car licence and still feel completely different from a car, so the handover should establish height, width, length, loaded weight and every road excluded by the rental agreement.",
       "sections": [
         {
           "heading": "Measure before moving",
@@ -7642,11 +7642,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Where you can camp in New Zealand: a complete location guide",
-      "description": "DOC campsites, conservation land, council reserves, iwi-managed places and private holiday parks each carry different rules and costs.",
+      "title": "Where to Camp in New Zealand: Campsites by Type and Region",
+      "description": "Where to camp in New Zealand: DOC campsites, holiday parks, council freedom camping and community grounds, what each costs and allows, island by island.",
       "region": "New Zealand",
       "imageAlt": "Campervan parked at a coastal New Zealand campsite",
-      "intro": "New Zealand's camping network runs across four quite different kinds of land, and the rules, price and booking system change with each one. Knowing which type you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask when something is unclear, and what you should expect to pay.",
+      "intro": "You can camp in New Zealand at DOC campsites on conservation land, at holiday parks, at council freedom camping sites and at iwi, community and showground camps. Basic DOC sites are free and the rest charge a fee, holiday parks have power and hot showers, and council land usually allows freedom camping in certified self-contained vehicles for a night or two where the bylaw permits it. The rules, price and booking system change with each kind of land, so knowing which one you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask and what you should expect to pay.",
       "sections": [
         {
           "heading": "The four land types",
@@ -23398,11 +23398,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Freedom camping rules in New Zealand, region by region",
-      "description": "The Freedom Camping Act, council bylaws, self-containment certification and what enforcement actually looks like on the ground.",
+      "title": "Freedom Camping Rules NZ 2026: Where It's Legal and the Fines",
+      "description": "Where you can freedom camp in New Zealand in 2026: council bylaws, DOC land, the green warrant your vehicle needs since June, stay limits and the fines.",
       "region": "New Zealand",
       "imageAlt": "Authorised freedom camping sign beside a campervan",
-      "intro": "Freedom camping in New Zealand is legal where it is permitted and an infringement everywhere else, and the line between the two is drawn by whichever body manages the land under your wheels. The Freedom Camping Act 2011 sets a national frame, but councils write their own bylaws, so a rule you learned in one district tells you very little about the next one.",
+      "intro": "Freedom camping in New Zealand is legal only where the body that manages the land allows it: on council land under that council's bylaw, on conservation land unless a DOC notice prohibits or restricts it, and never on private land without permission. Most council sites and many DOC areas admit only certified self-contained vehicles, and since 7 June 2026 only a green warrant counts. The Freedom Camping Act 2011 sets the national frame, but councils write their own bylaws, so a rule you learned in one district tells you very little about the next one.",
       "sections": [
         {
           "heading": "What freedom camping actually means here",
@@ -24330,7 +24330,7 @@
       "description": "Where to empty a campervan toilet in NZ: KiwiCamping's 262 dump stations by region, most of them free, how to use one and the $800 fine for dumping waste.",
       "region": "New Zealand camps",
       "imageAlt": "Campervan using a marked dump station",
-      "intro": "Waste is where responsible camping becomes concrete, and where the penalties get serious. Discharging toilet or grey water in the wrong place carries substantially higher fines than an ordinary freedom camping infringement, and it is the behaviour most likely to get a popular site closed permanently.",
+      "intro": "Empty a campervan toilet cassette or grey water tank only at a dump station. Our data lists 262 public dump stations across New Zealand, and most of them are free to use. Discharging toilet or grey water anywhere else carries a higher fine than an ordinary freedom camping infringement, and it is the behaviour most likely to get a popular site closed permanently.",
       "sections": [
         {
           "heading": "Know your three waste streams",
