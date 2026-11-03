@@ -13,6 +13,7 @@ import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { fill, labelKey, localizeFactValue, localizeFee, term, type HubStrings } from "@/lib/hub-strings";
 import { localizedHubPath, localizedHubs, localizedHubView, localizedIndexPath, type LocalizedHubView } from "@/lib/hubs-localized";
 import productFacts from "@/lib/data/product-facts.json";
+import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
 
 /**
  * One data hub in another language: the same facts, map, places and CTA as the English page
@@ -53,6 +54,9 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
   const councilGuide = localizedArticles(locale).find((article) => article.slug === "camping-rules-local-councils-new-zealand");
   const related = hub.related && hasPage.has(hub.related) ? { href: sitePath(`${prefix}${hub.related}`), label: fill(hub.kind === "camping" ? t.common.relatedHuts : t.common.relatedCampsites, { name: hub.name }) } : null;
   const sources = [...hub.officialLinks, ...(english?.sources ?? [])];
+  const articlesHere = localizedArticles(locale);
+  const guides = hubGuides(hub).flatMap((slug) => articlesHere.find((article) => article.slug === slug) ?? []);
+  const nearby = nearbyHubs(hub).filter((other) => hasPage.has(other.path));
   const indexPath = localizedIndexPath(kind, locale);
   const url = `${SITE_URL}${localizedHubPath(hub, locale)}`;
   const schema = {
@@ -116,6 +120,20 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
                 </table>
               </div>
             </section>
+            <section className="sources hub-notes">
+              <h2>{copy.notesTitle}</h2>
+              <p>{copy.noteRules}</p>
+              <p>{copy.noteSeason}</p>
+              <p>{t.common.notesSources}: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+            </section>
+            {guides.length > 0 && <section className="sources">
+              <h2>{fill(t.common.guidesTitle, { name: hub.name })}</h2>
+              <ul>{guides.map((item) => <li key={item.slug}><Link href={sitePath(`${prefix}/guides/${item.slug}`)}>{item.title}<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {nearby.length > 0 && <section className="sources">
+              <h2>{kind === "freedom-camping" ? t.common.nearbyDistricts : t.common.nearbyRegions}</h2>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{fill(copy.h1, { name: other.name })}<ArrowRight /></Link></li>)}</ul>
+            </section>}
             <section className="sources">
               <h2>{t.common.checkTitle}</h2>
               <p>{t.common.checkText}</p>

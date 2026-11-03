@@ -65,12 +65,17 @@ const common = {
   feeResident: "{price} (NZ resident)",
   feeInternational: "{price} (international)",
   currentType: "{type} (current)",
+  guidesTitle: "Guides for {name}",
+  nearbyRegions: "Nearby regions",
+  nearbyDistricts: "Nearby districts",
+  notesSources: "Official sources",
 };
 
 type KindStrings = {
   indexTitle: string; indexMetaTitle: string; indexIntro: string; noun: string; nounSingular: string;
   h1: string; metaTitle: string; metaDescription: string; intro: string; mapLabel: string; listTitle: string;
   ctaTitle: string; ctaText: string; proseTitle: string; indexCtaTitle: string; directoryExtra: string;
+  notesTitle: string; noteRules: string; noteSeason: string;
 };
 const kinds: Record<BuiltHubKind, KindStrings> = {
   camping: {
@@ -89,6 +94,9 @@ const kinds: Record<BuiltHubKind, KindStrings> = {
     proseTitle: "Camping with DOC in {name}",
     indexCtaTitle: "Every DOC campsite on one map",
     directoryExtra: "{value} free",
+    notesTitle: "Bookings and fire season",
+    noteRules: "Bookable DOC campsites need a booking even if you hold a DOC Campsite Pass, and Great Walk campsites must be booked ahead for the Great Walks season. Campsites that cannot be booked are first come, first served.",
+    noteSeason: "Before lighting any fire, check the fire season for the area on checkitsalright, the Fire and Emergency New Zealand site, and read the DOC alerts for your campsite on the day you travel.",
   },
   huts: {
     indexTitle: "DOC huts by region",
@@ -106,6 +114,9 @@ const kinds: Record<BuiltHubKind, KindStrings> = {
     proseTitle: "Tramping to DOC huts in {name}",
     indexCtaTitle: "Every DOC hut on one map",
     directoryExtra: "{value} bunks",
+    notesTitle: "Bookings and fire season",
+    noteRules: "Basic huts are free. Huts that cannot be booked are first come, first served and paid with a Backcountry Hut Pass or Backcountry Hut Tickets bought before the trip. Great Walk huts and other bookable huts need a booking, and without one you can be turned away.",
+    noteSeason: "Great Walk huts and campsites must be booked for the Great Walks season, and its dates differ by track, so check the track's DOC page before planning around a hut. Check the fire season on checkitsalright before lighting any fire.",
   },
   "freedom-camping": {
     indexTitle: "Freedom camping notices on DOC land",
@@ -123,6 +134,9 @@ const kinds: Record<BuiltHubKind, KindStrings> = {
     proseTitle: "What the notices mean in {name}",
     indexCtaTitle: "Every DOC campsite and hut on one map",
     directoryExtra: "{value} prohibited",
+    notesTitle: "Vehicle rules and fire season",
+    noteRules: "To freedom camp in a vehicle on public land you need a certified self-contained vehicle with a green warrant, except at sites designated for other vehicles. Where a DOC notice prohibits or restricts camping, it applies whatever your vehicle.",
+    noteSeason: "Councils set their own rules for the land they manage, so check the council page and the signs on site. Check the fire season on checkitsalright before using any open flame.",
   },
 };
 

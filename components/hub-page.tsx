@@ -9,6 +9,8 @@ import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { SITE_URL, articles, articleHref, sitePath } from "@/lib/site";
 import { builtHubs, factValue, hubGate, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import productFacts from "@/lib/data/product-facts.json";
+import { hubSource } from "@/lib/hub-strings";
+import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
 
 /**
  * The data hubs: a DOC region's campsites or huts, or a DOC district's freedom-camping notices.
@@ -120,6 +122,9 @@ export function HubPage({ hub }: { hub: Hub }) {
   // Only link the sibling hub if it is built: a region with two huts has no huts page.
   const related = hub.related && builtHubs.some((other) => other.path === hub.related) ? { href: hub.related, label: hub.kind === "camping" ? `DOC huts in ${hub.name}` : `DOC campsites in ${hub.name}` } : null;
   const sources = [...hub.officialLinks, ...(prose?.sources ?? [])];
+  const notes = hubSource().kinds[kind];
+  const guides = hubGuides(hub).flatMap((slug) => articles.find((article) => article.slug === slug) ?? []);
+  const nearby = nearbyHubs(hub);
 
   return <>
     <Header />
@@ -170,6 +175,20 @@ export function HubPage({ hub }: { hub: Hub }) {
                 </table>
               </div>
             </section>
+            <section className="sources hub-notes">
+              <h2>{notes.notesTitle}</h2>
+              <p>{notes.noteRules}</p>
+              <p>{notes.noteSeason}</p>
+              <p>Official sources: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+            </section>
+            {guides.length > 0 && <section className="sources">
+              <h2>Guides for {hub.name}</h2>
+              <ul>{guides.map((item) => <li key={item.slug}><Link href={articleHref(item)}>{item.title}<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {nearby.length > 0 && <section className="sources">
+              <h2>{kind === "freedom-camping" ? "Nearby districts" : "Nearby regions"}</h2>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={other.path}>{copy.h1(other)}<ArrowRight /></Link></li>)}</ul>
+            </section>}
             <section className="sources">
               <h2>Check before you go</h2>
               <p>Fees, closures and access change. The DOC page for each place, current DOC alerts and signs on site take priority over this summary.</p>
