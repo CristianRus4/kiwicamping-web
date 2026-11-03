@@ -15,8 +15,11 @@ Branch `growth/k-oct-pages`. Brief: `/Users/cristian/Developer/Webs/.growth-lane
 
 - The DOC bookings and DOC huts pages list the booked-out guide (from 13 Nov) and the easy huts guide (from 6 Jan) first under Related guides.
 
-## Next
-- Waiting for the orchestrator on the cost pages: headline prices in the first sentence need the intros changed in all 15 locales (the number gate fails otherwise), and those are guide locale strings owned by the tech lane.
+## Final summary
+Lane done. DOC bookings, fire ban, tools (index, fuel, drive), home, 8 weak-CTR guides and 5 cost pages lead with the answer; a tracked download line (w_ans_<locale>) follows the answer on 10 pages; DOC pages link the two new hut guides from their publish days; cost-cluster drop explained (September spike plus English copies under locale URLs before 13 Oct). Indexable pages per locale never dropped (en 138, each locale 137). Every new string is translated into all 15 locales.
+
+## Remaining notes
+- Cost pages (approved 3 Nov): headline prices in the first sentence of the 5 intros, translated into all 15 locales; Auckland fares re-checked and dated 3 Nov. The other tables have no newer official figures.
 - doc-campsite-rules and self-contained-vehicles: left as they are (answer-first already; retitled 19 Oct; the .html vs slashless split is the tech lane's).
 
 ## Blockers
