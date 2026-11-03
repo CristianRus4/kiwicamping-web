@@ -90,3 +90,23 @@ for (const { code } of registry) {
 
 writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.entries(dates).sort()), null, 2) + "\n");
 console.log(`article dates: ${Object.keys(dates).length} guides, ${translated} dated translations`);
+
+/**
+ * The same for the pages that are not guides: the day the files that render the home page, the tools
+ * and the data hubs last changed, for their sitemap `lastmod` (lib/routes/pages.ts, tools.ts, hubs.ts).
+ * A hard-coded date said the tools and hubs were last modified before they existed. Uncommitted
+ * changes are dated today.
+ */
+const today = new Date().toISOString().slice(0, 10);
+const PAGE_SOURCES = {
+  home: ["app/page.tsx", "lib/summer.ts"],
+  tools: ["app/tools", "lib/tools.ts", "components/tool-page.tsx", "components/currency-converter.tsx", "components/fuel-calculator.tsx", "components/drive-time-calculator.tsx", "components/tank-duration-calculator.tsx", "components/campsite-cost-calculator.tsx"],
+  hubs: ["lib/hubs.ts", "lib/hubs-localized.ts", "lib/hub-prose.ts", "lib/hub-prose", "lib/hub-strings.ts", "lib/data/hubs.json", "components/hub-page.tsx", "components/localized-hub-page.tsx", "components/hub-map.tsx", "app/camping", "app/huts", "app/freedom-camping", "app/[locale]/camping", "app/[locale]/huts", "app/[locale]/freedom-camping"],
+};
+const pageDates = Object.fromEntries(Object.entries(PAGE_SOURCES).map(([page, paths]) => {
+  const present = paths.filter((path) => existsSync(join(ROOT, path)));
+  if (git("status", "--porcelain", "--", ...present).trim()) return [page, today];
+  return [page, day(git("log", "-1", "--format=%aI", "--", ...present).trim() || `${today}T`)];
+}));
+writeFileSync(join(ROOT, "lib/page-dates.json"), JSON.stringify(pageDates, null, 2) + "\n");
+console.log(`page dates: ${Object.entries(pageDates).map(([page, date]) => `${page} ${date}`).join(", ")}`);

@@ -1,6 +1,7 @@
 import type { ExportRoute } from "@/lib/routes";
 import { routedLocales } from "@/lib/locales";
 import { isToolIndexable, toolIds, toolPageKey, toolPath } from "@/lib/tools";
+import pageDates from "@/lib/page-dates.json";
 
 /**
  * The five calculator pages for the route manifest (lib/routes.ts): English, plus every routed locale.
@@ -10,6 +11,6 @@ import { isToolIndexable, toolIds, toolPageKey, toolPath } from "@/lib/tools";
  */
 export function toolRoutes(): ExportRoute[] {
   return (["en", ...routedLocales] as const).flatMap((locale) => toolIds.map((id) => ({
-    path: toolPath(locale, id), locale, kind: "tool" as const, indexable: isToolIndexable(locale, id), pageKey: toolPageKey(id),
+    path: toolPath(locale, id), locale, kind: "tool" as const, indexable: isToolIndexable(locale, id), pageKey: toolPageKey(id), lastmod: pageDates.tools,
   })));
 }

@@ -22,7 +22,7 @@ export function GET() {
 > turning the ones you save into a road trip. It bundles a directory of 6,500+ places so the details
 > stay readable with no mobile reception.
 
-- **Website:** ${SITE_URL}
+- **Website:** ${SITE_URL}/
 - **Download (App Store, free):** ${appStoreUrl({ placement: "llms", locale: "en" })}
 - **Platform:** iOS (iPhone). No Android or web version.
 - **Coverage:** New Zealand, both islands.
@@ -78,13 +78,13 @@ figure, for visitors not fluent in NZD.
 ## Site structure
 
 - [Home](${SITE_URL}/)
-- [Guides](${SITE_URL}/guides) — ${articles.length} long-form guides
-- [Road trip tools](${SITE_URL}/tools) — currency, fuel, driving day, water and waste, campsite cost
+- [Guides](${SITE_URL}${sitePath("/guides")}) — ${articles.length} long-form guides
+- [Road trip tools](${SITE_URL}${sitePath("/tools")}) — currency, fuel, driving day, water and waste, campsite cost
 ${toolIds.map((id) => `  - [${toolStrings[id].h1}](${SITE_URL}${toolPath("en", id)})`).join("\n")}
 ${hubKinds.filter((kind) => hubIndexIndexable(kind)).map((kind) => `- [${hubCopy[kind].indexTitle}](${SITE_URL}/${kind}/): ${listedHubs(kind).length} pages from Department of Conservation data (CC BY 4.0)`).join("\n")}
-- [Support and FAQ](${SITE_URL}/support)
-- [Privacy](${SITE_URL}/privacy)
-- [Terms](${SITE_URL}/terms)
+- [Support and FAQ](${SITE_URL}${sitePath("/support")})
+- [Privacy](${SITE_URL}${sitePath("/privacy")})
+- [Terms](${SITE_URL}${sitePath("/terms")})
 
 ## Languages
 

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "KiwiCamping: the camping map and road trip planner for New Zealand",
     description:
       "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     // A 1200x630 card. The hero screenshot used to fill this slot, and being 1000x1500 it was
     // centre-cropped to a strip by every social preview that rendered it.
     images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
