@@ -27,7 +27,7 @@
 - **Provider token:** pt=127436485 (Cntxt Limited). App ID: 6746952595.
 - **Link format:** `https://apps.apple.com/app/id6746952595?pt=127436485&ct=w_<placement>_<locale>&mt=8`, built by `appStoreUrl()` in `lib/app-store.ts`.
 - **Token limit:** App Store Connect allows campaign tokens up to 30 characters.
-- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms, listicle (comparison guides), ig, tt and fb (social bio links, always `_en`). Locale is `en` or the locale segment.
+- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms, listicle (comparison guides), ig, tt and fb (social bio links, always `_en`), and ans (the download line right after the opening answer on the DOC bookings, fire ban, dump stations, freedom camping, where to camp, DOC huts, road rules and East Cape guides and the fuel and drive-time calculators, from 3 Nov 2026; `w_ans_<locale>`, longest `w_ans_zh-hans`). Locale is `en` or the locale segment.
 - **Where to read it:**
   - App Store Connect: Apps, then KiwiCamping, Analytics, Acquisition, Campaigns. Downloads per `ct`, with a 24 to 48 hour lag. Campaigns with fewer than 5 users are hidden.
   - Acquisition, then Sources, shows Web Referrer per domain.

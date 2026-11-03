@@ -24020,5 +24020,17 @@
         ]
       }
     }
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Quand un refuge ou un camping est complet, KiwiCamping affiche tous les refuges et campings du DOC à proximité, avec leur catégorie, leur tarif et la possibilité ou non de réserver.",
+    "campfire-rules-new-zealand": "KiwiCamping affiche les équipements de chaque camping du DOC, y compris si les feux sont autorisés, et les fiches des lieux restent lisibles sans réseau.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping place sur la carte 262 aires de vidange avec leurs tarifs, pour trouver la plus proche avant qu'un réservoir soit plein.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping signale sur la carte les avis du DOC sur le camping libre, pour voir avant de vous garer où il est interdit ou limité sur les terres protégées.",
+    "where-to-camp-in-new-zealand": "KiwiCamping réunit sur une carte les campings et refuges du DOC, les holiday parks et les zones de camping libre, avec des filtres par tarif et par équipement.",
+    "doc-huts-new-zealand-guide": "KiwiCamping liste les refuges du DOC par région, avec leur catégorie, leur tarif et la possibilité ou non de réserver, lisibles sans réseau sur le sentier.",
+    "campervan-road-rules-new-zealand": "Le planificateur de KiwiCamping met vos étapes dans l'ordre et affiche la distance entre elles, pour que chaque journée de route reste raisonnable en camping-car.",
+    "east-cape-road-trip": "Enregistrez les étapes de l'East Cape dans un voyage KiwiCamping pour voir la distance du parcours et garder campings, dates et notes en ordre.",
+    "tool:fuel": "Les voyages KiwiCamping additionnent la distance entre vos étapes, le chiffre dont ce calculateur a besoin.",
+    "tool:drive": "Tracez l'itinéraire dans KiwiCamping pour voir la distance entre vos étapes, puis calculez ici la durée de chaque journée de route."
   }
 }

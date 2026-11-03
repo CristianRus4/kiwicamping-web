@@ -23936,5 +23936,17 @@
         ]
       ]
     }
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "산장이나 캠핑장이 꽉 찼을 때 KiwiCamping에서 주변의 DOC 산장과 캠핑장을 등급, 요금, 예약 가능 여부와 함께 확인할 수 있어요.",
+    "campfire-rules-new-zealand": "KiwiCamping은 DOC 캠핑장마다 모닥불 허용 여부를 포함한 시설을 보여 주고, 장소 정보는 신호가 없어도 읽을 수 있어요.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping은 덤프 스테이션 262곳을 요금과 함께 지도에 보여 주니, 탱크가 차기 전에 가장 가까운 곳을 찾을 수 있어요.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping은 DOC의 프리덤 캠핑 공지를 지도에 표시해서, 주차하기 전에 보호구역 중 어디가 금지되거나 제한되는지 알 수 있어요.",
+    "where-to-camp-in-new-zealand": "KiwiCamping은 DOC 캠핑장과 산장, 홀리데이 파크, 프리덤 캠핑 구역을 한 지도에 모아 요금과 시설로 걸러 볼 수 있어요.",
+    "doc-huts-new-zealand-guide": "KiwiCamping은 DOC 산장을 지역별로 등급, 요금, 예약 가능 여부와 함께 보여 주고, 트랙에서 신호가 없어도 읽을 수 있어요.",
+    "campervan-road-rules-new-zealand": "KiwiCamping 여행 플래너는 들를 곳을 순서대로 정리하고 구간 거리를 보여 줘서, 캠퍼밴으로 무리 없는 하루 운전 일정을 짤 수 있어요.",
+    "east-cape-road-trip": "이스트케이프의 들를 곳을 KiwiCamping 여행에 저장하면 경로 거리를 확인하고 캠핑장, 날짜, 메모를 한곳에서 정리할 수 있어요.",
+    "tool:fuel": "KiwiCamping 여행은 들를 곳 사이의 거리를 합산해 주니, 이 계산기에 넣을 숫자를 바로 알 수 있어요.",
+    "tool:drive": "KiwiCamping에서 경로를 짜서 들를 곳 사이의 거리를 확인한 다음, 여기서 하루하루 운전 시간을 계산해 보세요."
   }
 }

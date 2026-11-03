@@ -23991,5 +23991,17 @@
         ]
       }
     }
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "När en stuga eller campingplats är fullbokad visar KiwiCamping alla DOC-stugor och campingplatser i närheten med kategori, avgift och om de går att boka.",
+    "campfire-rules-new-zealand": "KiwiCamping visar faciliteterna på varje DOC-campingplats, även om eldning är tillåten, och platsuppgifterna går att läsa utan täckning.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping visar 262 tömningsstationer med avgifter på kartan, så att du hittar den närmaste innan en tank blir full.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping markerar DOC:s meddelanden om freedom camping på kartan, så att du ser var det är förbjudet eller begränsat på naturskyddad mark innan du parkerar.",
+    "where-to-camp-in-new-zealand": "KiwiCamping samlar DOC-campingplatser, stugor, holiday parks och områden för freedom camping på en karta, med filter för avgifter och faciliteter.",
+    "doc-huts-new-zealand-guide": "KiwiCamping listar DOC-stugorna per region med kategori, avgift och om de går att boka, läsbart utan täckning på leden.",
+    "campervan-road-rules-new-zealand": "KiwiCampings reseplanerare lägger dina stopp i ordning och visar avståndet mellan dem, så att varje kördag blir rimlig med husbil.",
+    "east-cape-road-trip": "Spara stoppen på East Cape i en KiwiCamping-resa för att se ruttens längd och hålla ordning på campingplatser, datum och anteckningar.",
+    "tool:fuel": "Resor i KiwiCamping räknar ihop avståndet mellan dina stopp, och det är just den siffran den här räknaren behöver.",
+    "tool:drive": "Bygg rutten i KiwiCamping för att se avståndet mellan dina stopp och räkna sedan ut tiden för varje kördag här."
   }
 }

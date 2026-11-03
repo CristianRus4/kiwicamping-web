@@ -1,5 +1,5 @@
 import { translationFiles } from "./translations/index";
-import { consentStrings, staticPages, summerStrings, uiStrings, type ConsentKey, type ConsentStrings, type SummerKey, type SummerStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
+import { answerStrings, consentStrings, staticPages, summerStrings, uiStrings, type AnswerKey, type ConsentKey, type ConsentStrings, type SummerKey, type SummerStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { allArticles, articles, categories, type Article, type ArticleCategory, type ArticleTable } from "./site";
 import { hasReviews, liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
 
@@ -33,6 +33,7 @@ type TranslationFile = {
   ui?: Partial<Record<keyof UiStrings, string>>;
   consent?: Partial<Record<ConsentKey, string>>;
   summer?: Partial<Record<SummerKey, string>>;
+  answers?: Partial<Record<AnswerKey, string>>;
   articles?: Record<string, TranslatedArticle>;
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
@@ -150,6 +151,18 @@ export function getTranslation(locale: LocaleCode): UiStrings {
 export function getSummerStrings(locale: LocaleCode): SummerStrings {
   const overrides = files[locale].summer ?? {};
   return Object.fromEntries(Object.entries(summerStrings).map(([key, english]) => [key, filled(overrides[key as SummerKey]) ? overrides[key as SummerKey]! : english])) as SummerStrings;
+}
+
+/**
+ * The download line after a page's opening answer, in the page's language: English on English pages
+ * (and on a locale page still served in English), the translation on a translated page, and nothing
+ * when the page has no line or its translation is missing, so a translated page never shows English.
+ */
+export function getAnswerString(locale: LocaleCode | "en", key: string, english = locale === "en"): string | undefined {
+  if (!(key in answerStrings)) return undefined;
+  if (english) return answerStrings[key as AnswerKey];
+  const translated = files[locale as LocaleCode].answers?.[key as AnswerKey];
+  return filled(translated) ? translated : undefined;
 }
 
 /** The consent bar strings: each one in the locale when translated, otherwise English. Never gates publishing. */

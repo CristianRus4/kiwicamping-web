@@ -3,6 +3,8 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, ExternalLink, MapPin } from
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
+import { AnswerCta } from "@/components/answer-cta";
+import { getAnswerString } from "@/lib/localized";
 import { ContextCta, ContextEndCta, ctaVariantFor } from "@/components/context-cta";
 import { SectionTable } from "@/components/article-table";
 import { ArticleCard } from "@/components/article-card";
@@ -43,6 +45,7 @@ export function GuideArticle({ item }: { item: Article }) {
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
   const ctaVariant = ctaVariantFor(item);
+  const answer = getAnswerString("en", item.slug);
 
   return <>
     <Header />
@@ -67,6 +70,7 @@ export function GuideArticle({ item }: { item: Article }) {
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}</p>
+            {answer && <AnswerCta text={answer} locale="en" label="Download KiwiCamping" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">NZD</span>
               <h2>Price table in 10 currencies</h2>

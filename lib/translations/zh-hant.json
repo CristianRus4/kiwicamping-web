@@ -23991,5 +23991,17 @@
         ]
       ]
     }
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "山屋或營地客滿時，KiwiCamping 會列出附近所有 DOC 山屋和營地，並標出類型、費用以及能不能預訂。",
+    "campfire-rules-new-zealand": "KiwiCamping 會顯示每個 DOC 營地的設施，包括能不能生火，地點資料沒有訊號也能查看。",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping 在地圖上標出 262 個排污站和收費，水箱滿之前就能找到最近的一個。",
+    "freedom-camping-rules-new-zealand": "KiwiCamping 在地圖上標出 DOC 的自由露營公告，停車前就能看到保護區哪裡禁止或限制露營。",
+    "where-to-camp-in-new-zealand": "KiwiCamping 把 DOC 營地和山屋、度假營地以及自由露營點放在同一張地圖上，還能依費用和設施篩選。",
+    "doc-huts-new-zealand-guide": "KiwiCamping 依地區列出 DOC 山屋，標出類型、費用以及能不能預訂，走在步道上沒有訊號也能查看。",
+    "campervan-road-rules-new-zealand": "KiwiCamping 的行程規劃會把停靠點排好順序並顯示每段距離，讓開露營車的每一天都不會太累。",
+    "east-cape-road-trip": "把東角（East Cape）沿途的停靠點存進 KiwiCamping 行程，就能看到路線距離，並把營地、日期和備註整理好。",
+    "tool:fuel": "KiwiCamping 行程會把停靠點之間的距離加總，正是這個計算機需要的數字。",
+    "tool:drive": "先在 KiwiCamping 排好路線、看清停靠點之間的距離，再在這裡算出每天的開車時間。"
   }
 }
