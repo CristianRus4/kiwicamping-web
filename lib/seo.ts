@@ -82,6 +82,8 @@ const organization = {
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
   name: "KiwiCamping",
+  // How people search for the brand ("kiwi camping"), so Google ties those queries to this site.
+  alternateName: "Kiwi Camping",
   url: `${SITE_URL}/`,
   logo: { "@type": "ImageObject", url: LOGO },
 };
@@ -90,6 +92,7 @@ const website = {
   "@type": "WebSite",
   "@id": `${SITE_URL}/#website`,
   name: "KiwiCamping",
+  alternateName: "Kiwi Camping",
   url: `${SITE_URL}/`,
   publisher: { "@id": `${SITE_URL}/#organization` },
   inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
@@ -187,6 +190,12 @@ const plain = (text: string) => text.replace(/<[^>]+>/g, "");
  * a translation was last modified when its own text last changed. A locale page that falls back to
  * English passes its locale for the breadcrumb URLs but describes itself as English text.
  */
+/**
+ * An app listicle ("best ... apps", "... alternatives"): the guide compares apps, KiwiCamping among
+ * them, so it describes the app (the same node as the homepage) and is not a set of steps.
+ */
+export const isAppListicle = (slug: string) => /(^|-)apps?(-|$)/.test(slug) || /-alternatives$/.test(slug);
+
 export function articleSchema(
   item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] },
   url: string,
@@ -197,10 +206,12 @@ export function articleSchema(
   const dates = articleDates(item.slug);
   const modified = written === "en" ? dates?.modified : translationDate(item.slug, written) ?? dates?.modified;
   const root = localeRoot(locale);
+  const listicle = isAppListicle(item.slug);
   return {
     "@context": "https://schema.org",
     "@graph": [
       organization,
+      ...(listicle ? [application] : []),
       {
         "@type": "Article",
         headline: item.title,
@@ -215,6 +226,7 @@ export function articleSchema(
         about: item.places,
         articleSection: item.category,
         isPartOf: { "@id": `${SITE_URL}/#website` },
+        ...(listicle && { mentions: { "@id": `${SITE_URL}/#app` } }),
       },
       // The guide's own two questions. The same array renders the visible FAQ below the article, so
       // the markup can never say something the page does not.
@@ -225,8 +237,8 @@ export function articleSchema(
         mainEntity: item.faq.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })),
       }] : []),
       // An app guide teaches a task in the app, so its sections are genuinely steps. Route and
-      // rules guides are not tasks and get no HowTo.
-      ...(item.category === "App guides" && item.sections?.length ? [{
+      // rules guides are not tasks, and neither is an app listicle, so they get no HowTo.
+      ...(item.category === "App guides" && !listicle && item.sections?.length ? [{
         "@type": "HowTo",
         "@id": `${url}#howto`,
         name: item.title,
