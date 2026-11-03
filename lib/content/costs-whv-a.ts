@@ -17,7 +17,7 @@ export const costsWhvArticlesA: Article[] = [
     region: "New Zealand",
     places: ["Auckland","Christchurch","Queenstown","Cook Strait ferry"],
     imageAlt: "Four white campervans parked at a coastal lookout in Otago, New Zealand",
-    related: ["campervan-budget-new-zealand","cook-strait-ferry-campervan-guide","self-contained-campervan-green-warrant","new-zealand-road-trip-fuel-cost-2026","camping-fees-new-zealand-2026"],
+    related: ["road-user-charges-campervan-new-zealand", "campervan-budget-new-zealand","cook-strait-ferry-campervan-guide","self-contained-campervan-green-warrant","new-zealand-road-trip-fuel-cost-2026","camping-fees-new-zealand-2026"],
     intro:
       "Hiring a campervan in New Zealand starts at about $35 a day for a 2-berth van in the cheapest season and about $95 a day at peak, according to Jucy's own price guide last updated on 22 May 2026, and a 6-berth van runs from $145 to $320. Most other rental companies show a price only after you enter dates, so the table below uses Jucy's published figures and the sections after it cover the extras that decide what you really pay: insurance excess, bond, one-way fees, road user charges and the Cook Strait ferry. Everything here was read on the company pages on 21 October 2026, in New Zealand dollars with GST included unless a page says otherwise.",
     sections: [

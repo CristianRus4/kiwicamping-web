@@ -155,3 +155,7 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-marlborough-2026` | Picton Harbour, Marlborough Sounds.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Picton_Harbour,_Marlborough_Sounds.jpg) |
 | `freedom-camping-rotorua-2026` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
 | `hipcamp-alternatives` | Stewart Island Maori Beach Campsite tent.jpg | AlasdairW | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Stewart_Island_Maori_Beach_Campsite_tent.jpg) |
+| `doc-hut-great-walk-booked-out` | Milford Track Clinton Hut.jpg | AlasdairW | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Milford_Track_Clinton_Hut.jpg) |
+| `school-public-holidays-new-zealand-2027` | Reefton Motor Camp domain.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_domain.jpg) |
+| `road-user-charges-campervan-new-zealand` | Gas station, Waikari, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Gas_station,_Waikari,_Canterbury,_New_Zealand.jpg) |
+| `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |

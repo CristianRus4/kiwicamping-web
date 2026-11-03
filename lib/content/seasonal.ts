@@ -3,7 +3,8 @@ import { makeArticle as a, type Article, type ArticleSection, type ArticleTable 
 const s = (heading: string, body: string[], tips?: string[], table?: ArticleTable, cta?: boolean): ArticleSection => ({ heading, body, tips, ...(table && { table }), ...(cta && { cta }) });
 
 /**
- * Seasonal guides, written ahead of the Christmas and New Year peak. Every rule, fee and date is read
+ * Seasonal and summer-planning guides, written ahead of the Christmas and New Year peak: holidays,
+ * booked-out huts, easy huts and road user charges. Every rule, fee and date is read
  * from the official page named in `sources` on the date in the intro, and each guide says plainly
  * where an agency publishes nothing.
  */
@@ -17,7 +18,7 @@ export const seasonalArticles: Article[] = [
     region: "New Zealand",
     places: ["Tōtaranui", "Coromandel", "The Catlins", "Great Walks", "Holiday parks"],
     imageAlt: "Totaranui Bay in Abel Tasman National Park at late afternoon, with the beach curving below forested hills",
-    related: ["doc-campsites-new-zealand-guide", "freedom-camping-rules-new-zealand", "holiday-parks-new-zealand-guide", "campfire-rules-new-zealand"],
+    related: ["school-public-holidays-new-zealand-2027", "doc-campsites-new-zealand-guide", "freedom-camping-rules-new-zealand", "holiday-parks-new-zealand-guide", "campfire-rules-new-zealand"],
     intro:
       "Christmas to mid-February is the busiest stretch at popular campsites such as Tōtaranui, and DOC says some of its most popular places, including Tōtaranui, regularly book out over peak periods. This guide sets out what DOC and the councils publish for summer 2026-27: what needs booking, the extra rules at the busiest campsites, the Great Walks seasons, the green warrant, fire seasons and your options when a site is full. We read each official page on 21 October 2026, and where an agency publishes nothing we say so instead of guessing.",
     sections: [
@@ -208,6 +209,274 @@ export const seasonalArticles: Article[] = [
       { label: "DOC: Kauaeranga and Broken Hills campground rules", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/coromandel/places/coromandel-forest-park/kauaeranga-and-broken-hills-campground-rules/" },
       { label: "Safeswim", url: "https://safeswim.org.nz/" },
       { label: "DOC: northern Coromandel campground rules", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/coromandel/places/northern-coromandel/northern-coromandel-campground-rules/" },
+    ],
+  }),
+  a({
+    slug: "doc-hut-great-walk-booked-out",
+    publishAt: "2026-11-13",
+    title: "DOC Hut or Great Walk Booked Out? Cancellations, Alerts and Alternatives 2026-27",
+    description: "DOC keeps no waitlist, but cancelled beds go back on sale. How cancellation fees release beds, what alert services cost, and the huts and walks to try instead.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Great Walks", "DOC huts", "Milford Track", "Cancellations"],
+    imageAlt: "Clinton Hut on the Milford Track in Fiordland, a timber hut among beech forest",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-huts-new-zealand-guide", "best-campsite-booking-apps-new-zealand", "christmas-summer-camping-new-zealand-2026-27"],
+    intro:
+      "When a DOC hut or Great Walk shows no space, there is no waitlist to join: DOC's booking terms say it holds none. Beds come back when other walkers cancel, and they go straight back on sale in the booking system, first come, first served. Check the booking site often, especially 15 and 3 days before your date, when DOC's cancellation fees step up and people change plans. Private alert services will watch the site for you for a fee; they are not run by DOC. We read DOC's booking terms and track pages on 3 November 2026.",
+    sections: [
+      s("Why booked-out dates open up", [
+        "DOC's terms say no waitlists are held for future availability, so a cancelled bed is released to whoever books it first. Cancellations happen all season: in its own Great Walks myth-busting post, DOC says even the Milford Track has cancellations across the year.",
+        "The cancellation fees set the rhythm. On a Great Walk, a walker who cancels 15 or more days before arrival loses 10% of the booking, from 14 to 4 days out 50%, and from 3 days out 75%, so plans tend to change just before each step. A medical cancellation with a certificate carries no fee, and a booking made that day or the day before can be cancelled free.",
+      ], ["DOC keeps no waitlist", "Beds return straight to sale", "Check before the 15-day and 3-day steps"], {
+        caption: "DOC cancellation fees by type of booking, as a share of the whole booking, from DOC's booking terms. Read 3 November 2026.",
+        head: ["Booking", "15 days or more out", "14 to 4 days out", "3 days to the day before", "Day before to day after arrival"],
+        rows: [
+          ["Great Walks", "10%", "50%", "75%", "100%"],
+          ["Huts and backcountry campsites", "10%", "20%", "30%", "100%"],
+          ["Campgrounds", "10%", "20%", "75%", "100%"],
+          ["Lodges, cabins and sole-occupancy huts", "10%", "100%", "100%", "100%"],
+        ],
+      }),
+      s("How to catch a cancellation", [
+        "Make a DOC account before you search, so a booking takes seconds. DOC asks for full payment by Visa or Mastercard when you book, and a booking only counts once the payment is confirmed, so have the card ready and keep a strong connection: DOC warns that losing signal part way through often loses the booking.",
+        "On opening day, DOC says duplicate bookings are often dropped in the first 25 minutes, so keep refreshing the dates you want during that window. After that, check morning and evening. Each walker needs their own booking, and bookings cannot be moved to another account holder, so do not buy from anyone reselling a place.",
+      ], ["Create the account first", "Retry in the first 25 minutes", "Never buy a resold booking"]),
+      s("Cancellation alert services", [
+        "Some private companies check DOC's booking site for you and send a text or email when a bed you want comes free. They do not hold beds or book for you: you still book and pay on DOC's site. DOC does not run or endorse them, and its terms say speculative bookings are not allowed and void the whole booking.",
+        "Reserve Nature is one, a New York company that tracks campground and permit availability and alerts by text or call. Its pricing page lists a pay-as-you-go alert at $10 and a monthly pass at $15, without naming the currency, and it does not say on that page which New Zealand tracks it covers, so check before you pay. An alert is only worth paying for when your dates are fixed and the walk is one that sells out, such as the Milford Track.",
+      ], ["Alerts tell you; you still book", "DOC does not run or endorse them", "Check which tracks a service covers"]),
+      s("Change the walk, not the trip", [
+        "DOC's advice for a sold-out walk is to stay flexible: try quieter dates, a less popular Great Walk, or walking the track in the other direction, because the huts can have space that way. Most Great Walks have space somewhere in the season; the Milford Track is the one that sells out fast.",
+        "Outside the Great Walks, about 60 of DOC's more than 900 huts take bookings, and the rest are first come, first served. A first come, first served hut means an early start and a tent in case it is full, but it can never be booked out. Our list of easy bookable huts is a good place to look for a first night.",
+      ], ["Try the other direction", "Pick a quieter date or walk", "Carry a tent for first come huts"]),
+      s("Changes, refunds and bad weather", [
+        "Change dates online before the fees step up: a change that lowers the booking's value costs $10, and so does any change made at a visitor centre. Refunds go back to the card you paid with. Leaving early earns no refund for the nights you do not use, and a no-show gets nothing back.",
+        "If DOC closes a track for weather, it does not refund automatically: request a refund of the unused nights within seven days. The same seven-day window applies to other closures, so keep your booking number handy.",
+      ], ["Changes before the fee steps", "No refund for leaving early", "Claim weather refunds within 7 days"]),
+      s("Using KiwiCamping when a hut is full", [
+        "KiwiCamping lists DOC huts and campsites with their category, fee and whether they take bookings, so you can find the first come, first served huts and the campsites near a track's road end when the Great Walk huts are full. Save them to your trip so the plan is on your phone before you head in.",
+        "KiwiCamping does not show live availability at DOC huts, so book and watch for cancellations on DOC's site. A saved hut keeps its fee and facilities on your phone for the walk in, while the map, directions, weather and photos wait for signal.",
+      ], ["Find first come, first served huts", "Save road-end campsites to your trip"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: huts, campsites, Great Walks, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
+      { label: "DOC blog: Great Walks myth-busting", url: "https://blog.doc.govt.nz/2024/05/08/great-walks-mythbusting/" },
+      { label: "DOC: modify or cancel your online booking", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/modify-or-cancel-your-online-booking/" },
+      { label: "DOC: Anti Crow Hut makeover and bookable huts", url: "https://www.doc.govt.nz/news/media-releases/2025-media-releases/doc-reveals-dream-makeover-of-rat-infested-hut/" },
+      { label: "Reserve Nature: pricing", url: "https://reservenature.com/pricing" },
+    ],
+  }),
+  a({
+    slug: "school-public-holidays-new-zealand-2027",
+    publishAt: "2026-11-14",
+    title: "School Holidays and Public Holidays in New Zealand 2027: Camping Dates",
+    description: "2027 term breaks, every public holiday and regional anniversary day, and the long weekends when campsites fill: Waitangi Day, Easter, Matariki and Labour Day.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["School holidays", "Waitangi Day", "Easter", "Matariki", "Anniversary days"],
+    imageAlt: "Tents, a campervan and cars on the grass at the Reefton Motor Camp on the West Coast, under tall trees on a summer evening",
+    related: ["christmas-summer-camping-new-zealand-2026-27", "doc-campsites-new-zealand-guide", "holiday-parks-new-zealand-guide", "camping-fees-new-zealand-2026"],
+    intro:
+      "In 2027, New Zealand schools break from 10 to 26 April, 3 to 18 July and 25 September to 10 October, and finish the year by Friday 17 December. The busiest long weekends for camping are Waitangi Day (observed Monday 8 February), Easter (Friday 26 to Monday 29 March, in term time), Anzac (observed Monday 26 April, at the end of the autumn break), Matariki (Friday 25 June) and Labour Day (Monday 25 October). Regional anniversary days add a long weekend in each region. We read the Ministry of Education's Gazette notice and Employment New Zealand's 2027 list on 3 November 2026.",
+    sections: [
+      s("2027 school terms", [
+        "Terms 2 and 3 are the same for every state and state-integrated school. Term 1 starts between Thursday 28 January and Wednesday 3 February, as each school chooses, and term 4 ends no later than Friday 17 December, so a school can finish a few days earlier.",
+        "The school holidays are the gaps: the autumn break runs from Saturday 10 April to Monday 26 April, the winter break from Saturday 3 July to Sunday 18 July, and the spring break from Saturday 25 September to Sunday 10 October. Private schools can set their own dates.",
+      ], ["Autumn: 10 to 26 April", "Winter: 3 to 18 July", "Spring: 25 September to 10 October"], {
+        caption: "2027 school terms for state and state-integrated schools, from the Ministry of Education's notice in the New Zealand Gazette, 16 October 2025.",
+        head: ["Term", "Starts", "Ends"],
+        rows: [
+          ["Term 1", "Between Thursday 28 January and Wednesday 3 February", "Friday 9 April"],
+          ["Term 2", "Tuesday 27 April", "Friday 2 July"],
+          ["Term 3", "Monday 19 July", "Friday 24 September"],
+          ["Term 4", "Monday 11 October", "No later than Friday 17 December"],
+        ],
+      }),
+      s("Public holidays and long weekends", [
+        "Several 2027 holidays fall on a weekend. Waitangi Day is Saturday 6 February and Anzac Day Saturday 25 April, and each is observed on the Monday for people who would not have worked the Saturday. Christmas Day and Boxing Day fall on Saturday and Sunday, so the observed days are Monday 27 and Tuesday 28 December.",
+        "Matariki is Friday 25 June, the Friday before the winter school holidays, and the King's Birthday is Monday 7 June. Labour Day is Monday 25 October, two weeks after term 4 starts, and is the first long weekend of the warm season for many campers.",
+      ], ["Waitangi and Anzac move to Monday", "Matariki: Friday 25 June", "Labour Day: Monday 25 October"], {
+        caption: "2027 national public holidays, from Employment New Zealand. Read 3 November 2026.",
+        head: ["Holiday", "Date", "Long weekend"],
+        rows: [
+          ["New Year", "Friday 1 January; day after observed Monday 4 January", "Friday to Monday"],
+          ["Waitangi Day", "Saturday 6 February, observed Monday 8 February", "Saturday to Monday"],
+          ["Easter", "Good Friday 26 March to Easter Monday 29 March", "Four days"],
+          ["Anzac Day", "Saturday 25 April, observed Monday 26 April", "Last weekend of the autumn break"],
+          ["King's Birthday", "Monday 7 June", "Saturday to Monday"],
+          ["Matariki", "Friday 25 June", "Friday to Sunday"],
+          ["Labour Day", "Monday 25 October", "Saturday to Monday"],
+          ["Christmas and Boxing Day", "Saturday 25 and Sunday 26 December, observed Monday 27 and Tuesday 28 December", "Four days"],
+        ],
+      }),
+      s("Regional anniversary days", [
+        "Each region has its own anniversary day, and it brings a long weekend to the campsites within a few hours of that region's towns. Wellington's falls on Monday 25 January and Auckland's and Nelson's on Monday 1 February, a week before the Waitangi weekend, so late January to early February is one long busy stretch in the north.",
+        "Otago's anniversary is Monday 22 March and Southland's Tuesday 30 March, the day after Easter Monday, so Southland gets a five-day weekend. Canterbury's anniversary is the Friday of show week, 12 November. Employment New Zealand notes that local dates can differ, so check with the council.",
+      ], ["Auckland and Nelson: 1 February", "Southland: five days at Easter", "Canterbury: Friday 12 November"], {
+        caption: "2027 regional anniversary days as observed, from Employment New Zealand. Read 3 November 2026.",
+        head: ["Region", "Observed"],
+        rows: [
+          ["Wellington", "Monday 25 January"],
+          ["Auckland", "Monday 1 February"],
+          ["Nelson", "Monday 1 February"],
+          ["Taranaki", "Monday 8 March"],
+          ["Otago", "Monday 22 March"],
+          ["Southland", "Tuesday 30 March"],
+          ["South Canterbury", "Monday 27 September"],
+          ["Hawke's Bay", "Friday 22 October"],
+          ["Marlborough", "Monday 1 November"],
+          ["Canterbury", "Friday 12 November"],
+          ["Westland", "Monday 29 November"],
+        ],
+      }),
+      s("What the dates mean for camping", [
+        "Easter falls inside term 1 in 2027, so Easter weekend is busy but short, and the autumn school holidays follow two weeks later. The autumn break ends with the Anzac long weekend, which makes Saturday 24 to Monday 26 April one of the busiest weekends of the year at campsites near the cities.",
+        "Matariki on Friday 25 June starts a long weekend a week before the winter holidays. Labour Day weekend is often the first warm-season trip, and DOC treats 1 October to 30 April as peak season at the campsites that take bookings in summer.",
+      ], ["Easter and autumn break are separate peaks", "Anzac weekend closes the autumn break", "DOC peak season: 1 October to 30 April"]),
+      s("When to book", [
+        "DOC takes bookings for huts and campsites up to 30 June 2027, so every 2027 date before then is already open. DOC keeps no waitlist and spaces go first come, first served, so book a holiday weekend as soon as you know your dates. Bookings for the next season, from 1 July 2027, open on DOC's site on the dates it announces.",
+        "Holiday parks set their own booking windows, peak rates and minimum stays, so check those for Easter and long weekends before you plan a single night.",
+      ], ["DOC bookings open to 30 June 2027", "Book holiday weekends early", "Ask about minimum stays"]),
+      s("Planning holiday trips in KiwiCamping", [
+        "KiwiCamping lists DOC campsites and huts with their fee and whether they take bookings, and holiday parks and tours from BookIt that you can book in the app. When the campsite you want is full for a long weekend, look at the next valley or town on the map and save the alternative to your trip.",
+        "Saved campsites keep their details on the phone, so a long weekend in a valley without coverage still has its fees and facilities to hand; the map, directions, weather and photos load again once you have signal.",
+      ], ["Find a second campsite fast", "Book holiday parks in the app"], undefined, true),
+    ],
+    sources: [
+      { label: "New Zealand Gazette: 2027 and 2028 school term dates", url: "https://gazette.govt.nz/notice/id/2025-sl5849" },
+      { label: "Employment New Zealand: public holidays and anniversary dates", url: "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates/" },
+      { label: "DOC: Anti Crow Hut and bookings open to 30 June 2027", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/things-to-do/huts/anti-crow-hut/" },
+      { label: "DOC: huts, campsites, Great Walks, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
+    ],
+  }),
+  a({
+    slug: "road-user-charges-campervan-new-zealand",
+    publishAt: "2027-01-05",
+    title: "Road User Charges for Campervans in New Zealand 2026-27: Rates and Hire Fees",
+    description: "Diesel campervans pay road user charges of $76 per 1,000 km, and hire companies bill about $8 per 100 km. What RUC costs and whether diesel beats petrol.",
+    category: "Costs & budget",
+    region: "New Zealand",
+    places: ["Road user charges", "Diesel campervans", "Hire companies", "NZTA"],
+    imageAlt: "A small G.A.S service station at Waikari in North Canterbury, with fuel pumps in front of an orange and white shop",
+    related: ["new-zealand-road-trip-fuel-cost-2026", "campervan-hire-cost-new-zealand-2026", "buying-a-campervan-new-zealand-working-holiday", "fuel-price-apps-new-zealand"],
+    intro:
+      "In New Zealand, diesel vehicles do not pay road tax in the fuel price; they pay road user charges (RUC) by the kilometre instead. For a light diesel vehicle up to 3,500 kg, RUC is $76 per 1,000 km, about 7.6 cents a kilometre, and a hire company bills it at about $8 per 100 km when you return the van. Petrol vehicles pay their road tax at the pump and no RUC. We read the rate tables and the hire companies' terms on 3 November 2026.",
+    sections: [
+      s("RUC rates for campervans", [
+        "RUC is bought in blocks of 1,000 km for a vehicle you own, at a rate set by the vehicle's type and weight. Most campervans are light vehicles, up to 3,500 kg, at $76 per 1,000 km. A bigger motorhome of 3,501 to 6,000 kg pays $82. An administration fee is added to each purchase: $12.44 online or in the NZTA app, and $13.71 at an agent's counter.",
+        "Battery electric vehicles pay the same $76 as light diesel, and plug-in petrol hybrids $38. An ordinary petrol or petrol hybrid vehicle pays no RUC. NZTA's own rates page blocks automated reading, so these figures come from a published copy of the rate table effective from 6 August 2026; confirm them on NZTA before you buy.",
+      ], ["Light diesel: $76 per 1,000 km", "3.5 to 6 tonnes: $82", "Admin fee: $12.44 online"], {
+        caption: "RUC rates for light vehicles per 1,000 km, including GST, effective from 6 August 2026.",
+        head: ["Vehicle", "Rate per 1,000 km"],
+        rows: [
+          ["Light diesel, up to 3,500 kg", "$76"],
+          ["Diesel, 3,501 to 6,000 kg (two axles)", "$82"],
+          ["Battery electric, up to 3,500 kg", "$76"],
+          ["Plug-in petrol hybrid", "$38"],
+          ["Petrol or petrol hybrid", "No RUC; tax is in the fuel price"],
+        ],
+      }),
+      s("What hire companies charge", [
+        "A hire company buys the RUC for its vans and charges you for the kilometres you drive, usually when you return the van. Maui charges $8.04 per 100 km, or $8.18 for its 4 and 6 berth vehicles with a toilet and shower, and says it is calculated and collected on return. JUCY's rental agreement for bookings from 1 May 2026 sets $8.00 per 100 km. Mighty Campers lists $7.64, or $8.04 for its 4 and 6 berth toilet and shower vehicles.",
+        "A 2,000 km trip in a diesel hire van therefore adds about $160 to $165 in RUC to the final bill. Some companies let you prepay it as a daily rate instead; ask which is cheaper for your planned distance, and check the rate in your own agreement, because a company can change it.",
+      ], ["Hire RUC: about $8 per 100 km", "Billed when you return the van", "2,000 km: about $160"], {
+        caption: "Hire company RUC charges per 100 km, from each company's terms. Read 3 November 2026.",
+        head: ["Company", "Standard vans", "4 and 6 berth with toilet and shower"],
+        rows: [
+          ["Maui", "$8.04", "$8.18"],
+          ["JUCY", "$8.00", "$8.00 (one rate for all vans)"],
+          ["Mighty Campers", "$7.64", "$8.04"],
+        ],
+      }),
+      s("Is a diesel campervan cheaper than petrol?", [
+        "Per litre, diesel is cheaper at the pump because it carries no road tax. In MBIE's weekly data for the week of 14 August 2026, adjusted retail prices were about $3.01 a litre for regular petrol and $2.67 for diesel. RUC then adds back about 7.6 cents a kilometre on your own van, or about 8 cents on a hire van.",
+        "At the same consumption, petrol wins: a van using 10 litres per 100 km costs about $30 per 100 km on petrol, and about $27 in diesel plus $8 in RUC, so $35. Diesel only comes out ahead when the diesel van uses clearly less fuel than the petrol one. Compare the real consumption of the two vans, not the pump price.",
+      ], ["Same consumption: petrol is cheaper", "Diesel wins only on lower consumption", "Compare litres per 100 km"]),
+      s("If you own a diesel campervan", [
+        "A van you own must carry a current RUC licence, shown on the windscreen, that covers the distance on its odometer, and you buy the next block before you reach the limit. The licence stays with the vehicle, so unused RUC passes to the next owner when you sell, and you can claim a refund on a vehicle you sell, scrap or export if at least $20 is unused.",
+        "When you buy a used diesel van, compare the RUC label against the odometer. If the van has already driven past its licence, you will be buying that distance too.",
+      ], ["Keep RUC ahead of the odometer", "Unused RUC goes with the van", "Check the label when you buy"]),
+      s("What changes next", [
+        "New Zealand did not cut fuel excise or RUC during the 2026 fuel crisis; the Finance Minister ruled out a RUC cut in March 2026. On 31 August 2026 the Government scrapped the fuel excise increase due on 1 January 2027 and delayed the matching RUC increase too, with increases now planned from 1 January 2028.",
+        "The Government also plans to move petrol vehicles onto RUC and remove petrol excise. The Land Transport (Revenue) Amendment Bill, introduced in November 2025, starts that change, but no switch-over date for petrol cars has been set, so a petrol campervan still pays its road tax at the pump in 2026-27.",
+      ], ["No RUC increase on 1 January 2027", "Petrol cars not on RUC yet", "Rises planned from 2028"]),
+      s("Planning distances in KiwiCamping", [
+        "KiwiCamping adds up the driving distance between the stops in your trip, so you can estimate the kilometres, and the RUC on a diesel hire van, before you book. Save the campsites and holiday parks where you will stop, and the trip keeps the total.",
+        "The distance needs a connection to route, like the map, weather and photos, but each saved place keeps its details on the phone for the stretches with no coverage.",
+      ], ["Total your trip distance", "Estimate RUC before you book"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA: road user charges rates and transaction fees", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/ruc-rates-and-transaction-fees" },
+      { label: "Calculate.co.nz: NZ road user charges rates 2026", url: "https://www.calculate.co.nz/reference/nz-road-user-charges.php" },
+      { label: "Maui: frequently asked questions", url: "https://www.maui-rentals.com/faqs" },
+      { label: "JUCY New Zealand rental agreement, bookings from 1 May 2026", url: "https://cdn.jucy.com/cms/JUCY-New-Zealand-Rental-Agreement-Bookings-Confirmed-or-Amended-on-or-after-1st-May-2026-new.pdf" },
+      { label: "Mighty Campers: fees and charges", url: "https://www.mightycampers.com/faqs/fees-and-charges" },
+      { label: "Figure.NZ: weekly adjusted retail fuel prices (MBIE data)", url: "https://figure.nz/chart/lSYJzICrinllOY7p" },
+      { label: "RNZ: Nicola Willis rules out reduction in road user charges", url: "https://www.rnz.co.nz/news/politics/591143/nicola-willis-rules-out-reduction-in-road-user-charges-for-diesel-users" },
+      { label: "1News: Government scraps 2027 fuel excise increase", url: "https://www.1news.co.nz/2026/08/31/govt-scraps-2027-fuel-excise-increase-smaller-rises-from-2028/" },
+      { label: "Ministry of Transport: road user charges system", url: "https://www.transport.govt.nz/area-of-interest/revenue/road-user-charges-system" },
+    ],
+  }),
+  a({
+    slug: "easy-doc-huts-families-first-timers",
+    publishAt: "2027-01-06",
+    title: "Easy DOC Huts for Families and First-Timers 2026-27: Walk Times and Fees",
+    description: "Seven bookable DOC huts two to three and a half hours from the road end, picked by DOC for families and new trampers, with bunks, fees and what to know.",
+    category: "Camping guides",
+    region: "New Zealand",
+    places: ["Atiwhakatu Hut", "Bushline Hut", "Lakehead Hut", "Anti Crow Hut", "Mt Heale Hut"],
+    imageAlt: "Atiwhakatu Hut in Tararua Forest Park seen through native bush, with its grey roof among the trees",
+    related: ["doc-huts-new-zealand-guide", "doc-hut-rules-etiquette", "doc-hut-great-walk-booked-out", "best-tramping-great-walks-apps-new-zealand"],
+    intro:
+      "No DOC backcountry hut has a car park at its door, but several are an easy walk of two to three and a half hours from the road end and can be booked, so everyone has a bunk when they arrive. DOC's own list for families and first-time trampers names seven: Lane Cove, Mt Heale, Atiwhakatu, Haurangi, Lakehead, Bushline and Anti Crow. Adults pay $15 a night at the standard huts and $25 to $34 at the serviced ones, and children under five stay free. We read each hut's DOC page on 3 November 2026.",
+    sections: [
+      s("Seven easy bookable huts", [
+        "DOC published this list as first-hut options for inexperienced trampers and family groups. Every hut on it must be booked online before you go, and bookings are open for stays up to 30 June 2027. The walk times are one way from the road end, at an easy family pace.",
+        "Check the notes before you choose. Atiwhakatu has a high wire swing bridge for one person at a time and a slip to scramble across, Anti Crow needs a crossing of Jordan Stream that you must not attempt in high water, and Bushline sits on the bushline at 1,280 m, where snow and ice make winter access hard.",
+      ], ["Book every one before you go", "One-way walks of 2 to 3.5 hours", "Read each hut's warnings"], {
+        caption: "DOC's easy-access bookable huts for families and new trampers, with walk times from DOC's list and fees from each hut's page. Read 3 November 2026.",
+        head: ["Hut and region", "Walk from road end", "Bunks", "Adult fee per night"],
+        rows: [
+          ["Lane Cove Hut, Whangaroa, Northland", "2 hr, or by water", "16", "$25 to $34"],
+          ["Mt Heale Hut, Great Barrier Island", "3.5 hr", "20", "$25 to $34"],
+          ["Atiwhakatu Hut, Tararua Forest Park", "3 hr", "26", "$15"],
+          ["Haurangi Hut, Remutaka Forest Park", "3 hr", "10, whole hut", "$127 to $229 for the hut"],
+          ["Lakehead Hut, Nelson Lakes", "3 hr, or water taxi", "26", "$25 to $34"],
+          ["Bushline Hut, Nelson Lakes", "2.5 hr", "14", "$25 to $34"],
+          ["Anti Crow Hut, Arthur's Pass", "3 hr", "8", "$15"],
+        ],
+      }),
+      s("What the fees cover", [
+        "Atiwhakatu and Anti Crow are standard huts at $15 a night for an adult, $7.50 for a youth of 5 to 17, and free for children under five. Atiwhakatu also accepts the Backcountry Hut Pass. The serviced huts, Lane Cove, Mt Heale, Lakehead and Bushline, cost $25 a night for an adult from May to September, $28 on weekdays and $32 at weekends from October to April, and $29 and $34 from December to February.",
+        "Haurangi Hut is booked as a whole hut for up to 10 people: $127 a night from May to September, rising to $200 on weekdays and $229 at weekends from December to February. It is locked, and the access code comes with your booking. Backcountry Hut Passes and tickets cannot be used there.",
+      ], ["Standard huts: $15 an adult", "Serviced huts: $25 to $34", "Under fives stay free"]),
+      s("Which hut for which trip", [
+        "For the shortest walk, Lane Cove can be reached by water as well as on foot, and Lakehead by water taxi across Lake Rotoiti, which suits young children. Bushline gives the biggest view for the effort, over Lake Rotoiti and the St Arnaud Range, and is 2 hours 30 minutes from Mount Robert Road.",
+        "Atiwhakatu, three hours from the Mt Holdsworth road end near Masterton, is the easiest from Wellington, with 26 bunks and heating. DOC recommends it from October to April. Anti Crow, a 7 km walk up a flat valley from the road end in Arthur's Pass, was renovated in 2025 and is DOC's suggestion for a first family tramp from Christchurch.",
+      ], ["By water: Lane Cove and Lakehead", "From Wellington: Atiwhakatu", "From Christchurch: Anti Crow"]),
+      s("What to bring", [
+        "Serviced huts have mattresses, water and toilets, and some have heating, but not all supply cooking gas: at Lane Cove DOC says to bring a portable stove, food, cooking utensils and a sleeping bag. Lakehead has no firewood supplied from May to September. Boil or treat the water where DOC says to.",
+        "Check the weather and DOC's alerts the day before. DOC says it is easy to cancel or change a booking if conditions are not right, and a booking cancelled 15 or more days ahead costs 10% of the booking.",
+      ], ["Bring a stove where gas is not supplied", "Check alerts the day before", "Cancel early if the weather turns"]),
+      s("Huts you can walk to without booking", [
+        "Most of DOC's more than 900 huts work on a first come, first served basis and cannot be booked. They suit a family that starts early and carries a tent in case the hut is full. From 1 November 2026, the hut tickets for these huts are sold through DOC's online booking system, so you can buy them before you go.",
+        "If a bookable hut is full on your dates, our guide to booked-out huts and Great Walks covers how cancellations come back on sale.",
+      ], ["First come, first served huts need a tent", "Hut tickets now sold online"]),
+      s("Finding huts in KiwiCamping", [
+        "KiwiCamping lists DOC huts with their category, fee and whether they take bookings, so you can find an easy bookable hut near your route, or the campsite at its road end, and save both to your trip.",
+        "Book the hut itself on DOC's site, because KiwiCamping does not show live hut availability. Each hut you save keeps its details on your phone at the road end, where coverage often stops; the map, directions, weather and photos need it.",
+      ], ["See which huts take bookings", "Save the road-end campsite too"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: easy access bookable huts (Anti Crow Hut release, 30 July 2025)", url: "https://www.doc.govt.nz/news/media-releases/2025-media-releases/doc-reveals-dream-makeover-of-rat-infested-hut/" },
+      { label: "DOC: Lane Cove Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/northland/places/whangaroa-area/things-to-do/lane-cove-hut/" },
+      { label: "DOC: Mt Heale Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/great-barrier-island-aotea/things-to-do/mt-heale-hut/" },
+      { label: "DOC: Atiwhakatu Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/tararua-forest-park/things-to-do/huts/atiwhakatu-hut/" },
+      { label: "DOC: Haurangi Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/things-to-do/huts/haurangi-hut/" },
+      { label: "DOC: Lakehead Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/lakehead-hut/" },
+      { label: "DOC: Bushline Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/bushline-hut/" },
+      { label: "DOC: Anti Crow Hut", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/things-to-do/huts/anti-crow-hut/" },
+      { label: "DOC: huts, campsites, Great Walks, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
     ],
   }),
 ];
