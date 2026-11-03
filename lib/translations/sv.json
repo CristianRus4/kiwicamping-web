@@ -12517,6 +12517,248 @@
       ],
       "priceTable": null
     },
+    "school-public-holidays-new-zealand-2027": {
+      "title": "Skollov och helgdagar i Nya Zeeland 2027: datum för camping",
+      "description": "Skollovet 2027, alla helgdagar och regionala anniversary days, och de långhelger då campingplatserna fylls: Waitangi Day, påsk, Matariki och Labour Day.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Tält, en campervan och bilar på gräset vid Reefton Motor Camp på västkusten, under höga träd en sommarkväll",
+      "intro": "2027 har skolorna i Nya Zeeland lov 10 till 26 april, 3 till 18 juli och 25 september till 10 oktober, och avslutar året senast fredagen den 17 december. De hektiskaste långhelgerna för camping är Waitangi Day (flyttad till måndagen den 8 februari), påsk (fredagen den 26 till måndagen den 29 mars, under terminen), Anzac (flyttad till måndagen den 26 april, i slutet av höstlovet), Matariki (fredagen den 25 juni) och Labour Day (måndagen den 25 oktober). Regionala anniversary days ger en långhelg i varje region. Vi läste utbildningsdepartementets kungörelse i Gazette och Employment New Zealands lista för 2027 den 3 november 2026.",
+      "sections": [
+        {
+          "heading": "Skolterminerna 2027",
+          "body": [
+            "Termin 2 och 3 är desamma för alla statliga och statligt integrerade skolor. Termin 1 börjar mellan torsdagen den 28 januari och onsdagen den 3 februari, efter vad varje skola väljer, och termin 4 slutar senast fredagen den 17 december, så en skola kan sluta några dagar tidigare.",
+            "Skollovet är mellanrummen: höstlovet går från lördagen den 10 april till måndagen den 26 april, vinterlovet från lördagen den 3 juli till söndagen den 18 juli och vårlovet från lördagen den 25 september till söndagen den 10 oktober. Privatskolor kan sätta egna datum."
+          ],
+          "tips": [
+            "Höst: 10 till 26 april",
+            "Vinter: 3 till 18 juli",
+            "Vår: 25 september till 10 oktober"
+          ],
+          "table": {
+            "caption": "Skolterminer 2027 för statliga och statligt integrerade skolor, från utbildningsdepartementets kungörelse i New Zealand Gazette den 16 oktober 2025.",
+            "head": [
+              "Termin",
+              "Börjar",
+              "Slutar"
+            ],
+            "rows": [
+              [
+                "Termin 1",
+                "Mellan torsdagen den 28 januari och onsdagen den 3 februari",
+                "Fredagen den 9 april"
+              ],
+              [
+                "Termin 2",
+                "Tisdagen den 27 april",
+                "Fredagen den 2 juli"
+              ],
+              [
+                "Termin 3",
+                "Måndagen den 19 juli",
+                "Fredagen den 24 september"
+              ],
+              [
+                "Termin 4",
+                "Måndagen den 11 oktober",
+                "Senast fredagen den 17 december"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Helgdagar och långhelger",
+          "body": [
+            "Flera helgdagar 2027 infaller på en helg. Waitangi Day är lördagen den 6 februari och Anzac Day lördagen den 25 april, och var och en flyttas till måndagen för dem som inte skulle ha arbetat på lördagen. Juldagen och Boxing Day infaller på lördag och söndag, så de flyttade dagarna är måndagen den 27 och tisdagen den 28 december.",
+            "Matariki är fredagen den 25 juni, fredagen före vinterskollovet, och King's Birthday är måndagen den 7 juni. Labour Day är måndagen den 25 oktober, två veckor efter att termin 4 börjat, och är för många campare årets första långhelg under den varma säsongen."
+          ],
+          "tips": [
+            "Waitangi och Anzac flyttas till måndag",
+            "Matariki: fredagen den 25 juni",
+            "Labour Day: måndagen den 25 oktober"
+          ],
+          "table": {
+            "caption": "Nationella helgdagar 2027, från Employment New Zealand. Läst den 3 november 2026.",
+            "head": [
+              "Helgdag",
+              "Datum",
+              "Långhelg"
+            ],
+            "rows": [
+              [
+                "Nyår",
+                "Fredagen den 1 januari; dagen efter flyttad till måndagen den 4 januari",
+                "Fredag till måndag"
+              ],
+              [
+                "Waitangi Day",
+                "Lördagen den 6 februari, flyttad till måndagen den 8 februari",
+                "Lördag till måndag"
+              ],
+              [
+                "Påsk",
+                "Långfredagen den 26 mars till annandag påsk den 29 mars",
+                "Fyra dagar"
+              ],
+              [
+                "Anzac Day",
+                "Lördagen den 25 april, flyttad till måndagen den 26 april",
+                "Sista helgen av höstlovet"
+              ],
+              [
+                "King's Birthday",
+                "Måndagen den 7 juni",
+                "Lördag till måndag"
+              ],
+              [
+                "Matariki",
+                "Fredagen den 25 juni",
+                "Fredag till söndag"
+              ],
+              [
+                "Labour Day",
+                "Måndagen den 25 oktober",
+                "Lördag till måndag"
+              ],
+              [
+                "Jul och Boxing Day",
+                "Lördagen den 25 och söndagen den 26 december, flyttade till måndagen den 27 och tisdagen den 28 december",
+                "Fyra dagar"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Regionala anniversary days",
+          "body": [
+            "Varje region har sin egen anniversary day, som ger en långhelg åt campingplatserna inom några timmars bilresa från regionens städer. Wellingtons infaller måndagen den 25 januari och Aucklands och Nelsons måndagen den 1 februari, en vecka före Waitangi-helgen, så slutet av januari till början av februari är en lång hektisk period i norr.",
+            "Otagos anniversary är måndagen den 22 mars och Southlands tisdagen den 30 mars, dagen efter annandag påsk, så Southland får en femdagarshelg. Canterburys är fredagen under showveckan, den 12 november. Employment New Zealand noterar att lokala datum kan skilja sig, så kolla med kommunen."
+          ],
+          "tips": [
+            "Auckland och Nelson: 1 februari",
+            "Southland: fem dagar vid påsk",
+            "Canterbury: fredagen den 12 november"
+          ],
+          "table": {
+            "caption": "Regionala anniversary days 2027 som firade, från Employment New Zealand. Läst den 3 november 2026.",
+            "head": [
+              "Region",
+              "Firas"
+            ],
+            "rows": [
+              [
+                "Wellington",
+                "Måndagen den 25 januari"
+              ],
+              [
+                "Auckland",
+                "Måndagen den 1 februari"
+              ],
+              [
+                "Nelson",
+                "Måndagen den 1 februari"
+              ],
+              [
+                "Taranaki",
+                "Måndagen den 8 mars"
+              ],
+              [
+                "Otago",
+                "Måndagen den 22 mars"
+              ],
+              [
+                "Southland",
+                "Tisdagen den 30 mars"
+              ],
+              [
+                "South Canterbury",
+                "Måndagen den 27 september"
+              ],
+              [
+                "Hawke's Bay",
+                "Fredagen den 22 oktober"
+              ],
+              [
+                "Marlborough",
+                "Måndagen den 1 november"
+              ],
+              [
+                "Canterbury",
+                "Fredagen den 12 november"
+              ],
+              [
+                "Westland",
+                "Måndagen den 29 november"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vad datumen betyder för camping",
+          "body": [
+            "Påsken infaller inom termin 1 2027, så påskhelgen är hektisk men kort, och höstskollovet följer två veckor senare. Höstlovet slutar med Anzac-långhelgen, vilket gör lördagen den 24 till måndagen den 26 april till en av årets hektiskaste helger på campingplatser nära städerna.",
+            "Matariki fredagen den 25 juni inleder en långhelg en vecka före vinterlovet. Labour Day-helgen är ofta årets första resa under den varma säsongen, och DOC räknar 1 oktober till 30 april som högsäsong på de campingplatser som tar emot bokningar på sommaren."
+          ],
+          "tips": [
+            "Påsk och höstlov är separata toppar",
+            "Anzac-helgen avslutar höstlovet",
+            "DOC:s högsäsong: 1 oktober till 30 april"
+          ]
+        },
+        {
+          "heading": "När du ska boka",
+          "body": [
+            "DOC tar emot bokningar av stugor och campingplatser till och med 30 juni 2027, så alla datum 2027 fram till dess är redan öppna. DOC för ingen kö och platserna går först till kvarn, så boka en lovhelg så snart du vet dina datum. Bokningar för nästa säsong, från 1 juli 2027, öppnar på DOC:s sida på de datum den meddelar.",
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Holiday parks</a> sätter själva sina bokningsfönster, högsäsongspriser och minimivistelser, så kolla dem för påsk och långhelger innan du planerar en enda natt."
+          ],
+          "tips": [
+            "DOC-bokningar öppna till 30 juni 2027",
+            "Boka lovhelger tidigt",
+            "Fråga om minimivistelser"
+          ]
+        },
+        {
+          "heading": "Planera lovresor i KiwiCamping",
+          "body": [
+            "KiwiCamping listar <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> och stugor med deras avgift och om de tar emot bokningar, plus holiday parks och turer från BookIt som du kan boka i appen. När campingplatsen du vill ha är full under en långhelg kan du titta på nästa dal eller stad på kartan och spara alternativet i din resa.",
+            "Sparade campingplatser behåller sina uppgifter på telefonen, så en långhelg i en dal utan täckning har ändå avgifter och faciliteter till hands; kartan, vägbeskrivningen, vädret och fotona laddas igen när du har täckning."
+          ],
+          "tips": [
+            "Hitta snabbt en andra campingplats",
+            "Boka holiday parks i appen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "När är skollovet i Nya Zeeland 2027?",
+          "Höstlovet går från 10 till 26 april, vinterlovet från 3 till 18 juli och vårlovet från 25 september till 10 oktober. Termin 4 slutar senast fredagen den 17 december, och termin 1 börjar mellan 28 januari och 3 februari, efter vad varje skola väljer."
+        ],
+        [
+          "När firas Waitangi Day 2027?",
+          "Waitangi Day infaller lördagen den 6 februari 2027 och flyttas därför till måndagen den 8 februari för dem som inte skulle ha arbetat på lördagen. Det ger en långhelg, en vecka efter Aucklands och Nelsons anniversary days måndagen den 1 februari."
+        ],
+        [
+          "När är Matariki 2027?",
+          "Fredagen den 25 juni 2027, fredagen innan vinterskollovet börjar lördagen den 3 juli."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "New Zealand Gazette: skolterminer 2027 och 2028"
+        },
+        {
+          "label": "Employment New Zealand: helgdagar och anniversary days"
+        },
+        {
+          "label": "DOC: Anti Crow Hut och bokningar öppna till 30 juni 2027"
+        },
+        {
+          "label": "DOC: villkor för stugor, campingplatser, Great Walks, cabins och lodges"
+        }
+      ],
+      "priceTable": null
+    },
     "can-i-sleep-in-my-car-in-new-zealand": {
       "title": "Sova i bilen på Nya Zeeland: vad gäller? (regler 2026)",
       "description": "Vila mot trötthet är undantaget, men en planerad natt i bilen på kommunal mark ger 400 NZD i böter om ingen föreskrift pekar ut platsen. Regler 2026 per marktyp.",
