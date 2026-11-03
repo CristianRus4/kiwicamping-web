@@ -237,6 +237,24 @@ export const summerStrings = {
   title: "Planning for summer and Christmas?",
   text: "Booking windows, fire rules and event crowds, ahead of the holidays.",
 } as const;
+/**
+ * The download line right after a page's opening answer, keyed by guide slug or `tool:<id>`. Each
+ * names the app feature that solves that page's problem and links with the `ans` campaign token.
+ * Its own namespace like the summer block: a translated page shows the line only once it is translated.
+ */
+export const answerStrings = {
+  "doc-campsites-new-zealand-guide": "When a hut or campsite is full, KiwiCamping shows every DOC hut and campsite nearby with its category, fee and whether it takes bookings.",
+  "campfire-rules-new-zealand": "KiwiCamping shows each DOC campsite's facilities, including whether fires are allowed, and keeps place details readable without signal.",
+  "camping-wastewater-rubbish-new-zealand": "KiwiCamping maps 262 dump stations with their fees, so you can find the nearest one before a tank is full.",
+  "freedom-camping-rules-new-zealand": "KiwiCamping marks DOC's freedom camping notices on the map, so you can see where conservation land is prohibited or restricted before you park.",
+  "where-to-camp-in-new-zealand": "KiwiCamping puts DOC campsites, huts, holiday parks and freedom camping areas on one map, with filters for fees and facilities.",
+  "doc-huts-new-zealand-guide": "KiwiCamping lists DOC huts by region with their category, fee and whether they can be booked, readable without signal on the track.",
+  "campervan-road-rules-new-zealand": "KiwiCamping's trip planner puts your stops in order and shows the distance between them, so each driving day stays manageable in a campervan.",
+  "east-cape-road-trip": "Save the East Cape stops in a KiwiCamping trip to see the route distance and keep campsites, dates and notes in order.",
+  "tool:fuel": "KiwiCamping trips add up the route distance between your stops, which is the number this calculator needs.",
+  "tool:drive": "Build the route in KiwiCamping to see the distance between your stops, then time each driving day here.",
+} as const;
+export type AnswerKey = keyof typeof answerStrings;
 export type SummerKey = keyof typeof summerStrings;
 export type SummerStrings = Record<SummerKey, string>;
 export type ConsentKey = keyof typeof consentStrings;
@@ -422,8 +440,8 @@ export const toolStrings = {
     routes: [
       ["Auckland to Wellington", "640 km", "8 to 8.5 hours"],
       ["Auckland to the Bay of Islands", "240 km", "3 to 3.5 hours"],
-      ["Picton to Christchurch via Kaikōura", "335 km", "4.5 to 5 hours"],
-      ["Christchurch to Queenstown via Tekapo", "480 km", "About 6 hours"],
+      ["Picton to Christchurch via Kaikōura", "About 336 km", "4.5 to 5 hours"],
+      ["Christchurch to Queenstown via Tekapo", "About 480 km", "About 6 hours"],
       ["Christchurch to Dunedin", "360 km", "About 5 hours"],
       ["Queenstown to Te Anau", "170 km", "About 2 hours"],
       ["Te Anau to Milford Sound", "120 km", "About 2 hours"],

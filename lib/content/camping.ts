@@ -5,12 +5,14 @@ const s = (heading: string, body: string[], tips?: string[]): ArticleSection => 
 export const campingArticles: Article[] = [
   a({
     slug: "doc-huts-new-zealand-guide", hubs: ["huts"],
+    // Scheduled guides: each joins the related list on its publish day (lib/related.ts uses published guides only).
+    related: ["easy-doc-huts-families-first-timers", "doc-hut-great-walk-booked-out"],
     title: "DOC Huts in New Zealand by Region: Types, Fees, Tickets",
-    description: "Where DOC's huts are, region by region, what serviced, standard and basic huts cost in 2026/27, and how hut tickets, the Hut Pass and bookings work.",
+    description: "927 DOC huts by region with 2026/27 fees, and the three ways to pay for a night: book at bookings.doc.govt.nz, hut tickets or the Backcountry Hut Pass.",
     category: "Camping guides", region: "New Zealand backcountry", readTime: 4,
     places: ["Serviced huts", "Standard huts", "Basic huts", "Great Walk huts", "Hut tickets"],
     imageAlt: "Backcountry hut in New Zealand mountains",
-    intro: "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard.",
+    intro: "DOC looks after more than 950 huts, and KiwiCamping's DOC data lists 927 of them, from serviced huts with heating and mattresses to two-bunk bivvies. Most sit in the South Island: Canterbury alone has 180 and the West Coast 140, while the North Island's biggest clusters are in the Ruahine, Kaweka and Tararua ranges. In that data, checked on 24 August 2026, only 127 of the 927 could be booked, and although DOC has since moved every serviced hut online, most huts remain first come, first served: free if basic, paid with hut tickets or a Backcountry Hut Pass if standard. So there are three ways to pay for a night: book serviced and Great Walk huts at bookings.doc.govt.nz, buy Backcountry Hut Tickets, online since 1 November 2026, for a standard hut, or carry a Hut Pass that covers most serviced and standard huts for 12 months.",
     sections: [
       s("Hut categories and 2026/27 fees", [
         "Serviced huts have mattresses, a water supply, toilets, handwashing and heating with fuel. For 2026/27 an adult pays $25 a night from May to September, $28 on weeknights and $32 on Friday and Saturday nights from October to April, and $29 and $34 from December to February; children pay half, and camping beside one costs half the hut fee. Standard huts have mattresses, water and toilets, with wood heaters below the bush line, for $15 an adult and $7.50 a child. Basic huts and bivvies are free and offer shelter and little else. In KiwiCamping's data that splits into 96 serviced, 408 standard and 372 basic huts.",

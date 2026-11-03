@@ -103,15 +103,15 @@ export const legacyOnlyArticles: Article[] = [
   a({
     slug: "where-to-camp-in-new-zealand",
     legacyPath: "/where-to-camp-in-new-zealand.html", hubs: ["camping","huts"],
-    title: "Where you can camp in New Zealand: a complete location guide",
-    description: "DOC campsites, conservation land, council reserves, iwi-managed places and private holiday parks each carry different rules and costs.",
+    title: "Where to Camp in New Zealand: Campsites by Type and Region",
+    description: "Where to camp in New Zealand: DOC campsites, holiday parks, council freedom camping and community grounds, what each costs and allows, island by island.",
     category: "Camping guides",
     region: "New Zealand",
     readTime: 13,
     places: ["Northland", "Coromandel", "Marlborough", "West Coast", "Otago", "Southland"],
     imageAlt: "Campervan parked at a coastal New Zealand campsite",
     intro:
-      "New Zealand's camping network runs across four quite different kinds of land, and the rules, price and booking system change with each one. Knowing which type you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask when something is unclear, and what you should expect to pay.",
+      "You can camp in New Zealand at DOC campsites on conservation land, at holiday parks, at council freedom camping sites and at iwi, community and showground camps. Basic DOC sites are free and the rest charge a fee, holiday parks have power and hot showers, and council land usually allows freedom camping in certified self-contained vehicles for a night or two where the bylaw permits it. The rules, price and booking system change with each kind of land, so knowing which one you are looking at tells you most of what you need: whether you can turn up, whether you need certification, who to ask and what you should expect to pay.",
     sections: [
       s("The four land types", [
         "The Department of Conservation manages the largest public network, several hundred campsites and roughly 950 huts across national parks, forest parks and scenic reserves. Sites are graded from basic through standard and serviced to Great Walk, and the grade predicts both the fee and the facilities. Basic sites are free; serviced campgrounds have flush toilets, powered options and often a warden.",

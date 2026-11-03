@@ -262,6 +262,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-header .official-link { margin-top: 26px; min-height: 48px; padding: 0 20px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; transition: background 180ms ease; }
 .article-header .official-link:hover { background: var(--store-button-hover); }
 .article-header .official-link svg { width: 16px; height: 16px; }
+.answer-cta { margin: 28px 0 8px; padding: 18px 20px; border: 1px solid var(--line, rgba(0,0,0,.12)); border-radius: 16px; display: flex; align-items: center; gap: 18px; }
+.answer-cta p { margin: 0; flex: 1; font-size: 16px; line-height: 1.5; }
+.answer-cta .store-button { flex: none; }
+.tool-answer { max-width: 1120px; margin: 0 auto; padding: 0 7%; }
+@media (max-width: 700px) { .answer-cta { flex-direction: column; align-items: stretch; } .answer-cta .store-button { width: 100%; } }
 .article-hero-image { height: 610px; margin-top: 0; margin-bottom: 0; border-radius: 8px; overflow: hidden; position: relative; }
 /* The per-guide FAQ reuses the accordion the homepage and support pages already use. */
 .article-faq details { border-bottom: 1px solid var(--line); }

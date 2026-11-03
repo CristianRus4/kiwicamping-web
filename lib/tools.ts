@@ -22,13 +22,17 @@ type Source = { label: string; url: string };
 const MBIE_FUEL: Source = { label: "MBIE weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" };
 const NZTA_RUC: Source = { label: "NZTA road user charges", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/" };
 const NZTA_JOURNEYS: Source = { label: "NZTA journey planner and road conditions", url: "https://www.journeys.nzta.govt.nz/" };
+// No official page gives these two end-to-end distances, so the route table marks them "about" and cites the
+// rental companies' figures; the other routes add up official DOC, NZTA and regional tourism legs.
+const PICTON_CHCH: Source = { label: "Omega Rental Cars: Christchurch to Picton, approx. 336 km", url: "https://www.omegarentalcars.com/blog/christchurch-to-picton/" };
+const CHCH_QT: Source = { label: "Enterprise Rent-A-Car NZ: Christchurch to Queenstown, 481.8 km", url: "https://www.enterpriserentacar.co.nz/en/inspiration/drives/5-Day-Road-Trip-Itinerary-Christchurch-to-Queenstown-Drive.html" };
 const RBNZ: Source = { label: "Reserve Bank of New Zealand exchange rates", url: "https://www.rbnz.govt.nz/en/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index" };
 const DOC_FEES: Source = { label: "DOC campsites: categories, fees and bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" };
 
 /** Slug, the guides each tool links to (and asks to be linked from), and its official sources. */
 export const tools: Record<ToolId, { slug: string; icon: "fuel" | "clock" | "wallet" | "currency" | "droplets"; guides: string[]; sources: Source[] }> = {
   fuel: { slug: "fuel-cost-calculator", icon: "fuel", guides: ["new-zealand-road-trip-fuel-cost-2026", "food-fuel-resupply-new-zealand-road-trip", "campervan-budget-new-zealand"], sources: [MBIE_FUEL, NZTA_RUC] },
-  drive: { slug: "drive-time-calculator", icon: "clock", guides: ["new-zealand-driving-day-planner", "one-lane-bridges-gravel-roads-new-zealand", "alcohol-fatigue-driving-new-zealand"], sources: [NZTA_JOURNEYS] },
+  drive: { slug: "drive-time-calculator", icon: "clock", guides: ["new-zealand-driving-day-planner", "one-lane-bridges-gravel-roads-new-zealand", "alcohol-fatigue-driving-new-zealand"], sources: [NZTA_JOURNEYS, PICTON_CHCH, CHCH_QT] },
   campsite: { slug: "campsite-cost-calculator", icon: "wallet", guides: ["camping-fees-new-zealand-2026", "doc-campsites-new-zealand-guide", "holiday-parks-new-zealand-guide"], sources: [DOC_FEES] },
   currency: { slug: "currency-converter", icon: "currency", guides: ["kiwicamping-currency-place-costs", "new-zealand-travel-cost-2026", "new-zealand-grocery-prices-2026"], sources: [RBNZ] },
   water: { slug: "water-tank-calculator", icon: "droplets", guides: ["camping-wastewater-rubbish-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-rules-new-zealand"], sources: [] },

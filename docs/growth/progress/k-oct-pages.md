@@ -8,10 +8,19 @@ Branch `growth/k-oct-pages`. Brief: `/Users/cristian/Developer/Webs/.growth-lane
 ## Done
 - Milestone 1: DOC bookings page (button, intro, description, steps, Great Walk fee and cancellation tables, alerts, payment), fire ban page (retitle, checkitsalright button, intro, season table), tools index and fuel and drive-time calculators (titles, MBIE 23 Oct prices from one constant, RUC, price and route tables, FAQs) with all 15 locales translated.
 
-## Next
-- Home title and description.
-- Legacy and English pages with page-1 ranking and weak CTR (target 5).
-- NZ cost-cluster drop investigation (target 6).
+- Milestone 1 merged 3 Nov (main adc8473); the orchestrator updated the protected fuel test.
+- Milestone 2: approximate route distances with cited sources; home title and description; freedom camping rules and where-to-camp retitled with answer-first intros; dump stations, DOC huts, road rules and East Cape descriptions and intros (titles kept under the 15 Oct rule); internal links checked (all point at the .html canonicals); cost-cluster drop investigated (see changelog: September spike plus noindexed English copies under locale URLs, no revert).
+
+- Milestone 3: a download line right after the opening answer on the 8 guides and 2 calculators I changed, with campaign token w_ans_<locale>, translated into all 15 locales.
+
+- The DOC bookings and DOC huts pages list the booked-out guide (from 13 Nov) and the easy huts guide (from 6 Jan) first under Related guides.
+
+## Final summary
+Lane done. DOC bookings, fire ban, tools (index, fuel, drive), home, 8 weak-CTR guides and 5 cost pages lead with the answer; a tracked download line (w_ans_<locale>) follows the answer on 10 pages; DOC pages link the two new hut guides from their publish days; cost-cluster drop explained (September spike plus English copies under locale URLs before 13 Oct). Indexable pages per locale never dropped (en 138, each locale 137). Every new string is translated into all 15 locales.
+
+## Remaining notes
+- Cost pages (approved 3 Nov): headline prices in the first sentence of the 5 intros, translated into all 15 locales; Auckland fares re-checked and dated 3 Nov. The other tables have no newer official figures.
+- doc-campsite-rules and self-contained-vehicles: left as they are (answer-first already; retitled 19 Oct; the .html vs slashless split is the tech lane's).
 
 ## Blockers
 None.

@@ -15,8 +15,8 @@ import { mainData } from "@/lib/analytics";
 import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "KiwiCamping: NZ Camping Map, DOC Sites & Road Trip Planner" },
-  description: "NZ camping map and app for iPhone: 6,500+ places including DOC campsites, huts, holiday parks, freedom camping areas and dump stations, and a trip planner.",
+  title: { absolute: "KiwiCamping: NZ Camping App, Campsite & Freedom Camping Map" },
+  description: "New Zealand camping app for iPhone with a campsite map of 6,500+ places: DOC campsites, huts, holiday parks, freedom camping areas and dump stations, plus a trip planner.",
   alternates: { canonical: "/", languages: alternatesFor("home") },
 };
 

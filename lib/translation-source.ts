@@ -1,4 +1,4 @@
-import { consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
+import { answerStrings, consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -28,6 +28,8 @@ export function translationSource() {
     // Its own namespace: these never gate publishing (see consentStrings in lib/source-strings.ts).
     consent: consentStrings,
     summer: summerStrings,
+    // The download line after each page's opening answer (components/answer-cta.tsx).
+    answers: answerStrings,
     pages: staticPages,
     // The calculator pages. Gated per tool (lib/tools.ts), so a partial `tools` block never
     // unpublishes a locale; keep every {placeholder} exactly.
