@@ -389,8 +389,8 @@ export const seasonalArticles: Article[] = [
         ],
       }),
       s("Is a diesel campervan cheaper than petrol?", [
-        "Per litre, diesel is cheaper at the pump because it carries no road tax. In MBIE's weekly data for the week of 14 August 2026, adjusted retail prices were about $3.01 a litre for regular petrol and $2.67 for diesel. RUC then adds back about 7.6 cents a kilometre on your own van, or about 8 cents on a hire van.",
-        "At the same consumption, petrol wins: a van using 10 litres per 100 km costs about $30 per 100 km on petrol, and about $27 in diesel plus $8 in RUC, so $35. Diesel only comes out ahead when the diesel van uses clearly less fuel than the petrol one. Compare the real consumption of the two vans, not the pump price.",
+        "Per litre, diesel is cheaper at the pump because it carries no road tax. MBIE's weekly fuel price monitoring for the week dated 23 October 2026 put regular 91 petrol at $3.61 a litre and diesel at $3.24. RUC then adds back about 7.6 cents a kilometre on your own van, or about 8 cents on a hire van.",
+        "At the same consumption, petrol wins: a van using 10 litres per 100 km costs about $36 per 100 km on petrol, and about $32 in diesel plus $8 in RUC, so $40. Diesel only comes out ahead when the diesel van uses clearly less fuel than the petrol one. Compare the real consumption of the two vans, not the pump price.",
       ], ["Same consumption: petrol is cheaper", "Diesel wins only on lower consumption", "Compare litres per 100 km"]),
       s("If you own a diesel campervan", [
         "A van you own must carry a current RUC licence, shown on the windscreen, that covers the distance on its odometer, and you buy the next block before you reach the limit. The licence stays with the vehicle, so unused RUC passes to the next owner when you sell, and you can claim a refund on a vehicle you sell, scrap or export if at least $20 is unused.",
@@ -411,7 +411,7 @@ export const seasonalArticles: Article[] = [
       { label: "Maui: frequently asked questions", url: "https://www.maui-rentals.com/faqs" },
       { label: "JUCY New Zealand rental agreement, bookings from 1 May 2026", url: "https://cdn.jucy.com/cms/JUCY-New-Zealand-Rental-Agreement-Bookings-Confirmed-or-Amended-on-or-after-1st-May-2026-new.pdf" },
       { label: "Mighty Campers: fees and charges", url: "https://www.mightycampers.com/faqs/fees-and-charges" },
-      { label: "Figure.NZ: weekly adjusted retail fuel prices (MBIE data)", url: "https://figure.nz/chart/lSYJzICrinllOY7p" },
+      { label: "MBIE: weekly fuel price monitoring", url: "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring" },
       { label: "RNZ: Nicola Willis rules out reduction in road user charges", url: "https://www.rnz.co.nz/news/politics/591143/nicola-willis-rules-out-reduction-in-road-user-charges-for-diesel-users" },
       { label: "1News: Government scraps 2027 fuel excise increase", url: "https://www.1news.co.nz/2026/08/31/govt-scraps-2027-fuel-excise-increase-smaller-rises-from-2028/" },
       { label: "Ministry of Transport: road user charges system", url: "https://www.transport.govt.nz/area-of-interest/revenue/road-user-charges-system" },
