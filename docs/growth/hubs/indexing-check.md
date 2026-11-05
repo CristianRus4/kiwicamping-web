@@ -66,3 +66,12 @@ These are lifted over the quality gate on this branch. Check them a week after t
 
 | Date | Indexed | Not indexed (reason) | Impressions (7 days) | Notes |
 |---|---|---|---|---|
+| 2026-11-05 | 14 of 35 | 6 URL is unknown to Google; 15 Discovered – currently not indexed | Not checked | URL Inspection of every hub in the sitemap (the 33 above plus south-westland and te-anau). Indexing requested for all 21 that were not indexed. |
+
+### 2026-11-05 detail
+
+- **Indexed (14):** camping/central-north-island, camping/manawatu-whanganui, camping/nelson-tasman, camping/northland, camping/otago, camping/west-coast; freedom-camping/central-otago, freedom-camping/new-plymouth, freedom-camping/south-westland, freedom-camping/tongariro, freedom-camping/turangi, freedom-camping/wakatipu; huts/canterbury, huts/west-coast.
+- **URL is unknown to Google (6):** /freedom-camping/, camping/canterbury, camping/east-coast, camping/fiordland, huts/central-north-island, huts/southland.
+- **Discovered – currently not indexed (15):** /camping/, /huts/, camping/coromandel, camping/marlborough, freedom-camping/hawkes-bay, freedom-camping/te-anau, huts/east-coast, huts/fiordland, huts/hawkes-bay, huts/manawatu-whanganui, huts/marlborough, huts/nelson-tasman, huts/otago, huts/wairarapa, huts/wellington-kapiti.
+- **Note:** all three hub index pages (/camping/, /huts/, /freedom-camping/) are in the sitemap but are not indexed, and the home page links to none of them. Only the leaf hubs link back up to them.
+- **Next check:** around 2026-11-19.
