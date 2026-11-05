@@ -83,9 +83,9 @@ export default function Home() {
       <section className="section map-intent-section" id="camping-map">
         <div className="section-head"><div><p className="eyebrow">The New Zealand camping map</p><h2>DOC campsites, huts<br/>and <em>dump stations.</em></h2></div><p>One map for DOC campsites and huts, the dump stations between them and DOC&apos;s freedom camping notices for conservation land, with holiday parks and tours you can book through BookIt alongside. Place details stay on your phone without signal; map tiles, routing and weather need a connection. DOC places, dump stations and the notices are part of the Premium pass, while BookIt stays and tours are free.</p></div>
         <div className="steps-grid">
-          <article><TentTree/><h3>287 DOC campsites</h3><p>From free basic sites to serviced grounds, each with its fee per adult, whether it takes bookings, the dog rules and which vehicles can get in.</p></article>
-          <article><Mountain/><h3>927 DOC huts</h3><p>Serviced, standard, basic and Great Walk huts with bunk numbers, the nightly fee and whether you book ahead or turn up first come, first served.</p></article>
-          <article><Droplets/><h3>262 dump stations</h3><p>Public dump stations for toilet cassettes and grey water, with fee notes, so you can plan the next empty before the tank decides for you. Most are free.</p></article>
+          <article><TentTree/><h3>287 DOC campsites</h3><p>From free basic sites to serviced grounds, each with its fee per adult, whether it takes bookings, the dog rules and which vehicles can get in.</p><Link href="/camping/" className="text-link">Campsites by region <ArrowRight/></Link></article>
+          <article><Mountain/><h3>927 DOC huts</h3><p>Serviced, standard, basic and Great Walk huts with bunk numbers, the nightly fee and whether you book ahead or turn up first come, first served.</p><Link href="/huts/" className="text-link">Huts by region <ArrowRight/></Link></article>
+          <article><Droplets/><h3>262 dump stations</h3><p>Public dump stations for toilet cassettes and grey water, with fee notes, so you can plan the next empty before the tank decides for you. Most are free.</p><Link href="/dump-stations-nz.html" className="text-link">All dump stations <ArrowRight/></Link></article>
         </div>
       </section>
 
