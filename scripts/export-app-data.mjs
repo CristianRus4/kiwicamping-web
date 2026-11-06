@@ -70,12 +70,6 @@ const SOURCES = {
     reason: "Partner data is never republished, counted or opened by this export.",
     inventoryCount: false,
   },
-  councils: {
-    licence: "exclude",
-    name: "Council-run campgrounds (added by hand in the app)",
-    reason: "Public campgrounds DOC doesn't run, such as Kaitoke Regional Park. Not published on the website yet, so this export does not open the file.",
-    inventoryCount: false,
-  },
 };
 const LICENCE_CLASSES = new Set(["cc-by-4.0", "facts-only", "exclude"]);
 
@@ -94,7 +88,6 @@ const FILES = {
   "dumps.json": { source: "wikicamps", provenance: (row) => host(row.link_scrapper) === "wikicamps.co.nz" },
   "dayusenorth.json": { source: "wikicamps", provenance: (row) => host(row.link_scrapper) === "wikicamps.co.nz" },
   "dayusesouth.json": { source: "wikicamps", provenance: (row) => host(row.link_scrapper) === "wikicamps.co.nz" },
-  "councilcampsites.json": { source: "councils" },
   "bookit.json": { source: "bookit" },
   "bookit_full.csv": { source: "bookit" },
 };
