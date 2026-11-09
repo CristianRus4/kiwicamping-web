@@ -296,4 +296,58 @@ export const roadTripArticles: Article[] = [
       { label: "Venture Taranaki: visit Taranaki", url: "https://www.taranaki.co.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-franz-josef-drive-guide",
+    title: "Christchurch to Franz Josef Road Trip: Arthur's Pass and the West Coast",
+    description: "Christchurch to Franz Josef by road: about 430 km and 6 to 6.5 hours over Arthur's Pass and down the West Coast, with stops, fuel, winter notes and where to camp.",
+    category: "Road trips",
+    region: "West Coast",
+    places: ["Christchurch", "Arthur's Pass", "Otira", "Hokitika", "Ross", "Franz Josef"],
+    imageAlt: "Franz Josef Glacier curving down a steep valley between forested mountain walls",
+    related: ["arthurs-pass-camping-route", "west-coast-south-island-road-trip", "wanaka-haast-pass-route", "south-island-two-week-road-trip", "winter-driving-new-zealand-campervan", "new-zealand-driving-day-planner"],
+    hubs: ["camping/west-coast", "freedom-camping/south-westland", "camping/canterbury"],
+    intro:
+      "Christchurch to Franz Josef is about 430 km and takes 6 to 6.5 hours without stops, over Arthur's Pass on State Highway 73 and then south down the West Coast on State Highway 6. It is one of the great South Island drives, with braided rivers, alpine passes and rainforest, and it is best split over two days. Below are the route and timing, the stops, fuel on the Coast, the winter and weather notes, and where to camp when you reach the glaciers.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Leave Christchurch on State Highway 73 and head west across the Canterbury Plains to Springfield and Porters Pass, then through the Waimakariri Gorge to Arthur's Pass village, about 2 hours from the city. The road then crosses the pass and drops down the Otira Gorge to the West Coast, where you turn south on State Highway 6 through Kumara Junction, Hokitika and Ross to Franz Josef. The total is around 430 km and 6 to 6.5 hours of driving.",
+        "The drive is slow in places, with a steep descent through the Otira Gorge and many one-lane bridges on the Coast, and it is a mistake to plan it as a single sprint. A night on the way, at Arthur's Pass or Hokitika, makes it a pleasure rather than a slog. The Arthur's Pass guide covers the pass in detail.",
+      ], ["About 430 km and 6 to 6.5 hours", "Arthur's Pass is about 2 hours from Christchurch", "Split it with a night on the way"]),
+      sec("Stops worth making", [
+        "Castle Hill and the Waimakariri Gorge viewpoint are quick stops on the way up, and Arthur's Pass village has short walks to Devils Punchbowl Falls and a visitor centre where you can check the weather. Keas, the alpine parrots, hang around the car parks near the pass and will take anything left outside, so keep food and shoes inside the vehicle.",
+        "On the West Coast side, Hokitika has a good main street and the nearby Hokitika Gorge is a turquoise river with a short walk to a swing bridge. Further south, Lake Mahinapua and the old gold-mining town of Ross are quiet stops, and Franz Josef is the base for the glacier. The Pancake Rocks at Punakaiki are in the opposite direction and need a separate trip north.",
+      ], ["Keep food inside the vehicle near the pass", "Hokitika Gorge is worth the short detour", "Check the weather at Arthur's Pass"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Springfield", "About 80 km, 1 hr", "Fuel and coffee before the pass"],
+          ["Arthur's Pass village", "About 155 km, 2 hr", "Walks and the visitor centre"],
+          ["Hokitika", "About 290 km, 4 hr", "Gorge, greenstone and a night's stay"],
+          ["Franz Josef", "About 430 km, 6 hr", "The glacier valley"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill up in Christchurch or Springfield before the pass. There is fuel at Arthur's Pass village but at a premium, and again at Hokitika, Ross and Franz Josef, so you will not run dry but you should not let the tank get low. Food is more limited on the Coast, with small shops and a few cafes, so shop in Christchurch or Greymouth if you can.",
+        "The West Coast gets a lot of rain, and Arthur's Pass can have snow or ice in winter, and slips and flooding sometimes close the roads. Check the NZTA Journey Planner before you set out, and read the winter driving guide and the severe weather guide if you are travelling in cold or wet months. Sandflies are bad on the Coast, so carry repellent.",
+      ], ["Fuel at Springfield, Hokitika or Ross", "Shop before the Coast", "Check closures in winter and heavy rain"]),
+      sec("Franz Josef and the glacier", [
+        "The Franz Josef Glacier Valley walk takes you through rainforest and along the river to a viewpoint, and the glacier has retreated a long way in recent decades, so the terminal view is not what the old photos show. Walking on the ice is only possible with a guided trip, usually by helicopter. DOC posts the track status, and the valley is closed after heavy rain or slips, so check before you go.",
+        "On a clear day the scenic flights and the walks to Roberts Point or Sentinel Rock are the popular options, and on a wet one the hot pools in town are the standard fallback. The township is small, with a handful of cafes and supermarkets, and Fox Glacier is another 25 minutes south if you want a second look.",
+      ], ["Check DOC track status before you go", "Guided trips only on the ice", "Hot pools for wet days"]),
+      sec("Where to camp", [
+        "Holiday parks in Franz Josef, Hokitika and Greymouth offer power, showers and a kitchen and are the easiest choice, but they fill in summer, so book ahead. The holiday parks guide explains what to look for. DOC runs campsites near Arthur's Pass and along the Coast, from basic sites to larger ones with toilets and water.",
+        "Freedom camping on the Coast is restricted. Westland District Council has specific areas for certified self-contained vehicles, and many roadside spots are closed. The Westland freedom camping guide and the South Westland hub list the current sites. The sandflies are fierce at night, so a mesh screen or a repellent is useful.",
+      ], ["Book holiday parks in summer", "DOC campsites near Arthur's Pass", "Sandflies are fierce at night"]),
+      sec("Planning Christchurch to Franz Josef in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at Arthur's Pass and along the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Arthur's Pass National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/" },
+      { label: "DOC: Westland Tai Poutini National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/" },
+      { label: "Tourism West Coast: plan your trip", url: "https://www.westcoast.co.nz/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
