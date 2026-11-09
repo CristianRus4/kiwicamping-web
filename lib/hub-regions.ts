@@ -48,7 +48,7 @@ const regionGuides: Record<string, string[]> = {
   marlborough: ["picton-kaikoura-christchurch-route", "freedom-camping-marlborough-2026"],
   "west-coast": ["west-coast-south-island-road-trip", "freedom-camping-west-coast", "arthurs-pass-camping-route", "wanaka-haast-pass-route", "paparoa-track-huts-booking-2026-27", "freedom-camping-westland-2026"],
   canterbury: ["banks-peninsula-camping-weekend", "christchurch-tekapo-aoraki-road-trip", "arthurs-pass-camping-route", "christchurch-to-queenstown-drive-guide"],
-  otago: ["queenstown-glenorchy-camping", "wanaka-haast-pass-route", "southern-scenic-route-camping", "christchurch-to-dunedin-drive-guide"],
+  otago: ["queenstown-glenorchy-camping", "wanaka-haast-pass-route", "freedom-camping-wanaka", "southern-scenic-route-camping", "christchurch-to-dunedin-drive-guide"],
   southland: ["southern-scenic-route-camping", "rakiura-stewart-island-camping-guide", "hump-ridge-track-huts-booking-2026-27", "freedom-camping-southland-2026"],
   fiordland: ["fiordland-camping-road-trip", "queenstown-to-milford-sound-drive-guide", "milford-track-2026-27-huts-booking-fees"],
 };
@@ -85,9 +85,9 @@ const districtGuides: Record<string, string[]> = {
   mahaanui: ["freedom-camping-christchurch-2026", "banks-peninsula-camping-weekend"],
   geraldine: ["christchurch-tekapo-aoraki-road-trip"],
   twizel: ["freedom-camping-mackenzie-2026", "christchurch-tekapo-aoraki-road-trip"],
-  "central-otago": ["christchurch-to-queenstown-drive-guide", "wanaka-haast-pass-route"],
+  "central-otago": ["freedom-camping-wanaka", "christchurch-to-queenstown-drive-guide", "wanaka-haast-pass-route"],
   "coastal-otago": ["freedom-camping-dunedin-2026", "southern-scenic-route-camping", "christchurch-to-dunedin-drive-guide"],
-  wakatipu: ["freedom-camping-queenstown-lakes-2026", "queenstown-glenorchy-camping", "queenstown-to-milford-sound-drive-guide"],
+  wakatipu: ["freedom-camping-queenstown-lakes-2026", "freedom-camping-wanaka", "queenstown-glenorchy-camping", "queenstown-to-milford-sound-drive-guide"],
   "te-anau": ["fiordland-camping-road-trip", "queenstown-to-milford-sound-drive-guide", "milford-track-2026-27-huts-booking-fees"],
   murihiku: ["freedom-camping-southland-2026", "southern-scenic-route-camping", "rakiura-stewart-island-camping-guide"],
 };

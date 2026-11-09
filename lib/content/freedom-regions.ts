@@ -282,4 +282,70 @@ export const freedomRegionArticles: Article[] = [
       { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
     ],
   }),
+  a({
+    slug: "freedom-camping-wanaka",
+    title: "Freedom Camping in Wānaka 2026: The Car Parks, Hāwea and Luggate",
+    description: "Where you can freedom camp around Wānaka in 2026: the council's designated car parks at the Recreation Centre, Beacon Point Road and Hāwea, Luggate Red Bridge, the Allenby Place closure, December's bylaw decision, DOC campsites and fines.",
+    category: "Rules & safety",
+    region: "Wānaka",
+    places: ["Wānaka", "Lake Hāwea", "Luggate", "Albert Town", "Glendhu Bay", "Makarora"],
+    imageAlt: "The northern arm of Lake Wānaka, deep blue between dry hills and distant mountains",
+    related: ["freedom-camping-queenstown-lakes-2026", "freedom-camping-south-island", "wanaka-haast-pass-route", "self-contained-campervan-green-warrant"],
+    hubs: ["freedom-camping/wakatipu", "freedom-camping/central-otago", "camping/otago"],
+    intro:
+      "Around Wānaka, freedom camping on council land is allowed only in a certified self-contained vehicle and only in designated car parks: the Wānaka Recreation Centre, Beacon Point Road and Camp Hill Road at Lake Hāwea, plus Luggate Red Bridge Reserve under its signs. You arrive after 6pm, leave before 8am and stay no more than two nights in any 30 days. Everything else in town, lakefront included, is off limits, and the council decides on changes to these sites on 17 December 2026.",
+    sections: [
+      s("The rules in one paragraph", [
+        "Wānaka sits in the Queenstown Lakes District, so the council's Freedom Camping Bylaw 2025 applies, the one that took effect on 1 December 2025 after the High Court quashed the 2021 bylaw. It bans freedom camping in urban areas, on-road parking included, keeps most council reserves closed under the Reserves Act, and opens marked spaces in designated car parks to certified self-contained vehicles.",
+        "Since 7 June 2026 only a green warrant counts, so a van without one, a car or a tent cannot use the car parks at all. The spaces are free, cannot be booked, and work on first come, first served. Our Queenstown Lakes guide covers the rest of the district, from Kingston to Glenorchy.",
+      ], ["Certified vehicles only", "Arrive after 6pm, leave before 8am", "Two nights in any 30 days"]),
+      s("The designated car parks", [
+        "The Wānaka Recreation Centre car park is the main site, with 18 marked spaces in the council's list, three temporary spaces added when Allenby Place closed, and a proposal to make it 21. Beacon Point Road has three spaces, and Camp Hill Road at Lake Hāwea has ten. These numbers are the council's, and the sites fill early from Christmas to the end of February.",
+        "Allenby Place, once the town's three-space site, has been closed to freedom camping since 23 January 2026. The council cited access and safety problems from the extra traffic, and moved its spaces to the Recreation Centre.",
+      ], ["Recreation Centre: 18 spaces", "Beacon Point Road: 3", "Camp Hill Road, Hāwea: 10"], {
+        caption: "Queenstown Lakes District Council's designated car parks around Wānaka, from its November 2025 and January 2026 releases. Certified self-contained vehicles only.",
+        head: ["Car park", "Place", "Spaces"],
+        rows: [
+          ["Wānaka Recreation Centre", "Wānaka", "18 (21 proposed)"],
+          ["Beacon Point Road", "Wānaka", "3"],
+          ["Camp Hill Road", "Lake Hāwea", "10"],
+          ["Allenby Place", "Wānaka", "Closed since 23 January 2026"],
+          ["Luggate Red Bridge Reserve", "Luggate", "Allowed under the reserve's signs"],
+        ],
+      }),
+      s("Luggate Red Bridge", [
+        "Luggate Red Bridge Reserve, beside the Clutha River about 15 minutes east of Wānaka, is the one council reserve where the council allows camping, subject to the conditions on its signs. It is popular with travellers heading for Cromwell or the Lindis Pass, and its river edge is a good place for a swim on a hot afternoon.",
+        "Read the board on arrival, because the conditions set there are what officers enforce, and the council's release lists breaching them at the top of its fine scale.",
+      ], ["The one reserve open to camping", "Read the board on arrival", "Close to SH6 and SH8A"]),
+      s("The December 2026 decision", [
+        "The council consulted until 31 August 2026 on amendments that cover the three Wānaka sites: Allenby Place, Beacon Point Road and the Recreation Centre. Hearings ran in late October, and deliberations and adoption are set for 17 December 2026, so the map could change just as the summer rush starts.",
+        "Until then, the 2025 list stands. Check the council's responsible camping page and its Responsible Camping Map before you rely on a Wānaka space over Christmas and New Year.",
+      ], ["Decision due 17 December 2026", "The 2025 list stands until then", "Check the council's map"]),
+      s("Where tents and uncertified vans can go", [
+        "A tent or an uncertified van needs a campground around Wānaka. There are campgrounds and holiday parks in town, at Albert Town, at Glendhu Bay and at Lake Hāwea, and they are the dependable bed from December to March.",
+        "DOC runs campsites further out, at Kidds Bush on Lake Hāwea and along the Haast Pass road beyond Makarora, where the drive to the West Coast begins. KiwiCamping's data lists 30 DOC campsites across Otago, eight of them free, with adult rates from $5 where a fee applies. Our Wānaka to Haast Pass route guide strings them together.",
+      ], ["Holiday parks in town and at Hāwea", "DOC campsites toward Makarora", "Eight free DOC sites in Otago"]),
+      s("DOC land, the lakes and the valleys", [
+        "Much of the land around the lakes and up the Matukituki valley toward Mount Aspiring is conservation land, where DOC's notices rather than the council's bylaw set the rules. KiwiCamping's data holds 29 DOC freedom camping notices in the Wakatipu district and 13 in Central Otago, most of them prohibiting camping at car parks and walk entrances.",
+        "On DOC land a notice at the site prohibits or restricts camping, and with no notice the general DOC rules apply. Lake shores and river flats near Wānaka are often reserve, private or DOC land under a notice, so a quiet gravel pull-off is rarely the free spot it looks like.",
+      ], ["29 DOC notices in Wakatipu", "13 in Central Otago", "Lakeside pull-offs are rarely legal"]),
+      s("Fines and patrols", [
+        "The council's starting fine for breaching the bylaw or the Freedom Camping Act is $400, matching the national schedule, which also sets $200 for a missing warrant card and $800 for waste or damage. Its release lists camping on council reserves, or breaching the conditions at Luggate Red Bridge, at $800.",
+        "Council officers patrol the Wānaka sites through the summer. For an urgent freedom camping problem the council's Wānaka line is 03 443 0024 at any hour, and Snap Send Solve or services@qldc.govt.nz take the rest.",
+      ], ["$400 to start", "$800 on council reserves", "Council line: 03 443 0024"]),
+      s("Using KiwiCamping around Wānaka", [
+        "KiwiCamping maps the freedom camping areas, DOC campsites, holiday parks and dump stations around Wānaka and Hāwea, and its filters cut the list to what your vehicle can use. The car parks are small and the bylaw is under review, so pair each night with a backup.",
+        "Save the Recreation Centre, a holiday park and a DOC site in one collection, then add Wānaka to a trip with dates, the drive over the Crown Range or the Haast Pass and the forecast for each night. Free to download, with in-app purchases.",
+      ], ["Pair each night with a backup", "Filter by vehicle", "Forecast for the passes"], undefined, true),
+    ],
+    sources: [
+      { label: "Queenstown Lakes District Council: responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
+      { label: "Queenstown Lakes District Council: bylaws", url: "https://www.qldc.govt.nz/bylaws" },
+      { label: "Queenstown Lakes District Council media release, 28 November 2025 (republished by Scoop)", url: "https://www.scoop.co.nz/stories/AK2511/S00773.htm" },
+      { label: "Queenstown Lakes District Council media release, 16 January 2026: Allenby Place (republished by Scoop)", url: "https://www.scoop.co.nz/stories/AK2601/S00314.htm" },
+      { label: "Queenstown Lakes District Council: proposed amendments to the Freedom Camping Bylaw 2025", url: "https://letstalk.qldc.govt.nz/proposed-amendments-fc-bylaw-2025?tool=qanda" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];

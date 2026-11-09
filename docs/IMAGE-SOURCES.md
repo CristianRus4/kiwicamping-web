@@ -163,3 +163,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-north-island` | Mount Ruapehu from Waiouru.jpg | Panamitsu | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Ruapehu_from_Waiouru.jpg) |
 | `freedom-camping-taupo` | Lake Taupō park view.jpg | Panamitsu | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taup%C5%8D_park_view.jpg) |
 | `freedom-camping-west-coast` | Beach in Hokitika, West Coast, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Beach_in_Hokitika,_West_Coast,_New_Zealand.jpg) |
+| `freedom-camping-wanaka` | Lake Wanaka - northern part, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Wanaka_-_northern_part,_New_Zealand.jpg) |

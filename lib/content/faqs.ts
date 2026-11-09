@@ -607,4 +607,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you freedom camp on the West Coast of the South Island?", "Yes, in a certified self-contained vehicle. Buller and Grey allow it on most council land outside their listed bans, and Westland at three community-run sites at Kumara, Rimu and Paringa. Tents and vans without a green warrant need a DOC campsite or a campground."],
     ["Can you freedom camp at Punakaiki or Fox Glacier?", "Not on council land. Buller bans it from the Fox River to the Punakaiki River, and Fox Glacier township is on Westland's prohibited list, so book the campground at Punakaiki or a holiday park or DOC campsite near the glaciers."],
   ],
+  "freedom-camping-wanaka": [
+    ["Can you freedom camp in Wānaka?", "Only in a certified self-contained vehicle, and only in the council's designated car parks: the Wānaka Recreation Centre, Beacon Point Road and Camp Hill Road at Lake Hāwea, or at Luggate Red Bridge Reserve under its signs. Arrive after 6pm, leave before 8am, and stay no more than two nights in any 30 days."],
+    ["Can you still freedom camp at Allenby Place in Wānaka?", "No. The council closed Allenby Place to freedom camping on 23 January 2026 and added temporary spaces at the Wānaka Recreation Centre instead. Its decision on further changes to the Wānaka sites is due on 17 December 2026."],
+  ],
 };
