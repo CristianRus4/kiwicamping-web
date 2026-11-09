@@ -828,4 +828,57 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA: driving in New Zealand as a visitor", url: "https://nzta.govt.nz/driver-licences/driving-as-a-visitor/" },
     ],
   }),
+  a({
+    slug: "campervan-holiday-with-kids-new-zealand",
+    title: "Campervan Holiday With Kids in New Zealand: A Practical Guide",
+    description: "Planning a New Zealand campervan trip with children: child seat rules, the right van, short drives, kid-friendly holiday parks and DOC campsites, easy walks and sandfly and sun notes.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Auckland", "Coromandel", "Rotorua", "Nelson", "Christchurch", "Queenstown"],
+    imageAlt: "Cathedral Cove beach on the Coromandel, a sandy cove beneath a rock arch with calm water",
+    related: ["easy-doc-huts-families-first-timers", "one-week-campervan-itinerary-new-zealand", "holiday-parks-new-zealand-guide", "campervan-budget-new-zealand", "sandflies-new-zealand-camping", "new-zealand-driving-day-planner"],
+    hubs: ["camping/coromandel", "camping/nelson-tasman", "huts/canterbury"],
+    intro:
+      "A campervan is a good way to travel New Zealand with children, as long as you plan short drives, choose a van with enough seatbelts and keep the nights simple. Children under 7 must be in an approved child restraint by law, and the van you choose has to carry them safely. Below are the rules, how to pick a vehicle, the pace that works, where to camp, easy activities and what to pack, with links to the guides that go into detail.",
+    sections: [
+      sec("Child seats and seatbelts", [
+        "New Zealand law requires children to use an approved child restraint until their seventh birthday, and NZTA strongly recommends one until 148 cm tall. Hire companies supply seats for a fee, and you can bring your own if it meets New Zealand standards. Check that the van has the right anchor points for the seats you need, and that every berth has a seatbelt, because not all beds in a campervan have one.",
+        "Count the seatbelts rather than the beds. A four-berth van may only have seatbelts for some of the beds, and the number of seats you can fit varies by model. Tell the hire company the ages of your children when you book so they can match the vehicle.",
+      ], ["Approved child restraint until age 7", "Check anchor points and seatbelts", "Count seatbelts, not berths"]),
+      sec("Choosing a van and a pace", [
+        "A van with a toilet and shower saves stops at night and in the rain, which matters most with young children. A bigger van is more comfortable but slower and more expensive to run, and the road user charges and fuel add up. The campervan budget guide shows what a week costs.",
+        "Keep each driving day to two to three hours with a long stop, and add a rest day every few days. Children get restless after an hour, so plan a playground, a beach or a short walk at each break. The driving day planner helps check the legs, and the one-week itinerary is a gentle starting point.",
+      ], ["A van with a toilet helps", "Two to three hours a day is plenty", "Add a rest day every few days"]),
+      sec("Where to camp with children", [
+        "Holiday parks are the easiest choice, with playgrounds, jumping pillows, pools, kitchens and laundry, and many have cabins in case the weather turns. Book ahead in summer and school holidays. The holiday parks guide explains what to look for, and the school holidays guide has the dates.",
+        "DOC campsites are cheaper and closer to nature, with beaches, rivers and bush walks on the doorstep, but facilities are simpler, with long drop toilets and often no showers. Many are suitable for families, and the easy huts guide has easy huts for a first overnight. Freedom camping is more limited than people expect, so check the rules.",
+      ], ["Holiday parks have playgrounds and pools", "DOC campsites are cheaper but simpler", "Book ahead in school holidays"]),
+      sec("Easy things to do", [
+        "Choose short walks that end somewhere interesting: a beach, a waterfall, a lookout or a swing bridge. Cathedral Cove and Hot Water Beach on the Coromandel, the geothermal parks at Rotorua, the glowworm caves at Waitomo and the Abel Tasman beaches near Nelson all suit children. Plan wet-weather activities too, such as hot pools, museums and cafes with a play area.",
+        "Water safety needs attention. New Zealand rivers and surf beaches have strong currents, so swim at patrolled beaches and watch children closely near water. Take care near geothermal areas, where ground can be hot and fenced areas are not optional.",
+      ], ["Short walks that end somewhere good", "Swim at patrolled beaches", "Keep children away from geothermal edges"], {
+        caption: "Kid-friendly stops and what they are good for. Check opening times and access before you go.",
+        head: ["Stop", "Where", "Good for"],
+        rows: [
+          ["Hot Water Beach and Cathedral Cove", "Coromandel", "Beaches and rock pools"],
+          ["Waitomo Caves", "Waikato", "Glowworms and a boat ride"],
+          ["Rotorua geothermal parks", "Bay of Plenty", "Steam, mud pools and a short walk"],
+          ["Abel Tasman beaches", "Nelson-Tasman", "Sand, kayaks and calm water"],
+        ],
+      }),
+      sec("Sand flies, sun and packing", [
+        "The sun is strong in New Zealand, even on cloudy days, so pack sunscreen, hats and rash vests. Sandflies are a nuisance on the West Coast and in Fiordland, so take repellent and cover up at dusk. The sandfly guide explains what works.",
+        "Pack warm layers whatever the season, as the weather changes fast, plus a few games and books for wet days. Bring a small first aid kit with children's pain relief, because small towns can be far from a chemist. Buy groceries in the larger towns, where prices are lower.",
+      ], ["Sunscreen and hats all year", "Repellent for the West Coast", "Warm layers and games for wet days"]),
+      sec("Planning a family trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across New Zealand. Save the places that suit your family, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you keep the drives short. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Keep an eye on the distances", "Forecast at each stop"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA: child restraints", url: "https://nzta.govt.nz/vehicles/child-restraints/" },
+      { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
