@@ -213,4 +213,54 @@ export const k7Articles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "top-of-the-south-itinerary-nelson-golden-bay-marlborough",
+    title: "Top of the South Itinerary: Nelson, Golden Bay and Marlborough by Campervan",
+    description: "A seven-day campervan itinerary around the top of the South Island: Picton, the Marlborough Sounds, Nelson, Abel Tasman, Golden Bay, Nelson Lakes and Marlborough wine, with distances and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Picton", "Havelock", "Nelson", "Motueka", "Tākaka", "Golden Bay", "Blenheim"],
+    imageAlt: "Golden sand and a native plant on a beach in Abel Tasman National Park",
+    related: ["nelson-abel-tasman-golden-bay", "abel-tasman-coast-track-campsites-2026-27", "freedom-camping-marlborough-2026", "freedom-camping-tasman-2026", "heaphy-track-camping-2026-27", "cook-strait-ferry-campervan-guide", "sandflies-new-zealand-camping"],
+    hubs: ["camping/nelson-tasman", "camping/marlborough"],
+    intro:
+      "The top of the South Island has more sunshine than almost anywhere in the country and packs three very different regions into a short loop: the drowned valleys of the Marlborough Sounds, the beaches and orchards of Nelson and Tasman, and the empty far end of Golden Bay. A week from the Picton ferry is enough to see the best of it, with drives of one to two hours and plenty of campgrounds. This itinerary sets out the days.",
+    sections: [
+      s("The route at a glance", [
+        "Arrive in Picton on the ferry, take the scenic Queen Charlotte Drive to Havelock and Nelson, continue to Motueka and over Takaka Hill to Golden Bay, return to Nelson, then go south to Nelson Lakes and east through the Wairau Valley to Blenheim and back to Picton. The loop is roughly 600 kilometres, but no single day is more than about three hours of driving.",
+        "Seven days gives each region its due: one in the Sounds, two around Nelson and Abel Tasman, two in Golden Bay, one at Nelson Lakes and one in Marlborough. If you are short on time, skip the lakes and cut the loop to five. The Cook Strait ferry guide covers the crossing and booking a campervan on it.",
+      ], ["About 600 km over seven days", "No day over about three hours of driving", "Cut Nelson Lakes if short on time"]),
+      s("Day 1: Picton to Nelson through the Sounds", [
+        "The Queen Charlotte Drive from Picton to Havelock is a winding coastal road with views over the Sounds, and it is narrow with tight bends, so take it slowly in a large campervan. Havelock is the home of the green-lipped mussel, with fresh mussels sold on the main street. The more direct alternative is State Highway 6 through Rai Valley.",
+        "From Havelock the road climbs over the Rai Saddle to Nelson, a city of about 50,000 with good markets, a harbour and beaches. Picton to Nelson is about 110 kilometres and takes two to three hours, depending on the route and the stops. Book a holiday park in Nelson in summer.",
+      ], ["Queen Charlotte Drive is narrow and winding", "Fresh mussels in Havelock", "Book Nelson ahead in summer"]),
+      s("Days 2 and 3: Nelson, Motueka and Abel Tasman", [
+        "Nelson has the Saturday market, craft studios and the Centre of New Zealand walk. Motueka, 50 kilometres west, is the base for Abel Tasman National Park. Kaiteriteri has the golden beach, and water taxis run from there to the bays on the coast. A day on the water, with a walk between two bays, is the way to do it.",
+        "The Abel Tasman Coast Track campsites and huts must be booked with DOC all year, and the water taxi times need planning around the tide. The Abel Tasman campsites guide explains the booking and the tide windows. Sandflies bite at dawn and dusk, so carry repellent.",
+      ], ["Water taxi and walk between bays", "Book Abel Tasman campsites on DOC", "Carry sandfly repellent"]),
+      s("Days 4 and 5: Golden Bay", [
+        "The road to Golden Bay climbs Takaka Hill with a series of hairpin bends and a drop on one side, which is steep and slow in a long campervan, so take it in low gear and use the pull-outs. Tākaka is a relaxed town with cafes and arts, and nearby are Te Waikoropupū Springs, one of the clearest springs in the world, and the Pupu Walk, a boardwalk through the springs where swimming is not allowed.",
+        "Beyond Tākaka the road runs to Collingwood, the Pūponga area and the end of the road at Wharariki Beach, with sea arches, seals and giant dunes, reached by a 20 minute walk. Farewell Spit, the long sandbar to the north, can be visited beyond the base only with a licensed tour. Golden Bay is remote, so fill up with fuel and supplies in Tākaka.",
+      ], ["Takaka Hill has steep hairpins", "Te Waikoropupū Springs: no swimming", "Wharariki Beach is a short walk from the road end"]),
+      s("Day 6: Nelson Lakes", [
+        "From Nelson, State Highway 6 and then 63 lead to St Arnaud and Nelson Lakes National Park, around 100 kilometres and about two hours away. Lake Rotoiti and Lake Rotoroa are clear alpine lakes with short walks, and the area is quieter than the coast. Nelson Lakes has sandflies, cold nights and rapidly changing mountain weather, so bring warm layers.",
+        "The DOC campsites around Lake Rotoiti have simple facilities and fill in summer, so book if the site allows. Do not swim or boat in cold water without a lifejacket and look at the weather before heading up the valley, as mountain storms arrive quickly.",
+      ], ["St Arnaud is the lakes base", "Cold nights even in summer", "Mountain weather changes quickly"]),
+      s("Day 7: Marlborough wine and Picton", [
+        "State Highway 63 runs down the Wairau Valley to Blenheim, the centre of Marlborough's wine country and the home of sauvignon blanc, with cellar doors and a cycle path through the vineyards. St Arnaud to Blenheim is about 120 kilometres and two hours, and Picton is another 30 minutes beyond.",
+        "If you are catching the ferry, book the vehicle ahead and arrive at the terminal in good time. Do not drive after tasting, because the drink-driving limit applies to campervan drivers as it does to anyone else. The alcohol and fatigue guide covers the limits.",
+      ], ["Blenheim is sauvignon blanc country", "Book the ferry ahead", "Do not drive after tasting"]),
+      s("Where to camp and planning in KiwiCamping", [
+        "Holiday parks in Picton, Nelson, Motueka, Tākaka and Blenheim are the easy option, with DOC campsites in Abel Tasman, Golden Bay and Nelson Lakes for a quieter night. Freedom camping rules differ by council, and in Marlborough and Tasman they usually need a certified self-contained vehicle at set sites, so check the freedom camping guides for each.",
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this loop, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic. Free to download, with in-app purchases.",
+      ], ["Holiday parks in each main town", "Freedom camping rules vary by council", "Save stops in driving order"], true),
+    ],
+    sources: [
+      { label: "DOC: Abel Tasman National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/" },
+      { label: "DOC: Nelson Lakes National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/" },
+      { label: "Nelson Tasman Tourism: plan your trip", url: "https://www.nelsontasman.nz/" },
+      { label: "Destination Marlborough: visit Marlborough", url: "https://www.marlboroughnz.com/" },
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
