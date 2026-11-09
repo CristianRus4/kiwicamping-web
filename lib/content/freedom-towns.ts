@@ -596,4 +596,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-waihi-beach",
+    title: "Freedom Camping at Waihi Beach: Rules, Sites and Alternatives",
+    description: "Freedom camping at Waihi Beach and Bowentown: Western Bay of Plenty District Council's self-contained-only rule, the restricted bays and summer bans, enforcement, and the holiday parks and DOC campsites nearby.",
+    category: "Rules & safety",
+    region: "Bay of Plenty",
+    places: ["Waihi Beach", "Bowentown", "Athenree", "Katikati", "Waihi"],
+    imageAlt: "A long sandy beach with Norfolk pines and a building on the foreshore beneath a forested hill",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tauranga-2026", "freedom-camping-thames-coromandel-2026", "auckland-to-tauranga-drive-guide", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/bay-of-plenty", "camping/coromandel"],
+    intro:
+      "Waihi Beach is one of the pressure points of the Bay of Plenty summer. Western Bay of Plenty District Council allows freedom camping on its land only in certified self-contained vehicles, keeps some of the best-known bays closed to it over summer, and patrols the beach and Bowentown through the peak weeks. The ten kilometres of surf beach make it a natural stop between the Coromandel and Tauranga, but a van with no certificate, or a tent, has to use a holiday park, and there are good ones within a few minutes.",
+    sections: [
+      s("What Western Bay of Plenty requires", [
+        "The district council's bylaw covers the whole Western Bay, from Waihi Beach through Katikati to Te Puke and Maketū, and it is built on one idea: the vehicle must carry its own toilet and waste storage and display its certification. A car with a bed in the back, a van with a portable toilet and anything involving a tent falls outside it, wherever on council land you park. The council counts dozens of places across the district where certified vehicles may stay, with a three-night limit in any four weeks at the busier ones.",
+        "Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. The council's page and the sign at each site decide the limits, because the numbers have been revised over the years as the beach towns pushed back on the summer crowds.",
+      ], ["Certified self-contained only", "Three nights in four weeks at busy sites", "Sign and council page decide"]),
+      s("Waihi Beach and Bowentown", [
+        "Waihi Beach is a long strip of houses behind a dune, and the council has been wary of camping on it since locals objected to the bays looking like campgrounds. A 2015 decision banned self-contained campers from Anzac Bay at Bowentown through the peak summer weeks and closed several other reserves, including the area beside the surf club. That seasonal shape, with sites open outside the holidays and shut through them, is the part most likely to catch a visitor out in January.",
+        "The council has also used a controlled car park at Bowentown Domain on Seaforth Road, with a gate and pass system, as the managed alternative to scattered roadside camping. Whether it runs in a given summer is the council's decision, so look at its page before you plan a night on it. For a first night here, a holiday park is the lower-risk plan.",
+      ], ["Anzac Bay has had summer bans", "Managed car park at Bowentown Domain", "Peak weeks are the risk"]),
+      s("Patrols and fines", [
+        "In recent summers the council has paid for security patrols at Waihi Beach and Bowentown with government money set aside for freedom camping management, and it describes the Waihi Beach area as the place where compliance problems peak over the holidays. An officer who finds a vehicle where it should not be can issue an infringement notice on the spot, and a night in the wrong car park is not worth the risk.",
+        "The fees come from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A hire company receives the notice first and charges your card.",
+      ], ["Summer patrols are routine", "$400 for most breaches", "Hire companies pass the fine on"]),
+      s("Holiday parks and DOC land", [
+        "The holiday parks at Waihi Beach and nearby Athenree take tents, caravans and campervans, with powered sites, kitchens and, at Athenree, hot pools, and they are the straightforward answer for a family in January. They book out over Christmas and the first weeks of January, so reserve before you leave Auckland. The guide to holiday parks in New Zealand explains how booking works.",
+        "DOC land is further inland. KiwiCamping's DOC data (11 August 2026) lists 8 campsites in the Bay of Plenty, only 1 of them free and 4 with campervan access, with adult nightly rates from $10 to $18, and Matatā Campsite on the Rangitāiki coast is the largest with room for 80. The Karangahake Gorge side of Waihi, over the Hauraki boundary, belongs to the Coromandel hub.",
+      ], ["Book holiday parks before Christmas", "8 DOC campsites in Bay of Plenty", "Matatā is the biggest DOC site"]),
+      s("Using KiwiCamping around Waihi Beach", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Bay of Plenty coast, with campervan filters to narrow them. It does not hold the district council's freedom camping sites, so read the council page for those and save a holiday park as the night's fallback.",
+        "Put Waihi Beach into a trip between the Coromandel and Tauranga, and read the distance and drive time to the next stop, which is under an hour to Tauranga. Saved places and their details stay on your phone, and the map, routes, forecast and photos load when you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council sites: use the council page", "Under an hour on to Tauranga", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Waihi Beach?", "Only in a certified self-contained vehicle at a site the council allows, and several well-known bays are closed to it over summer. Tents and uncertified vans need a holiday park."],
+      ["Is there a limit on nights at Waihi Beach?", "At the busier council sites the limit has been three nights in any four weeks. Check the sign and the council's page, because limits and seasonal closures change."],
+    ],
+    sources: [
+      { label: "Western Bay of Plenty District Council", url: "https://www.westernbay.govt.nz/" },
+      { label: "SunLive: Waihi Beach readies for freedom campers", url: "https://www.sunlive.co.nz/news/227956-waihi-beach-readies-freedom-campers.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
