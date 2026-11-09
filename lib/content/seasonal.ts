@@ -711,7 +711,7 @@ export const seasonalArticles: Article[] = [
       ]),
       s("Planning uncertified nights in KiwiCamping", [
         "KiwiCamping, the iPhone app we make, lists DOC's campsites with their fees, campervan access, booking requirements and dog rules, and DOC's freedom camping notices by district, so you can see where an uncertified vehicle can stay on conservation land. Filter by cost to find free and cheap DOC campsites, add holiday parks, and save them into a trip with dates, notes and the route distance between stops.",
-        "Out of signal you still have the saved place details, though the map, routes, weather and photos load only with a connection. The app does not include council bylaw maps, so check the council's page for its named sites, and treat the sign at the entrance as the final word. It runs on iPhones with iOS 26 or later.",
+        "Out of signal you still have the saved place details, though the map, routes, weather and photos load only with a connection. The app does not include council bylaw maps, so check the council's page for its named sites, and treat the sign at the entrance as the final word. It runs on any iPhone with iOS 26 or later.",
       ], ["DOC campsites with campervan access", "DOC freedom camping notices by district", "Save nights into a dated trip"], undefined, true),
     ],
     sources: [
