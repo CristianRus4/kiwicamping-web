@@ -1203,6 +1203,20 @@
       }
     ]
   },
+  "/images/articles/is-camping-in-new-zealand-safe.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/is-camping-in-new-zealand-safe-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/is-camping-in-new-zealand-safe.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/kauri-dieback-camping-travel.webp": {
     "width": 1600,
     "height": 900,

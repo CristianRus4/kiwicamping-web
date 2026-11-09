@@ -159,3 +159,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `school-public-holidays-new-zealand-2027` | Reefton Motor Camp domain.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_domain.jpg) |
 | `road-user-charges-campervan-new-zealand` | Gas station, Waikari, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Gas_station,_Waikari,_Canterbury,_New_Zealand.jpg) |
 | `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |
+| `is-camping-in-new-zealand-safe` | Cyclist crossing the Hurunui River.JPG | Alan Liefting | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cyclist_crossing_the_Hurunui_River.JPG) |
