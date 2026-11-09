@@ -249,6 +249,61 @@
     "tool:fuel": "Perjalanan KiwiCamping menjumlahkan jarak rute antar perhentian Anda, yaitu angka yang dibutuhkan kalkulator ini.",
     "tool:drive": "Susun rute di KiwiCamping untuk melihat jarak antar perhentian, lalu hitung waktu setiap hari berkendara di sini."
   },
+  "pages": {
+    "support": {
+      "title": "Ada yang bisa kami bantu?",
+      "lede": "Jawaban jelas seputar peta, tempat tersimpan, perencanaan perjalanan, dan jalan di depan.",
+      "sections": [
+        {
+          "heading": "Mencari tempat",
+          "paragraphs": [
+            "Cari berdasarkan nama tempat, alamat, atau deskripsi. Geser peta lalu pilih opsi area saat ini untuk memfokuskan hasil pada wilayah yang terlihat.",
+            "Saring berdasarkan jenis tempat, biaya, peringkat minimum, pemesanan online, wilayah, serta fitur fasilitas dan akses yang terperinci. Gabungkan hanya filter yang penting agar alternatif yang berguna tetap terlihat.",
+            "Fasilitas, biaya, akses, dan pengelolaan bisa berubah. Ikuti rambu terbaru dan arahan pengelola lahan, lalu kirim koreksi agar direktori ini makin baik."
+          ]
+        },
+        {
+          "heading": "Tempat tersimpan",
+          "paragraphs": [
+            "Disukai, Sudah Dikunjungi, Ingin Dikunjungi, dan Berbintang diperbarui otomatis saat Anda menandai tempat. Pin dan Semua Tersimpan menyediakan tampilan cepat lainnya.",
+            "Buat koleksi bernama dengan ikon dan catatan, lalu tambahkan tempat apa pun. Pakai untuk wilayah, musim, kendaraan, atau daftar pilihan.",
+            "Aplikasi mendukung sinkronisasi iCloud pribadi untuk status tersimpan, koleksi, dan data perjalanan saat iCloud tersedia dan diaktifkan."
+          ]
+        },
+        {
+          "heading": "Perencana perjalanan",
+          "paragraphs": [
+            "Buat perjalanan, tambahkan tempat, lalu seret untuk mengatur urutannya. Setiap pemberhentian bisa memiliki tanggal kedatangan, catatan, cuaca, dan status kunjungan sendiri, dan perencana menampilkan jarak berkendara per ruas serta untuk seluruh perjalanan.",
+            "Rute jalan bergantung pada petunjuk arah MapKit yang tersedia. Perencana tetap menyimpan pemberhentian jika sebuah ruas gagal, tetapi Anda sendiri harus memastikan akses jalan terkini.",
+            "Mulai dengan preset perlengkapan berkemah atau buat tugas sendiri. Kemajuan perjalanan menampilkan daftar di samping rencana perjalanan, dan detail rencana bisa disinkronkan ke Kalender."
+          ]
+        },
+        {
+          "heading": "Peta, cuaca, dan info langsung",
+          "paragraphs": [
+            "Beralih antara peta standar dan tampilan satelit berbasis citra flyover Apple, yang miring dan berputar menjadi medan 3D. Apple Look Around, tampilan setingkat jalan, terbuka dari layar tempat jika cakupannya tersedia.",
+            "Cuaca saat ini dan prakiraan memerlukan data langsung. Simpan prakiraan penting dan peringatan resmi sebelum meninggalkan area sinyal.",
+            "Direktori tempat bawaan menjaga detail inti tempat tetap tersedia di luar jangkauan sinyal yang andal. Peta langsung, rute, cuaca, foto, dan halaman penyedia eksternal mungkin memerlukan sinyal."
+          ]
+        },
+        {
+          "heading": "Harga dan mata uang",
+          "paragraphs": [
+            "Pilih mata uang Anda di pengaturan dan atur kurs konversinya. Biaya yang dilaporkan lalu ditampilkan dalam mata uang itu di samping angka dolar Selandia Baru, yang membantu saat Anda berkunjung dan belum terbiasa dengan NZD.",
+            "Buka detail pemesanan atau kontak sebuah tempat untuk memeriksa ketersediaan, harga, dan ketentuan dengan penyedia. Harga di aplikasi adalah angka yang dilaporkan, bukan penawaran langsung."
+          ]
+        },
+        {
+          "heading": "Premium dan pembelian",
+          "paragraphs": [
+            "KiwiCamping gratis diunduh, dan peta serta pencarian menampilkan setiap tempat. Tanpa Pass, hanya holiday park, penginapan, dan tur yang bisa dipesan dari BookIt yang terbuka penuh, beserta beberapa panduan.",
+            "Pass membuka DOC campsites, pondok dan jalur, lokasi freedom camping, stasiun pembuangan, area kunjungan harian, dan setiap panduan, serta membuka fitur menyimpan tempat, koleksi, dan perencana perjalanan.",
+            "Gunakan Pulihkan Pembelian di layar Premium saat masuk dengan akun Apple yang dipakai untuk transaksi awal."
+          ]
+        }
+      ]
+    }
+  },
   "tools": {
     "shared": {
       "breadcrumbHome": "Beranda",

@@ -253,6 +253,26 @@
     "review9Country": "Ierland",
     "review9Quote": "Zes mensen, twee bussen, niemand hoefde te vragen waar we de volgende nacht sliepen. Alles omgooien toen het weer omsloeg ging makkelijk, wat ik niet had verwacht."
   },
+  "consent": {
+    "label": "Privacykeuzes",
+    "text": "Mag KiwiCamping cookies van Google Analytics gebruiken om te zien welke pagina’s reizigers helpen? Ze worden nooit voor advertenties gebruikt.",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "policy": "Privacybeleid",
+    "choices": "Privacykeuzes"
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Is een hut of camping vol, dan toont KiwiCamping alle DOC-hutten en -campings in de buurt met hun categorie, tarief en of je ze kunt boeken.",
+    "campfire-rules-new-zealand": "KiwiCamping toont de voorzieningen van elke DOC-camping, ook of vuur is toegestaan, en de details van elke plek blijven zonder bereik leesbaar.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping zet 262 lozingspunten met hun tarieven op de kaart, zodat je de dichtstbijzijnde vindt voordat een tank vol is.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping zet de meldingen van DOC over vrij kamperen op de kaart, zodat je vóór het parkeren ziet waar het op natuurterrein verboden of beperkt is.",
+    "where-to-camp-in-new-zealand": "KiwiCamping zet DOC-campings, hutten, holiday parks en plekken voor vrij kamperen op één kaart, met filters voor tarieven en voorzieningen.",
+    "doc-huts-new-zealand-guide": "KiwiCamping toont de DOC-hutten per regio met hun categorie, tarief en of je ze kunt boeken, onderweg op het pad ook zonder bereik leesbaar.",
+    "campervan-road-rules-new-zealand": "De reisplanner van KiwiCamping zet je stops op volgorde en toont de afstand ertussen, zodat elke rijdag met een camper te doen blijft.",
+    "east-cape-road-trip": "Bewaar de stops aan de East Cape in een KiwiCamping-reis om de routeafstand te zien en campings, data en notities op orde te houden.",
+    "tool:fuel": "Reizen in KiwiCamping tellen de routeafstand tussen je stops op, precies het getal dat deze rekenhulp nodig heeft.",
+    "tool:drive": "Stel de route samen in KiwiCamping om de afstand tussen je stops te zien en bereken hier de tijd voor elke rijdag."
+  },
   "pages": {
     "support": {
       "title": "Waarmee kunnen we je helpen?",
@@ -404,6 +424,287 @@
         }
       ],
       "effective": "Geldig vanaf 12 augustus 2026"
+    }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Home",
+      "breadcrumbTools": "Rekenhulpen",
+      "howTitle": "Zo werkt de berekening",
+      "exampleTitle": "Rekenvoorbeeld",
+      "assumptionsTitle": "Aannames",
+      "sourcesTitle": "Bronnen",
+      "faqTitle": "Veelgestelde vragen",
+      "guidesTitle": "Gerelateerde gidsen",
+      "otherToolsTitle": "Meer rekenhulpen voor je roadtrip",
+      "openTool": "Open de rekenhulp",
+      "ctaEyebrow": "Plan het in KiwiCamping",
+      "ctaTitle": "Vind je stops en reken het dan uit.",
+      "ctaText": "KiwiCamping is gratis te downloaden voor iPhone. Boekbare holiday parks, verblijven en tours zijn gratis in de app. DOC-campings, hutten, lozingspunten en de gidsen open je met de Pass.",
+      "ctaButton": "Download de app",
+      "enterValidValues": "Vul geldige waarden in",
+      "enterValidAmount": "Vul een geldig bedrag in"
+    },
+    "index": {
+      "metaTitle": "Rekenhulpen Nieuw-Zeeland: brandstof, rijtijd, campingkosten",
+      "metaDescription": "Gratis rekenhulpen voor je roadtrip door Nieuw-Zeeland: brandstofkosten, rijtijd per soort weg, campingkosten per persoon of per plek, NZD omrekenen en watertanks van een camper.",
+      "toolsTitle": "Eén rekenhulp per vraag",
+      "toolsText": "Elke rekenhulp heeft een eigen pagina met de formule, een rekenvoorbeeld met Nieuw-Zeelandse cijfers, de aannames erachter en antwoorden op veelgestelde vragen."
+    },
+    "fuel": {
+      "metaTitle": "Brandstofkosten berekenen: camperreis Nieuw-Zeeland",
+      "metaDescription": "Bereken liters en brandstofkosten voor je roadtrip door Nieuw-Zeeland uit afstand, l/100 km en pompprijs. Met formule, voorbeeld van 1.000 km en MBIE-referentieprijs.",
+      "eyebrow": "Rekenhulp brandstofkosten",
+      "cardEyebrow": "Brandstofkosten",
+      "h1": "Brandstofkosten berekenen voor een roadtrip door Nieuw-Zeeland",
+      "intro": "Vul de routeafstand in, het verbruik van je volgeladen voertuig en de prijs per liter. De standaardprijs is het landelijke gemiddelde van MBIE voor gewone 91-benzine: {fuelPrice} per liter in de week van {fuelDate}. Premium 95, diesel en de Road User Charges staan in de tabel hieronder.",
+      "cardTitle": "Wat kost die afstand aan brandstof?",
+      "cardText": "Vul de volledige routeafstand in, het verbruik van het volgeladen voertuig en de verwachte prijs per liter. Op afgelegen plekken kunnen de prijzen hoger liggen dan de referentieprijzen voor steden.",
+      "labelDistance": "Afstand (km)",
+      "labelConsumption": "Verbruik (l/100 km)",
+      "labelPrice": "Brandstofprijs (NZD/l)",
+      "formula": [
+        "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
+        "Kosten = liters × prijs per liter (NZD)"
+      ],
+      "formulaNote": "Het verbruik staat per 100 kilometer, dus delen door 100 geeft liters per kilometer. De som is lineair: bij dubbele afstand verdubbelen zowel de liters als de kosten.",
+      "example": "Een route van {distance} km in een camper met een verbruik van {consumption} l/100 km heeft {litres} liter brandstof nodig. Bij {price} per liter is dat {cost}.",
+      "assumptions": [
+        "De standaardprijs is een landelijke referentie. Afgelegen tankstations, onder meer aan de West Coast en in Fiordland, rekenen vaak meer, dus tank vol voordat je aan een lang stuk zonder plaatsen begint.",
+        "Reken met het verbruik van het voertuig waarin je echt rijdt, en dan volgeladen. Een volle camper verbruikt bergop en met tegenwind meer dan het cijfer in de folder.",
+        "Tel de ritjes rond elke stop erbij. Ritjes naar de supermarkt, uitzichtpunten en zijwegen lopen over een lange route flink op.",
+        "Dieselvoertuigen betalen bovenop de brandstof Road User Charges (RUC), een kilometerheffing, per 1.000 km. Deze rekenhulp telt alleen de brandstof."
+      ],
+      "faq": [
+        [
+          "Hoeveel brandstof verbruikt een camper in Nieuw-Zeeland?",
+          "Dat hangt af van het voertuig, de lading en de wegen. Zoek het officiële verbruik van het voertuig op bij Rightcar (rightcar.govt.nz) of vraag het aan het verhuurbedrijf, en reken wat extra voor heuvels en een volle lading. De standaard 12 l/100 km is een planningscijfer voor een beladen camper, geen gemeten gemiddelde."
+        ],
+        [
+          "Is een diesel- of benzinecamper goedkoper?",
+          "Diesel is goedkoper aan de pomp, maar een licht dieselvoertuig betaalt daarnaast Road User Charges van {ruc} per 1.000 km, die niet in de pompprijs en niet in deze rekenhulp zitten. Over 1.000 km bij 12 l/100 km is dat {dieselTotal} voor diesel inclusief RUC tegenover {petrolTotal} voor gewone 91, dus het hangt ervan af hoeveel minder de diesel verbruikt. Vraag het verhuurbedrijf of RUC in de prijs zit."
+        ],
+        [
+          "Wat kost benzine in Nieuw-Zeeland nu?",
+          "De landelijke gemiddelde prijzen van MBIE voor de week van {fuelDate} waren {fuelPrice} per liter voor gewone 91, {premiumPrice} voor premium 95 en {dieselPrice} voor diesel. De rekenhulp begint met de prijs van gewone 91. MBIE publiceert de prijzen elke week en afgelegen pompen vragen vaak meer, dus check het voordat je vertrekt."
+        ]
+      ],
+      "pricesTitle": "Actuele brandstofprijzen in Nieuw-Zeeland",
+      "pricesNote": "Landelijke gemiddelde pompprijzen van MBIE voor de week van {fuelDate}, voorlopig, in Nieuw-Zeelandse dollars per liter inclusief belastingen. Lichte dieselvoertuigen tot 3.500 kg betalen daarnaast Road User Charges (RUC) van {ruc} per 1.000 km, die niet in de pompprijs zitten.",
+      "pricesHead": [
+        "Brandstof",
+        "Prijs per liter",
+        "{distance} km bij {consumption} l/100 km"
+      ],
+      "fuelRegular": "Gewone 91-benzine",
+      "fuelPremium": "Premium 95-benzine",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} plus {ruc} RUC"
+    },
+    "drive": {
+      "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: uren per soort weg",
+      "metaDescription": "Schat hoe lang een rijdag in Nieuw-Zeeland echt duurt uit afstand, soort weg en stops, met formule, rekenvoorbeeld en de gebruikte snelheden.",
+      "eyebrow": "Rekenhulp rijtijd",
+      "cardEyebrow": "Rijdag inschatten",
+      "h1": "Rijtijd berekenen voor wegen in Nieuw-Zeeland",
+      "intro": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp rekent met de afstand die je al kent, een gemiddelde snelheid voor het soort weg en 20 minuten per stop. Juist door die stops loopt een rijdag in Nieuw-Zeeland meestal uit.",
+      "cardTitle": "Hoe lang die dag echt duurt.",
+      "cardText": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp telt ook het soort weg en je echte stops mee, en juist daardoor loopt een dag meestal uit.",
+      "labelDistance": "Afstand (km)",
+      "labelRoadType": "Soort weg",
+      "roadMotorway": "Snelweg of lange rechte weg",
+      "roadHighway": "Hoofdweg",
+      "roadWinding": "Bochtig of langs de kust",
+      "roadNarrow": "Smal, steil of onverhard",
+      "labelStops": "Stops",
+      "hoursMinutes": "{hours} u {minutes} min",
+      "formula": [
+        "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
+        "Totaal aantal minuten = rijminuten + 20 × stops"
+      ],
+      "formulaNote": "De gemiddelde snelheid is niet de maximumsnelheid. Daarin zitten bochten, heuvels, eenbaansbruggen, dorpen en langzamer verkeer verrekend. De vier wegtypen rekenen met 85, 70, 60 en 45 km/u.",
+      "example": "Een dag van {distance} km over bochtige wegen of langs de kust met {speed} km/u is {driving} rijden. Tel {stops} stops van elk 20 minuten erbij en de dag duurt {total}.",
+      "assumptions": [
+        "De gemiddelde snelheden zijn planningscijfers voor een auto of camper bij goede omstandigheden, geen gemeten gemiddelden voor een bepaalde weg.",
+        "Elke stop telt als 20 minuten voor tanken, eten, een toilet of een uitzichtpunt. Veerboten, wegwerkzaamheden en lange wandelingen komen daar nog bovenop.",
+        "Het weer, aardverschuivingen en afsluitingen veranderen routes. Check de journey planner van NZTA voor de actuele toestand van de wegen voordat je vertrekt."
+      ],
+      "faq": [
+        [
+          "Hoe ver kun je in één dag rijden in Nieuw-Zeeland?",
+          "Daar bestaat geen vast getal voor. Bochtige wegen, eenbaansbruggen en stops houden de gemiddelde snelheid ruim onder de maximumsnelheid op open weg, dus een dag die op de kaart kort lijkt, kan het grootste deel van het daglicht kosten. Vul afstand en soort weg in om de uren te zien, en plan regelmatig een pauze."
+        ],
+        [
+          "Waarom duurt dit langer dan mijn kaartapp?",
+          "Kaartapps schatten de rijtijd zonder stops. Deze rekenhulp gebruikt een gemiddelde voor het soort weg en rekent tijd per stop erbij, en dat komt dichter bij hoe een kampeerdag echt verloopt."
+        ],
+        [
+          "Werkt het ook voor een camper?",
+          "Ja. Kies een langzamer wegtype als je in een groot voertuig rijdt, een aanhanger trekt of nog niet gewend bent aan links rijden."
+        ]
+      ],
+      "routesTitle": "Rijtijden tussen de belangrijkste plaatsen in Nieuw-Zeeland",
+      "routesNote": "Planningstijden zonder stops over de hoofdroute via de State Highways. Tel tijd op voor stops, wegwerkzaamheden en weer, en check bij NZTA of er wegen dicht zijn voordat je vertrekt.",
+      "routesHead": [
+        "Route",
+        "Afstand",
+        "Rijtijd"
+      ],
+      "routes": [
+        [
+          "Auckland naar Wellington",
+          "640 km",
+          "8 tot 8,5 uur"
+        ],
+        [
+          "Auckland naar de Bay of Islands",
+          "240 km",
+          "3 tot 3,5 uur"
+        ],
+        [
+          "Picton naar Christchurch via Kaikōura",
+          "Ongeveer 336 km",
+          "4,5 tot 5 uur"
+        ],
+        [
+          "Christchurch naar Queenstown via Tekapo",
+          "Ongeveer 480 km",
+          "Ongeveer 6 uur"
+        ],
+        [
+          "Christchurch naar Dunedin",
+          "360 km",
+          "Ongeveer 5 uur"
+        ],
+        [
+          "Queenstown naar Te Anau",
+          "170 km",
+          "Ongeveer 2 uur"
+        ],
+        [
+          "Te Anau naar Milford Sound",
+          "120 km",
+          "Ongeveer 2 uur"
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campingkosten Nieuw-Zeeland: per persoon of per plek?",
+      "metaDescription": "Vergelijk een DOC-camping die per volwassene rekent met een holiday park dat per plek rekent, voor jouw groep en nachten, met formule, voorbeeld en DOC-tarieven uit de data.",
+      "eyebrow": "Rekenhulp campingkosten",
+      "cardEyebrow": "Campings vergelijken",
+      "h1": "Campingkosten berekenen: per persoon of per plek",
+      "intro": "DOC-campings rekenen per volwassene per nacht, een holiday park meestal per plek. Welke goedkoper is, wisselt met de grootte van je groep. Deze rekenhulp rekent het uit voor jouw nachten.",
+      "cardTitle": "Per persoon of per plek?",
+      "cardText": "Een DOC-camping rekent meestal per volwassene en een holiday park meestal per plek. Welke optie goedkoper is, wisselt met de groepsgrootte, en daar gaan gezinnen de mist mee in.",
+      "labelAdults": "Volwassenen",
+      "labelNights": "Nachten",
+      "labelPerAdult": "Per volwassene (NZD)",
+      "labelPerSite": "Per plek (NZD)",
+      "comparison": "{perAdult} tegenover {perSite} · {verdict}",
+      "theSame": "even duur",
+      "perAdultCheaper": "per volwassene is goedkoper",
+      "perSiteCheaper": "per plek is goedkoper",
+      "formula": [
+        "Totaal per volwassene = volwassenen × nachten × tarief per volwassene",
+        "Totaal per plek = nachten × tarief per plek",
+        "Het laagste totaal is de goedkoopste optie voor je groep"
+      ],
+      "formulaNote": "Het totaal per volwassene groeit met elke extra volwassene, het totaal per plek niet. Daarom verschilt het antwoord voor een stel en voor een gezin.",
+      "example": "{adults} volwassenen die {nights} nachten blijven, betalen bij {rateAdult} per volwassene {totalAdult}. Hetzelfde verblijf kost bij {rateSite} per plek {totalSite}, dus {verdict}.",
+      "assumptions": [
+        "Kinderen zijn niet meegerekend. Veel DOC-campings rekenen een lager tarief voor kinderen van 5 tot 17 jaar en niets voor baby’s, en holiday parks bepalen zelf hun kindertarieven.",
+        "De standaardtarieven zijn voorbeelden, geen prijsopgaven. In de DOC-data per {docDate} zijn {docFree} DOC-campings gratis, en het laagste tarief voor volwassenen bij de betaalde campings loopt uiteen van {docMin} tot {docMax} per nacht.",
+        "Holiday parks bepalen zelf hun prijzen, die wisselen met het seizoen, de stroom en de grootte van de plek. Check het park voordat je boekt."
+      ],
+      "faq": [
+        [
+          "Hoeveel kost een kampeerplek per nacht in Nieuw-Zeeland?",
+          "DOC-campings zijn gratis of rekenen per volwassene. In de DOC-data per {docDate} loopt het laagste tarief voor volwassenen bij betaalde DOC-campings uiteen van {docMin} tot {docMax} per nacht, met een mediaan van {docMedian}. Holiday parks bepalen zelf hun plekprijzen, dus vergelijk het totaal voor je groep."
+        ],
+        [
+          "Is per persoon of per plek goedkoper voor een gezin?",
+          "Per plek wint meestal naarmate de groep groter wordt, want de plekprijs blijft gelijk terwijl de kosten per volwassene zich vermenigvuldigen. Vul je eigen tarieven in om te zien waar het omslagpunt ligt."
+        ],
+        [
+          "Betalen kinderen op DOC-campings?",
+          "Op veel DOC-campings betalen kinderen van 5 tot 17 jaar een lager tarief en zijn baby’s gratis. Het tarief van elke camping staat op de DOC-pagina."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "NZD omrekenen: Nieuw-Zeelandse prijzen in 9 valuta",
+      "metaDescription": "Reken prijzen in Nieuw-Zeelandse dollars om naar en van USD, EUR, GBP, AUD, JPY, CNY, KRW, INR en SGD met referentiekoersen van de Reserve Bank of New Zealand.",
+      "eyebrow": "Valuta omrekenen",
+      "cardEyebrow": "Valuta omrekenen",
+      "h1": "NZD omrekenen voor prijzen op je reis door Nieuw-Zeeland",
+      "intro": "Reken een Nieuw-Zeelandse prijs om naar je eigen valuta, of je eigen valuta naar Nieuw-Zeelandse dollars, met referentiekoersen van de Reserve Bank of New Zealand van {rateDate}.",
+      "cardTitle": "Reken een Nieuw-Zeelandse prijs om.",
+      "cardText": "Indicatieve omrekening voor je reisplanning, met koersen van de Reserve Bank of New Zealand van {rateDate}. Je bank of kaart kan een andere koers gebruiken en kosten rekenen.",
+      "labelAmount": "Bedrag",
+      "labelFrom": "Van",
+      "labelTo": "Naar",
+      "formula": [
+        "Bedrag in NZD = bedrag ÷ koers van de valuta waarvan je omrekent",
+        "Resultaat = bedrag in NZD × koers van de valuta waarnaar je omrekent"
+      ],
+      "formulaNote": "Elke koers is het aantal eenheden van die valuta per 1 Nieuw-Zeelandse dollar, dus elke omrekening loopt via NZD.",
+      "example": "{amount} tegen {rate} Amerikaanse dollar per Nieuw-Zeelandse dollar is {converted}.",
+      "assumptions": [
+        "Dit zijn referentiekoersen van {rateDate}. Wisselkoersen veranderen elke dag.",
+        "Banken, kaarten en geldautomaten gebruiken eigen koersen en kunnen kosten rekenen, dus het bedrag dat je betaalt kan afwijken.",
+        "Japanse yen en Koreaanse won worden zonder decimalen getoond."
+      ],
+      "faq": [
+        [
+          "Welke valuta wordt in Nieuw-Zeeland gebruikt?",
+          "De Nieuw-Zeelandse dollar (NZD). Prijzen in winkels, op campings en in holiday parks staan in NZD."
+        ],
+        [
+          "Is dit de koers die mijn bank me geeft?",
+          "Waarschijnlijk niet precies. De rekenhulp gebruikt referentiekoersen van {rateDate}. Je bank of kaartuitgever rekent een eigen koers en kosten, dus zie het resultaat als een planningscijfer."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Watertank camper berekenen: dagen schoon water en grijswater",
+      "metaDescription": "Bereken hoeveel dagen de schoonwater- en grijswatertank van een camper meegaan voor jouw groep, met formule, rekenvoorbeeld en de dagcijfers erachter.",
+      "eyebrow": "Rekenhulp watertank",
+      "cardEyebrow": "Water en afvalwater plannen",
+      "h1": "Watertank camper berekenen",
+      "intro": "Een tankinhoud in liters wordt pas bruikbaar als je er dagen van maakt. Vul de inhoud van de schoonwater- en grijswatertank in en het aantal personen om te zien welke tank je limiet bepaalt.",
+      "cardTitle": "Hoeveel dagen kun je zonder voorzieningen?",
+      "cardText": "Een inhoud in liters wordt pas bruikbaar als je die in dagen uitdrukt. Schoon water en grijswater staan apart, want de tank die het eerst op is, bepaalt de limiet.",
+      "labelFresh": "Schoon water (l)",
+      "labelGrey": "Grijswater (l)",
+      "labelPeople": "Personen",
+      "days": "{fresh} dagen schoon water · {grey} dagen grijswater",
+      "formula": [
+        "Dagen schoon water = schoonwatertank (l) ÷ (personen × 11 l per dag)",
+        "Dagen grijswater = grijswatertank (l) ÷ (personen × 9 l per dag)",
+        "De laagste van de twee is hoe lang je kunt blijven staan voordat je moet bijvullen of legen"
+      ],
+      "formulaNote": "Grijswater is het afvalwater van gootsteen en douche. Het is minder dan het verbruik van schoon water, omdat drinkwater en kookwater niet allemaal in de tank terechtkomen.",
+      "example": "{people} personen met een schoonwatertank van {freshTank} liter en een grijswatertank van {greyTank} liter hebben {freshDays} dagen schoon water en {greyDays} dagen grijswater, dus de schoonwatertank bepaalt de limiet.",
+      "assumptions": [
+        "11 liter schoon water en 9 liter grijswater per persoon per dag zijn planningscijfers voor zuinig gebruik: drinken, koken, afwassen en een snelle wasbeurt. Douchen gebruikt veel meer.",
+        "Cassettetoiletten en zwartwater zijn niet meegerekend.",
+        "Loos grijswater alleen bij een lozingspunt. Nooit op de grond of in een regenwaterafvoer."
+      ],
+      "faq": [
+        [
+          "Hoe lang gaat 100 liter schoon water mee in een camper?",
+          "Voor twee zuinige gebruikers die elk 11 liter per dag gebruiken, ongeveer vier en een halve dag. Douchen en kleren wassen verkorten dat flink."
+        ],
+        [
+          "Waar kan ik grijswater lozen in Nieuw-Zeeland?",
+          "Bij een lozingspunt (dump station). Veel holiday parks hebben er een, en in veel plaatsen beheert de gemeente openbare lozingspunten. Loos grijswater nooit op de grond of in een regenwaterafvoer."
+        ],
+        [
+          "Welke tank is het eerst op?",
+          "Degene die voor jouw gebruik het kleinst is. Grijswatertanks zijn vaak kleiner dan schoonwatertanks, dus check beide en kijk niet alleen naar de meter van het schoonwater."
+        ]
+      ]
     }
   },
   "articles": {
@@ -8844,6 +9145,194 @@
         },
         {
           "label": "DOC-plekken om te overnachten"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps werkt niet in Nieuw-Zeeland? Oplossingen voor inloggen, updates en verdwenen reizen (2026)",
+      "description": "WikiCamps Nieuw-Zeeland gaat niet open, vraagt steeds om in te loggen of dwingt een update af? De oplossingen uit het helpcentrum van WikiCamps zelf, de vragen over de oude versie en de pc, en van wie de app nu is.",
+      "region": "Nieuw-Zeeland",
+      "imageAlt": "Gehuurde campervans geparkeerd op een natte parkeerplaats langs de weg, onder met bos bedekte heuvels",
+      "intro": "WikiCamps Nieuw-Zeeland is de afgelopen twee jaar meer veranderd dan in het decennium daarvoor. Versie 6 bouwde de app helemaal opnieuw, iedere gebruiker heeft nu een account nodig en sinds maart 2026 weigert een app die te ver achterloopt te openen totdat je hem bijwerkt. De meeste problemen waar mensen naar zoeken komen door die drie veranderingen, en de meeste los je in een paar minuten op vanaf een camping met één streepje bereik. De oplossingen hieronder komen uit het helpcentrum van WikiCamps zelf, gelezen op 9 november 2026. Wij maken KiwiCamping, een andere campingapp voor Nieuw-Zeeland, dus het stuk over overstappen aan het eind is van ons; alles daarvoor is bedoeld om WikiCamps weer aan de praat te krijgen.",
+      "sections": [
+        {
+          "heading": "Snelle oplossingen als WikiCamps niet laadt",
+          "body": [
+            "Begin bij de telefoon, niet bij de app. WikiCamps zegt iOS 26 en nieuwer te ondersteunen op iPhone en iPad, en Android 15 en nieuwer. De app laat zich op een ouder systeem misschien nog wel installeren, maar WikiCamps zegt niet te kunnen beloven dat daar alle functies werken en er ook geen problemen mee te kunnen oplossen. Op een iPhone kijk je onder Instellingen, Algemeen, Software-update; op Android onder Instellingen, Over de telefoon.",
+            "Als de telefoon up-to-date is en WikiCamps blijft hangen bij het laden of toont de foutmelding \"Could not retrieve data\", geeft het helpcentrum voor beide dezelfde korte lijst: installeer de nieuwste versie uit je appstore, start de telefoon opnieuw op, schakel van wifi over op mobiele data, zet elke vpn uit en sta WikiCamps toe je locatie te gebruiken. Verwijderen en opnieuw installeren is de laatste stap, en is pas zinvol als je reizen met je account zijn gesynchroniseerd, want na een herinstallatie begint de telefoon bij nul."
+          ],
+          "tips": [
+            "iOS 26 of Android 15 en nieuwer",
+            "Probeer mobiele data in plaats van campingwifi",
+            "Installeer pas opnieuw als je reizen zijn gesynchroniseerd"
+          ],
+          "table": {
+            "caption": "Uit het helpcentrum van WikiCamps (support.wikicamps.co), gelezen op 9 november 2026.",
+            "head": [
+              "Probleem",
+              "Gebruikelijke oorzaak",
+              "Wat je kunt proberen"
+            ],
+            "rows": [
+              [
+                "Blijft hangen bij laden of \"Could not retrieve data\"",
+                "Oude appversie, zwakke wifi, een vpn of locatie uitgeschakeld",
+                "Bijwerken, opnieuw opstarten, mobiele data gebruiken, vpn uit, locatie toestaan"
+              ],
+              [
+                "Vraagt steeds opnieuw om in te loggen",
+                "De telefoon wist de gegevens van de app of beperkt de app op de achtergrond",
+                "Accuoptimalisatie en opschoon-apps voor WikiCamps uitzetten"
+              ],
+              [
+                "Geen verificatiecode",
+                "De e-mail wordt gefilterd of is vertraagd",
+                "Controleer de spammap en wacht 10 tot 15 minuten"
+              ],
+              [
+                "Moet opnieuw betalen",
+                "Ingelogd met een ander account of andere store-ID dan waarmee is betaald",
+                "Het oorspronkelijke account gebruiken; herstellen via dezelfde Apple-ID"
+              ],
+              [
+                "Reizen of favorieten ontbreken",
+                "Ingelogd met een ander WikiCamps-account",
+                "Inloggen met het oorspronkelijke e-mailadres en laten synchroniseren"
+              ],
+              [
+                "Gaat niet open zonder bereik",
+                "De offlinemodus stond niet aan voordat het bereik wegviel",
+                "Offline-inhoud downloaden en de offlinemodus in de stad aanzetten"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Waarom WikiCamps vraagt om in te loggen of een account aan te maken",
+          "body": [
+            "De opnieuw gebouwde app werkt met accounts. WikiCamps zegt dat een account ervoor zorgt dat je reizen, favorieten, beoordelingen en andere opgeslagen gegevens synchroniseren tussen apparaten en een nieuwe telefoon of herinstallatie overleven, en dat de app er ook mee controleert of je hebt betaald. Als je de oude app gebruikte zonder je ooit te registreren, moet je nu een account aanmaken; en als je niet zeker weet of je er een hebt gemaakt, stelt WikiCamps voor om \"Forgot your password?\" te proberen met je e-mailadres: geen reset-e-mail betekent geen account onder dat adres.",
+            "Verificatiecodes komen van de inlogdienst van Microsoft namens WikiCamps, dus zoek naar een afzender met de naam \"Microsoft on behalf of WikiCamps\" met een onderwerp over een verificatiecode voor het e-mailadres van een WikiCamps-account. WikiCamps zegt dat je de spammap moet controleren en 10 tot 15 minuten moet wachten, en dat het supportteam niet met de hand een code kan sturen. Als de app blijft vragen om in te loggen terwijl je dat al hebt gedaan, schrijft WikiCamps dat toe aan de telefoon en niet aan de app: accuoptimalisatie, beperkingen op de achtergrond, automatisch wissen van appgegevens en opschoon-apps van derden kunnen de opgeslagen sessie wissen."
+          ],
+          "tips": [
+            "Codes komen van Microsoft namens WikiCamps",
+            "Laat WikiCamps op de achtergrond draaien",
+            "Gebruik het e-mailadres waarmee je je het eerst hebt aangemeld"
+          ]
+        },
+        {
+          "heading": "Al betaald maar toch gevraagd om opnieuw te betalen",
+          "body": [
+            "WikiCamps controleert je aankoop via het account waarmee je inlogt en de store waar je hebt gekocht. Zorg er op een iPhone voor dat de App Store is ingelogd met de Apple-ID waarmee WikiCamps is gekocht en download de app dan opnieuw uit de App Store. Op Android zegt WikiCamps dat een nieuw of ander account een eerdere aankoop kan verbergen; als het aankoopscherm niet verdwijnt, stuur het supportteam dan je Google Play-bestelnummer uit Betalingen en abonnementen in de Play Store, dan activeren ze de app.",
+            "Aankopen blijven ook bij hun store. Van Android naar een iPhone overstappen, of andersom, betekent WikiCamps opnieuw kopen, al volgen je accountgegevens je zodra je inlogt. En WikiCamps Nieuw-Zeeland en WikiCamps Australië zijn aparte apps die je elk apart koopt, dus de ene ontgrendelt de andere niet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "De afgedwongen update van maart 2026",
+          "body": [
+            "Sinds maart 2026 blokkeert WikiCamps versies die meer dan twee releases achterlopen. Open je een niet-ondersteunde versie, dan vraagt de app om bij te werken via de appstore voordat je verder kunt; een versie die nog wordt ondersteund toont een melding in de app en laat je later bijwerken. De pagina \"Version Update History\" van WikiCamps geeft aan welke versies worden ondersteund: toen wij op 9 november 2026 keken waren dat 6.3.0 en 6.2.4 tot en met 6.2.5, en de Nieuw-Zeelandse App Store bood al 6.3.1 aan.",
+            "Het praktische risico in Nieuw-Zeeland is dat je wordt gevraagd bij te werken waar geen bereik is om dat te doen. Lange stukken van de West Coast, Fiordland en de Catlins hebben geen dekking, dus werk bij in de laatste plaats met goed bereik, download dan de offline-inhoud van WikiCamps en zet de offlinemodus aan via het menu voordat je vertrekt. WikiCamps noemt een bekend probleem: zonder enige verbinding kan de Explore-pagina vastlopen voordat je bij het menu komt om de offlinemodus aan te zetten, en de offlinemodus is voorlopig alleen om te bekijken: geen nieuwe reizen of reisbewerkingen totdat je weer bereik hebt."
+          ],
+          "tips": [
+            "Meer dan twee releases achter betekent geblokkeerd",
+            "Werk bij in de stad, niet op de camping",
+            "Zet de offlinemodus aan voordat het bereik wegvalt"
+          ]
+        },
+        {
+          "heading": "Kun je terug naar de oude versie van WikiCamps?",
+          "body": [
+            "Nee. WikiCamps zegt dat oudere versies sinds maart 2026 niet meer worden ondersteund of toegankelijk zijn, en de appstores bieden alleen de huidige release aan. De reden is dat de vorige app was gebouwd op een platform dat niet te onderhouden was voor updates op lange termijn, dus versie 6 is van de grond af opnieuw gebouwd, met de eerste releases van versie 6 in november 2024.",
+            "Veel klachten over de nieuwe app gaan over dingen die zijn verplaatst in plaats van verdwenen. Je lijsten met leuk gevonden, met ster gemarkeerde, bezochte en nog te bezoeken plekken staan nu onderaan het tabblad Home. De filteropties zijn bewust vereenvoudigd, dus een aantal van de oude uitsluitschakelaars is weg, en WikiCamps vraagt mensen die erop leunden dit aan het supportteam te laten weten. Als er plekken op de kaart lijken te ontbreken, adviseert het om actieve filters te wissen en in te zoomen, omdat de kaart maar een beperkt aantal resultaten tegelijk toont. WikiCamps zelf zegt dat veel recente negatieve beoordelingen te maken hebben met de overstap naar de opnieuw gebouwde app en dat het belangrijke functies na verloop van tijd terugbrengt."
+          ],
+          "tips": [
+            "Favorieten staan nu onder Collections",
+            "Wis filters als plekken verdwijnen",
+            "Opgeslagen filters blijven op elk apparaat"
+          ]
+        },
+        {
+          "heading": "Is er een pc- of Windows-versie van WikiCamps?",
+          "body": [
+            "Niet meer. De Windows-app van WikiCamps was versie 5 en is samen met de andere oude versies stopgezet. Versie 6 draait alleen op iPhone, iPad en Android-telefoons en -tablets. WikiCamps merkt op dat sommige mensen mobiele apps op een computer draaien via een emulator, maar ondersteunt dat niet. Als je reizen op een groot scherm plant, is een tablet met hetzelfde account de ondersteunde manier, omdat reizen via je account synchroniseren.",
+            "Nog een einde dat goed is om te weten als vrienden uit het buitenland WikiCamps gebruiken. De aparte app voor het Verenigd Koninkrijk, de VS en Canada wordt sinds 30 maart 2026 niet meer ondersteund en verdwijnt uit de appstores; nieuwe registraties en logins zijn uitgezet. Dat heeft geen invloed op WikiCamps Nieuw-Zeeland."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Van wie is WikiCamps nu?",
+          "body": [
+            "WikiCamps is gebouwd door een klein oprichtersteam, Russ en Cliff en hun gezinnen, en groeide op de plekken die de eigen gebruikers toevoegden. In 2021 verkochten ze het aan G'day Parks, een groep toeristenparken, en de ontwikkelaar in de Nieuw-Zeelandse App Store is nu WikiCamps Pty Ltd. Boekingen via de knop \"Book Now\" worden afgehandeld door de boekingspartner, BookEasy (Book Australia), dus wijzigingen en terugbetalingen gaan naar hen en niet naar WikiCamps.",
+            "Het verdienmodel is nog steeds een eenmalige aankoop. WikiCamps zegt dat er geen abonnement is, en de Nieuw-Zeelandse App Store vermeldde WikiCamps Nieuw-Zeeland voor NZ$7.99 toen we op 9 november 2026 keken. Het heeft ook een klein aantal advertenties toegevoegd in de onderdelen beoordelingen, kosten en foto's om de lopende kosten te dekken. Gegevens over plekken, foto's en kosten komen van de community, daarom vraagt WikiCamps gebruikers om verouderde dingen te bewerken of te melden, en daarom beslissen het bord op de plek en de pagina van de gemeente of van DOC waar je mag overnachten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wanneer je contact opneemt met de support van WikiCamps",
+          "body": [
+            "Als geen van de oplossingen werkt, mail dan naar support@wikicamps.co. Vermeld het model van je telefoon en de versie van het besturingssysteem, het e-mailadres van je WikiCamps-account en, bij een aankoopprobleem, je aankoopbewijs of Google Play-bestelnummer. WikiCamps zegt dat het beperkt kan zijn in wat het kan doen voor telefoons met een besturingssysteem dat het niet meer ondersteunt, dus controleer dat eerst.",
+            "De Facebook-gebruikersgroep is de andere plek om te kijken. Daar verwijst WikiCamps mensen naar voor praktijkervaring met de huidige app, en een probleem dat na een update begon, is daar meestal al door iemand anders gemeld."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Overstappen naar KiwiCamping in Nieuw-Zeeland",
+          "body": [
+            "Als je er genoeg van hebt, is KiwiCamping de Nieuw-Zeelandse app die wij maken, en die werkt anders. Er is geen apart account aan te maken: met iCloud aan synchroniseren opgeslagen plekken, collecties en reizen privé via je Apple-account. De 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campings</a>, 927 DOC-hutten en 1,453 DOC-wandelroutes komen uit de eigen gegevens van het Department of Conservation, met de kosten, hondenregels en boekingseisen van DOC en een link naar de pagina van DOC, en je kunt filters voor kosten, voorzieningen en honden combineren in één zoekopdracht.",
+            "Opgeslagen plekken worden een reis met stops op volgorde, data, notities en de afstand van de route. Plekgegevens blijven op de telefoon als je het bereik verliest; kaarttegels, routes, weer en foto's hebben een verbinding nodig. Wees duidelijk over de nadelen: KiwiCamping draait alleen op iPhone (iOS 26 of nieuwer), vermeldt veel minder plekken dan WikiCamps en heeft geen beoordelingen van reizigers, en er is geen import uit WikiCamps, dus een reis maak je opnieuw door de stops weer op te slaan. Onze vergelijking van <a data-guide=\"wikicamps-alternatives\">WikiCamps-alternatieven</a> zet KiwiCamping naast Rankers, CamperMate, Campable en Overland Navigator als je een bredere keuze wilt."
+          ],
+          "tips": [
+            "Alleen iPhone, iOS 26 of nieuwer",
+            "DOC-campings, -hutten en -wandelroutes uit de gegevens van DOC",
+            "Geen account: synchroniseert via iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Waarom werkt WikiCamps niet?",
+          "Meestal door een oude appversie, een niet-ondersteunde telefoon of een inlogprobleem. WikiCamps ondersteunt iOS 26 en Android 15 en nieuwer en blokkeert sinds maart 2026 versies die meer dan twee releases achterlopen. Werk de app bij, start de telefoon opnieuw op, probeer mobiele data in plaats van wifi, zet elke vpn uit en sta toegang tot je locatie toe."
+        ],
+        [
+          "Kan ik terug naar de oude WikiCamps-app?",
+          "Nee. WikiCamps zegt dat oudere versies sinds maart 2026 niet meer worden ondersteund of toegankelijk zijn, en de Windows-versie is er samen mee stopgezet. Versie 6 draait op iPhone, iPad en Android-telefoons en -tablets, en je reizen en favorieten synchroniseren via je WikiCamps-account."
+        ],
+        [
+          "Van wie is WikiCamps?",
+          "WikiCamps is opgericht door Russ en Cliff en in 2021 verkocht aan G'day Parks, een groep toeristenparken. De ontwikkelaar in de Nieuw-Zeelandse App Store is WikiCamps Pty Ltd, en boekingen via de app worden afgehandeld door de partner BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps-help: wat moet ik doen als WikiCamps niet goed werkt?"
+        },
+        {
+          "label": "WikiCamps-help: afgedwongen updates vanaf maart 2026"
+        },
+        {
+          "label": "WikiCamps-help: geschiedenis van versie-updates"
+        },
+        {
+          "label": "WikiCamps-help: kan ik terug naar de oude versie van de app?"
+        },
+        {
+          "label": "WikiCamps-help: ik kan niet inloggen bij WikiCamps"
+        },
+        {
+          "label": "WikiCamps-help: waarom heb ik nu een account nodig?"
+        },
+        {
+          "label": "WikiCamps-help: waarom is er geen pc-versie van WikiCamps?"
+        },
+        {
+          "label": "WikiCamps-help: de app start niet zonder internetverbinding"
+        },
+        {
+          "label": "Gegevens van WikiCamps Nieuw-Zeeland in de store (Apple, Nieuw-Zeelandse storefront)"
+        },
+        {
+          "label": "Camps Australia Wide: reactie op de verkoop van WikiCamps aan G'day Parks (oktober 2021)"
         }
       ],
       "priceTable": null
@@ -24479,306 +24968,5 @@
         ]
       }
     }
-  },
-  "consent": {
-    "label": "Privacykeuzes",
-    "text": "Mag KiwiCamping cookies van Google Analytics gebruiken om te zien welke pagina’s reizigers helpen? Ze worden nooit voor advertenties gebruikt.",
-    "accept": "Accepteren",
-    "decline": "Weigeren",
-    "policy": "Privacybeleid",
-    "choices": "Privacykeuzes"
-  },
-  "tools": {
-    "shared": {
-      "breadcrumbHome": "Home",
-      "breadcrumbTools": "Rekenhulpen",
-      "howTitle": "Zo werkt de berekening",
-      "exampleTitle": "Rekenvoorbeeld",
-      "assumptionsTitle": "Aannames",
-      "sourcesTitle": "Bronnen",
-      "faqTitle": "Veelgestelde vragen",
-      "guidesTitle": "Gerelateerde gidsen",
-      "otherToolsTitle": "Meer rekenhulpen voor je roadtrip",
-      "openTool": "Open de rekenhulp",
-      "ctaEyebrow": "Plan het in KiwiCamping",
-      "ctaTitle": "Vind je stops en reken het dan uit.",
-      "ctaText": "KiwiCamping is gratis te downloaden voor iPhone. Boekbare holiday parks, verblijven en tours zijn gratis in de app. DOC-campings, hutten, lozingspunten en de gidsen open je met de Pass.",
-      "ctaButton": "Download de app",
-      "enterValidValues": "Vul geldige waarden in",
-      "enterValidAmount": "Vul een geldig bedrag in"
-    },
-    "index": {
-      "metaTitle": "Rekenhulpen Nieuw-Zeeland: brandstof, rijtijd, campingkosten",
-      "metaDescription": "Gratis rekenhulpen voor je roadtrip door Nieuw-Zeeland: brandstofkosten, rijtijd per soort weg, campingkosten per persoon of per plek, NZD omrekenen en watertanks van een camper.",
-      "toolsTitle": "Eén rekenhulp per vraag",
-      "toolsText": "Elke rekenhulp heeft een eigen pagina met de formule, een rekenvoorbeeld met Nieuw-Zeelandse cijfers, de aannames erachter en antwoorden op veelgestelde vragen."
-    },
-    "fuel": {
-      "metaTitle": "Brandstofkosten berekenen: camperreis Nieuw-Zeeland",
-      "metaDescription": "Bereken liters en brandstofkosten voor je roadtrip door Nieuw-Zeeland uit afstand, l/100 km en pompprijs. Met formule, voorbeeld van 1.000 km en MBIE-referentieprijs.",
-      "eyebrow": "Rekenhulp brandstofkosten",
-      "cardEyebrow": "Brandstofkosten",
-      "h1": "Brandstofkosten berekenen voor een roadtrip door Nieuw-Zeeland",
-      "intro": "Vul de routeafstand in, het verbruik van je volgeladen voertuig en de prijs per liter. De standaardprijs is het landelijke gemiddelde van MBIE voor gewone 91-benzine: {fuelPrice} per liter in de week van {fuelDate}. Premium 95, diesel en de Road User Charges staan in de tabel hieronder.",
-      "cardTitle": "Wat kost die afstand aan brandstof?",
-      "cardText": "Vul de volledige routeafstand in, het verbruik van het volgeladen voertuig en de verwachte prijs per liter. Op afgelegen plekken kunnen de prijzen hoger liggen dan de referentieprijzen voor steden.",
-      "labelDistance": "Afstand (km)",
-      "labelConsumption": "Verbruik (l/100 km)",
-      "labelPrice": "Brandstofprijs (NZD/l)",
-      "formula": [
-        "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
-        "Kosten = liters × prijs per liter (NZD)"
-      ],
-      "formulaNote": "Het verbruik staat per 100 kilometer, dus delen door 100 geeft liters per kilometer. De som is lineair: bij dubbele afstand verdubbelen zowel de liters als de kosten.",
-      "example": "Een route van {distance} km in een camper met een verbruik van {consumption} l/100 km heeft {litres} liter brandstof nodig. Bij {price} per liter is dat {cost}.",
-      "assumptions": [
-        "De standaardprijs is een landelijke referentie. Afgelegen tankstations, onder meer aan de West Coast en in Fiordland, rekenen vaak meer, dus tank vol voordat je aan een lang stuk zonder plaatsen begint.",
-        "Reken met het verbruik van het voertuig waarin je echt rijdt, en dan volgeladen. Een volle camper verbruikt bergop en met tegenwind meer dan het cijfer in de folder.",
-        "Tel de ritjes rond elke stop erbij. Ritjes naar de supermarkt, uitzichtpunten en zijwegen lopen over een lange route flink op.",
-        "Dieselvoertuigen betalen bovenop de brandstof Road User Charges (RUC), een kilometerheffing, per 1.000 km. Deze rekenhulp telt alleen de brandstof."
-      ],
-      "faq": [
-        [
-          "Hoeveel brandstof verbruikt een camper in Nieuw-Zeeland?",
-          "Dat hangt af van het voertuig, de lading en de wegen. Zoek het officiële verbruik van het voertuig op bij Rightcar (rightcar.govt.nz) of vraag het aan het verhuurbedrijf, en reken wat extra voor heuvels en een volle lading. De standaard 12 l/100 km is een planningscijfer voor een beladen camper, geen gemeten gemiddelde."
-        ],
-        [
-          "Is een diesel- of benzinecamper goedkoper?",
-          "Diesel is goedkoper aan de pomp, maar een licht dieselvoertuig betaalt daarnaast Road User Charges van {ruc} per 1.000 km, die niet in de pompprijs en niet in deze rekenhulp zitten. Over 1.000 km bij 12 l/100 km is dat {dieselTotal} voor diesel inclusief RUC tegenover {petrolTotal} voor gewone 91, dus het hangt ervan af hoeveel minder de diesel verbruikt. Vraag het verhuurbedrijf of RUC in de prijs zit."
-        ],
-        [
-          "Wat kost benzine in Nieuw-Zeeland nu?",
-          "De landelijke gemiddelde prijzen van MBIE voor de week van {fuelDate} waren {fuelPrice} per liter voor gewone 91, {premiumPrice} voor premium 95 en {dieselPrice} voor diesel. De rekenhulp begint met de prijs van gewone 91. MBIE publiceert de prijzen elke week en afgelegen pompen vragen vaak meer, dus check het voordat je vertrekt."
-        ]
-      ],
-      "pricesTitle": "Actuele brandstofprijzen in Nieuw-Zeeland",
-      "pricesNote": "Landelijke gemiddelde pompprijzen van MBIE voor de week van {fuelDate}, voorlopig, in Nieuw-Zeelandse dollars per liter inclusief belastingen. Lichte dieselvoertuigen tot 3.500 kg betalen daarnaast Road User Charges (RUC) van {ruc} per 1.000 km, die niet in de pompprijs zitten.",
-      "pricesHead": [
-        "Brandstof",
-        "Prijs per liter",
-        "{distance} km bij {consumption} l/100 km"
-      ],
-      "fuelRegular": "Gewone 91-benzine",
-      "fuelPremium": "Premium 95-benzine",
-      "fuelDiesel": "Diesel",
-      "dieselRuc": "{cost} plus {ruc} RUC"
-    },
-    "drive": {
-      "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: uren per soort weg",
-      "metaDescription": "Schat hoe lang een rijdag in Nieuw-Zeeland echt duurt uit afstand, soort weg en stops, met formule, rekenvoorbeeld en de gebruikte snelheden.",
-      "eyebrow": "Rekenhulp rijtijd",
-      "cardEyebrow": "Rijdag inschatten",
-      "h1": "Rijtijd berekenen voor wegen in Nieuw-Zeeland",
-      "intro": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp rekent met de afstand die je al kent, een gemiddelde snelheid voor het soort weg en 20 minuten per stop. Juist door die stops loopt een rijdag in Nieuw-Zeeland meestal uit.",
-      "cardTitle": "Hoe lang die dag echt duurt.",
-      "cardText": "Route-apps geven de rijtijd op een ideale weg. Deze rekenhulp telt ook het soort weg en je echte stops mee, en juist daardoor loopt een dag meestal uit.",
-      "labelDistance": "Afstand (km)",
-      "labelRoadType": "Soort weg",
-      "roadMotorway": "Snelweg of lange rechte weg",
-      "roadHighway": "Hoofdweg",
-      "roadWinding": "Bochtig of langs de kust",
-      "roadNarrow": "Smal, steil of onverhard",
-      "labelStops": "Stops",
-      "hoursMinutes": "{hours} u {minutes} min",
-      "formula": [
-        "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
-        "Totaal aantal minuten = rijminuten + 20 × stops"
-      ],
-      "formulaNote": "De gemiddelde snelheid is niet de maximumsnelheid. Daarin zitten bochten, heuvels, eenbaansbruggen, dorpen en langzamer verkeer verrekend. De vier wegtypen rekenen met 85, 70, 60 en 45 km/u.",
-      "example": "Een dag van {distance} km over bochtige wegen of langs de kust met {speed} km/u is {driving} rijden. Tel {stops} stops van elk 20 minuten erbij en de dag duurt {total}.",
-      "assumptions": [
-        "De gemiddelde snelheden zijn planningscijfers voor een auto of camper bij goede omstandigheden, geen gemeten gemiddelden voor een bepaalde weg.",
-        "Elke stop telt als 20 minuten voor tanken, eten, een toilet of een uitzichtpunt. Veerboten, wegwerkzaamheden en lange wandelingen komen daar nog bovenop.",
-        "Het weer, aardverschuivingen en afsluitingen veranderen routes. Check de journey planner van NZTA voor de actuele toestand van de wegen voordat je vertrekt."
-      ],
-      "faq": [
-        [
-          "Hoe ver kun je in één dag rijden in Nieuw-Zeeland?",
-          "Daar bestaat geen vast getal voor. Bochtige wegen, eenbaansbruggen en stops houden de gemiddelde snelheid ruim onder de maximumsnelheid op open weg, dus een dag die op de kaart kort lijkt, kan het grootste deel van het daglicht kosten. Vul afstand en soort weg in om de uren te zien, en plan regelmatig een pauze."
-        ],
-        [
-          "Waarom duurt dit langer dan mijn kaartapp?",
-          "Kaartapps schatten de rijtijd zonder stops. Deze rekenhulp gebruikt een gemiddelde voor het soort weg en rekent tijd per stop erbij, en dat komt dichter bij hoe een kampeerdag echt verloopt."
-        ],
-        [
-          "Werkt het ook voor een camper?",
-          "Ja. Kies een langzamer wegtype als je in een groot voertuig rijdt, een aanhanger trekt of nog niet gewend bent aan links rijden."
-        ]
-      ],
-      "routesTitle": "Rijtijden tussen de belangrijkste plaatsen in Nieuw-Zeeland",
-      "routesNote": "Planningstijden zonder stops over de hoofdroute via de State Highways. Tel tijd op voor stops, wegwerkzaamheden en weer, en check bij NZTA of er wegen dicht zijn voordat je vertrekt.",
-      "routesHead": [
-        "Route",
-        "Afstand",
-        "Rijtijd"
-      ],
-      "routes": [
-        [
-          "Auckland naar Wellington",
-          "640 km",
-          "8 tot 8,5 uur"
-        ],
-        [
-          "Auckland naar de Bay of Islands",
-          "240 km",
-          "3 tot 3,5 uur"
-        ],
-        [
-          "Picton naar Christchurch via Kaikōura",
-          "Ongeveer 336 km",
-          "4,5 tot 5 uur"
-        ],
-        [
-          "Christchurch naar Queenstown via Tekapo",
-          "Ongeveer 480 km",
-          "Ongeveer 6 uur"
-        ],
-        [
-          "Christchurch naar Dunedin",
-          "360 km",
-          "Ongeveer 5 uur"
-        ],
-        [
-          "Queenstown naar Te Anau",
-          "170 km",
-          "Ongeveer 2 uur"
-        ],
-        [
-          "Te Anau naar Milford Sound",
-          "120 km",
-          "Ongeveer 2 uur"
-        ]
-      ]
-    },
-    "campsite": {
-      "metaTitle": "Campingkosten Nieuw-Zeeland: per persoon of per plek?",
-      "metaDescription": "Vergelijk een DOC-camping die per volwassene rekent met een holiday park dat per plek rekent, voor jouw groep en nachten, met formule, voorbeeld en DOC-tarieven uit de data.",
-      "eyebrow": "Rekenhulp campingkosten",
-      "cardEyebrow": "Campings vergelijken",
-      "h1": "Campingkosten berekenen: per persoon of per plek",
-      "intro": "DOC-campings rekenen per volwassene per nacht, een holiday park meestal per plek. Welke goedkoper is, wisselt met de grootte van je groep. Deze rekenhulp rekent het uit voor jouw nachten.",
-      "cardTitle": "Per persoon of per plek?",
-      "cardText": "Een DOC-camping rekent meestal per volwassene en een holiday park meestal per plek. Welke optie goedkoper is, wisselt met de groepsgrootte, en daar gaan gezinnen de mist mee in.",
-      "labelAdults": "Volwassenen",
-      "labelNights": "Nachten",
-      "labelPerAdult": "Per volwassene (NZD)",
-      "labelPerSite": "Per plek (NZD)",
-      "comparison": "{perAdult} tegenover {perSite} · {verdict}",
-      "theSame": "even duur",
-      "perAdultCheaper": "per volwassene is goedkoper",
-      "perSiteCheaper": "per plek is goedkoper",
-      "formula": [
-        "Totaal per volwassene = volwassenen × nachten × tarief per volwassene",
-        "Totaal per plek = nachten × tarief per plek",
-        "Het laagste totaal is de goedkoopste optie voor je groep"
-      ],
-      "formulaNote": "Het totaal per volwassene groeit met elke extra volwassene, het totaal per plek niet. Daarom verschilt het antwoord voor een stel en voor een gezin.",
-      "example": "{adults} volwassenen die {nights} nachten blijven, betalen bij {rateAdult} per volwassene {totalAdult}. Hetzelfde verblijf kost bij {rateSite} per plek {totalSite}, dus {verdict}.",
-      "assumptions": [
-        "Kinderen zijn niet meegerekend. Veel DOC-campings rekenen een lager tarief voor kinderen van 5 tot 17 jaar en niets voor baby’s, en holiday parks bepalen zelf hun kindertarieven.",
-        "De standaardtarieven zijn voorbeelden, geen prijsopgaven. In de DOC-data per {docDate} zijn {docFree} DOC-campings gratis, en het laagste tarief voor volwassenen bij de betaalde campings loopt uiteen van {docMin} tot {docMax} per nacht.",
-        "Holiday parks bepalen zelf hun prijzen, die wisselen met het seizoen, de stroom en de grootte van de plek. Check het park voordat je boekt."
-      ],
-      "faq": [
-        [
-          "Hoeveel kost een kampeerplek per nacht in Nieuw-Zeeland?",
-          "DOC-campings zijn gratis of rekenen per volwassene. In de DOC-data per {docDate} loopt het laagste tarief voor volwassenen bij betaalde DOC-campings uiteen van {docMin} tot {docMax} per nacht, met een mediaan van {docMedian}. Holiday parks bepalen zelf hun plekprijzen, dus vergelijk het totaal voor je groep."
-        ],
-        [
-          "Is per persoon of per plek goedkoper voor een gezin?",
-          "Per plek wint meestal naarmate de groep groter wordt, want de plekprijs blijft gelijk terwijl de kosten per volwassene zich vermenigvuldigen. Vul je eigen tarieven in om te zien waar het omslagpunt ligt."
-        ],
-        [
-          "Betalen kinderen op DOC-campings?",
-          "Op veel DOC-campings betalen kinderen van 5 tot 17 jaar een lager tarief en zijn baby’s gratis. Het tarief van elke camping staat op de DOC-pagina."
-        ]
-      ]
-    },
-    "currency": {
-      "metaTitle": "NZD omrekenen: Nieuw-Zeelandse prijzen in 9 valuta",
-      "metaDescription": "Reken prijzen in Nieuw-Zeelandse dollars om naar en van USD, EUR, GBP, AUD, JPY, CNY, KRW, INR en SGD met referentiekoersen van de Reserve Bank of New Zealand.",
-      "eyebrow": "Valuta omrekenen",
-      "cardEyebrow": "Valuta omrekenen",
-      "h1": "NZD omrekenen voor prijzen op je reis door Nieuw-Zeeland",
-      "intro": "Reken een Nieuw-Zeelandse prijs om naar je eigen valuta, of je eigen valuta naar Nieuw-Zeelandse dollars, met referentiekoersen van de Reserve Bank of New Zealand van {rateDate}.",
-      "cardTitle": "Reken een Nieuw-Zeelandse prijs om.",
-      "cardText": "Indicatieve omrekening voor je reisplanning, met koersen van de Reserve Bank of New Zealand van {rateDate}. Je bank of kaart kan een andere koers gebruiken en kosten rekenen.",
-      "labelAmount": "Bedrag",
-      "labelFrom": "Van",
-      "labelTo": "Naar",
-      "formula": [
-        "Bedrag in NZD = bedrag ÷ koers van de valuta waarvan je omrekent",
-        "Resultaat = bedrag in NZD × koers van de valuta waarnaar je omrekent"
-      ],
-      "formulaNote": "Elke koers is het aantal eenheden van die valuta per 1 Nieuw-Zeelandse dollar, dus elke omrekening loopt via NZD.",
-      "example": "{amount} tegen {rate} Amerikaanse dollar per Nieuw-Zeelandse dollar is {converted}.",
-      "assumptions": [
-        "Dit zijn referentiekoersen van {rateDate}. Wisselkoersen veranderen elke dag.",
-        "Banken, kaarten en geldautomaten gebruiken eigen koersen en kunnen kosten rekenen, dus het bedrag dat je betaalt kan afwijken.",
-        "Japanse yen en Koreaanse won worden zonder decimalen getoond."
-      ],
-      "faq": [
-        [
-          "Welke valuta wordt in Nieuw-Zeeland gebruikt?",
-          "De Nieuw-Zeelandse dollar (NZD). Prijzen in winkels, op campings en in holiday parks staan in NZD."
-        ],
-        [
-          "Is dit de koers die mijn bank me geeft?",
-          "Waarschijnlijk niet precies. De rekenhulp gebruikt referentiekoersen van {rateDate}. Je bank of kaartuitgever rekent een eigen koers en kosten, dus zie het resultaat als een planningscijfer."
-        ]
-      ]
-    },
-    "water": {
-      "metaTitle": "Watertank camper berekenen: dagen schoon water en grijswater",
-      "metaDescription": "Bereken hoeveel dagen de schoonwater- en grijswatertank van een camper meegaan voor jouw groep, met formule, rekenvoorbeeld en de dagcijfers erachter.",
-      "eyebrow": "Rekenhulp watertank",
-      "cardEyebrow": "Water en afvalwater plannen",
-      "h1": "Watertank camper berekenen",
-      "intro": "Een tankinhoud in liters wordt pas bruikbaar als je er dagen van maakt. Vul de inhoud van de schoonwater- en grijswatertank in en het aantal personen om te zien welke tank je limiet bepaalt.",
-      "cardTitle": "Hoeveel dagen kun je zonder voorzieningen?",
-      "cardText": "Een inhoud in liters wordt pas bruikbaar als je die in dagen uitdrukt. Schoon water en grijswater staan apart, want de tank die het eerst op is, bepaalt de limiet.",
-      "labelFresh": "Schoon water (l)",
-      "labelGrey": "Grijswater (l)",
-      "labelPeople": "Personen",
-      "days": "{fresh} dagen schoon water · {grey} dagen grijswater",
-      "formula": [
-        "Dagen schoon water = schoonwatertank (l) ÷ (personen × 11 l per dag)",
-        "Dagen grijswater = grijswatertank (l) ÷ (personen × 9 l per dag)",
-        "De laagste van de twee is hoe lang je kunt blijven staan voordat je moet bijvullen of legen"
-      ],
-      "formulaNote": "Grijswater is het afvalwater van gootsteen en douche. Het is minder dan het verbruik van schoon water, omdat drinkwater en kookwater niet allemaal in de tank terechtkomen.",
-      "example": "{people} personen met een schoonwatertank van {freshTank} liter en een grijswatertank van {greyTank} liter hebben {freshDays} dagen schoon water en {greyDays} dagen grijswater, dus de schoonwatertank bepaalt de limiet.",
-      "assumptions": [
-        "11 liter schoon water en 9 liter grijswater per persoon per dag zijn planningscijfers voor zuinig gebruik: drinken, koken, afwassen en een snelle wasbeurt. Douchen gebruikt veel meer.",
-        "Cassettetoiletten en zwartwater zijn niet meegerekend.",
-        "Loos grijswater alleen bij een lozingspunt. Nooit op de grond of in een regenwaterafvoer."
-      ],
-      "faq": [
-        [
-          "Hoe lang gaat 100 liter schoon water mee in een camper?",
-          "Voor twee zuinige gebruikers die elk 11 liter per dag gebruiken, ongeveer vier en een halve dag. Douchen en kleren wassen verkorten dat flink."
-        ],
-        [
-          "Waar kan ik grijswater lozen in Nieuw-Zeeland?",
-          "Bij een lozingspunt (dump station). Veel holiday parks hebben er een, en in veel plaatsen beheert de gemeente openbare lozingspunten. Loos grijswater nooit op de grond of in een regenwaterafvoer."
-        ],
-        [
-          "Welke tank is het eerst op?",
-          "Degene die voor jouw gebruik het kleinst is. Grijswatertanks zijn vaak kleiner dan schoonwatertanks, dus check beide en kijk niet alleen naar de meter van het schoonwater."
-        ]
-      ]
-    }
-  },
-  "answers": {
-    "doc-campsites-new-zealand-guide": "Is een hut of camping vol, dan toont KiwiCamping alle DOC-hutten en -campings in de buurt met hun categorie, tarief en of je ze kunt boeken.",
-    "campfire-rules-new-zealand": "KiwiCamping toont de voorzieningen van elke DOC-camping, ook of vuur is toegestaan, en de details van elke plek blijven zonder bereik leesbaar.",
-    "camping-wastewater-rubbish-new-zealand": "KiwiCamping zet 262 lozingspunten met hun tarieven op de kaart, zodat je de dichtstbijzijnde vindt voordat een tank vol is.",
-    "freedom-camping-rules-new-zealand": "KiwiCamping zet de meldingen van DOC over vrij kamperen op de kaart, zodat je vóór het parkeren ziet waar het op natuurterrein verboden of beperkt is.",
-    "where-to-camp-in-new-zealand": "KiwiCamping zet DOC-campings, hutten, holiday parks en plekken voor vrij kamperen op één kaart, met filters voor tarieven en voorzieningen.",
-    "doc-huts-new-zealand-guide": "KiwiCamping toont de DOC-hutten per regio met hun categorie, tarief en of je ze kunt boeken, onderweg op het pad ook zonder bereik leesbaar.",
-    "campervan-road-rules-new-zealand": "De reisplanner van KiwiCamping zet je stops op volgorde en toont de afstand ertussen, zodat elke rijdag met een camper te doen blijft.",
-    "east-cape-road-trip": "Bewaar de stops aan de East Cape in een KiwiCamping-reis om de routeafstand te zien en campings, data en notities op orde te houden.",
-    "tool:fuel": "Reizen in KiwiCamping tellen de routeafstand tussen je stops op, precies het getal dat deze rekenhulp nodig heeft.",
-    "tool:drive": "Stel de route samen in KiwiCamping om de afstand tussen je stops te zien en bereken hier de tijd voor elke rijdag."
   }
 }

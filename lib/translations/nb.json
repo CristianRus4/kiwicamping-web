@@ -224,6 +224,26 @@
     "costsBudget": "Kostnader og budsjett",
     "appGuides": "Appguider"
   },
+  "consent": {
+    "label": "Personvernvalg",
+    "text": "Kan KiwiCamping bruke informasjonskapsler fra Google Analytics for å se hvilke sider som hjelper de reisende? De brukes aldri til reklame.",
+    "accept": "Godta",
+    "decline": "Avslå",
+    "policy": "Personvernerklæring",
+    "choices": "Personvernvalg"
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Når en hytte eller campingplass er full, viser KiwiCamping alle DOC-hytter og -campingplasser i nærheten med kategori, pris og om de kan bookes.",
+    "campfire-rules-new-zealand": "KiwiCamping viser fasilitetene på hver DOC-campingplass, også om bål er tillatt, og stedsinformasjonen kan leses uten dekning.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping viser 262 tømmestasjoner med priser på kartet, så du finner den nærmeste før en tank er full.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping markerer DOCs kunngjøringer om freedom camping på kartet, så du ser hvor det er forbudt eller begrenset på verneområder før du parkerer.",
+    "where-to-camp-in-new-zealand": "KiwiCamping samler DOC-campingplasser, hytter, ferieparker og områder for freedom camping på ett kart, med filtre for priser og fasiliteter.",
+    "doc-huts-new-zealand-guide": "KiwiCamping viser DOC-hyttene per region med kategori, pris og om de kan bookes, og det kan leses uten dekning på stien.",
+    "campervan-road-rules-new-zealand": "Reiseplanleggeren i KiwiCamping setter stoppene dine i rekkefølge og viser avstanden mellom dem, så hver kjøredag blir overkommelig med bobil.",
+    "east-cape-road-trip": "Lagre stoppene på East Cape i en KiwiCamping-reise for å se rutens lengde og holde orden på campingplasser, datoer og notater.",
+    "tool:fuel": "Reiser i KiwiCamping legger sammen avstanden mellom stoppene dine, og det er akkurat det tallet denne kalkulatoren trenger.",
+    "tool:drive": "Bygg ruten i KiwiCamping for å se avstanden mellom stoppene, og regn så ut tiden for hver kjøredag her."
+  },
   "pages": {
     "support": {
       "title": "Hva kan vi hjelpe med?",
@@ -374,6 +394,287 @@
             "Spørsmål kan sendes til kundestøtten for KiwiCamping."
           ]
         }
+      ]
+    }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Hjem",
+      "breadcrumbTools": "Verktøy",
+      "howTitle": "Slik regnes det ut",
+      "exampleTitle": "Regneeksempel",
+      "assumptionsTitle": "Forutsetninger",
+      "sourcesTitle": "Kilder",
+      "faqTitle": "Vanlige spørsmål",
+      "guidesTitle": "Relaterte guider",
+      "otherToolsTitle": "Flere kalkulatorer for roadtrip",
+      "openTool": "Åpne kalkulatoren",
+      "ctaEyebrow": "Planlegg i KiwiCamping",
+      "ctaTitle": "Finn stoppene, og regn så på det.",
+      "ctaText": "KiwiCamping er gratis å laste ned til iPhone. Ferieparker, opphold og turer som kan bestilles, er gratis i appen. DOC-campingplasser, DOC-hytter, tømmestasjoner og guidene åpnes med Pass.",
+      "ctaButton": "Last ned appen",
+      "enterValidValues": "Skriv inn gyldige verdier",
+      "enterValidAmount": "Skriv inn et gyldig beløp"
+    },
+    "index": {
+      "metaTitle": "Roadtripkalkulatorer New Zealand: drivstoff, kjøretid, camping",
+      "metaDescription": "Gratis kalkulatorer for roadtrip på New Zealand: drivstoff, kjøretid etter veitype, campingpris per person eller plass, omregning av NZD og vanntanker i bobil.",
+      "toolsTitle": "Én kalkulator per spørsmål",
+      "toolsText": "Hver kalkulator har sin egen side med formelen, et regneeksempel med newzealandske tall, forutsetningene bak og svar på vanlige spørsmål."
+    },
+    "fuel": {
+      "metaTitle": "Drivstoffkalkulator New Zealand: bobil på roadtrip",
+      "metaDescription": "Regn ut liter og drivstoffkostnad for en roadtrip på New Zealand ut fra avstand, l/100 km og literpris, med formel, eksempel på 1 000 km og MBIEs referansepris.",
+      "eyebrow": "Drivstoffkalkulator",
+      "cardEyebrow": "Drivstoffkalkulator",
+      "h1": "Drivstoffkalkulator for roadtrip på New Zealand",
+      "intro": "Skriv inn lengden på ruten, forbruket til kjøretøyet med last og prisen per liter. Standardprisen er MBIEs nasjonale gjennomsnitt for vanlig 91-bensin: {fuelPrice} per liter i uken datert {fuelDate}. Premium 95, diesel og veibruksavgift står i tabellen nedenfor.",
+      "cardTitle": "Regn ut prisen på kjørestrekningen.",
+      "cardText": "Skriv inn lengden på hele ruten, kjøretøyets forbruk med last og forventet pris per liter. På avsidesliggende steder kan prisene ligge over referanseprisene i byene.",
+      "labelDistance": "Avstand (km)",
+      "labelConsumption": "Forbruk (l/100 km)",
+      "labelPrice": "Drivstoffpris (NZD/l)",
+      "formula": [
+        "Liter = avstand (km) × forbruk (l/100 km) ÷ 100",
+        "Kostnad = liter × pris per liter (NZD)"
+      ],
+      "formulaNote": "Forbruket oppgis per 100 kilometer, så når du deler på 100, får du liter per kilometer. Regnestykket er lineært: dobler du avstanden, dobles både litermengden og kostnaden.",
+      "example": "En rute på {distance} km i en bobil som bruker {consumption} l/100 km, trenger {litres} liter drivstoff. Til {price} per liter blir det {cost}.",
+      "assumptions": [
+        "Standardprisen er et nasjonalt referansetall. Avsidesliggende bensinstasjoner, blant annet på West Coast og i Fiordland, tar ofte mer, så fyll tanken før lange strekninger mellom tettstedene.",
+        "Bruk forbruket med last for kjøretøyet du faktisk kjører. En full bobil i bakker og motvind bruker mer enn brosjyretallet.",
+        "Legg til kjøringen rundt hvert stopp. Turer til matbutikken, utsiktspunkter og sideveier summerer seg på en lang rute.",
+        "Dieselkjøretøy betaler veibruksavgift (RUC) for hver 1 000 km, i tillegg til drivstoff. Kalkulatoren dekker bare drivstoff."
+      ],
+      "faq": [
+        [
+          "Hvor mye drivstoff bruker en bobil på New Zealand?",
+          "Det avhenger av kjøretøyet, lasten og veiene. Slå opp kjøretøyets offisielle tall på Rightcar (rightcar.govt.nz) eller spør utleieren, og legg til litt for bakker og full last. Standardverdien på 12 l/100 km er et planleggingstall for en lastet bobil, ikke et målt gjennomsnitt."
+        ],
+        [
+          "Er en diesel- eller bensinbobil billigst i drift?",
+          "Diesel er billigere ved pumpen, men et lett dieselkjøretøy betaler også veibruksavgift på {ruc} per 1 000 km, som verken pumpeprisen eller denne kalkulatoren tar med. På 1 000 km med 12 l/100 km blir det {dieselTotal} for diesel inkludert RUC mot {petrolTotal} for vanlig 91, så det avhenger av hvor mye mindre dieselen bruker. Spør utleieren om RUC er med i prisen."
+        ],
+        [
+          "Hva koster bensin i New Zealand nå?",
+          "MBIEs nasjonale gjennomsnittlige skiltpriser for uken datert {fuelDate} var {fuelPrice} per liter for vanlig 91, {premiumPrice} for premium 95 og {dieselPrice} for diesel. Kalkulatoren starter med prisen for vanlig 91. MBIE publiserer prisene hver uke, og avsidesliggende stasjoner tar ofte mer, så sjekk før du reiser."
+        ]
+      ],
+      "pricesTitle": "Aktuelle drivstoffpriser i New Zealand",
+      "pricesNote": "MBIEs nasjonale gjennomsnittlige pumpepriser for uken datert {fuelDate}, foreløpige, i newzealandske dollar per liter inkludert avgifter. Lette dieselkjøretøy opptil 3 500 kg betaler i tillegg veibruksavgift (RUC) på {ruc} per 1 000 km, som ikke er med i pumpeprisen.",
+      "pricesHead": [
+        "Drivstoff",
+        "Pris per liter",
+        "{distance} km med {consumption} l/100 km"
+      ],
+      "fuelRegular": "Vanlig 91-bensin",
+      "fuelPremium": "Premium 95-bensin",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} pluss {ruc} i RUC"
+    },
+    "drive": {
+      "metaTitle": "Kjøretidskalkulator New Zealand: timer etter veitype",
+      "metaDescription": "Anslå hvor lang en kjøredag på New Zealand egentlig tar, ut fra avstand, veitype og stopp, med formel, regneeksempel og de gjennomsnittsfartene som brukes.",
+      "eyebrow": "Kjøretidskalkulator",
+      "cardEyebrow": "Anslag for kjøredagen",
+      "h1": "Kjøretidskalkulator for veiene på New Zealand",
+      "intro": "Navigasjonsapper viser ren kjøretid på en ideell vei. Kalkulatoren bruker avstanden du allerede kjenner, en gjennomsnittsfart for veitypen og 20 minutter for hvert stopp, og det er som regel der en kjøredag på New Zealand drar ut.",
+      "cardTitle": "Hvor lang tid dagen egentlig tar.",
+      "cardText": "Navigasjonsapper viser ren kjøretid på en ideell vei. Her kommer veiens karakter og de faktiske stoppene i tillegg, og det er som regel der en dag drar ut.",
+      "labelDistance": "Avstand (km)",
+      "labelRoadType": "Veitype",
+      "roadMotorway": "Motorvei eller åpen, rett strekning",
+      "roadHighway": "Hovedvei",
+      "roadWinding": "Svingete vei eller kystvei",
+      "roadNarrow": "Smal, bratt eller grusvei",
+      "labelStops": "Stopp",
+      "hoursMinutes": "{hours} t {minutes} min",
+      "formula": [
+        "Kjøreminutter = avstand (km) ÷ gjennomsnittsfart (km/t) × 60",
+        "Totalt antall minutter = kjøreminutter + 20 × antall stopp"
+      ],
+      "formulaNote": "Gjennomsnittsfarten er ikke fartsgrensen. Den tar høyde for svinger, bakker, enfeltsbruer, tettsteder og saktere trafikk. De fire veitypene bruker 85, 70, 60 og 45 km/t.",
+      "example": "En dag på {distance} km på svingete veier eller kystveier i {speed} km/t gir {driving} kjøring. Legg til {stops} stopp på 20 minutter hver, så tar dagen {total}.",
+      "assumptions": [
+        "Gjennomsnittsfartene er planleggingstall for bil eller bobil under gode forhold, ikke målte gjennomsnitt for en bestemt vei.",
+        "Hvert stopp regnes som 20 minutter til drivstoff, mat, toalett eller utsiktspunkt. Ferjer, veiarbeid og lange gåturer må legges til i tillegg.",
+        "Vær, ras og stengte veier endrer rutene. Sjekk NZTAs reiseplanlegger for gjeldende veiforhold før du kjører."
+      ],
+      "faq": [
+        [
+          "Hvor langt kan du kjøre på en dag på New Zealand?",
+          "Det finnes ikke ett tall. Svingete veier, enfeltsbruer og stopp holder gjennomsnittsfarten godt under fartsgrensen på åpen vei, så en dag som ser kort ut på kartet, kan ta mesteparten av dagslyset. Skriv inn avstand og veitype for å se hvor mange timer det tar, og planlegg jevnlige hvilepauser."
+        ],
+        [
+          "Hvorfor tar det lengre tid her enn i kartappen?",
+          "Kartapper anslår ren kjøretid uten stopp. Her brukes et gjennomsnitt for veitypen, og det legges til tid for hvert stopp. Det ligger nærmere hvordan en campingdag faktisk blir."
+        ],
+        [
+          "Fungerer den for bobil?",
+          "Ja. Velg en saktere veitype hvis du kjører et stort kjøretøy, kjører med henger eller ikke er vant til å kjøre på venstre side."
+        ]
+      ],
+      "routesTitle": "Kjøretider mellom de største stedene i New Zealand",
+      "routesNote": "Planleggingstider uten stopp langs hovedruten på State Highways. Legg til tid for stopp, veiarbeid og vær, og sjekk hos NZTA om veier er stengt før du kjører.",
+      "routesHead": [
+        "Strekning",
+        "Avstand",
+        "Kjøretid"
+      ],
+      "routes": [
+        [
+          "Auckland til Wellington",
+          "640 km",
+          "8 til 8,5 timer"
+        ],
+        [
+          "Auckland til Bay of Islands",
+          "240 km",
+          "3 til 3,5 timer"
+        ],
+        [
+          "Picton til Christchurch via Kaikōura",
+          "Omtrent 336 km",
+          "4,5 til 5 timer"
+        ],
+        [
+          "Christchurch til Queenstown via Tekapo",
+          "Omtrent 480 km",
+          "Omtrent 6 timer"
+        ],
+        [
+          "Christchurch til Dunedin",
+          "360 km",
+          "Omtrent 5 timer"
+        ],
+        [
+          "Queenstown til Te Anau",
+          "170 km",
+          "Omtrent 2 timer"
+        ],
+        [
+          "Te Anau til Milford Sound",
+          "120 km",
+          "Omtrent 2 timer"
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Campingkalkulator New Zealand: per person eller per plass?",
+      "metaDescription": "Sammenlign en DOC-campingplass med pris per voksen og en feriepark med pris per plass for gruppen og nettene dine, med formel, regneeksempel og DOC-avgifter fra dataene.",
+      "eyebrow": "Kalkulator for campingkostnad",
+      "cardEyebrow": "Sammenligning av campingpriser",
+      "h1": "Kalkulator for campingkostnad: per person eller per plass",
+      "intro": "DOC-campingplasser tar betalt per voksen per natt, mens en feriepark vanligvis tar betalt per plass. Hvilken som er billigst, skifter med størrelsen på gruppen, og kalkulatoren regner det ut for nettene dine.",
+      "cardTitle": "Per person eller per plass?",
+      "cardText": "En DOC-campingplass tar vanligvis betalt per voksen og en feriepark vanligvis per plass. Det billigste alternativet skifter med gruppestørrelsen, noe som overrasker mange familier.",
+      "labelAdults": "Voksne",
+      "labelNights": "Netter",
+      "labelPerAdult": "Per voksen (NZD)",
+      "labelPerSite": "Per plass (NZD)",
+      "comparison": "{perAdult} mot {perSite} · {verdict}",
+      "theSame": "prisen er den samme",
+      "perAdultCheaper": "pris per voksen er billigst",
+      "perSiteCheaper": "pris per plass er billigst",
+      "formula": [
+        "Totalt per voksen = voksne × netter × pris per voksen",
+        "Totalt per plass = netter × pris per plass",
+        "Den laveste summen er det billigste alternativet for gruppen din"
+      ],
+      "formulaNote": "Summen per voksen vokser for hver ekstra voksen, mens summen per plass ikke gjør det. Derfor blir svaret et annet for et par enn for en familie.",
+      "example": "{adults} voksne som overnatter {nights} netter til {rateAdult} per voksen, betaler {totalAdult}. Samme opphold til {rateSite} per plass koster {totalSite}, så {verdict}.",
+      "assumptions": [
+        "Barn er ikke med. Mange DOC-campingplasser har redusert pris for alderen 5 til 17 år og ingen avgift for spedbarn, og ferieparkene setter egne barnepriser.",
+        "Standardsatsene er eksempler, ikke pristilbud. I DOC-dataene per {docDate} er {docFree} DOC-campingplasser gratis, og den laveste voksenprisen som er oppgitt på de betalte, varierer fra {docMin} til {docMax} per natt.",
+        "Ferieparkene setter egne priser, som endrer seg med sesong, strøm og størrelsen på plassen. Sjekk med parken før du bestiller."
+      ],
+      "faq": [
+        [
+          "Hva koster en campingplass per natt på New Zealand?",
+          "DOC-campingplasser er enten gratis eller tar betalt per voksen. I DOC-dataene per {docDate} varierer den laveste voksenprisen på betalte DOC-campingplasser fra {docMin} til {docMax} per natt, med en median på {docMedian}. Ferieparkene setter egne plasspriser, så sammenlign totalen for gruppen din."
+        ],
+        [
+          "Er det billigst per person eller per plass for en familie?",
+          "Per plass vinner som regel jo større gruppen blir, fordi plassprisen er den samme mens prisen per voksen ganges opp. Skriv inn egne satser for å se hvor skjæringspunktet ligger."
+        ],
+        [
+          "Betaler barn på DOC-campingplasser?",
+          "På mange DOC-campingplasser betaler barn fra 5 til 17 år redusert pris, og spedbarn er gratis. Prisen for hver campingplass står på DOC-siden."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Valutakalkulator NZD: newzealandske priser i 9 valutaer",
+      "metaDescription": "Regn newzealandske dollar til og fra USD, EUR, GBP, AUD, JPY, CNY, KRW, INR og SGD med referansekurser fra Reserve Bank of New Zealand.",
+      "eyebrow": "Valutakalkulator",
+      "cardEyebrow": "Valutakalkulator",
+      "h1": "Valutakalkulator for NZD: priser på turen til New Zealand",
+      "intro": "Regn om en newzealandsk pris til din egen valuta, eller din valuta til newzealandske dollar, med referansekurser fra Reserve Bank of New Zealand fra {rateDate}.",
+      "cardTitle": "Regn om en newzealandsk pris.",
+      "cardText": "Referanseomregning til bruk i turplanleggingen, med kurser fra Reserve Bank of New Zealand fra {rateDate}. Banken eller kortet ditt kan bruke en annen kurs og legge på gebyrer.",
+      "labelAmount": "Beløp",
+      "labelFrom": "Fra",
+      "labelTo": "Til",
+      "formula": [
+        "Beløp i NZD = beløp ÷ kursen til valutaen du regner fra",
+        "Resultat = beløp i NZD × kursen til valutaen du regner til"
+      ],
+      "formulaNote": "Hver kurs er antall enheter av valutaen per 1 newzealandsk dollar, så alle omregninger går via NZD.",
+      "example": "{amount} blir {converted} med en kurs på {rate} amerikanske dollar per newzealandsk dollar.",
+      "assumptions": [
+        "Dette er referansekurser fra {rateDate}. Valutakursene endrer seg hver dag.",
+        "Banker, kort og minibanker bruker egne kurser og kan legge på gebyrer, så beløpet du betaler, kan avvike.",
+        "Japanske yen og koreanske won vises uten desimaler."
+      ],
+      "faq": [
+        [
+          "Hvilken valuta brukes på New Zealand?",
+          "Newzealandsk dollar (NZD). Priser i butikker, på campingplasser og i ferieparker oppgis i NZD."
+        ],
+        [
+          "Er dette kursen banken min gir meg?",
+          "Sannsynligvis ikke helt. Her brukes referansekurser fra {rateDate}. Banken eller kortselskapet bruker sin egen kurs og egne gebyrer, så se på resultatet som et planleggingstall."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Vanntankkalkulator for bobil: dager med ferskvann og gråvann",
+      "metaDescription": "Regn ut hvor mange dager ferskvanns- og gråvannstankene i en bobil rekker for gruppen din, med formel, regneeksempel og dagstallene bak.",
+      "eyebrow": "Vanntankkalkulator",
+      "cardEyebrow": "Planlegger for vann og spillvann",
+      "h1": "Vanntankkalkulator for bobil",
+      "intro": "En tankstørrelse i liter blir først nyttig når den er regnet om til dager. Skriv inn kapasiteten for ferskvann og gråvann og antall personer for å se hvilken tank som setter grensen.",
+      "cardTitle": "Hvor mange dager du klarer deg før du må fylle eller tømme.",
+      "cardText": "Kapasitet i liter blir først nyttig når den oppgis i dager. Ferskvann og gråvann vises hver for seg, fordi den tanken som går tom først, setter grensen.",
+      "labelFresh": "Ferskvann (l)",
+      "labelGrey": "Gråvann (l)",
+      "labelPeople": "Personer",
+      "days": "{fresh} dager ferskvann · {grey} dager gråvann",
+      "formula": [
+        "Dager med ferskvann = ferskvannstank (l) ÷ (personer × 11 l per dag)",
+        "Dager med gråvann = gråvannstank (l) ÷ (personer × 9 l per dag)",
+        "Det laveste av de to tallene er hvor lenge du kan bli før du må fylle eller tømme"
+      ],
+      "formulaNote": "Gråvann er spillvannet fra vasker og dusjer. Mengden er lavere enn ferskvannsforbruket, fordi ikke alt drikkevann og vann til matlaging havner i tanken.",
+      "example": "{people} personer med en ferskvannstank på {freshTank} liter og en gråvannstank på {greyTank} liter har {freshDays} dager med ferskvann og {greyDays} dager med gråvann, så ferskvannstanken setter grensen.",
+      "assumptions": [
+        "11 liter ferskvann og 9 liter gråvann per person per dag er planleggingstall for nøysom bruk: drikke, matlaging, oppvask og en rask vask. Dusjing bruker langt mer.",
+        "Toalettkassetter og svartvann er ikke med.",
+        "Tøm gråvann bare på en tømmestasjon. Aldri på bakken eller i et overvannssluk."
+      ],
+      "faq": [
+        [
+          "Hvor lenge varer 100 liter ferskvann i en bobil?",
+          "For to som bruker vann nøysomt, med 11 liter hver per dag, omtrent fire og en halv dag. Dusjing og klesvask gjør det mye kortere."
+        ],
+        [
+          "Hvor kan jeg tømme gråvann på New Zealand?",
+          "På en tømmestasjon. Mange ferieparker har en, og kommunene driver offentlige i mange byer. Tøm aldri gråvann på bakken eller i et overvannssluk."
+        ],
+        [
+          "Hvilken tank går tom først?",
+          "Den som er minst i forhold til bruken din. Gråvannstanker er ofte mindre enn ferskvannstanker, så sjekk begge i stedet for bare ferskvannsmåleren."
+        ]
       ]
     }
   },
@@ -8815,6 +9116,194 @@
         },
         {
           "label": "DOC: steder å overnatte"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "Fungerer ikke WikiCamps på New Zealand? Løsninger for pålogging, oppdateringer og forsvunne turer (2026)",
+      "description": "Åpner ikke WikiCamps New Zealand, ber det deg logge inn om og om igjen eller tvinger det fram en oppdatering? Løsningene fra WikiCamps' eget hjelpesenter, svar om den gamle versjonen og pc-versjonen, og hvem som eier det nå.",
+      "region": "New Zealand",
+      "imageAlt": "Utleiebobiler parkert på en våt parkeringsplass langs veien under skogkledde åser",
+      "intro": "WikiCamps New Zealand har endret seg mer de siste to årene enn i tiåret før. Versjon 6 bygde om appen fra grunnen av, alle brukere trenger nå en konto, og siden mars 2026 nekter en app som har havnet for langt bak å åpne før du oppdaterer den. De fleste problemene folk søker etter kommer fra disse tre endringene, og de fleste kan løses på noen minutter fra en campingplass med én strek dekning. Løsningene nedenfor kommer fra WikiCamps' eget hjelpesenter, lest 9. november 2026. Vi lager KiwiCamping, en annen campingapp for New Zealand, så avsnittet om å bytte på slutten er vårt eget; alt før det skal få WikiCamps til å fungere igjen.",
+      "sections": [
+        {
+          "heading": "Raske løsninger når WikiCamps ikke laster",
+          "body": [
+            "Begynn med telefonen, ikke appen. WikiCamps sier at den støtter iOS 26 og nyere på iPhone og iPad og Android 15 og nyere. Appen kan fortsatt la seg installere på et eldre system, men WikiCamps sier at den ikke kan love at alle funksjoner virker der, eller feilsøke det. På en iPhone finner du det under Innstillinger, Generelt, Programvareoppdatering; på Android under Innstillinger, Om telefonen.",
+            "Hvis telefonen er oppdatert og WikiCamps likevel henger på lasting eller viser feilen \"Could not retrieve data\", gir hjelpesenteret den samme korte listen for begge: installer den nyeste versjonen fra appbutikken, start telefonen på nytt, bytt fra wifi til mobildata, slå av alle VPN-er, og la WikiCamps bruke posisjonen din. Å avinstallere og installere på nytt er det siste trinnet, og er bare verdt det når turene dine er synkronisert til kontoen din, for en ominstallering starter telefonen fra null."
+          ],
+          "tips": [
+            "iOS 26 eller Android 15 og nyere",
+            "Prøv mobildata i stedet for campingplassens wifi",
+            "Installer på nytt først når turene dine er synkronisert"
+          ],
+          "table": {
+            "caption": "Fra WikiCamps' hjelpesenter (support.wikicamps.co), lest 9. november 2026.",
+            "head": [
+              "Problem",
+              "Vanlig årsak",
+              "Hva du kan prøve"
+            ],
+            "rows": [
+              [
+                "Henger på lasting eller \"Could not retrieve data\"",
+                "Gammel appversjon, svakt wifi, en VPN eller posisjon slått av",
+                "Oppdater, start på nytt, bruk mobildata, VPN av, tillat posisjon"
+              ],
+              [
+                "Ber om pålogging om og om igjen",
+                "Telefonen tømmer appens data eller begrenser den i bakgrunnen",
+                "Slå av batterioptimalisering og opprydningsapper for WikiCamps"
+              ],
+              [
+                "Ingen bekreftelseskode",
+                "E-posten er filtrert eller forsinket",
+                "Sjekk søppelpost og vent 10 til 15 minutter"
+              ],
+              [
+                "Blir bedt om å betale på nytt",
+                "Logget inn med en annen konto eller butikk-ID enn den som betalte",
+                "Bruk den opprinnelige kontoen; gjenopprett med samme Apple-ID"
+              ],
+              [
+                "Turer eller favoritter mangler",
+                "Logget inn på en annen WikiCamps-konto",
+                "Logg inn med den opprinnelige e-posten og la den synkronisere"
+              ],
+              [
+                "Åpner ikke uten dekning",
+                "Frakoblet modus var ikke slått på før dekningen forsvant",
+                "Last ned offline-innhold og slå på frakoblet modus i byen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hvorfor WikiCamps ber deg logge inn eller opprette en konto",
+          "body": [
+            "Den ombygde appen er basert på kontoer. WikiCamps sier at en konto lar turene, favorittene, anmeldelsene og andre lagrede data dine synkroniseres mellom enheter og overleve en ny telefon eller en ominstallering, og at det også er slik appen sjekker at du har betalt. Hvis du brukte den gamle appen uten noen gang å registrere deg, må du nå opprette en konto; og hvis du ikke er sikker på om du gjorde det, foreslår WikiCamps at du prøver \"Forgot your password?\" med e-postadressen din: ingen e-post for tilbakestilling betyr ingen konto under den adressen.",
+            "Bekreftelseskoder kommer fra Microsofts påloggingstjeneste på vegne av WikiCamps, så se etter en avsender som heter \"Microsoft on behalf of WikiCamps\" med et emne om en bekreftelseskode for e-postadressen til en WikiCamps-konto. WikiCamps sier at du skal sjekke søppelposten og vente 10 til 15 minutter, og at kundestøtteteamet ikke kan sende en kode manuelt. Hvis appen fortsetter å be deg logge inn etter at du har gjort det, legger WikiCamps skylden på telefonen heller enn appen: batterioptimalisering, bakgrunnsbegrensninger, automatisk tømming av appdata og opprydningsapper fra tredjeparter kan alle slette den lagrede økten."
+          ],
+          "tips": [
+            "Koder kommer fra Microsoft på vegne av WikiCamps",
+            "La WikiCamps kjøre i bakgrunnen",
+            "Bruk e-posten du først registrerte deg med"
+          ]
+        },
+        {
+          "heading": "Har du betalt, men blir bedt om å betale på nytt",
+          "body": [
+            "WikiCamps sjekker kjøpet ditt gjennom kontoen du logger inn med og butikken du kjøpte i. På en iPhone må du passe på at App Store er logget inn med Apple-ID-en som kjøpte WikiCamps, og deretter laste den ned på nytt fra App Store. På Android sier WikiCamps at en ny eller annen konto kan skjule et eldre kjøp; hvis kjøpsskjermen ikke forsvinner, kan du sende kundestøtteteamet Google Play-ordrenummeret ditt fra Betalinger og abonnementer i Play Store, så aktiverer de appen.",
+            "Kjøp blir også værende hos butikken sin. Å bytte fra Android til iPhone, eller omvendt, betyr å kjøpe WikiCamps på nytt, selv om kontodataene dine følger med når du logger inn. Og WikiCamps New Zealand og WikiCamps Australia er separate apper som kjøpes hver for seg, så den ene låser ikke opp den andre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Den påtvungne oppdateringen fra mars 2026",
+          "body": [
+            "Siden mars 2026 blokkerer WikiCamps versjoner som ligger mer enn to utgivelser bak. Åpner du en versjon som ikke støttes, ber den deg oppdatere fra appbutikken før du kan fortsette; en versjon som fortsatt støttes, viser et varsel i appen og lar deg oppdatere senere. WikiCamps' side \"Version Update History\" markerer hvilke versjoner som støttes: da vi sjekket 9. november 2026, var det 6.3.0 og 6.2.4 til 6.2.5, og den newzealandske App Store tilbød allerede 6.3.1.",
+            "Den praktiske risikoen på New Zealand er å bli bedt om å oppdatere der det ikke er dekning til det. Lange strekninger av West Coast, Fiordland og Catlins har ingen dekning, så oppdater i den siste byen med god mottak, last deretter ned WikiCamps' offline-innhold og slå på frakoblet modus fra menyen før du drar. WikiCamps lister opp et kjent problem: helt uten tilkobling kan Explore-siden stoppe opp før du rekker menyen for å slå på frakoblet modus, og frakoblet modus er foreløpig bare for visning: ingen nye turer eller redigering av turer før du er tilbake i dekning."
+          ],
+          "tips": [
+            "Mer enn to utgivelser bak betyr blokkert",
+            "Oppdater i byen, ikke på campingplassen",
+            "Slå på frakoblet modus før dekningen forsvinner"
+          ]
+        },
+        {
+          "heading": "Kan du gå tilbake til den gamle versjonen av WikiCamps?",
+          "body": [
+            "Nei. WikiCamps sier at eldre versjoner ikke lenger støttes eller er tilgjengelige fra mars 2026, og appbutikkene tilbyr bare den nåværende utgaven. Begrunnelsen er at den forrige appen var bygget på en plattform som ikke kunne vedlikeholdes for langsiktige oppdateringer, så versjon 6 ble bygget om fra grunnen av, med de første versjon 6-utgivelsene i november 2024.",
+            "Mange av klagene på den nye appen handler om ting som er flyttet, ikke forsvunnet. Listene dine med likte, stjernemerkede, besøkte og vil-besøke-steder ligger nå nederst på fanen Home. Filteralternativene ble forenklet med vilje, så noen av de gamle utelukkelsesbryterne er borte, og WikiCamps ber folk som var avhengige av dem, om å si fra til kundestøtteteamet. Hvis steder ser ut til å mangle på kartet, foreslår den at du fjerner alle aktive filtre og zoomer inn, fordi kartet bare viser et begrenset antall resultater om gangen. WikiCamps sier selv at mange av de siste negative anmeldelsene gjelder overgangen til den ombygde appen, og at den gjeninnfører viktige funksjoner over tid."
+          ],
+          "tips": [
+            "Favoritter ligger nå under Collections",
+            "Fjern filtre hvis steder forsvinner",
+            "Lagrede filtre blir på hver enhet"
+          ]
+        },
+        {
+          "heading": "Finnes det en pc- eller Windows-versjon av WikiCamps?",
+          "body": [
+            "Ikke lenger. WikiCamps' Windows-app var versjon 5 og ble lagt ned sammen med de andre gamle versjonene. Versjon 6 kjører bare på iPhone, iPad og Android-telefoner og -nettbrett. WikiCamps bemerker at noen kjører mobilapper på en datamaskin via en emulator, men det støtter den ikke. Hvis du planlegger turer på en stor skjerm, er et nettbrett logget inn på samme konto den støttede måten, siden turer synkroniseres via kontoen din.",
+            "Én avslutning til er verdt å kjenne til hvis venner fra utlandet bruker WikiCamps. Den separate appen for Storbritannia, USA og Canada sluttet å bli støttet 30. mars 2026 og trekkes tilbake fra appbutikkene; nye registreringer og pålogginger ble slått av. Det påvirker ikke WikiCamps New Zealand."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hvem eier WikiCamps nå?",
+          "body": [
+            "WikiCamps ble bygget av et lite grunnleggerteam, Russ og Cliff og familiene deres, og vokste på stedene dens egne brukere la til. I 2021 solgte de det til G'day Parks, en gruppe turistparker, og utvikleren i den newzealandske App Store i dag er WikiCamps Pty Ltd. Bookinger gjort med knappen \"Book Now\" håndteres av bookingpartneren, BookEasy (Book Australia), så endringer og refusjoner går til dem og ikke til WikiCamps.",
+            "Forretningsmodellen er fortsatt et engangskjøp. WikiCamps sier at det ikke er noe abonnement, og den newzealandske App Store listet WikiCamps New Zealand til NZ$7.99 da vi sjekket 9. november 2026. Den har også lagt til et lite antall annonser i delene for anmeldelser, avgifter og bilder for å dekke driftskostnader. Opplysninger om steder, bilder og avgifter kommer fra fellesskapet, og derfor ber WikiCamps brukerne rette eller melde fra om noe utdatert, og derfor er det skiltet på stedet og kommunens eller DOCs side som avgjør hvor du kan overnatte."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Når du bør kontakte WikiCamps' kundestøtte",
+          "body": [
+            "Hvis ingen av løsningene virker, send e-post til support@wikicamps.co. Oppgi telefonmodell og versjon av operativsystemet, e-postadressen til WikiCamps-kontoen din og, ved et kjøpsproblem, kjøpsbeviset eller Google Play-ordrenummeret ditt. WikiCamps sier at den kan være begrenset i hva den kan gjøre for telefoner med et operativsystem den ikke lenger støtter, så sjekk det først.",
+            "Facebook-brukergruppen er det andre stedet å se. Dit henviser WikiCamps folk for å høre om den virkelige opplevelsen av den nåværende appen, og et problem som startet etter en oppdatering, er vanligvis allerede meldt av noen andre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bytte til KiwiCamping på New Zealand",
+          "body": [
+            "Hvis du har fått nok, er KiwiCamping den newzealandske appen vi lager, og den fungerer annerledes. Det er ingen egen konto å opprette: med iCloud slått på synkroniseres lagrede steder, samlinger og turer privat gjennom Apple-kontoen din. De 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassene</a>, 927 DOC-hyttene og 1,453 DOC-rutene kommer fra Department of Conservations egne data, med DOCs avgifter, hunderegler og bookingkrav og en lenke til DOCs side, og du kan kombinere filtre for pris, fasiliteter og hunder i ett søk.",
+            "Lagrede steder blir til en tur med stopp i rekkefølge, datoer, notater og rutens lengde. Stedsdetaljer blir på telefonen når du mister dekningen; kartfliser, ruteveiledning, vær og bilder krever tilkobling. Vær tydelig på avveiningene: KiwiCamping kjører bare på iPhone (iOS 26 eller nyere), har langt færre steder enn WikiCamps og ingen reiseanmeldelser, og det finnes ingen import fra WikiCamps, så en tur gjenskaper du ved å lagre stoppene på nytt. Sammenligningen vår av <a data-guide=\"wikicamps-alternatives\">alternativer til WikiCamps</a> setter KiwiCamping ved siden av Rankers, CamperMate, Campable og Overland Navigator hvis du vil ha et bredere utvalg."
+          ],
+          "tips": [
+            "Bare iPhone, iOS 26 eller nyere",
+            "DOC-campingplasser, -hytter og -ruter fra DOCs data",
+            "Ingen konto: synkroniserer via iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvorfor fungerer ikke WikiCamps?",
+          "Vanligvis på grunn av en gammel appversjon, en telefon som ikke støttes, eller et påloggingsproblem. WikiCamps støtter iOS 26 og Android 15 og nyere og blokkerer siden mars 2026 versjoner som ligger mer enn to utgivelser bak. Oppdater appen, start telefonen på nytt, prøv mobildata i stedet for wifi, slå av alle VPN-er og tillat tilgang til posisjon."
+        ],
+        [
+          "Kan jeg gå tilbake til den gamle WikiCamps-appen?",
+          "Nei. WikiCamps sier at eldre versjoner ikke lenger støttes eller er tilgjengelige fra mars 2026, og Windows-versjonen ble lagt ned sammen med dem. Versjon 6 kjører på iPhone, iPad og Android-telefoner og -nettbrett, og turene og favorittene dine synkroniseres via WikiCamps-kontoen din."
+        ],
+        [
+          "Hvem eier WikiCamps?",
+          "WikiCamps ble grunnlagt av Russ og Cliff og solgt i 2021 til G'day Parks, en gruppe turistparker. Utvikleren i den newzealandske App Store er WikiCamps Pty Ltd, og bookinger gjennom appen håndteres av partneren BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps hjelp: Hva bør jeg gjøre hvis WikiCamps ikke fungerer som det skal?"
+        },
+        {
+          "label": "WikiCamps hjelp: Påtvungne oppdateringer fra mars 2026"
+        },
+        {
+          "label": "WikiCamps hjelp: Historikk over versjonsoppdateringer"
+        },
+        {
+          "label": "WikiCamps hjelp: Kan jeg gå tilbake til å bruke den gamle versjonen av appen?"
+        },
+        {
+          "label": "WikiCamps hjelp: Jeg kan ikke logge inn på WikiCamps"
+        },
+        {
+          "label": "WikiCamps hjelp: Hvorfor trenger jeg en konto nå?"
+        },
+        {
+          "label": "WikiCamps hjelp: Hvorfor finnes det ingen pc-versjon av WikiCamps?"
+        },
+        {
+          "label": "WikiCamps hjelp: Appen starter ikke uten internettilkobling"
+        },
+        {
+          "label": "Opplysninger om WikiCamps New Zealand i butikken (Apple, newzealandsk storefront)"
+        },
+        {
+          "label": "Camps Australia Wide: kommentar om salget av WikiCamps til G'day Parks (oktober 2021)"
         }
       ],
       "priceTable": null
@@ -24450,306 +24939,5 @@
         ]
       }
     }
-  },
-  "consent": {
-    "label": "Personvernvalg",
-    "text": "Kan KiwiCamping bruke informasjonskapsler fra Google Analytics for å se hvilke sider som hjelper de reisende? De brukes aldri til reklame.",
-    "accept": "Godta",
-    "decline": "Avslå",
-    "policy": "Personvernerklæring",
-    "choices": "Personvernvalg"
-  },
-  "tools": {
-    "shared": {
-      "breadcrumbHome": "Hjem",
-      "breadcrumbTools": "Verktøy",
-      "howTitle": "Slik regnes det ut",
-      "exampleTitle": "Regneeksempel",
-      "assumptionsTitle": "Forutsetninger",
-      "sourcesTitle": "Kilder",
-      "faqTitle": "Vanlige spørsmål",
-      "guidesTitle": "Relaterte guider",
-      "otherToolsTitle": "Flere kalkulatorer for roadtrip",
-      "openTool": "Åpne kalkulatoren",
-      "ctaEyebrow": "Planlegg i KiwiCamping",
-      "ctaTitle": "Finn stoppene, og regn så på det.",
-      "ctaText": "KiwiCamping er gratis å laste ned til iPhone. Ferieparker, opphold og turer som kan bestilles, er gratis i appen. DOC-campingplasser, DOC-hytter, tømmestasjoner og guidene åpnes med Pass.",
-      "ctaButton": "Last ned appen",
-      "enterValidValues": "Skriv inn gyldige verdier",
-      "enterValidAmount": "Skriv inn et gyldig beløp"
-    },
-    "index": {
-      "metaTitle": "Roadtripkalkulatorer New Zealand: drivstoff, kjøretid, camping",
-      "metaDescription": "Gratis kalkulatorer for roadtrip på New Zealand: drivstoff, kjøretid etter veitype, campingpris per person eller plass, omregning av NZD og vanntanker i bobil.",
-      "toolsTitle": "Én kalkulator per spørsmål",
-      "toolsText": "Hver kalkulator har sin egen side med formelen, et regneeksempel med newzealandske tall, forutsetningene bak og svar på vanlige spørsmål."
-    },
-    "fuel": {
-      "metaTitle": "Drivstoffkalkulator New Zealand: bobil på roadtrip",
-      "metaDescription": "Regn ut liter og drivstoffkostnad for en roadtrip på New Zealand ut fra avstand, l/100 km og literpris, med formel, eksempel på 1 000 km og MBIEs referansepris.",
-      "eyebrow": "Drivstoffkalkulator",
-      "cardEyebrow": "Drivstoffkalkulator",
-      "h1": "Drivstoffkalkulator for roadtrip på New Zealand",
-      "intro": "Skriv inn lengden på ruten, forbruket til kjøretøyet med last og prisen per liter. Standardprisen er MBIEs nasjonale gjennomsnitt for vanlig 91-bensin: {fuelPrice} per liter i uken datert {fuelDate}. Premium 95, diesel og veibruksavgift står i tabellen nedenfor.",
-      "cardTitle": "Regn ut prisen på kjørestrekningen.",
-      "cardText": "Skriv inn lengden på hele ruten, kjøretøyets forbruk med last og forventet pris per liter. På avsidesliggende steder kan prisene ligge over referanseprisene i byene.",
-      "labelDistance": "Avstand (km)",
-      "labelConsumption": "Forbruk (l/100 km)",
-      "labelPrice": "Drivstoffpris (NZD/l)",
-      "formula": [
-        "Liter = avstand (km) × forbruk (l/100 km) ÷ 100",
-        "Kostnad = liter × pris per liter (NZD)"
-      ],
-      "formulaNote": "Forbruket oppgis per 100 kilometer, så når du deler på 100, får du liter per kilometer. Regnestykket er lineært: dobler du avstanden, dobles både litermengden og kostnaden.",
-      "example": "En rute på {distance} km i en bobil som bruker {consumption} l/100 km, trenger {litres} liter drivstoff. Til {price} per liter blir det {cost}.",
-      "assumptions": [
-        "Standardprisen er et nasjonalt referansetall. Avsidesliggende bensinstasjoner, blant annet på West Coast og i Fiordland, tar ofte mer, så fyll tanken før lange strekninger mellom tettstedene.",
-        "Bruk forbruket med last for kjøretøyet du faktisk kjører. En full bobil i bakker og motvind bruker mer enn brosjyretallet.",
-        "Legg til kjøringen rundt hvert stopp. Turer til matbutikken, utsiktspunkter og sideveier summerer seg på en lang rute.",
-        "Dieselkjøretøy betaler veibruksavgift (RUC) for hver 1 000 km, i tillegg til drivstoff. Kalkulatoren dekker bare drivstoff."
-      ],
-      "faq": [
-        [
-          "Hvor mye drivstoff bruker en bobil på New Zealand?",
-          "Det avhenger av kjøretøyet, lasten og veiene. Slå opp kjøretøyets offisielle tall på Rightcar (rightcar.govt.nz) eller spør utleieren, og legg til litt for bakker og full last. Standardverdien på 12 l/100 km er et planleggingstall for en lastet bobil, ikke et målt gjennomsnitt."
-        ],
-        [
-          "Er en diesel- eller bensinbobil billigst i drift?",
-          "Diesel er billigere ved pumpen, men et lett dieselkjøretøy betaler også veibruksavgift på {ruc} per 1 000 km, som verken pumpeprisen eller denne kalkulatoren tar med. På 1 000 km med 12 l/100 km blir det {dieselTotal} for diesel inkludert RUC mot {petrolTotal} for vanlig 91, så det avhenger av hvor mye mindre dieselen bruker. Spør utleieren om RUC er med i prisen."
-        ],
-        [
-          "Hva koster bensin i New Zealand nå?",
-          "MBIEs nasjonale gjennomsnittlige skiltpriser for uken datert {fuelDate} var {fuelPrice} per liter for vanlig 91, {premiumPrice} for premium 95 og {dieselPrice} for diesel. Kalkulatoren starter med prisen for vanlig 91. MBIE publiserer prisene hver uke, og avsidesliggende stasjoner tar ofte mer, så sjekk før du reiser."
-        ]
-      ],
-      "pricesTitle": "Aktuelle drivstoffpriser i New Zealand",
-      "pricesNote": "MBIEs nasjonale gjennomsnittlige pumpepriser for uken datert {fuelDate}, foreløpige, i newzealandske dollar per liter inkludert avgifter. Lette dieselkjøretøy opptil 3 500 kg betaler i tillegg veibruksavgift (RUC) på {ruc} per 1 000 km, som ikke er med i pumpeprisen.",
-      "pricesHead": [
-        "Drivstoff",
-        "Pris per liter",
-        "{distance} km med {consumption} l/100 km"
-      ],
-      "fuelRegular": "Vanlig 91-bensin",
-      "fuelPremium": "Premium 95-bensin",
-      "fuelDiesel": "Diesel",
-      "dieselRuc": "{cost} pluss {ruc} i RUC"
-    },
-    "drive": {
-      "metaTitle": "Kjøretidskalkulator New Zealand: timer etter veitype",
-      "metaDescription": "Anslå hvor lang en kjøredag på New Zealand egentlig tar, ut fra avstand, veitype og stopp, med formel, regneeksempel og de gjennomsnittsfartene som brukes.",
-      "eyebrow": "Kjøretidskalkulator",
-      "cardEyebrow": "Anslag for kjøredagen",
-      "h1": "Kjøretidskalkulator for veiene på New Zealand",
-      "intro": "Navigasjonsapper viser ren kjøretid på en ideell vei. Kalkulatoren bruker avstanden du allerede kjenner, en gjennomsnittsfart for veitypen og 20 minutter for hvert stopp, og det er som regel der en kjøredag på New Zealand drar ut.",
-      "cardTitle": "Hvor lang tid dagen egentlig tar.",
-      "cardText": "Navigasjonsapper viser ren kjøretid på en ideell vei. Her kommer veiens karakter og de faktiske stoppene i tillegg, og det er som regel der en dag drar ut.",
-      "labelDistance": "Avstand (km)",
-      "labelRoadType": "Veitype",
-      "roadMotorway": "Motorvei eller åpen, rett strekning",
-      "roadHighway": "Hovedvei",
-      "roadWinding": "Svingete vei eller kystvei",
-      "roadNarrow": "Smal, bratt eller grusvei",
-      "labelStops": "Stopp",
-      "hoursMinutes": "{hours} t {minutes} min",
-      "formula": [
-        "Kjøreminutter = avstand (km) ÷ gjennomsnittsfart (km/t) × 60",
-        "Totalt antall minutter = kjøreminutter + 20 × antall stopp"
-      ],
-      "formulaNote": "Gjennomsnittsfarten er ikke fartsgrensen. Den tar høyde for svinger, bakker, enfeltsbruer, tettsteder og saktere trafikk. De fire veitypene bruker 85, 70, 60 og 45 km/t.",
-      "example": "En dag på {distance} km på svingete veier eller kystveier i {speed} km/t gir {driving} kjøring. Legg til {stops} stopp på 20 minutter hver, så tar dagen {total}.",
-      "assumptions": [
-        "Gjennomsnittsfartene er planleggingstall for bil eller bobil under gode forhold, ikke målte gjennomsnitt for en bestemt vei.",
-        "Hvert stopp regnes som 20 minutter til drivstoff, mat, toalett eller utsiktspunkt. Ferjer, veiarbeid og lange gåturer må legges til i tillegg.",
-        "Vær, ras og stengte veier endrer rutene. Sjekk NZTAs reiseplanlegger for gjeldende veiforhold før du kjører."
-      ],
-      "faq": [
-        [
-          "Hvor langt kan du kjøre på en dag på New Zealand?",
-          "Det finnes ikke ett tall. Svingete veier, enfeltsbruer og stopp holder gjennomsnittsfarten godt under fartsgrensen på åpen vei, så en dag som ser kort ut på kartet, kan ta mesteparten av dagslyset. Skriv inn avstand og veitype for å se hvor mange timer det tar, og planlegg jevnlige hvilepauser."
-        ],
-        [
-          "Hvorfor tar det lengre tid her enn i kartappen?",
-          "Kartapper anslår ren kjøretid uten stopp. Her brukes et gjennomsnitt for veitypen, og det legges til tid for hvert stopp. Det ligger nærmere hvordan en campingdag faktisk blir."
-        ],
-        [
-          "Fungerer den for bobil?",
-          "Ja. Velg en saktere veitype hvis du kjører et stort kjøretøy, kjører med henger eller ikke er vant til å kjøre på venstre side."
-        ]
-      ],
-      "routesTitle": "Kjøretider mellom de største stedene i New Zealand",
-      "routesNote": "Planleggingstider uten stopp langs hovedruten på State Highways. Legg til tid for stopp, veiarbeid og vær, og sjekk hos NZTA om veier er stengt før du kjører.",
-      "routesHead": [
-        "Strekning",
-        "Avstand",
-        "Kjøretid"
-      ],
-      "routes": [
-        [
-          "Auckland til Wellington",
-          "640 km",
-          "8 til 8,5 timer"
-        ],
-        [
-          "Auckland til Bay of Islands",
-          "240 km",
-          "3 til 3,5 timer"
-        ],
-        [
-          "Picton til Christchurch via Kaikōura",
-          "Omtrent 336 km",
-          "4,5 til 5 timer"
-        ],
-        [
-          "Christchurch til Queenstown via Tekapo",
-          "Omtrent 480 km",
-          "Omtrent 6 timer"
-        ],
-        [
-          "Christchurch til Dunedin",
-          "360 km",
-          "Omtrent 5 timer"
-        ],
-        [
-          "Queenstown til Te Anau",
-          "170 km",
-          "Omtrent 2 timer"
-        ],
-        [
-          "Te Anau til Milford Sound",
-          "120 km",
-          "Omtrent 2 timer"
-        ]
-      ]
-    },
-    "campsite": {
-      "metaTitle": "Campingkalkulator New Zealand: per person eller per plass?",
-      "metaDescription": "Sammenlign en DOC-campingplass med pris per voksen og en feriepark med pris per plass for gruppen og nettene dine, med formel, regneeksempel og DOC-avgifter fra dataene.",
-      "eyebrow": "Kalkulator for campingkostnad",
-      "cardEyebrow": "Sammenligning av campingpriser",
-      "h1": "Kalkulator for campingkostnad: per person eller per plass",
-      "intro": "DOC-campingplasser tar betalt per voksen per natt, mens en feriepark vanligvis tar betalt per plass. Hvilken som er billigst, skifter med størrelsen på gruppen, og kalkulatoren regner det ut for nettene dine.",
-      "cardTitle": "Per person eller per plass?",
-      "cardText": "En DOC-campingplass tar vanligvis betalt per voksen og en feriepark vanligvis per plass. Det billigste alternativet skifter med gruppestørrelsen, noe som overrasker mange familier.",
-      "labelAdults": "Voksne",
-      "labelNights": "Netter",
-      "labelPerAdult": "Per voksen (NZD)",
-      "labelPerSite": "Per plass (NZD)",
-      "comparison": "{perAdult} mot {perSite} · {verdict}",
-      "theSame": "prisen er den samme",
-      "perAdultCheaper": "pris per voksen er billigst",
-      "perSiteCheaper": "pris per plass er billigst",
-      "formula": [
-        "Totalt per voksen = voksne × netter × pris per voksen",
-        "Totalt per plass = netter × pris per plass",
-        "Den laveste summen er det billigste alternativet for gruppen din"
-      ],
-      "formulaNote": "Summen per voksen vokser for hver ekstra voksen, mens summen per plass ikke gjør det. Derfor blir svaret et annet for et par enn for en familie.",
-      "example": "{adults} voksne som overnatter {nights} netter til {rateAdult} per voksen, betaler {totalAdult}. Samme opphold til {rateSite} per plass koster {totalSite}, så {verdict}.",
-      "assumptions": [
-        "Barn er ikke med. Mange DOC-campingplasser har redusert pris for alderen 5 til 17 år og ingen avgift for spedbarn, og ferieparkene setter egne barnepriser.",
-        "Standardsatsene er eksempler, ikke pristilbud. I DOC-dataene per {docDate} er {docFree} DOC-campingplasser gratis, og den laveste voksenprisen som er oppgitt på de betalte, varierer fra {docMin} til {docMax} per natt.",
-        "Ferieparkene setter egne priser, som endrer seg med sesong, strøm og størrelsen på plassen. Sjekk med parken før du bestiller."
-      ],
-      "faq": [
-        [
-          "Hva koster en campingplass per natt på New Zealand?",
-          "DOC-campingplasser er enten gratis eller tar betalt per voksen. I DOC-dataene per {docDate} varierer den laveste voksenprisen på betalte DOC-campingplasser fra {docMin} til {docMax} per natt, med en median på {docMedian}. Ferieparkene setter egne plasspriser, så sammenlign totalen for gruppen din."
-        ],
-        [
-          "Er det billigst per person eller per plass for en familie?",
-          "Per plass vinner som regel jo større gruppen blir, fordi plassprisen er den samme mens prisen per voksen ganges opp. Skriv inn egne satser for å se hvor skjæringspunktet ligger."
-        ],
-        [
-          "Betaler barn på DOC-campingplasser?",
-          "På mange DOC-campingplasser betaler barn fra 5 til 17 år redusert pris, og spedbarn er gratis. Prisen for hver campingplass står på DOC-siden."
-        ]
-      ]
-    },
-    "currency": {
-      "metaTitle": "Valutakalkulator NZD: newzealandske priser i 9 valutaer",
-      "metaDescription": "Regn newzealandske dollar til og fra USD, EUR, GBP, AUD, JPY, CNY, KRW, INR og SGD med referansekurser fra Reserve Bank of New Zealand.",
-      "eyebrow": "Valutakalkulator",
-      "cardEyebrow": "Valutakalkulator",
-      "h1": "Valutakalkulator for NZD: priser på turen til New Zealand",
-      "intro": "Regn om en newzealandsk pris til din egen valuta, eller din valuta til newzealandske dollar, med referansekurser fra Reserve Bank of New Zealand fra {rateDate}.",
-      "cardTitle": "Regn om en newzealandsk pris.",
-      "cardText": "Referanseomregning til bruk i turplanleggingen, med kurser fra Reserve Bank of New Zealand fra {rateDate}. Banken eller kortet ditt kan bruke en annen kurs og legge på gebyrer.",
-      "labelAmount": "Beløp",
-      "labelFrom": "Fra",
-      "labelTo": "Til",
-      "formula": [
-        "Beløp i NZD = beløp ÷ kursen til valutaen du regner fra",
-        "Resultat = beløp i NZD × kursen til valutaen du regner til"
-      ],
-      "formulaNote": "Hver kurs er antall enheter av valutaen per 1 newzealandsk dollar, så alle omregninger går via NZD.",
-      "example": "{amount} blir {converted} med en kurs på {rate} amerikanske dollar per newzealandsk dollar.",
-      "assumptions": [
-        "Dette er referansekurser fra {rateDate}. Valutakursene endrer seg hver dag.",
-        "Banker, kort og minibanker bruker egne kurser og kan legge på gebyrer, så beløpet du betaler, kan avvike.",
-        "Japanske yen og koreanske won vises uten desimaler."
-      ],
-      "faq": [
-        [
-          "Hvilken valuta brukes på New Zealand?",
-          "Newzealandsk dollar (NZD). Priser i butikker, på campingplasser og i ferieparker oppgis i NZD."
-        ],
-        [
-          "Er dette kursen banken min gir meg?",
-          "Sannsynligvis ikke helt. Her brukes referansekurser fra {rateDate}. Banken eller kortselskapet bruker sin egen kurs og egne gebyrer, så se på resultatet som et planleggingstall."
-        ]
-      ]
-    },
-    "water": {
-      "metaTitle": "Vanntankkalkulator for bobil: dager med ferskvann og gråvann",
-      "metaDescription": "Regn ut hvor mange dager ferskvanns- og gråvannstankene i en bobil rekker for gruppen din, med formel, regneeksempel og dagstallene bak.",
-      "eyebrow": "Vanntankkalkulator",
-      "cardEyebrow": "Planlegger for vann og spillvann",
-      "h1": "Vanntankkalkulator for bobil",
-      "intro": "En tankstørrelse i liter blir først nyttig når den er regnet om til dager. Skriv inn kapasiteten for ferskvann og gråvann og antall personer for å se hvilken tank som setter grensen.",
-      "cardTitle": "Hvor mange dager du klarer deg før du må fylle eller tømme.",
-      "cardText": "Kapasitet i liter blir først nyttig når den oppgis i dager. Ferskvann og gråvann vises hver for seg, fordi den tanken som går tom først, setter grensen.",
-      "labelFresh": "Ferskvann (l)",
-      "labelGrey": "Gråvann (l)",
-      "labelPeople": "Personer",
-      "days": "{fresh} dager ferskvann · {grey} dager gråvann",
-      "formula": [
-        "Dager med ferskvann = ferskvannstank (l) ÷ (personer × 11 l per dag)",
-        "Dager med gråvann = gråvannstank (l) ÷ (personer × 9 l per dag)",
-        "Det laveste av de to tallene er hvor lenge du kan bli før du må fylle eller tømme"
-      ],
-      "formulaNote": "Gråvann er spillvannet fra vasker og dusjer. Mengden er lavere enn ferskvannsforbruket, fordi ikke alt drikkevann og vann til matlaging havner i tanken.",
-      "example": "{people} personer med en ferskvannstank på {freshTank} liter og en gråvannstank på {greyTank} liter har {freshDays} dager med ferskvann og {greyDays} dager med gråvann, så ferskvannstanken setter grensen.",
-      "assumptions": [
-        "11 liter ferskvann og 9 liter gråvann per person per dag er planleggingstall for nøysom bruk: drikke, matlaging, oppvask og en rask vask. Dusjing bruker langt mer.",
-        "Toalettkassetter og svartvann er ikke med.",
-        "Tøm gråvann bare på en tømmestasjon. Aldri på bakken eller i et overvannssluk."
-      ],
-      "faq": [
-        [
-          "Hvor lenge varer 100 liter ferskvann i en bobil?",
-          "For to som bruker vann nøysomt, med 11 liter hver per dag, omtrent fire og en halv dag. Dusjing og klesvask gjør det mye kortere."
-        ],
-        [
-          "Hvor kan jeg tømme gråvann på New Zealand?",
-          "På en tømmestasjon. Mange ferieparker har en, og kommunene driver offentlige i mange byer. Tøm aldri gråvann på bakken eller i et overvannssluk."
-        ],
-        [
-          "Hvilken tank går tom først?",
-          "Den som er minst i forhold til bruken din. Gråvannstanker er ofte mindre enn ferskvannstanker, så sjekk begge i stedet for bare ferskvannsmåleren."
-        ]
-      ]
-    }
-  },
-  "answers": {
-    "doc-campsites-new-zealand-guide": "Når en hytte eller campingplass er full, viser KiwiCamping alle DOC-hytter og -campingplasser i nærheten med kategori, pris og om de kan bookes.",
-    "campfire-rules-new-zealand": "KiwiCamping viser fasilitetene på hver DOC-campingplass, også om bål er tillatt, og stedsinformasjonen kan leses uten dekning.",
-    "camping-wastewater-rubbish-new-zealand": "KiwiCamping viser 262 tømmestasjoner med priser på kartet, så du finner den nærmeste før en tank er full.",
-    "freedom-camping-rules-new-zealand": "KiwiCamping markerer DOCs kunngjøringer om freedom camping på kartet, så du ser hvor det er forbudt eller begrenset på verneområder før du parkerer.",
-    "where-to-camp-in-new-zealand": "KiwiCamping samler DOC-campingplasser, hytter, ferieparker og områder for freedom camping på ett kart, med filtre for priser og fasiliteter.",
-    "doc-huts-new-zealand-guide": "KiwiCamping viser DOC-hyttene per region med kategori, pris og om de kan bookes, og det kan leses uten dekning på stien.",
-    "campervan-road-rules-new-zealand": "Reiseplanleggeren i KiwiCamping setter stoppene dine i rekkefølge og viser avstanden mellom dem, så hver kjøredag blir overkommelig med bobil.",
-    "east-cape-road-trip": "Lagre stoppene på East Cape i en KiwiCamping-reise for å se rutens lengde og holde orden på campingplasser, datoer og notater.",
-    "tool:fuel": "Reiser i KiwiCamping legger sammen avstanden mellom stoppene dine, og det er akkurat det tallet denne kalkulatoren trenger.",
-    "tool:drive": "Bygg ruten i KiwiCamping for å se avstanden mellom stoppene, og regn så ut tiden for hver kjøredag her."
   }
 }

@@ -253,6 +253,26 @@
     "review9Country": "Irlande",
     "review9Quote": "Six personnes, deux vans, personne n’a eu à demander où on dormait ensuite. Tout réorganiser quand la météo a tourné a été facile, ce à quoi je ne m’attendais pas."
   },
+  "consent": {
+    "label": "Choix de confidentialité",
+    "text": "Acceptez-vous que KiwiCamping utilise les cookies de Google Analytics pour savoir quelles pages sont utiles aux voyageurs ? Ils ne servent jamais à la publicité.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "policy": "Politique de confidentialité",
+    "choices": "Choix de confidentialité"
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Quand un refuge ou un camping est complet, KiwiCamping affiche tous les refuges et campings du DOC à proximité, avec leur catégorie, leur tarif et la possibilité ou non de réserver.",
+    "campfire-rules-new-zealand": "KiwiCamping affiche les équipements de chaque camping du DOC, y compris si les feux sont autorisés, et les fiches des lieux restent lisibles sans réseau.",
+    "camping-wastewater-rubbish-new-zealand": "KiwiCamping place sur la carte 262 aires de vidange avec leurs tarifs, pour trouver la plus proche avant qu'un réservoir soit plein.",
+    "freedom-camping-rules-new-zealand": "KiwiCamping signale sur la carte les avis du DOC sur le camping libre, pour voir avant de vous garer où il est interdit ou limité sur les terres protégées.",
+    "where-to-camp-in-new-zealand": "KiwiCamping réunit sur une carte les campings et refuges du DOC, les holiday parks et les zones de camping libre, avec des filtres par tarif et par équipement.",
+    "doc-huts-new-zealand-guide": "KiwiCamping liste les refuges du DOC par région, avec leur catégorie, leur tarif et la possibilité ou non de réserver, lisibles sans réseau sur le sentier.",
+    "campervan-road-rules-new-zealand": "Le planificateur de KiwiCamping met vos étapes dans l'ordre et affiche la distance entre elles, pour que chaque journée de route reste raisonnable en camping-car.",
+    "east-cape-road-trip": "Enregistrez les étapes de l'East Cape dans un voyage KiwiCamping pour voir la distance du parcours et garder campings, dates et notes en ordre.",
+    "tool:fuel": "Les voyages KiwiCamping additionnent la distance entre vos étapes, le chiffre dont ce calculateur a besoin.",
+    "tool:drive": "Tracez l'itinéraire dans KiwiCamping pour voir la distance entre vos étapes, puis calculez ici la durée de chaque journée de route."
+  },
   "pages": {
     "support": {
       "title": "Comment pouvons-nous vous aider ?",
@@ -405,14 +425,6 @@
       ],
       "effective": "En vigueur depuis le 12 août 2026"
     }
-  },
-  "consent": {
-    "label": "Choix de confidentialité",
-    "text": "Acceptez-vous que KiwiCamping utilise les cookies de Google Analytics pour savoir quelles pages sont utiles aux voyageurs ? Ils ne servent jamais à la publicité.",
-    "accept": "Accepter",
-    "decline": "Refuser",
-    "policy": "Politique de confidentialité",
-    "choices": "Choix de confidentialité"
   },
   "tools": {
     "shared": {
@@ -9133,6 +9145,194 @@
         },
         {
           "label": "DOC : où séjourner"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps ne fonctionne pas en Nouvelle-Zélande ? Solutions pour la connexion, les mises à jour et les voyages perdus (2026)",
+      "description": "WikiCamps Nouvelle-Zélande ne s'ouvre pas, vous redemande de vous connecter ou impose une mise à jour ? Les solutions du centre d'aide de WikiCamps, les questions sur l'ancienne version et le PC, et à qui appartient l'appli aujourd'hui.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "Vans de location garés sur un parking détrempé au bord de la route, au pied de collines couvertes de forêt",
+      "intro": "WikiCamps Nouvelle-Zélande a plus changé ces deux dernières années que pendant toute la décennie précédente. La version 6 a reconstruit l'appli de zéro, chaque utilisateur a maintenant besoin d'un compte, et depuis mars 2026 une appli trop en retard refuse de s'ouvrir tant que vous ne l'avez pas mise à jour. La plupart des problèmes que les gens recherchent viennent de ces trois changements, et la plupart se règlent en quelques minutes depuis un camping où il reste une barre de réseau. Les solutions ci-dessous viennent du centre d'aide de WikiCamps, consulté le 9 novembre 2026. Nous faisons KiwiCamping, une autre appli de camping pour la Nouvelle-Zélande : la section finale sur le changement d'appli est donc la nôtre, et tout ce qui la précède vise à remettre WikiCamps en marche.",
+      "sections": [
+        {
+          "heading": "Solutions rapides quand WikiCamps ne charge pas",
+          "body": [
+            "Commencez par le téléphone, pas par l'appli. WikiCamps indique qu'elle prend en charge iOS 26 et suivants sur iPhone et iPad, et Android 15 et suivants. L'appli peut encore s'installer sur un système plus ancien, mais WikiCamps dit ne pas pouvoir garantir que toutes les fonctions y marchent ni dépanner dessus. Sur un iPhone, regardez dans Réglages, Général, Mise à jour logicielle ; sur Android, dans Paramètres, À propos du téléphone.",
+            "Si le téléphone est à jour et que WikiCamps reste bloquée au chargement ou affiche l'erreur « Could not retrieve data », son centre d'aide donne la même courte liste dans les deux cas : installer la dernière version depuis votre magasin d'applis, redémarrer le téléphone, passer du Wi-Fi aux données mobiles, désactiver tout VPN et autoriser WikiCamps à utiliser votre position. Désinstaller puis réinstaller est la dernière étape, et ne vaut la peine qu'une fois vos voyages synchronisés avec votre compte, car une réinstallation repart de zéro sur le téléphone."
+          ],
+          "tips": [
+            "iOS 26 ou Android 15 et suivants",
+            "Essayez les données mobiles plutôt que le Wi-Fi du camping",
+            "Ne réinstallez qu'une fois vos voyages synchronisés"
+          ],
+          "table": {
+            "caption": "Tiré du centre d'aide de WikiCamps (support.wikicamps.co), consulté le 9 novembre 2026.",
+            "head": [
+              "Problème",
+              "Cause habituelle",
+              "Que faire"
+            ],
+            "rows": [
+              [
+                "Bloquée au chargement ou « Could not retrieve data »",
+                "Ancienne version de l'appli, Wi-Fi faible, VPN ou position désactivée",
+                "Mettre à jour, redémarrer, utiliser les données mobiles, couper le VPN, autoriser la position"
+              ],
+              [
+                "Demande de connexion à répétition",
+                "Le téléphone efface les données de l'appli ou la limite en arrière-plan",
+                "Désactiver l'optimisation de la batterie et les applis de nettoyage pour WikiCamps"
+              ],
+              [
+                "Pas de code de vérification",
+                "L'e-mail est filtré ou retardé",
+                "Vérifier les indésirables et attendre 10 à 15 minutes"
+              ],
+              [
+                "Demande de payer à nouveau",
+                "Connecté avec un autre compte ou un autre identifiant de magasin que celui qui a payé",
+                "Utiliser le compte d'origine ; restaurer avec le même identifiant Apple"
+              ],
+              [
+                "Voyages ou favoris manquants",
+                "Connecté à un autre compte WikiCamps",
+                "Se connecter avec l'e-mail d'origine et laisser synchroniser"
+              ],
+              [
+                "Ne s'ouvre pas sans réseau",
+                "Le mode hors ligne n'était pas activé avant la perte du signal",
+                "Télécharger le contenu hors ligne et activer le mode hors ligne en ville"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pourquoi WikiCamps demande de se connecter ou de créer un compte",
+          "body": [
+            "L'appli reconstruite fonctionne avec des comptes. WikiCamps explique qu'un compte permet à vos voyages, favoris, avis et autres données enregistrées de se synchroniser entre appareils et de survivre à un nouveau téléphone ou à une réinstallation, et que c'est aussi ainsi que l'appli vérifie que vous avez payé. Si vous utilisiez l'ancienne appli sans jamais vous inscrire, il faut maintenant créer un compte ; et si vous ne savez pas si vous en avez créé un, WikiCamps conseille d'essayer « Forgot your password? » avec votre e-mail : pas d'e-mail de réinitialisation, pas de compte sous cette adresse.",
+            "Les codes de vérification viennent du service de connexion de Microsoft pour le compte de WikiCamps. Cherchez donc un expéditeur nommé « Microsoft on behalf of WikiCamps » avec un objet parlant d'un code de vérification de l'e-mail d'un compte WikiCamps. WikiCamps recommande de vérifier les indésirables et de patienter 10 à 15 minutes, et précise que son équipe d'assistance ne peut pas envoyer un code à la main. Si l'appli continue de vous demander de vous connecter alors que vous l'avez fait, WikiCamps l'attribue au téléphone plutôt qu'à l'appli : l'optimisation de la batterie, les restrictions en arrière-plan, l'effacement automatique des données des applis et les applis de nettoyage tierces peuvent supprimer la session enregistrée."
+          ],
+          "tips": [
+            "Les codes viennent de Microsoft pour le compte de WikiCamps",
+            "Autorisez WikiCamps à tourner en arrière-plan",
+            "Utilisez l'e-mail avec lequel vous vous êtes inscrit au départ"
+          ]
+        },
+        {
+          "heading": "Déjà payé mais on vous demande de payer à nouveau",
+          "body": [
+            "WikiCamps vérifie votre achat via le compte avec lequel vous vous connectez et le magasin où vous avez acheté. Sur un iPhone, assurez-vous que l'App Store est connecté à l'identifiant Apple qui a acheté WikiCamps, puis retéléchargez l'appli depuis l'App Store. Sur Android, WikiCamps explique qu'un compte nouveau ou différent peut masquer un achat plus ancien ; si l'écran d'achat ne disparaît pas, envoyez à son équipe d'assistance votre numéro de commande Google Play, que vous trouverez dans Paiements et abonnements sur le Play Store, et elle activera l'appli.",
+            "Les achats restent aussi liés à leur magasin. Passer d'Android à un iPhone, ou l'inverse, oblige à racheter WikiCamps, même si les données de votre compte vous suivent dès que vous vous connectez. Et WikiCamps Nouvelle-Zélande et WikiCamps Australie sont deux applis distinctes, achetées chacune de son côté : l'une ne débloque pas l'autre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "La mise à jour forcée de mars 2026",
+          "body": [
+            "Depuis mars 2026, WikiCamps bloque les versions en retard de plus de deux publications. Si vous ouvrez une version non prise en charge, l'appli vous demande de la mettre à jour depuis le magasin d'applis avant de continuer ; une version encore prise en charge affiche un avis dans l'appli et vous laisse mettre à jour plus tard. La page « Version Update History » de WikiCamps indique quelles versions sont prises en charge : quand nous avons vérifié le 9 novembre 2026, c'étaient la 6.3.0 et de la 6.2.4 à la 6.2.5, et l'App Store néo-zélandais proposait déjà la 6.3.1.",
+            "Le risque concret en Nouvelle-Zélande, c'est qu'on vous demande de mettre à jour là où il n'y a pas de réseau pour le faire. De longs tronçons de la West Coast, du Fiordland et des Catlins n'ont aucune couverture : mettez donc à jour dans la dernière ville bien couverte, puis téléchargez le contenu hors ligne de WikiCamps et activez le mode hors ligne depuis le menu avant de partir. WikiCamps signale un problème connu : sans aucune connexion, la page Explore peut se bloquer avant que vous n'atteigniez le menu pour activer le mode hors ligne ; et son mode hors ligne est pour l'instant en lecture seule : pas de nouveaux voyages ni de modification de voyages avant de retrouver du réseau."
+          ],
+          "tips": [
+            "Plus de deux publications de retard : blocage",
+            "Mettez à jour en ville, pas au camping",
+            "Activez le mode hors ligne avant de perdre le signal"
+          ]
+        },
+        {
+          "heading": "Peut-on revenir à l'ancienne version de WikiCamps ?",
+          "body": [
+            "Non. WikiCamps indique que les anciennes versions ne sont plus prises en charge ni accessibles depuis mars 2026, et les magasins d'applis ne proposent que la version actuelle. La raison : l'appli précédente reposait sur une plateforme impossible à maintenir pour des mises à jour à long terme, si bien que la version 6 a été reconstruite de zéro, avec les premières versions 6 en novembre 2024.",
+            "Beaucoup de plaintes sur la nouvelle appli concernent des choses qui ont changé de place plutôt que disparu. Vos listes de lieux aimés, favoris, visités et à visiter se trouvent désormais en bas de l'onglet Home. Les options de filtre ont été simplifiées exprès, si bien que certains anciens réglages d'exclusion ont disparu, et WikiCamps demande à ceux qui s'en servaient de le signaler à son équipe d'assistance. Si des sites semblent manquer sur la carte, elle conseille d'effacer tout filtre actif et de zoomer, car la carte n'affiche qu'un nombre limité de résultats à la fois. WikiCamps dit elle-même que beaucoup d'avis négatifs récents tiennent au passage à l'appli reconstruite et qu'elle réintroduit peu à peu les fonctions clés."
+          ],
+          "tips": [
+            "Les favoris sont maintenant sous Collections",
+            "Effacez les filtres si des sites disparaissent",
+            "Les filtres enregistrés restent sur chaque appareil"
+          ]
+        },
+        {
+          "heading": "Existe-t-il une version PC ou Windows de WikiCamps ?",
+          "body": [
+            "Plus maintenant. L'appli Windows de WikiCamps était la version 5, et elle a été abandonnée avec les autres anciennes versions. La version 6 ne fonctionne que sur iPhone, iPad et sur les téléphones et tablettes Android. WikiCamps note que certains font tourner des applis mobiles sur un ordinateur avec un émulateur, mais elle ne le prend pas en charge. Si vous préparez vos voyages sur un grand écran, une tablette connectée au même compte est la solution prise en charge, puisque les voyages se synchronisent via votre compte.",
+            "Autre fin à connaître si des amis de l'étranger utilisent WikiCamps : son appli distincte pour le Royaume-Uni, les États-Unis et le Canada n'est plus prise en charge depuis le 30 mars 2026 et est retirée des magasins d'applis ; les nouvelles inscriptions et connexions ont été désactivées. Cela ne concerne pas WikiCamps Nouvelle-Zélande."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "À qui appartient WikiCamps aujourd'hui ?",
+          "body": [
+            "WikiCamps a été créée par une petite équipe fondatrice, Russ et Cliff et leurs familles, et s'est développée grâce aux lieux ajoutés par ses propres utilisateurs. En 2021, ils l'ont vendue à G'day Parks, un groupe de parcs touristiques, et le développeur affiché aujourd'hui sur l'App Store néo-zélandais est WikiCamps Pty Ltd. Les réservations faites avec le bouton « Book Now » sont gérées par son partenaire de réservation, BookEasy (Book Australia) : les modifications et remboursements passent donc par lui, pas par WikiCamps.",
+            "Le modèle économique reste un achat unique. WikiCamps affirme qu'il n'y a pas d'abonnement, et l'App Store néo-zélandais affichait WikiCamps Nouvelle-Zélande à NZ$7.99 quand nous avons vérifié le 9 novembre 2026. Elle a aussi ajouté quelques publicités dans les sections avis, tarifs et photos pour aider à couvrir ses frais. Les détails des sites, les photos et les tarifs viennent de la communauté, c'est pourquoi WikiCamps demande aux utilisateurs de modifier ou de signaler tout ce qui est périmé, et pourquoi c'est le panneau sur place et la page de la commune ou de DOC qui décident où vous pouvez dormir."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Quand contacter l'assistance de WikiCamps",
+          "body": [
+            "Si aucune solution ne marche, écrivez à support@wikicamps.co. Indiquez le modèle de votre téléphone et la version de son système, l'adresse e-mail de votre compte WikiCamps et, pour un problème d'achat, votre preuve d'achat ou votre numéro de commande Google Play. WikiCamps dit pouvoir être limitée pour les téléphones dont le système n'est plus pris en charge : vérifiez donc cela d'abord.",
+            "Son groupe d'utilisateurs sur Facebook est l'autre endroit où chercher. C'est là que WikiCamps renvoie les gens pour connaître l'expérience réelle de l'appli actuelle, et un problème apparu après une mise à jour y a généralement déjà été signalé par quelqu'un d'autre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Passer à KiwiCamping en Nouvelle-Zélande",
+          "body": [
+            "Si vous en avez assez, KiwiCamping est l'appli néo-zélandaise que nous faisons, et elle fonctionne autrement. Pas de compte distinct à créer : avec iCloud activé, les lieux enregistrés, les collections et les voyages se synchronisent en privé via votre compte Apple. Ses 287 <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, 927 refuges DOC et 1,453 sentiers DOC viennent des données du Department of Conservation lui-même, avec les tarifs, les règles pour les chiens et les conditions de réservation de DOC et un lien vers sa page, et vous pouvez combiner dans une seule recherche des filtres de coût, d'équipements et de chiens.",
+            "Les lieux enregistrés deviennent un voyage avec des étapes ordonnées, des dates, des notes et la distance de l'itinéraire. Les détails des lieux restent sur le téléphone quand vous perdez le signal ; les tuiles de carte, l'itinéraire, la météo et les photos demandent une connexion. Soyons clairs sur les compromis : KiwiCamping ne fonctionne que sur iPhone (iOS 26 ou suivant), liste bien moins de lieux que WikiCamps et n'a pas d'avis de voyageurs, et il n'y a pas d'import depuis WikiCamps : pour refaire un voyage, il faut enregistrer à nouveau ses étapes. Notre comparatif des <a data-guide=\"wikicamps-alternatives\">alternatives à WikiCamps</a> place KiwiCamping à côté de Rankers, CamperMate, Campable et Overland Navigator si vous voulez un choix plus large."
+          ],
+          "tips": [
+            "iPhone uniquement, iOS 26 ou suivant",
+            "Campings, refuges et sentiers DOC issus des données de DOC",
+            "Pas de compte : synchronisation via iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Pourquoi WikiCamps ne fonctionne-t-elle pas ?",
+          "En général à cause d'une ancienne version de l'appli, d'un téléphone non pris en charge ou d'un problème de connexion. WikiCamps prend en charge iOS 26 et Android 15 et suivants, et bloque depuis mars 2026 les versions en retard de plus de deux publications. Mettez l'appli à jour, redémarrez le téléphone, essayez les données mobiles plutôt que le Wi-Fi, désactivez tout VPN et autorisez l'accès à la position."
+        ],
+        [
+          "Puis-je revenir à l'ancienne appli WikiCamps ?",
+          "Non. WikiCamps indique que les anciennes versions ne sont plus prises en charge ni accessibles depuis mars 2026, et la version Windows a été abandonnée avec elles. La version 6 fonctionne sur iPhone, iPad et sur les téléphones et tablettes Android, et vos voyages et favoris se synchronisent via votre compte WikiCamps."
+        ],
+        [
+          "À qui appartient WikiCamps ?",
+          "WikiCamps a été fondée par Russ et Cliff, puis vendue en 2021 à G'day Parks, un groupe de parcs touristiques. Le développeur affiché sur l'App Store néo-zélandais est WikiCamps Pty Ltd, et les réservations faites dans l'appli sont gérées par son partenaire BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Aide WikiCamps : que faire si WikiCamps ne fonctionne pas correctement ?"
+        },
+        {
+          "label": "Aide WikiCamps : mises à jour forcées à partir de mars 2026"
+        },
+        {
+          "label": "Aide WikiCamps : historique des mises à jour des versions"
+        },
+        {
+          "label": "Aide WikiCamps : puis-je revenir à l'ancienne version de l'appli ?"
+        },
+        {
+          "label": "Aide WikiCamps : je n'arrive pas à me connecter à WikiCamps"
+        },
+        {
+          "label": "Aide WikiCamps : pourquoi faut-il un compte maintenant ?"
+        },
+        {
+          "label": "Aide WikiCamps : pourquoi n'y a-t-il pas de version PC de WikiCamps ?"
+        },
+        {
+          "label": "Aide WikiCamps : l'appli ne se lance pas sans connexion à internet"
+        },
+        {
+          "label": "Données de la fiche WikiCamps Nouvelle-Zélande (Apple, boutique néo-zélandaise)"
+        },
+        {
+          "label": "Camps Australia Wide : commentaire sur la vente de WikiCamps à G'day Parks (octobre 2021)"
         }
       ],
       "priceTable": null
@@ -24768,17 +24968,5 @@
         ]
       }
     }
-  },
-  "answers": {
-    "doc-campsites-new-zealand-guide": "Quand un refuge ou un camping est complet, KiwiCamping affiche tous les refuges et campings du DOC à proximité, avec leur catégorie, leur tarif et la possibilité ou non de réserver.",
-    "campfire-rules-new-zealand": "KiwiCamping affiche les équipements de chaque camping du DOC, y compris si les feux sont autorisés, et les fiches des lieux restent lisibles sans réseau.",
-    "camping-wastewater-rubbish-new-zealand": "KiwiCamping place sur la carte 262 aires de vidange avec leurs tarifs, pour trouver la plus proche avant qu'un réservoir soit plein.",
-    "freedom-camping-rules-new-zealand": "KiwiCamping signale sur la carte les avis du DOC sur le camping libre, pour voir avant de vous garer où il est interdit ou limité sur les terres protégées.",
-    "where-to-camp-in-new-zealand": "KiwiCamping réunit sur une carte les campings et refuges du DOC, les holiday parks et les zones de camping libre, avec des filtres par tarif et par équipement.",
-    "doc-huts-new-zealand-guide": "KiwiCamping liste les refuges du DOC par région, avec leur catégorie, leur tarif et la possibilité ou non de réserver, lisibles sans réseau sur le sentier.",
-    "campervan-road-rules-new-zealand": "Le planificateur de KiwiCamping met vos étapes dans l'ordre et affiche la distance entre elles, pour que chaque journée de route reste raisonnable en camping-car.",
-    "east-cape-road-trip": "Enregistrez les étapes de l'East Cape dans un voyage KiwiCamping pour voir la distance du parcours et garder campings, dates et notes en ordre.",
-    "tool:fuel": "Les voyages KiwiCamping additionnent la distance entre vos étapes, le chiffre dont ce calculateur a besoin.",
-    "tool:drive": "Tracez l'itinéraire dans KiwiCamping pour voir la distance entre vos étapes, puis calculez ici la durée de chaque journée de route."
   }
 }

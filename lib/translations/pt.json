@@ -253,6 +253,26 @@
     "review9Country": "Irlanda",
     "review9Quote": "Seis pessoas, duas carrinhas, ninguém teve de perguntar onde íamos dormir a seguir. Reorganizar tudo quando o tempo virou foi fácil, o que eu não estava à espera."
   },
+  "consent": {
+    "label": "Preferências de privacidade",
+    "text": "A KiwiCamping pode usar cookies do Google Analytics para perceber que páginas ajudam os viajantes? Nunca são usados para publicidade.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "policy": "Política de privacidade",
+    "choices": "Preferências de privacidade"
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Quando um refúgio ou parque de campismo está esgotado, a KiwiCamping mostra todos os refúgios e parques do DOC por perto, com a categoria, o preço e se aceitam reservas.",
+    "campfire-rules-new-zealand": "A KiwiCamping mostra as instalações de cada parque de campismo do DOC, incluindo se é permitido fazer fogueiras, e os detalhes de cada local ficam legíveis sem rede.",
+    "camping-wastewater-rubbish-new-zealand": "A KiwiCamping mostra no mapa 262 pontos de despejo com os respetivos preços, para encontrares o mais próximo antes de um depósito encher.",
+    "freedom-camping-rules-new-zealand": "A KiwiCamping assinala no mapa os avisos do DOC sobre campismo livre, para veres antes de estacionar onde é proibido ou limitado em terrenos de conservação.",
+    "where-to-camp-in-new-zealand": "A KiwiCamping junta num só mapa os parques de campismo e refúgios do DOC, os holiday parks e as zonas de campismo livre, com filtros de preço e instalações.",
+    "doc-huts-new-zealand-guide": "A KiwiCamping lista os refúgios do DOC por região, com a categoria, o preço e se se podem reservar, legíveis sem rede no trilho.",
+    "campervan-road-rules-new-zealand": "O planeador de viagens da KiwiCamping põe as tuas paragens por ordem e mostra a distância entre elas, para cada dia de condução ser exequível de autocaravana.",
+    "east-cape-road-trip": "Guarda as paragens do East Cape numa viagem da KiwiCamping para veres a distância do percurso e manteres parques de campismo, datas e notas em ordem.",
+    "tool:fuel": "As viagens da KiwiCamping somam a distância do percurso entre as tuas paragens, que é o número de que esta calculadora precisa.",
+    "tool:drive": "Monta o percurso na KiwiCamping para veres a distância entre as paragens e calcula aqui o tempo de cada dia de condução."
+  },
   "pages": {
     "support": {
       "title": "Como podemos ajudar?",
@@ -404,6 +424,287 @@
         }
       ],
       "effective": "Em vigor a partir de 12 de agosto de 2026"
+    }
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Início",
+      "breadcrumbTools": "Calculadoras",
+      "howTitle": "Como se calcula",
+      "exampleTitle": "Exemplo prático",
+      "assumptionsTitle": "Pressupostos",
+      "sourcesTitle": "Fontes",
+      "faqTitle": "Perguntas frequentes",
+      "guidesTitle": "Guias relacionados",
+      "otherToolsTitle": "Mais calculadoras para a tua viagem de carro",
+      "openTool": "Abrir a calculadora",
+      "ctaEyebrow": "Planeia na KiwiCamping",
+      "ctaTitle": "Encontra as paragens e depois faz as contas.",
+      "ctaText": "Podes transferir a KiwiCamping gratuitamente para o iPhone. Na app, os holiday parks, os alojamentos e os tours que podes reservar são gratuitos. Os parques de campismo do DOC, os refúgios, os pontos de despejo e os guias abrem com o Pass.",
+      "ctaButton": "Transferir a app",
+      "enterValidValues": "Introduz valores válidos",
+      "enterValidAmount": "Introduz um montante válido"
+    },
+    "index": {
+      "metaTitle": "Calculadoras para a Nova Zelândia: combustível, horas e campismo",
+      "metaDescription": "Calculadoras gratuitas para a Nova Zelândia: combustível, tempo de condução por tipo de estrada, campismo por pessoa ou por lugar, conversão de NZD e água da campervan.",
+      "toolsTitle": "Uma calculadora para cada pergunta",
+      "toolsText": "Cada calculadora tem a sua própria página, com a fórmula, um exemplo prático com valores da Nova Zelândia, os pressupostos por trás e respostas às perguntas mais frequentes."
+    },
+    "fuel": {
+      "metaTitle": "Calculadora de combustível na Nova Zelândia para campervan",
+      "metaDescription": "Calcula litros e custo de combustível na Nova Zelândia com a distância, os l/100 km e o preço na bomba, com fórmula, um exemplo de 1.000 km e a referência do MBIE.",
+      "eyebrow": "Calculadora de combustível",
+      "cardEyebrow": "Calculadora de combustível",
+      "h1": "Calculadora de custo de combustível para uma viagem pela Nova Zelândia",
+      "intro": "Introduz a distância do percurso, o consumo do veículo com carga e o preço por litro. O preço predefinido é a média nacional do MBIE para a gasolina normal 91: {fuelPrice} por litro na semana de {fuelDate}. A gasolina premium 95, o gasóleo e as road user charges estão na tabela abaixo.",
+      "cardTitle": "Põe preço aos quilómetros.",
+      "cardText": "Introduz a distância total do percurso, o consumo do veículo com carga e o preço previsto por litro. Em zonas remotas, os preços podem ser superiores aos valores de referência das cidades.",
+      "labelDistance": "Distância (km)",
+      "labelConsumption": "Consumo (l/100 km)",
+      "labelPrice": "Preço do combustível (NZD/l)",
+      "formula": [
+        "Litros = distância (km) × consumo (l/100 km) ÷ 100",
+        "Custo = litros × preço por litro (NZD)"
+      ],
+      "formulaNote": "O consumo indica-se por cada 100 quilómetros, por isso dividir por 100 converte-o em litros por quilómetro. A conta é linear: se duplicares a distância, duplicam os litros e o custo.",
+      "example": "Um percurso de {distance} km numa campervan que consome {consumption} l/100 km precisa de {litres} litros de combustível. A {price} por litro, são {cost}.",
+      "assumptions": [
+        "O preço predefinido é uma referência nacional. Os postos de abastecimento remotos, incluindo na West Coast e em Fiordland, costumam cobrar mais, por isso atesta antes dos troços longos entre localidades.",
+        "Usa o consumo com carga do veículo que vais mesmo conduzir. Uma campervan cheia, em subidas e com vento de frente, gasta mais do que o valor do folheto.",
+        "Soma as voltas locais em redor de cada paragem. As idas ao supermercado, os miradouros e as estradas secundárias acumulam-se ao longo de um percurso comprido.",
+        "Os veículos a gasóleo pagam road user charges (RUC) por cada 1.000 km, além do combustível. Esta calculadora só inclui o combustível."
+      ],
+      "faq": [
+        [
+          "Quanto combustível gasta uma campervan na Nova Zelândia?",
+          "Depende do veículo, da carga e das estradas. Consulta o valor oficial do veículo no Rightcar (rightcar.govt.nz) ou pergunta à empresa de aluguer, e acrescenta uma margem para subidas e carga completa. Os 12 l/100 km predefinidos são um valor de planeamento para uma autocaravana carregada, não uma média medida."
+        ],
+        [
+          "Uma autocaravana a gasóleo ou a gasolina sai mais barata?",
+          "O gasóleo é mais barato na bomba, mas um veículo ligeiro a gasóleo paga também road user charges de {ruc} por cada 1.000 km, que não entram no preço da bomba nem nesta calculadora. Em 1.000 km a 12 l/100 km, são {dieselTotal} a gasóleo com RUC contra {petrolTotal} a gasolina normal 91, por isso depende de quanto menos o gasóleo consome. Pergunta à empresa de aluguer se as RUC estão incluídas na tarifa."
+        ],
+        [
+          "Quanto custa a gasolina na Nova Zelândia neste momento?",
+          "Os preços médios nacionais do MBIE para a semana de {fuelDate} eram {fuelPrice} por litro para a gasolina normal 91, {premiumPrice} para a premium 95 e {dieselPrice} para o gasóleo. A calculadora parte do preço da 91. O MBIE publica os preços todas as semanas e os postos isolados cobram muitas vezes mais, por isso confirma antes de partires."
+        ]
+      ],
+      "pricesTitle": "Preços atuais dos combustíveis na Nova Zelândia",
+      "pricesNote": "Preços médios nacionais na bomba publicados pelo MBIE para a semana de {fuelDate}, provisórios, em dólares neozelandeses por litro com impostos. Os veículos ligeiros a gasóleo até 3.500 kg pagam ainda road user charges (RUC) de {ruc} por cada 1.000 km, que não estão incluídas no preço da bomba.",
+      "pricesHead": [
+        "Combustível",
+        "Preço por litro",
+        "{distance} km a {consumption} l/100 km"
+      ],
+      "fuelRegular": "Gasolina normal 91",
+      "fuelPremium": "Gasolina premium 95",
+      "fuelDiesel": "Gasóleo",
+      "dieselRuc": "{cost} mais {ruc} de RUC"
+    },
+    "drive": {
+      "metaTitle": "Tempo de condução na Nova Zelândia: horas por tipo de estrada",
+      "metaDescription": "Estima quanto dura mesmo um dia de condução na Nova Zelândia com a distância, o tipo de estrada e as paragens, com a fórmula, um exemplo prático e as velocidades usadas.",
+      "eyebrow": "Calculadora de tempo de condução",
+      "cardEyebrow": "Estimativa do dia de condução",
+      "h1": "Calculadora de tempo de condução para as estradas da Nova Zelândia",
+      "intro": "As apps de navegação dão o tempo em movimento numa estrada ideal. Esta calculadora usa a distância que já sabes, uma velocidade média para o tipo de estrada e 20 minutos por cada paragem, e é aí que um dia de condução na Nova Zelândia costuma demorar mais do que o previsto.",
+      "cardTitle": "Quanto demora mesmo esse dia.",
+      "cardText": "As apps de navegação dão o tempo em movimento numa estrada ideal. Aqui somam-se o tipo de estrada e as paragens reais, e é aí que um dia costuma demorar mais do que o previsto.",
+      "labelDistance": "Distância (km)",
+      "labelRoadType": "Tipo de estrada",
+      "roadMotorway": "Autoestrada ou estrada reta fora das localidades",
+      "roadHighway": "Estrada principal",
+      "roadWinding": "Sinuosa ou costeira",
+      "roadNarrow": "Estreita, íngreme ou de terra batida",
+      "labelStops": "Paragens",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "formula": [
+        "Minutos de condução = distância (km) ÷ velocidade média (km/h) × 60",
+        "Minutos totais = minutos de condução + 20 × paragens"
+      ],
+      "formulaNote": "A velocidade média não é o limite de velocidade. Tem em conta curvas, subidas, pontes de uma via, localidades e trânsito mais lento. Os quatro tipos de estrada usam 85, 70, 60 e 45 km/h.",
+      "example": "Um dia de {distance} km em estradas sinuosas ou costeiras a {speed} km/h dá {driving} de condução. Se somares {stops} paragens de 20 minutos cada, o dia demora {total}.",
+      "assumptions": [
+        "As velocidades médias são valores de planeamento para um carro ou campervan em boas condições, não médias medidas numa estrada em concreto.",
+        "Cada paragem conta 20 minutos para combustível, comida, casa de banho ou um miradouro. Os ferries, as obras na estrada e as caminhadas longas têm de ser acrescentados à parte.",
+        "O tempo, os deslizamentos de terras e os cortes de estrada alteram os percursos. Antes de partires, consulta o planeador de viagens da NZTA para saber o estado atual das estradas."
+      ],
+      "faq": [
+        [
+          "Quantos quilómetros consegues fazer num dia na Nova Zelândia?",
+          "Não há um número único. As estradas sinuosas, as pontes de uma via e as paragens mantêm as velocidades médias bem abaixo do limite fora das localidades, por isso um dia que parece curto no mapa pode ocupar a maior parte das horas de luz. Introduz a distância e o tipo de estrada para ver as horas e planeia pausas regulares."
+        ],
+        [
+          "Porque é que isto dá mais tempo do que a minha app de mapas?",
+          "As apps de mapas estimam o tempo em movimento, sem paragens. Aqui usa-se uma média para o tipo de estrada e soma-se tempo por cada paragem, o que se aproxima mais de como corre mesmo um dia de campismo."
+        ],
+        [
+          "Funciona para uma campervan?",
+          "Sim. Escolhe um tipo de estrada mais lento se conduzires um veículo grande, se levares um atrelado ou se ainda não estiveres habituado a conduzir pela esquerda."
+        ]
+      ],
+      "routesTitle": "Tempos de condução entre as principais localidades da Nova Zelândia",
+      "routesNote": "Tempos de planeamento sem paragens pela rota principal das State Highways. Acrescenta tempo para paragens, obras e meteorologia, e confirma no site da NZTA se há estradas cortadas antes de partires.",
+      "routesHead": [
+        "Percurso",
+        "Distância",
+        "Tempo de condução"
+      ],
+      "routes": [
+        [
+          "De Auckland a Wellington",
+          "640 km",
+          "8 a 8,5 horas"
+        ],
+        [
+          "De Auckland à Bay of Islands",
+          "240 km",
+          "3 a 3,5 horas"
+        ],
+        [
+          "De Picton a Christchurch por Kaikōura",
+          "Cerca de 336 km",
+          "4,5 a 5 horas"
+        ],
+        [
+          "De Christchurch a Queenstown por Tekapo",
+          "Cerca de 480 km",
+          "Cerca de 6 horas"
+        ],
+        [
+          "De Christchurch a Dunedin",
+          "360 km",
+          "Cerca de 5 horas"
+        ],
+        [
+          "De Queenstown a Te Anau",
+          "170 km",
+          "Cerca de 2 horas"
+        ],
+        [
+          "De Te Anau a Milford Sound",
+          "120 km",
+          "Cerca de 2 horas"
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Custo do campismo na Nova Zelândia: por pessoa ou por lugar?",
+      "metaDescription": "Compara um parque de campismo do DOC com preço por adulto e um holiday park com preço por lugar para o teu grupo e as tuas noites, com fórmula, exemplo e taxas do DOC.",
+      "eyebrow": "Calculadora de custo de campismo",
+      "cardEyebrow": "Comparação de parques de campismo",
+      "h1": "Calculadora de custo de campismo: por pessoa ou por lugar",
+      "intro": "Os parques de campismo do DOC cobram por adulto e por noite, enquanto um holiday park costuma cobrar por lugar. Qual dos dois sai mais barato muda consoante o tamanho do grupo, e aqui fazes a conta para as tuas noites.",
+      "cardTitle": "Por pessoa ou por lugar?",
+      "cardText": "Um parque de campismo do DOC costuma cobrar por adulto e um holiday park costuma cobrar por lugar. A opção mais barata muda consoante o tamanho do grupo, o que apanha as famílias de surpresa.",
+      "labelAdults": "Adultos",
+      "labelNights": "Noites",
+      "labelPerAdult": "Por adulto (NZD)",
+      "labelPerSite": "Por lugar (NZD)",
+      "comparison": "{perAdult} vs {perSite} · {verdict}",
+      "theSame": "sai ao mesmo preço",
+      "perAdultCheaper": "o preço por adulto sai mais barato",
+      "perSiteCheaper": "o preço por lugar sai mais barato",
+      "formula": [
+        "Total por adulto = adultos × noites × preço por adulto",
+        "Total por lugar = noites × preço por lugar",
+        "O total mais baixo é a opção mais barata para o teu grupo"
+      ],
+      "formulaNote": "O total por adulto aumenta com cada adulto a mais, ao passo que o total por lugar não. É por isso que a resposta muda entre um casal e uma família.",
+      "example": "{adults} adultos que fiquem {nights} noites a {rateAdult} por adulto pagam {totalAdult}. A mesma estadia a {rateSite} por lugar custa {totalSite}, por isso {verdict}.",
+      "assumptions": [
+        "As crianças ficam de fora. Muitos parques de campismo do DOC cobram uma taxa reduzida dos 5 aos 17 anos e nada pelos bebés, e os holiday parks definem os seus próprios preços para crianças.",
+        "Os preços predefinidos são exemplos, não orçamentos. Nos dados do DOC de {docDate}, {docFree} parques de campismo do DOC são gratuitos, e a taxa mais baixa por adulto indicada nos que são pagos varia entre {docMin} e {docMax} por noite.",
+        "Os holiday parks definem os seus próprios preços, que mudam com a época, a eletricidade e o tamanho do lugar. Confirma no parque antes de reservares."
+      ],
+      "faq": [
+        [
+          "Quanto custa uma noite de campismo na Nova Zelândia?",
+          "Os parques de campismo do DOC são gratuitos ou cobram por adulto. Nos dados do DOC de {docDate}, a taxa mais baixa por adulto nos parques de campismo do DOC pagos varia entre {docMin} e {docMax} por noite, com uma mediana de {docMedian}. Os holiday parks definem os preços dos seus lugares, por isso compara o total para o teu grupo."
+        ],
+        [
+          "Para uma família, sai mais barato pagar por pessoa ou por lugar?",
+          "Pagar por lugar costuma compensar à medida que o grupo cresce, porque o preço do lugar não muda, enquanto os preços por adulto se multiplicam. Introduz os teus preços para ver onde fica o ponto de equilíbrio."
+        ],
+        [
+          "As crianças pagam nos parques de campismo do DOC?",
+          "Em muitos parques de campismo do DOC, as crianças dos 5 aos 17 anos pagam uma taxa reduzida e os bebés não pagam. A taxa de cada parque está na respetiva página do DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Conversor de NZD: preços da Nova Zelândia em 9 moedas",
+      "metaDescription": "Converte preços em dólares neozelandeses de e para USD, EUR, GBP, AUD, JPY, CNY, KRW, INR e SGD com as taxas de referência do Reserve Bank of New Zealand.",
+      "eyebrow": "Conversor de moeda",
+      "cardEyebrow": "Conversor de moeda",
+      "h1": "Conversor de NZD para preços de viagem na Nova Zelândia",
+      "intro": "Converte um preço neozelandês para a tua moeda, ou a tua moeda para dólares neozelandeses, com as taxas de referência do Reserve Bank of New Zealand de {rateDate}.",
+      "cardTitle": "Converte um preço neozelandês.",
+      "cardText": "Conversão de referência para planear a viagem, com as taxas do Reserve Bank of New Zealand de {rateDate}. O teu banco ou cartão pode usar outra taxa e cobrar comissões.",
+      "labelAmount": "Montante",
+      "labelFrom": "De",
+      "labelTo": "Para",
+      "formula": [
+        "Montante em NZD = montante ÷ taxa da moeda de origem",
+        "Resultado = montante em NZD × taxa da moeda de destino"
+      ],
+      "formulaNote": "Cada taxa é o número de unidades dessa moeda por 1 dólar neozelandês, por isso todas as conversões passam pelo NZD.",
+      "example": "{amount} a {rate} dólares norte-americanos por dólar neozelandês são {converted}.",
+      "assumptions": [
+        "Estas são taxas de referência de {rateDate}. As taxas de câmbio mudam todos os dias.",
+        "Os bancos, os cartões e as caixas multibanco usam as suas próprias taxas e podem cobrar comissões, por isso o valor que pagas pode ser diferente.",
+        "O iene japonês e o won sul-coreano aparecem sem casas decimais."
+      ],
+      "faq": [
+        [
+          "Que moeda se usa na Nova Zelândia?",
+          "O dólar neozelandês (NZD). Os preços nas lojas, nos parques de campismo e nos holiday parks são indicados em NZD."
+        ],
+        [
+          "É esta a taxa que o meu banco me vai dar?",
+          "Provavelmente não será exatamente igual. A calculadora usa taxas de referência de {rateDate}. O teu banco ou o emissor do cartão aplica a sua própria taxa e comissões, por isso trata o resultado como um valor de planeamento."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Calculadora de água da campervan: dias de água limpa e cinzenta",
+      "metaDescription": "Calcula quantos dias duram os depósitos de água limpa e de águas cinzentas da campervan para o teu grupo, com fórmula, um exemplo prático e os consumos diários usados.",
+      "eyebrow": "Calculadora de depósitos de água",
+      "cardEyebrow": "Planeador de água e águas residuais",
+      "h1": "Calculadora de depósitos de água para campervan",
+      "intro": "A capacidade de um depósito em litros só é útil quando a traduzes em dias. Introduz a capacidade de água limpa e de águas cinzentas e o número de pessoas para ver qual dos depósitos define o teu limite.",
+      "cardTitle": "Quantos dias em autonomia.",
+      "cardText": "A capacidade em litros só é útil quando expressa em dias. A água limpa e as águas cinzentas aparecem em separado, porque o depósito que acabar primeiro define o limite.",
+      "labelFresh": "Água limpa (l)",
+      "labelGrey": "Águas cinzentas (l)",
+      "labelPeople": "Pessoas",
+      "days": "{fresh} dias de água limpa · {grey} dias de águas cinzentas",
+      "formula": [
+        "Dias de água limpa = depósito de água limpa (l) ÷ (pessoas × 11 l por dia)",
+        "Dias de águas cinzentas = depósito de águas cinzentas (l) ÷ (pessoas × 9 l por dia)",
+        "O mais baixo dos dois é o tempo que podes ficar antes de teres de encher ou esvaziar"
+      ],
+      "formulaNote": "As águas cinzentas são a água usada dos lava-loiças e dos duches. O volume fica abaixo do consumo de água limpa porque nem toda a água de beber e de cozinhar acaba no depósito.",
+      "example": "{people} pessoas com um depósito de água limpa de {freshTank} litros e um depósito de águas cinzentas de {greyTank} litros têm {freshDays} dias de água limpa e {greyDays} dias de águas cinzentas, por isso o depósito de água limpa define o limite.",
+      "assumptions": [
+        "11 litros de água limpa e 9 litros de águas cinzentas por pessoa e por dia são valores de planeamento para um uso cuidadoso: beber, cozinhar, lavar a loiça e uma lavagem rápida. Os duches gastam muito mais.",
+        "As cassetes da sanita e as águas negras não estão incluídas.",
+        "Esvazia as águas cinzentas só num ponto de despejo. Nunca para o chão nem para uma sarjeta."
+      ],
+      "faq": [
+        [
+          "Quanto tempo duram 100 litros de água limpa numa campervan?",
+          "Para duas pessoas com um uso cuidadoso, a 11 litros cada por dia, cerca de quatro dias e meio. Os duches e lavar roupa encurtam bastante esse tempo."
+        ],
+        [
+          "Onde posso esvaziar as águas cinzentas na Nova Zelândia?",
+          "Num ponto de despejo. Muitos holiday parks têm um e as câmaras municipais gerem pontos públicos em muitas localidades. Nunca esvazies as águas cinzentas para o chão nem para uma sarjeta."
+        ],
+        [
+          "Qual dos depósitos se esgota primeiro?",
+          "O que for mais pequeno para o teu consumo. Os depósitos de águas cinzentas costumam ser mais pequenos do que os de água limpa, por isso verifica os dois e não apenas o indicador da água limpa."
+        ]
+      ]
     }
   },
   "articles": {
@@ -8844,6 +9145,194 @@
         },
         {
           "label": "Locais do DOC para pernoitar"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "O WikiCamps não funciona na Nova Zelândia? Soluções para login, atualizações e viagens perdidas (2026)",
+      "description": "O WikiCamps Nova Zelândia não abre, continua pedindo login ou força uma atualização? As soluções da própria central de ajuda do WikiCamps, as dúvidas sobre a versão antiga e o PC, e de quem ele é agora.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Campervans de aluguel estacionadas em um estacionamento molhado à beira da estrada, sob colinas cobertas de mata",
+      "intro": "O WikiCamps Nova Zelândia mudou mais nos últimos dois anos do que na década anterior. A versão 6 reconstruiu o app do zero, todo usuário agora precisa de uma conta e, desde março de 2026, um app que fica muito para trás se recusa a abrir até você atualizá-lo. A maioria dos problemas que as pessoas pesquisam vem dessas três mudanças, e a maioria se resolve em poucos minutos num camping com uma barrinha de sinal. As soluções abaixo vêm da própria central de ajuda do WikiCamps, lida em 9 de novembro de 2026. Nós fazemos o KiwiCamping, outro app de camping da Nova Zelândia, então a seção final sobre trocar de app é nossa; tudo o que vem antes serve para fazer o WikiCamps voltar a funcionar.",
+      "sections": [
+        {
+          "heading": "Soluções rápidas quando o WikiCamps não carrega",
+          "body": [
+            "Comece pelo celular, não pelo app. O WikiCamps diz que oferece suporte ao iOS 26 e posteriores no iPhone e iPad, e ao Android 15 e posteriores. O app ainda pode ser instalado num sistema mais antigo, mas o WikiCamps diz que não pode garantir que todos os recursos funcionem ali nem resolver problemas nele. No iPhone, veja em Ajustes, Geral, Atualização de Software; no Android, em Configurações, Sobre o telefone.",
+            "Se o celular está atualizado e o WikiCamps continua travado no carregamento ou mostra o erro \"Could not retrieve data\", a central de ajuda dá a mesma lista curta para os dois casos: instalar a versão mais recente da loja de apps, reiniciar o celular, trocar o Wi-Fi pelos dados móveis, desligar qualquer VPN e permitir que o WikiCamps use sua localização. Desinstalar e reinstalar é o último passo, e só vale a pena depois que suas viagens estiverem sincronizadas com a conta, porque uma reinstalação começa o celular do zero."
+          ],
+          "tips": [
+            "iOS 26 ou Android 15 e posteriores",
+            "Tente os dados móveis em vez do Wi-Fi do camping",
+            "Só reinstale depois que suas viagens estiverem sincronizadas"
+          ],
+          "table": {
+            "caption": "Da central de ajuda do WikiCamps (support.wikicamps.co), lida em 9 de novembro de 2026.",
+            "head": [
+              "Problema",
+              "Causa habitual",
+              "O que experimentar"
+            ],
+            "rows": [
+              [
+                "Travado no carregamento ou \"Could not retrieve data\"",
+                "Versão antiga do app, Wi-Fi fraco, uma VPN ou a localização desligada",
+                "Atualizar, reiniciar, usar dados móveis, desligar a VPN, permitir a localização"
+              ],
+              [
+                "Pede login várias vezes",
+                "O celular apaga os dados do app ou o limita em segundo plano",
+                "Desligar a otimização de bateria e os apps de limpeza para o WikiCamps"
+              ],
+              [
+                "Sem código de verificação",
+                "O e-mail está filtrado ou atrasado",
+                "Ver a caixa de spam e esperar de 10 a 15 minutos"
+              ],
+              [
+                "Pede para pagar de novo",
+                "Login com outra conta ou outro ID da loja que não o que pagou",
+                "Usar a conta original; restaurar com o mesmo ID Apple"
+              ],
+              [
+                "Viagens ou favoritos sumiram",
+                "Login em outra conta do WikiCamps",
+                "Entrar com o e-mail original e deixar sincronizar"
+              ],
+              [
+                "Não abre sem sinal",
+                "O modo offline não estava ligado quando o sinal caiu",
+                "Baixar o conteúdo offline e ligar o modo offline na cidade"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Por que o WikiCamps pede login ou a criação de uma conta",
+          "body": [
+            "O app reconstruído funciona com contas. O WikiCamps diz que uma conta permite que suas viagens, favoritos, avaliações e outros dados salvos sincronizem entre dispositivos e sobrevivam a um celular novo ou a uma reinstalação, e que também é assim que o app confere se você pagou. Se você usava o app antigo sem nunca se cadastrar, agora precisa criar uma conta; e se não tem certeza de que criou, o WikiCamps sugere tentar \"Forgot your password?\" com seu e-mail: sem e-mail de redefinição, não há conta nesse endereço.",
+            "Os códigos de verificação vêm do serviço de login da Microsoft em nome do WikiCamps, então procure um remetente chamado \"Microsoft on behalf of WikiCamps\" com um assunto sobre um código de verificação do e-mail de uma conta do WikiCamps. O WikiCamps diz para ver a caixa de spam e esperar de 10 a 15 minutos, e que sua equipe de suporte não consegue enviar um código manualmente. Se o app continuar pedindo login depois de você entrar, o WikiCamps atribui isso ao celular e não ao app: otimização de bateria, restrições em segundo plano, limpeza automática de dados dos apps e apps de limpeza de terceiros podem apagar a sessão salva."
+          ],
+          "tips": [
+            "Os códigos vêm da Microsoft em nome do WikiCamps",
+            "Permita que o WikiCamps rode em segundo plano",
+            "Use o e-mail com que você se cadastrou da primeira vez"
+          ]
+        },
+        {
+          "heading": "Já pagou, mas pedem para pagar de novo",
+          "body": [
+            "O WikiCamps confere sua compra pela conta em que você entra e pela loja em que comprou. No iPhone, confirme que a App Store está com o ID Apple que comprou o WikiCamps e baixe o app de novo pela App Store. No Android, o WikiCamps diz que uma conta nova ou diferente pode esconder uma compra anterior; se a tela de compra não sumir, envie à equipe de suporte o número do pedido do Google Play, que fica em Pagamentos e assinaturas na Play Store, e eles ativam o app.",
+            "As compras também ficam presas à loja. Passar do Android para um iPhone, ou o contrário, significa comprar o WikiCamps de novo, embora os dados da sua conta venham com você assim que entrar. E o WikiCamps Nova Zelândia e o WikiCamps Austrália são apps separados, cada um comprado à parte, então um não desbloqueia o outro."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "A atualização forçada de março de 2026",
+          "body": [
+            "Desde março de 2026, o WikiCamps bloqueia versões com mais de duas versões de atraso. Se você abre uma versão sem suporte, o app pede para atualizar pela loja de apps antes de continuar; uma versão ainda com suporte mostra um aviso no app e deixa você atualizar depois. A página \"Version Update History\" do WikiCamps marca quais versões têm suporte: quando conferimos em 9 de novembro de 2026, eram a 6.3.0 e da 6.2.4 à 6.2.5, e a App Store da Nova Zelândia já oferecia a 6.3.1.",
+            "O risco prático na Nova Zelândia é ser mandado atualizar onde não há sinal para isso. Longos trechos da West Coast, de Fiordland e dos Catlins não têm cobertura, então atualize na última cidade com boa recepção, depois baixe o conteúdo offline do WikiCamps e ligue o modo offline pelo menu antes de sair. O WikiCamps lista um problema conhecido: sem nenhuma conexão, a página Explore pode travar antes de você chegar ao menu para ligar o modo offline; além disso, o modo offline por enquanto é só de leitura: nada de novas viagens nem edição de viagens até você voltar à cobertura."
+          ],
+          "tips": [
+            "Mais de duas versões de atraso significa bloqueio",
+            "Atualize na cidade, não no camping",
+            "Ligue o modo offline antes de o sinal cair"
+          ]
+        },
+        {
+          "heading": "Dá para voltar à versão antiga do WikiCamps?",
+          "body": [
+            "Não. O WikiCamps diz que as versões antigas não têm mais suporte nem estão acessíveis desde março de 2026, e as lojas de apps só oferecem a versão atual. O motivo é que o app anterior foi construído sobre uma plataforma que não dava para manter em atualizações de longo prazo, então a versão 6 foi reconstruída do zero, com as primeiras versões 6 em novembro de 2024.",
+            "Muitas das reclamações sobre o app novo são sobre coisas que mudaram de lugar, não que sumiram. Suas listas de curtidos, com estrela, visitados e a visitar agora ficam no fim da aba Home. As opções de filtro foram simplificadas de propósito, então alguns dos antigos botões de exclusão se foram, e o WikiCamps pede que quem dependia deles avise a equipe de suporte. Se parecem faltar lugares no mapa, ele sugere limpar qualquer filtro ativo e aproximar o zoom, porque o mapa mostra um número limitado de resultados por vez. O próprio WikiCamps diz que muitas avaliações negativas recentes se relacionam à mudança para o app reconstruído e que está reintroduzindo recursos importantes aos poucos."
+          ],
+          "tips": [
+            "Os favoritos agora ficam em Collections",
+            "Limpe os filtros se lugares sumirem",
+            "Os filtros salvos ficam em cada dispositivo"
+          ]
+        },
+        {
+          "heading": "Existe uma versão do WikiCamps para PC ou Windows?",
+          "body": [
+            "Não mais. O app do WikiCamps para Windows era a versão 5 e foi descontinuado junto com as outras versões antigas. A versão 6 só roda em iPhone, iPad e celulares e tablets Android. O WikiCamps observa que algumas pessoas rodam apps móveis num computador com um emulador, mas não oferece suporte a isso. Se você planeja viagens numa tela grande, um tablet na mesma conta é a forma com suporte, já que as viagens sincronizam pela sua conta.",
+            "Outro encerramento que vale conhecer se amigos de fora usam o WikiCamps. O app separado para Reino Unido, EUA e Canadá deixou de ter suporte em 30 de março de 2026 e está sendo retirado das lojas de apps; novos cadastros e logins foram desligados. Isso não afeta o WikiCamps Nova Zelândia."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "De quem é o WikiCamps agora?",
+          "body": [
+            "O WikiCamps foi criado por uma pequena equipe de fundadores, Russ e Cliff e suas famílias, e cresceu com os lugares que os próprios usuários adicionaram. Em 2021 eles o venderam à G'day Parks, um grupo de parques turísticos, e o desenvolvedor que aparece hoje na App Store da Nova Zelândia é a WikiCamps Pty Ltd. As reservas feitas pelo botão \"Book Now\" são tratadas pelo parceiro de reservas, a BookEasy (Book Australia), então alterações e reembolsos vão para eles, não para o WikiCamps.",
+            "O modelo de negócio continua sendo uma compra única. O WikiCamps diz que não há assinatura, e a App Store da Nova Zelândia listava o WikiCamps Nova Zelândia por NZ$7.99 quando conferimos em 9 de novembro de 2026. Ele também incluiu um pequeno número de anúncios nas seções de avaliações, tarifas e fotos para ajudar a cobrir os custos. Detalhes dos lugares, fotos e tarifas vêm da comunidade, por isso o WikiCamps pede que os usuários editem ou denunciem o que estiver desatualizado, e por isso a placa no local e a página da prefeitura ou do DOC é que decidem onde você pode ficar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Quando falar com o suporte do WikiCamps",
+          "body": [
+            "Se nenhuma das soluções funcionar, escreva para support@wikicamps.co. Inclua o modelo do celular e a versão do sistema operacional, o e-mail da sua conta do WikiCamps e, em caso de problema de compra, o comprovante ou o número do pedido do Google Play. O WikiCamps diz que pode ter limitações com celulares que usam um sistema operacional que ele não suporta mais, então confira isso primeiro.",
+            "O grupo de usuários no Facebook é o outro lugar para olhar. É para lá que o WikiCamps encaminha as pessoas em busca da experiência real com o app atual, e um problema que começou depois de uma atualização geralmente já foi relatado por outra pessoa."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Trocar pelo KiwiCamping na Nova Zelândia",
+          "body": [
+            "Se você já cansou, o KiwiCamping é o app da Nova Zelândia que nós fazemos, e funciona de outro jeito. Não há conta separada para criar: com o iCloud ligado, lugares salvos, coleções e viagens sincronizam de forma privada pela sua conta Apple. Seus 287 <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a>, 927 refúgios do DOC e 1,453 trilhas do DOC vêm dos dados do próprio Department of Conservation, com as tarifas, as regras para cães e as exigências de reserva do DOC e um link para a página dele, e você pode combinar filtros de custo, instalações e cães numa só busca.",
+            "Os lugares salvos viram uma viagem com paradas em ordem, datas, notas e a distância da rota. Os detalhes dos lugares ficam no celular quando você perde o sinal; blocos do mapa, rotas, clima e fotos precisam de conexão. Seja claro sobre as trocas: o KiwiCamping só roda no iPhone (iOS 26 ou posterior), lista bem menos lugares que o WikiCamps e não tem avaliações de viajantes, e não há importação do WikiCamps, então para refazer uma viagem é preciso salvar as paradas de novo. Nossa comparação de <a data-guide=\"wikicamps-alternatives\">alternativas ao WikiCamps</a> coloca o KiwiCamping ao lado de Rankers, CamperMate, Campable e Overland Navigator se você quiser uma escolha mais ampla."
+          ],
+          "tips": [
+            "Só iPhone, iOS 26 ou posterior",
+            "Campings, refúgios e trilhas do DOC com dados do DOC",
+            "Sem conta: sincroniza pelo iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Por que o WikiCamps não funciona?",
+          "Geralmente por uma versão antiga do app, um celular sem suporte ou um problema de login. O WikiCamps oferece suporte ao iOS 26 e Android 15 e posteriores e, desde março de 2026, bloqueia versões com mais de duas versões de atraso. Atualize o app, reinicie o celular, tente os dados móveis em vez do Wi-Fi, desligue qualquer VPN e permita o acesso à localização."
+        ],
+        [
+          "Posso voltar ao app antigo do WikiCamps?",
+          "Não. O WikiCamps diz que as versões antigas não têm mais suporte nem estão acessíveis desde março de 2026, e a versão para Windows foi descontinuada com elas. A versão 6 roda em iPhone, iPad e celulares e tablets Android, e suas viagens e favoritos sincronizam pela sua conta do WikiCamps."
+        ],
+        [
+          "De quem é o WikiCamps?",
+          "O WikiCamps foi fundado por Russ e Cliff e vendido em 2021 à G'day Parks, um grupo de parques turísticos. O desenvolvedor na App Store da Nova Zelândia é a WikiCamps Pty Ltd, e as reservas feitas pelo app são tratadas pelo parceiro BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Ajuda do WikiCamps: o que devo fazer se o WikiCamps não estiver funcionando direito?"
+        },
+        {
+          "label": "Ajuda do WikiCamps: atualizações forçadas a partir de março de 2026"
+        },
+        {
+          "label": "Ajuda do WikiCamps: histórico de atualizações de versão"
+        },
+        {
+          "label": "Ajuda do WikiCamps: posso voltar a usar a versão antiga do app?"
+        },
+        {
+          "label": "Ajuda do WikiCamps: não consigo entrar no WikiCamps"
+        },
+        {
+          "label": "Ajuda do WikiCamps: por que preciso de uma conta agora?"
+        },
+        {
+          "label": "Ajuda do WikiCamps: por que não existe uma versão do WikiCamps para PC?"
+        },
+        {
+          "label": "Ajuda do WikiCamps: o app não abre sem conexão com a internet"
+        },
+        {
+          "label": "Dados da página do WikiCamps Nova Zelândia (Apple, loja da Nova Zelândia)"
+        },
+        {
+          "label": "Camps Australia Wide: comentário sobre a venda do WikiCamps à G'day Parks (outubro de 2021)"
         }
       ],
       "priceTable": null
@@ -24479,306 +24968,5 @@
         ]
       }
     }
-  },
-  "consent": {
-    "label": "Preferências de privacidade",
-    "text": "A KiwiCamping pode usar cookies do Google Analytics para perceber que páginas ajudam os viajantes? Nunca são usados para publicidade.",
-    "accept": "Aceitar",
-    "decline": "Recusar",
-    "policy": "Política de privacidade",
-    "choices": "Preferências de privacidade"
-  },
-  "tools": {
-    "shared": {
-      "breadcrumbHome": "Início",
-      "breadcrumbTools": "Calculadoras",
-      "howTitle": "Como se calcula",
-      "exampleTitle": "Exemplo prático",
-      "assumptionsTitle": "Pressupostos",
-      "sourcesTitle": "Fontes",
-      "faqTitle": "Perguntas frequentes",
-      "guidesTitle": "Guias relacionados",
-      "otherToolsTitle": "Mais calculadoras para a tua viagem de carro",
-      "openTool": "Abrir a calculadora",
-      "ctaEyebrow": "Planeia na KiwiCamping",
-      "ctaTitle": "Encontra as paragens e depois faz as contas.",
-      "ctaText": "Podes transferir a KiwiCamping gratuitamente para o iPhone. Na app, os holiday parks, os alojamentos e os tours que podes reservar são gratuitos. Os parques de campismo do DOC, os refúgios, os pontos de despejo e os guias abrem com o Pass.",
-      "ctaButton": "Transferir a app",
-      "enterValidValues": "Introduz valores válidos",
-      "enterValidAmount": "Introduz um montante válido"
-    },
-    "index": {
-      "metaTitle": "Calculadoras para a Nova Zelândia: combustível, horas e campismo",
-      "metaDescription": "Calculadoras gratuitas para a Nova Zelândia: combustível, tempo de condução por tipo de estrada, campismo por pessoa ou por lugar, conversão de NZD e água da campervan.",
-      "toolsTitle": "Uma calculadora para cada pergunta",
-      "toolsText": "Cada calculadora tem a sua própria página, com a fórmula, um exemplo prático com valores da Nova Zelândia, os pressupostos por trás e respostas às perguntas mais frequentes."
-    },
-    "fuel": {
-      "metaTitle": "Calculadora de combustível na Nova Zelândia para campervan",
-      "metaDescription": "Calcula litros e custo de combustível na Nova Zelândia com a distância, os l/100 km e o preço na bomba, com fórmula, um exemplo de 1.000 km e a referência do MBIE.",
-      "eyebrow": "Calculadora de combustível",
-      "cardEyebrow": "Calculadora de combustível",
-      "h1": "Calculadora de custo de combustível para uma viagem pela Nova Zelândia",
-      "intro": "Introduz a distância do percurso, o consumo do veículo com carga e o preço por litro. O preço predefinido é a média nacional do MBIE para a gasolina normal 91: {fuelPrice} por litro na semana de {fuelDate}. A gasolina premium 95, o gasóleo e as road user charges estão na tabela abaixo.",
-      "cardTitle": "Põe preço aos quilómetros.",
-      "cardText": "Introduz a distância total do percurso, o consumo do veículo com carga e o preço previsto por litro. Em zonas remotas, os preços podem ser superiores aos valores de referência das cidades.",
-      "labelDistance": "Distância (km)",
-      "labelConsumption": "Consumo (l/100 km)",
-      "labelPrice": "Preço do combustível (NZD/l)",
-      "formula": [
-        "Litros = distância (km) × consumo (l/100 km) ÷ 100",
-        "Custo = litros × preço por litro (NZD)"
-      ],
-      "formulaNote": "O consumo indica-se por cada 100 quilómetros, por isso dividir por 100 converte-o em litros por quilómetro. A conta é linear: se duplicares a distância, duplicam os litros e o custo.",
-      "example": "Um percurso de {distance} km numa campervan que consome {consumption} l/100 km precisa de {litres} litros de combustível. A {price} por litro, são {cost}.",
-      "assumptions": [
-        "O preço predefinido é uma referência nacional. Os postos de abastecimento remotos, incluindo na West Coast e em Fiordland, costumam cobrar mais, por isso atesta antes dos troços longos entre localidades.",
-        "Usa o consumo com carga do veículo que vais mesmo conduzir. Uma campervan cheia, em subidas e com vento de frente, gasta mais do que o valor do folheto.",
-        "Soma as voltas locais em redor de cada paragem. As idas ao supermercado, os miradouros e as estradas secundárias acumulam-se ao longo de um percurso comprido.",
-        "Os veículos a gasóleo pagam road user charges (RUC) por cada 1.000 km, além do combustível. Esta calculadora só inclui o combustível."
-      ],
-      "faq": [
-        [
-          "Quanto combustível gasta uma campervan na Nova Zelândia?",
-          "Depende do veículo, da carga e das estradas. Consulta o valor oficial do veículo no Rightcar (rightcar.govt.nz) ou pergunta à empresa de aluguer, e acrescenta uma margem para subidas e carga completa. Os 12 l/100 km predefinidos são um valor de planeamento para uma autocaravana carregada, não uma média medida."
-        ],
-        [
-          "Uma autocaravana a gasóleo ou a gasolina sai mais barata?",
-          "O gasóleo é mais barato na bomba, mas um veículo ligeiro a gasóleo paga também road user charges de {ruc} por cada 1.000 km, que não entram no preço da bomba nem nesta calculadora. Em 1.000 km a 12 l/100 km, são {dieselTotal} a gasóleo com RUC contra {petrolTotal} a gasolina normal 91, por isso depende de quanto menos o gasóleo consome. Pergunta à empresa de aluguer se as RUC estão incluídas na tarifa."
-        ],
-        [
-          "Quanto custa a gasolina na Nova Zelândia neste momento?",
-          "Os preços médios nacionais do MBIE para a semana de {fuelDate} eram {fuelPrice} por litro para a gasolina normal 91, {premiumPrice} para a premium 95 e {dieselPrice} para o gasóleo. A calculadora parte do preço da 91. O MBIE publica os preços todas as semanas e os postos isolados cobram muitas vezes mais, por isso confirma antes de partires."
-        ]
-      ],
-      "pricesTitle": "Preços atuais dos combustíveis na Nova Zelândia",
-      "pricesNote": "Preços médios nacionais na bomba publicados pelo MBIE para a semana de {fuelDate}, provisórios, em dólares neozelandeses por litro com impostos. Os veículos ligeiros a gasóleo até 3.500 kg pagam ainda road user charges (RUC) de {ruc} por cada 1.000 km, que não estão incluídas no preço da bomba.",
-      "pricesHead": [
-        "Combustível",
-        "Preço por litro",
-        "{distance} km a {consumption} l/100 km"
-      ],
-      "fuelRegular": "Gasolina normal 91",
-      "fuelPremium": "Gasolina premium 95",
-      "fuelDiesel": "Gasóleo",
-      "dieselRuc": "{cost} mais {ruc} de RUC"
-    },
-    "drive": {
-      "metaTitle": "Tempo de condução na Nova Zelândia: horas por tipo de estrada",
-      "metaDescription": "Estima quanto dura mesmo um dia de condução na Nova Zelândia com a distância, o tipo de estrada e as paragens, com a fórmula, um exemplo prático e as velocidades usadas.",
-      "eyebrow": "Calculadora de tempo de condução",
-      "cardEyebrow": "Estimativa do dia de condução",
-      "h1": "Calculadora de tempo de condução para as estradas da Nova Zelândia",
-      "intro": "As apps de navegação dão o tempo em movimento numa estrada ideal. Esta calculadora usa a distância que já sabes, uma velocidade média para o tipo de estrada e 20 minutos por cada paragem, e é aí que um dia de condução na Nova Zelândia costuma demorar mais do que o previsto.",
-      "cardTitle": "Quanto demora mesmo esse dia.",
-      "cardText": "As apps de navegação dão o tempo em movimento numa estrada ideal. Aqui somam-se o tipo de estrada e as paragens reais, e é aí que um dia costuma demorar mais do que o previsto.",
-      "labelDistance": "Distância (km)",
-      "labelRoadType": "Tipo de estrada",
-      "roadMotorway": "Autoestrada ou estrada reta fora das localidades",
-      "roadHighway": "Estrada principal",
-      "roadWinding": "Sinuosa ou costeira",
-      "roadNarrow": "Estreita, íngreme ou de terra batida",
-      "labelStops": "Paragens",
-      "hoursMinutes": "{hours} h {minutes} min",
-      "formula": [
-        "Minutos de condução = distância (km) ÷ velocidade média (km/h) × 60",
-        "Minutos totais = minutos de condução + 20 × paragens"
-      ],
-      "formulaNote": "A velocidade média não é o limite de velocidade. Tem em conta curvas, subidas, pontes de uma via, localidades e trânsito mais lento. Os quatro tipos de estrada usam 85, 70, 60 e 45 km/h.",
-      "example": "Um dia de {distance} km em estradas sinuosas ou costeiras a {speed} km/h dá {driving} de condução. Se somares {stops} paragens de 20 minutos cada, o dia demora {total}.",
-      "assumptions": [
-        "As velocidades médias são valores de planeamento para um carro ou campervan em boas condições, não médias medidas numa estrada em concreto.",
-        "Cada paragem conta 20 minutos para combustível, comida, casa de banho ou um miradouro. Os ferries, as obras na estrada e as caminhadas longas têm de ser acrescentados à parte.",
-        "O tempo, os deslizamentos de terras e os cortes de estrada alteram os percursos. Antes de partires, consulta o planeador de viagens da NZTA para saber o estado atual das estradas."
-      ],
-      "faq": [
-        [
-          "Quantos quilómetros consegues fazer num dia na Nova Zelândia?",
-          "Não há um número único. As estradas sinuosas, as pontes de uma via e as paragens mantêm as velocidades médias bem abaixo do limite fora das localidades, por isso um dia que parece curto no mapa pode ocupar a maior parte das horas de luz. Introduz a distância e o tipo de estrada para ver as horas e planeia pausas regulares."
-        ],
-        [
-          "Porque é que isto dá mais tempo do que a minha app de mapas?",
-          "As apps de mapas estimam o tempo em movimento, sem paragens. Aqui usa-se uma média para o tipo de estrada e soma-se tempo por cada paragem, o que se aproxima mais de como corre mesmo um dia de campismo."
-        ],
-        [
-          "Funciona para uma campervan?",
-          "Sim. Escolhe um tipo de estrada mais lento se conduzires um veículo grande, se levares um atrelado ou se ainda não estiveres habituado a conduzir pela esquerda."
-        ]
-      ],
-      "routesTitle": "Tempos de condução entre as principais localidades da Nova Zelândia",
-      "routesNote": "Tempos de planeamento sem paragens pela rota principal das State Highways. Acrescenta tempo para paragens, obras e meteorologia, e confirma no site da NZTA se há estradas cortadas antes de partires.",
-      "routesHead": [
-        "Percurso",
-        "Distância",
-        "Tempo de condução"
-      ],
-      "routes": [
-        [
-          "De Auckland a Wellington",
-          "640 km",
-          "8 a 8,5 horas"
-        ],
-        [
-          "De Auckland à Bay of Islands",
-          "240 km",
-          "3 a 3,5 horas"
-        ],
-        [
-          "De Picton a Christchurch por Kaikōura",
-          "Cerca de 336 km",
-          "4,5 a 5 horas"
-        ],
-        [
-          "De Christchurch a Queenstown por Tekapo",
-          "Cerca de 480 km",
-          "Cerca de 6 horas"
-        ],
-        [
-          "De Christchurch a Dunedin",
-          "360 km",
-          "Cerca de 5 horas"
-        ],
-        [
-          "De Queenstown a Te Anau",
-          "170 km",
-          "Cerca de 2 horas"
-        ],
-        [
-          "De Te Anau a Milford Sound",
-          "120 km",
-          "Cerca de 2 horas"
-        ]
-      ]
-    },
-    "campsite": {
-      "metaTitle": "Custo do campismo na Nova Zelândia: por pessoa ou por lugar?",
-      "metaDescription": "Compara um parque de campismo do DOC com preço por adulto e um holiday park com preço por lugar para o teu grupo e as tuas noites, com fórmula, exemplo e taxas do DOC.",
-      "eyebrow": "Calculadora de custo de campismo",
-      "cardEyebrow": "Comparação de parques de campismo",
-      "h1": "Calculadora de custo de campismo: por pessoa ou por lugar",
-      "intro": "Os parques de campismo do DOC cobram por adulto e por noite, enquanto um holiday park costuma cobrar por lugar. Qual dos dois sai mais barato muda consoante o tamanho do grupo, e aqui fazes a conta para as tuas noites.",
-      "cardTitle": "Por pessoa ou por lugar?",
-      "cardText": "Um parque de campismo do DOC costuma cobrar por adulto e um holiday park costuma cobrar por lugar. A opção mais barata muda consoante o tamanho do grupo, o que apanha as famílias de surpresa.",
-      "labelAdults": "Adultos",
-      "labelNights": "Noites",
-      "labelPerAdult": "Por adulto (NZD)",
-      "labelPerSite": "Por lugar (NZD)",
-      "comparison": "{perAdult} vs {perSite} · {verdict}",
-      "theSame": "sai ao mesmo preço",
-      "perAdultCheaper": "o preço por adulto sai mais barato",
-      "perSiteCheaper": "o preço por lugar sai mais barato",
-      "formula": [
-        "Total por adulto = adultos × noites × preço por adulto",
-        "Total por lugar = noites × preço por lugar",
-        "O total mais baixo é a opção mais barata para o teu grupo"
-      ],
-      "formulaNote": "O total por adulto aumenta com cada adulto a mais, ao passo que o total por lugar não. É por isso que a resposta muda entre um casal e uma família.",
-      "example": "{adults} adultos que fiquem {nights} noites a {rateAdult} por adulto pagam {totalAdult}. A mesma estadia a {rateSite} por lugar custa {totalSite}, por isso {verdict}.",
-      "assumptions": [
-        "As crianças ficam de fora. Muitos parques de campismo do DOC cobram uma taxa reduzida dos 5 aos 17 anos e nada pelos bebés, e os holiday parks definem os seus próprios preços para crianças.",
-        "Os preços predefinidos são exemplos, não orçamentos. Nos dados do DOC de {docDate}, {docFree} parques de campismo do DOC são gratuitos, e a taxa mais baixa por adulto indicada nos que são pagos varia entre {docMin} e {docMax} por noite.",
-        "Os holiday parks definem os seus próprios preços, que mudam com a época, a eletricidade e o tamanho do lugar. Confirma no parque antes de reservares."
-      ],
-      "faq": [
-        [
-          "Quanto custa uma noite de campismo na Nova Zelândia?",
-          "Os parques de campismo do DOC são gratuitos ou cobram por adulto. Nos dados do DOC de {docDate}, a taxa mais baixa por adulto nos parques de campismo do DOC pagos varia entre {docMin} e {docMax} por noite, com uma mediana de {docMedian}. Os holiday parks definem os preços dos seus lugares, por isso compara o total para o teu grupo."
-        ],
-        [
-          "Para uma família, sai mais barato pagar por pessoa ou por lugar?",
-          "Pagar por lugar costuma compensar à medida que o grupo cresce, porque o preço do lugar não muda, enquanto os preços por adulto se multiplicam. Introduz os teus preços para ver onde fica o ponto de equilíbrio."
-        ],
-        [
-          "As crianças pagam nos parques de campismo do DOC?",
-          "Em muitos parques de campismo do DOC, as crianças dos 5 aos 17 anos pagam uma taxa reduzida e os bebés não pagam. A taxa de cada parque está na respetiva página do DOC."
-        ]
-      ]
-    },
-    "currency": {
-      "metaTitle": "Conversor de NZD: preços da Nova Zelândia em 9 moedas",
-      "metaDescription": "Converte preços em dólares neozelandeses de e para USD, EUR, GBP, AUD, JPY, CNY, KRW, INR e SGD com as taxas de referência do Reserve Bank of New Zealand.",
-      "eyebrow": "Conversor de moeda",
-      "cardEyebrow": "Conversor de moeda",
-      "h1": "Conversor de NZD para preços de viagem na Nova Zelândia",
-      "intro": "Converte um preço neozelandês para a tua moeda, ou a tua moeda para dólares neozelandeses, com as taxas de referência do Reserve Bank of New Zealand de {rateDate}.",
-      "cardTitle": "Converte um preço neozelandês.",
-      "cardText": "Conversão de referência para planear a viagem, com as taxas do Reserve Bank of New Zealand de {rateDate}. O teu banco ou cartão pode usar outra taxa e cobrar comissões.",
-      "labelAmount": "Montante",
-      "labelFrom": "De",
-      "labelTo": "Para",
-      "formula": [
-        "Montante em NZD = montante ÷ taxa da moeda de origem",
-        "Resultado = montante em NZD × taxa da moeda de destino"
-      ],
-      "formulaNote": "Cada taxa é o número de unidades dessa moeda por 1 dólar neozelandês, por isso todas as conversões passam pelo NZD.",
-      "example": "{amount} a {rate} dólares norte-americanos por dólar neozelandês são {converted}.",
-      "assumptions": [
-        "Estas são taxas de referência de {rateDate}. As taxas de câmbio mudam todos os dias.",
-        "Os bancos, os cartões e as caixas multibanco usam as suas próprias taxas e podem cobrar comissões, por isso o valor que pagas pode ser diferente.",
-        "O iene japonês e o won sul-coreano aparecem sem casas decimais."
-      ],
-      "faq": [
-        [
-          "Que moeda se usa na Nova Zelândia?",
-          "O dólar neozelandês (NZD). Os preços nas lojas, nos parques de campismo e nos holiday parks são indicados em NZD."
-        ],
-        [
-          "É esta a taxa que o meu banco me vai dar?",
-          "Provavelmente não será exatamente igual. A calculadora usa taxas de referência de {rateDate}. O teu banco ou o emissor do cartão aplica a sua própria taxa e comissões, por isso trata o resultado como um valor de planeamento."
-        ]
-      ]
-    },
-    "water": {
-      "metaTitle": "Calculadora de água da campervan: dias de água limpa e cinzenta",
-      "metaDescription": "Calcula quantos dias duram os depósitos de água limpa e de águas cinzentas da campervan para o teu grupo, com fórmula, um exemplo prático e os consumos diários usados.",
-      "eyebrow": "Calculadora de depósitos de água",
-      "cardEyebrow": "Planeador de água e águas residuais",
-      "h1": "Calculadora de depósitos de água para campervan",
-      "intro": "A capacidade de um depósito em litros só é útil quando a traduzes em dias. Introduz a capacidade de água limpa e de águas cinzentas e o número de pessoas para ver qual dos depósitos define o teu limite.",
-      "cardTitle": "Quantos dias em autonomia.",
-      "cardText": "A capacidade em litros só é útil quando expressa em dias. A água limpa e as águas cinzentas aparecem em separado, porque o depósito que acabar primeiro define o limite.",
-      "labelFresh": "Água limpa (l)",
-      "labelGrey": "Águas cinzentas (l)",
-      "labelPeople": "Pessoas",
-      "days": "{fresh} dias de água limpa · {grey} dias de águas cinzentas",
-      "formula": [
-        "Dias de água limpa = depósito de água limpa (l) ÷ (pessoas × 11 l por dia)",
-        "Dias de águas cinzentas = depósito de águas cinzentas (l) ÷ (pessoas × 9 l por dia)",
-        "O mais baixo dos dois é o tempo que podes ficar antes de teres de encher ou esvaziar"
-      ],
-      "formulaNote": "As águas cinzentas são a água usada dos lava-loiças e dos duches. O volume fica abaixo do consumo de água limpa porque nem toda a água de beber e de cozinhar acaba no depósito.",
-      "example": "{people} pessoas com um depósito de água limpa de {freshTank} litros e um depósito de águas cinzentas de {greyTank} litros têm {freshDays} dias de água limpa e {greyDays} dias de águas cinzentas, por isso o depósito de água limpa define o limite.",
-      "assumptions": [
-        "11 litros de água limpa e 9 litros de águas cinzentas por pessoa e por dia são valores de planeamento para um uso cuidadoso: beber, cozinhar, lavar a loiça e uma lavagem rápida. Os duches gastam muito mais.",
-        "As cassetes da sanita e as águas negras não estão incluídas.",
-        "Esvazia as águas cinzentas só num ponto de despejo. Nunca para o chão nem para uma sarjeta."
-      ],
-      "faq": [
-        [
-          "Quanto tempo duram 100 litros de água limpa numa campervan?",
-          "Para duas pessoas com um uso cuidadoso, a 11 litros cada por dia, cerca de quatro dias e meio. Os duches e lavar roupa encurtam bastante esse tempo."
-        ],
-        [
-          "Onde posso esvaziar as águas cinzentas na Nova Zelândia?",
-          "Num ponto de despejo. Muitos holiday parks têm um e as câmaras municipais gerem pontos públicos em muitas localidades. Nunca esvazies as águas cinzentas para o chão nem para uma sarjeta."
-        ],
-        [
-          "Qual dos depósitos se esgota primeiro?",
-          "O que for mais pequeno para o teu consumo. Os depósitos de águas cinzentas costumam ser mais pequenos do que os de água limpa, por isso verifica os dois e não apenas o indicador da água limpa."
-        ]
-      ]
-    }
-  },
-  "answers": {
-    "doc-campsites-new-zealand-guide": "Quando um refúgio ou parque de campismo está esgotado, a KiwiCamping mostra todos os refúgios e parques do DOC por perto, com a categoria, o preço e se aceitam reservas.",
-    "campfire-rules-new-zealand": "A KiwiCamping mostra as instalações de cada parque de campismo do DOC, incluindo se é permitido fazer fogueiras, e os detalhes de cada local ficam legíveis sem rede.",
-    "camping-wastewater-rubbish-new-zealand": "A KiwiCamping mostra no mapa 262 pontos de despejo com os respetivos preços, para encontrares o mais próximo antes de um depósito encher.",
-    "freedom-camping-rules-new-zealand": "A KiwiCamping assinala no mapa os avisos do DOC sobre campismo livre, para veres antes de estacionar onde é proibido ou limitado em terrenos de conservação.",
-    "where-to-camp-in-new-zealand": "A KiwiCamping junta num só mapa os parques de campismo e refúgios do DOC, os holiday parks e as zonas de campismo livre, com filtros de preço e instalações.",
-    "doc-huts-new-zealand-guide": "A KiwiCamping lista os refúgios do DOC por região, com a categoria, o preço e se se podem reservar, legíveis sem rede no trilho.",
-    "campervan-road-rules-new-zealand": "O planeador de viagens da KiwiCamping põe as tuas paragens por ordem e mostra a distância entre elas, para cada dia de condução ser exequível de autocaravana.",
-    "east-cape-road-trip": "Guarda as paragens do East Cape numa viagem da KiwiCamping para veres a distância do percurso e manteres parques de campismo, datas e notas em ordem.",
-    "tool:fuel": "As viagens da KiwiCamping somam a distância do percurso entre as tuas paragens, que é o número de que esta calculadora precisa.",
-    "tool:drive": "Monta o percurso na KiwiCamping para veres a distância entre as paragens e calcula aqui o tempo de cada dia de condução."
   }
 }
