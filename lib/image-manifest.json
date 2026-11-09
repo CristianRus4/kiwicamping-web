@@ -2407,6 +2407,20 @@
       }
     ]
   },
+  "/images/articles/new-zealand-experiences-under-100-dollars.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/new-zealand-experiences-under-100-dollars-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/new-zealand-experiences-under-100-dollars.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/new-zealand-grocery-prices-2026.webp": {
     "width": 1600,
     "height": 900,

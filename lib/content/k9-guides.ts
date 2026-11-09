@@ -207,4 +207,53 @@ export const k9Articles: Article[] = [
       { label: "Fisheries New Zealand: recreational fishing rules", url: "https://www.mpi.govt.nz/fishing-aquaculture/recreational-fishing/" },
     ],
   }),
+  a({
+    slug: "new-zealand-experiences-under-100-dollars",
+    title: "New Zealand Experiences Under NZ$100 for Campers: Free Walks, Hot Pools and Cheap Days Out",
+    description: "Free and cheap things to do in New Zealand on a camping budget: free walks and beaches, natural hot spots, hot pools, caves, cycling and day trips under NZ$100, and what to skip or save for when money allows.",
+    category: "Costs & budget",
+    region: "New Zealand",
+    places: ["Hot Water Beach", "Rotorua", "Auckland", "Hokitika", "Punakaiki", "Hanmer Springs"],
+    imageAlt: "People digging their own hot pools in the sand at Hot Water Beach on the Coromandel",
+    related: ["campervan-budget-new-zealand", "camping-fees-new-zealand-2026", "new-zealand-travel-cost-2026", "new-zealand-grocery-prices-2026", "scenic-campsites-new-zealand", "easy-campervan-meals-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "The best things in New Zealand cost very little. Most of the beaches, forest walks, lookouts, waterfalls and wildlife stops are free, and many of the famous ones are too. Add a hot pool, a cave or a cycle hire and a day out still comes in under NZ$100, which makes the country work well for a camper. The costs that bite are the big-ticket activities, and it helps to know which ones are worth the money and which can wait.",
+    sections: [
+      s("Free, and some of the best", [
+        "DOC maintains thousands of kilometres of walking tracks, and most day walks are free: forest loops, lakeside walks, coastal tracks and lookouts. Famous free stops include the Pancake Rocks at Punakaiki, the Moeraki Boulders, Cape Reinga, Hokitika Gorge, the Mount Maunganui and Maungawhau Mount Eden summits and a long list of beaches. Seal colonies at places like Kaikōura are free to watch from a safe distance, as long as you keep well back.",
+        "Hot Water Beach on the Coromandel is a good example: dig your own hot pool in the sand around low tide, and it costs nothing but a spade you can hire or borrow. In Rotorua, Kuirau Park has free steaming pools and mud, and the Redwoods forest has free walking and mountain biking tracks. Check the DOC page for each track before you go, since closures happen after storms.",
+      ], ["Most DOC day walks are free", "Dig your own hot pool at Hot Water Beach", "Rotorua's Kuirau Park is free"]),
+      s("Natural hot water and glowworms", [
+        "A few hot streams and pools are free, such as Kerosene Creek near Rotorua, and others cost only a small entry. Natural hot water carries a health risk: the water can be very hot or contain organisms, so follow DOC's warnings and keep your head out of the water at thermal pools. In many towns, you can find a glowworm spot after dark for nothing, with the Hokitika Glowworm Dell a well-known example.",
+        "Bring a torch for the walk in and switch it off when you reach the glowworms, as they react to light. A trip to a free glowworm dell is often as good as a cave tour at a fraction of the price.",
+      ], ["Kerosene Creek is free, but follow the warnings", "Hokitika Glowworm Dell is free at night", "Switch the torch off for glowworms"]),
+      s("Under about NZ$50", [
+        "The commercial hot pools at places like Hanmer Springs, Tekapo and Rotorua cost roughly NZ$30 to NZ$50 for an adult, and many have a cheaper family or twilight rate. A ride on the Skyline gondola and luge in Rotorua or Queenstown, a ferry to Waiheke or Stewart Island for the day, a wildlife sanctuary such as Zealandia in Wellington and many of the small museums are in the same bracket.",
+        "Hire a bike for a day on one of the Great Rides, such as the Great Taste Trail near Nelson, or hire a kayak for a few hours in the Abel Tasman or the Marlborough Sounds. Prices change each season, so look at the operator's page for the current rate and any off-peak discount.",
+      ], ["Commercial hot pools: roughly NZ$30 to NZ$50", "Gondolas, luges and sanctuaries", "Bike and kayak hire by the day"]),
+      s("Up to NZ$100", [
+        "A guided cave tour at Waitomo or the West Coast, a half-day kayak tour, a wine tasting with a lunch and a day on a ferry or boat cruise with a guide usually land under NZ$100 a person, though some run over in peak season. This is where the best value is, because one good guided experience on a trip adds more than a string of average ones.",
+        "Some of the headline experiences cost more: Milford Sound cruises, Hobbiton, skydives, bungy jumps, heli-hikes and many Queenstown activities often exceed NZ$100 each. If one of these is a must for you, book it, and balance the budget with free days around it.",
+      ], ["Guided cave and kayak tours", "One good guided trip beats many average ones", "Big-ticket activities often cost more"]),
+      s("Saving money around the activities", [
+        "The camping itself keeps costs down, with free and low-cost DOC sites, and your own meals do more for the budget than skipping an activity. The easy campervan meals guide has simple recipes, and the camping fees guide shows what sites cost. Fuel is the other big cost, so slow down and plan a loop rather than backtracking.",
+        "Look for free days and discounts: some museums and galleries have free entry, many operators have off-peak and twilight rates, and a combined pass or a booking made online can be cheaper than walk-up. Ask at holiday parks and visitor centres, which often have local discounts and good advice.",
+      ], ["Cooking your own meals saves the most", "Off-peak and online prices are lower", "Ask at the visitor centre"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for fees, facilities and campervan access, so you can find free and low-cost places to stay near the things you want to do. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop, which matters for the outdoor days on this list.",
+        "Free to download, with in-app purchases.",
+      ], ["Filter for free and low-cost camps", "Add stops to a trip with dates", "Forecast at each stop"], true),
+    ],
+    faq: [
+      ["What are the best free things to do in New Zealand?", "Most DOC day walks, beaches and lookouts, the Pancake Rocks at Punakaiki, Hot Water Beach at low tide, the Moeraki Boulders and Kuirau Park in Rotorua are all free."],
+      ["How much does a day out cost in New Zealand?", "Many days cost nothing, a hot pool or gondola is roughly NZ$30 to NZ$50, and guided tours often come in under NZ$100. Big-ticket activities such as skydives and Milford cruises usually cost more."],
+    ],
+    sources: [
+      { label: "DOC: places to go", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/" },
+      { label: "DOC: walking and tramping", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/" },
+      { label: "Tourism New Zealand: things to do", url: "https://www.newzealand.com/" },
+      { label: "NZ Cycle Trail: Great Rides", url: "https://www.nzcycletrail.com/" },
+    ],
+  }),
 ];

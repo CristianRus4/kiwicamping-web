@@ -241,3 +241,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `punakaiki-oparara-basin-camping` | Punakaiki Pancake Rocks - December 2025.jpg | Jun Jie Yam | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Punakaiki_Pancake_Rocks_-_December_2025.jpg) |
 | `eco-stays-near-new-zealand-cities` | Native Bush Waitakere Ranges.jpg | Ingolfson | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Native_Bush_Waitakere_Ranges.jpg) |
 | `easy-campervan-meals-new-zealand` | Camping food outdoor.jpg | PXHERE | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Camping_food_outdoor.jpg) |
+| `new-zealand-experiences-under-100-dollars` | Hot Water Beach kz2.jpg | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hot_Water_Beach_kz2.jpg) |
