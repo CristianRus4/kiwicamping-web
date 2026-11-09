@@ -224,3 +224,16 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `surf-highway-45-camping-guide` | Mount Taranaki and Tui Tui (7087589543).jpg | Takver from Australia | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_and_Tui_Tui_(7087589543).jpg) |
 | `thermal-explorer-highway-camping-guide` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
 | `pacific-coast-highway-auckland-to-napier-camping` | Coromandel Peninsula Panorama.jpg | The original uploader was Subwaynz at English Wikipedia. | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Coromandel_Peninsula_Panorama.jpg) |
+| `auckland-3-days-campervan` | A southerly view of Piha Beach and Lion Rock, 2010.jpg | Teemu Leisti | CC0 | [Source](https://commons.wikimedia.org/wiki/File:A_southerly_view_of_Piha_Beach_and_Lion_Rock,_2010.jpg) |
+| `wellington-3-days-campervan` | Evans Bay.jpg | Turnagra | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Evans_Bay.jpg) |
+| `dunedin-3-days-campervan` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
+| `rotorua-3-days-campervan` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
+| `christchurch-to-invercargill-drive-guide` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
+| `christchurch-to-nelson-drive-guide` | Abel Tasman National Park beach plant.jpg | Hector Garcia from Barcelona, Catalonia, Spain | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Abel_Tasman_National_Park_beach_plant.jpg) |
+| `christchurch-to-marlborough-drive-guide` | Picton Harbour, Marlborough Sounds.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Picton_Harbour,_Marlborough_Sounds.jpg) |
+| `camping-base-roys-peak-wanaka` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
+| `camping-base-tongariro-alpine-crossing` | Tongariro Northern Circuit, New Zealand (22).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tongariro_Northern_Circuit,_New_Zealand_(22).JPG) |
+| `camping-base-hooker-valley-aoraki-mount-cook` | Road to Aoraki - Flickr - jokin.lacalle.jpg | jokin.lacalle | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Road_to_Aoraki_-_Flickr_-_jokin.lacalle.jpg) |
+| `heaphy-track-by-bike` | Coastline section of Heaphy Track.jpg | Christoph Strässler | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Coastline_section_of_Heaphy_Track.jpg) |
+| `great-taste-trail-by-bike` | Kaiteriteri. Nelson NZ (14773388612).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri._Nelson_NZ_(14773388612).jpg) |
+| `glamping-new-zealand` | Bay of islands at Waitangi, New Zealand.jpg | Alan Vernon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Bay_of_islands_at_Waitangi,_New_Zealand.jpg) |

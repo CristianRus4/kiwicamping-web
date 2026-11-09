@@ -69,6 +69,20 @@
       }
     ]
   },
+  "/images/articles/auckland-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/auckland-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/auckland-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/auckland-to-bay-of-islands-drive-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -489,6 +503,48 @@
       }
     ]
   },
+  "/images/articles/camping-base-hooker-valley-aoraki-mount-cook.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-base-hooker-valley-aoraki-mount-cook-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-base-hooker-valley-aoraki-mount-cook.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/camping-base-roys-peak-wanaka.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-base-roys-peak-wanaka-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-base-roys-peak-wanaka.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/camping-base-tongariro-alpine-crossing.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-base-tongariro-alpine-crossing-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-base-tongariro-alpine-crossing.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/camping-bases-best-day-walks-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -867,6 +923,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-to-invercargill-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-invercargill-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-invercargill-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christchurch-to-kaikoura-drive-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -877,6 +947,34 @@
       },
       {
         "path": "/images/articles/christchurch-to-kaikoura-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/christchurch-to-marlborough-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-marlborough-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-marlborough-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/christchurch-to-nelson-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-nelson-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-nelson-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -1073,6 +1171,20 @@
       },
       {
         "path": "/images/articles/domestic-flight-costs-new-zealand-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/dunedin-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/dunedin-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/dunedin-3-days-campervan.webp",
         "width": 1600
       }
     ]
@@ -1889,6 +2001,34 @@
       }
     ]
   },
+  "/images/articles/glamping-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/glamping-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/glamping-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/great-taste-trail-by-bike.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/great-taste-trail-by-bike-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/great-taste-trail-by-bike.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/great-walks-2027-28-bookings-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -1899,6 +2039,20 @@
       },
       {
         "path": "/images/articles/great-walks-2027-28-bookings-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/heaphy-track-by-bike.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/heaphy-track-by-bike-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/heaphy-track-by-bike.webp",
         "width": 1600
       }
     ]
@@ -2603,6 +2757,20 @@
       }
     ]
   },
+  "/images/articles/rotorua-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/rotorua-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/rotorua-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/routeburn-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,
@@ -2879,6 +3047,20 @@
       },
       {
         "path": "/images/articles/waterfalls-lakes-campgrounds-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/wellington-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wellington-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wellington-3-days-campervan.webp",
         "width": 1600
       }
     ]
