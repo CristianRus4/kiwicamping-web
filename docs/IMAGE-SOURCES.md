@@ -199,3 +199,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `family-holiday-parks-new-zealand` | Kaiteriteri Beach 4 (31578270882).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri_Beach_4_(31578270882).jpg) |
 | `matariki-camping-new-zealand-2027` | OneOne Matariki 2018.jpg | Kristina D.C. Hoeppner | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:OneOne_Matariki_2018.jpg) |
 | `lupins-and-southern-lights-camping-new-zealand` | Lupins, Lake Tekapo, NZ.jpg | Khootkheng | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Lupins,_Lake_Tekapo,_NZ.jpg) |
+| `walks-closed-for-lambing-new-zealand` | Romney sheep, ewe with triplet lambs in New Zealand.jpg | Pam | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Romney_sheep,_ewe_with_triplet_lambs_in_New_Zealand.jpg) |

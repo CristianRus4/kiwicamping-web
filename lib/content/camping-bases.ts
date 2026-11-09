@@ -517,4 +517,54 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "walks-closed-for-lambing-new-zealand",
+    title: "Walks Closed for Lambing in New Zealand: When, Where and What to Do Instead",
+    description: "Why some New Zealand tracks close for lambing from August to November, which famous walks are affected, the dog rules on farmland, how to check a closure and where to base yourself for walks that stay open.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Wānaka", "Raglan", "Taranaki", "Queenstown", "Canterbury"],
+    imageAlt: "A Romney ewe standing in a paddock with her three lambs",
+    related: ["best-time-camping-new-zealand", "dogs-camping-new-zealand", "responsible-camping-new-zealand", "school-public-holidays-new-zealand-2027", "camping-in-queenstown"],
+    hubs: ["camping"],
+    intro:
+      "Every spring some of New Zealand's best-known walks close because they cross farmland where ewes are lambing, and a visitor who has planned a trip around one can arrive to a locked gate. The closures usually run from about August to October or November, vary by track, and are set by the landowner or the managing agency. Check the closure before you drive, and have a second walk in mind that has no stock on it.",
+    sections: [
+      s("Why tracks close", [
+        "Many popular tracks cross private farms or farmed conservation land, with the landowner's permission. Through lambing, newborn lambs and their mothers are easily disturbed, and people and especially dogs can cause ewes to abandon lambs or injure them. Farmers and the managing agency close the track so the farm can work.",
+        "A closure is not a suggestion. Walking a closed track puts stock at risk, can lose access for everyone and can bring complaints and trespass notices, and it is why the sign at the gate matters more than a blog or an older guidebook.",
+      ], ["Tracks cross working farms", "Dogs and people disturb lambs", "A closure is not a suggestion"]),
+      s("Typical windows and examples", [
+        "Most lambing closures run through spring, with dates that differ by track and by year. Roys Peak near Wānaka is closed each year from 1 October to 10 November, and DOC lists tracks in places such as Taranaki and the Raglan area that close from 1 August to 31 October. Other tracks close for different periods, and some limit dogs rather than people.",
+        "Treat those as patterns, not promises. The dates change, and a cold spring or a late season can extend a closure. The only reliable source is the current alert from the managing body, which for most tracks is DOC or the local council.",
+      ], ["Roys Peak: 1 October to 10 November", "Taranaki and Raglan tracks: 1 August to 31 October", "Always check the current alert"]),
+      s("Dogs on farmland", [
+        "Even where a track stays open, dogs are often banned on farmland over lambing and calving. One DOC page notes no dogs on any farmland from 1 July to 30 September each year, and elsewhere dogs are not allowed on tracks at all because of the threat to stock and wildlife. Taking a dog across private land needs the owner's permission.",
+        "If you travel with a dog, plan the spring around dog-friendly campgrounds and tracks, and read the guide to camping with a dog for the rules at DOC campsites and the general limits on conservation land.",
+      ], ["1 July to 30 September on some farmland", "Ask the landowner first", "Plan a dog-friendly spring"]),
+      s("How to check a closure", [
+        "Check before you leave and again on the day. On conservation land the DOC page for the track shows alerts, including closures. On council tracks the council's page does the same, and for tracks on private land the landowner's or trust's own site is the place, as with walkways run by trusts. A closure can be added at short notice for a lambing early or late, so a screenshot from last month is not enough.",
+        "At the track end, read the sign and any gate notices, and ask at the nearest visitor centre. If a track is closed, treat that as a fixed decision and use the time elsewhere.",
+      ], ["DOC and council alert pages", "Private tracks: the landowner's site", "Check again on the day"]),
+      s("What to walk instead", [
+        "Spring is a good time for walks that do not cross stock, such as forest and coastal tracks and tracks in national parks. Beech forest tracks, lake shore walks and the short walks around the Great Walk huts and campsites are usually open, though snow can still close high tracks into October.",
+        "If the closure hits a walk you planned, pick a base with several options so you can swap. The guide to camping bases for the best day walks covers where to sleep for a choice of walks, and the best time to camp guide shows how the seasons shape the plan.",
+      ], ["Forest and coastal tracks stay open", "Snow can close high tracks", "Pick a base with options"]),
+      s("Using KiwiCamping in spring", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a base and a second one, add them to a trip with dates and notes, and keep the track's DOC alert page open in your browser for the latest closure.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a second base", "Keep the alert page handy", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["When are walks closed for lambing in New Zealand?", "Usually from about August to October or November, with dates set per track. Roys Peak near Wānaka closes from 1 October to 10 November each year."],
+      ["Can I take my dog on a farm track in spring?", "Often not. Dogs are commonly banned on farmland during lambing and calving, and taking one across private land needs the owner's permission."],
+    ],
+    sources: [
+      { label: "DOC: Roys Peak Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/wanaka-area/things-to-do/roys-peak-track/" },
+      { label: "DOC: Karamu Walkway South", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/waikato/places/raglan-area/tracks/karamu-walkway-south/" },
+      { label: "DOC: Rerekapa Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/taranaki/places/moki-and-makino-conservation-areas/things-to-do/rerekapa-track/" },
+      { label: "DOC: Dogs on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/dogs/" },
+    ],
+  }),
 ];

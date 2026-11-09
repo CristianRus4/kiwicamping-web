@@ -2533,6 +2533,20 @@
       }
     ]
   },
+  "/images/articles/walks-closed-for-lambing-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/walks-closed-for-lambing-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/walks-closed-for-lambing-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wanaka-haast-pass-route.webp": {
     "width": 1600,
     "height": 900,
