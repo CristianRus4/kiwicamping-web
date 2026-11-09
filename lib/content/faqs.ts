@@ -590,4 +590,9 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the best first DOC hut for a family?", "DOC lists seven bookable huts for families and new trampers. Atiwhakatu, three hours from the Mt Holdsworth road end near Masterton, and Anti Crow, three hours up a flat valley in Arthur's Pass, are its picks near Wellington and Christchurch."],
     ["How much does a DOC hut cost per night?", "At the easy bookable huts, $15 an adult at standard huts such as Atiwhakatu and Anti Crow, and $25 to $34 at serviced huts such as Bushline and Lakehead, depending on the season and day. Children under five stay free."],
   ],
+  // --- Freedom camping by island and destination ------------------------------
+  "freedom-camping-south-island": [
+    ["Can you freedom camp in the South Island?", "Yes, but almost always in a certified self-contained vehicle with a green warrant, and only where the district council or DOC allows it. Each council sets its own sites and nights, from 15 car parks in Queenstown Lakes to most council land outside listed bans in Buller and Waitaki."],
+    ["Where can you camp in a tent for free in the South Island?", "Mostly at DOC's free basic campsites, which are on conservation land and usually have a long-drop toilet. Council land is largely closed to tents: Tasman bans them on public land, Dunedin allows them only at Warrington Domain, and Marlborough only for cyclists at Blairich Reserve."],
+  ],
 };
