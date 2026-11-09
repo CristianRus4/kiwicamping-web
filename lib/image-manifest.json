@@ -2393,6 +2393,20 @@
       }
     ]
   },
+  "/images/articles/pacific-coast-highway-auckland-to-napier-camping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/pacific-coast-highway-auckland-to-napier-camping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/pacific-coast-highway-auckland-to-napier-camping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/paparoa-track-huts-booking-2026-27.webp": {
     "width": 1600,
     "height": 900,

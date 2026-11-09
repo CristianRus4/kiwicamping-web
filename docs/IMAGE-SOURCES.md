@@ -223,3 +223,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-gisborne` | 01 east coast East Island.jpg | QFSE Media | CC BY-SA 3.0 nz | [Source](https://commons.wikimedia.org/wiki/File:01_east_coast_East_Island.jpg) |
 | `surf-highway-45-camping-guide` | Mount Taranaki and Tui Tui (7087589543).jpg | Takver from Australia | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_and_Tui_Tui_(7087589543).jpg) |
 | `thermal-explorer-highway-camping-guide` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
+| `pacific-coast-highway-auckland-to-napier-camping` | Coromandel Peninsula Panorama.jpg | The original uploader was Subwaynz at English Wikipedia. | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Coromandel_Peninsula_Panorama.jpg) |

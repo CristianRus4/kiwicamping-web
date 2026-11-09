@@ -576,4 +576,56 @@ export const driveGuideArticles: Article[] = [
       { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
     ],
   }),
+
+  a({
+    slug: "pacific-coast-highway-auckland-to-napier-camping",
+    title: "Pacific Coast Highway Road Trip: Auckland to Napier by the East Coast",
+    description: "The Pacific Coast Highway from Auckland to Napier by campervan: about 730 km on State Highway 2 through Waihi, Tauranga, Whakatāne, Ōpōtiki and Gisborne in five or six nights, with distances, fuel and where to camp.",
+    category: "Road trips",
+    region: "East Coast",
+    places: ["Auckland", "Waihi", "Tauranga", "Whakatāne", "Ōpōtiki", "Gisborne", "Napier"],
+    imageAlt: "Sunlit water of a bay with long green headlands beyond on the Coromandel coast",
+    related: ["auckland-to-tauranga-drive-guide", "east-cape-road-trip", "auckland-to-napier-drive-guide", "freedom-camping-waihi-beach", "freedom-camping-whakatane-2026", "freedom-camping-gisborne"],
+    hubs: ["camping/bay-of-plenty", "camping/east-coast", "camping/hawkes-bay"],
+    intro:
+      "The Pacific Coast Highway is the name given to State Highway 2's long way round the eastern North Island, from Auckland through the Bay of Plenty and Gisborne to Napier. It is about 730 km, nearly twice the distance of the quick route through Taupō, and it is one of the better campervan trips in the country because the beaches and the camping come in a steady sequence. Plan five or six nights, and keep the Waioeka Gorge for daylight.",
+    sections: [
+      s("The route and the nights", [
+        "The highway leaves Auckland on State Highway 1 and turns onto State Highway 2 at Pōkeno, then runs through Waihi and the Karangahake Gorge to Tauranga, along the Bay of Plenty coast to Whakatāne and Ōpōtiki, over the Waioeka Gorge to Gisborne, and down the east coast through Wairoa to Napier. The Auckland to Tauranga guide covers the first stretch, and the East Cape road trip covers the loop around State Highway 35 for anyone who wants it as a side trip.",
+        "A comfortable plan is one night near Waihi or Tauranga, one at Whakatāne or Ōhope, one at Ōpōtiki or in the gorge's foothills, two in Gisborne and one at Wairoa or Mahia before Napier. The stages are short up to Ōpōtiki, and the long drive is the 150 km over the gorge to Gisborne, which is where to start early.",
+      ], ["About 730 km", "Five or six nights", "Start early for the gorge"], {
+        caption: "Approximate road distances by stage on State Highway 2. Check live conditions before each leg.",
+        head: ["Stage", "Distance", "Notes"],
+        rows: [
+          ["Auckland to Tauranga", "About 210 km", "Via Waihi and the Karangahake Gorge"],
+          ["Tauranga to Whakatāne", "About 90 km", "Beaches at Ōhope"],
+          ["Whakatāne to Ōpōtiki", "About 60 km", "Coastal flats"],
+          ["Ōpōtiki to Gisborne", "About 150 km", "Waioeka Gorge, winding"],
+          ["Gisborne to Napier", "About 215 km", "Through Wairoa"],
+        ],
+      }),
+      s("Waihi to Whakatāne", [
+        "The first nights are the easy ones. Waihi Beach is the first sea stop, with the council's rules covered in its own guide, and Tauranga and Mount Maunganui follow with the freedom camping rules the Tauranga guide explains. Whakatāne and Ōhope Beach, an hour east, have the next sites, and the Whakatāne guide covers the council's list.",
+        "This stretch has plenty of holiday parks, which book out in January, and a fair number of beach car parks closed to camping. Plan each night around a booking or a council site you have checked, and use the guide to holiday parks in New Zealand for how booking works.",
+      ], ["Waihi Beach: council rules apply", "Tauranga and Whakatāne have their own guides", "Holiday parks book out in January"]),
+      s("Ōpōtiki and the Waioeka Gorge", [
+        "Ōpōtiki is the last full-service town before the gorge, with fuel, a supermarket and a few campgrounds. The Waioeka Gorge road beyond it is sealed, narrow and winding, with few places to stop and long stretches without mobile coverage, so fill the tank and arrive at the Gisborne end before dark.",
+        "The gorge has pull-offs and walks, and the road is slow with trucks, so allow three hours and do not push it. It is closed from time to time by slips and floods, so check the NZTA Journey Planner before you set off.",
+      ], ["Fill up in Ōpōtiki", "Allow 3 hours for 150 km", "Check closures before you go"]),
+      s("Gisborne, Mahia and on to Napier", [
+        "Gisborne is the place for a rest day, with its beaches and wineries, and the guide to freedom camping in Gisborne explains Kaiti Beach and the DOC campsites along State Highway 35. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the East Coast, 8 of them free and 12 with campervan access, with adult nightly rates from $8 to $15.",
+        "South of Gisborne the highway runs to Wairoa and then the Hawke's Bay coast, with the Mahia Peninsula as a side trip for beaches. Napier's rules are in the guide to freedom camping in Napier and Hastings, and the Auckland to Napier guide covers the quicker route home if you want one.",
+      ], ["A rest day in Gisborne", "8 of 14 East Coast DOC campsites are free", "Mahia is a beach side trip"]),
+      s("Planning the Pacific Coast Highway in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations along the eastern coast, with filters for campervan access. Add each night to a trip as an ordered stop, and it shows the distance and drive time between each pair, plus a forecast for each place.",
+        "Save your places before you leave. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which drops in the Waioeka Gorge and on the Wairoa stretch. The app is free to download, with in-app purchases.",
+      ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
+    ],
+    sources: [
+      { label: "NZ Transport Agency: Journey Planner", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Gisborne District Council: Freedom camping", url: "https://gdc.govt.nz/recreation/freedom-camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];
