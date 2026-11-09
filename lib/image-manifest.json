@@ -419,6 +419,20 @@
       }
     ]
   },
+  "/images/articles/campervan-relocations-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/campervan-relocations-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/campervan-relocations-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/campervan-road-rules-new-zealand.webp": {
     "width": 1600,
     "height": 900,

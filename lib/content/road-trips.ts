@@ -780,4 +780,52 @@ export const roadTripArticles: Article[] = [
       { label: "DOC blog: your guide to booking a Great Walk", url: "https://blog.doc.govt.nz/2026/05/10/your-guide-to-booking-a-great-walk/" },
     ],
   }),
+  a({
+    slug: "campervan-relocations-new-zealand",
+    title: "Campervan Relocations in New Zealand: How the $1 Deals Work",
+    description: "How campervan relocation deals work in New Zealand: the $1 a day rates, fixed dates, kilometre limits, ferry and fuel extras, one-way routes and what to check before you book.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Auckland", "Christchurch", "Queenstown", "Wellington", "Picton"],
+    imageAlt: "Campervans parked beside a quiet road on the New Zealand West Coast",
+    related: ["campervan-budget-new-zealand", "campervan-hire-cost-new-zealand-2026", "new-zealand-driving-day-planner", "road-user-charges-campervan-new-zealand", "cook-strait-ferry-campervan-guide", "freedom-camping-rules-new-zealand"],
+    intro:
+      "A campervan relocation is a hire deal where the company needs a van moved from one depot to another and lets you drive it for a token daily rate, often $1 a day. The catch is that the dates, route and number of days are fixed, and the deals go quickly. They suit travellers with flexible plans who want a one-way trip such as Auckland to Christchurch at a fraction of the usual price. Below is how they work, what is and is not included, what to check in the small print and how to plan the trip.",
+    sections: [
+      sec("How relocation deals work", [
+        "New Zealand has more campervan hire demand in one place than another at any time, so the hire companies have to move vans between depots, mainly between Auckland and Christchurch. A relocation lets you do that driving for a very low daily rate, and the company gets the van where it needs to be. You get a set number of days to complete the trip, often 3 to 7, and sometimes the option to buy extra days.",
+        "Deals are listed by the hire companies and by relocation sites, and the best ones are gone within hours of being posted. You usually have little choice over the pick-up date, the vehicle or the route, so you build your plans around the deal rather than the other way round.",
+      ], ["Rates of $1 a day are common", "Fixed dates and a fixed route", "The best deals go within hours"]),
+      sec("What is included and what is not", [
+        "Standard insurance is usually included, but the excess can be high and some companies ask for a bond. Some deals include a fuel allowance or the Cook Strait ferry for the vehicle and driver, so read each offer to see what is covered. Fuel, campsites, food, your flights and any extras such as linen or a second driver are on top.",
+        "The distance allowance matters. Some deals cap the kilometres, such as 1,500 km for seven days, so check that the route you want fits the limit. A well-chosen relocation can still cost a quarter of a normal hire, but only if the extras do not add up. The campervan budget guide shows a typical week, and the hire cost guide explains what a normal rental costs.",
+      ], ["Check the excess and the bond", "Ferry and fuel are sometimes included", "Check the kilometre limit"], {
+        caption: "What to check on a relocation offer. Terms vary by company, so read each one.",
+        head: ["Check", "Why it matters"],
+        rows: [
+          ["Daily rate and extras", "The headline $1 a day can grow with linen, a second driver or heater hire"],
+          ["Number of days and dates", "You cannot move them, and late return can cost extra"],
+          ["Kilometre allowance", "Some deals cap the distance"],
+          ["Ferry and fuel", "Sometimes included, often not"],
+          ["Insurance excess and bond", "Can be thousands of dollars unless you pay to reduce it"],
+        ],
+      }),
+      sec("Popular routes", [
+        "The most common route is Auckland to Christchurch or the reverse, because most hire companies have depots in both cities, and many include the ferry. Queenstown and Wellington also feature. Occasionally a deal sends you the other way, from the south to the north, which suits anyone who wants to finish in Auckland for a flight.",
+        "Plan the days around what the route can offer. A 4-day Auckland to Christchurch trip is a long drive, so choose three or four stops rather than trying to see everything. The driving day planner shows how far a day can reasonably go, and the Cook Strait ferry guide covers the crossing.",
+      ], ["Auckland to Christchurch is the classic", "Choose three or four stops", "Use the day planner for the legs"]),
+      sec("Rules to remember when you drive", [
+        "You need a full driving licence valid in New Zealand and to meet the company's minimum age, which is often 21 and sometimes lower, so check each offer. Traffic keeps left, and the left-side driving guide covers roundabouts and give-way rules. Hire vans are certified self-contained, but the rules on where you can stay overnight still apply, and the freedom camping rules guide explains them.",
+        "Return the vehicle on time, with the fuel level and cleanliness the company asks for, as late fees and cleaning charges apply. Road user charges are usually handled by the hire company for a diesel van, and the road user charges guide explains how they work.",
+      ], ["Licence valid in New Zealand", "Return on time and clean", "Freedom camping rules still apply"]),
+      sec("Planning a relocation trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Once you have a relocation, save the campsites and holiday parks along your route, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you check that the days fit your limit. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Check the distance against your limit", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "NZTA: driving in New Zealand as a visitor", url: "https://nzta.govt.nz/driver-licences/driving-as-a-visitor/" },
+    ],
+  }),
 ];
