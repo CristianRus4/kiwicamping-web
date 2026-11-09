@@ -163,3 +163,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `auckland-to-tauranga-drive-guide` | Mount Maunganui, Tauranga, New Zealand (Unsplash 2FFh56Q9jWs).jpg | Tim Marshall | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Maunganui,_Tauranga,_New_Zealand_(Unsplash_2FFh56Q9jWs).jpg) |
 | `auckland-to-waitomo-hobbiton-drive-guide` | Hobbiton Movie Set, Matamata.jpg | Andres Iga | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Hobbiton_Movie_Set,_Matamata.jpg) |
 | `auckland-to-napier-drive-guide` | Napier, Part II- Art Deco - Napier9507.jpg | lumoplank | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Napier,_Part_II-_Art_Deco_-_Napier9507.jpg) |
+| `auckland-to-new-plymouth-drive-guide` | Mount Taranaki or Mount Egmont, New Zealand.jpg | Ulrich Lange, Bochum, Germany | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_or_Mount_Egmont,_New_Zealand.jpg) |
