@@ -70,4 +70,54 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-nelson",
+    title: "Freedom Camping in Nelson: Where You Can Stay",
+    description: "Where campervans can park overnight in Nelson: the council's Responsible Camping Bylaw, the central car parks, night limits, what is banned, DOC land nearby and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Nelson Tasman",
+    places: ["Nelson", "Richmond", "Atawhai", "Maitai Valley", "Tāhunanui"],
+    imageAlt: "Nelson city and its harbour seen from the hills, with Tasman Bay beyond",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tasman-2026", "nelson-abel-tasman-golden-bay", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/nelson-tasman", "freedom-camping/nelson-lakes", "freedom-camping/motueka"],
+    intro:
+      "Nelson City Council allows overnight camping in a campervan only in signed car parks near the centre, and has done so under a new Responsible Camping Bylaw since 1 October 2025. The city is strict outside those places: no camping in tents, no camping in the parks and reserves, and short stays wherever it is allowed. The reliable options are a signed central car park for a certified self-contained vehicle or one of the holiday parks around the bay.",
+    sections: [
+      s("What the council's bylaw does", [
+        "The Responsible Camping Bylaw replaced the older 2017 Freedom Camping Bylaw, and the council adopted it in July 2025 and brought it into force on 1 October 2025. It keeps the same basic idea as before: overnight stays are allowed only in a small set of listed places, each with its own vehicle limit, and everywhere else on council land is closed to camping.",
+        "A night under the bylaw runs from 10pm to 7am, and stays at the listed places are short, usually a couple of nights at a time. The council's page and the signs at each car park carry the exact limit, which has changed with the bylaw, so treat the numbers on the sign as the rule.",
+      ], ["Listed places only", "Night means 10pm to 7am", "The sign states the limit"]),
+      s("Where you can park", [
+        "The council's central-city car parks carry the freedom camping spaces: Buxton Car Park, Montgomery Car Park and Wakatu Car Park are the ones that have appeared on its lists, close to toilets and the centre of town. The council has added spaces in the central car parks while closing others, including Kinzett Terrace, Isel Park and the Maitai cricket ground, which are among the places that earlier lists used to include.",
+        "Spaces are limited, and the vehicle numbers differ from one car park to the next. Buxton has also had a small number of spaces for vehicles that are not certified self-contained, which the council introduced with the new bylaw; the number has been quoted differently by different council documents, so check the current figure on the council's page before relying on it. Arrive early in summer, when the central car parks fill before dark.",
+      ], ["Central car parks only", "A few non-certified spaces at Buxton, check the number", "Arrive early in summer"]),
+      s("Where you cannot", [
+        "Camping in tents is not allowed on council land, and neither is camping in the parks and reserves around the city, the Maitai Valley, the foreshore at Tāhunanui or the beach car parks, which is the kind of place visitors expect to find a spot. Anywhere not on the council's list should be treated as closed.",
+        "The council patrols and enforces the bylaw, and a breach can bring a $400 fine for camping where it is not allowed, with $800 for damage or waste under the national fees from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. A fine goes to the registered owner of the vehicle, which for a rental is the hire company.",
+      ], ["No tents on council land", "Parks, reserves and beaches: closed", "$400 for most breaches"]),
+      s("Dump stations and the next town", [
+        "The council lists free public dump stations for campervans on its camping page, and Nelson sits on the route between the ferry at Picton and the west coast, so it is a natural place to empty tanks and refill water. The guide to wastewater and rubbish explains the etiquette.",
+        "If the central car parks are full, the next tier is Richmond and Tasman District, whose rules are different and are covered in the guide to freedom camping in Tasman. The holiday parks around Tāhunanui and Richmond are the dependable alternative in January.",
+      ], ["Free public dump stations", "Richmond is a different council", "Holiday parks fill in January"]),
+      s("DOC land near Nelson", [
+        "Conservation land around Nelson is in Nelson Lakes National Park, the Abel Tasman and Kahurangi parks and the Richmond Range. KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, 35 of them with a fee and 31 bookable online through DOC, with adult nightly rates from $10 to $31, but only 8 have campervan access and 26 are reached on foot or by boat.",
+        "DOC's freedom camping notices cover 8 places around Nelson Lakes and 7 around Motueka, and they are DOC's rules, separate from the council's. The Nelson, Abel Tasman and Golden Bay guide covers the wider route.",
+      ], ["37 DOC campsites in Nelson Tasman", "Only 8 with campervan access", "DOC notices are separate from the council's"]),
+      s("Using KiwiCamping around Nelson", [
+        "KiwiCamping shows the DOC campsites and huts in Nelson Tasman, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's central car parks, so the council page is the source for those.",
+        "Add the Nelson night to a trip with its date and a holiday park as the fallback, and read the distance to the next stop, whether that is Abel Tasman, Golden Bay or the drive south. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council car parks: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Nelson?", "Only in the signed central car parks the council lists, such as Buxton and Montgomery, with short stays and limited spaces. Parks, reserves, beaches and tent camping are not allowed."],
+      ["When did Nelson's camping rules change?", "The Responsible Camping Bylaw came into force on 1 October 2025 and replaced the 2017 bylaw. Check the sign at each car park for the current limit."],
+    ],
+    sources: [
+      { label: "Nelson City Council: Responsible camping", url: "https://www.nelson.govt.nz/5community/2recreation/responsible-camping" },
+      { label: "Nelson City Council: Responsible Camping Bylaw", url: "https://shape.nelson.govt.nz/responsible-camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
