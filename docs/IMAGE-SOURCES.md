@@ -216,3 +216,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-matakana` | A southerly view of Piha Beach and Lion Rock, 2010.jpg | Teemu Leisti | CC0 | [Source](https://commons.wikimedia.org/wiki/File:A_southerly_view_of_Piha_Beach_and_Lion_Rock,_2010.jpg) |
 | `freedom-camping-arrowtown` | The Remarkables Queenstown. (10687031544).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:The_Remarkables_Queenstown._(10687031544).jpg) |
 | `freedom-camping-lumsden` | Lake Te Anau - 2013.04 - panoramio (1).jpg | rheins | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_-_2013.04_-_panoramio_(1).jpg) |
+| `freedom-camping-colac-bay` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |

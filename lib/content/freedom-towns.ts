@@ -834,4 +834,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-colac-bay",
+    title: "Freedom Camping at Colac Bay and the Southland Coast",
+    description: "Freedom camping at Colac Bay: Southland District Council's certified self-contained site with a two-day limit, Monkey Island at Orepuki, why Riverton has no site, and the campgrounds along the Southern Scenic Route.",
+    category: "Rules & safety",
+    region: "Southland",
+    places: ["Colac Bay", "Riverton", "Orepuki", "Tuatapere", "Curio Bay"],
+    imageAlt: "Rocky stacks and green headlands rising from clear blue water on the southern coast",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-southland-2026", "southern-scenic-route-camping", "freedom-camping-lumsden", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/southland", "freedom-camping/murihiku"],
+    intro:
+      "Colac Bay is the surf village on the Southern Scenic Route between Invercargill and Tuatapere, and Southland District Council gives it a freedom camping site for certified self-contained vehicles with a limit of two days in any 30. It is one of the more generous spots on the south coast, because the larger towns do not offer one: Riverton, the next town along, has no council site at all. Orepuki's Monkey Island, a little further west, is the easier option for a tent or a van without a certificate.",
+    sections: [
+      s("The Colac Bay site", [
+        "The council's location list shows Colac Bay, also written Oraka, as a site for certified self-contained vehicles only, with a limit of two days in any 30. Camping in tents, cars and vehicles without a certificate is not allowed there. With a green warrant on display, you park on the council reserve by the bay, and the beach and the surf break are a short walk away.",
+        "Because the stay is short, it works as an overnight on the road and not a base. The council's general rules apply: fires only in a council fire facility, dogs on a lead, generators between 8am and 9pm, and all rubbish taken with you. The guide to the self-contained campervan warrant explains what the vehicle needs.",
+      ], ["Self-contained only", "Two days in any 30", "Green warrant on display"]),
+      s("Why Riverton has no site", [
+        "Riverton, the oldest town in Southland and the last proper stop before Colac Bay, has no council freedom camping site. The bylaw maps show the whole township as camping prohibited, and the council's list does not mention it, so a van that turns up in the harbour car park risks a ticket. The nearest options are Colac Bay to the west and the council camping grounds and holiday parks in the area.",
+        "The fines are national: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A hire company passes the notice on to the renter.",
+      ], ["Riverton: all prohibited", "$400 for most breaches", "Nearest site is Colac Bay"]),
+      s("Monkey Island and the west", [
+        "Monkey Island at Orepuki is the council's other coastal site, and it is the friendly one: non-self-contained camping is allowed, with a limit of 28 days a year, and no drinking water, so bring your own. It suits a tent or a van without a certificate and a night under the Foveaux Strait sky.",
+        "Beyond it, Tuatapere has no site, and Curio Bay's campground, further east in the Catlins, takes bookings, and the council's page said it was temporarily closed for maintenance when read in October 2026. Check each before you drive, because the south coast is remote and the next bed can be an hour away.",
+      ], ["Monkey Island: 28 days a year", "No drinking water", "Tuatapere: no site"]),
+      s("Campgrounds and DOC land", [
+        "For a booked bed, the holiday parks and motor camps at Invercargill, Riverton and Tuatapere take tents and campervans, with powered sites and kitchens. The Southern Scenic Route guide covers the stops between Dunedin and Queenstown, and the guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60. The Hump Ridge Track starts near Tuatapere and books separately through its own trust.",
+      ], ["5 DOC campsites in Southland", "Book holiday parks ahead in summer", "Hump Ridge books separately"]),
+      s("Using KiwiCamping on the south coast", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations along the Southland coast, with filters for campervan access, though not the council's freedom camping reserves. Use the council's map for Colac Bay and Monkey Island, and keep a campground saved for each night.",
+        "Put Colac Bay into a trip with the legs either side, Invercargill about 45 minutes east and Tuatapere half an hour west, and plan fuel at Invercargill or Riverton. Saved places stay on the phone, and the map, routing, forecast and photos wait for signal, which is patchy past Orepuki. The app is free to download, with in-app purchases.",
+      ], ["Council map decides the reserves", "Fuel up in Invercargill or Riverton", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Colac Bay?", "Yes, in a certified self-contained vehicle, for up to two days in any 30. Tents and uncertified vehicles are not allowed there."],
+      ["Where can I camp in a tent on the Southland coast?", "Monkey Island at Orepuki allows non-self-contained camping for up to 28 days a year, with no drinking water. Otherwise use a holiday park or a campground."],
+    ],
+    sources: [
+      { label: "Southland District Council: freedom camping", url: "https://southlanddc.govt.nz/services/freedom-camping/" },
+      { label: "Southland District Council: freedom camping locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
