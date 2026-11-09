@@ -461,6 +461,20 @@
       }
     ]
   },
+  "/images/articles/camping-in-auckland.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-in-auckland-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-in-auckland.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/camping-in-kaikoura.webp": {
     "width": 1600,
     "height": 900,

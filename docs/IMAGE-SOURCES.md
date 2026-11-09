@@ -193,3 +193,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-in-paihia-bay-of-islands` | Paihia Beach (3364291063).jpg | Sids1 from New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Paihia_Beach_(3364291063).jpg) |
 | `camping-in-tekapo` | Lake Tekapo 03.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo_03.jpg) |
 | `camping-in-queenstown` | Queenstown from Bob's Peak.jpg | Lawrence Murray from Perth, Australia | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg) |
+| `camping-in-auckland` | Auckland Skyline as seen from Devonport 20100128 3.jpg | DXR | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Auckland_Skyline_as_seen_from_Devonport_20100128_3.jpg) |
