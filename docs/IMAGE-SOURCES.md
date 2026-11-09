@@ -160,3 +160,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `road-user-charges-campervan-new-zealand` | Gas station, Waikari, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Gas_station,_Waikari,_Canterbury,_New_Zealand.jpg) |
 | `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |
 | `is-camping-in-new-zealand-safe` | Cyclist crossing the Hurunui River.JPG | Alan Liefting | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cyclist_crossing_the_Hurunui_River.JPG) |
+| `volcanic-loop-road-trip-new-zealand` | Tongariro Northern Circuit, New Zealand (22).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tongariro_Northern_Circuit,_New_Zealand_(22).JPG) |
