@@ -403,7 +403,7 @@ export const listicleArticles: Article[] = [
     region: "New Zealand",
     places: ["DOC campsites", "DOC huts", "Private land stays", "4WD tracks", "Australia"],
     imageAlt: "A house bus, cars and a small tent at Cameron Flat campsite below the forested peaks of Mount Aspiring National Park",
-    related: ["best-nz-camping-apps", "rankers-alternatives", "freedom-camping-rules-new-zealand"],
+    related: ["wikicamps-not-working-new-zealand", "best-nz-camping-apps", "freedom-camping-rules-new-zealand"],
     intro:
       "WikiCamps New Zealand is a paid app with a loyal following: NZ$7.99 once on the New Zealand App Store, 4.5 stars from 137 New Zealand ratings when we checked on 20 October 2026, and more than 12,000 New Zealand sites that its own users have added. Most people who search for an alternative are not unhappy with it so much as unsure: whether to pay for an app when free ones exist, whether user-added listings are current, or whether they will need a second copy for Australia. KiwiCamping is our app, so it comes first below, but each entry says plainly what it does better than WikiCamps and when WikiCamps is still the better buy.",
     sections: [
@@ -465,6 +465,80 @@ export const listicleArticles: Article[] = [
       { label: "Overland Navigator listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=1451030537&country=nz" },
       { label: "NZMCA membership", url: "https://www.nzmca.org.nz/join-us" },
       { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
+
+  a({
+    slug: "wikicamps-not-working-new-zealand",
+    title: "WikiCamps Not Working in New Zealand? Fixes for Sign-In, Updates and Lost Trips (2026)",
+    description: "WikiCamps New Zealand won't open, keeps asking you to sign in or forces an update? The fixes from WikiCamps' own help centre, the old version and PC questions, and who owns it now.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["App Store", "Google Play", "West Coast", "Fiordland", "Catlins"],
+    imageAlt: "Hire campervans parked in a wet roadside car park below bush-covered hills",
+    related: ["wikicamps-alternatives", "kiwicamping-offline-data-guide", "freedom-camping-rules-new-zealand"],
+    intro:
+      "WikiCamps New Zealand changed more in the last two years than in the decade before it. Version 6 rebuilt the app from scratch, every user now needs an account, and since March 2026 an app that falls too far behind refuses to open until you update it. Most of the problems people search for come from those three changes, and most of them can be fixed in a few minutes from a campsite with a bar of signal. The fixes below come from WikiCamps' own help centre, read on 9 November 2026. We make KiwiCamping, a different New Zealand camping app, so the switching section at the end is ours; everything before it is meant to get WikiCamps working again.",
+    sections: [
+      s("Quick fixes when WikiCamps will not load", [
+        "Start with the phone, not the app. WikiCamps says it supports iOS 26 and later on iPhone and iPad and Android 15 and later. The app may still install on an older system, but WikiCamps says it cannot promise every feature works there or troubleshoot it. On an iPhone, check under Settings, General, Software Update; on Android, under Settings, About phone.",
+        "If the phone is current and WikiCamps still hangs on loading or shows a \"Could not retrieve data\" error, its help centre gives the same short list for both: install the latest version from your app store, restart the phone, switch from Wi-Fi to mobile data, turn off any VPN, and allow WikiCamps to use your location. Uninstalling and reinstalling is the last step, and only worth doing once your trips have synced to your account, because a reinstall starts the phone from nothing.",
+      ], ["iOS 26 or Android 15 and later", "Try mobile data instead of campground Wi-Fi", "Reinstall only after your trips have synced"], {
+        caption: "From WikiCamps' help centre (support.wikicamps.co), read 9 November 2026.",
+        head: ["Problem", "Usual cause", "What to try"],
+        rows: [
+          ["Stuck on loading or \"Could not retrieve data\"", "Old app version, weak Wi-Fi, a VPN or location turned off", "Update, restart, use mobile data, VPN off, allow location"],
+          ["Asked to sign in again and again", "The phone clears the app's data or limits it in the background", "Turn off battery optimisation and cleaner apps for WikiCamps"],
+          ["No verification code", "The email is filtered or delayed", "Check junk mail and wait 10 to 15 minutes"],
+          ["Asked to pay again", "Signed in to a different account or store ID than the one that paid", "Use the original account; restore through the same Apple ID"],
+          ["Trips or favourites missing", "Signed in to a different WikiCamps account", "Sign in with the original email and let it sync"],
+          ["Will not open with no signal", "Offline mode was not switched on before signal dropped", "Download offline content and turn on offline mode in town"],
+        ],
+      }),
+      s("Why WikiCamps asks you to sign in or create an account", [
+        "The rebuilt app is account-based. WikiCamps says an account lets your trips, favourites, reviews and other saved data sync between devices and survive a new phone or a reinstall, and it is also how the app checks that you have paid. If you used the old app without ever signing up, you need to create an account now, and if you are not sure whether you made one, WikiCamps suggests trying \"Forgot your password?\" with your email: no reset email means no account under that address.",
+        "Verification codes come from Microsoft's sign-in service on WikiCamps' behalf, so look for a sender called \"Microsoft on behalf of WikiCamps\" with a subject about a WikiCamps account email verification code. WikiCamps says to check junk mail and allow 10 to 15 minutes, and that its support team cannot send a code by hand. If the app keeps asking you to sign in after you have, WikiCamps puts it down to the phone rather than the app: battery optimisation, background restrictions, automatic clearing of app data and third-party cleaner apps can all wipe the saved session.",
+      ], ["Codes come from Microsoft for WikiCamps", "Allow WikiCamps to run in the background", "Use the email you first signed up with"]),
+      s("Paid already but asked to pay again", [
+        "WikiCamps checks your purchase through the account you sign in with and the store you bought from. On an iPhone, make sure the App Store is signed in to the Apple ID that bought WikiCamps, then download it again from the App Store. On Android, WikiCamps says a new or different account can hide an older purchase; if the purchase screen will not go away, send its support team your Google Play order number from Payments and subscriptions in the Play Store and they will activate the app.",
+        "Purchases also stay with their store. Moving from Android to an iPhone, or the other way, means buying WikiCamps again, although your account data follows you once you sign in. And WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own, so one does not unlock the other.",
+      ]),
+      s("The forced update from March 2026", [
+        "Since March 2026, WikiCamps blocks versions that are more than two releases behind. Open an unsupported version and it asks you to update from the app store before you can carry on; a version that is still supported shows an in-app notice and lets you update later. WikiCamps' Version Update History page marks which versions are supported: when we checked on 9 November 2026 that was 6.3.0 and 6.2.4 to 6.2.5, and the New Zealand App Store already offered 6.3.1.",
+        "The practical risk in New Zealand is being told to update where there is no signal to do it. Long stretches of the West Coast, Fiordland and the Catlins have no coverage, so update in the last town with good reception, then download WikiCamps' offline content and switch on offline mode from the menu before you leave. WikiCamps lists a known issue where, with no connection at all, the Explore page can stall before you can reach the menu to turn offline mode on, and its offline mode is view-only for now: no new trips or trip edits until you are back in coverage.",
+      ], ["More than two releases behind means blocked", "Update in town, not at the campsite", "Turn on offline mode before signal drops"]),
+      s("Can you go back to the old version of WikiCamps?", [
+        "No. WikiCamps says older versions are no longer supported or accessible as of March 2026, and the app stores only offer the current release. Its reason is that the previous app was built on a platform that could not be maintained for long-term updates, so version 6 was rebuilt from the ground up, with the first version 6 releases in November 2024.",
+        "Many of the complaints about the new app are about things that moved rather than disappeared. Your liked, starred, visited and want-to-visit lists now sit at the bottom of the Home tab. The filter options were simplified on purpose, so some of the old exclusion toggles are gone, and WikiCamps asks people who relied on them to tell its support team. If sites seem missing from the map, it suggests clearing any active filter and zooming in, because the map shows a limited number of results at a time. WikiCamps itself says many recent negative reviews relate to the move to the rebuilt app and that it is reintroducing key features over time.",
+      ], ["Favourites now live under Collections", "Clear filters if sites go missing", "Saved filters stay on each device"]),
+      s("Is there a PC or Windows version of WikiCamps?", [
+        "Not any more. WikiCamps' Windows app was version 5, and it was discontinued with the other old versions. Version 6 runs only on iPhone, iPad and Android phones and tablets. WikiCamps notes that some people run mobile apps on a computer through an emulator, but it does not support that. If you plan trips on a big screen, a tablet signed in to the same account is the supported way, since trips sync through your account.",
+        "One more ending is worth knowing if friends from overseas use WikiCamps. Its separate UK, US and Canada app stopped being supported on 30 March 2026 and is being withdrawn from the app stores; new sign-ups and logins were turned off. That does not affect WikiCamps New Zealand.",
+      ]),
+      s("Who owns WikiCamps now?", [
+        "WikiCamps was built by a small founding team, Russ and Cliff and their families, and grew on the places its own users added. In 2021 they sold it to G'day Parks, a tourist park group, and the developer on the New Zealand App Store today is WikiCamps Pty Ltd. Bookings made through the Book Now button are handled by its booking partner, BookEasy (Book Australia), so changes and refunds go to them rather than to WikiCamps.",
+        "The business model is still a one-off purchase. WikiCamps says there is no subscription, and the New Zealand App Store listed WikiCamps New Zealand at NZ$7.99 when we checked on 9 November 2026. It has also added a small number of ads in the reviews, fees and photos sections to help cover running costs. Site details, photos and fees come from the community, which is why WikiCamps asks users to edit or report anything out of date, and why the sign at the site and the council or DOC page decide where you can stay.",
+      ]),
+      s("When to contact WikiCamps support", [
+        "If none of the fixes work, email support@wikicamps.co. Include your phone model and operating system version, the email address on your WikiCamps account and, for a purchase problem, your proof of purchase or Google Play order number. WikiCamps says it may be limited in what it can do for phones running an operating system it no longer supports, so check that first.",
+        "Its Facebook users group is the other place to look. It is where WikiCamps points people for real-world experience of the current app, and a problem that started after an update has usually been reported there by someone else already.",
+      ]),
+      s("Switching to KiwiCamping in New Zealand", [
+        "If you have had enough, KiwiCamping is the New Zealand app we make, and it works differently. There is no separate account to create: with iCloud turned on, saved places, collections and trips sync privately through your Apple Account. Its 287 DOC campsites, 927 DOC huts and 1,453 DOC tracks come from the Department of Conservation's own data, with DOC's fees, dog rules and booking requirements and a link to DOC's page, and you can combine filters for cost, facilities and dogs in one search.",
+        "Saved places become a trip with ordered stops, dates, notes and the route distance. Place details stay on the phone when you lose signal; map tiles, routing, weather and photos need a connection. Be clear about the trade-offs: KiwiCamping runs only on iPhone (iOS 26 or later), it lists far fewer places than WikiCamps and has no traveller reviews, and there is no import from WikiCamps, so rebuild a trip by saving its stops again. Our WikiCamps alternatives comparison sets KiwiCamping beside Rankers, CamperMate, Campable and Overland Navigator if you want a wider choice.",
+      ], ["iPhone only, iOS 26 or later", "DOC campsites, huts and tracks from DOC's data", "No account: syncs through iCloud"], undefined, true),
+    ],
+    sources: [
+      { label: "WikiCamps help: What should I do if WikiCamps isn't working correctly?", url: "https://support.wikicamps.co/hc/en-gb/articles/61372590109337-What-should-I-do-if-WikiCamps-isn-t-working-correctly" },
+      { label: "WikiCamps help: Forced Updates as of March 2026", url: "https://support.wikicamps.co/hc/en-gb/articles/57935168111001-Forced-Updates-as-of-March-2026" },
+      { label: "WikiCamps help: Version Update History", url: "https://support.wikicamps.co/hc/en-gb/articles/40978904140953-Version-Update-History" },
+      { label: "WikiCamps help: Can I go back to using the old version of the app?", url: "https://support.wikicamps.co/hc/en-gb/articles/57935249462425-Can-I-go-back-to-using-the-old-version-of-the-app" },
+      { label: "WikiCamps help: I can't sign in to WikiCamps", url: "https://support.wikicamps.co/hc/en-gb/articles/57934819731609-I-can-t-sign-in-to-WikiCamps" },
+      { label: "WikiCamps help: Why do I need an account now?", url: "https://support.wikicamps.co/hc/en-gb/articles/57870590144281-Why-do-I-need-an-account-now" },
+      { label: "WikiCamps help: Why isn't there a PC version of WikiCamps?", url: "https://support.wikicamps.co/hc/en-gb/articles/57934177849369-Why-isn-t-there-a-PC-version-of-WikiCamps" },
+      { label: "WikiCamps help: The app doesn't launch while not connected to the internet", url: "https://support.wikicamps.co/hc/en-gb/articles/57934367805081-The-app-doesn-t-launch-while-not-connected-to-the-internet" },
+      { label: "WikiCamps New Zealand listing data (Apple, NZ storefront)", url: "https://itunes.apple.com/lookup?id=582527125&country=nz" },
+      { label: "Camps Australia Wide: comment on the WikiCamps sale to G'day Parks (October 2021)", url: "https://www.campsaustraliawide.com/our-comment-on-wikicamps-sale-to-gday-parks/" },
     ],
   }),
 
