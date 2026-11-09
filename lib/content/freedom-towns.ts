@@ -267,4 +267,53 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-whitianga",
+    title: "Freedom Camping in Whitianga: Where You Can Stay",
+    description: "Where certified self-contained campervans can stay overnight in Whitianga and Mercury Bay: the Lee Street and Monk Street car parks, the two-night limit, Hahei and Hot Water Beach bans, Cathedral Cove and the holiday parks.",
+    category: "Rules & safety",
+    region: "Coromandel",
+    places: ["Whitianga", "Mercury Bay", "Hahei", "Hot Water Beach", "Cathedral Cove", "Coroglen"],
+    imageAlt: "Whitianga Harbour on the Coromandel Peninsula, with boats on the water and the town along the shore",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "camping-rules-local-councils-new-zealand", "coromandel-rotorua-road-trip", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/whitianga", "camping/coromandel"],
+    intro:
+      "Whitianga has two small council car parks where certified self-contained campervans can stay overnight, and almost everywhere else in Mercury Bay is closed. Lee Street car park has eight marked spaces and the Mercury Bay area office car park in Monk Street has four. Hāhei and Hot Water Beach are banned outright, and so is the Cathedral Cove car park. In summer the spaces fill early, which makes a holiday park the dependable option.",
+    sections: [
+      s("What Thames-Coromandel's bylaw requires", [
+        "Whitianga is in the Thames-Coromandel District, whose Freedom Camping Bylaw allows camping on council land only in certified self-contained vehicles. Tents are not allowed, a vehicle may stay no more than two consecutive nights, and camping is allowed only between 5pm and 9am, with some sites using 5pm to 8am. The vehicle must carry the green warrant, which has been the only accepted certificate since 7 June 2026 and which the guide to the self-contained campervan warrant explains.",
+        "The bylaw is council-wide, so Whitianga's two sites sit in the same list as places in Thames, Whangamatā, Tairua and Coromandel Town. The council publishes maps, but the written bylaw wins if they disagree, and the sign at the car park is the final word on the night.",
+      ], ["Certified self-contained only, no tents", "Two nights, 5pm to 9am", "The bylaw's schedule beats the map"]),
+      s("The two Whitianga car parks", [
+        "Lee Street car park at 2 Lee Street has eight marked spaces at its west end, next to number 14, shown by signs. It is close to the town centre and the harbour, which makes it the busiest of the district's sites in January. The Mercury Bay area office car park in Monk Street has four spaces, with the 5pm to 8am window, so you need to be gone earlier.",
+        "A full site means you cannot stay: the bylaw sets a maximum number of vehicles, and arriving after the spaces are taken means moving on. Outside the peak, an early evening arrival is usually enough, and the council can close either car park for events or maintenance, which it publicises by signs and its own channels.",
+      ], ["Lee Street: 8 spaces", "Monk Street: 4 spaces, 5pm to 8am", "Sites can close for events"]),
+      s("Where it is banned", [
+        "The bylaw prohibits freedom camping in 84 listed areas across the district, and several are the places Mercury Bay visitors want most. The Esplanade and the Dundas Street boat ramp area in Whitianga are on the list, and the whole of the Hāhei and Hot Water Beach settlements are closed, including every road and council reserve.",
+        "Cathedral Cove has a separate rule. DOC's freedom camping notice for the Cathedral Cove car park prohibits camping, and DOC's notices around Whitianga cover 4 places, all of them prohibitions. The rest of the peninsula follows the same council-wide bylaw.",
+      ], ["The Esplanade: no", "Hāhei and Hot Water Beach: no", "Cathedral Cove car park: DOC notice, no camping"]),
+      s("Fines", [
+        "A breach of the bylaw is an infringement offence under the Freedom Camping Act. The fees under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023 are $400 for freedom camping where it is prohibited or restricted, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+      ], ["$400 for most breaches", "$800 for waste or damage", "Rental companies pass fines on"]),
+      s("Holiday parks and DOC campsites", [
+        "The sure option in Mercury Bay is a holiday park, and the guide to holiday parks in New Zealand explains how to book. They fill quickly in the Christmas and New Year weeks, so book ahead for Whitianga, Hāhei and Hot Water Beach.",
+        "Conservation land on the peninsula is mostly in the Coromandel Forest Park and the northern coast. KiwiCamping's DOC data (11 August 2026) lists 20 DOC campsites in the Coromandel, 19 of them bookable online through DOC, with adult nightly rates from $10 to $23, and the guide to DOC campsites explains how booking works. The Coromandel to Rotorua road trip shows how the peninsula fits into a longer route.",
+      ], ["Book ahead for New Year", "20 DOC campsites on the Coromandel", "19 bookable through DOC"]),
+      s("Using KiwiCamping around Whitianga", [
+        "KiwiCamping shows the DOC campsites and huts on the peninsula, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's two car parks, so use the council's page for those and keep a holiday park as the fallback.",
+        "Add Whitianga to a trip with its date and a note, and read the distance to Coromandel Town or Tairua. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council car parks: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I freedom camp in Whitianga?", "Only in a certified self-contained vehicle at the council's two signed car parks: Lee Street with eight spaces and Monk Street with four. Everything else, including The Esplanade, Hāhei and Hot Water Beach, is closed."],
+      ["Can I camp at Cathedral Cove?", "No. DOC's notice for the Cathedral Cove car park prohibits camping, so use a holiday park or a DOC campsite nearby."],
+    ],
+    sources: [
+      { label: "Thames-Coromandel District Council: Freedom camping", url: "https://www.tcdc.govt.nz/camping" },
+      { label: "Thames-Coromandel District Council: Freedom Camping Bylaw 2022", url: "https://www.tcdc.govt.nz/Our-Council/Bylaws-Codes-and-Policies/Bylaws/Freedom-Camping-Bylaw-2022" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
