@@ -101,4 +101,49 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "camping-in-paihia-bay-of-islands",
+    title: "Camping in Paihia and the Bay of Islands: Holiday Parks, DOC Island Campsites and Where to Base Yourself",
+    description: "Where to camp around Paihia and the Bay of Islands: the holiday parks at Paihia, Waitangi and Haruru Falls, DOC's island campsites on Urupukapuka, Northland's DOC campsites and when to book.",
+    category: "Camping guides",
+    region: "Northland",
+    places: ["Paihia", "Waitangi", "Haruru Falls", "Russell", "Urupukapuka Island", "Kerikeri"],
+    imageAlt: "Paihia Beach in the Bay of Islands, with calm water and a curve of sand",
+    related: ["freedom-camping-paihia", "bay-of-islands-camping-week", "auckland-to-bay-of-islands-drive-guide", "kauri-dieback-camping-travel", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/northland", "freedom-camping/bay-of-islands"],
+    intro:
+      "Paihia is the Bay of Islands' base, and its camping is holiday parks: several along the shore and the Waitangi River, with tent sites, powered sites for campervans and cabins. There is no freedom camping in the town, and DOC's own campsites are out on Urupukapuka Island or further afield in Northland. Book ahead from December to Easter, and plan the boat trips and the road north around where you sleep.",
+    sections: [
+      s("Why a holiday park is the answer here", [
+        "Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches, and the nearest approved free site is at Kawakawa, a short drive inland, as the guide to freedom camping in Paihia explains. DOC's notices ban camping at five places around the bay. So the practical choice for a night in Paihia is a holiday park.",
+        "That is not a hardship. The bay's parks are close to the water, the Waitangi Treaty Grounds and the ferry wharves, and they have what a travelling vehicle needs: showers, a kitchen, laundry and power. They also take tents, which most council areas do not.",
+      ], ["No freedom camping in Paihia", "Holiday parks take tents and campervans", "Close to the wharves and Waitangi"]),
+      s("Holiday parks around Paihia", [
+        "Paihia TOP 10 Holiday Park sits in its own bay just south of Paihia township, with cabins and camping and motorhome sites. Waitangi Holiday Park is on the banks of the Waitangi River near Te Tii Beach and is the one within walking distance of Paihia's centre, the Treaty Grounds and the supermarket. Bay of Islands Holiday Park is on Puketona Road near Haruru Falls, between Paihia and Kerikeri, with tent and power sites alongside its cabins, and Beachside Holiday Park is another option in its own bay.",
+        "Which suits you depends on how you plan to move. If you will walk to the wharf for a boat trip, take Waitangi or the Paihia park, and if you are continuing to Kerikeri or north, the Haruru Falls side puts you on the road. The guide to holiday parks in New Zealand explains site types and booking.",
+      ], ["Waitangi: walk to town", "Paihia TOP 10: its own bay", "Haruru Falls: on the road north"]),
+      s("DOC campsites in the bay and Northland", [
+        "DOC runs campsites on Urupukapuka Island, reached by ferry or water taxi, which suit a night away from the road and a day of walking and kayaking. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites across Northland, 11 of them bookable online through DOC, with adult nightly rates listed from $10 to $23. Uretiti Beach Campsite, south of Whangārei, is the biggest at 300 sites, and 10 of the 14 have campervan access.",
+        "The kauri dieback guide matters on the walks around these campsites, and the guide to DOC campsites explains how booking works. Island campsites need you to carry in water and take out everything, so pack as for a short backcountry trip.",
+      ], ["14 DOC campsites in Northland", "Urupukapuka: by boat", "Clean your boots at kauri tracks"]),
+      s("When to book", [
+        "The Bay of Islands is busiest from Christmas to the end of January and at Easter, when the parks fill and the ferries are full, and it fills on long weekends and in the school holidays, which in 2027 run from 10 to 26 April, 3 to 18 July and 25 September to 10 October. Outside those, the weather is milder than in the south, and a week here fits into the Bay of Islands camping week guide.",
+        "In winter the parks have space, the days are shorter and rain is common, so a cabin is a sensible fallback for a wet night. The drive from Auckland takes around three to four hours, covered in the Auckland to Bay of Islands drive guide.",
+      ], ["Peak: Christmas to Easter", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027", "Cabin as a wet-night fallback"]),
+      s("Using KiwiCamping around Paihia", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park for each night and order them in a trip with dates, then read the distance between Paihia, Kerikeri and the road north.",
+        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a holiday park for each night", "Plan Cape Reinga as its own leg", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I camp in Paihia?", "At the holiday parks around Paihia, Waitangi and Haruru Falls. Freedom camping is not allowed in the town, and DOC's own campsites are on Urupukapuka Island and further afield in Northland."],
+      ["Can I camp in a tent in Paihia?", "Yes, at the holiday parks, which have tent sites. Tents are not allowed at the council's approved freedom camping sites."],
+    ],
+    sources: [
+      { label: "Paihia TOP 10 Holiday Park", url: "https://top10.co.nz/park/paihia-top-10-holiday-park" },
+      { label: "Far North District Council: Responsible camping", url: "https://www.fndc.govt.nz/District/Visiting-the-Far-North/responsible-camping" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
 ];
