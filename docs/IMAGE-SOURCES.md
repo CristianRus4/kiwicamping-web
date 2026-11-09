@@ -167,3 +167,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-franz-josef-drive-guide` | Franz Josef Glacier 25.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Franz_Josef_Glacier_25.jpg) |
 | `christchurch-to-kaikoura-drive-guide` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
 | `christchurch-to-hanmer-springs-drive-guide` | Hanmer Springs 012.JPG | Schwede66 | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hanmer_Springs_012.JPG) |
+| `christchurch-to-te-anau-drive-guide` | Lake Te Anau 02.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_02.jpg) |

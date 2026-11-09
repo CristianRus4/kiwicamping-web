@@ -458,4 +458,58 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-te-anau-drive-guide",
+    title: "Christchurch to Te Anau Road Trip: A Two-Day Drive to Fiordland",
+    description: "Christchurch to Te Anau by road: about 650 km and 8 to 8.5 hours via Lake Tekapo, the Lindis Pass and Queenstown, with a sensible overnight stop, fuel and camping at the Fiordland gateway.",
+    category: "Road trips",
+    region: "Fiordland",
+    places: ["Christchurch", "Lake Tekapo", "Twizel", "Cromwell", "Queenstown", "Te Anau"],
+    imageAlt: "Lake Te Anau stretching away to forested hills and mountains under a pale sky",
+    related: ["fiordland-camping-road-trip", "kepler-track-camping-2026-27", "south-island-two-week-road-trip", "christchurch-tekapo-aoraki-road-trip", "queenstown-glenorchy-camping", "new-zealand-driving-day-planner"],
+    hubs: ["camping/fiordland", "freedom-camping/te-anau", "camping/southland"],
+    intro:
+      "Christchurch to Te Anau is about 650 km and takes 8 to 8.5 hours of driving, which is too much for one comfortable day, so the sensible plan is two. The route runs inland through Lake Tekapo, Twizel and the Lindis Pass to Queenstown, then south past Lake Wakatipu to the Fiordland gateway. Below are the route and the best place to break the journey, the stops, fuel on the long stretches, and where to camp at Te Anau, the base for Milford Sound, Doubtful Sound and the Kepler Track.",
+    sections: [
+      sec("The route and where to split it", [
+        "Take State Highway 1 south to Temuka, then State Highway 79 and State Highway 8 inland through Geraldine, Fairlie, Burkes Pass, Lake Tekapo and Twizel, and over the Lindis Pass to Cromwell. From Cromwell, follow State Highway 6 to Queenstown and Frankton, then south beside Lake Wakatipu through Kingston and Mossburn to Te Anau. Christchurch to Queenstown is about 6 hours, and Queenstown to Te Anau is another 2 hours.",
+        "Splitting the drive is the key. Lake Tekapo or Twizel makes a good first night, about 3 to 4 hours out, with the stars and the lake at Tekapo or the mountain views at Twizel. Queenstown is the other option if you want a longer first day and a shorter second one. The Christchurch to Tekapo and Aoraki guide covers the first half in detail.",
+      ], ["About 650 km and 8 to 8.5 hours in all", "Christchurch to Queenstown about 6 hours", "Night at Tekapo or Twizel splits it well"]),
+      sec("Stops along the way", [
+        "Geraldine and Fairlie are the first coffee and bakery stops, and Burkes Pass is the gateway to the Mackenzie Country. Lake Tekapo has the Church of the Good Shepherd and a very good lakefront, and Lake Pūkaki is the stretch of road with the famous view of Aoraki Mount Cook on a clear day.",
+        "The Lindis Pass is the high point, with tawny tussock hills and a lookout. Cromwell has fruit stalls and the Central Otago orchards, and Queenstown is a good place to restock and refuel before the last leg. Between Kingston and Te Anau the road is quiet farmland, with only a few small towns, so plan your breaks.",
+      ], ["Pūkaki for the Aoraki view", "Lindis Pass is the high point", "Restock in Queenstown before the last leg"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Lake Tekapo", "About 230 km, 3 hr", "Lake, church and stars"],
+          ["Twizel", "About 265 km, 3 hr 30", "Fuel and a night's stay"],
+          ["Queenstown", "About 480 km, 6 hr", "Restock and fuel"],
+          ["Te Anau", "About 650 km, 8 hr", "Fiordland gateway"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill up at Fairlie, Tekapo or Twizel, and again at Cromwell or Queenstown. The stretch from Queenstown to Te Anau has a few places to stop but little in the way of choice, so top up in Queenstown and stock up for Fiordland there, where the supermarkets are bigger than in Te Anau. The resupply guide covers shopping for a campervan trip.",
+        "The Lindis Pass and the Mackenzie Country can have snow and ice in winter, and the highways occasionally close. Check the NZTA Journey Planner before you leave and read the winter driving guide if you are travelling in cold months. In summer the roads are busy with campervans, and the one-lane bridges and gravel sections need a bit of care.",
+      ], ["Fuel at Tekapo, Twizel and Queenstown", "Supermarkets are bigger in Queenstown", "Snow possible at the Lindis in winter"]),
+      sec("Te Anau and Fiordland", [
+        "Te Anau is the base for the Milford Road, which runs 120 km north to Milford Sound through the Eglinton Valley, the Homer Tunnel and some of the best scenery in the country. Milford is about 2 hours each way, so plan a full day, or take a cruise from Te Anau and let someone else drive. Doubtful Sound leaves from Manapōuri, 20 minutes from Te Anau, and takes a full day.",
+        "The Kepler Track is a Great Walk that starts at Te Anau, and the Kepler guide covers the huts and campsites and how to book. The Te Anau Glowworm Caves are across the lake, and the lakefront walk suits an evening. Weather in Fiordland is very wet and changeable, so check the forecast and allow a spare day.",
+      ], ["Milford is about 2 hours each way", "Doubtful Sound leaves from Manapōuri", "Book the Kepler Track early for summer"]),
+      sec("Where to camp at Te Anau", [
+        "Holiday parks in Te Anau give you power, showers and a kitchen and are the easy choice. They fill in summer and over school holidays, so book ahead. The holiday parks guide explains what to look for. DOC runs a series of simple campsites along the Milford Road and around the lake, many with toilets and water and some with a nightly fee.",
+        "Freedom camping around Te Anau is heavily restricted, and most of the lakefront and the roadside areas are closed to overnight stays. The Te Anau hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. The sandflies in Fiordland are fierce, so carry repellent and a mesh screen.",
+      ], ["Book holiday parks in summer", "DOC campsites along the Milford Road", "Sandflies are fierce"]),
+      sec("Planning Christchurch to Te Anau in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones along the Milford Road and around Te Anau. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Fiordland weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Fiordland National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/" },
+      { label: "Fiordland Tourism: plan your trip", url: "https://www.fiordland.org.nz/" },
+      { label: "Visit Mackenzie: getting here", url: "https://www.mackenzienz.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
