@@ -1217,6 +1217,20 @@
       }
     ]
   },
+  "/images/articles/easy-campervan-meals-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/easy-campervan-meals-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/easy-campervan-meals-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/easy-doc-huts-families-first-timers.webp": {
     "width": 1600,
     "height": 900,

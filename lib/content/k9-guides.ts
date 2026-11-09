@@ -154,4 +154,57 @@ export const k9Articles: Article[] = [
       { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
   }),
+  a({
+    slug: "easy-campervan-meals-new-zealand",
+    title: "Easy Campervan Meals in New Zealand: One-Pot Dinners, Quick Breakfasts and a Pantry That Lasts",
+    description: "Easy campervan meals for New Zealand: a simple kitchen and pantry, one-pot dinners, breakfasts and lunches, where to shop and what to buy local, gas and ventilation basics and how to keep food costs down on the road.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Supermarkets", "Roadside stalls", "Farmers markets", "DOC campsites", "Holiday parks"],
+    imageAlt: "A simple camp meal cooked outdoors on a small stove",
+    related: ["new-zealand-grocery-prices-2026", "food-fuel-resupply-new-zealand-road-trip", "campervan-budget-new-zealand", "camping-wastewater-rubbish-new-zealand", "campfire-rules-new-zealand", "new-zealand-camping-packing-list"],
+    hubs: ["camping"],
+    intro:
+      "Cooking in a campervan is easier than it looks, and it is the biggest single saving on a New Zealand road trip. The trick is a small kitchen, a pantry of things that keep and a handful of meals you can make with one pot and one burner, after a day of driving or walking. Add the good local ingredients you will find along the way, such as lamb, kūmara, fish and fresh fruit, and the van becomes the best restaurant on the trip.",
+    sections: [
+      s("A small kitchen that does the job", [
+        "Most rental vans come with a basic kit, but it is worth checking before you leave the depot. You need one good pot with a lid, a frying pan, a sharp knife, a chopping board, a tin opener, a spatula, a couple of plates and bowls and a kettle or a pot for the morning. A stove and a gas cartridge or bottle is the heart of it, so check how much gas you have and where to refill.",
+        "Add a few extras that earn their place: a washing-up bowl, a tea towel, a couple of reusable containers for leftovers, a small cool bag and a head torch for cooking after dark. A roll of foil, zip bags and a few sachets of oil and salt save a shop on day one.",
+      ], ["One pot, one pan, one sharp knife", "Check the gas and where to refill", "A head torch for dinner after dark"]),
+      s("A pantry that lasts", [
+        "Stock the things that keep for weeks and build meals around them: rice, pasta, noodles, tinned tomatoes, tinned beans and chickpeas, coconut cream, stock cubes, oil, salt, pepper, a couple of spices, wraps, oats, peanut butter, tea and coffee. Buy the fresh things in smaller amounts, every few days, and eat the most perishable first.",
+        "A jar of pesto, a bag of frozen peas and a block of cheese turn pasta into dinner, and an onion, garlic and a tin of tomatoes are the start of almost anything. Pack a couple of sauces, such as soy, sweet chilli and curry paste, and a few jars last the trip.",
+      ], ["Rice, pasta, noodles and tins", "Fresh food in small amounts", "A few sauces and curry paste"]),
+      s("Dinners in one pot", [
+        "Pasta with sausage or bacon, tinned tomatoes and whatever vegetables you have is the standard, and it makes enough for lunch. A one-pan fried rice with eggs and frozen peas takes ten minutes, a curry of chicken thighs or chickpeas with coconut cream and kūmara is a New Zealand favourite, and a chilli of mince, beans and tinned tomatoes feeds a crowd and tastes better the next day.",
+        "On a gas barbecue, which many holiday parks and some DOC campsites and parks provide for free, sausages, steak, lamb chops and foil-wrapped fish or vegetables are quick, and there is little to wash up. If the fire rules allow a campfire, the campfire guide has the details, and a total fire ban means no open flames, so check before you light anything.",
+      ], ["Pasta, fried rice, curry and chilli", "Use the free barbecue at parks", "Check the fire rules first"]),
+      s("Breakfast, lunch and the road", [
+        "Porridge or muesli with fruit, eggs on toast and a pan of bacon and tomato are the easy mornings, and a flask of coffee for the road makes them better. For lunch, wraps with cheese, ham, salad and hummus, or a sandwich and fruit, are the usual, and they keep well in a cool bag. A hot pie from a bakery or a fish and chip stop is a good treat when the cooking is a chore.",
+        "Snacks matter more than people expect on long drives: nuts, fruit, crackers, muesli bars and a bag of lollies for the hills. Fill a water bottle at every stop, and keep a few meals that need no cooking for the wet or tired night.",
+      ], ["Porridge, eggs and wraps", "A bakery pie as a treat", "Keep a no-cook meal in reserve"]),
+      s("Where to shop and what to buy local", [
+        "The main supermarket chains are in every large town, and smaller towns have a Four Square or a local store at higher prices, so buy staples before you head for the West Coast, Fiordland or East Cape. The grocery prices and the food and fuel resupply guides cover the costs and the long gaps between shops.",
+        "Look for the local things: roadside stalls with fruit and vegetables and an honesty box, so carry some coins, farmers markets on weekends in many towns, and fish and seafood from a wharf or fish shop. If you plan to catch your own, check the fishing rules for size and bag limits, as they vary by species and area.",
+      ], ["Restock before long remote legs", "Carry coins for honesty boxes", "Check the fishing rules"]),
+      s("Gas, ventilation and washing up", [
+        "Cook with the doors or windows open, and never run a gas stove or heater in a sealed van, because carbon monoxide builds up quietly. Keep the stove clear of curtains, switch the gas off at the bottle after cooking and check the connections if you smell gas. A cartridge stove is simple, and a bottle needs a refill at a depot or a petrol station.",
+        "Do the washing up with a little water and biodegradable soap, and take dirty water to a dump station or a drain, never a stream or a roadside. The wastewater and rubbish guide has the rules, and the dump station guide helps you find a place to empty. Pack out every scrap of rubbish.",
+      ], ["Never cook in a sealed van", "Gas off at the bottle", "Dirty water goes to a dump station"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and campervan access, including the public dump stations and water points you need on a cooking trip. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop, which helps decide between a barbecue night and a wet-weather pasta.",
+        "Free to download, with in-app purchases.",
+      ], ["Find dump stations and water", "Add stops to a trip with dates", "Forecast at each stop"], true),
+    ],
+    faq: [
+      ["What are easy meals to cook in a campervan?", "One-pot meals such as pasta with sausage and tinned tomatoes, fried rice with eggs and peas, a chicken or chickpea curry with coconut cream, and a mince and bean chilli."],
+      ["Is it cheaper to cook in a campervan in New Zealand?", "Yes. Cooking your own food is the biggest single saving on a road trip. Buy staples at a supermarket before remote stretches, where small shops cost more."],
+    ],
+    sources: [
+      { label: "Stats NZ: food price index", url: "https://www.stats.govt.nz/indicators/food-price-index/" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+      { label: "Fire and Emergency New Zealand: Check it's alright", url: "https://checkitsalright.nz/" },
+      { label: "Fisheries New Zealand: recreational fishing rules", url: "https://www.mpi.govt.nz/fishing-aquaculture/recreational-fishing/" },
+    ],
+  }),
 ];
