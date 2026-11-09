@@ -615,6 +615,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-to-nelson-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-nelson-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-nelson-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christchurch-to-queenstown-drive-guide.webp": {
     "width": 1600,
     "height": 900,

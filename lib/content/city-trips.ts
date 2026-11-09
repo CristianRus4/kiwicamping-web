@@ -244,4 +244,52 @@ export const cityTripArticles: Article[] = [
       { label: "Great South: visit Invercargill and Southland", url: "https://www.southlandnz.com/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-nelson-drive-guide",
+    title: "Christchurch to Nelson Drive: Lewis Pass or the Coast, Time and Camping",
+    description: "Christchurch to Nelson by road: about 450 km and 6 to 7 hours, over Lewis Pass and through Murchison or up the coast through Kaikōura and Blenheim, with stops, winter notes and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Hanmer Springs", "Lewis Pass", "Murchison", "Kaikōura", "Blenheim", "Nelson"],
+    imageAlt: "A sandy beach with green plants in Abel Tasman National Park near Nelson",
+    related: ["nelson-abel-tasman-golden-bay", "picton-kaikoura-christchurch-route", "christchurch-to-marlborough-drive-guide", "freedom-camping-tasman-2026", "freedom-camping-marlborough-2026", "winter-driving-new-zealand-campervan", "new-zealand-driving-day-planner"],
+    hubs: ["camping/nelson-tasman", "camping/canterbury"],
+    intro:
+      "There are two ways from Christchurch to Nelson: inland over Lewis Pass and through Murchison, or up the east coast through Kaikōura and Blenheim and then west. Both are about 450 kilometres and 6 to 7 hours without stops, and both are good drives. A loop, out one way and back the other, is one of the best short trips on the island.",
+    sections: [
+      s("Two routes, similar distance", [
+        "The inland route follows State Highway 1 north to Waipara, then State Highway 7 over Lewis Pass to Springs Junction, State Highway 65 to Murchison and State Highway 6 to Nelson. The coastal route stays on State Highway 1 through Kaikōura to Blenheim, then State Highway 6 over the Rai Saddle and through Pelorus Bridge to Nelson. Each takes about six to seven hours of driving.",
+        "Neither is quick, because both have winding sections and reduced speed limits, and a campervan is slower on the hills than a car. The driving day planner helps you set a day that suits your vehicle, and a night on the way makes the trip a pleasure and not a slog.",
+      ], ["Inland: Lewis Pass and Murchison", "Coast: Kaikōura and Blenheim", "Both take 6 to 7 hours"]),
+      s("The inland route: Lewis Pass and Murchison", [
+        "Hanmer Springs is a short detour at the foot of the pass, with hot pools and forest walks, and the road climbs to Lewis Pass at 864 metres, with beech forest and walks to alpine tarns. Maruia Springs has a small hot pool complex on the way down, and Springs Junction has a fuel stop and a cafe.",
+        "Murchison, in the Buller valley, is a small town with a good cafe and several campgrounds, and the Buller Gorge swing bridge is a short drive west. In winter, snow and ice on Lewis Pass can close the road, so check the NZTA status before you leave and carry chains if your hire company allows them. The Lewis Pass road also passes DOC campsites in the beech forest.",
+      ], ["Hanmer Springs for hot pools", "Lewis Pass is 864 metres", "Check for snow in winter"]),
+      s("The coastal route: Kaikōura and Blenheim", [
+        "State Highway 1 north reaches the coast near Kaikōura, where the seal colonies and whale watching are the draws, and crayfish is the local food. The road between Kaikōura and Blenheim has some reduced speeds and the occasional slip, so allow extra time. The Christchurch to Marlborough guide covers this part in more detail.",
+        "From Blenheim, State Highway 6 climbs through the Rai Saddle and runs along the Pelorus River to Pelorus Bridge, where the DOC campsite and a cafe make a pleasant stop, and then climbs again over the Whangamoa Saddle to Nelson. The road is narrow and winding, so keep to the speed limits and use the passing bays.",
+      ], ["Kaikōura for seals and crayfish", "Pelorus Bridge for a stop", "Narrow and winding to Nelson"]),
+      s("Nelson and where to camp", [
+        "Nelson is one of the sunniest places in the country, with beaches, cafes and a lively market on Saturday. Holiday parks in Nelson and Richmond are an easy base, and the Abel Tasman National Park, Kaiteriteri and Golden Bay are a day or two further. The Nelson, Abel Tasman and Golden Bay guide plans the area.",
+        "Freedom camping in the Nelson and Tasman area is limited, and the rules are enforced, as the freedom camping in Tasman guide explains. The Great Taste Trail by bike starts from Nelson and is described in its own guide.",
+      ], ["Sunny and busy in summer", "Holiday parks in Nelson and Richmond", "Freedom camping is limited"]),
+      s("Making it a loop", [
+        "Go out one way and back the other, with a night in Murchison or Kaikōura on the way, and the trip takes three or four days with time for Nelson. The inland road suits the way out for the mountains, and the coastal road suits the way back for the sea, with a stop at Kaikōura.",
+        "In summer both roads are busy at the weekends and over the holidays, and holiday parks in Nelson, Kaikōura and Blenheim book out, so reserve ahead. The two-week South Island road trip guide shows how to fit the loop into a longer trip.",
+      ], ["Inland out, coast back", "Three or four days", "Book holiday parks ahead in summer"]),
+      s("Planning the drive in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along both routes, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list, which helps you choose between the pass and the coast. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast decides the route", "Check NZTA for closures"], undefined, true),
+    ],
+    faq: [
+      ["Which is the better way from Christchurch to Nelson?", "Lewis Pass for the mountains and the beech forest, or the coast for the seals and the wine region. They are about the same length, so many people do one each way."],
+      ["Does Lewis Pass close in winter?", "It can, for snow and ice. Check the NZTA Journey Planner before you leave and carry chains if your hire company allows them."],
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Lewis Pass and Nelson Lakes", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/" },
+      { label: "Nelson Tasman Tourism: plan your trip", url: "https://www.nelsontasman.nz/" },
+    ],
+  }),
 ];

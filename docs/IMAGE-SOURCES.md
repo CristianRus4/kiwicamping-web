@@ -164,3 +164,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `dunedin-3-days-campervan` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
 | `rotorua-3-days-campervan` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
 | `christchurch-to-invercargill-drive-guide` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
+| `christchurch-to-nelson-drive-guide` | Abel Tasman National Park beach plant.jpg | Hector Garcia from Barcelona, Catalonia, Spain | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Abel_Tasman_National_Park_beach_plant.jpg) |
