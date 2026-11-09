@@ -1217,6 +1217,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-arrowtown.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-arrowtown-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-arrowtown.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-auckland-2026.webp": {
     "width": 1600,
     "height": 900,

@@ -742,4 +742,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-arrowtown",
+    title: "Freedom Camping in Arrowtown: Where You Can Stay",
+    description: "Freedom camping in Arrowtown: the one three-space council car park, Queenstown Lakes' two-night rule, the ban in the village, and nearby sites at Queenstown, Lake Hayes and Glenorchy plus the holiday parks.",
+    category: "Rules & safety",
+    region: "Queenstown Lakes",
+    places: ["Arrowtown", "Lake Hayes", "Queenstown", "Gibbston", "Glenorchy"],
+    imageAlt: "The Remarkables ridge in warm light behind a silhouette of trees in the Queenstown Lakes",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-queenstown-lakes-2026", "camping-in-queenstown", "queenstown-glenorchy-camping", "freedom-camping-wanaka"],
+    hubs: ["freedom-camping/wakatipu", "camping/otago"],
+    intro:
+      "Arrowtown is the autumn-colour village at the end of the Wakatipu valley, and its freedom camping amounts to one car park with three spaces. Queenstown Lakes District Council's 2025 bylaw bans camping in urban areas, allows certified self-contained vehicles only in 15 designated car parks across the district, and caps a stay at two nights in any 30 days. A van that misses the three Arrowtown spaces has to drive to Queenstown, Lake Hayes or Glenorchy, or book a holiday park.",
+    sections: [
+      s("What the 2025 bylaw says", [
+        "Queenstown Lakes District Council's Freedom Camping Bylaw 2025 took effect on 1 December 2025, after the High Court quashed the 2021 bylaw following a challenge by the Motor Caravan Association. It prohibits freedom camping in urban areas, including on-road parking, and allows it only in a certified self-contained vehicle in the designated car parks, plus some rural roads with conditions. Most council reserves are closed to camping under the Reserves Act.",
+        "At the designated sites you arrive after 6pm and leave before 8am, stay no more than two nights in any 30-day period, and keep your vehicle and belongings inside the marked space. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. The council's page and the QR check-in at each site are the final word, and the council planned a further decision in December 2026.",
+      ], ["Urban areas prohibited", "After 6pm, away by 8am", "Two nights in 30 days"]),
+      s("The Arrowtown space", [
+        "The council's list gives Arrowtown a single site: Hansen Place car park, with three marked spaces. It is a working car park on the edge of the village, so there are no views to speak of, and with only three spaces for every van that wants an Arrowtown night, it is full most evenings between December and April.",
+        "Street parking in the village, the car parks by the river and the Chinese Settlement and the reserves along the Arrow are not options. The town is an urban area under the bylaw, and the council patrols it, since the heritage streets are the district's most photographed.",
+      ], ["Hansen Place: 3 spaces", "Village streets: banned", "Full on summer evenings"]),
+      s("Other sites within reach", [
+        "The nearest alternatives sit down the valley. Howards Drive car park at Lake Hayes takes three vehicles, and Queenstown has several: Boundary Street with 15 spaces, Lakeview with 10, Industrial Place with 6 and Gorge Road with 2, with Queenstown Events Centre at Frankton taking 9. Further out, Gibbston Highway at SH6 has 2 and Glenorchy Domain has 3.",
+        "Kingston, 45 minutes south of Queenstown, has the largest site with 50 spaces. All the sites are car parks with no booking, so they work for a late arrival and not for a plan, and the council's list has changed between summers. The guide to freedom camping in Queenstown Lakes reads the whole bylaw.",
+      ], ["Lake Hayes: 3 spaces", "Boundary Street: 15 spaces", "Kingston: 50 spaces"]),
+      s("Holiday parks and DOC land", [
+        "Arrowtown has its own holiday park by the river, and Queenstown, Frankton and Lake Hayes have several more, with powered sites, cabins and tent areas. They fill from Christmas to Easter, and autumn colours in April bring a second rush, so book before you arrive. The guide to holiday parks in New Zealand covers how booking works.",
+        "DOC land around the lakes is the other free-to-cheap choice. KiwiCamping's DOC data (11 August 2026) lists 30 DOC campsites in Otago, 8 of them free and 17 with campervan access, with adult nightly rates from $5 to $42, and Twelve Mile Delta near Queenstown is the largest with room for 100. The Queenstown to Glenorchy guide covers the road north.",
+      ], ["Book for Christmas and April", "30 DOC campsites in Otago", "Twelve Mile Delta takes 100"]),
+      s("Using KiwiCamping around Arrowtown", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations around Queenstown and Arrowtown, with campervan filters. It does not hold the council's car parks, so use the council page for those and save a holiday park as the backup night.",
+        "Add Arrowtown to a trip with Queenstown and Glenorchy, and read the short legs: about 20 minutes to Queenstown and an hour to Glenorchy. Saved places and details stay on the phone, and map tiles, routing, weather and photos load when you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council car parks: use the council page", "20 minutes to Queenstown", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Arrowtown?", "Only at Hansen Place car park, which has three spaces, in a certified self-contained vehicle. The village and its reserves are banned, and the nearest larger sites are in Queenstown."],
+      ["How many nights can I stay at Queenstown Lakes freedom camping sites?", "Two nights in any 30 days, arriving after 6pm and leaving before 8am. Check the sign at each site, because the council reviews its list."],
+    ],
+    sources: [
+      { label: "Queenstown Lakes District Council: Responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
+      { label: "Queenstown Lakes District Council: Bylaws", url: "https://www.qldc.govt.nz/bylaws" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

@@ -214,3 +214,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-waihi-beach` | Mount Maunganui beach 02.jpg | Panamitsu | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Maunganui_beach_02.jpg) |
 | `freedom-camping-whangamata` | Cathedral cove Beach.JPG | Borvan53 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cathedral_cove_Beach.JPG) |
 | `freedom-camping-matakana` | A southerly view of Piha Beach and Lion Rock, 2010.jpg | Teemu Leisti | CC0 | [Source](https://commons.wikimedia.org/wiki/File:A_southerly_view_of_Piha_Beach_and_Lion_Rock,_2010.jpg) |
+| `freedom-camping-arrowtown` | The Remarkables Queenstown. (10687031544).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:The_Remarkables_Queenstown._(10687031544).jpg) |
