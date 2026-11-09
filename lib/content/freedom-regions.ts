@@ -134,7 +134,7 @@ export const freedomRegionArticles: Article[] = [
       ], ["$400 for most breaches", "Rentals pass fines on", "Book ahead from Christmas to January"]),
       s("Without a certified vehicle", [
         "A tent or a car can still sleep cheaply on the North Island, mostly on DOC land and in paid grounds. KiwiCamping's DOC data lists 122 DOC campsites across the island's regions, from free basic sites to booked grounds with showers, and DOC's freedom camping rules on conservation land do not always require certification. Holiday parks cover every town.",
-        "Whangārei, Waikato District, Taupō, Whakatāne, Rotorua and New Plymouth all name council sites for people without a toilet on board, which makes the top and middle of the island easier than the coasts around Auckland and Tauranga. The table below sums up each council's position as its own page or bylaw gives it.",
+        "Whangārei, Waikato District, Taupō, Whakatāne, Rotorua and New Plymouth all name council sites for people without a toilet on board, which makes the top and middle of the island easier than the coasts around Auckland and Tauranga. Each row in the table comes from that council's own freedom camping page or bylaw.",
       ], ["122 DOC campsites on the island", "Six councils name uncertified sites", "Holiday parks in every town"], {
         caption: "Council land only, from each council's page or bylaw as read for our council guides in October 2026, and Taupō's Freedom Camping Bylaw 2023. DOC land follows DOC's notices.",
         head: ["Council", "Certified self-contained", "Without certification"],
