@@ -1,5 +1,965 @@
 {
   "locale": "pt-br",
-  "ui": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Português (Brasil)",
+    "metaTitle": "KiwiCamping: mapa de camping na NZ, locais do DOC e planejador de viagem",
+    "metaDescription": "Encontre mais de 6,500 campings, refúgios do DOC, parques de férias e áreas de camping livre em toda a Nova Zelândia. Detalhes dos lugares offline, filtros precisos e um planejador de viagem parada por parada para iPhone.",
+    "ogTitle": "KiwiCamping: o mapa de camping e planejador de viagem para a Nova Zelândia",
+    "ogDescription": "Mais de 6,500 campings, refúgios do DOC, parques de férias e áreas de camping livre, incluídos offline. Filtre, salve e planeje a viagem inteira.",
+    "metaKeywords": "app de camping Nova Zelândia, mapa de camping NZ, camping livre NZ, app campings DOC, mapa refúgios DOC, parques de férias Nova Zelândia, app motorhome Nova Zelândia, mapa de camping offline NZ, planejador de viagem de carro Nova Zelândia",
+    "metaGuidesTitle": "Guias de camping e viagem de carro pela Nova Zelândia",
+    "metaGuidesDescription": "Regras de camping, requisitos do camping livre e de veículos autossuficientes, locais do DOC, melhores épocas, custos reais e planejamento prático para uma viagem de carro pela Nova Zelândia.",
+    "metaToolsTitle": "Calculadoras para viagens de carro pela Nova Zelândia",
+    "metaToolsDescription": "Converta preços da Nova Zelândia, calcule o combustível da viagem, estime um dia de direção realista, planeje a capacidade de água e de resíduos e compare o preço dos campings.",
+    "metaSupportTitle": "Suporte e perguntas frequentes",
+    "metaSupportDescription": "Ajuda com os mapas do KiwiCamping, os detalhes dos lugares, os filtros, as coleções, o planejador de viagem, os dados offline, a conversão de moeda e o acesso premium.",
+    "navFeatures": "Recursos",
+    "navGuides": "Guias",
+    "navTools": "Ferramentas",
+    "navSupport": "Suporte",
+    "download": "Baixar o app",
+    "downloadShort": "Baixar",
+    "updated": "Atualizado",
+    "commonQuestions": "Perguntas frequentes",
+    "altHero": "O mapa do KiwiCamping da Nova Zelândia, com pinos de campings, parques de férias e áreas de camping livre em Golden Bay e a lista Explorar com lugares próximos logo abaixo",
+    "altPlaceScreen": "Uma tela de lugar do KiwiCamping para o Robin Hood Bay Campsite em Marlborough, mostrando a tarifa gratuita, o status de funcionamento, as comodidades e um link de reserva",
+    "altCollectionsScreen": "A tela de coleções do KiwiCamping com as listas Quero visitar, Visitados, Pinos e Todos os salvos sobre um mapa de satélite de Great Barrier Island",
+    "altTripScreen": "Um roteiro de viagem do KiwiCamping pela Bay of Islands com sete paradas, distância de direção, datas e a previsão do tempo em cada camping",
+    "altExploreScreen": "A lista Explorar do KiwiCamping mostrando refúgios do DOC e campings em Southland, Auckland e Wellington com a distância em relação à área do mapa",
+    "heroKicker": "O melhor app de camping para a Nova Zelândia",
+    "heroTitle": "A Nova Zelândia é grande, o seu plano pode ser simples",
+    "heroText": "Mais de 6,500 lugares em toda a Nova Zelândia, incluídos offline para abrirem mesmo sem sinal. Filtre até achar exatamente o que você precisa, salve e transforme a sua lista numa viagem de carro com rotas, distância, datas, anotações e tarefas.",
+    "seeHow": "Veja como funciona",
+    "statPlaces": "6,500+",
+    "statPlacesLabel": "lugares em toda a Nova Zelândia",
+    "statOffline": "Offline",
+    "statOfflineLabel": "todos os detalhes de cada lugar, sem precisar de sinal",
+    "statStays": "2,000+",
+    "statStaysLabel": "lugares para se hospedar",
+    "trustLine": "Campings, refúgios, parques de férias e paradas úteis em toda a Nova Zelândia.",
+    "trustCampsites": "Campings",
+    "trustHolidayParks": "Parques de férias",
+    "trustNationalParks": "Parques nacionais",
+    "trustFreedomCamping": "Camping livre",
+    "trustUsefulStops": "Paradas úteis",
+    "trustDayUse": "Áreas de uso diurno",
+    "processEyebrow": "Da ideia à estrada",
+    "processTitle": "Encontre um camping. Monte a viagem.",
+    "processText": "Filtre até achar o camping de hoje à noite, salve as possibilidades de amanhã em coleções e mantenha a rota, a distância, as datas, as anotações e as tarefas juntas numa única viagem.",
+    "findTitle": "Encontre o lugar exato",
+    "findText": "Pesquise entre mais de 6,500 lugares, explore o que há por perto ou combine filtros até sobrarem só as áreas de camping gratuito com banheiros e água no seu canto do mapa.",
+    "saveTitle": "Salve numa coleção",
+    "saveText": "Curta, marque com uma estrela ou como visitado e as coleções inteligentes se atualizam sozinhas. Crie suas próprias listas com nome para uma região, uma estação ou uma pré-seleção.",
+    "planTitle": "Transforme numa viagem",
+    "planText": "Ordene as paradas, veja a distância entre elas, adicione datas e anotações, confira a previsão do tempo de cada parada, abra o trajeto e vá marcando conforme avança.",
+    "featuresEyebrow": "O kit completo",
+    "featuresTitle": "Encontre. Salve. Planeje toda a estrada pela frente.",
+    "featuresText": "Explore lugares, compare os detalhes, organize os favoritos e monte uma viagem que continua útil depois da mesa de planejamento.",
+    "featureMainEyebrow": "Conheça o lugar antes de chegar",
+    "featureMainTitle": "Cada lugar abre com o detalhe que decide.",
+    "featureMainText": "Fotos, uma descrição de verdade, horários, tarifas, termos e condições, comodidades agrupadas por tipo, alertas atuais, avaliações, dados de contato e reserva, a previsão do tempo e o Apple Look Around para ver a entrada a partir da estrada.",
+    "featureList1": "Fotos, horários, tarifas, condições e comodidades",
+    "featureList2": "Look Around, previsão do tempo e trajetos integrados",
+    "featureList3": "Incluído offline, abre sem sinal",
+    "feature1Title": "Coleções inteligentes e suas próprias listas",
+    "feature1Text": "Curtidos, Favoritos, Quero visitar e Visitados se preenchem sozinhos conforme você marca os lugares. Crie coleções com nome para uma ilha, uma estação ou a pré-seleção que vocês ainda estão discutindo.",
+    "feature2Title": "Filtros que respondem a uma pergunta de verdade",
+    "feature2Text": "Peça áreas de camping gratuito com banheiros e água potável perto de Queenstown e depois refine por tipo de lugar, tarifa, avaliação, reserva online, região e características detalhadas de comodidades e acesso.",
+    "feature3Title": "Mapas padrão, de satélite e em 3D",
+    "feature3Text": "Alterne entre o mapa padrão e as imagens de satélite que você pode inclinar e girar sobre o relevo real. Os pinos se agrupam em números quando você afasta o mapa e se separam conforme você aproxima.",
+    "feature4Title": "Look Around antes do desvio",
+    "feature4Text": "O Apple Look Around abre direto da tela do lugar onde há cobertura, para você ver a entrada, o piso da estrada e os arredores antes de levar o motorhome para o desvio.",
+    "feature5Title": "Previsão do tempo em cada lugar",
+    "feature5Text": "As condições atuais e a previsão ficam na tela do lugar e ao lado de cada parada da viagem, assim dá para escolher entre dois campings pensando no tempo.",
+    "feature6Title": "Custos na sua própria moeda",
+    "feature6Text": "Está de visita e não tem familiaridade com o dólar neozelandês? Escolha a sua moeda e defina a cotação uma vez, e os custos informados aparecem ao lado em valores que você avalia num relance.",
+    "plannerEyebrow": "O destaque",
+    "plannerTitle": "Parada por parada. Dia após dia.",
+    "plannerText": "O planejador de viagem é para onde tudo o mais converge. Adicione lugares salvos como paradas e arraste-os na ordem em que você realmente vai dirigir. Cada trecho mostra a distância, o trajeto abre para o próximo, cada parada tem a sua própria data, anotações de chegada e previsão do tempo, e você vai marcando como visitadas durante a viagem. As alternativas próximas ficam associadas para os dias que mudam, a lista de bagagem fica ao lado do roteiro e tudo pode ser sincronizado com o Calendário.",
+    "plannerMetric1Title": "Distância e trajetos",
+    "plannerMetric1Text": "trecho por trecho e da viagem inteira",
+    "plannerMetric2Title": "Datas e anotações",
+    "plannerMetric2Text": "associadas a cada parada",
+    "plannerMetric3Title": "Visitados e tarefas",
+    "plannerMetric3Text": "um progresso que dá para ver",
+    "plannerMetric4Title": "Previsão por parada",
+    "plannerMetric4Text": "ao lado do roteiro",
+    "routesEyebrow": "Guias que valem a leitura antes",
+    "routesTitle": "Conheça as regras. Conheça o custo.",
+    "routesText": "Guias práticos sobre regras de camping, segurança, melhores épocas e quanto uma viagem pela Nova Zelândia realmente custa.",
+    "exploreRoutes": "Explore os guias",
+    "audiencesEyebrow": "Seja qual for a sua casa na estrada",
+    "audiencesTitle": "Feito para barracas, vans e grandes voltas.",
+    "audience1Title": "Mochileiros",
+    "audience1Text": "Faça um orçamento apertado e uma rota flexível funcionarem juntos.",
+    "audience2Title": "Campers e motorhomes",
+    "audience2Text": "Encontre as instalações, o acesso e a combinação de noites de que você precisa.",
+    "audience3Title": "Trailers e veículos grandes",
+    "audience3Text": "Filtre por espaço, serviços e observações práticas de acesso.",
+    "audience4Title": "Campistas de fim de semana",
+    "audience4Text": "Deixe os favoritos por perto prontos para quando a sexta chegar.",
+    "principlesTitle": "Útil primeiro. Honesto sempre.",
+    "principle1Title": "Placas valem mais que telas",
+    "principle1Text": "Os avisos no local, os órgãos responsáveis pelas áreas e as orientações de emergência atuais sempre têm prioridade sobre um anúncio.",
+    "principle2Title": "Conferir informações atuais importa",
+    "principle2Text": "Confira as últimas atualizações de reservas, estradas, fogo e fechamentos antes de sair.",
+    "principle3Title": "Deixe os lugares melhores do que encontrou",
+    "principle3Text": "Acampar de forma legal, descartar os resíduos com cuidado e respeitar a whenua (a terra) mantém esses lugares abertos.",
+    "faqEyebrow": "Algumas respostas diretas",
+    "faqTitle": "Boas perguntas. Respostas claras.",
+    "faqIntro": "Respostas diretas sobre viajar com o KiwiCamping.",
+    "faq1q": "O que é o KiwiCamping?",
+    "faq1a": "O KiwiCamping é um app para iPhone para encontrar lugares para acampar e se hospedar pela Nova Zelândia. Ele traz um diretório de mais de 6,500 lugares para os detalhes ficarem legíveis sem sinal e transforma os que você salva numa viagem de carro com rota ordenada, datas, anotações e tarefas.",
+    "faq2q": "Quais lugares estão incluídos?",
+    "faq2a": "Mais de 6,500 lugares: campings do DOC, refúgios de montanha, parques de férias e outras hospedagens reserváveis, áreas de camping livre, estações públicas de descarte e áreas de uso diurno nas duas ilhas.",
+    "faq3q": "Funciona sem sinal?",
+    "faq3a": "O diretório de lugares vem incluído no app, então nomes, categorias, descrições, tarifas, comodidades e condições continuam legíveis bem além da cobertura. Os serviços em tempo real, como previsão do tempo, rotas, imagens do Look Around, fotos e páginas dos provedores, ainda precisam de conexão.",
+    "faq4q": "Posso planejar uma viagem de carro com várias paradas?",
+    "faq4a": "Sim, e é o recurso principal do app. Adicione lugares como paradas, arraste para ordenar, associe uma data e anotações de chegada a cada um, veja a distância de direção trecho por trecho e na viagem toda, abra o trajeto até a próxima parada, confira a previsão do tempo em cada uma, marque as paradas como visitadas e deixe a lista de bagagem ao lado do roteiro. Os detalhes do roteiro podem ser sincronizados com o Calendário.",
+    "faq5q": "O que são coleções?",
+    "faq5a": "Dois tipos. As coleções inteligentes (Curtidos, Favoritos, Quero visitar, Visitados, Pinos e Todos os salvos) se preenchem sozinhas conforme você marca os lugares. Além delas, você pode criar suas próprias coleções com nome, ícone e anotações para uma região, uma estação, um veículo ou uma pré-seleção.",
+    "faq6q": "Posso filtrar por acampamentos gratuitos ou locais para veículos autossuficientes?",
+    "faq6a": "Sim, e por combinações dos dois. Os filtros cobrem tipo de lugar, tarifa, avaliação mínima, reserva online, região e características detalhadas de comodidades e acesso, então “áreas de camping gratuito com banheiros e água potável perto de Queenstown” é uma única consulta.",
+    "faq7q": "O que aparece na tela de um lugar?",
+    "faq7a": "Fotos, uma descrição, horários, tarifas, termos e condições, comodidades agrupadas por tipo, alertas atuais, avaliações, dados de contato e reserva, previsão do tempo, Look Around onde houver cobertura, trajetos e alternativas próximas.",
+    "faq8q": "Quais visualizações de mapa existem?",
+    "faq8a": "Um mapa padrão e uma visão de satélite baseada nas imagens Flyover da Apple, que você pode inclinar e girar para ver o relevo em 3D de verdade. O Apple Look Around mostra a visão ao nível da rua a partir da tela do lugar.",
+    "faq9q": "Posso ver os preços na minha própria moeda?",
+    "faq9a": "Sim. Escolha a sua moeda nos ajustes e defina a cotação, e os custos informados aparecem nessa moeda ao lado do valor em dólares neozelandeses.",
+    "faq10q": "Posso reservar um camping no KiwiCamping?",
+    "faq10a": "Abra os dados de reserva de um lugar para chegar ao provedor e conferir a disponibilidade, os preços e as condições em tempo real.",
+    "faq11q": "As regras de camping são as mesmas em toda a Nova Zelândia?",
+    "faq11a": "Não. Podem valer a lei nacional, as normas municipais, as regras de conservação e as condições de cada local. Siga sempre as placas atuais, as orientações do órgão responsável pela área, as restrições de fogo e os alertas oficiais.",
+    "downloadEyebrow": "O seu próximo lugar está por aí",
+    "downloadTitle": "Encontre. Salve. Planeje a estrada pela frente.",
+    "downloadText": "Mais de 6,500 lugares da Nova Zelândia offline, filtros precisos o bastante para achar o exato, coleções que se organizam sozinhas e um planejador de viagem que guarda a rota inteira. KiwiCamping para iOS.",
+    "guidesEyebrow": "Guias de camping na Nova Zelândia",
+    "guidesTitle": "Siga a estrada rumo a algo bom.",
+    "guidesIntro": "Guias detalhados sobre campings, regras, custos locais e planejamento prático de viagens pela Nova Zelândia.",
+    "guideSingular": "guia",
+    "guidePlural": "guias",
+    "readGuide": "Ler o guia",
+    "guidePluralFew": "guias",
+    "placesFew": "lugares",
+    "minuteRead": "minutos de leitura",
+    "places": "lugares",
+    "backToGuides": "Guias",
+    "photoCredits": "Créditos das fotos",
+    "keepInMind": "Lembre-se",
+    "placesAlong": "Lugares no caminho",
+    "checkBefore": "Confira antes de sair",
+    "checkText": "As regras e as condições mudam. Consulte de novo a fonte oficial e a página do seu parque ou camping exato antes de sair.",
+    "priceTitle": "Tabela de preços em 10 moedas",
+    "pricesChecked": "Preços conferidos",
+    "conversionsUse": "As conversões usam as cotações do RBNZ de",
+    "item": "Item",
+    "currencyDisclaimer": "Os valores em outras moedas são conversões mecânicas do preço de referência em NZD, não cotações de cartão nem de dinheiro vivo. Bancos e processadores de pagamento aplicam as próprias cotações e taxas.",
+    "related": "Guias relacionados",
+    "takeRoad": "Leve para a estrada",
+    "savePlanTitle": "Salve as paradas. Planeje a viagem inteira.",
+    "savePlanText": "Monte uma rota ordenada com os lugares salvos, calcule a distância e mantenha datas, anotações e tarefas associadas.",
+    "toolsEyebrow": "Números úteis",
+    "toolsTitle": "Ferramentas para a viagem. Sem matemática misteriosa.",
+    "toolsIntro": "Calculadoras rápidas de planejamento para preços e custos de direção na Nova Zelândia. Cada premissa fica à vista para você trocar pelo número que combina com a sua rota.",
+    "currencyEyebrow": "Conversor de moeda",
+    "currencyTitle": "Converta um preço da Nova Zelândia.",
+    "currencyText": "Conversão de referência para planejar a viagem com as cotações do Banco da Reserva da Nova Zelândia. O seu banco ou cartão pode usar outra cotação e cobrar taxas.",
+    "fuelEyebrow": "Calculadora de combustível",
+    "fuelTitle": "Coloque preço na distância a dirigir.",
+    "fuelText": "Informe a distância total da rota, o consumo do veículo carregado e o preço esperado por litro. Os preços em áreas remotas podem passar dos de referência nas cidades.",
+    "driveEyebrow": "Estimador do dia de direção",
+    "driveTitle": "Quanto esse dia realmente leva.",
+    "driveText": "Os apps de rota dão o tempo em movimento numa estrada ideal. Aqui entram o tipo de estrada e as suas paradas reais, que é onde um dia costuma estourar.",
+    "tankEyebrow": "Planejador de água e resíduos",
+    "tankTitle": "Quantos dias sem estrutura.",
+    "tankText": "A capacidade em litros só fica útil quando é expressa em dias. A água cinza costuma encher antes de a água limpa acabar, por isso as duas aparecem.",
+    "campEyebrow": "Comparação de campings",
+    "campTitle": "Por pessoa ou por lote?",
+    "campText": "Um camping do DOC costuma cobrar por adulto e um parque de férias costuma cobrar por lote. A opção mais barata muda com o tamanho do grupo, o que pega as famílias de surpresa.",
+    "amount": "Valor",
+    "from": "De",
+    "to": "Para",
+    "labelDistance": "Distância (km)",
+    "labelConsumption": "Consumo (L/100 km)",
+    "labelFuelPrice": "Preço do combustível (NZD/L)",
+    "labelRoadType": "Tipo de estrada",
+    "roadMotorway": "Rodovia ou reta aberta",
+    "roadHighway": "Rodovia principal",
+    "roadWinding": "Sinuosa ou litorânea",
+    "roadNarrow": "Estreita, íngreme ou de cascalho",
+    "labelStops": "Paradas",
+    "labelFresh": "Água limpa (L)",
+    "labelGrey": "Água cinza (L)",
+    "labelPeople": "Pessoas",
+    "labelAdults": "Adultos",
+    "labelNights": "Noites",
+    "labelPerAdult": "Por adulto (NZD)",
+    "labelPerSite": "Por lote (NZD)",
+    "toolsReadingTitle": "Monte o orçamento com referências atuais.",
+    "toolsReadingText": "As ferramentas calculam exatamente o que você informa. Os nossos guias de custos explicam de onde vieram os valores iniciais, quando foram conferidos e o que pode mudar o preço final.",
+    "toolsReadingLink": "Explore os guias de custos",
+    "calculatorNote": "Estas calculadoras são auxílios de planejamento, não cotações de reservas, de postos de combustível nem de câmbio. As estimativas dos tanques consideram cerca de 11 litros de água limpa e 9 litros de água cinza por pessoa por dia, o que varia com banhos e cozinha. Confirme os preços atuais antes de comprar.",
+    "enterValidValues": "Informe valores válidos",
+    "enterValidAmount": "Informe um valor válido",
+    "daysFresh": "dias de água limpa",
+    "daysGrey": "dias de água cinza",
+    "theSame": "igual",
+    "perAdultCheaper": "por adulto sai mais barato",
+    "perSiteCheaper": "por lote sai mais barato",
+    "supportTitle": "Como podemos ajudar?",
+    "supportIntro": "Respostas para encontrar lugares, salvar favoritos, planejar viagens e usar o KiwiCamping na estrada.",
+    "contact": "Falar com o suporte",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "explore": "Explorar",
+    "help": "Ajuda",
+    "getApp": "Baixe o app",
+    "travelGuides": "Guias de viagem",
+    "footerText": "Encontre mais de 6,500 lugares da Nova Zelândia offline, salve os que importam e monte viagens de carro completas com rotas, distância, datas, anotações e tarefas.",
+    "footerLine": "Feito para dar a volta longa pela Nova Zelândia.",
+    "rulesSafety": "Regras e segurança",
+    "roadTrips": "Viagens de carro",
+    "campingGuides": "Guias de camping",
+    "tripPlanning": "Planejamento da viagem",
+    "costsBudget": "Custos e orçamento",
+    "appGuides": "Guias de apps"
+  },
+  "articles": {
+    "doc-campsite-rules": {
+      "title": "Regras dos campings do DOC 2026: horário de silêncio, cães, drones, estadias",
+      "description": "Silêncio das 22h às 7h, saída até as 10h, sem animais de estimação nem drones sem permissão do DOC, e quanto custa acampar sem reserva: os termos do DOC mais as regras locais.",
+      "region": "Campings do DOC",
+      "imageAlt": "Painel informativo de um camping do Department of Conservation",
+      "intro": "Reservar um camping do DOC significa aceitar os termos de reserva do DOC e as regras locais da página daquele camping. As nacionais são curtas: mantenha o barulho baixo das 22h às 7h, saia até as 10h, leve embora todo o lixo, não traga animais de estimação nem drones a menos que o DOC os tenha autorizado, e não fume nem use cigarro eletrônico nos refúgios ou nos banheiros. Fogueiras, água, cães, geradores e acesso de veículos variam conforme o local, então confira a página do DOC do local e as placas no próprio camping.",
+      "sections": [
+        {
+          "heading": "Use a reserva com honestidade",
+          "body": [
+            "Reserve a data, o grupo e o produto corretos e depois mantenha a confirmação disponível offline. Onde as vagas não são atribuídas individualmente, escolha apenas entre a área disponível na sua chegada.",
+            "Se você perder a primeira noite de uma reserva de várias noites e ninguém contatar o escritório do local em 24 horas, o DOC cancela o restante sem reembolso. Não segure uma vaga com uma barraca ou um veículo vazios quando ninguém pretende ficar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Respeite os horários compartilhados",
+          "body": [
+            "Os termos padrão do DOC definem o horário de silêncio das 22h às 7h, a menos que as regras locais difiram, a saída até as 10h e a entrada entre 14h e 20h30. Mantenha geradores, música e movimentação de veículos dentro dos limites do local.",
+            "A reserva de um camping não garante o uso das instalações de um refúgio próximo, então planeje em torno dos banheiros, abrigos e pontos de água que vêm com o camping."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Deixe o local pronto",
+          "body": [
+            "Leve embora todo o lixo, mantenha a comida protegida e descarte a água cinza apenas onde o local indicar. Não é permitido fumar nem usar cigarro eletrônico nos refúgios nem nos banheiros.",
+            "Animais de estimação e drones exigem permissão explícita. Confira a página exata do camping e não trate um local tranquilo como aprovação implícita."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Regras de reserva e a multa por não reservar",
+          "body": [
+            "A página de cada camping diz se ele é reservável ou de autorregistro, e as regras decorrem disso. Num local reservável você precisa de uma reserva válida para a noite em que usá-lo, inclusive se tiver um passe. Sem uma, você não tem vaga garantida, e o DOC cobra a sua tarifa de penalidade: cada pessoa paga a tarifa normal mais uma tarifa completa de adulto, a menos que esteja se abrigando por condições adversas. Quem tem um Campsite Pass e chega sem reserva paga em vez disso uma tarifa de $10 e é recusado se o local estiver lotado.",
+            "Num local de autorregistro, preencha o formulário e pague na chegada. Nos dois casos, a reserva ou o registro vale para as pessoas e o veículo que você realmente traz, e a confirmação precisa estar disponível quando solicitada, então salve-a onde você possa mostrá-la <a data-guide=\"kiwicamping-offline-data-guide\">sem sinal</a>."
+          ],
+          "tips": [
+            "Um passe não é uma reserva",
+            "Usar o local sem reserva custa a cada pessoa a tarifa mais uma de adulto",
+            "Registre-se e pague na chegada nos locais por ordem de chegada"
+          ]
+        },
+        {
+          "heading": "A água muitas vezes não é tratada",
+          "body": [
+            "Muitos locais do DOC captam água de riachos ou de cisternas de telhado e o abastecimento não é tratado. A giárdia está presente na água da Nova Zelândia e um riacho cristalino não diz nada a respeito. Ferva por pelo menos três minutos, filtre ou use tratamento químico, e não presuma que uma torneira é segura só porque existe.",
+            "Leve água potável suficiente para ser independente por um dia. Os tanques secam, aparecem avisos para ferver a água, e um camping listado com água pode ter o abastecimento quebrado sem aviso."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Geradores, drones e cães",
+          "body": [
+            "As regras dos geradores são definidas local por local, então confira a página do DOC do camping antes de usar um. Os drones exigem uma concessão em terras públicas de conservação na maioria das circunstâncias, e mesmo com uma permissão do DOC um drone deve se manter longe de campings e refúgios.",
+            "A regra padrão do DOC é sem cães em terras de conservação, a menos que o DOC tenha aprovado o acesso com cães, e os cães não são permitidos em parques nacionais sem permissão, para proteger o kiwi e outras aves que fazem ninho no chão. Nos dados do DOC do KiwiCamping, 207 dos 287 campings não permitem cães e 74, cerca de um quarto, permitem de alguma forma, sobretudo com guia ou com uma permissão do DOC. Confira o local específico e não presuma."
+          ],
+          "tips": [
+            "Os drones precisam de uma concessão em terras do DOC",
+            "Cães proibidos na maioria dos locais do DOC",
+            "As regras dos geradores variam conforme o local"
+          ]
+        },
+        {
+          "heading": "Estadia máxima e conduta no local",
+          "body": [
+            "Alguns <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a> definem uma estadia máxima na página do DOC para evitar a ocupação prolongada, e um Campsite Pass cobre no máximo 7 noites em qualquer período de 30 dias num mesmo camping, com as noites extras pagas pela tarifa padrão. Mover um veículo alguns metros não zera nenhum dos dois limites.",
+            "Fique dentro da vaga demarcada, não se estenda além dela com toldos ou equipamentos onde o espaço é apertado e respeite o horário de silêncio. Esses terrenos são compartilhados, com frequência estão lotados e o prazer de todos depende de cada um ficar no seu próprio espaço."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Chegar e se instalar",
+          "body": [
+            "Chegue de dia quando puder. Escolher uma vaga, avaliar a drenagem, notar galhos acima e nivelar um veículo são tarefas bem mais difíceis no escuro, e um local que seria claramente errado às 16h é fácil de aceitar às 21h quando você está cansado.",
+            "Pague na chegada onde houver caixa de honestidade ou autorregistro, em vez de pensar em resolver depois. Os guardas conferem, a tarifa é pequena e o sistema só funciona porque a maioria paga sem que peçam.",
+            "Instale-se dentro da vaga demarcada e deixe espaço para quem chegar depois. Num terreno movimentado no verão, espalhar o equipamento por duas vagas é a diferença entre o local acomodar todo mundo ou gente ser recusada."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Se o camping estiver lotado",
+          "body": [
+            "Os terrenos populares do DOC podem estar lotados nas noites de verão, então não conte com uma área de excedente. Criar uma vaga extra no gramado, na via de acesso ou ao lado do bloco de banheiros não é uma opção, e a equipe do DOC pode mandar você sair.",
+            "Identifique uma alternativa legal antes de chegar e não depois. Um <a data-guide=\"holiday-parks-new-zealand-guide\">parque de férias</a> a meia hora é um resultado bem melhor do que dirigir tarde por uma estrada desconhecida procurando qualquer lugar que receba você."
+          ],
+          "tips": [
+            "Os terrenos populares lotam no verão",
+            "Não conte com uma área de excedente",
+            "Conheça a sua alternativa antes de chegar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quais são as regras num camping do DOC?",
+          "Mantenha o barulho baixo das 22h às 7h, saia até as 10h, leve embora todo o lixo e não traga animais de estimação nem drones a menos que o DOC os tenha autorizado. É proibido fumar e usar cigarro eletrônico nos refúgios e nos banheiros, e a página de cada local acrescenta regras sobre fogueiras, cães, geradores e veículos."
+        ],
+        [
+          "Quanto tempo dá para ficar num camping do DOC?",
+          "Alguns campings definem uma estadia máxima na página do DOC, e um Campsite Pass cobre no máximo 7 noites em qualquer período de 30 dias num mesmo camping. Cada noite precisa de uma reserva ou de um registro, exceto nos campings básicos gratuitos, e usar um local reservável sem reserva custa a cada pessoa a tarifa normal mais uma tarifa completa de adulto, ou uma tarifa de $10 para quem tem um Campsite Pass."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Termos de reserva de hospedagem do DOC"
+        },
+        {
+          "label": "DOC: Campsite Pass"
+        }
+      ],
+      "priceTable": null
+    },
+    "campervan-road-rules-new-zealand": {
+      "title": "Regras para dirigir um motorhome na NZ: habilitação, velocidade e tamanho (2026)",
+      "description": "Uma carteira de motorista definitiva de carro cobre motorhomes de até 6,000 kg na Nova Zelândia. Limites de velocidade, deixar o trânsito passar, vento, altura e comprimento para a balsa.",
+      "region": "Estradas da Nova Zelândia",
+      "imageAlt": "Motorhome grande numa estrada estreita da Nova Zelândia",
+      "intro": "Uma carteira de motorista definitiva de carro (Classe 1), ou uma carteira estrangeira definitiva de carro com a qual você possa dirigir aqui, cobre campers e motorhomes de até 6,000 kg de peso bruto carregado. Abaixo de 3,500 kg vale o limite normal de velocidade em estrada aberta; veículos mais pesados têm um limite menor. Um motorhome pode ser legal com uma carteira de carro e ainda assim parecer completamente diferente de um carro, então na entrega é preciso confirmar a altura, a largura, o comprimento, o peso carregado e todas as estradas excluídas pelo contrato de aluguel.",
+      "sections": [
+        {
+          "heading": "Meça antes de se mexer",
+          "body": [
+            "Anote as dimensões do veículo onde o motorista possa vê-las. As claraboias do teto, os aparelhos de ar-condicionado, os suportes de bicicleta e o balanço traseiro afetam os vãos livres e as manobras.",
+            "Todos os passageiros precisam de assentos e sistemas de retenção aprovados enquanto viajam. Camas e áreas de estar traseiras não são posições de passageiro, a menos que sejam certificadas como tal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dê espaço ao veículo",
+          "body": [
+            "Freie mais cedo, faça as curvas devagar e deixe uma distância de seguimento maior. Use os espelhos com intenção e deixe o trânsito atrás de você passar nos trechos alargados seguros.",
+            "Um vento lateral forte pode empurrar um veículo alto pela pista. Reduza a velocidade ou pare quando as correções no volante se tornarem constantes."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Respeite as exclusões",
+          "body": [
+            "Os contratos de aluguel podem proibir praias, estradas sem pavimento ou rotas remotas nomeadas, mesmo que exista acesso público. O seguro pode depender dessas mesmas condições.",
+            "Pare diante de um galho baixo, de uma ponte com restrição de peso ou de um vau duvidoso. O resgate do veículo não substitui o vão livre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Conheça as suas dimensões antes de sair",
+          "body": [
+            "Anote a altura, o comprimento e o peso do veículo e deixe onde o motorista possa ver. A altura é a que causa danos caros, em entradas de estacionamentos, drive-thrus, coberturas de postos e várias passagens subterrâneas urbanas.",
+            "Confira os espelhos, os pontos cegos e a câmera de ré antes de sair do depósito e dê a volta no veículo. Boa parte dos danos aos motorhomes de aluguel acontece em baixa velocidade, em estacionamentos."
+          ],
+          "tips": [
+            "Escreva a altura no painel",
+            "A maioria dos danos acontece em estacionamentos",
+            "Dê a volta no veículo antes de sair"
+          ]
+        },
+        {
+          "heading": "Todos viajam num assento de verdade",
+          "body": [
+            "Camas, mesas de jantar sem cintos e áreas de estar não são posições de passageiro enquanto o veículo está em movimento. Cada ocupante precisa de um assento aprovado com cinto funcionando, e são exigidos sistemas de retenção infantil para menores de sete anos, com padrões específicos.",
+            "Prenda tudo o que estiver solto antes de cada trajeto. A porta de um armário, um botijão de gás ou uma chaleira cheia ficam perigosos numa frenagem de emergência, e os motorhomes freiam mais tarde e com mais força que um carro."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "O vento, e por que importa mais aqui",
+          "body": [
+            "Um veículo de laterais altas pega mal o vento lateral, e a Nova Zelândia é um país ventoso, com estradas litorâneas expostas, pontes e desfiladeiros de montanha. Ultrapassar caminhões e sair de cortes no morro produzem empurrões laterais repentinos.",
+            "Segure o volante com firmeza com as duas mãos nos trechos expostos, reduza a velocidade antes de uma rajada e não durante, e consulte o planejador de trajetos da NZTA antes de uma travessia exposta: a Remutaka Hill Road (SH2) fecha com vento forte, e outras estradas expostas têm avisos de vento."
+          ],
+          "tips": [
+            "Reduza a velocidade antes do trecho exposto",
+            "Algumas estradas fecham com vento forte",
+            "Caminhões e cortes causam rajadas repentinas"
+          ]
+        },
+        {
+          "heading": "Ultrapassar e ser ultrapassado",
+          "body": [
+            "Um motorhome acelera devagar, então ultrapassar exige muito mais estrada livre do que um carro precisa e raramente vale a pena tentar. A maioria das rodovias da Nova Zelândia tem duas pistas, com poucas faixas de ultrapassagem e um mau histórico de acidentes em ultrapassagens.",
+            "Quando o trânsito se acumula atrás de você, encoste onde for seguro e deixe passar. Se você está atrasando o trânsito, as regras de trânsito exigem que você vá para a esquerda e deixe passar assim que for seguro, e isso também elimina a pressão que faz as pessoas ultrapassarem mal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Estacionamento e legalidade de pernoitar",
+          "body": [
+            "Estacionar um motorhome é uma pergunta diferente de acampar nele. Um veículo pode estar legalmente estacionado num lugar e ainda assim ter proibido ser ocupado durante a noite, e é dessa distinção que dependem a maioria das infrações.",
+            "As restrições de altura dos estacionamentos urbanos pegam os motorhomes de surpresa o tempo todo, e a cancela costuma ser o primeiro sinal. Procure os limites de altura sinalizados antes de entrar e use o estacionamento a céu aberto ou de excedente que a maioria das cidades oferece para veículos maiores.",
+            "Nas cidades, o prático é deixar o veículo num camping ou num estacionamento de integração e entrar de <a data-guide=\"public-transport-costs-new-zealand-2026\">transporte público</a>. É mais rápido, mais barato e evita o problema inteiro em vez de administrá-lo."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Balsas, túneis e limites de altura",
+          "body": [
+            "As tarifas de veículos do <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> são definidas pelo comprimento, incluindo suportes de bicicleta e engates, e o comprimento é conferido no check-in. Alguns túneis urbanos e pontes antigas têm restrições de altura ou de peso, e algumas rotas expostas fecham com vento forte.",
+            "Conheça as suas dimensões com precisão e compare-as com qualquer rota que tenha um túnel, uma ponte baixa ou uma reserva de balsa. Chutar é o que gera um ajuste caro num terminal ou algo pior numa estrada."
+          ],
+          "tips": [
+            "As tarifas da balsa são definidas pelo tamanho",
+            "Conheça a altura e o comprimento exatos",
+            "As rotas expostas podem fechar com vento forte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Os limites de velocidade são diferentes para um motorhome?",
+          "Para a maioria dos campers e motorhomes de aluguel de menos de 3,500 kg, não: vale o limite normal de estrada aberta. Veículos mais pesados e qualquer um que reboque têm um limite menor, e o limite é um máximo e não uma meta numa estrada sinuosa."
+        ],
+        [
+          "O que pega os motoristas de motorhome de surpresa na Nova Zelândia?",
+          "A altura e a largura em estradas estreitas, o vento em passagens e pontes expostas e o hábito de formar uma fila atrás de você. Encostar para deixar o trânsito passar é o esperado aqui e é o que mais reduz o risco."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: dirigir nas estradas da Nova Zelândia"
+        }
+      ],
+      "priceTable": null
+    },
+    "alcohol-fatigue-driving-new-zealand": {
+      "title": "Limite de álcool ao dirigir na Nova Zelândia para visitantes (2026)",
+      "description": "Limite: 250 microgramas por litro de ar expirado a partir dos 20 anos, zero abaixo de 20. O que envolve uma blitz e por que o primeiro trajeto depois de um voo deve ser curto.",
+      "region": "Estradas da Nova Zelândia",
+      "imageAlt": "Motorista descansando ao lado de um motorhome antes de seguir viagem",
+      "intro": "Os visitantes costumam juntar no mesmo dia um voo longo, um veículo desconhecido e a direção pela esquerda. Trate o descanso como parte da reserva e mantenha o álcool completamente separado de qualquer responsabilidade ao volante.",
+      "sections": [
+        {
+          "heading": "Descanse depois do voo",
+          "body": [
+            "Reserve uma primeira noite por perto ou use o transporte do depósito em vez de começar um trajeto longo com jet lag. Aprenda os comandos, os espelhos e o tamanho do veículo durante o dia.",
+            "Entre os sinais de fadiga estão bocejos repetidos, a atenção que divaga e placas que passam batido. Pare no primeiro aviso em vez de barganhar com a próxima cidade."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "As regras sobre álcool variam conforme o motorista",
+          "body": [
+            "Motoristas com menos de 20 anos devem ter zero álcool. Os demais limites legais e as penalidades não estabelecem uma quantidade pessoal segura, principalmente com fadiga, medicação ou uma estrada desconhecida.",
+            "Escolha um motorista sóbrio ou deixe o veículo parado. Café, comida e uma espera curta não eliminam o álcool rapidamente."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Faça pausas de verdade",
+          "body": [
+            "Troque de motorista quando ambos tiverem habilitação e seguro, pare para se movimentar e evite longos trechos à noite. As áreas de descanso servem para pausas seguras, não são automaticamente camping legal.",
+            "Planeje o camping antes de a fadiga chegar ao auge. Um <a data-guide=\"holiday-parks-new-zealand-guide\">parque de férias</a> reservado por perto sai mais barato que uma batida, uma multa ou um veículo danificado."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Os limites legais",
+          "body": [
+            "Para motoristas de 20 anos ou mais, o limite é de 250 microgramas de álcool por litro de ar expirado, ou 50 miligramas por 100 mililitros de sangue. Para menores de 20, o limite é zero. Ambos são fiscalizados com blitze frequentes, inclusive em estradas rurais e durante o dia.",
+            "Não há forma confiável de estimar o seu próprio nível, e os cálculos de doses padrão que circulam na internet não consideram a composição corporal, a comida, a fadiga nem a noite anterior. A única forma segura numa viagem de carro é separar por completo beber de dirigir."
+          ],
+          "tips": [
+            "Limite zero abaixo dos 20 anos",
+            "250 mcg no ar expirado, 50 mg no sangue a partir dos 20",
+            "As blitze são comuns e aleatórias"
+          ]
+        },
+        {
+          "heading": "Dirigir na manhã seguinte",
+          "body": [
+            "É aqui que os visitantes mais se complicam. O álcool é eliminado a um ritmo de mais ou menos uma dose padrão por hora e não mais rápido, então uma noite pesada pode deixar você acima do limite até bem tarde na manhã seguinte. Sono, café e banho não aceleram nada.",
+            "Numa viagem de camping o veículo está bem ali e a tentação de sair cedo é forte. Se você bebeu bastante, planeje sair tarde em vez de cedo e inclua isso no roteiro, em vez de decidir às 7 da manhã."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "A fadiga é o maior risco nesta viagem",
+          "body": [
+            "Chegar de um voo de longa distância, o jet lag, um veículo desconhecido, dirigir do outro lado e as estradas sinuosas combinam mal, e os trechos longos e cheios de curvas entre as cidades deixam pouca margem para um motorista cansado. Mantenha curto o primeiro <a data-guide=\"new-zealand-driving-day-planner\">dia de direção</a>, antes de o seu relógio biológico se ajustar.",
+            "Não retire um motorhome e dirija quatro horas no dia da chegada. Fique perto do aeroporto na primeira noite, faça curto o primeiro dia de direção e troque de motorista com regularidade, se puder."
+          ],
+          "tips": [
+            "Não dirija longe no dia da chegada",
+            "Mantenha curto o primeiro dia de direção",
+            "Troque de motorista a cada duas horas"
+          ]
+        },
+        {
+          "heading": "Reconheça antes que importe",
+          "body": [
+            "Bocejos, olhos pesados, sair da faixa, perder uma saída e não se lembrar dos últimos quilômetros são sinais tardios, não precoces. Quando você os percebe, o tempo de reação já está bastante comprometido.",
+            "Pare a cada duas horas como regra e não só quando se sentir cansado. Um cochilo de vinte minutos é realmente eficaz; música, ar fresco, energéticos e conversa não são, e servem sobretudo para mascarar os sintomas enquanto o comprometimento continua."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Planeje uma viagem que evite o problema",
+          "body": [
+            "Monte as visitas a regiões vinícolas em torno de um motorista da vez, uma bicicleta ou um passeio guiado, em vez de simplesmente pretender ter cuidado. Marlborough, Hawke's Bay, Central Otago e Martinborough são compactas o bastante para que ir de vinícola em vinícola de bicicleta seja o normal.",
+            "Onde você planeja beber, planeje ficar. Reservar o camping no lugar onde você bebe, e não a meia hora de distância, elimina a decisão por completo, e em geral custa o mesmo.",
+            "Quanto à fadiga, monte o roteiro de modo que nenhum dia exija mais de cerca de quatro horas de direção e coloque o dia mais curto logo depois da sua chegada internacional. A maioria dos problemas de fadiga aqui são problemas de roteiro e não de força de vontade."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "O que envolve uma blitz",
+          "body": [
+            "A polícia pode parar qualquer veículo e exigir um teste de bafômetro sem suspeitar de nada. As blitze aparecem em estradas rurais e a qualquer hora, não só à noite perto das cidades.",
+            "O teste de triagem leva segundos. Se você não passar, ou não completar ou não conseguir completá-lo, a polícia pode exigir um teste de bafômetro com valor probatório ou um exame de sangue, e recusar um exame de sangue exigido é uma infração com penalidades como as da direção sob efeito de álcool. Não há nada a ganhar recusando."
+          ],
+          "tips": [
+            "Qualquer veículo pode ser parado",
+            "As blitze funcionam a qualquer hora",
+            "Recusar um exame de sangue é uma infração"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual é o limite de álcool ao dirigir na Nova Zelândia?",
+          "250 microgramas de álcool por litro de ar expirado para motoristas de 20 anos ou mais, o que equivale a um limite de álcool no sangue de 0.05. Para menores de 20, o limite é zero, e a fiscalização é feita com testes de bafômetro aleatórios frequentes."
+        ],
+        [
+          "Por que a fadiga é um risco tão grande nas viagens de carro pela Nova Zelândia?",
+          "Porque dirigir exige atenção constante e as distâncias parecem menores do que são na prática. Chegar de um voo de longa distância, um lado da pista desconhecido e uma rodovia sinuosa combinam mal, e é por isso que o primeiro dia é o que deve ser mantido curto."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: álcool e drogas"
+        },
+        {
+          "label": "NZTA: fadiga"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-time-camping-new-zealand": {
+      "title": "Temporada de sandflies na NZ: quando são piores e os melhores meses para acampar",
+      "description": "Quando e onde os sandflies picam na Nova Zelândia, piores na West Coast e em Fiordland, e como cada estação combina com o camping, região por região.",
+      "region": "Estações da Nova Zelândia",
+      "imageAlt": "As quatro estações numa paisagem de camping da Nova Zelândia",
+      "intro": "Não existe um único melhor mês para o país inteiro, porque a Nova Zelândia se estende muito de norte a sul e quase todo o clima é decidido pela altitude e pela costa em que você está. Escolher quando ir é, sobretudo, decidir o que você aceita trocar: calor por multidões, sossego por luz do dia, ou paisagem por certeza.",
+      "sections": [
+        {
+          "heading": "Verão: luz do dia, e todo mundo",
+          "body": [
+            "De dezembro a fevereiro há tardes longas, mar litorâneo quente e a maior disponibilidade de campings abertos e serviços. É também quando o próprio país sai de férias. Entre o Natal e o fim de janeiro, os locais litorâneos populares lotam no começo da tarde, as balsas e os aluguéis esgotam e os preços sobem muito.",
+            "Reserve as noites realmente difíceis de substituir (a balsa, as Great Walks, os parques de férias das cidades de praia) e deixe flexíveis as paradas comuns. Lembre que verão não significa calor em todo lugar: as noites nas montanhas continuam frias, e as restrições de fogo e a falta de água são mais prováveis justamente nessa época. O nosso guia sobre <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">acampar no Natal</a> e no verão 2026-27 traz as datas e as regras de reserva para o próximo pico."
+          ],
+          "tips": [
+            "Reserve cedo as balsas e as cidades de praia",
+            "As noites nas montanhas continuam frias no verão",
+            "As restrições de fogo atingem o pico no verão"
+          ]
+        },
+        {
+          "heading": "Outono: o favorito tranquilo",
+          "body": [
+            "Março e abril são, para muita gente que viaja por aqui com frequência, o melhor meio-termo. Períodos estáveis são comuns, a luz é excelente, os campings estão abertos mas já não lotados e os preços caem quando as férias escolares terminam. Central Otago, em particular, está no seu melhor quando os choupos mudam de cor.",
+            "A contrapartida é que a luz do dia encurta e as noites esfriam, então os <a data-guide=\"new-zealand-driving-day-planner\">dias de direção</a> precisam ser um pouco mais curtos e o saco de dormir um pouco mais quente. Alguns serviços sazonais começam a fechar a partir de abril."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Primavera e inverno",
+          "body": [
+            "A primavera traz cachoeiras cheias, neve ainda nos picos e verde por toda parte, mas é a estação menos previsível: o vento e as condições de montanha que mudam rápido exigem mais cautela e mais flexibilidade. Outubro e novembro podem trazer uma semana perfeita ou uma realmente difícil.",
+            "O inverno é uma viagem diferente e não pior. Combina com as áreas de esqui, os céus noturnos limpos do sul e viajantes bem equipados para o frio. O camping nas terras baixas do norte continua ameno, enquanto Central Otago, Tongariro e as passagens de montanha exigem preparo para <a data-guide=\"winter-driving-new-zealand-campervan\">dirigir no inverno</a>, correntes e uma visão realista das horas de luz. É uma estação ruim para improvisar."
+          ],
+          "tips": [
+            "O outono é o melhor meio-termo geral",
+            "A primavera é linda e imprevisível",
+            "O inverno exige equipamento, não otimismo"
+          ]
+        },
+        {
+          "heading": "Sandflies: onde e quando",
+          "body": [
+            "Os <a data-guide=\"sandflies-new-zealand-camping\">sandflies</a>, namu em te reo maori, vivem onde houver água corrente e mata, e duas das 13 espécies da Nova Zelândia picam. A West Coast e Fiordland são famosas por eles, e é por isso que o fim do Milford Track se chama Sandfly Point, e praias, margens de lagos e os Catlins também são lugares certos para encontrá-los. Eles se reproduzem em riachos de correnteza rápida, picam mais quando a luz da manhã aparece e quando se apaga ao entardecer, raramente picam no escuro e, em tempo nublado, abafado e úmido, continuam picando o dia todo.",
+            "Não há uma temporada oficial de sandflies: nas regiões mais chuvosas eles fazem parte do camping em qualquer mês, e a maioria dos visitantes os encontra entre a primavera e o outono, quando os campings junto a rios e lagos estão cheios. Um local exposto e ventilado, longe de água parada, costuma ser mais confortável que um abrigado. Leve um repelente forte, cubra tornozelos e pulsos à noite, mantenha a barraca ou a van fechadas ao anoitecer e confira a tela contra insetos antes de viajar. As picadas podem coçar por dias, então vale levar uma pomada anti-histamínica em vez de procurá-la numa cidade pequena."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "As épocas por região, em resumo",
+          "body": [
+            "Northland e a parte alta da Ilha do Norte são agradáveis de outubro a abril e úmidas em pleno verão. O planalto central e Tongariro são uma proposta de verão e outono, a menos que você esteja equipado para o inverno de montanha. A costa leste é mais seca no verão e ensolarada de forma confiável no outono.",
+            "A West Coast é chuvosa em todas as estações: planeje com chuva em vez de esperar evitá-la, mas a recompensa são locais quase vazios. Mackenzie e Central Otago são excelentes no outono e frios e límpidos no inverno. Fiordland é chuvosa o ano todo e é melhor encará-la com dias flexíveis e sem expectativas fixas de ver Milford com sol. O camping de festivais por volta de 31 de dezembro é tratado no nosso guia sobre <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">camping de Ano Novo e de eventos de verão</a>."
+          ],
+          "tips": [
+            "West Coast: planeje com chuva em qualquer estação",
+            "O outono combina melhor com Central Otago",
+            "Fiordland pede dias flexíveis"
+          ]
+        },
+        {
+          "heading": "Ler direito a previsão",
+          "body": [
+            "O tempo da Nova Zelândia muda mais rápido que a duração da maioria dos <a data-guide=\"new-zealand-driving-day-planner\">dias de direção</a>, e a previsão de uma cidade diz relativamente pouco sobre uma passagem ou uma costa exposta a vinte minutos dali. Consulte o MetService para o local específico e consulte as condições das estradas separadamente: cada um responde a uma pergunta diferente.",
+            "Monte o plano de modo que uma previsão ruim mude o dia e não cancele a viagem. Ter de reserva uma opção coberta, uma alternativa mais curta e um camping com serviços é o que transforma uma semana chuvosa numa semana normal."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Qual é a melhor época para acampar na Nova Zelândia?",
+          "Para a maioria das viagens, março e abril: períodos estáveis, campings abertos mas já não lotados e preços mais baixos quando as férias escolares terminam. Dezembro e janeiro trazem os dias mais longos, mas também os campings mais cheios e os preços mais altos."
+        ],
+        [
+          "Como é acampar na meia-estação da Nova Zelândia?",
+          "Tranquilo, barato e imprevisível. De outubro a novembro e de abril a maio você encontra locais sem reserva e estradas sem filas, em troca de dias mais curtos, noites mais frias e uma chance real de uma semana arruinada pela chuva."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Te Ara: sandflies, as mutucas da Nova Zelândia"
+        },
+        {
+          "label": "MetService"
+        },
+        {
+          "label": "Condições das estradas da NZTA"
+        },
+        {
+          "label": "Alertas e fechamentos do DOC"
+        }
+      ],
+      "priceTable": null
+    }
+  },
+  "consent": {
+    "label": "Opções de privacidade",
+    "text": "O KiwiCamping pode usar cookies do Google Analytics para saber quais páginas ajudam os viajantes? Eles nunca são usados para publicidade.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "policy": "Política de privacidade",
+    "choices": "Opções de privacidade"
+  },
+  "summer": {
+    "eyebrow": "Verão 2026-27",
+    "title": "Planejando o verão e o Natal?",
+    "text": "Prazos de reserva, regras de fogo e multidões em eventos, antes das férias."
+  },
+  "tools": {
+    "shared": {
+      "breadcrumbHome": "Início",
+      "breadcrumbTools": "Ferramentas",
+      "howTitle": "Como é calculado",
+      "exampleTitle": "Exemplo resolvido",
+      "assumptionsTitle": "Premissas",
+      "sourcesTitle": "Fontes",
+      "faqTitle": "Perguntas frequentes",
+      "guidesTitle": "Guias relacionados",
+      "otherToolsTitle": "Mais calculadoras para viagens de carro",
+      "openTool": "Abrir a calculadora",
+      "ctaEyebrow": "Planeje no KiwiCamping",
+      "ctaTitle": "Encontre as paradas e depois faça as contas.",
+      "ctaText": "O KiwiCamping é gratuito para baixar no iPhone. Parques de férias, hospedagens e passeios reserváveis são gratuitos no app. Os campings e refúgios do DOC, as estações de descarte e os guias abrem com o Passe.",
+      "ctaButton": "Baixar o app",
+      "enterValidValues": "Informe valores válidos",
+      "enterValidAmount": "Informe um valor válido"
+    },
+    "index": {
+      "metaTitle": "Calculadora de viagem de carro na NZ: combustível, distância e tempo",
+      "metaDescription": "Calculadoras gratuitas para viagens de carro na NZ: custo de combustível com os últimos preços de gasolina e diesel, tempos e distâncias entre as principais cidades, custos de camping, NZD e tanques de água.",
+      "toolsTitle": "Uma calculadora por pergunta",
+      "toolsText": "Cada calculadora tem a sua própria página com a fórmula, um exemplo resolvido com números da Nova Zelândia, as premissas por trás dela e respostas às perguntas frequentes."
+    },
+    "fuel": {
+      "metaTitle": "Calculadora de combustível NZ: gasolina, diesel e RUC (2026)",
+      "metaDescription": "Calcule o custo de gasolina ou diesel de uma viagem de carro na NZ com os últimos preços do MBIE para 91, 95 e diesel, com as taxas de uso de estrada para o diesel e um exemplo de 1,000 km de camper.",
+      "eyebrow": "Calculadora de combustível",
+      "cardEyebrow": "Calculadora de combustível",
+      "h1": "Calculadora de combustível para uma viagem de carro pela Nova Zelândia",
+      "intro": "Informe a distância da rota, o consumo do seu veículo carregado e o preço por litro. O preço padrão é a média nacional do MBIE para a gasolina comum 91, {fuelPrice} o litro na semana de {fuelDate}. A premium 95, o diesel e as taxas de uso de estrada estão na tabela abaixo.",
+      "cardTitle": "Coloque preço na distância a dirigir.",
+      "cardText": "Informe a distância total da rota, o consumo do veículo carregado e o preço esperado por litro. Os preços em áreas remotas podem passar dos de referência nas cidades.",
+      "labelDistance": "Distância (km)",
+      "labelConsumption": "Consumo (L/100 km)",
+      "labelPrice": "Preço do combustível (NZD/L)",
+      "pricesTitle": "Últimos preços do combustível na Nova Zelândia",
+      "pricesNote": "Preços médios nacionais na bomba do MBIE para a semana de {fuelDate}, provisórios, em dólares neozelandeses por litro com impostos incluídos. Os veículos a diesel leves de até 3,500 kg também pagam taxas de uso de estrada de {ruc} a cada 1,000 km, que não estão no preço da bomba.",
+      "pricesHead": [
+        "Combustível",
+        "Preço por litro",
+        "{distance} km a {consumption} L/100 km"
+      ],
+      "fuelRegular": "Gasolina comum 91",
+      "fuelPremium": "Gasolina premium 95",
+      "fuelDiesel": "Diesel",
+      "dieselRuc": "{cost} mais {ruc} de RUC",
+      "formula": [
+        "Litros = distância (km) × consumo (L/100 km) ÷ 100",
+        "Custo = litros × preço por litro (NZD)"
+      ],
+      "formulaNote": "O consumo é informado por 100 quilômetros, então dividir por 100 o transforma em litros por quilômetro. A conta é linear: dobre a distância e tanto os litros quanto o custo dobram.",
+      "example": "Uma rota de {distance} km num camper que consome {consumption} L/100 km precisa de {litres} litros de combustível. A {price} o litro, são {cost}.",
+      "assumptions": [
+        "O preço padrão é uma referência nacional. Os postos remotos, como os da West Coast e de Fiordland, costumam cobrar mais, então abasteça antes de longos trechos entre cidades.",
+        "Use o consumo com carga do veículo que você realmente dirige. Um camper cheio, em subidas e com vento contra gasta mais que o número do folheto.",
+        "Some a direção local em cada parada. Idas ao mercado, mirantes e estradas laterais se acumulam numa rota longa.",
+        "Os veículos a diesel pagam taxas de uso de estrada (RUC) a cada 1,000 km além do combustível. Esta calculadora cobre só o combustível."
+      ],
+      "faq": [
+        [
+          "Quanto combustível um camper gasta na Nova Zelândia?",
+          "Depende do veículo, da carga e das estradas. Procure o número oficial do veículo no Rightcar (rightcar.govt.nz) ou pergunte à locadora, e depois deixe uma margem para subidas e carga cheia. Os 12 L/100 km padrão são um número de planejamento para um camper carregado, não uma média medida."
+        ],
+        [
+          "Um camper a diesel ou a gasolina sai mais barato?",
+          "O diesel é mais barato na bomba, mas um veículo a diesel leve também paga taxas de uso de estrada de {ruc} a cada 1,000 km, que o preço da bomba e esta calculadora deixam de fora. Em 1,000 km a 12 L/100 km são {dieselTotal} no diesel com o RUC contra {petrolTotal} na comum 91, então a resposta depende de quanto menos combustível o diesel gasta. Pergunte à sua locadora se o RUC está incluído na diária."
+        ],
+        [
+          "Quanto está a gasolina na Nova Zelândia agora?",
+          "Os preços médios nacionais dos painéis do MBIE para a semana de {fuelDate} foram {fuelPrice} o litro para a comum 91, {premiumPrice} para a premium 95 e {dieselPrice} para o diesel. A calculadora parte do preço da comum 91. O MBIE publica os preços toda semana e os postos remotos costumam cobrar mais, então confira antes de sair."
+        ]
+      ]
+    },
+    "drive": {
+      "metaTitle": "Calculadora de tempo de direção NZ: tempos entre cidades",
+      "metaDescription": "Quanto tempo levam os trajetos na Nova Zelândia: de Auckland a Wellington 8 a 8.5 horas, de Christchurch a Queenstown cerca de 6. Rotas principais, distâncias e uma calculadora para qualquer dia.",
+      "eyebrow": "Calculadora de tempo de direção",
+      "cardEyebrow": "Estimador do dia de direção",
+      "h1": "Calculadora de tempo de direção para as estradas da Nova Zelândia",
+      "intro": "Os apps de rota dão o tempo em movimento numa estrada ideal. Esta calculadora pega a distância que você já conhece, uma velocidade média para o tipo de estrada e 20 minutos para cada parada, que é onde um dia de direção na Nova Zelândia costuma estourar.",
+      "cardTitle": "Quanto esse dia realmente leva.",
+      "cardText": "Os apps de rota dão o tempo em movimento numa estrada ideal. Aqui entram o tipo de estrada e as suas paradas reais, que é onde um dia costuma estourar.",
+      "labelDistance": "Distância (km)",
+      "labelRoadType": "Tipo de estrada",
+      "roadMotorway": "Rodovia ou reta aberta",
+      "roadHighway": "Rodovia principal",
+      "roadWinding": "Sinuosa ou litorânea",
+      "roadNarrow": "Estreita, íngreme ou de cascalho",
+      "labelStops": "Paradas",
+      "hoursMinutes": "{hours} h {minutes} min",
+      "routesTitle": "Tempos de direção entre as principais cidades da Nova Zelândia",
+      "routesNote": "Tempos de planejamento sem paradas pela rota principal de rodovia estadual. Some tempo para paradas, obras e clima, e consulte a NZTA para ver fechamentos antes de sair.",
+      "routesHead": [
+        "Rota",
+        "Distância",
+        "Tempo de direção"
+      ],
+      "routes": [
+        [
+          "Auckland a Wellington",
+          "640 km",
+          "8 a 8.5 horas"
+        ],
+        [
+          "Auckland à Bay of Islands",
+          "240 km",
+          "3 a 3.5 horas"
+        ],
+        [
+          "Picton a Christchurch via Kaikōura",
+          "Cerca de 336 km",
+          "4.5 a 5 horas"
+        ],
+        [
+          "Christchurch a Queenstown via Tekapo",
+          "Cerca de 480 km",
+          "Cerca de 6 horas"
+        ],
+        [
+          "Christchurch a Dunedin",
+          "360 km",
+          "Cerca de 5 horas"
+        ],
+        [
+          "Queenstown a Te Anau",
+          "170 km",
+          "Cerca de 2 horas"
+        ],
+        [
+          "Te Anau a Milford Sound",
+          "120 km",
+          "Cerca de 2 horas"
+        ]
+      ],
+      "formula": [
+        "Minutos de direção = distância (km) ÷ velocidade média (km/h) × 60",
+        "Minutos totais = minutos de direção + 20 × paradas"
+      ],
+      "formulaNote": "A velocidade média não é o limite de velocidade. Ela considera curvas, subidas, pontes de pista única, cidades e trânsito mais lento. Os quatro tipos de estrada usam 85, 70, 60 e 45 km/h.",
+      "example": "Um dia de {distance} km em estradas sinuosas ou litorâneas a {speed} km/h são {driving} de direção. Some {stops} paradas de 20 minutos cada e o dia leva {total}.",
+      "assumptions": [
+        "As velocidades médias são números de planejamento para um carro ou camper em boas condições, não médias medidas de uma estrada específica.",
+        "Cada parada conta 20 minutos para combustível, comida, banheiro ou um mirante. Balsas, obras e caminhadas longas precisam ser somadas à parte.",
+        "Clima, deslizamentos e fechamentos mudam as rotas. Consulte o planejador de trajetos da NZTA para ver as condições atuais das estradas antes de sair."
+      ],
+      "faq": [
+        [
+          "Quanto dá para dirigir num dia na Nova Zelândia?",
+          "Não há um número único. Estradas sinuosas, pontes de pista única e paradas mantêm as médias bem abaixo do limite de estrada aberta, então um dia que parece curto no mapa pode tomar quase toda a luz do dia. Informe a distância e o tipo de estrada para ver as horas, e planeje pausas regulares."
+        ],
+        [
+          "Por que sai mais longo que no meu app de mapas?",
+          "Os apps de mapas estimam o tempo em movimento sem paradas. Este usa uma média para o tipo de estrada e soma tempo para cada parada, o que se aproxima mais de como um dia de camping realmente transcorre."
+        ],
+        [
+          "Serve para um camper?",
+          "Sim. Escolha um tipo de estrada mais lento se estiver dirigindo um veículo grande, rebocando ou se for novo na direção pela esquerda."
+        ]
+      ]
+    },
+    "campsite": {
+      "metaTitle": "Calculadora de custo de camping NZ: por pessoa ou por lote?",
+      "metaDescription": "Compare um camping do DOC cobrado por adulto com um parque de férias cobrado por lote para o seu grupo e as suas noites, com a fórmula, um exemplo resolvido e as tarifas do DOC segundo os dados.",
+      "eyebrow": "Calculadora de custo de camping",
+      "cardEyebrow": "Comparação de campings",
+      "h1": "Calculadora de custo de camping: por pessoa ou por lote",
+      "intro": "Os campings do DOC cobram por adulto por noite, enquanto um parque de férias costuma cobrar por lote. Qual sai mais barato muda com o tamanho do seu grupo, e esta calculadora resolve isso para as suas noites.",
+      "cardTitle": "Por pessoa ou por lote?",
+      "cardText": "Um camping do DOC costuma cobrar por adulto e um parque de férias costuma cobrar por lote. A opção mais barata muda com o tamanho do grupo, o que pega as famílias de surpresa.",
+      "labelAdults": "Adultos",
+      "labelNights": "Noites",
+      "labelPerAdult": "Por adulto (NZD)",
+      "labelPerSite": "Por lote (NZD)",
+      "comparison": "{perAdult} vs {perSite} · {verdict}",
+      "theSame": "igual",
+      "perAdultCheaper": "por adulto sai mais barato",
+      "perSiteCheaper": "por lote sai mais barato",
+      "formula": [
+        "Total por adulto = adultos × noites × tarifa por adulto",
+        "Total por lote = noites × tarifa por lote",
+        "O menor total é a opção mais barata para o seu grupo"
+      ],
+      "formulaNote": "O total por adulto cresce a cada adulto a mais, enquanto o total por lote não. É por isso que a resposta muda entre um casal e uma família.",
+      "example": "{adults} adultos que ficam {nights} noites a {rateAdult} por adulto pagam {totalAdult}. A mesma estadia a {rateSite} por lote custa {totalSite}, então {verdict}.",
+      "assumptions": [
+        "As crianças ficam de fora. Muitos campings do DOC cobram uma tarifa reduzida dos 5 aos 17 anos e nada dos bebês, e os parques de férias definem as próprias tarifas para crianças.",
+        "As tarifas padrão são exemplos, não cotações. Nos dados do DOC de {docDate}, {docFree} campings do DOC são gratuitos, e a menor tarifa de adulto listada nos pagos vai de {docMin} a {docMax} por noite.",
+        "Os parques de férias definem os próprios preços, que mudam com a estação, a energia elétrica e o tamanho do lote. Consulte o parque antes de reservar."
+      ],
+      "faq": [
+        [
+          "Quanto custa um camping por noite na Nova Zelândia?",
+          "Os campings do DOC são gratuitos ou cobram por adulto. Nos dados do DOC de {docDate}, a menor tarifa de adulto nos campings pagos do DOC vai de {docMin} a {docMax} por noite, com mediana de {docMedian}. Os parques de férias definem os próprios preços por lote, então compare o total do seu grupo."
+        ],
+        [
+          "Por pessoa ou por lote sai mais barato para uma família?",
+          "Por lote costuma vencer conforme o grupo cresce, porque o preço do lote continua o mesmo enquanto as cobranças por adulto se multiplicam. Informe as suas próprias tarifas para ver onde cai o ponto de equilíbrio."
+        ],
+        [
+          "As crianças pagam nos campings do DOC?",
+          "Em muitos campings do DOC as crianças de 5 a 17 anos pagam uma tarifa reduzida e os bebês não pagam. A tarifa de cada camping está na página dele no DOC."
+        ]
+      ]
+    },
+    "currency": {
+      "metaTitle": "Conversor de NZD: preços da Nova Zelândia em 9 moedas",
+      "metaDescription": "Converta preços em dólar neozelandês de e para USD, EUR, GBP, AUD, JPY, CNY, KRW, INR e SGD com as cotações de referência do Banco da Reserva da Nova Zelândia.",
+      "eyebrow": "Conversor de moeda",
+      "cardEyebrow": "Conversor de moeda",
+      "h1": "Conversor de NZD para os preços de uma viagem pela Nova Zelândia",
+      "intro": "Converta um preço da Nova Zelândia para a sua própria moeda, ou a sua moeda para dólares neozelandeses, com as cotações de referência do Banco da Reserva da Nova Zelândia de {rateDate}.",
+      "cardTitle": "Converta um preço da Nova Zelândia.",
+      "cardText": "Conversão de referência para planejar a viagem com as cotações do Banco da Reserva da Nova Zelândia de {rateDate}. O seu banco ou cartão pode usar outra cotação e cobrar taxas.",
+      "labelAmount": "Valor",
+      "labelFrom": "De",
+      "labelTo": "Para",
+      "formula": [
+        "Valor em NZD = valor ÷ cotação da moeda de origem",
+        "Resultado = valor em NZD × cotação da moeda de destino"
+      ],
+      "formulaNote": "Cada cotação é o número de unidades daquela moeda por 1 dólar neozelandês, então toda conversão passa pelo NZD.",
+      "example": "{amount} a {rate} dólares americanos por dólar neozelandês são {converted}.",
+      "assumptions": [
+        "Estas são cotações de referência de {rateDate}. As cotações mudam todos os dias.",
+        "Bancos, cartões e caixas eletrônicos usam as próprias cotações e podem cobrar taxas, então o valor que você paga pode ser diferente.",
+        "O iene japonês e o won coreano são mostrados sem casas decimais."
+      ],
+      "faq": [
+        [
+          "Qual moeda é usada na Nova Zelândia?",
+          "O dólar neozelandês (NZD). Os preços em lojas, campings e parques de férias são informados em NZD."
+        ],
+        [
+          "Esta é a cotação que o meu banco vai me dar?",
+          "Provavelmente não exatamente. Aqui são usadas cotações de referência de {rateDate}. O seu banco ou a emissora do cartão aplica a própria cotação e taxas, então encare o resultado como um número de planejamento."
+        ]
+      ]
+    },
+    "water": {
+      "metaTitle": "Calculadora de tanque de água para camper: dias de água limpa e cinza",
+      "metaDescription": "Calcule quantos dias duram os tanques de água limpa e cinza de um camper para o seu grupo, com a fórmula, um exemplo resolvido e os números diários por trás dele.",
+      "eyebrow": "Calculadora de tanque de água",
+      "cardEyebrow": "Planejador de água e resíduos",
+      "h1": "Calculadora de tanque de água para camper",
+      "intro": "O tamanho de um tanque em litros só fica útil quando vira dias. Informe a capacidade de água limpa e cinza e o número de pessoas para ver qual tanque define o seu limite.",
+      "cardTitle": "Quantos dias sem estrutura.",
+      "cardText": "A capacidade em litros só fica útil quando é expressa em dias. A água limpa e a cinza aparecem separadas, porque a que acabar primeiro define o limite.",
+      "labelFresh": "Água limpa (L)",
+      "labelGrey": "Água cinza (L)",
+      "labelPeople": "Pessoas",
+      "days": "{fresh} dias de água limpa · {grey} dias de água cinza",
+      "formula": [
+        "Dias de água limpa = tanque de água limpa (L) ÷ (pessoas × 11 L por dia)",
+        "Dias de água cinza = tanque de água cinza (L) ÷ (pessoas × 9 L por dia)",
+        "O menor dos dois é quanto tempo você pode ficar antes de reabastecer ou esvaziar"
+      ],
+      "formulaNote": "A água cinza é o resíduo de pias e chuveiros. Ela é menor que o consumo de água limpa porque a água de beber e de cozinhar não vai toda para o tanque.",
+      "example": "{people} pessoas com um tanque de água limpa de {freshTank} litros e um de água cinza de {greyTank} litros têm {freshDays} dias de água limpa e {greyDays} dias de água cinza, então o tanque de água limpa define o limite.",
+      "assumptions": [
+        "11 litros de água limpa e 9 litros de água cinza por pessoa por dia são números de planejamento para uso cuidadoso: beber, cozinhar, lavar a louça e uma lavada rápida. Banhos gastam muito mais.",
+        "Os cassetes do banheiro e a água negra não estão incluídos.",
+        "Esvazie a água cinza só numa estação de descarte. Nunca no chão nem num bueiro de águas pluviais."
+      ],
+      "faq": [
+        [
+          "Quanto tempo duram 100 litros de água limpa num camper?",
+          "Para duas pessoas com uso cuidadoso, a 11 litros cada uma por dia, cerca de quatro dias e meio. Banhos e lavar roupa encurtam isso bastante."
+        ],
+        [
+          "Onde posso esvaziar a água cinza na Nova Zelândia?",
+          "Numa estação de descarte. Muitos parques de férias têm uma, e as prefeituras mantêm estações públicas em muitas cidades. Nunca esvazie a água cinza no chão nem num bueiro de águas pluviais."
+        ],
+        [
+          "Qual tanque acaba primeiro?",
+          "O que for menor para o seu uso. Os tanques de água cinza costumam ser menores que os de água limpa, então confira os dois e não só o medidor da água limpa."
+        ]
+      ]
+    }
+  },
+  "answers": {
+    "doc-campsites-new-zealand-guide": "Quando um refúgio ou um camping está lotado, o KiwiCamping mostra todos os refúgios e campings do DOC por perto com a categoria, a tarifa e se aceitam reservas.",
+    "campfire-rules-new-zealand": "O KiwiCamping mostra as comodidades de cada camping do DOC, inclusive se fogueiras são permitidas, e mantém os detalhes legíveis sem sinal.",
+    "camping-wastewater-rubbish-new-zealand": "O KiwiCamping mapeia 262 estações de descarte com as suas tarifas, para você achar a mais próxima antes de um tanque encher.",
+    "freedom-camping-rules-new-zealand": "O KiwiCamping marca no mapa os avisos de camping livre do DOC, para você ver onde é proibido ou restrito em terras de conservação antes de estacionar.",
+    "where-to-camp-in-new-zealand": "O KiwiCamping reúne num só mapa os campings e refúgios do DOC, os parques de férias e as áreas de camping livre, com filtros por tarifas e comodidades.",
+    "doc-huts-new-zealand-guide": "O KiwiCamping lista os refúgios do DOC por região com a categoria, a tarifa e se podem ser reservados, legíveis sem sinal na trilha.",
+    "campervan-road-rules-new-zealand": "O planejador de viagem do KiwiCamping coloca as suas paradas em ordem e mostra a distância entre elas, para cada dia de direção continuar viável num camper.",
+    "east-cape-road-trip": "Salve as paradas do East Cape numa viagem do KiwiCamping para ver a distância da rota e manter campings, datas e anotações em ordem.",
+    "tool:fuel": "As viagens do KiwiCamping somam a distância da rota entre as suas paradas, que é o número de que esta calculadora precisa.",
+    "tool:drive": "Monte a rota no KiwiCamping para ver a distância entre as suas paradas e depois calcule aqui o tempo de cada dia de direção."
+  }
 }
