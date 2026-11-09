@@ -132,4 +132,57 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "auckland-to-waitomo-hobbiton-drive-guide",
+    title: "Auckland to Waitomo and Hobbiton: A Two-Day Road Trip",
+    description: "Auckland to Hobbiton and the Waitomo Caves in two days: about 2 hours to Matamata, 1.5 hours across to Waitomo, with booking tips, fuel and where to camp in the Waikato.",
+    category: "Road trips",
+    region: "Waikato",
+    places: ["Auckland", "Hamilton", "Matamata", "Te Awamutu", "Ōtorohanga", "Waitomo"],
+    imageAlt: "Round hobbit-hole doors set into a green hillside above a garden at the Hobbiton Movie Set in Matamata",
+    related: ["north-island-two-week-road-trip", "auckland-to-taupo-drive-guide", "auckland-to-new-plymouth-drive-guide", "holiday-parks-new-zealand-guide", "freedom-camping-rules-new-zealand", "new-zealand-driving-day-planner"],
+    hubs: ["camping/waikato", "freedom-camping/waikato", "freedom-camping/king-country"],
+    intro:
+      "Hobbiton and the Waitomo Caves are the two best-known stops in the Waikato, and they fit neatly into a two-day loop from Auckland: about 2 hours to Matamata, 1.5 hours across to Waitomo, and a straight run home through Hamilton. Both are guided experiences that run on set times, so the trip works best when you book ahead and plan the days around those times. Below are the route, the order that works best, how to book, fuel and food, and where to stay overnight.",
+    sections: [
+      sec("The route and the best order", [
+        "Take State Highway 1 south out of Auckland, follow the Waikato Expressway past Huntly and Hamilton, then turn east towards Matamata. It is about 165 km and a little over 2 hours to Hobbiton. From Matamata, the roads through Te Awamutu and Ōtorohanga take you to Waitomo in around 1.5 hours. Waitomo to Auckland is about 195 km and 2.5 hours back via Hamilton.",
+        "Most people go Hobbiton first on day one, spend the night near Waitomo, then do the caves on day two with the drive home in the afternoon. That order works because Hobbiton tours leave through the middle of the day, the caves have a lot of morning slots, and you finish with the shortest drive. If you only have one day, a very early start gets you both, but the day is long and you will be rushing.",
+      ], ["Auckland to Matamata: about 165 km, 2 hours", "Matamata to Waitomo: about 1.5 hours", "Hobbiton first, caves the next morning"]),
+      sec("Hobbiton: how to book and what to expect", [
+        "Hobbiton Movie Set is a working farm outside Matamata, and entry is by guided tour only. Tours run through the day and sell out in the school holidays and in summer, so book before you leave Auckland and pick a time that leaves you an hour's buffer after the drive. Arrive early, because you park on the farm and board a bus to the set.",
+        "The tour takes about two hours and covers the whole village at an easy pace, with a drink at the Green Dragon at the end. It is mostly flat but on grass paths, and the weather in the Waikato can turn quickly, so bring a waterproof jacket. There is no camping at the set itself, so plan your night in Matamata or further along the route.",
+      ], ["Book before you leave Auckland", "Allow about 2 hours for the tour", "Bring a waterproof jacket"]),
+      sec("Waitomo: the caves and what else to see", [
+        "The Waitomo Caves are limestone caves famous for glowworms, and the main options are a walking tour through the Glowworm Cave, a boat ride under the glowworms, and the longer adventure trips for those who want to abseil or tube through the dark. Tours run all day and the quieter slots are in the early morning. The Waitomo Caves village is small, so book your cave time and your bed ahead.",
+        "Away from the caves, Marokopa Falls and Mangapohue Natural Bridge are free walks on the road to the coast, and the Ruakuri track is a short loop through a limestone gorge. Otorohanga, 20 minutes away, has a kiwi house where you can see the native birds. If the weather is wet, the caves are the best option, because you spend the day underground and dry.",
+      ], ["Book cave tours and a bed ahead", "Marokopa Falls is a free walk", "Wet day? Do the caves"], {
+        caption: "Approximate distances and driving times on the loop, without stops. Check live traffic before you leave.",
+        head: ["Leg", "Distance and time", "Notes"],
+        rows: [
+          ["Auckland to Matamata (Hobbiton)", "About 165 km, 2 hr", "Via the Waikato Expressway"],
+          ["Matamata to Waitomo", "About 85 km, 1 hr 30", "Via Te Awamutu and Ōtorohanga"],
+          ["Waitomo to Auckland", "About 195 km, 2 hr 30", "Via Hamilton"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Hamilton is the last big town before both stops, with plenty of fuel and food. Matamata and Te Awamutu have supermarkets, and Ōtorohanga and Te Kūiti have fuel and cafes, so you will not run short. Waitomo village has a small shop and a few places to eat, but it is smaller and pricier than the towns, so stock up beforehand. The resupply guide covers the basics.",
+        "Public toilets are at the visitor centres at Hobbiton and Waitomo and at the main towns on the route. The roads between Matamata and Waitomo are quiet and sealed, with the occasional one-lane bridge on the back roads.",
+      ], ["Stock up in Hamilton or Te Awamutu", "Waitomo village is small and pricey", "Back roads have one-lane bridges"]),
+      sec("Where to stay overnight", [
+        "Holiday parks and motels in Matamata, Te Awamutu, Ōtorohanga and Waitomo give you power, showers and a kitchen and take the guesswork out of the night. Waitomo and Hobbiton are busiest from December to February and at Easter, so book early. The holiday parks guide explains what to look for.",
+        "For freedom camping, the Waikato and Waitomo district councils set their own rules, and most of the popular spots near the caves are not open to camping. Read the freedom camping rules guide and check the Waikato and King Country hubs before you rely on a roadside spot. There are also a few simple DOC and council campsites in the hills towards Marokopa, which suit campers who are happy with basic facilities.",
+      ], ["Book Waitomo early for summer", "Check council rules before freedom camping", "Campsites towards Marokopa are basic"]),
+      sec("Planning Auckland to Waitomo and Hobbiton in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Matamata, Ōtorohanga and Waitomo. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "Tour bookings for Hobbiton and the caves are made with the operators, and DOC campsite bookings stay on DOC's own pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Book tours with the operators"], undefined, true),
+    ],
+    sources: [
+      { label: "Hobbiton Movie Set: tours and tickets", url: "https://www.hobbitontours.com/" },
+      { label: "Waitomo Caves: official visitor site", url: "https://www.waitomo.com/" },
+      { label: "Waikato Regional Tourism: Matamata and Hobbiton", url: "https://www.waikatonz.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
