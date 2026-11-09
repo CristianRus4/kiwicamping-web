@@ -436,4 +436,52 @@ export const cityTripArticles: Article[] = [
       { label: "GeoNet: volcanic alert levels", url: "https://www.geonet.org.nz/volcano" },
     ],
   }),
+  a({
+    slug: "camping-base-hooker-valley-aoraki-mount-cook",
+    title: "Where to Camp for the Hooker Valley Track: Aoraki Mount Cook Bases",
+    description: "Where to camp for the Hooker Valley Track and the other Aoraki Mount Cook day walks: White Horse Hill, Glentanner, Twizel and Tekapo, with booking, fuel, weather and stargazing tips.",
+    category: "Trip planning",
+    region: "Canterbury",
+    places: ["Aoraki Mount Cook", "Hooker Valley", "Lake Pukaki", "Glentanner", "Twizel", "Lake Tekapo"],
+    imageAlt: "The road to Aoraki Mount Cook with the mountain ahead",
+    related: ["christchurch-tekapo-aoraki-road-trip", "christchurch-to-queenstown-drive-guide", "freedom-camping-mackenzie-2026", "doc-campsite-rules", "new-zealand-severe-weather-camping", "winter-camping-new-zealand"],
+    hubs: ["camping/canterbury"],
+    intro:
+      "The Hooker Valley Track is a flat walk of about 10 kilometres return that crosses three swing bridges and ends at a glacier lake with Aoraki Mount Cook behind it, and it is the most popular walk in the national park. The village at the end of the road has one DOC campground and little else, so the choice of base is between a night at the foot of the mountain and a night in Twizel or Tekapo, an hour away.",
+    sections: [
+      s("The walks in brief", [
+        "Hooker Valley Track takes about three hours return on a well-made path, with three swing bridges, the Mueller and Hooker glacier views and a lake with icebergs at the end. Kea Point is a shorter walk of about an hour, and the Tasman Glacier viewpoint is a short climb. Sealy Tarns and Mueller Hut are steep, long climbs for experienced walkers.",
+        "Mountain weather changes fast, wind can be strong on the swing bridges, and DOC closes parts of the track in bad weather or after a slip, so check the alerts before you set out. Carry a jacket, water and snacks, even for the short walks.",
+      ], ["Hooker Valley: about 3 hours return", "Kea Point is a shorter walk", "Check DOC alerts for closures"]),
+      s("Camping at the village", [
+        "DOC's White Horse Hill Campground is a few minutes from the start of the Hooker Valley Track and is the closest place to sleep, with basic facilities and views of the mountains. It is popular and fills in summer, so book ahead on DOC's site where possible. There are also hotels and lodges in the village, and no shop for groceries beyond a small store.",
+        "The village is at the end of a 55 kilometre road along Lake Pukaki, and there is no fuel there, so fill up in Twizel or Tekapo. Weather can be cold at night even in summer, and a heater helps in a campervan.",
+      ], ["White Horse Hill: a few minutes away", "Book ahead in summer", "No fuel in the village"]),
+      s("Glentanner, Twizel and Tekapo", [
+        "Glentanner Park, on the road in near Lake Pukaki, has powered sites and cabins about 20 minutes from the village, and is a good backup if the DOC campground is full. Twizel, about an hour away, has holiday parks and shops, and the camping area around Lake Ruataniwha is an option in summer. Lake Tekapo, an hour and a half away, has more choice and a lakeside holiday park.",
+        "Whichever you choose, start early, because the car park at the trailhead fills from mid-morning on a fine day. The freedom camping in Mackenzie guide covers the rules in the district, and freedom camping is tightly restricted in the national park.",
+      ], ["Glentanner for a backup", "Twizel for shops", "Start early for parking"]),
+      s("The drive in", [
+        "State Highway 80 runs along the western shore of Lake Pukaki, with the mountain visible ahead on a clear day, and it is sealed and well marked. The drive from Twizel takes about 45 minutes and from Tekapo about an hour and a quarter, and the road can have ice in winter. The Christchurch to Tekapo and Aoraki guide covers the drive from the east.",
+        "Stop at the Pukaki viewpoint on the way in for the colour of the lake, and watch for tourists stopping suddenly for photos. The Christchurch to Queenstown guide covers the road past Twizel and Omarama.",
+      ], ["Sealed road to the village", "Ice in winter", "Watch for sudden stops"]),
+      s("Stargazing and the dark sky", [
+        "The Aoraki Mackenzie Dark Sky Reserve covers the area, and the night sky is one of the best in the world on a clear, moonless night. You can see the Milky Way from the campground, and tours in Tekapo and Aoraki Mount Cook run in the evening.",
+        "Bring warm clothes, a red torch if you have one, and use only red light at the campground so as not to ruin other people's night vision. A clear winter evening is cold but spectacular.",
+      ], ["Dark Sky Reserve", "Use red light at the campground", "Dress warmly"]),
+      s("Using KiwiCamping to pick a base", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Aoraki Mount Cook, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the walk day. It does not give turn-by-turn directions or live traffic.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["Where should I camp for the Hooker Valley Track?", "DOC's White Horse Hill Campground is the closest, a few minutes from the start. Glentanner, Twizel and Tekapo are the backups, 20 minutes to an hour and a half away."],
+      ["Is there fuel at Aoraki Mount Cook Village?", "No. Fill up in Twizel or Tekapo, and buy groceries there too, as the village has only a small store."],
+    ],
+    sources: [
+      { label: "DOC: Hooker Valley Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/hooker-valley-track/" },
+      { label: "DOC: White Horse Hill Campground", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/canterbury/aoraki-mount-cook-national-park/white-horse-hill-campground/" },
+      { label: "Aoraki Mackenzie International Dark Sky Reserve", url: "https://www.mackenzienz.com/" },
+    ],
+  }),
 ];
