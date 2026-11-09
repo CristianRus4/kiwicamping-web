@@ -788,4 +788,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-lumsden",
+    title: "Freedom Camping in Lumsden: The Southland Crossroads Stop",
+    description: "Freedom camping in Lumsden: Southland District Council's green area open to all vehicles for seven nights in 30 days, why it suits the Te Anau and Queenstown run, the other council sites nearby and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Southland",
+    places: ["Lumsden", "Mossburn", "Athol", "Garston", "Te Anau"],
+    imageAlt: "Forested hills and a mountain ridge above a southern lake under a cloudy sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-southland-2026", "freedom-camping-te-anau", "southern-scenic-route-camping", "christchurch-to-te-anau-drive-guide"],
+    hubs: ["camping/southland", "freedom-camping/te-anau"],
+    intro:
+      "Lumsden is where State Highways 6 and 94 meet, an hour from Te Anau, an hour and a half from Queenstown and about 45 minutes from Gore, and it is one of the few places in the south where Southland District Council lets people camp for free in almost any kind of vehicle. The council classes its Lumsden site as a green area, with no vehicle restriction stated and a limit of seven nights in any 30 days. For anyone who cannot get a bed in Te Anau in January, it is the practical answer, and it is a town with a pub, fuel and a bakery.",
+    sections: [
+      s("Green sites and blue sites", [
+        "Southland District Council sorts its campsites by colour. A blue site is for certified self-contained vehicles only, and tents, cars and uncertified vans are not allowed. A green site allows all types of camping, and the council lists Lumsden, Haldane, Dunsdale, Thornbury, Orepuki and the Otautau arboretum among them, though per-site rules on tents are on the council's map and not repeated in its list.",
+        "The Freedom Camping Bylaw 2015 is under review, with formal consultation planned for late 2026, so the colour of a site and its night count could change next season. Where a site says self-contained, you need a warrant on display, and since 7 June 2026 only the green warrant counts, which the guide to the self-contained campervan warrant explains.",
+      ], ["Green site: all vehicle types", "Blue site: self-contained only", "Bylaw under review"]),
+      s("Staying at Lumsden", [
+        "The council's list gives Lumsden a green area with seven nights in any 30 days, the same as the bylaw's default, and not more than one month in any three. There are no vehicle numbers published, so on a busy evening you may be parking among tents, caravans and campervans. The general rules apply: generators only between 8am and 9pm, fires only in a council fire facility, dogs on a lead, and all rubbish taken with you.",
+        "Facilities are modest. The council's map marks toilets and dump stations in the district, so check it for what Lumsden has this season, and fill water and buy groceries in town. The main road is busy with trucks, so a spot away from the highway makes for a quieter night.",
+      ], ["7 nights in any 30 days", "Generators 8am to 9pm", "Check the council map for toilets"]),
+      s("Why Lumsden works as a base", [
+        "Lumsden sits on the Around the Mountains Cycle Trail and the old Kingston Flyer line, and the town's centre is a short walk from the camping area. Te Anau and the Milford Road are about an hour north, Queenstown 90 minutes east, and the Catlins and Invercargill a short run south, so a few nights here make a tidy base for the whole Fiordland and Southland circuit.",
+        "That position is why it fills when Te Anau does. Te Anau itself has no council freedom camping site at all, and its holiday parks sell out through summer, so the nights you cannot get there are the nights Lumsden is for. The Te Anau guide covers the lakeside end.",
+      ], ["An hour to Te Anau", "90 minutes to Queenstown", "Te Anau has no council site"]),
+      s("Other sites and the holiday parks", [
+        "Nearby council sites on the list include Dipton and Balfour, both certified self-contained only, and Mossburn and Athol are in the same district. Each is a small-town stop with a short stay and few services, useful for a single night on the road and nothing more.",
+        "Holiday parks at Te Anau, Gore and Queenstown take everyone, and they are the answer when the free sites are full. The guide to holiday parks in New Zealand explains how booking works. KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60.",
+      ], ["Dipton and Balfour: self-contained only", "5 DOC campsites in Southland", "Mavora Lakes takes 60"]),
+      s("Using KiwiCamping around Lumsden", [
+        "In KiwiCamping you can see DOC campsites and huts, holiday parks and dump stations across Southland, with filters for the campervan access you need. The council's freedom camping areas are not in the app, so use the council's map for Lumsden itself.",
+        "Add Lumsden to a trip as the night before Te Anau or Queenstown, and read the distance and drive time between the stops. Saved places stay on the phone, and the map, directions, weather and photos wait for signal, which drops out on the roads around Mavora. The app is free to download, with in-app purchases.",
+      ], ["Council map decides Lumsden", "Use it as the night before Te Anau", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Lumsden?", "Yes. Southland District Council lists Lumsden as a green area open to all types of camping, for up to seven nights in any 30 days. Check the council's map for its current rules."],
+      ["Is there freedom camping in Te Anau?", "No. The council lists no site for Te Anau, so the nearest free camping is a short drive away, and holiday parks cover the rest."],
+    ],
+    sources: [
+      { label: "Southland District Council: freedom camping", url: "https://southlanddc.govt.nz/services/freedom-camping/" },
+      { label: "Southland District Council: freedom camping locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+      { label: "Southland District Council: Freedom Camping Bylaw review", url: "https://southlanddc.govt.nz/make-it-stick/under-review/freedom-camping-bylaw-review/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
