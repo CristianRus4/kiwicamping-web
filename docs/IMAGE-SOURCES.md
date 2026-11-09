@@ -212,3 +212,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-bases-best-day-walks-new-zealand` | Stocking Stream Shelter in Hooker Valley in front of Aoraki Mount Cook Range.jpg | Pseudopanax at English Wikipedia | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Stocking_Stream_Shelter_in_Hooker_Valley_in_front_of_Aoraki_Mount_Cook_Range.jpg) |
 | `freedom-camping-whanganui` | Whanganui journey rapids.jpg | ShakyIsles | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whanganui_journey_rapids.jpg) |
 | `freedom-camping-waihi-beach` | Mount Maunganui beach 02.jpg | Panamitsu | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Maunganui_beach_02.jpg) |
+| `freedom-camping-whangamata` | Cathedral cove Beach.JPG | Borvan53 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cathedral_cove_Beach.JPG) |

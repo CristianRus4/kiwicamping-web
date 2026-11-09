@@ -642,4 +642,58 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-whangamata",
+    title: "Freedom Camping in Whangamatā: Where You Can Stay",
+    description: "Where certified self-contained campervans can stay overnight in Whangamatā: the small car parks and reserves on Thames-Coromandel District Council's list, two-night limits, the banned esplanade and the holiday parks to book.",
+    category: "Rules & safety",
+    region: "Coromandel",
+    places: ["Whangamatā", "Whiritoa", "Onemana", "Tairua", "Pauanui"],
+    imageAlt: "A sandy Coromandel beach with a rock arch, a lone walker and offshore islets under a blue sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-thames-coromandel-2026", "freedom-camping-whitianga", "coromandel-rotorua-road-trip", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/coromandel", "freedom-camping/hauraki"],
+    intro:
+      "Whangamatā has some of the Coromandel's best surf and a council that treats freedom camping as a small, tightly counted privilege. Thames-Coromandel District Council allows certified self-contained campervans at a handful of named reserves and car parks around the town, each with a limit of two to four vehicles, and bans camping along the rest of the beachfront. In the first weeks of January the places fill by mid-afternoon, and everyone else uses the holiday parks.",
+    sections: [
+      s("The Thames-Coromandel rules in short", [
+        "The district's Freedom Camping Bylaw, made in 2022, allows overnight stays only in a self-contained vehicle with a valid certificate, and only between 5pm and 9am, with a limit of two consecutive nights in one area. A vehicle has to be gone by 9am, and at some sites the council's schedule is stricter than the general rule. A site that already holds its quota when you arrive is full, and you must go elsewhere.",
+        "Reserves are closed to camping under the Reserves Act, and the council lists around eighty prohibited areas across the peninsula, from road reserves to whole beaches. The council's camping page carries the schedule, and it is the one document that overrides this guide.",
+      ], ["Self-contained certificate required", "5pm to 9am, two nights", "Full means full"]),
+      s("The Whangamatā sites", [
+        "The council's schedule names four places in and around Whangamatā: Aickin Road Sports Reserve with room for four vehicles, Beach Road with two, the information centre car park with four and Island View Reserve with four, which was moved to a new designated place in December 2024. Some carry their own hours, for example 5pm to 8am at the information centre, and Aickin Road asks campers to leave on a Saturday.",
+        "That makes around a dozen vehicles in the town on a peak night, which is why arriving at 5pm matters more than choosing the prettiest spot. A van parked at the beach end of Beach Road gets the sunset, while the sports reserve is the quieter option with the ground under you and a short walk to the surf.",
+      ], ["Aickin Road: 4 vehicles, leave on Saturday", "Beach Road: 2 vehicles", "Island View moved in December 2024"], {
+        caption: "Whangamatā sites on Thames-Coromandel District Council's freedom camping schedule, read on 21 October 2026. Check the council's page for the current list and limits.",
+        head: ["Site", "Vehicles", "Notes"],
+        rows: [
+          ["Aickin Road Sports Reserve", "4", "Day to leave: Saturday"],
+          ["Beach Road", "2", "Beachfront"],
+          ["Information centre car park", "4", "5pm to 8am"],
+          ["Island View Reserve", "4", "Designated place moved in December 2024"],
+        ],
+      }),
+      s("What is banned", [
+        "Esplanade Drive and most of the foreshore are on the prohibited list, along with the camping reserves behind the beach, which are the first places a visitor tries when the four sites are full. The council also bans camping on road verges and in the surf-club car parks, and its wardens patrol through the summer.",
+        "A breach under the national fee schedule costs $400 for camping where it is prohibited or in breach of the bylaw, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. The hire company receives the notice and bills the renter.",
+      ], ["Esplanade Drive: banned", "Surf-club car parks: banned", "$400 for most breaches"]),
+      s("Where to book instead", [
+        "Whangamatā has beachfront motor camps and holiday parks that take tents and any vehicle, with powered sites, kitchens and cabins, and they are the sensible base for a week of surfing. They book up for the Christmas and New Year fortnight months ahead, so ring before you drive down. The guide to holiday parks in New Zealand covers how booking works.",
+        "Further down the coast, Whiritoa and Onemana have smaller camps, and Tairua and Pauanui to the north have council sites of their own. KiwiCamping's DOC data (11 August 2026) lists 20 DOC campsites on the Coromandel, only 1 of them free and 14 with campervan access, and Waikawau Bay is the largest with room for 132.",
+      ], ["Book Christmas months ahead", "Whiritoa and Onemana are smaller", "20 DOC campsites on the Coromandel"]),
+      s("Using KiwiCamping around Whangamatā", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Coromandel, with filters for campervan access. The council's freedom camping sites are not in it, so use the council page for those and keep a holiday park saved as the backup night.",
+        "Add Whangamatā to a trip between Auckland and the Bay of Plenty and read the legs: about two hours from Auckland, an hour on to Tauranga. Saved places and their details stay on the phone, and the map, routing, weather and photos load once you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council schedule: use the council page", "About 2 hours from Auckland", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Whangamatā?", "Yes, in a certified self-contained vehicle at one of the council's named sites, each with a small vehicle limit and a two-night stay. Most of the foreshore and every reserve is banned."],
+      ["What time do I have to leave a Whangamatā freedom camping site?", "By 9am. The general rule allows camping between 5pm and 9am, and some sites have shorter hours, so read the sign."],
+    ],
+    sources: [
+      { label: "Thames-Coromandel District Council: Freedom camping", url: "https://www.tcdc.govt.nz/camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

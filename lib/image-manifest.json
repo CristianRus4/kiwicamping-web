@@ -1707,6 +1707,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-whangamata.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whangamata-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whangamata.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-whanganui.webp": {
     "width": 1600,
     "height": 900,
