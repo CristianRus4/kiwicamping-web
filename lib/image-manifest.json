@@ -2757,6 +2757,20 @@
       }
     ]
   },
+  "/images/articles/thermal-explorer-highway-camping-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/thermal-explorer-highway-camping-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/thermal-explorer-highway-camping-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/tongariro-northern-circuit-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,

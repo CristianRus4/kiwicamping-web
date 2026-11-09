@@ -222,3 +222,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-motueka` | Kaiteriteri. Nelson NZ (14773388612).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri._Nelson_NZ_(14773388612).jpg) |
 | `freedom-camping-gisborne` | 01 east coast East Island.jpg | QFSE Media | CC BY-SA 3.0 nz | [Source](https://commons.wikimedia.org/wiki/File:01_east_coast_East_Island.jpg) |
 | `surf-highway-45-camping-guide` | Mount Taranaki and Tui Tui (7087589543).jpg | Takver from Australia | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_and_Tui_Tui_(7087589543).jpg) |
+| `thermal-explorer-highway-camping-guide` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |

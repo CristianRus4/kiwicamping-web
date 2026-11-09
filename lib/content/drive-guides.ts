@@ -526,4 +526,54 @@ export const driveGuideArticles: Article[] = [
       { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
     ],
   }),
+
+  a({
+    slug: "thermal-explorer-highway-camping-guide",
+    title: "Thermal Explorer Highway: Where to Camp From Auckland to Napier",
+    description: "Drive the Thermal Explorer Highway by campervan: Auckland to Rotorua, Taupō and Napier through geothermal country in four nights, with distances, stops, fuel and where to camp each night.",
+    category: "Road trips",
+    region: "Central North Island",
+    places: ["Auckland", "Hamilton", "Tīrau", "Rotorua", "Wai-O-Tapu", "Taupō", "Napier"],
+    imageAlt: "A lake edge with white sand, shrubs and a far shore on the Rotorua lakefront",
+    related: ["auckland-to-taupo-drive-guide", "auckland-to-napier-drive-guide", "freedom-camping-rotorua-2026", "freedom-camping-taupo", "volcanic-safety-new-zealand-travel", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/central-north-island", "camping/hawkes-bay", "camping/waikato"],
+    intro:
+      "The Thermal Explorer Highway is the tourist name for the North Island's geothermal route from Auckland through Hamilton and Tīrau to Rotorua, then south to Taupō and over the plateau to Napier, a drive of about 450 km depending on the variant you take. It is easy to do in four nights in a campervan, because the stages are short and each ends in a town with holiday parks. This guide plans the route night by night, with the camping on each leg and the volcanic and thermal safety that goes with it.",
+    sections: [
+      s("The route and the four nights", [
+        "From central Auckland the route follows State Highway 1 south past Hamilton and Cambridge to Tīrau, then State Highway 5 east into Rotorua. From Rotorua, the highway runs south past the Waiotapu thermal area to Taupō, and from Taupō State Highway 5 climbs the Napier-Taupō road to the coast, reaching Napier after about two hours. A lot of the route is the same as the Auckland to Napier road trip, which covers the quicker version, so this page is for the slow one.",
+        "The simplest plan is two nights in Rotorua, one in Taupō and one in Napier, with the first leg being the longest at about three hours. Add a night at Hamilton or Cambridge if you want to stretch the first day, and a night at Tarawera or Te Pōhue if you want to break the last. Distances between sources vary, so treat the figures as a guide and check the live map.",
+      ], ["About 450 km in all", "2 nights Rotorua, 1 Taupō, 1 Napier", "The longest leg is the first"], {
+        caption: "A four-night plan with approximate road distances. Check live traffic and road conditions before each leg.",
+        head: ["Night", "Leg", "Approximate distance"],
+        rows: [
+          ["1 and 2", "Auckland to Rotorua", "About 230 km, 3 hours"],
+          ["3", "Rotorua to Taupō, past Wai-O-Tapu", "About 85 km, 1 hour 10"],
+          ["4", "Taupō to Napier", "About 145 km, 2 hours"],
+        ],
+      }),
+      s("Rotorua: the geothermal base", [
+        "Rotorua is the centre of the route, with its sulphur smell, the Redwoods and the thermal parks at Whakarewarewa, Te Puia and Wai-O-Tapu 30 minutes to the south. Budget a day at one of them and time for the free lake-edge walks and mud pools, and keep the other nights for the lakes and the mountain-bike park. Rotorua Lakes Council runs six camping sites, three of them free for certified self-contained vehicles, and the guide to freedom camping in Rotorua covers the rules.",
+        "The holiday parks around Rotorua take tents and campervans, with powered sites and hot pools, and they are the practical base. They fill from Christmas to Easter and on school-holiday weekends, so book before you set off.",
+      ], ["Wai-O-Tapu is 30 minutes south", "Six council sites, three free", "Book holiday parks ahead"]),
+      s("Taupō and the road to Napier", [
+        "Taupō has the lake, Huka Falls, the Aratiatia Rapids and Craters of the Moon, and a council with its own freedom camping rules, which the Taupō guide covers. Camp at a holiday park by the lake for a first night, and leave early the next morning for the Napier-Taupō road, which has few services.",
+        "The road to Napier is a long climb and descent through pine forest and open tussock country, with a few places for fuel and food and long gaps between them. Fill the tank in Taupō, and use the rest areas for a break. At the coast, Napier's rules are in the guide to freedom camping in Napier and Hastings.",
+      ], ["Taupō: lake, falls and rapids", "Fuel up before the Napier road", "Napier rules are in their own guide"]),
+      s("Safety around thermal areas", [
+        "Thermal ground can be dangerous, with scalding water just under a crust, so keep to marked paths and boardwalks, and keep children and dogs close. Water in some lakes and streams is hot, and swimming where the signs say no is a risk to take seriously. The guide to volcanic safety covers what to do when an alert level changes.",
+        "Gas can collect in low, enclosed spots and near vents, which matters at campsites near geothermal areas. Check each site's notices, and if you smell strong sulphur and feel dizzy, move up and out. In a hot pool, a short soak is wiser than a long one.",
+      ], ["Stay on the boardwalks", "Check alert levels", "Short soaks in hot pools"]),
+      s("Planning the Thermal Explorer Highway in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations around Rotorua, Taupō and Hawke's Bay, with filters for campervan access. Add your four nights to a trip as ordered stops, and it reads the distance and drive time between each pair, plus a forecast for each place.",
+        "Save the places beforehand. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin on the Napier-Taupō road. The app is free to download, with in-app purchases.",
+      ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
+    ],
+    sources: [
+      { label: "100% Pure New Zealand: Thermal Explorer Highway", url: "https://www.newzealand.com/int/feature/thermal-explorer-highway/" },
+      { label: "Waikato NZ: Thermal Explorer Highway touring route", url: "https://www.waikatonz.com/plan-your-trip/getting-around/thermal-explorer-highway-touring-route/" },
+      { label: "DOC: staying safe around thermal areas", url: "https://www.doc.govt.nz/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];
