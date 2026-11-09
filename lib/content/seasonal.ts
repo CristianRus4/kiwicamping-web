@@ -568,4 +568,86 @@ export const seasonalArticles: Article[] = [
       { label: "DOC: campsite categories and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-tent-new-zealand",
+    hubs: ["freedom-camping", "camping"],
+    title: "Freedom Camping With a Tent in New Zealand: Where It's Allowed in 2026",
+    description: "Tents don't need a green warrant, but most councils ban them on public land. Where tent freedom camping is allowed in 2026, council by council, on DOC land, and the free campsites that fill the gaps.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["Conservation areas", "Whangārei", "Warrington Domain", "Lake Ōkaro", "Basic DOC campsites"],
+    imageAlt: "Two small tents pitched in tussock above a wide Canterbury valley under dark rain clouds",
+    related: ["freedom-camping-rules-new-zealand", "can-i-camp-anywhere-on-doc-land", "camping-without-self-contained-vehicle-new-zealand"],
+    intro:
+      "A tent is the one way of freedom camping that New Zealand's self-containment law does not touch. The green warrant rule that took full effect on 7 June 2026 is about vehicles, and the Freedom Camping Act still lets a tent camp on council land unless a bylaw restricts or prohibits it. The catch is that most councils on the main tourist routes have done exactly that, so a tent is welcome in fewer roadside spots than a certified campervan. What still works is open conservation land, a handful of council sites that name tents, and the free and cheap DOC campsites that were built for them. The council rules below are from each council's bylaw and freedom camping page as summarised in our council guides, checked in October and November 2026.",
+    sections: [
+      s("What the law says about tents", [
+        "The Freedom Camping Act 2011 defines freedom camping as camping outside a camping ground in a tent, a vehicle or another temporary structure within 200 metres of a formed road, of land vehicles can reach, of a Great Walks track or of the sea. On land a council manages, section 10 allows freedom camping in a tent or a certified self-contained vehicle unless a bylaw restricts or prohibits it. A vehicle without a green warrant needs a site a bylaw names for it; a tent does not.",
+        "So a tent's freedom depends almost entirely on local bylaws, and they vary from council to council. Auckland, Tasman and New Plymouth ban tent freedom camping on public land outright, others allow tents only at a few named reserves, and a few leave a general permission in place but rule out so many areas that it means little. On conservation land the default flips again, which is why the best tent spots are usually DOC's.",
+      ], ["No green warrant needed for a tent", "Bylaws decide on council land", "Conservation land has its own rules"]),
+      s("Council by council: where tents can freedom camp", [
+        "Whangārei is the stand-out exception. Its Camping in Public Places Bylaw lists five tent areas on public land: Parua Bay for about 15 tents and up to three nights, Reotahi for up to three tents and one night, Sandy Bay for about four tents and one night, Tamaterau for four to five tents and one night, and Waipū Caves for many tents and one night. Rotorua allows tents at two reserves, Lake Ōkaro and Guy Roe Reserve, and Dunedin at one, the designated area inside Warrington Domain.",
+        "Central Hawke's Bay's 2024 bylaw lets tents camp at Pourerere Beach Road and Te Paerahi Beach in Pōrangahau, with a ballot permit at Pourerere from mid-December to the end of February. Marlborough's only tent exception is for cyclists on the Awatere Valley Road, who may camp at Blairich Reserve. Wellington's four-night limit names tents, but its places to camp are car parks, so a tent is better at a campground there. Everywhere in the table marked no, a tent needs a campground, a holiday park or a DOC campsite.",
+      ], ["Whangārei has five tent areas", "Rotorua and Dunedin name tent reserves", "Most tourist councils say no"], {
+        caption: "Tent freedom camping on council land, from each council's bylaw and freedom camping page, checked October and November 2026. Rules change; check the council's page before you pitch.",
+        head: ["Council", "Tents on public land"],
+        rows: [
+          ["Auckland", "No"],
+          ["Thames-Coromandel", "No: certified self-contained vehicles only"],
+          ["Whangārei", "Yes, at five listed tent areas"],
+          ["Rotorua Lakes", "Yes, at Lake Ōkaro and Guy Roe Reserve only"],
+          ["Central Hawke's Bay", "Yes, at Pourerere Beach Road and Te Paerahi Beach"],
+          ["New Plymouth", "No"],
+          ["Wellington", "Not at its listed car parks; use a campground"],
+          ["Tasman", "No"],
+          ["Marlborough", "Only cyclists on Awatere Valley Road, at Blairich Reserve"],
+          ["Christchurch", "No: use a camping ground"],
+          ["Westland", "No: council reserves are closed to freedom camping"],
+          ["Queenstown Lakes", "No: certified self-contained vehicles only"],
+          ["Waitaki", "No, outside fee-paying campgrounds"],
+          ["Dunedin", "Yes, at Warrington Domain only"],
+        ],
+      }),
+      s("Tents on DOC conservation land", [
+        "Public conservation land works the other way round from most councils. Section 15 of the Act says freedom camping there is permitted unless a DOC notice restricts or prohibits it, and DOC's notices are published district by district. A tent is welcome on open conservation land, and some notices even favour tents: Rum Curries in Otago's Gibbston Conservation Area is limited to tents for two nights a month.",
+        "Two limits matter. DOC-administered scenic and recreation reserves are closed to camping outside designated campsites, and national parks and tracks set their own rules beyond 200 metres of the road, so a quiet flat on a national park track is not automatically allowed. Our guide on whether you can camp anywhere on DOC land walks through the notices, the reserves and the Great Walks, where camping is booked or not allowed at all.",
+      ], ["Open conservation land allows tents", "Reserves only at designated campsites", "Check DOC's notice list for the district"]),
+      s("Free and cheap DOC campsites for tents", [
+        "Where freedom camping is off the table, DOC campsites fill the gap for very little. Basic campsites are free, with a toilet and not much else; standard campsites charge adults about $10 to $20 a night; and serviced campsites with showers are about $25. In KiwiCamping's DOC data from August 2026, 63 of the 287 DOC campsites listed no fee, and most DOC campsites take tents.",
+        "A paid DOC campsite is a camping ground under the Act, so none of the freedom camping rules apply there. Check whether it is bookable: bookable sites must be booked before you arrive, and self-registration sites are first come, first served with an envelope at the entrance. Long trips built around paid DOC campsites can be cheaper with DOC's Campsite Pass, and holiday parks usually have unpowered tent sites for less than a powered site.",
+      ], ["63 DOC campsites listed no fee", "Book bookable sites before arriving", "Holiday parks have cheaper tent sites"]),
+      s("Toilets, waste and leaving no trace", [
+        "A tent has no toilet, which is the reason so many councils keep tents out of roadside spots. Camp only where there is a toilet you can use, or follow DOC's guidance on human waste when there is none, and take every scrap of rubbish with you. Leaving waste outside a bin or damaging the area is an $800 infringement, the highest freedom camping fee.",
+        "Washing, cooking and cleaning teeth all need care near water. Wash at least 50 metres from streams and lakes, use biodegradable soap sparingly, and strain food scraps out of grey water to carry away. In the north, clean every speck of soil off boots, tent pegs and groundsheets at the hygiene stations: kauri dieback travels in dirt.",
+      ], ["Camp where there is a toilet", "$800 for leaving waste", "Clean pegs and boots in kauri country"]),
+      s("Fires, weather and where to pitch", [
+        "Most freedom camping spots ban open fires, and in summer many districts go into a restricted or prohibited fire season that covers campsites too. A gas cooker is the safe default: Fire and Emergency does not require a permit for gas cookers, and DOC says gas burners can usually be used for cooking at any time.",
+        "Pitch for the worst night, not the best. Avoid river flats and dry creek beds that flood in heavy rain, keep clear of trees with dead limbs, and face the door away from the prevailing wind. Check MetService for severe weather warnings before you choose a spot, and expect sandflies at West Coast and Fiordland campsites from dawn to dusk.",
+      ], ["Gas cooker, not a campfire", "No pitching on river flats", "Check the forecast before choosing a spot"]),
+      s("Fines and how enforcement works", [
+        "Freedom camping fines are set nationally. Camping where a bylaw or a DOC notice prohibits or restricts it is $400, and DOC counts preparing to camp, such as pitching a tent, as part of the offence. Refusing to leave when an enforcement officer requires it is $600, and damaging the area or leaving waste is $800.",
+        "Councils patrol popular spots at night and early in the morning over summer, and officers can issue an infringement on the spot. A sign at the entrance is the quickest guide: a no-camping sign, or one saying only certified self-contained vehicles may camp, rules a tent out. Where there is no sign, the council's bylaw map or DOC's notice still applies.",
+      ], ["$400 for camping where it is banned", "Pitching a tent counts", "No sign does not mean allowed"]),
+      s("Cyclists, walkers and tent touring", [
+        "Cycle tourists and long-distance walkers meet the same bylaws as everyone else, with a few small carve-outs such as Marlborough's Blairich Reserve on the Awatere Valley Road. Plan nights around DOC campsites, the council tent reserves above and holiday parks, and keep a paid option in reserve for towns such as Queenstown, Motueka and New Plymouth where tents are banned on public land.",
+        "Backpackers travelling by bus or car can do the same. A tent and a free DOC campsite are still the cheapest way to sleep in some of the country's best places, as long as the night is planned rather than found at dusk in a district that bans tents.",
+      ]),
+      s("Finding tent-friendly places in KiwiCamping", [
+        "KiwiCamping, the iPhone app we make, includes DOC's freedom camping notices by district alongside its DOC campsites, huts and tracks, so you can check whether a conservation area is prohibited, restricted or open before you drive in. Filter DOC campsites by cost to find the free and cheap ones along your route, read DOC's fee and booking requirement for each, and save them into a trip with dates and notes.",
+        "Place details stay on the phone when you lose signal, while map tiles, routing, weather and photos need a connection. The app does not include council bylaw maps, so for council land use the council's page or our council guides, and treat the sign at the site as the final word. KiwiCamping needs an iPhone with iOS 26 or later.",
+      ], ["DOC freedom camping notices by district", "Filter DOC campsites by cost", "Council rules: check the council's page"], undefined, true),
+    ],
+    sources: [
+      { label: "Freedom Camping Act 2011 (New Zealand Legislation)", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "DOC: conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "Whangarei District Council: camping in public places", url: "https://www.wdc.govt.nz/Community/Parks-and-recreation/Freedom-camping" },
+      { label: "Auckland Council: freedom camping", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/freedom-camping-auckland/general-rules-information-freedom-campers-auckland.html" },
+      { label: "Tasman District Council: responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Dunedin City Council: freedom camping", url: "https://www.dunedin.govt.nz/community-facilities/freedom-camping" },
+      { label: "Rotorua Lakes Council: camping", url: "https://www.rotorualakescouncil.nz/parks-lakes-recreation/freedom-camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];

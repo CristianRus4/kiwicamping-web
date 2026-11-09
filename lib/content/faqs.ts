@@ -240,6 +240,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I still need to book with a DOC Campsite Pass?", "Yes, at bookable campsites. Book online before you arrive and enter each pass number; the booking totals $0 except $3 per pass holder per night at powered sites. Without a booking DOC charges a $10 fee and can turn you away if the campsite is full."],
     ["Which campsites does the Campsite Pass not cover?", "All Great Walk campsites, cabins and bunkhouses at campgrounds, and a list of individual campsites. Tōtaranui, Pelorus Bridge, Momorangi Bay, Trounson Kauri Park and Peel Forest are excluded from 26 December to 8 February, and Kerr Bay from 19 October to 30 April."],
   ],
+  "freedom-camping-tent-new-zealand": [
+    ["Can you freedom camp with a tent in New Zealand?", "Yes, but in fewer places than a certified campervan. The Freedom Camping Act lets tents camp on council land unless a bylaw restricts it, and many councils, including Auckland, Tasman and New Plymouth, ban tents on public land. Open conservation land, a few named council reserves and free DOC campsites are the reliable options."],
+    ["Do you need a self-contained vehicle to camp in a tent?", "No. The green warrant rule applies to vehicles used for freedom camping, not to tents. A tent still has to follow the council bylaw or DOC notice for the place, and where tents are banned the answer is a campground, holiday park or DOC campsite."],
+  ],
   "best-campervan-apps-new-zealand": [
     ["What is the best app for a campervan trip in New Zealand?", "It depends on the stage. For planning nights at DOC campsites we recommend KiwiCamping, which we make; thl Roadtrip suits Maui, Britz, Mighty and Apollo hirers, CamperMate is a free all-rounder, and Rankers adds traveller reviews of where to stay."],
     ["How do campervan relocations work in New Zealand?", "A hire company needs a van moved, so it offers it for as little as $1 a day on fixed dates. Imoova says fuel, tolls and parking are not covered, though some suppliers add fuel or a ferry ticket, and companies such as Travellers Autobarn ask for a bond."],
