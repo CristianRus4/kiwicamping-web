@@ -185,4 +185,57 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "auckland-to-napier-drive-guide",
+    title: "Auckland to Napier Road Trip: Routes, Stops and Where to Camp",
+    description: "Auckland to Napier by road: about 430 km and 5.5 to 6 hours via Taupō and the Napier-Taupō road, with a Rotorua alternative, fuel stops and camping around Hawke's Bay.",
+    category: "Road trips",
+    region: "Hawke's Bay",
+    places: ["Auckland", "Taupō", "Napier", "Hastings", "Havelock North", "Cape Kidnappers"],
+    imageAlt: "Pastel Art Deco buildings on a street in the centre of Napier",
+    related: ["wellington-to-napier-drive-guide", "auckland-to-taupo-drive-guide", "north-island-two-week-road-trip", "east-cape-road-trip", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/hawkes-bay", "freedom-camping/hawkes-bay", "camping/central-north-island"],
+    intro:
+      "Auckland to Napier is about 430 km, and the drive takes 5.5 to 6 hours without stops, which is a long day or an easy two. The usual route runs down State Highway 1 to Taupō, then takes the Napier-Taupō road (State Highway 5) across the central plateau to the coast. A second route goes by Rotorua and Taupō and adds a night of hot springs. Below are the two routes, where to stop, fuel on the empty section, and where to camp when you reach Hawke's Bay.",
+    sections: [
+      sec("The route and the timing", [
+        "From Auckland, follow State Highway 1 to Taupō as in the Auckland to Taupō guide, about 275 km and 3.5 hours. At Taupō turn onto State Highway 5, the Napier-Taupō road, which climbs through forestry and open tussock before dropping through the Esk Valley into Hawke's Bay. The Taupō to Napier leg is about 145 km and takes just over 2 hours, which makes the total about 5.5 to 6 hours of driving.",
+        "The other way runs through Rotorua. Leave State Highway 1 at Tīrau, follow State Highway 5 to Rotorua and carry on south on the same highway to Taupō and Napier. It adds around 40 minutes and a very good reason to stop: the geothermal parks, the redwoods and the lake. Whichever way you go, leave Auckland early to beat the traffic over the Bombay Hills.",
+      ], ["About 430 km and 5.5 to 6 hours", "Taupō to Napier is about 145 km", "Rotorua route adds around 40 minutes"]),
+      sec("Where to break the journey", [
+        "Taupō is the natural halfway stop, with a lakeside walk, the Huka Falls and hot pools, and it is a sensible place to refuel. If you want a shorter second day, spend the night at Taupō or Rotorua and arrive in Napier by lunchtime.",
+        "The Napier-Taupō road has some very good views and a few places to pull over, including the Waipunga Falls lookout, a short walk from the road. There is very little between Taupō and the Esk Valley, so use the lookouts and rest areas for a break rather than expecting a cafe. The final descent into Hawke's Bay is steep and winding, and trucks are slow, so leave plenty of room.",
+      ], ["Taupō is the natural halfway stop", "Waipunga Falls is a short roadside walk", "The descent is steep and slow for trucks"], {
+        caption: "Approximate distances and driving times on the main route, without stops. Check live traffic before you leave.",
+        head: ["Leg", "Distance and time", "Notes"],
+        rows: [
+          ["Auckland to Taupō", "About 275 km, 3 hr 30", "State Highway 1"],
+          ["Taupō to Napier", "About 145 km, 2 hr 10", "State Highway 5, the Napier-Taupō road"],
+          ["Napier to Hastings", "About 20 km, 20 min", "Wine and orchards"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill the tank at Taupō before you turn onto the Napier-Taupō road. There is little or no fuel on the road itself, and cell coverage is patchy in places, so download your maps first. The road is sealed and in good condition, but it crosses high ground and can have frost or snow in winter. Check the NZTA Journey Planner for closures, and read the winter driving guide before an early or late season trip.",
+        "In Napier, the city centre has everything you need, and Hastings and Havelock North have more supermarkets, bakeries and farm stalls. Hawke's Bay is orchard and wine country, and the roadside fruit stalls in summer are a good way to restock. See the resupply guide for the basics.",
+      ], ["Fill up at Taupō before the plateau", "Download maps before the plateau", "Frost and snow are possible in winter"]),
+      sec("What to do in Napier and Hawke's Bay", [
+        "Napier rebuilt after the 1931 earthquake in Art Deco style, and the walk around the centre is the easy first stop, followed by a stroll along Marine Parade. The wineries around Hastings and Havelock North are a short drive away, and the cycle trails through the vineyards suit a day off the road. Te Mata Peak above Havelock North has a sealed road to the top and a view over the whole bay.",
+        "Cape Kidnappers is the other well-known trip, a walk or a tractor ride along the beach to a gannet colony that is busiest from spring to summer. The walk depends on the tide, so check the tide table before you go. If you plan to carry on to Wellington, the Wellington to Napier drive guide covers the road in the other direction.",
+      ], ["Art Deco walk in the centre", "Te Mata Peak for the view", "Cape Kidnappers depends on the tide"]),
+      sec("Where to camp in Hawke's Bay", [
+        "Holiday parks in Napier, Hastings and Havelock North offer power, showers and a kitchen and are the easy choice, though they book out in January and during the wine and food events. The holiday parks guide explains what to expect.",
+        "Freedom camping in the Napier and Hastings areas is restricted to a few designated sites, and most of the waterfront is closed to overnight stays. The Hawke's Bay freedom camping hub lists the current areas, and the council's own pages are the final word on the day. DOC runs some campsites in the hills towards Taupō and Te Urewera, but for the bay itself you will probably end up in a park.",
+      ], ["Book holiday parks for January", "Most waterfront is closed to camping", "Check the council's pages on the day"]),
+      sec("Planning Auckland to Napier in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with good coverage of Taupō and Hawke's Bay. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which is handy before the plateau road. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Love Taupō: getting to Taupō and around (driving times)", url: "https://www.lovetaupo.com/en/plan/getting-here-around/" },
+      { label: "Hawke's Bay Tourism: Napier", url: "https://www.hawkesbaynz.com/" },
+      { label: "Art Deco Napier: the 1931 earthquake and rebuild", url: "https://www.artdeconapier.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
