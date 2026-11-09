@@ -479,4 +479,250 @@ export const seasonalArticles: Article[] = [
       { label: "DOC: huts, campsites, Great Walks, cabins and lodges terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/huts-campsites-cabins-and-lodges-terms-and-conditions/" },
     ],
   }),
+
+  a({
+    slug: "doc-campsite-pass-new-zealand",
+    hubs: ["camping"],
+    officialLink: { domain: "doc.govt.nz", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/campsite-pass/" },
+    title: "DOC Campsite Pass 2026-27: Is It Worth $295, and Where It Doesn't Work",
+    description: "The DOC Campsite Pass costs $295 for an adult for a year. How many nights it takes to pay off, the campsites and summer dates it excludes, and how to use it at bookable sites.",
+    category: "Camping guides",
+    region: "New Zealand",
+    places: ["Tōtaranui", "Pelorus Bridge", "Momorangi Bay", "Kerr Bay", "Peel Forest"],
+    imageAlt: "A motorhome parked on the grass at Momorangi Bay campsite beside the blue water of Queen Charlotte Sound",
+    related: ["doc-campsites-new-zealand-guide", "camping-fees-new-zealand-2026", "freedom-camping-rules-new-zealand"],
+    intro:
+      "The Department of Conservation's Campsite Pass is a single payment that covers your nights at most DOC campsites for a year: $295 for an adult, half that for a child or youth, and free for infants. It is good value for a long trip built around DOC campsites and poor value for almost anyone else, and it has rules that catch people out, from booking still being required to a list of popular campsites it does not cover over summer. The prices, limits and exclusions below are from DOC's Campsite Pass pages, read on 9 November 2026.",
+    sections: [
+      s("What the Campsite Pass is", [
+        "The Campsite Pass is a way of paying, not a reservation. It covers the nightly fee at DOC conservation campsites, both the ones you book online and the self-registration ones you pay for on arrival, for 365 nights from a start date you choose. It does not hold a pitch anywhere, and it does not cover huts: those have their own Backcountry Hut Pass and hut tickets.",
+        "Each person needs their own pass. A couple pays $590 for two adult passes, and a family of two adults and two children aged 5 to 17 pays $885, with children under five free. Some membership organisations get a discount; DOC asks members to email a scan of the membership card to bookings@doc.govt.nz before buying, so the discount is on the account when they pay.",
+      ], ["A payment, not a booking", "One pass per person", "Huts need a separate pass"], {
+        caption: "DOC Campsite Pass prices, read 9 November 2026. One year (365 nights) from the start date you choose.",
+        head: ["Age group", "Price"],
+        rows: [
+          ["Adult, 18 and over", "$295.00"],
+          ["Child or youth, 5 to 17", "$147.50"],
+          ["Infant, 0 to 4", "Free"],
+        ],
+      }),
+      s("How many nights before the pass pays for itself", [
+        "DOC campsite fees are per person per night, and they vary a lot. Serviced campsites with flush toilets and hot showers charge around $25 an adult, standard campsites roughly $10 to $20, and basic campsites are free. In KiwiCamping's DOC data from August 2026, 63 of the 287 DOC campsites listed no fee, and the middle adult rate among the paid ones was $12.75.",
+        "So the break-even depends on where you stay. At serviced campsites the pass pays off on the twelfth night. At a typical standard campsite it takes 20 to 24 nights, and if most of your nights are at $10 sites or free basic ones it may never pay. Add up the actual campsites on your route before you buy, not the most expensive one you can think of.",
+      ], ["Serviced sites: 12 nights to break even", "Standard sites: 20 nights or more", "Free basic sites need no pass at all"], {
+        caption: "Adult pass at $295. Nights at one nightly adult fee before the pass costs less than paying each night.",
+        head: ["Adult fee per night", "Nights to break even"],
+        rows: [
+          ["$25 (serviced campsite)", "12"],
+          ["$20", "15"],
+          ["$15", "20"],
+          ["$12.75 (middle paid rate)", "24"],
+          ["$10", "30"],
+        ],
+      }),
+      s("Who should buy one, and who should not", [
+        "The pass suits long, slow trips where DOC campsites are the default: a working holiday spent moving between jobs, a retired couple touring for a few months, or a summer of weekends away from one home base. It suits families especially, because children's passes are half price and infants are free while the adult fee is the expensive part of every night.",
+        "Skip it if most of your nights will be at holiday parks or private campgrounds, which DOC does not run, or freedom camping in a self-contained vehicle, which costs nothing anyway. Skip it for a Great Walk too: every Great Walk campsite is excluded and booked separately. And for a two-week campervan holiday, the numbers rarely work unless almost every night is at a serviced DOC campsite.",
+      ], ["Best for long trips and families", "Not for Great Walks", "Not for holiday parks"]),
+      s("The campsites and dates the pass does not cover", [
+        "DOC excludes all Great Walk campsites, every cabin, cottage, bach, lodge and bunkhouse at a campground, campsites closed for maintenance, and seasonal campsites outside their open season. On top of that comes a list of individual campsites, and it includes several of the country's most popular. Five are excluded from 26 December to 8 February, exactly when most people want them, and Kerr Bay at Lake Rotoiti is excluded from 19 October to 30 April.",
+        "Others are excluded all year, including Kapowairua (Spirits Bay), Rarawa Beach and Tapotupotu in the Far North, Wentworth Valley on the Coromandel, Dickey Flat and Hot Water Beach (Tarawera) in the Bay of Plenty, the DOC-run campgrounds at Lake Waikaremoana and Whakapapa, several East Coast campsites, and Twelve Mile Delta near Queenstown. DOC says it can change the list without notice, so check its exclusions page before you plan a trip around the pass.",
+      ], ["Peak summer is excluded at five favourites", "Check the exclusions page before you buy", "Cabins and bunkhouses are never covered"], {
+        caption: "DOC Campsite Pass exclusions with dates, read 9 November 2026. DOC's page also lists campsites excluded all year.",
+        head: ["Campsite", "Region", "Excluded"],
+        rows: [
+          ["Trounson Kauri Park", "Northland", "26 December to 8 February"],
+          ["Tōtaranui", "Nelson Tasman", "26 December to 8 February"],
+          ["Momorangi Bay", "Marlborough", "26 December to 8 February"],
+          ["Pelorus Bridge", "Marlborough", "26 December to 8 February"],
+          ["Peel Forest", "Canterbury", "26 December to 8 February"],
+          ["Kerr Bay", "Nelson Lakes", "19 October to 30 April"],
+        ],
+      }),
+      s("How to buy the pass", [
+        "Buy it in DOC's online booking system: log in or create an account, choose Passes from the menu, select the Campsite Pass and pick the first night you want to use it. That night is the start of the 365. You can buy up to one month before that first night, and DOC emails a proof of purchase with the pass as a PDF. If you cannot buy online, call or email a DOC visitor centre.",
+        "Pick the start date carefully, because it cannot be changed. DOC refunds a pass only within 48 hours of buying it, and only if you have not yet made a booking with it and the start date has not arrived. After that it is non-refundable, so if your arrival date is uncertain, wait until it is settled before you buy.",
+      ], ["Start date cannot be changed", "Refund only within 48 hours", "Buy up to a month ahead"]),
+      s("Using the pass at bookable campsites", [
+        "A pass does not let you turn up unannounced at a bookable campsite. You still book online before you arrive, entering each pass holder's name and pass number; the booking then totals $0, except at powered sites, which charge $3 per pass holder per night. Turn up without a booking and DOC charges a $10 booking fee, and you can be turned away if the campsite is full.",
+        "Bring the booking confirmation and a copy of the pass, printed or on your phone. At popular campsites in summer the booking is the scarce part, not the money, so book early even though the pass has already paid for the night. Anyone in your group without a pass is booked and paid for at the normal rate in the same booking.",
+      ], ["Book first, even with a pass", "$3 a night per person at powered sites", "Carry the confirmation and the pass"]),
+      s("Using it at self-registration campsites", [
+        "Non-bookable campsites are first come, first served, and the pass gives you no priority over anyone else. On arrival, fill in the self-registration envelope or form as normal, note the pass, and pay only for anyone in your party who is not covered by one.",
+        "A ranger can ask to see proof of the pass and identification, so keep both handy. Many self-registration campsites are standard or basic sites where the fee is low, which is part of why the pass takes longer to pay off for travellers who prefer the quieter, simpler campsites.",
+      ]),
+      s("The seven-night rule and longer stays", [
+        "The pass covers no more than seven nights in any 30-day period at a single campsite. If you want to stay longer, the extra nights are charged at the campsite's standard rate as a separate transaction, up to that campsite's own maximum stay. The rule stops the pass from turning one campsite into a year-round base.",
+        "For most travellers it never matters, because a week in one place is already a long stay on a road trip. It matters for seasonal workers who want to camp near an orchard or vineyard for a whole season: plan to move between two or three campsites, or budget for paying full price after the first week.",
+      ], ["Seven nights in 30 days per campsite", "Extra nights at the standard rate", "Move between campsites on long stays"]),
+      s("Working out your own numbers in KiwiCamping", [
+        "KiwiCamping, the app we make, lists DOC's campsites with the adult fee, the booking requirement and the dog rules DOC publishes, and links to DOC's own page for each one. Filter by cost to see the free and cheap DOC campsites along your route, save the ones you want, then build them into a trip with dates and see how many nights are at paid DOC campsites.",
+        "That count is the honest test of whether the Campsite Pass pays. KiwiCamping runs on iPhone only (iOS 26 or later), and it does not sell or check DOC passes or bookings: you still buy the pass and book bookable campsites with DOC. Our guide to DOC campsites covers booking, fees and what each campsite type offers.",
+      ], ["DOC's fees and booking rules per campsite", "Count your paid DOC nights", "Book and buy the pass with DOC"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Campsite Pass", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/campsite-pass/" },
+      { label: "DOC: Campsite Pass exclusions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/campsite-pass/campsite-pass-exclusions/" },
+      { label: "DOC: Campsite Pass terms and conditions", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/bookings-terms-and-conditions/campsite-pass-terms-and-conditions/" },
+      { label: "DOC online bookings", url: "https://bookings.doc.govt.nz/" },
+      { label: "DOC: campsite categories and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-tent-new-zealand",
+    hubs: ["freedom-camping", "camping"],
+    title: "Freedom Camping With a Tent in New Zealand: Where It's Allowed in 2026",
+    description: "Tents don't need a green warrant, but most councils ban them on public land. Where tent freedom camping is allowed in 2026, council by council, on DOC land, and the free campsites that fill the gaps.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["Conservation areas", "Whangārei", "Warrington Domain", "Lake Ōkaro", "Basic DOC campsites"],
+    imageAlt: "Two small tents pitched in tussock above a wide Canterbury valley under dark rain clouds",
+    related: ["freedom-camping-rules-new-zealand", "can-i-camp-anywhere-on-doc-land", "camping-without-self-contained-vehicle-new-zealand"],
+    intro:
+      "A tent is the one way of freedom camping that New Zealand's self-containment law does not touch. The green warrant rule that took full effect on 7 June 2026 is about vehicles, and the Freedom Camping Act still lets a tent camp on council land unless a bylaw restricts or prohibits it. The catch is that most councils on the main tourist routes have done exactly that, so a tent is welcome in fewer roadside spots than a certified campervan. What still works is open conservation land, a handful of council sites that name tents, and the free and cheap DOC campsites that were built for them. The council rules below are from each council's bylaw and freedom camping page as summarised in our council guides, checked in October and November 2026.",
+    sections: [
+      s("What the law says about tents", [
+        "The Freedom Camping Act 2011 defines freedom camping as camping outside a camping ground in a tent, a vehicle or another temporary structure within 200 metres of a formed road, of land vehicles can reach, of a Great Walks track or of the sea. On land a council manages, section 10 allows freedom camping in a tent or a certified self-contained vehicle unless a bylaw restricts or prohibits it. A vehicle without a green warrant needs a site a bylaw names for it; a tent does not.",
+        "So a tent's freedom depends almost entirely on local bylaws, and they vary from council to council. Auckland, Tasman and New Plymouth ban tent freedom camping on public land outright, others allow tents only at a few named reserves, and a few leave a general permission in place but rule out so many areas that it means little. On conservation land the default flips again, which is why the best tent spots are usually DOC's.",
+      ], ["No green warrant needed for a tent", "Bylaws decide on council land", "Conservation land has its own rules"]),
+      s("Council by council: where tents can freedom camp", [
+        "Whangārei is the stand-out exception. Its Camping in Public Places Bylaw lists five tent areas on public land: Parua Bay for about 15 tents and up to three nights, Reotahi for up to three tents and one night, Sandy Bay for about four tents and one night, Tamaterau for four to five tents and one night, and Waipū Caves for many tents and one night. Rotorua allows tents at two reserves, Lake Ōkaro and Guy Roe Reserve, and Dunedin at one, the designated area inside Warrington Domain.",
+        "Central Hawke's Bay's 2024 bylaw lets tents camp at Pourerere Beach Road and Te Paerahi Beach in Pōrangahau, with a ballot permit at Pourerere from mid-December to the end of February. Marlborough's only tent exception is for cyclists on the Awatere Valley Road, who may camp at Blairich Reserve. Wellington's four-night limit names tents, but its places to camp are car parks, so a tent is better at a campground there. Everywhere in the table marked no, a tent needs a campground, a holiday park or a DOC campsite.",
+      ], ["Whangārei has five tent areas", "Rotorua and Dunedin name tent reserves", "Most tourist councils say no"], {
+        caption: "Tent freedom camping on council land, from each council's bylaw and freedom camping page, checked October and November 2026. Rules change; check the council's page before you pitch.",
+        head: ["Council", "Tents on public land"],
+        rows: [
+          ["Auckland", "No"],
+          ["Thames-Coromandel", "No: certified self-contained vehicles only"],
+          ["Whangārei", "Yes, at five listed tent areas"],
+          ["Rotorua Lakes", "Yes, at Lake Ōkaro and Guy Roe Reserve only"],
+          ["Central Hawke's Bay", "Yes, at Pourerere Beach Road and Te Paerahi Beach"],
+          ["New Plymouth", "No"],
+          ["Wellington", "Not at its listed car parks; use a campground"],
+          ["Tasman", "No"],
+          ["Marlborough", "Only cyclists on Awatere Valley Road, at Blairich Reserve"],
+          ["Christchurch", "No: use a camping ground"],
+          ["Westland", "No: council reserves are closed to freedom camping"],
+          ["Queenstown Lakes", "No: certified self-contained vehicles only"],
+          ["Waitaki", "No, outside fee-paying campgrounds"],
+          ["Dunedin", "Yes, at Warrington Domain only"],
+        ],
+      }),
+      s("Tents on DOC conservation land", [
+        "Public conservation land works the other way round from most councils. Section 15 of the Act says freedom camping there is permitted unless a DOC notice restricts or prohibits it, and DOC's notices are published district by district. A tent is welcome on open conservation land, and some notices even favour tents: Rum Curries in Otago's Gibbston Conservation Area is limited to tents for two nights a month.",
+        "Two limits matter. DOC-administered scenic and recreation reserves are closed to camping outside designated campsites, and national parks and tracks set their own rules beyond 200 metres of the road, so a quiet flat on a national park track is not automatically allowed. Our guide on whether you can camp anywhere on DOC land walks through the notices, the reserves and the Great Walks, where camping is booked or not allowed at all.",
+      ], ["Open conservation land allows tents", "Reserves only at designated campsites", "Check DOC's notice list for the district"]),
+      s("Free and cheap DOC campsites for tents", [
+        "Where freedom camping is off the table, DOC campsites fill the gap for very little. Basic campsites are free, with a toilet and not much else; standard campsites charge adults about $10 to $20 a night; and serviced campsites with showers are about $25. In KiwiCamping's DOC data from August 2026, 63 of the 287 DOC campsites listed no fee, and most DOC campsites take tents.",
+        "A paid DOC campsite is a camping ground under the Act, so none of the freedom camping rules apply there. Check whether it is bookable: bookable sites must be booked before you arrive, and self-registration sites are first come, first served with an envelope at the entrance. Long trips built around paid DOC campsites can be cheaper with DOC's Campsite Pass, and holiday parks usually have unpowered tent sites for less than a powered site.",
+      ], ["63 DOC campsites listed no fee", "Book bookable sites before arriving", "Holiday parks have cheaper tent sites"]),
+      s("Toilets, waste and leaving no trace", [
+        "A tent has no toilet, which is the reason so many councils keep tents out of roadside spots. Camp only where there is a toilet you can use, or follow DOC's guidance on human waste when there is none, and take every scrap of rubbish with you. Leaving waste outside a bin or damaging the area is an $800 infringement, the highest freedom camping fee.",
+        "Washing, cooking and cleaning teeth all need care near water. Wash at least 50 metres from streams and lakes, use biodegradable soap sparingly, and strain food scraps out of grey water to carry away. In the north, clean every speck of soil off boots, tent pegs and groundsheets at the hygiene stations: kauri dieback travels in dirt.",
+      ], ["Camp where there is a toilet", "$800 for leaving waste", "Clean pegs and boots in kauri country"]),
+      s("Fires, weather and where to pitch", [
+        "Most freedom camping spots ban open fires, and in summer many districts go into a restricted or prohibited fire season that covers campsites too. A gas cooker is the safe default: Fire and Emergency does not require a permit for gas cookers, and DOC says gas burners can usually be used for cooking at any time.",
+        "Pitch for the worst night, not the best. Avoid river flats and dry creek beds that flood in heavy rain, keep clear of trees with dead limbs, and face the door away from the prevailing wind. Check MetService for severe weather warnings before you choose a spot, and expect sandflies at West Coast and Fiordland campsites from dawn to dusk.",
+      ], ["Gas cooker, not a campfire", "No pitching on river flats", "Check the forecast before choosing a spot"]),
+      s("Fines and how enforcement works", [
+        "Freedom camping fines are set nationally. Camping where a bylaw or a DOC notice prohibits or restricts it is $400, and DOC counts preparing to camp, such as pitching a tent, as part of the offence. Refusing to leave when an enforcement officer requires it is $600, and damaging the area or leaving waste is $800.",
+        "Councils patrol popular spots at night and early in the morning over summer, and officers can issue an infringement on the spot. A sign at the entrance is the quickest guide: a no-camping sign, or one saying only certified self-contained vehicles may camp, rules a tent out. Where there is no sign, the council's bylaw map or DOC's notice still applies.",
+      ], ["$400 for camping where it is banned", "Pitching a tent counts", "No sign does not mean allowed"]),
+      s("Cyclists, walkers and tent touring", [
+        "Cycle tourists and long-distance walkers meet the same bylaws as everyone else, with a few small carve-outs such as Marlborough's Blairich Reserve on the Awatere Valley Road. Plan nights around DOC campsites, the council tent reserves above and holiday parks, and keep a paid option in reserve for towns such as Queenstown, Motueka and New Plymouth where tents are banned on public land.",
+        "Backpackers travelling by bus or car can do the same. A tent and a free DOC campsite are still the cheapest way to sleep in some of the country's best places, as long as the night is planned rather than found at dusk in a district that bans tents.",
+      ]),
+      s("Finding tent-friendly places in KiwiCamping", [
+        "KiwiCamping, the iPhone app we make, includes DOC's freedom camping notices by district alongside its DOC campsites, huts and tracks, so you can check whether a conservation area is prohibited, restricted or open before you drive in. Filter DOC campsites by cost to find the free and cheap ones along your route, read DOC's fee and booking requirement for each, and save them into a trip with dates and notes.",
+        "Place details stay on the phone when you lose signal, while map tiles, routing, weather and photos need a connection. The app does not include council bylaw maps, so for council land use the council's page or our council guides, and treat the sign at the site as the final word. KiwiCamping needs an iPhone with iOS 26 or later.",
+      ], ["DOC freedom camping notices by district", "Filter DOC campsites by cost", "Council rules: check the council's page"], undefined, true),
+    ],
+    sources: [
+      { label: "Freedom Camping Act 2011 (New Zealand Legislation)", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "DOC: conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "Whangarei District Council: camping in public places", url: "https://www.wdc.govt.nz/Community/Parks-and-recreation/Freedom-camping" },
+      { label: "Auckland Council: freedom camping", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/freedom-camping-auckland/general-rules-information-freedom-campers-auckland.html" },
+      { label: "Tasman District Council: responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Dunedin City Council: freedom camping", url: "https://www.dunedin.govt.nz/community-facilities/freedom-camping" },
+      { label: "Rotorua Lakes Council: camping", url: "https://www.rotorualakescouncil.nz/parks-lakes-recreation/freedom-camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
+
+  a({
+    slug: "camping-without-self-contained-vehicle-new-zealand",
+    hubs: ["camping", "freedom-camping"],
+    title: "Camping Without a Self-Contained Vehicle in New Zealand (2026): Where You Can Stay",
+    description: "No green warrant? Where a car, an uncertified van or a non-self-contained hire campervan can stay in 2026: council sites that allow it, DOC land and campsites, campgrounds, costs and fines.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Basic DOC campsites", "Whangārei", "Dunedin", "Tasman", "Aniwhenua Reserve"],
+    imageAlt: "The office, kitchen and amenity blocks of Reefton Motor Camp below tall dark pines",
+    related: ["can-i-sleep-in-my-car-in-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tent-new-zealand"],
+    intro:
+      "Since 7 June 2026, only a vehicle with a green warrant counts as self-contained in New Zealand. Blue warrants stopped counting that day, and a van with a portable toilet never qualified for the green one. That leaves a lot of travellers without certification: people in cars and station wagons, older home-built vans, and anyone who hired a cheaper non-self-contained campervan. You can still have a good road trip without a green warrant. It just means planning each night around the places that take you, rather than the roadside spots built for certified vehicles. The council sites below are from each council's bylaw and freedom camping page as summarised in our council guides, checked in October and November 2026.",
+    sections: [
+      s("Check what you are actually driving", [
+        "A certified self-contained vehicle displays a green warrant card, issued after an inspection of its fixed toilet, fresh water, wastewater and rubbish systems. If your vehicle has no green card, or only a blue sticker from before 7 June 2026, treat it as not self-contained. A toilet you can lift out does not count, however good it is.",
+        "Hire campervans come both ways, and the non-self-contained ones are usually the cheaper models without a built-in toilet. Look for the green warrant card in the window or ask at pick-up before you plan any free nights. If it is not certified, plan every night around the places below.",
+      ], ["Green warrant card on display, or not certified", "Blue stickers stopped counting on 7 June 2026", "Ask the hire company at pick-up"]),
+      s("Your options, from cheapest to most reliable", [
+        "Free basic DOC campsites come first: a toilet, a flat place to park and no fee, first come, first served. Then come council sites a bylaw names for vehicles that are not self-contained, open conservation land where DOC has not restricted camping, standard DOC campsites at about $10 to $20 an adult a night, private land where the owner says yes, and holiday parks and council-run camping grounds, which take any vehicle and have showers and kitchens.",
+        "The freedom camping rules matter only on public land. A campground, a holiday park, a paid DOC campsite or private property with the owner's permission is not freedom camping, so the green warrant rule does not apply there at all. That is why most uncertified trips settle into a rhythm of DOC campsites most nights and a holiday park every few days for a shower and laundry.",
+      ], ["Basic DOC campsites are free", "Campgrounds and private land: no warrant needed", "A holiday park every few nights"]),
+      s("Council sites that take vehicles without certification", [
+        "On council land a vehicle without a green warrant can stay only where a bylaw names the place for it, and most councils on the main tourist routes name none. A few do. Whangārei lists 17 sites for vehicles without certification, the most of any council we have checked. Tasman names three: Motueka Beach Reserve, Alexander Bluff Road Reserve at Ngātīmoti and Fittal Street in Richmond. Dunedin names Warrington Domain, Ocean View Recreation Reserve and the Thomas Burns Street car park, which is open to them from 1 November to 30 April.",
+        "New Plymouth has two six-space sites at Lake Rotomanu and Battiscombe Terrace in Waitara, each with a one-night limit in 30 days. Whakatāne allows them at Aniwhenua Reserve near Murupara for up to seven nights in four weeks, Central Hawke's Bay at Pourerere Beach Road and Te Paerahi Beach, and Southland at Dunsdale, Monkey Island at Orepuki and Thornbury. Each comes with its own limits, so read the council page before you drive there.",
+      ], ["Only named council sites count", "Most tourist councils name none", "Night limits apply at every site"], {
+        caption: "Council sites for vehicles that are not certified self-contained, from each council's bylaw and freedom camping page, checked October and November 2026.",
+        head: ["Council", "Sites for vehicles without certification"],
+        rows: [
+          ["Whangārei", "17 listed sites"],
+          ["Whakatāne", "Aniwhenua Reserve, up to 7 nights in 4 weeks"],
+          ["Central Hawke's Bay", "Pourerere Beach Road and Te Paerahi Beach"],
+          ["New Plymouth", "Lake Rotomanu and Battiscombe Terrace, 6 spaces each, 1 night in 30 days"],
+          ["Tasman", "Motueka Beach Reserve, Alexander Bluff Road Reserve, Fittal Street"],
+          ["Dunedin", "Warrington Domain, Ocean View Recreation Reserve, Thomas Burns Street (1 November to 30 April)"],
+          ["Southland", "Dunsdale, Monkey Island (Orepuki), Thornbury"],
+          ["Auckland, Thames-Coromandel, Queenstown Lakes, Christchurch, Westland", "None: use a campground"],
+        ],
+      }),
+      s("DOC land and DOC campsites", [
+        "Conservation land is kinder to uncertified vehicles. Under section 15 of the Freedom Camping Act, freedom camping on public conservation land is allowed unless a DOC notice restricts or prohibits it, and a notice that limits a site to self-contained vehicles is the exception rather than the rule. A few restricted sites even name uncertified vehicles, such as Quailburn and Round Bush in Canterbury, at four nights a month.",
+        "DOC-administered scenic and recreation reserves are closed to camping outside designated campsites, and DOC lists its prohibited car parks district by district, so check the notice for the exact place. For most nights, a DOC campsite is simpler. In KiwiCamping's DOC data from August 2026, 150 DOC campsites listed campervan access and 63 listed no fee; on a long trip the DOC Campsite Pass can cut the cost of the paid ones.",
+      ], ["Open conservation land allows any vehicle", "Reserves only at designated campsites", "150 DOC campsites list campervan access"]),
+      s("What a trip costs without a green warrant", [
+        "The difference is mostly the nights you cannot spend free. Holiday parks publish unpowered sites at about $20 to $26 an adult and powered sites at roughly $50 to $75 a night for two in summer. Standard DOC campsites are about $10 to $20 an adult and basic ones are free, so two people mixing DOC campsites with a holiday park every third night spend far less than they would at holiday parks alone.",
+        "A non-self-contained hire is usually cheaper per day than a certified one, so the saving on the vehicle often covers the campsite fees. Work it out for your own route before you choose. Our camping fees guide has current prices for each kind of site, and a powered site is worth paying for when you need to charge a fridge or a heater on a cold night.",
+      ], ["Unpowered holiday park sites: $20 to $26 an adult", "Standard DOC campsites: $10 to $20", "Mix DOC nights with a holiday park"]),
+      s("Planning nights by region", [
+        "The North Island is the easier half. Whangārei, Whakatāne, Central Hawke's Bay and New Plymouth all name council sites, and Northland, the Coromandel and the central North Island have plenty of DOC campsites. Auckland and Thames-Coromandel's council land is closed to you, so plan those nights at campgrounds or DOC campsites.",
+        "In the South Island, the most visited districts, Queenstown Lakes, Westland and Christchurch, name no council sites for uncertified vehicles, so lean on DOC. Canterbury's high country, the West Coast, Otago and Southland have a dense spread of DOC campsites, many with campervan access, and Tasman and Dunedin have their named sites. Book holiday parks ahead around Queenstown and Wānaka in January, when they fill.",
+      ], ["North Island: more council sites", "South Island: plan around DOC campsites", "Book Queenstown holiday parks for January"]),
+      s("Fines and what does not count as camping", [
+        "Using a vehicle that is not self-contained where the rules require one is a $400 infringement, the same as camping where a bylaw prohibits it. Failing to display a warrant card on land restricted to self-contained vehicles is $200, and damaging the area or leaving waste is $800. Councils and DOC enforce the rules most heavily over summer, at night and early in the morning.",
+        "Pulling over to rest when you are too tired to drive safely is not freedom camping under the Act, and you should always stop rather than push on. But a planned night in a car park is camping, whatever you call it. Our guide to sleeping in your car covers that line, and the emergency and housing exceptions, in detail.",
+      ], ["$400 for an uncertified vehicle where it is required", "Resting to avoid fatigue is allowed", "A planned night is camping"]),
+      s("Should you get certified instead?", [
+        "If you own the vehicle and plan to travel for months, certification can pay for itself in free nights. A green warrant needs a toilet permanently fixed inside the vehicle, fresh water, a sink draining to a wastewater tank, ventilation and secure rubbish storage, enough for three days, inspected under the national scheme run by the Plumbers, Gasfitters and Drainlayers Board. Many small vans simply do not have room for a fixed toilet.",
+        "For a short trip or a hire, it rarely makes sense. Choose a certified campervan from the start if free roadside nights matter to you, or plan an uncertified trip around DOC campsites and campgrounds, which is how many travellers see the country anyway. Our green warrant guide covers the certification rules and costs.",
+      ]),
+      s("Planning uncertified nights in KiwiCamping", [
+        "KiwiCamping, the iPhone app we make, lists DOC's campsites with their fees, campervan access, booking requirements and dog rules, and DOC's freedom camping notices by district, so you can see where an uncertified vehicle can stay on conservation land. Filter by cost to find free and cheap DOC campsites, add holiday parks, and save them into a trip with dates, notes and the route distance between stops.",
+        "Place details stay on the phone when you lose signal; map tiles, routing, weather and photos need a connection. The app does not include council bylaw maps, so check the council's page for its named sites, and treat the sign at the entrance as the final word. KiwiCamping needs an iPhone with iOS 26 or later.",
+      ], ["DOC campsites with campervan access", "DOC freedom camping notices by district", "Save nights into a dated trip"], undefined, true),
+    ],
+    sources: [
+      { label: "Freedom Camping Act 2011 (New Zealand Legislation)", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "DOC: conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "Whangarei District Council: freedom camping", url: "https://www.wdc.govt.nz/Community/Parks-and-recreation/Freedom-camping" },
+      { label: "Tasman District Council: responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Dunedin City Council: freedom camping", url: "https://www.dunedin.govt.nz/community-facilities/freedom-camping" },
+      { label: "DOC places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];

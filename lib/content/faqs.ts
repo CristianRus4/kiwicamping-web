@@ -230,6 +230,24 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is a free alternative to WikiCamps in New Zealand?", "Rankers Camping NZ is free and lists only overnight spots the local community has approved, with traveller reviews read by its team. CamperMate is also free and covers Australia as well. KiwiCamping is free to download, but its DOC campsites, huts and trips need the paid Pass."],
     ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes. WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own; WikiCamps Australia costs NZ$11.99 on the New Zealand App Store. CamperMate covers both countries in one free app."],
   ],
+  "wikicamps-not-working-new-zealand": [
+    ["Why is WikiCamps not working?", "Usually an old app version, an unsupported phone or a sign-in problem. WikiCamps supports iOS 26 and Android 15 and later, and since March 2026 blocks versions more than two releases behind. Update the app, restart the phone, try mobile data instead of Wi-Fi, turn off any VPN and allow location access."],
+    ["Can I go back to the old WikiCamps app?", "No. WikiCamps says older versions are no longer supported or accessible as of March 2026, and the Windows version was discontinued with them. Version 6 runs on iPhone, iPad and Android phones and tablets, and your trips and favourites sync through your WikiCamps account."],
+    ["Who owns WikiCamps?", "WikiCamps was founded by Russ and Cliff and sold in 2021 to G'day Parks, a tourist park group. The developer on the New Zealand App Store is WikiCamps Pty Ltd, and bookings through the app are handled by its partner BookEasy (Book Australia)."],
+  ],
+  "doc-campsite-pass-new-zealand": [
+    ["Is the DOC Campsite Pass worth it?", "Only for long trips built around paid DOC campsites. At $295 for an adult it pays off on the twelfth night at $25 serviced campsites, but takes 20 nights or more at standard campsites, and never pays if you mostly use free basic sites, holiday parks or freedom camping."],
+    ["Do I still need to book with a DOC Campsite Pass?", "Yes, at bookable campsites. Book online before you arrive and enter each pass number; the booking totals $0 except $3 per pass holder per night at powered sites. Without a booking DOC charges a $10 fee and can turn you away if the campsite is full."],
+    ["Which campsites does the Campsite Pass not cover?", "All Great Walk campsites, cabins and bunkhouses at campgrounds, and a list of individual campsites. Tōtaranui, Pelorus Bridge, Momorangi Bay, Trounson Kauri Park and Peel Forest are excluded from 26 December to 8 February, and Kerr Bay from 19 October to 30 April."],
+  ],
+  "freedom-camping-tent-new-zealand": [
+    ["Can you freedom camp with a tent in New Zealand?", "Yes, but in fewer places than a certified campervan. The Freedom Camping Act lets tents camp on council land unless a bylaw restricts it, and many councils, including Auckland, Tasman and New Plymouth, ban tents on public land. Open conservation land, a few named council reserves and free DOC campsites are the reliable options."],
+    ["Do you need a self-contained vehicle to camp in a tent?", "No. The green warrant rule applies to vehicles used for freedom camping, not to tents. A tent still has to follow the council bylaw or DOC notice for the place, and where tents are banned the answer is a campground, holiday park or DOC campsite."],
+  ],
+  "camping-without-self-contained-vehicle-new-zealand": [
+    ["Where can I camp without a self-contained vehicle in New Zealand?", "At DOC campsites, holiday parks and campgrounds, on private land with the owner's permission, on conservation land DOC has not restricted, and at the few council sites a bylaw names for uncertified vehicles, such as Whangārei's 17 sites and Dunedin's Warrington Domain."],
+    ["What is the fine for camping in a vehicle that is not self-contained?", "$400, where the rules require a certified self-contained vehicle. Failing to display a warrant card on land restricted to self-contained vehicles is $200, and damaging the area or leaving waste is $800."],
+  ],
   "best-campervan-apps-new-zealand": [
     ["What is the best app for a campervan trip in New Zealand?", "It depends on the stage. For planning nights at DOC campsites we recommend KiwiCamping, which we make; thl Roadtrip suits Maui, Britz, Mighty and Apollo hirers, CamperMate is a free all-rounder, and Rankers adds traveller reviews of where to stay."],
     ["How do campervan relocations work in New Zealand?", "A hire company needs a van moved, so it offers it for as little as $1 a day on fixed dates. Imoova says fuel, tolls and parking are not covered, though some suppliers add fuel or a ferry ticket, and companies such as Travellers Autobarn ask for a bond."],

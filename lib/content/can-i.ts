@@ -18,7 +18,7 @@ export const canIArticles: Article[] = [
     region: "New Zealand",
     places: ["Council streets and car parks","Roadside lay-bys","Conservation land","Campgrounds and private land"],
     imageAlt: "Lakeside rest area at Lake Taupō with a picnic table and a single car parked beneath the trees",
-    related: ["freedom-camping-rules-new-zealand","self-contained-campervan-green-warrant","camping-rules-local-councils-new-zealand"],
+    related: ["camping-without-self-contained-vehicle-new-zealand","freedom-camping-rules-new-zealand","self-contained-campervan-green-warrant"],
     intro:
       "Sometimes: it depends on whether you are resting or camping, and on who manages the land you are parked on. The Freedom Camping Act 2011 excludes resting or sleeping at the roadside in a vehicle to avoid driver fatigue, but a planned night in a car on public land counts as freedom camping, and on council land that needs a certified self-contained vehicle unless a bylaw names a spot for other vehicles. An ordinary car lacks the fixed toilet and tanks a green warrant requires, and since 7 June 2026 an old blue warrant no longer counts either. In practice a car can sleep legally at a campground, on private land with permission, at the rare council site opened to non-certified vehicles, or on conservation land DOC has not restricted.",
     sections: [
