@@ -3157,7 +3157,7 @@
         {
           "heading": "Trasa a jak dlouho trvá",
           "body": [
-            "Jeďte po State Highway 1 na jih do Hamilton, pak po State Highway 3 přes Te Awamutu a Ōtorohanga do Te Kūiti, kde silnice zatáčí na západ. Z Te Kūiti sleduje řeku Mōkau Rivers soutěskou Awakino Gorge k pobřeží, vede na jih podél pobřeží kolem Mōkau a Urenui a do New Plymouth dorazí s horou Mount Taranaki před vámi. Počítejte s 5 až 5,5 hodinami jízdy.",
+            "Jeďte po State Highway 1 na jih do Hamilton, pak po State Highway 3 přes Te Awamutu a Ōtorohanga do Te Kūiti, kde silnice zatáčí na západ. Z Te Kūiti sleduje řeku Mōkau soutěskou Awakino Gorge k pobřeží, vede na jih podél pobřeží kolem Mōkau a Urenui a do New Plymouth dorazí s horou Mount Taranaki před vámi. Počítejte s 5 až 5,5 hodinami jízdy.",
             "Soutěska a pobřežní silnice jsou úzké a klikaté, s těžkými nákladními auty, a na mnoha místech nelze předjíždět, takže čas na mapě je minimum. Vyjeďte z Auckland do 8 hodin ráno, abyste dorazili odpoledne, a neplánujte poslední úsek projíždět za tmy."
           ],
           "tips": [
@@ -3282,6 +3282,514 @@
         },
         {
           "label": "Venture Taranaki: navštivte Taranaki"
+        }
+      ],
+      "priceTable": null
+    },
+    "christchurch-to-franz-josef-drive-guide": {
+      "title": "Road trip z Christchurch do Franz Josef: Arthur's Pass a West Coast",
+      "description": "Z Christchurch do Franz Josef po silnici: asi 430 km a 6 až 6,5 hodiny přes Arthur's Pass a dolů po West Coast, se zastávkami, palivem, poznámkami k zimě a kde kempovat.",
+      "region": "West Coast",
+      "imageAlt": "Ledovec Franz Josef Glacier se stáčí strmým údolím mezi zalesněnými horskými stěnami",
+      "intro": "Z Christchurch do Franz Josef je to asi 430 km a trvá to 6 až 6,5 hodiny bez zastávek, přes Arthur's Pass po State Highway 73 a pak na jih po West Coast po State Highway 6. Je to jedna z nejlepších jízd po Jižním ostrově, s divokými řekami, alpskými průsmyky a deštným lesem, a nejlépe se rozdělí na dva dny. Níže najdete trasu a časování, zastávky, palivo na Coast, poznámky k zimě a počasí a kde kempovat po příjezdu k ledovcům.",
+      "sections": [
+        {
+          "heading": "Trasa a jak dlouho trvá",
+          "body": [
+            "Opusťte Christchurch po State Highway 73 a jeďte na západ přes Canterbury Plains do Springfield a Porters Pass, pak soutěskou Waimakariri Gorge do vesnice Arthur's Pass, asi 2 hodiny od města. Silnice pak překročí průsmyk a klesá soutěskou Otira Gorge na West Coast, kde odbočíte na jih po State Highway 6 přes Kumara Junction, Hokitika a Ross do Franz Josef. Celkem je to kolem 430 km a 6 až 6,5 hodiny jízdy.",
+            "Jízda je místy pomalá, se strmým sjezdem soutěskou Otira Gorge a mnoha <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">jednopruhovými mosty</a> na Coast, a je chyba plánovat ji jako jediný sprint. Noc cestou, v Arthur's Pass nebo Hokitika, z ní udělá potěšení místo dřiny. Průvodce Arthur's Pass pokrývá průsmyk podrobně."
+          ],
+          "tips": [
+            "Asi 430 km a 6 až 6,5 hodiny",
+            "Arthur's Pass je asi 2 hodiny od Christchurch",
+            "Rozdělte to nocí cestou"
+          ]
+        },
+        {
+          "heading": "Zastávky, které stojí za to",
+          "body": [
+            "Castle Hill a vyhlídka Waimakariri Gorge jsou rychlé zastávky cestou nahoru a vesnice Arthur's Pass má krátké procházky k Devils Punchbowl Falls a návštěvnické centrum, kde zkontrolujete počasí. Kea, alpští papoušci, se potulují po parkovištích u průsmyku a vezmou cokoli, co zůstane venku, proto držte jídlo a boty uvnitř vozidla.",
+            "Na straně West Coast má Hokitika pěknou hlavní ulici a nedaleká Hokitika Gorge je tyrkysová řeka s krátkou procházkou k visutému mostu. Dále na jih jsou Lake Mahinapua a staré město po těžbě zlata Ross klidné zastávky a Franz Josef je základna pro ledovec. Pancake Rocks v Punakaiki jsou opačným směrem a vyžadují samostatný výlet na sever."
+          ],
+          "tips": [
+            "Jídlo držte ve vozidle poblíž průsmyku",
+            "Hokitika Gorge stojí za krátkou odbočku",
+            "V Arthur's Pass zkontrolujte počasí"
+          ],
+          "table": {
+            "caption": "Přibližné vzdálenosti a doby jízdy z centra Christchurch, bez zastávek. Před odjezdem zkontrolujte aktuální provoz.",
+            "head": [
+              "Zastávka",
+              "Od Christchurch",
+              "K čemu se hodí"
+            ],
+            "rows": [
+              [
+                "Springfield",
+                "Asi 80 km, 1 h",
+                "Palivo a káva před průsmykem"
+              ],
+              [
+                "Vesnice Arthur's Pass",
+                "Asi 155 km, 2 h",
+                "Procházky a návštěvnické centrum"
+              ],
+              [
+                "Hokitika",
+                "Asi 290 km, 4 h",
+                "Soutěska, nefrit a přenocování"
+              ],
+              [
+                "Franz Josef",
+                "Asi 430 km, 6 h",
+                "Údolí ledovce"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Palivo, jídlo a podmínky",
+          "body": [
+            "Natankujte v Christchurch nebo Springfield před průsmykem. Palivo je ve vesnici Arthur's Pass, ale za vyšší cenu, a pak v Hokitika, Ross a Franz Josef, takže nezůstanete bez paliva, ale neměli byste nechat nádrž klesnout nízko. Jídlo je na Coast omezenější, s malými obchody a několika kavárnami, proto nakupujte v Christchurch nebo Greymouth, pokud můžete.",
+            "West Coast dostává hodně deště a Arthur's Pass může mít v zimě sníh nebo led a sesuvy a záplavy občas silnice uzavřou. Před odjezdem zkontrolujte NZTA Journey Planner a přečtěte si průvodce zimní jízdou a průvodce nepříznivým počasím, pokud cestujete v chladných nebo deštivých měsících. <a data-guide=\"sandflies-new-zealand-camping\">Muchničky</a> jsou na Coast zlé, proto mějte repelent."
+          ],
+          "tips": [
+            "Palivo ve Springfield, Hokitika nebo Ross",
+            "Nakupujte před Coast",
+            "V zimě a při silném dešti zkontrolujte uzavírky"
+          ]
+        },
+        {
+          "heading": "Franz Josef a ledovec",
+          "body": [
+            "Procházka údolím ledovce Franz Josef Glacier vás zavede deštným lesem a podél řeky k vyhlídce a ledovec v posledních desetiletích výrazně ustoupil, takže pohled na jeho čelo není takový, jaký ukazují staré fotografie. Chůze po ledu je možná jen s výletem s průvodcem, obvykle vrtulníkem. DOC zveřejňuje stav stezek a údolí je po silném dešti nebo sesuvech uzavřeno, proto před odchodem zkontrolujte.",
+            "Za jasného dne jsou oblíbenou volbou vyhlídkové lety a procházky k Roberts Point nebo Sentinel Rock a za deště jsou standardní náhradou horké bazény ve městě. Osada je malá, s hrstkou kaváren a supermarketů, a Fox Glacier je dalších 25 minut na jih, pokud chcete druhý pohled."
+          ],
+          "tips": [
+            "Před odchodem zkontrolujte stav stezek DOC",
+            "Na led jen s průvodcem",
+            "Horké bazény pro deštivé dny"
+          ]
+        },
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Prázdninové parky</a> ve Franz Josef, Hokitika a Greymouth nabízejí elektřinu, sprchy a kuchyni a jsou nejsnazší volbou, ale v létě se plní, proto rezervujte předem. Co dostanete v prázdninovém parku na Coast, od kuchyní po vypouštěcí místa, najdete v průvodci prázdninovými parky. DOC provozuje kempy poblíž Arthur's Pass a podél Coast, od základních míst po větší s toaletami a vodou.",
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a> na Coast je omezen. Westland District Council má konkrétní oblasti pro certifikovaná soběstačná vozidla a mnoho míst u silnice je uzavřeno. Průvodce freedom camping v Westland a hub South Westland uvádějí aktuální místa. Muchničky jsou v noci zuřivé, takže se hodí síťka nebo repelent."
+          ],
+          "tips": [
+            "V létě rezervujte prázdninové parky",
+            "Kempy DOC poblíž Arthur's Pass",
+            "Muchničky jsou v noci zuřivé"
+          ]
+        },
+        {
+          "heading": "Plánování Christchurch do Franz Josef v KiwiCamping",
+          "body": [
+            "Arthur's Pass a West Coast jsou v KiwiCamping dobře zmapovány, s <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>, chatami a prázdninovými parky v Hokitika a Franz Josef. Seznam vašich nocí v rámci výletu ukazuje, jak daleko je každý přesun a předpověď pro každou zastávku, což se hodí, když se na Coast usadí déšť. Aplikace není navigace a stav silnice přes průsmyk pochází z NZTA Journey Planner.",
+            "Rezervace DOC zůstávají na vlastních rezervačních stránkách DOC."
+          ],
+          "tips": [
+            "Ukládejte zastávky v pořadí jízdy",
+            "Předpověď u každé zastávky",
+            "Pro navigaci použijte svou aplikaci map"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Arthur's Pass National Park"
+        },
+        {
+          "label": "DOC: Westland Tai Poutini National Park"
+        },
+        {
+          "label": "Tourism West Coast: naplánujte si cestu"
+        },
+        {
+          "label": "NZTA Journey Planner (stav silnic a nabíječky pro EV)"
+        }
+      ],
+      "priceTable": null
+    },
+    "christchurch-to-kaikoura-drive-guide": {
+      "title": "Road trip z Christchurch do Kaikōura: trasa, zastávky a kempování",
+      "description": "Z Christchurch do Kaikōura po silnici: asi 180 km a 2,5 až 3 hodiny po State Highway 1 přes Waipara a pobřeží, s velrybami, tuleni, palivem a místy ke kempování.",
+      "region": "Canterbury",
+      "imageAlt": "Pobřeží Kaikōura se skalnatým břehem a pohořím Seaward Kaikōura Range tyčícím se vzadu",
+      "intro": "Z Christchurch do Kaikōura je to asi 180 km a trvá to 2,5 až 3 hodiny po State Highway 1, což z toho dělá snadný výlet s jednou nocí a první etapu pro každého, kdo míří dál do Picton a na trajekt. Silnice vede na sever vinařskou oblastí Waipara, přes zvlněnou zemědělskou krajinu, a pak klesá k pobřeží na poslední úsek s mořem na jedné straně a horami na druhé. Níže najdete trasu, zastávky, palivo, co dělat v Kaikōura a kde kempovat. Pokud cestujete opačným směrem, průvodce z Picton do Christchurch navazuje od severu.",
+      "sections": [
+        {
+          "heading": "Trasa a jak dlouho trvá",
+          "body": [
+            "Jeďte po State Highway 1 na sever z Christchurch přes Amberley a Waipara, pak kolem Cheviot a Parnassus k pobřeží v Oaro a dál do Kaikōura. Je to asi 180 km a 2,5 až 3 hodiny bez zastávek. Posledních 50 km se drží pobřeží, s úzkými úseky, tunely a mosty, které byly přestavěny po <a data-guide=\"earthquake-tsunami-camping-new-zealand\">zemětřesení</a> v roce 2016.",
+            "Na pobřeží si dejte časovou rezervu. Provoz se může hromadit za nákladními auty a je tu málo míst k předjíždění. Práce na silnici a sesuvy mohou přidat zdržení a dálnice je občas uzavřena při <a data-guide=\"new-zealand-severe-weather-camping\">nepříznivém počasí</a>, proto před odjezdem zkontrolujte NZTA Journey Planner."
+          ],
+          "tips": [
+            "Asi 180 km a 2,5 až 3 hodiny",
+            "Úsek u pobřeží je pomalý a úzký",
+            "Při špatném počasí zkontrolujte uzavírky"
+          ]
+        },
+        {
+          "heading": "Zastávky cestou",
+          "body": [
+            "Waipara je první zastávka, s vinnými sklípky, kavárnami a vinicemi Waipara Valley kousek od dálnice. Amberley má pekárnu a obchody a Cheviot je malé zemědělské město s hospodou a čerpací stanicí. V posledním úseku leží kolonie tuleňů na skalách u silnice a jsou tu odpočívadla, odkud je můžete bezpečně pozorovat z dálky.",
+            "V samotném Kaikōura jsou kolonie tuleňů v Ōhau Point, Peninsula Walkway a vyhlídka na konci Fyffe Quay krátké zastávky zdarma. Langusty, podle nichž má město jméno, se prodávají z přívěsů u silnice na pobřeží a je to věc, kterou je třeba ochutnat. Průvodce z Picton do Christchurch má víc o severním konci pobřeží."
+          ],
+          "tips": [
+            "Waipara na víno a oběd",
+            "Zastavte a pozorujte tuleně",
+            "Langusty z přívěsů u silnice"
+          ],
+          "table": {
+            "caption": "Přibližné vzdálenosti a doby jízdy z centra Christchurch, bez zastávek. Před odjezdem zkontrolujte aktuální provoz.",
+            "head": [
+              "Zastávka",
+              "Od Christchurch",
+              "K čemu se hodí"
+            ],
+            "rows": [
+              [
+                "Amberley",
+                "Asi 45 km, 40 min",
+                "Pekárna a palivo"
+              ],
+              [
+                "Waipara",
+                "Asi 65 km, 55 min",
+                "Víno a oběd"
+              ],
+              [
+                "Cheviot",
+                "Asi 110 km, 1 h 20",
+                "Palivo a rychlá pauza"
+              ],
+              [
+                "Kaikōura",
+                "Asi 180 km, 2 h 40",
+                "Velryby, tuleni a poloostrov"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Palivo, jídlo a toalety",
+          "body": [
+            "Natankujte v Christchurch, Amberley nebo Cheviot. Kaikōura má palivo, supermarkety a spoustu kaváren a restaurací, takže po příjezdu můžete doplnit zásoby. Veřejné toalety jsou ve Waipara, Cheviot, na pobřežních vyhlídkách a v Kaikōura.",
+            "Signál mobilu je na pobřeží nespolehlivý, proto si před odjezdem stáhněte mapy. Kaikōura a Cheviot mají nabíjení pro EV a NZTA Journey Planner zobrazuje nabíječky podél State Highway 1. Pro celý nákup na campervan viz průvodce <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">doplňováním zásob</a>."
+          ],
+          "tips": [
+            "Palivo v Amberley nebo Cheviot",
+            "Zásoby doplňte v Kaikōura",
+            "Stáhněte si mapy před pobřežím"
+          ]
+        },
+        {
+          "heading": "Co dělat v Kaikōura",
+          "body": [
+            "Pozorování velryb je hlavní lákadlo a výlety lodí jedou celoročně, podle stavu moře. Plavání s delfíny a tuleni provozují samostatní provozovatelé a oboje se v létě vyprodá, proto rezervujte před příjezdem. Pokud chcete zůstat v suchu, Peninsula Walkway obchází mys a míjí kolonii tuleňů kožešinových a procházka trvá několik hodin.",
+            "Za jasného dne stojí pohledy na pohoří Seaward Kaikōura Range, se sněhem až do jara, za jízdu na vyhlídku. Tuleni v Ōhau Point a potok, kde se shromažďují mláďata, jsou snadná zastávka cestou na sever a stánky s langustami jsou otevřené většinu dní. Držte od tuleňů bezpečný odstup, protože mohou být agresivní, když se cítí v koncích."
+          ],
+          "tips": [
+            "Výlety lodí rezervujte před příjezdem",
+            "Peninsula Walkway pro suchý den",
+            "Držte se od tuleňů v odstupu"
+          ]
+        },
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Prázdninové parky</a> v Kaikōura nabízejí elektřinu, sprchy a kuchyni a jsou snadnou volbou a v létě a o Velikonocích se vyprodají. Rezervace předem v létě je rozumná a průvodce prázdninovými parky vysvětluje, jak to funguje. DOC provozuje několik kempů na pobřeží a v kopcích za ním, od jednoduchých míst po ta s toaletami a vodou.",
+            "Freedom camping kolem Kaikōura je omezen, s hrstkou oblastí pro certifikovaná soběstačná vozidla a většinou nábřeží uzavřenou. Vlastní stránky Kaikōura District Council rozhodují, kde můžete zastavit; hub North Canterbury a průvodce <a data-guide=\"freedom-camping-rules-new-zealand\">pravidly freedom camping</a> je shrnují. Pokud pokračujete do Picton, hub Marlborough uvádí další sadu míst."
+          ],
+          "tips": [
+            "V létě rezervujte prázdninové parky",
+            "Kempy DOC na pobřeží",
+            "V daný den zkontrolujte stránky obce"
+          ]
+        },
+        {
+          "heading": "Plánování Christchurch do Kaikōura v KiwiCamping",
+          "body": [
+            "Prázdninové parky v Kaikōura, <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> a blízké chaty jsou všechny v KiwiCamping na iPhonu. Uložte noc v Kaikōura, třeba jednu v Goose Bay, a zobrazení výletu vám dá kilometry a pobřežní předpověď pro každou. Pro navigaci a aktuální stav State Highway 1 podél pobřeží použijte aplikaci map a NZTA Journey Planner.",
+            "Rezervace DOC zůstávají na vlastních rezervačních stránkách DOC."
+          ],
+          "tips": [
+            "Ukládejte zastávky v pořadí jízdy",
+            "Předpověď u každé zastávky",
+            "Pro navigaci použijte svou aplikaci map"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Destination Kaikōura: naplánujte si cestu"
+        },
+        {
+          "label": "Whale Watch Kaikōura"
+        },
+        {
+          "label": "DOC: oblast Kaikōura"
+        },
+        {
+          "label": "NZTA Journey Planner (stav silnic a nabíječky pro EV)"
+        }
+      ],
+      "priceTable": null
+    },
+    "christchurch-to-hanmer-springs-drive-guide": {
+      "title": "Road trip z Christchurch do Hanmer Springs: trasa, zastávky a kempování",
+      "description": "Z Christchurch do Hanmer Springs po silnici: asi 130 km a 1,5 až 2 hodiny přes Waipara a Culverden, s termálními bazény, lesními procházkami, poznámkami k zimě a místy ke kempování.",
+      "region": "North Canterbury",
+      "imageAlt": "Podzimní stromy u klidné ulice v alpské vesnici Hanmer Springs s horami v pozadí",
+      "intro": "Z Christchurch do Hanmer Springs je to asi 130 km a trvá to 1,5 až 2 hodiny, což z toho dělá nejsnazší alpský úlet z města a velmi dobrý víkend. Silnice vede na sever po State Highway 1 do Waipara, pak do vnitrozemí po State Highway 7 a State Highway 7A do vesnice známé termálními bazény, lesními procházkami a klidnými ulicemi. Níže najdete trasu, zastávky, palivo, co dělat a kde kempovat, spolu s poznámkami k zimě, které záleží, pokud jedete v chladných měsících.",
+      "sections": [
+        {
+          "heading": "Trasa a jak dlouho trvá",
+          "body": [
+            "Opusťte Christchurch po State Highway 1 na sever přes Amberley do Waipara, pak odbočte do vnitrozemí na State Highway 7 přes pláně do Culverden, kde se State Highway 7A odpojuje do Hanmer Springs. Je to asi 130 km a o něco méně než 2 hodiny. Silnice je zpevněná a snadná, s dlouhými rovinkami a několika pomalejšími úseky přes kopce.",
+            "Z Hanmer můžete pokračovat přes Jacks Pass do Hurunui a na Lewis Pass, což je dobrá volba, pokud míříte na West Coast bez projíždění Arthur's Pass. Silnice přes průsmyky mohou mít v zimě sníh nebo led a mohou být vyžadovány sněhové řetězy, proto před odjezdem zkontrolujte NZTA Journey Planner a přečtěte si průvodce <a data-guide=\"winter-driving-new-zealand-campervan\">zimní jízdou</a>."
+          ],
+          "tips": [
+            "Asi 130 km a 1,5 až 2 hodiny",
+            "Waipara a pak State Highway 7",
+            "V zimě může být na průsmycích sníh a led"
+          ]
+        },
+        {
+          "heading": "Zastávky cestou",
+          "body": [
+            "Waipara má vinné sklípky a kavárny a Amberley má pekárnu a obchody. Culverden je klidné zemědělské město s palivem a několika místy k jídlu. Vinařská oblast Waipara je dobrá odbočka, pokud chcete cestou ochutnávat, s řidičem, který nepije, a okres Hurunui má několik příjemných vedlejších silnic.",
+            "Samotná jízda je atrakcí, s Southern Alps, které se objevují, jak se blížíte do vnitrozemí, a s kotlinou Hanmer Basin, která se otevře v poslední zatáčce. Počítejte s rychlou pauzou ve Waikari nebo Culverden, abyste si protáhli nohy."
+          ],
+          "tips": [
+            "Waipara na víno a oběd",
+            "Culverden na palivo",
+            "Alpy se objeví, jak jedete do vnitrozemí"
+          ],
+          "table": {
+            "caption": "Přibližné vzdálenosti a doby jízdy z centra Christchurch, bez zastávek. Před odjezdem zkontrolujte aktuální provoz.",
+            "head": [
+              "Zastávka",
+              "Od Christchurch",
+              "K čemu se hodí"
+            ],
+            "rows": [
+              [
+                "Amberley",
+                "Asi 45 km, 40 min",
+                "Pekárna a palivo"
+              ],
+              [
+                "Waipara",
+                "Asi 65 km, 55 min",
+                "Víno a oběd"
+              ],
+              [
+                "Culverden",
+                "Asi 100 km, 1 h 15",
+                "Palivo a odbočka"
+              ],
+              [
+                "Hanmer Springs",
+                "Asi 130 km, 1 h 45",
+                "Termální bazény a lesní procházky"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Palivo, jídlo a toalety",
+          "body": [
+            "Natankujte v Christchurch, Amberley nebo Culverden. Hanmer Springs má čerpací stanici, malý supermarket a spoustu kaváren a restaurací, i když ceny jsou vyšší než ve městě. Veřejné toalety jsou v Hanmer, Culverden a na větších odpočívadlech u dálnice.",
+            "Elektrické campervany mohou nabíjet v Hanmer Springs a Culverden; NZTA Journey Planner každou nabíječku označuje. Co koupit před odjezdem z města, najdete v průvodci <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">doplňováním zásob</a>."
+          ],
+          "tips": [
+            "Palivo v Amberley nebo Culverden",
+            "Ceny v Hanmer jsou vyšší",
+            "Nabíječky pro EV ve větších městech"
+          ]
+        },
+        {
+          "heading": "Co dělat v Hanmer Springs",
+          "body": [
+            "Termální bazény jsou hlavním lákadlem, s horkými bazény různých teplot, sirnými bazény a lázněmi a jsou otevřeny každý den. Jděte brzy nebo po večeři, abyste se vyhnuli nejrušnějším dobám, a o víkendech a školních prázdninách rezervujte předem.",
+            "Kromě bazénů má les krátké procházky a stezky pro horská kola pro každou úroveň a procházka na Conical Hill dává výhled na vesnici a kotlinu asi za hodinu. V zimě jsou blízké lyžařské oblasti výletem na den a v létě je poblíž na řece Waiau rafting a jízda na říčních člunech."
+          ],
+          "tips": [
+            "Rezervujte bazény na víkendy",
+            "Conical Hill trvá asi hodinu",
+            "Lesní procházky a stezky pro kola pro každou úroveň"
+          ]
+        },
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Prázdninové parky</a> v Hanmer Springs nabízejí elektřinu, sprchy a kuchyni a jsou v docházkové vzdálenosti od bazénů a v létě, o Velikonocích a o zimních víkendech se vyprodají. Průvodce prázdninovými parky má víc o vybavení a rezervaci. DOC provozuje kempy v okolních kopcích a směrem k Lewis Pass, od jednoduchých míst u řeky po větší s toaletami.",
+            "Freedom camping v samotném Hanmer Springs je omezen a okolní rezervace a okraje silnic jsou většinou pro přenocování uzavřeny. Pravidla v Hanmer stanoví Hurunui District Council a hub North Canterbury spolu s průvodcem <a data-guide=\"freedom-camping-rules-new-zealand\">pravidly freedom camping</a> dávají souvislosti. Pokud vyrazíte k Lewis Pass, místa DOC tam jsou spolehlivější sázka."
+          ],
+          "tips": [
+            "Rezervujte prázdninové parky v létě a o zimních víkendech",
+            "Kempy DOC směrem k Lewis Pass",
+            "V daný den zkontrolujte stránky obce"
+          ]
+        },
+        {
+          "heading": "Plánování Christchurch do Hanmer Springs v KiwiCamping",
+          "body": [
+            "KiwiCamping zobrazuje kempování kolem Hanmer Springs a přes Lewis Pass: prázdninové parky ve vesnici, <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> v lese a chaty za nimi. Udělejte z noci v Hanmer zastávku výletu a dostanete vzdálenost z Christchurch a předpověď tam, což se hodí v měsících, kdy sníh může dosáhnout průsmyku. Navigace a rady k řetězům jsou mimo aplikaci, proto před odjezdem zkontrolujte NZTA Journey Planner.",
+            "Rezervace DOC zůstávají na vlastních rezervačních stránkách DOC."
+          ],
+          "tips": [
+            "Ukládejte zastávky v pořadí jízdy",
+            "Předpověď u každé zastávky",
+            "Pro navigaci použijte svou aplikaci map"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Visit Hanmer Springs"
+        },
+        {
+          "label": "Hurunui District: navštivte Hurunui"
+        },
+        {
+          "label": "DOC: kam v Canterbury"
+        },
+        {
+          "label": "NZTA Journey Planner (stav silnic a nabíječky pro EV)"
+        }
+      ],
+      "priceTable": null
+    },
+    "christchurch-to-te-anau-drive-guide": {
+      "title": "Road trip z Christchurch do Te Anau: dvoudenní jízda do Fiordland",
+      "description": "Z Christchurch do Te Anau po silnici: asi 650 km a 8 až 8,5 hodiny přes Lake Tekapo, Lindis Pass a Queenstown, s rozumnou zastávkou na noc, palivem a kempováním u brány do Fiordland.",
+      "region": "Fiordland",
+      "imageAlt": "Jezero Lake Te Anau se táhne k zalesněným kopcům a horám pod bledou oblohou",
+      "intro": "Z Christchurch do Te Anau je to asi 650 km a jízda trvá 8 až 8,5 hodiny, což je příliš na jeden pohodlný den, takže rozumný plán jsou dva. Trasa vede vnitrozemím přes Lake Tekapo, Twizel a Lindis Pass do Queenstown, pak na jih kolem Lake Wakatipu k bráně do Fiordland. Níže najdete trasu a nejlepší místo k přerušení cesty, zastávky, palivo na dlouhých úsecích a kde kempovat v Te Anau, základně pro Milford Sound, Doubtful Sound a Kepler Track.",
+      "sections": [
+        {
+          "heading": "Trasa a kde ji rozdělit",
+          "body": [
+            "Jeďte po State Highway 1 na jih do Temuka, pak po State Highway 79 a State Highway 8 do vnitrozemí přes Geraldine, Fairlie, Burkes Pass, Lake Tekapo a Twizel a přes Lindis Pass do Cromwell. Z Cromwell sledujte State Highway 6 do Queenstown a Frankton, pak na jih podél Lake Wakatipu přes Kingston a Mossburn do Te Anau. Z Christchurch do Queenstown je to asi 6 hodin a z Queenstown do Te Anau další 2 hodiny.",
+            "Rozdělení jízdy je klíč. Lake Tekapo nebo Twizel jsou dobrou první nocí, asi 3 až 4 hodiny cesty, s hvězdami a jezerem v Tekapo nebo s výhledy na hory v Twizel. Queenstown je druhá možnost, pokud chcete delší první den a kratší druhý. Průvodce z Christchurch do Tekapo a Aoraki pokrývá první polovinu podrobně."
+          ],
+          "tips": [
+            "Celkem asi 650 km a 8 až 8,5 hodiny",
+            "Christchurch do Queenstown asi 6 hodin",
+            "Noc v Tekapo nebo Twizel to dobře rozdělí"
+          ]
+        },
+        {
+          "heading": "Zastávky cestou",
+          "body": [
+            "Geraldine a Fairlie jsou první zastávky na kávu a pekárnu a Burkes Pass je bránou do Mackenzie Country. Lake Tekapo má Church of the Good Shepherd a velmi dobré nábřeží a Lake Pūkaki je úsek silnice se slavným výhledem na Aoraki Mount Cook za jasného dne.",
+            "Lindis Pass je nejvyšší bod, s žlutohnědými travnatými kopci a vyhlídkou. Cromwell má stánky s ovocem a sady Central Otago a Queenstown je dobré místo k doplnění zásob a paliva před poslední etapou. Mezi Kingston a Te Anau je silnice klidnou zemědělskou krajinou jen s několika malými městy, proto si naplánujte přestávky."
+          ],
+          "tips": [
+            "Pūkaki kvůli výhledu na Aoraki",
+            "Lindis Pass je nejvyšší bod",
+            "Zásoby doplňte v Queenstown před poslední etapou"
+          ],
+          "table": {
+            "caption": "Přibližné vzdálenosti a doby jízdy z centra Christchurch, bez zastávek. Před odjezdem zkontrolujte aktuální provoz.",
+            "head": [
+              "Zastávka",
+              "Od Christchurch",
+              "K čemu se hodí"
+            ],
+            "rows": [
+              [
+                "Lake Tekapo",
+                "Asi 230 km, 3 h",
+                "Jezero, kostel a hvězdy"
+              ],
+              [
+                "Twizel",
+                "Asi 265 km, 3 h 30",
+                "Palivo a přenocování"
+              ],
+              [
+                "Queenstown",
+                "Asi 480 km, 6 h",
+                "Zásoby a palivo"
+              ],
+              [
+                "Te Anau",
+                "Asi 650 km, 8 h",
+                "Brána do Fiordland"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Palivo, jídlo a podmínky",
+          "body": [
+            "Natankujte ve Fairlie, Tekapo nebo Twizel a znovu v Cromwell nebo Queenstown. Úsek z Queenstown do Te Anau má několik míst k zastavení, ale málo na výběr, proto doplňte nádrž v Queenstown a nakupte zásoby pro Fiordland tam, kde jsou supermarkety větší než v Te Anau. Obchody za Fairlie řídnou a průvodce <a data-guide=\"food-fuel-resupply-new-zealand-road-trip\">doplňováním zásob</a> vysvětluje, co koupit nejdřív v Christchurch.",
+            "Lindis Pass a Mackenzie Country mohou mít v zimě sníh a led a silnice občas uzavřou. Před odjezdem zkontrolujte NZTA Journey Planner a přečtěte si průvodce zimní jízdou, pokud cestujete v chladných měsících. V létě jsou silnice plné campervanů a <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">jednopruhové mosty</a> a štěrkové úseky vyžadují trochu opatrnosti."
+          ],
+          "tips": [
+            "Palivo v Tekapo, Twizel a Queenstown",
+            "Supermarkety jsou větší v Queenstown",
+            "V zimě je na Lindis možný sníh"
+          ]
+        },
+        {
+          "heading": "Te Anau a Fiordland",
+          "body": [
+            "Te Anau je základna pro Milford Road, která vede 120 km na sever k Milford Sound údolím Eglinton Valley, tunelem Homer Tunnel a kolem některých z nejlepších scenérií v zemi. Do Milford jsou to asi 2 hodiny jedním směrem, proto naplánujte celý den, nebo vyrazte na plavbu z Te Anau a nechte řídit někoho jiného. Doubtful Sound odjíždí z Manapōuri, 20 minut od Te Anau, a zabere celý den.",
+            "Kepler Track je Great Walk, který začíná v Te Anau, a průvodce Kepler pokrývá chaty a kempy a jak rezervovat. Te Anau Glowworm Caves jsou přes jezero a procházka po nábřeží se hodí na večer. Počasí ve Fiordland je velmi mokré a proměnlivé, proto zkontrolujte předpověď a počítejte s rezervním dnem."
+          ],
+          "tips": [
+            "Do Milford jsou to asi 2 hodiny jedním směrem",
+            "Doubtful Sound odjíždí z Manapōuri",
+            "Kepler Track rezervujte na léto brzy"
+          ]
+        },
+        {
+          "heading": "Kde kempovat v Te Anau",
+          "body": [
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Prázdninové parky</a> v Te Anau nabízejí elektřinu, sprchy a kuchyni a jsou snadnou volbou. V létě a o školních prázdninách se plní, proto rezervujte předem. Te Anau se v létě naplní, proto si přečtěte průvodce prázdninovými parky o včasné rezervaci. DOC provozuje řadu jednoduchých kempů podél Milford Road a kolem jezera, mnohé s toaletami a vodou a některé s poplatkem za noc.",
+            "Freedom camping kolem Te Anau je silně omezen a většina nábřeží a okrajů silnic je pro přenocování uzavřena. Pravidla zde stanoví Southland District Council a DOC; přečtěte si hub Te Anau a průvodce <a data-guide=\"freedom-camping-rules-new-zealand\">pravidly freedom camping</a> a před zaparkováním zkontrolujte stránky obce. Muchničky ve Fiordland jsou zuřivé, proto mějte repelent a síťku."
+          ],
+          "tips": [
+            "V létě rezervujte prázdninové parky",
+            "Kempy DOC podél Milford Road",
+            "Muchničky jsou zuřivé"
+          ]
+        },
+        {
+          "heading": "Plánování Christchurch do Te Anau v KiwiCamping",
+          "body": [
+            "Od Te Anau nahoru po Milford Road KiwiCamping zobrazuje na mapě <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>, chaty a prázdninové parky, na nichž výlet do Fiordland závisí. Seřaďte noci v Tekapo, Te Anau a na Milford Road a aplikace uvede vzdálenost každého úseku a předpověď u každé zastávky, což ve Fiordland budete chtít. Nenavigujete s ní a nezobrazuje stav silnice v období lavin; to dělá NZTA Journey Planner.",
+            "Rezervace DOC zůstávají na vlastních rezervačních stránkách DOC."
+          ],
+          "tips": [
+            "Ukládejte zastávky v pořadí jízdy",
+            "Předpověď u každé zastávky",
+            "Pro navigaci použijte svou aplikaci map"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "DOC: Fiordland National Park"
+        },
+        {
+          "label": "Fiordland Tourism: naplánujte si cestu"
+        },
+        {
+          "label": "Visit Mackenzie: jak se tam dostat"
+        },
+        {
+          "label": "NZTA Journey Planner (stav silnic a nabíječky pro EV)"
         }
       ],
       "priceTable": null
