@@ -134,4 +134,69 @@ export const lakesWalksViewsArticles: Article[] = [
       { label: "DOC: Camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
   }),
+
+  a({
+    slug: "queenstown-walks-camping-base",
+    title: "Queenstown Walks With a Camping Base: Where to Sleep for the Best Day Walks",
+    description: "The best day walks around Queenstown, Moke Lake, Arrowtown and Glenorchy, paired with where to camp for each, from Queenstown Hill and Ben Lomond to the Routeburn Flats.",
+    category: "Camping guides",
+    region: "Otago",
+    places: ["Queenstown", "Glenorchy", "Arrowtown", "Moke Lake", "Lake Wakatipu"],
+    imageAlt: "Queenstown and Lake Wakatipu seen from Bob's Peak with the Remarkables behind",
+    related: ["camping-in-queenstown", "queenstown-glenorchy-camping", "freedom-camping-queenstown-lakes-2026", "camping-bases-best-day-walks-new-zealand", "camping-base-roys-peak-wanaka"],
+    hubs: ["camping"],
+    intro:
+      "Queenstown is a base for walkers as much as for people who jump off things: from a camp in or near the town you can reach a lakeside loop, a summit with a view of the Remarkables, a gold-rush river and the start of the Routeburn, all within about an hour's drive. The difficulty is where to sleep, because the council limits freedom camping and the town is busy for most of the year. This guide pairs the day walks with a base for each.",
+    sections: [
+      s("How to choose a base", [
+        "The walks cluster at four places, and each has a different kind of camp. In town the holiday parks put you within reach of the hill tracks, around Moke Lake there is a basic DOC campsite, Arrowtown has holiday parks and a river trail on its doorstep, and Glenorchy at the head of the lake is the gateway to the Routeburn and the Dart. The guide to camping in Queenstown covers the parks and DOC sites in more detail.",
+        "Book well ahead from December to March, because every base fills, and use the freedom camping guide for Queenstown Lakes if you travel in a certified self-contained vehicle, since the council allows it only at a few signed car parks. The table pairs each walk with its base and an approximate time.",
+      ], ["Four bases: town, Moke Lake, Arrowtown, Glenorchy", "Book ahead from December to March", "Check the freedom camping rules first"], {
+        caption: "Day walks around Queenstown and where to camp for each, with approximate times.",
+        head: ["Walk", "Base", "Time"],
+        rows: [
+          ["Queenstown Hill", "Holiday park in town", "2 to 3 hours return"],
+          ["Ben Lomond", "Holiday park in town", "A full day, shorter from the gondola"],
+          ["Moke Lake loop", "DOC campsite at the lake", "About 2 hours"],
+          ["Arrow River Trail", "Arrowtown holiday park", "1 to 3 hours"],
+          ["Routeburn Flats", "Glenorchy holiday park or DOC campsite", "A half day"],
+          ["Lake Sylvan and Glenorchy Lagoon", "Glenorchy", "1 to 2 hours"],
+        ],
+      }),
+      s("Walks from Queenstown itself", [
+        "Queenstown Hill is the easy one: a steady climb on a well-made track above the town to a summit with views over the lake and the Remarkables, usually two to three hours return. Ben Lomond is the serious one, a long climb to a high summit over Queenstown that is a full day from the town, shorter if you ride the gondola up the first part, and that carries snow and ice into early summer. The guide to camping bases for the best day walks covers how to plan a big day.",
+        "Both start close to the holiday parks on the hill above the town, so a night in Queenstown can fit a sunrise start, and a short walk such as Bob's Cove on the lake road suits an afternoon. DOC's page for the Ben Lomond Track describes the route, conditions and safety advice.",
+      ], ["Queenstown Hill: 2 to 3 hours", "Ben Lomond: a full day, snow into summer", "Bob's Cove for an easy afternoon"]),
+      s("Moke Lake and the quiet side", [
+        "Moke Lake sits in a high valley about half an hour from Queenstown on a gravel road, with a basic DOC campsite beside the water and a track that circles the lake in about two hours. It is far quieter than the town and one of the best sunset spots near it, but it has toilets only and no power, and the road can be rough after rain.",
+        "Because it is a popular site in summer and there is no shop nearby, bring your own water and food and check DOC's page for the current fees and whether you need to book. Twelve Mile Delta, closer to town on the Glenorchy road, is the larger lakeside alternative.",
+      ], ["Half an hour on a gravel road", "Basic campsite, no power", "Bring water and food"]),
+      s("Arrowtown and the Arrow River", [
+        "Arrowtown is a gold-rush village 20 minutes from Queenstown, with holiday parks of its own and tracks along the Arrow River that pass the remains of Chinese miners' huts. The river trail is flat and easy, and the hill tracks above the village give wider views, with the best colour in April and early May when the autumn leaves turn.",
+        "It is the quietest of the bases for a family or a first night, with shops and cafes within walking distance. In autumn it fills for the colours, so book early, and in winter the nights are frosty.",
+      ], ["20 minutes from Queenstown", "Autumn colour in April", "Frost in winter"]),
+      s("Glenorchy and the Routeburn Flats", [
+        "Glenorchy at the head of the lake is the base for the best of the valley walks. The Routeburn Flats walk follows the first section of the Routeburn Track to the Flats, a half-day return, and is a good test of whether you want to do more. Lake Sylvan is a shorter walk through beech forest nearby, and the Glenorchy Lagoon walkway is easy and flat.",
+        "Glenorchy Holiday Park and the DOC campsites near the head of the lake are the bases, and the Queenstown to Glenorchy camping guide describes the road and the stops on the way. The last stretch of road is gravel, so allow extra time in a campervan.",
+      ], ["Routeburn Flats is a half-day return", "Lake Sylvan and the lagoon are short", "The last stretch is gravel"]),
+      s("Weather, seasons and safety", [
+        "Mountain weather changes fast and the hill and valley tracks are not the same as a city park. Check the forecast the night before, carry water, warm layers and a rain jacket, tell someone your plan, and follow DOC's outdoor safety advice. Snow and ice stay on the high tracks into early summer, and the wet-weather camping guide covers what to do when a big day goes wrong.",
+        "In winter, the walks nearest town are lower and easier, while the high tracks need the right kit and knowledge. The winter driving guide covers the roads, which can need chains.",
+      ], ["Check the forecast the night before", "Carry water and warm layers", "Snow lingers on the high tracks"]),
+      s("Using KiwiCamping around Queenstown", [
+        "KiwiCamping sorts the holiday parks, the DOC campsites at Moke Lake and along Lake Wakatipu and the dump stations, with a filter for campervan access. Save a base for each walk, set them out as a trip with dates, and use the forecast for each day to decide which walk to do when.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a base for each walk", "Order the walks by the forecast", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where should I camp for walks around Queenstown?", "A holiday park in town for Queenstown Hill and Ben Lomond, the DOC campsite at Moke Lake, a holiday park in Arrowtown for the river trails, and Glenorchy for the Routeburn Flats. Book ahead from December to March."],
+      ["Can I freedom camp near the Queenstown walks?", "Only in a few signed car parks and only in certified self-contained vehicles, with short stays and tight limits, so most visitors use a holiday park or a DOC campsite."],
+    ],
+    sources: [
+      { label: "DOC: Queenstown area", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/queenstown-area/" },
+      { label: "DOC: Ben Lomond Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/queenstown-area/things-to-do/ben-lomond-track/" },
+      { label: "DOC: Know before you go", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/" },
+      { label: "Queenstown Lakes District Council: Responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
+    ],
+  }),
 ];
