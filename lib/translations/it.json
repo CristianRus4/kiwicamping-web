@@ -7619,21 +7619,6 @@
       ],
       "sources": [
         {
-          "label": "App Rankers Camping NZ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "La NZMCA App"
-        },
-        {
           "label": "NZMCA: quote di iscrizione"
         },
         {
@@ -8098,21 +8083,6 @@
       ],
       "sources": [
         {
-          "label": "App Rankers Camping NZ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Dati della scheda di thl Roadtrip (Apple, store neozelandese)"
-        },
-        {
-          "label": "Campable"
-        },
-        {
           "label": "DOC: posti dove dormire"
         }
       ],
@@ -8284,21 +8254,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "CamperMate su Google Play"
-        },
-        {
-          "label": "App Rankers Camping NZ"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Dati della scheda di thl Roadtrip (Apple, store NZ)"
-        },
         {
           "label": "Quote associative NZMCA"
         },
@@ -8499,9 +8454,6 @@
           "label": "Google Maps: scaricare aree per l’uso senza connessione"
         },
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
           "label": "Polarsteps"
         },
         {
@@ -8681,15 +8633,6 @@
         },
         {
           "label": "Freedom camping nelle aree protette pubbliche (DOC)"
-        },
-        {
-          "label": "App Rankers Camping NZ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
         },
         {
           "label": "Quote associative NZMCA"
@@ -9123,216 +9066,10 @@
       ],
       "sources": [
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "WikiCamps New Zealand: dati della scheda (Apple, store neozelandese)"
-        },
-        {
-          "label": "Rankers Camping NZ: l’app"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "Overland Navigator: dati della scheda (Apple, store neozelandese)"
-        },
-        {
           "label": "NZMCA: iscrizione"
         },
         {
           "label": "DOC: luoghi dove dormire"
-        }
-      ],
-      "priceTable": null
-    },
-    "wikicamps-not-working-new-zealand": {
-      "title": "WikiCamps non funziona in Nuova Zelanda? Soluzioni per accesso, aggiornamenti e viaggi scomparsi (2026)",
-      "description": "WikiCamps Nuova Zelanda non si apre, continua a chiedere di accedere o impone un aggiornamento? Le soluzioni del centro assistenza di WikiCamps, le domande sulla vecchia versione e sul PC e a chi appartiene oggi.",
-      "region": "Nuova Zelanda",
-      "imageAlt": "Camper a noleggio parcheggiati in un parcheggio bagnato lungo la strada, ai piedi di colline coperte di boscaglia",
-      "intro": "WikiCamps Nuova Zelanda è cambiata più negli ultimi due anni che nel decennio precedente. La versione 6 ha ricostruito l'app da zero, ora ogni utente ha bisogno di un account e dal marzo 2026 un'app rimasta troppo indietro si rifiuta di aprirsi finché non la aggiorni. La maggior parte dei problemi che la gente cerca nasce da questi tre cambiamenti, e quasi tutti si risolvono in pochi minuti da un campeggio con una tacca di segnale. Le soluzioni qui sotto vengono dal centro assistenza di WikiCamps, letto il 9 novembre 2026. Noi facciamo KiwiCamping, un'altra app di campeggio per la Nuova Zelanda, quindi la sezione finale sul cambio di app è nostra; tutto quello che la precede serve a far funzionare di nuovo WikiCamps.",
-      "sections": [
-        {
-          "heading": "Soluzioni rapide quando WikiCamps non carica",
-          "body": [
-            "Parti dal telefono, non dall'app. WikiCamps dice di supportare iOS 26 e successivi su iPhone e iPad e Android 15 e successivi. L'app può ancora installarsi su un sistema più vecchio, ma WikiCamps dice di non poter garantire che lì funzionino tutte le funzioni né di poter risolvere i problemi. Su iPhone controlla in Impostazioni, Generali, Aggiornamento software; su Android in Impostazioni, Informazioni sul telefono.",
-            "Se il telefono è aggiornato e WikiCamps resta comunque bloccata sul caricamento o mostra l'errore «Could not retrieve data», il suo centro assistenza dà la stessa breve lista per entrambi i casi: installare l'ultima versione dallo store, riavviare il telefono, passare dal Wi-Fi ai dati mobili, disattivare qualsiasi VPN e consentire a WikiCamps di usare la tua posizione. Disinstallare e reinstallare è l'ultimo passo, e vale la pena solo quando i tuoi viaggi si sono già sincronizzati con l'account, perché una reinstallazione riparte da zero sul telefono."
-          ],
-          "tips": [
-            "iOS 26 o Android 15 e successivi",
-            "Prova i dati mobili invece del Wi-Fi del campeggio",
-            "Reinstalla solo dopo che i viaggi si sono sincronizzati"
-          ],
-          "table": {
-            "caption": "Dal centro assistenza di WikiCamps (support.wikicamps.co), letto il 9 novembre 2026.",
-            "head": [
-              "Problema",
-              "Causa abituale",
-              "Cosa provare"
-            ],
-            "rows": [
-              [
-                "Bloccata sul caricamento o «Could not retrieve data»",
-                "Versione dell'app vecchia, Wi-Fi debole, una VPN o la posizione disattivata",
-                "Aggiornare, riavviare, usare i dati mobili, spegnere la VPN, consentire la posizione"
-              ],
-              [
-                "Chiede di accedere di continuo",
-                "Il telefono cancella i dati dell'app o la limita in background",
-                "Disattivare l'ottimizzazione della batteria e le app di pulizia per WikiCamps"
-              ],
-              [
-                "Nessun codice di verifica",
-                "L'e-mail è filtrata o in ritardo",
-                "Controllare la posta indesiderata e aspettare da 10 a 15 minuti"
-              ],
-              [
-                "Chiede di pagare di nuovo",
-                "Accesso con un account o un ID dello store diverso da quello che ha pagato",
-                "Usare l'account originale; ripristinare con lo stesso ID Apple"
-              ],
-              [
-                "Mancano viaggi o preferiti",
-                "Accesso con un altro account WikiCamps",
-                "Accedere con l'e-mail originale e lasciar sincronizzare"
-              ],
-              [
-                "Non si apre senza segnale",
-                "La modalità offline non era attiva prima che il segnale cadesse",
-                "Scaricare i contenuti offline e attivare la modalità offline in città"
-              ]
-            ]
-          }
-        },
-        {
-          "heading": "Perché WikiCamps chiede di accedere o di creare un account",
-          "body": [
-            "L'app ricostruita si basa sugli account. WikiCamps dice che un account permette a viaggi, preferiti, recensioni e altri dati salvati di sincronizzarsi tra i dispositivi e di sopravvivere a un telefono nuovo o a una reinstallazione, ed è anche il modo in cui l'app verifica che hai pagato. Se usavi la vecchia app senza mai registrarti, ora devi creare un account; e se non sei sicuro di averlo fatto, WikiCamps suggerisce di provare «Forgot your password?» con la tua e-mail: se non arriva nessuna e-mail di reimpostazione, con quell'indirizzo non c'è un account.",
-            "I codici di verifica arrivano dal servizio di accesso di Microsoft per conto di WikiCamps, quindi cerca un mittente chiamato «Microsoft on behalf of WikiCamps» con un oggetto su un codice di verifica dell'e-mail di un account WikiCamps. WikiCamps dice di controllare la posta indesiderata e di aspettare da 10 a 15 minuti, e che il suo team di assistenza non può inviare un codice a mano. Se l'app continua a chiederti di accedere dopo che l'hai fatto, WikiCamps lo attribuisce al telefono e non all'app: ottimizzazione della batteria, limiti in background, cancellazione automatica dei dati delle app e app di pulizia di terze parti possono eliminare la sessione salvata."
-          ],
-          "tips": [
-            "I codici arrivano da Microsoft per conto di WikiCamps",
-            "Consenti a WikiCamps di funzionare in background",
-            "Usa l'e-mail con cui ti sei registrato la prima volta"
-          ]
-        },
-        {
-          "heading": "Hai già pagato ma ti chiede di pagare di nuovo",
-          "body": [
-            "WikiCamps verifica il tuo acquisto tramite l'account con cui accedi e lo store in cui hai comprato. Su iPhone assicurati che l'App Store sia collegato all'ID Apple che ha acquistato WikiCamps, poi scarica di nuovo l'app dall'App Store. Su Android, WikiCamps dice che un account nuovo o diverso può nascondere un acquisto precedente; se la schermata di acquisto non sparisce, invia al suo team di assistenza il numero d'ordine di Google Play, che trovi in Pagamenti e abbonamenti nel Play Store, e attiveranno l'app.",
-            "Gli acquisti restano inoltre legati al loro store. Passare da Android a un iPhone, o viceversa, significa comprare di nuovo WikiCamps, anche se i dati dell'account ti seguono una volta effettuato l'accesso. E WikiCamps Nuova Zelanda e WikiCamps Australia sono app separate, ciascuna acquistata a parte, quindi una non sblocca l'altra."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "L'aggiornamento forzato del marzo 2026",
-          "body": [
-            "Dal marzo 2026 WikiCamps blocca le versioni rimaste indietro di più di due rilasci. Se apri una versione non supportata, l'app chiede di aggiornare dallo store prima di poter proseguire; una versione ancora supportata mostra un avviso nell'app e ti lascia aggiornare più tardi. La pagina «Version Update History» di WikiCamps indica quali versioni sono supportate: quando abbiamo controllato il 9 novembre 2026 erano la 6.3.0 e dalla 6.2.4 alla 6.2.5, e l'App Store neozelandese offriva già la 6.3.1.",
-            "Il rischio pratico in Nuova Zelanda è che ti venga chiesto di aggiornare dove non c'è segnale per farlo. Lunghi tratti della West Coast, del Fiordland e dei Catlins non hanno copertura: aggiorna quindi nell'ultima città con buona ricezione, poi scarica i contenuti offline di WikiCamps e attiva la modalità offline dal menu prima di partire. WikiCamps segnala un problema noto: senza alcuna connessione, la pagina Explore può bloccarsi prima che tu raggiunga il menu per attivare la modalità offline; inoltre la modalità offline per ora è di sola lettura: niente nuovi viaggi né modifiche ai viaggi finché non torni in copertura."
-          ],
-          "tips": [
-            "Più di due rilasci indietro significa bloccata",
-            "Aggiorna in città, non al campeggio",
-            "Attiva la modalità offline prima che cada il segnale"
-          ]
-        },
-        {
-          "heading": "Si può tornare alla vecchia versione di WikiCamps?",
-          "body": [
-            "No. WikiCamps dice che le versioni precedenti non sono più supportate né accessibili dal marzo 2026, e gli store offrono solo l'ultimo rilascio. Il motivo è che la vecchia app era costruita su una piattaforma impossibile da mantenere per aggiornamenti a lungo termine, quindi la versione 6 è stata ricostruita da zero, con i primi rilasci della versione 6 nel novembre 2024.",
-            "Molte lamentele sulla nuova app riguardano cose che si sono spostate più che sparite. Le tue liste di luoghi piaciuti, con la stella, visitati e da visitare ora stanno in fondo alla scheda Home. Le opzioni di filtro sono state semplificate di proposito, quindi alcuni vecchi interruttori di esclusione sono spariti, e WikiCamps chiede a chi ci faceva affidamento di dirlo al suo team di assistenza. Se sulla mappa sembrano mancare dei luoghi, suggerisce di cancellare ogni filtro attivo e di fare zoom, perché la mappa mostra solo un numero limitato di risultati alla volta. WikiCamps stessa dice che molte recensioni negative recenti riguardano il passaggio all'app ricostruita e che sta reintroducendo le funzioni principali nel tempo."
-          ],
-          "tips": [
-            "I preferiti ora stanno sotto Collections",
-            "Cancella i filtri se i luoghi spariscono",
-            "I filtri salvati restano su ogni dispositivo"
-          ]
-        },
-        {
-          "heading": "Esiste una versione di WikiCamps per PC o Windows?",
-          "body": [
-            "Non più. L'app Windows di WikiCamps era la versione 5 ed è stata dismessa insieme alle altre vecchie versioni. La versione 6 funziona solo su iPhone, iPad e telefoni e tablet Android. WikiCamps osserva che alcune persone eseguono le app mobili su un computer con un emulatore, ma non lo supporta. Se pianifichi i viaggi su uno schermo grande, un tablet collegato allo stesso account è la soluzione supportata, perché i viaggi si sincronizzano tramite l'account.",
-            "C'è un'altra chiusura da conoscere se amici dall'estero usano WikiCamps. La sua app separata per Regno Unito, Stati Uniti e Canada ha smesso di essere supportata il 30 marzo 2026 e viene ritirata dagli store; nuove registrazioni e accessi sono stati disattivati. Questo non riguarda WikiCamps Nuova Zelanda."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Di chi è WikiCamps oggi?",
-          "body": [
-            "WikiCamps è nata da un piccolo team di fondatori, Russ e Cliff e le loro famiglie, ed è cresciuta con i luoghi aggiunti dai suoi stessi utenti. Nel 2021 l'hanno venduta a G'day Parks, un gruppo di parchi turistici, e lo sviluppatore oggi indicato sull'App Store neozelandese è WikiCamps Pty Ltd. Le prenotazioni fatte con il pulsante «Book Now» sono gestite dal suo partner di prenotazione, BookEasy (Book Australia), quindi modifiche e rimborsi vanno a loro e non a WikiCamps.",
-            "Il modello di business resta un acquisto una tantum. WikiCamps dice che non c'è nessun abbonamento, e l'App Store neozelandese elencava WikiCamps Nuova Zelanda a NZ$7.99 quando abbiamo controllato il 9 novembre 2026. Ha anche aggiunto un piccolo numero di annunci nelle sezioni recensioni, tariffe e foto per coprire parte dei costi. Dettagli dei luoghi, foto e tariffe vengono dalla community, ed è per questo che WikiCamps chiede agli utenti di modificare o segnalare ciò che è obsoleto, e per questo il cartello sul posto e la pagina del comune o di DOC decidono dove puoi sostare."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Quando contattare l'assistenza di WikiCamps",
-          "body": [
-            "Se nessuna soluzione funziona, scrivi a support@wikicamps.co. Indica il modello del telefono e la versione del sistema operativo, l'indirizzo e-mail dell'account WikiCamps e, per un problema di acquisto, la prova d'acquisto o il numero d'ordine di Google Play. WikiCamps dice che può avere margini limitati con telefoni dotati di un sistema operativo che non supporta più, quindi controlla prima questo.",
-            "Il suo gruppo di utenti su Facebook è l'altro posto dove guardare. È dove WikiCamps rimanda le persone per l'esperienza reale con l'app attuale, e un problema nato dopo un aggiornamento di solito è già stato segnalato lì da qualcun altro."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Passare a KiwiCamping in Nuova Zelanda",
-          "body": [
-            "Se ne hai abbastanza, KiwiCamping è l'app per la Nuova Zelanda che facciamo noi, e funziona in modo diverso. Non c'è un account separato da creare: con iCloud attivo, luoghi salvati, raccolte e viaggi si sincronizzano in privato tramite il tuo account Apple. I suoi 287 <a data-guide=\"doc-campsites-new-zealand-guide\">campeggi DOC</a>, 927 rifugi DOC e 1,453 sentieri DOC vengono dai dati del Department of Conservation stesso, con le tariffe, le regole per i cani e i requisiti di prenotazione di DOC e un link alla sua pagina, e puoi combinare in una sola ricerca filtri per costo, servizi e cani.",
-            "I luoghi salvati diventano un viaggio con tappe in ordine, date, note e la distanza del percorso. I dettagli dei luoghi restano sul telefono quando perdi il segnale; tessere della mappa, percorsi, meteo e foto richiedono una connessione. Meglio essere chiari sui compromessi: KiwiCamping funziona solo su iPhone (iOS 26 o successivo), elenca molti meno luoghi di WikiCamps e non ha recensioni dei viaggiatori, e non c'è importazione da WikiCamps, quindi per rifare un viaggio devi salvare di nuovo le sue tappe. Il nostro confronto delle <a data-guide=\"wikicamps-alternatives\">alternative a WikiCamps</a> mette KiwiCamping accanto a Rankers, CamperMate, Campable e Overland Navigator se vuoi una scelta più ampia."
-          ],
-          "tips": [
-            "Solo iPhone, iOS 26 o successivo",
-            "Campeggi, rifugi e sentieri DOC dai dati di DOC",
-            "Nessun account: sincronizza con iCloud"
-          ]
-        }
-      ],
-      "faq": [
-        [
-          "Perché WikiCamps non funziona?",
-          "Di solito per una versione vecchia dell'app, un telefono non supportato o un problema di accesso. WikiCamps supporta iOS 26 e Android 15 e successivi e dal marzo 2026 blocca le versioni rimaste indietro di più di due rilasci. Aggiorna l'app, riavvia il telefono, prova i dati mobili invece del Wi-Fi, disattiva qualsiasi VPN e consenti l'accesso alla posizione."
-        ],
-        [
-          "Posso tornare alla vecchia app WikiCamps?",
-          "No. WikiCamps dice che le versioni precedenti non sono più supportate né accessibili dal marzo 2026, e la versione Windows è stata dismessa con loro. La versione 6 funziona su iPhone, iPad e telefoni e tablet Android, e i tuoi viaggi e preferiti si sincronizzano tramite il tuo account WikiCamps."
-        ],
-        [
-          "Di chi è WikiCamps?",
-          "WikiCamps è stata fondata da Russ e Cliff e venduta nel 2021 a G'day Parks, un gruppo di parchi turistici. Lo sviluppatore indicato sull'App Store neozelandese è WikiCamps Pty Ltd, e le prenotazioni tramite l'app sono gestite dal suo partner BookEasy (Book Australia)."
-        ]
-      ],
-      "sources": [
-        {
-          "label": "Assistenza WikiCamps: cosa devo fare se WikiCamps non funziona correttamente?"
-        },
-        {
-          "label": "Assistenza WikiCamps: aggiornamenti forzati dal marzo 2026"
-        },
-        {
-          "label": "Assistenza WikiCamps: cronologia degli aggiornamenti delle versioni"
-        },
-        {
-          "label": "Assistenza WikiCamps: posso tornare a usare la vecchia versione dell'app?"
-        },
-        {
-          "label": "Assistenza WikiCamps: non riesco ad accedere a WikiCamps"
-        },
-        {
-          "label": "Assistenza WikiCamps: perché ora serve un account?"
-        },
-        {
-          "label": "Assistenza WikiCamps: perché non c'è una versione di WikiCamps per PC?"
-        },
-        {
-          "label": "Assistenza WikiCamps: l'app non si avvia senza connessione a internet"
-        },
-        {
-          "label": "Dati della scheda di WikiCamps Nuova Zelanda (Apple, store neozelandese)"
-        },
-        {
-          "label": "Camps Australia Wide: commento sulla vendita di WikiCamps a G'day Parks (ottobre 2021)"
         }
       ],
       "priceTable": null
@@ -9531,12 +9268,6 @@
       ],
       "sources": [
         {
-          "label": "Britz: l’app thl Roadtrip"
-        },
-        {
-          "label": "Travellers Autobarn: l’app CamperMate"
-        },
-        {
           "label": "Travellers Autobarn: relocation dei camper"
         },
         {
@@ -9550,9 +9281,6 @@
         },
         {
           "label": "NZMCA: iscrizione"
-        },
-        {
-          "label": "Rankers Camping NZ: l’app"
         },
         {
           "label": "Veicoli self-contained (Plumbers, Gasfitters and Drainlayers Board)"
@@ -10418,9 +10146,6 @@
           "label": "First Table: domande frequenti"
         },
         {
-          "label": "Sconto di Rankers sui traghetti"
-        },
-        {
           "label": "Promozione BoostSail di Interislander"
         },
         {
@@ -10648,18 +10373,6 @@
         },
         {
           "label": "Parchi per vacanze Nuova Zelanda"
-        },
-        {
-          "label": "Campable: pagamenti, cancellazioni e FAQ per gli ospiti"
-        },
-        {
-          "label": "Rankers Camping NZ: informazioni"
-        },
-        {
-          "label": "WikiCamps Nuova Zelanda"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -10846,24 +10559,6 @@
       ],
       "sources": [
         {
-          "label": "Campable: FAQ per gli ospiti"
-        },
-        {
-          "label": "Campable: pagamenti"
-        },
-        {
-          "label": "Campable: politica di cancellazione"
-        },
-        {
-          "label": "Rankers Camping NZ: informazioni"
-        },
-        {
-          "label": "WikiCamps Nuova Zelanda"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
           "label": "DOC prenotazioni online"
         },
         {
@@ -10874,9 +10569,6 @@
         },
         {
           "label": "Parchi per vacanze Nuova Zelanda"
-        },
-        {
-          "label": "Hipcamp: campeggi in Nuova Zelanda"
         }
       ],
       "priceTable": null
@@ -11315,9 +11007,6 @@
           "label": "NZMCA: stazioni di scarico"
         },
         {
-          "label": "NZMCA: l'app NZMCA"
-        },
-        {
           "label": "Consiglio del Distretto di Waitaki: stazioni di smaltimento per caravan e campervan"
         },
         {
@@ -11331,18 +11020,6 @@
         },
         {
           "label": "Regolamento sulla libertà di campeggio (Sanzioni per violazioni) 2023"
-        },
-        {
-          "label": "Britz: l'app Roadtrip"
-        },
-        {
-          "label": "Mighty Campers: app di viaggio"
-        },
-        {
-          "label": "Rankers Camping NZ: informazioni"
-        },
-        {
-          "label": "WikiCamps Nuova Zelanda"
         }
       ],
       "priceTable": null
@@ -11563,12 +11240,6 @@
         },
         {
           "label": "Mountain Safety Council: Pianifica la mia passeggiata"
-        },
-        {
-          "label": "Rankers Camping NZ: informazioni"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -11761,9 +11432,6 @@
           "label": "Roadtrippers: informazioni"
         },
         {
-          "label": "CamperMate"
-        },
-        {
           "label": "Wanderlog"
         },
         {
@@ -11774,9 +11442,6 @@
         },
         {
           "label": "Google Maps: scaricare aree da usare senza connessione"
-        },
-        {
-          "label": "WikiCamps"
         }
       ],
       "priceTable": null
@@ -11980,27 +11645,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "Hipcamp: campeggio in Nuova Zelanda"
-        },
-        {
-          "label": "Campable: domande frequenti per gli ospiti"
-        },
-        {
-          "label": "Campable: pagamenti"
-        },
-        {
-          "label": "Campable: politica di annullamento"
-        },
-        {
-          "label": "Rankers Camping NZ: informazioni"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "CamperMate"
-        },
         {
           "label": "DOC: prenotazioni online"
         },

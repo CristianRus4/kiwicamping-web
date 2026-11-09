@@ -7619,21 +7619,6 @@
       ],
       "sources": [
         {
-          "label": "Rankers Camping NZ-app"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "De NZMCA App"
-        },
-        {
           "label": "Lidmaatschapstarieven van NZMCA"
         },
         {
@@ -8098,21 +8083,6 @@
       ],
       "sources": [
         {
-          "label": "Rankers Camping NZ-app"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Gegevens van thl Roadtrip (Apple, Nieuw-Zeelandse storefront)"
-        },
-        {
-          "label": "Campable"
-        },
-        {
           "label": "DOC-plekken om te overnachten"
         }
       ],
@@ -8284,21 +8254,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "CamperMate op Google Play"
-        },
-        {
-          "label": "Rankers Camping NZ-app"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Gegevens van thl Roadtrip (Apple, Nieuw-Zeelandse storefront)"
-        },
         {
           "label": "Lidmaatschapstarieven van NZMCA"
         },
@@ -8499,9 +8454,6 @@
           "label": "Google Maps: gebieden downloaden voor offline gebruik"
         },
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
           "label": "Polarsteps"
         },
         {
@@ -8681,15 +8633,6 @@
         },
         {
           "label": "Vrij kamperen op natuurgebied (DOC)"
-        },
-        {
-          "label": "Rankers Camping NZ-app"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
         },
         {
           "label": "Lidmaatschapstarieven van NZMCA"
@@ -9123,216 +9066,10 @@
       ],
       "sources": [
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Gegevens van WikiCamps New Zealand (Apple, Nieuw-Zeelandse storefront)"
-        },
-        {
-          "label": "Rankers Camping NZ-app"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "Gegevens van Overland Navigator (Apple, Nieuw-Zeelandse storefront)"
-        },
-        {
           "label": "NZMCA-lidmaatschap"
         },
         {
           "label": "DOC-plekken om te overnachten"
-        }
-      ],
-      "priceTable": null
-    },
-    "wikicamps-not-working-new-zealand": {
-      "title": "WikiCamps werkt niet in Nieuw-Zeeland? Oplossingen voor inloggen, updates en verdwenen reizen (2026)",
-      "description": "WikiCamps Nieuw-Zeeland gaat niet open, vraagt steeds om in te loggen of dwingt een update af? De oplossingen uit het helpcentrum van WikiCamps zelf, de vragen over de oude versie en de pc, en van wie de app nu is.",
-      "region": "Nieuw-Zeeland",
-      "imageAlt": "Gehuurde campervans geparkeerd op een natte parkeerplaats langs de weg, onder met bos bedekte heuvels",
-      "intro": "WikiCamps Nieuw-Zeeland is de afgelopen twee jaar meer veranderd dan in het decennium daarvoor. Versie 6 bouwde de app helemaal opnieuw, iedere gebruiker heeft nu een account nodig en sinds maart 2026 weigert een app die te ver achterloopt te openen totdat je hem bijwerkt. De meeste problemen waar mensen naar zoeken komen door die drie veranderingen, en de meeste los je in een paar minuten op vanaf een camping met één streepje bereik. De oplossingen hieronder komen uit het helpcentrum van WikiCamps zelf, gelezen op 9 november 2026. Wij maken KiwiCamping, een andere campingapp voor Nieuw-Zeeland, dus het stuk over overstappen aan het eind is van ons; alles daarvoor is bedoeld om WikiCamps weer aan de praat te krijgen.",
-      "sections": [
-        {
-          "heading": "Snelle oplossingen als WikiCamps niet laadt",
-          "body": [
-            "Begin bij de telefoon, niet bij de app. WikiCamps zegt iOS 26 en nieuwer te ondersteunen op iPhone en iPad, en Android 15 en nieuwer. De app laat zich op een ouder systeem misschien nog wel installeren, maar WikiCamps zegt niet te kunnen beloven dat daar alle functies werken en er ook geen problemen mee te kunnen oplossen. Op een iPhone kijk je onder Instellingen, Algemeen, Software-update; op Android onder Instellingen, Over de telefoon.",
-            "Als de telefoon up-to-date is en WikiCamps blijft hangen bij het laden of toont de foutmelding \"Could not retrieve data\", geeft het helpcentrum voor beide dezelfde korte lijst: installeer de nieuwste versie uit je appstore, start de telefoon opnieuw op, schakel van wifi over op mobiele data, zet elke vpn uit en sta WikiCamps toe je locatie te gebruiken. Verwijderen en opnieuw installeren is de laatste stap, en is pas zinvol als je reizen met je account zijn gesynchroniseerd, want na een herinstallatie begint de telefoon bij nul."
-          ],
-          "tips": [
-            "iOS 26 of Android 15 en nieuwer",
-            "Probeer mobiele data in plaats van campingwifi",
-            "Installeer pas opnieuw als je reizen zijn gesynchroniseerd"
-          ],
-          "table": {
-            "caption": "Uit het helpcentrum van WikiCamps (support.wikicamps.co), gelezen op 9 november 2026.",
-            "head": [
-              "Probleem",
-              "Gebruikelijke oorzaak",
-              "Wat je kunt proberen"
-            ],
-            "rows": [
-              [
-                "Blijft hangen bij laden of \"Could not retrieve data\"",
-                "Oude appversie, zwakke wifi, een vpn of locatie uitgeschakeld",
-                "Bijwerken, opnieuw opstarten, mobiele data gebruiken, vpn uit, locatie toestaan"
-              ],
-              [
-                "Vraagt steeds opnieuw om in te loggen",
-                "De telefoon wist de gegevens van de app of beperkt de app op de achtergrond",
-                "Accuoptimalisatie en opschoon-apps voor WikiCamps uitzetten"
-              ],
-              [
-                "Geen verificatiecode",
-                "De e-mail wordt gefilterd of is vertraagd",
-                "Controleer de spammap en wacht 10 tot 15 minuten"
-              ],
-              [
-                "Moet opnieuw betalen",
-                "Ingelogd met een ander account of andere store-ID dan waarmee is betaald",
-                "Het oorspronkelijke account gebruiken; herstellen via dezelfde Apple-ID"
-              ],
-              [
-                "Reizen of favorieten ontbreken",
-                "Ingelogd met een ander WikiCamps-account",
-                "Inloggen met het oorspronkelijke e-mailadres en laten synchroniseren"
-              ],
-              [
-                "Gaat niet open zonder bereik",
-                "De offlinemodus stond niet aan voordat het bereik wegviel",
-                "Offline-inhoud downloaden en de offlinemodus in de stad aanzetten"
-              ]
-            ]
-          }
-        },
-        {
-          "heading": "Waarom WikiCamps vraagt om in te loggen of een account aan te maken",
-          "body": [
-            "De opnieuw gebouwde app werkt met accounts. WikiCamps zegt dat een account ervoor zorgt dat je reizen, favorieten, beoordelingen en andere opgeslagen gegevens synchroniseren tussen apparaten en een nieuwe telefoon of herinstallatie overleven, en dat de app er ook mee controleert of je hebt betaald. Als je de oude app gebruikte zonder je ooit te registreren, moet je nu een account aanmaken; en als je niet zeker weet of je er een hebt gemaakt, stelt WikiCamps voor om \"Forgot your password?\" te proberen met je e-mailadres: geen reset-e-mail betekent geen account onder dat adres.",
-            "Verificatiecodes komen van de inlogdienst van Microsoft namens WikiCamps, dus zoek naar een afzender met de naam \"Microsoft on behalf of WikiCamps\" met een onderwerp over een verificatiecode voor het e-mailadres van een WikiCamps-account. WikiCamps zegt dat je de spammap moet controleren en 10 tot 15 minuten moet wachten, en dat het supportteam niet met de hand een code kan sturen. Als de app blijft vragen om in te loggen terwijl je dat al hebt gedaan, schrijft WikiCamps dat toe aan de telefoon en niet aan de app: accuoptimalisatie, beperkingen op de achtergrond, automatisch wissen van appgegevens en opschoon-apps van derden kunnen de opgeslagen sessie wissen."
-          ],
-          "tips": [
-            "Codes komen van Microsoft namens WikiCamps",
-            "Laat WikiCamps op de achtergrond draaien",
-            "Gebruik het e-mailadres waarmee je je het eerst hebt aangemeld"
-          ]
-        },
-        {
-          "heading": "Al betaald maar toch gevraagd om opnieuw te betalen",
-          "body": [
-            "WikiCamps controleert je aankoop via het account waarmee je inlogt en de store waar je hebt gekocht. Zorg er op een iPhone voor dat de App Store is ingelogd met de Apple-ID waarmee WikiCamps is gekocht en download de app dan opnieuw uit de App Store. Op Android zegt WikiCamps dat een nieuw of ander account een eerdere aankoop kan verbergen; als het aankoopscherm niet verdwijnt, stuur het supportteam dan je Google Play-bestelnummer uit Betalingen en abonnementen in de Play Store, dan activeren ze de app.",
-            "Aankopen blijven ook bij hun store. Van Android naar een iPhone overstappen, of andersom, betekent WikiCamps opnieuw kopen, al volgen je accountgegevens je zodra je inlogt. En WikiCamps Nieuw-Zeeland en WikiCamps Australië zijn aparte apps die je elk apart koopt, dus de ene ontgrendelt de andere niet."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "De afgedwongen update van maart 2026",
-          "body": [
-            "Sinds maart 2026 blokkeert WikiCamps versies die meer dan twee releases achterlopen. Open je een niet-ondersteunde versie, dan vraagt de app om bij te werken via de appstore voordat je verder kunt; een versie die nog wordt ondersteund toont een melding in de app en laat je later bijwerken. De pagina \"Version Update History\" van WikiCamps geeft aan welke versies worden ondersteund: toen wij op 9 november 2026 keken waren dat 6.3.0 en 6.2.4 tot en met 6.2.5, en de Nieuw-Zeelandse App Store bood al 6.3.1 aan.",
-            "Het praktische risico in Nieuw-Zeeland is dat je wordt gevraagd bij te werken waar geen bereik is om dat te doen. Lange stukken van de West Coast, Fiordland en de Catlins hebben geen dekking, dus werk bij in de laatste plaats met goed bereik, download dan de offline-inhoud van WikiCamps en zet de offlinemodus aan via het menu voordat je vertrekt. WikiCamps noemt een bekend probleem: zonder enige verbinding kan de Explore-pagina vastlopen voordat je bij het menu komt om de offlinemodus aan te zetten, en de offlinemodus is voorlopig alleen om te bekijken: geen nieuwe reizen of reisbewerkingen totdat je weer bereik hebt."
-          ],
-          "tips": [
-            "Meer dan twee releases achter betekent geblokkeerd",
-            "Werk bij in de stad, niet op de camping",
-            "Zet de offlinemodus aan voordat het bereik wegvalt"
-          ]
-        },
-        {
-          "heading": "Kun je terug naar de oude versie van WikiCamps?",
-          "body": [
-            "Nee. WikiCamps zegt dat oudere versies sinds maart 2026 niet meer worden ondersteund of toegankelijk zijn, en de appstores bieden alleen de huidige release aan. De reden is dat de vorige app was gebouwd op een platform dat niet te onderhouden was voor updates op lange termijn, dus versie 6 is van de grond af opnieuw gebouwd, met de eerste releases van versie 6 in november 2024.",
-            "Veel klachten over de nieuwe app gaan over dingen die zijn verplaatst in plaats van verdwenen. Je lijsten met leuk gevonden, met ster gemarkeerde, bezochte en nog te bezoeken plekken staan nu onderaan het tabblad Home. De filteropties zijn bewust vereenvoudigd, dus een aantal van de oude uitsluitschakelaars is weg, en WikiCamps vraagt mensen die erop leunden dit aan het supportteam te laten weten. Als er plekken op de kaart lijken te ontbreken, adviseert het om actieve filters te wissen en in te zoomen, omdat de kaart maar een beperkt aantal resultaten tegelijk toont. WikiCamps zelf zegt dat veel recente negatieve beoordelingen te maken hebben met de overstap naar de opnieuw gebouwde app en dat het belangrijke functies na verloop van tijd terugbrengt."
-          ],
-          "tips": [
-            "Favorieten staan nu onder Collections",
-            "Wis filters als plekken verdwijnen",
-            "Opgeslagen filters blijven op elk apparaat"
-          ]
-        },
-        {
-          "heading": "Is er een pc- of Windows-versie van WikiCamps?",
-          "body": [
-            "Niet meer. De Windows-app van WikiCamps was versie 5 en is samen met de andere oude versies stopgezet. Versie 6 draait alleen op iPhone, iPad en Android-telefoons en -tablets. WikiCamps merkt op dat sommige mensen mobiele apps op een computer draaien via een emulator, maar ondersteunt dat niet. Als je reizen op een groot scherm plant, is een tablet met hetzelfde account de ondersteunde manier, omdat reizen via je account synchroniseren.",
-            "Nog een einde dat goed is om te weten als vrienden uit het buitenland WikiCamps gebruiken. De aparte app voor het Verenigd Koninkrijk, de VS en Canada wordt sinds 30 maart 2026 niet meer ondersteund en verdwijnt uit de appstores; nieuwe registraties en logins zijn uitgezet. Dat heeft geen invloed op WikiCamps Nieuw-Zeeland."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Van wie is WikiCamps nu?",
-          "body": [
-            "WikiCamps is gebouwd door een klein oprichtersteam, Russ en Cliff en hun gezinnen, en groeide op de plekken die de eigen gebruikers toevoegden. In 2021 verkochten ze het aan G'day Parks, een groep toeristenparken, en de ontwikkelaar in de Nieuw-Zeelandse App Store is nu WikiCamps Pty Ltd. Boekingen via de knop \"Book Now\" worden afgehandeld door de boekingspartner, BookEasy (Book Australia), dus wijzigingen en terugbetalingen gaan naar hen en niet naar WikiCamps.",
-            "Het verdienmodel is nog steeds een eenmalige aankoop. WikiCamps zegt dat er geen abonnement is, en de Nieuw-Zeelandse App Store vermeldde WikiCamps Nieuw-Zeeland voor NZ$7.99 toen we op 9 november 2026 keken. Het heeft ook een klein aantal advertenties toegevoegd in de onderdelen beoordelingen, kosten en foto's om de lopende kosten te dekken. Gegevens over plekken, foto's en kosten komen van de community, daarom vraagt WikiCamps gebruikers om verouderde dingen te bewerken of te melden, en daarom beslissen het bord op de plek en de pagina van de gemeente of van DOC waar je mag overnachten."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Wanneer je contact opneemt met de support van WikiCamps",
-          "body": [
-            "Als geen van de oplossingen werkt, mail dan naar support@wikicamps.co. Vermeld het model van je telefoon en de versie van het besturingssysteem, het e-mailadres van je WikiCamps-account en, bij een aankoopprobleem, je aankoopbewijs of Google Play-bestelnummer. WikiCamps zegt dat het beperkt kan zijn in wat het kan doen voor telefoons met een besturingssysteem dat het niet meer ondersteunt, dus controleer dat eerst.",
-            "De Facebook-gebruikersgroep is de andere plek om te kijken. Daar verwijst WikiCamps mensen naar voor praktijkervaring met de huidige app, en een probleem dat na een update begon, is daar meestal al door iemand anders gemeld."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Overstappen naar KiwiCamping in Nieuw-Zeeland",
-          "body": [
-            "Als je er genoeg van hebt, is KiwiCamping de Nieuw-Zeelandse app die wij maken, en die werkt anders. Er is geen apart account aan te maken: met iCloud aan synchroniseren opgeslagen plekken, collecties en reizen privé via je Apple-account. De 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campings</a>, 927 DOC-hutten en 1,453 DOC-wandelroutes komen uit de eigen gegevens van het Department of Conservation, met de kosten, hondenregels en boekingseisen van DOC en een link naar de pagina van DOC, en je kunt filters voor kosten, voorzieningen en honden combineren in één zoekopdracht.",
-            "Opgeslagen plekken worden een reis met stops op volgorde, data, notities en de afstand van de route. Plekgegevens blijven op de telefoon als je het bereik verliest; kaarttegels, routes, weer en foto's hebben een verbinding nodig. Wees duidelijk over de nadelen: KiwiCamping draait alleen op iPhone (iOS 26 of nieuwer), vermeldt veel minder plekken dan WikiCamps en heeft geen beoordelingen van reizigers, en er is geen import uit WikiCamps, dus een reis maak je opnieuw door de stops weer op te slaan. Onze vergelijking van <a data-guide=\"wikicamps-alternatives\">WikiCamps-alternatieven</a> zet KiwiCamping naast Rankers, CamperMate, Campable en Overland Navigator als je een bredere keuze wilt."
-          ],
-          "tips": [
-            "Alleen iPhone, iOS 26 of nieuwer",
-            "DOC-campings, -hutten en -wandelroutes uit de gegevens van DOC",
-            "Geen account: synchroniseert via iCloud"
-          ]
-        }
-      ],
-      "faq": [
-        [
-          "Waarom werkt WikiCamps niet?",
-          "Meestal door een oude appversie, een niet-ondersteunde telefoon of een inlogprobleem. WikiCamps ondersteunt iOS 26 en Android 15 en nieuwer en blokkeert sinds maart 2026 versies die meer dan twee releases achterlopen. Werk de app bij, start de telefoon opnieuw op, probeer mobiele data in plaats van wifi, zet elke vpn uit en sta toegang tot je locatie toe."
-        ],
-        [
-          "Kan ik terug naar de oude WikiCamps-app?",
-          "Nee. WikiCamps zegt dat oudere versies sinds maart 2026 niet meer worden ondersteund of toegankelijk zijn, en de Windows-versie is er samen mee stopgezet. Versie 6 draait op iPhone, iPad en Android-telefoons en -tablets, en je reizen en favorieten synchroniseren via je WikiCamps-account."
-        ],
-        [
-          "Van wie is WikiCamps?",
-          "WikiCamps is opgericht door Russ en Cliff en in 2021 verkocht aan G'day Parks, een groep toeristenparken. De ontwikkelaar in de Nieuw-Zeelandse App Store is WikiCamps Pty Ltd, en boekingen via de app worden afgehandeld door de partner BookEasy (Book Australia)."
-        ]
-      ],
-      "sources": [
-        {
-          "label": "WikiCamps-help: wat moet ik doen als WikiCamps niet goed werkt?"
-        },
-        {
-          "label": "WikiCamps-help: afgedwongen updates vanaf maart 2026"
-        },
-        {
-          "label": "WikiCamps-help: geschiedenis van versie-updates"
-        },
-        {
-          "label": "WikiCamps-help: kan ik terug naar de oude versie van de app?"
-        },
-        {
-          "label": "WikiCamps-help: ik kan niet inloggen bij WikiCamps"
-        },
-        {
-          "label": "WikiCamps-help: waarom heb ik nu een account nodig?"
-        },
-        {
-          "label": "WikiCamps-help: waarom is er geen pc-versie van WikiCamps?"
-        },
-        {
-          "label": "WikiCamps-help: de app start niet zonder internetverbinding"
-        },
-        {
-          "label": "Gegevens van WikiCamps Nieuw-Zeeland in de store (Apple, Nieuw-Zeelandse storefront)"
-        },
-        {
-          "label": "Camps Australia Wide: reactie op de verkoop van WikiCamps aan G'day Parks (oktober 2021)"
         }
       ],
       "priceTable": null
@@ -9531,12 +9268,6 @@
       ],
       "sources": [
         {
-          "label": "Britz: thl Roadtrip-app"
-        },
-        {
-          "label": "Travellers Autobarn: CamperMate-app"
-        },
-        {
           "label": "Travellers Autobarn: camperrelocaties"
         },
         {
@@ -9550,9 +9281,6 @@
         },
         {
           "label": "NZMCA-lidmaatschap"
-        },
-        {
-          "label": "Rankers Camping NZ-app"
         },
         {
           "label": "Self-contained voertuigen (Plumbers, Gasfitters and Drainlayers Board)"
@@ -10418,9 +10146,6 @@
           "label": "First Table: veelgestelde vragen"
         },
         {
-          "label": "Rankers: korting op veerboten"
-        },
-        {
           "label": "Interislander: BoostSail-actie"
         },
         {
@@ -10648,18 +10373,6 @@
         },
         {
           "label": "Campingparken Nieuw-Zeeland"
-        },
-        {
-          "label": "Campable: betalingen, annulering en veelgestelde vragen voor gasten"
-        },
-        {
-          "label": "Rankers Camping NZ: over"
-        },
-        {
-          "label": "WikiCamps Nieuw-Zeeland"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -10846,24 +10559,6 @@
       ],
       "sources": [
         {
-          "label": "Campable: veelgestelde vragen gast"
-        },
-        {
-          "label": "Campable: betalingen"
-        },
-        {
-          "label": "Campable: annuleringsbeleid"
-        },
-        {
-          "label": "Rankers Camping NZ: over"
-        },
-        {
-          "label": "WikiCamps Nieuw-Zeeland"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
           "label": "DOC: online boekingen"
         },
         {
@@ -10874,9 +10569,6 @@
         },
         {
           "label": "Campingparken Nieuw-Zeeland"
-        },
-        {
-          "label": "Hipcamp: Kamperen in Nieuw-Zeeland"
         }
       ],
       "priceTable": null
@@ -11315,9 +11007,6 @@
           "label": "NZMCA: afvalstations"
         },
         {
-          "label": "NZMCA: de NZMCA app"
-        },
-        {
           "label": "Waitaki District Council: afvalpunten voor caravan en campervan"
         },
         {
@@ -11331,18 +11020,6 @@
         },
         {
           "label": "Freedom Camping (Boetes voor overtredingen) Reglement 2023"
-        },
-        {
-          "label": "Britz: thl Roadtrip app"
-        },
-        {
-          "label": "Mighty Campers: reis-app"
-        },
-        {
-          "label": "Rankers Camping NZ: over"
-        },
-        {
-          "label": "WikiCamps Nieuw-Zeeland"
         }
       ],
       "priceTable": null
@@ -11563,12 +11240,6 @@
         },
         {
           "label": "Mountain Safety Council: Plan mijn wandeling"
-        },
-        {
-          "label": "Rankers Camping NZ: over"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -11761,9 +11432,6 @@
           "label": "Roadtrippers: over ons"
         },
         {
-          "label": "CamperMate"
-        },
-        {
           "label": "Wanderlog"
         },
         {
@@ -11774,9 +11442,6 @@
         },
         {
           "label": "Google Maps: gebieden downloaden voor gebruik zonder verbinding"
-        },
-        {
-          "label": "WikiCamps"
         }
       ],
       "priceTable": null
@@ -11980,27 +11645,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "Hipcamp: kamperen in Nieuw-Zeeland"
-        },
-        {
-          "label": "Campable: veelgestelde vragen voor gasten"
-        },
-        {
-          "label": "Campable: betalingen"
-        },
-        {
-          "label": "Campable: annuleringsbeleid"
-        },
-        {
-          "label": "Rankers Camping NZ: over ons"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "CamperMate"
-        },
         {
           "label": "DOC: online reserveringen"
         },

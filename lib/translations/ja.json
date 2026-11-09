@@ -7590,21 +7590,6 @@
       ],
       "sources": [
         {
-          "label": "Rankers Camping NZアプリ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "NZMCA App"
-        },
-        {
           "label": "NZMCAの会費"
         },
         {
@@ -8069,21 +8054,6 @@
       ],
       "sources": [
         {
-          "label": "Rankers Camping NZアプリ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "thl Roadtripの掲載データ（Apple、NZのストア）"
-        },
-        {
-          "label": "Campable"
-        },
-        {
           "label": "DOC：泊まれる場所"
         }
       ],
@@ -8255,21 +8225,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "Google PlayのCamperMate"
-        },
-        {
-          "label": "Rankers Camping NZアプリ"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "thl Roadtripの掲載データ（Apple、NZのストア）"
-        },
         {
           "label": "NZMCAの会費"
         },
@@ -8470,9 +8425,6 @@
           "label": "Google Maps：地域をダウンロードしてオフラインで使う"
         },
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
           "label": "Polarsteps"
         },
         {
@@ -8652,15 +8604,6 @@
         },
         {
           "label": "保全地域でのフリーダムキャンプ（DOC）"
-        },
-        {
-          "label": "Rankers Camping NZアプリ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "WikiCamps New Zealand"
         },
         {
           "label": "NZMCAの会費"
@@ -9094,216 +9037,10 @@
       ],
       "sources": [
         {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "WikiCamps New Zealandの掲載データ（Apple、NZストアフロント）"
-        },
-        {
-          "label": "Rankers Camping NZのアプリ"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
-          "label": "Campable"
-        },
-        {
-          "label": "Overland Navigatorの掲載データ（Apple、NZストアフロント）"
-        },
-        {
           "label": "NZMCAの会員制度"
         },
         {
           "label": "DOCの泊まれる場所"
-        }
-      ],
-      "priceTable": null
-    },
-    "wikicamps-not-working-new-zealand": {
-      "title": "ニュージーランドでWikiCampsが動かない？ サインイン、アップデート、消えた旅行の対処法（2026年）",
-      "description": "WikiCamps ニュージーランド版が開かない、何度もサインインを求められる、アップデートを強制される？ WikiCamps公式ヘルプセンターの対処法、旧バージョンとPC版の疑問、現在の運営元までまとめました。",
-      "region": "ニュージーランド",
-      "imageAlt": "森に覆われた丘のふもと、雨に濡れた路肩の駐車場に停まるレンタルキャンピングカー",
-      "intro": "WikiCamps ニュージーランド版は、この2年でそれ以前の10年よりも大きく変わりました。バージョン6でアプリがゼロから作り直され、全ユーザーにアカウントが必要になり、2026年3月からは古すぎるアプリはアップデートするまで起動しなくなりました。皆さんが検索する不具合の多くはこの3つの変更が原因で、そのほとんどはキャンプ場で電波が1本立つ場所から数分で直せます。以下の対処法はWikiCamps公式ヘルプセンターの内容で、2026年11月9日に確認したものです。私たちはニュージーランド向けの別のキャンプアプリ「KiwiCamping」を作っているため、最後の乗り換えの項目は自社の紹介です。それ以前の内容は、WikiCampsをまた使えるようにするためのものです。",
-      "sections": [
-        {
-          "heading": "WikiCampsが読み込まれないときのかんたんな対処法",
-          "body": [
-            "アプリではなく、まずスマートフォンを確認しましょう。WikiCampsは、iPhoneとiPadではiOS 26以降、AndroidではAndroid 15以降に対応しているとしています。古いOSでもインストールできる場合がありますが、すべての機能が動く保証や、不具合の対応はできないとのことです。iPhoneは「設定」「一般」「ソフトウェアアップデート」、Androidは「設定」「デバイス情報」で確認できます。",
-            "スマートフォンが最新なのに、WikiCampsが読み込み中で止まる、または「Could not retrieve data」というエラーが出る場合、ヘルプセンターはどちらにも同じ短いリストを示しています。アプリストアから最新版をインストールする、スマートフォンを再起動する、Wi-Fiからモバイルデータに切り替える、VPNをオフにする、WikiCampsに位置情報の使用を許可する、の順です。アンインストールと再インストールは最後の手段で、旅行データがアカウントに同期されてから行う価値があります。再インストールするとスマートフォンは何もない状態から始まるためです。"
-          ],
-          "tips": [
-            "iOS 26またはAndroid 15以降",
-            "キャンプ場のWi-Fiよりモバイルデータを試す",
-            "再インストールは旅行が同期されてから"
-          ],
-          "table": {
-            "caption": "WikiCampsのヘルプセンター（support.wikicamps.co）より。2026年11月9日に確認。",
-            "head": [
-              "問題",
-              "よくある原因",
-              "試すこと"
-            ],
-            "rows": [
-              [
-                "読み込みで止まる、または「Could not retrieve data」",
-                "アプリが古い、Wi-Fiが弱い、VPN、位置情報がオフ",
-                "アップデート、再起動、モバイルデータを使う、VPNをオフ、位置情報を許可"
-              ],
-              [
-                "何度もサインインを求められる",
-                "スマートフォンがアプリのデータを消す、またはバックグラウンドを制限している",
-                "WikiCampsのバッテリー最適化とクリーナーアプリをオフにする"
-              ],
-              [
-                "確認コードが届かない",
-                "メールがフィルターされている、または遅れている",
-                "迷惑メールを確認し、10〜15分待つ"
-              ],
-              [
-                "再度の支払いを求められる",
-                "支払ったアカウントやストアIDと違うものでサインインしている",
-                "元のアカウントを使う。同じApple IDで復元する"
-              ],
-              [
-                "旅行やお気に入りが消えた",
-                "別のWikiCampsアカウントでサインインしている",
-                "元のメールアドレスでサインインし、同期させる"
-              ],
-              [
-                "電波がないと開かない",
-                "電波が切れる前にオフラインモードをオンにしていなかった",
-                "町でオフラインコンテンツをダウンロードし、オフラインモードをオンにする"
-              ]
-            ]
-          }
-        },
-        {
-          "heading": "WikiCampsがサインインやアカウント作成を求める理由",
-          "body": [
-            "作り直されたアプリはアカウントが前提です。WikiCampsによると、アカウントがあれば旅行、お気に入り、レビューなどの保存データが端末間で同期され、新しいスマートフォンへの移行や再インストールの後も残ります。また、アプリが支払い済みかどうかを確認する手段でもあります。旧アプリを登録せずに使っていた場合は、今すぐアカウントを作る必要があります。作ったかどうか分からない場合は、メールアドレスで「Forgot your password?」を試すよう勧められています。リセットメールが届かなければ、そのアドレスのアカウントはありません。",
-            "確認コードはWikiCampsに代わってMicrosoftのサインインサービスから届くため、「Microsoft on behalf of WikiCamps」という送信者で、件名にWikiCampsアカウントのメール確認コードとあるメールを探してください。WikiCampsは、迷惑メールを確認して10〜15分待つよう案内しており、サポートチームが手作業でコードを送ることはできないとしています。サインインしたのにまたサインインを求められる場合、WikiCampsは原因をアプリではなくスマートフォンにあるとしています。バッテリー最適化、バックグラウンド制限、アプリデータの自動消去、サードパーティ製クリーナーアプリが、保存されたセッションを消すことがあります。"
-          ],
-          "tips": [
-            "コードはWikiCampsに代わってMicrosoftから届く",
-            "WikiCampsのバックグラウンド実行を許可する",
-            "最初に登録したメールアドレスを使う"
-          ]
-        },
-        {
-          "heading": "支払い済みなのに再度の支払いを求められる",
-          "body": [
-            "WikiCampsは、サインインしているアカウントと購入したストアを通じて購入を確認します。iPhoneでは、App StoreがWikiCampsを購入したApple IDでサインインしていることを確認し、App Storeからもう一度ダウンロードしてください。Androidでは、新しいアカウントや別のアカウントだと以前の購入が見えなくなることがあるとしています。購入画面が消えない場合は、Playストアの「お支払いと定期購入」にあるGoogle Playの注文番号をサポートチームに送れば、アプリを有効にしてもらえます。",
-            "購入はストアごとに紐づきます。AndroidからiPhone、またはその逆に移ると、WikiCampsを買い直す必要がありますが、アカウントのデータはサインインすれば引き継がれます。また、WikiCamps ニュージーランド版とWikiCamps オーストラリア版は別々のアプリで、それぞれ個別に購入するため、片方でもう片方は使えません。"
-          ],
-          "tips": []
-        },
-        {
-          "heading": "2026年3月からの強制アップデート",
-          "body": [
-            "2026年3月から、WikiCampsは2リリース以上古いバージョンをブロックしています。サポート対象外のバージョンを開くと、続ける前にアプリストアからのアップデートを求められます。まだサポート対象のバージョンなら、アプリ内に通知が出て、アップデートは後回しにできます。WikiCampsの「Version Update History」ページにサポート対象のバージョンが示されており、2026年11月9日時点では6.3.0と6.2.4から6.2.5で、ニュージーランドのApp Storeではすでに6.3.1が配信されていました。",
-            "ニュージーランドでの現実的なリスクは、アップデートを求められても電波がない場所にいることです。ウェストコースト、フィヨルドランド、カトリンズの長い区間は圏外なので、電波の良い最後の町でアップデートし、その後WikiCampsのオフラインコンテンツをダウンロードして、出発前にメニューからオフラインモードをオンにしてください。WikiCampsは既知の問題として、接続がまったくない状態だとExploreページが固まり、オフラインモードをオンにするメニューまで行けないことがあるとしています。また、オフラインモードは今のところ閲覧専用で、電波が戻るまで新しい旅行の作成や編集はできません。"
-          ],
-          "tips": [
-            "2リリース以上古いとブロックされる",
-            "アップデートはキャンプ場でなく町で",
-            "電波が切れる前にオフラインモードをオンに"
-          ]
-        },
-        {
-          "heading": "WikiCampsの旧バージョンに戻せる？",
-          "body": [
-            "戻せません。WikiCampsは、旧バージョンは2026年3月時点でサポートもアクセスもできなくなったとしており、アプリストアでも最新版しか配信されていません。理由は、以前のアプリが長期的なアップデートを維持できないプラットフォーム上に作られていたため、バージョン6をゼロから作り直したからだとしています。バージョン6の最初のリリースは2024年11月でした。",
-            "新しいアプリへの不満の多くは、機能がなくなったのではなく場所が移ったものです。「いいね」、スター、訪問済み、行きたい場所のリストは、ホームタブの下部にあります。フィルターのオプションは意図的に簡素化されたため、以前の除外スイッチの一部はなくなっており、それに頼っていた人はサポートチームに伝えてほしいとWikiCampsは求めています。地図上でスポットが足りないように見える場合は、有効なフィルターを解除してズームインするよう勧めています。地図は一度に限られた数の結果しか表示しないためです。WikiCamps自身も、最近の否定的なレビューの多くは作り直されたアプリへの移行に関するもので、主要な機能は少しずつ復活させていると述べています。"
-          ],
-          "tips": [
-            "お気に入りはCollectionsの下に移動",
-            "スポットが消えたらフィルターを解除",
-            "保存したフィルターは端末ごとに残る"
-          ]
-        },
-        {
-          "heading": "WikiCampsのPC版やWindows版はある？",
-          "body": [
-            "今はありません。WikiCampsのWindowsアプリはバージョン5で、ほかの旧バージョンとともに終了しました。バージョン6はiPhone、iPad、Androidのスマートフォンとタブレットでのみ動きます。WikiCampsは、エミュレーターでパソコン上でモバイルアプリを動かす人がいることに触れつつ、それはサポートしていません。大きな画面で旅行を計画したい場合は、同じアカウントでサインインしたタブレットがサポートされた方法です。旅行はアカウント経由で同期されるためです。",
-            "海外の友人がWikiCampsを使っている場合に知っておきたい、もう一つの終了があります。イギリス、アメリカ、カナダ向けの別アプリは2026年3月30日にサポートが終了し、アプリストアから取り下げられる予定で、新規登録とログインは停止されました。WikiCamps ニュージーランド版には影響しません。"
-          ],
-          "tips": []
-        },
-        {
-          "heading": "WikiCampsは今、誰のもの？",
-          "body": [
-            "WikiCampsは、RussとCliffとその家族という小さな創業チームが作り、ユーザー自身が追加した場所とともに成長しました。2021年に観光パークグループのG'day Parksに売却され、現在ニュージーランドのApp Storeに表示されている開発元はWikiCamps Pty Ltdです。「Book Now」ボタンからの予約は提携先のBookEasy（Book Australia）が扱うため、変更や返金はWikiCampsではなくそちらへ連絡します。",
-            "ビジネスモデルは今も買い切りです。WikiCampsはサブスクリプションはないとしており、2026年11月9日に確認した時点で、ニュージーランドのApp StoreではWikiCamps ニュージーランド版はNZ$7.99でした。運営費をまかなうため、レビュー、料金、写真のセクションに少数の広告も加えています。スポットの詳細、写真、料金はコミュニティ由来であるため、WikiCampsはユーザーに古い情報の編集や報告を求めています。そのため、泊まれるかどうかは、現地の看板と自治体やDOCのページが決めます。"
-          ],
-          "tips": []
-        },
-        {
-          "heading": "WikiCampsサポートに連絡するとき",
-          "body": [
-            "どの対処法でも直らない場合は、support@wikicamps.co にメールしてください。スマートフォンの機種とOSのバージョン、WikiCampsアカウントのメールアドレスを書き、購入の問題なら購入証明またはGoogle Playの注文番号も添えます。WikiCampsは、サポート終了したOSのスマートフォンでは対応できることが限られる場合があるとしているので、まずそこを確認してください。",
-            "もう一つの手がかりはFacebookのユーザーグループです。WikiCampsが現行アプリの実際の使用感を知る場所として案内しており、アップデート後に始まった問題は、すでに誰かが報告していることがよくあります。"
-          ],
-          "tips": []
-        },
-        {
-          "heading": "ニュージーランドでKiwiCampingに乗り換える",
-          "body": [
-            "もう十分という方には、私たちが作っているニュージーランド向けアプリのKiwiCampingがあります。仕組みが違い、別途アカウントを作る必要はありません。iCloudをオンにしていれば、保存した場所、コレクション、旅行がAppleアカウント経由で非公開のまま同期されます。287か所の<a data-guide=\"doc-campsites-new-zealand-guide\">DOCキャンプ場</a>、927のDOC小屋、1,453のDOCトラックは、Department of Conservation自身のデータに基づき、DOCの料金、犬のルール、予約の要件、DOCのページへのリンクを備えています。費用、設備、犬に関するフィルターは1回の検索で組み合わせられます。",
-            "保存した場所は、順番に並べた立ち寄り先、日付、メモ、ルート距離を持つ旅行になります。電波がなくなっても場所の詳細はスマートフォンに残りますが、地図タイル、ルート案内、天気、写真には接続が必要です。トレードオフも明確にしておきます。KiwiCampingはiPhone（iOS 26以降）のみで、掲載数はWikiCampsよりずっと少なく、旅行者のレビューはありません。WikiCampsからのインポートもないので、旅行を作り直すには立ち寄り先を保存し直してください。より幅広く選びたい方向けに、<a data-guide=\"wikicamps-alternatives\">WikiCampsの代替アプリ</a>の比較では、KiwiCampingをRankers、CamperMate、Campable、Overland Navigatorと並べています。"
-          ],
-          "tips": [
-            "iPhoneのみ、iOS 26以降",
-            "DOCのデータによるDOCキャンプ場、小屋、トラック",
-            "アカウント不要：iCloudで同期"
-          ]
-        }
-      ],
-      "faq": [
-        [
-          "WikiCampsが動かないのはなぜ？",
-          "多くはアプリが古い、スマートフォンが非対応、またはサインインの問題です。WikiCampsはiOS 26とAndroid 15以降に対応し、2026年3月から2リリース以上古いバージョンをブロックしています。アプリをアップデートし、スマートフォンを再起動し、Wi-Fiの代わりにモバイルデータを試し、VPNをオフにして、位置情報へのアクセスを許可してください。"
-        ],
-        [
-          "旧WikiCampsアプリに戻せる？",
-          "戻せません。WikiCampsは、旧バージョンは2026年3月時点でサポートもアクセスもできなくなったとしており、Windows版も一緒に終了しました。バージョン6はiPhone、iPad、Androidのスマートフォンとタブレットで動き、旅行とお気に入りはWikiCampsアカウント経由で同期されます。"
-        ],
-        [
-          "WikiCampsは誰のもの？",
-          "WikiCampsはRussとCliffが創業し、2021年に観光パークグループのG'day Parksに売却されました。ニュージーランドのApp Storeの開発元はWikiCamps Pty Ltdで、アプリ経由の予約は提携先のBookEasy（Book Australia）が扱います。"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "WikiCampsヘルプ：WikiCampsが正常に動かないときは？"
-        },
-        {
-          "label": "WikiCampsヘルプ：2026年3月からの強制アップデート"
-        },
-        {
-          "label": "WikiCampsヘルプ：バージョンアップデート履歴"
-        },
-        {
-          "label": "WikiCampsヘルプ：旧バージョンのアプリに戻せますか？"
-        },
-        {
-          "label": "WikiCampsヘルプ：WikiCampsにサインインできない"
-        },
-        {
-          "label": "WikiCampsヘルプ：なぜ今はアカウントが必要なのですか？"
-        },
-        {
-          "label": "WikiCampsヘルプ：なぜPC版のWikiCampsはないのですか？"
-        },
-        {
-          "label": "WikiCampsヘルプ：インターネットに接続していないとアプリが起動しない"
-        },
-        {
-          "label": "WikiCamps ニュージーランド版のストア掲載情報（Apple、ニュージーランドストア）"
-        },
-        {
-          "label": "Camps Australia Wide：WikiCampsのG'day Parksへの売却についてのコメント（2021年10月）"
         }
       ],
       "priceTable": null
@@ -9502,12 +9239,6 @@
       ],
       "sources": [
         {
-          "label": "Britz：thl Roadtripアプリ"
-        },
-        {
-          "label": "Travellers Autobarn：CamperMateアプリ"
-        },
-        {
           "label": "Travellers Autobarn：キャンピングカーのリロケーション"
         },
         {
@@ -9521,9 +9252,6 @@
         },
         {
           "label": "NZMCAの会員制度"
-        },
-        {
-          "label": "Rankers Camping NZのアプリ"
         },
         {
           "label": "セルフコンテインド車両（Plumbers, Gasfitters and Drainlayers Board）"
@@ -10389,9 +10117,6 @@
           "label": "First TableのFAQ"
         },
         {
-          "label": "Rankersのフェリー割引"
-        },
-        {
           "label": "InterislanderのBoostSailプロモーション"
         },
         {
@@ -10619,18 +10344,6 @@
         },
         {
           "label": "Holiday Parks New Zealand"
-        },
-        {
-          "label": "Campable：支払い、キャンセル、ゲスト向けFAQ"
-        },
-        {
-          "label": "Rankers Camping NZ：概要"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -10817,24 +10530,6 @@
       ],
       "sources": [
         {
-          "label": "Campable：宿泊者向けFAQ"
-        },
-        {
-          "label": "Campable：お支払い"
-        },
-        {
-          "label": "Campable：キャンセルポリシー"
-        },
-        {
-          "label": "Rankers Camping NZ：概要"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "CamperMate"
-        },
-        {
           "label": "DOC：オンライン予約"
         },
         {
@@ -10845,9 +10540,6 @@
         },
         {
           "label": "Holiday Parks New Zealand"
-        },
-        {
-          "label": "Hipcamp：ニュージーランドのキャンプ"
         }
       ],
       "priceTable": null
@@ -11286,9 +10978,6 @@
           "label": "NZMCA：汚水廃棄場"
         },
         {
-          "label": "NZMCA：NZMCAアプリ"
-        },
-        {
           "label": "Waitaki District Council：キャンピングトレーラーとキャンピングカーの汚水廃棄場"
         },
         {
@@ -11302,18 +10991,6 @@
         },
         {
           "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023（フリーダムキャンプの違反罰則規則）"
-        },
-        {
-          "label": "Britz：thl Roadtripアプリ"
-        },
-        {
-          "label": "Mighty Campers：旅行アプリ"
-        },
-        {
-          "label": "Rankers Camping NZ：概要"
-        },
-        {
-          "label": "WikiCamps New Zealand"
         }
       ],
       "priceTable": null
@@ -11534,12 +11211,6 @@
         },
         {
           "label": "Mountain Safety Council：Plan My Walk"
-        },
-        {
-          "label": "Rankers Camping NZ：概要"
-        },
-        {
-          "label": "CamperMate"
         }
       ],
       "priceTable": null
@@ -11732,9 +11403,6 @@
           "label": "Roadtrippers：About"
         },
         {
-          "label": "CamperMate"
-        },
-        {
           "label": "Wanderlog"
         },
         {
@@ -11745,9 +11413,6 @@
         },
         {
           "label": "Google Maps：エリアをダウンロードして通信なしで使う"
-        },
-        {
-          "label": "WikiCamps"
         }
       ],
       "priceTable": null
@@ -11951,27 +11616,6 @@
         ]
       ],
       "sources": [
-        {
-          "label": "Hipcamp：ニュージーランドのキャンプ"
-        },
-        {
-          "label": "Campable：ゲスト向けFAQ"
-        },
-        {
-          "label": "Campable：支払い"
-        },
-        {
-          "label": "Campable：キャンセルポリシー"
-        },
-        {
-          "label": "Rankers Camping NZ：概要"
-        },
-        {
-          "label": "WikiCamps New Zealand"
-        },
-        {
-          "label": "CamperMate"
-        },
         {
           "label": "DOC：オンライン予約"
         },
