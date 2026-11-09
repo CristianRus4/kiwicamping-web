@@ -14,10 +14,20 @@ import sv from "./sv.json";
 import nb from "./nb.json";
 import cs from "./cs.json";
 import pl from "./pl.json";
+import id from "./id.json";
+import ms from "./ms.json";
+import vi from "./vi.json";
+import th from "./th.json";
+import tr from "./tr.json";
+import fi from "./fi.json";
+import hu from "./hu.json";
+import el from "./el.json";
+import sk from "./sk.json";
+import sl from "./sl.json";
 
 /** Every locale in the registry, live and draft, in registry order. */
-export const localeCodes = ["de", "es", "fr", "it", "nl", "pt", "ja", "ko", "zh-hans", "zh-hant", "da", "sv", "nb", "cs", "pl"] as const;
+export const localeCodes = ["de", "es", "fr", "it", "nl", "pt", "ja", "ko", "zh-hans", "zh-hant", "da", "sv", "nb", "cs", "pl", "id", "ms", "vi", "th", "tr", "fi", "hu", "el", "sk", "sl"] as const;
 export type LocaleCode = (typeof localeCodes)[number];
 
 /** Each locale's translation file, imported statically so the bundle carries it. */
-export const translationFiles: Record<LocaleCode, unknown> = { de, es, fr, it, nl, pt, ja, ko, "zh-hans": zhHans, "zh-hant": zhHant, da, sv, nb, cs, pl };
+export const translationFiles: Record<LocaleCode, unknown> = { de, es, fr, it, nl, pt, ja, ko, "zh-hans": zhHans, "zh-hant": zhHant, da, sv, nb, cs, pl, id, ms, vi, th, tr, fi, hu, el, sk, sl };
