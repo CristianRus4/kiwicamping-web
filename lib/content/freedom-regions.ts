@@ -168,4 +168,58 @@ export const freedomRegionArticles: Article[] = [
       { label: "Wellington City Council: freedom camping", url: "https://wellington.govt.nz/recreation/outdoors/camping-in-wellington" },
     ],
   }),
+  a({
+    slug: "freedom-camping-taupo",
+    title: "Freedom Camping in Taupō 2026: Reid's Farm, the Lake and the Rules",
+    description: "Freedom camping around Taupō in 2026: who may stay where under the council's 2023 bylaw, Hipapatua Reid's Farm, Mangakino and Whakamaru, why most of the lake edge is closed, DOC land near Tūrangi, and fines.",
+    category: "Rules & safety",
+    region: "Taupō",
+    places: ["Taupō", "Reid's Farm", "Mangakino", "Whakamaru", "Tūrangi", "Kinloch", "Five Mile Bay"],
+    imageAlt: "Lake Taupō seen from a grassy lakeside park, with Taupō town on the far shore",
+    related: ["freedom-camping-north-island", "self-contained-campervan-green-warrant", "freedom-camping-rotorua-2026", "north-island-two-week-road-trip"],
+    hubs: ["freedom-camping/turangi", "freedom-camping/tongariro", "camping/central-north-island"],
+    intro:
+      "In the Taupō District a certified self-contained vehicle may freedom camp on council land outside the areas the council's Freedom Camping Bylaw 2023 prohibits, which take in most of the lakefront. Everyone else, tents and vans without a toilet included, is limited to three council areas: Hipapatua Reid's Farm on the Waikato River north of town, Mangakino and Whakamaru. Stays are short, generally three nights, and the sign at each site sets the detail.",
+    sections: [
+      s("The 2023 bylaw in short", [
+        "Taupō District Council adopted its Freedom Camping Bylaw 2023 on 26 September 2023, and it came into force on 16 October 2023, replacing the 2017 bylaw. Its model is simple: a certified self-contained vehicle may camp anywhere on council land except the prohibited areas, and all other freedom camping is confined to the areas in its schedule.",
+        "Since 7 June 2026 only a green warrant makes a vehicle self-contained, so a van on an old blue certificate now sits in the second group with the tents. The bylaw covers council land only; the lake bed belongs to Ngāti Tūwharetoa, and much of the land south and east of the lake is DOC's.",
+      ], ["In force since 16 October 2023", "Certified vehicles: council land outside bans", "Everyone else: three named areas"]),
+      s("Hipapatua Reid's Farm", [
+        "Reid's Farm is the Taupō freedom camping spot most travellers know: a riverside recreation reserve on Huka Falls Road, a few minutes north of town, with toilets, picnic tables and the Waikato River for a swim. Because it has toilets, it is one of the three areas where vehicles without certification may stay, and it is free.",
+        "There is no power and no drinking water, so arrive with full tanks or bottles, and take every scrap of rubbish with you. The site is busy from December to March, it has been closed for periods in the past, and the stay limit is short, so check the council's page before you plan a night around it and keep a holiday park in town as the backup.",
+      ], ["Free, with toilets", "No drinking water", "Busy all summer"]),
+      s("Mangakino and Whakamaru", [
+        "The other two areas for tents and uncertified vehicles are on the hydro lakes of the Waikato River, west of Taupō. Mangakino Recreation Reserve sits on the shore of Lake Maraetai, and Whakamaru Recreation Reserve is on Lake Whakamaru, both under an hour's drive from Taupō.",
+        "They suit a slower route between Taupō and Waitomo or Hamilton on State Highway 30 rather than a base for the lake itself. Both are lakeside reserves with public toilets nearby, and in summer they draw water-skiers and boat campers as well as vans.",
+      ], ["Lake Maraetai at Mangakino", "Lake Whakamaru on SH30", "Good stops toward Waitomo"]),
+      s("Why the lakefront is mostly closed", [
+        "Most of the lake edge and the Waikato River banks around Taupō are public reserves, and the Reserves Act already stops freedom camping on them unless a plan allows it. That covers the long stretch of lakefront parks in town where vans used to park up, so a sea of campers along Lake Terrace is not legal.",
+        "Five Mile Bay, south of town, was once the busiest freedom camping area on the lake, with up to 100 vehicles a night. Much of it returned to Ngāti Tūwharetoa in their 2018 Treaty settlement, and the iwi closed it to vehicles and camping with a rāhui in June 2020. Walkers and cyclists can still use the shore.",
+      ], ["Reserves are closed to camping", "No camping along Lake Terrace", "Five Mile Bay closed since 2020"]),
+      s("DOC land around Tūrangi and Tongariro", [
+        "South of the lake, the Tongariro River, Kaimanawa Forest Park and Tongariro National Park are conservation land. KiwiCamping's DOC data holds 28 DOC freedom camping notices in the Tūrangi district, 21 of them prohibiting camping and 7 restricting it to self-contained vehicles, including the large Whakaipo amenity area on the lake's north-western shore.",
+        "For a tent or an uncertified van, the dependable choice is a DOC campsite. The central North Island has 14 of them in KiwiCamping's data, nine of them free, many in Kaimanawa Forest Park, with adult rates from $10 where a fee applies. Our North Island guide covers the volcanic plateau beyond them.",
+      ], ["28 DOC notices near Tūrangi", "Whakaipo: self-contained only", "Nine free DOC campsites in the region"]),
+      s("Waste, water and fires", [
+        "Certified vehicles should arrive with empty tanks and leave the same way: the town has public dump stations, and KiwiCamping pins them so you can find the nearest before you settle in. Never empty grey water onto the ground at a reserve, which is an $800 offence and the fastest way to get a site closed.",
+        "The Taupō region dries out in summer and fire restrictions are common. Check the fire season for the area before lighting a gas cooker outside the van, and do not light open fires at council or DOC freedom camping areas.",
+      ], ["Arrive with empty tanks", "Grey water on the ground is $800", "Check the fire season in summer"]),
+      s("Fines", [
+        "The council uses the national fees. Camping where the bylaw prohibits it, or at a site for certified vehicles in a van without a green warrant, costs $400; a warrant card not on show is $200; refusing to leave when an officer asks is $600; and leaving waste or damaging the area is $800.",
+        "Notices for rental vehicles go to the hire company, which passes them on to the hirer. Expect patrols around town and at Reid's Farm through the summer.",
+      ], ["$400 for most breaches", "$800 for waste or damage", "Rentals pass fines on"]),
+      s("Using KiwiCamping around Taupō", [
+        "KiwiCamping maps the freedom camping areas, DOC campsites, holiday parks and dump stations around the lake, and its filters show only the places that take your vehicle or a tent. A council area can close at short notice, so treat the map as the plan and the sign as the rule.",
+        "Save Reid's Farm and a holiday park side by side in a collection, then build the stop into a trip with dates, the drive from Rotorua or Tongariro and the forecast for each night. Free to download, with in-app purchases.",
+      ], ["Filter for tents or uncertified vans", "Save a holiday park as backup", "Check the sign on arrival"], undefined, true),
+    ],
+    sources: [
+      { label: "Taupō District Council: freedom camping", url: "https://www.taupodc.govt.nz/recreation/freedom-camping" },
+      { label: "Taupō District Council: Freedom Camping Bylaw 2023", url: "https://www.taupodc.govt.nz/repository/libraries/id:25026fn3317q9slqygym/hierarchy/Rules-regulations-and-licences/Bylaws/2023%20Freedom%20Camping%20Bylaw%20%28215KB%29.pdf" },
+      { label: "Rotorua Daily Post: Five Mile Bay closed to freedom campers (June 2020)", url: "https://www.nzherald.co.nz/rotorua-daily-post/news/taupo-iwi-banish-freedom-campers-from-five-mile-bay/BM7MMRVACXQ72HUHCYGPSFQUS4" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];

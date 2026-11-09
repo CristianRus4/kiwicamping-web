@@ -599,4 +599,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you freedom camp in the North Island?", "Yes, in a certified self-contained vehicle, wherever the council's bylaw or DOC's notice allows it. Limits are short: two nights in Auckland, Thames-Coromandel and Tauranga, three in Waikato District and New Plymouth, four a month at Wellington's two sites."],
     ["Where can you freedom camp in the North Island without a self-contained vehicle?", "Only at council sites set aside for it, such as Whangārei's listed sites, Onewhero and Te Kauwhata Domains in Waikato, Reid's Farm near Taupō and Lake Rotomanu in New Plymouth, or on DOC land where no notice requires certification. Otherwise use a DOC campsite or a holiday park."],
   ],
+  "freedom-camping-taupo": [
+    ["Can you freedom camp in Taupō?", "Yes, in a certified self-contained vehicle on council land outside the areas the 2023 bylaw prohibits, which include most of the lakefront reserves. Without certification, or in a tent, only Hipapatua Reid's Farm, Mangakino and Whakamaru are open to you."],
+    ["Is Reid's Farm free?", "Yes. Hipapatua Reid's Farm on Huka Falls Road is a free council area with toilets but no drinking water, and the stay is short. It is busy all summer, so keep a paid campground in town as a fallback."],
+  ],
 };

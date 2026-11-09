@@ -1049,6 +1049,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-taupo.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-taupo-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-taupo.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-tauranga-2026.webp": {
     "width": 1600,
     "height": 900,
