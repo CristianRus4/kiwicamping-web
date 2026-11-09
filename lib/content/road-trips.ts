@@ -512,4 +512,60 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "one-week-campervan-itinerary-new-zealand",
+    title: "1 Week Campervan Itinerary New Zealand: A North Island Loop",
+    description: "A 7-day New Zealand campervan itinerary: a North Island loop from Auckland through Waitomo, Rotorua and Taupō with short drives, rest time and where to camp each night.",
+    category: "Road trips",
+    region: "North Island",
+    places: ["Auckland", "Waitomo", "Rotorua", "Taupō", "Tauranga", "Hahei"],
+    imageAlt: "Champagne Pool at Wai-O-Tapu, an orange-rimmed geothermal pool under steam",
+    related: ["10-day-campervan-itinerary-new-zealand", "two-week-camper-itinerary-new-zealand", "north-island-two-week-road-trip", "new-zealand-driving-day-planner", "campervan-budget-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/waikato", "camping/central-north-island", "camping/bay-of-plenty"],
+    intro:
+      "One week is enough to see a good slice of New Zealand if you pick one island and keep the drives short. This 7-day campervan itinerary is a North Island loop from Auckland: caves and Hobbiton, Rotorua's geothermal parks, Lake Taupō, the Bay of Plenty coast and a last night on the Coromandel, with no day longer than about four hours behind the wheel. Below are the day-by-day plan, how to pick a vehicle and a pick-up point, what to book first, and the version for the South Island.",
+    sections: [
+      sec("Before you go: pick one island", [
+        "Seven days is a short time in New Zealand, and the biggest mistake is trying to cross Cook Strait. The ferry day alone eats most of a day, and the South Island needs at least ten days to feel unhurried. Pick the North Island for a first week if you land in Auckland, and keep the South Island for a trip of ten days or more.",
+        "Pick up and drop off at the same place to avoid a one-way fee, and book the vehicle and your first and last nights before you leave home. The campervan budget guide shows what a week costs, and the driving day planner helps you check that each day is realistic for your vehicle.",
+      ], ["One island for a one-week trip", "Return the vehicle where you collected it", "Book the first and last nights early"]),
+      sec("Days 1 to 3: Waitomo, Hobbiton and Rotorua", [
+        "Day 1: collect the vehicle in Auckland, stock up and drive south through the Waikato to Hobbiton, about two hours away. Book the tour ahead and spend the night around Matamata. Day 2: cross to Waitomo for the caves, which take a couple of hours, then drive to Rotorua, about 2 hours, for a night at a holiday park with thermal pools. The Auckland to Waitomo and Hobbiton guide has the details for these two days.",
+        "Day 3: spend the day in Rotorua. The geothermal parks, the redwoods and the lakefront all deserve time, and the Māori cultural experiences in the evening are worth booking. Treat geothermal fences as firm boundaries, and keep a second night in Rotorua if the weather turns wet.",
+      ], ["Day 1: Hobbiton, night in Matamata", "Day 2: Waitomo caves, night in Rotorua", "Day 3: a full day in Rotorua"]),
+      sec("Days 4 to 7: Taupō, the coast and the Coromandel", [
+        "Day 4: drive an hour south to Taupō for the lake, Huka Falls and a hot pool, and spend the night there. The Auckland to Taupō guide covers the stops and the camping rules. Day 5: head north-east to Tauranga and Mount Maunganui, about two hours, and climb Mauao for sunset.",
+        "Day 6: cross to the Coromandel via Waihi and Karangahake Gorge, and spend the night near Hahei or Whitianga. Day 7: walk to Cathedral Cove if access allows, then drive back to Auckland, about three hours, leaving a buffer before any flight. The Coromandel to Rotorua guide has more on the peninsula.",
+      ], ["Day 4: Taupō and Huka Falls", "Day 5: Tauranga and Mauao", "Day 6 and 7: Coromandel and home"], {
+        caption: "The loop at a glance, with approximate driving times for each day. Check live traffic before you leave.",
+        head: ["Day", "Route", "Driving"],
+        rows: [
+          ["1", "Auckland to Matamata (Hobbiton)", "About 2 hours"],
+          ["2", "Matamata to Waitomo to Rotorua", "About 3 hours"],
+          ["3", "Rotorua, no driving", "Local only"],
+          ["4", "Rotorua to Taupō", "About 1 hour"],
+          ["5", "Taupō to Tauranga", "About 2.5 hours"],
+          ["6", "Tauranga to the Coromandel", "About 2.5 hours"],
+          ["7", "Coromandel to Auckland", "About 3 hours"],
+        ],
+      }),
+      sec("Where to sleep each night", [
+        "Holiday parks are the easy choice in Rotorua, Taupō and Tauranga, with power, showers and kitchens, and they book out in summer and on long weekends, so reserve each one. The holiday parks guide explains what to look for. On the Coromandel, the east coast campgrounds near Hahei fill over Christmas and January, often booked months ahead.",
+        "Freedom camping is more limited than people expect, and most popular spots near the towns on this loop are closed or restricted. The freedom camping rules guide and the green warrant guide explain what applies, and each council's own map is the final word. A vehicle that is not certified self-contained has very few options.",
+      ], ["Book every holiday park in summer", "Coromandel beaches fill at Christmas", "Check each council's map for freedom camping"]),
+      sec("The South Island version", [
+        "If you land in Christchurch, the same one-week idea works in the south. Drive to Lake Tekapo and Aoraki Mount Cook on days 1 and 2, cross the Lindis Pass to Wānaka and Queenstown on days 3 and 4, take a day trip to Milford Sound or Te Anau on day 5, then drive back to Christchurch over two days. The Christchurch to Tekapo and Aoraki guide and the Christchurch to Te Anau guide cover most of this.",
+        "The South Island drives are longer and the weather less forgiving, so take the ten-day version if you can. The 10-day campervan itinerary adds the West Coast and Arthur's Pass without rushing the days.",
+      ], ["Christchurch to Tekapo and Aoraki first", "Lindis Pass to Wānaka and Queenstown", "Take ten days if you can"]),
+      sec("Planning your week in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+      { label: "DOC: places to go in the Central North Island", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
