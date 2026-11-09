@@ -811,6 +811,20 @@
       }
     ]
   },
+  "/images/articles/doc-campsites-sell-out-summer-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/doc-campsites-sell-out-summer-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/doc-campsites-sell-out-summer-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/doc-hut-great-walk-booked-out.webp": {
     "width": 1600,
     "height": 900,

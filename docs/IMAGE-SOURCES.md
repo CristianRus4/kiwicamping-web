@@ -170,3 +170,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-te-anau-drive-guide` | Lake Te Anau 02.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_02.jpg) |
 | `one-week-campervan-itinerary-new-zealand` | Champagne Pool - Wai-O-Tapu Thermal Wonderland - Waikato Region, NZ - DSC06336.jpg | Daderot | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Champagne_Pool_-_Wai-O-Tapu_Thermal_Wonderland_-_Waikato_Region,_NZ_-_DSC06336.jpg) |
 | `10-day-campervan-itinerary-new-zealand` | Lindis Pass, Otago, New Zealand.jpg | Charlie Mitchell | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_Otago,_New_Zealand.jpg) |
+| `doc-campsites-sell-out-summer-new-zealand` | Totaranui Beach.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Totaranui_Beach.jpg) |

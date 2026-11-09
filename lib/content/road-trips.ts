@@ -627,4 +627,54 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "doc-campsites-sell-out-summer-new-zealand",
+    title: "DOC Campsites That Sell Out Over Summer (and What to Book Instead)",
+    description: "Which DOC campsites book out first over a New Zealand summer: Tōtaranui, Waikawau Bay, Purakaunui Bay and more, when bookings open, how to improve your odds and where to go when they are full.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Tōtaranui", "Waikawau Bay", "Purakaunui Bay", "Papatowai", "Momorangi Bay", "Kerr Bay"],
+    imageAlt: "Totaranui Beach in Abel Tasman National Park, golden sand curving beneath forested hills",
+    related: ["christmas-summer-camping-new-zealand-2026-27", "doc-hut-great-walk-booked-out", "doc-campsites-new-zealand-guide", "nz-great-walks-2026-27-huts-campsites-booking-fees", "school-public-holidays-new-zealand-2027", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/nelson-tasman", "camping/coromandel", "camping/southland"],
+    intro:
+      "A handful of DOC campsites book out first every summer, and the same ones sell out over Christmas, January and Easter year after year: Tōtaranui in Abel Tasman, Waikawau Bay on the Coromandel, and a few busy beach campsites in the Catlins. DOC releases bookings in May for the season ahead, keeps no waiting list, and sells each night first come, first served. Below are the campsites to book first, when to book them, how to improve your odds when they are full, and where to go instead.",
+    sections: [
+      sec("The campsites that go first", [
+        "Tōtaranui is the best known. It has 269 non-powered sites behind one of the best beaches in the country, DOC says to book well in advance for 1 December to 28 February and public holiday weekends, and a minimum fee of $40 per night applies from 26 December to 8 February. Waikawau Bay on the Coromandel is DOC's largest campsite, and DOC says bookings are essential in summer and at Easter.",
+        "Other campsites follow the same pattern. Purakaunui Bay and Papatowai in the Catlins need bookings, and the DOC pass that gives discounts is excluded at Tōtaranui, Momorangi Bay, Pelorus Bridge, Peel Forest and Trounson Kauri Park from 26 December to 8 February, a good clue to where the pressure is. Kerr Bay in Nelson Lakes is excluded from 19 October to 30 April for the same reason.",
+      ], ["Tōtaranui and Waikawau Bay go first", "Catlins beaches need bookings", "Pass exclusions show the busiest sites"], {
+        caption: "Busy DOC campsites and the peak-season notes DOC publishes, as set out in our guide to camping over Christmas. Check each DOC page for the current rule.",
+        head: ["Campsite", "Where", "Peak-season note"],
+        rows: [
+          ["Tōtaranui", "Abel Tasman", "Book well ahead for December to February; minimum fee from 26 December to 8 February"],
+          ["Waikawau Bay", "Coromandel", "Bookings essential in summer and at Easter"],
+          ["Purakaunui Bay and Papatowai", "The Catlins", "Bookings required"],
+          ["Momorangi Bay and Pelorus Bridge", "Marlborough", "Pass excluded over Christmas"],
+          ["Kerr Bay", "Nelson Lakes", "Pass excluded 19 October to 30 April"],
+        ],
+      }),
+      sec("When bookings open and how to improve your odds", [
+        "DOC opens its campsite bookings for the season in May, with different opening days by region, and bookings run through to the end of June the following year. The best nights go in the first days, so check DOC's opening dates in April and set a reminder. Have your DOC account ready, and pay promptly, because a booking only counts once the payment is confirmed.",
+        "If you are late, you still have options. Midweek nights, the shoulder weeks either side of the school holidays and February and March are much easier than the first fortnight of January. Cancellations release beds back onto sale, and the booked-out guide explains how DOC's fees step up before a stay, which is when people cancel. Check the booking site often, especially 15 and 3 days before your date.",
+      ], ["Bookings open in May for the season", "Midweek and February are easier", "Check for cancellations 15 and 3 days out"]),
+      sec("What to do when your campsite is full", [
+        "Look at the next campsite along. The Abel Tasman has other campgrounds and holiday parks in Marahau, Kaiteriteri and Motueka, the Coromandel has other DOC and private sites, and the Catlins has holiday parks in Owaka and Papatowai. The holiday parks guide explains what to expect, and the freedom camping rules guide explains why freedom camping is rarely the answer in the busiest areas.",
+        "Campsites that cannot be booked work first come, first served, and DOC advises arriving early in the day. Do not rely on one of these at Christmas without a backup, and have a second option within an hour's drive. A site with no power and few facilities will fill more slowly than one at a beach.",
+      ], ["Try the next campsite along", "First come, first served sites fill by lunchtime", "Always have a backup within an hour"]),
+      sec("Quieter DOC campsites worth knowing", [
+        "Many DOC campsites are far quieter than the famous ones, and the DOC campsites guide explains the categories. Look at the scenic and standard campsites in the hubs for the region you are visiting, which list the sites with their fees and facilities. The quietest are the ones with no road access or a long gravel approach.",
+        "Be ready for simpler facilities: a long drop toilet, no power and often no running water. In return you get a site that is cheaper, quieter and often better placed than the crowded ones. The Coromandel, Nelson-Tasman and Southland hubs below list the places to start.",
+      ], ["Look at the regional hubs", "Gravel roads keep the crowds away", "Expect long drops and no power"]),
+      sec("Planning around sold-out sites in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, so you can see the alternatives around a full campsite on one map. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
+        "It does not show live availability, so keep the DOC booking site open when you plan.",
+      ], ["Save a backup beside each booking", "Forecast at each stop", "Check availability on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Tōtaranui campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/things-to-do/campsites/totaranui-campsite/" },
+      { label: "DOC: book a campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+      { label: "DOC: campsites in New Zealand", url: "https://www.doc.govt.nz/campsites" },
+    ],
+  }),
 ];
