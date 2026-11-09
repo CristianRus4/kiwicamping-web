@@ -263,4 +263,53 @@ export const k7Articles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-wanaka-drive-guide",
+    title: "Christchurch to Wānaka Road Trip: Tekapo, Omarama and the Lindis Pass",
+    description: "Christchurch to Wānaka by campervan: about 420 km and 5.5 to 6 hours via Lake Tekapo, Twizel, Omarama and the Lindis Pass, with stops, winter notes and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Geraldine", "Lake Tekapo", "Twizel", "Omarama", "Lindis Pass", "Wānaka"],
+    imageAlt: "Lake Tekapo's turquoise water with mountains behind",
+    related: ["christchurch-tekapo-aoraki-road-trip", "christchurch-to-queenstown-drive-guide", "wanaka-haast-pass-route", "freedom-camping-mackenzie-2026", "winter-driving-new-zealand-campervan", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "camping/otago"],
+    intro:
+      "Christchurch to Wānaka is about 420 kilometres and 5.5 to 6 hours of driving, through the Mackenzie Country, past Lake Tekapo and the blue of Lake Pukaki and over the Lindis Pass into Central Otago. It is one of the best drives in the South Island, and two days turns it from a transfer into a trip. This guide gives the route, the stops and where to camp.",
+    sections: [
+      s("Route, distance and time", [
+        "State Highway 1 runs south from Christchurch across the Canterbury Plains to Timaru, with the cross-country alternative through Geraldine and Fairlie on State Highway 79 to join the Mackenzie Country at Burkes Pass. Then State Highway 8 continues through Tekapo and Twizel to Omarama, over the Lindis Pass and down to Tarras, where you turn for Wānaka.",
+        "The whole drive is about 420 kilometres, with Lake Tekapo roughly 225 kilometres and three hours from Christchurch. Add stops and the day becomes eight or nine hours, so a night in Tekapo or Twizel makes it comfortable. The driving day planner helps you set days to suit your vehicle.",
+      ], ["About 420 km, 5.5 to 6 hours of driving", "Tekapo is about 3 hours from Christchurch", "Stay a night in Tekapo or Twizel"]),
+      s("Geraldine, Fairlie and Burkes Pass", [
+        "Geraldine, about two hours from Christchurch, is the first sensible stop, with craft shops, cafes and a good bakery. Fairlie is known for its pies and is the gateway to the Mackenzie Basin, and beyond it the road climbs to Burkes Pass, where the landscape opens into high tussock country.",
+        "The roads here carry heavy summer traffic and logging trucks, and overtaking places are limited. Keep to the speed limit, pull over when faster traffic builds up behind you, and check the NZTA Journey Planner for roadworks.",
+      ], ["Geraldine for a first stop", "Fairlie is known for pies", "Pull over for faster traffic"]),
+      s("Lake Tekapo and Lake Pukaki", [
+        "Lake Tekapo is the best-known stop, with the milky turquoise lake, the Church of the Good Shepherd and a dark sky reserve that makes it one of the best places for stargazing in the country. The hot pools above the town are a good way to end a long day, and the Mt John walk gives wide views.",
+        "Lake Pukaki, 45 minutes south, is a deeper blue still, with Aoraki Mount Cook framed at the far end of the lake. The lookout and the roadside stops are free, and the village of Aoraki Mount Cook is a side trip of about an hour each way. The Christchurch, Tekapo and Aoraki road trip guide covers the mountain in detail.",
+      ], ["Stargazing at Tekapo", "Pukaki is a deeper blue", "Aoraki Mount Cook is an hour off the road"]),
+      s("Twizel, Omarama and the Lindis Pass", [
+        "Twizel is the service town of the Mackenzie, with fuel, supermarkets and holiday parks, and is a good place to stock up. Omarama, 45 minutes on, has the clay cliffs, a short walk from the road, and is a centre for gliding. Fuel up in Twizel or Omarama, because the next stretch has few options.",
+        "State Highway 8 then climbs the Lindis Pass at 971 metres, with golden tussock slopes and open views, and drops into the Lindis Valley. The pass can close for snow and ice in winter, and it is exposed to wind, so check conditions before you leave Omarama and carry chains in the cold months. The winter driving guide explains the rules.",
+      ], ["Fuel up in Twizel or Omarama", "Lindis Pass is 971 m", "Carry chains in winter"]),
+      s("Tarras and arriving in Wānaka", [
+        "At Tarras, a tiny township with a cafe and a gallery, the road splits. The way to Wānaka continues on the Tarras-Wānaka road past orchards and vineyards, with Lake Hāwea and the long Hāwea lookout an optional detour. Wānaka is a lakeside town with a relaxed feel, good food and a lake that is cold even in summer.",
+        "Roys Peak and Rob Roy are the best-known walks, and Wānaka is also the gateway to the Haast Pass and the West Coast. The Wānaka to Haast Pass guide takes the trip on from here. Freedom camping around Wānaka is tightly controlled, so book a campground or holiday park in summer.",
+      ], ["Tarras road leads to Wānaka", "Roys Peak and Rob Roy walks", "Book Wānaka ahead in summer"]),
+      s("Where to camp", [
+        "Holiday parks at Geraldine, Fairlie, Tekapo, Twizel and Omarama are the easy choice, with powered sites and showers, and many have views of the lakes and the mountains. Book ahead for Tekapo and Twizel in summer and over school holidays, since they fill early.",
+        "Freedom camping in the Mackenzie is restricted to a few sites, and some need a certified self-contained vehicle. The Mackenzie freedom camping guide explains the rules. Nights are cold on the plateau even in summer, and winter nights can be well below freezing, so bring a warm sleeping layer.",
+      ], ["Holiday parks in each town", "Book Tekapo and Twizel ahead", "Cold nights on the plateau"]),
+      s("Planning the drive in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this route, with filters for campervan access and facilities. Save the stops you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "Mackenzie Tourism: visit the Mackenzie", url: "https://www.mackenzienz.com/" },
+      { label: "Lake Wānaka Tourism: visit Wānaka", url: "https://www.lakewanaka.co.nz/" },
+      { label: "DOC: Canterbury and Otago", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/" },
+    ],
+  }),
 ];
