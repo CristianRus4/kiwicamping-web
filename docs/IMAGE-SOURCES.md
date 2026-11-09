@@ -189,3 +189,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-akaroa` | Akaroa, Banks Peninsula, Canterbury, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa,_Banks_Peninsula,_Canterbury,_New_Zealand_05.jpg) |
 | `freedom-camping-paihia` | The pier of Paihia,New Zealand.jpg | Prof.Chen Hualin | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:The_pier_of_Paihia,New_Zealand.jpg) |
 | `camping-in-taupo` | Lake Taupō.jpg | Alexander Gerst | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taup%C5%8D.jpg) |
+| `camping-in-kaikoura` | Mt Fyffe, Kaikoura Ranges, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mt_Fyffe,_Kaikoura_Ranges,_New_Zealand.jpg) |
