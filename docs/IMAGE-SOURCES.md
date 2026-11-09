@@ -239,3 +239,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `glamping-new-zealand` | Bay of islands at Waitangi, New Zealand.jpg | Alan Vernon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Bay_of_islands_at_Waitangi,_New_Zealand.jpg) |
 | `great-barrier-island-camping` | Pa Beach, Great Barrier Island, NZ.jpg | Nurg | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Pa_Beach,_Great_Barrier_Island,_NZ.jpg) |
 | `punakaiki-oparara-basin-camping` | Punakaiki Pancake Rocks - December 2025.jpg | Jun Jie Yam | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Punakaiki_Pancake_Rocks_-_December_2025.jpg) |
+| `eco-stays-near-new-zealand-cities` | Native Bush Waitakere Ranges.jpg | Ingolfson | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Native_Bush_Waitakere_Ranges.jpg) |

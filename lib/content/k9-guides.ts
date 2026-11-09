@@ -105,4 +105,53 @@ export const k9Articles: Article[] = [
       { label: "MetService: West Coast weather and warnings", url: "https://www.metservice.com/" },
     ],
   }),
+  a({
+    slug: "eco-stays-near-new-zealand-cities",
+    title: "Eco, Sustainable and Treehouse Stays Near New Zealand's Cities",
+    description: "Eco lodges, off-grid cabins, treehouses and farm stays within a short drive of Auckland, Wellington, Christchurch, Dunedin and Queenstown: what sustainable really means, how to spot greenwashing and how to fit a night into a campervan trip.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Auckland", "Waitākere Ranges", "Waiheke Island", "Wellington", "Banks Peninsula", "Otago Peninsula"],
+    imageAlt: "Native bush in the Waitākere Ranges west of Auckland",
+    related: ["glamping-new-zealand", "camping-in-auckland", "camping-in-wellington", "camping-in-christchurch", "responsible-camping-new-zealand", "self-contained-campervan-green-warrant"],
+    hubs: ["camping"],
+    intro:
+      "You do not have to go deep into the mountains for a night among the trees. Every main centre has native bush, a harbour or a peninsula within an hour or so, and with it a small collection of eco lodges, off-grid cabins, treehouses and farm stays. They suit a treat night between campervan nights, a short break from the city or a first taste of camping, and they are usually quieter and more private than a holiday park.",
+    sections: [
+      s("What counts as an eco stay", [
+        "There is no single definition. At one end is a treehouse or tiny house on a farm, built from reclaimed timber, with solar panels and a composting toilet. At the other is a lodge with a hot tub and a restaurant that happens to use rainwater. Most sit somewhere between, with a few shared habits: low-impact buildings, solar or hydro power, rainwater collection, composting and recycling, and hosts who care about the land around them.",
+        "A treehouse is usually a cabin raised on stilts or built around a tree, reached by steps or a short walk, with a deck and a view into the canopy. Some have a private bathroom and a kitchen, and others share facilities, so read the listing before you book. Many are on private land and not part of DOC's network.",
+      ], ["Solar, rainwater and composting are common", "Treehouses: raised cabins on private land", "Read what is included"]),
+      s("Where to look near the cities", [
+        "Near Auckland, the Waitākere Ranges and the west coast have bush cabins, Waiheke Island has vineyard and coastal stays, and the Matakana and Kawau area to the north has farm and bay stays. Near Wellington, Kāpiti, the Wairarapa and the Hutt valleys have forest cabins, and the capital's Zealandia sanctuary is a short drive from the city.",
+        "Near Christchurch, Banks Peninsula and Akaroa have farm and bay stays with sea views, and Hanmer Springs and the Canterbury foothills are a short drive inland. Near Dunedin, the Otago Peninsula has wildlife and coastal stays, and near Queenstown, Glenorchy and the Wakatipu basin have lodges and cabins under the mountains.",
+      ], ["Auckland: Waitākere, Waiheke, Matakana", "Wellington: Kāpiti and the Wairarapa", "Christchurch and Dunedin: the peninsulas"]),
+      s("How to spot the real thing", [
+        "Eco is a loose word, and some stays use it as decoration. Look for specifics: how the power is made, where the water comes from, what happens to waste, and whether the host mentions a certification. Qualmark, New Zealand's official tourism quality mark, includes a sustainability award with levels, and some operators measure and offset their carbon through a certified programme. A listing that says nothing concrete is a hint to ask.",
+        "Ask what the stay actually asks of you, too. Composting toilets, limited hot water, no power points in the cabin, a steep path from the car and no mobile coverage are all normal, and they are part of the point. If a stay suits your group, a short question to the host before booking saves a disappointment.",
+      ], ["Look for specifics, not just the word eco", "Qualmark has a sustainability award", "Ask what the stay asks of you"]),
+      s("Cost and when to book", [
+        "Prices run from roughly the cost of a holiday park cabin for a simple treehouse or cabin to several hundred dollars a night for a lodge with a view. They rise in summer, over school holidays and at weekends, and popular treehouses book months ahead, since there are only one or two at most sites. Check the operator's own page for the current price, the minimum stay and the cancellation terms.",
+        "Midweek and shoulder-season nights are cheaper and quieter, and some stays close for winter. The school and public holiday dates guide shows when the peak weeks fall, and the glamping guide covers the wider range of tents, domes and cabins.",
+      ], ["Weekends and school holidays are the peak", "Book treehouses months ahead", "Midweek is cheaper"]),
+      s("Fitting a night into a campervan trip", [
+        "An eco stay between campervan nights gives you a proper bed, a hot shower and time without driving, and the city is close for the handover or the next leg. If you are in a rental, check the access first, since many of these places are down narrow gravel roads or up steep driveways where a large van is a problem. Ask the host about parking, or park at the bottom and walk.",
+        "If you want the benefits without the cost, a holiday park near the city with a cabin is cheaper, and the camping guides for Auckland, Wellington and Christchurch cover the options. The responsible camping guide covers how to leave a place the way you found it, wherever you sleep.",
+      ], ["Check road access for a van", "Ask about parking", "Holiday park cabins are cheaper"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and campervan access, so you can see the options around each city and plan the van nights either side of an eco stay. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop. It does not list private treehouses and eco lodges, so book those with the operator.",
+        "Free to download, with in-app purchases.",
+      ], ["Save the van nights around your stay", "Add them to a trip with dates", "Private stays are booked with the operator"], true),
+    ],
+    faq: [
+      ["What is an eco stay in New Zealand?", "A stay that tries to keep its impact low, often with solar power, rainwater, composting toilets and local materials. There is no single definition, so look for specifics and ask the host."],
+      ["Are there treehouse stays near the main cities?", "Yes. Auckland, Wellington, Christchurch, Dunedin and Queenstown all have treehouses, cabins and lodges within a short drive. Most are on private land and book months ahead for summer."],
+    ],
+    sources: [
+      { label: "Qualmark: New Zealand's official tourism quality mark", url: "https://www.qualmark.co.nz/" },
+      { label: "Tiaki Promise: care for New Zealand", url: "https://www.tiakinewzealand.com/" },
+      { label: "Tourism New Zealand: places to stay", url: "https://www.newzealand.com/" },
+      { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];
