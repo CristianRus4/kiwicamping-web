@@ -40,8 +40,8 @@ export const campingBaseArticles: Article[] = [
         "In winter the town is quiet and the nights are cold, but Tongariro's ski fields bring visitors on weekends, so the holiday parks stay busy near the mountain. A night at Taupō also makes a convenient break on the road between Auckland and Wellington, as the Auckland to Taupō drive guide shows.",
       ], ["Christmas to January is the peak", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027", "Event weekends fill the town"]),
       s("Using KiwiCamping around Taupō", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park and a DOC campsite for each night, and order them in a trip with dates and notes.",
-        "The trip adds up the distance between legs and shows a forecast at each stop, which helps when you are choosing between the lake and the mountain. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "On the KiwiCamping map, Taupō's lakefront holiday parks sit beside the DOC campsites towards Tūrangi and the dump stations on the edge of town, and a filter hides anything a campervan cannot reach. Pick one park and one DOC site per night and drop them into a dated trip.",
+        "Each leg of that trip comes with its distance and the forecast at the far end, a quick way to decide whether tomorrow is a lake day or a Tongariro day. The places you saved still open when the signal fades in the Kaimanawa hills; maps and photos wait until you are back in coverage. KiwiCamping is free, with in-app purchases.",
       ], ["Save a holiday park and a DOC campsite", "Check the forecast for Tongariro", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -87,8 +87,8 @@ export const campingBaseArticles: Article[] = [
         "Book a holiday park a few weeks ahead in summer, and earlier for a beachfront tent site. In winter the parks have space and the weather on the coast can be sharp, so check the forecast for wind and swell before you plan an exposed site.",
       ], ["Book a few weeks ahead in summer", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027", "Check the wind in winter"]),
       s("Using KiwiCamping around Kaikōura", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park for the night, add it to a trip between Picton and Christchurch with its date and a note, and read the distance on each leg.",
-        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Kaikōura's holiday parks, the DOC sites up the coast and the town's dump station are all marked in KiwiCamping, and the campervan filter strips out the walk-in sites. Add your Kaikōura night to a Picton–Christchurch trip, with the date and a note about the whale-watch booking.",
+        "You then see how far it is to each end of State Highway 1 and what the sea and sky are forecast to do in Kaikōura. Coverage gaps on the coast road do not matter for the saved park details, though the map itself needs a connection. The app costs nothing to install and sells upgrades inside.",
       ], ["Save a holiday park for the night", "Add it to a trip with its date", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -121,7 +121,7 @@ export const campingBaseArticles: Article[] = [
       ], ["No freedom camping in Paihia", "Holiday parks take tents and campervans", "Close to the wharves and Waitangi"]),
       s("Holiday parks around Paihia", [
         "Paihia TOP 10 Holiday Park sits in its own bay just south of Paihia township, with cabins and camping and motorhome sites. Waitangi Holiday Park is on the banks of the Waitangi River near Te Tii Beach and is the one within walking distance of Paihia's centre, the Treaty Grounds and the supermarket. Bay of Islands Holiday Park is on Puketona Road near Haruru Falls, between Paihia and Kerikeri, with tent and power sites alongside its cabins, and Beachside Holiday Park is another option in its own bay.",
-        "Which suits you depends on how you plan to move. If you will walk to the wharf for a boat trip, take Waitangi or the Paihia park, and if you are continuing to Kerikeri or north, the Haruru Falls side puts you on the road. The guide to holiday parks in New Zealand explains site types and booking.",
+        "Which suits you depends on how you plan to move. If you will walk to the wharf for a boat trip, take Waitangi or the Paihia park, and if you are continuing to Kerikeri or north, the Haruru Falls side puts you on the road. Our holiday parks guide covers powered and unpowered sites and when to book in Northland.",
       ], ["Waitangi: walk to town", "Paihia TOP 10: its own bay", "Haruru Falls: on the road north"]),
       s("DOC campsites in the bay and Northland", [
         "DOC runs campsites on Urupukapuka Island, reached by ferry or water taxi, which suit a night away from the road and a day of walking and kayaking. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites across Northland, 11 of them bookable online through DOC, with adult nightly rates listed from $10 to $23. Uretiti Beach Campsite, south of Whangārei, is the biggest at 300 sites, and 10 of the 14 have campervan access.",
@@ -132,8 +132,8 @@ export const campingBaseArticles: Article[] = [
         "In winter the parks have space, the days are shorter and rain is common, so a cabin is a sensible fallback for a wet night. The drive from Auckland takes around three to four hours, covered in the Auckland to Bay of Islands drive guide.",
       ], ["Peak: Christmas to Easter", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027", "Cabin as a wet-night fallback"]),
       s("Using KiwiCamping around Paihia", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park for each night and order them in a trip with dates, then read the distance between Paihia, Kerikeri and the road north.",
-        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "In the Bay of Islands, KiwiCamping marks the parks at Paihia, Waitangi and Haruru Falls, the DOC campsites further out and the nearest dump stations, filtered for vans if you want. Build a dated trip from your Paihia nights and see the kilometres to Kerikeri and the Far North road.",
+        "Every stop in that trip gets its own forecast, handy before a boat day on the bay. Northland's back roads drop signal, but the parks you saved keep their details on the phone; the map and photos reload later. Download it free; extras are in-app purchases.",
       ], ["Save a holiday park for each night", "Plan Cape Reinga as its own leg", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -166,7 +166,7 @@ export const campingBaseArticles: Article[] = [
       ], ["Township closed to freedom camping", "Some sites close from 23 December", "Tents: holiday park only"]),
       s("The holiday park at the lake", [
         "Lakes Edge Holiday Park, formerly Lake Tekapo Motels and Holiday Park, sits on Lakeside Drive on the lake shore, with powered and unpowered sites as well as motel units. It is a short walk from the lake, the village and the Tekapo Springs hot pools, and it is the camping option closest to the water. It is popular in summer and for the autumn colours, so book well ahead.",
-        "The guide to holiday parks in New Zealand explains site types, power and booking. If the lakefront park is full, the nearest alternatives are the camping grounds and holiday parks at Twizel and at Lake Pukaki's end of the road to Aoraki Mount Cook, each under an hour away.",
+        "Our holiday parks guide explains site types, power and booking. If the lakefront park is full, the nearest alternatives are the camping grounds and holiday parks at Twizel and at Lake Pukaki's end of the road to Aoraki Mount Cook, each under an hour away.",
       ], ["Lakes Edge: lakefront, Lakeside Drive", "Walk to the village and hot pools", "Twizel is the nearest alternative"]),
       s("DOC campsites in Canterbury", [
         "KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites across Canterbury, 6 of them free and 14 bookable online through DOC, with adult nightly rates from $10 to $23. Most are in the mountains and high country rather than at Tekapo itself, and Peel Forest Campground is the largest with room for 81. DOC's freedom camping notices near Twizel list four restricted areas with a limit of four nights in a calendar month.",
@@ -177,8 +177,8 @@ export const campingBaseArticles: Article[] = [
         "The 2027 school holidays run from 10 to 26 April, 3 to 18 July and 25 September to 10 October, and Easter and the long weekends are busy too. If you are on the road between Christchurch and Queenstown, the Christchurch to Tekapo and Aoraki road trip and the Christchurch to Queenstown drive guide show where Tekapo fits.",
       ], ["Cold clear nights suit stargazing", "Christmas to January: book early", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027"]),
       s("Using KiwiCamping around Tekapo", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save the Tekapo park and a Twizel fallback, add them to a trip with their dates, and read the distance between Christchurch, Tekapo and Queenstown.",
-        "The trip shows a forecast at each stop, which matters here for frost and wind. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Tekapo's lakefront park, the Mackenzie's DOC sites and the dump stations at Tekapo and Twizel all show on the KiwiCamping map. Keep the Tekapo booking and a Twizel fallback in one trip with their dates, and the app lays out the distances from Christchurch and on to Queenstown.",
+        "A forecast appears beside each stop, worth checking for frost and the nor'west wind at the lake. Once saved, the Mackenzie places stay readable even out of range, while the map and routes need coverage. The download is free, with in-app purchases.",
       ], ["Save a Twizel fallback", "Check frost and wind", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -222,8 +222,8 @@ export const campingBaseArticles: Article[] = [
         "A night in Queenstown often fits into the road from Christchurch, covered in the Christchurch to Queenstown drive guide, or the day trip to Milford Sound, covered in the Queenstown to Milford Sound drive guide. In winter, snow and frost matter for campervans, and the guide to winter camping explains what to carry.",
       ], ["Peak: Christmas to February, and ski season", "Book months ahead for New Year", "Winter needs frost-ready kit"]),
       s("Using KiwiCamping around Queenstown", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park and a DOC campsite for each night, and order them in a trip with dates and notes.",
-        "The trip adds up the distance between legs and shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Around Queenstown, KiwiCamping sorts the holiday parks from Frankton to Arthur's Point, the DOC campsites up the lake and the dump stations, and its access filter keeps the van-friendly ones. Save where you will sleep each night and set them out as a trip with dates and notes.",
+        "The trip view then shows how far Glenorchy, Wānaka or Te Anau is from each base, and the forecast for each, which helps when the Crown Range is icy. Saved places open without a connection; maps and photos do not. KiwiCamping is free to try, with paid extras in the app.",
       ], ["Save a holiday park and a DOC campsite", "Check the forecast for each leg", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -256,7 +256,7 @@ export const campingBaseArticles: Article[] = [
       ], ["Freedom camping is tightly limited", "DOC bans camping at all four mainland notices", "Sleep outside the centre"]),
       s("Holiday parks near the city", [
         "Takapuna Beach Holiday Park is on the beachfront facing Rangitoto Island, about 10 km from the centre, with powered and unpowered sites and cabins, and is the closest to the city of the usual choices. Auckland North Shore Motels and Holiday Park in Northcote is a plainer park handy for campervans. Further north, Orewa Beach Holiday Park sits on the Hibiscus Coast, on the way to Northland.",
-        "The parks fill from December to February, at Easter and on long weekends, and rental campervan pick-up days can make the nights around a flight busy. The guide to holiday parks in New Zealand explains site types and booking.",
+        "The parks fill from December to February, at Easter and on long weekends, and rental campervan pick-up days can make the nights around a flight busy. Book the first night once your flight is set; the holiday parks guide has the details.",
       ], ["Takapuna: beachfront, near the city", "Orewa: on the way north", "Book for the night before a flight"]),
       s("Regional park campgrounds", [
         "Auckland Council runs campgrounds in its regional parks, which are cheaper and quieter than holiday parks and have fewer facilities. Te Haruhi Bay Campground is in Shakespear Regional Park at the end of the Whangaparaoa Peninsula behind a white sand beach, Tawharanui Regional Park has a campground behind the dunes in a protected sanctuary, and Ambury Regional Park on the Manukau Harbour is a popular family campground close to the airport.",
@@ -267,8 +267,8 @@ export const campingBaseArticles: Article[] = [
         "Getting there takes a ferry or a flight, so an island campsite is a trip in its own right, not a night before a flight home. Pack in water and food, take out all rubbish, and check the ferry times and the forecast before you commit.",
       ], ["9 DOC campsites, 6 on Great Barrier", "Home Bay: 131 sites", "Ferry or flight to reach them"]),
       s("Using KiwiCamping around Auckland", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a first-night park and a last-night park near the airport, add them to a trip with dates, and read the distance to the first leg north or south.",
-        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Auckland's holiday parks near the airport, the regional park campsites and the city's dump stations are all on KiwiCamping's map. Put a first-night park and a last-night park into one dated trip, and you see the distance from each to the airport and to the first leg north or south.",
+        "Forecasts for every stop sit in the same view, useful before Northland or the Coromandel. The parks you saved keep their details offline; the city map needs data. Free to download, with in-app purchases if you want more.",
       ], ["Save the first and last night", "Check the forecast for the ferry", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -301,7 +301,7 @@ export const campingBaseArticles: Article[] = [
       ], ["Pick a park near the terminal", "Check-in times shape the night", "No camping on the waterfront"]),
       s("Holiday parks around the city", [
         "Wellington TOP 10 Holiday Park is at Hutt Park Road in Lower Hutt, about 15 km from the centre, with powered and unpowered sites and cabins. Kiwi Holiday Park in Upper Hutt sits on bush and farmland, Aotea Lodge is in Porirua, and Paekākāriki Holiday Park is on the Kāpiti Coast, each with sites for campervans. They are between 20 minutes and an hour from the ferry, so choose by direction of travel.",
-        "They book out in summer, on long weekends and over the school holidays, which in 2027 run from 10 to 26 April, 3 to 18 July and 25 September to 10 October. The guide to holiday parks in New Zealand explains site types and booking.",
+        "They book out in summer, on long weekends and over the school holidays, which in 2027 run from 10 to 26 April, 3 to 18 July and 25 September to 10 October. For what a Wellington holiday park costs and how to book, read the holiday parks guide.",
       ], ["Lower Hutt: 15 km from the centre", "Upper Hutt, Porirua and Paekākāriki", "Book for long weekends"]),
       s("Regional parks and DOC", [
         "Kaitoke Regional Park near Upper Hutt, about 45 minutes from the city, has a campground in a forested valley, run by Greater Wellington. DOC's Catchpool Valley Campsite in the Remutaka Forest Park, entered from Coast Road south of Wainuiomata, has a kitchen and showers and is a good base for the Ōrongorongo Valley walks, but it is closed in winter, from May to Labour weekend.",
@@ -312,8 +312,8 @@ export const campingBaseArticles: Article[] = [
         "Wind is the thing Wellington is known for, so check the forecast and secure awnings and loose gear, and allow for delayed crossings in a southerly or a northerly gale.",
       ], ["Long weekends fill the parks", "Matariki: Friday 25 June 2027", "Check the wind and the ferry status"]),
       s("Using KiwiCamping around Wellington", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a park near the terminal for the night before the ferry and another on the far side, add them to a trip with dates, and read the distance either side.",
-        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "KiwiCamping shows the holiday parks near the Interislander and Bluebridge terminals, the motor camps up the Hutt Valley and the dump stations, with a campervan filter. Save the night before the ferry and the first night in Picton as one trip with dates.",
+        "The trip lists the drive on each side of the strait and the forecast at both ends, useful when Cook Strait sailings are weather-dependent. Saved places open offline at the terminal; the map reloads once you have signal again. The app is free; upgrades are sold inside.",
       ], ["Save a park on each side of the strait", "Check the forecast for wind", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -347,7 +347,7 @@ export const campingBaseArticles: Article[] = [
       ], ["First and last nights: book a park", "Freedom camping is limited", "Pick by the road you take next"]),
       s("Holiday parks in the city", [
         "Christchurch TOP 10 Holiday Park, formerly Meadow Park, is on Meadow Street in Papanui in the north of the city, with powered and unpowered sites and cabins and an easy run to the airport and the northern highway. Amber Kiwi Holiday Park is a small inner-city park on Blenheim Road in Riccarton, with campervan, caravan and tent sites and motel units, close to shops and the university.",
-        "Both fill around the school holidays and in summer, and the nights before and after a hire fill first. The guide to holiday parks in New Zealand explains site types, power and booking.",
+        "Both fill around the school holidays and in summer, and the nights before and after a hire fill first. Booking and power options are covered in the holiday parks guide.",
       ], ["Papanui: north, near the airport", "Riccarton: inner city, near shops", "Book the nights around a hire"]),
       s("Council campgrounds and the peninsula", [
         "Christchurch City Council runs a small network of campgrounds, including Spencer Beach TOP 10 Holiday Park on the northern coast, which suit a quieter night near the sea. On Banks Peninsula, Akaroa TOP 10 Holiday Park sits about a 15 minute walk from the village, with cabins and a heated pool, and is the answer to the township's strict camping rules. The Banks Peninsula camping weekend guide covers the loop.",
@@ -358,8 +358,8 @@ export const campingBaseArticles: Article[] = [
         "DOC's freedom camping notices for the Christchurch and Banks Peninsula area ban camping at Godley Head and Ripapa Island, so look inland for a DOC night. The guide to DOC campsites explains how booking works, and 18 of the 22 have campervan access.",
       ], ["22 DOC campsites in Canterbury", "Arthur's Pass is the nearest cluster", "18 have campervan access"]),
       s("Using KiwiCamping around Christchurch", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save the first and last night's parks, add them to a trip with dates, and read the distance to the first leg, whether that is Kaikōura, Tekapo or Arthur's Pass.",
-        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Christchurch's holiday parks near the airport, the DOC sites on Banks Peninsula and the city dump stations are marked in KiwiCamping, filterable for campervans. Put the first and last nights into a dated trip to see the distance to Kaikōura, Tekapo or Arthur's Pass.",
+        "A forecast for each stop helps you choose which way to head first. The parks you saved stay readable in the dead zones of the Lewis and Arthur's passes, but maps need coverage. Free to download, with optional in-app purchases.",
       ], ["Save the first and last night", "Check the forecast for Arthur's Pass", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -407,8 +407,8 @@ export const campingBaseArticles: Article[] = [
         "For a first night with children, a holiday park is easier. For a second or third, a DOC campsite by a river or beach is a good change, as long as you bring water, a toilet plan and a way to keep the children away from the water's edge. The easy DOC huts guide covers a gentler step into huts.",
       ], ["Under 5s are free at DOC sites that charge", "Bring water and a toilet plan", "Start with a park, then try DOC"]),
       s("Using KiwiCamping with a family", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park for each night, add a backup for the night you are not sure of, and order them in a trip with dates and notes.",
-        "The trip adds up the distance between legs, so you can see how many hours the children will be in the back, and shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "For family trips, KiwiCamping lists the holiday parks with playgrounds, pools and kitchens alongside DOC campsites and dump stations, and filters for what a campervan can reach. Save a park for each night plus a backup for the uncertain one, and put them in a dated trip with notes.",
+        "The trip adds up each day's driving, so you can see how long the children will sit in the back, and gives a forecast for every stop. When the signal drops, the park details you saved still open; the map and photos wait. KiwiCamping is free, with in-app purchases.",
       ], ["Keep legs short with children", "Add a backup for each night", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -456,8 +456,8 @@ export const campingBaseArticles: Article[] = [
         "Matariki is a public holiday, so some shops and services close or charge a surcharge. Stock up on food and fuel before the weekend, and keep your tank above half in remote areas.",
       ], ["One base, not a loop", "Stock up before the weekend", "Keep the tank above half"]),
       s("Using KiwiCamping at Matariki", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park and a backup for the weekend, add them to a trip with dates, and check the forecast, which matters for clear skies as much as for rain.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "For a Matariki weekend, KiwiCamping helps you find a holiday park and a dark-sky backup, with DOC campsites, dump stations and a campervan filter on the same map. Add both to a dated trip and watch the forecast for clear skies as much as for rain.",
+        "Dark-sky spots are often out of coverage, so save the places and their details before you go; the map and photos only load with signal. The app is free, with in-app purchases.",
       ], ["Save a holiday park and a backup", "Check the forecast for clear skies", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -502,8 +502,8 @@ export const campingBaseArticles: Article[] = [
         "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, all bookable online through DOC, and 30 in Otago, 16 of them bookable. Winter nights are cold and facilities can reduce, so check the DOC page for each site, and keep a holiday park as the fallback. The winter camping guide explains what to carry.",
       ], ["Catlins and Southland", "Stewart Island: a dark sky by ferry", "Dress for a freezing midnight"]),
       s("Using KiwiCamping for both", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a Tekapo park for the lupins and a southern campground for the aurora, add them to a trip with dates, and check the forecast, which matters for both flowers and sky.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal, and the aurora sites are often well outside it. Free to download, with in-app purchases.",
+        "KiwiCamping covers the Tekapo parks for the lupins and the southern campgrounds for aurora nights, along with DOC sites and dump stations, filterable for campervans. Put both in a dated trip and check each forecast, since flowers want sun and the aurora wants clear, dark sky.",
+        "The best aurora sites are usually well beyond cell coverage, so save them while you have signal; their details stay on the phone, the map does not. Free to download, with in-app purchases.",
       ], ["Save a park for each plan", "Check the forecast", "Signal is patchy in the far south"], undefined, true),
     ],
     faq: [
@@ -552,8 +552,8 @@ export const campingBaseArticles: Article[] = [
         "If the closure hits a walk you planned, pick a base with several options so you can swap. The guide to camping bases for the best day walks covers where to sleep for a choice of walks, and the best time to camp guide shows how the seasons shape the plan.",
       ], ["Forest and coastal tracks stay open", "Snow can close high tracks", "Pick a base with options"]),
       s("Using KiwiCamping in spring", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a base and a second one, add them to a trip with dates and notes, and keep the track's DOC alert page open in your browser for the latest closure.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "During lambing, KiwiCamping helps you find a base and a second option near an open track: holiday parks, DOC campsites and dump stations, with a campervan filter. Put them in a dated trip with notes, and keep the track's DOC alert page open for the latest closures.",
+        "If the trailhead has no signal, the bases you saved still show their details, while the map and photos need a connection. KiwiCamping is free, with paid extras in the app.",
       ], ["Save a second base", "Keep the alert page handy", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -602,7 +602,7 @@ export const campingBaseArticles: Article[] = [
         "Roys Peak is long and exposed, so start at dawn in summer and carry water, and in the lambing closure use the nearby lakeside tracks or the Rob Roy walk instead. The valley road to Rob Roy is gravel with fords, so check the conditions.",
       ], ["Roys Peak closes 1 October to 10 November", "Rob Roy is the alternative", "Matukituki road has fords"]),
       s("Milford and Kepler day walks, Te Anau", [
-        "Te Anau is the base for the Milford Road's short walks, and for day sections of the Kepler Track from the lake. Camping is at the holiday parks in town or at DOC's Fiordland campsites, since freedom camping is not allowed, as the guide to freedom camping in Te Anau explains. KiwiCamping's DOC data (11 August 2026) lists 13 DOC campsites in Fiordland.",
+        "Te Anau is the base for the Milford Road's short walks, and for day sections of the Kepler Track from the lake. Camping is at the holiday parks in town or at DOC's Fiordland campsites, since freedom camping is not allowed, as the guide to freedom camping in Te Anau explains. Thirteen DOC campsites in Fiordland appear in KiwiCamping's August 2026 data.",
         "The Milford Road can close for snow and avalanche risk, so check the status before driving. The Fiordland road trip guide covers the loop and the Kepler Track guide covers the Great Walk huts and campsites.",
       ], ["Te Anau holiday parks", "13 DOC campsites in Fiordland", "Check the Milford Road status"]),
       s("Cathedral Cove and Arthur's Pass", [
@@ -610,8 +610,8 @@ export const campingBaseArticles: Article[] = [
         "In the Southern Alps, Arthur's Pass village is the base for short walks to the Devil's Punchbowl and for the harder climbs, with DOC campsites around the national park, which KiwiCamping's DOC data (11 August 2026) counts as 4 within Arthur's Pass. The Arthur's Pass camping route covers the drive from Christchurch to the West Coast.",
       ], ["Hāhei: book ahead", "Check Cathedral Cove status", "Arthur's Pass: 4 DOC campsites"]),
       s("Using KiwiCamping to pick a base", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a base and a backup for each walk, add them to a trip with dates, and use the forecast at each stop to decide which walk to do on which day.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "To pair walks with beds, KiwiCamping shows the holiday parks and DOC campsites near each trailhead, plus the dump stations, with a filter for campervan access. Save a base and a backup for each walk, put them in a dated trip, and use each stop's forecast to choose which walk goes on which day.",
+        "Many trailheads are out of range, but your saved bases keep their details offline; the map, routes and photos need signal. The app is free, with in-app purchases.",
       ], ["Save a base and a backup", "Use the forecast to order the walks", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [

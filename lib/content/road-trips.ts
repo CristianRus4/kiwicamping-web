@@ -122,7 +122,7 @@ export const roadTripArticles: Article[] = [
       ], ["Saturday: gorge walk, Mount swim", "Sunday: harbour road or Rotorua", "Return via Hamilton for speed"]),
       sec("Planning Auckland to Tauranga in KiwiCamping", [
         "For the Bay of Plenty end of this trip, KiwiCamping maps the DOC campsites, huts and holiday parks from Waihī Beach to Mount Maunganui. Saved places become a trip in the order you choose, with the kilometres between them and a forecast for each beach or town. It is a planner rather than a sat nav, so leave the live driving to Apple Maps or Google Maps.",
-        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+        "Book DOC campsites through DOC itself; the holiday parks around Tauranga and the Mount each run their own bookings.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
     sources: [
@@ -550,7 +550,7 @@ export const roadTripArticles: Article[] = [
         ],
       }),
       sec("Where to sleep each night", [
-        "Holiday parks are the easy choice in Rotorua, Taupō and Tauranga, with power, showers and kitchens, and they book out in summer and on long weekends, so reserve each one. The holiday parks guide explains what to look for. On the Coromandel, the east coast campgrounds near Hahei fill over Christmas and January, often booked months ahead.",
+        "Holiday parks are the easy choice in Rotorua, Taupō and Tauranga, with power, showers and kitchens, and they book out in summer and on long weekends, so reserve each one; our holiday parks guide covers what a powered site includes. On the Coromandel, the east coast campgrounds near Hahei fill over Christmas and January, often booked months ahead.",
         "Freedom camping is more limited than people expect, and most popular spots near the towns on this loop are closed or restricted. The freedom camping rules guide and the green warrant guide explain what applies, and each council's own map is the final word. A vehicle that is not certified self-contained has very few options.",
       ], ["Book every holiday park in summer", "Coromandel beaches fill at Christmas", "Check each council's map for freedom camping"]),
       sec("The South Island version", [
@@ -558,8 +558,8 @@ export const roadTripArticles: Article[] = [
         "The South Island drives are longer and the weather less forgiving, so take the ten-day version if you can. The 10-day campervan itinerary adds the West Coast and Arthur's Pass without rushing the days.",
       ], ["Christchurch to Tekapo and Aoraki first", "Lindis Pass to Wānaka and Queenstown", "Take ten days if you can"]),
       sec("Planning your week in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
-        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+        "For a week in the upper North Island, KiwiCamping keeps the DOC campsites, huts and holiday parks from the Coromandel to Taupō on one iPhone map. Add each night in order and the trip view gives the kilometres between them and a forecast per stop, enough to tell whether the Hahei day or the Rotorua day should come first. For turn-by-turn driving and roadworks, rely on your maps app and the NZTA Journey Planner.",
+        "DOC campsites are booked on DOC's site, and each holiday park handles its own reservations directly.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
     sources: [
@@ -613,12 +613,12 @@ export const roadTripArticles: Article[] = [
         "Day 9: head north through Hokitika and Greymouth and then over Arthur's Pass, stopping at the viewpoints and the village. Spend the night at Arthur's Pass, where the keas are curious about your gear. Day 10: drive back to Christchurch, about 2 hours, with a buffer before any flight. The Arthur's Pass guide has the details.",
       ], ["Day 8 is the rest day", "Day 9: Hokitika and Arthur's Pass", "Day 10: home with a buffer"]),
       sec("Where to camp and what to book", [
-        "Holiday parks are the easy choice in Tekapo, Wānaka, Queenstown, Te Anau and Franz Josef, with power, showers and kitchens, and they book out in summer. The holiday parks guide explains what to look for. DOC campsites at Aoraki, along the Milford Road and on the Coast are simpler and cheaper, and the DOC campsites guide covers booking.",
+        "Holiday parks are the easy choice in Tekapo, Wānaka, Queenstown, Te Anau and Franz Josef, with power, showers and kitchens, and they book out in summer, so check the holiday parks guide on reserving early. DOC campsites at Aoraki, along the Milford Road and on the Coast are simpler and cheaper, and the DOC campsites guide covers booking.",
         "Freedom camping is restricted in most of these towns, and the Queenstown Lakes and Westland areas are patrolled. Read the freedom camping rules guide before you rely on a spot, and carry sandfly repellent for the West Coast and Fiordland.",
       ], ["Book holiday parks in summer", "DOC sites are simpler and cheaper", "Sandfly repellent for the Coast"]),
       sec("Planning your ten days in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the South Island. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the mountain and coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
-        "DOC bookings stay on DOC's own booking pages.",
+        "Ten days in the South Island means a lot of nights to line up, and KiwiCamping's iPhone map shows the DOC campsites, huts and holiday parks for every one of them. Once the stops are in order, each leg gets a distance and each place a forecast, which is how you spot a wet Coast day or a snowy pass before you commit. The app plans rather than navigates, so drive with your maps app and check closures on the NZTA Journey Planner.",
+        "Reservations for DOC sites go through DOC's own system.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
     sources: [
@@ -667,7 +667,7 @@ export const roadTripArticles: Article[] = [
         "Be ready for simpler facilities: a long drop toilet, no power and often no running water. In return you get a site that is cheaper, quieter and often better placed than the crowded ones. The Coromandel, Nelson-Tasman and Southland hubs below list the places to start.",
       ], ["Look at the regional hubs", "Gravel roads keep the crowds away", "Expect long drops and no power"]),
       sec("Planning around sold-out sites in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, so you can see the alternatives around a full campsite on one map. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
+        "When a favourite DOC site is full, KiwiCamping's map shows the other DOC campsites, huts and holiday parks nearby, so the fallback is a tap away. Put the alternative into your trip and you see how far it is from your next stop and what the weather is doing there. Any booking still happens on DOC's site or with the park.",
         "It does not show live availability, so keep the DOC booking site open when you plan.",
       ], ["Save a backup beside each booking", "Forecast at each stop", "Check availability on DOC's site"], undefined, true),
     ],
@@ -695,7 +695,7 @@ export const roadTripArticles: Article[] = [
         "If you are driving from Christchurch, Franz Josef comes first, and if you are coming over Haast Pass from Wānaka, Fox Glacier does. The Christchurch to Franz Josef drive guide and the Wānaka to Haast Pass guide cover the roads. Most people want a night at each end if they have the time.",
       ], ["Franz Josef: more services", "Fox Glacier: quieter, near Lake Matheson", "25 minutes apart"]),
       sec("Holiday parks in the villages", [
-        "Both villages have holiday parks with powered sites, showers, kitchens and a few with a hot tub, and they are the easy choice, especially when it rains. They fill in summer, at Easter and around school holidays, so book ahead for each night. The holiday parks guide explains what to look for.",
+        "Both villages have holiday parks with powered sites, showers, kitchens and a few with a hot tub, and they are the easy choice, especially when it rains. They fill in summer, at Easter and around school holidays, so book ahead for each night, as our holiday parks guide recommends.",
         "In winter many parks keep a quieter schedule and the glaciers are often clear and cold, a good season for a visit. The weather can still close roads, so check the NZTA Journey Planner and read the severe weather guide if heavy rain is forecast.",
       ], ["Book ahead in summer and at Easter", "Winter can be clear and quiet", "Check roads in heavy rain"]),
       sec("DOC campsites near the glaciers", [
@@ -719,8 +719,8 @@ export const roadTripArticles: Article[] = [
         "The West Coast is one of the wettest parts of the country, and a spare day gives you a better chance of a clear view. The sandflies are fierce on still days, so carry repellent and cover up at dusk. The sandfly guide has more. Fuel and food are available in both villages but cost more than in the towns, so fill up in Hokitika or Haast if you can.",
       ], ["Check DOC track status before you go", "Allow a spare day for weather", "Fill up before the villages"]),
       sec("Planning your glacier stay in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks on the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
-        "DOC bookings stay on DOC's own booking pages.",
+        "On the Coast, KiwiCamping maps the DOC campsites at Gillespies Beach and Lake Mapourika along with the huts and the holiday parks in both glacier villages. A trip from Hokitika to Haast, saved in order, shows each leg's length and the rain forecast for every stop. Driving directions and the state of State Highway 6 are for your maps app and the NZTA Journey Planner.",
+        "Glacier-area DOC sites are booked through DOC, where booking is needed at all.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
     sources: [
@@ -770,7 +770,7 @@ export const roadTripArticles: Article[] = [
         "The Heaphy Track, Lake Waikaremoana and the Whanganui Journey are more likely to have space later, and autumn and spring dates are much quieter than January. If a Great Walk is booked out, the booking guide and the easy huts guide list other options, and the sell-out campsites guide covers the roadside sites.",
       ], ["Milford, Routeburn, Kepler and Abel Tasman first", "Heaphy and Whanganui more likely to have space", "Autumn and spring are easier than January"]),
       sec("Planning your Great Walk trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at the start and end of the walks. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. Great Walk bookings stay on DOC's own booking pages.",
+        "KiwiCamping marks the DOC campsites, huts and holiday parks at each Great Walk trailhead, which helps with the nights before and after the track. Saved in order as a trip, they show the drive between trailheads and a forecast for each. The hut and campsite bookings on the walks themselves are made only with DOC.",
         "Use the app to plan the nights before and after the walk, such as a holiday park at Te Anau or Marahau.",
       ], ["Plan the nights around the walk", "Forecast at each stop", "Book the walk itself on DOC's site"], undefined, true),
     ],
@@ -819,8 +819,8 @@ export const roadTripArticles: Article[] = [
         "Return the vehicle on time, with the fuel level and cleanliness the company asks for, as late fees and cleaning charges apply. Road user charges are usually handled by the hire company for a diesel van, and the road user charges guide explains how they work.",
       ], ["Licence valid in New Zealand", "Return on time and clean", "Freedom camping rules still apply"]),
       sec("Planning a relocation trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Once you have a relocation, save the campsites and holiday parks along your route, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you check that the days fit your limit. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
-        "DOC bookings stay on DOC's own booking pages.",
+        "Once a relocation is confirmed, KiwiCamping helps you fill the nights: its iPhone map holds DOC campsites, huts and holiday parks in both islands, and a saved trip shows the distance per leg and the forecast at each stop, so you can check the days fit the hire company's limit. Use your normal maps app for the driving itself.",
+        "Any DOC nights on a relocation are booked directly with DOC.",
       ], ["Save stops in driving order", "Check the distance against your limit", "Use your maps app for directions"], undefined, true),
     ],
     sources: [
@@ -850,7 +850,7 @@ export const roadTripArticles: Article[] = [
         "Keep each driving day to two to three hours with a long stop, and add a rest day every few days. Children get restless after an hour, so plan a playground, a beach or a short walk at each break. The driving day planner helps check the legs, and the one-week itinerary is a gentle starting point.",
       ], ["A van with a toilet helps", "Two to three hours a day is plenty", "Add a rest day every few days"]),
       sec("Where to camp with children", [
-        "Holiday parks are the easiest choice, with playgrounds, jumping pillows, pools, kitchens and laundry, and many have cabins in case the weather turns. Book ahead in summer and school holidays. The holiday parks guide explains what to look for, and the school holidays guide has the dates.",
+        "Holiday parks are the easiest choice, with playgrounds, jumping pillows, pools, kitchens and laundry, and many have cabins in case the weather turns. Book ahead in summer and school holidays; the holiday parks guide covers booking and the school holidays guide has the dates.",
         "DOC campsites are cheaper and closer to nature, with beaches, rivers and bush walks on the doorstep, but facilities are simpler, with long drop toilets and often no showers. Many are suitable for families, and the easy huts guide has easy huts for a first overnight. Freedom camping is more limited than people expect, so check the rules.",
       ], ["Holiday parks have playgrounds and pools", "DOC campsites are cheaper but simpler", "Book ahead in school holidays"]),
       sec("Easy things to do", [
@@ -871,8 +871,8 @@ export const roadTripArticles: Article[] = [
         "Pack warm layers whatever the season, as the weather changes fast, plus a few games and books for wet days. Bring a small first aid kit with children's pain relief, because small towns can be far from a chemist. Buy groceries in the larger towns, where prices are lower.",
       ], ["Sunscreen and hats all year", "Repellent for the West Coast", "Warm layers and games for wet days"]),
       sec("Planning a family trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across New Zealand. Save the places that suit your family, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you keep the drives short. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
-        "DOC bookings stay on DOC's own booking pages.",
+        "With children aboard, short legs matter, and KiwiCamping's iPhone map of DOC campsites, huts and holiday parks makes them easy to plan. Save the family-friendly stops in order and the trip shows each day's distance and a forecast for every place. It is not a navigator, so keep a maps app for the road.",
+        "Family nights at DOC campsites are booked with DOC.",
       ], ["Save stops in driving order", "Keep an eye on the distances", "Forecast at each stop"], undefined, true),
     ],
     sources: [
@@ -921,8 +921,8 @@ export const roadTripArticles: Article[] = [
         "Many of these campsites have no power and basic toilets, so bring water and a way to carry out your rubbish. The busiest ones need booking in summer, and the sell-out campsites guide explains how DOC's bookings work. In wet weather, check river levels and the forecast before you commit to a remote lakeside site.",
       ], ["Repellent for still evenings", "Bring water and carry out rubbish", "Check river levels in wet weather"]),
       sec("Planning lake and waterfall stops in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including lakeside and waterfall sites. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
-        "It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "Lakeside and waterfall campsites stand out on KiwiCamping's map, alongside the huts and holiday parks near them. Build a trip from the ones you like and you get the kilometres between them and the forecast at each, worth checking before a swim or a long walk to the falls. Bookings for DOC sites remain on DOC's pages.",
+        "For the drive to each lake or waterfall, follow your phone's maps app, since KiwiCamping does not give live directions.",
       ], ["Save stops in driving order", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
     ],
     sources: [
@@ -960,7 +960,7 @@ export const roadTripArticles: Article[] = [
       ], ["Ventilate to reduce condensation", "Keep a dry bag and a wet bag", "A tarp makes a dry cooking area"]),
       sec("Where to go when it rains", [
         "The weather in New Zealand varies a lot by region, and the Southern Alps make a rain shadow on the east side. When the West Coast or Fiordland is wet, Nelson, Marlborough, Hawke's Bay and Central Otago are often drier, and a half-day drive can change the day. The reverse is true in a southerly or easterly, so check the forecast for both sides.",
-        "Holiday parks with a camp kitchen and a lounge are the best choice for a wet night, and they are easy to find in the larger towns. The holiday parks guide explains what to look for, and the winter camping guide covers cold wet weather.",
+        "Holiday parks with a camp kitchen and a lounge are the best choice for a wet night, and they are easy to find in the larger towns. Our holiday parks guide explains the facilities, and the winter camping guide covers cold wet weather.",
       ], ["West Coast and Fiordland are the wettest", "Nelson and Central Otago are often drier", "Camp kitchens make wet nights easier"], {
         caption: "General guide to wetter and drier regions. Always check the forecast for the day.",
         head: ["Region", "Usually", "Notes"],
@@ -977,7 +977,7 @@ export const roadTripArticles: Article[] = [
       ], ["Caves and hot pools in the rain", "Waterfalls are at their best", "Use the day to dry out and restock"]),
       sec("Planning around the weather in KiwiCamping", [
         "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, and it shows a forecast at every place on your list. Save a holiday park and a drier backup beside each remote campsite, put them in order as the stops of a trip, and the app shows the distance between each pair of stops. It does not give live traffic or turn-by-turn directions, so use your maps app and the NZTA Journey Planner for road conditions.",
-        "DOC bookings stay on DOC's own booking pages.",
+        "Wet-weather DOC options are booked through DOC as usual.",
       ], ["Save a backup beside each campsite", "Forecast at each stop", "Check road conditions with NZTA"], undefined, true),
     ],
     sources: [
