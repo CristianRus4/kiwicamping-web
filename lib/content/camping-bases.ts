@@ -466,9 +466,55 @@ export const campingBaseArticles: Article[] = [
     ],
     sources: [
       { label: "Te Kāhui o Matariki Public Holiday Act 2022", url: "https://www.legislation.govt.nz/act/public/2022/0014/latest/whole.html" },
-      { label: "Matariki.nz: Matariki dates", url: "https://www.matariki.nz/" },
+      { label: "Ministry for Culture and Heritage: Matariki", url: "https://mch.govt.nz/matariki" },
       { label: "Ministry of Education: Term dates", url: "https://www.education.govt.nz/school/running-a-school/school-terms-and-holidays/term-dates" },
       { label: "DOC: Stargazing", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/stargazing/" },
+    ],
+  }),
+
+  a({
+    slug: "lupins-and-southern-lights-camping-new-zealand",
+    title: "Lupins and Southern Lights: Camping for the Mackenzie Flowers and the Aurora",
+    description: "When the Mackenzie lupins flower, where to camp for them, how to watch for the Southern Lights from the far south, which sky forecasts help and how to camp responsibly for both.",
+    category: "Trip planning",
+    region: "South Island",
+    places: ["Lake Tekapo", "Twizel", "Lake Pukaki", "Dunedin", "The Catlins", "Rakiura Stewart Island"],
+    imageAlt: "Lupins in flower beside Lake Tekapo, in purple, pink and blue, with the lake and mountains behind",
+    related: ["camping-in-tekapo", "christchurch-tekapo-aoraki-road-trip", "southern-scenic-route-camping", "freedom-camping-twizel", "matariki-camping-new-zealand-2027"],
+    hubs: ["camping/canterbury", "camping/southland"],
+    intro:
+      "The lupins around Lake Tekapo and Lake Pukaki flower from late spring into early summer, and the Southern Lights are best seen on clear, dark nights in the far south, mostly in the colder months. They suit very different trips, but both reward the same habits: book early for the flower season, find a dark camp for the aurora, and check forecasts rather than relying on luck. Lupins are an introduced plant, so treat the blooms with care.",
+    sections: [
+      s("When the lupins flower", [
+        "The Russell lupins that colour the Mackenzie Country roadsides and riverbeds usually flower from late October to December, with the best displays in November and early December. The flowers come in purple, pink, blue, yellow and white, and they follow the roads and rivers around Tekapo, Twizel and Lake Pukaki. The timing varies with the spring weather, so a cold, late spring shifts the peak.",
+        "The flowers draw crowds, and the roadside viewpoints and photo stops fill up from mid-November. The guide to camping in Tekapo covers where to sleep, and the Christchurch to Tekapo and Aoraki road trip covers the drive. Book a holiday park ahead, because the flower season overlaps with the start of the summer rush.",
+      ], ["Late October to December", "November is usually the peak", "Book early for the flower weeks"]),
+      s("Looking after the Mackenzie", [
+        "Lupins grow on land that is also farm, road reserve and conservation land, and they spread along riverbeds, which is a concern for native braided river birds. Do not walk through the flowers or pick them, stay on the shoulder and park safely, and never stop on a blind corner for a photo. Respect fences and signs, because the paddocks are working farms.",
+        "Freedom camping around Tekapo and Twizel is tightly limited, and some council sites close from 23 December, as the guide to freedom camping in Twizel explains. Use a holiday park or a signed site, and take your rubbish with you.",
+      ], ["Do not pick or trample the flowers", "Park safely, not on corners", "Respect farm fences"]),
+      s("Watching for the Southern Lights", [
+        "The Southern Lights, or aurora australis, are caused by solar activity, and they are best seen from places with a clear southern horizon and little light, mostly in the south of the South Island: Southland, the Catlins, Stewart Island, Dunedin and the Otago Peninsula, and sometimes Tekapo and Canterbury during strong storms. They are most often seen between March and September, when the nights are long, and strong displays can be seen by the naked eye but are often fainter than photos suggest.",
+        "No campsite can promise an aurora. Check a space-weather forecast for the strength of a storm and the cloud forecast for your site, go out around midnight, and look south. A camera on a tripod with a long exposure will pick up colour that your eyes may miss, and a phone's night mode can too.",
+      ], ["March to September is best", "Look south from a dark site", "Check solar and cloud forecasts"]),
+      s("Where to camp for the aurora", [
+        "The southern coast is the best bet. The Southern Scenic Route guide covers the Catlins and Southland campgrounds, and DOC's campsites on Rakiura Stewart Island give a dark sky for those who make the crossing. On the Otago Peninsula and around Dunedin, the clifftops and beaches face south, though street lights are a problem near the city.",
+        "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, all bookable online through DOC, and 30 in Otago, 16 of them bookable. Winter nights are cold and facilities can reduce, so check the DOC page for each site, and keep a holiday park as the fallback. The winter camping guide explains what to carry.",
+      ], ["Catlins and Southland", "Stewart Island: a dark sky by ferry", "Dress for a freezing midnight"]),
+      s("Using KiwiCamping for both", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a Tekapo park for the lupins and a southern campground for the aurora, add them to a trip with dates, and check the forecast, which matters for both flowers and sky.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal, and the aurora sites are often well outside it. Free to download, with in-app purchases.",
+      ], ["Save a park for each plan", "Check the forecast", "Signal is patchy in the far south"], undefined, true),
+    ],
+    faq: [
+      ["When do the lupins flower at Lake Tekapo?", "Usually from late October to December, with the best displays in November and early December, depending on the spring weather."],
+      ["Where can I see the Southern Lights in New Zealand?", "From dark sites with a clear southern horizon, mostly in Southland, the Catlins, Stewart Island and Otago, and sometimes Tekapo during strong storms. They are best seen between March and September."],
+    ],
+    sources: [
+      { label: "DOC: Lupins", url: "https://www.doc.govt.nz/nature/pests-and-threats/weeds/common-weeds/lupin/" },
+      { label: "Mackenzie Region: Lupins", url: "https://www.mackenzienz.com/" },
+      { label: "DOC: Stargazing", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/stargazing/" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
 ];
