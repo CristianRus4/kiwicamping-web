@@ -197,3 +197,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-in-wellington` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |
 | `camping-in-christchurch` | Avon River in Christchurch Botanic Gardens.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_Botanic_Gardens.jpg) |
 | `family-holiday-parks-new-zealand` | Kaiteriteri Beach 4 (31578270882).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri_Beach_4_(31578270882).jpg) |
+| `matariki-camping-new-zealand-2027` | OneOne Matariki 2018.jpg | Kristina D.C. Hoeppner | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:OneOne_Matariki_2018.jpg) |

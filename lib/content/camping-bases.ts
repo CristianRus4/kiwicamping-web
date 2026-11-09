@@ -421,4 +421,54 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "matariki-camping-new-zealand-2027",
+    title: "Matariki on the Road 2027: Camping, Dark Skies and the Long Weekend",
+    description: "Matariki is Friday 25 June 2027: how to plan a winter long weekend on the road, where to see the stars from a campsite, which dark sky places to aim for and how the school holidays follow.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Lake Tekapo", "Great Barrier Island", "Wairarapa", "Rakiura Stewart Island", "Taupō"],
+    imageAlt: "People gathered on a beach at dawn for Matariki, with the sky lightening over the sea",
+    related: ["school-public-holidays-new-zealand-2027", "winter-camping-new-zealand", "best-time-camping-new-zealand", "camping-in-tekapo", "camping-in-taupo"],
+    hubs: ["camping"],
+    intro:
+      "Matariki falls on Friday 25 June 2027, which makes a three-day weekend in the middle of winter, one week before the July school holidays. It is also the time of year when the Matariki star cluster rises in the pre-dawn sky, so a campsite far from town lights is a good place to be. Plan for cold nights, short days and fewer open campsites, and book a holiday park if you want heating.",
+    sections: [
+      s("The date and the weekend", [
+        "Matariki is a public holiday on the Friday closest to the rising of the Matariki star cluster, and the date for 2027 is Friday 25 June. That gives a long weekend from Friday to Sunday, and the school holidays start on 3 July, so families have one weekend to use before the winter break. The school and public holidays guide lists the full 2027 calendar.",
+        "Because the holiday is in winter, demand is spread differently from summer. The towns with ski fields, such as Queenstown, Wānaka, Taupō and Tongariro, fill early, and the holiday parks close to the ski fields book out for the whole weekend. Quiet coastal and rural parks are easier, and campsites in the south can be very cold.",
+      ], ["Friday 25 June 2027", "School holidays start 3 July", "Ski towns fill first"]),
+      s("Seeing Matariki from a campsite", [
+        "The Matariki cluster, also known as the Pleiades, is seen low in the north-eastern sky before dawn in late June and July. You need a clear horizon to the north-east and a place without much light, so a beach, a lake shore or a hillside campsite is better than a town. Go out about an hour before sunrise, let your eyes adjust, and look for a small group of stars that looks like a smudge at first.",
+        "Matariki is a time of remembrance, renewal and gathering in te ao Māori, and many communities hold dawn ceremonies and events around the weekend. If you join one, follow the organisers' guidance, and keep quiet and low-light at a campsite near one, because the pre-dawn time is a respectful one.",
+      ], ["North-east horizon before dawn", "Let your eyes adjust", "Be quiet and low-light near gatherings"]),
+      s("Dark sky places to aim for", [
+        "New Zealand has several formal dark sky places. The Aoraki Mackenzie International Dark Sky Reserve around Lake Tekapo is the best known, Aotea Great Barrier Island and Rakiura Stewart Island are dark sky sanctuaries, and the Wairarapa has a dark sky reserve too. They are far from the cities and have clear, cold winter nights, though weather can close the sky at any time.",
+        "Tekapo is the easiest to reach by road, and the guide to camping in Tekapo covers where to sleep. The islands need a ferry or a flight, which is more than a long weekend allows in winter weather. In the North Island, the central plateau around Taupō and Tongariro is darker than most places, and the guide to camping in Taupō covers the holiday parks and DOC sites.",
+      ], ["Aoraki Mackenzie: Tekapo", "Great Barrier and Rakiura: by sea or air", "Central plateau: darker than the coast"]),
+      s("Winter camping on a long weekend", [
+        "Nights in late June can be below freezing in the south and in the high country, so a campervan needs a heater or a good sleeping bag, and a tent needs a proper winter bag and a mat. The winter camping guide explains what to carry, and the winter driving guide covers snow chains and ice on the roads over the passes.",
+        "Many DOC campsites and some holiday parks reduce facilities or close in winter, and some roads close for snow. Check the DOC page for each site and the NZTA road status before you leave, and keep a holiday park with a heated cabin as the fallback.",
+      ], ["Below freezing in the south", "Check closures and road status", "Heated cabin as the fallback"]),
+      s("Planning the long weekend", [
+        "Pick one base rather than a loop, because the days are short and the roads slower in winter. Book a holiday park with a kitchen and a heated lounge, plan one dawn outing and one day outing, and keep a day in hand in case of weather. The week after Matariki is also the start of the winter school holidays, so a trip that extends into them needs another booking.",
+        "Matariki is a public holiday, so some shops and services close or charge a surcharge. Stock up on food and fuel before the weekend, and keep your tank above half in remote areas.",
+      ], ["One base, not a loop", "Stock up before the weekend", "Keep the tank above half"]),
+      s("Using KiwiCamping at Matariki", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park and a backup for the weekend, add them to a trip with dates, and check the forecast, which matters for clear skies as much as for rain.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a holiday park and a backup", "Check the forecast for clear skies", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["When is Matariki in 2027?", "Friday 25 June 2027, which makes a long weekend a week before the July school holidays start on 3 July."],
+      ["Where is the best place to see Matariki?", "Anywhere with a clear north-eastern horizon and little light before dawn, such as a beach, a lake shore or a high country campsite. Lake Tekapo, in a dark sky reserve, is the best known."],
+    ],
+    sources: [
+      { label: "Te Kāhui o Matariki Public Holiday Act 2022", url: "https://www.legislation.govt.nz/act/public/2022/0014/latest/whole.html" },
+      { label: "Matariki.nz: Matariki dates", url: "https://www.matariki.nz/" },
+      { label: "Ministry of Education: Term dates", url: "https://www.education.govt.nz/school/running-a-school/school-terms-and-holidays/term-dates" },
+      { label: "DOC: Stargazing", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/stargazing/" },
+    ],
+  }),
 ];
