@@ -240,3 +240,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-campervan-starting-point` | Avon River in Christchurch Botanic Gardens.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_Botanic_Gardens.jpg) |
 | `long-weekend-camping-new-zealand` | Kaiteriteri Beach 4 (31578270882).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri_Beach_4_(31578270882).jpg) |
 | `queenstown-walks-camping-base` | Queenstown from Bob's Peak.jpg | Lawrence Murray from Perth, Australia | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg) |
+| `wellington-hikes-camping-base` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |

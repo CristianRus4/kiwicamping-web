@@ -199,4 +199,69 @@ export const lakesWalksViewsArticles: Article[] = [
       { label: "Queenstown Lakes District Council: Responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
     ],
   }),
+
+  a({
+    slug: "wellington-hikes-camping-base",
+    title: "Wellington Hikes With a Camping Base: Hills, Remutaka, Kāpiti and the Tararua Foothills",
+    description: "The best hikes around Wellington and where to camp for each: the city hills and coast, the Remutaka and Hutt Valley tracks, the Paekākāriki Escarpment Track and the Tararua foothills.",
+    category: "Camping guides",
+    region: "Wellington",
+    places: ["Wellington", "Lower Hutt", "Upper Hutt", "Paekākāriki", "Remutaka Forest Park", "Tararua Forest Park"],
+    imageAlt: "Wellington Harbour and the city seen from the hills above it",
+    related: ["camping-in-wellington", "wellington-3-days-campervan", "wellington-wairarapa-camping-loop", "freedom-camping-wellington-2026", "camping-bases-best-day-walks-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "Wellington is a walking city with a mountain range on its back doorstep, and a campervan makes a good base for it as long as you sleep outside the city, because there is no campground in the centre. The Hutt Valley holiday parks, a regional park at Kaitoke, a DOC campsite in the Remutaka Forest Park and a holiday park on the Kāpiti Coast each put a different set of hikes within reach, from a city-hill loop that finishes with a coffee to a day in the Tararua foothills. This guide pairs the hikes with where to sleep.",
+    sections: [
+      s("Where the hikes are", [
+        "The region's walks fall into four groups. The city hills and south coast tracks are minutes from the centre, the Hutt Valley and Remutaka Forest Park have river and forest tracks, the Kāpiti Coast has the Paekākāriki Escarpment Track and the beaches, and the Tararua Forest Park starts at the edge of the Wairarapa. A base in the Hutt Valley is within an hour of the first two, while Kāpiti and the Tararua need a night closer to them.",
+        "The table pairs each hike with a base and an approximate time. Times are for a reasonably fit walker in fair weather, and the guide to camping in Wellington covers the parks in more detail.",
+      ], ["Four groups: hills, Hutt, Kāpiti, Tararua", "Sleep outside the city", "Times are approximate"], {
+        caption: "Hikes around Wellington and where to camp for each, with approximate times.",
+        head: ["Hike", "Base", "Time"],
+        rows: [
+          ["Mount Victoria, Te Ahumairangi and the Southern Walkway", "Lower Hutt holiday park, then train or bus", "1 to 4 hours"],
+          ["Red Rocks coastal walk", "Lower Hutt holiday park", "2 to 3 hours return"],
+          ["Ōrongorongo Valley", "DOC campsite at Catchpool Valley", "Half a day or more"],
+          ["Kaitoke Regional Park tracks", "Kaitoke campground or Upper Hutt", "1 to 3 hours"],
+          ["Paekākāriki Escarpment Track", "Paekākāriki holiday park", "About 3 hours one way"],
+          ["Mount Holdsworth and the Tararua foothills", "DOC campsite near Masterton", "Half a day to a full day"],
+        ],
+      }),
+      s("The city hills and the south coast", [
+        "Mount Victoria, Te Ahumairangi Hill and Mount Kaukau give the classic views over the harbour, and the Southern Walkway links the town belt hills to the south coast. Red Rocks is a coastal walk where fur seals haul out in the cooler months, so keep your distance. None of this needs a camp in the city: sleep at a holiday park in Lower Hutt or Upper Hutt and use the train or the bus.",
+        "Wellington City Council maintains the city tracks, and the guide to Wellington in three days covers what to see between them. The harbour-side parking is limited and not for sleeping, as the Wellington freedom camping guide explains.",
+      ], ["Sleep in the Hutt, walk the hills", "Seals at Red Rocks: keep your distance", "Do not sleep in city car parks"]),
+      s("The Hutt Valley and Remutaka", [
+        "Catchpool Valley, in the Remutaka Forest Park, is the best base for the Ōrongorongo Valley walks, a river valley track that is mostly flat but crosses water, and the campsite has a kitchen and showers. It is closed from May until Labour weekend, so it suits summer and autumn. Check DOC's page for the current fee and opening dates.",
+        "Kaitoke Regional Park near Upper Hutt, run by Greater Wellington, has a campground and tracks along the Pakuratahi River, and the area was a filming location for Rivendell in The Lord of the Rings. Kiwi Holiday Park in Upper Hutt is an alternative with campervan sites. River levels matter, so read the guide to river crossing safety before a valley walk after rain.",
+      ], ["Catchpool: closed May to Labour weekend", "Kaitoke: regional park campground", "Check river levels after rain"]),
+      s("The Kāpiti Coast and the Escarpment Track", [
+        "The Paekākāriki Escarpment Track climbs along the cliffs above the coast between Paekākāriki and Pukerua Bay, with steps, a swing bridge over a stream and views to Kāpiti Island. It takes about three hours one way, and the train from Paekākāriki to Pukerua Bay makes a one-way walk easy to finish. Paekākāriki Holiday Park is the base, close to the village and the train station.",
+        "Kāpiti Island is a DOC nature reserve reached by boat from Paraparaumu, and visits need a permit, so plan it ahead and check DOC's page. The beaches along the coast are good for a sunset walk, though the wind can be strong.",
+      ], ["About 3 hours one way", "Train back from Pukerua Bay", "Kāpiti Island needs a permit"]),
+      s("The Tararua foothills", [
+        "The Tararua Forest Park runs along the eastern edge of the region, and its easier tracks start from Wairarapa roads near Masterton. DOC has a campsite and huts at the Mount Holdsworth road end, which is the usual base for a day walk into the beech forest and for longer alpine trips. The Wellington and Wairarapa camping loop covers the Wairarapa towns on the way.",
+        "The Tararua Range is famous for wild weather, so for anything above the bush line, check the forecast, tell someone your plan and be ready to turn around. For a day walk, stay in the lower valley.",
+      ], ["Base at the Mount Holdsworth road end", "Stay below the bush line on a day walk", "Weather can turn quickly"]),
+      s("Wind, weather and ferry days", [
+        "Wellington is known for its wind, and it matters on exposed ridges, on the coast and for a high-sided van. Check MetService the day before, carry layers and a rain jacket, and leave a buffer if you have a Cook Strait ferry sailing, since a southerly can delay a crossing. The guide to the Cook Strait ferry covers booking and check-in.",
+        "On long weekends and in the summer holidays the parks fill, so book ahead. The Wellington anniversary weekend in late January is one of the busiest.",
+      ], ["Check the wind before a ridge walk", "Leave a buffer before a ferry", "Book ahead for long weekends"]),
+      s("Using KiwiCamping around Wellington", [
+        "KiwiCamping shows the Hutt Valley and Kāpiti holiday parks, the DOC campsites in the Remutaka and Tararua areas and the dump stations, with a filter for campervan access. Save a base for each hike, set them out as a trip with dates, and use the forecast to choose the day for the exposed walks.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a base for each hike", "Pick the windy day for a valley walk", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I camp for Wellington hikes?", "There is no campground in the city, so use a holiday park in Lower Hutt, Upper Hutt or Paekākāriki, Kaitoke Regional Park, or the DOC campsites at Catchpool Valley and near Masterton for the Tararua foothills."],
+      ["Is Catchpool Valley campsite open all year?", "No. It is closed from May until Labour weekend, so it suits summer and autumn. Check DOC's page for the current fee and opening dates."],
+    ],
+    sources: [
+      { label: "DOC: Remutaka Forest Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/" },
+      { label: "DOC: Tararua Forest Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/tararua-forest-park/" },
+      { label: "DOC: Kāpiti Island Nature Reserve", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/kapiti-island-nature-reserve/" },
+      { label: "DOC: Know before you go", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/" },
+    ],
+  }),
 ];
