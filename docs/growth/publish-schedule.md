@@ -52,6 +52,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-09 | wikicamps-not-working-new-zealand | live (no publishAt, 9 Nov push) |
 | 2026-11-09 | doc-campsite-pass-new-zealand | live (no publishAt, 9 Nov push) |
 | 2026-11-09 | freedom-camping-tent-new-zealand | live (no publishAt, 9 Nov push) |
+| 2026-11-09 | camping-without-self-contained-vehicle-new-zealand | live (no publishAt, 9 Nov push) |
 | 2026-11-10 | can-i-camp-anywhere-on-doc-land | scheduled |
 | 2026-11-11 | can-i-park-overnight-at-a-beach-in-new-zealand | scheduled |
 | 2026-11-12 | can-i-camp-on-a-farm-or-private-land-in-nz | scheduled |

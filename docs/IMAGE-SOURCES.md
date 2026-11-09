@@ -162,3 +162,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `wikicamps-not-working-new-zealand` | NZ Camper Vans.jpg | brett Vachon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:NZ_Camper_Vans.jpg) |
 | `doc-campsite-pass-new-zealand` | Momorangi Bay Camp.JPG | Mattinbgn | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Momorangi_Bay_Camp.JPG) |
 | `freedom-camping-tent-new-zealand` | Tents by Double Hut, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tents_by_Double_Hut,_Canterbury,_New_Zealand.jpg) |
+| `camping-without-self-contained-vehicle-new-zealand` | Reefton Motor Camp amenities and sign.jpg | GenesisNZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Motor_Camp_amenities_and_sign.jpg) |

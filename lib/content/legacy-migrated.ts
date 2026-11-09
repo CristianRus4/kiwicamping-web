@@ -65,7 +65,7 @@ export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-new-zealand-guide",
     legacyPath: "/free-camping-nz-legal.html", hubs: ["freedom-camping"],
-    related: ["freedom-camping-tent-new-zealand"],
+    related: ["camping-without-self-contained-vehicle-new-zealand", "freedom-camping-tent-new-zealand"],
     title: "Can you camp for free in New Zealand? Where it is legal and safe",
     description: "Which land types allow a free night, what certification you need, and the etiquette that keeps these places open.",
     category: "Camping guides",

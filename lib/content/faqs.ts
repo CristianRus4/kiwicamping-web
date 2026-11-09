@@ -244,6 +244,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you freedom camp with a tent in New Zealand?", "Yes, but in fewer places than a certified campervan. The Freedom Camping Act lets tents camp on council land unless a bylaw restricts it, and many councils, including Auckland, Tasman and New Plymouth, ban tents on public land. Open conservation land, a few named council reserves and free DOC campsites are the reliable options."],
     ["Do you need a self-contained vehicle to camp in a tent?", "No. The green warrant rule applies to vehicles used for freedom camping, not to tents. A tent still has to follow the council bylaw or DOC notice for the place, and where tents are banned the answer is a campground, holiday park or DOC campsite."],
   ],
+  "camping-without-self-contained-vehicle-new-zealand": [
+    ["Where can I camp without a self-contained vehicle in New Zealand?", "At DOC campsites, holiday parks and campgrounds, on private land with the owner's permission, on conservation land DOC has not restricted, and at the few council sites a bylaw names for uncertified vehicles, such as Whangārei's 17 sites and Dunedin's Warrington Domain."],
+    ["What is the fine for camping in a vehicle that is not self-contained?", "$400, where the rules require a certified self-contained vehicle. Failing to display a warrant card on land restricted to self-contained vehicles is $200, and damaging the area or leaving waste is $800."],
+  ],
   "best-campervan-apps-new-zealand": [
     ["What is the best app for a campervan trip in New Zealand?", "It depends on the stage. For planning nights at DOC campsites we recommend KiwiCamping, which we make; thl Roadtrip suits Maui, Britz, Mighty and Apollo hirers, CamperMate is a free all-rounder, and Rankers adds traveller reviews of where to stay."],
     ["How do campervan relocations work in New Zealand?", "A hire company needs a van moved, so it offers it for as little as $1 a day on fixed dates. Imoova says fuel, tolls and parking are not covered, though some suppliers add fuel or a ferry ticket, and companies such as Travellers Autobarn ask for a bond."],
