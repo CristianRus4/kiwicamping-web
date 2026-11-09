@@ -86,7 +86,7 @@ for (const path of pages) {
   if (!storeLinks.length) fail(`${path} has no App Store link`);
   for (const [tag, href] of storeLinks) {
     if (!/data-cta="[a-z]+"/.test(tag)) fail(`${path} store link without data-cta: ${tag.slice(0, 120)}`);
-    if (APPLE_PROVIDER_TOKEN && !(decode(href).includes(`pt=${APPLE_PROVIDER_TOKEN}`) && /[?&]ct=w_[a-z]+_[a-z-]+(&|$)/.test(decode(href)))) fail(`${path} store link without pt/ct: ${href}`);
+    if (APPLE_PROVIDER_TOKEN && !(decode(href).includes(`pt=${APPLE_PROVIDER_TOKEN}`) && /[?&]ct=w_[a-z]+_[a-z0-9-]+(&|$)/.test(decode(href)))) fail(`${path} store link without pt/ct: ${href}`);
   }
   console.log(`  ok   ${path} (${robotsMeta})`);
 }

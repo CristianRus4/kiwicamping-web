@@ -119,7 +119,7 @@ async function exportedPages(){
 const pagesPromise=exportedPages();
 /** The hand-written redirect stubs and 404 page are not React pages and carry no layout. */
 const generated=(path)=>path!=="/404.html"&&path!=="/download/"&&!(path in redirects);
-const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z]+)?)\//.exec(path)?.[1]??"en";
+const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z0-9]+)?)\//.exec(path)?.[1]??"en";
 const decodeHref=(value)=>value.replace(/&amp;/g,"&");
 
 test("exported pages keep only JSON-LD, tool scripts, the analytics bootstrap and the social-link script",async()=>{
@@ -163,7 +163,7 @@ test("every App Store link carries its placement and campaign",async()=>{
       assert.equal(url.origin+url.pathname,APP_STORE_URL,`${path} store link must point at the KiwiCamping listing: ${href}`);
       assert.equal(url.searchParams.get("pt"),APPLE_PROVIDER_TOKEN,`${path} store link without pt: ${href}`);
       const ct=url.searchParams.get("ct")??"";
-      assert.match(ct,/^w_[a-z]+_[a-z-]+$/,`${path} store link campaign token is malformed: ${ct}`);
+      assert.match(ct,/^w_[a-z]+_[a-z0-9-]+$/,`${path} store link campaign token is malformed: ${ct}`);
       assert.ok(ct.length<=30,`${path} campaign token longer than 30 characters (App Store Connect limit): ${ct}`);
       // The token names the button and the edition it sits on, so a click is attributable.
       if(generated(path))assert.equal(ct,`w_${placement}_${locale}`,`${path} campaign token does not match its placement and locale`);

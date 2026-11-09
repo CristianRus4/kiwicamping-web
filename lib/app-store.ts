@@ -21,7 +21,7 @@ export type CtaLocale = string;
  * `w_stick_zh-hans`, is 15). Anything longer is refused here rather than silently truncated there.
  */
 export const CAMPAIGN_TOKEN_MAX = 30;
-export const campaignTokenPattern = /^w_[a-z]+_[a-z-]+$/;
+export const campaignTokenPattern = /^w_[a-z]+_[a-z0-9-]+$/;
 
 /** The campaign token for one placement on one edition of the site, e.g. `w_hero_de`. */
 export function campaignToken(placement: CtaPlacement, locale: CtaLocale = "en"): string {

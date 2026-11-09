@@ -25,7 +25,7 @@ const registryPath = resolve(root, "lib/locales.json");
 const barrelPath = resolve(root, "lib/translations/index.ts");
 const configPath = resolve(root, "docs/translation.config.json");
 
-const identifier = (code) => code.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+const identifier = (code) => code.replace(/-([a-z0-9])/g, (_, letter) => letter.toUpperCase());
 
 export function expectedFiles() {
   const registry = JSON.parse(readFileSync(registryPath, "utf8"));
