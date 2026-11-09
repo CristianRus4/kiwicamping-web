@@ -71,7 +71,7 @@ for (const route of routes) {
     // Fixed legal/currency disclaimers are shared furniture too.
     .replace(/<p class="price-table-disclaimer">[\s\S]*?<\/p>/g, "")
     .replace(/<section class="sources">[\s\S]*?<\/section>/g, "");
-  const paragraphs = [...body.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map((match) => plain(match[1])).filter((paragraph) => paragraph.split(" ").length >= 12);
+  const paragraphs = [...body.matchAll(/<p(?:\s[^>]*)?>([\s\S]*?)<\/p>/g)].map((match) => plain(match[1])).filter((paragraph) => paragraph.split(" ").length >= 12);
   assert.ok(paragraphs.length >= 4, `${route} must publish at least four substantial prose paragraphs`);
   // Every section heading must have prose beneath it, not just a tips box.
   for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
