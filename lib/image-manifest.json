@@ -2015,6 +2015,20 @@
       }
     ]
   },
+  "/images/articles/wellington-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wellington-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wellington-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wellington-to-napier-drive-guide.webp": {
     "width": 1600,
     "height": 900,
