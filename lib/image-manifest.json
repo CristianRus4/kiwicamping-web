@@ -1189,6 +1189,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-whitianga.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whitianga-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whitianga.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/fuel-price-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,

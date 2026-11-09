@@ -98,7 +98,7 @@ export const freedomTownArticles: Article[] = [
       ], ["No tents on council land", "Parks, reserves and beaches: closed", "$400 for most breaches"]),
       s("Dump stations and the next town", [
         "The council lists free public dump stations for campervans on its camping page, and Nelson sits on the route between the ferry at Picton and the west coast, so it is a natural place to empty tanks and refill water. The guide to wastewater and rubbish explains the etiquette.",
-        "If the central car parks are full, the next tier is Richmond and Tasman District, whose rules are different and are covered in the guide to freedom camping in Tasman. The holiday parks around Tāhunanui and Richmond are the dependable alternative in January.",
+        "If the central car parks are full, the next tier is Richmond and Tasman District, whose rules are different, so read Tasman District Council's page before you drive on. The holiday parks around Tāhunanui and Richmond are the dependable alternative in January.",
       ], ["Free public dump stations", "Richmond is a different council", "Holiday parks fill in January"]),
       s("DOC land near Nelson", [
         "Conservation land around Nelson is in Nelson Lakes National Park, the Abel Tasman and Kahurangi parks and the Richmond Range. KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, 35 of them with a fee and 31 bookable online through DOC, with adult nightly rates from $10 to $31, but only 8 have campervan access and 26 are reached on foot or by boat.",
@@ -240,7 +240,7 @@ export const freedomTownArticles: Article[] = [
       ], ["Overnight parking is paid", "Tents and caravans need approval", "Holiday park books out at Christmas"]),
       s("Other places around Timaru", [
         "Rankers and similar apps list overnight campervan spots around the district, such as O'Neills Reserve, but these are community listings and not council ones, with limits like three nights and an arrival after 4pm that only the sign confirms. Treat them as leads and check the sign.",
-        "A different rule applies to the Mackenzie Country inland, where councils such as Waitaki and Mackenzie District have their own bylaws, covered in the guides to freedom camping in Waitaki and Mackenzie.",
+        "A different rule applies to the Mackenzie Country inland, where councils such as Waitaki and Mackenzie District have their own bylaws, so read the page of the council you are driving into.",
       ], ["Community listings are leads, not rules", "Check the sign on arrival", "Mackenzie and Waitaki have their own bylaws"]),
       s("Fines", [
         "Officers who are warranted under the Act can issue the national infringement fees: $400 for freedom camping in a place where it is prohibited, $400 for using a vehicle that is not self-contained where it must be, $200 for not displaying the warrant card and $800 for damaging the area or leaving waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
