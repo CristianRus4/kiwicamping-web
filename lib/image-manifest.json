@@ -55,6 +55,20 @@
       }
     ]
   },
+  "/images/articles/auckland-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/auckland-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/auckland-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/auckland-to-bay-of-islands-drive-guide.webp": {
     "width": 1600,
     "height": 900,
