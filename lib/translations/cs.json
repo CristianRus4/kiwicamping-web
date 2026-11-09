@@ -9120,6 +9120,194 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps na Novém Zélandu nefunguje? Řešení přihlášení, aktualizací a ztracených tras (2026)",
+      "description": "WikiCamps Nový Zéland se neotevře, pořád vás žádá o přihlášení nebo vynucuje aktualizaci? Řešení z vlastního centra nápovědy WikiCamps, odpovědi k původní verzi a verzi pro počítač a komu aplikace patří dnes.",
+      "region": "Nový Zéland",
+      "imageAlt": "Půjčené karavany zaparkované na mokrém parkovišti u silnice pod zalesněnými kopci",
+      "intro": "WikiCamps Nový Zéland se za poslední dva roky změnil víc než za celé předchozí desetiletí. Verze 6 aplikaci postavila od základu znovu, každý uživatel teď potřebuje účet a od března 2026 se aplikace, která zaostává příliš, odmítne otevřít, dokud ji neaktualizujete. Většina problémů, které lidé hledají, pramení z těchto tří změn a většinu z nich lze vyřešit během pár minut z kempu s jednou čárkou signálu. Řešení níže pocházejí z vlastního centra nápovědy WikiCamps, přečteného 9. listopadu 2026. Děláme KiwiCamping, jinou kempingovou aplikaci pro Nový Zéland, takže část o přechodu na konci je naše; vše před ní má pomoci znovu rozběhnout WikiCamps.",
+      "sections": [
+        {
+          "heading": "Rychlá řešení, když se WikiCamps nenačte",
+          "body": [
+            "Začněte telefonem, ne aplikací. WikiCamps uvádí, že podporuje iOS 26 a novější na iPhonu a iPadu a Android 15 a novější. Na starším systému se aplikace možná ještě nainstaluje, ale WikiCamps říká, že nemůže slíbit, že tam fungují všechny funkce, ani tam řešit potíže. Na iPhonu se podívejte do Nastavení, Obecné, Aktualizace softwaru; na Androidu do Nastavení, O telefonu.",
+            "Pokud je telefon aktuální a WikiCamps přesto visí na načítání nebo ukazuje chybu \"Could not retrieve data\", dává centrum nápovědy pro obě situace stejný krátký seznam: nainstalovat nejnovější verzi z obchodu s aplikacemi, restartovat telefon, přepnout z Wi-Fi na mobilní data, vypnout jakoukoli VPN a povolit WikiCamps používat vaši polohu. Odinstalace a nová instalace je poslední krok a vyplatí se jen tehdy, když jsou vaše trasy synchronizované s účtem, protože po přeinstalaci telefon začíná od nuly."
+          ],
+          "tips": [
+            "iOS 26 nebo Android 15 a novější",
+            "Zkuste mobilní data místo Wi-Fi v kempu",
+            "Přeinstalujte až po synchronizaci tras"
+          ],
+          "table": {
+            "caption": "Z centra nápovědy WikiCamps (support.wikicamps.co), přečteno 9. listopadu 2026.",
+            "head": [
+              "Problém",
+              "Obvyklá příčina",
+              "Co zkusit"
+            ],
+            "rows": [
+              [
+                "Visí na načítání nebo \"Could not retrieve data\"",
+                "Stará verze aplikace, slabá Wi-Fi, VPN nebo vypnutá poloha",
+                "Aktualizovat, restartovat, použít mobilní data, vypnout VPN, povolit polohu"
+              ],
+              [
+                "Pořád žádá o přihlášení",
+                "Telefon maže data aplikace nebo ji omezuje na pozadí",
+                "Vypnout optimalizaci baterie a čisticí aplikace pro WikiCamps"
+              ],
+              [
+                "Nepřišel ověřovací kód",
+                "E-mail je filtrovaný nebo zpožděný",
+                "Zkontrolovat spam a počkat 10 až 15 minut"
+              ],
+              [
+                "Žádá o další platbu",
+                "Přihlášení pod jiným účtem nebo ID obchodu, než který platil",
+                "Použít původní účet; obnovit pod stejným Apple ID"
+              ],
+              [
+                "Chybí trasy nebo oblíbené",
+                "Přihlášení do jiného účtu WikiCamps",
+                "Přihlásit se původním e-mailem a nechat synchronizovat"
+              ],
+              [
+                "Bez signálu se neotevře",
+                "Offline režim nebyl zapnutý, než signál zmizel",
+                "Stáhnout offline obsah a zapnout offline režim ve městě"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Proč vás WikiCamps žádá o přihlášení nebo vytvoření účtu",
+          "body": [
+            "Přestavěná aplikace stojí na účtech. WikiCamps říká, že účet umožňuje synchronizaci tras, oblíbených míst, recenzí a dalších uložených dat mezi zařízeními a jejich přežití při výměně telefonu nebo přeinstalaci a že tak aplikace také ověřuje, že jste zaplatili. Pokud jste starou aplikaci používali, aniž byste se kdy zaregistrovali, musíte si teď účet vytvořit; a pokud si nejste jistí, jestli jste ho vytvořili, WikiCamps radí vyzkoušet \"Forgot your password?\" s vaším e-mailem: žádný e-mail pro obnovení znamená žádný účet pod touto adresou.",
+            "Ověřovací kódy chodí z přihlašovací služby Microsoftu jménem WikiCamps, takže hledejte odesílatele s názvem \"Microsoft on behalf of WikiCamps\" a předmětem o ověřovacím kódu e-mailu účtu WikiCamps. WikiCamps radí zkontrolovat spam a počkat 10 až 15 minut a říká, že jeho podpora nemůže kód poslat ručně. Pokud vás aplikace žádá o přihlášení pořád dokola, i když už jste přihlášení, WikiCamps to připisuje telefonu, ne aplikaci: optimalizace baterie, omezení na pozadí, automatické mazání dat aplikací a čisticí aplikace třetích stran mohou uloženou relaci smazat."
+          ],
+          "tips": [
+            "Kódy chodí od Microsoftu jménem WikiCamps",
+            "Povolte WikiCamps běh na pozadí",
+            "Použijte e-mail, kterým jste se poprvé registrovali"
+          ]
+        },
+        {
+          "heading": "Už jste zaplatili, ale žádá o platbu znovu",
+          "body": [
+            "WikiCamps ověřuje váš nákup přes účet, ve kterém jste přihlášení, a obchod, kde jste nakoupili. Na iPhonu se ujistěte, že je App Store přihlášený pod Apple ID, které WikiCamps koupilo, a pak aplikaci stáhněte znovu z App Store. Na Androidu WikiCamps říká, že nový nebo jiný účet může starší nákup skrýt; pokud obrazovka nákupu nezmizí, pošlete podpoře číslo objednávky z Google Play z části Platby a předplatné v Obchodě Play a aplikaci vám aktivují.",
+            "Nákupy také zůstávají u svého obchodu. Přechod z Androidu na iPhone nebo naopak znamená koupit WikiCamps znovu, i když data účtu vás po přihlášení následují. A WikiCamps Nový Zéland a WikiCamps Austrálie jsou samostatné aplikace, každá se kupuje zvlášť, takže jedna neodemkne druhou."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vynucená aktualizace z března 2026",
+          "body": [
+            "Od března 2026 WikiCamps blokuje verze, které zaostávají o více než dvě vydání. Když otevřete nepodporovanou verzi, aplikace vás před pokračováním požádá o aktualizaci z obchodu s aplikacemi; verze, která je stále podporovaná, zobrazí upozornění v aplikaci a nechá vás aktualizovat později. Stránka \"Version Update History\" WikiCamps označuje, které verze jsou podporované: když jsme to 9. listopadu 2026 zkontrolovali, šlo o 6.3.0 a 6.2.4 až 6.2.5 a novozélandský App Store už nabízel 6.3.1.",
+            "Praktické riziko na Novém Zélandu je, že vás aplikace vyzve k aktualizaci tam, kde není signál. Dlouhé úseky West Coast, Fiordlandu a Catlins nemají pokrytí, takže aktualizujte v posledním městě s dobrým příjmem, pak si stáhněte offline obsah WikiCamps a před odjezdem zapněte v nabídce offline režim. WikiCamps uvádí známý problém: úplně bez připojení se může stránka Explore zaseknout dřív, než se dostanete do nabídky zapnout offline režim, a jeho offline režim je zatím jen pro prohlížení: žádné nové trasy ani úpravy tras, dokud se nevrátíte do pokrytí."
+          ],
+          "tips": [
+            "Víc než dvě vydání pozadu znamená zablokováno",
+            "Aktualizujte ve městě, ne v kempu",
+            "Zapněte offline režim, než signál zmizí"
+          ]
+        },
+        {
+          "heading": "Dá se vrátit ke staré verzi WikiCamps?",
+          "body": [
+            "Ne. WikiCamps říká, že starší verze už od března 2026 nejsou podporované ani dostupné, a obchody s aplikacemi nabízejí jen aktuální vydání. Důvodem je, že předchozí aplikace stála na platformě, kterou nešlo dlouhodobě udržovat, a proto byla verze 6 postavena znovu od základu, s prvními vydáními verze 6 v listopadu 2024.",
+            "Mnoho stížností na novou aplikaci se týká věcí, které se přesunuly, ne zmizely. Vaše seznamy oblíbených, označených hvězdičkou, navštívených a míst, která chcete navštívit, jsou teď dole na kartě Home. Možnosti filtrů byly záměrně zjednodušeny, takže některé staré přepínače pro vyloučení zmizely, a WikiCamps žádá ty, kdo se na ně spoléhali, aby to oznámili jeho podpoře. Pokud se zdá, že na mapě chybí místa, doporučuje vymazat všechny aktivní filtry a přiblížit mapu, protože mapa ukazuje jen omezený počet výsledků najednou. Sám WikiCamps říká, že mnoho nedávných negativních recenzí souvisí s přechodem na přestavěnou aplikaci a že klíčové funkce postupně vrací."
+          ],
+          "tips": [
+            "Oblíbené jsou teď v Collections",
+            "Pokud místa mizí, vymažte filtry",
+            "Uložené filtry zůstávají na každém zařízení"
+          ]
+        },
+        {
+          "heading": "Existuje verze WikiCamps pro počítač nebo Windows?",
+          "body": [
+            "Už ne. Aplikace WikiCamps pro Windows byla verze 5 a skončila spolu s ostatními starými verzemi. Verze 6 běží jen na iPhonu, iPadu a telefonech a tabletech s Androidem. WikiCamps poznamenává, že někteří lidé spouštějí mobilní aplikace na počítači přes emulátor, ale to nepodporuje. Pokud plánujete trasy na velké obrazovce, podporovaným způsobem je tablet přihlášený ke stejnému účtu, protože trasy se synchronizují přes váš účet.",
+            "Ještě jeden konec stojí za to znát, pokud WikiCamps používají přátelé ze zahraničí. Jeho samostatná aplikace pro Spojené království, USA a Kanadu přestala být podporovaná 30. března 2026 a stahuje se z obchodů s aplikacemi; nové registrace a přihlášení byly vypnuty. WikiCamps Nový Zéland se to netýká."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Komu WikiCamps patří dnes?",
+          "body": [
+            "WikiCamps vybudoval malý zakladatelský tým, Russ a Cliff s rodinami, a rostl na místech, která přidávali jeho vlastní uživatelé. V roce 2021 jej prodali skupině turistických parků G'day Parks a vývojář v novozélandském App Store je dnes WikiCamps Pty Ltd. Rezervace přes tlačítko \"Book Now\" vyřizuje jeho rezervační partner BookEasy (Book Australia), takže změny a vrácení peněz jdou k nim, ne k WikiCamps.",
+            "Obchodní model je stále jednorázový nákup. WikiCamps říká, že žádné předplatné neexistuje, a novozélandský App Store uváděl WikiCamps Nový Zéland za NZ$7.99, když jsme to 9. listopadu 2026 zkontrolovali. Do částí s recenzemi, poplatky a fotkami také přidal malý počet reklam, které pomáhají pokrýt provozní náklady. Údaje o místech, fotky a poplatky pocházejí od komunity, proto WikiCamps žádá uživatele, aby zastaralé údaje upravili nebo nahlásili, a proto o tom, kde můžete přenocovat, rozhoduje cedule na místě a stránka obce nebo DOC."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kdy kontaktovat podporu WikiCamps",
+          "body": [
+            "Pokud nezabírá žádné z řešení, napište na support@wikicamps.co. Uveďte model telefonu a verzi systému, e-mailovou adresu účtu WikiCamps a u problému s nákupem doklad o nákupu nebo číslo objednávky z Google Play. WikiCamps říká, že u telefonů se systémem, který už nepodporuje, může být omezený v tom, co dokáže, takže nejdřív zkontrolujte to.",
+            "Druhým místem, kam se podívat, je jeho uživatelská skupina na Facebooku. Tam WikiCamps lidi odkazuje pro skutečné zkušenosti s aktuální aplikací a problém, který začal po aktualizaci, tam už obvykle někdo jiný nahlásil."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Přechod na KiwiCamping na Novém Zélandu",
+          "body": [
+            "Pokud už máte dost, KiwiCamping je novozélandská aplikace, kterou děláme my, a funguje jinak. Nemusíte zakládat žádný zvláštní účet: se zapnutým iCloudem se uložená místa, kolekce a trasy synchronizují soukromě přes váš Apple účet. Jeho 287 <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a>, 927 chat DOC a 1,453 stezek DOC pochází z vlastních dat Department of Conservation, s poplatky, pravidly pro psy a požadavky na rezervaci od DOC a odkazem na stránku DOC, a v jednom hledání můžete kombinovat filtry pro cenu, vybavení a psy.",
+            "Uložená místa se stanou trasou s uspořádanými zastávkami, daty, poznámkami a vzdáleností trasy. Podrobnosti o místech zůstávají v telefonu, když ztratíte signál; mapové dlaždice, navigace, počasí a fotky potřebují připojení. Buďme k sobě upřímní ohledně kompromisů: KiwiCamping běží jen na iPhonu (iOS 26 nebo novější), uvádí mnohem méně míst než WikiCamps a nemá recenze cestovatelů a z WikiCamps se nedá importovat, takže trasu obnovíte tím, že její zastávky uložíte znovu. Naše srovnání <a data-guide=\"wikicamps-alternatives\">alternativ k WikiCamps</a> staví KiwiCamping vedle Rankers, CamperMate, Campable a Overland Navigator, pokud chcete širší výběr."
+          ],
+          "tips": [
+            "Jen iPhone, iOS 26 nebo novější",
+            "Kempy, chaty a stezky DOC z dat DOC",
+            "Žádný účet: synchronizace přes iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Proč WikiCamps nefunguje?",
+          "Obvykle kvůli staré verzi aplikace, nepodporovanému telefonu nebo problému s přihlášením. WikiCamps podporuje iOS 26 a Android 15 a novější a od března 2026 blokuje verze, které zaostávají o více než dvě vydání. Aktualizujte aplikaci, restartujte telefon, zkuste mobilní data místo Wi-Fi, vypněte jakoukoli VPN a povolte přístup k poloze."
+        ],
+        [
+          "Můžu se vrátit ke staré aplikaci WikiCamps?",
+          "Ne. WikiCamps říká, že starší verze už od března 2026 nejsou podporované ani dostupné, a verze pro Windows s nimi skončila. Verze 6 běží na iPhonu, iPadu a telefonech a tabletech s Androidem a vaše trasy a oblíbená místa se synchronizují přes váš účet WikiCamps."
+        ],
+        [
+          "Komu WikiCamps patří?",
+          "WikiCamps založili Russ a Cliff a v roce 2021 jej prodali G'day Parks, skupině turistických parků. Vývojář v novozélandském App Store je WikiCamps Pty Ltd a rezervace přes aplikaci vyřizuje jeho partner BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Nápověda WikiCamps: Co dělat, když WikiCamps nefunguje správně?"
+        },
+        {
+          "label": "Nápověda WikiCamps: Vynucené aktualizace od března 2026"
+        },
+        {
+          "label": "Nápověda WikiCamps: Historie aktualizací verzí"
+        },
+        {
+          "label": "Nápověda WikiCamps: Můžu se vrátit ke staré verzi aplikace?"
+        },
+        {
+          "label": "Nápověda WikiCamps: Nemůžu se přihlásit do WikiCamps"
+        },
+        {
+          "label": "Nápověda WikiCamps: Proč teď potřebuji účet?"
+        },
+        {
+          "label": "Nápověda WikiCamps: Proč neexistuje verze WikiCamps pro počítač?"
+        },
+        {
+          "label": "Nápověda WikiCamps: Aplikace se bez připojení k internetu nespustí"
+        },
+        {
+          "label": "Údaje o WikiCamps Nový Zéland v obchodě (Apple, novozélandský obchod)"
+        },
+        {
+          "label": "Camps Australia Wide: komentář k prodeji WikiCamps společnosti G'day Parks (říjen 2021)"
+        }
+      ],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "Nejlepší aplikace pro campervan na Novém Zélandu 2026: půjčení, převozy, život na cestě",
       "description": "Aplikace, které pomáhají na cestě campervanem po Novém Zélandu v roce 2026, od půjčení vozu a převozů za 1 NZD na den po hledání dalšího noclehu, srovnané podle cen a hodnocení ověřených v říjnu 2026.",
