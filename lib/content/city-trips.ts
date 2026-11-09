@@ -292,4 +292,52 @@ export const cityTripArticles: Article[] = [
       { label: "Nelson Tasman Tourism: plan your trip", url: "https://www.nelsontasman.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-marlborough-drive-guide",
+    title: "Christchurch to Marlborough Drive: Kaikōura, Blenheim and Camping",
+    description: "Christchurch to Blenheim and Marlborough by road: about 335 km and 4 to 4.5 hours on State Highway 1 through Kaikōura, with seals, whales, wine and where to camp and stop.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Waipara", "Kaikōura", "Ward", "Blenheim", "Picton"],
+    imageAlt: "Picton Harbour with boats and hills in the Marlborough Sounds",
+    related: ["picton-kaikoura-christchurch-route", "freedom-camping-marlborough-2026", "christchurch-to-nelson-drive-guide", "cook-strait-ferry-campervan-guide", "wildlife-livestock-road-safety-new-zealand", "new-zealand-driving-day-planner"],
+    hubs: ["camping/marlborough", "camping/canterbury"],
+    intro:
+      "Christchurch to Blenheim is about 335 kilometres and takes 4 to 4.5 hours on State Highway 1, with the best part of the drive along the Kaikōura coast, where the mountains meet the sea. Most people stop at Kaikōura for the seals and the whales, then continue to Blenheim and the Marlborough wine region and on to Picton for the ferry. Two days makes it a trip and not a transfer.",
+    sections: [
+      s("Route, distance and time", [
+        "State Highway 1 leaves Christchurch north through Waipara and the Hurunui, over the Hundalee Hills to the coast near Kaikōura, then follows the coast and climbs inland over the Ward hills to Seddon and Blenheim. The distance is about 335 kilometres, with Kaikōura roughly 180 kilometres from Christchurch and 2.5 hours away.",
+        "The coast road beyond Kaikōura was rebuilt after the 2016 earthquake and still has reduced speeds, bridge works and the occasional slip after rain, so check the NZTA Journey Planner before you leave. The driving day planner helps you set a day that suits your vehicle.",
+      ], ["About 335 km, 4 to 4.5 hours", "Kaikōura is the halfway stop", "Check for slips after rain"]),
+      s("Waipara, Hanmer Springs and the Hurunui", [
+        "The Waipara Valley, 50 minutes north of Christchurch, is a wine region known for riesling and pinot noir, with cellar doors and cafes along the road. Cheviot, further on, is a small town with a pub and a campground, and Hanmer Springs is a detour to the west for hot pools.",
+        "The Hurunui has sheep and cattle on the rural roads, and you should watch for stock and slow down for blind corners. The wildlife and livestock road safety guide has more on driving in the countryside.",
+      ], ["Waipara wine region", "Watch for stock on the road", "Hanmer Springs is a detour"]),
+      s("Kaikōura", [
+        "Kaikōura sits between the sea and the Kaikōura Ranges, with a seal colony at Point Kean and a larger one at Ohau Point, where pups play in a waterfall pool in winter, and whale watching and swimming with dolphins from the harbour. Crayfish is the local specialty, with roadside caravans selling it fresh, and the Kaikōura Peninsula Walkway gives views over the town.",
+        "Holiday parks and campgrounds in Kaikōura book out in summer and over school holidays, so reserve ahead. Keep a safe distance from the seals, which can be aggressive when disturbed, and never stand between a seal and the water.",
+      ], ["Seals at Point Kean and Ohau Point", "Whale watching from the harbour", "Book campgrounds ahead in summer"]),
+      s("Blenheim and the wine region", [
+        "North of Kaikōura the road passes the Clarence River and Ward, then drops into the Awatere and Wairau valleys, which are the heart of Marlborough's wine country, known for sauvignon blanc. Blenheim is the main town, with cellar doors, restaurants and a cycle path through the vineyards, and a campervan stays outside the cellar doors if the driver is not drinking.",
+        "Remember the drink-driving limits, which are strict, and use a tour or a taxi if you plan to taste. The alcohol and fatigue driving guide covers the rules. Holiday parks in and around Blenheim are an easy base.",
+      ], ["Sauvignon blanc country", "Cycle path through the vineyards", "Do not drive after tasting"]),
+      s("Picton and the Sounds", [
+        "Picton, 30 minutes north of Blenheim, is the ferry terminal for the North Island and the gateway to the Marlborough Sounds, with boat trips, walks and the Queen Charlotte Track. If you are catching the ferry, book the vehicle ahead, and the Cook Strait ferry guide covers the sizes and costs.",
+        "Freedom camping in Marlborough is limited to a few places and needs a certified self-contained vehicle, and the freedom camping in Marlborough guide lists the rules. Holiday parks in Picton and the Sounds are the easier choice for a night before the ferry.",
+      ], ["Ferry vehicles need booking", "Queen Charlotte Track for walkers", "Freedom camping is limited"]),
+      s("Planning the drive in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this coast, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], undefined, true),
+    ],
+    faq: [
+      ["How long is the drive from Christchurch to Blenheim?", "About 335 kilometres and 4 to 4.5 hours on State Highway 1 through Kaikōura, without stops. Most people stop for a few hours in Kaikōura."],
+      ["Is the Kaikōura coast road open?", "Yes, it was rebuilt after the 2016 earthquake, though slips and works after heavy rain can cause delays. Check the NZTA Journey Planner before you drive."],
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Kaikōura and Marlborough", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/" },
+      { label: "Destination Marlborough: visit Marlborough", url: "https://www.marlboroughnz.com/" },
+    ],
+  }),
 ];
