@@ -327,4 +327,49 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "camping-in-christchurch",
+    title: "Camping in Christchurch: Holiday Parks, Council Campgrounds and Where to Base Yourself",
+    description: "Where to camp in and around Christchurch: the city holiday parks, Christchurch City Council's campgrounds on the coast and Banks Peninsula, the freedom camping areas, DOC campsites inland and when to book.",
+    category: "Camping guides",
+    region: "Canterbury",
+    places: ["Christchurch", "Papanui", "Riccarton", "Lyttelton", "Akaroa", "Spencer Park"],
+    imageAlt: "The Avon River flowing through the Christchurch Botanic Gardens",
+    related: ["freedom-camping-akaroa", "banks-peninsula-camping-weekend", "christchurch-to-queenstown-drive-guide", "arthurs-pass-camping-route", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/canterbury", "freedom-camping/mahaanui"],
+    intro:
+      "Christchurch is the South Island's main arrival point, and it has holiday parks inside the city, council-run campgrounds on the coast and Banks Peninsula, and DOC campsites inland in the Southern Alps. A first night after a flight is easy to book, while the signposted freedom camping areas are small and limited to certified self-contained vehicles. Book early for summer and for the days around rental pick-ups.",
+    sections: [
+      s("Start of the trip, end of the trip", [
+        "Most visitors fly into Christchurch, collect a campervan and leave the next morning, or return it at the end of a trip, so the nights either side of a hire matter more than a long stay. Christchurch City Council allows freedom camping only in a couple of signposted areas, for certified self-contained vehicles, and bans it in most of the city and Banks Peninsula, as the guide to freedom camping in Akaroa describes for the peninsula. That makes the holiday park the sensible first and last night.",
+        "Holiday parks cluster in the north and west of the city, close to the airport and the rental depots, and the council's own campgrounds sit on the coast and on the peninsula. Pick by what comes next: the road to Kaikōura and Picton leaves north, the road to Tekapo and Queenstown leaves south and west.",
+      ], ["First and last nights: book a park", "Freedom camping is limited", "Pick by the road you take next"]),
+      s("Holiday parks in the city", [
+        "Christchurch TOP 10 Holiday Park, formerly Meadow Park, is on Meadow Street in Papanui in the north of the city, with powered and unpowered sites and cabins and an easy run to the airport and the northern highway. Amber Kiwi Holiday Park is a small inner-city park on Blenheim Road in Riccarton, with campervan, caravan and tent sites and motel units, close to shops and the university.",
+        "Both fill around the school holidays and in summer, and the nights before and after a hire fill first. The guide to holiday parks in New Zealand explains site types, power and booking.",
+      ], ["Papanui: north, near the airport", "Riccarton: inner city, near shops", "Book the nights around a hire"]),
+      s("Council campgrounds and the peninsula", [
+        "Christchurch City Council runs a small network of campgrounds, including Spencer Beach TOP 10 Holiday Park on the northern coast, which suit a quieter night near the sea. On Banks Peninsula, Akaroa TOP 10 Holiday Park sits about a 15 minute walk from the village, with cabins and a heated pool, and is the answer to the township's strict camping rules. The Banks Peninsula camping weekend guide covers the loop.",
+        "These campgrounds book out on summer weekends, so reserve early, and check the park's page for the current rules on dogs, fires and quiet hours.",
+      ], ["Spencer Beach: northern coast", "Akaroa: a walk from the village", "Reserve for summer weekends"]),
+      s("DOC campsites inland", [
+        "DOC's campsites are in the mountains and high country, not in the city. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 6 of them free and 14 bookable online through DOC, with adult nightly rates from $10 to $23. Peel Forest Campground is the largest at 81, and the biggest clusters are in Arthur's Pass, Lake Sumner and the Craigieburn ranges, which the Arthur's Pass camping route covers.",
+        "DOC's freedom camping notices for the Christchurch and Banks Peninsula area ban camping at Godley Head and Ripapa Island, so look inland for a DOC night. The guide to DOC campsites explains how booking works, and 18 of the 22 have campervan access.",
+      ], ["22 DOC campsites in Canterbury", "Arthur's Pass is the nearest cluster", "18 have campervan access"]),
+      s("Using KiwiCamping around Christchurch", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save the first and last night's parks, add them to a trip with dates, and read the distance to the first leg, whether that is Kaikōura, Tekapo or Arthur's Pass.",
+        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save the first and last night", "Check the forecast for Arthur's Pass", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I camp in Christchurch?", "At holiday parks such as Christchurch TOP 10 in Papanui and Amber Kiwi in Riccarton, at the council's coastal campgrounds, or at DOC campsites inland. Freedom camping is limited to a couple of signposted areas for certified self-contained vehicles."],
+      ["Where should I stay the night I pick up a campervan in Christchurch?", "A holiday park in the north or west of the city, booked ahead, so you can load up and leave early for the road north or south."],
+    ],
+    sources: [
+      { label: "Christchurch TOP 10 Holiday Park", url: "https://top10.co.nz/park/christchurch/" },
+      { label: "Christchurch City Council: Camping and campervans", url: "https://ccc.govt.nz/rec-and-sport/camping" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
 ];

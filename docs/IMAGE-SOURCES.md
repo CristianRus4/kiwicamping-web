@@ -195,3 +195,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-in-queenstown` | Queenstown from Bob's Peak.jpg | Lawrence Murray from Perth, Australia | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg) |
 | `camping-in-auckland` | Auckland Skyline as seen from Devonport 20100128 3.jpg | DXR | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Auckland_Skyline_as_seen_from_Devonport_20100128_3.jpg) |
 | `camping-in-wellington` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |
+| `camping-in-christchurch` | Avon River in Christchurch Botanic Gardens.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_Botanic_Gardens.jpg) |
