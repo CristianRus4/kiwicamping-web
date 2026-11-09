@@ -312,4 +312,53 @@ export const k7Articles: Article[] = [
       { label: "DOC: Canterbury and Otago", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-hokitika-greymouth-road-trip",
+    title: "Christchurch to Hokitika and Greymouth Road Trip via Arthur's Pass",
+    description: "Christchurch to Greymouth and Hokitika by campervan: about 250 km and 3.5 to 4 hours over Arthur's Pass, with Castle Hill, the Otira viaduct, kea, Lake Brunner, Hokitika Gorge and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Springfield", "Arthur's Pass", "Greymouth", "Lake Brunner", "Hokitika"],
+    imageAlt: "The Waimakariri River near Arthur's Pass with mountains on both sides",
+    related: ["arthurs-pass-camping-route", "west-coast-south-island-road-trip", "freedom-camping-westland-2026", "winter-driving-new-zealand-campervan", "wildlife-livestock-road-safety-new-zealand", "sandflies-new-zealand-camping"],
+    hubs: ["camping/canterbury", "camping/west-coast"],
+    intro:
+      "Christchurch to Greymouth is about 250 kilometres and 3.5 to 4 hours on State Highway 73, the most dramatic crossing of the Southern Alps by road. The route runs from the Canterbury Plains up the Waimakariri Valley, over Arthur's Pass and down to the wet, green West Coast, and Hokitika is another 40 minutes south. Two days turns it from a transfer into a proper road trip, and the stops below make it easy.",
+    sections: [
+      s("Route, distance and time", [
+        "From Christchurch, State Highway 73 runs west through Darfield and Springfield, up the Waimakariri River and over Arthur's Pass at 920 metres, then down the Otira Gorge to Kumara Junction and Greymouth. The distance is about 250 kilometres and takes 3.5 to 4 hours without stops. Hokitika is a further 40 kilometres south.",
+        "The road is winding and steep in places, with one-lane bridges and sections where trucks and campervans meet on tight bends. Plan for slower speeds than the map suggests, and check the NZTA Journey Planner, because the pass can close for snow, ice, slips or a crash. The driving day planner helps you set days to suit your vehicle.",
+      ], ["About 250 km, 3.5 to 4 hours to Greymouth", "Hokitika is 40 km further", "Check NZTA for pass closures"]),
+      s("Springfield, Castle Hill and Porters Pass", [
+        "The plains are flat farmland until the road reaches Springfield, the gateway to the mountains with a giant doughnut and a cafe, and then climbs to Porters Pass, a high tussock pass with views of the Torlesse Range. A short detour leads to Castle Hill, a field of limestone boulders that is popular for climbing and photography.",
+        "The Waimakariri Gorge and Cass are worth a pause for the river views, and fuel is available in Springfield and again only at Arthur's Pass village, so fill up early. The Arthur's Pass camping route guide covers the area in more detail.",
+      ], ["Springfield doughnut and cafe", "Castle Hill boulders are a short detour", "Fill up early"]),
+      s("Arthur's Pass village and the Otira Gorge", [
+        "Arthur's Pass is a small village in a national park, with short walks to Devils Punchbowl Falls and Bealey Valley, a visitor centre and a few cafes. Kea, the cheeky alpine parrots, gather at the carparks and can damage vehicles and gear, so do not feed them and keep food and loose items inside.",
+        "Beyond the village the road descends the Otira Gorge via the Otira Viaduct, a long steel structure that replaced the old route down the valley, with a winding road below and steep drops. Drive slowly, use a low gear on the descent and give way to oncoming trucks. The winter driving guide covers chains and ice.",
+      ], ["Do not feed the kea", "Devils Punchbowl Falls walk", "Use a low gear on the descent"]),
+      s("Greymouth and Lake Brunner", [
+        "Greymouth is the largest town on the West Coast, with a working harbour, fuel, supermarkets and a brewery. A side trip leads to Lake Brunner, a quiet lake 40 minutes inland, where a short drive reaches Moana, a small township with a lakefront and good fishing.",
+        "The Coast gets heavy rain and a day or two of it is normal, with rivers that rise quickly. Do not drive through floodwater, and check the forecast. Sandflies bite from dawn to dusk, and repellent is worth carrying. The sandflies guide has advice on clothing.",
+      ], ["Greymouth has fuel and supermarkets", "Lake Brunner is quiet", "Heavy rain is normal"]),
+      s("Hokitika", [
+        "Hokitika is the greenstone and craft town of the West Coast, with pounamu carving studios, a glow-worm dell in the middle of town and Hokitika Beach, where the driftwood and the sunset draw a crowd. Hokitika Gorge, a 30 minute drive inland, is a pale turquoise gorge reached by a short walk and a swing bridge.",
+        "Freedom camping in Westland is restricted and needs a certified self-contained vehicle at set sites, so check the Westland freedom camping guide before parking. Holiday parks in Hokitika and Greymouth are the easier choice, with powered sites and kitchens.",
+      ], ["Pounamu studios and a glow-worm dell", "Hokitika Gorge is 30 minutes inland", "Check Westland camping rules"]),
+      s("Where to camp", [
+        "DOC campsites around Arthur's Pass, Cass and Lake Brunner give quiet nights close to the mountains and the lake, and a holiday park in Greymouth or Hokitika suits a wet evening. Book in summer, because West Coast campsites fill between Christmas and the end of January.",
+        "Nights in the pass are cold at any time of year, and winter nights are below freezing, so carry a warm sleeping layer and a heater. The wildlife and livestock guide covers the animals you might meet on the road, and the West Coast road trip guide continues south to Franz Josef and Haast.",
+      ], ["DOC campsites near the pass", "Book in summer", "Nights are cold in the pass"]),
+      s("Planning the drive in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the pass and the West Coast, with filters for campervan access and facilities. Save the stops you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Arthur's Pass National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/" },
+      { label: "DOC: West Coast", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/" },
+      { label: "Development West Coast: visit the West Coast", url: "https://www.west-coast.co.nz/" },
+    ],
+  }),
 ];

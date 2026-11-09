@@ -587,6 +587,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-to-hokitika-greymouth-road-trip.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-hokitika-greymouth-road-trip-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-hokitika-greymouth-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christchurch-to-queenstown-drive-guide.webp": {
     "width": 1600,
     "height": 900,

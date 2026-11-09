@@ -165,3 +165,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `manawatu-road-trip-camping` | Whanganui journey rapids.jpg | ShakyIsles | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whanganui_journey_rapids.jpg) |
 | `top-of-the-south-itinerary-nelson-golden-bay-marlborough` | Abel Tasman National Park beach plant.jpg | Hector Garcia from Barcelona, Catalonia, Spain | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Abel_Tasman_National_Park_beach_plant.jpg) |
 | `christchurch-to-wanaka-drive-guide` | Lake Tekapo, New Zealand (1).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo,_New_Zealand_(1).JPG) |
+| `christchurch-to-hokitika-greymouth-road-trip` | Waimakariri River close to Arthur's Pass, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Waimakariri_River_close_to_Arthur%27s_Pass,_New_Zealand.jpg) |
