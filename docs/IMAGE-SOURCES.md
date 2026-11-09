@@ -162,3 +162,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `is-camping-in-new-zealand-safe` | Cyclist crossing the Hurunui River.JPG | Alan Liefting | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cyclist_crossing_the_Hurunui_River.JPG) |
 | `volcanic-loop-road-trip-new-zealand` | Tongariro Northern Circuit, New Zealand (22).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tongariro_Northern_Circuit,_New_Zealand_(22).JPG) |
 | `hawkes-bay-wairarapa-wine-trail-campervan` | State Highway 2 (Rimutaka Hill Road) near the top of the range..jpg | Deano87 | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:State_Highway_2_(Rimutaka_Hill_Road)_near_the_top_of_the_range..jpg) |
+| `manawatu-road-trip-camping` | Whanganui journey rapids.jpg | ShakyIsles | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Whanganui_journey_rapids.jpg) |

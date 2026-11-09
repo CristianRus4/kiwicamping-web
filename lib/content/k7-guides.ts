@@ -164,4 +164,53 @@ export const k7Articles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "manawatu-road-trip-camping",
+    title: "Manawatū Road Trip and Camping: Palmerston North, Feilding and the Ranges",
+    description: "A three-day Manawatū road trip by campervan from Wellington: the Horowhenua coast, Palmerston North, Feilding, the Pohangina Valley and Ruahine foothills, the new Manawatū highway and where to camp.",
+    category: "Road trips",
+    region: "North Island",
+    places: ["Levin", "Foxton", "Palmerston North", "Feilding", "Pohangina Valley", "Woodville"],
+    imageAlt: "Rapids on the Whanganui River in the Manawatū-Whanganui region",
+    related: ["wellington-wairarapa-camping-loop", "auckland-to-wellington-drive-guide", "whanganui-journey-camping-2026-27", "freedom-camping-wellington-2026", "north-island-two-week-road-trip", "campervan-road-rules-new-zealand"],
+    hubs: ["camping/manawatu-whanganui", "camping/wellington-kapiti"],
+    intro:
+      "Manawatū is the part of the North Island most people drive straight through on State Highway 1 between Wellington and Taupō. That is a mistake, because it has a lively university city, flat farmland framed by the Tararua and Ruahine ranges, long driftwood beaches, river gorges and a new highway that has transformed the link to the Wairarapa. Three days from Wellington covers it at an easy pace, with short drives and good camping.",
+    sections: [
+      s("The route and how long it takes", [
+        "Leave Wellington on State Highway 1 north through Kāpiti, then Ōtaki, Levin and Foxton to Palmerston North, which is about 145 kilometres and two hours without stops. From Palmerston North loop out through Feilding and the Pohangina Valley, then east over the Tararua Range on the new highway to Woodville and the Wairarapa, or return south the way you came.",
+        "Three days is a comfortable trip, with a night on the coast, one in or near Palmerston North, and one in the Pohangina Valley or on the way east. The driving day planner helps you set days to suit your vehicle, and the Wellington and Wairarapa camping loop guide picks up the road south from Woodville.",
+      ], ["About 145 km from Wellington to Palmerston North", "Three days is comfortable", "Loop back over the new highway"]),
+      s("Kāpiti and Horowhenua", [
+        "The Kāpiti Coast and Horowhenua are an easy first leg. Ōtaki has a good bakery, craft shops and the Ōtaki River mouth, Levin is the service town for the region, and Foxton, on the coast, has the De Molen windmill, the Foxton Beach holiday park and a long, windy shoreline of driftwood and dunes.",
+        "Several beaches here, including Himatangi and Foxton, are exposed and the sea is rough, with rips on the west coast. Swim only where it is patrolled in summer and check conditions before you go in. Camping on the dunes is controlled, so use a campground.",
+      ], ["De Molen windmill in Foxton", "Rips on the west coast beaches", "Use campgrounds, not the dunes"]),
+      s("Palmerston North", [
+        "Palmerston North is a university city with a pleasant centre, the Esplanade gardens, Te Manawa museum and a lively cafe scene. The Manawatū River has a walking and cycling path along it that is flat and easy, and a day here suits a wet forecast because most of what is worth doing is indoors.",
+        "Holiday parks on the city's edge suit a campervan, with powered sites, kitchens and showers, and the town has supermarkets and fuel, which is useful before the hills. Book in the university's graduation weeks, when rooms and sites fill.",
+      ], ["Esplanade and the river path", "Te Manawa museum for a wet day", "Fuel and supplies before the hills"]),
+      s("Feilding, the Pohangina Valley and the Ruahine foothills", [
+        "Feilding, 20 minutes north, is a farming town with a large Friday saleyard market and tidy streets. The Pohangina Valley beyond it is the quiet part of the trip, a long valley road up to the Ruahine foothills, with a regional park at Totara Reserve that has bush walks and a campground by the river.",
+        "The valley roads are narrow and partly unsealed in places, with stock and one-lane bridges, so take it slowly and give way as the signs say. The one-lane bridges and gravel roads guide has the rules. Rivers here rise fast in rain, so camp above them and move if the forecast is heavy.",
+      ], ["Totara Reserve for a riverside camp", "Narrow valley roads with stock", "Camp above rivers when rain is forecast"]),
+      s("The new highway to the Wairarapa", [
+        "The old Manawatū Gorge road closed after slips in 2017, and a new highway, Te Ahu a Turanga, now crosses the Tararua Range between Ashhurst and Woodville, so the link between Palmerston North and the Wairarapa is open again. It is a modern road with long climbs, and a good way to return to Wellington by a different route.",
+        "From Woodville you can continue to Pahiatua and the Wairarapa wine towns, or turn north to Hawke's Bay. The route is exposed to wind and can be affected by snow and ice in winter, so check the NZTA Journey Planner before driving.",
+      ], ["Te Ahu a Turanga links Ashhurst and Woodville", "Exposed to wind and winter ice", "Check NZTA before driving"]),
+      s("Where to camp", [
+        "Holiday parks in Foxton Beach, Palmerston North and Feilding are the simple choice, with powered sites and facilities. Regional parks and council campgrounds, such as Totara Reserve in the Pohangina Valley, give a quieter night by a river, and book out around summer weekends.",
+        "Freedom camping is controlled by council rules in Horowhenua and Manawatū, and some sites are limited to certified self-contained vehicles. The freedom camping guide explains the rules, and the Manawatū-Whanganui hub on this site lists the campsites with their details.",
+      ], ["Holiday parks in the towns", "Regional parks for quiet nights", "Check council rules for freedom camping"]),
+      s("Planning the trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
+    ],
+    sources: [
+      { label: "Manawatū NZ: visit Manawatū", url: "https://www.manawatunz.co.nz/" },
+      { label: "Horizons Regional Council: regional parks", url: "https://www.horizons.govt.nz/" },
+      { label: "NZTA: Te Ahu a Turanga Manawatū Tararua Highway", url: "https://www.nzta.govt.nz/" },
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];

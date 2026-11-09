@@ -1343,6 +1343,20 @@
       }
     ]
   },
+  "/images/articles/manawatu-road-trip-camping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/manawatu-road-trip-camping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/manawatu-road-trip-camping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/milford-track-2026-27-huts-booking-fees.webp": {
     "width": 1600,
     "height": 900,
