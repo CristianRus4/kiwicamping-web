@@ -340,4 +340,52 @@ export const cityTripArticles: Article[] = [
       { label: "Destination Marlborough: visit Marlborough", url: "https://www.marlboroughnz.com/" },
     ],
   }),
+  a({
+    slug: "camping-base-roys-peak-wanaka",
+    title: "Where to Camp for Roys Peak and Rob Roy Glacier: A Wānaka Base Guide",
+    description: "Where to camp for Roys Peak, Rob Roy Glacier and the other Wānaka day walks: holiday parks and lakeside campgrounds, the Roys Peak lambing closure, the Matukituki road and a plan for a wet day.",
+    category: "Trip planning",
+    region: "Central Otago",
+    places: ["Wānaka", "Roys Peak", "Rob Roy Glacier", "Matukituki Valley", "Lake Hāwea", "Makarora"],
+    imageAlt: "Lake Hāwea in Otago with mountains behind the water",
+    related: ["wanaka-haast-pass-route", "freedom-camping-queenstown-lakes-2026", "queenstown-glenorchy-camping", "river-crossing-safety-new-zealand", "wet-weather-camping-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/otago"],
+    intro:
+      "Wānaka is the base for two of the best day walks in the south: Roys Peak, a steep climb with one of the most photographed views in the country, and Rob Roy Glacier, a gentler walk up the Matukituki valley to a hanging glacier. The town has holiday parks and lakeside campgrounds, and the walks start 10 to 50 minutes away, so the choice of base is mostly about the season, the weather and whether you want to be in town.",
+    sections: [
+      s("The walks in brief", [
+        "Roys Peak Track is about 16 kilometres return, climbs roughly 1,300 metres and takes five to six hours, with no shade and little shelter. The view over Lake Wānaka and the Southern Alps is the reward, and the track starts from a car park on the road to Glendhu Bay. DOC closes the track each year from 1 October to 10 November for lambing, so check the dates before you plan.",
+        "Rob Roy Glacier Track is about 10 kilometres return and takes three to four hours, through beech forest and across a stream to a viewpoint of the glacier hanging above a valley. It is in Mount Aspiring National Park, at the end of the Matukituki Valley road. Isthmus Peak, Mount Iron and the Diamond Lake walk are shorter options.",
+      ], ["Roys Peak: 16 km, 5 to 6 hours", "Closed 1 October to 10 November", "Rob Roy: 10 km, 3 to 4 hours"]),
+      s("Camping in Wānaka", [
+        "Wānaka has several holiday parks in and near the town, with power, showers and kitchens, and lakeside campgrounds at Glendhu Bay on the way to the Matukituki valley. Glendhu Bay is the closest to both walks, with views of the lake and mountains, and the facilities are simple. Book ahead from December to February and over Easter, when the town is busy.",
+        "Queenstown Lakes District Council restricts freedom camping to a few designated places and requires a certified self-contained vehicle, and the rules are enforced, as the freedom camping in Queenstown Lakes guide explains. For the walks, a holiday park or a campground is the easier choice.",
+      ], ["Holiday parks in town", "Glendhu Bay near both walks", "Book ahead in summer"]),
+      s("Roys Peak: starting early", [
+        "The car park at the trailhead fills early on a fine day, and the walk is long and exposed, so start at dawn in summer and carry water and sun protection. A base at Glendhu Bay or in town works, as the drive takes about 10 minutes. The upper part of the track is steep and can be icy in winter and spring.",
+        "In the lambing closure, use the nearby tracks around the lake and the Mount Iron walk, which is short and open all year. Please keep to the track and respect the stock.",
+      ], ["Start at dawn", "Carry water and sun protection", "Mount Iron is open all year"]),
+      s("Rob Roy Glacier and the Matukituki road", [
+        "The road up the Matukituki Valley is sealed to Glendhu Bay and then gravel for about 30 kilometres, with several fords that can rise after rain and are impassable at times. Many hire companies forbid driving through them, so check the rental contract and DOC's alerts before you go. The river crossing safety guide has the basics.",
+        "If the fords are high, the Rob Roy walk is out of reach, and you should choose a lakeside walk or wait. Allow about an hour from Wānaka to the car park, and bring insect repellent for the sandflies.",
+      ], ["Fords on the gravel road", "Check the hire contract", "Plan B if the river is high"]),
+      s("Lake Hāwea, Makarora and a wet day", [
+        "Lake Hāwea, 15 minutes north, is quieter than Wānaka, with a lakeside campground, and Makarora, 60 kilometres further, has DOC campsites and walks on the way to the Haast Pass. The Wānaka and Haast Pass guide covers the drive to the West Coast.",
+        "On a wet day, drop to the lakeside paths, visit the museums and cafes in town or head to a drier part of the region. The wet weather camping guide has advice on choosing a safe site, and a holiday park with a camp kitchen is the best option.",
+      ], ["Hāwea is quieter", "Makarora for the Haast Pass", "Camp kitchens for a wet day"]),
+      s("Using KiwiCamping to pick a base", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Wānaka, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the Roys Peak day. It does not give turn-by-turn directions or live traffic.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["Where should I camp for Roys Peak?", "At a holiday park in Wānaka or a lakeside campground at Glendhu Bay, 10 minutes from the car park. Start at dawn, and check that the track is open, as it closes from 1 October to 10 November."],
+      ["Can I drive a campervan to Rob Roy Glacier?", "The road to the car park is gravel with fords, and many hire companies forbid it. Check your contract and the river levels, and consider a shuttle."],
+    ],
+    sources: [
+      { label: "DOC: Roys Peak Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/wanaka-area/things-to-do/roys-peak-track/" },
+      { label: "DOC: Rob Roy Glacier Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/wanaka-area/things-to-do/rob-roy-glacier-track/" },
+      { label: "Queenstown Lakes District Council: freedom camping", url: "https://www.qldc.govt.nz/" },
+    ],
+  }),
 ];

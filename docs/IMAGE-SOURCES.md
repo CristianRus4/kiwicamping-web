@@ -166,3 +166,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-invercargill-drive-guide` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
 | `christchurch-to-nelson-drive-guide` | Abel Tasman National Park beach plant.jpg | Hector Garcia from Barcelona, Catalonia, Spain | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Abel_Tasman_National_Park_beach_plant.jpg) |
 | `christchurch-to-marlborough-drive-guide` | Picton Harbour, Marlborough Sounds.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Picton_Harbour,_Marlborough_Sounds.jpg) |
+| `camping-base-roys-peak-wanaka` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
