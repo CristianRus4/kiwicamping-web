@@ -2085,6 +2085,20 @@
       }
     ]
   },
+  "/images/articles/wikicamps-not-working-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wikicamps-not-working-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wikicamps-not-working-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/wildlife-livestock-road-safety-new-zealand.webp": {
     "width": 1600,
     "height": 900,
