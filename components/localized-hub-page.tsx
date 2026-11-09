@@ -6,7 +6,7 @@ import { HubMap } from "@/components/hub-map";
 import { mainData } from "@/lib/analytics";
 import { appStoreUrl } from "@/lib/app-store";
 import { SITE_URL, sitePath } from "@/lib/site";
-import { htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
+import { englishFallback, htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
 import { localizedArticles } from "@/lib/localized";
 import { factValue, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
@@ -77,7 +77,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
 
   return <>
     <LocalizedHeader locale={locale} />
-    <main {...mainData({ kind: "hub", locale, slug: hub.id })} lang={translated ? undefined : "en"}>
+    <main {...mainData({ kind: "hub", locale, slug: hub.id })} {...englishFallback(translated)}>
       <article className="article-page hub-page">
         <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href={indexPath}><ArrowLeft />{copy.indexTitle}</Link><span>{hub.operationsRegion ?? hub.island}</span></nav>
         <header className="article-header">
@@ -203,7 +203,7 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
   };
   return <>
     <LocalizedHeader locale={locale} />
-    <main {...mainData({ kind: "hub", locale, slug: kind })} lang={translated ? undefined : "en"}>
+    <main {...mainData({ kind: "hub", locale, slug: kind })} {...englishFallback(translated)}>
       <article className="article-page hub-page">
         <header className="article-header">
           <p className="eyebrow">{t.common.indexEyebrow}</p>

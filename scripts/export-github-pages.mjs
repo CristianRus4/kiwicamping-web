@@ -8,7 +8,7 @@ import { startProdServer } from "vinext/server/prod-server";
 import { APP_STORE_URL, SITE_URL } from "../lib/site.ts";
 import { appStoreUrl } from "../lib/app-store.ts";
 import { exportRoutes } from "../lib/routes.ts";
-import { englishLocale, htmlLang } from "../lib/locales.ts";
+import { englishLocale, htmlLang, textDirection } from "../lib/locales.ts";
 import { redirects } from "../lib/redirects.ts";
 
 // Drafts render only in development. An export with them would publish unfinished languages.
@@ -34,6 +34,10 @@ const htmlRoutes = routes.filter((route) => route.kind !== "crawler").map((route
 const textRoutes = routes.filter((route) => route.kind === "crawler").map((route) => route.path);
 const legacyRoutes = routes.filter((route) => route.locale === "en" && route.path.endsWith(".html")).map((route) => route.path);
 const langOf = new Map(routes.map((route) => [route.path, htmlLang(route.locale)]));
+// A right-to-left edition (Hebrew) says so on <html>, so the page, its scrollbar and form controls
+// start from the right. Left-to-right pages keep the default and carry no dir attribute.
+const rtlRoutes = new Set(routes.filter((route) => textDirection(route.locale) === "rtl").map((route) => route.path));
+const htmlAttributes = (route) => `lang="${langOf.get(route) ?? defaultLang}"${rtlRoutes.has(route) ? ' dir="rtl"' : ""}`;
 
 // A route ending in .html is a real file path, not a directory with an index inside it.
 const outputPath = (route) => route === "/" ? resolve(output, "index.html") : route.endsWith(".html") ? resolve(output, route.slice(1)) : resolve(output, route.slice(1), "index.html");
@@ -47,10 +51,10 @@ await cp(resolve(root, "dist/client"), output, { recursive: true });
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:resolve(root,"dist"),noCompression:true,purpose:"prerender"});
 
 // The root layout renders a single <html> element for every route, so it says English everywhere.
-// Each exported file knows its own edition, so the tag is corrected here from the registry.
+// Each exported file knows its own edition, so the tag (lang and dir) is corrected here from the registry.
 function prepareHtml(html, route) {
   return html
-    .replace(/<html lang="[^"]*"/i, `<html lang="${langOf.get(route) ?? defaultLang}"`)
+    .replace(/<html lang="[^"]*"/i, `<html ${htmlAttributes(route)}`)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
       // Structured data, the page's own tool scripts and the analytics bootstrap are kept. Everything
@@ -120,7 +124,7 @@ for (const [from, to] of Object.entries(redirects)) {
   const target = outputPath(from);
   await mkdir(dirname(target), { recursive: true });
   await writeFile(target, `<!doctype html>
-<html lang="${langOf.get(to) ?? defaultLang}">
+<html ${htmlAttributes(to)}>
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, follow">

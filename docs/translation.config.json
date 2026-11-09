@@ -23,7 +23,8 @@
         "hu",
         "el",
         "sk",
-        "sl"
+        "sl",
+        "he"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -94,6 +95,10 @@
         {
           "locale": "sl",
           "path": "../lib/translations/sl.json"
+        },
+        {
+          "locale": "he",
+          "path": "../lib/translations/he.json"
         }
       ],
       "protectedTerms": [

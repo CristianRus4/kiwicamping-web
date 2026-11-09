@@ -25,3 +25,20 @@ string is translated; its guide URLs appear one by one as their translations are
 
 The previous generated translations were removed because the English guides had been rewritten and
 expanded underneath them, leaving them structurally stale. Privacy and terms survived intact.
+
+## Right-to-left languages
+
+Hebrew (`/he`) is the first right-to-left edition. A locale opts in with `"dir": "rtl"` in
+`lib/locales.json`; nothing else names a direction.
+
+- Its pages carry `dir="rtl"` on the locale wrapper (`app/[locale]/layout.tsx`) and on the exported
+  `<html>` (`scripts/export-github-pages.mjs`).
+- `app/globals.css` uses logical properties (`margin-inline-start`, `inset-inline-end`,
+  `border-inline-start`, `text-align: start`), so layout mirrors without per-language rules. Write new
+  CSS the same way: no `left`/`right`, `margin-left` or `text-align: left`.
+- Arrows that point along the reading direction (`ArrowRight`, `ArrowLeft`, `ArrowUpRight`,
+  `ExternalLink`) are flipped by one `:dir(rtl)` rule. Maps, photos and logos are never flipped.
+- English fallback inside a localised page uses `englishFallback()` from `lib/locales.ts`, which sets
+  `lang` and `dir="ltr"` together, so it reads left to right inside a Hebrew page.
+- Hebrew is never letter-spaced or uppercased, and falls back to the system Hebrew font (DM Sans has
+  no Hebrew glyphs).

@@ -20,6 +20,9 @@ import { localeCodes, type LocaleCode } from "./translations/index";
  *   the content audit accepts one when it checks that every brand survived translation.
  * - `genitive`: the language adds a possessive -s straight to a brand name ("KiwiCampings"), which
  *   the content audit also accepts.
+ * - `dir`: `rtl` for a right-to-left language (Hebrew). Its pages get `dir="rtl"` on <html> and the
+ *   locale wrapper; the stylesheet uses logical properties and mirrors directional arrows, and any
+ *   English fallback inside such a page is laid out left to right again. Omitted means `ltr`.
  * - `status`: `live` locales are built, exported, listed in the sitemap, hreflang and language
  *   switcher. `draft` locales are none of those; set LOCALES_PREVIEW=1 to render them in dev.
  *
@@ -28,6 +31,7 @@ import { localeCodes, type LocaleCode } from "./translations/index";
  */
 export type LocaleStatus = "live" | "draft";
 export type LocaleScript = "latin" | "cjk";
+export type TextDirection = "ltr" | "rtl";
 export type LocaleEntry = {
   code: LocaleCode;
   segment: string;
@@ -42,6 +46,7 @@ export type LocaleEntry = {
   reviews: boolean;
   caseEndings?: boolean;
   genitive?: boolean;
+  dir?: TextDirection;
 };
 
 export { localeCodes, type LocaleCode };
@@ -70,6 +75,13 @@ export const localeRoot = (code: LocaleCode | "en") => (code === "en" ? "" : `/$
 /** The Intl locale used to format dates, numbers and money for a locale. */
 export const intlLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.intl : localeEntry(code).intl);
 export const htmlLang = (code: LocaleCode | "en") => (code === "en" ? englishLocale.htmlLang : localeEntry(code).htmlLang);
+/** The writing direction of a locale's pages: `rtl` only where the registry says so. */
+export const textDirection = (code: LocaleCode | "en"): TextDirection => (code === "en" ? "ltr" : localeEntry(code).dir ?? "ltr");
+/**
+ * The attributes of an element that falls back to English inside a localised page: English, laid out
+ * left to right (which matters inside a right-to-left edition). None when the element is translated.
+ */
+export const englishFallback = (translated: boolean) => (translated ? {} : { lang: englishLocale.htmlLang, dir: "ltr" as const });
 export const localeScript = (code: LocaleCode | "en"): LocaleScript => (code === "en" ? "latin" : localeEntry(code).script);
 /** The full stop after a date that ends a sentence: none in CJK, where the date closes the line as written. */
 export const dateSentenceEnd = (code: LocaleCode | "en") => (localeScript(code) === "cjk" ? "" : ".");

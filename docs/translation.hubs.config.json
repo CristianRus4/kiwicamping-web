@@ -22,7 +22,8 @@
         "hu",
         "el",
         "sk",
-        "sl"
+        "sl",
+        "he"
       ],
       "varieties": {
         "pt": "pt-PT",
@@ -115,6 +116,10 @@
         {
           "locale": "sl",
           "path": "../lib/translations/hubs/sl.json"
+        },
+        {
+          "locale": "he",
+          "path": "../lib/translations/hubs/he.json"
         }
       ],
       "protectedTerms": [
