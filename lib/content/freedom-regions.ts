@@ -222,4 +222,64 @@ export const freedomRegionArticles: Article[] = [
       { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
     ],
   }),
+  a({
+    slug: "freedom-camping-west-coast",
+    title: "Freedom Camping on the West Coast 2026: Karamea to Haast, Town by Town",
+    description: "Where you can freedom camp on the South Island's West Coast in 2026: Buller, Grey and Westland's rules, Punakaiki and the glacier towns, the community sites, DOC campsites, dump stations and fines.",
+    category: "Rules & safety",
+    region: "West Coast",
+    places: ["Karamea", "Westport", "Punakaiki", "Greymouth", "Lake Brunner", "Hokitika", "Franz Josef", "Fox Glacier", "Haast"],
+    imageAlt: "Driftwood and grey stones on Hokitika beach under a clear sky, with the Tasman Sea behind",
+    related: ["west-coast-south-island-road-trip", "freedom-camping-westland-2026", "freedom-camping-south-island", "sandflies-new-zealand-camping"],
+    hubs: ["camping/west-coast", "freedom-camping/buller", "freedom-camping/greymouth", "freedom-camping/south-westland"],
+    intro:
+      "The West Coast is one of the easier places in the South Island to freedom camp in a certified self-contained vehicle, but each of its three councils works differently. Buller and Grey let certified vehicles stay on most council land outside a list of banned spots, and Westland points them to three community-run sites. Punakaiki, Fox Glacier and the stretch south to Haast are the tight spots, and a tent or a van without a toilet needs a DOC campsite or a holiday park.",
+    sections: [
+      s("Three councils along one highway", [
+        "The coast road runs more than 500 kilometres from Karamea in the north to Haast in the south, through the Buller, Grey and Westland districts. Each council has its own freedom camping bylaw, and the line between them is easy to cross without noticing, so the rule that applied at lunch may not apply at dinner.",
+        "Two national rules apply everywhere. Since 7 June 2026 only a green warrant counts as self-contained, and on council land a vehicle without one can stay only where a bylaw names a site for it. On the coast, no council currently names such a site, so for tents and uncertified vans the answer is DOC or a campground.",
+      ], ["Three councils, three bylaws", "Green warrants only", "No council sites for uncertified vans"]),
+      s("Buller: Karamea, Westport and Charleston", [
+        "Buller's bylaw lets a certified self-contained vehicle camp on council land anywhere outside its no-camping zones. The bylaw allows up to three consecutive days and ten a month at one spot, and the council's own page asks for no more than two nights in one place. The zones include the Oparara River mouth and Flagstaff at Karamea, the Buller River tipheads and Carters Beach Domain near Westport, Tauranga Bay, Constant Bay and Joyce Bay at Charleston, and parts of Reefton's main streets.",
+        "The bylaw dates from 2012 and the council has said it will consult on a new one in 2026, so read its page before relying on the old list. DOC's Buller district adds seven notices of its own, two of them restricting camping to self-contained vehicles.",
+      ], ["Certified vehicles: council land outside the zones", "Two nights in one place, the council asks", "A new bylaw is coming"]),
+      s("Punakaiki and the Paparoa coast", [
+        "Buller bans freedom camping on council land from the Fox River south to the Punakaiki River, apart from the highway corridor, and the rest of the coast there is Paparoa National Park. In practice that means no free night at the Pancake Rocks: stay at the campground in Punakaiki, or plan the night at Charleston or north of Greymouth.",
+        "The Paparoa Track starts and ends near here, and its three huts are DOC's, booked through DOC rather than the council.",
+      ], ["No freedom camping at Punakaiki", "Book the campground there", "Paparoa Track huts are booked"]),
+      s("Grey: Greymouth and Lake Brunner", [
+        "Grey District lets certified vehicles camp on council land outside its prohibited areas, which take in parts of Jacks Road, the Cobden Bridge site, Iveagh Bay, the Moana foreshore at Lake Brunner and the Blaketown tiphead, with some of those mapped as areas certified vehicles may use. The council approved an updated bylaw on 28 September 2026 that allows three nights in any four weeks and sets the overnight window at 7pm to 8am.",
+        "The council is still looking at whether to open any area to vehicles without certification. Until it does, Greymouth's holiday parks and the DOC campsites along the coast are the options for a tent.",
+      ], ["Three nights in four weeks", "Overnight 7pm to 8am", "Moana foreshore is mapped"]),
+      s("Westland: Hokitika to Haast", [
+        "Westland District sends certified vehicles to three community-run sites, Kumara Domain, Woodstock Domain at Rimu and Paringa Salmon Farm, with a donation asked. Council reserves are closed under the Reserves Act, and the council tells tent campers and uncertified vehicles to use commercial campgrounds.",
+        "A draft bylaw from 2024 proposed more sites, including Sunset Point in Hokitika, the Franz Josef heliport car park and the Haast playground, but its adoption has not been confirmed. Until the council confirms it, the sign on the night is what counts.",
+      ], ["Kumara, Rimu and Paringa sites", "A donation is asked", "The draft bylaw is not confirmed"]),
+      s("Franz Josef, Fox Glacier and the far south", [
+        "Glacier country is where a free night is hardest. The Westland draft lists Fox Glacier township as prohibited with no site of its own, and DOC's South Westland district carries 18 freedom camping notices, 17 of them prohibiting camping at walk car parks such as Roaring Billy. In January the holiday parks at Franz Josef and Fox fill early.",
+        "DOC's Gillespies Beach Campsite near Fox and Lake Paringa further south are the nearest DOC nights, and Haast has a holiday park and a council dump station. Beyond Haast the road climbs into Mount Aspiring National Park toward Wānaka, and the Wānaka guide takes over from there.",
+      ], ["Fox Glacier: no free site", "Gillespies Beach is DOC", "Book glacier nights in summer"]),
+      s("DOC campsites on the coast", [
+        "KiwiCamping's DOC data lists 14 DOC campsites in the West Coast region, 12 of them bookable online, with adult rates from $10 to $20 a night. Lake Māhinapua near Hokitika is the largest, with 100 sites, and the Lewis Pass reserve has two.",
+        "These are the dependable nights for a tent or an uncertified van. They have toilets and most take vehicles, and they are cheaper than a holiday park. Bring repellent: the coast's sandflies are famous, and the lakes and rivers are where they are worst.",
+      ], ["14 DOC campsites", "Lake Māhinapua has 100 sites", "Sandflies at every lake"]),
+      s("Dump stations, rain and fines", [
+        "Dump stations are spread thin. Westland lists them at the Hokitika oxidation ponds, at Franz Josef and by the Marks Road toilets at Haast, and Westport and Greymouth have their own, so empty your tanks at each town rather than gambling on the next. The coast gets heavy rain in every season, and river flats and beach car parks can flood, so check the forecast before choosing a riverside spot.",
+        "Fines are the national ones: $400 for camping in breach of a bylaw or in an uncertified vehicle where certification is required, $200 for a missing warrant card and $800 for waste or damage. Buller's page still mentions a $200 fine, but the national $400 is what applies under the current law.",
+      ], ["Empty tanks at every town", "Watch for flooding", "$400 for most breaches"]),
+      s("Planning the coast with KiwiCamping", [
+        "KiwiCamping maps freedom camping areas, DOC campsites, holiday parks and dump stations from Karamea to Haast, so the long gaps between them are easy to see before you set off. Filter by what your vehicle needs, and check each council's page for its latest list.",
+        "Build the coast as one trip, with a dated stop for each night, a holiday park saved as a fallback for Punakaiki and the glacier towns, and the distance and forecast for each leg. Free to download, with in-app purchases.",
+      ], ["See the gaps before you drive", "Fallbacks for Punakaiki and Fox", "Forecast for each night"], undefined, true),
+    ],
+    sources: [
+      { label: "Buller District Council: freedom camping", url: "https://bullerdc.govt.nz/recreation/freedom-camping/" },
+      { label: "Buller District Council: Freedom Camping Bylaw 2012 (amended 2018)", url: "https://bullerdc.govt.nz/media/vrifsbba/181119-bdc-freedom-camping-bylaw-2012.pdf" },
+      { label: "Grey District Council: freedom camping FAQs", url: "https://www.greydc.govt.nz/05our-district/freedom-camping/faqs" },
+      { label: "Grey District Council: Responsible Freedom Camping Bylaw consultation", url: "https://haveyoursay.greydc.govt.nz/regulation" },
+      { label: "Westland District Council: campgrounds and responsible camping", url: "https://www.westlanddc.govt.nz/recreation/campgrounds-and-responsible-camping/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];

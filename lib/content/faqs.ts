@@ -603,4 +603,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you freedom camp in Taupō?", "Yes, in a certified self-contained vehicle on council land outside the areas the 2023 bylaw prohibits, which include most of the lakefront reserves. Without certification, or in a tent, only Hipapatua Reid's Farm, Mangakino and Whakamaru are open to you."],
     ["Is Reid's Farm free?", "Yes. Hipapatua Reid's Farm on Huka Falls Road is a free council area with toilets but no drinking water, and the stay is short. It is busy all summer, so keep a paid campground in town as a fallback."],
   ],
+  "freedom-camping-west-coast": [
+    ["Can you freedom camp on the West Coast of the South Island?", "Yes, in a certified self-contained vehicle. Buller and Grey allow it on most council land outside their listed bans, and Westland at three community-run sites at Kumara, Rimu and Paringa. Tents and vans without a green warrant need a DOC campsite or a campground."],
+    ["Can you freedom camp at Punakaiki or Fox Glacier?", "Not on council land. Buller bans it from the Fox River to the Punakaiki River, and Fox Glacier township is on Westland's prohibited list, so book the campground at Punakaiki or a holiday park or DOC campsite near the glaciers."],
+  ],
 };
