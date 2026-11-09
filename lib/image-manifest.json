@@ -993,6 +993,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-picton.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-picton-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-picton.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-queenstown-lakes-2026.webp": {
     "width": 1600,
     "height": 900,

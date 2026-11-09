@@ -316,4 +316,51 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-picton",
+    title: "Freedom Camping in Picton: Where You Can Stay After the Ferry",
+    description: "Freedom camping in Picton: overnight stays are banned in every public car park, so where to go instead after the Interislander or Bluebridge, from Renwick and Blenheim sites to holiday parks and DOC campsites in the Sounds.",
+    category: "Rules & safety",
+    region: "Marlborough",
+    places: ["Picton", "Blenheim", "Renwick", "Queen Charlotte Sound", "Marlborough Sounds"],
+    imageAlt: "Picton and its harbour in the Marlborough Sounds, with boats moored below green hills",
+    related: ["freedom-camping-rules-new-zealand", "cook-strait-ferry-campervan-guide", "picton-kaikoura-christchurch-route", "self-contained-campervan-green-warrant", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/sounds", "camping/marlborough"],
+    intro:
+      "You cannot freedom camp in Picton. Marlborough District Council prohibits overnight stays in every public car park in the town, including the signposted spaces for campervans and oversized vehicles, which are for daytime parking only. The nearest council sites for certified self-contained vehicles are out at Renwick and in Blenheim, and for a first night off the ferry the dependable answer is a holiday park in Picton or a DOC campsite in the Sounds.",
+    sections: [
+      s("The Picton rule", [
+        "Picton is where most campervans arrive in the South Island, off the Interislander or Bluebridge ferry, and many arrive tired and expecting a place to park for the night. The council's parking page says freedom camping and overnight stays are prohibited in all public car parking areas in Picton, and the ferry operators repeat the message to passengers. The signed campervan bays around the waterfront are for short daytime stops.",
+        "The council enforces the rule, and the national infringement fees apply: $400 for freedom camping where it is prohibited or restricted, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
+      ], ["No overnight stays in Picton car parks", "Campervan bays are for daytime", "$400 for most breaches"]),
+      s("Where the council allows camping nearby", [
+        "Marlborough's Responsible Camping Control Bylaw allows camping on council land only for certified self-contained vehicles, with a single exception at Blairich Reserve in the Awatere Valley for cyclists. The sites the council lists are outside Picton: Renwick Domain car park, which has room for 20 vehicles and a 6pm to 9am window with a two night limit, and Wynen Street car park in Blenheim, also 6pm to 9am. Both are about 25 to 30 minutes from the ferry terminal by road.",
+        "The council has also used a temporary site at the Wairau Diversion near Blenheim, which may or may not still be open, and the whole list changes. The council's responsible camping page has the full list and the current map.",
+      ], ["Renwick Domain: 20 vehicles", "Wynen Street in Blenheim", "Self-contained only"]),
+      s("Holiday parks in Picton", [
+        "The sure choice for the first night is a holiday park in Picton itself. The council's list includes Parklands Marina Holiday Park, Blue Anchor Holiday Park, Picton Caravan Park and Alexander's Holiday Park, all within a few minutes of the ferry terminal, and they are the right answer for tents and for vehicles without a self-containment certificate. They fill on the days around the school holidays and Christmas, so book before you board the ferry.",
+        "The guide to the Cook Strait ferry covers booking the crossing and what happens on arrival, and the guide to holiday parks in New Zealand explains how to book the parks themselves.",
+      ], ["Book before the ferry", "A few minutes from the terminal", "Tents and uncertified vans: holiday park"]),
+      s("DOC campsites in the Sounds", [
+        "The Marlborough Sounds have the densest DOC camping in the north of the South Island. KiwiCamping's DOC data (11 August 2026) lists 44 DOC campsites in Marlborough, 10 of them free, with adult nightly rates from $10 to $27 and 20 bookable online through DOC. But 25 of the 44 are reached only on foot or by boat, and only 15 have campervan access, so check access before you drive. Whites Bay near Blenheim is the largest with room for 67.",
+        "DOC's freedom camping notices in the Sounds cover 11 places, 10 of them prohibitions, so a roadside bay is not automatically a camping place. The notices are DOC's own and are separate from the council's.",
+      ], ["44 DOC campsites in Marlborough", "25 are boat or foot access only", "DOC notices ban camping at 10 places"]),
+      s("Using KiwiCamping from Picton", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access, which matters in the Sounds. It does not hold the council's Renwick and Blenheim sites, so use the council's page for those.",
+        "Add the first night off the ferry to a trip with its date, and read the distance to Blenheim, Nelson or Kaikōura. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Filter for campervan access", "Plan the first night before boarding", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I sleep in my campervan in Picton?", "Not in any public car park: Marlborough District Council prohibits overnight stays in all of them. Use a holiday park in Picton, or a council site for certified self-contained vehicles at Renwick or in Blenheim."],
+      ["Where do I stay the first night off the Picton ferry?", "A holiday park in Picton is the simplest, and booking before you board avoids a full night. DOC campsites in the Sounds suit vehicles that can reach them."],
+    ],
+    sources: [
+      { label: "Marlborough District Council: Parking fees and locations, Picton", url: "https://www.marlborough.govt.nz/services/parking/parking-fees-and-locations-picton" },
+      { label: "Marlborough District Council: Camping in Marlborough", url: "https://www.marlborough.govt.nz/recreation/responsible-camping/camping-in-marlborough" },
+      { label: "Interislander: Where to park", url: "https://www.interislander.co.nz/plan/where-to-park" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

@@ -165,3 +165,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-raglan` | Raglan, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Raglan,_New_Zealand_05.jpg) |
 | `freedom-camping-timaru` | Timaru-Stafford.St.jpg | Thomei08 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Timaru-Stafford.St.jpg) |
 | `freedom-camping-whitianga` | Whitianga Harbour.jpg | Ulrich Lange, Bochum, Germany | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Whitianga_Harbour.jpg) |
+| `freedom-camping-picton` | 00 1189 Picton - Neuseeland.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1189_Picton_-_Neuseeland.jpg) |
