@@ -168,3 +168,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-picton` | 00 1189 Picton - Neuseeland.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1189_Picton_-_Neuseeland.jpg) |
 | `freedom-camping-te-anau` | Te Anau and Murchison Mountains.jpg | Tim Burgess | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Te_Anau_and_Murchison_Mountains.jpg) |
 | `freedom-camping-twizel` | Tasman Road in Twizel.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tasman_Road_in_Twizel.jpg) |
+| `freedom-camping-akaroa` | Akaroa, Banks Peninsula, Canterbury, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa,_Banks_Peninsula,_Canterbury,_New_Zealand_05.jpg) |

@@ -458,4 +458,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-akaroa",
+    title: "Freedom Camping in Akaroa: Where You Can Stay",
+    description: "Where certified self-contained campervans can stay in Akaroa: the one signed freedom camping area at the Boat Park, the two-night limit, the township ban, tents on Banks Peninsula and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Canterbury",
+    places: ["Akaroa", "Banks Peninsula", "Duvauchelle", "Lyttelton", "Little River"],
+    imageAlt: "Akaroa Harbour on Banks Peninsula, with the township on the shore and green hills rising behind it",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "banks-peninsula-camping-weekend", "camping-rules-local-councils-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/mahaanui", "camping/canterbury"],
+    intro:
+      "Akaroa has one signed freedom camping area, at the north end of the town in the Boat Park, and it is for certified self-contained vehicles for a maximum of two nights in any 30 days. The rest of the council land in Akaroa township is prohibited, and tents and vehicles without certified facilities are not allowed anywhere in Akaroa or on Banks Peninsula. In summer the spaces go early, so a holiday park is the dependable bed.",
+    sections: [
+      s("What Christchurch City Council requires", [
+        "Akaroa is in Christchurch City Council's area, so its Freedom Camping Bylaw 2021 applies, amended in November 2023 for the national self-containment changes. The council tightened Akaroa's rules after surveys found most locals thought freedom camping was a problem, and it now confines the activity to one marked area. Camping in a tent, or in a vehicle without certified toilet and wastewater facilities, is not allowed anywhere on Banks Peninsula.",
+        "The vehicle needs a current self-containment certificate, which since 7 June 2026 means the green warrant that the guide to the self-contained campervan warrant explains. The bylaw covers council land only, so DOC and private land follow other rules.",
+      ], ["Certified self-contained only", "No tents on Banks Peninsula", "Green warrant since 7 June 2026"]),
+      s("The Akaroa Freedom Camping Area", [
+        "The area is at the northern end of Akaroa, south of Woodills Road, in the north-eastern part of the Akaroa Boat Park. The council marks 18 spaces on site: two rows west of the croquet club, with seven larger spaces and eight medium ones, and a third row of three medium spaces beside Grehan Stream. The limit is two nights in any 30 days.",
+        "Because the spaces are few and Akaroa is a day trip for Christchurch and a cruise ship stop, they fill early on summer evenings. The council's camping page carries a note that the area can be temporarily unavailable, so check the page and ring the council before you rely on it, and keep a holiday park in mind for the night.",
+      ], ["18 marked spaces", "Two nights in any 30 days", "Check availability before relying on it"]),
+      s("Where it is banned", [
+        "Everything else the council owns or manages in the township is prohibited, which includes the waterfront, the wharf and the streets around the harbour. For daytime parking of large vehicles the council suggests the area near the boat ramp, but that is not an overnight spot.",
+        "A fine for camping where it is prohibited is $400, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+      ], ["Waterfront and streets: banned", "Boat ramp area is for day parking", "$400 for most breaches"]),
+      s("Holiday parks and the wider peninsula", [
+        "Akaroa has holiday parks in and just outside the town, and they are the right answer for tents, uncertified vans and anyone staying more than two nights. They book out over Christmas, the school holidays and the long weekends, so reserve ahead. The guide to holiday parks in New Zealand explains how booking works, and the Banks Peninsula camping weekend guide covers the wider loop.",
+        "DOC's freedom camping notices around Christchurch and Banks Peninsula, for places such as Godley Head and Ripapa Island, prohibit camping. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, but the closest are well inland of the peninsula.",
+      ], ["Book ahead for summer weekends", "DOC notices near Christchurch ban camping", "Closest DOC campsites are inland"]),
+      s("Using KiwiCamping around Akaroa", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's Boat Park area, so use the council's page for that and save a holiday park as the fallback.",
+        "Add Akaroa to a trip from Christchurch with its date and a note, and read the distance on the winding road over the hills. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council page decides the Boat Park", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Akaroa?", "Only in the council's one marked area at the Boat Park, in a certified self-contained vehicle, for up to two nights in any 30 days. The rest of the township is prohibited and tents are not allowed on Banks Peninsula."],
+      ["How many spaces are there at the Akaroa freedom camping area?", "The council marks 18 spaces: seven larger and eight medium ones in two rows by the croquet club, and three medium spaces beside Grehan Stream."],
+    ],
+    sources: [
+      { label: "Christchurch City Council: Camping and campervans", url: "https://ccc.govt.nz/rec-and-sport/camping" },
+      { label: "Christchurch City Council: Freedom Camping Bylaw 2021", url: "https://ccc.govt.nz/the-council/plans-strategies-policies-and-bylaws/bylaws/freedom-camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
