@@ -702,7 +702,7 @@ export const seasonalArticles: Article[] = [
         "In the South Island, the most visited districts, Queenstown Lakes, Westland and Christchurch, name no council sites for uncertified vehicles, so lean on DOC. Canterbury's high country, the West Coast, Otago and Southland have a dense spread of DOC campsites, many with campervan access, and Tasman and Dunedin have their named sites. Book holiday parks ahead around Queenstown and Wānaka in January, when they fill.",
       ], ["North Island: more council sites", "South Island: plan around DOC campsites", "Book Queenstown holiday parks for January"]),
       s("Fines and what does not count as camping", [
-        "Using a vehicle that is not self-contained where the rules require one is a $400 infringement, the same as camping where a bylaw prohibits it. Failing to display a warrant card on land restricted to self-contained vehicles is $200, and damaging the area or leaving waste is $800. Councils and DOC enforce the rules most heavily over summer, at night and early in the morning.",
+        "Using a vehicle that is not self-contained where the rules require one is a $400 infringement, the same as camping where a bylaw prohibits it. A missing warrant card on land restricted to self-contained vehicles costs $200, and damage or dumped waste costs $800. Councils and DOC enforce the rules most heavily over summer, at night and early in the morning.",
         "Pulling over to rest when you are too tired to drive safely is not freedom camping under the Act, and you should always stop rather than push on. But a planned night in a car park is camping, whatever you call it. Our guide to sleeping in your car covers that line, and the emergency and housing exceptions, in detail.",
       ], ["$400 for an uncertified vehicle where it is required", "Resting to avoid fatigue is allowed", "A planned night is camping"]),
       s("Should you get certified instead?", [
@@ -711,7 +711,7 @@ export const seasonalArticles: Article[] = [
       ]),
       s("Planning uncertified nights in KiwiCamping", [
         "KiwiCamping, the iPhone app we make, lists DOC's campsites with their fees, campervan access, booking requirements and dog rules, and DOC's freedom camping notices by district, so you can see where an uncertified vehicle can stay on conservation land. Filter by cost to find free and cheap DOC campsites, add holiday parks, and save them into a trip with dates, notes and the route distance between stops.",
-        "Place details stay on the phone when you lose signal; map tiles, routing, weather and photos need a connection. The app does not include council bylaw maps, so check the council's page for its named sites, and treat the sign at the entrance as the final word. KiwiCamping needs an iPhone with iOS 26 or later.",
+        "Out of signal you still have the saved place details, though the map, routes, weather and photos load only with a connection. The app does not include council bylaw maps, so check the council's page for its named sites, and treat the sign at the entrance as the final word. It runs on iPhones with iOS 26 or later.",
       ], ["DOC campsites with campervan access", "DOC freedom camping notices by district", "Save nights into a dated trip"], undefined, true),
     ],
     sources: [
