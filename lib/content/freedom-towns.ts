@@ -696,4 +696,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-matakana",
+    title: "Freedom Camping Around Matakana and Warkworth: Where to Stay",
+    description: "Where to sleep in a campervan around Matakana and Warkworth: Auckland Council's few small freedom camping sites, the booked regional park campgrounds at Tawharanui and Mahurangi, and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Auckland",
+    places: ["Matakana", "Warkworth", "Snells Beach", "Omaha", "Leigh", "Tawharanui"],
+    imageAlt: "Surf washing over dark sand on a west coast beach, with a headland and a sea stack in the distance",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-auckland-2026", "auckland-to-bay-of-islands-drive-guide", "freedom-camping-whangarei-2026", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/auckland", "freedom-camping/tamaki-makaurau-auckland-mainland"],
+    intro:
+      "Matakana and Warkworth sit an hour north of Auckland, and they fall under the same Auckland Council bylaw as the city: certified self-contained vehicles only, in a few signed places, for a couple of nights. The sites here are small, often only a handful of vehicles, and the regional parks around them are closed to freedom camping. The better plan for a weekend at the Matakana markets or the beaches of the Mahurangi coast is a booked campground or a holiday park, with the council sites as a late-arrival backup.",
+    sections: [
+      s("The Auckland rules that apply here", [
+        "Auckland's Freedom Camping in Vehicles Bylaw applies across the whole region, including Rodney and the Hibiscus Coast. Camping on council roads and car parks is allowed only in a certified self-contained vehicle, for up to two nights in the same spot, and you leave by 9am on the day you go. The guide to freedom camping in Auckland reads the bylaw in full, with its prohibited and restricted areas, so this page keeps to the Matakana end.",
+        "A tent or a vehicle without a certificate has no place on council land. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. Enforcement runs through the summer, and a notice goes to the registered owner, which for a rental is the hire company.",
+      ], ["Region-wide bylaw", "Two nights, away by 9am", "Green warrant needed"]),
+      s("Council sites near Warkworth and the coast", [
+        "The council's signed places in the area are small and spread out: a wharf reserve at Port Albert on the Kaipara side, a few spaces at Parry Kauri Park in Warkworth, and a handful of spots on the Mahurangi and Whangaparāoa coasts such as Snells Beach, each taking between three and ten vehicles. The council's map and page carry the list, and it changes, so confirm a place before a night depends on it.",
+        "Because the numbers are so low, the sites fill before dark in summer and on Friday nights. A booked campground gets you a guaranteed bed and a toilet block, and the spaces left for the unplanned arrival are better treated as a bonus than a plan.",
+      ], ["3 to 10 vehicles a site", "Port Albert is on the Kaipara side", "Treat free sites as a backup"]),
+      s("Regional parks and booked campgrounds", [
+        "Auckland Council's regional parks are closed to freedom camping, but two of them run booked campgrounds that suit a weekend in the area: Tawharanui at the end of a long peninsula road, with beaches on both sides, and Mahurangi, where the campgrounds sit above sheltered coves. Both take bookings through the council, and the best weekends in January go early.",
+        "They are for tents and campervans alike, with toilets and water, and some bays are a short walk from the water. Dogs, fires and quiet hours follow the park's own rules, which the booking page lists, and they are stricter than most holiday parks.",
+      ], ["Tawharanui and Mahurangi: book ahead", "Regional parks ban freedom camping", "Dog and fire rules differ"]),
+      s("Holiday parks and DOC land", [
+        "Warkworth, Snells Beach, Omaha and Leigh each have holiday parks or motor camps within reach, with powered sites and cabins. They are the dependable choice over Christmas, and Easter weekend brings the same crowds as the beaches do. The guide to holiday parks in New Zealand explains how booking works.",
+        "DOC land in the Auckland region is mostly on islands. KiwiCamping's DOC data (11 August 2026) lists 9 campsites in Auckland, 1 of them free and 5 with campervan access, with adult nightly rates from $10 to $18, and Home Bay on Motutapu Island is the largest with room for 131. None are near Matakana by road.",
+      ], ["Holiday parks near each beach", "DOC sites in Auckland are on islands", "Easter fills like Christmas"]),
+      s("Using KiwiCamping around Matakana", [
+        "KiwiCamping lists DOC campsites and huts, holiday parks with their facilities and dump stations around Auckland, with filters for campervan access. It does not carry the council's freedom camping sites or regional park bookings, so use the council pages for those.",
+        "Add the Matakana night to an Auckland to Bay of Islands trip and read the distance and drive time to the next stop, which is Whangārei, a bit over an hour on. Saved places stay on the phone, and the map, routes, forecast and photos need a connection, which is patchy on the peninsula roads. The app is free to download, with in-app purchases.",
+      ], ["Council and park bookings: use their pages", "Whangārei is about an hour on", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp near Matakana?", "Only in a certified self-contained vehicle at one of the council's small signed sites, for two nights at most. Regional parks and most reserves are closed to it, so a booked campground or holiday park is the safer plan."],
+      ["Can I camp at Tawharanui Regional Park?", "Yes, at its booked campground, not as freedom camping. Reserve through Auckland Council before you drive out."],
+    ],
+    sources: [
+      { label: "Auckland Council: Freedom camping", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/freedom-camping-auckland/general-rules-information-freedom-campers-auckland.html" },
+      { label: "Auckland Council: Freedom Camping in Vehicles Bylaw", url: "https://www.aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/bylaws/freedom-camping-bylaw.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
