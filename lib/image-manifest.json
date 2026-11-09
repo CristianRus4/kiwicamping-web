@@ -1245,6 +1245,20 @@
       }
     ]
   },
+  "/images/articles/heaphy-track-by-bike.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/heaphy-track-by-bike-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/heaphy-track-by-bike.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/heaphy-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,

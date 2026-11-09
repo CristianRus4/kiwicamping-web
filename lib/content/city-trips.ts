@@ -484,4 +484,52 @@ export const cityTripArticles: Article[] = [
       { label: "Aoraki Mackenzie International Dark Sky Reserve", url: "https://www.mackenzienz.com/" },
     ],
   }),
+  a({
+    slug: "heaphy-track-by-bike",
+    title: "Heaphy Track by Mountain Bike: Season, Huts, Shuttles and Camping",
+    description: "Riding the Heaphy Track by mountain bike: the 1 May to 30 November season, how long it takes, huts and campsites to book, shuttles between Golden Bay and Karamea, gear and what the ride is like.",
+    category: "Trip planning",
+    region: "Nelson Tasman",
+    places: ["Heaphy Track", "Golden Bay", "Brown Hut", "Karamea", "Kohaihai", "Collingwood"],
+    imageAlt: "The coastline section of the Heaphy Track with the sea and bush",
+    related: ["heaphy-track-camping-2026-27", "nelson-abel-tasman-golden-bay", "nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-huts-new-zealand-guide", "sandflies-new-zealand-camping", "wet-weather-camping-new-zealand"],
+    hubs: ["huts/nelson-tasman", "huts/west-coast"],
+    intro:
+      "The Heaphy Track is one of the Great Walks, about 78 kilometres through Kahurangi National Park from Golden Bay to the West Coast, and it is open to mountain bikes from 1 May to 30 November, outside the walking season. Most riders take two to three days, staying in the huts or campsites, and the ride crosses a high plateau, a river valley and a stretch of coastline with nikau palms. It is a serious backcountry ride, not a cycle trail.",
+    sections: [
+      s("The ride in brief", [
+        "The track runs between Brown Hut near Collingwood in Golden Bay and Kohaihai near Karamea on the West Coast, with the high point on the Gouland Downs plateau at about 900 metres. DOC gives the length as about 78 kilometres, and the usual ride takes two to three days, though strong riders do it in one long day. Most people ride from Golden Bay to Karamea, which puts the longer climb first and the coast at the end.",
+        "The track is graded as a Great Walk, wide and well made, but it has steep sections, rough ground, river crossings on bridges and remote stretches with no phone signal. It is not a place to learn to ride a mountain bike.",
+      ], ["About 78 km", "2 to 3 days is usual", "No phone signal on the track"]),
+      s("The season and the rules", [
+        "Mountain biking is allowed on the whole track from 1 May to 30 November, and DOC sets the dates, so check them for your year. Bikes are not allowed in the walking season, from 1 December to 30 April. Riders share the track with walkers, and must give way to them, keep to a safe speed and use a bell or a call at corners.",
+        "New Zealand law requires you to wear a helmet. Huts and campsites on the Heaphy need to be booked through DOC, and bookings for the biking season are usually less busy than the summer walking season, though weekends fill. The Heaphy Track camping guide covers the huts, the campsites and the fees.",
+      ], ["1 May to 30 November", "Give way to walkers", "Book huts and campsites with DOC"]),
+      s("Getting to the start and back", [
+        "The two ends are about five to six hours apart by road, via Murchison and Westport, so the ride needs a plan for the van. Most riders take a shuttle from Karamea or Golden Bay, or arrange a vehicle transfer, so book it ahead and ask the operator about bikes. Some leave the campervan at one end and take a shuttle back to it afterwards, which adds a day.",
+        "Collingwood and Karamea have holiday parks and shops, and Takaka in Golden Bay is the closest large town. Karamea is remote, with limited shops and fuel, and the road from Westport is winding, so fill up before you go.",
+      ], ["Book the shuttle ahead", "Fill up before Karamea", "Allow a day to get the van back"]),
+      s("Bikes, gear and food", [
+        "Use a mountain bike with wide tyres, good brakes and low gears, and carry spares for a puncture, a chain and a brake, plus a pump and tools. Bikepacking bags work better than a heavy rucksack. Carry warm and waterproof clothing, a head torch and a first aid kit, and food for the whole trip, since there are no shops on the track.",
+        "Huts have bunks, a stove or heater in some, and water, and you need a sleeping bag, a stove and your own food. The weather on the plateau can be cold and wet, even in the shoulder season, and the West Coast end is known for sandflies, so bring repellent.",
+      ], ["Wide tyres and low gears", "Carry spares and tools", "Repellent for the coast"]),
+      s("Camping and the shoulder season", [
+        "From May to November the nights are cold and the days short, so plan the ride to reach the hut before dark and carry a warm sleeping bag. Huts give shelter from the weather, and the campsites are a lighter option in a settled spell. Check the forecast and the DOC alerts for river levels and closures before you go.",
+        "Before and after the ride, holiday parks in Golden Bay and Karamea give you a hot shower and power. Freedom camping is limited in the district, as the freedom camping in Tasman guide explains, so a booked site is easier.",
+      ], ["Reach the hut before dark", "Check river levels and alerts", "Holiday parks at each end"]),
+      s("Planning the ride in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Golden Bay and Karamea, with filters for campervan access and facilities. Save the huts and campsites you plan to use, add them to a trip with dates, and the app shows a forecast for each place. It does not give turn-by-turn directions or live traffic.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save the huts you book", "Forecast at each place", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["Can you ride the Heaphy Track on a mountain bike?", "Yes, from 1 May to 30 November. Bikes are not allowed in the walking season, and you must give way to walkers."],
+      ["How long does the Heaphy Track take by bike?", "Most riders take two to three days and stay in the huts or campsites. Strong riders can do it in one long day."],
+    ],
+    sources: [
+      { label: "DOC: Heaphy Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/tracks/heaphy-track/" },
+      { label: "DOC: Heaphy Track mountain biking", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/" },
+      { label: "NZ Cycle Trail: Heaphy Track", url: "https://nzcycletrail.com/" },
+    ],
+  }),
 ];

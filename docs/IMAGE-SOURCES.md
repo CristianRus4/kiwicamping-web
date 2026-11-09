@@ -169,3 +169,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-base-roys-peak-wanaka` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
 | `camping-base-tongariro-alpine-crossing` | Tongariro Northern Circuit, New Zealand (22).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tongariro_Northern_Circuit,_New_Zealand_(22).JPG) |
 | `camping-base-hooker-valley-aoraki-mount-cook` | Road to Aoraki - Flickr - jokin.lacalle.jpg | jokin.lacalle | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Road_to_Aoraki_-_Flickr_-_jokin.lacalle.jpg) |
+| `heaphy-track-by-bike` | Coastline section of Heaphy Track.jpg | Christoph Strässler | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Coastline_section_of_Heaphy_Track.jpg) |
