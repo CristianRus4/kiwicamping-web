@@ -9,6 +9,7 @@ import { listicleArticles } from "@/lib/content/listicles";
 import { seasonalArticles } from "@/lib/content/seasonal";
 import { canIArticles } from "@/lib/content/can-i";
 import { freedomCouncilArticles } from "@/lib/content/freedom-councils";
+import { freedomTownArticles } from "@/lib/content/freedom-towns";
 import { greatWalksArticles } from "@/lib/content/great-walks";
 import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
@@ -75,6 +76,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...seasonalArticles,
   ...canIArticles,
   ...freedomCouncilArticles,
+  ...freedomTownArticles,
   ...greatWalksArticles,
   ...costsWhvArticlesA,
   ...costsWhvArticlesB,
