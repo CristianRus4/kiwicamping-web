@@ -104,10 +104,17 @@ const translatedAmounts = (text) => [
 
 const brands = ["KiwiCamping", "App Store", "Apple", "iPhone", "iCloud", "Google", "CamperMate", "Rankers", "WikiCamps", "MetService"];
 // As the translation engine counts protected terms: Latin, Cyrillic and Greek letters and digits
-// end a word (CJK attaches straight to a Latin name), and German and Dutch add a genitive -s.
+// end a word (CJK attaches straight to a Latin name), German and Dutch add a genitive -s, and
+// Finnish, Hungarian, Slovenian and Slovak add a case ending ("KiwiCampingin", "iPhonella", "iPhonu").
 const WORD = "\\p{Script=Latin}\\p{Script=Cyrillic}\\p{Script=Greek}\\p{N}";
 const genitive = new Set(["de", "nl"]);
-const brandCount = (text, brand, locale) => plain(text).match(new RegExp(`(?<![${WORD}])${brand.replace(/[.$]/g, "\\$&")}${locale && genitive.has(locale) ? "s?" : ""}(?![${WORD}])`, "gu"))?.length ?? 0;
+const inflected = new Set(["fi", "hu", "sl", "sk"]);
+const brandPattern = (brand, locale) => {
+  const name = brand.replace(/[.$]/g, "\\$&");
+  if (inflected.has(locale)) return `${name.replace(/e$/, "e?")}\\p{Ll}{0,5}`;
+  return `${name}${genitive.has(locale) ? "s?" : ""}`;
+};
+const brandCount = (text, brand, locale) => plain(text).match(new RegExp(`(?<![${WORD}])${brandPattern(brand, locale)}(?![${WORD}])`, "gu"))?.length ?? 0;
 
 const source = leaves(JSON.parse(await readFile(resolve(root, "lib/translations/en.json"), "utf8")));
 const summary = [];
