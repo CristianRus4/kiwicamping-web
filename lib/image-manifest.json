@@ -1301,6 +1301,20 @@
       }
     ]
   },
+  "/images/articles/great-walks-2027-28-bookings-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/great-walks-2027-28-bookings-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/great-walks-2027-28-bookings-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/heaphy-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,

@@ -730,4 +730,54 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "great-walks-2027-28-bookings-new-zealand",
+    title: "Great Walks 2027/28 Bookings: When They Open and How to Prepare",
+    description: "When to expect DOC's 2027/28 Great Walks bookings, what the 2026/27 opening looked like, how to get ready on the day and which walks to book first or leave for later.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Milford Track", "Routeburn Track", "Abel Tasman", "Kepler Track", "Great Walks"],
+    imageAlt: "The Hollyford Valley seen from the Routeburn Track, a wide green glaciated valley between steep mountains",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-hut-great-walk-booked-out", "doc-campsites-sell-out-summer-new-zealand", "doc-huts-new-zealand-guide", "best-tramping-great-walks-apps-new-zealand", "doc-campsites-new-zealand-guide"],
+    hubs: ["huts/fiordland", "huts/nelson-tasman", "camping/fiordland"],
+    intro:
+      "DOC had not published the 2027/28 Great Walks booking dates when this page was written, but the pattern is clear: DOC confirms the dates in the months before and opens bookings in May for stays from 1 July to 30 June the following year. In 2026 the 10 walks in DOC's system opened between 12 and 21 May, one at a time. Below is what that looked like, how to prepare for the 2027 opening, which walks go first, and where to check for the real dates.",
+    sections: [
+      sec("What we know about the 2027/28 dates", [
+        "The 2027/28 season covers stays from 1 July 2027 to 30 June 2028, and DOC publishes the booking dates on its Great Walks page and in a media release ahead of opening. The dates for 2026/27 were announced in March 2026, so expect the same timing: a notice in March or April 2027 and bookings opening in May 2027. Until DOC confirms the dates, treat any date you see elsewhere as a guess.",
+        "The Hump Ridge Track is the exception, as it is booked through its own trust rather than DOC's system, and its bookings open on a different schedule. For fees and the walks side by side, the Great Walks 2026/27 guide shows the current picture, and the fees may change for 2027/28.",
+      ], ["Season: 1 July 2027 to 30 June 2028", "DOC announces the dates ahead of May", "Hump Ridge books through its own trust"]),
+      sec("How the 2026/27 opening worked", [
+        "In 2026 DOC opened the walks one at a time over about ten days. The Paparoa Track opened on 12 May, the Milford Track on 13 May, the Abel Tasman Coast Track on 14 May and the Routeburn Track on 15 May, with the last walks opening on 21 May, and each walk opened at either 9:30 am or 12 pm New Zealand time.",
+        "The most popular walks fill quickly. DOC said last year that Milford Track and Abel Tasman Coast Track huts reached about 95 per cent occupancy and the Kepler Track 91 per cent, while the Heaphy, Lake Waikaremoana and Whanganui Journey often have space. Do not assume a walk will be quiet because it is lesser known, and check DOC's own numbers when they are published.",
+      ], ["Walks open one at a time over about ten days", "Opening times were 9:30 am or 12 pm NZ time", "Milford and Abel Tasman huts nearly full last year"], {
+        caption: "The 2026/27 Great Walks opening, as DOC announced it. The 2027/28 dates were not published when this page was written.",
+        head: ["Walk", "2026/27 bookings opened", "Note"],
+        rows: [
+          ["Paparoa Track", "12 May 2026", "No camping on the track"],
+          ["Milford Track", "13 May 2026", "Camping not permitted"],
+          ["Abel Tasman Coast Track", "14 May 2026", "Booked all year"],
+          ["Routeburn Track", "15 May 2026", "Season runs into April"],
+          ["Other walks", "Up to 21 May 2026", "Check each DOC page"],
+        ],
+      }),
+      sec("How to prepare for the opening day", [
+        "Make a DOC account now so that booking takes seconds on the day, and check that your payment card works. DOC takes payment in full when you book and the booking only counts once the payment is confirmed, so keep a strong connection and do not lose signal part-way through. A phone or visitor centre booking costs more than booking online.",
+        "Decide your dates and a backup before the day. Choose a first-choice start date and two alternatives, and if you are a group, choose which walk matters most. Keep refreshing at the opening time and expect duplicate bookings to drop in the first minutes. The booked-out guide explains how cancellations release beds later.",
+      ], ["Make a DOC account and test your card", "Pick a first choice and two backups", "Book online rather than by phone"]),
+      sec("Which walks to book first, and which can wait", [
+        "Book the Milford Track, the Routeburn Track, the Kepler Track and the Abel Tasman Coast Track on opening day if you want a summer date, because they sell out fastest. The Tongariro Northern Circuit is also popular and its huts and campsites follow the same pattern. If you do not get a hut, a campsite is sometimes available on the walks that allow camping.",
+        "The Heaphy Track, Lake Waikaremoana and the Whanganui Journey are more likely to have space later, and autumn and spring dates are much quieter than January. If a Great Walk is booked out, the booking guide and the easy huts guide list other options, and the sell-out campsites guide covers the roadside sites.",
+      ], ["Milford, Routeburn, Kepler and Abel Tasman first", "Heaphy and Whanganui more likely to have space", "Autumn and spring are easier than January"]),
+      sec("Planning your Great Walk trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at the start and end of the walks. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. Great Walk bookings stay on DOC's own booking pages.",
+        "Use the app to plan the nights before and after the walk, such as a holiday park at Te Anau or Marahau.",
+      ], ["Plan the nights around the walk", "Forecast at each stop", "Book the walk itself on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Great Walks", url: "https://www.doc.govt.nz/greatwalks" },
+      { label: "DOC: Great Walk hut and campsite bookings open from 12 May (2026 release)", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC blog: your guide to booking a Great Walk", url: "https://blog.doc.govt.nz/2026/05/10/your-guide-to-booking-a-great-walk/" },
+    ],
+  }),
 ];
