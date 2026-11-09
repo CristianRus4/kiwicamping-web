@@ -363,4 +363,53 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-te-anau",
+    title: "Freedom Camping in Te Anau: What the Rules Are and Where to Stay",
+    description: "Freedom camping in Te Anau and on the Milford Road: why the township and nearby DOC land are closed to camping, the Southland District rules, Fiordland's DOC campsites and the holiday parks to book instead.",
+    category: "Rules & safety",
+    region: "Southland",
+    places: ["Te Anau", "Manapouri", "Milford Sound", "Fiordland", "Lake Te Anau"],
+    imageAlt: "Lake Te Anau with the Murchison Mountains rising across the water",
+    related: ["freedom-camping-rules-new-zealand", "fiordland-camping-road-trip", "queenstown-to-milford-sound-drive-guide", "kepler-track-camping-2026-27", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/te-anau", "camping/fiordland"],
+    intro:
+      "You cannot freedom camp in Te Anau. Southland District Council's bylaw maps show the whole township, and the neighbouring towns of Manapouri, Riverton and Tuatapere, as closed to camping, and DOC's freedom camping notices for the Te Anau district ban it on conservation land too, including along the Milford Road. The way to sleep near Fiordland is a Te Anau holiday park or one of DOC's Fiordland campsites, booked ahead in summer.",
+    sections: [
+      s("Why Te Anau is closed", [
+        "Te Anau is the gateway to Milford Sound and the Kepler, Routeburn and Milford tracks, and it has had years of trouble with overnight camping near the lakefront, so the council's Freedom Camping Bylaw 2015 treats the township as a prohibited area. Camping is also banned in urban zones, council car parks and boating areas across the district. The council's own list of freedom camping sites has no entry for Te Anau or Manapouri.",
+        "The council is reviewing the bylaw, with public consultation planned for late 2026, so the rules could change in future, but nothing on the council's pages today gives a visitor a legal freedom camping place in Te Anau. A lakeside car park or street that looks empty is not an exception.",
+      ], ["Township closed to camping", "Council list has no Te Anau site", "Bylaw under review, consultation late 2026"]),
+      s("DOC land and the Milford Road", [
+        "Conservation land around Te Anau is not covered by the council's bylaw, but DOC has its own notices, and in this district they are all bans. KiwiCamping's DOC data (11 August 2026) holds 24 current freedom camping notices for the Te Anau district, every one prohibiting camping, and they include the Te Anau area office and visitor centre car parks, Te Anau Downs, Lake Mistletoe and Patience Bay on the Milford Road.",
+        "The Milford Road itself runs through Fiordland National Park and has no roadside camping. Overnight parking in the lay-bys and viewpoints is prohibited, so plan the drive as a day trip from a campsite or holiday park, and allow for the fact that the road can close for snow or avalanche risk.",
+      ], ["24 DOC notices, all prohibitions", "No roadside camping on the Milford Road", "Plan Milford as a day trip"]),
+      s("Where to stay instead", [
+        "Te Anau has holiday parks and a motor camp on or near the lakefront, and Manapouri has its own. They are the straightforward choice for tents and for campervans without a self-containment certificate, and they fill from December to February and in the school holidays, so book ahead. The guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 13 DOC campsites in Fiordland, 10 of them bookable online through DOC, with adult nightly rates from $10 to $42. Cascade Creek on the Milford Road is the largest, with room for 120, 8 of the 13 have campervan access, and 3 are free. 4 are reached only on foot or by boat, so check access before you drive.",
+      ], ["Book Te Anau holiday parks ahead", "13 DOC campsites in Fiordland", "Cascade Creek is the biggest"]),
+      s("Fines", [
+        "Officers enforce the bylaw and the national fees apply, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+      ], ["$400 for most breaches", "$800 for waste or damage", "Rental companies pass fines on"]),
+      s("Great Walks and the wider region", [
+        "Te Anau is the start of the Kepler Track and the Milford Track transport, and the Great Walks guides explain how to book their huts and campsites through DOC, which sell out months ahead. The Fiordland road trip guide covers the wider drive, and the Queenstown to Milford Sound drive guide covers the day trip from the other side.",
+      ], ["Great Walks book months ahead", "Fiordland road trip covers the loop", "Queenstown to Milford is a long day"]),
+      s("Using KiwiCamping around Te Anau", [
+        "KiwiCamping shows Fiordland's DOC campsites and huts with their fees and facilities, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's bylaw, so use the council's page for the rules.",
+        "Save a holiday park or a DOC campsite for each night near the mountains, add them to a trip with dates, and check the forecast on each leg, which matters on the Milford Road. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a campsite for each night", "Check the forecast for Milford", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Te Anau?", "No. Southland District Council's bylaw closes the township to camping and DOC's notices ban it at the Te Anau area car parks and along the Milford Road. Use a holiday park or a DOC campsite."],
+      ["Where can I camp near Milford Sound?", "DOC's Fiordland campsites, such as Cascade Creek on the Milford Road, and the holiday parks in Te Anau. There is no roadside camping on the road itself."],
+    ],
+    sources: [
+      { label: "Southland District Council: Freedom camping", url: "https://southlanddc.govt.nz/services/freedom-camping/" },
+      { label: "Southland District Council: Freedom Camping Bylaw 2015", url: "https://southlanddc.govt.nz/assets/Bylaws-policies-and-strategies/bylaws/Freedom-Camping-Bylaw-2015.pdf" },
+      { label: "Southland District Council: Freedom Camping Bylaw review", url: "https://southlanddc.govt.nz/make-it-stick/under-review/freedom-camping-bylaw-review/" },
+      { label: "DOC: Conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];

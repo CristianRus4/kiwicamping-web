@@ -166,3 +166,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-timaru` | Timaru-Stafford.St.jpg | Thomei08 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Timaru-Stafford.St.jpg) |
 | `freedom-camping-whitianga` | Whitianga Harbour.jpg | Ulrich Lange, Bochum, Germany | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Whitianga_Harbour.jpg) |
 | `freedom-camping-picton` | 00 1189 Picton - Neuseeland.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1189_Picton_-_Neuseeland.jpg) |
+| `freedom-camping-te-anau` | Te Anau and Murchison Mountains.jpg | Tim Burgess | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Te_Anau_and_Murchison_Mountains.jpg) |
