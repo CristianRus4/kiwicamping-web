@@ -993,6 +993,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-akaroa.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-akaroa-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-akaroa.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-auckland-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1049,6 +1063,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-kaikoura.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-kaikoura-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-kaikoura.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-mackenzie-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1073,6 +1101,34 @@
       },
       {
         "path": "/images/articles/freedom-camping-marlborough-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-napier-hastings.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-napier-hastings-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-napier-hastings.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-nelson.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-nelson-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-nelson.webp",
         "width": 1600
       }
     ]
@@ -1119,6 +1175,34 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-paihia.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-paihia-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-paihia.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-picton.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-picton-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-picton.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-queenstown-lakes-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1129,6 +1213,20 @@
       },
       {
         "path": "/images/articles/freedom-camping-queenstown-lakes-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-raglan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-raglan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-raglan.webp",
         "width": 1600
       }
     ]
@@ -1231,6 +1329,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-te-anau.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-te-anau-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-te-anau.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-tent-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -1255,6 +1367,34 @@
       },
       {
         "path": "/images/articles/freedom-camping-thames-coromandel-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-timaru.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-timaru-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-timaru.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-twizel.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-twizel-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-twizel.webp",
         "width": 1600
       }
     ]
@@ -1353,6 +1493,20 @@
       },
       {
         "path": "/images/articles/freedom-camping-whangarei-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-whitianga.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whitianga-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whitianga.webp",
         "width": 1600
       }
     ]

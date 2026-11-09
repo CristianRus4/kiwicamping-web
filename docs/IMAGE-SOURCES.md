@@ -177,3 +177,14 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `christchurch-to-kaikoura-drive-guide` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
 | `christchurch-to-hanmer-springs-drive-guide` | Hanmer Springs 012.JPG | Schwede66 | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hanmer_Springs_012.JPG) |
 | `christchurch-to-te-anau-drive-guide` | Lake Te Anau 02.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_02.jpg) |
+| `freedom-camping-napier-hastings` | Marine Parade, Napier P1220172.jpg | Jane Nearing from Richardson, US | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Marine_Parade,_Napier_P1220172.jpg) |
+| `freedom-camping-nelson` | Nelson New Zealand.jpg | Markus Koljonen (Dilaudid) | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Nelson_New_Zealand.jpg) |
+| `freedom-camping-kaikoura` | View of Kaikoura Peninsula from Kaikoura Ranges, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:View_of_Kaikoura_Peninsula_from_Kaikoura_Ranges,_New_Zealand.jpg) |
+| `freedom-camping-raglan` | Raglan, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Raglan,_New_Zealand_05.jpg) |
+| `freedom-camping-timaru` | Timaru-Stafford.St.jpg | Thomei08 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Timaru-Stafford.St.jpg) |
+| `freedom-camping-whitianga` | Whitianga Harbour.jpg | Ulrich Lange, Bochum, Germany | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Whitianga_Harbour.jpg) |
+| `freedom-camping-picton` | 00 1189 Picton - Neuseeland.jpg | W. Bulach | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:00_1189_Picton_-_Neuseeland.jpg) |
+| `freedom-camping-te-anau` | Te Anau and Murchison Mountains.jpg | Tim Burgess | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Te_Anau_and_Murchison_Mountains.jpg) |
+| `freedom-camping-twizel` | Tasman Road in Twizel.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tasman_Road_in_Twizel.jpg) |
+| `freedom-camping-akaroa` | Akaroa, Banks Peninsula, Canterbury, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa,_Banks_Peninsula,_Canterbury,_New_Zealand_05.jpg) |
+| `freedom-camping-paihia` | The pier of Paihia,New Zealand.jpg | Prof.Chen Hualin | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:The_pier_of_Paihia,New_Zealand.jpg) |
