@@ -388,4 +388,52 @@ export const cityTripArticles: Article[] = [
       { label: "Queenstown Lakes District Council: freedom camping", url: "https://www.qldc.govt.nz/" },
     ],
   }),
+  a({
+    slug: "camping-base-tongariro-alpine-crossing",
+    title: "Where to Camp for the Tongariro Alpine Crossing: Bases, Shuttles and Weather",
+    description: "Where to camp for the Tongariro Alpine Crossing: holiday parks and campsites at Whakapapa, National Park Village, Ōhakune and Tūrangi, how the shuttles work, parking, weather and volcanic alerts.",
+    category: "Trip planning",
+    region: "Central North Island",
+    places: ["Tongariro National Park", "Whakapapa", "National Park Village", "Ōhakune", "Tūrangi", "Taupō"],
+    imageAlt: "A volcanic landscape on the Tongariro Northern Circuit with mountains in the distance",
+    related: ["tongariro-northern-circuit-camping-2026-27", "volcanic-safety-new-zealand-travel", "new-zealand-severe-weather-camping", "north-island-two-week-road-trip", "holiday-parks-new-zealand-guide", "doc-campsites-new-zealand-guide"],
+    hubs: ["camping/central-north-island"],
+    intro:
+      "The Tongariro Alpine Crossing is a one-way walk of about 20 kilometres across a volcanic landscape, usually done in 6 to 8 hours, and it needs a shuttle because it starts and finishes in different places. That changes how you choose a base: you want somewhere close to the shuttle pick-up, with a bed ready for the evening and a spare day in case the weather closes the track.",
+    sections: [
+      s("The crossing in brief", [
+        "The track runs from the Mangatepopo car park to the Ketetahi car park, climbing past Red Crater and the Emerald Lakes, with steep sections and loose scree. DOC gives about 19.4 kilometres and a typical time of 6 to 8 hours. It is a long day with no water on the track, and the weather on the volcano changes fast.",
+        "The huts and campsites of the Northern Circuit are a different trip. This guide is about the day walk, and the Tongariro Northern Circuit guide covers the multi-day option.",
+      ], ["About 19.4 km, 6 to 8 hours", "No water on the track", "Weather changes fast"]),
+      s("Bases near the crossing", [
+        "The closest are the holiday parks and campgrounds at Whakapapa Village, National Park Village and Ōhakune, all within 20 to 40 minutes of the start. Tūrangi, at the northern end of Lake Taupō, is about 30 to 40 minutes from the Ketetahi end and has several holiday parks and a good trout river. Taupō is an hour away and has the widest choice of parks and shops.",
+        "DOC runs campsites inside Tongariro National Park, some at Whakapapa and others near Ōhakune, which are simple and cheaper than a holiday park. Book ahead from December to March, and for any fine weekend, when the shuttles are full.",
+      ], ["Whakapapa, National Park Village, Ōhakune", "Tūrangi and Taupō for choice", "Book ahead in summer"]),
+      s("Shuttles and parking", [
+        "Most walkers take a shuttle to the start at Mangatepopo and walk back to a car park at Ketetahi, or leave the van at the finish and take the shuttle to the start. Shuttles run from the villages and from Taupō, need booking in summer, and the first leave early in the morning. Check the times with the operator and DOC.",
+        "Car parks at both ends can fill, and break-ins have been a problem, so leave no valuables in the van. The first shuttle may be before breakfast, and a base within a few minutes of the pick-up makes the morning easier.",
+      ], ["Book the shuttle ahead", "Leave no valuables in the van", "A base close to the pick-up"]),
+      s("Weather, volcanic alerts and winter", [
+        "The crossing is exposed, with strong wind, cold and sudden cloud, and it can close for weather or for volcanic activity. Check DOC's alerts and the forecast the evening before, carry warm layers, a waterproof, water and food, and turn back if the weather turns. Keep a spare day.",
+        "In winter, from about May to September, the track is a snow and ice route that needs alpine equipment and skills, and most people go with a guide. The volcanic safety guide explains the alert levels and the hazards near the craters.",
+      ], ["Check DOC alerts the evening before", "Carry warm layers and water", "Winter needs alpine skills"]),
+      s("A wet day and the Taupō option", [
+        "If the weather closes the crossing, Taupō is an hour north, with Huka Falls, hot pools and a lake to swim or kayak, and Ōhakune has a carrot statue and cafes. The camping in Taupō guide covers the area, and the wet weather camping guide helps choose a site.",
+        "A holiday park with a kitchen and a lounge is the best base for a wet day. On the way from Auckland or Wellington, the town of Taihape and the Desert Road have their own stops, covered in the Auckland to Wellington drive guide.",
+      ], ["Taupō for a wet day", "Camp kitchens help", "Keep a spare day"]),
+      s("Using KiwiCamping to pick a base", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Tongariro National Park, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the crossing day. It does not give turn-by-turn directions or live traffic.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["Where should I stay for the Tongariro Alpine Crossing?", "A holiday park or campground at Whakapapa, National Park Village or Ōhakune, or at Tūrangi or Taupō for more choice. Book the shuttle and keep a spare day for weather."],
+      ["Do I need a shuttle for the Tongariro Alpine Crossing?", "Yes, because the walk starts and finishes in different places. Shuttles run from the villages and Taupō and need booking in summer."],
+    ],
+    sources: [
+      { label: "DOC: Tongariro Alpine Crossing", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/things-to-do/tracks/tongariro-alpine-crossing/" },
+      { label: "DOC: Tongariro National Park campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" },
+      { label: "GeoNet: volcanic alert levels", url: "https://www.geonet.org.nz/volcano" },
+    ],
+  }),
 ];

@@ -405,6 +405,20 @@
       }
     ]
   },
+  "/images/articles/camping-base-tongariro-alpine-crossing.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-base-tongariro-alpine-crossing-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-base-tongariro-alpine-crossing.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/camping-fees-new-zealand-2026.webp": {
     "width": 1600,
     "height": 900,
