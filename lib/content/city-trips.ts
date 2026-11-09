@@ -148,4 +148,100 @@ export const cityTripArticles: Article[] = [
       { label: "Dunedin NZ: things to do", url: "https://www.dunedinnz.com/" },
     ],
   }),
+  a({
+    slug: "rotorua-3-days-campervan",
+    title: "Rotorua in 3 Days by Campervan: Geothermal Parks, Lakes and Where to Camp",
+    description: "A three-day Rotorua itinerary for a campervan: free and paid geothermal parks, the Redwoods and Blue Lake, Lake Tarawera and Okere Falls, with campgrounds, safety tips and driving times from Auckland.",
+    category: "Road trips",
+    region: "Central North Island",
+    places: ["Rotorua", "Whakarewarewa", "Lake Tarawera", "Okere Falls", "Waimangu", "Taupō"],
+    imageAlt: "Lake Rotorua seen from the shore on a clear day",
+    related: ["freedom-camping-rotorua-2026", "coromandel-rotorua-road-trip", "volcanic-safety-new-zealand-travel", "north-island-two-week-road-trip", "holiday-parks-new-zealand-guide", "campfire-rules-new-zealand"],
+    hubs: ["camping/bay-of-plenty", "camping/central-north-island"],
+    intro:
+      "Rotorua sits on a geothermal field, with steaming ground, boiling mud and hot pools within the city, ringed by lakes and forest. It is about three and a half hours from Auckland, and three days is enough for the geothermal parks, the Redwoods and the lakes without feeling rushed. The smell of sulphur is part of the experience, and the town is well set up for campervans.",
+    sections: [
+      s("Where to base yourself", [
+        "Rotorua has several holiday parks around the lake and the edge of the city, many with their own thermal pools, and these are the easiest bases for a campervan. DOC and council campsites around the lakes, such as Lake Rotoiti and Lake Tarawera, are quieter and cheaper but need more planning, and some close in winter. Book ahead in summer and over school holidays.",
+        "Rotorua Lakes Council limits freedom camping to a few places and requires a certified self-contained vehicle, and the rules are enforced, as the freedom camping in Rotorua guide explains. Geothermal ground can be unstable and hot, and a van parked near vents can be damaged, so camp only where the site says so.",
+      ], ["Holiday parks with thermal pools", "Lake campsites need planning", "Camp only where signs allow"]),
+      s("Day 1: the geothermal parks", [
+        "Start with Kuirau Park, a free park near the centre with steaming ponds and mud pools, then choose one of the major parks: Te Puia and Whakarewarewa for the Pōhutu geyser and Māori cultural performances, Wai-O-Tapu for the colourful pools and the Lady Knox geyser, or Hell's Gate for the mud and a hot spa. Wai-O-Tapu and Waimangu are about 30 minutes south of the city.",
+        "End the day in a hot pool, such as the Polynesian Spa on the lakefront or the pools at your holiday park. Stay on the paths and behind the fences in all geothermal areas, because the ground can be thin and the water scalding, and keep dogs out. The volcanic safety guide explains the hazards.",
+      ], ["Kuirau Park is free", "Stay behind the fences", "End with a hot pool"]),
+      s("Day 2: the Redwoods, Blue Lake and Okere Falls", [
+        "The Redwoods, or Whakarewarewa Forest, has tall trees with walking and mountain biking trails and the Redwoods Treewalk, a series of suspension bridges high in the canopy, which is lit at night. The Blue Lake (Tikitapu) and Green Lake are a short drive away, with a walk around the Blue Lake that takes about 90 minutes.",
+        "In the afternoon go to Okere Falls, where a short track leads to the Kaituna River and the falls, and rafting is popular, and then to the lakefront at Rotorua for the evening. Mountain bike hire is available at the Redwoods, and the trails suit all levels. Bring insect repellent for the sandflies near water.",
+      ], ["Treewalk is lit at night", "Blue Lake loop about 90 minutes", "Repellent near the water"]),
+      s("Day 3: Lake Tarawera and the south", [
+        "Lake Tarawera is about 20 minutes from the city, with a quiet beach and a boat trip to the hot waterfall, and the Buried Village tells the story of the 1886 Mount Tarawera eruption. Waimangu Volcanic Valley, a walk through the crater valley formed by that eruption, is a good morning outing.",
+        "From Rotorua it is an hour to Taupō, where Huka Falls and Orakei Korako are on the way, and the Waikato River and Lake Taupō are covered in the Taupō guide. The Coromandel to Rotorua loop and the North Island two-week trip show how to link the area with the rest of the island.",
+      ], ["Buried Village and the 1886 eruption", "Waimangu crater valley", "Taupō an hour south"]),
+      s("Driving to and from Rotorua", [
+        "Auckland to Rotorua is about 230 kilometres and takes three to three and a half hours via Hamilton and Tīrau, or via Tauranga. State Highway 5 from Tīrau and State Highway 30 from Tauranga are the main roads. Fuel and food are easy to find in the city, and parking is straightforward, though busy at the lakefront at the weekend.",
+        "Winter mornings can be frosty on the roads around the lakes, and the sulphur smell is strong in the city but harmless. Check the NZTA Journey Planner for road conditions before you leave.",
+      ], ["About 230 km from Auckland", "Check for frost in winter", "Sulphur smell is harmless"]),
+      s("Planning your three days in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Rotorua and the lakes, with filters for campervan access and facilities. Save a base and a backup, add them to a trip in order, and the app shows the distance between each pair of stops and a forecast for every place. It does not give turn-by-turn directions or live traffic, so use your maps app for the roads.",
+        "Bookings for DOC sites stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["How many days do you need in Rotorua?", "Three days covers a geothermal park, the Redwoods and the lakes without rushing. Two days is enough for the main parks if you are short of time."],
+      ["Can I freedom camp in Rotorua?", "Only in a few permitted places and only in a certified self-contained vehicle, and the rules are enforced. Holiday parks and lake campsites are the easier option."],
+    ],
+    sources: [
+      { label: "Rotorua Lakes Council: freedom camping", url: "https://www.rotorualakescouncil.nz/" },
+      { label: "Rotorua NZ: things to do", url: "https://www.rotoruanz.com/" },
+      { label: "DOC: Rotorua and Bay of Plenty", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/" },
+    ],
+  }),
+  a({
+    slug: "christchurch-to-invercargill-drive-guide",
+    title: "Christchurch to Invercargill Drive: Route, Time, Stops and Camping",
+    description: "Christchurch to Invercargill by road: about 600 km and 7.5 to 8 hours on State Highway 1 through Timaru, Oamaru and Dunedin, with the stops worth making, the Catlins alternative and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Timaru", "Oamaru", "Moeraki", "Dunedin", "Gore", "Invercargill"],
+    imageAlt: "Nugget Point lighthouse on a headland above the sea in the Catlins",
+    related: ["christchurch-to-dunedin-drive-guide", "southern-scenic-route-camping", "freedom-camping-southland-2026", "dunedin-3-days-campervan", "south-island-two-week-road-trip", "new-zealand-driving-day-planner", "winter-driving-new-zealand-campervan"],
+    hubs: ["camping/canterbury", "camping/otago", "camping/southland"],
+    intro:
+      "Driving from Christchurch to Invercargill on State Highway 1 is about 600 kilometres and takes 7.5 to 8 hours without stops, down the east coast through Timaru, Oamaru and Dunedin, then inland through Balclutha and Gore. It is an easy road, mostly two lanes with good passing, and it splits naturally into two days at Dunedin. Most of the interest is on the coast, and the Catlins give a slower way to finish.",
+    sections: [
+      s("Route, distance and time", [
+        "State Highway 1 is the only through route. From Christchurch it crosses the Canterbury Plains to Ashburton and Timaru, follows the coast to Oamaru and Moeraki, climbs over the Kilmog into Dunedin, then continues south to Balclutha, Gore and Invercargill. The two halves are roughly similar, about 360 kilometres from Christchurch to Dunedin and 240 from Dunedin to Invercargill.",
+        "The times above do not include fuel, meals or stops, so allow nine to ten hours for a day that includes a couple of proper breaks. The driving day planner works out a day that suits your vehicle, and the Christchurch to Dunedin guide covers the first half in more detail.",
+      ], ["About 600 km, 7.5 to 8 hours", "Dunedin is the natural halfway stop", "Allow nine to ten hours with breaks"]),
+      s("Timaru, Oamaru and Moeraki", [
+        "Timaru has Caroline Bay, a good beach and a place to stop for lunch, and the Aigantighe art gallery and the Te Ana rock art centre are worth a short visit. Oamaru, an hour and a half further on, has a Victorian precinct of white limestone buildings, a steampunk museum and a blue penguin colony where the birds come ashore at dusk.",
+        "Moeraki, 30 minutes south of Oamaru, has the round Moeraki Boulders on the beach, best seen at low tide, and a small fishing village with a famous seafood cafe. Tides matter, so check the tide times before you go. Holiday parks in Timaru and Oamaru are easy to find, and Oamaru is a good place to stop for the night.",
+      ], ["Caroline Bay at Timaru", "Blue penguins at Oamaru at dusk", "Moeraki Boulders at low tide"]),
+      s("Dunedin and the road south", [
+        "Dunedin is a good place to spend a night, with the railway station, Baldwin Street and the Otago Peninsula wildlife, and the Dunedin in three days guide plans the stay. South of the city, State Highway 1 climbs over the Chain Hills and descends to the Taieri Plain, then runs inland to Milton and Balclutha.",
+        "In winter, ice and occasional snow can make the Kilmog north of Dunedin and the hill roads around the city slippery, so check the road status before you leave. The winter driving guide covers chains and the skills, and a hire company's rules on chains and unsealed roads still apply.",
+      ], ["Dunedin for a night", "Check the Kilmog in winter", "Watch the hire company's rules"]),
+      s("The Catlins alternative", [
+        "From Balclutha, the Southern Scenic Route, State Highway 92, takes you through the Catlins, with Nugget Point lighthouse, Purakaunui Falls, Curio Bay and the petrified forest, and Waipapa Point. It is a slower, narrower road with more gravel and fewer services, so allow a full day or two, and the guide to the Southern Scenic Route camping has the stops and campsites.",
+        "The inland route through Gore and Mataura is faster and the way most freight travels. Gore has the Hokonui Heritage Centre and a giant trout statue, and the Mataura Paper Mill ruins are a curiosity. Both roads meet at Invercargill.",
+      ], ["Catlins: slower, more gravel", "Inland: faster, more traffic", "Both end at Invercargill"]),
+      s("Invercargill and Bluff", [
+        "Invercargill is the southernmost city in the country, with a flat grid of wide streets, Queens Park, the Southland Museum and a good collection of classic cars. Bluff, 30 minutes south, is where State Highway 1 ends, at the Stirling Point signpost, and the town is known for its oysters in season, roughly from March to August.",
+        "From here you can go on to Rakiura Stewart Island by ferry from Bluff, or head to Te Anau and Fiordland. Holiday parks in Invercargill and Bluff are easy to book, and freedom camping is limited, as the freedom camping in Southland guide explains.",
+      ], ["Stirling Point signpost at Bluff", "Oysters in season", "Ferry to Rakiura from Bluff"]),
+      s("Planning the drive in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this coast, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so keep NZTA's Journey Planner open for road conditions.",
+        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], undefined, true),
+    ],
+    faq: [
+      ["How long does it take to drive from Christchurch to Invercargill?", "About 7.5 to 8 hours and 600 kilometres without stops, on State Highway 1. Most people split it with a night in Oamaru or Dunedin."],
+      ["Is the Catlins route better than State Highway 1?", "It is slower and more scenic, with gravel sections and few services, and it adds a day or two. State Highway 1 through Gore is the faster way."],
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Catlins and Southland", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/" },
+      { label: "Great South: visit Invercargill and Southland", url: "https://www.southlandnz.com/" },
+    ],
+  }),
 ];

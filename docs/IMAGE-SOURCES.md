@@ -162,3 +162,5 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `auckland-3-days-campervan` | A southerly view of Piha Beach and Lion Rock, 2010.jpg | Teemu Leisti | CC0 | [Source](https://commons.wikimedia.org/wiki/File:A_southerly_view_of_Piha_Beach_and_Lion_Rock,_2010.jpg) |
 | `wellington-3-days-campervan` | Evans Bay.jpg | Turnagra | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Evans_Bay.jpg) |
 | `dunedin-3-days-campervan` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |
+| `rotorua-3-days-campervan` | Lake Rotorua in Rotorua 01.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Rotorua_in_Rotorua_01.jpg) |
+| `christchurch-to-invercargill-drive-guide` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
