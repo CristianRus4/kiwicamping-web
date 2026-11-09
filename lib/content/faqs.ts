@@ -608,4 +608,25 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the best first DOC hut for a family?", "DOC lists seven bookable huts for families and new trampers. Atiwhakatu, three hours from the Mt Holdsworth road end near Masterton, and Anti Crow, three hours up a flat valley in Arthur's Pass, are its picks near Wellington and Christchurch."],
     ["How much does a DOC hut cost per night?", "At the easy bookable huts, $15 an adult at standard huts such as Atiwhakatu and Anti Crow, and $25 to $34 at serviced huts such as Bushline and Lakehead, depending on the season and day. Children under five stay free."],
   ],
+  // --- Freedom camping by island and destination ------------------------------
+  "freedom-camping-south-island": [
+    ["Can you freedom camp in the South Island?", "Yes, but almost always in a certified self-contained vehicle with a green warrant, and only where the district council or DOC allows it. Each council sets its own sites and nights, from 15 car parks in Queenstown Lakes to most council land outside listed bans in Buller and Waitaki."],
+    ["Where can you camp in a tent for free in the South Island?", "Mostly at DOC's free basic campsites, which are on conservation land and usually have a long-drop toilet. Council land is largely closed to tents: Tasman bans them on public land, Dunedin allows them only at Warrington Domain, and Marlborough only for cyclists at Blairich Reserve."],
+  ],
+  "freedom-camping-north-island": [
+    ["Can you freedom camp in the North Island?", "Yes, in a certified self-contained vehicle, wherever the council's bylaw or DOC's notice allows it. Limits are short: two nights in Auckland, Thames-Coromandel and Tauranga, three in Waikato District and New Plymouth, four a month at Wellington's two sites."],
+    ["Where can you freedom camp in the North Island without a self-contained vehicle?", "Only at council sites set aside for it, such as Whangārei's listed sites, Onewhero and Te Kauwhata Domains in Waikato, Reid's Farm near Taupō and Lake Rotomanu in New Plymouth, or on DOC land where no notice requires certification. Otherwise use a DOC campsite or a holiday park."],
+  ],
+  "freedom-camping-taupo": [
+    ["Can you freedom camp in Taupō?", "Yes, in a certified self-contained vehicle on council land outside the areas the 2023 bylaw prohibits, which include most of the lakefront reserves. Without certification, or in a tent, only Hipapatua Reid's Farm, Mangakino and Whakamaru are open to you."],
+    ["Is Reid's Farm free?", "Yes. Hipapatua Reid's Farm on Huka Falls Road is a free council area with toilets but no drinking water, and the stay is short. It is busy all summer, so keep a paid campground in town as a fallback."],
+  ],
+  "freedom-camping-west-coast": [
+    ["Can you freedom camp on the West Coast of the South Island?", "Yes, in a certified self-contained vehicle. Buller and Grey allow it on most council land outside their listed bans, and Westland at three community-run sites at Kumara, Rimu and Paringa. Tents and vans without a green warrant need a DOC campsite or a campground."],
+    ["Can you freedom camp at Punakaiki or Fox Glacier?", "Not on council land. Buller bans it from the Fox River to the Punakaiki River, and Fox Glacier township is on Westland's prohibited list, so book the campground at Punakaiki or a holiday park or DOC campsite near the glaciers."],
+  ],
+  "freedom-camping-wanaka": [
+    ["Can you freedom camp in Wānaka?", "Only in a certified self-contained vehicle, and only in the council's designated car parks: the Wānaka Recreation Centre, Beacon Point Road and Camp Hill Road at Lake Hāwea, or at Luggate Red Bridge Reserve under its signs. Arrive after 6pm, leave before 8am, and stay no more than two nights in any 30 days."],
+    ["Can you still freedom camp at Allenby Place in Wānaka?", "No. The council closed Allenby Place to freedom camping on 23 January 2026 and added temporary spaces at the Wānaka Recreation Centre instead. Its decision on further changes to the Wānaka sites is due on 17 December 2026."],
+  ],
 };
