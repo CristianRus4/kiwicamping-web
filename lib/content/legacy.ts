@@ -88,11 +88,6 @@ export const legacyOnlyArticles: Article[] = [
       ], ["Signs override app data", "Recheck DOC alerts before remote legs", "Fire restrictions can change overnight"]),
     ],
     sources: [
-      { label: "Rankers Camping NZ app", url: "https://www.rankers.co.nz/apps/camping_nz" },
-      { label: "CamperMate", url: "https://campermate.com/" },
-      { label: "WikiCamps New Zealand", url: "https://wikicamps.co.nz/" },
-      { label: "Campable", url: "https://www.campable.com/" },
-      { label: "The NZMCA App", url: "https://www.nzmca.org.nz/the-nzmca-app" },
       { label: "NZMCA membership fees", url: "https://www.nzmca.org.nz/join-us" },
       { label: "AllTrails", url: "https://www.alltrails.com/" },
       { label: "DOC bookings", url: "https://bookings.doc.govt.nz/" },
