@@ -217,3 +217,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-arrowtown` | The Remarkables Queenstown. (10687031544).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:The_Remarkables_Queenstown._(10687031544).jpg) |
 | `freedom-camping-lumsden` | Lake Te Anau - 2013.04 - panoramio (1).jpg | rheins | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_-_2013.04_-_panoramio_(1).jpg) |
 | `freedom-camping-colac-bay` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
+| `freedom-camping-westport` | Beach in Hokitika, West Coast, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Beach_in_Hokitika,_West_Coast,_New_Zealand.jpg) |

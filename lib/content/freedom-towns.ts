@@ -880,4 +880,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-westport",
+    title: "Freedom Camping in Westport and Buller: Rules and Where to Stay",
+    description: "Freedom camping around Westport and the Buller District: a bylaw that allows self-contained vehicles outside named no-camping zones, the banned tipheads, Marrs Beach and Carters Beach, night limits, fines and campgrounds.",
+    category: "Rules & safety",
+    region: "West Coast",
+    places: ["Westport", "Carters Beach", "Cape Foulwind", "Charleston", "Punakaiki", "Karamea"],
+    imageAlt: "Driftwood and boulders strewn along a West Coast beach with the sea behind",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-west-coast", "west-coast-south-island-road-trip", "freedom-camping-westland-2026", "arthurs-pass-camping-route"],
+    hubs: ["freedom-camping/buller", "camping/west-coast"],
+    intro:
+      "Buller District Council works differently from most councils: instead of listing the places where you can camp, its bylaw lets a certified self-contained vehicle stay anywhere on council land outside a list of named no-camping zones. Those zones take in most of what a visitor would try around Westport, including the Buller River tipheads, Marrs Beach and the Carters Beach domain, and the council publishes no designated freedom camping sites for Westport, Charleston, Karamea or Reefton. The rules also date from 2012, so the council's own page and its bylaw do not quite agree.",
+    sections: [
+      s("How Buller's bylaw works", [
+        "The Freedom Camping Bylaw 2012, amended in 2018, says a person may freedom camp in a self-contained vehicle in any local authority area outside the no-camping zones in its schedule. Tents and vehicles that are not self-contained are not provided for, and the council's page tells them to use a campground. The self-contained test in the bylaw is the old NZS 5465:2001 standard, and since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains.",
+        "The bylaw limits a stay to three consecutive days and ten days a calendar month at any one place or within 500 metres, with no fires. The council's web page asks for no more than two consecutive nights and nine a month, so follow the stricter figure. Replacement of the bylaw has been planned, so read the council's page before you arrive.",
+      ], ["Anywhere outside named no-camping zones", "Bylaw says 3 days, page says 2 nights", "Follow the stricter figure"]),
+      s("Where you cannot camp around Westport", [
+        "The no-camping zones name the places visitors reach for first: both Buller River tipheads, all of Marrs Beach east of Tiphead Road, the parking areas at the eastern end of the Buller Bridge, Carters Beach Domain from Golf Links Road to the holiday park, Tui Dellaca Reserve and the grass south of Tauranga Bay Road, and Okari Road out to the lagoon. The council's page adds Omau Domain at Cape Foulwind and Kohaihai Road at Karamea.",
+        "Further up the coast the list continues: the Oparara River mouth and Flagstaff at Karamea, the Dolphin Reserve beach tracks at Hector, and the first layby north of the Nile River mouth at Charleston. If a place looks like a beach car park, assume it is on the list.",
+      ], ["Tipheads and Marrs Beach: banned", "Carters Beach Domain: banned", "Karamea and Charleston have named bans"]),
+      s("Fines and what to expect", [
+        "The council's web page mentions a $200 fine, but that figure is out of date: the national fee schedule has set $400 for camping where it is prohibited and $400 for a vehicle that is not self-contained where it must be since 2023, with $200 for no warrant card on display and $800 for damage or waste. A hire company receives the notice first and charges it to the renter.",
+        "The council can give written consent to camp where it is otherwise banned, though it is not a route for a casual visitor. The practical result is that Westport has no obvious free place to stay, and the honest advice is to plan a campground and treat any roadside night as a bonus.",
+      ], ["$400, not $200", "Written consent is rare", "Plan a campground first"]),
+      s("Campgrounds, DOC and the coast road", [
+        "Westport and the Buller coast have holiday parks and campgrounds, at Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki and Karamea, with powered sites, tent areas and cabins, and they are the way to sleep near the sea. The council's own page links to its list of campgrounds. The guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the West Coast, only 1 of them free and 10 with campervan access, with adult nightly rates from $10 to $20, and Lake Māhinapua is the largest with room for 100. The Paparoa Track starts near Punakaiki and Blackball, and its huts book through DOC.",
+      ], ["Holiday parks along the coast", "14 DOC campsites on the West Coast", "Paparoa Track books through DOC"]),
+      s("Using KiwiCamping around Westport", [
+        "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations along the West Coast, with filters for campervan access. It does not hold Buller's no-camping zones, so use the council's page to avoid them.",
+        "Place a Westport night in a trip between Nelson and Greymouth, and read the legs, which are about 3.5 hours from Nelson and 2 hours on to Greymouth, with fuel at Westport. Saved places stay on the phone, and the map, routing, forecast and photos load when there is signal, which is thin along the Buller Gorge. The app is free to download, with in-app purchases.",
+      ], ["Council page shows the no-camping zones", "Fuel at Westport", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Westport?", "Only in a certified self-contained vehicle, and not in the named no-camping zones, which include the tipheads, Marrs Beach and Carters Beach Domain. The council publishes no designated sites, so a campground is the reliable choice."],
+      ["How many nights can I stay in Buller?", "The bylaw says three consecutive days and ten a month, while the council's page asks for two nights and nine a month. Follow the stricter one."],
+    ],
+    sources: [
+      { label: "Buller District Council: Freedom camping", url: "https://bullerdc.govt.nz/recreation/freedom-camping/" },
+      { label: "Buller District Council: Freedom Camping Bylaw 2012", url: "https://bullerdc.govt.nz/media/vrifsbba/181119-bdc-freedom-camping-bylaw-2012.pdf" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
