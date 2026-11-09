@@ -169,3 +169,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-te-anau` | Te Anau and Murchison Mountains.jpg | Tim Burgess | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Te_Anau_and_Murchison_Mountains.jpg) |
 | `freedom-camping-twizel` | Tasman Road in Twizel.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Tasman_Road_in_Twizel.jpg) |
 | `freedom-camping-akaroa` | Akaroa, Banks Peninsula, Canterbury, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa,_Banks_Peninsula,_Canterbury,_New_Zealand_05.jpg) |
+| `freedom-camping-paihia` | The pier of Paihia,New Zealand.jpg | Prof.Chen Hualin | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:The_pier_of_Paihia,New_Zealand.jpg) |

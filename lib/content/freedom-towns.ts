@@ -504,4 +504,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-paihia",
+    title: "Freedom Camping in Paihia and the Bay of Islands: Where You Can Stay",
+    description: "Freedom camping in Paihia and the Bay of Islands: Far North District Council's no-camping rule for parks, reserves and beaches, the nearest approved site at Kawakawa, DOC's bans and the holiday parks to book.",
+    category: "Rules & safety",
+    region: "Northland",
+    places: ["Paihia", "Waitangi", "Russell", "Kawakawa", "Haruru Falls"],
+    imageAlt: "The pier at Paihia stretching out into the Bay of Islands, with boats moored beside it",
+    related: ["freedom-camping-rules-new-zealand", "bay-of-islands-camping-week", "auckland-to-bay-of-islands-drive-guide", "self-contained-campervan-green-warrant", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/bay-of-islands", "camping/northland"],
+    intro:
+      "You cannot freedom camp in Paihia. Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches, and none of its approved free sites is in the Bay of Islands towns: the nearest is at Kawakawa, a short drive inland. DOC's notices ban camping at five places around the bay as well. The Bay of Islands is a holiday park region, and in summer they fill early, so book before you arrive.",
+    sections: [
+      s("What the council says", [
+        "Far North District Council's responsible camping page says camping or parking overnight in council-controlled parks, reserves and beaches is not permitted. Free campers are asked to use a short list of approved sites chosen for their toilets and water supplies, and Paihia, Waitangi and Russell are not among them.",
+        "The rule covers council land only, so DOC land, private land and campgrounds follow their own rules. The practical effect for a visitor is that a waterfront car park or a beach reserve is not a place to sleep, however empty it looks at 9pm, and the council can issue the national infringement fees.",
+      ], ["Parks, reserves and beaches: no", "No approved site in Paihia", "Council land only"]),
+      s("The nearest approved site", [
+        "The council's approved sites include Te Hononga in Gillies Street, Kawakawa, which is about 20 minutes' drive from Paihia and on the way in from State Highway 1. It is a late-arrival option for a self-contained vehicle, not a base for the Bay of Islands. The list has moved before, so check the council's page before a night depends on it.",
+        "Since 7 June 2026 a self-contained vehicle needs the green warrant, which the guide to the self-contained campervan warrant explains, and tents are not part of the approved-site message. The fees are $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
+      ], ["Kawakawa is about 20 minutes away", "Late arrivals only", "$400 for most breaches"]),
+      s("DOC land around the bay", [
+        "DOC's freedom camping notices around the Bay of Islands list five current places, and camping is prohibited at all five, including Hongi Hika and Pitt Street. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites across Northland, 11 of them bookable online through DOC, with adult nightly rates from $10 to $23, and Uretiti Beach Campsite is the biggest with room for 300.",
+        "On Urupukapuka Island in the bay, DOC runs campsites reached by boat or ferry, which suit a night away from the road. The kauri dieback guide matters on the walks from these campsites.",
+      ], ["5 DOC notices, all bans", "14 DOC campsites in Northland", "Island campsites by boat"]),
+      s("Holiday parks in Paihia", [
+        "The Bay of Islands has holiday parks and motor camps in Paihia, at Waitangi and at Haruru Falls, with tent sites, powered sites, cabins and campervan bays, and they are the straightforward answer for any night here. They fill from December to February and over Easter, so reserve ahead. The guide to holiday parks in New Zealand explains how booking works.",
+        "For a week-long plan, the Bay of Islands camping week guide covers the nights and the days around the bay, and the Auckland to Bay of Islands drive guide covers the road from the city.",
+      ], ["Book ahead from December to Easter", "Powered sites and cabins", "Week-long plan in the Bay of Islands guide"]),
+      s("Using KiwiCamping around Paihia", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's approved sites, so use the council's page for Kawakawa.",
+        "Add the Bay of Islands to a trip with each night dated and a holiday park noted, and read the distance between legs, whether you are heading on to Cape Reinga or back to Auckland. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council page decides Kawakawa", "Date each night and add a fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Paihia?", "No. Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches, and DOC bans camping at five places around the Bay of Islands. Use a holiday park."],
+      ["Where is the nearest free camping to Paihia?", "The council's approved site at Kawakawa, about 20 minutes' drive away, is the nearest it lists. Check the council's page, because the list has changed before."],
+    ],
+    sources: [
+      { label: "Far North District Council: Responsible camping", url: "https://www.fndc.govt.nz/District/Visiting-the-Far-North/responsible-camping" },
+      { label: "RNZ via 7me: Northland councils gearing up as peak freedom camping season begins", url: "https://7me.one/northland-councils-gearing-up-as-peak-freedom-camping-season-begins/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
