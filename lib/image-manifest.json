@@ -1063,6 +1063,20 @@
       }
     ]
   },
+  "/images/articles/family-holiday-parks-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/family-holiday-parks-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/family-holiday-parks-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/fiordland-camping-road-trip.webp": {
     "width": 1600,
     "height": 900,

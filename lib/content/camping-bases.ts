@@ -372,4 +372,53 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "family-holiday-parks-new-zealand",
+    title: "Family Holiday Parks in New Zealand: What to Look For and Where to Go",
+    description: "How to choose a family holiday park in New Zealand: playgrounds, pools, jumping pillows, kitchens and cabins, examples from Taupō to Christchurch, when to book and how DOC campsites work with children.",
+    category: "Camping guides",
+    region: "New Zealand",
+    places: ["Taupō", "Napier", "Auckland", "Christchurch", "Kaikōura", "Kaiteriteri"],
+    imageAlt: "Kaiteriteri Beach in the Tasman region, with golden sand and calm water",
+    related: ["holiday-parks-new-zealand-guide", "easy-doc-huts-families-first-timers", "christmas-summer-camping-new-zealand-2026-27", "school-public-holidays-new-zealand-2027", "camping-in-taupo"],
+    hubs: ["camping"],
+    intro:
+      "A good family holiday park in New Zealand has a playground, a pool or a beach nearby, a kitchen you can cook in, and cabins for the night it rains. Most of the larger parks, from Taupō to Christchurch, have some mix of those, and the better ones add jumping pillows, games rooms and hot pools. The hard part is not finding one but booking it, because the best ones fill months ahead in the school holidays.",
+    sections: [
+      s("What a family park needs", [
+        "Start with the things you cannot do without. A playground and a space for children to run are the baseline, and a pool or a safe beach takes the strain out of a hot afternoon. A kitchen, a laundry and hot showers matter more with children than with adults, because sleeping bags get wet and meals get messy. If you are travelling with a baby or a toddler, ask about a bath or a kitchen with a high chair.",
+        "Then think about sleeping. Cabins let you swap a tent for a bed on a wet or cold night, and they are the best insurance for a trip with children in autumn or winter. A powered site gives a campervan a heater and a kettle. A park's own rules matter too, so check quiet hours, whether dogs are allowed and whether the pool has fences and supervision rules.",
+      ], ["Playground, pool, kitchen, laundry", "Cabins for wet nights", "Check quiet hours and pool rules"]),
+      s("Parks known for family facilities", [
+        "Several parks are known for what they offer children. DeBretts Spa Resort and the TOP 10 park in Taupō have playgrounds, a jumping pillow and hot pools, Kennedy Park Resort in Napier has a heated pool, pedal cars and an adventure playground, and Takapuna Beach Holiday Park in Auckland has playgrounds, a jumping pillow and a games room. Kaikōura TOP 10 has a pool and hot tub, and Akaroa TOP 10 has a heated pool.",
+        "Paekākāriki Holiday Park on the Kāpiti Coast has a playground, trampolines and a stream, and Fitzroy Beach Holiday Park in New Plymouth has a jumping pillow and playground with a children's pool nearby in summer. Facilities change, so check the park's own page before you book, and use the town guides for Taupō, Kaikōura, Auckland and Christchurch for the surroundings.",
+      ], ["Taupō: jumping pillow and hot pools", "Napier: heated pool and adventure playground", "Check facilities before you book"]),
+      s("Beach parks and lake parks", [
+        "Beside the water is where families want to be in summer. The beach parks of the Coromandel, the Bay of Plenty and the Abel Tasman coast, such as Kaiteriteri, fill with families from Christmas, and the lake parks at Taupō and in the Mackenzie and Central Otago have swimming and boats. Rivers and surf need adult supervision, and a sunny beach can still have a rip, so check where the patrolled area is.",
+        "For wet weather, a park with a games room, indoor pool or kitchen lounge is worth the extra cost. A wet afternoon is the usual reason a trip with children goes wrong, so plan for one, and read the guide to holiday parks in New Zealand for site types, power and booking.",
+      ], ["Swim only where there is supervision", "Check for patrolled beaches", "Games room for wet days"]),
+      s("When to book", [
+        "The 2027 school holidays run from 10 to 26 April, 3 to 18 July and 25 September to 10 October, and the summer break runs through December and January. The best family parks fill for Christmas and New Year months ahead, and for Easter and the July holidays weeks ahead. Midweek outside the school holidays is far easier.",
+        "If you cannot get a family park, look at the next town along, since many families stay in one park and drive to the attractions. The guide to Christmas and summer camping and the school and public holidays guide show how the calendar shapes demand.",
+      ], ["Christmas and New Year: book months ahead", "School holidays: 10 to 26 April, 3 to 18 July, 25 September to 10 October 2027", "Midweek is easier"]),
+      s("DOC campsites with children", [
+        "DOC campsites are basic, with toilets and sometimes a water tap, and they suit families who like space and quiet. DOC's fees for children are lower than adult rates, with children under 5 free at the sites that charge. KiwiCamping's DOC data (11 August 2026) lists 287 DOC campsites nationally with adult nightly rates listed from $5 to $25 and 177 bookable online through DOC.",
+        "For a first night with children, a holiday park is easier. For a second or third, a DOC campsite by a river or beach is a good change, as long as you bring water, a toilet plan and a way to keep the children away from the water's edge. The easy DOC huts guide covers a gentler step into huts.",
+      ], ["Under 5s are free at DOC sites that charge", "Bring water and a toilet plan", "Start with a park, then try DOC"]),
+      s("Using KiwiCamping with a family", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park for each night, add a backup for the night you are not sure of, and order them in a trip with dates and notes.",
+        "The trip adds up the distance between legs, so you can see how many hours the children will be in the back, and shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Keep legs short with children", "Add a backup for each night", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["What makes a holiday park good for families?", "A playground, a pool or safe beach, a kitchen and laundry, hot showers and cabins for wet nights. Jumping pillows, hot pools and games rooms are bonuses."],
+      ["When should I book a family holiday park in New Zealand?", "Months ahead for Christmas and New Year, weeks ahead for Easter and the other school holidays, and a few days ahead midweek outside them."],
+    ],
+    sources: [
+      { label: "Top 10 Holiday Parks", url: "https://top10.co.nz/" },
+      { label: "Ministry of Education: Term dates", url: "https://www.education.govt.nz/school/running-a-school/school-terms-and-holidays/term-dates" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
 ];
