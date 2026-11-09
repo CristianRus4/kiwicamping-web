@@ -512,4 +512,478 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "one-week-campervan-itinerary-new-zealand",
+    title: "1 Week Campervan Itinerary New Zealand: A North Island Loop",
+    description: "A 7-day New Zealand campervan itinerary: a North Island loop from Auckland through Waitomo, Rotorua and Taupō with short drives, rest time and where to camp each night.",
+    category: "Road trips",
+    region: "North Island",
+    places: ["Auckland", "Waitomo", "Rotorua", "Taupō", "Tauranga", "Hahei"],
+    imageAlt: "Champagne Pool at Wai-O-Tapu, an orange-rimmed geothermal pool under steam",
+    related: ["10-day-campervan-itinerary-new-zealand", "two-week-camper-itinerary-new-zealand", "north-island-two-week-road-trip", "new-zealand-driving-day-planner", "campervan-budget-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/waikato", "camping/central-north-island", "camping/bay-of-plenty"],
+    intro:
+      "One week is enough to see a good slice of New Zealand if you pick one island and keep the drives short. This 7-day campervan itinerary is a North Island loop from Auckland: caves and Hobbiton, Rotorua's geothermal parks, Lake Taupō, the Bay of Plenty coast and a last night on the Coromandel, with no day longer than about four hours behind the wheel. Below are the day-by-day plan, how to pick a vehicle and a pick-up point, what to book first, and the version for the South Island.",
+    sections: [
+      sec("Before you go: pick one island", [
+        "Seven days is a short time in New Zealand, and the biggest mistake is trying to cross Cook Strait. The ferry day alone eats most of a day, and the South Island needs at least ten days to feel unhurried. Pick the North Island for a first week if you land in Auckland, and keep the South Island for a trip of ten days or more.",
+        "Pick up and drop off at the same place to avoid a one-way fee, and book the vehicle and your first and last nights before you leave home. The campervan budget guide shows what a week costs, and the driving day planner helps you check that each day is realistic for your vehicle.",
+      ], ["One island for a one-week trip", "Return the vehicle where you collected it", "Book the first and last nights early"]),
+      sec("Days 1 to 3: Waitomo, Hobbiton and Rotorua", [
+        "Day 1: collect the vehicle in Auckland, stock up and drive south through the Waikato to Hobbiton, about two hours away. Book the tour ahead and spend the night around Matamata. Day 2: cross to Waitomo for the caves, which take a couple of hours, then drive to Rotorua, about 2 hours, for a night at a holiday park with thermal pools. The Auckland to Waitomo and Hobbiton guide has the details for these two days.",
+        "Day 3: spend the day in Rotorua. The geothermal parks, the redwoods and the lakefront all deserve time, and the Māori cultural experiences in the evening are worth booking. Treat geothermal fences as firm boundaries, and keep a second night in Rotorua if the weather turns wet.",
+      ], ["Day 1: Hobbiton, night in Matamata", "Day 2: Waitomo caves, night in Rotorua", "Day 3: a full day in Rotorua"]),
+      sec("Days 4 to 7: Taupō, the coast and the Coromandel", [
+        "Day 4: drive an hour south to Taupō for the lake, Huka Falls and a hot pool, and spend the night there. The Auckland to Taupō guide covers the stops and the camping rules. Day 5: head north-east to Tauranga and Mount Maunganui, about two hours, and climb Mauao for sunset.",
+        "Day 6: cross to the Coromandel via Waihi and Karangahake Gorge, and spend the night near Hahei or Whitianga. Day 7: walk to Cathedral Cove if access allows, then drive back to Auckland, about three hours, leaving a buffer before any flight. The Coromandel to Rotorua guide has more on the peninsula.",
+      ], ["Day 4: Taupō and Huka Falls", "Day 5: Tauranga and Mauao", "Day 6 and 7: Coromandel and home"], {
+        caption: "The loop at a glance, with approximate driving times for each day. Check live traffic before you leave.",
+        head: ["Day", "Route", "Driving"],
+        rows: [
+          ["1", "Auckland to Matamata (Hobbiton)", "About 2 hours"],
+          ["2", "Matamata to Waitomo to Rotorua", "About 3 hours"],
+          ["3", "Rotorua, no driving", "Local only"],
+          ["4", "Rotorua to Taupō", "About 1 hour"],
+          ["5", "Taupō to Tauranga", "About 2.5 hours"],
+          ["6", "Tauranga to the Coromandel", "About 2.5 hours"],
+          ["7", "Coromandel to Auckland", "About 3 hours"],
+        ],
+      }),
+      sec("Where to sleep each night", [
+        "Holiday parks are the easy choice in Rotorua, Taupō and Tauranga, with power, showers and kitchens, and they book out in summer and on long weekends, so reserve each one. The holiday parks guide explains what to look for. On the Coromandel, the east coast campgrounds near Hahei fill over Christmas and January, often booked months ahead.",
+        "Freedom camping is more limited than people expect, and most popular spots near the towns on this loop are closed or restricted. The freedom camping rules guide and the green warrant guide explain what applies, and each council's own map is the final word. A vehicle that is not certified self-contained has very few options.",
+      ], ["Book every holiday park in summer", "Coromandel beaches fill at Christmas", "Check each council's map for freedom camping"]),
+      sec("The South Island version", [
+        "If you land in Christchurch, the same one-week idea works in the south. Drive to Lake Tekapo and Aoraki Mount Cook on days 1 and 2, cross the Lindis Pass to Wānaka and Queenstown on days 3 and 4, take a day trip to Milford Sound or Te Anau on day 5, then drive back to Christchurch over two days. The Christchurch to Tekapo and Aoraki guide and the Christchurch to Te Anau guide cover most of this.",
+        "The South Island drives are longer and the weather less forgiving, so take the ten-day version if you can. The 10-day campervan itinerary adds the West Coast and Arthur's Pass without rushing the days.",
+      ], ["Christchurch to Tekapo and Aoraki first", "Lindis Pass to Wānaka and Queenstown", "Take ten days if you can"]),
+      sec("Planning your week in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+      { label: "DOC: places to go in the Central North Island", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "10-day-campervan-itinerary-new-zealand",
+    title: "10 Day Campervan Itinerary New Zealand: A South Island Loop",
+    description: "A 10-day New Zealand campervan itinerary: a South Island loop from Christchurch through Tekapo, Queenstown, Fiordland, the West Coast and Arthur's Pass, with drive times and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Lake Tekapo", "Wānaka", "Queenstown", "Te Anau", "Franz Josef", "Arthur's Pass"],
+    imageAlt: "A road crossing tawny tussock hills in the Lindis Pass under a blue sky",
+    related: ["one-week-campervan-itinerary-new-zealand", "two-week-camper-itinerary-new-zealand", "south-island-two-week-road-trip", "christchurch-to-te-anau-drive-guide", "christchurch-to-franz-josef-drive-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "camping/otago", "camping/west-coast"],
+    intro:
+      "Ten days is the shortest time that makes a South Island loop feel unhurried. This itinerary starts and ends in Christchurch and runs through Lake Tekapo and Aoraki Mount Cook, over the Lindis Pass to Wānaka and Queenstown, down to Te Anau for Fiordland, back over Haast Pass to the glaciers, and across Arthur's Pass home, with one rest day and no leg over about five hours. Below are the day-by-day plan, the nights to book first, and the changes to make in winter.",
+    sections: [
+      sec("How the ten days fit together", [
+        "The loop is about 1,800 km, so the average day is 180 km, and the longest legs are the run from Queenstown to Te Anau with the Milford Road side trip, and the West Coast day from Haast to Franz Josef and on. Starting and ending in Christchurch avoids a one-way fee and gives you the flight home from the same airport. Check the driving day planner before you lock the days in.",
+        "Book the nights you cannot move: Te Anau, Franz Josef and Queenstown in summer, and Aoraki Mount Cook if you want the DOC campsite at White Horse Hill. In winter the passes can need chains and the Milford Road can close, so build in a spare day and read the winter driving guide.",
+      ], ["About 1,800 km in ten days", "Start and end in Christchurch", "Book Te Anau, Franz Josef and Queenstown early"]),
+      sec("Days 1 to 4: Tekapo, Aoraki and the lakes", [
+        "Day 1: leave Christchurch and drive to Lake Tekapo, about 3 hours, stopping at Geraldine or Fairlie on the way. Spend the evening at the lake and the stars. Day 2: continue to Aoraki Mount Cook for the Hooker Valley walk, then spend the night at Twizel or in the national park village. The Christchurch to Tekapo and Aoraki guide covers both days.",
+        "Day 3: cross the Lindis Pass to Wānaka, about 3 hours, and walk the lake or Roys Peak if the weather is clear. Day 4: drive to Queenstown, about an hour, with a stop in Arrowtown. Use the afternoon in town, and spend the night at a holiday park.",
+      ], ["Day 1: Tekapo", "Day 2: Aoraki and the Hooker Valley", "Day 3 and 4: Wānaka, then Queenstown"]),
+      sec("Days 5 to 7: Fiordland and the Haast Pass", [
+        "Day 5: drive from Queenstown to Te Anau, about 2 hours, and take the afternoon to see the lake and the glowworm caves. Day 6: drive the Milford Road, about 2 hours each way, for Milford Sound, and return to Te Anau. It is a long day, so book a cruise rather than doing the whole drive in a rush. The Fiordland camping road trip guide has the details.",
+        "Day 7: drive back to Queenstown and on to Wānaka, then north over Haast Pass to the coast. The Wānaka to Haast Pass guide covers the stops, and the road is slow but beautiful. This is the longest day of the trip, so start early and spend the night at Haast or Fox Glacier, whichever your timing allows.",
+      ], ["Day 5: Queenstown to Te Anau", "Day 6: Milford Sound and back", "Day 7: Haast Pass to the coast"], {
+        caption: "The loop at a glance, with approximate driving times for each day. Check live traffic before you leave.",
+        head: ["Day", "Route", "Driving"],
+        rows: [
+          ["1", "Christchurch to Lake Tekapo", "About 3 hours"],
+          ["2", "Tekapo to Aoraki and Twizel", "About 2 hours"],
+          ["3", "Twizel to Wānaka", "About 2.5 hours"],
+          ["4", "Wānaka to Queenstown", "About 1 hour"],
+          ["5", "Queenstown to Te Anau", "About 2 hours"],
+          ["6", "Te Anau to Milford Sound and back", "About 4 hours"],
+          ["7", "Te Anau to the West Coast via Haast Pass", "About 6.5 hours"],
+          ["8", "Glacier country, short drives", "About 1 hour"],
+          ["9", "Franz Josef to Arthur's Pass", "About 4 hours"],
+          ["10", "Arthur's Pass to Christchurch", "About 2 hours"],
+        ],
+      }),
+      sec("Days 8 to 10: the glaciers and Arthur's Pass", [
+        "Day 8: use the day for Franz Josef and Fox Glacier. The valley walks are short, and the glaciers are best seen on a clear day, with a helicopter or a guided trip if the budget allows. This is also the rest day, so keep the driving short. The Christchurch to Franz Josef guide shows the road from the other direction.",
+        "Day 9: head north through Hokitika and Greymouth and then over Arthur's Pass, stopping at the viewpoints and the village. Spend the night at Arthur's Pass, where the keas are curious about your gear. Day 10: drive back to Christchurch, about 2 hours, with a buffer before any flight. The Arthur's Pass guide has the details.",
+      ], ["Day 8 is the rest day", "Day 9: Hokitika and Arthur's Pass", "Day 10: home with a buffer"]),
+      sec("Where to camp and what to book", [
+        "Holiday parks are the easy choice in Tekapo, Wānaka, Queenstown, Te Anau and Franz Josef, with power, showers and kitchens, and they book out in summer. The holiday parks guide explains what to look for. DOC campsites at Aoraki, along the Milford Road and on the Coast are simpler and cheaper, and the DOC campsites guide covers booking.",
+        "Freedom camping is restricted in most of these towns, and the Queenstown Lakes and Westland areas are patrolled. Read the freedom camping rules guide before you rely on a spot, and carry sandfly repellent for the West Coast and Fiordland.",
+      ], ["Book holiday parks in summer", "DOC sites are simpler and cheaper", "Sandfly repellent for the Coast"]),
+      sec("Planning your ten days in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the South Island. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the mountain and coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+      { label: "DOC: Aoraki/Mount Cook National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "doc-campsites-sell-out-summer-new-zealand",
+    title: "DOC Campsites That Sell Out Over Summer (and What to Book Instead)",
+    description: "Which DOC campsites book out first over a New Zealand summer: Tōtaranui, Waikawau Bay, Purakaunui Bay and more, when bookings open, how to improve your odds and where to go when they are full.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Tōtaranui", "Waikawau Bay", "Purakaunui Bay", "Papatowai", "Momorangi Bay", "Kerr Bay"],
+    imageAlt: "Totaranui Beach in Abel Tasman National Park, golden sand curving beneath forested hills",
+    related: ["christmas-summer-camping-new-zealand-2026-27", "doc-hut-great-walk-booked-out", "doc-campsites-new-zealand-guide", "nz-great-walks-2026-27-huts-campsites-booking-fees", "school-public-holidays-new-zealand-2027", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/nelson-tasman", "camping/coromandel", "camping/southland"],
+    intro:
+      "A handful of DOC campsites book out first every summer, and the same ones sell out over Christmas, January and Easter year after year: Tōtaranui in Abel Tasman, Waikawau Bay on the Coromandel, and a few busy beach campsites in the Catlins. DOC releases bookings in May for the season ahead, keeps no waiting list, and sells each night first come, first served. Below are the campsites to book first, when to book them, how to improve your odds when they are full, and where to go instead.",
+    sections: [
+      sec("The campsites that go first", [
+        "Tōtaranui is the best known. It has 269 non-powered sites behind one of the best beaches in the country, DOC says to book well in advance for 1 December to 28 February and public holiday weekends, and a minimum fee of $40 per night applies from 26 December to 8 February. Waikawau Bay on the Coromandel is DOC's largest campsite, and DOC says bookings are essential in summer and at Easter.",
+        "Other campsites follow the same pattern. Purakaunui Bay and Papatowai in the Catlins need bookings, and the DOC pass that gives discounts is excluded at Tōtaranui, Momorangi Bay, Pelorus Bridge, Peel Forest and Trounson Kauri Park from 26 December to 8 February, a good clue to where the pressure is. Kerr Bay in Nelson Lakes is excluded from 19 October to 30 April for the same reason.",
+      ], ["Tōtaranui and Waikawau Bay go first", "Catlins beaches need bookings", "Pass exclusions show the busiest sites"], {
+        caption: "Busy DOC campsites and the peak-season notes DOC publishes, as set out in our guide to camping over Christmas. Check each DOC page for the current rule.",
+        head: ["Campsite", "Where", "Peak-season note"],
+        rows: [
+          ["Tōtaranui", "Abel Tasman", "Book well ahead for December to February; minimum fee from 26 December to 8 February"],
+          ["Waikawau Bay", "Coromandel", "Bookings essential in summer and at Easter"],
+          ["Purakaunui Bay and Papatowai", "The Catlins", "Bookings required"],
+          ["Momorangi Bay and Pelorus Bridge", "Marlborough", "Pass excluded over Christmas"],
+          ["Kerr Bay", "Nelson Lakes", "Pass excluded 19 October to 30 April"],
+        ],
+      }),
+      sec("When bookings open and how to improve your odds", [
+        "DOC opens its campsite bookings for the season in May, with different opening days by region, and bookings run through to the end of June the following year. The best nights go in the first days, so check DOC's opening dates in April and set a reminder. Have your DOC account ready, and pay promptly, because a booking only counts once the payment is confirmed.",
+        "If you are late, you still have options. Midweek nights, the shoulder weeks either side of the school holidays and February and March are much easier than the first fortnight of January. Cancellations release beds back onto sale, and the booked-out guide explains how DOC's fees step up before a stay, which is when people cancel. Check the booking site often, especially 15 and 3 days before your date.",
+      ], ["Bookings open in May for the season", "Midweek and February are easier", "Check for cancellations 15 and 3 days out"]),
+      sec("What to do when your campsite is full", [
+        "Look at the next campsite along. The Abel Tasman has other campgrounds and holiday parks in Marahau, Kaiteriteri and Motueka, the Coromandel has other DOC and private sites, and the Catlins has holiday parks in Owaka and Papatowai. The holiday parks guide explains what to expect, and the freedom camping rules guide explains why freedom camping is rarely the answer in the busiest areas.",
+        "Campsites that cannot be booked work first come, first served, and DOC advises arriving early in the day. Do not rely on one of these at Christmas without a backup, and have a second option within an hour's drive. A site with no power and few facilities will fill more slowly than one at a beach.",
+      ], ["Try the next campsite along", "First come, first served sites fill by lunchtime", "Always have a backup within an hour"]),
+      sec("Quieter DOC campsites worth knowing", [
+        "Many DOC campsites are far quieter than the famous ones, and the DOC campsites guide explains the categories. Look at the scenic and standard campsites in the hubs for the region you are visiting, which list the sites with their fees and facilities. The quietest are the ones with no road access or a long gravel approach.",
+        "Be ready for simpler facilities: a long drop toilet, no power and often no running water. In return you get a site that is cheaper, quieter and often better placed than the crowded ones. The Coromandel, Nelson-Tasman and Southland hubs below list the places to start.",
+      ], ["Look at the regional hubs", "Gravel roads keep the crowds away", "Expect long drops and no power"]),
+      sec("Planning around sold-out sites in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, so you can see the alternatives around a full campsite on one map. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
+        "It does not show live availability, so keep the DOC booking site open when you plan.",
+      ], ["Save a backup beside each booking", "Forecast at each stop", "Check availability on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Tōtaranui campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/things-to-do/campsites/totaranui-campsite/" },
+      { label: "DOC: book a campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+      { label: "DOC: campsites in New Zealand", url: "https://www.doc.govt.nz/campsites" },
+    ],
+  }),
+  a({
+    slug: "franz-josef-fox-glacier-camping",
+    title: "Camping at Franz Josef and Fox Glacier: Campsites, Rules and Tips",
+    description: "Where to camp at Franz Josef and Fox Glacier: holiday parks in both villages, DOC campsites at Gillespies Beach and Lake Mapourika, the freedom camping bans and the rain and sandfly notes.",
+    category: "Camping guides",
+    region: "West Coast",
+    places: ["Franz Josef", "Fox Glacier", "Gillespies Beach", "Lake Mapourika", "Lake Matheson", "Okarito"],
+    imageAlt: "The Southern Alps rising above the West Coast shoreline at Gillespies Beach in warm evening light",
+    related: ["christchurch-to-franz-josef-drive-guide", "west-coast-south-island-road-trip", "freedom-camping-westland-2026", "wanaka-haast-pass-route", "sandflies-new-zealand-camping", "new-zealand-severe-weather-camping"],
+    hubs: ["camping/west-coast", "freedom-camping/south-westland", "huts/west-coast"],
+    intro:
+      "Franz Josef and Fox Glacier are 25 km apart on State Highway 6 and have two ways to camp: holiday parks in both villages, and a couple of DOC campsites a short drive away at Gillespies Beach and Lake Mapourika. Freedom camping is banned at the glacier carparks and on the glacier access roads, so plan a proper site for each night. Below are the options, what to do from each base, and what to expect from the rain and the sandflies.",
+    sections: [
+      sec("Franz Josef and Fox Glacier: which to choose", [
+        "Franz Josef is the bigger village, with more cafes, shops and a hot pool complex, and it suits a stay of two nights with a helicopter flight or a guided walk. Fox Glacier is quieter, close to Lake Matheson and with the Gillespies Beach road starting from the village, and it suits a slower pace. The two are 25 minutes apart, so you can stay in one and visit the other.",
+        "If you are driving from Christchurch, Franz Josef comes first, and if you are coming over Haast Pass from Wānaka, Fox Glacier does. The Christchurch to Franz Josef drive guide and the Wānaka to Haast Pass guide cover the roads. Most people want a night at each end if they have the time.",
+      ], ["Franz Josef: more services", "Fox Glacier: quieter, near Lake Matheson", "25 minutes apart"]),
+      sec("Holiday parks in the villages", [
+        "Both villages have holiday parks with powered sites, showers, kitchens and a few with a hot tub, and they are the easy choice, especially when it rains. They fill in summer, at Easter and around school holidays, so book ahead for each night. The holiday parks guide explains what to look for.",
+        "In winter many parks keep a quieter schedule and the glaciers are often clear and cold, a good season for a visit. The weather can still close roads, so check the NZTA Journey Planner and read the severe weather guide if heavy rain is forecast.",
+      ], ["Book ahead in summer and at Easter", "Winter can be clear and quiet", "Check roads in heavy rain"]),
+      sec("DOC campsites near the glaciers", [
+        "DOC runs a campsite at Gillespies Beach, reached from Fox Glacier along Cook Flat Road, which is narrow and more than half gravel. It sits near a seal colony and the remains of a gold mining settlement, and DOC says sites are not held for anyone arriving without a booking, so book online before you drive out. The Otto/MacDonalds campsite is on State Highway 6 at the northern end of Lake Mapourika, about 15 km north of Franz Josef, with a lakeside beach popular for swimming.",
+        "Both are simpler than a holiday park, with basic facilities and no power, and they suit self-sufficient campers. Check the DOC page for the current fee and facilities, and bring plenty of repellent for the sandflies. If either is full, the next DOC campsites are an hour or more away.",
+      ], ["Gillespies Beach: book online first", "Lake Mapourika: lakeside swimming", "Basic facilities, no power"], {
+        caption: "Camping options near the glaciers. Check each operator or DOC page for the current rules and fees.",
+        head: ["Option", "Where", "Good for"],
+        rows: [
+          ["Holiday parks", "Franz Josef and Fox Glacier villages", "Power, showers, wet weather"],
+          ["Gillespies Beach DOC campsite", "Off Cook Flat Road from Fox Glacier", "Seals, beach and quiet"],
+          ["Otto/MacDonalds DOC campsite", "State Highway 6, Lake Mapourika", "Lake swimming and an easy stop"],
+        ],
+      }),
+      sec("Freedom camping at the glaciers", [
+        "DOC lists freedom camping as prohibited at the glacier access areas, including the Franz Josef Glacier road and carparks, the Fox Glacier visitor centre carpark, Okarito Recreation Reserve and Jetty Bay on Lake Mapourika. Westland District Council has its own rules and areas, and the penalties for camping in the wrong place are real.",
+        "The Westland freedom camping guide and the South Westland hub list the current picture, and the freedom camping rules guide explains what a certified self-contained vehicle can do. If in doubt, pick a holiday park or a DOC campsite and save yourself the risk of a fine.",
+      ], ["Glacier carparks and roads are banned", "Check Westland's current map", "A fine is not worth the risk"]),
+      sec("What to do and what to expect", [
+        "The main walks are the Franz Josef Glacier Valley and Fox Glacier Valley tracks, which lead to viewpoints, and Lake Matheson near Fox, which gives a reflection of the mountains on a still morning. DOC posts the track status, and the valleys close after heavy rain or slips. Guided ice trips and helicopter flights are run by operators and book up in summer.",
+        "The West Coast is one of the wettest parts of the country, and a spare day gives you a better chance of a clear view. The sandflies are fierce on still days, so carry repellent and cover up at dusk. The sandfly guide has more. Fuel and food are available in both villages but cost more than in the towns, so fill up in Hokitika or Haast if you can.",
+      ], ["Check DOC track status before you go", "Allow a spare day for weather", "Fill up before the villages"]),
+      sec("Planning your glacier stay in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks on the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Gillespies Beach campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/gillespies-beach/things-to-do/campsites/gillespies-beach-campsite/" },
+      { label: "DOC: Otto/MacDonalds campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/things-to-do/campsites/otto-macdonalds-campsite/" },
+      { label: "DOC: conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "great-walks-2027-28-bookings-new-zealand",
+    title: "Great Walks 2027/28 Bookings: When They Open and How to Prepare",
+    description: "When to expect DOC's 2027/28 Great Walks bookings, what the 2026/27 opening looked like, how to get ready on the day and which walks to book first or leave for later.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Milford Track", "Routeburn Track", "Abel Tasman", "Kepler Track", "Great Walks"],
+    imageAlt: "The Hollyford Valley seen from the Routeburn Track, a wide green glaciated valley between steep mountains",
+    related: ["nz-great-walks-2026-27-huts-campsites-booking-fees", "doc-hut-great-walk-booked-out", "doc-campsites-sell-out-summer-new-zealand", "doc-huts-new-zealand-guide", "best-tramping-great-walks-apps-new-zealand", "doc-campsites-new-zealand-guide"],
+    hubs: ["huts/fiordland", "huts/nelson-tasman", "camping/fiordland"],
+    intro:
+      "DOC had not published the 2027/28 Great Walks booking dates when this page was written, but the pattern is clear: DOC confirms the dates in the months before and opens bookings in May for stays from 1 July to 30 June the following year. In 2026 the 10 walks in DOC's system opened between 12 and 21 May, one at a time. Below is what that looked like, how to prepare for the 2027 opening, which walks go first, and where to check for the real dates.",
+    sections: [
+      sec("What we know about the 2027/28 dates", [
+        "The 2027/28 season covers stays from 1 July 2027 to 30 June 2028, and DOC publishes the booking dates on its Great Walks page and in a media release ahead of opening. The dates for 2026/27 were announced in March 2026, so expect the same timing: a notice in March or April 2027 and bookings opening in May 2027. Until DOC confirms the dates, treat any date you see elsewhere as a guess.",
+        "The Hump Ridge Track is the exception, as it is booked through its own trust rather than DOC's system, and its bookings open on a different schedule. For fees and the walks side by side, the Great Walks 2026/27 guide shows the current picture, and the fees may change for 2027/28.",
+      ], ["Season: 1 July 2027 to 30 June 2028", "DOC announces the dates ahead of May", "Hump Ridge books through its own trust"]),
+      sec("How the 2026/27 opening worked", [
+        "In 2026 DOC opened the walks one at a time over about ten days. The Paparoa Track opened on 12 May, the Milford Track on 13 May, the Abel Tasman Coast Track on 14 May and the Routeburn Track on 15 May, with the last walks opening on 21 May, and each walk opened at either 9:30 am or 12 pm New Zealand time.",
+        "The most popular walks fill quickly. DOC said last year that Milford Track and Abel Tasman Coast Track huts reached about 95 per cent occupancy and the Kepler Track 91 per cent, while the Heaphy, Lake Waikaremoana and Whanganui Journey often have space. Do not assume a walk will be quiet because it is lesser known, and check DOC's own numbers when they are published.",
+      ], ["Walks open one at a time over about ten days", "Opening times were 9:30 am or 12 pm NZ time", "Milford and Abel Tasman huts nearly full last year"], {
+        caption: "The 2026/27 Great Walks opening, as DOC announced it. The 2027/28 dates were not published when this page was written.",
+        head: ["Walk", "2026/27 bookings opened", "Note"],
+        rows: [
+          ["Paparoa Track", "12 May 2026", "No camping on the track"],
+          ["Milford Track", "13 May 2026", "Camping not permitted"],
+          ["Abel Tasman Coast Track", "14 May 2026", "Booked all year"],
+          ["Routeburn Track", "15 May 2026", "Season runs into April"],
+          ["Other walks", "Up to 21 May 2026", "Check each DOC page"],
+        ],
+      }),
+      sec("How to prepare for the opening day", [
+        "Make a DOC account now so that booking takes seconds on the day, and check that your payment card works. DOC takes payment in full when you book and the booking only counts once the payment is confirmed, so keep a strong connection and do not lose signal part-way through. A phone or visitor centre booking costs more than booking online.",
+        "Decide your dates and a backup before the day. Choose a first-choice start date and two alternatives, and if you are a group, choose which walk matters most. Keep refreshing at the opening time and expect duplicate bookings to drop in the first minutes. The booked-out guide explains how cancellations release beds later.",
+      ], ["Make a DOC account and test your card", "Pick a first choice and two backups", "Book online rather than by phone"]),
+      sec("Which walks to book first, and which can wait", [
+        "Book the Milford Track, the Routeburn Track, the Kepler Track and the Abel Tasman Coast Track on opening day if you want a summer date, because they sell out fastest. The Tongariro Northern Circuit is also popular and its huts and campsites follow the same pattern. If you do not get a hut, a campsite is sometimes available on the walks that allow camping.",
+        "The Heaphy Track, Lake Waikaremoana and the Whanganui Journey are more likely to have space later, and autumn and spring dates are much quieter than January. If a Great Walk is booked out, the booking guide and the easy huts guide list other options, and the sell-out campsites guide covers the roadside sites.",
+      ], ["Milford, Routeburn, Kepler and Abel Tasman first", "Heaphy and Whanganui more likely to have space", "Autumn and spring are easier than January"]),
+      sec("Planning your Great Walk trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at the start and end of the walks. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. Great Walk bookings stay on DOC's own booking pages.",
+        "Use the app to plan the nights before and after the walk, such as a holiday park at Te Anau or Marahau.",
+      ], ["Plan the nights around the walk", "Forecast at each stop", "Book the walk itself on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Great Walks", url: "https://www.doc.govt.nz/greatwalks" },
+      { label: "DOC: Great Walk hut and campsite bookings open from 12 May (2026 release)", url: "https://www.doc.govt.nz/news/media-releases/2026-media-releases/ready-set-naturing-doc-great-walk-hut-and-campsite-bookings-open-from-12-may/" },
+      { label: "DOC blog: your guide to booking a Great Walk", url: "https://blog.doc.govt.nz/2026/05/10/your-guide-to-booking-a-great-walk/" },
+    ],
+  }),
+  a({
+    slug: "campervan-relocations-new-zealand",
+    title: "Campervan Relocations in New Zealand: How the $1 Deals Work",
+    description: "How campervan relocation deals work in New Zealand: the $1 a day rates, fixed dates, kilometre limits, ferry and fuel extras, one-way routes and what to check before you book.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Auckland", "Christchurch", "Queenstown", "Wellington", "Picton"],
+    imageAlt: "Campervans parked beside a quiet road on the New Zealand West Coast",
+    related: ["campervan-budget-new-zealand", "campervan-hire-cost-new-zealand-2026", "new-zealand-driving-day-planner", "road-user-charges-campervan-new-zealand", "cook-strait-ferry-campervan-guide", "freedom-camping-rules-new-zealand"],
+    intro:
+      "A campervan relocation is a hire deal where the company needs a van moved from one depot to another and lets you drive it for a token daily rate, often $1 a day. The catch is that the dates, route and number of days are fixed, and the deals go quickly. They suit travellers with flexible plans who want a one-way trip such as Auckland to Christchurch at a fraction of the usual price. Below is how they work, what is and is not included, what to check in the small print and how to plan the trip.",
+    sections: [
+      sec("How relocation deals work", [
+        "New Zealand has more campervan hire demand in one place than another at any time, so the hire companies have to move vans between depots, mainly between Auckland and Christchurch. A relocation lets you do that driving for a very low daily rate, and the company gets the van where it needs to be. You get a set number of days to complete the trip, often 3 to 7, and sometimes the option to buy extra days.",
+        "Deals are listed by the hire companies and by relocation sites, and the best ones are gone within hours of being posted. You usually have little choice over the pick-up date, the vehicle or the route, so you build your plans around the deal rather than the other way round.",
+      ], ["Rates of $1 a day are common", "Fixed dates and a fixed route", "The best deals go within hours"]),
+      sec("What is included and what is not", [
+        "Standard insurance is usually included, but the excess can be high and some companies ask for a bond. Some deals include a fuel allowance or the Cook Strait ferry for the vehicle and driver, so read each offer to see what is covered. Fuel, campsites, food, your flights and any extras such as linen or a second driver are on top.",
+        "The distance allowance matters. Some deals cap the kilometres, such as 1,500 km for seven days, so check that the route you want fits the limit. A well-chosen relocation can still cost a quarter of a normal hire, but only if the extras do not add up. The campervan budget guide shows a typical week, and the hire cost guide explains what a normal rental costs.",
+      ], ["Check the excess and the bond", "Ferry and fuel are sometimes included", "Check the kilometre limit"], {
+        caption: "What to check on a relocation offer. Terms vary by company, so read each one.",
+        head: ["Check", "Why it matters"],
+        rows: [
+          ["Daily rate and extras", "The headline $1 a day can grow with linen, a second driver or heater hire"],
+          ["Number of days and dates", "You cannot move them, and late return can cost extra"],
+          ["Kilometre allowance", "Some deals cap the distance"],
+          ["Ferry and fuel", "Sometimes included, often not"],
+          ["Insurance excess and bond", "Can be thousands of dollars unless you pay to reduce it"],
+        ],
+      }),
+      sec("Popular routes", [
+        "The most common route is Auckland to Christchurch or the reverse, because most hire companies have depots in both cities, and many include the ferry. Queenstown and Wellington also feature. Occasionally a deal sends you the other way, from the south to the north, which suits anyone who wants to finish in Auckland for a flight.",
+        "Plan the days around what the route can offer. A 4-day Auckland to Christchurch trip is a long drive, so choose three or four stops rather than trying to see everything. The driving day planner shows how far a day can reasonably go, and the Cook Strait ferry guide covers the crossing.",
+      ], ["Auckland to Christchurch is the classic", "Choose three or four stops", "Use the day planner for the legs"]),
+      sec("Rules to remember when you drive", [
+        "You need a full driving licence valid in New Zealand and to meet the company's minimum age, which is often 21 and sometimes lower, so check each offer. Traffic keeps left, and the left-side driving guide covers roundabouts and give-way rules. Hire vans are certified self-contained, but the rules on where you can stay overnight still apply, and the freedom camping rules guide explains them.",
+        "Return the vehicle on time, with the fuel level and cleanliness the company asks for, as late fees and cleaning charges apply. Road user charges are usually handled by the hire company for a diesel van, and the road user charges guide explains how they work.",
+      ], ["Licence valid in New Zealand", "Return on time and clean", "Freedom camping rules still apply"]),
+      sec("Planning a relocation trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across both islands. Once you have a relocation, save the campsites and holiday parks along your route, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you check that the days fit your limit. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Check the distance against your limit", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "NZTA: driving in New Zealand as a visitor", url: "https://nzta.govt.nz/driver-licences/driving-as-a-visitor/" },
+    ],
+  }),
+  a({
+    slug: "campervan-holiday-with-kids-new-zealand",
+    title: "Campervan Holiday With Kids in New Zealand: A Practical Guide",
+    description: "Planning a New Zealand campervan trip with children: child seat rules, the right van, short drives, kid-friendly holiday parks and DOC campsites, easy walks and sandfly and sun notes.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Auckland", "Coromandel", "Rotorua", "Nelson", "Christchurch", "Queenstown"],
+    imageAlt: "Cathedral Cove beach on the Coromandel, a sandy cove beneath a rock arch with calm water",
+    related: ["easy-doc-huts-families-first-timers", "one-week-campervan-itinerary-new-zealand", "holiday-parks-new-zealand-guide", "campervan-budget-new-zealand", "sandflies-new-zealand-camping", "new-zealand-driving-day-planner"],
+    hubs: ["camping/coromandel", "camping/nelson-tasman", "huts/canterbury"],
+    intro:
+      "A campervan is a good way to travel New Zealand with children, as long as you plan short drives, choose a van with enough seatbelts and keep the nights simple. Children under 7 must be in an approved child restraint by law, and the van you choose has to carry them safely. Below are the rules, how to pick a vehicle, the pace that works, where to camp, easy activities and what to pack, with links to the guides that go into detail.",
+    sections: [
+      sec("Child seats and seatbelts", [
+        "New Zealand law requires children to use an approved child restraint until their seventh birthday, and NZTA strongly recommends one until 148 cm tall. Hire companies supply seats for a fee, and you can bring your own if it meets New Zealand standards. Check that the van has the right anchor points for the seats you need, and that every berth has a seatbelt, because not all beds in a campervan have one.",
+        "Count the seatbelts rather than the beds. A four-berth van may only have seatbelts for some of the beds, and the number of seats you can fit varies by model. Tell the hire company the ages of your children when you book so they can match the vehicle.",
+      ], ["Approved child restraint until age 7", "Check anchor points and seatbelts", "Count seatbelts, not berths"]),
+      sec("Choosing a van and a pace", [
+        "A van with a toilet and shower saves stops at night and in the rain, which matters most with young children. A bigger van is more comfortable but slower and more expensive to run, and the road user charges and fuel add up. The campervan budget guide shows what a week costs.",
+        "Keep each driving day to two to three hours with a long stop, and add a rest day every few days. Children get restless after an hour, so plan a playground, a beach or a short walk at each break. The driving day planner helps check the legs, and the one-week itinerary is a gentle starting point.",
+      ], ["A van with a toilet helps", "Two to three hours a day is plenty", "Add a rest day every few days"]),
+      sec("Where to camp with children", [
+        "Holiday parks are the easiest choice, with playgrounds, jumping pillows, pools, kitchens and laundry, and many have cabins in case the weather turns. Book ahead in summer and school holidays. The holiday parks guide explains what to look for, and the school holidays guide has the dates.",
+        "DOC campsites are cheaper and closer to nature, with beaches, rivers and bush walks on the doorstep, but facilities are simpler, with long drop toilets and often no showers. Many are suitable for families, and the easy huts guide has easy huts for a first overnight. Freedom camping is more limited than people expect, so check the rules.",
+      ], ["Holiday parks have playgrounds and pools", "DOC campsites are cheaper but simpler", "Book ahead in school holidays"]),
+      sec("Easy things to do", [
+        "Choose short walks that end somewhere interesting: a beach, a waterfall, a lookout or a swing bridge. Cathedral Cove and Hot Water Beach on the Coromandel, the geothermal parks at Rotorua, the glowworm caves at Waitomo and the Abel Tasman beaches near Nelson all suit children. Plan wet-weather activities too, such as hot pools, museums and cafes with a play area.",
+        "Water safety needs attention. New Zealand rivers and surf beaches have strong currents, so swim at patrolled beaches and watch children closely near water. Take care near geothermal areas, where ground can be hot and fenced areas are not optional.",
+      ], ["Short walks that end somewhere good", "Swim at patrolled beaches", "Keep children away from geothermal edges"], {
+        caption: "Kid-friendly stops and what they are good for. Check opening times and access before you go.",
+        head: ["Stop", "Where", "Good for"],
+        rows: [
+          ["Hot Water Beach and Cathedral Cove", "Coromandel", "Beaches and rock pools"],
+          ["Waitomo Caves", "Waikato", "Glowworms and a boat ride"],
+          ["Rotorua geothermal parks", "Bay of Plenty", "Steam, mud pools and a short walk"],
+          ["Abel Tasman beaches", "Nelson-Tasman", "Sand, kayaks and calm water"],
+        ],
+      }),
+      sec("Sand flies, sun and packing", [
+        "The sun is strong in New Zealand, even on cloudy days, so pack sunscreen, hats and rash vests. Sandflies are a nuisance on the West Coast and in Fiordland, so take repellent and cover up at dusk. The sandfly guide explains what works.",
+        "Pack warm layers whatever the season, as the weather changes fast, plus a few games and books for wet days. Bring a small first aid kit with children's pain relief, because small towns can be far from a chemist. Buy groceries in the larger towns, where prices are lower.",
+      ], ["Sunscreen and hats all year", "Repellent for the West Coast", "Warm layers and games for wet days"]),
+      sec("Planning a family trip in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across New Zealand. Save the places that suit your family, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps you keep the drives short. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Keep an eye on the distances", "Forecast at each stop"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA: child restraints", url: "https://nzta.govt.nz/vehicles/child-restraints/" },
+      { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "waterfalls-lakes-campgrounds-new-zealand",
+    title: "Campgrounds at New Zealand's Lakes and Waterfalls: Where to Stay",
+    description: "DOC campsites beside lakes and near waterfalls: Lake Rotoroa, Kerr Bay, Lake Māhinapua, Lake Ōkareka and Lake Waikaremoana, plus the Catlins and Waitomo falls, with fees, bookings and access notes.",
+    category: "Camping guides",
+    region: "New Zealand",
+    places: ["Lake Rotoroa", "Kerr Bay", "Lake Māhinapua", "Lake Ōkareka", "Lake Waikaremoana", "Purakaunui Falls", "McLean Falls"],
+    imageAlt: "Purakaunui Falls in the Catlins, a tiered waterfall dropping through green forest",
+    related: ["doc-campsites-new-zealand-guide", "scenic-campsites-new-zealand", "doc-campsites-sell-out-summer-new-zealand", "lake-waikaremoana-great-walk-camping-2026-27", "franz-josef-fox-glacier-camping", "sandflies-new-zealand-camping"],
+    hubs: ["camping/nelson-tasman", "camping/west-coast", "camping/bay-of-plenty", "camping/southland"],
+    intro:
+      "Some of the best DOC campsites in New Zealand sit on a lake shore or a short walk from a waterfall, and a few of them are far quieter than the famous beach sites. This guide picks the ones worth planning a night around: Lake Rotoroa and Kerr Bay in Nelson Lakes, Lake Māhinapua on the West Coast, Lake Ōkareka near Rotorua, the Lake Waikaremoana campsites, and the waterfalls of the Catlins and Waitomo. Fees and rules change, so each entry says what DOC listed when we checked in November 2026, with notes on access and booking.",
+    sections: [
+      sec("Lake campsites in the South Island", [
+        "Nelson Lakes has two good ones. Lake Rotoroa campsite is beside the lake edge in native bush, with an adult fee of $15 a night, and it is quiet and simple. Kerr Bay is beside Lake Rotoiti, just off State Highway 63, open all year, and bookings are required all year. It costs more, around $25 to $27 a night depending on the season, and DOC's campsite pass does not apply there from 19 October to 30 April.",
+        "On the West Coast, Lake Māhinapua campsite sits in a scenic reserve about 10 km south of Hokitika, with an adult fee of $18 a night. It is pack in, pack out, so take your rubbish with you. Lake Mapourika's Otto/MacDonalds campsite is on State Highway 6 near Franz Josef, and the Franz Josef and Fox Glacier camping guide covers it with the Gillespies Beach site.",
+      ], ["Lake Rotoroa: simple and quiet", "Kerr Bay: book all year", "Lake Māhinapua: pack in, pack out"]),
+      sec("Lake campsites in the North Island", [
+        "Lake Ōkareka campsite is a lakeside DOC site only 15 minutes from Rotorua, a quieter alternative to the town parks. Fires are not allowed there at any time. It makes a good base if you want the geothermal parks by day and a calm lake by night.",
+        "Lake Waikaremoana in Te Urewera is the big one, with four huts and five campsites on the Great Walk, such as Korokoro. These must be booked in advance, and camping on the track is only allowed at the designated campsites. The Lake Waikaremoana guide has the dates and fees, and the Great Walks 2027/28 guide covers when bookings open.",
+      ], ["Lake Ōkareka is 15 minutes from Rotorua", "No fires at Ōkareka", "Waikaremoana sites are booked in advance"], {
+        caption: "Lake campsites at a glance, from DOC's campsite pages, November 2026. Check each page for current fees and rules.",
+        head: ["Campsite", "Where", "What to know"],
+        rows: [
+          ["Lake Rotoroa", "Nelson Lakes", "Adult fee about $15, native bush, simple"],
+          ["Kerr Bay", "Nelson Lakes", "Bookings required all year, no pass in summer"],
+          ["Lake Māhinapua", "Near Hokitika", "Adult fee about $18, pack in, pack out"],
+          ["Lake Ōkareka", "Near Rotorua", "15 minutes from town, no fires"],
+          ["Lake Waikaremoana", "Te Urewera", "Great Walk campsites, book in advance"],
+        ],
+      }),
+      sec("Waterfalls with a campsite nearby", [
+        "In the Catlins, Purakaunui Falls are a short walk from a car park with toilets and a picnic area, and the track is suitable for wheelchairs to the top viewing platform. DOC's Purakaunui Bay campsite is nearby, with bookings made online. The access road is narrow gravel and DOC says the campsite is unsuitable for campervans and heavy vehicles, so check before you go. McLean Falls, a 22 metre waterfall on the Tautuku River, is a longer walk and a different stop in the same area.",
+        "Near Waitomo, Marokopa Falls and Mangapohue Natural Bridge are free walks on the road to the coast, and the Auckland to Waitomo and Hobbiton guide has the camping options. Near Taupō, the Huka Falls are a short stroll from the Taupō holiday parks, covered in the Auckland to Taupō guide.",
+      ], ["Purakaunui Falls: short walk, wheelchair access", "Purakaunui Bay is unsuitable for campervans", "Marokopa Falls: a free walk near Waitomo"]),
+      sec("Practical notes", [
+        "Lakes mean sandflies, especially on still evenings, so take repellent and cover up. Lake and river water can be cold and fast, so swim with care and keep an eye on children. The sandfly guide explains what works.",
+        "Many of these campsites have no power and basic toilets, so bring water and a way to carry out your rubbish. The busiest ones need booking in summer, and the sell-out campsites guide explains how DOC's bookings work. In wet weather, check river levels and the forecast before you commit to a remote lakeside site.",
+      ], ["Repellent for still evenings", "Bring water and carry out rubbish", "Check river levels in wet weather"]),
+      sec("Planning lake and waterfall stops in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including lakeside and waterfall sites. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
+        "It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Lake Rotoroa campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/campsites/lake-rotoroa-campsite" },
+      { label: "DOC: Lake Māhinapua campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/mahinapua-scenic-reserve/things-to-do/campsites/lake-mahinapua-campsite/" },
+      { label: "DOC: Lake Ōkareka campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/places/lake-okareka-scenic-reserve/things-to-do/lake-okareka-campsite/" },
+      { label: "DOC: Purakaunui Bay campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/purakaunui-bay-campsite/" },
+      { label: "DOC: Purakaunui Falls walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/purakaunui-falls-walk/" },
+    ],
+  }),
+  a({
+    slug: "wet-weather-camping-new-zealand",
+    title: "Wet Weather Camping in New Zealand: Rain, Rivers and Staying Dry",
+    description: "How to camp in rain in New Zealand: reading the forecast and warnings, choosing a safe site away from rivers, staying dry in a van or tent, the wettest regions and what to do on a rainy day.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Fiordland", "West Coast", "Nelson", "Hawke's Bay", "Waitomo"],
+    imageAlt: "A rainbow over the Routeburn Track valley after rain, with cloud on the mountains and green forest below",
+    related: ["new-zealand-severe-weather-camping", "winter-camping-new-zealand", "river-crossing-safety-new-zealand", "sandflies-new-zealand-camping", "holiday-parks-new-zealand-guide", "one-lane-bridges-gravel-roads-new-zealand"],
+    hubs: ["camping/west-coast", "camping/fiordland", "camping/nelson-tasman"],
+    intro:
+      "Rain is part of a New Zealand trip, and a wet day does not have to ruin it if you pick the right site and keep your gear dry. The West Coast and Fiordland are among the wettest places in the country, while Nelson, Marlborough, Hawke's Bay and Central Otago are often much drier. Below are how to read the forecast and warnings, where not to camp in heavy rain, how to stay dry in a van or a tent, which regions to head for when the weather turns, and what to do on a wet day.",
+    sections: [
+      sec("Read the forecast and the warnings", [
+        "Check the forecast every morning and again before you drive to a new site, using MetService and the weather forecast in your phone. A watch means heavy rain is possible and a warning means it is expected, and an orange or red warning is a reason to change plans, not to sit it out in a tent. The severe weather guide explains the warning levels.",
+        "Rain in the mountains arrives in rivers a few hours later, so a clear sky at your site does not mean the river is safe. Check river levels and the forecast for the whole catchment, and read the river crossing guide before driving through a ford or crossing a stream on foot.",
+      ], ["Check the forecast morning and evening", "Orange or red warning: change plans", "Rivers rise after rain upstream"]),
+      sec("Where not to camp in heavy rain", [
+        "Do not camp beside a river or a stream in heavy rain, or in a dip where water collects. Pick a site on higher, well-drained ground, away from steep slopes that can slip and from trees with dead branches. Flooding and slips close roads and cut off campsites, so check the NZTA Journey Planner and local council updates before you move.",
+        "Gravel roads become slippery and slow in the wet, and one-lane bridges need care. The gravel roads guide explains how to drive them. If you are on a remote DOC campsite and heavy rain is forecast, move to a holiday park or a higher site for the night rather than risk being stuck.",
+      ], ["Avoid river banks and hollows", "Higher, well-drained ground", "Move early if heavy rain is forecast"]),
+      sec("Staying dry and comfortable", [
+        "In a campervan, wet clothes and cooking bring condensation, so crack a window or roof vent and keep a towel for the windows. Dry boots and jackets near the heater and keep a separate bag for wet gear. A small clothes rack or line makes a big difference over several days of rain.",
+        "In a tent, pitch with the door away from the wind, use a groundsheet that does not collect water under the tent and keep the sleeping area away from the fly. A tarp over the cooking area gives you somewhere dry to sit. If a campsite is flooding, do not stay to save a night's fee.",
+      ], ["Ventilate to reduce condensation", "Keep a dry bag and a wet bag", "A tarp makes a dry cooking area"]),
+      sec("Where to go when it rains", [
+        "The weather in New Zealand varies a lot by region, and the Southern Alps make a rain shadow on the east side. When the West Coast or Fiordland is wet, Nelson, Marlborough, Hawke's Bay and Central Otago are often drier, and a half-day drive can change the day. The reverse is true in a southerly or easterly, so check the forecast for both sides.",
+        "Holiday parks with a camp kitchen and a lounge are the best choice for a wet night, and they are easy to find in the larger towns. The holiday parks guide explains what to look for, and the winter camping guide covers cold wet weather.",
+      ], ["West Coast and Fiordland are the wettest", "Nelson and Central Otago are often drier", "Camp kitchens make wet nights easier"], {
+        caption: "General guide to wetter and drier regions. Always check the forecast for the day.",
+        head: ["Region", "Usually", "Notes"],
+        rows: [
+          ["West Coast and Fiordland", "Wet", "Heavy rain, slips and flooded rivers"],
+          ["Bay of Plenty and Coromandel", "Mixed", "Heavy downpours in summer storms"],
+          ["Nelson and Marlborough", "Drier", "More sunshine than most of the country"],
+          ["Hawke's Bay and Central Otago", "Drier", "Often dry when the west is wet"],
+        ],
+      }),
+      sec("What to do on a wet day", [
+        "Wet days are good for the activities that work in the rain: the Waitomo caves, geothermal parks and hot pools in Rotorua and Taupō, museums in the larger towns and cafes with a view. Many short walks are even better in the rain, as waterfalls are at their best, but take care on wet tracks and stay off those with stream crossings.",
+        "Use the day for a rest, a laundry and a restock too. A rain day is a good moment to dry out gear and plan the next few days. The sandflies are also fewer in heavy rain, though they return as soon as it clears.",
+      ], ["Caves and hot pools in the rain", "Waterfalls are at their best", "Use the day to dry out and restock"]),
+      sec("Planning around the weather in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, and it shows a forecast at every place on your list. Save a holiday park and a drier backup beside each remote campsite, put them in order as the stops of a trip, and the app shows the distance between each pair of stops. It does not give live traffic or turn-by-turn directions, so use your maps app and the NZTA Journey Planner for road conditions.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save a backup beside each campsite", "Forecast at each stop", "Check road conditions with NZTA"], undefined, true),
+    ],
+    sources: [
+      { label: "MetService: New Zealand weather and warnings", url: "https://www.metservice.com/" },
+      { label: "NZ Civil Defence: get ready for severe weather", url: "https://www.civildefence.govt.nz/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
