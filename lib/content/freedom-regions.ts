@@ -87,4 +87,85 @@ export const freedomRegionArticles: Article[] = [
       { label: "Queenstown Lakes District Council: responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
     ],
   }),
+  a({
+    slug: "freedom-camping-north-island",
+    title: "Freedom Camping in the North Island 2026: Where It Is Legal, Region by Region",
+    description: "The North Island's freedom camping rules in 2026, from Northland to Wellington: each council's sites and night limits, the few places a tent or an uncertified van can stay, DOC land, fines and summer hot spots.",
+    category: "Rules & safety",
+    region: "North Island",
+    places: ["Kaitāia", "Whangārei", "Auckland", "Coromandel", "Tauranga", "Rotorua", "Taupō", "New Plymouth", "Napier", "Wellington"],
+    imageAlt: "Mount Ruapehu under snow behind the Waiouru town sign on State Highway 1",
+    related: ["freedom-camping-rules-new-zealand", "freedom-camping-south-island", "freedom-camping-taupo", "self-contained-campervan-green-warrant", "north-island-two-week-road-trip"],
+    hubs: ["freedom-camping"],
+    intro:
+      "Freedom camping is legal across much of the North Island in a certified self-contained vehicle, but each council draws its own map, and the busy coasts are tightly limited. Auckland, Thames-Coromandel and Tauranga take only certified vehicles, for two nights at most, while Whangārei, Waikato District and Taupō still name sites for vans without a toilet. Expect short stays, set hours and a $400 fine for getting it wrong.",
+    sections: [
+      s("What decides whether a spot is legal", [
+        "The landowner decides. On council land the district or city council's bylaw sets the sites, nights and hours; on conservation land DOC's notices do the same; and NZTA rest areas are for a break from driving, not for setting up camp. The Freedom Camping Act 2011 frames all of it, and the sign at the site has the final word.",
+        "Since 7 June 2026 only a green warrant makes a vehicle self-contained for freedom camping, so an older van with a blue sticker counts as uncertified. On council land an uncertified vehicle or a tent can stay only where the bylaw sets aside a site for it, and those sites are the exception on the North Island, not the rule.",
+      ], ["The landowner's rules apply", "Green warrants only since 7 June 2026", "Rest areas are not campsites"]),
+      s("Northland", [
+        "Far North District Council keeps camping and overnight parking out of its parks, reserves and beaches and sends free campers to seven approved sites near toilets and water. Whangārei is more generous than most councils in the country: its bylaw lists 23 sites for certified vehicles, 17 where a vehicle without certification may stay and five areas for tents, mostly for one night.",
+        "Cape Reinga and Tapotupotu are DOC land where freedom camping is prohibited, so the far north end of State Highway 1 means DOC's campsites at Tapotupotu or Spirits Bay, or a holiday park. DOC's Uretiti Beach Campsite south of Whangārei is the biggest DOC ground in the country, with 300 sites.",
+      ], ["Far North: seven approved sites", "Whangārei: sites for tents and uncertified vans", "No freedom camping at Cape Reinga"]),
+      s("Auckland and the Coromandel", [
+        "Auckland lets certified vehicles stay on council roads and car parks for two nights in the same place, gone by 9am on the morning you leave, but 58 areas are prohibited, 20 are restricted, and council reserves and regional parks are closed to freedom camping. A tent or an uncertified van needs a campground or one of the regional park campsites, which are booked and paid.",
+        "Thames-Coromandel prohibits freedom camping in 84 listed areas and restricts it in 25 more, and only certified vehicles may use the restricted ones, for two consecutive nights between 5pm and 9am. The peninsula's DOC campsites, such as Waikawau Bay with 132 sites, are booked through DOC and fill through January.",
+      ], ["Auckland: two nights, gone by 9am", "Coromandel: 84 prohibited areas", "Book DOC's Coromandel sites early"]),
+      s("Waikato, Bay of Plenty and Rotorua", [
+        "Waikato District gives certified vehicles a general permission outside its prohibited areas, for three nights in each area in a month, and lets uncertified vehicles stay two nights at Onewhero Domain and Te Kauwhata Domain. James Street in Raglan has been off limits since December 2025, and Raglan's other rules sit with the same council.",
+        "Tauranga allows certified vehicles only, in the reserves, roads and car parks its bylaw lists, for two nights per location per calendar month. Whakatāne has four sites for certified vehicles in Whakatāne and Ōhope, and Aniwhenua Reserve near Murupara takes vehicles that are not self-contained. Rotorua runs three free sites for certified vehicles and three paid lake reserves, two of which take tents.",
+      ], ["Waikato: three nights per area", "Tauranga: certified vehicles only", "Rotorua: tents at two paid reserves"]),
+      s("Taupō and the central plateau", [
+        "Taupō District lets certified vehicles camp on council land outside its prohibited areas, and names three areas for everyone else: Hipapatua Reid's Farm on the Waikato River, Mangakino and Whakamaru. Most of the lake edge is reserve land where camping is not allowed, and Five Mile Bay has been closed to campers by Ngāti Tūwharetoa since 2020. Our Taupō guide has the detail.",
+        "Around Tongariro National Park the land is DOC's, and KiwiCamping's data holds 22 DOC freedom camping notices in the Tongariro district, 17 of them prohibiting camping, including Whakapapa Village. Use DOC's Mangahuia Campsite, or a holiday park at Whakapapa Village, National Park village or Ohakune.",
+      ], ["Taupō: three sites for uncertified vans", "Most of the lake edge is reserve", "Tongariro: use DOC campsites"]),
+      s("Taranaki, Hawke's Bay and the East Coast", [
+        "New Plymouth bans tents on public land and lets certified vehicles freedom camp across the district for three nights in any 30 days. Vehicles without certification have two council sites, Lake Rotomanu and Battiscombe Terrace in Waitara, with six spaces each and one night in 30 days.",
+        "Hawke's Bay and Gisborne councils allow freedom camping at specific coastal spots, some with a permit arranged before you arrive, so read the council's page for Napier, Hastings or the Tairāwhiti beaches. On the East Cape, DOC's campsites such as Anaura Bay are the dependable nights, and many are basic and cheap.",
+      ], ["New Plymouth: no tents on public land", "Some East Coast spots need a permit", "Anaura Bay is DOC's largest on the cape"]),
+      s("Wellington and the lower North Island", [
+        "Wellington City allows certified vehicles only, and its free sites are two car parks: Evans Bay Marina with 52 spaces and Te Kopahou Visitors Centre with 16. Each allows four consecutive nights in a calendar month, and land under the Reserves Act and the Town Belt Act is closed to camping. That makes the night before an early Cook Strait ferry easy to plan.",
+        "Kāpiti, Horowhenua, Manawatū and the Wairarapa councils each set their own short lists, so check the council before a night on the coast. DOC's Holdsworth Campsite in the Tararua foothills has 150 sites and the Catchpool Valley in Remutaka Forest Park is the nearest DOC ground to the city.",
+      ], ["Wellington: Evans Bay and Te Kopahou", "Four nights a month in Wellington", "Holdsworth and Catchpool for DOC nights"]),
+      s("Fines and the busiest weeks", [
+        "The national fees apply everywhere: $400 for camping in breach of a bylaw or in an uncertified vehicle where certification is required, $200 for a warrant card not on show, $600 for refusing to leave when an officer asks and $800 for leaving waste or damaging the site. A rental company passes the notice on to the hirer.",
+        "Enforcement and demand peak between Christmas and the end of January on the Coromandel, in Northland and around Taupō, when many council sites fill before dark. On those nights a booked DOC campsite or holiday park beats driving between full car parks.",
+      ], ["$400 for most breaches", "Rentals pass fines on", "Book ahead from Christmas to January"]),
+      s("Without a certified vehicle", [
+        "A tent or a car can still sleep cheaply on the North Island, mostly on DOC land and in paid grounds. KiwiCamping's DOC data lists 122 DOC campsites across the island's regions, from free basic sites to booked grounds with showers, and DOC's freedom camping rules on conservation land do not always require certification. Holiday parks cover every town.",
+        "Whangārei, Waikato District, Taupō, Whakatāne, Rotorua and New Plymouth all name council sites for people without a toilet on board, which makes the top and middle of the island easier than the coasts around Auckland and Tauranga. The table below sums up each council's position as its own page or bylaw gives it.",
+      ], ["122 DOC campsites on the island", "Six councils name uncertified sites", "Holiday parks in every town"], {
+        caption: "Council land only, from each council's page or bylaw as read for our council guides in October 2026, and Taupō's Freedom Camping Bylaw 2023. DOC land follows DOC's notices.",
+        head: ["Council", "Certified self-contained", "Without certification"],
+        rows: [
+          ["Far North", "Seven approved sites", "Not stated; check the council's list"],
+          ["Whangārei", "23 listed sites", "17 sites for vehicles, five tent areas"],
+          ["Auckland", "Council roads and car parks outside 78 listed areas, two nights", "Campgrounds"],
+          ["Thames-Coromandel", "25 restricted areas, two nights, 5pm to 9am", "Campgrounds"],
+          ["Waikato District", "Outside prohibited areas, three nights per area", "Onewhero and Te Kauwhata Domains, two nights"],
+          ["Tauranga", "Listed reserves and car parks, two nights a month", "Campgrounds"],
+          ["Whakatāne", "Four sites, three nights in four weeks", "Aniwhenua Reserve"],
+          ["Rotorua", "Three free and three paid sites", "Tents at Lake Ōkaro and Guy Roe Reserve"],
+          ["Taupō", "Council land outside prohibited areas", "Reid's Farm, Mangakino and Whakamaru"],
+          ["New Plymouth", "Across the district, three nights in 30 days", "Two sites, one night; no tents"],
+          ["Wellington City", "Evans Bay and Te Kopahou, four nights a month", "Campgrounds"],
+        ],
+      }),
+      s("Planning North Island nights with KiwiCamping", [
+        "KiwiCamping puts freedom camping areas, DOC campsites, huts, holiday parks and dump stations on one map of the North Island, and its filters narrow it to what suits your vehicle. Council sites change with each bylaw, so treat the map as the shortlist and the council page and the sign as the answer.",
+        "Save the spots you like into collections, then plan the trip with a date on each stop, a note on the rules and a paid fallback for the nights around Christmas. Each leg shows its distance and drive, and each place its forecast. Free to download, with in-app purchases.",
+      ], ["Shortlist on the map", "Confirm with the council and the sign", "Keep a fallback for summer nights"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "Auckland Council: freedom camping", url: "https://aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/bylaws/freedom-camping-bylaw.html" },
+      { label: "Thames-Coromandel District Council: freedom camping", url: "https://www.tcdc.govt.nz/camping" },
+      { label: "Waikato District Council: freedom camping", url: "https://www.waikatodistrict.govt.nz/camping" },
+      { label: "Taupō District Council: freedom camping", url: "https://www.taupodc.govt.nz/recreation/freedom-camping" },
+      { label: "Wellington City Council: freedom camping", url: "https://wellington.govt.nz/recreation/outdoors/camping-in-wellington" },
+    ],
+  }),
 ];

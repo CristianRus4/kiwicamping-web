@@ -951,6 +951,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-north-island.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-north-island-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-north-island.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-queenstown-lakes-2026.webp": {
     "width": 1600,
     "height": 900,

@@ -595,4 +595,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you freedom camp in the South Island?", "Yes, but almost always in a certified self-contained vehicle with a green warrant, and only where the district council or DOC allows it. Each council sets its own sites and nights, from 15 car parks in Queenstown Lakes to most council land outside listed bans in Buller and Waitaki."],
     ["Where can you camp in a tent for free in the South Island?", "Mostly at DOC's free basic campsites, which are on conservation land and usually have a long-drop toilet. Council land is largely closed to tents: Tasman bans them on public land, Dunedin allows them only at Warrington Domain, and Marlborough only for cyclists at Blairich Reserve."],
   ],
+  "freedom-camping-north-island": [
+    ["Can you freedom camp in the North Island?", "Yes, in a certified self-contained vehicle, wherever the council's bylaw or DOC's notice allows it. Limits are short: two nights in Auckland, Thames-Coromandel and Tauranga, three in Waikato District and New Plymouth, four a month at Wellington's two sites."],
+    ["Where can you freedom camp in the North Island without a self-contained vehicle?", "Only at council sites set aside for it, such as Whangārei's listed sites, Onewhero and Te Kauwhata Domains in Waikato, Reid's Farm near Taupō and Lake Rotomanu in New Plymouth, or on DOC land where no notice requires certification. Otherwise use a DOC campsite or a holiday park."],
+  ],
 };

@@ -15,7 +15,7 @@ export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-rules-new-zealand",
     legacyPath: "/freedom-camping-rules-nz.html", hubs: ["freedom-camping"],
-    related: ["freedom-camping-south-island"],
+    related: ["freedom-camping-south-island", "freedom-camping-north-island"],
     title: "Freedom Camping Rules NZ 2026: Where It's Legal and the Fines",
     description: "Where you can freedom camp in New Zealand in 2026: council bylaws, DOC land, the green warrant your vehicle needs since June, stay limits and the fines.",
     category: "Rules & safety",
@@ -66,7 +66,7 @@ export const migratedArticles: Article[] = [
   a({
     slug: "freedom-camping-new-zealand-guide",
     legacyPath: "/free-camping-nz-legal.html", hubs: ["freedom-camping"],
-    related: ["freedom-camping-south-island"],
+    related: ["freedom-camping-south-island", "freedom-camping-north-island"],
     title: "Can you camp for free in New Zealand? Where it is legal and safe",
     description: "Which land types allow a free night, what certification you need, and the etiquette that keeps these places open.",
     category: "Camping guides",
