@@ -242,3 +242,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `queenstown-walks-camping-base` | Queenstown from Bob's Peak.jpg | Lawrence Murray from Perth, Australia | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg) |
 | `wellington-hikes-camping-base` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |
 | `lakeside-camping-south-island` | Lake Wanaka - northern part, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Wanaka_-_northern_part,_New_Zealand.jpg) |
+| `scenic-lookouts-new-zealand-drive-up` | Lindis Pass, New Zealand (5).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_New_Zealand_(5).JPG) |
