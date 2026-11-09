@@ -170,4 +170,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-raglan",
+    title: "Freedom Camping in Raglan: Where You Can Stay",
+    description: "How freedom camping works in Raglan: Waikato District Council's rules for certified self-contained vehicles, the three-night limit, the site maps, what is banned, Te Toto Gorge and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Waikato",
+    places: ["Raglan", "Manu Bay", "Ngarunui Beach", "Whale Bay", "Te Toto Gorge"],
+    imageAlt: "Raglan on the shore of its harbour, with the township, the water and green hills behind",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "camping-wastewater-rubbish-new-zealand", "camping-rules-local-councils-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/waikato", "camping/waikato"],
+    intro:
+      "Raglan sits in Waikato District, and the council lets certified self-contained vehicles stay on much of its land, except in the prohibited areas, for up to three nights in one place. That sounds generous, but Raglan is small and popular, the council publishes a map for each area, and the surf beaches and the town centre are the places with the most signs. Tents and vehicles without a toilet and wastewater tank are not allowed anywhere in the district and should use a holiday park.",
+    sections: [
+      s("What the council says", [
+        "Waikato District Council's freedom camping rules apply across the whole district, which includes Raglan. A vehicle must be fully self-contained, with a toilet, a wastewater tank and rubbish facilities on board, and the green warrant is the proof since 7 June 2026, as the guide to the self-contained campervan warrant explains. A certified vehicle can freedom camp on council land anywhere except the prohibited areas, with a limit of three nights in any one area.",
+        "The council's page also bans fires, asks you to empty wastewater at an approved dump station every two or three nights, and says rubbish goes in a bin or a council transfer station, not left behind. Raglan has a dump station on Marine Parade, and the guide to wastewater and rubbish covers the etiquette.",
+      ], ["Certified self-contained only", "Three nights in one area", "No fires; dump station on Marine Parade"]),
+      s("Where you can park", [
+        "The council lists the Raglan locations on its camping page, each with its own map, and the surf coast west of the town is the area most visitors want. Check the map for the spot before you drive out, because a car park that looks like a camping place can be a prohibited one, and the rule is that a sign beats a rumour.",
+        "Raglan's best-known beaches, Manu Bay, Ngarunui and Whale Bay, are busy with surfers and day trippers, and the car parks near them are the ones most likely to carry no-camping signs. If a spot is allowed, arrive late in the day and leave early, keep the site clean and use the toilets provided rather than your own on the beach.",
+      ], ["Check the council's map for each spot", "Surf beach car parks are busy", "Arrive late, leave early"]),
+      s("Where it is banned", [
+        "The council's bylaw prohibits freedom camping in listed areas, including town centres and residential streets, and says to observe all no-camping signs. In Raglan that covers the main street and the wharf area outside the signed spaces, and anywhere with a sign. Land managed by DOC has its own rules and is not covered by the council's page.",
+        "Te Toto Gorge, a short drive from Raglan, is one of them: DOC's freedom camping notice there prohibits camping. A breach of the bylaw can bring a $400 fine, and a vehicle that is not self-contained also risks $400, with $200 for not displaying the warrant card and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
+      ], ["Town centre and streets: no", "Te Toto Gorge: DOC notice, no camping", "$400 for most breaches"]),
+      s("Without a certified vehicle", [
+        "A tent, a car with a mattress or a van with a portable toilet cannot freedom camp anywhere in Waikato District. The council points those travellers to holiday parks, campgrounds and DOC camping areas, and in Raglan the harbourside holiday parks are the dependable choice, with the Kopua Holiday Park on the water the best known. They fill quickly in summer and at New Year, so book ahead.",
+        "The guide to holiday parks in New Zealand explains how to book them. KiwiCamping's DOC data (11 August 2026) lists 7 DOC campsites in the Waikato region, 4 of them bookable online and all in forest parks inland, none on the Raglan coast.",
+      ], ["Tents need a holiday park", "Book ahead in summer", "DOC campsites are inland"]),
+      s("Using KiwiCamping around Raglan", [
+        "KiwiCamping shows DOC campsites, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's freedom camping areas, so the council's maps are the source for those.",
+        "Add Raglan to a trip, perhaps between Hamilton and the Coromandel or the Waitomo caves, with the date and a holiday park as the fallback, and read the distance to the next stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council maps decide the spot", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Raglan?", "In a certified self-contained vehicle, yes, on council land outside the prohibited areas, for up to three nights in one area. Tents and uncertified vehicles must use a holiday park."],
+      ["Is there a dump station in Raglan?", "Yes. The council lists one on Marine Parade, and it asks self-contained vehicles to empty their tanks every two or three nights."],
+    ],
+    sources: [
+      { label: "Waikato District Council: Camping", url: "https://www.waikatodistrict.govt.nz/camping" },
+      { label: "Raglan Naturally: Freedom camping", url: "https://raglan.net.nz/freedom-camping/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

@@ -1007,6 +1007,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-raglan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-raglan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-raglan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-rotorua-2026.webp": {
     "width": 1600,
     "height": 900,
