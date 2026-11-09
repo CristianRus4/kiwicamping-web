@@ -9045,6 +9045,170 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps 在紐西蘭用不了？試試免登入的露營應用程式 KiwiCamping（2026）",
+      "description": "WikiCamps 紐西蘭版要你登入、強制更新，或是新版本之後老是出問題？旅行者為什麼轉向 KiwiCamping，以及如何把行程搬過來。",
+      "region": "紐西蘭",
+      "imageAlt": "幾輛租來的露營車停在被雨水打濕的路邊停車場，背後是林木覆蓋的山丘",
+      "intro": "如果 WikiCamps 紐西蘭版一直要你登入、用更新畫面把你擋在外面，或是自從重做的應用程式上線後一直覺得彆扭，你不必把南島的一天花在修它上。KiwiCamping 是一款面向紐西蘭的 iPhone 露營應用程式，打開就是地圖：不需建立帳號，收錄來自 Department of Conservation 自身資料的 DOC 營地、山屋和步道，還有圍繞你真正要走的那條路設計的行程規劃。KiwiCamping 是我們做的，所以這篇指南是我們自己的。它會談旅行者為什麼轉用、KiwiCamping 能為他們做什麼、如何在幾分鐘內搬過來一趟行程，以及 WikiCamps 仍然更適合的地方。",
+      "sections": [
+        {
+          "heading": "旅行者為什麼離開 WikiCamps",
+          "body": [
+            "強制更新。自 2026 年 3 月起，落後太多的 WikiCamps 版本會拒絕開啟，直到你更新，而在西岸或峽灣地區，這個畫面可能出現在離任何訊號幾公里遠的地方。",
+            "帳號登入。重做後的應用程式需要 WikiCamps 帳號，不少旅行者發現自己一遍又一遍地登入，或是在<a data-guide=\"kiwicamping-offline-data-guide\">沒有訊號</a>的營地等驗證郵件。",
+            "更新之後的問題。行程和收藏好像不見了，有些功能挪了位置或隨舊版本消失，地圖的表現也和大家熟悉的不一樣。",
+            "沒有電腦版。Windows 應用程式已停止，讓習慣在飛來之前用筆電規劃行程的人很吃虧。"
+          ],
+          "tips": [
+            "遠離訊號時出現的更新畫面",
+            "反覆登入和驗證郵件",
+            "舊功能隨舊應用程式消失"
+          ]
+        },
+        {
+          "heading": "KiwiCamping 有什麼不同",
+          "body": [
+            "KiwiCamping 打開就是地圖。沒有帳號，沒有登入畫面，也沒有驗證碼：開啟 iCloud 後，你儲存的地點、<a data-guide=\"save-places-kiwicamping\">收藏集</a>和行程會透過手機上已有的 Apple 帳號私密同步。",
+            "它收錄的 287 個 DOC 營地、927 間 DOC 山屋和 1,453 條 DOC 步道，來自 Department of Conservation 自己的資料，附有 DOC 的費用、養狗規定和預訂要求，以及連到 DOC 頁面的連結；此外還有兩座島上的度假公園、<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域、公共排污站和適合一日遊的地點：總共 6,500 多個地點。地點目錄內建在應用程式裡，所以名稱、費用、設施和條件在沒有訊號時也能閱讀。天氣、導航、Look Around 和照片需要網路連線。",
+            "每個地點打開時都帶著決定去留的資訊：照片、介紹、費用、條款和條件、依類型分組的設施、目前的提示、聯絡和預訂資訊、天氣，以及 Apple 的 <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a>，讓你在把露營車開上岔路之前，先從公路上看清入口。"
+          ],
+          "tips": [
+            "不需帳號，沒有登入畫面",
+            "來自 DOC 資料的 DOC 營地、山屋和步道",
+            "沒有訊號也能讀地點詳情"
+          ]
+        },
+        {
+          "heading": "為公路而做的行程規劃",
+          "body": [
+            "行程規劃是這款應用程式的核心。把儲存的地點加為停靠點，再拖成你要開的順序。每一段都顯示距離，導航可直接開啟到下一個停靠點，每個停靠點都有自己的日期、抵達備註和天氣。旅途中可以把停靠點標記為已造訪，為臨時改變的日子保留附近的備選，並把<a data-guide=\"new-zealand-camping-packing-list\">打包清單</a>放在行程旁邊。行程詳情可以同步到行事曆。",
+            "儲存的地點會自己整理。你標記地點時，「喜歡」「星號」「想去」和「已去過」就會自動填入，你也可以為某座島、某個季節或一份候選名單建立自己命名的收藏集。<a data-guide=\"kiwicamping-filters-guide\">篩選</a>能回答實際的問題，例如皇后鎮附近有廁所和飲用水的免費露營區域，還能依地點類型、費用、評分、線上預訂、地區、是否可帶狗，以及詳細的設施和通行特徵縮小範圍。"
+          ],
+          "tips": [
+            "依序排列、標出每段距離的停靠點",
+            "每個停靠點都有日期、備註和天氣",
+            "自動填入的收藏集"
+          ]
+        },
+        {
+          "heading": "如何換用並搬過行程",
+          "body": [
+            "無法從 WikiCamps 匯入，所以要重新建立一次行程，大多數行程只要幾分鐘。趁 WikiCamps 的行程還能載入，打開它，或是把停靠點抄下來，然後照下面的步驟做。",
+            "先從已訂的夜晚開始，例如夏季的 DOC 營地或一次渡輪，空檔之後再補。如果你在 WikiCamps 用過的地點不在 KiwiCamping 裡，就在該地區搜尋附近的營地或<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域；依費用、設施和是否可帶狗使用篩選，很快就能找到。"
+          ],
+          "tips": [
+            "重新建立，而不是匯入",
+            "先放已訂的晚上",
+            "用篩選補空檔"
+          ],
+          "table": {
+            "caption": "把行程從 WikiCamps 搬到 KiwiCamping。",
+            "head": [
+              "步驟",
+              "怎麼做"
+            ],
+            "rows": [
+              [
+                "1. 下載",
+                "在 App Store 取得 KiwiCamping；不需帳號即可開啟"
+              ],
+              [
+                "2. 找到每個停靠點",
+                "依地名搜尋，或移動地圖並搜尋可見區域"
+              ],
+              [
+                "3. 儲存",
+                "替每個停靠點加星號，或加入這趟行程的收藏集"
+              ],
+              [
+                "4. 建立行程",
+                "新增行程，加入儲存的地點，並拖成順序"
+              ],
+              [
+                "5. 補充詳情",
+                "為每個停靠點設定日期和抵達備註，並查看天氣"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping 與 WikiCamps 比較",
+          "body": [
+            "兩款應用程式都能幫你在紐西蘭找到睡覺的地方，但構造不同。WikiCamps 靠使用者新增的地點成長，除了 iPhone 也能在 Android 上執行。KiwiCamping 從 DOC 和其他官方管道出發，圍繞規劃行程來打造。",
+            "要說清楚你放棄的東西。KiwiCamping 只能在 iPhone（iOS 26 或更新版本）上執行，收錄的地點比 WikiCamps 少，也沒有旅行者評價，所以有些人兩款都留著。如果你用 Android，我們的 <a data-guide=\"wikicamps-alternatives\">WikiCamps 替代應用程式</a>指南比較了其他選擇。"
+          ],
+          "tips": [
+            "官方資料對比使用者輸入",
+            "不需帳號對比必須帳號",
+            "僅限 iPhone，沒有旅行者評價"
+          ],
+          "table": {
+            "caption": "兩款應用程式的差異，依據 2026 年 11 月各自應用程式本身的功能。",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "帳號",
+                "無；透過 iCloud 同步",
+                "需要 WikiCamps 帳號"
+              ],
+              [
+                "地點來源",
+                "DOC 和其他官方管道",
+                "主要由使用者新增"
+              ],
+              [
+                "行程規劃",
+                "有序的停靠點、日期、備註、天氣和每段距離",
+                "帶停靠點的行程"
+              ],
+              [
+                "旅行者評價",
+                "沒有",
+                "有"
+              ],
+              [
+                "裝置",
+                "iPhone",
+                "iPhone、iPad 和 Android"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "取得 KiwiCamping",
+          "body": [
+            "如果 WikiCamps 對你已經用不了，KiwiCamping 可以在 App Store 免費下載。打開它，搜尋你的下一個停靠點並儲存，幾分鐘內你又能開始規劃了。",
+            "現場的規則仍然第一。無論應用程式怎麼說，都要遵守營地的標示牌、<a data-guide=\"camping-rules-local-councils-new-zealand\">地方議會條例</a>、DOC 以及目前的封閉通知。"
+          ],
+          "tips": [
+            "免費下載，不需帳號",
+            "搜尋、儲存、規劃",
+            "標示牌、地方議會和 DOC 優先"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps 用不了。我可以用什麼代替？",
+          "KiwiCamping 是一款面向紐西蘭的 iPhone 露營應用程式，收錄來自 Department of Conservation 自身資料的 DOC 營地、山屋和步道，總共 6,500 多個地點。不需建立應用程式帳號，沒有訊號也能讀地點詳情，儲存的地點會變成帶停靠點、日期和每段距離的行程。"
+        ],
+        [
+          "KiwiCamping 會要求我登入嗎？",
+          "不會。沒有 KiwiCamping 帳號，也沒有登入畫面。開啟 iCloud 後，你儲存的地點、收藏集和行程會透過你的 Apple 帳號私密同步，購買也透過同一個 Apple 帳號還原。"
+        ],
+        [
+          "我能把 WikiCamps 的行程搬到 KiwiCamping 嗎？",
+          "無法匯入，所以要重新建立行程。搜尋每個停靠點並儲存，再把儲存的地點加入新行程，拖成你要開的順序。大多數行程只需幾分鐘。"
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "紐西蘭露營車 App 推薦 2026：租車、搬車和路上生活",
       "description": "2026 年紐西蘭露營車旅行用得到的 App：從租車、每天 $1 紐幣的搬車方案到找下一晚的落腳處，附價格和評分比較，資料於 2026 年 10 月查核。",
@@ -12953,6 +13117,650 @@
         },
         {
           "label": "DOC：山屋、營地、Great Walks、木屋和旅舍的條款和條件"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsite-pass-new-zealand": {
+      "title": "DOC Campsite Pass 2026-27：值得花 $295 嗎？以及哪裡不能用",
+      "description": "DOC Campsite Pass 成人一年 $295。需要住多少晚才回本，它排除了哪些營地和夏季日期，以及如何在可預訂的營位使用。",
+      "region": "紐西蘭",
+      "imageAlt": "一輛露營車停在 Queen Charlotte Sound 藍色海水旁 Momorangi Bay 營地的草地上",
+      "intro": "Department of Conservation 的 Campsite Pass 是一次性付款，涵蓋你一年內在大多數 DOC 營地的住宿：成人 $295，兒童和青少年半價，嬰幼兒免費。對於圍繞 DOC 營地展開的長途旅行，它很划算；對幾乎所有其他人來說則不划算，而且它有一些會讓人踩坑的規則，從仍然需要預訂，到夏季有一份它不涵蓋的熱門營地清單。下面的價格、限制和排除項，來自我們於 2026 年 11 月 9 日查閱的 DOC Campsite Pass 頁面。",
+      "sections": [
+        {
+          "heading": "Campsite Pass 是什麼",
+          "body": [
+            "Campsite Pass 是一種付費方式，不是預訂。從你選定的開始日期起的 365 晚內，它涵蓋 DOC 保護區營地的每晚費用，無論是線上預訂的營地，還是抵達時付費的自助登記營地。它不會在任何地方為你留位，也不涵蓋山屋：山屋有自己的 Backcountry Hut Pass 和山屋票。",
+            "每個人都需要自己的通行證。一對夫妻買兩張成人通行證付 $590，兩位成人加兩個 5 至 17 歲孩子的家庭付 $885，5 歲以下的孩子免費。一些會員組織可享折扣；DOC 請會員在購買前把會員卡的掃描檔寄到 bookings@doc.govt.nz，這樣付款時帳號上就有折扣。"
+          ],
+          "tips": [
+            "是付款方式，不是預訂",
+            "每人一張通行證",
+            "山屋需要另外的通行證"
+          ],
+          "table": {
+            "caption": "DOC Campsite Pass 價格，2026 年 11 月 9 日查閱。從你選定的開始日期起一年（365 晚）。",
+            "head": [
+              "年齡組",
+              "價格"
+            ],
+            "rows": [
+              [
+                "成人，18 歲及以上",
+                "$295.00"
+              ],
+              [
+                "兒童和青少年，5 至 17 歲",
+                "$147.50"
+              ],
+              [
+                "嬰幼兒，0 至 4 歲",
+                "免費"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "住多少晚通行證才回本",
+          "body": [
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>的費用按每人每晚計算，差別很大。有沖水廁所和熱水淋浴的服務型營地每位成人大約 $25，標準營地大約 $10 到 $20，基礎營地免費。在 KiwiCamping 2026 年 8 月的 DOC 資料中，列出的 287 個 DOC 營地裡有 63 個不收費，付費營地的成人費用中位數是 $12.75。",
+            "所以損益平衡點取決於你住在哪裡。在服務型營地，通行證第十二晚就回本。在典型的標準營地，需要 20 到 24 晚，如果你大多數夜晚是在 $10 的營位或免費的基礎營位，它可能永遠回不了本。購買之前，把你路線上的實際營地加起來，而不是你能想到的最貴的那個。"
+          ],
+          "tips": [
+            "服務型營位：12 晚回本",
+            "標準營位：20 晚以上",
+            "免費基礎營位根本不需要通行證"
+          ],
+          "table": {
+            "caption": "成人通行證 $295。按某個每晚成人費用，通行證比逐晚付費更便宜所需的晚數。",
+            "head": [
+              "每晚成人費用",
+              "回本所需晚數"
+            ],
+            "rows": [
+              [
+                "$25（服務型營地）",
+                "12"
+              ],
+              [
+                "$20",
+                "15"
+              ],
+              [
+                "$15",
+                "20"
+              ],
+              [
+                "$12.75（付費中位數）",
+                "24"
+              ],
+              [
+                "$10",
+                "30"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "誰該買，誰不該買",
+          "body": [
+            "這張通行證適合以 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>為主的長途慢遊：在不同工作之間輾轉的打工度假、退休後遊覽幾個月的夫妻，或者以一個住處為基地、整個夏天週末出遊。它尤其適合家庭，因為兒童通行證半價、嬰幼兒免費，而每晚最貴的部分就是成人費用。",
+            "如果你大多數夜晚會住在度假營地或私人露營地（DOC 並不營運這些），或者在自給自足車輛裡<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>（本來就不收費），就不要買。Great Walk 也不用買：每個 Great Walk 營地都被排除，需要另外預訂。至於為期兩週的露營車假期，除非幾乎每晚都住在服務型 DOC 營地，否則帳很難算得過來。"
+          ],
+          "tips": [
+            "最適合長途旅行和家庭",
+            "不適用於 Great Walk",
+            "不適用於度假營地"
+          ]
+        },
+        {
+          "heading": "通行證不涵蓋的營地和日期",
+          "body": [
+            "DOC 排除所有 Great Walk 營地、營地裡的每一間小屋、別墅、度假屋、旅舍和通鋪屋、因維護關閉的營地，以及季節性營地在開放季之外的時段。除此之外還有一份個別營地的清單，其中包括幾處全國最熱門的。五處在 12 月 26 日到 2 月 8 日被排除，正是大多數人最想去的時候，而 Lake Rotoiti 的 Kerr Bay 在 10 月 19 日到 4 月 30 日被排除。",
+            "其他的則全年排除，包括 Far North 的 Kapowairua（Spirits Bay）、Rarawa Beach 和 Tapotupotu，Coromandel 的 Wentworth Valley，Bay of Plenty 的 Dickey Flat 和 Hot Water Beach（Tarawera），Lake Waikaremoana 和 Whakapapa 的 DOC 營地，若干東海岸營地，以及 Queenstown 附近的 Twelve Mile Delta。DOC 說它可能不經通知就更改清單，所以在圍繞通行證規劃行程之前，要先查看它的排除頁面。"
+          ],
+          "tips": [
+            "夏季旺季有五處熱門營地被排除",
+            "購買前查看排除頁面",
+            "小屋和通鋪屋永遠不涵蓋"
+          ],
+          "table": {
+            "caption": "帶日期的 DOC Campsite Pass 排除項，2026 年 11 月 9 日查閱。DOC 的頁面還列出了全年排除的營地。",
+            "head": [
+              "營地",
+              "地區",
+              "排除時段"
+            ],
+            "rows": [
+              [
+                "Trounson Kauri Park",
+                "Northland",
+                "12 月 26 日至 2 月 8 日"
+              ],
+              [
+                "Tōtaranui",
+                "Nelson Tasman",
+                "12 月 26 日至 2 月 8 日"
+              ],
+              [
+                "Momorangi Bay",
+                "Marlborough",
+                "12 月 26 日至 2 月 8 日"
+              ],
+              [
+                "Pelorus Bridge",
+                "Marlborough",
+                "12 月 26 日至 2 月 8 日"
+              ],
+              [
+                "Peel Forest",
+                "Canterbury",
+                "12 月 26 日至 2 月 8 日"
+              ],
+              [
+                "Kerr Bay",
+                "Nelson Lakes",
+                "10 月 19 日至 4 月 30 日"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "如何購買通行證",
+          "body": [
+            "在 DOC 的線上預訂系統裡購買：登入或建立帳號，從選單選擇 Passes，選擇 Campsite Pass，並選定你想開始使用的第一晚。那一晚就是 365 晚的起點。最早可在第一晚之前一個月購買，DOC 會把購買憑證連同通行證 PDF 一起寄電子郵件給你。如果無法線上購買，請致電或寄電子郵件給 DOC 遊客中心。",
+            "請謹慎選擇開始日期，因為它不能更改。DOC 只在購買後 48 小時內退款，並且只在你還沒用它預訂過、開始日期也還沒到的情況下。之後一律不退款，所以如果你的抵達日期不確定，就等確定了再買。"
+          ],
+          "tips": [
+            "開始日期不能更改",
+            "僅 48 小時內可退款",
+            "最早可提前一個月購買"
+          ]
+        },
+        {
+          "heading": "在可預訂的營地使用通行證",
+          "body": [
+            "有了通行證，也不能不打招呼就出現在可預訂的營地。你仍然要在抵達前線上預訂，輸入每位持證人的姓名和通行證號碼；預訂總額隨後為 $0，但有電營位除外，每位持證人每晚收 $3。沒有預訂就出現，DOC 會收取 $10 的預訂費，如果營地已滿，你還可能被拒絕。",
+            "帶上預訂確認和通行證的副本，列印的或手機上的都行。夏季在熱門營地，稀缺的是預訂，而不是錢，所以即使通行證已經付了那一晚，也要早點預訂。你們團隊裡沒有通行證的人，在同一份預訂裡按正常價格預訂和付費。"
+          ],
+          "tips": [
+            "有通行證也要先預訂",
+            "有電營位每人每晚 $3",
+            "帶上確認單和通行證"
+          ]
+        },
+        {
+          "heading": "在自助登記的營地使用",
+          "body": [
+            "不可預訂的營地是先到先得的，通行證並不讓你比別人有優先權。抵達後，照常填寫自助登記信封或表格，註明通行證，並且只為你們隊伍裡沒有通行證涵蓋的人付費。",
+            "巡護員可以要求查看通行證和身分證件，所以兩樣都要隨手可取。許多自助登記營地是費用較低的標準或基礎營位，這也是為什麼對偏愛更安靜、更簡單營地的旅客來說，通行證回本需要更久。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "七晚規則和更長的停留",
+          "body": [
+            "通行證在任何 30 天內，在同一個營地最多涵蓋七晚。如果你想住更久，額外的晚數按該營地的標準費率，作為單獨的交易收費，最長不超過該營地自身的最長停留期。這條規則防止通行證把一個營地變成全年的大本營。",
+            "對大多數旅客來說這從來不成問題，因為在公路旅行中，一個地方住一週已經算久了。它對想在果園或葡萄園附近露營整個季節的季節工有影響：要計畫在兩三個營地之間輪換，或者準備好第一週之後按原價付費。"
+          ],
+          "tips": [
+            "每個營地 30 天內七晚",
+            "額外晚數按標準費率",
+            "長期停留要在營地之間輪換"
+          ]
+        },
+        {
+          "heading": "在 KiwiCamping 裡算出你自己的數字",
+          "body": [
+            "KiwiCamping 是我們做的 App，它列出了 DOC 的營地，以及 DOC 公布的成人費用、預訂要求和狗的規定，並連結到 DOC 自己的每個頁面。按費用篩選，看你路線上免費和便宜的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>，把想去的存起來，再編入帶日期的行程，就能看到有多少晚是住在付費的 DOC 營地。",
+            "這個數字才是 Campsite Pass 是否划算的誠實檢驗。KiwiCamping 僅限 iPhone（iOS 26 或更高版本），不銷售也不核驗 DOC 的通行證或預訂：你仍然要向 DOC 購買通行證並預訂可預訂的營地。我們關於 DOC 營地的指南介紹了預訂、費用，以及每種營地類型提供什麼。"
+          ],
+          "tips": [
+            "每個營地的 DOC 費用和預訂規則",
+            "數一數你付費的 DOC 晚數",
+            "通行證和預訂都向 DOC 辦理"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "DOC Campsite Pass 值得買嗎？",
+          "只有圍繞付費 DOC 營地的長途旅行才值得。成人 $295，在 $25 的服務型營地第十二晚就回本，但在標準營地需要 20 晚以上，如果你主要用免費的基礎營位、度假營地或自由露營，就永遠回不了本。"
+        ],
+        [
+          "有了 DOC Campsite Pass 還需要預訂嗎？",
+          "需要，在可預訂的營地。抵達前線上預訂並輸入每張通行證的號碼；預訂總額為 $0，但有電營位每位持證人每晚 $3。沒有預訂，DOC 收取 $10 費用，營地已滿時還可能拒絕你。"
+        ],
+        [
+          "Campsite Pass 不涵蓋哪些營地？",
+          "所有 Great Walk 營地、營地裡的小屋和通鋪屋，以及一份個別營地的清單。Tōtaranui、Pelorus Bridge、Momorangi Bay、Trounson Kauri Park 和 Peel Forest 在 12 月 26 日至 2 月 8 日被排除，Kerr Bay 在 10 月 19 日至 4 月 30 日被排除。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：Campsite Pass"
+        },
+        {
+          "label": "DOC：Campsite Pass 排除項"
+        },
+        {
+          "label": "DOC：Campsite Pass 條款與條件"
+        },
+        {
+          "label": "DOC 線上預訂"
+        },
+        {
+          "label": "DOC：營地類別和費用"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-tent-new-zealand": {
+      "title": "在紐西蘭用帳篷自由露營：2026 年哪裡允許",
+      "description": "帳篷不需要綠色認證，但大多數議會禁止在公共土地上搭帳篷。2026 年哪裡允許帳篷自由露營：按議會、DOC 土地，以及填補空缺的免費營地。",
+      "region": "紐西蘭",
+      "imageAlt": "烏雲壓頂下，Canterbury 一處開闊山谷上方的草叢中搭著兩頂小帳篷",
+      "intro": "帳篷是紐西蘭自給自足法律唯一不管的自由露營方式。2026 年 6 月 7 日全面生效的綠色認證規則針對的是車輛，而《Freedom Camping Act》仍然允許在議會土地上搭帳篷露營，除非條例限制或禁止。問題在於，主要旅遊路線上的大多數議會恰恰這樣做了，所以歡迎帳篷的路邊營位比認證露營車的要少。仍然可行的是開放的保護地、少數指明允許帳篷的議會營位，以及專為帳篷準備的免費和便宜的 DOC 營地。下面的議會規定，來自我們的議會指南中整理的各議會的條例和自由露營頁面，於 2026 年 10 月和 11 月查閱。",
+      "sections": [
+        {
+          "heading": "法律對帳篷怎麼說",
+          "body": [
+            "《2011 年<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>法》把自由露營定義為：在露營地之外，用帳篷、車輛或其他臨時構築物，在鋪裝道路、車輛可到達的土地、Great Walks 步道或海邊 200 公尺以內露營。在議會管理的土地上，第 10 條允許用帳篷或認證的自給自足車輛自由露營，除非條例限制或禁止。沒有綠色認證的車輛需要條例為它指明的營位；帳篷則不需要。",
+            "所以帳篷的自由幾乎完全取決於當地的<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>，而各議會不同。Auckland、Tasman 和 New Plymouth 完全禁止在公共土地上用帳篷自由露營，其他議會只允許在少數指明的保護區搭帳篷，還有幾個保留了一般許可，卻排除了那麼多區域，以至於意義不大。在保護地上，預設規則又反過來，所以最好的帳篷營位通常是 DOC 的。"
+          ],
+          "tips": [
+            "帳篷不需要綠色認證",
+            "議會土地由條例決定",
+            "保護地有自己的規則"
+          ]
+        },
+        {
+          "heading": "按議會：哪裡可以用帳篷自由露營",
+          "body": [
+            "Whangārei 是突出的例外。它的 Camping in Public Places <a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>在公共土地上列出了五個帳篷區域：Parua Bay 約 15 頂帳篷，最多三晚；Reotahi 最多三頂，一晚；Sandy Bay 約四頂，一晚；Tamaterau 四到五頂，一晚；Waipū Caves 可容許很多帳篷，一晚。Rotorua 允許在 Lake Ōkaro 和 Guy Roe Reserve 兩處保護區搭帳篷，Dunedin 則在 Warrington Domain 裡的指定區域一處。",
+            "Central Hawke's Bay 的 2024 年條例允許在 Pōrangahau 的 Pourerere Beach Road 和 Te Paerahi Beach 搭帳篷，Pourerere 在 12 月中旬到 2 月底需要抽籤許可。Marlborough 唯一的帳篷例外是 Awatere Valley Road 上的騎行者，他們可以在 Blairich Reserve 露營。Wellington 的四晚限制提到了帳篷，但它的露營地點是停車場，所以在那裡帳篷更適合住露營地。表格裡標註「不可」的任何地方，帳篷都需要露營地、度假營地或 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>。"
+          ],
+          "tips": [
+            "Whangārei 有五個帳篷區域",
+            "Rotorua 和 Dunedin 指明了帳篷保護區",
+            "大多數旅遊議會不允許"
+          ],
+          "table": {
+            "caption": "議會土地上的帳篷自由露營，來自各議會的條例和自由露營頁面，2026 年 10 月和 11 月查閱。規定會變；搭帳篷前請查看議會的頁面。",
+            "head": [
+              "議會",
+              "公共土地上的帳篷"
+            ],
+            "rows": [
+              [
+                "Auckland",
+                "不可"
+              ],
+              [
+                "Thames-Coromandel",
+                "不可：僅限認證的自給自足車輛"
+              ],
+              [
+                "Whangārei",
+                "可，在列出的五個帳篷區域"
+              ],
+              [
+                "Rotorua Lakes",
+                "可，僅限 Lake Ōkaro 和 Guy Roe Reserve"
+              ],
+              [
+                "Central Hawke's Bay",
+                "可，在 Pourerere Beach Road 和 Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "不可"
+              ],
+              [
+                "Wellington",
+                "列出的停車場不可；請用露營地"
+              ],
+              [
+                "Tasman",
+                "不可"
+              ],
+              [
+                "Marlborough",
+                "僅限 Awatere Valley Road 上的騎行者，在 Blairich Reserve"
+              ],
+              [
+                "Christchurch",
+                "不可：請用露營地"
+              ],
+              [
+                "Westland",
+                "不可：議會保護區禁止自由露營"
+              ],
+              [
+                "Queenstown Lakes",
+                "不可：僅限認證的自給自足車輛"
+              ],
+              [
+                "Waitaki",
+                "不可，收費露營地之外"
+              ],
+              [
+                "Dunedin",
+                "可，僅限 Warrington Domain"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "DOC 保護地上的帳篷",
+          "body": [
+            "公共保護地的做法與大多數議會相反。該法第 15 條說，除非 DOC 公告限制或禁止，否則在那裡<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>是被允許的，DOC 的公告按地區公布。開放的保護地歡迎帳篷，有些公告甚至偏向帳篷：Otago 的 Gibbston Conservation Area 裡的 Rum Curries，每月兩晚限帳篷。",
+            "有兩點限制很重要。DOC 管理的風景保護區和休閒保護區，在指定營地之外禁止露營，而國家公園和步道在離路 200 公尺以外自有規定，所以國家公園步道旁一塊安靜的平地並不自動被允許。我們關於能否在 DOC 土地上隨處露營的指南，逐一介紹了公告、保護區和 Great Walks，那裡的露營要預訂，或者根本不允許。"
+          ],
+          "tips": [
+            "開放的保護地允許帳篷",
+            "保護區只能在指定營地",
+            "查看該地區的 DOC 公告清單"
+          ]
+        },
+        {
+          "heading": "供帳篷使用的免費和便宜的 DOC 營地",
+          "body": [
+            "在不能<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>的地方，DOC 營地以極低的花費填補空缺。基礎營地免費，有廁所，別的不多；標準營地每位成人每晚大約 $10 到 $20；帶淋浴的服務型營地大約 $25。在 KiwiCamping 2026 年 8 月的 DOC 資料中，287 個 DOC 營地裡有 63 個不收費，大多數 DOC 營地接受帳篷。",
+            "付費的 DOC 營地按該法屬於露營地，所以<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規定</a>在那裡完全不適用。要看它能否預訂：可預訂的營位必須在抵達前預訂，自助登記的營位先到先得，用入口處的信封。圍繞付費 DOC 營地展開的長途旅行，用 DOC 的 Campsite Pass 可能更便宜，而度假營地通常有比有電營位更便宜的無電帳篷營位。"
+          ],
+          "tips": [
+            "63 個 DOC 營地不收費",
+            "可預訂的營位要在抵達前預訂",
+            "度假營地的帳篷營位更便宜"
+          ]
+        },
+        {
+          "heading": "廁所、廢棄物和不留痕跡",
+          "body": [
+            "帳篷沒有廁所，這正是這麼多議會把帳篷擋在路邊營位之外的原因。只在有你能使用的廁所的地方露營，沒有的話就遵循 DOC 關於人類排泄物的指引，並把所有垃圾帶走。把廢棄物留在垃圾桶之外，或破壞該區域，是 $800 的違規罰款，是<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>費用中最高的。",
+            "在水邊盥洗、煮飯和刷牙都要小心。要在離溪流和湖泊至少 50 公尺的地方清洗，少量使用可生物分解的肥皂，把食物殘渣從灰水中濾出來帶走。在北部，要在衛生站把靴子、帳篷營釘和地布上的泥土一粒不剩地清理乾淨：<a data-guide=\"kauri-dieback-camping-travel\">貝殼杉枯梢病</a>就是靠泥土傳播的。"
+          ],
+          "tips": [
+            "在有廁所的地方露營",
+            "留下廢棄物罰 $800",
+            "在貝殼杉地區要清洗營釘和靴子"
+          ]
+        },
+        {
+          "heading": "火、天氣和在哪裡搭",
+          "body": [
+            "大多數<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>地點禁止明火，夏天許多地區進入限制或禁止的火險季，也涵蓋營地。瓦斯爐是安全的預設選擇：Fire and Emergency 不要求瓦斯爐辦理許可，DOC 也說瓦斯爐通常可以隨時用來煮飯。",
+            "按最糟的夜晚而不是最好的夜晚來搭帳篷。避開暴雨時會被淹的河邊平地和乾涸的溪床，遠離帶有枯枝的樹，讓帳篷門背對盛行風。選定位置之前先查看 MetService 的惡劣天氣警報，在 West Coast 和 Fiordland 的營地，從黎明到黃昏都會有<a data-guide=\"sandflies-new-zealand-camping\">沙蠅</a>。"
+          ],
+          "tips": [
+            "用瓦斯爐，不要生營火",
+            "不要搭在河邊平地上",
+            "選位置之前先看天氣預報"
+          ]
+        },
+        {
+          "heading": "罰款和執法方式",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>罰款由全國統一規定。在條例或 DOC 公告禁止或限制的地方露營罰 $400，DOC 把搭帳篷之類的露營準備也算作違規的一部分。執法人員要求離開時拒絕罰 $600，破壞該區域或留下廢棄物罰 $800。",
+            "議會在夏天的夜間和清晨巡查熱門地點，官員可以當場開出違規通知。入口處的標誌是最快的指引：寫著禁止露營的標誌，或寫著只有<a data-guide=\"self-contained-campervan-green-warrant\">認證的自給自足</a>車輛可以露營的標誌，就把帳篷排除在外。沒有標誌的地方，議會條例地圖或 DOC 公告依然適用。"
+          ],
+          "tips": [
+            "在禁止的地方露營罰 $400",
+            "搭帳篷也算",
+            "沒有標誌不等於允許"
+          ]
+        },
+        {
+          "heading": "騎行者、健行者和帳篷旅行",
+          "body": [
+            "騎行旅行者和長途健行者面對的條例與其他人相同，只有少數小的例外，比如 Awatere Valley Road 上 Marlborough 的 Blairich Reserve。圍繞 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>、上面提到的議會帳篷保護區和度假營地來安排夜晚，並且在 Queenstown、Motueka 和 New Plymouth 這類公共土地上禁止帳篷的城鎮，留一個付費的備選。",
+            "搭巴士或開車旅行的背包客也可以這樣做。帳篷加免費的 DOC 營地，依然是在這個國家一些最美的地方最省錢的過夜方式，前提是這一晚是事先計畫好的，而不是黃昏時在一個禁止帳篷的地區臨時找地方。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "在 KiwiCamping 裡找對帳篷友善的地方",
+          "body": [
+            "KiwiCamping 是我們做的 iPhone App，它按地區收錄了 DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，以及 DOC 的營地、山屋和步道，所以你開車進去之前，就能查看某個保護區是禁止、受限還是開放。按費用篩選 DOC 營地，找出路線上免費和便宜的，閱讀每個營地的 DOC 費用和預訂要求，並連同日期和備註存入行程。",
+            "訊號遺失時，地點詳情仍儲存在手機上，而地圖圖磚、路線、天氣和照片需要連線。App 不包含<a data-guide=\"camping-rules-local-councils-new-zealand\">議會條例</a>地圖，所以議會土地請查看議會的頁面或我們的議會指南，並以現場標誌為最終依據。KiwiCamping 需要 iOS 26 或更高版本的 iPhone。"
+          ],
+          "tips": [
+            "按地區列出的 DOC 自由露營公告",
+            "按費用篩選 DOC 營地",
+            "議會規定：查看議會的頁面"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在紐西蘭可以用帳篷自由露營嗎？",
+          "可以，但比認證的露營車可去的地方少。《Freedom Camping Act》允許在議會土地上用帳篷露營，除非條例限制，而包括 Auckland、Tasman 和 New Plymouth 在內的許多議會禁止在公共土地上搭帳篷。開放的保護地、少數指明的議會保護區和免費的 DOC 營地是可靠的選擇。"
+        ],
+        [
+          "用帳篷露營需要自給自足車輛嗎？",
+          "不需要。綠色認證規則適用於用於自由露營的車輛，不適用於帳篷。帳篷仍然要遵守當地的議會條例或 DOC 公告，而在禁止帳篷的地方，答案是露營地、度假營地或 DOC 營地。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "DOC：禁止或限制自由露營的保護地"
+        },
+        {
+          "label": "Whangarei District Council：公共場所露營"
+        },
+        {
+          "label": "Auckland Council：自由露營"
+        },
+        {
+          "label": "Tasman District Council：負責任的露營"
+        },
+        {
+          "label": "Dunedin City Council：自由露營"
+        },
+        {
+          "label": "Rotorua Lakes Council：露營"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "camping-without-self-contained-vehicle-new-zealand": {
+      "title": "沒有自給自足車輛如何在紐西蘭露營（2026）：你可以住哪裡",
+      "description": "沒有綠色認證？2026 年，轎車、沒有認證的露營車，或非自給自足的租賃露營車可以住在哪裡：允許的議會營位、DOC 土地和營地、營地、費用和罰款。",
+      "region": "紐西蘭",
+      "imageAlt": "高大深色松樹下的 Reefton Motor Camp 的辦公室、廚房和設施樓",
+      "intro": "自 2026 年 6 月 7 日起，在紐西蘭只有持有綠色認證（green warrant）的車輛才算自給自足。藍色認證從那天起不再有效，而配攜帶式廁所的露營車本來就從未符合綠色認證的條件。這讓許多旅客沒有認證：開轎車和旅行車的人、較老的自製露營車，以及租了較便宜的非自給自足露營車的人。沒有綠色認證，你照樣可以有一次很棒的公路旅行。只是意味著你要圍繞願意接納你的地方來安排每一晚，而不是圍繞為認證車輛設置的路邊營位。下面的議會營位，來自我們的議會指南中整理的各議會的條例和自由露營頁面，於 2026 年 10 月和 11 月查閱。",
+      "sections": [
+        {
+          "heading": "先確認你實際開的是什麼",
+          "body": [
+            "<a data-guide=\"self-contained-campervan-green-warrant\">認證的自給自足</a>車輛會展示一張綠色認證卡，它是在檢查了固定廁所、淡水、汙水和垃圾系統之後簽發的。如果你的車沒有綠色卡，或只有 2026 年 6 月 7 日之前的藍色貼紙，就把它當作非自給自足的。可以取出的廁所不算數，不管它多好。",
+            "租賃露營車兩種都有，非自給自足的通常是沒有內建廁所的較便宜的款式。在規劃任何免費的夜晚之前，先看車窗裡有沒有綠色認證卡，或取車時問清楚。如果沒有認證，就把每一晚都圍繞下面的地方來安排。"
+          ],
+          "tips": [
+            "展示綠色認證卡，否則就是沒有認證",
+            "藍色貼紙於 2026 年 6 月 7 日起失效",
+            "取車時問租車公司"
+          ]
+        },
+        {
+          "heading": "你的選擇，從最便宜到最可靠",
+          "body": [
+            "首先是免費的基礎 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>：有廁所、一塊平整的停車位，不收費，先到先得。接著是條例專門指明可供非自給自足車輛使用的議會營位、DOC 沒有限制的開放保護地、每位成人每晚大約 $10 到 $20 的標準 DOC 營地、所有者同意的私人土地，以及接受任何車輛、有淋浴和廚房的度假營地和議會營運的露營地。",
+            "<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規定</a>只在公共土地上才有影響。露營地、度假營地、付費的 DOC 營地，或經所有者許可的私人土地都不算自由露營，所以綠色認證的規定在那裡完全不適用。這就是為什麼大多數沒有認證的旅行，會形成這樣的節奏：大多數夜晚住 DOC 營地，每隔幾天住一次度假營地，洗個澡、洗洗衣服。"
+          ],
+          "tips": [
+            "基礎 DOC 營地免費",
+            "露營地和私人土地：不需要認證",
+            "每隔幾晚住一次度假營地"
+          ]
+        },
+        {
+          "heading": "接納沒有認證車輛的議會營位",
+          "body": [
+            "在議會土地上，沒有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>的車輛只能住在條例指明的地方，而主要旅遊路線上的大多數議會一處都沒有指明。也有少數指明了。Whangārei 為沒有認證的車輛列出了 17 處，是我們查閱過的議會中最多的。Tasman 指明了三處：Motueka Beach Reserve、Ngātīmoti 的 Alexander Bluff Road Reserve 和 Richmond 的 Fittal Street。Dunedin 指明了 Warrington Domain、Ocean View Recreation Reserve 和 Thomas Burns Street 停車場，最後一處在 11 月 1 日至 4 月 30 日開放。",
+            "New Plymouth 在 Lake Rotomanu 和 Waitara 的 Battiscombe Terrace 各有一處六個車位的營位，每處 30 天內限住一晚。Whakatāne 允許在 Murupara 附近的 Aniwhenua Reserve 四週內最多住七晚，Central Hawke's Bay 在 Pourerere Beach Road 和 Te Paerahi Beach，Southland 在 Dunsdale、Orepuki 的 Monkey Island 和 Thornbury。每處都有自己的限制，所以去之前先讀議會的頁面。"
+          ],
+          "tips": [
+            "只有指明的議會營位才算",
+            "大多數旅遊議會一處都沒有指明",
+            "每個營位都有住宿晚數限制"
+          ],
+          "table": {
+            "caption": "供未經認證的非自給自足車輛使用的議會營位，來自各議會的條例和自由露營頁面，2026 年 10 月和 11 月查閱。",
+            "head": [
+              "議會",
+              "供沒有認證的車輛使用的營位"
+            ],
+            "rows": [
+              [
+                "Whangārei",
+                "列出的 17 處營位"
+              ],
+              [
+                "Whakatāne",
+                "Aniwhenua Reserve，四週內最多 7 晚"
+              ],
+              [
+                "Central Hawke's Bay",
+                "Pourerere Beach Road 和 Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "Lake Rotomanu 和 Battiscombe Terrace，各 6 個車位，30 天內 1 晚"
+              ],
+              [
+                "Tasman",
+                "Motueka Beach Reserve、Alexander Bluff Road Reserve、Fittal Street"
+              ],
+              [
+                "Dunedin",
+                "Warrington Domain、Ocean View Recreation Reserve、Thomas Burns Street（11 月 1 日至 4 月 30 日）"
+              ],
+              [
+                "Southland",
+                "Dunsdale、Monkey Island（Orepuki）、Thornbury"
+              ],
+              [
+                "Auckland、Thames-Coromandel、Queenstown Lakes、Christchurch、Westland",
+                "無：請使用露營地"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "DOC 土地和 DOC 營地",
+          "body": [
+            "保護地對沒有認證的車輛更友善。根據《<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>法》第 15 條，除非 DOC 的公告限制或禁止，否則允許在公共保護地上自由露營，而把營位限定為自給自足車輛的公告是例外，不是常規。有幾處受限制的營位甚至明確指出沒有認證的車輛，比如 Canterbury 的 Quailburn 和 Round Bush，每月四晚。",
+            "DOC 管理的風景保護區和休閒保護區，在指定營地之外禁止露營，DOC 按地區列出其禁止的停車場，所以具體地點請查看公告。大多數夜晚，<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>更簡單。在 KiwiCamping 2026 年 8 月的 DOC 資料中，150 個 DOC 營地列出了露營車可進入，63 個列為免費；長途旅行中，DOC Campsite Pass 可以降低付費營地的費用。"
+          ],
+          "tips": [
+            "開放的保護地任何車輛都可以",
+            "保護區只能在指定營地",
+            "150 個 DOC 營地列出露營車可進入"
+          ]
+        },
+        {
+          "heading": "沒有綠色認證的旅行要花多少錢",
+          "body": [
+            "差別主要在那些不能免費度過的夜晚。度假營地公布的無電營位大約每位成人 $20 到 $26，有電營位夏天大約兩人每晚 $50 到 $75。標準的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>每位成人大約 $10 到 $20，基礎營地免費，所以兩個人把 DOC 營地和每三晚一次的度假營地搭配著住，花費遠比只住度假營地少。",
+            "非自給自足的租賃通常每天比認證的便宜，所以車輛上省下的錢常常能抵得上營地費用。選擇之前，按你自己的路線算一算。我們的<a data-guide=\"camping-fees-new-zealand-2026\">露營費用</a>指南列有各類營位的目前價格，當你在寒冷的夜晚需要替冰箱或暖氣機充電時，有電營位是值得花錢的。"
+          ],
+          "tips": [
+            "無電度假營地營位：每位成人 $20 到 $26",
+            "標準 DOC 營地：$10 到 $20",
+            "把 DOC 的夜晚和度假營地搭配"
+          ]
+        },
+        {
+          "heading": "按地區規劃夜晚",
+          "body": [
+            "北島更容易。Whangārei、Whakatāne、Central Hawke's Bay 和 New Plymouth 都指明了議會營位，Northland、Coromandel 和北島中部有很多 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>。Auckland 和 Thames-Coromandel 的議會土地對你是關閉的，所以那些晚上要安排在露營地或 DOC 營地。",
+            "在南島，遊客最多的地區，Queenstown Lakes、Westland 和 Christchurch，沒有指明供未經認證車輛使用的議會營位，所以要靠 DOC。Canterbury 的高地、West Coast、Otago 和 Southland 有分布密集的 DOC 營地，許多可供露營車進入，Tasman 和 Dunedin 有它們指明的營位。1 月在 Queenstown 和 Wānaka 一帶，<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>會爆滿，所以要提前預訂。"
+          ],
+          "tips": [
+            "北島：議會營位更多",
+            "南島：圍繞 DOC 營地規劃",
+            "1 月的 Queenstown 度假營地要預訂"
+          ]
+        },
+        {
+          "heading": "罰款，以及什麼不算露營",
+          "body": [
+            "在規定要求的地方使用非自給自足的車輛，是 $400 的違規罰款，與在<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>禁止的地方露營相同。在限定自給自足車輛的土地上沒有展示認證卡罰 $200，造成損壞或傾倒廢棄物罰 $800。議會和 DOC 在夏天、夜間和清晨執法最嚴。",
+            "疲勞到無法安全駕駛時，靠邊停車休息按該法並不算<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>，你永遠應該停車而不是硬撐。但在停車場裡計畫好的一晚，無論你怎麼稱呼，都是露營。我們關於睡在車裡的指南詳細說明了這條界線，以及緊急情況和住房方面的例外。"
+          ],
+          "tips": [
+            "在要求的地方使用沒有認證的車輛：$400",
+            "為避免疲勞而休息是允許的",
+            "計畫好的一晚就是露營"
+          ]
+        },
+        {
+          "heading": "你應該去做認證嗎？",
+          "body": [
+            "如果車是你自己的，並且打算旅行好幾個月，認證可以靠免費的夜晚把成本賺回來。<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>需要在車內永久固定的廁所、淡水、通向汙水箱的水槽、通風和安全的垃圾存放，容量足夠三天，並按 Plumbers, Gasfitters and Drainlayers Board 營運的全國計畫檢查。許多小型露營車根本沒有空間裝固定廁所。",
+            "對短途旅行或租賃來說，幾乎不值得。如果免費的路邊夜晚對你很重要，一開始就選認證的露營車，或者圍繞 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>和露營地來規劃沒有認證的旅行，不少旅客本來就是這樣遊覽這個國家的。我們的綠色認證指南介紹了認證規則和費用。"
+          ],
+          "tips": []
+        },
+        {
+          "heading": "在 KiwiCamping 裡規劃沒有認證的夜晚",
+          "body": [
+            "KiwiCamping 是我們做的 iPhone App，它列出了 DOC 的營地及其費用、露營車進入情況、預訂要求和狗的規定，並按地區列出 DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，所以你能看到沒有認證的車輛可以住在保護地的哪裡。可以按費用篩選，找到免費和便宜的 DOC 營地，加入度假營地，並把它們連同日期、備註和各停靠點之間的路線距離存入行程。",
+            "沒有訊號時，你仍可閱讀已儲存的地點詳情，但地圖、路線、天氣和照片只在連線時才載入。App 不包含<a data-guide=\"camping-rules-local-councils-new-zealand\">議會條例</a>地圖，所以指明的營位請查看議會的頁面，並以入口處的標誌為最終依據。它可在 iOS 26 或更高版本的 iPhone 上執行。"
+          ],
+          "tips": [
+            "可供露營車進入的 DOC 營地",
+            "按地區列出的 DOC 自由露營公告",
+            "把夜晚存入有日期的行程"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在紐西蘭沒有自給自足車輛，我可以在哪裡露營？",
+          "在 DOC 營地、度假營地和露營地，在經所有者許可的私人土地上，在 DOC 沒有限制的保護地上，以及在條例專門指明可供沒有認證的車輛使用的少數議會營位，比如 Whangārei 的 17 處營位和 Dunedin 的 Warrington Domain。"
+        ],
+        [
+          "在非自給自足的車輛裡露營會被罰多少錢？",
+          "在規定要求認證的自給自足車輛的地方，罰 $400。在限定自給自足車輛的土地上沒有展示認證卡，罰 $200，損壞該區域或留下廢棄物罰 $800。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "DOC：禁止或限制自由露營的保護地"
+        },
+        {
+          "label": "Whangarei District Council：自由露營"
+        },
+        {
+          "label": "Tasman District Council：負責任的露營"
+        },
+        {
+          "label": "Dunedin City Council：自由露營"
+        },
+        {
+          "label": "DOC 住宿地點"
         }
       ],
       "priceTable": null
@@ -17942,6 +18750,914 @@
         },
         {
           "label": "DOC：自由露營"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-south-island": {
+      "title": "2026 年南島自由露營：各議會的規定",
+      "description": "2026 年南島哪裡可以合法自由露營：從 Marlborough 到 Southland 各議會的規定，帳篷或沒有認證的露營車還能做什麼，DOC 土地、罰款和夏季的瓶頸。",
+      "region": "南島",
+      "imageAlt": "在 Lake Pukaki 上方攀升的 Mount Cook Road，前方是 Aoraki Mount Cook 和 Southern Alps",
+      "intro": "是的，你仍然可以在南島自由露營，但幾乎處處都需要持綠色認證（green warrant）的認證自給自足車輛，每個區議會自行規定營位、晚數和時段。Queenstown Lakes 允許在 15 個停車場，Christchurch 在兩個有標誌的區域，而 Buller 和 Waitaki 則允許在其列明的禁區之外的大部分議會土地上。帳篷或沒有廁所的露營車，可選的議會營位清單很短，DOC 營地和度假營地的清單則長得多。",
+      "sections": [
+        {
+          "heading": "三種土地所有者，三套規則",
+          "body": [
+            "一個免費的夜晚是否合法，取決於你車輪下的土地歸誰所有。議會土地適用區議會的條例，保護地適用 DOC 的公告，由 NZTA 或 Land Information New Zealand 持有的土地有它自己的限制。《2011 年<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>法》涵蓋這一切，而私人土地則需要所有者點頭。",
+            "最重要的一項全國性變化發生在 2026 年 6 月 7 日，那一天藍色認證不再有效。現在只有需要在車內固定廁所的<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>，才能讓車輛在自由露營中算自給自足。帶攜帶式廁所的旅行車被當作沒有認證，在議會土地上，它只能住在條例專門為沒有認證的車輛指明的營位。"
+          ],
+          "tips": [
+            "議會、DOC 和其他機構各自訂立規則",
+            "自 2026 年 6 月 7 日起只認綠色認證",
+            "以現場標誌為準"
+          ]
+        },
+        {
+          "heading": "南島北部：Marlborough、Nelson 和 Tasman",
+          "body": [
+            "Marlborough 為<a data-guide=\"self-contained-campervan-green-warrant\">認證的自給自足</a>車輛列出了 11 處議會場地，限住一晚或兩晚，而 Picton 本身一處也沒有，所以在 Cook Strait 渡輪前後的夜晚，要圍繞 Renwick、Blenheim 或度假營地來安排。認證要求的唯一例外是 Awatere Valley Road 上的騎行者，他們可以在 Blairich Reserve 搭帳篷。",
+            "Tasman 的 Responsible Camping Bylaw 2025 禁止在公共土地上搭帳篷，只允許在指定位置<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>。Motueka、Ngātīmoti 和 Richmond 的三處營位接受沒有認證的車輛，其餘的供認證車輛使用。在 Abel Tasman 和 Golden Bay 一帶，DOC 的營地和 Great Walk 的營位要透過 DOC 而不是議會預訂。"
+          ],
+          "tips": [
+            "Marlborough：11 處，Picton 沒有營位",
+            "Tasman：公共土地上不能搭帳篷",
+            "透過 DOC 預訂 Abel Tasman 的營位"
+          ]
+        },
+        {
+          "heading": "西海岸",
+          "body": [
+            "這段海岸有三個議會，三種做法。Buller 允許認證車輛在一份禁止露營區域清單之外的議會土地上露營，這份清單涵蓋了 Karamea、Westport、Charleston 和 Punakaiki 周邊的路段。Grey 於 2026 年 9 月 28 日批准了更新後的<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>，把限制提高到任意四週內三晚，而 Westland 引導認證車輛前往 Kumara、Rimu 和 Paringa 的三處社區營運的營位，需捐款。",
+            "冰川地區是最緊張的地方：Westland 的條例草案禁止在 Fox Glacier 鎮露營，Franz Josef 只有一塊直升機停機坪停車區，所以在 1 月，度假營地或 DOC 營地是更穩妥的安排。我們的西海岸<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>指南從 Karamea 到 Haast 逐鎮介紹。"
+          ],
+          "tips": [
+            "Buller：清單之外的議會土地",
+            "Grey：四週內三晚",
+            "夏天預訂 Franz Josef 和 Fox"
+          ]
+        },
+        {
+          "heading": "Canterbury、Mackenzie 和 Waitaki",
+          "body": [
+            "Christchurch City Council 允許認證車輛在兩個有標誌的區域，即 Lyttelton 的 Naval Point 和 Akaroa 的北端，任意 30 天內最多住兩晚；該市和 Banks Peninsula 的其他大部分議會土地被禁止或受限。在該市以北，Kaikōura 和 Hurunui 各自訂有規則，所以去 Hanmer Springs 或沿海公路過夜前，請先查看這些議會的頁面。",
+            "在 Mackenzie，Tekapo 鎮、Twizel 中心和 Lake Ruataniwha 潟湖岸邊禁止進入，四處營位在 12 月 23 日到 2027 年 1 月 11 日關閉。DOC 的 Twizel 地區還有四處受限的露營區，比如 Quailburn。相比之下，Waitaki 對認證車輛在議會土地上給予一般許可，四週內三晚，不包括 Oamaru、Moeraki 和湖邊村莊的幾十個禁止地點。"
+          ],
+          "tips": [
+            "Christchurch：只有 Naval Point 和 Akaroa",
+            "Mackenzie 假期期間關閉四處營位",
+            "Waitaki：四週內三晚"
+          ]
+        },
+        {
+          "heading": "Otago、Wānaka 和 Queenstown",
+          "body": [
+            "Queenstown Lakes 是島上最嚴格的地區。它的《<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>條例 2025》允許認證車輛在 15 個指定停車場，從下午 6 點到早上 8 點，任意 30 天內最多兩晚，並禁止在市區自由露營。Kingston Road 有 50 個車位，而其他大多數停車場只有寥寥幾個，關於修改條例的決定定於 2026 年 12 月 17 日作出。Wānaka 指南介紹了該地區的湖畔一端。",
+            "Dunedin 寬鬆些：認證車輛可以在大多數鋪有碎石或柏油的議會停車區連續住最多兩晚，三處議會營位接受沒有認證的車輛，帳篷只在 Warrington Domain。Central Otago 和 Clutha 各自訂有清單，而 Catlins 海岸大部分是 DOC 和<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>的天下。"
+          ],
+          "tips": [
+            "Queenstown Lakes：15 個停車場",
+            "Dunedin：大多數議會停車場兩晚",
+            "Dunedin 的帳篷只在 Warrington"
+          ]
+        },
+        {
+          "heading": "Southland 和 Fiordland",
+          "body": [
+            "Southland District Council 在 Winton、Riversdale 和 Dipton 這樣的小鎮，為認證車輛設有指定營位，而 Dunsdale 和 Thornbury 等少數營位接受沒有認證的車輛。Te Anau、Manapouri、Riverton 和 Tuatapere 沒有議會營位，整個地區的市區都被禁止。",
+            "Milford Road 上的土地是國家公園，DOC 禁止在營地之外沿路露營。在 KiwiCamping 的資料裡，Te Anau 地區有 24 則 DOC 禁止公告。通行的辦法是 DOC 在 Milford Road 的營地，比如有 120 個營位的 Cascade Creek，或者 Te Anau 的<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>，無論哪種，代價都是沙蠅。"
+          ],
+          "tips": [
+            "Te Anau 沒有議會營位",
+            "Milford Road：只能用 DOC 營地",
+            "Cascade Creek 最大"
+          ]
+        },
+        {
+          "heading": "沒有認證車輛時",
+          "body": [
+            "帳篷、轎車或沒有認證的露營車並沒有被南島拒之門外，只是大多數夜晚需要預訂或付費的營位。KiwiCamping 的 DOC 資料列出了南島各地區的 165 個 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>，從帶旱廁的免費基礎營位到帶淋浴的服務型營地都有，其中許多歡迎帳篷和轎車。度假營地涵蓋各個城鎮。",
+            "供沒有認證的車輛使用的議會營位是有的，但很分散：Tasman 三處，Dunedin 三處，Southland 少數幾處。把它們當作額外的收穫記下來，而不要當作計畫的基礎。下面的表格按各議會自己的頁面或<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>，概括了它們的立場。"
+          ],
+          "tips": [
+            "DOC 營地接受帳篷和轎車",
+            "每個城鎮都有度假營地",
+            "供無認證車輛的議會營位很少"
+          ],
+          "table": {
+            "caption": "僅限議會土地，來自我們為議會指南於 2026 年 10 月查閱的各議會頁面或條例，以及 2026 年 11 月查閱的 Grey 條例頁面。DOC 土地遵循 DOC 的公告。",
+            "head": [
+              "議會",
+              "認證的自給自足車輛",
+              "沒有認證"
+            ],
+            "rows": [
+              [
+                "Marlborough",
+                "列出的 11 處，一晚或兩晚",
+                "僅限 Blairich Reserve 的騎行者帳篷"
+              ],
+              [
+                "Tasman",
+                "指定位置",
+                "Motueka、Ngātīmoti 和 Richmond；不可搭帳篷"
+              ],
+              [
+                "Buller",
+                "禁止露營區域之外的議會土地",
+                "露營地"
+              ],
+              [
+                "Grey",
+                "禁止區域之外的議會土地，四週內三晚",
+                "議會正在審議"
+              ],
+              [
+                "Westland",
+                "三處社區營運的營位",
+                "商業露營地"
+              ],
+              [
+                "Christchurch",
+                "Naval Point 和 Akaroa 北部，30 天內兩晚",
+                "露營地"
+              ],
+              [
+                "Mackenzie",
+                "受限營位，連續三晚",
+                "露營地"
+              ],
+              [
+                "Waitaki",
+                "禁止地點之外的議會土地，四週內三晚",
+                "收費露營地"
+              ],
+              [
+                "Dunedin",
+                "大多數議會停車場，連續兩晚",
+                "三處；帳篷只在 Warrington"
+              ],
+              [
+                "Queenstown Lakes",
+                "15 個停車場，30 天內兩晚",
+                "露營地"
+              ],
+              [
+                "Southland",
+                "小鎮指定營位",
+                "Dunsdale 和 Thornbury 等少數幾處"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "罰款和執法",
+          "body": [
+            "島上每個議會都收取全國統一的違規罰款。在<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>禁止或限制的地方露營，或在要求認證的地方使用沒有認證的車輛，罰 $400。認證卡沒有展示罰 $200，官員要求離開時拒絕罰 $600，傾倒廢棄物或破壞營地罰 $800。",
+            "租賃車輛先收到通知，再加上手續費轉給租車人，官員會用車牌號對照全國認證車輛登記冊。Queenstown、Wānaka、Tekapo 和冰川鎮在夏天巡查最嚴。"
+          ],
+          "tips": [
+            "大多數違規罰 $400",
+            "廢棄物或破壞罰 $800",
+            "租車公司會轉罰單"
+          ]
+        },
+        {
+          "heading": "用 KiwiCamping 規劃南島的夜晚",
+          "body": [
+            "KiwiCamping 把南島各地的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域與 DOC 營地、山屋、度假營地和汙水排放站一起放在地圖上，它的篩選功能可以把地圖縮小到你的車輛和預算所允許的範圍。議會規定變化得比任何資料集都快，所以長途駕駛之前，要讀當晚的標誌和議會的頁面。",
+            "把你喜歡的免費地點存入<a data-guide=\"save-places-kiwicamping\">收藏</a>，然後編排行程：每個停靠點標上日期，在依賴小停車場的夜晚旁邊放一個付費的備選。規劃器會顯示每一段的距離和車程以及每個地點的天氣預報。免費下載，含 App 內購買。"
+          ],
+          "tips": [
+            "按你的車輛篩選地圖",
+            "每晚存一個付費備選",
+            "出發前查看議會頁面"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在南島可以自由露營嗎？",
+          "可以，但幾乎總是要用持綠色認證的認證自給自足車輛，而且只能在區議會或 DOC 允許的地方。每個議會自行規定營位和晚數，從 Queenstown Lakes 的 15 個停車場，到 Buller 和 Waitaki 列明禁區之外的大部分議會土地。"
+        ],
+        [
+          "在南島哪裡可以免費搭帳篷露營？",
+          "主要是 DOC 免費的基礎營地，位於保護地上，通常有旱廁。議會土地基本對帳篷關閉：Tasman 禁止在公共土地上搭帳篷，Dunedin 只允許在 Warrington Domain，Marlborough 只允許 Blairich Reserve 的騎行者。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Marlborough District Council：自由露營"
+        },
+        {
+          "label": "Buller District Council：自由露營"
+        },
+        {
+          "label": "Grey District Council：條例徵求意見"
+        },
+        {
+          "label": "Westland District Council：露營地和負責任的露營"
+        },
+        {
+          "label": "Queenstown Lakes District Council：負責任的露營"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-north-island": {
+      "title": "2026 年北島自由露營：各地區哪裡合法",
+      "description": "2026 年北島的自由露營規定，從 Northland 到 Wellington：各議會的營位和住宿晚數限制、帳篷或沒有認證的露營車能住的少數地方、DOC 土地、罰款和夏季熱門地點。",
+      "region": "北島",
+      "imageAlt": "State Highway 1 上 Waiouru 鎮標誌後面，被雪覆蓋的 Ruapehu 山",
+      "intro": "在北島的大部分地區，持認證的自給自足車輛可以合法自由露營，但每個議會都畫自己的地圖，繁忙的海岸限制很嚴。Auckland、Thames-Coromandel 和 Tauranga 只接受認證車輛，最多兩晚，而 Whangārei、Waikato District 和 Taupō 仍為沒有廁所的露營車指明了營位。要預料到停留時間短、時段固定，以及出錯就罰 $400。",
+      "sections": [
+        {
+          "heading": "是什麼決定一個地點是否合法",
+          "body": [
+            "土地所有者說了算。在議會土地上，區或市議會的條例規定營位、晚數和時段；在保護地上，DOC 的公告起同樣的作用；NZTA 的休息區是用來歇一歇、緩解駕駛疲勞的，不是用來紮營的。《2011 年<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>法》為這一切劃定框架，現場的標誌有最終決定權。",
+            "自 2026 年 6 月 7 日起，只有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>才能讓車輛在自由露營中算自給自足，所以貼著藍色貼紙的舊露營車算沒有認證。在議會土地上，沒有認證的車輛或帳篷，只能住在條例專門為它們留出的營位，而這類營位在北島是例外，不是常規。"
+          ],
+          "tips": [
+            "適用土地所有者的規則",
+            "自 2026 年 6 月 7 日起只認綠色認證",
+            "休息區不是營地"
+          ]
+        },
+        {
+          "heading": "Northland",
+          "body": [
+            "Far North District Council 不允許在公園、保護區和海灘露營或過夜停車，而把免費露營者引到靠近廁所和水的七處獲批營位。Whangārei 比全國大多數議會都寬鬆：它的<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>為認證車輛列出了 23 處營位，為沒有認證的車輛列出了 17 處，為帳篷列出了五個區域，大多限住一晚。",
+            "Cape Reinga 和 Tapotupotu 是 DOC 土地，<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>被禁止，所以 State Highway 1 的最北端，只能用 Tapotupotu 或 Spirits Bay 的 DOC 營地，或者度假營地。Whangārei 以南的 DOC Uretiti Beach Campsite 是全國最大的 DOC 營地，有 300 個營位。"
+          ],
+          "tips": [
+            "Far North：七處獲批營位",
+            "Whangārei：有供帳篷和無認證露營車的營位",
+            "Cape Reinga 不能自由露營"
+          ]
+        },
+        {
+          "heading": "Auckland 和 Coromandel",
+          "body": [
+            "Auckland 允許認證車輛在議會道路和停車場的同一地點住兩晚，離開那天早上 9 點前離開，但有 58 個區域禁止、20 個區域受限，議會保護區和區域公園不得<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>。帳篷或沒有認證的露營車需要用露營地，或者需要預訂並付費的區域公園營地。",
+            "Thames-Coromandel 在 84 個列出的區域禁止自由露營，另在 25 個區域加以限制，受限區域只有認證車輛可以使用，下午 5 點到早上 9 點，最多連續兩晚。半島上的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>，比如有 132 個營位的 Waikawau Bay，要透過 DOC 預訂，整個 1 月都會滿。"
+          ],
+          "tips": [
+            "Auckland：兩晚，早上 9 點前離開",
+            "Coromandel：84 個禁止區域",
+            "提前預訂 Coromandel 的 DOC 營位"
+          ]
+        },
+        {
+          "heading": "Waikato、Bay of Plenty 和 Rotorua",
+          "body": [
+            "Waikato District 在禁止區域之外對認證車輛給予一般許可，每個區域每月最多三晚，並允許沒有認證的車輛在 Onewhero Domain 和 Te Kauwhata Domain 住兩晚。Raglan 的 James Street 自 2025 年 12 月起禁止進入，Raglan 的其他規定也歸同一個議會。",
+            "Tauranga 只允許認證車輛，在它的<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>所列的保護區、道路和停車場，每個地點每個曆月最多兩晚。Whakatāne 在 Whakatāne 和 Ōhope 有四處供認證車輛使用的營位，而 Murupara 附近的 Aniwhenua Reserve 接受非自給自足的車輛。Rotorua 營運三處供認證車輛使用的免費營位和三處付費的湖畔保護區，其中兩處接受帳篷。"
+          ],
+          "tips": [
+            "Waikato：每個區域三晚",
+            "Tauranga：僅限認證車輛",
+            "Rotorua：兩處付費保護區可搭帳篷"
+          ]
+        },
+        {
+          "heading": "Taupō 和中央高原",
+          "body": [
+            "Taupō District 允許認證車輛在禁止區域之外的議會土地上露營，並為其他人指明了三個區域：Waikato 河邊的 Hipapatua Reid's Farm、Mangakino 和 Whakamaru。湖岸大部分是不允許露營的保護地，而 Five Mile Bay 自 2020 年起被 Ngāti Tūwharetoa 對露營者關閉。詳情見我們的 Taupō 指南。",
+            "Tongariro National Park 周邊的土地歸 DOC 所有，KiwiCamping 的資料裡有 Tongariro 地區的 22 則 DOC <a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，其中 17 則禁止露營，包括 Whakapapa Village。請使用 DOC 的 Mangahuia Campsite，或 Whakapapa Village、National Park 村或 Ohakune 的度假營地。"
+          ],
+          "tips": [
+            "Taupō：供無認證露營車的三處營位",
+            "湖岸大部分是保護地",
+            "Tongariro：使用 DOC 營地"
+          ]
+        },
+        {
+          "heading": "Taranaki、Hawke's Bay 和 East Coast",
+          "body": [
+            "New Plymouth 禁止在公共土地上搭帳篷，並允許認證車輛在全區自由露營，30 天內最多三晚。沒有認證的車輛有兩處議會營位，Lake Rotomanu 和 Waitara 的 Battiscombe Terrace，各有六個車位，30 天內限住一晚。",
+            "Hawke's Bay 和 Gisborne 的議會允許在特定的沿海地點<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>，有些需要在抵達前辦好許可，所以請閱讀議會關於 Napier、Hastings 或 Tairāwhiti 海灘的頁面。在 East Cape，像 Anaura Bay 這樣的 DOC 營地是可靠的落腳處，許多設施簡單、價格便宜。"
+          ],
+          "tips": [
+            "New Plymouth：公共土地上不能搭帳篷",
+            "East Coast 的一些地點需要許可",
+            "Anaura Bay 是海角上最大的 DOC 營地"
+          ]
+        },
+        {
+          "heading": "Wellington 和北島南部",
+          "body": [
+            "Wellington City 只允許認證車輛，它的免費營位是兩個停車場：有 52 個車位的 Evans Bay Marina 和有 16 個車位的 Te Kopahou Visitors Centre。每處每個曆月最多連續住四晚，受 Reserves Act 和 Town Belt Act 管轄的土地禁止露營。這讓搭乘清晨 <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait 渡輪</a>之前那一晚很容易安排。",
+            "Kāpiti、Horowhenua、Manawatū 和 Wairarapa 的議會各自訂有簡短的清單，所以在海邊過夜前請先問問議會。Tararua 山麓的 DOC Holdsworth Campsite 有 150 個營位，Remutaka Forest Park 的 Catchpool Valley 是離該市最近的 DOC 營地。"
+          ],
+          "tips": [
+            "Wellington：Evans Bay 和 Te Kopahou",
+            "Wellington 每月四晚",
+            "DOC 的夜晚去 Holdsworth 和 Catchpool"
+          ]
+        },
+        {
+          "heading": "罰款和最繁忙的幾週",
+          "body": [
+            "全國統一的費用到處適用：違反<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>露營，或在要求認證的地方使用沒有認證的車輛，罰 $400；認證卡沒有展示罰 $200；官員要求離開時拒絕罰 $600；留下廢棄物或破壞營地罰 $800。租車公司會把通知轉給租車人。",
+            "執法和需求在 Christmas 到 1 月底達到高峰，主要在 Coromandel、Northland 和 Taupō 周邊，那時許多議會營位天黑前就滿了。在那些夜晚，預訂好的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>或度假營地，勝過在一個個滿員的停車場之間轉來轉去。"
+          ],
+          "tips": [
+            "大多數違規罰 $400",
+            "租賃公司會轉罰單",
+            "從 Christmas 到 1 月要提前預訂"
+          ]
+        },
+        {
+          "heading": "沒有認證車輛時",
+          "body": [
+            "帳篷或轎車在北島依然可以便宜地過夜，主要是在 DOC 土地和付費營地。KiwiCamping 的 DOC 資料列出了全島各地區的 122 個 DOC 營地，從免費的基礎營位到帶淋浴的預訂營地都有，而 DOC 在保護地上的<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規定</a>並不總是要求認證。度假營地遍布每個城鎮。",
+            "Whangārei、Waikato District、Taupō、Whakatāne、Rotorua 和 New Plymouth 都為車上沒有廁所的人指明了議會營位，這讓島的北部和中部比 Auckland 和 Tauranga 周邊的海岸容易些。表中每一行都來自該議會自己的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>頁面或條例。"
+          ],
+          "tips": [
+            "全島 122 個 DOC 營地",
+            "六個議會指明了無認證的營位",
+            "每個城鎮都有度假營地"
+          ],
+          "table": {
+            "caption": "僅限議會土地，來自我們為議會指南於 2026 年 10 月查閱的各議會頁面或條例，以及 Taupō 的 Freedom Camping Bylaw 2023。DOC 土地遵循 DOC 的公告。",
+            "head": [
+              "議會",
+              "認證的自給自足車輛",
+              "沒有認證"
+            ],
+            "rows": [
+              [
+                "Far North",
+                "七處獲批營位",
+                "未說明；請查看議會清單"
+              ],
+              [
+                "Whangārei",
+                "列出的 23 處營位",
+                "17 處供車輛，五個帳篷區域"
+              ],
+              [
+                "Auckland",
+                "78 個列出區域之外的議會道路和停車場，兩晚",
+                "露營地"
+              ],
+              [
+                "Thames-Coromandel",
+                "25 個受限區域，兩晚，下午 5 點至早上 9 點",
+                "露營地"
+              ],
+              [
+                "Waikato District",
+                "禁止區域之外，每個區域三晚",
+                "Onewhero 和 Te Kauwhata Domain，兩晚"
+              ],
+              [
+                "Tauranga",
+                "列出的保護區和停車場，每月兩晚",
+                "露營地"
+              ],
+              [
+                "Whakatāne",
+                "四處營位，四週內三晚",
+                "Aniwhenua Reserve"
+              ],
+              [
+                "Rotorua",
+                "三處免費和三處付費營位",
+                "Lake Ōkaro 和 Guy Roe Reserve 可搭帳篷"
+              ],
+              [
+                "Taupō",
+                "禁止區域之外的議會土地",
+                "Reid's Farm、Mangakino 和 Whakamaru"
+              ],
+              [
+                "New Plymouth",
+                "全區，30 天內三晚",
+                "兩處營位，一晚；不可搭帳篷"
+              ],
+              [
+                "Wellington City",
+                "Evans Bay 和 Te Kopahou，每月四晚",
+                "露營地"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "用 KiwiCamping 規劃北島的夜晚",
+          "body": [
+            "KiwiCamping 把<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域、DOC 營地、山屋、度假營地和汙水排放站放在北島的同一張地圖上，它的篩選功能可以縮小到適合你車輛的範圍。議會營位會隨著每次條例修訂而變化，所以把地圖當作候選清單，把議會頁面和標誌當作答案。",
+            "把喜歡的地點存入<a data-guide=\"save-places-kiwicamping\">收藏</a>，然後規劃行程：為每個停靠點標上日期，寫下規則備註，並為 Christmas 前後的夜晚準備一個付費的備選。每一段都顯示距離和車程，每個地點都顯示天氣預報。免費下載，含 App 內購買。"
+          ],
+          "tips": [
+            "在地圖上列出候選",
+            "用議會頁面和標誌確認",
+            "為夏季夜晚準備備選"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在北島可以自由露營嗎？",
+          "可以，用認證的自給自足車輛，在議會條例或 DOC 公告允許的地方。限制很短：Auckland、Thames-Coromandel 和 Tauranga 兩晚，Waikato District 和 New Plymouth 三晚，Wellington 的兩處營位每月四晚。"
+        ],
+        [
+          "沒有自給自足車輛，在北島哪裡可以自由露營？",
+          "只能在專門為此留出的議會營位，比如 Whangārei 列出的營位、Waikato 的 Onewhero 和 Te Kauwhata Domain、Taupō 附近的 Reid's Farm 和 New Plymouth 的 Lake Rotomanu，或者在沒有公告要求認證的 DOC 土地上。其他情況請用 DOC 營地或度假營地。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Auckland Council：自由露營"
+        },
+        {
+          "label": "Thames-Coromandel District Council：自由露營"
+        },
+        {
+          "label": "Waikato District Council：自由露營"
+        },
+        {
+          "label": "Taupō District Council：自由露營"
+        },
+        {
+          "label": "Wellington City Council：自由露營"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-taupo": {
+      "title": "2026 年 Taupō 自由露營：Reid's Farm、湖邊和規定",
+      "description": "2026 年 Taupō 周邊的自由露營：按議會 2023 年條例誰可以住哪裡，Hipapatua Reid's Farm、Mangakino 和 Whakamaru，為什麼大部分湖岸關閉，Tūrangi 附近的 DOC 土地，以及罰款。",
+      "region": "Taupō",
+      "imageAlt": "從一處草地湖邊公園望見的 Taupō 湖，對岸是 Taupō 鎮",
+      "intro": "在 Taupō District，持認證的自給自足車輛可以在議會土地上自由露營，但議會《Freedom Camping Bylaw 2023》禁止的區域除外，這些禁區涵蓋了湖濱的大部分。其他所有人，包括帳篷和沒有廁所的露營車，只限於三個議會區域：鎮北 Waikato 河邊的 Hipapatua Reid's Farm、Mangakino 和 Whakamaru。停留時間短，通常是三晚，細節以每個營位的標誌為準。",
+      "sections": [
+        {
+          "heading": "2023 年條例簡介",
+          "body": [
+            "Taupō District Council 於 2023 年 9 月 26 日通過了《<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>條例 2023》，並於 2023 年 10 月 16 日生效，取代了 2017 年的條例。它的模式很簡單：認證的自給自足車輛可以在議會土地上除禁區之外的任何地方露營，所有其他自由露營都限定在附表裡列出的區域。",
+            "自 2026 年 6 月 7 日起，只有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>才能讓車輛算自給自足，所以持舊藍色證書的露營車現在和帳篷一樣歸入第二類。條例只管議會土地；湖床屬於 Ngāti Tūwharetoa，湖南面和東面的大部分土地歸 DOC。"
+          ],
+          "tips": [
+            "自 2023 年 10 月 16 日起生效",
+            "認證車輛：禁區之外的議會土地",
+            "其他所有人：三個指明的區域"
+          ]
+        },
+        {
+          "heading": "Hipapatua Reid's Farm",
+          "body": [
+            "Reid's Farm 是大多數旅客都知道的 Taupō <a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>地點：位於鎮北幾分鐘車程、Huka Falls Road 上的河邊休閒保護區，有廁所、野餐桌，還能去 Waikato 河游泳。因為有廁所，它是沒有認證的車輛可以住的三個區域之一，而且免費。",
+            "這裡沒有電，也沒有飲用水，所以抵達時要帶滿水箱或水瓶，並把所有垃圾帶走。這個營位從 12 月到 3 月很擁擠，過去曾關閉過一段時間，停留期限也很短，所以在圍繞它安排一晚之前，先查看議會的頁面，並把鎮上的<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>作為備選。"
+          ],
+          "tips": [
+            "免費，有廁所",
+            "沒有飲用水",
+            "整個夏天都很擁擠"
+          ]
+        },
+        {
+          "heading": "Mangakino 和 Whakamaru",
+          "body": [
+            "供帳篷和沒有認證的車輛使用的另外兩個區域，位於 Taupō 以西 Waikato 河的水電湖畔。Mangakino Recreation Reserve 在 Lake Maraetai 岸邊，Whakamaru Recreation Reserve 在 Lake Whakamaru，兩者離 Taupō 都不到一小時車程。",
+            "它們更適合沿 State Highway 30 在 Taupō 與 Waitomo 或 Hamilton 之間慢慢走的路線，而不是作為遊覽湖區本身的基地。兩處都是湖邊保護區，附近有公共廁所，夏天除了露營車，還吸引滑水者和划船露營者。"
+          ],
+          "tips": [
+            "Mangakino 的 Lake Maraetai",
+            "SH30 上的 Lake Whakamaru",
+            "前往 Waitomo 途中的好落腳點"
+          ]
+        },
+        {
+          "heading": "為什麼湖濱大多關閉",
+          "body": [
+            "Taupō 周邊的湖岸和 Waikato 河岸大部分是公共保護區，除非規劃允許，《Reserves Act》已經禁止在其上<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>。這涵蓋了鎮上過去露營車常停的那一長段湖濱公園，所以沿 Lake Terrace 停滿露營者是不合法的。",
+            "鎮南的 Five Mile Bay 曾是湖上最繁忙的自由露營區，每晚多達 100 輛車。它的大部分在 2018 年的條約和解中歸還給了 Ngāti Tūwharetoa，該 iwi 於 2020 年 6 月以 rāhui 禁止車輛和露營。健行者和騎行者仍可使用湖岸。"
+          ],
+          "tips": [
+            "保護區禁止露營",
+            "沿 Lake Terrace 不能露營",
+            "Five Mile Bay 自 2020 年起關閉"
+          ]
+        },
+        {
+          "heading": "Tūrangi 和 Tongariro 周邊的 DOC 土地",
+          "body": [
+            "在湖南面，Tongariro 河、Kaimanawa Forest Park 和 Tongariro National Park 都是保護地。KiwiCamping 的 DOC 資料中，Tūrangi 地區有 28 則 DOC <a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，其中 21 則禁止露營，7 則限定為自給自足車輛，包括湖西北岸較大的 Whakaipo amenity area。",
+            "對於帳篷或沒有認證的露營車，可靠的選擇是 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>。北島中部在 KiwiCamping 資料裡有 14 處，其中九處免費，許多在 Kaimanawa Forest Park，收費的話成人 $10 起。再往外的火山高原，請看我們的北島指南。"
+          ],
+          "tips": [
+            "Tūrangi 附近有 28 則 DOC 公告",
+            "Whakaipo：僅限自給自足車輛",
+            "該地區有九處免費 DOC 營地"
+          ]
+        },
+        {
+          "heading": "汙水、水和火",
+          "body": [
+            "認證車輛應帶著空水箱抵達，也以同樣的狀態離開：鎮上有公共<a data-guide=\"camping-wastewater-rubbish-new-zealand\">汙水排放站</a>，KiwiCamping 會把它們標在地圖上，讓你在安頓下來之前找到最近的一個。絕不要在保護區把灰水倒在地上，那是 $800 的違規，也是營位被關閉最快的原因。",
+            "Taupō 地區夏天乾燥，火禁很常見。在車外點燃瓦斯爐之前，先查看該地區的火險季，並且不要在議會或 DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域點營火。"
+          ],
+          "tips": [
+            "帶著空水箱抵達",
+            "把灰水倒在地上罰 $800",
+            "夏天查看火險季"
+          ]
+        },
+        {
+          "heading": "罰款",
+          "body": [
+            "議會採用全國統一的費用。在條例禁止的地方露營，或開著沒有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>的露營車住進供認證車輛使用的營位，罰 $400；認證卡沒有展示罰 $200；官員要求離開時拒絕罰 $600；留下廢棄物或破壞該區域罰 $800。",
+            "租賃車輛的通知會寄給租車公司，再由公司轉給租車人。整個夏天，鎮上和 Reid's Farm 都會有巡查。"
+          ],
+          "tips": [
+            "大多數違規罰 $400",
+            "廢棄物或破壞罰 $800",
+            "租賃公司會轉罰單"
+          ]
+        },
+        {
+          "heading": "在 Taupō 周邊使用 KiwiCamping",
+          "body": [
+            "KiwiCamping 把湖周邊的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域、DOC 營地、度假營地和汙水排放站標在地圖上，它的篩選功能只顯示接受你的車輛或帳篷的地點。議會區域可能臨時關閉，所以把地圖當作計畫，把標誌當作規則。",
+            "把 Reid's Farm 和一處<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>並排存入收藏，然後把這一站編入行程，附上日期、從 Rotorua 或 Tongariro 過來的車程以及每晚的天氣預報。免費下載，含 App 內購買。"
+          ],
+          "tips": [
+            "篩選適合帳篷或無認證露營車的地點",
+            "把度假營地存為備選",
+            "抵達時查看標誌"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在 Taupō 可以自由露營嗎？",
+          "可以，用認證的自給自足車輛，在 2023 年條例禁止的區域（包括大部分湖濱保護區）之外的議會土地上。沒有認證，或者是帳篷的話，只有 Hipapatua Reid's Farm、Mangakino 和 Whakamaru 對你開放。"
+        ],
+        [
+          "Reid's Farm 免費嗎？",
+          "免費。Huka Falls Road 上的 Hipapatua Reid's Farm 是一處免費的議會區域，有廁所但沒有飲用水，停留時間短。整個夏天都很擁擠，所以要把鎮上的付費營地作為備選。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Taupō District Council：自由露營"
+        },
+        {
+          "label": "Taupō District Council：Freedom Camping Bylaw 2023"
+        },
+        {
+          "label": "Rotorua Daily Post：Five Mile Bay 對自由露營者關閉（2020 年 6 月）"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-west-coast": {
+      "title": "2026 年 West Coast 自由露營：從 Karamea 到 Haast，逐鎮介紹",
+      "description": "2026 年在 South Island 的 West Coast 哪裡可以自由露營：Buller、Grey 和 Westland 的規定，Punakaiki 和冰川小鎮，社區營位，DOC 營地，排汙站和罰款。",
+      "region": "West Coast",
+      "imageAlt": "晴空下 Hokitika 海灘上的浮木和灰色石頭，背後是 Tasman Sea",
+      "intro": "West Coast 是 South Island 上用認證的自給自足車輛自由露營比較容易的地方之一，但它的三個議會各有各的做法。Buller 和 Grey 允許認證車輛停在禁止地點清單之外的大多數議會土地上，Westland 則把它們指向三個社區營運的營位。Punakaiki、Fox Glacier 以及往南到 Haast 的路段是緊張的地方，帳篷或沒有廁所的廂型車需要 DOC 營地或度假營地。",
+      "sections": [
+        {
+          "heading": "一條公路上的三個議會",
+          "body": [
+            "海岸公路從北邊的 Karamea 到南邊的 Haast，長達 500 多公里，穿過 Buller、Grey 和 Westland 三個地區。每個議會都有自己的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>條例，而它們之間的分界很容易在不知不覺中越過，所以午餐時適用的規定，到晚餐時可能就不適用了。",
+            "有兩條全國性規定處處適用。自 2026 年 6 月 7 日起，只有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>才算自給自足，而在議會土地上，沒有認證的車輛只能停在條例為它指明的營位。海岸沿線目前沒有議會指明這樣的營位，所以帳篷和未認證的廂型車的答案是 DOC 或營地。"
+          ],
+          "tips": [
+            "三個議會，三個條例",
+            "僅限綠色認證",
+            "沒有給未認證廂型車的議會營位"
+          ]
+        },
+        {
+          "heading": "Buller：Karamea、Westport 和 Charleston",
+          "body": [
+            "Buller 的條例允許<a data-guide=\"self-contained-campervan-green-warrant\">認證的自給自足</a>車輛在禁止露營區域之外的議會土地上任何地方露營。條例允許在同一地點連續最多三天、每月十天，而議會自己的頁面要求在同一地點不超過兩晚。這些區域包括 Karamea 的 Oparara River 河口和 Flagstaff，Westport 的 Buller River tipheads 和 Carters Beach Domain，Tauranga Bay，Charleston 的 Constant Bay 和 Joyce Bay，以及 Reefton 主街的部分路段。",
+            "這份<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>始於 2012 年，議會已表示將在 2026 年就新條例徵求意見，所以依賴舊清單之前請先讀它的頁面。DOC 的 Buller 地區另有七則自己的公告，其中兩則把露營限制在自給自足車輛。"
+          ],
+          "tips": [
+            "認證車輛：區域之外的議會土地",
+            "同一地點兩晚，議會的要求",
+            "新條例即將出台"
+          ]
+        },
+        {
+          "heading": "Punakaiki 和 Paparoa 海岸",
+          "body": [
+            "Buller 禁止在從 Fox River 往南到 Punakaiki River 的議會土地上<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>，公路走廊除外，那一帶海岸的其餘部分是 Paparoa National Park。實際上，這意味著在 Pancake Rocks 沒有免費的一晚：要住在 Punakaiki 的營地，或者把這一晚安排在 Charleston 或 Greymouth 以北。",
+            "Paparoa Track 在這附近起止，它的三座山屋屬於 DOC，要透過 DOC 而不是議會預訂。"
+          ],
+          "tips": [
+            "Punakaiki 不能自由露營",
+            "預訂那裡的營地",
+            "Paparoa Track 的山屋要預訂"
+          ]
+        },
+        {
+          "heading": "Grey：Greymouth 和 Lake Brunner",
+          "body": [
+            "Grey District 允許認證車輛在禁止區域之外的議會土地上露營，禁止區域包括 Jacks Road 的部分路段、Cobden Bridge 營位、Iveagh Bay、Lake Brunner 的 Moana 湖濱和 Blaketown tiphead，其中一些在地圖上標為認證車輛可以使用的區域。議會在 2026 年 9 月 28 日批准了一份更新的<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>，允許任意四週內住三晚，並把過夜時段定為晚上 7 點到上午 8 點。",
+            "議會仍在考慮是否向沒有認證的車輛開放某些區域。在那之前，帳篷的選擇是 Greymouth 的度假營地和沿海岸的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>。"
+          ],
+          "tips": [
+            "四週內三晚",
+            "過夜時段晚上 7 點到上午 8 點",
+            "Moana 湖濱在地圖上標出"
+          ]
+        },
+        {
+          "heading": "Westland：從 Hokitika 到 Haast",
+          "body": [
+            "Westland District 把認證車輛指向三個社區營運的營位：Kumara Domain、Rimu 的 Woodstock Domain 和 Paringa Salmon Farm，並請求捐款。議會保護區依據《Reserves Act》關閉，議會告訴帳篷露營者和未認證的車輛要使用商業營地。",
+            "2024 年的一份<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>草案提議增加更多營位，包括 Hokitika 的 Sunset Point、Franz Josef 的直升機場停車場和 Haast 的遊樂場，但它的通過尚未得到確認。在議會確認之前，當晚的標誌才是準。"
+          ],
+          "tips": [
+            "Kumara、Rimu 和 Paringa 的營位",
+            "請求捐款",
+            "條例草案未確認"
+          ]
+        },
+        {
+          "heading": "Franz Josef、Fox Glacier 和最南端",
+          "body": [
+            "冰川地區是免費過夜最難的地方。Westland 的草案把 Fox Glacier township 列為禁止區域，且沒有自己的營位，DOC 的 South Westland 地區有 18 則<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，其中 17 則禁止在 Roaring Billy 這類步道停車場露營。一月份，Franz Josef 和 Fox 的度假營地很早就滿了。",
+            "Fox 附近 DOC 的 Gillespies Beach Campsite 和更往南的 Lake Paringa 是最近的 DOC 住處，Haast 有一個<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>和一個議會排汙站。過了 Haast，公路爬進 Mount Aspiring National Park 通向 Wānaka，從那裡開始由 Wānaka 指南接手。"
+          ],
+          "tips": [
+            "Fox Glacier：沒有免費營位",
+            "Gillespies Beach 是 DOC 的",
+            "夏天冰川的夜晚要預訂"
+          ]
+        },
+        {
+          "heading": "海岸的 DOC 營地",
+          "body": [
+            "KiwiCamping 的 DOC 資料列出了 West Coast 地區的 14 個 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>，其中 12 個可線上預訂，成人價格每晚 $10 到 $20。Hokitika 附近的 Lake Māhinapua 最大，有 100 個營位，Lewis Pass reserve 有兩個。",
+            "這些是帳篷和未認證廂型車的可靠住處。它們有廁所，大多數接受車輛，而且比<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>便宜。帶上驅蟲劑：海岸的沙蠅很出名，湖泊和河流是它們最兇的地方。"
+          ],
+          "tips": [
+            "14 個 DOC 營地",
+            "Lake Māhinapua 有 100 個營位",
+            "每個湖邊都有沙蠅"
+          ]
+        },
+        {
+          "heading": "排汙站、雨和罰款",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">排汙站</a>分布稀疏。Westland 把它們列在 Hokitika 的氧化塘、Franz Josef 和 Haast 的 Marks Road 廁所旁，Westport 和 Greymouth 也有自己的，所以在每個鎮上排空水箱，不要賭下一個鎮。海岸一年四季都有大雨，河邊平地和海灘停車場可能被淹，所以選河邊位置之前先看天氣預報。",
+            "罰款是全國統一的：違反<a data-guide=\"camping-rules-local-councils-new-zealand\">條例</a>露營，或在需要認證的地方用未認證的車輛露營，罰 $400，沒有認證卡罰 $200，廢棄物或破壞罰 $800。Buller 的頁面仍提到 $200 的罰款，但按現行法律適用的是全國統一的 $400。"
+          ],
+          "tips": [
+            "每個鎮都排空水箱",
+            "留意洪水",
+            "大多數違規罰 $400"
+          ]
+        },
+        {
+          "heading": "用 KiwiCamping 規劃 West Coast",
+          "body": [
+            "KiwiCamping 在地圖上標出從 Karamea 到 Haast 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域、DOC 營地、度假營地和排汙站，所以出發前很容易看出它們之間的長段空白。按你的車輛需要篩選，並查看各議會的頁面取得最新清單。",
+            "把海岸排成一次行程：每晚一個帶日期的停靠點，為 Punakaiki 和冰川小鎮存一個<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>作為備選，以及每一段的距離和天氣預報。免費下載，含 App 內購買。"
+          ],
+          "tips": [
+            "開車前先看清空白",
+            "Punakaiki 和 Fox 的備選",
+            "每晚的天氣預報"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在 South Island 的 West Coast 可以自由露營嗎？",
+          "可以，用認證的自給自足車輛。Buller 和 Grey 允許在清單所列禁止區域之外的大多數議會土地上，Westland 則只在 Kumara、Rimu 和 Paringa 三個社區營運的營位。帳篷和沒有綠色認證的廂型車需要 DOC 營地或營地。"
+        ],
+        [
+          "在 Punakaiki 或 Fox Glacier 可以自由露營嗎？",
+          "議會土地上不行。Buller 禁止從 Fox River 到 Punakaiki River，Fox Glacier township 在 Westland 的禁止清單上，所以請預訂 Punakaiki 的營地，或冰川附近的度假營地或 DOC 營地。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Buller District Council：自由露營"
+        },
+        {
+          "label": "Buller District Council：Freedom Camping Bylaw 2012（2018 年修訂）"
+        },
+        {
+          "label": "Grey District Council：自由露營常見問題"
+        },
+        {
+          "label": "Grey District Council：Responsible Freedom Camping Bylaw 徵求意見"
+        },
+        {
+          "label": "Westland District Council：營地和負責任露營"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-wanaka": {
+      "title": "2026 年 Wānaka 自由露營：停車場、Hāwea 和 Luggate",
+      "description": "2026 年在 Wānaka 周圍哪裡可以自由露營：Recreation Centre、Beacon Point Road 和 Hāwea 的議會指定停車場，Luggate Red Bridge，Allenby Place 關閉，12 月的條例決定，DOC 營地和罰款。",
+      "region": "Wānaka",
+      "imageAlt": "Lake Wānaka 的北臂，在乾燥的山丘和遠山之間呈現深藍色",
+      "intro": "在 Wānaka 周圍，議會土地上的自由露營只允許使用認證的自給自足車輛，並且只能在指定停車場：Wānaka Recreation Centre、Lake Hāwea 的 Beacon Point Road 和 Camp Hill Road，以及按標誌規定的 Luggate Red Bridge Reserve。你要在下午 6 點後抵達，上午 8 點前離開，任何 30 天內最多住兩晚。鎮上其他地方，包括湖濱，一律禁止，而議會將在 2026 年 12 月 17 日對這些營位的變更作出決定。",
+      "sections": [
+        {
+          "heading": "規則一段話",
+          "body": [
+            "Wānaka 位於 Queenstown Lakes District，所以適用議會的 2025 年<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>條例。這是在高等法院撤銷 2021 年條例之後，於 2025 年 12 月 1 日生效的版本。它禁止在市區自由露營，包括路邊停車，讓大多數議會保護區依據《Reserves Act》繼續關閉，並把指定停車場裡標出的車位開放給認證的自給自足車輛。",
+            "自 2026 年 6 月 7 日起只有<a data-guide=\"self-contained-campervan-green-warrant\">綠色認證</a>算數，所以沒有認證的廂型車、轎車或帳篷完全不能使用這些停車場。車位免費，不能預訂，先到先得。我們的 Queenstown Lakes 指南涵蓋該地區其餘部分，從 Kingston 到 Glenorchy。"
+          ],
+          "tips": [
+            "僅限認證車輛",
+            "下午 6 點後抵達，上午 8 點前離開",
+            "任何 30 天內兩晚"
+          ]
+        },
+        {
+          "heading": "指定停車場",
+          "body": [
+            "Wānaka Recreation Centre 停車場是主要營位，議會清單中有 18 個標出的車位，Allenby Place 關閉時增加了三個臨時車位，還有把它增加到 21 個的提案。Beacon Point Road 有三個車位，Lake Hāwea 的 Camp Hill Road 有十個。這些數字是議會的，而這些營位從聖誕節到 2 月底很早就滿了。",
+            "Allenby Place 曾是鎮上三個車位的營位，自 2026 年 1 月 23 日起已關閉<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>。議會稱，額外的車流帶來了出入和安全問題，並把它的車位移到了 Recreation Centre。"
+          ],
+          "tips": [
+            "Recreation Centre：18 個車位",
+            "Beacon Point Road：3",
+            "Camp Hill Road，Hāwea：10"
+          ],
+          "table": {
+            "caption": "Queenstown Lakes District Council 在 Wānaka 周圍指定的停車場，來自它 2025 年 11 月和 2026 年 1 月的發布。僅限認證的自給自足車輛。",
+            "head": [
+              "停車場",
+              "地點",
+              "車位"
+            ],
+            "rows": [
+              [
+                "Wānaka Recreation Centre",
+                "Wānaka",
+                "18（提議 21）"
+              ],
+              [
+                "Beacon Point Road",
+                "Wānaka",
+                "3"
+              ],
+              [
+                "Camp Hill Road",
+                "Lake Hāwea",
+                "10"
+              ],
+              [
+                "Allenby Place",
+                "Wānaka",
+                "自 2026 年 1 月 23 日起關閉"
+              ],
+              [
+                "Luggate Red Bridge Reserve",
+                "Luggate",
+                "按保護區的標誌允許"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Luggate Red Bridge",
+          "body": [
+            "Luggate Red Bridge Reserve 在 Clutha River 邊，位於 Wānaka 以東約 15 分鐘車程，是議會允許露營的唯一一處保護區，須遵守標誌上的條件。前往 Cromwell 或 Lindis Pass 的旅行者很喜歡它，炎熱的下午，它的河邊是游泳的好地方。",
+            "抵達時請讀一下公告板，因為那裡設定的條件正是執法人員執行的，而議會的發布把違反這些條件列在罰款表的最高檔。"
+          ],
+          "tips": [
+            "唯一開放露營的保護區",
+            "抵達時讀公告板",
+            "靠近 SH6 和 SH8A"
+          ]
+        },
+        {
+          "heading": "2026 年 12 月的決定",
+          "body": [
+            "議會就涉及 Wānaka 三個營位的修訂徵求意見，直到 2026 年 8 月 31 日，這三個營位是 Allenby Place、Beacon Point Road 和 Recreation Centre。聽證會在 10 月下旬舉行，審議和通過定在 2026 年 12 月 17 日，所以地圖可能恰好在夏季高峰開始時改變。",
+            "在那之前，2025 年的清單依然有效。在聖誕節和新年期間指望 Wānaka 的車位之前，請查看議會的<a data-guide=\"responsible-camping-new-zealand\">負責任露營</a>頁面和它的 Responsible Camping Map。"
+          ],
+          "tips": [
+            "決定定於 2026 年 12 月 17 日",
+            "在那之前 2025 年的清單有效",
+            "查看議會的地圖"
+          ]
+        },
+        {
+          "heading": "帳篷和未認證的廂型車可以去哪裡",
+          "body": [
+            "在 Wānaka 周圍，帳篷或未認證的廂型車需要營地。鎮上、Albert Town、Glendhu Bay 和 Lake Hāwea 都有營地和<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>，12 月到 3 月它們是可靠的住處。",
+            "DOC 在更遠的地方營運著營地，比如 Lake Hāwea 的 Kidds Bush，以及 Makarora 以外沿 Haast Pass 公路的營地，那裡是前往 West Coast 的路途起點。KiwiCamping 的資料列出了 Otago 全境的 30 個 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>，其中八個免費，收費的話成人價格從 $5 起。我們的 Wānaka 到 Haast Pass 路線指南把它們串了起來。"
+          ],
+          "tips": [
+            "鎮上和 Hāwea 的度假營地",
+            "通往 Makarora 方向的 DOC 營地",
+            "Otago 有八個免費的 DOC 營位"
+          ]
+        },
+        {
+          "heading": "DOC 土地、湖泊和山谷",
+          "body": [
+            "湖泊周圍以及沿 Matukituki valley 通向 Mount Aspiring 的大片土地是保護地，那裡由 DOC 的公告而不是議會條例來設定規則。KiwiCamping 的資料在 Wakatipu 地區有 29 則、Central Otago 有 13 則 DOC <a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告，其中大多數禁止在停車場和步道入口露營。",
+            "在 DOC 土地上，現場的公告會禁止或限制露營，沒有公告時適用 DOC 的一般規則。Wānaka 附近的湖岸和河邊平地往往是保護區、私人土地或有公告的 DOC 土地，所以一塊安靜的碎石避車處，很少是它看上去那樣可以免費使用的地方。"
+          ],
+          "tips": [
+            "Wakatipu 有 29 則 DOC 公告",
+            "Central Otago 有 13 則",
+            "湖邊避車處很少合法"
+          ]
+        },
+        {
+          "heading": "罰款和巡查",
+          "body": [
+            "違反條例或《<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>法》，議會的起步罰款是 $400，與全國標準一致，該標準還規定沒有認證卡罰 $200，廢棄物或破壞罰 $800。它的發布把在議會保護區露營，或違反 Luggate Red Bridge 的條件，定為 $800。",
+            "議會人員整個夏天都會在 Wānaka 的營位巡查。遇到緊急的自由露營問題，議會的 Wānaka 專線 03 443 0024 全天候接聽，其餘的由 Snap Send Solve 或 services@qldc.govt.nz 受理。"
+          ],
+          "tips": [
+            "起步 $400",
+            "議會保護區 $800",
+            "議會專線：03 443 0024"
+          ]
+        },
+        {
+          "heading": "在 Wānaka 周圍使用 KiwiCamping",
+          "body": [
+            "KiwiCamping 在地圖上標出 Wānaka 和 Hāwea 周圍的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>區域、DOC 營地、度假營地和排汙站，它的篩選器把清單縮小到你的車輛可以使用的那些。停車場很小，條例又在檢討，所以每個晚上都要配一個備選。",
+            "把 Recreation Centre、一個<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>和一個 DOC 營位存進同一個收藏，然後把 Wānaka 加入行程，附上日期、翻越 Crown Range 或 Haast Pass 的行車路線，以及每晚的天氣預報。免費下載，含 App 內購買。"
+          ],
+          "tips": [
+            "每個晚上配一個備選",
+            "按車輛篩選",
+            "山口的天氣預報"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "在 Wānaka 可以自由露營嗎？",
+          "只能使用認證的自給自足車輛，並且只能在議會的指定停車場：Wānaka Recreation Centre、Lake Hāwea 的 Beacon Point Road 和 Camp Hill Road，或按標誌規定的 Luggate Red Bridge Reserve。下午 6 點後抵達，上午 8 點前離開，任何 30 天內最多住兩晚。"
+        ],
+        [
+          "在 Wānaka 的 Allenby Place 還能自由露營嗎？",
+          "不能。議會已於 2026 年 1 月 23 日關閉 Allenby Place 的自由露營，並改在 Wānaka Recreation Centre 增加了臨時車位。它對 Wānaka 營位進一步變更的決定定於 2026 年 12 月 17 日。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queenstown Lakes District Council：負責任露營"
+        },
+        {
+          "label": "Queenstown Lakes District Council：條例"
+        },
+        {
+          "label": "Queenstown Lakes District Council 新聞稿，2025 年 11 月 28 日（Scoop 轉載）"
+        },
+        {
+          "label": "Queenstown Lakes District Council 新聞稿，2026 年 1 月 16 日：Allenby Place（Scoop 轉載）"
+        },
+        {
+          "label": "Queenstown Lakes District Council：Freedom Camping Bylaw 2025 的擬議修訂"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
         }
       ],
       "priceTable": null

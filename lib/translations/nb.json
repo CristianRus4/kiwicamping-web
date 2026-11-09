@@ -9045,6 +9045,170 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "Fungerer ikke WikiCamps på New Zealand? Prøv KiwiCamping, campingappen uten pålogging (2026)",
+      "description": "Ber WikiCamps New Zealand deg logge inn, tvinger det fram en oppdatering eller trøbler det siden den nye versjonen? Hvorfor reisende bytter til KiwiCamping, og hvordan du flytter turen din.",
+      "region": "New Zealand",
+      "imageAlt": "Utleiebobiler parkert på en våt parkeringsplass langs veien under skogkledde åser",
+      "intro": "Hvis WikiCamps New Zealand stadig ber deg logge inn, blokkerer deg med en oppdateringsskjerm eller ikke har føltes riktig siden den ombygde appen kom, trenger du ikke bruke en dag på Sørøya på å fikse det. KiwiCamping er en campingapp for New Zealand for iPhone som åpner rett på kartet: ingen konto å opprette, DOC-campingplasser, -hytter og -ruter fra Department of Conservations egne data og en turplanlegger bygget rundt veien du faktisk skal kjøre. Vi lager KiwiCamping, så denne guiden er vår egen. Den handler om hvorfor reisende bytter, hva KiwiCamping gjør for dem, hvordan du flytter en tur på få minutter og hvor WikiCamps fortsatt passer bedre.",
+      "sections": [
+        {
+          "heading": "Hvorfor reisende forlater WikiCamps",
+          "body": [
+            "Påtvungne oppdateringer. Siden mars 2026 nekter en versjon av WikiCamps som har havnet for langt bak å åpne før du oppdaterer den, og på West Coast eller i Fiordland kan den skjermen dukke opp milevis fra all dekning.",
+            "Kontopålogging. Den ombygde appen krever en WikiCamps-konto, og mange reisende opplever å logge inn om og om igjen eller vente på en bekreftelses-e-post på en campingplass <a data-guide=\"kiwicamping-offline-data-guide\">uten dekning</a>.",
+            "Problemer etter oppdateringer. Turer og favoritter som ser ut til å forsvinne, funksjoner som har flyttet seg eller forsvunnet med den gamle versjonen, og et kart som oppfører seg annerledes enn det folk hadde lært.",
+            "Ingen pc-versjon. Windows-appen ble lagt ned, noe som gikk ut over dem som planla turen sin på en bærbar før de fløy inn."
+          ],
+          "tips": [
+            "Oppdateringsskjermer langt fra dekning",
+            "Påloggingsløkker og bekreftelses-e-poster",
+            "Gamle funksjoner borte med den gamle appen"
+          ]
+        },
+        {
+          "heading": "Hva KiwiCamping gjør annerledes",
+          "body": [
+            "KiwiCamping åpner rett på kartet. Det er ingen konto, ingen påloggingsskjerm og ingen bekreftelseskode: med iCloud slått på synkroniseres de lagrede stedene, <a data-guide=\"save-places-kiwicamping\">samlingene</a> og turene dine privat via Apple-kontoen som allerede er på telefonen.",
+            "De 287 DOC-campingplassene, 927 DOC-hyttene og 1,453 DOC-rutene kommer fra Department of Conservations egne data, med DOCs avgifter, hunderegler og bookingkrav og en lenke til DOCs side, ved siden av feriparker, områder for <a data-guide=\"freedom-camping-new-zealand-guide\">fri camping</a>, offentlige tømmestasjoner og steder for dagsbesøk på begge øyene: mer enn 6,500 steder til sammen. Stedskatalogen er bygget inn i appen, så navn, priser, fasiliteter og vilkår kan leses uten signal. Vær, veibeskrivelse, Look Around og bilder krever tilkobling.",
+            "Hvert sted åpnes med detaljene som avgjør: bilder, en beskrivelse, priser, vilkår, fasiliteter gruppert etter type, gjeldende varsler, kontakt- og bookingopplysninger, været og Apples <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a>, slik at du kan se innkjørselen fra veien før du kjører varebilen inn på avkjørselen."
+          ],
+          "tips": [
+            "Ingen konto, ingen påloggingsskjerm",
+            "DOC-campingplasser, -hytter og -ruter fra DOCs data",
+            "Stedsdetaljer kan leses uten signal"
+          ]
+        },
+        {
+          "heading": "En turplanlegger bygget for veien",
+          "body": [
+            "Turplanleggeren er hjertet i appen. Legg til lagrede steder som stopp og dra dem i den rekkefølgen du skal kjøre. Hver etappe viser avstanden sin, veibeskrivelsen åpnes til neste stopp, og hvert stopp har sin egen dato, ankomstnotater og vær. Kryss av stopp som besøkt underveis, hold alternativer i nærheten klare for dagene som endrer seg, og ha <a data-guide=\"new-zealand-camping-packing-list\">pakkelisten</a> ved siden av reiseruten. Detaljene i reiseruten kan synkroniseres med Kalender.",
+            "Lagrede steder holder orden på seg selv. Likt, Med stjerne, Vil besøke og Besøkt fylles opp etter hvert som du markerer steder, og du kan lage egne navngitte samlinger for en øy, en sesong eller en kortliste. <a data-guide=\"kiwicamping-filters-guide\">Filtre</a> svarer på et ekte spørsmål, for eksempel områder for gratis camping med toaletter og drikkevann nær Queenstown, og kan avgrense etter stedstype, pris, vurdering, nettbooking, region, hunder og detaljerte fasilitets- og tilgangstrekk."
+          ],
+          "tips": [
+            "Ordnede stopp med avstand per etappe",
+            "Dato, notater og vær på hvert stopp",
+            "Samlinger som fyller seg selv"
+          ]
+        },
+        {
+          "heading": "Slik bytter du og flytter turen din",
+          "body": [
+            "Det finnes ingen import fra WikiCamps, så du bygger turen på nytt, og for de fleste turer tar det noen minutter. Åpne WikiCamps-turen din mens den fortsatt laster, eller skriv ned stoppene, og følg trinnene nedenfor.",
+            "Begynn med de bookede nettene, som DOC-campingplasser om sommeren eller en ferjeoverfart, og fyll hullene senere. Hvis et sted du brukte i WikiCamps ikke finnes i KiwiCamping, søk i området etter en campingplass eller et område for <a data-guide=\"freedom-camping-new-zealand-guide\">fri camping</a> i nærheten; filtre for pris, fasiliteter og hunder gjør det raskt."
+          ],
+          "tips": [
+            "Bygg på nytt, ikke importer",
+            "Bookede netter først",
+            "Fyll hullene med filtre"
+          ],
+          "table": {
+            "caption": "Flytte en tur fra WikiCamps til KiwiCamping.",
+            "head": [
+              "Trinn",
+              "Hva du gjør"
+            ],
+            "rows": [
+              [
+                "1. Last ned",
+                "Hent KiwiCamping i App Store; den åpner uten konto"
+              ],
+              [
+                "2. Finn hvert stopp",
+                "Søk på stedsnavn, eller flytt kartet og søk i det synlige området"
+              ],
+              [
+                "3. Lagre det",
+                "Gi hvert stopp en stjerne, eller legg det til i en samling for turen"
+              ],
+              [
+                "4. Bygg turen",
+                "Opprett en tur, legg til de lagrede stedene og dra dem i rekkefølge"
+              ],
+              [
+                "5. Legg til detaljene",
+                "Sett en dato og ankomstnotater på hvert stopp og sjekk været"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping og WikiCamps sammenlignet",
+          "body": [
+            "Begge appene hjelper deg å finne et sted å sove rundt på New Zealand, men de er bygget forskjellig. WikiCamps vokste på steder brukerne legger til og kjører på Android i tillegg til iPhone. KiwiCamping tar utgangspunkt i DOC og andre offisielle kilder og er bygget rundt å planlegge turen.",
+            "Vær tydelig på hva du gir opp. KiwiCamping kjører bare på iPhone (iOS 26 eller nyere), har færre steder enn WikiCamps og ingen anmeldelser fra reisende, så noen beholder begge. Hvis du bruker Android, sammenligner guiden vår om <a data-guide=\"wikicamps-alternatives\">alternativer til WikiCamps</a> andre muligheter."
+          ],
+          "tips": [
+            "Offisielle data mot brukeroppføringer",
+            "Ingen konto mot en påkrevd konto",
+            "Bare iPhone, ingen anmeldelser fra reisende"
+          ],
+          "table": {
+            "caption": "Hvordan de to appene skiller seg, ut fra hver apps egne funksjoner i november 2026.",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "Konto",
+                "Ingen; synkroniserer via iCloud",
+                "WikiCamps-konto påkrevd"
+              ],
+              [
+                "Hvor stedene kommer fra",
+                "DOC og andre offisielle kilder",
+                "Mest lagt til av brukere"
+              ],
+              [
+                "Turplanlegging",
+                "Ordnede stopp, datoer, notater, vær og avstand per etappe",
+                "Turer med stopp"
+              ],
+              [
+                "Anmeldelser fra reisende",
+                "Nei",
+                "Ja"
+              ],
+              [
+                "Enheter",
+                "iPhone",
+                "iPhone, iPad og Android"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hent KiwiCamping",
+          "body": [
+            "Hvis WikiCamps har sluttet å fungere for deg, er KiwiCamping en gratis nedlasting fra App Store. Åpne den, søk etter neste stopp og lagre det, så planlegger du igjen på få minutter.",
+            "Reglene på stedet kommer fortsatt først. Følg skiltet ved plassen, <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunens forskrift</a>, DOC og eventuelle gjeldende råd om stengninger, uansett hva en app sier."
+          ],
+          "tips": [
+            "Gratis nedlasting, ingen konto",
+            "Søk, lagre, planlegg",
+            "Skilt, kommuner og DOC kommer først"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps fungerer ikke. Hva kan jeg bruke i stedet?",
+          "KiwiCamping er en iPhone-campingapp for New Zealand med DOC-campingplasser, -hytter og -ruter fra Department of Conservations egne data og mer enn 6,500 steder til sammen. Det er ingen appkonto å opprette, stedsdetaljer kan leses uten signal, og lagrede steder blir til en tur med stopp, datoer og avstanden for hver etappe."
+        ],
+        [
+          "Får KiwiCamping meg til å logge inn?",
+          "Nei. Det finnes ingen KiwiCamping-konto og ingen påloggingsskjerm. Med iCloud slått på synkroniseres de lagrede stedene, samlingene og turene dine privat via Apple-kontoen din, og et kjøp gjenopprettes via den samme Apple-kontoen."
+        ],
+        [
+          "Kan jeg flytte WikiCamps-turen min til KiwiCamping?",
+          "Det finnes ingen import, så du bygger turen på nytt. Søk etter hvert stopp, lagre det, legg deretter de lagrede stedene til i en ny tur og dra dem i den rekkefølgen du skal kjøre. De fleste turer tar noen minutter."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "Beste bobilapper på New Zealand 2026: leie, relocation og livet på veien",
       "description": "Appene som hjelper på en bobiltur på New Zealand i 2026, fra å leie bilen og relocations til 1 NZD per dag til å finne stedet for neste natt, sammenlignet med priser og vurderinger sjekket oktober 2026.",
@@ -12953,6 +13117,650 @@
         },
         {
           "label": "DOC: vilkår for hytter, campingplasser, Great Walks, cabins og lodger"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsite-pass-new-zealand": {
+      "title": "DOC Campsite Pass 2026-27: Er det verdt $295, og hvor det ikke fungerer",
+      "description": "DOC Campsite Pass koster $295 for en voksen for et år. Hvor mange netter det tar å tjene det inn, hvilke campingplasser og sommerdatoer det utelukker, og hvordan du bruker det på bestillbare steder.",
+      "region": "New Zealand",
+      "imageAlt": "En bobil parkert på gresset ved campingplassen Momorangi Bay ved siden av det blå vannet i Queen Charlotte Sound",
+      "intro": "Department of Conservations Campsite Pass er en enkelt betaling som dekker nettene dine på de fleste DOC-campingplasser i et år: $295 for en voksen, halvparten for et barn eller en ungdom og gratis for spedbarn. Det er god verdi for en lang tur bygget rundt DOC-campingplasser og dårlig verdi for nesten alle andre, og det har regler som fanger folk, fra at bestilling fortsatt kreves til en liste over populære campingplasser det ikke dekker om sommeren. Prisene, grensene og unntakene under kommer fra DOC-ens Campsite Pass-sider, lest 9. november 2026.",
+      "sections": [
+        {
+          "heading": "Hva Campsite Pass er",
+          "body": [
+            "Campsite Pass er en måte å betale på, ikke en reservasjon. Det dekker nattavgiften på DOC-ens verneområdecampingplasser, både de du bestiller på nett og de selvregistrerende du betaler for ved ankomst, i 365 netter fra en startdato du velger. Det holder ikke en plass noe sted og dekker ikke hytter: De har sitt eget Backcountry Hut Pass og hyttebilletter.",
+            "Hver person trenger sitt eget pass. Et par betaler $590 for to voksenpass, og en familie på to voksne og to barn på 5 til 17 år betaler $885, mens barn under fem er gratis. Noen medlemsorganisasjoner får rabatt; DOC ber medlemmer sende en skanning av medlemskortet på e-post til bookings@doc.govt.nz før de kjøper, slik at rabatten ligger på kontoen når de betaler."
+          ],
+          "tips": [
+            "En betaling, ikke en bestilling",
+            "Ett pass per person",
+            "Hytter krever et eget pass"
+          ],
+          "table": {
+            "caption": "DOC Campsite Pass-priser, lest 9. november 2026. Ett år (365 netter) fra startdatoen du velger.",
+            "head": [
+              "Aldersgruppe",
+              "Pris"
+            ],
+            "rows": [
+              [
+                "Voksen, 18 og eldre",
+                "$295,00"
+              ],
+              [
+                "Barn eller ungdom, 5 til 17",
+                "$147,50"
+              ],
+              [
+                "Spedbarn, 0 til 4",
+                "Gratis"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hvor mange netter før passet betaler seg",
+          "body": [
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassavgifter</a> er per person per natt, og de varierer mye. Serviceorienterte campingplasser med spyletoaletter og varme dusjer tar omtrent $25 per voksen, standardcampingplasser omtrent $10 til $20, og grunnleggende campingplasser er gratis. I KiwiCampings DOC-data fra august 2026 listet 63 av de 287 DOC-campingplassene ingen avgift, og den midterste voksensatsen blant de betalte var $12,75.",
+            "Så break-even avhenger av hvor du bor. På serviceorienterte campingplasser betaler passet seg den tolvte natten. På en typisk standardcampingplass tar det 20 til 24 netter, og hvis de fleste nettene dine er på $10-steder eller gratis grunnleggende steder, betaler det seg kanskje aldri. Legg sammen de faktiske campingplassene på ruten din før du kjøper, ikke den dyreste du kan komme på."
+          ],
+          "tips": [
+            "Serviceorienterte steder: 12 netter for å break-even",
+            "Standardsteder: 20 netter eller mer",
+            "Gratis grunnleggende steder krever ikke noe pass i det hele tatt"
+          ],
+          "table": {
+            "caption": "Voksenpass for $295. Netter ved en gitt voksenavgift per natt før passet koster mindre enn å betale hver natt.",
+            "head": [
+              "Voksenavgift per natt",
+              "Netter for å break-even"
+            ],
+            "rows": [
+              [
+                "$25 (serviceorientert campingplass)",
+                "12"
+              ],
+              [
+                "$20",
+                "15"
+              ],
+              [
+                "$15",
+                "20"
+              ],
+              [
+                "$12,75 (midterste betalte sats)",
+                "24"
+              ],
+              [
+                "$10",
+                "30"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hvem som bør kjøpe ett, og hvem som ikke bør",
+          "body": [
+            "Passet passer for lange, rolige turer der <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> er standarden: en working holiday brukt på å flytte mellom jobber, et pensjonert par som turer rundt i noen måneder eller en sommer med helgeturer fra en hjemmebase. Det passer særlig for familier, fordi barnepass er halv pris og spedbarn er gratis mens voksenavgiften er den dyre delen av hver natt.",
+            "Hopp over det hvis de fleste nettene dine blir på holiday parks eller private campingplasser, som DOC ikke driver, eller <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> i et self-contained kjøretøy, som uansett ikke koster noe. Hopp over det også for en Great Walk: Hver Great Walk-campingplass er utelukket og bestilles separat. Og for en to ukers campervanferie fungerer tallene sjelden med mindre nesten hver natt er på en serviceorientert DOC-campingplass."
+          ],
+          "tips": [
+            "Best for lange turer og familier",
+            "Ikke for Great Walks",
+            "Ikke for holiday parks"
+          ]
+        },
+        {
+          "heading": "Campingplassene og datoene passet ikke dekker",
+          "body": [
+            "DOC utelukker alle Great Walk-campingplasser, hver cabin, cottage, bach, lodge og bunkhouse på en campingplass, campingplasser stengt for vedlikehold og sesongbaserte campingplasser utenfor åpen sesong. I tillegg kommer en liste over enkelte campingplasser, og den omfatter flere av landets mest populære. Fem er utelukket fra 26. desember til 8. februar, nøyaktig når de fleste vil ha dem, og Kerr Bay ved Lake Rotoiti er utelukket fra 19. oktober til 30. april.",
+            "Andre er utelukket hele året, inkludert Kapowairua (Spirits Bay), Rarawa Beach og Tapotupotu i Far North, Wentworth Valley på Coromandel, Dickey Flat og Hot Water Beach (Tarawera) i Bay of Plenty, de DOC-drevne campingplassene ved Lake Waikaremoana og Whakapapa, flere campingplasser på East Coast og Twelve Mile Delta nær Queenstown. DOC sier at det kan endre listen uten varsel, så sjekk utelukkelsessiden før du planlegger en tur rundt passet."
+          ],
+          "tips": [
+            "Høysommer er utelukket på fem favoritter",
+            "Sjekk utelukkelsessiden før du kjøper",
+            "Cabins og bunkhouses dekkes aldri"
+          ],
+          "table": {
+            "caption": "DOC Campsite Pass-utelukkelser med datoer, lest 9. november 2026. DOC-ens side lister også campingplasser som er utelukket hele året.",
+            "head": [
+              "Campingplass",
+              "Region",
+              "Utelukket"
+            ],
+            "rows": [
+              [
+                "Trounson Kauri Park",
+                "Northland",
+                "26. desember til 8. februar"
+              ],
+              [
+                "Tōtaranui",
+                "Nelson Tasman",
+                "26. desember til 8. februar"
+              ],
+              [
+                "Momorangi Bay",
+                "Marlborough",
+                "26. desember til 8. februar"
+              ],
+              [
+                "Pelorus Bridge",
+                "Marlborough",
+                "26. desember til 8. februar"
+              ],
+              [
+                "Peel Forest",
+                "Canterbury",
+                "26. desember til 8. februar"
+              ],
+              [
+                "Kerr Bay",
+                "Nelson Lakes",
+                "19. oktober til 30. april"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Slik kjøper du passet",
+          "body": [
+            "Kjøp det i DOC-ens nettbaserte bestillingssystem: Logg inn eller opprett en konto, velg Passes i menyen, velg Campsite Pass og velg den første natten du vil bruke det. Den natten er starten på de 365. Du kan kjøpe opptil en måned før den første natten, og DOC sender e-post med et kjøpsbevis med passet som en PDF. Hvis du ikke kan kjøpe på nett, ring eller send e-post til et DOC-besøkssenter.",
+            "Velg startdatoen nøye, for den kan ikke endres. DOC refunderer et pass bare innen 48 timer etter kjøpet, og bare hvis du ennå ikke har gjort en bestilling med det og startdatoen ikke har kommet. Etter det kan det ikke refunderes, så hvis ankomstdatoen din er usikker, vent til den er avklart før du kjøper."
+          ],
+          "tips": [
+            "Startdatoen kan ikke endres",
+            "Refusjon bare innen 48 timer",
+            "Kjøp opptil en måned i forveien"
+          ]
+        },
+        {
+          "heading": "Bruk av passet på bestillbare campingplasser",
+          "body": [
+            "Et pass lar deg ikke dukke uanmeldt opp på en bestillbar campingplass. Du bestiller fortsatt på nett før du ankommer og oppgir hver passinnehavers navn og passnummer; bestillingen blir da $0, unntatt på steder med strøm, som tar $3 per passinnehaver per natt. Dukker du opp uten en bestilling, tar DOC en bestillingsavgift på $10, og du kan bli avvist hvis campingplassen er full.",
+            "Ta med bestillingsbekreftelsen og en kopi av passet, utskrevet eller på telefonen. På populære campingplasser om sommeren er bestillingen det som er knapt, ikke pengene, så bestill tidlig selv om passet allerede har betalt for natten. Alle i gruppen din uten pass bestilles og betales for til normal takst i samme bestilling."
+          ],
+          "tips": [
+            "Bestill først, selv med et pass",
+            "$3 per natt per person på steder med strøm",
+            "Ha med bekreftelsen og passet"
+          ]
+        },
+        {
+          "heading": "Bruk på selvregistrerende campingplasser",
+          "body": [
+            "Ikke-bestillbare campingplasser er førstemann til mølla, og passet gir deg ingen forrang foran andre. Ved ankomst fyller du ut selvregistreringskonvolutten eller -skjemaet som vanlig, noterer passet og betaler bare for dem i følget ditt som ikke er dekket av ett.",
+            "En ranger kan be om å få se bevis på passet og legitimasjon, så ha begge for hånden. Mange selvregistrerende campingplasser er standard- eller grunnleggende steder der avgiften er lav, noe som er en del av grunnen til at passet tar lengre tid å betale seg for reisende som foretrekker de roligere, enklere campingplassene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sjunettersregelen og lengre opphold",
+          "body": [
+            "Passet dekker ikke mer enn sju netter i noen periode på 30 dager på en enkelt campingplass. Hvis du vil bli lenger, belastes de ekstra nettene til campingplassens standardtakst som en separat transaksjon, opptil den campingplassens egen maksimale oppholdstid. Regelen hindrer passet i å gjøre én campingplass til en base hele året.",
+            "For de fleste reisende spiller det aldri noen rolle, for en uke ett sted er allerede et langt opphold på en roadtrip. Det spiller en rolle for sesongarbeidere som vil campe nær en frukthage eller vingård en hel sesong: Planlegg å flytte mellom to eller tre campingplasser, eller budsjetter med å betale full pris etter den første uka."
+          ],
+          "tips": [
+            "Sju netter innen 30 dager per campingplass",
+            "Ekstra netter til standardtakst",
+            "Flytt mellom campingplasser ved lange opphold"
+          ]
+        },
+        {
+          "heading": "Regn ut dine egne tall i KiwiCamping",
+          "body": [
+            "KiwiCamping, appen vi lager, lister DOC-ens campingplasser med voksenavgiften, bestillingskravet og hundereglene DOC publiserer, og lenker til DOC-ens egen side for hver enkelt. Filtrer på kostnad for å se de gratis og billige <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassene</a> langs ruten din, lagre de du vil ha, bygg dem så inn i en reise med datoer og se hvor mange netter som er på betalte DOC-campingplasser.",
+            "Det tallet er den ærlige testen på om Campsite Pass betaler seg. KiwiCamping fungerer bare på iPhone (iOS 26 eller nyere), og den selger eller sjekker ikke DOC-pass eller bestillinger: Du kjøper fortsatt passet og bestiller bestillbare campingplasser hos DOC. Guiden vår om DOC-campingplasser dekker bestilling, avgifter og hva hver campingplasstype tilbyr."
+          ],
+          "tips": [
+            "DOC-ens avgifter og bestillingsregler per campingplass",
+            "Tell dine betalte DOC-netter",
+            "Bestill og kjøp passet hos DOC"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Er DOC Campsite Pass verdt det?",
+          "Bare for lange turer bygget rundt betalte DOC-campingplasser. For $295 for en voksen betaler det seg den tolvte natten på $25 serviceorienterte campingplasser, men det tar 20 netter eller mer på standardcampingplasser og betaler seg aldri hvis du mest bruker gratis grunnleggende steder, holiday parks eller freedom camping."
+        ],
+        [
+          "Må jeg fortsatt bestille med et DOC Campsite Pass?",
+          "Ja, på bestillbare campingplasser. Bestill på nett før du ankommer og oppgi hvert passnummer; bestillingen blir $0, unntatt $3 per passinnehaver per natt på steder med strøm. Uten en bestilling tar DOC en avgift på $10 og kan avvise deg hvis campingplassen er full."
+        ],
+        [
+          "Hvilke campingplasser dekker ikke Campsite Pass?",
+          "Alle Great Walk-campingplasser, cabins og bunkhouses på campingplasser og en liste over enkelte campingplasser. Tōtaranui, Pelorus Bridge, Momorangi Bay, Trounson Kauri Park og Peel Forest er utelukket fra 26. desember til 8. februar og Kerr Bay fra 19. oktober til 30. april."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Campsite Pass"
+        },
+        {
+          "label": "DOC: Campsite Pass-utelukkelser"
+        },
+        {
+          "label": "DOC: Campsite Pass vilkår"
+        },
+        {
+          "label": "DOC nettbestilling"
+        },
+        {
+          "label": "DOC: campingplasskategorier og avgifter"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-tent-new-zealand": {
+      "title": "Freedom camping med telt på New Zealand: Hvor det er tillatt i 2026",
+      "description": "Telt trenger ikke et grønt warrant, men de fleste kommuner forbyr dem på offentlig grunn. Hvor telt-freedom camping er tillatt i 2026, kommune for kommune, på DOC-grunn og de gratis campingplassene som fyller hullene.",
+      "region": "New Zealand",
+      "imageAlt": "To små telt slått opp i totgress over en bred Canterbury-dal under mørke regnskyer",
+      "intro": "Et telt er den ene måten å freedom campe på som New Zealands self-containment-lov ikke rører. Regelen om det grønne warrantet som trådte fullt i kraft 7. juni 2026 gjelder kjøretøy, og Freedom Camping Act lar fortsatt et telt campe på kommunal grunn med mindre en vedtekt begrenser eller forbyr det. Haken er at de fleste kommuner på de store turistrutene har gjort nettopp det, så et telt er velkommen på færre veikantsteder enn en sertifisert campervan. Det som fortsatt fungerer er åpen verneområdegrunn, en håndfull kommunale steder som nevner telt og de gratis og billige DOC-campingplassene som er bygget for dem. De kommunale reglene under kommer fra hver kommunes vedtekt og freedom camping-side, slik de er oppsummert i kommuneguidene våre, sjekket i oktober og november 2026.",
+      "sections": [
+        {
+          "heading": "Hva loven sier om telt",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 definerer freedom camping som camping utenfor en campingplass i et telt, et kjøretøy eller en annen midlertidig konstruksjon innen 200 meter fra en anlagt vei, fra grunn kjøretøy kan nå, fra en Great Walks-sti eller fra havet. På grunn en kommune forvalter, tillater paragraf 10 freedom camping i et telt eller et sertifisert self-contained kjøretøy med mindre en vedtekt begrenser eller forbyr det. Et kjøretøy uten et grønt warrant trenger et sted en vedtekt peker ut for det; et telt trenger det ikke.",
+            "Så et telts frihet avhenger nesten helt av lokale <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekter</a>, og de varierer fra kommune til kommune. Auckland, Tasman og New Plymouth forbyr telt-freedom camping på offentlig grunn helt, andre tillater telt bare ved noen få utpekte reservater, og noen få lar en generell tillatelse stå, men utelukker så mange områder at den betyr lite. På verneområdegrunn snur standarden igjen, og det er grunnen til at de beste teltplassene vanligvis er DOC-ens."
+          ],
+          "tips": [
+            "Ikke noe grønt warrant nødvendig for et telt",
+            "Vedtekter avgjør på kommunal grunn",
+            "Verneområdegrunn har sine egne regler"
+          ]
+        },
+        {
+          "heading": "Kommune for kommune: hvor telt kan freedom campe",
+          "body": [
+            "Whangārei er det fremtredende unntaket. Dens Camping in Public Places-<a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> lister fem teltområder på offentlig grunn: Parua Bay for omtrent 15 telt og opptil tre netter, Reotahi for opptil tre telt og én natt, Sandy Bay for omtrent fire telt og én natt, Tamaterau for fire til fem telt og én natt og Waipū Caves for mange telt og én natt. Rotorua tillater telt ved to reservater, Lake Ōkaro og Guy Roe Reserve, og Dunedin ved ett, det anviste området inne i Warrington Domain.",
+            "Central Hawke's Bays vedtekt fra 2024 lar telt campe ved Pourerere Beach Road og Te Paerahi Beach i Pōrangahau, med en loddtrekningstillatelse ved Pourerere fra midten av desember til slutten av februar. Marlboroughs eneste teltunntak gjelder syklister på Awatere Valley Road, som kan campe ved Blairich Reserve. Wellingtons grense på fire netter nevner telt, men dens steder å campe er parkeringsplasser, så et telt er bedre på en campingplass der. Overalt i tabellen merket nei trenger et telt en campingplass, en holiday park eller en <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplass</a>."
+          ],
+          "tips": [
+            "Whangārei har fem teltområder",
+            "Rotorua og Dunedin peker ut telt-reservater",
+            "De fleste turistkommuner sier nei"
+          ],
+          "table": {
+            "caption": "Telt-freedom camping på kommunal grunn, fra hver kommunes vedtekt og freedom camping-side, sjekket i oktober og november 2026. Reglene endrer seg; sjekk kommunens side før du slår opp teltet.",
+            "head": [
+              "Kommune",
+              "Telt på offentlig grunn"
+            ],
+            "rows": [
+              [
+                "Auckland",
+                "Nei"
+              ],
+              [
+                "Thames-Coromandel",
+                "Nei: bare sertifiserte self-contained kjøretøy"
+              ],
+              [
+                "Whangārei",
+                "Ja, ved fem listede teltområder"
+              ],
+              [
+                "Rotorua Lakes",
+                "Ja, bare ved Lake Ōkaro og Guy Roe Reserve"
+              ],
+              [
+                "Central Hawke's Bay",
+                "Ja, ved Pourerere Beach Road og Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "Nei"
+              ],
+              [
+                "Wellington",
+                "Ikke ved dens listede parkeringsplasser; bruk en campingplass"
+              ],
+              [
+                "Tasman",
+                "Nei"
+              ],
+              [
+                "Marlborough",
+                "Bare syklister på Awatere Valley Road, ved Blairich Reserve"
+              ],
+              [
+                "Christchurch",
+                "Nei: bruk en campingplass"
+              ],
+              [
+                "Westland",
+                "Nei: kommunale reservater er stengt for freedom camping"
+              ],
+              [
+                "Queenstown Lakes",
+                "Nei: bare sertifiserte self-contained kjøretøy"
+              ],
+              [
+                "Waitaki",
+                "Nei, utenfor campingplasser mot betaling"
+              ],
+              [
+                "Dunedin",
+                "Ja, bare ved Warrington Domain"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Telt på DOC-ens verneområdegrunn",
+          "body": [
+            "Offentlig verneområdegrunn fungerer motsatt av de fleste kommuner. Paragraf 15 i loven sier at <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> der er tillatt med mindre en DOC-melding begrenser eller forbyr det, og DOC-ens meldinger publiseres distrikt for distrikt. Et telt er velkommen på åpen verneområdegrunn, og noen meldinger favoriserer til og med telt: Rum Curries i Otagos Gibbston Conservation Area er begrenset til telt i to netter i måneden.",
+            "To grenser betyr noe. Scenic og recreation reserves forvaltet av DOC er stengt for camping utenfor anviste campingplasser, og nasjonalparker og stier setter egne regler utover 200 meter fra veien, så en rolig flate på en nasjonalparksti er ikke automatisk tillatt. Guiden vår om man kan campe hvor som helst på DOC-grunn går gjennom meldingene, reservatene og Great Walks, der camping bestilles eller ikke er tillatt i det hele tatt."
+          ],
+          "tips": [
+            "Åpen verneområdegrunn tillater telt",
+            "Reserves bare ved anviste campingplasser",
+            "Sjekk DOC-ens meldingsliste for distriktet"
+          ]
+        },
+        {
+          "heading": "Gratis og billige DOC-campingplasser for telt",
+          "body": [
+            "Der <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> er utelukket, fyller DOC-campingplasser hullet for veldig lite. Grunnleggende campingplasser er gratis, med et toalett og ikke mye mer; standardcampingplasser tar omtrent $10 til $20 per voksen per natt; og serviceorienterte campingplasser med dusjer koster omtrent $25. I KiwiCampings DOC-data fra august 2026 listet 63 av de 287 DOC-campingplassene ingen avgift, og de fleste DOC-campingplasser tar telt.",
+            "En betalt DOC-campingplass er en campingplass etter loven, så ingen av <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping-reglene</a> gjelder der. Sjekk om den kan bestilles: Bestillbare steder må bestilles før du ankommer, og selvregistrerende steder er førstemann til mølla med en konvolutt ved inngangen. Lange turer bygget rundt betalte DOC-campingplasser kan bli billigere med DOC-ens Campsite Pass, og holiday parks har vanligvis teltplasser uten strøm for mindre enn en plass med strøm."
+          ],
+          "tips": [
+            "63 DOC-campingplasser listet ingen avgift",
+            "Bestill bestillbare steder før du ankommer",
+            "Holiday parks har billigere teltplasser"
+          ]
+        },
+        {
+          "heading": "Toaletter, avfall og å ikke legge igjen spor",
+          "body": [
+            "Et telt har ikke noe toalett, og det er grunnen til at så mange kommuner holder telt unna veikantsteder. Camp bare der det er et toalett du kan bruke, eller følg DOC-ens veiledning om menneskelig avfall når det ikke er noe, og ta med deg hver minste søppel. Å etterlate avfall utenfor en søppelkasse eller skade området er et lovbrudd på $800, den høyeste <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-avgiften.",
+            "Vask, matlaging og tannpuss krever alle omtanke nær vann. Vask minst 50 meter fra bekker og innsjøer, bruk biologisk nedbrytbar såpe sparsomt og sil matrester ut av gråvannet for å ta dem med bort. I nord må du rense hver minste smule jord av støvler, teltpigger og teltunderlag ved hygienestasjonene: <a data-guide=\"kauri-dieback-camping-travel\">Kauri dieback</a> reiser i skitt."
+          ],
+          "tips": [
+            "Camp der det er et toalett",
+            "$800 for å etterlate avfall",
+            "Rens pigger og støvler i kauri-land"
+          ]
+        },
+        {
+          "heading": "Ild, vær og hvor du bør slå opp teltet",
+          "body": [
+            "De fleste stedene for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> forbyr åpen ild, og om sommeren går mange distrikter inn i en begrenset eller forbudt brannsesong som også dekker campingplasser. Et gasskomfyr er den trygge standarden: Fire and Emergency krever ikke tillatelse for gasskomfyrer, og DOC sier at gassbrennere vanligvis kan brukes til matlaging når som helst.",
+            "Slå opp teltet for den verste natten, ikke den beste. Unngå elveletter og tørre elveleier som oversvømmes ved kraftig regn, hold deg unna trær med døde greiner og vend døren bort fra den rådende vinden. Sjekk MetService for varsler om hardt vær før du velger et sted, og regn med <a data-guide=\"sandflies-new-zealand-camping\">sandfluer</a> på campingplasser på West Coast og i Fiordland fra demring til skumring."
+          ],
+          "tips": [
+            "Gasskomfyr, ikke et bål",
+            "Ikke slå opp teltet på elveletter",
+            "Sjekk meldingen om været før du velger et sted"
+          ]
+        },
+        {
+          "heading": "Bøter og hvordan håndhevingen fungerer",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom camping</a>-bøter fastsettes nasjonalt. Camping der en vedtekt eller en DOC-melding forbyr eller begrenser det koster $400, og DOC regner forberedelse til camping, som å slå opp et telt, som en del av lovbruddet. Å nekte å forlate stedet når en håndhevingstjenestemann krever det er $600, og å skade området eller etterlate avfall er $800.",
+            "Kommuner patruljerer populære steder om natten og tidlig om morgenen gjennom sommeren, og tjenestemenn kan utstede en overtredelsesmelding på stedet. Et skilt ved inngangen er den raskeste veiledningen: Et skilt om campingforbud eller ett som sier at bare <a data-guide=\"self-contained-campervan-green-warrant\">sertifiserte self-contained</a> kjøretøy kan campe utelukker et telt. Der det ikke er noe skilt, gjelder kommunens vedtektskart eller DOC-ens melding fortsatt."
+          ],
+          "tips": [
+            "$400 for camping der det er forbudt",
+            "Å slå opp et telt teller",
+            "Ikke noe skilt betyr ikke tillatt"
+          ]
+        },
+        {
+          "heading": "Syklister, turgåere og teltturer",
+          "body": [
+            "Sykkelturister og langdistanseturgåere møter de samme vedtektene som alle andre, med noen få små unntak som Marlboroughs Blairich Reserve på Awatere Valley Road. Planlegg netter rundt <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a>, de kommunale telt-reservatene over og holiday parks, og ha et betalt alternativ i reserve for byer som Queenstown, Motueka og New Plymouth der telt er forbudt på offentlig grunn.",
+            "Ryggsekkreisende som reiser med buss eller bil kan gjøre det samme. Et telt og en gratis DOC-campingplass er fortsatt den billigste måten å sove på noen av landets beste steder, så lenge natten er planlagt heller enn funnet i skumringen i et distrikt som forbyr telt."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Finn teltvennlige steder i KiwiCamping",
+          "body": [
+            "KiwiCamping, iPhone-appen vi lager, inneholder DOC-ens <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-meldinger distrikt for distrikt sammen med DOC-ens campingplasser, hytter og stier, slik at du kan sjekke om et verneområde er forbudt, begrenset eller åpent før du kjører inn. Filtrer DOC-campingplasser på kostnad for å finne de gratis og billige langs ruten din, les DOC-ens avgift og bestillingskrav for hver og lagre dem i en reise med datoer og notater.",
+            "Stedsopplysninger blir på telefonen når du mister signalet, mens kartfliser, ruter, vær og bilder krever tilkobling. Appen inneholder ikke kart over <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunale vedtekter</a>, så for kommunal grunn bruk kommunens side eller kommuneguidene våre, og betrakt skiltet på stedet som siste ord. KiwiCamping krever en iPhone med iOS 26 eller nyere."
+          ],
+          "tips": [
+            "DOC-ens freedom camping-meldinger per distrikt",
+            "Filtrer DOC-campingplasser på kostnad",
+            "Kommunale regler: sjekk kommunens side"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe med telt på New Zealand?",
+          "Ja, men på færre steder enn med en sertifisert campervan. Freedom Camping Act lar telt campe på kommunal grunn med mindre en vedtekt begrenser det, og mange kommuner, inkludert Auckland, Tasman og New Plymouth, forbyr telt på offentlig grunn. Åpen verneområdegrunn, noen få utpekte kommunale reservater og gratis DOC-campingplasser er de pålitelige alternativene."
+        ],
+        [
+          "Må man ha et self-contained kjøretøy for å campe i telt?",
+          "Nei. Regelen om det grønne warrantet gjelder kjøretøy som brukes til freedom camping, ikke telt. Et telt må fortsatt følge kommunens vedtekt eller DOC-ens melding for stedet, og der telt er forbudt er svaret en campingplass, en holiday park eller en DOC-campingplass."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "DOC: verneområder der freedom camping er forbudt eller begrenset"
+        },
+        {
+          "label": "Whangarei District Council: camping på offentlige steder"
+        },
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Tasman District Council: ansvarlig camping"
+        },
+        {
+          "label": "Dunedin City Council: freedom camping"
+        },
+        {
+          "label": "Rotorua Lakes Council: camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "camping-without-self-contained-vehicle-new-zealand": {
+      "title": "Camping uten et self-contained kjøretøy på New Zealand (2026): hvor du kan bli",
+      "description": "Ikke noe grønt warrant? Hvor en bil, en usertifisert van eller en leid campervan som ikke er self-contained kan bli i 2026: kommunale steder som tillater det, DOC-grunn og -campingplasser, campingplasser, kostnader og bøter.",
+      "region": "New Zealand",
+      "imageAlt": "Kontoret, kjøkkenet og servicebygningene på Reefton Motor Camp under høye, mørke furutrær",
+      "intro": "Siden 7. juni 2026 teller bare et kjøretøy med et grønt warrant som self-contained på New Zealand. Blå warrants sluttet å telle den dagen, og en van med et bærbart toalett har aldri kvalifisert seg for det grønne. Det etterlater mange reisende uten sertifisering: folk i biler og stasjonsvogner, eldre hjemmebygde varebiler og alle som leide en billigere campervan som ikke er self-contained. Du kan fortsatt få en fin roadtrip uten et grønt warrant. Det betyr bare at du planlegger hver natt rundt stedene som tar imot deg, heller enn veikantstedene som er bygget for sertifiserte kjøretøy. De kommunale stedene under kommer fra hver kommunes vedtekt og freedom camping-side, slik de er oppsummert i kommuneguidene våre, sjekket i oktober og november 2026.",
+      "sections": [
+        {
+          "heading": "Sjekk hva du faktisk kjører",
+          "body": [
+            "Et <a data-guide=\"self-contained-campervan-green-warrant\">sertifisert self-contained</a> kjøretøy viser et grønt warrantkort, utstedt etter en inspeksjon av det faste toalettet og systemene for ferskvann, avløpsvann og avfall. Hvis kjøretøyet ditt ikke har noe grønt kort, eller bare et blått merke fra før 7. juni 2026, behandle det som ikke self-contained. Et toalett du kan løfte ut teller ikke, uansett hvor bra det er.",
+            "Leide campervaner finnes i begge slags, og de som ikke er self-contained er vanligvis de billigere modellene uten innebygd toalett. Se etter det grønne warrantkortet i ruta eller spør ved henting før du planlegger noen gratisnetter. Hvis det ikke er sertifisert, planlegg hver natt rundt stedene under."
+          ],
+          "tips": [
+            "Grønt warrantkort i ruta, ellers usertifisert",
+            "Blå merker sluttet å telle 7. juni 2026",
+            "Spør utleiefirmaet ved henting"
+          ]
+        },
+        {
+          "heading": "Alternativene dine, fra billigst til mest pålitelig",
+          "body": [
+            "Gratis grunnleggende <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> kommer først: et toalett, en flat parkeringsplass og ingen avgift, førstemann til mølla. Deretter kommer kommunale steder som en vedtekt peker ut for kjøretøy som ikke er self-contained, åpen verneområdegrunn der DOC ikke har begrenset camping, standard DOC-campingplasser for omtrent $10 til $20 per voksen per natt, privat grunn der eieren sier ja, og holiday parks og kommunalt drevne campingplasser, som tar hvilket som helst kjøretøy og har dusjer og kjøkken.",
+            "<a data-guide=\"freedom-camping-rules-new-zealand\">Freedom camping-reglene</a> betyr bare noe på offentlig grunn. En campingplass, en holiday park, en betalt DOC-campingplass eller privat eiendom med eierens tillatelse er ikke freedom camping, så regelen om det grønne warrantet gjelder ikke i det hele tatt der. Derfor faller de fleste usertifiserte turer inn i en rytme med DOC-campingplasser de fleste netter og en holiday park med noen dagers mellomrom for en dusj og klesvask."
+          ],
+          "tips": [
+            "Grunnleggende DOC-campingplasser er gratis",
+            "Campingplasser og privat grunn: ikke noe warrant nødvendig",
+            "En holiday park med noen netters mellomrom"
+          ]
+        },
+        {
+          "heading": "Kommunale steder som tar kjøretøy uten sertifisering",
+          "body": [
+            "På kommunal grunn kan et kjøretøy uten et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a> bare bli der en vedtekt peker ut stedet for det, og de fleste kommuner på de store turistrutene peker ut ingen. Noen få gjør det. Whangārei lister 17 steder for kjøretøy uten sertifisering, flest av alle kommunene vi har sjekket. Tasman peker ut tre: Motueka Beach Reserve, Alexander Bluff Road Reserve ved Ngātīmoti og Fittal Street i Richmond. Dunedin peker ut Warrington Domain, Ocean View Recreation Reserve og parkeringsplassen på Thomas Burns Street, som er åpen for dem fra 1. november til 30. april.",
+            "New Plymouth har to steder med seks plasser ved Lake Rotomanu og Battiscombe Terrace i Waitara, hver med en grense på én natt innen 30 dager. Whakatāne tillater dem ved Aniwhenua Reserve nær Murupara i opptil sju netter innen fire uker, Central Hawke's Bay ved Pourerere Beach Road og Te Paerahi Beach og Southland ved Dunsdale, Monkey Island ved Orepuki og Thornbury. Hver har egne grenser, så les kommunens side før du kjører dit."
+          ],
+          "tips": [
+            "Bare utpekte kommunale steder teller",
+            "De fleste turistkommuner peker ut ingen",
+            "Nattgrenser gjelder ved hvert sted"
+          ],
+          "table": {
+            "caption": "Kommunale steder for kjøretøy som ikke er sertifisert self-contained, fra hver kommunes vedtekt og freedom camping-side, sjekket i oktober og november 2026.",
+            "head": [
+              "Kommune",
+              "Steder for kjøretøy uten sertifisering"
+            ],
+            "rows": [
+              [
+                "Whangārei",
+                "17 listede steder"
+              ],
+              [
+                "Whakatāne",
+                "Aniwhenua Reserve, opptil 7 netter innen 4 uker"
+              ],
+              [
+                "Central Hawke's Bay",
+                "Pourerere Beach Road og Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "Lake Rotomanu og Battiscombe Terrace, 6 plasser hver, 1 natt innen 30 dager"
+              ],
+              [
+                "Tasman",
+                "Motueka Beach Reserve, Alexander Bluff Road Reserve, Fittal Street"
+              ],
+              [
+                "Dunedin",
+                "Warrington Domain, Ocean View Recreation Reserve, Thomas Burns Street (1. november til 30. april)"
+              ],
+              [
+                "Southland",
+                "Dunsdale, Monkey Island (Orepuki), Thornbury"
+              ],
+              [
+                "Auckland, Thames-Coromandel, Queenstown Lakes, Christchurch, Westland",
+                "Ingen: bruk en campingplass"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "DOC-grunn og DOC-campingplasser",
+          "body": [
+            "Verneområdegrunn er vennligere mot usertifiserte kjøretøy. Etter paragraf 15 i <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act er freedom camping på offentlig verneområdegrunn tillatt med mindre en DOC-melding begrenser eller forbyr det, og en melding som begrenser et sted til self-contained kjøretøy er unntaket heller enn regelen. Noen få begrensede steder nevner til og med usertifiserte kjøretøy, som Quailburn og Round Bush i Canterbury, med fire netter i måneden.",
+            "Scenic og recreation reserves forvaltet av DOC er stengt for camping utenfor anviste campingplasser, og DOC lister sine forbudte parkeringsplasser distrikt for distrikt, så sjekk meldingen for det nøyaktige stedet. De fleste netter er en <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplass</a> enklere. I KiwiCampings DOC-data fra august 2026 listet 150 DOC-campingplasser campervantilgang og 63 listet ingen avgift; på en lang tur kan DOC Campsite Pass kutte kostnaden for de betalte."
+          ],
+          "tips": [
+            "Åpen verneområdegrunn tillater hvilket som helst kjøretøy",
+            "Reserves bare ved anviste campingplasser",
+            "150 DOC-campingplasser lister campervantilgang"
+          ]
+        },
+        {
+          "heading": "Hva en tur koster uten et grønt warrant",
+          "body": [
+            "Forskjellen er mest de nettene du ikke kan tilbringe gratis. Holiday parks publiserer plasser uten strøm for omtrent $20 til $26 per voksen og plasser med strøm for omtrent $50 til $75 per natt for to om sommeren. Standard <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> koster omtrent $10 til $20 per voksen og grunnleggende er gratis, så to personer som blander DOC-campingplasser med en holiday park hver tredje natt bruker langt mindre enn de ville på holiday parks alene.",
+            "En leie som ikke er self-contained er vanligvis billigere per dag enn en sertifisert, så besparelsen på kjøretøyet dekker ofte campingavgiftene. Regn det ut for din egen rute før du velger. Guiden vår om <a data-guide=\"camping-fees-new-zealand-2026\">campingavgifter</a> har gjeldende priser for hver type sted, og en plass med strøm er verdt å betale for når du må lade et kjøleskap eller en varmeovn en kald natt."
+          ],
+          "tips": [
+            "Plasser uten strøm på holiday parks: $20 til $26 per voksen",
+            "Standard DOC-campingplasser: $10 til $20",
+            "Bland DOC-netter med en holiday park"
+          ]
+        },
+        {
+          "heading": "Planlegg netter etter region",
+          "body": [
+            "Nordøya er den enklere halvdelen. Whangārei, Whakatāne, Central Hawke's Bay og New Plymouth peker alle ut kommunale steder, og Northland, Coromandel og sentrale Nordøya har mange <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a>. Aucklands og Thames-Coromandels kommunale grunn er stengt for deg, så planlegg de nettene på campingplasser eller DOC-campingplasser.",
+            "På Sørøya peker de mest besøkte distriktene, Queenstown Lakes, Westland og Christchurch, ut ingen kommunale steder for usertifiserte kjøretøy, så støtt deg på DOC. Canterburys høyland, West Coast, Otago og Southland har en tett spredning av DOC-campingplasser, mange med campervantilgang, og Tasman og Dunedin har sine utpekte steder. Bestill <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> i forveien rundt Queenstown og Wānaka i januar, når de fylles."
+          ],
+          "tips": [
+            "Nordøya: flere kommunale steder",
+            "Sørøya: planlegg rundt DOC-campingplasser",
+            "Bestill Queenstowns holiday parks til januar"
+          ]
+        },
+        {
+          "heading": "Bøter og hva som ikke teller som camping",
+          "body": [
+            "Å bruke et kjøretøy som ikke er self-contained der reglene krever ett er et lovbrudd på $400, det samme som å campe der en <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> forbyr det. Et manglende warrantkort på grunn som er begrenset til self-contained kjøretøy koster $200, og skade eller dumpet avfall koster $800. Kommuner og DOC håndhever reglene hardest om sommeren, om natten og tidlig om morgenen.",
+            "Å stoppe for å hvile når du er for trøtt til å kjøre trygt er ikke <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> etter loven, og du bør alltid stoppe heller enn å kjøre videre. Men en planlagt natt på en parkeringsplass er camping, uansett hva du kaller det. Guiden vår om å sove i bilen din dekker den grensen og unntakene for nødsituasjoner og bolig i detalj."
+          ],
+          "tips": [
+            "$400 for et usertifisert kjøretøy der det kreves",
+            "Å hvile for å unngå tretthet er tillatt",
+            "En planlagt natt er camping"
+          ]
+        },
+        {
+          "heading": "Bør du skaffe sertifisering i stedet?",
+          "body": [
+            "Hvis du eier kjøretøyet og planlegger å reise i flere måneder, kan sertifisering betale seg i gratisnetter. Et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a> krever et toalett som er permanent festet inne i kjøretøyet, ferskvann, en vask som renner til en avløpstank, ventilasjon og sikker avfallsoppbevaring, nok til tre dager, inspisert under den nasjonale ordningen som drives av Plumbers, Gasfitters and Drainlayers Board. Mange små varebiler har rett og slett ikke plass til et fast toalett.",
+            "For en kort tur eller en leie gir det sjelden mening. Velg en sertifisert campervan fra starten hvis gratisnetter ved veikanten betyr noe for deg, eller planlegg en usertifisert tur rundt <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> og campingplasser, som er slik mange reisende ser landet uansett. Guiden vår om grønt warrant dekker sertifiseringsreglene og -kostnadene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Planlegg usertifiserte netter i KiwiCamping",
+          "body": [
+            "KiwiCamping, iPhone-appen vi lager, lister DOC-ens campingplasser med avgifter, campervantilgang, bestillingskrav og hunderegler samt DOC-ens <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-meldinger distrikt for distrikt, slik at du kan se hvor et usertifisert kjøretøy kan bli på verneområdegrunn. Filtrer på kostnad for å finne gratis og billige DOC-campingplasser, legg til holiday parks og lagre dem i en reise med datoer, notater og ruteavstanden mellom stoppene.",
+            "Uten signal har du fortsatt de lagrede stedsopplysningene, selv om kart, ruter, vær og bilder bare lastes med en tilkobling. Appen inneholder ikke kart over <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunale vedtekter</a>, så sjekk kommunens side for dens utpekte steder og betrakt skiltet ved inngangen som siste ord. Den fungerer på iPhoner med iOS 26 eller nyere."
+          ],
+          "tips": [
+            "DOC-campingplasser med campervantilgang",
+            "DOC-ens freedom camping-meldinger per distrikt",
+            "Lagre netter i en reise med datoer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvor kan jeg campe uten et self-contained kjøretøy på New Zealand?",
+          "På DOC-campingplasser, holiday parks og campingplasser, på privat grunn med eierens tillatelse, på verneområdegrunn DOC ikke har begrenset og på de få kommunale stedene en vedtekt peker ut for usertifiserte kjøretøy, som Whangāreis 17 steder og Dunedins Warrington Domain."
+        ],
+        [
+          "Hva er boten for å campe i et kjøretøy som ikke er self-contained?",
+          "$400, der reglene krever et sertifisert self-contained kjøretøy. Å unnlate å vise et warrantkort på grunn som er begrenset til self-contained kjøretøy er $200, og å skade området eller etterlate avfall er $800."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "DOC: verneområder der freedom camping er forbudt eller begrenset"
+        },
+        {
+          "label": "Whangarei District Council: freedom camping"
+        },
+        {
+          "label": "Tasman District Council: ansvarlig camping"
+        },
+        {
+          "label": "Dunedin City Council: freedom camping"
+        },
+        {
+          "label": "DOC: steder å overnatte"
         }
       ],
       "priceTable": null
@@ -17942,6 +18750,914 @@
         },
         {
           "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-south-island": {
+      "title": "Freedom camping på Sørøya 2026: Reglene kommune for kommune",
+      "description": "Hvor freedom camping er lovlig på Sørøya i 2026: hver kommunes regler fra Marlborough til Southland, hva et telt eller en usertifisert van fortsatt kan, DOC-grunn, bøter og sommerens flaskehalser.",
+      "region": "Sørøya",
+      "imageAlt": "Mount Cook Road som stiger over Lake Pukaki med Aoraki Mount Cook og Southern Alps foran",
+      "intro": "Ja, du kan fortsatt freedom campe på Sørøya, men nesten overalt kreves det nå et sertifisert self-contained kjøretøy med et grønt warrant, og hver distriktskommune fastsetter sine egne steder, netter og tider. Queenstown Lakes tillater det på 15 parkeringsplasser, Christchurch på to skiltede områder, mens Buller og Waitaki tillater det på det meste av kommunal grunn utenfor sine listede forbud. Et telt eller en van uten toalett har en kort liste over kommunale steder og en mye lengre liste over DOC-campingplasser og holiday parks.",
+      "sections": [
+        {
+          "heading": "Tre grunneiere, tre sett med regler",
+          "body": [
+            "Om en gratisnatt er lovlig, avhenger av hvem som eier grunnen under hjulene dine. Kommunal grunn styres av distriktskommunens vedtekt, verneområdegrunn av DOC-ens meldinger, og grunn som innehas av NZTA eller Land Information New Zealand har sine egne begrensninger. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 ligger over alt, og privat grunn krever eierens ja.",
+            "Den nasjonale endringen som betyr mest, skjedde 7. juni 2026, da blå warrants sluttet å telle. Bare et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a>, som krever et toalett fast montert inne i kjøretøyet, gjør nå et kjøretøy self-contained for freedom camping. En stasjonsvogn med et bærbart toalett behandles som usertifisert, og på kommunal grunn kan den bare bli der en vedtekt peker ut et sted for kjøretøy uten sertifisering."
+          ],
+          "tips": [
+            "Kommune, DOC og andre myndigheter setter hver sine regler",
+            "Bare grønne warrants teller siden 7. juni 2026",
+            "Skiltet på stedet vinner"
+          ]
+        },
+        {
+          "heading": "Sørøyas topp: Marlborough, Nelson og Tasman",
+          "body": [
+            "Marlborough lister 11 kommunale steder for <a data-guide=\"self-contained-campervan-green-warrant\">sertifiserte self-contained</a> kjøretøy, med opphold på én eller to netter og ingenting i selve Picton, så planlegg natten før eller etter Cook Strait-ferga rundt Renwick, Blenheim eller en holiday park. Det eneste unntaket fra sertifisering gjelder syklister på Awatere Valley Road, som kan slå opp telt ved Blairich Reserve.",
+            "Tasmans Responsible Camping Bylaw 2025 forbyr telt på offentlig grunn og tillater <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> bare på anviste plasser. Tre steder ved Motueka, Ngātīmoti og Richmond tar kjøretøy uten sertifikat, og resten er for sertifiserte kjøretøy. Rundt Abel Tasman og Golden Bay bestilles DOC-ens campingplasser og Great Walk-stedene via DOC, ikke kommunen."
+          ],
+          "tips": [
+            "Marlborough: 11 steder, ingen i Picton",
+            "Tasman: ingen telt på offentlig grunn",
+            "Bestill Abel Tasman-steder via DOC"
+          ]
+        },
+        {
+          "heading": "Vestkysten",
+          "body": [
+            "Kysten er tre kommuner med tre tilnærminger. Buller lar sertifiserte kjøretøy campe på kommunal grunn utenfor en liste over campingforbudte soner som dekker strekninger rundt Karamea, Westport, Charleston og Punakaiki. Grey godkjente en oppdatert <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> 28. september 2026 som hever grensen til tre netter innen fire uker, og Westland henviser sertifiserte kjøretøy til tre samfunnsdrevne steder ved Kumara, Rimu og Paringa, der det bes om en donasjon.",
+            "Isbreland er det trange stedet: Westlands vedtektsutkast forbyr camping i Fox Glacier-bygda, og Franz Josef har bare et parkeringsområde ved en helikopterplass, så en holiday park eller en DOC-campingplass er den trygge planen i januar. Guiden vår om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på vestkysten går by for by fra Karamea til Haast."
+          ],
+          "tips": [
+            "Buller: kommunal grunn utenfor listede soner",
+            "Grey: tre netter innen fire uker",
+            "Bestill Franz Josef og Fox om sommeren"
+          ]
+        },
+        {
+          "heading": "Canterbury, Mackenzie og Waitaki",
+          "body": [
+            "Christchurch City Council tillater sertifiserte kjøretøy på to skiltede områder, Naval Point i Lyttelton og nordenden av Akaroa, i to netter innen 30 dager; det meste annen kommunal grunn i byen og på Banks Peninsula er forbudt eller begrenset. Nord for byen setter Kaikōura og Hurunui sine egne regler, så sjekk de kommunenes sider før en natt ved Hanmer Springs eller på kystveien.",
+            "I Mackenzie er Tekapo-bygda, sentrum av Twizel og stranden ved Lake Ruataniwha-lagunen forbudt område, og fire steder stenger fra 23. desember til 11. januar 2027. DOC-ens Twizel-område legger til fire begrensede campingområder som Quailburn. Waitaki gir derimot sertifiserte kjøretøy en generell tillatelse på kommunal grunn i tre netter innen fire uker, utenfor dusinvis av forbudte steder i Oamaru, Moeraki og sjølandsbyene."
+          ],
+          "tips": [
+            "Christchurch: bare Naval Point og Akaroa",
+            "Mackenzie stenger fire steder i feriene",
+            "Waitaki: tre netter innen fire uker"
+          ]
+        },
+        {
+          "heading": "Otago, Wānaka og Queenstown",
+          "body": [
+            "Queenstown Lakes er øyas strengeste distrikt. Dets <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2025 tillater sertifiserte kjøretøy på 15 anviste parkeringsplasser, mellom kl. 18 og 8, i to netter innen 30 dager, og forbyr freedom camping i tettbygde områder. Kingston Road har 50 plasser, mens de fleste andre parkeringsplasser rommer en håndfull, og en beslutning om endringer i vedtekten ventes 17. desember 2026. Wānaka-guiden dekker distriktets sjøende.",
+            "Dunedin er løsere: Sertifiserte kjøretøy kan bli på de fleste grusbelagte eller asfalterte kommunale parkeringsområder i opptil to netter på rad, og tre kommunale steder tar kjøretøy uten sertifisering, med telt bare ved Warrington Domain. Central Otago og Clutha setter sine egne lister, og Catlins-kysten er mest DOC- og <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>-land."
+          ],
+          "tips": [
+            "Queenstown Lakes: 15 parkeringsplasser",
+            "Dunedin: to netter på det meste kommunale parkeringen",
+            "Telt i Dunedin bare ved Warrington"
+          ]
+        },
+        {
+          "heading": "Southland og Fiordland",
+          "body": [
+            "Southland District Council gir sertifiserte kjøretøy anviste steder i småbyer som Winton, Riversdale og Dipton, og noen få steder som Dunsdale og Thornbury tar kjøretøy uten sertifisering. Te Anau, Manapouri, Riverton og Tuatapere har ikke noe kommunalt sted, og bysoner er forbudt i hele distriktet.",
+            "På Milford Road er grunnen nasjonalpark, og DOC har forbudt camping langs den utenfor sine campingplasser. Te Anau-distriktet har 24 DOC-forbudsmeldinger i KiwiCampings data. Veien gjennom er DOC-ens campingplasser ved Milford Road som Cascade Creek, som har 120 plasser, eller en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> i Te Anau, med sandfluer som prisen for begge deler."
+          ],
+          "tips": [
+            "Ingen kommunalt sted i Te Anau",
+            "Milford Road: bare DOC-campingplasser",
+            "Cascade Creek er den største"
+          ]
+        },
+        {
+          "heading": "Uten et sertifisert kjøretøy",
+          "body": [
+            "Et telt, en bil eller en usertifisert van er ikke stengt ute fra Sørøya, den trenger bare en bestilt eller betalt plass de fleste netter. KiwiCampings DOC-data lister 165 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> i Sørøyas regioner, fra gratis grunnleggende steder med et utedo til serviceorienterte plasser med dusjer, og mange av dem ønsker telt og biler velkommen. Holiday parks dekker byene.",
+            "Kommunale steder for kjøretøy uten sertifisering finnes, men er spredt: tre i Tasman, tre i Dunedin, en håndfull i Southland. Noter dem som en bonus heller enn planen. Tabellen under oppsummerer hver kommunes holdning, slik dens egen side eller <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> gir den."
+          ],
+          "tips": [
+            "DOC-campingplasser tar telt og biler",
+            "Holiday parks i hver by",
+            "Kommunale steder for usertifiserte kjøretøy er få"
+          ],
+          "table": {
+            "caption": "Bare kommunal grunn, fra hver kommunes side eller vedtekt som lest for kommuneguidene våre i oktober 2026, og Greys vedtektsside i november 2026. DOC-grunn følger DOC-ens meldinger.",
+            "head": [
+              "Kommune",
+              "Sertifisert self-contained",
+              "Uten sertifisering"
+            ],
+            "rows": [
+              [
+                "Marlborough",
+                "11 listede steder, én eller to netter",
+                "Bare syklisters telt ved Blairich Reserve"
+              ],
+              [
+                "Tasman",
+                "Anviste plasser",
+                "Motueka, Ngātīmoti og Richmond; ingen telt"
+              ],
+              [
+                "Buller",
+                "Kommunal grunn utenfor campingforbudte soner",
+                "Campingplasser"
+              ],
+              [
+                "Grey",
+                "Kommunal grunn utenfor forbudte områder, tre netter innen fire uker",
+                "Under gjennomgang av kommunen"
+              ],
+              [
+                "Westland",
+                "Tre samfunnsdrevne steder",
+                "Kommersielle campingplasser"
+              ],
+              [
+                "Christchurch",
+                "Naval Point og nordlige Akaroa, to netter innen 30 dager",
+                "Campingplasser"
+              ],
+              [
+                "Mackenzie",
+                "Begrensede steder, tre netter på rad",
+                "Campingplasser"
+              ],
+              [
+                "Waitaki",
+                "Kommunal grunn utenfor forbudte steder, tre netter innen fire uker",
+                "Campingplasser mot betaling"
+              ],
+              [
+                "Dunedin",
+                "Det meste kommunale parkeringen, to netter på rad",
+                "Tre steder; telt bare ved Warrington"
+              ],
+              [
+                "Queenstown Lakes",
+                "15 parkeringsplasser, to netter innen 30 dager",
+                "Campingplasser"
+              ],
+              [
+                "Southland",
+                "Anviste steder i småbyer",
+                "Noen få steder som Dunsdale og Thornbury"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Bøter og håndheving",
+          "body": [
+            "Hver kommune på øya tar de nasjonale overtredelsesavgiftene. Camping der en <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> forbyr eller begrenser det, eller i et usertifisert kjøretøy der sertifisering kreves, koster $400. Et warrantkort som ikke vises er $200, å nekte å forlate stedet når en tjenestemann ber om det er $600, og å dumpe avfall eller skade stedet er $800.",
+            "Leiebiler får meldingen først og sender den videre med et administrasjonsgebyr, og tjenestemenn sjekker skiltet mot det nasjonale registeret over sertifiserte kjøretøy. Queenstown, Wānaka, Tekapo og isbrebyene patruljeres hardest om sommeren."
+          ],
+          "tips": [
+            "$400 for de fleste overtredelser",
+            "$800 for avfall eller skade",
+            "Utleiefirmaer sender bøter videre"
+          ]
+        },
+        {
+          "heading": "Planlegg netter på Sørøya med KiwiCamping",
+          "body": [
+            "KiwiCamping viser områder for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> ved siden av DOC-campingplasser, hytter, holiday parks og tømmestasjoner over hele Sørøya, og filtrene skjærer kartet ned til det kjøretøyet og budsjettet ditt tillater. Kommunale regler beveger seg raskere enn noe datasett, så les skiltet den kvelden og kommunens side før en lang kjøretur.",
+            "Lagre de gratisstedene du liker i <a data-guide=\"save-places-kiwicamping\">samlinger</a>, og bygg så turen med en dato på hvert stopp og en betalt reserve ved siden av nettene som avhenger av en liten parkeringsplass. Planleggeren viser avstand og kjøring for hver etappe og meldingen om været for hvert sted. Gratis å laste ned, med kjøp i appen."
+          ],
+          "tips": [
+            "Filtrer kartet til kjøretøyet ditt",
+            "Lagre en betalt reserve per natt",
+            "Sjekk kommunens side før du kjører"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe på Sørøya?",
+          "Ja, men nesten alltid i et sertifisert self-contained kjøretøy med et grønt warrant og bare der distriktskommunen eller DOC tillater det. Hver kommune setter sine egne steder og netter, fra 15 parkeringsplasser i Queenstown Lakes til det meste av kommunal grunn utenfor listede forbud i Buller og Waitaki."
+        ],
+        [
+          "Hvor kan man campe gratis i telt på Sørøya?",
+          "Mest på DOC-ens gratis grunnleggende campingplasser, som ligger på verneområdegrunn og vanligvis har et utedo. Kommunal grunn er stort sett stengt for telt: Tasman forbyr dem på offentlig grunn, Dunedin tillater dem bare ved Warrington Domain og Marlborough bare for syklister ved Blairich Reserve."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Marlborough District Council: freedom camping"
+        },
+        {
+          "label": "Buller District Council: freedom camping"
+        },
+        {
+          "label": "Grey District Council: høring om vedtekt"
+        },
+        {
+          "label": "Westland District Council: campingplasser og ansvarlig camping"
+        },
+        {
+          "label": "Queenstown Lakes District Council: ansvarlig camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-north-island": {
+      "title": "Freedom camping på Nordøya 2026: hvor det er lovlig, region for region",
+      "description": "Nordøyas regler for freedom camping i 2026, fra Northland til Wellington: hver kommunes steder og nattgrenser, de få stedene et telt eller en usertifisert van kan bli, DOC-grunn, bøter og sommerens hotspots.",
+      "region": "Nordøya",
+      "imageAlt": "Mount Ruapehu under snø bak Waiouru bys skilt på State Highway 1",
+      "intro": "Freedom camping er lovlig over store deler av Nordøya i et sertifisert self-contained kjøretøy, men hver kommune trekker sitt eget kart, og de travle kystene er strengt begrenset. Auckland, Thames-Coromandel og Tauranga tar bare sertifiserte kjøretøy, høyst to netter, mens Whangārei, Waikato District og Taupō fortsatt peker ut steder for varebiler uten toalett. Regn med korte opphold, faste tider og en bot på $400 hvis du gjør det feil.",
+      "sections": [
+        {
+          "heading": "Hva som avgjør om et sted er lovlig",
+          "body": [
+            "Grunneieren avgjør. På kommunal grunn fastsetter distrikts- eller bykommunens vedtekt steder, netter og tider; på verneområdegrunn gjør DOC-ens meldinger det samme; og NZTAs rasteplasser er til for en pause fra kjøringen, ikke for å slå leir. <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 rammer inn alt, og skiltet på stedet har siste ord.",
+            "Siden 7. juni 2026 er det bare et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a> som gjør et kjøretøy self-contained for freedom camping, så en eldre van med et blått merke teller som usertifisert. På kommunal grunn kan et usertifisert kjøretøy eller et telt bare bli der vedtekten har avsatt et sted til det, og de stedene er unntaket på Nordøya, ikke regelen."
+          ],
+          "tips": [
+            "Grunneierens regler gjelder",
+            "Bare grønne warrants siden 7. juni 2026",
+            "Rasteplasser er ikke campingplasser"
+          ]
+        },
+        {
+          "heading": "Northland",
+          "body": [
+            "Far North District Council holder camping og overnattingsparkering unna parkene, reservatene og strendene sine og sender gratiscampere til sju godkjente steder nær toaletter og vann. Whangārei er mer raus enn de fleste kommuner i landet: Dens <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> lister 23 steder for sertifiserte kjøretøy, 17 der et kjøretøy uten sertifisering kan bli og fem områder for telt, mest for én natt.",
+            "Cape Reinga og Tapotupotu er DOC-grunn der <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> er forbudt, så ytterste nordlige ende av State Highway 1 betyr DOC-ens campingplasser ved Tapotupotu eller Spirits Bay, eller en holiday park. DOC-ens Uretiti Beach Campsite sør for Whangārei er landets største DOC-område med 300 plasser."
+          ],
+          "tips": [
+            "Far North: sju godkjente steder",
+            "Whangārei: steder for telt og usertifiserte varebiler",
+            "Ingen freedom camping ved Cape Reinga"
+          ]
+        },
+        {
+          "heading": "Auckland og Coromandel",
+          "body": [
+            "Auckland lar sertifiserte kjøretøy stå på kommunale veier og parkeringsplasser i to netter på samme sted, borte før kl. 9 på morgenen du drar, men 58 områder er forbudt, 20 er begrenset, og kommunale reservater og regionale parker er stengt for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>. Et telt eller en usertifisert van trenger en campingplass eller en av de regionale parkenes campingplasser, som bestilles og betales.",
+            "Thames-Coromandel forbyr freedom camping i 84 listede områder og begrenser det i ytterligere 25, og bare sertifiserte kjøretøy kan bruke de begrensede, i to netter på rad mellom kl. 17 og 9. Halvøyas <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a>, som Waikawau Bay med 132 plasser, bestilles via DOC og fylles hele januar."
+          ],
+          "tips": [
+            "Auckland: to netter, borte før kl. 9",
+            "Coromandel: 84 forbudte områder",
+            "Bestill DOC-ens Coromandel-steder tidlig"
+          ]
+        },
+        {
+          "heading": "Waikato, Bay of Plenty og Rotorua",
+          "body": [
+            "Waikato District gir sertifiserte kjøretøy en generell tillatelse utenfor sine forbudte områder, i tre netter i hvert område per måned, og lar usertifiserte kjøretøy bli to netter ved Onewhero Domain og Te Kauwhata Domain. James Street i Raglan har vært forbudt siden desember 2025, og Raglans øvrige regler hører til samme kommune.",
+            "Tauranga tillater bare sertifiserte kjøretøy, i de reservatene, veiene og parkeringsplassene dens <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> lister, i to netter per sted per kalendermåned. Whakatāne har fire steder for sertifiserte kjøretøy i Whakatāne og Ōhope, og Aniwhenua Reserve nær Murupara tar kjøretøy som ikke er self-contained. Rotorua driver tre gratissteder for sertifiserte kjøretøy og tre betalte sjøreservater, hvorav to tar telt."
+          ],
+          "tips": [
+            "Waikato: tre netter per område",
+            "Tauranga: bare sertifiserte kjøretøy",
+            "Rotorua: telt ved to betalte reservater"
+          ]
+        },
+        {
+          "heading": "Taupō og det sentrale platået",
+          "body": [
+            "Taupō District lar sertifiserte kjøretøy campe på kommunal grunn utenfor sine forbudte områder og peker ut tre områder for alle andre: Hipapatua Reid's Farm ved Waikato River, Mangakino og Whakamaru. Det meste av sjøkanten er reservatgrunn der camping ikke er tillatt, og Five Mile Bay har vært stengt for campere av Ngāti Tūwharetoa siden 2020. Taupō-guiden vår har detaljene.",
+            "Rundt Tongariro National Park er grunnen DOC-ens, og KiwiCampings data inneholder 22 DOC-meldinger om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> i Tongariro-distriktet, 17 av dem forbyr camping, inkludert Whakapapa Village. Bruk DOC-ens Mangahuia Campsite eller en holiday park ved Whakapapa Village, National Park-landsbyen eller Ohakune."
+          ],
+          "tips": [
+            "Taupō: tre steder for usertifiserte varebiler",
+            "Det meste av sjøkanten er reservat",
+            "Tongariro: bruk DOC-campingplasser"
+          ]
+        },
+        {
+          "heading": "Taranaki, Hawke's Bay og østkysten",
+          "body": [
+            "New Plymouth forbyr telt på offentlig grunn og lar sertifiserte kjøretøy freedom campe i hele distriktet i tre netter innen 30 dager. Kjøretøy uten sertifisering har to kommunale steder, Lake Rotomanu og Battiscombe Terrace i Waitara, med seks plasser hver og én natt innen 30 dager.",
+            "Hawke's Bay og Gisbornes kommuner tillater <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på bestemte kyststeder, noen med en tillatelse som ordnes før du ankommer, så les kommunens side for Napier, Hastings eller Tairāwhiti-strendene. På East Cape er DOC-ens campingplasser som Anaura Bay de pålitelige nettene, og mange er enkle og billige."
+          ],
+          "tips": [
+            "New Plymouth: ingen telt på offentlig grunn",
+            "Noen steder på østkysten krever en tillatelse",
+            "Anaura Bay er DOC-ens største på neset"
+          ]
+        },
+        {
+          "heading": "Wellington og sørlige Nordøya",
+          "body": [
+            "Wellington City tillater bare sertifiserte kjøretøy, og dens gratissteder er to parkeringsplasser: Evans Bay Marina med 52 plasser og Te Kopahou Visitors Centre med 16. Hver tillater fire netter på rad innen en kalendermåned, og grunn under Reserves Act og Town Belt Act er stengt for camping. Det gjør natten før en tidlig <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait-ferge</a> enkel å planlegge.",
+            "Kāpiti, Horowhenua, Manawatū og Wairarapas kommuner setter hver sine korte lister, så sjekk kommunen før en natt ved kysten. DOC-ens Holdsworth Campsite i Tararua-forberga har 150 plasser, og Catchpool Valley i Remutaka Forest Park er det nærmeste DOC-området til byen."
+          ],
+          "tips": [
+            "Wellington: Evans Bay og Te Kopahou",
+            "Fire netter i måneden i Wellington",
+            "Holdsworth og Catchpool for DOC-netter"
+          ]
+        },
+        {
+          "heading": "Bøter og de travleste ukene",
+          "body": [
+            "De nasjonale avgiftene gjelder overalt: $400 for camping i strid med en <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> eller i et usertifisert kjøretøy der sertifisering kreves, $200 for et warrantkort som ikke vises, $600 for å nekte å forlate stedet når en tjenestemann ber om det og $800 for å etterlate avfall eller skade stedet. Et utleiefirma sender meldingen videre til leietakeren.",
+            "Håndheving og etterspørsel topper mellom jul og slutten av januar på Coromandel, i Northland og rundt Taupō, når mange kommunale steder fylles før det blir mørkt. De nettene slår en bestilt <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplass</a> eller holiday park å kjøre rundt mellom fulle parkeringsplasser."
+          ],
+          "tips": [
+            "$400 for de fleste overtredelser",
+            "Utleiere sender bøter videre",
+            "Bestill i forveien fra jul til januar"
+          ]
+        },
+        {
+          "heading": "Uten et sertifisert kjøretøy",
+          "body": [
+            "Et telt eller en bil kan fortsatt sove billig på Nordøya, mest på DOC-grunn og på betalte plasser. KiwiCampings DOC-data lister 122 DOC-campingplasser i øyas regioner, fra gratis grunnleggende steder til bestilte plasser med dusjer, og DOC-ens <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping-regler</a> på verneområdegrunn krever ikke alltid sertifisering. Holiday parks dekker hver by.",
+            "Whangārei, Waikato District, Taupō, Whakatāne, Rotorua og New Plymouth peker alle ut kommunale steder for folk uten toalett om bord, noe som gjør den øvre og midtre delen av øya enklere enn kystene rundt Auckland og Tauranga. Hver rad i tabellen kommer fra den kommunens egen <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-side eller vedtekt."
+          ],
+          "tips": [
+            "122 DOC-campingplasser på øya",
+            "Seks kommuner peker ut usertifiserte steder",
+            "Holiday parks i hver by"
+          ],
+          "table": {
+            "caption": "Bare kommunal grunn, fra hver kommunes side eller vedtekt som lest for kommuneguidene våre i oktober 2026, og Taupōs Freedom Camping Bylaw 2023. DOC-grunn følger DOC-ens meldinger.",
+            "head": [
+              "Kommune",
+              "Sertifisert self-contained",
+              "Uten sertifisering"
+            ],
+            "rows": [
+              [
+                "Far North",
+                "Sju godkjente steder",
+                "Ikke oppgitt; sjekk kommunens liste"
+              ],
+              [
+                "Whangārei",
+                "23 listede steder",
+                "17 steder for kjøretøy, fem teltområder"
+              ],
+              [
+                "Auckland",
+                "Kommunale veier og parkeringsplasser utenfor 78 listede områder, to netter",
+                "Campingplasser"
+              ],
+              [
+                "Thames-Coromandel",
+                "25 begrensede områder, to netter, kl. 17 til 9",
+                "Campingplasser"
+              ],
+              [
+                "Waikato District",
+                "Utenfor forbudte områder, tre netter per område",
+                "Onewhero og Te Kauwhata Domains, to netter"
+              ],
+              [
+                "Tauranga",
+                "Listede reservater og parkeringsplasser, to netter i måneden",
+                "Campingplasser"
+              ],
+              [
+                "Whakatāne",
+                "Fire steder, tre netter innen fire uker",
+                "Aniwhenua Reserve"
+              ],
+              [
+                "Rotorua",
+                "Tre gratis og tre betalte steder",
+                "Telt ved Lake Ōkaro og Guy Roe Reserve"
+              ],
+              [
+                "Taupō",
+                "Kommunal grunn utenfor forbudte områder",
+                "Reid's Farm, Mangakino og Whakamaru"
+              ],
+              [
+                "New Plymouth",
+                "I hele distriktet, tre netter innen 30 dager",
+                "To steder, én natt; ingen telt"
+              ],
+              [
+                "Wellington City",
+                "Evans Bay og Te Kopahou, fire netter i måneden",
+                "Campingplasser"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Planlegg netter på Nordøya med KiwiCamping",
+          "body": [
+            "KiwiCamping samler områder for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, DOC-campingplasser, hytter, holiday parks og tømmestasjoner på ett kart over Nordøya, og filtrene snevrer det inn til det som passer kjøretøyet ditt. Kommunale steder endrer seg med hver vedtekt, så behandle kartet som kortlisten og kommunens side og skiltet som svaret.",
+            "Lagre stedene du liker i <a data-guide=\"save-places-kiwicamping\">samlinger</a>, og planlegg så turen med en dato på hvert stopp, et notat om reglene og en betalt reserve for nettene rundt jul. Hver etappe viser sin avstand og kjøring, og hvert sted sin melding om været. Gratis å laste ned, med kjøp i appen."
+          ],
+          "tips": [
+            "Lag en kortliste på kartet",
+            "Bekreft med kommunen og skiltet",
+            "Ha en reserve for sommernetter"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe på Nordøya?",
+          "Ja, i et sertifisert self-contained kjøretøy, der kommunens vedtekt eller DOC-ens melding tillater det. Grensene er korte: to netter i Auckland, Thames-Coromandel og Tauranga, tre i Waikato District og New Plymouth, fire i måneden ved Wellingtons to steder."
+        ],
+        [
+          "Hvor kan man freedom campe på Nordøya uten et self-contained kjøretøy?",
+          "Bare på kommunale steder som er avsatt til det, som Whangāreis listede steder, Onewhero og Te Kauwhata Domains i Waikato, Reid's Farm nær Taupō og Lake Rotomanu i New Plymouth, eller på DOC-grunn der ingen melding krever sertifisering. Ellers bruk en DOC-campingplass eller en holiday park."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Thames-Coromandel District Council: freedom camping"
+        },
+        {
+          "label": "Waikato District Council: freedom camping"
+        },
+        {
+          "label": "Taupō District Council: freedom camping"
+        },
+        {
+          "label": "Wellington City Council: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-taupo": {
+      "title": "Freedom camping i Taupō 2026: Reid's Farm, innsjøen og reglene",
+      "description": "Freedom camping rundt Taupō i 2026: hvem som kan bli hvor etter kommunens vedtekt fra 2023, Hipapatua Reid's Farm, Mangakino og Whakamaru, hvorfor det meste av sjøkanten er stengt, DOC-grunn nær Tūrangi og bøter.",
+      "region": "Taupō",
+      "imageAlt": "Lake Taupō sett fra en gressbevokst park ved innsjøen med Taupō by på den andre bredden",
+      "intro": "I Taupō District kan et sertifisert self-contained kjøretøy freedom campe på kommunal grunn utenfor områdene kommunens Freedom Camping Bylaw 2023 forbyr, noe som omfatter det meste av sjøfronten. Alle andre, telt og varebiler uten toalett inkludert, er begrenset til tre kommunale områder: Hipapatua Reid's Farm ved Waikato River nord for byen, Mangakino og Whakamaru. Oppholdene er korte, vanligvis tre netter, og skiltet ved hvert sted angir detaljene.",
+      "sections": [
+        {
+          "heading": "Vedtekten fra 2023 i korte trekk",
+          "body": [
+            "Taupō District Council vedtok sin <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2023 den 26. september 2023, og den trådte i kraft 16. oktober 2023 og erstattet vedtekten fra 2017. Modellen er enkel: Et sertifisert self-contained kjøretøy kan campe hvor som helst på kommunal grunn unntatt de forbudte områdene, og all annen freedom camping er begrenset til områdene i dens vedlegg.",
+            "Siden 7. juni 2026 er det bare et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a> som gjør et kjøretøy self-contained, så en van med et gammelt blått sertifikat hører nå til den andre gruppen sammen med teltene. Vedtekten dekker bare kommunal grunn; innsjøbunnen tilhører Ngāti Tūwharetoa, og mye av grunnen sør og øst for innsjøen er DOC-ens."
+          ],
+          "tips": [
+            "I kraft siden 16. oktober 2023",
+            "Sertifiserte kjøretøy: kommunal grunn utenfor forbud",
+            "Alle andre: tre utpekte områder"
+          ]
+        },
+        {
+          "heading": "Hipapatua Reid's Farm",
+          "body": [
+            "Reid's Farm er det <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-stedet i Taupō som de fleste reisende kjenner: et rekreasjonsreservat ved elva på Huka Falls Road, noen få minutter nord for byen, med toaletter, piknikbord og Waikato River for en svømmetur. Fordi det har toaletter, er det ett av de tre områdene der kjøretøy uten sertifisering kan bli, og det er gratis.",
+            "Det er ingen strøm og intet drikkevann, så kom med fulle tanker eller flasker og ta med deg hver minste søppel. Stedet er travelt fra desember til mars, det har vært stengt i perioder tidligere, og oppholdsgrensen er kort, så sjekk kommunens side før du planlegger en natt rundt det, og ha en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> i byen som reserve."
+          ],
+          "tips": [
+            "Gratis, med toaletter",
+            "Intet drikkevann",
+            "Travelt hele sommeren"
+          ]
+        },
+        {
+          "heading": "Mangakino og Whakamaru",
+          "body": [
+            "De to andre områdene for telt og usertifiserte kjøretøy ligger ved vannkraftsjøene på Waikato River, vest for Taupō. Mangakino Recreation Reserve ligger ved Lake Maraetais bredd, og Whakamaru Recreation Reserve ligger ved Lake Whakamaru, begge under en times kjøring fra Taupō.",
+            "De passer en roligere rute mellom Taupō og Waitomo eller Hamilton på State Highway 30 heller enn en base for selve innsjøen. Begge er reservater ved innsjøen med offentlige toaletter i nærheten, og om sommeren trekker de vannskiløpere og båtcampere i tillegg til varebiler."
+          ],
+          "tips": [
+            "Lake Maraetai ved Mangakino",
+            "Lake Whakamaru ved SH30",
+            "Gode stopp på vei mot Waitomo"
+          ]
+        },
+        {
+          "heading": "Hvorfor sjøfronten for det meste er stengt",
+          "body": [
+            "Det meste av sjøkanten og Waikato Rivers bredder rundt Taupō er offentlige reservater, og Reserves Act hindrer allerede <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på dem med mindre en plan tillater det. Det dekker den lange strekningen av parker ved innsjøen i byen der varebiler pleide å parkere, så et hav av campere langs Lake Terrace er ikke lovlig.",
+            "Five Mile Bay, sør for byen, var en gang det travleste freedom camping-området ved innsjøen med opptil 100 kjøretøy per natt. Mye av det ble tilbakeført til Ngāti Tūwharetoa i deres Treaty-oppgjør i 2018, og iwien stengte det for kjøretøy og camping med en rāhui i juni 2020. Turgåere og syklister kan fortsatt bruke bredden."
+          ],
+          "tips": [
+            "Reservater er stengt for camping",
+            "Ingen camping langs Lake Terrace",
+            "Five Mile Bay stengt siden 2020"
+          ]
+        },
+        {
+          "heading": "DOC-grunn rundt Tūrangi og Tongariro",
+          "body": [
+            "Sør for innsjøen er Tongariro River, Kaimanawa Forest Park og Tongariro National Park verneområdegrunn. KiwiCampings DOC-data inneholder 28 DOC-meldinger om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> i Tūrangi-distriktet, 21 av dem forbyr camping og 7 begrenser det til self-contained kjøretøy, inkludert det store Whakaipo amenity area på innsjøens nordvestlige bredd.",
+            "For et telt eller en usertifisert van er det pålitelige valget en <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplass</a>. Sentrale Nordøya har 14 av dem i KiwiCampings data, ni av dem gratis, mange i Kaimanawa Forest Park, med voksensatser fra $10 der en avgift gjelder. Guiden vår om Nordøya dekker vulkanplatået bortenfor dem."
+          ],
+          "tips": [
+            "28 DOC-meldinger nær Tūrangi",
+            "Whakaipo: bare self-contained",
+            "Ni gratis DOC-campingplasser i regionen"
+          ]
+        },
+        {
+          "heading": "Avfall, vann og ild",
+          "body": [
+            "Sertifiserte kjøretøy bør ankomme med tomme tanker og forlate stedet på samme måte: Byen har offentlige <a data-guide=\"camping-wastewater-rubbish-new-zealand\">tømmestasjoner</a>, og KiwiCamping markerer dem slik at du kan finne den nærmeste før du slår deg ned. Tøm aldri gråvann på bakken i et reservat, noe som er et lovbrudd på $800 og den raskeste veien til å få et sted stengt.",
+            "Taupō-regionen tørker ut om sommeren, og brannrestriksjoner er vanlige. Sjekk brannsesongen for området før du tenner et gasskomfyr utenfor vanen, og ikke tenn bål ved kommunale eller DOC-ens områder for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>."
+          ],
+          "tips": [
+            "Ankom med tomme tanker",
+            "Gråvann på bakken koster $800",
+            "Sjekk brannsesongen om sommeren"
+          ]
+        },
+        {
+          "heading": "Bøter",
+          "body": [
+            "Kommunen bruker de nasjonale avgiftene. Camping der vedtekten forbyr det, eller på et sted for sertifiserte kjøretøy i en van uten et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a>, koster $400; et warrantkort som ikke vises er $200; å nekte å forlate stedet når en tjenestemann ber om det er $600; og å etterlate avfall eller skade området er $800.",
+            "Meldinger for leide kjøretøy går til utleiefirmaet, som sender dem videre til leietakeren. Regn med patruljer rundt byen og ved Reid's Farm hele sommeren."
+          ],
+          "tips": [
+            "$400 for de fleste overtredelser",
+            "$800 for avfall eller skade",
+            "Utleiere sender bøter videre"
+          ]
+        },
+        {
+          "heading": "Bruk KiwiCamping rundt Taupō",
+          "body": [
+            "KiwiCamping viser områdene for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, DOC-campingplasser, holiday parks og tømmestasjoner rundt innsjøen, og filtrene viser bare stedene som tar kjøretøyet ditt eller et telt. Et kommunalt område kan stenge med kort varsel, så behandle kartet som planen og skiltet som regelen.",
+            "Lagre Reid's Farm og en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> side om side i en samling, og bygg så stoppet inn i en reise med datoer, kjøringen fra Rotorua eller Tongariro og meldingen om været for hver natt. Gratis å laste ned, med kjøp i appen."
+          ],
+          "tips": [
+            "Filtrer for telt eller usertifiserte varebiler",
+            "Lagre en holiday park som reserve",
+            "Sjekk skiltet ved ankomst"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe i Taupō?",
+          "Ja, i et sertifisert self-contained kjøretøy på kommunal grunn utenfor områdene vedtekten fra 2023 forbyr, noe som omfatter de fleste reservatene ved innsjøen. Uten sertifisering eller i et telt er bare Hipapatua Reid's Farm, Mangakino og Whakamaru åpne for deg."
+        ],
+        [
+          "Er Reid's Farm gratis?",
+          "Ja. Hipapatua Reid's Farm på Huka Falls Road er et gratis kommunalt område med toaletter, men uten drikkevann, og oppholdet er kort. Det er travelt hele sommeren, så ha en betalt campingplass i byen som reserve."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Taupō District Council: freedom camping"
+        },
+        {
+          "label": "Taupō District Council: Freedom Camping Bylaw 2023"
+        },
+        {
+          "label": "Rotorua Daily Post: Five Mile Bay stengt for freedom campere (juni 2020)"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-west-coast": {
+      "title": "Freedom camping på West Coast 2026: Fra Karamea til Haast, by for by",
+      "description": "Hvor du kan freedom campe på Sørøyas West Coast i 2026: reglene i Buller, Grey og Westland, Punakaiki og isbreby-ene, fellesskapets plasser, DOC-campingplasser, tømmestasjoner og bøter.",
+      "region": "West Coast",
+      "imageAlt": "Drivved og grå steiner på stranden ved Hokitika under en klar himmel med Tasman Sea bak",
+      "intro": "West Coast er et av de lettere stedene på Sørøya å freedom campe i et sertifisert self-contained kjøretøy, men hver av de tre kommunene gjør det på sin måte. Buller og Grey lar sertifiserte kjøretøy bli på det meste av den kommunale grunnen utenfor en liste over forbudte steder, og Westland henviser dem til tre steder drevet av lokalsamfunnet. Punakaiki, Fox Glacier og strekningen sørover til Haast er de trange stedene, og et telt eller en van uten toalett trenger en DOC-campingplass eller en holiday park.",
+      "sections": [
+        {
+          "heading": "Tre kommuner langs én hovedvei",
+          "body": [
+            "Kystveien løper mer enn 500 kilometer fra Karamea i nord til Haast i sør gjennom distriktene Buller, Grey og Westland. Hver kommune har sin egen vedtekt om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, og grensen mellom dem er lett å krysse uten å merke det, så regelen som gjaldt til lunsj, gjelder kanskje ikke til middag.",
+            "To nasjonale regler gjelder overalt. Siden 7. juni 2026 teller bare et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a> som self-contained, og på kommunal grunn kan et kjøretøy uten ett bare bli der en vedtekt peker ut et sted for det. På kysten peker ingen kommune for øyeblikket ut et slikt sted, så for telt og usertifiserte vans er svaret DOC eller en campingplass."
+          ],
+          "tips": [
+            "Tre kommuner, tre vedtekter",
+            "Bare grønne warrants",
+            "Ingen kommunale steder for usertifiserte vans"
+          ]
+        },
+        {
+          "heading": "Buller: Karamea, Westport og Charleston",
+          "body": [
+            "Bullers vedtekt lar et <a data-guide=\"self-contained-campervan-green-warrant\">sertifisert self-contained</a> kjøretøy campe på kommunal grunn hvor som helst utenfor dens soner med campingforbud. Vedtekten tillater opptil tre sammenhengende dager og ti i måneden på ett sted, og kommunens egen side ber om høyst to netter ett sted. Sonene omfatter Oparara River-munningen og Flagstaff ved Karamea, Buller River tipheads og Carters Beach Domain nær Westport, Tauranga Bay, Constant Bay og Joyce Bay ved Charleston samt deler av Reeftons hovedgater.",
+            "<a data-guide=\"camping-rules-local-councils-new-zealand\">Vedtekten</a> er fra 2012, og kommunen har sagt at den skal ha høring om en ny i 2026, så les dens side før du stoler på den gamle listen. DOC-ens Buller-distrikt legger til syv egne meldinger, hvorav to begrenser camping til self-contained kjøretøy."
+          ],
+          "tips": [
+            "Sertifiserte kjøretøy: kommunal grunn utenfor sonene",
+            "To netter ett sted, ber kommunen om",
+            "En ny vedtekt er på vei"
+          ]
+        },
+        {
+          "heading": "Punakaiki og Paparoa-kysten",
+          "body": [
+            "Buller forbyr <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> på kommunal grunn fra Fox River sørover til Punakaiki River, bortsett fra veikorridoren, og resten av kysten der er Paparoa National Park. I praksis betyr det ingen gratis natt ved Pancake Rocks: Bli på campingplassen i Punakaiki, eller planlegg natten ved Charleston eller nord for Greymouth.",
+            "Paparoa Track starter og slutter i nærheten, og dens tre hytter er DOC-ens, bestilt gjennom DOC heller enn kommunen."
+          ],
+          "tips": [
+            "Ingen freedom camping ved Punakaiki",
+            "Bestill campingplassen der",
+            "Paparoa Track-hyttene bestilles"
+          ]
+        },
+        {
+          "heading": "Grey: Greymouth og Lake Brunner",
+          "body": [
+            "Grey District lar sertifiserte kjøretøy campe på kommunal grunn utenfor dens forbudte områder, som omfatter deler av Jacks Road, stedet ved Cobden Bridge, Iveagh Bay, Moana-strandkanten ved Lake Brunner og Blaketown tiphead, der noen er kartlagt som områder sertifiserte kjøretøy kan bruke. Kommunen godkjente en oppdatert <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> 28. september 2026 som tillater tre netter innen fire uker og setter nattvinduet til kl. 19 til kl. 8.",
+            "Kommunen vurderer fortsatt om den skal åpne noe område for kjøretøy uten sertifisering. Til da er Greymouths holiday parks og <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassene</a> langs kysten alternativene for et telt."
+          ],
+          "tips": [
+            "Tre netter på fire uker",
+            "Natten fra kl. 19 til kl. 8",
+            "Moana-strandkanten er kartlagt"
+          ]
+        },
+        {
+          "heading": "Westland: Hokitika til Haast",
+          "body": [
+            "Westland District sender sertifiserte kjøretøy til tre steder drevet av lokalsamfunnet, Kumara Domain, Woodstock Domain ved Rimu og Paringa Salmon Farm, med en forespørsel om en donasjon. Kommunale reservater er stengt etter Reserves Act, og kommunen ber teltcampere og usertifiserte kjøretøy bruke kommersielle campingplasser.",
+            "Et utkast til en <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> fra 2024 foreslo flere steder, blant annet Sunset Point i Hokitika, parkeringsplassen ved helikopterplassen i Franz Josef og lekeplassen i Haast, men dens vedtak er ikke bekreftet. Til kommunen bekrefter den, er det skiltet på natten som teller."
+          ],
+          "tips": [
+            "Kumara, Rimu og Paringa",
+            "En donasjon etterspørres",
+            "Vedtektsutkastet er ikke bekreftet"
+          ]
+        },
+        {
+          "heading": "Franz Josef, Fox Glacier og lengst i sør",
+          "body": [
+            "Isbreområdet er der en gratis natt er vanskeligst. Westlands utkast lister Fox Glacier township som forbudt uten et sted av sin egen, og DOC-ens South Westland-distrikt har 18 meldinger om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, hvorav 17 forbyr camping ved parkeringsplasser for stier som Roaring Billy. I januar fylles holiday parks i Franz Josef og Fox tidlig.",
+            "DOC-ens Gillespies Beach Campsite nær Fox og Lake Paringa lenger sør er de nærmeste DOC-nettene, og Haast har en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> og en kommunal tømmestasjon. Etter Haast stiger veien inn i Mount Aspiring National Park mot Wānaka, og Wānaka-guiden overtar derfra."
+          ],
+          "tips": [
+            "Fox Glacier: ikke noe gratis sted",
+            "Gillespies Beach er DOC",
+            "Bestill isbrenetter om sommeren"
+          ]
+        },
+        {
+          "heading": "DOC-campingplasser på kysten",
+          "body": [
+            "KiwiCampings DOC-data lister 14 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> i West Coast-regionen, 12 av dem kan bestilles på nett, med voksenpriser fra $10 til $20 per natt. Lake Māhinapua nær Hokitika er den største med 100 plasser, og Lewis Pass reserve har to.",
+            "Dette er de pålitelige nettene for et telt eller en usertifisert van. De har toaletter, og de fleste tar kjøretøy, og de er billigere enn en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>. Ta med myggmiddel: Kystens sandfluer er berømte, og innsjøene og elvene er der de er verst."
+          ],
+          "tips": [
+            "14 DOC-campingplasser",
+            "Lake Māhinapua har 100 plasser",
+            "Sandfluer ved hver innsjø"
+          ]
+        },
+        {
+          "heading": "Tømmestasjoner, regn og bøter",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Tømmestasjoner</a> er tynt spredt. Westland lister dem ved Hokitikas oksidasjonsdammer, ved Franz Josef og ved toalettene på Marks Road i Haast, og Westport og Greymouth har sine egne, så tøm tankene dine i hver by heller enn å gamble på den neste. Kysten får kraftig regn i alle årstider, og elveletter og strandparkeringsplasser kan oversvømmes, så sjekk værmeldingen før du velger et sted ved en elv.",
+            "Bøtene er de nasjonale: $400 for camping i strid med en <a data-guide=\"camping-rules-local-councils-new-zealand\">vedtekt</a> eller i et usertifisert kjøretøy der sertifisering kreves, $200 for et manglende warrantkort og $800 for avfall eller skade. Bullers side nevner fortsatt en bot på $200, men det er de nasjonale $400 som gjelder etter dagens lov."
+          ],
+          "tips": [
+            "Tøm tanker i hver by",
+            "Pass på oversvømmelse",
+            "$400 for de fleste overtredelser"
+          ]
+        },
+        {
+          "heading": "Planlegg kysten med KiwiCamping",
+          "body": [
+            "KiwiCamping viser områder for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, DOC-campingplasser, holiday parks og tømmestasjoner fra Karamea til Haast på kartet, så de lange hullene mellom dem er lette å se før du kjører. Filtrer etter hva kjøretøyet ditt trenger, og sjekk hver kommunes side for dens nyeste liste.",
+            "Bygg kysten som én reise, med et datert stopp for hver natt, en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> lagret som reserve for Punakaiki og isbreby-ene og avstanden og værmeldingen for hver etappe. Gratis å laste ned, med kjøp i appen."
+          ],
+          "tips": [
+            "Se hullene før du kjører",
+            "Reserver for Punakaiki og Fox",
+            "Værmeldingen for hver natt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe på West Coast på Sørøya?",
+          "Ja, i et sertifisert self-contained kjøretøy. Buller og Grey tillater det på det meste av den kommunale grunnen utenfor deres listede forbud, og Westland på tre steder drevet av lokalsamfunnet ved Kumara, Rimu og Paringa. Telt og vans uten et grønt warrant trenger en DOC-campingplass eller en campingplass."
+        ],
+        [
+          "Kan man freedom campe ved Punakaiki eller Fox Glacier?",
+          "Ikke på kommunal grunn. Buller forbyr det fra Fox River til Punakaiki River, og Fox Glacier township står på Westlands liste over forbudte steder, så bestill campingplassen ved Punakaiki eller en holiday park eller DOC-campingplass nær isbreene."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Buller District Council: freedom camping"
+        },
+        {
+          "label": "Buller District Council: Freedom Camping Bylaw 2012 (endret 2018)"
+        },
+        {
+          "label": "Grey District Council: ofte stilte spørsmål om freedom camping"
+        },
+        {
+          "label": "Grey District Council: høring om Responsible Freedom Camping Bylaw"
+        },
+        {
+          "label": "Westland District Council: campingplasser og ansvarlig camping"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-wanaka": {
+      "title": "Freedom camping i Wānaka 2026: Parkeringsplassene, Hāwea og Luggate",
+      "description": "Hvor du kan freedom campe rundt Wānaka i 2026: kommunens anviste parkeringsplasser ved Recreation Centre, Beacon Point Road og Hāwea, Luggate Red Bridge, stengingen av Allenby Place, desembers vedtektsbeslutning, DOC-campingplasser og bøter.",
+      "region": "Wānaka",
+      "imageAlt": "Nordarmen av Lake Wānaka, dypblå mellom tørre åser og fjerne fjell",
+      "intro": "Rundt Wānaka er freedom camping på kommunal grunn bare tillatt i et sertifisert self-contained kjøretøy og bare på anviste parkeringsplasser: Wānaka Recreation Centre, Beacon Point Road og Camp Hill Road ved Lake Hāwea samt Luggate Red Bridge Reserve under dens skilt. Du ankommer etter kl. 18, drar før kl. 8 og blir høyst to netter innen 30 dager. Alt annet i byen, strandkanten medregnet, er forbudt, og kommunen avgjør endringer av disse stedene 17. desember 2026.",
+      "sections": [
+        {
+          "heading": "Reglene i ett avsnitt",
+          "body": [
+            "Wānaka ligger i Queenstown Lakes District, så kommunens <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2025 gjelder, den som trådte i kraft 1. desember 2025 etter at High Court opphevet vedtekten fra 2021. Den forbyr freedom camping i tettbygde områder, parkering på veien medregnet, holder de fleste kommunale reservater stengt etter Reserves Act og åpner markerte plasser på anviste parkeringsplasser for sertifiserte self-contained kjøretøy.",
+            "Siden 7. juni 2026 teller bare et <a data-guide=\"self-contained-campervan-green-warrant\">grønt warrant</a>, så en van uten ett, en bil eller et telt kan ikke bruke parkeringsplassene i det hele tatt. Plassene er gratis, kan ikke bestilles og fungerer etter førstemann til mølla. Guiden vår til Queenstown Lakes dekker resten av distriktet, fra Kingston til Glenorchy."
+          ],
+          "tips": [
+            "Bare sertifiserte kjøretøy",
+            "Ankom etter kl. 18, dra før kl. 8",
+            "To netter innen 30 dager"
+          ]
+        },
+        {
+          "heading": "De anviste parkeringsplassene",
+          "body": [
+            "Parkeringsplassen ved Wānaka Recreation Centre er det viktigste stedet, med 18 markerte plasser på kommunens liste, tre midlertidige plasser lagt til da Allenby Place stengte og et forslag om å gjøre det til 21. Beacon Point Road har tre plasser, og Camp Hill Road ved Lake Hāwea har ti. Tallene er kommunens, og stedene fylles tidlig fra jul til slutten av februar.",
+            "Allenby Place, en gang byens sted med tre plasser, har vært stengt for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> siden 23. januar 2026. Kommunen nevnte problemer med adkomst og sikkerhet på grunn av den ekstra trafikken og flyttet plassene til Recreation Centre."
+          ],
+          "tips": [
+            "Recreation Centre: 18 plasser",
+            "Beacon Point Road: 3",
+            "Camp Hill Road, Hāwea: 10"
+          ],
+          "table": {
+            "caption": "Queenstown Lakes District Councils anviste parkeringsplasser rundt Wānaka, fra dens meldinger i november 2025 og januar 2026. Bare sertifiserte self-contained kjøretøy.",
+            "head": [
+              "Parkeringsplass",
+              "Sted",
+              "Plasser"
+            ],
+            "rows": [
+              [
+                "Wānaka Recreation Centre",
+                "Wānaka",
+                "18 (21 foreslått)"
+              ],
+              [
+                "Beacon Point Road",
+                "Wānaka",
+                "3"
+              ],
+              [
+                "Camp Hill Road",
+                "Lake Hāwea",
+                "10"
+              ],
+              [
+                "Allenby Place",
+                "Wānaka",
+                "Stengt siden 23. januar 2026"
+              ],
+              [
+                "Luggate Red Bridge Reserve",
+                "Luggate",
+                "Tillatt etter reservatets skilt"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Luggate Red Bridge",
+          "body": [
+            "Luggate Red Bridge Reserve, ved Clutha River omtrent 15 minutter øst for Wānaka, er det ene kommunale reservatet der kommunen tillater camping, med forbehold om vilkårene på dens skilt. Det er populært blant reisende på vei mot Cromwell eller Lindis Pass, og elvekanten er et fint sted å bade en varm ettermiddag.",
+            "Les tavlen når du ankommer, for det er vilkårene som er satt der tjenestemennene håndhever, og kommunens melding plasserer brudd på dem øverst på bøteskalaen."
+          ],
+          "tips": [
+            "Det ene reservatet åpent for camping",
+            "Les tavlen når du ankommer",
+            "Nær SH6 og SH8A"
+          ]
+        },
+        {
+          "heading": "Beslutningen i desember 2026",
+          "body": [
+            "Kommunen holdt høring til 31. august 2026 om endringer som dekker de tre stedene i Wānaka: Allenby Place, Beacon Point Road og Recreation Centre. Høringene gikk i slutten av oktober, og behandlingen og vedtaket er satt til 17. desember 2026, så kartet kan endre seg akkurat når sommerens høysesong begynner.",
+            "Frem til da gjelder listen fra 2025. Sjekk kommunens side om <a data-guide=\"responsible-camping-new-zealand\">ansvarlig camping</a> og dens Responsible Camping Map før du regner med en plass i Wānaka over jul og nyttår."
+          ],
+          "tips": [
+            "Beslutning ventes 17. desember 2026",
+            "Listen fra 2025 gjelder til da",
+            "Sjekk kommunens kart"
+          ]
+        },
+        {
+          "heading": "Hvor telt og usertifiserte vans kan være",
+          "body": [
+            "Et telt eller en usertifisert van trenger en campingplass rundt Wānaka. Det finnes campingplasser og <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> i byen, ved Albert Town, ved Glendhu Bay og ved Lake Hāwea, og de er den pålitelige sengen fra desember til mars.",
+            "DOC driver campingplasser lenger ut, ved Kidds Bush på Lake Hāwea og langs Haast Pass-veien forbi Makarora, der turen mot West Coast begynner. KiwiCampings data lister 30 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> i hele Otago, åtte av dem gratis, med voksenpriser fra $5 der en avgift gjelder. Rutaguiden vår fra Wānaka til Haast Pass knytter dem sammen."
+          ],
+          "tips": [
+            "Holiday parks i byen og ved Hāwea",
+            "DOC-campingplasser mot Makarora",
+            "Åtte gratis DOC-steder i Otago"
+          ]
+        },
+        {
+          "heading": "DOC-grunn, innsjøene og dalene",
+          "body": [
+            "Mye av grunnen rundt innsjøene og opp Matukituki valley mot Mount Aspiring er verneområdegrunn, der DOC-ens meldinger heller enn kommunens vedtekt setter reglene. KiwiCampings data inneholder 29 DOC <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-meldinger i Wakatipu-distriktet og 13 i Central Otago, de fleste av dem forbyr camping ved parkeringsplasser og stiinnganger.",
+            "På DOC-grunn forbyr eller begrenser en melding på stedet camping, og uten melding gjelder DOC-ens generelle regler. Innsjøstrender og elveletter nær Wānaka er ofte reservat, privat grunn eller DOC-grunn med en melding, så en stille grusholdeplass ved veien er sjelden det gratisstedet den ser ut til å være."
+          ],
+          "tips": [
+            "29 DOC-meldinger i Wakatipu",
+            "13 i Central Otago",
+            "Holdeplasser ved innsjøen er sjelden lovlige"
+          ]
+        },
+        {
+          "heading": "Bøter og patruljer",
+          "body": [
+            "Kommunens startbot for å bryte vedtekten eller <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act er $400, i tråd med den nasjonale skalaen, som også fastsetter $200 for et manglende warrantkort og $800 for avfall eller skade. Dens melding lister camping på kommunale reservater, eller brudd på vilkårene ved Luggate Red Bridge, til $800.",
+            "Kommunale tjenestemenn patruljerer stedene i Wānaka gjennom sommeren. For et akutt freedom camping-problem er kommunens Wānaka-linje 03 443 0024 åpen hele døgnet, og Snap Send Solve eller services@qldc.govt.nz tar resten."
+          ],
+          "tips": [
+            "$400 til å begynne med",
+            "$800 på kommunale reservater",
+            "Kommunens linje: 03 443 0024"
+          ]
+        },
+        {
+          "heading": "Slik bruker du KiwiCamping rundt Wānaka",
+          "body": [
+            "KiwiCamping viser områdene for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, DOC-campingplassene, holiday parks og tømmestasjonene rundt Wānaka og Hāwea på kartet, og filtrene skjærer listen ned til det kjøretøyet ditt kan bruke. Parkeringsplassene er små og vedtekten er under revisjon, så par hver natt med en reserve.",
+            "Lagre Recreation Centre, en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> og et DOC-sted i én samling, og legg deretter Wānaka til en reise med datoer, kjøreturen over Crown Range eller Haast Pass og værmeldingen for hver natt. Gratis å laste ned, med kjøp i appen."
+          ],
+          "tips": [
+            "Par hver natt med en reserve",
+            "Filtrer på kjøretøy",
+            "Værmeldingen for passene"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man freedom campe i Wānaka?",
+          "Bare i et sertifisert self-contained kjøretøy og bare på kommunens anviste parkeringsplasser: Wānaka Recreation Centre, Beacon Point Road og Camp Hill Road ved Lake Hāwea eller ved Luggate Red Bridge Reserve under dens skilt. Ankom etter kl. 18, dra før kl. 8, og bli høyst to netter innen 30 dager."
+        ],
+        [
+          "Kan man fortsatt freedom campe ved Allenby Place i Wānaka?",
+          "Nei. Kommunen stengte Allenby Place for freedom camping 23. januar 2026 og la i stedet til midlertidige plasser ved Wānaka Recreation Centre. Dens beslutning om ytterligere endringer av stedene i Wānaka ventes 17. desember 2026."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queenstown Lakes District Council: ansvarlig camping"
+        },
+        {
+          "label": "Queenstown Lakes District Council: vedtekter"
+        },
+        {
+          "label": "Queenstown Lakes District Councils pressemelding, 28. november 2025 (gjenpublisert av Scoop)"
+        },
+        {
+          "label": "Queenstown Lakes District Councils pressemelding, 16. januar 2026: Allenby Place (gjenpublisert av Scoop)"
+        },
+        {
+          "label": "Queenstown Lakes District Council: foreslåtte endringer av Freedom Camping Bylaw 2025"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
         }
       ],
       "priceTable": null

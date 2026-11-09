@@ -9045,6 +9045,170 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps na Novém Zélandu nefunguje? Vyzkoušejte KiwiCamping, kempingovou aplikaci bez přihlášení (2026)",
+      "description": "WikiCamps Nový Zéland vás žádá o přihlášení, vynucuje aktualizaci nebo zlobí od nové verze? Proč cestovatelé přecházejí na KiwiCamping a jak přenést trasu.",
+      "region": "Nový Zéland",
+      "imageAlt": "Půjčené karavany zaparkované na mokrém parkovišti u silnice pod zalesněnými kopci",
+      "intro": "Pokud vás WikiCamps Nový Zéland pořád žádá o přihlášení, blokuje vás obrazovkou s aktualizací nebo se vám od příchodu přestavěné aplikace nezdá v pořádku, nemusíte den na Jižním ostrově trávit jejím opravováním. KiwiCamping je kempingová aplikace pro Nový Zéland pro iPhone, která se otevře rovnou na mapě: žádný účet k vytvoření, kempy, chaty a stezky DOC z vlastních dat Department of Conservation a plánovač tras postavený kolem silnice, kterou skutečně pojedete. KiwiCamping děláme my, takže tento průvodce je náš. Vysvětluje, proč cestovatelé přecházejí, co pro ně KiwiCamping dělá, jak přenést trasu za pár minut a kde se WikiCamps stále hodí víc.",
+      "sections": [
+        {
+          "heading": "Proč cestovatelé opouštějí WikiCamps",
+          "body": [
+            "Vynucené aktualizace. Od března 2026 se verze WikiCamps, která příliš zaostává, odmítne otevřít, dokud ji neaktualizujete, a na West Coast nebo ve Fiordlandu se ta obrazovka může objevit kilometry od jakéhokoli signálu.",
+            "Přihlášení k účtu. Přestavěná aplikace potřebuje účet WikiCamps a spousta cestovatelů se přistihne, jak se přihlašují pořád dokola nebo čekají na ověřovací e-mail v kempu <a data-guide=\"kiwicamping-offline-data-guide\">bez pokrytí</a>.",
+            "Problémy po aktualizacích. Trasy a oblíbená místa, která jako by zmizela, funkce, které se přesunuly nebo odešly se starou verzí, a mapa, která se chová jinak než ta, kterou lidé znali.",
+            "Žádná verze pro počítač. Aplikace pro Windows byla ukončena, což zasáhlo každého, kdo plánoval cestu na notebooku, než přiletěl."
+          ],
+          "tips": [
+            "Aktualizační obrazovky daleko od signálu",
+            "Smyčky přihlašování a ověřovací e-maily",
+            "Staré funkce pryč se starou aplikací"
+          ]
+        },
+        {
+          "heading": "Co KiwiCamping dělá jinak",
+          "body": [
+            "KiwiCamping se otevře rovnou na mapě. Není tu žádný účet, přihlašovací obrazovka ani ověřovací kód: se zapnutým iCloudem se vaše uložená místa, <a data-guide=\"save-places-kiwicamping\">kolekce</a> a trasy soukromě synchronizují přes Apple účet, který už v telefonu máte.",
+            "Jeho 287 kempů DOC, 927 chat DOC a 1,453 stezek DOC pochází z vlastních dat Department of Conservation, s poplatky, pravidly pro psy a požadavky na rezervaci od DOC a odkazem na stránku DOC, vedle prázdninových parků, oblastí pro <a data-guide=\"freedom-camping-new-zealand-guide\">kempování zdarma</a>, veřejných vypouštěcích stanic a míst pro denní návštěvu na obou ostrovech: dohromady více než 6,500 míst. Adresář míst je součástí aplikace, takže názvy, poplatky, vybavení a podmínky zůstávají čitelné bez signálu. Počasí, navigace, Look Around a fotky potřebují připojení.",
+            "Každé místo se otevře s podrobnostmi, které rozhodují: fotky, popis, poplatky, podmínky, vybavení seskupené podle typu, aktuální upozornění, kontakt a údaje o rezervaci, počasí a Apple <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a>, abyste viděli vjezd ze silnice dřív, než dodávku nasměrujete na odbočku."
+          ],
+          "tips": [
+            "Žádný účet, žádná přihlašovací obrazovka",
+            "Kempy, chaty a stezky DOC z dat DOC",
+            "Podrobnosti o místech čitelné bez signálu"
+          ]
+        },
+        {
+          "heading": "Plánovač tras postavený pro silnici",
+          "body": [
+            "Plánovač tras je srdcem aplikace. Přidejte uložená místa jako zastávky a přetáhněte je do pořadí, ve kterém pojedete. Každý úsek ukazuje vzdálenost, navigace se otevře k další zastávce a každá zastávka má vlastní datum, poznámky k příjezdu a počasí. Během cesty zastávky odškrtávejte jako navštívené, mějte po ruce blízké alternativy pro dny, které se změní, a <a data-guide=\"new-zealand-camping-packing-list\">seznam věcí na cestu</a> si držte vedle itineráře. Podrobnosti itineráře se mohou synchronizovat s Kalendářem.",
+            "Uložená místa se uspořádají sama. Oblíbená, S hvězdičkou, Chci navštívit a Navštívená se plní, jak místa označujete, a můžete si vytvořit vlastní pojmenované kolekce pro ostrov, sezonu nebo užší výběr. <a data-guide=\"kiwicamping-filters-guide\">Filtry</a> odpovídají na skutečnou otázku, například oblasti s kempováním zdarma s toaletami a pitnou vodou poblíž Queenstownu, a umí zúžit výběr podle typu místa, poplatku, hodnocení, online rezervace, regionu, psů a podrobných vlastností vybavení a přístupu."
+          ],
+          "tips": [
+            "Seřazené zastávky se vzdáleností na úsek",
+            "Datum, poznámky a počasí u každé zastávky",
+            "Kolekce, které se plní samy"
+          ]
+        },
+        {
+          "heading": "Jak přejít a přenést trasu",
+          "body": [
+            "Import z WikiCamps neexistuje, takže trasu sestavíte znovu, a u většiny tras to trvá pár minut. Otevřete svou trasu ve WikiCamps, dokud se ještě načítá, nebo si zastávky zapište, a pak postupujte podle kroků níže.",
+            "Začněte rezervovanými nocemi, třeba kempy DOC v létě nebo přeplavbou trajektem, a mezery doplňte později. Pokud místo, které jste používali ve WikiCamps, v KiwiCamping není, vyhledejte v okolí kemp nebo oblast pro <a data-guide=\"freedom-camping-new-zealand-guide\">kempování zdarma</a> poblíž; filtry pro poplatek, vybavení a psy to urychlí."
+          ],
+          "tips": [
+            "Sestavit znovu, neimportovat",
+            "Nejdřív rezervované noci",
+            "Mezery doplňte filtry"
+          ],
+          "table": {
+            "caption": "Přenesení trasy z WikiCamps do KiwiCamping.",
+            "head": [
+              "Krok",
+              "Co udělat"
+            ],
+            "rows": [
+              [
+                "1. Stáhnout",
+                "Získejte KiwiCamping z App Storu; otevře se bez účtu"
+              ],
+              [
+                "2. Najít každou zastávku",
+                "Hledejte podle názvu místa, nebo posuňte mapu a hledejte ve viditelné oblasti"
+              ],
+              [
+                "3. Uložit ji",
+                "Označte každou zastávku hvězdičkou nebo ji přidejte do kolekce pro trasu"
+              ],
+              [
+                "4. Sestavit trasu",
+                "Vytvořte trasu, přidejte uložená místa a přetáhněte je do pořadí"
+              ],
+              [
+                "5. Doplnit podrobnosti",
+                "Nastavte u každé zastávky datum a poznámky k příjezdu a zkontrolujte počasí"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping a WikiCamps ve srovnání",
+          "body": [
+            "Obě aplikace pomáhají najít, kde na Novém Zélandu přespat, ale jsou postavené jinak. WikiCamps rostl na místech, která přidávají uživatelé, a kromě iPhonu běží i na Androidu. KiwiCamping vychází z DOC a dalších oficiálních zdrojů a je postavený kolem plánování trasy.",
+            "Buďte si jasní, čeho se vzdáváte. KiwiCamping běží jen na iPhonu (iOS 26 nebo novější), uvádí méně míst než WikiCamps a nemá recenze cestovatelů, takže někteří lidé používají obě. Pokud používáte Android, náš průvodce <a data-guide=\"wikicamps-alternatives\">alternativami k WikiCamps</a> porovnává další možnosti."
+          ],
+          "tips": [
+            "Oficiální data oproti uživatelským záznamům",
+            "Žádný účet oproti povinnému účtu",
+            "Jen iPhone, žádné recenze cestovatelů"
+          ],
+          "table": {
+            "caption": "Čím se obě aplikace liší, podle vlastních funkcí každé aplikace v listopadu 2026.",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "Účet",
+                "Žádný; synchronizuje se přes iCloud",
+                "Vyžaduje účet WikiCamps"
+              ],
+              [
+                "Odkud jsou místa",
+                "DOC a další oficiální zdroje",
+                "Většinou přidávají uživatelé"
+              ],
+              [
+                "Plánování trasy",
+                "Seřazené zastávky, data, poznámky, počasí a vzdálenost na úsek",
+                "Trasy se zastávkami"
+              ],
+              [
+                "Recenze cestovatelů",
+                "Ne",
+                "Ano"
+              ],
+              [
+                "Zařízení",
+                "iPhone",
+                "iPhone, iPad a Android"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Získejte KiwiCamping",
+          "body": [
+            "Pokud vám WikiCamps přestal fungovat, KiwiCamping je zdarma ke stažení z App Storu. Otevřete ji, vyhledejte další zastávku a uložte ji, a za pár minut zase plánujete.",
+            "Pravidla na místě mají stále přednost. Řiďte se cedulí v místě, <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláškou obce</a>, DOC a případnými aktuálními upozorněními na uzavírky, ať aplikace říká cokoli."
+          ],
+          "tips": [
+            "Stažení zdarma, žádný účet",
+            "Hledat, uložit, plánovat",
+            "Ceduli, obce a DOC mají přednost"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps nefunguje. Co můžu použít místo něj?",
+          "KiwiCamping je kempingová aplikace pro iPhone pro Nový Zéland s kempy, chatami a stezkami DOC z vlastních dat Department of Conservation a dohromady více než 6,500 místy. Není třeba vytvářet účet aplikace, podrobnosti o místech zůstávají čitelné bez signálu a uložená místa se promění v trasu se zastávkami, daty a vzdáleností každého úseku."
+        ],
+        [
+          "Nutí mě KiwiCamping se přihlásit?",
+          "Ne. Žádný účet KiwiCamping ani přihlašovací obrazovka neexistuje. Se zapnutým iCloudem se vaše uložená místa, kolekce a trasy soukromě synchronizují přes váš Apple účet a nákup se obnoví přes stejný Apple účet."
+        ],
+        [
+          "Můžu přenést svou trasu z WikiCamps do KiwiCamping?",
+          "Import neexistuje, takže trasu sestavíte znovu. Vyhledejte každou zastávku, uložte ji, pak přidejte uložená místa do nové trasy a přetáhněte je do pořadí, ve kterém pojedete. Většina tras zabere pár minut."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "Nejlepší aplikace pro campervan na Novém Zélandu 2026: půjčení, převozy, život na cestě",
       "description": "Aplikace, které pomáhají na cestě campervanem po Novém Zélandu v roce 2026, od půjčení vozu a převozů za 1 NZD na den po hledání dalšího noclehu, srovnané podle cen a hodnocení ověřených v říjnu 2026.",
@@ -12953,6 +13117,650 @@
         },
         {
           "label": "DOC: podmínky pro chaty, kempy, Great Walks, chatky a lodge"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-campsite-pass-new-zealand": {
+      "title": "Karta DOC Campsite Pass 2026-27: vyplatí se za $295 a kde nefunguje",
+      "description": "DOC Campsite Pass stojí $295 za dospělého na rok. Kolik nocí je třeba, aby se vyplatila, které kempy a letní termíny vylučuje a jak ji používat v kempech s rezervací.",
+      "region": "Nový Zéland",
+      "imageAlt": "Obytný vůz zaparkovaný na trávě v kempu Momorangi Bay u modré vody Queen Charlotte Sound",
+      "intro": "Campsite Pass od Department of Conservation je jednorázová platba, která na rok pokrývá vaše noci ve většině kempů DOC: $295 za dospělého, polovina pro dítě nebo mladistvého a zdarma pro kojence. Je to dobrá volba pro dlouhou cestu postavenou na kempech DOC a špatná téměř pro každého jiného a má pravidla, která lidi překvapí, od stále povinné rezervace po seznam oblíbených kempů, které v létě nepokrývá. Ceny, limity a výjimky níže pocházejí ze stránek DOC o Campsite Pass, přečtených 9. listopadu 2026.",
+      "sections": [
+        {
+          "heading": "Co je Campsite Pass",
+          "body": [
+            "Campsite Pass je způsob platby, ne rezervace. Pokrývá noční poplatek v kempech DOC, jak v těch, které rezervujete online, tak v těch se samoregistrací, které platíte při příjezdu, po 365 nocí od zvoleného data zahájení. Nedrží místo nikde a nepokrývá chaty: ty mají vlastní Backcountry Hut Pass a lístky na chaty.",
+            "Každý potřebuje vlastní pass. Pár zaplatí $590 za dva dospělé passy a rodina se dvěma dospělými a dvěma dětmi ve věku 5 až 17 let zaplatí $885, děti do pěti let zdarma. Některé členské organizace získávají slevu; DOC žádá členy, aby před nákupem poslali sken členské karty e-mailem na bookings@doc.govt.nz, aby byla sleva na účtu, když platí."
+          ],
+          "tips": [
+            "Platba, ne rezervace",
+            "Jeden pass na osobu",
+            "Chaty potřebují samostatný pass"
+          ],
+          "table": {
+            "caption": "Ceny DOC Campsite Pass, přečteno 9. listopadu 2026. Jeden rok (365 nocí) od zvoleného data zahájení.",
+            "head": [
+              "Věková skupina",
+              "Cena"
+            ],
+            "rows": [
+              [
+                "Dospělý, 18 a více",
+                "$295.00"
+              ],
+              [
+                "Dítě nebo mladistvý, 5 až 17",
+                "$147.50"
+              ],
+              [
+                "Kojenec, 0 až 4",
+                "Zdarma"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kolik nocí, než se pass vyplatí",
+          "body": [
+            "Poplatky za <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a> jsou za osobu a noc a hodně se liší. Kempy s vybavením, splachovacími toaletami a teplými sprchami účtují kolem $25 za dospělého, standardní kempy zhruba $10 až $20 a základní kempy jsou zdarma. V datech DOC v KiwiCamping z srpna 2026 uvádělo 63 z 287 kempů DOC žádný poplatek a střední sazba pro dospělé u placených byla $12.75.",
+            "Bod zvratu tedy závisí na tom, kde přespíte. V kempech s vybavením se pass vyplatí dvanáctou nocí. V typickém standardním kempu to trvá 20 až 24 nocí a pokud je většina vašich nocí v kempech za $10 nebo zdarma, nemusí se vyplatit nikdy. Sečtěte skutečné kempy na své trase, než koupíte, ne nejdražší, který si dokážete představit."
+          ],
+          "tips": [
+            "Kempy s vybavením: 12 nocí do zvratu",
+            "Standardní kempy: 20 nocí nebo více",
+            "Základní bezplatné kempy pass nepotřebují"
+          ],
+          "table": {
+            "caption": "Pass pro dospělého za $295. Počet nocí s jedním nočním poplatkem pro dospělého, než pass vyjde levněji než platba každou noc.",
+            "head": [
+              "Poplatek pro dospělého za noc",
+              "Nocí do zvratu"
+            ],
+            "rows": [
+              [
+                "$25 (kemp s vybavením)",
+                "12"
+              ],
+              [
+                "$20",
+                "15"
+              ],
+              [
+                "$15",
+                "20"
+              ],
+              [
+                "$12.75 (střední placená sazba)",
+                "24"
+              ],
+              [
+                "$10",
+                "30"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kdo by ho měl koupit a kdo ne",
+          "body": [
+            "Pass se hodí na dlouhé, pomalé cesty, kde jsou <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> výchozí volbou: pracovní prázdniny strávené přesuny mezi zaměstnáními, důchodový pár cestující několik měsíců nebo léto víkendů mimo jednu domovskou základnu. Hodí se zvlášť rodinám, protože dětské passy jsou za poloviční cenu a kojenci zdarma, zatímco poplatek pro dospělé je ta drahá část každé noci.",
+            "Vynechte ho, pokud bude většina vašich nocí v prázdninových parcích nebo soukromých kempech, které DOC neprovozuje, nebo <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v soběstačném vozidle, což stejně nestojí nic. Vynechte ho i pro Great Walk: každý kemp na Great Walk je vyloučen a rezervuje se zvlášť. A pro dvoutýdenní dovolenou s campervanem čísla málokdy vyjdou, pokud skoro každá noc není v kempu DOC s vybavením."
+          ],
+          "tips": [
+            "Nejlepší pro dlouhé cesty a rodiny",
+            "Ne pro Great Walks",
+            "Ne pro prázdninové parky"
+          ]
+        },
+        {
+          "heading": "Kempy a termíny, které pass nepokrývá",
+          "body": [
+            "DOC vylučuje všechny kempy na Great Walk, každou chatu, domek, bach, lodge a ubytovnu v kempu, kempy uzavřené kvůli údržbě a sezónní kempy mimo jejich otevřenou sezónu. Navrch přichází seznam jednotlivých kempů a zahrnuje několik z nejoblíbenějších v zemi. Pět je vyloučeno od 26. prosince do 8. února, přesně když je většina lidí chce, a Kerr Bay u Lake Rotoiti je vyloučen od 19. října do 30. dubna.",
+            "Další jsou vyloučeny celoročně, včetně Kapowairua (Spirits Bay), Rarawa Beach a Tapotupotu na dalekém severu, Wentworth Valley na Coromandel, Dickey Flat a Hot Water Beach (Tarawera) v Bay of Plenty, kempů provozovaných DOC u Lake Waikaremoana a Whakapapa, několika kempů na East Coast a Twelve Mile Delta u Queenstown. DOC uvádí, že může seznam měnit bez upozornění, proto před plánováním cesty kolem passu zkontrolujte jeho stránku s výjimkami."
+          ],
+          "tips": [
+            "Hlavní léto je vyloučeno u pěti oblíbených",
+            "Před nákupem zkontrolujte stránku s výjimkami",
+            "Chaty a ubytovny nejsou nikdy pokryty"
+          ],
+          "table": {
+            "caption": "Výjimky DOC Campsite Pass s daty, přečteno 9. listopadu 2026. Stránka DOC uvádí také kempy vyloučené celoročně.",
+            "head": [
+              "Kemp",
+              "Region",
+              "Vyloučeno"
+            ],
+            "rows": [
+              [
+                "Trounson Kauri Park",
+                "Northland",
+                "26. prosince až 8. února"
+              ],
+              [
+                "Tōtaranui",
+                "Nelson Tasman",
+                "26. prosince až 8. února"
+              ],
+              [
+                "Momorangi Bay",
+                "Marlborough",
+                "26. prosince až 8. února"
+              ],
+              [
+                "Pelorus Bridge",
+                "Marlborough",
+                "26. prosince až 8. února"
+              ],
+              [
+                "Peel Forest",
+                "Canterbury",
+                "26. prosince až 8. února"
+              ],
+              [
+                "Kerr Bay",
+                "Nelson Lakes",
+                "19. října až 30. dubna"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Jak pass koupit",
+          "body": [
+            "Kupte ho v online rezervačním systému DOC: přihlaste se nebo vytvořte účet, v nabídce zvolte Passes, vyberte Campsite Pass a zvolte první noc, kdy ho chcete použít. Ta noc je začátkem 365. Koupit můžete až měsíc před touto první nocí a DOC pošle e-mailem doklad o nákupu s passem jako PDF. Pokud nemůžete koupit online, zavolejte nebo napište do návštěvnického centra DOC.",
+            "Datum zahájení zvolte pečlivě, protože ho nelze změnit. DOC vrací peníze za pass jen do 48 hodin od nákupu, a jen pokud jste s ním ještě neprovedli rezervaci a datum zahájení ještě nenastalo. Poté je nevratný, takže pokud je datum vašeho příjezdu nejisté, počkejte s nákupem, až bude jasné."
+          ],
+          "tips": [
+            "Datum zahájení nelze změnit",
+            "Vrácení jen do 48 hodin",
+            "Kupte až měsíc předem"
+          ]
+        },
+        {
+          "heading": "Používání passu v kempech s rezervací",
+          "body": [
+            "Pass vám nedovolí objevit se bez ohlášení v kempu s rezervací. Stále rezervujete online před příjezdem, zadáváte jméno a číslo passu každého držitele; rezervace pak činí $0, kromě míst s elektřinou, která účtují $3 za držitele passu a noc. Pokud se objevíte bez rezervace, DOC účtuje rezervační poplatek $10 a můžete být odmítnuti, pokud je kemp plný.",
+            "Vezměte potvrzení rezervace a kopii passu, vytištěnou nebo v telefonu. V oblíbených kempech v létě je vzácná rezervace, ne peníze, proto rezervujte brzy, i když pass už noc zaplatil. Kdokoli ve vaší skupině bez passu je zarezervován a zaplacen za běžnou sazbu ve stejné rezervaci."
+          ],
+          "tips": [
+            "Nejdřív rezervujte, i s passem",
+            "$3 za noc a osobu na místech s elektřinou",
+            "Mějte potvrzení a pass u sebe"
+          ]
+        },
+        {
+          "heading": "Používání v kempech se samoregistrací",
+          "body": [
+            "Kempy bez rezervace jsou podle pořadí příchodu a pass vám nedává přednost před nikým jiným. Při příjezdu vyplňte samoregistrační obálku nebo formulář jako obvykle, poznamenejte pass a zaplaťte jen za každého ve vaší skupině, kdo není pokryt.",
+            "Strážce může požádat o doklad o passu a totožnost, proto mějte obojí po ruce. Mnoho kempů se samoregistrací jsou standardní nebo základní místa, kde je poplatek nízký, což je jeden z důvodů, proč se pass vyplácí déle cestovatelům, kteří dávají přednost klidnějším a jednodušším kempům."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pravidlo sedmi nocí a delší pobyty",
+          "body": [
+            "Pass pokrývá nejvýše sedm nocí v jakémkoli 30denním období v jednom kempu. Pokud chcete zůstat déle, další noci se účtují za standardní sazbu kempu jako samostatná transakce, až do maximálního pobytu daného kempu. Pravidlo brání tomu, aby se z passu stala celoroční základna v jednom kempu.",
+            "Pro většinu cestovatelů to nikdy nevadí, protože týden na jednom místě je na road tripu už dlouhý pobyt. Záleží to sezónním pracovníkům, kteří chtějí kempovat poblíž sadu nebo vinice celou sezónu: plánujte přesuny mezi dvěma či třemi kempy nebo počítejte s placením plné ceny po prvním týdnu."
+          ],
+          "tips": [
+            "Sedm nocí za 30 dní v jednom kempu",
+            "Další noci za standardní sazbu",
+            "Při dlouhých pobytech se přesouvejte mezi kempy"
+          ]
+        },
+        {
+          "heading": "Vypočítejte si vlastní čísla v KiwiCamping",
+          "body": [
+            "KiwiCamping, aplikace, kterou vytváříme, uvádí kempy DOC s poplatkem pro dospělé, požadavkem na rezervaci a pravidly pro psy, které DOC zveřejňuje, a odkazem na vlastní stránku DOC pro každý. Filtrujte podle ceny, abyste viděli bezplatné a levné <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> podél své trasy, uložte ty, které chcete, a sestavte je do trasy s daty a podívejte se, kolik nocí je v placených kempech DOC.",
+            "Tento počet je poctivý test, zda se Campsite Pass vyplatí. KiwiCamping běží jen na iPhonu (iOS 26 nebo novější) a neprodává ani nekontroluje passy ani rezervace DOC: pass stále kupujete a kempy s rezervací rezervujete u DOC. Náš průvodce kempy DOC pokrývá rezervace, poplatky a co nabízí každý typ kempu."
+          ],
+          "tips": [
+            "Poplatky a pravidla rezervace DOC pro každý kemp",
+            "Spočítejte své placené noci v DOC",
+            "Pass kupujte a rezervujte u DOC"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vyplatí se DOC Campsite Pass?",
+          "Jen pro dlouhé cesty postavené na placených kempech DOC. Za $295 pro dospělého se vyplatí dvanáctou nocí v kempech s vybavením za $25, ale u standardních kempů trvá 20 nocí nebo více a nikdy se nevyplatí, pokud většinou používáte bezplatné základní kempy, prázdninové parky nebo freedom camping."
+        ],
+        [
+          "Musím s DOC Campsite Pass stále rezervovat?",
+          "Ano, v kempech s rezervací. Rezervujte online před příjezdem a zadejte každé číslo passu; rezervace činí $0 kromě $3 za držitele passu a noc na místech s elektřinou. Bez rezervace DOC účtuje poplatek $10 a může vás odmítnout, pokud je kemp plný."
+        ],
+        [
+          "Které kempy Campsite Pass nepokrývá?",
+          "Všechny kempy na Great Walk, chaty a ubytovny v kempech a seznam jednotlivých kempů. Tōtaranui, Pelorus Bridge, Momorangi Bay, Trounson Kauri Park a Peel Forest jsou vyloučeny od 26. prosince do 8. února a Kerr Bay od 19. října do 30. dubna."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Campsite Pass"
+        },
+        {
+          "label": "DOC: výjimky Campsite Pass"
+        },
+        {
+          "label": "DOC: podmínky Campsite Pass"
+        },
+        {
+          "label": "Online rezervace DOC"
+        },
+        {
+          "label": "DOC: kategorie kempů a poplatky"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-tent-new-zealand": {
+      "title": "Freedom camping se stanem na Novém Zélandu: kde je to povoleno v roce 2026",
+      "description": "Stany nepotřebují zelený warrant, ale většina obcí je na veřejné půdě zakazuje. Kde je freedom camping se stanem v roce 2026 povolen, obec po obci, na půdě DOC a bezplatné kempy, které zaplňují mezery.",
+      "region": "Nový Zéland",
+      "imageAlt": "Dva malé stany rozbité v trsech trávy nad širokým údolím Canterbury pod tmavými dešťovými mraky",
+      "intro": "Stan je jediný způsob freedom camping, kterého se novozélandský zákon o soběstačnosti netýká. Pravidlo zeleného warrantu, které plně vstoupilo v platnost 7. června 2026, se týká vozidel a Freedom Camping Act stále dovoluje stanu kempovat na obecní půdě, pokud to vyhláška neomezuje nebo nezakazuje. Háček je, že většina obcí na hlavních turistických trasách přesně to udělala, takže stan je vítán v méně místech u silnice než certifikovaný campervan. Stále funguje otevřená chráněná půda, hrstka míst obcí, která stany uvádějí, a bezplatné a levné kempy DOC, které byly pro stany postaveny. Pravidla obcí níže pocházejí z vyhlášky a stránky o freedom camping každé obce, jak jsou shrnuta v našich průvodcích obcemi, zkontrolováno v říjnu a listopadu 2026.",
+      "sections": [
+        {
+          "heading": "Co říká zákon o stanech",
+          "body": [
+            "Zákon <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 definuje freedom camping jako kempování mimo kemp ve stanu, vozidle nebo jiné dočasné stavbě do 200 metrů od zpevněné silnice, od půdy, kam mohou vozidla dojet, od stezky Great Walks nebo od moře. Na půdě spravované obcí paragraf 10 dovoluje freedom camping ve stanu nebo certifikovaném soběstačném vozidle, pokud to vyhláška neomezuje nebo nezakazuje. Vozidlo bez zeleného warrantu potřebuje místo, které pro něj vyhláška uvádí; stan ne.",
+            "Svoboda stanu tedy závisí téměř zcela na místních <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláškách</a> a ty se liší od obce k obci. Auckland, Tasman a New Plymouth zakazují freedom camping se stanem na veřejné půdě úplně, jiné dovolují stany jen v několika uvedených rezervacích a několik ponechává obecné povolení, ale vylučuje tolik oblastí, že znamená málo. Na chráněné půdě se výchozí stav opět otáčí, proto jsou nejlepší místa pro stany obvykle ta od DOC."
+          ],
+          "tips": [
+            "Pro stan není zelený warrant potřeba",
+            "Na obecní půdě rozhodují vyhlášky",
+            "Chráněná půda má vlastní pravidla"
+          ]
+        },
+        {
+          "heading": "Obec po obci: kde mohou stany kempovat zdarma",
+          "body": [
+            "Whangārei je výraznou výjimkou. Jeho vyhláška Camping in Public Places <a data-guide=\"camping-rules-local-councils-new-zealand\">Bylaw</a> uvádí pět oblastí pro stany na veřejné půdě: Parua Bay pro asi 15 stanů a až tři noci, Reotahi pro až tři stany a jednu noc, Sandy Bay pro asi čtyři stany a jednu noc, Tamaterau pro čtyři až pět stanů a jednu noc a Waipū Caves pro mnoho stanů a jednu noc. Rotorua povoluje stany ve dvou rezervacích, Lake Ōkaro a Guy Roe Reserve, a Dunedin v jedné, vyhrazené oblasti uvnitř Warrington Domain.",
+            "Vyhláška Central Hawke's Bay z roku 2024 dovoluje stanům kempovat na Pourerere Beach Road a Te Paerahi Beach v Pōrangahau, s losovacím povolením v Pourerere od poloviny prosince do konce února. Jediná výjimka pro stany v Marlborough je pro cyklisty na Awatere Valley Road, kteří smějí kempovat v Blairich Reserve. Limit čtyř nocí ve Wellingtonu uvádí stany, ale jeho místa ke kempování jsou parkoviště, takže je tam stan lépe dát do kempu. Všude v tabulce označeném ne potřebuje stan kemp, prázdninový park nebo <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a>."
+          ],
+          "tips": [
+            "Whangārei má pět oblastí pro stany",
+            "Rotorua a Dunedin uvádějí rezervace pro stany",
+            "Většina turistických obcí říká ne"
+          ],
+          "table": {
+            "caption": "Freedom camping se stanem na obecní půdě, z vyhlášky a stránky o freedom camping každé obce, zkontrolováno v říjnu a listopadu 2026. Pravidla se mění; před postavením stanu zkontrolujte stránku obce.",
+            "head": [
+              "Obec",
+              "Stany na veřejné půdě"
+            ],
+            "rows": [
+              [
+                "Auckland",
+                "Ne"
+              ],
+              [
+                "Thames-Coromandel",
+                "Ne: jen certifikovaná soběstačná vozidla"
+              ],
+              [
+                "Whangārei",
+                "Ano, v pěti uvedených oblastech pro stany"
+              ],
+              [
+                "Rotorua Lakes",
+                "Ano, jen v Lake Ōkaro a Guy Roe Reserve"
+              ],
+              [
+                "Central Hawke's Bay",
+                "Ano, na Pourerere Beach Road a Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "Ne"
+              ],
+              [
+                "Wellington",
+                "Ne na uvedených parkovištích; použijte kemp"
+              ],
+              [
+                "Tasman",
+                "Ne"
+              ],
+              [
+                "Marlborough",
+                "Jen cyklisté na Awatere Valley Road, v Blairich Reserve"
+              ],
+              [
+                "Christchurch",
+                "Ne: použijte kemp"
+              ],
+              [
+                "Westland",
+                "Ne: obecní rezervace jsou uzavřeny freedom camping"
+              ],
+              [
+                "Queenstown Lakes",
+                "Ne: jen certifikovaná soběstačná vozidla"
+              ],
+              [
+                "Waitaki",
+                "Ne, mimo placené kempy"
+              ],
+              [
+                "Dunedin",
+                "Ano, jen ve Warrington Domain"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Stany na chráněné půdě DOC",
+          "body": [
+            "Veřejná chráněná půda funguje opačně než většina obcí. Paragraf 15 zákona říká, že <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> tam je povolen, pokud to oznámení DOC neomezuje nebo nezakazuje, a oznámení DOC jsou zveřejňována po okresech. Stan je vítán na otevřené chráněné půdě a některá oznámení stany dokonce upřednostňují: Rum Curries v Gibbston Conservation Area v Otago je omezeno na stany na dvě noci v měsíci.",
+            "Záleží na dvou omezeních. Scénické a rekreační rezervace spravované DOC jsou uzavřeny kempování mimo vyhrazené kempy a národní parky a stezky stanoví vlastní pravidla za 200 metrů od silnice, takže klidná rovina na stezce v národním parku není automaticky povolena. Náš průvodce o tom, zda můžete kempovat kdekoli na půdě DOC, provází oznámeními, rezervacemi a Great Walks, kde se kempování rezervuje nebo není povoleno vůbec."
+          ],
+          "tips": [
+            "Otevřená chráněná půda povoluje stany",
+            "Rezervace jen ve vyhrazených kempech",
+            "Zkontrolujte seznam oznámení DOC pro okres"
+          ]
+        },
+        {
+          "heading": "Bezplatné a levné kempy DOC pro stany",
+          "body": [
+            "Tam, kde <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> nepřipadá v úvahu, zaplňují mezeru kempy DOC za velmi málo. Základní kempy jsou zdarma, s toaletou a ničím víc; standardní kempy účtují dospělým asi $10 až $20 za noc; a kempy s vybavením a sprchami jsou asi $25. V datech DOC v KiwiCamping z srpna 2026 uvádělo 63 z 287 kempů DOC žádný poplatek a většina kempů DOC bere stany.",
+            "Placený kemp DOC je podle zákona kemp, takže se tam žádná <a data-guide=\"freedom-camping-rules-new-zealand\">pravidla freedom camping</a> neuplatňují. Zkontrolujte, zda je rezervovatelný: rezervovatelná místa se musí rezervovat před příjezdem a místa se samoregistrací jsou podle pořadí příchodu s obálkou u vchodu. Dlouhé cesty postavené na placených kempech DOC mohou být levnější s DOC Campsite Pass a prázdninové parky mívají místa pro stany bez elektřiny levněji než místa s elektřinou."
+          ],
+          "tips": [
+            "63 kempů DOC uvádělo žádný poplatek",
+            "Rezervovatelná místa rezervujte před příjezdem",
+            "Prázdninové parky mají levnější místa pro stany"
+          ]
+        },
+        {
+          "heading": "Toalety, odpad a nezanechání stopy",
+          "body": [
+            "Stan nemá toaletu, a to je důvod, proč tolik obcí drží stany mimo místa u silnice. Kempujte jen tam, kde je toaleta, kterou můžete použít, nebo se řiďte pokyny DOC k lidskému odpadu, když žádná není, a odvezte si každý kousek odpadků. Zanechání odpadu mimo koš nebo poškození oblasti je přestupek za $800, nejvyšší poplatek za <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>.",
+            "Mytí, vaření a čištění zubů vyžadují péči u vody. Myjte se nejméně 50 metrů od potoků a jezer, používejte biologicky odbouratelné mýdlo střídmě a zbytky jídla z šedé vody scezujte a odneste. Na severu očistěte každé zrnko zeminy z bot, kolíků stanu a podlážek na hygienických stanicích: <a data-guide=\"kauri-dieback-camping-travel\">kauri dieback</a> se šíří v zemině."
+          ],
+          "tips": [
+            "Kempujte tam, kde je toaleta",
+            "$800 za zanechání odpadu",
+            "Čistěte kolíky a boty v kauri zemi"
+          ]
+        },
+        {
+          "heading": "Oheň, počasí a kde stan postavit",
+          "body": [
+            "Většina míst pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> zakazuje otevřený oheň a v létě mnoho okresů vstupuje do omezeného nebo zakázaného období požárů, které platí i pro kempy. Plynový vařič je bezpečná výchozí volba: Fire and Emergency nevyžaduje povolení pro plynové vařiče a DOC uvádí, že plynové hořáky lze obvykle používat k vaření kdykoli.",
+            "Stavte stan pro nejhorší noc, ne pro nejlepší. Vyhněte se říčním nivám a suchým korytům potoků, které se při silném dešti zaplavují, držte se dál od stromů s mrtvými větvemi a otočte vchod od převládajícího větru. Před výběrem místa zkontrolujte MetService pro varování před nepříznivým počasím a počítejte s <a data-guide=\"sandflies-new-zealand-camping\">muchničkami</a> v kempech na West Coast a ve Fiordland od úsvitu do soumraku."
+          ],
+          "tips": [
+            "Plynový vařič, ne táborák",
+            "Nestavte stan na říčních nivách",
+            "Před výběrem místa zkontrolujte předpověď"
+          ]
+        },
+        {
+          "heading": "Pokuty a jak funguje vymáhání",
+          "body": [
+            "Pokuty za <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> jsou stanoveny celostátně. Kempování tam, kde to vyhláška nebo oznámení DOC zakazuje nebo omezuje, je $400 a DOC počítá přípravu ke kempování, například postavení stanu, jako součást přestupku. Odmítnutí odejít, když to požaduje vymáhací úředník, je $600 a poškození oblasti nebo ponechání odpadu $800.",
+            "Obce hlídkují na oblíbených místech v noci a brzy ráno přes léto a úředníci mohou udělit pokutu na místě. Cedule u vchodu je nejrychlejší vodítko: cedule zákazu kempování nebo ta, která říká, že smějí kempovat jen <a data-guide=\"self-contained-campervan-green-warrant\">certifikovaná soběstačná</a> vozidla, stan vylučuje. Kde žádná cedule není, stále platí mapa vyhlášky obce nebo oznámení DOC."
+          ],
+          "tips": [
+            "$400 za kempování tam, kde je zakázáno",
+            "Postavení stanu se počítá",
+            "Žádná cedule neznamená povoleno"
+          ]
+        },
+        {
+          "heading": "Cyklisté, pěší a cestování se stanem",
+          "body": [
+            "Cykloturisté a pěší na dlouhé vzdálenosti se setkávají se stejnými vyhláškami jako všichni ostatní, s několika malými výjimkami, jako je Marlborough's Blairich Reserve na Awatere Valley Road. Plánujte noci kolem <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a>, výše uvedených obecních rezervací pro stany a prázdninových parků a mějte v záloze placenou možnost pro města jako Queenstown, Motueka a New Plymouth, kde jsou stany na veřejné půdě zakázány.",
+            "Batůžkáři cestující autobusem nebo autem mohou dělat totéž. Stan a bezplatný kemp DOC jsou stále nejlevnějším způsobem, jak spát na některých z nejlepších míst země, pokud je noc naplánována a není nalezena za soumraku v okrese, který stany zakazuje."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hledání míst přívětivých ke stanům v KiwiCamping",
+          "body": [
+            "KiwiCamping, aplikace pro iPhone, kterou vytváříme, obsahuje oznámení DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> podle okresů vedle kempů, chat a stezek DOC, takže si můžete zkontrolovat, zda je chráněná oblast zakázaná, omezená nebo otevřená, než tam pojedete. Filtrujte kempy DOC podle ceny, abyste našli bezplatné a levné podél své trasy, přečtěte si poplatek a požadavek na rezervaci DOC pro každý a uložte je do trasy s daty a poznámkami.",
+            "Údaje o místech zůstávají v telefonu, když ztratíte signál, zatímco dlaždice map, trasy, počasí a fotografie vyžadují připojení. Aplikace neobsahuje mapy <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhlášek obcí</a>, proto pro obecní půdu použijte stránku obce nebo naše průvodce obcemi a berte cedulí na místě jako konečné slovo. KiwiCamping potřebuje iPhone s iOS 26 nebo novějším."
+          ],
+          "tips": [
+            "Oznámení DOC o freedom camping podle okresů",
+            "Filtrujte kempy DOC podle ceny",
+            "Pravidla obcí: zkontrolujte stránku obce"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze na Novém Zélandu kempovat zdarma se stanem?",
+          "Ano, ale na méně místech než certifikovaným campervanem. Freedom Camping Act dovoluje stanům kempovat na obecní půdě, pokud to vyhláška neomezuje, a mnoho obcí, včetně Auckland, Tasman a New Plymouth, stany na veřejné půdě zakazuje. Otevřená chráněná půda, několik uvedených obecních rezervací a bezplatné kempy DOC jsou spolehlivé možnosti."
+        ],
+        [
+          "Potřebujete soběstačné vozidlo ke kempování ve stanu?",
+          "Ne. Pravidlo zeleného warrantu se týká vozidel používaných k freedom camping, ne stanů. Stan se stále musí řídit vyhláškou obce nebo oznámením DOC pro dané místo a tam, kde jsou stany zakázány, je odpovědí kemp, prázdninový park nebo kemp DOC."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "DOC: chráněné oblasti, kde je freedom camping zakázán nebo omezen"
+        },
+        {
+          "label": "Whangarei District Council: kempování na veřejných místech"
+        },
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Tasman District Council: zodpovědné kempování"
+        },
+        {
+          "label": "Dunedin City Council: freedom camping"
+        },
+        {
+          "label": "Rotorua Lakes Council: kempování"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "camping-without-self-contained-vehicle-new-zealand": {
+      "title": "Kempování bez soběstačného vozidla na Novém Zélandu (2026): kde můžete zůstat",
+      "description": "Bez zeleného warrantu? Kde může v roce 2026 přenocovat auto, necertifikovaná dodávka nebo nesoběstačný půjčený campervan: místa obcí, která to povolují, půda a kempy DOC, kempy, náklady a pokuty.",
+      "region": "Nový Zéland",
+      "imageAlt": "Kancelář, kuchyně a sociální bloky kempu Reefton Motor Camp pod vysokými tmavými borovicemi",
+      "intro": "Od 7. června 2026 se na Novém Zélandu za soběstačné počítá jen vozidlo se zeleným warrantem (green warrant). Modré warranty od toho dne přestaly platit a dodávka s přenosnou toaletou na zelený nikdy nárok neměla. Tím zůstává mnoho cestovatelů bez certifikace: lidé v autech a kombi, ve starších domácky stavěných dodávkách a každý, kdo si půjčil levnější nesoběstačný campervan. Dobrý road trip můžete mít i bez zeleného warrantu. Jen to znamená plánovat každou noc kolem míst, která vás přijmou, ne kolem míst u silnice stavěných pro certifikovaná vozidla. Místa obcí níže pocházejí z vyhlášky a stránky o freedom camping každé obce, jak jsou shrnuta v našich průvodcích obcemi, zkontrolováno v říjnu a listopadu 2026.",
+      "sections": [
+        {
+          "heading": "Zkontrolujte, čím skutečně jedete",
+          "body": [
+            "<a data-guide=\"self-contained-campervan-green-warrant\">Certifikované soběstačné</a> vozidlo má vystavenou zelenou kartu warrantu, vydanou po kontrole jeho pevné toalety, systémů pitné vody, odpadní vody a odpadků. Pokud vaše vozidlo nemá zelenou kartu nebo jen modrou nálepku z doby před 7. červnem 2026, považujte ho za nesoběstačné. Toaleta, kterou lze vyjmout, se nepočítá, ať je jakkoli dobrá.",
+            "Půjčené campervany jsou k dispozici oběma způsoby a nesoběstačné jsou obvykle levnější modely bez vestavěné toalety. Hledejte zelenou kartu warrantu v okně nebo se zeptejte při převzetí, než naplánujete jakékoli bezplatné noci. Pokud není certifikovaný, plánujte každou noc kolem míst níže."
+          ],
+          "tips": [
+            "Zelená karta warrantu vystavena, nebo necertifikováno",
+            "Modré nálepky přestaly platit 7. června 2026",
+            "Zeptejte se půjčovny při převzetí"
+          ]
+        },
+        {
+          "heading": "Vaše možnosti, od nejlevnější po nejspolehlivější",
+          "body": [
+            "Na prvním místě jsou bezplatné základní <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>: toaleta, rovné místo k parkování a žádný poplatek, podle pořadí příchodu. Pak následují místa obcí, která vyhláška uvádí pro vozidla, jež nejsou soběstačná, otevřená chráněná půda, kde DOC kempování neomezil, standardní kempy DOC za zhruba $10 až $20 za dospělého a noc, soukromá půda, kde majitel řekne ano, a prázdninové parky a obecní kempy, které berou jakékoli vozidlo a mají sprchy a kuchyně.",
+            "<a data-guide=\"freedom-camping-rules-new-zealand\">Pravidla freedom camping</a> záleží jen na veřejné půdě. Kemp, prázdninový park, placený kemp DOC nebo soukromý pozemek se svolením majitele není freedom camping, takže se tam pravidlo zeleného warrantu vůbec neuplatňuje. Proto se většina necertifikovaných cest usadí do rytmu kempů DOC většinu nocí a prázdninového parku každých pár dní na sprchu a prádlo."
+          ],
+          "tips": [
+            "Základní kempy DOC jsou zdarma",
+            "Kempy a soukromá půda: warrant není potřeba",
+            "Prázdninový park každých pár nocí"
+          ]
+        },
+        {
+          "heading": "Místa obcí, která berou vozidla bez certifikace",
+          "body": [
+            "Na obecní půdě může vozidlo bez <a data-guide=\"self-contained-campervan-green-warrant\">zeleného warrantu</a> zůstat jen tam, kde to místo uvádí vyhláška, a většina obcí na hlavních turistických trasách nic neuvádí. Několik ano. Whangārei uvádí 17 míst pro vozidla bez certifikace, nejvíc ze všech obcí, které jsme zkontrolovali. Tasman uvádí tři: Motueka Beach Reserve, Alexander Bluff Road Reserve v Ngātīmoti a Fittal Street v Richmondu. Dunedin uvádí Warrington Domain, Ocean View Recreation Reserve a parkoviště Thomas Burns Street, které je pro ně otevřeno od 1. listopadu do 30. dubna.",
+            "New Plymouth má dvě místa pro šest vozidel u Lake Rotomanu a Battiscombe Terrace ve Waitara, každé s limitem jedné noci za 30 dní. Whakatāne je povoluje v Aniwhenua Reserve u Murupara až na sedm nocí ve čtyřech týdnech, Central Hawke's Bay na Pourerere Beach Road a Te Paerahi Beach a Southland v Dunsdale, Monkey Island v Orepuki a Thornbury. Každé má vlastní limity, proto si před jízdou přečtěte stránku obce."
+          ],
+          "tips": [
+            "Počítají se jen uvedená místa obcí",
+            "Většina turistických obcí nic neuvádí",
+            "Limity nocí platí na každém místě"
+          ],
+          "table": {
+            "caption": "Místa obcí pro vozidla, která nejsou certifikovaná jako soběstačná, z vyhlášky a stránky o freedom camping každé obce, zkontrolováno v říjnu a listopadu 2026.",
+            "head": [
+              "Obec",
+              "Místa pro vozidla bez certifikace"
+            ],
+            "rows": [
+              [
+                "Whangārei",
+                "17 uvedených míst"
+              ],
+              [
+                "Whakatāne",
+                "Aniwhenua Reserve, až 7 nocí ve 4 týdnech"
+              ],
+              [
+                "Central Hawke's Bay",
+                "Pourerere Beach Road a Te Paerahi Beach"
+              ],
+              [
+                "New Plymouth",
+                "Lake Rotomanu a Battiscombe Terrace, po 6 místech, 1 noc ve 30 dnech"
+              ],
+              [
+                "Tasman",
+                "Motueka Beach Reserve, Alexander Bluff Road Reserve, Fittal Street"
+              ],
+              [
+                "Dunedin",
+                "Warrington Domain, Ocean View Recreation Reserve, Thomas Burns Street (1. listopadu až 30. dubna)"
+              ],
+              [
+                "Southland",
+                "Dunsdale, Monkey Island (Orepuki), Thornbury"
+              ],
+              [
+                "Auckland, Thames-Coromandel, Queenstown Lakes, Christchurch, Westland",
+                "Žádná: použijte kemp"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Půda DOC a kempy DOC",
+          "body": [
+            "Chráněná půda je k necertifikovaným vozidlům přívětivější. Podle paragrafu 15 zákona o <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> je freedom camping na veřejné chráněné půdě povolen, pokud ho oznámení DOC neomezuje nebo nezakazuje, a oznámení omezující místo na soběstačná vozidla je spíše výjimkou než pravidlem. Několik omezených míst dokonce uvádí necertifikovaná vozidla, například Quailburn a Round Bush v Canterbury, na čtyři noci v měsíci.",
+            "Scénické a rekreační rezervace spravované DOC jsou uzavřeny kempování mimo vyhrazené kempy a DOC uvádí svá zakázaná parkoviště po okresech, proto zkontrolujte oznámení pro přesné místo. Na většinu nocí je jednodušší <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a>. V datech DOC v KiwiCamping z srpna 2026 uvádělo 150 kempů DOC přístup pro campervany a 63 žádný poplatek; na dlouhé cestě může DOC Campsite Pass snížit náklady těch placených."
+          ],
+          "tips": [
+            "Otevřená chráněná půda umožňuje jakékoli vozidlo",
+            "Rezervace jen ve vyhrazených kempech",
+            "150 kempů DOC uvádí přístup pro campervany"
+          ]
+        },
+        {
+          "heading": "Kolik stojí cesta bez zeleného warrantu",
+          "body": [
+            "Rozdíl jsou hlavně noci, které nemůžete strávit zdarma. Prázdninové parky uvádějí místa bez elektřiny za zhruba $20 až $26 za dospělého a místa s elektřinou zhruba $50 až $75 za noc pro dva v létě. Standardní <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> jsou asi $10 až $20 za dospělého a základní jsou zdarma, takže dva lidé střídající kempy DOC s prázdninovým parkem každou třetí noc utratí mnohem méně než jen v prázdninových parcích.",
+            "Nesoběstačný půjčený vůz je obvykle levnější za den než certifikovaný, takže úspora na vozidle často pokryje poplatky za kemp. Spočítejte si to pro svou trasu, než si vyberete. Náš průvodce <a data-guide=\"camping-fees-new-zealand-2026\">poplatky za kempování</a> má aktuální ceny pro každý druh místa a místo s elektřinou se vyplatí zaplatit, když potřebujete za chladné noci nabít lednici nebo topení."
+          ],
+          "tips": [
+            "Místa bez elektřiny v prázdninových parcích: $20 až $26 za dospělého",
+            "Standardní kempy DOC: $10 až $20",
+            "Střídejte noci v DOC s prázdninovým parkem"
+          ]
+        },
+        {
+          "heading": "Plánování nocí podle regionů",
+          "body": [
+            "Severní ostrov je ta snazší polovina. Whangārei, Whakatāne, Central Hawke's Bay a New Plymouth všechny uvádějí místa obcí a Northland, Coromandel a střední Severní ostrov mají spoustu <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a>. Obecní půda v Auckland a Thames-Coromandel je pro vás uzavřena, proto tyto noci plánujte v kempech nebo kempech DOC.",
+            "Na Jižním ostrově nejnavštěvovanější okresy, Queenstown Lakes, Westland a Christchurch, neuvádějí žádná místa obcí pro necertifikovaná vozidla, proto se opřete o DOC. Vysočina Canterbury, West Coast, Otago a Southland mají hustou síť kempů DOC, mnohé s přístupem pro campervany, a Tasman a Dunedin mají svá uvedená místa. <a data-guide=\"holiday-parks-new-zealand-guide\">Prázdninové parky</a> kolem Queenstown a Wānaka rezervujte předem v lednu, kdy se plní."
+          ],
+          "tips": [
+            "Severní ostrov: více míst obcí",
+            "Jižní ostrov: plánujte kolem kempů DOC",
+            "Prázdninové parky v Queenstown rezervujte na leden"
+          ]
+        },
+        {
+          "heading": "Pokuty a co se za kempování nepočítá",
+          "body": [
+            "Použití vozidla, které není soběstačné, tam, kde pravidla jedno vyžadují, je přestupek za $400, stejně jako kempování tam, kde to <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláška</a> zakazuje. Chybějící karta warrantu na půdě omezené na soběstačná vozidla stojí $200 a poškození nebo odhozený odpad $800. Obce a DOC vymáhají pravidla nejvíc v létě, v noci a brzy ráno.",
+            "Zastavení na odpočinek, když jste příliš unavení na bezpečné řízení, není podle zákona <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> a vždy byste měli zastavit, místo abyste pokračovali. Ale plánovaná noc na parkovišti je kempování, ať tomu říkáte jakkoli. Náš průvodce spaním v autě tuto hranici podrobně pokrývá, stejně jako výjimky pro nouzi a bydlení."
+          ],
+          "tips": [
+            "$400 za necertifikované vozidlo tam, kde je vyžadováno",
+            "Odpočinek kvůli únavě je povolen",
+            "Plánovaná noc je kempování"
+          ]
+        },
+        {
+          "heading": "Nemáte se raději nechat certifikovat?",
+          "body": [
+            "Pokud vozidlo vlastníte a plánujete cestovat měsíce, certifikace se může vyplatit v bezplatných nocích. <a data-guide=\"self-contained-campervan-green-warrant\">Zelený warrant</a> vyžaduje toaletu pevně zabudovanou ve vozidle, pitnou vodu, dřez odvádějící do nádrže na odpadní vodu, větrání a bezpečné uložení odpadků, na tři dny, kontrolované podle národního schématu, které provozuje Plumbers, Gasfitters and Drainlayers Board. Mnoho malých dodávek prostě nemá místo na pevnou toaletu.",
+            "Na krátkou cestu nebo půjčení to málokdy dává smysl. Vyberte si certifikovaný campervan od začátku, pokud vám záleží na bezplatných nocích u silnice, nebo naplánujte necertifikovanou cestu kolem <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a> a kempů, což je stejně způsob, jakým mnoho cestovatelů zemi poznává. Náš průvodce zeleným warrantem pokrývá pravidla certifikace a náklady."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Plánování necertifikovaných nocí v KiwiCamping",
+          "body": [
+            "KiwiCamping, aplikace pro iPhone, kterou vytváříme, uvádí kempy DOC s jejich poplatky, přístupem pro campervany, požadavky na rezervaci a pravidly pro psy a oznámení DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> podle okresů, takže vidíte, kde může necertifikované vozidlo zůstat na chráněné půdě. Filtrujte podle ceny, abyste našli bezplatné a levné kempy DOC, přidejte prázdninové parky a uložte je do trasy s daty, poznámkami a vzdáleností mezi zastávkami.",
+            "Mimo signál máte stále uložené údaje o místech, ačkoli mapa, trasy, počasí a fotografie se načítají jen s připojením. Aplikace neobsahuje mapy <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhlášek obcí</a>, proto zkontrolujte stránku obce pro její uvedená místa a berte cedulí u vjezdu jako konečné slovo. Běží na iPhonech s iOS 26 nebo novějším."
+          ],
+          "tips": [
+            "Kempy DOC s přístupem pro campervany",
+            "Oznámení DOC o freedom camping podle okresů",
+            "Uložte noci do trasy s daty"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kde mohu na Novém Zélandu kempovat bez soběstačného vozidla?",
+          "V kempech DOC, prázdninových parcích a kempech, na soukromé půdě se svolením majitele, na chráněné půdě, kterou DOC neomezil, a na několika místech obcí, která vyhláška uvádí pro necertifikovaná vozidla, například 17 míst ve Whangārei a Warrington Domain v Dunedinu."
+        ],
+        [
+          "Jaká je pokuta za kempování ve vozidle, které není soběstačné?",
+          "$400, tam, kde pravidla vyžadují certifikované soběstačné vozidlo. Nevystavení karty warrantu na půdě omezené na soběstačná vozidla je $200 a poškození oblasti nebo ponechání odpadu $800."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Freedom Camping Act 2011 (New Zealand Legislation)"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "DOC: chráněné oblasti, kde je freedom camping zakázán nebo omezen"
+        },
+        {
+          "label": "Whangarei District Council: freedom camping"
+        },
+        {
+          "label": "Tasman District Council: zodpovědné kempování"
+        },
+        {
+          "label": "Dunedin City Council: freedom camping"
+        },
+        {
+          "label": "DOC: místa k přenocování"
         }
       ],
       "priceTable": null
@@ -17942,6 +18750,914 @@
         },
         {
           "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-south-island": {
+      "title": "Freedom camping na Jižním ostrově 2026: pravidla obec po obci",
+      "description": "Kde je freedom camping na Jižním ostrově v roce 2026 legální: pravidla každé obce od Marlborough po Southland, co může stále dělat stan nebo necertifikovaná dodávka, půda DOC, pokuty a letní úzká místa.",
+      "region": "Jižní ostrov",
+      "imageAlt": "Silnice Mount Cook Road stoupající nad Lake Pukaki s Aoraki Mount Cook a Southern Alps před sebou",
+      "intro": "Ano, na Jižním ostrově můžete stále kempovat zdarma, ale téměř všude to nyní vyžaduje certifikované soběstačné vozidlo se zeleným warrantem a každá okresní obec si stanoví vlastní místa, noci a hodiny. Queenstown Lakes to povoluje na 15 parkovištích, Christchurch na dvou označených oblastech, zatímco Buller a Waitaki to povolují na většině obecní půdy mimo uvedené zákazy. Stan nebo dodávka bez toalety mají krátký seznam míst obcí a mnohem delší seznam kempů DOC a prázdninových parků.",
+      "sections": [
+        {
+          "heading": "Tři vlastníci, tři sady pravidel",
+          "body": [
+            "Zda je noc zdarma legální, závisí na tom, komu patří půda pod vašimi koly. Obecní půda se řídí vyhláškou okresní obce, chráněná půda oznámeními DOC a půda držená NZTA nebo Land Information New Zealand má vlastní omezení. Nad vším sedí zákon <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 a soukromá půda potřebuje souhlas majitele.",
+            "Nejdůležitější celostátní změna nastala 7. června 2026, kdy modré warranty přestaly platit. Pouze <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a>, který vyžaduje toaletu pevně zabudovanou ve vozidle, nyní činí vozidlo soběstačným pro freedom camping. Kombi s přenosnou toaletou se považuje za necertifikované a na obecní půdě může zůstat jen tam, kde pro vozidla bez certifikace vyhláška uvádí místo."
+          ],
+          "tips": [
+            "Obec, DOC a další agentury stanoví pravidla každá zvlášť",
+            "Od 7. června 2026 se počítají jen zelené warranty",
+            "Cedule na místě vítězí"
+          ]
+        },
+        {
+          "heading": "Sever jihu: Marlborough, Nelson a Tasman",
+          "body": [
+            "Marlborough uvádí 11 míst obce pro <a data-guide=\"self-contained-campervan-green-warrant\">certifikovaná soběstačná</a> vozidla, s pobyty jedné nebo dvou nocí a ničím v samotném Picton, proto noc před nebo po trajektu přes Cook Strait plánujte kolem Renwick, Blenheim nebo prázdninového parku. Jedinou výjimkou z certifikace jsou cyklisté na Awatere Valley Road, kteří smějí postavit stan v Blairich Reserve.",
+            "Responsible Camping Bylaw 2025 obce Tasman zakazuje stany na veřejné půdě a povoluje <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> jen na vyhrazených místech. Tři místa v Motueka, Ngātīmoti a Richmond berou vozidla bez certifikátu a zbytek je pro certifikovaná vozidla. Kolem Abel Tasman a Golden Bay se kempy DOC a místa Great Walk rezervují přes DOC, ne přes obec."
+          ],
+          "tips": [
+            "Marlborough: 11 míst, žádné v Picton",
+            "Tasman: žádné stany na veřejné půdě",
+            "Místa v Abel Tasman rezervujte přes DOC"
+          ]
+        },
+        {
+          "heading": "West Coast",
+          "body": [
+            "Pobřeží jsou tři obce se třemi přístupy. Buller nechává certifikovaná vozidla kempovat na obecní půdě mimo seznam zón se zákazem kempování, který zahrnuje úseky kolem Karamea, Westport, Charleston a Punakaiki. Grey schválil aktualizovanou <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhlášku</a> 28. září 2026, která zvyšuje limit na tři noci v jakýchkoli čtyřech týdnech, a Westland odkazuje certifikovaná vozidla na tři komunitně provozovaná místa v Kumara, Rimu a Paringa, s žádostí o příspěvek.",
+            "Ledovcová oblast je úzké místo: návrh vyhlášky Westland zakazuje kempování v městečku Fox Glacier a Franz Josef má jen oblast parkoviště u heliportu, takže prázdninový park nebo kemp DOC je v lednu bezpečnější plán. Náš průvodce <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> na West Coast prochází město po městě od Karamea po Haast."
+          ],
+          "tips": [
+            "Buller: obecní půda mimo uvedené zóny",
+            "Grey: tři noci ve čtyřech týdnech",
+            "Franz Josef a Fox rezervujte v létě"
+          ]
+        },
+        {
+          "heading": "Canterbury, Mackenzie a Waitaki",
+          "body": [
+            "Christchurch City Council povoluje certifikovaná vozidla na dvou označených oblastech, Naval Point v Lyttelton a severní konec Akaroa, na dvě noci v jakýchkoli 30 dnech; většina další obecní půdy ve městě a na Banks Peninsula je zakázána nebo omezena. Severně od města si Kaikōura a Hurunui stanoví vlastní pravidla, proto před nocí v Hanmer Springs nebo na pobřežní silnici zkontrolujte stránky těchto obcí.",
+            "V Mackenzie jsou městečko Tekapo, centrum Twizel a břeh laguny Lake Ruataniwha zakázány a čtyři místa se od 23. prosince do 11. ledna 2027 uzavírají. Oblast DOC Twizel přidává čtyři omezené kempovací oblasti jako Quailburn. Waitaki naopak dává certifikovaným vozidlům obecné povolení na obecní půdě na tři noci ve čtyřech týdnech, mimo desítky zakázaných míst v Oamaru, Moeraki a vesnicích u jezer."
+          ],
+          "tips": [
+            "Christchurch: jen Naval Point a Akaroa",
+            "Mackenzie o prázdninách uzavírá čtyři místa",
+            "Waitaki: tři noci ve čtyřech týdnech"
+          ]
+        },
+        {
+          "heading": "Otago, Wānaka a Queenstown",
+          "body": [
+            "Queenstown Lakes je nejpřísnější okres na ostrově. Jeho <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2025 povoluje certifikovaná vozidla na 15 vyhrazených parkovištích, od 18:00 do 8:00, na dvě noci v jakýchkoli 30 dnech, a zakazuje freedom camping v městských oblastech. Kingston Road má 50 míst, zatímco většina ostatních parkovišť pojme hrstku, a rozhodnutí o změnách vyhlášky se očekává 17. prosince 2026. Průvodce Wānaka pokrývá jezerní konec okresu.",
+            "Dunedin je volnější: certifikovaná vozidla smějí zůstat na většině štěrkových nebo zpevněných obecních parkovacích ploch až dvě po sobě jdoucí noci a tři místa obce berou vozidla bez certifikace, se stany jen ve Warrington Domain. Central Otago a Clutha stanoví vlastní seznamy a pobřeží Catlins je většinou země DOC a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninových parků</a>."
+          ],
+          "tips": [
+            "Queenstown Lakes: 15 parkovišť",
+            "Dunedin: dvě noci na většině obecního parkování",
+            "Stany v Dunedinu jen ve Warrington"
+          ]
+        },
+        {
+          "heading": "Southland a Fiordland",
+          "body": [
+            "Southland District Council dává certifikovaným vozidlům vyhrazená místa v malých městech jako Winton, Riversdale a Dipton a několik míst jako Dunsdale a Thornbury přijímá vozidla bez certifikace. Te Anau, Manapouri, Riverton a Tuatapere nemají žádné místo obce a městské zóny jsou po celém okrese zakázány.",
+            "Na Milford Road je půda národním parkem a DOC zde kempování mimo své kempy zakázalo. Okres Te Anau nese v datech KiwiCamping 24 zákazových oznámení DOC. Cestou jsou kempy DOC na Milford Road jako Cascade Creek, který má 120 míst, nebo <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a> v Te Anau, přičemž cenou za obojí jsou muchničky."
+          ],
+          "tips": [
+            "Žádné místo obce v Te Anau",
+            "Milford Road: jen kempy DOC",
+            "Cascade Creek je největší"
+          ]
+        },
+        {
+          "heading": "Bez certifikovaného vozidla",
+          "body": [
+            "Stan, auto nebo necertifikovaná dodávka není z Jižního ostrova vyloučena, jen potřebuje většinu nocí rezervované nebo placené místo. Data DOC v KiwiCamping uvádějí 165 <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a> napříč regiony Jižního ostrova, od bezplatných základních míst se suchým záchodem po kempy s vybavením a sprchami, a mnohé z nich vítají stany a auta. Prázdninové parky pokrývají města.",
+            "Místa obcí pro vozidla bez certifikace existují, ale jsou rozptýlená: tři v Tasman, tři v Dunedinu, hrstka v Southland. Berte je jako bonus, ne jako plán. Tabulka níže shrnuje postoj každé obce tak, jak ho uvádí její vlastní stránka nebo <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláška</a>."
+          ],
+          "tips": [
+            "Kempy DOC berou stany a auta",
+            "Prázdninové parky v každém městě",
+            "Míst obcí pro necertifikovaná vozidla je málo"
+          ],
+          "table": {
+            "caption": "Pouze obecní půda, ze stránky nebo vyhlášky každé obce, jak byly čteny pro naše průvodce obcemi v říjnu 2026 a stránku vyhlášky obce Grey v listopadu 2026. Půda DOC se řídí oznámeními DOC.",
+            "head": [
+              "Obec",
+              "Certifikované soběstačné",
+              "Bez certifikace"
+            ],
+            "rows": [
+              [
+                "Marlborough",
+                "11 uvedených míst, jedna nebo dvě noci",
+                "Stany cyklistů jen v Blairich Reserve"
+              ],
+              [
+                "Tasman",
+                "Vyhrazená místa",
+                "Motueka, Ngātīmoti a Richmond; žádné stany"
+              ],
+              [
+                "Buller",
+                "Obecní půda mimo zóny se zákazem kempování",
+                "Kempy"
+              ],
+              [
+                "Grey",
+                "Obecní půda mimo zakázané oblasti, tři noci ve čtyřech týdnech",
+                "Obec to přezkoumává"
+              ],
+              [
+                "Westland",
+                "Tři komunitně provozovaná místa",
+                "Komerční kempy"
+              ],
+              [
+                "Christchurch",
+                "Naval Point a severní Akaroa, dvě noci ve 30 dnech",
+                "Kempy"
+              ],
+              [
+                "Mackenzie",
+                "Omezená místa, tři po sobě jdoucí noci",
+                "Kempy"
+              ],
+              [
+                "Waitaki",
+                "Obecní půda mimo zakázaná místa, tři noci ve čtyřech týdnech",
+                "Placené kempy"
+              ],
+              [
+                "Dunedin",
+                "Většina obecního parkování, dvě po sobě jdoucí noci",
+                "Tři místa; stany jen ve Warrington"
+              ],
+              [
+                "Queenstown Lakes",
+                "15 parkovišť, dvě noci ve 30 dnech",
+                "Kempy"
+              ],
+              [
+                "Southland",
+                "Vyhrazená místa v malých městech",
+                "Několik míst jako Dunsdale a Thornbury"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pokuty a vymáhání",
+          "body": [
+            "Každá obec na ostrově účtuje celostátní sazby pokut. Kempování tam, kde to <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláška</a> zakazuje nebo omezuje, nebo v necertifikovaném vozidle tam, kde je certifikace vyžadována, je $400. Nevystavená karta warrantu je $200, odmítnutí odejít, když o to úředník požádá, je $600 a vyhození odpadu nebo poškození místa je $800.",
+            "Půjčovny dostanou oznámení jako první a předají ho se správním poplatkem a úředníci kontrolují značku vozidla v národním registru certifikovaných vozidel. Queenstown, Wānaka, Tekapo a ledovcová města se v létě hlídkují nejvíc."
+          ],
+          "tips": [
+            "$400 za většinu porušení",
+            "$800 za odpad nebo poškození",
+            "Půjčovny pokuty přenášejí dál"
+          ]
+        },
+        {
+          "heading": "Plánování nocí na Jižním ostrově s KiwiCamping",
+          "body": [
+            "KiwiCamping zobrazuje na mapě oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> vedle kempů DOC, chat, prázdninových parků a vypouštěcích stanic po celém Jižním ostrově a jeho filtry zužují mapu na to, co dovoluje vaše vozidlo a rozpočet. Pravidla obcí se mění rychleji než jakákoli datová sada, proto si před dlouhou jízdou přečtěte cedulí na místě v daný večer a stránku obce.",
+            "Uložte bezplatná místa, která se vám líbí, do <a data-guide=\"save-places-kiwicamping\">kolekcí</a>, pak sestavte trasu s datem u každé zastávky a placenou zálohou vedle nocí, které závisejí na malém parkovišti. Plánovač ukazuje vzdálenost a jízdu pro každý úsek a předpověď pro každé místo. Ke stažení zdarma, s nákupy v aplikaci."
+          ],
+          "tips": [
+            "Filtrujte mapu podle svého vozidla",
+            "Uložte placenou zálohu na každou noc",
+            "Před odjezdem zkontrolujte stránku obce"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze na Jižním ostrově kempovat zdarma?",
+          "Ano, ale téměř vždy v certifikovaném soběstačném vozidle se zeleným warrantem a jen tam, kde to okresní obec nebo DOC povoluje. Každá obec stanoví vlastní místa a noci, od 15 parkovišť v Queenstown Lakes po většinu obecní půdy mimo uvedené zákazy v Buller a Waitaki."
+        ],
+        [
+          "Kde lze na Jižním ostrově kempovat zdarma ve stanu?",
+          "Většinou v bezplatných základních kempech DOC, které jsou na chráněné půdě a obvykle mají suchý záchod. Obecní půda je pro stany většinou uzavřena: Tasman je zakazuje na veřejné půdě, Dunedin je povoluje jen ve Warrington Domain a Marlborough jen pro cyklisty v Blairich Reserve."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Marlborough District Council: freedom camping"
+        },
+        {
+          "label": "Buller District Council: freedom camping"
+        },
+        {
+          "label": "Grey District Council: konzultace k vyhlášce"
+        },
+        {
+          "label": "Westland District Council: kempy a zodpovědné kempování"
+        },
+        {
+          "label": "Queenstown Lakes District Council: zodpovědné kempování"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-north-island": {
+      "title": "Freedom camping na Severním ostrově 2026: kde je legální, region po regionu",
+      "description": "Pravidla freedom camping na Severním ostrově v roce 2026, od Northland po Wellington: místa a limity nocí každé obce, několik míst, kde může zůstat stan nebo necertifikovaná dodávka, půda DOC, pokuty a letní hotspoty.",
+      "region": "Severní ostrov",
+      "imageAlt": "Hora Ruapehu pod sněhem za cedulí města Waiouru na State Highway 1",
+      "intro": "Freedom camping je legální na velké části Severního ostrova v certifikovaném soběstačném vozidle, ale každá obec kreslí vlastní mapu a rušná pobřeží jsou přísně omezena. Auckland, Thames-Coromandel a Tauranga berou jen certifikovaná vozidla, nejvýše na dvě noci, zatímco Whangārei, Waikato District a Taupō stále uvádějí místa pro dodávky bez toalety. Počítejte s krátkými pobyty, stanovenými hodinami a pokutou $400 za chybu.",
+      "sections": [
+        {
+          "heading": "Co rozhoduje o tom, zda je místo legální",
+          "body": [
+            "Rozhoduje vlastník půdy. Na obecní půdě stanoví místa, noci a hodiny vyhláška okresní nebo městské obce; na chráněné půdě totéž dělají oznámení DOC; a odpočívadla NZTA jsou na přestávku od řízení, ne na zřízení tábora. Zákon <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act 2011 to vše rámuje a cedule na místě má poslední slovo.",
+            "Od 7. června 2026 činí vozidlo soběstačným pro freedom camping jen <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a>, takže starší dodávka s modrou nálepkou se počítá jako necertifikovaná. Na obecní půdě může necertifikované vozidlo nebo stan zůstat jen tam, kde pro ně vyhláška vyhradila místo, a tato místa jsou na Severním ostrově výjimkou, ne pravidlem."
+          ],
+          "tips": [
+            "Platí pravidla vlastníka půdy",
+            "Pouze zelené warranty od 7. června 2026",
+            "Odpočívadla nejsou kempy"
+          ]
+        },
+        {
+          "heading": "Northland",
+          "body": [
+            "Far North District Council nepouští kempování a noční parkování do svých parků, rezervací a pláží a posílá kempující zdarma na sedm schválených míst poblíž toalet a vody. Whangārei je štědřejší než většina obcí v zemi: jeho <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláška</a> uvádí 23 míst pro certifikovaná vozidla, 17, kde smí zůstat vozidlo bez certifikace, a pět oblastí pro stany, většinou na jednu noc.",
+            "Cape Reinga a Tapotupotu jsou půda DOC, kde je <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> zakázán, takže daleký severní konec State Highway 1 znamená kempy DOC v Tapotupotu nebo Spirits Bay či prázdninový park. Kemp DOC Uretiti Beach jižně od Whangārei je největší kemp DOC v zemi, s 300 místy."
+          ],
+          "tips": [
+            "Far North: sedm schválených míst",
+            "Whangārei: místa pro stany a necertifikované dodávky",
+            "Žádný freedom camping u Cape Reinga"
+          ]
+        },
+        {
+          "heading": "Auckland a Coromandel",
+          "body": [
+            "Auckland nechává certifikovaná vozidla zůstat na obecních silnicích a parkovištích dvě noci na stejném místě, pryč do 9:00 v den odjezdu, ale 58 oblastí je zakázáno, 20 omezeno a obecní rezervace a regionální parky jsou pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> uzavřeny. Stan nebo necertifikovaná dodávka potřebuje kemp nebo jeden z kempů regionálních parků, které se rezervují a platí.",
+            "Thames-Coromandel zakazuje freedom camping v 84 uvedených oblastech a omezuje ho v dalších 25 a jen certifikovaná vozidla smějí používat omezené, na dvě po sobě jdoucí noci od 17:00 do 9:00. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a> poloostrova, například Waikawau Bay se 132 místy, se rezervují přes DOC a plní se po celý leden."
+          ],
+          "tips": [
+            "Auckland: dvě noci, pryč do 9:00",
+            "Coromandel: 84 zakázaných oblastí",
+            "Kempy DOC na Coromandel rezervujte brzy"
+          ]
+        },
+        {
+          "heading": "Waikato, Bay of Plenty a Rotorua",
+          "body": [
+            "Waikato District dává certifikovaným vozidlům obecné povolení mimo zakázané oblasti, na tři noci v každé oblasti za měsíc, a nechává necertifikovaná vozidla zůstat dvě noci v Onewhero Domain a Te Kauwhata Domain. James Street v Raglan je od prosince 2025 uzavřena a ostatní pravidla v Raglan patří téže obci.",
+            "Tauranga povoluje jen certifikovaná vozidla, v rezervacích, na silnicích a parkovištích, které uvádí její <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláška</a>, na dvě noci na místo za kalendářní měsíc. Whakatāne má čtyři místa pro certifikovaná vozidla ve Whakatāne a Ōhope a Aniwhenua Reserve u Murupara bere vozidla, která nejsou soběstačná. Rotorua provozuje tři bezplatná místa pro certifikovaná vozidla a tři placené rezervace u jezer, z nichž dvě berou stany."
+          ],
+          "tips": [
+            "Waikato: tři noci v oblasti",
+            "Tauranga: jen certifikovaná vozidla",
+            "Rotorua: stany ve dvou placených rezervacích"
+          ]
+        },
+        {
+          "heading": "Taupō a centrální plošina",
+          "body": [
+            "Okres Taupō nechává certifikovaná vozidla kempovat na obecní půdě mimo zakázané oblasti a pro všechny ostatní uvádí tři oblasti: Hipapatua Reid's Farm na řece Waikato, Mangakino a Whakamaru. Většina břehu jezera je rezervace, kde kempování není povoleno, a Five Mile Bay je od roku 2020 uzavřena kempujícím ze strany Ngāti Tūwharetoa. Podrobnosti má náš průvodce Taupō.",
+            "Kolem Tongariro National Park je půda DOC a data KiwiCamping obsahují 22 oznámení DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v okrese Tongariro, z nichž 17 zakazuje kempování, včetně Whakapapa Village. Použijte kemp DOC Mangahuia nebo prázdninový park ve Whakapapa Village, vesnici National Park nebo v Ohakune."
+          ],
+          "tips": [
+            "Taupō: tři místa pro necertifikované dodávky",
+            "Většina břehu jezera je rezervace",
+            "Tongariro: použijte kempy DOC"
+          ]
+        },
+        {
+          "heading": "Taranaki, Hawke's Bay a East Coast",
+          "body": [
+            "New Plymouth zakazuje stany na veřejné půdě a nechává certifikovaná vozidla kempovat zdarma po celém okrese na tři noci v jakýchkoli 30 dnech. Vozidla bez certifikace mají dvě místa obce, Lake Rotomanu a Battiscombe Terrace ve Waitara, po šesti místech a jedné noci za 30 dní.",
+            "Obce Hawke's Bay a Gisborne povolují <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> na konkrétních pobřežních místech, některá s povolením zařízeným před příjezdem, proto si přečtěte stránku obce pro Napier, Hastings nebo pláže Tairāwhiti. Na East Cape jsou spolehlivými nocemi kempy DOC jako Anaura Bay a mnohé jsou základní a levné."
+          ],
+          "tips": [
+            "New Plymouth: žádné stany na veřejné půdě",
+            "Některá místa na East Coast potřebují povolení",
+            "Anaura Bay je největší kemp DOC na mysu"
+          ]
+        },
+        {
+          "heading": "Wellington a dolní Severní ostrov",
+          "body": [
+            "Wellington City povoluje jen certifikovaná vozidla a jeho bezplatná místa jsou dvě parkoviště: Evans Bay Marina s 52 místy a Te Kopahou Visitors Centre se 16. Každé povoluje čtyři po sobě jdoucí noci za kalendářní měsíc a půda podle Reserves Act a Town Belt Act je kempování uzavřena. Díky tomu se snadno plánuje noc před časným <a data-guide=\"cook-strait-ferry-campervan-guide\">trajektem přes Cook Strait</a>.",
+            "Obce Kāpiti, Horowhenua, Manawatū a Wairarapa si každá stanoví vlastní krátký seznam, proto před nocí na pobřeží zkontrolujte obec. Kemp DOC Holdsworth v předhůří Tararua má 150 míst a Catchpool Valley v Remutaka Forest Park je nejbližší kemp DOC k městu."
+          ],
+          "tips": [
+            "Wellington: Evans Bay a Te Kopahou",
+            "Čtyři noci za měsíc ve Wellingtonu",
+            "Holdsworth a Catchpool pro noci v DOC"
+          ]
+        },
+        {
+          "heading": "Pokuty a nejrušnější týdny",
+          "body": [
+            "Všude platí celostátní sazby: $400 za kempování v rozporu s <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláškou</a> nebo v necertifikovaném vozidle tam, kde je certifikace vyžadována, $200 za nevystavenou kartu warrantu, $600 za odmítnutí odejít, když o to úředník požádá, a $800 za ponechání odpadu nebo poškození místa. Půjčovna oznámení předá nájemci.",
+            "Vymáhání a poptávka vrcholí od Vánoc do konce ledna na Coromandel, v Northland a kolem Taupō, kdy se mnohá místa obcí plní před setměním. V těch nocích rezervovaný <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a> nebo prázdninový park porazí jízdu mezi plnými parkovišti."
+          ],
+          "tips": [
+            "$400 za většinu porušení",
+            "Půjčovny pokuty přenášejí dál",
+            "Od Vánoc do ledna rezervujte předem"
+          ]
+        },
+        {
+          "heading": "Bez certifikovaného vozidla",
+          "body": [
+            "Stan nebo auto může na Severním ostrově stále spát levně, většinou na půdě DOC a v placených kempech. Data DOC v KiwiCamping uvádějí 122 kempů DOC napříč regiony ostrova, od bezplatných základních míst po rezervovaná zařízení se sprchami, a <a data-guide=\"freedom-camping-rules-new-zealand\">pravidla freedom camping</a> DOC na chráněné půdě ne vždy vyžadují certifikaci. Prázdninové parky pokrývají každé město.",
+            "Whangārei, Waikato District, Taupō, Whakatāne, Rotorua a New Plymouth všechny uvádějí místa obcí pro lidi bez toalety na palubě, což dělá horní a střední část ostrova snazší než pobřeží kolem Auckland a Tauranga. Každý řádek v tabulce pochází ze stránky obce o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> nebo z její vyhlášky."
+          ],
+          "tips": [
+            "122 kempů DOC na ostrově",
+            "Šest obcí uvádí necertifikovaná místa",
+            "Prázdninové parky v každém městě"
+          ],
+          "table": {
+            "caption": "Pouze obecní půda, ze stránky nebo vyhlášky každé obce, jak byly čteny pro naše průvodce obcemi v říjnu 2026, a Freedom Camping Bylaw 2023 obce Taupō. Půda DOC se řídí oznámeními DOC.",
+            "head": [
+              "Obec",
+              "Certifikované soběstačné",
+              "Bez certifikace"
+            ],
+            "rows": [
+              [
+                "Far North",
+                "Sedm schválených míst",
+                "Neuvedeno; zkontrolujte seznam obce"
+              ],
+              [
+                "Whangārei",
+                "23 uvedených míst",
+                "17 míst pro vozidla, pět oblastí pro stany"
+              ],
+              [
+                "Auckland",
+                "Obecní silnice a parkoviště mimo 78 uvedených oblastí, dvě noci",
+                "Kempy"
+              ],
+              [
+                "Thames-Coromandel",
+                "25 omezených oblastí, dvě noci, 17:00 až 9:00",
+                "Kempy"
+              ],
+              [
+                "Waikato District",
+                "Mimo zakázané oblasti, tři noci v oblasti",
+                "Onewhero a Te Kauwhata Domains, dvě noci"
+              ],
+              [
+                "Tauranga",
+                "Uvedené rezervace a parkoviště, dvě noci za měsíc",
+                "Kempy"
+              ],
+              [
+                "Whakatāne",
+                "Čtyři místa, tři noci ve čtyřech týdnech",
+                "Aniwhenua Reserve"
+              ],
+              [
+                "Rotorua",
+                "Tři bezplatná a tři placená místa",
+                "Stany v Lake Ōkaro a Guy Roe Reserve"
+              ],
+              [
+                "Taupō",
+                "Obecní půda mimo zakázané oblasti",
+                "Reid's Farm, Mangakino a Whakamaru"
+              ],
+              [
+                "New Plymouth",
+                "Po celém okrese, tři noci ve 30 dnech",
+                "Dvě místa, jedna noc; žádné stany"
+              ],
+              [
+                "Wellington City",
+                "Evans Bay a Te Kopahou, čtyři noci za měsíc",
+                "Kempy"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Plánování nocí na Severním ostrově s KiwiCamping",
+          "body": [
+            "KiwiCamping dává oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, kempy DOC, chaty, prázdninové parky a vypouštěcí stanice na jednu mapu Severního ostrova a jeho filtry ji zužují na to, co vyhovuje vašemu vozidlu. Místa obcí se mění s každou vyhláškou, proto berte mapu jako užší výběr a stránku obce a cedulí jako odpověď.",
+            "Uložte místa, která se vám líbí, do <a data-guide=\"save-places-kiwicamping\">kolekcí</a>, pak naplánujte cestu s datem u každé zastávky, poznámkou k pravidlům a placenou zálohou na noci kolem Vánoc. Každý úsek ukazuje vzdálenost a jízdu a každé místo předpověď. Ke stažení zdarma, s nákupy v aplikaci."
+          ],
+          "tips": [
+            "Užší výběr na mapě",
+            "Ověřte u obce a na cedulí",
+            "Mějte zálohu na letní noci"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze na Severním ostrově kempovat zdarma?",
+          "Ano, v certifikovaném soběstačném vozidle, kdekoli to vyhláška obce nebo oznámení DOC povoluje. Limity jsou krátké: dvě noci v Auckland, Thames-Coromandel a Tauranga, tři ve Waikato District a New Plymouth, čtyři za měsíc na dvou místech ve Wellingtonu."
+        ],
+        [
+          "Kde lze na Severním ostrově kempovat zdarma bez soběstačného vozidla?",
+          "Jen na místech obcí vyhrazených pro to, například uvedená místa Whangārei, Onewhero a Te Kauwhata Domains ve Waikato, Reid's Farm u Taupō a Lake Rotomanu v New Plymouth, nebo na půdě DOC, kde žádné oznámení nevyžaduje certifikaci. Jinak použijte kemp DOC nebo prázdninový park."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Thames-Coromandel District Council: freedom camping"
+        },
+        {
+          "label": "Waikato District Council: freedom camping"
+        },
+        {
+          "label": "Taupō District Council: freedom camping"
+        },
+        {
+          "label": "Wellington City Council: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-taupo": {
+      "title": "Freedom camping v Taupō 2026: Reid's Farm, jezero a pravidla",
+      "description": "Freedom camping kolem Taupō v roce 2026: kdo smí kde zůstat podle vyhlášky obce z roku 2023, Hipapatua Reid's Farm, Mangakino a Whakamaru, proč je většina břehu jezera uzavřena, půda DOC poblíž Tūrangi a pokuty.",
+      "region": "Taupō",
+      "imageAlt": "Lake Taupō při pohledu z travnatého parku u jezera, na protějším břehu město Taupō",
+      "intro": "V okrese Taupō smí certifikované soběstačné vozidlo kempovat zdarma na obecní půdě mimo oblasti, které zakazuje Freedom Camping Bylaw 2023 obce a které zahrnují většinu břehu jezera. Všichni ostatní, včetně stanů a dodávek bez toalety, jsou omezeni na tři obecní oblasti: Hipapatua Reid's Farm na řece Waikato severně od města, Mangakino a Whakamaru. Pobyty jsou krátké, obvykle tři noci, a podrobnosti stanoví cedule na každém místě.",
+      "sections": [
+        {
+          "heading": "Vyhláška z roku 2023 stručně",
+          "body": [
+            "Obec okresu Taupō přijala svou vyhlášku <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2023 dne 26. září 2023 a vstoupila v platnost 16. října 2023, čímž nahradila vyhlášku z roku 2017. Její model je jednoduchý: certifikované soběstačné vozidlo smí kempovat kdekoli na obecní půdě kromě zakázaných oblastí a veškeré ostatní freedom camping je omezeno na oblasti uvedené v jejím seznamu.",
+            "Od 7. června 2026 činí vozidlo soběstačným jen <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a>, takže dodávka se starým modrým certifikátem nyní patří do druhé skupiny se stany. Vyhláška se vztahuje jen na obecní půdu; dno jezera patří Ngāti Tūwharetoa a velká část půdy jižně a východně od jezera patří DOC."
+          ],
+          "tips": [
+            "V platnosti od 16. října 2023",
+            "Certifikovaná vozidla: obecní půda mimo zákazy",
+            "Všichni ostatní: tři uvedené oblasti"
+          ]
+        },
+        {
+          "heading": "Hipapatua Reid's Farm",
+          "body": [
+            "Reid's Farm je místo pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v Taupō, které zná většina cestovatelů: rekreační rezervace u řeky na Huka Falls Road, pár minut severně od města, s toaletami, piknikovými stoly a řekou Waikato ke koupání. Protože má toalety, je jednou ze tří oblastí, kde smějí zůstat vozidla bez certifikace, a je zdarma.",
+            "Není tam elektřina ani pitná voda, proto přijeďte s plnými nádržemi nebo lahvemi a odvezte si každý kousek odpadu. Místo je od prosince do března rušné, v minulosti bylo po určitá období uzavřeno a limit pobytu je krátký, proto před plánováním noci kolem něj zkontrolujte stránku obce a mějte ve městě jako zálohu <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a>."
+          ],
+          "tips": [
+            "Zdarma, s toaletami",
+            "Žádná pitná voda",
+            "Rušno celé léto"
+          ]
+        },
+        {
+          "heading": "Mangakino a Whakamaru",
+          "body": [
+            "Další dvě oblasti pro stany a necertifikovaná vozidla jsou na vodních nádržích řeky Waikato západně od Taupō. Mangakino Recreation Reserve leží na břehu Lake Maraetai a Whakamaru Recreation Reserve na Lake Whakamaru, obě do hodiny jízdy z Taupō.",
+            "Hodí se spíš na pomalejší trasu mezi Taupō a Waitomo nebo Hamiltonem po State Highway 30 než jako základna pro samotné jezero. Obě jsou rezervace u jezera s veřejnými toaletami poblíž a v létě přitahují vodní lyžaře a kempující s loděmi i dodávky."
+          ],
+          "tips": [
+            "Lake Maraetai u Mangakino",
+            "Lake Whakamaru na SH30",
+            "Dobré zastávky směrem k Waitomo"
+          ]
+        },
+        {
+          "heading": "Proč je břeh jezera většinou uzavřen",
+          "body": [
+            "Většina břehu jezera a břehů řeky Waikato kolem Taupō jsou veřejné rezervace a Reserves Act již <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> na nich zakazuje, pokud to plán nepovoluje. To zahrnuje dlouhý úsek parků u jezera ve městě, kde dodávky dříve parkovaly, takže moře kempujících podél Lake Terrace není legální.",
+            "Five Mile Bay, jižně od města, byla kdysi nejrušnější oblastí pro freedom camping na jezeře, s až 100 vozidly za noc. Velká část se vrátila Ngāti Tūwharetoa v jejich vyrovnání smlouvy z roku 2018 a iwi ji v červnu 2020 uzavřelo pro vozidla a kempování rāhui. Pěší a cyklisté mohou stále používat břeh."
+          ],
+          "tips": [
+            "Rezervace jsou pro kempování uzavřeny",
+            "Žádné kempování podél Lake Terrace",
+            "Five Mile Bay uzavřena od roku 2020"
+          ]
+        },
+        {
+          "heading": "Půda DOC kolem Tūrangi a Tongariro",
+          "body": [
+            "Jižně od jezera jsou řeka Tongariro, Kaimanawa Forest Park a Tongariro National Park chráněná půda. Data DOC v KiwiCamping obsahují 28 oznámení DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v okrese Tūrangi, z nichž 21 zakazuje kempování a 7 ho omezuje na soběstačná vozidla, včetně velké oblasti Whakaipo na severozápadním břehu jezera.",
+            "Pro stan nebo necertifikovanou dodávku je spolehlivou volbou <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a>. Centrální Severní ostrov jich má v datech KiwiCamping 14, z nichž devět je zdarma, mnohé v Kaimanawa Forest Park, se sazbami pro dospělé od $10, kde se poplatek uplatňuje. Náš průvodce Severním ostrovem pokrývá sopečnou plošinu za nimi."
+          ],
+          "tips": [
+            "28 oznámení DOC poblíž Tūrangi",
+            "Whakaipo: jen soběstačná vozidla",
+            "Devět bezplatných kempů DOC v regionu"
+          ]
+        },
+        {
+          "heading": "Odpad, voda a oheň",
+          "body": [
+            "Certifikovaná vozidla by měla přijíždět s prázdnými nádržemi a odjíždět stejně: město má veřejné <a data-guide=\"camping-wastewater-rubbish-new-zealand\">vypouštěcí stanice</a> a KiwiCamping je označuje, abyste našli nejbližší, než se usadíte. Nikdy nevypouštějte šedou vodu na zem v rezervaci, což je přestupek za $800 a nejrychlejší způsob, jak zavřít místo.",
+            "Region Taupō v létě vysychá a omezení kvůli požárům jsou běžná. Před rozdělením plynového vařiče venku před vozidlem zkontrolujte období požárů pro oblast a nerozdělávejte otevřený oheň v oblastech obce nebo DOC pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>."
+          ],
+          "tips": [
+            "Přijíždějte s prázdnými nádržemi",
+            "Šedá voda na zem je $800",
+            "V létě zkontrolujte období požárů"
+          ]
+        },
+        {
+          "heading": "Pokuty",
+          "body": [
+            "Obec používá celostátní sazby. Kempování tam, kde to vyhláška zakazuje, nebo na místě pro certifikovaná vozidla v dodávce bez <a data-guide=\"self-contained-campervan-green-warrant\">zeleného warrantu</a> stojí $400; nevystavená karta warrantu je $200; odmítnutí odejít, když o to úředník požádá, je $600; a ponechání odpadu nebo poškození oblasti je $800.",
+            "Oznámení pro půjčená vozidla jdou půjčovně, která je předává nájemci. Počítejte s hlídkami ve městě a na Reid's Farm po celé léto."
+          ],
+          "tips": [
+            "$400 za většinu porušení",
+            "$800 za odpad nebo poškození",
+            "Půjčovny pokuty přenášejí dál"
+          ]
+        },
+        {
+          "heading": "Používání KiwiCamping kolem Taupō",
+          "body": [
+            "KiwiCamping zobrazuje na mapě oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, kempy DOC, prázdninové parky a vypouštěcí stanice kolem jezera a jeho filtry ukazují jen místa, která berou vaše vozidlo nebo stan. Obecní oblast se může zavřít v krátké době, proto berte mapu jako plán a cedulí jako pravidlo.",
+            "Uložte Reid's Farm a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a> vedle sebe do kolekce, pak zastávku zahrňte do trasy s daty, jízdou z Rotorua nebo Tongariro a předpovědí pro každou noc. Ke stažení zdarma, s nákupy v aplikaci."
+          ],
+          "tips": [
+            "Filtrujte pro stany nebo necertifikované dodávky",
+            "Uložte prázdninový park jako zálohu",
+            "Po příjezdu zkontrolujte cedulí"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze v Taupō kempovat zdarma?",
+          "Ano, v certifikovaném soběstačném vozidle na obecní půdě mimo oblasti, které vyhláška z roku 2023 zakazuje a které zahrnují většinu rezervací u jezera. Bez certifikace nebo ve stanu je vám otevřena jen Hipapatua Reid's Farm, Mangakino a Whakamaru."
+        ],
+        [
+          "Je Reid's Farm zdarma?",
+          "Ano. Hipapatua Reid's Farm na Huka Falls Road je bezplatná obecní oblast s toaletami, ale bez pitné vody, a pobyt je krátký. Je rušná celé léto, proto mějte ve městě placený kemp jako zálohu."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Taupō District Council: freedom camping"
+        },
+        {
+          "label": "Taupō District Council: Freedom Camping Bylaw 2023"
+        },
+        {
+          "label": "Rotorua Daily Post: Five Mile Bay uzavřena pro freedom camping (červen 2020)"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-west-coast": {
+      "title": "Freedom camping na West Coast 2026: od Karamea po Haast, město po městě",
+      "description": "Kde můžete v roce 2026 kempovat zdarma na West Coast Jižního ostrova: pravidla Buller, Grey a Westland, Punakaiki a ledovcová města, komunitní místa, kempy DOC, vypouštěcí stanice a pokuty.",
+      "region": "West Coast",
+      "imageAlt": "Naplavené dřevo a šedé kameny na pláži Hokitika pod jasnou oblohou, za nimi Tasmanovo moře",
+      "intro": "West Coast je jedním z snazších míst na Jižním ostrově pro freedom camping v certifikovaném soběstačném vozidle, ale každá ze tří obcí funguje jinak. Buller a Grey nechávají certifikovaná vozidla zůstat na většině obecní půdy mimo seznam zakázaných míst a Westland je odkazuje na tři komunitně provozovaná místa. Punakaiki, Fox Glacier a úsek na jih do Haast jsou těsná místa a stan nebo dodávka bez toalety potřebuje kemp DOC nebo prázdninový park.",
+      "sections": [
+        {
+          "heading": "Tři obce podél jedné silnice",
+          "body": [
+            "Pobřežní silnice vede přes 500 kilometrů od Karamea na severu po Haast na jihu, okresy Buller, Grey a Westland. Každá obec má vlastní vyhlášku o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> a hranici mezi nimi je snadné přejít bez povšimnutí, takže pravidlo, které platilo na oběd, nemusí platit k večeři.",
+            "Všude platí dvě celostátní pravidla. Od 7. června 2026 se za soběstačné počítá jen <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a> a na obecní půdě může vozidlo bez něj zůstat jen tam, kde pro něj vyhláška uvádí místo. Na pobřeží žádná obec takové místo v současnosti neuvádí, takže pro stany a necertifikované dodávky je odpovědí DOC nebo kemp."
+          ],
+          "tips": [
+            "Tři obce, tři vyhlášky",
+            "Pouze zelené warranty",
+            "Žádná místa obcí pro necertifikované dodávky"
+          ]
+        },
+        {
+          "heading": "Buller: Karamea, Westport a Charleston",
+          "body": [
+            "Vyhláška Buller dovoluje <a data-guide=\"self-contained-campervan-green-warrant\">certifikovanému soběstačnému</a> vozidlu kempovat na obecní půdě kdekoli mimo její zóny se zákazem kempování. Vyhláška povoluje až tři po sobě jdoucí dny a deset za měsíc na jednom místě a vlastní stránka obce žádá nejvýše dvě noci na jednom místě. Zóny zahrnují ústí řeky Oparara a Flagstaff v Karamea, výsypky řeky Buller a Carters Beach Domain poblíž Westport, Tauranga Bay, Constant Bay a Joyce Bay v Charleston a části hlavních ulic Reefton.",
+            "<a data-guide=\"camping-rules-local-councils-new-zealand\">Vyhláška</a> pochází z roku 2012 a obec uvedla, že v roce 2026 vypíše konzultaci k nové, proto si přečtěte její stránku, než se spolehnete na starý seznam. Okres DOC Buller přidává sedm vlastních oznámení, dvě z nich omezují kempování na soběstačná vozidla."
+          ],
+          "tips": [
+            "Certifikovaná vozidla: obecní půda mimo zóny",
+            "Dvě noci na jednom místě, žádá obec",
+            "Připravuje se nová vyhláška"
+          ]
+        },
+        {
+          "heading": "Punakaiki a pobřeží Paparoa",
+          "body": [
+            "Buller zakazuje <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> na obecní půdě od řeky Fox na jih po řeku Punakaiki, kromě dálničního koridoru, a zbytek pobřeží tam je národní park Paparoa. V praxi to znamená žádnou bezplatnou noc u Pancake Rocks: zůstaňte v kempu v Punakaiki nebo naplánujte noc v Charleston či severně od Greymouth.",
+            "Paparoa Track tady začíná a končí a jeho tři chaty patří DOC a rezervují se přes DOC, ne přes obec."
+          ],
+          "tips": [
+            "Žádný freedom camping v Punakaiki",
+            "Rezervujte tamní kemp",
+            "Chaty Paparoa Track se rezervují"
+          ]
+        },
+        {
+          "heading": "Grey: Greymouth a Lake Brunner",
+          "body": [
+            "Okres Grey dovoluje certifikovaným vozidlům kempovat na obecní půdě mimo své zakázané oblasti, které zahrnují části Jacks Road, místo Cobden Bridge, Iveagh Bay, pobřeží Moana u Lake Brunner a výsypku Blaketown, přičemž některé z nich jsou zakresleny jako oblasti, které certifikovaná vozidla smějí používat. Obec schválila aktualizovanou <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhlášku</a> dne 28. září 2026, která povoluje tři noci v jakýchkoli čtyřech týdnech a stanoví noční okno od 19:00 do 8:00.",
+            "Obec stále zvažuje, zda otevřít nějakou oblast pro vozidla bez certifikace. Dokud to neudělá, jsou možnostmi pro stan prázdninové parky v Greymouth a <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a> podél pobřeží."
+          ],
+          "tips": [
+            "Tři noci ve čtyřech týdnech",
+            "Noc od 19:00 do 8:00",
+            "Pobřeží Moana je zakresleno"
+          ]
+        },
+        {
+          "heading": "Westland: od Hokitika po Haast",
+          "body": [
+            "Okres Westland odkazuje certifikovaná vozidla na tři komunitně provozovaná místa, Kumara Domain, Woodstock Domain v Rimu a Paringa Salmon Farm, s žádostí o příspěvek. Obecní rezervace jsou uzavřeny podle Reserves Act a obec radí stanovým kempujícím a necertifikovaným vozidlům, aby použili komerční kempy.",
+            "Návrh <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhlášky</a> z roku 2024 navrhoval další místa, včetně Sunset Point v Hokitika, parkoviště u heliportu Franz Josef a hřiště v Haast, ale její přijetí nebylo potvrzeno. Dokud to obec nepotvrdí, rozhoduje cedule v daný večer."
+          ],
+          "tips": [
+            "Místa Kumara, Rimu a Paringa",
+            "Žádá se příspěvek",
+            "Návrh vyhlášky není potvrzen"
+          ]
+        },
+        {
+          "heading": "Franz Josef, Fox Glacier a daleký jih",
+          "body": [
+            "V ledovcové oblasti je bezplatná noc nejtěžší. Návrh Westland uvádí městečko Fox Glacier jako zakázané bez vlastního místa a okres DOC South Westland nese 18 oznámení o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, z nichž 17 zakazuje kempování na parkovištích u stezek, například Roaring Billy. V lednu se prázdninové parky ve Franz Josef a Fox plní brzy.",
+            "Kemp DOC Gillespies Beach poblíž Fox a Lake Paringa dále na jihu jsou nejbližší noci DOC a Haast má <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a> a obecní vypouštěcí stanici. Za Haast silnice stoupá do Mount Aspiring National Park směrem k Wānaka a odtud přebírá průvodce Wānaka."
+          ],
+          "tips": [
+            "Fox Glacier: žádné bezplatné místo",
+            "Gillespies Beach je DOC",
+            "Ledovcové noci v létě rezervujte"
+          ]
+        },
+        {
+          "heading": "Kempy DOC na pobřeží",
+          "body": [
+            "Data DOC v KiwiCamping uvádějí 14 <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a> v regionu West Coast, 12 z nich s možností rezervace online, se sazbami pro dospělé od $10 do $20 za noc. Lake Māhinapua poblíž Hokitika je největší, se 100 místy, a rezervace Lewis Pass má dva.",
+            "Jsou to spolehlivé noci pro stan nebo necertifikovanou dodávku. Mají toalety a většina bere vozidla a jsou levnější než <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a>. Vezměte repelent: pobřežní muchničky jsou slavné a u jezer a řek jsou nejhorší."
+          ],
+          "tips": [
+            "14 kempů DOC",
+            "Lake Māhinapua má 100 míst",
+            "Muchničky u každého jezera"
+          ]
+        },
+        {
+          "heading": "Vypouštěcí stanice, déšť a pokuty",
+          "body": [
+            "<a data-guide=\"camping-wastewater-rubbish-new-zealand\">Vypouštěcí stanice</a> jsou rozmístěny řídce. Westland je uvádí u oxidačních nádrží v Hokitika, ve Franz Josef a u toalet Marks Road v Haast a Westport a Greymouth mají vlastní, proto vyprazdňujte nádrže v každém městě, místo abyste sázeli na další. Pobřeží má silný déšť v každém ročním období a říční nivy a pláže s parkovišti se mohou zaplavit, proto před výběrem místa u řeky zkontrolujte předpověď.",
+            "Pokuty jsou celostátní: $400 za kempování v rozporu s <a data-guide=\"camping-rules-local-councils-new-zealand\">vyhláškou</a> nebo v necertifikovaném vozidle tam, kde je certifikace vyžadována, $200 za chybějící kartu warrantu a $800 za odpad nebo poškození. Stránka Buller stále zmiňuje pokutu $200, ale podle současného zákona platí celostátních $400."
+          ],
+          "tips": [
+            "Vyprazdňujte nádrže v každém městě",
+            "Dávejte pozor na záplavy",
+            "$400 za většinu porušení"
+          ]
+        },
+        {
+          "heading": "Plánování pobřeží s KiwiCamping",
+          "body": [
+            "KiwiCamping zobrazuje na mapě oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, kempy DOC, prázdninové parky a vypouštěcí stanice od Karamea po Haast, takže dlouhé mezery mezi nimi vidíte, než vyrazíte. Filtrujte podle toho, co vaše vozidlo potřebuje, a zkontrolujte stránku každé obce pro nejnovější seznam.",
+            "Sestavte pobřeží jako jednu trasu, s datovanou zastávkou pro každou noc, uloženým <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninovým parkem</a> jako zálohou pro Punakaiki a ledovcová města a vzdáleností a předpovědí pro každý úsek. Ke stažení zdarma, s nákupy v aplikaci."
+          ],
+          "tips": [
+            "Uvidíte mezery před jízdou",
+            "Zálohy pro Punakaiki a Fox",
+            "Předpověď pro každou noc"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze na West Coast Jižního ostrova kempovat zdarma?",
+          "Ano, v certifikovaném soběstačném vozidle. Buller a Grey to povolují na většině obecní půdy mimo uvedené zákazy a Westland na třech komunitně provozovaných místech v Kumara, Rimu a Paringa. Stany a dodávky bez zeleného warrantu potřebují kemp DOC nebo kemp."
+        ],
+        [
+          "Lze kempovat zdarma v Punakaiki nebo Fox Glacier?",
+          "Ne na obecní půdě. Buller to zakazuje od řeky Fox po řeku Punakaiki a městečko Fox Glacier je na zakázaném seznamu Westland, proto si zarezervujte kemp v Punakaiki nebo prázdninový park či kemp DOC poblíž ledovců."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Buller District Council: freedom camping"
+        },
+        {
+          "label": "Buller District Council: Freedom Camping Bylaw 2012 (změněna 2018)"
+        },
+        {
+          "label": "Grey District Council: časté dotazy k freedom camping"
+        },
+        {
+          "label": "Grey District Council: konzultace k Responsible Freedom Camping Bylaw"
+        },
+        {
+          "label": "Westland District Council: kempy a zodpovědné kempování"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-wanaka": {
+      "title": "Freedom camping ve Wānaka 2026: parkoviště, Hāwea a Luggate",
+      "description": "Kde můžete v roce 2026 kempovat zdarma kolem Wānaka: vyhrazená parkoviště obce u Recreation Centre, Beacon Point Road a Hāwea, Luggate Red Bridge, uzavření Allenby Place, prosincové rozhodnutí o vyhlášce, kempy DOC a pokuty.",
+      "region": "Wānaka",
+      "imageAlt": "Severní rameno Lake Wānaka, tmavě modré mezi suchými kopci a vzdálenými horami",
+      "intro": "Kolem Wānaka je freedom camping na obecní půdě povolen jen v certifikovaném soběstačném vozidle a jen na vyhrazených parkovištích: u Wānaka Recreation Centre, na Beacon Point Road a Camp Hill Road u Lake Hāwea, plus v Luggate Red Bridge Reserve podle tamních cedulí. Přijíždíte po 18:00, odjíždíte před 8:00 a zůstáváte nejvýše dvě noci v jakýchkoli 30 dnech. Všechno ostatní ve městě, včetně nábřeží jezera, je zakázáno a obec rozhodne o změnách těchto míst 17. prosince 2026.",
+      "sections": [
+        {
+          "heading": "Pravidla v jednom odstavci",
+          "body": [
+            "Wānaka leží v okrese Queenstown Lakes, takže platí vyhláška obce <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Bylaw 2025, ta, která vstoupila v platnost 1. prosince 2025 poté, co High Court zrušil vyhlášku z roku 2021. Zakazuje freedom camping v městských oblastech, včetně parkování na silnici, drží většinu obecních rezervací uzavřených podle Reserves Act a otevírá vyznačená místa na vyhrazených parkovištích certifikovaným soběstačným vozidlům.",
+            "Od 7. června 2026 se počítá jen <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a>, takže dodávka bez něj, auto nebo stan parkoviště vůbec nesmí použít. Místa jsou zdarma, nelze je rezervovat a fungují podle pořadí příchodu. Náš průvodce Queenstown Lakes pokrývá zbytek okresu, od Kingston po Glenorchy."
+          ],
+          "tips": [
+            "Pouze certifikovaná vozidla",
+            "Příjezd po 18:00, odjezd před 8:00",
+            "Dvě noci v jakýchkoli 30 dnech"
+          ]
+        },
+        {
+          "heading": "Vyhrazená parkoviště",
+          "body": [
+            "Parkoviště u Wānaka Recreation Centre je hlavní místo s 18 vyznačenými místy v seznamu obce, třemi dočasnými místy přidanými po uzavření Allenby Place a návrhem zvýšit je na 21. Beacon Point Road má tři místa a Camp Hill Road u Lake Hāwea deset. Tato čísla jsou obce a místa se od Vánoc do konce února plní brzy.",
+            "Allenby Place, kdysi městské místo pro tři vozidla, je pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> uzavřeno od 23. ledna 2026. Obec uvedla problémy s přístupem a bezpečností kvůli dalšímu provozu a přesunula jeho místa k Recreation Centre."
+          ],
+          "tips": [
+            "Recreation Centre: 18 míst",
+            "Beacon Point Road: 3",
+            "Camp Hill Road, Hāwea: 10"
+          ],
+          "table": {
+            "caption": "Vyhrazená parkoviště Queenstown Lakes District Council kolem Wānaka, z jejích zpráv z listopadu 2025 a ledna 2026. Pouze certifikovaná soběstačná vozidla.",
+            "head": [
+              "Parkoviště",
+              "Místo",
+              "Míst"
+            ],
+            "rows": [
+              [
+                "Wānaka Recreation Centre",
+                "Wānaka",
+                "18 (navrhováno 21)"
+              ],
+              [
+                "Beacon Point Road",
+                "Wānaka",
+                "3"
+              ],
+              [
+                "Camp Hill Road",
+                "Lake Hāwea",
+                "10"
+              ],
+              [
+                "Allenby Place",
+                "Wānaka",
+                "Uzavřeno od 23. ledna 2026"
+              ],
+              [
+                "Luggate Red Bridge Reserve",
+                "Luggate",
+                "Povoleno podle cedulí rezervace"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Luggate Red Bridge",
+          "body": [
+            "Luggate Red Bridge Reserve, u řeky Clutha asi 15 minut východně od Wānaka, je jediná obecní rezervace, kde obec povoluje kempování, s podmínkami na jejích cedulích. Je oblíbená u cestovatelů mířících do Cromwell nebo na Lindis Pass a její břeh řeky je dobrým místem ke koupání za horkého odpoledne.",
+            "Po příjezdu si přečtěte tabuli, protože podmínky tam stanovené jsou to, co úředníci vymáhají, a zpráva obce uvádí jejich porušení na vrcholu stupnice pokut."
+          ],
+          "tips": [
+            "Jediná rezervace otevřená kempování",
+            "Po příjezdu si přečtěte tabuli",
+            "Blízko SH6 a SH8A"
+          ]
+        },
+        {
+          "heading": "Rozhodnutí z prosince 2026",
+          "body": [
+            "Obec konzultovala do 31. srpna 2026 změny, které pokrývají tři místa ve Wānaka: Allenby Place, Beacon Point Road a Recreation Centre. Slyšení proběhla koncem října a jednání a přijetí jsou stanovena na 17. prosince 2026, takže se mapa může změnit právě když začíná letní ruch.",
+            "Do té doby platí seznam z roku 2025. Zkontrolujte stránku obce o <a data-guide=\"responsible-camping-new-zealand\">zodpovědném kempování</a> a její Responsible Camping Map, než se spolehnete na místo ve Wānaka o Vánocích a Silvestru."
+          ],
+          "tips": [
+            "Rozhodnutí 17. prosince 2026",
+            "Do té doby platí seznam z roku 2025",
+            "Zkontrolujte mapu obce"
+          ]
+        },
+        {
+          "heading": "Kam mohou stany a necertifikované dodávky",
+          "body": [
+            "Stan nebo necertifikovaná dodávka potřebuje kolem Wānaka kemp. Ve městě, v Albert Town, u Glendhu Bay a u Lake Hāwea jsou kempy a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninové parky</a> a jsou spolehlivým lůžkem od prosince do března.",
+            "DOC provozuje kempy dále, u Kidds Bush na Lake Hāwea a podél silnice Haast Pass za Makarora, kde začíná cesta na West Coast. Data KiwiCamping uvádějí 30 <a data-guide=\"doc-campsites-new-zealand-guide\">kempů DOC</a> v Otago, z nichž osm je zdarma, se sazbami pro dospělé od $5, kde se poplatek uplatňuje. Náš průvodce trasou z Wānaka přes Haast Pass je řetězí dohromady."
+          ],
+          "tips": [
+            "Prázdninové parky ve městě a v Hāwea",
+            "Kempy DOC směrem k Makarora",
+            "Osm bezplatných míst DOC v Otago"
+          ]
+        },
+        {
+          "heading": "Půda DOC, jezera a údolí",
+          "body": [
+            "Velká část půdy kolem jezer a nahoru údolím Matukituki směrem k Mount Aspiring je chráněná půda, kde pravidla stanoví oznámení DOC, ne vyhláška obce. Data KiwiCamping obsahují 29 oznámení DOC o <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v okrese Wakatipu a 13 v Central Otago, většina z nich zakazuje kempování na parkovištích a vstupech na stezky.",
+            "Na půdě DOC oznámení na místě kempování zakazuje nebo omezuje a bez oznámení platí obecná pravidla DOC. Břehy jezer a říční nivy poblíž Wānaka jsou často rezervace, soukromá nebo půda DOC s oznámením, takže klidné štěrkové odstavné místo je zřídka tak bezplatné, jak vypadá."
+          ],
+          "tips": [
+            "29 oznámení DOC ve Wakatipu",
+            "13 v Central Otago",
+            "Odstavná místa u jezera jsou zřídka legální"
+          ]
+        },
+        {
+          "heading": "Pokuty a hlídky",
+          "body": [
+            "Počáteční pokuta obce za porušení vyhlášky nebo zákona <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> je $400, shodná s celostátní tabulkou, která také stanoví $200 za chybějící kartu warrantu a $800 za odpad nebo poškození. Její zpráva uvádí kempování na obecních rezervacích nebo porušení podmínek v Luggate Red Bridge na $800.",
+            "Úředníci obce hlídkují na místech ve Wānaka po celé léto. Pro naléhavý problém s freedom camping je linka obce pro Wānaka 03 443 0024 v kteroukoli hodinu a Snap Send Solve nebo services@qldc.govt.nz vyřídí zbytek."
+          ],
+          "tips": [
+            "$400 na začátek",
+            "$800 na obecních rezervacích",
+            "Linka obce: 03 443 0024"
+          ]
+        },
+        {
+          "heading": "Používání KiwiCamping kolem Wānaka",
+          "body": [
+            "KiwiCamping zobrazuje na mapě oblasti pro <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, kempy DOC, prázdninové parky a vypouštěcí stanice kolem Wānaka a Hāwea a jeho filtry zkracují seznam na to, co vaše vozidlo může použít. Parkoviště jsou malá a vyhláška se přezkoumává, proto ke každé noci mějte zálohu.",
+            "Uložte Recreation Centre, <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninový park</a> a místo DOC do jedné kolekce, pak přidejte Wānaka do trasy s daty, jízdou přes Crown Range nebo Haast Pass a předpovědí pro každou noc. Ke stažení zdarma, s nákupy v aplikaci."
+          ],
+          "tips": [
+            "Ke každé noci mějte zálohu",
+            "Filtrujte podle vozidla",
+            "Předpověď pro průsmyky"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Lze ve Wānaka kempovat zdarma?",
+          "Jen v certifikovaném soběstačném vozidle a jen na vyhrazených parkovištích obce: u Wānaka Recreation Centre, na Beacon Point Road a Camp Hill Road u Lake Hāwea, nebo v Luggate Red Bridge Reserve podle jeho cedulí. Přijeďte po 18:00, odjeďte před 8:00 a zůstaňte nejvýše dvě noci v jakýchkoli 30 dnech."
+        ],
+        [
+          "Lze stále kempovat zdarma na Allenby Place ve Wānaka?",
+          "Ne. Obec uzavřela Allenby Place pro freedom camping 23. ledna 2026 a přidala místo toho dočasná místa u Wānaka Recreation Centre. Její rozhodnutí o dalších změnách míst ve Wānaka se očekává 17. prosince 2026."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queenstown Lakes District Council: zodpovědné kempování"
+        },
+        {
+          "label": "Queenstown Lakes District Council: vyhlášky"
+        },
+        {
+          "label": "Zpráva Queenstown Lakes District Council z 28. listopadu 2025 (znovu publikováno Scoop)"
+        },
+        {
+          "label": "Zpráva Queenstown Lakes District Council z 16. ledna 2026: Allenby Place (znovu publikováno Scoop)"
+        },
+        {
+          "label": "Queenstown Lakes District Council: navrhované změny Freedom Camping Bylaw 2025"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
         }
       ],
       "priceTable": null
