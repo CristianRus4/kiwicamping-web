@@ -171,3 +171,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-base-hooker-valley-aoraki-mount-cook` | Road to Aoraki - Flickr - jokin.lacalle.jpg | jokin.lacalle | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Road_to_Aoraki_-_Flickr_-_jokin.lacalle.jpg) |
 | `heaphy-track-by-bike` | Coastline section of Heaphy Track.jpg | Christoph Strässler | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Coastline_section_of_Heaphy_Track.jpg) |
 | `great-taste-trail-by-bike` | Kaiteriteri. Nelson NZ (14773388612).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri._Nelson_NZ_(14773388612).jpg) |
+| `glamping-new-zealand` | Bay of islands at Waitangi, New Zealand.jpg | Alan Vernon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Bay_of_islands_at_Waitangi,_New_Zealand.jpg) |
