@@ -881,4 +881,56 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "waterfalls-lakes-campgrounds-new-zealand",
+    title: "Campgrounds at New Zealand's Lakes and Waterfalls: Where to Stay",
+    description: "DOC campsites beside lakes and near waterfalls: Lake Rotoroa, Kerr Bay, Lake Māhinapua, Lake Ōkareka and Lake Waikaremoana, plus the Catlins and Waitomo falls, with fees, bookings and access notes.",
+    category: "Camping guides",
+    region: "New Zealand",
+    places: ["Lake Rotoroa", "Kerr Bay", "Lake Māhinapua", "Lake Ōkareka", "Lake Waikaremoana", "Purakaunui Falls", "McLean Falls"],
+    imageAlt: "Purakaunui Falls in the Catlins, a tiered waterfall dropping through green forest",
+    related: ["doc-campsites-new-zealand-guide", "scenic-campsites-new-zealand", "doc-campsites-sell-out-summer-new-zealand", "lake-waikaremoana-great-walk-camping-2026-27", "franz-josef-fox-glacier-camping", "sandflies-new-zealand-camping"],
+    hubs: ["camping/nelson-tasman", "camping/west-coast", "camping/bay-of-plenty", "camping/southland"],
+    intro:
+      "Some of the best DOC campsites in New Zealand sit on a lake shore or a short walk from a waterfall, and a few of them are far quieter than the famous beach sites. This guide picks the ones worth planning a night around: Lake Rotoroa and Kerr Bay in Nelson Lakes, Lake Māhinapua on the West Coast, Lake Ōkareka near Rotorua, the Lake Waikaremoana campsites, and the waterfalls of the Catlins and Waitomo. Fees and rules change, so each entry says what DOC listed when we checked in November 2026, with notes on access and booking.",
+    sections: [
+      sec("Lake campsites in the South Island", [
+        "Nelson Lakes has two good ones. Lake Rotoroa campsite is beside the lake edge in native bush, with an adult fee of $15 a night, and it is quiet and simple. Kerr Bay is beside Lake Rotoiti, just off State Highway 63, open all year, and bookings are required all year. It costs more, around $25 to $27 a night depending on the season, and DOC's campsite pass does not apply there from 19 October to 30 April.",
+        "On the West Coast, Lake Māhinapua campsite sits in a scenic reserve about 10 km south of Hokitika, with an adult fee of $18 a night. It is pack in, pack out, so take your rubbish with you. Lake Mapourika's Otto/MacDonalds campsite is on State Highway 6 near Franz Josef, and the Franz Josef and Fox Glacier camping guide covers it with the Gillespies Beach site.",
+      ], ["Lake Rotoroa: simple and quiet", "Kerr Bay: book all year", "Lake Māhinapua: pack in, pack out"]),
+      sec("Lake campsites in the North Island", [
+        "Lake Ōkareka campsite is a lakeside DOC site only 15 minutes from Rotorua, a quieter alternative to the town parks. Fires are not allowed there at any time. It makes a good base if you want the geothermal parks by day and a calm lake by night.",
+        "Lake Waikaremoana in Te Urewera is the big one, with four huts and five campsites on the Great Walk, such as Korokoro. These must be booked in advance, and camping on the track is only allowed at the designated campsites. The Lake Waikaremoana guide has the dates and fees, and the Great Walks 2027/28 guide covers when bookings open.",
+      ], ["Lake Ōkareka is 15 minutes from Rotorua", "No fires at Ōkareka", "Waikaremoana sites are booked in advance"], {
+        caption: "Lake campsites at a glance, from DOC's campsite pages, November 2026. Check each page for current fees and rules.",
+        head: ["Campsite", "Where", "What to know"],
+        rows: [
+          ["Lake Rotoroa", "Nelson Lakes", "Adult fee about $15, native bush, simple"],
+          ["Kerr Bay", "Nelson Lakes", "Bookings required all year, no pass in summer"],
+          ["Lake Māhinapua", "Near Hokitika", "Adult fee about $18, pack in, pack out"],
+          ["Lake Ōkareka", "Near Rotorua", "15 minutes from town, no fires"],
+          ["Lake Waikaremoana", "Te Urewera", "Great Walk campsites, book in advance"],
+        ],
+      }),
+      sec("Waterfalls with a campsite nearby", [
+        "In the Catlins, Purakaunui Falls are a short walk from a car park with toilets and a picnic area, and the track is suitable for wheelchairs to the top viewing platform. DOC's Purakaunui Bay campsite is nearby, with bookings made online. The access road is narrow gravel and DOC says the campsite is unsuitable for campervans and heavy vehicles, so check before you go. McLean Falls, a 22 metre waterfall on the Tautuku River, is a longer walk and a different stop in the same area.",
+        "Near Waitomo, Marokopa Falls and Mangapohue Natural Bridge are free walks on the road to the coast, and the Auckland to Waitomo and Hobbiton guide has the camping options. Near Taupō, the Huka Falls are a short stroll from the Taupō holiday parks, covered in the Auckland to Taupō guide.",
+      ], ["Purakaunui Falls: short walk, wheelchair access", "Purakaunui Bay is unsuitable for campervans", "Marokopa Falls: a free walk near Waitomo"]),
+      sec("Practical notes", [
+        "Lakes mean sandflies, especially on still evenings, so take repellent and cover up. Lake and river water can be cold and fast, so swim with care and keep an eye on children. The sandfly guide explains what works.",
+        "Many of these campsites have no power and basic toilets, so bring water and a way to carry out your rubbish. The busiest ones need booking in summer, and the sell-out campsites guide explains how DOC's bookings work. In wet weather, check river levels and the forecast before you commit to a remote lakeside site.",
+      ], ["Repellent for still evenings", "Bring water and carry out rubbish", "Check river levels in wet weather"]),
+      sec("Planning lake and waterfall stops in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including lakeside and waterfall sites. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. DOC bookings stay on DOC's own booking pages.",
+        "It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Lake Rotoroa campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/campsites/lake-rotoroa-campsite" },
+      { label: "DOC: Lake Māhinapua campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/mahinapua-scenic-reserve/things-to-do/campsites/lake-mahinapua-campsite/" },
+      { label: "DOC: Lake Ōkareka campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/places/lake-okareka-scenic-reserve/things-to-do/lake-okareka-campsite/" },
+      { label: "DOC: Purakaunui Bay campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/purakaunui-bay-campsite/" },
+      { label: "DOC: Purakaunui Falls walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/purakaunui-falls-walk/" },
+    ],
+  }),
 ];
