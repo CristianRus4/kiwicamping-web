@@ -568,4 +568,63 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "10-day-campervan-itinerary-new-zealand",
+    title: "10 Day Campervan Itinerary New Zealand: A South Island Loop",
+    description: "A 10-day New Zealand campervan itinerary: a South Island loop from Christchurch through Tekapo, Queenstown, Fiordland, the West Coast and Arthur's Pass, with drive times and where to camp.",
+    category: "Road trips",
+    region: "South Island",
+    places: ["Christchurch", "Lake Tekapo", "Wānaka", "Queenstown", "Te Anau", "Franz Josef", "Arthur's Pass"],
+    imageAlt: "A road crossing tawny tussock hills in the Lindis Pass under a blue sky",
+    related: ["one-week-campervan-itinerary-new-zealand", "two-week-camper-itinerary-new-zealand", "south-island-two-week-road-trip", "christchurch-to-te-anau-drive-guide", "christchurch-to-franz-josef-drive-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "camping/otago", "camping/west-coast"],
+    intro:
+      "Ten days is the shortest time that makes a South Island loop feel unhurried. This itinerary starts and ends in Christchurch and runs through Lake Tekapo and Aoraki Mount Cook, over the Lindis Pass to Wānaka and Queenstown, down to Te Anau for Fiordland, back over Haast Pass to the glaciers, and across Arthur's Pass home, with one rest day and no leg over about five hours. Below are the day-by-day plan, the nights to book first, and the changes to make in winter.",
+    sections: [
+      sec("How the ten days fit together", [
+        "The loop is about 1,800 km, so the average day is 180 km, and the longest legs are the run from Queenstown to Te Anau with the Milford Road side trip, and the West Coast day from Haast to Franz Josef and on. Starting and ending in Christchurch avoids a one-way fee and gives you the flight home from the same airport. Check the driving day planner before you lock the days in.",
+        "Book the nights you cannot move: Te Anau, Franz Josef and Queenstown in summer, and Aoraki Mount Cook if you want the DOC campsite at White Horse Hill. In winter the passes can need chains and the Milford Road can close, so build in a spare day and read the winter driving guide.",
+      ], ["About 1,800 km in ten days", "Start and end in Christchurch", "Book Te Anau, Franz Josef and Queenstown early"]),
+      sec("Days 1 to 4: Tekapo, Aoraki and the lakes", [
+        "Day 1: leave Christchurch and drive to Lake Tekapo, about 3 hours, stopping at Geraldine or Fairlie on the way. Spend the evening at the lake and the stars. Day 2: continue to Aoraki Mount Cook for the Hooker Valley walk, then spend the night at Twizel or in the national park village. The Christchurch to Tekapo and Aoraki guide covers both days.",
+        "Day 3: cross the Lindis Pass to Wānaka, about 3 hours, and walk the lake or Roys Peak if the weather is clear. Day 4: drive to Queenstown, about an hour, with a stop in Arrowtown. Use the afternoon in town, and spend the night at a holiday park.",
+      ], ["Day 1: Tekapo", "Day 2: Aoraki and the Hooker Valley", "Day 3 and 4: Wānaka, then Queenstown"]),
+      sec("Days 5 to 7: Fiordland and the Haast Pass", [
+        "Day 5: drive from Queenstown to Te Anau, about 2 hours, and take the afternoon to see the lake and the glowworm caves. Day 6: drive the Milford Road, about 2 hours each way, for Milford Sound, and return to Te Anau. It is a long day, so book a cruise rather than doing the whole drive in a rush. The Fiordland camping road trip guide has the details.",
+        "Day 7: drive back to Queenstown and on to Wānaka, then north over Haast Pass to the coast. The Wānaka to Haast Pass guide covers the stops, and the road is slow but beautiful. This is the longest day of the trip, so start early and spend the night at Haast or Fox Glacier, whichever your timing allows.",
+      ], ["Day 5: Queenstown to Te Anau", "Day 6: Milford Sound and back", "Day 7: Haast Pass to the coast"], {
+        caption: "The loop at a glance, with approximate driving times for each day. Check live traffic before you leave.",
+        head: ["Day", "Route", "Driving"],
+        rows: [
+          ["1", "Christchurch to Lake Tekapo", "About 3 hours"],
+          ["2", "Tekapo to Aoraki and Twizel", "About 2 hours"],
+          ["3", "Twizel to Wānaka", "About 2.5 hours"],
+          ["4", "Wānaka to Queenstown", "About 1 hour"],
+          ["5", "Queenstown to Te Anau", "About 2 hours"],
+          ["6", "Te Anau to Milford Sound and back", "About 4 hours"],
+          ["7", "Te Anau to the West Coast via Haast Pass", "About 6.5 hours"],
+          ["8", "Glacier country, short drives", "About 1 hour"],
+          ["9", "Franz Josef to Arthur's Pass", "About 4 hours"],
+          ["10", "Arthur's Pass to Christchurch", "About 2 hours"],
+        ],
+      }),
+      sec("Days 8 to 10: the glaciers and Arthur's Pass", [
+        "Day 8: use the day for Franz Josef and Fox Glacier. The valley walks are short, and the glaciers are best seen on a clear day, with a helicopter or a guided trip if the budget allows. This is also the rest day, so keep the driving short. The Christchurch to Franz Josef guide shows the road from the other direction.",
+        "Day 9: head north through Hokitika and Greymouth and then over Arthur's Pass, stopping at the viewpoints and the village. Spend the night at Arthur's Pass, where the keas are curious about your gear. Day 10: drive back to Christchurch, about 2 hours, with a buffer before any flight. The Arthur's Pass guide has the details.",
+      ], ["Day 8 is the rest day", "Day 9: Hokitika and Arthur's Pass", "Day 10: home with a buffer"]),
+      sec("Where to camp and what to book", [
+        "Holiday parks are the easy choice in Tekapo, Wānaka, Queenstown, Te Anau and Franz Josef, with power, showers and kitchens, and they book out in summer. The holiday parks guide explains what to look for. DOC campsites at Aoraki, along the Milford Road and on the Coast are simpler and cheaper, and the DOC campsites guide covers booking.",
+        "Freedom camping is restricted in most of these towns, and the Queenstown Lakes and Westland areas are patrolled. Read the freedom camping rules guide before you rely on a spot, and carry sandfly repellent for the West Coast and Fiordland.",
+      ], ["Book holiday parks in summer", "DOC sites are simpler and cheaper", "Sandfly repellent for the Coast"]),
+      sec("Planning your ten days in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the South Island. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the mountain and coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+      { label: "DOC: Aoraki/Mount Cook National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
