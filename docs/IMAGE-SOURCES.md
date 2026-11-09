@@ -168,3 +168,12 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-taupo` | Lake Taupō park view.jpg | Panamitsu | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taup%C5%8D_park_view.jpg) |
 | `freedom-camping-west-coast` | Beach in Hokitika, West Coast, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Beach_in_Hokitika,_West_Coast,_New_Zealand.jpg) |
 | `freedom-camping-wanaka` | Lake Wanaka - northern part, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Wanaka_-_northern_part,_New_Zealand.jpg) |
+| `auckland-to-taupo-drive-guide` | Lake Taupo 06.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taupo_06.jpg) |
+| `auckland-to-tauranga-drive-guide` | Mount Maunganui, Tauranga, New Zealand (Unsplash 2FFh56Q9jWs).jpg | Tim Marshall | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Maunganui,_Tauranga,_New_Zealand_(Unsplash_2FFh56Q9jWs).jpg) |
+| `auckland-to-waitomo-hobbiton-drive-guide` | Hobbiton Movie Set, Matamata.jpg | Andres Iga | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Hobbiton_Movie_Set,_Matamata.jpg) |
+| `auckland-to-napier-drive-guide` | Napier, Part II- Art Deco - Napier9507.jpg | lumoplank | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Napier,_Part_II-_Art_Deco_-_Napier9507.jpg) |
+| `auckland-to-new-plymouth-drive-guide` | Mount Taranaki or Mount Egmont, New Zealand.jpg | Ulrich Lange, Bochum, Germany | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_or_Mount_Egmont,_New_Zealand.jpg) |
+| `christchurch-to-franz-josef-drive-guide` | Franz Josef Glacier 25.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Franz_Josef_Glacier_25.jpg) |
+| `christchurch-to-kaikoura-drive-guide` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
+| `christchurch-to-hanmer-springs-drive-guide` | Hanmer Springs 012.JPG | Schwede66 | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hanmer_Springs_012.JPG) |
+| `christchurch-to-te-anau-drive-guide` | Lake Te Anau 02.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_02.jpg) |

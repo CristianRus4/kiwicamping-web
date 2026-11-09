@@ -1,4 +1,7 @@
-import { makeArticle as a, section as s, type Article } from "@/lib/article-model";
+import { makeArticle as a, section as s, type Article, type ArticleSection, type ArticleTable } from "@/lib/article-model";
+
+/** A section with tips, an optional table and an optional store button, for the city road trips below. */
+const sec = (heading: string, body: string[], tips?: string[], table?: ArticleTable, cta?: boolean): ArticleSection => ({ heading, body, tips, ...(table && { table }), ...(cta && { cta }) });
 
 export const roadTripArticles: Article[] = [
   a({slug:"coromandel-rotorua-road-trip",hubs:["camping/coromandel"],title:"Coromandel to Rotorua: 5-Day Camping Loop From Auckland",description:"A five-day camping loop from Auckland: Pacific beaches, forest roads and geothermal country on the Coromandel and Rotorua, with drives kept short.",category:"Road trips",region:"Upper North Island",places:["Auckland","Thames","Coromandel Town","Whitianga","Rotorua"],imageAlt:"Coromandel coast seen from a winding road",intro:"Five days is enough to connect the Coromandel Peninsula with Rotorua when the first and last drives stay disciplined. The reward is a route that moves from salt air to native forest and geothermal steam without wasting a day in transit.",sections:[s("Day 1 and 2: into the Coromandel","Leave Auckland outside commuter traffic and use Thames to buy food and fuel before the coast road narrows. The western side is beautiful but slower than the distance suggests, especially for a tall campervan.","Spend the second day around Whangamatā, Hot Water Beach or Cathedral Cove according to current access. Choose a legal campground near the activity rather than crossing the peninsula after sunset."),s("Day 3: cross to the forest","Use Whitianga or Coromandel Town for a proper reset before the inland drive. Kauaeranga Valley camps suit travellers ready for simpler facilities, while holiday parks offer showers, power and an easier wet-weather night.","The peninsula receives heavy rain and slips can affect local roads. Check Waka Kotahi and council updates before committing to a remote approach, then keep a sealed-road alternative saved."),s("Day 4 and 5: Rotorua and return","Rotorua needs a full day for geothermal walks, lakes and cultural experiences. Stay in an authorised campground or holiday park and treat geothermal fences and warning signs as firm boundaries.","Return to Auckland through Waikato or continue south if this loop opens a longer trip. Do not pair a late thermal-pool session with a tired drive through unfamiliar rural roads."),s("Roads that take longer than the map says","The 309 Road across the Coromandel range is unsealed in part and slow, and the coastal route between Thames and Coromandel Town is a narrow shelf road with almost no passing opportunity. Neither is difficult, but both run well over the time a routing app suggests, particularly in a large vehicle.","Allow a full unhurried day for the peninsula rather than treating it as a transit. The reward is the beaches on the east side, and rushing past them to reach Rotorua on schedule removes the point of the loop.",["309 Road is partly unsealed","Thames to Coromandel is narrow and slow","Give the peninsula a whole day"]),s("Cathedral Cove and Hot Water Beach need timing","Hot Water Beach only works around two hours either side of low tide, and the tide table decides your day rather than your itinerary. Check it before you set the order of stops, because arriving at high tide means there is genuinely nothing to do there.","Cathedral Cove access has changed repeatedly after storm damage and slips, and the walking route and parking arrangements have been altered more than once. Check the current DOC status rather than an older blog, and consider the water taxi from Hahei if the track is restricted."),s("Booking the summer beaches","Between Christmas and late January the east coast campgrounds at Hahei, Hot Water Beach and Ōpoutere fill completely, often booked months ahead. Arriving without a reservation in that window is not a plan, and the freedom camping options on the peninsula are limited and heavily patrolled.","Outside that window the same sites have space a few days out and cost less. If your dates are flexible at all, February and March give you the same beaches without the queue. Waikawau Bay's summer dates and fee tiers are set out in our guide to camping over Christmas and summer 2026-27.",["Peak beaches book months ahead","Freedom camping is limited here","February and March are far easier"]),s("Rotorua earns a slower stop","The geothermal parks, the redwoods and the lake all deserve more than an afternoon, and the holiday parks here are genuinely convenient with the added novelty of thermally heated pools. It is a good place to spend two nights rather than one, particularly if the Coromandel weather has been wet.","The sulphur smell is real and fades from your awareness within a few hours. What does not fade is the effect on silver jewellery, so leave anything precious packed for the stay."),{heading:"Choosing where to base each night",body:["Thames works as a first night if you leave Auckland late, but it is a service town rather than a destination and the peninsula proper starts north of it. Whitianga and Hahei are the natural east coast bases, with Hahei closest to the walks and Whitianga carrying more services and a wider choice of campgrounds.","On the Rotorua leg, the lakeside holiday parks put you close to the geothermal parks and the redwoods without needing to drive back into town each morning. Blue Lake and Lake Ōkāreka are quieter than the central options and only a short drive from the attractions.","If the weather turns on the peninsula, the sensible move is to cut a beach day and arrive in Rotorua early. Almost everything there works in rain, which is rarely true of the Coromandel coast. Thames-Coromandel's New Year liquor ban dates are in our guide to New Year's Eve and summer event camping."]},s("Getting out of Auckland","Leaving Auckland southbound on a Friday afternoon or returning on a Sunday evening adds a long time to the drive. Aim to travel against the flow, or leave early enough that the motorway is still moving.","The Hauraki Rail Trail out of Thames is a flat cycle route through the plains and gorge, and bike hire is easy. It works well as a rest day if the peninsula weather is poor.",["Avoid Friday and Sunday motorway peaks","Hauraki Rail Trail is a good wet-day option"])]}),
@@ -21,4 +24,492 @@ export const roadTripArticles: Article[] = [
   a({slug:"south-island-two-week-road-trip",related:["freedom-camping-south-island"],hubs:["camping/canterbury","camping/west-coast","camping/otago"],title:"South Island camping road trip: a realistic 14-day loop",description:"A two-week route that protects time for mountains, coast and Fiordland instead of collecting towns.",category:"Road trips",region:"South Island",places:["Christchurch","Lake Tekapo","Wānaka","Te Anau","West Coast","Arthur's Pass"],imageAlt:"South Island alpine road and campervan",intro:"Fourteen days is enough for a memorable Te Waipounamu loop when the itinerary accepts limits. This version chooses Mackenzie Country, Wānaka, Fiordland and the West Coast, with two flexible nights for weather.",sections:[s("Christchurch to Fiordland","Give Tekapo or Aoraki two nights, then travel through Wānaka to Te Anau without forcing both long walks and long drives into the same day. Queenstown can be a supply stop or a night, not an obligation.","Book the hard-to-replace nights first: Milford activities, peak DOC camps and any holiday-period stay. Leave ordinary town camps flexible around them."),s("West Coast north","Cross Haast Pass only after checking the road and forecast. Glacier country needs at least two nights if a flight or major walk matters, because cloud and rain frequently reorder the plan.","Hokitika or Greymouth provides the reset before Punakaiki and the alpine return. Use laundry, fuel and groceries deliberately rather than losing time to small errands every day."),s("Arthur's Pass return","Cross Arthur's Pass in daylight with snow chains when required and the driver's attention fresh. If the pass closes, accept the delay instead of stretching the final day into an unsafe detour.","Keep the last night near Christchurch for cleaning, refuelling and the rental handover. The spare margin also protects the trip when weather moves an earlier section."),s("A loop beats a line","Fourteen days is enough for a genuine South Island loop if you resist adding Stewart Island, the Catlins and Marlborough on top. A workable circuit is Christchurch, Tekapo, Aoraki, Wānaka, Queenstown, Te Anau, back up the West Coast and over Arthur's Pass.","That shape avoids backtracking, crosses the Alps twice by different passes, and leaves you finishing near where you started. Adding a second region usually means removing two nights from places you came for.",["Loop rather than out and back","Cross the Alps by two different passes","Adding regions costs you nights"]),s("Book the three things that sell out","Milford cruises, Aoraki accommodation and any Great Walk are the elements that will not be available late. Everything else on this loop can be arranged a few days out for most of the year.","Book those three first and build the driving around them. Trying to fit a Milford cruise into a route that was planned without it usually means an unpleasant day of driving at one end."),s("Weather will change the plan at least once","Over two weeks in the South Island you should expect at least one day where the pass is closed, the cruise is cancelled or the walk is unsafe. This is normal rather than bad luck, and an itinerary with no slack turns it into a crisis.","Build in two flexible days and hold a wet-weather alternative for each region. Te Papa is not an option here, but a hot pool, a museum, a brewery or simply a slower morning all are.",["Expect one disrupted day minimum","Keep two flexible days in the plan","Have a wet-weather option per region"]),s("Distances between fuel and food","The South Island has long stretches with no services, particularly on the West Coast, through Fiordland and over the passes. Treat Twizel, Wānaka, Te Anau, Hokitika and Greymouth as your restock points and fill up when you pass through rather than when you need to.","Reception disappears for hours at a time on several of these legs. Download the route, tell someone your plan and do not rely on being able to call ahead about a booking."),{heading:"What to leave out",body:["Two weeks does not comfortably include Stewart Island, the Catlins, Marlborough and Nelson on top of the main loop. Each of those adds two to three days properly done, and adding one usually means removing a night from Aoraki or Fiordland, which is a poor trade.","The most common regret is compressing the West Coast. It is the section with the longest distances between services, the most weather disruption and the scenery people remember, and it does not reward being rushed through in a day and a half.","If you must cut something from the standard loop, Queenstown is the easiest to shorten. It has the most expensive accommodation, the most crowding and the least that is unique to it compared with Wānaka and Te Anau nearby."]},s("Where to start and finish","Christchurch and Queenstown are the two main entry points and both work. Starting in Christchurch and finishing in Queenstown avoids backtracking, while a Christchurch round trip avoids a one-way vehicle fee.","Queenstown flights are more weather-affected than Christchurch, so if your departure is tight, finishing in Christchurch is the lower-risk option.",["Queenstown flights divert more often","Weigh one-way fees against backtracking"])]}),
   a({slug:"new-zealand-three-week-campervan-route",title:"3 Week Campervan Itinerary New Zealand: Both Islands",description:"A 3-week New Zealand campervan itinerary: nine days north, one Cook Strait crossing, eleven days south, with rest days and the 2026 green-warrant rule.",category:"Road trips",region:"New Zealand",places:["Auckland","Rotorua","Wellington","Picton","Aoraki / Mount Cook","Te Anau","Christchurch"],imageAlt:"Campervan beside a New Zealand lake",intro:"Three weeks can connect both main islands, but it cannot absorb every famous detour. This route keeps the north coherent, crosses Cook Strait once and concentrates the South Island on Mackenzie Country, Fiordland and the east coast.",sections:[s("Nine days in the north","Leave Auckland for Coromandel or the Bay of Plenty, then spend two nights around Rotorua. Continue through Taupō and Tongariro with a weather backup before reaching Wellington.","Use holiday parks for occasional laundry, power and long showers, then mix in suitable DOC or council sites. Freedom camping rules are local and vehicle-specific, not a general permission to stop anywhere."),s("Cook Strait and the south","Book the ferry for the correct vehicle length, arrive early and keep disruption margin. Picton deserves a recovery night after a rough crossing or late arrival.","Travel through Kaikōura and Christchurch toward Tekapo and Aoraki. Protect the alpine days from an overfilled schedule, because wind or rain may shift them by 24 hours."),s("Fiordland and finish","Use Wānaka or Queenstown as a transition, then base in Te Anau for Fiordland. Return to Christchurch through the southern route or central Otago only if the remaining days genuinely fit.","Plan the last 48 hours around the rental return, cleaning and fuel. A good three-week trip ends with a calm handover rather than a final overnight drive."),s("Three weeks is the first comfortable length","Twenty-one days is roughly the point where both islands become possible without the trip turning into a driving exercise. It allows around nine days in the North Island, one ferry day and eleven in the South, with two nights in the places that deserve them.","Resist the temptation to add Northland and Stewart Island at the ends. Either one converts a comfortable trip back into a rushed one, and both are better as their own journey.",["Roughly 8 north, 1 ferry, 12 south","Do not bolt on Northland or Rakiura","Two nights in the places that earn it"]),s("One ferry crossing, booked first","Cross Cook Strait once, southbound, and book it before anything else. A campervan is priced on length, summer sailings fill, and the crossing consumes most of a day once check-in and the drives at either end are counted.","Position the night before near the terminal and leave the day after soft. An evening arrival in Picton followed by a long drive is how people start their South Island leg tired."),s("Where to spend two nights","Rotorua, Aoraki or Tekapo, Te Anau and somewhere on the West Coast are the four places where a second night changes the trip most. Each is either weather-dependent or has more to do than a single afternoon allows.","Single nights work fine for transit stops like Taupō, Blenheim or Greymouth. The mistake is spreading single nights evenly across the whole route, which leaves you packing up every morning for three weeks.",["Two nights: Rotorua, Aoraki, Te Anau, West Coast","Single nights for transit towns","Packing up daily for 21 days is exhausting"]),s("Managing a campervan for three weeks","Over this length the vehicle routine matters: dump and refill on a regular schedule rather than when tanks are full, do laundry every five or six days, and plan a serviced night after each run of freedom camping. Freedom camping in a vehicle on council land needs a certified self-contained vehicle unless the council has set the site aside for vehicles that are not, many DOC notices impose the same condition, and since 7 June 2026 only vehicles with a green warrant count; blue warrants stopped counting, so check the warrant on the van at pickup. Letting these slip is what makes week three uncomfortable.","Keep the gas bottle, tyre pressures and windscreen washer topped up as you go. Small vehicle jobs are easy in a town and difficult on the Milford road."),{heading:"Direction of travel and one-way logistics",body:["Running north to south, picking up in Auckland and dropping in Christchurch or Queenstown, generally works better than the reverse because it puts the more demanding South Island driving at the end when you are used to the vehicle.","One-way rental fees between the islands vary widely and are sometimes waived in the low season when operators need vehicles repositioned. Ask directly rather than assuming the online quote is fixed, because it frequently is not.","The alternative is a round trip from Auckland, which means crossing Cook Strait twice and adds roughly two days of driving and a second ferry fare. It is only worth it if your flights are fixed to Auckland at both ends."]},s("Rest days are part of the plan","Three weeks of moving every day is exhausting, and the trips people remember well usually include two or three days where nobody drives anywhere. Build them in deliberately rather than hoping for them.","Choose places worth staying still in: a lakeside site, a town with good food, somewhere with a walk from the door. A rest day in a transit town is not a rest day.",["Plan two or three no-driving days","Rest somewhere worth staying"])],sources:[{label:"Plumbers, Gasfitters and Drainlayers Board: rental vehicle companies",url:"https://www.pgdb.co.nz/self_contained_vehicles/rental_vehicle_companies/"},{label:"Plumbers, Gasfitters and Drainlayers Board: self-contained vehicles for private owners",url:"https://www.pgdb.co.nz/self_contained_vehicles/private_vehicle_owners/"},{label:"DOC: freedom camping on conservation land",url:"https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/"}]}),
   a({slug:"rakiura-stewart-island-camping-guide",hubs:["huts/southland"],title:"Stewart Island Camping Guide: Rakiura Track and Oban",description:"Camping on Stewart Island: Rakiura Track campsites from $19 a night in summer and booked all year, the one-hour Bluff ferry, Ulva Island and wild kiwi.",category:"Road trips",region:"Rakiura",places:["Invercargill","Bluff","Oban","Ulva Island","Rakiura Track"],imageAlt:"Remote beach and native forest on Rakiura",intro:"Rakiura is a trip without the campervan. Leave the vehicle on the mainland, cross with a compact pack and let walking, water taxis and island weather set the pace for three or four nights.",sections:[s("Mainland preparation","Buy specialist food and equipment in Invercargill, then confirm secure parking and check-in at Bluff. Ferry luggage rules and sea conditions deserve attention before the morning of departure.","Foveaux Strait can be rough and services may change. Keep essential medication, warm layers and a flexible mainland booking for any delayed crossing."),s("Oban and Ulva Island","Oban is the service base, not a large town. Book accommodation, camps or track huts in advance and carry what small shops may not stock.","Ulva Island is a predator-free sanctuary reached by water taxi. Clean footwear and bags, follow biosecurity instructions and keep food sealed so the visit does not introduce pests."),s("Tracks and night wildlife","The Rakiura Track requires the correct hut or campsite booking and gear for persistent mud and rain. Shorter Oban walks still need a torch, warm layer and realistic return time.","Kiwi viewing is quiet and patient. Use red light where guides request it, give birds space and never use food or sound to pull wildlife closer."),s("Getting there is a decision in itself","The ferry from Bluff takes about an hour across Foveaux Strait, which has a reputation for being rough that is entirely deserved. The alternative is a short flight from Invercargill, which costs more, carries a strict baggage limit and is weather-dependent.","You cannot take a vehicle. Leave it in secure parking at Bluff or Invercargill and plan to be on foot on the island, which has very few roads and where almost everything is within walking distance of Oban anyway.",["No vehicles on the ferry","Foveaux Strait is genuinely rough","Flights have strict baggage limits"]),s("Kiwi are actually visible here","Rakiura is one of the most reliable places in the country to see wild kiwi, and the Stewart Island tokoeka is active in daylight as well as at night, which is unusual. Guided evening kiwi-spotting trips run from Oban.","Use a red light rather than white, keep quiet and stay on the track. Never approach or follow a bird, and keep well back if one crosses in front of you."),s("Ulva Island is the easy highlight","A short water taxi from Golden Bay wharf reaches Ulva Island, a predator-free open sanctuary where saddleback, robin, kākā and weka are abundant and unafraid. It is the single best few hours available on the island and needs no tramping experience.","Check your bag for rodents and seeds before boarding, which is why the checking stations exist. A single rat reaching Ulva would undo decades of work.",["Check your bag before boarding","Best birdlife you will see anywhere","No tramping experience needed"]),s("Weather, mud and the Rakiura Track","The Rakiura Track is a 32 km Great Walk loop, usually walked in three days. DOC's three campsites on it cost $19 per adult a night for New Zealanders and $28 for international visitors from 1 October to 30 April, and huts $44 and $66; every hut and campsite must be booked in advance all year, with a two-night maximum at each. The North West Circuit beyond it is a serious multi-day route famous for deep mud. Neither should be underestimated because the island is small.","Expect rain on most days, whatever the season. Waterproof boots, gaiters, dry bags and a genuine change of clothes are the difference between an enjoyable walk and a miserable one, and the mud is not an exaggeration."),{heading:"How long to stay",body:["Two nights is the minimum that justifies the crossing, and three or four is better. A single night gives you an evening and a morning, which is not enough for both a kiwi trip and Ulva Island, and leaves you hostage to the ferry schedule.","Oban is the only settlement and has a hotel, a shop, a couple of places to eat and limited accommodation, all of which book out in summer. There are backpacker options, but KiwiCamping's DOC data has no campsite in Oban itself: DOC's campsites on the island are the three on the Rakiura Track. Prices reflect that everything arrives by boat.","Bring cash and anything specific you need, because the shop is small and resupply is not quick. The island runs on a slower rhythm than the mainland and that is largely the point of going."]},s("Booking the crossing and the weather","Ferry sailings are cancelled in poor conditions and the strait is exposed. Build a spare day into the plan at each end rather than connecting the crossing tightly to a flight or another booking.","Take motion sickness medication before boarding rather than after. An hour on Foveaux Strait in a swell is a genuinely uncomfortable experience if you are prone to it.",["Build a spare day at each end","Take medication before boarding"])],sources:[{label:"DOC Rakiura Track",url:"https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/stewart-island-rakiura/rakiura-national-park/things-to-do/rakiura-track/"},{label:"DOC Māori Beach Campsite",url:"https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/stewart-island-rakiura/rakiura-national-park/things-to-do/maori-beach-campsite/"},{label:"RealNZ: ferry to Stewart Island planning guide",url:"https://www.realnz.com/en/blog/ferry-to-stewart-island-planning-guide/"}]}),
+  a({
+    slug: "auckland-to-taupo-drive-guide",
+    title: "Auckland to Taupō Road Trip: Route, Stops and Where to Camp",
+    description: "Auckland to Taupō by road: about 275 km and 3.5 hours on State Highway 1 through Hamilton and the Waikato, with geothermal stops, fuel and where to camp at the lake.",
+    category: "Road trips",
+    region: "Central North Island",
+    places: ["Auckland", "Hamilton", "Cambridge", "Tīrau", "Tokoroa", "Taupō"],
+    imageAlt: "Lake Taupō under a wide sky, with the shoreline and distant hills behind the water",
+    related: ["north-island-two-week-road-trip", "auckland-to-wellington-drive-guide", "freedom-camping-rules-new-zealand", "holiday-parks-new-zealand-guide", "tongariro-northern-circuit-camping-2026-27", "new-zealand-driving-day-planner"],
+    hubs: ["camping/central-north-island", "camping/waikato", "freedom-camping/tongariro"],
+    intro:
+      "Auckland to Taupō is about 275 km on State Highway 1 and takes around 3.5 hours without stops, which makes it the easiest first leg of a North Island trip and a very doable long weekend. The road runs south over the Bombay Hills, across the Waikato on the expressway, then through Cambridge, Tīrau and Tokoroa before the highway drops to the lake. Here are the route, the stops worth a break, fuel, the rules for sleeping at the lake, and a simple one-night or two-night plan.",
+    sections: [
+      sec("The route and how long it takes", [
+        "State Highway 1 is the whole way. From central Auckland you head south past Papakura, climb the Bombay Hills, then follow the Waikato Expressway past Huntly and around the edge of Hamilton. South of Cambridge the highway returns to a normal two-lane road through Tīrau and Tokoroa, then follows the Waikato River down to Atiamuri and Wairakei before the first view of Lake Taupō. Love Taupō lists the drive from Auckland at about 3.5 hours, and most map apps say a little less with no traffic.",
+        "Budget four and a half to five hours once you add fuel, lunch and one proper stop. Leaving Auckland on a Friday afternoon or a long weekend can add an hour or more between Papakura and Hamilton, so go before 7 am or after 7 pm if you can. A campervan with a full load is slower on the Bombay Hills and on the long straight sections south of Tīrau, which matters if you are planning the day with the driving day planner.",
+      ], ["About 275 km and 3.5 hours", "Leave before 7 am or after 7 pm on a Friday", "Allow 4.5 to 5 hours with stops"]),
+      sec("Stops worth the detour", [
+        "Hamilton is the natural fuel and food break, and Hamilton Gardens is the easy walk if the kids need to run. Cambridge, 25 minutes further on, has a tree-lined main street and good coffee. Tīrau is the corrugated-iron town you will see from the highway, and it is a quick stop for a pie and a photo.",
+        "The geothermal stops come after Tokoroa. Orakei Korako is a geothermal park a short detour off the highway, reached by a short boat ride across the water, and it is quieter than the better-known parks at Rotorua. Closer to Taupō, the Aratiatia Rapids viewpoints and Huka Falls are both a few minutes from town and free to see from the paths. Plan these for the next morning rather than squeezing them in on arrival day.",
+      ], ["Hamilton for fuel and a walk", "Orakei Korako is quieter than Rotorua", "Huka Falls and Aratiatia are free to view"], {
+        caption: "Approximate distances and driving times from central Auckland on State Highway 1, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Auckland", "What it is good for"],
+        rows: [
+          ["Hamilton", "About 125 km, 1 hr 30", "Fuel, food, Hamilton Gardens"],
+          ["Cambridge", "About 155 km, 1 hr 50", "Coffee and a stroll on the main street"],
+          ["Tīrau", "About 185 km, 2 hr 10", "Quick stop and a pie"],
+          ["Taupō", "About 275 km, 3 hr 30", "Lake, hot springs, waterfalls"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Hamilton or Cambridge. Tokoroa has fuel and a supermarket, and Taupō has everything, so there is no stretch of this route where you are likely to run dry. The same applies to charging, with fast chargers at the larger towns along the way, so check the NZTA Journey Planner map before a trip in an electric vehicle.",
+        "Public toilets are at the main towns and at the lookout and rest areas along the highway, so you rarely have to plan around them. Buy your groceries in Hamilton or Taupō rather than in smaller towns, where the choice is thinner and prices are higher. The resupply guide covers a week's shop for a campervan.",
+      ], ["Fuel in Hamilton, Cambridge or Tokoroa", "Fast chargers at the larger towns", "Groceries are cheapest in Hamilton and Taupō"]),
+      sec("Where to camp at Taupō", [
+        "Taupō is one of the busiest camping towns in the North Island, and the choice runs from holiday parks within walking distance of the lakefront to council freedom camping areas around the district. Holiday parks give you power, showers and a kitchen and are the easy choice for a first night, and they book up around school holidays and long weekends, so reserve ahead. The holiday parks guide explains what to expect.",
+        "Taupō District Council sets its own freedom camping rules, and they are stricter for vehicles that are not certified self-contained. Several lakefront reserves are closed to camping, and the areas that are open have a maximum stay and are patrolled in summer. Read the freedom camping rules guide and the Tongariro and Tūrangi hub before you rely on a spot, and use the council's current map on the day.",
+      ], ["Book holiday parks for school holidays", "Self-contained vehicles have more options", "Check the council's current map"]),
+      sec("One night or two", [
+        "With one night, leave Auckland early, stop at Orakei Korako or Hamilton Gardens on the way, reach Taupō in the afternoon, walk to Huka Falls from the lakeside track and soak in a hot pool in the evening. Drive back the next morning via the Aratiatia viewpoint, or return by Rotorua for a different road.",
+        "With two nights you can do the Tongariro end of the lake as well. Tūrangi is an hour south, and the Tongariro Alpine Crossing, the Great Lake Trail and the trout rivers all start from there. If you are heading on to Wellington, the Auckland to Wellington drive guide picks up the road from here. Tongariro Northern Circuit camping is covered in its own guide.",
+      ], ["One night: Orakei Korako, Huka Falls, hot pool", "Two nights: add Tūrangi or Tongariro", "Continue south with the Wellington guide"]),
+      sec("Planning Auckland to Taupō in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, and the stretch around the lake is well covered. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps when the plateau weather turns. It does not give turn-by-turn directions or live traffic, so keep your phone's maps and the NZTA Journey Planner open for the drive itself.",
+        "Bookings for DOC campsites stay on DOC's own booking pages, and holiday park bookings go through the park.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Love Taupō: getting to Taupō and around (driving times)", url: "https://www.lovetaupo.com/en/plan/getting-here-around/" },
+      { label: "Love Taupō: where can I camp?", url: "https://www.lovetaupo.com/en/stay/where-can-i-camp/" },
+      { label: "DOC: Tongariro National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "auckland-to-tauranga-drive-guide",
+    title: "Auckland to Tauranga Road Trip: Route, Stops and Where to Camp",
+    description: "Auckland to Tauranga and Mount Maunganui by road: about 210 km and 2.5 to 3 hours via Karangahake Gorge and Waihi, with the Kaimai alternative, stops and camping.",
+    category: "Road trips",
+    region: "Bay of Plenty",
+    places: ["Auckland", "Paeroa", "Karangahake Gorge", "Waihi", "Katikati", "Tauranga", "Mount Maunganui"],
+    imageAlt: "Mauao, Mount Maunganui, rising beside the beach and harbour entrance at Tauranga",
+    related: ["freedom-camping-tauranga-2026", "coromandel-rotorua-road-trip", "north-island-two-week-road-trip", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner", "camping-fees-new-zealand-2026"],
+    hubs: ["camping/bay-of-plenty", "camping/coromandel", "huts/bay-of-plenty"],
+    intro:
+      "Auckland to Tauranga is about 210 km and takes roughly 2.5 to 3 hours, and there are two good ways to do it: the road through Paeroa, Karangahake Gorge and Waihi on State Highways 2 and 25, or the road over the Kaimai Range from Hamilton. The gorge route is the more interesting one and the one this guide follows. It sets out the route and timing, the stops, fuel, how to choose between the roads, and where to camp when you reach the Bay of Plenty.",
+    sections: [
+      sec("Two routes to Tauranga", [
+        "The usual route leaves State Highway 1 at Pokeno and follows State Highway 2 through Mangatawhiri and Paeroa, then runs through Karangahake Gorge to Waihi and on to Katikati and Tauranga. It is around 210 to 235 km depending on where in Auckland you start and takes 2.5 to 3 hours with no stops. The road is a mix of fast sections and winding gorge, and the gorge itself is narrow, so a big motorhome should allow extra time.",
+        "The other way is to stay on State Highway 1 to Hamilton, then take State Highway 29 over the Kaimai Range to Tauranga. It is a little longer and busier with trucks, but it is wider and faster, and it suits a night-time arrival or a tall vehicle better than the gorge. The Kaimai route is also the one to take if you are combining Tauranga with Hobbiton or Waitomo. Use a live map on the day, because crashes and roadworks on either road can swing the time by half an hour or more.",
+      ], ["Gorge route: Pokeno, Paeroa, Waihi, Katikati", "Kaimai route: Hamilton then State Highway 29", "Both take about 2.5 to 3 hours"]),
+      sec("Stops along the way", [
+        "Paeroa is the place to buy a coffee and see the giant bottle that marks the town. Karangahake Gorge is the highlight of the drive: an old gold-mining gorge with walking tracks, a long former rail tunnel and the Hauraki Rail Trail running through it, with the walkway managed by DOC. The tunnel loop takes about 45 minutes return, and it is a good break for the legs about 1.5 hours out of Auckland. Stay on the marked tracks, as old mine workings can be hidden by vegetation.",
+        "Waihi has a working gold mine you can see from the lookout in town and a surf beach 10 minutes away. Katikati, the next town, is known for its murals, and Mount Maunganui and Papamoa sit just past Tauranga's harbour bridge. Plan to leave the climb up Mauao, the mountain at the end of the Mount's main beach, for the next morning when the air is clear.",
+      ], ["Karangahake Gorge for the tunnel loop", "Waihi beach for a surf stop", "Climb Mauao at first light"], {
+        caption: "Approximate distances and driving times from central Auckland, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Auckland", "What it is good for"],
+        rows: [
+          ["Paeroa", "About 110 km, 1 hr 20", "Coffee, fuel, the bottle"],
+          ["Karangahake Gorge", "About 140 km, 1 hr 45", "Tunnel walks and the rail trail"],
+          ["Waihi", "About 155 km, 2 hr", "Surf beach and the mine lookout"],
+          ["Tauranga", "About 210 km, 2 hr 40", "Harbour and the Mount"],
+        ],
+      }),
+      sec("Fuel and food", [
+        "Fuel up before Pokeno or at Paeroa, as there is little between Paeroa and Waihi. Tauranga has everything and there are supermarkets at Katikati, Waihi and Paeroa if you need to restock. Fast chargers are at the larger towns on both routes, and the NZTA Journey Planner shows them on a map.",
+        "Katikati and Waihi have bakeries and cafes on the main street, and the gorge has a small cafe near the car park that is busy at weekends. The resupply guide explains how to shop for a campervan trip.",
+      ], ["Fuel at Pokeno or Paeroa", "Supermarkets at Paeroa, Waihi and Katikati", "Gorge cafe is crowded on weekends"]),
+      sec("Where to camp around Tauranga", [
+        "Tauranga and Mount Maunganui are among the busiest holiday destinations in the country in summer, and the holiday parks near the beach book out over Christmas and the January school holidays. In the shoulder season you can often find a site a few days out. The camping fees guide shows what holiday parks and DOC sites cost.",
+        "The councils around the Bay of Plenty have restrictive freedom camping rules, with most of the popular beachfront banned and a short list of designated sites for certified self-contained vehicles. The Tauranga freedom camping guide sets out the current rules. If you plan to camp in the Kaimai Range or on the Coromandel side, the Bay of Plenty and Coromandel hubs list the DOC campsites that are open.",
+      ], ["Book beach parks for summer", "Most beachfront freedom camping is banned", "Shoulder season is much easier"]),
+      sec("A weekend plan", [
+        "On Saturday leave Auckland early, walk the gorge, then reach Mount Maunganui for a late lunch and a swim. Climb Mauao for sunset and spend the night at a holiday park or a council site.",
+        "On Sunday take the road around the harbour to Papamoa or head inland to Rotorua if you have time. Return via Hamilton and the expressway for the quickest way home, or continue to the Coromandel if you want a loop, which the Coromandel to Rotorua route covers.",
+      ], ["Saturday: gorge walk, Mount swim", "Sunday: harbour road or Rotorua", "Return via Hamilton for speed"]),
+      sec("Planning Auckland to Tauranga in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the Bay of Plenty. Save the ones you like, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Karangahake Gorge", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/places/kaimai-mamaku-conservation-park/things-to-do/tracks/karangahake-gorge-historic-walkway/" },
+      { label: "Hauraki Rail Trail", url: "https://www.haurakirailtrail.co.nz/" },
+      { label: "Tauranga City Council: freedom camping", url: "https://www.tauranga.govt.nz/community/community-and-recreation/freedom-camping" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "auckland-to-waitomo-hobbiton-drive-guide",
+    title: "Auckland to Waitomo and Hobbiton: A Two-Day Road Trip",
+    description: "Auckland to Hobbiton and the Waitomo Caves in two days: about 2 hours to Matamata, 1.5 hours across to Waitomo, with booking tips, fuel and where to camp in the Waikato.",
+    category: "Road trips",
+    region: "Waikato",
+    places: ["Auckland", "Hamilton", "Matamata", "Te Awamutu", "Ōtorohanga", "Waitomo"],
+    imageAlt: "Round hobbit-hole doors set into a green hillside above a garden at the Hobbiton Movie Set in Matamata",
+    related: ["north-island-two-week-road-trip", "auckland-to-taupo-drive-guide", "auckland-to-new-plymouth-drive-guide", "holiday-parks-new-zealand-guide", "freedom-camping-rules-new-zealand", "new-zealand-driving-day-planner"],
+    hubs: ["camping/waikato", "freedom-camping/waikato", "freedom-camping/king-country"],
+    intro:
+      "Hobbiton and the Waitomo Caves are the two best-known stops in the Waikato, and they fit neatly into a two-day loop from Auckland: about 2 hours to Matamata, 1.5 hours across to Waitomo, and a straight run home through Hamilton. Both are guided experiences that run on set times, so the trip works best when you book ahead and plan the days around those times. Below are the route, the order that works best, how to book, fuel and food, and where to stay overnight.",
+    sections: [
+      sec("The route and the best order", [
+        "Take State Highway 1 south out of Auckland, follow the Waikato Expressway past Huntly and Hamilton, then turn east towards Matamata. It is about 165 km and a little over 2 hours to Hobbiton. From Matamata, the roads through Te Awamutu and Ōtorohanga take you to Waitomo in around 1.5 hours. Waitomo to Auckland is about 195 km and 2.5 hours back via Hamilton.",
+        "Most people go Hobbiton first on day one, spend the night near Waitomo, then do the caves on day two with the drive home in the afternoon. That order works because Hobbiton tours leave through the middle of the day, the caves have a lot of morning slots, and you finish with the shortest drive. If you only have one day, a very early start gets you both, but the day is long and you will be rushing.",
+      ], ["Auckland to Matamata: about 165 km, 2 hours", "Matamata to Waitomo: about 1.5 hours", "Hobbiton first, caves the next morning"]),
+      sec("Hobbiton: how to book and what to expect", [
+        "Hobbiton Movie Set is a working farm outside Matamata, and entry is by guided tour only. Tours run through the day and sell out in the school holidays and in summer, so book before you leave Auckland and pick a time that leaves you an hour's buffer after the drive. Arrive early, because you park on the farm and board a bus to the set.",
+        "The tour takes about two hours and covers the whole village at an easy pace, with a drink at the Green Dragon at the end. It is mostly flat but on grass paths, and the weather in the Waikato can turn quickly, so bring a waterproof jacket. There is no camping at the set itself, so plan your night in Matamata or further along the route.",
+      ], ["Book before you leave Auckland", "Allow about 2 hours for the tour", "Bring a waterproof jacket"]),
+      sec("Waitomo: the caves and what else to see", [
+        "The Waitomo Caves are limestone caves famous for glowworms, and the main options are a walking tour through the Glowworm Cave, a boat ride under the glowworms, and the longer adventure trips for those who want to abseil or tube through the dark. Tours run all day and the quieter slots are in the early morning. The Waitomo Caves village is small, so book your cave time and your bed ahead.",
+        "Away from the caves, Marokopa Falls and Mangapohue Natural Bridge are free walks on the road to the coast, and the Ruakuri track is a short loop through a limestone gorge. Otorohanga, 20 minutes away, has a kiwi house where you can see the native birds. If the weather is wet, the caves are the best option, because you spend the day underground and dry.",
+      ], ["Book cave tours and a bed ahead", "Marokopa Falls is a free walk", "Wet day? Do the caves"], {
+        caption: "Approximate distances and driving times on the loop, without stops. Check live traffic before you leave.",
+        head: ["Leg", "Distance and time", "Notes"],
+        rows: [
+          ["Auckland to Matamata (Hobbiton)", "About 165 km, 2 hr", "Via the Waikato Expressway"],
+          ["Matamata to Waitomo", "About 85 km, 1 hr 30", "Via Te Awamutu and Ōtorohanga"],
+          ["Waitomo to Auckland", "About 195 km, 2 hr 30", "Via Hamilton"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Hamilton is the last big town before both stops, with plenty of fuel and food. Matamata and Te Awamutu have supermarkets, and Ōtorohanga and Te Kūiti have fuel and cafes, so you will not run short. Waitomo village has a small shop and a few places to eat, but it is smaller and pricier than the towns, so stock up beforehand. The resupply guide covers the basics.",
+        "Public toilets are at the visitor centres at Hobbiton and Waitomo and at the main towns on the route. The roads between Matamata and Waitomo are quiet and sealed, with the occasional one-lane bridge on the back roads.",
+      ], ["Stock up in Hamilton or Te Awamutu", "Waitomo village is small and pricey", "Back roads have one-lane bridges"]),
+      sec("Where to stay overnight", [
+        "Holiday parks and motels in Matamata, Te Awamutu, Ōtorohanga and Waitomo give you power, showers and a kitchen and take the guesswork out of the night. Waitomo and Hobbiton are busiest from December to February and at Easter, so book early. The holiday parks guide explains what to look for.",
+        "For freedom camping, the Waikato and Waitomo district councils set their own rules, and most of the popular spots near the caves are not open to camping. Read the freedom camping rules guide and check the Waikato and King Country hubs before you rely on a roadside spot. There are also a few simple DOC and council campsites in the hills towards Marokopa, which suit campers who are happy with basic facilities.",
+      ], ["Book Waitomo early for summer", "Check council rules before freedom camping", "Campsites towards Marokopa are basic"]),
+      sec("Planning Auckland to Waitomo and Hobbiton in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Matamata, Ōtorohanga and Waitomo. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "Tour bookings for Hobbiton and the caves are made with the operators, and DOC campsite bookings stay on DOC's own pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Book tours with the operators"], undefined, true),
+    ],
+    sources: [
+      { label: "Hobbiton Movie Set: tours and tickets", url: "https://www.hobbitontours.com/" },
+      { label: "Waitomo Caves: official visitor site", url: "https://www.waitomo.com/" },
+      { label: "Waikato Regional Tourism: Matamata and Hobbiton", url: "https://www.waikatonz.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "auckland-to-napier-drive-guide",
+    title: "Auckland to Napier Road Trip: Routes, Stops and Where to Camp",
+    description: "Auckland to Napier by road: about 430 km and 5.5 to 6 hours via Taupō and the Napier-Taupō road, with a Rotorua alternative, fuel stops and camping around Hawke's Bay.",
+    category: "Road trips",
+    region: "Hawke's Bay",
+    places: ["Auckland", "Taupō", "Napier", "Hastings", "Havelock North", "Cape Kidnappers"],
+    imageAlt: "Pastel Art Deco buildings on a street in the centre of Napier",
+    related: ["wellington-to-napier-drive-guide", "auckland-to-taupo-drive-guide", "north-island-two-week-road-trip", "east-cape-road-trip", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/hawkes-bay", "freedom-camping/hawkes-bay", "camping/central-north-island"],
+    intro:
+      "Auckland to Napier is about 430 km, and the drive takes 5.5 to 6 hours without stops, which is a long day or an easy two. The usual route runs down State Highway 1 to Taupō, then takes the Napier-Taupō road (State Highway 5) across the central plateau to the coast. A second route goes by Rotorua and Taupō and adds a night of hot springs. Below are the two routes, where to stop, fuel on the empty section, and where to camp when you reach Hawke's Bay.",
+    sections: [
+      sec("The route and the timing", [
+        "From Auckland, follow State Highway 1 to Taupō as in the Auckland to Taupō guide, about 275 km and 3.5 hours. At Taupō turn onto State Highway 5, the Napier-Taupō road, which climbs through forestry and open tussock before dropping through the Esk Valley into Hawke's Bay. The Taupō to Napier leg is about 145 km and takes just over 2 hours, which makes the total about 5.5 to 6 hours of driving.",
+        "The other way runs through Rotorua. Leave State Highway 1 at Tīrau, follow State Highway 5 to Rotorua and carry on south on the same highway to Taupō and Napier. It adds around 40 minutes and a very good reason to stop: the geothermal parks, the redwoods and the lake. Whichever way you go, leave Auckland early to beat the traffic over the Bombay Hills.",
+      ], ["About 430 km and 5.5 to 6 hours", "Taupō to Napier is about 145 km", "Rotorua route adds around 40 minutes"]),
+      sec("Where to break the journey", [
+        "Taupō is the natural halfway stop, with a lakeside walk, the Huka Falls and hot pools, and it is a sensible place to refuel. If you want a shorter second day, spend the night at Taupō or Rotorua and arrive in Napier by lunchtime.",
+        "The Napier-Taupō road has some very good views and a few places to pull over, including the Waipunga Falls lookout, a short walk from the road. There is very little between Taupō and the Esk Valley, so use the lookouts and rest areas for a break rather than expecting a cafe. The final descent into Hawke's Bay is steep and winding, and trucks are slow, so leave plenty of room.",
+      ], ["Taupō is the natural halfway stop", "Waipunga Falls is a short roadside walk", "The descent is steep and slow for trucks"], {
+        caption: "Approximate distances and driving times on the main route, without stops. Check live traffic before you leave.",
+        head: ["Leg", "Distance and time", "Notes"],
+        rows: [
+          ["Auckland to Taupō", "About 275 km, 3 hr 30", "State Highway 1"],
+          ["Taupō to Napier", "About 145 km, 2 hr 10", "State Highway 5, the Napier-Taupō road"],
+          ["Napier to Hastings", "About 20 km, 20 min", "Wine and orchards"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill the tank at Taupō before you turn onto the Napier-Taupō road. There is little or no fuel on the road itself, and cell coverage is patchy in places, so download your maps first. The road is sealed and in good condition, but it crosses high ground and can have frost or snow in winter. Check the NZTA Journey Planner for closures, and read the winter driving guide before an early or late season trip.",
+        "In Napier, the city centre has everything you need, and Hastings and Havelock North have more supermarkets, bakeries and farm stalls. Hawke's Bay is orchard and wine country, and the roadside fruit stalls in summer are a good way to restock. See the resupply guide for the basics.",
+      ], ["Fill up at Taupō before the plateau", "Download maps before the plateau", "Frost and snow are possible in winter"]),
+      sec("What to do in Napier and Hawke's Bay", [
+        "Napier rebuilt after the 1931 earthquake in Art Deco style, and the walk around the centre is the easy first stop, followed by a stroll along Marine Parade. The wineries around Hastings and Havelock North are a short drive away, and the cycle trails through the vineyards suit a day off the road. Te Mata Peak above Havelock North has a sealed road to the top and a view over the whole bay.",
+        "Cape Kidnappers is the other well-known trip, a walk or a tractor ride along the beach to a gannet colony that is busiest from spring to summer. The walk depends on the tide, so check the tide table before you go. If you plan to carry on to Wellington, the Wellington to Napier drive guide covers the road in the other direction.",
+      ], ["Art Deco walk in the centre", "Te Mata Peak for the view", "Cape Kidnappers depends on the tide"]),
+      sec("Where to camp in Hawke's Bay", [
+        "Holiday parks in Napier, Hastings and Havelock North offer power, showers and a kitchen and are the easy choice, though they book out in January and during the wine and food events. The holiday parks guide explains what to expect.",
+        "Freedom camping in the Napier and Hastings areas is restricted to a few designated sites, and most of the waterfront is closed to overnight stays. The Hawke's Bay freedom camping hub lists the current areas, and the council's own pages are the final word on the day. DOC runs some campsites in the hills towards Taupō and Te Urewera, but for the bay itself you will probably end up in a park.",
+      ], ["Book holiday parks for January", "Most waterfront is closed to camping", "Check the council's pages on the day"]),
+      sec("Planning Auckland to Napier in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with good coverage of Taupō and Hawke's Bay. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which is handy before the plateau road. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Love Taupō: getting to Taupō and around (driving times)", url: "https://www.lovetaupo.com/en/plan/getting-here-around/" },
+      { label: "Hawke's Bay Tourism: Napier", url: "https://www.hawkesbaynz.com/" },
+      { label: "Art Deco Napier: the 1931 earthquake and rebuild", url: "https://www.artdeconapier.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "auckland-to-new-plymouth-drive-guide",
+    title: "Auckland to New Plymouth Road Trip: Route, Stops and Camping",
+    description: "Auckland to New Plymouth by road: about 370 km and 5 to 5.5 hours on State Highways 1 and 3 through Waitomo, the Awakino Gorge and the Taranaki coast, with stops and camping.",
+    category: "Road trips",
+    region: "Taranaki",
+    places: ["Auckland", "Hamilton", "Te Kūiti", "Awakino", "Mōkau", "Urenui", "New Plymouth"],
+    imageAlt: "Snow-dusted Mount Taranaki rising above green farmland under a clear sky",
+    related: ["taranaki-forgotten-world-highway", "freedom-camping-new-plymouth-2026", "auckland-to-waitomo-hobbiton-drive-guide", "north-island-two-week-road-trip", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["freedom-camping/new-plymouth", "huts/taranaki", "freedom-camping/king-country"],
+    intro:
+      "Auckland to New Plymouth is about 370 km and takes around 5 to 5.5 hours without stops, down State Highway 1 to Hamilton and then State Highway 3 through Te Awamutu, Te Kūiti and the Awakino Gorge to the Taranaki coast. It is a long day, so most people split it with a night at Waitomo or on the coast. Below are the route, the stops that earn a break, fuel, a note on the Mt Messenger section, and where to camp around the mountain.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Take State Highway 1 south to Hamilton, then State Highway 3 through Te Awamutu and Ōtorohanga to Te Kūiti, where the road swings west. From Te Kūiti it follows the Mōkau River through the Awakino Gorge to the coast, runs south along the shoreline past Mōkau and Urenui, and arrives in New Plymouth with Mount Taranaki ahead of you. Allow 5 to 5.5 hours of driving.",
+        "The gorge and the coast road are narrow and winding, with heavy trucks, and you cannot overtake in many places, so the time on a map is a minimum. Leave Auckland by 8 am to arrive in the afternoon, and do not plan to cover the last stretch in the dark.",
+      ], ["About 370 km and 5 to 5.5 hours", "The gorge is slow, narrow and winding", "Do not drive the last stretch in the dark"]),
+      sec("A note on Mt Messenger", [
+        "State Highway 3 north of Urenui climbs over Mt Messenger, a steep and winding section that has long been a bottleneck. NZTA is building the Mt Messenger Bypass to replace it with a new route and tunnel, so the road you drive may be the old climb or the new bypass depending on when you go. The old road has been closed more than once by slips and flooding.",
+        "Check the NZTA Journey Planner for the current state of the road before you leave, and be ready to wait for a single lane if work or a slip is under way. If the road is closed, the alternative is a long detour through Whanganui or the Forgotten World Highway, which is slow but a trip in its own right.",
+      ], ["Check the Journey Planner before you leave", "Expect delays at Mt Messenger", "The Forgotten World Highway is the long detour"]),
+      sec("Stops along the way", [
+        "Hamilton and Te Awamutu are the fuel and food breaks, and Ōtorohanga has the kiwi house and a handful of cafes. Waitomo is about 20 minutes off the highway if you want to see the caves, and the Waitomo guide shows how to fit them in. Te Kūiti, the shearing capital, makes a good lunch stop before the gorge.",
+        "In the gorge itself, Awakino and Mōkau are small coastal settlements with a cafe and a pub, and the Mōkau Museum is a short stop. Closer to New Plymouth the Three Sisters and Elephant Rock at Tongaporutu are a short walk on the beach at low tide, so check the tide table before you set out.",
+      ], ["Hamilton and Te Awamutu for fuel", "Waitomo is about 20 minutes off the road", "Three Sisters is a low-tide walk"], {
+        caption: "Approximate distances and driving times from central Auckland, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Auckland", "What it is good for"],
+        rows: [
+          ["Hamilton", "About 125 km, 1 hr 30", "Fuel and food"],
+          ["Te Kūiti", "About 220 km, 3 hr", "Lunch before the gorge"],
+          ["Awakino and Mōkau", "About 290 km, 4 hr", "Coast and the gorge exit"],
+          ["New Plymouth", "About 370 km, 5 hr 15", "City, coast and the mountain"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Hamilton, Te Awamutu or Te Kūiti. Beyond Te Kūiti fuel is limited until you reach the New Plymouth area, so do not run the tank down. Awakino and Mōkau have cafes, and Urenui has a small shop, but supplies are limited, so shop in Hamilton or Te Awamutu.",
+        "Public toilets are at Te Kūiti, Awakino, Mōkau and Urenui, and at some of the lookout stops along the highway. Cell coverage is patchy in the gorge. The resupply guide covers shopping for a campervan trip.",
+      ], ["Fuel in Te Kūiti before the gorge", "Coastal cafes are small", "Patchy cell coverage in the gorge"]),
+      sec("New Plymouth and Mount Taranaki", [
+        "New Plymouth has a coastal walkway that runs for kilometres along the waterfront past the Te Rewa Rewa Bridge, Pukekura Park in the middle of town and the Len Lye Centre. The mountain is the reason most people come, and Egmont National Park has short walks from the North Egmont visitor centre and Dawson Falls, and the longer Pouakai Crossing for those with a day to spare.",
+        "Mountain weather changes fast, and the summit and upper tracks need proper gear and a check with the visitor centre first. For a gentler day, take the Pouakai Tarns walk for the famous reflection of the cone on a still morning, or drive the loop around the base of the mountain.",
+      ], ["Coastal walkway for an easy morning", "North Egmont and Dawson Falls for short walks", "Mountain weather changes quickly"]),
+      sec("Where to camp around Taranaki", [
+        "Holiday parks and motor camps in New Plymouth, Oakura and Ōpunake give you power, showers and a kitchen, and the ones near the coast book out in summer. The holiday parks guide explains what to expect. DOC runs campsites in Egmont National Park, which are simple and close to the tracks.",
+        "New Plymouth District Council has a handful of freedom camping areas for self-contained vehicles, and the beaches closest to the city are mostly closed. The New Plymouth freedom camping guide and the hub list the sites, and the council's own pages are the final word on the day. Booking is wise in summer.",
+      ], ["Holiday parks book out in summer", "DOC campsites in Egmont National Park", "Check the council's pages on the day"]),
+      sec("Planning Auckland to New Plymouth in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Egmont National Park and the Taranaki coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which is useful for the mountain. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "NZTA: Mt Messenger Bypass project", url: "https://nzta.govt.nz/projects/mt-messenger-bypass" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: Egmont National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/taranaki/places/egmont-national-park/" },
+      { label: "Venture Taranaki: visit Taranaki", url: "https://www.taranaki.co.nz/" },
+    ],
+  }),
+  a({
+    slug: "christchurch-to-franz-josef-drive-guide",
+    title: "Christchurch to Franz Josef Road Trip: Arthur's Pass and the West Coast",
+    description: "Christchurch to Franz Josef by road: about 430 km and 6 to 6.5 hours over Arthur's Pass and down the West Coast, with stops, fuel, winter notes and where to camp.",
+    category: "Road trips",
+    region: "West Coast",
+    places: ["Christchurch", "Arthur's Pass", "Otira", "Hokitika", "Ross", "Franz Josef"],
+    imageAlt: "Franz Josef Glacier curving down a steep valley between forested mountain walls",
+    related: ["arthurs-pass-camping-route", "west-coast-south-island-road-trip", "wanaka-haast-pass-route", "south-island-two-week-road-trip", "winter-driving-new-zealand-campervan", "new-zealand-driving-day-planner"],
+    hubs: ["camping/west-coast", "freedom-camping/south-westland", "camping/canterbury"],
+    intro:
+      "Christchurch to Franz Josef is about 430 km and takes 6 to 6.5 hours without stops, over Arthur's Pass on State Highway 73 and then south down the West Coast on State Highway 6. It is one of the great South Island drives, with braided rivers, alpine passes and rainforest, and it is best split over two days. Below are the route and timing, the stops, fuel on the Coast, the winter and weather notes, and where to camp when you reach the glaciers.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Leave Christchurch on State Highway 73 and head west across the Canterbury Plains to Springfield and Porters Pass, then through the Waimakariri Gorge to Arthur's Pass village, about 2 hours from the city. The road then crosses the pass and drops down the Otira Gorge to the West Coast, where you turn south on State Highway 6 through Kumara Junction, Hokitika and Ross to Franz Josef. The total is around 430 km and 6 to 6.5 hours of driving.",
+        "The drive is slow in places, with a steep descent through the Otira Gorge and many one-lane bridges on the Coast, and it is a mistake to plan it as a single sprint. A night on the way, at Arthur's Pass or Hokitika, makes it a pleasure rather than a slog. The Arthur's Pass guide covers the pass in detail.",
+      ], ["About 430 km and 6 to 6.5 hours", "Arthur's Pass is about 2 hours from Christchurch", "Split it with a night on the way"]),
+      sec("Stops worth making", [
+        "Castle Hill and the Waimakariri Gorge viewpoint are quick stops on the way up, and Arthur's Pass village has short walks to Devils Punchbowl Falls and a visitor centre where you can check the weather. Keas, the alpine parrots, hang around the car parks near the pass and will take anything left outside, so keep food and shoes inside the vehicle.",
+        "On the West Coast side, Hokitika has a good main street and the nearby Hokitika Gorge is a turquoise river with a short walk to a swing bridge. Further south, Lake Mahinapua and the old gold-mining town of Ross are quiet stops, and Franz Josef is the base for the glacier. The Pancake Rocks at Punakaiki are in the opposite direction and need a separate trip north.",
+      ], ["Keep food inside the vehicle near the pass", "Hokitika Gorge is worth the short detour", "Check the weather at Arthur's Pass"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Springfield", "About 80 km, 1 hr", "Fuel and coffee before the pass"],
+          ["Arthur's Pass village", "About 155 km, 2 hr", "Walks and the visitor centre"],
+          ["Hokitika", "About 290 km, 4 hr", "Gorge, greenstone and a night's stay"],
+          ["Franz Josef", "About 430 km, 6 hr", "The glacier valley"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill up in Christchurch or Springfield before the pass. There is fuel at Arthur's Pass village but at a premium, and again at Hokitika, Ross and Franz Josef, so you will not run dry but you should not let the tank get low. Food is more limited on the Coast, with small shops and a few cafes, so shop in Christchurch or Greymouth if you can.",
+        "The West Coast gets a lot of rain, and Arthur's Pass can have snow or ice in winter, and slips and flooding sometimes close the roads. Check the NZTA Journey Planner before you set out, and read the winter driving guide and the severe weather guide if you are travelling in cold or wet months. Sandflies are bad on the Coast, so carry repellent.",
+      ], ["Fuel at Springfield, Hokitika or Ross", "Shop before the Coast", "Check closures in winter and heavy rain"]),
+      sec("Franz Josef and the glacier", [
+        "The Franz Josef Glacier Valley walk takes you through rainforest and along the river to a viewpoint, and the glacier has retreated a long way in recent decades, so the terminal view is not what the old photos show. Walking on the ice is only possible with a guided trip, usually by helicopter. DOC posts the track status, and the valley is closed after heavy rain or slips, so check before you go.",
+        "On a clear day the scenic flights and the walks to Roberts Point or Sentinel Rock are the popular options, and on a wet one the hot pools in town are the standard fallback. The township is small, with a handful of cafes and supermarkets, and Fox Glacier is another 25 minutes south if you want a second look.",
+      ], ["Check DOC track status before you go", "Guided trips only on the ice", "Hot pools for wet days"]),
+      sec("Where to camp", [
+        "Holiday parks in Franz Josef, Hokitika and Greymouth offer power, showers and a kitchen and are the easiest choice, but they fill in summer, so book ahead. The holiday parks guide explains what to look for. DOC runs campsites near Arthur's Pass and along the Coast, from basic sites to larger ones with toilets and water.",
+        "Freedom camping on the Coast is restricted. Westland District Council has specific areas for certified self-contained vehicles, and many roadside spots are closed. The Westland freedom camping guide and the South Westland hub list the current sites. The sandflies are fierce at night, so a mesh screen or a repellent is useful.",
+      ], ["Book holiday parks in summer", "DOC campsites near Arthur's Pass", "Sandflies are fierce at night"]),
+      sec("Planning Christchurch to Franz Josef in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at Arthur's Pass and along the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Arthur's Pass National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/" },
+      { label: "DOC: Westland Tai Poutini National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/" },
+      { label: "Tourism West Coast: plan your trip", url: "https://www.westcoast.co.nz/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "christchurch-to-kaikoura-drive-guide",
+    title: "Christchurch to Kaikōura Road Trip: Route, Stops and Camping",
+    description: "Christchurch to Kaikōura by road: about 180 km and 2.5 to 3 hours on State Highway 1 through Waipara and the coast, with whales, seals, fuel and where to camp.",
+    category: "Road trips",
+    region: "Canterbury",
+    places: ["Christchurch", "Waipara", "Cheviot", "Kaikōura"],
+    imageAlt: "The Kaikōura coast, with a rocky shoreline and the Seaward Kaikōura Range rising behind",
+    related: ["picton-kaikoura-christchurch-route", "christchurch-to-hanmer-springs-drive-guide", "south-island-two-week-road-trip", "freedom-camping-christchurch-2026", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "freedom-camping/north-canterbury", "camping/marlborough"],
+    intro:
+      "Christchurch to Kaikōura is about 180 km and takes 2.5 to 3 hours on State Highway 1, which makes it an easy overnight trip and the first leg for anyone heading on to Picton and the ferry. The road runs north through the Waipara wine region, over rolling farmland, then drops to the coast for the last stretch with the sea on one side and the mountains on the other. Below are the route, the stops, fuel, what to do in Kaikōura and where to camp. If you are travelling the other way, the Picton to Christchurch guide picks up from the north.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Take State Highway 1 north out of Christchurch through Amberley and Waipara, then past Cheviot and Parnassus to the coast at Oaro, and on to Kaikōura. It is about 180 km and 2.5 to 3 hours with no stops. The last 50 km hugs the coastline, with narrow sections, tunnels and bridges that were rebuilt after the 2016 earthquake.",
+        "Give yourself extra time for the coast. Traffic can bunch up behind trucks, and there are few places to overtake. Roadworks and slips can add delays, and the highway is closed occasionally in severe weather, so check the NZTA Journey Planner before you leave.",
+      ], ["About 180 km and 2.5 to 3 hours", "The coast section is slow and narrow", "Check closures in bad weather"]),
+      sec("Stops on the way", [
+        "Waipara is the first stop, with cellar doors, cafes and the Waipara Valley vineyards a short drive off the highway. Amberley has a bakery and shops, and Cheviot is a small farming town with a pub and a petrol station. In the last stretch, seal colonies lie on the rocks beside the road, and there are pull-offs where you can watch them safely from a distance.",
+        "At Kaikōura itself, the seal colony at Ōhau Point, the Peninsula Walkway and the lookout at the end of Fyffe Quay are all short, free stops. Crayfish, the town's namesake, is sold from roadside caravans on the coast, and it is the thing to eat. The Picton to Christchurch guide has more on the northern end of the coast.",
+      ], ["Waipara for wine and lunch", "Pull off to watch the seals", "Crayfish from the roadside caravans"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Amberley", "About 45 km, 40 min", "Bakery and fuel"],
+          ["Waipara", "About 65 km, 55 min", "Wine and lunch"],
+          ["Cheviot", "About 110 km, 1 hr 20", "Fuel and a quick break"],
+          ["Kaikōura", "About 180 km, 2 hr 40", "Whales, seals and the peninsula"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Christchurch, Amberley or Cheviot. Kaikōura has fuel, supermarkets and plenty of cafes and restaurants, so you can restock when you arrive. There are public toilets at Waipara, Cheviot, the coastal lookouts and in Kaikōura.",
+        "Cell coverage is patchy on the coast, so download your maps before you set out. There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+      ], ["Fuel in Amberley or Cheviot", "Restock in Kaikōura", "Download maps before the coast"]),
+      sec("What to do in Kaikōura", [
+        "Whale watching is the headline, and the boat trips run all year, depending on the sea conditions. Swimming with dolphins and seals is run by separate operators, and both book out in summer, so reserve before you arrive. If you prefer to stay dry, the Peninsula Walkway loops around the headland and passes a colony of fur seals, and the walk takes a few hours.",
+        "On a clear day the views of the Seaward Kaikōura Range, with snow into spring, are worth a drive to a lookout. The seals at Ōhau Point and the stream where pups gather are an easy stop on the way north, and the crayfish stalls are open most days. Keep a safe distance from the seals, because they can be aggressive when they feel cornered.",
+      ], ["Book boat trips before you arrive", "Peninsula Walkway for a dry day", "Keep your distance from the seals"]),
+      sec("Where to camp", [
+        "Holiday parks in Kaikōura give you power, showers and a kitchen and are the easy choice, and they book out in summer and at Easter. The holiday parks guide explains what to look for. DOC runs a few campsites on the coast and in the hills behind, from simple sites to ones with toilets and water.",
+        "Freedom camping around Kaikōura is restricted, with a handful of areas for certified self-contained vehicles and most of the waterfront closed. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you are carrying on to Picton, the Marlborough hub lists the next set of sites.",
+      ], ["Book holiday parks in summer", "DOC campsites on the coast", "Check the council's pages on the day"]),
+      sec("Planning Christchurch to Kaikōura in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Kaikōura. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Destination Kaikōura: plan your trip", url: "https://www.kaikoura.co.nz/" },
+      { label: "Whale Watch Kaikōura", url: "https://www.whalewatch.co.nz/" },
+      { label: "DOC: Kaikōura area", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "christchurch-to-hanmer-springs-drive-guide",
+    title: "Christchurch to Hanmer Springs Road Trip: Route, Stops and Camping",
+    description: "Christchurch to Hanmer Springs by road: about 130 km and 1.5 to 2 hours via Waipara and Culverden, with thermal pools, forest walks, winter notes and where to camp.",
+    category: "Road trips",
+    region: "North Canterbury",
+    places: ["Christchurch", "Waipara", "Culverden", "Hanmer Springs"],
+    imageAlt: "Autumn trees beside a quiet street in the alpine village of Hanmer Springs with mountains behind",
+    related: ["christchurch-to-kaikoura-drive-guide", "arthurs-pass-camping-route", "picton-kaikoura-christchurch-route", "winter-driving-new-zealand-campervan", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "freedom-camping/north-canterbury", "huts/canterbury"],
+    intro:
+      "Christchurch to Hanmer Springs is about 130 km and takes 1.5 to 2 hours, which makes it the easiest alpine escape from the city and a very good weekend. The road runs north on State Highway 1 to Waipara, then inland on State Highway 7 and State Highway 7A to a village known for its thermal pools, forest walks and quiet streets. Below are the route, the stops, fuel, what to do and where to camp, with the winter notes that matter if you drive in the cold months.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Leave Christchurch on State Highway 1 north through Amberley to Waipara, then turn inland onto State Highway 7 across the plains to Culverden, where State Highway 7A branches off to Hanmer Springs. It is about 130 km and a little under 2 hours. The road is sealed and easy, with long straights and a few slower sections through the hills.",
+        "From Hanmer you can carry on across Jacks Pass to the Hurunui and Lewis Pass, a good choice if you are heading to the West Coast without going through Arthur's Pass. The pass roads can have snow or ice in winter, and chains may be required, so check the NZTA Journey Planner and read the winter driving guide before you set off.",
+      ], ["About 130 km and 1.5 to 2 hours", "Waipara then State Highway 7", "Snow and ice possible on the passes in winter"]),
+      sec("Stops on the way", [
+        "Waipara has cellar doors and cafes, and Amberley has a bakery and shops. Culverden is a quiet farming town with fuel and a few places to eat. The Waipara wine region is a good detour if you want to taste on the way, with a designated driver, and the Hurunui district has some pleasant back roads.",
+        "The drive itself is the attraction, with the Southern Alps coming into view as you head inland and the Hanmer Basin opening up at the last bend. Allow a quick break at Waikari or Culverden to stretch your legs.",
+      ], ["Waipara for wine and lunch", "Culverden for fuel", "Alps appear as you head inland"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Amberley", "About 45 km, 40 min", "Bakery and fuel"],
+          ["Waipara", "About 65 km, 55 min", "Wine and lunch"],
+          ["Culverden", "About 100 km, 1 hr 15", "Fuel and the turn-off"],
+          ["Hanmer Springs", "About 130 km, 1 hr 45", "Thermal pools and forest walks"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Christchurch, Amberley or Culverden. Hanmer Springs has a petrol station, a small supermarket and plenty of cafes and restaurants, though prices are higher than in the city. There are public toilets in Hanmer, Culverden and at the larger rest areas on the highway.",
+        "There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+      ], ["Fuel in Amberley or Culverden", "Hanmer prices are higher", "EV chargers in the larger towns"]),
+      sec("What to do in Hanmer Springs", [
+        "The thermal pools are the headline, with hot pools of different temperatures, sulphur pools and a spa, and they are open every day. Go early or after dinner to avoid the busiest times, and book ahead on weekends and school holidays.",
+        "Beyond the pools, the forest has short walks and mountain bike trails for every level, and the Conical Hill walk gives a view over the village and the basin in about an hour. In winter the nearby ski areas are a day trip, and in summer the Waiau River has rafting and jet boating nearby.",
+      ], ["Book the pools on weekends", "Conical Hill is about an hour", "Forest walks and bike trails for every level"]),
+      sec("Where to camp", [
+        "Holiday parks in Hanmer Springs give you power, showers and a kitchen and are within walking distance of the pools, and they book out in summer, at Easter and on winter weekends. The holiday parks guide explains what to look for. DOC runs campsites in the surrounding hills and towards Lewis Pass, from simple riverside sites to larger ones with toilets.",
+        "Freedom camping in Hanmer Springs itself is restricted, and the nearby reserves and roadsides are mostly closed to overnight stays. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you head up to Lewis Pass, the DOC sites there are a more reliable bet.",
+      ], ["Book holiday parks in summer and winter weekends", "DOC campsites towards Lewis Pass", "Check the council's pages on the day"]),
+      sec("Planning Christchurch to Hanmer Springs in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Hanmer Springs and Lewis Pass. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps when snow is possible. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Visit Hanmer Springs", url: "https://www.hanmersprings.co.nz/" },
+      { label: "Hurunui District: visit Hurunui", url: "https://www.visithurunui.co.nz/" },
+      { label: "DOC: Canterbury places to go", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
+  a({
+    slug: "christchurch-to-te-anau-drive-guide",
+    title: "Christchurch to Te Anau Road Trip: A Two-Day Drive to Fiordland",
+    description: "Christchurch to Te Anau by road: about 650 km and 8 to 8.5 hours via Lake Tekapo, the Lindis Pass and Queenstown, with a sensible overnight stop, fuel and camping at the Fiordland gateway.",
+    category: "Road trips",
+    region: "Fiordland",
+    places: ["Christchurch", "Lake Tekapo", "Twizel", "Cromwell", "Queenstown", "Te Anau"],
+    imageAlt: "Lake Te Anau stretching away to forested hills and mountains under a pale sky",
+    related: ["fiordland-camping-road-trip", "kepler-track-camping-2026-27", "south-island-two-week-road-trip", "christchurch-tekapo-aoraki-road-trip", "queenstown-glenorchy-camping", "new-zealand-driving-day-planner"],
+    hubs: ["camping/fiordland", "freedom-camping/te-anau", "camping/southland"],
+    intro:
+      "Christchurch to Te Anau is about 650 km and takes 8 to 8.5 hours of driving, which is too much for one comfortable day, so the sensible plan is two. The route runs inland through Lake Tekapo, Twizel and the Lindis Pass to Queenstown, then south past Lake Wakatipu to the Fiordland gateway. Below are the route and the best place to break the journey, the stops, fuel on the long stretches, and where to camp at Te Anau, the base for Milford Sound, Doubtful Sound and the Kepler Track.",
+    sections: [
+      sec("The route and where to split it", [
+        "Take State Highway 1 south to Temuka, then State Highway 79 and State Highway 8 inland through Geraldine, Fairlie, Burkes Pass, Lake Tekapo and Twizel, and over the Lindis Pass to Cromwell. From Cromwell, follow State Highway 6 to Queenstown and Frankton, then south beside Lake Wakatipu through Kingston and Mossburn to Te Anau. Christchurch to Queenstown is about 6 hours, and Queenstown to Te Anau is another 2 hours.",
+        "Splitting the drive is the key. Lake Tekapo or Twizel makes a good first night, about 3 to 4 hours out, with the stars and the lake at Tekapo or the mountain views at Twizel. Queenstown is the other option if you want a longer first day and a shorter second one. The Christchurch to Tekapo and Aoraki guide covers the first half in detail.",
+      ], ["About 650 km and 8 to 8.5 hours in all", "Christchurch to Queenstown about 6 hours", "Night at Tekapo or Twizel splits it well"]),
+      sec("Stops along the way", [
+        "Geraldine and Fairlie are the first coffee and bakery stops, and Burkes Pass is the gateway to the Mackenzie Country. Lake Tekapo has the Church of the Good Shepherd and a very good lakefront, and Lake Pūkaki is the stretch of road with the famous view of Aoraki Mount Cook on a clear day.",
+        "The Lindis Pass is the high point, with tawny tussock hills and a lookout. Cromwell has fruit stalls and the Central Otago orchards, and Queenstown is a good place to restock and refuel before the last leg. Between Kingston and Te Anau the road is quiet farmland, with only a few small towns, so plan your breaks.",
+      ], ["Pūkaki for the Aoraki view", "Lindis Pass is the high point", "Restock in Queenstown before the last leg"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Lake Tekapo", "About 230 km, 3 hr", "Lake, church and stars"],
+          ["Twizel", "About 265 km, 3 hr 30", "Fuel and a night's stay"],
+          ["Queenstown", "About 480 km, 6 hr", "Restock and fuel"],
+          ["Te Anau", "About 650 km, 8 hr", "Fiordland gateway"],
+        ],
+      }),
+      sec("Fuel, food and conditions", [
+        "Fill up at Fairlie, Tekapo or Twizel, and again at Cromwell or Queenstown. The stretch from Queenstown to Te Anau has a few places to stop but little in the way of choice, so top up in Queenstown and stock up for Fiordland there, where the supermarkets are bigger than in Te Anau. The resupply guide covers shopping for a campervan trip.",
+        "The Lindis Pass and the Mackenzie Country can have snow and ice in winter, and the highways occasionally close. Check the NZTA Journey Planner before you leave and read the winter driving guide if you are travelling in cold months. In summer the roads are busy with campervans, and the one-lane bridges and gravel sections need a bit of care.",
+      ], ["Fuel at Tekapo, Twizel and Queenstown", "Supermarkets are bigger in Queenstown", "Snow possible at the Lindis in winter"]),
+      sec("Te Anau and Fiordland", [
+        "Te Anau is the base for the Milford Road, which runs 120 km north to Milford Sound through the Eglinton Valley, the Homer Tunnel and some of the best scenery in the country. Milford is about 2 hours each way, so plan a full day, or take a cruise from Te Anau and let someone else drive. Doubtful Sound leaves from Manapōuri, 20 minutes from Te Anau, and takes a full day.",
+        "The Kepler Track is a Great Walk that starts at Te Anau, and the Kepler guide covers the huts and campsites and how to book. The Te Anau Glowworm Caves are across the lake, and the lakefront walk suits an evening. Weather in Fiordland is very wet and changeable, so check the forecast and allow a spare day.",
+      ], ["Milford is about 2 hours each way", "Doubtful Sound leaves from Manapōuri", "Book the Kepler Track early for summer"]),
+      sec("Where to camp at Te Anau", [
+        "Holiday parks in Te Anau give you power, showers and a kitchen and are the easy choice. They fill in summer and over school holidays, so book ahead. The holiday parks guide explains what to look for. DOC runs a series of simple campsites along the Milford Road and around the lake, many with toilets and water and some with a nightly fee.",
+        "Freedom camping around Te Anau is heavily restricted, and most of the lakefront and the roadside areas are closed to overnight stays. The Te Anau hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. The sandflies in Fiordland are fierce, so carry repellent and a mesh screen.",
+      ], ["Book holiday parks in summer", "DOC campsites along the Milford Road", "Sandflies are fierce"]),
+      sec("Planning Christchurch to Te Anau in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones along the Milford Road and around Te Anau. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Fiordland weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Fiordland National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/" },
+      { label: "Fiordland Tourism: plan your trip", url: "https://www.fiordland.org.nz/" },
+      { label: "Visit Mackenzie: getting here", url: "https://www.mackenzienz.com/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
