@@ -28595,6 +28595,299 @@
           }
         ]
       }
+    },
+    "10-day-campervan-itinerary-new-zealand": {
+      "title": "新西兰房车 10 天行程：South Island 环线",
+      "description": "新西兰房车 10 天行程：从 Christchurch 经 Tekapo、Queenstown、Fiordland、West Coast 和 Arthur's Pass 的 South Island 环线，附车程时间和露营地点。",
+      "region": "South Island",
+      "imageAlt": "一条公路穿越蓝天下 Lindis Pass 黄褐色草丛山丘",
+      "intro": "十天是让 South Island 环线不匆忙的最短时间。这份行程从 Christchurch 出发并回到 Christchurch，经 Lake Tekapo 和 Aoraki Mount Cook，越过 Lindis Pass 到 Wānaka 和 Queenstown，南下到 Te Anau 看 Fiordland，再翻越 Haast Pass 回到冰川区，最后穿越 Arthur's Pass 返程，有一天休息日，没有任何一段超过约五小时。以下是逐日计划、要先预订的夜晚，以及冬季要做的调整。",
+      "sections": [
+        {
+          "heading": "十天如何衔接",
+          "body": [
+            "这条环线约 1,800 公里，所以平均一天 180 公里，最长的路段是 Queenstown 到 Te Anau 并加上 Milford Road 支线的那段，以及从 Haast 到 Franz Josef 之后的 West Coast 那一天。从 Christchurch 出发并回到 Christchurch，可以避免单程费用，也让你从同一座机场乘机回家。在锁定天数之前，请先查看<a data-guide=\"new-zealand-driving-day-planner\">行车日</a>规划工具。",
+            "请预订无法更动的夜晚：夏季的 Te Anau、Franz Josef 和 Queenstown，以及如果你想住 White Horse Hill 的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>，就是 Aoraki Mount Cook。冬季山口可能需要雪链，Milford Road 也可能封闭，所以请预留一天备用，并阅读冬季驾驶指南。"
+          ],
+          "tips": [
+            "十天约 1,800 公里",
+            "从 Christchurch 出发并回到 Christchurch",
+            "Te Anau、Franz Josef 和 Queenstown 要提早预订"
+          ]
+        },
+        {
+          "heading": "第 1 到 4 天：Tekapo、Aoraki 和湖泊",
+          "body": [
+            "第 1 天：离开 Christchurch，开约 3 小时到 Lake Tekapo，途中可在 Geraldine 或 Fairlie 停留。傍晚在湖边欣赏星空。第 2 天：继续前往 Aoraki Mount Cook 走 Hooker Valley 步道，然后在 Twizel 或国家公园村过夜。Christchurch 到 Tekapo 和 Aoraki 指南涵盖这两天。",
+            "第 3 天：越过 Lindis Pass 到 Wānaka，约 3 小时，天气晴朗的话，可以沿湖散步或走 Roys Peak。第 4 天：开约一小时到 Queenstown，途中在 Arrowtown 停留。下午在镇上度过，并在<a data-guide=\"holiday-parks-new-zealand-guide\">度假营地</a>过夜。"
+          ],
+          "tips": [
+            "第 1 天：Tekapo",
+            "第 2 天：Aoraki 和 Hooker Valley",
+            "第 3 和 4 天：Wānaka，然后 Queenstown"
+          ]
+        },
+        {
+          "heading": "第 5 到 7 天：Fiordland 和 Haast Pass",
+          "body": [
+            "第 5 天：从 Queenstown 开约 2 小时到 Te Anau，下午欣赏湖泊和萤火虫洞。第 6 天：开 Milford Road 到 Milford Sound，单程约 2 小时，再回到 Te Anau。这是漫长的一天，所以请预订游船，而不是匆忙开完全程。Fiordland 露营公路旅行指南有详细信息。",
+            "第 7 天：开回 Queenstown 并继续到 Wānaka，然后向北翻越 Haast Pass 到海岸。Wānaka 到 Haast Pass 指南介绍了停靠点，这条路很慢但很美。这是整趟旅行最长的一天，所以要早点出发，并按时间在 Haast 或 Fox Glacier 过夜。"
+          ],
+          "tips": [
+            "第 5 天：Queenstown 到 Te Anau",
+            "第 6 天：Milford Sound 往返",
+            "第 7 天：翻越 Haast Pass 到海岸"
+          ],
+          "table": {
+            "caption": "环线一览，附上每天大约的车程时间。出发前请查看实时交通状况。",
+            "head": [
+              "天",
+              "路线",
+              "车程"
+            ],
+            "rows": [
+              [
+                "1",
+                "Christchurch 到 Lake Tekapo",
+                "约 3 小时"
+              ],
+              [
+                "2",
+                "Tekapo 到 Aoraki 和 Twizel",
+                "约 2 小时"
+              ],
+              [
+                "3",
+                "Twizel 到 Wānaka",
+                "约 2.5 小时"
+              ],
+              [
+                "4",
+                "Wānaka 到 Queenstown",
+                "约 1 小时"
+              ],
+              [
+                "5",
+                "Queenstown 到 Te Anau",
+                "约 2 小时"
+              ],
+              [
+                "6",
+                "Te Anau 到 Milford Sound 往返",
+                "约 4 小时"
+              ],
+              [
+                "7",
+                "Te Anau 经 Haast Pass 到 West Coast",
+                "约 6.5 小时"
+              ],
+              [
+                "8",
+                "冰川地带，短程车程",
+                "约 1 小时"
+              ],
+              [
+                "9",
+                "Franz Josef 到 Arthur's Pass",
+                "约 4 小时"
+              ],
+              [
+                "10",
+                "Arthur's Pass 到 Christchurch",
+                "约 2 小时"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "第 8 到 10 天：冰川和 Arthur's Pass",
+          "body": [
+            "第 8 天：把一天用在 Franz Josef 和 Fox Glacier。山谷步道很短，冰川在晴天看最清楚，预算允许的话可以乘直升机或参加导览行程。这也是休息日，所以车程要短。Christchurch 到 Franz Josef 指南从另一个方向介绍这条路。",
+            "第 9 天：往北经 Hokitika 和 Greymouth，然后翻越 Arthur's Pass，在观景点和小村停留。在 Arthur's Pass 过夜，那里的啄羊鹦鹉（kea）对你的装备很好奇。第 10 天：开约 2 小时回 Christchurch，在任何航班之前预留缓冲时间。Arthur's Pass 指南有详细信息。"
+          ],
+          "tips": [
+            "第 8 天是休息日",
+            "第 9 天：Hokitika 和 Arthur's Pass",
+            "第 10 天：预留缓冲后返程"
+          ]
+        },
+        {
+          "heading": "在哪里露营，以及要预订什么",
+          "body": [
+            "在 Tekapo、Wānaka、Queenstown、Te Anau 和 Franz Josef，度假营地是轻松的选择，有电力、淋浴和厨房，夏季会订满，所以如何提早预订请看度假营地指南。Aoraki、Milford Road 沿线以及 Coast 的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>更简单也更便宜，DOC 营地指南介绍了预订方式。",
+            "这些城镇大多限制自由露营，Queenstown Lakes 和 Westland 地区还有巡逻。在依赖某个地点之前，请先阅读<a data-guide=\"freedom-camping-rules-new-zealand\">自由露营规定</a>指南，并为 West Coast 和 Fiordland 携带防沙蝇驱虫剂。"
+          ],
+          "tips": [
+            "夏季要预订度假营地",
+            "DOC 营地更简单也更便宜",
+            "Coast 要带防沙蝇驱虫剂"
+          ]
+        },
+        {
+          "heading": "在 KiwiCamping 规划你的十天",
+          "body": [
+            "在 South Island 十天意味着有很多夜晚要安排，KiwiCamping 的 iPhone 地图会显示每一晚的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、山屋和度假营地。把停靠点依次排好之后，每一段都有距离，每个地点都有天气预报，这样你就能在确定之前，看出 Coast 的雨天或积雪的山口。这个应用是用来规划而不是导航，所以请用你的地图应用开车，并在 NZTA Journey Planner 查看封路信息。",
+            "DOC 营位的预订要通过 DOC 自己的系统。"
+          ],
+          "tips": [
+            "按行车顺序保存停靠点",
+            "每个停靠点的天气预报",
+            "导航请用地图应用"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: plan your trip"
+        },
+        {
+          "label": "DOC: Aoraki/Mount Cook National Park"
+        },
+        {
+          "label": "NZTA Journey Planner (highway conditions and EV chargers)"
+        }
+      ],
+      "priceTable": null
+    },
+    "one-week-campervan-itinerary-new-zealand": {
+      "title": "新西兰房车一周行程：North Island 环线",
+      "description": "新西兰房车 7 天行程：从 Auckland 经 Waitomo、Rotorua 和 Taupō 的 North Island 环线，车程短、有休息时间，并说明每晚在哪里露营。",
+      "region": "North Island",
+      "imageAlt": "Wai-O-Tapu 的 Champagne Pool，蒸汽下橙色边缘的地热池",
+      "intro": "只要选一座岛、把车程控制得短，一周就足以看到新西兰相当大的一部分。这份 7 天房车行程是从 Auckland 出发的 North Island 环线：洞穴和 Hobbiton、Rotorua 的地热公园、Lake Taupō、Bay of Plenty 海岸，以及在 Coromandel 的最后一晚，每天开车不超过约四小时。以下是逐日计划、如何选车和取车地点、要先预订什么，以及 South Island 版本。",
+      "sections": [
+        {
+          "heading": "出发前：选一座岛",
+          "body": [
+            "七天在新西兰很短，最大的错误就是想跨越 <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a>。光是坐渡轮就会吃掉大半天，而 South Island 至少需要十天才不会匆忙。如果你在 Auckland 降落，第一周请选 North Island，把 South Island 留给十天以上的旅程。",
+            "请在同一个地点取车和还车以避免单程费用，并在出发前预订车辆以及第一晚和最后一晚。房车预算指南显示了一周的花费，<a data-guide=\"new-zealand-driving-day-planner\">行车日</a>规划工具则帮助你确认每一天对你的车来说是否合理。"
+          ],
+          "tips": [
+            "一周旅行只选一座岛",
+            "在取车的地方还车",
+            "提早预订第一晚和最后一晚"
+          ]
+        },
+        {
+          "heading": "第 1 到 3 天：Waitomo、Hobbiton 和 Rotorua",
+          "body": [
+            "第 1 天：在 Auckland 取车、采买补给，穿过 Waikato 往南开约两小时到 Hobbiton。请提前预订导览，并在 Matamata 附近过夜。第 2 天：前往 Waitomo 参观洞穴，需要几个小时，然后开约 2 小时到 Rotorua，在有温泉池的<a data-guide=\"holiday-parks-new-zealand-guide\">度假营地</a>过夜。Auckland 到 Waitomo 和 Hobbiton 指南有这两天的详细信息。",
+            "第 3 天：在 Rotorua 度过一整天。地热公园、红杉林和湖畔都值得花时间，晚上的毛利文化体验也值得预订。请把地热区的围栏视为明确的界线，如果天气转湿，可以在 Rotorua 多住一晚。"
+          ],
+          "tips": [
+            "第 1 天：Hobbiton，夜宿 Matamata",
+            "第 2 天：Waitomo 洞穴，夜宿 Rotorua",
+            "第 3 天：在 Rotorua 的完整一天"
+          ]
+        },
+        {
+          "heading": "第 4 到 7 天：Taupō、海岸和 Coromandel",
+          "body": [
+            "第 4 天：往南开一小时到 Taupō，欣赏湖泊、Huka Falls 并泡温泉，在那里过夜。Auckland 到 Taupō 指南介绍了停靠点和露营规定。第 5 天：往东北到 Tauranga 和 Mount Maunganui，约两小时，日落时登上 Mauao。",
+            "第 6 天：经 Waihi 和 Karangahake Gorge 前往 Coromandel，在 Hahei 或 Whitianga 附近过夜。第 7 天：如果可以进入，就走到 Cathedral Cove，然后开约三小时回 Auckland，在任何航班之前预留缓冲时间。Coromandel 到 Rotorua 指南有更多关于这座半岛的信息。"
+          ],
+          "tips": [
+            "第 4 天：Taupō 和 Huka Falls",
+            "第 5 天：Tauranga 和 Mauao",
+            "第 6 和 7 天：Coromandel 和返程"
+          ],
+          "table": {
+            "caption": "环线一览，附上每天大约的车程时间。出发前请查看实时交通状况。",
+            "head": [
+              "天",
+              "路线",
+              "车程"
+            ],
+            "rows": [
+              [
+                "1",
+                "Auckland 到 Matamata（Hobbiton）",
+                "约 2 小时"
+              ],
+              [
+                "2",
+                "Matamata 到 Waitomo 到 Rotorua",
+                "约 3 小时"
+              ],
+              [
+                "3",
+                "Rotorua，不开车",
+                "仅限当地"
+              ],
+              [
+                "4",
+                "Rotorua 到 Taupō",
+                "约 1 小时"
+              ],
+              [
+                "5",
+                "Taupō 到 Tauranga",
+                "约 2.5 小时"
+              ],
+              [
+                "6",
+                "Tauranga 到 Coromandel",
+                "约 2.5 小时"
+              ],
+              [
+                "7",
+                "Coromandel 到 Auckland",
+                "约 3 小时"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "每晚睡哪里",
+          "body": [
+            "在 Rotorua、Taupō 和 Tauranga，<a data-guide=\"holiday-parks-new-zealand-guide\">度假营地</a>是轻松的选择，有电力、淋浴和厨房，夏季和长周末会订满，所以每一处都要预订；我们的度假营地指南介绍了电力营位包含什么。在 Coromandel，Hahei 附近的东海岸营地在圣诞节和一月会订满，通常提前几个月预订。",
+            "自由露营（freedom camping）比人们想象的更受限，这条环线上城镇附近的热门地点大多已关闭或受限。<a data-guide=\"freedom-camping-rules-new-zealand\">自由露营规定</a>指南和 green warrant 指南说明了适用的规定，各议会自己的地图才是最终依据。没有通过自给式认证的车辆，选择非常少。"
+          ],
+          "tips": [
+            "夏季每家度假营地都要预订",
+            "Coromandel 的海滩在圣诞节会订满",
+            "自由露营要确认各议会的地图"
+          ]
+        },
+        {
+          "heading": "South Island 版本",
+          "body": [
+            "如果你在 Christchurch 降落，同样的一周构想在南部也行得通。第 1 和 2 天开到 Lake Tekapo 和 Aoraki Mount Cook，第 3 和 4 天越过 Lindis Pass 到 Wānaka 和 Queenstown，第 5 天一日游 Milford Sound 或 Te Anau，然后用两天开回 Christchurch。Christchurch 到 Tekapo 和 Aoraki 指南以及 Christchurch 到 Te Anau 指南涵盖了其中大部分。",
+            "South Island 的车程更长，天气也更不留情，所以如果可以，请选十天版本。10 天房车行程加入了 West Coast 和 Arthur's Pass，而不用赶行程。"
+          ],
+          "tips": [
+            "先从 Christchurch 到 Tekapo 和 Aoraki",
+            "越过 Lindis Pass 到 Wānaka 和 Queenstown",
+            "可以的话请花十天"
+          ]
+        },
+        {
+          "heading": "在 KiwiCamping 规划你的一周",
+          "body": [
+            "对于 North Island 北部的一周，KiwiCamping 把从 Coromandel 到 Taupō 的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>、山屋和度假营地放在同一张 iPhone 地图上。依次加入每一晚，行程视图会显示它们之间的公里数和每个停靠点的天气预报，足以判断该先走 Hahei 那天还是 Rotorua 那天。需要逐向导航和道路施工信息时，请依靠你的地图应用和 NZTA Journey Planner。",
+            "DOC 营地在 DOC 的网站预订，每家<a data-guide=\"holiday-parks-new-zealand-guide\">度假营地</a>则直接处理自己的预订。"
+          ],
+          "tips": [
+            "按行车顺序保存停靠点",
+            "每个停靠点的天气预报",
+            "导航请用地图应用"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: plan your trip"
+        },
+        {
+          "label": "DOC: places to go in the Central North Island"
+        },
+        {
+          "label": "NZTA Journey Planner (highway conditions and EV chargers)"
+        }
+      ],
+      "priceTable": null
     }
   }
 }

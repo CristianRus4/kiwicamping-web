@@ -38,7 +38,7 @@ export const cityTripArticles: Article[] = [
         "Take care on the left, with the narrow lanes in older suburbs and the parked cars on both sides. The left-side driving guide and the campervan road rules guide cover the basics. After Auckland, the road trip to the Bay of Islands and the Coromandel loop are the two easy ways north and south.",
       ], ["Allow double the time in the peak", "Fill up in the suburbs", "Next stop: Northland or the Coromandel"]),
       s("Planning your three days in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save a base and a backup near the city, add the stops you choose to a trip in order, and the app shows the distance between each pair of stops and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so use your maps app for the motorways.",
+        "Open KiwiCamping on your iPhone and the map shows DOC campsites, huts and holiday parks around the city, with filters for campervan access and facilities. Pin one base and one fallback, string the stops you choose into a trip, and each leg gets a distance and each place a forecast. Navigation is not part of it, so keep your maps app running for the motorways.",
         "Bookings for council and DOC campgrounds stay on their own booking pages. Free to download, with in-app purchases.",
       ], ["Save a base and a backup", "Forecast at each stop", "Book council campgrounds ahead"], undefined, true),
     ],
@@ -86,7 +86,7 @@ export const cityTripArticles: Article[] = [
         "North of the city, State Highway 1 runs past the Kāpiti Coast to Ōtaki and Levin, and the drive to Napier is covered in the Wellington to Napier guide. The Auckland to Wellington guide covers the full length of the island.",
       ], ["Book the ferry early", "Check in an hour before", "Keep a spare day for weather"]),
       s("Planning your three days in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save a base outside the city and a backup, add the stops to a trip in order, and the app shows the distance between each pair of stops and a forecast at every place, which helps in a windy city. It does not give turn-by-turn directions or live traffic, so use your maps app for the roads.",
+        "KiwiCamping puts DOC campsites, huts and holiday parks on a map you can filter for campervan access and facilities, which suits an iPhone in the cabin. Keep a base outside the city and a spare, order the stops as a trip, and you get the gap between each pair plus a forecast per place, handy when wind decides the day. Routing and live traffic live elsewhere, so lean on a maps app for the roads.",
         "DOC and council bookings stay on their own booking pages. Free to download, with in-app purchases.",
       ], ["Save a base outside the city", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
     ],
@@ -134,8 +134,8 @@ export const cityTripArticles: Article[] = [
         "Watch for sheep and cattle on the rural roads of the peninsula and the coast, and slow down for blind corners. The wildlife and livestock road safety guide has the basics.",
       ], ["Steep and narrow streets", "Frost in winter", "Livestock on rural roads"]),
       s("Planning your three days in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Dunedin and the Otago coast, with filters for campervan access and facilities. Save a base and a backup, add them to a trip in order, and the app shows the distance between each pair of stops and a forecast for every place, which helps decide which day suits the peninsula. It does not give turn-by-turn directions or live traffic, so use your maps app for the roads.",
-        "Bookings for DOC sites stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Around Dunedin and the Otago coast, KiwiCamping lists DOC campsites, huts and holiday parks on its iPhone map, and you can filter by campervan access and facilities. Add a base and a backup to a trip in the order you will drive them, and the app works out the distance between each pair and shows a forecast for every place, which helps you pick the peninsula day. There are no spoken directions or traffic updates, so a maps app still handles the roads.",
+        "Anything you book at a DOC site is done on the DOC website, as the app only shows the places. The download is free, with in-app purchases.",
       ], ["Save a base and a backup", "Forecast decides the peninsula day", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -182,8 +182,8 @@ export const cityTripArticles: Article[] = [
         "Winter mornings can be frosty on the roads around the lakes, and the sulphur smell is strong in the city but harmless. Check the NZTA Journey Planner for road conditions before you leave.",
       ], ["About 230 km from Auckland", "Check for frost in winter", "Sulphur smell is harmless"]),
       s("Planning your three days in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Rotorua and the lakes, with filters for campervan access and facilities. Save a base and a backup, add them to a trip in order, and the app shows the distance between each pair of stops and a forecast for every place. It does not give turn-by-turn directions or live traffic, so use your maps app for the roads.",
-        "Bookings for DOC sites stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "KiwiCamping covers Rotorua and the lakes with DOC campsites, huts and holiday parks, filterable for campervan access and facilities, in an iPhone app. Save a base and a backup, line them up as a trip, and you will see how far apart each pair sits along with a forecast at every place. It stops short of directions and live traffic, so use your maps app for the roads.",
+        "Rotorua DOC sites are booked on DOC's own pages, not in the app, which costs nothing to download and has in-app purchases.",
       ], ["Save a base and a backup", "Forecast at each stop", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -230,7 +230,7 @@ export const cityTripArticles: Article[] = [
         "From here you can go on to Rakiura Stewart Island by ferry from Bluff, or head to Te Anau and Fiordland. Holiday parks in Invercargill and Bluff are easy to book, and freedom camping is limited, as the freedom camping in Southland guide explains.",
       ], ["Stirling Point signpost at Bluff", "Oysters in season", "Ferry to Rakiura from Bluff"]),
       s("Planning the drive in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this coast, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so keep NZTA's Journey Planner open for road conditions.",
+        "The iPhone app KiwiCamping maps DOC campsites, huts and holiday parks along this coast and filters them for campervan access and facilities. Favourite the places you like, drop them into a trip as ordered stops, and it reports the distance between neighbours and a forecast at each one. Road conditions are outside its scope, so keep NZTA's Journey Planner open while you drive.",
         "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], undefined, true),
     ],
@@ -278,8 +278,8 @@ export const cityTripArticles: Article[] = [
         "In summer both roads are busy at the weekends and over the holidays, and holiday parks in Nelson, Kaikōura and Blenheim book out, so reserve ahead. The two-week South Island road trip guide shows how to fit the loop into a longer trip.",
       ], ["Inland out, coast back", "Three or four days", "Book holiday parks ahead in summer"]),
       s("Planning the drive in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along both routes, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list, which helps you choose between the pass and the coast. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "For both routes, KiwiCamping shows DOC campsites, huts and holiday parks on a map for iPhone, with campervan access and facilities as filters. Add the places you like to a trip in driving order to see each leg's distance and a forecast per stop, which is useful when you are weighing the pass against the coast. Closures are not tracked, so check NZTA before you commit.",
+        "Reserve DOC campsites and huts on DOC's own booking pages, because the app does not take bookings. It is free to download, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast decides the route", "Check NZTA for closures"], undefined, true),
     ],
     faq: [
@@ -326,8 +326,8 @@ export const cityTripArticles: Article[] = [
         "Freedom camping in Marlborough is limited to a few places and needs a certified self-contained vehicle, and the freedom camping in Marlborough guide lists the rules. Holiday parks in Picton and the Sounds are the easier choice for a night before the ferry.",
       ], ["Ferry vehicles need booking", "Queen Charlotte Track for walkers", "Freedom camping is limited"]),
       s("Planning the drive in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this coast, with filters for campervan access and facilities. Save the ones you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Down this coast, KiwiCamping lists DOC campsites, huts and holiday parks, and its iPhone filters narrow them to campervan access and facilities. Shortlist what appeals, arrange the stops into a trip, and the app gives you the distance for every pair of neighbours and a forecast at each place. It does not track closures or give directions, so NZTA remains the source for road status.",
+        "The app leaves DOC reservations to DOC's own booking pages. Downloading it is free, with in-app purchases on top.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], undefined, true),
     ],
     faq: [
@@ -374,8 +374,8 @@ export const cityTripArticles: Article[] = [
         "On a wet day, drop to the lakeside paths, visit the museums and cafes in town or head to a drier part of the region. The wet weather camping guide has advice on choosing a safe site, and a holiday park with a camp kitchen is the best option.",
       ], ["Hāwea is quieter", "Makarora for the Haast Pass", "Camp kitchens for a wet day"]),
       s("Using KiwiCamping to pick a base", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Wānaka, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the Roys Peak day. It does not give turn-by-turn directions or live traffic.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Around Wānaka, KiwiCamping maps DOC campsites, huts and holiday parks on an iPhone, with filters for campervan access and facilities. Choose a base and a backup, give the trip dates, and each place gets a forecast, which makes picking the Roys Peak day easier. Directions and live traffic are not included.",
+        "Book any DOC site through DOC's booking pages; the app helps you find places and plan the order. Free to download, with in-app purchases.",
       ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -422,8 +422,8 @@ export const cityTripArticles: Article[] = [
         "A holiday park with a kitchen and a lounge is the best base for a wet day. On the way from Auckland or Wellington, the town of Taihape and the Desert Road have their own stops, covered in the Auckland to Wellington drive guide.",
       ], ["Taupō for a wet day", "Camp kitchens help", "Keep a spare day"]),
       s("Using KiwiCamping to pick a base", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Tongariro National Park, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the crossing day. It does not give turn-by-turn directions or live traffic.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "KiwiCamping, an iPhone app, maps DOC campsites, huts and holiday parks near Tongariro National Park, and you can filter by campervan access and facilities. Set a base and a fallback on a dated trip and read the forecast at each, which settles which day suits the crossing. It leaves out directions and live traffic.",
+        "Reservations at DOC sites are made on DOC's booking pages, not in the app. The download is free, with in-app purchases.",
       ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -470,8 +470,8 @@ export const cityTripArticles: Article[] = [
         "Bring warm clothes, a red torch if you have one, and use only red light at the campground so as not to ruin other people's night vision. A clear winter evening is cold but spectacular.",
       ], ["Dark Sky Reserve", "Use red light at the campground", "Dress warmly"]),
       s("Using KiwiCamping to pick a base", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Aoraki Mount Cook, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place, which helps you choose the walk day. It does not give turn-by-turn directions or live traffic.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Near Aoraki Mount Cook, KiwiCamping marks DOC campsites, huts and holiday parks for iPhone users, with campervan access and facilities as filters. Put a base and a backup on a trip with dates and you can compare the forecast at each, then choose your walk day. Turn-by-turn directions and traffic are not part of the app.",
+        "To book a DOC site, use DOC's own booking pages. The app itself costs nothing to download and offers in-app purchases.",
       ], ["Save a base and a backup", "Forecast picks the walk day", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -518,8 +518,8 @@ export const cityTripArticles: Article[] = [
         "Before and after the ride, holiday parks in Golden Bay and Karamea give you a hot shower and power. Freedom camping is limited in the district, as the freedom camping in Tasman guide explains, so a booked site is easier.",
       ], ["Reach the hut before dark", "Check river levels and alerts", "Holiday parks at each end"]),
       s("Planning the ride in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Golden Bay and Karamea, with filters for campervan access and facilities. Save the huts and campsites you plan to use, add them to a trip with dates, and the app shows a forecast for each place. It does not give turn-by-turn directions or live traffic.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Golden Bay and Karamea are covered by KiwiCamping on iPhone, showing DOC campsites, huts and holiday parks that filter by campervan access and facilities. Add the huts and camps you intend to use to a dated trip and the app attaches a forecast to each. It does not give directions or live traffic.",
+        "Huts and campsites on DOC land are booked through DOC's own pages, never in the app. Free to download, with in-app purchases.",
       ], ["Save the huts you book", "Forecast at each place", "Book DOC sites on DOC's site"], undefined, true),
     ],
     faq: [
@@ -566,8 +566,8 @@ export const cityTripArticles: Article[] = [
         "The trail pairs well with a day in the Abel Tasman National Park, a water taxi along the coast, and a day in Golden Bay. The Nelson, Abel Tasman and Golden Bay guide plans the area, and the Heaphy Track by bike guide covers a harder ride nearby in the cooler months.",
       ], ["Six hours from Christchurch", "Pair it with the Abel Tasman", "Heaphy Track for a harder ride"]),
       s("Planning the ride in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Nelson and Tasman, with filters for campervan access and facilities. Save a base and a backup, add them to a trip with dates, and the app shows a forecast at each place. It does not give turn-by-turn directions or live traffic, so use the trail's own map for the route.",
-        "Bookings for DOC sites stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "KiwiCamping for iPhone covers Nelson and Tasman, mapping DOC campsites, huts and holiday parks with campervan access and facilities filters. Add a base and a backup to a dated trip to see a forecast per place. It has no turn-by-turn directions or live traffic, so rely on the trail's own map for the route.",
+        "The app does not take DOC bookings, so reserve on DOC's booking pages. It is free to download, with in-app purchases.",
       ], ["Save a base and a backup", "Forecast at each place", "Use the trail's map for the route"], undefined, true),
     ],
     faq: [
@@ -614,8 +614,8 @@ export const cityTripArticles: Article[] = [
         "Respect the land, take away your rubbish and keep noise down at night, as many sites are on working farms with livestock. The responsible camping guide covers the basics.",
       ], ["Check road access for a van", "Bring warm clothes and a torch", "Respect working farms"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities, and it shows holiday parks with their bookable stays. Save the places you like, add them to a trip with dates, and the app shows a forecast at each stop. It does not list private glamping sites, so look at the operators' own pages for those.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "On iPhone, KiwiCamping maps DOC campsites, huts and holiday parks, filters them for campervan access and facilities, and shows holiday parks with their bookable stays. Save the places you like, add them to a dated trip, and each stop gets a forecast. Private glamping sites are not listed, so look at the operators' own pages for those.",
+        "Holiday park stays can be booked through the listing, while DOC bookings stay on DOC's own pages. Free to download, with in-app purchases.",
       ], ["Save holiday parks and huts", "Forecast at each stop", "Private glamping is booked with the operator"], undefined, true),
     ],
     faq: [

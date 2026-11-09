@@ -14863,7 +14863,7 @@
           "heading": "Planlegg usertifiserte netter i KiwiCamping",
           "body": [
             "KiwiCamping, iPhone-appen vi lager, lister DOC-ens campingplasser med avgifter, campervantilgang, bestillingskrav og hunderegler samt DOC-ens <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-meldinger distrikt for distrikt, slik at du kan se hvor et usertifisert kjøretøy kan bli på verneområdegrunn. Filtrer på kostnad for å finne gratis og billige DOC-campingplasser, legg til holiday parks og lagre dem i en reise med datoer, notater og ruteavstanden mellom stoppene.",
-            "Uten signal har du fortsatt de lagrede stedsopplysningene, selv om kart, ruter, vær og bilder bare lastes med en tilkobling. Appen inneholder ikke kart over <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunale vedtekter</a>, så sjekk kommunens side for dens utpekte steder og betrakt skiltet ved inngangen som siste ord. Den fungerer på alle iPhone-modeller med iOS 26 eller nyere."
+            "Uten signal har du fortsatt de lagrede stedsopplysningene, selv om kart, ruter, vær og bilder bare lastes med en tilkobling. Appen inneholder ikke kart over <a data-guide=\"camping-rules-local-councils-new-zealand\">kommunale vedtekter</a>, så sjekk kommunens side for dens utpekte steder og betrakt skiltet ved inngangen som siste ord. Den fungerer på alle iPhone med iOS 26 eller nyere."
           ],
           "tips": [
             "DOC-campingplasser med campervantilgang",
@@ -28598,6 +28598,299 @@
           }
         ]
       }
+    },
+    "10-day-campervan-itinerary-new-zealand": {
+      "title": "10 dagers campervan-reiserute for New Zealand: en rundtur på South Island",
+      "description": "En 10 dagers campervan-reiserute for New Zealand: en rundtur på South Island fra Christchurch gjennom Tekapo, Queenstown, Fiordland, West Coast og Arthur's Pass, med kjøretider og hvor du kan campe.",
+      "region": "South Island",
+      "imageAlt": "En vei over gyllenbrune tuegresskoller i Lindis Pass under en blå himmel",
+      "intro": "Ti dager er den korteste tiden som får en rundtur på South Island til å føles uhastet. Denne reiseruten starter og slutter i Christchurch og går gjennom Lake Tekapo og Aoraki Mount Cook, over Lindis Pass til Wānaka og Queenstown, ned til Te Anau for Fiordland, tilbake over Haast Pass til breene og over Arthur's Pass hjem, med én hviledag og ingen etappe på mer enn omtrent fem timer. Nedenfor er planen dag for dag, nettene du bør booke først og endringene du bør gjøre om vinteren.",
+      "sections": [
+        {
+          "heading": "Hvordan de ti dagene henger sammen",
+          "body": [
+            "Rundturen er omtrent 1 800 km, så en gjennomsnittsdag er 180 km, og de lengste etappene er turen fra Queenstown til Te Anau med avstikkeren langs Milford Road og dagen på West Coast fra Haast til Franz Josef og videre. Å starte og slutte i Christchurch unngår et enveisgebyr og gir deg hjemreisen fra samme flyplass. Sjekk planleggeren for <a data-guide=\"new-zealand-driving-day-planner\">kjøredager</a> før du låser dagene.",
+            "Book nettene du ikke kan flytte: Te Anau, Franz Josef og Queenstown om sommeren og Aoraki Mount Cook hvis du vil ha <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassen</a> ved White Horse Hill. Om vinteren kan passene kreve snøkjetting og Milford Road kan stenge, så bygg inn en ekstra dag og les guiden om vinterkjøring."
+          ],
+          "tips": [
+            "Omtrent 1 800 km på ti dager",
+            "Start og slutt i Christchurch",
+            "Book Te Anau, Franz Josef og Queenstown tidlig"
+          ]
+        },
+        {
+          "heading": "Dag 1 til 4: Tekapo, Aoraki og innsjøene",
+          "body": [
+            "Dag 1: Forlat Christchurch og kjør til Lake Tekapo, omtrent 3 timer, med et stopp ved Geraldine eller Fairlie underveis. Tilbring kvelden ved innsjøen og stjernene. Dag 2: Fortsett til Aoraki Mount Cook for Hooker Valley-turen, og overnatt deretter i Twizel eller i nasjonalparkens landsby. Guiden Christchurch til Tekapo og Aoraki dekker begge dagene.",
+            "Dag 3: Kjør over Lindis Pass til Wānaka, omtrent 3 timer, og gå langs innsjøen eller opp til Roys Peak hvis været er klart. Dag 4: Kjør til Queenstown, omtrent en time, med et stopp i Arrowtown. Bruk ettermiddagen i byen og overnatt på en <a data-guide=\"holiday-parks-new-zealand-guide\">bobilpark</a>."
+          ],
+          "tips": [
+            "Dag 1: Tekapo",
+            "Dag 2: Aoraki og Hooker Valley",
+            "Dag 3 og 4: Wānaka, deretter Queenstown"
+          ]
+        },
+        {
+          "heading": "Dag 5 til 7: Fiordland og Haast Pass",
+          "body": [
+            "Dag 5: Kjør fra Queenstown til Te Anau, omtrent 2 timer, og bruk ettermiddagen på å se innsjøen og lysmark-grottene. Dag 6: Kjør Milford Road, omtrent 2 timer hver vei, til Milford Sound og vend tilbake til Te Anau. Det er en lang dag, så book et cruise i stedet for å kjøre hele strekningen i all hast. Guiden om campingroadtrip i Fiordland har detaljene.",
+            "Dag 7: Kjør tilbake til Queenstown og videre til Wānaka og deretter nordover over Haast Pass til kysten. Guiden Wānaka til Haast Pass dekker stoppene, og veien er langsom, men vakker. Det er turens lengste dag, så start tidlig og overnatt i Haast eller ved Fox Glacier, avhengig av hva tidsplanen din tillater."
+          ],
+          "tips": [
+            "Dag 5: Queenstown til Te Anau",
+            "Dag 6: Milford Sound og tilbake",
+            "Dag 7: Haast Pass til kysten"
+          ],
+          "table": {
+            "caption": "Rundturen i oversikt med omtrentlig kjøretid for hver dag. Sjekk live trafikk før du kjører.",
+            "head": [
+              "Dag",
+              "Rute",
+              "Kjøring"
+            ],
+            "rows": [
+              [
+                "1",
+                "Christchurch til Lake Tekapo",
+                "Omtrent 3 timer"
+              ],
+              [
+                "2",
+                "Tekapo til Aoraki og Twizel",
+                "Omtrent 2 timer"
+              ],
+              [
+                "3",
+                "Twizel til Wānaka",
+                "Omtrent 2,5 timer"
+              ],
+              [
+                "4",
+                "Wānaka til Queenstown",
+                "Omtrent 1 time"
+              ],
+              [
+                "5",
+                "Queenstown til Te Anau",
+                "Omtrent 2 timer"
+              ],
+              [
+                "6",
+                "Te Anau til Milford Sound og tilbake",
+                "Omtrent 4 timer"
+              ],
+              [
+                "7",
+                "Te Anau til West Coast via Haast Pass",
+                "Omtrent 6,5 timer"
+              ],
+              [
+                "8",
+                "Breland, korte kjøreturer",
+                "Omtrent 1 time"
+              ],
+              [
+                "9",
+                "Franz Josef til Arthur's Pass",
+                "Omtrent 4 timer"
+              ],
+              [
+                "10",
+                "Arthur's Pass til Christchurch",
+                "Omtrent 2 timer"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Dag 8 til 10: breene og Arthur's Pass",
+          "body": [
+            "Dag 8: Bruk dagen på Franz Josef og Fox Glacier. Dalturene er korte, og breene sees best på en klar dag, med en helikopter- eller guidet tur hvis budsjettet tillater det. Det er også hviledagen, så hold kjøringen kort. Guiden Christchurch til Franz Josef viser veien fra den andre retningen.",
+            "Dag 9: Kjør nordover gjennom Hokitika og Greymouth og deretter over Arthur's Pass, med stopp ved utsiktspunktene og i landsbyen. Overnatt i Arthur's Pass, der kea-papegøyene er nysgjerrige på utstyret ditt. Dag 10: Kjør tilbake til Christchurch, omtrent 2 timer, med en buffer før eventuell flyging. Guiden om Arthur's Pass har detaljene."
+          ],
+          "tips": [
+            "Dag 8 er hviledagen",
+            "Dag 9: Hokitika og Arthur's Pass",
+            "Dag 10: hjem med en buffer"
+          ]
+        },
+        {
+          "heading": "Hvor du kan campe og hva du bør booke",
+          "body": [
+            "Bobilparker er det enkle valget i Tekapo, Wānaka, Queenstown, Te Anau og Franz Josef, med strøm, dusjer og kjøkken, og de blir utsolgt om sommeren, så se guiden om bobilparker om å reservere tidlig. <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a> ved Aoraki, langs Milford Road og på Coast er enklere og billigere, og guiden om DOC-campingplasser dekker booking.",
+            "Freedom camping er begrenset i de fleste av disse byene, og områdene Queenstown Lakes og Westland patruljeres. Les guiden om <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping-regler</a> før du stoler på et sted, og ta med myggmiddel mot sandfluer til West Coast og Fiordland."
+          ],
+          "tips": [
+            "Book bobilparker om sommeren",
+            "DOC-plasser er enklere og billigere",
+            "Middel mot sandfluer til Coast"
+          ]
+        },
+        {
+          "heading": "Planlegg dine ti dager i KiwiCamping",
+          "body": [
+            "Ti dager på South Island betyr mange netter å få på plass, og KiwiCampings iPhone-kart viser <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplassene</a>, hyttene og bobilparkene for hver eneste av dem. Når stoppene er i rekkefølge, får hver etappe en avstand og hvert sted en værmelding, og slik oppdager du en våt dag på Coast eller et snødekt pass før du forplikter deg. Appen planlegger snarere enn å navigere, så kjør med kartappen din og sjekk stengninger i NZTA Journey Planner.",
+            "Reservasjoner for DOC-plasser går gjennom DOCs eget system."
+          ],
+          "tips": [
+            "Lagre stopp i kjørerekkefølge",
+            "Værmelding ved hvert stopp",
+            "Bruk kartappen din til veibeskrivelse"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: plan your trip"
+        },
+        {
+          "label": "DOC: Aoraki/Mount Cook National Park"
+        },
+        {
+          "label": "NZTA Journey Planner (highway conditions and EV chargers)"
+        }
+      ],
+      "priceTable": null
+    },
+    "one-week-campervan-itinerary-new-zealand": {
+      "title": "1 ukes campervan-reiserute for New Zealand: en rundtur på North Island",
+      "description": "En 7 dagers campervan-reiserute for New Zealand: en rundtur på North Island fra Auckland gjennom Waitomo, Rotorua og Taupō med korte kjøreturer, hviletid og hvor du kan campe hver natt.",
+      "region": "North Island",
+      "imageAlt": "Champagne Pool ved Wai-O-Tapu, et geotermisk basseng med oransje kant under damp",
+      "intro": "En uke er nok til å se en god del av New Zealand hvis du velger én øy og holder kjøreturene korte. Denne 7 dagers campervan-reiseruten er en rundtur på North Island fra Auckland: grotter og Hobbiton, Rotoruas geotermiske parker, Lake Taupō, kysten ved Bay of Plenty og en siste natt på Coromandel, uten noen dag på mer enn omtrent fire timer bak rattet. Nedenfor er planen dag for dag, hvordan du velger et kjøretøy og et hentested, hva du bør booke først og versjonen for South Island.",
+      "sections": [
+        {
+          "heading": "Før du reiser: velg én øy",
+          "body": [
+            "Sju dager er kort tid på New Zealand, og den største feilen er å prøve å krysse <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a>. Ferjedagen alene spiser det meste av en dag, og South Island krever minst ti dager for å føles uhastet. Velg North Island for din første uke hvis du lander i Auckland, og spar South Island til en tur på ti dager eller mer.",
+            "Hent og lever kjøretøyet på samme sted for å unngå et enveisgebyr, og book kjøretøyet og din første og siste natt før du reiser hjemmefra. Budsjettguiden for campervans viser hva en uke koster, og planleggeren for <a data-guide=\"new-zealand-driving-day-planner\">kjøredager</a> hjelper deg å sjekke at hver dag er realistisk for kjøretøyet ditt."
+          ],
+          "tips": [
+            "Én øy for en ukes tur",
+            "Lever kjøretøyet der du hentet det",
+            "Book første og siste natt tidlig"
+          ]
+        },
+        {
+          "heading": "Dag 1 til 3: Waitomo, Hobbiton og Rotorua",
+          "body": [
+            "Dag 1: Hent kjøretøyet i Auckland, proviantér og kjør sørover gjennom Waikato til Hobbiton, omtrent to timer unna. Book omvisningen i forveien og overnatt rundt Matamata. Dag 2: Kjør over til Waitomo for grottene, som tar et par timer, og deretter til Rotorua, omtrent 2 timer, for en natt på en <a data-guide=\"holiday-parks-new-zealand-guide\">bobilpark</a> med termiske bad. Guiden Auckland til Waitomo og Hobbiton har detaljene for disse to dagene.",
+            "Dag 3: Tilbring dagen i Rotorua. De geotermiske parkene, redwood-skogen og strandkanten fortjener alle tid, og de maoriske kulturopplevelsene om kvelden er verdt å booke. Behandle gjerdene ved de geotermiske områdene som faste grenser, og behold en andre natt i Rotorua hvis været blir vått."
+          ],
+          "tips": [
+            "Dag 1: Hobbiton, natt i Matamata",
+            "Dag 2: Waitomo-grottene, natt i Rotorua",
+            "Dag 3: en hel dag i Rotorua"
+          ]
+        },
+        {
+          "heading": "Dag 4 til 7: Taupō, kysten og Coromandel",
+          "body": [
+            "Dag 4: Kjør en time sørover til Taupō for innsjøen, Huka Falls og en varm kilde, og overnatt der. Guiden Auckland til Taupō dekker stoppene og campingreglene. Dag 5: Kjør nordøst til Tauranga og Mount Maunganui, omtrent to timer, og bestig Mauao i solnedgangen.",
+            "Dag 6: Kjør over til Coromandel via Waihi og Karangahake Gorge og overnatt nær Hahei eller Whitianga. Dag 7: Gå til Cathedral Cove hvis adgangen tillater det, og kjør deretter tilbake til Auckland, omtrent tre timer, med en buffer før eventuell flyging. Guiden Coromandel til Rotorua har mer om halvøya."
+          ],
+          "tips": [
+            "Dag 4: Taupō og Huka Falls",
+            "Dag 5: Tauranga og Mauao",
+            "Dag 6 og 7: Coromandel og hjem"
+          ],
+          "table": {
+            "caption": "Rundturen i oversikt med omtrentlig kjøretid for hver dag. Sjekk live trafikk før du kjører.",
+            "head": [
+              "Dag",
+              "Rute",
+              "Kjøring"
+            ],
+            "rows": [
+              [
+                "1",
+                "Auckland til Matamata (Hobbiton)",
+                "Omtrent 2 timer"
+              ],
+              [
+                "2",
+                "Matamata til Waitomo til Rotorua",
+                "Omtrent 3 timer"
+              ],
+              [
+                "3",
+                "Rotorua, ingen kjøring",
+                "Bare lokalt"
+              ],
+              [
+                "4",
+                "Rotorua til Taupō",
+                "Omtrent 1 time"
+              ],
+              [
+                "5",
+                "Taupō til Tauranga",
+                "Omtrent 2,5 timer"
+              ],
+              [
+                "6",
+                "Tauranga til Coromandel",
+                "Omtrent 2,5 timer"
+              ],
+              [
+                "7",
+                "Coromandel til Auckland",
+                "Omtrent 3 timer"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hvor du kan sove hver natt",
+          "body": [
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Bobilparker</a> er det enkle valget i Rotorua, Taupō og Tauranga, med strøm, dusjer og kjøkken, og de blir utsolgt om sommeren og i lange helger, så reserver hver enkelt; guiden vår om bobilparker dekker hva en plass med strøm omfatter. På Coromandel fylles campingplassene på østkysten nær Hahei rundt jul og i januar, ofte booket måneder i forveien.",
+            "Freedom camping er mer begrenset enn folk forventer, og de fleste populære stedene nær tettstedene på denne rundturen er stengt eller begrenset. Guiden om <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping-regler</a> og guiden om green warrant forklarer hva som gjelder, og hver kommunes eget kart har det siste ordet. Et kjøretøy som ikke er sertifisert selvforsynt, har svært få muligheter."
+          ],
+          "tips": [
+            "Book hver bobilpark om sommeren",
+            "Strendene på Coromandel fylles til jul",
+            "Sjekk hver kommunes kart for freedom camping"
+          ]
+        },
+        {
+          "heading": "Versjonen for South Island",
+          "body": [
+            "Hvis du lander i Christchurch, fungerer den samme ukeideen i sør. Kjør til Lake Tekapo og Aoraki Mount Cook dag 1 og 2, over Lindis Pass til Wānaka og Queenstown dag 3 og 4, ta en dagstur til Milford Sound eller Te Anau dag 5, og kjør deretter tilbake til Christchurch over to dager. Guiden Christchurch til Tekapo og Aoraki og guiden Christchurch til Te Anau dekker det meste av dette.",
+            "Kjøreturene på South Island er lengre og været mindre tilgivende, så ta tidagersversjonen hvis du kan. Campervan-reiseruten på 10 dager legger til West Coast og Arthur's Pass uten å jage gjennom dagene."
+          ],
+          "tips": [
+            "Christchurch til Tekapo og Aoraki først",
+            "Lindis Pass til Wānaka og Queenstown",
+            "Ta ti dager hvis du kan"
+          ]
+        },
+        {
+          "heading": "Planlegg uka i KiwiCamping",
+          "body": [
+            "For en uke i øvre North Island samler KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplasser</a>, hytter og bobilparker fra Coromandel til Taupō på ett iPhone-kart. Legg til hver natt i rekkefølge, så gir turvisningen kilometerne mellom dem og en værmelding for hvert stopp, nok til å avgjøre om dagen ved Hahei eller dagen i Rotorua bør komme først. For veiledning sving for sving og veiarbeid, bruk kartappen din og NZTA Journey Planner.",
+            "DOC-campingplasser bookes på DOCs nettside, og hver <a data-guide=\"holiday-parks-new-zealand-guide\">bobilpark</a> håndterer sine egne reservasjoner direkte."
+          ],
+          "tips": [
+            "Lagre stopp i kjørerekkefølge",
+            "Værmelding ved hvert stopp",
+            "Bruk kartappen din til veibeskrivelse"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: plan your trip"
+        },
+        {
+          "label": "DOC: places to go in the Central North Island"
+        },
+        {
+          "label": "NZTA Journey Planner (highway conditions and EV chargers)"
+        }
+      ],
+      "priceTable": null
     }
   }
 }

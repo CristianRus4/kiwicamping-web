@@ -55,7 +55,7 @@ export const freedomTownArticles: Article[] = [
       ], ["$400 for most breaches", "Holiday parks for tents and uncertified vans", "DOC land is inland and basic"]),
       s("Using KiwiCamping in Hawke's Bay", [
         "KiwiCamping shows the DOC campsites and huts in the region, holiday parks with their facilities, and dump stations, with filters to narrow them to what your vehicle needs. It does not hold the councils' freedom camping sites, so use the council pages above for those and save a holiday park as your fallback for each night.",
-        "Put the Napier night into a trip with its date and a note, and read the distance to the next stop, which for most people is the drive to or from Wellington or Taupō. Your saved Hawke's Bay spots and their details stay readable without coverage; the map, directions, forecast and photos load once you have signal again. The app is free to download, with in-app purchases.",
+        "Put the Napier night into a trip with its date and a note, and read the distance to the next stop, which for most people is the drive to or from Wellington or Taupō. Your saved Hawke's Bay spots and their details stay readable without coverage; the map, directions, forecast and photos load once you have signal again. Free to download, with in-app purchases.",
       ], ["Council sites: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -578,11 +578,11 @@ export const freedomTownArticles: Article[] = [
       ], ["River Road: no camping", "Riverside car parks: closed", "$400 for most breaches"]),
       s("The river, DOC and the holiday parks", [
         "The Whanganui River is where the camping in this region really happens. The Whanganui Journey Great Walk, a canoe trip of three to five days, books its huts and campsites through DOC, and the guide to camping on the Whanganui Journey covers the dates and fees. KiwiCamping's DOC data (11 August 2026) lists 20 campsites in Manawatū-Whanganui, only 2 of them free and only 3 with campervan access, with adult nightly rates from $10 to $19, and Ohinepane is the largest with room for 36.",
-        "In town, the holiday parks and motor camps are the dependable answer for a tent, an uncertified van or a late arrival, with powered sites, kitchens and cabins. They are rarely full outside the summer holidays, but Whanganui sits on the road between Taranaki and the capital, so the Friday of a long weekend is another matter. The guide to holiday parks in New Zealand explains how booking works.",
+        "In town, the holiday parks and motor camps are the dependable answer for a tent, an uncertified van or a late arrival, with powered sites, kitchens and cabins. They are rarely full outside the summer holidays, but Whanganui sits on the road between Taranaki and the capital, so the Friday of a long weekend is another matter. The holiday parks guide explains how booking works.",
       ], ["20 DOC campsites in the region", "Only 3 take campervans", "Holiday parks for tents and uncertified vans"]),
       s("Using KiwiCamping around Whanganui", [
         "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not carry the council's freedom camping sites, so use the council page for Castlecliff and keep a holiday park saved for each night in case the bays are full.",
-        "Add Whanganui to a trip with its date and read the distance to the next stop, whether that is the drive south to Wellington or north towards Taupō. Saved places and their details stay on the phone, while map tiles, routing, weather and photos need signal, which matters up the river road. The app is free to download, with in-app purchases.",
+        "Add Whanganui to a trip with its date and read the distance to the next stop, whether that is the drive south to Wellington or north towards Taupō. Saved places and their details stay on the phone, while map tiles, routing, weather and photos need signal, which matters up the river road. Free to download, with in-app purchases.",
       ], ["Council page decides Castlecliff", "Save a holiday park as the backup", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -623,12 +623,12 @@ export const freedomTownArticles: Article[] = [
         "The fees come from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A hire company receives the notice first and charges your card.",
       ], ["Summer patrols are routine", "$400 for most breaches", "Hire companies pass the fine on"]),
       s("Holiday parks and DOC land", [
-        "The holiday parks at Waihi Beach and nearby Athenree take tents, caravans and campervans, with powered sites, kitchens and, at Athenree, hot pools, and they are the straightforward answer for a family in January. They book out over Christmas and the first weeks of January, so reserve before you leave Auckland. The guide to holiday parks in New Zealand explains how booking works.",
+        "The holiday parks at Waihi Beach and nearby Athenree take tents, caravans and campervans, with powered sites, kitchens and, at Athenree, hot pools, and they are the straightforward answer for a family in January. They book out over Christmas and the first weeks of January, so reserve before you leave Auckland. The holiday parks guide explains how booking works.",
         "DOC land is further inland. KiwiCamping's DOC data (11 August 2026) lists 8 campsites in the Bay of Plenty, only 1 of them free and 4 with campervan access, with adult nightly rates from $10 to $18, and Matatā Campsite on the Rangitāiki coast is the largest with room for 80. The Karangahake Gorge side of Waihi, over the Hauraki boundary, belongs to the Coromandel hub.",
       ], ["Book holiday parks before Christmas", "8 DOC campsites in Bay of Plenty", "Matatā is the biggest DOC site"]),
       s("Using KiwiCamping around Waihi Beach", [
         "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Bay of Plenty coast, with campervan filters to narrow them. It does not hold the district council's freedom camping sites, so read the council page for those and save a holiday park as the night's fallback.",
-        "Put Waihi Beach into a trip between the Coromandel and Tauranga, and read the distance and drive time to the next stop, which is under an hour to Tauranga. Saved places and their details stay on your phone, and the map, routes, forecast and photos load when you have signal. The app is free to download, with in-app purchases.",
+        "Put Waihi Beach into a trip between the Coromandel and Tauranga, and read the distance and drive time to the next stop, which is under an hour to Tauranga. Saved places and their details stay on your phone, and the map, routes, forecast and photos load when you have signal. Free to download, with in-app purchases.",
       ], ["Council sites: use the council page", "Under an hour on to Tauranga", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -678,12 +678,12 @@ export const freedomTownArticles: Article[] = [
         "A breach under the national fee schedule costs $400 for camping where it is prohibited or in breach of the bylaw, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. The hire company receives the notice and bills the renter.",
       ], ["Esplanade Drive: banned", "Surf-club car parks: banned", "$400 for most breaches"]),
       s("Where to book instead", [
-        "Whangamatā has beachfront motor camps and holiday parks that take tents and any vehicle, with powered sites, kitchens and cabins, and they are the sensible base for a week of surfing. They book up for the Christmas and New Year fortnight months ahead, so ring before you drive down. The guide to holiday parks in New Zealand covers how booking works.",
+        "Whangamatā has beachfront motor camps and holiday parks that take tents and any vehicle, with powered sites, kitchens and cabins, and they are the sensible base for a week of surfing. They book up for the Christmas and New Year fortnight months ahead, so ring before you drive down. The holiday parks guide explains how booking works.",
         "Further down the coast, Whiritoa and Onemana have smaller camps, and Tairua and Pauanui to the north have council sites of their own. KiwiCamping's DOC data (11 August 2026) lists 20 DOC campsites on the Coromandel, only 1 of them free and 14 with campervan access, and Waikawau Bay is the largest with room for 132.",
       ], ["Book Christmas months ahead", "Whiritoa and Onemana are smaller", "20 DOC campsites on the Coromandel"]),
       s("Using KiwiCamping around Whangamatā", [
         "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Coromandel, with filters for campervan access. The council's freedom camping sites are not in it, so use the council page for those and keep a holiday park saved as the backup night.",
-        "Add Whangamatā to a trip between Auckland and the Bay of Plenty and read the legs: about two hours from Auckland, an hour on to Tauranga. Saved places and their details stay on the phone, and the map, routing, weather and photos load once you have signal. The app is free to download, with in-app purchases.",
+        "Add Whangamatā to a trip between Auckland and the Bay of Plenty and read the legs: about two hours from Auckland, an hour on to Tauranga. Saved places and their details stay on the phone, and the map, routing, weather and photos load once you have signal. Free to download, with in-app purchases.",
       ], ["Council schedule: use the council page", "About 2 hours from Auckland", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -712,7 +712,7 @@ export const freedomTownArticles: Article[] = [
     sections: [
       s("The Auckland rules that apply here", [
         "Auckland's Freedom Camping in Vehicles Bylaw applies across the whole region, including Rodney and the Hibiscus Coast. Camping on council roads and car parks is allowed only in a certified self-contained vehicle, for up to two nights in the same spot, and you leave by 9am on the day you go. The guide to freedom camping in Auckland reads the bylaw in full, with its prohibited and restricted areas, so this page keeps to the Matakana end.",
-        "A tent or a vehicle without a certificate has no place on council land. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. Enforcement runs through the summer, and a notice goes to the registered owner, which for a rental is the hire company.",
+        "A tent or a vehicle without a certificate has no place on council land. From 7 June 2026 only the green warrant counts, and the guide to the self-contained campervan warrant explains it. Enforcement runs through the summer, and a notice goes to the registered owner, which for a rental is the hire company.",
       ], ["Region-wide bylaw", "Two nights, away by 9am", "Green warrant needed"]),
       s("Council sites near Warkworth and the coast", [
         "The council's signed places in the area are small and spread out: a wharf reserve at Port Albert on the Kaipara side, a few spaces at Parry Kauri Park in Warkworth, and a handful of spots on the Mahurangi and Whangaparāoa coasts such as Snells Beach, each taking between three and ten vehicles. The council's map and page carry the list, and it changes, so confirm a place before a night depends on it.",
@@ -723,12 +723,12 @@ export const freedomTownArticles: Article[] = [
         "They are for tents and campervans alike, with toilets and water, and some bays are a short walk from the water. Dogs, fires and quiet hours follow the park's own rules, which the booking page lists, and they are stricter than most holiday parks.",
       ], ["Tawharanui and Mahurangi: book ahead", "Regional parks ban freedom camping", "Dog and fire rules differ"]),
       s("Holiday parks and DOC land", [
-        "Warkworth, Snells Beach, Omaha and Leigh each have holiday parks or motor camps within reach, with powered sites and cabins. They are the dependable choice over Christmas, and Easter weekend brings the same crowds as the beaches do. The guide to holiday parks in New Zealand explains how booking works.",
+        "Warkworth, Snells Beach, Omaha and Leigh each have holiday parks or motor camps within reach, with powered sites and cabins. They are the dependable choice over Christmas, and Easter weekend brings the same crowds as the beaches do. The holiday parks guide explains how booking works.",
         "DOC land in the Auckland region is mostly on islands. KiwiCamping's DOC data (11 August 2026) lists 9 campsites in Auckland, 1 of them free and 5 with campervan access, with adult nightly rates from $10 to $18, and Home Bay on Motutapu Island is the largest with room for 131. None are near Matakana by road.",
       ], ["Holiday parks near each beach", "DOC sites in Auckland are on islands", "Easter fills like Christmas"]),
       s("Using KiwiCamping around Matakana", [
         "KiwiCamping lists DOC campsites and huts, holiday parks with their facilities and dump stations around Auckland, with filters for campervan access. It does not carry the council's freedom camping sites or regional park bookings, so use the council pages for those.",
-        "Add the Matakana night to an Auckland to Bay of Islands trip and read the distance and drive time to the next stop, which is Whangārei, a bit over an hour on. Saved places stay on the phone, and the map, routes, forecast and photos need a connection, which is patchy on the peninsula roads. The app is free to download, with in-app purchases.",
+        "Add the Matakana night to an Auckland to Bay of Islands trip and read the distance and drive time to the next stop, which is Whangārei, a bit over an hour on. Saved places stay on the phone, and the map, routes, forecast and photos need a connection, which is patchy on the peninsula roads. Free to download, with in-app purchases.",
       ], ["Council and park bookings: use their pages", "Whangārei is about an hour on", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -758,7 +758,7 @@ export const freedomTownArticles: Article[] = [
     sections: [
       s("What the 2025 bylaw says", [
         "Queenstown Lakes District Council's Freedom Camping Bylaw 2025 took effect on 1 December 2025, after the High Court quashed the 2021 bylaw following a challenge by the Motor Caravan Association. It prohibits freedom camping in urban areas, including on-road parking, and allows it only in a certified self-contained vehicle in the designated car parks, plus some rural roads with conditions. Most council reserves are closed to camping under the Reserves Act.",
-        "At the designated sites you arrive after 6pm and leave before 8am, stay no more than two nights in any 30-day period, and keep your vehicle and belongings inside the marked space. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. The council's page and the QR check-in at each site are the final word, and the council planned a further decision in December 2026.",
+        "At the designated sites you arrive after 6pm and leave before 8am, stay no more than two nights in any 30-day period, and keep your vehicle and belongings inside the marked space. The warrant must be the green one since 7 June 2026; the self-contained campervan warrant guide has the detail. The council's page and the QR check-in at each site are the final word, and the council planned a further decision in December 2026.",
       ], ["Urban areas prohibited", "After 6pm, away by 8am", "Two nights in 30 days"]),
       s("The Arrowtown space", [
         "The council's list gives Arrowtown a single site: Hansen Place car park, with three marked spaces. It is a working car park on the edge of the village, so there are no views to speak of, and with only three spaces for every van that wants an Arrowtown night, it is full most evenings between December and April.",
@@ -769,12 +769,12 @@ export const freedomTownArticles: Article[] = [
         "Kingston, 45 minutes south of Queenstown, has the largest site with 50 spaces. All the sites are car parks with no booking, so they work for a late arrival and not for a plan, and the council's list has changed between summers. The guide to freedom camping in Queenstown Lakes reads the whole bylaw.",
       ], ["Lake Hayes: 3 spaces", "Boundary Street: 15 spaces", "Kingston: 50 spaces"]),
       s("Holiday parks and DOC land", [
-        "Arrowtown has its own holiday park by the river, and Queenstown, Frankton and Lake Hayes have several more, with powered sites, cabins and tent areas. They fill from Christmas to Easter, and autumn colours in April bring a second rush, so book before you arrive. The guide to holiday parks in New Zealand covers how booking works.",
+        "Arrowtown has its own holiday park by the river, and Queenstown, Frankton and Lake Hayes have several more, with powered sites, cabins and tent areas. They fill from Christmas to Easter, and autumn colours in April bring a second rush, so book before you arrive. The holiday parks guide explains how booking works.",
         "DOC land around the lakes is the other free-to-cheap choice. KiwiCamping's DOC data (11 August 2026) lists 30 DOC campsites in Otago, 8 of them free and 17 with campervan access, with adult nightly rates from $5 to $42, and Twelve Mile Delta near Queenstown is the largest with room for 100. The Queenstown to Glenorchy guide covers the road north.",
       ], ["Book for Christmas and April", "30 DOC campsites in Otago", "Twelve Mile Delta takes 100"]),
       s("Using KiwiCamping around Arrowtown", [
         "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations around Queenstown and Arrowtown, with campervan filters. It does not hold the council's car parks, so use the council page for those and save a holiday park as the backup night.",
-        "Add Arrowtown to a trip with Queenstown and Glenorchy, and read the short legs: about 20 minutes to Queenstown and an hour to Glenorchy. Saved places and details stay on the phone, and map tiles, routing, weather and photos load when you have signal. The app is free to download, with in-app purchases.",
+        "Add Arrowtown to a trip with Queenstown and Glenorchy, and read the short legs: about 20 minutes to Queenstown and an hour to Glenorchy. Saved places and details stay on the phone, and map tiles, routing, weather and photos load when you have signal. Free to download, with in-app purchases.",
       ], ["Council car parks: use the council page", "20 minutes to Queenstown", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -816,11 +816,11 @@ export const freedomTownArticles: Article[] = [
       ], ["An hour to Te Anau", "90 minutes to Queenstown", "Te Anau has no council site"]),
       s("Other sites and the holiday parks", [
         "Nearby council sites on the list include Dipton and Balfour, both certified self-contained only, and Mossburn and Athol are in the same district. Each is a small-town stop with a short stay and few services, useful for a single night on the road and nothing more.",
-        "Holiday parks at Te Anau, Gore and Queenstown take everyone, and they are the answer when the free sites are full. The guide to holiday parks in New Zealand explains how booking works. KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60.",
+        "Holiday parks at Te Anau, Gore and Queenstown take everyone, and they are the answer when the free sites are full. The holiday parks guide explains how booking works. KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60.",
       ], ["Dipton and Balfour: self-contained only", "5 DOC campsites in Southland", "Mavora Lakes takes 60"]),
       s("Using KiwiCamping around Lumsden", [
         "In KiwiCamping you can see DOC campsites and huts, holiday parks and dump stations across Southland, with filters for the campervan access you need. The council's freedom camping areas are not in the app, so use the council's map for Lumsden itself.",
-        "Add Lumsden to a trip as the night before Te Anau or Queenstown, and read the distance and drive time between the stops. Saved places stay on the phone, and the map, directions, weather and photos wait for signal, which drops out on the roads around Mavora. The app is free to download, with in-app purchases.",
+        "Add Lumsden to a trip as the night before Te Anau or Queenstown, and read the distance and drive time between the stops. Saved places stay on the phone, and the map, directions, weather and photos wait for signal, which drops out on the roads around Mavora. Free to download, with in-app purchases.",
       ], ["Council map decides Lumsden", "Use it as the night before Te Anau", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -862,11 +862,11 @@ export const freedomTownArticles: Article[] = [
       ], ["Monkey Island: 28 days a year", "No drinking water", "Tuatapere: no site"]),
       s("Campgrounds and DOC land", [
         "For a booked bed, the holiday parks and motor camps at Invercargill, Riverton and Tuatapere take tents and campervans, with powered sites and kitchens. The Southern Scenic Route guide covers the stops between Dunedin and Queenstown, and the guide to holiday parks in New Zealand explains how booking works.",
-        "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60. The Hump Ridge Track starts near Tuatapere and books separately through its own trust.",
+        "In Southland, KiwiCamping's DOC data (11 August 2026) shows 5 DOC campsites, only 2 with campervan access, charging adults from $6 to $28 a night, and Mavora Lakes is the largest with room for 60. The Hump Ridge Track starts near Tuatapere and books separately through its own trust.",
       ], ["5 DOC campsites in Southland", "Book holiday parks ahead in summer", "Hump Ridge books separately"]),
       s("Using KiwiCamping on the south coast", [
         "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations along the Southland coast, with filters for campervan access, though not the council's freedom camping reserves. Use the council's map for Colac Bay and Monkey Island, and keep a campground saved for each night.",
-        "Put Colac Bay into a trip with the legs either side, Invercargill about 45 minutes east and Tuatapere half an hour west, and plan fuel at Invercargill or Riverton. Saved places stay on the phone, and the map, routing, forecast and photos wait for signal, which is patchy past Orepuki. The app is free to download, with in-app purchases.",
+        "Put Colac Bay into a trip with the legs either side, Invercargill about 45 minutes east and Tuatapere half an hour west, and plan fuel at Invercargill or Riverton. Saved places stay on the phone, and the map, routing, forecast and photos wait for signal, which is patchy past Orepuki. Free to download, with in-app purchases.",
       ], ["Council map decides the reserves", "Fuel up in Invercargill or Riverton", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -907,12 +907,12 @@ export const freedomTownArticles: Article[] = [
         "The council can give written consent to camp where it is otherwise banned, though it is not a route for a casual visitor. The practical result is that Westport has no obvious free place to stay, and the honest advice is to plan a campground and treat any roadside night as a bonus.",
       ], ["$400, not $200", "Written consent is rare", "Plan a campground first"]),
       s("Campgrounds, DOC and the coast road", [
-        "Westport and the Buller coast have holiday parks and campgrounds, at Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki and Karamea, with powered sites, tent areas and cabins, and they are the way to sleep near the sea. The council's own page links to its list of campgrounds. The guide to holiday parks in New Zealand explains how booking works.",
+        "Westport and the Buller coast have holiday parks and campgrounds, at Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki and Karamea, with powered sites, tent areas and cabins, and they are the way to sleep near the sea. The council's own page links to its list of campgrounds. The holiday parks guide explains how booking works.",
         "KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the West Coast, only 1 of them free and 10 with campervan access, with adult nightly rates from $10 to $20, and Lake Māhinapua is the largest with room for 100. The Paparoa Track starts near Punakaiki and Blackball, and its huts book through DOC.",
       ], ["Holiday parks along the coast", "14 DOC campsites on the West Coast", "Paparoa Track books through DOC"]),
       s("Using KiwiCamping around Westport", [
         "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations along the West Coast, with filters for campervan access. It does not hold Buller's no-camping zones, so use the council's page to avoid them.",
-        "Place a Westport night in a trip between Nelson and Greymouth, and read the legs, which are about 3.5 hours from Nelson and 2 hours on to Greymouth, with fuel at Westport. Saved places stay on the phone, and the map, routing, forecast and photos load when there is signal, which is thin along the Buller Gorge. The app is free to download, with in-app purchases.",
+        "Place a Westport night in a trip between Nelson and Greymouth, and read the legs, which are about 3.5 hours from Nelson and 2 hours on to Greymouth, with fuel at Westport. Saved places stay on the phone, and the map, routing, forecast and photos load when there is signal, which is thin along the Buller Gorge. Free to download, with in-app purchases.",
       ], ["Council page shows the no-camping zones", "Fuel at Westport", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -954,11 +954,11 @@ export const freedomTownArticles: Article[] = [
       ], ["DOC notices decide the zones", "14 DOC campsites on the West Coast", "Sandflies are a real factor"]),
       s("Motels, holiday parks and booking ahead", [
         "Haast has a small number of holiday parks and motels, and summer demand easily outstrips them, because the Haast Pass is the only road link between the West Coast and Otago. Book before you set off from Wānaka or Fox, since a late arrival with no booking can mean a 120 km drive to the next bed.",
-        "Jackson Bay, 50 km down the coast road, has its own campground and a fish and chip shop at the road's end, and Lake Moeraki to the north has a lodge and a DOC campsite. The guide to holiday parks in New Zealand explains how booking works.",
+        "Jackson Bay, 50 km down the coast road, has its own campground and a fish and chip shop at the road's end, and Lake Moeraki to the north has a lodge and a DOC campsite. The holiday parks guide explains how booking works.",
       ], ["Book before leaving Wānaka or Fox", "Jackson Bay is 50 km each way", "Lake Moeraki has a DOC campsite"]),
       s("Using KiwiCamping around Haast", [
         "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations through South Westland, with filters for campervan access. It does not hold the council's freedom camping spaces, so use the council page for those.",
-        "Put Haast in a trip between Wānaka and the glaciers, and read the leg lengths, since each side is over two hours. Saved places and their details stay on the phone, and the map, routes, forecast and photos need signal, which is rare for long stretches here. The app is free to download, with in-app purchases.",
+        "Put Haast in a trip between Wānaka and the glaciers, and read the leg lengths, since each side is over two hours. Saved places and their details stay on the phone, and the map, routes, forecast and photos need signal, which is rare for long stretches here. Free to download, with in-app purchases.",
       ], ["Council page decides the sites", "Each side is over 2 hours", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -1009,11 +1009,11 @@ export const freedomTownArticles: Article[] = [
       ], ["Takes any vehicle, up to 40", "About 25 minutes from Motueka", "Still no tents"]),
       s("Abel Tasman, Kaiteriteri and the holiday parks", [
         "Kaiteriteri, Marahau and Mapua have no freedom camping, and the Abel Tasman National Park's campsites are DOC's, booked through its system all year, as the Abel Tasman Coast Track campsites guide explains. In summer the Kaiteriteri and Marahau holiday parks and the motor camps in Motueka are the practical choice, and they book out over Christmas.",
-        "KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, only 2 of them free and 8 with campervan access, with adult nightly rates from $10 to $31, and Tōtaranui is the largest with room for 269. The guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, only 2 of them free and 8 with campervan access, with adult nightly rates from $10 to $31, and Tōtaranui is the largest with room for 269. The holiday parks guide explains how booking works.",
       ], ["Abel Tasman campsites book all year", "37 DOC campsites in Nelson Tasman", "Holiday parks fill at Christmas"]),
       s("Using KiwiCamping around Motueka", [
         "In KiwiCamping you will find DOC campsites and huts, holiday parks and dump stations around Motueka and the Abel Tasman, with filters for campervan access. The council's sites are not in the app, so use the council's page for those and keep a holiday park saved as the backup.",
-        "Add Motueka to a trip from Nelson, 45 minutes east, and read the leg to Golden Bay over Takaka Hill. Saved places stay on the phone, and the map, routing, weather and photos need signal, which drops on the hill. The app is free to download, with in-app purchases.",
+        "Add Motueka to a trip from Nelson, 45 minutes east, and read the leg to Golden Bay over Takaka Hill. Saved places stay on the phone, and the map, routing, weather and photos need signal, which drops on the hill. Free to download, with in-app purchases.",
       ], ["Council page decides the sites", "Nelson is 45 minutes away", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -1042,7 +1042,7 @@ export const freedomTownArticles: Article[] = [
       "Gisborne has one headline freedom camping place, Kaiti Beach, where certified self-contained vehicles park inside painted blue lines for up to three nights, and the council bans camping at Waikanae Beach and across most of the town. Beyond the city, State Highway 35 around the East Cape runs through country where the camping is DOC's and the holiday parks', not the council's. Plan Gisborne as the last full-service stop, and keep the East Cape for its campsites.",
     sections: [
       s("What Gisborne District Council allows", [
-        "The council lets people camp in restricted camping areas only, and its page says the vehicle must be certified self-contained to stay at them. Camping in a vehicle that is not certified is one of the listed breaches, along with overstaying and damaging the environment. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains.",
+        "The council lets people camp in restricted camping areas only, and its page says the vehicle must be certified self-contained to stay at them. Camping in a vehicle that is not certified is one of the listed breaches, along with overstaying and damaging the environment. Only the green warrant has counted since 7 June 2026, as the guide to the self-contained campervan warrant explains.",
         "The bylaw has been reviewed several times since 2021 after complaints from residents about the beach sites, so read the council's page for the current list of areas, the season and the limits. Third-party listings quote different seasons, and the council's page is the only one to trust.",
       ], ["Restricted areas only", "Certified self-contained required", "Council page is the authority"]),
       s("Kaiti Beach and the town", [
@@ -1059,7 +1059,7 @@ export const freedomTownArticles: Article[] = [
       ], ["Anaura Bay holds 81", "8 of 14 DOC campsites are free", "Fuel up in Gisborne"]),
       s("Using KiwiCamping around Gisborne", [
         "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations on the East Coast, with campervan filters, though not the council's freedom camping areas. Check the council's page for Kaiti Beach and save a campground as the night's backup.",
-        "Add Gisborne to a trip as the start of the East Cape loop, and read the legs, since the drive from Napier is about 3.5 hours and from Whakatāne about 2.5. Saved places and details stay on the phone, while the map, routing, weather and photos need signal, which is sparse on the cape. The app is free to download, with in-app purchases.",
+        "Add Gisborne to a trip as the start of the East Cape loop, and read the legs, since the drive from Napier is about 3.5 hours and from Whakatāne about 2.5. Saved places and details stay on the phone, while the map, routing, weather and photos need signal, which is sparse on the cape. Free to download, with in-app purchases.",
       ], ["Council page decides Kaiti Beach", "Napier about 3.5 hours away", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [

@@ -516,7 +516,7 @@ export const driveGuideArticles: Article[] = [
       ], ["Holiday parks fill from Christmas", "Read two councils' rules", "Egmont has DOC huts from $10"]),
       s("Planning Surf Highway 45 in KiwiCamping", [
         "KiwiCamping shows DOC campsites and huts around Taranaki, holiday parks with their facilities and dump stations, and lets you add them to a trip as ordered stops. It shows the distance and drive time between stops and a forecast for each place, which helps when the mountain's weather turns.",
-        "Save a New Plymouth night and an Ōpunake night, and read the leg between them. Saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin at the end of the coast roads. The app is free to download, with in-app purchases.",
+        "Save a New Plymouth night and an Ōpunake night, and read the leg between them. Saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin at the end of the coast roads. Free to download, with in-app purchases.",
       ], ["New Plymouth and Ōpunake as the two nights", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
     ],
     sources: [
@@ -566,7 +566,7 @@ export const driveGuideArticles: Article[] = [
       ], ["Stay on the boardwalks", "Check alert levels", "Short soaks in hot pools"]),
       s("Planning the Thermal Explorer Highway in KiwiCamping", [
         "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations around Rotorua, Taupō and Hawke's Bay, with filters for campervan access. Add your four nights to a trip as ordered stops, and it reads the distance and drive time between each pair, plus a forecast for each place.",
-        "Save the places beforehand. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin on the Napier-Taupō road. The app is free to download, with in-app purchases.",
+        "Save the places beforehand. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin on the Napier-Taupō road. Free to download, with in-app purchases.",
       ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
     ],
     sources: [
@@ -618,7 +618,7 @@ export const driveGuideArticles: Article[] = [
       ], ["A rest day in Gisborne", "8 of 14 East Coast DOC campsites are free", "Mahia is a beach side trip"]),
       s("Planning the Pacific Coast Highway in KiwiCamping", [
         "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations along the eastern coast, with filters for campervan access. Add each night to a trip as an ordered stop, and it shows the distance and drive time between each pair, plus a forecast for each place.",
-        "Save your places before you leave. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which drops in the Waioeka Gorge and on the Wairoa stretch. The app is free to download, with in-app purchases.",
+        "Save your places before you leave. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which drops in the Waioeka Gorge and on the Wairoa stretch. Free to download, with in-app purchases.",
       ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
     ],
     sources: [
