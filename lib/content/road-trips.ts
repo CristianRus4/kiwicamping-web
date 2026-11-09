@@ -67,7 +67,7 @@ export const roadTripArticles: Article[] = [
         "With two nights you can do the Tongariro end of the lake as well. Tūrangi is an hour south, and the Tongariro Alpine Crossing, the Great Lake Trail and the trout rivers all start from there. If you are heading on to Wellington, the Auckland to Wellington drive guide picks up the road from here. Tongariro Northern Circuit camping is covered in its own guide.",
       ], ["One night: Orakei Korako, Huka Falls, hot pool", "Two nights: add Tūrangi or Tongariro", "Continue south with the Wellington guide"]),
       sec("Planning Auckland to Taupō in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, and the stretch around the lake is well covered. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps when the plateau weather turns. It does not give turn-by-turn directions or live traffic, so keep your phone's maps and the NZTA Journey Planner open for the drive itself.",
+        "On the iPhone, KiwiCamping puts the lakefront holiday parks, DOC campsites and huts around Taupō on one map. Pin the nights you want, line them up as a trip, and each leg gets its distance while every stop gets a forecast, which matters when the Desert Road weather turns. Navigation stays with your usual maps app, and the NZTA Journey Planner is the place for roadworks and closures.",
         "Bookings for DOC campsites stay on DOC's own booking pages, and holiday park bookings go through the park.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -121,7 +121,7 @@ export const roadTripArticles: Article[] = [
         "On Sunday take the road around the harbour to Papamoa or head inland to Rotorua if you have time. Return via Hamilton and the expressway for the quickest way home, or continue to the Coromandel if you want a loop, which the Coromandel to Rotorua route covers.",
       ], ["Saturday: gorge walk, Mount swim", "Sunday: harbour road or Rotorua", "Return via Hamilton for speed"]),
       sec("Planning Auckland to Tauranga in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the Bay of Plenty. Save the ones you like, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "For the Bay of Plenty end of this trip, KiwiCamping maps the DOC campsites, huts and holiday parks from Waihī Beach to Mount Maunganui. Saved places become a trip in the order you choose, with the kilometres between them and a forecast for each beach or town. It is a planner rather than a sat nav, so leave the live driving to Apple Maps or Google Maps.",
         "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -170,11 +170,11 @@ export const roadTripArticles: Article[] = [
         "Public toilets are at the visitor centres at Hobbiton and Waitomo and at the main towns on the route. The roads between Matamata and Waitomo are quiet and sealed, with the occasional one-lane bridge on the back roads.",
       ], ["Stock up in Hamilton or Te Awamutu", "Waitomo village is small and pricey", "Back roads have one-lane bridges"]),
       sec("Where to stay overnight", [
-        "Holiday parks and motels in Matamata, Te Awamutu, Ōtorohanga and Waitomo give you power, showers and a kitchen and take the guesswork out of the night. Waitomo and Hobbiton are busiest from December to February and at Easter, so book early. The holiday parks guide explains what to look for.",
+        "Holiday parks and motels in Matamata, Te Awamutu, Ōtorohanga and Waitomo give you power, showers and a kitchen and take the guesswork out of the night. Waitomo and Hobbiton are busiest from December to February and at Easter, so book early. Our holiday parks guide lists what a powered site usually includes.",
         "For freedom camping, the Waikato and Waitomo district councils set their own rules, and most of the popular spots near the caves are not open to camping. Read the freedom camping rules guide and check the Waikato and King Country hubs before you rely on a roadside spot. There are also a few simple DOC and council campsites in the hills towards Marokopa, which suit campers who are happy with basic facilities.",
       ], ["Book Waitomo early for summer", "Check council rules before freedom camping", "Campsites towards Marokopa are basic"]),
       sec("Planning Auckland to Waitomo and Hobbiton in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Matamata, Ōtorohanga and Waitomo. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app for the drive.",
+        "Matamata, Ōtorohanga and Waitomo all show up in KiwiCamping, an iPhone app with the region's DOC campsites, huts and holiday parks. Add the Hobbiton night and the caves night as stops, and you see how far apart they are and what the weather will do at each. Live traffic and spoken directions are not part of it; your phone's map handles the road.",
         "Tour bookings for Hobbiton and the caves are made with the operators, and DOC campsite bookings stay on DOC's own pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Book tours with the operators"], undefined, true),
     ],
@@ -227,7 +227,7 @@ export const roadTripArticles: Article[] = [
         "Freedom camping in the Napier and Hastings areas is restricted to a few designated sites, and most of the waterfront is closed to overnight stays. The Hawke's Bay freedom camping hub lists the current areas, and the council's own pages are the final word on the day. DOC runs some campsites in the hills towards Taupō and Te Urewera, but for the bay itself you will probably end up in a park.",
       ], ["Book holiday parks for January", "Most waterfront is closed to camping", "Check the council's pages on the day"]),
       sec("Planning Auckland to Napier in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with good coverage of Taupō and Hawke's Bay. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which is handy before the plateau road. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "Between Taupō and Hawke's Bay the KiwiCamping map is dense with holiday parks, DOC campsites and huts. Pick a stop on each side of the Napier–Taupō road, order them as a trip, and the app gives the distance between them plus a forecast for each, worth a look before that exposed stretch. When you are behind the wheel, switch to a navigation app; KiwiCamping does not route you.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -274,7 +274,7 @@ export const roadTripArticles: Article[] = [
       }),
       sec("Fuel, food and toilets", [
         "Fill up in Hamilton, Te Awamutu or Te Kūiti. Beyond Te Kūiti fuel is limited until you reach the New Plymouth area, so do not run the tank down. Awakino and Mōkau have cafes, and Urenui has a small shop, but supplies are limited, so shop in Hamilton or Te Awamutu.",
-        "Public toilets are at Te Kūiti, Awakino, Mōkau and Urenui, and at some of the lookout stops along the highway. Cell coverage is patchy in the gorge. The resupply guide covers shopping for a campervan trip.",
+        "Public toilets are at Te Kūiti, Awakino, Mōkau and Urenui, and at some of the lookout stops along the highway. Cell coverage is patchy in the gorge. Stock up in Hamilton or Te Kūiti; the resupply guide has a campervan shopping list.",
       ], ["Fuel in Te Kūiti before the gorge", "Coastal cafes are small", "Patchy cell coverage in the gorge"]),
       sec("New Plymouth and Mount Taranaki", [
         "New Plymouth has a coastal walkway that runs for kilometres along the waterfront past the Te Rewa Rewa Bridge, Pukekura Park in the middle of town and the Len Lye Centre. The mountain is the reason most people come, and Egmont National Park has short walks from the North Egmont visitor centre and Dawson Falls, and the longer Pouakai Crossing for those with a day to spare.",
@@ -285,7 +285,7 @@ export const roadTripArticles: Article[] = [
         "New Plymouth District Council has a handful of freedom camping areas for self-contained vehicles, and the beaches closest to the city are mostly closed. The New Plymouth freedom camping guide and the hub list the sites, and the council's own pages are the final word on the day. Booking is wise in summer.",
       ], ["Holiday parks book out in summer", "DOC campsites in Egmont National Park", "Check the council's pages on the day"]),
       sec("Planning Auckland to New Plymouth in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Egmont National Park and the Taranaki coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which is useful for the mountain. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "KiwiCamping covers the camps around Egmont National Park and the Taranaki coast, from DOC sites to holiday parks with power. Lay out the Waitomo, Mōkau and New Plymouth nights as one trip to read each leg's distance and the mountain's forecast at every stop. For the actual driving and any slips on State Highway 3, check a maps app and the NZTA Journey Planner.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -335,11 +335,11 @@ export const roadTripArticles: Article[] = [
         "On a clear day the scenic flights and the walks to Roberts Point or Sentinel Rock are the popular options, and on a wet one the hot pools in town are the standard fallback. The township is small, with a handful of cafes and supermarkets, and Fox Glacier is another 25 minutes south if you want a second look.",
       ], ["Check DOC track status before you go", "Guided trips only on the ice", "Hot pools for wet days"]),
       sec("Where to camp", [
-        "Holiday parks in Franz Josef, Hokitika and Greymouth offer power, showers and a kitchen and are the easiest choice, but they fill in summer, so book ahead. The holiday parks guide explains what to look for. DOC runs campsites near Arthur's Pass and along the Coast, from basic sites to larger ones with toilets and water.",
+        "Holiday parks in Franz Josef, Hokitika and Greymouth offer power, showers and a kitchen and are the easiest choice, but they fill in summer, so book ahead. For what you get at a Coast holiday park, from kitchens to dump points, see the holiday parks guide. DOC runs campsites near Arthur's Pass and along the Coast, from basic sites to larger ones with toilets and water.",
         "Freedom camping on the Coast is restricted. Westland District Council has specific areas for certified self-contained vehicles, and many roadside spots are closed. The Westland freedom camping guide and the South Westland hub list the current sites. The sandflies are fierce at night, so a mesh screen or a repellent is useful.",
       ], ["Book holiday parks in summer", "DOC campsites near Arthur's Pass", "Sandflies are fierce at night"]),
       sec("Planning Christchurch to Franz Josef in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones at Arthur's Pass and along the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Coast weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "Arthur's Pass and the West Coast are well mapped in KiwiCamping, with DOC campsites, huts and the holiday parks at Hokitika and Franz Josef. A trip list of your nights shows how far each hop is and the forecast for every stop, useful when the Coast rain sets in. The app is not a sat nav, and the pass's road status comes from the NZTA Journey Planner.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -382,18 +382,18 @@ export const roadTripArticles: Article[] = [
       }),
       sec("Fuel, food and toilets", [
         "Fill up in Christchurch, Amberley or Cheviot. Kaikōura has fuel, supermarkets and plenty of cafes and restaurants, so you can restock when you arrive. There are public toilets at Waipara, Cheviot, the coastal lookouts and in Kaikōura.",
-        "Cell coverage is patchy on the coast, so download your maps before you set out. There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+        "Cell coverage is patchy on the coast, so download your maps before you set out. Kaikōura and Cheviot have EV charging, and the NZTA Journey Planner maps the chargers along State Highway 1. For a full campervan shop, see the resupply guide.",
       ], ["Fuel in Amberley or Cheviot", "Restock in Kaikōura", "Download maps before the coast"]),
       sec("What to do in Kaikōura", [
         "Whale watching is the headline, and the boat trips run all year, depending on the sea conditions. Swimming with dolphins and seals is run by separate operators, and both book out in summer, so reserve before you arrive. If you prefer to stay dry, the Peninsula Walkway loops around the headland and passes a colony of fur seals, and the walk takes a few hours.",
         "On a clear day the views of the Seaward Kaikōura Range, with snow into spring, are worth a drive to a lookout. The seals at Ōhau Point and the stream where pups gather are an easy stop on the way north, and the crayfish stalls are open most days. Keep a safe distance from the seals, because they can be aggressive when they feel cornered.",
       ], ["Book boat trips before you arrive", "Peninsula Walkway for a dry day", "Keep your distance from the seals"]),
       sec("Where to camp", [
-        "Holiday parks in Kaikōura give you power, showers and a kitchen and are the easy choice, and they book out in summer and at Easter. The holiday parks guide explains what to look for. DOC runs a few campsites on the coast and in the hills behind, from simple sites to ones with toilets and water.",
-        "Freedom camping around Kaikōura is restricted, with a handful of areas for certified self-contained vehicles and most of the waterfront closed. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you are carrying on to Picton, the Marlborough hub lists the next set of sites.",
+        "Holiday parks in Kaikōura give you power, showers and a kitchen and are the easy choice, and they book out in summer and at Easter. Booking ahead in summer is wise, and the holiday parks guide covers how that works. DOC runs a few campsites on the coast and in the hills behind, from simple sites to ones with toilets and water.",
+        "Freedom camping around Kaikōura is restricted, with a handful of areas for certified self-contained vehicles and most of the waterfront closed. Kaikōura District Council's own pages decide where you can stop; the North Canterbury hub and the freedom camping rules guide summarise them. If you are carrying on to Picton, the Marlborough hub lists the next set of sites.",
       ], ["Book holiday parks in summer", "DOC campsites on the coast", "Check the council's pages on the day"]),
       sec("Planning Christchurch to Kaikōura in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Kaikōura. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "Kaikōura's holiday parks, DOC campsites and nearby huts are all in KiwiCamping on the iPhone. Save a night in Kaikōura, maybe one at Goose Bay, and the trip view gives you the kilometres and a coastal forecast for each. For directions and the current state of State Highway 1 along the coast, use your maps app and the NZTA Journey Planner.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -436,18 +436,18 @@ export const roadTripArticles: Article[] = [
       }),
       sec("Fuel, food and toilets", [
         "Fill up in Christchurch, Amberley or Culverden. Hanmer Springs has a petrol station, a small supermarket and plenty of cafes and restaurants, though prices are higher than in the city. There are public toilets in Hanmer, Culverden and at the larger rest areas on the highway.",
-        "There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+        "Electric campervans can charge in Hanmer Springs and Culverden; the NZTA Journey Planner marks each charger. What to buy before you leave the city is in the resupply guide.",
       ], ["Fuel in Amberley or Culverden", "Hanmer prices are higher", "EV chargers in the larger towns"]),
       sec("What to do in Hanmer Springs", [
         "The thermal pools are the headline, with hot pools of different temperatures, sulphur pools and a spa, and they are open every day. Go early or after dinner to avoid the busiest times, and book ahead on weekends and school holidays.",
         "Beyond the pools, the forest has short walks and mountain bike trails for every level, and the Conical Hill walk gives a view over the village and the basin in about an hour. In winter the nearby ski areas are a day trip, and in summer the Waiau River has rafting and jet boating nearby.",
       ], ["Book the pools on weekends", "Conical Hill is about an hour", "Forest walks and bike trails for every level"]),
       sec("Where to camp", [
-        "Holiday parks in Hanmer Springs give you power, showers and a kitchen and are within walking distance of the pools, and they book out in summer, at Easter and on winter weekends. The holiday parks guide explains what to look for. DOC runs campsites in the surrounding hills and towards Lewis Pass, from simple riverside sites to larger ones with toilets.",
-        "Freedom camping in Hanmer Springs itself is restricted, and the nearby reserves and roadsides are mostly closed to overnight stays. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you head up to Lewis Pass, the DOC sites there are a more reliable bet.",
+        "Holiday parks in Hanmer Springs give you power, showers and a kitchen and are within walking distance of the pools, and they book out in summer, at Easter and on winter weekends. The holiday parks guide has more on facilities and booking. DOC runs campsites in the surrounding hills and towards Lewis Pass, from simple riverside sites to larger ones with toilets.",
+        "Freedom camping in Hanmer Springs itself is restricted, and the nearby reserves and roadsides are mostly closed to overnight stays. Hurunui District Council sets the rules in Hanmer, and the North Canterbury hub plus the freedom camping rules guide give the background. If you head up to Lewis Pass, the DOC sites there are a more reliable bet.",
       ], ["Book holiday parks in summer and winter weekends", "DOC campsites towards Lewis Pass", "Check the council's pages on the day"]),
       sec("Planning Christchurch to Hanmer Springs in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Hanmer Springs and Lewis Pass. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps when snow is possible. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "KiwiCamping shows the camping around Hanmer Springs and over Lewis Pass: holiday parks in the village, DOC campsites in the forest and the huts beyond. Make the Hanmer night a trip stop and you get the distance from Christchurch and a forecast there, handy in the months when snow can reach the pass. Driving directions and chain advice are outside the app, so check the NZTA Journey Planner before you go.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],
@@ -489,7 +489,7 @@ export const roadTripArticles: Article[] = [
         ],
       }),
       sec("Fuel, food and conditions", [
-        "Fill up at Fairlie, Tekapo or Twizel, and again at Cromwell or Queenstown. The stretch from Queenstown to Te Anau has a few places to stop but little in the way of choice, so top up in Queenstown and stock up for Fiordland there, where the supermarkets are bigger than in Te Anau. The resupply guide covers shopping for a campervan trip.",
+        "Fill up at Fairlie, Tekapo or Twizel, and again at Cromwell or Queenstown. The stretch from Queenstown to Te Anau has a few places to stop but little in the way of choice, so top up in Queenstown and stock up for Fiordland there, where the supermarkets are bigger than in Te Anau. Shops thin out past Fairlie, and the resupply guide explains what to buy in Christchurch first.",
         "The Lindis Pass and the Mackenzie Country can have snow and ice in winter, and the highways occasionally close. Check the NZTA Journey Planner before you leave and read the winter driving guide if you are travelling in cold months. In summer the roads are busy with campervans, and the one-lane bridges and gravel sections need a bit of care.",
       ], ["Fuel at Tekapo, Twizel and Queenstown", "Supermarkets are bigger in Queenstown", "Snow possible at the Lindis in winter"]),
       sec("Te Anau and Fiordland", [
@@ -497,11 +497,11 @@ export const roadTripArticles: Article[] = [
         "The Kepler Track is a Great Walk that starts at Te Anau, and the Kepler guide covers the huts and campsites and how to book. The Te Anau Glowworm Caves are across the lake, and the lakefront walk suits an evening. Weather in Fiordland is very wet and changeable, so check the forecast and allow a spare day.",
       ], ["Milford is about 2 hours each way", "Doubtful Sound leaves from Manapōuri", "Book the Kepler Track early for summer"]),
       sec("Where to camp at Te Anau", [
-        "Holiday parks in Te Anau give you power, showers and a kitchen and are the easy choice. They fill in summer and over school holidays, so book ahead. The holiday parks guide explains what to look for. DOC runs a series of simple campsites along the Milford Road and around the lake, many with toilets and water and some with a nightly fee.",
-        "Freedom camping around Te Anau is heavily restricted, and most of the lakefront and the roadside areas are closed to overnight stays. The Te Anau hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. The sandflies in Fiordland are fierce, so carry repellent and a mesh screen.",
+        "Holiday parks in Te Anau give you power, showers and a kitchen and are the easy choice. They fill in summer and over school holidays, so book ahead. Te Anau fills up in summer, so read the holiday parks guide on booking early. DOC runs a series of simple campsites along the Milford Road and around the lake, many with toilets and water and some with a nightly fee.",
+        "Freedom camping around Te Anau is heavily restricted, and most of the lakefront and the roadside areas are closed to overnight stays. Southland District Council and DOC set the rules here; read the Te Anau hub and the freedom camping rules guide, then check the council page before you park. The sandflies in Fiordland are fierce, so carry repellent and a mesh screen.",
       ], ["Book holiday parks in summer", "DOC campsites along the Milford Road", "Sandflies are fierce"]),
       sec("Planning Christchurch to Te Anau in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones along the Milford Road and around Te Anau. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps with the Fiordland weather. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "From Te Anau up the Milford Road, KiwiCamping maps the DOC campsites, huts and holiday parks the Fiordland trip depends on. Put the Tekapo, Te Anau and Milford Road nights in order and the app lists each leg's distance and a forecast per stop, which you will want in Fiordland. It will not navigate or show the avalanche-season road status; the NZTA Journey Planner does that.",
         "DOC bookings stay on DOC's own booking pages.",
       ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
     ],

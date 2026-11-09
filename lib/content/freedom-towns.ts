@@ -50,12 +50,12 @@ export const freedomTownArticles: Article[] = [
         ],
       }),
       s("Fines and what to do instead", [
-        "A breach of a council bylaw is an infringement under the Freedom Camping Act. The fees come from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited or restricted, $400 for staying in a vehicle that is not self-contained where that is not allowed, $200 for not displaying the warrant card, and $800 for damaging the area or leaving waste. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company, which then passes it on.",
+        "A breach of a council bylaw is an infringement under the Freedom Camping Act. The fees come from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited or restricted, $400 for staying in a vehicle that is not self-contained where that is not allowed, $200 for not displaying the warrant card, and $800 for damaging the area or leaving waste. Hire companies receive the ticket as registered owners and then charge it to the renter's card.",
         "The sensible fallback in Hawke's Bay is a holiday park. Napier has several, and the guide to holiday parks in New Zealand explains how to book and what to expect. Department of Conservation land in the region is mostly in the Kaweka and Ruahine ranges inland, and KiwiCamping's DOC data (11 August 2026) lists 7 DOC campsites in the region, 6 of them free, with campervan access at only 2. DOC's freedom camping notices for Hawke's Bay cover 16 places.",
       ], ["$400 for most breaches", "Holiday parks for tents and uncertified vans", "DOC land is inland and basic"]),
       s("Using KiwiCamping in Hawke's Bay", [
         "KiwiCamping shows the DOC campsites and huts in the region, holiday parks with their facilities, and dump stations, with filters to narrow them to what your vehicle needs. It does not hold the councils' freedom camping sites, so use the council pages above for those and save a holiday park as your fallback for each night.",
-        "Put the Napier night into a trip with its date and a note, and read the distance to the next stop, which for most people is the drive to or from Wellington or Taupō. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Put the Napier night into a trip with its date and a note, and read the distance to the next stop, which for most people is the drive to or from Wellington or Taupō. Your saved Hawke's Bay spots and their details stay readable without coverage; the map, directions, forecast and photos load once you have signal again. The app is free to download, with in-app purchases.",
       ], ["Council sites: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -94,7 +94,7 @@ export const freedomTownArticles: Article[] = [
       ], ["Central car parks only", "A few non-certified spaces at Buxton, check the number", "Arrive early in summer"]),
       s("Where you cannot", [
         "Camping in tents is not allowed on council land, and neither is camping in the parks and reserves around the city, the Maitai Valley, the foreshore at Tāhunanui or the beach car parks, which is the kind of place visitors expect to find a spot. Anywhere not on the council's list should be treated as closed.",
-        "The council patrols and enforces the bylaw, and a breach can bring a $400 fine for camping where it is not allowed, with $800 for damage or waste under the national fees from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. A fine goes to the registered owner of the vehicle, which for a rental is the hire company.",
+        "The council patrols and enforces the bylaw, and a breach can bring a $400 fine for camping where it is not allowed, with $800 for damage or waste under the national fees from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. In a rental, the notice reaches the hire company first, and they bill you.",
       ], ["No tents on council land", "Parks, reserves and beaches: closed", "$400 for most breaches"]),
       s("Dump stations and the next town", [
         "The council lists free public dump stations for campervans on its camping page, and Nelson sits on the route between the ferry at Picton and the west coast, so it is a natural place to empty tanks and refill water. The guide to wastewater and rubbish explains the etiquette.",
@@ -106,7 +106,7 @@ export const freedomTownArticles: Article[] = [
       ], ["37 DOC campsites in Nelson Tasman", "Only 8 with campervan access", "DOC notices are separate from the council's"]),
       s("Using KiwiCamping around Nelson", [
         "KiwiCamping shows the DOC campsites and huts in Nelson Tasman, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's central car parks, so the council page is the source for those.",
-        "Add the Nelson night to a trip with its date and a holiday park as the fallback, and read the distance to the next stop, whether that is Abel Tasman, Golden Bay or the drive south. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Add the Nelson night to a trip with its date and a holiday park as the fallback, and read the distance to the next stop, whether that is Abel Tasman, Golden Bay or the drive south. Saved Nelson places and guides open offline, which helps on the Takaka Hill, though the map, routes, weather and photos wait for a connection. It is free to download, with in-app purchases.",
       ], ["Council car parks: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -155,8 +155,8 @@ export const freedomTownArticles: Article[] = [
         "Those notices are DOC's own and are separate from the council's, so the council page decides the town and the DOC page decides the conservation land.",
       ], ["DOC notices cover 6 places in North Canterbury", "Canterbury has 22 DOC campsites", "Council and DOC rules are separate"]),
       s("Using KiwiCamping around Kaikōura", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's freedom camping sites, so use the council page for those and save a holiday park as your fallback for the night.",
-        "Add Kaikōura to a trip between Picton and Christchurch with its date and a note, and read the distance on each leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Around Kaikōura, KiwiCamping lists the holiday parks, DOC sites and the nearest dump station, and you can filter for places a campervan can reach. It does not hold the council's freedom camping sites, so use the council page for those and save a holiday park as your fallback for the night.",
+        "Add Kaikōura to a trip between Picton and Christchurch with its date and a note, and read the distance on each leg. Coverage thins out along the Kaikōura coast road, but the places and guides you saved still open; maps, routing, weather and photos come back with signal. Free to download, with in-app purchases.",
       ], ["Council sites: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -198,11 +198,11 @@ export const freedomTownArticles: Article[] = [
       ], ["Town centre and streets: no", "Te Toto Gorge: DOC notice, no camping", "$400 for most breaches"]),
       s("Without a certified vehicle", [
         "A tent, a car with a mattress or a van with a portable toilet cannot freedom camp anywhere in Waikato District. The council points those travellers to holiday parks, campgrounds and DOC camping areas, and in Raglan the harbourside holiday parks are the dependable choice, with the Kopua Holiday Park on the water the best known. They fill quickly in summer and at New Year, so book ahead.",
-        "The guide to holiday parks in New Zealand explains how to book them. KiwiCamping's DOC data (11 August 2026) lists 7 DOC campsites in the Waikato region, 4 of them bookable online and all in forest parks inland, none on the Raglan coast.",
+        "For how booking a Raglan holiday park works in summer, see the guide to holiday parks in New Zealand. KiwiCamping's DOC data (11 August 2026) lists 7 DOC campsites in the Waikato region, 4 of them bookable online and all in forest parks inland, none on the Raglan coast.",
       ], ["Tents need a holiday park", "Book ahead in summer", "DOC campsites are inland"]),
       s("Using KiwiCamping around Raglan", [
         "KiwiCamping shows DOC campsites, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's freedom camping areas, so the council's maps are the source for those.",
-        "Add Raglan to a trip, perhaps between Hamilton and the Coromandel or the Waitomo caves, with the date and a holiday park as the fallback, and read the distance to the next stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Add Raglan to a trip, perhaps between Hamilton and the Coromandel or the Waitomo caves, with the date and a holiday park as the fallback, and read the distance to the next stop. Around the Raglan bays the saved places and their notes work without reception, while maps, routes, the forecast and photos need a signal. The download is free, with in-app purchases.",
       ], ["Council maps decide the spot", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -244,15 +244,15 @@ export const freedomTownArticles: Article[] = [
       ], ["Community listings are leads, not rules", "Check the sign on arrival", "Mackenzie and Waitaki have their own bylaws"]),
       s("Fines", [
         "Officers who are warranted under the Act can issue the national infringement fees: $400 for freedom camping in a place where it is prohibited, $400 for using a vehicle that is not self-contained where it must be, $200 for not displaying the warrant card and $800 for damaging the area or leaving waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
-        "A certified self-contained vehicle needs the green warrant since 7 June 2026, which the guide to the self-contained campervan warrant explains. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+        "A certified self-contained vehicle needs the green warrant since 7 June 2026, which the guide to the self-contained campervan warrant explains. If you are in a hire van, the infringement notice is sent to the rental firm, which recovers it from you.",
       ], ["$400 for most breaches", "$800 for waste or damage", "Green warrant since 7 June 2026"]),
       s("DOC land and the holiday park", [
         "Conservation land is inland, in the foothills around Geraldine and Peel Forest. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 6 of them free and 14 bookable through DOC, with Peel Forest Campground the largest with room for 81. DOC's freedom camping notices around Geraldine are DOC's own rules, separate from the council's.",
         "The guide to holiday parks in New Zealand explains how to book them, and the Christchurch to Tekapo and Aoraki road trip shows where Timaru fits on the inland route.",
       ], ["22 DOC campsites in Canterbury", "Peel Forest is the largest", "Holiday park for the bay"]),
       s("Using KiwiCamping around Timaru", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's overnight parking, so use the council page and the sign for the bay.",
-        "Add Timaru to a trip between Christchurch and Dunedin, or on the way to Tekapo, with its date and a holiday park as the fallback, and read the distance on each leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "In South Canterbury the KiwiCamping map holds Timaru's holiday parks and dump points along with the DOC sites in the foothills, filterable by vehicle access. It does not hold the council's overnight parking, so use the council page and the sign for the bay.",
+        "Add Timaru to a trip between Christchurch and Dunedin, or on the way to Tekapo, with its date and a holiday park as the fallback, and read the distance on each leg. Saved Timaru spots and guides are on the phone, so they open without coverage; map tiles, directions, weather and photos load when you are back in range. Free to download, with in-app purchases.",
       ], ["Council page and sign decide", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -294,7 +294,7 @@ export const freedomTownArticles: Article[] = [
         "Cathedral Cove has a separate rule. DOC's freedom camping notice for the Cathedral Cove car park prohibits camping, and DOC's notices around Whitianga cover 4 places, all of them prohibitions. The rest of the peninsula follows the same council-wide bylaw.",
       ], ["The Esplanade: no", "Hāhei and Hot Water Beach: no", "Cathedral Cove car park: DOC notice, no camping"]),
       s("Fines", [
-        "A breach of the bylaw is an infringement offence under the Freedom Camping Act. The fees under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023 are $400 for freedom camping where it is prohibited or restricted, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+        "A breach of the bylaw is an infringement offence under the Freedom Camping Act. The fees under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023 are $400 for freedom camping where it is prohibited or restricted, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. Fines are issued to the vehicle's registered owner, so renters usually see it charged later by the hire company.",
       ], ["$400 for most breaches", "$800 for waste or damage", "Rental companies pass fines on"]),
       s("Holiday parks and DOC campsites", [
         "The sure option in Mercury Bay is a holiday park, and the guide to holiday parks in New Zealand explains how to book. They fill quickly in the Christmas and New Year weeks, so book ahead for Whitianga, Hāhei and Hot Water Beach.",
@@ -302,7 +302,7 @@ export const freedomTownArticles: Article[] = [
       ], ["Book ahead for New Year", "20 DOC campsites on the Coromandel", "19 bookable through DOC"]),
       s("Using KiwiCamping around Whitianga", [
         "KiwiCamping shows the DOC campsites and huts on the peninsula, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's two car parks, so use the council's page for those and keep a holiday park as the fallback.",
-        "Add Whitianga to a trip with its date and a note, and read the distance to Coromandel Town or Tairua. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Add Whitianga to a trip with its date and a note, and read the distance to Coromandel Town or Tairua. On the Coromandel's gaps in coverage you can still open the places and guides you saved, but the map, routing, forecast and photos need a signal. It costs nothing to download, with in-app purchases.",
       ], ["Council car parks: use the council's page", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -347,8 +347,8 @@ export const freedomTownArticles: Article[] = [
         "DOC's freedom camping notices in the Sounds cover 11 places, 10 of them prohibitions, so a roadside bay is not automatically a camping place. The notices are DOC's own and are separate from the council's.",
       ], ["44 DOC campsites in Marlborough", "25 are boat or foot access only", "DOC notices ban camping at 10 places"]),
       s("Using KiwiCamping from Picton", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access, which matters in the Sounds. It does not hold the council's Renwick and Blenheim sites, so use the council's page for those.",
-        "Add the first night off the ferry to a trip with its date, and read the distance to Blenheim, Nelson or Kaikōura. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "The campervan-access filter in KiwiCamping earns its keep in the Sounds, where many DOC campsites are boat- or track-only; the app also lists Picton's parks and dump stations. It does not hold the council's Renwick and Blenheim sites, so use the council's page for those.",
+        "Add the first night off the ferry to a trip with its date, and read the distance to Blenheim, Nelson or Kaikōura. Saved Marlborough places and guides stay on the phone for the patchy Sounds roads, while maps, routes, weather and photos load only with signal. Free to download, with in-app purchases.",
       ], ["Filter for campervan access", "Plan the first night before boarding", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -386,18 +386,18 @@ export const freedomTownArticles: Article[] = [
         "The Milford Road itself runs through Fiordland National Park and has no roadside camping. Overnight parking in the lay-bys and viewpoints is prohibited, so plan the drive as a day trip from a campsite or holiday park, and allow for the fact that the road can close for snow or avalanche risk.",
       ], ["24 DOC notices, all prohibitions", "No roadside camping on the Milford Road", "Plan Milford as a day trip"]),
       s("Where to stay instead", [
-        "Te Anau has holiday parks and a motor camp on or near the lakefront, and Manapouri has its own. They are the straightforward choice for tents and for campervans without a self-containment certificate, and they fill from December to February and in the school holidays, so book ahead. The guide to holiday parks in New Zealand explains how booking works.",
-        "KiwiCamping's DOC data (11 August 2026) lists 13 DOC campsites in Fiordland, 10 of them bookable online through DOC, with adult nightly rates from $10 to $42. Cascade Creek on the Milford Road is the largest, with room for 120, 8 of the 13 have campervan access, and 3 are free. 4 are reached only on foot or by boat, so check access before you drive.",
+        "Te Anau has holiday parks and a motor camp on or near the lakefront, and Manapouri has its own. They are the straightforward choice for tents and for campervans without a self-containment certificate, and they fill from December to February and in the school holidays, so book ahead. Book Te Anau parks early in summer; the holiday parks guide shows how.",
+        "Of the 13 Fiordland DOC campsites in KiwiCamping's data from 11 August 2026, 10 take online bookings, and an adult night costs between $10 and $42. Cascade Creek on the Milford Road is the largest, with room for 120, 8 of the 13 have campervan access, and 3 are free. 4 are reached only on foot or by boat, so check access before you drive.",
       ], ["Book Te Anau holiday parks ahead", "13 DOC campsites in Fiordland", "Cascade Creek is the biggest"]),
       s("Fines", [
-        "Officers enforce the bylaw and the national fees apply, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+        "Officers enforce the bylaw and the national fees apply, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A rental's fine lands with the hire company, which passes the cost on with an admin fee.",
       ], ["$400 for most breaches", "$800 for waste or damage", "Rental companies pass fines on"]),
       s("Great Walks and the wider region", [
         "Te Anau is the start of the Kepler Track and the Milford Track transport, and the Great Walks guides explain how to book their huts and campsites through DOC, which sell out months ahead. The Fiordland road trip guide covers the wider drive, and the Queenstown to Milford Sound drive guide covers the day trip from the other side.",
       ], ["Great Walks book months ahead", "Fiordland road trip covers the loop", "Queenstown to Milford is a long day"]),
       s("Using KiwiCamping around Te Anau", [
         "KiwiCamping shows Fiordland's DOC campsites and huts with their fees and facilities, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's bylaw, so use the council's page for the rules.",
-        "Save a holiday park or a DOC campsite for each night near the mountains, add them to a trip with dates, and check the forecast on each leg, which matters on the Milford Road. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Save a holiday park or a DOC campsite for each night near the mountains, add them to a trip with dates, and check the forecast on each leg, which matters on the Milford Road. There is little coverage past Te Anau, so save places and guides before you leave town: they open offline, but the map, routing, weather and photos do not. The app is free, with in-app purchases.",
       ], ["Save a campsite for each night", "Check the forecast for Milford", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -436,15 +436,15 @@ export const freedomTownArticles: Article[] = [
       ], ["Lake Wardell: self-contained, first come first served", "Arrive early in summer", "Use the council's current map"]),
       s("The holiday closure", [
         "Four of the council's responsible camping sites are closed from 23 December to the second Monday in January inclusive, which in 2026-27 runs from 23 December 2026 to 11 January 2027. That is the fortnight when Twizel is fullest, so a Christmas or New Year trip needs a booked holiday park or DOC campsite, not a hope of a free space.",
-        "A fine for camping in a closed place is $400 under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner, which for a rental is usually the hire company.",
+        "A fine for camping in a closed place is $400 under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. The registered owner gets the notice, so in a hire van expect the rental company to forward the charge.",
       ], ["Closed 23 December to 11 January at four sites", "Book ahead for the holidays", "$400 for most breaches"]),
       s("DOC land near Twizel", [
-        "DOC runs its own rules on conservation land around Twizel, and its freedom camping notices for the district list four restricted camping and amenity areas, including Quailburn and Round Bush, each with a limit of no more than four nights in a calendar month. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 14 of them bookable online through DOC, with adult nightly rates from $10 to $23.",
+        "DOC runs its own rules on conservation land around Twizel, and its freedom camping notices for the district list four restricted camping and amenity areas, including Quailburn and Round Bush, each with a limit of no more than four nights in a calendar month. Canterbury has 22 DOC campsites in KiwiCamping's 11 August 2026 data; 14 can be booked online, at $10 to $23 per adult per night.",
         "The guide to DOC campsites explains how booking works, and the guide to holiday parks covers the paid sites in Twizel, Tekapo and Aoraki Mount Cook.",
       ], ["4 DOC restricted areas, 4 nights a month", "22 DOC campsites in Canterbury", "14 bookable online"]),
       s("Using KiwiCamping around Twizel", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's sites, so use the council's page for Lake Wardell and the rest.",
-        "Add Twizel to a trip between Christchurch, Tekapo and Queenstown with its date and a note, keep a holiday park saved as the fallback, and read the distance on each leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "KiwiCamping maps the Twizel holiday parks, the Mackenzie's DOC campsites and the dump stations in between, and its access filter hides the ones a van cannot reach. It does not hold the council's sites, so use the council's page for Lake Wardell and the rest.",
+        "Add Twizel to a trip between Christchurch, Tekapo and Queenstown with its date and a note, keep a holiday park saved as the fallback, and read the distance on each leg. In the Mackenzie the places and guides you saved open without reception; map tiles, directions, the forecast and photos need coverage. Free to download, with in-app purchases.",
       ], ["Council page decides Lake Wardell", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -482,15 +482,15 @@ export const freedomTownArticles: Article[] = [
       ], ["18 marked spaces", "Two nights in any 30 days", "Check availability before relying on it"]),
       s("Where it is banned", [
         "Everything else the council owns or manages in the township is prohibited, which includes the waterfront, the wharf and the streets around the harbour. For daytime parking of large vehicles the council suggests the area near the boat ramp, but that is not an overnight spot.",
-        "A fine for camping where it is prohibited is $400, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+        "A fine for camping where it is prohibited is $400, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. On a hired campervan the fine is posted to the hire company, who will add it to your bill.",
       ], ["Waterfront and streets: banned", "Boat ramp area is for day parking", "$400 for most breaches"]),
       s("Holiday parks and the wider peninsula", [
         "Akaroa has holiday parks in and just outside the town, and they are the right answer for tents, uncertified vans and anyone staying more than two nights. They book out over Christmas, the school holidays and the long weekends, so reserve ahead. The guide to holiday parks in New Zealand explains how booking works, and the Banks Peninsula camping weekend guide covers the wider loop.",
         "DOC's freedom camping notices around Christchurch and Banks Peninsula, for places such as Godley Head and Ripapa Island, prohibit camping. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, but the closest are well inland of the peninsula.",
       ], ["Book ahead for summer weekends", "DOC notices near Christchurch ban camping", "Closest DOC campsites are inland"]),
       s("Using KiwiCamping around Akaroa", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's Boat Park area, so use the council's page for that and save a holiday park as the fallback.",
-        "Add Akaroa to a trip from Christchurch with its date and a note, and read the distance on the winding road over the hills. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "On Banks Peninsula, KiwiCamping shows which holiday parks have power and showers, where the dump station is and which DOC sites a campervan can drive to. It does not hold the council's Boat Park area, so use the council's page for that and save a holiday park as the fallback.",
+        "Add Akaroa to a trip from Christchurch with its date and a note, and read the distance on the winding road over the hills. Saved Banks Peninsula places and their notes open even where the hill road loses signal, while maps, routes, weather and photos wait for coverage. Free to download, with in-app purchases.",
       ], ["Council page decides the Boat Park", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -531,17 +531,17 @@ export const freedomTownArticles: Article[] = [
         "On Urupukapuka Island in the bay, DOC runs campsites reached by boat or ferry, which suit a night away from the road. The kauri dieback guide matters on the walks from these campsites.",
       ], ["5 DOC notices, all bans", "14 DOC campsites in Northland", "Island campsites by boat"]),
       s("Holiday parks in Paihia", [
-        "The Bay of Islands has holiday parks and motor camps in Paihia, at Waitangi and at Haruru Falls, with tent sites, powered sites, cabins and campervan bays, and they are the straightforward answer for any night here. They fill from December to February and over Easter, so reserve ahead. The guide to holiday parks in New Zealand explains how booking works.",
+        "The Bay of Islands has holiday parks and motor camps in Paihia, at Waitangi and at Haruru Falls, with tent sites, powered sites, cabins and campervan bays, and they are the straightforward answer for any night here. They fill from December to February and over Easter, so reserve ahead. Paihia's parks fill in January, and the guide to holiday parks in New Zealand covers booking ahead.",
         "For a week-long plan, the Bay of Islands camping week guide covers the nights and the days around the bay, and the Auckland to Bay of Islands drive guide covers the road from the city.",
       ], ["Book ahead from December to Easter", "Powered sites and cabins", "Week-long plan in the Bay of Islands guide"]),
       s("Using KiwiCamping around Paihia", [
-        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. It does not hold the council's approved sites, so use the council's page for Kawakawa.",
-        "Add the Bay of Islands to a trip with each night dated and a holiday park noted, and read the distance between legs, whether you are heading on to Cape Reinga or back to Auckland. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "For the Bay of Islands, KiwiCamping lists the holiday parks with bookable sites, the DOC campsites and the dump stations, and filters them by what your vehicle can reach. It does not hold the council's approved sites, so use the council's page for Kawakawa.",
+        "Add the Bay of Islands to a trip with each night dated and a holiday park noted, and read the distance between legs, whether you are heading on to Cape Reinga or back to Auckland. Northland's back roads drop signal often; the places and guides you saved still open, while the map, routing, weather and photos need a connection. The download is free, with in-app purchases.",
       ], ["Council page decides Kawakawa", "Date each night and add a fallback", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
       ["Can I freedom camp in Paihia?", "No. Far North District Council does not allow camping or overnight parking in its parks, reserves and beaches, and DOC bans camping at five places around the Bay of Islands. Use a holiday park."],
-      ["Where is the nearest free camping to Paihia?", "The council's approved site at Kawakawa, about 20 minutes' drive away, is the nearest it lists. Check the council's page, because the list has changed before."],
+      ["Where is the nearest free camping to Paihia?", "The council's approved site at Kawakawa, about 20 minutes' drive away, is the nearest it lists. The Far North District Council page has the current list, and it has changed more than once."],
     ],
     sources: [
       { label: "Far North District Council: Responsible camping", url: "https://www.fndc.govt.nz/District/Visiting-the-Far-North/responsible-camping" },
