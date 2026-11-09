@@ -2952,6 +2952,194 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps Tidak Berfungsi di Selandia Baru? Solusi untuk Masuk, Pembaruan, dan Perjalanan yang Hilang (2026)",
+      "description": "WikiCamps Selandia Baru tidak mau terbuka, terus meminta Anda masuk, atau memaksa pembaruan? Solusi dari pusat bantuan WikiCamps sendiri, jawaban soal versi lama dan versi PC, serta siapa pemiliknya sekarang.",
+      "region": "Selandia Baru",
+      "imageAlt": "Campervan sewaan terparkir di tempat parkir pinggir jalan yang basah di bawah perbukitan berhutan",
+      "intro": "WikiCamps Selandia Baru berubah lebih banyak dalam dua tahun terakhir dibandingkan satu dekade sebelumnya. Versi 6 membangun ulang aplikasi dari nol, setiap pengguna kini membutuhkan akun, dan sejak Maret 2026 aplikasi yang tertinggal terlalu jauh menolak terbuka sampai Anda memperbaruinya. Sebagian besar masalah yang dicari orang berasal dari tiga perubahan itu, dan sebagian besar bisa diperbaiki dalam beberapa menit dari lokasi berkemah dengan satu bar sinyal. Solusi di bawah ini berasal dari pusat bantuan WikiCamps sendiri, dibaca pada 9 November 2026. Kami membuat KiwiCamping, aplikasi berkemah lain untuk Selandia Baru, jadi bagian tentang beralih di akhir adalah milik kami; semua yang ada sebelumnya dimaksudkan untuk membuat WikiCamps kembali berfungsi.",
+      "sections": [
+        {
+          "heading": "Solusi cepat saat WikiCamps tidak mau memuat",
+          "body": [
+            "Mulailah dari ponsel, bukan aplikasinya. WikiCamps menyatakan mendukung iOS 26 ke atas di iPhone dan iPad serta Android 15 ke atas. Aplikasi mungkin masih bisa dipasang di sistem yang lebih lama, tetapi WikiCamps mengatakan tidak bisa menjamin semua fitur berjalan di sana atau membantu mengatasi masalahnya. Di iPhone, periksa di Pengaturan, Umum, Pembaruan Perangkat Lunak; di Android, di Pengaturan, Tentang ponsel.",
+            "Jika ponsel sudah mutakhir tetapi WikiCamps tetap macet saat memuat atau menampilkan kesalahan \"Could not retrieve data\", pusat bantuannya memberi daftar singkat yang sama untuk keduanya: pasang versi terbaru dari toko aplikasi, mulai ulang ponsel, beralih dari Wi-Fi ke data seluler, matikan VPN apa pun, dan izinkan WikiCamps memakai lokasi Anda. Mencopot lalu memasang ulang adalah langkah terakhir, dan hanya layak dilakukan setelah perjalanan Anda tersinkron ke akun, karena pemasangan ulang membuat ponsel mulai dari nol."
+          ],
+          "tips": [
+            "iOS 26 atau Android 15 ke atas",
+            "Coba data seluler, bukan Wi-Fi tempat berkemah",
+            "Pasang ulang hanya setelah perjalanan Anda tersinkron"
+          ],
+          "table": {
+            "caption": "Dari pusat bantuan WikiCamps (support.wikicamps.co), dibaca 9 November 2026.",
+            "head": [
+              "Masalah",
+              "Penyebab umum",
+              "Yang bisa dicoba"
+            ],
+            "rows": [
+              [
+                "Macet saat memuat atau \"Could not retrieve data\"",
+                "Versi aplikasi lama, Wi-Fi lemah, VPN, atau lokasi dimatikan",
+                "Perbarui, mulai ulang, pakai data seluler, matikan VPN, izinkan lokasi"
+              ],
+              [
+                "Diminta masuk berulang kali",
+                "Ponsel menghapus data aplikasi atau membatasinya di latar belakang",
+                "Matikan optimalisasi baterai dan aplikasi pembersih untuk WikiCamps"
+              ],
+              [
+                "Tidak ada kode verifikasi",
+                "Email tersaring atau tertunda",
+                "Periksa folder spam dan tunggu 10 sampai 15 menit"
+              ],
+              [
+                "Diminta membayar lagi",
+                "Masuk dengan akun atau ID toko yang berbeda dari yang membayar",
+                "Pakai akun asli; pulihkan lewat Apple ID yang sama"
+              ],
+              [
+                "Perjalanan atau favorit hilang",
+                "Masuk ke akun WikiCamps yang berbeda",
+                "Masuk dengan email asli dan biarkan tersinkron"
+              ],
+              [
+                "Tidak terbuka tanpa sinyal",
+                "Mode offline tidak aktif sebelum sinyal hilang",
+                "Unduh konten offline dan aktifkan mode offline di kota"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Mengapa WikiCamps meminta Anda masuk atau membuat akun",
+          "body": [
+            "Aplikasi yang dibangun ulang ini berbasis akun. WikiCamps menyatakan akun membuat perjalanan, favorit, ulasan, dan data tersimpan lainnya tersinkron antarperangkat dan bertahan saat ganti ponsel atau pasang ulang, dan itu juga cara aplikasi memeriksa bahwa Anda sudah membayar. Jika dulu Anda memakai aplikasi lama tanpa pernah mendaftar, sekarang Anda perlu membuat akun; dan jika tidak yakin sudah membuatnya, WikiCamps menyarankan mencoba \"Forgot your password?\" dengan email Anda: tidak ada email pengaturan ulang berarti tidak ada akun dengan alamat itu.",
+            "Kode verifikasi datang dari layanan masuk Microsoft atas nama WikiCamps, jadi cari pengirim bernama \"Microsoft on behalf of WikiCamps\" dengan subjek tentang kode verifikasi email akun WikiCamps. WikiCamps menyarankan memeriksa folder spam dan menunggu 10 sampai 15 menit, dan mengatakan tim dukungannya tidak bisa mengirim kode secara manual. Jika aplikasi terus meminta Anda masuk setelah Anda melakukannya, WikiCamps menganggapnya masalah ponsel, bukan aplikasi: optimalisasi baterai, pembatasan latar belakang, penghapusan otomatis data aplikasi, dan aplikasi pembersih pihak ketiga semuanya bisa menghapus sesi yang tersimpan."
+          ],
+          "tips": [
+            "Kode datang dari Microsoft atas nama WikiCamps",
+            "Izinkan WikiCamps berjalan di latar belakang",
+            "Pakai email yang pertama kali Anda gunakan untuk mendaftar"
+          ]
+        },
+        {
+          "heading": "Sudah membayar tetapi diminta membayar lagi",
+          "body": [
+            "WikiCamps memeriksa pembelian Anda lewat akun yang Anda pakai untuk masuk dan toko tempat Anda membeli. Di iPhone, pastikan App Store masuk dengan Apple ID yang membeli WikiCamps, lalu unduh ulang dari App Store. Di Android, WikiCamps menyatakan akun baru atau yang berbeda dapat menyembunyikan pembelian lama; jika layar pembelian tidak mau hilang, kirimkan nomor pesanan Google Play Anda dari Pembayaran dan langganan di Play Store ke tim dukungannya, dan mereka akan mengaktifkan aplikasinya.",
+            "Pembelian juga tetap terikat pada tokonya. Pindah dari Android ke iPhone, atau sebaliknya, berarti membeli WikiCamps lagi, meski data akun Anda ikut setelah Anda masuk. Dan WikiCamps Selandia Baru serta WikiCamps Australia adalah aplikasi terpisah, masing-masing dibeli sendiri, jadi yang satu tidak membuka yang lain."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pembaruan paksa sejak Maret 2026",
+          "body": [
+            "Sejak Maret 2026, WikiCamps memblokir versi yang tertinggal lebih dari dua rilis. Jika Anda membuka versi yang tidak lagi didukung, aplikasi meminta Anda memperbarui dari toko aplikasi sebelum bisa melanjutkan; versi yang masih didukung menampilkan pemberitahuan di dalam aplikasi dan memperbolehkan Anda memperbarui nanti. Halaman \"Version Update History\" WikiCamps menandai versi mana yang didukung: saat kami memeriksa pada 9 November 2026, itu adalah 6.3.0 dan 6.2.4 sampai 6.2.5, dan App Store Selandia Baru sudah menawarkan 6.3.1.",
+            "Risiko praktis di Selandia Baru adalah disuruh memperbarui di tempat yang tidak ada sinyal untuk itu. Bentangan panjang West Coast, Fiordland, dan Catlins tidak punya jangkauan, jadi perbarui di kota terakhir dengan sinyal bagus, lalu unduh konten offline WikiCamps dan aktifkan mode offline dari menu sebelum berangkat. WikiCamps mencantumkan masalah yang diketahui: tanpa koneksi sama sekali, halaman Explore bisa macet sebelum Anda sempat membuka menu untuk mengaktifkan mode offline, dan mode offline-nya untuk sementara hanya bisa dilihat: tidak bisa membuat atau mengedit perjalanan sampai Anda kembali berada dalam jangkauan."
+          ],
+          "tips": [
+            "Tertinggal lebih dari dua rilis berarti diblokir",
+            "Perbarui di kota, bukan di tempat berkemah",
+            "Aktifkan mode offline sebelum sinyal hilang"
+          ]
+        },
+        {
+          "heading": "Bisakah kembali ke versi lama WikiCamps?",
+          "body": [
+            "Tidak. WikiCamps menyatakan versi lama tidak lagi didukung atau dapat diakses sejak Maret 2026, dan toko aplikasi hanya menawarkan rilis saat ini. Alasannya, aplikasi sebelumnya dibangun di atas platform yang tidak bisa dipelihara untuk pembaruan jangka panjang, sehingga versi 6 dibangun ulang dari dasar, dengan rilis versi 6 pertama pada November 2024.",
+            "Banyak keluhan tentang aplikasi baru ini menyangkut hal-hal yang berpindah tempat, bukan hilang. Daftar tempat yang disukai, berbintang, sudah dikunjungi, dan ingin dikunjungi kini ada di bagian bawah tab Home. Opsi filter sengaja disederhanakan, jadi beberapa tombol pengecualian lama sudah tidak ada, dan WikiCamps meminta orang yang mengandalkannya untuk memberi tahu tim dukungannya. Jika tempat tampak hilang dari peta, WikiCamps menyarankan menghapus filter yang aktif dan memperbesar peta, karena peta hanya menampilkan sejumlah hasil terbatas sekaligus. WikiCamps sendiri mengatakan banyak ulasan negatif belakangan ini berkaitan dengan peralihan ke aplikasi yang dibangun ulang dan bahwa fitur-fitur utama dikembalikan secara bertahap."
+          ],
+          "tips": [
+            "Favorit kini ada di Collections",
+            "Hapus filter jika tempat menghilang",
+            "Filter tersimpan tetap ada di setiap perangkat"
+          ]
+        },
+        {
+          "heading": "Apakah ada versi PC atau Windows WikiCamps?",
+          "body": [
+            "Sudah tidak ada. Aplikasi Windows WikiCamps adalah versi 5, dan dihentikan bersama versi lama lainnya. Versi 6 hanya berjalan di iPhone, iPad, serta ponsel dan tablet Android. WikiCamps mencatat bahwa sebagian orang menjalankan aplikasi seluler di komputer lewat emulator, tetapi itu tidak didukung. Jika Anda merencanakan perjalanan di layar besar, tablet yang masuk ke akun yang sama adalah cara yang didukung, karena perjalanan tersinkron lewat akun Anda.",
+            "Ada satu penghentian lagi yang perlu diketahui jika teman dari luar negeri memakai WikiCamps. Aplikasi terpisahnya untuk Inggris, AS, dan Kanada tidak lagi didukung sejak 30 Maret 2026 dan sedang ditarik dari toko aplikasi; pendaftaran dan login baru dimatikan. Hal itu tidak memengaruhi WikiCamps Selandia Baru."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Siapa pemilik WikiCamps sekarang?",
+          "body": [
+            "WikiCamps dibangun oleh tim pendiri kecil, Russ dan Cliff beserta keluarga mereka, dan tumbuh dari tempat-tempat yang ditambahkan penggunanya sendiri. Pada 2021 mereka menjualnya ke G'day Parks, grup taman wisata, dan pengembang di App Store Selandia Baru saat ini adalah WikiCamps Pty Ltd. Pemesanan lewat tombol \"Book Now\" ditangani oleh mitra pemesanannya, BookEasy (Book Australia), sehingga perubahan dan pengembalian dana diurus mereka, bukan WikiCamps.",
+            "Model bisnisnya masih pembelian sekali bayar. WikiCamps menyatakan tidak ada langganan, dan App Store Selandia Baru mencantumkan WikiCamps Selandia Baru seharga NZ$7.99 saat kami memeriksa pada 9 November 2026. WikiCamps juga menambahkan sejumlah kecil iklan di bagian ulasan, biaya, dan foto untuk membantu menutup biaya operasional. Detail tempat, foto, dan biaya berasal dari komunitas, itulah sebabnya WikiCamps meminta pengguna mengedit atau melaporkan yang sudah usang, dan itulah sebabnya papan di lokasi serta halaman pemerintah daerah atau DOC yang menentukan di mana Anda boleh menginap."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kapan menghubungi dukungan WikiCamps",
+          "body": [
+            "Jika tidak ada solusi yang berhasil, kirim email ke support@wikicamps.co. Sertakan model ponsel dan versi sistem operasi, alamat email akun WikiCamps Anda, dan untuk masalah pembelian, bukti pembelian atau nomor pesanan Google Play. WikiCamps mengatakan bantuannya mungkin terbatas untuk ponsel dengan sistem operasi yang tidak lagi didukungnya, jadi periksa itu dulu.",
+            "Grup pengguna Facebook-nya adalah tempat lain untuk dicari. Di sanalah WikiCamps mengarahkan orang untuk pengalaman nyata dengan aplikasi saat ini, dan masalah yang muncul setelah pembaruan biasanya sudah dilaporkan orang lain di sana."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Beralih ke KiwiCamping di Selandia Baru",
+          "body": [
+            "Jika Anda sudah cukup, KiwiCamping adalah aplikasi Selandia Baru yang kami buat, dan cara kerjanya berbeda. Tidak ada akun terpisah yang perlu dibuat: dengan iCloud aktif, tempat tersimpan, koleksi, dan perjalanan tersinkron secara privat lewat Akun Apple Anda. 287 <a data-guide=\"doc-campsites-new-zealand-guide\">tempat berkemah DOC</a>, 927 pondok DOC, dan 1,453 jalur DOC-nya berasal dari data Department of Conservation sendiri, lengkap dengan biaya, aturan anjing, dan persyaratan pemesanan DOC serta tautan ke halaman DOC, dan Anda bisa menggabungkan filter biaya, fasilitas, dan anjing dalam satu pencarian.",
+            "Tempat tersimpan menjadi perjalanan dengan perhentian berurutan, tanggal, catatan, dan jarak rute. Detail tempat tetap ada di ponsel saat Anda kehilangan sinyal; ubin peta, rute, cuaca, dan foto membutuhkan koneksi. Kami jelaskan kekurangannya: KiwiCamping hanya berjalan di iPhone (iOS 26 atau lebih baru), mencantumkan jauh lebih sedikit tempat daripada WikiCamps dan tidak punya ulasan pelancong, dan tidak ada impor dari WikiCamps, jadi untuk membuat ulang perjalanan, simpan lagi perhentiannya. Perbandingan <a data-guide=\"wikicamps-alternatives\">alternatif WikiCamps</a> kami menempatkan KiwiCamping bersama Rankers, CamperMate, Campable, dan Overland Navigator jika Anda ingin pilihan yang lebih luas."
+          ],
+          "tips": [
+            "Hanya iPhone, iOS 26 atau lebih baru",
+            "Tempat berkemah, pondok, dan jalur DOC dari data DOC",
+            "Tanpa akun: tersinkron lewat iCloud"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mengapa WikiCamps tidak berfungsi?",
+          "Biasanya karena versi aplikasi lama, ponsel yang tidak didukung, atau masalah masuk. WikiCamps mendukung iOS 26 dan Android 15 ke atas, dan sejak Maret 2026 memblokir versi yang tertinggal lebih dari dua rilis. Perbarui aplikasi, mulai ulang ponsel, coba data seluler, bukan Wi-Fi, matikan VPN apa pun, dan izinkan akses lokasi."
+        ],
+        [
+          "Bisakah saya kembali ke aplikasi WikiCamps yang lama?",
+          "Tidak. WikiCamps menyatakan versi lama tidak lagi didukung atau dapat diakses sejak Maret 2026, dan versi Windows dihentikan bersamanya. Versi 6 berjalan di iPhone, iPad, serta ponsel dan tablet Android, dan perjalanan serta favorit Anda tersinkron lewat akun WikiCamps Anda."
+        ],
+        [
+          "Siapa pemilik WikiCamps?",
+          "WikiCamps didirikan oleh Russ dan Cliff dan dijual pada 2021 ke G'day Parks, grup taman wisata. Pengembang di App Store Selandia Baru adalah WikiCamps Pty Ltd, dan pemesanan lewat aplikasi ditangani oleh mitranya, BookEasy (Book Australia)."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Bantuan WikiCamps: Apa yang harus saya lakukan jika WikiCamps tidak berfungsi dengan benar?"
+        },
+        {
+          "label": "Bantuan WikiCamps: Pembaruan paksa sejak Maret 2026"
+        },
+        {
+          "label": "Bantuan WikiCamps: Riwayat pembaruan versi"
+        },
+        {
+          "label": "Bantuan WikiCamps: Bisakah saya kembali memakai versi lama aplikasi?"
+        },
+        {
+          "label": "Bantuan WikiCamps: Saya tidak bisa masuk ke WikiCamps"
+        },
+        {
+          "label": "Bantuan WikiCamps: Mengapa sekarang saya membutuhkan akun?"
+        },
+        {
+          "label": "Bantuan WikiCamps: Mengapa tidak ada versi PC WikiCamps?"
+        },
+        {
+          "label": "Bantuan WikiCamps: Aplikasi tidak terbuka tanpa koneksi internet"
+        },
+        {
+          "label": "Data WikiCamps Selandia Baru di toko (Apple, toko Selandia Baru)"
+        },
+        {
+          "label": "Camps Australia Wide: komentar tentang penjualan WikiCamps ke G'day Parks (Oktober 2021)"
+        }
+      ],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "Aplikasi Campervan Terbaik untuk Selandia Baru 2026: Sewa, Relokasi, dan Hidup di Jalan",
       "description": "Aplikasi yang membantu di perjalanan campervan Selandia Baru 2026, dari menyewa van dan relokasi $1 per hari hingga menemukan malam berikutnya, dibandingkan dengan harga dan peringkat yang dicek Oktober 2026.",
@@ -3388,6 +3576,703 @@
         },
         {
           "label": "DOC: tips Milford Road untuk pengemudi"
+        }
+      ],
+      "priceTable": null
+    },
+    "working-holiday-apps-new-zealand": {
+      "title": "Aplikasi Terbaik untuk Pemegang Working Holiday di Selandia Baru 2026",
+      "description": "Aplikasi yang benar-benar dipakai pemegang working holiday di Selandia Baru pada 2026: SEEK, Trade Me, Wise, aplikasi bank dan ponsel, kerja musiman dan farm stay, plus langkah resmi yang tidak bisa dilakukan aplikasi mana pun untuk Anda. Diperiksa Oktober 2026.",
+      "region": "Selandia Baru",
+      "imageAlt": "Barisan kebun anggur musim gugur di Awatere Valley, Marlborough, di bawah pegunungan bersalju",
+      "intro": "Working holiday di Selandia Baru berjalan dengan segelintir aplikasi: satu untuk mencari kerja, satu untuk memindahkan uang, aplikasi bank dan paket ponsel, dan sesuatu yang memberi tahu di mana tidur saat pekerjaan berikutnya tiga jam dari yang terakhir. Ini adalah aplikasi yang akan kami pasang untuk working holiday pada 2026, dengan peringkat dari App Store Selandia Baru yang diperiksa pada 20 Oktober 2026, dan langkah resmi yang tetap berlangsung di situs web pemerintah, bukan di aplikasi mana pun. Kami membuat KiwiCamping dan mencantumkannya pertama untuk bagian perjalanan dalam setahun; untuk pekerjaan, uang, dan dokumen, aplikasi lain di bawah yang melakukan tugasnya.",
+      "sections": [
+        {
+          "heading": "Aplikasi working holiday sekilas",
+          "body": [
+            "Untuk pekerjaan, pasang SEEK dan Trade Me, dan lihat PickNZ untuk musim buah dan sayuran. Wise memindahkan uang dari negara asal dengan murah, aplikasi bank Selandia Baru menyimpan gaji Anda, dan paket prabayar dari Skinny, 2degrees, Spark, atau One NZ membuat Anda bisa dihubungi pemberi kerja. KiwiCamping mencakup malam di antara pekerjaan, WWOOF dan Workaway mencakup kerja sebagai ganti tempat tidur, dan aplikasi NZTA membantu setelah Anda memiliki mobil.",
+            "Nomor IRD, kode pajak, dan ketentuan visa Anda diurus di situs web Inland Revenue dan Immigration New Zealand. Selesaikan itu lebih dulu, karena pemberi kerja memerlukan nomor IRD Anda sebelum gaji pertama."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Diperiksa 20 Oktober 2026 di App Store Selandia Baru dan situs masing-masing penyedia. Peringkat adalah rata-rata App Store Selandia Baru dengan jumlah peringkat.",
+            "head": [
+              "Aplikasi",
+              "Tugasnya",
+              "Harga",
+              "Peringkat NZ"
+            ],
+            "rows": [
+              [
+                "KiwiCamping",
+                "Tempat tidur di antara pekerjaan",
+                "Gratis diunduh, dengan pembelian dalam aplikasi",
+                "3.8 (4)"
+              ],
+              [
+                "SEEK",
+                "Lowongan kerja di seluruh Selandia Baru",
+                "Gratis",
+                "4.7 (68,389)"
+              ],
+              [
+                "Trade Me",
+                "Pekerjaan, flat, dan mobil bekas",
+                "Gratis",
+                "4.6 (65,564)"
+              ],
+              [
+                "Wise",
+                "Memindahkan uang dari negara asal",
+                "Aplikasi gratis; biaya mulai 0.22%",
+                "4.8 (23,432)"
+              ],
+              [
+                "BNZ Mobile",
+                "Rekening bank Selandia Baru",
+                "Gratis",
+                "4.8 (56,574)"
+              ],
+              [
+                "Skinny Mobile",
+                "Ponsel dan data prabayar",
+                "Aplikasi gratis; paket prabayar",
+                "4.4 (18,813)"
+              ],
+              [
+                "Workaway",
+                "Kerja sebagai ganti tempat tidur",
+                "Aplikasi gratis; keanggotaan tahunan",
+                "4.8 (144)"
+              ],
+              [
+                "NZTA Waka Kotahi",
+                "Rego, WoF, dan RUC untuk mobil Anda",
+                "Gratis",
+                "4.8 (581)"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: terbaik untuk mencari tempat tidur di antara pekerjaan",
+          "body": [
+            "Kerja musiman membuat Anda berpindah-pindah: kiwifruit di Bay of Plenty, anggur di Marlborough, apel di Hawke's Bay. KiwiCamping adalah peta tempat Anda bisa menginap di perjalanan, dibangun dari data DOC, dengan 287 <a data-guide=\"doc-campsites-new-zealand-guide\">area perkemahan DOC</a> dalam datanya per Agustus 2026 dan biaya dewasa yang dicantumkan DOC, dari $5 sampai $25 per malam di lokasi yang memiliki tarif terbit. Holiday park, penginapan, dan tur ada di peta yang sama, dan biaya bisa ditampilkan dalam mata uang negara asal Anda di samping angka dolar Selandia Baru.",
+            "Tempat tersimpan masuk ke <a data-guide=\"save-places-kiwicamping\">koleksi</a>, dan perjalanan mengubahnya menjadi pemberhentian bertanggal dengan catatan dan jarak di antaranya, yang membantu saat Anda mengatur pekerjaan baru dan tempat tidur di dekatnya. Detail tempat tetap di ponsel saat sinyal hilang; ubin peta, rute, cuaca, dan foto memerlukan koneksi. Hanya untuk iPhone, memerlukan iOS 26 atau lebih baru, dan memiliki 4 peringkat Selandia Baru (3.8), tanpa ulasan pelancong."
+          ],
+          "tips": [
+            "Pilih untuk: area perkemahan DOC dekat pekerjaan berikutnya",
+            "Biaya dalam mata uang Anda sendiri",
+            "Hanya iPhone, iOS 26 atau lebih baru"
+          ]
+        },
+        {
+          "heading": "2. SEEK dan Trade Me: terbaik untuk mencari kerja",
+          "body": [
+            "SEEK mencantumkan pekerjaan di seluruh Selandia Baru dan Australia dan memungkinkan Anda melamar dengan profil tersimpan. Peringkatnya 4.7 dari 68,389 peringkat Selandia Baru. Trade Me, pasar utama Selandia Baru, memuat pekerjaan di aplikasi utamanya serta sewa dan mobil, dengan peringkat 4.6 dari 65,564; aplikasi Trade Me Jobs yang berdiri sendiri belum diperbarui sejak 2024.",
+            "Indeed (4.7 dari 4,185) adalah sumber lowongan ketiga. Di mana pun, baca iklannya untuk jam kerja dan apakah akomodasi ditawarkan, yang lebih penting dalam working holiday daripada judul pekerjaan."
+          ],
+          "tips": [
+            "SEEK untuk sebagian besar jenis pekerjaan",
+            "Trade Me untuk pekerjaan, flat, dan mobil",
+            "Indeed sebagai sumber ketiga"
+          ]
+        },
+        {
+          "heading": "3. PickNZ: terbaik untuk musim buah dan sayuran",
+          "body": [
+            "PickNZ adalah papan lowongan untuk pekerjaan buah dan sayuran, bisa dicari menurut wilayah dan tanaman, sehingga Anda bisa mengatur panen berikutnya saat yang sekarang berakhir. Periksa tanggal mulai, perkiraan jam kerja, dan cara upah dihitung di setiap iklan sebelum bepergian ke wilayah itu.",
+            "Kami tidak menemukan aplikasi PickNZ di App Store Selandia Baru, jadi gunakan situs webnya. Sebagian iklan di sana untuk skema Recognised Seasonal Employer, yaitu visa terpisah untuk pekerja dari negara-negara Pasifik, bukan untuk pemegang working holiday."
+          ],
+          "tips": [
+            "Situs web, tidak ada aplikasi ditemukan",
+            "Cari menurut tanaman dan wilayah",
+            "Iklan RSE adalah visa yang berbeda"
+          ]
+        },
+        {
+          "heading": "4. WWOOF NZ dan Workaway: terbaik untuk kerja sebagai ganti tempat tidur",
+          "body": [
+            "WWOOF New Zealand menghubungkan sukarelawan dengan pertanian organik; keanggotaan online berbiaya NZ$25 untuk satu orang atau NZ$30 untuk pasangan dan berlaku 15 bulan. WWOOF NZ menyatakan Anda memerlukan visa working holiday untuk menjadi sukarelawan bahkan tanpa upah, jadi periksa ketentuan visa Anda sendiri dengan Immigration New Zealand. Aplikasi WWOOF internasional hanya memiliki 3 peringkat Selandia Baru, jadi situs web adalah jalan masuk yang lebih mudah.",
+            "Workaway mencakup tuan rumah di seluruh dunia, termasuk Selandia Baru, dengan keanggotaan tahunan mulai sekitar US$59, tergantung paketnya; aplikasinya berperingkat 4.8 dari 144 peringkat Selandia Baru. Keduanya bisa meregangkan anggaran sangat jauh, tetapi jam dan ketentuan bervariasi menurut tuan rumah, jadi sepakati sebelum Anda tiba."
+          ],
+          "tips": [
+            "WWOOF NZ NZ$25 untuk 15 bulan",
+            "Workaway mulai sekitar US$59 setahun",
+            "Sepakati jam kerja dengan tuan rumah"
+          ]
+        },
+        {
+          "heading": "5. Wise dan aplikasi bank Selandia Baru: terbaik untuk uang",
+          "body": [
+            "Wise memindahkan uang antar mata uang dengan biaya yang dimulai dari 0.22% dari jumlahnya, dan kartunya memberi 400 dolar Selandia Baru per bulan penarikan tunai gratis, lalu 2.69% di atasnya. Peringkatnya 4.8 dari 23,432 peringkat Selandia Baru dan cocok untuk minggu-minggu pertama sebelum rekening bank Anda aktif.",
+            "Gaji masuk ke rekening Selandia Baru. BNZ memungkinkan Anda mengajukan dari luar negeri, ASB juga tergantung negara dan visa Anda, ANZ memungkinkan Anda membuka rekening sebelum tiba dan mengaktifkannya di cabang, dan tim migran Westpac bisa menyiapkannya hingga 180 hari sebelum Anda pindah dalam keadaan tertentu. Aplikasi mereka berperingkat 4.8 (BNZ, 56,574), 4.7 (Westpac, 24,380), 4.0 (ANZ, 7,946), dan 3.2 (ASB, 2,106). Rekening bank Selandia Baru juga membantu pengajuan nomor IRD Anda."
+          ],
+          "tips": [
+            "Wise untuk minggu-minggu pertama",
+            "Buka rekening bank lebih awal",
+            "Aplikasi BNZ dan Westpac berperingkat tertinggi"
+          ]
+        },
+        {
+          "heading": "6. Skinny, 2degrees, Spark, atau One NZ: terbaik untuk tetap bisa dihubungi",
+          "body": [
+            "Pemberi kerja menelepon, jadi nomor Selandia Baru penting. Aplikasi Skinny berperingkat 4.4 dari 18,813 peringkat Selandia Baru dan Skinny menjual paket prabayar 52 minggu mulai $296; prabayar 2degrees mulai dari $8 per bulan; aplikasi utama 2degrees NZ berperingkat 1.6 dari 998, dan aplikasi prabayar Data Clock-nya 4.7 dari 17,570. Aplikasi Spark berperingkat 3.7 dan One NZ 2.0.",
+            "Cakupan di luar kota bervariasi menurut jaringan, jadi periksa peta cakupan setiap penyedia untuk wilayah tempat Anda berencana bekerja sebelum memilih."
+          ],
+          "tips": [
+            "Skinny paket 52 minggu mulai $296",
+            "Prabayar 2degrees mulai $8 per bulan",
+            "Periksa cakupan di tempat Anda akan bekerja"
+          ]
+        },
+        {
+          "heading": "7. NZTA Waka Kotahi: terbaik setelah Anda memiliki mobil",
+          "body": [
+            "Jika Anda membeli mobil atau van, misalnya lewat Trade Me, aplikasi NZ Transport Agency menampilkan kendaraan yang terdaftar atas nama Anda, melacak tanggal kedaluwarsa registrasi dan <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> serta road user charges Anda, dan menerima pembayaran rego dan RUC. Peringkatnya 4.8 dari 581 peringkat Selandia Baru.",
+            "Aplikasi AA (4.4 dari 44) menyimpan kartu keanggotaan AA dan detail Roadservice jika Anda bergabung. Sebelum membeli, periksa warrant of fitness dan tanggal registrasi pada kendaraan; panduan kami tentang WoF dan registrasi menjelaskan keduanya."
+          ],
+          "tips": [
+            "Rego, WoF, dan RUC dalam satu aplikasi",
+            "Periksa tanggal sebelum membeli",
+            "Aplikasi AA untuk anggota"
+          ]
+        },
+        {
+          "heading": "Langkah resmi yang tidak bisa dilakukan aplikasi untuk Anda",
+          "body": [
+            "Ajukan nomor IRD Anda di situs web Inland Revenue lewat myIR; gratis, dan pendatang baru biasanya bisa mengharapkannya dalam dua hari lewat pesan teks atau email. Inland Revenue mungkin meminta rekening bank Selandia Baru yang aktif atau formulir customer due diligence (IR997). Berikan nomor itu kepada pemberi kerja beserta kode pajak pada formulir IR330, karena tanpanya Anda dikenai pajak tarif non-deklarasi 45%.",
+            "Ketahui juga ketentuan Anda. Sejak 20 April 2026 visa working holiday membawa ketentuan bahwa Anda harus bekerja untuk pemberi kerja, di bawah perjanjian kerja atau kontrak jasa, dan Anda tidak boleh mempekerjakan orang lain. Upah minimum dewasa adalah $23.95 per jam mulai 1 April 2026 dan berlaku untuk migran sementara juga. Anda tidak bisa bergabung KiwiSaver dengan visa sementara atau visa kerja, dan uang cuti 8% pada setiap gaji hanya diizinkan untuk pekerjaan jangka tetap di bawah 12 bulan atau pekerjaan yang benar-benar tidak teratur, yang disepakati dalam perjanjian kerja Anda."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Cara kami memilih dan memeriksa",
+          "body": [
+            "Kami memilih aplikasi yang menangani tugas yang dihadapi setiap pemegang working holiday, mengutamakan opsi yang paling banyak dipakai di setiap kategori. Peringkat berasal dari App Store Selandia Baru pada 20 Oktober 2026, biaya dari halaman masing-masing penyedia, dan setiap aturan dari Immigration New Zealand, Inland Revenue, atau Employment New Zealand pada hari itu.",
+            "Ketentuan visa, dana, dan lama berbeda menurut paspor, jadi baca halaman untuk negara Anda sendiri di immigration.govt.nz. Kami menjelaskan fitur seperti yang dilakukan masing-masing penyedia, dan fitur yang tidak disebut bukan klaim bahwa aplikasi tidak memilikinya."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Aplikasi apa yang saya perlukan untuk working holiday di Selandia Baru?",
+          "SEEK dan Trade Me untuk pekerjaan, Wise untuk memindahkan uang, aplikasi bank Selandia Baru, dan paket ponsel prabayar. Jika Anda berpindah antar pekerjaan musiman, KiwiCamping, yang kami buat, menampilkan area perkemahan DOC dan tempat menginap lain di perjalanan."
+        ],
+        [
+          "Bagaimana cara mendapatkan nomor IRD dengan visa working holiday?",
+          "Ajukan lewat myIR di situs web Inland Revenue. Gratis, dan pendatang baru biasanya menerima nomor lewat pesan teks atau email dalam dua hari. Inland Revenue mungkin meminta rekening bank Selandia Baru atau formulir IR997, jadi buka rekening lebih awal."
+        ],
+        [
+          "Berapa upah minimum di Selandia Baru pada 2026?",
+          "Upah minimum dewasa adalah $23.95 per jam mulai 1 April 2026, dan Employment New Zealand menyatakan migran sementara memiliki hak kerja minimum yang sama. Tanpa kode pajak dari Anda, pemberi kerja harus mengenakan pajak tarif non-deklarasi 45%."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Visa working holiday (Immigration New Zealand)"
+        },
+        {
+          "label": "Ketentuan kerja untuk visa kerja terbuka mulai 20 April 2026"
+        },
+        {
+          "label": "Nomor IRD untuk pendatang baru (Inland Revenue)"
+        },
+        {
+          "label": "Kode pajak (Inland Revenue)"
+        },
+        {
+          "label": "Tarif upah minimum (Employment New Zealand)"
+        },
+        {
+          "label": "Uang cuti pay-as-you-go (Employment New Zealand)"
+        },
+        {
+          "label": "Bergabung dengan KiwiSaver (Inland Revenue)"
+        },
+        {
+          "label": "PickNZ"
+        },
+        {
+          "label": "Keanggotaan WWOOF New Zealand"
+        },
+        {
+          "label": "Pendaftaran keanggotaan Workaway"
+        },
+        {
+          "label": "Harga Wise New Zealand"
+        }
+      ],
+      "priceTable": null
+    },
+    "buying-a-campervan-new-zealand-working-holiday": {
+      "title": "Membeli Campervan di NZ dengan Working Holiday (2026)",
+      "description": "Yang perlu diperiksa sebelum membeli campervan di Selandia Baru: perubahan WoF mulai 1 November 2026, balik nama kepemilikan, PPSR, RUC, dan green warrant untuk freedom camping.",
+      "region": "Selandia Baru",
+      "imageAlt": "Campervan cab-over lama di atas sasis truk Mazda terparkir di samping pagar tanaman",
+      "intro": "Membeli campervan di Selandia Baru berarti WoF dan lisensi (rego) yang masih berlaku, balik nama kepemilikan yang dicatat di NZTA, pemeriksaan PPSR untuk utang yang masih ada, dan, jika Anda ingin freedom camping di lahan publik, green warrant self-containment. Aturan warrant of fitness berubah pada 1 November 2026, dan stiker self-containment biru tidak berlaku lagi sejak 7 Juni 2026. Situs NZTA sendiri memblokir pembaca otomatis, jadi angka NZTA di bawah adalah poin yang dinyatakan halamannya dalam teks biasa, dan Anda sebaiknya memastikan biaya dan formulir di halaman NZTA langsung sebelum membayar.",
+      "sections": [
+        {
+          "heading": "Dealer atau penjualan pribadi",
+          "body": [
+            "Consumer Protection menjelaskan perbedaan utamanya. Dealer harus terdaftar di Motor Vehicle Traders Register, terikat Consumer Guarantees Act dan Fair Trading Act, dan harus melampirkan Consumer Information Notice berisi riwayat kendaraan, harga, bacaan odometer, dan utang yang masih ada. \"As is where is\" tidak menghapus hak Anda terhadap dealer.",
+            "Penjual pribadi tidak harus terdaftar, menunjukkan pemberitahuan itu, atau mengikuti undang-undang tersebut, jadi hak Anda jauh lebih sedikit, meskipun penjual pribadi tetap tidak boleh menyesatkan Anda dan Anda bisa mengajukan klaim lewat Disputes Tribunal. Travellers Autobarn, dealer berlisensi di Auckland dan Christchurch, menjual campervan Toyota Hiace eks-sewa, menawarkan jaminan uang kembali 3 hari untuk masalah mekanis serius dan garansi mesin dan transmisi 10,000 km atau 6 bulan untuk van eks-sewa dengan batas klaim $4,200, dan membiarkan Anda mencoba van hingga 7 hari dengan biaya sewa dikurangkan jika Anda membeli. Halaman NZ-nya tidak menampilkan harga, jadi mintalah daftar harga terkini."
+          ],
+          "tips": [
+            "Dealer memikul kewajiban hukum",
+            "Penjualan pribadi memiliki sedikit hak",
+            "Dapatkan setiap garansi secara tertulis"
+          ]
+        },
+        {
+          "heading": "Periksa utang yang masih ada dengan PPSR",
+          "body": [
+            "Van yang masih memiliki utang bisa diambil kembali oleh pemberi pinjaman meskipun penjual tidak pernah menyebutkannya. Consumer Protection meminta pembeli mencari di Personal Property Securities Register berdasarkan nomor registrasi, nomor sasis, atau VIN, dengan VIN yang terbaik. Satu pencarian berharga $2.30 termasuk GST, hasilnya disimpan 14 hari, dan Anda menyatakan alasan sah untuk mencari.",
+            "Daftar periksa yang sama menyarankan memeriksa apakah kendaraan pernah dihapusbukukan atau rusak karena air, apakah dilaporkan dicuri, apakah odometer konsisten, dan meminta inspeksi independen. Jika Anda membeli dari pedagang yang tidak mengungkapkan kepentingan jaminan terdaftar, Anda mengambil kendaraan itu bebas darinya, tetapi perlindungan itu tidak berlaku pada penjualan pribadi."
+          ],
+          "tips": [
+            "Cari berdasarkan VIN",
+            "Bayar mekanik independen untuk memeriksa",
+            "Lakukan pemeriksaan PPSR sebelum membayar"
+          ]
+        },
+        {
+          "heading": "WoF, rego, dan perubahan 1 November 2026",
+          "body": [
+            "Kendaraan ringan yang terdaftar pada atau setelah 1 Januari 2000 saat ini memerlukan <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> tahunan. NZTA tidak menetapkan harga inspeksi, jadi bengkel yang menetapkannya, dan NZTA mengenakan $4.16 untuk labelnya. Mulai 1 November 2026, kendaraan ringan yang terdaftar pada atau setelah 1 November 2019 beralih ke WoF setiap 2 tahun, yang terdaftar antara 1 November 2013 dan 31 Oktober 2019 beralih pada 1 November 2027, kendaraan berusia 14 sampai 26 tahun tetap tahunan, dan kendaraan yang terdaftar sebelum 1 Januari 2000 beralih dari 6 bulanan ke tahunan. Denda pelanggaran untuk WoF yang kedaluwarsa lebih dari 2 bulan naik dari $200 menjadi $350. Campervan backpacker yang umum, seperti Hiace tahun 2000-an, masuk kisaran usia 14 sampai 26 tahun dan tetap tahunan.",
+            "Registrasi, disebut rego, adalah lisensi terpisah dengan pungutan ACC dan biaya administrasi, dan harganya bergantung pada kendaraan dan periodenya. Halaman biaya lisensi NZTA mencantumkan tabel biaya, jadi bacalah untuk kendaraan Anda pada hari Anda membeli. Panduan WoF dan rego menjelaskan apa yang perlu dicari pada labelnya."
+          ],
+          "tips": [
+            "Cari WoF dan rego yang masih lama",
+            "WoF tahunan berlaku untuk sebagian besar van lama",
+            "Baca tabel biaya NZTA pada hari itu"
+          ]
+        },
+        {
+          "heading": "Balik nama kepemilikan",
+          "body": [
+            "NZTA menyatakan pembeli harus segera memberi tahu NZTA dan bahwa perubahan secara online gratis, dan penjual sebaiknya melakukannya segera saat penjualan. Dokumennya adalah formulir MR13B. Halaman NZTA tidak memberi tenggat dalam hari, dan keterlambatan bisa membuat pemilik sebelumnya tetap bertanggung jawab atas biaya lisensi. Untuk perorangan, penjual hanya bisa memeriksa SIM Selandia Baru sebagai identitas, dan NZTA menyatakan pembeli tanpa SIM Selandia Baru harus datang ke agen NZTA. Tanpa identitas yang sah, pemilik dicatat sebagai tidak lengkap.",
+            "Panduan ini tidak menemukan halaman NZTA yang menjelaskan apa yang harus dibuktikan pengunjung asing untuk alamat, jadi tanyakan kepada agen sebelum Anda menyerahkan uang. Membawa kendaraan sendiri ke Selandia Baru adalah proses yang berbeda (impor sementara, formulir MR2C) dan berada di luar panduan ini."
+          ],
+          "tips": [
+            "Lakukan secara online bersama penjual",
+            "Pemegang SIM luar negeri memakai agen",
+            "Simpan bukti perubahan"
+          ]
+        },
+        {
+          "heading": "Road user charges untuk diesel",
+          "body": [
+            "Van diesel membayar road user charges, dibeli di muka dalam satuan 1,000 km. Lembar fakta NZTA dan jadwal tarif April 2024 memberi $76.00 per 1,000 km termasuk GST untuk kendaraan diesel ringan 2 gandar hingga 3,500 kg, tetapi NZTA mengubah beberapa jenis RUC mulai 6 Agustus 2026 dan halaman tarif langsungnya tidak bisa dibaca, jadi pastikan tarif terkini. Lisensi itu melekat pada kendaraan, jadi RUC yang belum terpakai berpindah ke pemilik berikutnya, dan Anda bisa mengklaim pengembalian dana atas kendaraan yang Anda jual, loakkan, atau ekspor jika jumlah yang belum terpakai setidaknya $20 dalam 2 tahun sejak tanggal terbit lisensi.",
+            "Odometer penting: cocokkan label RUC dengan bacaan odometer saat membeli, agar Anda tidak mewarisi kelebihan pemakaian orang lain."
+          ],
+          "tips": [
+            "Cocokkan label RUC dengan odometer",
+            "Pastikan tarif terkini dengan NZTA",
+            "Van bensin tidak membayar RUC"
+          ]
+        },
+        {
+          "heading": "Green warrant untuk freedom camping",
+          "body": [
+            "Stiker self-containment biru tidak berlaku lagi untuk <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> sejak 7 Juni 2026. Kini hanya green warrant yang berlaku: sertifikat plus kartu green warrant yang dipajang di kendaraan, dengan data di register nasional sehingga petugas bisa memeriksa di tempat. Berlaku 4 tahun dan berasal dari otoritas sertifikasi yang diatur oleh Plumbers, Gasfitters and Drainlayers Board.",
+            "Kendaraan memerlukan toilet yang terpasang permanen dan bisa digunakan di dalam, karena toilet portabel tidak lagi memenuhi syarat, ditambah sistem pasokan air, air limbah, ventilasi, bak cuci, dan penyimpanan sampah. Biayanya adalah biaya inspeksi sang penguji sendiri, yang tidak dipublikasikan secara terpusat, ditambah pungutan $120 termasuk GST. Ukuran saja tidak menentukan kelayakan. Warrant ini memungkinkan Anda freedom camping di lahan publik tempat kendaraan self-contained diizinkan, dan tidak berlaku di area perkemahan, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>, atau di properti pribadi. Panduan warrant memuat persyaratan lengkapnya.",
+            "Van yang diiklankan self-contained seharusnya memiliki kartu hijau dan entri terkini di register, jadi mintalah untuk melihat keduanya."
+          ],
+          "tips": [
+            "Hanya green warrant",
+            "Perlu toilet terpasang tetap",
+            "Minta lihat warrant dan entri register"
+          ]
+        },
+        {
+          "heading": "Berapa harga van untuk dibeli",
+          "body": [
+            "Panduan ini tidak bisa membaca Trade Me, yang tidak menampilkan teks iklan kepada pembaca otomatis, atau Backpacker Board, yang memblokirnya, jadi tidak mengutip kisaran harga tawar untuk van backpacker yang umum. Satu-satunya angka bertanggal yang dibaca langsung adalah penawaran awal lelang Turners yang berakhir pada 26 Oktober 2026: motorhome Toyota Dyna 1995 seharga $10,699 dengan 110,628 km, motorhome Mazda T3500 1990 seharga $15,500 dengan 96,466 km, dan motorhome Volkswagen Crafter 50 2011 seharga $63,000 dengan 283,643 km. Ini motorhome yang lebih berat dan lebih tua, bukan van Hiace backpacker yang umum.",
+            "Cari merek dan tahun yang sama di Trade Me dan Backpacker Board pada hari Anda membeli, bandingkan setidaknya lima iklan, dan anggap harga tawar sebagai awal negosiasi, bukan harga jual. Halaman NZ Travellers Autobarn mengutip angka buy-back yang tidak saling cocok (50% di teks, 40% di contoh), jadi dapatkan jadwal buy-back apa pun secara tertulis."
+          ],
+          "tips": [
+            "Bandingkan setidaknya lima iklan",
+            "Harga tawar bukan harga jual",
+            "Ketentuan buy-back secara tertulis"
+          ]
+        },
+        {
+          "heading": "Periksa van dan rute di KiwiCamping",
+          "body": [
+            "KiwiCamping mencantumkan 287 <a data-guide=\"doc-campsites-new-zealand-guide\">area perkemahan DOC</a> dan 927 pondok DOC dalam data bawaannya (per 24 Agustus 2026). Setelah memiliki van, Anda bisa mencari berdasarkan tempat, menyaring menurut fasilitas dan biaya, menyimpan tempat yang Anda inginkan, dan menyusun perjalanan dengan pemberhentian berurutan, jarak, dan waktu berkendara. Tempat tersimpan dan detailnya tetap terbuka di zona tanpa sinyal; hanya ubin peta, rute, cuaca, dan foto yang menunggu sinyal. KiwiCamping gratis diunduh, dengan pembelian dalam aplikasi.",
+            "Aplikasi tidak memeriksa kendaraan. Gunakan pemeriksaan di atas untuk van dan aplikasi untuk tempat tidur di dalamnya."
+          ],
+          "tips": [
+            "Saring fasilitas yang tidak dimiliki van Anda",
+            "Simpan pemberhentian untuk minggu pertama",
+            "Periksa halaman DOC untuk biaya"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Apakah saya memerlukan WoF untuk membeli campervan di Selandia Baru?",
+          "Van memerlukan WoF yang berlaku untuk dikendarai di jalan. Aturan NZTA berubah pada 1 November 2026: kendaraan yang terdaftar pada atau setelah 1 November 2019 beralih ke WoF setiap 2 tahun, dan kendaraan berusia 14 sampai 26 tahun tetap tahunan. Denda pelanggaran untuk WoF yang kedaluwarsa lebih dari 2 bulan naik dari $200 menjadi $350."
+        ],
+        [
+          "Bagaimana cara mendaftarkan campervan atas nama saya di NZ?",
+          "Beri tahu NZTA tentang balik nama kepemilikan, yang gratis secara online, menggunakan formulir MR13B. NZTA menyatakan pembeli tanpa SIM Selandia Baru harus datang ke agen NZTA, jadi tanyakan kepada agen identitas dan bukti alamat apa yang mereka perlukan."
+        ],
+        [
+          "Bisakah saya freedom camping dengan campervan yang saya beli di Selandia Baru?",
+          "Hanya di lahan publik tempat kendaraan self-contained diizinkan, dan hanya dengan kendaraan self-contained bersertifikat yang menampilkan green warrant. Stiker biru tidak berlaku lagi sejak 7 Juni 2026. Kendaraan memerlukan toilet terpasang tetap."
+        ],
+        [
+          "Bagaimana cara memeriksa campervan bekas untuk utang yang masih ada di NZ?",
+          "Cari di PPSR berdasarkan nomor registrasi, nomor sasis, atau VIN. Satu pencarian berharga $2.30 termasuk GST, dan Consumer Protection merekomendasikannya karena pemberi pinjaman bisa mengambil kembali kendaraan yang masih memiliki utang, meskipun penjual tidak menyebutkannya."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Consumer Protection: membeli mobil dari dealer"
+        },
+        {
+          "label": "Consumer Protection: membeli mobil secara pribadi"
+        },
+        {
+          "label": "Consumer Protection: sebelum membeli mobil bekas"
+        },
+        {
+          "label": "PPSR: daftar biaya"
+        },
+        {
+          "label": "NZTA Vehicle Inspection Portal: perubahan inspeksi kendaraan ringan mulai 1 November 2026"
+        },
+        {
+          "label": "NZTA: warrant of fitness"
+        },
+        {
+          "label": "NZTA: kepemilikan kendaraan"
+        },
+        {
+          "label": "NZTA: biaya lisensi"
+        },
+        {
+          "label": "NZTA: tarif dan biaya transaksi road user charges"
+        },
+        {
+          "label": "PGDB: kendaraan self-contained, pemilik kendaraan pribadi"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Travellers Autobarn: campervan Toyota Hiace dijual"
+        },
+        {
+          "label": "Turners: karavan dan motorhome bekas"
+        }
+      ],
+      "priceTable": null
+    },
+    "selling-a-campervan-new-zealand-before-you-leave": {
+      "title": "Menjual Campervan di NZ Sebelum Anda Pergi (2026)",
+      "description": "Beri tahu NZTA saat penjualan, lunasi utang yang masih ada, jual RUC yang belum terpakai bersama van, dan rencanakan waktunya. Yang dikatakan NZTA tentang pelat nomor, pengembalian rego, dan pembeli.",
+      "region": "Selandia Baru",
+      "imageAlt": "Bus modifikasi bercat cerah terparkir di bawah pepohonan di holiday park Selandia Baru, di samping rambu kedatangan terlambat",
+      "intro": "Saat menjual campervan di Selandia Baru, beri tahu NZTA segera, idealnya online saat penjualan, yang gratis dan memerlukan SIM Selandia Baru Anda serta nama lengkap dan alamat pembeli. Lunasi dulu utang yang masih ada, serahkan road user charges yang belum terpakai bersama van, dan biarkan pelat nomor tetap di kendaraan. Situs utama NZTA memblokir pembaca otomatis, jadi poin-poin ini berasal dari yang dinyatakan halamannya dalam teks biasa, dan Anda sebaiknya memastikannya di halaman langsung sebelum bertindak.",
+      "sections": [
+        {
+          "heading": "Beri tahu NZTA saat Anda menjual",
+          "body": [
+            "NZTA menyatakan penjual sebaiknya mencatat penjualan secara online pada saat penjualan, dan itu gratis. Anda memerlukan SIM Selandia Baru dan nama lengkap serta alamat pembeli. Jika Anda sebuah perusahaan atau tidak memiliki SIM Selandia Baru, hubungi NZTA di 0800 108 809 atau info@nzta.govt.nz. Dasar hukum yang dikutip NZTA adalah section 247 Land Transport Act 1998.",
+            "NZTA tidak menyebut tenggat dalam hari, tetapi melapor terlambat ada biayanya: Anda bisa dikirimi denda dan tol pembeli, dan jika rego sudah lewat tempo Anda berutang biaya hingga tanggal Anda memberi tahu NZTA. Pastikan pembeli telah mendaftarkan van atas namanya sebelum Anda menyerahkan kunci. NZTA menyatakan Anda bisa memeriksanya secara online."
+          ],
+          "tips": [
+            "Catat penjualan online saat serah terima",
+            "Simpan salinan konfirmasi",
+            "Gunakan SIM Selandia Baru untuk jalur online"
+          ]
+        },
+        {
+          "heading": "Pelat nomor, rego, dan road user charges yang belum terpakai",
+          "body": [
+            "Pelat nomor tetap bersama kendaraan saat dijual, kecuali pelat personal, yang terpisah. NZTA menyatakan bisa mengembalikan biaya lisensi yang belum kedaluwarsa hanya jika Anda membatalkan registrasi dan menyerahkan pelat, yang cocok untuk kendaraan yang keluar dari jalan secara permanen, dan biaya administrasi tidak bisa dikembalikan. Penjualan biasa tidak memicu pengembalian rego, jadi masukkan sisa rego ke dalam harga jual.",
+            "Road user charges bekerja berbeda. Lisensi RUC melekat pada kendaraan, jadi RUC yang belum terpakai berpindah ke pembeli. NZTA mengizinkan pengembalian off-road jika kendaraan dijual atau dihapus registrasinya, dihancurkan, atau diekspor, diklaim dalam 2 tahun sejak tanggal terbit lisensi, minimal $20 dan dengan formulir MR15 serta bacaan odometer. NZTA tidak menengahi pengembalian apa pun antara pembeli dan penjual, jadi sepakati secara tertulis."
+          ],
+          "tips": [
+            "Masukkan sisa rego ke dalam harga jual",
+            "Sepakati RUC secara tertulis",
+            "Van bensin tidak memiliki RUC"
+          ]
+        },
+        {
+          "heading": "Lunasi utang yang masih ada",
+          "body": [
+            "Penjual pribadi yang menyatakan van bebas utang padahal masih ada utang bisa menyesatkan pembeli. Consumer Protection menyatakan pembeli bisa membatalkan kesepakatan atau menuntut kompensasi, dan pembeli bisa kehilangan van kepada pemberi pinjaman. Lunasi utang dan simpan buktinya sebelum menjual, dan harapkan pembeli yang cermat mencari di PPSR, yang berbiaya $2.30 termasuk GST.",
+            "Jika van memiliki <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a> yang berlaku, sebutkan, karena Consumer Protection meminta pembeli mencari WoF dan rego yang berlaku. Panduan ini tidak menemukan aturan NZTA yang mewajibkan penjual menyediakan WoF kepada pembeli pribadi, dan kalimat NZTA sendiri tentang menjual van tanpa WoF tidak bisa dibaca, jadi periksa halaman NZTA langsung."
+          ],
+          "tips": [
+            "Simpan surat pelunasan",
+            "Tunjukkan tanggal WoF dan rego",
+            "Jangan menyatakan van bebas utang jika tidak"
+          ]
+        },
+        {
+          "heading": "Di mana menjual dan apa yang diharapkan",
+          "body": [
+            "Backpacker Board menjalankan papan pengumuman campervan dan motorhome dijual, dan Trade Me memuat iklan pribadi dan dealer. Panduan ini tidak membaca pernyataan resmi atau perusahaan tentang tempat lain, dan tidak bisa membaca teks iklan kedua situs, jadi tidak mengutip harga jual. Lihat berapa harga yang diminta van sebanding pada hari Anda memasang iklan, dan harapkan turun dari harga tawar.",
+            "Dealer adalah salah satu opsi. Travellers Autobarn menawarkan buy-back opsional untuk van miliknya sendiri, tetapi halaman NZ-nya mengutip 50% di teks dan 40% di contoh, jadi minta jadwal buy-back NZ terkini secara tertulis sebelum mengandalkannya. Panduan ini tidak menemukan halaman resmi tentang menjual ke tempat pembongkaran atau mengekspor van, jadi hubungi NZTA jika Anda berencana melakukan salah satunya."
+          ],
+          "tips": [
+            "Pasang iklan 3 sampai 4 minggu sebelum terbang",
+            "Tentukan harga berdasarkan iklan yang aktif",
+            "Dapatkan ketentuan buy-back secara tertulis"
+          ]
+        },
+        {
+          "heading": "Green warrant membantu Anda menjual",
+          "body": [
+            "Van dengan green warrant self-containment yang berlaku memungkinkan pembeli freedom camping di lahan publik tempat kendaraan self-contained diizinkan, itulah sebabnya Travellers Autobarn mengiklankan van \"green sticker\". Warrant berlaku 4 tahun, jadi cantumkan masa berlakunya di iklan Anda. Stiker biru tidak berlaku lagi sejak 7 Juni 2026, jadi jangan menyebut van berstiker biru sebagai self-contained untuk <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>.",
+            "Pembeli yang menginginkan warrant akan mencocokkan entri register dengan pelat, jadi simpan dokumennya bersama van."
+          ],
+          "tips": [
+            "Cantumkan masa berlaku warrant",
+            "Jangan menyebut stiker biru valid",
+            "Simpan sertifikat bersama van"
+          ]
+        },
+        {
+          "heading": "Rencanakan minggu-minggu terakhir dengan KiwiCamping",
+          "body": [
+            "Data bawaannya, bertanggal 24 Agustus 2026, mencakup 927 pondok DOC dan 287 <a data-guide=\"doc-campsites-new-zealand-guide\">area perkemahan DOC</a>. Rencanakan etape terakhir perjalanan Anda kembali ke kota tempat Anda akan menjual, simpan pemberhentiannya, dan periksa biaya dan fasilitas setiap pemberhentian sebelum berkendara ke sana. Di luar jangkauan Anda tetap bisa membaca setiap halaman tempat, meskipun peta, petunjuk arah, prakiraan cuaca, dan foto dimuat hanya dengan koneksi. KiwiCamping gratis diunduh, dengan pembelian dalam aplikasi.",
+            "Sisakan beberapa hari di akhir untuk penjualan, dokumen, dan pembersihan, dan jangan memesan penerbangan untuk sehari setelah malam terakhir Anda di van."
+          ],
+          "tips": [
+            "Akhiri perjalanan dekat tempat Anda menjual",
+            "Sisakan hari untuk dokumen",
+            "Kosongkan tangki sebelum serah terima"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bagaimana cara memberi tahu NZTA bahwa saya menjual campervan?",
+          "Catat penjualan secara online pada saat penjualan, yang gratis. Siapkan SIM NZ Anda, beserta nama lengkap dan alamat pembeli. Jika Anda sebuah perusahaan atau tidak memiliki SIM Selandia Baru, hubungi NZTA di 0800 108 809."
+        ],
+        [
+          "Apakah saya mendapat pengembalian rego saat menjual campervan di NZ?",
+          "NZTA menyatakan mengembalikan biaya lisensi yang belum kedaluwarsa hanya jika Anda membatalkan registrasi dan menyerahkan pelat, dan biaya administrasi tidak bisa dikembalikan. Penjualan biasa tidak memicu pengembalian, jadi masukkan sisa rego ke dalam harga jual."
+        ],
+        [
+          "Apa yang terjadi dengan road user charges saat saya menjual van diesel?",
+          "Road user charges yang belum terpakai tetap bersama kendaraan dan berpindah ke pembeli. NZTA mengizinkan pengembalian minimal $20 jika kendaraan dijual, dirongsokkan, atau diekspor, diklaim dalam 2 tahun sejak tanggal terbit lisensi, dan tidak menengahi antara pembeli dan penjual."
+        ],
+        [
+          "Di mana saya bisa menjual campervan di Selandia Baru?",
+          "Backpacker Board dan Trade Me memuat iklan campervan, dan dealer seperti Travellers Autobarn menjual van mereka sendiri. Bandingkan harga tawar yang aktif pada hari Anda memasang iklan, dan dapatkan ketentuan buy-back secara tertulis."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: menjual kendaraan"
+        },
+        {
+          "label": "NZTA: kepemilikan kendaraan"
+        },
+        {
+          "label": "NZTA: membatalkan registrasi Anda"
+        },
+        {
+          "label": "NZTA: pengembalian road user charges"
+        },
+        {
+          "label": "NZTA: tentang road user charges"
+        },
+        {
+          "label": "Consumer Protection: menyelesaikan masalah dengan penjual pribadi"
+        },
+        {
+          "label": "Consumer Protection: sebelum membeli mobil bekas"
+        },
+        {
+          "label": "PPSR: daftar biaya"
+        },
+        {
+          "label": "PGDB: kendaraan self-contained, pemilik kendaraan pribadi"
+        },
+        {
+          "label": "Travellers Autobarn: campervan Toyota Hiace dijual"
+        }
+      ],
+      "priceTable": null
+    },
+    "working-holiday-road-trip-budget-new-zealand-2026": {
+      "title": "Anggaran Road Trip Working Holiday di NZ 2026: Per Minggu",
+      "description": "Seminggu berkemah dan bahan bakar di van berkisar sekitar $318 sampai $878 tergantung tempat tidur Anda. Lihat dana visa, upah minimum, biaya DOC, dan hitungan di balik setiap angka.",
+      "region": "Selandia Baru",
+      "imageAlt": "Barisan rapi kebun anggur di Wairau Valley, Marlborough, dengan perbukitan kering di kejauhan",
+      "intro": "Berkemah dan bahan bakar selama seminggu road trip di Selandia Baru berbiaya sekitar $318 jika Anda memakai area perkemahan DOC yang gratis dan freedom camping, dan hingga sekitar $878 seminggu jika setiap malam di lokasi holiday park berlistrik, dengan 800 km seminggu di van bensin. Itu belum termasuk makanan, van itu sendiri, dan visa. Immigration New Zealand meminta pelamar working holiday menyediakan dana NZ$4,200 dari sebagian besar negara dan mencantumkan biaya visa mulai dari NZ$770, dan upah minimum dewasa adalah $23.95 per jam mulai 1 April 2026. Semua angka dalam dolar Selandia Baru, dibaca pada 21 Oktober 2026, dan menunjukkan hitungannya agar Anda bisa mengubah asumsinya.",
+      "sections": [
+        {
+          "heading": "Sebelum terbang: visa dan dana",
+          "body": [
+            "Immigration New Zealand menerbitkan halaman working holiday untuk setiap negara yang memenuhi syarat. Halaman Jerman, Kanada, AS, Prancis, Irlandia, dan Jepang meminta dana minimal $4,200, dan halaman Inggris meminta minimal $350 per bulan. Anda juga memerlukan tiket lanjutan atau uang untuk membelinya, di atas dana tersebut, dan buktinya adalah rekening koran bank atau kartu kredit. Setiap halaman negara menampilkan biaya visa sebagai \"mulai $770\", dan biaya pastinya untuk paspor Anda baru muncul setelah Anda memasukkan data negara Anda.",
+            "International Visitor Levy adalah $100 untuk banyak pelancong working holiday, dan halaman levy Immigration New Zealand menjelaskan siapa yang membayar. Panduan ini tidak bisa memastikan dari teks halaman apakah itu dikenakan selain $770, jadi periksa ringkasan aplikasi Anda. Visa memungkinkan Anda bekerja di pekerjaan sementara selama masa visa, belajar hingga total 6 bulan, dan tidak memerlukan tawaran kerja, tetapi bukan pekerjaan tetap, dan Anda tidak boleh menjalankan bisnis. Batas usia 18 sampai 30 di sebagian besar halaman negara dan 18 sampai 35 untuk Inggris dan Kanada."
+          ],
+          "tips": [
+            "Dana berbeda menurut negara",
+            "$770 adalah angka awal",
+            "Periksa levy di aplikasi Anda"
+          ]
+        },
+        {
+          "heading": "Berapa seminggu menurut gaya berkemah",
+          "body": [
+            "Tabel memakai dua asumsi yang dinyatakan. Bahan bakar adalah 800 km seminggu dengan 11 liter per 100 km, yaitu 88 liter, pada harga papan nasional MBIE untuk bensin reguler $3.617 per liter pada 16 Oktober 2026 (sementara): 88 kali $3.617 sekitar $318. Berkemah memakai halaman biaya DOC dan, untuk <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>, kisaran perencanaan $25 sampai $80 per lokasi per malam yang dipakai di panduan biaya berkemah, karena jaringan holiday park menerbitkan harga per malam hanya di mesin pemesanan mereka.",
+            "Van diesel mengubah baris bahan bakar. Pada $3.245 per liter, 88 liter berbiaya sekitar $286, dan road user charges pada van sewaan dengan $8.04 per 100 km dari thl menambah sekitar $64 untuk 800 km, jadi sekitar $350 seminggu. Van yang Anda miliki membayar RUC per 1,000 km, dan tarifnya ada di halaman NZTA."
+          ],
+          "tips": [
+            "Ubah kilometer sesuai rute Anda",
+            "Harga holiday park adalah harga lokasi, bukan per orang",
+            "Diesel menambah RUC"
+          ],
+          "table": {
+            "caption": "Berkemah plus bahan bakar untuk satu minggu, 7 malam, 800 km dengan 11 L/100 km di van bensin pada $3.617 per liter. Makanan dan van tidak termasuk.",
+            "head": [
+              "Gaya berkemah",
+              "Berkemah, 7 malam",
+              "Dengan bahan bakar, pelancong sendiri",
+              "Dengan bahan bakar, dua dewasa dalam satu van"
+            ],
+            "rows": [
+              [
+                "Gratis: area perkemahan DOC dasar dan freedom camping",
+                "$0",
+                "$318",
+                "$318"
+              ],
+              [
+                "Area perkemahan standar DOC, $10 sampai $20 per dewasa per malam",
+                "$70 sampai $140 per dewasa",
+                "$388 sampai $458",
+                "$458 sampai $598"
+              ],
+              [
+                "DOC berlayanan tanpa listrik, $25 per dewasa per malam",
+                "$175 per dewasa",
+                "$493",
+                "$668"
+              ],
+              [
+                "Lokasi holiday park, $25 sampai $80 per malam (kisaran perencanaan)",
+                "$175 sampai $560 per lokasi",
+                "$493 sampai $878",
+                "$493 sampai $878"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Biaya berkemah: biaya DOC dan Campsite Pass",
+          "body": [
+            "Halaman biaya DOC mencantumkan lokasi tenda atau tanpa listrik berlayanan $25 per dewasa (18 tahun ke atas) dan $12.50 per anak (5 sampai 17), berlayanan berlistrik $20 sampai $28 per dewasa dan $10 sampai $14 per anak, serta area perkemahan standar $10 sampai $20 per dewasa dan $5 sampai $10 per anak. Area perkemahan dasar gratis, dan bayi gratis. Area perkemahan pedalaman dan Great Walk bervariasi. Tenda atau kendaraan kosong yang ditinggalkan di lokasi dikenai biaya dua dewasa.",
+            "DOC Campsite Pass berharga $295 untuk dewasa dan $147.50 untuk anak atau remaja, berlaku satu tahun sejak tanggal mulai pilihan Anda, dan mencakup sebagian besar <a data-guide=\"doc-campsites-new-zealand-guide\">area perkemahan DOC</a> kecuali daftar yang dikecualikan. Pass ini mengizinkan maksimal 7 malam dalam periode 30 hari di satu area perkemahan dan menambah $3 per pengguna pass per malam di area perkemahan berlistrik. Pada $25 per malam, $295 setara sekitar 12 malam, jadi pass hanya sepadan jika Anda menginap di banyak lokasi DOC berbayar. Klub holiday park berbeda: halaman TOP 10 sendiri mencantumkan klubnya $55 untuk 2 tahun, dan binatu di Wellington TOP 10 $6 sekali cuci dan $6 sekali pengering."
+          ],
+          "tips": [
+            "Bandingkan $295 dengan perkiraan malam Anda",
+            "Pass membatasi Anda 7 malam dalam 30 hari per lokasi",
+            "Biaya DOC bisa berubah antar musim"
+          ]
+        },
+        {
+          "heading": "Bahan bakar, feri, dan van",
+          "body": [
+            "Bahan bakar adalah biaya jalan terbesar pada rute panjang, jadi gunakan panduan bahan bakar untuk mengonversi jarak Anda. Menyeberangi <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> dengan kendaraan lebih mahal daripada tarif penumpang jalan kaki: Interislander menyatakan tarif kendaraan mulai dari $258 dan bervariasi menurut pelayaran, jenis tarif, dan seberapa awal Anda memesan, dan harga ditetapkan menurut panjang kendaraan. Bluebridge tidak menampilkan tarif dalam teks halamannya.",
+            "Jika menyewa, panduan biaya sewa campervan membahas tarif harian, perlindungan, biaya sekali jalan, dan tambahan. Jika membeli, panduan pembelian membahas <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a>, rego, dan balik nama, dan panduan penjualan membahas cara keluar di akhir. Jucy's Crib pada tarif puncaknya $95 berbiaya $665 untuk 7 hari sebelum perlindungan dan tambahan."
+          ],
+          "tips": [
+            "Pesan feri lebih awal di musim panas",
+            "Hitung harga van terpisah dari biaya jalan",
+            "Bandingkan sewa dengan beli dan jual"
+          ]
+        },
+        {
+          "heading": "Berapa yang bisa Anda hasilkan",
+          "body": [
+            "Mulai 1 April 2026 upah minimum dewasa adalah $23.95 per jam sebelum pajak, yaitu $191.60 untuk hari 8 jam dan $958 untuk minggu 40 jam. Tarif starting-out dan training adalah $19.16 per jam. Employment New Zealand menyatakan pekerja migran sementara memiliki hak minimum yang sama, dan tarif ditinjau setiap tahun.",
+            "Bandingkan dengan berkemah dan bahan bakar seminggu sebesar $318 sampai $878: pada upah minimum, satu minggu 40 jam sebelum pajak mencakup setiap baris dalam tabel, tetapi makanan, van, dan pajak masih menyusul. Jam kerja panen dan perhotelan bervariasi, jadi anggap angka itu sebagai batas atas, bukan janji."
+          ],
+          "tips": [
+            "Tarif sebelum pajak",
+            "Tarif starting-out adalah $19.16",
+            "Jam kerja bervariasi menurut pekerjaan dan musim"
+          ]
+        },
+        {
+          "heading": "Rencanakan rute dan malam di KiwiCamping",
+          "body": [
+            "KiwiCamping mencantumkan 287 <a data-guide=\"doc-campsites-new-zealand-guide\">area perkemahan DOC</a> dan 927 pondok DOC dalam data bawaannya (per 24 Agustus 2026), dengan kategori dan biaya setiap tempat dari DOC. Saring berdasarkan biaya untuk menemukan tempat gratis, simpan yang Anda inginkan, dan susun perjalanan dengan pemberhentian berurutan, tanggal, serta jarak dan waktu berkendara di antaranya, sehingga kilometer Anda, dan bersamanya baris bahan bakar Anda, berasal dari rute nyata. Halaman tempat tetap berfungsi tanpa sinyal di ponsel; peta, rute, prakiraan cuaca, dan foto kembali setelah Anda mendapat sinyal. KiwiCamping gratis diunduh, dengan pembelian dalam aplikasi.",
+            "Aplikasi tidak menetapkan harga <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> atau sewa. Gunakan untuk menghitung malam dan kilometer, lalu isi tabel di atas."
+          ],
+          "tips": [
+            "Gunakan filter biaya untuk tempat gratis",
+            "Hitung malam dan kilometer dulu",
+            "Simpan lokasi cadangan untuk setiap malam"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Berapa uang yang saya perlukan untuk working holiday di Selandia Baru?",
+          "Immigration New Zealand meminta dana minimal $4,200 di halaman Jerman, Kanada, AS, Prancis, Irlandia, dan Jepang, dan minimal $350 per bulan untuk Inggris, ditambah tiket lanjutan atau uang untuk membelinya. Biaya visa tampil mulai dari $770, dengan biaya pasti ditampilkan saat Anda mendaftar."
+        ],
+        [
+          "Berapa biaya seminggu road trip di Selandia Baru?",
+          "Berkemah dan bahan bakar sekitar $318 sampai $878 seminggu di van bensin dengan 800 km seminggu: $318 dengan area perkemahan gratis, hingga $878 di lokasi holiday park berlistrik pada kisaran perencanaan $25 sampai $80. Makanan, van, dan visa tambahan."
+        ],
+        [
+          "Apakah DOC Campsite Pass sepadan untuk working holiday?",
+          "Dengan $295 untuk dewasa, pass ini hanya sepadan jika Anda menginap banyak malam di area perkemahan DOC berbayar. Pada $25 per malam, setara sekitar 12 malam, dan mengizinkan 7 malam dalam 30 hari di satu area perkemahan serta menambah $3 per pengguna per malam di lokasi berlistrik."
+        ],
+        [
+          "Berapa upah minimum di Selandia Baru pada 2026?",
+          "$23.95 per jam untuk dewasa mulai 1 April 2026, sebelum pajak, yaitu $958 untuk minggu 40 jam. Tarif starting-out dan training adalah $19.16, dan pekerja migran sementara memiliki hak minimum yang sama."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Immigration New Zealand: visa working holiday Jerman"
+        },
+        {
+          "label": "Immigration New Zealand: visa working holiday Inggris"
+        },
+        {
+          "label": "Immigration New Zealand: visa working holiday Kanada"
+        },
+        {
+          "label": "Immigration New Zealand: membayar International Visitor Levy"
+        },
+        {
+          "label": "Employment New Zealand: tarif dan jenis upah minimum"
+        },
+        {
+          "label": "MBIE: data pemantauan harga bahan bakar mingguan"
+        },
+        {
+          "label": "DOC: fasilitas dan biaya area perkemahan"
+        },
+        {
+          "label": "DOC: Campsite Pass"
+        },
+        {
+          "label": "TOP 10 Holiday Parks: Wellington"
+        },
+        {
+          "label": "Interislander: tarif feri Cook Strait dan opsi pembayaran"
+        },
+        {
+          "label": "thl: Ringkasan Ketentuan Sewa, Selandia Baru, versi 16"
+        },
+        {
+          "label": "Jucy: berapa biaya menyewa campervan di Selandia Baru"
         }
       ],
       "priceTable": null

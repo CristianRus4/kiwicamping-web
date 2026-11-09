@@ -2897,6 +2897,194 @@
       ],
       "priceTable": null
     },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps Yeni Zelanda'da Çalışmıyor mu? Giriş, Güncelleme ve Kaybolan Gezi Sorunlarına Çözümler (2026)",
+      "description": "WikiCamps Yeni Zelanda açılmıyor, sürekli giriş yapmanızı istiyor ya da güncellemeyi zorunlu kılıyor mu? WikiCamps'in kendi yardım merkezinden çözümler, eski sürüm ve bilgisayar sürümü soruları ve uygulamanın şu anki sahibi.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Ormanla kaplı tepelerin altında, yağmurdan ıslanmış bir yol kenarı otoparkında duran kiralık karavanlar",
+      "intro": "WikiCamps Yeni Zelanda son iki yılda, öncesindeki on yıldan daha fazla değişti. Sürüm 6 uygulamayı sıfırdan yeniden kurdu, artık her kullanıcının bir hesabı olması gerekiyor ve Mart 2026'dan beri çok geride kalan bir uygulama güncellenene kadar açılmayı reddediyor. İnsanların aradığı sorunların çoğu bu üç değişiklikten çıkıyor ve çoğu, tek çekim çubuğu olan bir kamp alanından birkaç dakikada çözülebiliyor. Aşağıdaki çözümler 9 Kasım 2026'da okuduğumuz WikiCamps'in kendi yardım merkezinden geliyor. Biz Yeni Zelanda için başka bir kamp uygulaması olan KiwiCamping'i yapıyoruz, bu yüzden sondaki geçiş bölümü bizim; ondan önceki her şey WikiCamps'i yeniden çalıştırmak için.",
+      "sections": [
+        {
+          "heading": "WikiCamps yüklenmediğinde hızlı çözümler",
+          "body": [
+            "Uygulamadan değil, telefondan başlayın. WikiCamps, iPhone ve iPad'de iOS 26 ve üstünü, Android'de Android 15 ve üstünü desteklediğini söylüyor. Uygulama daha eski bir sisteme yine de kurulabilir, ancak WikiCamps her özelliğin orada çalışacağını garanti edemeyeceğini ve orada sorun giderme yapamayacağını belirtiyor. iPhone'da Ayarlar, Genel, Yazılım Güncelleme bölümüne; Android'de Ayarlar, Telefon hakkında bölümüne bakın.",
+            "Telefon güncel olduğu hâlde WikiCamps yüklenirken takılıyorsa ya da \"Could not retrieve data\" hatası veriyorsa, yardım merkezi ikisi için de aynı kısa listeyi veriyor: uygulama mağazanızdan en son sürümü yükleyin, telefonu yeniden başlatın, Wi-Fi'dan mobil veriye geçin, tüm VPN'leri kapatın ve WikiCamps'in konumunuzu kullanmasına izin verin. Kaldırıp yeniden yüklemek son adımdır ve ancak gezileriniz hesabınıza eşitlendikten sonra yapmaya değer, çünkü yeniden yükleme telefonu sıfırdan başlatır."
+          ],
+          "tips": [
+            "iOS 26 veya Android 15 ve üstü",
+            "Kamp alanı Wi-Fi'ı yerine mobil veriyi deneyin",
+            "Gezileriniz eşitlendikten sonra yeniden yükleyin"
+          ],
+          "table": {
+            "caption": "WikiCamps yardım merkezinden (support.wikicamps.co), 9 Kasım 2026'da okundu.",
+            "head": [
+              "Sorun",
+              "Olağan neden",
+              "Neler denenmeli"
+            ],
+            "rows": [
+              [
+                "Yüklenirken takılıyor veya \"Could not retrieve data\"",
+                "Eski uygulama sürümü, zayıf Wi-Fi, VPN veya kapalı konum",
+                "Güncelleyin, yeniden başlatın, mobil veri kullanın, VPN'i kapatın, konuma izin verin"
+              ],
+              [
+                "Tekrar tekrar giriş istiyor",
+                "Telefon uygulamanın verilerini siliyor veya arka planda sınırlıyor",
+                "WikiCamps için pil optimizasyonunu ve temizleyici uygulamaları kapatın"
+              ],
+              [
+                "Doğrulama kodu gelmiyor",
+                "E-posta filtrelenmiş veya gecikmiş",
+                "Gereksiz klasörüne bakın ve 10 ila 15 dakika bekleyin"
+              ],
+              [
+                "Yeniden ödeme isteniyor",
+                "Ödemeyi yapandan farklı bir hesap veya mağaza kimliğiyle girilmiş",
+                "Asıl hesabı kullanın; aynı Apple Kimliği ile geri yükleyin"
+              ],
+              [
+                "Geziler veya favoriler kayıp",
+                "Farklı bir WikiCamps hesabıyla girilmiş",
+                "Asıl e-postanızla giriş yapın ve eşitlenmesine izin verin"
+              ],
+              [
+                "Sinyal yokken açılmıyor",
+                "Sinyal kesilmeden önce çevrimdışı mod açılmamıştı",
+                "Şehirdeyken çevrimdışı içeriği indirin ve çevrimdışı modu açın"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "WikiCamps neden giriş yapmanızı veya hesap oluşturmanızı istiyor",
+          "body": [
+            "Yeniden kurulan uygulama hesap tabanlı. WikiCamps, hesabın gezilerinizin, favorilerinizin, yorumlarınızın ve diğer kayıtlı verilerinizin cihazlar arasında eşitlenmesini ve yeni bir telefona veya yeniden yüklemeye dayanmasını sağladığını, uygulamanın ödeme yaptığınızı da bu yolla kontrol ettiğini söylüyor. Eski uygulamayı hiç kaydolmadan kullandıysanız şimdi bir hesap oluşturmanız gerekir; hesap açıp açmadığınızdan emin değilseniz WikiCamps e-postanızla \"Forgot your password?\" seçeneğini denemenizi öneriyor: sıfırlama e-postası gelmiyorsa o adreste hesap yok demektir.",
+            "Doğrulama kodları WikiCamps adına Microsoft'un oturum açma hizmetinden gelir, bu yüzden gönderen adı \"Microsoft on behalf of WikiCamps\" olan ve konusu bir WikiCamps hesabı e-posta doğrulama koduyla ilgili olan iletiyi arayın. WikiCamps gereksiz klasörüne bakmanızı ve 10 ila 15 dakika beklemenizi, destek ekibinin elle kod gönderemediğini söylüyor. Giriş yaptıktan sonra uygulama yine giriş istiyorsa WikiCamps bunu uygulamaya değil telefona bağlıyor: pil optimizasyonu, arka plan kısıtlamaları, uygulama verilerinin otomatik temizlenmesi ve üçüncü taraf temizleyici uygulamalar kayıtlı oturumu silebilir."
+          ],
+          "tips": [
+            "Kodlar WikiCamps adına Microsoft'tan gelir",
+            "WikiCamps'in arka planda çalışmasına izin verin",
+            "İlk kaydolduğunuz e-postayı kullanın"
+          ]
+        },
+        {
+          "heading": "Ödeme yaptınız ama yine ödeme isteniyor",
+          "body": [
+            "WikiCamps satın alımınızı giriş yaptığınız hesap ve satın aldığınız mağaza üzerinden kontrol eder. iPhone'da App Store'un WikiCamps'i satın alan Apple Kimliği ile oturum açtığından emin olun, sonra uygulamayı App Store'dan yeniden indirin. Android'de WikiCamps, yeni veya farklı bir hesabın eski bir satın alımı gizleyebileceğini söylüyor; satın alma ekranı gitmiyorsa Play Store'daki Ödemeler ve abonelikler bölümünden Google Play sipariş numaranızı destek ekibine gönderin, uygulamayı etkinleştirirler.",
+            "Satın alımlar ayrıca mağazalarına bağlı kalır. Android'den iPhone'a geçmek ya da tersi, WikiCamps'i yeniden satın almak demektir; yine de hesap verileriniz giriş yaptığınızda sizinle gelir. Ayrıca WikiCamps Yeni Zelanda ile WikiCamps Avustralya ayrı uygulamalardır ve ayrı ayrı satın alınır, biri diğerinin kilidini açmaz."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Mart 2026'dan beri zorunlu güncelleme",
+          "body": [
+            "Mart 2026'dan beri WikiCamps, ikiden fazla sürüm geride kalan sürümleri engelliyor. Desteklenmeyen bir sürümü açarsanız uygulama devam etmeden önce uygulama mağazasından güncellemenizi ister; hâlâ desteklenen bir sürüm uygulama içinde bir bildirim gösterir ve güncellemeyi sonraya bırakmanıza izin verir. WikiCamps'in \"Version Update History\" sayfası hangi sürümlerin desteklendiğini işaretliyor: 9 Kasım 2026'da kontrol ettiğimizde bunlar 6.3.0 ile 6.2.4 ila 6.2.5 idi ve Yeni Zelanda App Store zaten 6.3.1'i sunuyordu.",
+            "Yeni Zelanda'daki pratik risk, güncelleme yapacak sinyal olmayan yerde güncelleme istenmesi. West Coast, Fiordland ve Catlins'in uzun kesimlerinde kapsama yok; bu yüzden iyi çekim olan son kasabada güncelleyin, ardından WikiCamps'in çevrimdışı içeriğini indirin ve yola çıkmadan önce menüden çevrimdışı modu açın. WikiCamps bilinen bir sorunu listeliyor: hiç bağlantı yokken Explore sayfası, çevrimdışı modu açacağınız menüye ulaşmadan önce takılabiliyor ve çevrimdışı modu şimdilik yalnızca görüntüleme için: kapsama alanına dönene kadar yeni gezi oluşturamaz veya gezileri düzenleyemezsiniz."
+          ],
+          "tips": [
+            "İkiden fazla sürüm geride olmak engellenmek demek",
+            "Kamp alanında değil, kasabada güncelleyin",
+            "Sinyal kesilmeden önce çevrimdışı modu açın"
+          ]
+        },
+        {
+          "heading": "WikiCamps'in eski sürümüne geri dönebilir misiniz?",
+          "body": [
+            "Hayır. WikiCamps, eski sürümlerin Mart 2026 itibarıyla artık desteklenmediğini ve erişilemediğini söylüyor; uygulama mağazaları da yalnızca güncel sürümü sunuyor. Gerekçesi, önceki uygulamanın uzun vadeli güncellemeler için sürdürülemeyen bir platform üzerine kurulmuş olması; bu yüzden sürüm 6 sıfırdan yeniden kuruldu ve ilk sürüm 6 yayınları Kasım 2024'te çıktı.",
+            "Yeni uygulamayla ilgili şikâyetlerin çoğu, kaybolan değil yer değiştiren şeylerle ilgili. Beğendiğiniz, yıldızladığınız, ziyaret ettiğiniz ve gitmek istediğiniz yerlerin listeleri artık Home sekmesinin altında. Filtre seçenekleri bilerek basitleştirildi, bu yüzden eski dışlama anahtarlarından bazıları kalktı ve WikiCamps bunlara güvenen kişilerden destek ekibine bildirmelerini istiyor. Haritada yerler eksik görünüyorsa etkin filtreleri temizlemenizi ve yakınlaştırmanızı öneriyor, çünkü harita aynı anda sınırlı sayıda sonuç gösteriyor. WikiCamps'in kendisi de son olumsuz yorumların çoğunun yeniden kurulan uygulamaya geçişle ilgili olduğunu ve temel özellikleri zamanla geri getirdiğini söylüyor."
+          ],
+          "tips": [
+            "Favoriler artık Collections altında",
+            "Yerler kaybolursa filtreleri temizleyin",
+            "Kayıtlı filtreler her cihazda kalır"
+          ]
+        },
+        {
+          "heading": "WikiCamps'in bilgisayar veya Windows sürümü var mı?",
+          "body": [
+            "Artık yok. WikiCamps'in Windows uygulaması sürüm 5'ti ve diğer eski sürümlerle birlikte sonlandırıldı. Sürüm 6 yalnızca iPhone, iPad ile Android telefon ve tabletlerde çalışıyor. WikiCamps bazı kişilerin mobil uygulamaları bir emülatörle bilgisayarda çalıştırdığını belirtiyor ancak bunu desteklemiyor. Geziler hesabınız üzerinden eşitlendiği için, gezileri büyük ekranda planlıyorsanız aynı hesapla giriş yapılmış bir tablet desteklenen yoldur.",
+            "Yurt dışından arkadaşlarınız WikiCamps kullanıyorsa bilmeye değer bir son daha var. Birleşik Krallık, ABD ve Kanada için ayrı uygulaması 30 Mart 2026'da desteği bitti ve uygulama mağazalarından kaldırılıyor; yeni kayıtlar ve girişler kapatıldı. Bu, WikiCamps Yeni Zelanda'yı etkilemiyor."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "WikiCamps'in şimdiki sahibi kim?",
+          "body": [
+            "WikiCamps'i küçük bir kurucu ekip, Russ ile Cliff ve aileleri kurdu ve kendi kullanıcılarının eklediği yerlerle büyüdü. 2021'de bir tatil parkı grubu olan G'day Parks'a sattılar ve bugün Yeni Zelanda App Store'daki geliştirici WikiCamps Pty Ltd. \"Book Now\" düğmesiyle yapılan rezervasyonları rezervasyon ortağı BookEasy (Book Australia) yürütüyor, bu yüzden değişiklikler ve iadeler WikiCamps'e değil onlara gidiyor.",
+            "İş modeli hâlâ tek seferlik satın alma. WikiCamps abonelik olmadığını söylüyor ve 9 Kasım 2026'da kontrol ettiğimizde Yeni Zelanda App Store WikiCamps Yeni Zelanda'yı NZ$7.99 olarak listeliyordu. İşletme maliyetlerine katkı için yorumlar, ücretler ve fotoğraflar bölümlerine az sayıda reklam da ekledi. Yer bilgileri, fotoğraflar ve ücretler topluluktan geliyor; bu yüzden WikiCamps kullanıcılardan eskimiş bilgileri düzenlemelerini veya bildirmelerini istiyor ve nerede konaklayabileceğinize alandaki tabela ile belediyenin ya da DOC'un sayfası karar veriyor."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "WikiCamps desteğiyle ne zaman iletişime geçilmeli",
+          "body": [
+            "Hiçbir çözüm işe yaramazsa support@wikicamps.co adresine e-posta gönderin. Telefon modelinizi ve işletim sistemi sürümünü, WikiCamps hesabınızın e-posta adresini ve satın alma sorunuysa satın alma kanıtınızı ya da Google Play sipariş numaranızı ekleyin. WikiCamps, artık desteklemediği bir işletim sistemi çalıştıran telefonlar için yapabilecekleri konusunda sınırlı olabileceğini söylüyor, o yüzden önce bunu kontrol edin.",
+            "Facebook kullanıcı grubu bakılacak diğer yer. WikiCamps, güncel uygulamanın gerçek hayattaki deneyimi için insanları oraya yönlendiriyor ve bir güncellemeden sonra başlayan bir sorunu genellikle orada başka biri zaten bildirmiş oluyor."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Yeni Zelanda'da KiwiCamping'e geçmek",
+          "body": [
+            "Bıktıysanız KiwiCamping, bizim yaptığımız Yeni Zelanda uygulaması ve farklı çalışıyor. Ayrı bir hesap açmanıza gerek yok: iCloud açıkken kayıtlı yerler, koleksiyonlar ve geziler Apple Hesabınız üzerinden özel olarak eşitlenir. 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanı</a>, 927 DOC kulübesi ve 1,453 DOC parkuru, Department of Conservation'ın kendi verilerinden geliyor; DOC'un ücretleri, köpek kuralları ve rezervasyon koşulları ile DOC sayfasına bir bağlantı da var ve maliyet, olanaklar ve köpekle ilgili filtreleri tek bir aramada birleştirebilirsiniz.",
+            "Kayıtlı yerler sıralı duraklar, tarihler, notlar ve rota mesafesiyle bir geziye dönüşür. Sinyal kaybettiğinizde yer ayrıntıları telefonda kalır; harita karoları, yönlendirme, hava durumu ve fotoğraflar bağlantı gerektirir. Ödünleri açıkça söyleyelim: KiwiCamping yalnızca iPhone'da çalışır (iOS 26 veya üstü), WikiCamps'ten çok daha az yer listeler ve gezgin yorumları yoktur, ayrıca WikiCamps'ten içe aktarma yoktur; bir geziyi yeniden kurmak için duraklarını yeniden kaydetmeniz gerekir. Daha geniş bir seçim isterseniz <a data-guide=\"wikicamps-alternatives\">WikiCamps alternatifleri</a> karşılaştırmamız KiwiCamping'i Rankers, CamperMate, Campable ve Overland Navigator ile yan yana koyuyor."
+          ],
+          "tips": [
+            "Yalnızca iPhone, iOS 26 veya üstü",
+            "DOC'un verilerinden DOC kamp alanları, kulübeleri ve parkurları",
+            "Hesap yok: iCloud ile eşitlenir"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps neden çalışmıyor?",
+          "Genellikle eski bir uygulama sürümü, desteklenmeyen bir telefon veya giriş sorunu yüzünden. WikiCamps iOS 26 ve Android 15 ve üstünü destekliyor ve Mart 2026'dan beri ikiden fazla sürüm geride kalan sürümleri engelliyor. Uygulamayı güncelleyin, telefonu yeniden başlatın, Wi-Fi yerine mobil veriyi deneyin, tüm VPN'leri kapatın ve konum erişimine izin verin."
+        ],
+        [
+          "Eski WikiCamps uygulamasına geri dönebilir miyim?",
+          "Hayır. WikiCamps, eski sürümlerin Mart 2026 itibarıyla artık desteklenmediğini ve erişilemediğini söylüyor; Windows sürümü de onlarla birlikte sonlandırıldı. Sürüm 6 iPhone, iPad ile Android telefon ve tabletlerde çalışıyor ve gezileriniz ile favorileriniz WikiCamps hesabınız üzerinden eşitleniyor."
+        ],
+        [
+          "WikiCamps'in sahibi kim?",
+          "WikiCamps'i Russ ve Cliff kurdu ve 2021'de bir tatil parkı grubu olan G'day Parks'a satıldı. Yeni Zelanda App Store'daki geliştirici WikiCamps Pty Ltd ve uygulama üzerinden yapılan rezervasyonları ortağı BookEasy (Book Australia) yürütüyor."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps yardım: WikiCamps düzgün çalışmıyorsa ne yapmalıyım?"
+        },
+        {
+          "label": "WikiCamps yardım: Mart 2026'dan itibaren zorunlu güncellemeler"
+        },
+        {
+          "label": "WikiCamps yardım: Sürüm güncelleme geçmişi"
+        },
+        {
+          "label": "WikiCamps yardım: Uygulamanın eski sürümüne dönebilir miyim?"
+        },
+        {
+          "label": "WikiCamps yardım: WikiCamps'e giriş yapamıyorum"
+        },
+        {
+          "label": "WikiCamps yardım: Neden artık bir hesaba ihtiyacım var?"
+        },
+        {
+          "label": "WikiCamps yardım: Neden WikiCamps'in bilgisayar sürümü yok?"
+        },
+        {
+          "label": "WikiCamps yardım: Uygulama internete bağlı değilken açılmıyor"
+        },
+        {
+          "label": "WikiCamps Yeni Zelanda mağaza bilgileri (Apple, Yeni Zelanda mağazası)"
+        },
+        {
+          "label": "Camps Australia Wide: WikiCamps'in G'day Parks'a satışı hakkında yorum (Ekim 2021)"
+        }
+      ],
+      "priceTable": null
+    },
     "best-campervan-apps-new-zealand": {
       "title": "2026’da Yeni Zelanda İçin En İyi Kampervan Uygulamaları: Kiralama, Taşıma Fırsatları ve Yolda Yaşam",
       "description": "2026’da bir Yeni Zelanda kampervan gezisinde yardımcı olan uygulamalar; aracı kiralamadan ve günlüğü $1’lık taşıma fırsatlarından bir sonraki geceyi bulmaya, Ekim 2026’da kontrol edilen fiyatlar ve puanlarla karşılaştırıldı.",
