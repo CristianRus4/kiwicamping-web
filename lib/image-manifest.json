@@ -1217,6 +1217,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-arrowtown.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-arrowtown-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-arrowtown.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-auckland-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1241,6 +1255,20 @@
       },
       {
         "path": "/images/articles/freedom-camping-christchurch-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-colac-bay.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-colac-bay-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-colac-bay.webp",
         "width": 1600
       }
     ]
@@ -1273,6 +1301,34 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-gisborne.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-gisborne-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-gisborne.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-haast.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-haast-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-haast.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-kaikoura.webp": {
     "width": 1600,
     "height": 900,
@@ -1283,6 +1339,20 @@
       },
       {
         "path": "/images/articles/freedom-camping-kaikoura.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-lumsden.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-lumsden-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-lumsden.webp",
         "width": 1600
       }
     ]
@@ -1311,6 +1381,34 @@
       },
       {
         "path": "/images/articles/freedom-camping-marlborough-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-matakana.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-matakana-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-matakana.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-motueka.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-motueka-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-motueka.webp",
         "width": 1600
       }
     ]
@@ -1609,6 +1707,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-waihi-beach.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-waihi-beach-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-waihi-beach.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-waitaki-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1679,6 +1791,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-westport.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-westport-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-westport.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-whakatane-2026.webp": {
     "width": 1600,
     "height": 900,
@@ -1689,6 +1815,34 @@
       },
       {
         "path": "/images/articles/freedom-camping-whakatane-2026.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-whangamata.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whangamata-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whangamata.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/freedom-camping-whanganui.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whanganui-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whanganui.webp",
         "width": 1600
       }
     ]
@@ -2239,6 +2393,20 @@
       }
     ]
   },
+  "/images/articles/pacific-coast-highway-auckland-to-napier-camping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/pacific-coast-highway-auckland-to-napier-camping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/pacific-coast-highway-auckland-to-napier-camping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/paparoa-track-huts-booking-2026-27.webp": {
     "width": 1600,
     "height": 900,
@@ -2575,6 +2743,20 @@
       }
     ]
   },
+  "/images/articles/surf-highway-45-camping-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/surf-highway-45-camping-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/surf-highway-45-camping-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/taranaki-forgotten-world-highway.webp": {
     "width": 1600,
     "height": 900,
@@ -2585,6 +2767,20 @@
       },
       {
         "path": "/images/articles/taranaki-forgotten-world-highway.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/thermal-explorer-highway-camping-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/thermal-explorer-highway-camping-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/thermal-explorer-highway-camping-guide.webp",
         "width": 1600
       }
     ]

@@ -550,4 +550,526 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-whanganui",
+    title: "Freedom Camping in Whanganui: Where You Can Stay",
+    description: "Where campervans can stay overnight in Whanganui: Castlecliff Beach and the other council sites, the ban along the river road, night limits, DOC land up the river and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Manawatū-Whanganui",
+    places: ["Whanganui", "Castlecliff", "Aramoho", "Kai Iwi", "Pipiriki"],
+    imageAlt: "A red kayak on the Whanganui River beneath a forested clay cliff, with a shingle bank in the foreground",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "whanganui-journey-camping-2026-27", "freedom-camping-north-island", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/whanganui", "camping/manawatu-whanganui"],
+    intro:
+      "Whanganui lets certified self-contained campervans stay overnight at a small number of council sites, led by the beachfront at Castlecliff, and bans camping along the rest of the city's waterfront and on the river road. The council has rewritten its freedom camping bylaw more than once since 2021 and closed some central sites, so the list that was right last summer may be wrong now. Tents and vehicles without a self-containment certificate belong in a holiday park, and the Whanganui River itself is a DOC campsite story, not a freedom camping one.",
+    sections: [
+      s("What the council asks of you", [
+        "Whanganui District Council's freedom camping page is the place to start, because the bylaw has been reviewed in 2025 and its site list has moved. The council's own consultation papers describe the core idea plainly: stay only at the designated sites, keep to the number of nights shown, and use a certified self-contained vehicle, which is the national default. A 2025 draft proposed tightening Castlecliff Beach to match that default, because it had been the one place that tolerated vehicles without a certificate.",
+        "Self-contained here means the same thing as everywhere else: a fixed toilet, a water supply, wastewater storage and the certification card in the windscreen. Since 7 June 2026 only the green warrant counts, and the guide to the self-contained campervan warrant explains how to read yours. Staying two nights is the usual limit at a site, and the council's page names any site that allows only one.",
+      ], ["Council page over this guide", "Green warrant in the windscreen", "Two nights is the usual limit"]),
+      s("Castlecliff Beach and the city sites", [
+        "Castlecliff is the beach suburb a short drive from the city centre, with black sand, a surf club and a car park above the beach that the council has used for campervans. Over the 2024-25 summer the number of vans there regularly passed the old limit of ten and sometimes reached thirty-five, which is why the council moved to marked bays and a new layout beside the Duncan Pavilion. Arrive by late afternoon in January, because the bays are first come, first served.",
+        "Closer to the centre the council has closed sites it used to allow, including the Anzac Parade and Taupō Quay areas by the river, after complaints about crowding and rubbish. Kōwhai Park is the other place often named in the papers, and the council has restricted the area between the boat ramp and the Anzac Parade toilets. Check the sign on the night, since a closed site can still look like an obvious place to park.",
+      ], ["Castlecliff bays fill in summer", "Anzac Parade and Taupō Quay are closed", "Read the sign at Kōwhai Park"]),
+      s("Where it is banned", [
+        "The council has prohibited freedom camping along the Whanganui River Road, the narrow sealed road that follows the river north from the city towards Pipiriki, after safety and behaviour concerns. The road has little room to pull over, no rubbish collection and a lot of private land behind its verges, so it is the last place to improvise.",
+        "Anywhere else on council land that is not on the site list should be treated as closed, including the riverside car parks and the reserves in town. A breach is an infringement offence under the national rules: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A rental company passes the ticket to you.",
+      ], ["River Road: no camping", "Riverside car parks: closed", "$400 for most breaches"]),
+      s("The river, DOC and the holiday parks", [
+        "The Whanganui River is where the camping in this region really happens. The Whanganui Journey Great Walk, a canoe trip of three to five days, books its huts and campsites through DOC, and the guide to camping on the Whanganui Journey covers the dates and fees. KiwiCamping's DOC data (11 August 2026) lists 20 campsites in Manawatū-Whanganui, only 2 of them free and only 3 with campervan access, with adult nightly rates from $10 to $19, and Ohinepane is the largest with room for 36.",
+        "In town, the holiday parks and motor camps are the dependable answer for a tent, an uncertified van or a late arrival, with powered sites, kitchens and cabins. They are rarely full outside the summer holidays, but Whanganui sits on the road between Taranaki and the capital, so the Friday of a long weekend is another matter. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["20 DOC campsites in the region", "Only 3 take campervans", "Holiday parks for tents and uncertified vans"]),
+      s("Using KiwiCamping around Whanganui", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not carry the council's freedom camping sites, so use the council page for Castlecliff and keep a holiday park saved for each night in case the bays are full.",
+        "Add Whanganui to a trip with its date and read the distance to the next stop, whether that is the drive south to Wellington or north towards Taupō. Saved places and their details stay on the phone, while map tiles, routing, weather and photos need signal, which matters up the river road. The app is free to download, with in-app purchases.",
+      ], ["Council page decides Castlecliff", "Save a holiday park as the backup", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Whanganui?", "Yes, in a certified self-contained vehicle at the sites the council lists, mainly Castlecliff Beach. It is banned along the river road and at the central sites the council has closed."],
+      ["Can I freedom camp in a tent in Whanganui?", "No. Tents and vehicles that are not self-contained need a holiday park or a DOC campsite."],
+    ],
+    sources: [
+      { label: "Whanganui District Council: Freedom camping", url: "https://www.whanganui.govt.nz/Services/Freedom-Camping" },
+      { label: "Whanganui District Council: Freedom Camping Bylaw 2025", url: "https://www.whanganui.govt.nz/Your-Council/Have-Your-Say/Consultations/Freedom-Camping-Bylaw-2025" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-waihi-beach",
+    title: "Freedom Camping at Waihi Beach: Rules, Sites and Alternatives",
+    description: "Freedom camping at Waihi Beach and Bowentown: Western Bay of Plenty District Council's self-contained-only rule, the restricted bays and summer bans, enforcement, and the holiday parks and DOC campsites nearby.",
+    category: "Rules & safety",
+    region: "Bay of Plenty",
+    places: ["Waihi Beach", "Bowentown", "Athenree", "Katikati", "Waihi"],
+    imageAlt: "A long sandy beach with Norfolk pines and a building on the foreshore beneath a forested hill",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tauranga-2026", "freedom-camping-thames-coromandel-2026", "auckland-to-tauranga-drive-guide", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/bay-of-plenty", "camping/coromandel"],
+    intro:
+      "Waihi Beach is one of the pressure points of the Bay of Plenty summer. Western Bay of Plenty District Council allows freedom camping on its land only in certified self-contained vehicles, keeps some of the best-known bays closed to it over summer, and patrols the beach and Bowentown through the peak weeks. The ten kilometres of surf beach make it a natural stop between the Coromandel and Tauranga, but a van with no certificate, or a tent, has to use a holiday park, and there are good ones within a few minutes.",
+    sections: [
+      s("What Western Bay of Plenty requires", [
+        "The district council's bylaw covers the whole Western Bay, from Waihi Beach through Katikati to Te Puke and Maketū, and it is built on one idea: the vehicle must carry its own toilet and waste storage and display its certification. A car with a bed in the back, a van with a portable toilet and anything involving a tent falls outside it, wherever on council land you park. The council counts dozens of places across the district where certified vehicles may stay, with a three-night limit in any four weeks at the busier ones.",
+        "Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. The council's page and the sign at each site decide the limits, because the numbers have been revised over the years as the beach towns pushed back on the summer crowds.",
+      ], ["Certified self-contained only", "Three nights in four weeks at busy sites", "Sign and council page decide"]),
+      s("Waihi Beach and Bowentown", [
+        "Waihi Beach is a long strip of houses behind a dune, and the council has been wary of camping on it since locals objected to the bays looking like campgrounds. A 2015 decision banned self-contained campers from Anzac Bay at Bowentown through the peak summer weeks and closed several other reserves, including the area beside the surf club. That seasonal shape, with sites open outside the holidays and shut through them, is the part most likely to catch a visitor out in January.",
+        "The council has also used a controlled car park at Bowentown Domain on Seaforth Road, with a gate and pass system, as the managed alternative to scattered roadside camping. Whether it runs in a given summer is the council's decision, so look at its page before you plan a night on it. For a first night here, a holiday park is the lower-risk plan.",
+      ], ["Anzac Bay has had summer bans", "Managed car park at Bowentown Domain", "Peak weeks are the risk"]),
+      s("Patrols and fines", [
+        "In recent summers the council has paid for security patrols at Waihi Beach and Bowentown with government money set aside for freedom camping management, and it describes the Waihi Beach area as the place where compliance problems peak over the holidays. An officer who finds a vehicle where it should not be can issue an infringement notice on the spot, and a night in the wrong car park is not worth the risk.",
+        "The fees come from the Freedom Camping (Penalties for Infringement Offences) Regulations 2023: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A hire company receives the notice first and charges your card.",
+      ], ["Summer patrols are routine", "$400 for most breaches", "Hire companies pass the fine on"]),
+      s("Holiday parks and DOC land", [
+        "The holiday parks at Waihi Beach and nearby Athenree take tents, caravans and campervans, with powered sites, kitchens and, at Athenree, hot pools, and they are the straightforward answer for a family in January. They book out over Christmas and the first weeks of January, so reserve before you leave Auckland. The guide to holiday parks in New Zealand explains how booking works.",
+        "DOC land is further inland. KiwiCamping's DOC data (11 August 2026) lists 8 campsites in the Bay of Plenty, only 1 of them free and 4 with campervan access, with adult nightly rates from $10 to $18, and Matatā Campsite on the Rangitāiki coast is the largest with room for 80. The Karangahake Gorge side of Waihi, over the Hauraki boundary, belongs to the Coromandel hub.",
+      ], ["Book holiday parks before Christmas", "8 DOC campsites in Bay of Plenty", "Matatā is the biggest DOC site"]),
+      s("Using KiwiCamping around Waihi Beach", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Bay of Plenty coast, with campervan filters to narrow them. It does not hold the district council's freedom camping sites, so read the council page for those and save a holiday park as the night's fallback.",
+        "Put Waihi Beach into a trip between the Coromandel and Tauranga, and read the distance and drive time to the next stop, which is under an hour to Tauranga. Saved places and their details stay on your phone, and the map, routes, forecast and photos load when you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council sites: use the council page", "Under an hour on to Tauranga", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Waihi Beach?", "Only in a certified self-contained vehicle at a site the council allows, and several well-known bays are closed to it over summer. Tents and uncertified vans need a holiday park."],
+      ["Is there a limit on nights at Waihi Beach?", "At the busier council sites the limit has been three nights in any four weeks. Check the sign and the council's page, because limits and seasonal closures change."],
+    ],
+    sources: [
+      { label: "Western Bay of Plenty District Council", url: "https://www.westernbay.govt.nz/" },
+      { label: "SunLive: Waihi Beach readies for freedom campers", url: "https://www.sunlive.co.nz/news/227956-waihi-beach-readies-freedom-campers.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-whangamata",
+    title: "Freedom Camping in Whangamatā: Where You Can Stay",
+    description: "Where certified self-contained campervans can stay overnight in Whangamatā: the small car parks and reserves on Thames-Coromandel District Council's list, two-night limits, the banned esplanade and the holiday parks to book.",
+    category: "Rules & safety",
+    region: "Coromandel",
+    places: ["Whangamatā", "Whiritoa", "Onemana", "Tairua", "Pauanui"],
+    imageAlt: "A sandy Coromandel beach with a rock arch, a lone walker and offshore islets under a blue sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-thames-coromandel-2026", "freedom-camping-whitianga", "coromandel-rotorua-road-trip", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/coromandel", "freedom-camping/hauraki"],
+    intro:
+      "Whangamatā has some of the Coromandel's best surf and a council that treats freedom camping as a small, tightly counted privilege. Thames-Coromandel District Council allows certified self-contained campervans at a handful of named reserves and car parks around the town, each with a limit of two to four vehicles, and bans camping along the rest of the beachfront. In the first weeks of January the places fill by mid-afternoon, and everyone else uses the holiday parks.",
+    sections: [
+      s("The Thames-Coromandel rules in short", [
+        "The district's Freedom Camping Bylaw, made in 2022, allows overnight stays only in a self-contained vehicle with a valid certificate, and only between 5pm and 9am, with a limit of two consecutive nights in one area. A vehicle has to be gone by 9am, and at some sites the council's schedule is stricter than the general rule. A site that already holds its quota when you arrive is full, and you must go elsewhere.",
+        "Reserves are closed to camping under the Reserves Act, and the council lists around eighty prohibited areas across the peninsula, from road reserves to whole beaches. The council's camping page carries the schedule, and it is the one document that overrides this guide.",
+      ], ["Self-contained certificate required", "5pm to 9am, two nights", "Full means full"]),
+      s("The Whangamatā sites", [
+        "The council's schedule names four places in and around Whangamatā: Aickin Road Sports Reserve with room for four vehicles, Beach Road with two, the information centre car park with four and Island View Reserve with four, which was moved to a new designated place in December 2024. Some carry their own hours, for example 5pm to 8am at the information centre, and Aickin Road asks campers to leave on a Saturday.",
+        "That makes around a dozen vehicles in the town on a peak night, which is why arriving at 5pm matters more than choosing the prettiest spot. A van parked at the beach end of Beach Road gets the sunset, while the sports reserve is the quieter option with the ground under you and a short walk to the surf.",
+      ], ["Aickin Road: 4 vehicles, leave on Saturday", "Beach Road: 2 vehicles", "Island View moved in December 2024"], {
+        caption: "Whangamatā sites on Thames-Coromandel District Council's freedom camping schedule, read on 21 October 2026. Check the council's page for the current list and limits.",
+        head: ["Site", "Vehicles", "Notes"],
+        rows: [
+          ["Aickin Road Sports Reserve", "4", "Day to leave: Saturday"],
+          ["Beach Road", "2", "Beachfront"],
+          ["Information centre car park", "4", "5pm to 8am"],
+          ["Island View Reserve", "4", "Designated place moved in December 2024"],
+        ],
+      }),
+      s("What is banned", [
+        "Esplanade Drive and most of the foreshore are on the prohibited list, along with the camping reserves behind the beach, which are the first places a visitor tries when the four sites are full. The council also bans camping on road verges and in the surf-club car parks, and its wardens patrol through the summer.",
+        "A breach under the national fee schedule costs $400 for camping where it is prohibited or in breach of the bylaw, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. The hire company receives the notice and bills the renter.",
+      ], ["Esplanade Drive: banned", "Surf-club car parks: banned", "$400 for most breaches"]),
+      s("Where to book instead", [
+        "Whangamatā has beachfront motor camps and holiday parks that take tents and any vehicle, with powered sites, kitchens and cabins, and they are the sensible base for a week of surfing. They book up for the Christmas and New Year fortnight months ahead, so ring before you drive down. The guide to holiday parks in New Zealand covers how booking works.",
+        "Further down the coast, Whiritoa and Onemana have smaller camps, and Tairua and Pauanui to the north have council sites of their own. KiwiCamping's DOC data (11 August 2026) lists 20 DOC campsites on the Coromandel, only 1 of them free and 14 with campervan access, and Waikawau Bay is the largest with room for 132.",
+      ], ["Book Christmas months ahead", "Whiritoa and Onemana are smaller", "20 DOC campsites on the Coromandel"]),
+      s("Using KiwiCamping around Whangamatā", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations on the Coromandel, with filters for campervan access. The council's freedom camping sites are not in it, so use the council page for those and keep a holiday park saved as the backup night.",
+        "Add Whangamatā to a trip between Auckland and the Bay of Plenty and read the legs: about two hours from Auckland, an hour on to Tauranga. Saved places and their details stay on the phone, and the map, routing, weather and photos load once you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council schedule: use the council page", "About 2 hours from Auckland", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Whangamatā?", "Yes, in a certified self-contained vehicle at one of the council's named sites, each with a small vehicle limit and a two-night stay. Most of the foreshore and every reserve is banned."],
+      ["What time do I have to leave a Whangamatā freedom camping site?", "By 9am. The general rule allows camping between 5pm and 9am, and some sites have shorter hours, so read the sign."],
+    ],
+    sources: [
+      { label: "Thames-Coromandel District Council: Freedom camping", url: "https://www.tcdc.govt.nz/camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-matakana",
+    title: "Freedom Camping Around Matakana and Warkworth: Where to Stay",
+    description: "Where to sleep in a campervan around Matakana and Warkworth: Auckland Council's few small freedom camping sites, the booked regional park campgrounds at Tawharanui and Mahurangi, and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Auckland",
+    places: ["Matakana", "Warkworth", "Snells Beach", "Omaha", "Leigh", "Tawharanui"],
+    imageAlt: "Surf washing over dark sand on a west coast beach, with a headland and a sea stack in the distance",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-auckland-2026", "auckland-to-bay-of-islands-drive-guide", "freedom-camping-whangarei-2026", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/auckland", "freedom-camping/tamaki-makaurau-auckland-mainland"],
+    intro:
+      "Matakana and Warkworth sit an hour north of Auckland, and they fall under the same Auckland Council bylaw as the city: certified self-contained vehicles only, in a few signed places, for a couple of nights. The sites here are small, often only a handful of vehicles, and the regional parks around them are closed to freedom camping. The better plan for a weekend at the Matakana markets or the beaches of the Mahurangi coast is a booked campground or a holiday park, with the council sites as a late-arrival backup.",
+    sections: [
+      s("The Auckland rules that apply here", [
+        "Auckland's Freedom Camping in Vehicles Bylaw applies across the whole region, including Rodney and the Hibiscus Coast. Camping on council roads and car parks is allowed only in a certified self-contained vehicle, for up to two nights in the same spot, and you leave by 9am on the day you go. The guide to freedom camping in Auckland reads the bylaw in full, with its prohibited and restricted areas, so this page keeps to the Matakana end.",
+        "A tent or a vehicle without a certificate has no place on council land. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. Enforcement runs through the summer, and a notice goes to the registered owner, which for a rental is the hire company.",
+      ], ["Region-wide bylaw", "Two nights, away by 9am", "Green warrant needed"]),
+      s("Council sites near Warkworth and the coast", [
+        "The council's signed places in the area are small and spread out: a wharf reserve at Port Albert on the Kaipara side, a few spaces at Parry Kauri Park in Warkworth, and a handful of spots on the Mahurangi and Whangaparāoa coasts such as Snells Beach, each taking between three and ten vehicles. The council's map and page carry the list, and it changes, so confirm a place before a night depends on it.",
+        "Because the numbers are so low, the sites fill before dark in summer and on Friday nights. A booked campground gets you a guaranteed bed and a toilet block, and the spaces left for the unplanned arrival are better treated as a bonus than a plan.",
+      ], ["3 to 10 vehicles a site", "Port Albert is on the Kaipara side", "Treat free sites as a backup"]),
+      s("Regional parks and booked campgrounds", [
+        "Auckland Council's regional parks are closed to freedom camping, but two of them run booked campgrounds that suit a weekend in the area: Tawharanui at the end of a long peninsula road, with beaches on both sides, and Mahurangi, where the campgrounds sit above sheltered coves. Both take bookings through the council, and the best weekends in January go early.",
+        "They are for tents and campervans alike, with toilets and water, and some bays are a short walk from the water. Dogs, fires and quiet hours follow the park's own rules, which the booking page lists, and they are stricter than most holiday parks.",
+      ], ["Tawharanui and Mahurangi: book ahead", "Regional parks ban freedom camping", "Dog and fire rules differ"]),
+      s("Holiday parks and DOC land", [
+        "Warkworth, Snells Beach, Omaha and Leigh each have holiday parks or motor camps within reach, with powered sites and cabins. They are the dependable choice over Christmas, and Easter weekend brings the same crowds as the beaches do. The guide to holiday parks in New Zealand explains how booking works.",
+        "DOC land in the Auckland region is mostly on islands. KiwiCamping's DOC data (11 August 2026) lists 9 campsites in Auckland, 1 of them free and 5 with campervan access, with adult nightly rates from $10 to $18, and Home Bay on Motutapu Island is the largest with room for 131. None are near Matakana by road.",
+      ], ["Holiday parks near each beach", "DOC sites in Auckland are on islands", "Easter fills like Christmas"]),
+      s("Using KiwiCamping around Matakana", [
+        "KiwiCamping lists DOC campsites and huts, holiday parks with their facilities and dump stations around Auckland, with filters for campervan access. It does not carry the council's freedom camping sites or regional park bookings, so use the council pages for those.",
+        "Add the Matakana night to an Auckland to Bay of Islands trip and read the distance and drive time to the next stop, which is Whangārei, a bit over an hour on. Saved places stay on the phone, and the map, routes, forecast and photos need a connection, which is patchy on the peninsula roads. The app is free to download, with in-app purchases.",
+      ], ["Council and park bookings: use their pages", "Whangārei is about an hour on", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp near Matakana?", "Only in a certified self-contained vehicle at one of the council's small signed sites, for two nights at most. Regional parks and most reserves are closed to it, so a booked campground or holiday park is the safer plan."],
+      ["Can I camp at Tawharanui Regional Park?", "Yes, at its booked campground, not as freedom camping. Reserve through Auckland Council before you drive out."],
+    ],
+    sources: [
+      { label: "Auckland Council: Freedom camping", url: "https://www.aucklandcouncil.govt.nz/en/parks-recreation/freedom-camping-auckland/general-rules-information-freedom-campers-auckland.html" },
+      { label: "Auckland Council: Freedom Camping in Vehicles Bylaw", url: "https://www.aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/bylaws/freedom-camping-bylaw.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-arrowtown",
+    title: "Freedom Camping in Arrowtown: Where You Can Stay",
+    description: "Freedom camping in Arrowtown: the one three-space council car park, Queenstown Lakes' two-night rule, the ban in the village, and nearby sites at Queenstown, Lake Hayes and Glenorchy plus the holiday parks.",
+    category: "Rules & safety",
+    region: "Queenstown Lakes",
+    places: ["Arrowtown", "Lake Hayes", "Queenstown", "Gibbston", "Glenorchy"],
+    imageAlt: "The Remarkables ridge in warm light behind a silhouette of trees in the Queenstown Lakes",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-queenstown-lakes-2026", "camping-in-queenstown", "queenstown-glenorchy-camping", "freedom-camping-wanaka"],
+    hubs: ["freedom-camping/wakatipu", "camping/otago"],
+    intro:
+      "Arrowtown is the autumn-colour village at the end of the Wakatipu valley, and its freedom camping amounts to one car park with three spaces. Queenstown Lakes District Council's 2025 bylaw bans camping in urban areas, allows certified self-contained vehicles only in 15 designated car parks across the district, and caps a stay at two nights in any 30 days. A van that misses the three Arrowtown spaces has to drive to Queenstown, Lake Hayes or Glenorchy, or book a holiday park.",
+    sections: [
+      s("What the 2025 bylaw says", [
+        "Queenstown Lakes District Council's Freedom Camping Bylaw 2025 took effect on 1 December 2025, after the High Court quashed the 2021 bylaw following a challenge by the Motor Caravan Association. It prohibits freedom camping in urban areas, including on-road parking, and allows it only in a certified self-contained vehicle in the designated car parks, plus some rural roads with conditions. Most council reserves are closed to camping under the Reserves Act.",
+        "At the designated sites you arrive after 6pm and leave before 8am, stay no more than two nights in any 30-day period, and keep your vehicle and belongings inside the marked space. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains. The council's page and the QR check-in at each site are the final word, and the council planned a further decision in December 2026.",
+      ], ["Urban areas prohibited", "After 6pm, away by 8am", "Two nights in 30 days"]),
+      s("The Arrowtown space", [
+        "The council's list gives Arrowtown a single site: Hansen Place car park, with three marked spaces. It is a working car park on the edge of the village, so there are no views to speak of, and with only three spaces for every van that wants an Arrowtown night, it is full most evenings between December and April.",
+        "Street parking in the village, the car parks by the river and the Chinese Settlement and the reserves along the Arrow are not options. The town is an urban area under the bylaw, and the council patrols it, since the heritage streets are the district's most photographed.",
+      ], ["Hansen Place: 3 spaces", "Village streets: banned", "Full on summer evenings"]),
+      s("Other sites within reach", [
+        "The nearest alternatives sit down the valley. Howards Drive car park at Lake Hayes takes three vehicles, and Queenstown has several: Boundary Street with 15 spaces, Lakeview with 10, Industrial Place with 6 and Gorge Road with 2, with Queenstown Events Centre at Frankton taking 9. Further out, Gibbston Highway at SH6 has 2 and Glenorchy Domain has 3.",
+        "Kingston, 45 minutes south of Queenstown, has the largest site with 50 spaces. All the sites are car parks with no booking, so they work for a late arrival and not for a plan, and the council's list has changed between summers. The guide to freedom camping in Queenstown Lakes reads the whole bylaw.",
+      ], ["Lake Hayes: 3 spaces", "Boundary Street: 15 spaces", "Kingston: 50 spaces"]),
+      s("Holiday parks and DOC land", [
+        "Arrowtown has its own holiday park by the river, and Queenstown, Frankton and Lake Hayes have several more, with powered sites, cabins and tent areas. They fill from Christmas to Easter, and autumn colours in April bring a second rush, so book before you arrive. The guide to holiday parks in New Zealand covers how booking works.",
+        "DOC land around the lakes is the other free-to-cheap choice. KiwiCamping's DOC data (11 August 2026) lists 30 DOC campsites in Otago, 8 of them free and 17 with campervan access, with adult nightly rates from $5 to $42, and Twelve Mile Delta near Queenstown is the largest with room for 100. The Queenstown to Glenorchy guide covers the road north.",
+      ], ["Book for Christmas and April", "30 DOC campsites in Otago", "Twelve Mile Delta takes 100"]),
+      s("Using KiwiCamping around Arrowtown", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations around Queenstown and Arrowtown, with campervan filters. It does not hold the council's car parks, so use the council page for those and save a holiday park as the backup night.",
+        "Add Arrowtown to a trip with Queenstown and Glenorchy, and read the short legs: about 20 minutes to Queenstown and an hour to Glenorchy. Saved places and details stay on the phone, and map tiles, routing, weather and photos load when you have signal. The app is free to download, with in-app purchases.",
+      ], ["Council car parks: use the council page", "20 minutes to Queenstown", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Arrowtown?", "Only at Hansen Place car park, which has three spaces, in a certified self-contained vehicle. The village and its reserves are banned, and the nearest larger sites are in Queenstown."],
+      ["How many nights can I stay at Queenstown Lakes freedom camping sites?", "Two nights in any 30 days, arriving after 6pm and leaving before 8am. Check the sign at each site, because the council reviews its list."],
+    ],
+    sources: [
+      { label: "Queenstown Lakes District Council: Responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
+      { label: "Queenstown Lakes District Council: Bylaws", url: "https://www.qldc.govt.nz/bylaws" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-lumsden",
+    title: "Freedom Camping in Lumsden: The Southland Crossroads Stop",
+    description: "Freedom camping in Lumsden: Southland District Council's green area open to all vehicles for seven nights in 30 days, why it suits the Te Anau and Queenstown run, the other council sites nearby and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Southland",
+    places: ["Lumsden", "Mossburn", "Athol", "Garston", "Te Anau"],
+    imageAlt: "Forested hills and a mountain ridge above a southern lake under a cloudy sky",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-southland-2026", "freedom-camping-te-anau", "southern-scenic-route-camping", "christchurch-to-te-anau-drive-guide"],
+    hubs: ["camping/southland", "freedom-camping/te-anau"],
+    intro:
+      "Lumsden is where State Highways 6 and 94 meet, an hour from Te Anau, an hour and a half from Queenstown and about 45 minutes from Gore, and it is one of the few places in the south where Southland District Council lets people camp for free in almost any kind of vehicle. The council classes its Lumsden site as a green area, with no vehicle restriction stated and a limit of seven nights in any 30 days. For anyone who cannot get a bed in Te Anau in January, it is the practical answer, and it is a town with a pub, fuel and a bakery.",
+    sections: [
+      s("Green sites and blue sites", [
+        "Southland District Council sorts its campsites by colour. A blue site is for certified self-contained vehicles only, and tents, cars and uncertified vans are not allowed. A green site allows all types of camping, and the council lists Lumsden, Haldane, Dunsdale, Thornbury, Orepuki and the Otautau arboretum among them, though per-site rules on tents are on the council's map and not repeated in its list.",
+        "The Freedom Camping Bylaw 2015 is under review, with formal consultation planned for late 2026, so the colour of a site and its night count could change next season. Where a site says self-contained, you need a warrant on display, and since 7 June 2026 only the green warrant counts, which the guide to the self-contained campervan warrant explains.",
+      ], ["Green site: all vehicle types", "Blue site: self-contained only", "Bylaw under review"]),
+      s("Staying at Lumsden", [
+        "The council's list gives Lumsden a green area with seven nights in any 30 days, the same as the bylaw's default, and not more than one month in any three. There are no vehicle numbers published, so on a busy evening you may be parking among tents, caravans and campervans. The general rules apply: generators only between 8am and 9pm, fires only in a council fire facility, dogs on a lead, and all rubbish taken with you.",
+        "Facilities are modest. The council's map marks toilets and dump stations in the district, so check it for what Lumsden has this season, and fill water and buy groceries in town. The main road is busy with trucks, so a spot away from the highway makes for a quieter night.",
+      ], ["7 nights in any 30 days", "Generators 8am to 9pm", "Check the council map for toilets"]),
+      s("Why Lumsden works as a base", [
+        "Lumsden sits on the Around the Mountains Cycle Trail and the old Kingston Flyer line, and the town's centre is a short walk from the camping area. Te Anau and the Milford Road are about an hour north, Queenstown 90 minutes east, and the Catlins and Invercargill a short run south, so a few nights here make a tidy base for the whole Fiordland and Southland circuit.",
+        "That position is why it fills when Te Anau does. Te Anau itself has no council freedom camping site at all, and its holiday parks sell out through summer, so the nights you cannot get there are the nights Lumsden is for. The Te Anau guide covers the lakeside end.",
+      ], ["An hour to Te Anau", "90 minutes to Queenstown", "Te Anau has no council site"]),
+      s("Other sites and the holiday parks", [
+        "Nearby council sites on the list include Dipton and Balfour, both certified self-contained only, and Mossburn and Athol are in the same district. Each is a small-town stop with a short stay and few services, useful for a single night on the road and nothing more.",
+        "Holiday parks at Te Anau, Gore and Queenstown take everyone, and they are the answer when the free sites are full. The guide to holiday parks in New Zealand explains how booking works. KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60.",
+      ], ["Dipton and Balfour: self-contained only", "5 DOC campsites in Southland", "Mavora Lakes takes 60"]),
+      s("Using KiwiCamping around Lumsden", [
+        "In KiwiCamping you can see DOC campsites and huts, holiday parks and dump stations across Southland, with filters for the campervan access you need. The council's freedom camping areas are not in the app, so use the council's map for Lumsden itself.",
+        "Add Lumsden to a trip as the night before Te Anau or Queenstown, and read the distance and drive time between the stops. Saved places stay on the phone, and the map, directions, weather and photos wait for signal, which drops out on the roads around Mavora. The app is free to download, with in-app purchases.",
+      ], ["Council map decides Lumsden", "Use it as the night before Te Anau", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Lumsden?", "Yes. Southland District Council lists Lumsden as a green area open to all types of camping, for up to seven nights in any 30 days. Check the council's map for its current rules."],
+      ["Is there freedom camping in Te Anau?", "No. The council lists no site for Te Anau, so the nearest free camping is a short drive away, and holiday parks cover the rest."],
+    ],
+    sources: [
+      { label: "Southland District Council: freedom camping", url: "https://southlanddc.govt.nz/services/freedom-camping/" },
+      { label: "Southland District Council: freedom camping locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+      { label: "Southland District Council: Freedom Camping Bylaw review", url: "https://southlanddc.govt.nz/make-it-stick/under-review/freedom-camping-bylaw-review/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-colac-bay",
+    title: "Freedom Camping at Colac Bay and the Southland Coast",
+    description: "Freedom camping at Colac Bay: Southland District Council's certified self-contained site with a two-day limit, Monkey Island at Orepuki, why Riverton has no site, and the campgrounds along the Southern Scenic Route.",
+    category: "Rules & safety",
+    region: "Southland",
+    places: ["Colac Bay", "Riverton", "Orepuki", "Tuatapere", "Curio Bay"],
+    imageAlt: "Rocky stacks and green headlands rising from clear blue water on the southern coast",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-southland-2026", "southern-scenic-route-camping", "freedom-camping-lumsden", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/southland", "freedom-camping/murihiku"],
+    intro:
+      "Colac Bay is the surf village on the Southern Scenic Route between Invercargill and Tuatapere, and Southland District Council gives it a freedom camping site for certified self-contained vehicles with a limit of two days in any 30. It is one of the more generous spots on the south coast, because the larger towns do not offer one: Riverton, the next town along, has no council site at all. Orepuki's Monkey Island, a little further west, is the easier option for a tent or a van without a certificate.",
+    sections: [
+      s("The Colac Bay site", [
+        "The council's location list shows Colac Bay, also written Oraka, as a site for certified self-contained vehicles only, with a limit of two days in any 30. Camping in tents, cars and vehicles without a certificate is not allowed there. With a green warrant on display, you park on the council reserve by the bay, and the beach and the surf break are a short walk away.",
+        "Because the stay is short, it works as an overnight on the road and not a base. The council's general rules apply: fires only in a council fire facility, dogs on a lead, generators between 8am and 9pm, and all rubbish taken with you. The guide to the self-contained campervan warrant explains what the vehicle needs.",
+      ], ["Self-contained only", "Two days in any 30", "Green warrant on display"]),
+      s("Why Riverton has no site", [
+        "Riverton, the oldest town in Southland and the last proper stop before Colac Bay, has no council freedom camping site. The bylaw maps show the whole township as camping prohibited, and the council's list does not mention it, so a van that turns up in the harbour car park risks a ticket. The nearest options are Colac Bay to the west and the council camping grounds and holiday parks in the area.",
+        "The fines are national: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A hire company passes the notice on to the renter.",
+      ], ["Riverton: all prohibited", "$400 for most breaches", "Nearest site is Colac Bay"]),
+      s("Monkey Island and the west", [
+        "Monkey Island at Orepuki is the council's other coastal site, and it is the friendly one: non-self-contained camping is allowed, with a limit of 28 days a year, and no drinking water, so bring your own. It suits a tent or a van without a certificate and a night under the Foveaux Strait sky.",
+        "Beyond it, Tuatapere has no site, and Curio Bay's campground, further east in the Catlins, takes bookings, and the council's page said it was temporarily closed for maintenance when read in October 2026. Check each before you drive, because the south coast is remote and the next bed can be an hour away.",
+      ], ["Monkey Island: 28 days a year", "No drinking water", "Tuatapere: no site"]),
+      s("Campgrounds and DOC land", [
+        "For a booked bed, the holiday parks and motor camps at Invercargill, Riverton and Tuatapere take tents and campervans, with powered sites and kitchens. The Southern Scenic Route guide covers the stops between Dunedin and Queenstown, and the guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Southland, with adult nightly rates from $6 to $28 and only 2 with campervan access, and Mavora Lakes is the largest with room for 60. The Hump Ridge Track starts near Tuatapere and books separately through its own trust.",
+      ], ["5 DOC campsites in Southland", "Book holiday parks ahead in summer", "Hump Ridge books separately"]),
+      s("Using KiwiCamping on the south coast", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations along the Southland coast, with filters for campervan access, though not the council's freedom camping reserves. Use the council's map for Colac Bay and Monkey Island, and keep a campground saved for each night.",
+        "Put Colac Bay into a trip with the legs either side, Invercargill about 45 minutes east and Tuatapere half an hour west, and plan fuel at Invercargill or Riverton. Saved places stay on the phone, and the map, routing, forecast and photos wait for signal, which is patchy past Orepuki. The app is free to download, with in-app purchases.",
+      ], ["Council map decides the reserves", "Fuel up in Invercargill or Riverton", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Colac Bay?", "Yes, in a certified self-contained vehicle, for up to two days in any 30. Tents and uncertified vehicles are not allowed there."],
+      ["Where can I camp in a tent on the Southland coast?", "Monkey Island at Orepuki allows non-self-contained camping for up to 28 days a year, with no drinking water. Otherwise use a holiday park or a campground."],
+    ],
+    sources: [
+      { label: "Southland District Council: freedom camping", url: "https://southlanddc.govt.nz/services/freedom-camping/" },
+      { label: "Southland District Council: freedom camping locations", url: "https://southlanddc.govt.nz/services/freedom-camping/freedom-camping-locations/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-westport",
+    title: "Freedom Camping in Westport and Buller: Rules and Where to Stay",
+    description: "Freedom camping around Westport and the Buller District: a bylaw that allows self-contained vehicles outside named no-camping zones, the banned tipheads, Marrs Beach and Carters Beach, night limits, fines and campgrounds.",
+    category: "Rules & safety",
+    region: "West Coast",
+    places: ["Westport", "Carters Beach", "Cape Foulwind", "Charleston", "Punakaiki", "Karamea"],
+    imageAlt: "Driftwood and boulders strewn along a West Coast beach with the sea behind",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-west-coast", "west-coast-south-island-road-trip", "freedom-camping-westland-2026", "arthurs-pass-camping-route"],
+    hubs: ["freedom-camping/buller", "camping/west-coast"],
+    intro:
+      "Buller District Council works differently from most councils: instead of listing the places where you can camp, its bylaw lets a certified self-contained vehicle stay anywhere on council land outside a list of named no-camping zones. Those zones take in most of what a visitor would try around Westport, including the Buller River tipheads, Marrs Beach and the Carters Beach domain, and the council publishes no designated freedom camping sites for Westport, Charleston, Karamea or Reefton. The rules also date from 2012, so the council's own page and its bylaw do not quite agree.",
+    sections: [
+      s("How Buller's bylaw works", [
+        "The Freedom Camping Bylaw 2012, amended in 2018, says a person may freedom camp in a self-contained vehicle in any local authority area outside the no-camping zones in its schedule. Tents and vehicles that are not self-contained are not provided for, and the council's page tells them to use a campground. The self-contained test in the bylaw is the old NZS 5465:2001 standard, and since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains.",
+        "The bylaw limits a stay to three consecutive days and ten days a calendar month at any one place or within 500 metres, with no fires. The council's web page asks for no more than two consecutive nights and nine a month, so follow the stricter figure. Replacement of the bylaw has been planned, so read the council's page before you arrive.",
+      ], ["Anywhere outside named no-camping zones", "Bylaw says 3 days, page says 2 nights", "Follow the stricter figure"]),
+      s("Where you cannot camp around Westport", [
+        "The no-camping zones name the places visitors reach for first: both Buller River tipheads, all of Marrs Beach east of Tiphead Road, the parking areas at the eastern end of the Buller Bridge, Carters Beach Domain from Golf Links Road to the holiday park, Tui Dellaca Reserve and the grass south of Tauranga Bay Road, and Okari Road out to the lagoon. The council's page adds Omau Domain at Cape Foulwind and Kohaihai Road at Karamea.",
+        "Further up the coast the list continues: the Oparara River mouth and Flagstaff at Karamea, the Dolphin Reserve beach tracks at Hector, and the first layby north of the Nile River mouth at Charleston. If a place looks like a beach car park, assume it is on the list.",
+      ], ["Tipheads and Marrs Beach: banned", "Carters Beach Domain: banned", "Karamea and Charleston have named bans"]),
+      s("Fines and what to expect", [
+        "The council's web page mentions a $200 fine, but that figure is out of date: the national fee schedule has set $400 for camping where it is prohibited and $400 for a vehicle that is not self-contained where it must be since 2023, with $200 for no warrant card on display and $800 for damage or waste. A hire company receives the notice first and charges it to the renter.",
+        "The council can give written consent to camp where it is otherwise banned, though it is not a route for a casual visitor. The practical result is that Westport has no obvious free place to stay, and the honest advice is to plan a campground and treat any roadside night as a bonus.",
+      ], ["$400, not $200", "Written consent is rare", "Plan a campground first"]),
+      s("Campgrounds, DOC and the coast road", [
+        "Westport and the Buller coast have holiday parks and campgrounds, at Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki and Karamea, with powered sites, tent areas and cabins, and they are the way to sleep near the sea. The council's own page links to its list of campgrounds. The guide to holiday parks in New Zealand explains how booking works.",
+        "KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the West Coast, only 1 of them free and 10 with campervan access, with adult nightly rates from $10 to $20, and Lake Māhinapua is the largest with room for 100. The Paparoa Track starts near Punakaiki and Blackball, and its huts book through DOC.",
+      ], ["Holiday parks along the coast", "14 DOC campsites on the West Coast", "Paparoa Track books through DOC"]),
+      s("Using KiwiCamping around Westport", [
+        "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations along the West Coast, with filters for campervan access. It does not hold Buller's no-camping zones, so use the council's page to avoid them.",
+        "Place a Westport night in a trip between Nelson and Greymouth, and read the legs, which are about 3.5 hours from Nelson and 2 hours on to Greymouth, with fuel at Westport. Saved places stay on the phone, and the map, routing, forecast and photos load when there is signal, which is thin along the Buller Gorge. The app is free to download, with in-app purchases.",
+      ], ["Council page shows the no-camping zones", "Fuel at Westport", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Westport?", "Only in a certified self-contained vehicle, and not in the named no-camping zones, which include the tipheads, Marrs Beach and Carters Beach Domain. The council publishes no designated sites, so a campground is the reliable choice."],
+      ["How many nights can I stay in Buller?", "The bylaw says three consecutive days and ten a month, while the council's page asks for two nights and nine a month. Follow the stricter one."],
+    ],
+    sources: [
+      { label: "Buller District Council: Freedom camping", url: "https://bullerdc.govt.nz/recreation/freedom-camping/" },
+      { label: "Buller District Council: Freedom Camping Bylaw 2012", url: "https://bullerdc.govt.nz/media/vrifsbba/181119-bdc-freedom-camping-bylaw-2012.pdf" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-haast",
+    title: "Freedom Camping at Haast: Rules, Sites and Where to Sleep",
+    description: "Where to sleep in a campervan at Haast: Westland District Council's thin list of sites, the dump station on Marks Road, DOC freedom camping zones along the Haast Highway, and the campgrounds and motels to book in summer.",
+    category: "Rules & safety",
+    region: "South Westland",
+    places: ["Haast", "Haast Beach", "Lake Moeraki", "Jackson Bay", "Paringa"],
+    imageAlt: "A road sign at Haast Pass pointing to Haast Junction and Wānaka, with a woman standing beside it in bush",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-westland-2026", "wanaka-haast-pass-route", "west-coast-south-island-road-trip", "franz-josef-fox-glacier-camping"],
+    hubs: ["freedom-camping/south-westland", "camping/west-coast"],
+    intro:
+      "Haast is the long, empty stretch where State Highway 6 meets the Tasman Sea, with 120 km to Fox Glacier on one side and over the Haast Pass to Wānaka on the other, and it has very little formal camping. Westland District Council's current page lists only a few sites in the whole district, and Haast's own spaces have appeared in a draft bylaw that the council has not confirmed. Much of the land around the township is DOC's, with its own freedom camping zones and rules, so the answer to where you can park depends on whose land the lay-by is on.",
+    sections: [
+      s("Council land and the bylaw", [
+        "Westland District Council's responsible camping page lists a short set of sites for certified self-contained vehicles, including Kumara, Woodstock and Paringa, and a 2024 draft bylaw added a site beside the playground on Marks Road in Haast with room for around ten vehicles. The council has not confirmed that draft in the material read for this guide, so treat Haast Playground as unconfirmed and check the council's page and the sign before a night depends on it.",
+        "Whichever list applies, the vehicle must be certified self-contained, with a green warrant on display since 7 June 2026, which the guide to the self-contained campervan warrant explains. Stays at the council's sites are short, such as two nights in 30 days at Paringa, and tents and uncertified vans have no standing.",
+      ], ["Haast Playground: draft, check first", "Paringa: 2 nights in 30 days", "Green warrant on display"]),
+      s("Dump station and services", [
+        "The council lists a dump station at Haast by the toilets on Marks Road, along with others at Hokitika and Franz Josef, and it is the one reliable emptying point on this part of the highway. The guide to wastewater and rubbish explains the etiquette, and the rule is simple: use the dump station, not a stream or a lay-by.",
+        "Haast has a few shops, a fuel stop and a handful of motels, and the next full-service towns are Wānaka, 140 km east, and Fox Glacier, about 120 km north. Fill the tank and buy groceries here, since neither is cheap or plentiful elsewhere along the road.",
+      ], ["Dump station on Marks Road", "Fuel at Haast", "Groceries are thin on both sides"]),
+      s("DOC land along the highway", [
+        "Much of South Westland is conservation land, and DOC's freedom camping zones follow its own list of places, with Roaring Billy Walk car park the largest recorded, and each zone carrying rules on vehicles and stay length. DOC's hub for South Westland in this site maps them, and the DOC notice at the entrance to each area is the rule that counts, since some places that look like camping spots are closed to it.",
+        "For a paid bed with a toilet, DOC campsites along the highway are the cheaper answer than a motel. KiwiCamping's DOC data (11 August 2026) lists 14 campsites on the West Coast, only 1 of them free and 10 with campervan access, with adult nightly rates from $10 to $20. Sandflies are fierce on this coast, and the guide to sandflies explains what works.",
+      ], ["DOC notices decide the zones", "14 DOC campsites on the West Coast", "Sandflies are a real factor"]),
+      s("Motels, holiday parks and booking ahead", [
+        "Haast has a small number of holiday parks and motels, and summer demand easily outstrips them, because the Haast Pass is the only road link between the West Coast and Otago. Book before you set off from Wānaka or Fox, since a late arrival with no booking can mean a 120 km drive to the next bed.",
+        "Jackson Bay, 50 km down the coast road, has its own campground and a fish and chip shop at the road's end, and Lake Moeraki to the north has a lodge and a DOC campsite. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["Book before leaving Wānaka or Fox", "Jackson Bay is 50 km each way", "Lake Moeraki has a DOC campsite"]),
+      s("Using KiwiCamping around Haast", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations through South Westland, with filters for campervan access. It does not hold the council's freedom camping spaces, so use the council page for those.",
+        "Put Haast in a trip between Wānaka and the glaciers, and read the leg lengths, since each side is over two hours. Saved places and their details stay on the phone, and the map, routes, forecast and photos need signal, which is rare for long stretches here. The app is free to download, with in-app purchases.",
+      ], ["Council page decides the sites", "Each side is over 2 hours", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Haast?", "Council and DOC land each have their own rules. Westland District Council lists few sites, and a draft bylaw named a space on Marks Road that is not confirmed, so check the council and DOC notices before you stay."],
+      ["Is there a dump station at Haast?", "Yes. The council lists one by the toilets on Marks Road."],
+    ],
+    sources: [
+      { label: "Westland District Council: campgrounds and responsible camping", url: "https://www.westlanddc.govt.nz/recreation/campgrounds-and-responsible-camping" },
+      { label: "Westland District Council: seeking submissions on the freedom camping bylaw", url: "https://westlanddc.govt.nz/notices-news-and-events/posts/seeking-submissions-freedom-camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-motueka",
+    title: "Freedom Camping in Motueka: Sites, Limits and Alternatives",
+    description: "Freedom camping in Motueka: Tasman District Council's Responsible Camping Bylaw 2025, the beach, quay and Decks Reserve sites, the Ngatimoti reserve that takes any vehicle, two-night limits and the Abel Tasman holiday parks.",
+    category: "Rules & safety",
+    region: "Nelson Tasman",
+    places: ["Motueka", "Ngatimoti", "Kaiteriteri", "Marahau", "Mapua"],
+    imageAlt: "Waves washing onto a golden sand beach beside a forested shore in Tasman Bay",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tasman-2026", "freedom-camping-nelson", "nelson-abel-tasman-golden-bay", "abel-tasman-coast-track-campsites-2026-27"],
+    hubs: ["freedom-camping/motueka", "camping/nelson-tasman"],
+    intro:
+      "Motueka is the gateway to the Abel Tasman, and the one Nelson Tasman town where the council gives a visitor several places to park a campervan for the night. Tasman District Council's Responsible Camping Bylaw, in force since 1 November 2025, allows certified self-contained vehicles at three signed sites in town, a larger reserve up the Motueka Valley that also takes uncertified vehicles, and no tents on public land at all. Kaiteriteri, Marahau and Mapua have no freedom camping sites, so the summer crush goes to the holiday parks.",
+    sections: [
+      s("What the 2025 bylaw says", [
+        "Tasman District Council adopted its Responsible Camping Bylaw on 11 September 2025, and it came into effect on 1 November. It allows freedom camping only at signposted sites, with space on a first come, first served basis, and it says tents may not be used on public land. The council counts 147 freedom camping spaces across the district.",
+        "At each site the draft schedule set two consecutive nights, on no more than two occasions in a calendar month, with a departure time of 8am and your belongings inside the marked space. Since 7 June 2026 a certified vehicle needs the green warrant, which the guide to the self-contained campervan warrant explains. The council's pages were not readable for this guide, so confirm the figures there.",
+      ], ["Signed sites only", "Two nights, twice a month", "No tents on public land"]),
+      s("The Motueka sites", [
+        "Three places in town carry the spaces: Decks Reserve by the sea, with room for around 40 certified vehicles but on weeknights only between 6pm and 8am, George Quay with about 12, and Motueka Beach Reserve with about 19 for certified vehicles plus 3 for vehicles that are not self-contained. They are near the town centre, with the shops and the sea within walking distance.",
+        "The numbers come from the council's draft schedule and a total of 147 spaces matches the council's own figure, so the list is probably the final one, but it is unconfirmed. Arrive by late afternoon in summer, because the beach reserve fills with day visitors and vans together.",
+      ], ["Decks Reserve: about 40, weeknights", "George Quay: about 12", "Motueka Beach Reserve: 19 plus 3"], {
+        caption: "Motueka sites in Tasman District Council's draft schedule 2 for the Responsible Camping Bylaw 2025, read on 21 October 2026. Check the council's page for the adopted list.",
+        head: ["Site", "Spaces", "Notes"],
+        rows: [
+          ["Decks Reserve", "About 40", "Certified self-contained, weeknights 6pm to 8am"],
+          ["George Quay", "About 12", "Certified self-contained"],
+          ["Motueka Beach Reserve", "About 19 plus 3", "3 spaces for vehicles that are not self-contained"],
+          ["Alexander Bluff Road Reserve", "Up to 40", "Ngatimoti, any vehicle, up the Motueka Valley"],
+        ],
+      }),
+      s("The Ngatimoti reserve", [
+        "Alexander Bluff Road Reserve at Ngatimoti, about 350 metres south of Alexander Bluff Bridge on the Motueka Valley Highway, takes up to 40 vehicles of any type, including those that are not self-contained. It is the council's most open site, about 25 minutes from Motueka, and a good pick for a tent-less van or a car camper who cannot use the beach sites.",
+        "It is a riverside reserve with basic facilities, so bring water and take your rubbish. Tents are still not allowed at it under the bylaw, so a tent has to be pitched in a holiday park or a DOC campsite.",
+      ], ["Takes any vehicle, up to 40", "About 25 minutes from Motueka", "Still no tents"]),
+      s("Abel Tasman, Kaiteriteri and the holiday parks", [
+        "Kaiteriteri, Marahau and Mapua have no freedom camping, and the Abel Tasman National Park's campsites are DOC's, booked through its system all year, as the Abel Tasman Coast Track campsites guide explains. In summer the Kaiteriteri and Marahau holiday parks and the motor camps in Motueka are the practical choice, and they book out over Christmas.",
+        "KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, only 2 of them free and 8 with campervan access, with adult nightly rates from $10 to $31, and Tōtaranui is the largest with room for 269. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["Abel Tasman campsites book all year", "37 DOC campsites in Nelson Tasman", "Holiday parks fill at Christmas"]),
+      s("Using KiwiCamping around Motueka", [
+        "In KiwiCamping you will find DOC campsites and huts, holiday parks and dump stations around Motueka and the Abel Tasman, with filters for campervan access. The council's sites are not in the app, so use the council's page for those and keep a holiday park saved as the backup.",
+        "Add Motueka to a trip from Nelson, 45 minutes east, and read the leg to Golden Bay over Takaka Hill. Saved places stay on the phone, and the map, routing, weather and photos need signal, which drops on the hill. The app is free to download, with in-app purchases.",
+      ], ["Council page decides the sites", "Nelson is 45 minutes away", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Motueka?", "Yes, in a certified self-contained vehicle at the council's signed sites, such as Motueka Beach Reserve, George Quay and Decks Reserve. Tents are not allowed on public land."],
+      ["Can I freedom camp at Kaiteriteri or Marahau?", "No. Neither has a council site, so use a holiday park or a booked DOC campsite."],
+    ],
+    sources: [
+      { label: "Tasman District Council: Responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Tasman District Council: Camping bylaw", url: "https://www.tasman.govt.nz/my-council/key-documents/more/bylaws-and-regulations/camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
+
+  a({
+    slug: "freedom-camping-gisborne",
+    title: "Freedom Camping in Gisborne and Along State Highway 35",
+    description: "Freedom camping in Gisborne and on the East Cape: Kaiti Beach's painted bays and three-night limit, the banned Waikanae Beach, DOC campsites such as Anaura Bay, and the holiday parks along State Highway 35.",
+    category: "Rules & safety",
+    region: "East Coast",
+    places: ["Gisborne", "Kaiti Beach", "Tolaga Bay", "Anaura Bay", "Te Araroa"],
+    imageAlt: "Breakers rolling onto a dark sand beach with white cliffs on the headland beyond",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "east-cape-road-trip", "freedom-camping-whakatane-2026", "freedom-camping-napier-hastings", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/east-coast", "camping/east-coast"],
+    intro:
+      "Gisborne has one headline freedom camping place, Kaiti Beach, where certified self-contained vehicles park inside painted blue lines for up to three nights, and the council bans camping at Waikanae Beach and across most of the town. Beyond the city, State Highway 35 around the East Cape runs through country where the camping is DOC's and the holiday parks', not the council's. Plan Gisborne as the last full-service stop, and keep the East Cape for its campsites.",
+    sections: [
+      s("What Gisborne District Council allows", [
+        "The council lets people camp in restricted camping areas only, and its page says the vehicle must be certified self-contained to stay at them. Camping in a vehicle that is not certified is one of the listed breaches, along with overstaying and damaging the environment. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains.",
+        "The bylaw has been reviewed several times since 2021 after complaints from residents about the beach sites, so read the council's page for the current list of areas, the season and the limits. Third-party listings quote different seasons, and the council's page is the only one to trust.",
+      ], ["Restricted areas only", "Certified self-contained required", "Council page is the authority"]),
+      s("Kaiti Beach and the town", [
+        "Kaiti Beach is the council's named site: certified self-contained vehicles only, parked within the painted blue lines, with a three-night maximum. It is a short drive from the city centre and the harbour, looking out at Young Nick's Head, and it fills on summer evenings. Park inside the lines, since a van that overhangs one is the easiest ticket there is.",
+        "Waikanae Beach Holiday Park on Grey Street is listed as a prohibited area under the bylaw's first schedule, and so are most of the beachfront and the city's other car parks. Treat any place not on the council's list as closed.",
+      ], ["Kaiti Beach: inside the blue lines", "Three nights at most", "Waikanae Beach: prohibited"]),
+      s("Fines", [
+        "A breach costs $400 for camping where it is prohibited or restricted, $400 for staying in a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023. The council employs compliance staff over summer, and a hire company charges the ticket to the renter.",
+        "The fallback is a holiday park, and Gisborne has several in town and along Wainui Beach, with powered sites and cabins. The guide to holiday parks in New Zealand explains how booking works, and January fills early because Gisborne is where the sun rises first on New Year's Day.",
+      ], ["$400 for most breaches", "Holiday parks in town and at Wainui", "New Year fills early"]),
+      s("State Highway 35 and the East Cape", [
+        "The 330 km loop of State Highway 35 north of Gisborne is the East Cape, and the East Cape road trip guide covers the route in days. Camping on the way is mostly in DOC and community campgrounds at the bays, with Anaura Bay the best known and the largest DOC site in the region with room for 81.",
+        "KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the East Coast, 8 of them free and 12 with campervan access, with adult nightly rates from $8 to $15, which makes it one of the cheapest regions in the country. Fuel and groceries thin out north of Tolaga Bay, so fill up in Gisborne and carry water.",
+      ], ["Anaura Bay holds 81", "8 of 14 DOC campsites are free", "Fuel up in Gisborne"]),
+      s("Using KiwiCamping around Gisborne", [
+        "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations on the East Coast, with campervan filters, though not the council's freedom camping areas. Check the council's page for Kaiti Beach and save a campground as the night's backup.",
+        "Add Gisborne to a trip as the start of the East Cape loop, and read the legs, since the drive from Napier is about 3.5 hours and from Whakatāne about 2.5. Saved places and details stay on the phone, while the map, routing, weather and photos need signal, which is sparse on the cape. The app is free to download, with in-app purchases.",
+      ], ["Council page decides Kaiti Beach", "Napier about 3.5 hours away", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Gisborne?", "Yes, in a certified self-contained vehicle at Kaiti Beach, parked inside the painted blue lines for up to three nights. Waikanae Beach and most of the town are prohibited."],
+      ["Is freedom camping allowed on the East Cape?", "Mostly at DOC and community campgrounds, not on council roadsides. Check the signs, because many beach car parks are closed to camping."],
+    ],
+    sources: [
+      { label: "Gisborne District Council: Freedom camping", url: "https://gdc.govt.nz/recreation/freedom-camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

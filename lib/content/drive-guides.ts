@@ -475,4 +475,157 @@ export const driveGuideArticles: Article[] = [
       { label: "DOC: Otaio Gorge Campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/hunters-hills-area/things-to-do/otaio-gorge-campsite/" },
     ],
   }),
+
+  a({
+    slug: "surf-highway-45-camping-guide",
+    title: "Surf Highway 45 Camping Guide: New Plymouth to Hāwera",
+    description: "Drive Surf Highway 45 around Taranaki's coast from New Plymouth to Hāwera: about 105 km of beach towns, Cape Egmont and surf breaks, with fuel, stops and where to camp or book a holiday park.",
+    category: "Road trips",
+    region: "Taranaki",
+    places: ["New Plymouth", "Ōākura", "Cape Egmont", "Ōpunake", "Kaupokonui", "Hāwera"],
+    imageAlt: "Mount Taranaki rising behind golden toetoe grasses",
+    related: ["taranaki-forgotten-world-highway", "auckland-to-new-plymouth-drive-guide", "freedom-camping-new-plymouth-2026", "can-i-drive-on-the-beach-in-new-zealand", "holiday-parks-new-zealand-guide", "freedom-camping-whanganui"],
+    hubs: ["freedom-camping/new-plymouth", "huts/taranaki"],
+    intro:
+      "Surf Highway 45 is the 105 km coast road that loops around the western flank of Mount Taranaki between New Plymouth and Hāwera, and it earns its name from the surf breaks that sit beside it. It takes an hour and a half without stops and a good day with them, passing Ōākura's beach, the side road to Cape Egmont lighthouse and the surf town of Ōpunake. The camping is a mix of holiday parks in the beach towns, DOC and community sites inland, and council land with its own rules.",
+    sections: [
+      s("The route and how long it takes", [
+        "State Highway 45 leaves New Plymouth to the south-west, runs past the airport turn-off and follows the coast through Ōākura, Warea, Pungarehu and Ōpunake before turning inland to Hāwera. The mountain is on your left the whole way going south, and on a clear day it fills the windscreen, which is why the drive is best made in the morning when the cloud on the cone is least likely to have built.",
+        "Allow a half day for the plain drive, and a full day or a night out if you want to stop for the surf and the lighthouse. The road is mostly sealed with passing opportunities, but trucks and milk tankers share it, so keep to a relaxed pace and use the pull-offs.",
+      ], ["About 105 km", "Mountain is on the left going south", "Start in the morning for clear views"]),
+      s("Stops along the highway", [
+        "Ōākura is the first beach town, with a long black-sand beach, a surf club and a holiday park on the shore. Further south the signed road at Pungarehu runs about 5 km to Cape Egmont lighthouse, a short detour with open views and a few road-end spots beyond it. Ōpunake is the true surf town, with a beach, a campground, a lake walk and a lookout at the north end of town.",
+        "Between the larger places, side roads run to unmarked beaches such as Stent Road, Kina and Ohawe, popular with surfers. They are often beyond council lines, so read the signs, and remember that driving on the sand is its own subject, which the guide to driving on the beach in New Zealand covers.",
+      ], ["Ōākura: beach and holiday park", "Cape Egmont is a 5 km detour", "Ōpunake is the surf town"], {
+        caption: "Approximate distances from central New Plymouth on State Highway 45. Check live traffic and conditions before you leave.",
+        head: ["Stop", "From New Plymouth", "What it is for"],
+        rows: [
+          ["Ōākura", "About 15 km", "Beach, surf club, holiday park"],
+          ["Cape Egmont lighthouse turn-off", "About 45 km, plus 5 km", "Lighthouse and road-end beach"],
+          ["Ōpunake", "About 60 km", "Surf, campground, lake walk"],
+          ["Hāwera", "About 105 km", "Fuel, food, the end of the loop"],
+        ],
+      }),
+      s("Fuel, food and phones", [
+        "Fill up in New Plymouth or Hāwera, and treat Ōpunake as the only dependable stop in between, with fuel, a supermarket and cafes. The smaller villages offer a dairy at best, so carry lunch and water, and buy groceries in a larger town. The guide to food and fuel on a road trip covers resupply.",
+        "Mobile coverage is generally good on the highway but drops on the side roads to the coast, which is the same for most of the cape and the mountain's lower slopes. Download directions before you turn off and tell someone where you are headed.",
+      ], ["Fuel in New Plymouth or Hāwera", "Ōpunake is the middle stop", "Coverage drops on side roads"]),
+      s("Where to camp", [
+        "Holiday parks and motor camps at Ōākura, Ōpunake and in New Plymouth take tents and campervans, with powered sites and cabins, and they fill from Christmas to the end of January. Council freedom camping follows the rules of New Plymouth District and South Taranaki, and the guide to freedom camping in New Plymouth explains the first half, while on the south side you must read the South Taranaki District Council page.",
+        "For a night closer to the mountain, Egmont National Park has DOC campsites and huts on the mountain's flanks, and the Forgotten World Highway guide covers the inland loop. KiwiCamping's DOC data (11 August 2026) lists Taranaki huts from $10 to $25 a night, with Holly Hut the largest with 32 beds.",
+      ], ["Holiday parks fill from Christmas", "Read two councils' rules", "Egmont has DOC huts from $10"]),
+      s("Planning Surf Highway 45 in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and huts around Taranaki, holiday parks with their facilities and dump stations, and lets you add them to a trip as ordered stops. It shows the distance and drive time between stops and a forecast for each place, which helps when the mountain's weather turns.",
+        "Save a New Plymouth night and an Ōpunake night, and read the leg between them. Saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin at the end of the coast roads. The app is free to download, with in-app purchases.",
+      ], ["New Plymouth and Ōpunake as the two nights", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
+    ],
+    sources: [
+      { label: "NZ Transport Agency: State Highway 45", url: "https://www.nzta.govt.nz/" },
+      { label: "DOC: Egmont National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/taranaki/places/egmont-national-park/" },
+      { label: "New Plymouth District Council: freedom camping", url: "https://www.npdc.govt.nz/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
+
+  a({
+    slug: "thermal-explorer-highway-camping-guide",
+    title: "Thermal Explorer Highway: Where to Camp From Auckland to Napier",
+    description: "Drive the Thermal Explorer Highway by campervan: Auckland to Rotorua, Taupō and Napier through geothermal country in four nights, with distances, stops, fuel and where to camp each night.",
+    category: "Road trips",
+    region: "Central North Island",
+    places: ["Auckland", "Hamilton", "Tīrau", "Rotorua", "Wai-O-Tapu", "Taupō", "Napier"],
+    imageAlt: "A lake edge with white sand, shrubs and a far shore on the Rotorua lakefront",
+    related: ["auckland-to-taupo-drive-guide", "auckland-to-napier-drive-guide", "freedom-camping-rotorua-2026", "freedom-camping-taupo", "volcanic-safety-new-zealand-travel", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/central-north-island", "camping/hawkes-bay", "camping/waikato"],
+    intro:
+      "The Thermal Explorer Highway is the tourist name for the North Island's geothermal route from Auckland through Hamilton and Tīrau to Rotorua, then south to Taupō and over the plateau to Napier, a drive of about 450 km depending on the variant you take. It is easy to do in four nights in a campervan, because the stages are short and each ends in a town with holiday parks. This guide plans the route night by night, with the camping on each leg and the volcanic and thermal safety that goes with it.",
+    sections: [
+      s("The route and the four nights", [
+        "From central Auckland the route follows State Highway 1 south past Hamilton and Cambridge to Tīrau, then State Highway 5 east into Rotorua. From Rotorua, the highway runs south past the Waiotapu thermal area to Taupō, and from Taupō State Highway 5 climbs the Napier-Taupō road to the coast, reaching Napier after about two hours. A lot of the route is the same as the Auckland to Napier road trip, which covers the quicker version, so this page is for the slow one.",
+        "The simplest plan is two nights in Rotorua, one in Taupō and one in Napier, with the first leg being the longest at about three hours. Add a night at Hamilton or Cambridge if you want to stretch the first day, and a night at Tarawera or Te Pōhue if you want to break the last. Distances between sources vary, so treat the figures as a guide and check the live map.",
+      ], ["About 450 km in all", "2 nights Rotorua, 1 Taupō, 1 Napier", "The longest leg is the first"], {
+        caption: "A four-night plan with approximate road distances. Check live traffic and road conditions before each leg.",
+        head: ["Night", "Leg", "Approximate distance"],
+        rows: [
+          ["1 and 2", "Auckland to Rotorua", "About 230 km, 3 hours"],
+          ["3", "Rotorua to Taupō, past Wai-O-Tapu", "About 85 km, 1 hour 10"],
+          ["4", "Taupō to Napier", "About 145 km, 2 hours"],
+        ],
+      }),
+      s("Rotorua: the geothermal base", [
+        "Rotorua is the centre of the route, with its sulphur smell, the Redwoods and the thermal parks at Whakarewarewa, Te Puia and Wai-O-Tapu 30 minutes to the south. Budget a day at one of them and time for the free lake-edge walks and mud pools, and keep the other nights for the lakes and the mountain-bike park. Rotorua Lakes Council runs six camping sites, three of them free for certified self-contained vehicles, and the guide to freedom camping in Rotorua covers the rules.",
+        "The holiday parks around Rotorua take tents and campervans, with powered sites and hot pools, and they are the practical base. They fill from Christmas to Easter and on school-holiday weekends, so book before you set off.",
+      ], ["Wai-O-Tapu is 30 minutes south", "Six council sites, three free", "Book holiday parks ahead"]),
+      s("Taupō and the road to Napier", [
+        "Taupō has the lake, Huka Falls, the Aratiatia Rapids and Craters of the Moon, and a council with its own freedom camping rules, which the Taupō guide covers. Camp at a holiday park by the lake for a first night, and leave early the next morning for the Napier-Taupō road, which has few services.",
+        "The road to Napier is a long climb and descent through pine forest and open tussock country, with a few places for fuel and food and long gaps between them. Fill the tank in Taupō, and use the rest areas for a break. At the coast, Napier's rules are in the guide to freedom camping in Napier and Hastings.",
+      ], ["Taupō: lake, falls and rapids", "Fuel up before the Napier road", "Napier rules are in their own guide"]),
+      s("Safety around thermal areas", [
+        "Thermal ground can be dangerous, with scalding water just under a crust, so keep to marked paths and boardwalks, and keep children and dogs close. Water in some lakes and streams is hot, and swimming where the signs say no is a risk to take seriously. The guide to volcanic safety covers what to do when an alert level changes.",
+        "Gas can collect in low, enclosed spots and near vents, which matters at campsites near geothermal areas. Check each site's notices, and if you smell strong sulphur and feel dizzy, move up and out. In a hot pool, a short soak is wiser than a long one.",
+      ], ["Stay on the boardwalks", "Check alert levels", "Short soaks in hot pools"]),
+      s("Planning the Thermal Explorer Highway in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations around Rotorua, Taupō and Hawke's Bay, with filters for campervan access. Add your four nights to a trip as ordered stops, and it reads the distance and drive time between each pair, plus a forecast for each place.",
+        "Save the places beforehand. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which is thin on the Napier-Taupō road. The app is free to download, with in-app purchases.",
+      ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
+    ],
+    sources: [
+      { label: "100% Pure New Zealand: Thermal Explorer Highway", url: "https://www.newzealand.com/int/feature/thermal-explorer-highway/" },
+      { label: "Waikato NZ: Thermal Explorer Highway touring route", url: "https://www.waikatonz.com/plan-your-trip/getting-around/thermal-explorer-highway-touring-route/" },
+      { label: "DOC: staying safe around thermal areas", url: "https://www.doc.govt.nz/" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
+
+  a({
+    slug: "pacific-coast-highway-auckland-to-napier-camping",
+    title: "Pacific Coast Highway Road Trip: Auckland to Napier by the East Coast",
+    description: "The Pacific Coast Highway from Auckland to Napier by campervan: about 730 km on State Highway 2 through Waihi, Tauranga, Whakatāne, Ōpōtiki and Gisborne in five or six nights, with distances, fuel and where to camp.",
+    category: "Road trips",
+    region: "East Coast",
+    places: ["Auckland", "Waihi", "Tauranga", "Whakatāne", "Ōpōtiki", "Gisborne", "Napier"],
+    imageAlt: "Sunlit water of a bay with long green headlands beyond on the Coromandel coast",
+    related: ["auckland-to-tauranga-drive-guide", "east-cape-road-trip", "auckland-to-napier-drive-guide", "freedom-camping-waihi-beach", "freedom-camping-whakatane-2026", "freedom-camping-gisborne"],
+    hubs: ["camping/bay-of-plenty", "camping/east-coast", "camping/hawkes-bay"],
+    intro:
+      "The Pacific Coast Highway is the name given to State Highway 2's long way round the eastern North Island, from Auckland through the Bay of Plenty and Gisborne to Napier. It is about 730 km, nearly twice the distance of the quick route through Taupō, and it is one of the better campervan trips in the country because the beaches and the camping come in a steady sequence. Plan five or six nights, and keep the Waioeka Gorge for daylight.",
+    sections: [
+      s("The route and the nights", [
+        "The highway leaves Auckland on State Highway 1 and turns onto State Highway 2 at Pōkeno, then runs through Waihi and the Karangahake Gorge to Tauranga, along the Bay of Plenty coast to Whakatāne and Ōpōtiki, over the Waioeka Gorge to Gisborne, and down the east coast through Wairoa to Napier. The Auckland to Tauranga guide covers the first stretch, and the East Cape road trip covers the loop around State Highway 35 for anyone who wants it as a side trip.",
+        "A comfortable plan is one night near Waihi or Tauranga, one at Whakatāne or Ōhope, one at Ōpōtiki or in the gorge's foothills, two in Gisborne and one at Wairoa or Mahia before Napier. The stages are short up to Ōpōtiki, and the long drive is the 150 km over the gorge to Gisborne, which is where to start early.",
+      ], ["About 730 km", "Five or six nights", "Start early for the gorge"], {
+        caption: "Approximate road distances by stage on State Highway 2. Check live conditions before each leg.",
+        head: ["Stage", "Distance", "Notes"],
+        rows: [
+          ["Auckland to Tauranga", "About 210 km", "Via Waihi and the Karangahake Gorge"],
+          ["Tauranga to Whakatāne", "About 90 km", "Beaches at Ōhope"],
+          ["Whakatāne to Ōpōtiki", "About 60 km", "Coastal flats"],
+          ["Ōpōtiki to Gisborne", "About 150 km", "Waioeka Gorge, winding"],
+          ["Gisborne to Napier", "About 215 km", "Through Wairoa"],
+        ],
+      }),
+      s("Waihi to Whakatāne", [
+        "The first nights are the easy ones. Waihi Beach is the first sea stop, with the council's rules covered in its own guide, and Tauranga and Mount Maunganui follow with the freedom camping rules the Tauranga guide explains. Whakatāne and Ōhope Beach, an hour east, have the next sites, and the Whakatāne guide covers the council's list.",
+        "This stretch has plenty of holiday parks, which book out in January, and a fair number of beach car parks closed to camping. Plan each night around a booking or a council site you have checked, and use the guide to holiday parks in New Zealand for how booking works.",
+      ], ["Waihi Beach: council rules apply", "Tauranga and Whakatāne have their own guides", "Holiday parks book out in January"]),
+      s("Ōpōtiki and the Waioeka Gorge", [
+        "Ōpōtiki is the last full-service town before the gorge, with fuel, a supermarket and a few campgrounds. The Waioeka Gorge road beyond it is sealed, narrow and winding, with few places to stop and long stretches without mobile coverage, so fill the tank and arrive at the Gisborne end before dark.",
+        "The gorge has pull-offs and walks, and the road is slow with trucks, so allow three hours and do not push it. It is closed from time to time by slips and floods, so check the NZTA Journey Planner before you set off.",
+      ], ["Fill up in Ōpōtiki", "Allow 3 hours for 150 km", "Check closures before you go"]),
+      s("Gisborne, Mahia and on to Napier", [
+        "Gisborne is the place for a rest day, with its beaches and wineries, and the guide to freedom camping in Gisborne explains Kaiti Beach and the DOC campsites along State Highway 35. KiwiCamping's DOC data (11 August 2026) lists 14 DOC campsites on the East Coast, 8 of them free and 12 with campervan access, with adult nightly rates from $8 to $15.",
+        "South of Gisborne the highway runs to Wairoa and then the Hawke's Bay coast, with the Mahia Peninsula as a side trip for beaches. Napier's rules are in the guide to freedom camping in Napier and Hastings, and the Auckland to Napier guide covers the quicker route home if you want one.",
+      ], ["A rest day in Gisborne", "8 of 14 East Coast DOC campsites are free", "Mahia is a beach side trip"]),
+      s("Planning the Pacific Coast Highway in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations along the eastern coast, with filters for campervan access. Add each night to a trip as an ordered stop, and it shows the distance and drive time between each pair, plus a forecast for each place.",
+        "Save your places before you leave. Place details, saved places and guides stay on the phone, while map tiles, routing, weather and photos need signal, which drops in the Waioeka Gorge and on the Wairoa stretch. The app is free to download, with in-app purchases.",
+      ], ["Add each night as a stop", "Forecast for each place", "Saved places stay on the phone"], undefined, true),
+    ],
+    sources: [
+      { label: "NZ Transport Agency: Journey Planner", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+      { label: "Gisborne District Council: Freedom camping", url: "https://gdc.govt.nz/recreation/freedom-camping" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+    ],
+  }),
 ];
