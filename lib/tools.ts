@@ -3,7 +3,9 @@ import productFacts from "./data/product-facts.json";
 import { toolStrings, type ToolId, type ToolStrings } from "./source-strings";
 import { isTranslated, type LocaleCode } from "./localized";
 import { intlLocale as localeIntl, localeRoot } from "./locales";
-import { SITE_URL, articles, articleHref, sitePath } from "./site";
+import { SITE_URL, articles, sitePath } from "./site";
+import { hrefFor } from "./routes";
+import { guidePageKey } from "./routes/guides";
 import { exchangeRateDate, nzdRates } from "./currency";
 
 /**
@@ -266,6 +268,6 @@ export function toolSchema(locale: ToolPageLocale, id: ToolId) {
 export function toolGuides(locale: ToolPageLocale, id: ToolId) {
   return tools[id].guides.map((slug) => articles.find((article) => article.slug === slug)).filter((article) => !!article).map((article) => ({
     title: article!.title,
-    href: locale === "en" ? articleHref(article!) : sitePath(`${localeRoot(locale)}/guides/${article!.slug}`),
+    href: hrefFor(guidePageKey(article!.slug), locale),
   }));
 }

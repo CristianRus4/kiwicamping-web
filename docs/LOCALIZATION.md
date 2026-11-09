@@ -18,11 +18,10 @@ npm run translations:source
 
 That writes `lib/translations/en.json`. See [TRANSLATIONS.md](TRANSLATIONS.md) for the full process.
 
-Nothing is ever rendered half-translated. Every guide is available in every locale: one whose
-translation is complete and structurally identical to the English is served translated, and any
-other is served whole in English but stays `noindex` and absent from `sitemap.xml`. A locale shell is
-published once every UI string is translated; its guide URLs become indexable one by one as their
-translations are completed.
+Nothing is ever rendered half-translated. A locale publishes a guide only once its translation is
+complete and structurally identical to the English; until then the guide has no URL in that locale,
+and the locale's links to it go to the English page. A locale shell is published once every UI
+string is translated; its guide URLs appear one by one as their translations are completed.
 
 The previous generated translations were removed because the English guides had been rewritten and
 expanded underneath them, leaving them structurally stale. Privacy and terms survived intact.

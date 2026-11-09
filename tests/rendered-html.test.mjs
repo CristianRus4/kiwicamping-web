@@ -41,13 +41,18 @@ test("renders dated New Zealand cost tables in ten currencies",async()=>{const r
 
 test("renders tools with official benchmark defaults",async()=>{const response=await fetchPage("/tools");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Currency converter/);assert.match(html,/Fuel calculator/);assert.match(html,/data-static-tools/);assert.match(html,/120\.0 L · NZ\$433\.20/)});
 
-test("publishes every guide in every locale",async()=>{
-  // Every guide is available in all six languages. Ones a locale has not translated are served whole
-  // in English, road trips included, so no localised URL is ever missing.
+test("a locale publishes its shell and only the guides and pages it has translated",async()=>{
+  // No English copy is ever published under a locale prefix: an untranslated guide or legal page has
+  // no URL there (docs/TRANSLATIONS.md).
   for(const locale of locales){
-    for(const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms",
-                        "/guides/doc-hut-rules-etiquette", "/guides/coromandel-rotorua-road-trip"]){
+    for(const route of ["", "/guides", "/tools"]){
       assert.equal((await fetchPage(`/${locale}${route}`)).status,200,`${locale}${route}`);
+    }
+    for(const kind of ["support","privacy","terms"]){
+      assert.equal((await fetchPage(`/${locale}/${kind}`)).status,isStaticPageTranslated(locale,kind)?200:404,`${locale}/${kind}`);
+    }
+    for(const slug of ["doc-hut-rules-etiquette","coromandel-rotorua-road-trip"]){
+      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status,isArticleTranslated(locale,slug)?200:404,`${locale}/guides/${slug}`);
     }
   }
 });
@@ -60,20 +65,20 @@ test("every guide, road trips included, is in the translation source",async()=>{
   assert.ok(source.articles["doc-campsites-new-zealand-guide"],"legacy guides are translatable");
 });
 test("never serves a half-translated guide",async()=>{
-  // All or nothing per guide. Where a locale has no translation, the article's own prose must appear
-  // verbatim in English, so a reader never gets one paragraph in their language and the next in
-  // English. This is the exact defect that shipped once, when the English guides were rewritten from
-  // three sections to seven underneath their translations.
-  const slug="doc-hut-rules-etiquette";
-  const source=JSON.parse(await readFile(new URL("../lib/translations/en.json",import.meta.url),"utf8")).articles[slug];
-  // en.json carries the internal links as <a data-guide> markup; the page renders the same words.
-  const prose=[source.intro,...source.sections.flatMap((section)=>[section.heading,...section.body])].map((text)=>text.replace(/<a data-guide="[^"]+">|<\/a>/g,""));
-  const decode=(html)=>html.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/<!-- -->/g,"");
+  // All or nothing per guide. Where a locale has no complete translation (a stale one included), the
+  // guide has no page in that locale and the locale's guide index links its English page, so a reader
+  // never gets one paragraph in their language and the next in English. This is the exact defect that
+  // shipped once, when the English guides were rewritten from three sections to seven underneath
+  // their translations.
   for(const locale of locales){
-    // A stale translation is served in English too, so only a complete one is skipped here.
-    if(isArticleTranslated(locale,slug))continue;
-    const page=decode(await (await fetchPage(`/${locale}/guides/${slug}`)).text());
-    for(const text of prose) assert.ok(page.includes(text),`${locale}/${slug} is missing English prose it should be falling back to`);
+    const missing=articles.filter((article)=>!isArticleTranslated(locale,article.slug));
+    if(!missing.length)continue;
+    const index=await (await fetchPage(`/${locale}/guides`)).text();
+    for(const article of missing){
+      assert.equal((await fetchPage(`/${locale}/guides/${article.slug}`)).status,404,`${locale}/${article.slug} is untranslated but served`);
+      assert.ok(!index.includes(`href="/${localeEntry(locale).segment}/guides/${article.slug}/"`),`${locale}/guides/ links an untranslated guide in its own locale`);
+      assert.ok(index.includes(`href="${article.legacyPath??`/guides/${article.slug}/`}"`),`${locale}/guides/ must link ${article.slug} at its English URL`);
+    }
   }
 });
 
@@ -96,10 +101,9 @@ test("a published locale translates the whole interface",async()=>{
     const html=await (await fetchPage(`/${locale}`)).text();
     assert.match(html,published?/name="robots" content="index/:/name="robots" content="noindex/,`${locale} robots meta must match its translation state`);
     if(published)for(const phrase of ["Download app","Explore the guides","Made for plans"])assert.ok(!html.includes(phrase),`${locale} leaked English chrome: ${phrase}`);
-    const guide=await(await fetchPage(`/${locale}/guides/doc-hut-rules-etiquette`)).text();
-    // A guide is indexable once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
+    // A guide is published, and indexable, once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
     const translatedGuide=isArticleTranslated(locale,"doc-hut-rules-etiquette")&&published;
-    assert.match(guide,translatedGuide?/name="robots" content="index, follow/:/name="robots" content="noindex, follow"/,`${locale} guide robots must match its translation state`);
+    if(translatedGuide)assert.match(await(await fetchPage(`/${locale}/guides/doc-hut-rules-etiquette`)).text(),/name="robots" content="index, follow/,`${locale} guide robots must match its translation state`);
     assert.equal(sitemap.includes(`/${locale}/guides/doc-hut-rules-etiquette/`),translatedGuide,`${locale} guide sitemap presence must match its translation state`);
   }
 });
@@ -207,14 +211,19 @@ test("every page labels its main element for analytics",async()=>{
 });
 
 
-test("a locale's support, privacy and terms pages are indexed only once translated",async()=>{
-  // An incomplete translation renders the English page, which must not compete with /privacy/ itself.
+test("a locale's support, privacy and terms pages exist only once translated",async()=>{
+  // Until then the locale links the English page, which never competes with a copy of itself.
   const sitemap=await sitemapUrls();
-  for(const locale of publishedLocales)for(const kind of ["support","privacy","terms"]){
-    const complete=isStaticPageTranslated(locale,kind);
-    const html=await (await fetchPage(`/${locale}/${kind}`)).text();
-    assert.match(html,complete?/name="robots" content="index, follow/:/name="robots" content="noindex, follow"/,`${locale}/${kind} robots must match its translation state`);
-    assert.equal(sitemap.includes(`/${locale}/${kind}/`),complete,`${locale}/${kind} sitemap presence must match its translation state`);
+  for(const locale of publishedLocales){
+    const home=await (await fetchPage(`/${locale}`)).text();
+    for(const kind of ["support","privacy","terms"]){
+      const complete=isStaticPageTranslated(locale,kind);
+      const response=await fetchPage(`/${locale}/${kind}`);
+      assert.equal(response.status,complete?200:404,`${locale}/${kind} must exist exactly when translated`);
+      if(complete)assert.match(await response.text(),/name="robots" content="index, follow/,`${locale}/${kind} must be indexable`);
+      assert.equal(sitemap.includes(`/${locale}/${kind}/`),complete,`${locale}/${kind} sitemap presence must match its translation state`);
+      assert.ok(home.includes(`href="${complete?`/${localeEntry(locale).segment}/${kind}/`:`/${kind}/`}"`),`${locale} footer must link ${kind} in ${complete?"its own language":"English"}`);
+    }
   }
 });
 
@@ -341,12 +350,12 @@ test("a translated legacy guide and its .html original list each other",async()=
   const english=pages.get(legacy);
   for(const locale of locales){
     const url=`https://campingapp.nz/${locale}/guides/${slug}/`;
-    assert.ok(pages.has(url),`${url} must be exported`);
-    const indexable=isTranslated(locale)&&isArticleTranslated(locale,slug);
+    const translated=isArticleTranslated(locale,slug);
+    assert.equal(pages.has(url),translated,`${url} must be exported exactly when translated`);
+    const indexable=isTranslated(locale)&&translated;
     const listed=english.includes(`<link rel="alternate" hrefLang="${localeEntry(locale).hreflang[0]}" href="${url}"`);
     assert.equal(listed,indexable,`${legacy} must list ${url} as an alternate exactly when it is indexable`);
     if(indexable)assert.ok(pages.get(url).includes(`hrefLang="x-default" href="${legacy}"`),`${url} must name the .html original as x-default`);
-    else assert.match(pages.get(url),/name="robots" content="noindex, follow"/,`${url} is English fallback and must be noindex`);
   }
 });
 
@@ -359,6 +368,8 @@ test("guide links survive translation as data-guide markup",async()=>{
   }
   assert.equal(renderGuideLinks('Mit <a data-guide="doc-hut-rules-etiquette">Hütten</a> & mehr',"/de"),'Mit <a href="/de/guides/doc-hut-rules-etiquette/">Hütten</a> &amp; mehr');
   assert.equal(renderGuideLinks('<a data-guide="no-such-guide">kein Ziel</a>',"/de"),"kein Ziel","an unknown slug keeps its words and loses the link");
+  const untranslated=articles.find((article)=>!isArticleTranslated("de",article.slug));
+  if(untranslated)assert.equal(renderGuideLinks(`<a data-guide="${untranslated.slug}">x</a>`,"/de"),`<a href="${untranslated.legacyPath??`/guides/${untranslated.slug}/`}">x</a>`,"a guide the edition has not translated links to its English page");
   assert.equal(renderGuideLinks('<a href="https://evil.example">x</a><script>alert(1)</script>',"/de"),"x&lt;script&gt;alert(1)&lt;/script&gt;","nothing else is admitted");
 });
 
@@ -444,16 +455,16 @@ test("published figure guides export the screenshot in English and in every loca
     assert.equal(english[0].alt,attribute(figure.alt),`${route}: English alt`);
     for(const locale of locales){
       const localeRoute=`/${locale}/guides/${figure.slug}/`;
+      if(!isArticleTranslated(locale,figure.slug)){
+        assert.ok(!pages.has(localeRoute),`${localeRoute} is untranslated and must not be exported`);
+        continue;
+      }
       const found=guideFigures(pages.get(localeRoute)??"");
       assert.equal(found.length,1,`${localeRoute} must carry one screenshot figure`);
       assertFigureImage(found[0].tag,figure.src,localeRoute);
-      if(isArticleTranslated(locale,figure.slug)){
-        // A translated page carries no English alt: the figure is described by the translated heading.
-        const translation=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
-        assert.equal(found[0].alt,attribute(translation.articles[figure.slug].sections[figure.section].heading),`${localeRoute}: alt is the translated heading`);
-      }else{
-        assert.equal(found[0].alt,attribute(figure.alt),`${localeRoute} is the English fallback and keeps the English alt`);
-      }
+      // A translated page carries no English alt: the figure is described by the translated heading.
+      const translation=JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`,import.meta.url),"utf8"));
+      assert.equal(found[0].alt,attribute(translation.articles[figure.slug].sections[figure.section].heading),`${localeRoute}: alt is the translated heading`);
     }
   }
 });

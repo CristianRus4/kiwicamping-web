@@ -1,5 +1,5 @@
 import type { ExportRoute, RouteKind } from "@/lib/routes";
-import { localeRoot, routedLocales } from "@/lib/locales";
+import { localeRoot, routedLocales, type LocaleCode } from "@/lib/locales";
 import { isStaticPageTranslated, isTranslated } from "@/lib/localized";
 import { staticPages, type StaticPageKind } from "@/lib/source-strings";
 import { articles, sitePath } from "@/lib/site";
@@ -18,6 +18,7 @@ function effectiveDate(kind: StaticPageKind): string {
 }
 
 const englishOnly: RouteKind[] = ["credits"];
+const staticKinds: StaticPageKind[] = ["support", "privacy", "terms"];
 const pages: { suffix: string; kind: RouteKind }[] = [
   { suffix: "", kind: "home" },
   { suffix: "/guides", kind: "guides" },
@@ -43,12 +44,12 @@ export function pageRoutes(): ExportRoute[] {
   };
   const lastmod = (kind: RouteKind) => dates[kind] ?? SITE_CHANGED;
   const english = pages.map(({ suffix, kind }) => ({ path: sitePath(suffix || "/"), locale: "en" as const, kind, indexable: true, pageKey: kind, lastmod: lastmod(kind) }));
-  const localized = routedLocales.flatMap((locale) => pages.filter(({ kind }) => !englishOnly.includes(kind)).map(({ suffix, kind }) => {
-    const staticKind = ["support", "privacy", "terms"].includes(kind) ? kind as StaticPageKind : undefined;
-    // A page is indexed only when the locale's interface is complete and, for support and the legal
-    // pages, the page itself is translated. Otherwise it still builds, in English, noindex.
-    const indexable = isTranslated(locale) && (!staticKind || isStaticPageTranslated(locale, staticKind));
-    return { path: sitePath(`${localeRoot(locale)}${suffix}`), locale, kind, indexable, pageKey: kind, lastmod: lastmod(kind) };
-  }));
+  // Support and the legal pages exist in a locale only once they are translated; until then the
+  // locale links to the English page. Everything is indexed once the locale's interface is complete.
+  const published = (locale: LocaleCode, kind: RouteKind) => !englishOnly.includes(kind)
+    && (!staticKinds.includes(kind as StaticPageKind) || isStaticPageTranslated(locale, kind as StaticPageKind));
+  const localized = routedLocales.flatMap((locale) => pages.filter(({ kind }) => published(locale, kind)).map(({ suffix, kind }) => (
+    { path: sitePath(`${localeRoot(locale)}${suffix}`), locale, kind, indexable: isTranslated(locale), pageKey: kind, lastmod: lastmod(kind) }
+  )));
   return [...english, ...localized];
 }

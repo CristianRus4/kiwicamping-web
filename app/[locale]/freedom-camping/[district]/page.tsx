@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { LocalizedHubPage } from "@/components/localized-hub-page";
 import { isLocale } from "@/lib/localized";
 import { localeEntry, routedLocales } from "@/lib/locales";
-import { localizedHubMetadata, localizedHubs } from "@/lib/hubs-localized";
+import { localizedHubMetadata, localizedHubPath, localizedHubs } from "@/lib/hubs-localized";
+import { routeAt } from "@/lib/routes";
 import { hubPageKey } from "@/lib/routes/hubs";
 
 export const dynamicParams = false;
@@ -11,9 +12,9 @@ export const dynamicParams = false;
 const hubs = localizedHubs.filter((hub) => hub.kind === "freedom-camping");
 const find = (district: string) => hubs.find((hub) => hub.slug === district);
 
-/** Hubs whose English page is indexable, in every routed locale; noindex until the switch is on (lib/hubs-localized.ts). */
+/** Each locale's translated hubs, from the route manifest (lib/routes/hubs.ts); noindex while the switch is off (lib/hubs-localized.ts). */
 export function generateStaticParams() {
-  return routedLocales.flatMap((locale) => hubs.map((hub) => ({ locale: localeEntry(locale).segment, district: hub.slug })));
+  return routedLocales.flatMap((locale) => hubs.filter((hub) => routeAt(localizedHubPath(hub, locale))).map((hub) => ({ locale: localeEntry(locale).segment, district: hub.slug })));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; district: string }> }): Promise<Metadata> {

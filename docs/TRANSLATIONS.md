@@ -1,22 +1,16 @@
 # Translating the KiwiCamping site
 
-Six languages are wired up: **de, es, fr, it, nl, pt**. Each is served from its own URL prefix
-(`/de`, `/es`, …) and covers the home page, `/guides`, every translatable guide, `/tools`,
-`/support`, `/privacy` and `/terms`.
+The live languages are listed in `lib/locales.json`. Each is served from its own URL prefix
+(`/de`, `/es`, …). Its shell is the home page, `/guides`, `/tools` and the tool pages; on top of
+that it publishes each guide, data hub, and support, privacy or terms page once that page is
+translated.
 
 ## What gets translated
 
-Everything **except the road trip guides**. Those stay English-only: they are long, heavily
-place-specific and lose more in translation than they gain. They are still published in every
-locale, just in English. Concretely, a translator receives:
-
-- all UI copy (navigation, hero, features, planner, FAQ, footer, tools, article chrome)
-- the support, privacy and terms pages
-- every guide in **Rules & safety**, **Camping guides**, **Trip planning**, **Costs & budget** and
-  **App guides**
-
-The rule lives in one place, `untranslatedCategories` in `lib/localized.ts`. Nothing else needs
-changing to move a category in or out.
+Everything: all UI copy (navigation, hero, features, planner, FAQ, footer, tools, article chrome),
+the support, privacy and terms pages, and every guide, road trips and the legacy `.html` articles
+included. A category can be kept out of translation with `untranslatedCategories` in
+`lib/localized.ts`; nothing else needs changing.
 
 ## The workflow
 
@@ -48,11 +42,16 @@ So a translation counts only when it is **complete and structurally identical** 
 translates: same number of sections, same number of paragraphs and tips in each, every one filled
 in. Anything short of that is treated as absent:
 
-- an incomplete guide is served **whole, in English**, at its localised URL for visitors, but is
-  marked `noindex` and kept out of `sitemap.xml` until translated. Every guide is available in
-  every language; the ones not yet translated simply read in English
-- an incomplete support/privacy/terms page renders in English
+- an incomplete guide, hub, or support/privacy/terms page **does not exist** in that locale. Every
+  link to it from the locale's pages (guide cards, in-article links, hub and tool pages, the footer)
+  goes to the English page instead, and the language switcher on the English page links to the
+  locale's home. No English copy is exported under a locale prefix: with 25 locales those copies
+  were thousands of pages with no search value, and they pushed the GitHub Pages deploy past its
+  time limit
 - a locale with an incomplete UI is not published at all (see below)
+
+The rule lives in the route manifest (`lib/routes.ts` and `lib/routes/*.ts`); `hrefFor` there is
+how a link picks the locale's page or the English one.
 
 You can still deliver in stages — finish the UI, then guides one at a time. Just finish whatever you
 start: a guide is either wholly translated or absent. `npm run check` fails if a translation file
@@ -61,7 +60,7 @@ contains a guide the site cannot render, and tells you which one.
 ### Whenever the English changes
 
 If an English guide gains a section or a paragraph, its existing translations become structurally
-stale and the page silently falls back to English until they are updated. That is deliberate: it is
+stale and the localised page disappears (its links go to English) until they are updated. That is deliberate: it is
 exactly the failure above, caught before a reader sees it. `npm run check` fails in that case and
 names the guide, so it cannot go unnoticed. Re-run `npm run translations:source` and re-translate it.
 
@@ -70,7 +69,7 @@ the structure, so the gate cannot see it. Stamps catch it. After translating, th
 `npm run translations:stamp -- --locale <code>`, which records in `lib/translations/meta/<code>.json` a
 hash of the English each string was translated from. `npm run content:check` then prints that locale's
 stale count, and `npm run translations:invalidate -- --locale <code>` blanks the stale strings so the
-translation engine lists them again (their guide falls back to English until they are redone). Add
+translation engine lists them again (their guide leaves the locale until they are redone). Add
 `--all` to `translations:stamp` only after reviewing the whole file, to accept every current
 translation as up to date.
 
@@ -79,14 +78,12 @@ translation as up to date.
 A locale is published once **every** UI string is translated. A partial UI would put a translated
 hero above an English FAQ, which is the same defect as a half-translated guide.
 
-That makes the locale shell indexable. Each guide still has its own gate: a complete article
-translation is required before that localised guide gets a self-canonical, `index` robots tag and a
-sitemap entry.
+That makes the locale shell indexable, along with every guide, hub and page it has translated: each
+gets a self-canonical, `index` robots tag, a sitemap entry and hreflang with its other translations.
 
-Until then its pages still build and render — wholly in English — but they are marked `noindex`,
-kept out of `sitemap.xml` and hidden from the footer language switcher, so an untranslated scaffold
-never competes with the English site for the same search terms. There is no flag to flip: filling
-the file in is the switch.
+A locale whose UI is not complete is not routed in a normal build. When it is previewed, its shell
+and translated pages build but are marked `noindex`, kept out of `sitemap.xml` and hidden from the
+footer language switcher. There is no flag to flip: filling the file in is the switch.
 
 `npm run check` prints the progress of every locale:
 

@@ -44,8 +44,8 @@ assert.doesNotMatch(content, /this (section|page|guide|article) (explains|descri
 /**
  * Translation contract.
  *
- * Every guide is published in every locale, road trips and the legacy .html articles included; ones
- * a locale has not translated are served whole in English, noindex.
+ * Every guide can be translated into every locale, road trips and the legacy .html articles included;
+ * a locale publishes only the ones it has translated, and links to the English page for the rest.
  *
  * What this enforces is that a locale file never contains a translation the site cannot use: if an
  * article is in the file, it must be complete and structurally identical to the English it

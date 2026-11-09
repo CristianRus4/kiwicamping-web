@@ -10,10 +10,10 @@ import { hubStrings, isHubCommonComplete, isHubTranslated, translatableHubs, fil
 /**
  * THE SWITCH for the translated hubs. Default false.
  *
- * While false, every localised hub page (/<locale>/camping/…, /<locale>/huts/…,
+ * While false, every translated hub page (/<locale>/camping/…, /<locale>/huts/…,
  * /<locale>/freedom-camping/…) is still built and exported, so it can be previewed, but it is noindex,
- * out of every sitemap, out of hreflang and out of the language switcher, whatever its translation
- * state.
+ * out of every sitemap, out of hreflang and out of the language switcher. A hub a locale has not
+ * translated is not exported in that locale at all (lib/routes/hubs.ts).
  *
  * The owner put the translated hubs live on 22 Oct 2026; setting this back to false takes them all
  * out of search at once. A localised hub is indexable only when its English page is, its locale is live and published,
@@ -22,7 +22,7 @@ import { hubStrings, isHubCommonComplete, isHubTranslated, translatableHubs, fil
  */
 export const LOCALIZED_HUBS_LIVE = true;
 
-/** Localised hubs: every routed locale, for every hub whose English page is indexable. */
+/** The hubs a locale may translate: every hub whose English page is indexable. */
 export const localizedHubs = translatableHubs;
 export const localizedHubPath = (hub: Hub, locale: LocaleCode) => sitePath(`${localeRoot(locale)}${hub.path}`);
 export const localizedIndexPath = (kind: BuiltHubKind, locale: LocaleCode) => sitePath(`${localeRoot(locale)}/${kind}`);

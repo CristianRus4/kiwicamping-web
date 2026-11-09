@@ -12,7 +12,7 @@ export const localeLabel = (code: LocaleCode) => localeEntry(code).label;
  * /<segment>/guides/<slug>/ and point back at it through hreflang.
  */
 export const untranslatedCategories: ArticleCategory[] = [];
-/** Every guide a locale publishes. Untranslated ones are served whole, in English, and noindex. */
+/** Every guide a locale may publish. It publishes only the translated ones (lib/routes/guides.ts). */
 export const localeArticles = articles;
 /** What a translator is asked for: everything. */
 /**

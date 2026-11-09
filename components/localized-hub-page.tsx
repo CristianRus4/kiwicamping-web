@@ -10,6 +10,8 @@ import { htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
 import { localizedArticles } from "@/lib/localized";
 import { factValue, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
+import { guidePageKey } from "@/lib/routes/guides";
+import { hrefFor } from "@/lib/routes";
 import { fill, labelKey, localizeFactValue, localizeFee, term, type HubStrings } from "@/lib/hub-strings";
 import { localizedHubPath, localizedHubs, localizedHubView, localizedIndexPath, type LocalizedHubView } from "@/lib/hubs-localized";
 import productFacts from "@/lib/data/product-facts.json";
@@ -22,7 +24,7 @@ import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
  * Place, park, region and council names are data and stay as DOC writes them.
  */
 
-const hasPage = new Set(localizedHubs.map((hub) => hub.path));
+const localizedByPath = new Map(localizedHubs.map((hub) => [hub.path, hub]));
 const link = (strings: HubStrings, label: string) => strings.links[labelKey(label)] ?? label;
 
 function Cta({ locale, t, eyebrow, title, text }: { locale: LocaleCode; t: HubStrings; eyebrow: string; title: string; text: string }) {
@@ -52,11 +54,12 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
   const english = proseFor(hub);
   const guide = localizedArticles(locale).find((article) => article.slug === hub.guide.slug);
   const councilGuide = localizedArticles(locale).find((article) => article.slug === "camping-rules-local-councils-new-zealand");
-  const related = hub.related && hasPage.has(hub.related) ? { href: sitePath(`${prefix}${hub.related}`), label: fill(hub.kind === "camping" ? t.common.relatedHuts : t.common.relatedCampsites, { name: hub.name }) } : null;
+  const relatedHub = hub.related ? localizedByPath.get(hub.related) : undefined;
+  const related = relatedHub ? { href: hrefFor(hubPageKey(relatedHub.id), locale), label: fill(hub.kind === "camping" ? t.common.relatedHuts : t.common.relatedCampsites, { name: hub.name }) } : null;
   const sources = [...hub.officialLinks, ...(english?.sources ?? [])];
   const articlesHere = localizedArticles(locale);
   const guides = hubGuides(hub).flatMap((slug) => articlesHere.find((article) => article.slug === slug) ?? []);
-  const nearby = nearbyHubs(hub).filter((other) => hasPage.has(other.path));
+  const nearby = nearbyHubs(hub).filter((other) => localizedByPath.has(other.path));
   const indexPath = localizedIndexPath(kind, locale);
   const url = `${SITE_URL}${localizedHubPath(hub, locale)}`;
   const schema = {
@@ -96,7 +99,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
               <p>{t.common.councilText}</p>
               <ul>
                 {(english?.councils ?? []).map((council) => <li key={council.url}><a href={council.url}>{link(t, council.label)}<ArrowRight /></a></li>)}
-                {councilGuide && <li><Link href={sitePath(`${prefix}/guides/${councilGuide.slug}`)}>{councilGuide.title}<ArrowRight /></Link></li>}
+                {councilGuide && <li><Link href={hrefFor(guidePageKey(councilGuide.slug), locale)}>{councilGuide.title}<ArrowRight /></Link></li>}
               </ul>
             </section>}
             {paragraphs.length > 0 && <section className="hub-prose">
@@ -128,17 +131,17 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
             </section>
             {guides.length > 0 && <section className="sources">
               <h2>{fill(t.common.guidesTitle, { name: hub.name })}</h2>
-              <ul>{guides.map((item) => <li key={item.slug}><Link href={sitePath(`${prefix}/guides/${item.slug}`)}>{item.title}<ArrowRight /></Link></li>)}</ul>
+              <ul>{guides.map((item) => <li key={item.slug}><Link href={hrefFor(guidePageKey(item.slug), locale)}>{item.title}<ArrowRight /></Link></li>)}</ul>
             </section>}
             {nearby.length > 0 && <section className="sources">
               <h2>{kind === "freedom-camping" ? t.common.nearbyDistricts : t.common.nearbyRegions}</h2>
-              <ul>{nearby.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{fill(copy.h1, { name: other.name })}<ArrowRight /></Link></li>)}</ul>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={hrefFor(hubPageKey(other.id), locale)}>{fill(copy.h1, { name: other.name })}<ArrowRight /></Link></li>)}</ul>
             </section>}
             <section className="sources">
               <h2>{t.common.checkTitle}</h2>
               <p>{t.common.checkText}</p>
               <ul>
-                {guide && <li><Link href={sitePath(`${prefix}/guides/${guide.slug}`)}>{guide.title}<ArrowRight /></Link></li>}
+                {guide && <li><Link href={hrefFor(guidePageKey(guide.slug), locale)}>{guide.title}<ArrowRight /></Link></li>}
                 {related && <li><Link href={related.href}>{related.label}<ArrowRight /></Link></li>}
                 {sources.map((source) => <li key={source.url}><a href={source.url}>{link(t, source.label)}<ArrowRight /></a></li>)}
               </ul>
@@ -195,7 +198,7 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
     "@context": "https://schema.org",
     "@graph": [
       { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.common.home, item: `${SITE_URL}${sitePath(prefix || "/")}` }, { "@type": "ListItem", position: 2, name: copy.indexTitle, item: `${SITE_URL}${indexPath}` }] },
-      { "@type": "ItemList", name: copy.indexTitle, numberOfItems: listed.length, itemListElement: listed.map((hub, index) => ({ "@type": "ListItem", position: index + 1, name: fill(copy.h1, { name: hub.name, count: number(hub.placeCount) }), url: `${SITE_URL}${localizedHubPath(hub, locale)}` })) },
+      { "@type": "ItemList", name: copy.indexTitle, numberOfItems: listed.length, itemListElement: listed.map((hub, index) => ({ "@type": "ListItem", position: index + 1, name: fill(copy.h1, { name: hub.name, count: number(hub.placeCount) }), url: `${SITE_URL}${hrefFor(hubPageKey(hub.id), locale)}` })) },
     ],
   };
   return <>
@@ -220,7 +223,7 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
               <h2>{group}</h2>
               <ul>{listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => {
                 const extra = factValue(hub, extraKey);
-                return <li key={hub.id}><Link href={localizedHubPath(hub, locale)}><strong>{hub.name}</strong><span>{number(hub.placeCount)} {copy.noun}{extra !== undefined ? ` · ${fill(copy.directoryExtra, { value: typeof extra === "number" ? number(extra) : extra })}` : ""}</span><ArrowRight /></Link></li>;
+                return <li key={hub.id}><Link href={hrefFor(hubPageKey(hub.id), locale)}><strong>{hub.name}</strong><span>{number(hub.placeCount)} {copy.noun}{extra !== undefined ? ` · ${fill(copy.directoryExtra, { value: typeof extra === "number" ? number(extra) : extra })}` : ""}</span><ArrowRight /></Link></li>;
               })}</ul>
             </section>)}
             <Cta locale={locale} t={t} eyebrow={t.common.ctaEyebrowMap} title={copy.indexCtaTitle} text={fill(t.common.indexCtaText, { pass: t.common.passLine })} />

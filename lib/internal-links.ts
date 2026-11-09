@@ -1,4 +1,5 @@
 import { allArticles, articleHref, isScheduled, sitePath } from "@/lib/site";
+import { routeAt } from "@/lib/routes";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -126,10 +127,13 @@ export function selectLinks(paragraphs: readonly string[], currentSlug: string, 
   });
 }
 
-/** Where a guide lives in an edition: its own URL in English (.html for legacy guides), /<segment>/guides/<slug>/ elsewhere. */
+/**
+ * Where a guide is linked from an edition: /<segment>/guides/<slug>/ when that edition publishes it,
+ * otherwise its English URL (.html for legacy guides).
+ */
 function guideHref(slug: string, prefix: string) {
   const root = prefix.replace(/\/$/, "");
-  return root ? `${root}/guides/${slug}/` : articleHref(bySlug.get(slug)!);
+  return root && routeAt(`${root}/guides/${slug}/`) ? `${root}/guides/${slug}/` : articleHref(bySlug.get(slug)!);
 }
 
 /**
@@ -137,7 +141,7 @@ function guideHref(slug: string, prefix: string) {
  *
  * The text is escaped and the anchor inserted around the escaped phrase, so article prose can never
  * inject markup: the only HTML in the result is the anchor this function wrote. `prefix` ("/de")
- * renders an English guide inside a localised edition, linking that edition's guides.
+ * links that edition's guides where it publishes them, and English ones elsewhere.
  */
 export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
   const spans = selectLinks(paragraphs, currentSlug, budget);
@@ -175,7 +179,7 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
  * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL under `root`
  * (the edition's home path from `localeRoot`, e.g. `/de`; "" for English, where a legacy guide
- * links to its .html URL). Any other tag is shown as text, never interpreted; a stray or unknown
+ * links to its .html URL), or to its English URL when that edition has not translated it. Any other tag is shown as text, never interpreted; a stray or unknown
  * link, or one to a guide not yet published, is reduced to its text.
  */
 export function renderGuideLinks(text: string, root: string): string {

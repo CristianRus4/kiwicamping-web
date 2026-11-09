@@ -92,9 +92,9 @@ test("on its publishAt day the guide is a normal, indexable page", async () => {
     assert.match(await site.read("guides/index.html"), new RegExp(`href="/guides/${SLUG}/"`), "listed on the guides index");
     const related = (await site.read(`guides/${HOST}/index.html`)).match(/<section class="related-section">[\s\S]*?<\/section>/)?.[0] ?? "";
     assert.match(related, new RegExp(`href="/guides/${SLUG}/"`), `in the related guides of ${HOST}`);
-    // Untranslated, so each locale serves it in English and noindex, like any new guide.
-    assert.match(await site.read(`de/guides/${SLUG}/index.html`), /<meta name="robots" content="noindex, follow"\/>/, "the untranslated German edition is noindex");
-    assert.equal(renderLink(PUBLISH_AT), `Read <a href="/de/guides/${SLUG}/">the new guide</a> first.`);
+    // Untranslated, so no locale publishes it, like any new guide; a locale's links to it go to English.
+    await assert.rejects(site.read(`de/guides/${SLUG}/index.html`), { code: "ENOENT" }, "the untranslated guide has no German page");
+    assert.equal(renderLink(PUBLISH_AT), `Read <a href="/guides/${SLUG}/">the new guide</a> first.`);
   } finally {
     await rm(site.dir, { recursive: true, force: true });
   }

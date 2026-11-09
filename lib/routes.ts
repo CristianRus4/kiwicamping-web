@@ -17,6 +17,11 @@ import { hubRoutes } from "@/lib/routes/hubs";
  *   (`/best-nz-camping-apps.html`, `/sitemap.xml`).
  * - `locale`: `en` for English, otherwise the registry code.
  * - `kind`: what the page is.
+ * A locale publishes only what is translated for it: its shell (home, the guide and tool indexes,
+ * the tools) and every guide, hub or legal page whose translation is complete. Nothing is exported
+ * as an English copy under a locale prefix; a link from a locale page to something it has not
+ * translated goes to the English page (`hrefFor`).
+ *
  * - `indexable`: in the sitemap, in hreflang, robots `index`. The page's own robots meta must agree;
  *   scripts/audit-seo.mjs fails the build when they differ.
  * - `pageKey`: the same page in every language shares one key (`guide:<slug>`), which is how hreflang
@@ -76,4 +81,15 @@ export function routeAt(path: string): ExportRoute | undefined {
 export function routesFor(pageKey: string): ExportRoute[] {
   exportRoutes();
   return byKey!.get(pageKey) ?? [];
+}
+
+/**
+ * Where a link on a `locale` page to `pageKey` goes: that page's edition in the same language when the
+ * site publishes one, otherwise its English page.
+ */
+export function hrefFor(pageKey: string, locale: "en" | LocaleCode): string {
+  const editions = routesFor(pageKey).filter((route) => route.kind !== "crawler");
+  const route = editions.find((edition) => edition.locale === locale) ?? editions.find((edition) => edition.locale === "en");
+  if (!route) throw new Error(`No page published for ${pageKey}`);
+  return route.path;
 }

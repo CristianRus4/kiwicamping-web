@@ -19,6 +19,7 @@ import { hasGuideLinks, linkProse, renderGuideLinks } from "@/lib/internal-links
 import { englishLocale, hasReviews, dateSentenceEnd, htmlLang, intlLocale, localeRoot, localeScript } from "@/lib/locales";
 import { relatedGuides } from "@/lib/related";
 import { guidePageKey } from "@/lib/routes/guides";
+import { hrefFor } from "@/lib/routes";
 import { articles } from "@/lib/site";
 import { summerGuideSlugs } from "@/lib/summer";
 import { LanguageSwitcher } from "./language-switcher";
@@ -29,12 +30,12 @@ const prefix = (locale: LocaleCode, path = "") => sitePath(`${localeRoot(locale)
 
 export function LocalizedHeader({ locale }: { locale: LocaleCode }) {
   const ui = getTranslation(locale);
-  return <header className="site-header"><div className="nav-wrap"><Link href={prefix(locale)} className="brand-link"><BrandMark/></Link><nav className="desktop-nav" aria-label="Main navigation"><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link><Link href={prefix(locale,"/guides")}>{ui.navGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link></nav><Button asChild size="sm" className="desktop-download"><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.download}</a></Button><Button asChild size="sm" className="mobile-download"><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.downloadShort}</a></Button><details className="mobile-menu"><summary aria-label="Open menu"><Menu size={22}/></summary><nav aria-label="Mobile navigation"><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link><Link href={prefix(locale,"/guides")}>{ui.navGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.download}</a></nav></details></div></header>;
+  return <header className="site-header"><div className="nav-wrap"><Link href={prefix(locale)} className="brand-link"><BrandMark/></Link><nav className="desktop-nav" aria-label="Main navigation"><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link><Link href={prefix(locale,"/guides")}>{ui.navGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={hrefFor("support",locale)}>{ui.navSupport}</Link></nav><Button asChild size="sm" className="desktop-download"><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.download}</a></Button><Button asChild size="sm" className="mobile-download"><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.downloadShort}</a></Button><details className="mobile-menu"><summary aria-label="Open menu"><Menu size={22}/></summary><nav aria-label="Mobile navigation"><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link><Link href={prefix(locale,"/guides")}>{ui.navGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={hrefFor("support",locale)}>{ui.navSupport}</Link><a href={appStoreUrl({placement:"hdr",locale})} data-cta="hdr">{ui.download}</a></nav></details></div></header>;
 }
 
 export function LocalizedFooter({ locale, pageKey }: { locale: LocaleCode; pageKey: string }) {
   const ui = getTranslation(locale);
-  return <><footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link><a href={SUPPORT_MAILTO}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={appStoreUrl({placement:"foot",locale})} data-cta="foot">{ui.download}</a><Link href={prefix(locale,"/privacy")}>{ui.privacy}</Link><Link href={prefix(locale,"/terms")}>{ui.terms}</Link><PrivacyChoicesLink locale={locale}/></div></div><LanguageSwitcher current={locale} pageKey={pageKey}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer><ConsentBar locale={locale}/></>;
+  return <><footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={hrefFor("support",locale)}>{ui.navSupport}</Link><a href={SUPPORT_MAILTO}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={appStoreUrl({placement:"foot",locale})} data-cta="foot">{ui.download}</a><Link href={hrefFor("privacy",locale)}>{ui.privacy}</Link><Link href={hrefFor("terms",locale)}>{ui.terms}</Link><PrivacyChoicesLink locale={locale}/></div></div><LanguageSwitcher current={locale} pageKey={pageKey}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer><ConsentBar locale={locale}/></>;
 }
 
 /** The QR card plus the store button, exactly as the English pages show it. */
@@ -47,7 +48,7 @@ function StoreLink({ locale, placement }: { locale: LocaleCode; placement: CtaPl
 function LocalizedCard({ article, locale, priority = false }: { article: Article; locale: LocaleCode; priority?: boolean }) {
   const ui = getTranslation(locale);
   const label = localizedCategories(locale).find((entry) => entry.source === article.category)?.label ?? article.category;
-  return <Link className={`article-card ${priority ? "article-card-featured" : ""}`} href={prefix(locale,`/guides/${article.slug}`)}><div className="article-image"><CoverImage src={article.image} alt={article.imageAlt} priority={priority} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 380px"/><span>{label}</span></div><div className="article-card-copy"><div className="eyebrow"><MapPin size={13}/>{article.region} · {article.readTime} min</div><h3>{article.title}</h3><p>{article.description}</p><span className="text-link">{ui.readGuide} <ArrowUpRight size={15}/></span></div></Link>;
+  return <Link className={`article-card ${priority ? "article-card-featured" : ""}`} href={hrefFor(guidePageKey(article.slug),locale)}><div className="article-image"><CoverImage src={article.image} alt={article.imageAlt} priority={priority} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 380px"/><span>{label}</span></div><div className="article-card-copy"><div className="eyebrow"><MapPin size={13}/>{article.region} · {article.readTime} min</div><h3>{article.title}</h3><p>{article.description}</p><span className="text-link">{ui.readGuide} <ArrowUpRight size={15}/></span></div></Link>;
 }
 
 /** The count noun a number takes in the locale: singular, the "few" form (Czech, Polish 2–4) or the plural. */
@@ -112,8 +113,8 @@ export function LocalizedArticle({ locale, slug }: { locale: LocaleCode; slug: s
   const source = articles.find((article) => article.slug === slug);
   if (!item || !source) return null;
   const intl = intlLocale(locale);
-  // An incomplete translation renders the English article whole; say so to the browser, and date it
-  // and describe it as the English text it is.
+  // Only translated guides are routed in a locale (lib/routes/guides.ts). Should an incomplete one
+  // ever render, it renders the English article whole, marked, dated and described as English.
   const translated = isArticleTranslated(locale, slug);
   const answer = getAnswerString(locale, slug, !translated);
   const placement = source.listicle ? "listicle" : "card";
