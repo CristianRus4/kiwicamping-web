@@ -19,9 +19,9 @@
   { "code": "vi", "segment": "vi", "label": "Tiếng Việt", "htmlLang": "vi", "hreflang": ["vi"], "og": "vi_VN", "intl": "vi-VN", "engine": "vi", "script": "latin", "status": "live", "reviews": false },
   { "code": "th", "segment": "th", "label": "ไทย", "htmlLang": "th", "hreflang": ["th"], "og": "th_TH", "intl": "th-TH", "engine": "th", "script": "cjk", "status": "live", "reviews": false },
   { "code": "tr", "segment": "tr", "label": "Türkçe", "htmlLang": "tr", "hreflang": ["tr"], "og": "tr_TR", "intl": "tr-TR", "engine": "tr", "script": "latin", "status": "live", "reviews": false },
-  { "code": "fi", "segment": "fi", "label": "Suomi", "htmlLang": "fi", "hreflang": ["fi"], "og": "fi_FI", "intl": "fi-FI", "engine": "fi", "script": "latin", "status": "live", "reviews": false },
-  { "code": "hu", "segment": "hu", "label": "Magyar", "htmlLang": "hu", "hreflang": ["hu"], "og": "hu_HU", "intl": "hu-HU", "engine": "hu", "script": "latin", "status": "live", "reviews": false },
+  { "code": "fi", "segment": "fi", "label": "Suomi", "htmlLang": "fi", "hreflang": ["fi"], "og": "fi_FI", "intl": "fi-FI", "engine": "fi", "script": "latin", "status": "live", "reviews": false, "caseEndings": true },
+  { "code": "hu", "segment": "hu", "label": "Magyar", "htmlLang": "hu", "hreflang": ["hu"], "og": "hu_HU", "intl": "hu-HU", "engine": "hu", "script": "latin", "status": "live", "reviews": false, "caseEndings": true },
   { "code": "el", "segment": "el", "label": "Ελληνικά", "htmlLang": "el", "hreflang": ["el"], "og": "el_GR", "intl": "el-GR", "engine": "el", "script": "latin", "status": "live", "reviews": false },
-  { "code": "sk", "segment": "sk", "label": "Slovenčina", "htmlLang": "sk", "hreflang": ["sk"], "og": "sk_SK", "intl": "sk-SK", "engine": "sk", "script": "latin", "status": "live", "reviews": false },
-  { "code": "sl", "segment": "sl", "label": "Slovenščina", "htmlLang": "sl", "hreflang": ["sl"], "og": "sl_SI", "intl": "sl-SI", "engine": "sl", "script": "latin", "status": "live", "reviews": false }
+  { "code": "sk", "segment": "sk", "label": "Slovenčina", "htmlLang": "sk", "hreflang": ["sk"], "og": "sk_SK", "intl": "sk-SK", "engine": "sk", "script": "latin", "status": "live", "reviews": false, "caseEndings": true },
+  { "code": "sl", "segment": "sl", "label": "Slovenščina", "htmlLang": "sl", "hreflang": ["sl"], "og": "sl_SI", "intl": "sl-SI", "engine": "sl", "script": "latin", "status": "live", "reviews": false, "caseEndings": true }
 ]

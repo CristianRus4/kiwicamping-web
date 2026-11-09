@@ -16,6 +16,8 @@ import { localeCodes, type LocaleCode } from "./translations/index";
  * - `reviews`: whether the home page shows the App Store testimonials. They are never translated
  *   into a new language, so a locale without them omits the section, and its interface completeness
  *   check skips those strings.
+ * - `caseEndings`: the language adds a case ending to a brand name ("KiwiCampingin", "iPhonu"), so
+ *   the content audit accepts one when it checks that every brand survived translation.
  * - `status`: `live` locales are built, exported, listed in the sitemap, hreflang and language
  *   switcher. `draft` locales are none of those; set LOCALES_PREVIEW=1 to render them in dev.
  *
@@ -36,6 +38,7 @@ export type LocaleEntry = {
   script: LocaleScript;
   status: LocaleStatus;
   reviews: boolean;
+  caseEndings?: boolean;
 };
 
 export { localeCodes, type LocaleCode };

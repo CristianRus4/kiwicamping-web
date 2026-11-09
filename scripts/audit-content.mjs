@@ -105,10 +105,10 @@ const translatedAmounts = (text) => [
 const brands = ["KiwiCamping", "App Store", "Apple", "iPhone", "iCloud", "Google", "CamperMate", "Rankers", "WikiCamps", "MetService"];
 // As the translation engine counts protected terms: Latin, Cyrillic and Greek letters and digits
 // end a word (CJK attaches straight to a Latin name), German and Dutch add a genitive -s, and
-// Finnish, Hungarian, Slovenian and Slovak add a case ending ("KiwiCampingin", "iPhonella", "iPhonu").
+// a locale with `caseEndings` in the registry adds a case ending ("KiwiCampingin", "iPhonella", "iPhonu").
 const WORD = "\\p{Script=Latin}\\p{Script=Cyrillic}\\p{Script=Greek}\\p{N}";
 const genitive = new Set(["de", "nl"]);
-const inflected = new Set(["fi", "hu", "sl", "sk"]);
+const inflected = new Set(locales.filter((entry) => entry.caseEndings).map((entry) => entry.code));
 const brandPattern = (brand, locale) => {
   const name = brand.replace(/[.$]/g, "\\$&");
   if (inflected.has(locale)) return `${name.replace(/e$/, "e?")}\\p{Ll}{0,5}`;
