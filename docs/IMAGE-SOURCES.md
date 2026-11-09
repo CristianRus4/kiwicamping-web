@@ -191,3 +191,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `camping-in-taupo` | Lake Taupō.jpg | Alexander Gerst | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taup%C5%8D.jpg) |
 | `camping-in-kaikoura` | Mt Fyffe, Kaikoura Ranges, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mt_Fyffe,_Kaikoura_Ranges,_New_Zealand.jpg) |
 | `camping-in-paihia-bay-of-islands` | Paihia Beach (3364291063).jpg | Sids1 from New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Paihia_Beach_(3364291063).jpg) |
+| `camping-in-tekapo` | Lake Tekapo 03.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo_03.jpg) |
