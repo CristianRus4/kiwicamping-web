@@ -412,4 +412,50 @@ export const freedomTownArticles: Article[] = [
       { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-twizel",
+    title: "Freedom Camping in Twizel: Where You Can Stay",
+    description: "Freedom camping in Twizel and around Lake Pukaki: Mackenzie District's bylaw, the closed town centre and lagoon, Lake Wardell for self-contained vehicles, the holiday closure and DOC's restricted camping areas.",
+    category: "Rules & safety",
+    region: "Canterbury",
+    places: ["Twizel", "Lake Ruataniwha", "Lake Pukaki", "Lake Wardell", "Aoraki Mount Cook"],
+    imageAlt: "Tasman Road in Twizel with a view down the street towards the mountains",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "christchurch-tekapo-aoraki-road-trip", "christchurch-to-queenstown-drive-guide", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/twizel", "camping/canterbury"],
+    intro:
+      "Twizel is the usual stop between Lake Tekapo and Aoraki Mount Cook, and Mackenzie District Council keeps freedom camping out of its commercial centre and off the Lake Ruataniwha lagoon shore. The places people use are signed sites outside the town, such as Lake Wardell on State Highway 8, which the council describes as a site for certified self-contained vehicles, first come first served. Some sites close between Christmas and mid-January, so the busiest fortnight is when they are least available.",
+    sections: [
+      s("What Mackenzie District's bylaw says", [
+        "Twizel is in the Mackenzie District, whose Responsible Freedom Camping Bylaw 2023 covers council land only. Land that DOC, NZTA or LINZ manages follows other rules, and so do reserves under the Reserves Act, which generally ban camping. The council defines a self-contained camper as one with a fixed toilet that can meet its occupants' needs for at least three days without discharging waste, and from 7 June 2026 the green warrant is the only certificate accepted nationally.",
+        "The council's page says the bylaw prohibits camping in the commercial centre of Twizel and along the western shore of Lake Ruataniwha, the lagoon area. A restricted site allows a maximum of three consecutive nights. Anything not on a list should be treated as closed, because a lay-by or lake edge without a sign is not a designated spot.",
+      ], ["Council land only", "Three days of waste capacity", "Commercial centre and lagoon: banned"]),
+      s("Lake Wardell and the other sites", [
+        "Lake Wardell on State Highway 8 near Twizel is the council's best-known site for certified self-contained vehicles, with spaces on a first come, first served basis. It is a short drive from town, so arrive in the afternoon in summer if you want a space, and be ready to move on if it is full.",
+        "The council has other restricted sites around the district, and the adopted list differs in places from the 2023 draft, so use its current map and the sign on the day rather than an older blog or app listing. Tents and vehicles without certification are not for these sites.",
+      ], ["Lake Wardell: self-contained, first come first served", "Arrive early in summer", "Use the council's current map"]),
+      s("The holiday closure", [
+        "Four of the council's responsible camping sites are closed from 23 December to the second Monday in January inclusive, which in 2026-27 runs from 23 December 2026 to 11 January 2027. That is the fortnight when Twizel is fullest, so a Christmas or New Year trip needs a booked holiday park or DOC campsite, not a hope of a free space.",
+        "A fine for camping in a closed place is $400 under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023, with $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A fine goes to the registered owner, which for a rental is usually the hire company.",
+      ], ["Closed 23 December to 11 January at four sites", "Book ahead for the holidays", "$400 for most breaches"]),
+      s("DOC land near Twizel", [
+        "DOC runs its own rules on conservation land around Twizel, and its freedom camping notices for the district list four restricted camping and amenity areas, including Quailburn and Round Bush, each with a limit of no more than four nights in a calendar month. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 14 of them bookable online through DOC, with adult nightly rates from $10 to $23.",
+        "The guide to DOC campsites explains how booking works, and the guide to holiday parks covers the paid sites in Twizel, Tekapo and Aoraki Mount Cook.",
+      ], ["4 DOC restricted areas, 4 nights a month", "22 DOC campsites in Canterbury", "14 bookable online"]),
+      s("Using KiwiCamping around Twizel", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's sites, so use the council's page for Lake Wardell and the rest.",
+        "Add Twizel to a trip between Christchurch, Tekapo and Queenstown with its date and a note, keep a holiday park saved as the fallback, and read the distance on each leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council page decides Lake Wardell", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Twizel?", "Not in the town centre or along the Lake Ruataniwha lagoon. Certified self-contained vehicles can use the council's signed sites such as Lake Wardell, for a limited number of nights, and some sites close from 23 December to 11 January."],
+      ["Is Lake Wardell free?", "The council describes it as a site for certified self-contained vehicles on a first come, first served basis, with no booking. Check the sign and the council's page for the current limits."],
+    ],
+    sources: [
+      { label: "Mackenzie District Council: Camping", url: "https://mackenzie.govt.nz/home/icon-redirects/row-1/camping" },
+      { label: "Mackenzie District Council: Responsible Freedom Camping Bylaw 2023", url: "https://www.mackenzie.govt.nz/__data/assets/pdf_file/0004/828193/Responsible-Freedom-Camping-Bylaw-2023.pdf" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
