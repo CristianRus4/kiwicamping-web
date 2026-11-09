@@ -489,6 +489,20 @@
       }
     ]
   },
+  "/images/articles/camping-in-queenstown.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/camping-in-queenstown-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/camping-in-queenstown.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/camping-in-taupo.webp": {
     "width": 1600,
     "height": 900,

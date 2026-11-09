@@ -191,4 +191,49 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: Lake Tekapo area", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-tekapo-area/" },
     ],
   }),
+
+  a({
+    slug: "camping-in-queenstown",
+    title: "Camping in Queenstown: Holiday Parks, Lakeside DOC Campsites and Where to Base Yourself",
+    description: "Where to camp around Queenstown: the holiday parks in town, Frankton, Arrowtown and Glenorchy, DOC's lakeside campsites at Twelve Mile Delta, Diamond Lake and Kinloch, and when to book.",
+    category: "Camping guides",
+    region: "Otago",
+    places: ["Queenstown", "Frankton", "Arrowtown", "Glenorchy", "Kinloch", "Lake Wakatipu"],
+    imageAlt: "Queenstown seen from Bob's Peak, with Lake Wakatipu and the Remarkables beyond the town",
+    related: ["queenstown-glenorchy-camping", "christchurch-to-queenstown-drive-guide", "queenstown-to-milford-sound-drive-guide", "holiday-parks-new-zealand-guide", "doc-campsites-new-zealand-guide"],
+    hubs: ["camping/otago", "freedom-camping/wakatipu"],
+    intro:
+      "Queenstown has more places to camp than most towns, but fewer free ones than people expect, because the council tightly limits freedom camping and the town is one of the most visited in the country. Holiday parks in town, at Frankton, Arrowtown and Glenorchy are the reliable answer, and DOC runs lakeside campsites along Lake Wakatipu for people who want the water and a basic night. Book early from December to March.",
+    sections: [
+      s("The choices in a busy town", [
+        "Queenstown Lakes District Council allows freedom camping only at signed car parks for certified self-contained vehicles, with short stays and tight limits, and DOC's notices in the Wakatipu district ban camping at 21 of 29 places. Tents and vans without certification have to use a holiday park or a DOC campsite. With so many visitors, the plan for a summer night is to book rather than to look.",
+        "The best base depends on what you want. In town you can walk to restaurants and the lakefront, at Frankton you are near the airport and shops, Arrowtown is quieter and has autumn colour, and Glenorchy at the head of the lake is the gateway to the Routeburn and Greenstone valleys. The Queenstown and Glenorchy camping guide covers the northern end in detail.",
+      ], ["Freedom camping is tightly limited", "Book rather than look", "Choose a base by what you want to do"]),
+      s("Holiday parks around Queenstown", [
+        "Queenstown Lakeview Holiday Park, now part of Hampshire Holiday Parks, is the most central of the holiday parks, on the hill above the town. Driftaway Queenstown is on the lake at Frankton, a short drive from the airport and the town centre, and Arrowtown has holiday parks of its own with powered and unpowered sites in a tree-lined setting. Glenorchy Holiday Park, at the head of the lake, offers powered and unpowered sites, a kitchen, showers, laundry and a dump station.",
+        "All of them fill from December to the end of February and at Easter, and Queenstown books out for events and the ski season. The guide to holiday parks in New Zealand explains how site types, power and booking work.",
+      ], ["Lakeview: closest to the centre", "Driftaway: on the lake at Frankton", "Glenorchy: gateway to the tracks"]),
+      s("DOC campsites by the lake", [
+        "DOC runs lakeside campsites along Lake Wakatipu. Twelve Mile Delta, just outside Queenstown on the road to Glenorchy, is the largest in Otago with room for 100 and is a basic campsite with toilets and no power. Diamond Lake near Glenorchy is for campervans and caravans, and Kinloch at the head of the lake is a quieter lakeshore site that needs booking in season.",
+        "KiwiCamping's DOC data (11 August 2026) lists 30 DOC campsites in Otago, 8 of them free and 16 bookable online through DOC, with adult nightly rates listed from $5 to $42 and 17 with campervan access. The guide to DOC campsites explains how booking works, and 11 of the 30 are reached only on foot or by boat, so check access before you drive.",
+      ], ["Twelve Mile Delta: 100 sites", "Diamond Lake: campervans", "Kinloch: book in season"]),
+      s("When to book", [
+        "Queenstown is busy all year, with the peak from Christmas to the end of February and the ski season from June to September. Book a holiday park weeks ahead for summer and months ahead for Christmas and New Year. School holidays in 2027 run from 10 to 26 April, 3 to 18 July and 25 September to 10 October.",
+        "A night in Queenstown often fits into the road from Christchurch, covered in the Christchurch to Queenstown drive guide, or the day trip to Milford Sound, covered in the Queenstown to Milford Sound drive guide. In winter, snow and frost matter for campervans, and the guide to winter camping explains what to carry.",
+      ], ["Peak: Christmas to February, and ski season", "Book months ahead for New Year", "Winter needs frost-ready kit"]),
+      s("Using KiwiCamping around Queenstown", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a holiday park and a DOC campsite for each night, and order them in a trip with dates and notes.",
+        "The trip adds up the distance between legs and shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a holiday park and a DOC campsite", "Check the forecast for each leg", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I camp near Queenstown?", "At the holiday parks in town, Frankton, Arrowtown and Glenorchy, or at DOC's lakeside campsites such as Twelve Mile Delta, Diamond Lake and Kinloch. Freedom camping is limited to signed car parks for certified self-contained vehicles."],
+      ["Do I need to book camping in Queenstown?", "From December to March, yes. Holiday parks fill weeks ahead and Christmas weeks ahead of that."],
+    ],
+    sources: [
+      { label: "Hampshire Holiday Parks: Queenstown Lakeview", url: "https://www.hampshireholidayparks.co.nz/" },
+      { label: "Queenstown Lakes District Council: Responsible camping", url: "https://www.qldc.govt.nz/responsible-camping" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
 ];
