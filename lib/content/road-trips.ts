@@ -933,4 +933,57 @@ export const roadTripArticles: Article[] = [
       { label: "DOC: Purakaunui Falls walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/purakaunui-falls-walk/" },
     ],
   }),
+  a({
+    slug: "wet-weather-camping-new-zealand",
+    title: "Wet Weather Camping in New Zealand: Rain, Rivers and Staying Dry",
+    description: "How to camp in rain in New Zealand: reading the forecast and warnings, choosing a safe site away from rivers, staying dry in a van or tent, the wettest regions and what to do on a rainy day.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Fiordland", "West Coast", "Nelson", "Hawke's Bay", "Waitomo"],
+    imageAlt: "A rainbow over the Routeburn Track valley after rain, with cloud on the mountains and green forest below",
+    related: ["new-zealand-severe-weather-camping", "winter-camping-new-zealand", "river-crossing-safety-new-zealand", "sandflies-new-zealand-camping", "holiday-parks-new-zealand-guide", "one-lane-bridges-gravel-roads-new-zealand"],
+    hubs: ["camping/west-coast", "camping/fiordland", "camping/nelson-tasman"],
+    intro:
+      "Rain is part of a New Zealand trip, and a wet day does not have to ruin it if you pick the right site and keep your gear dry. The West Coast and Fiordland are among the wettest places in the country, while Nelson, Marlborough, Hawke's Bay and Central Otago are often much drier. Below are how to read the forecast and warnings, where not to camp in heavy rain, how to stay dry in a van or a tent, which regions to head for when the weather turns, and what to do on a wet day.",
+    sections: [
+      sec("Read the forecast and the warnings", [
+        "Check the forecast every morning and again before you drive to a new site, using MetService and the weather forecast in your phone. A watch means heavy rain is possible and a warning means it is expected, and an orange or red warning is a reason to change plans, not to sit it out in a tent. The severe weather guide explains the warning levels.",
+        "Rain in the mountains arrives in rivers a few hours later, so a clear sky at your site does not mean the river is safe. Check river levels and the forecast for the whole catchment, and read the river crossing guide before driving through a ford or crossing a stream on foot.",
+      ], ["Check the forecast morning and evening", "Orange or red warning: change plans", "Rivers rise after rain upstream"]),
+      sec("Where not to camp in heavy rain", [
+        "Do not camp beside a river or a stream in heavy rain, or in a dip where water collects. Pick a site on higher, well-drained ground, away from steep slopes that can slip and from trees with dead branches. Flooding and slips close roads and cut off campsites, so check the NZTA Journey Planner and local council updates before you move.",
+        "Gravel roads become slippery and slow in the wet, and one-lane bridges need care. The gravel roads guide explains how to drive them. If you are on a remote DOC campsite and heavy rain is forecast, move to a holiday park or a higher site for the night rather than risk being stuck.",
+      ], ["Avoid river banks and hollows", "Higher, well-drained ground", "Move early if heavy rain is forecast"]),
+      sec("Staying dry and comfortable", [
+        "In a campervan, wet clothes and cooking bring condensation, so crack a window or roof vent and keep a towel for the windows. Dry boots and jackets near the heater and keep a separate bag for wet gear. A small clothes rack or line makes a big difference over several days of rain.",
+        "In a tent, pitch with the door away from the wind, use a groundsheet that does not collect water under the tent and keep the sleeping area away from the fly. A tarp over the cooking area gives you somewhere dry to sit. If a campsite is flooding, do not stay to save a night's fee.",
+      ], ["Ventilate to reduce condensation", "Keep a dry bag and a wet bag", "A tarp makes a dry cooking area"]),
+      sec("Where to go when it rains", [
+        "The weather in New Zealand varies a lot by region, and the Southern Alps make a rain shadow on the east side. When the West Coast or Fiordland is wet, Nelson, Marlborough, Hawke's Bay and Central Otago are often drier, and a half-day drive can change the day. The reverse is true in a southerly or easterly, so check the forecast for both sides.",
+        "Holiday parks with a camp kitchen and a lounge are the best choice for a wet night, and they are easy to find in the larger towns. The holiday parks guide explains what to look for, and the winter camping guide covers cold wet weather.",
+      ], ["West Coast and Fiordland are the wettest", "Nelson and Central Otago are often drier", "Camp kitchens make wet nights easier"], {
+        caption: "General guide to wetter and drier regions. Always check the forecast for the day.",
+        head: ["Region", "Usually", "Notes"],
+        rows: [
+          ["West Coast and Fiordland", "Wet", "Heavy rain, slips and flooded rivers"],
+          ["Bay of Plenty and Coromandel", "Mixed", "Heavy downpours in summer storms"],
+          ["Nelson and Marlborough", "Drier", "More sunshine than most of the country"],
+          ["Hawke's Bay and Central Otago", "Drier", "Often dry when the west is wet"],
+        ],
+      }),
+      sec("What to do on a wet day", [
+        "Wet days are good for the activities that work in the rain: the Waitomo caves, geothermal parks and hot pools in Rotorua and Taupō, museums in the larger towns and cafes with a view. Many short walks are even better in the rain, as waterfalls are at their best, but take care on wet tracks and stay off those with stream crossings.",
+        "Use the day for a rest, a laundry and a restock too. A rain day is a good moment to dry out gear and plan the next few days. The sandflies are also fewer in heavy rain, though they return as soon as it clears.",
+      ], ["Caves and hot pools in the rain", "Waterfalls are at their best", "Use the day to dry out and restock"]),
+      sec("Planning around the weather in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, and it shows a forecast at every place on your list. Save a holiday park and a drier backup beside each remote campsite, put them in order as the stops of a trip, and the app shows the distance between each pair of stops. It does not give live traffic or turn-by-turn directions, so use your maps app and the NZTA Journey Planner for road conditions.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save a backup beside each campsite", "Forecast at each stop", "Check road conditions with NZTA"], undefined, true),
+    ],
+    sources: [
+      { label: "MetService: New Zealand weather and warnings", url: "https://www.metservice.com/" },
+      { label: "NZ Civil Defence: get ready for severe weather", url: "https://www.civildefence.govt.nz/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
