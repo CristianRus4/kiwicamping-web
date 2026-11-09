@@ -238,3 +238,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `great-taste-trail-by-bike` | Kaiteriteri. Nelson NZ (14773388612).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri._Nelson_NZ_(14773388612).jpg) |
 | `glamping-new-zealand` | Bay of islands at Waitangi, New Zealand.jpg | Alan Vernon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Bay_of_islands_at_Waitangi,_New_Zealand.jpg) |
 | `christchurch-campervan-starting-point` | Avon River in Christchurch Botanic Gardens.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_Botanic_Gardens.jpg) |
+| `long-weekend-camping-new-zealand` | Kaiteriteri Beach 4 (31578270882).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri_Beach_4_(31578270882).jpg) |

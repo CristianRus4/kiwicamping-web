@@ -71,4 +71,67 @@ export const lakesWalksViewsArticles: Article[] = [
       { label: "NZTA: Traffic and travel information", url: "https://www.nzta.govt.nz/traffic-and-travel-information/" },
     ],
   }),
+
+  a({
+    slug: "long-weekend-camping-new-zealand",
+    title: "Long-Weekend Camping in New Zealand: Labour Weekend, Anniversary Days and the Rest",
+    description: "How long-weekend camping works in New Zealand: Labour Weekend, the regional anniversary days, Waitangi, Easter, Anzac, King's Birthday and Matariki in 2027, with booking advice and where to go.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Coromandel", "Wairarapa", "Banks Peninsula", "Nelson Tasman", "Taupō"],
+    imageAlt: "Kaiteriteri Beach in the Nelson Tasman region with boats on golden sand",
+    related: ["school-public-holidays-new-zealand-2027", "doc-campsites-sell-out-summer-new-zealand", "holiday-parks-new-zealand-guide", "matariki-camping-new-zealand-2027", "family-holiday-parks-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "New Zealand has a long-weekend calendar that campers learn quickly: Labour Weekend opens the season in October, each region has its own anniversary day, and Easter, Matariki and the rest fill the parks in between. A three-day weekend changes everything about camping, because holiday parks book out, the signposted freedom camping spots fill on Friday afternoon, and the roads out of the big cities clog. This guide sets out the 2027 dates, what each weekend is like, and how to get a site.",
+    sections: [
+      s("Why a long weekend is different", [
+        "On an ordinary weekend a campground near a city is busy on Saturday and easy on Sunday. On a long weekend everyone has an extra day, so people leave on Friday morning or the afternoon before, stay three nights, and fill holiday parks, council campgrounds and the DOC campsites that take bookings. Popular places book weeks ahead, and the first come, first served ones fill by Friday lunchtime.",
+        "The result is that the best long-weekend trips are planned like summer ones: a booked site, an early start, and a plan B within an hour of the first choice. The guide to DOC campsites that sell out over summer covers the sites to book first, and the holiday parks guide explains how to book a powered site.",
+      ], ["Book weeks ahead, not days", "Leave on Thursday night or Friday morning", "Have a second choice within an hour"]),
+      s("The 2027 long weekends", [
+        "The table lists the national public holidays in 2027 and the long weekends they make. Waitangi Day and Anzac Day fall on a weekend in 2027, so employees who would not normally work that day get the Monday off, which is how Employment New Zealand describes the rule. The regional anniversary days are separate: Wellington's is on Monday 25 January and Auckland's and Nelson's on Monday 1 February, and Employment New Zealand lists every region's date.",
+        "Other regions follow through the year, with Otago on Monday 22 March, Hawke's Bay on the Friday before Labour Day and Canterbury's Show Day on a Friday in November. Dates can change and each employer applies them, so check Employment New Zealand and your local council before you book.",
+      ], ["Two holidays move to a Monday in 2027", "Each region has its own anniversary day", "Check Employment New Zealand for exact dates"], {
+        caption: "National public holidays in 2027 and the long weekends they make.",
+        head: ["Holiday", "Date in 2027", "What to expect"],
+        rows: [
+          ["Waitangi Day", "Saturday 6 February, observed Monday 8 February", "Summer peak, parks full"],
+          ["Easter", "Friday 26 to Monday 29 March", "Coastal parks and DOC sites book early"],
+          ["Anzac Day", "Sunday 25 April, observed Monday 26 April", "Cooler nights, and it falls in the school holidays"],
+          ["King's Birthday", "Monday 7 June", "Winter, quieter, frost and early dark"],
+          ["Matariki", "Friday 25 June", "Midwinter, clear cold skies"],
+          ["Labour Day", "Monday 25 October", "Season opener, mixed weather"],
+        ],
+      }),
+      s("Labour Weekend: the season opener", [
+        "Labour Day is the fourth Monday in October, and Labour Weekend is when many New Zealanders pull the caravan out for the first time. The weather is mixed, with warm days and cold nights, and the high country can still have snow, but the daylight is long and the holiday parks are not yet at their Christmas prices. In 2027 it falls on 23 to 25 October.",
+        "It is also the weekend some seasonal campsites reopen, such as DOC's Catchpool Valley near Wellington, which is closed from May until Labour weekend. Two things catch visitors out: some farm-crossing walks are closed for lambing until about November, as the walks closed for lambing guide explains, and sandflies and wasps wake up with the warmth.",
+      ], ["Fourth Monday in October", "Some campsites reopen for the season", "Lambing closures still apply"]),
+      s("Anniversary days: the regional weekends", [
+        "Each region's anniversary day is a long weekend for that region alone, which is why Monday can be a holiday in Auckland while Christchurch is at work. Aucklanders and Wellingtonians leave for the Coromandel, Northland, Taupō and the Wairarapa, and people in the neighbouring regions find their usual spots full of strangers for a weekend.",
+        "The practical rule is to book the region you are going to, not the one you live in. If a friend's anniversary day is next weekend, their favourite campground is full too. Wellington's January long weekend and Auckland's early February one both land in the summer school holidays, so they are the busiest of the lot.",
+      ], ["Book for the region you are visiting", "Neighbouring regions fill up too", "Summer anniversary days are the busiest"]),
+      s("Easter, Anzac, King's Birthday and Matariki", [
+        "Easter is the autumn peak, with the April school holidays from 10 April in 2027 close behind it, and the coastal parks and bookable DOC campsites fill early. Anzac Day brings commemorations in every town, with dawn services that close roads, and King's Birthday and Matariki are winter weekends when the parks are quiet and the nights are cold.",
+        "Winter long weekends suit a heated cabin or a well-prepared van. The winter camping guide covers warmth, frost and roads, the Matariki guide covers the midwinter weekend and stargazing, and the school and public holidays guide has the dates for every term.",
+      ], ["Easter fills first", "Dawn services can close roads on Anzac Day", "Winter weekends need cold-weather kit"]),
+      s("Where to go", [
+        "Most people head for a coastal town or a lake within two or three hours of home. Around Auckland that means the Coromandel and Taupō, from Wellington the Wairarapa, and from Christchurch Banks Peninsula and the lakes of the Mackenzie. The Wellington Wairarapa camping loop, the Banks Peninsula camping weekend and the Nelson, Abel Tasman and Golden Bay guide each cover a weekend that fits a long one.",
+        "If you cannot find a site, go the other way from the crowd. A town an hour past the famous one usually has space, and a weekday or a Sunday night after the holiday will be much easier than the Friday.",
+      ], ["Coastal and lake towns fill first", "Try the town beyond the famous one", "Sunday nights are easy to book"]),
+      s("Using KiwiCamping on a long weekend", [
+        "KiwiCamping shows holiday parks, DOC campsites and dump stations, with filters for campervan access. Save a first choice and a backup for each night, set them out as a trip with the weekend's dates, and use the forecast to choose between the coast and the mountains.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a first choice and a backup", "Check the forecast before leaving", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["When is Labour Weekend in New Zealand in 2027?", "Labour Day is the fourth Monday in October, so Labour Weekend in 2027 runs from Saturday 23 to Monday 25 October. It is the traditional start of the camping season."],
+      ["How far ahead should I book a campsite for a long weekend?", "Weeks ahead for holiday parks and bookable DOC campsites at the popular places, and arrive early for first come, first served sites, which can fill by Friday lunchtime."],
+    ],
+    sources: [
+      { label: "Employment New Zealand: Public holidays and anniversary dates", url: "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates/" },
+      { label: "DOC: Camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];
