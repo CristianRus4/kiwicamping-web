@@ -972,4 +972,59 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-motueka",
+    title: "Freedom Camping in Motueka: Sites, Limits and Alternatives",
+    description: "Freedom camping in Motueka: Tasman District Council's Responsible Camping Bylaw 2025, the beach, quay and Decks Reserve sites, the Ngatimoti reserve that takes any vehicle, two-night limits and the Abel Tasman holiday parks.",
+    category: "Rules & safety",
+    region: "Nelson Tasman",
+    places: ["Motueka", "Ngatimoti", "Kaiteriteri", "Marahau", "Mapua"],
+    imageAlt: "Waves washing onto a golden sand beach beside a forested shore in Tasman Bay",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-tasman-2026", "freedom-camping-nelson", "nelson-abel-tasman-golden-bay", "abel-tasman-coast-track-campsites-2026-27"],
+    hubs: ["freedom-camping/motueka", "camping/nelson-tasman"],
+    intro:
+      "Motueka is the gateway to the Abel Tasman, and the one Nelson Tasman town where the council gives a visitor several places to park a campervan for the night. Tasman District Council's Responsible Camping Bylaw, in force since 1 November 2025, allows certified self-contained vehicles at three signed sites in town, a larger reserve up the Motueka Valley that also takes uncertified vehicles, and no tents on public land at all. Kaiteriteri, Marahau and Mapua have no freedom camping sites, so the summer crush goes to the holiday parks.",
+    sections: [
+      s("What the 2025 bylaw says", [
+        "Tasman District Council adopted its Responsible Camping Bylaw on 11 September 2025, and it came into effect on 1 November. It allows freedom camping only at signposted sites, with space on a first come, first served basis, and it says tents may not be used on public land. The council counts 147 freedom camping spaces across the district.",
+        "At each site the draft schedule set two consecutive nights, on no more than two occasions in a calendar month, with a departure time of 8am and your belongings inside the marked space. Since 7 June 2026 a certified vehicle needs the green warrant, which the guide to the self-contained campervan warrant explains. The council's pages were not readable for this guide, so confirm the figures there.",
+      ], ["Signed sites only", "Two nights, twice a month", "No tents on public land"]),
+      s("The Motueka sites", [
+        "Three places in town carry the spaces: Decks Reserve by the sea, with room for around 40 certified vehicles but on weeknights only between 6pm and 8am, George Quay with about 12, and Motueka Beach Reserve with about 19 for certified vehicles plus 3 for vehicles that are not self-contained. They are near the town centre, with the shops and the sea within walking distance.",
+        "The numbers come from the council's draft schedule and a total of 147 spaces matches the council's own figure, so the list is probably the final one, but it is unconfirmed. Arrive by late afternoon in summer, because the beach reserve fills with day visitors and vans together.",
+      ], ["Decks Reserve: about 40, weeknights", "George Quay: about 12", "Motueka Beach Reserve: 19 plus 3"], {
+        caption: "Motueka sites in Tasman District Council's draft schedule 2 for the Responsible Camping Bylaw 2025, read on 21 October 2026. Check the council's page for the adopted list.",
+        head: ["Site", "Spaces", "Notes"],
+        rows: [
+          ["Decks Reserve", "About 40", "Certified self-contained, weeknights 6pm to 8am"],
+          ["George Quay", "About 12", "Certified self-contained"],
+          ["Motueka Beach Reserve", "About 19 plus 3", "3 spaces for vehicles that are not self-contained"],
+          ["Alexander Bluff Road Reserve", "Up to 40", "Ngatimoti, any vehicle, up the Motueka Valley"],
+        ],
+      }),
+      s("The Ngatimoti reserve", [
+        "Alexander Bluff Road Reserve at Ngatimoti, about 350 metres south of Alexander Bluff Bridge on the Motueka Valley Highway, takes up to 40 vehicles of any type, including those that are not self-contained. It is the council's most open site, about 25 minutes from Motueka, and a good pick for a tent-less van or a car camper who cannot use the beach sites.",
+        "It is a riverside reserve with basic facilities, so bring water and take your rubbish. Tents are still not allowed at it under the bylaw, so a tent has to be pitched in a holiday park or a DOC campsite.",
+      ], ["Takes any vehicle, up to 40", "About 25 minutes from Motueka", "Still no tents"]),
+      s("Abel Tasman, Kaiteriteri and the holiday parks", [
+        "Kaiteriteri, Marahau and Mapua have no freedom camping, and the Abel Tasman National Park's campsites are DOC's, booked through its system all year, as the Abel Tasman Coast Track campsites guide explains. In summer the Kaiteriteri and Marahau holiday parks and the motor camps in Motueka are the practical choice, and they book out over Christmas.",
+        "KiwiCamping's DOC data (11 August 2026) lists 37 DOC campsites in Nelson Tasman, only 2 of them free and 8 with campervan access, with adult nightly rates from $10 to $31, and Tōtaranui is the largest with room for 269. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["Abel Tasman campsites book all year", "37 DOC campsites in Nelson Tasman", "Holiday parks fill at Christmas"]),
+      s("Using KiwiCamping around Motueka", [
+        "In KiwiCamping you will find DOC campsites and huts, holiday parks and dump stations around Motueka and the Abel Tasman, with filters for campervan access. The council's sites are not in the app, so use the council's page for those and keep a holiday park saved as the backup.",
+        "Add Motueka to a trip from Nelson, 45 minutes east, and read the leg to Golden Bay over Takaka Hill. Saved places stay on the phone, and the map, routing, weather and photos need signal, which drops on the hill. The app is free to download, with in-app purchases.",
+      ], ["Council page decides the sites", "Nelson is 45 minutes away", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Motueka?", "Yes, in a certified self-contained vehicle at the council's signed sites, such as Motueka Beach Reserve, George Quay and Decks Reserve. Tents are not allowed on public land."],
+      ["Can I freedom camp at Kaiteriteri or Marahau?", "No. Neither has a council site, so use a holiday park or a booked DOC campsite."],
+    ],
+    sources: [
+      { label: "Tasman District Council: Responsible camping", url: "https://www.tasman.govt.nz/my-region/recreation/responsible-camping" },
+      { label: "Tasman District Council: Camping bylaw", url: "https://www.tasman.govt.nz/my-council/key-documents/more/bylaws-and-regulations/camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

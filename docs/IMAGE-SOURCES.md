@@ -219,3 +219,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-colac-bay` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
 | `freedom-camping-westport` | Beach in Hokitika, West Coast, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Beach_in_Hokitika,_West_Coast,_New_Zealand.jpg) |
 | `freedom-camping-haast` | Pauline, Haast Pass, Otago-Westland, New Zealand, 1968.jpg | Phillip Capper from Wellington, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Pauline,_Haast_Pass,_Otago-Westland,_New_Zealand,_1968.jpg) |
+| `freedom-camping-motueka` | Kaiteriteri. Nelson NZ (14773388612).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri._Nelson_NZ_(14773388612).jpg) |
