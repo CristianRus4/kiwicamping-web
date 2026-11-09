@@ -1693,6 +1693,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-whanganui.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-whanganui-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-whanganui.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-whangarei-2026.webp": {
     "width": 1600,
     "height": 900,

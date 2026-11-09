@@ -550,4 +550,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-whanganui",
+    title: "Freedom Camping in Whanganui: Where You Can Stay",
+    description: "Where campervans can stay overnight in Whanganui: Castlecliff Beach and the other council sites, the ban along the river road, night limits, DOC land up the river and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Manawatū-Whanganui",
+    places: ["Whanganui", "Castlecliff", "Aramoho", "Kai Iwi", "Pipiriki"],
+    imageAlt: "A red kayak on the Whanganui River beneath a forested clay cliff, with a shingle bank in the foreground",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "whanganui-journey-camping-2026-27", "freedom-camping-north-island", "holiday-parks-new-zealand-guide"],
+    hubs: ["freedom-camping/whanganui", "camping/manawatu-whanganui"],
+    intro:
+      "Whanganui lets certified self-contained campervans stay overnight at a small number of council sites, led by the beachfront at Castlecliff, and bans camping along the rest of the city's waterfront and on the river road. The council has rewritten its freedom camping bylaw more than once since 2021 and closed some central sites, so the list that was right last summer may be wrong now. Tents and vehicles without a self-containment certificate belong in a holiday park, and the Whanganui River itself is a DOC campsite story, not a freedom camping one.",
+    sections: [
+      s("What the council asks of you", [
+        "Whanganui District Council's freedom camping page is the place to start, because the bylaw has been reviewed in 2025 and its site list has moved. The council's own consultation papers describe the core idea plainly: stay only at the designated sites, keep to the number of nights shown, and use a certified self-contained vehicle, which is the national default. A 2025 draft proposed tightening Castlecliff Beach to match that default, because it had been the one place that tolerated vehicles without a certificate.",
+        "Self-contained here means the same thing as everywhere else: a fixed toilet, a water supply, wastewater storage and the certification card in the windscreen. Since 7 June 2026 only the green warrant counts, and the guide to the self-contained campervan warrant explains how to read yours. Staying two nights is the usual limit at a site, and the council's page names any site that allows only one.",
+      ], ["Council page over this guide", "Green warrant in the windscreen", "Two nights is the usual limit"]),
+      s("Castlecliff Beach and the city sites", [
+        "Castlecliff is the beach suburb a short drive from the city centre, with black sand, a surf club and a car park above the beach that the council has used for campervans. Over the 2024-25 summer the number of vans there regularly passed the old limit of ten and sometimes reached thirty-five, which is why the council moved to marked bays and a new layout beside the Duncan Pavilion. Arrive by late afternoon in January, because the bays are first come, first served.",
+        "Closer to the centre the council has closed sites it used to allow, including the Anzac Parade and Taupō Quay areas by the river, after complaints about crowding and rubbish. Kōwhai Park is the other place often named in the papers, and the council has restricted the area between the boat ramp and the Anzac Parade toilets. Check the sign on the night, since a closed site can still look like an obvious place to park.",
+      ], ["Castlecliff bays fill in summer", "Anzac Parade and Taupō Quay are closed", "Read the sign at Kōwhai Park"]),
+      s("Where it is banned", [
+        "The council has prohibited freedom camping along the Whanganui River Road, the narrow sealed road that follows the river north from the city towards Pipiriki, after safety and behaviour concerns. The road has little room to pull over, no rubbish collection and a lot of private land behind its verges, so it is the last place to improvise.",
+        "Anywhere else on council land that is not on the site list should be treated as closed, including the riverside car parks and the reserves in town. A breach is an infringement offence under the national rules: $400 for camping where it is prohibited, $400 for a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste. A rental company passes the ticket to you.",
+      ], ["River Road: no camping", "Riverside car parks: closed", "$400 for most breaches"]),
+      s("The river, DOC and the holiday parks", [
+        "The Whanganui River is where the camping in this region really happens. The Whanganui Journey Great Walk, a canoe trip of three to five days, books its huts and campsites through DOC, and the guide to camping on the Whanganui Journey covers the dates and fees. KiwiCamping's DOC data (11 August 2026) lists 20 campsites in Manawatū-Whanganui, only 2 of them free and only 3 with campervan access, with adult nightly rates from $10 to $19, and Ohinepane is the largest with room for 36.",
+        "In town, the holiday parks and motor camps are the dependable answer for a tent, an uncertified van or a late arrival, with powered sites, kitchens and cabins. They are rarely full outside the summer holidays, but Whanganui sits on the road between Taranaki and the capital, so the Friday of a long weekend is another matter. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["20 DOC campsites in the region", "Only 3 take campervans", "Holiday parks for tents and uncertified vans"]),
+      s("Using KiwiCamping around Whanganui", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not carry the council's freedom camping sites, so use the council page for Castlecliff and keep a holiday park saved for each night in case the bays are full.",
+        "Add Whanganui to a trip with its date and read the distance to the next stop, whether that is the drive south to Wellington or north towards Taupō. Saved places and their details stay on the phone, while map tiles, routing, weather and photos need signal, which matters up the river road. The app is free to download, with in-app purchases.",
+      ], ["Council page decides Castlecliff", "Save a holiday park as the backup", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Whanganui?", "Yes, in a certified self-contained vehicle at the sites the council lists, mainly Castlecliff Beach. It is banned along the river road and at the central sites the council has closed."],
+      ["Can I freedom camp in a tent in Whanganui?", "No. Tents and vehicles that are not self-contained need a holiday park or a DOC campsite."],
+    ],
+    sources: [
+      { label: "Whanganui District Council: Freedom camping", url: "https://www.whanganui.govt.nz/Services/Freedom-Camping" },
+      { label: "Whanganui District Council: Freedom Camping Bylaw 2025", url: "https://www.whanganui.govt.nz/Your-Council/Have-Your-Say/Consultations/Freedom-Camping-Bylaw-2025" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
