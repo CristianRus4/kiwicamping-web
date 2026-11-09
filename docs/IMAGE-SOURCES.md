@@ -161,3 +161,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |
 | `auckland-3-days-campervan` | A southerly view of Piha Beach and Lion Rock, 2010.jpg | Teemu Leisti | CC0 | [Source](https://commons.wikimedia.org/wiki/File:A_southerly_view_of_Piha_Beach_and_Lion_Rock,_2010.jpg) |
 | `wellington-3-days-campervan` | Evans Bay.jpg | Turnagra | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Evans_Bay.jpg) |
+| `dunedin-3-days-campervan` | St. Clair Beach Dunedin.jpg | Alexeyevitch | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:St._Clair_Beach_Dunedin.jpg) |

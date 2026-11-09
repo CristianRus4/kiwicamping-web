@@ -755,6 +755,20 @@
       }
     ]
   },
+  "/images/articles/dunedin-3-days-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/dunedin-3-days-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/dunedin-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/earthquake-tsunami-camping-new-zealand.webp": {
     "width": 1600,
     "height": 900,

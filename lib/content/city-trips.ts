@@ -100,4 +100,52 @@ export const cityTripArticles: Article[] = [
       { label: "WellingtonNZ: things to do", url: "https://www.wellingtonnz.com/" },
     ],
   }),
+  a({
+    slug: "dunedin-3-days-campervan",
+    title: "Dunedin in 3 Days by Campervan: Itinerary, Otago Peninsula and Where to Camp",
+    description: "A three-day Dunedin itinerary for a campervan: the city and its heritage, the Otago Peninsula wildlife, Tunnel Beach and St Clair, and a day to Moeraki and Oamaru, with campgrounds and driving tips.",
+    category: "Road trips",
+    region: "Southern South Island",
+    places: ["Dunedin", "Otago Peninsula", "Portobello", "Tunnel Beach", "Moeraki", "Oamaru"],
+    imageAlt: "St Clair Beach in Dunedin with waves breaking on the sand",
+    related: ["freedom-camping-dunedin-2026", "christchurch-to-dunedin-drive-guide", "southern-scenic-route-camping", "south-island-two-week-road-trip", "wildlife-livestock-road-safety-new-zealand", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/otago"],
+    intro:
+      "Dunedin is a compact Victorian city on a harbour, with some of the best wildlife in the country on its doorstep. Three days gives you the city and its streets, a day on the Otago Peninsula with albatrosses and penguins, and a day out to the coast or the Catlins. The peninsula roads are narrow, so a campervan suits the city and the highway better than the road along the water.",
+    sections: [
+      s("Where to base yourself", [
+        "Holiday parks around the city and on the harbour give you power and showers within a short drive of the centre, and the Octagon and the railway station are an easy walk or bus ride from most. On the Otago Peninsula there are smaller campgrounds and holiday parks, and the road to them is narrow and winding. DOC runs campsites in the surrounding Otago coast and the Catlins to the south.",
+        "Dunedin City Council allows freedom camping in some places for self-contained vehicles, with limits on length of stay and fines for breaking them, so read the freedom camping in Dunedin guide for the current places before relying on it. In summer the holiday parks fill up when the cruise ships are in and over the school holidays, so book ahead.",
+      ], ["Holiday parks near the centre", "Book ahead in summer", "Check the freedom camping places"]),
+      s("Day 1: the city", [
+        "Start at the Octagon and walk to the railway station, one of the most photographed buildings in the country, and the Otago Museum and the Toitū Otago Settlers Museum are within a few minutes. Baldwin Street, known as the steepest street in the world, is a short drive north and takes ten minutes to climb on foot. The University of Otago and the student quarter give the city its character.",
+        "In the afternoon, ride the Taieri Gorge Railway, if it is running, or visit the Dunedin Botanic Garden, which is free and a pleasant walk. In the evening, the cafes and bars in the Octagon area and Moray Place are busy, and you can leave the van at the holiday park and take a bus or taxi.",
+      ], ["Octagon and the railway station", "Baldwin Street is a short climb", "Leave the van at the park"]),
+      s("Day 2: the Otago Peninsula", [
+        "The road along the harbour to Portobello and on to the end of the peninsula takes about an hour, and a campervan should take it slowly. At the tip, the Royal Albatross Centre at Taiaroa Head is the only mainland colony of royal albatrosses in the world, with guided tours that need booking. Nearby, you can see yellow-eyed penguins, fur seals and sea lions from hides and beaches, and the penguins come ashore in the late afternoon.",
+        "Larnach Castle sits on the hill above the harbour and has a good garden and a view, and Sandfly Bay has a dune walk and sea lions. Keep a safe distance from all wildlife, 10 metres from a sea lion and further from a penguin, and never block their path to the water. Take the high road back along the ridge for the views, if your van is not too tall.",
+      ], ["Book the albatross tour", "Keep 10 metres from sea lions", "Allow a full day for the peninsula"]),
+      s("Day 3: Tunnel Beach, St Clair and the coast", [
+        "South of the city, Tunnel Beach is a sandstone cliff walk through a hand-cut tunnel to a small beach, about half an hour each way and steep on the way back. Some seasons the track closes for lambing, so check the council page before you go. St Clair Beach, with its esplanade, surf and cafes, is a good place for a late lunch.",
+        "If you have the time, drive north to Moeraki for the Moeraki Boulders and then on to Oamaru, where blue penguins return to the colony at dusk. That is about 80 to 120 kilometres each way, so it is a full day. South of the city, the Southern Scenic Route and the Catlins have their own guides.",
+      ], ["Check for lambing closures", "Moeraki Boulders and Oamaru", "Blue penguins at dusk"]),
+      s("Driving in and around Dunedin", [
+        "The city streets are steep and narrow, with one-way streets around the Octagon, and a long van is easier outside the centre. Frost and ice can make the hill roads slippery in winter, and the Southern Motorway is the quickest way in and out. The road from Christchurch is covered in the Christchurch to Dunedin guide.",
+        "Watch for sheep and cattle on the rural roads of the peninsula and the coast, and slow down for blind corners. The wildlife and livestock road safety guide has the basics.",
+      ], ["Steep and narrow streets", "Frost in winter", "Livestock on rural roads"]),
+      s("Planning your three days in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks around Dunedin and the Otago coast, with filters for campervan access and facilities. Save a base and a backup, add them to a trip in order, and the app shows the distance between each pair of stops and a forecast for every place, which helps decide which day suits the peninsula. It does not give turn-by-turn directions or live traffic, so use your maps app for the roads.",
+        "Bookings for DOC sites stay on DOC's own booking pages. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Forecast decides the peninsula day", "Book DOC sites on DOC's site"], undefined, true),
+    ],
+    faq: [
+      ["Is the Otago Peninsula road suitable for a campervan?", "Yes, but it is narrow and winding along the harbour, so take it slowly and avoid driving it at night. A very tall or long van may prefer to visit the tip on a tour."],
+      ["How many days do you need in Dunedin?", "Three days covers the city, the Otago Peninsula and a day to Tunnel Beach and the coast. Add a day for Moeraki and Oamaru or the Catlins."],
+    ],
+    sources: [
+      { label: "DOC: Otago coast and peninsula", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/" },
+      { label: "Dunedin City Council: camping and freedom camping", url: "https://www.dunedin.govt.nz/" },
+      { label: "Dunedin NZ: things to do", url: "https://www.dunedinnz.com/" },
+    ],
+  }),
 ];
