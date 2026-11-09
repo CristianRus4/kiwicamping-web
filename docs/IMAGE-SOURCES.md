@@ -163,3 +163,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-nelson` | Nelson New Zealand.jpg | Markus Koljonen (Dilaudid) | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Nelson_New_Zealand.jpg) |
 | `freedom-camping-kaikoura` | View of Kaikoura Peninsula from Kaikoura Ranges, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:View_of_Kaikoura_Peninsula_from_Kaikoura_Ranges,_New_Zealand.jpg) |
 | `freedom-camping-raglan` | Raglan, New Zealand 05.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Raglan,_New_Zealand_05.jpg) |
+| `freedom-camping-timaru` | Timaru-Stafford.St.jpg | Thomei08 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Timaru-Stafford.St.jpg) |

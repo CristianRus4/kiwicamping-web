@@ -216,4 +216,55 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-timaru",
+    title: "Freedom Camping in Timaru: Where You Can Stay",
+    description: "Freedom camping in Timaru: why the district has no bylaw, how Caroline Bay's overnight parking works, what the national rules mean, the nearby DOC sites and the holiday parks to use instead.",
+    category: "Rules & safety",
+    region: "Canterbury",
+    places: ["Timaru", "Caroline Bay", "Pleasant Point", "Temuka", "Geraldine"],
+    imageAlt: "Stafford Street in central Timaru, lined with historic buildings",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "camping-rules-local-councils-new-zealand", "christchurch-tekapo-aoraki-road-trip", "holiday-parks-new-zealand-guide"],
+    hubs: ["camping/canterbury", "freedom-camping/geraldine"],
+    intro:
+      "Timaru District has no freedom camping bylaw of its own, which means the national rules in the Freedom Camping Act apply, and the council has chosen to warrant its officers to enforce them rather than write local rules. Caroline Bay, the beachfront the town used to encourage campers on, now has paid overnight parking at its two car parks. For a bed in Timaru you want either a certified self-contained vehicle parked where the council allows it, or the Caroline Bay holiday park.",
+    sections: [
+      s("No local bylaw: what that means", [
+        "In June 2025 Timaru District Council decided not to develop a freedom camping bylaw and instead to warrant staff under the Freedom Camping Act 2011. Without a bylaw there is no list of banned or restricted places, so the Act's own limits apply: you can freedom camp on council land that is not protected by a rule or a sign, and an officer can act against camping that harms a place or breaks another rule.",
+        "That does not make everywhere fair game. Reserves, parks and beaches still carry their own rules, signs still count, and the council can prosecute for damage or waste. The sensible reading is to freedom camp only where a sign or the council says you can, and to treat any no-camping sign as binding.",
+      ], ["National rules apply", "Signs still count", "Officers can enforce the Act"]),
+      s("Caroline Bay", [
+        "Caroline Bay is the beachfront next to the town centre and was the district's best-known freedom camping place. The council introduced paid overnight parking at the two car parks where it used to encourage campers, so a night there now means paying, and the council has been asking the public what kind of camping it wants around the bay. Its Caroline Bay policy has long limited self-contained overnight parking to the car park beside the roller skating rink, and said tents and caravans need the council's approval.",
+        "Because that policy and the signs can change, read the sign at the car park and the council's Caroline Bay page before you settle in. The holiday park on the bay is the secure way to stay beside the beach in summer, and it books out around Christmas and for the Caroline Bay Carnival.",
+      ], ["Overnight parking is paid", "Tents and caravans need approval", "Holiday park books out at Christmas"]),
+      s("Other places around Timaru", [
+        "Rankers and similar apps list overnight campervan spots around the district, such as O'Neills Reserve, but these are community listings and not council ones, with limits like three nights and an arrival after 4pm that only the sign confirms. Treat them as leads and check the sign.",
+        "A different rule applies to the Mackenzie Country inland, where councils such as Waitaki and Mackenzie District have their own bylaws, covered in the guides to freedom camping in Waitaki and Mackenzie.",
+      ], ["Community listings are leads, not rules", "Check the sign on arrival", "Mackenzie and Waitaki have their own bylaws"]),
+      s("Fines", [
+        "Officers who are warranted under the Act can issue the national infringement fees: $400 for freedom camping in a place where it is prohibited, $400 for using a vehicle that is not self-contained where it must be, $200 for not displaying the warrant card and $800 for damaging the area or leaving waste, under the Freedom Camping (Penalties for Infringement Offences) Regulations 2023.",
+        "A certified self-contained vehicle needs the green warrant since 7 June 2026, which the guide to the self-contained campervan warrant explains. A fine goes to the registered owner of the vehicle, which for a rental is usually the hire company.",
+      ], ["$400 for most breaches", "$800 for waste or damage", "Green warrant since 7 June 2026"]),
+      s("DOC land and the holiday park", [
+        "Conservation land is inland, in the foothills around Geraldine and Peel Forest. KiwiCamping's DOC data (11 August 2026) lists 22 DOC campsites in Canterbury, 6 of them free and 14 bookable through DOC, with Peel Forest Campground the largest with room for 81. DOC's freedom camping notices around Geraldine are DOC's own rules, separate from the council's.",
+        "The guide to holiday parks in New Zealand explains how to book them, and the Christchurch to Tekapo and Aoraki road trip shows where Timaru fits on the inland route.",
+      ], ["22 DOC campsites in Canterbury", "Peel Forest is the largest", "Holiday park for the bay"]),
+      s("Using KiwiCamping around Timaru", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and dump stations, with filters for campervan access. It does not hold the council's overnight parking, so use the council page and the sign for the bay.",
+        "Add Timaru to a trip between Christchurch and Dunedin, or on the way to Tekapo, with its date and a holiday park as the fallback, and read the distance on each leg. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Council page and sign decide", "Save a holiday park as the fallback", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp in Timaru?", "Timaru District has no bylaw, so the national rules apply and the council enforces them. Caroline Bay now charges for overnight parking, so treat signs as binding and keep a holiday park as the fallback."],
+      ["Is overnight parking at Caroline Bay free?", "No. The council introduced paid overnight parking at the two car parks where camping was once encouraged, so check the sign and the council's page for the current charge."],
+    ],
+    sources: [
+      { label: "Timaru District Council: Freedom camping public survey 2025", url: "https://www.timaru.govt.nz/tell-us/past-consultations/freedom-camping-bylaw-public-survey" },
+      { label: "Timaru District Council: Caroline Bay Policy", url: "https://timaru.govt.nz/council/publications/policies/caroline-bay-policy" },
+      { label: "Freedom Camping Act 2011", url: "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];
