@@ -2239,6 +2239,20 @@
       }
     ]
   },
+  "/images/articles/lakeside-camping-south-island.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/lakeside-camping-south-island-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/lakeside-camping-south-island.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/left-side-driving-new-zealand.webp": {
     "width": 1600,
     "height": 900,
