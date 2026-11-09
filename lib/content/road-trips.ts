@@ -404,4 +404,58 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-hanmer-springs-drive-guide",
+    title: "Christchurch to Hanmer Springs Road Trip: Route, Stops and Camping",
+    description: "Christchurch to Hanmer Springs by road: about 130 km and 1.5 to 2 hours via Waipara and Culverden, with thermal pools, forest walks, winter notes and where to camp.",
+    category: "Road trips",
+    region: "North Canterbury",
+    places: ["Christchurch", "Waipara", "Culverden", "Hanmer Springs"],
+    imageAlt: "Autumn trees beside a quiet street in the alpine village of Hanmer Springs with mountains behind",
+    related: ["christchurch-to-kaikoura-drive-guide", "arthurs-pass-camping-route", "picton-kaikoura-christchurch-route", "winter-driving-new-zealand-campervan", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "freedom-camping/north-canterbury", "huts/canterbury"],
+    intro:
+      "Christchurch to Hanmer Springs is about 130 km and takes 1.5 to 2 hours, which makes it the easiest alpine escape from the city and a very good weekend. The road runs north on State Highway 1 to Waipara, then inland on State Highway 7 and State Highway 7A to a village known for its thermal pools, forest walks and quiet streets. Below are the route, the stops, fuel, what to do and where to camp, with the winter notes that matter if you drive in the cold months.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Leave Christchurch on State Highway 1 north through Amberley to Waipara, then turn inland onto State Highway 7 across the plains to Culverden, where State Highway 7A branches off to Hanmer Springs. It is about 130 km and a little under 2 hours. The road is sealed and easy, with long straights and a few slower sections through the hills.",
+        "From Hanmer you can carry on across Jacks Pass to the Hurunui and Lewis Pass, a good choice if you are heading to the West Coast without going through Arthur's Pass. The pass roads can have snow or ice in winter, and chains may be required, so check the NZTA Journey Planner and read the winter driving guide before you set off.",
+      ], ["About 130 km and 1.5 to 2 hours", "Waipara then State Highway 7", "Snow and ice possible on the passes in winter"]),
+      sec("Stops on the way", [
+        "Waipara has cellar doors and cafes, and Amberley has a bakery and shops. Culverden is a quiet farming town with fuel and a few places to eat. The Waipara wine region is a good detour if you want to taste on the way, with a designated driver, and the Hurunui district has some pleasant back roads.",
+        "The drive itself is the attraction, with the Southern Alps coming into view as you head inland and the Hanmer Basin opening up at the last bend. Allow a quick break at Waikari or Culverden to stretch your legs.",
+      ], ["Waipara for wine and lunch", "Culverden for fuel", "Alps appear as you head inland"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Amberley", "About 45 km, 40 min", "Bakery and fuel"],
+          ["Waipara", "About 65 km, 55 min", "Wine and lunch"],
+          ["Culverden", "About 100 km, 1 hr 15", "Fuel and the turn-off"],
+          ["Hanmer Springs", "About 130 km, 1 hr 45", "Thermal pools and forest walks"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Christchurch, Amberley or Culverden. Hanmer Springs has a petrol station, a small supermarket and plenty of cafes and restaurants, though prices are higher than in the city. There are public toilets in Hanmer, Culverden and at the larger rest areas on the highway.",
+        "There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+      ], ["Fuel in Amberley or Culverden", "Hanmer prices are higher", "EV chargers in the larger towns"]),
+      sec("What to do in Hanmer Springs", [
+        "The thermal pools are the headline, with hot pools of different temperatures, sulphur pools and a spa, and they are open every day. Go early or after dinner to avoid the busiest times, and book ahead on weekends and school holidays.",
+        "Beyond the pools, the forest has short walks and mountain bike trails for every level, and the Conical Hill walk gives a view over the village and the basin in about an hour. In winter the nearby ski areas are a day trip, and in summer the Waiau River has rafting and jet boating nearby.",
+      ], ["Book the pools on weekends", "Conical Hill is about an hour", "Forest walks and bike trails for every level"]),
+      sec("Where to camp", [
+        "Holiday parks in Hanmer Springs give you power, showers and a kitchen and are within walking distance of the pools, and they book out in summer, at Easter and on winter weekends. The holiday parks guide explains what to look for. DOC runs campsites in the surrounding hills and towards Lewis Pass, from simple riverside sites to larger ones with toilets.",
+        "Freedom camping in Hanmer Springs itself is restricted, and the nearby reserves and roadsides are mostly closed to overnight stays. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you head up to Lewis Pass, the DOC sites there are a more reliable bet.",
+      ], ["Book holiday parks in summer and winter weekends", "DOC campsites towards Lewis Pass", "Check the council's pages on the day"]),
+      sec("Planning Christchurch to Hanmer Springs in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Hanmer Springs and Lewis Pass. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list, which helps when snow is possible. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Visit Hanmer Springs", url: "https://www.hanmersprings.co.nz/" },
+      { label: "Hurunui District: visit Hurunui", url: "https://www.visithurunui.co.nz/" },
+      { label: "DOC: Canterbury places to go", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
