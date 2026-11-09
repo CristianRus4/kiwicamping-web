@@ -72,7 +72,7 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `new-zealand-grocery-prices-2026` | New Zealand Coromandel.jpg | MSeses | CC BY-SA 3.0 | [Source](https://commons.wikimedia.org/wiki/File:New_Zealand_Coromandel.jpg) |
 | `eating-out-new-zealand-prices-2026` | Coffee shop 1 - Wellington, New Zealand.jpg | Daderot | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Coffee_shop_1_-_Wellington,_New_Zealand.jpg) |
 | `beer-wine-coffee-prices-new-zealand` | Cloudy Bay Cellar Door in Marlborough (4671508402).jpg | edwin.11 | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Cloudy_Bay_Cellar_Door_in_Marlborough_(4671508402).jpg) |
-| `accommodation-costs-new-zealand-2026` | Reefton Lantern Court Motel.JPG | Mattinbgn (talk · contribs) | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Lantern_Court_Motel.JPG) |
+| `accommodation-costs-new-zealand-2026` | Reefton Lantern Court Motel.JPG | Mattinbgn | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Reefton_Lantern_Court_Motel.JPG) |
 | `camping-fees-new-zealand-2026` | Summer campers at Mount Manganui.jpg | Abaconda Management Group | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Summer_campers_at_Mount_Manganui.jpg) |
 | `new-zealand-road-trip-fuel-cost-2026` | Springs Junction Petrol Station.jpg | MattyJ44 | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Springs_Junction_Petrol_Station.jpg) |
 | `public-transport-costs-new-zealand-2026` | Busrailpanmure.jpg | Nankai | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Busrailpanmure.jpg) |
@@ -160,3 +160,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `road-user-charges-campervan-new-zealand` | Gas station, Waikari, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Gas_station,_Waikari,_Canterbury,_New_Zealand.jpg) |
 | `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |
 | `wikicamps-not-working-new-zealand` | NZ Camper Vans.jpg | brett Vachon | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:NZ_Camper_Vans.jpg) |
+| `doc-campsite-pass-new-zealand` | Momorangi Bay Camp.JPG | Mattinbgn | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Momorangi_Bay_Camp.JPG) |

@@ -16,7 +16,7 @@ export const costsWhvArticlesB: Article[] = [
     region: "New Zealand",
     places: ["DOC campsites","Holiday parks","Freedom camping","Cook Strait ferry"],
     imageAlt: "Neat rows of grapevines in the Wairau Valley, Marlborough, with dry hills in the distance",
-    related: ["campervan-hire-cost-new-zealand-2026","camping-fees-new-zealand-2026","new-zealand-road-trip-fuel-cost-2026","new-zealand-travel-cost-2026","working-holiday-apps-new-zealand"],
+    related: ["doc-campsite-pass-new-zealand","campervan-hire-cost-new-zealand-2026","camping-fees-new-zealand-2026","new-zealand-road-trip-fuel-cost-2026","new-zealand-travel-cost-2026","working-holiday-apps-new-zealand"],
     intro:
       "Camping and fuel for a week on a New Zealand road trip cost about $318 if you use free DOC campsites and freedom camp, and up to about $878 a week if every night is a powered holiday park site, at 800 km a week in a petrol van. That excludes food, the van itself and the visa. Immigration New Zealand asks working holiday applicants for NZ$4,200 in funds from most countries and lists a visa cost from NZ$770, and the adult minimum wage is $23.95 an hour from 1 April 2026. All figures are in New Zealand dollars, were read on 21 October 2026 and show their arithmetic so you can change the assumptions.",
     sections: [
