@@ -281,4 +281,50 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
     ],
   }),
+
+  a({
+    slug: "camping-in-wellington",
+    title: "Camping in Wellington: Holiday Parks, Regional Park Campgrounds and the Ferry Nights",
+    description: "Where to camp around Wellington: the Hutt Valley, Porirua and Kāpiti holiday parks, Kaitoke Regional Park, DOC's Catchpool Valley campsite and how to plan the night before or after the Cook Strait ferry.",
+    category: "Camping guides",
+    region: "Wellington",
+    places: ["Wellington", "Lower Hutt", "Upper Hutt", "Porirua", "Paekākāriki", "Catchpool Valley"],
+    imageAlt: "Wellington Harbour with the city and its hills around the water",
+    related: ["cook-strait-ferry-campervan-guide", "auckland-to-wellington-drive-guide", "wellington-to-napier-drive-guide", "holiday-parks-new-zealand-guide", "freedom-camping-north-island"],
+    hubs: ["camping/wellington-kapiti", "freedom-camping/wellington"],
+    intro:
+      "Wellington has no campground in the city itself, so camping here means holiday parks in the Hutt Valley, Porirua and Kāpiti, a regional park campground at Kaitoke, and one DOC campsite at Catchpool Valley in the Remutaka Forest Park. Most visitors sleep one night here, either before or after the Cook Strait ferry, so the plan is to book a park within an hour of the terminal and to leave early for the crossing.",
+    sections: [
+      s("The ferry nights", [
+        "Wellington is the North Island end of the Cook Strait ferry, and the nights before and after a crossing are where most campers need a bed. Ferry check-in times and sailing schedules shape the night, so pick a park that lets you leave in time, and read the guide to the Cook Strait ferry for what to expect at the terminal. Early and late sailings often mean a night within 30 minutes of the port.",
+        "Freedom camping in Lower Hutt and the city is not allowed or tightly restricted, and DOC's three notices in the district all ban camping, so do not plan on parking by the waterfront. A holiday park is the simple answer, and the guide to freedom camping in the North Island explains how the other councils compare.",
+      ], ["Pick a park near the terminal", "Check-in times shape the night", "No camping on the waterfront"]),
+      s("Holiday parks around the city", [
+        "Wellington TOP 10 Holiday Park is at Hutt Park Road in Lower Hutt, about 15 km from the centre, with powered and unpowered sites and cabins. Kiwi Holiday Park in Upper Hutt sits on bush and farmland, Aotea Lodge is in Porirua, and Paekākāriki Holiday Park is on the Kāpiti Coast, each with sites for campervans. They are between 20 minutes and an hour from the ferry, so choose by direction of travel.",
+        "They book out in summer, on long weekends and over the school holidays, which in 2027 run from 10 to 26 April, 3 to 18 July and 25 September to 10 October. The guide to holiday parks in New Zealand explains site types and booking.",
+      ], ["Lower Hutt: 15 km from the centre", "Upper Hutt, Porirua and Paekākāriki", "Book for long weekends"]),
+      s("Regional parks and DOC", [
+        "Kaitoke Regional Park near Upper Hutt, about 45 minutes from the city, has a campground in a forested valley, run by Greater Wellington. DOC's Catchpool Valley Campsite in the Remutaka Forest Park, entered from Coast Road south of Wainuiomata, has a kitchen and showers and is a good base for the Ōrongorongo Valley walks, but it is closed in winter, from May to Labour weekend.",
+        "KiwiCamping's DOC data (11 August 2026) lists 3 DOC campsites in Wellington and Kāpiti, with Catchpool Valley the largest at 76 sites and an adult nightly rate listed at $10. The region also has 24 DOC huts, so it suits a walking weekend as much as a ferry night.",
+      ], ["Kaitoke: regional park campground", "Catchpool Valley: closed May to Labour weekend", "24 DOC huts in the region"]),
+      s("When to book", [
+        "Wellington's camping is busiest in summer, on the long weekends of Waitangi Day, Easter and Labour Day, and around the ferry's peak days, when the parks fill with campervans heading to and from the South Island. Matariki on Friday 25 June 2027 also makes a long weekend. The Auckland to Wellington drive guide covers the road in from the north, and the Wellington to Napier drive guide covers the road up the east coast.",
+        "Wind is the thing Wellington is known for, so check the forecast and secure awnings and loose gear, and allow for delayed crossings in a southerly or a northerly gale.",
+      ], ["Long weekends fill the parks", "Matariki: Friday 25 June 2027", "Check the wind and the ferry status"]),
+      s("Using KiwiCamping around Wellington", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a park near the terminal for the night before the ferry and another on the far side, add them to a trip with dates, and read the distance either side.",
+        "The trip shows a forecast at each stop. Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a park on each side of the strait", "Check the forecast for wind", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where can I camp near Wellington?", "At holiday parks in Lower Hutt, Upper Hutt, Porirua and Paekākāriki, at Kaitoke Regional Park, or at DOC's Catchpool Valley campsite, which closes from May to Labour weekend."],
+      ["Where should I stay the night before the Wellington ferry?", "A holiday park within 30 to 60 minutes of the terminal, booked ahead. Freedom camping on the waterfront is not allowed."],
+    ],
+    sources: [
+      { label: "Wellington TOP 10 Holiday Park", url: "https://top10.co.nz/park/wellington-top-10-holiday-park" },
+      { label: "Hutt City Council: Camping rules", url: "https://huttcity.govt.nz/environment-and-sustainability/rivers-and-beaches/camping-rules" },
+      { label: "DOC: Catchpool Valley campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/things-to-do/campsites/catchpool-valley-campsite" },
+      { label: "DOC: campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/" },
+    ],
+  }),
 ];
