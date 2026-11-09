@@ -18,6 +18,8 @@ import { localeCodes, type LocaleCode } from "./translations/index";
  *   check skips those strings.
  * - `caseEndings`: the language adds a case ending to a brand name ("KiwiCampingin", "iPhonu"), so
  *   the content audit accepts one when it checks that every brand survived translation.
+ * - `genitive`: the language adds a possessive -s straight to a brand name ("KiwiCampings"), which
+ *   the content audit also accepts.
  * - `status`: `live` locales are built, exported, listed in the sitemap, hreflang and language
  *   switcher. `draft` locales are none of those; set LOCALES_PREVIEW=1 to render them in dev.
  *
@@ -39,6 +41,7 @@ export type LocaleEntry = {
   status: LocaleStatus;
   reviews: boolean;
   caseEndings?: boolean;
+  genitive?: boolean;
 };
 
 export { localeCodes, type LocaleCode };

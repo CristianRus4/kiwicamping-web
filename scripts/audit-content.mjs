@@ -104,10 +104,10 @@ const translatedAmounts = (text) => [
 
 const brands = ["KiwiCamping", "App Store", "Apple", "iPhone", "iCloud", "Google", "CamperMate", "Rankers", "WikiCamps", "MetService"];
 // As the translation engine counts protected terms: Latin, Cyrillic and Greek letters and digits
-// end a word (CJK attaches straight to a Latin name), German, Dutch and the Scandinavian languages add a genitive -s, and
+// end a word (CJK attaches straight to a Latin name), a locale with `genitive` in the registry (German, Dutch, Danish, Norwegian, Swedish) adds a genitive -s, and
 // a locale with `caseEndings` in the registry adds a case ending ("KiwiCampingin", "iPhonella", "iPhonu").
 const WORD = "\\p{Script=Latin}\\p{Script=Cyrillic}\\p{Script=Greek}\\p{N}";
-const genitive = new Set(["de", "nl", "da", "nb", "sv"]);
+const genitive = new Set(locales.filter((entry) => entry.genitive).map((entry) => entry.code));
 const inflected = new Set(locales.filter((entry) => entry.caseEndings).map((entry) => entry.code));
 const brandPattern = (brand, locale) => {
   const name = brand.replace(/[.$]/g, "\\$&");
