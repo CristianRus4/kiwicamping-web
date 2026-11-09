@@ -350,4 +350,58 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "christchurch-to-kaikoura-drive-guide",
+    title: "Christchurch to Kaikōura Road Trip: Route, Stops and Camping",
+    description: "Christchurch to Kaikōura by road: about 180 km and 2.5 to 3 hours on State Highway 1 through Waipara and the coast, with whales, seals, fuel and where to camp.",
+    category: "Road trips",
+    region: "Canterbury",
+    places: ["Christchurch", "Waipara", "Cheviot", "Kaikōura"],
+    imageAlt: "The Kaikōura coast, with a rocky shoreline and the Seaward Kaikōura Range rising behind",
+    related: ["picton-kaikoura-christchurch-route", "christchurch-to-hanmer-springs-drive-guide", "south-island-two-week-road-trip", "freedom-camping-christchurch-2026", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner"],
+    hubs: ["camping/canterbury", "freedom-camping/north-canterbury", "camping/marlborough"],
+    intro:
+      "Christchurch to Kaikōura is about 180 km and takes 2.5 to 3 hours on State Highway 1, which makes it an easy overnight trip and the first leg for anyone heading on to Picton and the ferry. The road runs north through the Waipara wine region, over rolling farmland, then drops to the coast for the last stretch with the sea on one side and the mountains on the other. Below are the route, the stops, fuel, what to do in Kaikōura and where to camp. If you are travelling the other way, the Picton to Christchurch guide picks up from the north.",
+    sections: [
+      sec("The route and how long it takes", [
+        "Take State Highway 1 north out of Christchurch through Amberley and Waipara, then past Cheviot and Parnassus to the coast at Oaro, and on to Kaikōura. It is about 180 km and 2.5 to 3 hours with no stops. The last 50 km hugs the coastline, with narrow sections, tunnels and bridges that were rebuilt after the 2016 earthquake.",
+        "Give yourself extra time for the coast. Traffic can bunch up behind trucks, and there are few places to overtake. Roadworks and slips can add delays, and the highway is closed occasionally in severe weather, so check the NZTA Journey Planner before you leave.",
+      ], ["About 180 km and 2.5 to 3 hours", "The coast section is slow and narrow", "Check closures in bad weather"]),
+      sec("Stops on the way", [
+        "Waipara is the first stop, with cellar doors, cafes and the Waipara Valley vineyards a short drive off the highway. Amberley has a bakery and shops, and Cheviot is a small farming town with a pub and a petrol station. In the last stretch, seal colonies lie on the rocks beside the road, and there are pull-offs where you can watch them safely from a distance.",
+        "At Kaikōura itself, the seal colony at Ōhau Point, the Peninsula Walkway and the lookout at the end of Fyffe Quay are all short, free stops. Crayfish, the town's namesake, is sold from roadside caravans on the coast, and it is the thing to eat. The Picton to Christchurch guide has more on the northern end of the coast.",
+      ], ["Waipara for wine and lunch", "Pull off to watch the seals", "Crayfish from the roadside caravans"], {
+        caption: "Approximate distances and driving times from central Christchurch, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Christchurch", "What it is good for"],
+        rows: [
+          ["Amberley", "About 45 km, 40 min", "Bakery and fuel"],
+          ["Waipara", "About 65 km, 55 min", "Wine and lunch"],
+          ["Cheviot", "About 110 km, 1 hr 20", "Fuel and a quick break"],
+          ["Kaikōura", "About 180 km, 2 hr 40", "Whales, seals and the peninsula"],
+        ],
+      }),
+      sec("Fuel, food and toilets", [
+        "Fill up in Christchurch, Amberley or Cheviot. Kaikōura has fuel, supermarkets and plenty of cafes and restaurants, so you can restock when you arrive. There are public toilets at Waipara, Cheviot, the coastal lookouts and in Kaikōura.",
+        "Cell coverage is patchy on the coast, so download your maps before you set out. There are EV chargers in the larger towns, and the NZTA Journey Planner shows them on a map. The resupply guide covers shopping for a campervan trip.",
+      ], ["Fuel in Amberley or Cheviot", "Restock in Kaikōura", "Download maps before the coast"]),
+      sec("What to do in Kaikōura", [
+        "Whale watching is the headline, and the boat trips run all year, depending on the sea conditions. Swimming with dolphins and seals is run by separate operators, and both book out in summer, so reserve before you arrive. If you prefer to stay dry, the Peninsula Walkway loops around the headland and passes a colony of fur seals, and the walk takes a few hours.",
+        "On a clear day the views of the Seaward Kaikōura Range, with snow into spring, are worth a drive to a lookout. The seals at Ōhau Point and the stream where pups gather are an easy stop on the way north, and the crayfish stalls are open most days. Keep a safe distance from the seals, because they can be aggressive when they feel cornered.",
+      ], ["Book boat trips before you arrive", "Peninsula Walkway for a dry day", "Keep your distance from the seals"]),
+      sec("Where to camp", [
+        "Holiday parks in Kaikōura give you power, showers and a kitchen and are the easy choice, and they book out in summer and at Easter. The holiday parks guide explains what to look for. DOC runs a few campsites on the coast and in the hills behind, from simple sites to ones with toilets and water.",
+        "Freedom camping around Kaikōura is restricted, with a handful of areas for certified self-contained vehicles and most of the waterfront closed. The North Canterbury hub and the freedom camping rules guide explain the picture, and the council's own pages are the final word on the day. If you are carrying on to Picton, the Marlborough hub lists the next set of sites.",
+      ], ["Book holiday parks in summer", "DOC campsites on the coast", "Check the council's pages on the day"]),
+      sec("Planning Christchurch to Kaikōura in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, including the ones around Kaikōura. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "Destination Kaikōura: plan your trip", url: "https://www.kaikoura.co.nz/" },
+      { label: "Whale Watch Kaikōura", url: "https://www.whalewatch.co.nz/" },
+      { label: "DOC: Kaikōura area", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];

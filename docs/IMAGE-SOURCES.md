@@ -165,3 +165,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `auckland-to-napier-drive-guide` | Napier, Part II- Art Deco - Napier9507.jpg | lumoplank | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Napier,_Part_II-_Art_Deco_-_Napier9507.jpg) |
 | `auckland-to-new-plymouth-drive-guide` | Mount Taranaki or Mount Egmont, New Zealand.jpg | Ulrich Lange, Bochum, Germany | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Taranaki_or_Mount_Egmont,_New_Zealand.jpg) |
 | `christchurch-to-franz-josef-drive-guide` | Franz Josef Glacier 25.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Franz_Josef_Glacier_25.jpg) |
+| `christchurch-to-kaikoura-drive-guide` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
