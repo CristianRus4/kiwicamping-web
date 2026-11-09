@@ -567,4 +567,62 @@ export const campingBaseArticles: Article[] = [
       { label: "DOC: Dogs on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/dogs/" },
     ],
   }),
+
+  a({
+    slug: "camping-bases-best-day-walks-new-zealand",
+    title: "Camping Bases for New Zealand's Best Day Walks",
+    description: "Where to camp for the best day walks in New Zealand: Hooker Valley, the Tongariro Alpine Crossing, Abel Tasman, Roys Peak and Rob Roy, Milford and Kepler day walks, Cathedral Cove and Arthur's Pass, with the campsites, towns and booking tips.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Aoraki Mount Cook", "Tongariro", "Abel Tasman", "Wānaka", "Te Anau", "Hahei", "Arthur's Pass"],
+    imageAlt: "The Hooker Valley Track with a shelter in front of the Aoraki Mount Cook range",
+    related: ["camping-in-tekapo", "camping-in-queenstown", "walks-closed-for-lambing-new-zealand", "tongariro-northern-circuit-camping-2026-27", "scenic-campsites-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "The best day walks in New Zealand are scattered across the country, and almost all of them have an obvious base: a DOC campsite, a holiday park in the nearest village, or a town twenty minutes away. Choosing the base well means a short drive to the trailhead at dawn, a hot shower afterwards and a second walk if the weather turns. This guide pairs seven classic day walks with where to sleep.",
+    sections: [
+      s("How to pick a base", [
+        "A good base is close enough to start early, because the car park at the trailhead fills by mid-morning on a fine summer day, and has a plan B nearby for a wet day. For most of these walks that means a campsite or holiday park within 30 minutes. The camping guides for Tekapo, Queenstown and Christchurch cover the towns, and the winter camping guide covers the cold-season walks.",
+        "Check the weather the night before, because the high walks need clear conditions and the lower ones suit a poorer day. The guide to walks closed for lambing covers the spring closures, since some farm-crossing tracks are shut from August to November.",
+      ], ["Start early, trailhead parking fills", "Have a plan B for wet weather", "Check lambing closures in spring"]),
+      s("Hooker Valley, Aoraki Mount Cook", [
+        "The Hooker Valley Track is a flat walk to a glacier lake with the mountain behind it, and the most popular short walk in the national park. Sleep at DOC's White Horse Hill Campground in Aoraki Mount Cook Village, which is a few minutes from the start and books out in summer, or in Twizel or Tekapo, each under an hour away.",
+        "Mountain weather changes fast, wind can be strong on the swing bridges, and the village has few shops, so stock up in Twizel. The camping guides for Tekapo and Twizel cover the choices on the way.",
+      ], ["White Horse Hill: a few minutes away", "Twizel or Tekapo as backup", "Buy food before the village"]),
+      s("Tongariro Alpine Crossing", [
+        "The crossing is a long day walk through volcanic country and needs a shuttle, since it starts and finishes in different places. Bases are the holiday parks and motels at National Park Village, Whakapapa and Ohakune, DOC's campsites inside Tongariro National Park, or Taupō and Tūrangi about an hour north. KiwiCamping's DOC data (11 August 2026) lists 5 DOC campsites in Tongariro National Park.",
+        "The weather decides the day, so keep a spare day, and carry warm clothes, water and sun protection. The guide to camping in Taupō covers the northern base, and the volcanic safety guide covers the hazards.",
+      ], ["5 DOC campsites in the national park", "Shuttle needed", "Keep a spare day for weather"]),
+      s("Abel Tasman National Park", [
+        "The coastal track's day walks and kayaking start from Marahau and Kaiteriteri, and the holiday parks and campgrounds around them fill from Christmas to the end of January, so book early. Nelson and Motueka are the bigger towns, 45 to 60 minutes away, with holiday parks and shops.",
+        "Water taxis let you walk one stretch and be collected, which is how most visitors do a day. The Abel Tasman Coast Track campsites guide covers the overnight option, which needs a DOC booking.",
+      ], ["Marahau and Kaiteriteri bases", "Book from Christmas to January", "Water taxi to shorten the day"]),
+      s("Roys Peak and Rob Roy Glacier, Wānaka", [
+        "Wānaka is the base for the Roys Peak Track, a steep climb with a famous view that closes from 1 October to 10 November for lambing, and for the Rob Roy Glacier walk at the head of the Matukituki valley. Wānaka has holiday parks and lakeside campgrounds, and the guide to freedom camping in Wānaka covers the council's rules.",
+        "Roys Peak is long and exposed, so start at dawn in summer and carry water, and in the lambing closure use the nearby lakeside tracks or the Rob Roy walk instead. The valley road to Rob Roy is gravel with fords, so check the conditions.",
+      ], ["Roys Peak closes 1 October to 10 November", "Rob Roy is the alternative", "Matukituki road has fords"]),
+      s("Milford and Kepler day walks, Te Anau", [
+        "Te Anau is the base for the Milford Road's short walks, and for day sections of the Kepler Track from the lake. Camping is at the holiday parks in town or at DOC's Fiordland campsites, since freedom camping is not allowed, as the guide to freedom camping in Te Anau explains. KiwiCamping's DOC data (11 August 2026) lists 13 DOC campsites in Fiordland.",
+        "The Milford Road can close for snow and avalanche risk, so check the status before driving. The Fiordland road trip guide covers the loop and the Kepler Track guide covers the Great Walk huts and campsites.",
+      ], ["Te Anau holiday parks", "13 DOC campsites in Fiordland", "Check the Milford Road status"]),
+      s("Cathedral Cove and Arthur's Pass", [
+        "On the Coromandel, Hāhei is the base for the walk to Cathedral Cove, and the holiday parks there fill months ahead for Christmas and New Year. Access to the cove has changed after storm damage, so check DOC's current status. Whitianga is the larger base, 20 minutes away.",
+        "In the Southern Alps, Arthur's Pass village is the base for short walks to the Devil's Punchbowl and for the harder climbs, with DOC campsites around the national park, which KiwiCamping's DOC data (11 August 2026) counts as 4 within Arthur's Pass. The Arthur's Pass camping route covers the drive from Christchurch to the West Coast.",
+      ], ["Hāhei: book ahead", "Check Cathedral Cove status", "Arthur's Pass: 4 DOC campsites"]),
+      s("Using KiwiCamping to pick a base", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks with their facilities and bookable stays, and dump stations, with filters for campervan access. Save a base and a backup for each walk, add them to a trip with dates, and use the forecast at each stop to decide which walk to do on which day.",
+        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+      ], ["Save a base and a backup", "Use the forecast to order the walks", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Where should I camp for the Hooker Valley Track?", "DOC's White Horse Hill Campground in Aoraki Mount Cook Village, a few minutes from the start, or Twizel or Lake Tekapo under an hour away. The campground books out in summer."],
+      ["Where should I stay for the Tongariro Alpine Crossing?", "Holiday parks at National Park Village, Whakapapa or Ohakune, DOC campsites in the national park, or Taupō and Tūrangi about an hour north. Keep a spare day for weather."],
+    ],
+    sources: [
+      { label: "DOC: Hooker Valley Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/hooker-valley-track/" },
+      { label: "DOC: Tongariro Alpine Crossing", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/things-to-do/tracks/tongariro-alpine-crossing/" },
+      { label: "DOC: Abel Tasman National Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/" },
+      { label: "DOC: Roys Peak Track", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/wanaka-area/things-to-do/roys-peak-track/" },
+    ],
+  }),
 ];
