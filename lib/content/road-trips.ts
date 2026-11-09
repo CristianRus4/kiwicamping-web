@@ -677,4 +677,57 @@ export const roadTripArticles: Article[] = [
       { label: "DOC: campsites in New Zealand", url: "https://www.doc.govt.nz/campsites" },
     ],
   }),
+  a({
+    slug: "franz-josef-fox-glacier-camping",
+    title: "Camping at Franz Josef and Fox Glacier: Campsites, Rules and Tips",
+    description: "Where to camp at Franz Josef and Fox Glacier: holiday parks in both villages, DOC campsites at Gillespies Beach and Lake Mapourika, the freedom camping bans and the rain and sandfly notes.",
+    category: "Camping guides",
+    region: "West Coast",
+    places: ["Franz Josef", "Fox Glacier", "Gillespies Beach", "Lake Mapourika", "Lake Matheson", "Okarito"],
+    imageAlt: "The Southern Alps rising above the West Coast shoreline at Gillespies Beach in warm evening light",
+    related: ["christchurch-to-franz-josef-drive-guide", "west-coast-south-island-road-trip", "freedom-camping-westland-2026", "wanaka-haast-pass-route", "sandflies-new-zealand-camping", "new-zealand-severe-weather-camping"],
+    hubs: ["camping/west-coast", "freedom-camping/south-westland", "huts/west-coast"],
+    intro:
+      "Franz Josef and Fox Glacier are 25 km apart on State Highway 6 and have two ways to camp: holiday parks in both villages, and a couple of DOC campsites a short drive away at Gillespies Beach and Lake Mapourika. Freedom camping is banned at the glacier carparks and on the glacier access roads, so plan a proper site for each night. Below are the options, what to do from each base, and what to expect from the rain and the sandflies.",
+    sections: [
+      sec("Franz Josef and Fox Glacier: which to choose", [
+        "Franz Josef is the bigger village, with more cafes, shops and a hot pool complex, and it suits a stay of two nights with a helicopter flight or a guided walk. Fox Glacier is quieter, close to Lake Matheson and with the Gillespies Beach road starting from the village, and it suits a slower pace. The two are 25 minutes apart, so you can stay in one and visit the other.",
+        "If you are driving from Christchurch, Franz Josef comes first, and if you are coming over Haast Pass from Wānaka, Fox Glacier does. The Christchurch to Franz Josef drive guide and the Wānaka to Haast Pass guide cover the roads. Most people want a night at each end if they have the time.",
+      ], ["Franz Josef: more services", "Fox Glacier: quieter, near Lake Matheson", "25 minutes apart"]),
+      sec("Holiday parks in the villages", [
+        "Both villages have holiday parks with powered sites, showers, kitchens and a few with a hot tub, and they are the easy choice, especially when it rains. They fill in summer, at Easter and around school holidays, so book ahead for each night. The holiday parks guide explains what to look for.",
+        "In winter many parks keep a quieter schedule and the glaciers are often clear and cold, a good season for a visit. The weather can still close roads, so check the NZTA Journey Planner and read the severe weather guide if heavy rain is forecast.",
+      ], ["Book ahead in summer and at Easter", "Winter can be clear and quiet", "Check roads in heavy rain"]),
+      sec("DOC campsites near the glaciers", [
+        "DOC runs a campsite at Gillespies Beach, reached from Fox Glacier along Cook Flat Road, which is narrow and more than half gravel. It sits near a seal colony and the remains of a gold mining settlement, and DOC says sites are not held for anyone arriving without a booking, so book online before you drive out. The Otto/MacDonalds campsite is on State Highway 6 at the northern end of Lake Mapourika, about 15 km north of Franz Josef, with a lakeside beach popular for swimming.",
+        "Both are simpler than a holiday park, with basic facilities and no power, and they suit self-sufficient campers. Check the DOC page for the current fee and facilities, and bring plenty of repellent for the sandflies. If either is full, the next DOC campsites are an hour or more away.",
+      ], ["Gillespies Beach: book online first", "Lake Mapourika: lakeside swimming", "Basic facilities, no power"], {
+        caption: "Camping options near the glaciers. Check each operator or DOC page for the current rules and fees.",
+        head: ["Option", "Where", "Good for"],
+        rows: [
+          ["Holiday parks", "Franz Josef and Fox Glacier villages", "Power, showers, wet weather"],
+          ["Gillespies Beach DOC campsite", "Off Cook Flat Road from Fox Glacier", "Seals, beach and quiet"],
+          ["Otto/MacDonalds DOC campsite", "State Highway 6, Lake Mapourika", "Lake swimming and an easy stop"],
+        ],
+      }),
+      sec("Freedom camping at the glaciers", [
+        "DOC lists freedom camping as prohibited at the glacier access areas, including the Franz Josef Glacier road and carparks, the Fox Glacier visitor centre carpark, Okarito Recreation Reserve and Jetty Bay on Lake Mapourika. Westland District Council has its own rules and areas, and the penalties for camping in the wrong place are real.",
+        "The Westland freedom camping guide and the South Westland hub list the current picture, and the freedom camping rules guide explains what a certified self-contained vehicle can do. If in doubt, pick a holiday park or a DOC campsite and save yourself the risk of a fine.",
+      ], ["Glacier carparks and roads are banned", "Check Westland's current map", "A fine is not worth the risk"]),
+      sec("What to do and what to expect", [
+        "The main walks are the Franz Josef Glacier Valley and Fox Glacier Valley tracks, which lead to viewpoints, and Lake Matheson near Fox, which gives a reflection of the mountains on a still morning. DOC posts the track status, and the valleys close after heavy rain or slips. Guided ice trips and helicopter flights are run by operators and book up in summer.",
+        "The West Coast is one of the wettest parts of the country, and a spare day gives you a better chance of a clear view. The sandflies are fierce on still days, so carry repellent and cover up at dusk. The sandfly guide has more. Fuel and food are available in both villages but cost more than in the towns, so fill up in Hokitika or Haast if you can.",
+      ], ["Check DOC track status before you go", "Allow a spare day for weather", "Fill up before the villages"]),
+      sec("Planning your glacier stay in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks on the West Coast. Save the places that suit you, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Gillespies Beach campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/gillespies-beach/things-to-do/campsites/gillespies-beach-campsite/" },
+      { label: "DOC: Otto/MacDonalds campsite", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/things-to-do/campsites/otto-macdonalds-campsite/" },
+      { label: "DOC: conservation areas where freedom camping is prohibited or restricted", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/prohibited-conservation-areas/" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];
