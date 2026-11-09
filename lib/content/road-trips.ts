@@ -78,4 +78,58 @@ export const roadTripArticles: Article[] = [
       { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
     ],
   }),
+  a({
+    slug: "auckland-to-tauranga-drive-guide",
+    title: "Auckland to Tauranga Road Trip: Route, Stops and Where to Camp",
+    description: "Auckland to Tauranga and Mount Maunganui by road: about 210 km and 2.5 to 3 hours via Karangahake Gorge and Waihi, with the Kaimai alternative, stops and camping.",
+    category: "Road trips",
+    region: "Bay of Plenty",
+    places: ["Auckland", "Paeroa", "Karangahake Gorge", "Waihi", "Katikati", "Tauranga", "Mount Maunganui"],
+    imageAlt: "Mauao, Mount Maunganui, rising beside the beach and harbour entrance at Tauranga",
+    related: ["freedom-camping-tauranga-2026", "coromandel-rotorua-road-trip", "north-island-two-week-road-trip", "holiday-parks-new-zealand-guide", "new-zealand-driving-day-planner", "camping-fees-new-zealand-2026"],
+    hubs: ["camping/bay-of-plenty", "camping/coromandel", "huts/bay-of-plenty"],
+    intro:
+      "Auckland to Tauranga is about 210 km and takes roughly 2.5 to 3 hours, and there are two good ways to do it: the road through Paeroa, Karangahake Gorge and Waihi on State Highways 2 and 25, or the road over the Kaimai Range from Hamilton. The gorge route is the more interesting one and the one this guide follows. It sets out the route and timing, the stops, fuel, how to choose between the roads, and where to camp when you reach the Bay of Plenty.",
+    sections: [
+      sec("Two routes to Tauranga", [
+        "The usual route leaves State Highway 1 at Pokeno and follows State Highway 2 through Mangatawhiri and Paeroa, then runs through Karangahake Gorge to Waihi and on to Katikati and Tauranga. It is around 210 to 235 km depending on where in Auckland you start and takes 2.5 to 3 hours with no stops. The road is a mix of fast sections and winding gorge, and the gorge itself is narrow, so a big motorhome should allow extra time.",
+        "The other way is to stay on State Highway 1 to Hamilton, then take State Highway 29 over the Kaimai Range to Tauranga. It is a little longer and busier with trucks, but it is wider and faster, and it suits a night-time arrival or a tall vehicle better than the gorge. The Kaimai route is also the one to take if you are combining Tauranga with Hobbiton or Waitomo. Use a live map on the day, because crashes and roadworks on either road can swing the time by half an hour or more.",
+      ], ["Gorge route: Pokeno, Paeroa, Waihi, Katikati", "Kaimai route: Hamilton then State Highway 29", "Both take about 2.5 to 3 hours"]),
+      sec("Stops along the way", [
+        "Paeroa is the place to buy a coffee and see the giant bottle that marks the town. Karangahake Gorge is the highlight of the drive: an old gold-mining gorge with walking tracks, a long former rail tunnel and the Hauraki Rail Trail running through it, with the walkway managed by DOC. The tunnel loop takes about 45 minutes return, and it is a good break for the legs about 1.5 hours out of Auckland. Stay on the marked tracks, as old mine workings can be hidden by vegetation.",
+        "Waihi has a working gold mine you can see from the lookout in town and a surf beach 10 minutes away. Katikati, the next town, is known for its murals, and Mount Maunganui and Papamoa sit just past Tauranga's harbour bridge. Plan to leave the climb up Mauao, the mountain at the end of the Mount's main beach, for the next morning when the air is clear.",
+      ], ["Karangahake Gorge for the tunnel loop", "Waihi beach for a surf stop", "Climb Mauao at first light"], {
+        caption: "Approximate distances and driving times from central Auckland, without stops. Check live traffic before you leave.",
+        head: ["Stop", "From Auckland", "What it is good for"],
+        rows: [
+          ["Paeroa", "About 110 km, 1 hr 20", "Coffee, fuel, the bottle"],
+          ["Karangahake Gorge", "About 140 km, 1 hr 45", "Tunnel walks and the rail trail"],
+          ["Waihi", "About 155 km, 2 hr", "Surf beach and the mine lookout"],
+          ["Tauranga", "About 210 km, 2 hr 40", "Harbour and the Mount"],
+        ],
+      }),
+      sec("Fuel and food", [
+        "Fuel up before Pokeno or at Paeroa, as there is little between Paeroa and Waihi. Tauranga has everything and there are supermarkets at Katikati, Waihi and Paeroa if you need to restock. Fast chargers are at the larger towns on both routes, and the NZTA Journey Planner shows them on a map.",
+        "Katikati and Waihi have bakeries and cafes on the main street, and the gorge has a small cafe near the car park that is busy at weekends. The resupply guide explains how to shop for a campervan trip.",
+      ], ["Fuel at Pokeno or Paeroa", "Supermarkets at Paeroa, Waihi and Katikati", "Gorge cafe is crowded on weekends"]),
+      sec("Where to camp around Tauranga", [
+        "Tauranga and Mount Maunganui are among the busiest holiday destinations in the country in summer, and the holiday parks near the beach book out over Christmas and the January school holidays. In the shoulder season you can often find a site a few days out. The camping fees guide shows what holiday parks and DOC sites cost.",
+        "The councils around the Bay of Plenty have restrictive freedom camping rules, with most of the popular beachfront banned and a short list of designated sites for certified self-contained vehicles. The Tauranga freedom camping guide sets out the current rules. If you plan to camp in the Kaimai Range or on the Coromandel side, the Bay of Plenty and Coromandel hubs list the DOC campsites that are open.",
+      ], ["Book beach parks for summer", "Most beachfront freedom camping is banned", "Shoulder season is much easier"]),
+      sec("A weekend plan", [
+        "On Saturday leave Auckland early, walk the gorge, then reach Mount Maunganui for a late lunch and a swim. Climb Mauao for sunset and spend the night at a holiday park or a council site.",
+        "On Sunday take the road around the harbour to Papamoa or head inland to Rotorua if you have time. Return via Hamilton and the expressway for the quickest way home, or continue to the Coromandel if you want a loop, which the Coromandel to Rotorua route covers.",
+      ], ["Saturday: gorge walk, Mount swim", "Sunday: harbour road or Rotorua", "Return via Hamilton for speed"]),
+      sec("Planning Auckland to Tauranga in KiwiCamping", [
+        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the Bay of Plenty. Save the ones you like, put them in order as the stops of a trip, and the app shows the distance between each pair of stops and a forecast at every place on the list. It does not give turn-by-turn directions or live traffic, so use your maps app and the NZTA Journey Planner for the drive.",
+        "DOC bookings stay on DOC's own booking pages, and holiday parks take their own bookings.",
+      ], ["Save stops in driving order", "Forecast at each stop", "Use your maps app for directions"], undefined, true),
+    ],
+    sources: [
+      { label: "DOC: Karangahake Gorge", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/places/kaimai-mamaku-conservation-park/things-to-do/tracks/karangahake-gorge-historic-walkway/" },
+      { label: "Hauraki Rail Trail", url: "https://www.haurakirailtrail.co.nz/" },
+      { label: "Tauranga City Council: freedom camping", url: "https://www.tauranga.govt.nz/community/community-and-recreation/freedom-camping" },
+      { label: "NZTA Journey Planner (highway conditions and EV chargers)", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];

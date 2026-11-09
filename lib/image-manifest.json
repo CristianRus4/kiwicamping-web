@@ -83,6 +83,20 @@
       }
     ]
   },
+  "/images/articles/auckland-to-tauranga-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/auckland-to-tauranga-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/auckland-to-tauranga-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/auckland-to-wellington-drive-guide.webp": {
     "width": 1600,
     "height": 900,

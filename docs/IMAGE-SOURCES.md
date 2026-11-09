@@ -160,3 +160,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `road-user-charges-campervan-new-zealand` | Gas station, Waikari, Canterbury, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Gas_station,_Waikari,_Canterbury,_New_Zealand.jpg) |
 | `easy-doc-huts-families-first-timers` | Atiwhakatu Hut 0.jpg | Sarang | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Atiwhakatu_Hut_0.jpg) |
 | `auckland-to-taupo-drive-guide` | Lake Taupo 06.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taupo_06.jpg) |
+| `auckland-to-tauranga-drive-guide` | Mount Maunganui, Tauranga, New Zealand (Unsplash 2FFh56Q9jWs).jpg | Tim Marshall | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Mount_Maunganui,_Tauranga,_New_Zealand_(Unsplash_2FFh56Q9jWs).jpg) |
