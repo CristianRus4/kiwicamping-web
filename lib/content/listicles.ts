@@ -450,7 +450,7 @@ export const listicleArticles: Article[] = [
 
   a({
     slug: "wikicamps-not-working-new-zealand",
-    title: "WikiCamps Not Working in New Zealand? Try KiwiCamping, the Camping App With No Sign-In (2026)",
+    title: "WikiCamps Not Working in New Zealand? Here's What You Can Do (2026)",
     description: "WikiCamps New Zealand asking you to sign in, forcing an update or playing up since the new version? Why travellers switch to KiwiCamping and how to move your trip over.",
     category: "App guides",
     region: "New Zealand",
