@@ -24121,6 +24121,97 @@
       ],
       "priceTable": null
     },
+    "freedom-camping-gisborne": {
+      "title": "Freedom Camping in Gisborne and Along State Highway 35",
+      "description": "Freedom camping in Gisborne and on the East Cape: Kaiti Beach's painted bays and three-night limit, the banned Waikanae Beach, DOC campsites such as Anaura Bay, and the holiday parks along State Highway 35.",
+      "region": "East Coast",
+      "imageAlt": "Breakers rolling onto a dark sand beach with white cliffs on the headland beyond",
+      "intro": "Gisborne has one headline freedom camping place, Kaiti Beach, where certified self-contained vehicles park inside painted blue lines for up to three nights, and the council bans camping at Waikanae Beach and across most of the town. Beyond the city, State Highway 35 around the East Cape runs through country where the camping is DOC's and the holiday parks', not the council's. Plan Gisborne as the last full-service stop, and keep the East Cape for its campsites.",
+      "sections": [
+        {
+          "heading": "What Gisborne District Council allows",
+          "body": [
+            "The council lets people camp in restricted camping areas only, and its page says the vehicle must be <a data-guide=\"self-contained-campervan-green-warrant\">certified self-contained</a> to stay at them. Camping in a vehicle that is not certified is one of the listed breaches, along with overstaying and damaging the environment. Since 7 June 2026 the warrant has to be the green one, which the guide to the self-contained campervan warrant explains.",
+            "The <a data-guide=\"camping-rules-local-councils-new-zealand\">bylaw</a> has been reviewed several times since 2021 after complaints from residents about the beach sites, so read the council's page for the current list of areas, the season and the limits. Third-party listings quote different seasons, and the council's page is the only one to trust."
+          ],
+          "tips": [
+            "Restricted areas only",
+            "Certified self-contained required",
+            "Council page is the authority"
+          ]
+        },
+        {
+          "heading": "Kaiti Beach and the town",
+          "body": [
+            "Kaiti Beach is the council's named site: <a data-guide=\"self-contained-campervan-green-warrant\">certified self-contained</a> vehicles only, parked within the painted blue lines, with a three-night maximum. It is a short drive from the city centre and the harbour, looking out at Young Nick's Head, and it fills on summer evenings. Park inside the lines, since a van that overhangs one is the easiest ticket there is.",
+            "Waikanae Beach <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> on Grey Street is listed as a prohibited area under the bylaw's first schedule, and so are most of the beachfront and the city's other car parks. Treat any place not on the council's list as closed."
+          ],
+          "tips": [
+            "Kaiti Beach: inside the blue lines",
+            "Three nights at most",
+            "Waikanae Beach: prohibited"
+          ]
+        },
+        {
+          "heading": "Fines",
+          "body": [
+            "A breach costs $400 for camping where it is prohibited or restricted, $400 for staying in a vehicle that is not self-contained where it must be, $200 for no warrant card on display and $800 for damage or waste, under the <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> (Penalties for Infringement Offences) Regulations 2023. The council employs compliance staff over summer, and a hire company charges the ticket to the renter.",
+            "The fallback is a <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>, and Gisborne has several in town and along Wainui Beach, with powered sites and cabins. The guide to holiday parks in New Zealand explains how booking works, and January fills early because Gisborne is where the sun rises first on New Year's Day."
+          ],
+          "tips": [
+            "$400 for most breaches",
+            "Holiday parks in town and at Wainui",
+            "New Year fills early"
+          ]
+        },
+        {
+          "heading": "State Highway 35 and the East Cape",
+          "body": [
+            "The 330 km loop of State Highway 35 north of Gisborne is the East Cape, and the East Cape road trip guide covers the route in days. Camping on the way is mostly in DOC and community campgrounds at the bays, with Anaura Bay the best known and the largest DOC site in the region with room for 81.",
+            "KiwiCamping's DOC data (11 August 2026) lists 14 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> on the East Coast, 8 of them free and 12 with campervan access, with adult nightly rates from $8 to $15, which makes it one of the cheapest regions in the country. Fuel and groceries thin out north of Tolaga Bay, so fill up in Gisborne and carry water."
+          ],
+          "tips": [
+            "Anaura Bay holds 81",
+            "8 of 14 DOC campsites are free",
+            "Fuel up in Gisborne"
+          ]
+        },
+        {
+          "heading": "Using KiwiCamping around Gisborne",
+          "body": [
+            "KiwiCamping lists DOC campsites and huts, holiday parks and dump stations on the East Coast, with campervan filters, though not the council's <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> areas. Check the council's page for Kaiti Beach and save a campground as the night's backup.",
+            "Add Gisborne to a trip as the start of the East Cape loop, and read the legs, since the drive from Napier is about 3.5 hours and from Whakatāne about 2.5. Saved places and details stay on the phone, while the map, routing, weather and photos need signal, which is sparse on the cape. The app is free to download, with in-app purchases."
+          ],
+          "tips": [
+            "Council page decides Kaiti Beach",
+            "Napier about 3.5 hours away",
+            "Saved places stay on the phone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I freedom camp in Gisborne?",
+          "Yes, in a certified self-contained vehicle at Kaiti Beach, parked inside the painted blue lines for up to three nights. Waikanae Beach and most of the town are prohibited."
+        ],
+        [
+          "Is freedom camping allowed on the East Cape?",
+          "Mostly at DOC and community campgrounds, not on council roadsides. Check the signs, because many beach car parks are closed to camping."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Gisborne District Council: Freedom camping"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
     "camping-in-taupo": {
       "title": "Camping in Taupō: Holiday Parks, DOC Campsites and Where to Base Yourself",
       "description": "Where to camp around Lake Taupō: the holiday parks in town and on the lakeshore, the DOC campsite at Whakaipo Bay, the Kaimanawa and Tongariro campsites inland, and when the lake fills up.",
