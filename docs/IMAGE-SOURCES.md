@@ -197,3 +197,16 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `campervan-holiday-with-kids-new-zealand` | Cathedral cove Beach.JPG | Borvan53 | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Cathedral_cove_Beach.JPG) |
 | `waterfalls-lakes-campgrounds-new-zealand` | Purakaunui Falls.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Purakaunui_Falls.jpg) |
 | `wet-weather-camping-new-zealand` | Rainbow on Routeburn Track (16513844686).jpg | Christoph Strässler from Oberdorf BL, Schweiz | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Rainbow_on_Routeburn_Track_(16513844686).jpg) |
+| `camping-in-taupo` | Lake Taupō.jpg | Alexander Gerst | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Taup%C5%8D.jpg) |
+| `camping-in-kaikoura` | Mt Fyffe, Kaikoura Ranges, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Mt_Fyffe,_Kaikoura_Ranges,_New_Zealand.jpg) |
+| `camping-in-paihia-bay-of-islands` | Paihia Beach (3364291063).jpg | Sids1 from New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Paihia_Beach_(3364291063).jpg) |
+| `camping-in-tekapo` | Lake Tekapo 03.jpg | Krzysztof Golik | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Tekapo_03.jpg) |
+| `camping-in-queenstown` | Queenstown from Bob's Peak.jpg | Lawrence Murray from Perth, Australia | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg) |
+| `camping-in-auckland` | Auckland Skyline as seen from Devonport 20100128 3.jpg | DXR | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Auckland_Skyline_as_seen_from_Devonport_20100128_3.jpg) |
+| `camping-in-wellington` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |
+| `camping-in-christchurch` | Avon River in Christchurch Botanic Gardens.jpg | Pseudopanax at English Wikipedia | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_Botanic_Gardens.jpg) |
+| `family-holiday-parks-new-zealand` | Kaiteriteri Beach 4 (31578270882).jpg | Tony Hisgett from Birmingham, UK | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaiteriteri_Beach_4_(31578270882).jpg) |
+| `matariki-camping-new-zealand-2027` | OneOne Matariki 2018.jpg | Kristina D.C. Hoeppner | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:OneOne_Matariki_2018.jpg) |
+| `lupins-and-southern-lights-camping-new-zealand` | Lupins, Lake Tekapo, NZ.jpg | Khootkheng | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Lupins,_Lake_Tekapo,_NZ.jpg) |
+| `walks-closed-for-lambing-new-zealand` | Romney sheep, ewe with triplet lambs in New Zealand.jpg | Pam | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Romney_sheep,_ewe_with_triplet_lambs_in_New_Zealand.jpg) |
+| `camping-bases-best-day-walks-new-zealand` | Stocking Stream Shelter in Hooker Valley in front of Aoraki Mount Cook Range.jpg | Pseudopanax at English Wikipedia | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Stocking_Stream_Shelter_in_Hooker_Valley_in_front_of_Aoraki_Mount_Cook_Range.jpg) |

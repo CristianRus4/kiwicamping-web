@@ -11,6 +11,7 @@ import { canIArticles } from "@/lib/content/can-i";
 import { freedomCouncilArticles } from "@/lib/content/freedom-councils";
 import { freedomRegionArticles } from "@/lib/content/freedom-regions";
 import { freedomTownArticles } from "@/lib/content/freedom-towns";
+import { campingBaseArticles } from "@/lib/content/camping-bases";
 import { greatWalksArticles } from "@/lib/content/great-walks";
 import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
@@ -79,6 +80,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...freedomCouncilArticles,
   ...freedomRegionArticles,
   ...freedomTownArticles,
+  ...campingBaseArticles,
   ...greatWalksArticles,
   ...costsWhvArticlesA,
   ...costsWhvArticlesB,
