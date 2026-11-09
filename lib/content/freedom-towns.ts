@@ -926,4 +926,50 @@ export const freedomTownArticles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+
+  a({
+    slug: "freedom-camping-haast",
+    title: "Freedom Camping at Haast: Rules, Sites and Where to Sleep",
+    description: "Where to sleep in a campervan at Haast: Westland District Council's thin list of sites, the dump station on Marks Road, DOC freedom camping zones along the Haast Highway, and the campgrounds and motels to book in summer.",
+    category: "Rules & safety",
+    region: "South Westland",
+    places: ["Haast", "Haast Beach", "Lake Moeraki", "Jackson Bay", "Paringa"],
+    imageAlt: "A road sign at Haast Pass pointing to Haast Junction and Wānaka, with a woman standing beside it in bush",
+    related: ["freedom-camping-rules-new-zealand", "self-contained-campervan-green-warrant", "freedom-camping-westland-2026", "wanaka-haast-pass-route", "west-coast-south-island-road-trip", "franz-josef-fox-glacier-camping"],
+    hubs: ["freedom-camping/south-westland", "camping/west-coast"],
+    intro:
+      "Haast is the long, empty stretch where State Highway 6 meets the Tasman Sea, with 120 km to Fox Glacier on one side and over the Haast Pass to Wānaka on the other, and it has very little formal camping. Westland District Council's current page lists only a few sites in the whole district, and Haast's own spaces have appeared in a draft bylaw that the council has not confirmed. Much of the land around the township is DOC's, with its own freedom camping zones and rules, so the answer to where you can park depends on whose land the lay-by is on.",
+    sections: [
+      s("Council land and the bylaw", [
+        "Westland District Council's responsible camping page lists a short set of sites for certified self-contained vehicles, including Kumara, Woodstock and Paringa, and a 2024 draft bylaw added a site beside the playground on Marks Road in Haast with room for around ten vehicles. The council has not confirmed that draft in the material read for this guide, so treat Haast Playground as unconfirmed and check the council's page and the sign before a night depends on it.",
+        "Whichever list applies, the vehicle must be certified self-contained, with a green warrant on display since 7 June 2026, which the guide to the self-contained campervan warrant explains. Stays at the council's sites are short, such as two nights in 30 days at Paringa, and tents and uncertified vans have no standing.",
+      ], ["Haast Playground: draft, check first", "Paringa: 2 nights in 30 days", "Green warrant on display"]),
+      s("Dump station and services", [
+        "The council lists a dump station at Haast by the toilets on Marks Road, along with others at Hokitika and Franz Josef, and it is the one reliable emptying point on this part of the highway. The guide to wastewater and rubbish explains the etiquette, and the rule is simple: use the dump station, not a stream or a lay-by.",
+        "Haast has a few shops, a fuel stop and a handful of motels, and the next full-service towns are Wānaka, 140 km east, and Fox Glacier, about 120 km north. Fill the tank and buy groceries here, since neither is cheap or plentiful elsewhere along the road.",
+      ], ["Dump station on Marks Road", "Fuel at Haast", "Groceries are thin on both sides"]),
+      s("DOC land along the highway", [
+        "Much of South Westland is conservation land, and DOC's freedom camping zones follow its own list of places, with Roaring Billy Walk car park the largest recorded, and each zone carrying rules on vehicles and stay length. DOC's hub for South Westland in this site maps them, and the DOC notice at the entrance to each area is the rule that counts, since some places that look like camping spots are closed to it.",
+        "For a paid bed with a toilet, DOC campsites along the highway are the cheaper answer than a motel. KiwiCamping's DOC data (11 August 2026) lists 14 campsites on the West Coast, only 1 of them free and 10 with campervan access, with adult nightly rates from $10 to $20. Sandflies are fierce on this coast, and the guide to sandflies explains what works.",
+      ], ["DOC notices decide the zones", "14 DOC campsites on the West Coast", "Sandflies are a real factor"]),
+      s("Motels, holiday parks and booking ahead", [
+        "Haast has a small number of holiday parks and motels, and summer demand easily outstrips them, because the Haast Pass is the only road link between the West Coast and Otago. Book before you set off from Wānaka or Fox, since a late arrival with no booking can mean a 120 km drive to the next bed.",
+        "Jackson Bay, 50 km down the coast road, has its own campground and a fish and chip shop at the road's end, and Lake Moeraki to the north has a lodge and a DOC campsite. The guide to holiday parks in New Zealand explains how booking works.",
+      ], ["Book before leaving Wānaka or Fox", "Jackson Bay is 50 km each way", "Lake Moeraki has a DOC campsite"]),
+      s("Using KiwiCamping around Haast", [
+        "KiwiCamping shows DOC campsites and huts, holiday parks and dump stations through South Westland, with filters for campervan access. It does not hold the council's freedom camping spaces, so use the council page for those.",
+        "Put Haast in a trip between Wānaka and the glaciers, and read the leg lengths, since each side is over two hours. Saved places and their details stay on the phone, and the map, routes, forecast and photos need signal, which is rare for long stretches here. The app is free to download, with in-app purchases.",
+      ], ["Council page decides the sites", "Each side is over 2 hours", "Saved places stay on the phone"], undefined, true),
+    ],
+    faq: [
+      ["Can I freedom camp at Haast?", "Council and DOC land each have their own rules. Westland District Council lists few sites, and a draft bylaw named a space on Marks Road that is not confirmed, so check the council and DOC notices before you stay."],
+      ["Is there a dump station at Haast?", "Yes. The council lists one by the toilets on Marks Road."],
+    ],
+    sources: [
+      { label: "Westland District Council: campgrounds and responsible camping", url: "https://www.westlanddc.govt.nz/recreation/campgrounds-and-responsible-camping" },
+      { label: "Westland District Council: seeking submissions on the freedom camping bylaw", url: "https://westlanddc.govt.nz/notices-news-and-events/posts/seeking-submissions-freedom-camping-bylaw" },
+      { label: "Freedom Camping (Penalties for Infringement Offences) Regulations 2023", url: "https://www.legislation.govt.nz/regulation/public/2023/0136/latest/whole.html" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
+    ],
+  }),
 ];

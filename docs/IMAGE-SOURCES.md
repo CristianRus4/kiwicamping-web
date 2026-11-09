@@ -218,3 +218,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `freedom-camping-lumsden` | Lake Te Anau - 2013.04 - panoramio (1).jpg | rheins | CC BY 3.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Te_Anau_-_2013.04_-_panoramio_(1).jpg) |
 | `freedom-camping-colac-bay` | Nugget-Point-3.jpg | Noel Jhinku | CC BY 2.5 | [Source](https://commons.wikimedia.org/wiki/File:Nugget-Point-3.jpg) |
 | `freedom-camping-westport` | Beach in Hokitika, West Coast, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Beach_in_Hokitika,_West_Coast,_New_Zealand.jpg) |
+| `freedom-camping-haast` | Pauline, Haast Pass, Otago-Westland, New Zealand, 1968.jpg | Phillip Capper from Wellington, New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Pauline,_Haast_Pass,_Otago-Westland,_New_Zealand,_1968.jpg) |

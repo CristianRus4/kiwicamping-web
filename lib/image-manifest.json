@@ -1301,6 +1301,20 @@
       }
     ]
   },
+  "/images/articles/freedom-camping-haast.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/freedom-camping-haast-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/freedom-camping-haast.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/freedom-camping-kaikoura.webp": {
     "width": 1600,
     "height": 900,
