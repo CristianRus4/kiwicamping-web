@@ -41,7 +41,7 @@ export const k9Articles: Article[] = [
         "Mobile coverage is patchy and drops out across much of the island, so save your booking details and directions before the ferry. Tell someone your plan for any long walk. The packing list guide has the full checklist for a camping trip.",
       ], ["Bring most of your food", "A torch and a power bank", "Patchy phone coverage"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and access, so you can see which island campsites have toilets and water before you book the ferry. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop. Great Barrier is one stop on a longer Auckland trip, so it helps to keep the island nights and the mainland nights in one plan.",
+        "On Great Barrier, KiwiCamping maps DOC campsites, huts and holiday parks, and its facilities filters show which island campsites have toilets and water before you book the ferry. Put the island nights and the mainland nights on one dated trip, with the forecast for each stop beside them, so the whole Auckland plan sits in one place.",
         "DOC bookings stay on DOC's own booking pages, and the ferry is booked with the operator. Free to download, with in-app purchases.",
       ], ["Save the island campsites", "Add them to a trip with dates", "Forecast at each stop"], true),
     ],
@@ -90,8 +90,8 @@ export const k9Articles: Article[] = [
         "If you are doing the full coast, the West Coast road trip guide and the Christchurch to Hokitika and Greymouth guide cover the rest of the route. The Paparoa Track, a walk and ride that starts near Punakaiki, has its huts booked through DOC.",
       ], ["A night at Punakaiki, one or two at Karamea", "Heaphy Track starts near Karamea", "Paparoa Track huts: book on DOC"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and campervan access, so you can see which camps near Punakaiki and Karamea have toilets and water. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop, which counts for a lot on this coast.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Around Punakaiki and Karamea, KiwiCamping maps DOC campsites, huts and holiday parks, with facilities and campervan access filters, so you can see which camps have toilets and water. Add the camps to a dated trip and read the forecast for each stop, which counts for a lot on this coast.",
+        "Booking for the DOC campsites here is through DOC. Download is free, with in-app purchases.",
       ], ["Save the camps you like", "Add them to a trip with dates", "Forecast at each stop"], true),
     ],
     faq: [
@@ -139,7 +139,7 @@ export const k9Articles: Article[] = [
         "If you want the benefits without the cost, a holiday park near the city with a cabin is cheaper, and the camping guides for Auckland, Wellington and Christchurch cover the options. The responsible camping guide covers how to leave a place the way you found it, wherever you sleep.",
       ], ["Check road access for a van", "Ask about parking", "Holiday park cabins are cheaper"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and campervan access, so you can see the options around each city and plan the van nights either side of an eco stay. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop. It does not list private treehouses and eco lodges, so book those with the operator.",
+        "KiwiCamping maps DOC campsites, huts and holiday parks, with facilities and campervan access filters, so you can see the options around each city and plan the van nights either side of an eco stay. A dated trip shows the forecast for each stop. It does not list private treehouses and eco lodges, so book those with the operator.",
         "Free to download, with in-app purchases.",
       ], ["Save the van nights around your stay", "Add them to a trip with dates", "Private stays are booked with the operator"], true),
     ],
@@ -192,7 +192,7 @@ export const k9Articles: Article[] = [
         "Do the washing up with a little water and biodegradable soap, and take dirty water to a dump station or a drain, never a stream or a roadside. The wastewater and rubbish guide has the rules, and the dump station guide helps you find a place to empty. Pack out every scrap of rubbish.",
       ], ["Never cook in a sealed van", "Gas off at the bottle", "Dirty water goes to a dump station"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for facilities and campervan access, including the public dump stations and water points you need on a cooking trip. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop, which helps decide between a barbecue night and a wet-weather pasta.",
+        "For a cooking trip, KiwiCamping's facilities and campervan access filters include the public dump stations and water points you need. Add each night to a dated trip, and the forecast for the stop helps you choose between a barbecue night and a wet-weather pasta.",
         "Free to download, with in-app purchases.",
       ], ["Find dump stations and water", "Add stops to a trip with dates", "Forecast at each stop"], true),
     ],
@@ -241,7 +241,7 @@ export const k9Articles: Article[] = [
         "Look for free days and discounts: some museums and galleries have free entry, many operators have off-peak and twilight rates, and a combined pass or a booking made online can be cheaper than walk-up. Ask at holiday parks and visitor centres, which often have local discounts and good advice.",
       ], ["Cooking your own meals saves the most", "Off-peak and online prices are lower", "Ask at the visitor centre"]),
       s("Planning your trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for fees, facilities and campervan access, so you can find free and low-cost places to stay near the things you want to do. Save the places you like, add them to a trip with dates, and the app shows the forecast at each stop, which matters for the outdoor days on this list.",
+        "KiwiCamping's filters for fees, facilities and campervan access help you find free and low-cost places to stay near the things you want to do. Add each stop to a trip with dates and the forecast appears for it, which matters for the outdoor days on this list.",
         "Free to download, with in-app purchases.",
       ], ["Filter for free and low-cost camps", "Add stops to a trip with dates", "Forecast at each stop"], true),
     ],

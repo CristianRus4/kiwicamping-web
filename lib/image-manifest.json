@@ -937,6 +937,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-to-hokitika-greymouth-road-trip.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-hokitika-greymouth-road-trip-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-hokitika-greymouth-road-trip.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christchurch-to-invercargill-drive-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -1017,6 +1031,20 @@
       },
       {
         "path": "/images/articles/christchurch-to-te-anau-drive-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/christchurch-to-wanaka-drive-guide.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-to-wanaka-drive-guide-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-to-wanaka-drive-guide.webp",
         "width": 1600
       }
     ]
@@ -2099,6 +2127,20 @@
       }
     ]
   },
+  "/images/articles/hawkes-bay-wairarapa-wine-trail-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/hawkes-bay-wairarapa-wine-trail-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/hawkes-bay-wairarapa-wine-trail-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/heaphy-track-by-bike.webp": {
     "width": 1600,
     "height": 900,
@@ -2179,6 +2221,20 @@
       },
       {
         "path": "/images/articles/hump-ridge-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/is-camping-in-new-zealand-safe.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/is-camping-in-new-zealand-safe-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/is-camping-in-new-zealand-safe.webp",
         "width": 1600
       }
     ]
@@ -2333,6 +2389,20 @@
       },
       {
         "path": "/images/articles/lupins-and-southern-lights-camping-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/manawatu-road-trip-camping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/manawatu-road-trip-camping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/manawatu-road-trip-camping.webp",
         "width": 1600
       }
     ]
@@ -3107,6 +3177,20 @@
       }
     ]
   },
+  "/images/articles/top-of-the-south-itinerary-nelson-golden-bay-marlborough.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/top-of-the-south-itinerary-nelson-golden-bay-marlborough-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/top-of-the-south-itinerary-nelson-golden-bay-marlborough.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/towing-caravan-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -3131,6 +3215,20 @@
       },
       {
         "path": "/images/articles/two-week-camper-itinerary-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/volcanic-loop-road-trip-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/volcanic-loop-road-trip-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/volcanic-loop-road-trip-new-zealand.webp",
         "width": 1600
       }
     ]

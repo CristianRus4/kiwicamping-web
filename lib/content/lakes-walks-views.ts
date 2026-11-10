@@ -58,7 +58,7 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Empty the toilet and grey water", "Refuel to the contract level", "Book the last night near the airport"]),
       s("Using KiwiCamping from Christchurch", [
         "KiwiCamping shows the holiday parks near the airport, the DOC campsites in Canterbury and the dump stations, with filters for campervan access. Save the first and last night, add the stops on your chosen road to a trip with dates, and use the forecast for each stop to decide whether to head for the mountains or the coast first.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Once you drive out of Christchurch, your saved places, their details and the guides are still on the phone, but the map tiles, routing, weather and photos need a signal. Download is free, with in-app purchases.",
       ], ["Save the first and last night", "Check the forecast before choosing a road", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -122,7 +122,7 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Coastal and lake towns fill first", "Try the town beyond the famous one", "Sunday nights are easy to book"]),
       s("Using KiwiCamping on a long weekend", [
         "KiwiCamping shows holiday parks, DOC campsites and dump stations, with filters for campervan access. Save a first choice and a backup for each night, set them out as a trip with the weekend's dates, and use the forecast to choose between the coast and the mountains.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "A weekend away may take you past the edge of the signal, so note that saved places and guides open from the phone while the map tiles, routing, weather and photos need coverage. The app costs nothing to download, with in-app purchases on top.",
       ], ["Save a first choice and a backup", "Check the forecast before leaving", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -185,7 +185,7 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Check the forecast the night before", "Carry water and warm layers", "Snow lingers on the high tracks"]),
       s("Using KiwiCamping around Queenstown", [
         "KiwiCamping sorts the holiday parks, the DOC campsites at Moke Lake and along Lake Wakatipu and the dump stations, with a filter for campervan access. Save a base for each walk, set them out as a trip with dates, and use the forecast for each day to decide which walk to do when.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Where the signal drops on the roads to the walks, your saved places, place details and guides are still on the phone, and the map tiles, routing, weather and photos come back once you have coverage. Free to download, with in-app purchases.",
       ], ["Save a base for each walk", "Order the walks by the forecast", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -250,12 +250,12 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Check the wind before a ridge walk", "Leave a buffer before a ferry", "Book ahead for long weekends"]),
       s("Using KiwiCamping around Wellington", [
         "KiwiCamping shows the Hutt Valley and Kāpiti holiday parks, the DOC campsites in the Remutaka and Tararua areas and the dump stations, with a filter for campervan access. Save a base for each hike, set them out as a trip with dates, and use the forecast to choose the day for the exposed walks.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "In the Remutaka and Tararua areas your saved places, details and guides stay on the phone, but the map tiles, routing, weather and photos need a signal, so look at the forecast before you leave the Hutt Valley. Download is free, with in-app purchases.",
       ], ["Save a base for each hike", "Pick the windy day for a valley walk", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
       ["Where can I camp for Wellington hikes?", "There is no campground in the city, so use a holiday park in Lower Hutt, Upper Hutt or Paekākāriki, Kaitoke Regional Park, or the DOC campsites at Catchpool Valley and near Masterton for the Tararua foothills."],
-      ["Is Catchpool Valley campsite open all year?", "No. It is closed from May until Labour weekend, so it suits summer and autumn. Check DOC's page for the current fee and opening dates."],
+      ["Is Catchpool Valley campsite open all year?", "No. DOC closes it from May until Labour weekend, so plan it for summer or autumn and look at DOC's site for the fee and dates."],
     ],
     sources: [
       { label: "DOC: Remutaka Forest Park", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/" },
@@ -316,7 +316,7 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Repellent for dawn and dusk", "Check swimming advice before a swim", "Never dump wastewater in a lake"]),
       s("Using KiwiCamping around the lakes", [
         "KiwiCamping shows the holiday parks, DOC campsites and dump stations beside the lakes, with filters for campervan access. Save a lake for each night, set them out as a trip with dates, and use the forecast to decide where the wind and rain will be least trouble.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Your saved lakes and guides are kept on the phone, so they still open at a camp with no signal, while the map tiles, routing, weather and photos need coverage. You pay nothing to download it, with in-app purchases available.",
       ], ["Save a lake for each night", "Check the wind in the forecast", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [
@@ -380,7 +380,7 @@ export const lakesWalksViewsArticles: Article[] = [
       ], ["Sunrise and sunset are best", "Check the forecast and NZTA first", "Have a lower plan B"]),
       s("Using KiwiCamping around the lookouts", [
         "KiwiCamping shows the holiday parks, DOC campsites and dump stations along each road, with filters for campervan access. Save a camp near each lookout you want, set them out as a trip with dates, and use the forecast for each stop to decide which day is best for the view.",
-        "Saved places, place details and guides are kept on the phone, while map tiles, routing, weather and photos need signal. Free to download, with in-app purchases.",
+        "Some lookout roads have patchy signal, so remember that saved places and guides open from the phone while map tiles, routing, weather and photos need coverage. You can download the app free, with in-app purchases.",
       ], ["Save a camp near each lookout", "Check the forecast for the view", "Saved places stay on the phone"], undefined, true),
     ],
     faq: [

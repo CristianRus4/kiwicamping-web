@@ -48,8 +48,8 @@ export const k7Articles: Article[] = [
         "New Zealand's ACC scheme covers accidental injury for visitors but not illness or repatriation, so buy travel insurance before you fly. Read what it says about campervans, adventure activities and driving, and keep the policy number somewhere you can reach without signal.",
       ], ["Tell someone your plan", "Call 111 in an emergency", "Buy travel insurance"]),
       s("Planning safer stops in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list, so a bad forecast at one stop is visible before you drive there. It does not replace official weather warnings, emergency alerts or road closures, so check MetService and NZTA as well.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "In KiwiCamping you can keep the safety basics beside your plan. The app maps DOC campsites, huts and holiday parks with filters for campervan access and facilities, and a trip shows the distance between each stop and the forecast at each place, so a bad forecast at one stop is visible before you drive there. It does not replace official weather warnings, emergency alerts or road closures, so check MetService and NZTA as well.",
+        "DOC campsites and huts are booked on DOC's own pages, and the app itself is free to download, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check official warnings too"], true),
     ],
     faq: [
@@ -103,8 +103,8 @@ export const k7Articles: Article[] = [
         "The nights are cold on the plateau even in summer, so a warm sleeping layer and a heater suit a campervan. Do not leave a vehicle on a river flat or a lahar path when heavy rain is forecast, and read the signs at campsites near Ruapehu, which explain what to do if a warning is issued.",
       ], ["Holiday parks in Rotorua and Taupō", "DOC campsites near Ohakune", "Cold nights on the plateau"]),
       s("Planning the loop in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this loop, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list, which helps decide the day for the Crossing. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Along the loop, KiwiCamping maps the DOC campsites, huts and holiday parks in Rotorua, Taupō and around Tongariro, with filters for campervan access and facilities. Put the stops on a trip in order and you get the distance between each pair and a forecast for every place, which helps pick the day for the Crossing. Road closures are on the NZTA site, because the app has no directions or live traffic.",
+        "Bookings for the Tongariro campsites go through DOC, not the app. The app is free to download, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
     ],
     sources: [
@@ -153,7 +153,7 @@ export const k7Articles: Article[] = [
         "Freedom camping in both regions is controlled by council rules, and several towns restrict it to certified self-contained vehicles at set sites. Do not park overnight at a cellar door unless the owner has invited you. DOC campsites are limited on this route, so check the Wairarapa and Hawke's Bay hubs for what is open.",
       ], ["Holiday parks near the cellar doors", "Book ahead for harvest and holidays", "Ask first at cellar doors"]),
       s("Planning the trail in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save the towns you want to base yourself in, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
+        "KiwiCamping lists the holiday parks and the few DOC campsites between the Wairarapa and Hawke's Bay, with filters for campervan access and facilities. Save the towns you want to base yourself in, add them to a trip in order, and the app shows how far apart they are and what the forecast says at each one. It has no directions or live traffic, so NZTA is the place to check for closures on the Remutaka Hill Road.",
         "Booking stays on the provider's own pages. Free to download, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
     ],
@@ -202,8 +202,8 @@ export const k7Articles: Article[] = [
         "Freedom camping is controlled by council rules in Horowhenua and Manawatū, and some sites are limited to certified self-contained vehicles. The freedom camping guide explains the rules, and the Manawatū-Whanganui hub on this site lists the campsites with their details.",
       ], ["Holiday parks in the towns", "Regional parks for quiet nights", "Check council rules for freedom camping"]),
       s("Planning the trip in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "For the Manawatū, KiwiCamping maps DOC campsites, huts and holiday parks, with campervan access and facilities filters. Save the places you like, put them in order on a trip, and the app works out the distance from one stop to the next and gives a forecast for each place. Road closures are on the NZTA site, because the app has no live traffic.",
+        "Any booking is made with the park or campground itself, and the app is free to download with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
     ],
     sources: [
@@ -252,7 +252,7 @@ export const k7Articles: Article[] = [
       ], ["Blenheim is sauvignon blanc country", "Book the ferry ahead", "Do not drive after tasting"]),
       s("Where to camp and planning in KiwiCamping", [
         "Holiday parks in Picton, Nelson, Motueka, Tākaka and Blenheim are the easy option, with DOC campsites in Abel Tasman, Golden Bay and Nelson Lakes for a quieter night. Freedom camping rules differ by council, and in Marlborough and Tasman they usually need a certified self-contained vehicle at set sites, so check the freedom camping guides for each.",
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this loop, with filters for campervan access and facilities. Save the places you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic. Free to download, with in-app purchases.",
+        "Across the top of the island, KiwiCamping maps DOC campsites, huts and holiday parks with filters for campervan access and facilities. Save the places you like, order them as a trip, and the app shows the distance between each pair and a forecast for every place on your list. Turn-by-turn directions and live traffic are a job for a navigation app. Free to download, with in-app purchases.",
       ], ["Holiday parks in each main town", "Freedom camping rules vary by council", "Save stops in driving order"], true),
     ],
     sources: [
@@ -301,8 +301,8 @@ export const k7Articles: Article[] = [
         "Freedom camping in the Mackenzie is restricted to a few sites, and some need a certified self-contained vehicle. The Mackenzie freedom camping guide explains the rules. Nights are cold on the plateau even in summer, and winter nights can be well below freezing, so bring a warm sleeping layer.",
       ], ["Holiday parks in each town", "Book Tekapo and Twizel ahead", "Cold nights on the plateau"]),
       s("Planning the drive in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks along this route, with filters for campervan access and facilities. Save the stops you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "From Geraldine to Omarama, KiwiCamping maps DOC campsites, huts and holiday parks, with campervan access and facilities filters. Save the stops you like, add them to a trip in order, and the app shows the distance between each pair and a forecast for every stop. Directions and live traffic are outside what it does, so check NZTA for closures on the way.",
+        "Campsites are booked with DOC or the holiday park directly, never through the app, which is free to download with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
     ],
     sources: [
@@ -327,7 +327,7 @@ export const k7Articles: Article[] = [
     sections: [
       s("Route, distance and time", [
         "From Christchurch, State Highway 73 runs west through Darfield and Springfield, up the Waimakariri River and over Arthur's Pass at 920 metres, then down the Otira Gorge to Kumara Junction and Greymouth. The distance is about 250 kilometres and takes 3.5 to 4 hours without stops. Hokitika is a further 40 kilometres south.",
-        "The road is winding and steep in places, with one-lane bridges and sections where trucks and campervans meet on tight bends. Plan for slower speeds than the map suggests, and check the NZTA Journey Planner, because the pass can close for snow, ice, slips or a crash. The driving day planner helps you set days to suit your vehicle.",
+        "The road is winding and steep in places, with one-lane bridges and sections where trucks and campervans meet on tight bends. Plan for slower speeds than the map suggests, and check the NZTA Journey Planner, because the pass can close for snow, ice, slips or a crash. Use the driving day planner to split the road into days that suit the length and weight of your vehicle.",
       ], ["About 250 km, 3.5 to 4 hours to Greymouth", "Hokitika is 40 km further", "Check NZTA for pass closures"]),
       s("Springfield, Castle Hill and Porters Pass", [
         "The plains are flat farmland until the road reaches Springfield, the gateway to the mountains with a giant doughnut and a cafe, and then climbs to Porters Pass, a high tussock pass with views of the Torlesse Range. A short detour leads to Castle Hill, a field of limestone boulders that is popular for climbing and photography.",
@@ -350,8 +350,8 @@ export const k7Articles: Article[] = [
         "Nights in the pass are cold at any time of year, and winter nights are below freezing, so carry a warm sleeping layer and a heater. The wildlife and livestock guide covers the animals you might meet on the road, and the West Coast road trip guide continues south to Franz Josef and Haast.",
       ], ["DOC campsites near the pass", "Book in summer", "Nights are cold in the pass"]),
       s("Planning the drive in KiwiCamping", [
-        "KiwiCamping is an iPhone app that maps DOC campsites, huts and holiday parks across the pass and the West Coast, with filters for campervan access and facilities. Save the stops you like, add them to a trip as ordered stops, and the app shows the distance between each pair and a forecast for every place on your list. It does not give turn-by-turn directions or live traffic, so check NZTA for closures.",
-        "DOC bookings stay on DOC's own booking pages. Free to download, with in-app purchases.",
+        "Across Arthur's Pass and the West Coast, KiwiCamping maps DOC campsites, huts and holiday parks, with campervan access and facilities filters. Order your stops as a trip and the app gives the distance between each pair and a forecast for every place, which helps in a pass where the weather changes fast. It is not a navigation app, so check NZTA for closures on the pass.",
+        "West Coast DOC campsites are booked on DOC's website. Download the app free, with in-app purchases.",
       ], ["Save stops in driving order", "Forecast at each stop", "Check NZTA for closures"], true),
     ],
     sources: [
