@@ -2141,6 +2141,20 @@
       }
     ]
   },
+  "/images/articles/halloween-guy-fawkes-camping-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/halloween-guy-fawkes-camping-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/halloween-guy-fawkes-camping-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/hawkes-bay-wairarapa-wine-trail-campervan.webp": {
     "width": 1600,
     "height": 900,

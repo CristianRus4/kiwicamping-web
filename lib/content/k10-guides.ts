@@ -272,4 +272,56 @@ export const k10Articles: Article[] = [
       { label: "DOC: campsite categories and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     ],
   }),
+  a({
+    slug: "halloween-guy-fawkes-camping-new-zealand",
+    title: "Halloween and Guy Fawkes Weekend Camping in New Zealand: Fireworks Rules and Where to Go",
+    description: "Camping around Halloween and Guy Fawkes in New Zealand: the fireworks rules at campsites, DOC land and beaches, fire danger in late spring, holiday parks with Halloween fun for kids, and keeping pets calm.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Holiday parks", "DOC campsites", "Beaches", "Auckland", "Christchurch", "Wellington"],
+    imageAlt: "A long sandy beach at Whangamatā with low hills behind",
+    related: ["campfire-rules-new-zealand", "long-weekend-camping-new-zealand", "family-holiday-parks-new-zealand", "campervan-holiday-with-kids-new-zealand", "dogs-camping-new-zealand", "school-public-holidays-new-zealand-2027"],
+    hubs: ["camping"],
+    intro:
+      "Late October and early November is the start of the camping season in New Zealand. Labour Weekend opens it, Halloween on 31 October has become a fun night at many family holiday parks, and Guy Fawkes on 5 November brings fireworks. It is a lovely time to be out, with long evenings and fewer people than summer, but fireworks and spring winds do not mix well with dry grass and campsites. This is what to know before you plan a weekend away.",
+    sections: [
+      s("Fireworks rules in short", [
+        "Fireworks can only be sold to the public for a few days before Guy Fawkes, and only to people aged 18 and over. Rockets and other aerial fireworks are not sold to the public, so what you can buy is limited to sparklers, fountains and other ground-based fireworks. The big displays are run by councils and professional operators.",
+        "Buying them is the easy part. Where you can set them off is much more limited, and most campsites are on the wrong side of that line.",
+      ], ["Sold for a few days before 5 November", "Buyers must be 18 or over", "No rockets for the public"]),
+      s("Where you cannot set them off", [
+        "Fireworks are not allowed on DOC land, which covers every DOC campsite, national park and conservation area. Most councils ban them in parks, reserves and on many beaches, and some ban them in all public places. Holiday parks almost always ban them too, because of the risk to tents, vans and the people asleep in them.",
+        "If you are freedom camping, the answer is simple: do not use fireworks at the site. Apart from the rules, a stray spark in dry grass at a roadside camp can start a fire that spreads before anyone can stop it. Check the council's rules for the place you are staying if you are unsure.",
+      ], ["No fireworks on DOC land", "Most holiday parks ban them", "Not at freedom camping sites"]),
+      s("Fire danger in late spring", [
+        "Spring growth dries out quickly in a warm nor'wester, and by early November some parts of the country are already in a restricted fire season, especially in Canterbury, Marlborough, Central Otago and Hawke's Bay. In a restricted or prohibited season, fireworks and open fires may be banned outright, even on private land.",
+        "Check Fire and Emergency's fire season page for the area you are in before Guy Fawkes, and before you light any campfire. The campfire rules guide covers the seasons and how to check them.",
+      ], ["Dry, windy east-coast regions first", "Fire seasons can ban fireworks", "Check the fire season before you go"]),
+      s("Watching the displays instead", [
+        "The best way to see fireworks on a camping trip is a public display. Councils and community groups put them on in many cities and towns around 5 November, often on the nearest weekend, and some places have moved their main display to Matariki or New Year instead. Look at the council or local events page for the town you will be near.",
+        "Park the van well before the start, as streets close and parking fills, and plan to stay put for the night rather than driving after a late display. A holiday park within walking distance is the easiest option.",
+      ], ["Public displays near 5 November", "Some towns moved to Matariki", "Arrive early and stay the night"]),
+      s("Halloween at the holiday park", [
+        "Halloween is not a big tradition in New Zealand, but it has grown, and many family holiday parks now run something for children on 31 October or the nearest weekend: a trick-or-treat round the cabins and vans, costume parades, decorated sites and a movie night. It is a good reason to book a holiday park rather than a quiet DOC site if you are travelling with kids.",
+        "Ask when you book, as plans vary from park to park and year to year. If you are taking part, bring a bag of treats to hand out and keep the decorations battery-powered rather than candles near tents and awnings.",
+      ], ["Many family parks run Halloween fun", "Ask when you book", "Battery lights, not candles"]),
+      s("Pets, livestock and a quiet night", [
+        "Fireworks frighten dogs, horses and stock, and a dog that bolts from a campsite on Guy Fawkes night is easy to lose. Keep dogs inside the van in the evenings around 5 November, with the windows closed and something familiar to settle them. Farmers may move animals away from the roads, so take care on rural drives.",
+        "If you want a quiet night, a DOC campsite or a remote holiday park away from town is the place to be. Fireworks are often let off for several nights either side of the 5th, so plan a few nights rather than one.",
+      ], ["Keep dogs inside in the evenings", "Stock can be unsettled", "Remote sites for a quiet night"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping shows DOC campsites and holiday parks across the country, so you can choose between a family park with Halloween fun and a quiet DOC site away from the fireworks. Add the weekend to a dated trip and check the forecast for wind before you plan an evening outdoors.",
+        "Holiday park bookings and event details are with the parks themselves. Free to download, with in-app purchases.",
+      ], ["Family parks or quiet DOC sites", "Weekend on a dated trip", "Check the wind forecast"], true),
+    ],
+    faq: [
+      ["Can you let off fireworks at a campsite in New Zealand?", "Almost never. Fireworks are banned on DOC land, most holiday parks ban them, and many councils ban them in parks, reserves and on beaches. Watch a public display instead."],
+      ["When can you buy fireworks in New Zealand?", "Only for a few days before Guy Fawkes on 5 November, and only if you are 18 or over. Rockets are not sold to the public."],
+    ],
+    sources: [
+      { label: "Fire and Emergency New Zealand: fireworks", url: "https://www.fireandemergency.nz/at-home/fireworks/" },
+      { label: "Fire and Emergency New Zealand: check fire season", url: "https://www.checkitsalright.nz/" },
+      { label: "DOC: fires and fireworks", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/fire-safety/" },
+    ],
+  }),
 ];

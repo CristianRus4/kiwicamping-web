@@ -260,3 +260,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `kea-and-wildlife-encounters-new-zealand` | Nestor notabilis -Fiordland, New Zealand-8b.jpg | Mark Whatmough | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Nestor_notabilis_-Fiordland,_New_Zealand-8b.jpg) |
 | `new-zealand-wine-regions-campervan` | Wairau Valley vineyards in Marlborough, New Zealand.jpg | Jonathan Harker | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Wairau_Valley_vineyards_in_Marlborough,_New_Zealand.jpg) |
 | `two-week-new-zealand-trip-cost` | Lake Hawea. Otago.NZ. (16183498090).jpg | Bernard Spragg. NZ | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Hawea._Otago.NZ._(16183498090).jpg) |
+| `halloween-guy-fawkes-camping-new-zealand` | Whangamata Beach (9993001275).jpg | russellstreet | CC BY-SA 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Whangamata_Beach_(9993001275).jpg) |
