@@ -15,7 +15,7 @@ export const lakesWalksViewsArticles: Article[] = [
     category: "Trip planning",
     region: "Canterbury",
     places: ["Christchurch", "Banks Peninsula", "Akaroa", "Arthur's Pass", "Kaikōura", "Lake Tekapo"],
-    imageAlt: "The Avon River winding through the Christchurch Botanic Gardens",
+    imageAlt: "A punt on the Avon River through the Christchurch Botanic Gardens",
     related: ["camping-in-christchurch", "freedom-camping-christchurch-2026", "christchurch-tekapo-aoraki-road-trip", "campervan-hire-cost-new-zealand-2026", "10-day-campervan-itinerary-new-zealand"],
     hubs: ["camping"],
     intro:
@@ -79,7 +79,7 @@ export const lakesWalksViewsArticles: Article[] = [
     category: "Trip planning",
     region: "New Zealand",
     places: ["Coromandel", "Wairarapa", "Banks Peninsula", "Nelson Tasman", "Taupō"],
-    imageAlt: "Kaiteriteri Beach in the Nelson Tasman region with boats on golden sand",
+    imageAlt: "Waves rolling onto a surf beach near Raglan, seen through flax and coastal scrub",
     related: ["school-public-holidays-new-zealand-2027", "doc-campsites-sell-out-summer-new-zealand", "holiday-parks-new-zealand-guide", "matariki-camping-new-zealand-2027", "family-holiday-parks-new-zealand"],
     hubs: ["camping"],
     intro:
@@ -142,7 +142,7 @@ export const lakesWalksViewsArticles: Article[] = [
     category: "Camping guides",
     region: "Otago",
     places: ["Queenstown", "Glenorchy", "Arrowtown", "Moke Lake", "Lake Wakatipu"],
-    imageAlt: "Queenstown and Lake Wakatipu seen from Bob's Peak with the Remarkables behind",
+    imageAlt: "Lake Wakatipu at Queenstown with a jet boat at the wharf and mountains behind",
     related: ["camping-in-queenstown", "queenstown-glenorchy-camping", "freedom-camping-queenstown-lakes-2026", "camping-bases-best-day-walks-new-zealand", "camping-base-roys-peak-wanaka"],
     hubs: ["camping"],
     intro:
@@ -207,7 +207,7 @@ export const lakesWalksViewsArticles: Article[] = [
     category: "Camping guides",
     region: "Wellington",
     places: ["Wellington", "Lower Hutt", "Upper Hutt", "Paekākāriki", "Remutaka Forest Park", "Tararua Forest Park"],
-    imageAlt: "Wellington Harbour and the city seen from the hills above it",
+    imageAlt: "Cattle grazing on a hillside above Wellington Harbour and the city at dusk",
     related: ["camping-in-wellington", "wellington-3-days-campervan", "wellington-wairarapa-camping-loop", "freedom-camping-wellington-2026", "camping-bases-best-day-walks-new-zealand"],
     hubs: ["camping"],
     intro:
@@ -272,7 +272,7 @@ export const lakesWalksViewsArticles: Article[] = [
     category: "Camping guides",
     region: "South Island",
     places: ["Lake Tekapo", "Lake Pukaki", "Lake Wānaka", "Lake Wakatipu", "Lake Te Anau", "Mavora Lakes"],
-    imageAlt: "Lake Wānaka and the mountains behind it on a calm day",
+    imageAlt: "Two ducks on the clear water of Lake Rotoiti in Nelson Lakes National Park",
     related: ["waterfalls-lakes-campgrounds-new-zealand", "scenic-campsites-new-zealand", "camping-in-tekapo", "freedom-camping-mackenzie-2026", "queenstown-glenorchy-camping"],
     hubs: ["camping"],
     intro:
