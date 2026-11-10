@@ -17,6 +17,7 @@ import { greatWalksArticles } from "@/lib/content/great-walks";
 import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
 import { driveGuideArticles } from "@/lib/content/drive-guides";
+import { k7Articles } from "@/lib/content/k7-guides";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import type { Article, ArticleCategory } from "@/lib/article-model";
@@ -87,6 +88,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...costsWhvArticlesA,
   ...costsWhvArticlesB,
   ...driveGuideArticles,
+  ...k7Articles,
   ...migratedArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   .concat(scheduleFixture<Article>() ?? []));
