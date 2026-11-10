@@ -38,6 +38,8 @@ jobs:
       # broken site is never deployed.
       # No PAGES_BASE_PATH: campingapp.nz is a custom domain, so the site is served from the root.
       - run: npm run check
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -154,12 +154,10 @@ await writeFile(resolve(output, "404.html"), `<!doctype html>
 `);
 await new Promise((resolveClose,reject)=>server.close(error=>error?reject(error):resolveClose()));
 
-const exportedHtml = [];
 for (const route of htmlRoutes) {
   const html = await readFile(outputPath(route), "utf8");
   assert.doesNotMatch(html, /self\.__VINEXT|__VINEXT_RSC/, `${route} contains runtime navigation code`);
   if (basePath) assert.doesNotMatch(html, new RegExp(`(?:href|src)="/(?!/|${basePath.slice(1)}(?:/|"))`), `${route} contains a root-dependent internal URL`);
-  exportedHtml.push([route, html]);
 }
 
 // Every URL the live site ranks on must still resolve to a real file after the rebuild.
@@ -174,7 +172,9 @@ function localTarget(reference) {
   return /\.[a-z0-9]+$/i.test(local) ? resolve(output, local) : resolve(output, local, "index.html");
 }
 
-for (const [route, html] of exportedHtml) {
+// Read each page again instead of holding every page's HTML in memory (the site now exports thousands).
+for (const route of htmlRoutes) {
+  const html = await readFile(outputPath(route), "utf8");
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
     if (target) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
