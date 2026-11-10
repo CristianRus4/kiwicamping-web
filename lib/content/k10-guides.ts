@@ -368,7 +368,7 @@ export const k10Articles: Article[] = [
     ],
     faq: [
       ["Where is the best place to watch the sunrise in New Zealand?", "The East Cape lighthouse is among the first places in the world to see the sun. Mount Maunganui, Lake Matheson, the Moeraki Boulders and Nugget Point are also favourites."],
-      ["Can you camp near the Moeraki Boulders for sunrise?", "Yes. There is a holiday park in Moeraki village a short drive away. Go at low tide and check the tide times the night before."],
+      ["Can you camp near the Moeraki Boulders for sunrise?", "Yes. A short drive away, Moeraki village has a holiday park. Go at low tide and check the tide times the night before."],
     ],
     sources: [
       { label: "DOC: Lake Matheson walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/things-to-do/tracks/lake-matheson-walk/" },
