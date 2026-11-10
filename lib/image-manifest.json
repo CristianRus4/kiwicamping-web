@@ -2659,6 +2659,20 @@
       }
     ]
   },
+  "/images/articles/new-zealand-wine-regions-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/new-zealand-wine-regions-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/new-zealand-wine-regions-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/north-island-two-week-road-trip.webp": {
     "width": 1600,
     "height": 900,

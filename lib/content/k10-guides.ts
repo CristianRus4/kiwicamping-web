@@ -168,4 +168,56 @@ export const k10Articles: Article[] = [
       { label: "Kea Conservation Trust", url: "https://www.keaconservation.co.nz/" },
     ],
   }),
+  a({
+    slug: "new-zealand-wine-regions-campervan",
+    title: "New Zealand Wine Regions by Campervan: Marlborough, Hawke's Bay, Central Otago and More",
+    description: "A campervan guide to New Zealand's wine regions, from Waiheke and Hawke's Bay to Marlborough, Waipara and Central Otago: what each is known for, how to visit cellar doors without driving, where to camp and the best time to go.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Marlborough", "Hawke's Bay", "Martinborough", "Central Otago", "Waipara", "Nelson", "Waiheke Island", "Gisborne"],
+    imageAlt: "Rows of vines in the Wairau Valley in Marlborough with hills behind",
+    related: ["hawkes-bay-wairarapa-wine-trail-campervan", "christchurch-to-marlborough-drive-guide", "top-of-the-south-itinerary-nelson-golden-bay-marlborough", "great-taste-trail-by-bike", "alcohol-fatigue-driving-new-zealand", "beer-wine-coffee-prices-new-zealand"],
+    hubs: ["camping/marlborough", "camping/hawkes-bay", "camping/otago"],
+    intro:
+      "New Zealand's wine regions run from the subtropical north to the southernmost vineyards in the world, and most of them sit right on the classic campervan routes. A campervan suits wine country well, as long as you plan the one thing that matters: who drives. Park the van for the day, walk, cycle or take a tour between cellar doors, and sleep close by. These are the main regions, what they are known for and how to fit them into a road trip.",
+    sections: [
+      s("Marlborough", [
+        "Marlborough, around Blenheim at the top of the South Island, is the country's largest wine region and the home of its famous Sauvignon Blanc. The vineyards fill the flat Wairau Valley, so the cellar doors are close together and the land is easy to cycle. Bike hire with a vineyard map is the most popular way to spend a day, and small tours run from town.",
+        "It is a short drive from the Picton ferry, so it slots in at the start or end of a South Island trip. Blenheim and Renwick have holiday parks, and the Marlborough Sounds are close for a quieter night by the water. The freedom camping in Marlborough guide covers the council's rules.",
+      ], ["The largest region, flat and easy to cycle", "Close to the Picton ferry", "Bike hire between cellar doors"]),
+      s("Hawke's Bay and Wairarapa", [
+        "Hawke's Bay, around Napier and Hastings, is the second largest region and the warmest of the big ones, known for Chardonnay and red blends. The Hawke's Bay Trails, a network of mostly flat cycle paths, link many of the wineries, and the art deco town of Napier is a good base. Martinborough in the Wairarapa, about an hour and a half from Wellington, is a compact village where many cellar doors are within walking or cycling distance of the square, and it is known for Pinot Noir.",
+        "Both work well from a campervan, with holiday parks close to the vineyards. The Hawke's Bay and Wairarapa wine trail guide has a full route through both regions.",
+      ], ["Hawke's Bay: flat cycle trails", "Martinborough: walkable village", "Pinot Noir in the Wairarapa"]),
+      s("Central Otago and Waitaki", [
+        "Central Otago is the most dramatic wine country in New Zealand, with vines on dry schist slopes under bare mountains, and it is known above all for Pinot Noir. The cellar doors are spread across Gibbston near Queenstown, Bannockburn and Cromwell, Bendigo, and around Wānaka and Alexandra, so a tour or a bike makes more sense than walking. The Otago Central Rail Trail and the Lake Dunstan Trail run near several of them.",
+        "Waitaki, in the valley inland from Oamaru, is a small cool-climate region on the way between the coast and the Mackenzie Basin. Central Otago has lakeside and riverside camps and plenty of holiday parks, and it is very hot in summer and cold at night in autumn, so plan for both.",
+      ], ["Pinot Noir on schist slopes", "Gibbston, Bannockburn, Bendigo", "Hot days, cold nights"]),
+      s("North Canterbury, Nelson and Gisborne", [
+        "Waipara, about an hour north of Christchurch on the way to Kaikōura and Hanmer Springs, is a small valley known for Riesling and Pinot Noir, with cellar doors close to State Highway 7. Nelson has two areas, the Waimea Plains near Richmond and the Moutere Hills, and the Great Taste Trail by bike passes through wine and craft beer country on its way to the coast.",
+        "Gisborne, on the East Coast, calls itself the Chardonnay capital and is the first city in the world to see the sun each day. It is far from the main routes, which keeps it quiet, and it combines well with the beaches and the drive around the East Cape.",
+      ], ["Waipara: Riesling near Christchurch", "Nelson: plains and hills by bike", "Gisborne: Chardonnay and the East Cape"]),
+      s("Auckland: Waiheke, Matakana and the west", [
+        "Waiheke Island, a ferry ride from downtown Auckland, has vineyards with sea views and is a popular day out, best done on foot, by bus or on a tour rather than taking the van across. Matakana, an hour north of Auckland, has a cluster of wineries, a Saturday market and good beaches, and the west of Auckland around Kumeū has some of the country's oldest wine families.",
+        "These are useful at the start or end of a trip, when you are near Auckland anyway. Book Waiheke ferry tickets ahead on summer weekends.",
+      ], ["Waiheke: go without the van", "Matakana: wineries and beaches", "Kumeū for older wine families"]),
+      s("Driving, tasting and when to go", [
+        "New Zealand's drink driving limit is low, and it is zero for drivers under 20. A tasting adds up quickly across several cellar doors, so the simplest plan is to park the van at a holiday park for the day and walk, cycle or join a tour, or have one person stay off the wine. Many cellar doors charge a small tasting fee that is waived if you buy, and some close one or two days a week, so check before you go.",
+        "Summer has the long evenings, the wine and food festivals and the busiest cellar doors. Harvest, in March and April, is a lovely time with golden vines and quieter roads. Winter is quiet and some cellar doors keep shorter hours. Stay on the tracks and roads, as vineyards are working farms and many ask visitors not to walk among the vines.",
+      ], ["Park the van, walk or cycle", "Zero alcohol limit under 20", "Harvest in March and April"]),
+      s("Planning your trip in KiwiCamping", [
+        "For a wine trip, KiwiCamping shows the holiday parks and campsites closest to the cellar doors, so you can park for the day and walk or cycle. Save them to a dated trip, and check the forecast at each stop before you plan a day on the bike.",
+        "Tours, bikes and tastings are booked with the operators. Free to download, with in-app purchases.",
+      ], ["Camps close to the cellar doors", "Save them to a dated trip", "Forecast before a cycling day"], true),
+    ],
+    faq: [
+      ["What is the best wine region to visit by campervan in New Zealand?", "Marlborough is the easiest, with flat land, close cellar doors and the Picton ferry nearby. Martinborough is compact and walkable, and Central Otago is the most scenic."],
+      ["Can I drive between wineries in New Zealand?", "The limit is low and zero for drivers under 20. Park the van for the day and walk, cycle or take a tour, or have one person stay off the wine."],
+    ],
+    sources: [
+      { label: "New Zealand Winegrowers: wine regions", url: "https://www.nzwine.com/en/regions/" },
+      { label: "NZ Transport Agency: alcohol and drugs", url: "https://www.nzta.govt.nz/safety/driving-safely/alcohol-and-drugs/" },
+      { label: "Tourism New Zealand: wine regions", url: "https://www.newzealand.com/" },
+    ],
+  }),
 ];

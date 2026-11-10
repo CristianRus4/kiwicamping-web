@@ -258,3 +258,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `banks-peninsula-campsites` | Akaroa Harbour NZ. (49671627386).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa_Harbour_NZ._(49671627386).jpg) |
 | `kaikoura-wildlife-and-diving` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
 | `kea-and-wildlife-encounters-new-zealand` | Nestor notabilis -Fiordland, New Zealand-8b.jpg | Mark Whatmough | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Nestor_notabilis_-Fiordland,_New_Zealand-8b.jpg) |
+| `new-zealand-wine-regions-campervan` | Wairau Valley vineyards in Marlborough, New Zealand.jpg | Jonathan Harker | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Wairau_Valley_vineyards_in_Marlborough,_New_Zealand.jpg) |
