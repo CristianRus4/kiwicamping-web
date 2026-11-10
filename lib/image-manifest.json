@@ -2281,6 +2281,20 @@
       }
     ]
   },
+  "/images/articles/kea-and-wildlife-encounters-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/kea-and-wildlife-encounters-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/kea-and-wildlife-encounters-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/kepler-track-camping-2026-27.webp": {
     "width": 1600,
     "height": 900,

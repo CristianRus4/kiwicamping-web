@@ -114,4 +114,58 @@ export const k10Articles: Article[] = [
       { label: "Kaikōura: visitor information", url: "https://www.kaikoura.co.nz/" },
     ],
   }),
+  a({
+    slug: "kea-and-wildlife-encounters-new-zealand",
+    title: "Kea and Wildlife Encounters in New Zealand: Where to See Them From a Campervan",
+    description: "Where campers meet New Zealand's wildlife: kea in the Southern Alps, kiwi at night, weka at the campsite, penguins, sea lions and island sanctuaries, plus how to keep the animals and your van safe.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["Arthur's Pass", "Homer Tunnel", "Aoraki Mount Cook", "Rakiura Stewart Island", "Otago Peninsula", "Oamaru", "Tiritiri Matangi", "Zealandia"],
+    imageAlt: "A kea, an olive-green alpine parrot, perched on a rock in Fiordland",
+    related: ["wildlife-livestock-road-safety-new-zealand", "kaikoura-wildlife-and-diving", "arthurs-pass-camping-route", "queenstown-to-milford-sound-drive-guide", "rakiura-stewart-island-camping-guide", "dogs-camping-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "New Zealand's wildlife is mostly birds, and many of them live nowhere else. A campervan trip brings you closer to them than most holidays do: a kea inspecting your roof at a mountain car park, a weka walking off with a teaspoon, a penguin coming ashore at dusk. These encounters are part of the trip, and a few simple habits keep them good for you and for the animals, several of which are threatened.",
+    sections: [
+      s("Kea: the mountain parrot", [
+        "The kea is a large olive-green parrot with orange under its wings, found only in the mountains of the South Island. It is famously curious and clever, and it lives where campers stop: Arthur's Pass village and the pass itself, the Homer Tunnel on the road to Milford Sound, Aoraki Mount Cook and the high car parks on the West Coast glaciers. You will often hear the loud 'keee-aa' call before you see the bird.",
+        "Kea are nationally endangered, and the worst thing you can do is feed them. Human food makes them sick, and birds that learn to beg hang around roads and car parks, where they are hit by vehicles. Enjoy watching, take photos from a distance, and keep your food packed away.",
+      ], ["South Island mountains only", "Arthur's Pass, Homer Tunnel, Aoraki", "Never feed them"]),
+      s("Keeping your van kea-proof", [
+        "Kea love rubber and soft plastic, and a parked campervan is a playground. They pull at window seals, wiper blades, roof vents, aerials and anything strapped to the roof, and they will open an unzipped bag in seconds. At the mountain car parks, close the windows and the roof vents, bring boots, food and bags inside, and do not leave the van for long in the places where they gather.",
+        "If one lands on your van, do not try to grab it or chase it. Move the van or wait, and it will usually lose interest. A tent at a mountain campsite needs the same care: food and shoes inside, and nothing left out overnight.",
+      ], ["Close windows and roof vents", "Nothing on the roof or outside", "Do not handle the birds"]),
+      s("Weka, kiwi and the night", [
+        "Weka are brown, flightless and bold, and they are common at campsites in the Abel Tasman, Golden Bay, the West Coast and the Marlborough Sounds. They look like kiwi to many visitors but walk about in daylight and will take shiny things and food straight from a table. Keep food in the van and zip the tent.",
+        "Wild kiwi are hard to see, since they are nocturnal and shy. Rakiura Stewart Island is the best place to have a real chance, often on a guided night walk, and Northland's kauri forests also have night tours. Use a red torch, stay quiet and keep to the track. Where you see kiwi crossing signs, drive slowly after dark, and keep dogs on a lead or in the van, as a single dog can kill a kiwi.",
+      ], ["Weka steal food at campsites", "Rakiura for wild kiwi", "Dogs and kiwi do not mix"]),
+      s("Penguins, sea lions and seals", [
+        "Little penguins come ashore at dusk at several places, and Oamaru has a viewing area beside the harbour. The yellow-eyed penguin, or hoiho, is one of the rarest penguins in the world, and the Otago Peninsula and the Catlins are the places to see it, from hides and signed viewing points rather than the beach. Arrive early, stay behind the barriers and keep your torch off.",
+        "New Zealand sea lions rest on beaches in the Catlins and around Dunedin, and fur seals are common on rocky coasts from Kaikōura to Cape Foulwind. Both can move quickly. Stay at least 20 metres away, do not block their path to the sea and keep dogs well clear. The Otago Peninsula also has the only mainland albatross breeding colony, at Taiaroa Head.",
+      ], ["Little penguins at dusk", "Hoiho from hides only", "20 metres from seals and sea lions"]),
+      s("Island sanctuaries and city sanctuaries", [
+        "Predator-free islands are the easiest places to see rare birds close up. Tiritiri Matangi, a ferry ride from Auckland, has takahē, kōkako and saddleback on open tracks. Ulva Island, a short water taxi from Stewart Island, has birds that are rare on the mainland. Before you board, check your bags, shoes and gear for seeds, soil and stowaway pests, as the islands depend on it.",
+        "In Wellington, Zealandia is a fenced valley with kākā, takahē and tuatara a short drive from the city, and Orokonui near Dunedin is similar. They work well on a wet day or a city stop, and many campers say they saw more native birds there than anywhere else on their trip.",
+      ], ["Tiritiri Matangi and Ulva Island", "Check gear for pests before boarding", "Zealandia and Orokonui"]),
+      s("Good habits around wildlife", [
+        "The basics are simple: do not feed any wild animal, keep your distance, keep dogs out of national parks and on a lead elsewhere, and slow down on roads at dawn and dusk. Take all your food scraps and rubbish with you, since they attract rats and stoats that eat eggs and chicks.",
+        "If you find an injured bird or a seal in trouble, note where it is and call the DOC hotline rather than handling it. The wildlife and livestock road safety guide covers animals on the road, from sheep to pūkeko.",
+      ], ["Never feed wildlife", "Slow down at dawn and dusk", "Call DOC about injured animals"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping maps DOC campsites, huts and holiday parks near the places these animals live, from Arthur's Pass to the Otago Peninsula. Add the stops to a dated trip and the forecast shows for each one, which helps you pick a clear evening for a penguin or kiwi walk.",
+        "Tours and sanctuary visits are booked with the operators. Free to download, with in-app purchases.",
+      ], ["Save the camps near wildlife spots", "Dated trip with forecasts", "Pick a clear evening for night walks"], true),
+    ],
+    faq: [
+      ["Where can you see kea in New Zealand?", "In the South Island mountains, especially Arthur's Pass, the Homer Tunnel on the Milford Road and Aoraki Mount Cook. Watch from a distance and never feed them."],
+      ["Do kea damage campervans?", "They can. Kea pull at rubber seals, wipers, vents and anything on the roof. Close the van up, bring things inside and do not leave it long where they gather."],
+    ],
+    sources: [
+      { label: "DOC: kea", url: "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kea/" },
+      { label: "DOC: kiwi", url: "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/" },
+      { label: "DOC: yellow-eyed penguin", url: "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/yellow-eyed-penguin-hoiho/" },
+      { label: "DOC: marine mammal viewing", url: "https://www.doc.govt.nz/nature/native-animals/marine-mammals/" },
+      { label: "Kea Conservation Trust", url: "https://www.keaconservation.co.nz/" },
+    ],
+  }),
 ];
