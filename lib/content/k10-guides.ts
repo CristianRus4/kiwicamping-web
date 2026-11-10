@@ -324,4 +324,57 @@ export const k10Articles: Article[] = [
       { label: "DOC: fires and fireworks", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/fire-safety/" },
     ],
   }),
+  a({
+    slug: "sunrise-spots-new-zealand-campervan",
+    title: "Sunrise Spots in New Zealand You Can Reach From a Campsite",
+    description: "The best places to watch the sunrise in New Zealand on a campervan trip, from the East Cape and Mount Maunganui to Lake Matheson, Tekapo, Moeraki and Nugget Point, with where to sleep nearby and how to time it.",
+    category: "Trip planning",
+    region: "New Zealand",
+    places: ["East Cape", "Mount Maunganui", "Hahei", "Castlepoint", "Kaikōura", "Lake Tekapo", "Lake Matheson", "Moeraki", "Nugget Point", "Wānaka"],
+    imageAlt: "The Ahuriri River in Canterbury in the soft light before sunrise",
+    related: ["scenic-lookouts-new-zealand-drive-up", "scenic-campsites-new-zealand", "east-cape-road-trip", "camping-in-tekapo", "southern-scenic-route-camping", "lupins-and-southern-lights-camping-new-zealand"],
+    hubs: ["camping"],
+    intro:
+      "Waking up in a campervan is the easiest way to catch a New Zealand sunrise. You can sleep a few minutes from the beach, the lake or the lookout, put the kettle on in the dark and be in place before the light comes up. These are some of the best spots around the country, with a campsite or holiday park close enough to make an early start feel easy.",
+    sections: [
+      s("The East Cape and the Bay of Plenty", [
+        "Gisborne and the East Cape are among the first places in the world to see the sun each day, and the East Cape lighthouse, up a long flight of steps at the end of a gravel road, is the classic spot. Camp at one of the bays along State Highway 35 the night before and drive out in the dark. The East Cape road trip guide has the route.",
+        "Mount Maunganui's summit track is a short, steep climb from the beach and gives a sunrise over the ocean with the harbour behind you. The holiday park at the foot of the mountain means you can walk from your van. Expect company: it is a popular morning ritual.",
+      ], ["East Cape lighthouse at first light", "Camp along SH35 the night before", "Mount Maunganui summit from the beach"]),
+      s("The Coromandel and the Wairarapa", [
+        "On the Coromandel, the beaches face east, so almost any of them works. Hahei and the walk towards Cathedral Cove are beautiful at dawn and much quieter than later in the day, and Hot Water Beach and Whangamatā are easy from a nearby holiday park.",
+        "Castlepoint, on the Wairarapa coast, has a lighthouse on a limestone reef and a long beach facing the sunrise. There is a campground right by the beach, so you can walk out to the lighthouse in a few minutes.",
+      ], ["Hahei at dawn, before the crowds", "Most Coromandel beaches face east", "Castlepoint lighthouse from the campground"]),
+      s("Kaikōura and the Mackenzie", [
+        "Kaikōura's sunrise comes up over the Pacific with the snowy Seaward Kaikōura Range lit pink behind the town, so face the sea first and then turn around. The beachfront and the peninsula road are both good, and there are holiday parks along the shore.",
+        "In the Mackenzie Basin, Lake Tekapo and Lake Pukaki are better known for stars, but the early light on the mountains is just as good. From the shore of Lake Pukaki, Aoraki Mount Cook often turns pink before the sun reaches the water. The camping in Tekapo guide covers the places to stay.",
+      ], ["Kaikōura: sea first, then the mountains", "Pukaki: pink light on Aoraki", "Dark-sky nights, then an early start"]),
+      s("The West Coast and Wānaka", [
+        "Lake Matheson, near Fox Glacier, is famous for its mirror reflections of Aoraki Mount Cook and Mount Tasman, and the water is stillest in the early morning. The walk round to the viewpoint takes a while, so start in the half-light. Camp at Fox Glacier the night before.",
+        "In Wānaka, the lone willow standing in the lake by the waterfront is one of the most photographed trees in the country, and it is best at sunrise, when the light comes from behind the mountains across the lake. Walk down from town, and leave the van in a legal park rather than on the lakefront.",
+      ], ["Lake Matheson: still water at dawn", "Camp at Fox Glacier the night before", "The Wānaka tree at sunrise"]),
+      s("Otago and the Catlins", [
+        "The Moeraki Boulders, on the beach between Oamaru and Dunedin, are at their best at sunrise and low tide, when the sun comes up behind the boulders over the sea. There is a holiday park in Moeraki village, a short drive away. Check the tide times before you set the alarm.",
+        "Nugget Point, in the Catlins, has a lighthouse on a narrow ridge above a scatter of rocky islets, with seals and seabirds below. The track from the car park is short, and the sunrise lights up the islets one by one. The Southern Scenic Route guide covers the camps in the Catlins.",
+      ], ["Moeraki: sunrise and low tide", "Nugget Point lighthouse", "Camp in the Catlins the night before"]),
+      s("Timing, light and safety", [
+        "In summer the sun rises around 6am in the north and close to 6am in the south, and in winter closer to 7.30 or 8am. The best colour is often in the twenty minutes before the sun appears, so aim to arrive in the half-light. Check the forecast for cloud the evening before, since a thin high cloud often makes the best sunrise and a thick low one hides it completely.",
+        "Take a head torch, warm clothes and a hot drink, as the early mornings are cold even in summer. Watch for wildlife and stock on the road in the dark, keep to the tracks on clifftops, and do not climb fences or barriers for a better view. Many of these spots are popular, so be quiet in car parks and campsites while others are still asleep.",
+      ], ["Best colour before the sun appears", "Check the cloud forecast", "Head torch and warm clothes"]),
+      s("Planning your trip in KiwiCamping", [
+        "To catch a sunrise, KiwiCamping helps you find the DOC campsites and holiday parks closest to each lookout, beach or lake, so the alarm can be set as late as possible. Add them to a dated trip, and the forecast for each stop helps you choose the morning most likely to be clear.",
+        "Campsite bookings stay with DOC and the holiday parks. Free to download, with in-app purchases.",
+      ], ["Sleep close to the sunrise spot", "Save it to a dated trip", "Pick the clearest morning"], true),
+    ],
+    faq: [
+      ["Where is the best place to watch the sunrise in New Zealand?", "The East Cape lighthouse is among the first places in the world to see the sun. Mount Maunganui, Lake Matheson, the Moeraki Boulders and Nugget Point are also favourites."],
+      ["Can you camp near the Moeraki Boulders for sunrise?", "Yes. There is a holiday park in Moeraki village a short drive away. Go at low tide and check the tide times the night before."],
+    ],
+    sources: [
+      { label: "DOC: Lake Matheson walk", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/westland-tai-poutini-national-park/things-to-do/tracks/lake-matheson-walk/" },
+      { label: "DOC: Nugget Point Tokatā", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-conservation-park/things-to-do/nugget-point-tokata-walk/" },
+      { label: "MetService: sunrise and sunset times", url: "https://www.metservice.com/" },
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+    ],
+  }),
 ];

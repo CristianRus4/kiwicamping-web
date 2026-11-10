@@ -3191,6 +3191,20 @@
       }
     ]
   },
+  "/images/articles/sunrise-spots-new-zealand-campervan.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/sunrise-spots-new-zealand-campervan-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/sunrise-spots-new-zealand-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/surf-highway-45-camping-guide.webp": {
     "width": 1600,
     "height": 900,
