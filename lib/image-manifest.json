@@ -2253,6 +2253,20 @@
       }
     ]
   },
+  "/images/articles/kaikoura-wildlife-and-diving.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/kaikoura-wildlife-and-diving-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/kaikoura-wildlife-and-diving.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/kauri-dieback-camping-travel.webp": {
     "width": 1600,
     "height": 900,

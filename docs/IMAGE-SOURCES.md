@@ -256,3 +256,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `easy-campervan-meals-new-zealand` | Camping food outdoor.jpg | PXHERE | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Camping_food_outdoor.jpg) |
 | `new-zealand-experiences-under-100-dollars` | Hot Water Beach kz2.jpg | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hot_Water_Beach_kz2.jpg) |
 | `banks-peninsula-campsites` | Akaroa Harbour NZ. (49671627386).jpg | Bernard Spragg. NZ from Christchurch, New Zealand | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Akaroa_Harbour_NZ._(49671627386).jpg) |
+| `kaikoura-wildlife-and-diving` | Kaikoura coast.jpg | AnnWoolliams | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Kaikoura_coast.jpg) |
