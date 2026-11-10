@@ -382,7 +382,8 @@ em { color: inherit; font: inherit; font-style: normal; }
 .converter-grid { margin: 26px 0; display: grid; gap: 12px; }
 .converter-grid label { display: grid; gap: 5px; color: var(--muted); font-size: 11px; font-weight: 700; }
 .converter-grid input, .converter-grid select { width: 100%; height: 44px; padding: 0 12px; border: 1px solid var(--line); background: var(--cream); color: var(--ink); font: inherit; }
-.tool-output { min-height: 72px; padding: 18px; border-inline-start: 4px solid var(--eucalyptus); background: var(--soft); display: flex; align-items: center; color: var(--ink); font-size: 26px; font-weight: 750; }
+/* Results are assembled in the browser from numbers, units and words; plaintext takes the direction from the first letter, so "120.0 L · NZ$355.20" stays in order on a Hebrew page and a Hebrew result still reads right to left. */
+.tool-output { min-height: 72px; padding: 18px; border-inline-start: 4px solid var(--eucalyptus); background: var(--soft); display: flex; align-items: center; color: var(--ink); font-size: 26px; font-weight: 750; unicode-bidi: plaintext; }
 /* Five tool cards in a two-column grid leave one alone on the last row, so the campsite
    comparison spans the full width and lays its four inputs out side by side. */
 .tool-card:nth-child(5) { grid-column: 1 / -1; }
