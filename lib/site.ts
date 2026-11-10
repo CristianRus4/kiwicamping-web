@@ -20,6 +20,7 @@ import { driveGuideArticles } from "@/lib/content/drive-guides";
 import { k7Articles } from "@/lib/content/k7-guides";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
+import { lakesWalksViewsArticles } from "@/lib/content/lakes-walks-views";
 import type { Article, ArticleCategory } from "@/lib/article-model";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 import { applyScreenFigures } from "@/lib/screen-figures";
@@ -90,6 +91,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...driveGuideArticles,
   ...k7Articles,
   ...migratedArticles,
+  ...lakesWalksViewsArticles,
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   .concat(scheduleFixture<Article>() ?? []));
 for (const item of allArticles) {

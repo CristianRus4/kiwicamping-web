@@ -867,6 +867,20 @@
       }
     ]
   },
+  "/images/articles/christchurch-campervan-starting-point.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/christchurch-campervan-starting-point-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/christchurch-campervan-starting-point.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/christchurch-tekapo-aoraki-road-trip.webp": {
     "width": 1600,
     "height": 900,
@@ -2225,6 +2239,20 @@
       }
     ]
   },
+  "/images/articles/lakeside-camping-south-island.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/lakeside-camping-south-island-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/lakeside-camping-south-island.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/left-side-driving-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -2235,6 +2263,20 @@
       },
       {
         "path": "/images/articles/left-side-driving-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/long-weekend-camping-new-zealand.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/long-weekend-camping-new-zealand-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/long-weekend-camping-new-zealand.webp",
         "width": 1600
       }
     ]
@@ -2645,6 +2687,20 @@
       }
     ]
   },
+  "/images/articles/queenstown-walks-camping-base.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/queenstown-walks-camping-base-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/queenstown-walks-camping-base.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/rakiura-stewart-island-camping-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -2823,6 +2879,20 @@
       },
       {
         "path": "/images/articles/scenic-campsites-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/scenic-lookouts-new-zealand-drive-up.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/scenic-lookouts-new-zealand-drive-up-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/scenic-lookouts-new-zealand-drive-up.webp",
         "width": 1600
       }
     ]
@@ -3061,6 +3131,20 @@
       },
       {
         "path": "/images/articles/wellington-3-days-campervan.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/wellington-hikes-camping-base.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wellington-hikes-camping-base-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wellington-hikes-camping-base.webp",
         "width": 1600
       }
     ]
