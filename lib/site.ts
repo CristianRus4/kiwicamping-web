@@ -14,6 +14,7 @@ import { freedomTownArticles } from "@/lib/content/freedom-towns";
 import { campingBaseArticles } from "@/lib/content/camping-bases";
 import { cityTripArticles } from "@/lib/content/city-trips";
 import { k9Articles } from "@/lib/content/k9-guides";
+import { k10Articles } from "@/lib/content/k10-guides";
 import { greatWalksArticles } from "@/lib/content/great-walks";
 import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
@@ -87,6 +88,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...campingBaseArticles,
   ...cityTripArticles,
   ...k9Articles,
+  ...k10Articles,
   ...greatWalksArticles,
   ...costsWhvArticlesA,
   ...costsWhvArticlesB,
