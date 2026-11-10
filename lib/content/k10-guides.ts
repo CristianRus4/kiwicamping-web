@@ -220,4 +220,56 @@ export const k10Articles: Article[] = [
       { label: "Tourism New Zealand: wine regions", url: "https://www.newzealand.com/" },
     ],
   }),
+  a({
+    slug: "two-week-new-zealand-trip-cost",
+    title: "How Much Money Do You Need for Two Weeks in New Zealand?",
+    description: "What a two-week trip in New Zealand costs for campers: a lean, comfortable and treat-yourself fortnight per person, plus the campervan, fuel, ferry and activities, and how to build your own number.",
+    category: "Costs & budget",
+    region: "New Zealand",
+    places: ["Auckland", "Christchurch", "Queenstown", "Rotorua", "Cook Strait", "Fiordland"],
+    imageAlt: "Lake Hāwea in Otago with mountains around the water",
+    related: ["new-zealand-travel-cost-2026", "campervan-budget-new-zealand", "campervan-hire-cost-new-zealand-2026", "two-week-camper-itinerary-new-zealand", "new-zealand-road-trip-fuel-cost-2026", "cook-strait-ferry-campervan-guide"],
+    hubs: ["camping"],
+    intro:
+      "Two weeks is the most common length for a New Zealand road trip, and the question everyone asks before booking is how much money to bring. Using the daily ranges in our travel cost guide, a fortnight costs roughly NZ$1,050 to $1,700 per person for a lean camper, $2,100 to $3,600 for a comfortable trip and $3,900 to $6,300 with private rooms and paid activities, before the vehicle and flights. The vehicle, the season and two or three big activities move the total more than anything else, so build your own number from those first.",
+    sections: [
+      s("Three ways to spend a fortnight", [
+        "A lean fortnight means cooking nearly every meal, staying at DOC campsites and the occasional holiday park, and choosing free walks over paid tours. A comfortable fortnight adds powered sites most nights, a few meals out, coffee most days and a couple of paid activities. The top tier swaps some van nights for motels or lodges and books an activity most days.",
+        "These figures are per person and exclude the vehicle and flights. Use them as a starting point, then adjust for your own habits: people who eat out every evening or book a scenic flight in every region spend well above the comfortable range.",
+      ], ["Lean: cook, DOC sites, free walks", "Comfortable: powered sites, a few meals out", "Figures exclude vehicle and flights"]),
+      s("The vehicle is the biggest single line", [
+        "A campervan for two weeks can cost very little or a great deal, depending on the season, the size of the van and how early you book. A small van in the off-season can be cheaper than a fortnight of hostel beds for two, while a large motorhome in January can cost more than everything else combined. Add the insurance option, the bond held on your card and any one-way fee before you compare.",
+        "Split the vehicle cost across everyone sharing it, and remember that it covers both transport and a bed. The campervan hire cost guide breaks down the extras, and the campervan budget guide shows how to price the whole package.",
+      ], ["Season and van size decide the price", "Add insurance, bond and one-way fees", "Split it across the group"]),
+      s("Fuel, ferry and road costs", [
+        "Fuel depends on distance more than anything. A relaxed two-week route covers perhaps 2,000 to 3,000 kilometres, and a rushed one that tries to see both islands covers far more. Diesel vans pay road user charges on top of the pump price, and some rental companies collect them at the end of the hire, so ask before you leave.",
+        "If you cross between the islands, the Cook Strait ferry with a campervan is a fixed cost that is easy to forget, and it rises in summer. The fuel cost guide and the Cook Strait ferry guide have more on both.",
+      ], ["Distance drives fuel", "Road user charges on diesel", "Price the ferry separately"]),
+      s("Campsites, food and the small things", [
+        "Campsites are usually a smaller line than people expect. Mixing free and low-cost DOC sites with a holiday park every few nights keeps the total low while still giving you showers and laundry. Food is the line you control most: a supermarket shop every few days and one meal out a day costs far less than eating out twice.",
+        "Then there are the small things that add up over a fortnight: showers at pay stations, laundry, dump station fees, a local SIM or roaming plan, coffee and car parks in the cities. Leave room for them rather than discovering them in week two.",
+      ], ["Mix DOC sites and holiday parks", "Groceries every few days", "Budget for showers, laundry, SIM"]),
+      s("Activities and the season", [
+        "A single scenic flight, jet boat, glacier walk or Milford Sound cruise can cost as much as several ordinary days. Pick the two or three you care about most before you go, book them, and treat everything else as a bonus. Many of the best things to do in New Zealand, from the walks to the hot pools by the river, are free or cheap.",
+        "December to February is the most expensive time, with higher vehicle rates and busier campsites. March, April and November are cheaper and still warm enough for most people, and winter is cheapest of all outside the ski towns.",
+      ], ["Choose two or three big activities", "Many highlights are free", "Shoulder season is cheaper"]),
+      s("Building your own number", [
+        "Start with the fixed costs: flights, the vehicle and its extras, the ferry and the activities you have booked. Add fuel for your route, then multiply your daily range for food, campsites and small things by 14. Finally, add a reserve of ten to fifteen percent for a changed plan, a flat tyre or an extra night in a holiday park when the weather turns.",
+        "Check your spending every few days on the road. Fuel, takeaway food and activities are the lines that drift, and catching them early is much easier than cutting back in the last week. The two-week campervan itinerary guide has a route to build the plan around.",
+      ], ["Fixed costs first", "Daily range times 14", "Keep a 10 to 15 percent reserve"]),
+      s("Planning your trip in KiwiCamping", [
+        "KiwiCamping's fee and facilities filters help you find the free and low-cost campsites that keep a fortnight's accommodation down, along with holiday parks for the nights you want a shower. Add each night to a dated trip, and the forecast for each stop helps you move a paid activity to a clear day.",
+        "DOC and holiday park bookings stay with them. Free to download, with in-app purchases.",
+      ], ["Free and low-cost campsite filters", "All 14 nights on one dated trip", "Move activities to clear days"], true),
+    ],
+    faq: [
+      ["How much money do I need for two weeks in New Zealand?", "Roughly NZ$1,050 to $1,700 per person for a lean camping trip, $2,100 to $3,600 for a comfortable one and more with private rooms, before the vehicle and flights."],
+      ["What is the biggest cost of a two-week campervan trip?", "Usually the vehicle, especially in summer. Fuel, the Cook Strait ferry and two or three big activities come next."],
+    ],
+    sources: [
+      { label: "Tourism New Zealand: plan your trip", url: "https://www.newzealand.com/" },
+      { label: "NZ Transport Agency: road user charges", url: "https://www.nzta.govt.nz/vehicles/road-user-charges/" },
+      { label: "DOC: campsite categories and fees", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+    ],
+  }),
 ];

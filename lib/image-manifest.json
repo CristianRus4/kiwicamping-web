@@ -3275,6 +3275,20 @@
       }
     ]
   },
+  "/images/articles/two-week-new-zealand-trip-cost.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/two-week-new-zealand-trip-cost-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/two-week-new-zealand-trip-cost.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/volcanic-loop-road-trip-new-zealand.webp": {
     "width": 1600,
     "height": 900,
