@@ -250,3 +250,8 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `wellington-hikes-camping-base` | Wellington Harbour, New Zealand, Nov. 2009.jpg | Phillip Capper | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg) |
 | `lakeside-camping-south-island` | Lake Wanaka - northern part, New Zealand.jpg | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lake_Wanaka_-_northern_part,_New_Zealand.jpg) |
 | `scenic-lookouts-new-zealand-drive-up` | Lindis Pass, New Zealand (5).JPG | Michal Klajban | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Lindis_Pass,_New_Zealand_(5).JPG) |
+| `great-barrier-island-camping` | Pa Beach, Great Barrier Island, NZ.jpg | Nurg | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Pa_Beach,_Great_Barrier_Island,_NZ.jpg) |
+| `punakaiki-oparara-basin-camping` | Punakaiki Pancake Rocks - December 2025.jpg | Jun Jie Yam | CC BY 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Punakaiki_Pancake_Rocks_-_December_2025.jpg) |
+| `eco-stays-near-new-zealand-cities` | Native Bush Waitakere Ranges.jpg | Ingolfson | Public domain | [Source](https://commons.wikimedia.org/wiki/File:Native_Bush_Waitakere_Ranges.jpg) |
+| `easy-campervan-meals-new-zealand` | Camping food outdoor.jpg | PXHERE | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Camping_food_outdoor.jpg) |
+| `new-zealand-experiences-under-100-dollars` | Hot Water Beach kz2.jpg | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Hot_Water_Beach_kz2.jpg) |
