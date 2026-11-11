@@ -247,7 +247,7 @@ test("every page labels its main element for analytics",async()=>{
 });
 
 
-test("every guide, in every language, has the side box and the dark end box with the QR code on hover, and no box inside the text",async()=>{
+test("every guide, in every language, has the side box and the dark end box with the QR code on hover, and one standard box inside the text",async()=>{
   let guides=0;
   for(const {path,html} of (await pagesPromise).filter((page)=>generated(page.path))){
     if(!/data-page-kind="guide"/.test(html))continue;
@@ -256,7 +256,8 @@ test("every guide, in every language, has the side box and the dark end box with
     assert.match(html,/<div class="article-end-cta">/,`${path} end box`);
     assert.equal((html.match(/<path id="guide-qr"/g)??[]).length,1,`${path} draws the QR code once`);
     assert.match(html,/<div class="article-end-cta">[\s\S]*?<div class="store-qr">[\s\S]*?<use href="#guide-qr"/,`${path} end box reuses the QR code`);
-    assert.doesNotMatch(html,/class="(?:answer-cta|context-cta)"/,`${path} has no download box inside the text`);
+    assert.doesNotMatch(html,/class="(?:answer-cta|context-cta)"/,`${path} has no white download box inside the text`);
+    assert.equal((html.match(/class="article-mid-cta"/g)??[]).length,1,`${path} has one download box inside the text`);
   }
   assert.ok(guides>1000,`expected guides in every language, found ${guides}`);
 });
