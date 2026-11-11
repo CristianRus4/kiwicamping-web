@@ -11,6 +11,8 @@ import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 import { allArticles, articles, isScheduled } from "../lib/site.ts";
 import { redirects } from "../lib/redirects.ts";
 import { screenFigures } from "../lib/screen-figures.ts";
+import { introCtaStrings } from "../lib/source-strings.ts";
+import { guideIntroCta, splitIntroCta } from "../lib/intro-cta.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
 const locales=liveLocales;
@@ -187,6 +189,27 @@ test("every App Store link carries its placement and campaign",async()=>{
     }
   }
   assert.ok(links>=pages.length,`expected store links on every page, found ${links}`);
+});
+
+test("the top guides end their first paragraph with the app sentence and its intro link",async()=>{
+  const unescapeText=(value)=>value.replace(/&#x27;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
+  const english=new Set();
+  for(const {path,html:page} of (await pagesPromise).filter((item)=>generated(item.path))){
+    const html=page;
+    const slug=/<main\b[^>]*data-page-kind="guide"[^>]*data-slug="([^"]+)"/.exec(html)?.[1]??/<main\b[^>]*data-slug="([^"]+)"[^>]*data-page-kind="guide"/.exec(html)?.[1];
+    if(!slug||!(slug in introCtaStrings))continue;
+    const locale=pageLocale(path);
+    const intro=/<p class="article-intro">([\s\S]*?)<\/p>/.exec(html)?.[1]??"";
+    const links=[...intro.matchAll(/<a\b[^>]*>([^<]*)<\/a>/g)];
+    const expected=guideIntroCta(slug,locale,locale!=="en"&&isArticleTranslated(locale,slug));
+    if(!expected){assert.equal(links.length,0,`${path} shows an intro link with no sentence for its language`);continue}
+    assert.equal(links.length,1,`${path} has ${links.length} links in its first paragraph`);
+    assert.match(links[0][0],/ data-cta="intro"/,`${path} intro link placement`);
+    assert.match(links[0][0],/ class="intro-cta"/,`${path} intro link class`);
+    assert.equal(unescapeText(links[0][1]),splitIntroCta(expected).link,`${path} intro link text`);
+    if(locale==="en")english.add(slug);
+  }
+  assert.deepEqual([...english].sort(),Object.keys(introCtaStrings).sort(),"every English guide with a sentence shows it");
 });
 
 test("schema install URLs stay the clean listing URL and the smart banner carries its campaign",async()=>{

@@ -1,4 +1,4 @@
-import { answerStrings, consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
+import { answerStrings, consentStrings, introCtaStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -30,6 +30,9 @@ export function translationSource() {
     summer: summerStrings,
     // The download line after each page's opening answer (components/answer-cta.tsx).
     answers: answerStrings,
+    // The app sentence at the end of a guide's first paragraph (lib/intro-cta.ts). Optional per
+    // locale; keep the <a>…</a> around the linked words.
+    introCta: introCtaStrings,
     pages: staticPages,
     // The calculator pages. Gated per tool (lib/tools.ts), so a partial `tools` block never
     // unpublishes a locale; keep every {placeholder} exactly.

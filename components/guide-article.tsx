@@ -5,6 +5,8 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { AnswerCta } from "@/components/answer-cta";
 import { getAnswerString } from "@/lib/localized";
+import { IntroCta } from "@/components/intro-cta";
+import { guideIntroCta } from "@/lib/intro-cta";
 import { ContextCta, ContextEndCta, ctaVariantFor } from "@/components/context-cta";
 import { SectionTable } from "@/components/article-table";
 import { ArticleCard } from "@/components/article-card";
@@ -46,6 +48,7 @@ export function GuideArticle({ item }: { item: Article }) {
   const placement = item.listicle ? "listicle" : "card";
   const ctaVariant = ctaVariantFor(item);
   const answer = getAnswerString("en", item.slug);
+  const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
     <Header />
@@ -69,7 +72,7 @@ export function GuideArticle({ item }: { item: Article }) {
         </figure>
         <div className="article-layout">
           <div className="article-body">
-            <p className="article-intro">{item.intro}</p>
+            <p className="article-intro">{item.intro}<IntroCta text={introCta} locale="en" /></p>
             {answer && <AnswerCta text={answer} locale="en" label="Download KiwiCamping" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">NZD</span>

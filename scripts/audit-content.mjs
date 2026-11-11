@@ -57,6 +57,19 @@ const { localeCodes, locales, liveLocales } = await import("../lib/locales.ts");
 const { fullyTranslatedSlugs, isArticleTranslated, isStaticPageTranslated, isTranslated, requiredUiKeys, translationProgress } = await import("../lib/localized.ts");
 const { staleFiles } = await import("./sync-locales.mjs");
 const { leaves, staleSummary } = await import("./translations-stamp.mjs");
+
+/**
+ * The app sentence at the end of a guide's first paragraph (lib/intro-cta.ts). Every key is a guide,
+ * and every English and translated sentence is exactly one <a>…</a> around its linked words with no
+ * other markup, so the renderer never drops a link or prints a tag. Translations are optional, and
+ * their numbers and brands are checked below with the rest of what the site renders.
+ */
+const { introCtaStrings } = await import("../lib/source-strings.ts");
+const { splitIntroCta } = await import("../lib/intro-cta.ts");
+for (const [slug, text] of Object.entries(introCtaStrings)) {
+  assert.ok(slugs.includes(slug), `introCta.${slug} is not a guide on this site`);
+  assert.ok(splitIntroCta(text), `introCta.${slug} must hold exactly one <a>…</a> and no other markup`);
+}
 const { translationSourceText } = await import("../lib/translation-source.ts");
 
 // Translators work from en.json, so it must say exactly what the English site says.
@@ -68,8 +81,8 @@ assert.equal(stale.length, 0, `Stale locale files, run npm run locales:sync: ${s
 assert.deepEqual([...localeCodes], locales.map((entry) => entry.code), "lib/translations/index.ts is out of step with lib/locales.json");
 
 /**
- * Numbers and brands survive translation. Checked on what the site actually renders: every UI and
- * consent string, and each article or page whose translation is complete.
+ * Numbers and brands survive translation. Checked on what the site actually renders: every UI,
+ * consent and intro-sentence string, and each article or page whose translation is complete.
  *
  * - Every amount after $, NZ$, A$, US$, NZD or AUD in English must appear as a number in the
  *   translation, and every amount next to a currency in the translation must exist in the English.
@@ -125,6 +138,11 @@ for (const locale of localeCodes) {
   assert.equal(translated.locale ?? locale, locale, `lib/translations/${locale}.json declares locale ${translated.locale}`);
   assert.doesNotMatch(JSON.stringify(translated), /—/, `${locale} contains an em dash`);
 
+  for (const [slug, text] of Object.entries(translated.introCta ?? {})) {
+    assert.ok(slug in introCtaStrings, `${locale} translates introCta.${slug}, which has no English sentence`);
+    assert.ok(!text.trim() || splitIntroCta(text), `${locale} introCta.${slug} must hold exactly one <a>…</a> and no other markup`);
+  }
+
   const complete = new Set(fullyTranslatedSlugs(locale));
   for (const slug of Object.keys(translated.articles ?? {})) {
     assert.ok(complete.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site falls back to English for it. Finish it or remove it.`);
@@ -139,6 +157,7 @@ for (const locale of localeCodes) {
   const rendered = leaves({
     ui: translated.ui ?? {},
     consent: translated.consent ?? {},
+    introCta: translated.introCta ?? {},
     pages: Object.fromEntries(["support", "privacy", "terms"].filter((kind) => isStaticPageTranslated(locale, kind)).map((kind) => [kind, translated.pages[kind]])),
     articles: Object.fromEntries(Object.keys(translated.articles ?? {}).filter((slug) => isArticleTranslated(locale, slug)).map((slug) => [slug, translated.articles[slug]])),
   });
