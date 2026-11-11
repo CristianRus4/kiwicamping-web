@@ -16,6 +16,10 @@ import { screenFigures } from "../lib/screen-figures.ts";
 const locales=liveLocales;
 
 const {server,port}=await startProdServer({port:0,host:"127.0.0.1",outDir:"dist",noCompression:true,purpose:"prerender"});
+// Server and client share this process, so a test that reads the export for seconds blocks both keep-alive
+// timers; the server's 5 s timeout then fired first and reset the socket fetch reused (ECONNRESET, "fetch failed").
+// With no server timeout, only the client closes idle connections.
+server.keepAliveTimeout=0;
 after(()=>new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())));
 async function fetchPage(path="/"){return fetch(`http://127.0.0.1:${port}${path}`,{headers:{accept:"text/html"}})}
 async function entries(){const directory=new URL("../lib/content/",import.meta.url);const sources=await Promise.all((await readdir(directory)).filter(name=>name.endsWith(".ts")).map(name=>readFile(new URL(name,directory),"utf8")));return sources.flatMap(source=>[...source.matchAll(/slug:\s*"([^"]+)"(?:,\s*legacyPath:\s*"([^"]+)")?/g)].map(match=>({slug:match[1],legacyPath:match[2]})))}
@@ -84,21 +88,15 @@ test("never serves a half-translated guide",async()=>{
 });
 
 /** Every URL in every sitemap: /sitemap.xml is an index of one sitemap per edition. */
-// Read once, one sitemap at a time with a retry: 29 editions fetched in parallel made the local server
-// drop connections on a slow CI runner ("fetch failed").
+// Read once, one sitemap at a time, and shared by every test that needs it.
 let sitemapCache;
-async function fetchWithRetry(path){
-  for(let attempt=1;;attempt++){
-    try{return await fetchPage(path);}catch(error){if(attempt>=3)throw error;await new Promise((resolve)=>setTimeout(resolve,1000*attempt));}
-  }
-}
 async function sitemapUrls(){
   if(sitemapCache)return sitemapCache;
   const locs=(xml)=>[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match)=>match[1]);
-  const index=await (await fetchWithRetry("/sitemap.xml")).text();
+  const index=await (await fetchPage("/sitemap.xml")).text();
   assert.match(index,/<sitemapindex/);
   const files=[];
-  for(const url of locs(index))files.push(await (await fetchWithRetry(new URL(url).pathname)).text());
+  for(const url of locs(index))files.push(await (await fetchPage(new URL(url).pathname)).text());
   sitemapCache=files.flatMap(locs).join("\n");
   return sitemapCache;
 }
