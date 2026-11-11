@@ -36069,6 +36069,170 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps ei toimi Uudessa-Seelannissa? Näin voit toimia (2026)",
+      "description": "WikiCamps Uusi-Seelanti pyytää kirjautumaan, pakottaa päivittämään tai temppuilee uuden version jälkeen? Miksi matkailijat vaihtavat KiwiCampingiin ja miten siirrät matkasi.",
+      "region": "Uusi-Seelanti",
+      "imageAlt": "Vuokrakaravaaneja pysäköitynä märälle tienvarsipysäköintialueelle metsäisten kukkuloiden alla",
+      "intro": "Jos WikiCamps Uusi-Seelanti pyytää yhä uudelleen kirjautumaan, estää sinua päivitysnäytöllä tai ei ole tuntunut oikealta uudelleenrakennetun sovelluksen tulosta lähtien, sinun ei tarvitse käyttää päivää Etelä-saarella sen korjaamiseen. KiwiCamping on Uuden-Seelannin leirintäsovellus iPhonelle, joka aukeaa suoraan karttaan: ei luotavaa tiliä, DOC:n leirintäalueita, majoja ja reittejä Department of Conservationin omasta datasta ja matkasuunnittelija, joka on rakennettu sen tien ympärille, jota oikeasti ajat. Teemme KiwiCampingia, joten tämä opas on meidän omamme. Se kertoo, miksi matkailijat vaihtavat, mitä KiwiCamping tekee heidän hyväkseen, miten siirrät matkan muutamassa minuutissa ja missä WikiCamps sopii yhä paremmin.",
+      "sections": [
+        {
+          "heading": "Miksi matkailijat jättävät WikiCampsin",
+          "body": [
+            "Pakotetut päivitykset. Maaliskuusta 2026 lähtien liian pahasti jälkeen jäänyt WikiCamps-versio ei avaudu, ennen kuin sen päivittää, ja West Coastilla tai Fiordlandissa tuo näyttö voi ilmestyä kilometrien päähän kaikesta kuuluvuudesta.",
+            "Tilille kirjautuminen. Uudelleenrakennettu sovellus vaatii WikiCamps-tilin, ja moni matkailija huomaa kirjautuvansa yhä uudelleen tai odottavansa vahvistussähköpostia leirintäalueella, jossa <a data-guide=\"kiwicamping-offline-data-guide\">ei ole kenttää</a>.",
+            "Ongelmat päivitysten jälkeen. Matkat ja suosikit, jotka näyttävät katoavan, ominaisuudet, jotka siirtyivät tai poistuivat vanhan version mukana, ja kartta, joka käyttäytyy eri tavalla kuin se, johon ihmiset olivat tottuneet.",
+            "Ei tietokoneversiota. Windows-sovellus lopetettiin, mikä kävi hankalaksi kaikille, jotka suunnittelivat matkansa kannettavalla ennen lentoa."
+          ],
+          "tips": [
+            "Päivitysnäytöt kaukana kuuluvuudesta",
+            "Kirjautumissilmukat ja vahvistussähköpostit",
+            "Vanhat ominaisuudet poistuivat vanhan sovelluksen mukana"
+          ]
+        },
+        {
+          "heading": "Mitä KiwiCamping tekee toisin",
+          "body": [
+            "KiwiCamping aukeaa suoraan karttaan. Tiliä, kirjautumisnäyttöä tai vahvistuskoodia ei ole: kun iCloud on päällä, tallennetut paikkasi, <a data-guide=\"save-places-kiwicamping\">kokoelmasi</a> ja matkasi synkronoituvat yksityisesti puhelimessasi jo olevan Apple-tilin kautta.",
+            "Sen 287 DOC-leirintäaluetta, 927 DOC-majaa ja 1,453 DOC-reittiä tulevat Department of Conservationin omasta datasta, mukana DOC:n maksut, koirasäännöt ja varausvaatimukset sekä linkki DOC:n sivulle, lomaparkkien, <a data-guide=\"freedom-camping-new-zealand-guide\">vapaan leirinnän</a> alueiden, julkisten tyhjennyspisteiden ja päiväkäyntipaikkojen rinnalla molemmilla saarilla: yhteensä yli 6,500 paikkaa. Paikkahakemisto on sovelluksen mukana, joten nimet, maksut, palvelut ja ehdot pysyvät luettavina ilman kenttää. Sää, reittiohjeet, Look Around ja kuvat tarvitsevat yhteyden.",
+            "Jokainen paikka aukeaa ratkaisevilla tiedoilla: kuvat, kuvaus, maksut, käyttöehdot, tyypeittäin ryhmitellyt palvelut, ajankohtaiset ilmoitukset, yhteys- ja varaustiedot, sää ja Applen <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a>, jotta näet sisäänkäynnin tieltä ennen kuin ajat vanin risteykseen."
+          ],
+          "tips": [
+            "Ei tiliä, ei kirjautumisnäyttöä",
+            "DOC:n leirintäalueet, majat ja reitit DOC:n datasta",
+            "Paikan tiedot luettavissa ilman kenttää"
+          ]
+        },
+        {
+          "heading": "Tielle rakennettu matkasuunnittelija",
+          "body": [
+            "Matkasuunnittelija on sovelluksen sydän. Lisää tallennetut paikat pysäkeiksi ja vedä ne siihen järjestykseen, jossa ajat. Jokainen osuus näyttää etäisyytensä, reittiohjeet aukeavat seuraavalle pysäkille, ja jokaisella pysäkillä on oma päivämäärä, saapumismuistiinpanot ja sää. Merkitse pysäkkejä käydyiksi matkan aikana, pidä lähellä vaihtoehtoja päiviin, jotka muuttuvat, ja pidä <a data-guide=\"new-zealand-camping-packing-list\">pakkauslista</a> matkaohjelman vieressä. Matkaohjelman tiedot voivat synkronoitua Kalenteriin.",
+            "Tallennetut paikat hoitavat itse itsensä. Tykätyt, Tähdellä merkityt, Haluan käydä ja Käydyt täyttyvät, kun merkitset paikkoja, ja voit tehdä omia nimettyjä kokoelmia saarelle, vuodenajalle tai suppealle listalle. <a data-guide=\"kiwicamping-filters-guide\">Suodattimet</a> vastaavat oikeaan kysymykseen, esimerkiksi ilmaisen leirinnän alueisiin, joilla on vessat ja juomavesi Queenstownin lähellä, ja ne voivat rajata paikkatyypin, maksun, arvosanan, verkkovarauksen, alueen, koirien sekä yksityiskohtaisten palvelu- ja pääsyominaisuuksien mukaan."
+          ],
+          "tips": [
+            "Järjestetyt pysäkit ja etäisyys osuutta kohden",
+            "Päivämäärä, muistiinpanot ja sää jokaisella pysäkillä",
+            "Kokoelmat, jotka täyttyvät itse"
+          ]
+        },
+        {
+          "heading": "Näin vaihdat ja siirrät matkasi",
+          "body": [
+            "WikiCampsista ei voi tuoda mitään, joten rakennat matkan uudelleen, ja useimmilla matkoilla siihen menee muutama minuutti. Avaa WikiCamps-matkasi, kun se vielä latautuu, tai kirjoita pysäkit muistiin, ja seuraa sitten alla olevia vaiheita.",
+            "Aloita varatuista öistä, kuten DOC:n leirintäalueista kesällä tai lauttamatkasta, ja täytä aukot myöhemmin. Jos paikkaa, jota käytit WikiCampsissa, ei löydy KiwiCampingista, hae alueelta lähellä oleva leirintäalue tai <a data-guide=\"freedom-camping-new-zealand-guide\">vapaan leirinnän</a> alue; maksun, palvelujen ja koirien suodattimet tekevät siitä nopeaa."
+          ],
+          "tips": [
+            "Rakenna uudelleen, älä tuo",
+            "Varatut yöt ensin",
+            "Täytä aukot suodattimilla"
+          ],
+          "table": {
+            "caption": "Matkan siirtäminen WikiCampsista KiwiCampingiin.",
+            "head": [
+              "Vaihe",
+              "Mitä tehdä"
+            ],
+            "rows": [
+              [
+                "1. Lataa",
+                "Hae KiwiCamping App Storesta; se aukeaa ilman tiliä"
+              ],
+              [
+                "2. Etsi jokainen pysäkki",
+                "Hae paikan nimellä tai siirrä karttaa ja hae näkyvältä alueelta"
+              ],
+              [
+                "3. Tallenna",
+                "Merkitse jokainen pysäkki tähdellä tai lisää se matkan kokoelmaan"
+              ],
+              [
+                "4. Rakenna matka",
+                "Luo matka, lisää tallennetut paikat ja vedä ne järjestykseen"
+              ],
+              [
+                "5. Lisää tiedot",
+                "Aseta jokaiselle pysäkille päivämäärä ja saapumismuistiinpanot ja tarkista sää"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping ja WikiCamps vertailussa",
+          "body": [
+            "Molemmat sovellukset auttavat löytämään yöpymispaikan Uudesta-Seelannista, mutta ne on rakennettu eri tavoin. WikiCamps kasvoi käyttäjien lisäämillä paikoilla ja toimii iPhonen lisäksi Androidilla. KiwiCamping lähtee DOC:sta ja muista virallisista lähteistä ja on rakennettu matkan suunnittelun ympärille.",
+            "Ole selvillä siitä, mistä luovut. KiwiCamping toimii vain iPhonella (iOS 26 tai uudempi), listaa vähemmän paikkoja kuin WikiCamps eikä siinä ole matkailijoiden arvosteluja, joten jotkut pitävät molemmat. Jos käytät Androidia, <a data-guide=\"wikicamps-alternatives\">WikiCampsin vaihtoehtoja</a> käsittelevä oppaamme vertailee muita vaihtoehtoja."
+          ],
+          "tips": [
+            "Viralliset tiedot vastaan käyttäjien lisäämät",
+            "Ei tiliä vastaan pakollinen tili",
+            "Vain iPhone, ei matkailijoiden arvosteluja"
+          ],
+          "table": {
+            "caption": "Miten sovellukset eroavat, kummankin sovelluksen omien ominaisuuksien mukaan marraskuussa 2026.",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "Tili",
+                "Ei ole; synkronoituu iCloudin kautta",
+                "WikiCamps-tili vaaditaan"
+              ],
+              [
+                "Mistä paikat tulevat",
+                "DOC ja muut viralliset lähteet",
+                "Enimmäkseen käyttäjien lisäämiä"
+              ],
+              [
+                "Matkan suunnittelu",
+                "Järjestetyt pysäkit, päivämäärät, muistiinpanot, sää ja etäisyys osuutta kohden",
+                "Matkat pysäkkeineen"
+              ],
+              [
+                "Matkailijoiden arvostelut",
+                "Ei",
+                "Kyllä"
+              ],
+              [
+                "Laitteet",
+                "iPhone",
+                "iPhone, iPad ja Android"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hanki KiwiCamping",
+          "body": [
+            "Jos WikiCamps on lakannut toimimasta sinulle, KiwiCamping on ilmainen lataus App Storesta. Avaa se, hae seuraava pysäkkisi ja tallenna se, niin suunnittelet taas muutamassa minuutissa.",
+            "Paikan päällä olevat säännöt ovat edelleen etusijalla. Noudata paikan kylttiä, <a data-guide=\"camping-rules-local-councils-new-zealand\">kunnan järjestyssääntöä</a>, DOC:ta ja kaikkia ajankohtaisia sulkuohjeita, mitä sovellus sanookin."
+          ],
+          "tips": [
+            "Ilmainen lataus, ei tiliä",
+            "Hae, tallenna, suunnittele",
+            "Kyltit, kunnat ja DOC ensin"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps ei toimi. Mitä voin käyttää sen sijaan?",
+          "KiwiCamping on iPhonen leirintäsovellus Uuteen-Seelantiin, jossa on DOC:n leirintäalueita, majoja ja reittejä Department of Conservationin omasta datasta ja yhteensä yli 6,500 paikkaa. Sovellustiliä ei tarvitse luoda, paikkojen tiedot pysyvät luettavina ilman kenttää, ja tallennetuista paikoista tulee matka pysäkkeineen, päivämäärineen ja kunkin osuuden etäisyyksineen."
+        ],
+        [
+          "Pakottaako KiwiCamping kirjautumaan?",
+          "Ei. KiwiCamping-tiliä tai kirjautumisnäyttöä ei ole. Kun iCloud on päällä, tallennetut paikkasi, kokoelmasi ja matkasi synkronoituvat yksityisesti Apple-tilisi kautta, ja osto palautetaan saman Apple-tilin kautta."
+        ],
+        [
+          "Voinko siirtää WikiCamps-matkani KiwiCampingiin?",
+          "Tuontia ei ole, joten rakennat matkan uudelleen. Etsi jokainen pysäkki ja tallenna se, lisää sitten tallennetut paikat uuteen matkaan ja vedä ne siihen järjestykseen, jossa ajat. Useimmat matkat vievät muutaman minuutin."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
     }
   }
 }

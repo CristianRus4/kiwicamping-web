@@ -33873,6 +33873,170 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps nie działa w Nowej Zelandii? Oto, co możesz zrobić (2026)",
+      "description": "WikiCamps Nowa Zelandia prosi o logowanie, wymusza aktualizację albo szwankuje od nowej wersji? Dlaczego podróżni przechodzą na KiwiCamping i jak przenieść trasę.",
+      "region": "Nowa Zelandia",
+      "imageAlt": "Wynajęte kampery zaparkowane na mokrym parkingu przy drodze pod zalesionymi wzgórzami",
+      "intro": "Jeśli WikiCamps Nowa Zelandia ciągle prosi o zalogowanie, blokuje cię ekranem aktualizacji albo od czasu przebudowanej aplikacji nie działa jak trzeba, nie musisz spędzać dnia na Wyspie Południowej na jego naprawianiu. KiwiCamping to aplikacja kempingowa na Nową Zelandię na iPhone'a, która otwiera się od razu na mapie: bez zakładania konta, z polami kempingowymi, chatami i szlakami DOC z własnych danych Department of Conservation oraz planerem trasy zbudowanym wokół drogi, którą naprawdę pojedziesz. Robimy KiwiCamping, więc ten przewodnik jest nasz. Opisuje, dlaczego podróżni przechodzą, co KiwiCamping dla nich robi, jak przenieść trasę w kilka minut i gdzie WikiCamps nadal pasuje lepiej.",
+      "sections": [
+        {
+          "heading": "Dlaczego podróżni odchodzą z WikiCamps",
+          "body": [
+            "Wymuszone aktualizacje. Od marca 2026 wersja WikiCamps, która zostaje za bardzo w tyle, odmawia otwarcia, dopóki jej nie zaktualizujesz, a na West Coast czy w Fiordland ten ekran może się pojawić kilometry od jakiegokolwiek zasięgu.",
+            "Logowanie do konta. Przebudowana aplikacja wymaga konta WikiCamps i wielu podróżnych loguje się w kółko albo czeka na e-mail weryfikacyjny na polu kempingowym <a data-guide=\"kiwicamping-offline-data-guide\">bez zasięgu</a>.",
+            "Problemy po aktualizacjach. Trasy i ulubione, które jakby znikają, funkcje, które się przeniosły albo odeszły ze starą wersją, i mapa zachowująca się inaczej niż ta, której ludzie się nauczyli.",
+            "Brak wersji na komputer. Aplikacja na Windows została zakończona, co dotknęło każdego, kto planował wyjazd na laptopie, zanim tam poleciał."
+          ],
+          "tips": [
+            "Ekrany aktualizacji daleko od zasięgu",
+            "Pętle logowania i e-maile weryfikacyjne",
+            "Stare funkcje odeszły ze starą aplikacją"
+          ]
+        },
+        {
+          "heading": "Co KiwiCamping robi inaczej",
+          "body": [
+            "KiwiCamping otwiera się od razu na mapie. Nie ma konta, ekranu logowania ani kodu weryfikacyjnego: przy włączonym iCloud twoje zapisane miejsca, <a data-guide=\"save-places-kiwicamping\">kolekcje</a> i trasy synchronizują się prywatnie przez konto Apple, które już masz w telefonie.",
+            "Jego 287 pól kempingowych DOC, 927 chat DOC i 1,453 szlaków DOC pochodzi z własnych danych Department of Conservation, wraz z opłatami, zasadami dla psów i wymogami rezerwacji DOC oraz linkiem do strony DOC, obok parków wakacyjnych, obszarów <a data-guide=\"freedom-camping-new-zealand-guide\">wolnego kempingu</a>, publicznych stacji zrzutu i miejsc na dzienną wizytę na obu wyspach: łącznie ponad 6,500 miejsc. Katalog miejsc jest wbudowany w aplikację, więc nazwy, opłaty, udogodnienia i warunki pozostają czytelne bez zasięgu. Pogoda, wskazówki dojazdu, Look Around i zdjęcia wymagają połączenia.",
+            "Każde miejsce otwiera się ze szczegółami, które decydują: zdjęcia, opis, opłaty, regulamin, udogodnienia pogrupowane według rodzaju, bieżące ostrzeżenia, dane kontaktowe i rezerwacyjne, pogoda i <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a> od Apple, żebyś zobaczył wjazd z drogi, zanim skierujesz vana na zjazd."
+          ],
+          "tips": [
+            "Bez konta, bez ekranu logowania",
+            "Pola kempingowe, chaty i szlaki DOC z danych DOC",
+            "Szczegóły miejsc czytelne bez zasięgu"
+          ]
+        },
+        {
+          "heading": "Planer trasy zbudowany dla drogi",
+          "body": [
+            "Planer trasy jest sercem aplikacji. Dodawaj zapisane miejsca jako przystanki i przeciągaj je w kolejności, w jakiej będziesz jechać. Każdy odcinek pokazuje dystans, wskazówki dojazdu otwierają się do następnego przystanku, a każdy przystanek ma własną datę, notatki o przyjeździe i pogodę. W trakcie podróży odhaczaj przystanki jako odwiedzone, trzymaj w pobliżu alternatywy na dni, które się zmieniają, i miej <a data-guide=\"new-zealand-camping-packing-list\">listę rzeczy do spakowania</a> obok planu. Szczegóły planu mogą synchronizować się z Kalendarzem.",
+            "Zapisane miejsca porządkują się same. Polubione, Z gwiazdką, Chcę odwiedzić i Odwiedzone wypełniają się, gdy oznaczasz miejsca, a możesz tworzyć własne nazwane kolekcje dla wyspy, sezonu albo krótkiej listy. <a data-guide=\"kiwicamping-filters-guide\">Filtry</a> odpowiadają na prawdziwe pytanie, na przykład o obszary wolnego kempingu z toaletami i wodą pitną w pobliżu Queenstown, i mogą zawężać według rodzaju miejsca, opłaty, oceny, rezerwacji online, regionu, psów oraz szczegółowych cech udogodnień i dostępu."
+          ],
+          "tips": [
+            "Uporządkowane przystanki z dystansem na odcinek",
+            "Data, notatki i pogoda przy każdym przystanku",
+            "Kolekcje, które wypełniają się same"
+          ]
+        },
+        {
+          "heading": "Jak przejść i przenieść trasę",
+          "body": [
+            "Nie ma importu z WikiCamps, więc budujesz trasę od nowa, a w przypadku większości tras zajmuje to kilka minut. Otwórz swoją trasę w WikiCamps, dopóki jeszcze się ładuje, albo zapisz przystanki, a potem wykonaj kroki poniżej.",
+            "Zacznij od zarezerwowanych nocy, jak pola kempingowe DOC latem czy przeprawa promem, a luki uzupełnij później. Jeśli miejsca, którego używałeś w WikiCamps, nie ma w KiwiCamping, wyszukaj w okolicy pole kempingowe lub obszar <a data-guide=\"freedom-camping-new-zealand-guide\">wolnego kempingu</a> w pobliżu; filtry opłaty, udogodnień i psów robią to szybko."
+          ],
+          "tips": [
+            "Zbuduj od nowa, nie importuj",
+            "Najpierw zarezerwowane noce",
+            "Luki uzupełnij filtrami"
+          ],
+          "table": {
+            "caption": "Przenoszenie trasy z WikiCamps do KiwiCamping.",
+            "head": [
+              "Krok",
+              "Co zrobić"
+            ],
+            "rows": [
+              [
+                "1. Pobierz",
+                "Pobierz KiwiCamping z App Store; otwiera się bez konta"
+              ],
+              [
+                "2. Znajdź każdy przystanek",
+                "Szukaj po nazwie miejsca albo przesuń mapę i przeszukaj widoczny obszar"
+              ],
+              [
+                "3. Zapisz go",
+                "Oznacz każdy przystanek gwiazdką albo dodaj do kolekcji na tę trasę"
+              ],
+              [
+                "4. Zbuduj trasę",
+                "Utwórz trasę, dodaj zapisane miejsca i przeciągnij je w kolejności"
+              ],
+              [
+                "5. Dodaj szczegóły",
+                "Ustaw datę i notatki o przyjeździe przy każdym przystanku i sprawdź pogodę"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping i WikiCamps w porównaniu",
+          "body": [
+            "Obie aplikacje pomagają znaleźć nocleg w Nowej Zelandii, ale są zbudowane inaczej. WikiCamps rósł na miejscach dodawanych przez użytkowników i działa na Androidzie oprócz iPhone'a. KiwiCamping wychodzi z DOC i innych oficjalnych źródeł i jest zbudowany wokół planowania trasy.",
+            "Bądź jasny co do tego, z czego rezygnujesz. KiwiCamping działa tylko na iPhonie (iOS 26 lub nowszy), ma mniej miejsc niż WikiCamps i nie ma opinii podróżnych, więc niektórzy zostawiają obie. Jeśli używasz Androida, nasz przewodnik po <a data-guide=\"wikicamps-alternatives\">alternatywach dla WikiCamps</a> porównuje inne opcje."
+          ],
+          "tips": [
+            "Oficjalne dane a wpisy użytkowników",
+            "Brak konta a wymagane konto",
+            "Tylko iPhone, bez opinii podróżnych"
+          ],
+          "table": {
+            "caption": "Czym różnią się obie aplikacje, na podstawie własnych funkcji każdej z nich w listopadzie 2026.",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "Konto",
+                "Brak; synchronizacja przez iCloud",
+                "Wymagane konto WikiCamps"
+              ],
+              [
+                "Skąd pochodzą miejsca",
+                "DOC i inne oficjalne źródła",
+                "Głównie dodane przez użytkowników"
+              ],
+              [
+                "Planowanie trasy",
+                "Uporządkowane przystanki, daty, notatki, pogoda i dystans na odcinek",
+                "Trasy z przystankami"
+              ],
+              [
+                "Opinie podróżnych",
+                "Nie",
+                "Tak"
+              ],
+              [
+                "Urządzenia",
+                "iPhone",
+                "iPhone, iPad i Android"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pobierz KiwiCamping",
+          "body": [
+            "Jeśli WikiCamps przestał u ciebie działać, KiwiCamping można pobrać za darmo z App Store. Otwórz go, wyszukaj następny przystanek i zapisz go, a po kilku minutach znów planujesz.",
+            "Zasady na miejscu nadal są na pierwszym miejscu. Stosuj się do tablicy na miejscu, <a data-guide=\"camping-rules-local-councils-new-zealand\">uchwały gminy</a>, DOC i wszelkich bieżących komunikatów o zamknięciach, cokolwiek mówi aplikacja."
+          ],
+          "tips": [
+            "Darmowe pobranie, bez konta",
+            "Szukaj, zapisuj, planuj",
+            "Tablice, gminy i DOC mają pierwszeństwo"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps nie działa. Czego mogę użyć zamiast niego?",
+          "KiwiCamping to aplikacja kempingowa na iPhone'a dla Nowej Zelandii z polami kempingowymi, chatami i szlakami DOC z własnych danych Department of Conservation oraz łącznie ponad 6,500 miejsc. Nie trzeba zakładać konta w aplikacji, szczegóły miejsc pozostają czytelne bez zasięgu, a zapisane miejsca zamieniają się w trasę z przystankami, datami i dystansem każdego odcinka."
+        ],
+        [
+          "Czy KiwiCamping zmusza mnie do logowania?",
+          "Nie. Nie ma konta KiwiCamping ani ekranu logowania. Przy włączonym iCloud twoje zapisane miejsca, kolekcje i trasy synchronizują się prywatnie przez twoje konto Apple, a zakup jest przywracany przez to samo konto Apple."
+        ],
+        [
+          "Czy mogę przenieść trasę z WikiCamps do KiwiCamping?",
+          "Nie ma importu, więc budujesz trasę od nowa. Wyszukaj każdy przystanek, zapisz go, potem dodaj zapisane miejsca do nowej trasy i przeciągnij je w kolejności, w jakiej będziesz jechać. Większość tras zajmuje kilka minut."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
     }
   },
   "summer": {
