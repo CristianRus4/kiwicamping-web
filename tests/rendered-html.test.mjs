@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test, { after } from "node:test";
+import { readFileSync } from "node:fs";
 import { readFile, readdir } from "node:fs/promises";
 import { startProdServer } from "vinext/server/prod-server";
 // Run with `node --import tsx --test` (npm test), so the site's own constants are imported, not copied.
@@ -118,9 +119,12 @@ async function exportedPages(){
   const files=[];
   async function walk(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const url=new URL(entry.name+(entry.isDirectory()?"/":""),directory);if(entry.isDirectory()&&entry.name!=="assets"&&entry.name!=="images")await walk(url);else if(entry.name.endsWith(".html"))files.push(url)}}
   await walk(dist);
-  return Promise.all(files.map(async(url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),html:await readFile(url,"utf8")})));
+  // html is read when a test asks for it and never kept: every guide in every locale is exported, and holding all of them in memory ran the job out of heap.
+  return files.map((url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),get html(){return readFileSync(url,"utf8")}}));
 }
 const pagesPromise=exportedPages();
+/** Looks pages up by path (with an optional prefix) and reads a page's html only on get. */
+async function pageMap(prefix=""){const byPath=new Map((await pagesPromise).map((page)=>[prefix+page.path,page]));return{has:(key)=>byPath.has(key),get:(key)=>byPath.get(key)?.html};}
 /** The hand-written redirect stubs and 404 page are not React pages and carry no layout. */
 const generated=(path)=>path!=="/404.html"&&path!=="/download/"&&!(path in redirects);
 const pageLocale=(path)=>/^\/(?!guides\/|tools\/|support\/|privacy\/|terms\/|credits\/)([a-z]{2}(?:-[a-z0-9]+)?)\//.exec(path)?.[1]??"en";
@@ -282,7 +286,7 @@ test("the route manifest and the export are the same set of pages",async()=>{
 });
 
 test("a mistyped URL from lib/redirects.ts is a noindex stub pointing at its target",async()=>{
-  const pages=new Map((await pagesPromise).map((page)=>[page.path,page.html]));
+  const pages=await pageMap();
   assert.ok(Object.keys(redirects).length>=1);
   for(const [from,to] of Object.entries(redirects)){
     const html=pages.get(from);
@@ -313,7 +317,7 @@ test("every ranking URL is still exported and names itself as canonical",async()
   const ranking=await urlList("docs/growth/ranking-urls.txt");
   assert.ok(ranking.length>=100);
   for(const url of rankingUrls)assert.ok(ranking.includes(`https://campingapp.nz${url}`),`${url} must stay in docs/growth/ranking-urls.txt`);
-  const pages=new Map((await pagesPromise).map((page)=>[`https://campingapp.nz${page.path}`,page.html]));
+  const pages=await pageMap("https://campingapp.nz");
   for(const url of ranking){
     assert.ok(pages.has(url),`${url} earns clicks or impressions and is no longer exported`);
     assert.match(pages.get(url),new RegExp(`<link rel="canonical" href="${url.replace(/[.?]/g,"\\$&")}"`),`${url} must stay self-canonical`);
@@ -345,7 +349,7 @@ test("a localised guide carries its language, its own date and localised breadcr
 test("a translated legacy guide and its .html original list each other",async()=>{
   const slug="doc-campsites-new-zealand-guide";
   const legacy="https://campingapp.nz/doc-campsites-huts-guide.html";
-  const pages=new Map((await pagesPromise).map((page)=>[`https://campingapp.nz${page.path}`,page.html]));
+  const pages=await pageMap("https://campingapp.nz");
   assert.ok(!pages.has(`https://campingapp.nz/guides/${slug}/`),"the English guide lives only at its .html URL");
   const english=pages.get(legacy);
   for(const locale of locales){
@@ -443,7 +447,7 @@ test("each screenshot figure sits in the section that names KiwiCamping, one fig
 });
 
 test("published figure guides export the screenshot in English and in every locale",async()=>{
-  const pages=new Map((await pagesPromise).map((page)=>[page.path,page.html]));
+  const pages=await pageMap();
   const published=screenFigures.filter((figure)=>articles.some((item)=>item.slug===figure.slug));
   assert.ok(published.some((figure)=>figure.slug==="best-nz-camping-apps"),"best-nz-camping-apps is live and carries a figure");
   for(const figure of published){
