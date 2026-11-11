@@ -302,6 +302,104 @@
           ]
         }
       ]
+    },
+    "privacy": {
+      "effective": "Velja od 19. oktobra 2026",
+      "title": "Politika zasebnosti",
+      "lede": "KiwiCamping vam pomaga načrtovati potovanje, ne da bi iz vaše poti naredil oglaševalski profil.",
+      "sections": [
+        {
+          "heading": "Podatki, shranjeni v vaši napravi",
+          "paragraphs": [
+            "Shranjeni kraji, članstvo v zbirkah, potovanja, zapiski, elementi kontrolnih seznamov in nastavitve se shranjujejo, da aplikacija deluje. Lokacijo je mogoče uporabiti za prikaz vašega položaja in krajev v bližini, ko za to dovolite dostop."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Kadar je iCloud na voljo in omogočen, lahko aplikacija uporablja vašo zasebno bazo iCloud za sinhronizacijo shranjenih stanj, zbirk in zapisov aplikacije med vašimi napravami. Osnovno storitev zagotavlja Apple, zanjo pa veljajo njegovi pogoji."
+          ]
+        },
+        {
+          "heading": "Spletne storitve Apple",
+          "paragraphs": [
+            "Prikaz zemljevida, navodila za pot, Look Around, vreme, integracija koledarja in pripomočki lahko uporabljajo ogrodja Apple. Za zahteve in obdelavo podatkov pri teh storitvah velja Applova ureditev. Dostop do koledarja se zgodi šele po vašem dovoljenju in se uporablja za dodajanje podatkov o poteku potovanja, ki jih zahtevate."
+          ]
+        },
+        {
+          "heading": "Zunanje povezave in dnevniki spletnega mesta",
+          "paragraphs": [
+            "Podrobnosti o kraju lahko odprejo ponudnike rezervacij, spletna mesta, družbene profile, telefonske številke, e-poštne naslove in aplikacije z zemljevidi. Te storitve prejmejo podatke v skladu s svojimi pravilniki, ko se odločite, da jih odprete.",
+            "Ponudniki gostovanja lahko obdelujejo običajne tehnične dnevnike, kot so naslov IP, vrsta brskalnika in zahtevani URL, za dostavo, zanesljivost in varnost. KiwiCamping na tem spletnem mestu ne uporablja oglaševalskih sledilnikov."
+          ]
+        },
+        {
+          "heading": "Analitika spletnega mesta",
+          "paragraphs": [
+            "To spletno mesto uporablja Google Analytics 4 za štetje obiskov in za spremljanje, katere strani ljudi pripeljejo do App Store. Google te podatke obdeluje v našem imenu kot obdelovalec. Za obiskovalce v Evropskem gospodarskem prostoru, Združenem kraljestvu in Švici storitev zagotavlja Google Ireland Limited, drugje pa Google LLC.",
+            "Analitika beleži strani, ki jih ogledate, vašo napravo, brskalnik in vrsto zaslona, približno lokacijo, izpeljano iz vašega naslova IP (Google samega naslova ne shranjuje), stran, ki vas je napotila sem, in vaše klike na povezave do App Store. Nikoli ne prejme vašega imena, e-poštnega naslova ali česar koli, kar shranite v aplikaciji.",
+            "Ko je analitika dovoljena, Google Analytics nastavi dva piškotka prve stranke: _ga in drugega, katerega ime se začne z _ga_. Oba potečeta po 13 mesecih. V Evropskem gospodarskem prostoru, Združenem kraljestvu in Švici se ta piškotka nastavita šele, ko v vrstici za soglasje izberete Sprejmi. Do takrat in če izberete Zavrni, se noben analitični piškotek ne shrani, Google pa prejme le signale brez piškotkov, ki ne vsebujejo identifikatorja. Svojo izbiro lahko kadar koli spremenite s povezavo Možnosti zasebnosti na dnu vsake strani.",
+            "Google signali in personalizacija oglasov so izklopljeni, zato analitični podatki niso povezani z računi Google in se ne uporabljajo za oglaševanje. Analitični podatki se hranijo 14 mesecev, nato pa se izbrišejo. KiwiCamping na tem spletnem mestu še vedno ne uporablja oglaševalskih sledilnikov."
+          ]
+        },
+        {
+          "heading": "Hramba in nadzor",
+          "paragraphs": [
+            "Zapise aplikacije lahko izbrišete v aplikaciji, podatke iCloud pa upravljate prek svojega računa Apple. Z odstranitvijo aplikacije se lahko odstranijo lokalni podatki, sinhronizirane kopije pa lahko ostanejo v iCloud, dokler jih posebej ne izbrišete."
+          ]
+        },
+        {
+          "heading": "Otroci in stik",
+          "paragraphs": [
+            "KiwiCamping je splošno potovalno orodje in ni namenjen otrokom. Prek podpore ne pošiljajte osebnih podatkov o otroku.",
+            "Za vprašanja o zasebnosti se obrnite na podporo KiwiCamping."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Velja od 12. avgusta 2026",
+      "title": "Pogoji uporabe",
+      "lede": "KiwiCamping je pripomoček za načrtovanje. Ne nadomešča uradnih znakov, navodil upravljavcev zemljišč, opozoril ob nesrečah, nasvetov o cestah ali vaše odgovornosti, da potujete v mejah svojih zmožnosti.",
+      "sections": [
+        {
+          "heading": "Potovalne informacije se spreminjajo",
+          "paragraphs": [
+            "Kraji, cene, dostop, objekti, pokritost z mobilnim signalom, vreme, razmere glede požarov, ceste in ureditve rezervacij se lahko spremenijo brez obvestila. Ključne podrobnosti preverite pri pristojnem organu ali ponudniku pred potovanjem in ponovno tik pred odhodom."
+          ]
+        },
+        {
+          "heading": "Brez zagotovila za rezervacijo ali dostop",
+          "paragraphs": [
+            "Vnos ne zagotavlja, da je kraj odprt, zakonit za vašo opremo, dosegljiv z vašim vozilom ali na voljo. Zunanje povezave za rezervacije in stik so na voljo zaradi udobja. Pogodbe so sklenjene med vami in tretjim ponudnikom."
+          ]
+        },
+        {
+          "heading": "Varnost in zakonita uporaba",
+          "paragraphs": [
+            "Upoštevati morate znake, dovoljenja, zapore, omejitve glede požarov, cestnoprometna pravila in navodila rangerjev, iwija, hapūja, reševalnih služb in upravljavcev zemljišč. Aplikacije ne uporabljajte med vožnjo."
+          ]
+        },
+        {
+          "heading": "Uporabniški podatki",
+          "paragraphs": [
+            "Za zapiske, načrte potovanj in druge podatke, ki jih shranite, ste odgovorni sami. Hranite ločene kopije dovoljenj, rezervacij in varnostno ključnih načrtov, kadar bi izguba dostopa lahko ogrozila potovanje."
+          ]
+        },
+        {
+          "heading": "Nakupi",
+          "paragraphs": [
+            "Vsak nakup v aplikaciji obdeluje Apple in zanj veljajo pogoji, prikazani ob nakupu. Funkcije, paketi in cene se lahko spremenijo, kjer je to dovoljeno. Za obračunavanje, preklic in vračila uporabite Applova orodja za nakupe."
+          ]
+        },
+        {
+          "heading": "Intelektualna lastnina in stik",
+          "paragraphs": [
+            "Blagovna znamka KiwiCamping, vmesnik in izvirna uredniška vsebina pripadajo svojemu lastniku. Imena krajev in javna dejstva ostajajo last ali odgovornost svojih izvirnih virov.",
+            "Vprašanja lahko pošljete podpori KiwiCamping."
+          ]
+        }
+      ]
     }
   },
   "tools": {

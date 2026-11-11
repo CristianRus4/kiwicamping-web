@@ -302,6 +302,104 @@
           ]
         }
       ]
+    },
+    "privacy": {
+      "effective": "Účinné od 19. októbra 2026",
+      "title": "Zásady ochrany osobných údajov",
+      "lede": "KiwiCamping vám pomáha plánovať cestu bez toho, aby z vašej cesty vznikol reklamný profil.",
+      "sections": [
+        {
+          "heading": "Informácie uložené vo vašom zariadení",
+          "paragraphs": [
+            "Uložené miesta, členstvo v zbierkach, cesty, poznámky, položky kontrolných zoznamov a predvoľby sa ukladajú, aby aplikácia fungovala. Po udelení povolenia sa poloha môže použiť na zobrazenie vašej pozície a miest v okolí."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Keď je iCloud dostupný a zapnutý, aplikácia môže použiť vašu súkromnú databázu iCloud na synchronizáciu uložených stavov, zbierok a záznamov aplikácie medzi vašimi zariadeniami. Základnú službu poskytuje Apple a uplatňuje na ňu vlastné podmienky."
+          ]
+        },
+        {
+          "heading": "Živé služby Apple",
+          "paragraphs": [
+            "Zobrazenie máp, navigácia, Look Around, počasie, integrácia kalendára a widgety môžu využívať rámce Apple. Požiadavky a spracovanie údajov týchto služieb upravuje Apple. Prístup ku kalendáru sa uskutoční až po udelení povolenia a slúži na pridanie informácií o itinerári cesty, ktoré si vyžiadate."
+          ]
+        },
+        {
+          "heading": "Externé odkazy a protokoly webu",
+          "paragraphs": [
+            "Podrobnosti o mieste môžu otvoriť rezervačných poskytovateľov, webové stránky, profily na sociálnych sieťach, telefónne čísla, e-mailové adresy a mapové aplikácie. Tieto služby dostávajú informácie podľa vlastných zásad, keď sa ich rozhodnete otvoriť.",
+            "Poskytovatelia hostingu môžu spracúvať bežné technické protokoly, ako sú adresa IP, typ prehliadača a požadovaná adresa URL, na účely doručovania, spoľahlivosti a bezpečnosti. KiwiCamping na tomto webe nepoužíva reklamné sledovače."
+          ]
+        },
+        {
+          "heading": "Analytika webu",
+          "paragraphs": [
+            "Tento web používa Google Analytics 4 na počítanie návštev a zisťovanie, ktoré stránky vedú ľudí do App Store. Google tieto údaje spracúva v našom mene ako sprostredkovateľ. Pre návštevníkov v Európskom hospodárskom priestore, Spojenom kráľovstve a Švajčiarsku službu poskytuje Google Ireland Limited, inde Google LLC.",
+            "Analytika zaznamenáva stránky, ktoré si prezeráte, vaše zariadenie, prehliadač a typ obrazovky, približnú polohu odvodenú z vašej adresy IP (Google samotnú adresu neukladá), stránku, z ktorej ste prišli, a vaše kliknutia na odkazy do App Store. Nikdy nedostáva vaše meno, e-mailovú adresu ani nič, čo si uložíte v aplikácii.",
+            "Keď je analytika povolená, Google Analytics nastaví dva súbory cookie prvej strany: _ga a druhý, ktorého názov začína _ga_. Oba vypršia po 13 mesiacoch. V Európskom hospodárskom priestore, Spojenom kráľovstve a Švajčiarsku sa tieto súbory cookie nastavia až po tom, čo na lište súhlasu vyberiete Prijať. Dovtedy, a ak vyberiete Odmietnuť, sa neukladajú žiadne analytické súbory cookie a Google dostáva iba signály bez súborov cookie, ktoré neobsahujú identifikátor. Svoju voľbu môžete kedykoľvek zmeniť pomocou odkazu Voľby ochrany súkromia v pätičke každej stránky.",
+            "Signály Google a personalizácia reklám sú vypnuté, takže analytické údaje nie sú prepojené s účtami Google a nepoužívajú sa na reklamu. Analytické údaje sa uchovávajú 14 mesiacov a potom sa vymažú. KiwiCamping na tomto webe stále nepoužíva žiadne reklamné sledovače."
+          ]
+        },
+        {
+          "heading": "Uchovávanie a kontrola",
+          "paragraphs": [
+            "Záznamy aplikácie môžete vymazať v aplikácii a údaje iCloud spravovať cez svoj účet Apple. Odstránením aplikácie sa môžu odstrániť lokálne údaje, no synchronizované kópie môžu v iCloude zostať, kým ich samostatne nevymažete."
+          ]
+        },
+        {
+          "heading": "Deti a kontakt",
+          "paragraphs": [
+            "KiwiCamping je všeobecný cestovný nástroj a nie je určený deťom. Prostredníctvom podpory neodosielajte osobné údaje o dieťati.",
+            "S otázkami o ochrane súkromia sa obráťte na podporu KiwiCamping."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Účinné od 12. augusta 2026",
+      "title": "Podmienky používania",
+      "lede": "KiwiCamping je pomôcka na plánovanie. Nenahrádza oficiálne značenie, pokyny správcov pozemkov, núdzové varovania, rady o cestách ani vašu zodpovednosť cestovať v rámci svojich schopností.",
+      "sections": [
+        {
+          "heading": "Cestovné informácie sa menia",
+          "paragraphs": [
+            "Miesta, ceny, prístup, vybavenie, pokrytie signálom, počasie, požiarne podmienky, cesty a rezervačné dohody sa môžu meniť bez upozornenia. Dôležité údaje si pred cestou a znova tesne pred odchodom overte u zodpovedného orgánu alebo poskytovateľa."
+          ]
+        },
+        {
+          "heading": "Žiadna záruka rezervácie ani prístupu",
+          "paragraphs": [
+            "Záznam nezaručuje, že miesto je otvorené, legálne pre vaše vybavenie, dostupné pre vaše vozidlo alebo voľné. Externé odkazy na rezervácie a kontakt sú poskytnuté pre pohodlie. Zmluvy uzatvárate vy a poskytovateľ tretej strany."
+          ]
+        },
+        {
+          "heading": "Bezpečnosť a zákonné používanie",
+          "paragraphs": [
+            "Musíte dodržiavať značenie, povolenia, uzávery, požiarne obmedzenia, pravidlá cestnej premávky a pokyny strážcov, iwi, hapū, záchranných zložiek a správcov pozemkov. Aplikáciu nepoužívajte počas šoférovania."
+          ]
+        },
+        {
+          "heading": "Údaje používateľa",
+          "paragraphs": [
+            "Za poznámky, plány ciest a ďalšie informácie, ktoré uložíte, zodpovedáte vy. Povolenia, rezervácie a plány dôležité pre bezpečnosť si uchovajte aj v samostatných kópiách, ak by strata prístupu mohla ohroziť cestu."
+          ]
+        },
+        {
+          "heading": "Nákupy",
+          "paragraphs": [
+            "Každý nákup v aplikácii spracúva Apple a vzťahujú sa naň podmienky zobrazené pri nákupe. Funkcie, balíčky a ceny sa môžu zmeniť, ak je to povolené. Na fakturáciu, zrušenie a vrátenie peňazí použite nástroje nákupov od Apple."
+          ]
+        },
+        {
+          "heading": "Duševné vlastníctvo a kontakt",
+          "paragraphs": [
+            "Značka, rozhranie a pôvodný redakčný obsah KiwiCamping patria príslušnému vlastníkovi. Názvy miest a verejné fakty zostávajú majetkom alebo zodpovednosťou ich pôvodných zdrojov.",
+            "Otázky možno poslať podpore KiwiCamping."
+          ]
+        }
+      ]
     }
   },
   "tools": {

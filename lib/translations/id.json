@@ -302,6 +302,104 @@
           ]
         }
       ]
+    },
+    "privacy": {
+      "effective": "Berlaku 19 Oktober 2026",
+      "title": "Kebijakan privasi",
+      "lede": "KiwiCamping membantu Anda merencanakan perjalanan tanpa mengubah perjalanan Anda menjadi profil iklan.",
+      "sections": [
+        {
+          "heading": "Informasi yang disimpan di perangkat Anda",
+          "paragraphs": [
+            "Tempat tersimpan, keanggotaan koleksi, perjalanan, catatan, item daftar periksa, dan preferensi disimpan agar aplikasi dapat berfungsi. Lokasi dapat digunakan untuk menampilkan posisi Anda dan tempat di sekitar setelah Anda memberikan izin."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Saat iCloud tersedia dan diaktifkan, aplikasi dapat menggunakan basis data iCloud pribadi Anda untuk menyinkronkan status tersimpan, koleksi, dan catatan aplikasi di semua perangkat Anda. Apple menyediakan layanan dasarnya dan menerapkan ketentuannya sendiri."
+          ]
+        },
+        {
+          "heading": "Layanan Apple langsung",
+          "paragraphs": [
+            "Tampilan peta, petunjuk arah, Look Around, cuaca, integrasi kalender, dan widget dapat menggunakan framework Apple. Permintaan dan penanganan data untuk layanan tersebut diatur oleh Apple. Akses kalender hanya terjadi setelah ada izin dan digunakan untuk menambahkan informasi rencana perjalanan yang Anda minta."
+          ]
+        },
+        {
+          "heading": "Tautan eksternal dan log situs web",
+          "paragraphs": [
+            "Detail tempat dapat membuka penyedia pemesanan, situs web, profil media sosial, nomor telepon, alamat email, dan aplikasi peta. Layanan tersebut menerima informasi sesuai kebijakan masing-masing saat Anda memilih untuk membukanya.",
+            "Penyedia hosting dapat memproses log teknis rutin seperti alamat IP, jenis browser, dan URL yang diminta untuk pengiriman, keandalan, dan keamanan. KiwiCamping tidak menggunakan pelacak iklan di situs web ini."
+          ]
+        },
+        {
+          "heading": "Analitik situs web",
+          "paragraphs": [
+            "Situs web ini menggunakan Google Analytics 4 untuk menghitung kunjungan dan melihat halaman mana yang mengarahkan orang ke App Store. Google memproses data ini atas nama kami sebagai pemroses. Bagi pengunjung di Wilayah Ekonomi Eropa, Inggris Raya, dan Swiss, layanan disediakan oleh Google Ireland Limited, dan di tempat lain oleh Google LLC.",
+            "Analitik mencatat halaman yang Anda lihat, perangkat, browser, dan jenis layar Anda, perkiraan lokasi yang berasal dari alamat IP Anda (Google tidak menyimpan alamat itu sendiri), halaman yang mengarahkan Anda ke sini, dan klik Anda pada tautan App Store. Analitik tidak pernah menerima nama Anda, alamat email Anda, atau apa pun yang Anda simpan di aplikasi.",
+            "Saat analitik diizinkan, Google Analytics menetapkan dua cookie origin pertama: _ga, dan satu lagi yang namanya diawali _ga_. Keduanya kedaluwarsa setelah 13 bulan. Di Wilayah Ekonomi Eropa, Inggris Raya, dan Swiss, cookie ini hanya ditetapkan setelah Anda memilih Terima pada bilah persetujuan. Sebelum itu, dan jika Anda memilih Tolak, tidak ada cookie analitik yang disimpan dan Google hanya menerima sinyal tanpa cookie yang tidak membawa pengenal. Anda dapat mengubah pilihan kapan saja melalui tautan Pilihan privasi di bagian bawah setiap halaman.",
+            "Sinyal Google dan personalisasi iklan dinonaktifkan, sehingga data analitik tidak ditautkan ke akun Google dan tidak digunakan untuk periklanan. Data analitik disimpan selama 14 bulan lalu dihapus. KiwiCamping tetap tidak menggunakan pelacak iklan di situs web ini."
+          ]
+        },
+        {
+          "heading": "Retensi dan kendali",
+          "paragraphs": [
+            "Anda dapat menghapus catatan aplikasi melalui aplikasi dan mengelola data iCloud melalui akun Apple Anda. Menghapus aplikasi dapat menghapus data lokal, sementara salinan yang disinkronkan mungkin tetap ada di iCloud hingga dihapus secara terpisah."
+          ]
+        },
+        {
+          "heading": "Anak-anak dan kontak",
+          "paragraphs": [
+            "KiwiCamping adalah utilitas perjalanan umum dan tidak ditujukan untuk anak-anak. Jangan kirim informasi pribadi tentang anak melalui dukungan.",
+            "Untuk pertanyaan tentang privasi, hubungi dukungan KiwiCamping."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Berlaku 12 Agustus 2026",
+      "title": "Ketentuan penggunaan",
+      "lede": "KiwiCamping adalah alat bantu perencanaan. Aplikasi ini tidak menggantikan rambu resmi, arahan pengelola lahan, peringatan darurat, saran jalan, atau tanggung jawab Anda untuk bepergian sesuai kemampuan Anda.",
+      "sections": [
+        {
+          "heading": "Informasi perjalanan dapat berubah",
+          "paragraphs": [
+            "Tempat, harga, akses, fasilitas, jangkauan telepon, cuaca, kondisi api, jalan, dan pengaturan pemesanan dapat berubah tanpa pemberitahuan. Verifikasi detail penting dengan otoritas atau penyedia yang bertanggung jawab sebelum bepergian dan sekali lagi mendekati keberangkatan."
+          ]
+        },
+        {
+          "heading": "Tidak ada jaminan pemesanan atau akses",
+          "paragraphs": [
+            "Sebuah listing tidak menjamin bahwa suatu tempat buka, legal untuk perlengkapan Anda, dapat dijangkau kendaraan Anda, atau tersedia. Tautan pemesanan dan kontak eksternal disediakan untuk kenyamanan. Kontrak dibuat antara Anda dan penyedia pihak ketiga."
+          ]
+        },
+        {
+          "heading": "Keselamatan dan penggunaan yang sah",
+          "paragraphs": [
+            "Anda wajib mematuhi rambu, izin, penutupan, pembatasan api, aturan lalu lintas, dan arahan dari ranger, iwi, hapū, layanan darurat, dan pengelola lahan. Jangan gunakan aplikasi saat mengemudi."
+          ]
+        },
+        {
+          "heading": "Data pengguna",
+          "paragraphs": [
+            "Anda bertanggung jawab atas catatan, rencana perjalanan, dan informasi lain yang Anda simpan. Simpan salinan terpisah untuk izin, pemesanan, dan rencana penting keselamatan bila hilangnya akses dapat membahayakan perjalanan."
+          ]
+        },
+        {
+          "heading": "Pembelian",
+          "paragraphs": [
+            "Setiap pembelian dalam aplikasi diproses oleh Apple dan tunduk pada ketentuan yang ditampilkan saat pembelian. Fitur, paket, dan harga dapat berubah sejauh diizinkan. Gunakan alat pembelian Apple untuk penagihan, pembatalan, dan pengembalian dana."
+          ]
+        },
+        {
+          "heading": "Kekayaan intelektual dan kontak",
+          "paragraphs": [
+            "Merek, antarmuka, dan konten editorial asli KiwiCamping adalah milik pemiliknya masing-masing. Nama tempat dan fakta publik tetap menjadi milik atau tanggung jawab sumber aslinya.",
+            "Pertanyaan dapat dikirim ke dukungan KiwiCamping."
+          ]
+        }
+      ]
     }
   },
   "tools": {

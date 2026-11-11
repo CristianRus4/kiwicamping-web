@@ -302,6 +302,104 @@
           ]
         }
       ]
+    },
+    "privacy": {
+      "effective": "Yürürlük tarihi: 19 Ekim 2026",
+      "title": "Gizlilik politikası",
+      "lede": "KiwiCamping, yolculuğunuzu bir reklam profiline dönüştürmeden seyahatinizi planlamanıza yardımcı olur.",
+      "sections": [
+        {
+          "heading": "Cihazınızda saklanan bilgiler",
+          "paragraphs": [
+            "Kayıtlı yerler, koleksiyon üyelikleri, geziler, notlar, kontrol listesi öğeleri ve tercihler uygulamanın çalışması için saklanır. Konum, izin verdikten sonra konumunuzu ve yakındaki yerleri göstermek için kullanılabilir."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "iCloud kullanılabilir ve etkin olduğunda uygulama, kayıtlı durumları, koleksiyonları ve uygulama kayıtlarını cihazlarınız arasında eşitlemek için özel iCloud veritabanınızı kullanabilir. Altyapıyı Apple sağlar ve kendi şartlarını uygular."
+          ]
+        },
+        {
+          "heading": "Canlı Apple hizmetleri",
+          "paragraphs": [
+            "Harita görünümü, yol tarifleri, Look Around, hava durumu, takvim entegrasyonu ve widget'lar Apple çerçevelerini kullanabilir. Bu hizmetlerin istekleri ve veri işleme süreçleri Apple tarafından yönetilir. Takvim erişimi yalnızca izin verdikten sonra gerçekleşir ve istediğiniz gezi programı bilgilerini eklemek için kullanılır."
+          ]
+        },
+        {
+          "heading": "Harici bağlantılar ve web sitesi günlükleri",
+          "paragraphs": [
+            "Yer ayrıntıları; rezervasyon sağlayıcılarını, web sitelerini, sosyal medya profillerini, telefon numaralarını, e-posta adreslerini ve harita uygulamalarını açabilir. Bunları açmayı seçtiğinizde ilgili hizmetler, kendi politikalarına göre bilgi alır.",
+            "Barındırma sağlayıcıları; teslimat, güvenilirlik ve güvenlik amacıyla IP adresi, tarayıcı türü ve istenen URL gibi olağan teknik günlükleri işleyebilir. KiwiCamping bu web sitesinde reklam izleyicileri kullanmaz."
+          ]
+        },
+        {
+          "heading": "Web sitesi analitiği",
+          "paragraphs": [
+            "Bu web sitesi, ziyaretleri saymak ve hangi sayfaların insanları App Store'a yönlendirdiğini görmek için Google Analytics 4 kullanır. Google bu verileri bizim adımıza veri işleyen olarak işler. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki ziyaretçiler için hizmeti Google Ireland Limited, diğer yerlerde ise Google LLC sağlar.",
+            "Analitik; görüntülediğiniz sayfaları, cihazınızı, tarayıcınızı ve ekran türünüzü, IP adresinizden türetilen yaklaşık bir konumu (Google adresin kendisini saklamaz), sizi buraya yönlendiren sayfayı ve App Store bağlantılarına tıklamalarınızı kaydeder. Adınızı, e-posta adresinizi veya uygulamada kaydettiğiniz hiçbir şeyi asla almaz.",
+            "Analitiğe izin verildiğinde Google Analytics iki birinci taraf çerezi ayarlar: _ga ve adı _ga_ ile başlayan ikinci bir çerez. Her ikisi de 13 ay sonra sona erer. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de bu çerezler yalnızca onay çubuğunda Kabul et'i seçtikten sonra ayarlanır. O zamana kadar ve Reddet'i seçerseniz hiçbir analitik çerezi saklanmaz ve Google yalnızca tanımlayıcı taşımayan çerezsiz sinyaller alır. Seçiminizi istediğiniz zaman her sayfanın altındaki Gizlilik tercihleri bağlantısından değiştirebilirsiniz.",
+            "Google sinyalleri ve reklam kişiselleştirme kapalıdır; bu nedenle analitik verileri Google hesaplarına bağlanmaz ve reklam için kullanılmaz. Analitik verileri 14 ay saklanır ve ardından silinir. KiwiCamping bu web sitesinde hâlâ reklam izleyicileri kullanmaz."
+          ]
+        },
+        {
+          "heading": "Saklama ve kontrol",
+          "paragraphs": [
+            "Uygulama kayıtlarını uygulama üzerinden silebilir, iCloud verilerini Apple hesabınız üzerinden yönetebilirsiniz. Uygulamanın kaldırılması yerel verileri silebilir; eşitlenmiş kopyalar ise ayrıca silinene kadar iCloud'da kalabilir."
+          ]
+        },
+        {
+          "heading": "Çocuklar ve iletişim",
+          "paragraphs": [
+            "KiwiCamping genel bir seyahat aracıdır ve çocuklara yönelik değildir. Destek üzerinden bir çocuğa ait kişisel bilgi göndermeyin.",
+            "Gizlilikle ilgili sorularınız için KiwiCamping desteğiyle iletişime geçin."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Yürürlük tarihi: 12 Ağustos 2026",
+      "title": "Kullanım koşulları",
+      "lede": "KiwiCamping bir planlama yardımcısıdır. Resmi tabelaların, arazi yöneticilerinin talimatlarının, acil durum uyarılarının, yol tavsiyelerinin veya yeteneklerinize uygun seyahat etme sorumluluğunuzun yerini tutmaz.",
+      "sections": [
+        {
+          "heading": "Seyahat bilgileri değişir",
+          "paragraphs": [
+            "Yerler, fiyatlar, erişim, olanaklar, telefon çekimi, hava durumu, yangın koşulları, yollar ve rezervasyon düzenlemeleri önceden haber verilmeden değişebilir. Önemli ayrıntıları seyahatten önce ve hareket saatine yakın bir zamanda yetkili makam veya sağlayıcıyla doğrulayın."
+          ]
+        },
+        {
+          "heading": "Rezervasyon veya erişim garantisi yoktur",
+          "paragraphs": [
+            "Bir listeleme, yerin açık, kurulumunuz için yasal, aracınızla ulaşılabilir veya müsait olduğunu garanti etmez. Harici rezervasyon ve iletişim bağlantıları kolaylık olması için sunulur. Sözleşmeler sizinle üçüncü taraf sağlayıcı arasındadır."
+          ]
+        },
+        {
+          "heading": "Güvenlik ve yasal kullanım",
+          "paragraphs": [
+            "Tabelalara, izinlere, kapanışlara, yangın kısıtlamalarına, trafik kurallarına ve korucuların, iwi'nin, hapū'nun, acil durum hizmetlerinin ve arazi yöneticilerinin talimatlarına uymalısınız. Araç kullanırken uygulamayı kullanmayın."
+          ]
+        },
+        {
+          "heading": "Kullanıcı verileri",
+          "paragraphs": [
+            "Kaydettiğiniz notlardan, gezi planlarından ve diğer bilgilerden siz sorumlusunuz. Erişimin kaybı bir gezi için risk oluşturabilecekse izinlerin, rezervasyonların ve güvenlik açısından kritik planların ayrı kopyalarını saklayın."
+          ]
+        },
+        {
+          "heading": "Satın alımlar",
+          "paragraphs": [
+            "Uygulama içi satın alımlar Apple tarafından işlenir ve satın alma sırasında gösterilen koşullara tabidir. Özellikler, paketler ve fiyatlar izin verilen durumlarda değişebilir. Faturalandırma, iptal ve iade konularında Apple'ın satın alma araçlarını kullanın."
+          ]
+        },
+        {
+          "heading": "Fikri mülkiyet ve iletişim",
+          "paragraphs": [
+            "KiwiCamping markası, arayüzü ve özgün editoryal içeriği ilgili sahibine aittir. Yer adları ve kamuya açık bilgiler, özgün kaynaklarının mülkiyetinde veya sorumluluğunda kalır.",
+            "Sorularınızı KiwiCamping desteğine gönderebilirsiniz."
+          ]
+        }
+      ]
     }
   },
   "tools": {

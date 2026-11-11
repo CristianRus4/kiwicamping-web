@@ -302,6 +302,104 @@
           ]
         }
       ]
+    },
+    "privacy": {
+      "effective": "Hatályos: 2026. október 19-től",
+      "title": "Adatvédelmi irányelvek",
+      "lede": "A KiwiCamping segít megtervezni az utazást anélkül, hogy az útjaidból reklámprofil lenne.",
+      "sections": [
+        {
+          "heading": "Az eszközödön tárolt adatok",
+          "paragraphs": [
+            "A mentett helyeket, a gyűjtemények tagságát, az utakat, a jegyzeteket, az ellenőrzőlista elemeit és a beállításokat az alkalmazás működéséhez tároljuk. A helyadatok engedély megadása után használhatók a pozíciód és a közeli helyek megjelenítésére."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Ha az iCloud elérhető és engedélyezve van, az alkalmazás a privát iCloud-adatbázisodat használhatja a mentett állapotok, gyűjtemények és alkalmazásbejegyzések szinkronizálására az eszközeid között. A mögöttes szolgáltatást az Apple nyújtja, és a saját feltételei vonatkoznak rá."
+          ]
+        },
+        {
+          "heading": "Élő Apple-szolgáltatások",
+          "paragraphs": [
+            "A térképmegjelenítés, az útvonaltervezés, a Look Around, az időjárás, a naptár-integráció és a widgetek Apple-keretrendszereket használhatnak. Ezen szolgáltatások kéréseire és adatkezelésére az Apple szabályai vonatkoznak. A naptárhoz csak engedély után férünk hozzá, és kizárólag az általad kért utazási útiterv-információk hozzáadására használjuk."
+          ]
+        },
+        {
+          "heading": "Külső hivatkozások és a weboldal naplói",
+          "paragraphs": [
+            "A helyek adatlapjairól megnyithatók foglalási szolgáltatók, weboldalak, közösségi profilok, telefonszámok, e-mail-címek és térképalkalmazások. Ezek a szolgáltatások a saját irányelveik szerint kapnak információt, amikor úgy döntesz, hogy megnyitod őket.",
+            "A tárhelyszolgáltatók a kézbesítés, a megbízhatóság és a biztonság érdekében szokásos technikai naplókat, például IP-címet, böngészőtípust és a kért URL-t kezelhetnek. A KiwiCamping nem használ reklámkövetőket ezen a weboldalon."
+          ]
+        },
+        {
+          "heading": "Weboldal-analitika",
+          "paragraphs": [
+            "Ez a weboldal a Google Analytics 4-et használja a látogatások számlálására és annak megállapítására, hogy mely oldalak vezetnek az App Store-hoz. A Google ezeket az adatokat a nevünkben, adatfeldolgozóként kezeli. Az Európai Gazdasági Térség, az Egyesült Királyság és Svájc látogatói számára a szolgáltatást a Google Ireland Limited nyújtja, máshol a Google LLC.",
+            "Az analitika rögzíti a megtekintett oldalakat, az eszközöd, a böngésződ és a képernyőd típusát, az IP-címedből származtatott hozzávetőleges helyet (a Google magát a címet nem tárolja), az ide irányító oldalt, valamint az App Store-hivatkozásokra kattintásaidat. A neved, az e-mail-címed és az alkalmazásban mentett semmi sem jut el hozzá.",
+            "Ha az analitika engedélyezett, a Google Analytics két saját (first-party) sütit állít be: a _ga-t és egy másikat, amelynek neve _ga_-val kezdődik. Mindkettő 13 hónap után lejár. Az Európai Gazdasági Térségben, az Egyesült Királyságban és Svájcban ezeket a sütiket csak azután állítjuk be, hogy a hozzájárulási sávon az Elfogadás lehetőséget választod. Addig, illetve ha az Elutasítás mellett döntesz, nem tárolunk analitikai sütiket, és a Google csak sütik nélküli, azonosítót nem tartalmazó jelzéseket kap. A döntésedet bármikor megváltoztathatod az oldalak alján található Adatvédelmi beállítások hivatkozással.",
+            "A Google-jelzések és a hirdetésszemélyre szabás ki van kapcsolva, így az analitikai adatok nincsenek Google-fiókokhoz kapcsolva, és nem használjuk őket reklámozásra. Az analitikai adatokat 14 hónapig őrizzük, majd töröljük. A KiwiCamping továbbra sem használ reklámkövetőket ezen a weboldalon."
+          ]
+        },
+        {
+          "heading": "Megőrzés és ellenőrzés",
+          "paragraphs": [
+            "Az alkalmazás bejegyzéseit törölheted az alkalmazásban, az iCloud-adatokat pedig az Apple-fiókodon keresztül kezelheted. Az alkalmazás eltávolítása törölheti a helyi adatokat, a szinkronizált másolatok viszont az iCloudban maradhatnak, amíg külön nem törlöd őket."
+          ]
+        },
+        {
+          "heading": "Gyermekek és kapcsolat",
+          "paragraphs": [
+            "A KiwiCamping általános utazási segédprogram, és nem gyermekeknek szól. Ne küldj személyes adatokat gyermekről az ügyfélszolgálaton keresztül.",
+            "Adatvédelmi kérdésekkel fordulj a KiwiCamping ügyfélszolgálatához."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Hatályos: 2026. augusztus 12-től",
+      "title": "Felhasználási feltételek",
+      "lede": "A KiwiCamping tervezési segédeszköz. Nem helyettesíti a hivatalos jelzéseket, a területkezelők utasításait, a vészhelyzeti figyelmeztetéseket, az úttal kapcsolatos tanácsokat, és azt a felelősségedet sem, hogy a képességeid határain belül utazz.",
+      "sections": [
+        {
+          "heading": "Az utazási információk változnak",
+          "paragraphs": [
+            "A helyek, az árak, a megközelíthetőség, a felszereltség, a térerő, az időjárás, a tűzveszély, az utak és a foglalási feltételek előzetes értesítés nélkül változhatnak. Az utazás előtt, majd az indulás közelében is ellenőrizd a fontos részleteket az illetékes hatóságnál vagy szolgáltatónál."
+          ]
+        },
+        {
+          "heading": "Nincs foglalási vagy hozzáférési garancia",
+          "paragraphs": [
+            "A listázás nem garantálja, hogy egy hely nyitva van, a te felszerelésed számára engedélyezett, a járműveddel megközelíthető vagy elérhető. A külső foglalási és kapcsolati hivatkozásokat a kényelmed érdekében biztosítjuk. A szerződések közted és a harmadik fél szolgáltatója között jönnek létre."
+          ]
+        },
+        {
+          "heading": "Biztonság és jogszerű használat",
+          "paragraphs": [
+            "Be kell tartanod a jelzéseket, az engedélyeket, a lezárásokat, a tűzgyújtási korlátozásokat, a közlekedési szabályokat, valamint a természetvédelmi őrök, az iwi, a hapū, a mentőszolgálatok és a területkezelők utasításait. Vezetés közben ne használd az alkalmazást."
+          ]
+        },
+        {
+          "heading": "Felhasználói adatok",
+          "paragraphs": [
+            "A mentett jegyzetekért, útitervekért és egyéb információkért te felelsz. Őrizz külön másolatot az engedélyekről, foglalásokról és a biztonság szempontjából kritikus tervekről, ha a hozzáférés elvesztése veszélybe sodorhatja az utat."
+          ]
+        },
+        {
+          "heading": "Vásárlások",
+          "paragraphs": [
+            "Az alkalmazáson belüli vásárlásokat az Apple dolgozza fel, és a vásárláskor megjelenő feltételek vonatkoznak rájuk. A funkciók, a csomagok és az árak a megengedett mértékben változhatnak. A számlázási, lemondási és visszatérítési ügyekben használd az Apple vásárlási eszközeit."
+          ]
+        },
+        {
+          "heading": "Szellemi tulajdon és kapcsolat",
+          "paragraphs": [
+            "A KiwiCamping arculata, felülete és eredeti szerkesztői tartalma a megfelelő tulajdonosát illeti. A helynevek és a nyilvános tények az eredeti forrásaik tulajdonában vagy felelősségében maradnak.",
+            "A kérdéseidet a KiwiCamping ügyfélszolgálatának küldheted el."
+          ]
+        }
+      ]
     }
   },
   "tools": {
