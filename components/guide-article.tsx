@@ -3,11 +3,11 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, ExternalLink, MapPin } from
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
-import { AnswerCta } from "@/components/answer-cta";
-import { getAnswerString } from "@/lib/localized";
+import { GuideSideCard } from "@/components/guide-cta";
+import { uiStrings } from "@/lib/source-strings";
 import { IntroCta } from "@/components/intro-cta";
 import { guideIntroCta } from "@/lib/intro-cta";
-import { ContextCta, ContextEndCta, ctaVariantFor } from "@/components/context-cta";
+import { ContextEndCta, ctaVariantFor } from "@/components/context-cta";
 import { SectionTable } from "@/components/article-table";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage, GuideFigure } from "@/components/site-image";
@@ -47,7 +47,6 @@ export function GuideArticle({ item }: { item: Article }) {
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
   const ctaVariant = ctaVariantFor(item);
-  const answer = getAnswerString("en", item.slug);
   const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
@@ -73,7 +72,6 @@ export function GuideArticle({ item }: { item: Article }) {
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}<IntroCta text={introCta} locale="en" /></p>
-            {answer && <AnswerCta text={answer} locale="en" label="Download KiwiCamping" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">NZD</span>
               <h2>Price table in 10 currencies</h2>
@@ -108,7 +106,6 @@ export function GuideArticle({ item }: { item: Article }) {
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
               {part.cta && <DownloadCard compact placement={placement} />}
-              {index === 1 && !item.listicle && <ContextCta variant={ctaVariant} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>
@@ -128,7 +125,7 @@ export function GuideArticle({ item }: { item: Article }) {
             <ContextEndCta variant={ctaVariant} placement={placement} />
           </div>
           <aside>
-            <div className="article-side-card"><p className="eyebrow">Plan it in KiwiCamping</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact placement={placement} /></div>
+            <GuideSideCard locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} />
             <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
           </aside>
         </div>

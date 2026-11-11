@@ -9,7 +9,7 @@ import { appStoreUrl, type CtaLocale } from "@/lib/app-store";
  * `w_qr_<locale>` like every other link, and the code always matches the configured token.
  * One path element, with a module per unit, so it stays crisp at any size and costs about 2 KB.
  */
-function modulePath(text: string): { size: number; d: string } {
+export function modulePath(text: string): { size: number; d: string } {
   const { modules } = QRCode.create(text, { errorCorrectionLevel: "M" });
   const { size, data } = modules;
   let d = "";

@@ -195,7 +195,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .faq-list details p, .support-group details p { margin: 0; padding: 0 0 22px; padding-inline: 4px 35px; color: var(--muted); }
 
 .download-section { min-height: 690px; background: var(--deep); color: white; display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; overflow: hidden; }
-.download-section, .article-side-card { --store-button-bg: #f2f3ef; --store-button-fg: #10140e; --store-button-hover: #82ad78; }
+.download-section, .article-side-card, .article-end-cta { --store-button-bg: #f2f3ef; --store-button-fg: #10140e; --store-button-hover: #82ad78; }
 .download-image { height: 100%; min-height: 690px; }
 .download-copy { padding: 75px; }
 .download-copy .eyebrow { color: #abc17a; }
@@ -332,23 +332,25 @@ em { color: inherit; font: inherit; font-style: normal; }
 .on-this-page { margin-top: 22px; padding: 19px; border: 1px solid var(--line); border-radius: 5px; display: flex; flex-direction: column; }
 .on-this-page strong { margin-bottom: 9px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
 .on-this-page span { padding: 5px 0; color: var(--muted); font-size: 11px; }
-.article-end-cta { margin-top: 45px; padding: 29px; border-radius: 6px; background: #e2e5df; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.article-end-cta h2 { margin: 7px 0; font-size: 28px; }
-.article-end-cta p { margin-bottom: 0; }
+.article-end-cta { margin-top: 45px; padding: 29px; border-radius: 6px; background: var(--deep); color: white; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.article-end-cta .eyebrow { color: #abc17a; }
+.article-end-cta h2, .article-body .article-end-cta h2 { margin: 7px 0; font-size: 28px; color: white; }
+.article-end-cta p, .article-body .article-end-cta p { margin-bottom: 0; color: #b8c2b2; }
 .article-end-cta .store-button { min-width: 205px; }
-/* In-article App Store calls to action (components/context-cta.tsx). */
-.article-body .context-cta { margin: 30px 0 4px; padding: 22px 24px; border-inline-start: 4px solid var(--eucalyptus); border-radius: 6px; background: #e2e5df; }
-.context-cta h3 { margin: 6px 0 8px; font-size: 22px; line-height: 1.2; }
-.context-cta-body { margin: 0 0 10px; font-size: 15px; line-height: 1.55; }
-.context-cta-pass, .context-cta-iphone { color: var(--muted); font-size: 13px; line-height: 1.5; }
-.context-cta-actions { margin-top: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
-.context-cta-actions .store-button { min-width: 230px; }
+.end-cta-actions { flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+/* The end box of English guides (components/context-cta.tsx). */
+.article-end-cta .context-cta-pass, .article-end-cta .context-cta-iphone { font-size: 13px; line-height: 1.5; }
 .context-end-shot { flex: none; width: 140px; height: 290px; }
 .context-end-shot > img { height: 100%; }
 .context-end-copy { flex: 1; }
 .article-end-cta .context-end-copy p { margin-bottom: 8px; }
 .article-end-cta .download-card:not(.download-card-compact) { width: 170px; }
 .article-end-cta .qr-image { width: 170px; height: 170px; }
+/* The download QR code in the guide boxes: only where a reader is at a desktop and scans with a phone. */
+.guide-qr { display: none; }
+.article-side-card .guide-qr { width: 150px; height: 150px; margin: 18px 0 14px; }
+.article-end-cta .guide-qr { width: 150px; height: 150px; }
+@media (hover: hover) and (pointer: fine) and (min-width: 901px) { .guide-qr { display: block; } }
 /* The app runs only on iPhone. iOS WebKit is the only engine that supports -webkit-touch-callout,
    so iOS visitors do not see the "iPhone only" line. */
 @supports (-webkit-touch-callout: none) { .context-cta-iphone { display: none; } }
@@ -509,11 +511,10 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-body section { padding-inline-start: 34px; }
   .article-body h2 { font-size: 27px; }
   .article-end-cta { align-items: flex-start; flex-direction: column; }
-  .article-end-cta .download-card, .article-end-cta .store-button { width: 100%; }
+  .article-end-cta .download-card, .article-end-cta .store-button, .end-cta-actions { width: 100%; }
   .context-end-shot { width: 120px; height: 250px; }
   .article-end-cta .qr-image { display: none; }
   .article-end-cta .download-card:not(.download-card-compact) { width: 100%; }
-  .context-cta-actions .store-button { width: 100%; }
   .related-section { padding: 70px 18px; }
   .support-shell { padding: 55px 18px 85px; }
   .contact-panel { grid-template-columns: 1fr; padding: 28px; }
@@ -579,9 +580,9 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-card { background: #191d17; }
   .article-card p, .article-body p { color: #b7beb3; }
   .article-intro { color: #dce1d8; }
-  .article-tips, .place-chips span, .article-end-cta, .article-body .context-cta { background: #252b22; }
+  .article-tips, .place-chips span { background: #252b22; }
   .editorial-opening blockquote { color: #eef1ea; }
-  .article-side-card, .contact-panel { background: #0d130b; }
+  .article-side-card, .article-end-cta, .contact-panel { background: #0d130b; }
   .related-section { background: #171a16; }
   .footer { background: #090d08; }
   .legal-lede { color: #d4d9cf; }
