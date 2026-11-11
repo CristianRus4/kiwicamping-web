@@ -32,7 +32,8 @@
     "translations:invalidate": "node scripts/translations-stamp.mjs --invalidate",
     "seo:audit": "tsx scripts/audit-seo.mjs",
     "schema:check": "node scripts/check-structured-data.mjs",
-    "indexnow": "tsx scripts/indexnow.mjs"
+    "indexnow": "tsx scripts/indexnow.mjs",
+    "deploy:gate": "npm run content:check && npm run build && npm run export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.3.3",

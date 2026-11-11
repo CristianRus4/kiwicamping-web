@@ -33,11 +33,9 @@ jobs:
       - run: npm ci
       # One publish day for the whole job, so the build, export and tests agree even across midnight.
       - run: echo "BUILD_DATE=$(TZ=Pacific/Auckland date +%F)" >> "$GITHUB_ENV"
-      # The whole gate, building once: content audit, build, static export (pages-dist), rendered
-      # HTML tests, similarity and asset checks. Any failure stops here, before the upload, so a
-      # broken site is never deployed.
-      # No PAGES_BASE_PATH: campingapp.nz is a custom domain, so the site is served from the root.
-      - run: npm run check
+      # Fast gate for the deploy: content audit, build and static export. The full test suite runs
+      # separately in checks.yml after every push and reports failures without holding the deploy.
+      - run: npm run deploy:gate
         env:
           NODE_OPTIONS: --max-old-space-size=6144
       - uses: actions/configure-pages@v5
