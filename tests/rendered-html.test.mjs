@@ -84,12 +84,23 @@ test("never serves a half-translated guide",async()=>{
 });
 
 /** Every URL in every sitemap: /sitemap.xml is an index of one sitemap per edition. */
+// Read once, one sitemap at a time with a retry: 29 editions fetched in parallel made the local server
+// drop connections on a slow CI runner ("fetch failed").
+let sitemapCache;
+async function fetchWithRetry(path){
+  for(let attempt=1;;attempt++){
+    try{return await fetchPage(path);}catch(error){if(attempt>=3)throw error;await new Promise((resolve)=>setTimeout(resolve,1000*attempt));}
+  }
+}
 async function sitemapUrls(){
+  if(sitemapCache)return sitemapCache;
   const locs=(xml)=>[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match)=>match[1]);
-  const index=await (await fetchPage("/sitemap.xml")).text();
+  const index=await (await fetchWithRetry("/sitemap.xml")).text();
   assert.match(index,/<sitemapindex/);
-  const files=await Promise.all(locs(index).map(async(url)=>(await fetchPage(new URL(url).pathname)).text()));
-  return files.flatMap(locs).join("\n");
+  const files=[];
+  for(const url of locs(index))files.push(await (await fetchWithRetry(new URL(url).pathname)).text());
+  sitemapCache=files.flatMap(locs).join("\n");
+  return sitemapCache;
 }
 
 test("a published locale translates the whole interface",async()=>{
