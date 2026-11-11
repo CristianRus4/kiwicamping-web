@@ -213,7 +213,7 @@ export const seasonalArticles: Article[] = [
   }),
   a({
     slug: "doc-hut-great-walk-booked-out",
-    publishAt: "2026-11-13",
+    publishAt: "2026-11-11",
     title: "DOC Hut or Great Walk Booked Out? Cancellations, Alerts and Alternatives 2026-27",
     description: "DOC keeps no waitlist, but cancelled beds go back on sale. How cancellation fees release beds, what alert services cost, and the huts and walks to try instead.",
     category: "Trip planning",
@@ -268,7 +268,7 @@ export const seasonalArticles: Article[] = [
   }),
   a({
     slug: "school-public-holidays-new-zealand-2027",
-    publishAt: "2026-11-14",
+    publishAt: "2026-11-11",
     title: "School Holidays and Public Holidays in New Zealand 2027: Camping Dates",
     description: "2027 term breaks, every public holiday and regional anniversary day, and the long weekends when campsites fill: Waitangi Day, Easter, Matariki and Labour Day.",
     category: "Trip planning",
@@ -351,7 +351,7 @@ export const seasonalArticles: Article[] = [
   }),
   a({
     slug: "road-user-charges-campervan-new-zealand",
-    publishAt: "2027-01-05",
+    publishAt: "2026-11-11",
     title: "Road User Charges for Campervans in New Zealand 2026-27: Rates and Hire Fees",
     description: "Diesel campervans pay road user charges of $76 per 1,000 km, and hire companies bill about $8 per 100 km. What RUC costs and whether diesel beats petrol.",
     category: "Costs & budget",
@@ -419,7 +419,7 @@ export const seasonalArticles: Article[] = [
   }),
   a({
     slug: "easy-doc-huts-families-first-timers",
-    publishAt: "2027-01-06",
+    publishAt: "2026-11-11",
     title: "Easy DOC Huts for Families and First-Timers 2026-27: Walk Times and Fees",
     description: "Seven bookable DOC huts two to three and a half hours from the road end, picked by DOC for families and new trampers, with bunks, fees and what to know.",
     category: "Camping guides",

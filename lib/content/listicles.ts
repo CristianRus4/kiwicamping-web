@@ -1313,7 +1313,7 @@ export const listicleArticles: Article[] = [
   a({
     slug: "roadtrippers-alternatives",
     listicle: true,
-    publishAt: "2026-12-27",
+    publishAt: "2026-11-11",
     title: "6 Best Roadtrippers Alternatives for New Zealand in 2026",
     description: "Roadtrippers plans road trips well but knows little about NZ campsites. KiwiCamping, CamperMate, Wanderlog, Furkot, Google Maps and WikiCamps compared on stops, camping data and price. Checked October 2026.",
     category: "App guides",
@@ -1388,7 +1388,7 @@ export const listicleArticles: Article[] = [
   a({
     slug: "hipcamp-alternatives",
     listicle: true,
-    publishAt: "2027-01-02",
+    publishAt: "2026-11-11",
     title: "7 Best Hipcamp Alternatives in New Zealand in 2026",
     description: "Hipcamp lists private land, holiday parks and campsites on the web. KiwiCamping, Campable, CamperMate, WikiCamps, Rankers, DOC and holiday parks compared on price, booking and offline use, with when Hipcamp is still the better pick.",
     category: "App guides",

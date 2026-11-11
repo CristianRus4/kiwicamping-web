@@ -10,7 +10,7 @@ const s = (heading: string, body: string[], tips?: string[], table?: ArticleTabl
 export const greatWalksArticles: Article[] = [
   a({
     slug: "nz-great-walks-2026-27-huts-campsites-booking-fees",
-    publishAt: "2026-11-21",
+    publishAt: "2026-11-11",
     title: "NZ Great Walks 2026/27: Huts, Campsites, Booking Dates and Fees",
     description: "All 11 Great Walks side by side: which have campsites, which are booked all year, when 2026/27 bookings opened, the hut and campsite fees for New Zealanders and visitors, and what changed this season.",
     category: "Camping guides",
@@ -108,7 +108,7 @@ export const greatWalksArticles: Article[] = [
 
   a({
     slug: "abel-tasman-coast-track-campsites-2026-27",
-    publishAt: "2026-11-24",
+    publishAt: "2026-11-11",
     title: "Abel Tasman Coast Track Campsites 2026/27: Booking, Fees and Where to Camp",
     description: "All 18 Abel Tasman Coast Track campsites in track order, the two-night and five-night limits, fees for New Zealanders and visitors, tidal crossings, water taxis and what to do when the campsites are full.",
     category: "Camping guides",
@@ -178,7 +178,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "routeburn-track-camping-2026-27",
-    publishAt: "2026-11-27",
+    publishAt: "2026-11-11",
     title: "Routeburn Track Camping 2026/27: Campsites, Huts, Booking and Fees",
     description: "Routeburn Track campsites and huts for the 2026/27 Great Walks season: Routeburn Flats and Lake Mackenzie campsites, fees from 1 November, avalanche risk into December, transport and how to book.",
     category: "Camping guides",
@@ -234,7 +234,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "tongariro-northern-circuit-camping-2026-27",
-    publishAt: "2026-11-30",
+    publishAt: "2026-11-11",
     title: "Tongariro Northern Circuit Camping 2026/27: Huts, Campsites, Booking and Oturere Hut",
     description: "Tongariro Northern Circuit huts and campsites for 2026/27: Mangatepopo, Oturere and Waihohonu, fees from 23 October, the new Oturere Hut opening for bookings on 18 December, parking and volcanic safety.",
     category: "Camping guides",
@@ -291,7 +291,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "rakiura-track-camping-2026-27",
-    publishAt: "2026-12-10",
+    publishAt: "2026-11-11",
     title: "Rakiura Track Camping 2026/27: Huts, Campsites, Booking, Fees and Getting There",
     description: "Rakiura Track camping for 2026/27: the 2 huts and 3 campsites, DOC's $19 and $28 campsite fees, the two-night limit, booking all year, section times, the Bluff ferry, the Invercargill flight and the mud.",
     category: "Camping guides",
@@ -373,7 +373,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "whanganui-journey-camping-2026-27",
-    publishAt: "2026-12-11",
+    publishAt: "2026-11-11",
     title: "Whanganui Journey 2026/27: Canoe Trip Huts, Campsites, Booking and Fees",
     description: "Whanganui Journey for 2026/27: the 145 km and 88 km canoe trips, huts, bunkroom and nine campsites, DOC's $35 hut and $19 campsite fees for everyone, booking, river safety, hire and shuttles, and the Bridge to Nowhere.",
     category: "Camping guides",
@@ -450,7 +450,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "milford-track-2026-27-huts-booking-fees",
-    publishAt: "2026-12-07",
+    publishAt: "2026-11-11",
     title: "Milford Track 2026/27: Huts, Booking Dates, Fees and Where to Camp Nearby",
     description: "The Milford Track has three huts and no camping, one direction only, over four days. 2026/27 season dates, hut fees from $106, booking opening, boats at both ends and where to camp near Te Anau the night before.",
     category: "Camping guides",
@@ -525,7 +525,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "kepler-track-camping-2026-27",
-    publishAt: "2026-12-08",
+    publishAt: "2026-11-11",
     title: "Kepler Track Camping 2026/27: Campsites, Huts, Booking and Fees",
     description: "Kepler Track camping for the 2026/27 Great Walks season from 27 October: Brod Bay and Iris Burn campsites, three huts, fees, how to reach the loop from Te Anau, avalanche risk and where to camp nearby.",
     category: "Camping guides",
@@ -601,7 +601,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "heaphy-track-camping-2026-27",
-    publishAt: "2026-12-09",
+    publishAt: "2026-11-11",
     title: "Heaphy Track Camping 2026/27: Huts, Campsites, Booking, Bikes and Transport",
     description: "Heaphy Track camping and huts for 2026/27: six huts, ten named campsites, booked all year, fees from $19, bikes from 1 May to 30 November, the new Heaphy River bridge and transport between Brown Hut and Kōhaihai.",
     category: "Camping guides",
@@ -679,7 +679,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "lake-waikaremoana-great-walk-camping-2026-27",
-    publishAt: "2026-12-12",
+    publishAt: "2026-11-11",
     title: "Lake Waikaremoana Great Walk 2026/27: Huts, Campsites, Booking and Fees",
     description: "Lake Waikaremoana Great Walk for 2026/27: the 46 km track, four huts and the four campsites DOC names, the $35 hut and $19 campsite fees for everyone, booking all year, no dogs, the gravel road in and the Tūhoe water taxi.",
     category: "Camping guides",
@@ -762,7 +762,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "paparoa-track-huts-booking-2026-27",
-    publishAt: "2026-12-13",
+    publishAt: "2026-11-11",
     title: "Paparoa Track 2026/27: Huts, Booking, Fees and Mountain Biking",
     description: "Paparoa Track for 2026/27: 55 km in 2 to 3 days, the three huts priced separately from $50 to $117, no campsites, how to book, riding rules and the Punakaiki exit for bikes, the Pike29 Memorial Track and shuttles from Blackball and Punakaiki.",
     category: "Camping guides",
@@ -840,7 +840,7 @@ export const greatWalksArticles: Article[] = [
   }),
   a({
     slug: "hump-ridge-track-huts-booking-2026-27",
-    publishAt: "2026-12-14",
+    publishAt: "2026-11-11",
     title: "Hump Ridge Track 2026/27: Huts, Booking, Fees and Getting There",
     description: "Hump Ridge Track for 2026/27: the 61.5 km loop from Tuatapere, the Ōkaka and Port Craig lodges, packages from $495 booked through the Hump Ridge Trust rather than DOC, the 23 October to 17 April season, closed viaducts and the Rarakau shuttle.",
     category: "Camping guides",

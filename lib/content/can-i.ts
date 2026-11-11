@@ -230,7 +230,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-camp-on-a-farm-or-private-land-in-nz",
-    publishAt: "2026-11-12",
+    publishAt: "2026-11-11",
     title: "Can I Camp on a Farm or Private Land in NZ? (2026)",
     description: "Yes, with the landowner's permission. The Freedom Camping Act does not cover private land, but the Trespass Act 1980 does. 2026 guide to gates, stock and fire.",
     category: "Rules & safety",
@@ -301,7 +301,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-park-a-campervan-on-the-street-overnight-nz",
-    publishAt: "2027-01-03",
+    publishAt: "2026-11-11",
     title: "Can I Park a Campervan on the Street Overnight in NZ?",
     description: "Certified self-contained campervans may stay a few nights on some council streets, but many urban areas ban it and vans without a green warrant cannot (2026).",
     category: "Rules & safety",
@@ -373,7 +373,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-drive-a-campervan-on-a-car-licence-nz",
-    publishAt: "2027-01-04",
+    publishAt: "2026-11-11",
     title: "Can I Drive a Campervan on a Car Licence in NZ? (2026)",
     description: "Yes, a full NZ car licence (Class 1) covers a campervan or motorhome up to 6,000 kg gross laden weight. Weights, towing, Class 2 and rentals explained for 2026.",
     category: "Rules & safety",
@@ -442,7 +442,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-fly-a-drone-at-a-doc-campsite-nz",
-    publishAt: "2026-11-15",
+    publishAt: "2026-11-11",
     title: "Can I Fly a Drone at a DOC Campsite in NZ? (2026 Rules)",
     description: "Not without a DOC permit, and even with one you must keep away from campsites and huts. The 2026 permit zones, fees, CAA Part 101 rules and council land.",
     category: "Rules & safety",
@@ -511,7 +511,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-drive-on-the-beach-in-new-zealand",
-    publishAt: "2026-11-16",
+    publishAt: "2026-11-11",
     title: "Can I Drive on the Beach in New Zealand? (2026 Rules)",
     description: "It depends on the beach. A beach is legally a road, but councils and regional plans ban or permit vehicles. 2026 rules for Ninety Mile Beach, Muriwai and more.",
     category: "Rules & safety",
@@ -583,7 +583,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-drink-the-water-at-nz-campsites",
-    publishAt: "2026-11-17",
+    publishAt: "2026-11-11",
     title: "Can I Drink the Water at NZ Campsites? (2026 Guide)",
     description: "Only if the site says it is treated. Most DOC campsite and hut water is rain or stream water that must be boiled or filtered. 2026 guidance, notices and tanks.",
     category: "Rules & safety",
@@ -650,7 +650,7 @@ export const canIArticles: Article[] = [
 
   a({
     slug: "can-i-go-to-the-toilet-outdoors-camping-nz",
-    publishAt: "2026-11-18",
+    publishAt: "2026-11-11",
     title: "Can I Go to the Toilet Outdoors Camping in NZ? (2026)",
     description: "Only as a last resort: DOC says dig 15-20 cm deep, 50 m from water, tracks and campsites, or carry it out. Freedom campers face $800 fines for leaving waste.",
     category: "Rules & safety",
