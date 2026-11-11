@@ -1,11 +1,11 @@
 import type { CtaPlacement } from "@/lib/app-store";
 import type { Article } from "@/lib/article-model";
-import { DownloadCard } from "./download-card";
+import { StoreWithQr } from "./guide-cta";
 import { ScreenshotImage } from "./site-image";
 
 /**
  * The end-of-article call to action on English guides, matched to what the reader came for
- * (docs/growth/PLAN.md, "Conversion"): a real screenshot, the desktop QR code and the store button.
+ * (docs/growth/PLAN.md, "Conversion"): a real screenshot and the store button, with the QR code on hover.
  * Guides carry no download box inside the text; the intro sentence (components/intro-cta.tsx) and the
  * side card (components/guide-cta.tsx) do that job. English only: translated guides end with GuideEndCta.
  */
@@ -104,6 +104,6 @@ export function ContextEndCta({ variant, placement }: { variant: ContextCtaVaria
       <p className="context-cta-pass">{passLine}</p>
       <p className="context-cta-iphone">{iphoneLine}</p>
     </div>
-    <DownloadCard placement={placement} />
+    <StoreWithQr locale="en" placement={placement} label="Download app" reuse />
   </div>;
 }
