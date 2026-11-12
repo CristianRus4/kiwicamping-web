@@ -59,7 +59,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
 
   const ui = getTranslation(locale);
   const listed = kind === "freedom-camping" ? [] : places.filter((place) => place.stateSlug === hub.slug && (kind === "huts" ? place.type === "doc_hut" : place.type !== "doc_hut"))
-    .sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
+    .sort((a, b) => Number(a.type !== "doc_campsite") - Number(b.type !== "doc_campsite") || b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
 
   return <>
     <LocalizedHeader locale={locale} />

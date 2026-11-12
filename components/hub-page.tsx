@@ -123,7 +123,7 @@ export function HubPage({ hub }: { hub: Hub }) {
   // The places with their own page in this region: DOC campsites and holiday parks for a camping hub,
   // DOC huts for a huts hub. Freedom camping notices have no place pages and stay a plain list.
   const listed = kind === "freedom-camping" ? [] : places.filter((place) => place.stateSlug === hub.slug && (kind === "huts" ? place.type === "doc_hut" : place.type !== "doc_hut"))
-    .sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
+    .sort((a, b) => Number(a.type !== "doc_campsite") - Number(b.type !== "doc_campsite") || b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
 
   return <>
     <Header />
