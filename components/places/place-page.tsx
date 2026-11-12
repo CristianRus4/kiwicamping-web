@@ -10,7 +10,9 @@ import { uiStrings } from "@/lib/source-strings";
 import { feeLabel, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabels, type Place } from "@/lib/places";
 import { placeQuestions, placeSummary } from "@/lib/places-copy";
 import { appStoreUrl } from "@/lib/app-store";
-import { articleHref, articles } from "@/lib/site";
+import { articleHref, articles, getArticle } from "@/lib/site";
+import { placeGuides, rulesGuides } from "@/lib/place-guides";
+import { LinkList } from "@/components/places/listing";
 
 /**
  * One place page. Every part that has more in the app (description, facilities, fees) shows a little
@@ -38,8 +40,6 @@ function MapsButton({ place }: { place: Place }) {
   const apple = `https://maps.apple.com/?ll=${place.lat},${place.lng}&q=${encodeURIComponent(place.name)}`;
   return <a className="store-button pl-maps" href={google} data-apple-maps={apple} rel="nofollow noopener" target="_blank"><MapPin aria-hidden="true" /><span>Open in Maps</span></a>;
 }
-/** The guide each kind of place links to before you go. */
-const rulesGuides = { doc_campsite: ["doc-campsite-rules", "the DOC campsite rules"], doc_hut: ["doc-hut-rules-etiquette", "the DOC hut rules"], holiday_park: ["holiday-parks-new-zealand-guide", "our guide to holiday parks"] } as const;
 const mapsScript = `(function(){if(/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)){document.querySelectorAll("[data-apple-maps]").forEach(function(a){a.href=a.getAttribute("data-apple-maps");});}})();`;
 
 export function PlacePage({ place }: { place: Place }) {
@@ -54,6 +54,7 @@ export function PlacePage({ place }: { place: Place }) {
   const questions = placeQuestions(place);
   const [rulesSlug, rulesLabel] = rulesGuides[place.type];
   const rulesGuide = articles.find((article) => article.slug === rulesSlug);
+  const guides = placeGuides(place).flatMap((slug) => getArticle(slug) ?? []);
   const shown = place.photos.length >= 5 ? 5 : place.photos.length >= 3 ? 3 : place.photos.length;
   const morePhotos = place.photoCount - shown;
 
@@ -131,6 +132,7 @@ export function PlacePage({ place }: { place: Place }) {
                   <span><strong>{other.name}</strong><small>{typeLabels[other.type].one} · {km < 1 ? "under 1" : Math.round(km)} km</small></span>
                 </Link></li>)}</ul>
               </section>}
+              <LinkList title={`Guides for ${place.stateName}`} links={guides.map((guide) => ({ href: articleHref(guide), label: guide.title }))} />
               {questions.length > 0 && <section className="pl-faq">
                 <h2>Questions about {place.name}</h2>
                 {questions.map((entry) => <details key={entry.question}><summary>{entry.question}<span aria-hidden="true">+</span></summary><p>{entry.answer}</p></details>)}

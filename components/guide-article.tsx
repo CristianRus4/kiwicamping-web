@@ -13,6 +13,9 @@ import { ArticleCard } from "@/components/article-card";
 import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SITE_URL, articleHref, type Article } from "@/lib/site";
 import { relatedGuides } from "@/lib/related";
+import { guidePlaces } from "@/lib/place-guides";
+import { placeStatePath } from "@/lib/places";
+import { PlaceCards } from "@/components/places/place-cards";
 import { guidePageKey } from "@/lib/routes/guides";
 import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
@@ -41,6 +44,7 @@ function guideHubs(item: Article): { kind: BuiltHubKind; all: boolean; hubs: Hub
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = relatedGuides(item);
+  const placeRow = guidePlaces(item);
   const hubGroups = guideHubs(item);
   const schema = articleSchema(item, `${SITE_URL}${articleHref(item)}`);
   // A date Google can see on the page, matching the one in the Article schema.
@@ -123,6 +127,10 @@ export function GuideArticle({ item }: { item: Article }) {
               <span className="section-count">FAQ</span>
               <h2>Common questions</h2>
               {item.faq.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}
+            </section>}
+            {placeRow && <section className="article-places">
+              <h2>Places to camp in {placeRow.state.name}</h2>
+              <PlaceCards places={placeRow.places} more={{ href: placeStatePath(placeRow.state), label: `Explore all places in ${placeRow.state.name}` }} />
             </section>}
             <ContextEndCta variant={ctaVariant} placement={placement} />
           </div>

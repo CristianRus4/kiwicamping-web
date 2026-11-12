@@ -13,6 +13,7 @@ import { builtHubs, hubGate, listedHubs, proseFor, type BuiltHubKind, type Hub }
 import { hubSource } from "@/lib/hub-strings";
 import { regionIntros } from "@/lib/region-intros";
 import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
+import { hubLocalGuides } from "@/lib/place-guides";
 
 /**
  * The data hubs: a DOC region's campsites or huts, or a DOC district's freedom-camping notices.
@@ -118,7 +119,9 @@ export function HubPage({ hub }: { hub: Hub }) {
   const related = hub.related && builtHubs.some((other) => other.path === hub.related) ? { href: hub.related, label: hub.kind === "camping" ? `DOC huts in ${hub.name}` : `DOC campsites in ${hub.name}` } : null;
   const sources = [...hub.officialLinks, ...(prose?.sources ?? [])];
   const notes = hubSource().kinds[kind];
-  const guides = hubGuides(hub).flatMap((slug) => articles.find((article) => article.slug === slug) ?? []);
+  // A district hub leads with the guides about that district, then its own list.
+  const local = kind === "freedom-camping" ? hubLocalGuides(hub.points.map(([lat, lng]) => ({ lat, lng }))) : [];
+  const guides = [...new Set([...local, ...hubGuides(hub)])].filter((slug) => slug !== hub.guide.slug).slice(0, 6).flatMap((slug) => articles.find((article) => article.slug === slug) ?? []);
   const nearby = nearbyHubs(hub);
   // The places with their own page in this region: DOC campsites and holiday parks for a camping hub,
   // DOC huts for a huts hub. Freedom camping notices have no place pages and stay a plain list.
