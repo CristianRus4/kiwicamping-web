@@ -1,17 +1,17 @@
-import Link from "next/link";
-import { ArrowLeft, ArrowRight, Database } from "lucide-react";
 import { Header } from "@/components/header";
+import { PlaceMap } from "@/components/places/place-map";
 import { Footer } from "@/components/footer";
-import { AppCta } from "@/components/app-cta";
-import { HubMap } from "@/components/hub-map";
+import { uiStrings } from "@/lib/source-strings";
+import { GuideEndCta } from "@/components/guide-cta";
+import { Crumbs, LinkList } from "@/components/places/listing";
 import { places, placeStatePath } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
 import { mainData } from "@/lib/analytics";
 import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { SITE_URL, articles, articleHref, sitePath } from "@/lib/site";
-import { builtHubs, factValue, hubGate, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
-import productFacts from "@/lib/data/product-facts.json";
+import { builtHubs, hubGate, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import { hubSource } from "@/lib/hub-strings";
+import { regionIntros } from "@/lib/region-intros";
 import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
 
 /**
@@ -22,7 +22,6 @@ import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
  * call to action points to the app.
  */
 
-const formatDate = (iso: string) => new Intl.DateTimeFormat("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
 const guideTitle = (slug: string) => articles.find((article) => article.slug === slug);
 
 type KindCopy = {
@@ -40,7 +39,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     noun: "campsites", nounSingular: "campsite",
     h1: (hub) => `DOC campsites in ${hub.name}`,
     metaTitle: (hub) => `DOC Campsites in ${hub.name}: ${hub.placeCount} Sites, Fees, Facilities`,
-    metaDescription: (hub) => `${hub.placeCount} Department of Conservation campsites in ${hub.name}: which are free, adult rates, campervan or walk-in access, facilities and a map, from DOC data.`,
+    metaDescription: (hub) => `DOC campsites and holiday parks in ${hub.name}: which are free, fees, campervan or walk-in access, facilities and a map.`,
     intro: (hub) => `Department of Conservation campsites and holiday parks in the ${hub.name} region, with photos, fees, access and facilities.`,
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC campsites in ${hub.name}`,
     listTitle: "Campsites",
@@ -54,7 +53,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     noun: "huts", nounSingular: "hut",
     h1: (hub) => `DOC huts in ${hub.name}`,
     metaTitle: (hub) => `DOC Huts in ${hub.name}: ${hub.placeCount} Huts, Bunks and Fees`,
-    metaDescription: (hub) => `${hub.placeCount} Department of Conservation huts in ${hub.name}: bunks, free and paid huts, which need booking, heating and water, with a map, from DOC data.`,
+    metaDescription: (hub) => `DOC huts in ${hub.name}: bunks, free and paid huts, which need booking, heating and water, with a map.`,
     intro: (hub) => `Department of Conservation huts in the ${hub.name} region, with photos, bunks, fees and facilities.`,
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC huts in ${hub.name}`,
     listTitle: "Huts",
@@ -68,7 +67,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     noun: "notices", nounSingular: "notice",
     h1: (hub) => `Freedom camping notices on DOC land: ${hub.name}`,
     metaTitle: (hub) => `Freedom Camping on DOC Land, ${hub.name}: ${hub.placeCount} Notices`,
-    metaDescription: (hub) => `Where DOC prohibits or restricts freedom camping on conservation land in its ${hub.name} district: ${hub.placeCount} current notices, conditions and a map. Not council bylaws.`,
+    metaDescription: (hub) => `Where DOC bans or restricts freedom camping on conservation land in its ${hub.name} district, with the conditions and a map.`,
     intro: (hub) => `Where freedom camping is banned or restricted on conservation land in DOC's ${hub.name} district.`,
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC freedom camping notice areas in ${hub.name}`,
     listTitle: "Notice areas",
@@ -108,16 +107,11 @@ function hubSchema(hub: Hub) {
   };
 }
 
-function PlaceDetail({ hub, place }: { hub: Hub; place: Hub["places"][number] }) {
-  if (hub.kind === "freedom-camping") return <>{place.conditions?.length ? place.conditions.join("; ") : "No freedom camping"}{place.areaHa ? ` · ${place.areaHa.toLocaleString("en-NZ")} ha` : ""}</>;
-  if (hub.kind === "huts") return <>{place.bunks ? `${place.bunks} bunks` : "Bunks not listed"}{place.facilities?.length ? ` · ${place.facilities.join(", ")}` : ""}</>;
-  return <>{[...(place.access ?? []), ...(place.facilities ?? [])].join(", ")}</>;
-}
-
 export function HubPage({ hub }: { hub: Hub }) {
   const kind = hub.kind as BuiltHubKind;
   const copy = hubCopy[kind];
   const prose = proseFor(hub);
+  const intro = kind === "freedom-camping" ? undefined : regionIntros[hub.slug];
   const guide = guideTitle(hub.guide.slug);
   const councilGuide = articles.find((article) => article.slug === "camping-rules-local-councils-new-zealand");
   // Only link the sibling hub if it is built: a region with two huts has no huts page.
@@ -134,93 +128,42 @@ export function HubPage({ hub }: { hub: Hub }) {
   return <>
     <Header />
     <main {...mainData({ kind: "hub", locale: "en", slug: hub.id })}>
-      <article className="article-page hub-page">
-        <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href={sitePath(`/${hub.kind}`)}><ArrowLeft />{kindLabel(kind)}</Link><span>{hub.operationsRegion ?? hub.island}</span></nav>
-        <header className="article-header">
-          <p className="eyebrow">{kindLabel(kind)}</p>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: kindLabel(kind), path: sitePath(`/${hub.kind}`) }, { name: hub.name, path: hub.path }]} />
+        <header className="pl-header">
           <h1>{copy.h1(hub)}</h1>
-          <p>{copy.intro(hub)}</p>
+          {intro && <p className="pl-intro">{intro}</p>}
         </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <HubMap points={hub.points} label={copy.h1(hub)} caption="Coastline and lakes: Natural Earth." />
-            {kind === "freedom-camping" && <section className="hub-council">
-              <h2>DOC notices, not council bylaws</h2>
-              <p>These notices cover public conservation land managed by the Department of Conservation. They are not council bylaws. On land a district or city council manages, that council&apos;s own freedom camping rules apply, and signs at the site always take priority.</p>
-              <ul>
-                {(prose?.councils ?? []).map((council) => <li key={council.url}><a href={council.url}>{council.label}<ArrowRight /></a></li>)}
-                {councilGuide && <li><Link href={articleHref(councilGuide)}>{councilGuide.title}<ArrowRight /></Link></li>}
-              </ul>
-            </section>}
-            {prose && <section className="hub-prose">
-              <h2>{kind === "freedom-camping" ? `What the notices mean in ${hub.name}` : kind === "huts" ? `Tramping to DOC huts in ${hub.name}` : `Camping with DOC in ${hub.name}`}</h2>
-              {prose.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </section>}
-            {listed.length > 0 ? <section className="hub-places">
-              <h2>{copy.listTitle}</h2>
-              <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.slug }), label: `Explore all places in ${hub.name}` }} />
-            </section> : hub.places.length > 0 && <section className="hub-places">
-              <h2>{copy.listTitle}</h2>
-              <ul className="pl-rows pl-rows-plain">{hub.places.map((place) => <li key={place.id}>{place.url ? <a href={place.url}><strong>{place.name}</strong>{place.locality && <small>{place.locality}</small>}</a> : <span><strong>{place.name}</strong>{place.locality && <small>{place.locality}</small>}</span>}</li>)}</ul>
-            </section>}
-            <section className="sources hub-notes">
-              <h2>{notes.notesTitle}</h2>
-              <p>{notes.noteRules}</p>
-              <p>{notes.noteSeason}</p>
-              <p>Official sources: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
-            </section>
-            {guides.length > 0 && <section className="sources">
-              <h2>Guides for {hub.name}</h2>
-              <ul>{guides.map((item) => <li key={item.slug}><Link href={articleHref(item)}>{item.title}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            {nearby.length > 0 && <section className="sources">
-              <h2>{kind === "freedom-camping" ? "Nearby districts" : "Nearby regions"}</h2>
-              <ul>{nearby.map((other) => <li key={other.id}><Link href={other.path}>{copy.h1(other)}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            <section className="sources">
-              <h2>Check before you go</h2>
-              <p>Fees, closures and access change. The DOC page for each place, current DOC alerts and signs on site take priority over this summary.</p>
-              <ul>
-                {guide && <li><Link href={articleHref(guide)}>{guide.title}<ArrowRight /></Link></li>}
-                {related && <li><Link href={related.href}>{related.label}<ArrowRight /></Link></li>}
-                {sources.map((source) => <li key={source.url}><a href={source.url}>{source.label}<ArrowRight /></a></li>)}
-              </ul>
-            </section>
-            <AppCta placement="hub" locale="en" eyebrow={kind === "freedom-camping" ? "Plan the stay in KiwiCamping" : "The full map is in KiwiCamping"} title={copy.ctaTitle(hub)} text={copy.ctaText(hub)} button="Download app" />
-          </div>
-        </div>
-      </article>
+        <PlaceMap points={hub.points.map(([lat, lng]) => [lng, lat] as [number, number])} label={copy.h1(hub)} />
+        {listed.length > 0 && <section className="pl-block">
+          <h2>{copy.listTitle}</h2>
+          <PlaceCards places={listed} more={{ href: placeStatePath({ slug: hub.slug }), label: `Explore all places in ${hub.name}` }} />
+        </section>}
+        {kind === "freedom-camping" && hub.places.length > 0 && <LinkList title={copy.listTitle} links={hub.places.map((place) => ({ href: place.url ?? hub.path, label: place.name, external: Boolean(place.url) }))} />}
+        {kind === "freedom-camping" && <section className="pl-block pl-notes">
+          <h2>DOC notices, not council bylaws</h2>
+          <p>These notices cover public conservation land managed by the Department of Conservation. On land a district or city council manages, that council&apos;s own freedom camping rules apply, and signs at the site always take priority.</p>
+        </section>}
+        {kind === "freedom-camping" && <LinkList title="Council rules" links={[...(prose?.councils ?? []).map((council) => ({ href: council.url, label: council.label, external: true })), ...(councilGuide ? [{ href: articleHref(councilGuide), label: councilGuide.title }] : [])]} />}
+        <section className="pl-block pl-notes">
+          <h2>{notes.notesTitle}</h2>
+          <p>{notes.noteRules}</p>
+          <p>{notes.noteSeason}</p>
+          <p>Official sources: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+        </section>
+        <LinkList title={`Guides for ${hub.name}`} links={guides.map((item) => ({ href: articleHref(item), label: item.title }))} />
+        <LinkList title={kind === "freedom-camping" ? "Nearby districts" : "Nearby regions"} links={nearby.map((other) => ({ href: other.path, label: copy.h1(other) }))} />
+        <LinkList title="Before you go" links={[
+          ...(guide ? [{ href: articleHref(guide), label: guide.title }] : []),
+          ...(related ? [{ href: related.href, label: related.label }] : []),
+          ...sources.map((source) => ({ href: source.url, label: source.label, external: true })),
+        ]} />
+        <GuideEndCta reuse={false} locale="en" placement="hub" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+      </div>
     </main>
     <Footer pageKey={hubPageKey(hub.id)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(hubSchema(hub)) }} />
   </>;
-}
-
-/** National figures for an index page, from product-facts.json. */
-function indexFacts(kind: BuiltHubKind): { label: string; value: string }[] {
-  const c = productFacts.categories;
-  const n = (value: number) => value.toLocaleString("en-NZ");
-  if (kind === "camping") return [
-    { label: "DOC campsites in the data", value: n(c.docCampsites.total) },
-    { label: "Free", value: n(c.docCampsites.fee.free) },
-    { label: "With a fee", value: n(c.docCampsites.fee.paid) },
-    { label: "Bookable online through DOC", value: n(c.docCampsites.bookable) },
-    { label: "Campervan access", value: n(c.docCampsites.campervanAccess) },
-  ];
-  if (kind === "huts") return [
-    { label: "DOC huts in the data", value: n(c.docHuts.total) },
-    { label: "Bunks", value: n(c.docHuts.bunks) },
-    { label: "Free", value: n(c.docHuts.fee.free) },
-    { label: "With a fee", value: n(c.docHuts.fee.paid) },
-    { label: "Must be booked through DOC", value: n(c.docHuts.bookable) },
-  ];
-  const notices = c.docFreedomCampingNotices;
-  return [
-    { label: "Current DOC notices", value: n(notices.current) },
-    ...Object.entries(notices.currentByType).map(([type, count]) => ({ label: `${type} (current)`, value: n(count) })),
-    { label: "Historic notices (no longer current)", value: n(notices.historic) },
-    { label: "DOC districts with notices", value: n(notices.districts) },
-  ];
 }
 
 export function hubIndexMetadataFor(kind: BuiltHubKind) {
@@ -231,7 +174,6 @@ export function HubIndexPage({ kind }: { kind: BuiltHubKind }) {
   const copy = hubCopy[kind];
   const listed = listedHubs(kind);
   const groups = [...new Set(listed.map((hub) => hub.operationsRegion ?? hub.island ?? ""))];
-  const asOf = productFacts.categories[kind === "camping" ? "docCampsites" : kind === "huts" ? "docHuts" : "docFreedomCampingNotices"].asOf;
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -242,23 +184,13 @@ export function HubIndexPage({ kind }: { kind: BuiltHubKind }) {
   return <>
     <Header />
     <main {...mainData({ kind: "hub", locale: "en", slug: kind })}>
-      <article className="article-page hub-page">
-        <header className="article-header">
-          <p className="eyebrow">Department of Conservation data</p>
-          <h1>{copy.indexTitle}</h1>
-          <p>{copy.indexIntro}</p>
-        </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <HubMap points={listed.flatMap((hub) => hub.points)} label={`Map of the ${copy.noun} in the regions listed below`} caption="Positions rounded to about 100 m. Coastline and lakes: Natural Earth." />
-            {groups.map((group) => <section key={group} className="hub-directory">
-              <h2>{group}</h2>
-              <ul>{listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => <li key={hub.id}><Link href={hub.path}><strong>{hub.name}</strong><ArrowRight /></Link></li>)}</ul>
-            </section>)}
-            <AppCta placement="hub" locale="en" eyebrow="The full map is in KiwiCamping" title={`Every DOC ${kind === "freedom-camping" ? "campsite and hut" : copy.nounSingular} on one map`} text={`KiwiCamping maps DOC campsites, huts and bookable holiday parks across New Zealand with fees, facilities and DOC alerts.`} button="Download app" />
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: copy.indexTitle, path: sitePath(`/${kind}`) }]} />
+        <header className="pl-header"><h1>{copy.indexTitle}</h1></header>
+        <PlaceMap points={listed.flatMap((hub) => hub.points.map(([lat, lng]) => [lng, lat] as [number, number]))} label={copy.indexTitle} precision={1} />
+        {groups.map((group) => <LinkList key={group} title={group} links={listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => ({ href: hub.path, label: hub.name }))} />)}
+        <GuideEndCta reuse={false} locale="en" placement="hub" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+      </div>
     </main>
     <Footer pageKey={hubIndexPageKey(kind)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />

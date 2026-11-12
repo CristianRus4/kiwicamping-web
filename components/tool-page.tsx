@@ -77,7 +77,7 @@ export function ToolPage({ id, locale }: { id: ToolId; locale: ToolPageLocale })
               <h2>{shared.otherToolsTitle}</h2>
               <ul>{others.map((other) => <li key={other}><Link href={toolPath(locale, other)}>{toolCopy(locale, other).tool.h1}<ArrowRight /></Link></li>)}</ul>
             </section>
-            <AppCta placement="tool" locale={locale} eyebrow={shared.ctaEyebrow} title={shared.ctaTitle} text={shared.ctaText} button={shared.ctaButton} />
+            <AppCta placement="tool" locale={locale} eyebrow={shared.ctaEyebrow} title={shared.ctaTitle} button={shared.ctaButton} />
           </div>
         </div>
       </article>

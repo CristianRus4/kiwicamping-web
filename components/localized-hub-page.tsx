@@ -1,20 +1,19 @@
-import Link from "next/link";
-import { ArrowLeft, ArrowRight, Database } from "lucide-react";
-import { FaApple } from "react-icons/fa6";
 import { LocalizedFooter, LocalizedHeader } from "@/components/localized-site";
-import { HubMap } from "@/components/hub-map";
+import { PlaceMap } from "@/components/places/place-map";
 import { mainData } from "@/lib/analytics";
-import { appStoreUrl } from "@/lib/app-store";
+import { GuideEndCta } from "@/components/guide-cta";
+import { Crumbs, LinkList } from "@/components/places/listing";
+import { PlaceCards } from "@/components/places/place-cards";
+import { places } from "@/lib/places";
 import { SITE_URL, sitePath } from "@/lib/site";
 import { englishFallback, htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
-import { localizedArticles } from "@/lib/localized";
-import { factValue, listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
+import { getTranslation, localizedArticles } from "@/lib/localized";
+import { listedHubs, proseFor, type BuiltHubKind, type Hub } from "@/lib/hubs";
 import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { guidePageKey } from "@/lib/routes/guides";
 import { hrefFor } from "@/lib/routes";
-import { fill, labelKey, localizeFactValue, localizeFee, term, type HubStrings } from "@/lib/hub-strings";
-import { localizedHubPath, localizedHubs, localizedHubView, localizedIndexPath, type LocalizedHubView } from "@/lib/hubs-localized";
-import productFacts from "@/lib/data/product-facts.json";
+import { fill, labelKey, type HubStrings } from "@/lib/hub-strings";
+import { localizedHubPath, localizedHubs, localizedHubView, localizedIndexPath } from "@/lib/hubs-localized";
 import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
 
 /**
@@ -27,30 +26,13 @@ import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
 const localizedByPath = new Map(localizedHubs.map((hub) => [hub.path, hub]));
 const link = (strings: HubStrings, label: string) => strings.links[labelKey(label)] ?? label;
 
-function Cta({ locale, t, eyebrow, title, text }: { locale: LocaleCode; t: HubStrings; eyebrow: string; title: string; text: string }) {
-  return <div className="article-end-cta">
-    <div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2><p>{text}</p></div>
-    <div className="download-card download-card-compact">
-      <a className="store-button" href={appStoreUrl({ placement: "hub", locale })} data-cta="hub" aria-label={t.common.downloadLabel}><FaApple aria-hidden="true" /><span>{t.common.download}</span></a>
-    </div>
-  </div>;
-}
-
-function PlaceDetail({ hub, place, view }: { hub: Hub; place: Hub["places"][number]; view: LocalizedHubView }) {
-  const t = view.strings;
-  if (hub.kind === "freedom-camping") return <>{place.conditions?.length ? place.conditions.map((item) => term(t, item)).join("; ") : t.common.noFreedomCamping}{place.areaHa ? ` · ${view.number(place.areaHa)} ha` : ""}</>;
-  if (hub.kind === "huts") return <>{place.bunks ? fill(t.common.bunks, { count: view.number(place.bunks) }) : t.common.bunksNotListed}{place.facilities?.length ? ` · ${place.facilities.map((item) => term(t, item)).join(", ")}` : ""}</>;
-  return <>{[...(place.access ?? []), ...(place.facilities ?? [])].map((item) => term(t, item)).join(", ")}</>;
-}
-
 export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode }) {
   const view = localizedHubView(locale, hub);
-  const { strings: t, translated, number, date } = view;
+  const { strings: t, translated, number } = view;
   const kind = hub.kind as BuiltHubKind;
   const copy = t.kinds[kind];
   const prefix = localeRoot(locale);
   const values = { name: hub.name, count: number(hub.placeCount), pass: "" };
-  const paragraphs = t.prose[hub.id] ?? [];
   const english = proseFor(hub);
   const guide = localizedArticles(locale).find((article) => article.slug === hub.guide.slug);
   const councilGuide = localizedArticles(locale).find((article) => article.slug === "camping-rules-local-councils-new-zealand");
@@ -75,124 +57,52 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
     ],
   };
 
+  const ui = getTranslation(locale);
+  const listed = kind === "freedom-camping" ? [] : places.filter((place) => place.stateSlug === hub.slug && (kind === "huts" ? place.type === "doc_hut" : place.type !== "doc_hut"))
+    .sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
+
   return <>
     <LocalizedHeader locale={locale} />
     <main {...mainData({ kind: "hub", locale, slug: hub.id })} {...englishFallback(translated)}>
-      <article className="article-page hub-page">
-        <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href={indexPath}><ArrowLeft />{copy.indexTitle}</Link><span>{hub.operationsRegion ?? hub.island}</span></nav>
-        <header className="article-header">
-          <p className="eyebrow">{copy.indexTitle}</p>
-          <h1>{fill(copy.h1, values)}</h1>
-          <p>{fill(copy.intro, values)}</p>
-        </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <HubMap points={hub.points} label={fill(copy.mapLabel, values)} caption={t.common.mapCaption} />
-            <section>
-              <span className="section-count">DATA</span>
-              <h2>{fill(t.common.atAGlance, { name: hub.name })}</h2>
-              <div className="hub-table-wrap"><table className="hub-table hub-facts"><tbody>{hub.facts.map((fact) => <tr key={fact.key}><th scope="row">{t.facts[labelKey(fact.label)] ?? fact.label}</th><td>{typeof fact.value === "number" ? number(fact.value) : localizeFactValue(t, fact.key, fact.value, date)}</td></tr>)}</tbody></table></div>
-            </section>
-            {kind === "freedom-camping" && <section className="hub-council">
-              <h2>{t.common.councilTitle}</h2>
-              <p>{t.common.councilText}</p>
-              <ul>
-                {(english?.councils ?? []).map((council) => <li key={council.url}><a href={council.url}>{link(t, council.label)}<ArrowRight /></a></li>)}
-                {councilGuide && <li><Link href={hrefFor(guidePageKey(councilGuide.slug), locale)}>{councilGuide.title}<ArrowRight /></Link></li>}
-              </ul>
-            </section>}
-            {paragraphs.length > 0 && <section className="hub-prose">
-              <span className="section-count">01</span>
-              <h2>{fill(copy.proseTitle, { name: hub.name })}</h2>
-              {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </section>}
-            <section>
-              <span className="section-count">{hub.places.length === hub.placeCount ? "ALL" : hub.places.length}</span>
-              <h2>{copy.listTitle}</h2>
-              {hub.places.length < hub.placeCount && <p>{fill(t.common.placesSome, { shown: hub.places.length, count: number(hub.placeCount), noun: copy.noun })} {kind === "freedom-camping" ? t.common.placesMoreFreedom : t.common.placesMoreApp}</p>}
-              <div className="hub-table-wrap">
-                <table className="hub-table hub-places">
-                  <thead><tr><th scope="col">{t.common.colName}</th><th scope="col">{kind === "freedom-camping" ? t.common.colNotice : t.common.colType}</th><th scope="col">{kind === "freedom-camping" ? t.common.colConditions : kind === "huts" ? t.common.colHutDetail : t.common.colCampDetail}</th>{kind !== "freedom-camping" && <th scope="col">{t.common.colFee}</th>}</tr></thead>
-                  <tbody>{hub.places.map((place) => <tr key={place.id}>
-                    <th scope="row">{place.url ? <a href={place.url}>{place.name}</a> : place.name}<span>{kind === "freedom-camping" ? (place.noticeNumber ? fill(t.common.notice, { number: place.noticeNumber }) : "") : place.locality}{place.open ? "" : ` · ${t.common.markedClosed}`}</span></th>
-                    <td>{term(t, place.type)}</td>
-                    <td><PlaceDetail hub={hub} place={place} view={view} /></td>
-                    {kind !== "freedom-camping" && <td>{place.fee ? localizeFee(t, place.fee) : ""}</td>}
-                  </tr>)}</tbody>
-                </table>
-              </div>
-            </section>
-            <section className="sources hub-notes">
-              <h2>{copy.notesTitle}</h2>
-              <p>{copy.noteRules}</p>
-              <p>{copy.noteSeason}</p>
-              <p>{t.common.notesSources}: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
-            </section>
-            {guides.length > 0 && <section className="sources">
-              <h2>{fill(t.common.guidesTitle, { name: hub.name })}</h2>
-              <ul>{guides.map((item) => <li key={item.slug}><Link href={hrefFor(guidePageKey(item.slug), locale)}>{item.title}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            {nearby.length > 0 && <section className="sources">
-              <h2>{kind === "freedom-camping" ? t.common.nearbyDistricts : t.common.nearbyRegions}</h2>
-              <ul>{nearby.map((other) => <li key={other.id}><Link href={hrefFor(hubPageKey(other.id), locale)}>{fill(copy.h1, { name: other.name })}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            <section className="sources">
-              <h2>{t.common.checkTitle}</h2>
-              <p>{t.common.checkText}</p>
-              <ul>
-                {guide && <li><Link href={hrefFor(guidePageKey(guide.slug), locale)}>{guide.title}<ArrowRight /></Link></li>}
-                {related && <li><Link href={related.href}>{related.label}<ArrowRight /></Link></li>}
-                {sources.map((source) => <li key={source.url}><a href={source.url}>{link(t, source.label)}<ArrowRight /></a></li>)}
-              </ul>
-            </section>
-            <Cta locale={locale} t={t} eyebrow={kind === "freedom-camping" ? t.common.ctaEyebrowFreedom : t.common.ctaEyebrowMap} title={fill(copy.ctaTitle, values)} text={fill(copy.ctaText, values)} />
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: t.common.home, path: sitePath(prefix || "/") }, { name: copy.indexTitle, path: indexPath }, { name: hub.name, path: localizedHubPath(hub, locale) }]} />
+        <header className="pl-header"><h1>{fill(copy.h1, values)}</h1></header>
+        <PlaceMap points={hub.points.map(([lat, lng]) => [lng, lat] as [number, number])} label={fill(copy.mapLabel, values)} />
+        {listed.length > 0 && <section className="pl-block">
+          <h2>{copy.listTitle}</h2>
+          <PlaceCards places={listed} />
+        </section>}
+        {kind === "freedom-camping" && hub.places.length > 0 && <LinkList title={copy.listTitle} links={hub.places.map((place) => ({ href: place.url ?? localizedHubPath(hub, locale), label: place.name, external: Boolean(place.url) }))} />}
+        {kind === "freedom-camping" && <LinkList title={t.common.councilTitle} links={[...(english?.councils ?? []).map((council) => ({ href: council.url, label: link(t, council.label), external: true })), ...(councilGuide ? [{ href: hrefFor(guidePageKey(councilGuide.slug), locale), label: councilGuide.title }] : [])]} />}
+        <section className="pl-block pl-notes">
+          <h2>{copy.notesTitle}</h2>
+          <p>{copy.noteRules}</p>
+          <p>{copy.noteSeason}</p>
+          <p>{t.common.notesSources}: {noteSources[kind].map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+        </section>
+        <LinkList title={fill(t.common.guidesTitle, { name: hub.name })} links={guides.map((item) => ({ href: hrefFor(guidePageKey(item.slug), locale), label: item.title }))} />
+        <LinkList title={kind === "freedom-camping" ? t.common.nearbyDistricts : t.common.nearbyRegions} links={nearby.map((other) => ({ href: hrefFor(hubPageKey(other.id), locale), label: fill(copy.h1, { name: other.name }) }))} />
+        <LinkList title={t.common.checkTitle} links={[
+          ...(guide ? [{ href: hrefFor(guidePageKey(guide.slug), locale), label: guide.title }] : []),
+          ...(related ? [related] : []),
+          ...sources.map((source) => ({ href: source.url, label: link(t, source.label), external: true })),
+        ]} />
+        <GuideEndCta reuse={false} locale={locale} placement="hub" label={ui.download} eyebrow={ui.takeRoad} title={ui.savePlanTitle} text={ui.savePlanText} />
+      </div>
     </main>
     <LocalizedFooter locale={locale} pageKey={hubPageKey(hub.id)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   </>;
 }
 
-/** National figures for an index page, from product-facts.json, labelled in the page's language. */
-function indexFacts(kind: BuiltHubKind, view: LocalizedHubView): { label: string; value: string }[] {
-  const c = productFacts.categories;
-  const n = view.number;
-  const label = (english: string) => view.strings.index[labelKey(english)] ?? english;
-  if (kind === "camping") return [
-    { label: label("DOC campsites in the data"), value: n(c.docCampsites.total) },
-    { label: label("Free"), value: n(c.docCampsites.fee.free) },
-    { label: label("With a fee"), value: n(c.docCampsites.fee.paid) },
-    { label: label("Bookable online through DOC"), value: n(c.docCampsites.bookable) },
-    { label: label("Campervan access"), value: n(c.docCampsites.campervanAccess) },
-  ];
-  if (kind === "huts") return [
-    { label: label("DOC huts in the data"), value: n(c.docHuts.total) },
-    { label: label("Bunks"), value: n(c.docHuts.bunks) },
-    { label: label("Free"), value: n(c.docHuts.fee.free) },
-    { label: label("With a fee"), value: n(c.docHuts.fee.paid) },
-    { label: label("Must be booked through DOC"), value: n(c.docHuts.bookable) },
-  ];
-  const notices = c.docFreedomCampingNotices;
-  return [
-    { label: label("Current DOC notices"), value: n(notices.current) },
-    ...Object.entries(notices.currentByType).map(([type, count]) => ({ label: fill(view.strings.common.currentType, { type: term(view.strings, type) }), value: n(count) })),
-    { label: label("Historic notices (no longer current)"), value: n(notices.historic) },
-    { label: label("DOC districts with notices"), value: n(notices.districts) },
-  ];
-}
-
 export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale: LocaleCode }) {
   const view = localizedHubView(locale);
-  const { strings: t, translated, number, date } = view;
+  const { strings: t, translated, number } = view;
   const copy = t.kinds[kind];
   const listed = listedHubs(kind);
   const groups = [...new Set(listed.map((hub) => hub.operationsRegion ?? hub.island ?? ""))];
-  const asOf = productFacts.categories[kind === "camping" ? "docCampsites" : kind === "huts" ? "docHuts" : "docFreedomCampingNotices"].asOf;
   const prefix = localeRoot(locale);
   const indexPath = localizedIndexPath(kind, locale);
-  const extraKey = kind === "huts" ? "bunks" : kind === "camping" ? "free" : "prohibited";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -200,34 +110,17 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
       { "@type": "ItemList", name: copy.indexTitle, numberOfItems: listed.length, itemListElement: listed.map((hub, index) => ({ "@type": "ListItem", position: index + 1, name: fill(copy.h1, { name: hub.name, count: number(hub.placeCount) }), url: `${SITE_URL}${hrefFor(hubPageKey(hub.id), locale)}` })) },
     ],
   };
+  const ui = getTranslation(locale);
   return <>
     <LocalizedHeader locale={locale} />
     <main {...mainData({ kind: "hub", locale, slug: kind })} {...englishFallback(translated)}>
-      <article className="article-page hub-page">
-        <header className="article-header">
-          <p className="eyebrow">{t.common.indexEyebrow}</p>
-          <h1>{copy.indexTitle}</h1>
-          <p>{copy.indexIntro}</p>
-        </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <HubMap points={listed.flatMap((hub) => hub.points)} label={fill(t.common.indexMapLabel, { noun: copy.noun })} caption={t.common.mapCaption} />
-            <section>
-              <span className="section-count">DATA</span>
-              <h2>{t.common.nzAtAGlance}</h2>
-              <div className="hub-table-wrap"><table className="hub-table hub-facts"><tbody>{indexFacts(kind, view).map((fact) => <tr key={fact.label}><th scope="row">{fact.label}</th><td>{fact.value}</td></tr>)}</tbody></table></div>
-            </section>
-            {groups.map((group) => <section key={group} className="hub-directory">
-              <h2>{group}</h2>
-              <ul>{listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => {
-                const extra = factValue(hub, extraKey);
-                return <li key={hub.id}><Link href={hrefFor(hubPageKey(hub.id), locale)}><strong>{hub.name}</strong><span>{number(hub.placeCount)} {copy.noun}{extra !== undefined ? ` · ${fill(copy.directoryExtra, { value: typeof extra === "number" ? number(extra) : extra })}` : ""}</span><ArrowRight /></Link></li>;
-              })}</ul>
-            </section>)}
-            <Cta locale={locale} t={t} eyebrow={t.common.ctaEyebrowMap} title={copy.indexCtaTitle} text={fill(t.common.indexCtaText, { pass: "" })} />
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: t.common.home, path: sitePath(prefix || "/") }, { name: copy.indexTitle, path: indexPath }]} />
+        <header className="pl-header"><h1>{copy.indexTitle}</h1></header>
+        <PlaceMap points={listed.flatMap((hub) => hub.points.map(([lat, lng]) => [lng, lat] as [number, number]))} label={fill(t.common.indexMapLabel, { noun: copy.noun })} precision={1} />
+        {groups.map((group) => <LinkList key={group} title={group} links={listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => ({ href: hrefFor(hubPageKey(hub.id), locale), label: hub.name }))} />)}
+        <GuideEndCta reuse={false} locale={locale} placement="hub" label={ui.download} eyebrow={ui.takeRoad} title={ui.savePlanTitle} text={ui.savePlanText} />
+      </div>
     </main>
     <LocalizedFooter locale={locale} pageKey={hubIndexPageKey(kind)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />

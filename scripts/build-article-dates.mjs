@@ -101,7 +101,7 @@ const today = new Date().toISOString().slice(0, 10);
 const PAGE_SOURCES = {
   home: ["app/page.tsx", "lib/summer.ts"],
   tools: ["app/tools", "lib/tools.ts", "components/tool-page.tsx", "components/currency-converter.tsx", "components/fuel-calculator.tsx", "components/drive-time-calculator.tsx", "components/tank-duration-calculator.tsx", "components/campsite-cost-calculator.tsx"],
-  hubs: ["lib/hubs.ts", "lib/hubs-localized.ts", "lib/hub-prose.ts", "lib/hub-prose", "lib/hub-strings.ts", "lib/data/hubs.json", "components/hub-page.tsx", "components/localized-hub-page.tsx", "components/hub-map.tsx", "app/camping", "app/huts", "app/freedom-camping", "app/[locale]/camping", "app/[locale]/huts", "app/[locale]/freedom-camping"],
+  hubs: ["lib/hubs.ts", "lib/hubs-localized.ts", "lib/hub-prose.ts", "lib/hub-prose", "lib/hub-strings.ts", "lib/data/hubs.json", "components/hub-page.tsx", "components/localized-hub-page.tsx", "components/places/place-map.tsx", "app/camping", "app/huts", "app/freedom-camping", "app/[locale]/camping", "app/[locale]/huts", "app/[locale]/freedom-camping"],
 };
 const pageDates = Object.fromEntries(Object.entries(PAGE_SOURCES).map(([page, paths]) => {
   const present = paths.filter((path) => existsSync(join(ROOT, path)));

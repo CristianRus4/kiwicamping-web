@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
 import { homeOgImage } from "@/lib/seo";
-import { photoUrl, placePath, places, placesPath, placeStatePath, type Place, type PlaceState } from "@/lib/places";
+import { photoUrl, placePath, placesPath, placeStatePath, type Place, type PlaceState } from "@/lib/places";
 import { placeDescription } from "@/lib/places-copy";
+import { regionIntros } from "@/lib/region-intros";
 
 /** English only, so no hreflang; every place page in the export is indexable (lib/routes/places.ts). */
 const robots = { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" as const, "max-snippet": -1 } };
@@ -22,12 +23,13 @@ export function placeMetadata(place: Place): Metadata {
 
 export function placeStateMetadata(state: PlaceState): Metadata {
   const title = `DOC campsites, huts and holiday parks in ${state.name}`;
-  const description = `${state.places.length} places to camp and stay in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
+  const intro = regionIntros[state.slug];
+  const description = intro ? (intro.length <= 155 ? intro : `${intro.slice(0, intro.lastIndexOf(" ", 154))}…`) : `DOC campsites, huts and holiday parks in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
   return { title, description, alternates: { canonical: placeStatePath(state) }, openGraph: og(title, description, placeStatePath(state)), robots };
 }
 
 export function placesMetadata(): Metadata {
   const title = "DOC campsites, huts and holiday parks across New Zealand";
-  const description = `Search ${places.length.toLocaleString("en-NZ")} DOC campsites, huts and holiday parks by region, island or type, with photos, facilities, fees and holiday parks you can book.`;
+  const description = "Search DOC campsites, huts and holiday parks by region, island or type, with photos, facilities, fees and holiday parks you can book.";
   return { title, description, alternates: { canonical: placesPath() }, openGraph: og(title, description, placesPath()), robots };
 }
