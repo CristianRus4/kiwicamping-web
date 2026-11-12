@@ -11,7 +11,7 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  * Facebook (lib/social.ts) · ans the download line right after a page's opening answer (components/answer-cta.tsx) ·
  * intro the app sentence at the end of a guide's first paragraph (components/intro-cta.tsx)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro", "place"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** `en` for the English site, otherwise the locale's URL segment (`de`, `zh-hans`, ...). */

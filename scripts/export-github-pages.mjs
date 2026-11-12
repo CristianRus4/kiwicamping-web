@@ -29,7 +29,9 @@ const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
  * the export. Articles that already rank keep their published .html URL; draft locales are not in
  * it. Crawler files (robots.txt, the sitemaps, llms.txt) are written as they are served.
  */
-const routes = exportRoutes();
+// PAGES_ONLY=/places,/ exports just the routes under those prefixes, for a quick local preview.
+const only = process.env.PAGES_ONLY?.split(",").filter(Boolean);
+const routes = exportRoutes().filter((route) => !only || only.some((prefix) => prefix === "/" ? route.path === "/" : route.path.startsWith(prefix)));
 const htmlRoutes = routes.filter((route) => route.kind !== "crawler").map((route) => route.path);
 const textRoutes = routes.filter((route) => route.kind === "crawler").map((route) => route.path);
 const legacyRoutes = routes.filter((route) => route.locale === "en" && route.path.endsWith(".html")).map((route) => route.path);
@@ -177,7 +179,7 @@ for (const route of htmlRoutes) {
   const html = await readFile(outputPath(route), "utf8");
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
-    if (target) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
+    if (target && !only) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
   }
 }
 

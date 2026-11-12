@@ -237,7 +237,7 @@ test("every page labels its main element for analytics",async()=>{
   for(const {path,html} of pages.filter((page)=>generated(page.path))){
     const main=/<main\b[^>]*>/.exec(html)?.[0]??"";
     const kind=/data-page-kind="([a-z]+)"/.exec(main)?.[1];
-    assert.ok(["home","guide","guides","tools","support","legal","hub","tool"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
+    assert.ok(["home","guide","guides","tools","support","legal","hub","tool","place","places"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
     assert.match(main,new RegExp(`data-locale="${pageLocale(path)}"`),`${path} <main> data-locale`);
     if(kind==="guide"){
       assert.match(main,/data-slug="[a-z0-9-]+"/,`${path} guide without data-slug`);

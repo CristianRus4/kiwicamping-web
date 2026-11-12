@@ -12,6 +12,7 @@ import { articles } from "@/lib/site";
 import { summerGuideSlugs } from "@/lib/summer";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
+import { PlacesHome } from "@/components/places/places-home";
 import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -89,6 +90,7 @@ export default function Home() {
         </div>
       </section>
 
+      <PlacesHome />
       <section className="section story-section" id="how-it-works">
         <div className="section-head"><div><p className="eyebrow">From idea to open road</p><h2>Find a camp.<br/>Build the trip.</h2></div><p>Filter down to tonight’s camp, save tomorrow’s possibilities into collections and keep the route, distance, dates, notes and to-dos together in one trip.</p></div>
         <div className="steps-grid">

@@ -6,34 +6,41 @@ type Copy = { locale: CtaLocale; placement: CtaPlacement; label: string };
 
 /**
  * The download boxes every guide carries in every language: one beside the article that stays in view
- * while reading, one at the end. On desktop, hovering the store button shows the QR code
- * (`ct=w_qr_<locale>`) above it; the path is drawn once per page and the second box reuses it.
+ * while reading, one inside the text and one at the end. On a desktop, hovering a store button narrows
+ * it and grows it upward into the QR code (`ct=w_qr_<locale>`); the code is drawn once per page and
+ * the others reuse it.
  */
 const QR_ID = "guide-qr";
 
-function GuideQr({ locale, reuse = false }: { locale: CtaLocale; reuse?: boolean }) {
+function QrCode({ locale, reuse }: { locale: CtaLocale; reuse: boolean }) {
   const { size, d } = modulePath(appStoreUrl({ placement: "qr", locale }));
-  return <div className="qr-image guide-qr" aria-hidden="true"><svg viewBox={`0 0 ${size} ${size}`} focusable="false" shapeRendering="crispEdges">{reuse ? <use href={`#${QR_ID}`} /> : <path id={QR_ID} d={d} fill="currentColor" />}</svg></div>;
+  return <svg className="qr-morph-code" viewBox={`0 0 ${size} ${size}`} focusable="false" shapeRendering="crispEdges">{reuse ? <use href={`#${QR_ID}`} /> : <path id={QR_ID} d={d} fill="currentColor" />}</svg>;
 }
 
 function StoreButton({ locale, placement, label }: Copy) {
   return <a className="store-button" href={appStoreUrl({ placement, locale })} data-cta={placement}><FaApple aria-hidden="true" /><span>{label}</span></a>;
 }
 
-/** The store button with its QR code, which appears above it while a desktop pointer hovers the button. */
+/** The store button; on a desktop, hovering it morphs it into the QR code with the label kept below. */
 export function StoreWithQr({ reuse = false, ...copy }: Copy & { reuse?: boolean }) {
-  return <div className="store-qr"><StoreButton {...copy} /><GuideQr locale={copy.locale} reuse={reuse} /></div>;
+  return <div className="store-qr">
+    <StoreButton {...copy} />
+    <div className="qr-morph" aria-hidden="true"><QrCode locale={copy.locale} reuse={reuse} /><span className="qr-morph-label"><FaApple />{copy.label}</span></div>
+  </div>;
 }
 
 export function GuideSideCard({ eyebrow, title, ...copy }: Copy & { eyebrow: string; title: string }) {
   return <div className="article-side-card"><p className="eyebrow">{eyebrow}</p><h3>{title}</h3><StoreWithQr {...copy} /></div>;
 }
 
-/** The end box of a translated guide. English guides end with the screenshot box (components/context-cta.tsx). */
-export function GuideEndCta({ eyebrow, title, text, ...copy }: Copy & { eyebrow: string; title: string; text: string }) {
+/**
+ * The end box of a translated guide and of the place pages (English guides end with the screenshot box,
+ * components/context-cta.tsx). `reuse` borrows the side box's QR code; a page without one draws its own.
+ */
+export function GuideEndCta({ eyebrow, title, text, reuse = true, ...copy }: Copy & { eyebrow: string; title: string; text: string; reuse?: boolean }) {
   return <div className="article-end-cta">
     <div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2><p>{text}</p></div>
-    <StoreWithQr {...copy} reuse />
+    <StoreWithQr {...copy} reuse={reuse} />
   </div>;
 }
 
