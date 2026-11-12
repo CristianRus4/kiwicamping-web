@@ -49,7 +49,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
   const kind = hub.kind as BuiltHubKind;
   const copy = t.kinds[kind];
   const prefix = localeRoot(locale);
-  const values = { name: hub.name, count: number(hub.placeCount), pass: t.common.passLine };
+  const values = { name: hub.name, count: number(hub.placeCount), pass: "" };
   const paragraphs = t.prose[hub.id] ?? [];
   const english = proseFor(hub);
   const guide = localizedArticles(locale).find((article) => article.slug === hub.guide.slug);
@@ -87,7 +87,6 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
         </header>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            <p className="hub-source"><Database aria-hidden="true" /> {fill(t.common.sourceLine, { date: date(hub.asOf) })} <Link href="/credits/#data-sources">{t.common.dataCredits}</Link></p>
             <HubMap points={hub.points} label={fill(copy.mapLabel, values)} caption={t.common.mapCaption} />
             <section>
               <span className="section-count">DATA</span>
@@ -212,7 +211,6 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
         </header>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            <p className="hub-source"><Database aria-hidden="true" /> {fill(t.common.sourceLine, { date: date(asOf) })} <Link href="/credits/#data-sources">{t.common.dataCredits}</Link></p>
             <HubMap points={listed.flatMap((hub) => hub.points)} label={fill(t.common.indexMapLabel, { noun: copy.noun })} caption={t.common.mapCaption} />
             <section>
               <span className="section-count">DATA</span>
@@ -226,7 +224,7 @@ export function LocalizedHubIndex({ kind, locale }: { kind: BuiltHubKind; locale
                 return <li key={hub.id}><Link href={hrefFor(hubPageKey(hub.id), locale)}><strong>{hub.name}</strong><span>{number(hub.placeCount)} {copy.noun}{extra !== undefined ? ` · ${fill(copy.directoryExtra, { value: typeof extra === "number" ? number(extra) : extra })}` : ""}</span><ArrowRight /></Link></li>;
               })}</ul>
             </section>)}
-            <Cta locale={locale} t={t} eyebrow={t.common.ctaEyebrowMap} title={copy.indexCtaTitle} text={fill(t.common.indexCtaText, { pass: t.common.passLine })} />
+            <Cta locale={locale} t={t} eyebrow={t.common.ctaEyebrowMap} title={copy.indexCtaTitle} text={fill(t.common.indexCtaText, { pass: "" })} />
           </div>
         </div>
       </article>

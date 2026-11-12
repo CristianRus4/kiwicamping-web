@@ -4,7 +4,8 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AppCta } from "@/components/app-cta";
 import { HubMap } from "@/components/hub-map";
-import { photoUrl, placePath, places, placeStatePath, typeLabels } from "@/lib/places";
+import { places, placeStatePath } from "@/lib/places";
+import { PlaceCards } from "@/components/places/place-cards";
 import { mainData } from "@/lib/analytics";
 import { hubIndexPageKey, hubPageKey } from "@/lib/routes/hubs";
 import { SITE_URL, articles, articleHref, sitePath } from "@/lib/site";
@@ -18,7 +19,7 @@ import { hubGuides, nearbyHubs, noteSources } from "@/lib/hub-regions";
  *
  * Every number on the page comes from the hub's record (lib/data/hubs.json); the prose is hand-written
  * from the same record and checked by scripts/audit-hubs.mjs. The full map stays in the app, so the
- * call to action says plainly what is free there and what needs the Pass.
+ * call to action points to the app.
  */
 
 const formatDate = (iso: string) => new Intl.DateTimeFormat("en-NZ", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
@@ -30,7 +31,6 @@ type KindCopy = {
   mapLabel: (hub: Hub) => string; listTitle: string; ctaTitle: (hub: Hub) => string; ctaText: (hub: Hub) => string;
 };
 
-const PASS_LINE = "Bookable holiday parks, stays and tours are free in the app. DOC campsites, huts, dump stations and the guides open with the Pass.";
 
 export const hubCopy: Record<BuiltHubKind, KindCopy> = {
   camping: {
@@ -45,7 +45,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC campsites in ${hub.name}`,
     listTitle: "Campsites",
     ctaTitle: (hub) => `All ${hub.placeCount} campsites on one map`,
-    ctaText: (hub) => `KiwiCamping shows every DOC campsite in ${hub.name} on the map with fees, facilities and DOC alerts, and puts the ones you pick into a trip with distances and dates. ${PASS_LINE}`,
+    ctaText: (hub) => `KiwiCamping shows every DOC campsite in ${hub.name} on the map with fees, facilities and DOC alerts, and puts the ones you pick into a trip with distances and dates.`,
   },
   huts: {
     indexTitle: "DOC huts by region",
@@ -59,7 +59,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC huts in ${hub.name}`,
     listTitle: "Huts",
     ctaTitle: (hub) => `All ${hub.placeCount} huts on one map`,
-    ctaText: (hub) => `KiwiCamping shows every DOC hut in ${hub.name} on the map with bunks, fees and DOC alerts, next to the campsites and tracks around them. ${PASS_LINE}`,
+    ctaText: (hub) => `KiwiCamping shows every DOC hut in ${hub.name} on the map with bunks, fees and DOC alerts, next to the campsites and tracks around them.`,
   },
   "freedom-camping": {
     indexTitle: "Freedom camping notices on DOC land",
@@ -73,7 +73,7 @@ export const hubCopy: Record<BuiltHubKind, KindCopy> = {
     mapLabel: (hub) => `Map of ${hub.placeCount} DOC freedom camping notice areas in ${hub.name}`,
     listTitle: "Notice areas",
     ctaTitle: () => "Find somewhere you can stay",
-    ctaText: (hub) => `KiwiCamping maps DOC campsites and bookable holiday parks across New Zealand, so you can find a place you are allowed to stay near ${hub.name}. ${PASS_LINE}`,
+    ctaText: (hub) => `KiwiCamping maps DOC campsites and bookable holiday parks across New Zealand, so you can find a place you are allowed to stay near ${hub.name}.`,
   },
 };
 
@@ -129,7 +129,7 @@ export function HubPage({ hub }: { hub: Hub }) {
   // The places with their own page in this region: DOC campsites and holiday parks for a camping hub,
   // DOC huts for a huts hub. Freedom camping notices have no place pages and stay a plain list.
   const listed = kind === "freedom-camping" ? [] : places.filter((place) => place.stateSlug === hub.slug && (kind === "huts" ? place.type === "doc_hut" : place.type !== "doc_hut"))
-    .sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 24);
+    .sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name)).slice(0, 5);
 
   return <>
     <Header />
@@ -158,11 +158,7 @@ export function HubPage({ hub }: { hub: Hub }) {
             </section>}
             {listed.length > 0 ? <section className="hub-places">
               <h2>{copy.listTitle}</h2>
-              <ul className="pl-rows">{listed.map((place) => <li key={place.id}><Link href={placePath(place)}>
-                <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
-                <span><strong>{place.name}</strong><small>{typeLabels[place.type].one}{place.park ? ` · ${place.park}` : ""}</small></span>
-              </Link></li>)}</ul>
-              <p className="hub-more"><Link href={placeStatePath({ slug: hub.slug })}>All places in {hub.name}<ArrowRight /></Link></p>
+              <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.slug }), label: `Explore all places in ${hub.name}` }} />
             </section> : hub.places.length > 0 && <section className="hub-places">
               <h2>{copy.listTitle}</h2>
               <ul className="pl-rows pl-rows-plain">{hub.places.map((place) => <li key={place.id}>{place.url ? <a href={place.url}><strong>{place.name}</strong>{place.locality && <small>{place.locality}</small>}</a> : <span><strong>{place.name}</strong>{place.locality && <small>{place.locality}</small>}</span>}</li>)}</ul>
@@ -190,7 +186,6 @@ export function HubPage({ hub }: { hub: Hub }) {
                 {sources.map((source) => <li key={source.url}><a href={source.url}>{source.label}<ArrowRight /></a></li>)}
               </ul>
             </section>
-            <p className="hub-source"><Database aria-hidden="true" /> Department of Conservation data, CC BY 4.0. <Link href="/credits/#data-sources">Data credits</Link></p>
             <AppCta placement="hub" locale="en" eyebrow={kind === "freedom-camping" ? "Plan the stay in KiwiCamping" : "The full map is in KiwiCamping"} title={copy.ctaTitle(hub)} text={copy.ctaText(hub)} button="Download app" />
           </div>
         </div>
@@ -255,13 +250,12 @@ export function HubIndexPage({ kind }: { kind: BuiltHubKind }) {
         </header>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            <p className="hub-source"><Database aria-hidden="true" /> Department of Conservation data, CC BY 4.0. <Link href="/credits/#data-sources">Data credits</Link></p>
             <HubMap points={listed.flatMap((hub) => hub.points)} label={`Map of the ${copy.noun} in the regions listed below`} caption="Positions rounded to about 100 m. Coastline and lakes: Natural Earth." />
             {groups.map((group) => <section key={group} className="hub-directory">
               <h2>{group}</h2>
               <ul>{listed.filter((hub) => (hub.operationsRegion ?? hub.island ?? "") === group).map((hub) => <li key={hub.id}><Link href={hub.path}><strong>{hub.name}</strong><ArrowRight /></Link></li>)}</ul>
             </section>)}
-            <AppCta placement="hub" locale="en" eyebrow="The full map is in KiwiCamping" title={`Every DOC ${kind === "freedom-camping" ? "campsite and hut" : copy.nounSingular} on one map`} text={`KiwiCamping maps DOC campsites, huts and bookable holiday parks across New Zealand with fees, facilities and DOC alerts. ${PASS_LINE}`} button="Download app" />
+            <AppCta placement="hub" locale="en" eyebrow="The full map is in KiwiCamping" title={`Every DOC ${kind === "freedom-camping" ? "campsite and hut" : copy.nounSingular} on one map`} text={`KiwiCamping maps DOC campsites, huts and bookable holiday parks across New Zealand with fees, facilities and DOC alerts.`} button="Download app" />
           </div>
         </div>
       </article>

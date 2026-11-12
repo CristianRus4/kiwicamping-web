@@ -59,8 +59,6 @@ const copy: Record<ContextCtaVariant, Copy> = {
   },
 };
 
-const passLine = "Free to download. BookIt holiday parks and tours are free to browse and book; DOC campsites, huts, dump stations, the in-app guides and trip planning need the Premium pass.";
-const iphoneLine = "KiwiCamping is an iPhone app. There is no Android version.";
 
 /** Guides whose reader intent differs from their category's default. */
 const slugVariants: Record<string, ContextCtaVariant> = {
@@ -101,8 +99,6 @@ export function ContextEndCta({ variant, placement }: { variant: ContextCtaVaria
     <div className="context-end-copy" data-cta-variant={variant}>
       <p className="eyebrow">{text.eyebrow}</p>
       <h2>{text.endTitle}</h2>
-      <p className="context-cta-pass">{passLine}</p>
-      <p className="context-cta-iphone">{iphoneLine}</p>
     </div>
     <StoreWithQr locale="en" placement={placement} label="Download app" reuse />
   </div>;
