@@ -35,7 +35,7 @@ test("keeps every already-ranking URL live and canonical",async()=>{for(const ur
 
 test("does not publish a ranking article at a second URL",async()=>{const list=await entries();for(const {slug,legacyPath} of list.filter(entry=>entry.legacyPath)){const response=await fetchPage(`/guides/${slug}`);assert.equal(response.status,404,`${slug} is published at ${legacyPath} and must not also serve /guides/${slug}`)}});
 
-test("renders a genuine long-form New Zealand route with prose under every heading",async()=>{const response=await fetchPage("/guides/coromandel-rotorua-road-trip");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Pacific beaches, forest roads and geothermal country/);assert.match(html,/Whitianga/);assert.match(html,/Rotorua/);assert.match(html,/property="og:url" content="https:\/\/campingapp\.nz\/guides\/coromandel-rotorua-road-trip\/"/);const body=html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1]??"";assert.ok((body.match(/<p[ >]/g)??[]).length>=6,"needs substantial prose");for(const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)){if(!/<h2/.test(section[1])||/place-chips|price-table|sources/.test(section[1]))continue;assert.match(section[1],/<p[ >]/,"every heading needs prose under it")}assert.match(html,/Save the stops\. Plan the whole trip\./);assert.doesNotMatch(html,/These names are intentionally|Editorial landscape image/)});
+test("renders a genuine long-form New Zealand route with prose under every heading",async()=>{const response=await fetchPage("/guides/coromandel-rotorua-road-trip");assert.equal(response.status,200);const html=await response.text();assert.match(html,/Pacific beaches, forest roads and geothermal country/);assert.match(html,/Whitianga/);assert.match(html,/Rotorua/);assert.match(html,/property="og:url" content="https:\/\/campingapp\.nz\/guides\/coromandel-rotorua-road-trip\/"/);const body=html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1]??"";assert.ok((body.match(/<p[ >]/g)??[]).length>=6,"needs substantial prose");for(const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)){if(!/<h2/.test(section[1])||/place-chips|pl-cards|price-table|sources/.test(section[1]))continue;assert.match(section[1],/<p[ >]/,"every heading needs prose under it")}assert.match(html,/Save the stops\. Plan the whole trip\./);assert.doesNotMatch(html,/These names are intentionally|Editorial landscape image/)});
 
 test("every article renders real prose and no templated filler",async()=>{const list=await entries();assert.ok(list.length>=78,`expected at least 78 articles, found ${list.length}`);
 const templates=[/the useful decisions around/,/gives the story a beginning, while/,/becomes easier when the route is divided into decisions/,/keep a workable alternative near/,/before leaving coverage, then attach the booking details/,/current signs, official alerts and the conditions on arrival take priority/,/as research anchors, recheck the responsible official source/,/Hold water, fuel, money and time in reserve between/];
@@ -434,6 +434,33 @@ test("related guides are relevant, stable and not all from one category",async()
     assert.ok(related.some((item)=>item.category!==article.category),`${article.slug} offers only its own category`);
     assert.deepEqual(relatedGuides(article).map((item)=>item.slug),related.map((item)=>item.slug),"deterministic");
   }
+});
+
+test("every English place page links three to six guides, and a guide about one region shows five of its places",async()=>{
+  let placePages=0;
+  let cardGuides=0;
+  for(const page of await pagesPromise){
+    if(!/\.html$|\/$/.test(page.path))continue;
+    const html=page.html;
+    if(!/data-locale="en"/.test(html))continue;
+    if(/data-page-kind="place"/.test(html)){
+      placePages+=1;
+      const list=html.match(/<section class="pl-block pl-links"><h2>Guides for [^<]+<\/h2><ul>([\s\S]*?)<\/ul>/);
+      assert.ok(list,`${page.path} links no guides`);
+      const links=[...list[1].matchAll(/<a href="([^"]+)"/g)].map((match)=>match[1]);
+      assert.ok(links.length>=3&&links.length<=6,`${page.path} links ${links.length} guides`);
+      assert.ok(links.every((href)=>href.startsWith("/")),`${page.path} guide links leave the site`);
+    }
+    if(/data-page-kind="guide"/.test(html)&&html.includes('class="article-places"')){
+      cardGuides+=1;
+      assert.ok(html.indexOf('class="article-places"')<html.indexOf('class="article-end-cta"'),`${page.path} places sit before the end box`);
+      const block=html.slice(html.indexOf('class="article-places"'),html.indexOf('class="article-end-cta"'));
+      assert.equal((block.match(/<li><a href="\/places\//g)??[]).length,5,`${page.path} shows five places`);
+      assert.match(block,/Explore all places in /,`${page.path} links its region's places`);
+    }
+  }
+  assert.ok(placePages>500,`expected the place pages, found ${placePages}`);
+  assert.ok(cardGuides>50,`expected place cards on the region guides, found ${cardGuides}`);
 });
 
 test("translation stamps find strings whose English changed",async()=>{
