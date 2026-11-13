@@ -4155,6 +4155,20 @@
       }
     ]
   },
+  "/images/screens/does-wikicamps-nz-work-offline.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/does-wikicamps-nz-work-offline-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/does-wikicamps-nz-work-offline.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/free-camping-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -4725,6 +4739,20 @@
       },
       {
         "path": "/images/screens/selling-a-campervan-new-zealand-before-you-leave.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/switch-from-wikicamps-nz.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/switch-from-wikicamps-nz-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/switch-from-wikicamps-nz.webp",
         "width": 1600
       }
     ]

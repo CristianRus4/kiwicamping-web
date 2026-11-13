@@ -81,4 +81,136 @@ export const wikiK2Articles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
     ],
   }),
+  a({
+    slug: "does-wikicamps-nz-work-offline",
+    title: "Does WikiCamps NZ Work Offline? What Works With No Signal",
+    description: "WikiCamps' Offline Mode keeps maps and up to three trips. KiwiCamping keeps every DOC campsite and hut detail on the phone with no download. What works where.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "DOC huts", "Freedom camping", "Haast Pass", "Milford Road", "The Catlins"],
+    imageAlt: "Mitre Peak rising above the still water of Milford Sound at the end of the Milford Road",
+    related: ["kiwicamping-offline-data-guide", "wikicamps-nz-account-login", "freedom-camping-rules-new-zealand", "new-zealand-driving-day-planner", "best-campervan-apps-new-zealand", "wikicamps-not-working-new-zealand"],
+    hubs: ["freedom-camping"],
+    intro:
+      "Partly. As of November 2026, WikiCamps says its Offline Mode lets you use maps and up to three of your planned trips without phone signal, once they are downloaded, and that mode has improved a lot since a rough 2025. KiwiCamping works the other way round: it has no offline map, but every DOC campsite, hut, track and freedom-camping notice is inside the app from the moment you install it, with nothing to download, no account to sign into and nothing to log you out when the bars disappear. We make KiwiCamping, so weigh this as our view; it gives WikiCamps credit where it is due.",
+    sections: [
+      s("Does WikiCamps work offline? Offline Mode in its own words", [
+        "WikiCamps' website describes it in one line: \"Offline Mode lets you access maps and up to three of your planned trips even without phone signal.\" That is a real strength. Offline maps mean the map itself keeps drawing when you drop out of coverage, which a directory-first app can't match.",
+        "The feature has grown in steps. Releases in the first half of 2025 added trip downloads for offline use, and version 6.1.5, released on 23 February 2026, made offline data the default and added offline access to bookings. The limit to know is the three-trip cap, which is WikiCamps' own figure: plan four separate trips and one of them stays online only.",
+      ], ["Offline maps after a download", "Up to three planned trips", "Offline data by default since February 2026"]),
+      s("What went wrong in 2025, and what changed", [
+        "The evidence here comes from WikiCamps Australia, which got version 6 a year before New Zealand and has far more reviews. Of its 150 most recent reviews on Apple's store there, about 21 describe offline problems, most of them from mid to late 2025. One reviewer wrote on 20 November 2025: \"Despite setting the app to offline mode and downloading everything… the app needed Internet connection during start-up.\" Another, on 14 July 2025: \"If you open up the app where the internet is sketchy the app opens up to the sign-in page.\"",
+        "Fixes followed. Version 6.1.2 (25 November 2025) listed an Offline Mode fix, and by March 2026 a five-star reviewer called \"the app loading into offline mode immediately\" a \"10/10 addition\". The fair reading as of November 2026 is that offline start-up was a big complaint and has since improved. The account is still there, though, and the WikiCamps login is one more step that needs a connection now and then.",
+      ], ["Offline start-up was the 2025 complaint", "Fixed in late 2025 and early 2026", "The account still needs signal sometimes"]),
+      s("KiwiCamping: no sign-in, no download, details on your phone", [
+        "KiwiCamping ships its New Zealand directory inside the app, so there is no offline download to remember before you leave town. With no signal at all you can still open 287 DOC campsites and 927 DOC huts (7,661 bunks) with their fees, facilities, dog rules and booking needs, read the details of 1,453 DOC tracks, and check 354 DOC freedom-camping notices across 35 districts.",
+        "Your own things stay readable too: Liked, Starred and Want to visit places, your collections and private notes, and every trip with its stops, dates and notes. None of it waits on a download, and because the app has no account, there is no sign-in screen waiting for you at a campsite with no bars. Open it and you are on the map; tap a place and its details are there.",
+      ], ["Directory built in, no download", "All your trips stay readable", "No sign-in to get stuck behind"], {
+        cta: true,
+        table: {
+          caption: "Without signal, as of November 2026, from WikiCamps' own description and KiwiCamping's features.",
+          head: ["", "WikiCamps NZ", "KiwiCamping"],
+          rows: [
+            ["Map", "Offline maps once downloaded", "Needs signal"],
+            ["Place details", "In the downloaded offline data", "Built into the app; no download"],
+            ["Planned trips", "Up to three offline", "Every trip you have made, with stops, dates and notes"],
+            ["Account", "Required", "None"],
+          ],
+        },
+      }),
+      s("What needs signal in KiwiCamping", [
+        "Be clear about the gap: KiwiCamping does not have offline maps. Map tiles, routing and directions, the weather forecast, place photos and Look Around all load over the network, and so do linked DOC articles. Without reception you can read a place in full, but the map behind it goes blank.",
+        "The simple fix is to pair it with a navigation app that keeps maps offline. Download the region in Apple Maps or Google Maps before you go, and choose either one as KiwiCamping's directions app in its settings. KiwiCamping tells you where to stay and what the rules are; the navigation app gets you there.",
+      ], ["No offline map in KiwiCamping", "Weather, photos and routing need signal", "Pair it with offline navigation"]),
+      s("Before you drop out of coverage", [
+        "Some of the best driving in the country has the least signal. The Haast Pass, the Milford Road and much of the Catlins are long stretches where you should assume you will lose it. Do the connected jobs in the last town: look at the forecast for tonight's stop, start the directions to it so the route is loaded, and check NZTA's road and closure updates.",
+        "Then save tonight's place and a fallback into the trip with their dates. With KiwiCamping filters such as Water supply, Hot showers or Dogs allowed you can shortlist both before you go, and a place has to match every filter you pick, so the shortlist is short. The details of both stay on the phone when the bars disappear.",
+      ], ["Forecast and directions in the last town", "Save a fallback with its date", "Combined filters keep the shortlist short"]),
+      s("Freedom camping rules without signal", [
+        "The rules for where you can sleep are the thing you most need offline. DOC's freedom-camping notices for conservation land are built into KiwiCamping, so you can see whether an area is prohibited or restricted after the signal has gone.",
+        "Council land is different. Each district sets its own freedom camping rules in a bylaw, published on the council's website, and those are not in the app. Read the bylaw for the next district while you are still in coverage, and on arrival follow the sign at the site, which beats any app.",
+      ], ["DOC notices built into the app", "Council bylaws: check before you go", "The sign at the site wins"]),
+    ],
+    faq: [
+      ["Does WikiCamps NZ work offline?", "Partly. As of November 2026, WikiCamps says its Offline Mode keeps maps and up to three planned trips available without signal once downloaded. Offline start-up problems in 2025 were fixed in late 2025 and early 2026."],
+      ["Which NZ camping app works without signal?", "KiwiCamping keeps all its DOC campsite, hut, track and freedom-camping details on the phone with no download. WikiCamps keeps downloaded maps and up to three trips. Neither replaces an offline navigation app."],
+      ["Does KiwiCamping have offline maps?", "No. Place details, saved places and trips work without signal, but map tiles, directions, weather, photos and Look Around need a connection. Pair it with Apple Maps or Google Maps offline areas."],
+      ["Can I check freedom camping rules without signal?", "On conservation land, yes: KiwiCamping includes DOC's 354 freedom-camping notices. Council bylaws are on council websites, so check the next district before you leave coverage."],
+      ["How many WikiCamps trips can I keep offline?", "Up to three, according to WikiCamps. In KiwiCamping every trip you have made stays readable without signal, with its stops, dates and notes."],
+    ],
+    sources: [
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
+      { label: "DOC: alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
+    ],
+  }),
+  a({
+    slug: "switch-from-wikicamps-nz",
+    title: "Switching From WikiCamps NZ: Move Your Saved Places and Trip",
+    description: "A step-by-step move from WikiCamps NZ to KiwiCamping: rebuild favourites, collections and your road trip, starting with booked DOC nights and the ferry.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "DOC huts", "Cook Strait", "Freedom camping", "Saved places", "Collections"],
+    imageAlt: "An Interislander ferry crossing Cook Strait between the North and South Islands",
+    related: ["wikicamps-not-working-new-zealand", "save-places-kiwicamping", "plan-trip-kiwicamping", "share-nz-trip-plan-kiwicamping", "wikicamps-nz-trip-planner-alternative", "freedom-camping-rules-new-zealand", "kiwicamping-filters-guide"],
+    hubs: ["camping", "freedom-camping"],
+    intro:
+      "To switch from WikiCamps NZ to KiwiCamping, you rebuild your saved places and your trip by hand, because there is no import between the two apps; for a two or three week New Zealand trip that is about an evening's work. What you get for it is an app with no account at all: nothing to sign into, no emailed code and no being logged out at a campsite with no signal. We make KiwiCamping, and this is the order we would move things in, starting with the nights you can't change.",
+    sections: [
+      s("Before you start: write down what WikiCamps holds", [
+        "Open WikiCamps while it still loads your lists and capture them: a screenshot of each favourites list, each trip and any notes you rely on, plus the booking references for nights already paid. A list on paper or in your Notes app is enough, since you are going to search for each place by name.",
+        "It is worth doing while you can. As of November 2026, some reviewers of WikiCamps Australia wrote in November and December 2024 that their liked places and notes did not carry across to the rebuilt app, and WikiCamps' own help centre says favourites are harder to find in the new version. If WikiCamps NZ is not working for you at all today, start from booking emails instead.",
+      ], ["Screenshot lists and trips", "Keep booking references handy", "Booking emails are a fallback"]),
+      s("Booked nights first: DOC campsites, huts and the ferry", [
+        "Start with the nights you can't move. In KiwiCamping, search each booked DOC campsite or hut by name, open it to check the fee, facilities and rules DOC lists, and star it. Then create a trip, add those places as stops and give each one its arrival date, with the booking reference in the stop's note.",
+        "The Cook Strait crossing splits most trips in two, so it comes next. Put your Interislander or Bluebridge sailing time in the trip's notes, then add the stops either side of it, the last night before Wellington or Picton and the first night after. Once the fixed nights are in, everything between them is easy to move.",
+      ], ["DOC bookings become dated stops", "Booking references go in stop notes", "Plan around the ferry"]),
+      s("Favourites, wish lists and your own lists", [
+        "KiwiCamping sorts saved places for you. Like or star the places you rated in WikiCamps, mark the ones you still mean to see as Want to visit, and Visited fills in as you tick stops off. These smart collections update themselves, so there is nothing to file.",
+        "Your own WikiCamps lists become named collections, each with an icon, a colour, a cover photo and notes. One per island works well, or one for a long weekend you keep repeating. Private notes can go on any place, which is where the tips you wrote in WikiCamps belong.",
+      ], ["Liked, Starred, Want to visit", "Own lists become named collections", "Tips go in private notes"], {
+        table: {
+          caption: "Where your WikiCamps things go in KiwiCamping.",
+          head: ["In WikiCamps NZ", "In KiwiCamping"],
+          rows: [
+            ["Favourites", "Liked or Starred"],
+            ["Places you plan to see", "Want to visit"],
+            ["Your own lists", "Named collections, one per island or trip"],
+            ["A trip", "A trip with stops in driving order and arrival dates"],
+            ["Notes on a site", "A private note on the place"],
+            ["A spot KiwiCamping doesn't list", "A dropped pin, saved under Pins"],
+          ],
+        },
+      }),
+      s("Freedom camping nights and free DOC campsites", [
+        "For nights you planned to freedom camp, check the freedom camping rules again rather than copying the old spot across. KiwiCamping includes DOC's 354 freedom-camping notices for conservation land across 35 districts, showing where camping is prohibited or restricted. Council land follows each council's bylaw, published on its website, so read the rules for the districts on your route before you go.",
+        "To find a replacement, use KiwiCamping's filters by their names: Campervans, Toilets, Water supply, Dogs allowed, Powered sites and the cost filter for DOC's free and low-cost campsites. Pick several and a place has to have all of them. That is a common wish from switchers: a recent WikiCamps NZ review on Google Play says its multi-select filters now match any choice rather than all.",
+      ], ["DOC notices are in the app", "Council bylaws are on council sites", "Combined filters match all choices"]),
+      s("Spots that aren't in KiwiCamping", [
+        "WikiCamps NZ lists more than 12,000 sites, many added by its users, and KiwiCamping won't have every one of them. For a spot you know and trust, press and hold on the map to drop a pin and save it. Saved pins sit under Pins in Collections, with the address, Look Around, directions and a share button.",
+        "A pin can't be a trip stop, since stops come from KiwiCamping's directory. Add the nearest listed place to the trip for that night instead, and write \"staying at my saved pin\" in its note, so the date and the drive time still work out.",
+      ], ["Drop and save a pin", "Pins can't be trip stops", "Use the nearest listed place for the date"]),
+      s("A second iPhone, and the person you travel with", [
+        "Everything you rebuild, from saved places to the trips in the trip planner, syncs through your private iCloud to any iPhone on the same Apple Account, with no login. A new phone set up with that Apple Account picks it all up.",
+        "Your travel partner's phone is another matter if it uses a different Apple Account: KiwiCamping has no shared or jointly edited trip. Send them the trip as a text itinerary, with stops, dates, drive times and the weather, or send single places with a link that opens in Maps, and re-send after a change.",
+      ], ["iCloud sync on your own devices", "No jointly edited trip", "Send your partner the itinerary"]),
+      s("What you gain with KiwiCamping, and what you give up", [
+        "The gains: no account and no ads, an app that opens straight to the map, DOC's own data for 287 campsites, 927 huts and 1,453 tracks, and filters that combine. KiwiCamping is independent, not owned by a holiday-park group, and it shows DOC's free campsites next to paid holiday parks. It is free to download, with in-app purchases.",
+        "The trade-offs: it runs on iPhone only, it has no offline map (place details work without signal, while map tiles, directions, weather and photos need it), it has no traveller reviews, and it lists fewer places than WikiCamps. If those matter on your trip, keeping both apps for a while is a sensible way to switch.",
+      ], ["No account, no ads, independent", "iPhone only, no offline map", "Fewer places, no traveller reviews"], { cta: true }),
+    ],
+    faq: [
+      ["Can I export my trip from WikiCamps?", "KiwiCamping has no import, so even an export wouldn't load into it. Screenshot or list your WikiCamps trip, then rebuild it in KiwiCamping from the booked nights outwards."],
+      ["How do I move my saved campsites to another app?", "Search each place by name in the new app and save it. In KiwiCamping, favourites become Liked or Starred, plans become Want to visit, and your own lists become named collections."],
+      ["Does KiwiCamping import WikiCamps data?", "No. There is no import from WikiCamps or any other app. Most trips take an evening to rebuild."],
+      ["Will KiwiCamping sync to my partner's phone?", "Only if the phone uses your Apple Account. On their own Apple Account your partner can't edit your trip, but you can send them the itinerary as text and re-send it after changes."],
+      ["What if a campsite isn't in KiwiCamping?", "Drop a pin on it and save it, with directions and sharing from the pin. Pins can't be trip stops, so add the nearest listed place for that night and note the pin there."],
+    ],
+    sources: [
+      { label: "DOC: book campsites and huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
+      { label: "Apple: iCloud", url: "https://www.apple.com/nz/icloud/" },
+    ],
+  }),
 ];
