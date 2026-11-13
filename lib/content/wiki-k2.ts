@@ -81,4 +81,68 @@ export const wikiK2Articles: Article[] = [
       { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
     ],
   }),
+  a({
+    slug: "does-wikicamps-nz-work-offline",
+    title: "Does WikiCamps NZ Work Offline? What Works With No Signal",
+    description: "WikiCamps' Offline Mode keeps maps and up to three trips. KiwiCamping keeps every DOC campsite and hut detail on the phone with no download. What works where.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "DOC huts", "Freedom camping", "Haast Pass", "Milford Road", "The Catlins"],
+    imageAlt: "Mitre Peak rising above the still water of Milford Sound at the end of the Milford Road",
+    related: ["kiwicamping-offline-data-guide", "wikicamps-nz-account-login", "freedom-camping-rules-new-zealand", "new-zealand-driving-day-planner", "best-campervan-apps-new-zealand", "wikicamps-not-working-new-zealand"],
+    hubs: ["freedom-camping"],
+    intro:
+      "Partly. As of November 2026, WikiCamps says its Offline Mode lets you use maps and up to three of your planned trips without phone signal, once they are downloaded, and that mode has improved a lot since a rough 2025. KiwiCamping works the other way round: it has no offline map, but every DOC campsite, hut, track and freedom-camping notice is inside the app from the moment you install it, with nothing to download, no account to sign into and nothing to log you out when the bars disappear. We make KiwiCamping, so weigh this as our view; it gives WikiCamps credit where it is due.",
+    sections: [
+      s("Does WikiCamps work offline? Offline Mode in its own words", [
+        "WikiCamps' website describes it in one line: \"Offline Mode lets you access maps and up to three of your planned trips even without phone signal.\" That is a real strength. Offline maps mean the map itself keeps drawing when you drop out of coverage, which a directory-first app can't match.",
+        "The feature has grown in steps. Releases in the first half of 2025 added trip downloads for offline use, and version 6.1.5, released on 23 February 2026, made offline data the default and added offline access to bookings. The limit to know is the three-trip cap, which is WikiCamps' own figure: plan four separate trips and one of them stays online only.",
+      ], ["Offline maps after a download", "Up to three planned trips", "Offline data by default since February 2026"]),
+      s("What went wrong in 2025, and what changed", [
+        "The evidence here comes from WikiCamps Australia, which got version 6 a year before New Zealand and has far more reviews. Of its 150 most recent reviews on Apple's store there, about 21 describe offline problems, most of them from mid to late 2025. One reviewer wrote on 20 November 2025: \"Despite setting the app to offline mode and downloading everything… the app needed Internet connection during start-up.\" Another, on 14 July 2025: \"If you open up the app where the internet is sketchy the app opens up to the sign-in page.\"",
+        "Fixes followed. Version 6.1.2 (25 November 2025) listed an Offline Mode fix, and by March 2026 a five-star reviewer called \"the app loading into offline mode immediately\" a \"10/10 addition\". The fair reading as of November 2026 is that offline start-up was a big complaint and has since improved. The account is still there, though, and the WikiCamps login is one more step that needs a connection now and then.",
+      ], ["Offline start-up was the 2025 complaint", "Fixed in late 2025 and early 2026", "The account still needs signal sometimes"]),
+      s("KiwiCamping: no sign-in, no download, details on your phone", [
+        "KiwiCamping ships its New Zealand directory inside the app, so there is no offline download to remember before you leave town. With no signal at all you can still open 287 DOC campsites and 927 DOC huts (7,661 bunks) with their fees, facilities, dog rules and booking needs, read the details of 1,453 DOC tracks, and check 354 DOC freedom-camping notices across 35 districts.",
+        "Your own things stay readable too: Liked, Starred and Want to visit places, your collections and private notes, and every trip with its stops, dates and notes. None of it waits on a download, and because the app has no account, there is no sign-in screen waiting for you at a campsite with no bars. Open it and you are on the map; tap a place and its details are there.",
+      ], ["Directory built in, no download", "All your trips stay readable", "No sign-in to get stuck behind"], {
+        cta: true,
+        table: {
+          caption: "Without signal, as of November 2026, from WikiCamps' own description and KiwiCamping's features.",
+          head: ["", "WikiCamps NZ", "KiwiCamping"],
+          rows: [
+            ["Map", "Offline maps once downloaded", "Needs signal"],
+            ["Place details", "In the downloaded offline data", "Built into the app; no download"],
+            ["Planned trips", "Up to three offline", "Every trip you have made, with stops, dates and notes"],
+            ["Account", "Required", "None"],
+          ],
+        },
+      }),
+      s("What needs signal in KiwiCamping", [
+        "Be clear about the gap: KiwiCamping does not have offline maps. Map tiles, routing and directions, the weather forecast, place photos and Look Around all load over the network, and so do linked DOC articles. Without reception you can read a place in full, but the map behind it goes blank.",
+        "The simple fix is to pair it with a navigation app that keeps maps offline. Download the region in Apple Maps or Google Maps before you go, and choose either one as KiwiCamping's directions app in its settings. KiwiCamping tells you where to stay and what the rules are; the navigation app gets you there.",
+      ], ["No offline map in KiwiCamping", "Weather, photos and routing need signal", "Pair it with offline navigation"]),
+      s("Before you drop out of coverage", [
+        "Some of the best driving in the country has the least signal. The Haast Pass, the Milford Road and much of the Catlins are long stretches where you should assume you will lose it. Do the connected jobs in the last town: look at the forecast for tonight's stop, start the directions to it so the route is loaded, and check NZTA's road and closure updates.",
+        "Then save tonight's place and a fallback into the trip with their dates. With KiwiCamping filters such as Water supply, Hot showers or Dogs allowed you can shortlist both before you go, and a place has to match every filter you pick, so the shortlist is short. The details of both stay on the phone when the bars disappear.",
+      ], ["Forecast and directions in the last town", "Save a fallback with its date", "Combined filters keep the shortlist short"]),
+      s("Freedom camping rules without signal", [
+        "The rules for where you can sleep are the thing you most need offline. DOC's freedom-camping notices for conservation land are built into KiwiCamping, so you can see whether an area is prohibited or restricted after the signal has gone.",
+        "Council land is different. Each district sets its own freedom camping rules in a bylaw, published on the council's website, and those are not in the app. Read the bylaw for the next district while you are still in coverage, and on arrival follow the sign at the site, which beats any app.",
+      ], ["DOC notices built into the app", "Council bylaws: check before you go", "The sign at the site wins"]),
+    ],
+    faq: [
+      ["Does WikiCamps NZ work offline?", "Partly. As of November 2026, WikiCamps says its Offline Mode keeps maps and up to three planned trips available without signal once downloaded. Offline start-up problems in 2025 were fixed in late 2025 and early 2026."],
+      ["Which NZ camping app works without signal?", "KiwiCamping keeps all its DOC campsite, hut, track and freedom-camping details on the phone with no download. WikiCamps keeps downloaded maps and up to three trips. Neither replaces an offline navigation app."],
+      ["Does KiwiCamping have offline maps?", "No. Place details, saved places and trips work without signal, but map tiles, directions, weather, photos and Look Around need a connection. Pair it with Apple Maps or Google Maps offline areas."],
+      ["Can I check freedom camping rules without signal?", "On conservation land, yes: KiwiCamping includes DOC's 354 freedom-camping notices. Council bylaws are on council websites, so check the next district before you leave coverage."],
+      ["How many WikiCamps trips can I keep offline?", "Up to three, according to WikiCamps. In KiwiCamping every trip you have made stays readable without signal, with its stops, dates and notes."],
+    ],
+    sources: [
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
+      { label: "DOC: alerts and closures", url: "https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/" },
+      { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
+      { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
+    ],
+  }),
 ];

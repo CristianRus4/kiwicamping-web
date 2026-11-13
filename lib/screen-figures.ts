@@ -79,6 +79,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "freedom-camping-rotorua-2026", section: 7, src: "/images/screens/freedom-camping-rotorua-2026.webp", alt: "KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button" },
   { slug: "hipcamp-alternatives", section: 1, src: "/images/screens/hipcamp-alternatives.webp", alt: "KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops" },
   { slug: "wikicamps-nz-account-login", section: 3, src: "/images/screens/wikicamps-nz-account-login.webp", alt: "KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen" },
+  { slug: "does-wikicamps-nz-work-offline", section: 2, src: "/images/screens/does-wikicamps-nz-work-offline.webp", alt: "KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app" },
 ];
 
 const images = manifest as Record<string, unknown>;

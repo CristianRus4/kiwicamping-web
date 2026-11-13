@@ -4113,6 +4113,20 @@
       }
     ]
   },
+  "/images/screens/does-wikicamps-nz-work-offline.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/does-wikicamps-nz-work-offline-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/does-wikicamps-nz-work-offline.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/free-camping-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,
