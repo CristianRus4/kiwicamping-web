@@ -49,7 +49,7 @@ export const wikiK1Articles: Article[] = [
         "Choose several and a place has to have every one of them, so Campervans, Hot showers and Dogs allowed together only show spots that tick all three boxes. Many WikiCamps users say its filters show places that match any choice instead. Set the cost to Free and DOC's free campsites appear.",
       ], ["Dogs allowed, 4WD and Caravan access", "Every filter must match", "Free DOC campsites by cost"]),
       s("Plan the trip your way, and together", [
-        "Set your home address once in the You tab, then tap Start at Home or Finish at Home on any trip. Add stop searches your saved pins, places in the app, your current location or any address, so a favourite spot goes in even if it is not listed. Every stop shows on the route with its distance and drive time.",
+        "Set your home address once in the You tab, then tap Start at Home or Finish at Home on any trip. Add stop searches your saved pins, places in the app, your current location or any address, so your own favourite spots go in too. Every stop shows on the route with its distance and drive time.",
         "Travelling as a pair? Tap Share on the trip and choose Collaborate. You both add, reorder and tick off stops, and the changes show up for each other within seconds, with no account or login. For family back home, Send copy gives them a link they can open in any web browser.",
       ], ["Start and finish at Home", "Add any address or pin", "Plan live with Collaborate"]),
       s("Why campers switch to KiwiCamping", [

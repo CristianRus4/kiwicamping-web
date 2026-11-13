@@ -157,7 +157,7 @@ export const wikiK2Articles: Article[] = [
         "Next, the Cook Strait crossing. Add the ferry terminal by its address, then the last night before it and the first night after. Once these fixed points are in, the rest of the trip falls into place around them.",
       ], ["Add stop for each booking", "Dates and booking notes", "Ferry terminal by address"]),
       s("Step 3: every other spot, even unlisted ones", [
-        "The same Add stop search finds places in the app, any street address, your current location and your saved pins. Got a favourite spot that isn't listed anywhere? Drop a pin on the map and tap Add to trip.",
+        "The same Add stop search finds places in the app, any street address, your current location and your saved pins. Got a favourite spot of your own? Drop a pin on the map and tap Add to trip.",
         "Every stop shows on the route with its distance and drive time, so you can see straight away whether a day is too long. Tap Start at Home or Finish at Home to bookend the trip with the address you saved in the You tab.",
       ], ["Places, addresses and pins", "Drop a pin, add to trip", "Distance and drive time for every stop"]),
       s("Step 4: your favourites and lists in KiwiCamping", [
@@ -189,7 +189,7 @@ export const wikiK2Articles: Article[] = [
     faq: [
       ["Can I export my trip from WikiCamps?", "The quickest move is a list or screenshots of your WikiCamps trip. Then add each stop in KiwiCamping with Add stop, which finds places, addresses and pins."],
       ["How do I move my saved campsites to another app?", "Search each one in KiwiCamping and save it: favourites become Liked or Starred, and your lists become collections."],
-      ["Can I add a spot that isn't listed?", "Yes. Drop a pin and tap Add to trip, or add any address with Add stop."],
+      ["Can I add my own spot to a trip?", "Yes. Drop a pin and tap Add to trip, or add any address with Add stop."],
       ["Can my partner and I plan the trip together?", "Yes. Tap Share on the trip and choose Collaborate. You both edit it live through iCloud, with no account."],
       ["How long does switching from WikiCamps take?", "Most trips take an evening. Start with booked nights and the ferry, then add the rest."],
     ],
@@ -283,7 +283,7 @@ export const wikiK2Articles: Article[] = [
         "Visiting? Any address works as a stop, so start at the airport, your rental depot or the place you're staying on the first night.",
       ], ["Set Home once", "Start and Finish at Home", "Or start at the airport"]),
       s("Add any stop in KiwiCamping: places, addresses and pins", [
-        "Tap Add stop and one search finds Home, your current location, your saved pins, places in the app or any address. Found a great spot that isn't listed? Drop a pin and tap Add to trip.",
+        "Tap Add stop and one search finds Home, your current location, your saved pins, places in the app or any address. Found a great spot of your own? Drop a pin and tap Add to trip.",
         "The route redraws with the kilometres and driving time for each leg. Drag stops into the order you'll drive, give each one an arrival date, and add a note for the booking reference or the gate code.",
       ], ["One search for every kind of stop", "Pins go straight in", "Distance and drive time per leg"], {
         cta: true,
