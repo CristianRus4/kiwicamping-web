@@ -312,4 +312,77 @@ export const wikiK1Articles: Article[] = [
       { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
     ],
   }),
+  a({
+    slug: "doc-huts-campsites-app-wikicamps-kiwicamping",
+    listicle: true,
+    title: "DOC App for NZ Huts and Campsites: WikiCamps NZ vs KiwiCamping",
+    description: "Looking for a DOC app for huts, tracks and campsites in NZ? How WikiCamps NZ and KiwiCamping handle DOC places, fees, bookings and dog rules in 2026, and which needs no login.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC huts", "DOC campsites", "DOC tracks", "Great Walks", "Rakiura Stewart Island"],
+    imageAlt: "A timber DOC hut with a wide covered verandah on the Rakiura Track, Stewart Island",
+    related: ["best-tramping-great-walks-apps-new-zealand", "doc-huts-new-zealand-guide", "kiwicamping-offline-data-guide", "save-places-kiwicamping", "easy-doc-huts-families-first-timers", "wikicamps-nz-vs-kiwicamping"],
+    hubs: ["huts", "camping"],
+    intro:
+      "Looking for a DOC app for NZ huts and campsites? DOC takes bookings for Great Walks, huts and campsites on its own website, so the app you want is one that shows DOC's details clearly and sends you there to book. KiwiCamping does that from DOC's own records: 927 DOC huts, 287 DOC campsites and 1,453 DOC tracks in its August 2026 data, with no login and no ads. WikiCamps NZ lists DOC places among the sites its users add. We make KiwiCamping, so this comparison is ours; it sticks to what each app's developer states, as of November 2026.",
+    sections: [
+      s("What DOC publishes, and what an app should show", [
+        "DOC sorts its huts and campsites into categories that tell you most of what to expect. Great Walk huts must be booked in advance during the Great Walks season. Serviced huts usually have mattresses, heating and water, standard huts are simpler, and basic huts and bivvies can be little more than a roof. Campsites run the same way, from serviced sites with hot showers down to backcountry sites you walk to.",
+        "For each place, DOC publishes the category, the fee per night, whether you must book or can turn up, whether dogs are allowed, and any current alert such as a track closure or a washed-out bridge. An app is useful for DOC places to the extent that it shows those facts as DOC states them, and gets you to DOC's page when you need to book or check the latest.",
+      ], ["Category tells you the facilities", "Fee, booking and dog rules", "Alerts can close a track"], {
+        caption: "DOC huts and campsites by category in KiwiCamping's data as of August 2026. These are the app's counts, not a national total.",
+        head: ["Category", "Huts", "Campsites"],
+        rows: [
+          ["Great Walk", "33", "46"],
+          ["Serviced (and serviced alpine huts)", "114", "5"],
+          ["Standard", "408", "131"],
+          ["Basic huts and bivvies, basic campsites", "372", "61"],
+          ["Backcountry campsites", "-", "44"],
+          ["Bookable", "127", "177"],
+          ["Free", "312", "63"],
+        ],
+      }),
+      s("DOC places in KiwiCamping", [
+        "Every DOC hut, campsite and track in KiwiCamping comes from DOC's own data. A hut page shows whether it is open, its bunks, its fee and facilities, and links to the hut on DOC's website; the 927 huts in the August 2026 data hold 7,661 bunks between them, and 127 are marked as bookable. A track page shows the distance, walking time, grade and an elevation profile.",
+        "Fees are shown as DOC lists them. Across the huts with a listed rate, an adult night ranges from $10 to $55, and 312 huts are free. Campsites range from $5 to $25 for an adult, 63 of them are free, and the page says whether dogs are allowed and whether you need to book. Bookings themselves are made with DOC, not in the app: the place page takes you to DOC to do it.",
+      ], ["Hut bunks, status and fees from DOC", "Track distance, time and grade", "Book with DOC, not in the app"], undefined, true),
+      s("DOC places in WikiCamps NZ", [
+        "WikiCamps NZ says it lists more than 12,000 New Zealand sites, added and kept current by its users, and DOC campsites and huts are among them alongside holiday parks, freedom camping spots and services. Its strength is the community layer: photos, comments and recent visits that an official record does not carry.",
+        "The trade-off is that a fee, a closure or a booking rule changes in WikiCamps only when someone updates the listing. Since August 2025 the app also needs a WikiCamps account with an emailed code, and its Google Play listing carries the label Contains ads. For a hut you must book months ahead, DOC's own page remains the place to check before you commit.",
+      ], ["User-added DOC listings with comments", "Updates depend on users", "Account and ads"]),
+      s("From the map to a hut, without signing in", [
+        "Trailheads are often beyond reception, which is the worst place to be asked to sign in. About 39 of the 150 most recent App Store reviews of WikiCamps Australia mention sign-in or being signed out, many with no signal to get back in. KiwiCamping has no account, so there is nothing to sign into at the road end, and no ads between you and the hut details.",
+        "Getting to a hut takes a handful of taps. Open the app and you are on the map. Choose the hut or campsite type, add filters such as Walk-in only, Water supply or Dogs allowed, and a place shows only if it meets all of them. Tap a hut for its bunks, fee and DOC link, then save it or add it to your trip.",
+      ], ["No account at the road end", "Filters that must all match", "Hut details in one tap"]),
+      s("Planning a hut or Great Walk trip", [
+        "Start by saving the huts you are considering to a collection, one for each track or region, with your own notes on each. When the plan firms up, add the campsites and huts you will use to a trip: the stops sit in order with a date on each, the drive between road-end campsites shows its distance and time, and the forecast appears for the stops ahead.",
+        "Then book with DOC. Great Walk huts and campsites, and the bookable huts and campsites in the app, are booked on DOC's website, and many fill early in summer. Screenshot the booking confirmation as well, because DOC's website needs signal to show it.",
+      ], ["Save huts to a collection", "Add road-end campsites to a trip", "Book with DOC early"]),
+      s("Without signal on the track", [
+        "KiwiCamping keeps hut and campsite details on the phone, so the bunk count, the fee and DOC's notes are readable deep in a valley with no reception. The map tiles, routing, weather and photos need a connection, so KiwiCamping is not an offline map and must not be your navigation on a track.",
+        "Carry a proper topographic map, on paper or in a navigation app that stores its maps on the phone, and a personal locator beacon for remote trips. Check the weather and DOC's alerts for your track at the last spot with signal, and tell someone your plans before you go.",
+      ], ["Hut details work without signal", "Maps need signal: carry a topo map", "Take a beacon on remote trips"]),
+      s("Which app for DOC huts and campsites", [
+        "For DOC huts, campsites and tracks on an iPhone, KiwiCamping shows DOC's own details with no login and no ads, and it is free to download, with in-app purchases. For the full picture of the two apps, including price and trip planning, see our WikiCamps NZ vs KiwiCamping comparison.",
+        "WikiCamps NZ suits Android users and anyone who values other trampers' comments on a hut. Whichever you use, the booking, the alerts and the final word belong to DOC.",
+      ], ["iPhone and DOC data: KiwiCamping", "Android or comments: WikiCamps NZ", "DOC has the final word"]),
+      s("How we compared", [
+        "KiwiCamping's counts, categories and fee ranges come from its August 2026 data, which is drawn from DOC. WikiCamps facts come from its New Zealand store listings and website on 14 November 2026, and review counts from the 150 most recent App Store reviews of WikiCamps Australia.",
+        "We do not estimate how many DOC places WikiCamps NZ lists, because it does not say. A feature we skip here may still exist in either app.",
+      ]),
+    ],
+    faq: [
+      ["Is there a DOC app for huts?", "DOC takes hut and Great Walk bookings on its own website. KiwiCamping shows DOC's details for 927 huts on iPhone, with fees, bunks and a link to book with DOC."],
+      ["Which app shows DOC campsites in NZ?", "KiwiCamping shows 287 DOC campsites from DOC's own data, with fees, dog rules and booking needs. WikiCamps NZ lists DOC sites among its user-added places."],
+      ["Can I book DOC huts in KiwiCamping?", "No. Bookings are made with DOC. KiwiCamping shows whether a hut or campsite is bookable and links to DOC's page."],
+      ["Does KiwiCamping work on tramping tracks without signal?", "Hut and campsite details stay readable without signal. The map, weather and photos need a connection, so carry a topo map."],
+      ["How many DOC huts are there in New Zealand?", "KiwiCamping's data has 927 DOC huts as of August 2026, with 7,661 bunks. That is the app's count, not an official national total."],
+    ],
+    sources: [
+      { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
+      { label: "DOC: booking and paying for huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/" },
+      { label: "DOC: booking and paying for campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/" },
+      { label: "DOC: compare the Great Walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/compare-great-walks/" },
+    ],
+  }),
 ];

@@ -1203,6 +1203,20 @@
       }
     ]
   },
+  "/images/articles/doc-huts-campsites-app-wikicamps-kiwicamping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/doc-huts-campsites-app-wikicamps-kiwicamping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/doc-huts-campsites-app-wikicamps-kiwicamping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/doc-huts-new-zealand-guide.webp": {
     "width": 1600,
     "height": 900,
@@ -4109,6 +4123,20 @@
       },
       {
         "path": "/images/screens/christmas-summer-camping-new-zealand-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/doc-huts-campsites-app-wikicamps-kiwicamping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/doc-huts-campsites-app-wikicamps-kiwicamping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/doc-huts-campsites-app-wikicamps-kiwicamping.webp",
         "width": 1600
       }
     ]
