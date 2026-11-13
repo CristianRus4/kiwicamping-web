@@ -1203,6 +1203,20 @@
       }
     ]
   },
+  "/images/articles/does-wikicamps-nz-work-offline.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/does-wikicamps-nz-work-offline-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/does-wikicamps-nz-work-offline.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/dogs-camping-new-zealand.webp": {
     "width": 1600,
     "height": 900,
@@ -3149,6 +3163,20 @@
       }
     ]
   },
+  "/images/articles/share-nz-trip-plan-kiwicamping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/share-nz-trip-plan-kiwicamping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/share-nz-trip-plan-kiwicamping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/south-island-two-week-road-trip.webp": {
     "width": 1600,
     "height": 900,
@@ -3215,6 +3243,20 @@
       },
       {
         "path": "/images/articles/surf-highway-45-camping-guide.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/switch-from-wikicamps-nz.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/switch-from-wikicamps-nz-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/switch-from-wikicamps-nz.webp",
         "width": 1600
       }
     ]
@@ -3523,6 +3565,34 @@
       },
       {
         "path": "/images/articles/wikicamps-not-working-new-zealand.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/wikicamps-nz-account-login.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wikicamps-nz-account-login-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wikicamps-nz-account-login.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/articles/wikicamps-nz-trip-planner-alternative.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/wikicamps-nz-trip-planner-alternative-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/wikicamps-nz-trip-planner-alternative.webp",
         "width": 1600
       }
     ]
@@ -4641,6 +4711,20 @@
       },
       {
         "path": "/images/screens/wikicamps-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/wikicamps-nz-account-login.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/wikicamps-nz-account-login-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/wikicamps-nz-account-login.webp",
         "width": 1600
       }
     ]

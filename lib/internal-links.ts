@@ -22,6 +22,9 @@ type LinkTarget = { pattern: RegExp; slug: string };
 
 const targets: LinkTarget[] = [
   { pattern: /\bWikiCamps alternatives\b/i, slug: "wikicamps-alternatives" },
+  // WikiCamps switcher guides (lib/content/wiki-k2.ts): narrow phrases, ahead of the broad app targets below.
+  { pattern: /\bWikiCamps (?:New Zealand |NZ )?(?:is )?not working\b/i, slug: "wikicamps-not-working-new-zealand" },
+  { pattern: /\bWikiCamps (?:NZ )?(?:login|sign-in)\b/i, slug: "wikicamps-nz-account-login" },
   // Seasonal guides first: their anchor phrases are specific, so they win a paragraph over the broader topics below.
   { pattern: /\bcamping over Christmas\b/i, slug: "christmas-summer-camping-new-zealand-2026-27" },
   { pattern: /\bNew Year(?:'|’)s Eve (?:and summer event )?camping\b/i, slug: "new-years-eve-summer-event-camping-new-zealand" },

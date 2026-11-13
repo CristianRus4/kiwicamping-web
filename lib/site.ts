@@ -15,6 +15,7 @@ import { campingBaseArticles } from "@/lib/content/camping-bases";
 import { cityTripArticles } from "@/lib/content/city-trips";
 import { k9Articles } from "@/lib/content/k9-guides";
 import { k10Articles } from "@/lib/content/k10-guides";
+import { wikiK2Articles } from "@/lib/content/wiki-k2";
 import { greatWalksArticles } from "@/lib/content/great-walks";
 import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
@@ -89,6 +90,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...cityTripArticles,
   ...k9Articles,
   ...k10Articles,
+  ...wikiK2Articles,
   ...greatWalksArticles,
   ...costsWhvArticlesA,
   ...costsWhvArticlesB,
