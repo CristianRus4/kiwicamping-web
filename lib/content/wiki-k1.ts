@@ -242,4 +242,147 @@ export const wikiK1Articles: Article[] = [
       { label: "DOC: freedom camping on conservation land", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/freedom-camping/" },
     ],
   }),
+  a({
+    slug: "campermate-vs-wikicamps-nz",
+    listicle: true,
+    title: "CamperMate vs WikiCamps NZ: Which to Download, and a Third Option",
+    description: "CamperMate or WikiCamps for New Zealand? How the two compare on price, ads, data and offline use in 2026, and when KiwiCamping, with no login and no ads, is the better third choice.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Campervan trips", "Freedom camping", "DOC campsites", "Holiday parks", "Australia"],
+    imageAlt: "Four motorhomes parked in a row on a gravel area above the sea at Tautuku Bay in the Catlins",
+    related: ["campermate-alternatives", "wikicamps-alternatives", "rankers-alternatives", "best-nz-camping-apps", "free-camping-apps-new-zealand", "wikicamps-nz-vs-kiwicamping"],
+    hubs: ["freedom-camping"],
+    intro:
+      "CamperMate vs WikiCamps is the question most campervan travellers ask before landing in New Zealand. The quick answer: CamperMate is free, covers New Zealand and Australia in one app and is the easier pick for a visitor, while WikiCamps NZ costs NZ$7.99 once and lists more places, added by its users. Both carry ads, and WikiCamps NZ now needs an account. We make KiwiCamping, a third option for iPhone with no login and no ads, built on DOC's data for campsites, huts and tracks. Below, the three side by side, with CamperMate facts from our October 2026 check and WikiCamps facts as of November 2026.",
+    sections: [
+      s("The quick pick", [
+        "Download CamperMate if your trip includes Australia, if you want an app in your own language, or if you want to book holiday parks and pick up deals along the way. Download WikiCamps NZ if you want the longest list of places with traveller comments, and do not mind paying once and signing in.",
+        "Try KiwiCamping if you are on an iPhone and your trip leans on DOC campsites, huts and tracks, or if you are tired of signing in and scrolling past ads. It is free to download, with in-app purchases.",
+      ], ["Two countries: CamperMate", "Most listings: WikiCamps NZ", "DOC places, no login: KiwiCamping"], {
+        caption: "CamperMate checked 20 October 2026; WikiCamps NZ and KiwiCamping checked 14 November 2026. NZ App Store ratings show the average and how many ratings it is based on.",
+        head: ["", "CamperMate", "WikiCamps NZ", "KiwiCamping"],
+        rows: [
+          ["Price", "Free", "NZ$7.99 once (iPhone)", "Free to download, with in-app purchases"],
+          ["Countries", "New Zealand and Australia", "New Zealand only", "New Zealand only"],
+          ["Phones", "iPhone, iPad, Android, web", "iPhone, iPad, Android", "iPhone"],
+          ["Account", "Not covered in our check", "Required, with an emailed code", "None"],
+          ["Ads", "Yes", "Contains ads (Google Play)", "None"],
+          ["Where places come from", "Listings with traveller reviews and photos", "Mostly added by users, 12,000+ (its claim)", "DOC records, plus other sources"],
+          ["Without signal", "Downloadable maps and place information", "Offline Mode: maps and up to three trips", "Place details built in; map needs signal"],
+          ["NZ App Store rating", "4.4 (606)", "4.5 (137)", "Few ratings so far"],
+        ],
+      }),
+      s("CamperMate in 2026", [
+        "When we checked on 20 October 2026, CamperMate was free, available in 27 languages and covered New Zealand and Australia in one app. It shows campsites with a filter for free and paid places, plus toilets, dump stations and Wi-Fi spots, with traveller reviews and photos, campground booking with availability, local deals and links to vehicle hire. Its listing says you can download maps and place information to use without signal.",
+        "It rated 4.4 from 606 ratings on the New Zealand App Store and 4.0 from 12,568 on Google Play, and it carries ads. Of the 16 CamperMate reviews from 2025 or 2026 among the 50 most recent in New Zealand, 12 gave one or two stars, and seven of those blamed a redesign for slow loading, wrong directions or sites that had gone missing. Version 5.8, with a satellite view, arrived on 16 October 2026.",
+      ], ["Free, NZ and Australia, 27 languages", "Downloadable maps", "Ads; recent reviews mixed"]),
+      s("WikiCamps NZ in 2026", [
+        "WikiCamps NZ costs NZ$7.99 once on the New Zealand App Store, with no subscription, and says it lists more than 12,000 New Zealand sites added by its users. Since the rebuilt version 6 reached New Zealand on 4 August 2025, it needs a WikiCamps account with an emailed code. Its Offline Mode keeps maps and up to three planned trips available without signal, by WikiCamps' own description, and its Google Play listing shows the labels Contains ads and In-app purchases.",
+        "Its New Zealand ratings are still high, 4.5 from 137 on the App Store and 4.4 on Google Play, with only a few recent reviews. WikiCamps Australia, on the same rebuilt app for longer, has drawn heavier criticism: of its 150 most recent App Store reviews, 119 gave one or two stars, most often over the harder-to-use redesign, sign-in problems and ads in a paid app. Australia is a separate purchase, so a two-country trip means two apps.",
+      ], ["NZ$7.99 once, no subscription", "Account and email code since August 2025", "Separate app for Australia"]),
+      s("CamperMate vs WikiCamps, head to head", [
+        "On price, CamperMate wins outright for a visitor: it is free and covers both countries, where WikiCamps charges for each country and each platform. On the number of places, WikiCamps NZ leads, because its community keeps adding them, and its comments are often the freshest word on a quiet spot.",
+        "Without signal, both say they work: CamperMate downloads maps and place information, and WikiCamps NZ keeps maps and up to three trips. Neither is ad-free. The real split is the account: by WikiCamps' own design you must sign in, and in the reviews of WikiCamps Australia about 39 of 150 mention signing in or being signed out. If you just want to open an app and look at the map, that tips things.",
+      ], ["Price: CamperMate", "Number of places: WikiCamps NZ", "Both show ads"]),
+      s("Where KiwiCamping fits", [
+        "KiwiCamping is the third option for a different kind of trip. It is built on DOC's own records: in its August 2026 data, 287 DOC campsites, 927 DOC huts with 7,661 bunks and 1,453 DOC tracks, each with the fee, dog rules and booking requirement DOC lists and a link to DOC's page. It also shows 354 DOC freedom camping notices across 35 districts, marking where camping on conservation land is prohibited or restricted.",
+        "There is no account and there are no ads. You open the app and you are on the map; pick filters such as Campervans, Toilets and Water supply, and a place must have all three to show; tap it for the details; add it to a trip that lists the distance and drive time of each leg. Set cost to free for DOC's free campsites. Place details stay on the phone without signal, while the map, routing and weather need a connection.",
+        "It is not the right pick for everyone. KiwiCamping is iPhone only and New Zealand only, it has no traveller reviews or photos, and it lists fewer places than either of the other two.",
+      ], ["DOC campsites, huts and tracks", "No account, no ads", "iPhone and NZ only"], undefined, true),
+      s("Which to download for your trip", [
+        "A campervan holiday in both countries: CamperMate, because one free app covers both. If your hire company hands you an app, start with that one; Travellers Autobarn gives its hirers CamperMate, for example.",
+        "A long New Zealand trip on Android, or one built on freedom camping where other travellers' notes matter: WikiCamps NZ, if the account and ads do not bother you. Our breakdown of what WikiCamps NZ costs covers the price in more detail.",
+        "Tramping, DOC huts and Great Walks, or a DOC-campsite road trip on an iPhone: KiwiCamping. Book the huts and campsites with DOC, and add CamperMate if you also want reviews.",
+      ], ["Both countries: CamperMate", "Android or freedom camping: WikiCamps NZ", "DOC places on iPhone: KiwiCamping"]),
+      s("How we compared", [
+        "CamperMate facts come from our check of its New Zealand App Store and Google Play listings and its own site on 20 October 2026, with review counts from its 50 most recent New Zealand App Store reviews. WikiCamps facts come from its listings, version history and website on 14 November 2026, with review counts labelled by country.",
+        "KiwiCamping's counts are from its August 2026 data. We describe each app only as its developer or its reviewers describe it, so a feature we leave out is not a claim that an app lacks it.",
+      ]),
+    ],
+    faq: [
+      ["Is CamperMate or WikiCamps better for New Zealand?", "CamperMate is better for a free app that also covers Australia. WikiCamps NZ lists more places for NZ$7.99 but needs an account."],
+      ["Is CamperMate free?", "Yes. CamperMate was free when we checked in October 2026, and it carries ads."],
+      ["Does WikiCamps NZ work offline?", "WikiCamps says its Offline Mode keeps maps and up to three planned trips available without signal."],
+      ["What app do most campervan travellers use in NZ?", "CamperMate, Rankers and WikiCamps NZ are all widely used. Some hire companies give hirers an app, such as CamperMate for Travellers Autobarn."],
+      ["Which app shows DOC campsites?", "KiwiCamping shows 287 DOC campsites from DOC's own data, with fees, dog rules and booking needs. The other apps list DOC sites among their own places."],
+    ],
+    sources: [
+      { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
+    ],
+  }),
+  a({
+    slug: "doc-huts-campsites-app-wikicamps-kiwicamping",
+    listicle: true,
+    title: "DOC App for NZ Huts and Campsites: WikiCamps NZ vs KiwiCamping",
+    description: "Looking for a DOC app for huts, tracks and campsites in NZ? How WikiCamps NZ and KiwiCamping handle DOC places, fees, bookings and dog rules in 2026, and which needs no login.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC huts", "DOC campsites", "DOC tracks", "Great Walks", "Rakiura Stewart Island"],
+    imageAlt: "A timber DOC hut with a wide covered verandah on the Rakiura Track, Stewart Island",
+    related: ["best-tramping-great-walks-apps-new-zealand", "doc-huts-new-zealand-guide", "kiwicamping-offline-data-guide", "save-places-kiwicamping", "easy-doc-huts-families-first-timers", "wikicamps-nz-vs-kiwicamping"],
+    hubs: ["huts", "camping"],
+    intro:
+      "Looking for a DOC app for NZ huts and campsites? DOC takes bookings for Great Walks, huts and campsites on its own website, so the app you want is one that shows DOC's details clearly and sends you there to book. KiwiCamping does that from DOC's own records: 927 DOC huts, 287 DOC campsites and 1,453 DOC tracks in its August 2026 data, with no login and no ads. WikiCamps NZ lists DOC places among the sites its users add. We make KiwiCamping, so this comparison is ours; it sticks to what each app's developer states, as of November 2026.",
+    sections: [
+      s("What DOC publishes, and what an app should show", [
+        "DOC sorts its huts and campsites into categories that tell you most of what to expect. Great Walk huts must be booked in advance during the Great Walks season. Serviced huts usually have mattresses, heating and water, standard huts are simpler, and basic huts and bivvies can be little more than a roof. Campsites run the same way, from serviced sites with hot showers down to backcountry sites you walk to.",
+        "For each place, DOC publishes the category, the fee per night, whether you must book or can turn up, whether dogs are allowed, and any current alert such as a track closure or a washed-out bridge. An app is useful for DOC places to the extent that it shows those facts as DOC states them, and gets you to DOC's page when you need to book or check the latest.",
+      ], ["Category tells you the facilities", "Fee, booking and dog rules", "Alerts can close a track"], {
+        caption: "DOC huts and campsites by category in KiwiCamping's data as of August 2026. These are the app's counts, not a national total.",
+        head: ["Category", "Huts", "Campsites"],
+        rows: [
+          ["Great Walk", "33", "46"],
+          ["Serviced (and serviced alpine huts)", "114", "5"],
+          ["Standard", "408", "131"],
+          ["Basic huts and bivvies, basic campsites", "372", "61"],
+          ["Backcountry campsites", "-", "44"],
+          ["Bookable", "127", "177"],
+          ["Free", "312", "63"],
+        ],
+      }),
+      s("DOC places in KiwiCamping", [
+        "Every DOC hut, campsite and track in KiwiCamping comes from DOC's own data. A hut page shows whether it is open, its bunks, its fee and facilities, and links to the hut on DOC's website; the 927 huts in the August 2026 data hold 7,661 bunks between them, and 127 are marked as bookable. A track page shows the distance, walking time, grade and an elevation profile.",
+        "Fees are shown as DOC lists them. Across the huts with a listed rate, an adult night ranges from $10 to $55, and 312 huts are free. Campsites range from $5 to $25 for an adult, 63 of them are free, and the page says whether dogs are allowed and whether you need to book. Bookings themselves are made with DOC, not in the app: the place page takes you to DOC to do it.",
+      ], ["Hut bunks, status and fees from DOC", "Track distance, time and grade", "Book with DOC, not in the app"], undefined, true),
+      s("DOC places in WikiCamps NZ", [
+        "WikiCamps NZ says it lists more than 12,000 New Zealand sites, added and kept current by its users, and DOC campsites and huts are among them alongside holiday parks, freedom camping spots and services. Its strength is the community layer: photos, comments and recent visits that an official record does not carry.",
+        "The trade-off is that a fee, a closure or a booking rule changes in WikiCamps only when someone updates the listing. Since August 2025 the app also needs a WikiCamps account with an emailed code, and its Google Play listing carries the label Contains ads. For a hut you must book months ahead, DOC's own page remains the place to check before you commit.",
+      ], ["User-added DOC listings with comments", "Updates depend on users", "Account and ads"]),
+      s("From the map to a hut, without signing in", [
+        "Trailheads are often beyond reception, which is the worst place to be asked to sign in. About 39 of the 150 most recent App Store reviews of WikiCamps Australia mention sign-in or being signed out, many with no signal to get back in. KiwiCamping has no account, so there is nothing to sign into at the road end, and no ads between you and the hut details.",
+        "Getting to a hut takes a handful of taps. Open the app and you are on the map. Choose the hut or campsite type, add filters such as Walk-in only, Water supply or Dogs allowed, and a place shows only if it meets all of them. Tap a hut for its bunks, fee and DOC link, then save it or add it to your trip.",
+      ], ["No account at the road end", "Filters that must all match", "Hut details in one tap"]),
+      s("Planning a hut or Great Walk trip", [
+        "Start by saving the huts you are considering to a collection, one for each track or region, with your own notes on each. When the plan firms up, add the campsites and huts you will use to a trip: the stops sit in order with a date on each, the drive between road-end campsites shows its distance and time, and the forecast appears for the stops ahead.",
+        "Then book with DOC. Great Walk huts and campsites, and the bookable huts and campsites in the app, are booked on DOC's website, and many fill early in summer. Screenshot the booking confirmation as well, because DOC's website needs signal to show it.",
+      ], ["Save huts to a collection", "Add road-end campsites to a trip", "Book with DOC early"]),
+      s("Without signal on the track", [
+        "KiwiCamping keeps hut and campsite details on the phone, so the bunk count, the fee and DOC's notes are readable deep in a valley with no reception. The map tiles, routing, weather and photos need a connection, so KiwiCamping is not an offline map and must not be your navigation on a track.",
+        "Carry a proper topographic map, on paper or in a navigation app that stores its maps on the phone, and a personal locator beacon for remote trips. Check the weather and DOC's alerts for your track at the last spot with signal, and tell someone your plans before you go.",
+      ], ["Hut details work without signal", "Maps need signal: carry a topo map", "Take a beacon on remote trips"]),
+      s("Which app for DOC huts and campsites", [
+        "For DOC huts, campsites and tracks on an iPhone, KiwiCamping shows DOC's own details with no login and no ads, and it is free to download, with in-app purchases. For the full picture of the two apps, including price and trip planning, see our WikiCamps NZ vs KiwiCamping comparison.",
+        "WikiCamps NZ suits Android users and anyone who values other trampers' comments on a hut. Whichever you use, the booking, the alerts and the final word belong to DOC.",
+      ], ["iPhone and DOC data: KiwiCamping", "Android or comments: WikiCamps NZ", "DOC has the final word"]),
+      s("How we compared", [
+        "KiwiCamping's counts, categories and fee ranges come from its August 2026 data, which is drawn from DOC. WikiCamps facts come from its New Zealand store listings and website on 14 November 2026, and review counts from the 150 most recent App Store reviews of WikiCamps Australia.",
+        "We do not estimate how many DOC places WikiCamps NZ lists, because it does not say. A feature we skip here may still exist in either app.",
+      ]),
+    ],
+    faq: [
+      ["Is there a DOC app for huts?", "DOC takes hut and Great Walk bookings on its own website. KiwiCamping shows DOC's details for 927 huts on iPhone, with fees, bunks and a link to book with DOC."],
+      ["Which app shows DOC campsites in NZ?", "KiwiCamping shows 287 DOC campsites from DOC's own data, with fees, dog rules and booking needs. WikiCamps NZ lists DOC sites among its user-added places."],
+      ["Can I book DOC huts in KiwiCamping?", "No. Bookings are made with DOC. KiwiCamping shows whether a hut or campsite is bookable and links to DOC's page."],
+      ["Does KiwiCamping work on tramping tracks without signal?", "Hut and campsite details stay readable without signal. The map, weather and photos need a connection, so carry a topo map."],
+      ["How many DOC huts are there in New Zealand?", "KiwiCamping's data has 927 DOC huts as of August 2026, with 7,661 bunks. That is the app's count, not an official national total."],
+    ],
+    sources: [
+      { label: "DOC: online bookings", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/online-bookings/" },
+      { label: "DOC: booking and paying for huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-in-a-hut/booking-and-paying/" },
+      { label: "DOC: booking and paying for campsites", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/stay-at-a-campsite/booking-and-paying/" },
+      { label: "DOC: compare the Great Walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/compare-great-walks/" },
+    ],
+  }),
 ];
