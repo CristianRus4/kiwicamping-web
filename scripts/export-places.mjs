@@ -10,6 +10,8 @@
  *   lib/data/places.json           the plain copy the build reads. Gitignored: this repo is public, so the
  *                                  readable data never leaves this Mac or CI (scripts/decrypt-places.mjs).
  *   lib/data/places.photos.json    gitignored cache of which photo links load, and how wide they are.
+ *   place-pages.json               the app's place id to its page path, at PLACE_PAGES_OUT when set
+ *                                  (scripts/place-links.mjs; `npm run places:links` writes it alone).
  *
  * Pages load photos straight from where the app loads them (Cristian, 12 Nov 2026): DOC campsites and
  * huts from the app's photo repository, holiday parks from BookIt. Each link is checked here so a dead
@@ -27,6 +29,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import { placePagesOut, writePlacePages } from "./place-links.mjs";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
@@ -260,5 +263,7 @@ writeFileSync(plainPath, `${data}\n`);
 const key = placesKey();
 if (key) writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
 else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copy only, not lib/data/places.json.enc.");
+const linksOut = placePagesOut();
+if (linksOut) console.log(`Wrote ${writePlacePages(places, linksOut)} place pages to ${linksOut}.`);
 const count = (type) => places.filter((entry) => entry.type === type).length;
 console.log(`Exported ${places.length} places (${count("doc_campsite")} DOC campsites, ${count("doc_hut")} DOC huts, ${count("holiday_park")} holiday parks) with ${places.reduce((sum, entry) => sum + entry.photos.length, 0)} photos.`);

@@ -225,7 +225,9 @@ test("schema install URLs stay the clean listing URL and the smart banner carrie
     if(!generated(path))continue;
     const banner=/<meta name="apple-itunes-app" content="([^"]*)"/.exec(html)?.[1];
     assert.ok(banner,`${path} has no Smart App Banner`);
-    const expected=APPLE_PROVIDER_TOKEN?`app-id=6746952595, affiliate-data=pt=${APPLE_PROVIDER_TOKEN}&ct=w_sb_${pageLocale(path)}`:"app-id=6746952595";
+    // A place page's banner also hands the app its own URL, which the app opens as the place.
+    const argument=/data-page-kind="place"/.test(html)?`, app-argument=https://campingapp.nz${path}`:"";
+    const expected=(APPLE_PROVIDER_TOKEN?`app-id=6746952595, affiliate-data=pt=${APPLE_PROVIDER_TOKEN}&ct=w_sb_${pageLocale(path)}`:"app-id=6746952595")+argument;
     assert.equal(decodeHref(banner),expected,`${path} Smart App Banner`);
   }
   const home=(await pagesPromise).find((page)=>page.path==="/").html;
@@ -237,7 +239,7 @@ test("every page labels its main element for analytics",async()=>{
   for(const {path,html} of pages.filter((page)=>generated(page.path))){
     const main=/<main\b[^>]*>/.exec(html)?.[0]??"";
     const kind=/data-page-kind="([a-z]+)"/.exec(main)?.[1];
-    assert.ok(["home","guide","guides","tools","support","legal","hub","tool","place","places"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
+    assert.ok(["home","guide","guides","tools","support","legal","hub","tool","place","places","trip"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
     assert.match(main,new RegExp(`data-locale="${pageLocale(path)}"`),`${path} <main> data-locale`);
     if(kind==="guide"){
       assert.match(main,/data-slug="[a-z0-9-]+"/,`${path} guide without data-slug`);
