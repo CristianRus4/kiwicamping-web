@@ -27981,6 +27981,720 @@
       ],
       "priceTable": null
     },
+    "wikicamps-nz-account-login": {
+      "title": "WikiCamps 登入: 2027年 WikiCamps NZ 還需要帳號嗎?",
+      "description": "2027年 WikiCamps NZ 還需要帳號嗎? 需要, 登入要用寄到電子郵件的驗證碼. 這在紐西蘭自駕途中有多麻煩, 以及 KiwiCamping 如何完全不用登入.",
+      "region": "紐西蘭",
+      "imageAlt": "一輛白色露營車獨自停在 West Coast 原生灌叢下方的草地空地上",
+      "intro": "需要. WikiCamps 大更新之後, WikiCamps NZ 需要帳號, 登入要用寄到電子郵件的驗證碼. KiwiCamping 把這些都省掉了: 沒有帳號, 打開 App 就直接在地圖上. 我們做 KiwiCamping, 下面是沒有登入在紐西蘭自駕途中代表什麼.",
+      "sections": [
+        {
+          "heading": "為什麼 WikiCamps 登入會礙事",
+          "body": [
+            "不少 WikiCamps 使用者說, 新版本會一再把他們登出, 再進去要等電子郵件驗證碼. 在沒有訊號的營地, 這很麻煩.",
+            "這也是人們覺得 <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ 不好用</a>, 和以前不一樣的主要原因之一. 很多人說新版本更難用, 而且付過錢的 App 裡會出現廣告."
+          ],
+          "tips": [
+            "帳號和電子郵件驗證碼",
+            "沒訊號時被登出",
+            "付費 App 裡的廣告"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: 無帳號, 無登入, 無廣告",
+          "body": [
+            "KiwiCamping 沒有要登入的東西. 沒有電子郵件, 沒有密碼, 沒有驗證碼, 也沒有東西會在你沿 West Coast 南下時把你登出.",
+            "你儲存的地點, 收藏, 釘選和行程, 會透過 iPhone 上已有的 iCloud 在背景同步. 也沒有廣告. KiwiCamping 是獨立 App: 它把 DOC 的免費和低價營地, 緊鄰付費的 <a data-guide=\"holiday-parks-new-zealand-guide\">假日公園</a> 一起顯示. 下載免費, 有 App 內購買."
+          ],
+          "tips": [
+            "沒有要登入的東西",
+            "透過你的 iCloud 同步",
+            "無廣告, 獨立 App"
+          ],
+          "table": {
+            "caption": "登入方式, 並排比較.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "帳號",
+                "需要",
+                "無"
+              ],
+              [
+                "登入",
+                "電子郵件驗證碼",
+                "不需要"
+              ],
+              [
+                "在營地被登出",
+                "使用者說會發生",
+                "不會: 沒有可登出的東西"
+              ],
+              [
+                "廣告",
+                "有, 在付費 App 裡",
+                "無"
+              ],
+              [
+                "手機之間同步",
+                "透過 WikiCamps 帳號",
+                "透過你的 iCloud"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "打開就在地圖上",
+          "body": [
+            "沒有歡迎畫面要先跳過. 你最先看到的是紐西蘭地圖, 周圍是營地, 山屋和 <a data-guide=\"holiday-parks-new-zealand-guide\">假日公園</a>.",
+            "點 <a data-guide=\"kiwicamping-filters-guide\">篩選</a>, 常用的排在最上面: Dogs allowed, 4WD access 和 Caravan access. 選幾項, 顯示的每個地點都同時符合. 點一個地點可看費用, 設施和規則, 再把它加進行程.",
+            "地點詳情, 儲存的地點和行程都留在手機上, 所以 <a data-guide=\"kiwicamping-offline-data-guide\">沒有訊號也能打開</a>."
+          ],
+          "tips": [
+            "地圖最先出現",
+            "Dogs allowed, 4WD 和 Caravan access",
+            "沒有訊號也能開詳情"
+          ]
+        },
+        {
+          "heading": "和同伴一起計畫, 仍然不用帳號",
+          "body": [
+            "兩個人一起走? 在行程或收藏上點 Share, 選擇 Collaborate. 同伴透過 iCloud 加入, 你們都可以新增和調整停靠點順序, 打勾, 改備註. 改動會在幾秒內出現在兩支手機上.",
+            "給家裡的家人, 用 Send copy 來 <a data-guide=\"share-nz-trip-plan-kiwicamping\">分享行程</a>: 一個連結, 在任何瀏覽器裡打開, 能看到停靠點, 日期和備註."
+          ],
+          "tips": [
+            "透過 iCloud 即時 Collaborate",
+            "兩個人都能改",
+            "給家人用 Send copy"
+          ]
+        },
+        {
+          "heading": "換新手機? 沒有要登入的東西",
+          "body": [
+            "用 Apple Account 設定新 iPhone, 行程, <a data-guide=\"save-places-kiwicamping\">收藏</a> 和儲存的地點會自己過來. 不用記, 也不用重設.",
+            "起飛前在 Wi-Fi 上安裝 KiwiCamping, 並儲存頭幾晚. 如果其中一晚是已預訂的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a> 或 Great Walk 山屋, 連同日期加進行程, 這樣取露營車時計畫已經就緒."
+          ],
+          "tips": [
+            "新 iPhone, 同樣的行程",
+            "起飛前在 Wi-Fi 上安裝",
+            "先加上已訂的幾晚"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps 需要帳號嗎?",
+          "需要. WikiCamps NZ 的新版本會要求你建立帳號, 並用它寄到電子郵件的驗證碼登入."
+        ],
+        [
+          "為什麼 WikiCamps 一直要我登入?",
+          "新版本綁定了帳號, 很多使用者說它會不時把人登出. KiwiCamping 沒有帳號, 所以沒有東西要重新登入."
+        ],
+        [
+          "有沒有不用登入的紐西蘭露營 App?",
+          "有. 我們做的 KiwiCamping 沒有帳號, 沒有登入, 也沒有廣告. 打開就直接到地圖."
+        ],
+        [
+          "KiwiCamping 需要帳號嗎?",
+          "不需要. 你的地點和行程透過 iPhone 上已有的 iCloud 同步."
+        ],
+        [
+          "我和同伴可以不用帳號分享行程嗎?",
+          "可以. 在行程上點 Share, 選擇 Collaborate. 你們透過 iCloud 一起改同一條行程, 改動幾秒內就會出現."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: 住宿地點"
+        },
+        {
+          "label": "DOC: 自由露營"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "does-wikicamps-nz-work-offline": {
+      "title": "WikiCamps 紐西蘭能離線使用嗎？2027 無訊號露營指南",
+      "description": "2027 年 WikiCamps NZ 能離線使用嗎？需要先下載並登入帳號，只能部分離線。KiwiCamping 免下載，所有 DOC 營地、山屋和你的全部行程都在手機裡。",
+      "region": "紐西蘭",
+      "imageAlt": "米佛公路盡頭，米特峰聳立在平靜的米佛峽灣水面之上",
+      "intro": "只能部分離線。WikiCamps 的離線模式在你事先下載後，可在手機上保存地圖和最多三個已規劃的行程，但仍然需要帳號，而這在沒有訊號時可能成為麻煩。KiwiCamping 從安裝那一刻起，就把所有 DOC 營地、山屋、步道以及你的全部行程存在手機裡，不用下載，也不用登入。KiwiCamping 是我們做的，以下說明兩款應用程式在長時間沒有訊號的路段各自表現如何。",
+      "sections": [
+        {
+          "heading": "WikiCamps 能離線使用嗎？",
+          "body": [
+            "WikiCamps 表示，離線模式讓你在沒有訊號時使用地圖和最多三個已規劃的行程，但必須先在連線時下載。",
+            "麻煩在於帳號。不少 WikiCamps 使用者反映應用程式會不時把人登出，而 <a data-guide=\"wikicamps-nz-account-login\">WikiCamps 登入</a>需要有訊號才能重新進入。在沒有涵蓋的山谷裡被卡在登入畫面，是最糟糕的情況。"
+          ],
+          "tips": [
+            "須先下載",
+            "最多三個已規劃行程",
+            "重新登入需要訊號"
+          ]
+        },
+        {
+          "heading": "KiwiCamping：免下載，免登入",
+          "body": [
+            "KiwiCamping 沒有帳號，所以你和今晚的營地之間不會隔著登入畫面。隨時隨地打開應用程式就能用。",
+            "紐西蘭所有 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>、山屋和步道都內建在應用程式裡，包括費用、設施、攜犬規定和預訂需求。光是 DOC 山屋就超過 900 間，在米佛公路或卡特林斯深處，一格訊號都沒有也能查看。",
+            "你自己的內容也一直在身邊，即使<a data-guide=\"kiwicamping-offline-data-guide\">沒有訊號</a>：按讚和加星號的地點、收藏集、私人筆記，以及每個行程的停靠點、日期和備註。"
+          ],
+          "tips": [
+            "無帳號，無登入畫面",
+            "所有 DOC 營地、山屋和步道",
+            "全部行程，而不只是三個"
+          ],
+          "table": {
+            "caption": "無訊號時的對照",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "出發前下載",
+                "需要，在離線模式中",
+                "不需要，地點詳情已內建"
+              ],
+              [
+                "已規劃的行程",
+                "最多三個",
+                "全部"
+              ],
+              [
+                "需要登入的帳號",
+                "有",
+                "沒有"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "在訊號消失前選好今晚的落腳處",
+          "body": [
+            "哈斯特山口、米佛公路和卡特林斯等全國最棒的自駕路線，恰恰也是最容易失去訊號的地方。這時手機裡存著每個地點的詳情就特別有用。",
+            "打開<a data-guide=\"kiwicamping-filters-guide\">篩選</a>，選出你在意的條件：允許攜犬、四輪驅動可達或露營車可達都在最上方，地點必須符合你選的所有篩選條件。把你最中意的地點加入行程，再在附近加一個備案，今晚就安排妥當了。"
+          ],
+          "tips": [
+            "沒訊號也能看詳情",
+            "篩選需符合你的所有選擇",
+            "再存一個備案"
+          ]
+        },
+        {
+          "heading": "無訊號時的自由露營規定",
+          "body": [
+            "KiwiCamping 內建了 DOC 針對保育土地的自由露營公告，所以身處遠離訊號的地方，你也能看到哪裡禁止或限制露營。",
+            "在市議會管轄的土地上，<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規定</a>來自各議會的地方條例。趁還在鎮上時讀一讀下一個地區的條例，到了現場一律以標示牌為準。"
+          ],
+          "tips": [
+            "內建 DOC 公告",
+            "議會條例：在鎮上先讀",
+            "以現場標示牌為準"
+          ]
+        },
+        {
+          "heading": "整個行程都在你口袋裡",
+          "body": [
+            "每個行程都依行駛順序保存停靠點，並附上你的日期和備註，沿途可以逐個打勾。待辦清單把每天要做的事放在同一個地方。",
+            "「我」分頁會生成你走過的地圖，露營的夜數和行駛的公里數隨著旅程不斷累加。"
+          ],
+          "tips": [
+            "停靠點、日期和備註",
+            "沿途逐個打勾",
+            "你走過的地方的地圖"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps NZ 能離線使用嗎？",
+          "只能部分離線。離線模式在下載後保存地圖和最多三個已規劃的行程，但應用程式仍需要帳號，重新登入也需要訊號。"
+        ],
+        [
+          "紐西蘭哪款露營應用程式無訊號也能用？",
+          "KiwiCamping 把所有 DOC 營地、山屋、步道和你的全部行程存在手機裡，免下載，也沒有會卡住你的登入。"
+        ],
+        [
+          "沒有訊號時能查自由露營規定嗎？",
+          "在保育土地上可以：KiwiCamping 包含 DOC 的自由露營公告。議會條例請趁還在鎮上時查看。"
+        ],
+        [
+          "WikiCamps 能離線保存多少個行程？",
+          "據 WikiCamps 表示最多三個。在 KiwiCamping 中，你建立的每個行程都會保留在手機裡。"
+        ],
+        [
+          "KiwiCamping 要在無訊號時使用，需要先下載什麼嗎？",
+          "不需要。DOC 營地、山屋和步道隨應用程式內建，你收藏的地點和行程始終在手機裡。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "DOC：警示與封閉"
+        },
+        {
+          "label": "NZTA Journeys：路況與封路"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "2027 年從 WikiCamps NZ 換過來：搬移你的地點和行程",
+      "description": "一個晚上就能從 WikiCamps NZ 換到 KiwiCamping：用名稱、地址或定位針加入每個收藏地點和行程站點，先從已預訂的 DOC 住宿和渡輪開始。",
+      "region": "紐西蘭",
+      "imageAlt": "一艘 Interislander 渡輪正在穿越南北島之間的庫克海峽",
+      "intro": "想從 WikiCamps NZ 換過來，只要先記下收藏的地點和行程，再在 KiwiCamping 裡快速搜尋並逐一加入。App 裡的地點、任何地址和你自己放置的定位針都可以加入，所以大多數行程一個晚上就能搬完。KiwiCamping 是我們做的，以下是最快的操作順序，先從無法更改的住宿開始。",
+      "sections": [
+        {
+          "heading": "為什麼露營者要離開 WikiCamps NZ",
+          "body": [
+            "不少 WikiCamps 使用者覺得新版本很麻煩：更難用，動不動就被登出，付費後還冒出意想不到的廣告。如果 <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ 已經無法使用</a>，你不必再繼續和它纏鬥。",
+            "KiwiCamping 一開啟就是地圖，不需要帳號，不需要登入，沒有廣告。DOC 的營地、山屋和步道觸手可及，<a data-guide=\"kiwicamping-filters-guide\">篩選</a>會符合你選的所有條件，還能和伴侶一起規劃行程。"
+          ],
+          "tips": [
+            "不需要帳號或登入",
+            "沒有廣告",
+            "和伴侶一起規劃"
+          ]
+        },
+        {
+          "heading": "第 1 步：記下你已有的內容",
+          "body": [
+            "最後一次開啟 WikiCamps，把收藏、清單和行程截圖，或把名稱輸入備忘錄。已付款住宿的預訂編號也要留好。",
+            "有這份清單就夠了。接下來所有操作都在 KiwiCamping 裡完成。"
+          ],
+          "tips": [
+            "截圖清單和行程",
+            "保留預訂編號"
+          ]
+        },
+        {
+          "heading": "第 2 步：先加入已訂住宿和渡輪",
+          "body": [
+            "先建立一個行程，然後點一下「加入站點」，逐一搜尋已預訂的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>或 Great Walk 山屋。為每個站點填上抵達日期，並把預訂編號寫進備註。",
+            "接下來是橫越<a data-guide=\"cook-strait-ferry-campervan-guide\">庫克海峽</a>。依地址加入渡輪碼頭，再加入渡海前的最後一晚和渡海後的第一晚。這些固定節點定好後，行程的其餘部分就會圍繞它們順理成章地排好。"
+          ],
+          "tips": [
+            "每筆預訂加入一個站點",
+            "日期和預訂備註",
+            "依地址加入渡輪碼頭"
+          ]
+        },
+        {
+          "heading": "第 3 步：其餘每個地點，包括未收錄的",
+          "body": [
+            "同樣的「加入站點」搜尋可以找到 App 裡的地點、任何街道地址、你目前的位置和已儲存的定位針。有自己私藏的好地方嗎？在地圖上放一個定位針，再點一下「加入行程」。",
+            "每個站點都會在路線上顯示距離和行車時間，一眼就能看出某一天是否太長。點一下「從家出發」或「回家結束」，用你在「我」分頁裡儲存的地址替行程收尾。"
+          ],
+          "tips": [
+            "地點、地址和定位針",
+            "放置定位針，加入行程",
+            "每個站點的距離和行車時間"
+          ]
+        },
+        {
+          "heading": "第 4 步：把收藏和清單搬進 KiwiCamping",
+          "body": [
+            "替你喜歡的地點按讚或加星號，把還想去的標記為「想去」。",
+            "你在 WikiCamps 裡的清單可以變成自己的<a data-guide=\"save-places-kiwicamping\">收藏集</a>，每個島一個就很合適。你對某個地點的心得寫進它的私人備註。"
+          ],
+          "tips": [
+            "已按讚、已加星號、想去",
+            "清單變成收藏集",
+            "心得寫進私人備註"
+          ],
+          "table": {
+            "caption": "WikiCamps 裡的內容在 KiwiCamping 裡放在哪裡。",
+            "head": [
+              "WikiCamps NZ 中",
+              "KiwiCamping 中"
+            ],
+            "rows": [
+              [
+                "收藏",
+                "已按讚或已加星號"
+              ],
+              [
+                "打算去的地點",
+                "想去"
+              ],
+              [
+                "你自己的清單",
+                "收藏集，每個島或每次旅行一個"
+              ],
+              [
+                "你的行程",
+                "帶日期站點的行程，透過「加入站點」建立"
+              ],
+              [
+                "私藏地點",
+                "一個定位針，加入行程"
+              ],
+              [
+                "營地筆記",
+                "該地點的私人備註"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "第 5 步：自由露營的夜晚",
+          "body": [
+            "不要直接照搬舊的自由露營地點，請重新確認<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規定</a>。DOC 針對保育地的公告都在 KiwiCamping 裡，各地方議會的條例則在各議會的網站上。",
+            "然後讓<a data-guide=\"kiwicamping-filters-guide\">篩選</a>幫你找新的去處。允許攜帶狗、四輪傳動可達和露營拖車可達排在最上面，「費用」篩選會列出 DOC 的免費和低價營地，顯示出來的每個地點都符合你選的所有篩選條件。"
+          ],
+          "tips": [
+            "App 內的 DOC 公告",
+            "篩選符合你的所有選擇",
+            "DOC 的免費和低價營地"
+          ]
+        },
+        {
+          "heading": "帶上你的旅伴",
+          "body": [
+            "在行程上點一下「分享」並選擇「協作」，透過 iCloud 邀請你的伴侶。你們都可以加入站點、調整順序、打勾和編輯備註，變更幾秒內就會出現在兩支手機上。",
+            "你自己的裝置之間也透過 iCloud 保持同步，不需要登入任何帳號。KiwiCamping 沒有廣告，獨立營運，可免費下載，內含 App 內購買。"
+          ],
+          "tips": [
+            "即時協作",
+            "透過 iCloud 同步",
+            "沒有廣告，獨立營運"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "可以從 WikiCamps 匯出我的行程嗎？",
+          "最快的辦法是把 WikiCamps 行程整理成清單或截圖，然後在 KiwiCamping 裡用「加入站點」逐一加入，它能找到地點、地址和定位針。"
+        ],
+        [
+          "怎麼把收藏的營地搬到另一個 App？",
+          "在 KiwiCamping 裡逐一搜尋並儲存：收藏變成已按讚或已加星號，清單變成收藏集。"
+        ],
+        [
+          "可以把我自己的地點加進行程嗎？",
+          "可以。放置一個定位針並點一下「加入行程」，或用「加入站點」輸入任何地址。"
+        ],
+        [
+          "我和伴侶可以一起規劃行程嗎？",
+          "可以。在行程上點一下「分享」並選擇「協作」。你們透過 iCloud 即時共同編輯，不需要帳號。"
+        ],
+        [
+          "從 WikiCamps 換過來要多久？",
+          "大多數行程一個晚上就夠了。先加入已訂住宿和渡輪，再加入其餘的。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：住宿地點"
+        },
+        {
+          "label": "DOC：自由露營"
+        },
+        {
+          "label": "Apple：iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "與家人分享紐西蘭自駕行程（2027）",
+      "description": "在 KiwiCamping 中與另一半即時規劃紐西蘭自駕旅行，傳給家人一個任何瀏覽器都能開啟的連結，或把路線分享成一張圖片。",
+      "region": "KiwiCamping",
+      "imageAlt": "科羅曼德半島大教堂灣的白色懸崖與沙灘",
+      "intro": "要在 KiwiCamping 中分享自駕行程，請點一下行程上的「分享」。選擇「協作」可與另一半即時規劃，「傳送副本」會產生家人能在任何網頁瀏覽器開啟的連結，「分享為圖片」則把路線做成一張圖。我們是 KiwiCamping 的開發者，以下說明這三種方式在紐西蘭旅行中各自怎麼用。",
+      "sections": [
+        {
+          "heading": "在 KiwiCamping 分享自駕行程的三種方式",
+          "body": [
+            "每種方式適合不同的人。同行的另一半拿到的是可以直接編輯的真實行程，家裡的親人收到一個點開就能看的連結，群組聊天則是一張好看的圖片。",
+            "三種方式都不需要帳號或登入，「協作」是透過 iPhone 上既有的 iCloud 運作。"
+          ],
+          "tips": [
+            "與另一半協作",
+            "傳送副本給家人",
+            "分享為圖片給群組"
+          ],
+          "table": {
+            "caption": "選擇分享方式",
+            "head": [
+              "方式",
+              "適合對象",
+              "對方會得到"
+            ],
+            "rows": [
+              [
+                "協作",
+                "同行的另一半",
+                "同一份行程，即時同步：兩人都能編輯"
+              ],
+              [
+                "傳送副本",
+                "家人與朋友",
+                "可在任何瀏覽器開啟的行程連結"
+              ],
+              [
+                "分享為圖片",
+                "群組聊天",
+                "含路線、停靠點、日期與住宿晚數的圖片"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "用「協作」一起規劃",
+          "body": [
+            "在行程或某個<a data-guide=\"save-places-kiwicamping\">收藏集</a>上點一下「分享」，選擇「協作」，透過 iCloud 邀請另一半。從此你們共用一份行程。",
+            "兩人都可以在<a data-guide=\"plan-trip-kiwicamping\">行程規劃工具</a>中新增停靠點、拖曳調整順序、勾選完成並編輯備註。變更幾秒內就會出現在對方手機上，所以一個人開車時，坐在副駕的人可以安排明天的行程。"
+          ],
+          "tips": [
+            "透過 iCloud 邀請",
+            "兩人都能新增、排序、勾選",
+            "幾秒內同步"
+          ]
+        },
+        {
+          "heading": "傳送副本：家人隨處可開的連結",
+          "body": [
+            "「傳送副本」會產生一個任何人都能在手機或筆電的網頁瀏覽器開啟的連結，內容有行程的停靠點、日期與備註，媽媽就能看到你們哪天晚上住在 Wānaka。",
+            "如果對方有 KiwiCamping，只要點一下就能把行程存進自己的行程。在家用筆電看自己的計畫，這也是最方便的做法。"
+          ],
+          "tips": [
+            "任何瀏覽器都能開啟",
+            "停靠點、日期與備註",
+            "有 App 可一鍵儲存"
+          ]
+        },
+        {
+          "heading": "分享為圖片，丟進群組聊天",
+          "body": [
+            "「分享為圖片」會把行程做成一張圖：地圖上的路線、每個停靠點、日期，以及住幾晚。可以貼到家人群組，或出發前發佈出去。",
+            "不用寫長篇訊息，就能最快回答「所以你們要去哪裡？」。"
+          ],
+          "tips": [
+            "路線、停靠點、日期與晚數",
+            "最適合傳到聊天室"
+          ]
+        },
+        {
+          "heading": "只傳送一個地點",
+          "body": [
+            "分享單一營地、山屋或<a data-guide=\"holiday-parks-new-zealand-guide\">度假公園</a>，會傳送附照片預覽的地點頁面。有 KiwiCamping 的人會直接在 App 中開啟，其他人則看到網頁。",
+            "兩輛車結伴出遊時特別方便：把今晚的落腳處傳出去，大家就知道在哪裡會合。"
+          ],
+          "tips": [
+            "照片預覽",
+            "直接在 App 中開啟"
+          ]
+        },
+        {
+          "heading": "讓家人隨時掌握動向",
+          "body": [
+            "分享之前，替每個停靠點填上抵達日期，家人就能逐日追蹤，也看得出你們的<a data-guide=\"new-zealand-driving-day-planner\">開車日</a>有多長。大幅更動後記得再傳一份新的副本。",
+            "也要告訴他們哪些路段收不到訊號。在西海岸或 Fiordland，一整天<a data-guide=\"kiwicamping-offline-data-guide\">沒有訊號</a>很正常，有日期的停靠點能讓他們知道你們只是在城鎮之間趕路。為行程開啟「同步到行事曆」，停靠點和日期也會進入你的行事曆。",
+            "要進山嗎？請依 Mountain Safety Council 的 Plan My Walk 與 AdventureSmart 的建議，把路線和逾時未歸的時間告訴你信任的人。"
+          ],
+          "tips": [
+            "每個停靠點都寫日期",
+            "行事曆同步",
+            "健行前留下行程計畫"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "如何與家人分享我的紐西蘭行程？",
+          "在 KiwiCamping 中點一下行程上的「分享」，選擇「傳送副本」。家人會收到一個連結，可在任何網頁瀏覽器查看你的停靠點、日期與備註。"
+        ],
+        [
+          "我和另一半可以編輯同一份行程嗎？",
+          "可以。分享行程時選擇「協作」。你們都能新增、排序與勾選停靠點，變更幾秒內就會同步。"
+        ],
+        [
+          "接收分享的人需要安裝 App 嗎？",
+          "「傳送副本」不需要：連結在任何網頁瀏覽器都能開啟。有 App 的話，還能把行程存進自己的行程。"
+        ],
+        [
+          "分享行程需要帳號嗎？",
+          "不需要。KiwiCamping 沒有帳號，分享是透過 iCloud 完成。"
+        ],
+        [
+          "可以把行程加入行事曆嗎？",
+          "可以。為行程開啟「同步到行事曆」，停靠點與日期就會出現在你的行事曆中。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: 戶外活動行程告知"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "WikiCamps 行程規劃替代方案:紐西蘭公路旅行 (2027)",
+      "description": "在紐西蘭用過 WikiCamps 的行程規劃?試試用 KiwiCamping 規劃:從家或任何地址出發,加入標記點,查看車程時間,還能和同伴即時一起規劃。",
+      "region": "紐西蘭",
+      "imageAlt": "一條鋪裝公路蜿蜒穿過長滿簇生草的山丘,通往奧塔哥的一處山口",
+      "intro": "如果你以前用 WikiCamps 的行程規劃來安排紐西蘭之旅,KiwiCamping 能讓同樣的公路旅行規劃更簡單。從家或任何地址出發,把營地、地址和自己的標記點加為停靠點,每一段的距離和車程時間一目瞭然,不需要帳號,也沒有廣告。KiwiCamping 是我們做的,以下介紹紐西蘭行程是怎麼規劃的。",
+      "sections": [
+        {
+          "heading": "為什麼 WikiCamps 行程規劃的使用者在找替代品",
+          "body": [
+            "自 WikiCamps 大改版以來,不少使用者反映應用程式變得繁瑣,總在最不恰當的時候被登出,還在付費購買的 App 裡看到意想不到的廣告。",
+            "如果你想<a data-guide=\"switch-from-wikicamps-nz\">從 WikiCamps 轉過來</a>,好消息是一整趟行程一個晚上就能搬完。"
+          ],
+          "tips": [
+            "改版後變得繁瑣",
+            "關鍵時刻被登出",
+            "付費 App 裡有廣告"
+          ]
+        },
+        {
+          "heading": "從家出發,回到家",
+          "body": [
+            "在「我的」分頁設定一次家的地址,<a data-guide=\"plan-trip-kiwicamping\">行程規劃</a>就會在每次行程中沿用。「從家出發」和「回到家」各只需點一下。",
+            "來旅遊的話,任何地址都可以當作一站,所以可以從機場、租車據點或第一晚住宿的地方開始。"
+          ],
+          "tips": [
+            "家的地址只設一次",
+            "從家出發,回到家",
+            "或從機場出發"
+          ]
+        },
+        {
+          "heading": "在 KiwiCamping 加入任何一站:地點、地址和標記點",
+          "body": [
+            "點「新增停靠點」,一次搜尋就能找到家、目前位置、已儲存的標記點、App 裡的地點或任何地址。發現了自己的好地方?放一個標記點,點「加入行程」。",
+            "路線會重新繪製,並顯示每一段的公里數和車程時間。把各站拖曳成你實際行駛的順序,為每一站設定抵達日期,還可以加備註,記下訂位代號或門禁密碼。"
+          ],
+          "tips": [
+            "一次搜尋涵蓋各類站點",
+            "標記點可直接加入",
+            "每段的距離和車程時間"
+          ],
+          "table": {
+            "caption": "規劃事項及其在 KiwiCamping 行程規劃中的位置。",
+            "head": [
+              "事項",
+              "在 KiwiCamping 中"
+            ],
+            "rows": [
+              [
+                "起點和終點",
+                "從家出發和回到家,或任何地址"
+              ],
+              [
+                "新增停靠點",
+                "地點、地址、你的位置和標記點"
+              ],
+              [
+                "為停靠點排序",
+                "拖曳重新排序,路線隨之更新"
+              ],
+              [
+                "車程時間",
+                "每個停靠點的距離和車程時間"
+              ],
+              [
+                "日期和備註",
+                "每一站的抵達日期和備註"
+              ],
+              [
+                "和同伴一起規劃",
+                "協作,透過 iCloud 即時同步"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "圍繞紐西蘭的固定節點來規劃",
+          "body": [
+            "已預訂的 Great Walk 山屋、夏季需要預訂的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>以及 Cook Strait 渡輪,決定了大多數行程的輪廓。先把這些加進去,其餘部分保持彈性。",
+            "比起公里數,更要留意車程時間。蜿蜒的道路和山口會讓紐西蘭的<a data-guide=\"new-zealand-driving-day-planner\">行車日</a>比看起來更慢,所以把佔滿一整天的路段拆開。篩選條件能幫你補上空檔,「允許攜帶狗」「可四輪驅動進入」和「可露營拖車進入」位於最前面。"
+          ],
+          "tips": [
+            "先定下固定的住宿",
+            "留意車程時間",
+            "用篩選條件補空檔"
+          ]
+        },
+        {
+          "heading": "帶著計畫上路",
+          "body": [
+            "走完一站就打個勾,並查看接下來幾站的天氣。購物、預訂和渡輪報到都可以放進行程的待辦清單。",
+            "「我的」分頁會幫你記錄:逐步點亮你去過地區的地圖、看過多少紐西蘭、行駛的公里數、露營的夜數,還有下次旅行的倒數計時。"
+          ],
+          "tips": [
+            "走完一站就打勾",
+            "天氣和待辦清單",
+            "你的旅行地圖和統計"
+          ]
+        },
+        {
+          "heading": "一起規劃,在筆記型電腦上查看",
+          "body": [
+            "用「協作」<a data-guide=\"share-nz-trip-plan-kiwicamping\">分享行程</a>,同伴就能和你一起即時新增、重排和勾選停靠點。「傳送副本」會產生可在任何網頁瀏覽器開啟的連結,所以你在家可以用筆記型電腦查看計畫。",
+            "「分享為圖片」會把路線、停靠點、日期和住宿晚數做成一張圖,方便傳到家庭群組。開啟「同步到行事曆」,行程也會出現在你的行事曆裡。KiwiCamping 可免費下載,內含 App 內購買。"
+          ],
+          "tips": [
+            "即時協作",
+            "在筆記型電腦上開啟",
+            "同步到行事曆"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "紐西蘭最好的行程規劃 App 是什麼?",
+          "對露營公路旅行來說,是我們做的 KiwiCamping:從家或任何地址出發,加入地點和標記點,查看車程時間,與同伴即時規劃,不需要帳號,沒有廣告。"
+        ],
+        [
+          "怎麼規劃紐西蘭的露營車路線?",
+          "先加入已預訂的住宿和渡輪,再依行駛順序填入停靠點。大多數日子把車程控制在三到四小時。"
+        ],
+        [
+          "可以匯出我的 WikiCamps 行程嗎?",
+          "把 WikiCamps 的停靠點記下來,在 KiwiCamping 裡重新建立路線。一次搜尋就能涵蓋營地、街道地址和你自己的標記點。"
+        ],
+        [
+          "KiwiCamping 會顯示停靠點之間的車程時間嗎?",
+          "會。路線的每一段都會列出距離和車程時間。"
+        ],
+        [
+          "可以從住處或機場開始行程嗎?",
+          "可以。用已儲存的家的地址使用「從家出發」,或把機場之類的任何地址加入為第一站。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: places to stay"
+        },
+        {
+          "label": "NZTA Journeys: 路況與封路"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "紐西蘭經典步道 2026/27：山屋、營地、預訂日期與費用",
       "description": "11 條經典步道一次比較：哪些有營地、哪些全年都要預訂、2026/27 的預訂何時開放、紐西蘭居民與外國旅客的山屋和營地費用，以及這個季節有哪些變動。",
@@ -36702,6 +37416,743 @@
         },
         {
           "label": "DOC：Hawke's Bay"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-worth-it": {
+      "title": "2027年紐西蘭之行，WikiCamps NZ值得用嗎？",
+      "description": "2027年WikiCamps NZ值得用嗎？價格是NZ$7.99，需要帳號，而且會顯示廣告。露營的人改用KiwiCamping：不用登入，沒有廣告，所有DOC營地都在一張地圖上。",
+      "region": "紐西蘭",
+      "imageAlt": "一輛白色露營車停在West Coast茂密灌木前的開闊草地上",
+      "intro": "2027年WikiCamps NZ值得用嗎？它只要NZ$7.99，但自從WikiCamps大更新之後，使用必須先有帳號，而且你已經付過錢，應用程式裡仍有廣告。不少使用者還說，新版本更難用，並且會反覆登出。我們做了KiwiCamping，一款紐西蘭露營應用程式：不用帳號，沒有廣告，每一處DOC營地、山屋和步道都在一張地圖上。下面是值得換過來的原因。",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ值得用嗎？簡短的回答",
+          "body": [
+            "WikiCamps NZ價格不高，現在仍有不少人在用。麻煩在於新版本帶來的東西：要登入的帳號、發到電子信箱的驗證碼，以及你已經買下的應用程式裡的廣告。",
+            "許多WikiCamps使用者說，它會反覆登出。車停在沒有訊號的地方時，這就很糟。如果你只想打開應用程式，馬上看到今晚住哪兒，KiwiCamping就是為此而做的。"
+          ],
+          "tips": [
+            "便宜，但需要帳號",
+            "付費應用程式裡有廣告",
+            "KiwiCamping：不用登入，沒有廣告"
+          ],
+          "table": {
+            "caption": "WikiCamps NZ和KiwiCamping對照。",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "價格",
+                "NZ$7.99",
+                "免費下載，含App內購買"
+              ],
+              [
+                "帳號",
+                "需要，電子信箱驗證碼",
+                "無"
+              ],
+              [
+                "廣告",
+                "有",
+                "無"
+              ],
+              [
+                "DOC營地、山屋和步道",
+                "由使用者新增",
+                "全部來自DOC"
+              ],
+              [
+                "同時選擇多個篩選",
+                "使用者說地點符合其中任意一項",
+                "地點必須符合全部條件"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "不用登入，沒有廣告，打開就是地圖",
+          "body": [
+            "打開KiwiCamping，你已經在看紐西蘭的地圖。不用建立帳號，不用記密碼，也不用等驗證碼，所以在West Coast的營地不會被這些攔住。",
+            "選一個篩選條件，點開地點查看費用和設施，再把它加入行程。整個用法就是這樣。任何地方都沒有廣告。儲存的地點和行程，會透過iPhone上已有的iCloud私下同步。"
+          ],
+          "tips": [
+            "打開就是地圖",
+            "沒有要登入的東西",
+            "任何地方都沒有廣告"
+          ]
+        },
+        {
+          "heading": "每一處DOC營地、山屋和步道",
+          "body": [
+            "KiwiCamping依據的是Department of Conservation自己的資料。每一處<a data-guide=\"doc-campsites-new-zealand-guide\">DOC營地</a>、山屋和步道都在地圖上，標有費用、攜犬規定，以及是否需要預訂，準備好了還有通往DOC頁面的連結。",
+            "DOC的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>告示也在裡面，所以進場之前就能看到，保護地上哪裡禁止露營。城鎮和海灘一帶，仍由地方議會的規定和現場的牌子說了算。"
+          ],
+          "tips": [
+            "DOC費用、攜犬規定和預訂",
+            "DOC自由露營告示",
+            "每個地點都有DOC連結"
+          ]
+        },
+        {
+          "heading": "能找到合適地點的篩選",
+          "body": [
+            "<a data-guide=\"kiwicamping-filters-guide\">篩選</a>最上面是 Dogs allowed、4WD access 和 Caravan access。下面是 Campervans、Powered sites、Hot showers、Toilets、Water supply 這類日常條件。",
+            "選了好幾項，地點就必須項項都有。Campervans、Hot showers 和 Dogs allowed 一起選，只會顯示這三項都符合的地點。許多WikiCamps使用者說，它的篩選會顯示只符合其中任意一項的地點。把費用設成 Free，DOC的免費營地就會出現。"
+          ],
+          "tips": [
+            "Dogs allowed、4WD 和 Caravan access",
+            "每一項篩選都必須符合",
+            "按費用找出免費DOC營地"
+          ]
+        },
+        {
+          "heading": "按自己的方式安排行程，也可以一起安排",
+          "body": [
+            "在 You 標籤裡設一次住家地址，然後在任意行程上點 Start at Home 或 Finish at Home。Add stop 會搜尋已存的圖釘、應用程式裡的地點、你的目前位置或任意地址，自己常去的地方也能加進去。每個停靠都會出現在路線上，並標出距離和車程。",
+            "兩個人一起走？在行程上點 Share，再選 Collaborate。雙方都可以新增、調整順序、勾掉停靠，改動會在幾秒內出現在對方那裡，不需要帳號，也不用登入。給家裡的家人，Send copy 會給一個連結，用任何網頁瀏覽器都能打開。"
+          ],
+          "tips": [
+            "從家出發，也在家結束",
+            "任意地址或圖釘都能加",
+            "用 Collaborate 一起即時安排"
+          ]
+        },
+        {
+          "heading": "露營的人為什麼改用KiwiCamping",
+          "body": [
+            "健行或 Great Walks：DOC山屋的費用和是否需要預訂就在那裡，還有預訂連結。露營車或拖車：Campervans 和 Caravan access <a data-guide=\"kiwicamping-filters-guide\">篩選</a>會幫你挑。情侶同行：Collaborate 讓兩支手機保持同一條行程。",
+            "一路上，You 標籤會慢慢填出一張你去過哪裡的地圖，顯示你看過紐西蘭的多少，並記下公里數、露營的夜晚和住過的地點。KiwiCamping可以免費下載，含App內購買，沒有帳號，也沒有廣告。"
+          ],
+          "tips": [
+            "山屋和 Great Walks",
+            "露營車和拖車",
+            "一張你去過哪裡的地圖"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "2027年WikiCamps NZ值得用嗎？",
+          "價格只要NZ$7.99，但需要帳號，而且有廣告。如果想不用登入、也沒有廣告，KiwiCamping可以免費下載，含App內購買。"
+        ],
+        [
+          "WikiCamps NZ適合露營車旅行嗎？",
+          "能用，但你得保持登入，而且許多使用者說它會登出。KiwiCamping不需要帳號，並有 Campervans 和 Caravan access 篩選。"
+        ],
+        [
+          "去紐西蘭需要WikiCamps嗎？",
+          "不需要。KiwiCamping顯示每一處DOC營地、山屋和步道，以及DOC的自由露營告示，而且不用帳號。"
+        ],
+        [
+          "紐西蘭最好的露營應用程式是什麼？",
+          "我們認為是我們做的KiwiCamping：每一處DOC營地、山屋和步道，必須全部符合的篩選，行程可以即時共享，沒有廣告，也不用登入。"
+        ],
+        [
+          "KiwiCamping是WikiCamps的好替代嗎？",
+          "是的。不用帳號就能直接打開地圖，沒有廣告，還可以和同伴即時一起安排行程。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：住宿地點"
+        },
+        {
+          "label": "DOC：自由露營"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-vs-kiwicamping": {
+      "title": "WikiCamps NZ vs KiwiCamping: 2027紐西蘭露營App怎麼選",
+      "description": "2027年WikiCamps NZ vs KiwiCamping：價格、登入、廣告、DOC營地和山屋、篩選，以及一起規劃行程。為什麼去紐西蘭，KiwiCamping是更省事的App。",
+      "region": "紐西蘭",
+      "imageAlt": "從上方台地的灌木間望去，Rangitīkei River在Vinegar Hill的河畔營地旁彎過",
+      "intro": "WikiCamps NZ vs KiwiCamping：在紐西蘭露營，該帶哪一個？KiwiCamping免費下載，不用帳號，也沒有廣告。WikiCamps NZ售價NZ$7.99，需要登入，而且有廣告。KiwiCamping是我們做的，下面按上路之後真正要緊的幾點來比。",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ vs KiwiCamping，一眼看清",
+          "body": [
+            "想看短的版本：KiwiCamping打開就能用。不用登入，沒有廣告，每個營地、山屋和步道都用DOC自己的資料，行程還可以和同伴即時一起排。",
+            "WikiCamps屬於G'day Group，也就是Discovery Parks和G'day Parks背後的公司。KiwiCamping是獨立App，同一張地圖上既有付費渡假園區，也有免費的<a data-guide=\"doc-campsites-new-zealand-guide\">DOC營地</a>。"
+          ],
+          "tips": [],
+          "table": {
+            "caption": "在要緊的地方，兩個App怎麼比。",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "價格",
+                "NZ$7.99",
+                "免費下載，含App內購買"
+              ],
+              [
+                "帳號",
+                "需要，用電子郵件驗證碼登入",
+                "沒有，無需登入"
+              ],
+              [
+                "廣告",
+                "有",
+                "沒有"
+              ],
+              [
+                "DOC營地、山屋和步道",
+                "由使用者列出",
+                "每一處都來自DOC自己的資料"
+              ],
+              [
+                "同時用多個篩選",
+                "使用者說，符合其中任一項即可",
+                "地點必須全部符合"
+              ],
+              [
+                "和同伴一起規劃",
+                "分享行程連結",
+                "用Collaborate即時進行"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "登入：要一個帳號，還是什麼都不要",
+          "body": [
+            "WikiCamps大更新之後，進入App需要WikiCamps帳號，以及寄到電子郵件的驗證碼。很多使用者說App接著會把他們登出，而重新登入需要訊號，營地裡常常沒有。",
+            "KiwiCamping根本沒有帳號。沒有要登入的東西，沒有驗證碼，也不會被登出，所以在Haast和在Auckland打開的方式一樣。你儲存的地點和行程透過你自己的iCloud私下同步。"
+          ],
+          "tips": [
+            "WikiCamps NZ：帳號和電子郵件驗證碼",
+            "KiwiCamping：沒有帳號",
+            "iCloud私下同步"
+          ]
+        },
+        {
+          "heading": "好用：打開就是地圖",
+          "body": [
+            "WikiCamps使用者抱怨最多的是，新版本比舊版本難用。KiwiCamping故意把步驟留得很少，讓App把路讓給行程。",
+            "打開就是紐西蘭的地圖。選一個篩選，比如有熱水淋浴的露營車，點一枚圖釘看費用、設施和DOC的說明，並在同一頁把它加入行程。"
+          ],
+          "tips": [
+            "打開就是地圖",
+            "篩選，點按，加入",
+            "詳情一點就到"
+          ]
+        },
+        {
+          "heading": "DOC營地、山屋和步道，直接來自DOC",
+          "body": [
+            "在KiwiCamping裡，每一處<a data-guide=\"doc-campsites-new-zealand-guide\">DOC營地</a>、山屋和步道都來自Department of Conservation自己的資料。每一處都顯示費用、是否開放、是否允許帶狗、是否必須預訂，以及目前警報，並連到DOC網站上的頁面。",
+            "同一張地圖上有DOC的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>告示，標出保育地上禁止或限制露營的地方。在WikiCamps NZ裡，DOC地點由使用者列出，費用或關閉只有在有人更新時才會變。"
+          ],
+          "tips": [
+            "DOC的費用、帶狗規定和警報",
+            "DOC自由露營告示",
+            "每個地點都有DOC連結"
+          ]
+        },
+        {
+          "heading": "篩選：允許帶狗、4WD進入、拖掛式露營車可進入",
+          "body": [
+            "露營的人最常要的三個篩選放在KiwiCamping篩選的最上面。下面還有僅徒步進入、汽車、沖水馬桶、處理過的自來水、允許<a data-guide=\"campfire-rules-new-zealand\">營火</a>，以及輪椅可進入，再加上費用。",
+            "選了好幾項，地點就必須全部具備。WikiCamps NZ的使用者說，在那邊同時選多個<a data-guide=\"kiwicamping-filters-guide\">篩選</a>，會顯示符合其中任一項的地點，名單因此更長，還要再挑一遍。"
+          ],
+          "tips": [
+            "最常用的三個篩選在前",
+            "所選條件必須全部符合",
+            "用費用篩選找免費DOC地點"
+          ]
+        },
+        {
+          "heading": "行程規劃：家、任意地址和你自己的圖釘",
+          "body": [
+            "在You分頁裡把家設好一次，之後任何行程都可以一按從那裡出發或結束。Add stop能找App裡的地點、你儲存的圖釘、目前位置或任意街道地址，所以Nelson朋友的住處和去年夏天找到的海灘都能放進去。每一站都顯示距離和車程。",
+            "在地圖上放一枚圖釘，點Add to trip，它就會像其他站點一樣加入路線。每一站還有自己的日期、備註和天氣。"
+          ],
+          "tips": [
+            "從家出發，在家結束",
+            "任意地址或放下的圖釘",
+            "每一站的距離和車程"
+          ]
+        },
+        {
+          "heading": "分享：即時一起排，或送出一份副本",
+          "body": [
+            "在行程或收藏上點Share，選Collaborate，就能透過iCloud邀請同伴。你們都可以加站點、調整順序、勾掉已完成的，以及改備註。改動幾秒內就會出現，沒有帳號，也不用登入。",
+            "Send copy會產生一個連結，任何人都能在瀏覽器裡打開，查看站點、日期和備註，很適合發給家裡的家人。Share as image把行程變成一張帶路線、站點和住宿晚數的圖。分享的地點會在已安裝App的朋友手機上直接打開。"
+          ],
+          "tips": [
+            "Collaborate：一個行程，兩支手機",
+            "Send copy可在任何瀏覽器打開",
+            "Share as image"
+          ]
+        },
+        {
+          "heading": "換App的人為什麼選KiwiCamping",
+          "body": [
+            "這是在紐西蘭露營更從容的方式：打開，找一個點，出發。沒有廣告，沒有帳號，用的是DOC自己的資料，行程還可以兩個人同時排。",
+            "You分頁裡還有一點小樂趣：一張會填上你去過地區的地圖，以及距離下次行程的倒數計時。KiwiCamping免費下載，含App內購買。我們對<a data-guide=\"is-wikicamps-nz-worth-it\">WikiCamps NZ值不值得</a>的判斷，把價格問題寫得更細。"
+          ],
+          "tips": [
+            "沒有廣告，沒有帳號",
+            "DOC自己的資料",
+            "即時一起規劃"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "KiwiCamping比WikiCamps NZ更好嗎？",
+          "對大多數紐西蘭行程，我們覺得是的：沒有帳號，沒有廣告，有DOC自己的營地和山屋資料，還能和同伴即時分享行程。"
+        ],
+        [
+          "KiwiCamping需要帳號嗎？",
+          "不需要。沒有帳號、密碼或驗證碼，同步由你自己的iCloud完成。"
+        ],
+        [
+          "KiwiCamping顯示DOC營地和山屋嗎？",
+          "顯示。每一處DOC營地、山屋和步道都在地圖上，並帶有DOC的費用、帶狗規定和預訂要求。"
+        ],
+        [
+          "我和同伴能在KiwiCamping裡一起規劃行程嗎？",
+          "可以。分享行程並選擇Collaborate。你們編輯的是同一個行程，幾秒內就能看到對方的改動。"
+        ],
+        [
+          "沒有訊號時KiwiCamping還能用嗎？",
+          "地點資料、費用和設施，以及你儲存的地點和行程，都留在手機上，沒有訊號也能看。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：住宿地點"
+        },
+        {
+          "label": "DOC：保育地上的自由露營"
+        },
+        {
+          "label": "DOC：線上預訂"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "WikiCamps NZ 免費嗎？2027 年價格、帳號和廣告說明",
+      "description": "2027 年 WikiCamps NZ 免費嗎？不免費：一次性收費 NZ$7.99，需要帳號，還有廣告。看看實際花費，以及一款可免費下載、免登入、沒有廣告的紐西蘭露營 App。",
+      "region": "紐西蘭",
+      "imageAlt": "一輛畫著紫色花朵的小型租賃露營車，停在阿卡羅瓦的水邊",
+      "intro": "WikiCamps NZ 免費嗎？不免費。WikiCamps NZ 是一次性購買，價格 NZ$7.99，沒有訂閱。除了價格，你還需要一個 WikiCamps 帳號，App 裡有廣告，而且澳洲要另外買一個 App。我們做的 KiwiCamping 是一款可免費下載的紐西蘭露營 App，含 App 內購買，沒有廣告，也不用登入。以下說明 WikiCamps NZ 要花多少錢，以及購買後會有什麼。",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ 要多少錢",
+          "body": [
+            "WikiCamps NZ 售價 NZ$7.99，一次付清，WikiCamps 表示沒有訂閱，也沒有隱藏費用。它按平台定價，換成另一種手機就得重新購買。",
+            "每個國家都是獨立的 App。如果行程從雪梨出發、到基督城結束，就還得再買 WikiCamps Australia，並且要在兩個 App 裡分別管理收藏的地點。"
+          ],
+          "tips": [
+            "NZ$7.99 一次付清",
+            "沒有訂閱",
+            "每個國家是獨立的 App"
+          ],
+          "table": {
+            "caption": "兩款 App 分別要求什麼。",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "取得 App",
+                "NZ$7.99",
+                "免費下載，含 App 內購買"
+              ],
+              [
+                "帳號",
+                "需要，以電子郵件驗證碼登入",
+                "無"
+              ],
+              [
+                "廣告",
+                "有",
+                "無"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "付了錢的 App 還有廣告",
+          "body": [
+            "很多 WikiCamps 使用者表示，在自己付費購買的 App 裡看到廣告很不滿。這是 WikiCamps 大版本更新以來最常見的抱怨之一。",
+            "KiwiCamping 完全沒有廣告：地圖上沒有，地點頁面沒有，你的行程裡也沒有。它還獨立於任何度假營地集團，免費的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>和收費的度假營地顯示在同一張地圖上。"
+          ],
+          "tips": [
+            "WikiCamps NZ 有廣告",
+            "KiwiCamping：沒有",
+            "獨立營運"
+          ]
+        },
+        {
+          "heading": "購買之後還要有帳號",
+          "body": [
+            "WikiCamps NZ 需要 WikiCamps 帳號，用寄到電子郵件的驗證碼登入。不少使用者說它會把自己登出，而重新登入又需要有訊號。",
+            "KiwiCamping 沒有需要登入的地方。下載、打開，眼前就是地圖，全程不需要電子郵件、密碼或驗證碼。換新 iPhone 時，收藏的地點和行程會透過 iCloud 同步過來。"
+          ],
+          "tips": [
+            "WikiCamps NZ：帳號和電子郵件驗證碼",
+            "KiwiCamping：打開就能用",
+            "行程透過 iCloud 跟著你走"
+          ]
+        },
+        {
+          "heading": "KiwiCamping：免費下載，免登入",
+          "body": [
+            "KiwiCamping 把所有 DOC 營地、山屋和步道放在一張地圖上，附有 DOC 公布的費用、寵物規定和預訂要求，還有 DOC 針對保育地的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>提示。地點詳情存在手機裡，沒有訊號也能閱讀。",
+            "用起來很快。打開 App，選一個篩選條件，例如可帶狗或露營車可進入，點開圖釘看詳情，再加入行程，就能看到各站之間的距離和開車時間。"
+          ],
+          "tips": [
+            "所有 DOC 營地、山屋和步道",
+            "免帳號，沒有廣告",
+            "沒有訊號也能看詳情"
+          ]
+        },
+        {
+          "heading": "如何在紐西蘭找免費營地",
+          "body": [
+            "很多人找免費 App，其實是想找免費住宿。在 KiwiCamping 裡把費用篩選設為免費，就能看到 DOC 的免費營地。再加上廁所、供水或露營車，營地必須同時符合你選的所有條件。",
+            "免費的 DOC 營地通常很簡樸，往往是旱廁加溪水或水箱水，有的離公路還要走一小段。城鎮裡的自由露營是另一回事，我們的<a data-guide=\"freedom-camping-rules-new-zealand\">自由露營規則</a>指南有詳細說明。"
+          ],
+          "tips": [
+            "費用篩選：免費 DOC 營地",
+            "所有篩選條件都要符合",
+            "免費營地通常比較簡樸"
+          ]
+        },
+        {
+          "heading": "不只是一份營地清單",
+          "body": [
+            "在「我的」分頁設定一次家的地址，每次行程都能從家出發、回家結束。新增停靠點可輸入任何地址或你放下的圖釘，協作功能讓你和伴侶即時一起規劃同一個行程，不需要帳號。",
+            "「我的」分頁還會記錄你去過的地方地圖、你走過的紐西蘭比例，以及行駛公里數和露營的晚數，是一份很棒的旅行紀念。"
+          ],
+          "tips": [
+            "一鍵設為家",
+            "任何地址或圖釘",
+            "去過的地方地圖"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps NZ 免費嗎？",
+          "不免費。一次性收費 NZ$7.99，沒有訂閱。另外還需要帳號，並且有廣告。"
+        ],
+        [
+          "WikiCamps 在紐西蘭多少錢？",
+          "WikiCamps NZ 售價 NZ$7.99。WikiCamps Australia 是另一個 App，需要單獨購買。"
+        ],
+        [
+          "WikiCamps 是訂閱制嗎？",
+          "不是。WikiCamps 表示這是一次性購買，沒有訂閱，也沒有隱藏費用。"
+        ],
+        [
+          "買一次 WikiCamps 能同時用於澳洲和紐西蘭嗎？",
+          "不能。WikiCamps NZ 和 WikiCamps Australia 是兩個獨立的 App，需要分別購買。"
+        ],
+        [
+          "有免費的紐西蘭露營 App 嗎？",
+          "KiwiCamping 可免費下載，含 App 內購買，沒有廣告，也不用登入。它的費用篩選可以找到 DOC 的免費營地。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：營地類別和費用"
+        },
+        {
+          "label": "DOC：保育地上的自由露營"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-vs-wikicamps-nz": {
+      "title": "2027年 CamperMate 與 WikiCamps NZ 比較，以及第三個選擇",
+      "description": "2027年去紐西蘭，該選 CamperMate 還是 WikiCamps？從價格、廣告和登入來比較，並看看為什麼露營者會選擇免登入、沒有廣告的第三個選擇 KiwiCamping。",
+      "region": "紐西蘭",
+      "imageAlt": "四輛露營車並排停在卡特林斯 Tautuku Bay 海邊高處的碎石空地上",
+      "intro": "CamperMate 與 WikiCamps NZ 的差別主要在價格和登入：CamperMate 免費，WikiCamps NZ 一次性收費 NZ$7.99 且需要帳號，兩者都有廣告。我們開發的 KiwiCamping 是第三個選擇，沒有廣告，也不必登入，圍繞 DOC 的營地、山屋和步道打造，我們認為它能讓紐西蘭之旅最輕鬆。",
+      "sections": [
+        {
+          "heading": "CamperMate 與 WikiCamps 一覽",
+          "body": [
+            "許多露營車旅行者在抵達前都會在這兩款應用程式之間權衡。CamperMate 免費，而 WikiCamps NZ 是付費應用程式，需要帳號和電子郵件驗證碼。",
+            "它們的共同點是廣告。如果你想要一款既沒有廣告也不必登入的<a data-guide=\"best-nz-camping-apps\">露營應用程式</a>，KiwiCamping 正是為此而生。"
+          ],
+          "tips": [
+            "CamperMate：免費",
+            "WikiCamps NZ：NZ$7.99 加帳號",
+            "兩者都有廣告"
+          ],
+          "table": {
+            "caption": "CamperMate、WikiCamps NZ 與 KiwiCamping 比較。",
+            "head": [
+              "",
+              "CamperMate",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "價格",
+                "免費",
+                "NZ$7.99",
+                "免費下載，含應用程式內購買"
+              ],
+              [
+                "廣告",
+                "有",
+                "有",
+                "無"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "CamperMate 簡介",
+          "body": [
+            "CamperMate 是一款免費應用程式，列出全國各地的營地和服務設施，提供<a data-guide=\"holiday-parks-new-zealand-guide\">度假營地</a>預訂和當地優惠，並帶有廣告。",
+            "一些 CamperMate 使用者表示，改版後應用程式變慢了，以前仰賴的地點也不見了。如果你也遇到這種情況，不妨試試更簡潔的應用程式。"
+          ],
+          "tips": [
+            "免費，帶廣告",
+            "預訂和優惠",
+            "部分使用者不喜歡改版"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ 簡介",
+          "body": [
+            "WikiCamps NZ 一次性收費 NZ$7.99，沒有訂閱。自 WikiCamps 大更新以來，使用它需要帳號和電子郵件驗證碼，而且應用程式裡有廣告。",
+            "不少使用者說新版比舊版更繁瑣，還會把他們登出，在沒有訊號的營地尤其難受。我們的 <a data-guide=\"is-wikicamps-nz-free\">WikiCamps NZ 價格</a>解析對價格有詳細說明。"
+          ],
+          "tips": [
+            "NZ$7.99，一次付費",
+            "帳號和電子郵件驗證碼",
+            "付費應用程式裡仍有廣告"
+          ]
+        },
+        {
+          "heading": "第三個選擇：KiwiCamping",
+          "body": [
+            "KiwiCamping 一開啟就是地圖，不用註冊帳號，也沒有要滑過的廣告。每個 DOC 營地、山屋和步道都在其中，附有 DOC 的收費、狗狗規定和預訂需求，DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>公告會標出保育用地上哪些地方禁止進入。",
+            "<a data-guide=\"kiwicamping-filters-guide\">篩選</a>負責最費力的部分。允許帶狗、四輪傳動可達和露營拖車可達排在最上面，選多個時，地點必須全部符合。點一下圖釘查看詳情，再加入你的行程。"
+          ],
+          "tips": [
+            "不需帳號，沒有廣告",
+            "每個 DOC 營地、山屋和步道",
+            "必須全部符合的篩選"
+          ]
+        },
+        {
+          "heading": "用 KiwiCamping 規劃露營車行程",
+          "body": [
+            "只需設定一次家裡的地址，之後任何行程都可以一鍵從家出發或回到家。新增停靠點支援應用程式內的地點、任意地址或你放下的圖釘，每個停靠點都會在路線上顯示距離和車程時間。",
+            "車上有兩個人？<a data-guide=\"share-nz-trip-plan-kiwicamping\">分享行程</a>並選擇協作，你們都可以新增停靠點並調整順序，修改幾秒內同步，不需登入。傳送副本則讓家人透過連結在任何網頁瀏覽器中查看你的路線。"
+          ],
+          "tips": [
+            "家、地址和圖釘",
+            "距離和車程時間",
+            "用協作一起規劃"
+          ]
+        },
+        {
+          "heading": "為什麼露營者把 KiwiCamping 加進行程",
+          "body": [
+            "對於 DOC 營地和 Great Walk 山屋，KiwiCamping 顯示 DOC 自己的資訊，並連結到 DOC 進行預訂。對於<a data-guide=\"freedom-camping-new-zealand-guide\">自由露營</a>，DOC 的公告就在地圖上營地旁邊，開車進去之前就能看到哪裡禁止進入。",
+            "它還會為你保留紀錄。「你」分頁會點亮你到訪過的地區地圖，並統計行駛公里數和露營晚數。KiwiCamping 可免費下載，含應用程式內購買。"
+          ],
+          "tips": [
+            "DOC 營地和山屋",
+            "DOC 自由露營公告",
+            "你的旅行紀錄"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "紐西蘭用 CamperMate 還是 WikiCamps 比較好？",
+          "CamperMate 免費；WikiCamps NZ 收費 NZ$7.99 且需要帳號。兩者都有廣告。想要沒有廣告、免登入的應用程式，試試 KiwiCamping。"
+        ],
+        [
+          "CamperMate 免費嗎？",
+          "是的。CamperMate 可免費使用，但帶有廣告。"
+        ],
+        [
+          "紐西蘭哪款露營應用程式沒有廣告？",
+          "KiwiCamping 沒有廣告，也不必登入。可免費下載，含應用程式內購買。"
+        ],
+        [
+          "紐西蘭的露營車旅行者大多用哪款應用程式？",
+          "很多人用 CamperMate 或 WikiCamps NZ。KiwiCamping 提供 DOC 自己的營地資訊，沒有廣告，也不需帳號。"
+        ],
+        [
+          "哪款應用程式能顯示 DOC 營地？",
+          "KiwiCamping 依據 DOC 自己的資訊顯示每個 DOC 營地、山屋和步道，包括收費、狗狗規定和預訂需求。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：住宿地點"
+        },
+        {
+          "label": "DOC：線上預訂"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-huts-campsites-app-wikicamps-kiwicamping": {
+      "title": "紐西蘭 DOC App：山屋與營地，WikiCamps 對比 KiwiCamping（2027）",
+      "description": "2027 年想在紐西蘭找 DOC App 查山屋、步道和營地？KiwiCamping 免登入就能查看所有 DOC 山屋和營地的費用、預訂與寵物規定，並與 WikiCamps NZ 比較。",
+      "region": "紐西蘭",
+      "imageAlt": "斯圖爾特島 Rakiura Track 上一間設有寬敞有頂門廊的木造 DOC 山屋",
+      "intro": "想找一款查看紐西蘭山屋和營地的 DOC App？KiwiCamping 把所有 DOC 山屋、營地和步道放在同一張地圖上，附上 DOC 的費用、寵物規定和預訂需求，想預訂時可直接連到 DOC。不需要帳號，也沒有廣告。我們是 KiwiCamping 的開發團隊，以下說明它如何幫你規劃山屋、步道和營地，以及與 WikiCamps NZ 有何不同。",
+      "sections": [
+        {
+          "heading": "好用的 DOC App 應該顯示什麼",
+          "body": [
+            "DOC 把山屋和營地分成不同類別，看類別就能大致知道抵達後會遇到什麼。好的 App 會清楚顯示類別、每晚費用、必須預訂還是可以直接前往、是否可帶狗，以及目前的公告。",
+            "KiwiCamping 的每個 DOC 地點都能看到這些資訊，資料來自 DOC 官方，所以你出發前就能挑好山屋，到了步道口再確認一次。"
+          ],
+          "tips": [
+            "類別、費用與預訂",
+            "寵物規定與公告",
+            "直接來自 DOC"
+          ],
+          "table": {
+            "caption": "DOC 山屋類別一覽。",
+            "head": [
+              "山屋類別",
+              "大致情況"
+            ],
+            "rows": [
+              [
+                "Great Walk 山屋",
+                "Great Walks 季節需提前預訂"
+              ],
+              [
+                "服務型山屋",
+                "通常有床墊、飲用水、廁所和暖氣"
+              ],
+              [
+                "標準山屋",
+                "通常有床墊、飲用水和廁所"
+              ],
+              [
+                "簡易山屋或露宿所",
+                "提供有經驗的健行者使用的簡單避難所"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping 中的 DOC 山屋、營地和步道",
+          "body": [
+            "每間 <a data-guide=\"doc-huts-new-zealand-guide\">DOC 山屋</a>都會顯示是否開放、床位數、費用和設施，並附上 DOC 網站上該山屋的連結。每條 DOC 步道都會顯示距離、步行時間、難度等級和海拔剖面，出發前就能判斷爬升有多大。",
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC 營地</a>會顯示費用、寵物規定以及是否需要預訂。可預訂的山屋和營地會連到 DOC，在那裡完成預訂。"
+          ],
+          "tips": [
+            "山屋狀態、床位與費用",
+            "步道距離、時間與難度",
+            "透過 DOC 連結預訂"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ 如何處理 DOC 地點",
+          "body": [
+            "在 WikiCamps NZ 中，<a data-guide=\"doc-huts-new-zealand-guide\">DOC 山屋</a>和營地與其他地點一樣由使用者自行新增，所以費用或關閉資訊要有人更新才會改變。",
+            "自從 WikiCamps 大改版後，App 還需要用電子郵件驗證碼註冊帳號，而且會顯示廣告。許多使用者反映它一直把人登出，而在沒有訊號的步道口，這最讓人頭痛。其餘差異請看我們的 <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ 對比 KiwiCamping</a>。"
+          ],
+          "tips": [
+            "由使用者新增",
+            "帳號與電子郵件驗證碼",
+            "廣告"
+          ]
+        },
+        {
+          "heading": "從地圖到山屋，只要點幾下",
+          "body": [
+            "打開 KiwiCamping，地圖就在眼前，不需要登入。加上<a data-guide=\"kiwicamping-filters-guide\">篩選</a>條件，例如僅限步行抵達、有水源或可帶狗，地圖上只會留下符合所有條件的地點。",
+            "點一下山屋就能看到床位、費用和 DOC 連結，然後把它存進該步道的收藏集，或加入你的行程。"
+          ],
+          "tips": [
+            "免登入",
+            "僅限步行抵達與水源篩選",
+            "一鍵儲存或加入"
+          ]
+        },
+        {
+          "heading": "規劃山屋或 Great Walk 行程",
+          "body": [
+            "把你正在比較的山屋存進每條步道各自的收藏集。計畫確定後，把步道口的營地加入從「家」出發的行程，每一段都會顯示距離和車程時間。",
+            "和朋友一起健行？<a data-guide=\"share-nz-trip-plan-kiwicamping\">分享行程</a>並選擇協作，你們就能即時看到同一份計畫。傳送副本則會給家裡的人一個連結，用任何網頁瀏覽器都能查看你的路線，很適合出發前留下行程說明。另外要及早透過 DOC 預訂山屋，熱門山屋夏季很快客滿。"
+          ],
+          "tips": [
+            "每條步道一個收藏集",
+            "行程從「家」出發",
+            "與健行夥伴協作"
+          ]
+        },
+        {
+          "heading": "沒有訊號的步道上",
+          "body": [
+            "山屋和營地資訊會連同你收藏的地點、行程一起存在手機裡，所以即使身處<a data-guide=\"kiwicamping-offline-data-guide\">沒有訊號</a>的深谷，床位數、費用和 DOC 的說明也都在。",
+            "在任何偏遠地區健行，都要帶上紙本地形圖和個人定位信標，在最後一個有訊號的地方查看天氣和 DOC 公告，並告訴別人你要去哪裡。"
+          ],
+          "tips": [
+            "沒有訊號也能看山屋資訊",
+            "紙本地圖和信標",
+            "留下行程說明"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "有查山屋的 DOC App 嗎？",
+          "DOC 透過其網站接受預訂。KiwiCamping 會顯示每間 DOC 山屋的費用、床位和預訂需求，並連到 DOC 進行預訂。"
+        ],
+        [
+          "哪款 App 能查看紐西蘭的 DOC 營地？",
+          "KiwiCamping 依據 DOC 官方資訊顯示所有 DOC 營地，包括費用、寵物規定和預訂需求，免登入。"
+        ],
+        [
+          "KiwiCamping 會顯示 DOC 步道詳情嗎？",
+          "會。每條 DOC 步道都顯示距離、步行時間、難度等級和海拔剖面，並附有 DOC 連結。"
+        ],
+        [
+          "沒有訊號時能查看山屋資訊嗎？",
+          "可以。山屋和營地資訊、你收藏的地點和行程都存在手機裡。"
+        ],
+        [
+          "紐西蘭有多少間 DOC 山屋？",
+          "KiwiCamping 顯示 900 多間 DOC 山屋。官方總數請以 DOC 網站為準。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC：線上預訂"
+        },
+        {
+          "label": "DOC：山屋預訂與付款"
+        },
+        {
+          "label": "DOC：營地預訂與付款"
+        },
+        {
+          "label": "DOC：Great Walks 比較"
         }
       ],
       "priceTable": null

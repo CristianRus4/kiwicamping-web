@@ -45,7 +45,7 @@ export const wikiK1Articles: Article[] = [
         "DOC's freedom camping notices are in there too, so you can see where camping on conservation land is off limits before you pull in. Around towns and beaches, the council's rules and the sign at the site still decide.",
       ], ["DOC fees, dog rules and bookings", "DOC freedom camping notices", "A link to DOC on every place"]),
       s("Filters that find the right spot", [
-        "Dogs allowed, 4WD access and Caravan access sit at the top of the filters. Below them are everyday features such as Campervans, Powered sites, Hot showers, Toilets and Water supply.",
+        "Dogs allowed, 4WD access and Caravan access have their own Pets and access section in the filters. Popular features such as toilets, water and showers narrow it down further.",
         "Choose several and a place has to have every one of them, so Campervans, Hot showers and Dogs allowed together only show spots that tick all three boxes. Many WikiCamps users say its filters show places that match any choice instead. Set the cost to Free and DOC's free campsites appear.",
       ], ["Dogs allowed, 4WD and Caravan access", "Every filter must match", "Free DOC campsites by cost"]),
       s("Plan the trip your way, and together", [
@@ -111,9 +111,9 @@ export const wikiK1Articles: Article[] = [
         "DOC's freedom camping notices sit on the same map, showing where camping on conservation land is prohibited or restricted. In WikiCamps NZ, DOC places are listed by users, so a fee or a closure changes only when someone updates it.",
       ], ["DOC's fees, dog rules and alerts", "DOC freedom camping notices", "A link to DOC on every place"]),
       s("Filters: Dogs allowed, 4WD access and Caravan access", [
-        "The three filters campers ask for most sit at the top of KiwiCamping's filters. Underneath are Walk-in only, Cars, Flush toilets, Treated tap water, Campfires allowed and Wheelchair accessible, plus Cost.",
+        "The three filters campers ask for most have their own Pets and access section in KiwiCamping's filters, right after Cost. Popular features such as toilets, water, showers and Campfires narrow it down further.",
         "Pick several and a place must have all of them. WikiCamps NZ users say choosing several filters there shows places with any of them, which makes for a longer list to sift through.",
-      ], ["Top three filters first", "All choices must match", "Cost filter for free DOC sites"]),
+      ], ["Pets and access, right after Cost", "All choices must match", "Cost filter for free DOC sites"]),
       s("Trip planning with Home, any address and your own pins", [
         "Set your home once in the You tab, then start or finish any trip there in one tap. Add stop finds places in the app, your saved pins, your current location or any street address, so the friend's place in Nelson and the beach you found last summer both fit in. Every stop shows its distance and drive time.",
         "Drop a pin on the map, tap Add to trip, and it joins the route like any other stop. Each stop also has its own dates, notes and weather.",
@@ -124,7 +124,7 @@ export const wikiK1Articles: Article[] = [
       ], ["Collaborate: one trip, both phones", "Send copy opens in any browser", "Share as image"]),
       s("Why switchers pick KiwiCamping", [
         "It is the calmer way to camp in New Zealand: open it, find a spot, go. No ads, no account, DOC's own details, and a trip that two of you can plan at the same time.",
-        "The You tab adds a little fun too, with a map that fills in the regions you have visited and a countdown to your next trip. KiwiCamping is free to download, with in-app purchases, and our verdict on whether WikiCamps NZ is worth it covers the price question in more detail.",
+        "The You tab adds a little fun too, with a map that fills in the regions you have visited. KiwiCamping is free to download, with in-app purchases, and our verdict on whether WikiCamps NZ is worth it covers the price question in more detail.",
       ], ["No ads, no account", "DOC's own details", "Plan together live"], undefined, true),
     ],
     faq: [
@@ -233,7 +233,7 @@ export const wikiK1Articles: Article[] = [
       ], ["NZ$7.99 once", "Account and email code", "Ads in a paid app"]),
       s("The third option: KiwiCamping", [
         "KiwiCamping opens straight to the map, with no account to make and no ads to scroll past. Every DOC campsite, hut and track is there with DOC's fee, dog rules and booking needs, and DOC's freedom camping notices show where conservation land is off limits.",
-        "Filters do the hard work. Dogs allowed, 4WD access and Caravan access sit at the top, and when you pick several, a place has to match all of them. Tap a pin for the details, then add it to your trip.",
+        "Filters do the hard work. Dogs allowed, 4WD access and Caravan access have their own Pets and access section, and when you pick several, a place has to match all of them. Tap a pin for the details, then add it to your trip.",
       ], ["No account, no ads", "Every DOC campsite, hut and track", "Filters that must all match"], undefined, true),
       s("Planning a campervan trip in KiwiCamping", [
         "Set your home address once and start or finish any trip there in one tap. Add stop takes places in the app, any address or a pin you have dropped, and each stop shows its distance and drive time on the route.",

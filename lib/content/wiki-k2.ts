@@ -47,7 +47,7 @@ export const wikiK2Articles: Article[] = [
       }),
       s("Open it and you're on the map", [
         "There's no welcome screen to get past. The map of New Zealand is the first thing you see, with campsites, huts and holiday parks around you.",
-        "Tap filters and the popular ones sit at the top: Dogs allowed, 4WD access and Caravan access. Pick a few and every place shown matches all of them. Tap a place for its fees, facilities and rules, then add it to your trip.",
+        "Tap filters and Dogs allowed, 4WD access and Caravan access have their own Pets and access section. Pick a few and every place shown matches all of them. Tap a place for its fees, facilities and rules, then add it to your trip.",
         "Place details, your saved places and your trips all stay on the phone, so they still open without reception.",
       ], ["The map comes first", "Dogs allowed, 4WD and Caravan access", "Details open with no signal"]),
       s("Plan with your partner, still with no account", [
@@ -107,7 +107,7 @@ export const wikiK2Articles: Article[] = [
       }),
       s("Pick tonight's spot before the bars drop", [
         "Some of the best drives in the country, like the Haast Pass, the Milford Road and the Catlins, are where you're most likely to lose signal. That's exactly where having every place's details on the phone pays off.",
-        "Open the filters and choose what matters: Dogs allowed, 4WD access or Caravan access sit at the top, and a place has to match every filter you pick. Add your favourite to the trip, plus a fallback nearby, and you're set for the night.",
+        "Open the filters and choose what matters: Dogs allowed, 4WD access and Caravan access are in the Pets and access section, and a place has to match every filter you pick. Add your favourite to the trip, plus a fallback nearby, and you're set for the night.",
       ], ["Details with no bars", "Filters that match all your choices", "Save a fallback too"]),
       s("Freedom camping rules with no signal", [
         "DOC's freedom-camping notices for conservation land are in KiwiCamping, so you can see where camping is prohibited or restricted when you're miles from coverage.",
@@ -179,7 +179,7 @@ export const wikiK2Articles: Article[] = [
       }),
       s("Step 5: freedom camping nights", [
         "Don't just copy old freedom camping spots across: check the freedom camping rules again. DOC's notices for conservation land are in KiwiCamping, and council bylaws are on each council's website.",
-        "Then let the filters find you somewhere new. Dogs allowed, 4WD access and Caravan access sit at the top, the Cost filter brings up DOC's free and low-cost campsites, and every place shown matches all the filters you choose.",
+        "Then let the filters find you somewhere new. Dogs allowed, 4WD access and Caravan access sit in the Pets and access section, the Cost filter brings up DOC's free and low-cost campsites, and every place shown matches all the filters you choose.",
       ], ["DOC notices in the app", "Filters match all your choices", "DOC's free and low-cost campsites"]),
       s("Bring your travel partner along", [
         "Tap Share on the trip and choose Collaborate to invite your partner through iCloud. You both add stops, reorder them, tick them off and edit notes, and changes appear on both phones within seconds.",
@@ -302,11 +302,11 @@ export const wikiK2Articles: Article[] = [
       }),
       s("Plan around New Zealand's fixed points", [
         "Booked Great Walk huts, DOC campsites that need a booking in summer and the Cook Strait ferry fix the shape of most trips. Add those first and keep everything between them flexible.",
-        "Watch the drive times more than the kilometres. Winding roads and passes make New Zealand driving days slower than they look, so split any leg that eats the whole day. The filters help fill the gaps, with Dogs allowed, 4WD access and Caravan access at the top.",
+        "Watch the drive times more than the kilometres. Winding roads and passes make New Zealand driving days slower than they look, so split any leg that eats the whole day. The filters help fill the gaps, with Dogs allowed, 4WD access and Caravan access in their own Pets and access section.",
       ], ["Fixed nights first", "Watch drive times", "Filters for the gaps"]),
       s("On the road with your plan", [
         "Tick stops off as you go and check the weather at the next ones. Keep the shopping, bookings and ferry check-in on the trip's To-do list.",
-        "The You tab keeps score: a map that fills in the regions you've visited, how much of New Zealand you've seen, kilometres travelled, nights camped, and a countdown to your next trip.",
+        "The You tab keeps score: a map that fills in the regions you've visited, how much of New Zealand you've seen, kilometres travelled and nights camped.",
       ], ["Tick stops off", "Weather and a To-do list", "Your travel map and stats"]),
       s("Plan together and check it on a laptop", [
         "Share the trip with Collaborate and your partner can add, reorder and tick off stops with you, live. Send copy gives a link that opens in any web browser, so you can look over the plan on a laptop at home.",

@@ -27981,6 +27981,720 @@
       ],
       "priceTable": null
     },
+    "wikicamps-nz-account-login": {
+      "title": "WikiCamps inloggning: Kräver WikiCamps NZ konto 2027?",
+      "description": "Kräver WikiCamps NZ konto 2027? Ja, du loggar in med en kod via e-post. Varför det är besvärligt på en roadtrip i Nya Zeeland, och hur KiwiCamping fungerar helt utan inloggning.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En vit husbil parkerad ensam på en gräsbeklädd glänta under inhemsk skog vid West Coast",
+      "intro": "Ja. Sedan den stora uppdateringen av WikiCamps kräver WikiCamps NZ ett konto, och du loggar in med en kod som skickas till din e-post. KiwiCamping slipper allt det: det finns inget konto, så du öppnar appen och är direkt på kartan. Vi gör KiwiCamping, och här är vad det betyder att slippa inloggning på en roadtrip i Nya Zeeland.",
+      "sections": [
+        {
+          "heading": "Därför är WikiCamps-inloggningen i vägen",
+          "body": [
+            "Många WikiCamps-användare säger att den nya versionen hela tiden loggar ut dem, och för att komma in igen får de vänta på en kod via e-post. Inte kul på en campingplats utan täckning.",
+            "Det är också en av huvudorsakerna till att många tycker att <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ inte fungerar</a> som förut. Många säger att den nya versionen är svårare att använda och visar reklam i en app de har betalat för."
+          ],
+          "tips": [
+            "Konto och kod via e-post",
+            "Utloggad utan täckning",
+            "Reklam i en betald app"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: inget konto, ingen inloggning, ingen reklam",
+          "body": [
+            "KiwiCamping har inget att logga in på. Ingen e-post, inget lösenord, ingen kod och inget som kan logga ut dig mitt på West Coast.",
+            "Dina sparade platser, samlingar, nålar och resor synkas i det tysta via iCloud som redan finns på din iPhone. Det finns ingen reklam heller, och KiwiCamping är oberoende: appen visar DOC:s gratis och billiga campingplatser precis bredvid betalda <a data-guide=\"holiday-parks-new-zealand-guide\">semesterparker</a>. Gratis att ladda ner, med köp i appen."
+          ],
+          "tips": [
+            "Inget att logga in på",
+            "Synkar via din iCloud",
+            "Ingen reklam, oberoende"
+          ],
+          "table": {
+            "caption": "Inloggning, sida vid sida.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Konto",
+                "Krävs",
+                "Inget"
+              ],
+              [
+                "Inloggning",
+                "Kod via e-post",
+                "Behövs inte"
+              ],
+              [
+                "Utloggad på campingen",
+                "Användare säger att det händer",
+                "Aldrig: inget att loggas ut från"
+              ],
+              [
+                "Reklam",
+                "Ja, i en betald app",
+                "Ingen"
+              ],
+              [
+                "Dina telefoner i synk",
+                "Via ditt WikiCamps-konto",
+                "Via din iCloud"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Öppna appen så är du på kartan",
+          "body": [
+            "Det finns ingen välkomstskärm att ta sig förbi. Kartan över Nya Zeeland är det första du ser, med campingplatser, stugor och <a data-guide=\"holiday-parks-new-zealand-guide\">semesterparker</a> runt dig.",
+            "Tryck på <a data-guide=\"kiwicamping-filters-guide\">filter</a> så ligger de populära överst: Hundar tillåtna, 4WD-access och Access för husvagn. Välj några, så matchar varje plats som visas alla. Tryck på en plats för avgifter, faciliteter och regler, och lägg sedan till den i din resa.",
+            "Platsinformation, dina sparade platser och dina resor finns alla kvar i telefonen, så de öppnas även <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a>."
+          ],
+          "tips": [
+            "Kartan kommer först",
+            "Hundar tillåtna, 4WD och access för husvagn",
+            "Detaljer öppnas utan signal"
+          ]
+        },
+        {
+          "heading": "Planera tillsammans med din partner, fortfarande utan konto",
+          "body": [
+            "Reser ni två? Tryck på Dela på en resa eller samling och välj Samarbeta. Din partner går med via iCloud, och ni kan båda lägga till och flytta stopp, bocka av dem och redigera anteckningar. Ändringar syns på båda telefonerna inom några sekunder.",
+            "För familjen hemma kan du i stället <a data-guide=\"share-nz-trip-plan-kiwicamping\">dela resan</a> med Skicka kopia: en länk som öppnas i vilken webbläsare som helst, med dina stopp, datum och anteckningar."
+          ],
+          "tips": [
+            "Samarbeta live via iCloud",
+            "Ni kan båda redigera",
+            "Skicka kopia till familjen"
+          ]
+        },
+        {
+          "heading": "Ny telefon? Inget att logga in på",
+          "body": [
+            "Ställ in en ny iPhone med ditt Apple-konto så följer dina resor, <a data-guide=\"save-places-kiwicamping\">samlingar</a> och sparade platser med av sig självt. Inget att komma ihåg, inget att återställa.",
+            "Innan du flyger, installera KiwiCamping på Wi-Fi och spara dina första nätter. Om en av dem är en bokad <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplats</a> eller en Great Walk-stuga, lägg till den i en resa med datum, så att planen är klar när du hämtar husbilen."
+          ],
+          "tips": [
+            "Ny iPhone, samma resor",
+            "Installera på Wi-Fi innan du flyger",
+            "Lägg till bokade nätter först"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kräver WikiCamps ett konto?",
+          "Ja. Den nya versionen av WikiCamps NZ ber dig skapa ett konto och logga in med en kod som skickas till din e-post."
+        ],
+        [
+          "Varför ber WikiCamps mig hela tiden att logga in?",
+          "Den nya versionen är knuten till ett konto, och många användare säger att den loggar ut dem då och då. KiwiCamping har inget konto, så det finns inget att logga in på igen."
+        ],
+        [
+          "Finns det en campingapp för Nya Zeeland utan inloggning?",
+          "Ja. KiwiCamping, som vi gör, har inget konto, ingen inloggning och ingen reklam. Den öppnas direkt på kartan."
+        ],
+        [
+          "Kräver KiwiCamping ett konto?",
+          "Nej. Dina platser och resor synkas via iCloud som redan finns på din iPhone."
+        ],
+        [
+          "Kan min partner och jag dela en resa utan konto?",
+          "Ja. Tryck på Dela på resan och välj Samarbeta. Ni redigerar båda samma resa via iCloud, och ändringar syns inom några sekunder."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: platser att övernatta på"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "does-wikicamps-nz-work-offline": {
+      "title": "Fungerar WikiCamps NZ offline? Camping utan täckning 2027",
+      "description": "Fungerar WikiCamps NZ offline 2027? Delvis, efter en nedladdning och med konto. KiwiCamping har alla DOC-campingplatser, stugor och alla dina resor i telefonen, utan nedladdning.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Mitre Peak reser sig över det stilla vattnet i Milford Sound vid slutet av Milford Road",
+      "intro": "Delvis. WikiCamps Offline Mode sparar kartorna och upp till tre planerade resor i telefonen när du har laddat ner dem, men du behöver fortfarande ett konto, och det kan vara i vägen utan täckning. KiwiCamping har alla DOC-campingplatser, stugor och leder, och alla dina resor, i telefonen från det att du installerar den, utan något att ladda ner och utan inloggning. Vi gör KiwiCamping; så här klarar båda apparna de långa sträckorna utan täckning.",
+      "sections": [
+        {
+          "heading": "Fungerar WikiCamps offline?",
+          "body": [
+            "WikiCamps säger att Offline Mode låter dig använda kartor och upp till tre av dina planerade resor utan täckning. Du laddar ner dem först, medan du fortfarande har uppkoppling.",
+            "Haken är kontot. Många WikiCamps-användare säger att appen loggar ut dem då och då, och <a data-guide=\"wikicamps-nz-account-login\">WikiCamps-inloggningen</a> kräver täckning för att komma in igen. Att fastna på en inloggningsskärm i en dal utan täckning är det sista du vill."
+          ],
+          "tips": [
+            "Ladda ner först",
+            "Upp till tre planerade resor",
+            "Ny inloggning kräver täckning"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: inget att ladda ner, inget att logga in på",
+          "body": [
+            "KiwiCamping har inget konto, så det finns aldrig en inloggningsskärm mellan dig och kvällens campingplats. Öppna appen var som helst så är du inne.",
+            "Alla Nya Zeelands <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, stugor och leder är inbyggda i appen, med avgifter, faciliteter, hundregler och bokningskrav. Det är över 900 DOC-stugor bara där, läsbara på Milford Road eller djupt inne i Catlins utan ett enda streck täckning.",
+            "Dina egna saker stannar också hos dig, även <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a>: gillade och stjärnmärkta platser, samlingar, privata anteckningar och varje resa med stopp, datum och anteckningar."
+          ],
+          "tips": [
+            "Inget konto, ingen inloggningsskärm",
+            "Varje DOC-campingplats, stuga och led",
+            "Alla dina resor, inte bara tre"
+          ],
+          "table": {
+            "caption": "Utan täckning, sida vid sida.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Ladda ner innan du åker",
+                "Ja, i Offline Mode",
+                "Nej, platsinformationen är inbyggd"
+              ],
+              [
+                "Dina planerade resor",
+                "Upp till tre",
+                "Alla"
+              ],
+              [
+                "Konto att logga in på",
+                "Ja",
+                "Inget"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Välj kvällens plats innan täckningen försvinner",
+          "body": [
+            "Några av landets finaste bilturer, som Haast Pass, Milford Road och Catlins, ligger där du oftast tappar täckningen. Det är precis där det lönar sig att ha uppgifterna om varje plats i telefonen.",
+            "Öppna <a data-guide=\"kiwicamping-filters-guide\">filtren</a> och välj det som är viktigt: Hundar tillåtna, 4WD-tillgång eller Husvagnstillgång ligger överst, och en plats måste matcha alla filter du väljer. Lägg till din favorit i resan, plus en reservplan i närheten, så är natten klar."
+          ],
+          "tips": [
+            "Detaljer utan täckning",
+            "Filter som matchar alla dina val",
+            "Spara en reservplan också"
+          ]
+        },
+        {
+          "heading": "Regler för friluftscamping utan täckning",
+          "body": [
+            "DOC:s meddelanden om friluftscamping (freedom camping) i skyddade områden finns i KiwiCamping, så du kan se var camping är förbjuden eller begränsad, även långt från täckning.",
+            "På kommunal mark kommer <a data-guide=\"freedom-camping-rules-new-zealand\">reglerna för friluftscamping</a> från varje kommuns föreskrifter. Läs dem för nästa distrikt medan du fortfarande är i stan, och följ alltid skylten på platsen."
+          ],
+          "tips": [
+            "DOC:s meddelanden inbyggda",
+            "Kommunala föreskrifter: läs dem i stan",
+            "Skylten på platsen gäller"
+          ]
+        },
+        {
+          "heading": "Hela resan i fickan",
+          "body": [
+            "Varje resa har sina stopp i körordning med dina datum och anteckningar, och du kan bocka av stopp längs vägen. Att göra-listan samlar dagens uppgifter på samma ställe.",
+            "Fliken Du fyller i en karta över var du har varit, och övernattningar och körda kilometer växer allteftersom resan går."
+          ],
+          "tips": [
+            "Stopp, datum och anteckningar",
+            "Bocka av stopp längs vägen",
+            "En karta över var du har varit"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Fungerar WikiCamps NZ offline?",
+          "Delvis. Offline Mode sparar kartor och upp till tre planerade resor efter nedladdning, men appen kräver fortfarande ett konto, och ny inloggning kräver täckning."
+        ],
+        [
+          "Vilken campingapp för NZ fungerar utan täckning?",
+          "KiwiCamping har alla DOC-campingplatser, stugor och leder och alla dina resor i telefonen, utan nedladdning och utan inloggning att fastna bakom."
+        ],
+        [
+          "Kan jag kolla reglerna för friluftscamping utan täckning?",
+          "I skyddade områden, ja: KiwiCamping innehåller DOC:s meddelanden om friluftscamping. Kolla kommunala föreskrifter medan du fortfarande är i stan."
+        ],
+        [
+          "Hur många WikiCamps-resor kan jag ha offline?",
+          "Upp till tre, enligt WikiCamps. I KiwiCamping stannar varje resa du gör i telefonen."
+        ],
+        [
+          "Behöver jag ladda ner något för att KiwiCamping ska fungera utan täckning?",
+          "Nej. DOC-campingplatserna, stugorna och lederna följer med appen, och dina sparade platser och resor finns alltid i telefonen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: friluftscamping"
+        },
+        {
+          "label": "DOC: varningar och avstängningar"
+        },
+        {
+          "label": "NZTA Journeys: vägförhållanden och avstängningar"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "Byt från WikiCamps NZ 2027: flytta dina platser och din resa",
+      "description": "Byt från WikiCamps NZ till KiwiCamping på en kväll: lägg till varje sparad plats och resestopp med namn, adress eller nål, och börja med bokade DOC-nätter och färjan.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En Interislander-färja som korsar Cooksundet mellan Nordön och Sydön",
+      "intro": "För att byta från WikiCamps NZ skriver du ner dina sparade platser och din resa och lägger sedan till dem en i taget i KiwiCamping med en snabb sökning. Platser i appen, alla adresser och dina egna nålar fungerar, så de flesta resor flyttas över på en kväll. Vi gör KiwiCamping, och det här är den snabbaste ordningen, med de nätter du inte kan ändra först.",
+      "sections": [
+        {
+          "heading": "Därför byter campare från WikiCamps NZ",
+          "body": [
+            "Många WikiCamps-användare tycker att den nya versionen är jobbig: svårare att använda, snabb med att logga ut dem och full av reklam som de aldrig väntade sig efter att ha betalat. Om <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ inte fungerar</a> för dig längre behöver du inte kämpa vidare med det.",
+            "KiwiCamping öppnar direkt på kartan, utan konto, utan inloggning och utan reklam. Du har DOC:s campingplatser, stugor och leder till hands, <a data-guide=\"kiwicamping-filters-guide\">filter</a> som matchar allt du väljer, och en resa du kan planera tillsammans med din partner."
+          ],
+          "tips": [
+            "Inget konto eller inloggning",
+            "Ingen reklam",
+            "Planera tillsammans med din partner"
+          ]
+        },
+        {
+          "heading": "Steg 1: skriv ner vad du har",
+          "body": [
+            "Öppna WikiCamps en sista gång och ta skärmdumpar av dina favoriter, listor och din resa, eller skriv in namnen i appen Anteckningar. Spara bokningsreferenserna för nätter du redan har betalat.",
+            "Den listan är allt du behöver. Resten sker i KiwiCamping."
+          ],
+          "tips": [
+            "Ta skärmdumpar av listor och resor",
+            "Spara bokningsreferenser"
+          ]
+        },
+        {
+          "heading": "Steg 2: bokade nätter och färjan först",
+          "body": [
+            "Skapa en resa, tryck på Lägg till stopp och sök efter varje bokad <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplats</a> eller Great Walk-stuga. Ge varje stopp sitt ankomstdatum och skriv bokningsreferensen i anteckningen.",
+            "Sedan överfarten över <a data-guide=\"cook-strait-ferry-campervan-guide\">Cooksundet</a>. Lägg till färjeterminalen med dess adress, därefter sista natten före och första natten efter. När de här fasta punkterna är på plats faller resten av resan på plats runt dem."
+          ],
+          "tips": [
+            "Lägg till stopp för varje bokning",
+            "Datum och bokningsanteckningar",
+            "Färjeterminal med adress"
+          ]
+        },
+        {
+          "heading": "Steg 3: alla andra platser, även de som inte finns med i listan",
+          "body": [
+            "Samma sökning under Lägg till stopp hittar platser i appen, alla gatuadresser, din aktuella plats och dina sparade nålar. Har du ett eget favoritställe? Sätt en nål på kartan och tryck på Lägg till i resan.",
+            "Varje stopp visas på rutten med avstånd och körtid, så du ser direkt om en dag blir för lång. Tryck på Start hemma eller Slut hemma för att rama in resan med adressen du sparade på fliken Du."
+          ],
+          "tips": [
+            "Platser, adresser och nålar",
+            "Sätt en nål, lägg till i resan",
+            "Avstånd och körtid för varje stopp"
+          ]
+        },
+        {
+          "heading": "Steg 4: dina favoriter och listor i KiwiCamping",
+          "body": [
+            "Gilla eller stjärnmärk platserna du älskade, och markera de du fortfarande vill se som Vill besöka.",
+            "Dina egna WikiCamps-listor blir egna <a data-guide=\"save-places-kiwicamping\">samlingar</a>, och en per ö fungerar bra. Dina tips om en plats hamnar i dess privata anteckning."
+          ],
+          "tips": [
+            "Gillad, Stjärnmärkt, Vill besöka",
+            "Listor blir samlingar",
+            "Tips hamnar i privata anteckningar"
+          ],
+          "table": {
+            "caption": "Vart dina WikiCamps-saker tar vägen i KiwiCamping.",
+            "head": [
+              "Från WikiCamps NZ",
+              "I KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Favoriter",
+                "Gillad eller Stjärnmärkt"
+              ],
+              [
+                "Platser du planerar att se",
+                "Vill besöka"
+              ],
+              [
+                "Dina egna listor",
+                "Samlingar, en per ö eller resa"
+              ],
+              [
+                "Din resa",
+                "En resa med daterade stopp, från Lägg till stopp"
+              ],
+              [
+                "Ett hemligt ställe",
+                "En nål som lagts till i resan"
+              ],
+              [
+                "Anteckningar om en plats",
+                "En privat anteckning på platsen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Steg 5: nätter med frivilligt campande",
+          "body": [
+            "Kopiera inte bara över gamla ställen för fricamping: kontrollera <a data-guide=\"freedom-camping-rules-new-zealand\">reglerna för fricamping</a> igen. DOC:s meddelanden för skyddad mark finns i KiwiCamping, och kommunala föreskrifter står på varje kommuns webbplats.",
+            "Låt sedan <a data-guide=\"kiwicamping-filters-guide\">filtren</a> hitta något nytt åt dig. Hundar tillåtna, 4WD-åtkomst och Husvagnsåtkomst ligger överst, filtret Kostnad visar DOC:s gratis och billiga campingplatser, och varje plats som visas matchar alla filter du väljer."
+          ],
+          "tips": [
+            "DOC:s meddelanden i appen",
+            "Filter matchar alla dina val",
+            "DOC:s gratis och billiga campingplatser"
+          ]
+        },
+        {
+          "heading": "Ta med din reskamrat",
+          "body": [
+            "Tryck på Dela på resan och välj Samarbeta för att bjuda in din partner via iCloud. Ni kan båda lägga till stopp, ändra ordning, bocka av dem och redigera anteckningar, och ändringar syns på båda telefonerna inom några sekunder.",
+            "Dina egna enheter hålls också synkade via iCloud, utan något att logga in på. KiwiCamping har ingen reklam och är oberoende, och den är gratis att ladda ner, med köp i appen."
+          ],
+          "tips": [
+            "Samarbeta live",
+            "Synkad via iCloud",
+            "Ingen reklam, oberoende"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan jag exportera min resa från WikiCamps?",
+          "Det snabbaste är en lista eller skärmdumpar av din WikiCamps-resa. Lägg sedan till varje stopp i KiwiCamping med Lägg till stopp, som hittar platser, adresser och nålar."
+        ],
+        [
+          "Hur flyttar jag mina sparade campingplatser till en annan app?",
+          "Sök upp varje plats i KiwiCamping och spara den: favoriter blir Gillad eller Stjärnmärkt, och dina listor blir samlingar."
+        ],
+        [
+          "Kan jag lägga till mitt eget ställe i en resa?",
+          "Ja. Sätt en nål och tryck på Lägg till i resan, eller lägg till vilken adress som helst med Lägg till stopp."
+        ],
+        [
+          "Kan min partner och jag planera resan tillsammans?",
+          "Ja. Tryck på Dela på resan och välj Samarbeta. Ni redigerar den båda live via iCloud, utan konto."
+        ],
+        [
+          "Hur lång tid tar det att byta från WikiCamps?",
+          "De flesta resor tar en kväll. Börja med bokade nätter och färjan, och lägg sedan till resten."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: platser att övernatta på"
+        },
+        {
+          "label": "DOC: fricamping"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "Dela din resrutt i Nya Zeeland med familjen (2027)",
+      "description": "Planera din roadtrip i Nya Zeeland live med din partner, skicka familjen en länk som öppnas i vilken webbläsare som helst, eller dela rutten som en bild, allt i KiwiCamping.",
+      "region": "KiwiCamping",
+      "imageAlt": "Cathedral Coves vita klippor och sandstrand på Coromandelhalvön",
+      "intro": "Så delar du en roadtrip-rutt från KiwiCamping: tryck på Dela på din resa. Välj Samarbeta för att planera live med din partner, Skicka kopia för att ge familjen en länk som öppnas i vilken webbläsare som helst, eller Dela som bild för en bild av rutten. Vi gör KiwiCamping, och här är hur var och en fungerar på en resa i Nya Zeeland.",
+      "sections": [
+        {
+          "heading": "Tre sätt att dela en roadtrip-rutt från KiwiCamping",
+          "body": [
+            "Varje alternativ passar en olika person. Din reskamrat får den riktiga resan att redigera, familjen hemma får en länk som bara fungerar, och gruppchatten får en bild som är värd att titta på.",
+            "Inget av dem kräver konto eller inloggning, och Samarbeta går via det iCloud som redan finns på din iPhone."
+          ],
+          "tips": [
+            "Samarbeta för din partner",
+            "Skicka kopia till familjen",
+            "Dela som bild till chatten"
+          ],
+          "table": {
+            "caption": "Vilket sätt att dela.",
+            "head": [
+              "Alternativ",
+              "Bäst för",
+              "Vad mottagaren får"
+            ],
+            "rows": [
+              [
+                "Samarbeta",
+                "Din reskamrat",
+                "Samma resa, live: ni kan båda redigera"
+              ],
+              [
+                "Skicka kopia",
+                "Familj och vänner",
+                "En länk till resan som öppnas i vilken webbläsare som helst"
+              ],
+              [
+                "Dela som bild",
+                "Gruppchattar",
+                "En bild med rutt, stopp, datum och nätter"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Planera tillsammans med Samarbeta",
+          "body": [
+            "Tryck på Dela på en resa, eller på någon av dina <a data-guide=\"save-places-kiwicamping\">samlingar</a>, och välj Samarbeta för att bjuda in din partner via iCloud. Från och med då är det en resa för två.",
+            "Ni kan båda lägga till stopp i <a data-guide=\"plan-trip-kiwicamping\">reseplaneraren</a>, dra dem till en ny ordning, bocka av dem och redigera anteckningarna. Ändringar syns på den andra telefonen inom några sekunder, så den som sitter i passagerarsätet kan planera morgondagen medan den andra kör."
+          ],
+          "tips": [
+            "Bjud in via iCloud",
+            "Båda lägger till, ändrar ordning och bockar av",
+            "Ändringar på några sekunder"
+          ]
+        },
+        {
+          "heading": "Skicka kopia: en länk som familjen kan öppna överallt",
+          "body": [
+            "Skicka kopia skapar en länk som vem som helst kan öppna i en webbläsare, på mobil eller laptop. Den visar resans stopp, datum och anteckningar, så mamma kan se vilken natt ni är i Wānaka.",
+            "Om de har KiwiCamping kan de spara resan bland sina egna resor med ett tryck. Det är också det enkla sättet att titta på din egen plan på en laptop hemma."
+          ],
+          "tips": [
+            "Öppnas i vilken webbläsare som helst",
+            "Stopp, datum och anteckningar",
+            "Spara den med appen"
+          ]
+        },
+        {
+          "heading": "Dela som bild till gruppchatten",
+          "body": [
+            "Dela som bild gör resan till en bild: rutten på kartan, varje stopp, datumen och hur många nätter ni stannar. Lägg den i familjechatten eller posta den innan ni åker.",
+            "Det är det snabbaste sättet att svara på \"så vart ska ni?\" utan ett långt meddelande."
+          ],
+          "tips": [
+            "Rutt, stopp, datum och nätter",
+            "Perfekt för chattar"
+          ]
+        },
+        {
+          "heading": "Skicka en enskild plats",
+          "body": [
+            "När du delar en enskild campingplats, stuga eller <a data-guide=\"holiday-parks-new-zealand-guide\">semesterby</a> skickas dess sida med en bildförhandsgranskning. Den som har KiwiCamping öppnar den direkt i appen, och alla andra får webbsidan.",
+            "Det är perfekt om ni reser med två husbilar: skicka kvällens plats så vet alla var ni ska mötas."
+          ],
+          "tips": [
+            "Bildförhandsgranskning",
+            "Öppnas direkt i appen"
+          ]
+        },
+        {
+          "heading": "Håll familjen uppdaterad",
+          "body": [
+            "Lägg in ett ankomstdatum på varje stopp innan du delar, så att familjen kan följa med dag för dag och se hur långa dina <a data-guide=\"new-zealand-driving-day-planner\">körsdagar</a> är. Skicka en ny kopia efter stora ändringar.",
+            "Berätta också om de tysta sträckorna. En dag <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a> på West Coast eller i Fiordland är normalt, och stopp med datum visar att du bara är mellan två orter. Slå på Synkronisera med kalender för en resa, så hamnar dess stopp och datum också i din kalender.",
+            "På väg upp i bergen? Lämna din rutt och en tid då du senast ska vara tillbaka hos någon du litar på, som Mountain Safety Councils Plan My Walk och AdventureSmart rekommenderar."
+          ],
+          "tips": [
+            "Datum på varje stopp",
+            "Kalendersynkronisering",
+            "Lämna besked före vandringar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hur delar jag min resrutt i Nya Zeeland med familjen?",
+          "Tryck på Dela på din resa i KiwiCamping och välj Skicka kopia. Familjen får en länk som öppnas i vilken webbläsare som helst, med dina stopp, datum och anteckningar."
+        ],
+        [
+          "Kan min partner och jag redigera samma resa?",
+          "Ja. Välj Samarbeta när du delar resan. Ni kan båda lägga till, ändra ordning på och bocka av stopp, och ändringar syns inom några sekunder."
+        ],
+        [
+          "Behöver den jag delar med appen?",
+          "Inte för Skicka kopia: länken öppnas i vilken webbläsare som helst. Med appen kan de spara resan bland sina egna resor."
+        ],
+        [
+          "Behöver jag ett konto för att dela en resa?",
+          "Nej. KiwiCamping har inget konto, och delning går via iCloud."
+        ],
+        [
+          "Kan jag lägga in min resa i min kalender?",
+          "Ja. Slå på Synkronisera med kalender för resan, så visas dess stopp och datum i din kalender."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: outdoor intentions"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "WikiCamps-alternativ för reseplanering i Nya Zeeland (2027)",
+      "description": "Använde du WikiCamps reseplanerare för Nya Zeeland? Planera i KiwiCamping: starta hemifrån eller från valfri adress, lägg till pins, se körtider och planera live med din partner.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En asfalterad landsväg slingrar sig genom tuvbevuxna kullar mot ett bergspass i Otago",
+      "intro": "Om WikiCamps reseplanerare var ditt sätt att lägga upp resan i Nya Zeeland är KiwiCamping ett enklare sätt att planera samma roadtrip. Starta hemifrån eller från valfri adress, lägg till campingplatser, adresser och egna pins som stopp, och se avstånd och körtid för varje etapp, utan konto och utan reklam. Vi gör KiwiCamping, och så fungerar planeringen för en resa i Nya Zeeland.",
+      "sections": [
+        {
+          "heading": "Varför användare av WikiCamps reseplanerare letar efter något annat",
+          "body": [
+            "Sedan den stora uppdateringen av WikiCamps tycker många planerare att appen har blivit krånglig, loggar ut dem i värsta stunden och visar reklam i en app de har betalat för.",
+            "Om du <a data-guide=\"switch-from-wikicamps-nz\">byter från WikiCamps</a> är den goda nyheten att en hel resa kan flyttas över på en kväll."
+          ],
+          "tips": [
+            "Krångligt sedan uppdateringen",
+            "Utloggad i värsta stunden",
+            "Reklam i en betald app"
+          ]
+        },
+        {
+          "heading": "Starta hemma, avsluta hemma",
+          "body": [
+            "Ange din hemadress en gång i fliken Du, så använder <a data-guide=\"plan-trip-kiwicamping\">reseplaneraren</a> den i varje resa. Starta hemma och Avsluta hemma är ett tryck vardera.",
+            "På besök? Vilken adress som helst fungerar som stopp, så starta på flygplatsen, hos biluthyraren eller där du bor första natten."
+          ],
+          "tips": [
+            "Ange Hem en gång",
+            "Start och slut hemma",
+            "Eller starta på flygplatsen"
+          ]
+        },
+        {
+          "heading": "Lägg till vilket stopp som helst i KiwiCamping: platser, adresser och pins",
+          "body": [
+            "Tryck på Lägg till stopp, så hittar en enda sökning Hem, din position, dina sparade pins, platser i appen eller vilken adress som helst. Hittat ett fantastiskt ställe på egen hand? Släpp en pin och tryck på Lägg till i resan.",
+            "Rutten ritas om med kilometer och körtid för varje etapp. Dra stoppen i den ordning du ska köra dem, ge varje stopp ett ankomstdatum och lägg till en anteckning med bokningsreferensen eller grindkoden."
+          ],
+          "tips": [
+            "En sökning för alla sorters stopp",
+            "Pins läggs direkt in",
+            "Avstånd och körtid per etapp"
+          ],
+          "table": {
+            "caption": "Planeringsuppgifter och var de finns i KiwiCampings reseplanerare.",
+            "head": [
+              "Uppgift",
+              "I KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Start och slut",
+                "Starta hemma och Avsluta hemma, eller valfri adress"
+              ],
+              [
+                "Lägga till stopp",
+                "Platser, adresser, din position och pins"
+              ],
+              [
+                "Ordna stoppen",
+                "Dra för att ändra ordning; rutten uppdateras"
+              ],
+              [
+                "Körtider",
+                "Avstånd och körtid för varje stopp"
+              ],
+              [
+                "Datum och anteckningar",
+                "Ett ankomstdatum och en anteckning på varje stopp"
+              ],
+              [
+                "Planera med din partner",
+                "Samarbeta live via iCloud"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Planera runt Nya Zeelands fasta punkter",
+          "body": [
+            "Bokade Great Walk-stugor, <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> som måste bokas på sommaren och färjan över Cook Strait styr formen på de flesta resor. Lägg in dem först och håll allt däremellan flexibelt.",
+            "Titta mer på körtiderna än på kilometerna. Slingriga vägar och bergspass gör <a data-guide=\"new-zealand-driving-day-planner\">körningsdagar</a> i Nya Zeeland långsammare än de ser ut, så dela upp varje etapp som tar hela dagen. Filtren hjälper till att fylla luckorna, med Hundar tillåtna, 4WD-tillgång och Tillgång för husvagn överst."
+          ],
+          "tips": [
+            "Fasta nätter först",
+            "Håll koll på körtiderna",
+            "Filter för luckorna"
+          ]
+        },
+        {
+          "heading": "På vägen med din plan",
+          "body": [
+            "Bocka av stopp längs vägen och kolla vädret vid nästa. Ha shopping, bokningar och färjeincheckning på resans att göra-lista.",
+            "Fliken Du håller räkningen: en karta som fylls i med regionerna du besökt, hur mycket av Nya Zeeland du har sett, körda kilometer, nätter på camping och en nedräkning till nästa resa."
+          ],
+          "tips": [
+            "Bocka av stopp",
+            "Väder och en att göra-lista",
+            "Din reskarta och statistik"
+          ]
+        },
+        {
+          "heading": "Planera tillsammans och kolla på en laptop",
+          "body": [
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Dela resan</a> med Samarbeta, så kan din partner lägga till, ändra ordning på och bocka av stopp tillsammans med dig, live. Skicka kopia ger en länk som öppnas i vilken webbläsare som helst, så att du kan gå igenom planen på en laptop hemma.",
+            "Dela som bild gör en bild av rutten, stoppen, datumen och nätterna till familjechatten. Slå på Synka med kalender, så hamnar resan i din kalender också. KiwiCamping är gratis att ladda ner, med köp i appen."
+          ],
+          "tips": [
+            "Samarbeta live",
+            "Öppna den på en laptop",
+            "Kalendersynk"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vilken är den bästa reseplanerarappen för Nya Zeeland?",
+          "För en camping-roadtrip är det KiwiCamping, som vi gör: starta hemifrån eller från valfri adress, lägg till platser och pins, se körtider och planera live med din partner, utan konto och utan reklam."
+        ],
+        [
+          "Hur planerar jag en husbilsrutt i Nya Zeeland?",
+          "Lägg in de bokade nätterna och färjan först, och fyll sedan på med stopp i körordning. Håll de flesta dagar på tre till fyra timmars körning."
+        ],
+        [
+          "Kan jag exportera min WikiCamps-resa?",
+          "Skriv ner dina WikiCamps-stopp och bygg om rutten i KiwiCamping. En sökning täcker campingplatser, gatuadresser och dina egna pins."
+        ],
+        [
+          "Visar KiwiCamping körtider mellan stopp?",
+          "Ja. Varje etapp av rutten visar hur långt det är och hur lång tid körningen tar."
+        ],
+        [
+          "Kan jag starta en resa från mitt boende eller flygplatsen?",
+          "Ja. Använd Starta hemma med din sparade hemadress, eller lägg till valfri adress, till exempel flygplatsen, som första stopp."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: places to stay"
+        },
+        {
+          "label": "NZTA Journeys: road conditions and closures"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "Great Walks i NZ 2026/27: hyddor, campingplatser, datum för bokning och avgifter",
       "description": "Alla 11 Great Walks sida vid sida: vilka som har campingplatser, vilka som bokas hela året, när bokningarna för 2026/27 öppnade, avgifterna för hyddor och campingplatser för nyzeeländare och besökare, och vad som ändrades den här säsongen.",
@@ -36965,6 +37679,743 @@
         },
         {
           "label": "DOC: Hawke's Bay"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-worth-it": {
+      "title": "Är WikiCamps NZ värt det för en resa till Nya Zeeland 2027?",
+      "description": "Är WikiCamps NZ värt det 2027? Den kostar NZ$7.99, kräver ett konto och visar annonser. Därför byter campare till KiwiCamping: ingen inloggning, inga annonser och alla DOC-campsites på en karta.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En vit husbil parkerad på öppet gräs framför tät bush på West Coast",
+      "intro": "Är WikiCamps NZ värt det 2027? Den kostar bara NZ$7.99, men sedan den stora uppdateringen av WikiCamps behöver du ett konto för att använda den, och appen visar annonser trots att du har betalat. Många användare säger också att den nya versionen är svårare att använda och loggar ut dem gång på gång. Vi gör KiwiCamping, en campingapp för Nya Zeeland utan konto, utan annonser och med alla DOC-campsites, stugor och tracks på en karta. Här är varför det är värt att byta.",
+      "sections": [
+        {
+          "heading": "Är WikiCamps NZ värt det? Det korta svaret",
+          "body": [
+            "WikiCamps NZ är billig, och många använder den fortfarande. Haken är det som kom med den nya versionen: ett konto att logga in på, en kod till din e-post och annonser i en app du redan har köpt.",
+            "Många WikiCamps-användare säger att den loggar ut dem om och om igen, och det är trist när du står parkerad någonstans utan täckning. Om du hellre öppnar en app och bara ser var du kan campa i kväll är KiwiCamping byggd för det."
+          ],
+          "tips": [
+            "Billig, men kräver ett konto",
+            "Annonser i en betald app",
+            "KiwiCamping: ingen inloggning, inga annonser"
+          ],
+          "table": {
+            "caption": "WikiCamps NZ och KiwiCamping sida vid sida.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Pris",
+                "NZ$7.99",
+                "Gratis att ladda ner, med köp i appen"
+              ],
+              [
+                "Konto",
+                "Krävs, med en kod via e-post",
+                "Inget"
+              ],
+              [
+                "Annonser",
+                "Ja",
+                "Inga"
+              ],
+              [
+                "DOC-campsites, stugor och tracks",
+                "Tillagda av användare",
+                "Alla, från DOC"
+              ],
+              [
+                "Välja flera filter",
+                "Användare säger att platser matchar något av dem",
+                "Platser måste matcha alla"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ingen inloggning, inga annonser, rakt till kartan",
+          "body": [
+            "Öppna KiwiCamping så tittar du redan på kartan över Nya Zeeland. Inget konto att skapa, inget lösenord att komma ihåg och ingen kod att vänta på, så inget att fastna bakom på en campsite på West Coast.",
+            "Välj ett filter, tryck på en plats för att se avgifter och faciliteter, och lägg till den i resan. Det är hela rutinen. Det finns inga annonser någonstans, och dina sparade platser och resor synkas privat via det iCloud som redan finns på din iPhone."
+          ],
+          "tips": [
+            "Öppnas på kartan",
+            "Inget att logga in på",
+            "Inga annonser någonstans"
+          ]
+        },
+        {
+          "heading": "Alla DOC-campsites, stugor och tracks",
+          "body": [
+            "KiwiCamping bygger på uppgifterna från Department of Conservation. Varje <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campsite</a>, stuga och track finns på kartan med avgift, hundregler och om du behöver boka, plus en länk till DOC:s sida när du är redo.",
+            "DOC:s besked om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> finns också med, så du ser var camping på skyddad mark är förbjuden innan du svänger in. Runt städer och stränder är det fortfarande kommunens regler och skylten på platsen som avgör."
+          ],
+          "tips": [
+            "DOC-avgifter, hundregler och bokning",
+            "DOC:s besked om freedom camping",
+            "En länk till DOC på varje plats"
+          ]
+        },
+        {
+          "heading": "Filter som hittar rätt plats",
+          "body": [
+            "Hundar tillåtna, 4WD-tillgång och husvagnstillgång ligger överst bland <a data-guide=\"kiwicamping-filters-guide\">filtren</a>. Under dem finns vardagliga saker som husbilar, platser med el, varma duschar, toaletter och vatten.",
+            "Välj flera så måste en plats ha alla. Husbilar, varma duschar och hundar tillåtna tillsammans visar alltså bara platser som uppfyller alla tre. Många WikiCamps-användare säger att filtren där visar platser som matchar något av valen. Sätt kostnaden till Gratis så dyker DOC:s gratis campsites upp."
+          ],
+          "tips": [
+            "Hundar tillåtna, 4WD och husvagnstillgång",
+            "Varje filter måste matcha",
+            "Gratis DOC-campsites via priset"
+          ]
+        },
+        {
+          "heading": "Planera resan på ditt sätt, och tillsammans",
+          "body": [
+            "Ange din hemadress en gång under fliken Du, och tryck sedan Starta hemma eller Avsluta hemma på en resa. Lägg till stopp söker bland dina sparade pins, platser i appen, din aktuella position eller vilken adress som helst, så dina egna favoritställen kommer med. Varje stopp visas på rutten med avstånd och körtid.",
+            "Reser ni två? Tryck på Dela på resan och välj Samarbeta. Ni lägger båda till, ändrar ordning och bockar av stopp, och ändringarna syns hos varandra inom några sekunder, utan konto eller inloggning. För familjen hemma ger Skicka kopia en länk de kan öppna i vilken webbläsare som helst."
+          ],
+          "tips": [
+            "Starta och avsluta hemma",
+            "Lägg till valfri adress eller pin",
+            "Planera live med Samarbeta"
+          ]
+        },
+        {
+          "heading": "Därför byter campare till KiwiCamping",
+          "body": [
+            "Vandring eller Great Walks: DOC:s stugavgifter och bokningskrav finns där, med en länk för att boka. Husbil eller husvagn: <a data-guide=\"kiwicamping-filters-guide\">filtren</a> för husbilar och husvagnstillgång sorterar åt dig. På resa som par: Samarbeta håller en resa på båda telefonerna.",
+            "Längs vägen fyller fliken Du i en karta över var du har varit, visar hur mycket av Nya Zeeland du har sett och räknar dina kilometer, nätter du campat och platser du bott på. KiwiCamping är gratis att ladda ner, med köp i appen, och har inget konto och inga annonser."
+          ],
+          "tips": [
+            "Stugor och Great Walks",
+            "Husbilar och husvagnar",
+            "En karta över var du har varit"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Är WikiCamps NZ värt det 2027?",
+          "Den är billig, NZ$7.99, men den kräver ett konto och visar annonser. Utan inloggning och utan annonser är KiwiCamping gratis att ladda ner, med köp i appen."
+        ],
+        [
+          "Är WikiCamps NZ bra för en husbilsresa?",
+          "Den fungerar, men du måste vara inloggad, och många användare säger att den loggar ut dig. KiwiCamping kräver inget konto och har filter för husbilar och husvagnstillgång."
+        ],
+        [
+          "Behöver jag WikiCamps för Nya Zeeland?",
+          "Nej. KiwiCamping visar alla DOC-campsites, stugor och tracks och DOC:s besked om freedom camping, utan konto."
+        ],
+        [
+          "Vilken är den bästa campingappen för Nya Zeeland?",
+          "Vi tycker KiwiCamping, som vi gör: alla DOC-campsites, stugor och tracks, filter som alla måste matcha, live-delning av resan och inga annonser eller inloggning."
+        ],
+        [
+          "Är KiwiCamping ett bra alternativ till WikiCamps?",
+          "Ja. Den öppnas rakt på kartan utan konto, visar inga annonser och låter dig planera en resa live med din partner."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: platser att bo på"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-vs-kiwicamping": {
+      "title": "WikiCamps NZ vs KiwiCamping: vilken campingapp för Nya Zeeland? (2027)",
+      "description": "WikiCamps NZ vs KiwiCamping 2027: pris, inloggning, annonser, DOC-campingplatser och stugor, filter och att planera en resa tillsammans. Varför KiwiCamping är den enklare appen för en resa i Nya Zeeland.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Rangitīkei River som svänger förbi en camping vid floden vid Vinegar Hill, sedd genom bushen från terrassen ovanför",
+      "intro": "WikiCamps NZ vs KiwiCamping: vilken campingapp ska du ta med runt i Nya Zeeland? KiwiCamping är gratis att ladda ner, behöver inget konto och visar inga annonser, medan WikiCamps NZ kostar NZ$7.99, ber dig logga in och visar annonser. Vi gör KiwiCamping, så här står de två mot varandra i det som spelar roll när du är på vägen.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ vs KiwiCamping i korthet",
+          "body": [
+            "Om du vill ha den korta versionen: KiwiCamping är den du kan öppna och använda direkt. Ingen inloggning, inga annonser, DOC:s egna uppgifter för varje camping, stuga och led, och en resa du kan planera live med din partner.",
+            "WikiCamps ägs av G'day Group, företaget bakom Discovery Parks och G'day Parks. KiwiCamping är oberoende och visar gratis <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> på samma karta som betalda holiday parks."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Så står de två apparna mot varandra där det räknas.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Pris",
+                "NZ$7.99",
+                "Gratis att ladda ner, med köp i appen"
+              ],
+              [
+                "Konto",
+                "Krävs, inloggad med en e-postkod",
+                "Inget, inget att logga in på"
+              ],
+              [
+                "Annonser",
+                "Ja",
+                "Inga"
+              ],
+              [
+                "DOC-campingplatser, stugor och leder",
+                "Tillagda av användare",
+                "Alla, från DOC:s egna uppgifter"
+              ],
+              [
+                "Flera filter samtidigt",
+                "Användare säger att platser matchar något av dem",
+                "Platser måste matcha alla"
+              ],
+              [
+                "Planera med din partner",
+                "Dela en reslänk",
+                "Live, med Collaborate"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Inloggning: ett konto, eller ingenting alls",
+          "body": [
+            "Sedan den stora uppdateringen av WikiCamps behöver du ett WikiCamps-konto och en kod till din e-post för att komma in. Många användare säger att appen sedan loggar ut dem, och att det krävs täckning för att logga in igen, som du kanske inte har på en camping.",
+            "KiwiCamping har helt enkelt inget konto. Inget att logga in på, ingen kod och ingen utloggning, så den öppnas på samma sätt i Haast som i Auckland. Dina sparade platser och resor synkas privat via ditt eget iCloud."
+          ],
+          "tips": [
+            "WikiCamps NZ: konto och e-postkod",
+            "KiwiCamping: inget konto",
+            "Privat iCloud-synk"
+          ]
+        },
+        {
+          "heading": "Lätt att använda: öppna den och du är på kartan",
+          "body": [
+            "Klagomålet som WikiCamps-användare oftast har är att den nya versionen är svårare att använda än den gamla. KiwiCamping håller stegen få med flit, så att appen håller sig undan resan.",
+            "Du öppnar den och kartan över Nya Zeeland finns där. Välj ett filter, till exempel husbilar med varma duschar, tryck på en nål för att läsa avgifter, faciliteter och DOC:s anteckningar, och lägg till den i en resa från samma sida."
+          ],
+          "tips": [
+            "Öppnas på kartan",
+            "Filtrera, tryck, lägg till",
+            "Detaljer ett tryck bort"
+          ]
+        },
+        {
+          "heading": "DOC-campingplatser, stugor och leder, direkt från DOC",
+          "body": [
+            "I KiwiCamping kommer varje <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-camping</a>, stuga och led från Department of Conservation:s egna uppgifter. Var och en visar avgiften, om den är öppen, om hundar är tillåtna, om du måste boka och eventuella aktuella varningar, med en länk till sidan på DOC:s webbplats.",
+            "DOC:s besked om <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> ligger på samma karta och visar var camping på conservation land är förbjuden eller begränsad. I WikiCamps NZ är DOC-platser tillagda av användare, så en avgift eller en stängning ändras bara när någon uppdaterar den."
+          ],
+          "tips": [
+            "DOC:s avgifter, hundregler och varningar",
+            "DOC:s besked om freedom camping",
+            "En länk till DOC på varje plats"
+          ]
+        },
+        {
+          "heading": "Filter: hundar tillåtna, 4WD-tillgång och husvagnstillgång",
+          "body": [
+            "De tre filter campare frågar efter mest ligger överst i KiwiCampings filter. Under dem finns endast till fots, bilar, spoltoaletter, behandlat kranvatten, <a data-guide=\"campfire-rules-new-zealand\">lägereldar</a> tillåtna och rullstolsanpassat, plus kostnad.",
+            "Välj flera och en plats måste ha alla. Användare av WikiCamps NZ säger att flera <a data-guide=\"kiwicamping-filters-guide\">filter</a> där visar platser med något av dem, vilket ger en längre lista att gå igenom."
+          ],
+          "tips": [
+            "De tre översta filtren först",
+            "Alla val måste matcha",
+            "Kostnadsfilter för gratis DOC-platser"
+          ]
+        },
+        {
+          "heading": "Reseplanering med Hem, valfri adress och egna nålar",
+          "body": [
+            "Ställ in ditt hem en gång i fliken Du, och starta eller avsluta sedan valfri resa där med ett tryck. Lägg till stopp hittar platser i appen, dina sparade nålar, din aktuella plats eller valfri gatuadress, så att vännens ställe i Nelson och stranden från förra sommaren båda får plats. Varje stopp visar avstånd och körtid.",
+            "Släpp en nål på kartan, tryck på Lägg till i resan, och den följer med rutten som vilket annat stopp som helst. Varje stopp har också egna datum, anteckningar och väder."
+          ],
+          "tips": [
+            "Start och mål vid Hem",
+            "Valfri adress eller en släppt nål",
+            "Avstånd och körtid per stopp"
+          ]
+        },
+        {
+          "heading": "Delning: planera tillsammans live, eller skicka en kopia",
+          "body": [
+            "Tryck på Dela på en resa eller en samling och välj Collaborate för att bjuda in din partner via iCloud. Ni lägger båda till stopp, ändrar ordningen, bockar av dem och redigerar anteckningar, och ändringarna syns inom några sekunder, utan konto och utan inloggning.",
+            "Send copy skapar en länk som vem som helst kan öppna i en webbläsare för att se stopp, datum och anteckningar, vilket passar familjen där hemma. Share as image gör resan till en bild med rutten, stoppen och nätterna, och en delad plats öppnas direkt i appen för vänner som har den."
+          ],
+          "tips": [
+            "Collaborate: en resa, båda telefonerna",
+            "Send copy öppnas i valfri webbläsare",
+            "Share as image"
+          ]
+        },
+        {
+          "heading": "Därför väljer de som byter KiwiCamping",
+          "body": [
+            "Det är det lugnare sättet att campa i Nya Zeeland: öppna den, hitta en plats, åk. Inga annonser, inget konto, DOC:s egna uppgifter, och en resa som ni två kan planera samtidigt.",
+            "Fliken Du lägger också till lite kul, med en karta som fylls i med regionerna du har besökt och en nedräkning till nästa resa. KiwiCamping är gratis att ladda ner, med köp i appen, och vår bedömning av <a data-guide=\"is-wikicamps-nz-worth-it\">om WikiCamps NZ är värt det</a> tar prisfrågan mer i detalj."
+          ],
+          "tips": [
+            "Inga annonser, inget konto",
+            "DOC:s egna uppgifter",
+            "Planera tillsammans live"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Är KiwiCamping bättre än WikiCamps NZ?",
+          "För de flesta resor i Nya Zeeland tycker vi det: inget konto, inga annonser, DOC:s egna uppgifter om campingplatser och stugor, och live-delning av resan med din partner."
+        ],
+        [
+          "Behöver KiwiCamping ett konto?",
+          "Nej. Det finns inget konto, lösenord eller kod, och ditt eget iCloud sköter synken."
+        ],
+        [
+          "Visar KiwiCamping DOC-campingplatser och stugor?",
+          "Ja. Varje DOC-camping, stuga och led finns på kartan, med DOC:s avgifter, hundregler och bokningsbehov."
+        ],
+        [
+          "Kan min partner och jag planera en resa tillsammans i KiwiCamping?",
+          "Ja. Dela resan och välj Collaborate. Ni redigerar båda samma resa och ser varandras ändringar inom några sekunder."
+        ],
+        [
+          "Fungerar KiwiCamping utan täckning?",
+          "Uppgifter om platsen, avgifter och faciliteter, plus dina sparade platser och resor, stannar på telefonen, så du kan läsa dem utan täckning."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: platser att bo på"
+        },
+        {
+          "label": "DOC: freedom camping på conservation land"
+        },
+        {
+          "label": "DOC: bokning online"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "Är WikiCamps NZ gratis? Pris, konto och reklam 2027",
+      "description": "Är WikiCamps NZ gratis 2027? Nej: den kostar NZ$7.99 som engångsköp, kräver konto och visar reklam. Vad du betalar, och en campingapp för Nya Zeeland som är gratis att ladda ner, utan inloggning och utan reklam.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En liten hyrd husbil målad med lila blommor, parkerad vid vattnet i Akaroa",
+      "intro": "Är WikiCamps NZ gratis? Nej. WikiCamps NZ kostar NZ$7.99 som engångsköp, utan prenumeration. Utöver priset behöver du ett WikiCamps-konto, appen visar reklam, och WikiCamps säljer Australien som en separat app. Vi gör KiwiCamping, en campingapp för Nya Zeeland som är gratis att ladda ner, har köp i appen och varken reklam eller inloggning. Här är vad WikiCamps NZ kostar och vad som ingår.",
+      "sections": [
+        {
+          "heading": "Vad WikiCamps NZ kostar",
+          "body": [
+            "WikiCamps NZ kostar NZ$7.99, betalt en gång, och WikiCamps säger att det inte finns några prenumerationer eller dolda avgifter. Priset gäller per plattform, så byter du till en annan sorts telefon måste du köpa appen igen.",
+            "Varje land är en egen app. Planerar du en resa som börjar i Sydney och slutar i Christchurch måste du även köpa WikiCamps Australia och hålla reda på två appar med två uppsättningar sparade platser."
+          ],
+          "tips": [
+            "NZ$7.99 en gång",
+            "Ingen prenumeration",
+            "Varje land är en separat app"
+          ],
+          "table": {
+            "caption": "Vad varje app kräver av dig.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "För att få appen",
+                "NZ$7.99",
+                "Gratis att ladda ner, med köp i appen"
+              ],
+              [
+                "Konto",
+                "Krävs, med kod via e-post",
+                "Inget"
+              ],
+              [
+                "Reklam",
+                "Ja",
+                "Ingen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Reklam i en app du har betalat för",
+          "body": [
+            "Många WikiCamps-användare säger att de är missnöjda med att se reklam i en app de har betalat för. Det är ett av de vanligaste klagomålen sedan WikiCamps stora uppdatering.",
+            "KiwiCamping har ingen reklam alls: inte på kartan, inte på en platssida, inte i dina resor. Appen är också oberoende av alla semesterbykedjor, och gratis <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> visas på samma karta som semesterbyar mot betalning."
+          ],
+          "tips": [
+            "WikiCamps NZ visar reklam",
+            "KiwiCamping: ingen",
+            "Oberoende"
+          ]
+        },
+        {
+          "heading": "Ett konto följer med köpet",
+          "body": [
+            "WikiCamps NZ kräver ett WikiCamps-konto, och du loggar in med en kod som skickas till din e-post. Många användare säger att appen loggar ut dem, och att det krävs täckning för att logga in igen.",
+            "KiwiCamping har inget att logga in på. Du laddar ner den, öppnar den och ser kartan, utan e-post, lösenord eller kod. En ny iPhone hämtar dina sparade platser och resor via iCloud."
+          ],
+          "tips": [
+            "WikiCamps NZ: konto och e-postkod",
+            "KiwiCamping: öppna och kör",
+            "Dina resor följer med via iCloud"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: gratis att ladda ner, utan inloggning",
+          "body": [
+            "KiwiCamping samlar alla DOC-campingplatser, stugor och leder på en karta, med avgift, hundregler och bokningskrav så som DOC anger dem, plus DOC:s meddelanden om <a data-guide=\"freedom-camping-new-zealand-guide\">frilevande camping</a> på skyddad natur. Platsuppgifterna ligger kvar på telefonen, så du kan läsa dem utan täckning.",
+            "Den är snabb att använda. Öppna appen, välj ett filter som Hundar tillåtna eller Tillgång för husvagn, tryck på en nål för detaljerna och lägg till platsen i en resa som visar avstånd och körtid mellan stoppen."
+          ],
+          "tips": [
+            "Alla DOC-campingplatser, stugor och leder",
+            "Inget konto, ingen reklam",
+            "Detaljer läsbara utan täckning"
+          ]
+        },
+        {
+          "heading": "Hitta gratis campingplatser på Nya Zeeland",
+          "body": [
+            "Många som letar efter en gratis app är egentligen ute efter gratis övernattningar. Ställ in filtret Kostnad på Gratis i KiwiCamping så visas DOC:s gratis campingplatser. Lägg till Toaletter, Vattentillgång eller Husbilar, så måste en plats uppfylla alla villkor du väljer.",
+            "Gratis DOC-campingplatser är oftast enkla, ofta med utedass och bäck- eller tankvatten, och vissa ligger en kort promenad från vägen. Frilevande camping i städer och byar är en separat fråga, som vår guide till <a data-guide=\"freedom-camping-rules-new-zealand\">reglerna för frilevande camping</a> förklarar."
+          ],
+          "tips": [
+            "Kostnadsfilter: gratis DOC-campingplatser",
+            "Varje filter måste stämma",
+            "Gratis platser är oftast enkla"
+          ]
+        },
+        {
+          "heading": "Mer än en lista över campingplatser",
+          "body": [
+            "Lägg till din hemadress en gång i fliken Du, så kan varje resa börja och sluta där. Lägg till stopp tar vilken adress som helst eller en nål du har satt, och Samarbeta låter dig och din partner planera samma resa live, utan konto.",
+            "Fliken Du sparar också en karta över var du har varit, hur stor del av Nya Zeeland du har sett, samt dina kilometer och campingnätter, vilket blir ett fint minne av resan."
+          ],
+          "tips": [
+            "Hem med ett tryck",
+            "Vilken adress eller nål som helst",
+            "En karta över var du har varit"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Är WikiCamps NZ gratis?",
+          "Nej. Den kostar NZ$7.99 en gång, utan prenumeration. Den kräver också ett konto och visar reklam."
+        ],
+        [
+          "Vad kostar WikiCamps på Nya Zeeland?",
+          "WikiCamps NZ kostar NZ$7.99. WikiCamps Australia är en separat app som du köper för sig."
+        ],
+        [
+          "Är WikiCamps en prenumeration?",
+          "Nej. WikiCamps säger att det är ett engångsköp utan prenumerationer eller dolda avgifter."
+        ],
+        [
+          "Täcker ett WikiCamps-köp både Australien och Nya Zeeland?",
+          "Nej. WikiCamps NZ och WikiCamps Australia är separata appar, som köps var för sig."
+        ],
+        [
+          "Finns det en gratis campingapp för Nya Zeeland?",
+          "KiwiCamping är gratis att ladda ner, har köp i appen och varken reklam eller inloggning. Kostnadsfiltret hittar DOC:s gratis campingplatser."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: campingplatskategorier och avgifter"
+        },
+        {
+          "label": "DOC: frilevande camping på skyddad natur"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-vs-wikicamps-nz": {
+      "title": "CamperMate vs WikiCamps NZ 2027, och ett tredje alternativ",
+      "description": "CamperMate eller WikiCamps för Nya Zeeland 2027? Så skiljer sig de två i pris, annonser och inloggning, och varför KiwiCamping, utan inloggning och annonser, är det tredje alternativet som campare väljer.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Fyra husbilar parkerade på rad på en grusplan ovanför havet vid Tautuku Bay i Catlins",
+      "intro": "CamperMate vs WikiCamps NZ handlar om pris och inloggning: CamperMate är gratis, medan WikiCamps NZ kostar NZ$7.99 en gång och kräver ett konto, och båda visar annonser. Vi gör KiwiCamping, det tredje alternativet utan annonser och inloggning, byggt kring DOC:s campingplatser, stugor och leder, och den app vi tror gör en Nya Zeeland-resa enklast.",
+      "sections": [
+        {
+          "heading": "CamperMate vs WikiCamps i korthet",
+          "body": [
+            "Många husbilsresenärer väger de två mot varandra innan de landar. CamperMate kostar ingenting, medan WikiCamps NZ är en betald app som ber om ett konto och en kod via e-post.",
+            "Det de har gemensamt är annonser. Vill du ha en <a data-guide=\"best-nz-camping-apps\">camping-app</a> utan både annonser och inloggning är det här KiwiCamping kommer in."
+          ],
+          "tips": [
+            "CamperMate: gratis",
+            "WikiCamps NZ: NZ$7.99 och ett konto",
+            "Båda visar annonser"
+          ],
+          "table": {
+            "caption": "CamperMate, WikiCamps NZ och KiwiCamping jämförda.",
+            "head": [
+              "",
+              "CamperMate",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Pris",
+                "Gratis",
+                "NZ$7.99",
+                "Gratis att ladda ned, med köp i appen"
+              ],
+              [
+                "Annonser",
+                "Ja",
+                "Ja",
+                "Inga"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "CamperMate i korthet",
+          "body": [
+            "CamperMate är en gratis app som listar campingplatser och tjänster i hela landet, med bokningar av <a data-guide=\"holiday-parks-new-zealand-guide\">semesterbyar</a> och lokala erbjudanden, och den visar annonser.",
+            "Vissa CamperMate-användare säger att den nya designen gjorde appen långsammare och att ställen de litade på försvann. Om det har hänt dig är en renare app värd ett försök."
+          ],
+          "tips": [
+            "Gratis, med annonser",
+            "Bokningar och erbjudanden",
+            "Vissa användare ogillar den nya designen"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ i korthet",
+          "body": [
+            "WikiCamps NZ kostar NZ$7.99 en gång, utan prenumeration. Sedan WikiCamps stora uppdatering behöver du ett konto och en e-postkod för att använda den, och appen visar annonser.",
+            "Många användare säger att den nya versionen är krångligare än den gamla och loggar ut dem, vilket är svårast att leva med på en campingplats utan täckning. Vår genomgång av <a data-guide=\"is-wikicamps-nz-free\">vad WikiCamps NZ kostar</a> går in på priset."
+          ],
+          "tips": [
+            "NZ$7.99 en gång",
+            "Konto och e-postkod",
+            "Annonser i en betald app"
+          ]
+        },
+        {
+          "heading": "Det tredje alternativet: KiwiCamping",
+          "body": [
+            "KiwiCamping öppnas direkt på kartan, utan konto att skapa och utan annonser att scrolla förbi. Varje DOC-campingplats, stuga och led finns med, med DOC:s avgift, hundregler och bokningskrav, och DOC:s meddelanden om <a data-guide=\"freedom-camping-new-zealand-guide\">frikamping</a> visar var naturskyddad mark är förbjuden.",
+            "<a data-guide=\"kiwicamping-filters-guide\">Filter</a> gör det tunga jobbet. Hundar tillåtna, 4WD-åtkomst och Husvagnsåtkomst ligger överst, och när du väljer flera måste ett ställe uppfylla alla. Tryck på en knappnål för detaljerna och lägg till stället i din resa."
+          ],
+          "tips": [
+            "Inget konto, inga annonser",
+            "Varje DOC-campingplats, stuga och led",
+            "Filter som alla måste stämma"
+          ]
+        },
+        {
+          "heading": "Planera en husbilsresa i KiwiCamping",
+          "body": [
+            "Ange din hemadress en gång och starta eller avsluta vilken resa som helst där med ett tryck. Lägg till stopp hämtar platser i appen, vilken adress som helst eller en knappnål du har satt, och varje stopp visar avstånd och körtid på rutten.",
+            "Är ni två i bilen? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Dela resan</a> och välj Samarbeta, så kan ni båda lägga till och ändra ordning på stopp, med ändringar som dyker upp inom några sekunder och utan inloggning. Skicka kopia ger familjen en länk för att följa din rutt i vilken webbläsare som helst."
+          ],
+          "tips": [
+            "Hem, adresser och knappnålar",
+            "Avstånd och körtid",
+            "Planera tillsammans med Samarbeta"
+          ]
+        },
+        {
+          "heading": "Därför lägger campare till KiwiCamping i resan",
+          "body": [
+            "För DOC-campingplatser och stugor på Great Walks visar KiwiCamping DOC:s egna uppgifter och länkar till DOC för bokning. För <a data-guide=\"freedom-camping-new-zealand-guide\">frikamping</a> ligger DOC:s meddelanden på kartan bredvid campingplatserna, så du ser vad som är förbjudet innan du kör dit.",
+            "Och appen för logg åt dig. Fliken Du fyller i en karta över regionerna du har besökt och räknar dina kilometer och campingnätter. KiwiCamping är gratis att ladda ned, med köp i appen."
+          ],
+          "tips": [
+            "DOC-campingplatser och stugor",
+            "DOC:s meddelanden om frikamping",
+            "En logg över din resa"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Är CamperMate eller WikiCamps bäst för Nya Zeeland?",
+          "CamperMate är gratis; WikiCamps NZ kostar NZ$7.99 och kräver ett konto. Båda visar annonser. Vill du ha inga annonser och ingen inloggning, prova KiwiCamping."
+        ],
+        [
+          "Är CamperMate gratis?",
+          "Ja. CamperMate är gratis att använda, och den visar annonser."
+        ],
+        [
+          "Vilken camping-app har inga annonser på Nya Zeeland?",
+          "KiwiCamping har inga annonser och ingen inloggning. Den är gratis att ladda ned, med köp i appen."
+        ],
+        [
+          "Vilken app använder de flesta husbilsresenärer i NZ?",
+          "Många använder CamperMate eller WikiCamps NZ. KiwiCamping är appen med DOC:s egna uppgifter om campingplatser, utan annonser och utan konto."
+        ],
+        [
+          "Vilken app visar DOC-campingplatser?",
+          "KiwiCamping visar varje DOC-campingplats, stuga och led utifrån DOC:s egen information, med avgifter, hundregler och bokningskrav."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: places to stay"
+        },
+        {
+          "label": "DOC: online bookings"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-huts-campsites-app-wikicamps-kiwicamping": {
+      "title": "DOC-app för Nya Zeeland: stugor och campingplatser, WikiCamps vs KiwiCamping (2027)",
+      "description": "Letar du efter en DOC-app för Nya Zeeland med stugor, leder och campingplatser 2027? Så visar KiwiCamping alla DOC-stugor och campingplatser med avgifter, bokning och hundregler utan inloggning, jämfört med WikiCamps NZ.",
+      "region": "Nya Zeeland",
+      "imageAlt": "En DOC-stuga i trä med en bred övertäckt veranda på Rakiura Track, Stewart Island",
+      "intro": "Letar du efter en DOC-app för Nya Zeeland med stugor och campingplatser? KiwiCamping samlar alla DOC-stugor, campingplatser och leder på en karta, med DOC:s avgifter, hundregler och bokningskrav och en direktlänk till DOC när du vill boka. Det finns inget konto och ingen reklam. Vi gör KiwiCamping, och här ser du hur appen hjälper dig att planera stugor, leder och campingplatser och hur den står sig mot WikiCamps NZ.",
+      "sections": [
+        {
+          "heading": "Vad en bra DOC-app visar dig",
+          "body": [
+            "DOC delar in stugor och campingplatser i kategorier, och kategorin säger det mesta om vad du kan vänta dig när du kommer fram. En bra app visar den tydligt, tillsammans med avgiften per natt, om du måste boka eller bara kan dyka upp, om hundar är tillåtna och eventuella aktuella varningar.",
+            "Det är precis vad du ser på varje DOC-plats i KiwiCamping, hämtat från DOC:s egen information, så att du kan välja stuga innan du reser hemifrån och kontrollera igen vid vägens slut."
+          ],
+          "tips": [
+            "Kategori, avgift och bokning",
+            "Hundregler och varningar",
+            "Direkt från DOC"
+          ],
+          "table": {
+            "caption": "DOC:s stugkategorier i korthet.",
+            "head": [
+              "Stugkategori",
+              "Vad du kan vänta dig"
+            ],
+            "rows": [
+              [
+                "Great Walk-stuga",
+                "Boka i förväg under Great Walks-säsongen"
+              ],
+              [
+                "Servicestuga",
+                "Vanligen madrasser, vatten, toaletter och värme"
+              ],
+              [
+                "Standardstuga",
+                "Vanligen madrasser, vatten och en toalett"
+              ],
+              [
+                "Enkel stuga eller bivack",
+                "Ett enkelt skydd för erfarna vandrare"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "DOC-stugor, campingplatser och leder i KiwiCamping",
+          "body": [
+            "Varje <a data-guide=\"doc-huts-new-zealand-guide\">DOC-stuga</a> visar om den är öppen, antal bäddar, avgift och bekvämligheter, med en länk till stugan på DOC:s webbplats. Varje DOC-led visar sträcka, gångtid, svårighetsgrad och en höjdprofil, så att du kan bedöma stigningen innan du bestämmer dig.",
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a> visar avgiften, hundregler och om du måste boka. Stugor och campingplatser som går att boka länkar vidare till DOC, där du gör bokningen."
+          ],
+          "tips": [
+            "Stugstatus, bäddar och avgifter",
+            "Ledens sträcka, tid och svårighetsgrad",
+            "Boka via DOC:s länk"
+          ]
+        },
+        {
+          "heading": "Hur WikiCamps NZ hanterar DOC-platser",
+          "body": [
+            "I WikiCamps NZ läggs <a data-guide=\"doc-huts-new-zealand-guide\">DOC-stugor</a> och campingplatser in av användarna tillsammans med allt annat, så en avgift eller en stängning ändras först när någon uppdaterar den.",
+            "Sedan WikiCamps stora uppdatering kräver appen också ett konto med e-postkod, och den visar reklam. Många användare säger att den hela tiden loggar ut dem, vilket är det sista du vill vid en vägände utan täckning. Vår jämförelse <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ vs KiwiCamping</a> tar upp resten."
+          ],
+          "tips": [
+            "Inlagda av användare",
+            "Konto och e-postkod",
+            "Reklam"
+          ]
+        },
+        {
+          "heading": "Från kartan till en stuga med några tryck",
+          "body": [
+            "Öppna KiwiCamping så ligger kartan direkt där, utan något att logga in på. Lägg till <a data-guide=\"kiwicamping-filters-guide\">filter</a> som Endast till fots, Vattentillgång eller Hundar tillåtna, så blir bara de platser som uppfyller alla kvar på kartan.",
+            "Tryck på en stuga för att se bäddar, avgift och DOC-länk, och spara den sedan i en samling för leden eller lägg till den i din resa."
+          ],
+          "tips": [
+            "Ingen inloggning",
+            "Filtren Endast till fots och Vattentillgång",
+            "Spara eller lägg till med ett tryck"
+          ]
+        },
+        {
+          "heading": "Planera en stug- eller Great Walk-tur",
+          "body": [
+            "Spara stugorna du överväger i en samling för varje led. När planen börjar sätta sig lägger du till campingplatserna vid vägens slut i en resa som börjar vid Hem, och varje etapp visar avstånd och körtid.",
+            "Ska du vandra med en vän? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Dela resan</a> och välj Samarbeta så ser ni båda samma plan live. Skicka kopia ger någon hemma en länk till din rutt i vilken webbläsare som helst, vilket passar bra ihop med att lämna besked om din färdplan innan du ger dig av. Boka sedan stugorna hos DOC i god tid, eftersom de populära snabbt blir fullbokade på sommaren."
+          ],
+          "tips": [
+            "En samling per led",
+            "Starta resan vid Hem",
+            "Samarbeta med din vandringskamrat"
+          ]
+        },
+        {
+          "heading": "På leden utan täckning",
+          "body": [
+            "Uppgifter om stugor och campingplatser finns kvar på din telefon, tillsammans med dina sparade platser och din resa, så antalet bäddar, avgiften och DOC:s anteckningar finns där, djupt inne i en dal <a data-guide=\"kiwicamping-offline-data-guide\">utan täckning</a>.",
+            "På varje avlägsen vandring bör du ha med en topografisk papperskarta och en personlig nödpejlsändare (PLB), kolla vädret och DOC:s varningar på sista platsen med täckning och tala om för någon vart du ska."
+          ],
+          "tips": [
+            "Stuginformation utan täckning",
+            "Papperskarta och nödpejlsändare",
+            "Lämna besked om din färdplan"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Finns det en DOC-app för stugor?",
+          "DOC tar emot bokningar på sin webbplats. KiwiCamping visar varje DOC-stuga med avgift, bäddar och bokningskrav och länkar till DOC för bokning."
+        ],
+        [
+          "Vilken app visar DOC-campingplatser på Nya Zeeland?",
+          "KiwiCamping visar varje DOC-campingplats utifrån DOC:s egen information, med avgifter, hundregler och bokningskrav, och utan inloggning."
+        ],
+        [
+          "Visar KiwiCamping information om DOC-leder?",
+          "Ja. Varje DOC-led visar sträcka, gångtid, svårighetsgrad och en höjdprofil, med en länk till DOC."
+        ],
+        [
+          "Kan jag se stuginformation utan täckning?",
+          "Ja. Uppgifter om stugor och campingplatser, dina sparade platser och dina resor finns kvar på din telefon."
+        ],
+        [
+          "Hur många DOC-stugor finns det på Nya Zeeland?",
+          "KiwiCamping visar över 900 DOC-stugor. DOC:s egen webbplats anger den officiella totalsiffran."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: onlinebokning"
+        },
+        {
+          "label": "DOC: boka och betala stugor"
+        },
+        {
+          "label": "DOC: boka och betala campingplatser"
+        },
+        {
+          "label": "DOC: jämför Great Walks"
         }
       ],
       "priceTable": null
