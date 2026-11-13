@@ -83,11 +83,11 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "freedom-camping-marlborough-2026", section: 6, src: "/images/screens/freedom-camping-marlborough-2026.webp", alt: "KiwiCamping on iPhone: a Picton to Christchurch route on a map above a seven-day forecast for Picton and Marlborough" },
   { slug: "freedom-camping-rotorua-2026", section: 7, src: "/images/screens/freedom-camping-rotorua-2026.webp", alt: "KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button" },
   { slug: "hipcamp-alternatives", section: 1, src: "/images/screens/hipcamp-alternatives.webp", alt: "KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops" },
-  { slug: "wikicamps-nz-account-login", section: 3, src: "/images/screens/wikicamps-nz-account-login.webp", alt: "KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen" },
-  { slug: "does-wikicamps-nz-work-offline", section: 2, src: "/images/screens/does-wikicamps-nz-work-offline.webp", alt: "KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app" },
-  { slug: "switch-from-wikicamps-nz", section: 6, src: "/images/screens/switch-from-wikicamps-nz.webp", alt: "KiwiCamping on iPhone: a Want to Visit collection of saved places" },
+  { slug: "wikicamps-nz-account-login", section: 1, src: "/images/screens/wikicamps-nz-account-login.webp", alt: "KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen" },
+  { slug: "does-wikicamps-nz-work-offline", section: 1, src: "/images/screens/does-wikicamps-nz-work-offline.webp", alt: "KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app" },
+  { slug: "switch-from-wikicamps-nz", section: 4, src: "/images/screens/switch-from-wikicamps-nz.webp", alt: "KiwiCamping on iPhone: a Want to Visit collection of saved places" },
   { slug: "share-nz-trip-plan-kiwicamping", section: 0, src: "/images/screens/share-nz-trip-plan-kiwicamping.webp", alt: "KiwiCamping on iPhone: a trip itinerary of ordered stops with the distance and drive time between them" },
-  { slug: "wikicamps-nz-trip-planner-alternative", section: 1, src: "/images/screens/wikicamps-nz-trip-planner-alternative.webp", alt: "KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time between each pair" },
+  { slug: "wikicamps-nz-trip-planner-alternative", section: 2, src: "/images/screens/wikicamps-nz-trip-planner-alternative.webp", alt: "KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time between each pair" },
 ];
 
 const images = manifest as Record<string, unknown>;

@@ -28213,65 +28213,37 @@
       "priceTable": null
     },
     "wikicamps-nz-account-login": {
-      "title": "WikiCamps Login: Does WikiCamps NZ Need an Account?",
-      "description": "Since August 2025, WikiCamps NZ needs an account and an emailed code. What that means on a NZ road trip, and how KiwiCamping works with no login at all.",
+      "title": "WikiCamps Login: Does WikiCamps NZ Need an Account in 2027?",
+      "description": "WikiCamps NZ needs an account and an emailed code to sign in. Why that's a pain on a NZ road trip, and how KiwiCamping works with no login at all.",
       "region": "New Zealand",
       "imageAlt": "A white campervan parked alone in a grassy clearing below native bush on the West Coast",
-      "intro": "Yes. As of November 2026, the WikiCamps login is part of every WikiCamps NZ install: version 6 of the app, which reached New Zealand on 4 August 2025, needs a WikiCamps account, confirmed with a code sent to your email. If you would rather not sign in to anything while you travel, KiwiCamping opens straight to the map with no account, no password and no code. We make KiwiCamping, so this page makes our case, with WikiCamps' side taken from its own listing and help pages.",
+      "intro": "Yes. Since WikiCamps' big update, WikiCamps NZ needs an account, and you sign in with a code sent to your email. KiwiCamping skips all of that: there is no account, so you open the app and you're straight on the map. We make KiwiCamping, and here's what having no login means on a New Zealand road trip.",
       "sections": [
         {
-          "heading": "What changed with the WikiCamps NZ login",
+          "heading": "Why the WikiCamps login gets in the way",
           "body": [
-            "Until August 2025, WikiCamps New Zealand was still on version 5 (5.9.3, from September 2024). Version 6.0.9 arrived on the New Zealand App Store on 4 August 2025, almost a year after the same rebuild reached Australia, and it brought the account with it. Signing in now uses an email address and a verification code rather than a password you remember.",
-            "WikiCamps presents the account as a benefit: its website says you can log in with the same account on several devices. Its help centre has a whole section on login and syncing issues, and as of November 2026 its articles say the codes come from a Microsoft authentication service, can take 10 to 15 minutes to arrive, and cannot be sent manually by its team."
+            "Lots of WikiCamps users say the new version keeps logging them out, and getting back in means waiting for an emailed code. That's no fun at a campsite with no signal.",
+            "It's also one of the main reasons people find <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ not working</a> the way it used to. Many say the new version is harder to use, and that it shows ads in an app they paid for."
           ],
           "tips": [
-            "Account needed since 4 August 2025",
-            "Sign-in by emailed code",
-            "Codes can take 10 to 15 minutes"
+            "Account and emailed code",
+            "Logged out with no signal",
+            "Ads in a paid app"
           ]
         },
         {
-          "heading": "Why a sign-in matters more on a New Zealand road trip",
+          "heading": "KiwiCamping: no account, no login, no ads",
           "body": [
-            "Most people using a <a data-guide=\"best-nz-camping-apps\">camping app</a> in New Zealand are on the move, and many are visitors. A new eSIM or travel SIM, a phone that only gets email on Wi-Fi, or a roaming plan you are rationing all make an emailed code slower to deal with than it would be at home.",
-            "Then there is the road itself. Long stretches of road on the West Coast, in Fiordland and in the Catlins have little or no mobile coverage, and that is where people tend to open a camping app, looking for tonight's spot. Any app that wants to talk to a server before it shows you a campsite is a gamble out there. An app with nothing to sign in to removes one thing that can go wrong."
+            "KiwiCamping has nothing to sign into. No email, no password, no code, and nothing that can log you out halfway down the West Coast.",
+            "Your saved places, collections, pins and trips sync quietly through the iCloud already on your iPhone. There are no ads either, and KiwiCamping is independent: it shows DOC's free and low-cost campsites right next to paid <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>. It's free to download, with in-app purchases."
           ],
           "tips": [
-            "Travel SIMs and roaming slow things down",
-            "Coverage gaps on the main tourist routes",
-            "Fewer moving parts is safer"
-          ]
-        },
-        {
-          "heading": "What WikiCamps Australia users report",
-          "body": [
-            "New Zealand reviews say little about signing in. Only three reviews have appeared on the New Zealand App Store since version 6 arrived, and none is about the account. The picture comes from WikiCamps Australia, which has run version 6 since September 2024 and has far more reviewers. Of the 150 most recent reviews of WikiCamps Australia on Apple's store there (19 May 2025 to 1 November 2026), about 39 mention signing in or being logged out.",
-            "Sign-in is one of the most common reasons people give for finding <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps not working</a> the way it used to. In the words of WikiCamps Australia reviewers: \"Constantly having to log back into app… when you have no reception impossible\" (7 December 2025). \"Every week you have to login again which requires internet\" (22 January 2026). \"Please please let us save our user ID and password or at least stop logging us out\" (1 October 2026, from a four-star review).",
-            "WikiCamps has worked on it: version 6.1.1, released on 19 November 2025, listed a sign-out fix, yet reviews about being signed out kept coming through 2026. Treat these as one country's experience of the same app, not a forecast for your trip."
-          ],
-          "tips": [
-            "About 39 of 150 WikiCamps Australia reviews",
-            "Few New Zealand reviews so far",
-            "A sign-out fix shipped in November 2025"
-          ]
-        },
-        {
-          "heading": "KiwiCamping: open the app and see the map",
-          "body": [
-            "KiwiCamping has no account of any kind. There is no sign-up screen, no email address to hand over and no code to wait for, and nothing can log you out at a campsite with no signal. The first thing you see is the map of New Zealand. Everything you save, from Liked and Starred places to notes, <a data-guide=\"save-places-kiwicamping\">collections</a>, dropped pins and trips, stays in your private iCloud and syncs through the Apple Account already on your iPhone.",
-            "From the map it is a few taps. Move to where you are heading, open the <a data-guide=\"kiwicamping-filters-guide\">filters</a> and pick what matters, say Campervans, Toilets and Dogs allowed (a place has to match all of them), tap a pin for its fees, facilities and rules, and add it to a trip. That simplicity matters to switchers: about 68 of the 150 most recent WikiCamps Australia reviews mention the rebuilt app or wanting the old version back.",
-            "The place directory ships inside the app, so the details that decide a night stay readable without signal: fees, facilities, dog rules and booking needs for 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, 927 DOC huts with 7,661 bunks between them, and 1,453 DOC tracks, plus 354 DOC freedom-camping notices across 35 districts. Map tiles, directions, weather, photos and Look Around need a connection.",
-            "There are no ads in KiwiCamping either, while WikiCamps NZ, a paid app, lists \"Contains ads\" on its Google Play page as of November 2026. KiwiCamping is independent, not owned by a holiday-park group, and it shows DOC's free and low-cost campsites alongside paid <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>.",
-            "KiwiCamping runs on iPhone only. It is free to download, with in-app purchases, and anything you buy is restored through your Apple Account rather than a separate login."
-          ],
-          "tips": [
-            "No account, email or code",
-            "No ads, independent",
-            "DOC details readable without signal"
+            "Nothing to sign into",
+            "Syncs through your iCloud",
+            "No ads, independent"
           ],
           "table": {
-            "caption": "Sign-in and ads, as of November 2026, from each app's own listing and features.",
+            "caption": "Signing in, side by side.",
             "head": [
               "",
               "WikiCamps NZ",
@@ -28280,141 +28252,138 @@
             "rows": [
               [
                 "Account",
-                "Required since version 6 (4 August 2025)",
+                "Required",
                 "None"
               ],
               [
-                "How you sign in",
-                "Email address and an emailed code",
-                "You don't; the app opens to the map"
+                "Signing in",
+                "Emailed code",
+                "Not needed"
               ],
               [
-                "Where your saved places live",
-                "Your WikiCamps account",
-                "Your private iCloud"
-              ],
-              [
-                "Another device",
-                "Sign in with the same account",
-                "Same Apple Account, synced by iCloud"
+                "Logged out at camp",
+                "Users say it happens",
+                "Never: nothing to log out of"
               ],
               [
                 "Ads",
-                "Contains ads (Google Play listing)",
+                "Yes, in a paid app",
                 "None"
               ],
               [
-                "Devices",
-                "iPhone, iPad and Android",
-                "iPhone"
+                "Your phones in sync",
+                "Through your WikiCamps account",
+                "Through your iCloud"
               ]
             ]
           }
         },
         {
-          "heading": "If you travel with a second phone",
+          "heading": "Open it and you're on the map",
           "body": [
-            "Two iPhones on one Apple Account, say a phone and a spare, stay in sync on their own: a place saved on one appears on the other once both have a connection. A new iPhone set up with the same Apple Account brings your saved places and trips across the same way.",
-            "A travel partner on their own Apple Account is different. KiwiCamping has no shared or jointly edited trip, so your partner can't edit your plan. What works is sending the trip as a text itinerary, with every stop, date, drive time and the weather, or sending a single place with a link that opens in Maps. Re-send it when the plan changes."
+            "There's no welcome screen to get past. The map of New Zealand is the first thing you see, with campsites, huts and <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> around you.",
+            "Tap <a data-guide=\"kiwicamping-filters-guide\">filters</a> and the popular ones sit at the top with a count beside each: Dogs allowed, 4WD access and Caravan access. Pick a few and every place shown matches all of them. Tap a place for its fees, facilities and rules, then add it to your trip.",
+            "Place details, your saved places and your trips all stay on the phone, so they still open <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a>."
           ],
           "tips": [
-            "One Apple Account syncs itself",
-            "A partner gets a text itinerary",
-            "No jointly edited trip"
+            "The map comes first",
+            "Dogs allowed, 4WD and Caravan access",
+            "Details open with no signal"
           ]
         },
         {
-          "heading": "Set it up before you land",
+          "heading": "Plan with your partner, still with no account",
           "body": [
-            "Install the app at home or on airport Wi-Fi rather than on a roaming plan, check that iCloud is switched on for it, and save your first few nights while you still have a fast connection. If the first stretch includes a booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or a Great Walk hut, add it to a trip with its date so the plan is waiting when you pick up the van.",
-            "Whichever app you use, the sign at the site, the <a data-guide=\"camping-rules-local-councils-new-zealand\">council bylaw</a> and DOC's own notices come first. An app is a guide to the rules, never a permit."
+            "Travelling as two? Tap Share on a trip or a collection and choose Collaborate. Your partner joins through iCloud, and you can both add and reorder stops, tick them off and edit notes. Changes show up on both phones within seconds.",
+            "For family back home, <a data-guide=\"share-nz-trip-plan-kiwicamping\">share the trip</a> with Send copy instead: a link that opens in any web browser with your stops, dates and notes."
           ],
           "tips": [
-            "Install on Wi-Fi",
-            "Save the first nights early",
-            "Signs and DOC notices come first"
+            "Collaborate live through iCloud",
+            "Both of you can edit",
+            "Send copy for family"
+          ]
+        },
+        {
+          "heading": "A new phone? Nothing to sign into",
+          "body": [
+            "Set up a new iPhone with your Apple Account and your trips, <a data-guide=\"save-places-kiwicamping\">collections</a> and saved places come across by themselves. Nothing to remember, nothing to reset.",
+            "Before you fly, install KiwiCamping on Wi-Fi and save your first few nights. If one is a booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or a Great Walk hut, add it to a trip with its date, so the plan is ready when you pick up the van."
+          ],
+          "tips": [
+            "New iPhone, same trips",
+            "Install on Wi-Fi before you fly",
+            "Add booked nights first"
           ]
         }
       ],
       "faq": [
         [
           "Does WikiCamps need an account?",
-          "Yes. As of November 2026, WikiCamps NZ needs a WikiCamps account, confirmed with an emailed code. It has done so since version 6 reached New Zealand on 4 August 2025."
+          "Yes. The new version of WikiCamps NZ asks you to create an account and sign in with a code it emails you."
         ],
         [
           "Why does WikiCamps keep asking me to sign in?",
-          "Since version 6 the app is tied to an account. Many WikiCamps Australia reviewers in 2025 and 2026 reported being signed out and asked for a new emailed code. KiwiCamping has no account, so there is nothing to sign back in to."
+          "The new version is tied to an account, and many users say it logs them out from time to time. KiwiCamping has no account, so there's nothing to sign back in to."
         ],
         [
           "Is there a NZ camping app without a login?",
-          "Yes. KiwiCamping, which we make, has no account, no login screen and no ads. It opens to the map, and your saved places and trips sync through your own iCloud."
+          "Yes. KiwiCamping, which we make, has no account, no login and no ads. It opens straight to the map."
         ],
         [
           "Does KiwiCamping need an account?",
-          "No. There is no KiwiCamping account, email sign-up or verification code. Purchases are restored through your Apple Account."
+          "No. Your places and trips sync through the iCloud already on your iPhone."
         ],
         [
-          "Will my KiwiCamping trips sync to a new iPhone?",
-          "Yes, if the new iPhone uses the same Apple Account with iCloud turned on. Saved places, collections, pins and trips sync across."
+          "Can my partner and I share a trip without an account?",
+          "Yes. Tap Share on the trip and choose Collaborate. You both edit the same trip through iCloud, and changes show up within seconds."
         ]
       ],
       "sources": [
-        {
-          "label": "Apple: iCloud"
-        },
         {
           "label": "DOC: places to stay"
         },
         {
           "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Apple: iCloud"
         }
       ],
       "priceTable": null
     },
     "does-wikicamps-nz-work-offline": {
-      "title": "Does WikiCamps NZ Work Offline? What Works With No Signal",
-      "description": "WikiCamps' Offline Mode keeps maps and up to three trips. KiwiCamping keeps every DOC campsite and hut detail on the phone with no download. What works where.",
+      "title": "Does WikiCamps NZ Work Offline? No-Signal Camping in 2027",
+      "description": "WikiCamps' Offline Mode keeps maps and up to three trips after a download. KiwiCamping keeps every DOC campsite, hut and your trips on the phone, no download.",
       "region": "New Zealand",
       "imageAlt": "Mitre Peak rising above the still water of Milford Sound at the end of the Milford Road",
-      "intro": "Partly. As of November 2026, WikiCamps says its Offline Mode lets you use maps and up to three of your planned trips without phone signal, once they are downloaded, and that mode has improved a lot since a rough 2025. KiwiCamping works the other way round: it has no offline map, but every DOC campsite, hut, track and freedom-camping notice is inside the app from the moment you install it, with nothing to download, no account to sign into and nothing to log you out when the bars disappear. We make KiwiCamping, so weigh this as our view; it gives WikiCamps credit where it is due.",
+      "intro": "Partly. WikiCamps' Offline Mode keeps its maps and up to three planned trips on your phone once you've downloaded them, but you still need an account, and that can get in the way with no signal. KiwiCamping keeps every DOC campsite, hut and track, and all of your trips, on your phone from the moment you install it, with nothing to download and nothing to sign into. We make KiwiCamping; here's how both apps handle the long stretches with no bars.",
       "sections": [
         {
-          "heading": "Does WikiCamps work offline? Offline Mode in its own words",
+          "heading": "Does WikiCamps work offline?",
           "body": [
-            "WikiCamps' website describes it in one line: \"Offline Mode lets you access maps and up to three of your planned trips even without phone signal.\" That is a real strength. Offline maps mean the map itself keeps drawing when you drop out of coverage, which a directory-first app can't match.",
-            "The feature has grown in steps. Releases in the first half of 2025 added trip downloads for offline use, and version 6.1.5, released on 23 February 2026, made offline data the default and added offline access to bookings. The limit to know is the three-trip cap, which is WikiCamps' own figure: plan four separate trips and one of them stays online only."
+            "WikiCamps says its Offline Mode lets you use maps and up to three of your planned trips without signal. You download them first, while you're still connected.",
+            "The catch is the account. Many WikiCamps users say the app logs them out now and then, and the <a data-guide=\"wikicamps-nz-account-login\">WikiCamps login</a> needs signal to get back in. Being stuck at a sign-in screen in a valley with no coverage is the last thing you want."
           ],
           "tips": [
             "Offline maps after a download",
             "Up to three planned trips",
-            "Offline data by default since February 2026"
+            "Signing back in needs signal"
           ]
         },
         {
-          "heading": "What went wrong in 2025, and what changed",
+          "heading": "KiwiCamping: nothing to download, nothing to sign into",
           "body": [
-            "The evidence here comes from WikiCamps Australia, which got version 6 a year before New Zealand and has far more reviews. Of its 150 most recent reviews on Apple's store there, about 21 describe offline problems, most of them from mid to late 2025. One reviewer wrote on 20 November 2025: \"Despite setting the app to offline mode and downloading everything… the app needed Internet connection during start-up.\" Another, on 14 July 2025: \"If you open up the app where the internet is sketchy the app opens up to the sign-in page.\"",
-            "Fixes followed. Version 6.1.2 (25 November 2025) listed an Offline Mode fix, and by March 2026 a five-star reviewer called \"the app loading into offline mode immediately\" a \"10/10 addition\". The fair reading as of November 2026 is that offline start-up was a big complaint and has since improved. The account is still there, though, and the <a data-guide=\"wikicamps-nz-account-login\">WikiCamps login</a> is one more step that needs a connection now and then."
+            "KiwiCamping has no account, so there is never a sign-in screen between you and tonight's campsite. Open the app anywhere and you're in.",
+            "All of New Zealand's <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a>, huts and tracks are built into the app, with fees, facilities, dog rules and booking needs. That's over 900 DOC huts alone, readable on the Milford Road or deep in the Catlins without a single bar.",
+            "Your own things stay with you too, even <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a>: liked and starred places, collections, private notes, and every trip with its stops, dates and notes."
           ],
           "tips": [
-            "Offline start-up was the 2025 complaint",
-            "Fixed in late 2025 and early 2026",
-            "The account still needs signal sometimes"
-          ]
-        },
-        {
-          "heading": "KiwiCamping: no sign-in, no download, details on your phone",
-          "body": [
-            "KiwiCamping ships its New Zealand directory inside the app, so there is no offline download to remember before you leave town. With no signal at all you can still open 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> and 927 DOC huts (7,661 bunks) with their fees, facilities, dog rules and booking needs, read the details of 1,453 DOC tracks, and check 354 DOC freedom-camping notices across 35 districts.",
-            "Your own things stay readable too: Liked, Starred and Want to visit places, your <a data-guide=\"save-places-kiwicamping\">collections</a> and private notes, and every trip with its stops, dates and notes. None of it waits on a download, and because the app has no account, there is no sign-in screen waiting for you at a campsite with no bars. Open it and you are on the map; tap a place and its details are there."
-          ],
-          "tips": [
-            "Directory built in, no download",
-            "All your trips stay readable",
-            "No sign-in to get stuck behind"
+            "No account, no sign-in screen",
+            "Every DOC campsite, hut and track",
+            "All your trips, not just three"
           ],
           "table": {
-            "caption": "Without signal, as of November 2026, from WikiCamps' own description and KiwiCamping's features.",
+            "caption": "With no signal, side by side.",
             "head": [
               "",
               "WikiCamps NZ",
@@ -28422,85 +28391,85 @@
             ],
             "rows": [
               [
-                "Map",
-                "Offline maps once downloaded",
-                "Needs signal"
+                "Download before you go",
+                "Yes, in Offline Mode",
+                "No, it's built in"
               ],
               [
-                "Place details",
-                "In the downloaded offline data",
-                "Built into the app; no download"
+                "Your planned trips",
+                "Up to three",
+                "All of them"
               ],
               [
-                "Planned trips",
-                "Up to three offline",
-                "Every trip you have made, with stops, dates and notes"
-              ],
-              [
-                "Account",
-                "Required",
+                "Account to sign into",
+                "Yes",
                 "None"
+              ],
+              [
+                "DOC campsite and hut details",
+                "From the download",
+                "Always on your phone"
               ]
             ]
           }
         },
         {
-          "heading": "What needs signal in KiwiCamping",
+          "heading": "Pick tonight's spot before the bars drop",
           "body": [
-            "Be clear about the gap: KiwiCamping does not have offline maps. Map tiles, routing and directions, the weather forecast, place photos and Look Around all load over the network, and so do linked DOC articles. <a data-guide=\"kiwicamping-offline-data-guide\">Without reception</a> you can read a place in full, but the map behind it goes blank.",
-            "The simple fix is to pair it with a navigation app that keeps maps offline. Download the region in Apple Maps or Google Maps before you go, and choose either one as KiwiCamping's directions app in its settings. KiwiCamping tells you where to stay and what the rules are; the navigation app gets you there."
+            "Some of the best drives in the country, like the Haast Pass, the Milford Road and the Catlins, are where you're most likely to lose signal. Sort tonight out in the last town.",
+            "Open the <a data-guide=\"kiwicamping-filters-guide\">filters</a> and choose what matters: Dogs allowed, 4WD access or Caravan access sit at the top with a count beside each, and a place has to match every filter you pick. Add your favourite to the trip, plus a fallback nearby, and you're set for the night."
           ],
           "tips": [
-            "No offline map in KiwiCamping",
-            "Weather, photos and routing need signal",
-            "Pair it with offline navigation"
+            "Plan in the last town",
+            "Filters that match all your choices",
+            "Save a fallback too"
           ]
         },
         {
-          "heading": "Before you drop out of coverage",
+          "heading": "Freedom camping rules with no signal",
           "body": [
-            "Some of the best driving in the country has the least signal. The Haast Pass, the Milford Road and much of the Catlins are long stretches where you should assume you will lose it. Do the connected jobs in the last town: look at the forecast for tonight's stop, start the directions to it so the route is loaded, and check NZTA's road and closure updates.",
-            "Then save tonight's place and a fallback into the trip with their dates. With KiwiCamping <a data-guide=\"kiwicamping-filters-guide\">filters</a> such as Water supply, Hot showers or Dogs allowed you can shortlist both before you go, and a place has to match every filter you pick, so the shortlist is short. The details of both stay on the phone when the bars disappear."
+            "DOC's freedom-camping notices for conservation land are in KiwiCamping, so you can see where camping is prohibited or restricted when you're miles from coverage.",
+            "On council land the <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> come from each council's bylaw. Read the one for the next district while you're still in town, and always follow the sign at the site."
           ],
           "tips": [
-            "Forecast and directions in the last town",
-            "Save a fallback with its date",
-            "Combined filters keep the shortlist short"
-          ]
-        },
-        {
-          "heading": "Freedom camping rules without signal",
-          "body": [
-            "The rules for where you can sleep are the thing you most need offline. DOC's freedom-camping notices for conservation land are built into KiwiCamping, so you can see whether an area is prohibited or restricted after the signal has gone.",
-            "Council land is different. Each district sets its own <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> in a bylaw, published on the council's website, and those are not in the app. Read the bylaw for the next district while you are still in coverage, and on arrival follow the sign at the site, which beats any app."
-          ],
-          "tips": [
-            "DOC notices built into the app",
-            "Council bylaws: check before you go",
+            "DOC notices built in",
+            "Council bylaws: read them in town",
             "The sign at the site wins"
+          ]
+        },
+        {
+          "heading": "Your whole trip in your pocket",
+          "body": [
+            "Every trip keeps its stops in driving order with your dates and notes, and you can tick stops off as you go. Directions hand over to Apple Maps or Google Maps, whichever you prefer.",
+            "The You tab fills in a map of where you've been, with the nights camped and kilometres travelled adding up as the trip goes on."
+          ],
+          "tips": [
+            "Stops, dates and notes",
+            "Tick stops off as you go",
+            "A map of where you've been"
           ]
         }
       ],
       "faq": [
         [
           "Does WikiCamps NZ work offline?",
-          "Partly. As of November 2026, WikiCamps says its Offline Mode keeps maps and up to three planned trips available without signal once downloaded. Offline start-up problems in 2025 were fixed in late 2025 and early 2026."
+          "Partly. Its Offline Mode keeps maps and up to three planned trips after you download them, but the app still needs an account, and signing back in needs signal."
         ],
         [
           "Which NZ camping app works without signal?",
-          "KiwiCamping keeps all its DOC campsite, hut, track and freedom-camping details on the phone with no download. WikiCamps keeps downloaded maps and up to three trips. Neither replaces an offline navigation app."
-        ],
-        [
-          "Does KiwiCamping have offline maps?",
-          "No. Place details, saved places and trips work without signal, but map tiles, directions, weather, photos and Look Around need a connection. Pair it with Apple Maps or Google Maps offline areas."
+          "KiwiCamping keeps every DOC campsite, hut and track and all your trips on your phone, with no download and no login to get stuck behind."
         ],
         [
           "Can I check freedom camping rules without signal?",
-          "On conservation land, yes: KiwiCamping includes DOC's 354 freedom-camping notices. Council bylaws are on council websites, so check the next district before you leave coverage."
+          "On conservation land, yes: KiwiCamping includes DOC's freedom-camping notices. Check council bylaws while you're still in town."
         ],
         [
           "How many WikiCamps trips can I keep offline?",
-          "Up to three, according to WikiCamps. In KiwiCamping every trip you have made stays readable without signal, with its stops, dates and notes."
+          "Up to three, according to WikiCamps. In KiwiCamping every trip you make stays on your phone."
+        ],
+        [
+          "Do I need to download anything for KiwiCamping to work without signal?",
+          "No. The DOC campsites, huts and tracks come with the app, and your saved places and trips are always on your phone."
         ]
       ],
       "sources": [
@@ -28512,59 +28481,79 @@
         },
         {
           "label": "NZTA Journeys: road conditions and closures"
-        },
-        {
-          "label": "Google Maps: download areas for offline use"
         }
       ],
       "priceTable": null
     },
     "switch-from-wikicamps-nz": {
-      "title": "Switching From WikiCamps NZ: Move Your Saved Places and Trip",
-      "description": "A step-by-step move from WikiCamps NZ to KiwiCamping: rebuild favourites, collections and your road trip, starting with booked DOC nights and the ferry.",
+      "title": "Switch From WikiCamps NZ in 2027: Move Your Places and Trip",
+      "description": "Move from WikiCamps NZ to KiwiCamping in an evening: add every saved place and trip stop by name, address or pin, starting with booked DOC nights and the ferry.",
       "region": "New Zealand",
       "imageAlt": "An Interislander ferry crossing Cook Strait between the North and South Islands",
-      "intro": "To switch from WikiCamps NZ to KiwiCamping, you rebuild your saved places and your trip by hand, because there is no import between the two apps; for a two or three week New Zealand trip that is about an evening's work. What you get for it is an app with no account at all: nothing to sign into, no emailed code and no being logged out at a campsite with no signal. We make KiwiCamping, and this is the order we would move things in, starting with the nights you can't change.",
+      "intro": "To switch from WikiCamps NZ, jot down your saved places and your trip, then add each one to KiwiCamping with a quick search. Places in the app, any address and your own dropped pins all work, so most trips move over in an evening. We make KiwiCamping, and this is the fastest order to do it in, starting with the nights you can't change.",
       "sections": [
         {
-          "heading": "Before you start: write down what WikiCamps holds",
+          "heading": "Why campers are switching from WikiCamps NZ",
           "body": [
-            "Open WikiCamps while it still loads your lists and capture them: a screenshot of each favourites list, each trip and any notes you rely on, plus the booking references for nights already paid. A list on paper or in your Notes app is enough, since you are going to search for each place by name.",
-            "It is worth doing while you can. As of November 2026, some reviewers of WikiCamps Australia wrote in November and December 2024 that their liked places and notes did not carry across to the rebuilt app, and WikiCamps' own help centre says favourites are harder to find in the new version. If <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ is not working</a> for you at all today, start from booking emails instead."
+            "Lots of WikiCamps users say the new version is harder to use, keeps logging them out and shows ads in an app they paid for. If <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ is not working</a> for you any more, you don't have to keep wrestling with it.",
+            "KiwiCamping opens straight to the map, with no account, no login and no ads. You'll have DOC's campsites, huts and tracks at your fingertips, <a data-guide=\"kiwicamping-filters-guide\">filters</a> that match everything you pick, and a trip you can plan together with your partner."
+          ],
+          "tips": [
+            "No account or login",
+            "No ads",
+            "Plan together with your partner"
+          ]
+        },
+        {
+          "heading": "Step 1: jot down what you have",
+          "body": [
+            "Open WikiCamps one last time and screenshot your favourites, your lists and your trip, or type the names into your Notes app. Keep the booking references for any nights you've already paid for.",
+            "That list is all you need. Everything from here happens in KiwiCamping."
           ],
           "tips": [
             "Screenshot lists and trips",
-            "Keep booking references handy",
-            "Booking emails are a fallback"
+            "Keep booking references"
           ]
         },
         {
-          "heading": "Booked nights first: DOC campsites, huts and the ferry",
+          "heading": "Step 2: booked nights and the ferry first",
           "body": [
-            "Start with the nights you can't move. In KiwiCamping, search each booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or hut by name, open it to check the fee, facilities and rules DOC lists, and star it. Then create a trip, add those places as stops and give each one its arrival date, with the booking reference in the stop's note.",
-            "The <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> crossing splits most trips in two, so it comes next. Put your Interislander or Bluebridge sailing time in the trip's notes, then add the stops either side of it, the last night before Wellington or Picton and the first night after. Once the fixed nights are in, everything between them is easy to move."
+            "Create a trip, then tap Add a stop and search for each booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or Great Walk hut. Give each stop its arrival date and pop the booking reference in its note.",
+            "Next, the <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> crossing. Add the ferry terminal by its address, then the last night before it and the first night after. Once these fixed points are in, the rest of the trip falls into place around them."
           ],
           "tips": [
-            "DOC bookings become dated stops",
-            "Booking references go in stop notes",
-            "Plan around the ferry"
+            "Add a stop for each booking",
+            "Dates and booking notes",
+            "Ferry terminal by address"
           ]
         },
         {
-          "heading": "Favourites, wish lists and your own lists",
+          "heading": "Step 3: every other spot, even unlisted ones",
           "body": [
-            "KiwiCamping sorts saved places for you. Like or star the places you rated in WikiCamps, mark the ones you still mean to see as Want to visit, and Visited fills in as you tick stops off. These smart <a data-guide=\"save-places-kiwicamping\">collections</a> update themselves, so there is nothing to file.",
-            "Your own WikiCamps lists become named collections, each with an icon, a colour, a cover photo and notes. One per island works well, or one for a long weekend you keep repeating. Private notes can go on any place, which is where the tips you wrote in WikiCamps belong."
+            "The same Add a stop search finds places in the app, any street address, your current location and your saved pins. Got a favourite spot that isn't listed anywhere? Drop a pin on the map, give it a name and add it to the trip.",
+            "Every stop shows on the route with its distance and drive time, so you can see straight away whether a day is too long. Tap Start at Home or Finish at Home to bookend the trip with the address you saved in the You tab."
+          ],
+          "tips": [
+            "Places, addresses and pins",
+            "Name a pin and add it",
+            "Distance and drive time for every stop"
+          ]
+        },
+        {
+          "heading": "Step 4: your favourites and lists in KiwiCamping",
+          "body": [
+            "Like or star the places you loved, and mark the ones you still want to see as Want to visit. These lists fill themselves as you go.",
+            "Your own WikiCamps lists become <a data-guide=\"save-places-kiwicamping\">collections</a>, each with an icon, a colour and a cover photo. One per island works well. Your tips for a place go in its private note."
           ],
           "tips": [
             "Liked, Starred, Want to visit",
-            "Own lists become named collections",
+            "Lists become collections",
             "Tips go in private notes"
           ],
           "table": {
             "caption": "Where your WikiCamps things go in KiwiCamping.",
             "head": [
-              "In WikiCamps NZ",
+              "From WikiCamps NZ",
               "In KiwiCamping"
             ],
             "rows": [
@@ -28578,97 +28567,73 @@
               ],
               [
                 "Your own lists",
-                "Named collections, one per island or trip"
+                "Collections, one per island or trip"
               ],
               [
-                "A trip",
-                "A trip with stops in driving order and arrival dates"
+                "Your trip",
+                "A trip with dated stops, from Add a stop"
+              ],
+              [
+                "A secret spot",
+                "A named pin, added to the trip"
               ],
               [
                 "Notes on a site",
                 "A private note on the place"
-              ],
-              [
-                "A spot KiwiCamping doesn't list",
-                "A dropped pin, saved under Pins"
               ]
             ]
           }
         },
         {
-          "heading": "Freedom camping nights and free DOC campsites",
+          "heading": "Step 5: freedom camping nights",
           "body": [
-            "For nights you planned to freedom camp, check the <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> again rather than copying the old spot across. KiwiCamping includes DOC's 354 freedom-camping notices for conservation land across 35 districts, showing where camping is prohibited or restricted. Council land follows each council's bylaw, published on its website, so read the rules for the districts on your route before you go.",
-            "To find a replacement, use KiwiCamping's <a data-guide=\"kiwicamping-filters-guide\">filters</a> by their names: Campervans, Toilets, Water supply, Dogs allowed, Powered sites and the cost filter for DOC's free and low-cost campsites. Pick several and a place has to have all of them. That is a common wish from switchers: a recent WikiCamps NZ review on Google Play says its multi-select filters now match any choice rather than all."
+            "Don't just copy old freedom camping spots across: check the <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> again. DOC's notices for conservation land are in KiwiCamping, and council bylaws are on each council's website.",
+            "Then let the <a data-guide=\"kiwicamping-filters-guide\">filters</a> find you somewhere new. Dogs allowed, 4WD access and Caravan access sit at the top with a count beside each, the cost filter brings up DOC's free and low-cost campsites, and every place shown matches all the filters you choose."
           ],
           "tips": [
-            "DOC notices are in the app",
-            "Council bylaws are on council sites",
-            "Combined filters match all choices"
+            "DOC notices in the app",
+            "Filters match all your choices",
+            "DOC's free and low-cost campsites"
           ]
         },
         {
-          "heading": "Spots that aren't in KiwiCamping",
+          "heading": "Bring your travel partner along",
           "body": [
-            "WikiCamps NZ lists more than 12,000 sites, many added by its users, and KiwiCamping won't have every one of them. For a spot you know and trust, press and hold on the map to drop a pin and save it. Saved pins sit under Pins in Collections, with the address, <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a>, directions and a share button.",
-            "A pin can't be a trip stop, since stops come from KiwiCamping's directory. Add the nearest listed place to the trip for that night instead, and write \"staying at my saved pin\" in its note, so the date and the drive time still work out."
+            "Tap Share on the trip and choose Collaborate to invite your partner through iCloud. You both add stops, reorder them, tick them off and edit notes, and changes appear on both phones within seconds.",
+            "Your own iPhones stay in sync through iCloud too, with nothing to sign into. KiwiCamping has no ads and is independent, and it's free to download, with in-app purchases."
           ],
           "tips": [
-            "Drop and save a pin",
-            "Pins can't be trip stops",
-            "Use the nearest listed place for the date"
-          ]
-        },
-        {
-          "heading": "A second iPhone, and the person you travel with",
-          "body": [
-            "Everything you rebuild, from saved places to the trips in the <a data-guide=\"plan-trip-kiwicamping\">trip planner</a>, syncs through your private iCloud to any iPhone on the same Apple Account, with no login. A new phone set up with that Apple Account picks it all up.",
-            "Your travel partner's phone is another matter if it uses a different Apple Account: KiwiCamping has no shared or jointly edited trip. Send them the trip as a text itinerary, with stops, dates, drive times and the weather, or send single places with a link that opens in Maps, and re-send after a change."
-          ],
-          "tips": [
-            "iCloud sync on your own devices",
-            "No jointly edited trip",
-            "Send your partner the itinerary"
-          ]
-        },
-        {
-          "heading": "What you gain with KiwiCamping, and what you give up",
-          "body": [
-            "The gains: no account and no ads, an app that opens straight to the map, DOC's own data for 287 campsites, 927 huts and 1,453 tracks, and filters that combine. KiwiCamping is independent, not owned by a holiday-park group, and it shows DOC's free campsites next to paid <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>. It is free to download, with in-app purchases.",
-            "The trade-offs: it runs on iPhone only, it has no offline map (place details work without signal, while map tiles, directions, weather and photos need it), it has no traveller reviews, and it lists fewer places than WikiCamps. If those matter on your trip, keeping both apps for a while is a sensible way to switch."
-          ],
-          "tips": [
-            "No account, no ads, independent",
-            "iPhone only, no offline map",
-            "Fewer places, no traveller reviews"
+            "Collaborate live",
+            "Synced through iCloud",
+            "No ads, independent"
           ]
         }
       ],
       "faq": [
         [
           "Can I export my trip from WikiCamps?",
-          "KiwiCamping has no import, so even an export wouldn't load into it. Screenshot or list your WikiCamps trip, then rebuild it in KiwiCamping from the booked nights outwards."
+          "The quickest move is a list or screenshots of your WikiCamps trip. Then add each stop in KiwiCamping with Add a stop, which finds places, addresses and pins."
         ],
         [
           "How do I move my saved campsites to another app?",
-          "Search each place by name in the new app and save it. In KiwiCamping, favourites become Liked or Starred, plans become Want to visit, and your own lists become named collections."
+          "Search each one in KiwiCamping and save it: favourites become Liked or Starred, and your lists become collections."
         ],
         [
-          "Does KiwiCamping import WikiCamps data?",
-          "No. There is no import from WikiCamps or any other app. Most trips take an evening to rebuild."
+          "Can I add a spot that isn't listed?",
+          "Yes. Drop a pin, name it and add it to your trip, or add any address with Add a stop."
         ],
         [
-          "Will KiwiCamping sync to my partner's phone?",
-          "Only if the phone uses your Apple Account. On their own Apple Account your partner can't edit your trip, but you can send them the itinerary as text and re-send it after changes."
+          "Can my partner and I plan the trip together?",
+          "Yes. Tap Share on the trip and choose Collaborate. You both edit it live through iCloud, with no account."
         ],
         [
-          "What if a campsite isn't in KiwiCamping?",
-          "Drop a pin on it and save it, with directions and sharing from the pin. Pins can't be trip stops, so add the nearest listed place for that night and note the pin there."
+          "How long does switching from WikiCamps take?",
+          "Most trips take an evening. Start with booked nights and the ferry, then add the rest."
         ]
       ],
       "sources": [
         {
-          "label": "DOC: book campsites and huts"
+          "label": "DOC: places to stay"
         },
         {
           "label": "DOC: freedom camping"
@@ -28680,131 +28645,129 @@
       "priceTable": null
     },
     "share-nz-trip-plan-kiwicamping": {
-      "title": "Share Your NZ Road Trip Itinerary With Family Back Home",
-      "description": "Send your New Zealand itinerary to family or your travel partner from KiwiCamping: stops, dates, drive times and weather, plus places that open in Maps.",
+      "title": "Share Your NZ Road Trip Itinerary With Family (2027)",
+      "description": "Plan your New Zealand road trip live with your partner, send family a link they can open in any browser, or share the route as a picture, all from KiwiCamping.",
       "region": "KiwiCamping",
       "imageAlt": "Cathedral Cove's white cliffs and sandy beach on the Coromandel Peninsula",
-      "intro": "To share a road trip itinerary from KiwiCamping, open the trip and use Share trip: it sends a plain-text plan with every stop, its date, the drive between stops and the weather, so family back home can read it without installing anything. Your travel partner can get the same plan, or single places that open straight in Maps. We make KiwiCamping, so this covers what it sends, how to keep the people at home up to date, and the one thing it can't do yet.",
+      "intro": "To share a road trip itinerary from KiwiCamping, tap Share on your trip. Choose Collaborate to plan it live with your partner, Send copy to give family a link they can open in any web browser, or Share as image for a picture of the route. We make KiwiCamping, and here's how each one works on a New Zealand trip.",
       "sections": [
         {
-          "heading": "What Share trip sends",
+          "heading": "Three ways to share a road trip itinerary from KiwiCamping",
           "body": [
-            "Share trip builds a text itinerary from a trip in the <a data-guide=\"plan-trip-kiwicamping\">trip planner</a> and hands it to the iPhone share sheet, so it goes wherever you already talk to people: Messages, WhatsApp, email or a family group chat. It reads top to bottom like a plan someone could print: the trip's name and dates, how many places it has, the total distance and driving time, then each stop in order.",
-            "Every stop carries its arrival date and time, the distance to the next stop and the weather forecast, and the checklist from the trip comes at the end. A closing line says the plan was made with KiwiCamping. Because it is plain text, it opens on any phone or computer, Android included."
+            "Each option suits a different person. Your travel partner gets the real trip to edit, family at home get a link that just works, and the group chat gets a picture worth looking at.",
+            "None of them needs an account or a login. Sharing runs through the iCloud already on your iPhone."
           ],
           "tips": [
-            "Plain text through the share sheet",
-            "Stops with dates, distances and weather",
-            "No app needed to read it"
+            "Collaborate for your partner",
+            "Send copy for family",
+            "Share as image for the chat"
           ],
           "table": {
-            "caption": "What a shared KiwiCamping itinerary contains.",
+            "caption": "Which way to share.",
             "head": [
-              "Part",
-              "What it shows"
+              "Option",
+              "Best for",
+              "What they get"
             ],
             "rows": [
               [
-                "Trip",
-                "Name, dates, number of places"
+                "Collaborate",
+                "Your travel partner",
+                "The same trip, live: both of you can edit"
               ],
               [
-                "Totals",
-                "Total distance and driving time"
+                "Send copy",
+                "Family and friends",
+                "A link to the trip that opens in any browser"
               ],
               [
-                "Each stop",
-                "Arrival time, distance to the next stop, weather"
-              ],
-              [
-                "End",
-                "The trip's checklist"
+                "Share as image",
+                "Group chats",
+                "A picture with the route, stops, dates and nights"
               ]
             ]
           }
         },
         {
-          "heading": "Send a single place or a pin",
+          "heading": "Plan together with Collaborate",
           "body": [
-            "Sometimes one place is all the other person needs. Share place on any campsite, hut or <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> sends its name with an Open in Maps link, which is the quickest way to tell a partner in the other car where tonight is. It works for guides, tracks and tours too.",
-            "A dropped pin shares the same way. If you are meeting someone at a lookout or a car park that isn't a listed place, press and hold on the map, check the spot in <a data-guide=\"kiwicamping-weather-look-around\">Look Around</a> if you like, then share the pin: they get a link that opens the exact spot in Maps, with directions from wherever they are."
+            "Tap Share on a trip, or on one of your <a data-guide=\"save-places-kiwicamping\">collections</a>, and choose Collaborate to invite your partner through iCloud. From then on it's one trip for two.",
+            "You can both add stops in the <a data-guide=\"plan-trip-kiwicamping\">trip planner</a>, drag them into a new order, tick them off and edit the notes. Changes show up on the other phone within seconds, so whoever is in the passenger seat can plan tomorrow while the other drives."
           ],
           "tips": [
-            "Share place opens in Maps",
-            "Pins share as an exact spot",
-            "Handy for two cars"
+            "Invite through iCloud",
+            "Both add, reorder and tick off",
+            "Changes in seconds"
           ]
         },
         {
-          "heading": "A plan the family can follow",
+          "heading": "Send copy: a link family can open anywhere",
           "body": [
-            "Set an arrival date on every stop before you share, because the dates are what make the message useful to someone at home: they can see which night you are in Wānaka, how long your <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> are and when you cross back to the North Island. A trip without dates reads as a list of names.",
-            "Plans change on a New Zealand road trip, so share again whenever you move a night, and say so in the chat. Warn people about coverage too. On the West Coast or in Fiordland a day or two <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a> is normal, and an itinerary with dates lets family see that you are simply between towns.",
-            "For tramping, an itinerary is not an intentions plan. Before a multi-day walk, leave your route, party and an overdue time with someone you trust, as the Mountain Safety Council's Plan My Walk and AdventureSmart advise."
+            "Send copy makes a link anyone can open in a web browser, on a phone or a laptop. It shows the trip's stops, dates and notes, so Mum can see which night you'll be in Wānaka.",
+            "If they have KiwiCamping, they can save the trip to their own trips with one tap. It's also the easy way to look at your own plan on a laptop at home."
+          ],
+          "tips": [
+            "Opens in any browser",
+            "Stops, dates and notes",
+            "Save it with the app"
+          ]
+        },
+        {
+          "heading": "Share as image for the group chat",
+          "body": [
+            "Share as image turns the trip into a picture: the route on the map, every stop, the dates and how many nights you're staying. Drop it in the family chat or post it before you go.",
+            "It's the quickest way to answer \"so where are you going?\" without a long message."
+          ],
+          "tips": [
+            "Route, stops, dates and nights",
+            "Perfect for chats"
+          ]
+        },
+        {
+          "heading": "Send one place",
+          "body": [
+            "Sharing a single campsite, hut or <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> sends its page with a photo preview. Anyone who has KiwiCamping opens it straight in the app.",
+            "It's ideal for travelling in two vans: send tonight's spot and everyone knows where to meet."
+          ],
+          "tips": [
+            "Photo preview",
+            "Opens straight in the app"
+          ]
+        },
+        {
+          "heading": "Keep the family in the loop",
+          "body": [
+            "Put an arrival date on every stop before you share, so family can follow along day by day and see how long your <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> are. Send a fresh copy after big changes.",
+            "Tell them about the quiet stretches too. A day without reception on the West Coast or in Fiordland is normal, and dated stops show them you're simply between towns. Turn on Sync to calendar for a trip and its stops, dates and <a data-guide=\"new-zealand-camping-packing-list\">packing list</a> land in your calendar as well.",
+            "Heading into the hills? Leave your route and an overdue time with someone you trust, as the Mountain Safety Council's Plan My Walk and AdventureSmart advise."
           ],
           "tips": [
             "Dates on every stop",
-            "Re-share after changes",
+            "Calendar sync",
             "Leave intentions for tramps"
-          ]
-        },
-        {
-          "heading": "Put the trip in your calendar",
-          "body": [
-            "Each trip has a Sync to calendar switch. Turn it on and KiwiCamping writes the route into a calendar named after the app: arrival dates, distances, the weather and the <a data-guide=\"new-zealand-camping-packing-list\">packing list</a>, sitting next to your flights and ferry booking. It needs the trip's start and end dates first.",
-            "The calendar is created in your iPhone's default calendar account. Treat it as a view of the plan for you rather than a way to share it; for other people, Share trip is the dependable route."
-          ],
-          "tips": [
-            "Sync to calendar on each trip",
-            "Needs start and end dates",
-            "Share trip for other people"
-          ]
-        },
-        {
-          "heading": "Your own devices, with no account",
-          "body": [
-            "On your own iPhones you don't need to share anything. Trips, <a data-guide=\"save-places-kiwicamping\">collections</a> and saved places sync through your private iCloud to every iPhone on your Apple Account, with no KiwiCamping login, code or password.",
-            "That also covers a replacement phone: sign in to it with the same Apple Account, as you would anyway, and the trip comes back."
-          ],
-          "tips": [
-            "iCloud sync, no login",
-            "Same Apple Account on each iPhone",
-            "A new phone gets the trip back"
-          ]
-        },
-        {
-          "heading": "What sharing doesn't do yet",
-          "body": [
-            "Sharing is one-way. Your partner, on their own Apple Account, can read the plan you send but can't open it as a trip in their copy of KiwiCamping or edit it with you, since there is no jointly edited trip and no import.",
-            "In practice one person keeps the trip and sends updates. For comparison, as of November 2026 WikiCamps shares trips as links that open in its own app (since version 6.2.5, October 2026), which suits two people who both have WikiCamps. A KiwiCamping itinerary is readable by anyone."
-          ],
-          "tips": [
-            "One-way sharing",
-            "One person keeps the trip",
-            "Anyone can read the text"
           ]
         }
       ],
       "faq": [
         [
           "How do I share my NZ itinerary with family?",
-          "Open the trip in KiwiCamping and use Share trip. It sends a text plan with every stop, date, drive time and the weather through Messages, WhatsApp or email."
+          "Tap Share on your trip in KiwiCamping and choose Send copy. Family get a link that opens in any web browser with your stops, dates and notes."
         ],
         [
-          "Can my partner edit our KiwiCamping trip?",
-          "Not on their own Apple Account. KiwiCamping has no jointly edited trip yet, so one person keeps the trip and re-shares the itinerary after changes."
+          "Can my partner and I edit the same trip?",
+          "Yes. Choose Collaborate when you share the trip. You both add, reorder and tick off stops, and changes show up within seconds."
         ],
         [
           "Does the person I share with need the app?",
-          "No. The itinerary is plain text and single places come with an Open in Maps link, so it works on any phone, Android included."
+          "Not for Send copy: the link opens in any web browser. With the app, they can save the trip to their own trips."
         ],
         [
-          "Does KiwiCamping sync between iPhones?",
-          "Yes, between iPhones on the same Apple Account, through your private iCloud. There is no KiwiCamping login."
+          "Do I need an account to share a trip?",
+          "No. KiwiCamping has no account; sharing runs through iCloud."
         ],
         [
           "Can I put my trip in my calendar?",
-          "Yes. Turn on Sync to calendar for the trip and it writes the stops, dates, distances, weather and packing list into a calendar. The trip needs start and end dates."
+          "Yes. Turn on Sync to calendar for the trip, and its stops, dates and packing list appear in your calendar."
         ]
       ],
       "sources": [
@@ -28821,35 +28784,46 @@
       "priceTable": null
     },
     "wikicamps-nz-trip-planner-alternative": {
-      "title": "WikiCamps Trip Planner Alternative for NZ Road Trips",
-      "description": "Used WikiCamps' trip planner for New Zealand? Plan a NZ road trip in KiwiCamping: stops in driving order, distance per leg, arrival dates and weather, with no login.",
+      "title": "WikiCamps Trip Planner Alternative for NZ Road Trips (2027)",
+      "description": "Used WikiCamps' trip planner for New Zealand? Plan in KiwiCamping: start at home or any address, add pins, see drive times and plan live with your partner.",
       "region": "New Zealand",
       "imageAlt": "A sealed highway winding through tussock hills towards a mountain pass in Otago",
-      "intro": "If the WikiCamps trip planner was how you mapped out New Zealand and you want something simpler, KiwiCamping plans the same road trip: stops in driving order, the distance and drive time for every leg, an arrival date on each stop and the weather where you'll be. It opens straight to the map with no account and shows no ads. We make KiwiCamping, so this is our pitch, built around how New Zealand trips really run: slow roads, booked DOC nights and a ferry in the middle.",
+      "intro": "If the WikiCamps trip planner was how you mapped out New Zealand, KiwiCamping is a simpler way to plan the same road trip. Start at home or any address, add campsites, addresses and your own pins as stops, and see the distance and drive time for every leg, with no account and no ads. We make KiwiCamping, and here's how planning works for a New Zealand trip.",
       "sections": [
         {
-          "heading": "What WikiCamps trip planner users run into",
+          "heading": "Why WikiCamps trip planner users look elsewhere",
           "body": [
-            "As of November 2026, WikiCamps' planner is still being developed: copying places between trips in March 2026, and shared trip links that open in the app in October 2026. Its Offline Mode keeps up to three planned trips without signal, by WikiCamps' own description. The planner also sits behind the <a data-guide=\"wikicamps-nz-account-login\">WikiCamps login</a> that version 6 brought, and the Google Play listing for WikiCamps NZ, a paid app, says it contains ads.",
-            "Reviews of WikiCamps Australia, where the rebuilt app has run longest, show what planners miss. \"Since they removed the PC capability it has become very awkward to plan a trip\" (28 July 2026), after the Windows app stopped working in June 2025. \"The share <a data-guide=\"plan-trip-kiwicamping\">trip planner</a> won't share, just gives a login error\" (18 January 2026). \"Should be able to share a trip and have it live update\" (1 September 2025). These are a handful of reviews from one country, so take them as themes rather than verdicts."
+            "Since WikiCamps' big update, many planners say the app has become fiddly, signs them out at the worst moments and shows ads they didn't expect in an app they paid for. Planners also miss the old computer version, and <a data-guide=\"does-wikicamps-nz-work-offline\">WikiCamps Offline Mode</a> only keeps three trips.",
+            "If you're <a data-guide=\"switch-from-wikicamps-nz\">switching from WikiCamps</a>, the good news is that a whole trip moves over in an evening."
           ],
           "tips": [
-            "Up to three trips offline",
-            "No Windows app since June 2025",
-            "Account and ads in a paid app"
+            "Harder to use since the update",
+            "Logged out, ads",
+            "Only three trips offline"
           ]
         },
         {
-          "heading": "Building the route around New Zealand's fixed points",
+          "heading": "Start at Home, finish at Home",
           "body": [
-            "Start a trip with a name and its start and end dates, then add the nights you can't move. Booked Great Walk huts, <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> that need a booking in summer and the Cook Strait sailing fix the shape of the trip, so put those stops in first and leave everything else flexible.",
-            "Adding the rest is a few taps: open the app on the map, filter for what you need, tap a place for its fees, facilities and rules, and add it to the trip. Drag the stops into the order you'll drive. Each leg then shows its distance and drive time from Apple Maps routing, and Recalculate route redraws it after a change.",
-            "Watch the drive times more than the kilometres. Winding roads, <a data-guide=\"one-lane-bridges-gravel-roads-new-zealand\">one-lane bridges</a> and passes make New Zealand legs slower than they look, and the planner shows that per leg, so you can split a long day before you book around it. Put an arrival date and a short note on each stop: the booking reference, the gate code, the last fuel before the pass."
+            "Set your home address once in the You tab, and the <a data-guide=\"plan-trip-kiwicamping\">trip planner</a> reuses it in every trip. Start at Home and Finish at Home are a single tap each.",
+            "Visiting? Any address works as a stop, so start at the airport, your rental depot or the place you're staying on the first night."
           ],
           "tips": [
-            "Fixed nights first",
-            "Map, filter, tap, add to trip",
-            "Split legs that run long"
+            "Set Home once",
+            "Start and Finish at Home",
+            "Or start at the airport"
+          ]
+        },
+        {
+          "heading": "Add any stop in KiwiCamping: places, addresses and pins",
+          "body": [
+            "Tap Add a stop and one search finds Home, your current location, your saved pins, places in the app or any address. Found a great spot that isn't listed? Drop a pin, name it and add it to the trip.",
+            "Every stop shows on the route with its distance and drive time. Drag stops into the order you'll drive, give each one an arrival date, and add a note for the booking reference or the gate code."
+          ],
+          "tips": [
+            "One search for every kind of stop",
+            "Name a pin and add it",
+            "Distance and drive time per leg"
           ],
           "table": {
             "caption": "Planning jobs and where they live in KiwiCamping's trip planner.",
@@ -28859,93 +28833,89 @@
             ],
             "rows": [
               [
+                "Start and finish",
+                "Start at Home and Finish at Home, or any address"
+              ],
+              [
+                "Add stops",
+                "Places, addresses, your location and named pins"
+              ],
+              [
                 "Put stops in order",
-                "Drag to reorder; the route redraws"
+                "Drag to reorder; the route updates"
               ],
               [
-                "Distance and drive time",
-                "Shown for every leg"
+                "Drive times",
+                "Distance and drive time for every stop"
               ],
               [
-                "Dates",
-                "An arrival date on each stop, plus trip start and end"
+                "Dates and notes",
+                "An arrival date and a note on each stop"
               ],
               [
-                "Booking details",
-                "A note on each stop"
-              ],
-              [
-                "Packing and jobs",
-                "The trip's to-do list"
-              ],
-              [
-                "Weather",
-                "Forecast for upcoming stops"
-              ],
-              [
-                "Directions",
-                "Apple Maps or Google Maps, stop to stop"
+                "Plan with your partner",
+                "Collaborate, live through iCloud"
               ]
             ]
           }
         },
         {
-          "heading": "On the road with the plan",
+          "heading": "Plan around New Zealand's fixed points",
           "body": [
-            "Mark the trip as in progress when you set off and tick each stop off as visited; Visited then fills in as a record of where you've been. The forecast for the upcoming stops is on the trip, which is the quickest way to decide whether tomorrow's exposed campsite is still a good idea.",
-            "Worth a stop nearby suggests places close to your route, handy when a campsite is full or a slip closes the road. Directions from one stop to the next open in Apple Maps or Google Maps, whichever you set, and place details stay readable without signal while the map and routing need it."
+            "Booked Great Walk huts, <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> that need a booking in summer and the Cook Strait ferry fix the shape of most trips. Add those first and keep everything between them flexible.",
+            "Watch the drive times more than the kilometres. Winding roads and passes make New Zealand <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> slower than they look, so split any leg that eats the whole day. The filters help fill the gaps: Dogs allowed, 4WD access and Caravan access sit at the top with a count beside each."
           ],
           "tips": [
-            "In progress and visited",
-            "Weather at the next stops",
-            "Worth a stop nearby"
+            "Fixed nights first",
+            "Watch drive times",
+            "Filters for the gaps"
           ]
         },
         {
-          "heading": "Calendar and sharing",
+          "heading": "On the road with your plan",
           "body": [
-            "Turn on Sync to calendar and the trip's route, arrival dates, distances, weather and <a data-guide=\"new-zealand-camping-packing-list\">packing list</a> appear in a calendar on your iPhone, next to your flights. It needs the trip's start and end dates.",
-            "To keep someone else in the loop, <a data-guide=\"share-nz-trip-plan-kiwicamping\">share the itinerary</a> as text: every stop, date, drive time and forecast, readable on any phone without the app. Your own iPhones on one Apple Account sync the trip through iCloud with no login. There is no jointly edited trip with someone on another Apple Account, so one person keeps the plan and re-sends it after changes."
+            "Tick stops off as you go, check the weather at the next ones, and use Worth a stop nearby when a campsite is full. Directions open in Apple Maps or Google Maps, whichever you like.",
+            "The You tab keeps score: a map that fills in the regions you've visited, how much of New Zealand you've seen, kilometres travelled, nights camped, and a countdown to your next trip."
           ],
           "tips": [
-            "Sync to calendar",
-            "Text itinerary for others",
-            "No jointly edited trip"
+            "Tick stops off",
+            "Worth a stop nearby",
+            "Your travel map and stats"
           ]
         },
         {
-          "heading": "What KiwiCamping's planner doesn't do",
+          "heading": "Plan together and check it on a laptop",
           "body": [
-            "There is no home or start point. A trip runs between its stops, so you can't start the route from your Airbnb or the airport. If your first night is a listed <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> or campsite near the airport, make that the first stop; directions to any stop open in Maps from wherever you are.",
-            "There is no import or export either, so a WikiCamps trip is rebuilt by hand and a KiwiCamping trip leaves the app as text or a calendar. And it is iPhone only, with no laptop app. For the big-picture question of how far to drive each day, pair the app with the <a data-guide=\"new-zealand-driving-day-planner\">driving day</a> planner on this website, then put the result into a trip. It is free to download, with in-app purchases."
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Share the trip</a> with Collaborate and your partner can add, reorder and tick off stops with you, live. Send copy gives a link that opens in any web browser, so you can look over the plan on a laptop at home.",
+            "Share as image makes a picture of the route, stops, dates and nights for the family chat. Turn on Sync to calendar and the trip lands in your calendar too. KiwiCamping is free to download, with in-app purchases."
           ],
           "tips": [
-            "No home or start point",
-            "No import or export",
-            "Use the website's driving day planner"
+            "Collaborate live",
+            "Open it on a laptop",
+            "Calendar sync"
           ]
         }
       ],
       "faq": [
         [
           "What is the best trip planner app for New Zealand?",
-          "For a camping road trip, KiwiCamping, which we make, plans stops in driving order with distance, drive time, dates and weather per stop, with no account and no ads. Our road trip planner apps guide compares others."
+          "For a camping road trip, KiwiCamping, which we make: start at home or any address, add places and pins, see drive times, and plan live with your partner, with no account and no ads."
         ],
         [
           "How do I plan a campervan route in NZ?",
-          "Fix the booked nights and the ferry first, then add stops in driving order and check the drive time for each leg. Keep most days to three or four hours of driving."
+          "Add the booked nights and the ferry first, then fill in stops in driving order. Keep most days to three or four hours of driving."
         ],
         [
           "Can I export my WikiCamps trip?",
-          "KiwiCamping has no import, so rebuild the trip: list your WikiCamps stops, then add them in KiwiCamping starting with the booked nights."
+          "Write your WikiCamps stops down and rebuild the route in KiwiCamping. One search covers campsites, street addresses and your own pins."
         ],
         [
           "Does KiwiCamping show driving times between stops?",
-          "Yes. Every leg of a trip shows its distance and drive time from Apple Maps routing, and the route recalculates when you reorder stops."
+          "Yes. Each leg of the route lists how far it is and how long the drive takes."
         ],
         [
           "Can I start a trip from my accommodation or the airport?",
-          "Only if that place is in KiwiCamping's directory, such as a holiday park; add it as the first stop. There is no custom start or home point yet."
+          "Yes. Use Start at Home with your saved home address, or add any address, such as the airport, as the first stop."
         ]
       ],
       "sources": [
