@@ -76,6 +76,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | freedom-camping-marlborough-2026 | 6 (Using KiwiCamping around Marlborough) | Inbox: kiwicamping_guides_picton-christchurch-kaikoura_map.png | KiwiCamping on iPhone: a Picton to Christchurch route on a map above a seven-day forecast for Picton and Marlborough |
 | freedom-camping-rotorua-2026 | 7 (Using KiwiCamping around Rotorua) | Inbox: kiwicamping_place-detail_forest-waters_top.png | KiwiCamping on iPhone: a holiday park's page in Northland with its Paid label, rating and a Book now button |
 | hipcamp-alternatives | 1 (1. KiwiCamping: best for public sites and a dated trip plan) | Inbox: kiwicamping_collections_my-collections_list-expanded.png | KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops |
+| wikicamps-nz-account-login | 3 (KiwiCamping: open the app and see the map) | kiwicamping_map-pins_mackenzie.png (copy of best-travel-apps-new-zealand) | KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
