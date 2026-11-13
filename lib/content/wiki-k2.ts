@@ -276,4 +276,67 @@ export const wikiK2Articles: Article[] = [
       { label: "Apple: iCloud", url: "https://www.apple.com/nz/icloud/" },
     ],
   }),
+  a({
+    slug: "wikicamps-nz-trip-planner-alternative",
+    title: "WikiCamps Trip Planner Alternative for NZ Road Trips",
+    description: "Used WikiCamps' trip planner for New Zealand? Plan a NZ road trip in KiwiCamping: stops in driving order, distance per leg, arrival dates and weather, with no login.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["Trip planner", "Route distance", "Cook Strait", "Great Walks", "DOC campsites", "Calendar sync"],
+    imageAlt: "A sealed highway winding through tussock hills towards a mountain pass in Otago",
+    related: ["plan-trip-kiwicamping", "road-trip-planner-apps-new-zealand", "new-zealand-driving-day-planner", "two-week-new-zealand-trip-cost", "north-island-vs-south-island-campervan", "share-nz-trip-plan-kiwicamping", "switch-from-wikicamps-nz"],
+    hubs: ["camping"],
+    intro:
+      "If the WikiCamps trip planner was how you mapped out New Zealand and you want something simpler, KiwiCamping plans the same road trip: stops in driving order, the distance and drive time for every leg, an arrival date on each stop and the weather where you'll be. It opens straight to the map with no account and shows no ads. We make KiwiCamping, so this is our pitch, built around how New Zealand trips really run: slow roads, booked DOC nights and a ferry in the middle.",
+    sections: [
+      s("What WikiCamps trip planner users run into", [
+        "As of November 2026, WikiCamps' planner is still being developed: copying places between trips in March 2026, and shared trip links that open in the app in October 2026. Its Offline Mode keeps up to three planned trips without signal, by WikiCamps' own description. The planner also sits behind the WikiCamps login that version 6 brought, and the Google Play listing for WikiCamps NZ, a paid app, says it contains ads.",
+        "Reviews of WikiCamps Australia, where the rebuilt app has run longest, show what planners miss. \"Since they removed the PC capability it has become very awkward to plan a trip\" (28 July 2026), after the Windows app stopped working in June 2025. \"The share trip planner won't share, just gives a login error\" (18 January 2026). \"Should be able to share a trip and have it live update\" (1 September 2025). These are a handful of reviews from one country, so take them as themes rather than verdicts.",
+      ], ["Up to three trips offline", "No Windows app since June 2025", "Account and ads in a paid app"]),
+      s("Building the route around New Zealand's fixed points", [
+        "Start a trip with a name and its start and end dates, then add the nights you can't move. Booked Great Walk huts, DOC campsites that need a booking in summer and the Cook Strait sailing fix the shape of the trip, so put those stops in first and leave everything else flexible.",
+        "Adding the rest is a few taps: open the app on the map, filter for what you need, tap a place for its fees, facilities and rules, and add it to the trip. Drag the stops into the order you'll drive. Each leg then shows its distance and drive time from Apple Maps routing, and Recalculate route redraws it after a change.",
+        "Watch the drive times more than the kilometres. Winding roads, one-lane bridges and passes make New Zealand legs slower than they look, and the planner shows that per leg, so you can split a long day before you book around it. Put an arrival date and a short note on each stop: the booking reference, the gate code, the last fuel before the pass.",
+      ], ["Fixed nights first", "Map, filter, tap, add to trip", "Split legs that run long"], {
+        cta: true,
+        table: {
+          caption: "Planning jobs and where they live in KiwiCamping's trip planner.",
+          head: ["Job", "In KiwiCamping"],
+          rows: [
+            ["Put stops in order", "Drag to reorder; the route redraws"],
+            ["Distance and drive time", "Shown for every leg"],
+            ["Dates", "An arrival date on each stop, plus trip start and end"],
+            ["Booking details", "A note on each stop"],
+            ["Packing and jobs", "The trip's to-do list"],
+            ["Weather", "Forecast for upcoming stops"],
+            ["Directions", "Apple Maps or Google Maps, stop to stop"],
+          ],
+        },
+      }),
+      s("On the road with the plan", [
+        "Mark the trip as in progress when you set off and tick each stop off as visited; Visited then fills in as a record of where you've been. The forecast for the upcoming stops is on the trip, which is the quickest way to decide whether tomorrow's exposed campsite is still a good idea.",
+        "Worth a stop nearby suggests places close to your route, handy when a campsite is full or a slip closes the road. Directions from one stop to the next open in Apple Maps or Google Maps, whichever you set, and place details stay readable without signal while the map and routing need it.",
+      ], ["In progress and visited", "Weather at the next stops", "Worth a stop nearby"]),
+      s("Calendar and sharing", [
+        "Turn on Sync to calendar and the trip's route, arrival dates, distances, weather and packing list appear in a calendar on your iPhone, next to your flights. It needs the trip's start and end dates.",
+        "To keep someone else in the loop, share the itinerary as text: every stop, date, drive time and forecast, readable on any phone without the app. Your own iPhones on one Apple Account sync the trip through iCloud with no login. There is no jointly edited trip with someone on another Apple Account, so one person keeps the plan and re-sends it after changes.",
+      ], ["Sync to calendar", "Text itinerary for others", "No jointly edited trip"]),
+      s("What KiwiCamping's planner doesn't do", [
+        "There is no home or start point. A trip runs between its stops, so you can't start the route from your Airbnb or the airport. If your first night is a listed holiday park or campsite near the airport, make that the first stop; directions to any stop open in Maps from wherever you are.",
+        "There is no import or export either, so a WikiCamps trip is rebuilt by hand and a KiwiCamping trip leaves the app as text or a calendar. And it is iPhone only, with no laptop app. For the big-picture question of how far to drive each day, pair the app with the driving day planner on this website, then put the result into a trip. It is free to download, with in-app purchases.",
+      ], ["No home or start point", "No import or export", "Use the website's driving day planner"]),
+    ],
+    faq: [
+      ["What is the best trip planner app for New Zealand?", "For a camping road trip, KiwiCamping, which we make, plans stops in driving order with distance, drive time, dates and weather per stop, with no account and no ads. Our road trip planner apps guide compares others."],
+      ["How do I plan a campervan route in NZ?", "Fix the booked nights and the ferry first, then add stops in driving order and check the drive time for each leg. Keep most days to three or four hours of driving."],
+      ["Can I export my WikiCamps trip?", "KiwiCamping has no import, so rebuild the trip: list your WikiCamps stops, then add them in KiwiCamping starting with the booked nights."],
+      ["Does KiwiCamping show driving times between stops?", "Yes. Every leg of a trip shows its distance and drive time from Apple Maps routing, and the route recalculates when you reorder stops."],
+      ["Can I start a trip from my accommodation or the airport?", "Only if that place is in KiwiCamping's directory, such as a holiday park; add it as the first stop. There is no custom start or home point yet."],
+    ],
+    sources: [
+      { label: "DOC: Great Walks", url: "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/" },
+      { label: "DOC: places to stay", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "NZTA Journeys: road conditions and closures", url: "https://www.journeys.nzta.govt.nz/" },
+    ],
+  }),
 ];

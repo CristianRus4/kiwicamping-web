@@ -80,6 +80,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | does-wikicamps-nz-work-offline | 2 (KiwiCamping: no sign-in, no download, details on your phone) | copy of wikicamps-alternatives | KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app |
 | switch-from-wikicamps-nz | 6 (What you gain with KiwiCamping, and what you give up) | copy of rankers-alternatives | KiwiCamping on iPhone: a Want to Visit collection of saved places |
 | share-nz-trip-plan-kiwicamping | 0 (What Share trip sends) | copy of hump-ridge-track-huts-booking-2026-27 | KiwiCamping on iPhone: a trip itinerary of ordered stops with the distance and drive time between them |
+| wikicamps-nz-trip-planner-alternative | 1 (Building the route around New Zealand's fixed points) | copy of queenstown-to-milford-sound-drive-guide | KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time between each pair |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
