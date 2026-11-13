@@ -2267,6 +2267,20 @@
       }
     ]
   },
+  "/images/articles/is-wikicamps-nz-free.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/is-wikicamps-nz-free-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/is-wikicamps-nz-free.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/is-wikicamps-nz-worth-it.webp": {
     "width": 1600,
     "height": 900,
@@ -4403,6 +4417,20 @@
       },
       {
         "path": "/images/screens/hump-ridge-track-huts-booking-2026-27.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/is-wikicamps-nz-free.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/is-wikicamps-nz-free-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/is-wikicamps-nz-free.webp",
         "width": 1600
       }
     ]
