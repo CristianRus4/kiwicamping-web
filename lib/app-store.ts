@@ -9,9 +9,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  * dl the /download redirect · llms llms.txt · listicle "best apps" and "alternatives" comparison
  * guides (their in-article and end CTAs) · ig, tt, fb social bio links opened from Instagram, TikTok or
  * Facebook (lib/social.ts) · ans the download line right after a page's opening answer (components/answer-cta.tsx) ·
- * intro the app sentence at the end of a guide's first paragraph (components/intro-cta.tsx)
+ * intro the app sentence at the end of a guide's first paragraph (components/intro-cta.tsx) ·
+ * place the store button on a place page · trip the store button on a trip shared from the app (/trip/)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro", "place"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro", "place", "trip"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** `en` for the English site, otherwise the locale's URL segment (`de`, `zh-hans`, ...). */
@@ -43,9 +44,11 @@ export function appStoreUrl({ placement, locale = "en" }: { placement: CtaPlacem
 
 /**
  * The Smart App Banner's meta content. `affiliate-data` carries the campaign so banner installs are
- * attributed like any other link; it is omitted when no provider token is configured.
+ * attributed like any other link; it is omitted when no provider token is configured. Place pages pass
+ * their absolute URL as `appArgument`, so the app opens that place from the banner, even after install.
  */
-export function smartBannerContent(locale: CtaLocale = "en", providerToken: string = APPLE_PROVIDER_TOKEN): string {
+export function smartBannerContent(locale: CtaLocale = "en", providerToken: string = APPLE_PROVIDER_TOKEN, appArgument?: string): string {
   const ct = campaignToken("sb", locale);
-  return providerToken ? `app-id=${APP_ID}, affiliate-data=pt=${providerToken}&ct=${ct}` : `app-id=${APP_ID}`;
+  const argument = appArgument ? `, app-argument=${appArgument}` : "";
+  return providerToken ? `app-id=${APP_ID}, affiliate-data=pt=${providerToken}&ct=${ct}${argument}` : `app-id=${APP_ID}${argument}`;
 }

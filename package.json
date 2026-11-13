@@ -18,6 +18,7 @@
     "hubs:check": "tsx scripts/audit-hubs.mjs",
     "data:export": "node scripts/export-app-data.mjs",
     "places:export": "node --no-warnings scripts/export-places.mjs",
+    "places:links": "node scripts/place-links.mjs",
     "images:manifest": "node scripts/build-image-manifest.mjs",
     "images:credits": "node scripts/build-image-credits.mjs",
     "images:og": "node scripts/build-og-images.mjs",

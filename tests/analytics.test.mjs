@@ -151,6 +151,7 @@ test("campaign links: plain without a provider token, pt/ct/mt with one", () => 
   assert.equal(appStoreUrl({ placement: "hero", locale: "zh-hans" }, "118473920"), `${APP_STORE_URL}?pt=118473920&ct=w_hero_zh-hans&mt=8`);
   assert.equal(smartBannerContent("de", ""), "app-id=6746952595");
   assert.equal(smartBannerContent("de", "118473920"), "app-id=6746952595, affiliate-data=pt=118473920&ct=w_sb_de");
+  assert.equal(smartBannerContent("en", "118473920", "https://campingapp.nz/places/x/y/"), "app-id=6746952595, affiliate-data=pt=118473920&ct=w_sb_en, app-argument=https://campingapp.nz/places/x/y/");
   assert.throws(() => campaignToken("hero", "EN"), /Invalid/);
   assert.throws(() => campaignToken("hero", "x".repeat(40)), /Invalid/);
 });
