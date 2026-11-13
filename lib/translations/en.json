@@ -37205,7 +37205,7 @@
       "description": "WikiCamps NZ costs NZ$7.99 once and now needs an account. What changed with the new version, who it suits, and when KiwiCamping fits a NZ trip better.",
       "region": "New Zealand",
       "imageAlt": "A white motorhome parked on open grass in front of dense bush on the West Coast",
-      "intro": "Is WikiCamps NZ worth it? For many trips, yes: it costs NZ$7.99 once, runs on iPhone and Android, and lists more than 12,000 New Zealand sites that its users have added. Whether it is worth it for your trip depends on what you need from an app, because since August 2025 it is a rebuilt app that asks you to sign in, and its strength is community listings rather than the Department of Conservation's own records. We make KiwiCamping, a New Zealand camping app for iPhone, so read our view with that in mind. Below is what changed in WikiCamps NZ, what travellers say about it as of November 2026, and which kind of New Zealand trip suits which app.",
+      "intro": "Is WikiCamps NZ worth it? For many trips, yes: it costs NZ$7.99 once, runs on iPhone and Android, and lists more than 12,000 New Zealand sites that its users have added. Whether it is worth it for your trip depends on what you need from an app, because since August 2025 it is a rebuilt app that asks you to sign in, and its strength is community listings rather than the Department of Conservation's own records. We make KiwiCamping, a New Zealand camping app for iPhone with no account to sign into, so read our view with that in mind. Below is what changed in WikiCamps NZ, what travellers say about it as of November 2026, and which kind of New Zealand trip suits which app.",
       "sections": [
         {
           "heading": "The short answer",
@@ -37290,10 +37290,22 @@
           ]
         },
         {
+          "heading": "No login, and straight to the map",
+          "body": [
+            "Sign-in is where the rebuild has stung most. About 39 of those 150 reviews of WikiCamps Australia mention signing in or being signed out, often somewhere with <a data-guide=\"kiwicamping-offline-data-guide\">no reception</a>, where getting back in needs signal. KiwiCamping has no account at all: nothing to sign into, no code to wait for in your inbox, and no chance of being logged out at a campsite halfway down the West Coast.",
+            "The other big theme, in about 68 of the 150, is that the new app is harder to use. KiwiCamping keeps the steps few. Open it and you are on the map of New Zealand. Pick a filter such as Campervans or Toilets, tap a place to read its fees, facilities and DOC's notes, and add it to a trip from that same page."
+          ],
+          "tips": [
+            "No account, no code, no sign-out",
+            "Opens on the map",
+            "Filter, tap, add to a trip"
+          ]
+        },
+        {
           "heading": "What KiwiCamping does differently",
           "body": [
             "KiwiCamping starts from DOC rather than from user listings. In its August 2026 data the app holds 287 DOC campsites, 927 DOC huts with 7,661 bunks and 1,453 DOC tracks, and each DOC place shows the fee, dog rules and booking requirement DOC publishes, with a link to DOC's own page. It also carries 354 DOC <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> notices across 35 districts, which show where camping on conservation land is prohibited or restricted. Those notices are DOC's, not council bylaws, so towns and beaches still need the council's rules.",
-            "There is no account. Your saved places, collections and trips sync through your own iCloud between your own Apple devices, and nobody else sees them. Place names, fees, facilities and written guides are bundled in the app, so they stay readable in a valley with <a data-guide=\"kiwicamping-offline-data-guide\">no reception</a>. Map tiles, routing, weather and photos still need signal, so KiwiCamping is not an offline map.",
+            "Your saved places, collections and trips sync through your own iCloud between your own Apple devices, and nobody else sees them. Place names, fees, facilities and written guides are bundled in the app, so they stay readable in a valley with <a data-guide=\"kiwicamping-offline-data-guide\">no reception</a>. Map tiles, routing, weather and photos still need signal, so KiwiCamping is not an offline map.",
             "Filters use plain names: Dogs allowed, No dogs, 4WD access, Walk-in only, Campervans, Caravans, Powered sites, Toilets, Hot showers, Water supply, Treated tap water, <a data-guide=\"campfire-rules-new-zealand\">Campfires</a> allowed and Wheelchair accessible, plus cost. Choose several and a place has to have all of them, so Campervans, Toilets and Water supply together leave only sites with all three. Set the cost to free and you see DOC's free campsites, 63 of them in the August 2026 data, next to the paid ones.",
             "The <a data-guide=\"plan-trip-kiwicamping\">trip planner</a> puts your stops in driving order with an arrival date, a note, the weather and the distance and drive time for each leg, and it suggests places worth a stop nearby. There are no ads anywhere in the app, and KiwiCamping is independent: no holiday-park group owns it. What you give up: KiwiCamping is iPhone only, it has no traveller reviews or photos, and it lists fewer places than WikiCamps."
           ],
