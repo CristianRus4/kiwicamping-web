@@ -28214,7 +28214,7 @@
     },
     "wikicamps-nz-account-login": {
       "title": "WikiCamps Login: Does WikiCamps NZ Need an Account in 2027?",
-      "description": "WikiCamps NZ needs an account and an emailed code to sign in. Why that's a pain on a NZ road trip, and how KiwiCamping works with no login at all.",
+      "description": "Does WikiCamps NZ need an account in 2027? Yes, with an emailed code to sign in. Why that's a pain on a NZ road trip, and how KiwiCamping works with no login at all.",
       "region": "New Zealand",
       "imageAlt": "A white campervan parked alone in a grassy clearing below native bush on the West Coast",
       "intro": "Yes. Since WikiCamps' big update, WikiCamps NZ needs an account, and you sign in with a code sent to your email. KiwiCamping skips all of that: there is no account, so you open the app and you're straight on the map. We make KiwiCamping, and here's what having no login means on a New Zealand road trip.",
@@ -28282,7 +28282,7 @@
           "heading": "Open it and you're on the map",
           "body": [
             "There's no welcome screen to get past. The map of New Zealand is the first thing you see, with campsites, huts and <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> around you.",
-            "Tap <a data-guide=\"kiwicamping-filters-guide\">filters</a> and the popular ones sit at the top with a count beside each: Dogs allowed, 4WD access and Caravan access. Pick a few and every place shown matches all of them. Tap a place for its fees, facilities and rules, then add it to your trip.",
+            "Tap <a data-guide=\"kiwicamping-filters-guide\">filters</a> and the popular ones sit at the top: Dogs allowed, 4WD access and Caravan access. Pick a few and every place shown matches all of them. Tap a place for its fees, facilities and rules, then add it to your trip.",
             "Place details, your saved places and your trips all stay on the phone, so they still open <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a>."
           ],
           "tips": [
@@ -28353,7 +28353,7 @@
     },
     "does-wikicamps-nz-work-offline": {
       "title": "Does WikiCamps NZ Work Offline? No-Signal Camping in 2027",
-      "description": "WikiCamps' Offline Mode keeps maps and up to three trips after a download. KiwiCamping keeps every DOC campsite, hut and your trips on the phone, no download.",
+      "description": "Does WikiCamps NZ work offline in 2027? Partly, after a download and with an account. KiwiCamping keeps every DOC campsite, hut and all your trips on the phone, no download.",
       "region": "New Zealand",
       "imageAlt": "Mitre Peak rising above the still water of Milford Sound at the end of the Milford Road",
       "intro": "Partly. WikiCamps' Offline Mode keeps its maps and up to three planned trips on your phone once you've downloaded them, but you still need an account, and that can get in the way with no signal. KiwiCamping keeps every DOC campsite, hut and track, and all of your trips, on your phone from the moment you install it, with nothing to download and nothing to sign into. We make KiwiCamping; here's how both apps handle the long stretches with no bars.",
@@ -28365,7 +28365,7 @@
             "The catch is the account. Many WikiCamps users say the app logs them out now and then, and the <a data-guide=\"wikicamps-nz-account-login\">WikiCamps login</a> needs signal to get back in. Being stuck at a sign-in screen in a valley with no coverage is the last thing you want."
           ],
           "tips": [
-            "Offline maps after a download",
+            "Download first",
             "Up to three planned trips",
             "Signing back in needs signal"
           ]
@@ -28393,7 +28393,7 @@
               [
                 "Download before you go",
                 "Yes, in Offline Mode",
-                "No, it's built in"
+                "No, place details are built in"
               ],
               [
                 "Your planned trips",
@@ -28404,11 +28404,6 @@
                 "Account to sign into",
                 "Yes",
                 "None"
-              ],
-              [
-                "DOC campsite and hut details",
-                "From the download",
-                "Always on your phone"
               ]
             ]
           }
@@ -28416,11 +28411,11 @@
         {
           "heading": "Pick tonight's spot before the bars drop",
           "body": [
-            "Some of the best drives in the country, like the Haast Pass, the Milford Road and the Catlins, are where you're most likely to lose signal. Sort tonight out in the last town.",
-            "Open the <a data-guide=\"kiwicamping-filters-guide\">filters</a> and choose what matters: Dogs allowed, 4WD access or Caravan access sit at the top with a count beside each, and a place has to match every filter you pick. Add your favourite to the trip, plus a fallback nearby, and you're set for the night."
+            "Some of the best drives in the country, like the Haast Pass, the Milford Road and the Catlins, are where you're most likely to lose signal. That's exactly where having every place's details on the phone pays off.",
+            "Open the <a data-guide=\"kiwicamping-filters-guide\">filters</a> and choose what matters: Dogs allowed, 4WD access or Caravan access sit at the top, and a place has to match every filter you pick. Add your favourite to the trip, plus a fallback nearby, and you're set for the night."
           ],
           "tips": [
-            "Plan in the last town",
+            "Details with no bars",
             "Filters that match all your choices",
             "Save a fallback too"
           ]
@@ -28440,7 +28435,7 @@
         {
           "heading": "Your whole trip in your pocket",
           "body": [
-            "Every trip keeps its stops in driving order with your dates and notes, and you can tick stops off as you go. Directions hand over to Apple Maps or Google Maps, whichever you prefer.",
+            "Every trip keeps its stops in driving order with your dates and notes, and you can tick stops off as you go. The To-do list keeps the jobs for each day in the same place.",
             "The You tab fills in a map of where you've been, with the nights camped and kilometres travelled adding up as the trip goes on."
           ],
           "tips": [
@@ -28495,7 +28490,7 @@
         {
           "heading": "Why campers are switching from WikiCamps NZ",
           "body": [
-            "Lots of WikiCamps users say the new version is harder to use, keeps logging them out and shows ads in an app they paid for. If <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ is not working</a> for you any more, you don't have to keep wrestling with it.",
+            "Plenty of WikiCamps users find the new version a chore: harder to use, quick to log them out, and full of ads they never expected after paying. If <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ is not working</a> for you any more, you don't have to keep wrestling with it.",
             "KiwiCamping opens straight to the map, with no account, no login and no ads. You'll have DOC's campsites, huts and tracks at your fingertips, <a data-guide=\"kiwicamping-filters-guide\">filters</a> that match everything you pick, and a trip you can plan together with your partner."
           ],
           "tips": [
@@ -28518,11 +28513,11 @@
         {
           "heading": "Step 2: booked nights and the ferry first",
           "body": [
-            "Create a trip, then tap Add a stop and search for each booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or Great Walk hut. Give each stop its arrival date and pop the booking reference in its note.",
+            "Create a trip, then tap Add stop and search for each booked <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsite</a> or Great Walk hut. Give each stop its arrival date and pop the booking reference in its note.",
             "Next, the <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> crossing. Add the ferry terminal by its address, then the last night before it and the first night after. Once these fixed points are in, the rest of the trip falls into place around them."
           ],
           "tips": [
-            "Add a stop for each booking",
+            "Add stop for each booking",
             "Dates and booking notes",
             "Ferry terminal by address"
           ]
@@ -28530,20 +28525,20 @@
         {
           "heading": "Step 3: every other spot, even unlisted ones",
           "body": [
-            "The same Add a stop search finds places in the app, any street address, your current location and your saved pins. Got a favourite spot that isn't listed anywhere? Drop a pin on the map, give it a name and add it to the trip.",
+            "The same Add stop search finds places in the app, any street address, your current location and your saved pins. Got a favourite spot that isn't listed anywhere? Drop a pin on the map and tap Add to trip.",
             "Every stop shows on the route with its distance and drive time, so you can see straight away whether a day is too long. Tap Start at Home or Finish at Home to bookend the trip with the address you saved in the You tab."
           ],
           "tips": [
             "Places, addresses and pins",
-            "Name a pin and add it",
+            "Drop a pin, add to trip",
             "Distance and drive time for every stop"
           ]
         },
         {
           "heading": "Step 4: your favourites and lists in KiwiCamping",
           "body": [
-            "Like or star the places you loved, and mark the ones you still want to see as Want to visit. These lists fill themselves as you go.",
-            "Your own WikiCamps lists become <a data-guide=\"save-places-kiwicamping\">collections</a>, each with an icon, a colour and a cover photo. One per island works well. Your tips for a place go in its private note."
+            "Like or star the places you loved, and mark the ones you still want to see as Want to visit.",
+            "Your own WikiCamps lists become <a data-guide=\"save-places-kiwicamping\">collections</a> of your own, and one per island works well. Your tips for a place go in its private note."
           ],
           "tips": [
             "Liked, Starred, Want to visit",
@@ -28571,11 +28566,11 @@
               ],
               [
                 "Your trip",
-                "A trip with dated stops, from Add a stop"
+                "A trip with dated stops, from Add stop"
               ],
               [
                 "A secret spot",
-                "A named pin, added to the trip"
+                "A dropped pin, added to the trip"
               ],
               [
                 "Notes on a site",
@@ -28588,7 +28583,7 @@
           "heading": "Step 5: freedom camping nights",
           "body": [
             "Don't just copy old freedom camping spots across: check the <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> again. DOC's notices for conservation land are in KiwiCamping, and council bylaws are on each council's website.",
-            "Then let the <a data-guide=\"kiwicamping-filters-guide\">filters</a> find you somewhere new. Dogs allowed, 4WD access and Caravan access sit at the top with a count beside each, the cost filter brings up DOC's free and low-cost campsites, and every place shown matches all the filters you choose."
+            "Then let the <a data-guide=\"kiwicamping-filters-guide\">filters</a> find you somewhere new. Dogs allowed, 4WD access and Caravan access sit at the top, the Cost filter brings up DOC's free and low-cost campsites, and every place shown matches all the filters you choose."
           ],
           "tips": [
             "DOC notices in the app",
@@ -28612,7 +28607,7 @@
       "faq": [
         [
           "Can I export my trip from WikiCamps?",
-          "The quickest move is a list or screenshots of your WikiCamps trip. Then add each stop in KiwiCamping with Add a stop, which finds places, addresses and pins."
+          "The quickest move is a list or screenshots of your WikiCamps trip. Then add each stop in KiwiCamping with Add stop, which finds places, addresses and pins."
         ],
         [
           "How do I move my saved campsites to another app?",
@@ -28620,7 +28615,7 @@
         ],
         [
           "Can I add a spot that isn't listed?",
-          "Yes. Drop a pin, name it and add it to your trip, or add any address with Add a stop."
+          "Yes. Drop a pin and tap Add to trip, or add any address with Add stop."
         ],
         [
           "Can my partner and I plan the trip together?",
@@ -28655,7 +28650,7 @@
           "heading": "Three ways to share a road trip itinerary from KiwiCamping",
           "body": [
             "Each option suits a different person. Your travel partner gets the real trip to edit, family at home get a link that just works, and the group chat gets a picture worth looking at.",
-            "None of them needs an account or a login. Sharing runs through the iCloud already on your iPhone."
+            "None of them needs an account or a login, and Collaborate runs through the iCloud already on your iPhone."
           ],
           "tips": [
             "Collaborate for your partner",
@@ -28726,7 +28721,7 @@
         {
           "heading": "Send one place",
           "body": [
-            "Sharing a single campsite, hut or <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> sends its page with a photo preview. Anyone who has KiwiCamping opens it straight in the app.",
+            "Sharing a single campsite, hut or <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> sends its page with a photo preview. Anyone who has KiwiCamping opens it straight in the app, and everyone else gets the web page.",
             "It's ideal for travelling in two vans: send tonight's spot and everyone knows where to meet."
           ],
           "tips": [
@@ -28738,7 +28733,7 @@
           "heading": "Keep the family in the loop",
           "body": [
             "Put an arrival date on every stop before you share, so family can follow along day by day and see how long your <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> are. Send a fresh copy after big changes.",
-            "Tell them about the quiet stretches too. A day without reception on the West Coast or in Fiordland is normal, and dated stops show them you're simply between towns. Turn on Sync to calendar for a trip and its stops, dates and <a data-guide=\"new-zealand-camping-packing-list\">packing list</a> land in your calendar as well.",
+            "Tell them about the quiet stretches too. A day <a data-guide=\"kiwicamping-offline-data-guide\">without reception</a> on the West Coast or in Fiordland is normal, and dated stops show them you're simply between towns. Turn on Sync to calendar for a trip and its stops and dates land in your calendar as well.",
             "Heading into the hills? Leave your route and an overdue time with someone you trust, as the Mountain Safety Council's Plan My Walk and AdventureSmart advise."
           ],
           "tips": [
@@ -28767,7 +28762,7 @@
         ],
         [
           "Can I put my trip in my calendar?",
-          "Yes. Turn on Sync to calendar for the trip, and its stops, dates and packing list appear in your calendar."
+          "Yes. Turn on Sync to calendar for the trip, and its stops and dates appear in your calendar."
         ]
       ],
       "sources": [
@@ -28793,13 +28788,13 @@
         {
           "heading": "Why WikiCamps trip planner users look elsewhere",
           "body": [
-            "Since WikiCamps' big update, many planners say the app has become fiddly, signs them out at the worst moments and shows ads they didn't expect in an app they paid for. Planners also miss the old computer version, and <a data-guide=\"does-wikicamps-nz-work-offline\">WikiCamps Offline Mode</a> only keeps three trips.",
+            "Since WikiCamps' big update, many planners say the app has become fiddly, signs them out at the worst moments and shows ads they didn't expect in an app they paid for.",
             "If you're <a data-guide=\"switch-from-wikicamps-nz\">switching from WikiCamps</a>, the good news is that a whole trip moves over in an evening."
           ],
           "tips": [
-            "Harder to use since the update",
-            "Logged out, ads",
-            "Only three trips offline"
+            "Fiddly since the update",
+            "Logged out at the worst moments",
+            "Ads in a paid app"
           ]
         },
         {
@@ -28817,12 +28812,12 @@
         {
           "heading": "Add any stop in KiwiCamping: places, addresses and pins",
           "body": [
-            "Tap Add a stop and one search finds Home, your current location, your saved pins, places in the app or any address. Found a great spot that isn't listed? Drop a pin, name it and add it to the trip.",
-            "Every stop shows on the route with its distance and drive time. Drag stops into the order you'll drive, give each one an arrival date, and add a note for the booking reference or the gate code."
+            "Tap Add stop and one search finds Home, your current location, your saved pins, places in the app or any address. Found a great spot that isn't listed? Drop a pin and tap Add to trip.",
+            "The route redraws with the kilometres and driving time for each leg. Drag stops into the order you'll drive, give each one an arrival date, and add a note for the booking reference or the gate code."
           ],
           "tips": [
             "One search for every kind of stop",
-            "Name a pin and add it",
+            "Pins go straight in",
             "Distance and drive time per leg"
           ],
           "table": {
@@ -28838,7 +28833,7 @@
               ],
               [
                 "Add stops",
-                "Places, addresses, your location and named pins"
+                "Places, addresses, your location and pins"
               ],
               [
                 "Put stops in order",
@@ -28863,7 +28858,7 @@
           "heading": "Plan around New Zealand's fixed points",
           "body": [
             "Booked Great Walk huts, <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> that need a booking in summer and the Cook Strait ferry fix the shape of most trips. Add those first and keep everything between them flexible.",
-            "Watch the drive times more than the kilometres. Winding roads and passes make New Zealand <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> slower than they look, so split any leg that eats the whole day. The filters help fill the gaps: Dogs allowed, 4WD access and Caravan access sit at the top with a count beside each."
+            "Watch the drive times more than the kilometres. Winding roads and passes make New Zealand <a data-guide=\"new-zealand-driving-day-planner\">driving days</a> slower than they look, so split any leg that eats the whole day. The filters help fill the gaps, with Dogs allowed, 4WD access and Caravan access at the top."
           ],
           "tips": [
             "Fixed nights first",
@@ -28874,12 +28869,12 @@
         {
           "heading": "On the road with your plan",
           "body": [
-            "Tick stops off as you go, check the weather at the next ones, and use Worth a stop nearby when a campsite is full. Directions open in Apple Maps or Google Maps, whichever you like.",
+            "Tick stops off as you go and check the weather at the next ones. Keep the shopping, bookings and ferry check-in on the trip's To-do list.",
             "The You tab keeps score: a map that fills in the regions you've visited, how much of New Zealand you've seen, kilometres travelled, nights camped, and a countdown to your next trip."
           ],
           "tips": [
             "Tick stops off",
-            "Worth a stop nearby",
+            "Weather and a To-do list",
             "Your travel map and stats"
           ]
         },
@@ -37924,7 +37919,7 @@
       "description": "Is WikiCamps NZ worth it in 2027? It costs NZ$7.99, needs an account and shows ads. Why campers are switching to KiwiCamping: no login, no ads and every DOC campsite on one map.",
       "region": "New Zealand",
       "imageAlt": "A white motorhome parked on open grass in front of dense bush on the West Coast",
-      "intro": "Is WikiCamps NZ worth it in 2027? It only costs NZ$7.99, but since WikiCamps' big update you need an account to use it, and the app shows ads even though you paid for it. Lots of users also say the new version is harder to use and keeps logging them out. We make KiwiCamping, a New Zealand camping app with no account, no ads and every DOC campsite, hut and track on one map, and this is why so many campers are making the switch.",
+      "intro": "Is WikiCamps NZ worth it in 2027? It only costs NZ$7.99, but since WikiCamps' big update you need an account to use it, and the app shows ads even though you paid for it. Lots of users also say the new version is harder to use and keeps logging them out. We make KiwiCamping, a New Zealand camping app with no account, no ads and every DOC campsite, hut and track on one map, and here is why it is worth the switch.",
       "sections": [
         {
           "heading": "Is WikiCamps NZ worth it? The short answer",
@@ -37976,7 +37971,7 @@
         {
           "heading": "No login, no ads, straight to the map",
           "body": [
-            "Open KiwiCamping and you are already looking at the map of New Zealand. There is no account to create, no password to remember and no code to wait for, so it behaves the same at a West Coast campsite as it does at the airport.",
+            "Open KiwiCamping and you are already looking at the map of New Zealand. There is no account to create, no password to remember and no code to wait for, so there is nothing to get stuck behind at a West Coast campsite.",
             "Pick a filter, tap a place to see its fees and facilities, and add it to your trip. That is the whole routine. There are no ads anywhere, and your saved places and trips sync privately through the iCloud already on your iPhone."
           ],
           "tips": [
@@ -38000,8 +37995,8 @@
         {
           "heading": "Filters that find the right spot",
           "body": [
-            "Dogs allowed, 4WD access and Caravan access sit at the top of the filter sheet, each with a count of matching places. Below them you will find Walk-in only, Campervans, Powered sites, Hot showers, Water supply, Treated tap water, <a data-guide=\"campfire-rules-new-zealand\">Campfires</a> allowed and more.",
-            "Choose several and a place has to have every one of them, so Campervans, Hot showers and Dogs allowed together only show spots that tick all three boxes. Many WikiCamps users say its <a data-guide=\"kiwicamping-filters-guide\">filters</a> now show places that match any choice instead. Set the cost to free in KiwiCamping and DOC's free campsites appear."
+            "Dogs allowed, 4WD access and Caravan access sit at the top of the <a data-guide=\"kiwicamping-filters-guide\">filters</a>. Below them are everyday features such as Campervans, Powered sites, Hot showers, Toilets and Water supply.",
+            "Choose several and a place has to have every one of them, so Campervans, Hot showers and Dogs allowed together only show spots that tick all three boxes. Many WikiCamps users say its filters show places that match any choice instead. Set the cost to Free and DOC's free campsites appear."
           ],
           "tips": [
             "Dogs allowed, 4WD and Caravan access",
@@ -38012,7 +38007,7 @@
         {
           "heading": "Plan the trip your way, and together",
           "body": [
-            "Set your home address once in the You tab, then tap Start at Home or Finish at Home on any trip. Add a stop searches your saved pins, places in the app, your current location or any address, so a favourite spot goes in even if it is not listed. Every stop shows on the route with its distance and drive time.",
+            "Set your home address once in the You tab, then tap Start at Home or Finish at Home on any trip. Add stop searches your saved pins, places in the app, your current location or any address, so a favourite spot goes in even if it is not listed. Every stop shows on the route with its distance and drive time.",
             "Travelling as a pair? Tap Share on the trip and choose Collaborate. You both add, reorder and tick off stops, and the changes show up for each other within seconds, with no account or login. For family back home, Send copy gives them a link they can open in any web browser."
           ],
           "tips": [
@@ -38025,7 +38020,7 @@
           "heading": "Why campers switch to KiwiCamping",
           "body": [
             "Tramping or Great Walks: DOC's hut fees and booking needs are right there, with a link to book. Campervan or caravan: the Campervans and Caravan access <a data-guide=\"kiwicamping-filters-guide\">filters</a> do the sorting for you. Travelling as a couple: Collaborate keeps one trip on both phones.",
-            "Along the way, the You tab fills in a map of where you have been, shows how much of New Zealand you have seen, and counts your kilometres, nights camped and places stayed. KiwiCamping is free to download, with in-app purchases, with no account and no ads."
+            "Along the way, the You tab fills in a map of where you have been, shows how much of New Zealand you have seen, and counts your kilometres, nights camped and places stayed. KiwiCamping is free to download, with in-app purchases, and has no account and no ads."
           ],
           "tips": [
             "Huts and Great Walks",
@@ -38077,7 +38072,7 @@
           "heading": "WikiCamps NZ vs KiwiCamping at a glance",
           "body": [
             "If you want the short version: KiwiCamping is the one you can open and use straight away. No sign-in, no ads, DOC's own details for every campsite, hut and track, and a trip you can plan live with your partner.",
-            "WikiCamps NZ is owned by G'day Group, the company behind Discovery Parks and G'day Parks, and its updates have added park bookings and G'day prices. KiwiCamping is independent, and it shows free <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> on the same map as paid holiday parks."
+            "WikiCamps is owned by G'day Group, the company behind Discovery Parks and G'day Parks. KiwiCamping is independent, and it shows free <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> on the same map as paid holiday parks."
           ],
           "tips": [],
           "table": {
@@ -38117,11 +38112,6 @@
                 "Planning with your partner",
                 "Share a trip link",
                 "Live, with Collaborate"
-              ],
-              [
-                "Owner",
-                "G'day Group",
-                "Independent"
               ]
             ]
           }
@@ -38165,11 +38155,11 @@
         {
           "heading": "Filters: Dogs allowed, 4WD access and Caravan access",
           "body": [
-            "The three filters campers ask for most sit at the top of KiwiCamping's filter sheet, each with a count of matching places. Underneath are Walk-in only, Campervans, Cars, Powered sites, Toilets, Flush toilets, Water supply, Treated tap water, <a data-guide=\"campfire-rules-new-zealand\">Campfires</a> allowed and Wheelchair accessible, plus cost.",
-            "Pick several and a place must have all of them. WikiCamps NZ users say choosing several <a data-guide=\"kiwicamping-filters-guide\">filters</a> there now shows places with any of them, which makes for a longer list to sift through."
+            "The three filters campers ask for most sit at the top of KiwiCamping's filters. Underneath are Walk-in only, Cars, Flush toilets, Treated tap water, <a data-guide=\"campfire-rules-new-zealand\">Campfires</a> allowed and Wheelchair accessible, plus Cost.",
+            "Pick several and a place must have all of them. WikiCamps NZ users say choosing several <a data-guide=\"kiwicamping-filters-guide\">filters</a> there shows places with any of them, which makes for a longer list to sift through."
           ],
           "tips": [
-            "Top three filters, with counts",
+            "Top three filters first",
             "All choices must match",
             "Cost filter for free DOC sites"
           ]
@@ -38177,12 +38167,12 @@
         {
           "heading": "Trip planning with Home, any address and your own pins",
           "body": [
-            "Set your home once in the You tab, then start or finish any trip there in one tap. Add a stop finds places in the app, your saved pins, your current location or any street address, so the friend's place in Nelson and the beach you found last summer both fit in. Every stop shows its distance and drive time.",
-            "Drop a pin on the map, give it a name and it can join a trip like any other stop. The route draws itself between them, with weather for the stops ahead."
+            "Set your home once in the You tab, then start or finish any trip there in one tap. Add stop finds places in the app, your saved pins, your current location or any street address, so the friend's place in Nelson and the beach you found last summer both fit in. Every stop shows its distance and drive time.",
+            "Drop a pin on the map, tap Add to trip, and it joins the route like any other stop. Each stop also has its own dates, notes and weather."
           ],
           "tips": [
             "Start and finish at Home",
-            "Any address or named pin",
+            "Any address or dropped pin",
             "Distance and drive time per stop"
           ]
         },
@@ -38218,7 +38208,7 @@
         ],
         [
           "Does KiwiCamping need an account?",
-          "No. There is no account, password or code. Your saved places and trips sync privately through your own iCloud."
+          "No. There is no account, password or code, and your own iCloud does the syncing."
         ],
         [
           "Does KiwiCamping show DOC campsites and huts?",
@@ -38278,11 +38268,6 @@
                 "Free to download, with in-app purchases"
               ],
               [
-                "Subscription",
-                "None",
-                "None"
-              ],
-              [
                 "Account",
                 "Needed, with an email code",
                 "None"
@@ -38310,7 +38295,7 @@
         {
           "heading": "An account comes with the purchase",
           "body": [
-            "WikiCamps NZ now needs a WikiCamps account, and you sign in with a code sent to your email. Many users say it logs them out, and signing back in needs signal.",
+            "WikiCamps NZ needs a WikiCamps account, and you sign in with a code sent to your email. Many users say it logs them out, and signing back in needs signal.",
             "KiwiCamping has nothing to sign into. You download it, open it and you are looking at the map, with no email, password or code at any point. A new iPhone picks up your saved places and trips through iCloud."
           ],
           "tips": [
@@ -38334,7 +38319,7 @@
         {
           "heading": "Finding free campsites in New Zealand",
           "body": [
-            "Many people looking for a free app are really after free nights. In KiwiCamping, set the cost filter to free and DOC's free campsites show up. Add Toilets, Water supply or Campervans and a site has to meet every condition you pick.",
+            "Many people looking for a free app are really after free nights. In KiwiCamping, set the Cost filter to Free and DOC's free campsites show up. Add Toilets, Water supply or Campervans and a site has to meet every condition you pick.",
             "Free DOC campsites are usually simple, often with a long-drop toilet and stream or tank water, and some are a short walk from the road. Freedom camping in towns is a separate question, and our <a data-guide=\"freedom-camping-rules-new-zealand\">freedom camping rules</a> guide explains it."
           ],
           "tips": [
@@ -38346,7 +38331,7 @@
         {
           "heading": "More than a list of campsites",
           "body": [
-            "Add your home address once in the You tab and every trip can start and finish there. Add a stop takes any address or a pin you have named, and Collaborate lets you and your partner plan the same trip live, with no account.",
+            "Add your home address once in the You tab and every trip can start and finish there. Add stop takes any address or a pin you have dropped, and Collaborate lets you and your partner plan the same trip live, with no account.",
             "The You tab also keeps a map of where you have been, the share of New Zealand you have seen, and your kilometres and nights camped, which makes a nice record of the trip."
           ],
           "tips": [
@@ -38389,16 +38374,16 @@
       "priceTable": null
     },
     "campermate-vs-wikicamps-nz": {
-      "title": "CamperMate vs WikiCamps NZ in 2027: Which to Download, and a Third Option",
+      "title": "CamperMate vs WikiCamps NZ in 2027, and a Third Option",
       "description": "CamperMate or WikiCamps for New Zealand in 2027? How the two compare on price, ads and sign-in, and why KiwiCamping, with no login and no ads, is the third option campers pick.",
       "region": "New Zealand",
       "imageAlt": "Four motorhomes parked in a row on a gravel area above the sea at Tautuku Bay in the Catlins",
-      "intro": "CamperMate vs WikiCamps NZ is the question most campervan travellers ask before landing in New Zealand. CamperMate is free and WikiCamps NZ costs NZ$7.99 once; both show ads, and WikiCamps now needs an account. We make KiwiCamping, the third option with no ads and no login, built around DOC's campsites, huts and tracks, and the one we think makes a New Zealand trip easiest.",
+      "intro": "CamperMate vs WikiCamps NZ comes down to price and sign-in: CamperMate is free, while WikiCamps NZ costs NZ$7.99 once and needs an account, and both show ads. We make KiwiCamping, the third option with no ads and no login, built around DOC's campsites, huts and tracks, and the one we think makes a New Zealand trip easiest.",
       "sections": [
         {
           "heading": "CamperMate vs WikiCamps at a glance",
           "body": [
-            "Between the two, the big differences are price and sign-in. CamperMate costs nothing, while WikiCamps NZ is a paid app that asks for an account and a code by email.",
+            "Plenty of campervan travellers weigh these two up before landing. CamperMate costs nothing, while WikiCamps NZ is a paid app that asks for an account and a code by email.",
             "What they share is ads. If you would like a <a data-guide=\"best-nz-camping-apps\">camping app</a> with neither ads nor a login, that is where KiwiCamping comes in."
           ],
           "tips": [
@@ -38426,12 +38411,6 @@
                 "Yes",
                 "Yes",
                 "None"
-              ],
-              [
-                "DOC campsites, huts and tracks",
-                "Among its listings",
-                "Added by users",
-                "Every one, from DOC"
               ]
             ]
           }
@@ -38439,7 +38418,7 @@
         {
           "heading": "CamperMate in a nutshell",
           "body": [
-            "CamperMate is a free app that some campervan hire companies hand to their customers with the keys. It lists campsites and services, with <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> bookings and local deals, and it carries ads.",
+            "CamperMate is a free app that lists campsites and services across the country, with <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> bookings and local deals, and it carries ads.",
             "Some CamperMate users say its redesign made it slower and that sites they relied on went missing. If that has happened to you, a cleaner app is worth a try."
           ],
           "tips": [
@@ -38452,7 +38431,7 @@
           "heading": "WikiCamps NZ in a nutshell",
           "body": [
             "WikiCamps NZ costs NZ$7.99 once, with no subscription. Since WikiCamps' big update you need an account and an email code to use it, and the app shows ads.",
-            "Lots of WikiCamps users say the new version is harder to use and keeps logging them out, which is hardest to live with at a campsite with no signal. Our breakdown of <a data-guide=\"is-wikicamps-nz-free\">what WikiCamps NZ costs</a> goes into the price."
+            "Lots of its users say the new version is fiddlier than the old one and signs them out, which is hardest to live with at a campsite with no signal. Our breakdown of <a data-guide=\"is-wikicamps-nz-free\">what WikiCamps NZ costs</a> goes into the price."
           ],
           "tips": [
             "NZ$7.99 once",
@@ -38464,7 +38443,7 @@
           "heading": "The third option: KiwiCamping",
           "body": [
             "KiwiCamping opens straight to the map, with no account to make and no ads to scroll past. Every DOC campsite, hut and track is there with DOC's fee, dog rules and booking needs, and DOC's <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> notices show where conservation land is off limits.",
-            "<a data-guide=\"kiwicamping-filters-guide\">Filters</a> do the hard work. Dogs allowed, 4WD access and Caravan access sit at the top with a count each, and when you pick several, a place has to match all of them. Tap a pin for the details, then add it to your trip."
+            "<a data-guide=\"kiwicamping-filters-guide\">Filters</a> do the hard work. Dogs allowed, 4WD access and Caravan access sit at the top, and when you pick several, a place has to match all of them. Tap a pin for the details, then add it to your trip."
           ],
           "tips": [
             "No account, no ads",
@@ -38475,7 +38454,7 @@
         {
           "heading": "Planning a campervan trip in KiwiCamping",
           "body": [
-            "Set your home address once and start or finish any trip there in one tap. Add a stop takes places in the app, any address or a pin you have dropped and named, and each stop shows its distance and drive time on the route.",
+            "Set your home address once and start or finish any trip there in one tap. Add stop takes places in the app, any address or a pin you have dropped, and each stop shows its distance and drive time on the route.",
             "Two of you in the van? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Share the trip</a> and choose Collaborate, and you can both add and reorder stops, with changes landing within seconds and no login. Send copy gives family a link to follow your route in any web browser."
           ],
           "tips": [
@@ -38512,7 +38491,7 @@
         ],
         [
           "What app do most campervan travellers use in NZ?",
-          "Many use CamperMate or WikiCamps NZ. KiwiCamping is a newer choice with DOC's own campsite details, no ads and no account."
+          "Many use CamperMate or WikiCamps NZ. KiwiCamping is the one with DOC's own campsite details, no ads and no account."
         ],
         [
           "Which app shows DOC campsites?",
@@ -38530,11 +38509,11 @@
       "priceTable": null
     },
     "doc-huts-campsites-app-wikicamps-kiwicamping": {
-      "title": "DOC App for NZ Huts and Campsites: WikiCamps NZ vs KiwiCamping (2027)",
-      "description": "Looking for a DOC app for huts, tracks and campsites in NZ in 2027? How KiwiCamping shows every DOC hut and campsite with fees, bookings and dog rules, with no login, compared with WikiCamps NZ.",
+      "title": "DOC App NZ: Huts and Campsites, WikiCamps vs KiwiCamping (2027)",
+      "description": "Looking for a DOC app in NZ for huts, tracks and campsites in 2027? How KiwiCamping shows every DOC hut and campsite with fees, bookings and dog rules, with no login, compared with WikiCamps NZ.",
       "region": "New Zealand",
       "imageAlt": "A timber DOC hut with a wide covered verandah on the Rakiura Track, Stewart Island",
-      "intro": "Looking for a DOC app for NZ huts and campsites? KiwiCamping puts every DOC hut, campsite and track on one map, with DOC's fees, dog rules and booking needs, and a link straight to DOC when you want to book. There is no account and there are no ads. We make KiwiCamping, and here is how it helps you plan huts, tracks and campsites, and how it compares with WikiCamps NZ.",
+      "intro": "Looking for a DOC app in NZ for huts and campsites? KiwiCamping puts every DOC hut, campsite and track on one map, with DOC's fees, dog rules and booking needs, and a link straight to DOC when you want to book. There is no account and there are no ads. We make KiwiCamping, and here is how it helps you plan huts, tracks and campsites, and how it compares with WikiCamps NZ.",
       "sections": [
         {
           "heading": "What a good DOC app shows you",
@@ -38600,7 +38579,7 @@
         {
           "heading": "From the map to a hut in a few taps",
           "body": [
-            "Open KiwiCamping and the map is right there, with nothing to sign into. Choose huts or campsites, add <a data-guide=\"kiwicamping-filters-guide\">filters</a> such as Walk-in only, Water supply or Dogs allowed, and only the places that meet all of them stay on the map.",
+            "Open KiwiCamping and the map is right there, with nothing to sign into. Add <a data-guide=\"kiwicamping-filters-guide\">filters</a> such as Walk-in only, Water supply or Dogs allowed, and only the places that meet all of them stay on the map.",
             "Tap a hut for its bunks, fee and DOC link, then save it to a collection for the track or add it to your trip."
           ],
           "tips": [
