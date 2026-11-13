@@ -4771,6 +4771,20 @@
       }
     ]
   },
+  "/images/screens/wikicamps-nz-trip-planner-alternative.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/wikicamps-nz-trip-planner-alternative-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/wikicamps-nz-trip-planner-alternative.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/working-holiday-apps-new-zealand.webp": {
     "width": 1600,
     "height": 900,
