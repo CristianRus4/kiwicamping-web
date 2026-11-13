@@ -79,6 +79,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | wikicamps-nz-account-login | 3 (KiwiCamping: open the app and see the map) | kiwicamping_map-pins_mackenzie.png (copy of best-travel-apps-new-zealand) | KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen |
 | does-wikicamps-nz-work-offline | 2 (KiwiCamping: no sign-in, no download, details on your phone) | copy of wikicamps-alternatives | KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app |
 | switch-from-wikicamps-nz | 6 (What you gain with KiwiCamping, and what you give up) | copy of rankers-alternatives | KiwiCamping on iPhone: a Want to Visit collection of saved places |
+| share-nz-trip-plan-kiwicamping | 0 (What Share trip sends) | copy of hump-ridge-track-huts-booking-2026-27 | KiwiCamping on iPhone: a trip itinerary of ordered stops with the distance and drive time between them |
 
 Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
