@@ -26,6 +26,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bWikiCamps (?:New Zealand |NZ )?(?:is )?not working\b/i, slug: "wikicamps-not-working-new-zealand" },
   { pattern: /\bWikiCamps (?:NZ )?(?:login|sign-in)\b/i, slug: "wikicamps-nz-account-login" },
   { pattern: /\bWikiCamps(?: NZ)?(?:['’]s?)? Offline Mode\b/i, slug: "does-wikicamps-nz-work-offline" },
+  { pattern: /\bswitch(?:ing)? from WikiCamps\b/i, slug: "switch-from-wikicamps-nz" },
   // Seasonal guides first: their anchor phrases are specific, so they win a paragraph over the broader topics below.
   { pattern: /\bcamping over Christmas\b/i, slug: "christmas-summer-camping-new-zealand-2026-27" },
   { pattern: /\bNew Year(?:'|’)s Eve (?:and summer event )?camping\b/i, slug: "new-years-eve-summer-event-camping-new-zealand" },

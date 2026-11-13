@@ -80,6 +80,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "hipcamp-alternatives", section: 1, src: "/images/screens/hipcamp-alternatives.webp", alt: "KiwiCamping on iPhone: a Collections list of saved road trips with their nights to stay and other stops" },
   { slug: "wikicamps-nz-account-login", section: 3, src: "/images/screens/wikicamps-nz-account-login.webp", alt: "KiwiCamping on iPhone: places on the map with the Explore list below, with no sign-in screen" },
   { slug: "does-wikicamps-nz-work-offline", section: 2, src: "/images/screens/does-wikicamps-nz-work-offline.webp", alt: "KiwiCamping on iPhone: a DOC campsite's fees, amenities and water supply, stored in the app" },
+  { slug: "switch-from-wikicamps-nz", section: 6, src: "/images/screens/switch-from-wikicamps-nz.webp", alt: "KiwiCamping on iPhone: a Want to Visit collection of saved places" },
 ];
 
 const images = manifest as Record<string, unknown>;

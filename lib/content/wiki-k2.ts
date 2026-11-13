@@ -145,4 +145,72 @@ export const wikiK2Articles: Article[] = [
       { label: "Google Maps: download areas for offline use", url: "https://support.google.com/maps/answer/6291838" },
     ],
   }),
+  a({
+    slug: "switch-from-wikicamps-nz",
+    title: "Switching From WikiCamps NZ: Move Your Saved Places and Trip",
+    description: "A step-by-step move from WikiCamps NZ to KiwiCamping: rebuild favourites, collections and your road trip, starting with booked DOC nights and the ferry.",
+    category: "App guides",
+    region: "New Zealand",
+    places: ["DOC campsites", "DOC huts", "Cook Strait", "Freedom camping", "Saved places", "Collections"],
+    imageAlt: "An Interislander ferry crossing Cook Strait between the North and South Islands",
+    related: ["wikicamps-not-working-new-zealand", "save-places-kiwicamping", "plan-trip-kiwicamping", "share-nz-trip-plan-kiwicamping", "wikicamps-nz-trip-planner-alternative", "freedom-camping-rules-new-zealand", "kiwicamping-filters-guide"],
+    hubs: ["camping", "freedom-camping"],
+    intro:
+      "To switch from WikiCamps NZ to KiwiCamping, you rebuild your saved places and your trip by hand, because there is no import between the two apps; for a two or three week New Zealand trip that is about an evening's work. What you get for it is an app with no account at all: nothing to sign into, no emailed code and no being logged out at a campsite with no signal. We make KiwiCamping, and this is the order we would move things in, starting with the nights you can't change.",
+    sections: [
+      s("Before you start: write down what WikiCamps holds", [
+        "Open WikiCamps while it still loads your lists and capture them: a screenshot of each favourites list, each trip and any notes you rely on, plus the booking references for nights already paid. A list on paper or in your Notes app is enough, since you are going to search for each place by name.",
+        "It is worth doing while you can. As of November 2026, some reviewers of WikiCamps Australia wrote in November and December 2024 that their liked places and notes did not carry across to the rebuilt app, and WikiCamps' own help centre says favourites are harder to find in the new version. If WikiCamps NZ is not working for you at all today, start from booking emails instead.",
+      ], ["Screenshot lists and trips", "Keep booking references handy", "Booking emails are a fallback"]),
+      s("Booked nights first: DOC campsites, huts and the ferry", [
+        "Start with the nights you can't move. In KiwiCamping, search each booked DOC campsite or hut by name, open it to check the fee, facilities and rules DOC lists, and star it. Then create a trip, add those places as stops and give each one its arrival date, with the booking reference in the stop's note.",
+        "The Cook Strait crossing splits most trips in two, so it comes next. Put your Interislander or Bluebridge sailing time in the trip's notes, then add the stops either side of it, the last night before Wellington or Picton and the first night after. Once the fixed nights are in, everything between them is easy to move.",
+      ], ["DOC bookings become dated stops", "Booking references go in stop notes", "Plan around the ferry"]),
+      s("Favourites, wish lists and your own lists", [
+        "KiwiCamping sorts saved places for you. Like or star the places you rated in WikiCamps, mark the ones you still mean to see as Want to visit, and Visited fills in as you tick stops off. These smart collections update themselves, so there is nothing to file.",
+        "Your own WikiCamps lists become named collections, each with an icon, a colour, a cover photo and notes. One per island works well, or one for a long weekend you keep repeating. Private notes can go on any place, which is where the tips you wrote in WikiCamps belong.",
+      ], ["Liked, Starred, Want to visit", "Own lists become named collections", "Tips go in private notes"], {
+        table: {
+          caption: "Where your WikiCamps things go in KiwiCamping.",
+          head: ["In WikiCamps NZ", "In KiwiCamping"],
+          rows: [
+            ["Favourites", "Liked or Starred"],
+            ["Places you plan to see", "Want to visit"],
+            ["Your own lists", "Named collections, one per island or trip"],
+            ["A trip", "A trip with stops in driving order and arrival dates"],
+            ["Notes on a site", "A private note on the place"],
+            ["A spot KiwiCamping doesn't list", "A dropped pin, saved under Pins"],
+          ],
+        },
+      }),
+      s("Freedom camping nights and free DOC campsites", [
+        "For nights you planned to freedom camp, check the freedom camping rules again rather than copying the old spot across. KiwiCamping includes DOC's 354 freedom-camping notices for conservation land across 35 districts, showing where camping is prohibited or restricted. Council land follows each council's bylaw, published on its website, so read the rules for the districts on your route before you go.",
+        "To find a replacement, use KiwiCamping's filters by their names: Campervans, Toilets, Water supply, Dogs allowed, Powered sites and the cost filter for DOC's free and low-cost campsites. Pick several and a place has to have all of them. That is a common wish from switchers: a recent WikiCamps NZ review on Google Play says its multi-select filters now match any choice rather than all.",
+      ], ["DOC notices are in the app", "Council bylaws are on council sites", "Combined filters match all choices"]),
+      s("Spots that aren't in KiwiCamping", [
+        "WikiCamps NZ lists more than 12,000 sites, many added by its users, and KiwiCamping won't have every one of them. For a spot you know and trust, press and hold on the map to drop a pin and save it. Saved pins sit under Pins in Collections, with the address, Look Around, directions and a share button.",
+        "A pin can't be a trip stop, since stops come from KiwiCamping's directory. Add the nearest listed place to the trip for that night instead, and write \"staying at my saved pin\" in its note, so the date and the drive time still work out.",
+      ], ["Drop and save a pin", "Pins can't be trip stops", "Use the nearest listed place for the date"]),
+      s("A second iPhone, and the person you travel with", [
+        "Everything you rebuild, from saved places to the trips in the trip planner, syncs through your private iCloud to any iPhone on the same Apple Account, with no login. A new phone set up with that Apple Account picks it all up.",
+        "Your travel partner's phone is another matter if it uses a different Apple Account: KiwiCamping has no shared or jointly edited trip. Send them the trip as a text itinerary, with stops, dates, drive times and the weather, or send single places with a link that opens in Maps, and re-send after a change.",
+      ], ["iCloud sync on your own devices", "No jointly edited trip", "Send your partner the itinerary"]),
+      s("What you gain with KiwiCamping, and what you give up", [
+        "The gains: no account and no ads, an app that opens straight to the map, DOC's own data for 287 campsites, 927 huts and 1,453 tracks, and filters that combine. KiwiCamping is independent, not owned by a holiday-park group, and it shows DOC's free campsites next to paid holiday parks. It is free to download, with in-app purchases.",
+        "The trade-offs: it runs on iPhone only, it has no offline map (place details work without signal, while map tiles, directions, weather and photos need it), it has no traveller reviews, and it lists fewer places than WikiCamps. If those matter on your trip, keeping both apps for a while is a sensible way to switch.",
+      ], ["No account, no ads, independent", "iPhone only, no offline map", "Fewer places, no traveller reviews"], { cta: true }),
+    ],
+    faq: [
+      ["Can I export my trip from WikiCamps?", "KiwiCamping has no import, so even an export wouldn't load into it. Screenshot or list your WikiCamps trip, then rebuild it in KiwiCamping from the booked nights outwards."],
+      ["How do I move my saved campsites to another app?", "Search each place by name in the new app and save it. In KiwiCamping, favourites become Liked or Starred, plans become Want to visit, and your own lists become named collections."],
+      ["Does KiwiCamping import WikiCamps data?", "No. There is no import from WikiCamps or any other app. Most trips take an evening to rebuild."],
+      ["Will KiwiCamping sync to my partner's phone?", "Only if the phone uses your Apple Account. On their own Apple Account your partner can't edit your trip, but you can send them the itinerary as text and re-send it after changes."],
+      ["What if a campsite isn't in KiwiCamping?", "Drop a pin on it and save it, with directions and sharing from the pin. Pins can't be trip stops, so add the nearest listed place for that night and note the pin there."],
+    ],
+    sources: [
+      { label: "DOC: book campsites and huts", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
+      { label: "DOC: freedom camping", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/" },
+      { label: "Apple: iCloud", url: "https://www.apple.com/nz/icloud/" },
+    ],
+  }),
 ];
