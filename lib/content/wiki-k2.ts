@@ -213,4 +213,67 @@ export const wikiK2Articles: Article[] = [
       { label: "Apple: iCloud", url: "https://www.apple.com/nz/icloud/" },
     ],
   }),
+  a({
+    slug: "share-nz-trip-plan-kiwicamping",
+    title: "Share Your NZ Road Trip Itinerary With Family Back Home",
+    description: "Send your New Zealand itinerary to family or your travel partner from KiwiCamping: stops, dates, drive times and weather, plus places that open in Maps.",
+    category: "App guides",
+    region: "KiwiCamping",
+    places: ["Share trip", "Trip itinerary", "Calendar sync", "iCloud sync", "Plan My Walk"],
+    imageAlt: "Cathedral Cove's white cliffs and sandy beach on the Coromandel Peninsula",
+    related: ["plan-trip-kiwicamping", "new-zealand-driving-day-planner", "save-places-kiwicamping", "kiwicamping-weather-look-around", "wikicamps-nz-account-login", "switch-from-wikicamps-nz"],
+    intro:
+      "To share a road trip itinerary from KiwiCamping, open the trip and use Share trip: it sends a plain-text plan with every stop, its date, the drive between stops and the weather, so family back home can read it without installing anything. Your travel partner can get the same plan, or single places that open straight in Maps. We make KiwiCamping, so this covers what it sends, how to keep the people at home up to date, and the one thing it can't do yet.",
+    sections: [
+      s("What Share trip sends", [
+        "Share trip builds a text itinerary from a trip in the trip planner and hands it to the iPhone share sheet, so it goes wherever you already talk to people: Messages, WhatsApp, email or a family group chat. It reads top to bottom like a plan someone could print: the trip's name and dates, how many places it has, the total distance and driving time, then each stop in order.",
+        "Every stop carries its arrival date and time, the distance to the next stop and the weather forecast, and the checklist from the trip comes at the end. A closing line says the plan was made with KiwiCamping. Because it is plain text, it opens on any phone or computer, Android included.",
+      ], ["Plain text through the share sheet", "Stops with dates, distances and weather", "No app needed to read it"], {
+        cta: true,
+        table: {
+          caption: "What a shared KiwiCamping itinerary contains.",
+          head: ["Part", "What it shows"],
+          rows: [
+            ["Trip", "Name, dates, number of places"],
+            ["Totals", "Total distance and driving time"],
+            ["Each stop", "Arrival time, distance to the next stop, weather"],
+            ["End", "The trip's checklist"],
+          ],
+        },
+      }),
+      s("Send a single place or a pin", [
+        "Sometimes one place is all the other person needs. Share place on any campsite, hut or holiday park sends its name with an Open in Maps link, which is the quickest way to tell a partner in the other car where tonight is. It works for guides, tracks and tours too.",
+        "A dropped pin shares the same way. If you are meeting someone at a lookout or a car park that isn't a listed place, press and hold on the map, check the spot in Look Around if you like, then share the pin: they get a link that opens the exact spot in Maps, with directions from wherever they are.",
+      ], ["Share place opens in Maps", "Pins share as an exact spot", "Handy for two cars"]),
+      s("A plan the family can follow", [
+        "Set an arrival date on every stop before you share, because the dates are what make the message useful to someone at home: they can see which night you are in Wānaka, how long your driving days are and when you cross back to the North Island. A trip without dates reads as a list of names.",
+        "Plans change on a New Zealand road trip, so share again whenever you move a night, and say so in the chat. Warn people about coverage too. On the West Coast or in Fiordland a day or two without reception is normal, and an itinerary with dates lets family see that you are simply between towns.",
+        "For tramping, an itinerary is not an intentions plan. Before a multi-day walk, leave your route, party and an overdue time with someone you trust, as the Mountain Safety Council's Plan My Walk and AdventureSmart advise.",
+      ], ["Dates on every stop", "Re-share after changes", "Leave intentions for tramps"]),
+      s("Put the trip in your calendar", [
+        "Each trip has a Sync to calendar switch. Turn it on and KiwiCamping writes the route into a calendar named after the app: arrival dates, distances, the weather and the packing list, sitting next to your flights and ferry booking. It needs the trip's start and end dates first.",
+        "The calendar is created in your iPhone's default calendar account. Treat it as a view of the plan for you rather than a way to share it; for other people, Share trip is the dependable route.",
+      ], ["Sync to calendar on each trip", "Needs start and end dates", "Share trip for other people"]),
+      s("Your own devices, with no account", [
+        "On your own iPhones you don't need to share anything. Trips, collections and saved places sync through your private iCloud to every iPhone on your Apple Account, with no KiwiCamping login, code or password.",
+        "That also covers a replacement phone: sign in to it with the same Apple Account, as you would anyway, and the trip comes back.",
+      ], ["iCloud sync, no login", "Same Apple Account on each iPhone", "A new phone gets the trip back"]),
+      s("What sharing doesn't do yet", [
+        "Sharing is one-way. Your partner, on their own Apple Account, can read the plan you send but can't open it as a trip in their copy of KiwiCamping or edit it with you, since there is no jointly edited trip and no import.",
+        "In practice one person keeps the trip and sends updates. For comparison, as of November 2026 WikiCamps shares trips as links that open in its own app (since version 6.2.5, October 2026), which suits two people who both have WikiCamps. A KiwiCamping itinerary is readable by anyone.",
+      ], ["One-way sharing", "One person keeps the trip", "Anyone can read the text"]),
+    ],
+    faq: [
+      ["How do I share my NZ itinerary with family?", "Open the trip in KiwiCamping and use Share trip. It sends a text plan with every stop, date, drive time and the weather through Messages, WhatsApp or email."],
+      ["Can my partner edit our KiwiCamping trip?", "Not on their own Apple Account. KiwiCamping has no jointly edited trip yet, so one person keeps the trip and re-shares the itinerary after changes."],
+      ["Does the person I share with need the app?", "No. The itinerary is plain text and single places come with an Open in Maps link, so it works on any phone, Android included."],
+      ["Does KiwiCamping sync between iPhones?", "Yes, between iPhones on the same Apple Account, through your private iCloud. There is no KiwiCamping login."],
+      ["Can I put my trip in my calendar?", "Yes. Turn on Sync to calendar for the trip and it writes the stops, dates, distances, weather and packing list into a calendar. The trip needs start and end dates."],
+    ],
+    sources: [
+      { label: "Plan My Walk (NZ Mountain Safety Council)", url: "https://www.mountainsafety.org.nz/plan-my-walk" },
+      { label: "AdventureSmart: outdoor intentions", url: "https://www.adventuresmart.org.nz/" },
+      { label: "Apple: iCloud", url: "https://www.apple.com/nz/icloud/" },
+    ],
+  }),
 ];

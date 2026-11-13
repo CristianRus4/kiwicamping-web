@@ -4673,6 +4673,20 @@
       }
     ]
   },
+  "/images/screens/share-nz-trip-plan-kiwicamping.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/share-nz-trip-plan-kiwicamping-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/share-nz-trip-plan-kiwicamping.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/screens/switch-from-wikicamps-nz.webp": {
     "width": 1600,
     "height": 900,
