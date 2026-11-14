@@ -1,11 +1,18 @@
 import { FaApple } from "react-icons/fa6";
 import { appStoreUrl, type CtaLocale, type CtaPlacement } from "@/lib/app-store";
 import { modulePath } from "./qr-code";
-import { OPEN_APP_LABEL } from "@/lib/open-app";
+import { OPEN_ON_IPHONE_LABEL } from "@/lib/open-app";
+import { OpenAppLabel } from "@/components/open-app-label";
 
 /** `openApp` (a page's app link, lib/open-app.ts) turns the store button into "Open in app". */
-/** `qrFile`: draw the QR code from a cached file (the place pages' /places/qr-en.svg) instead of inline. */
-type Copy = { locale: CtaLocale; placement: CtaPlacement; label: string; openApp?: string; qrFile?: string };
+/**
+ * `qrFile`: draw the QR code from a cached file (the place pages' /places/qr-en.svg) instead of inline.
+ * `openApp` (a page's app link, lib/open-app.ts) turns the store button into "Open in app" ("Open on
+ * iPhone" on a desktop), and its QR code into one of `qr`, the page's own URL ("" for the full URL with
+ * its hash, on /place/ and /trip/), drawn in the browser by lib/qr-source.ts so a phone opens that page and
+ * through it the app; the store code stays as the fallback.
+ */
+type Copy = { locale: CtaLocale; placement: CtaPlacement; label: string; openApp?: string; qrFile?: string; qr?: string };
 
 /**
  * The download boxes every guide carries in every language: one beside the article that stays in view
@@ -21,20 +28,20 @@ export function qrSvgFile(locale: CtaLocale) {
   return `<svg xmlns="http://www.w3.org/2000/svg"><path id="qr" d="${d}" fill="currentColor"/></svg>\n`;
 }
 
-function QrCode({ locale, reuse, file }: { locale: CtaLocale; reuse: boolean; file?: string }) {
+function QrCode({ locale, reuse, file, qr }: { locale: CtaLocale; reuse: boolean; file?: string; qr?: string }) {
   const { size, d } = modulePath(appStoreUrl({ placement: "qr", locale }));
-  return <svg className="qr-morph-code" viewBox={`0 0 ${size} ${size}`} focusable="false" shapeRendering="crispEdges">{file ? <use href={`${file}#qr`} /> : reuse ? <use href={`#${QR_ID}`} /> : <path id={QR_ID} d={d} fill="currentColor" />}</svg>;
+  return <svg className="qr-morph-code" viewBox={`0 0 ${size} ${size}`} focusable="false" shapeRendering="crispEdges" data-page-qr={qr}>{file ? <use href={`${file}#qr`} /> : reuse ? <use href={`#${QR_ID}`} /> : <path id={QR_ID} d={d} fill="currentColor" />}</svg>;
 }
 
 function StoreButton({ locale, placement, label, openApp }: Copy) {
-  return <a className="store-button" href={appStoreUrl({ placement, locale })} data-cta={placement} data-open-app={openApp}><FaApple aria-hidden="true" /><span>{openApp ? OPEN_APP_LABEL : label}</span></a>;
+  return <a className="store-button" href={appStoreUrl({ placement, locale })} data-cta={placement} data-open-app={openApp}><FaApple aria-hidden="true" /><span>{openApp ? <OpenAppLabel /> : label}</span></a>;
 }
 
 /** The store button; on a desktop, hovering it morphs it into the QR code with the label kept below. */
 export function StoreWithQr({ reuse = false, ...copy }: Copy & { reuse?: boolean }) {
   return <div className="store-qr">
     <StoreButton {...copy} />
-    <div className="qr-morph" aria-hidden="true"><QrCode locale={copy.locale} reuse={reuse} file={copy.qrFile} /><span className="qr-morph-label"><FaApple />{copy.openApp ? OPEN_APP_LABEL : copy.label}</span></div>
+    <div className="qr-morph" aria-hidden="true"><QrCode locale={copy.locale} reuse={reuse} file={copy.qrFile} qr={copy.openApp ? copy.qr : undefined} /><span className="qr-morph-label"><FaApple />{copy.openApp ? OPEN_ON_IPHONE_LABEL : copy.label}</span></div>
   </div>;
 }
 

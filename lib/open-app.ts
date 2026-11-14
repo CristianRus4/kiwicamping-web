@@ -11,6 +11,9 @@
  */
 export const APP_SCHEME = "kiwicamping";
 export const OPEN_APP_LABEL = "Open in app";
+/** On a desktop (no touch, wide screen: the guides' QR breakpoint) the same buttons read this instead,
+ * hovering one shows a QR code of the page's own URL, and a click goes to the App Store. */
+export const OPEN_ON_IPHONE_LABEL = "Open on iPhone";
 
 /** The app link for a page path: `/places/otago/x/` → `kiwicamping://places/otago/x/`. A path ending in `#`
  * takes the page's current hash when tapped (/place/ and /trip/ carry their payload there). */

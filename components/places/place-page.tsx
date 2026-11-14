@@ -11,6 +11,7 @@ import { mapLabel, feeLabel, isListingType, nearbyPlaces, parkHubPath, photoUrl,
 import { placeQuestions, placeSummary } from "@/lib/places-copy";
 import { appStoreUrl } from "@/lib/app-store";
 import { appLink, openAppScript } from "@/lib/open-app";
+import { pageQrScript } from "@/lib/qr-source";
 import { articleHref, articles, getArticle } from "@/lib/site";
 import { placeGuides, rulesGuides } from "@/lib/place-guides";
 import { LinkList } from "@/components/places/listing";
@@ -20,10 +21,10 @@ import { LinkList } from "@/components/places/listing";
  * and fades out; the description ends on the page's one store button, so the rest is one tap away in
  * KiwiCamping. Holiday parks lead with the booking banner on our BookIt agent link.
  */
-function Faded({ children, openApp }: { children: React.ReactNode; openApp?: string }) {
+function Faded({ children, openApp, url }: { children: React.ReactNode; openApp?: string; url?: string }) {
   return <div className="pl-fade">
     <div className="pl-fade-body">{children}</div>
-    {openApp && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} reuse /></div>}
+    {openApp && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} qr={url} reuse /></div>}
   </div>;
 }
 
@@ -42,7 +43,8 @@ function MapsButton({ place }: { place: Place }) {
   return <a className="store-button pl-maps" href={google} data-apple-maps={apple} rel="nofollow noopener" target="_blank"><MapPin aria-hidden="true" /><span>Open in Maps</span></a>;
 }
 /** The place page's scripts, loaded from one cached file (/places/place.js, written by the export) rather
- * than inline on each of the thousands of place pages: the map loader, the Apple Maps link and Open in app. */
+ * than inline on each of the thousands of place pages: the map loader, the Apple Maps link, Open in app and
+ * its desktop QR code. */
 export const PLACE_SCRIPT = "/places/place.js";
 /** The QR code of the store buttons, likewise one cached file. */
 export const PLACE_QR = "/places/qr-en.svg";
@@ -113,8 +115,8 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>About {place.name}</h2>
                 <p className="pl-summary">{summary.join(" ")}</p>
-                {place.description ? <Faded openApp={openApp}><p>{place.description}</p></Faded>
-                  : <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} reuse /></div>}
+                {place.description ? <Faded openApp={openApp} url={url}><p>{place.description}</p></Faded>
+                  : <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} qr={url} reuse /></div>}
               </section>
               {place.amenities.length > 0 && <section>
                 <h2>Facilities</h2>
@@ -148,9 +150,9 @@ export function PlacePage({ place }: { place: Place }) {
               </section>}
               {/* The licence of DOC's content requires the credit; the booking feed gets none. */}
               {/CC BY/.test(place.credit) && <p className="pl-credit">© {place.credit}</p>}
-              <GuideEndCta locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+              <GuideEndCta locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} qr={url} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
             </div>
-            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
+            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} openApp={openApp} qrFile={PLACE_QR} qr={url} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
           </div>
         </div>
       </article>
@@ -162,4 +164,4 @@ export function PlacePage({ place }: { place: Place }) {
 }
 
 /** The contents of /places/place.js. */
-export const placePageScript = [mapScript, mapsScript, openAppScript].join("\n");
+export const placePageScript = [mapScript, mapsScript, openAppScript, pageQrScript].join("\n");
