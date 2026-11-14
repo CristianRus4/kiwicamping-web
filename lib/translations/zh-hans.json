@@ -28049,7 +28049,7 @@
           "heading": "打开就在地图上",
           "body": [
             "没有欢迎页要先跳过. 你最先看到的是新西兰地图, 周围是营地, 小屋和 <a data-guide=\"holiday-parks-new-zealand-guide\">假日公园</a>.",
-            "点 <a data-guide=\"kiwicamping-filters-guide\">筛选</a>, 常用的排在最上面: Dogs allowed, 4WD access 和 Caravan access. 选几项, 显示的每个地点都同时符合. 点一个地点可看费用, 设施和规则, 再把它加进行程.",
+            "点 <a data-guide=\"kiwicamping-filters-guide\">筛选</a>, Dogs allowed, 4WD access 和 Caravan access 有自己单独的 Pets and access 分区. 选几项, 显示的每个地点都同时符合. 点一个地点可看费用, 设施和规则, 再把它加进行程.",
             "地点详情, 保存的地点和行程都留在手机上, 所以 <a data-guide=\"kiwicamping-offline-data-guide\">没有信号也能打开</a>."
           ],
           "tips": [
@@ -28179,7 +28179,7 @@
           "heading": "在信号消失前选好今晚的落脚点",
           "body": [
             "哈斯特山口、米尔福德公路和卡特林斯等全国最棒的自驾路线，恰恰也是最容易失去信号的地方。这时手机里存着每个地点的详情就特别有用。",
-            "打开<a data-guide=\"kiwicamping-filters-guide\">筛选</a>，选出你在意的条件：允许携犬、四驱可达或房车可达都在最上方，地点必须符合你选的所有筛选条件。把你最中意的地点加入行程，再在附近加一个备选，今晚就安排妥当了。"
+            "打开<a data-guide=\"kiwicamping-filters-guide\">筛选</a>，选出你在意的条件：允许携犬、四驱可达和房车可达都在“Pets and access”分区里，地点必须符合你选的所有筛选条件。把你最中意的地点加入行程，再在附近加一个备选，今晚就安排妥当了。"
           ],
           "tips": [
             "没信号也能看详情",
@@ -28350,7 +28350,7 @@
           "heading": "第 5 步：自由露营的夜晚",
           "body": [
             "不要直接照搬旧的自由露营地点，请重新核对<a data-guide=\"freedom-camping-rules-new-zealand\">自由露营规定</a>。DOC 针对保护区的通知都在 KiwiCamping 里，各地方议会的条例则在各议会的网站上。",
-            "然后让<a data-guide=\"kiwicamping-filters-guide\">筛选</a>帮你找新的去处。允许携带狗、四驱可达和大篷车可达排在最上面，“费用”筛选会列出 DOC 的免费和低价营地，显示出来的每个地点都符合你选的所有筛选条件。"
+            "然后让<a data-guide=\"kiwicamping-filters-guide\">筛选</a>帮你找新的去处。允许携带狗、四驱可达和大篷车可达都在“Pets and access”分区里，“费用”筛选会列出 DOC 的免费和低价营地，显示出来的每个地点都符合你选的所有筛选条件。"
           ],
           "tips": [
             "应用内的 DOC 通知",
@@ -28625,7 +28625,7 @@
           "heading": "围绕新西兰的固定节点来规划",
           "body": [
             "已预订的 Great Walk 山屋、夏季需要预订的 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC 营地</a>以及 Cook Strait 渡轮,决定了大多数行程的轮廓。先把这些加进去,其余部分保持灵活。",
-            "比起公里数,更要留意行车时间。蜿蜒的道路和山口会让新西兰的<a data-guide=\"new-zealand-driving-day-planner\">行车日</a>比看上去更慢,所以把占满一整天的路段拆开。筛选条件能帮你补上空档,「允许携带狗」「可四驱进入」和「可房车进入」位于最前面。"
+            "比起公里数,更要留意行车时间。蜿蜒的道路和山口会让新西兰的<a data-guide=\"new-zealand-driving-day-planner\">行车日</a>比看上去更慢,所以把占满一整天的路段拆开。筛选条件能帮你补上空档,「允许携带狗」「可四驱进入」和「可房车进入」在自己单独的「Pets and access」分区里。"
           ],
           "tips": [
             "先定下固定的住宿",
@@ -28637,7 +28637,7 @@
           "heading": "带着计划上路",
           "body": [
             "走完一站就打个勾,并查看接下来几站的天气。购物、预订和渡轮登记都可以放进行程的待办清单。",
-            "「我的」标签页会帮你记录:逐步点亮你去过地区的地图、看过多少新西兰、行驶的公里数、露营的夜数,还有下次旅行的倒计时。"
+            "「我的」标签页会帮你记录:逐步点亮你去过地区的地图、看过多少新西兰、行驶的公里数和露营的夜数。"
           ],
           "tips": [
             "走完一站就打勾",
@@ -37498,7 +37498,7 @@
         {
           "heading": "能找到合适地点的筛选",
           "body": [
-            "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>最上面是 Dogs allowed、4WD access 和 Caravan access。下面是 Campervans、Powered sites、Hot showers、Toilets、Water supply 这类日常条件。",
+            "Dogs allowed、4WD access 和 Caravan access 在<a data-guide=\"kiwicamping-filters-guide\">筛选</a>里有自己单独的 Pets and access 分区。厕所、水和淋浴这类热门设施可以进一步缩小范围。",
             "选了好几项，地点就必须项项都有。Campervans、Hot showers 和 Dogs allowed 一起选，只会显示这三项都符合的地点。许多WikiCamps用户说，它的筛选会显示只符合其中任意一项的地点。把费用设成 Free，DOC的免费营地就会出现。"
           ],
           "tips": [
@@ -37658,11 +37658,11 @@
         {
           "heading": "筛选：允许带狗、4WD进入、拖挂房车可进入",
           "body": [
-            "露营的人最常要的三个筛选放在KiwiCamping筛选的最上面。下面还有仅徒步进入、汽车、抽水马桶、处理后的自来水、允许<a data-guide=\"campfire-rules-new-zealand\">篝火</a>，以及轮椅可进入，再加上费用。",
+            "露营的人最常要的三个筛选，在KiwiCamping筛选里有自己单独的“Pets and access”分区，就在费用后面。厕所、水、淋浴和<a data-guide=\"campfire-rules-new-zealand\">篝火</a>等热门设施可以进一步缩小范围。",
             "选了好几项，地点就必须全部具备。WikiCamps NZ的用户说，在那边同时选多个<a data-guide=\"kiwicamping-filters-guide\">筛选</a>，会显示符合其中任意一项的地点，名单因此更长，还要再挑一遍。"
           ],
           "tips": [
-            "最常用的三个筛选在前",
+            "Pets and access 紧跟在费用后面",
             "所选条件必须全部符合",
             "用费用筛选找免费DOC地点"
           ]
@@ -37695,7 +37695,7 @@
           "heading": "换应用的人为什么选KiwiCamping",
           "body": [
             "这是在新西兰露营更从容的方式：打开，找一个点，出发。没有广告，没有账号，用的是DOC自己的资料，行程还可以两个人同时排。",
-            "You标签里还有一点小乐趣：一张会填上你去过地区的地图，以及距离下次行程的倒计时。KiwiCamping免费下载，含应用内购买。我们对<a data-guide=\"is-wikicamps-nz-worth-it\">WikiCamps NZ值不值得</a>的判断，把价格问题写得更细。"
+            "You标签里还有一点小乐趣：一张会填上你去过地区的地图。KiwiCamping免费下载，含应用内购买。我们对<a data-guide=\"is-wikicamps-nz-worth-it\">WikiCamps NZ值不值得</a>的判断，把价格问题写得更细。"
           ],
           "tips": [
             "没有广告，没有账号",
@@ -37946,7 +37946,7 @@
           "heading": "第三个选择：KiwiCamping",
           "body": [
             "KiwiCamping 一打开就是地图，不用注册账号，也没有要划过的广告。每个 DOC 营地、山屋和步道都在其中，附有 DOC 的收费、狗狗规定和预订要求，DOC 的<a data-guide=\"freedom-camping-new-zealand-guide\">自由露营</a>公告会标出保护用地上哪些地方禁止进入。",
-            "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>承担了最难的部分。允许带狗、四驱可达和房车可达排在最上面，选多个时，地点必须全部符合。点一下图钉查看详情，再加入你的行程。"
+            "<a data-guide=\"kiwicamping-filters-guide\">筛选</a>承担了最难的部分。允许带狗、四驱可达和房车可达有自己单独的“Pets and access”分区，选多个时，地点必须全部符合。点一下图钉查看详情，再加入你的行程。"
           ],
           "tips": [
             "无需账号，没有广告",

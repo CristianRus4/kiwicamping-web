@@ -27323,6 +27323,145 @@
       ],
       "priceTable": null
     },
+    "wikicamps-nz-account-login": {
+      "title": "Login do WikiCamps: o WikiCamps NZ precisa de conta em 2027?",
+      "description": "O WikiCamps NZ precisa de conta em 2027? Sim, com um código enviado por e-mail para entrar. Por que isso atrapalha numa viagem pela Nova Zelândia e como o KiwiCamping funciona sem nenhum login.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Um motorhome branco estacionado sozinho numa clareira gramada, abaixo de mata nativa na West Coast",
+      "intro": "Sim. Desde a grande atualização do WikiCamps, o WikiCamps NZ exige uma conta, e você entra com um código enviado por e-mail. O KiwiCamping dispensa tudo isso: não existe conta, então você abre o app e já está direto no mapa. Nós fazemos o KiwiCamping, e é isto que não ter login significa numa viagem pela Nova Zelândia.",
+      "sections": [
+        {
+          "heading": "Por que o login do WikiCamps atrapalha",
+          "body": [
+            "Muitos usuários do WikiCamps dizem que a nova versão fica deslogando e que, para voltar, é preciso esperar por um código enviado por e-mail. Isso não tem graça nenhuma num camping sem sinal.",
+            "Esse também é um dos principais motivos pelos quais tanta gente acha que o <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ não funciona</a> como antes. Muitos dizem que a nova versão é mais difícil de usar e que mostra anúncios num app que eles pagaram."
+          ],
+          "tips": [
+            "Conta e código por e-mail",
+            "Deslogado sem sinal",
+            "Anúncios num app pago"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: sem conta, sem login, sem anúncios",
+          "body": [
+            "O KiwiCamping não tem nada em que entrar. Sem e-mail, sem senha, sem código e nada que possa deslogar você no meio da West Coast.",
+            "Seus lugares salvos, coleções, pins e viagens sincronizam discretamente pelo iCloud que você já tem no iPhone. Também não há anúncios, e o KiwiCamping é independente: mostra os campings gratuitos e de baixo custo do DOC bem ao lado dos <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a> pagos. O download é gratuito, com compras no app."
+          ],
+          "tips": [
+            "Nada para entrar",
+            "Sincroniza pelo seu iCloud",
+            "Sem anúncios, independente"
+          ],
+          "table": {
+            "caption": "Entrar na conta, lado a lado.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Conta",
+                "Obrigatória",
+                "Nenhuma"
+              ],
+              [
+                "Login",
+                "Código por e-mail",
+                "Não precisa"
+              ],
+              [
+                "Deslogado no camping",
+                "Usuários dizem que acontece",
+                "Nunca: não há de onde sair"
+              ],
+              [
+                "Anúncios",
+                "Sim, num app pago",
+                "Nenhum"
+              ],
+              [
+                "Seus celulares sincronizados",
+                "Pela sua conta WikiCamps",
+                "Pelo seu iCloud"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Abriu, está no mapa",
+          "body": [
+            "Não há tela de boas-vindas para passar. O mapa da Nova Zelândia é a primeira coisa que você vê, com campings, cabanas e <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a> ao seu redor.",
+            "Toque em <a data-guide=\"kiwicamping-filters-guide\">filtros</a> e Animais permitidos, Acesso 4WD e Acesso para trailers ficam numa seção própria, Pets e acesso. Escolha alguns e todos os lugares exibidos atendem a todos eles. Toque num lugar para ver taxas, instalações e regras, e depois adicione à sua viagem.",
+            "Detalhes dos lugares, seus lugares salvos e suas viagens ficam todos no celular, então abrem <a data-guide=\"kiwicamping-offline-data-guide\">sem sinal</a>."
+          ],
+          "tips": [
+            "O mapa vem primeiro",
+            "Animais permitidos, acesso 4WD e para trailers",
+            "Detalhes abrem sem sinal"
+          ]
+        },
+        {
+          "heading": "Planeje com seu parceiro, ainda sem conta",
+          "body": [
+            "Viajando em dois? Toque em Compartilhar numa viagem ou coleção e escolha Colaborar. Seu parceiro entra pelo iCloud, e vocês dois podem adicionar e reordenar paradas, marcá-las como feitas e editar anotações. As mudanças aparecem nos dois celulares em segundos.",
+            "Para a família que ficou em casa, <a data-guide=\"share-nz-trip-plan-kiwicamping\">compartilhe a viagem</a> com Enviar cópia: um link que abre em qualquer navegador, com suas paradas, datas e anotações."
+          ],
+          "tips": [
+            "Colabore ao vivo pelo iCloud",
+            "Os dois podem editar",
+            "Enviar cópia para a família"
+          ]
+        },
+        {
+          "heading": "Celular novo? Nada para entrar",
+          "body": [
+            "Configure um iPhone novo com sua Apple Account e suas viagens, <a data-guide=\"save-places-kiwicamping\">coleções</a> e lugares salvos chegam sozinhos. Nada para lembrar, nada para redefinir.",
+            "Antes de viajar, instale o KiwiCamping no Wi-Fi e salve suas primeiras noites. Se uma delas for um <a data-guide=\"doc-campsites-new-zealand-guide\">camping do DOC</a> reservado ou uma cabana de uma Great Walk, adicione à viagem com a data, para o plano estar pronto quando você pegar o motorhome."
+          ],
+          "tips": [
+            "iPhone novo, mesmas viagens",
+            "Instale no Wi-Fi antes de viajar",
+            "Adicione primeiro as noites reservadas"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O WikiCamps precisa de conta?",
+          "Sim. A nova versão do WikiCamps NZ pede que você crie uma conta e entre com um código enviado por e-mail."
+        ],
+        [
+          "Por que o WikiCamps fica pedindo para eu entrar de novo?",
+          "A nova versão está atrelada a uma conta, e muitos usuários dizem que ela os desloga de vez em quando. O KiwiCamping não tem conta, então não há nada para entrar de novo."
+        ],
+        [
+          "Existe um app de camping na Nova Zelândia sem login?",
+          "Sim. O KiwiCamping, que nós fazemos, não tem conta, login nem anúncios. Ele abre direto no mapa."
+        ],
+        [
+          "O KiwiCamping precisa de conta?",
+          "Não. Seus lugares e viagens sincronizam pelo iCloud que você já tem no iPhone."
+        ],
+        [
+          "Eu e meu parceiro podemos compartilhar uma viagem sem conta?",
+          "Sim. Toque em Compartilhar na viagem e escolha Colaborar. Vocês dois editam a mesma viagem pelo iCloud, e as mudanças aparecem em segundos."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: lugares para ficar"
+        },
+        {
+          "label": "DOC: camping livre"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "Great Walks da Nova Zelândia 2026/27: Cabines, Acampamentos, Datas de Reserva e Taxas",
       "description": "Todos os 11 Great Walks lado a lado: quais têm acampamentos, quais são reservados o ano todo, quando as reservas de 2026/27 abriram, as taxas de cabana e acampamento para neozelandeses e visitantes, e o que mudou nesta temporada.",
@@ -36307,6 +36446,606 @@
         },
         {
           "label": "DOC: Hawke's Bay"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-worth-it": {
+      "title": "O WikiCamps NZ vale a pena numa viagem à Nova Zelândia em 2027?",
+      "description": "O WikiCamps NZ vale a pena em 2027? Custa NZ$7.99, exige conta e mostra anúncios. Por que os campistas estão migrando para o KiwiCamping: sem login, sem anúncios e todos os campings do DOC em um só mapa.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Um motorhome branco estacionado em um gramado aberto diante de mata fechada na West Coast",
+      "intro": "O WikiCamps NZ vale a pena em 2027? Ele custa só NZ$7.99, mas desde a grande atualização do WikiCamps você precisa de uma conta para usá-lo, e o app mostra anúncios mesmo depois de pago. Muitos usuários também dizem que a nova versão é mais difícil de usar e que ela os desconecta o tempo todo. Nós fazemos o KiwiCamping, um app de camping para a Nova Zelândia sem conta, sem anúncios e com todos os campings, cabanas e trilhas do DOC em um só mapa, e explicamos por que vale a pena trocar.",
+      "sections": [
+        {
+          "heading": "O WikiCamps NZ vale a pena? A resposta curta",
+          "body": [
+            "O WikiCamps NZ é barato, e muita gente ainda o usa. O problema é o que veio com a nova versão: uma conta para entrar, um código enviado por e-mail e anúncios em um app que você já comprou.",
+            "Muitos usuários do WikiCamps dizem que ele os desconecta sozinho, o que não tem graça nenhuma quando você está parado em algum lugar sem sinal. Se você prefere abrir um app e ver logo onde acampar hoje à noite, o KiwiCamping foi feito para isso."
+          ],
+          "tips": [
+            "Barato, mas exige conta",
+            "Anúncios em um app pago",
+            "KiwiCamping: sem login, sem anúncios"
+          ],
+          "table": {
+            "caption": "WikiCamps NZ e KiwiCamping lado a lado.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Preço",
+                "NZ$7.99",
+                "Download grátis, com compras no app"
+              ],
+              [
+                "Conta",
+                "Necessária, com código por e-mail",
+                "Nenhuma"
+              ],
+              [
+                "Anúncios",
+                "Sim",
+                "Nenhum"
+              ],
+              [
+                "Campings, cabanas e trilhas do DOC",
+                "Adicionados pelos usuários",
+                "Todos, vindos do DOC"
+              ],
+              [
+                "Escolher vários filtros",
+                "Segundo os usuários, mostra lugares que atendem a qualquer um",
+                "Os lugares precisam atender a todos"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Sem login, sem anúncios, direto no mapa",
+          "body": [
+            "Abra o KiwiCamping e você já está olhando o mapa da Nova Zelândia. Não há conta para criar, senha para lembrar nem código para esperar, então nada te segura em um camping da West Coast.",
+            "Escolha um filtro, toque em um lugar para ver as taxas e a estrutura e adicione à viagem. Essa é toda a rotina. Não há anúncios em lugar nenhum, e seus lugares salvos e viagens sincronizam de forma privada pelo iCloud que você já tem no iPhone."
+          ],
+          "tips": [
+            "Abre no mapa",
+            "Nada para entrar",
+            "Sem anúncios em lugar nenhum"
+          ]
+        },
+        {
+          "heading": "Todos os campings, cabanas e trilhas do DOC",
+          "body": [
+            "O KiwiCamping se baseia nas informações do próprio Department of Conservation. Cada <a data-guide=\"doc-campsites-new-zealand-guide\">camping do DOC</a>, cabana e trilha está no mapa com a taxa, as regras para cães e se é preciso reservar, além de um link para a página do DOC quando você estiver pronto.",
+            "Os avisos do DOC sobre <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a> também estão lá, para você ver onde é proibido acampar em área de conservação antes de entrar. Perto de cidades e praias, as regras do município e a placa no local continuam valendo."
+          ],
+          "tips": [
+            "Taxas, regras para cães e reservas do DOC",
+            "Avisos do DOC sobre camping livre",
+            "Link para o DOC em cada lugar"
+          ]
+        },
+        {
+          "heading": "Filtros que encontram o lugar certo",
+          "body": [
+            "Cães permitidos, acesso 4WD e acesso para trailers têm uma seção própria, Pets e acesso, nos <a data-guide=\"kiwicamping-filters-guide\">filtros</a>. Recursos populares como banheiros, água e chuveiros refinam ainda mais a busca.",
+            "Escolha vários e o lugar precisa ter todos, então Motorhomes, Chuveiro quente e Cães permitidos juntos só mostram lugares que atendem aos três. Muitos usuários do WikiCamps dizem que os filtros dele mostram lugares que atendem a qualquer escolha. Defina o custo como Grátis e os campings gratuitos do DOC aparecem."
+          ],
+          "tips": [
+            "Cães permitidos, 4WD e acesso para trailers",
+            "Todos os filtros precisam ser atendidos",
+            "Campings gratuitos do DOC por custo"
+          ]
+        },
+        {
+          "heading": "Planeje a viagem do seu jeito, e junto",
+          "body": [
+            "Defina o endereço de casa uma vez na aba Você, depois toque em Começar em casa ou Terminar em casa em qualquer viagem. Adicionar parada busca nos seus pins salvos, nos lugares do app, na sua localização atual ou em qualquer endereço, então seus lugares favoritos também entram. Cada parada aparece na rota com a distância e o tempo de direção.",
+            "Viajando em dupla? Toque em Compartilhar na viagem e escolha Colaborar. Vocês dois adicionam, reordenam e marcam paradas, e as mudanças aparecem para o outro em segundos, sem conta nem login. Para a família que ficou em casa, Enviar cópia gera um link que abre em qualquer navegador."
+          ],
+          "tips": [
+            "Comece e termine em casa",
+            "Adicione qualquer endereço ou pin",
+            "Planeje ao vivo com Colaborar"
+          ]
+        },
+        {
+          "heading": "Por que os campistas trocam pelo KiwiCamping",
+          "body": [
+            "Trekking ou Great Walks: as taxas e as exigências de reserva das cabanas do DOC estão ali, com um link para reservar. Motorhome ou trailer: os <a data-guide=\"kiwicamping-filters-guide\">filtros</a> Motorhomes e Acesso para trailers fazem a seleção por você. Viajando em casal: Colaborar mantém uma única viagem nos dois celulares.",
+            "Pelo caminho, a aba Você preenche um mapa dos lugares por onde você passou, mostra quanto da Nova Zelândia você já viu e conta seus quilômetros, noites acampadas e lugares onde ficou. O KiwiCamping é grátis para baixar, com compras no app, e não tem conta nem anúncios."
+          ],
+          "tips": [
+            "Cabanas e Great Walks",
+            "Motorhomes e trailers",
+            "Um mapa por onde você passou"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O WikiCamps NZ vale a pena em 2027?",
+          "É barato, a NZ$7.99, mas exige conta e mostra anúncios. Para ficar sem login e sem anúncios, o KiwiCamping é grátis para baixar, com compras no app."
+        ],
+        [
+          "O WikiCamps NZ é bom para uma viagem de motorhome?",
+          "Funciona, mas você precisa continuar conectado, e muitos usuários dizem que ele os desconecta. O KiwiCamping não exige conta e tem filtros de Motorhomes e Acesso para trailers."
+        ],
+        [
+          "Preciso do WikiCamps para a Nova Zelândia?",
+          "Não. O KiwiCamping mostra todos os campings, cabanas e trilhas do DOC e os avisos do DOC sobre camping livre, sem conta."
+        ],
+        [
+          "Qual é o melhor app de camping para a Nova Zelândia?",
+          "Achamos que é o KiwiCamping, que nós fazemos: todos os campings, cabanas e trilhas do DOC, filtros que precisam ser todos atendidos, compartilhamento de viagem ao vivo e sem anúncios nem login."
+        ],
+        [
+          "O KiwiCamping é uma boa alternativa ao WikiCamps?",
+          "Sim. Ele abre direto no mapa sem conta, não mostra anúncios e permite planejar uma viagem ao vivo com seu parceiro ou parceira."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: onde ficar"
+        },
+        {
+          "label": "DOC: camping livre"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-vs-kiwicamping": {
+      "title": "WikiCamps NZ vs KiwiCamping: qual o melhor app de camping na Nova Zelândia? (2027)",
+      "description": "WikiCamps NZ vs KiwiCamping em 2027: preço, login, anúncios, campings e cabanas do DOC, filtros e planejamento de viagem a dois. Por que o KiwiCamping é o app mais fácil para viajar pela Nova Zelândia.",
+      "region": "Nova Zelândia",
+      "imageAlt": "O rio Rangitīkei fazendo uma curva ao lado de um camping à beira do rio em Vinegar Hill, visto por entre a mata a partir do terraço acima",
+      "intro": "WikiCamps NZ vs KiwiCamping: qual app de camping levar para a Nova Zelândia? O KiwiCamping é gratuito para baixar, não exige conta e não mostra anúncios, enquanto o WikiCamps NZ custa NZ$7.99, pede login e mostra anúncios. Nós fazemos o KiwiCamping, então aqui vai a comparação nos pontos que importam quando você já está na estrada.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ vs KiwiCamping em resumo",
+          "body": [
+            "Se você quer a versão curta: o KiwiCamping é o que dá para abrir e usar na hora. Sem login, sem anúncios, com as informações do próprio DOC para cada camping, cabana e trilha, e uma viagem que você planeja ao vivo com seu parceiro ou sua parceira.",
+            "O WikiCamps pertence ao G'day Group, a empresa por trás da Discovery Parks e da G'day Parks. O KiwiCamping é independente e mostra os <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a> gratuitos no mesmo mapa que os parques de férias pagos."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Como os dois apps se comparam no que importa.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Preço",
+                "NZ$7.99",
+                "Gratuito para baixar, com compras no app"
+              ],
+              [
+                "Conta",
+                "Obrigatória, com login por código enviado por e-mail",
+                "Nenhuma, nada para entrar"
+              ],
+              [
+                "Anúncios",
+                "Sim",
+                "Nenhum"
+              ],
+              [
+                "Campings, cabanas e trilhas do DOC",
+                "Listados pelos usuários",
+                "Todos, com as informações do próprio DOC"
+              ],
+              [
+                "Vários filtros ao mesmo tempo",
+                "Usuários dizem que os lugares atendem a qualquer um",
+                "Os lugares precisam atender a todos"
+              ],
+              [
+                "Planejar com seu parceiro",
+                "Compartilhar um link da viagem",
+                "Ao vivo, com Colaborar"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Login: uma conta, ou nada",
+          "body": [
+            "Desde a grande atualização do WikiCamps, é preciso ter uma conta WikiCamps e um código enviado por e-mail para entrar. Muitos usuários dizem que o app depois os desconecta, e entrar de novo exige sinal, que pode não haver em um camping.",
+            "O KiwiCamping simplesmente não tem conta. Nada para entrar, sem código e sem ser desconectado, então ele abre do mesmo jeito em Haast e em Auckland. Seus lugares e viagens salvos sincronizam de forma privada pelo seu próprio iCloud."
+          ],
+          "tips": [
+            "WikiCamps NZ: conta e código por e-mail",
+            "KiwiCamping: sem conta",
+            "Sincronização privada pelo iCloud"
+          ]
+        },
+        {
+          "heading": "Fácil de usar: abriu, você já está no mapa",
+          "body": [
+            "A reclamação mais comum dos usuários do WikiCamps é que a nova versão é mais difícil de usar que a antiga. O KiwiCamping mantém poucos passos de propósito, para o app não atrapalhar a viagem.",
+            "Você abre e o mapa da Nova Zelândia está lá. Escolha um filtro, por exemplo Motorhomes com Chuveiros quentes, toque em um pino para ver as tarifas, as instalações e as notas do DOC, e adicione-o a uma viagem na mesma página."
+          ],
+          "tips": [
+            "Abre no mapa",
+            "Filtrar, tocar, adicionar",
+            "Detalhes a um toque"
+          ]
+        },
+        {
+          "heading": "Campings, cabanas e trilhas do DOC, direto do DOC",
+          "body": [
+            "No KiwiCamping, cada <a data-guide=\"doc-campsites-new-zealand-guide\">camping do DOC</a>, cabana e trilha vem das informações do próprio Department of Conservation. Cada um mostra a tarifa, se está aberto, se cães são permitidos, se é preciso reservar e qualquer alerta atual, com um link para a página dele no site do DOC.",
+            "Os avisos do DOC sobre <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a> ficam no mesmo mapa e mostram onde acampar em terras de conservação é proibido ou restrito. No WikiCamps NZ, os lugares do DOC são listados pelos usuários, então uma tarifa ou um fechamento só muda quando alguém atualiza."
+          ],
+          "tips": [
+            "Tarifas, regras para cães e alertas do DOC",
+            "Avisos do DOC sobre camping livre",
+            "Um link para o DOC em cada lugar"
+          ]
+        },
+        {
+          "heading": "Filtros: Cães permitidos, acesso 4WD e acesso para trailers",
+          "body": [
+            "Os três filtros que os campistas mais pedem têm a própria seção Pets e acesso nos filtros do KiwiCamping, logo depois de Custo. Recursos populares como banheiros, água, chuveiros e <a data-guide=\"campfire-rules-new-zealand\">fogueiras</a> refinam ainda mais a busca.",
+            "Escolha vários e o lugar precisa ter todos. Usuários do WikiCamps NZ dizem que, ao escolher vários <a data-guide=\"kiwicamping-filters-guide\">filtros</a> por lá, aparecem lugares com qualquer um deles, o que deixa a lista mais longa para filtrar na mão."
+          ],
+          "tips": [
+            "Pets e acesso, logo depois de Custo",
+            "Todas as escolhas precisam ser atendidas",
+            "Filtro de custo para lugares gratuitos do DOC"
+          ]
+        },
+        {
+          "heading": "Planejamento de viagem com Casa, qualquer endereço e seus próprios pinos",
+          "body": [
+            "Defina sua casa uma vez na aba Você e depois comece ou termine qualquer viagem nela com um toque. Adicionar parada encontra lugares no app, seus pinos salvos, sua localização atual ou qualquer endereço, então a casa do amigo em Nelson e a praia que você descobriu no verão passado cabem na rota. Cada parada mostra a distância e o tempo de direção.",
+            "Solte um pino no mapa, toque em Adicionar à viagem e ele entra na rota como qualquer outra parada. Cada parada também tem as próprias datas, notas e previsão do tempo."
+          ],
+          "tips": [
+            "Começar e terminar em Casa",
+            "Qualquer endereço ou pino solto",
+            "Distância e tempo de direção por parada"
+          ]
+        },
+        {
+          "heading": "Compartilhamento: planeje junto ao vivo, ou envie uma cópia",
+          "body": [
+            "Toque em Compartilhar em uma viagem ou coleção e escolha Colaborar para convidar seu parceiro pelo iCloud. Vocês dois adicionam paradas, reordenam, marcam como feitas e editam notas, e as mudanças aparecem em segundos, sem conta e sem login.",
+            "Enviar cópia cria um link que qualquer pessoa abre no navegador para ver as paradas, as datas e as notas, ideal para a família que ficou em casa. Compartilhar como imagem transforma a viagem em uma imagem com a rota, as paradas e as noites, e um lugar compartilhado abre direto no app para os amigos que o têm."
+          ],
+          "tips": [
+            "Colaborar: uma viagem, dois celulares",
+            "Enviar cópia abre em qualquer navegador",
+            "Compartilhar como imagem"
+          ]
+        },
+        {
+          "heading": "Por que quem troca escolhe o KiwiCamping",
+          "body": [
+            "É o jeito mais tranquilo de acampar na Nova Zelândia: abrir, achar um lugar, ir. Sem anúncios, sem conta, com as informações do próprio DOC e uma viagem que dois podem planejar ao mesmo tempo.",
+            "A aba Você ainda traz um toque de diversão, com um mapa que vai se preenchendo com as regiões que você visitou. O KiwiCamping é gratuito para baixar, com compras no app, e nossa opinião sobre <a data-guide=\"is-wikicamps-nz-worth-it\">se o WikiCamps NZ vale a pena</a> trata da questão do preço com mais detalhes."
+          ],
+          "tips": [
+            "Sem anúncios, sem conta",
+            "Informações do próprio DOC",
+            "Planeje junto ao vivo"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O KiwiCamping é melhor que o WikiCamps NZ?",
+          "Para a maioria das viagens pela Nova Zelândia, achamos que sim: sem conta, sem anúncios, com as informações do próprio DOC sobre campings e cabanas, e compartilhamento de viagem ao vivo com seu parceiro."
+        ],
+        [
+          "O KiwiCamping precisa de conta?",
+          "Não. Não há conta, senha nem código, e o seu próprio iCloud faz a sincronização."
+        ],
+        [
+          "O KiwiCamping mostra os campings e as cabanas do DOC?",
+          "Sim. Todos os campings, cabanas e trilhas do DOC estão no mapa, com as tarifas, as regras para cães e as exigências de reserva do DOC."
+        ],
+        [
+          "Eu e meu parceiro podemos planejar uma viagem juntos no KiwiCamping?",
+          "Sim. Compartilhe a viagem e escolha Colaborar. Vocês dois editam a mesma viagem e veem as mudanças um do outro em segundos."
+        ],
+        [
+          "O KiwiCamping funciona sem sinal?",
+          "Os detalhes dos lugares, as tarifas e as instalações, além dos seus lugares e viagens salvos, ficam no seu celular, então você pode lê-los sem sinal."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: onde ficar"
+        },
+        {
+          "label": "DOC: camping livre em terras de conservação"
+        },
+        {
+          "label": "DOC: reservas online"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-vs-wikicamps-nz": {
+      "title": "CamperMate vs WikiCamps NZ em 2027 e uma terceira opção",
+      "description": "CamperMate ou WikiCamps na Nova Zelândia em 2027? Compare preço, anúncios e login, e veja por que o KiwiCamping, sem login e sem anúncios, é a terceira opção que os campistas escolhem.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Quatro motorhomes estacionados em fila num terreno de cascalho acima do mar, em Tautuku Bay, nos Catlins",
+      "intro": "CamperMate vs WikiCamps NZ se resume a preço e login: o CamperMate é grátis, enquanto o WikiCamps NZ custa NZ$7.99 uma única vez e exige conta, e os dois mostram anúncios. Nós criamos o KiwiCamping, a terceira opção, sem anúncios e sem login, feita em torno dos campings, cabanas e trilhas do DOC, e a que achamos deixar uma viagem pela Nova Zelândia mais fácil.",
+      "sections": [
+        {
+          "heading": "CamperMate vs WikiCamps em resumo",
+          "body": [
+            "Muitos viajantes de motorhome comparam esses dois antes de chegar. O CamperMate não custa nada, enquanto o WikiCamps NZ é um app pago que pede uma conta e um código por e-mail.",
+            "O que eles têm em comum são os anúncios. Se você quer um <a data-guide=\"best-nz-camping-apps\">app de camping</a> sem anúncios nem login, é aí que entra o KiwiCamping."
+          ],
+          "tips": [
+            "CamperMate: grátis",
+            "WikiCamps NZ: NZ$7.99 e uma conta",
+            "Os dois mostram anúncios"
+          ],
+          "table": {
+            "caption": "Comparação entre CamperMate, WikiCamps NZ e KiwiCamping.",
+            "head": [
+              "",
+              "CamperMate",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Preço",
+                "Grátis",
+                "NZ$7.99",
+                "Download grátis, com compras no app"
+              ],
+              [
+                "Anúncios",
+                "Sim",
+                "Sim",
+                "Nenhum"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "CamperMate em poucas palavras",
+          "body": [
+            "O CamperMate é um app grátis que lista campings e serviços em todo o país, com reservas em <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a> e ofertas locais, e tem anúncios.",
+            "Alguns usuários do CamperMate dizem que o redesign deixou o app mais lento e que lugares em que eles confiavam sumiram. Se isso aconteceu com você, vale testar um app mais limpo."
+          ],
+          "tips": [
+            "Grátis, com anúncios",
+            "Reservas e ofertas",
+            "Alguns usuários não gostam do redesign"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ em poucas palavras",
+          "body": [
+            "O WikiCamps NZ custa NZ$7.99 uma única vez, sem assinatura. Desde a grande atualização do WikiCamps, é preciso ter uma conta e um código por e-mail para usar, e o app mostra anúncios.",
+            "Muitos usuários dizem que a nova versão é mais complicada que a antiga e desconecta a conta, o que é mais difícil de aguentar num camping sem sinal. Nossa análise sobre <a data-guide=\"is-wikicamps-nz-free\">quanto custa o WikiCamps NZ</a> detalha o preço."
+          ],
+          "tips": [
+            "NZ$7.99 uma vez",
+            "Conta e código por e-mail",
+            "Anúncios num app pago"
+          ]
+        },
+        {
+          "heading": "A terceira opção: KiwiCamping",
+          "body": [
+            "O KiwiCamping abre direto no mapa, sem conta para criar e sem anúncios no caminho. Todos os campings, cabanas e trilhas do DOC estão lá, com a taxa do DOC, as regras para cães e as exigências de reserva, e os avisos do DOC sobre <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a> mostram onde a área de conservação é proibida.",
+            "Os <a data-guide=\"kiwicamping-filters-guide\">filtros</a> fazem o trabalho pesado. Cães permitidos, acesso 4WD e acesso para caravanas têm sua própria seção, Pets e acesso, e quando você escolhe vários, o lugar precisa atender a todos. Toque num pino para ver os detalhes e depois adicione à sua viagem."
+          ],
+          "tips": [
+            "Sem conta, sem anúncios",
+            "Todos os campings, cabanas e trilhas do DOC",
+            "Filtros que precisam bater todos"
+          ]
+        },
+        {
+          "heading": "Planejando uma viagem de motorhome no KiwiCamping",
+          "body": [
+            "Defina seu endereço de casa uma vez e comece ou termine qualquer viagem ali com um toque. Adicionar parada aceita lugares do app, qualquer endereço ou um pino que você colocou, e cada parada mostra a distância e o tempo de viagem na rota.",
+            "Vão dois no motorhome? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Compartilhe a viagem</a> e escolha Colaborar, e os dois podem adicionar e reordenar paradas, com as mudanças chegando em segundos e sem login. Enviar cópia dá à família um link para acompanhar sua rota em qualquer navegador."
+          ],
+          "tips": [
+            "Casa, endereços e pinos",
+            "Distância e tempo de viagem",
+            "Planejem juntos com Colaborar"
+          ]
+        },
+        {
+          "heading": "Por que os campistas incluem o KiwiCamping na viagem",
+          "body": [
+            "Para os campings e as cabanas das Great Walks do DOC, o KiwiCamping mostra os dados do próprio DOC e leva ao DOC para reservar. Para o <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a>, os avisos do DOC ficam no mapa ao lado dos campings, para você ver o que é proibido antes de chegar.",
+            "E ele guarda um registro para você. A aba Você preenche um mapa das regiões que você visitou e conta seus quilômetros e noites acampadas. O KiwiCamping é grátis para baixar, com compras no app."
+          ],
+          "tips": [
+            "Campings e cabanas do DOC",
+            "Avisos do DOC sobre camping livre",
+            "Um registro da sua viagem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "CamperMate ou WikiCamps é melhor para a Nova Zelândia?",
+          "O CamperMate é grátis; o WikiCamps NZ custa NZ$7.99 e exige conta. Os dois mostram anúncios. Para ficar sem anúncios e sem login, experimente o KiwiCamping."
+        ],
+        [
+          "O CamperMate é grátis?",
+          "Sim. O CamperMate é grátis para usar, e mostra anúncios."
+        ],
+        [
+          "Qual app de camping não tem anúncios na Nova Zelândia?",
+          "O KiwiCamping não tem anúncios nem login. É grátis para baixar, com compras no app."
+        ],
+        [
+          "Qual app a maioria dos viajantes de motorhome usa na NZ?",
+          "Muitos usam o CamperMate ou o WikiCamps NZ. O KiwiCamping é o que traz os dados do próprio DOC sobre os campings, sem anúncios e sem conta."
+        ],
+        [
+          "Qual app mostra os campings do DOC?",
+          "O KiwiCamping mostra todos os campings, cabanas e trilhas do DOC a partir das informações do próprio DOC, com taxas, regras para cães e exigências de reserva."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: lugares para ficar"
+        },
+        {
+          "label": "DOC: reservas online"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-huts-campsites-app-wikicamps-kiwicamping": {
+      "title": "App DOC NZ: cabanas e campings, WikiCamps vs KiwiCamping (2027)",
+      "description": "Procurando um app do DOC na Nova Zelândia para cabanas, trilhas e campings em 2027? Veja como o KiwiCamping mostra todas as cabanas e campings do DOC com taxas, reservas e regras para cães, sem login, em comparação com o WikiCamps NZ.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Uma cabana de madeira do DOC com uma ampla varanda coberta na Rakiura Track, na Stewart Island",
+      "intro": "Procurando um app do DOC na Nova Zelândia para cabanas e campings? O KiwiCamping reúne todas as cabanas, campings e trilhas do DOC em um só mapa, com as taxas do DOC, as regras para cães, a necessidade de reserva e um link direto para o DOC quando você quiser reservar. Não há conta nem anúncios. Nós fazemos o KiwiCamping e aqui você vê como ele ajuda a planejar cabanas, trilhas e campings, e como ele se compara ao WikiCamps NZ.",
+      "sections": [
+        {
+          "heading": "O que um bom app do DOC mostra para você",
+          "body": [
+            "O DOC organiza as cabanas e os campings em categorias, e a categoria diz quase tudo o que esperar na chegada. Um bom app mostra isso com clareza, junto com a taxa por noite, se é preciso reservar ou dá para simplesmente chegar, se cães são permitidos e qualquer alerta em vigor.",
+            "É exatamente isso que você vê em cada local do DOC no KiwiCamping, com base nas informações do próprio DOC, para escolher uma cabana antes de sair de casa e conferir de novo no fim da estrada."
+          ],
+          "tips": [
+            "Categoria, taxa e reserva",
+            "Regras para cães e alertas",
+            "Direto do DOC"
+          ],
+          "table": {
+            "caption": "As categorias de cabanas do DOC em resumo.",
+            "head": [
+              "Categoria da cabana",
+              "O que esperar"
+            ],
+            "rows": [
+              [
+                "Cabana de Great Walk",
+                "Reserve com antecedência na temporada dos Great Walks"
+              ],
+              [
+                "Cabana com serviços",
+                "Normalmente colchões, água, banheiros e aquecimento"
+              ],
+              [
+                "Cabana padrão",
+                "Normalmente colchões, água e banheiro"
+              ],
+              [
+                "Cabana básica ou bivvy",
+                "Um abrigo simples para trilheiros experientes"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Cabanas, campings e trilhas do DOC no KiwiCamping",
+          "body": [
+            "Cada <a data-guide=\"doc-huts-new-zealand-guide\">cabana do DOC</a> mostra se está aberta, as camas, a taxa e as instalações, com um link para a cabana no site do DOC. Cada trilha do DOC mostra a distância, o tempo de caminhada, o nível de dificuldade e um perfil de elevação, para você avaliar a subida antes de se comprometer.",
+            "Os <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a> mostram a taxa, as regras para cães e se é preciso reservar. Cabanas e campings com reserva têm link para o DOC, onde você faz a reserva."
+          ],
+          "tips": [
+            "Status, camas e taxas das cabanas",
+            "Distância, tempo e nível da trilha",
+            "Reserve pelo link do DOC"
+          ]
+        },
+        {
+          "heading": "Como o WikiCamps NZ trata os locais do DOC",
+          "body": [
+            "No WikiCamps NZ, as <a data-guide=\"doc-huts-new-zealand-guide\">cabanas do DOC</a> e os campings são listados pelos próprios usuários junto com todo o resto, então uma taxa ou um fechamento só muda quando alguém atualiza.",
+            "Desde a grande atualização do WikiCamps, o app também exige uma conta com código por e-mail e mostra anúncios. Muitos usuários dizem que ele os desconecta o tempo todo, a última coisa que você quer no fim de uma estrada sem sinal. Nossa comparação <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ vs KiwiCamping</a> mostra o resto."
+          ],
+          "tips": [
+            "Listados por usuários",
+            "Conta e código por e-mail",
+            "Anúncios"
+          ]
+        },
+        {
+          "heading": "Do mapa até uma cabana em poucos toques",
+          "body": [
+            "Abra o KiwiCamping e o mapa já está lá, sem nada para fazer login. Adicione <a data-guide=\"kiwicamping-filters-guide\">filtros</a> como Só a pé, Abastecimento de água ou Cães permitidos, e só ficam no mapa os locais que atendem a todos eles.",
+            "Toque em uma cabana para ver as camas, a taxa e o link do DOC, e depois salve em uma coleção para a trilha ou adicione à sua viagem."
+          ],
+          "tips": [
+            "Sem login",
+            "Filtros Só a pé e Abastecimento de água",
+            "Salve ou adicione com um toque"
+          ]
+        },
+        {
+          "heading": "Planejando uma viagem de cabanas ou um Great Walk",
+          "body": [
+            "Salve as cabanas que você está avaliando em uma coleção para cada trilha. Quando o plano estiver mais definido, adicione os campings no fim da estrada a uma viagem que começa em Casa, e cada trecho mostra a distância e o tempo de carro.",
+            "Vai fazer a trilha com um amigo? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Compartilhe a viagem</a> e escolha Colaborar para que os dois vejam o mesmo plano, ao vivo. Enviar cópia dá a alguém em casa um link para o seu roteiro em qualquer navegador, o que combina bem com avisar seu itinerário antes de sair. Depois reserve as cabanas no DOC com antecedência, porque as mais populares esgotam rápido no verão."
+          ],
+          "tips": [
+            "Uma coleção por trilha",
+            "Comece a viagem em Casa",
+            "Colabore com seu parceiro de trilha"
+          ]
+        },
+        {
+          "heading": "Na trilha sem sinal",
+          "body": [
+            "Os detalhes das cabanas e dos campings ficam no seu celular, junto com seus locais salvos e a sua viagem, então o número de camas, a taxa e as observações do DOC estão lá mesmo no fundo de um vale <a data-guide=\"kiwicamping-offline-data-guide\">sem cobertura</a>.",
+            "Em qualquer trilha remota, leve um mapa topográfico em papel e um localizador pessoal de emergência, confira o clima e os alertas do DOC no último ponto com sinal e avise alguém para onde você vai."
+          ],
+          "tips": [
+            "Detalhes das cabanas sem sinal",
+            "Mapa em papel e um localizador",
+            "Avise seu itinerário"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Existe um app do DOC para cabanas?",
+          "O DOC aceita reservas no seu site. O KiwiCamping mostra todas as cabanas do DOC com taxa, camas e necessidade de reserva, e tem link para o DOC para reservar."
+        ],
+        [
+          "Qual app mostra os campings do DOC na Nova Zelândia?",
+          "O KiwiCamping mostra todos os campings do DOC a partir das informações do próprio DOC, com taxas, regras para cães e necessidade de reserva, sem login."
+        ],
+        [
+          "O KiwiCamping mostra os detalhes das trilhas do DOC?",
+          "Sim. Cada trilha do DOC mostra a distância, o tempo de caminhada, o nível de dificuldade e um perfil de elevação, com link para o DOC."
+        ],
+        [
+          "Posso ver os detalhes das cabanas sem sinal?",
+          "Sim. Os detalhes das cabanas e dos campings, seus locais salvos e suas viagens ficam no seu celular."
+        ],
+        [
+          "Quantas cabanas do DOC existem na Nova Zelândia?",
+          "O KiwiCamping mostra mais de 900 cabanas do DOC. O site do próprio DOC informa o total oficial."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: reservas online"
+        },
+        {
+          "label": "DOC: reservar e pagar cabanas"
+        },
+        {
+          "label": "DOC: reservar e pagar campings"
+        },
+        {
+          "label": "DOC: compare os Great Walks"
         }
       ],
       "priceTable": null
