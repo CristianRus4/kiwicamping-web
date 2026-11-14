@@ -228,7 +228,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   "wikicamps-alternatives": [
     ["Is WikiCamps New Zealand free?", "No. WikiCamps New Zealand is a paid app, NZ$7.99 once on the App Store, and it shows ads. KiwiCamping is free to download, with in-app purchases, and has no ads."],
     ["What is a free alternative to WikiCamps in New Zealand?", "Rankers Camping NZ and CamperMate are free. KiwiCamping is free to download, with in-app purchases, and has no login and no ads."],
-    ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes. WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own. We make KiwiCamping for New Zealand and AussieCamps for Australia, both free to download."],
+    ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes, one for each country, and you buy each one separately. KiwiCamping is made just for New Zealand and is free to download."],
   ],
   "wikicamps-not-working-new-zealand": [
     ["WikiCamps is not working. What can I use instead?", "KiwiCamping is a New Zealand camping app with no account, no login and no ads. Every DOC campsite, hut and track is on one map with holiday parks and freedom camping areas, place details open without signal, and saved places turn into a trip with dates and drive times."],

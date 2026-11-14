@@ -469,7 +469,7 @@ export const listicleArticles: Article[] = [
       s("What KiwiCamping does differently", [
         "KiwiCamping opens straight to the map. There is no account, no login and no email code, so nothing can sign you out at camp, and there are no ads. Your saved places, collections and trips sync quietly through the iCloud already on your iPhone.",
         "Every DOC campsite, hut and track comes from the Department of Conservation's own data, with DOC's fees, dog rules and booking needs, alongside holiday parks, freedom camping areas and public dump stations across both islands. The whole directory is inside the app, so search, filters and place details work with no signal, with nothing to download first, unlike WikiCamps' Offline Mode.",
-        "Every place opens with what you need to decide: fees, facilities, conditions, contact and booking details. Dogs allowed, 4WD access and Caravan access sit at the top of the filters, and a place has to match every filter you pick.",
+        "Every place opens with what you need to decide: fees, facilities, conditions, contact and booking details. Pick Dogs allowed, 4WD access or Caravan access from the top of the filter list, and only places that match all your choices stay on the map.",
       ], ["No account, no login, no ads", "Every DOC campsite, hut and track", "Details work with no signal"]),
       s("A trip planner built for the road", [
         "If you miss the old WikiCamps trip planner, this one keeps things simple. Set your home once in the You tab, then start and finish any trip at Home in one tap. Tap Add stop and one search finds DOC places, your saved pins or any address, so even a favourite spot that isn't listed goes in. Every stop shows its distance and drive time, its own date, notes and weather, and you can tick stops off as you go.",
@@ -491,7 +491,7 @@ export const listicleArticles: Article[] = [
       }),
       s("KiwiCamping and WikiCamps compared", [
         "Put WikiCamps NZ vs KiwiCamping side by side and they feel very different. WikiCamps grew on places its users add and is tied to an account. KiwiCamping starts from DOC and other official sources, has no account and no ads, and is built around planning the trip.",
-        "Travelling as two? Share the trip with your partner and choose Collaborate: you both add, reorder and tick off stops, and changes show up within seconds. For family back home, Send copy gives them a link they can open in any web browser.",
+        "Travelling as two? Share the trip with your partner and choose Collaborate: you both add, reorder and tick off stops, and changes show up within seconds. Family back home can follow along too: Send copy sends them a link that opens the trip in any web browser.",
       ], ["Official data versus user listings", "No account versus a required account", "Plan live with your partner"], {
         caption: "How the two apps differ.",
         head: ["", "KiwiCamping", "WikiCamps"],
