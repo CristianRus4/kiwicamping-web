@@ -513,9 +513,9 @@ function assertFigureImage(tag,src,route){
 }
 
 test("each screenshot figure sits in the section that names KiwiCamping, one figure per guide",()=>{
-  // No exception on this site: every figure guide has a section whose heading names KiwiCamping.
-  // (AussieCamps documents one, a guide whose section body names the app; see docs/growth/screen-figures.md.)
-  const namedInBody=new Set();
+  // The documented exceptions (docs/growth/screen-figures.md): the figure sits in the section it shows,
+  // whose heading does not name the app but whose body names KiwiCamping.
+  const namedInBody=new Set(["is-wikicamps-nz-worth-it","wikicamps-nz-vs-kiwicamping","is-wikicamps-nz-free"]);
   for(const figure of screenFigures){
     const article=allArticles.find((item)=>item.slug===figure.slug);
     const part=article.sections[figure.section];

@@ -82,7 +82,10 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | share-nz-trip-plan-kiwicamping | 0 (Three ways to share a road trip itinerary from KiwiCamping) | copy of hump-ridge-track-huts-booking-2026-27 | KiwiCamping on iPhone: a trip itinerary of ordered stops with the distance and drive time between them |
 | wikicamps-nz-trip-planner-alternative | 2 (Add any stop in KiwiCamping: places, addresses and pins) | copy of queenstown-to-milford-sound-drive-guide | KiwiCamping on iPhone: a trip itinerary of numbered stops with the distance and driving time between each pair |
 
-Every figure sits in the section whose heading names KiwiCamping; this site has no exception.
+A figure sits in the section whose heading names KiwiCamping, with these exceptions, where it sits in the
+section it shows, whose body names KiwiCamping (the heading test in `tests/rendered-html.test.mjs` lists them):
+`is-wikicamps-nz-worth-it` ("Every DOC campsite, hut and track"), `wikicamps-nz-vs-kiwicamping` ("DOC
+campsites, huts and tracks, straight from DOC") and `is-wikicamps-nz-free` ("Finding free campsites in New Zealand").
 `best-nz-camping-apps` is the legacy page `/best-nz-camping-apps.html` and shows its figure there; the
 others are scheduled and show their figure from their publish date.
 
