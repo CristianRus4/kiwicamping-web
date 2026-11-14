@@ -10,6 +10,7 @@ const s = (heading: string, body: string[], tips?: string[], table?: ArticleTabl
 export const legacyOnlyArticles: Article[] = [
   a({
     slug: "best-nz-camping-apps",
+    related: ["wikicamps-nz-vs-kiwicamping", "is-wikicamps-nz-worth-it", "campermate-vs-wikicamps-nz"],
     legacyPath: "/best-nz-camping-apps.html",
     listicle: true,
     title: "Best Camping Apps for New Zealand 2026: 7 Compared",

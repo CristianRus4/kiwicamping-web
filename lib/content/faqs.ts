@@ -226,14 +226,14 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which apps should I download before a New Zealand road trip?", "The NZeTA and Traveller Declaration apps for entry, Google Maps with offline areas downloaded, MetService for warnings and Plan My Walk for walks. For a camping trip add KiwiCamping, which we make, for DOC campsites and the route plan, and Rankers for traveller reviews."],
   ],
   "wikicamps-alternatives": [
-    ["Is WikiCamps New Zealand free?", "No. On the New Zealand App Store it costs NZ$7.99 once, with no subscription in its listing. Its website quotes A$9.99 per platform, so check the price in your own store before you buy."],
-    ["What is a free alternative to WikiCamps in New Zealand?", "Rankers Camping NZ is free and lists only overnight spots the local community has approved, with traveller reviews read by its team. CamperMate is also free and covers Australia as well. KiwiCamping is free to download, but its DOC campsites, huts and trips need the paid Pass."],
-    ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes. WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own; WikiCamps Australia costs NZ$11.99 on the New Zealand App Store. CamperMate covers both countries in one free app."],
+    ["Is WikiCamps New Zealand free?", "No. WikiCamps New Zealand is a paid app, NZ$7.99 once on the App Store, and it shows ads. KiwiCamping is free to download, with in-app purchases, and has no ads."],
+    ["What is a free alternative to WikiCamps in New Zealand?", "Rankers Camping NZ and CamperMate are free. KiwiCamping is free to download, with in-app purchases, and has no login and no ads."],
+    ["Do I need separate WikiCamps apps for New Zealand and Australia?", "Yes. WikiCamps New Zealand and WikiCamps Australia are separate apps, each bought on its own. We make KiwiCamping for New Zealand and AussieCamps for Australia, both free to download."],
   ],
   "wikicamps-not-working-new-zealand": [
-    ["WikiCamps is not working. What can I use instead?", "KiwiCamping is an iPhone camping app for New Zealand with DOC campsites, huts and tracks from the Department of Conservation's own data and more than 6,500 places in all. There is no app account to create, place details stay readable without signal, and saved places turn into a trip with stops, dates and the distance for each leg."],
+    ["WikiCamps is not working. What can I use instead?", "KiwiCamping is a New Zealand camping app with no account, no login and no ads. Every DOC campsite, hut and track is on one map with holiday parks and freedom camping areas, place details open without signal, and saved places turn into a trip with dates and drive times."],
     ["Does KiwiCamping make me sign in?", "No. There is no KiwiCamping account or login screen. With iCloud turned on, your saved places, collections and trips sync privately through your Apple Account, and a purchase is restored through the same Apple Account."],
-    ["Can I move my WikiCamps trip to KiwiCamping?", "There is no import, so you rebuild the trip. Search for each stop, save it, then add the saved places to a new trip and drag them into the order you will drive. Most trips take a few minutes."],
+    ["Can I move my WikiCamps trip to KiwiCamping?", "Yes, in a few minutes. Make a new trip, tap Add stop and add each place by name, address or saved pin, then drag the stops into the order you will drive."],
   ],
   "doc-campsite-pass-new-zealand": [
     ["Is the DOC Campsite Pass worth it?", "Only for long trips built around paid DOC campsites. At $295 for an adult it pays off on the twelfth night at $25 serviced campsites, but takes 20 nights or more at standard campsites, and never pays if you mostly use free basic sites, holiday parks or freedom camping."],

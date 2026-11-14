@@ -5,6 +5,7 @@ const s = (heading: string, body: string[], tips?: string[]): ArticleSection => 
 export const appArticles: Article[] = [
   a({
     slug: "plan-trip-kiwicamping",
+    related: ["wikicamps-nz-trip-planner-alternative", "share-nz-trip-plan-kiwicamping", "switch-from-wikicamps-nz"],
     title: "How to plan a complete trip in KiwiCamping",
     description: "Order stops, see route distance and keep dates, notes and to-dos beside the itinerary.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
@@ -45,6 +46,7 @@ export const appArticles: Article[] = [
 
   a({
     slug: "save-places-kiwicamping",
+    related: ["switch-from-wikicamps-nz", "share-nz-trip-plan-kiwicamping"],
     title: "How to save and organise places in KiwiCamping",
     description: "Keep confirmed stays, strong alternatives and future ideas separate without losing them on the map.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
@@ -85,6 +87,7 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-filters-guide",
+    related: ["switch-from-wikicamps-nz", "doc-huts-campsites-app-wikicamps-kiwicamping"],
     title: "Find the right campsite faster with KiwiCamping filters",
     description: "Narrow by place type, facilities, price and access without hiding every workable alternative.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
@@ -125,6 +128,7 @@ export const appArticles: Article[] = [
 
   a({
     slug: "kiwicamping-offline-data-guide",
+    related: ["does-wikicamps-nz-work-offline", "wikicamps-nz-account-login"],
     title: "Does KiwiCamping Work Offline? What Needs Signal",
     description: "Place details, saved lists and guides work without reception; map tiles, weather, routing and Look Around need signal. Plan remote legs around that.",
     category: "App guides", region: "KiwiCamping", readTime: 4,
