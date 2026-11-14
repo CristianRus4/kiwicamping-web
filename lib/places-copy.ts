@@ -1,4 +1,4 @@
-import { feeLabel, nearbyPlaces, typeLabels, type Place } from "@/lib/places";
+import { feeLabel, isListingType, nearbyPlaces, type Place, typeLabel } from "@/lib/places";
 
 /**
  * The words a place page writes from the app's facts: the summary under the photos, the questions and
@@ -27,7 +27,7 @@ function accessSentence(place: Place) {
 }
 
 export function placeSummary(place: Place): string[] {
-  const kind = place.type === "holiday_park" ? "holiday park" : `${place.category && place.category !== "Standard" ? `${place.category} ` : ""}${typeLabels[place.type].one}`;
+  const kind = place.type === "holiday_park" ? "holiday park" : `${place.category && place.category !== "Standard" ? `${place.category} ` : ""}${isListingType(place.type) ? typeLabel(place).one : typeLabel(place).one.toLowerCase()}`;
   const sentences = [`${place.name} is ${article(kind)} ${kind} in ${wherePhrase(place)}, on the ${place.island}.`];
   if (place.stars) sentences.push(`It is rated ${place.stars} stars.`);
   if (place.sites) sentences.push(place.type === "doc_hut" ? `It has ${place.sites} bunks.` : `It has ${place.sites} sites.`);

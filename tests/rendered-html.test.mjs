@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test, { after } from "node:test";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { readFile, readdir } from "node:fs/promises";
 import { startProdServer } from "vinext/server/prod-server";
 // Run with `node --import tsx --test` (npm test), so the site's own constants are imported, not copied.
@@ -131,8 +131,12 @@ async function exportedPages(){
   async function walk(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const url=new URL(entry.name+(entry.isDirectory()?"/":""),directory);if(entry.isDirectory()&&entry.name!=="assets"&&entry.name!=="images")await walk(url);else if(entry.name.endsWith(".html"))files.push(url)}}
   await walk(dist);
   // html is read when a test asks for it and never kept: every guide in every locale is exported, and holding all of them in memory ran the job out of heap.
-  return files.map((url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),get html(){return readFileSync(url,"utf8")}}));
+  // The pages of the places without a listing (scripts/export-place-pages.tsx) are outside the route
+  // manifest: they have their own test below, and every other test reads the routed pages.
+  return files.map((url)=>({path:"/"+url.pathname.slice(dist.pathname.length).replace(/index\.html$/,""),get html(){return readFileSync(url,"utf8")}})).filter((page)=>!stubPaths.has(page.path));
 }
+const stubPlaces=existsSync(new URL("../lib/data/place-stubs.json",import.meta.url))?JSON.parse(readFileSync(new URL("../lib/data/place-stubs.json",import.meta.url),"utf8")).places:[];
+const stubPaths=new Set(stubPlaces.map((place)=>`/places/${place.stateSlug}/${place.slug}/`));
 const pagesPromise=exportedPages();
 /** Looks pages up by path (with an optional prefix) and reads a page's html only on get. */
 async function pageMap(prefix=""){const byPath=new Map((await pagesPromise).map((page)=>[prefix+page.path,page]));return{has:(key)=>byPath.has(key),get:(key)=>byPath.get(key)?.html};}
@@ -226,7 +230,7 @@ test("schema install URLs stay the clean listing URL and the smart banner carrie
     const banner=/<meta name="apple-itunes-app" content="([^"]*)"/.exec(html)?.[1];
     assert.ok(banner,`${path} has no Smart App Banner`);
     // A place page's banner also hands the app its own URL, which the app opens as the place.
-    const argument=/data-page-kind="place"/.test(html)?`, app-argument=https://campingapp.nz${path}`:"";
+    const argument=/data-page-kind="(?:place|trip|place-link)"/.test(html)?`, app-argument=https://campingapp.nz${path}`:"";
     const expected=(APPLE_PROVIDER_TOKEN?`app-id=6746952595, affiliate-data=pt=${APPLE_PROVIDER_TOKEN}&ct=w_sb_${pageLocale(path)}`:"app-id=6746952595")+argument;
     assert.equal(decodeHref(banner),expected,`${path} Smart App Banner`);
   }
@@ -238,8 +242,8 @@ test("every page labels its main element for analytics",async()=>{
   const pages=await pagesPromise;
   for(const {path,html} of pages.filter((page)=>generated(page.path))){
     const main=/<main\b[^>]*>/.exec(html)?.[0]??"";
-    const kind=/data-page-kind="([a-z]+)"/.exec(main)?.[1];
-    assert.ok(["home","guide","guides","tools","support","legal","hub","tool","place","places","trip"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
+    const kind=/data-page-kind="([a-z-]+)"/.exec(main)?.[1];
+    assert.ok(["home","guide","guides","tools","support","legal","hub","tool","place","places","trip","place-link"].includes(kind),`${path} <main> has no valid data-page-kind: ${main}`);
     assert.match(main,new RegExp(`data-locale="${pageLocale(path)}"`),`${path} <main> data-locale`);
     if(kind==="guide"){
       assert.match(main,/data-slug="[a-z0-9-]+"/,`${path} guide without data-slug`);
@@ -566,4 +570,22 @@ test("screen figures fail the build when they point at nothing",async()=>{
   // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
   const {translationSource}=await import("../lib/translation-source.ts");
   assert.doesNotMatch(JSON.stringify(translationSource().articles),/images\/screens|"figure"/);
+});
+
+test("the places without a listing are published from the same template, noindex, or not at all",async()=>{
+  // scripts/export-place-pages.tsx writes all of them or, when the site would pass its size budget, none.
+  const written=stubPlaces.filter((place)=>existsSync(new URL(`places/${place.stateSlug}/${place.slug}/index.html`,dist)));
+  assert.ok(written.length===0||written.length===stubPlaces.length,`${written.length} of ${stubPlaces.length} written`);
+  if(!written.length)return;
+  const sitemaps=(await readdir(new URL("sitemaps/",dist))).map((file)=>readFileSync(new URL(`sitemaps/${file}`,dist),"utf8")).join("");
+  for(const place of written){
+    const path=`/places/${place.stateSlug}/${place.slug}/`;
+    const html=readFileSync(new URL(path.slice(1)+"index.html",dist),"utf8");
+    const url=`https://campingapp.nz${path}`;
+    assert.match(html,/data-page-kind="place"/,`${path} is not the place template`);
+    assert.match(html,/<meta name="robots" content="noindex, follow"\/>/,`${path} must be noindex`);
+    assert.ok(html.includes(`<link rel="canonical" href="${url}"/>`),`${path} canonical`);
+    assert.ok(html.includes(`app-argument=${url}"`),`${path} banner app-argument`);
+    assert.ok(!sitemaps.includes(url),`${path} is in a sitemap`);
+  }
 });

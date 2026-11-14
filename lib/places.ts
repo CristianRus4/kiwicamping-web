@@ -21,6 +21,9 @@ export type Place = {
   sites: number | null; walk: string | null; bookingRequired: boolean | null;
   photos: string[]; heroWidth: number; photoCount: number; credit: string;
   booking: string | null; checkIn: string | null; checkOut: string | null; stars: number | null;
+  /** Set on the places without a full listing (lib/data/place-stubs.json): every other place the app lists,
+   * rendered by the same template but noindex. `typeName` is the app's name for a type with no label here. */
+  indexable?: boolean; typeName?: string; closed?: boolean;
 };
 
 const file = placesFile as unknown as { exportedAt: string | null; places: Place[] };
@@ -32,6 +35,10 @@ export const typeLabels: Record<PlaceType, { one: string; many: string }> = {
   doc_hut: { one: "DOC hut", many: "DOC huts" },
   holiday_park: { one: "Holiday park", many: "Holiday parks" },
 };
+/** A place's type label; the types without a full listing (tracks, stays, dump stations…) use the app's own name. */
+export const typeLabel = (place: Pick<Place, "type" | "typeName">) => typeLabels[place.type] ?? { one: place.typeName ?? "Place", many: place.typeName ?? "Places" };
+/** The types a full listing can have: DOC campsites and huts, and holiday parks. */
+export const isListingType = (type: string): type is PlaceType => type in typeLabels;
 export const placeTypes = (Object.keys(typeLabels) as PlaceType[]).filter((type) => places.some((place) => place.type === type));
 
 export type PlaceState = { slug: string; name: string; code: string; island: string; places: Place[] };

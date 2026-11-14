@@ -88,7 +88,7 @@ const placeCache = new Map<Place, string[]>();
 export function placeGuides(place: Place): string[] {
   const cached = placeCache.get(place);
   if (cached) return cached;
-  const rules = rulesGuides[place.type][0];
+  const rules = (rulesGuides[place.type as keyof typeof rulesGuides] ?? rulesGuides.doc_campsite)[0];
   const hub = regionHub(place);
   const picks = [...new Set([
     ...guidesNear(place, 60).slice(0, 3),

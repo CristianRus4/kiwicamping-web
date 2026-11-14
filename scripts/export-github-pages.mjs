@@ -10,6 +10,8 @@ import { appStoreUrl } from "../lib/app-store.ts";
 import { exportRoutes } from "../lib/routes.ts";
 import { englishLocale, htmlLang, textDirection } from "../lib/locales.ts";
 import { redirects } from "../lib/redirects.ts";
+import { PLACE_QR, PLACE_SCRIPT, placePageScript } from "../components/places/place-page.tsx";
+import { qrSvgFile } from "../components/guide-cta.tsx";
 
 // Drafts render only in development. An export with them would publish unfinished languages.
 assert.notEqual(process.env.LOCALES_PREVIEW, "1", "Unset LOCALES_PREVIEW before exporting: draft locales are never published");
@@ -68,12 +70,24 @@ function prepareHtml(html, route) {
     .replace(/url\(\/(?!\/)/g, `url(${basePath}/`);
 }
 
+// /trip/ and /place/ carry what they show in the URL's hash, which the server never sees. The Smart App
+// Banner's app-argument must be the whole URL, hash included, so the app opens that trip or place after an
+// install: a script right after the banner meta, in <head>, sets it before the page renders.
+const hashRoutes = new Set(routes.filter((route) => route.kind === "trip" || route.kind === "place-link").map((route) => route.path));
+const bannerHash = `<script data-static-tools>(function(){var m=document.querySelector('meta[name="apple-itunes-app"]');if(m&&location.hash)m.setAttribute("content",m.getAttribute("content").replace(/app-argument=([^,#]*)[^,]*$/,function(_,url){return "app-argument="+url+location.hash;}));})();</script>`;
+const withBannerHash = (html, route) => {
+  if (!hashRoutes.has(route)) return html;
+  const banner = html.match(/<meta name="apple-itunes-app"[^>]*>/);
+  assert.ok(banner && /app-argument=/.test(banner[0]), `${route} has no Smart App Banner with an app-argument`);
+  return html.replace(banner[0], `${banner[0]}${bannerHash}`);
+};
+
 for (const route of htmlRoutes) {
   const response = await fetch(`http://127.0.0.1:${port}${fetchPath(route)}`, { headers: { accept: "text/html" }, redirect: "manual" });
   assert.equal(response.status, 200, `Could not export ${route}`);
   const target = outputPath(route);
   await mkdir(dirname(target), { recursive: true });
-  await writeFile(target, prepareHtml(await response.text(), route));
+  await writeFile(target, withBannerHash(prepareHtml(await response.text(), route), route));
 }
 
 for (const route of textRoutes) {
@@ -139,6 +153,11 @@ for (const [from, to] of Object.entries(redirects)) {
 `);
 }
 
+// The place pages' shared files: their scripts and the store buttons' QR code, cached once rather than
+// repeated on every place page (components/places/place-page.tsx).
+await mkdir(resolve(output, "places"), { recursive: true });
+await writeFile(resolve(output, PLACE_SCRIPT.slice(1)), `${placePageScript}\n`);
+await writeFile(resolve(output, PLACE_QR.slice(1)), qrSvgFile("en"));
 await writeFile(resolve(output, ".nojekyll"), "");
 // Without CNAME in the artifact GitHub Pages drops the campingapp.nz custom domain on deploy.
 if (!basePath) await cp(resolve(root, "CNAME"), resolve(output, "CNAME"));

@@ -755,6 +755,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .trip-cta { margin-bottom: 30px; display: flex; }
 .trip-cta .store-qr { width: 240px; }
 .trip-cta .store-button, .trip-cta .qr-morph { --store-button-bg: var(--deep); --store-button-fg: white; --store-button-hover: var(--fern); }
+.place-actions { flex-wrap: wrap; gap: 12px; }
+.place-secondary { --store-button-bg: var(--soft); --store-button-fg: var(--ink); --store-button-hover: var(--line); min-width: 150px; }
+.place-secondary[hidden] { display: none; }
+.place-photo { margin-bottom: 26px; }
+.place-photo img { width: 100%; max-height: 460px; display: block; object-fit: cover; background: var(--soft); }
 .trip-status { margin: 0; padding: 18px 0; color: var(--muted); font-size: 17px; }
 .trip-status:empty { display: none; }
 .trip-stops { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
@@ -851,7 +856,13 @@ a.trip-stop-title:hover { text-decoration: underline; }
 }
 @media (prefers-color-scheme: dark) {
   .pl-main p { color: #b7beb3; }
+  /* The dark buttons (Open in app, Open in Maps, the place lists' "all" links) turn light on the dark page. */
+  .pl-fade-cta .store-button, .pl-fade-cta .qr-morph, .pl-maps, .trip-cta .store-button, .trip-cta .qr-morph, .pl-cards-more, .pl-home-all {
+    --store-button-bg: var(--ink); --store-button-fg: var(--deep); --store-button-hover: var(--eucalyptus);
+  }
+  .pl-map { background: var(--soft); }
 }
+.store-button:focus-visible { outline: 2px solid var(--eucalyptus); outline-offset: 2px; }
 /* Hubs: one left edge, no lines between sections. */
 .hub-page .article-body section, .hub-page .article-body section + section { padding-inline: 0; border-top: 0; }
 .hub-page .article-body > section:first-child { padding-top: 0; }

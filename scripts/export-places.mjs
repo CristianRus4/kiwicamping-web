@@ -25,11 +25,15 @@
  */
 import { createCipheriv, randomBytes } from "node:crypto";
 import { execFileSync } from "node:child_process";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import assert from "node:assert/strict";
+import { copyFileSync, existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { DatabaseSync } from "node:sqlite";
+import { gzipSync } from "node:zlib";
+import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
-import { placePagesOut, writePlacePages } from "./place-links.mjs";
+import { appPlaceId, placePagesOut, writePlacePages } from "./place-links.mjs";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
@@ -38,6 +42,8 @@ const plainPath = resolve(repo, "lib/data/places.json");
 const encryptedPath = resolve(repo, "lib/data/places.json.enc");
 const probePath = resolve(repo, "lib/data/places.photos.json");
 const probes = existsSync(probePath) ? JSON.parse(readFileSync(probePath, "utf8")) : {};
+const stubsPath = resolve(repo, "lib/data/place-stubs.json");
+const stubsEncryptedPath = resolve(repo, "lib/data/place-stubs.json.enc");
 const PHOTO_BASE = "https://raw.githubusercontent.com/CristianRus4/kiwicamping/main";
 
 const PHOTOS = 5;
@@ -81,6 +87,13 @@ function placesKey() {
   const key = Buffer.from(value, "base64");
   if (key.length !== 32) throw new Error("PLACES_KEY must be 32 bytes, base64");
   return key;
+}
+/** Like encrypt(), of the gzipped text: the small pages' data is megabytes of repetitive JSON. */
+function encryptGzip(text, key) {
+  const iv = randomBytes(12);
+  const cipher = createCipheriv("aes-256-gcm", key, iv);
+  const data = Buffer.concat([cipher.update(gzipSync(text, { level: 9 })), cipher.final()]);
+  return JSON.stringify({ v: 1, gzip: true, iv: iv.toString("base64"), tag: cipher.getAuthTag().toString("base64"), data: data.toString("base64") });
 }
 function encrypt(text, key) {
   const iv = randomBytes(12);
@@ -258,12 +271,145 @@ const built = await pool(candidates, async (place) => {
 });
 const places = built.filter(Boolean).sort((a, b) => a.stateSlug.localeCompare(b.stateSlug) || a.name.localeCompare(b.name));
 writeFileSync(probePath, `${JSON.stringify(probes)}\n`);
-const data = JSON.stringify({ exportedAt: new Date().toISOString().slice(0, 10), places }, null, 1);
+
+// ---- The small pages (scripts/build-place-stubs.mjs) -------------------------------------------------
+// Every other place the app lists, keyed by the app's own id (`<kind>:<id>`, council campgrounds
+// `campsite:<id without NZ>`): noindex plain pages, so the app can share any place as a link.
+const full = new Set(places.map((place) => appPlaceId(place.id)));
+const docPoints = doc.map((entry) => ({ lat: entry.lat, lng: entry.lng, region: REGIONS[entry.site.region] }));
+/** The DOC region of the nearest DOC campsite or hut, for places whose data names none (or another scheme). */
+const regionNear = (point) => docPoints.reduce((best, other) => { const distance = km(point, other); return distance < best.distance ? { region: other.region, distance } : best; }, { region: undefined, distance: Infinity }).region;
+/** The app's reading of coordinates: DOC's NZTM2000 eastings and northings, or WGS84. */
+function pointOf(row) {
+  const lat = Number(row.latitude), lng = Number(row.longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng) || row.latitude === null || row.longitude === null || row.latitude === "" || row.longitude === "") return null;
+  if (lng >= 1_000_000 && lng <= 2_500_000 && lat >= 4_500_000 && lat <= 7_000_000) return nztmToLatLng(lat, lng);
+  if (Math.abs(lat) > 90 || Math.abs(lng) > 180 || (lat === 0 && lng === 0)) return null;
+  return { lat, lng };
+}
+const BOOKIT_TYPES = {
+  "caravan parks & camping": ["holiday_park", "Holiday park"], motel: ["motel", "Motel"], "b&b/guesthouse": ["bed_breakfast", "B&B or guesthouse"],
+  "hotels & resorts": ["hotel_resort", "Hotel or resort"], lodge: ["lodge", "Lodge"], "budget/backpackers": ["backpacker_hostel", "Backpackers"],
+  "self contained": ["self_contained", "Self-contained stay"], "studio/apartments": ["studio_apartment", "Apartment"], houses: ["house", "Holiday house"],
+  "chalets/villas/cottages": ["chalet_villa_cottage", "Cottage or villa"], farmstay: ["farm_station_stay", "Farm stay"], retreat: ["retreat", "Retreat"],
+};
+const bookitType = (item) => /^tours$/i.test(item.product_type ?? "") ? ["tour", "Tour"] : BOOKIT_TYPES[(item.accomm_type1 ?? item.accomm_type2 ?? "").toLowerCase()] ?? ["roofed_accommodation", "Guest accommodation"];
+const BOOKIT_AGENT = /^https:\/\/book\.bookit\.co\.nz\/agent\/kiwicamping\//;
+const DOC_BOOKING = /^https:\/\/([a-z0-9-]+\.)*doc\.govt\.nz\//;
+const DOGS = (value) => /no dogs|not allowed/i.test(value ?? "") ? "no" : /leash/i.test(value ?? "") ? "leash" : /permit/i.test(value ?? "") ? "permit" : /allowed|welcome/i.test(value ?? "") ? "yes" : null;
+const FEE = (value) => /free/i.test(value ?? "") ? "free" : /paid/i.test(value ?? "") ? "paid" : null;
+const shortText = (value) => { const text = clean(value); return text ? excerpt(text, EXCERPT).text : null; };
+
+const smallRows = [];
+const addSmall = (row) => { if (!full.has(row.id) && row.point) smallRows.push(row); };
+for (const [file, kind, typeName] of [["campsites.json", "campsite", "DOC campsite"], ["huts.json", "hut", "DOC hut"]]) {
+  for (const item of read(file)) addSmall({
+    id: `${kind}:${item.id}`, stable: true, kind, type: kind === "hut" ? "doc_hut" : "doc_campsite", typeName, category: CATEGORIES[item.type] ?? null,
+    access: (item.access ?? "").split(",").map((mode) => mode.trim()).filter(Boolean), activities: codes(item.activities, ACTIVITIES),
+    walk: kind === "hut" && /hour/i.test(item.proximity_road ?? "") ? clean(item.proximity_road).toLowerCase() : null, bookingRequired: item.bookable === "True" || item.bookable === true ? true : null, name: clean(item.name), region: REGIONS[item.region], point: pointOf(item),
+    locality: clean(item.location).replace(/^Located in\s+/i, "") || null, closed: item.status !== "open",
+    description: shortText(item.description), photo: `${PHOTO_BASE}/${kind === "hut" ? "huts_images/hut_" : "campsites_images/campsite_"}${item.id}.jpg`,
+    fee: FEE(item.price), dogs: DOGS(item.dogs), sites: kind === "hut" ? (Number(item.bunks) || null) : (Number(item.powered_sites || 0) + Number(item.unpowered_sites || 0)) || null,
+    amenities: codes(item.facilities, FACILITIES).slice(0, 10),
+    booking: item.bookable && DOC_BOOKING.test(item.booking_url ?? "") ? item.booking_url : null, credit: "DOC, CC BY 4.0",
+  });
+}
+for (const item of read("bookit.json")) {
+  const [type, typeName] = bookitType(item);
+  const hours = item.operator_hours ?? "";
+  addSmall({
+    id: `bookit:${item.id}`, stable: true, kind: "bookit", type, typeName, stars: Number(item.rating) || null, name: clean(item.name), region: REGIONS[item.region], point: pointOf(item),
+    locality: clean(item.location || item.address) || null, closed: false, description: shortText(item.description),
+    photo: ["image", "image2", "image3"].map((field) => item[field]).find((url) => /^https:\/\//.test(url ?? "")) ?? null,
+    fee: null, dogs: DOGS(item.dogs), sites: null, amenities: [...new Set((item.holy_facilities ?? "").split(",").map((name) => name.trim()).filter(Boolean))].slice(0, 10),
+    booking: BOOKIT_AGENT.test(item.booking_link ?? "") ? item.booking_link : null, credit: "the operator, via BookIt",
+    checkIn: clock(/check in:\s*([\d:.]+)/i.exec(hours)?.[1]), checkOut: clock(/check out:\s*([\d:.]+)/i.exec(hours)?.[1]),
+  });
+}
+for (const item of read("tracks.json")) addSmall({
+  id: `track:${item.id}`, stable: true, kind: "track", type: "track", typeName: "Walking track", name: clean(item.name), region: REGIONS[item.region], point: pointOf(item),
+  locality: clean(item.location).replace(/^Located in\s+/i, "") || null, closed: false, description: shortText(item.description), photo: /^https:\/\//.test(item.image ?? "") ? item.image : null,
+  fee: null, dogs: DOGS(item.dogs), sites: null, amenities: [], credit: "DOC, CC BY 4.0",
+});
+for (const [file, kind, typeName] of [["dumps.json", "dump", "Dump station"], ["dayusenorth.json", "dayuse_north", "Day-use area"], ["dayusesouth.json", "dayuse_south", "Day-use area"]]) {
+  for (const item of read(file)) addSmall({
+    // These ids are local sequence numbers that can shift when the files are rebuilt: never in a URL.
+    id: `${kind}:${item.id}`, stable: false, kind, type: kind === "dump" ? "dump_station" : "day_use_area", typeName, name: clean(item.name), region: undefined, point: pointOf(item),
+    locality: clean(item.address).replace(/,?\s*(North|South) Island\.?$/i, "") || null, closed: false, description: null, photo: null,
+    fee: FEE(item.price), dogs: DOGS(item.dogs), sites: null, amenities: codes(item.facilities, FACILITIES).slice(0, 10), credit: null,
+  });
+}
+{
+  // Council campgrounds and holiday parks: the app reads them from its New Zealand database.
+  const temp = mkdtempSync(join(tmpdir(), "kiwi-council-"));
+  try {
+    copyFileSync(resolve(appRepo, "Kiwi/Camp/Databases/new_zealand_db.sqlite"), join(temp, "db.sqlite"));
+    const db = new DatabaseSync(join(temp, "db.sqlite"), { readOnly: true });
+    for (const site of db.prepare(`SELECT v.Id, v.SiteName, v.Address, v.State, v.FeeCategory, v.Latitude, v.Longitude, v.SiteStatusId, st.Code AS TypeCode, s.PetsAllowed
+      FROM vw_Sites v JOIN SiteType st ON st.Id = v.SiteTypeId JOIN Site s ON s.Id = v.Id WHERE v.Latitude IS NOT NULL AND v.Longitude IS NOT NULL ORDER BY v.Id`).all()) {
+      addSmall({
+        id: `campsite:${site.Id.replace(/^NZ/, "")}`, stable: true, kind: "council", type: site.TypeCode === "holiday_park" ? "holiday_park" : "campground", typeName: site.TypeCode === "holiday_park" ? "Holiday park" : "Campground",
+        name: clean(site.SiteName), region: REGIONS[site.State], point: { lat: site.Latitude, lng: site.Longitude },
+        locality: clean(site.Address) || null, closed: site.SiteStatusId === 0, description: null, photo: null,
+        fee: FEE(site.FeeCategory), dogs: DOGS(site.PetsAllowed), sites: null, amenities: [], credit: null,
+      });
+    }
+    db.close();
+  } finally {
+    rmSync(temp, { recursive: true, force: true });
+  }
+}
+
+// Slugs are unique within a region, across full and small pages. A small page keeps the slug it had in
+// the last export (by id, or for the shifting ids by name and coordinates); a new one takes its name,
+// then its locality, then its type, then its id (or, for the shifting ids, its coordinates).
+const previousSmall = new Map(existsSync(stubsPath) ? JSON.parse(readFileSync(stubsPath, "utf8")).places.map((place) => [place.key, `${place.stateSlug}/${place.slug}`]) : []);
+const keyOf = (row) => row.stable ? row.id : `${row.kind}|${row.name}|${row.point.lat.toFixed(4)}|${row.point.lng.toFixed(4)}`;
+const taken = new Set(places.map((place) => `${place.stateSlug}/${place.slug}`));
+for (const row of smallRows) {
+  row.region ??= regionNear(row.point);
+  row.key = keyOf(row);
+  const path = previousSmall.get(row.key);
+  if (path && path.startsWith(`${row.region}/`) && !taken.has(path)) { taken.add(path); row.slug = path.slice(row.region.length + 1); }
+}
+for (const row of smallRows) {
+  if (row.slug) continue;
+  const base = slugify(row.name) || slugify(row.typeName);
+  const tail = row.stable ? slugify(row.id.split(":")[1]) : `${Math.abs(row.point.lat).toFixed(4)}-${row.point.lng.toFixed(4)}`.replace(/\./g, "");
+  const slug = [base, `${base}-${slugify(row.locality ?? "")}`, `${base}-${slugify(row.typeName)}`, `${base}-${tail}`]
+    .find((option) => !/-$/.test(option) && !taken.has(`${row.region}/${option}`));
+  assert.ok(slug, `no free slug for ${row.id}`);
+  taken.add(`${row.region}/${slug}`);
+  row.slug = slug;
+}
+// The same fields as a full page, rendered by the same template (components/places/place-page.tsx,
+// through scripts/export-place-pages.tsx) but noindex.
+const stubs = smallRows.map((row) => ({
+  id: row.id, key: row.key, slug: row.slug, type: row.type, typeName: row.typeName, name: row.name || row.typeName,
+  state: row.region, stateSlug: row.region, stateName: regionName(row.region), island: islandOf(row.point),
+  park: row.locality, locality: null, category: row.category ?? null,
+  lat: Number(row.point.lat.toFixed(4)), lng: Number(row.point.lng.toFixed(4)),
+  description: row.description ?? "", descriptionMore: false,
+  amenities: row.amenities, amenityCount: row.amenities.length, activities: row.activities ?? [], activityCount: (row.activities ?? []).length,
+  fee: row.fee, dogs: row.dogs, access: row.access ?? [], sites: row.sites, walk: row.walk ?? null, bookingRequired: row.bookingRequired ?? null,
+  photos: row.photo ? [row.photo] : [], heroWidth: 0, photoCount: row.photo ? 1 : 0, credit: row.credit ?? "",
+  booking: row.booking ?? null, checkIn: row.checkIn ?? null, checkOut: row.checkOut ?? null, stars: row.stars ?? null,
+  indexable: false, ...(row.closed ? { closed: true } : {}),
+})).sort((a, b) => a.id.localeCompare(b.id));
+
+const exportedAt = new Date().toISOString().slice(0, 10);
+const data = JSON.stringify({ exportedAt, places }, null, 1);
+const stubData = JSON.stringify({ exportedAt, places: stubs });
 writeFileSync(plainPath, `${data}\n`);
+writeFileSync(stubsPath, `${stubData}\n`);
 const key = placesKey();
-if (key) writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
-else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copy only, not lib/data/places.json.enc.");
-const linksOut = placePagesOut();
-if (linksOut) console.log(`Wrote ${writePlacePages(places, linksOut)} place pages to ${linksOut}.`);
+if (key) {
+  writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
+  writeFileSync(stubsEncryptedPath, `${encryptGzip(stubData, key)}\n`);
+} else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copies only, not the .enc files.");
+// The app links only to pages that are published: the places without a listing join the map once their
+// pages fit the site (scripts/export-place-pages.tsx; `npm run places:links -- --with-small`).
+console.log(`Wrote ${writePlacePages(places, process.argv.includes("--with-small") ? stubs : [], placePagesOut())} place ids to ${placePagesOut()}.`);
 const count = (type) => places.filter((entry) => entry.type === type).length;
-console.log(`Exported ${places.length} places (${count("doc_campsite")} DOC campsites, ${count("doc_hut")} DOC huts, ${count("holiday_park")} holiday parks) with ${places.reduce((sum, entry) => sum + entry.photos.length, 0)} photos.`);
+const kinds = [...new Set(stubs.map((stub) => stub.type))].map((kind) => `${stubs.filter((stub) => stub.type === kind).length} ${kind}`).join(", ");
+console.log(`Exported ${places.length} full pages (${count("doc_campsite")} DOC campsites, ${count("doc_hut")} DOC huts, ${count("holiday_park")} holiday parks) with ${places.reduce((sum, entry) => sum + entry.photos.length, 0)} photos, and ${stubs.length} small pages (${kinds}).`);

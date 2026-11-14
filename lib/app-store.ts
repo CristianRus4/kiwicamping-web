@@ -10,9 +10,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  * guides (their in-article and end CTAs) · ig, tt, fb social bio links opened from Instagram, TikTok or
  * Facebook (lib/social.ts) · ans the download line right after a page's opening answer (components/answer-cta.tsx) ·
  * intro the app sentence at the end of a guide's first paragraph (components/intro-cta.tsx) ·
- * place the store button on a place page · trip the store button on a trip shared from the app (/trip/)
+ * place the store button on a place page · trip the store button on a trip shared from the app (/trip/) ·
+ * shared the store button on a place shared from the app (/place/)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro", "place", "trip"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ig", "tt", "fb", "ans", "intro", "place", "trip", "shared"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** `en` for the English site, otherwise the locale's URL segment (`de`, `zh-hans`, ...). */

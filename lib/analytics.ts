@@ -51,7 +51,7 @@ export const COOKIE_EXPIRES_SECONDS = 395 * 24 * 60 * 60;
 /** Where the visitor's choice is remembered: "granted" or "denied". */
 export const CONSENT_STORAGE_KEY = "analytics-consent";
 
-export type PageKind = "home" | "guide" | "guides" | "tools" | "support" | "legal" | "hub" | "tool" | "place" | "places" | "trip";
+export type PageKind = "home" | "guide" | "guides" | "tools" | "support" | "legal" | "hub" | "tool" | "place" | "places" | "trip" | "place-link";
 
 /**
  * The attributes every page puts on its `<main>`, which label the page view and every event.
