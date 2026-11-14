@@ -88,8 +88,6 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-14 | freedom-camping-south-island | index |
 | 2026-11-14 | freedom-camping-waihi-beach | index |
 | 2026-11-14 | lakeside-camping-south-island | index |
-| 2026-11-15 | is-wikicamps-nz-worth-it | index |
-| 2026-11-15 | wikicamps-nz-vs-kiwicamping | index |
 | 2026-11-15 | is-wikicamps-nz-free | index |
 | 2026-11-15 | campermate-vs-wikicamps-nz | index |
 | 2026-11-15 | doc-huts-campsites-app-wikicamps-kiwicamping | index |
