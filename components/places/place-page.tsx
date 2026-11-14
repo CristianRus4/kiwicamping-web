@@ -7,7 +7,7 @@ import { GuideEndCta, GuideSideCard, StoreWithQr } from "@/components/guide-cta"
 import { mainData } from "@/lib/analytics";
 import { SITE_URL } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, isListingType, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabel, type Place } from "@/lib/places";
+import { mapLabel, feeLabel, isListingType, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabel, type Place } from "@/lib/places";
 import { placeQuestions, placeSummary } from "@/lib/places-copy";
 import { appStoreUrl } from "@/lib/app-store";
 import { appLink, openAppScript } from "@/lib/open-app";
@@ -131,8 +131,7 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>Location</h2>
                 <p>{place.park && `${place.park}, `}{parkHub ? <Link href={parkHub}>{place.stateName}</Link> : stateHub ? <Link href={stateHub}>{place.stateName}</Link> : place.stateName}, {place.island}</p>
-                <PlaceMap points={nearby.map(({ place: other }) => [other.lng, other.lat] as [number, number])} focus={[place.lng, place.lat]} label={`${place.name} on the map`} precision={3} small shared />
-                <MapsButton place={place} />
+                <PlaceMap points={nearby.map(({ place: other }) => [other.lng, other.lat] as [number, number])} labels={nearby.map(({ place: other }) => mapLabel(other))} focus={[place.lng, place.lat]} label={`${place.name} on the map`} precision={3} small shared><MapsButton place={place} /></PlaceMap>
               </section>
               {nearby.length > 0 && <section>
                 <h2>Nearby</h2>

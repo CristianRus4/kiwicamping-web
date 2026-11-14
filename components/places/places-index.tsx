@@ -11,7 +11,7 @@ import { builtHubs } from "@/lib/hubs";
 import { hubGuides } from "@/lib/hub-regions";
 import { SITE_URL, articleHref, articles } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, islands, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import { mapLabel, feeLabel, islands, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
 
 const where = (place: Place) => place.park ?? place.stateName;
 
@@ -62,7 +62,7 @@ export function PlacesDirectory() {
         <header className="pl-header">
           <h1>DOC campsites, huts and holiday parks across New Zealand</h1>
         </header>
-        <PlaceMap points={places.map((place) => [place.lng, place.lat] as [number, number])} label="Places to camp" precision={1} />
+        <PlaceMap points={places.map((place) => [place.lng, place.lat] as [number, number])} labels={places.map(mapLabel)} label="Places to camp" precision={3} />
         <SearchBox placeholder="Search by name, park or region" results />
         {islands.map((island) => <LinkList key={island} title={island} links={placeStates.filter((state) => state.island === island).map((state) => ({ href: placeStatePath(state), label: state.name }))} />)}
         <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
@@ -99,7 +99,7 @@ export function PlacesState({ state }: { state: PlaceState }) {
           <h1>Places to camp in {state.name}</h1>
           {intro && <p className="pl-intro">{intro}</p>}
         </header>
-        <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
+        <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} labels={state.places.map(mapLabel)} label={`Places to camp in ${state.name}`} precision={3} />
         <SearchBox placeholder={`Search places in ${state.name}`} />
         <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
           <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
