@@ -28322,6 +28322,581 @@
       ],
       "priceTable": null
     },
+    "does-wikicamps-nz-work-offline": {
+      "title": "Toimiiko WikiCamps NZ offline? Leiriytyminen ilman verkkoa 2027",
+      "description": "Toimiiko WikiCamps NZ offline vuonna 2027? Osittain, latauksen jälkeen ja tilin kanssa. KiwiCamping pitää jokaisen DOC-leiripaikan, tuvan ja kaikki matkasi puhelimessa, ilman latausta.",
+      "region": "Uusi-Seelanti",
+      "imageAlt": "Mitre Peak kohoaa Milford Soundin tyynen veden ylle Milford Roadin päässä",
+      "intro": "Osittain. WikiCampsin Offline Mode pitää kartat ja enintään kolme suunniteltua matkaa puhelimessa, kun olet ladannut ne, mutta tili tarvitaan silti, ja se voi olla tiellä ilman verkkoa. KiwiCamping pitää jokaisen DOC-leiripaikan, tuvan ja reitin sekä kaikki matkasi puhelimessa heti asennuksesta, ilman latausta ja ilman kirjautumista. Me teemme KiwiCampingin. Näin molemmat sovellukset hoitavat pitkät pätkät ilman palkkeja.",
+      "sections": [
+        {
+          "heading": "Toimiiko WikiCamps offline?",
+          "body": [
+            "WikiCamps kertoo, että Offline Mode antaa käyttää karttoja ja enintään kolmea suunniteltua matkaa ilman verkkoa. Lataa ne ensin, kun yhteys vielä toimii.",
+            "Kompastuskivi on tili. Monet WikiCampsin käyttäjät kertovat, että sovellus kirjaa heidät ulos silloin tällöin, ja <a data-guide=\"wikicamps-nz-account-login\">WikiCampsin kirjautuminen</a> tarvitsee verkon, jotta pääset takaisin sisään. Kirjautumisnäkymä laaksossa ilman kuuluvuutta on viimeinen asia, jota haluat."
+          ],
+          "tips": [
+            "Lataa ensin",
+            "Enintään kolme suunniteltua matkaa",
+            "Takaisin kirjautuminen tarvitsee verkon"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: ei mitään ladattavaa, ei kirjautumista",
+          "body": [
+            "KiwiCampingissa ei ole tiliä, joten kirjautumisnäkymä ei koskaan tule sinun ja illan leiripaikan väliin. Avaa sovellus missä tahansa, ja olet sisällä.",
+            "Kaikki Uuden-Seelannin <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-leiripaikat</a>, tuvat ja reitit ovat sovelluksessa, maksuineen, palveluineen, koirasääntöineen ja varausmerkintöineen. Pelkkiä DOC-tupia on yli 900, ja ne ovat luettavissa Milford Roadilla tai syvällä Catlinsissa ilman yhtäkään palkkia.",
+            "Omat asiasi pysyvät mukanasi myös <a data-guide=\"kiwicamping-offline-data-guide\">ilman kuuluvuutta</a>: tykätyt ja tähdellä merkityt paikat, kokoelmat, yksityiset muistiinpanot ja jokainen matka pysäkkeineen, päivämäärineen ja muistiinpanoineen."
+          ],
+          "tips": [
+            "Ei tiliä, ei kirjautumisnäkymää",
+            "Jokainen DOC-leiripaikka, tupa ja reitti",
+            "Kaikki matkasi, ei vain kolme"
+          ],
+          "table": {
+            "caption": "Ilman verkkoa, rinnakkain.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Lataa ennen lähtöä",
+                "Kyllä, Offline Mode -tilassa",
+                "Ei, paikan tiedot ovat valmiina"
+              ],
+              [
+                "Suunnitellut matkasi",
+                "Enintään kolme",
+                "Kaikki"
+              ],
+              [
+                "Tili, johon kirjaudutaan",
+                "Kyllä",
+                "Ei yhtään"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Valitse illan paikka ennen kuin palkit katoavat",
+          "body": [
+            "Jotkin maan parhaista ajoreiteistä, kuten Haast Pass, Milford Road ja Catlins, ovat juuri siellä, missä verkko katkeaa todennäköisimmin. Siellä jokaisen paikan tiedot puhelimessa maksavat vaivan.",
+            "Avaa <a data-guide=\"kiwicamping-filters-guide\">suodattimet</a> ja valitse se, millä on väliä: Koirat sallittu, 4WD-pääsy ja asuntovaunupääsy ovat osiossa Lemmikit ja pääsy, ja paikan on täytettävä jokainen valitsemasi suodatin. Lisää suosikki matkaan ja varapaikka lähelle, niin ilta on kunnossa."
+          ],
+          "tips": [
+            "Tiedot ilman palkkeja",
+            "Suodattimet osuvat kaikkiin valintoihisi",
+            "Tallenna myös varapaikka"
+          ]
+        },
+        {
+          "heading": "Vapaaleirinnän säännöt ilman verkkoa",
+          "body": [
+            "DOCin vapaaleirintää koskevat ilmoitukset suojelualueilla ovat KiwiCampingissa, joten näet, missä leiriytyminen on kielletty tai rajoitettu, kun olet kaukana kuuluvuudesta.",
+            "Kuntien maalla <a data-guide=\"freedom-camping-rules-new-zealand\">vapaaleirinnän säännöt</a> tulevat kunkin kunnan määräyksistä. Lue seuraavan alueen säännöt vielä kaupungissa ja noudata aina paikan kylttiä."
+          ],
+          "tips": [
+            "DOCin ilmoitukset mukana",
+            "Kuntien määräykset: lue ne kaupungissa",
+            "Paikan kyltti ratkaisee"
+          ]
+        },
+        {
+          "heading": "Koko matka taskussa",
+          "body": [
+            "Jokainen matka pitää pysäkit ajoreitin järjestyksessä, päivämäärineen ja muistiinpanoineen, ja voit kuitata pysäkit sitä mukaa kun etenet. Tehtävälista pitää kunkin päivän työt samassa paikassa.",
+            "You-välilehti täyttää kartan siitä, missä olet käynyt, ja leiriydyttyjen öiden sekä ajettujen kilometrien määrä kasvaa matkan edetessä."
+          ],
+          "tips": [
+            "Pysäkit, päivät ja muistiinpanot",
+            "Kuittaa pysäkit matkan varrella",
+            "Kartta siitä, missä olet käynyt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Toimiiko WikiCamps NZ offline?",
+          "Osittain. Offline Mode pitää kartat ja enintään kolme suunniteltua matkaa puhelimessa latauksen jälkeen, mutta sovellus tarvitsee silti tilin, ja takaisin kirjautuminen tarvitsee verkon."
+        ],
+        [
+          "Mikä NZ:n leirintäsovellus toimii ilman verkkoa?",
+          "KiwiCamping pitää jokaisen DOC-leiripaikan, tuvan ja reitin sekä kaikki matkasi puhelimessa, ilman latausta ja ilman kirjautumista, jonka taakse jäisit."
+        ],
+        [
+          "Voinko tarkistaa vapaaleirinnän säännöt ilman verkkoa?",
+          "Suojelualueilla kyllä: KiwiCamping sisältää DOCin vapaaleirintäilmoitukset. Tarkista kuntien määräykset vielä kaupungissa."
+        ],
+        [
+          "Kuinka monta WikiCamps-matkaa voin pitää offline-tilassa?",
+          "Enintään kolme, WikiCampsin mukaan. KiwiCampingissa jokainen tekemäsi matka pysyy puhelimessa."
+        ],
+        [
+          "Pitääkö KiwiCampingia varten ladata jotain, jotta se toimii ilman verkkoa?",
+          "Ei. DOC-leiripaikat, tuvat ja reitit tulevat sovelluksen mukana, ja tallennetut paikat ja matkat ovat aina puhelimessa."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: vapaaleirintä"
+        },
+        {
+          "label": "DOC: hälytykset ja sulkemiset"
+        },
+        {
+          "label": "NZTA Journeys: tieolosuhteet ja sulkemiset"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "Siirry WikiCamps NZ:stä vuonna 2027: siirrä paikkasi ja matkasi",
+      "description": "Siirry WikiCamps NZ:stä KiwiCampingiin illassa: lisää jokainen tallennettu paikka ja matkan pysähdys nimellä, osoitteella tai nastalla, aloittaen varatuista DOC-öistä ja lautasta.",
+      "region": "Uusi-Seelanti",
+      "imageAlt": "Interislander-lautta ylittämässä Cook Strait -salmea Pohjois- ja Etelä-saaren välillä",
+      "intro": "Kun siirryt pois WikiCamps NZ:stä, kirjoita ylös tallentamasi paikat ja matkasi ja lisää ne yksi kerrallaan KiwiCampingiin nopealla haulla. Sovelluksen paikat, mikä tahansa osoite ja omat nastasi toimivat kaikki, joten useimmat matkat siirtyvät illassa. Teemme KiwiCampingia itse, ja tämä on nopein järjestys, jossa siirto kannattaa tehdä: aloita öistä, joita et voi muuttaa.",
+      "sections": [
+        {
+          "heading": "Miksi leirintäihmiset jättävät WikiCamps NZ:n",
+          "body": [
+            "Monen WikiCamps-käyttäjän mielestä uusi versio on riesa: vaikeampi käyttää, kirjaa ulos tuon tuostakin ja on täynnä mainoksia, joita maksamisen jälkeen ei osannut odottaa. Jos <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ ei toimi</a> sinulla enää, sinun ei tarvitse jatkaa sen kanssa kamppailua.",
+            "KiwiCamping avautuu suoraan karttaan ilman tiliä, kirjautumista ja mainoksia. Käytössäsi ovat DOC:n leirintäalueet, majat ja reitit, <a data-guide=\"kiwicamping-filters-guide\">suodattimet</a>, jotka täyttyvät kaikilla valinnoillasi, sekä matka, jota voit suunnitella yhdessä kumppanisi kanssa."
+          ],
+          "tips": [
+            "Ei tiliä eikä kirjautumista",
+            "Ei mainoksia",
+            "Suunnitelkaa yhdessä kumppanin kanssa"
+          ]
+        },
+        {
+          "heading": "Vaihe 1: kirjoita ylös, mitä sinulla on",
+          "body": [
+            "Avaa WikiCamps vielä viimeisen kerran ja ota kuvakaappaukset suosikeistasi, listoistasi ja matkastasi tai kirjoita nimet Muistiinpanot-sovellukseen. Säilytä jo maksettujen öiden varausnumerot.",
+            "Tämä lista riittää. Siitä eteenpäin kaikki tapahtuu KiwiCampingissa."
+          ],
+          "tips": [
+            "Kuvakaappaukset listoista ja matkoista",
+            "Säilytä varausnumerot"
+          ]
+        },
+        {
+          "heading": "Vaihe 2: ensin varatut yöt ja lautta",
+          "body": [
+            "Luo matka, napauta Lisää pysähdys ja hae jokainen varattu <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-leirintäalue</a> tai Great Walk -maja. Anna jokaiselle pysähdykselle saapumispäivä ja kirjoita varausnumero muistiinpanoon.",
+            "Seuraavaksi <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a> -ylitys. Lisää lauttaterminaali osoitteella, sitten viimeinen yö ennen ylitystä ja ensimmäinen yö sen jälkeen. Kun nämä kiintopisteet ovat paikallaan, muu matka asettuu niiden ympärille."
+          ],
+          "tips": [
+            "Lisää pysähdys jokaiselle varaukselle",
+            "Päivämäärät ja varausmuistiinpanot",
+            "Lauttaterminaali osoitteella"
+          ]
+        },
+        {
+          "heading": "Vaihe 3: kaikki muut paikat, myös listaamattomat",
+          "body": [
+            "Sama Lisää pysähdys -haku löytää sovelluksen paikat, mitkä tahansa katuosoitteet, nykyisen sijaintisi ja tallentamasi nastat. Onko sinulla oma suosikkipaikka? Pudota nasta kartalle ja napauta Lisää matkaan.",
+            "Jokainen pysähdys näkyy reitillä etäisyyden ja ajoajan kanssa, joten näet heti, onko jokin päivä liian pitkä. Napauta Aloita kotoa tai Päätä kotiin, jolloin matka alkaa ja päättyy Sinä-välilehdelle tallentamaasi osoitteeseen."
+          ],
+          "tips": [
+            "Paikat, osoitteet ja nastat",
+            "Pudota nasta, lisää matkaan",
+            "Etäisyys ja ajoaika jokaiselle pysähdykselle"
+          ]
+        },
+        {
+          "heading": "Vaihe 4: suosikit ja listat KiwiCampingissa",
+          "body": [
+            "Tykkää tai merkitse tähdellä paikat, joista pidit, ja merkitse vielä näkemättömät kohteella Haluan käydä.",
+            "WikiCampsin omista listoistasi tulee omia <a data-guide=\"save-places-kiwicamping\">kokoelmia</a>, ja yksi saarta kohden toimii hyvin. Vinkkisi paikasta menevät sen yksityiseen muistiinpanoon."
+          ],
+          "tips": [
+            "Tykätty, Tähdellä, Haluan käydä",
+            "Listoista tulee kokoelmia",
+            "Vinkit yksityisiin muistiinpanoihin"
+          ],
+          "table": {
+            "caption": "Minne WikiCampsin asiasi päätyvät KiwiCampingissa.",
+            "head": [
+              "WikiCamps NZ:ssä",
+              "KiwiCampingissa"
+            ],
+            "rows": [
+              [
+                "Suosikit",
+                "Tykätty tai Tähdellä"
+              ],
+              [
+                "Paikat, jotka aiot nähdä",
+                "Haluan käydä"
+              ],
+              [
+                "Omat listasi",
+                "Kokoelmat, yksi saarta tai matkaa kohden"
+              ],
+              [
+                "Matkasi",
+                "Matka päivätyillä pysähdyksillä, Lisää pysähdys -toiminnolla"
+              ],
+              [
+                "Salainen paikka",
+                "Pudotettu nasta, lisätty matkaan"
+              ],
+              [
+                "Muistiinpanot kohteesta",
+                "Yksityinen muistiinpano paikassa"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vaihe 5: vapaan leiriytymisen yöt",
+          "body": [
+            "Älä kopioi vanhoja vapaan leiriytymisen paikkoja sellaisinaan, vaan tarkista <a data-guide=\"freedom-camping-rules-new-zealand\">vapaan leiriytymisen säännöt</a> uudelleen. DOC:n ilmoitukset suojelualueista ovat KiwiCampingissa, ja kuntien määräykset löytyvät kunkin kunnan verkkosivuilta.",
+            "Anna sitten <a data-guide=\"kiwicamping-filters-guide\">suodattimien</a> löytää sinulle uusi paikka. Koirat sallittu, 4WD-pääsy ja Asuntoauton pääsy ovat Lemmikit ja pääsy -osiossa, Hinta-suodatin tuo esiin DOC:n ilmaiset ja edulliset leirintäalueet, ja jokainen näytetty paikka täyttää kaikki valitsemasi suodattimet."
+          ],
+          "tips": [
+            "DOC:n ilmoitukset sovelluksessa",
+            "Suodattimet täyttyvät kaikilla valinnoillasi",
+            "DOC:n ilmaiset ja edulliset leirintäalueet"
+          ]
+        },
+        {
+          "heading": "Ota matkakumppani mukaan",
+          "body": [
+            "Napauta matkassa Jaa ja valitse Tee yhteistyötä, niin voit kutsua kumppanisi iCloudin kautta. Te molemmat lisäätte pysähdyksiä, järjestätte ne uudelleen, merkitsette ne tehdyiksi ja muokkaatte muistiinpanoja, ja muutokset näkyvät molemmissa puhelimissa sekunneissa.",
+            "Omat laitteesi pysyvät myös synkronoituina iCloudin kautta, eikä mihinkään tarvitse kirjautua. KiwiCamping on mainokseton ja riippumaton, ja sen lataus on ilmainen sovelluksen sisäisillä ostoilla."
+          ],
+          "tips": [
+            "Tee yhteistyötä livenä",
+            "Synkronointi iCloudin kautta",
+            "Ei mainoksia, riippumaton"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Voinko viedä matkani WikiCampsista?",
+          "Nopein tapa on tehdä lista tai ottaa kuvakaappaukset WikiCamps-matkastasi. Lisää sitten jokainen pysähdys KiwiCampingiin Lisää pysähdys -toiminnolla, joka löytää paikat, osoitteet ja nastat."
+        ],
+        [
+          "Miten siirrän tallennetut leirintäalueeni toiseen sovellukseen?",
+          "Hae jokainen KiwiCampingista ja tallenna se: suosikeista tulee Tykätty tai Tähdellä, ja listoista tulee kokoelmia."
+        ],
+        [
+          "Voinko lisätä oman paikkani matkaan?",
+          "Kyllä. Pudota nasta ja napauta Lisää matkaan tai lisää mikä tahansa osoite Lisää pysähdys -toiminnolla."
+        ],
+        [
+          "Voimmeko suunnitella matkan kumppanini kanssa yhdessä?",
+          "Kyllä. Napauta matkassa Jaa ja valitse Tee yhteistyötä. Te molemmat muokkaatte sitä livenä iCloudin kautta ilman tiliä."
+        ],
+        [
+          "Kauanko WikiCampsista siirtyminen kestää?",
+          "Useimmat matkat vievät illan. Aloita varatuista öistä ja lautasta ja lisää sitten loput."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: majoituspaikat"
+        },
+        {
+          "label": "DOC: vapaa leiriytyminen"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "Jaa Uuden-Seelannin road trip -reitti perheen kanssa (2027)",
+      "description": "Suunnittele Uuden-Seelannin road trip yhdessä kumppanisi kanssa reaaliajassa, lähetä perheelle linkki, joka aukeaa missä tahansa selaimessa, tai jaa reitti kuvana, kaikki KiwiCampingissa.",
+      "region": "KiwiCamping",
+      "imageAlt": "Cathedral Coven valkoiset kalliot ja hiekkaranta Coromandelin niemimaalla",
+      "intro": "Jos haluat jakaa matkareitin KiwiCampingista, napauta matkallasi Jaa. Valitse Tee yhteistyötä, jos haluat suunnitella reaaliajassa kumppanisi kanssa, Lähetä kopio, jos haluat antaa perheelle linkin, joka aukeaa missä tahansa verkkoselaimessa, tai Jaa kuvana, jos haluat kuvan reitistä. Me teemme KiwiCampingia, ja tässä kerrotaan, miten kukin vaihtoehto toimii Uuden-Seelannin matkalla.",
+      "sections": [
+        {
+          "heading": "Kolme tapaa jakaa matkareitti KiwiCampingista",
+          "body": [
+            "Jokainen vaihtoehto sopii eri ihmiselle. Matkakumppanisi saa oikean matkan muokattavaksi, kotona oleva perhe saa linkin, joka vain toimii, ja ryhmächatti saa kuvan, jota kannattaa katsoa.",
+            "Mikään niistä ei vaadi tiliä tai kirjautumista, ja Tee yhteistyötä toimii iPhonessasi jo olevan iCloudin kautta."
+          ],
+          "tips": [
+            "Tee yhteistyötä kumppanin kanssa",
+            "Lähetä kopio perheelle",
+            "Jaa kuvana chattiin"
+          ],
+          "table": {
+            "caption": "Mikä jakotapa valita.",
+            "head": [
+              "Vaihtoehto",
+              "Sopii parhaiten",
+              "Mitä vastaanottaja saa"
+            ],
+            "rows": [
+              [
+                "Tee yhteistyötä",
+                "Matkakumppanille",
+                "Sama matka reaaliajassa: te kumpikin voitte muokata"
+              ],
+              [
+                "Lähetä kopio",
+                "Perheelle ja ystäville",
+                "Linkin matkaan, joka aukeaa missä tahansa selaimessa"
+              ],
+              [
+                "Jaa kuvana",
+                "Ryhmächateille",
+                "Kuvan, jossa on reitti, pysähdykset, päivämäärät ja yöt"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Suunnitelkaa yhdessä Tee yhteistyötä -toiminnolla",
+          "body": [
+            "Napauta matkalla tai jollakin <a data-guide=\"save-places-kiwicamping\">kokoelmistasi</a> Jaa ja valitse Tee yhteistyötä kutsuaksesi kumppanisi iCloudin kautta. Siitä lähtien kyseessä on yksi matka kahdelle.",
+            "Te kumpikin voitte lisätä pysähdyksiä <a data-guide=\"plan-trip-kiwicamping\">matkasuunnittelijaan</a>, vetää ne uuteen järjestykseen, merkitä ne tehdyiksi ja muokata muistiinpanoja. Muutokset näkyvät toisessa puhelimessa sekunneissa, joten kyytiläinen voi suunnitella huomista, kun toinen ajaa."
+          ],
+          "tips": [
+            "Kutsu iCloudin kautta",
+            "Molemmat lisäävät, järjestävät ja merkitsevät",
+            "Muutokset sekunneissa"
+          ]
+        },
+        {
+          "heading": "Lähetä kopio: linkki, jonka perhe voi avata missä tahansa",
+          "body": [
+            "Lähetä kopio luo linkin, jonka kuka tahansa voi avata verkkoselaimessa puhelimella tai kannettavalla. Se näyttää matkan pysähdykset, päivämäärät ja muistiinpanot, joten äiti näkee, minä yönä olet Wānakassa.",
+            "Jos vastaanottajalla on KiwiCamping, hän voi tallentaa matkan omiin matkoihinsa yhdellä napautuksella. Se on myös helppo tapa katsoa omaa suunnitelmaasi kannettavalta kotona."
+          ],
+          "tips": [
+            "Aukeaa missä tahansa selaimessa",
+            "Pysähdykset, päivämäärät ja muistiinpanot",
+            "Tallenna sovellukseen"
+          ]
+        },
+        {
+          "heading": "Jaa kuvana ryhmächattiin",
+          "body": [
+            "Jaa kuvana muuttaa matkan kuvaksi: reitti kartalla, kaikki pysähdykset, päivämäärät ja yöpymisten määrä. Pudota se perheen chattiin tai julkaise ennen lähtöä.",
+            "Se on nopein tapa vastata kysymykseen \"mihin te oikein menette?\" ilman pitkää viestiä."
+          ],
+          "tips": [
+            "Reitti, pysähdykset, päivämäärät ja yöt",
+            "Täydellinen chatteihin"
+          ]
+        },
+        {
+          "heading": "Lähetä yksi paikka",
+          "body": [
+            "Kun jaat yksittäisen leirintäalueen, majan tai <a data-guide=\"holiday-parks-new-zealand-guide\">lomapuiston</a>, lähtee sen sivu kuvallisella esikatselulla. Jos vastaanottajalla on KiwiCamping, se aukeaa suoraan sovelluksessa, ja kaikki muut näkevät verkkosivun.",
+            "Se sopii erinomaisesti, kun matkustatte kahdella asuntoautolla: lähetä tämän illan paikka, niin kaikki tietävät, minne tulla."
+          ],
+          "tips": [
+            "Kuvallinen esikatselu",
+            "Aukeaa suoraan sovelluksessa"
+          ]
+        },
+        {
+          "heading": "Pidä perhe ajan tasalla",
+          "body": [
+            "Lisää jokaiselle pysähdykselle saapumispäivä ennen jakamista, jotta perhe voi seurata matkaa päivä päivältä ja nähdä, kuinka pitkiä <a data-guide=\"new-zealand-driving-day-planner\">ajopäiväsi</a> ovat. Lähetä uusi kopio suurten muutosten jälkeen.",
+            "Kerro myös hiljaisista taipaleista. Päivä <a data-guide=\"kiwicamping-offline-data-guide\">ilman kenttää</a> West Coastilla tai Fiordlandissa on normaalia, ja päivätyt pysähdykset näyttävät, että olet vain kaupunkien välissä. Kun otat matkalle käyttöön Synkronoi kalenteriin, pysähdykset ja päivämäärät siirtyvät myös kalenteriisi.",
+            "Oletko menossa vuorille? Jätä reittisi ja myöhästymisaika jollekulle luotettavalle, kuten Mountain Safety Councilin Plan My Walk ja AdventureSmart neuvovat."
+          ],
+          "tips": [
+            "Päivämäärä jokaiselle pysähdykselle",
+            "Kalenterisynkronointi",
+            "Jätä retkisuunnitelma"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Miten jaan Uuden-Seelannin matkareittini perheen kanssa?",
+          "Napauta matkaasi KiwiCampingissa Jaa ja valitse Lähetä kopio. Perhe saa linkin, joka aukeaa missä tahansa verkkoselaimessa ja näyttää pysähdyksesi, päivämääräsi ja muistiinpanosi."
+        ],
+        [
+          "Voimmeko kumppanini kanssa muokata samaa matkaa?",
+          "Kyllä. Valitse matkaa jakaessasi Tee yhteistyötä. Te kumpikin lisäätte, järjestätte ja merkitsette pysähdyksiä, ja muutokset näkyvät sekunneissa."
+        ],
+        [
+          "Tarvitseeko henkilö, jolle jaan, sovelluksen?",
+          "Ei Lähetä kopio -toiminnossa: linkki aukeaa missä tahansa verkkoselaimessa. Sovelluksella hän voi tallentaa matkan omiin matkoihinsa."
+        ],
+        [
+          "Tarvitsenko tilin matkan jakamiseen?",
+          "Et. KiwiCampingissa ei ole tiliä; jakaminen toimii iCloudin kautta."
+        ],
+        [
+          "Voinko lisätä matkani kalenteriini?",
+          "Kyllä. Ota matkalle käyttöön Synkronoi kalenteriin, niin pysähdykset ja päivämäärät näkyvät kalenterissasi."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: retkisuunnitelma ulkoilua varten"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "WikiCampsin matkasuunnittelijan vaihtoehto Uuden-Seelannin road tripeille (2027)",
+      "description": "Käytitkö WikiCampsin matkasuunnittelijaa Uudessa-Seelannissa? Suunnittele KiwiCampingissa: aloita kotoa tai mistä tahansa osoitteesta, lisää pisteitä, katso ajoajat ja suunnittele reaaliajassa kumppanisi kanssa.",
+      "region": "Uusi-Seelanti",
+      "imageAlt": "Päällystetty maantie kiemurtelee tuppoheinäkukkuloiden halki kohti vuoristosolaa Otagossa",
+      "intro": "Jos WikiCampsin matkasuunnittelija oli tapasi hahmotella Uuden-Seelannin reitti, KiwiCamping on yksinkertaisempi tapa suunnitella sama road trip. Aloita kotoa tai mistä tahansa osoitteesta, lisää pysähdyksiksi leirintäalueita, osoitteita ja omia pisteitä, ja näet jokaisen osuuden matkan ja ajoajan, ilman tiliä ja ilman mainoksia. Me teemme KiwiCampingia, ja näin suunnittelu toimii Uuden-Seelannin matkalla.",
+      "sections": [
+        {
+          "heading": "Miksi WikiCampsin matkasuunnittelijan käyttäjät etsivät muuta",
+          "body": [
+            "WikiCampsin suuren päivityksen jälkeen monet suunnittelijat sanovat, että sovellus on muuttunut hankalaksi, kirjaa ulos pahimmilla hetkillä ja näyttää mainoksia, joita ei osannut odottaa maksullisessa sovelluksessa.",
+            "Jos olet <a data-guide=\"switch-from-wikicamps-nz\">vaihtamassa pois WikiCampsista</a>, hyvä uutinen on, että koko matka siirtyy yhdessä illassa."
+          ],
+          "tips": [
+            "Hankala päivityksen jälkeen",
+            "Uloskirjaus pahimpaan aikaan",
+            "Mainoksia maksullisessa sovelluksessa"
+          ]
+        },
+        {
+          "heading": "Lähtö kotoa ja paluu kotiin",
+          "body": [
+            "Aseta kotiosoitteesi kerran Sinä-välilehdellä, niin <a data-guide=\"plan-trip-kiwicamping\">matkasuunnittelija</a> käyttää sitä jokaisella matkalla. Lähtö kotoa ja Paluu kotiin vaativat kumpikin yhden napautuksen.",
+            "Vierailulla? Mikä tahansa osoite käy pysähdykseksi, joten aloita lentokentältä, vuokra-autoliikkeestä tai paikasta, jossa yövyt ensimmäisenä yönä."
+          ],
+          "tips": [
+            "Aseta koti kerran",
+            "Lähtö ja paluu kotiin",
+            "Tai aloita lentokentältä"
+          ]
+        },
+        {
+          "heading": "Lisää mikä tahansa pysähdys KiwiCampingissa: paikat, osoitteet ja pisteet",
+          "body": [
+            "Napauta Lisää pysähdys, ja yksi haku löytää kodin, nykyisen sijaintisi, tallennetut pisteesi, sovelluksen paikat tai minkä tahansa osoitteen. Löysitkö oman erinomaisen paikan? Pudota piste ja napauta Lisää matkalle.",
+            "Reitti piirtyy uudelleen jokaisen osuuden kilometreillä ja ajoajalla. Vedä pysähdykset ajojärjestykseen, anna jokaiselle saapumispäivä ja lisää muistiinpano varausnumerolle tai portin koodille."
+          ],
+          "tips": [
+            "Yksi haku kaikenlaisille pysähdyksille",
+            "Pisteet menevät suoraan mukaan",
+            "Matka ja ajoaika osuuksittain"
+          ],
+          "table": {
+            "caption": "Suunnittelutehtävät ja missä ne ovat KiwiCampingin matkasuunnittelijassa.",
+            "head": [
+              "Tehtävä",
+              "KiwiCampingissa"
+            ],
+            "rows": [
+              [
+                "Alku ja loppu",
+                "Lähtö kotoa ja Paluu kotiin tai mikä tahansa osoite"
+              ],
+              [
+                "Pysähdysten lisääminen",
+                "Paikat, osoitteet, sijaintisi ja pisteet"
+              ],
+              [
+                "Pysähdysten järjestys",
+                "Vedä uuteen järjestykseen; reitti päivittyy"
+              ],
+              [
+                "Ajoajat",
+                "Matka ja ajoaika jokaiselle pysähdykselle"
+              ],
+              [
+                "Päivämäärät ja muistiinpanot",
+                "Saapumispäivä ja muistiinpano jokaiselle pysähdykselle"
+              ],
+              [
+                "Suunnittelu kumppanin kanssa",
+                "Yhteistyö reaaliajassa iCloudin kautta"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Suunnittele Uuden-Seelannin kiintopisteiden ympärille",
+          "body": [
+            "Varatut Great Walks -majat, kesällä varausta vaativat <a data-guide=\"doc-campsites-new-zealand-guide\">DOC:n leirintäalueet</a> ja Cookinsalmen lautta määräävät useimpien matkojen muodon. Lisää ne ensin ja pidä kaikki niiden väliltä joustavana.",
+            "Seuraa ajoaikoja kilometrejä tarkemmin. Mutkaiset tiet ja solat tekevät Uuden-Seelannin <a data-guide=\"new-zealand-driving-day-planner\">ajopäivistä</a> hitaampia kuin miltä ne näyttävät, joten jaa osuus, joka vie koko päivän. Suodattimet auttavat täyttämään aukot: Koirat sallittu, 4WD-pääsy ja Asuntovaunupääsy omassa Lemmikit ja pääsy -osiossaan."
+          ],
+          "tips": [
+            "Kiinteät yöt ensin",
+            "Seuraa ajoaikoja",
+            "Suodattimet aukkoihin"
+          ]
+        },
+        {
+          "heading": "Tiellä suunnitelman kanssa",
+          "body": [
+            "Merkitse pysähdykset tehdyiksi matkan edetessä ja tarkista seuraavien sää. Pidä ostokset, varaukset ja lauttaan sisäänkirjautuminen matkan tehtävälistalla.",
+            "Sinä-välilehti pitää kirjaa: kartta, joka täyttyy käymistäsi alueista, kuinka paljon Uudesta-Seelannista olet nähnyt, ajetut kilometrit ja telttayöt."
+          ],
+          "tips": [
+            "Merkitse pysähdykset tehdyiksi",
+            "Sää ja tehtävälista",
+            "Matkakarttasi ja tilastosi"
+          ]
+        },
+        {
+          "heading": "Suunnitelkaa yhdessä ja tarkista kannettavalla",
+          "body": [
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Jaa matka</a> Yhteistyö-toiminnolla, niin kumppanisi voi lisätä, järjestää ja merkitä pysähdyksiä kanssasi reaaliajassa. Lähetä kopio antaa linkin, joka aukeaa missä tahansa selaimessa, joten voit käydä suunnitelman läpi kannettavalla kotona.",
+            "Jaa kuvana tekee kuvan reitistä, pysähdyksistä, päivämääristä ja öistä perheen ryhmäkeskusteluun. Ota käyttöön Synkronoi kalenteriin, niin matka ilmestyy myös kalenteriisi. KiwiCamping on ilmainen ladata, ja siinä on sovelluksen sisäisiä ostoja."
+          ],
+          "tips": [
+            "Yhteistyö reaaliajassa",
+            "Avaa kannettavalla",
+            "Kalenterisynkronointi"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mikä on paras matkasuunnittelusovellus Uuteen-Seelantiin?",
+          "Leirintämatkalle KiwiCamping, jota me teemme: aloita kotoa tai mistä tahansa osoitteesta, lisää paikkoja ja pisteitä, katso ajoajat ja suunnittele reaaliajassa kumppanisi kanssa, ilman tiliä ja ilman mainoksia."
+        ],
+        [
+          "Miten suunnittelen matkailuautoreitin Uudessa-Seelannissa?",
+          "Lisää ensin varatut yöt ja lautta, ja täytä sitten pysähdykset ajojärjestyksessä. Pidä useimmat päivät kolmen tai neljän ajotunnin mittaisina."
+        ],
+        [
+          "Voinko viedä WikiCamps-matkani ulos?",
+          "Kirjoita WikiCamps-pysähdyksesi ylös ja rakenna reitti uudelleen KiwiCampingissa. Yksi haku kattaa leirintäalueet, katuosoitteet ja omat pisteesi."
+        ],
+        [
+          "Näyttääkö KiwiCamping pysähdysten väliset ajoajat?",
+          "Kyllä. Reitin jokaisella osuudella näkyy sen pituus ja ajoaika."
+        ],
+        [
+          "Voinko aloittaa matkan majapaikastani tai lentokentältä?",
+          "Kyllä. Käytä Lähtö kotoa -toimintoa tallennetulla kotiosoitteellasi tai lisää mikä tahansa osoite, kuten lentokenttä, ensimmäiseksi pysähdykseksi."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: places to stay"
+        },
+        {
+          "label": "NZTA Journeys: road conditions and closures"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "NZ Great Walks 2026/27: majat, leirintäalueet, varauspäivät ja maksut",
       "description": "Kaikki 11 Great Walksia rinnakkain: millä on leirintäalueita, mitkä varataan ympäri vuoden, milloin 2026/27 varaukset avautuivat, majojen ja leirintäalueiden maksut uusiseelantilaisille ja vierailijoille sekä mikä muuttui tällä kaudella.",
@@ -37628,6 +38203,143 @@
         },
         {
           "label": "DOC: verkkovaraukset"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "Onko WikiCamps NZ ilmainen? Hinta, tili ja mainokset 2027",
+      "description": "Onko WikiCamps NZ ilmainen vuonna 2027? Ei: se maksaa NZ$7.99 kerran, vaatii tilin ja näyttää mainoksia. Mitä maksat, ja Uuden-Seelannin leirintäsovellus, jonka voi ladata ilmaiseksi ilman kirjautumista ja mainoksia.",
+      "region": "Uusi-Seelanti",
+      "imageAlt": "Pieni vuokrattu matkailuauto violetein kukin, pysäköitynä veden viereen Akaroassa",
+      "intro": "Onko WikiCamps NZ ilmainen? Ei. WikiCamps NZ maksaa NZ$7.99 kertamaksuna, ilman tilausta. Hinnan lisäksi tarvitset WikiCamps-tilin, sovellus näyttää mainoksia, ja WikiCamps myy Australian erillisenä sovelluksena. Me teemme KiwiCampingin, Uuden-Seelannin leirintäsovelluksen, jonka voi ladata ilmaiseksi, jossa on sovelluksen sisäisiä ostoja, eikä mainoksia eikä kirjautumista. Tässä on, mitä WikiCamps NZ maksaa ja mitä siihen kuuluu.",
+      "sections": [
+        {
+          "heading": "Mitä WikiCamps NZ maksaa",
+          "body": [
+            "WikiCamps NZ maksaa NZ$7.99, kerran, ja WikiCamps sanoo, ettei tilauksia tai piilokuluja ole. Hinta on alustakohtainen, joten siirtyminen toisenlaiseen puhelimeen tarkoittaa ostamista uudelleen.",
+            "Jokainen maa on oma sovelluksensa. Matka, joka alkaa Sydneystä ja päättyy Christchurchiin, tarkoittaa myös WikiCamps Australian ostamista ja kahta sovellusta kahdella tallennettujen paikkojen joukolla."
+          ],
+          "tips": [
+            "NZ$7.99 kerran",
+            "Ei tilausta",
+            "Jokainen maa on erillinen sovellus"
+          ],
+          "table": {
+            "caption": "Mitä kukin sovellus sinulta pyytää.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Sovelluksen saaminen",
+                "NZ$7.99",
+                "Ilmainen ladata, sovelluksen sisäisiä ostoja"
+              ],
+              [
+                "Tili",
+                "Tarvitaan, sähköpostikoodilla",
+                "Ei mitään"
+              ],
+              [
+                "Mainokset",
+                "Kyllä",
+                "Ei yhtään"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Mainoksia sovelluksessa, josta maksoit",
+          "body": [
+            "Monet WikiCampsin käyttäjät sanovat, etteivät halua nähdä mainoksia sovelluksessa, josta ovat maksaneet. Se on yksi yleisimmistä valituksista WikiCampsin suuren päivityksen jälkeen.",
+            "KiwiCampingissa ei ole mainoksia lainkaan: ei kartalla, ei paikan sivulla eikä matkoissasi. Se on myös riippumaton kaikista leirintäalueketjuista, ja <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-leirintäalueet</a> näkyvät samalla kartalla kuin maksulliset lomapuistot."
+          ],
+          "tips": [
+            "WikiCamps NZ näyttää mainoksia",
+            "KiwiCamping: ei yhtään",
+            "Riippumaton"
+          ]
+        },
+        {
+          "heading": "Ostoon kuuluu tili",
+          "body": [
+            "WikiCamps NZ vaatii WikiCamps-tilin, ja kirjaudut sisään koodilla, joka tulee sähköpostiisi. Monet käyttäjät sanovat, että sovellus kirjaa heidät ulos, ja takaisin kirjautuminen vaatii verkon.",
+            "KiwiCampingiin ei kirjauduta. Lataat sen, avaat sen ja katsot karttaa, ilman sähköpostia, salasanaa tai koodia missään vaiheessa. Uusi iPhone tuo tallennetut paikat ja matkat iCloudin kautta."
+          ],
+          "tips": [
+            "WikiCamps NZ: tili ja sähköpostikoodi",
+            "KiwiCamping: avaa ja lähde",
+            "Matkasi seuraavat sinua iCloudin kautta"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: ilmainen ladata, ei kirjautumista",
+          "body": [
+            "KiwiCamping laittaa jokaisen DOC-leirintäalueen, tuvan ja reitin yhdelle kartalle, maksuineen, koirasääntöineen ja varauksineen, jotka DOC ilmoittaa, sekä DOC:n <a data-guide=\"freedom-camping-new-zealand-guide\">vapaaleirinnän</a> tiedot suojelualueilla. Paikan tiedot pysyvät puhelimessa, joten voit lukea ne ilman verkkoa.",
+            "Käyttö on nopeaa. Avaa sovellus, valitse suodatin kuten Koirat sallittu tai Matkailuvaunun pääsy, napauta neulaa nähdäksesi tiedot ja lisää se matkaan, joka näyttää pysähdysten välisen matkan ja ajoajan."
+          ],
+          "tips": [
+            "Jokainen DOC-leirintäalue, tupa ja reitti",
+            "Ei tiliä, ei mainoksia",
+            "Tiedot luettavissa ilman verkkoa"
+          ]
+        },
+        {
+          "heading": "Ilmaisten leirintäalueiden löytäminen Uudesta-Seelannista",
+          "body": [
+            "Moni ilmaista sovellusta etsivä haluaa oikeasti ilmaisia öitä. KiwiCampingissa aseta Hinta-suodatin kohtaan Ilmainen, niin DOC:n ilmaiset leirintäalueet tulevat näkyviin. Lisää Vessat, Vesipiste tai Matkailuautot, ja paikan on täytettävä jokainen valitsemasi ehto.",
+            "DOC:n ilmaiset leirintäalueet ovat yleensä vaatimattomia, usein kuoppakäymälällä ja puro- tai säiliövedellä, ja osa on lyhyen kävelymatkan päässä tiestä. Vapaaleirintä taajamissa on eri asia, ja <a data-guide=\"freedom-camping-rules-new-zealand\">vapaaleirinnän säännöt</a> -oppaamme kertoo siitä."
+          ],
+          "tips": [
+            "Hinta-suodatin: DOC:n ilmaiset leirintäalueet",
+            "Jokaisen suodattimen on täsmättävä",
+            "Ilmaiset paikat ovat yleensä vaatimattomia"
+          ]
+        },
+        {
+          "heading": "Enemmän kuin lista leirintäalueita",
+          "body": [
+            "Lisää kotiosoitteesi kerran Sinä-välilehdelle, niin jokainen matka voi alkaa ja päättyä sinne. Lisää pysähdys hyväksyy minkä tahansa osoitteen tai pudottamasi neulan, ja Yhteistyö antaa sinun ja kumppanisi suunnitella samaa matkaa livenä, ilman tiliä.",
+            "Sinä-välilehti pitää myös kartan siitä, missä olet käynyt, osuuden Uudesta-Seelannista jonka olet nähnyt, sekä kilometrisi ja leiriyösi. Siitä tulee kiva muisto matkasta."
+          ],
+          "tips": [
+            "Koti yhdellä napautuksella",
+            "Mikä tahansa osoite tai neula",
+            "Kartta siitä, missä olet käynyt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Onko WikiCamps NZ ilmainen?",
+          "Ei. Se maksaa NZ$7.99 kerran, ilman tilausta. Se vaatii myös tilin ja näyttää mainoksia."
+        ],
+        [
+          "Paljonko WikiCamps maksaa Uudessa-Seelannissa?",
+          "WikiCamps NZ maksaa NZ$7.99. WikiCamps Australia on erillinen sovellus, joka ostetaan erikseen."
+        ],
+        [
+          "Onko WikiCamps tilaus?",
+          "Ei. WikiCamps sanoo, että se on kertamaksu ilman tilauksia tai piilokuluja."
+        ],
+        [
+          "Kattaako yksi WikiCamps-ostos Australian ja Uuden-Seelannin?",
+          "Ei. WikiCamps NZ ja WikiCamps Australia ovat erillisiä sovelluksia, ja kumpikin ostetaan erikseen."
+        ],
+        [
+          "Onko Uudelle-Seelannille ilmaista leirintäsovellusta?",
+          "KiwiCampingin voi ladata ilmaiseksi, siinä on sovelluksen sisäisiä ostoja, eikä mainoksia tai kirjautumista. Hintasuodatin löytää DOC:n ilmaiset leirintäalueet."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: leirintäalueiden luokat ja maksut"
+        },
+        {
+          "label": "DOC: vapaaleirintä suojelualueilla"
         }
       ],
       "priceTable": null

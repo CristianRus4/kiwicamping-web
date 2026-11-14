@@ -27986,6 +27986,720 @@
       ],
       "priceTable": null
     },
+    "wikicamps-nz-account-login": {
+      "title": "WikiCamps Girişi: WikiCamps NZ 2027'de Hesap Gerektiriyor mu?",
+      "description": "WikiCamps NZ 2027'de hesap gerektiriyor mu? Evet, e-postayla gelen kodla giriş yapılıyor. Bunun Yeni Zelanda yolculuğunda neden sorun olduğu ve KiwiCamping'in hiç giriş olmadan nasıl çalıştığı.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Batı Kıyısı'nda yerli ormanın altında, çimenli bir açıklıkta tek başına duran beyaz bir karavan",
+      "intro": "Evet. WikiCamps'in büyük güncellemesinden beri WikiCamps NZ bir hesap istiyor ve e-postanıza gönderilen kodla giriş yapıyorsunuz. KiwiCamping bunların hiçbirini istemiyor: hesap yok, uygulamayı açıyorsunuz ve doğrudan haritadasınız. KiwiCamping'i biz yapıyoruz ve girişin olmamasının Yeni Zelanda yolculuğunda ne anlama geldiğini burada anlatıyoruz.",
+      "sections": [
+        {
+          "heading": "WikiCamps girişi neden yolunuza çıkıyor",
+          "body": [
+            "Birçok WikiCamps kullanıcısı yeni sürümün sürekli oturumu kapattığını söylüyor ve tekrar girmek için e-postayla gelecek bir kodu beklemek gerekiyor. Sinyalin olmadığı bir kamp alanında bu hiç keyifli değil.",
+            "İnsanların neden <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ'nin eskisi gibi çalışmadığını</a> düşündüğünün de ana nedenlerinden biri bu. Çoğu kişi yeni sürümü kullanmanın daha zor olduğunu ve para verip aldıkları uygulamada reklam gösterdiğini söylüyor."
+          ],
+          "tips": [
+            "Hesap ve e-postayla gelen kod",
+            "Sinyal yokken oturum kapanıyor",
+            "Ücretli uygulamada reklamlar"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: hesap yok, giriş yok, reklam yok",
+          "body": [
+            "KiwiCamping'de giriş yapılacak bir şey yok. E-posta yok, şifre yok, kod yok ve Batı Kıyısı yolunun ortasında oturumunuzu kapatabilecek hiçbir şey yok.",
+            "Kayıtlı yerleriniz, koleksiyonlarınız, işaretleriniz ve gezileriniz iPhone'unuzdaki iCloud üzerinden sessizce senkronize olur. Reklam da yok ve KiwiCamping bağımsızdır: DOC'un ücretsiz ve düşük ücretli kamp alanlarını ücretli <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parklarının</a> hemen yanında gösterir. İndirmek ücretsizdir, uygulama içi satın alımlar vardır."
+          ],
+          "tips": [
+            "Giriş yapılacak bir şey yok",
+            "iCloud'unuz üzerinden senkronize olur",
+            "Reklamsız, bağımsız"
+          ],
+          "table": {
+            "caption": "Giriş karşılaştırması.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Hesap",
+                "Zorunlu",
+                "Yok"
+              ],
+              [
+                "Giriş",
+                "E-postayla gelen kod",
+                "Gerekmiyor"
+              ],
+              [
+                "Kampta oturumun kapanması",
+                "Kullanıcılar oluyor diyor",
+                "Asla: kapatılacak oturum yok"
+              ],
+              [
+                "Reklamlar",
+                "Var, ücretli uygulamada",
+                "Yok"
+              ],
+              [
+                "Telefonlarınızın senkronizasyonu",
+                "WikiCamps hesabınız üzerinden",
+                "iCloud'unuz üzerinden"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Açın, doğrudan haritadasınız",
+          "body": [
+            "Geçmeniz gereken bir karşılama ekranı yok. İlk gördüğünüz şey Yeni Zelanda haritası; çevrenizde kamp alanları, dağ evleri ve <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkları</a> var.",
+            "<a data-guide=\"kiwicamping-filters-guide\">Filtreler</a>'e dokunun; Köpeklere izin var, 4WD erişimi ve Karavan erişimi kendi Evcil hayvanlar ve erişim bölümünde yer alır. Birkaçını seçin, gösterilen her yer hepsine uyar. Ücretlerini, olanaklarını ve kurallarını görmek için bir yere dokunun, sonra gezinize ekleyin.",
+            "Yer ayrıntıları, kayıtlı yerleriniz ve geziler telefonda kalır, bu yüzden <a data-guide=\"kiwicamping-offline-data-guide\">çekim olmadan</a> da açılır."
+          ],
+          "tips": [
+            "Önce harita",
+            "Köpeklere izin var, 4WD ve karavan erişimi",
+            "Ayrıntılar sinyal olmadan açılır"
+          ]
+        },
+        {
+          "heading": "Partnerinizle planlayın, yine hesapsız",
+          "body": [
+            "İki kişi mi geziyorsunuz? Bir gezide veya koleksiyonda Paylaş'a dokunun ve Birlikte düzenle'yi seçin. Partneriniz iCloud üzerinden katılır ve ikiniz de durak ekleyebilir, sırasını değiştirebilir, işaretleyebilir ve notları düzenleyebilirsiniz. Değişiklikler birkaç saniye içinde iki telefonda da görünür.",
+            "Memleketteki aile için gezinizi bunun yerine Kopya gönder ile <a data-guide=\"share-nz-trip-plan-kiwicamping\">paylaşın</a>: duraklarınızı, tarihlerinizi ve notlarınızı içeren, herhangi bir web tarayıcısında açılan bir bağlantı."
+          ],
+          "tips": [
+            "iCloud ile canlı birlikte düzenleme",
+            "İkiniz de düzenleyebilirsiniz",
+            "Aile için Kopya gönder"
+          ]
+        },
+        {
+          "heading": "Yeni telefon mu? Giriş yapılacak bir şey yok",
+          "body": [
+            "Yeni bir iPhone'u Apple Hesabınızla kurun; geziler, <a data-guide=\"save-places-kiwicamping\">koleksiyonlar</a> ve kayıtlı yerleriniz kendiliğinden gelir. Hatırlanacak bir şey yok, sıfırlanacak bir şey yok.",
+            "Uçmadan önce KiwiCamping'i Wi-Fi'da yükleyin ve ilk birkaç gecenizi kaydedin. Bunlardan biri rezervasyonlu bir <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanı</a> veya bir Great Walk kulübesiyse tarihiyle birlikte bir geziye ekleyin; karavanı aldığınızda plan hazır olsun."
+          ],
+          "tips": [
+            "Yeni iPhone, aynı geziler",
+            "Uçmadan önce Wi-Fi'da yükleyin",
+            "Önce rezervasyonlu geceleri ekleyin"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps hesap gerektiriyor mu?",
+          "Evet. WikiCamps NZ'nin yeni sürümü hesap oluşturmanızı ve e-postanıza gönderdiği kodla giriş yapmanızı istiyor."
+        ],
+        [
+          "WikiCamps neden sürekli giriş yapmamı istiyor?",
+          "Yeni sürüm bir hesaba bağlı ve birçok kullanıcı zaman zaman oturumunun kapandığını söylüyor. KiwiCamping'de hesap yok, bu yüzden tekrar giriş yapılacak bir şey de yok."
+        ],
+        [
+          "Girişsiz bir Yeni Zelanda kamp uygulaması var mı?",
+          "Evet. Bizim yaptığımız KiwiCamping'de hesap yok, giriş yok ve reklam yok. Doğrudan haritayla açılır."
+        ],
+        [
+          "KiwiCamping hesap gerektiriyor mu?",
+          "Hayır. Yerleriniz ve geziniz iPhone'unuzdaki iCloud üzerinden senkronize olur."
+        ],
+        [
+          "Partnerimle hesapsız bir geziyi paylaşabilir miyiz?",
+          "Evet. Gezide Paylaş'a dokunun ve Birlikte düzenle'yi seçin. İkiniz de aynı geziyi iCloud üzerinden düzenlersiniz ve değişiklikler birkaç saniye içinde görünür."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "does-wikicamps-nz-work-offline": {
+      "title": "WikiCamps NZ Çevrimdışı Çalışır mı? 2027'de Sinyalsiz Kamp",
+      "description": "WikiCamps NZ 2027'de çevrimdışı çalışır mı? Kısmen, bir indirmeden sonra ve bir hesapla. KiwiCamping her DOC kamp alanını, kulübeyi ve tüm gezilerinizi telefonda tutar, indirme yok.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Milford Road'un sonunda, Milford Sound'un durgun suyunun üzerinde yükselen Mitre Peak",
+      "intro": "Kısmen. WikiCamps'in Offline Mode'u, indirdikten sonra haritaları ve en fazla üç planlı geziyi telefonunuzda tutar, ama yine de bir hesap gerekir ve bu, sinyal yokken işi zorlaştırabilir. KiwiCamping her DOC kamp alanını, kulübeyi ve patikayı, ayrıca tüm gezilerinizi, uygulamayı kurduğunuz andan itibaren telefonunuzda tutar: indirilecek bir şey yok, giriş yapılacak bir şey yok. KiwiCamping'i biz yapıyoruz. İki uygulama da uzun, çekimsiz yolları böyle ele alır.",
+      "sections": [
+        {
+          "heading": "WikiCamps çevrimdışı çalışır mı?",
+          "body": [
+            "WikiCamps, Offline Mode ile haritaları ve planlı gezilerinizden en fazla üçünü sinyal olmadan kullanabileceğinizi söylüyor. Bunları önce, hâlâ bağlıyken indirirsiniz.",
+            "Püf noktası hesap. Birçok WikiCamps kullanıcısı uygulamanın ara sıra oturumu kapattığını söylüyor ve <a data-guide=\"wikicamps-nz-account-login\">WikiCamps girişi</a> yeniden girmek için sinyal ister. Kapsama olmayan bir vadide giriş ekranında takılı kalmak isteyeceğiniz son şeydir."
+          ],
+          "tips": [
+            "Önce indirin",
+            "En fazla üç planlı gezi",
+            "Yeniden giriş sinyal ister"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: indirilecek bir şey yok, giriş yok",
+          "body": [
+            "KiwiCamping'de hesap yoktur, bu yüzden sizinle bu gecenin kamp alanı arasında bir giriş ekranı hiç çıkmaz. Uygulamayı her yerde açın, içindesiniz.",
+            "Yeni Zelanda'daki tüm <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanları</a>, kulübeler ve patikalar uygulamaya gömülüdür: ücretler, olanaklar, köpek kuralları ve rezervasyon ihtiyacıyla birlikte. Bu, tek başına 900'den fazla DOC kulübesi demek. Milford Road'da ya da Catlins'in ücra yerinde tek çubuk olmadan okunur.",
+            "Kendi şeyleriniz de yanınızda kalır, <a data-guide=\"kiwicamping-offline-data-guide\">çekim olmadan</a> bile: beğenilen ve yıldızlanan yerler, koleksiyonlar, özel notlar ve durakları, tarihleri, notlarıyla her gezi."
+          ],
+          "tips": [
+            "Hesap yok, giriş ekranı yok",
+            "Her DOC kamp alanı, kulübe ve patika",
+            "Üçü değil, tüm gezileriniz"
+          ],
+          "table": {
+            "caption": "Sinyal yokken, yan yana.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Gitmeden önce indirme",
+                "Evet, Offline Mode'da",
+                "Hayır, yer bilgileri gömülü"
+              ],
+              [
+                "Planlı gezileriniz",
+                "En fazla üç",
+                "Hepsi"
+              ],
+              [
+                "Giriş yapılacak hesap",
+                "Evet",
+                "Yok"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Çubuklar düşmeden bu gecenin yerini seçin",
+          "body": [
+            "Ülkedeki en iyi sürüşlerin bir kısmı, Haast Pass, Milford Road ve Catlins gibi, sinyalin en kolay koptuğu yerlerdir. Her yerin bilgisi telefonda olduğunda kazanç tam da buradadır.",
+            "<a data-guide=\"kiwicamping-filters-guide\">Filtreleri</a> açın ve önemli olanı seçin: Köpek serbest, 4WD erişimi ve karavan erişimi Evcil hayvanlar ve erişim bölümündedir ve bir yer seçtiğiniz her filtreye uymalıdır. Favorinizi geziye ekleyin, yakına bir yedek de koyun. Gece için hazırsınız."
+          ],
+          "tips": [
+            "Çubuksuz bilgiler",
+            "Tüm seçimlerinize uyan filtreler",
+            "Bir yedek de kaydedin"
+          ]
+        },
+        {
+          "heading": "Sinyal yokken serbest kamp kuralları",
+          "body": [
+            "Koruma arazisi için DOC'un serbest kamp duyuruları KiwiCamping'dedir, böylece kapsama alanından çok uzaktayken kampın yasak veya kısıtlı olduğu yerleri görebilirsiniz.",
+            "Belediye arazisinde <a data-guide=\"freedom-camping-rules-new-zealand\">serbest kamp kuralları</a> her belediyenin yönetmeliğinden gelir. Bir sonraki ilçeninkini hâlâ kentteyken okuyun ve sahadaki tabelayı her zaman uygulayın."
+          ],
+          "tips": [
+            "DOC duyuruları gömülü",
+            "Belediye yönetmelikleri: kentteyken okuyun",
+            "Sahadaki tabela geçerlidir"
+          ]
+        },
+        {
+          "heading": "Tüm geziniz cebinizde",
+          "body": [
+            "Her gezi duraklarını sürüş sırasıyla, tarihleriniz ve notlarınızla tutar. Giderken durakları işaretleyebilirsiniz. Yapılacaklar listesi her günün işlerini aynı yerde tutar.",
+            "Siz sekmesi, bulunduğunuz yerlerin haritasını doldurur. Kamp yapılan geceler ve gidilen kilometreler gezi ilerledikçe birikir."
+          ],
+          "tips": [
+            "Duraklar, tarihler ve notlar",
+            "Giderken durakları işaretleyin",
+            "Bulunduğunuz yerlerin haritası"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps NZ çevrimdışı çalışır mı?",
+          "Kısmen. Offline Mode, indirdikten sonra haritaları ve en fazla üç planlı geziyi tutar, ama uygulama yine bir hesap ister ve yeniden giriş sinyal gerektirir."
+        ],
+        [
+          "Hangi NZ kamp uygulaması sinyal olmadan çalışır?",
+          "KiwiCamping her DOC kamp alanını, kulübeyi ve patikayı ve tüm gezilerinizi telefonda tutar. İndirme yok, arkasına takılacağınız bir giriş yok."
+        ],
+        [
+          "Serbest kamp kurallarını sinyal olmadan kontrol edebilir miyim?",
+          "Koruma arazisinde evet: KiwiCamping, DOC'un serbest kamp duyurularını içerir. Belediye yönetmeliklerini hâlâ kentteyken kontrol edin."
+        ],
+        [
+          "Kaç WikiCamps gezisini çevrimdışı tutabilirim?",
+          "WikiCamps'e göre en fazla üç. KiwiCamping'de yaptığınız her gezi telefonunuzda kalır."
+        ],
+        [
+          "KiwiCamping'in sinyal olmadan çalışması için bir şey indirmem gerekir mi?",
+          "Hayır. DOC kamp alanları, kulübeler ve patikalar uygulamayla gelir. Kayıtlı yerleriniz ve gezileriniz her zaman telefonunuzdadır."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: serbest kamp"
+        },
+        {
+          "label": "DOC: uyarılar ve kapanışlar"
+        },
+        {
+          "label": "NZTA Journeys: yol durumu ve kapanışlar"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "2027'de WikiCamps NZ'den Geçiş: Yerlerinizi ve Gezinizi Taşıyın",
+      "description": "WikiCamps NZ'den KiwiCamping'e bir akşamda geçin: kayıtlı her yeri ve gezi durağını adı, adresi veya iğnesiyle ekleyin; önce rezervasyonlu DOC gecelerinden ve vapurdan başlayın.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Kuzey ve Güney Adası arasındaki Cook Boğazı'nı geçen bir Interislander vapuru",
+      "intro": "WikiCamps NZ'den geçmek için kayıtlı yerlerinizi ve gezinizi not edin, sonra her birini hızlı bir aramayla KiwiCamping'e ekleyin. Uygulamadaki yerler, herhangi bir adres ve kendi bıraktığınız iğneler çalışır; bu yüzden çoğu gezi bir akşamda taşınır. KiwiCamping'i biz yapıyoruz ve bu, değiştiremeyeceğiniz gecelerden başlayarak en hızlı sıradır.",
+      "sections": [
+        {
+          "heading": "Kampçılar neden WikiCamps NZ'den ayrılıyor",
+          "body": [
+            "Birçok WikiCamps kullanıcısı yeni sürümü angarya buluyor: kullanımı daha zor, hesaptan çabuk çıkarıyor ve ödeme yaptıktan sonra hiç beklenmeyen reklamlarla dolu. <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ artık çalışmıyorsa</a> onunla uğraşmaya devam etmek zorunda değilsiniz.",
+            "KiwiCamping doğrudan haritayla açılır; hesap, giriş ve reklam yoktur. DOC'un kamp alanları, kulübeleri ve yürüyüş parkurları elinizin altında olur, seçtiğiniz her şeyle eşleşen <a data-guide=\"kiwicamping-filters-guide\">filtreler</a> ve eşinizle birlikte planlayabileceğiniz bir gezi sizi bekler."
+          ],
+          "tips": [
+            "Hesap veya giriş yok",
+            "Reklam yok",
+            "Eşinizle birlikte planlayın"
+          ]
+        },
+        {
+          "heading": "1. Adım: elinizdekileri not edin",
+          "body": [
+            "WikiCamps'i son kez açın; favorilerinizin, listelerinizin ve gezinizin ekran görüntüsünü alın ya da adları Notlar uygulamasına yazın. Ödemesini yaptığınız geceler için rezervasyon numaralarını saklayın.",
+            "İhtiyacınız olan tek şey bu liste. Bundan sonrası KiwiCamping'de olur."
+          ],
+          "tips": [
+            "Listelerin ve gezilerin ekran görüntüsünü alın",
+            "Rezervasyon numaralarını saklayın"
+          ]
+        },
+        {
+          "heading": "2. Adım: önce rezervasyonlu geceler ve vapur",
+          "body": [
+            "Bir gezi oluşturun, sonra Durak ekle'ye dokunup rezervasyonlu her <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanını</a> ya da Great Walk kulübesini arayın. Her durağa varış tarihini verin ve rezervasyon numarasını notuna yazın.",
+            "Sonra <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Boğazı</a> geçişi. Vapur terminalini adresiyle ekleyin, ardından öncesindeki son geceyi ve sonrasındaki ilk geceyi. Bu sabit noktalar yerine oturunca gezinin geri kalanı etraflarında kendiliğinden şekillenir."
+          ],
+          "tips": [
+            "Her rezervasyon için durak ekle",
+            "Tarihler ve rezervasyon notları",
+            "Vapur terminali adresle"
+          ]
+        },
+        {
+          "heading": "3. Adım: listede olmayanlar dahil diğer tüm yerler",
+          "body": [
+            "Aynı Durak ekle araması uygulamadaki yerleri, herhangi bir sokak adresini, bulunduğunuz konumu ve kayıtlı iğnelerinizi bulur. Kendinize ait bir favori yeriniz mi var? Haritaya bir iğne bırakın ve Geziye ekle'ye dokunun.",
+            "Her durak rotada mesafesi ve sürüş süresiyle görünür; böylece bir günün çok uzun olup olmadığını hemen görürsünüz. Geziyi Sen sekmesinde kaydettiğiniz adresle başlatıp bitirmek için Evden başla veya Evde bitir'e dokunun."
+          ],
+          "tips": [
+            "Yerler, adresler ve iğneler",
+            "İğne bırak, geziye ekle",
+            "Her durak için mesafe ve sürüş süresi"
+          ]
+        },
+        {
+          "heading": "4. Adım: favorileriniz ve listeleriniz KiwiCamping'de",
+          "body": [
+            "Sevdiğiniz yerleri beğenin veya yıldızlayın, görmek istediklerinizi Gitmek istiyorum olarak işaretleyin.",
+            "WikiCamps'teki kendi listeleriniz kendi <a data-guide=\"save-places-kiwicamping\">koleksiyonlarınıza</a> dönüşür; her ada için bir koleksiyon iyi çalışır. Bir yerle ilgili ipuçlarınız özel notuna gider."
+          ],
+          "tips": [
+            "Beğenilen, Yıldızlı, Gitmek istiyorum",
+            "Listeler koleksiyon olur",
+            "İpuçları özel notlara"
+          ],
+          "table": {
+            "caption": "WikiCamps'teki öğelerinizin KiwiCamping'de nereye gittiği.",
+            "head": [
+              "WikiCamps NZ'de",
+              "KiwiCamping'de"
+            ],
+            "rows": [
+              [
+                "Favoriler",
+                "Beğenilen veya Yıldızlı"
+              ],
+              [
+                "Görmeyi planladığınız yerler",
+                "Gitmek istiyorum"
+              ],
+              [
+                "Kendi listeleriniz",
+                "Koleksiyonlar, her ada veya gezi için bir tane"
+              ],
+              [
+                "Geziniz",
+                "Durak ekle ile oluşturulan, tarihli duraklardan oluşan bir gezi"
+              ],
+              [
+                "Gizli bir yer",
+                "Bırakılan bir iğne, geziye eklenir"
+              ],
+              [
+                "Bir alanla ilgili notlar",
+                "Yerin üzerindeki özel bir not"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "5. Adım: serbest kamp geceleri",
+          "body": [
+            "Eski serbest kamp yerlerini olduğu gibi kopyalamayın: <a data-guide=\"freedom-camping-rules-new-zealand\">serbest kamp kurallarını</a> yeniden kontrol edin. DOC'un koruma alanı duyuruları KiwiCamping'de, belediye yönetmelikleri ise her belediyenin web sitesinde yer alır.",
+            "Sonra yeni bir yeri <a data-guide=\"kiwicamping-filters-guide\">filtrelerin</a> bulmasına izin verin. Köpeklere izin var, 4WD erişimi ve Karavan erişimi Evcil hayvan ve erişim bölümünde durur, Ücret filtresi DOC'un ücretsiz ve düşük maliyetli kamp alanlarını getirir ve gösterilen her yer seçtiğiniz tüm filtrelerle eşleşir."
+          ],
+          "tips": [
+            "DOC duyuruları uygulamada",
+            "Filtreler tüm seçimlerinizle eşleşir",
+            "DOC'un ücretsiz ve düşük maliyetli kamp alanları"
+          ]
+        },
+        {
+          "heading": "Yol arkadaşınızı da getirin",
+          "body": [
+            "Gezide Paylaş'a dokunup Birlikte düzenle'yi seçin ve eşinizi iCloud üzerinden davet edin. İkiniz de durak ekler, sıralarını değiştirir, işaretler ve notları düzenlersiniz; değişiklikler saniyeler içinde iki telefonda da görünür.",
+            "Kendi cihazlarınız da iCloud ile eşitlenir, giriş yapmanız gerekmez. KiwiCamping'de reklam yoktur, bağımsızdır ve uygulama içi satın alımlarla birlikte ücretsiz indirilir."
+          ],
+          "tips": [
+            "Canlı birlikte düzenleme",
+            "iCloud ile eşitleme",
+            "Reklamsız, bağımsız"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Gezimi WikiCamps'ten dışa aktarabilir miyim?",
+          "En hızlı yol, WikiCamps gezinizin bir listesini veya ekran görüntülerini almaktır. Sonra her durağı KiwiCamping'de yerleri, adresleri ve iğneleri bulan Durak ekle ile ekleyin."
+        ],
+        [
+          "Kayıtlı kamp alanlarımı başka bir uygulamaya nasıl taşırım?",
+          "Her birini KiwiCamping'de arayıp kaydedin: favoriler Beğenilen veya Yıldızlı olur, listeleriniz koleksiyonlara dönüşür."
+        ],
+        [
+          "Geziye kendi yerimi ekleyebilir miyim?",
+          "Evet. Bir iğne bırakıp Geziye ekle'ye dokunun ya da Durak ekle ile herhangi bir adres ekleyin."
+        ],
+        [
+          "Eşimle geziyi birlikte planlayabilir miyiz?",
+          "Evet. Gezide Paylaş'a dokunup Birlikte düzenle'yi seçin. İkiniz de iCloud üzerinden canlı düzenlersiniz, hesap gerekmez."
+        ],
+        [
+          "WikiCamps'ten geçmek ne kadar sürer?",
+          "Çoğu gezi bir akşam sürer. Önce rezervasyonlu gecelerden ve vapurdan başlayın, sonra gerisini ekleyin."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "DOC: serbest kamp"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "Yeni Zelanda Yol Gezisi Planınızı Aileyle Paylaşın (2027)",
+      "description": "Yeni Zelanda yol gezinizi eşinizle canlı planlayın, aileye herhangi bir tarayıcıda açılan bir bağlantı gönderin ya da rotayı görsel olarak paylaşın, hepsi KiwiCamping'den.",
+      "region": "KiwiCamping",
+      "imageAlt": "Coromandel Yarımadası'nda Cathedral Cove'un beyaz kayalıkları ve kumsalı",
+      "intro": "KiwiCamping'den bir yol gezisi planını paylaşmak için gezinizde Paylaş'a dokunun. Eşinizle canlı planlamak için Collaborate'i, aileye herhangi bir web tarayıcısında açılan bir bağlantı vermek için Send copy'yi, rotanın görseli için Share as image'i seçin. KiwiCamping'i biz yapıyoruz; işte her birinin Yeni Zelanda gezisinde nasıl çalıştığı.",
+      "sections": [
+        {
+          "heading": "KiwiCamping'den yol gezisi planını paylaşmanın üç yolu",
+          "body": [
+            "Her seçenek farklı bir kişiye uygun. Yol arkadaşınız düzenleyebileceği gerçek geziyi alır, evdeki aile sorunsuz çalışan bir bağlantı alır, grup sohbeti de bakmaya değer bir görsel alır.",
+            "Hiçbiri hesap ya da giriş gerektirmez; Collaborate ise iPhone'unuzdaki mevcut iCloud üzerinden çalışır."
+          ],
+          "tips": [
+            "Eşiniz için Collaborate",
+            "Aile için Send copy",
+            "Sohbet için Share as image"
+          ],
+          "table": {
+            "caption": "Hangi paylaşım yolu.",
+            "head": [
+              "Seçenek",
+              "En uygun kişi",
+              "Ne elde ederler"
+            ],
+            "rows": [
+              [
+                "Collaborate",
+                "Yol arkadaşınız",
+                "Aynı gezi, canlı: ikiniz de düzenleyebilirsiniz"
+              ],
+              [
+                "Send copy",
+                "Aile ve arkadaşlar",
+                "Herhangi bir tarayıcıda açılan gezi bağlantısı"
+              ],
+              [
+                "Share as image",
+                "Grup sohbetleri",
+                "Rota, duraklar, tarihler ve geceleri gösteren bir görsel"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Collaborate ile birlikte planlayın",
+          "body": [
+            "Bir gezide ya da <a data-guide=\"save-places-kiwicamping\">koleksiyonlarınızdan</a> birinde Paylaş'a dokunun ve eşinizi iCloud üzerinden davet etmek için Collaborate'i seçin. O andan itibaren iki kişilik tek bir gezi olur.",
+            "İkiniz de <a data-guide=\"plan-trip-kiwicamping\">gezi planlayıcıda</a> durak ekleyebilir, durakları sürükleyerek yeniden sıralayabilir, işaretleyebilir ve notları düzenleyebilirsiniz. Değişiklikler diğer telefonda saniyeler içinde görünür; böylece yolcu koltuğundaki kişi yarını planlarken diğeri araba sürebilir."
+          ],
+          "tips": [
+            "iCloud ile davet edin",
+            "İkiniz de ekler, sıralar ve işaretlersiniz",
+            "Değişiklikler saniyeler içinde"
+          ]
+        },
+        {
+          "heading": "Send copy: ailenin her yerde açabileceği bir bağlantı",
+          "body": [
+            "Send copy, telefonda ya da dizüstü bilgisayarda herkesin web tarayıcısında açabileceği bir bağlantı oluşturur. Gezinin duraklarını, tarihlerini ve notlarını gösterir; böylece annenize hangi gece Wānaka'da olacağınızı görebilir.",
+            "KiwiCamping'leri varsa geziyi tek dokunuşla kendi gezilerine kaydedebilirler. Ayrıca kendi planınıza evde dizüstü bilgisayardan bakmanın kolay yolu da budur."
+          ],
+          "tips": [
+            "Her tarayıcıda açılır",
+            "Duraklar, tarihler ve notlar",
+            "Uygulamayla kaydedin"
+          ]
+        },
+        {
+          "heading": "Grup sohbeti için Share as image",
+          "body": [
+            "Share as image geziyi bir görsele dönüştürür: haritadaki rota, her durak, tarihler ve kaç gece kalacağınız. Aile sohbetine atın ya da yola çıkmadan önce paylaşın.",
+            "\"Peki nereye gidiyorsunuz?\" sorusuna uzun bir mesaj yazmadan yanıt vermenin en hızlı yoludur."
+          ],
+          "tips": [
+            "Rota, duraklar, tarihler ve geceler",
+            "Sohbetler için ideal"
+          ]
+        },
+        {
+          "heading": "Tek bir yeri gönderin",
+          "body": [
+            "Tek bir kamp alanı, dağ kulübesi ya da <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkı</a> paylaşmak, sayfasını fotoğraf önizlemesiyle gönderir. KiwiCamping'i olan herkes doğrudan uygulamada açar, diğerleri web sayfasını görür.",
+            "İki minibüsle seyahat ederken çok işe yarar: bu geceki yeri gönderin, herkes nerede buluşacağını bilsin."
+          ],
+          "tips": [
+            "Fotoğraf önizlemesi",
+            "Doğrudan uygulamada açılır"
+          ]
+        },
+        {
+          "heading": "Ailenizi haberdar tutun",
+          "body": [
+            "Paylaşmadan önce her durağa bir varış tarihi koyun; böylece aile gün gün takip edebilir ve <a data-guide=\"new-zealand-driving-day-planner\">sürüş günlerinizin</a> ne kadar uzun olduğunu görebilir. Büyük değişikliklerden sonra yeni bir kopya gönderin.",
+            "Sessiz bölümleri de anlatın. West Coast'ta ya da Fiordland'da <a data-guide=\"kiwicamping-offline-data-guide\">çekim olmayan</a> bir gün normaldir; tarihli duraklar onlara sadece iki kasaba arasında olduğunuzu gösterir. Bir gezi için Sync to calendar'ı açarsanız duraklar ve tarihler takviminize de düşer.",
+            "Dağlara mı çıkıyorsunuz? Mountain Safety Council'ın Plan My Walk'ı ve AdventureSmart'ın önerdiği gibi, rotanızı ve gecikme saatinizi güvendiğiniz birine bırakın."
+          ],
+          "tips": [
+            "Her durakta tarih",
+            "Takvim eşitleme",
+            "Yürüyüşler için planınızı bırakın"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "NZ planımı aileyle nasıl paylaşırım?",
+          "KiwiCamping'de gezinizde Paylaş'a dokunun ve Send copy'yi seçin. Aileniz, duraklarınızı, tarihlerinizi ve notlarınızı gösteren, herhangi bir web tarayıcısında açılan bir bağlantı alır."
+        ],
+        [
+          "Eşimle aynı geziyi düzenleyebilir miyiz?",
+          "Evet. Geziyi paylaşırken Collaborate'i seçin. İkiniz de durak ekler, sıralar ve işaretlersiniz; değişiklikler saniyeler içinde görünür."
+        ],
+        [
+          "Paylaştığım kişinin uygulamaya ihtiyacı var mı?",
+          "Send copy için hayır: bağlantı herhangi bir web tarayıcısında açılır. Uygulamayla geziyi kendi gezilerine kaydedebilirler."
+        ],
+        [
+          "Gezi paylaşmak için hesap gerekir mi?",
+          "Hayır. KiwiCamping'de hesap yok; paylaşım iCloud üzerinden çalışır."
+        ],
+        [
+          "Gezimi takvimime ekleyebilir miyim?",
+          "Evet. Gezi için Sync to calendar'ı açın; duraklar ve tarihler takviminizde görünür."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: açık hava niyetleri"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "NZ Yol Gezileri için WikiCamps Gezi Planlayıcı Alternatifi (2027)",
+      "description": "Yeni Zelanda için WikiCamps gezi planlayıcısını mı kullandınız? KiwiCamping'de planlayın: evinizden veya herhangi bir adresten başlayın, pin ekleyin, sürüş sürelerini görün ve partnerinizle canlı planlayın.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Otago'da bir dağ geçidine doğru, çayır tepelerinin arasında kıvrılan asfalt bir karayolu",
+      "intro": "Yeni Zelanda rotanızı WikiCamps gezi planlayıcısıyla çiziyorduysanız, KiwiCamping aynı yol gezisini planlamanın daha basit bir yoludur. Evinizden veya herhangi bir adresten başlayın, kamp alanlarını, adresleri ve kendi pinlerinizi durak olarak ekleyin, her etabın mesafesini ve sürüş süresini görün; hesap yok, reklam yok. KiwiCamping'i biz yapıyoruz ve Yeni Zelanda gezisi için planlamanın nasıl işlediği burada.",
+      "sections": [
+        {
+          "heading": "WikiCamps gezi planlayıcısı kullanıcıları neden başka seçenek arıyor",
+          "body": [
+            "WikiCamps'in büyük güncellemesinden beri birçok kullanıcı uygulamanın zahmetli hale geldiğini, en kötü anlarda oturumu kapattığını ve ücretli bir uygulamada beklemedikleri reklamlar gösterdiğini söylüyor.",
+            "<a data-guide=\"switch-from-wikicamps-nz\">WikiCamps'ten geçiyorsanız</a> iyi haber şu: tüm gezi bir akşamda taşınabilir."
+          ],
+          "tips": [
+            "Güncellemeden beri zahmetli",
+            "En kötü anlarda oturum kapanıyor",
+            "Ücretli uygulamada reklamlar"
+          ]
+        },
+        {
+          "heading": "Evden başlayın, eve bitirin",
+          "body": [
+            "Ev adresinizi Sen sekmesinde bir kez ayarlayın; <a data-guide=\"plan-trip-kiwicamping\">gezi planlayıcı</a> bunu her gezide yeniden kullanır. Evden başla ve Eve bitir, her biri tek dokunuşla yapılır.",
+            "Ziyaretçi misiniz? Her adres bir durak olabilir; havalimanından, araç kiralama deposundan ya da ilk gece kalacağınız yerden başlayın."
+          ],
+          "tips": [
+            "Evi bir kez ayarlayın",
+            "Evden başlayın, eve bitirin",
+            "Ya da havalimanından başlayın"
+          ]
+        },
+        {
+          "heading": "KiwiCamping'de her durağı ekleyin: yerler, adresler ve pinler",
+          "body": [
+            "Durak ekle'ye dokunun; tek bir arama Ev'i, mevcut konumunuzu, kayıtlı pinlerinizi, uygulamadaki yerleri veya herhangi bir adresi bulur. Kendi keşfettiğiniz harika bir yer mi var? Bir pin bırakın ve Gezile ekle'ye dokunun.",
+            "Rota, her etabın kilometresi ve sürüş süresiyle yeniden çizilir. Durakları süreceğiniz sıraya sürükleyin, her birine bir varış tarihi verin ve rezervasyon numarası ya da kapı kodu için not ekleyin."
+          ],
+          "tips": [
+            "Her tür durak için tek arama",
+            "Pinler doğrudan eklenir",
+            "Her etap için mesafe ve sürüş süresi"
+          ],
+          "table": {
+            "caption": "Planlama işleri ve KiwiCamping gezi planlayıcısında nerede oldukları.",
+            "head": [
+              "İş",
+              "KiwiCamping'de"
+            ],
+            "rows": [
+              [
+                "Başlangıç ve bitiş",
+                "Evden başla ve Eve bitir ya da herhangi bir adres"
+              ],
+              [
+                "Durak ekleme",
+                "Yerler, adresler, konumunuz ve pinler"
+              ],
+              [
+                "Durakları sıralama",
+                "Sürükleyerek sırala; rota güncellenir"
+              ],
+              [
+                "Sürüş süreleri",
+                "Her durak için mesafe ve sürüş süresi"
+              ],
+              [
+                "Tarihler ve notlar",
+                "Her durakta bir varış tarihi ve bir not"
+              ],
+              [
+                "Partnerinizle planlama",
+                "iCloud üzerinden canlı iş birliği"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Yeni Zelanda'nın sabit noktalarına göre planlayın",
+          "body": [
+            "Ayrılmış Great Walk kulübeleri, yazın rezervasyon gerektiren <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanları</a> ve Cook Strait feribotu çoğu gezinin şeklini belirler. Önce bunları ekleyin, aradaki her şeyi esnek bırakın.",
+            "Kilometreden çok sürüş sürelerine bakın. Virajlı yollar ve geçitler Yeni Zelanda'daki <a data-guide=\"new-zealand-driving-day-planner\">sürüş günlerini</a> göründüğünden yavaş kılar, bu yüzden bütün günü yiyen etapları bölün. Filtreler boşlukları doldurmaya yardım eder: Köpeklere izin var, 4WD erişimi ve Karavan erişimi, kendi Evcil hayvan ve erişim bölümlerinde yer alır."
+          ],
+          "tips": [
+            "Önce sabit geceler",
+            "Sürüş sürelerini izleyin",
+            "Boşluklar için filtreler"
+          ]
+        },
+        {
+          "heading": "Planınızla yolda",
+          "body": [
+            "İlerledikçe durakları işaretleyin ve sıradaki duraklarda havayı kontrol edin. Alışveriş, rezervasyonlar ve feribot girişini gezinin Yapılacaklar listesinde tutun.",
+            "Sen sekmesi skoru tutar: ziyaret ettiğiniz bölgelerle dolan bir harita, Yeni Zelanda'nın ne kadarını gördüğünüz, kat ettiğiniz kilometreler ve kamp yaptığınız geceler."
+          ],
+          "tips": [
+            "Durakları işaretleyin",
+            "Hava durumu ve Yapılacaklar listesi",
+            "Seyahat haritanız ve istatistikleriniz"
+          ]
+        },
+        {
+          "heading": "Birlikte planlayın, dizüstünde kontrol edin",
+          "body": [
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Geziyi paylaşın</a>; İş birliği ile partneriniz sizinle birlikte durak ekleyebilir, sıralayabilir ve işaretleyebilir, hem de canlı. Kopya gönder, herhangi bir web tarayıcısında açılan bir bağlantı verir; böylece planı evde dizüstü bilgisayardan inceleyebilirsiniz.",
+            "Görsel olarak paylaş, rotanın, durakların, tarihlerin ve gecelerin aile sohbeti için bir resmini oluşturur. Takvimle senkronize et'i açın, gezi takviminize de düşsün. KiwiCamping'i indirmek ücretsizdir, uygulama içi satın alımlar vardır."
+          ],
+          "tips": [
+            "Canlı iş birliği",
+            "Dizüstünde açın",
+            "Takvim senkronizasyonu"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Yeni Zelanda için en iyi gezi planlayıcı uygulaması hangisi?",
+          "Kamp yol gezisi için, bizim yaptığımız KiwiCamping: evden ya da herhangi bir adresten başlayın, yer ve pin ekleyin, sürüş sürelerini görün ve partnerinizle canlı planlayın; hesap yok, reklam yok."
+        ],
+        [
+          "NZ'de karavan rotasını nasıl planlarım?",
+          "Önce ayrılmış geceleri ve feribotu ekleyin, sonra durakları sürüş sırasına göre doldurun. Günlerin çoğunu üç dört saatlik sürüşle sınırlı tutun."
+        ],
+        [
+          "WikiCamps gezimi dışa aktarabilir miyim?",
+          "WikiCamps duraklarınızı not edin ve rotayı KiwiCamping'de yeniden kurun. Tek bir arama kamp alanlarını, sokak adreslerini ve kendi pinlerinizi kapsar."
+        ],
+        [
+          "KiwiCamping duraklar arasındaki sürüş sürelerini gösteriyor mu?",
+          "Evet. Rotanın her etabı, ne kadar uzak olduğunu ve sürüşün ne kadar süreceğini listeler."
+        ],
+        [
+          "Geziye konaklama yerimden ya da havalimanından başlayabilir miyim?",
+          "Evet. Kayıtlı ev adresinizle Evden başla'yı kullanın ya da havalimanı gibi herhangi bir adresi ilk durak olarak ekleyin."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "NZTA Journeys: yol durumu ve kapanmalar"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "Yeni Zelanda Great Walks 2026/27: Kulübeler, Kamp Alanları, Rezervasyon Tarihleri ve Ücretler",
       "description": "11 Great Walks yan yana: hangilerinde kamp alanı var, hangileri yıl boyu rezervasyonlu, 2026/27 rezervasyonları ne zaman açıldı, Yeni Zelandalılar ve ziyaretçiler için kulübe ve kamp alanı ücretleri ve bu sezon neyin değiştiği.",
@@ -36970,6 +37684,743 @@
         },
         {
           "label": "DOC: Hawke's Bay"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-worth-it": {
+      "title": "WikiCamps NZ 2027'de Yeni Zelanda Gezisi İçin Değer mi?",
+      "description": "WikiCamps NZ 2027'de değer mi? Fiyatı NZ$7.99, hesap gerektiriyor ve reklam gösteriyor. Kampçılar neden KiwiCamping'e geçiyor: giriş yok, reklam yok ve tüm DOC kamp alanları tek haritada.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "West Coast'ta yoğun çalılığın önünde açık çimenlikte duran beyaz bir karavan",
+      "intro": "WikiCamps NZ 2027'de değer mi? Yalnızca NZ$7.99, ancak WikiCamps'in büyük güncellemesinden beri kullanmak için hesap açmanız gerekiyor ve uygulama parasını ödemenize rağmen reklam gösteriyor. Birçok kullanıcı yeni sürümün kullanımının zorlaştığını ve sürekli oturumu kapattığını söylüyor. Biz hesapsız, reklamsız ve tüm DOC kamp alanları, kulübeleri ve parkurları tek haritada olan bir Yeni Zelanda kamp uygulaması olan KiwiCamping'i yapıyoruz. Geçmeye değmesinin nedeni şu.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ değer mi? Kısa cevap",
+          "body": [
+            "WikiCamps NZ ucuz ve birçok kişi hâlâ kullanıyor. Sorun, yeni sürümle gelenler: giriş yapacağınız bir hesap, e-postanıza gönderilen bir kod ve zaten satın aldığınız bir uygulamada reklamlar.",
+            "Birçok WikiCamps kullanıcısı uygulamanın sürekli oturumunu kapattığını söylüyor, ki bu sinyalin olmadığı bir yerde park ettiğinizde hiç eğlenceli değil. Uygulamayı açıp bu gece nerede kamp yapacağınızı hemen görmeyi tercih ediyorsanız, KiwiCamping tam bunun için yapıldı."
+          ],
+          "tips": [
+            "Ucuz ama hesap gerektiriyor",
+            "Ücretli uygulamada reklam",
+            "KiwiCamping: giriş yok, reklam yok"
+          ],
+          "table": {
+            "caption": "WikiCamps NZ ve KiwiCamping yan yana.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Fiyat",
+                "NZ$7.99",
+                "İndirmesi ücretsiz, uygulama içi satın alımlarla"
+              ],
+              [
+                "Hesap",
+                "Gerekli, e-postayla kod ile",
+                "Yok"
+              ],
+              [
+                "Reklam",
+                "Var",
+                "Yok"
+              ],
+              [
+                "DOC kamp alanları, kulubeleri ve parkurları",
+                "Kullanıcılar ekliyor",
+                "Hepsi, DOC'tan"
+              ],
+              [
+                "Birden fazla filtre seçmek",
+                "Kullanıcılara göre herhangi biriyle eşleşen yerler çıkıyor",
+                "Yerler hepsiyle eşleşmeli"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Giriş yok, reklam yok, doğrudan haritaya",
+          "body": [
+            "KiwiCamping'i açtığınızda zaten Yeni Zelanda haritasına bakıyorsunuz. Oluşturulacak hesap, hatırlanacak şifre ve beklenecek kod yok, dolayısıyla West Coast'taki bir kamp alanında sizi tıkayacak hiçbir şey yok.",
+            "Bir filtre seçin, ücretlerini ve olanaklarını görmek için bir yere dokunun ve gezinize ekleyin. Tüm rutin bu kadar. Hiçbir yerde reklam yok ve kayıtlı yerleriniz ile gezileriniz iPhone'unuzdaki iCloud üzerinden özel olarak eşitleniyor."
+          ],
+          "tips": [
+            "Haritayla açılır",
+            "Giriş yapılacak bir şey yok",
+            "Hiçbir yerde reklam yok"
+          ]
+        },
+        {
+          "heading": "Tüm DOC kamp alanları, kulübeleri ve parkurları",
+          "body": [
+            "KiwiCamping, Department of Conservation'ın kendi bilgileri üzerine kurulu. Her <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanı</a>, kulübe ve parkur haritada ücreti, köpek kuralları ve rezervasyon gerekip gerekmediğiyle birlikte yer alıyor; hazır olduğunuzda DOC sayfasına bir bağlantı da var.",
+            "DOC'un <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kamp</a> duyuruları da burada, böylece koruma alanlarında kampın nerede yasak olduğunu girmeden önce görebilirsiniz. Kasabaların ve plajların çevresinde belediyenin kuralları ve alandaki tabela belirleyici olur."
+          ],
+          "tips": [
+            "DOC ücretleri, köpek kuralları ve rezervasyonlar",
+            "DOC serbest kamp duyuruları",
+            "Her yerde DOC'a bağlantı"
+          ]
+        },
+        {
+          "heading": "Doğru yeri bulan filtreler",
+          "body": [
+            "Köpeklere izin var, 4WD erişimi ve Karavan erişimi, <a data-guide=\"kiwicamping-filters-guide\">filtrelerde</a> kendi Evcil hayvanlar ve erişim bölümüne sahip. Tuvalet, su ve duş gibi popüler özellikler aramayı daha da daraltıyor.",
+            "Birkaçını seçerseniz bir yerin hepsine sahip olması gerekir; yani Karavanlar, Sıcak duş ve Köpeklere izin var birlikte seçildiğinde yalnızca üçünü de karşılayan yerler çıkar. Birçok WikiCamps kullanıcısı filtrelerinin bunun yerine herhangi bir seçimle eşleşen yerleri gösterdiğini söylüyor. Maliyeti Ücretsiz yapın, DOC'un ücretsiz kamp alanları görünsün."
+          ],
+          "tips": [
+            "Köpeklere izin var, 4WD ve karavan erişimi",
+            "Her filtre eşleşmeli",
+            "Maliyete göre ücretsiz DOC kamp alanları"
+          ]
+        },
+        {
+          "heading": "Gezinizi kendi yolunuzla ve birlikte planlayın",
+          "body": [
+            "Ev adresinizi Sen sekmesinde bir kez ayarlayın, ardından herhangi bir gezide Evden Başla veya Evde Bitir'e dokunun. Durak ekle, kayıtlı pinlerinizde, uygulamadaki yerlerde, mevcut konumunuzda veya herhangi bir adreste arama yapar, böylece kendi favori yerleriniz de dahil olur. Her durak rotada mesafesi ve sürüş süresiyle görünür.",
+            "İkili mi seyahat ediyorsunuz? Gezide Paylaş'a dokunun ve İşbirliği yap'ı seçin. İkiniz de durak ekler, sıralarını değiştirir ve işaretlersiniz; değişiklikler hesap veya giriş olmadan birkaç saniye içinde birbirinizin telefonunda görünür. Evdeki aile için Kopya gönder, herhangi bir web tarayıcısında açabilecekleri bir bağlantı verir."
+          ],
+          "tips": [
+            "Evden başla ve evde bitir",
+            "Herhangi bir adres veya pin ekle",
+            "İşbirliği yap ile canlı planla"
+          ]
+        },
+        {
+          "heading": "Kampçılar neden KiwiCamping'e geçiyor",
+          "body": [
+            "Trekking veya Great Walks: DOC'un kulübe ücretleri ve rezervasyon gereklilikleri, rezervasyon bağlantısıyla birlikte tam orada. Karavan veya kamp aracı: Karavanlar ve Karavan erişimi <a data-guide=\"kiwicamping-filters-guide\">filtreleri</a> sıralamayı sizin yerinize yapar. Çift olarak seyahat: İşbirliği yap, tek bir geziyi iki telefonda tutar.",
+            "Yol boyunca Sen sekmesi gittiğiniz yerlerin haritasını doldurur, Yeni Zelanda'nın ne kadarını gördüğünüzü gösterir ve kilometrelerinizi, kamp gecelerinizi ve konakladığınız yerleri sayar. KiwiCamping'in indirmesi ücretsiz, uygulama içi satın alımlar var; hesap ve reklam yok."
+          ],
+          "tips": [
+            "Kulübeler ve Great Walks",
+            "Karavanlar ve kamp araçları",
+            "Gittiğiniz yerlerin haritası"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps NZ 2027'de değer mi?",
+          "NZ$7.99 ile ucuz, ancak hesap gerektiriyor ve reklam gösteriyor. Giriş ve reklam istemiyorsanız KiwiCamping'in indirmesi ücretsiz, uygulama içi satın alımlar var."
+        ],
+        [
+          "WikiCamps NZ karavan gezisi için iyi mi?",
+          "Çalışıyor, ancak oturumu açık tutmanız gerekiyor ve birçok kullanıcı oturumunu kapattığını söylüyor. KiwiCamping hesap gerektirmiyor ve Karavanlar ile Karavan erişimi filtrelerine sahip."
+        ],
+        [
+          "Yeni Zelanda için WikiCamps'e ihtiyacım var mı?",
+          "Hayır. KiwiCamping tüm DOC kamp alanlarını, kulübelerini ve parkurlarını ve DOC'un serbest kamp duyurularını hesapsız gösterir."
+        ],
+        [
+          "Yeni Zelanda için en iyi kamp uygulaması hangisi?",
+          "Bize göre bizim yaptığımız KiwiCamping: tüm DOC kamp alanları, kulübeleri ve parkurları, hepsinin eşleşmesi gereken filtreler, canlı gezi paylaşımı ve reklamsız, girişsiz kullanım."
+        ],
+        [
+          "KiwiCamping, WikiCamps'e iyi bir alternatif mi?",
+          "Evet. Hesapsız doğrudan haritayla açılır, reklam göstermez ve partnerinizle canlı gezi planlamanıza izin verir."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "DOC: serbest kamp"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-vs-kiwicamping": {
+      "title": "WikiCamps NZ vs KiwiCamping: Yeni Zelanda İçin Hangi Kamp Uygulaması? (2027)",
+      "description": "2027'de WikiCamps NZ vs KiwiCamping: fiyat, oturum açma, reklamlar, DOC kamp alanları ve kulübeleri, filtreler ve birlikte gezi planlama. Yeni Zelanda gezisi için KiwiCamping neden daha kolay bir uygulama.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Rangitīkei Nehri, yukarıdaki terastan çalıların arasından görünen Vinegar Hill'deki nehir kıyısı kamp alanının yanından kıvrılarak akıyor",
+      "intro": "WikiCamps NZ vs KiwiCamping: Yeni Zelanda turunda hangi kamp uygulamasını yanınıza almalısınız? KiwiCamping ücretsiz indirilir, hesap gerektirmez ve reklam göstermez; WikiCamps NZ ise 7,99 NZ$ tutar, oturum açmanızı ister ve reklam gösterir. KiwiCamping'i biz yapıyoruz; bu yüzden yola çıktığınızda önem taşıyan konularda ikisinin nasıl karşılaştığını burada anlatıyoruz.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ vs KiwiCamping bir bakışta",
+          "body": [
+            "Kısa versiyonu isterseniz: KiwiCamping hemen açıp kullanabileceğiniz uygulamadır. Oturum açma yok, reklam yok, her kamp alanı, kulübe ve parkur için DOC'un kendi bilgileri ve partnerinizle canlı planlayabileceğiniz bir gezi.",
+            "WikiCamps, Discovery Parks ve G'day Parks'ın arkasındaki şirket olan G'day Group'a ait. KiwiCamping bağımsızdır ve ücretsiz <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanlarını</a> ücretli tatil parklarıyla aynı haritada gösterir."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "İki uygulamanın önemli noktalarda karşılaştırması.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Fiyat",
+                "7,99 NZ$",
+                "İndirmesi ücretsiz, uygulama içi satın alımlarla"
+              ],
+              [
+                "Hesap",
+                "Gerekli, e-posta koduyla oturum açılır",
+                "Yok, oturum açılacak bir şey yok"
+              ],
+              [
+                "Reklamlar",
+                "Var",
+                "Yok"
+              ],
+              [
+                "DOC kamp alanları, kulübeleri ve parkurları",
+                "Kullanıcılar ekler",
+                "Hepsi, DOC'un kendi bilgilerinden"
+              ],
+              [
+                "Birden fazla filtre",
+                "Kullanıcılara göre herhangi birine uyan yerler çıkar",
+                "Yerler hepsine uymalı"
+              ],
+              [
+                "Partnerle planlama",
+                "Gezi bağlantısı paylaşılır",
+                "Canlı, Collaborate ile"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Oturum açma: bir hesap ya da hiçbir şey",
+          "body": [
+            "WikiCamps'in büyük güncellemesinden beri girmek için bir WikiCamps hesabı ve e-postanıza gelen bir kod gerekiyor. Birçok kullanıcı uygulamanın sonra kendilerini oturumdan çıkardığını söylüyor; yeniden girmek için de kamp alanında olmayabilecek bir sinyal gerekiyor.",
+            "KiwiCamping'de ise hesap yok. Oturum açılacak bir şey, kod ve oturumdan atılma yok; Haast'ta da Auckland'daki gibi açılır. Kaydettiğiniz yerler ve geziler kendi iCloud'unuz üzerinden gizlice eşitlenir."
+          ],
+          "tips": [
+            "WikiCamps NZ: hesap ve e-posta kodu",
+            "KiwiCamping: hesap yok",
+            "Özel iCloud eşitleme"
+          ]
+        },
+        {
+          "heading": "Kullanımı kolay: açın, harita karşınızda",
+          "body": [
+            "WikiCamps kullanıcılarının en çok yakındığı şey, yeni sürümün eskisinden daha zor kullanılması. KiwiCamping adımları bilerek az tutar; böylece uygulama gezinizin önünden çekilir.",
+            "Açarsınız ve Yeni Zelanda haritası karşınızdadır. Bir filtre seçin, örneğin Karavanlar ve Sıcak duş, ücretleri, olanakları ve DOC'un notlarını okumak için bir iğneye dokunun ve aynı sayfadan geziye ekleyin."
+          ],
+          "tips": [
+            "Haritada açılır",
+            "Filtrele, dokun, ekle",
+            "Ayrıntılar bir dokunuş uzakta"
+          ]
+        },
+        {
+          "heading": "DOC kamp alanları, kulübeleri ve parkurları, doğrudan DOC'tan",
+          "body": [
+            "KiwiCamping'de her <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanı</a>, kulübe ve parkur, Department of Conservation'ın kendi bilgilerinden gelir. Her biri ücreti, açık olup olmadığını, köpeklere izin verilip verilmediğini, rezervasyon gerekip gerekmediğini ve güncel uyarıyı gösterir; DOC'un web sitesindeki sayfasına bağlantı da vardır.",
+            "DOC'un <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kamp</a> duyuruları aynı haritada yer alır ve koruma alanlarında kampın nerede yasak ya da kısıtlı olduğunu gösterir. WikiCamps NZ'de DOC yerlerini kullanıcılar ekler; bu yüzden bir ücret ya da kapanma ancak biri güncellerse değişir."
+          ],
+          "tips": [
+            "DOC'un ücretleri, köpek kuralları ve uyarıları",
+            "DOC serbest kamp duyuruları",
+            "Her yerde DOC'a bağlantı"
+          ]
+        },
+        {
+          "heading": "Filtreler: Köpeklere izin var, 4WD erişimi ve Karavan erişimi",
+          "body": [
+            "Kampçıların en çok istediği üç filtre, KiwiCamping'in filtrelerinde Ücret'in hemen ardından gelen kendi Evcil hayvan ve erişim bölümünde yer alır. Tuvalet, su, duş ve <a data-guide=\"campfire-rules-new-zealand\">Kamp ateşi</a> gibi popüler özellikler seçimi daha da daraltır.",
+            "Birkaçını seçerseniz bir yerin hepsine sahip olması gerekir. WikiCamps NZ kullanıcıları orada birkaç <a data-guide=\"kiwicamping-filters-guide\">filtre</a> seçince herhangi birine uyan yerlerin çıktığını, bunun da elemesi daha uzun bir liste yarattığını söylüyor."
+          ],
+          "tips": [
+            "Evcil hayvan ve erişim, Ücret'in hemen ardından",
+            "Tüm seçimler uymalı",
+            "Ücretsiz DOC alanları için Ücret filtresi"
+          ]
+        },
+        {
+          "heading": "Ev, herhangi bir adres ve kendi iğnelerinizle gezi planlama",
+          "body": [
+            "Evinizi Sen sekmesinde bir kez ayarlayın, sonra herhangi bir geziyi tek dokunuşla orada başlatın ya da bitirin. Durak ekle, uygulamadaki yerleri, kayıtlı iğnelerinizi, mevcut konumunuzu veya herhangi bir sokak adresini bulur; böylece Nelson'daki arkadaşınızın evi de geçen yaz keşfettiğiniz plaj da sığar. Her durak mesafesini ve sürüş süresini gösterir.",
+            "Haritaya bir iğne bırakın, Geziye ekle'ye dokunun; diğer duraklar gibi rotaya katılır. Her durağın kendi tarihleri, notları ve hava durumu da vardır."
+          ],
+          "tips": [
+            "Ev'de başla ve bitir",
+            "Herhangi bir adres veya bırakılan iğne",
+            "Her durak için mesafe ve sürüş süresi"
+          ]
+        },
+        {
+          "heading": "Paylaşım: canlı birlikte planlayın ya da kopya gönderin",
+          "body": [
+            "Bir gezide veya koleksiyonda Paylaş'a dokunun ve partnerinizi iCloud ile davet etmek için Collaborate'i seçin. İkiniz de durak ekler, sıralarını değiştirir, işaretler ve notları düzenlersiniz; değişiklikler hesap ve oturum açma olmadan birkaç saniye içinde görünür.",
+            "Kopya gönder, herkesin web tarayıcısında açıp durakları, tarihleri ve notları görebileceği bir bağlantı oluşturur; evdeki aile için ideal. Resim olarak paylaş, geziyi rota, duraklar ve geceleriyle bir görsele dönüştürür; paylaşılan bir yer de uygulaması olan arkadaşlarda doğrudan uygulamada açılır."
+          ],
+          "tips": [
+            "Collaborate: tek gezi, iki telefon",
+            "Kopya gönder her tarayıcıda açılır",
+            "Resim olarak paylaş"
+          ]
+        },
+        {
+          "heading": "Geçenler neden KiwiCamping'i seçiyor",
+          "body": [
+            "Yeni Zelanda'da kamp yapmanın daha sakin yolu: açın, bir yer bulun, gidin. Reklam yok, hesap yok, DOC'un kendi bilgileri ve ikinizin aynı anda planlayabileceği bir gezi.",
+            "Sen sekmesi biraz da eğlence katar; ziyaret ettiğiniz bölgeleri dolduran bir harita sunar. KiwiCamping uygulama içi satın alımlarla ücretsiz indirilir; <a data-guide=\"is-wikicamps-nz-worth-it\">WikiCamps NZ'nin buna değip değmediği</a> hakkındaki görüşümüz fiyat sorusunu daha ayrıntılı ele alır."
+          ],
+          "tips": [
+            "Reklam yok, hesap yok",
+            "DOC'un kendi bilgileri",
+            "Canlı birlikte planlayın"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "KiwiCamping, WikiCamps NZ'den daha mı iyi?",
+          "Yeni Zelanda gezilerinin çoğu için bize göre evet: hesap yok, reklam yok, DOC'un kendi kamp alanı ve kulübe bilgileri ve partnerinizle canlı gezi paylaşımı."
+        ],
+        [
+          "KiwiCamping hesap gerektirir mi?",
+          "Hayır. Hesap, parola veya kod yok; eşitlemeyi kendi iCloud'unuz yapar."
+        ],
+        [
+          "KiwiCamping DOC kamp alanlarını ve kulübelerini gösterir mi?",
+          "Evet. Her DOC kamp alanı, kulübe ve parkur haritada; DOC'un ücretleri, köpek kuralları ve rezervasyon gereksinimleriyle birlikte."
+        ],
+        [
+          "Partnerimle KiwiCamping'de birlikte gezi planlayabilir miyiz?",
+          "Evet. Geziyi paylaşın ve Collaborate'i seçin. İkiniz de aynı geziyi düzenler ve birbirinizin değişikliklerini birkaç saniye içinde görürsünüz."
+        ],
+        [
+          "KiwiCamping sinyal olmadan çalışır mı?",
+          "Yer ayrıntıları, ücretler ve olanaklar ile kayıtlı yerleriniz ve gezileriniz telefonunuzda kalır; böylece sinyal olmadan okuyabilirsiniz."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "DOC: koruma alanlarında serbest kamp"
+        },
+        {
+          "label": "DOC: çevrimiçi rezervasyonlar"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "WikiCamps NZ Ücretsiz mi? Fiyat, Hesap ve Reklamlar, 2027",
+      "description": "WikiCamps NZ 2027'de ücretsiz mi? Hayır: bir kez NZ$7.99, hesap gerekir ve reklam gösterir. Ne ödersiniz, ve indirmesi ücretsiz, girişsiz ve reklamsız bir Yeni Zelanda kamp uygulaması.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Akaroa'da suyun yanında park etmiş, mor çiçeklerle boyanmış küçük bir kiralık karavan",
+      "intro": "WikiCamps NZ ücretsiz mi? Hayır. WikiCamps NZ, abonelik olmadan tek seferlik NZ$7.99 tutar. Fiyatın yanında bir WikiCamps hesabı gerekir, uygulama reklam gösterir ve WikiCamps Avustralya'yı ayrı bir uygulama olarak satar. Biz KiwiCamping'i yapıyoruz: indirmesi ücretsiz, uygulama içi satın almalı, reklamsız ve girişi olmayan bir Yeni Zelanda kamp uygulaması. WikiCamps NZ'nin maliyeti ve yanında gelenler burada.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ ne kadar tutar",
+          "body": [
+            "WikiCamps NZ NZ$7.99'dur, bir kez ödenir ve WikiCamps abonelik veya gizli ücret olmadığını söyler. Fiyat platforma göredir, bu yüzden farklı türde bir telefona geçmek yeniden satın almak demektir.",
+            "Her ülke kendi uygulamasıdır. Sydney'de başlayıp Christchurch'te biten bir gezi planlamak WikiCamps Australia'yı da satın almak ve kayıtlı yerlerin iki ayrı uygulamada durması demektir."
+          ],
+          "tips": [
+            "NZ$7.99 bir kez",
+            "Abonelik yok",
+            "Her ülke ayrı bir uygulama"
+          ],
+          "table": {
+            "caption": "Her uygulamanın sizden istediği.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Uygulamayı almak",
+                "NZ$7.99",
+                "İndirmesi ücretsiz, uygulama içi satın almalarla"
+              ],
+              [
+                "Hesap",
+                "Gerekli, e-posta koduyla",
+                "Yok"
+              ],
+              [
+                "Reklamlar",
+                "Evet",
+                "Yok"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ödediğiniz bir uygulamada reklamlar",
+          "body": [
+            "Birçok WikiCamps kullanıcısı, parasını ödediği uygulamada reklam görmekten rahatsız olduğunu söylüyor. WikiCamps'in büyük güncellemesinden beri en sık duyulan şikayetlerden biri.",
+            "KiwiCamping'de hiç reklam yok: haritada yok, yer sayfasında yok, gezilerinizde yok. Herhangi bir tatil parkı grubundan da bağımsızdır ve ücretsiz <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanları</a> ücretli tatil parklarıyla aynı haritada görünür."
+          ],
+          "tips": [
+            "WikiCamps NZ reklam gösterir",
+            "KiwiCamping: yok",
+            "Bağımsız"
+          ]
+        },
+        {
+          "heading": "Satın almayla birlikte bir hesap gelir",
+          "body": [
+            "WikiCamps NZ bir WikiCamps hesabı ister ve e-postanıza gelen bir kodla giriş yaparsınız. Birçok kullanıcı uygulamanın oturumu kapattığını, yeniden girişin de sinyal gerektirdiğini söylüyor.",
+            "KiwiCamping'de giriş yapılacak bir şey yok. İndirir, açarsınız ve haritaya bakarsınız: hiçbir noktada e-posta, parola veya kod yok. Yeni bir iPhone kayıtlı yerlerinizi ve gezilerinizi iCloud üzerinden alır."
+          ],
+          "tips": [
+            "WikiCamps NZ: hesap ve e-posta kodu",
+            "KiwiCamping: açın ve gidin",
+            "Gezileriniz iCloud ile sizi izler"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: indirmesi ücretsiz, giriş yok",
+          "body": [
+            "KiwiCamping her DOC kamp alanını, kulübesini ve patikasını tek haritada toplar: DOC'un listelediği ücret, köpek kuralları ve rezervasyon ihtiyacı, artı koruma arazisi için DOC'un <a data-guide=\"freedom-camping-new-zealand-guide\">özgür kamp</a> duyuruları. Yer ayrıntıları telefonunuzda kalır, böylece sinyal olmadan okursunuz.",
+            "Kullanması hızlıdır. Uygulamayı açın, Köpek serbest veya Karavan erişimi gibi bir filtre seçin, ayrıntı için bir iğneye dokunun ve duraklar arası mesafe ile sürüş süresini gösteren bir geziye ekleyin."
+          ],
+          "tips": [
+            "Her DOC kamp alanı, kulübe ve patika",
+            "Hesap yok, reklam yok",
+            "Ayrıntılar sinyal olmadan okunur"
+          ]
+        },
+        {
+          "heading": "Yeni Zelanda'da ücretsiz kamp alanı bulmak",
+          "body": [
+            "Ücretsiz uygulama arayan birçok kişi aslında ücretsiz gece peşindedir. KiwiCamping'de Maliyet filtresini Ücretsiz yapın, DOC'un ücretsiz kamp alanları çıkar. Tuvalet, Su kaynağı veya Kamp aracı ekleyin: bir yer seçtiğiniz her koşulu karşılamalıdır.",
+            "Ücretsiz DOC kamp alanları genelde sadedir, çoğu zaman çukur tuvalet ve dere ya da depo suyu vardır, bazıları yoldan kısa bir yürüyüştedir. Kasabalarda özgür kamp ayrı bir konudur ve <a data-guide=\"freedom-camping-rules-new-zealand\">özgür kamp kuralları</a> rehberimiz bunu anlatır."
+          ],
+          "tips": [
+            "Maliyet filtresi: ücretsiz DOC kamp alanları",
+            "Her filtre uymalı",
+            "Ücretsiz yerler genelde sadedir"
+          ]
+        },
+        {
+          "heading": "Kamp alanı listesinden fazlası",
+          "body": [
+            "Ev adresinizi You sekmesine bir kez ekleyin, her gezi oradan başlayıp orada bitebilir. Add stop herhangi bir adresi veya bıraktığınız bir iğneyi alır. Collaborate, hesabınız olmadan eşinizle aynı geziyi canlı planlamanızı sağlar.",
+            "You sekmesi ayrıca nerede bulunduğunuzun haritasını, Yeni Zelanda'nın gördüğünüz payını, kilometrelerinizi ve kamp gecelerinizi tutar: gezi için güzel bir kayıt."
+          ],
+          "tips": [
+            "Ev tek dokunuşta",
+            "Herhangi bir adres veya iğne",
+            "Bulunduğunuz yerlerin haritası"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "WikiCamps NZ ücretsiz mi?",
+          "Hayır. Bir kez NZ$7.99 tutar, abonelik yoktur. Ayrıca hesap ister ve reklam gösterir."
+        ],
+        [
+          "WikiCamps Yeni Zelanda'da ne kadar?",
+          "WikiCamps NZ NZ$7.99'dur. WikiCamps Australia ayrıca satın alınan ayrı bir uygulamadır."
+        ],
+        [
+          "WikiCamps abonelik mi?",
+          "Hayır. WikiCamps bunun abonelik veya gizli ücret olmadan tek seferlik bir satın alma olduğunu söyler."
+        ],
+        [
+          "Tek bir WikiCamps satın alması Avustralya ve Yeni Zelanda'yı kapsar mı?",
+          "Hayır. WikiCamps NZ ve WikiCamps Australia ayrı uygulamalardır, her biri kendi başına satın alınır."
+        ],
+        [
+          "Yeni Zelanda için ücretsiz bir kamp uygulaması var mı?",
+          "KiwiCamping indirmesi ücretsizdir, uygulama içi satın almaları vardır ve reklamı veya girişi yoktur. Maliyet filtresi DOC'un ücretsiz kamp alanlarını bulur."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: kamp alanı kategorileri ve ücretler"
+        },
+        {
+          "label": "DOC: koruma arazisinde özgür kamp"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-vs-wikicamps-nz": {
+      "title": "2027'de CamperMate ve WikiCamps NZ karşılaştırması ve üçüncü seçenek",
+      "description": "Yeni Zelanda için 2027'de CamperMate mi WikiCamps mi? İkisinin fiyat, reklam ve giriş açısından karşılaştırması ve girişsiz, reklamsız KiwiCamping'in karavancıların seçtiği üçüncü seçenek olmasının nedeni.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Catlins'teki Tautuku Bay'de denizin üstündeki çakıllı bir alanda yan yana park etmiş dört motorhome",
+      "intro": "CamperMate ve WikiCamps NZ karşılaştırması fiyat ve girişe dayanıyor: CamperMate ücretsiz, WikiCamps NZ ise tek seferlik NZ$7.99 ve hesap gerektiriyor, ikisi de reklam gösteriyor. Reklamsız ve girişsiz üçüncü seçenek KiwiCamping'i biz yapıyoruz. DOC'un kamp alanları, kulübeleri ve parkurları etrafında kuruldu ve bize göre Yeni Zelanda gezisini en kolay hale getiren uygulama bu.",
+      "sections": [
+        {
+          "heading": "CamperMate ve WikiCamps bir bakışta",
+          "body": [
+            "Birçok karavan gezgini inmeden önce bu ikisini karşılaştırıyor. CamperMate ücretsiz, WikiCamps NZ ise hesap ve e-postayla gelen bir kod isteyen ücretli bir uygulama.",
+            "İkisinin ortak noktası reklamlar. Reklamsız ve girişsiz bir <a data-guide=\"best-nz-camping-apps\">kamp uygulaması</a> istiyorsanız, KiwiCamping tam burada devreye giriyor."
+          ],
+          "tips": [
+            "CamperMate: ücretsiz",
+            "WikiCamps NZ: NZ$7.99 ve bir hesap",
+            "İkisi de reklam gösteriyor"
+          ],
+          "table": {
+            "caption": "CamperMate, WikiCamps NZ ve KiwiCamping karşılaştırması.",
+            "head": [
+              "",
+              "CamperMate",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Fiyat",
+                "Ücretsiz",
+                "NZ$7.99",
+                "İndirmesi ücretsiz, uygulama içi satın alımlarla"
+              ],
+              [
+                "Reklamlar",
+                "Var",
+                "Var",
+                "Yok"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "CamperMate kısaca",
+          "body": [
+            "CamperMate, ülke genelindeki kamp alanlarını ve hizmetleri listeleyen, <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkı</a> rezervasyonları ve yerel fırsatlar sunan ücretsiz bir uygulama ve reklam gösteriyor.",
+            "Bazı CamperMate kullanıcıları yeniden tasarımın uygulamayı yavaşlattığını ve güvendikleri yerlerin kaybolduğunu söylüyor. Aynı şey sizin de başınıza geldiyse daha sade bir uygulamayı denemeye değer."
+          ],
+          "tips": [
+            "Ücretsiz, reklamlı",
+            "Rezervasyonlar ve fırsatlar",
+            "Bazı kullanıcılar yeniden tasarımı sevmiyor"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ kısaca",
+          "body": [
+            "WikiCamps NZ tek seferlik NZ$7.99, abonelik yok. WikiCamps'in büyük güncellemesinden beri kullanmak için bir hesap ve e-posta kodu gerekiyor, uygulama da reklam gösteriyor.",
+            "Kullanıcılarının çoğu yeni sürümün eskisinden daha zahmetli olduğunu ve oturumlarını kapattığını söylüyor; sinyalin olmadığı bir kamp alanında buna katlanmak en zoru. <a data-guide=\"is-wikicamps-nz-free\">WikiCamps NZ'nin maliyetini</a> anlatan yazımız fiyatı ayrıntılı ele alıyor."
+          ],
+          "tips": [
+            "Tek seferlik NZ$7.99",
+            "Hesap ve e-posta kodu",
+            "Ücretli uygulamada reklamlar"
+          ]
+        },
+        {
+          "heading": "Üçüncü seçenek: KiwiCamping",
+          "body": [
+            "KiwiCamping doğrudan haritayla açılıyor; açılacak hesap yok, geçilecek reklam yok. Her DOC kamp alanı, kulübesi ve parkuru DOC'un ücreti, köpek kuralları ve rezervasyon gereksinimleriyle orada ve DOC'un <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kamp</a> bildirimleri koruma alanlarının nerelerde yasak olduğunu gösteriyor.",
+            "Zor işi <a data-guide=\"kiwicamping-filters-guide\">filtreler</a> yapıyor. Köpeklere izin var, 4WD erişimi ve Karavan erişimi, Evcil hayvanlar ve erişim bölümünde ayrı yer alıyor ve birkaçını seçtiğinizde bir yerin hepsine uyması gerekiyor. Ayrıntılar için bir iğneye dokunun, sonra gezinize ekleyin."
+          ],
+          "tips": [
+            "Hesap yok, reklam yok",
+            "Her DOC kamp alanı, kulübesi ve parkuru",
+            "Hepsinin eşleşmesi gereken filtreler"
+          ]
+        },
+        {
+          "heading": "KiwiCamping ile karavan gezisi planlamak",
+          "body": [
+            "Ev adresinizi bir kez ayarlayın, herhangi bir gezi tek dokunuşla oradan başlasın ya da orada bitsin. Add stop uygulamadaki yerleri, herhangi bir adresi veya bıraktığınız bir iğneyi alıyor ve her durak rotada mesafesini ve sürüş süresini gösteriyor.",
+            "Karavanda iki kişi misiniz? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Geziyi paylaşın</a> ve Collaborate'i seçin; ikiniz de durak ekleyip sırasını değiştirebilirsiniz, değişiklikler birkaç saniye içinde yansır ve giriş gerekmez. Send copy ise ailenize rotanızı herhangi bir web tarayıcısında izleyebilecekleri bir bağlantı veriyor."
+          ],
+          "tips": [
+            "Ev, adresler ve iğneler",
+            "Mesafe ve sürüş süresi",
+            "Collaborate ile birlikte planlayın"
+          ]
+        },
+        {
+          "heading": "Karavancılar KiwiCamping'i neden gezilerine ekliyor",
+          "body": [
+            "DOC kamp alanları ve Great Walk kulübeleri için KiwiCamping DOC'un kendi bilgilerini gösteriyor ve rezervasyon için DOC'a bağlantı veriyor. <a data-guide=\"freedom-camping-new-zealand-guide\">Serbest kamp</a> için DOC'un bildirimleri haritada kamp alanlarının yanında duruyor, böylece oraya sürmeden önce nelerin yasak olduğunu görebiliyorsunuz.",
+            "Üstelik sizin için kayıt tutuyor. You sekmesi ziyaret ettiğiniz bölgelerin haritasını dolduruyor, kilometrelerinizi ve kamp yaptığınız geceleri sayıyor. KiwiCamping'in indirilmesi ücretsiz, uygulama içi satın alımlar var."
+          ],
+          "tips": [
+            "DOC kamp alanları ve kulübeleri",
+            "DOC serbest kamp bildirimleri",
+            "Gezinizin kaydı"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Yeni Zelanda için CamperMate mi WikiCamps mi daha iyi?",
+          "CamperMate ücretsiz; WikiCamps NZ NZ$7.99 ve hesap gerektiriyor. İkisi de reklam gösteriyor. Reklamsız ve girişsiz bir uygulama için KiwiCamping'i deneyin."
+        ],
+        [
+          "CamperMate ücretsiz mi?",
+          "Evet. CamperMate'i kullanmak ücretsiz ve reklam gösteriyor."
+        ],
+        [
+          "Yeni Zelanda'da hangi kamp uygulamasında reklam yok?",
+          "KiwiCamping'de reklam ve giriş yok. İndirmesi ücretsiz, uygulama içi satın alımlar var."
+        ],
+        [
+          "Yeni Zelanda'da karavan gezginlerinin çoğu hangi uygulamayı kullanıyor?",
+          "Çoğu CamperMate veya WikiCamps NZ kullanıyor. DOC'un kendi kamp alanı bilgilerini sunan, reklamsız ve hesapsız olan KiwiCamping."
+        ],
+        [
+          "Hangi uygulama DOC kamp alanlarını gösteriyor?",
+          "KiwiCamping her DOC kamp alanını, kulübesini ve parkurunu DOC'un kendi bilgilerinden, ücretleri, köpek kuralları ve rezervasyon gereksinimleriyle birlikte gösteriyor."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "DOC: çevrimiçi rezervasyonlar"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-huts-campsites-app-wikicamps-kiwicamping": {
+      "title": "Yeni Zelanda DOC Uygulaması: Kulübeler ve Kamp Alanları, WikiCamps vs KiwiCamping (2027)",
+      "description": "2027'de Yeni Zelanda'da kulübeler, patikalar ve kamp alanları için DOC uygulaması mı arıyorsunuz? KiwiCamping, WikiCamps NZ'ye kıyasla her DOC kulübesini ve kamp alanını ücretler, rezervasyonlar ve köpek kurallarıyla, giriş yapmadan nasıl gösteriyor?",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Stewart Island'daki Rakiura Track üzerinde, geniş çatılı verandası olan ahşap bir DOC kulübesi",
+      "intro": "Yeni Zelanda'da kulübeler ve kamp alanları için bir DOC uygulaması mı arıyorsunuz? KiwiCamping, her DOC kulübesini, kamp alanını ve patikasını tek bir haritada toplar; DOC'un ücretlerini, köpek kurallarını ve rezervasyon gereksinimlerini gösterir, rezervasyon yapmak istediğinizde sizi doğrudan DOC'a yönlendirir. Hesap yok, reklam yok. KiwiCamping'i biz yapıyoruz. İşte kulübe, patika ve kamp alanı planlamanıza nasıl yardımcı olduğu ve WikiCamps NZ ile nasıl karşılaştırıldığı.",
+      "sections": [
+        {
+          "heading": "İyi bir DOC uygulaması size ne gösterir",
+          "body": [
+            "DOC kulübeleri ve kamp alanlarını kategorilere ayırır; kategori, vardığınızda ne bulacağınızın çoğunu anlatır. İyi bir uygulama bunu açıkça gösterir; ayrıca gecelik ücreti, rezervasyon yapmanız gerekip gerekmediğini ya da doğrudan gidebileceğinizi, köpeklere izin verilip verilmediğini ve güncel uyarıları da sunar.",
+            "KiwiCamping'de her DOC noktasında tam olarak bunu görürsünüz; bilgiler DOC'un kendi verilerinden alınır, böylece evden çıkmadan bir kulübe seçebilir ve yol sonunda tekrar kontrol edebilirsiniz."
+          ],
+          "tips": [
+            "Kategori, ücret ve rezervasyon",
+            "Köpek kuralları ve uyarılar",
+            "Doğrudan DOC'tan"
+          ],
+          "table": {
+            "caption": "DOC kulübe kategorilerine kısa bakış.",
+            "head": [
+              "Kulübe kategorisi",
+              "Ne beklemeli"
+            ],
+            "rows": [
+              [
+                "Great Walk kulübesi",
+                "Great Walks sezonunda önceden rezervasyon yapın"
+              ],
+              [
+                "Hizmetli kulübe",
+                "Genellikle yatak, su, tuvalet ve ısıtma bulunur"
+              ],
+              [
+                "Standart kulübe",
+                "Genellikle yatak, su ve tuvalet bulunur"
+              ],
+              [
+                "Basit kulübe veya bivvy",
+                "Deneyimli yürüyüşçüler için sade bir barınak"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping'de DOC kulübeleri, kamp alanları ve patikaları",
+          "body": [
+            "Her <a data-guide=\"doc-huts-new-zealand-guide\">DOC kulübesi</a>, açık olup olmadığını, yatak sayısını, ücretini ve olanaklarını gösterir; DOC'un web sitesindeki kulübe sayfasına bağlantı da içerir. Her DOC patikası mesafesini, yürüyüş süresini, zorluk derecesini ve yükseklik profilini gösterir; böylece karar vermeden önce tırmanışı değerlendirebilirsiniz.",
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanları</a> ücreti, köpek kurallarını ve rezervasyon gerekip gerekmediğini gösterir. Rezervasyon yapılabilen kulübe ve kamp alanları, rezervasyonu yapacağınız DOC'a bağlanır."
+          ],
+          "tips": [
+            "Kulübe durumu, yataklar ve ücretler",
+            "Patika mesafesi, süresi ve zorluğu",
+            "DOC bağlantısıyla rezervasyon"
+          ]
+        },
+        {
+          "heading": "WikiCamps NZ, DOC noktalarını nasıl ele alıyor",
+          "body": [
+            "WikiCamps NZ'de <a data-guide=\"doc-huts-new-zealand-guide\">DOC kulübeleri</a> ve kamp alanları diğer her şeyle birlikte kullanıcılar tarafından listelenir; bu yüzden bir ücret ya da kapanma bilgisi ancak biri güncellediğinde değişir.",
+            "Uygulama ayrıca WikiCamps'in büyük güncellemesinden beri e-posta kodlu bir hesap gerektiriyor ve reklam gösteriyor. Birçok kullanıcı, uygulamanın sürekli oturumu kapattığını söylüyor; sinyalin olmadığı bir yol sonunda en son istediğiniz şey bu. <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ vs KiwiCamping</a> karşılaştırmamız gerisini ele alıyor."
+          ],
+          "tips": [
+            "Kullanıcılar tarafından listelenir",
+            "Hesap ve e-posta kodu",
+            "Reklamlar"
+          ]
+        },
+        {
+          "heading": "Haritadan kulübeye birkaç dokunuşta",
+          "body": [
+            "KiwiCamping'i açın, harita hemen karşınızda; giriş yapmanız gerekmez. Yalnızca yürüyerek ulaşılan, Su kaynağı ya da Köpeklere izin var gibi <a data-guide=\"kiwicamping-filters-guide\">filtreler</a> ekleyin; haritada yalnızca hepsini karşılayan yerler kalır.",
+            "Yatakları, ücreti ve DOC bağlantısını görmek için bir kulübeye dokunun, ardından patika için bir koleksiyona kaydedin ya da gezinize ekleyin."
+          ],
+          "tips": [
+            "Giriş yok",
+            "Yalnızca yürüyerek ulaşılan ve Su kaynağı filtreleri",
+            "Tek dokunuşla kaydet veya ekle"
+          ]
+        },
+        {
+          "heading": "Kulübe veya Great Walk gezisi planlamak",
+          "body": [
+            "Değerlendirdiğiniz kulübeleri her patika için bir koleksiyona kaydedin. Plan netleşince, yol sonundaki kamp alanlarını Ev'den başlayan bir geziye ekleyin; her etap mesafesini ve sürüş süresini gösterir.",
+            "Bir arkadaşınızla mı yürüyorsunuz? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Geziyi paylaşın</a> ve Birlikte düzenle'yi seçin; ikiniz de aynı planı canlı olarak görürsünüz. Kopya gönder, evdeki birine rotanıza giden bir bağlantıyı herhangi bir web tarayıcısında açtırır; yola çıkmadan önce planınızı birine bildirmekle birlikte iyi gider. Sonra kulübeleri DOC'tan erken rezerve edin; popüler olanlar yazın hızla dolar."
+          ],
+          "tips": [
+            "Her patika için bir koleksiyon",
+            "Geziyi Ev'den başlatın",
+            "Yürüyüş arkadaşınızla birlikte düzenleyin"
+          ]
+        },
+        {
+          "heading": "Sinyalsiz patikada",
+          "body": [
+            "Kulübe ve kamp alanı bilgileri, kayıtlı yerlerinizle ve geziniz ile birlikte telefonunuzda kalır; böylece yatak sayısı, ücret ve DOC'un notları, <a data-guide=\"kiwicamping-offline-data-guide\">çekim olmayan</a> bir vadinin derinlerinde bile elinizin altındadır.",
+            "Uzak bir yürüyüşte kâğıt topografik harita ve kişisel konum belirleyici cihaz taşıyın, sinyal olan son yerde hava durumunu ve DOC uyarılarını kontrol edin ve nereye gittiğinizi birine söyleyin."
+          ],
+          "tips": [
+            "Sinyalsiz kulübe bilgileri",
+            "Kâğıt harita ve bir cihaz",
+            "Planınızı birine bildirin"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kulübeler için bir DOC uygulaması var mı?",
+          "DOC rezervasyonları web sitesinden alır. KiwiCamping her DOC kulübesini ücreti, yatakları ve rezervasyon gereksinimleriyle gösterir ve rezervasyon için DOC'a bağlanır."
+        ],
+        [
+          "Yeni Zelanda'da DOC kamp alanlarını hangi uygulama gösteriyor?",
+          "KiwiCamping her DOC kamp alanını DOC'un kendi bilgilerinden, ücretler, köpek kuralları ve rezervasyon gereksinimleriyle, giriş yapmadan gösterir."
+        ],
+        [
+          "KiwiCamping DOC patika ayrıntılarını gösteriyor mu?",
+          "Evet. Her DOC patikası mesafesini, yürüyüş süresini, zorluk derecesini ve yükseklik profilini gösterir; DOC'a bağlantısı da vardır."
+        ],
+        [
+          "Sinyal olmadan kulübe ayrıntılarını görebilir miyim?",
+          "Evet. Kulübe ve kamp alanı bilgileri, kayıtlı yerleriniz ve gezileriniz telefonunuzda kalır."
+        ],
+        [
+          "Yeni Zelanda'da kaç DOC kulübesi var?",
+          "KiwiCamping 900'den fazla DOC kulübesi gösterir. Resmi toplam sayıyı DOC'un kendi web sitesi verir."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: çevrimiçi rezervasyonlar"
+        },
+        {
+          "label": "DOC: kulübe rezervasyonu ve ödeme"
+        },
+        {
+          "label": "DOC: kamp alanı rezervasyonu ve ödeme"
+        },
+        {
+          "label": "DOC: Great Walks'ı karşılaştırın"
         }
       ],
       "priceTable": null

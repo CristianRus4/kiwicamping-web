@@ -27660,6 +27660,720 @@
       ],
       "priceTable": null
     },
+    "wikicamps-nz-account-login": {
+      "title": "WikiCamps bejelentkezés: kell fiók a WikiCamps NZ-hez 2027-ben?",
+      "description": "Kell fiók a WikiCamps NZ-hez 2027-ben? Igen, e-mailben kapott kóddal lehet belépni. Miért bosszantó ez egy új-zélandi road tripen, és hogyan működik a KiwiCamping bejelentkezés nélkül.",
+      "region": "Új-Zéland",
+      "imageAlt": "Fehér lakóautó áll egyedül egy füves tisztáson, őshonos bozót alatt, a West Coaston",
+      "intro": "Igen. A WikiCamps nagy frissítése óta a WikiCamps NZ fiókot kér, és az e-mailben küldött kóddal lehet belépni. A KiwiCamping mindezt kihagyja: nincs fiók, megnyitja az appot, és rögtön a térképen van. Mi készítjük a KiwiCampinget, és itt elmondjuk, mit jelent a bejelentkezés nélküliség egy új-zélandi road tripen.",
+      "sections": [
+        {
+          "heading": "Miért van útban a WikiCamps bejelentkezés",
+          "body": [
+            "Sok WikiCamps-felhasználó szerint az új verzió folyton kijelentkezteti őket, a visszalépéshez pedig egy e-mailben érkező kódra kell várni. Ez jelzés nélküli kempingben nem túl kellemes.",
+            "Ez az egyik fő oka annak is, hogy sokan úgy érzik, <a data-guide=\"wikicamps-not-working-new-zealand\">a WikiCamps NZ nem működik</a> úgy, mint régen. Sokak szerint az új verziót nehezebb használni, és reklámokat mutat egy olyan appban, amelyért fizettek."
+          ],
+          "tips": [
+            "Fiók és e-mailben kapott kód",
+            "Kijelentkeztetés jelzés nélkül",
+            "Reklámok egy fizetős appban"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: nincs fiók, nincs bejelentkezés, nincs reklám",
+          "body": [
+            "A KiwiCampingbe nincs mibe belépni. Nincs e-mail, jelszó, kód, és semmi, ami a West Coast mentén félúton kijelentkeztethetne.",
+            "A mentett helyek, gyűjtemények, tűk és utak csendben szinkronizálódnak az iPhone-on már meglévő iCloudon keresztül. Reklám sincs, a KiwiCamping pedig független: a DOC ingyenes és olcsó kempingjeit a fizetős <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkok</a> mellett mutatja. Ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "Nincs mibe belépni",
+            "Az iCloudon keresztül szinkronizál",
+            "Reklámmentes, független"
+          ],
+          "table": {
+            "caption": "Bejelentkezés egymás mellett.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Fiók",
+                "Kötelező",
+                "Nincs"
+              ],
+              [
+                "Bejelentkezés",
+                "E-mailben kapott kód",
+                "Nem kell"
+              ],
+              [
+                "Kijelentkezés a kempingben",
+                "A felhasználók szerint előfordul",
+                "Soha: nincs mi alól kijelentkezni"
+              ],
+              [
+                "Reklámok",
+                "Igen, egy fizetős appban",
+                "Nincs"
+              ],
+              [
+                "Telefonjai szinkronban",
+                "A WikiCamps-fiókján keresztül",
+                "Az iCloudon keresztül"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nyissa meg, és már a térképen van",
+          "body": [
+            "Nincs üdvözlőképernyő, amin át kellene jutni. Új-Zéland térképe az első, amit lát, körülötte kempingekkel, menedékházakkal és <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkokkal</a>.",
+            "Koppintson a <a data-guide=\"kiwicamping-filters-guide\">szűrőkre</a>: a Kutya megengedett, a 4WD-hozzáférés és a Lakókocsi-hozzáférés külön Háziállatok és megközelítés részben találhatók. Válasszon párat, és minden megjelenő hely mindegyiknek megfelel. Koppintson egy helyre a díjak, a szolgáltatások és a szabályok megtekintéséhez, majd adja hozzá az úthoz.",
+            "A helyek adatai, a mentett helyek és az utak mind a telefonon maradnak, így <a data-guide=\"kiwicamping-offline-data-guide\">térerő nélkül</a> is megnyílnak."
+          ],
+          "tips": [
+            "Először a térkép",
+            "Kutya megengedett, 4WD- és lakókocsi-hozzáférés",
+            "A részletek jelzés nélkül is megnyílnak"
+          ]
+        },
+        {
+          "heading": "Tervezzen a párjával, továbbra is fiók nélkül",
+          "body": [
+            "Ketten utaztok? Koppintson a Megosztás gombra egy úton vagy gyűjteményen, és válassza az Együttműködés lehetőséget. A párja iCloudon keresztül csatlakozik, és mindketten hozzáadhattok és átrendezhettek állomásokat, kipipálhatjátok őket, és szerkeszthetitek a jegyzeteket. A változások másodperceken belül megjelennek mindkét telefonon.",
+            "Az otthon maradt családnak <a data-guide=\"share-nz-trip-plan-kiwicamping\">ossza meg az utat</a> inkább a Másolat küldése funkcióval: egy bármely böngészőben megnyíló link az állomásokkal, dátumokkal és jegyzetekkel."
+          ],
+          "tips": [
+            "Élő együttműködés iCloudon keresztül",
+            "Mindketten szerkeszthetitek",
+            "Másolat küldése a családnak"
+          ]
+        },
+        {
+          "heading": "Új telefon? Nincs mibe belépni",
+          "body": [
+            "Állítson be egy új iPhone-t az Apple-fiókjával, és az utak, <a data-guide=\"save-places-kiwicamping\">gyűjtemények</a> és mentett helyek maguktól átjönnek. Nincs mit megjegyezni, nincs mit visszaállítani.",
+            "Indulás előtt telepítse a KiwiCampinget Wi-Fin, és mentse el az első pár éjszakát. Ha valamelyik egy lefoglalt <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kemping</a> vagy egy Great Walk menedékház, adja hozzá egy úthoz a dátumával, hogy a terv készen álljon, mire átveszi a kocsit."
+          ],
+          "tips": [
+            "Új iPhone, ugyanazok az utak",
+            "Telepítse Wi-Fin indulás előtt",
+            "Először a lefoglalt éjszakákat adja hozzá"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kell fiók a WikiCampshez?",
+          "Igen. A WikiCamps NZ új verziója fiók létrehozását kéri, és az e-mailben küldött kóddal lehet belépni."
+        ],
+        [
+          "Miért kéri a WikiCamps folyton, hogy jelentkezzem be?",
+          "Az új verzió fiókhoz kötött, és sok felhasználó szerint időnként kijelentkezteti őket. A KiwiCampingnek nincs fiókja, így nincs mibe újra belépni."
+        ],
+        [
+          "Van olyan új-zélandi kempingapp, amihez nem kell bejelentkezni?",
+          "Igen. A KiwiCamping, amelyet mi készítünk, fiók, bejelentkezés és reklám nélkül működik. Rögtön a térképre nyílik."
+        ],
+        [
+          "Kell fiók a KiwiCampinghez?",
+          "Nem. A helyei és az útjai az iPhone-on már meglévő iCloudon keresztül szinkronizálódnak."
+        ],
+        [
+          "Megoszthatunk a páromnal egy utat fiók nélkül?",
+          "Igen. Koppintson a Megosztás gombra az úton, és válassza az Együttműködés lehetőséget. Mindketten ugyanazt az utat szerkeszthetitek iCloudon keresztül, a változások másodperceken belül megjelennek."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "DOC: freedom camping"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "does-wikicamps-nz-work-offline": {
+      "title": "Működik a WikiCamps NZ offline? Térerő nélküli kemping 2027-ben",
+      "description": "Működik a WikiCamps NZ offline 2027-ben? Részben, letöltés után és fiókkal. A KiwiCamping minden DOC kempinget, kunyhót és az összes utadat a telefonon tartja, letöltés nélkül.",
+      "region": "Új-Zéland",
+      "imageAlt": "A Mitre Peak a Milford Sound csendes vize fölé emelkedik a Milford Road végén",
+      "intro": "Részben. A WikiCamps Offline Mode a térképeket és legfeljebb három tervezett utat tart a telefonodon, miután letöltötted őket, de fiók kell hozzá, és ez jel nélkül útban lehet. A KiwiCamping minden DOC kempinget, kunyhót és ösvényt, valamint az összes utadat a telefonon tartja a telepítés pillanatától, letöltés és bejelentkezés nélkül. Mi készítjük a KiwiCampinget. Így kezeli a két app a hosszú, térerő nélküli szakaszokat.",
+      "sections": [
+        {
+          "heading": "Működik a WikiCamps offline?",
+          "body": [
+            "A WikiCamps szerint az Offline Mode jel nélkül is használhatóvá teszi a térképeket és legfeljebb három tervezett utat. Előbb le kell töltened őket, amíg még van kapcsolat.",
+            "A bökkenő a fiók. Sok WikiCamps-felhasználó azt mondja, az app időnként kijelentkezteti őket, és a <a data-guide=\"wikicamps-nz-account-login\">WikiCamps-bejelentkezéshez</a> jel kell a visszalépéshez. Egy lefedetlen völgyben a bejelentkező képernyőn ragadni az utolsó, amit szeretnél."
+          ],
+          "tips": [
+            "Előbb töltsd le",
+            "Legfeljebb három tervezett út",
+            "A visszalépéshez jel kell"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: nincs letöltés, nincs bejelentkezés",
+          "body": [
+            "A KiwiCampingnek nincs fiókja, így soha nincs bejelentkező képernyő közéd és a ma esti kemping közé. Nyisd meg az appot bárhol, és bent vagy.",
+            "Új-Zéland minden <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingje</a>, kunyhója és ösvénye be van építve az appba, díjakkal, szolgáltatásokkal, kutyaszabályokkal és foglalási igényekkel. Ez önmagában több mint 900 DOC-kunyhó, olvasható a Milford Roadon vagy a Catlins mélyén egyetlen térerőcsík nélkül.",
+            "A saját dolgaid is veled maradnak, még <a data-guide=\"kiwicamping-offline-data-guide\">térerő nélkül</a> is: kedvelt és csillagozott helyek, gyűjtemények, privát jegyzetek, és minden út a megállóival, dátumaival és jegyzeteivel."
+          ],
+          "tips": [
+            "Nincs fiók, nincs bejelentkező képernyő",
+            "Minden DOC kemping, kunyhó és ösvény",
+            "Az összes utad, nem csak három"
+          ],
+          "table": {
+            "caption": "Jel nélkül, egymás mellett.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Letöltés indulás előtt",
+                "Igen, Offline Mode-ban",
+                "Nem, a helyadatok be vannak építve"
+              ],
+              [
+                "Tervezett utaid",
+                "Legfeljebb három",
+                "Mind"
+              ],
+              [
+                "Fiók a bejelentkezéshez",
+                "Igen",
+                "Nincs"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Válaszd ki a ma esti helyet, mielőtt elfogy a térerő",
+          "body": [
+            "Az ország legjobb útjai közül néhány, mint a Haast Pass, a Milford Road és a Catlins, pont ott van, ahol a legkönnyebben elveszíted a jelet. Pont ott éri meg, ha minden hely adata a telefonon van.",
+            "Nyisd meg a <a data-guide=\"kiwicamping-filters-guide\">szűrőket</a>, és válaszd ki, ami számít: a Kutyák engedélyezve, a 4WD-hozzáférés és a lakókocsi-hozzáférés a Háziállatok és hozzáférés részben van, és egy helynek minden kiválasztott szűrőnek meg kell felelnie. Add hozzá a kedvencedet az úthoz, plusz egy közeli tartalékot, és kész vagy az estére."
+          ],
+          "tips": [
+            "Adatok térerő nélkül",
+            "Szűrők, amelyek minden választásodnak megfelelnek",
+            "Ments tartalékot is"
+          ]
+        },
+        {
+          "heading": "Szabad kemping szabályai jel nélkül",
+          "body": [
+            "A természetvédelmi területekre szóló DOC szabadkemping-közlemények benne vannak a KiwiCampingben, így messze a lefedettségtől is látod, hol tilos vagy korlátozott a kempingezés.",
+            "Önkormányzati területen a <a data-guide=\"freedom-camping-rules-new-zealand\">szabad kemping szabályai</a> az adott önkormányzat rendeletéből jönnek. Olvasd el a következő körzetét, amíg még a városban vagy, és mindig kövesd a helyszíni táblát."
+          ],
+          "tips": [
+            "DOC-közlemények beépítve",
+            "Önkormányzati rendeletek: olvasd el a városban",
+            "A helyszíni tábla dönt"
+          ]
+        },
+        {
+          "heading": "Az egész utad a zsebedben",
+          "body": [
+            "Minden út vezetési sorrendben tartja a megállókat, a dátumaiddal és a jegyzeteiddel, és menet közben kipipálhatod őket. A Teendők lista ugyanott tartja az egyes napok feladatait.",
+            "A Te lap kitölti a térképet arról, hol jártál. A kempingezett éjszakák és a megtett kilométerek az út során gyűlnek."
+          ],
+          "tips": [
+            "Megállók, dátumok és jegyzetek",
+            "Pipáld ki a megállókat menet közben",
+            "Térkép arról, hol jártál"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Működik a WikiCamps NZ offline?",
+          "Részben. Az Offline Mode a letöltés után megtartja a térképeket és legfeljebb három tervezett utat, de az appnak fiók kell, és a visszalépéshez jel kell."
+        ],
+        [
+          "Melyik új-zélandi kempingapp működik jel nélkül?",
+          "A KiwiCamping minden DOC kempinget, kunyhót és ösvényt és az összes utadat a telefonon tartja, letöltés nélkül, és nincs bejelentkezés, ami elakasztana."
+        ],
+        [
+          "Ellenőrizhetem a szabad kemping szabályait jel nélkül?",
+          "Természetvédelmi területen igen: a KiwiCamping tartalmazza a DOC szabadkemping-közleményeit. Az önkormányzati rendeleteket még a városban nézd meg."
+        ],
+        [
+          "Hány WikiCamps-utat tarthatok offline?",
+          "Legfeljebb hármat, a WikiCamps szerint. A KiwiCampingben minden út, amit készítesz, a telefonodon marad."
+        ],
+        [
+          "Kell valamit letöltenem, hogy a KiwiCamping jel nélkül működjön?",
+          "Nem. A DOC kempingek, kunyhók és ösvények az appal jönnek, a mentett helyeid és utaid pedig mindig a telefonodon vannak."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szabad kemping"
+        },
+        {
+          "label": "DOC: riasztások és lezárások"
+        },
+        {
+          "label": "NZTA Journeys: útviszonyok és lezárások"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "Váltás a WikiCamps NZ-ről 2027-ben: vidd át a helyeidet és az utadat",
+      "description": "Válts a WikiCamps NZ-ről a KiwiCampingre egy este alatt: add hozzá minden mentett helyet és úti megállót név, cím vagy kitűző alapján, a lefoglalt DOC-éjszakákkal és a kompjeggyel kezdve.",
+      "region": "Új-Zéland",
+      "imageAlt": "Egy Interislander komp átkel a Cook-szoroson az Északi- és a Déli-sziget között",
+      "intro": "Ha át akarsz állni a WikiCamps NZ-ről, jegyezd fel a mentett helyeidet és az utadat, majd add hozzá őket egyenként a KiwiCampinghez egy gyors kereséssel. Az alkalmazásban szereplő helyek, bármilyen cím és a saját kitűzőid is működnek, így a legtöbb út egy este alatt átkerül. Mi készítjük a KiwiCampinget, és ez a leggyorsabb sorrend, azokkal az éjszakákkal kezdve, amelyeken nem lehet változtatni.",
+      "sections": [
+        {
+          "heading": "Miért váltanak a kempingezők a WikiCamps NZ-ről",
+          "body": [
+            "Sok WikiCamps-felhasználó szerint az új verzió egy tortúra: nehezebben használható, gyorsan kijelentkeztet, és tele van hirdetésekkel, amelyekre a fizetés után senki sem számít. Ha a <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ nem működik</a> már neked sem, nem kell tovább küzdened vele.",
+            "A KiwiCamping közvetlenül a térképpel nyílik meg, fiók, bejelentkezés és hirdetések nélkül. A DOC kempingjei, menedékházai és túraútvonalai kéznél vannak, a <a data-guide=\"kiwicamping-filters-guide\">szűrők</a> mindenre illeszkednek, amit kiválasztasz, és az utat a párosoddal együtt tervezheted."
+          ],
+          "tips": [
+            "Nincs fiók vagy bejelentkezés",
+            "Nincsenek hirdetések",
+            "Tervezzetek együtt a párotokkal"
+          ]
+        },
+        {
+          "heading": "1. lépés: jegyezd fel, amid van",
+          "body": [
+            "Nyisd meg még egyszer a WikiCampset, és készíts képernyőképet a kedvenceidről, a listáidról és az utadról, vagy írd be a neveket a Jegyzetek alkalmazásba. Őrizd meg a foglalási azonosítókat a már kifizetett éjszakákhoz.",
+            "Erre a listára van szükséged. Innentől minden a KiwiCampingben történik."
+          ],
+          "tips": [
+            "Képernyőkép a listákról és utakról",
+            "Őrizd meg a foglalási azonosítókat"
+          ]
+        },
+        {
+          "heading": "2. lépés: először a lefoglalt éjszakák és a komp",
+          "body": [
+            "Hozz létre egy utat, majd koppints a Megálló hozzáadása gombra, és keresd meg a lefoglalt <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempingeket</a> vagy Great Walk menedékházakat. Add meg mindegyik megálló érkezési dátumát, és írd a foglalási azonosítót a jegyzetébe.",
+            "Következik a <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook-szoros</a> átkelése. Add hozzá a kompkikötőt a címével, majd az előtte lévő utolsó és az utána következő első éjszakát. Ha ezek a fix pontok a helyükön vannak, az út többi része maga köré rendeződik."
+          ],
+          "tips": [
+            "Megálló minden foglaláshoz",
+            "Dátumok és foglalási jegyzetek",
+            "Kompkikötő cím alapján"
+          ]
+        },
+        {
+          "heading": "3. lépés: minden más hely, a nem listázottak is",
+          "body": [
+            "Ugyanaz a Megálló hozzáadása keresés megtalálja az alkalmazásban lévő helyeket, bármilyen utcacímet, az aktuális tartózkodási helyedet és a mentett kitűzőidet. Van saját kedvenc helyed? Tegyél ki egy kitűzőt a térképen, és koppints az Út hozzáadása gombra.",
+            "Minden megálló megjelenik az útvonalon a távolságával és a vezetési idejével, így azonnal látod, hogy egy nap nem túl hosszú-e. Koppints az Indulás otthonról vagy Érkezés haza gombra, hogy az utat a Te fülön mentett címmel keretezd."
+          ],
+          "tips": [
+            "Helyek, címek és kitűzők",
+            "Tegyél ki kitűzőt, add az úthoz",
+            "Távolság és vezetési idő minden megállóhoz"
+          ]
+        },
+        {
+          "heading": "4. lépés: a kedvenceid és listáid a KiwiCampingben",
+          "body": [
+            "Kedvelj vagy csillagozz meg minden helyet, ami tetszett, és jelöld Szeretném meglátogatni címkével azokat, amelyeket még látni szeretnél.",
+            "A saját WikiCamps-listáidból saját <a data-guide=\"save-places-kiwicamping\">gyűjtemények</a> lesznek, és szigetenként egy jól működik. A helyekhez fűzött tippjeid a privát jegyzetbe kerülnek."
+          ],
+          "tips": [
+            "Kedvelt, Csillagozott, Szeretném meglátogatni",
+            "A listákból gyűjtemények lesznek",
+            "A tippek privát jegyzetbe kerülnek"
+          ],
+          "table": {
+            "caption": "Hová kerülnek a WikiCamps-adataid a KiwiCampingben.",
+            "head": [
+              "A WikiCamps NZ-ben",
+              "A KiwiCampingben"
+            ],
+            "rows": [
+              [
+                "Kedvencek",
+                "Kedvelt vagy Csillagozott"
+              ],
+              [
+                "Helyek, amelyeket meg akarsz nézni",
+                "Szeretném meglátogatni"
+              ],
+              [
+                "Saját listák",
+                "Gyűjtemények, szigetenként vagy útonként egy"
+              ],
+              [
+                "Az utad",
+                "Dátumozott megállókból álló út, a Megálló hozzáadása segítségével"
+              ],
+              [
+                "Egy titkos hely",
+                "Egy kitűzött pont, hozzáadva az úthoz"
+              ],
+              [
+                "Jegyzetek egy helyről",
+                "Privát jegyzet a helyhez"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "5. lépés: szabadkempingezős éjszakák",
+          "body": [
+            "Ne csak másold át a régi szabadkempingezős helyeket: nézd át újra a <a data-guide=\"freedom-camping-rules-new-zealand\">szabadkempingezési szabályokat</a>. A DOC természetvédelmi területekre vonatkozó közlései benne vannak a KiwiCampingben, az önkormányzati rendeletek pedig az egyes önkormányzatok weboldalán találhatók.",
+            "Ezután hagyd, hogy a <a data-guide=\"kiwicamping-filters-guide\">szűrők</a> találjanak neked valami újat. A Kutyák megengedettek, a 4WD-hozzáférés és a Lakókocsi-hozzáférés a Háziállatok és megközelítés részben van, a Költség szűrő elővarázsolja a DOC ingyenes és olcsó kempingjeit, és minden megjelenített hely megfelel az összes kiválasztott szűrőnek."
+          ],
+          "tips": [
+            "DOC-közlemények az alkalmazásban",
+            "A szűrők minden választásodra illeszkednek",
+            "A DOC ingyenes és olcsó kempingjei"
+          ]
+        },
+        {
+          "heading": "Hozd magaddal az útitársadat",
+          "body": [
+            "Koppints az Út Megosztás gombjára, és válaszd az Együttműködés lehetőséget, hogy meghívd a párodat az iCloudon keresztül. Mindketten hozzáadhattok megállókat, átrendezhetitek őket, kipipálhatjátok és szerkeszthetitek a jegyzeteket, a változások pedig másodperceken belül megjelennek mindkét telefonon.",
+            "A saját eszközeid is szinkronban maradnak az iCloudon keresztül, bejelentkezés nélkül. A KiwiCamping hirdetésmentes és független, ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "Élő együttműködés",
+            "Szinkron az iCloudon át",
+            "Hirdetésmentes, független"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Exportálhatom az utamat a WikiCampsből?",
+          "A leggyorsabb megoldás egy lista vagy képernyőképek készítése a WikiCamps-útról. Ezután add hozzá az egyes megállókat a KiwiCampingben a Megálló hozzáadása funkcióval, amely helyeket, címeket és kitűzőket talál meg."
+        ],
+        [
+          "Hogyan viszem át a mentett kempingeimet egy másik alkalmazásba?",
+          "Keresd meg mindegyiket a KiwiCampingben, és mentsd el: a kedvencek Kedvelt vagy Csillagozott lesznek, a listáidból pedig gyűjtemények."
+        ],
+        [
+          "Hozzáadhatom a saját helyemet egy úthoz?",
+          "Igen. Tegyél ki egy kitűzőt, és koppints az Út hozzáadása gombra, vagy adj hozzá bármilyen címet a Megálló hozzáadása funkcióval."
+        ],
+        [
+          "Tervezhetjük a párommal együtt az utat?",
+          "Igen. Koppints az út Megosztás gombjára, és válaszd az Együttműködés lehetőséget. Mindketten élőben szerkeszthetitek az iCloudon keresztül, fiók nélkül."
+        ],
+        [
+          "Mennyi ideig tart a váltás a WikiCampsről?",
+          "A legtöbb út egy estét vesz igénybe. Kezdd a lefoglalt éjszakákkal és a komppal, majd add hozzá a többit."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "DOC: szabadkempingezés"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "Oszd meg új-zélandi road trip útitervedet a családdal (2027)",
+      "description": "Tervezd meg új-zélandi road tripedet valós időben a pároddal, küldj a családnak bármely böngészőben megnyíló linket, vagy oszd meg az útvonalat képként, mindezt a KiwiCamping segítségével.",
+      "region": "KiwiCamping",
+      "imageAlt": "A Cathedral Cove fehér sziklái és homokos partja a Coromandel-félszigeten",
+      "intro": "Ha meg szeretnéd osztani egy road trip útitervét a KiwiCampingből, koppints a Megosztás gombra az utadon. Válaszd a Collaborate lehetőséget a párodal való valós idejű tervezéshez, a Send copy lehetőséget, hogy a család bármely webböngészőben megnyíló linket kapjon, vagy a Share as image lehetőséget az útvonal képéhez. A KiwiCampinget mi készítjük, és íme, hogyan működik mindegyik egy új-zélandi utazáson.",
+      "sections": [
+        {
+          "heading": "Három mód a road trip útiterv megosztására a KiwiCampingből",
+          "body": [
+            "Mindegyik lehetőség más-más embernek való. Az útitársad a szerkeszthető valódi utat kapja, az otthoni család egy linket, ami egyszerűen működik, a csoportos csevegés pedig egy képet, amit érdemes megnézni.",
+            "Egyikhez sem kell fiók vagy bejelentkezés, a Collaborate pedig az iPhone-odon már meglévő iCloudon keresztül működik."
+          ],
+          "tips": [
+            "Collaborate a párodnak",
+            "Send copy a családnak",
+            "Share as image a csevegéshez"
+          ],
+          "table": {
+            "caption": "Melyik megosztási mód.",
+            "head": [
+              "Lehetőség",
+              "Kinek ideális",
+              "Mit kapnak"
+            ],
+            "rows": [
+              [
+                "Collaborate",
+                "Az útitársadnak",
+                "Ugyanaz az út, élőben: ketten szerkeszthetitek"
+              ],
+              [
+                "Send copy",
+                "Családnak és barátoknak",
+                "Egy link az úthoz, ami bármely böngészőben megnyílik"
+              ],
+              [
+                "Share as image",
+                "Csoportos csevegésekhez",
+                "Egy kép az útvonallal, megállókkal, dátumokkal és éjszakákkal"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Tervezzetek együtt a Collaborate segítségével",
+          "body": [
+            "Koppints a Megosztás gombra egy úton vagy valamelyik <a data-guide=\"save-places-kiwicamping\">gyűjteményeden</a>, és válaszd a Collaborate lehetőséget, hogy iCloudon keresztül meghívd a párodat. Ettől kezdve egy út van kettőtöknek.",
+            "Mindketten hozzáadhattok megállókat az <a data-guide=\"plan-trip-kiwicamping\">útvonaltervezőben</a>, áthúzással új sorrendbe rendezhetitek őket, pipálhatjátok és szerkeszthetitek a jegyzeteket. A változások másodperceken belül megjelennek a másik telefonon, így aki az anyósülésen ül, megtervezheti a holnapot, miközben a másik vezet."
+          ],
+          "tips": [
+            "Meghívás iCloudon keresztül",
+            "Mindketten adtok hozzá, rendeztek át és pipáltok",
+            "Változások másodpercek alatt"
+          ]
+        },
+        {
+          "heading": "Send copy: egy link, amit a család bárhol megnyithat",
+          "body": [
+            "A Send copy egy olyan linket készít, amelyet bárki megnyithat webböngészőben, telefonon vagy laptopon. Megmutatja az út megállóit, dátumait és jegyzeteit, így anya láthatja, melyik éjszaka leszel Wānakában.",
+            "Ha van KiwiCampingjük, egyetlen koppintással elmenthetik az utat a saját útjaik közé. Emellett ez a legegyszerűbb módja annak is, hogy a saját tervedet otthon laptopon nézd meg."
+          ],
+          "tips": [
+            "Bármely böngészőben megnyílik",
+            "Megállók, dátumok és jegyzetek",
+            "Mentsd el az alkalmazással"
+          ]
+        },
+        {
+          "heading": "Share as image a csoportos csevegéshez",
+          "body": [
+            "A Share as image képpé alakítja az utat: az útvonal a térképen, minden megálló, a dátumok és hogy hány éjszakát töltötök ott. Dobd be a családi csevegésbe, vagy tedd közzé indulás előtt.",
+            "Ez a leggyorsabb módja, hogy hosszú üzenet nélkül válaszolj arra, hogy „szóval hova mentek?”."
+          ],
+          "tips": [
+            "Útvonal, megállók, dátumok és éjszakák",
+            "Tökéletes csevegésekhez"
+          ]
+        },
+        {
+          "heading": "Egyetlen hely elküldése",
+          "body": [
+            "Ha egyetlen kempinget, menedékházat vagy <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkot</a> osztasz meg, az oldala fotóelőnézettel érkezik. Akinek van KiwiCampingje, az közvetlenül az alkalmazásban nyitja meg, a többiek a weboldalt kapják.",
+            "Ideális, ha két lakóautóval utaztok: küldd el a mai éjszaka helyét, és mindenki tudja, hol találkoztok."
+          ],
+          "tips": [
+            "Fotóelőnézet",
+            "Közvetlenül az alkalmazásban nyílik meg"
+          ]
+        },
+        {
+          "heading": "Tartsd tájékozottan a családot",
+          "body": [
+            "Megosztás előtt írj minden megállóhoz érkezési dátumot, hogy a család napról napra követhessen, és lássa, milyen hosszúak a <a data-guide=\"new-zealand-driving-day-planner\">vezetési napjaid</a>. Nagyobb változtatások után küldj friss másolatot.",
+            "Mondd el a csendesebb szakaszokról is. Egy nap <a data-guide=\"kiwicamping-offline-data-guide\">térerő nélkül</a> a West Coaston vagy Fiordlandben teljesen megszokott, a dátumozott megállók pedig megmutatják nekik, hogy egyszerűen két város között vagy. Ha egy úthoz bekapcsolod a Sync to calendar funkciót, a megállók és dátumok a naptáradba is bekerülnek.",
+            "Hegyekbe indulsz? Hagyd meg az útvonaladat és a késési határidőt valakinek, akiben megbízol, ahogy a Mountain Safety Council Plan My Walk és az AdventureSmart is javasolja."
+          ],
+          "tips": [
+            "Dátum minden megállónál",
+            "Naptár-szinkron",
+            "Hagyd meg a túra szándékát"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hogyan oszthatom meg az új-zélandi útitervemet a családdal?",
+          "Koppints a Megosztás gombra az utadon a KiwiCampingben, és válaszd a Send copy lehetőséget. A család egy bármely webböngészőben megnyíló linket kap a megállókkal, dátumokkal és jegyzetekkel."
+        ],
+        [
+          "Szerkeszthetjük a párommal ugyanazt az utat?",
+          "Igen. Az út megosztásakor válaszd a Collaborate lehetőséget. Mindketten hozzáadhattok, átrendezhettek és pipálhattok megállókat, a változások másodperceken belül megjelennek."
+        ],
+        [
+          "Kell az alkalmazás annak, akivel megosztom?",
+          "A Send copy esetén nem: a link bármely webböngészőben megnyílik. Az alkalmazással elmenthetik az utat a saját útjaik közé."
+        ],
+        [
+          "Kell fiók egy út megosztásához?",
+          "Nem. A KiwiCampingben nincs fiók, a megosztás iCloudon keresztül működik."
+        ],
+        [
+          "Betehetem az utamat a naptáramba?",
+          "Igen. Kapcsold be a Sync to calendar funkciót az úthoz, és a megállók és dátumok megjelennek a naptáradban."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: szabadtéri szándékok"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "WikiCamps útvonaltervező alternatíva új-zélandi road tripekhez (2027)",
+      "description": "Használtad a WikiCamps útvonaltervezőjét Új-Zélandra? Tervezz a KiwiCampingben: indulj otthonról vagy bármilyen címről, adj hozzá pineket, nézd az útidőket, és tervezz élőben a párroddal.",
+      "region": "Új-Zéland",
+      "imageAlt": "Burkolt országút kanyarog fűcsomós dombok között egy otagói hegyi hágó felé",
+      "intro": "Ha a WikiCamps útvonaltervezőjével térképezted fel Új-Zélandot, a KiwiCamping egyszerűbb módja ugyanennek a road tripnek a megtervezésére. Indulj otthonról vagy bármilyen címről, add hozzá a kempingeket, címeket és saját pineket megállóként, és nézd meg minden szakasz távolságát és vezetési idejét, fiók és reklámok nélkül. A KiwiCampinget mi készítjük, és itt van, hogyan működik a tervezés egy új-zélandi úthoz.",
+      "sections": [
+        {
+          "heading": "Miért keresnek mást a WikiCamps útvonaltervező felhasználói",
+          "body": [
+            "A WikiCamps nagy frissítése óta sokan azt mondják, hogy az app macerássá vált, a legrosszabb pillanatokban kijelentkezteti őket, és váratlan reklámokat mutat egy megvásárolt appban.",
+            "Ha <a data-guide=\"switch-from-wikicamps-nz\">átállsz a WikiCampsről</a>, a jó hír az, hogy egy egész út átköltöztethető egy este alatt."
+          ],
+          "tips": [
+            "Macerás a frissítés óta",
+            "A legrosszabb pillanatban kijelentkeztet",
+            "Reklámok egy fizetős appban"
+          ]
+        },
+        {
+          "heading": "Indulás otthonról, érkezés haza",
+          "body": [
+            "Add meg az otthoni címedet egyszer a Te fülön, és az <a data-guide=\"plan-trip-kiwicamping\">útvonaltervező</a> minden úton újra felhasználja. Az Indulás otthonról és az Érkezés haza egy-egy koppintás.",
+            "Látogatóban vagy? Bármilyen cím lehet megálló, így indulhatsz a reptérről, az autókölcsönzőtől vagy az első éjszakai szállásodról."
+          ],
+          "tips": [
+            "Az otthont csak egyszer add meg",
+            "Indulás és érkezés otthon",
+            "Vagy indulj a reptérről"
+          ]
+        },
+        {
+          "heading": "Bármilyen megálló a KiwiCampingben: helyek, címek és pinek",
+          "body": [
+            "Koppints a Megálló hozzáadása gombra, és egyetlen keresés megtalálja az Otthont, az aktuális helyzetedet, a mentett pineket, az appban lévő helyeket vagy bármilyen címet. Találtál egy remek saját helyet? Tegyél le egy pint, és koppints az Út hozzáadása gombra.",
+            "Az útvonal újrarajzolódik minden szakasz kilométereivel és vezetési idejével. Húzd a megállókat abba a sorrendbe, ahogy haladni fogsz, adj mindegyiknek érkezési dátumot, és írj jegyzetet a foglalási számhoz vagy a kapukódhoz."
+          ],
+          "tips": [
+            "Egy keresés minden megállótípushoz",
+            "A pinek közvetlenül bekerülnek",
+            "Távolság és vezetési idő szakaszonként"
+          ],
+          "table": {
+            "caption": "Tervezési feladatok és helyük a KiwiCamping útvonaltervezőjében.",
+            "head": [
+              "Feladat",
+              "A KiwiCampingben"
+            ],
+            "rows": [
+              [
+                "Indulás és érkezés",
+                "Indulás otthonról és Érkezés haza, vagy bármilyen cím"
+              ],
+              [
+                "Megállók hozzáadása",
+                "Helyek, címek, a helyzeted és pinek"
+              ],
+              [
+                "Megállók sorba rendezése",
+                "Húzással átrendezhető; az útvonal frissül"
+              ],
+              [
+                "Vezetési idők",
+                "Távolság és vezetési idő minden megállóhoz"
+              ],
+              [
+                "Dátumok és jegyzetek",
+                "Érkezési dátum és jegyzet minden megállón"
+              ],
+              [
+                "Tervezés a párroddal",
+                "Együttműködés élőben, iCloudon keresztül"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Tervezz Új-Zéland fix pontjai köré",
+          "body": [
+            "A lefoglalt Great Walk kunyhók, a nyáron foglalást igénylő <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingek</a> és a Cook Strait komp a legtöbb út alakját meghatározzák. Ezeket add hozzá először, és hagyj mindent rugalmasan közöttük.",
+            "A kilométereknél jobban figyeld a vezetési időket. A kanyargós utak és hágók miatt az új-zélandi <a data-guide=\"new-zealand-driving-day-planner\">vezetős napok</a> lassabbak, mint amilyennek látszanak, ezért bontsd fel azt a szakaszt, amelyik az egész napot felemészti. A szűrők segítenek betölteni a réseket: a Kutyák megengedettek, a 4WD-hozzáférés és a Lakókocsi-hozzáférés a saját Háziállatok és megközelítés szakaszukban találhatók."
+          ],
+          "tips": [
+            "Először a fix éjszakák",
+            "Figyeld a vezetési időket",
+            "Szűrők a résekre"
+          ]
+        },
+        {
+          "heading": "Úton a tervvel",
+          "body": [
+            "Pipáld ki a megállókat útközben, és nézd meg az időjárást a következőknél. A bevásárlást, a foglalásokat és a komp bejelentkezését tartsd az út Teendők listáján.",
+            "A Te fül számon tartja az eredményeidet: egy térkép, amely kitöltődik a meglátogatott régiókkal, mennyit láttál Új-Zélandból, a megtett kilométerek és a kempingezett éjszakák."
+          ],
+          "tips": [
+            "Pipáld ki a megállókat",
+            "Időjárás és Teendők lista",
+            "Utazási térkép és statisztika"
+          ]
+        },
+        {
+          "heading": "Tervezzetek együtt, és nézd át laptopon",
+          "body": [
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Oszd meg az utat</a> az Együttműködéssel, és a párod élőben hozzáadhat, átrendezhet és kipipálhat megállókat veled együtt. A Másolat küldése egy hivatkozást ad, amely bármelyik böngészőben megnyílik, így otthon laptopon átnézheted a tervet.",
+            "A Megosztás képként képet készít az útvonalról, a megállókról, a dátumokról és az éjszakákról a családi csevegéshez. Kapcsold be a Szinkronizálás a naptárral opciót, és az út a naptáradba is bekerül. A KiwiCamping ingyenesen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "Élő együttműködés",
+            "Nyisd meg laptopon",
+            "Naptár-szinkronizálás"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Melyik a legjobb útvonaltervező app Új-Zélandra?",
+          "Kempinges road tripekhez a KiwiCamping, amit mi készítünk: indulj otthonról vagy bármilyen címről, adj hozzá helyeket és pineket, nézd az útidőket, és tervezz élőben a párroddal, fiók és reklámok nélkül."
+        ],
+        [
+          "Hogyan tervezzek lakóautós útvonalat Új-Zélandon?",
+          "Először add hozzá a lefoglalt éjszakákat és a kompot, majd töltsd fel a megállókat vezetési sorrendben. A legtöbb napon tartsd három-négy óra vezetés alatt."
+        ],
+        [
+          "Exportálhatom a WikiCamps utamat?",
+          "Írd fel a WikiCamps megállóidat, és építsd újra az útvonalat a KiwiCampingben. Egy keresés lefedi a kempingeket, az utcai címeket és a saját pineket."
+        ],
+        [
+          "Mutatja a KiwiCamping a megállók közötti vezetési időket?",
+          "Igen. Az útvonal minden szakasza megmutatja, milyen messze van, és mennyi ideig tart az út."
+        ],
+        [
+          "Indíthatom az utat a szállásomról vagy a reptérről?",
+          "Igen. Használd az Indulás otthonról funkciót a mentett otthoni címeddel, vagy add hozzá bármelyik címet, például a repteret, első megállóként."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "NZTA Journeys: útviszonyok és lezárások"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "Új-zélandi Great Walks 2026/27: kunyhók, kempingek, foglalási dátumok és díjak",
       "description": "Mind a 11 Great Walk egymás mellett: melyiken van kemping, melyiket kell egész évben foglalni, mikor nyílt a 2026/27-es foglalás, a kunyhó- és kempingdíjak új-zélandiaknak és külföldieknek, és mi változott ebben a szezonban.",
@@ -36298,6 +37012,743 @@
         },
         {
           "label": "DOC: Hawke's Bay"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-worth-it": {
+      "title": "Megéri a WikiCamps NZ egy 2027-es új-zélandi utazáshoz?",
+      "description": "Megéri a WikiCamps NZ 2027-ben? NZ$7.99-ba kerül, fiókot kér és hirdetéseket mutat. Miért váltanak a kempingezők a KiwiCampingra: nincs bejelentkezés, nincs hirdetés, és minden DOC kemping egy térképen.",
+      "region": "Új-Zéland",
+      "imageAlt": "Fehér lakóautó áll nyílt füves területen a West Coast sűrű bozótosa előtt",
+      "intro": "Megéri a WikiCamps NZ 2027-ben? Csak NZ$7.99-ba kerül, de a WikiCamps nagy frissítése óta fiók kell a használatához, és az alkalmazás hirdetéseket mutat, pedig már fizetett érte. Sok felhasználó szerint az új verzió nehezebben kezelhető, és folyton kijelentkezteti őket. Mi készítjük a KiwiCampingot, egy új-zélandi kempingalkalmazást fiók és hirdetés nélkül, minden DOC kempinggel, kunyhóval és túraúttal egy térképen. Íme, miért éri meg váltani.",
+      "sections": [
+        {
+          "heading": "Megéri a WikiCamps NZ? A rövid válasz",
+          "body": [
+            "A WikiCamps NZ olcsó, és sokan még mindig használják. A bökkenő az, ami az új verzióval jött: egy fiók, amelybe be kell jelentkezni, egy e-mailben küldött kód, és hirdetések egy már megvásárolt alkalmazásban.",
+            "Sok WikiCamps-felhasználó szerint az alkalmazás folyton kijelentkezteti őket, ami nem túl jó, ha térerő nélküli helyen parkolsz. Ha inkább megnyitnál egy alkalmazást, és rögtön látnád, hol alhatsz ma este, a KiwiCamping erre készült."
+          ],
+          "tips": [
+            "Olcsó, de fiók kell hozzá",
+            "Hirdetések egy fizetős alkalmazásban",
+            "KiwiCamping: nincs bejelentkezés, nincs hirdetés"
+          ],
+          "table": {
+            "caption": "A WikiCamps NZ és a KiwiCamping egymás mellett.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Ár",
+                "NZ$7.99",
+                "Ingyenesen letölthető, alkalmazáson belüli vásárlásokkal"
+              ],
+              [
+                "Fiók",
+                "Kötelező, e-mailben kapott kóddal",
+                "Nincs"
+              ],
+              [
+                "Hirdetések",
+                "Vannak",
+                "Nincsenek"
+              ],
+              [
+                "DOC kempingek, kunyhók és túraútak",
+                "A felhasználók adják hozzá",
+                "Mind, közvetlenül a DOC-tól"
+              ],
+              [
+                "Több szűrő kiválasztása",
+                "A felhasználók szerint bármelyiknek megfelelő helyek jelennek meg",
+                "A helynek mindegyiknek meg kell felelnie"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nincs bejelentkezés, nincs hirdetés, rögtön a térkép",
+          "body": [
+            "Nyisd meg a KiwiCampingot, és máris Új-Zéland térképét nézed. Nem kell fiókot létrehozni, jelszót megjegyezni vagy kódra várni, így semmi nem akaszt meg egy West Coast-i kempingben.",
+            "Válassz egy szűrőt, koppints egy helyre a díjak és a szolgáltatások megtekintéséhez, majd add hozzá az utadhoz. Ennyi az egész. Sehol nincs hirdetés, a mentett helyeid és utaid pedig privátan szinkronizálódnak az iPhone-odon már meglévő iCloudon keresztül."
+          ],
+          "tips": [
+            "A térképpel indul",
+            "Nincs mibe bejelentkezni",
+            "Sehol sincs hirdetés"
+          ]
+        },
+        {
+          "heading": "Minden DOC kemping, kunyhó és túraút",
+          "body": [
+            "A KiwiCamping a Department of Conservation saját adataira épül. Minden <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kemping</a>, kunyhó és túraút rajta van a térképen a díjával, a kutyákra vonatkozó szabályaival és azzal, hogy kell-e foglalni, valamint egy hivatkozással a DOC oldalára, amikor készen állsz.",
+            "A DOC <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezésre</a> vonatkozó közleményei is benne vannak, így még a behajtás előtt láthatod, hol tilos a kempingezés védett területen. Városok és strandok környékén a helyi önkormányzat szabályai és a helyszíni tábla döntenek."
+          ],
+          "tips": [
+            "DOC díjak, kutyaszabályok és foglalások",
+            "DOC szabad kempingezési közlemények",
+            "Minden helyhez DOC-hivatkozás"
+          ]
+        },
+        {
+          "heading": "Szűrők, amelyek megtalálják a megfelelő helyet",
+          "body": [
+            "A Kutyák megengedettek, a 4WD-hozzáférés és a Lakókocsi-hozzáférés külön Háziállatok és hozzáférés szekciót kapott a <a data-guide=\"kiwicamping-filters-guide\">szűrők</a> között. Az olyan népszerű jellemzők, mint a WC, a víz és a zuhany tovább szűkítik a találatokat.",
+            "Ha többet választasz, a helynek mindegyikkel rendelkeznie kell, így a Lakóautók, Meleg zuhany és Kutyák megengedettek együtt csak azokat a helyeket mutatja, amelyek mindhárom feltételnek megfelelnek. Sok WikiCamps-felhasználó szerint annak szűrői ehelyett bármelyik választásnak megfelelő helyeket mutatnak. Állítsd a költséget Ingyenesre, és megjelennek a DOC ingyenes kempingjei."
+          ],
+          "tips": [
+            "Kutyák megengedettek, 4WD és lakókocsi-hozzáférés",
+            "Minden szűrőnek meg kell felelni",
+            "Ingyenes DOC kempingek költség szerint"
+          ]
+        },
+        {
+          "heading": "Tervezd meg az utat a magad módján, és közösen",
+          "body": [
+            "Add meg egyszer az otthoni címedet a Te fülön, majd koppints bármelyik úton az Indulás otthonról vagy a Befejezés otthon gombra. A megálló hozzáadása a mentett tűzőid, az alkalmazás helyei, az aktuális helyzeted vagy bármely cím között keres, így a saját kedvenc helyeid is bekerülhetnek. Minden megálló megjelenik az útvonalon a távolságával és a vezetési idejével.",
+            "Ketten utaztok? Koppints az úton a Megosztás gombra, és válaszd az Együttműködés lehetőséget. Mindketten hozzáadhattok, átrendezhettek és kipipálhattok megállókat, a változások pár másodpercen belül megjelennek a másiknál, fiók vagy bejelentkezés nélkül. Az otthon maradt családnak a Másolat küldése olyan hivatkozást ad, amely bármely webböngészőben megnyitható."
+          ],
+          "tips": [
+            "Indulás és befejezés otthon",
+            "Bármilyen cím vagy tűző hozzáadása",
+            "Élő tervezés az Együttműködéssel"
+          ]
+        },
+        {
+          "heading": "Miért váltanak a kempingezők a KiwiCampingra",
+          "body": [
+            "Túrázol vagy Great Walks útvonalon jársz: a DOC kunyhódíjai és foglalási követelményei ott vannak, foglalási hivatkozással. Lakóautóval vagy lakókocsival utazol: a Lakóautók és a Lakókocsi-hozzáférés <a data-guide=\"kiwicamping-filters-guide\">szűrők</a> elvégzik a válogatást helyetted. Párban utaztok: az Együttműködés egyetlen utat tart mindkét telefonon.",
+            "Útközben a Te fül kitölt egy térképet azokról a helyekről, ahol jártál, megmutatja, mennyit láttál Új-Zélandból, és számolja a kilométereidet, a kempingben töltött éjszakáidat és a meglátogatott helyeket. A KiwiCamping ingyenesen letölthető, alkalmazáson belüli vásárlásokkal, fiók és hirdetés nélkül."
+          ],
+          "tips": [
+            "Kunyhók és Great Walks",
+            "Lakóautók és lakókocsik",
+            "Térkép arról, hol jártál"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Megéri a WikiCamps NZ 2027-ben?",
+          "NZ$7.99-ért olcsó, de fiók kell hozzá, és hirdetéseket mutat. Ha bejelentkezés és hirdetés nélkül szeretnéd, a KiwiCamping ingyenesen letölthető, alkalmazáson belüli vásárlásokkal."
+        ],
+        [
+          "Jó a WikiCamps NZ lakóautós utazáshoz?",
+          "Működik, de be kell maradnod jelentkezve, és sok felhasználó szerint kijelentkezteti őket. A KiwiCampinghoz nem kell fiók, és van Lakóautók és Lakókocsi-hozzáférés szűrője."
+        ],
+        [
+          "Kell nekem a WikiCamps Új-Zélandhoz?",
+          "Nem. A KiwiCamping megmutat minden DOC kempinget, kunyhót és túraútat, valamint a DOC szabad kempingezési közleményeit, fiók nélkül."
+        ],
+        [
+          "Melyik a legjobb kempingalkalmazás Új-Zélandhoz?",
+          "Szerintünk a KiwiCamping, amelyet mi készítünk: minden DOC kemping, kunyhó és túraút, szűrők, amelyeknek mindnek meg kell felelni, élő útmegosztás, hirdetés és bejelentkezés nélkül."
+        ],
+        [
+          "Jó alternatíva a KiwiCamping a WikiCampsre?",
+          "Igen. Fiók nélkül rögtön a térképpel nyílik meg, nem mutat hirdetést, és lehetővé teszi, hogy a társaddal élőben tervezz utat."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "DOC: szabad kempingezés"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-vs-kiwicamping": {
+      "title": "WikiCamps NZ vs KiwiCamping: melyik kempingapp Új-Zélandra? (2027)",
+      "description": "WikiCamps NZ vs KiwiCamping 2027-ben: ár, bejelentkezés, hirdetések, DOC kempingek és menedékházak, szűrők és közös útvonaltervezés. Miért egyszerűbb a KiwiCamping egy új-zélandi úton.",
+      "region": "Új-Zéland",
+      "imageAlt": "A Rangitīkei folyó kanyarog a Vinegar Hill melletti folyóparti kemping mellett, a fenti teraszról a bokrokon át nézve",
+      "intro": "WikiCamps NZ vs KiwiCamping: melyik kempingappot vidd magaddal Új-Zélandon? A KiwiCamping ingyen letölthető, nem kér fiókot és nincs benne hirdetés, a WikiCamps NZ viszont 7,99 NZ$-ba kerül, bejelentkezést kér és hirdetéseket mutat. Mi készítjük a KiwiCampinget, ezért itt összevetjük a kettőt azokban a dolgokban, amelyek útközben számítanak.",
+      "sections": [
+        {
+          "heading": "WikiCamps NZ vs KiwiCamping dióhéjban",
+          "body": [
+            "A rövid változat: a KiwiCamping az, amit rögtön megnyithatsz és használhatsz. Nincs bejelentkezés, nincs hirdetés, minden kempinghez, menedékházhoz és túraútvonalhoz a DOC saját adatai tartoznak, és az utat élőben tervezheted a párodkal.",
+            "A WikiCamps a G'day Group tulajdona, amely a Discovery Parks és a G'day Parks mögött áll. A KiwiCamping független, és az ingyenes <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingeket</a> ugyanazon a térképen mutatja, mint a fizetős nyaralóparkokat."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "A két app összehasonlítása a lényeges pontokon.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Ár",
+                "7,99 NZ$",
+                "Ingyen letölthető, appon belüli vásárlásokkal"
+              ],
+              [
+                "Fiók",
+                "Kell, e-mailes kóddal lehet belépni",
+                "Nincs, nincs mibe belépni"
+              ],
+              [
+                "Hirdetések",
+                "Vannak",
+                "Nincsenek"
+              ],
+              [
+                "DOC kempingek, menedékházak és ösvények",
+                "A felhasználók listázzák",
+                "Mind, a DOC saját adataiból"
+              ],
+              [
+                "Több szűrő egyszerre",
+                "A felhasználók szerint bármelyikre illeszkedő helyek jönnek",
+                "A helynek mindegyikre illeszkednie kell"
+              ],
+              [
+                "Tervezés a párral",
+                "Útvonallink megosztása",
+                "Élőben, a Collaborate funkcióval"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Bejelentkezés: egy fiók, vagy semmi",
+          "body": [
+            "A WikiCamps nagy frissítése óta a belépéshez WikiCamps-fiók és egy e-mailben küldött kód kell. Sok felhasználó szerint az app utána kijelentkezteti őket, az újbóli belépéshez pedig olyan jel kell, amely a kempingben talán nincs.",
+            "A KiwiCampingben egyszerűen nincs fiók. Nincs mibe belépni, nincs kód és nincs kijelentkeztetés, így Haastban is ugyanúgy megnyílik, mint Aucklandben. A mentett helyeid és utaid privát módon, a saját iCloudodon keresztül szinkronizálódnak."
+          ],
+          "tips": [
+            "WikiCamps NZ: fiók és e-mailes kód",
+            "KiwiCamping: nincs fiók",
+            "Privát iCloud-szinkronizálás"
+          ]
+        },
+        {
+          "heading": "Könnyű használat: megnyitod, és már a térképen vagy",
+          "body": [
+            "A WikiCamps-felhasználók leggyakoribb panasza, hogy az új verzió nehezebben használható a réginél. A KiwiCamping szándékosan kevés lépésből áll, hogy az app ne álljon az utazás útjába.",
+            "Megnyitod, és ott van Új-Zéland térképe. Válassz szűrőt, például Lakóautók és Meleg zuhany, koppints egy tűre a díjak, a felszereltség és a DOC megjegyzéseinek elolvasásához, és ugyanarról az oldalról add hozzá az úthoz."
+          ],
+          "tips": [
+            "A térképen nyílik meg",
+            "Szűrés, koppintás, hozzáadás",
+            "A részletek egy koppintásra"
+          ]
+        },
+        {
+          "heading": "DOC kempingek, menedékházak és ösvények, egyenesen a DOC-tól",
+          "body": [
+            "A KiwiCampingben minden <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kemping</a>, menedékház és ösvény a Department of Conservation saját adataiból származik. Mindegyiknél látszik a díj, hogy nyitva van-e, szabad-e kutyát vinni, kell-e foglalni, és az aktuális figyelmeztetés, a DOC weboldalán lévő oldalára mutató linkkel.",
+            "A DOC <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezésre</a> vonatkozó közleményei ugyanazon a térképen vannak, és megmutatják, hol tilos vagy korlátozott a kempingezés a védett területeken. A WikiCamps NZ-ben a DOC-helyeket a felhasználók listázzák, így egy díj vagy egy zárva tartás csak akkor változik, ha valaki frissíti."
+          ],
+          "tips": [
+            "A DOC díjai, kutyaszabályai és figyelmeztetései",
+            "DOC-közlemények a szabad kempingezésről",
+            "Minden helyhez link a DOC-ra"
+          ]
+        },
+        {
+          "heading": "Szűrők: Kutya bevihető, 4WD-megközelítés és Lakókocsi-megközelítés",
+          "body": [
+            "A három leggyakrabban kért szűrőnek külön Háziállatok és megközelíthetőség szakasza van a KiwiCamping szűrői között, közvetlenül a Költség után. A népszerű szolgáltatások, mint a mosdó, a víz, a zuhany és a <a data-guide=\"campfire-rules-new-zealand\">Tábortűz</a> tovább szűkítik a találatokat.",
+            "Ha többet választasz, a helynek mindegyikkel rendelkeznie kell. A WikiCamps NZ felhasználói szerint ott több <a data-guide=\"kiwicamping-filters-guide\">szűrő</a> kiválasztásakor a bármelyikkel rendelkező helyek jelennek meg, ami hosszabb listát eredményez, amit át kell nézni."
+          ],
+          "tips": [
+            "Háziállatok és megközelíthetőség, a Költség után",
+            "Minden választásnak egyeznie kell",
+            "Költség-szűrő az ingyenes DOC-helyekhez"
+          ]
+        },
+        {
+          "heading": "Útvonaltervezés Otthonnal, bármilyen címmel és saját tűkkel",
+          "body": [
+            "Állítsd be az otthonodat egyszer a Te fülön, majd bármelyik utat egy koppintással onnan indíthatod vagy ott fejezheted be. A Megálló hozzáadása az appban talál helyeket, a mentett tűidet, az aktuális helyzetedet vagy bármilyen utcacímet, így a nelsoni barát háza és a tavaly nyáron felfedezett strand is belefér. Minden megállónál látszik a távolság és a vezetési idő.",
+            "Dobj egy tűt a térképre, koppints az Hozzáadás az úthoz gombra, és úgy csatlakozik az útvonalhoz, mint bármelyik másik megálló. Minden megállónak saját dátuma, jegyzete és időjárása is van."
+          ],
+          "tips": [
+            "Indulás és érkezés Otthon",
+            "Bármilyen cím vagy lerakott tű",
+            "Távolság és vezetési idő megállónként"
+          ]
+        },
+        {
+          "heading": "Megosztás: tervezzetek együtt élőben, vagy küldj másolatot",
+          "body": [
+            "Koppints a Megosztás gombra egy úton vagy gyűjteményen, és válaszd a Collaborate lehetőséget, hogy iCloudon keresztül meghívd a párodat. Mindketten hozzáadhattok megállókat, átrendezhetitek, kipipálhatjátok és szerkeszthetitek a jegyzeteket, a változások másodpercek alatt megjelennek, fiók és bejelentkezés nélkül.",
+            "A Másolat küldése olyan linket készít, amelyet bárki megnyithat egy webböngészőben, és láthatja a megállókat, dátumokat és jegyzeteket; ideális az otthon maradt családnak. A Megosztás képként az utat képpé alakítja az útvonallal, a megállókkal és az éjszakákkal, a megosztott hely pedig közvetlenül az appban nyílik meg azoknak a barátoknak, akiknek megvan."
+          ],
+          "tips": [
+            "Collaborate: egy út, két telefon",
+            "A Másolat küldése bármelyik böngészőben megnyílik",
+            "Megosztás képként"
+          ]
+        },
+        {
+          "heading": "Miért a KiwiCampinget választják az átváltók",
+          "body": [
+            "Ez a nyugodtabb módja a kempingezésnek Új-Zélandon: megnyitod, találsz egy helyet, indulsz. Nincs hirdetés, nincs fiók, a DOC saját adatai vannak benne, és egy út, amelyet ketten egyszerre tervezhettek.",
+            "A Te fül egy kis szórakozást is ad: a térkép kitöltődik azokkal a régiókkal, ahol jártál. A KiwiCamping ingyen letölthető, appon belüli vásárlásokkal, és a <a data-guide=\"is-wikicamps-nz-worth-it\">WikiCamps NZ megéri-e</a> kérdésre adott véleményünk részletesebben tárgyalja az árkérdést."
+          ],
+          "tips": [
+            "Nincs hirdetés, nincs fiók",
+            "A DOC saját adatai",
+            "Tervezzetek együtt élőben"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jobb a KiwiCamping, mint a WikiCamps NZ?",
+          "A legtöbb új-zélandi útra szerintünk igen: nincs fiók, nincs hirdetés, a DOC saját kemping- és menedékházadatai vannak benne, és élőben megoszthatod az utat a párodkal."
+        ],
+        [
+          "Kell fiók a KiwiCampinghez?",
+          "Nem. Nincs fiók, jelszó vagy kód, a szinkronizálást a saját iCloudod végzi."
+        ],
+        [
+          "Mutatja a KiwiCamping a DOC kempingeket és menedékházakat?",
+          "Igen. Minden DOC kemping, menedékház és ösvény fent van a térképen, a DOC díjaival, kutyaszabályaival és foglalási követelményeivel."
+        ],
+        [
+          "Tervezhetünk a párommal közösen utat a KiwiCampingben?",
+          "Igen. Oszd meg az utat, és válaszd a Collaborate lehetőséget. Mindketten ugyanazt az utat szerkesztitek, és másodpercek alatt látjátok egymás változtatásait."
+        ],
+        [
+          "Működik a KiwiCamping térerő nélkül?",
+          "A helyek részletei, a díjak és a felszereltség, valamint a mentett helyeid és utaid a telefonodon maradnak, így térerő nélkül is elolvashatod őket."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "DOC: szabad kempingezés védett területen"
+        },
+        {
+          "label": "DOC: online foglalás"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "Ingyenes a WikiCamps NZ? Ár, fiók és hirdetések 2027-ben",
+      "description": "Ingyenes a WikiCamps NZ 2027-ben? Nem: egyszer NZ$7.99, fiók kell, és hirdetéseket mutat. Mit fizetsz, és egy új-zélandi kempingapp, amelyet ingyen tölthetsz le, bejelentkezés és hirdetés nélkül.",
+      "region": "Új-Zéland",
+      "imageAlt": "Lila virágokkal festett kis bérelt lakóautó, az Akaroa vízpartja mellett parkolva",
+      "intro": "Ingyenes a WikiCamps NZ? Nem. A WikiCamps NZ egyszeri vásárlás, NZ$7.99, előfizetés nélkül. Az áron felül WikiCamps-fiók kell, az app hirdetéseket mutat, és a WikiCamps Ausztráliát külön appként adja el. Mi készítjük a KiwiCampingot, egy új-zélandi kempingappot, amelyet ingyen tölthetsz le, alkalmazáson belüli vásárlásokkal, hirdetés és bejelentkezés nélkül. Itt van, mennyibe kerül a WikiCamps NZ, és mi jár hozzá.",
+      "sections": [
+        {
+          "heading": "Mennyibe kerül a WikiCamps NZ",
+          "body": [
+            "A WikiCamps NZ NZ$7.99, egyszer fizeted, és a WikiCamps szerint nincs előfizetés vagy rejtett díj. Az ár platformonként szól, ezért más típusú telefonra váltva újra meg kell venni.",
+            "Minden ország külön app. Ha az utad Sydney-ben kezdődik és Christchurch-ben ér véget, a WikiCamps Australia-t is meg kell venni, és két appban tartod a mentett helyek két készletét."
+          ],
+          "tips": [
+            "NZ$7.99 egyszer",
+            "Nincs előfizetés",
+            "Minden ország külön app"
+          ],
+          "table": {
+            "caption": "Mit kér tőled az egyes app.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Az app megszerzése",
+                "NZ$7.99",
+                "Ingyen letölthető, alkalmazáson belüli vásárlásokkal"
+              ],
+              [
+                "Fiók",
+                "Kell, e-mail-kóddal",
+                "Nincs"
+              ],
+              [
+                "Hirdetések",
+                "Igen",
+                "Nincs"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hirdetések egy appban, amiért fizettél",
+          "body": [
+            "Sok WikiCamps-felhasználó azt mondja, nem örül a hirdetéseknek egy appban, amiért fizetett. A WikiCamps nagy frissítése óta ez az egyik leggyakoribb panasz.",
+            "A KiwiCampingban egyáltalán nincs hirdetés: sem a térképen, sem egy hely oldalán, sem az utakban. Független minden üdülőpark-csoporttól, és az ingyenes <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingek</a> ugyanazon a térképen jelennek meg, mint a fizetős üdülőparkok."
+          ],
+          "tips": [
+            "A WikiCamps NZ hirdetéseket mutat",
+            "KiwiCamping: nincs",
+            "Független"
+          ]
+        },
+        {
+          "heading": "A vásárláshoz fiók jár",
+          "body": [
+            "A WikiCamps NZ WikiCamps-fiókot kér, és az e-mailre küldött kóddal jelentkezel be. Sok felhasználó szerint kijelentkeztet, és a visszalépéshez térerő kell.",
+            "A KiwiCampingba nincs mit belépni. Letöltöd, megnyitod, és a térképet látod, e-mail, jelszó vagy kód nélkül. Egy új iPhone az iCloudon keresztül veszi át a mentett helyeidet és utaidat."
+          ],
+          "tips": [
+            "WikiCamps NZ: fiók és e-mail-kód",
+            "KiwiCamping: nyisd meg és indulj",
+            "Az utaid az iCloudon követnek"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: ingyen letölthető, bejelentkezés nélkül",
+          "body": [
+            "A KiwiCamping minden DOC kempinget, kunyhót és ösvényt egy térképre tesz, a díjjal, a kutyaszabályokkal és a foglalási igénnyel, amit a DOC közöl, plusz a DOC közleményeivel a <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingről</a> a természetvédelmi területen. A hely adatai a telefonodon maradnak, így térerő nélkül is elolvashatod.",
+            "Használata gyors. Nyisd meg az appot, válassz szűrőt, például Kutyák engedélyezve vagy Lakókocsi-behajtás, koppints egy tűre a részletekért, és add hozzá egy úthoz, amely mutatja a távolságot és a vezetési időt a megállók között."
+          ],
+          "tips": [
+            "Minden DOC kemping, kunyhó és ösvény",
+            "Nincs fiók, nincs hirdetés",
+            "A részletek térerő nélkül olvashatók"
+          ]
+        },
+        {
+          "heading": "Ingyenes kempingek keresése Új-Zélandon",
+          "body": [
+            "Sokan, akik ingyenes appot keresnek, valójában ingyenes éjszakákat akarnak. A KiwiCampingban állítsd a Költség szűrőt Ingyenesre, és a DOC ingyenes kempingjei megjelennek. Adj hozzá Vécét, Vízellátást vagy Lakóautókat, és a helynek minden választott feltételnek meg kell felelnie.",
+            "Az ingyenes DOC kempingek többnyire egyszerűek, gyakran gödörvécével és patak- vagy tartályvízzel, és némelyik rövid sétára van az úttól. A szabad kemping a városokban külön kérdés, és a <a data-guide=\"freedom-camping-rules-new-zealand\">szabad kemping szabályai</a> útmutatónk elmagyarázza."
+          ],
+          "tips": [
+            "Költség szűrő: ingyenes DOC kempingek",
+            "Minden szűrőnek egyeznie kell",
+            "Az ingyenes helyek többnyire egyszerűek"
+          ]
+        },
+        {
+          "heading": "Több, mint kempingek listája",
+          "body": [
+            "Add meg az otthoni címed egyszer a You lapon, és minden út onnan indulhat és ott érhet véget. Az Add stop bármilyen címet vagy ledobott tűt elfogad, a Collaborate pedig azt engedi, hogy a pároddal élőben ugyanazt az utat tervezzétek, fiók nélkül.",
+            "A You lap azt is őrzi, hol jártál, Új-Zéland mekkora részét láttad, valamint a kilométereidet és a kempingéjszakáidat: szép emléke az útnak."
+          ],
+          "tips": [
+            "Otthon egy koppintással",
+            "Bármilyen cím vagy tű",
+            "Térkép arról, hol jártál"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ingyenes a WikiCamps NZ?",
+          "Nem. Egyszer NZ$7.99, előfizetés nélkül. Fiók is kell, és hirdetéseket mutat."
+        ],
+        [
+          "Mennyibe kerül a WikiCamps Új-Zélandon?",
+          "A WikiCamps NZ NZ$7.99. A WikiCamps Australia külön app, amelyet külön veszel meg."
+        ],
+        [
+          "A WikiCamps előfizetés?",
+          "Nem. A WikiCamps szerint egyszeri vásárlás, előfizetés és rejtett díj nélkül."
+        ],
+        [
+          "Egy WikiCamps-vásárlás lefedi Ausztráliát és Új-Zélandot?",
+          "Nem. A WikiCamps NZ és a WikiCamps Australia külön appok, mindegyiket külön kell megvenni."
+        ],
+        [
+          "Van ingyenes kempingapp Új-Zélandra?",
+          "A KiwiCamping ingyen letölthető, alkalmazáson belüli vásárlásokkal, hirdetés és bejelentkezés nélkül. A költség szűrője megtalálja a DOC ingyenes kempingjeit."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: kempingkategóriák és díjak"
+        },
+        {
+          "label": "DOC: szabad kemping természetvédelmi területen"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-vs-wikicamps-nz": {
+      "title": "CamperMate vs WikiCamps NZ 2027-ben, és egy harmadik lehetőség",
+      "description": "CamperMate vagy WikiCamps Új-Zélandra 2027-ben? Összehasonlítás ár, hirdetések és bejelentkezés alapján, és hogy miért a KiwiCamping, bejelentkezés és hirdetések nélkül, a kempingezők harmadik választása.",
+      "region": "Új-Zéland",
+      "imageAlt": "Négy lakóautó egymás mellett parkol egy kavicsos területen a tenger felett, a Catlins vidékén lévő Tautuku Bay-nél",
+      "intro": "A CamperMate és a WikiCamps NZ között az ár és a bejelentkezés dönt: a CamperMate ingyenes, a WikiCamps NZ egyszeri NZ$7.99, fiókot igényel, és mindkettő hirdetéseket mutat. Mi készítjük a KiwiCampinget, a harmadik lehetőséget hirdetések és bejelentkezés nélkül, a DOC kempingjei, menedékházai és ösvényei köré építve, és szerintünk ezzel a legkönnyebb az új-zélandi út.",
+      "sections": [
+        {
+          "heading": "CamperMate vs WikiCamps dióhéjban",
+          "body": [
+            "Sok lakóautós utazó mérlegeli ezt a kettőt még érkezés előtt. A CamperMate nem kerül semmibe, a WikiCamps NZ viszont fizetős alkalmazás, amely fiókot és e-mailben küldött kódot kér.",
+            "Közös bennük a hirdetés. Ha olyan <a data-guide=\"best-nz-camping-apps\">kempingalkalmazást</a> szeretnél, amelyben nincs sem hirdetés, sem bejelentkezés, ott jön képbe a KiwiCamping."
+          ],
+          "tips": [
+            "CamperMate: ingyenes",
+            "WikiCamps NZ: NZ$7.99 és egy fiók",
+            "Mindkettő hirdetéseket mutat"
+          ],
+          "table": {
+            "caption": "A CamperMate, a WikiCamps NZ és a KiwiCamping összehasonlítása.",
+            "head": [
+              "",
+              "CamperMate",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Ár",
+                "Ingyenes",
+                "NZ$7.99",
+                "Ingyen letölthető, alkalmazáson belüli vásárlásokkal"
+              ],
+              [
+                "Hirdetések",
+                "Vannak",
+                "Vannak",
+                "Nincsenek"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "A CamperMate dióhéjban",
+          "body": [
+            "A CamperMate ingyenes alkalmazás, amely az ország kempingjeit és szolgáltatásait listázza, <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparki</a> foglalásokkal és helyi ajánlatokkal, és hirdetéseket mutat.",
+            "Néhány CamperMate-felhasználó szerint az újratervezéstől lassabb lett, és eltűntek a számukra fontos helyek. Ha ez veled is megtörtént, érdemes kipróbálni egy letisztultabb alkalmazást."
+          ],
+          "tips": [
+            "Ingyenes, hirdetésekkel",
+            "Foglalások és ajánlatok",
+            "Néhány felhasználónak nem tetszik az újratervezés"
+          ]
+        },
+        {
+          "heading": "A WikiCamps NZ dióhéjban",
+          "body": [
+            "A WikiCamps NZ egyszeri NZ$7.99, előfizetés nélkül. A WikiCamps nagy frissítése óta a használatához fiók és e-mailes kód kell, és az alkalmazás hirdetéseket mutat.",
+            "Sok felhasználója szerint az új verzió körülményesebb a réginél, és kijelentkezteti őket, amit a legnehezebb elviselni egy térerő nélküli kempingben. A <a data-guide=\"is-wikicamps-nz-free\">WikiCamps NZ árát</a> bemutató összefoglalónk részletesen foglalkozik az árral."
+          ],
+          "tips": [
+            "Egyszeri NZ$7.99",
+            "Fiók és e-mailes kód",
+            "Hirdetések egy fizetős alkalmazásban"
+          ]
+        },
+        {
+          "heading": "A harmadik lehetőség: KiwiCamping",
+          "body": [
+            "A KiwiCamping közvetlenül a térképen nyílik meg, nincs fiók, amit létre kellene hozni, és nincs hirdetés, amit át kellene görgetni. Minden DOC-kemping, menedékház és ösvény ott van a DOC díjával, a kutyákra vonatkozó szabályokkal és a foglalási igényekkel, a DOC <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezésre</a> vonatkozó figyelmeztetései pedig megmutatják, hol tilos a védett terület.",
+            "A nehezebb munkát a <a data-guide=\"kiwicamping-filters-guide\">szűrők</a> végzik. A Kutyák megengedettek, a 4WD-hozzáférés és a Lakókocsi-hozzáférés a Háziállatok és megközelíthetőség részben külön szerepel, és ha többet választasz, egy helynek mindegyiknek meg kell felelnie. Koppints egy tűre a részletekért, majd add hozzá az utadhoz."
+          ],
+          "tips": [
+            "Nincs fiók, nincs hirdetés",
+            "Minden DOC-kemping, menedékház és ösvény",
+            "Szűrők, amelyeknek mind egyezniük kell"
+          ]
+        },
+        {
+          "heading": "Lakóautós út tervezése a KiwiCampingben",
+          "body": [
+            "Add meg egyszer az otthoni címed, és bármelyik utat egy koppintással onnan indíthatod vagy ott fejezheted be. Az Add stop az alkalmazás helyeit, bármilyen címet vagy egy általad letett tűt fogad el, és minden megálló mutatja a távolságát és az út idejét az útvonalon.",
+            "Ketten vagytok a furgonban? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Oszd meg az utat</a>, és válaszd a Collaborate lehetőséget: mindketten hozzáadhattok és átrendezhettek megállókat, a változások pár másodpercen belül megjelennek, bejelentkezés nélkül. A Send copy linket ad a családnak, hogy bármelyik böngészőben követhessék az útvonaladat."
+          ],
+          "tips": [
+            "Otthon, címek és tűk",
+            "Távolság és vezetési idő",
+            "Közös tervezés a Collaborate funkcióval"
+          ]
+        },
+        {
+          "heading": "Miért teszik a kempingezők a KiwiCampinget az útra",
+          "body": [
+            "A DOC kempingjeinél és a Great Walk menedékházainál a KiwiCamping a DOC saját adatait mutatja, és a foglaláshoz a DOC-hoz irányít. A <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezésnél</a> a DOC figyelmeztetései a térképen a kempingek mellett állnak, így még behajtás előtt látod, mi tilos.",
+            "És nyilvántartást is vezet neked. A You fül kitölti a meglátogatott régiók térképét, és számolja a megtett kilométereket és a kempingben töltött éjszakákat. A KiwiCamping ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "DOC-kempingek és menedékházak",
+            "DOC szabad kempingezési figyelmeztetések",
+            "Az utad nyilvántartása"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jobb a CamperMate vagy a WikiCamps Új-Zélandra?",
+          "A CamperMate ingyenes; a WikiCamps NZ NZ$7.99 és fiókot igényel. Mindkettő hirdetéseket mutat. Hirdetések és bejelentkezés nélkül próbáld a KiwiCampinget."
+        ],
+        [
+          "Ingyenes a CamperMate?",
+          "Igen. A CamperMate ingyen használható, és hirdetéseket mutat."
+        ],
+        [
+          "Melyik kempingalkalmazásban nincsenek hirdetések Új-Zélandon?",
+          "A KiwiCampingben nincs hirdetés és bejelentkezés. Ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+        ],
+        [
+          "Melyik alkalmazást használja a legtöbb lakóautós utazó Új-Zélandon?",
+          "Sokan a CamperMate-et vagy a WikiCamps NZ-t. A KiwiCamping az, amelyben a DOC saját kempingadatai vannak, hirdetések és fiók nélkül."
+        ],
+        [
+          "Melyik alkalmazás mutatja a DOC-kempingeket?",
+          "A KiwiCamping minden DOC-kempinget, menedékházat és ösvényt a DOC saját információi alapján mutat, díjakkal, kutyaszabályokkal és foglalási igényekkel."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "DOC: online foglalás"
+        }
+      ],
+      "priceTable": null
+    },
+    "doc-huts-campsites-app-wikicamps-kiwicamping": {
+      "title": "DOC app Új-Zéland: menedékházak és kempingek, WikiCamps vs KiwiCamping (2027)",
+      "description": "DOC appot keresel Új-Zélandon menedékházakhoz, túraútvonalakhoz és kempingekhez 2027-ben? Így mutatja a KiwiCamping az összes DOC menedékházat és kempinget díjakkal, foglalással és kutyaszabályokkal, bejelentkezés nélkül, a WikiCamps NZ-hez képest.",
+      "region": "Új-Zéland",
+      "imageAlt": "Fából épült DOC menedékház széles, fedett verandával a Rakiura Tracken, Stewart Islanden",
+      "intro": "DOC appot keresel Új-Zélandon menedékházakhoz és kempingekhez? A KiwiCamping egyetlen térképre teszi az összes DOC menedékházat, kempinget és túraútvonalat, a DOC díjaival, kutyaszabályaival és foglalási feltételeivel, és közvetlen linkkel a DOC-hoz, ha foglalnál. Nincs fiók és nincs hirdetés. Mi készítjük a KiwiCampinget, és íme, hogyan segít menedékházak, túraútvonalak és kempingek tervezésében, és hogyan viszonyul a WikiCamps NZ-hez.",
+      "sections": [
+        {
+          "heading": "Mit mutat egy jó DOC app",
+          "body": [
+            "A DOC kategóriákba sorolja a menedékházakat és a kempingeket, és a kategória elárul a legtöbbet arról, mire számíthatsz érkezéskor. Egy jó app ezt világosan mutatja, az éjszakánkénti díjjal együtt, azzal, hogy foglalni kell-e vagy elég megjelenni, hogy engedélyezett-e a kutya, és hogy van-e aktuális figyelmeztetés.",
+            "A KiwiCampingben pontosan ezt látod minden DOC helynél, magából a DOC információiból átvéve, így még otthonról kiválaszthatod a menedékházat, és az út végén újra ellenőrizheted."
+          ],
+          "tips": [
+            "Kategória, díj és foglalás",
+            "Kutyaszabályok és figyelmeztetések",
+            "Közvetlenül a DOC-tól"
+          ],
+          "table": {
+            "caption": "A DOC menedékház-kategóriák röviden.",
+            "head": [
+              "Menedékház kategóriája",
+              "Mire számíthatsz"
+            ],
+            "rows": [
+              [
+                "Great Walk menedékház",
+                "A Great Walks szezonban előre foglalj"
+              ],
+              [
+                "Szolgáltatásokkal ellátott menedékház",
+                "Általában matrac, víz, WC és fűtés van"
+              ],
+              [
+                "Standard menedékház",
+                "Általában matrac, víz és WC van"
+              ],
+              [
+                "Egyszerű menedékház vagy bivak",
+                "Egyszerű menedék tapasztalt túrázóknak"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "DOC menedékházak, kempingek és túraútvonalak a KiwiCampingben",
+          "body": [
+            "Minden <a data-guide=\"doc-huts-new-zealand-guide\">DOC menedékház</a> megmutatja, hogy nyitva van-e, hány ágya van, mennyibe kerül és milyen felszereltségű, a DOC weboldalán lévő oldalára mutató linkkel. Minden DOC túraútvonalnál látod a távolságot, a gyaloglási időt, a nehézségi fokot és a szintprofilt, így a döntés előtt felmérheted az emelkedőt.",
+            "A <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingek</a> mutatják a díjat, a kutyaszabályokat és azt, hogy kell-e foglalni. A foglalható menedékházak és kempingek a DOC-hoz vezetnek, ahol a foglalást intézed."
+          ],
+          "tips": [
+            "Menedékház állapota, ágyak és díjak",
+            "Útvonal távolsága, ideje és nehézsége",
+            "Foglalás a DOC linkjén keresztül"
+          ]
+        },
+        {
+          "heading": "Hogyan kezeli a WikiCamps NZ a DOC helyeket",
+          "body": [
+            "A WikiCamps NZ-ben a <a data-guide=\"doc-huts-new-zealand-guide\">DOC menedékházakat</a> és kempingeket a felhasználók listázzák minden más mellett, így egy díj vagy egy lezárás csak akkor változik, ha valaki frissíti.",
+            "Az app a WikiCamps nagy frissítése óta e-mailes kóddal aktivált fiókot is igényel, és hirdetéseket mutat. Sok felhasználó szerint folyton kijelentkezteti őket, ami az utolsó, amire szükséged van egy térerő nélküli út végén. A <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ vs KiwiCamping</a> összehasonlításunk a többit is áttekinti."
+          ],
+          "tips": [
+            "Felhasználók listázzák",
+            "Fiók és e-mailes kód",
+            "Hirdetések"
+          ]
+        },
+        {
+          "heading": "A térképtől a menedékházig pár koppintással",
+          "body": [
+            "Nyisd meg a KiwiCampinget, és a térkép rögtön ott van, bejelentkezés nélkül. Adj hozzá <a data-guide=\"kiwicamping-filters-guide\">szűrőket</a>, például Csak gyalog megközelíthető, Vízvétel vagy Kutya engedélyezett, és csak azok a helyek maradnak a térképen, amelyek mindegyiknek megfelelnek.",
+            "Koppints egy menedékházra az ágyakért, a díjért és a DOC linkért, majd mentsd el az útvonalhoz tartozó gyűjteménybe, vagy add hozzá az utazásodhoz."
+          ],
+          "tips": [
+            "Nincs bejelentkezés",
+            "Csak gyalog megközelíthető és Vízvétel szűrők",
+            "Mentés vagy hozzáadás egy koppintással"
+          ]
+        },
+        {
+          "heading": "Menedékházas vagy Great Walk út tervezése",
+          "body": [
+            "Mentsd el a mérlegelt menedékházakat útvonalanként egy gyűjteménybe. Amikor a terv körvonalazódik, add hozzá az út végi kempingeket egy Otthonról induló utazáshoz, és minden szakasz mutatja a távolságot és a vezetési időt.",
+            "Baráttal túrázol? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Oszd meg az utazást</a>, és válaszd az Együttműködés lehetőséget, hogy mindketten ugyanazt a tervet lássátok élőben. A Másolat küldése egy linket ad az otthoniaknak az útvonaladhoz bármely webböngészőben, ami jól kiegészíti azt, hogy indulás előtt szólsz valakinek a terveidről. Aztán foglald le időben a menedékházakat a DOC-nál, mert a népszerűek nyáron gyorsan betelnek."
+          ],
+          "tips": [
+            "Gyűjtemény útvonalanként",
+            "Az utazás induljon Otthonról",
+            "Együttműködés a túratársaddal"
+          ]
+        },
+        {
+          "heading": "Az úton térerő nélkül",
+          "body": [
+            "A menedékházak és kempingek adatai a mentett helyeiddel és az utazásoddal együtt a telefonodon maradnak, így az ágyak száma, a díj és a DOC megjegyzései ott vannak a <a data-guide=\"kiwicamping-offline-data-guide\">térerő nélküli</a> völgy mélyén is.",
+            "Minden eldugott túrán vigyél papír topográfiai térképet és személyi jeladót, ellenőrizd az időjárást és a DOC figyelmeztetéseit az utolsó térerős helyen, és mondd meg valakinek, hová indulsz."
+          ],
+          "tips": [
+            "Menedékházadatok térerő nélkül",
+            "Papírtérkép és jeladó",
+            "Szólj valakinek a terveidről"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Van DOC app menedékházakhoz?",
+          "A DOC a weboldalán fogad foglalásokat. A KiwiCamping minden DOC menedékházat megmutat díjjal, ágyakkal és foglalási feltételekkel, és a DOC-hoz linkel a foglaláshoz."
+        ],
+        [
+          "Melyik app mutatja a DOC kempingeket Új-Zélandon?",
+          "A KiwiCamping minden DOC kempinget a DOC saját információiból mutat, díjakkal, kutyaszabályokkal és foglalási feltételekkel, bejelentkezés nélkül."
+        ],
+        [
+          "Mutatja a KiwiCamping a DOC túraútvonalak adatait?",
+          "Igen. Minden DOC útvonalnál látod a távolságot, a gyaloglási időt, a nehézségi fokot és a szintprofilt, a DOC-ra mutató linkkel."
+        ],
+        [
+          "Látom a menedékházak adatait térerő nélkül?",
+          "Igen. A menedékházak és kempingek adatai, a mentett helyeid és az utazásaid a telefonodon maradnak."
+        ],
+        [
+          "Hány DOC menedékház van Új-Zélandon?",
+          "A KiwiCamping több mint 900 DOC menedékházat mutat. A hivatalos összesítést a DOC saját weboldala adja."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: online foglalások"
+        },
+        {
+          "label": "DOC: menedékházak foglalása és fizetése"
+        },
+        {
+          "label": "DOC: kempingek foglalása és fizetése"
+        },
+        {
+          "label": "DOC: a Great Walks összehasonlítása"
         }
       ],
       "priceTable": null

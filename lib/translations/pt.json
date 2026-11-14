@@ -28149,6 +28149,581 @@
       ],
       "priceTable": null
     },
+    "does-wikicamps-nz-work-offline": {
+      "title": "O WikiCamps NZ funciona offline? Campismo sem rede em 2027",
+      "description": "O WikiCamps NZ funciona offline em 2027? Em parte, depois de uma transferência e com conta. O KiwiCamping guarda cada área DOC, cada cabana e todas as viagens no telemóvel, sem transferência.",
+      "region": "Nova Zelândia",
+      "imageAlt": "O Mitre Peak a erguer-se sobre a água parada de Milford Sound, no fim da Milford Road",
+      "intro": "Em parte. O Offline Mode do WikiCamps guarda os mapas e até três viagens planeadas no telemóvel depois de as transferires, mas continuas a precisar de uma conta, e isso pode atrapalhar sem rede. O KiwiCamping guarda cada área de campismo, cabana e trilho do DOC, e todas as tuas viagens, no telemóvel desde que o instalas, sem nada para transferir e sem nada onde iniciar sessão. Nós fazemos o KiwiCamping: é assim que as duas apps aguentam os troços longos sem barras.",
+      "sections": [
+        {
+          "heading": "O WikiCamps funciona offline?",
+          "body": [
+            "O WikiCamps diz que o Offline Mode deixa usar os mapas e até três das tuas viagens planeadas sem rede. Transfere-os primeiro, enquanto ainda tens ligação.",
+            "O senão é a conta. Muitos utilizadores do WikiCamps dizem que a app termina a sessão de vez em quando, e o <a data-guide=\"wikicamps-nz-account-login\">início de sessão do WikiCamps</a> precisa de rede para voltares a entrar. Ficar preso num ecrã de início de sessão num vale sem cobertura é a última coisa que queres."
+          ],
+          "tips": [
+            "Transferir primeiro",
+            "Até três viagens planeadas",
+            "Voltar a entrar precisa de rede"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: nada para transferir, nada onde iniciar sessão",
+          "body": [
+            "O KiwiCamping não tem conta, por isso nunca há um ecrã de início de sessão entre ti e a área de campismo desta noite. Abre a app em qualquer lado e já estás dentro.",
+            "Todas as <a data-guide=\"doc-campsites-new-zealand-guide\">áreas de campismo DOC</a>, cabanas e trilhos da Nova Zelândia vêm na app, com preços, instalações, regras para cães e necessidade de reserva. São mais de 900 cabanas DOC, legíveis na Milford Road ou no fundo dos Catlins sem uma única barra.",
+            "As tuas coisas também ficam contigo, mesmo <a data-guide=\"kiwicamping-offline-data-guide\">sem rede</a>: sítios com gosto e com estrela, coleções, notas privadas e cada viagem com as paragens, as datas e as notas."
+          ],
+          "tips": [
+            "Sem conta, sem ecrã de início de sessão",
+            "Cada área de campismo, cabana e trilho DOC",
+            "Todas as tuas viagens, não só três"
+          ],
+          "table": {
+            "caption": "Sem rede, lado a lado.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Transferir antes de partir",
+                "Sim, no Offline Mode",
+                "Não, os detalhes dos sítios vêm na app"
+              ],
+              [
+                "As tuas viagens planeadas",
+                "Até três",
+                "Todas"
+              ],
+              [
+                "Conta para iniciar sessão",
+                "Sim",
+                "Nenhuma"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Escolhe o sítio desta noite antes de caírem as barras",
+          "body": [
+            "Algumas das melhores estradas do país, como o Haast Pass, a Milford Road e os Catlins, são onde é mais provável perderes a rede. É exatamente aí que ter os detalhes de cada sítio no telemóvel compensa.",
+            "Abre os <a data-guide=\"kiwicamping-filters-guide\">filtros</a> e escolhe o que importa: Cães permitidos, acesso 4WD e acesso para caravana estão na secção Animais e acesso, e um sítio tem de corresponder a cada filtro que escolhes. Junta o favorito à viagem, mais uma alternativa perto, e ficas tratado para a noite."
+          ],
+          "tips": [
+            "Detalhes sem barras",
+            "Filtros que correspondem a todas as escolhas",
+            "Guarda também uma alternativa"
+          ]
+        },
+        {
+          "heading": "Regras de campismo livre sem rede",
+          "body": [
+            "Os avisos de campismo livre do DOC em terrenos de conservação estão no KiwiCamping, para veres onde o campismo é proibido ou restrito quando estás longe da cobertura.",
+            "Em terreno das câmaras, as <a data-guide=\"freedom-camping-rules-new-zealand\">regras de campismo livre</a> vêm do regulamento de cada câmara. Lê o do distrito seguinte enquanto ainda estás na cidade, e segue sempre o sinal no local."
+          ],
+          "tips": [
+            "Avisos do DOC já na app",
+            "Regulamentos das câmaras: lê-os na cidade",
+            "O sinal no local ganha"
+          ]
+        },
+        {
+          "heading": "A viagem toda no bolso",
+          "body": [
+            "Cada viagem guarda as paragens por ordem de condução, com as tuas datas e notas, e podes ir riscando as paragens à medida que avanças. A lista de tarefas guarda os recados de cada dia no mesmo sítio.",
+            "O separador You preenche um mapa de onde estiveste, e as noites de campismo e os quilómetros percorridos vão somando à medida que a viagem avança."
+          ],
+          "tips": [
+            "Paragens, datas e notas",
+            "Risca as paragens à medida que avanças",
+            "Um mapa de onde estiveste"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O WikiCamps NZ funciona offline?",
+          "Em parte. O Offline Mode guarda os mapas e até três viagens planeadas depois de as transferires, mas a app continua a precisar de uma conta, e voltar a entrar precisa de rede."
+        ],
+        [
+          "Qual é a app de campismo da NZ que funciona sem rede?",
+          "O KiwiCamping guarda cada área de campismo, cabana e trilho do DOC e todas as tuas viagens no telemóvel, sem transferência e sem início de sessão onde fiques preso."
+        ],
+        [
+          "Posso ver as regras de campismo livre sem rede?",
+          "Em terreno de conservação, sim: o KiwiCamping inclui os avisos de campismo livre do DOC. Confere os regulamentos das câmaras enquanto ainda estás na cidade."
+        ],
+        [
+          "Quantas viagens do WikiCamps posso guardar offline?",
+          "Até três, segundo o WikiCamps. No KiwiCamping, cada viagem que fazes fica no telemóvel."
+        ],
+        [
+          "Preciso de transferir alguma coisa para o KiwiCamping funcionar sem rede?",
+          "Não. As áreas de campismo, as cabanas e os trilhos do DOC vêm com a app, e os sítios e as viagens que guardas estão sempre no telemóvel."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: campismo livre"
+        },
+        {
+          "label": "DOC: alertas e encerramentos"
+        },
+        {
+          "label": "NZTA Journeys: estado das estradas e encerramentos"
+        }
+      ],
+      "priceTable": null
+    },
+    "switch-from-wikicamps-nz": {
+      "title": "Mudar do WikiCamps NZ em 2027: passe os seus locais e a sua viagem",
+      "description": "Passe do WikiCamps NZ para o KiwiCamping numa noite: adicione cada local guardado e paragem da viagem por nome, morada ou marcador, começando pelas noites DOC reservadas e pelo ferry.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Um ferry Interislander a atravessar o Cook Strait entre a Ilha Norte e a Ilha Sul",
+      "intro": "Para mudar do WikiCamps NZ, anote os seus locais guardados e a sua viagem e depois adicione cada um ao KiwiCamping com uma pesquisa rápida. Locais da app, qualquer morada e os seus próprios marcadores funcionam, por isso a maioria das viagens passa-se numa noite. Somos nós que fazemos o KiwiCamping, e esta é a ordem mais rápida para o fazer, começando pelas noites que não pode alterar.",
+      "sections": [
+        {
+          "heading": "Porque é que os campistas estão a deixar o WikiCamps NZ",
+          "body": [
+            "Muitos utilizadores do WikiCamps acham a nova versão um frete: mais difícil de usar, termina a sessão num instante e está cheia de anúncios que ninguém esperava depois de pagar. Se o <a data-guide=\"wikicamps-not-working-new-zealand\">WikiCamps NZ já não funciona</a> para si, não tem de continuar a lutar com ele.",
+            "O KiwiCamping abre diretamente no mapa, sem conta, sem início de sessão e sem anúncios. Tem à mão os parques de campismo, cabanas e trilhos do DOC, <a data-guide=\"kiwicamping-filters-guide\">filtros</a> que respeitam tudo o que escolher e uma viagem que pode planear em conjunto com o seu parceiro."
+          ],
+          "tips": [
+            "Sem conta nem início de sessão",
+            "Sem anúncios",
+            "Planeie em conjunto com o parceiro"
+          ]
+        },
+        {
+          "heading": "Passo 1: anote o que tem",
+          "body": [
+            "Abra o WikiCamps uma última vez e tire capturas de ecrã dos seus favoritos, das suas listas e da sua viagem, ou escreva os nomes na app Notas. Guarde as referências de reserva das noites que já pagou.",
+            "Essa lista é tudo o que precisa. A partir daqui, tudo se faz no KiwiCamping."
+          ],
+          "tips": [
+            "Capturas de ecrã de listas e viagens",
+            "Guarde as referências de reserva"
+          ]
+        },
+        {
+          "heading": "Passo 2: primeiro as noites reservadas e o ferry",
+          "body": [
+            "Crie uma viagem, toque em Adicionar paragem e pesquise cada <a data-guide=\"doc-campsites-new-zealand-guide\">parque de campismo DOC</a> ou cabana de Great Walk reservado. Dê a cada paragem a data de chegada e escreva a referência de reserva na nota.",
+            "Depois, a travessia do <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook Strait</a>. Adicione o terminal do ferry pela morada, a seguir a última noite antes dele e a primeira noite depois. Com estes pontos fixos definidos, o resto da viagem encaixa à volta deles."
+          ],
+          "tips": [
+            "Adicionar paragem para cada reserva",
+            "Datas e notas de reserva",
+            "Terminal do ferry pela morada"
+          ]
+        },
+        {
+          "heading": "Passo 3: todos os outros locais, mesmo os que não estão listados",
+          "body": [
+            "A mesma pesquisa de Adicionar paragem encontra locais da app, qualquer morada, a sua localização atual e os seus marcadores guardados. Tem um sítio favorito só seu? Coloque um marcador no mapa e toque em Adicionar à viagem.",
+            "Cada paragem aparece no percurso com a distância e o tempo de condução, para ver logo se um dia é demasiado longo. Toque em Começar em casa ou Terminar em casa para abrir e fechar a viagem com a morada guardada no separador Você."
+          ],
+          "tips": [
+            "Locais, moradas e marcadores",
+            "Coloque um marcador, adicione à viagem",
+            "Distância e tempo de condução de cada paragem"
+          ]
+        },
+        {
+          "heading": "Passo 4: os seus favoritos e listas no KiwiCamping",
+          "body": [
+            "Marque com Gosto ou estrela os locais de que gostou e assinale com Quero visitar os que ainda quer conhecer.",
+            "As suas listas do WikiCamps passam a ser <a data-guide=\"save-places-kiwicamping\">coleções</a> suas, e uma por ilha funciona bem. As suas dicas sobre um local ficam na respetiva nota privada."
+          ],
+          "tips": [
+            "Gosto, Estrela, Quero visitar",
+            "As listas passam a coleções",
+            "As dicas ficam em notas privadas"
+          ],
+          "table": {
+            "caption": "Onde ficam as suas coisas do WikiCamps no KiwiCamping.",
+            "head": [
+              "Do WikiCamps NZ",
+              "No KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Favoritos",
+                "Gosto ou Estrela"
+              ],
+              [
+                "Locais que planeia visitar",
+                "Quero visitar"
+              ],
+              [
+                "As suas próprias listas",
+                "Coleções, uma por ilha ou viagem"
+              ],
+              [
+                "A sua viagem",
+                "Uma viagem com paragens datadas, a partir de Adicionar paragem"
+              ],
+              [
+                "Um sítio secreto",
+                "Um marcador colocado, adicionado à viagem"
+              ],
+              [
+                "Notas sobre um local",
+                "Uma nota privada no local"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Passo 5: noites de campismo livre",
+          "body": [
+            "Não se limite a copiar os antigos locais de campismo livre: confirme de novo as <a data-guide=\"freedom-camping-rules-new-zealand\">regras de campismo livre</a>. Os avisos do DOC para terrenos de conservação estão no KiwiCamping, e os regulamentos municipais estão no site de cada município.",
+            "Depois deixe os <a data-guide=\"kiwicamping-filters-guide\">filtros</a> encontrarem-lhe um sítio novo. Cães permitidos, acesso 4WD e acesso de caravana estão na secção Animais e acesso, o filtro Custo mostra os parques de campismo gratuitos e económicos do DOC, e cada local apresentado cumpre todos os filtros que escolher."
+          ],
+          "tips": [
+            "Avisos do DOC na app",
+            "Os filtros respeitam todas as suas escolhas",
+            "Parques de campismo gratuitos e económicos do DOC"
+          ]
+        },
+        {
+          "heading": "Leve o seu companheiro de viagem",
+          "body": [
+            "Toque em Partilhar na viagem e escolha Colaborar para convidar o seu parceiro através do iCloud. Ambos adicionam paragens, reordenam-nas, assinalam-nas e editam notas, e as alterações aparecem nos dois telemóveis em poucos segundos.",
+            "Os seus próprios dispositivos também se mantêm sincronizados através do iCloud, sem nada para iniciar sessão. O KiwiCamping não tem anúncios, é independente e é gratuito para descarregar, com compras na app."
+          ],
+          "tips": [
+            "Colabore em direto",
+            "Sincronizado através do iCloud",
+            "Sem anúncios, independente"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Posso exportar a minha viagem do WikiCamps?",
+          "O mais rápido é fazer uma lista ou capturas de ecrã da sua viagem do WikiCamps. Depois adicione cada paragem no KiwiCamping com Adicionar paragem, que encontra locais, moradas e marcadores."
+        ],
+        [
+          "Como passo os meus parques de campismo guardados para outra app?",
+          "Pesquise cada um no KiwiCamping e guarde-o: os favoritos passam a Gosto ou Estrela, e as suas listas passam a coleções."
+        ],
+        [
+          "Posso adicionar um sítio meu a uma viagem?",
+          "Sim. Coloque um marcador e toque em Adicionar à viagem, ou adicione qualquer morada com Adicionar paragem."
+        ],
+        [
+          "Eu e o meu parceiro podemos planear a viagem em conjunto?",
+          "Sim. Toque em Partilhar na viagem e escolha Colaborar. Ambos editam em direto através do iCloud, sem conta."
+        ],
+        [
+          "Quanto tempo demora a mudar do WikiCamps?",
+          "A maioria das viagens demora uma noite. Comece pelas noites reservadas e pelo ferry e depois adicione o resto."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: locais para ficar"
+        },
+        {
+          "label": "DOC: campismo livre"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "share-nz-trip-plan-kiwicamping": {
+      "title": "Partilhar o itinerário de viagem pela Nova Zelândia com a família (2027)",
+      "description": "Planeie a sua viagem de carro pela Nova Zelândia em tempo real com o seu par, envie à família uma ligação que abre em qualquer navegador ou partilhe o percurso como imagem, tudo no KiwiCamping.",
+      "region": "KiwiCamping",
+      "imageAlt": "As falésias brancas e a praia de areia de Cathedral Cove, na península de Coromandel",
+      "intro": "Para partilhar um itinerário de viagem do KiwiCamping, toque em Partilhar na sua viagem. Escolha Colaborar para planear em tempo real com o seu par, Enviar cópia para dar à família uma ligação que abre em qualquer navegador, ou Partilhar como imagem para ter uma imagem do percurso. Somos nós que fazemos o KiwiCamping, e aqui explicamos como funciona cada opção numa viagem pela Nova Zelândia.",
+      "sections": [
+        {
+          "heading": "Três formas de partilhar um itinerário de viagem do KiwiCamping",
+          "body": [
+            "Cada opção serve uma pessoa diferente. O seu companheiro de viagem recebe a viagem real para editar, a família em casa recebe uma ligação que funciona sem complicações e o grupo de conversa recebe uma imagem que vale a pena ver.",
+            "Nenhuma precisa de conta nem de início de sessão, e a opção Colaborar funciona através do iCloud que já está no seu iPhone."
+          ],
+          "tips": [
+            "Colaborar para o seu par",
+            "Enviar cópia para a família",
+            "Partilhar como imagem para o grupo"
+          ],
+          "table": {
+            "caption": "Que forma de partilhar escolher.",
+            "head": [
+              "Opção",
+              "Ideal para",
+              "O que recebem"
+            ],
+            "rows": [
+              [
+                "Colaborar",
+                "O seu companheiro de viagem",
+                "A mesma viagem, em tempo real: ambos podem editar"
+              ],
+              [
+                "Enviar cópia",
+                "Família e amigos",
+                "Uma ligação para a viagem que abre em qualquer navegador"
+              ],
+              [
+                "Partilhar como imagem",
+                "Grupos de conversa",
+                "Uma imagem com o percurso, as paragens, as datas e as noites"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Planear em conjunto com Colaborar",
+          "body": [
+            "Toque em Partilhar numa viagem, ou numa das suas <a data-guide=\"save-places-kiwicamping\">coleções</a>, e escolha Colaborar para convidar o seu par através do iCloud. A partir daí, é uma só viagem para dois.",
+            "Ambos podem adicionar paragens no <a data-guide=\"plan-trip-kiwicamping\">planeador de viagens</a>, arrastá-las para uma nova ordem, riscá-las da lista e editar as notas. As alterações aparecem no outro telemóvel em segundos, por isso quem vai no lugar do pendura pode planear o dia seguinte enquanto o outro conduz."
+          ],
+          "tips": [
+            "Convide através do iCloud",
+            "Ambos adicionam, reordenam e riscam",
+            "Alterações em segundos"
+          ]
+        },
+        {
+          "heading": "Enviar cópia: uma ligação que a família abre em qualquer lado",
+          "body": [
+            "Enviar cópia cria uma ligação que qualquer pessoa pode abrir num navegador, no telemóvel ou no portátil. Mostra as paragens, as datas e as notas da viagem, para a mãe saber em que noite vai estar em Wānaka.",
+            "Quem tiver o KiwiCamping pode guardar a viagem nas suas viagens com um toque. É também a forma fácil de ver o seu próprio plano num portátil, em casa."
+          ],
+          "tips": [
+            "Abre em qualquer navegador",
+            "Paragens, datas e notas",
+            "Guarde-a na aplicação"
+          ]
+        },
+        {
+          "heading": "Partilhar como imagem para o grupo de conversa",
+          "body": [
+            "Partilhar como imagem transforma a viagem numa imagem: o percurso no mapa, todas as paragens, as datas e o número de noites que vai ficar. Envie-a para a conversa da família ou publique-a antes de partir.",
+            "É a forma mais rápida de responder a \"então, para onde vão?\" sem uma mensagem comprida."
+          ],
+          "tips": [
+            "Percurso, paragens, datas e noites",
+            "Perfeita para conversas"
+          ]
+        },
+        {
+          "heading": "Enviar um único local",
+          "body": [
+            "Ao partilhar um único parque de campismo, cabana ou <a data-guide=\"holiday-parks-new-zealand-guide\">parque de férias</a>, envia a respetiva página com uma pré-visualização com foto. Quem tiver o KiwiCamping abre-a diretamente na aplicação, e todos os outros veem a página web.",
+            "É ideal para viajar em duas autocaravanas: envie o local desta noite e todos sabem onde se encontrar."
+          ],
+          "tips": [
+            "Pré-visualização com foto",
+            "Abre diretamente na aplicação"
+          ]
+        },
+        {
+          "heading": "Mantenha a família a par",
+          "body": [
+            "Indique uma data de chegada em cada paragem antes de partilhar, para a família acompanhar dia a dia e ver quanto duram os seus <a data-guide=\"new-zealand-driving-day-planner\">dias de condução</a>. Envie uma cópia nova depois de grandes alterações.",
+            "Avise também sobre os trechos sem rede. Um dia <a data-guide=\"kiwicamping-offline-data-guide\">sem cobertura</a> na West Coast ou em Fiordland é normal, e as paragens com data mostram que está apenas entre localidades. Ative Sincronizar com o calendário numa viagem e as paragens e as datas passam também para o seu calendário.",
+            "Vai para a montanha? Deixe o seu percurso e uma hora limite de atraso com alguém de confiança, como aconselham o Plan My Walk, do Mountain Safety Council, e a AdventureSmart."
+          ],
+          "tips": [
+            "Datas em cada paragem",
+            "Sincronização com o calendário",
+            "Deixe o plano das caminhadas"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Como partilho o meu itinerário da Nova Zelândia com a família?",
+          "Toque em Partilhar na sua viagem no KiwiCamping e escolha Enviar cópia. A família recebe uma ligação que abre em qualquer navegador com as suas paragens, datas e notas."
+        ],
+        [
+          "Eu e o meu par podemos editar a mesma viagem?",
+          "Sim. Escolha Colaborar ao partilhar a viagem. Ambos adicionam, reordenam e riscam paragens, e as alterações aparecem em segundos."
+        ],
+        [
+          "A pessoa com quem partilho precisa da aplicação?",
+          "Não para Enviar cópia: a ligação abre em qualquer navegador. Com a aplicação, pode guardar a viagem nas suas viagens."
+        ],
+        [
+          "Preciso de uma conta para partilhar uma viagem?",
+          "Não. O KiwiCamping não tem contas; a partilha funciona através do iCloud."
+        ],
+        [
+          "Posso pôr a minha viagem no calendário?",
+          "Sim. Ative Sincronizar com o calendário na viagem e as paragens e as datas aparecem no seu calendário."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Plan My Walk (NZ Mountain Safety Council)"
+        },
+        {
+          "label": "AdventureSmart: intenções ao ar livre"
+        },
+        {
+          "label": "Apple: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-nz-trip-planner-alternative": {
+      "title": "Alternativa ao planeador de viagens do WikiCamps na Nova Zelândia (2027)",
+      "description": "Usava o planeador de viagens do WikiCamps na Nova Zelândia? Planeie no KiwiCamping: comece em casa ou numa morada, junte pontos, veja os tempos de condução e planeie em direto com o seu par.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Uma estrada asfaltada a serpentear por colinas de caniço rumo a um desfiladeiro em Otago",
+      "intro": "Se o planeador de viagens do WikiCamps era o que usava para traçar a sua viagem pela Nova Zelândia, o KiwiCamping é uma forma mais simples de planear o mesmo roteiro. Comece em casa ou numa morada qualquer, junte parques de campismo, moradas e os seus próprios pontos como paragens, e veja a distância e o tempo de condução de cada troço, sem conta e sem anúncios. Somos nós que fazemos o KiwiCamping e é assim que funciona o planeamento de uma viagem pela Nova Zelândia.",
+      "sections": [
+        {
+          "heading": "Porque é que os utilizadores do planeador do WikiCamps procuram outra opção",
+          "body": [
+            "Desde a grande atualização do WikiCamps, muitos viajantes dizem que a app ficou complicada, termina-lhes a sessão nos piores momentos e mostra anúncios que não esperavam numa app paga.",
+            "Se vai <a data-guide=\"switch-from-wikicamps-nz\">mudar do WikiCamps</a>, a boa notícia é que uma viagem inteira passa-se numa noite."
+          ],
+          "tips": [
+            "Complicada desde a atualização",
+            "Sessão terminada nos piores momentos",
+            "Anúncios numa app paga"
+          ]
+        },
+        {
+          "heading": "Partir de casa e acabar em casa",
+          "body": [
+            "Defina a sua morada uma só vez no separador Eu, e o <a data-guide=\"plan-trip-kiwicamping\">planeador de viagens</a> reutiliza-a em todas as viagens. Partir de casa e Acabar em casa são um só toque cada.",
+            "Está de visita? Qualquer morada serve de paragem, por isso comece no aeroporto, no depósito da viatura de aluguer ou no sítio onde fica na primeira noite."
+          ],
+          "tips": [
+            "Defina a casa uma vez",
+            "Partir e acabar em casa",
+            "Ou comece no aeroporto"
+          ]
+        },
+        {
+          "heading": "Junte qualquer paragem no KiwiCamping: locais, moradas e pontos",
+          "body": [
+            "Toque em Adicionar paragem e uma só pesquisa encontra a casa, a sua localização atual, os pontos guardados, locais da app ou qualquer morada. Encontrou um sítio fantástico só seu? Marque um ponto e toque em Adicionar à viagem.",
+            "A rota é redesenhada com os quilómetros e o tempo de condução de cada troço. Arraste as paragens para a ordem em que vai conduzir, dê a cada uma uma data de chegada e acrescente uma nota com a referência da reserva ou o código do portão."
+          ],
+          "tips": [
+            "Uma pesquisa para todo o tipo de paragem",
+            "Os pontos entram diretamente",
+            "Distância e tempo de condução por troço"
+          ],
+          "table": {
+            "caption": "Tarefas de planeamento e onde ficam no planeador de viagens do KiwiCamping.",
+            "head": [
+              "Tarefa",
+              "No KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Início e fim",
+                "Partir de casa e Acabar em casa, ou qualquer morada"
+              ],
+              [
+                "Juntar paragens",
+                "Locais, moradas, a sua localização e pontos"
+              ],
+              [
+                "Ordenar as paragens",
+                "Arraste para reordenar; a rota atualiza-se"
+              ],
+              [
+                "Tempos de condução",
+                "Distância e tempo de condução para cada paragem"
+              ],
+              [
+                "Datas e notas",
+                "Uma data de chegada e uma nota em cada paragem"
+              ],
+              [
+                "Planear com o seu par",
+                "Colabore em direto através do iCloud"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Planeie em torno dos pontos fixos da Nova Zelândia",
+          "body": [
+            "Cabanas dos Great Walks reservadas, <a data-guide=\"doc-campsites-new-zealand-guide\">parques de campismo do DOC</a> que exigem reserva no verão e o ferry do estreito de Cook definem a forma da maioria das viagens. Junte-os primeiro e mantenha flexível tudo o que fica entre eles.",
+            "Preste mais atenção aos tempos de condução do que aos quilómetros. As estradas sinuosas e os desfiladeiros tornam os <a data-guide=\"new-zealand-driving-day-planner\">dias de condução</a> na Nova Zelândia mais lentos do que parecem, por isso divida qualquer troço que ocupe o dia todo. Os filtros ajudam a preencher as lacunas, com Cães permitidos, Acesso 4WD e Acesso de caravana na sua própria secção Animais e acesso."
+          ],
+          "tips": [
+            "Primeiro as noites fixas",
+            "Atenção aos tempos de condução",
+            "Filtros para as lacunas"
+          ]
+        },
+        {
+          "heading": "Na estrada com o seu plano",
+          "body": [
+            "Marque as paragens como feitas ao longo do caminho e veja o tempo nas seguintes. Guarde as compras, as reservas e o check-in do ferry na lista de tarefas da viagem.",
+            "O separador Eu mantém a contagem: um mapa que se preenche com as regiões que visitou, quanto da Nova Zelândia já viu, quilómetros percorridos e noites acampadas."
+          ],
+          "tips": [
+            "Marque as paragens feitas",
+            "Tempo e uma lista de tarefas",
+            "O seu mapa e estatísticas de viagem"
+          ]
+        },
+        {
+          "heading": "Planeie em conjunto e confirme num portátil",
+          "body": [
+            "<a data-guide=\"share-nz-trip-plan-kiwicamping\">Partilhe a viagem</a> com Colaborar e o seu par pode adicionar, reordenar e marcar paragens consigo, em direto. Enviar cópia dá uma ligação que abre em qualquer navegador, para poder rever o plano num portátil em casa.",
+            "Partilhar como imagem cria uma imagem da rota, das paragens, das datas e das noites para o grupo da família. Ative Sincronizar com o calendário e a viagem aparece também no seu calendário. O KiwiCamping é gratuito para descarregar, com compras na app."
+          ],
+          "tips": [
+            "Colabore em direto",
+            "Abra-o num portátil",
+            "Sincronização com o calendário"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual é a melhor app de planeamento de viagens para a Nova Zelândia?",
+          "Para uma viagem de campismo, o KiwiCamping, que nós fazemos: comece em casa ou numa morada qualquer, junte locais e pontos, veja os tempos de condução e planeie em direto com o seu par, sem conta e sem anúncios."
+        ],
+        [
+          "Como planeio um roteiro de autocaravana na Nova Zelândia?",
+          "Junte primeiro as noites reservadas e o ferry, e depois preencha as paragens pela ordem de condução. Mantenha a maioria dos dias em três ou quatro horas de condução."
+        ],
+        [
+          "Posso exportar a minha viagem do WikiCamps?",
+          "Anote as suas paragens do WikiCamps e refaça a rota no KiwiCamping. Uma só pesquisa cobre parques de campismo, moradas e os seus próprios pontos."
+        ],
+        [
+          "O KiwiCamping mostra os tempos de condução entre paragens?",
+          "Sim. Cada troço da rota indica a distância e quanto demora a condução."
+        ],
+        [
+          "Posso começar uma viagem no meu alojamento ou no aeroporto?",
+          "Sim. Use Partir de casa com a sua morada guardada, ou junte qualquer morada, como o aeroporto, como primeira paragem."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Great Walks"
+        },
+        {
+          "label": "DOC: places to stay"
+        },
+        {
+          "label": "NZTA Journeys: road conditions and closures"
+        }
+      ],
+      "priceTable": null
+    },
     "nz-great-walks-2026-27-huts-campsites-booking-fees": {
       "title": "Great Walks da Nova Zelândia 2026/27: refúgios, campismo, datas de reserva e preços",
       "description": "As 11 Great Walks lado a lado: quais têm parques de campismo, quais exigem reserva todo o ano, quando abriram as reservas de 2026/27, os preços de refúgios e campismo e o que mudou nesta época.",
@@ -37455,6 +38030,143 @@
         },
         {
           "label": "DOC: reservas online"
+        }
+      ],
+      "priceTable": null
+    },
+    "is-wikicamps-nz-free": {
+      "title": "O WikiCamps NZ é grátis? Preço, conta e anúncios em 2027",
+      "description": "O WikiCamps NZ é grátis em 2027? Não: custa NZ$7.99 uma vez, exige conta e mostra anúncios. O que pagas, e uma app de campismo da Nova Zelândia grátis para descarregar, sem login e sem anúncios.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Uma pequena autocaravana de aluguer pintada com flores roxas, estacionada junto à água em Akaroa",
+      "intro": "O WikiCamps NZ é grátis? Não. O WikiCamps NZ custa NZ$7.99 numa compra única, sem subscrição. Além do preço, precisas de uma conta WikiCamps, a app mostra anúncios, e o WikiCamps vende a Austrália como uma app separada. Nós fazemos o KiwiCamping, uma app de campismo da Nova Zelândia grátis para descarregar, com compras na aplicação, sem anúncios e sem login. Aqui está o que o WikiCamps NZ custa e o que inclui.",
+      "sections": [
+        {
+          "heading": "Quanto custa o WikiCamps NZ",
+          "body": [
+            "O WikiCamps NZ custa NZ$7.99, pago uma vez, e o WikiCamps diz que não há subscrições nem taxas escondidas. O preço é por plataforma, por isso mudar para outro tipo de telemóvel significa comprá-lo outra vez.",
+            "Cada país é a sua própria app. Planear uma viagem que começa em Sydney e acaba em Christchurch significa comprar também o WikiCamps Australia e ficar com duas apps e dois conjuntos de sítios guardados."
+          ],
+          "tips": [
+            "NZ$7.99 uma vez",
+            "Sem subscrição",
+            "Cada país é uma app separada"
+          ],
+          "table": {
+            "caption": "O que cada app te pede.",
+            "head": [
+              "",
+              "WikiCamps NZ",
+              "KiwiCamping"
+            ],
+            "rows": [
+              [
+                "Para obter a app",
+                "NZ$7.99",
+                "Grátis para descarregar, com compras na aplicação"
+              ],
+              [
+                "Conta",
+                "Necessária, com um código por e-mail",
+                "Nenhuma"
+              ],
+              [
+                "Anúncios",
+                "Sim",
+                "Nenhum"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Anúncios numa app que pagaste",
+          "body": [
+            "Muitos utilizadores do WikiCamps dizem que não gostam de ver anúncios numa app que pagaram. É uma das queixas mais comuns desde a grande atualização do WikiCamps.",
+            "O KiwiCamping não tem anúncios: nem no mapa, nem na página de um sítio, nem nas tuas viagens. Também é independente de qualquer grupo de parques de campismo, e os <a data-guide=\"doc-campsites-new-zealand-guide\">acampamentos do DOC</a> aparecem no mesmo mapa que os parques pagos."
+          ],
+          "tips": [
+            "O WikiCamps NZ mostra anúncios",
+            "KiwiCamping: nenhum",
+            "Independente"
+          ]
+        },
+        {
+          "heading": "A compra inclui uma conta",
+          "body": [
+            "O WikiCamps NZ exige uma conta WikiCamps, e entras com um código enviado para o teu e-mail. Muitos utilizadores dizem que a app termina a sessão, e voltar a entrar precisa de rede.",
+            "O KiwiCamping não tem nada onde iniciar sessão. Descarregas, abres e estás a ver o mapa, sem e-mail, palavra-passe ou código em momento nenhum. Um iPhone novo recupera os teus sítios guardados e as tuas viagens pelo iCloud."
+          ],
+          "tips": [
+            "WikiCamps NZ: conta e código por e-mail",
+            "KiwiCamping: abre e segue",
+            "As tuas viagens seguem-te pelo iCloud"
+          ]
+        },
+        {
+          "heading": "KiwiCamping: grátis para descarregar, sem login",
+          "body": [
+            "O KiwiCamping põe todos os acampamentos, cabanas e trilhos do DOC num só mapa, com a taxa, as regras para cães e as reservas que o DOC indica, mais os avisos de <a data-guide=\"freedom-camping-new-zealand-guide\">campismo livre</a> do DOC em terras de conservação. Os detalhes do sítio ficam no telemóvel, para os leres sem rede.",
+            "Usar é rápido. Abre a app, escolhe um filtro como Cães permitidos ou Acesso a caravana, toca num alfinete para ver os detalhes e adiciona-o a uma viagem que mostra a distância e o tempo de condução entre paragens."
+          ],
+          "tips": [
+            "Todos os acampamentos, cabanas e trilhos do DOC",
+            "Sem conta, sem anúncios",
+            "Detalhes legíveis sem rede"
+          ]
+        },
+        {
+          "heading": "Encontrar acampamentos grátis na Nova Zelândia",
+          "body": [
+            "Muita gente que procura uma app grátis quer mesmo noites grátis. No KiwiCamping, põe o filtro Custo em Grátis e aparecem os acampamentos grátis do DOC. Acrescenta Casas de banho, Abastecimento de água ou Autocaravanas e o sítio tem de cumprir todas as condições que escolheres.",
+            "Os acampamentos grátis do DOC costumam ser simples, muitas vezes com uma sanita de fossa e água de ribeiro ou de depósito, e alguns ficam a uma curta caminhada da estrada. O campismo livre nas cidades é outra questão, e o nosso guia de <a data-guide=\"freedom-camping-rules-new-zealand\">regras de campismo livre</a> explica-o."
+          ],
+          "tips": [
+            "Filtro Custo: acampamentos DOC grátis",
+            "Todos os filtros têm de coincidir",
+            "Os sítios grátis costumam ser simples"
+          ]
+        },
+        {
+          "heading": "Mais do que uma lista de acampamentos",
+          "body": [
+            "Adiciona a morada de casa uma vez no separador Tu e cada viagem pode começar e acabar aí. Adicionar paragem aceita qualquer morada ou um alfinete que tenhas largado, e Colaborar deixa-te a ti e ao teu par planear a mesma viagem em direto, sem conta.",
+            "O separador Tu também guarda um mapa de onde estiveste, a parte da Nova Zelândia que já viste, e os teus quilómetros e noites de campismo, o que fica um bom registo da viagem."
+          ],
+          "tips": [
+            "Casa num toque",
+            "Qualquer morada ou alfinete",
+            "Um mapa de onde estiveste"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O WikiCamps NZ é grátis?",
+          "Não. Custa NZ$7.99 uma vez, sem subscrição. Também exige uma conta e mostra anúncios."
+        ],
+        [
+          "Quanto custa o WikiCamps na Nova Zelândia?",
+          "O WikiCamps NZ custa NZ$7.99. O WikiCamps Australia é uma app separada que compras à parte."
+        ],
+        [
+          "O WikiCamps é uma subscrição?",
+          "Não. O WikiCamps diz que é uma compra única, sem subscrições nem taxas escondidas."
+        ],
+        [
+          "Uma compra do WikiCamps cobre a Austrália e a Nova Zelândia?",
+          "Não. O WikiCamps NZ e o WikiCamps Australia são apps separadas, cada uma comprada à parte."
+        ],
+        [
+          "Existe uma app de campismo grátis para a Nova Zelândia?",
+          "O KiwiCamping é grátis para descarregar, com compras na aplicação, e não tem anúncios nem login. O filtro de custo encontra os acampamentos grátis do DOC."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: categorias de acampamentos e taxas"
+        },
+        {
+          "label": "DOC: campismo livre em terras de conservação"
         }
       ],
       "priceTable": null
