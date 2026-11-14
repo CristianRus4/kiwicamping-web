@@ -47,3 +47,7 @@ next-env.d.ts
 /lib/data/places.json
 /lib/data/place-stubs.json
 /lib/data/places.photos.json
+
+# The Cloudflare Worker's place pages (npm run places:worker), never part of the Pages export
+/worker-dist
+/places-worker/.wrangler
