@@ -109,6 +109,8 @@ d.addEventListener('click',function(e){var open=e.target&&e.target.closest?e.tar
 if(ask)show()}
 function boot(){
 var page=context();page.content_group=page.guide_category||page.page_kind||'other';
+// A live link's id is its only key: its page reports the path without it.
+var at=d.querySelector('main[data-page-location]');if(at)page.page_location=location.origin+at.getAttribute('data-page-location');
 gtag('set',page);
 gtag('event','page_view',page);
 consentBar()}
