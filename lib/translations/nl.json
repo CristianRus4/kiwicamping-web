@@ -464,20 +464,20 @@
       "openTool": "Open de rekenhulp",
       "ctaEyebrow": "Plan het in KiwiCamping",
       "ctaTitle": "Vind je stops en reken het dan uit.",
-      "ctaText": "KiwiCamping is gratis te downloaden voor iPhone. Boekbare holiday parks, verblijven en tours zijn gratis in de app. DOC-campings, hutten, lozingspunten en de gidsen open je met de Pass.",
+      "ctaText": "Alle plekken om te kamperen en te overnachten op één kaart, met filters, foto’s, tarieven en een reisplanner voor je hele route.",
       "ctaButton": "Download de app",
       "enterValidValues": "Vul geldige waarden in",
       "enterValidAmount": "Vul een geldig bedrag in"
     },
     "index": {
-      "metaTitle": "Rekenhulpen Nieuw-Zeeland: brandstof, rijtijd, campingkosten",
-      "metaDescription": "Gratis rekenhulpen voor je roadtrip door Nieuw-Zeeland: brandstofkosten, rijtijd per soort weg, campingkosten per persoon of per plek, NZD omrekenen en watertanks van een camper.",
+      "metaTitle": "Roadtrip-calculator Nieuw-Zeeland: brandstof, afstand en reistijd",
+      "metaDescription": "Gratis rekenhulpen voor je roadtrip door Nieuw-Zeeland: brandstofkosten bij de nieuwste benzine- en dieselprijzen, reistijden en afstanden tussen de grote plaatsen, campingkosten, NZD en watertanks.",
       "toolsTitle": "Eén rekenhulp per vraag",
       "toolsText": "Elke rekenhulp heeft een eigen pagina met de formule, een rekenvoorbeeld met Nieuw-Zeelandse cijfers, de aannames erachter en antwoorden op veelgestelde vragen."
     },
     "fuel": {
-      "metaTitle": "Brandstofkosten berekenen: camperreis Nieuw-Zeeland",
-      "metaDescription": "Bereken liters en brandstofkosten voor je roadtrip door Nieuw-Zeeland uit afstand, l/100 km en pompprijs. Met formule, voorbeeld van 1.000 km en MBIE-referentieprijs.",
+      "metaTitle": "Brandstofkosten berekenen Nieuw-Zeeland: benzine, diesel en RUC (2026)",
+      "metaDescription": "Bereken de benzine- of dieselkosten van je roadtrip door Nieuw-Zeeland met de nieuwste MBIE-prijzen voor 91, 95 en diesel, met Road User Charges voor diesel en een voorbeeld van 1.000 km met een camper.",
       "eyebrow": "Rekenhulp brandstofkosten",
       "cardEyebrow": "Brandstofkosten",
       "h1": "Brandstofkosten berekenen voor een roadtrip door Nieuw-Zeeland",
@@ -526,8 +526,8 @@
       "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
-      "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: uren per soort weg",
-      "metaDescription": "Schat hoe lang een rijdag in Nieuw-Zeeland echt duurt uit afstand, soort weg en stops, met formule, rekenvoorbeeld en de gebruikte snelheden.",
+      "metaTitle": "Rijtijd berekenen Nieuw-Zeeland: reistijden tussen plaatsen",
+      "metaDescription": "Hoe lang je in Nieuw-Zeeland onderweg bent: Auckland naar Wellington 8 tot 8,5 uur, Christchurch naar Queenstown ongeveer 6. De belangrijkste routes, afstanden en een rekenhulp voor elke rijdag.",
       "eyebrow": "Rekenhulp rijtijd",
       "cardEyebrow": "Rijdag inschatten",
       "h1": "Rijtijd berekenen voor wegen in Nieuw-Zeeland",
@@ -1035,10 +1035,10 @@
     },
     "east-cape-road-trip": {
       "title": "Roadtrip East Cape: kampeerroute van Gisborne naar Ōpōtiki",
-      "description": "Rij de East Cape van Gisborne naar Ōpōtiki: surfdorpen, baaien met pōhutukawa, afgelegen wegen met weinig voorzieningen en waar je onderweg kampeert.",
+      "description": "De East Cape-roadtrip over State Highway 35 van Gisborne naar Ōpōtiki in drie dagen of meer: de Tolaga Bay Wharf, de vuurtoren, tankstops en waar je kampeert.",
       "region": "East Cape",
       "imageAlt": "Afgelegen weg op de East Cape langs de Stille Oceaan",
-      "intro": "State Highway 35 is een van de mooiste wegen van het land om rustig te rijden. Brandstof, openingstijden en stormschade tellen hier zwaarder. Laat je route dus volgen wat daglicht en lokale omstandigheden toelaten, in plaats van een vaste aankomsttijd.",
+      "intro": "De East Cape-roadtrip volgt State Highway 35 rond de Cape van Gisborne naar Ōpōtiki en vraagt drie dagen of meer, met overnachtingen rond Tolaga Bay, Te Araroa en Waihau Bay. Het is een van de mooiste routes van het land om rustig te rijden, maar brandstof, openingstijden en stormschade tellen hier zwaarder. Tank vol in Gisborne en Ōpōtiki en laat daglicht en de lokale omstandigheden je route bepalen, in plaats van een vaste aankomsttijd.",
       "sections": [
         {
           "heading": "Van Gisborne naar Tolaga Bay",
@@ -4977,10 +4977,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "DOC-hutten in Nieuw-Zeeland: soorten, tarieven en tickets",
-      "description": "Waar de hutten van DOC liggen, per regio, wat verzorgde, standaard- en basishutten in 2026/27 kosten en hoe huttickets, de Hut Pass en reserveringen werken.",
+      "description": "927 DOC-hutten per regio met de tarieven van 2026/27, en de drie manieren om een nacht te betalen: reserveren op bookings.doc.govt.nz, huttickets of de Backcountry Hut Pass.",
       "region": "De Nieuw-Zeelandse backcountry",
       "imageAlt": "Afgelegen hut in de bergen van Nieuw-Zeeland",
-      "intro": "DOC (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder) beheert meer dan 950 hutten, en in de DOC-gegevens van KiwiCamping staan er 927, van verzorgde hutten met verwarming en matrassen tot bivvy’s met twee britsen. De meeste liggen op het South Island: Canterbury alleen al heeft er 180 en de West Coast 140, terwijl de grootste clusters op het North Island in de bergketens Ruahine, Kaweka en Tararua liggen. In die gegevens, gecontroleerd op 24 augustus 2026, konden maar 127 van de 927 hutten worden gereserveerd. DOC heeft inmiddels alle verzorgde hutten online gezet, maar de meeste hutten blijven voor wie het eerst komt: basishutten zijn gratis, standaardhutten betaal je met huttickets of een Backcountry Hut Pass.",
+      "intro": "DOC (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder) beheert meer dan 950 hutten, en in de DOC-gegevens van KiwiCamping staan er 927, van verzorgde hutten met verwarming en matrassen tot bivvy’s met twee britsen. De meeste liggen op het South Island: Canterbury alleen al heeft er 180 en de West Coast 140, terwijl de grootste clusters op het North Island in de bergketens Ruahine, Kaweka en Tararua liggen. In die gegevens, gecontroleerd op 24 augustus 2026, konden maar 127 van de 927 hutten worden gereserveerd. DOC heeft inmiddels alle verzorgde hutten online gezet, maar de meeste hutten blijven voor wie het eerst komt: basishutten zijn gratis, standaardhutten betaal je met huttickets of een Backcountry Hut Pass. Er zijn dus drie manieren om een nacht te betalen: reserveer verzorgde hutten en hutten van Great Walks op bookings.doc.govt.nz, koop voor een standaardhut Backcountry Hut Tickets (sinds 1 november 2026 online), of neem een Hut Pass mee die 12 maanden geldt voor de meeste verzorgde en standaardhutten.",
       "sections": [
         {
           "heading": "Hutcategorieën en tarieven 2026/27",
@@ -6610,10 +6610,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Camper rijden in Nieuw-Zeeland: rijbewijs, snelheid en maten",
-      "description": "Met een camper rijden in Nieuw-Zeeland: wat je autorijbewijs dekt, snelheidslimieten, wind op open wegen, afmetingen voor de veerboot en de fouten die bezoekers maken.",
+      "description": "Een volledig autorijbewijs geldt in Nieuw-Zeeland voor campers tot 6.000 kg. Maximumsnelheden, verkeer laten passeren, wind, hoogte en lengte voor de veerboot.",
       "region": "Wegen in Nieuw-Zeeland",
       "imageAlt": "Grote camper op een smalle weg in Nieuw-Zeeland",
-      "intro": "Ook als je een camper gewoon met een autorijbewijs (Class 1) mag besturen, rijdt hij totaal anders dan een auto. Zorg dat je bij de overdracht precies weet hoe hoog, breed en lang hij is, wat hij beladen weegt en welke wegen het huurcontract uitsluit.",
+      "intro": "Met een volledig autorijbewijs (Class 1), of een volledig buitenlands autorijbewijs waarmee je hier mag rijden, mag je campers en motorhomes besturen tot 6.000 kg beladen totaalgewicht. Onder 3.500 kg geldt de gewone maximumsnelheid buiten de bebouwde kom; zwaardere voertuigen hebben een lager maximum. Een camper mag dan wel met een autorijbewijs, hij rijdt totaal anders dan een auto. Zorg dat je bij de overdracht precies weet hoe hoog, breed en lang hij is, wat hij beladen weegt en welke wegen het huurcontract uitsluit.",
       "sections": [
         {
           "heading": "Eerst meten, dan rijden",
@@ -9931,11 +9931,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Waar kun je kamperen in Nieuw-Zeeland? De complete gids",
-      "description": "DOC-campings, conservation land, gemeentelijke reservaten, plekken van iwi en particuliere holiday parks hebben elk andere regels en kosten.",
+      "title": "Waar kamperen in Nieuw-Zeeland: campings per soort en regio",
+      "description": "Waar kun je kamperen in Nieuw-Zeeland: DOC-campings, holiday parks, freedom camping op gemeentegrond en campings van de gemeenschap, wat ze kosten en toestaan, per eiland.",
       "region": "Nieuw-Zeeland",
       "imageAlt": "Camper geparkeerd op een kustcamping in Nieuw-Zeeland",
-      "intro": "Het kampeernetwerk van Nieuw-Zeeland loopt over vier heel verschillende soorten grond, en bij elk soort veranderen de regels, de prijs en het reserveringssysteem. Als je weet met welk soort je te maken hebt, weet je al het belangrijkste: of je zomaar kunt aankomen, of je een certificaat nodig hebt, wie je kunt vragen als iets onduidelijk is en waar je qua kosten op moet rekenen.",
+      "intro": "In Nieuw-Zeeland kun je kamperen op DOC-campings op conservation land, op holiday parks (uitgebreide campings met huisjes en faciliteiten), op plekken voor freedom camping (vrij kamperen buiten een camping) van de gemeente en op campings van iwi, de gemeenschap en showgrounds (evenemententerreinen). Eenvoudige DOC-plekken zijn gratis en de rest kost geld, holiday parks hebben stroom en warme douches, en op gemeentegrond mag je meestal een of twee nachten freedom camping doen in een gecertificeerd self-contained voertuig (met eigen toilet, watertanks en afvalwatertank), als de verordening dat toestaat. De regels, de prijs en het reserveringssysteem verschillen per soort grond. Als je weet welke je voor je hebt, weet je dus al het belangrijkste: of je zomaar kunt aankomen, of je een certificaat nodig hebt, wie je kunt vragen en waar je qua kosten op moet rekenen.",
       "sections": [
         {
           "heading": "De vier soorten grond",
@@ -35128,11 +35128,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Freedom camping in Nieuw-Zeeland: regels per regio",
-      "description": "De Freedom Camping Act, verordeningen van gemeenten, certificering voor self-containment en hoe de handhaving er in de praktijk echt uitziet.",
+      "title": "Freedom camping regels Nieuw-Zeeland 2026: waar het mag en de boetes",
+      "description": "Waar je in 2026 in Nieuw-Zeeland vrij mag kamperen: verordeningen van gemeenten, DOC-grond, de green warrant die je voertuig sinds juni nodig heeft, maximale verblijfsduur en de boetes.",
       "region": "Nieuw-Zeeland",
       "imageAlt": "Bord dat freedom camping toestaat, naast een camper",
-      "intro": "Freedom camping (vrij kamperen buiten een camping) is in Nieuw-Zeeland legaal waar het is toegestaan, en overal elders een overtreding. Waar die grens ligt, bepaalt de beheerder van de grond waar je op staat. De Freedom Camping Act 2011 geeft een landelijk kader, maar gemeenten schrijven hun eigen verordeningen. Een regel uit het ene district zegt dus heel weinig over het volgende.",
+      "intro": "Freedom camping (vrij kamperen buiten een camping) is in Nieuw-Zeeland alleen legaal waar de beheerder van de grond het toestaat: op gemeentegrond volgens de verordening van die gemeente, op conservation land tenzij een DOC-bord het verbiedt of beperkt, en nooit op privégrond zonder toestemming. Op de meeste gemeenteplekken en in veel DOC-gebieden mogen alleen gecertificeerde self-contained voertuigen staan, en sinds 7 juni 2026 telt alleen een green warrant. De Freedom Camping Act 2011 geeft het landelijke kader, maar gemeenten schrijven hun eigen verordeningen. Een regel uit het ene district zegt dus heel weinig over het volgende.",
       "sections": [
         {
           "heading": "Wat freedom camping hier echt betekent",
@@ -35474,15 +35474,15 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "DOC-hutten en campings boeken 2026: hoe, tarieven, data",
-      "description": "Boek DOC-hutten, campings en Great Walks via bookings.doc.govt.nz: tarieven 2026/27, Hut Pass of Campsite Pass, hutten zonder reservering en wat als het vol is.",
+      "description": "DOC-reserveringen doe je op bookings.doc.govt.nz. Zo log je in en boek je hutten, campings en Great Walks, de tarieven van 2026/27 voor volwassenen en kinderen, en annuleren.",
       "region": "Conservation land in Nieuw-Zeeland",
       "imageAlt": "Tent op een camping van het Department of Conservation",
-      "intro": "Hutten, campings en Great Walks (de meerdaagse topwandelingen) van het Department of Conservation (DOC, de Nieuw-Zeelandse natuurbeheerder) boek je in het eigen reserveringssysteem van DOC op bookings.doc.govt.nz, of via een bezoekerscentrum van DOC. Je hebt een gratis account nodig, je betaalt het volledige bedrag bij het boeken en de bevestigingsmail is je bewijs ter plekke. De reserveringen voor het seizoen 2026/27, voor verblijven van 1 juli 2026 tot en met 30 juni 2027, gingen in mei 2026 open. De meeste hutten in de backcountry en veel basiscampings kun je helemaal niet reserveren: daar geldt wie het eerst komt, het eerst maalt. Hieronder vind je de tarieven, de twee passen, welke plekken een reservering vragen en wat je doet als de plek die je wilt vol zit.",
+      "intro": "Hutten, campings en Great Walks (de meerdaagse topwandelingen) van DOC boek je op één officiële site, het reserveringssysteem van het Department of Conservation (de Nieuw-Zeelandse natuurbeheerder) op bookings.doc.govt.nz, of bij een bezoekerscentrum van DOC. Maak een gratis account aan en log in, zoek de plek, kies data en groepsgrootte en betaal dan de volledige prijs met Visa of Mastercard; de bevestigingsmail is je reservering. De reserveringen voor het seizoen 2026/27, voor verblijven van 1 juli 2026 tot en met 30 juni 2027, gingen in mei 2026 open. Hutten en campings van de Great Walks in het seizoen, elke verzorgde hut en veel campings moet je reserveren, terwijl voor de meeste hutten in de backcountry en veel eenvoudige campings geldt: wie het eerst komt, het eerst maalt. Hieronder staan de tarieven voor volwassenen en kinderen, inwoners van Nieuw-Zeeland en internationale bezoekers, de annuleringskosten en wat je doet als de plek die je wilt vol zit.",
       "sections": [
         {
           "heading": "Waar en hoe je boekt",
           "body": [
-            "Ga naar bookings.doc.govt.nz, maak een account aan en log in voordat je zoekt. Zoek de hut, camping of Great Walk, kies de data en het aantal personen, voeg bij een camping het kenteken van het voertuig toe en betaal met Visa of Mastercard. Het volledige bedrag wordt bij het boeken afgeschreven en alle prijzen zijn inclusief GST. Bezoekerscentra van DOC kunnen veel van dezelfde plekken ter plaatse of telefonisch voor je boeken, voor NZ$ 10 servicekosten.",
+            "Ga naar bookings.doc.govt.nz, maak een account aan en log in voordat je zoekt. Zoek de hut, camping of Great Walk, kies data en groepsgrootte, voeg bij een camping het kenteken van het voertuig toe en betaal met Visa of Mastercard. Great Walks werken hetzelfde: er is geen aanbetaling of betaalregeling, het volledige verblijf wordt bij het boeken afgeschreven voor elke persoon en elke nacht, en een reservering is pas geldig als ze is betaald en bevestigd. Alle prijzen zijn in Nieuw-Zeelandse dollars en inclusief GST. Bezoekerscentra van DOC kunnen veel van dezelfde plekken ter plaatse of telefonisch voor je boeken, voor NZ$ 10 servicekosten.",
             "De bevestigingsmail is de reservering. Download of print die voordat je het bereik verlaat, samen met eventuele passen, want rangers en hutwachters kunnen erom vragen en bij de meeste <a data-guide=\"doc-huts-new-zealand-guide\">DOC-hutten</a> en veel campings is geen bereik. Britsen in reserveerbare hutten zijn niet toegewezen, dus met een reservering koop je een bed en niet een specifiek bed, en bij campingreserveringen zonder genummerde plekken kies je bij aankomst uit de plekken die dan vrij zijn."
           ],
           "tips": [
@@ -35543,14 +35543,14 @@
           "heading": "Een reservering wijzigen of annuleren",
           "body": [
             "Annuleer je op de dag van boeken of de dag erna, mits de aankomst meer dan twee dagen weg is, dan rekent DOC niets. Vanaf 48 uur na het boeken tot 15 dagen vóór aankomst kost annuleren 10 procent. Binnen 14 dagen voor aankomst loopt het op per type: hutten 20 procent, daarna 30 procent vanaf drie dagen ervoor; campings 20 en daarna 75 procent; Great Walks 50 en daarna 75 procent; lodges, cabins en sole-occupancy-hutten 100 procent. Annuleren de dag ervoor, op de dag zelf of daarna betekent dat je het hele bedrag kwijt bent, en een no-show ook.",
-            "Mis je de eerste nacht van een reservering voor meerdere nachten en neem je binnen 24 uur geen contact op met het kantoor van de camping, dan annuleert DOC de rest zonder terugbetaling. Terugbetalingen bij slecht weer zijn niet automatisch. Sluit DOC de plek of annuleert DOC je verblijf, bijvoorbeeld vanwege een storm, overstroming of een oranje of rode MetService-waarschuwing voor het gebied de dag ervoor, mail dan binnen 7 dagen het reserveringsteam van DOC, voordat je zelf de reservering wijzigt, voor een volledige terugbetaling van de ongebruikte nachten of, als je verblijf nog niet is begonnen, een verplaatsing naar beschikbare data in hetzelfde seizoen. Is het weer alleen maar slecht en blijft de plek open, dan gelden de normale annuleringskosten, en daarom raadt DOC een reisverzekering aan."
+            "Mis je de eerste nacht van een reservering voor meerdere nachten en neem je binnen 24 uur geen contact op met het kantoor van de camping, dan annuleert DOC de rest zonder terugbetaling. Terugbetalingen bij slecht weer gaan niet automatisch. Sluit DOC de plek of annuleert DOC je verblijf, bijvoorbeeld door een storm, overstroming of een oranje of rode MetService-waarschuwing voor het gebied de dag ervoor, mail dan binnen 7 dagen het reserveringsteam van DOC op booking@doc.govt.nz, voordat je zelf de reservering wijzigt, voor een volledige terugbetaling van de ongebruikte nachten of, als je verblijf nog niet is begonnen, een verplaatsing naar beschikbare data in hetzelfde seizoen. Is het weer alleen maar slecht en blijft de plek open, dan gelden de normale annuleringskosten, en daarom raadt DOC een reisverzekering aan."
           ],
           "tips": []
         },
         {
           "heading": "Als de hut of camping die je wilt volgeboekt is",
           "body": [
-            "Check dezelfde plek op andere data, vooral in de weken in het tussenseizoen aan weerszijden van de schoolvakanties, en kijk naar campings: DOC zegt dat veel campings nog goed beschikbaar waren toen de hutten vol zaten, al hebben de Milford Track en de Paparoa Track er geen. Wissel een volgeboekte Great Walk om voor een met meer ruimte, of loop in de buurt een route met hutten die je niet kunt reserveren. DOC adviseert zelf om de komende maanden te blijven checken, want mensen annuleren en zelfs de Milford Track heeft het hele jaar annuleringen.",
+            "Check dezelfde plek op andere data, vooral in de weken in het tussenseizoen aan weerszijden van de schoolvakanties, en kijk naar campings: DOC zegt dat veel campings nog goed beschikbaar waren toen de hutten vol zaten, al hebben de Milford Track en de Paparoa Track er geen. Wissel een volgeboekte Great Walk om voor een met meer ruimte, of loop in de buurt een route met hutten die je niet kunt reserveren. DOC adviseert zelf om de komende maanden te blijven checken, want mensen annuleren en zelfs de Milford Track heeft het hele jaar annuleringen. Geannuleerde plekken verschijnen weer op bookings.doc.govt.nz, voor iedereen om te boeken. Onafhankelijke meldingsdiensten zoals GreatWalkHuts.com, greatwalks.online, HutSnag en NZtracker houden het systeem in de gaten en mailen je zodra er een plek vrijkomt. Het zijn particuliere bedrijven en geen onderdeel van DOC, sommige rekenen kosten per melding (gecheckt op 3 november 2026), en je boekt en betaalt nog steeds op de site van DOC zelf.",
             "Voor een nacht met een voertuig is een holiday park (een uitgebreide camping met huisjes en faciliteiten) of een DOC-camping met zelfregistratie de realistische terugvaloptie. KiwiCamping toont elke DOC-hut en camping in zijn gegevens met de categorie, het tarief en of je er kunt reserveren, naast holiday parks die je in de app via BookIt kunt boeken, zodat je het dichtstbijzijnde alternatief ook zonder bereik kunt vinden. Voor DOC-plekken in de app heb je de Pass nodig; BookIt-verblijven kun je gratis bekijken en boeken. De regels voor de drukste weken op de populairste campings, zoals het minimumtarief in Tōtaranui, staan in de gids over <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kamperen met Kerst</a> en de zomer van 2026-27."
           ],
           "tips": [
@@ -35826,7 +35826,7 @@
       "description": "Campertoilet legen in Nieuw-Zeeland: de 262 lozingspunten van KiwiCamping per regio, de meeste gratis, hoe je ze gebruikt en de boete van NZ$ 800 voor lozen.",
       "region": "Campings in Nieuw-Zeeland",
       "imageAlt": "Camper bij een aangegeven lozingspunt",
-      "intro": "Bij afval wordt verantwoord kamperen concreet, en daar worden de straffen ook zwaar. Toiletwater of grijswater op de verkeerde plek lozen kost aanzienlijk meer dan een gewone boete voor freedom camping (vrij kamperen buiten een camping), en het is het gedrag waardoor een populaire plek het snelst definitief dichtgaat.",
+      "intro": "Leeg het cassettetoilet of de grijswatertank van je camper alleen bij een lozingspunt (dump station). In onze gegevens staan 262 openbare lozingspunten in heel Nieuw-Zeeland, en de meeste zijn gratis. Toiletafval of grijswater ergens anders lozen kost meer dan een gewone boete voor freedom camping (vrij kamperen buiten een camping), en het is het gedrag waardoor een populaire plek het snelst definitief dichtgaat.",
       "sections": [
         {
           "heading": "Ken je drie afvalstromen",
@@ -35925,17 +35925,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Kampvuurregels Nieuw-Zeeland 2026: check eerst het stookverbod",
-      "description": "Brandseizoenen in Nieuw-Zeeland: open, restricted of prohibited. Waar je het actuele stookverbod checkt, wanneer je een vergunning nodig hebt en hoe je dan kookt.",
+      "title": "Stookverbod Nieuw-Zeeland 2026-27: brandseizoenen en kampvuurregels",
+      "description": "Check het brandseizoen van vandaag voor jouw gebied op checkitsalright.nz. Open, restricted en prohibited seizoenen, volledige stookverboden, kampvuren op DOC-terrein en gaskooktoestellen.",
       "region": "Nieuw-Zeeland",
       "imageAlt": "Klein, gecontroleerd kampvuur op een toegestane vuurplaats",
-      "intro": "Een bestaande vuurring en een hoop oude as bewijzen dat hier ooit iemand een vuur heeft gehad, niet dat jij er vandaag een mag maken. Nieuw-Zeeland kent een brandseizoensysteem met drie niveaus dat meebeweegt met de omstandigheden, en de beheerder van het terrein kan vuur verbieden, wat dat systeem ook zegt.",
+      "intro": "Check het brandseizoen van vandaag voor jouw gebied op checkitsalright.nz, van Fire and Emergency New Zealand: vul het adres of de plek in en je ziet of je een vuur mag maken en of je een vergunning nodig hebt. Elk gebied zit altijd in een van drie brandseizoenen. Open betekent dat je zonder vergunning een vuur in de open lucht mag maken, restricted betekent dat je eerst een vergunning van Fire and Emergency nodig hebt, en prohibited, wat de meeste mensen een volledig stookverbod noemen, betekent dat vuren in de open lucht helemaal verboden zijn. Op conservation land houdt DOC het hele jaar een restricted seizoen aan, dus kampvuren zijn alleen toegestaan in een aangewezen vuurplaats op een DOC-camping als er geen verbod geldt. Voor gaskooktoestellen heb je geen vergunning nodig. Een oude vuurring bewijst dat hier ooit iemand een vuur heeft gehad, niet dat jij er vandaag een mag maken.",
       "sections": [
         {
           "heading": "De drie brandseizoenen",
           "body": [
-            "In een open fire season (vrij stookseizoen) mag je zonder vergunning in de open lucht een vuur maken, wel binnen de eigen regels van de beheerder van het terrein. In een restricted fire season (beperkt stookseizoen) heb je een vergunning van Fire and Emergency New Zealand nodig voordat je in de open lucht iets aansteekt. In een prohibited fire season (stookverbod) zijn vuren in de open lucht helemaal verboden en wordt er geen vergunning afgegeven.",
-            "Het seizoen geldt per district en verandert mee met de omstandigheden, in een droge periode soms op korte termijn. Check die dag zelf de actuele status voor precies het district waar je bent, niet voor het district waar je vanochtend doorheen reed. Hoe deze regels uitpakken bij de El Niño-verwachting van deze zomer lees je in de gids over <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kamperen met Kerst</a> en de zomer van 2026-27."
+            "In een open fire season (vrij stookseizoen) mag je zonder vergunning in de open lucht een vuur maken, wel binnen de eigen regels van de beheerder van het terrein. In een restricted fire season (beperkt stookseizoen) heb je voor de meeste vuren in de open lucht een vergunning van Fire and Emergency New Zealand nodig en moet je je aan de voorwaarden houden. Een prohibited fire season (stookverbod) is een volledig stookverbod: vuren in de open lucht zijn helemaal verboden, bestaande vergunningen worden opgeschort en nieuwe worden alleen in uitzonderlijke gevallen afgegeven.",
+            "Fire and Emergency bepaalt het seizoen zone voor zone en past het aan op de omstandigheden, in een droge periode soms op korte termijn, en kondigt elke wijziging aan voor het gebied. Veel gebieden gaan naar een restricted seizoen als de zomer droger wordt, en sommige naar prohibited, dus een vuur dat in oktober legaal was, is dat in januari misschien niet meer. Check checkitsalright.nz voor de exacte plek waar je die dag kampeert, niet voor het district waar je vanochtend doorheen reed, en kijk ook naar het brandgevaar: Fire and Emergency vraagt je zelfs een toegestaan vuur uit te stellen als het gevaar Very High of Extreme is. Hoe deze regels uitpakken bij de El Niño-verwachting van deze zomer lees je in onze gids over <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kamperen met Kerst</a> en de zomer van 2026-27."
           ],
           "tips": [
             "Check die dag zelf het district",
@@ -35946,8 +35946,8 @@
         {
           "heading": "De beheerder kan strenger zijn",
           "body": [
-            "Het brandseizoen is een ondergrens, geen vrijbrief. De <a data-guide=\"doc-campsites-new-zealand-guide\">campings van DOC</a> (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder), regionale parken, gemeentelijke terreinen en particuliere campings stellen allemaal hun eigen regels op, en veel verbieden open vuur permanent, ongeacht het seizoen. Als er twee regels gelden, gaat de strengste voor.",
-            "Lees de pagina van de betreffende camping en het bord ter plekke. Sommige DOC-campings staan een klein vuur alleen toe in een vuurplaats die er al is, sommige verbieden vaste brandstof helemaal, en voor vuren in de backcountry gelden aparte voorwaarden over locatie, vrije ruimte eromheen en grootte."
+            "Het brandseizoen is een ondergrens, geen vrijbrief. De <a data-guide=\"doc-campsites-new-zealand-guide\">campings van DOC</a> (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder), regionale parken, gemeentelijke terreinen en particuliere campings stellen allemaal hun eigen regels op, en veel verbieden open vuur permanent, ongeacht het seizoen. Als er twee regels gelden, gaat de strengste voor. Op openbaar conservation land houdt DOC het hele jaar een restricted brandseizoen aan, en op sommige plekken, zoals door DOC beheerde eilanden voor de kust, geldt het hele jaar een volledig stookverbod.",
+            "Bij een DOC-camping of dagrecreatieplek mag je alleen een kampvuur maken in de aangewezen vuurplaats of vuurkuil en alleen als er geen stookverbod geldt. In de backcountry staat DOC een klein kook- of warmtevuur toe dat minder dan een halve meter breed en hoog is, minstens 3 meter van bomen en alles wat vlam kan vatten, en alleen als geen verbod of bord het verbiedt. Voor vreugdevuren, barbecues op houtskool en hāngī op DOC-grond heb je een vergunning van Fire and Emergency nodig, die volgens DOC meestal niet wordt afgegeven. Lees ook de pagina van de camping en het bord ter plekke."
           ],
           "tips": []
         },
@@ -35974,7 +35974,7 @@
         {
           "heading": "Koken als vuur verboden is",
           "body": [
-            "Een gaskooktoestel is het praktische antwoord en is meestal toegestaan als open vuur dat niet is, maar check het, want in een prohibited fire season kunnen ook sommige toestellen beperkt zijn. Gebruik het op een stabiele, vlakke ondergrond, ruim uit de buurt van tentdoek en begroeiing.",
+            "Een gaskooktoestel is het praktische antwoord. Fire and Emergency zegt dat je geen stookvergunning nodig hebt voor gasbarbecues, kooktoestellen of kachels, en DOC zegt dat je gasbranders en gesloten branders op vloeibare brandstof meestal altijd mag gebruiken om te koken, maar geen open branders op vloeibare brandstof zoals spiritusbranders. Een gemeente of grondeigenaar kan ze nog steeds beperken, dus check het bord. Gebruik ze op een stabiele, vlakke ondergrond, ruim uit de buurt van tentdoek en begroeiing, en houd reservegasflessen 5 meter bij de vlam vandaan.",
             "Kook nooit in een gesloten tent, een voortent of een voertuig zonder ventilatie. Het risico is koolmonoxide, dat geurloos is en in Nieuw-Zeeland al kampeerders het leven heeft gekost. Laat een kooktoestel helemaal afkoelen voordat het terug in een voertuig of tent gaat, en bewaar gasflessen rechtop op een geventileerde plek. Op weg naar een zomerevenement? Dan gelden daar ook de eigen stookregels, en de gids over <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">kamperen op oudejaarsavond</a> en zomerevenementen laat zien wat je vooraf checkt."
           ],
           "tips": [
@@ -38183,6 +38183,203 @@
         },
         {
           "label": "DOC: de Great Walks vergelijken"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Freedom camping rond Matakana en Warkworth: waar kun je overnachten",
+      "description": "Waar je rond Matakana en Warkworth in een camper kunt slapen: de paar kleine freedom camping-plekken van Auckland Council, de te reserveren campings in de regional parks van Tawharanui en Mahurangi, en de holiday parks die je beter kunt gebruiken.",
+      "region": "Auckland",
+      "imageAlt": "Branding die over donker zand spoelt op een strand aan de westkust, met in de verte een landtong en een zeezuil",
+      "intro": "Matakana en Warkworth liggen een uur ten noorden van Auckland en vallen onder dezelfde verordening van Auckland Council als de stad: alleen gecertificeerde self-contained voertuigen, op een paar aangegeven plekken, voor een paar nachten. De plekken hier zijn klein, vaak maar voor een handvol voertuigen, en de regional parks eromheen zijn gesloten voor freedom camping (vrij kamperen buiten een camping). Een beter plan voor een weekend op de markten van Matakana of de stranden van de Mahurangi-kust is een gereserveerde camping of een holiday park (een uitgebreide camping met huisjes en faciliteiten), met de gemeenteplekken als back-up bij late aankomst.",
+      "sections": [
+        {
+          "heading": "De regels van Auckland die hier gelden",
+          "body": [
+            "De <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw van Auckland geldt in de hele regio, inclusief Rodney en de Hibiscus Coast. Kamperen op gemeentewegen en parkeerplaatsen mag alleen in een gecertificeerd self-contained voertuig, maximaal twee nachten op dezelfde plek, en je vertrekt om 9 uur op de dag dat je weggaat. In onze gids over freedom camping in Auckland staat de volledige verordening, met de verboden en beperkte gebieden, dus deze pagina blijft bij de kant van Matakana.",
+            "Een tent of een voertuig zonder certificaat heeft op gemeentegrond niets te zoeken. Sinds 7 juni 2026 telt alleen de <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a>, die we uitleggen in de gids over het self-contained-certificaat voor campers. De handhaving loopt de hele zomer door en een boete gaat naar de geregistreerde eigenaar, bij een huurauto het verhuurbedrijf."
+          ],
+          "tips": [
+            "Verordening voor de hele regio",
+            "Twee nachten, om 9 uur weg",
+            "Green warrant nodig"
+          ]
+        },
+        {
+          "heading": "Gemeenteplekken bij Warkworth en aan de kust",
+          "body": [
+            "De aangegeven plekken van de gemeente in de buurt zijn klein en verspreid: een wharf reserve (terrein bij de pier) in Port Albert aan de kant van Kaipara, een paar plaatsen bij Parry Kauri Park in Warkworth en een handvol plekken aan de kusten van Mahurangi en Whangaparāoa, zoals Snells Beach, elk voor drie tot tien voertuigen. De kaart en pagina van de gemeente geven de lijst, en die verandert, dus check een plek voordat een nacht ervan afhangt.",
+            "Omdat de aantallen zo laag zijn, zitten de plekken in de zomer en op vrijdagavond vol voor het donker. Met een gereserveerde camping heb je een slaapplek gegarandeerd en een sanitairgebouw, en de plekken die overblijven voor wie onverwacht aankomt zijn beter een meevaller dan een plan."
+          ],
+          "tips": [
+            "3 tot 10 voertuigen per plek",
+            "Port Albert ligt aan de kant van Kaipara",
+            "Zie gratis plekken als back-up"
+          ]
+        },
+        {
+          "heading": "Regional parks en gereserveerde campings",
+          "body": [
+            "De regional parks van Auckland Council zijn gesloten voor <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, maar twee ervan hebben campings die je kunt reserveren en die goed passen bij een weekend in de buurt: Tawharanui aan het eind van een lange weg over een schiereiland, met stranden aan beide kanten, en Mahurangi, waar de campings boven beschutte baaien liggen. Je reserveert bij beide via de gemeente, en de beste weekenden in januari zijn het eerst weg.",
+            "Ze zijn er voor tenten en campers, met toiletten en water, en sommige baaien liggen op korte loopafstand van het water. Regels voor honden, vuur en stiltetijden zijn die van het park zelf, die op de reserveringspagina staan, en ze zijn strenger dan bij de meeste <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>."
+          ],
+          "tips": [
+            "Tawharanui en Mahurangi: reserveer vooraf",
+            "Regional parks verbieden freedom camping",
+            "Regels voor honden en vuur verschillen"
+          ]
+        },
+        {
+          "heading": "Holiday parks en DOC-grond",
+          "body": [
+            "Warkworth, Snells Beach, Omaha en Leigh hebben elk <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> of motor camps binnen bereik, met plekken met stroom en huisjes. Ze zijn de betrouwbare keuze met Kerst, en het Paasweekend brengt dezelfde drukte als de stranden. In de gids over holiday parks lees je hoe reserveren werkt.",
+            "DOC-grond in de regio Auckland ligt vooral op eilanden. In de DOC-gegevens van KiwiCamping (11 augustus 2026) staan 9 campings in Auckland, waarvan 1 gratis en 5 met toegang voor campers, met nachttarieven voor volwassenen van NZ$ 10 tot NZ$ 18, en Home Bay op Motutapu Island is de grootste, met plek voor 131. Geen ervan ligt over de weg in de buurt van Matakana."
+          ],
+          "tips": [
+            "Holiday parks bij elk strand",
+            "DOC-plekken in Auckland liggen op eilanden",
+            "Pasen zit vol als Kerst"
+          ]
+        },
+        {
+          "heading": "KiwiCamping gebruiken rond Matakana",
+          "body": [
+            "KiwiCamping toont DOC-campings en -hutten, holiday parks met hun voorzieningen en lozingspunten (dump stations) rond Auckland, met filters voor toegang voor campers. De <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-plekken van de gemeente en reserveringen van regional parks staan er niet in, dus gebruik daarvoor de pagina’s van de gemeente.",
+            "Zet de nacht bij Matakana in een route van Auckland naar de Bay of Islands en kijk naar de afstand en rijtijd naar de volgende stop, Whangārei, iets meer dan een uur verder. Opgeslagen plekken blijven op je telefoon, en de kaart, routes, voorspelling en foto’s hebben een verbinding nodig, die op de wegen over het schiereiland wisselend is. Gratis te downloaden, met aankopen in de app."
+          ],
+          "tips": [
+            "Reserveringen van gemeente en parken: gebruik hun pagina’s",
+            "Whangārei is ongeveer een uur verder",
+            "Opgeslagen plekken blijven op je telefoon"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mag ik freedom camping doen bij Matakana?",
+          "Alleen in een gecertificeerd self-contained voertuig op een van de kleine aangegeven plekken van de gemeente, maximaal twee nachten. Regional parks en de meeste reservaten zijn ervoor gesloten, dus een gereserveerde camping of holiday park is het veiligere plan."
+        ],
+        [
+          "Kan ik kamperen in Tawharanui Regional Park?",
+          "Ja, op de camping die je kunt reserveren, niet als freedom camping. Reserveer via Auckland Council voordat je erheen rijdt."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: Freedom camping"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping in Nieuw-Zeeland: waar je slaapt in yurts, domes en safaritenten",
+      "description": "Glamping in Nieuw-Zeeland: wat het is, de soorten verblijven, de beste regio’s van de Bay of Islands tot Queenstown, wat het kost en wanneer je boekt, en hoe het past in een campertrip.",
+      "region": "Nieuw-Zeeland",
+      "imageAlt": "De Bay of Islands bij Waitangi op een zonnige dag",
+      "intro": "Glamping is kamperen met het comfort al klaar: een safaritent met een echt bed, een yurt met een houtkachel, een dome onder de sterren, een tiny cabin aan een meer. Nieuw-Zeeland heeft er volop, van de Bay of Islands tot Queenstown, meestal particulier en op boerderijen, wijngaarden en holiday parks (uitgebreide campings met huisjes en faciliteiten). Het past bij een nacht of twee in een campertrip, als verwennerij, bij een regenperiode of voor een bijzondere gelegenheid.",
+      "sections": [
+        {
+          "heading": "Wat telt als glamping",
+          "body": [
+            "Er is geen officiële definitie en het aanbod is breed. Safaritenten en bell tents hebben echte bedden en een terras, yurts en domes hebben kachels en soms een eigen badkamer, en tiny houses, cabins en boomhutten zitten daartussenin. De meeste staan op privégrond en een paar op <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>. DOC organiseert geen glamping, al heeft het wel hutten en cabins.",
+            "Kijk wat erbij zit: beddengoed, badkamer, keuken, verwarming en ontbijt verschillen sterk, en de prijs ook. Een glampingverblijf op een afgelegen plek kan composttoiletten hebben en geen stroom, dus lees de advertentie goed."
+          ],
+          "tips": [
+            "Safaritenten, yurts, domes en tiny houses",
+            "Meestal op privégrond",
+            "Check wat erbij zit"
+          ]
+        },
+        {
+          "heading": "Waar zoeken",
+          "body": [
+            "De Bay of Islands en Northland hebben verblijven op boerderijen en tenten aan de kust, de Coromandel heeft plekken aan het strand en in de bush, en Waiheke heeft wijngaarden en uitzicht. Op het South Island hebben de Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> en Golden Bay opties aan het water, en Queenstown, Wānaka en Central Otago hebben plekken aan meren en wijngaarden met uitzicht op de bergen.",
+            "Kaikōura, Tekapo en Aoraki Mount Cook hebben verblijven onder de donkere sterrenhemel, met domes om naar de sterren te kijken. Abel Tasman, de Bay of Islands en Queenstown zijn het drukst, dus kijk wat verder weg voor een rustigere plek."
+          ],
+          "tips": [
+            "Northland, Coromandel en Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Domes om sterren te kijken"
+          ]
+        },
+        {
+          "heading": "Kosten en wanneer boeken",
+          "body": [
+            "De prijzen lopen sterk uiteen, van eenvoudige tenten voor ongeveer de prijs van een goede motelkamer tot luxe domes en lodges voor enkele honderden Nieuw-Zeelandse dollars per nacht, en ze stijgen in de zomer en in de schoolvakanties. Check de pagina van de aanbieder zelf voor de actuele prijs en wat erbij zit, en vraag naar de annuleringsvoorwaarden, want het weer kan een plan veranderen.",
+            "De beste plekken zijn maanden vooraf volgeboekt voor december tot februari en de paas- en schoolvakanties, dus reserveer zodra je data vaststaan. Buiten de zomer zijn er gunstige tarieven, al sluiten sommige plekken in de winter. In de gids over school- en feestdagen vind je de data."
+          ],
+          "tips": [
+            "Prijzen stijgen in de zomer",
+            "Check de annuleringsvoorwaarden",
+            "Boek maanden vooraf voor de zomer"
+          ]
+        },
+        {
+          "heading": "Glamping combineren met een campertrip",
+          "body": [
+            "Een nacht glamping tussen je camperdagen geeft je een echt bed, een warme douche en een dag zonder rijden, en het werkt als terugvaloptie bij nat weer. Het is vooral goed op plekken waar <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> (vrij kamperen buiten een camping) niet mag en een plek schaars is, zoals de Bay of Islands, Queenstown en Abel Tasman.",
+            "Heb je een camper, dan is een <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> met cabins de goedkopere keuze voor een nacht vrij, en in de gids over holiday parks staan de opties. In de gids over kamperen bij nat weer lees je meer over droog blijven en een plek vinden."
+          ],
+          "tips": [
+            "Een verwennacht tussen de nachten in je camper",
+            "Terugvaloptie bij nat weer",
+            "Cabins op holiday parks zijn goedkoper"
+          ]
+        },
+        {
+          "heading": "Er komen en wat je meeneemt",
+          "body": [
+            "Veel glampingplekken liggen aan gravel- of boerderijwegen, soms met een steile oprit, dus check de routebeschrijving en of een camper erheen kan. Vraag de gastheer waar je met je camper kunt parkeren. Neem warme kleren, een zaklamp, insectenspray en je eigen eten mee als het verblijf geen keuken heeft, en check de inchecktijden, want gastheren zijn vaak niet de hele dag aanwezig.",
+            "Respecteer het land, neem je afval mee en houd het ’s nachts stil, want veel plekken liggen op werkende boerderijen met vee. In de gids over <a data-guide=\"responsible-camping-new-zealand\">verantwoord kamperen</a> staan de basisregels."
+          ],
+          "tips": [
+            "Check of een camper er kan komen",
+            "Neem warme kleren en een zaklamp mee",
+            "Respecteer werkende boerderijen"
+          ]
+        },
+        {
+          "heading": "Je reis plannen met KiwiCamping",
+          "body": [
+            "Op iPhone toont KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campings</a>, hutten en holiday parks op de kaart, filtert ze op toegang voor campers en voorzieningen, en laat holiday parks zien met hun te reserveren verblijven. Sla de plekken op die je leuk vindt, voeg ze toe aan een reis met data, en elke stop krijgt een voorspelling. Particuliere glampingplekken staan er niet in, dus kijk daarvoor op de pagina’s van de aanbieders zelf.",
+            "Verblijven op <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> kun je via de vermelding boeken, terwijl DOC-reserveringen op de eigen pagina’s van DOC blijven. Gratis te downloaden, met aankopen in de app."
+          ],
+          "tips": [
+            "Sla holiday parks en hutten op",
+            "Voorspelling bij elke stop",
+            "Particuliere glamping boek je bij de aanbieder"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is glamping in Nieuw-Zeeland?",
+          "Kamperen met het comfort al klaar, zoals een safaritent met een bed, een yurt of een dome, meestal op privégrond. Check wat erbij zit, want dat verschilt sterk."
+        ],
+        [
+          "Wanneer moet ik glamping in Nieuw-Zeeland boeken?",
+          "Maanden vooraf voor december tot februari en de schoolvakanties. In de winter en het tussenseizoen is het makkelijker, al sluiten sommige plekken."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: bijzondere plekken om te overnachten"
+        },
+        {
+          "label": "DOC: plekken om te overnachten"
+        },
+        {
+          "label": "MBIE: data van school- en feestdagen"
         }
       ],
       "priceTable": null

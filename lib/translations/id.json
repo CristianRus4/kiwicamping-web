@@ -440,7 +440,7 @@
       "openTool": "Buka kalkulator",
       "ctaEyebrow": "Rencanakan di KiwiCamping",
       "ctaTitle": "Temukan perhentian, lalu hitung.",
-      "ctaText": "KiwiCamping gratis diunduh untuk iPhone. Holiday park, penginapan, dan tur yang bisa dipesan gratis di aplikasi. Campsite DOC, pondok, dump station, dan panduan terbuka dengan Pass.",
+      "ctaText": "Semua tempat berkemah dan menginap dalam satu peta, dengan filter, foto, tarif, dan perencana perjalanan untuk seluruh rute.",
       "ctaButton": "Unduh aplikasi",
       "enterValidValues": "Masukkan nilai yang valid",
       "enterValidAmount": "Masukkan jumlah yang valid"
@@ -2906,7 +2906,7 @@
           "heading": "Merencanakan Auckland ke Tauranga di KiwiCamping",
           "body": [
             "Untuk ujung perjalanan di Bay of Plenty, KiwiCamping memetakan <a data-guide=\"doc-campsites-new-zealand-guide\">kemah DOC</a>, pondok, dan taman liburan dari Waihī Beach sampai Mount Maunganui. Tempat yang disimpan menjadi perjalanan sesuai urutan pilihan Anda, dengan kilometer di antaranya dan prakiraan untuk setiap pantai atau kota. Ini perencana, bukan GPS, jadi serahkan navigasi langsung ke Apple Maps atau Google Maps.",
-            "Pemesanan DOC tetap di halaman pemesanan DOC sendiri, dan <a data-guide=\"holiday-parks-new-zealand-guide\">taman liburan</a> menerima pemesanan sendiri."
+            "Pesan campsite DOC lewat DOC sendiri; <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> di sekitar Tauranga dan the Mount masing-masing mengelola pemesanannya sendiri."
           ],
           "tips": [
             "Simpan perhentian sesuai urutan perjalanan",
@@ -22075,7 +22075,7 @@
           "heading": "Menggunakan KiwiCamping di Hawke's Bay",
           "body": [
             "KiwiCamping menampilkan kemah dan pondok DOC di wilayah ini, taman liburan dengan fasilitasnya, dan stasiun pembuangan, dengan filter untuk mempersempitnya sesuai kebutuhan kendaraan Anda. Aplikasi ini tidak memuat lokasi <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> milik dewan, jadi gunakan halaman dewan di atas untuk itu dan simpan taman liburan sebagai cadangan untuk setiap malam.",
-            "Masukkan malam di Napier ke dalam perjalanan dengan tanggal dan catatan, dan baca jarak ke perhentian berikutnya, yang bagi kebanyakan orang adalah perjalanan ke atau dari Wellington atau Taupō. Tempat tersimpan Anda di Hawke's Bay dan detailnya tetap terbaca tanpa sinyal; peta, petunjuk arah, prakiraan, dan foto dimuat setelah Anda mendapat sinyal lagi. Aplikasi ini gratis diunduh, dengan pembelian dalam aplikasi."
+            "Masukkan malam di Napier ke dalam perjalanan lengkap dengan tanggal dan catatan, lalu baca jarak ke perhentian berikutnya, yang bagi kebanyakan orang adalah perjalanan ke atau dari Wellington atau Taupō. Tempat tersimpan Anda di Hawke's Bay dan detailnya tetap terbaca tanpa sinyal; peta, petunjuk arah, prakiraan cuaca, dan foto dimuat setelah Anda kembali mendapat sinyal. Gratis diunduh, dengan pembelian dalam aplikasi."
           ],
           "tips": [
             "Lokasi dewan: gunakan halaman dewan",
@@ -38422,6 +38422,203 @@
         },
         {
           "label": "DOC: bandingkan Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Freedom Camping di Sekitar Matakana dan Warkworth: Di Mana Menginap",
+      "description": "Tempat tidur di campervan di sekitar Matakana dan Warkworth: beberapa lokasi freedom camping kecil milik Auckland Council, campground taman regional yang harus dipesan di Tawharanui dan Mahurangi, dan holiday park sebagai gantinya.",
+      "region": "Auckland",
+      "imageAlt": "Ombak menyapu pasir gelap di pantai pesisir barat, dengan tanjung dan batu karang laut di kejauhan",
+      "intro": "Matakana dan Warkworth berjarak satu jam di utara Auckland, dan keduanya tunduk pada bylaw Auckland Council yang sama dengan kotanya: hanya kendaraan self-contained bersertifikat, di beberapa tempat yang diberi rambu, selama beberapa malam. Lokasi di sini kecil, sering hanya muat beberapa kendaraan, dan taman regional di sekitarnya tertutup untuk freedom camping. Rencana yang lebih baik untuk akhir pekan di pasar Matakana atau pantai-pantai pesisir Mahurangi adalah campground yang dipesan atau holiday park, dengan lokasi dewan sebagai cadangan jika tiba terlambat.",
+      "sections": [
+        {
+          "heading": "Aturan Auckland yang berlaku di sini",
+          "body": [
+            "<a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw milik Auckland berlaku di seluruh wilayah, termasuk Rodney dan Hibiscus Coast. Berkemah di jalan dan tempat parkir dewan hanya diizinkan dengan kendaraan self-contained bersertifikat, paling lama dua malam di tempat yang sama, dan Anda berangkat sebelum pukul 9 pagi pada hari kepergian. Panduan freedom camping di Auckland membaca bylaw itu secara lengkap, dengan area terlarang dan terbatasnya, jadi halaman ini hanya membahas sisi Matakana.",
+            "Tenda atau kendaraan tanpa sertifikat tidak punya tempat di lahan dewan. Sejak 7 Juni 2026 hanya <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a> yang dihitung, dan panduan warrant campervan self-contained menjelaskannya. Penindakan berjalan sepanjang musim panas, dan pemberitahuan dikirim ke pemilik terdaftar, yang untuk kendaraan sewaan adalah perusahaan persewaan."
+          ],
+          "tips": [
+            "Bylaw seluruh wilayah",
+            "Dua malam, berangkat sebelum pukul 9 pagi",
+            "Perlu green warrant"
+          ]
+        },
+        {
+          "heading": "Lokasi dewan dekat Warkworth dan pesisir",
+          "body": [
+            "Tempat yang diberi rambu oleh dewan di area ini kecil dan tersebar: reservasi dermaga di Port Albert di sisi Kaipara, beberapa tempat di Parry Kauri Park di Warkworth, dan segelintir lokasi di pesisir Mahurangi dan Whangaparāoa seperti Snells Beach, masing-masing menampung antara tiga dan sepuluh kendaraan. Peta dan halaman dewan memuat daftarnya, dan daftar itu berubah, jadi pastikan sebuah tempat sebelum malam Anda bergantung padanya.",
+            "Karena jumlahnya sangat sedikit, lokasi penuh sebelum gelap di musim panas dan pada Jumat malam. Campground yang dipesan menjamin tempat tidur dan blok toilet, dan tempat yang tersisa bagi yang datang tanpa rencana lebih baik dianggap bonus daripada rencana."
+          ],
+          "tips": [
+            "3 sampai 10 kendaraan per lokasi",
+            "Port Albert ada di sisi Kaipara",
+            "Anggap lokasi gratis sebagai cadangan"
+          ]
+        },
+        {
+          "heading": "Taman regional dan campground yang dipesan",
+          "body": [
+            "Taman regional Auckland Council tertutup untuk <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, tetapi dua di antaranya punya campground yang harus dipesan dan cocok untuk akhir pekan di area ini: Tawharanui di ujung jalan semenanjung yang panjang, dengan pantai di kedua sisi, dan Mahurangi, tempat campground berada di atas teluk-teluk terlindung. Keduanya menerima pemesanan lewat dewan, dan akhir pekan terbaik di bulan Januari habis lebih awal.",
+            "Keduanya untuk tenda maupun campervan, dengan toilet dan air, dan beberapa area hanya berjalan kaki singkat dari air. Anjing, api, dan jam tenang mengikuti aturan taman itu sendiri, yang dicantumkan di halaman pemesanan, dan aturannya lebih ketat daripada kebanyakan <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>."
+          ],
+          "tips": [
+            "Tawharanui dan Mahurangi: pesan lebih awal",
+            "Taman regional melarang freedom camping",
+            "Aturan anjing dan api berbeda"
+          ]
+        },
+        {
+          "heading": "Holiday park dan lahan DOC",
+          "body": [
+            "Warkworth, Snells Beach, Omaha, dan Leigh masing-masing punya <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> atau motor camp yang terjangkau, dengan lokasi berlistrik dan kabin. Itulah pilihan andalan saat Natal, dan akhir pekan Paskah membawa keramaian yang sama seperti di pantai. Panduan holiday park menjelaskan cara pemesanannya.",
+            "Lahan DOC di wilayah Auckland sebagian besar ada di pulau-pulau. Data DOC KiwiCamping (11 Agustus 2026) mencantumkan 9 campsite di Auckland, 1 di antaranya gratis dan 5 dengan akses campervan, dengan tarif dewasa per malam dari $10 sampai $18, dan Home Bay di Motutapu Island adalah yang terbesar dengan tempat untuk 131. Tidak satu pun dekat Matakana lewat jalan darat."
+          ],
+          "tips": [
+            "Holiday park dekat setiap pantai",
+            "Lokasi DOC di Auckland ada di pulau-pulau",
+            "Paskah penuh seperti Natal"
+          ]
+        },
+        {
+          "heading": "Memakai KiwiCamping di sekitar Matakana",
+          "body": [
+            "KiwiCamping mencantumkan campsite dan pondok DOC, holiday park dengan fasilitasnya, dan dump station di sekitar Auckland, dengan filter untuk akses campervan. Aplikasi ini tidak memuat lokasi <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> dewan atau pemesanan taman regional, jadi pakai halaman dewan untuk itu.",
+            "Tambahkan malam di Matakana ke perjalanan Auckland ke Bay of Islands dan baca jarak serta waktu berkendara ke perhentian berikutnya, yaitu Whangārei, sedikit lebih dari satu jam ke depan. Tempat tersimpan tetap ada di ponsel, sedangkan peta, rute, prakiraan cuaca, dan foto memerlukan koneksi, yang tidak merata di jalan semenanjung. Gratis diunduh, dengan pembelian dalam aplikasi."
+          ],
+          "tips": [
+            "Pemesanan dewan dan taman: pakai halaman mereka",
+            "Whangārei sekitar satu jam ke depan",
+            "Tempat tersimpan tetap ada di ponsel"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bisakah saya freedom camping dekat Matakana?",
+          "Hanya dengan kendaraan self-contained bersertifikat di salah satu lokasi kecil berambu milik dewan, paling lama dua malam. Taman regional dan sebagian besar reserve tertutup untuk itu, jadi campground yang dipesan atau holiday park adalah rencana yang lebih aman."
+        ],
+        [
+          "Bisakah saya berkemah di Tawharanui Regional Park?",
+          "Ya, di campground-nya yang harus dipesan, bukan sebagai freedom camping. Pesan lewat Auckland Council sebelum berkendara ke sana."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping di Selandia Baru: Tempat Menginap di Yurt, Kubah, dan Tenda Safari",
+      "description": "Glamping di Selandia Baru: apa itu, jenis penginapan, wilayah terbaik dari Bay of Islands sampai Queenstown, biayanya, kapan harus memesan, dan bagaimana cocok dengan perjalanan campervan.",
+      "region": "Selandia Baru",
+      "imageAlt": "Bay of Islands di Waitangi pada hari yang cerah",
+      "intro": "Glamping berarti berkemah dengan kenyamanan yang sudah disiapkan: tenda safari dengan tempat tidur sungguhan, yurt dengan tungku kayu, kubah di bawah bintang, kabin mungil di tepi danau. Selandia Baru punya banyak sekali, dari Bay of Islands sampai Queenstown, kebanyakan dikelola swasta dan berada di pertanian, kebun anggur, dan holiday park. Cocok untuk satu atau dua malam dalam perjalanan campervan, sebagai hadiah untuk diri sendiri, saat cuaca hujan, atau untuk acara istimewa.",
+      "sections": [
+        {
+          "heading": "Apa yang dihitung sebagai glamping",
+          "body": [
+            "Tidak ada definisi resmi, dan rentangnya luas. Tenda safari dan tenda bell punya tempat tidur sungguhan dan dek, yurt dan kubah punya pemanas dan kadang kamar mandi pribadi, sedangkan rumah mungil, kabin, dan rumah pohon ada di antaranya. Kebanyakan berada di lahan pribadi, dan beberapa ada di <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>. DOC tidak mengelola glamping, meski punya pondok dan kabin.",
+            "Lihat apa saja yang termasuk: perlengkapan tidur, kamar mandi, dapur, pemanas, dan sarapan sangat bervariasi, begitu juga harganya. Penginapan glamping di tempat terpencil mungkin punya toilet kompos dan tanpa listrik, jadi sebaiknya baca daftarnya dengan cermat."
+          ],
+          "tips": [
+            "Tenda safari, yurt, kubah, dan rumah mungil",
+            "Kebanyakan di lahan pribadi",
+            "Periksa apa saja yang termasuk"
+          ]
+        },
+        {
+          "heading": "Di mana mencarinya",
+          "body": [
+            "Bay of Islands dan Northland punya penginapan di pertanian dan tenda di pesisir, Coromandel punya lokasi di pantai dan semak, dan Waiheke punya kebun anggur dan pemandangan. Di Pulau Selatan, Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, dan Golden Bay punya pilihan tepi air, sedangkan Queenstown, Wānaka, dan Central Otago punya lokasi tepi danau dan kebun anggur dengan pemandangan pegunungan.",
+            "Kaikōura, Tekapo, dan Aoraki Mount Cook punya penginapan di bawah langit gelap, dengan kubah untuk melihat bintang. Abel Tasman, Bay of Islands, dan Queenstown paling ramai, jadi carilah lebih jauh untuk lokasi yang lebih tenang."
+          ],
+          "tips": [
+            "Northland, Coromandel, dan Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Kubah untuk melihat bintang"
+          ]
+        },
+        {
+          "heading": "Biaya dan kapan harus memesan",
+          "body": [
+            "Harga sangat bervariasi, dari tenda sederhana dengan harga kira-kira setara kamar motel yang bagus sampai kubah dan lodge mewah dengan beberapa ratus dolar per malam, dan harga naik di musim panas dan libur sekolah. Periksa halaman operator sendiri untuk harga terkini dan apa saja yang termasuk, dan tanyakan syarat pembatalan, karena cuaca bisa mengubah rencana.",
+            "Lokasi terbaik dipesan berbulan-bulan sebelumnya untuk Desember sampai Februari serta libur Paskah dan libur sekolah, jadi pesan begitu tanggal Anda pasti. Di luar musim panas ada tarif yang bagus, meski beberapa lokasi tutup di musim dingin. Panduan libur sekolah dan libur nasional memuat tanggalnya."
+          ],
+          "tips": [
+            "Harga naik di musim panas",
+            "Periksa syarat pembatalan",
+            "Pesan berbulan-bulan sebelumnya untuk musim panas"
+          ]
+        },
+        {
+          "heading": "Memasukkan glamping ke perjalanan campervan",
+          "body": [
+            "Satu malam glamping di sela malam campervan memberi Anda tempat tidur yang layak, mandi air panas, dan waktu tanpa berkendara, dan bisa jadi cadangan saat cuaca basah. Ini terutama bagus di tempat <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> tidak diizinkan dan lokasi langka, seperti Bay of Islands, Queenstown, dan Abel Tasman.",
+            "Jika Anda punya campervan, <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> dengan kabin adalah pilihan yang lebih murah untuk malam libur, dan panduan holiday park membahas pilihannya. Panduan berkemah saat cuaca basah punya lebih banyak tentang tetap kering dan mencari lokasi."
+          ],
+          "tips": [
+            "Satu malam istimewa di sela malam van",
+            "Cadangan saat cuaca basah",
+            "Kabin holiday park lebih murah"
+          ]
+        },
+        {
+          "heading": "Cara menuju ke sana dan apa yang perlu dibawa",
+          "body": [
+            "Banyak lokasi glamping berada di jalan kerikil atau jalan pertanian, beberapa dengan jalan masuk yang curam, jadi periksa petunjuk arah dan apakah campervan bisa mencapainya. Tanyakan kepada tuan rumah soal tempat parkir van Anda. Bawa pakaian hangat, senter, obat nyamuk, dan makanan sendiri jika penginapan tidak punya dapur, dan perhatikan jam check-in, karena tuan rumah sering tidak berada di lokasi sepanjang hari.",
+            "Hormati lahan, bawa pulang sampah Anda, dan jaga kebisingan di malam hari, karena banyak lokasi berada di pertanian aktif dengan ternak. Panduan <a data-guide=\"responsible-camping-new-zealand\">berkemah bertanggung jawab</a> membahas dasar-dasarnya."
+          ],
+          "tips": [
+            "Periksa akses jalan untuk van",
+            "Bawa pakaian hangat dan senter",
+            "Hormati pertanian aktif"
+          ]
+        },
+        {
+          "heading": "Merencanakan perjalanan Anda di KiwiCamping",
+          "body": [
+            "Di iPhone, KiwiCamping memetakan <a data-guide=\"doc-campsites-new-zealand-guide\">campsite DOC</a>, pondok, dan holiday park, menyaringnya untuk akses campervan dan fasilitas, serta menampilkan holiday park dengan penginapan yang bisa dipesan. Simpan tempat yang Anda suka, tambahkan ke perjalanan bertanggal, dan setiap perhentian mendapat prakiraan cuaca. Lokasi glamping pribadi tidak dicantumkan, jadi lihat halaman operatornya sendiri untuk itu.",
+            "Penginapan <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> bisa dipesan lewat daftarnya, sedangkan pemesanan DOC tetap di halaman DOC sendiri. Gratis diunduh, dengan pembelian dalam aplikasi."
+          ],
+          "tips": [
+            "Simpan holiday park dan pondok",
+            "Prakiraan cuaca di setiap perhentian",
+            "Glamping pribadi dipesan lewat operatornya"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Apa itu glamping di Selandia Baru?",
+          "Berkemah dengan kenyamanan yang sudah disiapkan, seperti tenda safari dengan tempat tidur, yurt, atau kubah, biasanya di lahan pribadi. Periksa apa saja yang termasuk, karena sangat bervariasi."
+        ],
+        [
+          "Kapan saya sebaiknya memesan glamping di Selandia Baru?",
+          "Berbulan-bulan sebelumnya untuk Desember sampai Februari dan libur sekolah. Musim dingin dan musim peralihan lebih mudah, meski beberapa lokasi tutup."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: tempat menginap yang unik"
+        },
+        {
+          "label": "DOC: tempat menginap"
+        },
+        {
+          "label": "MBIE: tanggal libur sekolah dan libur nasional"
         }
       ],
       "priceTable": null

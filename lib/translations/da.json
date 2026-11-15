@@ -435,20 +435,20 @@
       "openTool": "Åbn beregneren",
       "ctaEyebrow": "Planlæg i KiwiCamping",
       "ctaTitle": "Find stoppene, og regn så på det.",
-      "ctaText": "KiwiCamping er gratis at downloade til iPhone. Bookbare Holiday Parks, ophold og udflugter er gratis i appen. DOC-campingpladser, DOC-hytter, tømmestationer og guiderne åbnes med Pass.",
+      "ctaText": "Alle steder at campere og overnatte på ét kort, med filtre, fotos, gebyrer og en rejseplanlægger til hele ruten.",
       "ctaButton": "Download appen",
       "enterValidValues": "Indtast gyldige værdier",
       "enterValidAmount": "Indtast et gyldigt beløb"
     },
     "index": {
-      "metaTitle": "Roadtrip-beregnere til New Zealand: brændstof, køretid, campingpriser",
-      "metaDescription": "Gratis roadtrip-beregnere til New Zealand: brændstofpris, køretid efter vejtype, campingpris pr. person eller pr. plads, omregning af NZD og vandtanke i autocamper.",
+      "metaTitle": "Roadtrip-beregner New Zealand: brændstof, afstand og køretid",
+      "metaDescription": "Gratis roadtrip-beregnere til New Zealand: brændstofpris til de nyeste benzin- og dieselpriser, køretider og afstande mellem de større byer, campingpriser, omregning af NZD og vandtanke.",
       "toolsTitle": "Én beregner til hvert spørgsmål",
       "toolsText": "Hver beregner har sin egen side med formlen, et regneeksempel med newzealandske tal, forudsætningerne bag og svar på de mest almindelige spørgsmål."
     },
     "fuel": {
-      "metaTitle": "Brændstofberegner til New Zealand: autocamper på roadtrip",
-      "metaDescription": "Beregn liter og brændstofpris på en roadtrip i New Zealand ud fra distance, l/100 km og literprisen. Med formel, regneeksempel på 1.000 km og MBIE's referencepris.",
+      "metaTitle": "Brændstofberegner New Zealand: benzin, diesel og RUC (2026)",
+      "metaDescription": "Beregn prisen på benzin eller diesel til en roadtrip i New Zealand ud fra de seneste priser fra MBIE for 91, 95 og diesel, med Road User Charges for diesel og et eksempel på 1.000 km i autocamper.",
       "eyebrow": "Brændstofberegner",
       "cardEyebrow": "Brændstofberegner",
       "h1": "Brændstofberegner til en roadtrip i New Zealand",
@@ -497,8 +497,8 @@
       "dieselRuc": "{cost} plus {ruc} i RUC"
     },
     "drive": {
-      "metaTitle": "Køretidsberegner til New Zealand: realistiske timer efter vejtype",
-      "metaDescription": "Beregn, hvor lang en køredag i New Zealand reelt er, ud fra distance, vejtype og stop, med formel, regneeksempel og de gennemsnitsfarter, beregneren bruger.",
+      "metaTitle": "Køretidsberegner New Zealand: køretid mellem byerne",
+      "metaDescription": "Hvor lang tid tager køreturene i New Zealand: Auckland til Wellington 8 til 8,5 timer, Christchurch til Queenstown cirka 6. De vigtigste ruter, afstande og en beregner til enhver dag.",
       "eyebrow": "Køretidsberegner",
       "cardEyebrow": "Køredagen",
       "h1": "Køretidsberegner til veje i New Zealand",
@@ -1006,10 +1006,10 @@
     },
     "east-cape-road-trip": {
       "title": "Roadtrip på East Cape: campingrute fra Gisborne til Ōpōtiki",
-      "description": "Kør East Cape fra Gisborne til Ōpōtiki: surfbyer, pōhutukawa-bugter, afsidesliggende veje med få servicemuligheder og steder at campere undervejs.",
+      "description": "Roadtrip på East Cape ad State Highway 35 fra Gisborne til Ōpōtiki på tre dage eller mere: Tolaga Bay wharf, fyrtårnet, brændstofstop og steder at campere.",
       "region": "East Cape",
       "imageAlt": "Afsides vej på East Cape ved Stillehavet",
-      "intro": "State Highway 35 følger en af landets mest givende, langsomme veje. Brændstof, åbningstider og stormskader betyder mere her, så ruten bør følge dagslyset og de lokale forhold i stedet for et fast ankomsttidspunkt.",
+      "intro": "Roadtrippen på East Cape følger State Highway 35 rundt om kappen fra Gisborne til Ōpōtiki og kræver tre dage eller mere, med overnatning omkring Tolaga Bay, Te Araroa og Waihau Bay. Det er en af landets mest givende, langsomme veje, men brændstof, åbningstider og stormskader betyder mere her, så fyld op i Gisborne og Ōpōtiki, og lad dagslyset og de lokale forhold bestemme rejseplanen i stedet for et fast ankomsttidspunkt.",
       "sections": [
         {
           "heading": "Fra Gisborne til Tolaga Bay",
@@ -4948,10 +4948,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "DOC-hytter i New Zealand: regioner, priser og billetter",
-      "description": "Hvor DOC's hytter ligger, region for region, hvad Serviced-, Standard- og Basic-hytter koster i 2026/27, og hvordan hyttebilletter, Hut Pass og booking fungerer.",
+      "description": "927 DOC-hytter fordelt på region med gebyrer for 2026/27 og de tre måder at betale for en nat på: book på bookings.doc.govt.nz, hyttebilletter eller Backcountry Hut Pass.",
       "region": "Baglandet i New Zealand",
       "imageAlt": "Fjeldhytte i bjergene i New Zealand",
-      "intro": "DOC driver mere end 950 hytter, og DOC-dataene hos KiwiCamping omfatter 927 af dem, fra Serviced-hytter med varme og madrasser til bivvyer med to køjer. De fleste ligger på Sydøen: Canterbury alene har 180 og West Coast 140, mens de største klynger på Nordøen ligger i Ruahine-, Kaweka- og Tararua-bjergene. I de data, der blev tjekket 24. august 2026, kunne kun 127 af de 927 bookes, og selvom DOC siden har lagt alle Serviced-hytter online, går de fleste hytter stadig efter først til mølle-princippet: De er gratis, hvis de er Basic, og betales med hyttebilletter eller et Backcountry Hut Pass, hvis de er Standard.",
+      "intro": "DOC forvalter mere end 950 hytter, og DOC-dataene hos KiwiCamping omfatter 927 af dem, fra Serviced-hytter med varme og madrasser til bivvyer med to køjer. De fleste ligger på Sydøen: Canterbury alene har 180 og West Coast 140, mens de største klynger på Nordøen ligger i Ruahine-, Kaweka- og Tararua-bjergene. I de data, der blev tjekket 24. august 2026, kunne kun 127 af de 927 bookes, og selvom DOC siden har lagt alle Serviced-hytter online, går de fleste hytter stadig efter først til mølle-princippet: De er gratis, hvis de er Basic, og betales med hyttebilletter eller et Backcountry Hut Pass, hvis de er Standard. Der er altså tre måder at betale for en nat på: Book Serviced-hytter og Great Walk-hytter på bookings.doc.govt.nz, køb Backcountry Hut Tickets til en Standard-hytte (de kan købes online siden 1. november 2026), eller medbring et Hut Pass, der dækker de fleste Serviced- og Standard-hytter i 12 måneder.",
       "sections": [
         {
           "heading": "Hyttekategorier og priser for 2026/27",
@@ -6581,10 +6581,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Autocamper i New Zealand: kørekort, fart og størrelse (2026)",
-      "description": "At køre autocamper i New Zealand: hvad et almindeligt kørekort dækker, fartgrænser, vind på udsatte veje, færgens mål og de fejl, besøgende begår.",
+      "description": "Et almindeligt bilkørekort dækker autocampere op til 6.000 kg i New Zealand. Fartgrænser, at lade trafikken komme forbi, vind, højde og færgens længde.",
       "region": "New Zealands veje",
       "imageAlt": "Stor autocamper på en smal vej i New Zealand",
-      "intro": "En autocamper kan godt være lovlig at køre på et Class 1-kørekort og alligevel føles helt anderledes end en bil. Få styr på højde, bredde, længde og vægt med last ved udleveringen, og på alle de veje, lejekontrakten ikke tillader.",
+      "intro": "Et fuldt bilkørekort (Class 1) eller et fuldt udenlandsk bilkørekort, som du må køre på her, dækker autocampere op til 6.000 kg totalvægt med last. Under 3.500 kg gælder den normale fartgrænse uden for byerne, mens tungere køretøjer har en lavere grænse. En autocamper kan godt være lovlig at køre på et bilkørekort og alligevel føles helt anderledes end en bil, så få ved udleveringen styr på højde, bredde, længde, vægt med last og alle de veje, lejeaftalen udelukker.",
       "sections": [
         {
           "heading": "Mål op, før du kører",
@@ -9902,11 +9902,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Hvor kan du campere i New Zealand? Komplet guide",
-      "description": "DOC-campingpladser, statens naturområder, kommunale reservater, steder forvaltet af iwi og private Holiday Parks har hver deres regler og priser.",
+      "title": "Hvor kan du campere i New Zealand? Campingpladser efter type og region",
+      "description": "Hvor du kan campere i New Zealand: DOC-campingpladser, Holiday Parks, kommunal freedom camping og pladser drevet af lokalsamfund, hvad hver type koster og tillader, ø for ø.",
       "region": "New Zealand",
       "imageAlt": "Autocamper parkeret på en campingplads ved kysten i New Zealand",
-      "intro": "Campingnettet i New Zealand ligger på fire ret forskellige typer areal, og reglerne, prisen og bookingsystemet skifter fra den ene til den anden. Ved du, hvilken type du står over for, ved du det meste af det, du har brug for: om du bare kan møde op, om du skal have certificering, hvem du skal spørge, når noget er uklart, og hvad du kan regne med at betale.",
+      "intro": "Du kan campere i New Zealand på DOC-campingpladser på statens naturområder, på Holiday Parks, på kommunale freedom camping-pladser og på pladser drevet af iwi, lokalsamfund og showgrounds. Basic DOC-pladser er gratis, og de øvrige koster et gebyr, Holiday Parks har strøm og varme bade, og kommunal jord tillader som regel freedom camping i certificerede selvforsynende køretøjer i en eller to nætter, hvor de lokale regler tillader det. Reglerne, prisen og bookingsystemet skifter fra den ene type jord til den næste, så ved du, hvilken type du står over for, ved du det meste af det, du har brug for: om du bare kan møde op, om du skal have certificering, hvem du skal spørge, og hvad du kan regne med at betale.",
       "sections": [
         {
           "heading": "De fire arealtyper",
@@ -22070,7 +22070,7 @@
           "heading": "Sådan bruger du KiwiCamping i Hawke's Bay",
           "body": [
             "KiwiCamping viser regionens DOC-campingpladser og hytter, holiday parks med deres faciliteter og tømmestationer, med filtre, der snævrer dem ind til det, dit køretøj har brug for. Den rummer ikke kommunernes steder til <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, så brug kommunernes sider ovenfor til dem, og gem en holiday park som din reserve for hver nat.",
-            "Sæt natten i Napier ind i en rejse med dato og en note, og læs afstanden til næste stop, som for de fleste er køreturen til eller fra Wellington eller Taupō. Dine gemte steder i Hawke's Bay og deres detaljer kan læses uden dækning; kortet, vejvisningen, prognosen og billederne indlæses, når du igen har signal. Appen er gratis at hente, med køb i appen."
+            "Sæt natten i Napier ind i en tur med dato og en note, og læs afstanden til næste stop, som for de fleste er køreturen til eller fra Wellington eller Taupō. Dine gemte steder i Hawke's Bay og deres detaljer kan læses uden dækning; kortet, vejvisningen, prognosen og billederne indlæses, når du igen har signal. Appen er gratis at hente, med køb i appen."
           ],
           "tips": [
             "Kommunens steder: brug kommunens side",
@@ -35099,11 +35099,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Freedom camping-regler i New Zealand, region for region",
-      "description": "Freedom Camping Act, kommunale regler, certificering som selvforsynende køretøj og hvordan håndhævelsen faktisk ser ud ude på stederne i New Zealand.",
+      "title": "Freedom camping-regler i New Zealand 2026: hvor det er lovligt, og bøderne",
+      "description": "Hvor du kan fricampere i New Zealand i 2026: kommunale regler, DOC-områder, det Green Warrant, dit køretøj skal have siden juni, opholdsgrænser og bøderne.",
       "region": "New Zealand",
       "imageAlt": "Skilt for godkendt freedom camping ved siden af en autocamper",
-      "intro": "Freedom camping i New Zealand er lovligt, hvor det er tilladt, og en overtrædelse alle andre steder, og grænsen trækkes af den myndighed, der forvalter jorden under dine hjul. Freedom Camping Act 2011 sætter en landsdækkende ramme, men kommunerne skriver deres egne regler, så en regel, du har lært i ét distrikt, siger meget lidt om det næste.",
+      "intro": "Freedom camping i New Zealand er kun lovligt, hvor den myndighed, der forvalter jorden, tillader det: på kommunal jord efter kommunens egne regler, på statens naturområder, medmindre en DOC-meddelelse forbyder eller begrænser det, og aldrig på privat jord uden tilladelse. De fleste kommunale pladser og mange DOC-områder tillader kun certificerede selvforsynende køretøjer, og siden 7. juni 2026 er det kun et Green Warrant, der tæller. Freedom Camping Act 2011 sætter den landsdækkende ramme, men kommunerne skriver deres egne regler, så en regel, du har lært i ét distrikt, siger meget lidt om det næste.",
       "sections": [
         {
           "heading": "Hvad freedom camping egentlig betyder her",
@@ -35445,15 +35445,15 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "Book DOC-hytter og campingpladser 2026: priser og datoer",
-      "description": "Book DOC-hytter, campingpladser og Great Walks på bookings.doc.govt.nz. Priser 2026/27, Hut Pass eller Campsite Pass, først til mølle og når alt er booket.",
+      "description": "DOC-bookinger foregår på bookings.doc.govt.nz. Sådan logger du ind og booker hytter, campingpladser og Great Walks, gebyrer for 2026/27 for voksne og børn og afbestillinger.",
       "region": "Statens naturområder i New Zealand",
       "imageAlt": "Telt på en campingplads drevet af Department of Conservation",
-      "intro": "DOC-hytter, campingpladser og Great Walks bookes i bookingsystemet hos Department of Conservation selv på bookings.doc.govt.nz eller gennem et DOC-besøgscenter. Du skal have en gratis konto, du betaler det fulde beløb ved bookingen, og bekræftelsesmailen er dit bevis på stedet. Bookingen til sæsonen 2026/27, som dækker ophold fra 1. juli 2026 til 30. juni 2027, åbnede i maj 2026. De fleste hytter i baglandet og mange Basic-campingpladser kan slet ikke bookes og her gælder først til mølle. Her får du priserne, de to periodekort, hvilke steder der kræver booking, og hvad du gør, når det sted, du vil til, er fuldt.",
+      "intro": "DOC-hytter, campingpladser og Great Walks bookes på ét officielt websted, bookingsystemet hos Department of Conservation på bookings.doc.govt.nz, eller i et DOC-besøgscenter. Opret en gratis konto, og log ind, søg efter stedet, vælg datoer og antal personer, og betal derefter hele prisen med Visa eller Mastercard. Bekræftelsesmailen er din booking. Bookingen til sæsonen 2026/27, som dækker ophold fra 1. juli 2026 til 30. juni 2027, åbnede i maj 2026. Great Walk-hytter og campingpladser i sæsonen, alle Serviced-hytter og mange campingpladser skal bookes, mens de fleste hytter i baglandet og mange Basic-campingpladser går efter først til mølle-princippet. Herunder får du gebyrerne for voksne og børn, for beboere i New Zealand og udenlandske besøgende, afbestillingsgebyrerne og hvad du gør, når det sted, du vil til, er fuldt.",
       "sections": [
         {
           "heading": "Hvor og hvordan du booker",
           "body": [
-            "Gå ind på bookings.doc.govt.nz, opret en konto, og log ind, før du søger. Find hytten, campingpladsen eller den Great Walk, du vil gå, vælg datoer og antal personer, tilføj køretøjets registreringsnummer, hvis det er en campingplads, og betal med Visa eller Mastercard. Det fulde beløb trækkes ved bookingen, og alle priser er inklusive GST. DOC's besøgscentre kan booke mange af de samme steder, personligt eller telefonisk, mod et servicegebyr på 10 NZD.",
+            "Gå ind på bookings.doc.govt.nz, opret en konto, og log ind, før du søger. Find hytten, campingpladsen eller den Great Walk, du vil gå, vælg datoer og antal personer, tilføj køretøjets registreringsnummer, hvis det er en campingplads, og betal med Visa eller Mastercard. Great Walks fungerer på samme måde: Der er intet depositum og ingen betalingsplan, hele opholdet betales for hver person og hver nat ved bookingen, og en booking er først gyldig, når den er betalt og bekræftet. Alle priser er i newzealandske dollar og inkluderer GST. DOC's besøgscentre kan booke mange af de samme steder personligt eller telefonisk, mod et servicegebyr på 10 NZD.",
             "Bekræftelsesmailen er selve bookingen. Download eller print den, før du forlader dækningen, sammen med dit periodekort, hvis du har et, for rangers og opsynsmænd i hytterne kan bede om at se den, og de fleste <a data-guide=\"doc-huts-new-zealand-guide\">DOC-hytter</a> og mange campingpladser har ingen dækning. Køjerne i hytter, der kan bookes, tildeles ikke på forhånd, så en booking giver dig en seng, men ikke en bestemt seng, og hvis pladserne på en campingplads ikke er nummererede, vælger du blandt dem, der er ledige, når du ankommer."
           ],
           "tips": [
@@ -35514,14 +35514,14 @@
           "heading": "Sådan ændrer eller afbestiller du en booking",
           "body": [
             "Afbestiller du samme dag, som du booker, eller dagen efter, og er der mere end to dage til ankomsten, tager DOC intet. Fra 48 timer efter bookingen til 15 dage før ankomsten er gebyret 10 %. Inden for 14 dage stiger det efter type: hytter 20 %, derefter 30 % fra tre dage før; campingpladser 20 og derefter 75 %; Great Walks 50 og derefter 75 %; lodges, campinghytter og hytter, der lejes af én gruppe, 100 %. Afbestiller du dagen før ankomsten, på ankomstdagen eller efter den, mister du hele beløbet, og det samme gælder, hvis du udebliver.",
-            "Hvis du ikke møder op den første nat af en booking på flere nætter og ikke kontakter pladsens kontor inden for 24 timer, annullerer DOC resten uden refusion. Vejret giver ikke automatisk refusion. Lukker DOC stedet eller aflyser dit ophold, for eksempel på grund af storm, oversvømmelse eller en orange eller rød varsling fra MetService for området dagen før, så skriv til DOC's bookingteam inden for 7 dage, og ændr ikke selv bookingen først. Så kan du få fuld refusion for de ubrugte nætter eller, hvis opholdet ikke er begyndt, få bookingen flyttet til ledige datoer i samme sæson. Er vejret blot dårligt, og stedet holder åbent, gælder de almindelige afbestillingsgebyrer, og det er derfor, DOC anbefaler en rejseforsikring."
+            "Hvis du ikke møder op den første nat af en booking på flere nætter og ikke kontakter pladsens kontor inden for 24 timer, annullerer DOC resten uden refusion. Vejret giver ikke automatisk refusion. Lukker DOC stedet eller aflyser dit ophold, for eksempel på grund af storm, oversvømmelse eller en orange eller rød varsling fra MetService for området dagen før, så skriv til DOC's bookingteam på booking@doc.govt.nz inden for 7 dage, og ændr ikke selv bookingen først. Så kan du få fuld refusion for de ubrugte nætter eller, hvis opholdet ikke er begyndt, få bookingen flyttet til ledige datoer i samme sæson. Er vejret blot dårligt, og stedet holder åbent, gælder de almindelige afbestillingsgebyrer, og det er derfor, DOC anbefaler en rejseforsikring."
           ],
           "tips": []
         },
         {
           "heading": "Når den hytte eller campingplads, du vil have, er booket op",
           "body": [
-            "Tjek det samme sted igen på andre datoer, især i ugerne i mellemsæsonen før og efter skoleferien, og se på campingpladserne: DOC siger, at mange stadig havde god ledighed, da hytterne var fulde, men det gælder ikke Milford Track og Paparoa Track, hvor der ingen er. Byt en udsolgt Great Walk ud med en, der har mere plads, eller gå en rute i nærheden, hvor hytterne ikke kan bookes. DOC selv anbefaler at blive ved med at tjekke i månederne efter, for folk afbestiller, og selv Milford Track har afbestillinger hen over året.",
+            "Tjek det samme sted igen på andre datoer, især i ugerne i mellemsæsonen før og efter skoleferien, og se på campingpladserne: DOC siger, at mange stadig havde god ledighed, da hytterne var fulde, men det gælder ikke Milford Track og Paparoa Track, hvor der ingen er. Byt en udsolgt Great Walk ud med en, der har mere plads, eller gå en rute i nærheden, hvor hytterne ikke kan bookes. DOC anbefaler selv at blive ved med at tjekke i månederne efter, for folk afbestiller, og selv Milford Track har afbestillinger hen over året. Afbestilte pladser dukker op igen på bookings.doc.govt.nz, så alle kan booke dem. Uafhængige alarmtjenester som GreatWalkHuts.com, greatwalks.online, HutSnag og NZtracker holder øje med systemet og sender dig en mail, når en plads bliver ledig. De er private virksomheder og ikke en del af DOC, nogle tager et gebyr pr. alarm (tjekket 3. november 2026), og du booker og betaler stadig på DOC's eget websted.",
             "Overnatter du i køretøjet, er en Holiday Park eller en DOC-campingplads med selvregistrering den realistiske udvej. KiwiCamping viser hver DOC-hytte og campingplads i sine data med kategori, pris og oplysning om, om stedet tager imod bookinger, sammen med Holiday Parks, som du kan booke gennem BookIt i appen, så du kan finde det nærmeste alternativ uden dækning. DOC-steder i appen kræver Pass; BookIt-ophold er gratis at se på og booke. Reglerne for højsæsonugen på de mest besøgte campingpladser, som mindstegebyret ved Tōtaranui, står i guiden til <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over jul</a> og sommeren 2026-27."
           ],
           "tips": [
@@ -35797,7 +35797,7 @@
       "description": "Hvor du tømmer autocamperens toilet i NZ: 262 tømmestationer i KiwiCamping pr. region, de fleste gratis, korrekt brug og bøden på 800 NZD for at dumpe affald.",
       "region": "Campingpladser i New Zealand",
       "imageAlt": "Autocamper ved en skiltet tømmestation",
-      "intro": "Det er med affaldet, at ansvarlig camping bliver konkret, og det er her, straffene bliver alvorlige. Hvis du tømmer toilet- eller gråvand det forkerte sted, giver det væsentligt højere bøder end en almindelig overtrædelse af reglerne for freedom camping, og det er den adfærd, der oftest får et populært sted lukket for altid.",
+      "intro": "Tøm kun kassettetoilettet eller gråvandstanken i en autocamper på en tømmestation. Vores data viser 262 offentlige tømmestationer i hele New Zealand, og de fleste af dem er gratis at bruge. Hvis du tømmer toilet- eller gråvand andre steder, giver det en højere bøde end en almindelig overtrædelse af reglerne for freedom camping, og det er den adfærd, der oftest får et populært sted lukket for altid.",
       "sections": [
         {
           "heading": "Kend dine tre typer affald",
@@ -35896,17 +35896,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Bål i New Zealand 2026: tjek bålforbud og brandsæson først",
-      "description": "Åben, begrænset eller forbudt: sådan virker brandsæsonerne, hvor du tjekker dagens bålforbud, hvornår du skal have tilladelse, og hvordan du laver mad uden bål.",
+      "title": "Bålforbud i New Zealand 2026-27: brandsæsoner og regler for bål",
+      "description": "Tjek dagens brandsæson for dit område på checkitsalright.nz. Åbne, begrænsede og forbudte sæsoner, totalt bålforbud, DOC-bål og gaskogere.",
       "region": "New Zealand",
       "imageAlt": "Lille kontrolleret bål på et lovligt bålsted",
-      "intro": "En eksisterende bålring og en bunke gammel aske beviser, at nogen engang har haft bål her, ikke at du må have et i dag. New Zealand har et system med tre niveauer af brandsæson, som ændrer sig med forholdene, og den ansvarlige myndighed kan forbyde bål, uanset hvad systemet siger.",
+      "intro": "Tjek dagens brandsæson for dit område på checkitsalright.nz, som drives af Fire and Emergency New Zealand: Skriv adressen eller stedet, så får du at vide, om du må tænde bål, og om du skal have en tilladelse. Alle områder er altid i en af tre brandsæsoner. Åben betyder, at du må tænde et bål i det fri uden tilladelse, begrænset betyder, at du først skal have en tilladelse fra Fire and Emergency, og forbudt, som de fleste kalder totalt bålforbud, betyder, at der slet ikke må tændes bål i det fri. På statens naturområder har DOC en begrænset brandsæson hele året, så bål er kun tilladt i et anvist bålsted på en DOC-campingplads, når der ikke er et forbud. Gaskogere kræver ingen tilladelse. En gammel bålring beviser, at nogen engang har haft bål her, ikke at du må have et i dag.",
       "sections": [
         {
           "heading": "De tre brandsæsoner",
           "body": [
-            "I en åben brandsæson må du tænde bål i det fri uden tilladelse, med forbehold for den ansvarlige myndigheds egne regler. I en begrænset brandsæson skal du have en tilladelse fra Fire and Emergency New Zealand, før du tænder noget i det fri. I en forbudt brandsæson er bål i det fri helt forbudt, og der gives ingen tilladelse.",
-            "Sæsonen fastsættes distrikt for distrikt og ændrer sig med forholdene, nogle gange med kort varsel i en tør periode. Tjek status for netop det distrikt, du er i, på dagen, ikke for det distrikt, du kørte igennem i morges. Hvordan reglerne møder sommerens El Niño-prognose, er beskrevet i guiden til <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over jul</a> og sommeren 2026-27."
+            "I en åben brandsæson må du tænde bål i det fri uden tilladelse, med forbehold for den ansvarlige myndigheds egne regler. I en begrænset brandsæson skal du have en tilladelse fra Fire and Emergency New Zealand til de fleste bål i det fri, og du skal følge dens betingelser. En forbudt brandsæson er et totalt bålforbud: Bål i det fri er helt forbudt, tilladelser, der allerede er udstedt, er suspenderet, og nye gives kun under ekstraordinære omstændigheder.",
+            "Fire and Emergency fastsætter sæsonen zone for zone og ændrer den med forholdene, nogle gange med kort varsel i en tør periode, og meddeler hver ændring for området. Mange områder går over til en begrænset sæson, når sommeren tørrer landskabet ud, og nogle til forbudt, så et bål, der var lovligt i oktober, er det måske ikke i januar. Tjek checkitsalright.nz for det præcise sted, du camperer på, på dagen, ikke for det distrikt, du kørte igennem i morges, og se også på brandfaren: Fire and Emergency beder dig udskyde selv et tilladt bål, når faren er Very High eller Extreme. Hvordan reglerne møder sommerens El Niño-prognose, er beskrevet i vores guide til <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camping over jul</a> og sommeren 2026-27."
           ],
           "tips": [
             "Tjek distriktet samme dag",
@@ -35917,8 +35917,8 @@
         {
           "heading": "Den ansvarlige myndighed kan have strengere regler",
           "body": [
-            "Brandsæsonen er et minimum, ikke en tilladelse. <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, regionalparker, kommunale friarealer og private campingpladser fastsætter alle deres egne regler, og mange forbyder bål i det fri permanent, uanset sæsonen. Hvor to regler gælder, er det den strengeste, der bestemmer.",
-            "Læs siden for den konkrete campingplads og skiltet på stedet. Nogle DOC-campingpladser tillader kun et lille bål i et anvist bålsted, nogle forbyder fast brændsel helt, og bål i baglandet har særskilte betingelser for placering, ryddet område og størrelse."
+            "Brandsæsonen er et minimum, ikke en tilladelse. <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, regionalparker, kommunale friarealer og private campingpladser fastsætter alle deres egne regler, og mange forbyder bål i det fri permanent, uanset sæsonen. Hvor to regler gælder, er det den strengeste, der bestemmer. På statens naturområder har DOC en begrænset brandsæson hele året, og nogle steder, som DOC-forvaltede øer ude i havet, er der totalt bålforbud hele året.",
+            "På en DOC-campingplads eller et dagsområde er et bål kun tilladt i det anviste bålsted eller den anviste bålplads og kun, når der ikke er bålforbud. I baglandet tillader DOC et lille bål til madlavning eller varme, der er mindre end en halv meter i bredden og højden, mindst 3 meter fra træer og alt, der kan tage ild, og kun når intet forbud eller ingen meddelelse forbyder det. Store bål, kulgrill og hāngī på DOC-jord kræver en tilladelse fra Fire and Emergency, som DOC siger som regel ikke gives. Læs også siden for campingpladsen og skiltet på stedet."
           ],
           "tips": []
         },
@@ -35945,7 +35945,7 @@
         {
           "heading": "Madlavning, når bål er forbudt",
           "body": [
-            "Gasbrændere er det praktiske svar og er som regel tilladt, når bål i det fri ikke er det, men tjek det, for en forbudt brandsæson kan også begrænse nogle apparater. Brug dem på et stabilt, plant underlag, godt væk fra teltdug og bevoksning.",
+            "Gaskogere er det praktiske svar. Fire and Emergency siger, at du ikke behøver en bålstilladelse til gasgrill, gaskogere eller gasvarmere, og DOC siger, at du som regel til enhver tid kan bruge gasbrændere og lukkede brændere til flydende brændstof til madlavning, men ikke åbne kogere til flydende brændstof som spritkogere. En kommune eller en lodsejer kan stadig begrænse dem, så tjek skiltet. Brug dem på et stabilt, plant underlag, godt væk fra teltdug og bevoksning, og hold reservegasflasker 5 meter fra flammen.",
             "Lav aldrig mad inde i et lukket telt, et fortelt eller et køretøj uden ventilation. Faren er kulilte, som er lugtfri og har kostet campister livet i New Zealand. Lad brænderen køle helt af, før den kommer ind i et køretøj eller telt igen, og opbevar gasflasker oprejst og med god ventilation. Skal du til et sted med sommerevent? Dér gælder stedets egne regler for ild oven i, og guiden til <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">camping nytårsaften</a> og sommerens events viser, hvad du skal tjekke, før du kører."
           ],
           "tips": [
@@ -38154,6 +38154,203 @@
         },
         {
           "label": "DOC: sammenlign Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Freedom camping omkring Matakana og Warkworth: hvor du kan overnatte",
+      "description": "Hvor du kan sove i en autocamper omkring Matakana og Warkworth: de få små freedom camping-pladser, som Auckland Council har, de bookede campingpladser i regionalparkerne ved Tawharanui og Mahurangi og de Holiday Parks, du kan bruge i stedet.",
+      "region": "Auckland",
+      "imageAlt": "Bølger skyller ind over mørk sand på en strand på vestkysten, med en pynt og en havstak i det fjerne",
+      "intro": "Matakana og Warkworth ligger en time nord for Auckland, og de hører under samme regler som byen, fastsat af Auckland Council: kun certificerede selvforsynende køretøjer, på nogle få skiltede steder, i et par nætter. Pladserne her er små, ofte med plads til kun en håndfuld køretøjer, og regionalparkerne rundt om er lukket for freedom camping. Den bedre plan til en weekend på Matakana-markederne eller strandene på Mahurangi-kysten er en booket campingplads eller en Holiday Park, med de kommunale pladser som en reserve, hvis du kommer sent.",
+      "sections": [
+        {
+          "heading": "Aucklands regler, der gælder her",
+          "body": [
+            "Aucklands <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw gælder i hele regionen, også Rodney og Hibiscus Coast. Camping på kommunale veje og parkeringspladser er kun tilladt i et certificeret selvforsynende køretøj, i op til to nætter på samme sted, og du skal være kørt senest kl. 9 den dag, du tager af sted. Vores guide til freedom camping i Auckland gennemgår reglerne i fuld længde, med de forbudte og begrænsede områder, så denne side holder sig til Matakana-enden.",
+            "Telte og køretøjer uden certifikat har intet at gøre på kommunal jord. Fra 7. juni 2026 er det kun et <a data-guide=\"self-contained-campervan-green-warrant\">Green Warrant</a>, der tæller, og guiden til certifikatet for selvforsynende autocampere forklarer det. Håndhævelsen løber hele sommeren, og en meddelelse sendes til den registrerede ejer, som for en lejebil er udlejningsfirmaet."
+          ],
+          "tips": [
+            "Regler for hele regionen",
+            "To nætter, væk senest kl. 9",
+            "Green Warrant påkrævet"
+          ]
+        },
+        {
+          "heading": "Kommunale pladser nær Warkworth og kysten",
+          "body": [
+            "Kommunens skiltede pladser i området er små og spredt ud: en kajplads ved Port Albert på Kaipara-siden, nogle få pladser ved Parry Kauri Park i Warkworth og en håndfuld steder på Mahurangi- og Whangaparāoa-kysterne, som Snells Beach, hver med plads til mellem tre og ti køretøjer. Kommunens kort og side har listen, og den ændrer sig, så få et sted bekræftet, før en nat afhænger af det.",
+            "Fordi der er så få pladser, bliver de fyldt op før mørkets frembrud om sommeren og fredag aften. En booket campingplads giver dig en garanteret seng og en toiletbygning, og de pladser, der er tilbage til den uplanlagte ankomst, er bedre at betragte som en bonus end som en plan."
+          ],
+          "tips": [
+            "3 til 10 køretøjer pr. plads",
+            "Port Albert ligger på Kaipara-siden",
+            "Brug de gratis pladser som reserve"
+          ]
+        },
+        {
+          "heading": "Regionalparker og bookede campingpladser",
+          "body": [
+            "De regionalparker, som Auckland Council forvalter, er lukket for <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, men to af dem har bookede campingpladser, som passer til en weekend i området: Tawharanui for enden af en lang vej ud ad en halvø, med strande på begge sider, og Mahurangi, hvor campingpladserne ligger over beskyttede bugter. Begge tager imod bookinger gennem kommunen, og de bedste weekender i januar bliver hurtigt booket.",
+            "De er til telte og autocampere, med toiletter og vand, og nogle pladser ligger et kort stykke fra vandet. Hunde, bål og stilletider følger parkens egne regler, som bookingsiden oplister, og de er strengere end på de fleste <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>."
+          ],
+          "tips": [
+            "Tawharanui og Mahurangi: book i god tid",
+            "Regionalparker forbyder freedom camping",
+            "Reglerne for hunde og bål er forskellige"
+          ]
+        },
+        {
+          "heading": "Holiday Parks og DOC-områder",
+          "body": [
+            "Warkworth, Snells Beach, Omaha og Leigh har hver <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a> eller motor camps inden for rækkevidde, med pladser med strøm og hytter. De er det pålidelige valg til jul, og påskeweekenden giver de samme menneskemængder, som strandene gør. Guiden til Holiday Parks forklarer, hvordan booking fungerer.",
+            "DOC-områder i Aucklands region ligger for det meste på øer. DOC-dataene hos KiwiCamping (11. august 2026) viser 9 campingpladser i Auckland, 1 af dem gratis og 5 med adgang for autocampere, med natpriser for voksne fra 10 til 18 NZD, og Home Bay på Motutapu Island er den største med plads til 131. Ingen af dem ligger tæt på Matakana ad vej."
+          ],
+          "tips": [
+            "Holiday Parks nær hver strand",
+            "DOC-pladserne i Auckland ligger på øer",
+            "Påsken fylder lige så meget op som jul"
+          ]
+        },
+        {
+          "heading": "KiwiCamping omkring Matakana",
+          "body": [
+            "KiwiCamping viser DOC-campingpladser og -hytter, Holiday Parks med deres faciliteter og tømmestationer omkring Auckland, med filtre for adgang for autocampere. Appen har ikke kommunens <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>-pladser eller regionalparkernes bookinger, så brug kommunens sider til dem.",
+            "Læg Matakana-natten ind i en tur fra Auckland til Bay of Islands, og læs afstanden og køretiden til næste stop, som er Whangārei, lidt over en time videre. Gemte steder bliver på telefonen, og kortet, ruterne, prognosen og billederne kræver forbindelse, som er ujævn på vejene ude på halvøen. Gratis at hente, med køb i appen."
+          ],
+          "tips": [
+            "Bookinger hos kommunen og parkerne: brug deres sider",
+            "Whangārei ligger cirka en time videre",
+            "Gemte steder bliver på telefonen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man fricampere nær Matakana?",
+          "Kun i et certificeret selvforsynende køretøj på en af kommunens små skiltede pladser, i højst to nætter. Regionalparker og de fleste friarealer er lukket for det, så en booket campingplads eller en Holiday Park er den sikreste plan."
+        ],
+        [
+          "Kan man campere i Tawharanui Regional Park?",
+          "Ja, på den bookede campingplads, ikke som freedom camping. Reserver gennem Auckland Council, før du kører derud."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: freedom camping"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping i New Zealand: hvor du kan bo i yurter, kupler og safaritelte",
+      "description": "Glamping i New Zealand: hvad det er, de forskellige typer ophold, de bedste regioner fra Bay of Islands til Queenstown, hvad det koster, og hvornår du skal booke, og hvordan det passer ind i en tur i autocamper.",
+      "region": "New Zealand",
+      "imageAlt": "Bay of Islands ved Waitangi en solrig dag",
+      "intro": "Glamping er camping med komforten allerede sat op: et safarittelt med en rigtig seng, en yurt med brændeovn, en kuppel under stjernerne, en lille hytte ved en sø. New Zealand har masser af dem, fra Bay of Islands til Queenstown, for det meste drevet privat og på gårde, vingårde og Holiday Parks. Det passer til en eller to nætter på en tur i autocamper, som en forkælelse, i en regnvejrsperiode eller til en særlig lejlighed.",
+      "sections": [
+        {
+          "heading": "Hvad der tæller som glamping",
+          "body": [
+            "Der findes ingen officiel definition, og spændvidden er stor. Safaritelte og klokketelte har rigtige senge og en terrasse, yurter og kupler har varme og indimellem et privat badeværelse, og tiny houses, hytter og trætophytter ligger imellem. De fleste ligger på privat jord, og nogle få er på <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Parks</a>. DOC driver ikke glamping, men har hytter og campinghytter.",
+            "Se på, hvad der er med: Sengetøj, badeværelse, køkken, varme og morgenmad varierer meget, og det gør prisen også. Et glampingophold et afsides sted kan have komposttoiletter og ingen strøm, så det er værd at læse opslaget grundigt."
+          ],
+          "tips": [
+            "Safaritelte, yurter, kupler og tiny houses",
+            "Mest på privat jord",
+            "Tjek, hvad der er med"
+          ]
+        },
+        {
+          "heading": "Hvor du kan lede",
+          "body": [
+            "Bay of Islands og Northland har farmophold og telte ved kysten, Coromandel har pladser ved stranden og i bushen, og Waiheke har vingårde og udsigt. På Sydøen har Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> og Golden Bay muligheder ved vandet, og Queenstown, Wānaka og Central Otago har pladser ved søerne og vingårdene med udsigt til bjergene.",
+            "Kaikōura, Tekapo og Aoraki Mount Cook har ophold under den mørke himmel, med kupler til stjernekiggeri. Abel Tasman, Bay of Islands og Queenstown er mest besøgt, så led længere væk efter en roligere plads."
+          ],
+          "tips": [
+            "Northland, Coromandel og Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Kupler til stjernekiggeri"
+          ]
+        },
+        {
+          "heading": "Pris og hvornår du skal booke",
+          "body": [
+            "Priserne varierer meget, fra enkle telte til omtrent prisen på et godt motelværelse til luksuskupler og lodges til flere hundrede dollar pr. nat, og de stiger om sommeren og i skoleferierne. Tjek udbyderens egen side for den aktuelle pris og hvad der er med, og spørg til afbestillingsreglerne, for vejret kan ændre en plan.",
+            "De bedste pladser bliver booket måneder i forvejen til december til februar og til påsken og skoleferierne, så reserver, så snart dine datoer er fastlagt. Uden for sommeren er der gode priser, selvom nogle pladser lukker om vinteren. Guiden til skole- og helligdage har datoerne."
+          ],
+          "tips": [
+            "Priserne stiger om sommeren",
+            "Tjek afbestillingsreglerne",
+            "Book måneder i forvejen til sommeren"
+          ]
+        },
+        {
+          "heading": "Glamping som en del af en tur i autocamper",
+          "body": [
+            "En nat med glamping mellem nætterne i autocamperen giver dig en ordentlig seng, et varmt brusebad og tid uden kørsel, og den fungerer som en reserve i regnvejr. Det er især godt, hvor <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> ikke er tilladt, og pladser er en mangelvare, som ved Bay of Islands, Queenstown og Abel Tasman.",
+            "Hvis du har en autocamper, er en <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> med hytter den billigere løsning til en nat fri, og guiden til Holiday Parks gennemgår valgmulighederne. Guiden til camping i regnvejr har mere om at holde sig tør og finde en plads."
+          ],
+          "tips": [
+            "En forkælelsesnat mellem nætterne i autocamperen",
+            "Reserve i regnvejr",
+            "Hytter på Holiday Parks er billigere"
+          ]
+        },
+        {
+          "heading": "Sådan kommer du frem, og hvad du skal have med",
+          "body": [
+            "Mange glampingpladser ligger ved grus- eller gårdveje, nogle med en stejl indkørsel, så tjek vejbeskrivelsen og om en autocamper kan komme frem. Spørg værten om parkering til din autocamper. Tag varmt tøj, en lommelygte, insektmiddel og din egen mad med, hvis opholdet ikke har et køkken, og tjek indtjekningstiderne, for værterne er ofte ikke til stede hele dagen.",
+            "Vis respekt for jorden, tag dit affald med, og hold støjen nede om natten, for mange pladser ligger på gårde i drift med husdyr. Guiden til <a data-guide=\"responsible-camping-new-zealand\">ansvarlig camping</a> gennemgår det grundlæggende."
+          ],
+          "tips": [
+            "Tjek vejadgangen for en autocamper",
+            "Tag varmt tøj og en lommelygte med",
+            "Vis respekt for gårde i drift"
+          ]
+        },
+        {
+          "heading": "Planlæg din tur i KiwiCamping",
+          "body": [
+            "På iPhone viser KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingpladser</a>, hytter og Holiday Parks på kortet, filtrerer dem efter adgang for autocampere og faciliteter og viser Holiday Parks med deres bookbare ophold. Gem de steder, du kan lide, læg dem ind i en tur med datoer, og hvert stop får en prognose. Private glampingpladser er ikke med, så se på udbydernes egne sider for dem.",
+            "Ophold på en <a data-guide=\"holiday-parks-new-zealand-guide\">Holiday Park</a> kan bookes gennem opslaget, mens DOC-bookinger bliver på DOC's egne sider. Gratis at hente, med køb i appen."
+          ],
+          "tips": [
+            "Gem Holiday Parks og hytter",
+            "Prognose ved hvert stop",
+            "Private glampingpladser bookes hos udbyderen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad er glamping i New Zealand?",
+          "Camping med komforten sat op, som et safarittelt med en seng, en yurt eller en kuppel, som regel på privat jord. Tjek, hvad der er med, for det varierer meget."
+        ],
+        [
+          "Hvornår skal man booke glamping i New Zealand?",
+          "Måneder i forvejen til december til februar og skoleferierne. Vinteren og mellemsæsonerne er lettere, selvom nogle pladser lukker."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: særlige steder at bo"
+        },
+        {
+          "label": "DOC: steder at bo"
+        },
+        {
+          "label": "MBIE: datoer for skole- og helligdage"
         }
       ],
       "priceTable": null

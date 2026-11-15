@@ -435,20 +435,20 @@
       "openTool": "Otwórz kalkulator",
       "ctaEyebrow": "Zaplanuj to w KiwiCamping",
       "ctaTitle": "Znajdź przystanki, a potem policz.",
-      "ctaText": "KiwiCamping na iPhone’a pobierzesz bezpłatnie. Holiday parki, noclegi i wycieczki z możliwością rezerwacji są w aplikacji bezpłatne. Kempingi DOC, schroniska, stacje zrzutu nieczystości i poradniki otwiera karnet.",
+      "ctaText": "Wszystkie miejsca na nocleg i postój na jednej mapie, z filtrami, zdjęciami, opłatami i planerem podróży na całą trasę.",
       "ctaButton": "Pobierz aplikację",
       "enterValidValues": "Wpisz poprawne wartości",
       "enterValidAmount": "Wpisz poprawną kwotę"
     },
     "index": {
-      "metaTitle": "Kalkulatory road tripu po NZ: paliwo, czas jazdy, koszt kempingu",
-      "metaDescription": "Bezpłatne kalkulatory na road trip po Nowej Zelandii: koszt paliwa, czas jazdy według rodzaju drogi, koszt kempingu za osobę lub za miejsce, przeliczanie NZD i zbiorniki wody w kamperze.",
+      "metaTitle": "Kalkulator road tripu po NZ: paliwo, dystans i czas jazdy",
+      "metaDescription": "Darmowe kalkulatory na road trip po NZ: koszt paliwa według aktualnych cen benzyny i diesla, czas jazdy i odległości między głównymi miastami, koszty kempingów, przeliczanie NZD i zbiorniki wody.",
       "toolsTitle": "Jeden kalkulator na jedno pytanie",
       "toolsText": "Każdy kalkulator ma własną stronę ze wzorem, przykładem opartym na nowozelandzkich danych, założeniami i odpowiedziami na częste pytania."
     },
     "fuel": {
-      "metaTitle": "Kalkulator kosztu paliwa NZ: paliwo na road trip kamperem",
-      "metaDescription": "Policz litry i koszt paliwa na road trip po Nowej Zelandii na podstawie odległości, spalania w l/100 km i ceny na stacji. Ze wzorem, przykładem dla 1000 km i wskaźnikiem MBIE.",
+      "metaTitle": "Kalkulator kosztów paliwa NZ: benzyna, diesel i RUC (2026)",
+      "metaDescription": "Policz koszt benzyny lub diesla na road trip po Nowej Zelandii według najnowszych cen MBIE dla 91, 95 i diesla, z opłatami drogowymi (RUC) dla diesla i przykładem dla kampera na 1 000 km.",
       "eyebrow": "Kalkulator kosztu paliwa",
       "cardEyebrow": "Kalkulator paliwa",
       "h1": "Kalkulator kosztu paliwa na road trip po Nowej Zelandii",
@@ -497,8 +497,8 @@
       "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
-      "metaTitle": "Kalkulator czasu jazdy NZ: realne godziny według rodzaju drogi",
-      "metaDescription": "Oszacuj, ile naprawdę trwa dzień jazdy po Nowej Zelandii, na podstawie odległości, rodzaju drogi i postojów. Ze wzorem, przykładem z liczbami i przyjętymi prędkościami.",
+      "metaTitle": "Kalkulator czasu jazdy NZ: czas przejazdu między miastami",
+      "metaDescription": "Ile trwa jazda po Nowej Zelandii: z Auckland do Wellington od 8 do 8,5 godziny, z Christchurch do Queenstown około 6 godzin. Główne trasy, odległości i kalkulator na dowolny dzień.",
       "eyebrow": "Kalkulator czasu jazdy",
       "cardEyebrow": "Kalkulator dnia jazdy",
       "h1": "Kalkulator czasu jazdy po nowozelandzkich drogach",
@@ -1006,10 +1006,10 @@
     },
     "east-cape-road-trip": {
       "title": "Road trip po East Cape: z Gisborne do Ōpōtiki, trasa i kempingi",
-      "description": "Przejedź East Cape z Gisborne do Ōpōtiki: miasteczka surferów, zatoki z pōhutukawa, odludne drogi z nielicznymi usługami i miejsca na nocleg po drodze dookoła przylądka.",
+      "description": "Road trip po East Cape drogą State Highway 35 z Gisborne do Ōpōtiki w trzy dni lub dłużej: molo w Tolaga Bay, latarnia morska, postoje na paliwo i miejsca na nocleg.",
       "region": "East Cape",
       "imageAlt": "Odludna droga na East Cape nad Pacyfikiem",
-      "intro": "State Highway 35 to jedna z tych dróg w kraju, które najbardziej wynagradzają powolną jazdę. Paliwo, godziny otwarcia i szkody po burzach znaczą tu więcej niż gdzie indziej, więc plan dnia powinien zależeć od światła dziennego i lokalnych warunków, a nie od sztywnej godziny przyjazdu.",
+      "intro": "Road trip po East Cape prowadzi drogą State Highway 35 dookoła przylądka z Gisborne do Ōpōtiki i wymaga trzech dni lub więcej, z noclegami w okolicach Tolaga Bay, Te Araroa i Waihau Bay. To jedna z najbardziej satysfakcjonujących powolnych dróg w kraju, ale paliwo, godziny otwarcia i szkody po burzach liczą się tu bardziej niż gdzie indziej, więc zatankuj w Gisborne i Ōpōtiki, a o planie dnia niech decyduje światło dzienne i lokalne warunki, a nie sztywna godzina przyjazdu.",
       "sections": [
         {
           "heading": "Od Gisborne do Tolaga Bay",
@@ -2901,7 +2901,7 @@
           "heading": "Planowanie Auckland–Tauranga w KiwiCamping",
           "body": [
             "Dla końca tej podróży w Bay of Plenty KiwiCamping nanosi na mapę <a data-guide=\"doc-campsites-new-zealand-guide\">kempingi DOC</a>, chaty i parki wakacyjne od Waihī Beach po Mount Maunganui. Zapisane miejsca stają się podróżą w wybranej kolejności, z kilometrami między nimi i prognozą dla każdej plaży lub miasta. To planer, a nie nawigacja, więc jazdę na żywo zostaw Apple Maps lub Google Maps.",
-            "Rezerwacje DOC pozostają na własnych stronach rezerwacyjnych DOC, a <a data-guide=\"holiday-parks-new-zealand-guide\">parki wakacyjne</a> przyjmują własne rezerwacje."
+            "Kempingi DOC rezerwuj bezpośrednio przez DOC; <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parki</a> w okolicach Tauranga i Mount Maunganui przyjmują własne rezerwacje."
           ],
           "tips": [
             "Zapisuj przystanki w kolejności jazdy",
@@ -4948,10 +4948,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "Schroniska DOC w Nowej Zelandii: regiony, typy, opłaty, bilety",
-      "description": "Gdzie są schroniska DOC, region po regionie, ile kosztują schroniska Serviced, Standard i Basic w sezonie 2026/27 oraz jak działają bilety do schronisk, karnet Hut Pass i rezerwacje.",
+      "description": "927 schronisk DOC według regionów, opłaty na sezon 2026/27 i trzy sposoby płacenia za nocleg: rezerwacja na bookings.doc.govt.nz, bilety do schronisk (hut tickets) lub karnet Backcountry Hut Pass.",
       "region": "Bezdroża Nowej Zelandii",
       "imageAlt": "Schronisko w górach Nowej Zelandii",
-      "intro": "DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody) opiekuje się ponad 950 schroniskami, a dane DOC w KiwiCamping obejmują 927 z nich, od schronisk Serviced z ogrzewaniem i materacami po bivvy z dwiema pryczami. Większość leży na Wyspie Południowej: samo Canterbury ma ich 180, a West Coast 140, natomiast największe skupiska na Wyspie Północnej są w pasmach Ruahine, Kaweka i Tararua. W tych danych, sprawdzonych 24 sierpnia 2026, tylko 127 z 927 schronisk dało się zarezerwować. Od tamtej pory urząd DOC przeniósł do rezerwacji online wszystkie schroniska Serviced, ale większość schronisk nadal działa na zasadzie „kto pierwszy, ten lepszy”: schroniska Basic są bezpłatne, a w schroniskach Standard płaci się biletami do schronisk (hut tickets) lub karnetem Backcountry Hut Pass.",
+      "intro": "DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody) opiekuje się ponad 950 schroniskami, a dane DOC w KiwiCamping obejmują 927 z nich, od schronisk Serviced z ogrzewaniem i materacami po bivvy z dwiema pryczami. Większość leży na Wyspie Południowej: samo Canterbury ma ich 180, a West Coast 140, natomiast największe skupiska na Wyspie Północnej są w pasmach Ruahine, Kaweka i Tararua. W tych danych, sprawdzonych 24 sierpnia 2026, tylko 127 z 927 schronisk dało się zarezerwować, a choć DOC przeniósł od tamtej pory wszystkie schroniska Serviced do rezerwacji online, większość schronisk nadal działa na zasadzie „kto pierwszy, ten lepszy”: schroniska Basic są bezpłatne, a w schroniskach Standard płaci się biletami do schronisk (hut tickets) lub karnetem Backcountry Hut Pass. Są więc trzy sposoby zapłaty za nocleg: schroniska Serviced i schroniska na Great Walks rezerwujesz na bookings.doc.govt.nz, do schroniska Standard kupujesz bilety Backcountry Hut Tickets, dostępne online od 1 listopada 2026, albo masz karnet Hut Pass, który obejmuje większość schronisk Serviced i Standard przez 12 miesięcy.",
       "sections": [
         {
           "heading": "Kategorie schronisk i opłaty w sezonie 2026/27",
@@ -6581,10 +6581,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Przepisy dla kampera w NZ: prawo jazdy, prędkość, wymiary (2026)",
-      "description": "Jazda kamperem po Nowej Zelandii: co obejmuje zwykłe prawo jazdy, limity prędkości, wiatr na odsłoniętych drogach, wymiary pojazdu na promie i błędy, które popełniają przyjezdni.",
+      "description": "W Nowej Zelandii zwykłe, pełne prawo jazdy na samochód osobowy obejmuje kampery do 6 000 kg. Limity prędkości, przepuszczanie jadących za tobą aut, wiatr, wysokość i długość pojazdu na promie.",
       "region": "Drogi w Nowej Zelandii",
       "imageAlt": "Duży kamper na wąskiej drodze w Nowej Zelandii",
-      "intro": "Kamperem można legalnie jeździć z prawem jazdy Class 1, a mimo to prowadzi się go zupełnie inaczej niż samochód osobowy. Przy odbiorze trzeba ustalić wysokość, szerokość, długość, masę załadowanego pojazdu i każdą drogę wyłączoną w umowie wynajmu.",
+      "intro": "Pełne prawo jazdy na samochód osobowy (Class 1) lub pełne zagraniczne prawo jazdy, z którym wolno tu jeździć, obejmuje kampery do 6 000 kg dopuszczalnej masy całkowitej. Poniżej 3 500 kg obowiązuje zwykły limit prędkości poza terenem zabudowanym, a cięższe pojazdy mają limit niższy. Kamper może być legalny na prawie jazdy na samochód osobowy, a mimo to prowadzi się go zupełnie inaczej niż auto, więc przy odbiorze trzeba ustalić wysokość, szerokość, długość, masę załadowanego pojazdu i każdą drogę wyłączoną w umowie wynajmu.",
       "sections": [
         {
           "heading": "Zmierz, zanim ruszysz",
@@ -9902,11 +9902,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Gdzie kempingować w Nowej Zelandii: DOC, gminy, holiday parki",
-      "description": "Kempingi DOC, tereny ochrony przyrody, rezerwaty gminne, miejsca zarządzane przez iwi i prywatne holiday parki mają różne zasady i koszty. Sprawdź, gdzie stanąć.",
+      "title": "Gdzie spać w Nowej Zelandii: kempingi według rodzaju i regionu",
+      "description": "Gdzie nocować w Nowej Zelandii: kempingi DOC, holiday parki, freedom camping na terenach samorządów i kempingi lokalnych społeczności, ile który kosztuje i na co pozwala, wyspa po wyspie.",
       "region": "Nowa Zelandia",
       "imageAlt": "Kamper zaparkowany na kempingu na nowozelandzkim wybrzeżu",
-      "intro": "Nowozelandzka sieć kempingów obejmuje cztery dość różne rodzaje terenu, a z każdym z nich zmieniają się zasady, cena i system rezerwacji. Wiedza, z którym typem masz do czynienia, mówi większość tego, co trzeba wiedzieć: czy możesz po prostu przyjechać, czy potrzebny jest certyfikat, kogo zapytać, gdy coś jest niejasne, i ile zapłacisz.",
+      "intro": "W Nowej Zelandii możesz nocować na kempingach DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody) na terenach chronionych, w holiday parkach, w miejscach do freedom campingu prowadzonych przez samorządy oraz na kempingach iwi, społeczności lokalnych i showgroundach. Proste kempingi DOC są bezpłatne, za resztę trzeba zapłacić, holiday parki mają prąd i ciepłe prysznice, a tereny samorządów zwykle pozwalają na freedom camping w certyfikowanych pojazdach self-contained przez jedną lub dwie noce, tam gdzie dopuszcza to lokalny przepis (bylaw). Zasady, cena i system rezerwacji zmieniają się z każdym rodzajem terenu, więc wiedza, z którym masz do czynienia, mówi większość tego, co trzeba wiedzieć: czy możesz po prostu przyjechać, czy potrzebny jest certyfikat, kogo zapytać i ile zapłacisz.",
       "sections": [
         {
           "heading": "Cztery rodzaje terenu",
@@ -22070,7 +22070,7 @@
           "heading": "Korzystanie z KiwiCamping w Hawke's Bay",
           "body": [
             "KiwiCamping pokazuje kempingi i chaty DOC w regionie, parki wakacyjne z ich udogodnieniami i stacje zrzutu, z filtrami zawężającymi do tego, czego potrzebuje twój pojazd. Nie zawiera miejsc <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> gmin, więc dla nich użyj stron gmin powyżej i zapisz park wakacyjny jako awaryjny na każdą noc.",
-            "Wstaw noc w Napier do podróży z datą i notatką i odczytaj odległość do następnego przystanku, którym dla większości ludzi jest jazda do lub z Wellington lub Taupō. Twoje zapisane miejsca w Hawke's Bay i ich szczegóły pozostają czytelne bez zasięgu; mapa, nawigacja, prognoza i zdjęcia ładują się, gdy znów masz sygnał. Aplikacja jest bezpłatna do pobrania, z zakupami w aplikacji."
+            "Wstaw noc w Napier do podróży z datą i notatką i sprawdź odległość do następnego przystanku, którym dla większości osób jest przejazd do Wellington lub Taupō albo z nich. Zapisane miejsca w Hawke's Bay i ich szczegóły pozostają czytelne bez zasięgu; mapa, wyznaczanie trasy, prognoza i zdjęcia wczytują się, gdy znów masz zasięg. Aplikacja jest bezpłatna do pobrania, z zakupami w aplikacji."
           ],
           "tips": [
             "Miejsca gmin: użyj strony gminy",
@@ -35296,11 +35296,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Przepisy o freedom campingu w Nowej Zelandii, region po regionie",
-      "description": "Ustawa Freedom Camping Act, przepisy lokalne samorządów, certyfikat self-contained i to, jak egzekwowanie przepisów naprawdę wygląda na miejscu.",
+      "title": "Przepisy o freedom campingu w Nowej Zelandii 2026: gdzie jest legalny i jakie grożą mandaty",
+      "description": "Gdzie wolno uprawiać freedom camping w Nowej Zelandii w 2026: przepisy lokalne samorządów (bylaws), tereny DOC, zielony warrant (green warrant) wymagany dla pojazdu od czerwca, limity pobytu i mandaty.",
       "region": "Nowa Zelandia",
       "imageAlt": "Znak autoryzowanego miejsca freedom campingu obok kampera",
-      "intro": "Freedom camping w Nowej Zelandii jest legalny tam, gdzie jest dozwolony, a wszędzie indziej to wykroczenie zagrożone mandatem, a granicę między jednym a drugim wyznacza instytucja zarządzająca terenem pod twoimi kołami. Ustawa Freedom Camping Act 2011 daje ramy krajowe, ale samorządy piszą własne przepisy lokalne (bylaws), więc zasada poznana w jednym okręgu mówi bardzo niewiele o następnym.",
+      "intro": "Freedom camping w Nowej Zelandii jest legalny tylko tam, gdzie pozwala na to podmiot zarządzający terenem: na terenach samorządów według lokalnego przepisu (bylaw) danego samorządu, na terenach chronionych, chyba że zakazuje go lub ogranicza komunikat DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody), a na terenie prywatnym nigdy bez zgody. Większość miejsc samorządowych i wiele obszarów DOC przyjmuje tylko certyfikowane pojazdy self-contained, a od 7 czerwca 2026 liczy się wyłącznie zielony warrant (green warrant). Ustawa Freedom Camping Act 2011 daje ramy krajowe, ale samorządy piszą własne przepisy lokalne, więc zasada poznana w jednym okręgu mówi bardzo niewiele o następnym.",
       "sections": [
         {
           "heading": "Co naprawdę oznacza freedom camping",
@@ -35642,15 +35642,15 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "Rezerwacja schronisk i kempingów DOC 2026: jak, opłaty, terminy",
-      "description": "Rezerwuj schroniska DOC, kempingi i Great Walks na bookings.doc.govt.nz. Opłaty 2026/27, Hut Pass i Campsite Pass, schroniska bez rezerwacji i co robić, gdy brak miejsc.",
+      "description": "Rezerwacje DOC robi się na bookings.doc.govt.nz. Jak się zalogować i zarezerwować schroniska, kempingi i Great Walks, opłaty 2026/27 dla dorosłych i dzieci oraz anulowanie.",
       "region": "Tereny ochrony przyrody w Nowej Zelandii",
       "imageAlt": "Namiot na kempingu Department of Conservation",
-      "intro": "Schroniska DOC (proste schroniska bez obsługi, z pryczami), kempingi i Great Walks (najsłynniejsze wielodniowe szlaki Nowej Zelandii) rezerwuje się w systemie rezerwacji Department of Conservation pod adresem bookings.doc.govt.nz albo w centrum dla odwiedzających DOC. Potrzebujesz bezpłatnego konta, płacisz w całości przy rezerwacji, a e-mail z potwierdzeniem jest twoim dowodem na miejscu. Rezerwacje na sezon 2026/27, obejmujące pobyty od 1 lipca 2026 do 30 czerwca 2027, ruszyły w maju 2026. Większości schronisk w głuszy (backcountry) i wielu prostych kempingów w ogóle nie da się zarezerwować i obowiązuje w nich kolejność zgłoszeń. Poniżej: opłaty, dwa karnety, które miejsca wymagają rezerwacji i co robić, gdy wybrane jest pełne.",
+      "intro": "Schroniska DOC (proste schroniska bez obsługi, z pryczami), kempingi i Great Walks (najsłynniejsze wielodniowe szlaki Nowej Zelandii) rezerwuje się na jednej oficjalnej stronie, w systemie rezerwacji Department of Conservation pod adresem bookings.doc.govt.nz, albo w centrum dla odwiedzających DOC. Załóż bezpłatne konto i zaloguj się, wyszukaj miejsce, wybierz daty i liczbę osób, a potem zapłać pełną cenę kartą Visa lub Mastercard; e-mail z potwierdzeniem jest twoją rezerwacją. Rezerwacje na sezon 2026/27, obejmujące pobyty od 1 lipca 2026 do 30 czerwca 2027, ruszyły w maju 2026. Na Great Walks w sezonie, każde schronisko Serviced i wiele kempingów trzeba zarezerwować, a większość schronisk w głuszy (backcountry) i wiele prostych kempingów działa na zasadzie kolejności zgłoszeń. Poniżej: opłaty dla dorosłych i dzieci, mieszkańców Nowej Zelandii i gości z zagranicy, opłaty za anulowanie i co robić, gdy wybrane miejsce jest pełne.",
       "sections": [
         {
           "heading": "Gdzie i jak rezerwować",
           "body": [
-            "Wejdź na bookings.doc.govt.nz, załóż konto i zaloguj się przed wyszukiwaniem. Znajdź schronisko, kemping lub Great Walk, wybierz daty i liczbę osób, dodaj numer rejestracyjny pojazdu przy kempingu i zapłać kartą Visa lub Mastercard. Pełna płatność jest pobierana w chwili rezerwacji, a każda cena zawiera GST. Centra dla odwiedzających DOC mogą zarezerwować wiele tych samych miejsc osobiście lub telefonicznie, za opłatą serwisową 10 NZD.",
+            "Wejdź na bookings.doc.govt.nz, załóż konto i zaloguj się, zanim zaczniesz szukać. Znajdź schronisko, kemping lub Great Walk, wybierz daty i liczbę osób, przy kempingu dodaj numer rejestracyjny pojazdu i zapłać kartą Visa lub Mastercard. Great Walks działają tak samo: nie ma zaliczki ani płatności ratalnej, przy rezerwacji pobierana jest opłata za cały pobyt, za każdą osobę i każdą noc, a rezerwacja jest ważna dopiero po opłaceniu i potwierdzeniu. Każda cena jest w dolarach nowozelandzkich i zawiera GST. Centra dla odwiedzających DOC mogą zarezerwować wiele tych samych miejsc osobiście lub telefonicznie, za opłatą serwisową 10 NZD.",
             "E-mail z potwierdzeniem jest rezerwacją. Pobierz go lub wydrukuj przed wyjściem z recepcji, razem z ewentualnym karnetem, bo strażnicy parku (rangers) i gospodarze schronisk (hut wardens) mogą go zażądać, a większość <a data-guide=\"doc-huts-new-zealand-guide\">schronisk DOC</a> i wiele kempingów nie ma zasięgu. Prycze w schroniskach z rezerwacją nie są przydzielane, więc rezerwacja kupuje łóżko, a nie konkretne, a rezerwacje kempingów bez numerowanych miejsc pozwalają wybrać dowolne wolne miejsce po przyjeździe."
           ],
           "tips": [
@@ -35900,7 +35900,7 @@
           "heading": "Zmiana lub anulowanie rezerwacji",
           "body": [
             "Anuluj w dniu rezerwacji lub w następnym, pod warunkiem że przyjazd jest za więcej niż dwa dni, a DOC nie pobiera nic. Od 48 godzin po rezerwacji do 15 dni przed przyjazdem opłata wynosi 10%. W ciągu 14 dni rośnie zależnie od typu: schroniska 20%, a od trzech dni przed przyjazdem 30%; kempingi 20, potem 75%; Great Walks 50, potem 75%; lodges, domki i schroniska na wyłączność 100%. Anulowanie dzień przed, w dniu przyjazdu lub później oznacza utratę całej kwoty, tak samo jak niestawienie się.",
-            "Jeśli nie pojawisz się pierwszej nocy rezerwacji wielonocnej i nie skontaktujesz się z biurem miejsca w ciągu 24 godzin, DOC anuluje resztę bez zwrotu. Zwroty z powodu pogody nie są automatyczne. Jeśli DOC zamknie miejsce lub anuluje twój pobyt, na przykład z powodu burzy, powodzi albo pomarańczowego lub czerwonego ostrzeżenia MetService dla okolicy dzień wcześniej, napisz do zespołu rezerwacji DOC w ciągu 7 dni, zanim sam zmienisz rezerwację, aby dostać pełny zwrot za niewykorzystane noce albo, jeśli pobyt się jeszcze nie zaczął, przeniesienie na dostępne terminy w tym samym sezonie. Jeśli pogoda jest tylko zła, a miejsce pozostaje otwarte, obowiązują zwykłe opłaty za anulowanie, dlatego DOC zaleca ubezpieczenie podróżne."
+            "Jeśli nie pojawisz się pierwszej nocy rezerwacji wielonocnej i nie skontaktujesz się z biurem miejsca w ciągu 24 godzin, DOC anuluje resztę bez zwrotu pieniędzy. Zwroty z powodu pogody nie są automatyczne. Jeśli DOC zamknie miejsce lub anuluje twój pobyt, na przykład z powodu burzy, powodzi albo pomarańczowego lub czerwonego ostrzeżenia MetService dla okolicy dzień wcześniej, napisz do zespołu rezerwacji DOC na booking@doc.govt.nz w ciągu 7 dni, zanim sam zmienisz rezerwację, a dostaniesz pełny zwrot za niewykorzystane noce albo, jeśli pobyt jeszcze się nie zaczął, przeniesienie na wolne terminy w tym samym sezonie. Jeśli pogoda jest tylko zła, a miejsce pozostaje otwarte, obowiązują zwykłe opłaty za anulowanie, dlatego DOC zaleca ubezpieczenie podróżne."
           ],
           "tips": [],
           "table": {
@@ -35952,7 +35952,7 @@
         {
           "heading": "Gdy wybrane schronisko lub kemping jest w pełni zarezerwowany",
           "body": [
-            "Sprawdź to samo miejsce w innych terminach, zwłaszcza w tygodniach poza szczytem po obu stronach szkolnych wakacji, i zajrzyj na kempingi: DOC podaje, że wiele miało nadal dobrą dostępność, gdy schroniska były pełne, choć na szlakach Milford i Paparoa jej nie ma. Zamień wyprzedany Great Walk na taki z większą ilością miejsc albo przejdź pobliski szlak ze schroniskami bez rezerwacji. Własna rada DOC to sprawdzać dalej w kolejnych miesiącach, bo ludzie anulują, a nawet na Milford Track anulowania zdarzają się przez cały rok.",
+            "Sprawdź to samo miejsce w innych terminach, zwłaszcza w tygodniach poza szczytem po obu stronach szkolnych wakacji, i zajrzyj na kempingi: DOC podaje, że wiele z nich nadal miało dobrą dostępność, gdy schroniska były pełne, choć na szlakach Milford i Paparoa jej nie ma. Zamień wyprzedany Great Walk na taki z większą liczbą wolnych miejsc albo przejdź pobliski szlak ze schroniskami bez rezerwacji. Rada DOC to sprawdzać dalej w kolejnych miesiącach, bo ludzie anulują, a nawet na Milford Track anulowania zdarzają się przez cały rok. Anulowane miejsca wracają na bookings.doc.govt.nz i może je zarezerwować każdy. Niezależne serwisy z alertami, takie jak GreatWalkHuts.com, greatwalks.online, HutSnag i NZtracker, obserwują system i wysyłają e-mail, gdy miejsce się zwolni; to prywatne firmy, niezwiązane z DOC, niektóre pobierają opłatę za alert (sprawdzone 3 listopada 2026), a rezerwujesz i płacisz nadal na stronie DOC.",
             "Na noc z pojazdem realistyczną opcją zapasową jest holiday park lub kemping DOC z samodzielną rejestracją. KiwiCamping pokazuje każde schronisko i kemping DOC w swoich danych z kategorią, opłatą i informacją, czy przyjmuje rezerwacje, obok holiday parków, które można zarezerwować przez BookIt w aplikacji, więc najbliższą alternatywę znajdziesz bez zasięgu. Miejsca DOC w aplikacji wymagają karnetu Pass; przeglądanie i rezerwowanie noclegów BookIt jest bezpłatne. Zasady na najbardziej obłożone tygodnie na najpopularniejszych kempingach, takie jak opłata minimalna w Tōtaranui, są w poradniku o <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempingu w Boże Narodzenie</a> i latem 2026-27."
           ],
           "tips": [
@@ -36228,7 +36228,7 @@
       "description": "Gdzie opróżnić toaletę kampera w NZ: 262 stacje zrzutu w KiwiCamping według regionów, większość bezpłatna, jak z nich korzystać i mandat 800 NZD za zrzut nieczystości.",
       "region": "Kempingi w Nowej Zelandii",
       "imageAlt": "Kamper przy oznakowanej stacji zrzutu",
-      "intro": "Odpady to miejsce, w którym odpowiedzialne kempingowanie staje się konkretne, a kary robią się poważne. Wylanie nieczystości z toalety lub szarej wody w niewłaściwym miejscu kończy się znacznie wyższym mandatem niż zwykłe wykroczenie freedom campingowe i to właśnie takie zachowanie najczęściej prowadzi do trwałego zamknięcia popularnego miejsca.",
+      "intro": "Opróżniaj kasetę toalety kampera lub zbiornik szarej wody wyłącznie na stacji zrzutu nieczystości (dump station). W naszych danych jest 262 publicznych stacji zrzutu w całej Nowej Zelandii, a większość z nich jest bezpłatna. Wylewanie nieczystości z toalety lub szarej wody gdziekolwiek indziej grozi wyższym mandatem niż zwykłe wykroczenie freedom campingowe i to właśnie takie zachowanie najczęściej prowadzi do trwałego zamknięcia popularnego miejsca.",
       "sections": [
         {
           "heading": "Poznaj trzy strumienie odpadów",
@@ -36327,17 +36327,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Ognisko w Nowej Zelandii 2026: sezony pożarowe i zakazy ognia",
-      "description": "Otwarty, ograniczony, zakazany: jak działa sezon pożarowy w NZ, gdzie sprawdzić zakaz ognia, kiedy potrzeba pozwolenia i jak gotować, gdy ogniska są zakazane.",
+      "title": "Zakaz ognia w NZ 2026-27: sezony pożarowe i zasady dotyczące ogniska",
+      "description": "Sprawdź dzisiejszy sezon pożarowy dla swojej okolicy na checkitsalright.nz. Sezony otwarty, ograniczony i zakazany, całkowity zakaz ognia, ogniska DOC i kuchenki gazowe.",
       "region": "Nowa Zelandia",
       "imageAlt": "Małe, kontrolowane ognisko w dozwolonym miejscu na ogień",
-      "intro": "Istniejące palenisko i stos starego popiołu dowodzą tylko, że ktoś kiedyś rozpalił tu ogień, a nie że ty możesz to zrobić dzisiaj. Nowa Zelandia stosuje trójstopniowy system sezonów pożarowych, który zmienia się wraz z warunkami, a zarządca terenu może zakazać ognia niezależnie od tego, co mówi ten system.",
+      "intro": "Sprawdź dzisiejszy sezon pożarowy dla swojej okolicy na checkitsalright.nz, stronie prowadzonej przez Fire and Emergency New Zealand: wpisz adres lub miejsce, a dowiesz się, czy możesz rozpalić ogień i czy potrzebujesz pozwolenia. Każdy obszar jest zawsze w jednym z trzech sezonów pożarowych. Otwarty (open) oznacza, że możesz rozpalić ogień na wolnym powietrzu bez pozwolenia, ograniczony (restricted) oznacza, że najpierw potrzebujesz pozwolenia Fire and Emergency, a zakazany (prohibited), który większość ludzi nazywa całkowitym zakazem ognia, oznacza zakaz wszelkich ognisk na wolnym powietrzu. Na terenach chronionych DOC (Department of Conservation, nowozelandzki urząd ochrony przyrody) utrzymuje sezon ograniczony przez cały rok, więc ogniska są dozwolone tylko w wyznaczonym palenisku na kempingu DOC, gdy nie obowiązuje zakaz. Kuchenki gazowe nie wymagają pozwolenia. Stare palenisko dowodzi tylko, że ktoś kiedyś rozpalił tu ogień, a nie że ty możesz to zrobić dzisiaj.",
       "sections": [
         {
           "heading": "Trzy sezony pożarowe",
           "body": [
-            "W otwartym sezonie pożarowym (open) możesz rozpalić ogień na wolnym powietrzu bez pozwolenia, z zastrzeżeniem własnych zasad zarządcy terenu. W ograniczonym sezonie pożarowym (restricted) potrzebujesz pozwolenia od Fire and Emergency New Zealand, zanim cokolwiek rozpalisz na wolnym powietrzu. W zakazanym sezonie pożarowym (prohibited) ogniska na wolnym powietrzu są całkowicie zakazane i żadne pozwolenie nie zostanie wydane.",
-            "Sezon jest ustalany dla okręgu i zmienia się wraz z warunkami, czasem bez zapowiedzi podczas suszy. Sprawdź aktualny status dla okręgu, w którym jesteś danego dnia, a nie dla okręgu, przez który wiodła rano twoja trasa. Jak te zasady mają się do tegorocznych prognoz El Niño na lato, opisuje poradnik o <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempingu w Boże Narodzenie</a> i latem 2026-27."
+            "W otwartym sezonie pożarowym możesz rozpalić ogień na wolnym powietrzu bez pozwolenia, z zastrzeżeniem własnych zasad zarządcy terenu. W ograniczonym sezonie pożarowym do większości ognisk na wolnym powietrzu potrzebujesz pozwolenia od Fire and Emergency New Zealand i musisz przestrzegać jego warunków. Zakazany sezon pożarowy to całkowity zakaz ognia: ogniska na wolnym powietrzu są zakazane bez wyjątku, wydane już pozwolenia są zawieszone, a nowe wydaje się tylko w wyjątkowych okolicznościach.",
+            "Fire and Emergency ustala sezon strefa po strefie i zmienia go wraz z warunkami, czasem bez zapowiedzi podczas suszy, a każdą zmianę ogłasza dla danego obszaru. Wiele obszarów przechodzi na sezon ograniczony, gdy lato wysusza krajobraz, a niektóre na zakazany, więc ogień, który w październiku był legalny, w styczniu może już nie być. Sprawdź checkitsalright.nz dla dokładnego miejsca, w którym nocujesz danego dnia, a nie dla okręgu, przez który wiodła rano twoja trasa, i zerknij też na zagrożenie pożarowe: Fire and Emergency prosi o odłożenie nawet dozwolonego ogniska, gdy zagrożenie jest bardzo wysokie (Very High) lub ekstremalne (Extreme). Jak te zasady mają się do tegorocznych prognoz El Niño na lato, opisuje nasz poradnik o <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempingu w Boże Narodzenie</a> i latem 2026-27."
           ],
           "tips": [
             "Sprawdź okręg tego samego dnia",
@@ -36377,8 +36377,8 @@
         {
           "heading": "Zarządca terenu może być surowszy",
           "body": [
-            "Sezon pożarowy to dolna granica, a nie zezwolenie. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempingi DOC</a>, parki regionalne, tereny rekreacyjne samorządów i prywatne kempingi ustalają własne zasady, a wiele z nich na stałe zakazuje otwartego ognia niezależnie od sezonu. Gdy obowiązują dwie zasady, rozstrzyga surowsza.",
-            "Przeczytaj stronę konkretnego kempingu i znak na miejscu. Niektóre kempingi DOC pozwalają na mały ogień wyłącznie w przygotowanym palenisku, inne całkowicie zakazują paliw stałych, a ogniska w głuszy (backcountry) mają osobne warunki dotyczące miejsca, oczyszczenia terenu i wielkości."
+            "Sezon pożarowy to dolna granica, a nie zezwolenie. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempingi DOC</a>, parki regionalne, tereny rekreacyjne samorządów i prywatne kempingi ustalają własne zasady, a wiele z nich na stałe zakazuje otwartego ognia niezależnie od sezonu. Gdy obowiązują dwie zasady, rozstrzyga surowsza. Na publicznych terenach chronionych DOC utrzymuje sezon ograniczony przez cały rok, a w niektórych miejscach, takich jak wyspy przybrzeżne zarządzane przez DOC, całkowity zakaz ognia obowiązuje przez cały rok.",
+            "Na kempingu DOC lub w miejscu dziennym ognisko jest dozwolone tylko w wyznaczonym palenisku lub dole na ognisko i tylko wtedy, gdy nie obowiązuje zakaz ognia. W głuszy (backcountry) DOC zezwala na małe ognisko do gotowania lub ogrzania się, mniejsze niż pół metra szerokości i wysokości, co najmniej 3 metry od drzew i wszystkiego, co mogłoby się zapalić, i tylko wtedy, gdy nie zakazuje tego żaden zakaz ani komunikat. Duże ogniska, grille węglowe i hāngī (tradycyjny piec ziemny Māori) na terenie DOC wymagają pozwolenia Fire and Emergency, którego według DOC zwykle się nie wydaje. Przeczytaj też stronę kempingu i znak na miejscu."
           ],
           "tips": []
         },
@@ -36405,7 +36405,7 @@
         {
           "heading": "Gotowanie, gdy ogień jest zakazany",
           "body": [
-            "Kuchenki gazowe to praktyczne rozwiązanie i zwykle są dozwolone, gdy otwarty ogień nie jest, ale to sprawdź, bo zakazany sezon pożarowy może ograniczać także niektóre urządzenia. Używaj ich na stabilnej, poziomej powierzchni, z dala od materiału namiotu i roślinności.",
+            "Praktycznym rozwiązaniem są kuchenki gazowe. Fire and Emergency podaje, że do grilli, kuchenek i grzejników gazowych nie potrzeba pozwolenia na ogień, a DOC, że zwykle można w każdej chwili używać palników gazowych i zamkniętych kuchenek na paliwo płynne do gotowania, ale nie otwartych kuchenek na paliwo płynne, takich jak kuchenki spirytusowe. Samorząd lub właściciel terenu nadal może je ograniczyć, więc sprawdź znak. Używaj ich na stabilnej, poziomej powierzchni, z dala od materiału namiotu i roślinności, a zapasowe butle z gazem trzymaj 5 metrów od płomienia.",
             "Nigdy nie gotuj w zamkniętym namiocie, pod markizą ani w niewentylowanym pojeździe. Ryzykiem jest tlenek węgla, który jest bezwonny i zabił już kempujących w Nowej Zelandii. Pozwól kuchence całkowicie ostygnąć, zanim wróci do pojazdu lub namiotu, a butle z gazem przechowuj w pozycji pionowej i w przewiewnym miejscu. Jedziesz na letnie wydarzenie? Obowiązują tam dodatkowo własne zasady dotyczące ognia, a poradnik o <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">kempingu w sylwestra</a> i letnich wydarzeniach pokazuje, co sprawdzić przed wyjazdem."
           ],
           "tips": [

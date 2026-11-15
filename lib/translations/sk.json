@@ -440,7 +440,7 @@
       "openTool": "Otvoriť kalkulačku",
       "ctaEyebrow": "Naplánujte v KiwiCamping",
       "ctaTitle": "Nájdite zastávky a potom počítajte.",
-      "ctaText": "KiwiCamping sa dá stiahnuť zadarmo pre iPhone. Rezervovateľné karavanové parky, pobyty a túry sú v aplikácii zadarmo. Kempy DOC, chaty, vyprázdňovacie stanice a sprievodcovia sa otvoria s Pass.",
+      "ctaText": "Všetky miesta na kempovanie a ubytovanie na jednej mape, s filtrami, fotkami, poplatkami a plánovačom výletu na celú trasu.",
       "ctaButton": "Stiahnuť aplikáciu",
       "enterValidValues": "Zadajte platné hodnoty",
       "enterValidAmount": "Zadajte platnú sumu"
@@ -2906,7 +2906,7 @@
           "heading": "Plánovanie Auckland do Tauranga v KiwiCamping",
           "body": [
             "Pre koniec cesty v Bay of Plenty zobrazuje KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>, chaty a prázdninové parky od Waihī Beach po Mount Maunganui. Uložené miesta sa stanú cestou v poradí, ktoré si zvolíte, s kilometrami medzi nimi a predpoveďou pre každú pláž alebo mesto. Je to plánovač, nie navigácia, preto živú jazdu nechajte Apple Maps alebo Google Maps.",
-            "Rezervácie DOC zostávajú na vlastných rezervačných stránkach DOC a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninové parky</a> prijímajú vlastné rezervácie."
+            "Kempy DOC rezervujte priamo cez DOC; <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninové parky</a> okolo Tauranga a Mount Maunganui majú každý vlastné rezervácie."
           ],
           "tips": [
             "Ukladajte zastávky v poradí jazdy",
@@ -38100,6 +38100,525 @@
         },
         {
           "label": "DOC: porovnanie Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "can-i-fly-a-drone-at-a-doc-campsite-nz": {
+      "title": "Smiem lietať s dronom v kempe DOC na NZ? (pravidlá 2026)",
+      "description": "Nie bez povolenia DOC a ani s ním sa nesmiete priblížiť ku kempom a chatám. Zóny povolení 2026, poplatky, pravidlá CAA Part 101 a pozemky rád.",
+      "region": "Nový Zéland",
+      "imageAlt": "Letecký pohľad na pláž Whāngapoua a pobrežie Coromandel pri západe slnka",
+      "intro": "Nie bez povolenia. Podľa Conservation Act 1987 sa dron považuje za lietadlo a DOC vyžaduje koncesiu (povolenie) pre každé lietadlo, ktoré štartuje, pristáva alebo visí vo vzduchu nad verejným chráneným pozemkom. Ani s povolením vám podmienky DOC nedovoľujú lietať na rušných miestach, ako sú kempy, chaty a parkoviská, takže kemp je na pozemku DOC miesto, kde je lietanie najmenej prijateľné.",
+      "sections": [
+        {
+          "heading": "Prečo je kemp zlé miesto na lietanie",
+          "body": [
+            "Paragraf 17ZF zákona Conservation Act hovorí, že žiadne lietadlo nesmie pristáť na chránenej oblasti ani z nej štartovať bez udelenej koncesie, a ten istý paragraf uvádza, že pristátie zahŕňa aj visenie vo vzduchu. DOC to vykladá tak, že sa vzťahuje na drony na každý účel: rekreačný, komerčný aj výskumný. Dron vypustený z vášho miesta v kempe alebo držaný nad riekou za ním spadá pod toto pravidlo.",
+            "Vlastné prevádzkové podmienky DOC pre držiteľov povolení idú ďalej. Žiadajú pilotov, aby lietali ďaleko od intenzívne využívaných rekreačných oblastí, a menujú kempy, autokempy, chaty, bivaky, lodge, parkoviská a miesta na piknik. Zakazujú tiež lietať nad osobou alebo nad ňou visieť bez jej súhlasu. Autokemp je plný ľudí, ktorí prišli za pokojom, a preto podmienky DOC pre kempy a chaty hovoria, že drony sú zakázané, pokiaľ ich DOC nepovolí."
+          ],
+          "tips": [
+            "Dron je podľa Conservation Act lietadlo",
+            "Visenie sa počíta rovnako ako pristátie",
+            "Podmienky povolenia vás držia ďalej od kempov"
+          ]
+        },
+        {
+          "heading": "Ako získať povolenie DOC pre dron",
+          "body": [
+            "Pri rekreačnom lietaní DOC člení chránené pozemky na zelené, oranžové a červené zóny na svojej mape Discover the Outdoors. V zelenej zóne sa povolenie schváli automaticky a vydá sa online okamžite: $180 plus GST, čo web DOC pre povolenia ukazuje ako $207, platí jeden rok a pre drony do 25 kg. Oranžová zóna sa posudzuje od prípadu k prípadu s minimálnym poplatkom $2,450 plus GST a červená zóna sa schvaľuje len zriedka, s minimálnym poplatkom $180 a lehotou vybavenia päť pracovných dní.",
+            "Mapu si pozrite tak, že zvolíte vrstvu povolení pre rekreačné drony a kliknete na oblasť. Zóny sa môžu líšiť pre rekreačné, výskumné a komerčné použitie a stránka DOC radí napísať na permissions@doc.govt.nz, keď oblasť nemá farbu. Žiadosti sa už neprijímajú na miestnych pobočkách DOC ani v návštevníckych centrách. Oranžové a červené žiadosti sa podávajú e-mailom na formulári DOC a DOC odpovie odhadom nákladov skôr, než čokoľvek spracuje."
+          ],
+          "tips": [
+            "Zelená zóna: $180 plus GST, vydané okamžite",
+            "Zónu skontrolujte pred podaním žiadosti",
+            "Oranžová a červená idú e-mailom, nie v návštevníckom centre"
+          ]
+        },
+        {
+          "heading": "Miesta, kde je odpoveď jednoducho nie",
+          "body": [
+            "Niektoré parky to uvádzajú na vlastných stránkach. Národný park Aoraki/Mount Cook zakazuje rekreačné používanie dronov v celom parku a stránka jeho kempu White Horse Hill uvádza drony medzi vecami, ktoré nie sú povolené. Stránky okruhu Tongariro Northern Circuit hovoria, že lietanie s dronom bez povolenia je prísne zakázané, a stránka trasy Hump Ridge Track uvádza, že neoprávnené používanie dronov v národnom parku Fiordland je zakázané.",
+            "Obchodné podmienky DOC pre chaty, kempy, Great Walks, chatky a lodge obsahujú ustanovenie: žiadne používanie dronov, pokiaľ ich DOC nepovolí. Ak sa ubytujete na rezervovateľnom mieste DOC, pri rezervácii ste s tým súhlasili, takže dron v aute ohrozuje vašu rezerváciu rovnako ako susedov."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Navyše platia pravidlá civilného letectva",
+          "body": [
+            "Povolenie DOC rieši len pozemok. Part 101 pravidiel Civil Aviation Rules, ktoré spravuje Civil Aviation Authority (CAA), stále platí pre každý let: zostaňte pod 120 metrami nad zemou, majte dron stále na očiach, lietajte pri dennom svetle a pred preletom nad ľuďmi a majetkom získajte súhlas. Pravidlá tiež obmedzujú lietanie do 4 km od hranice letiska, pokiaľ nie sú splnené ďalšie podmienky.",
+            "DOC vyžaduje od držiteľov povolení zapisovať každý let v AirShare, aplikácii a na webe o vzdušnom priestore, ktoré tiež zobrazujú zakázané oblasti. Ak chcete lietať blízko letiska, pozrite si mapu ešte pred cestou a držte sa pravidiel pre danú zónu."
+          ],
+          "tips": [
+            "Maximálna výška 120 metrov",
+            "Len za denného svetla a s dohľadom",
+            "Súhlas pred preletom nad ľuďmi alebo majetkom"
+          ]
+        },
+        {
+          "heading": "Divoká zver, wāhi tapu a hluk",
+          "body": [
+            "Držitelia povolení musia štartovať a pristávať aspoň 100 m od voľne žijúcich zvierat, držať sa od nich najmenej 50 m a vyhnúť sa vtákom na odpočinku či hniezdiacim vtákom. Morské cicavce, ako sú delfíny, tulene a veľryby, potrebujú 150 m vodorovne. Ak vtáky dron opakovane obletujú alebo naň útočia, okamžite pristaňte.",
+            "DOC tiež žiada pilotov, aby nelietali ani nefilmovali nad miestami wāhi tapu, a jeho proces posudzovania žiadostí zahŕňa vyjadrenia hapū a iwi. Hluk je rovnako dôležitý ako vzdialenosť: bzučanie dronu sa nesie ďaleko nad tichou riečnou nivou a ľudia vedľa vás si miesto DOC vybrali práve pre ten pokoj."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pozemky rád a miesta pre voľné kempovanie",
+          "body": [
+            "Rezervácie rád a oblasti pre <a data-guide=\"freedom-camping-new-zealand-guide\">voľné kempovanie</a> pri ceste nie sú chránený pozemok, takže sa na ne povolenie DOC nevzťahuje. Majú vlastné pravidlá a CAA Part 101 platí naďalej. Auckland Council dovoľuje lietať vo väčšine miestnych parkov bez povolenia, ale zakazuje drony na miestach, ako sú cintoríny, lokality Tūpuna Maunga, Cornwall Park a Botanic Gardens, a v regionálnych parkoch vyžaduje povolenie.",
+            "Christchurch City Council dovoľuje ľahký dron do 1,5 kg nad väčšinou majetku rady bez povolenia, ale pri parkoch s dedičstvom, do 10 metrov od ihriska alebo hranice parku a na vybraných mokradiach a pobrežných miestach chce povolenie pre akúkoľvek hmotnosť. Vždy si prečítajte stránku rady pre miesto, kde kempujete, a značenie na mieste pre voľné kempovanie."
+          ],
+          "tips": [
+            "Každá rada má vlastné pravidlá pre parky",
+            "Hmotnostné limity sa medzi radami líšia",
+            "Miesto pre voľné kempovanie nie je pozvánka na lietanie"
+          ]
+        },
+        {
+          "heading": "Súkromie, súhlas a čo hrozí, ak pravidlá ignorujete",
+          "body": [
+            "Privacy Commissioner uvádza, že zábery, ktoré zbierate pre vlastné účely, spravidla spadajú mimo zákona Privacy Act, ale natáčanie, ktoré je vysoko urážlivé, napríklad do stanov alebo kúpeľní, môže stále vyvolať právne problémy. Nezávisle od súkromia pravidlá CAA vyžadujú súhlas pred preletom nad ľuďmi a kemp cudzích ľudí je presne miesto, kde ho nikto nedal.",
+            "Vedomé lietanie bez koncesie DOC je trestný čin podľa paragrafov 39 a 43C zákona Conservation Act s maximálnym trestom dva roky väzenia alebo pokutou až $100,000 pre jednotlivca. Predpisy o priestupkoch na chránených územiach neuvádzajú žiadnu pokutu osobitne za drony, takže prípad ide cez súdy. DOC môže povolenie ukončiť aj písomným oznámením pri porušení podmienok a CAA môže prijať disciplinárne opatrenia vrátane trestného stíhania. Ak chcete dron nahlásiť, zavolajte na linku DOC 0800 DOC HOT (0800 362 468)."
+          ],
+          "tips": [
+            "Trestný čin podľa Conservation Act",
+            "CAA môže stíhať samostatne",
+            "Nahláste na 0800 362 468"
+          ]
+        },
+        {
+          "heading": "Čo robiť namiesto toho",
+          "body": [
+            "Ak na zábere záleží, kúpte si povolenie pre zelenú zónu ešte pred cestou, vyberte si východisko turistickej trasy alebo breh jazera, ktoré je na mape zelené a nie je vedľa kempu, a držte sa dostatočne ďaleko od ostatných ľudí. Ak chcete len výhľad z vášho miesta, telefón na statíve alebo malá kamera na tyči sa k nemu priblíži a vlastná rada DOC je použiť fotoaparát alebo selfie tyč z pevnej zeme, prípadne technológiu nechať doma.",
+            "Ak si kempy na trase uložíte ako miesta v aplikácii KiwiCamping pre iPhone, získate krátky zoznam, ktorý pred odchodom porovnáte s mapou dronov DOC. Podrobnosti miest a uložené miesta sa otvoria bez signálu; dlaždice mapy, plánovanie trasy, počasie a fotky ho potrebujú."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Stručne",
+          "body": [
+            "Žiadny dron v <a data-guide=\"doc-campsites-new-zealand-guide\">kempe DOC</a> bez povolenia a ani s ním nelietajte blízko kempov, chát či parkovísk. Aoraki/Mount Cook zakazuje rekreačné drony úplne a iné parky majú vlastné zákazy.",
+            "Skontrolujte mapu zón, noste povolenie so sebou, zapíšte let v AirShare, držte sa pod 120 metrami a v autokempe nechajte dron v taške."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Smiem lietať s dronom v kempe DOC na Novom Zélande?",
+          "Nie bez povolenia DOC a podmienky DOC hovoria držiteľom povolení, aby sa držali ďalej od kempov, chát a parkovísk aj vtedy. Niektoré miesta, napríklad národný park Aoraki/Mount Cook, zakazujú rekreačné používanie dronov úplne."
+        ],
+        [
+          "Potrebujem povolenie na lietanie s dronom na pozemku DOC?",
+          "Áno. Každý dron, ktorý štartuje, pristáva alebo visí vo vzduchu nad verejným chráneným pozemkom, potrebuje koncesiu DOC. Rekreačné povolenie pre zelenú zónu stojí $180 plus GST, vydáva sa online okamžite a platí jeden rok."
+        ],
+        [
+          "Smiem lietať s dronom v národnom parku na Novom Zélande?",
+          "Len s povolením DOC a viaceré národné parky to obmedzujú ešte viac. Aoraki/Mount Cook zakazuje rekreačné používanie a DOC uvádza, že neoprávnené používanie dronov je zakázané na miestach, ako je Tongariro Northern Circuit a trasa Hump Ridge Track vo Fiordlande."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Používanie dronov na chránenom pozemku"
+        },
+        {
+          "label": "DOC: Prevádzkové podmienky pre drony"
+        },
+        {
+          "label": "DOC: Žiadosť o rekreačné povolenie pre dron"
+        },
+        {
+          "label": "Web DOC pre povolenia: Žiadosť o lietanie s dronom v zelených zónach"
+        },
+        {
+          "label": "DOC: Obchodné podmienky pre chaty, kempy, Great Walks, chatky a lodge"
+        },
+        {
+          "label": "DOC: Kemp White Horse Hill, národný park Aoraki/Mount Cook"
+        },
+        {
+          "label": "Legislatíva: Conservation Act 1987 (paragrafy 17ZF, 39, 43C)"
+        },
+        {
+          "label": "CAA: Pravidlá Part 101 pre drony"
+        },
+        {
+          "label": "Auckland Council: Lietanie s dronmi a UAV"
+        },
+        {
+          "label": "Christchurch City Council: Drony a diaľkovo pilotované letecké systémy"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Voľné kempovanie okolo Matakany a Warkworthu: kde prenocovať",
+      "description": "Kde spať v karavane okolo Matakany a Warkworthu: pár malých miest pre voľné kempovanie od Auckland Council, rezervované autokempy v regionálnych parkoch Tawharanui a Mahurangi a karavanové parky ako alternatíva.",
+      "region": "Auckland",
+      "imageAlt": "Príboj na tmavom piesku pláže na západnom pobreží, v diaľke výbežok a skalný stĺp v mori",
+      "intro": "Matakana a Warkworth ležia hodinu cesty severne od Aucklandu a spadajú pod tú istú vyhlášku Auckland Council ako mesto: len certifikované sebestačné vozidlá, na pár označených miestach, na dve noci. Miesta sú tu malé, často len pre hŕstku vozidiel, a regionálne parky okolo sú pre voľné kempovanie zatvorené. Lepší plán na víkend na trhoch v Matakane alebo na plážach pobrežia Mahurangi je rezervovaný autokemp alebo karavanový park, s miestami rady ako záložným riešením pre neskorý príchod.",
+      "sections": [
+        {
+          "heading": "Pravidlá Aucklandu, ktoré tu platia",
+          "body": [
+            "Vyhláška Aucklandu o <a data-guide=\"freedom-camping-new-zealand-guide\">voľnom kempovaní</a> vo vozidlách (Freedom Camping in Vehicles Bylaw) platí v celom regióne vrátane Rodney a Hibiscus Coast. Kempovanie na cestách a parkoviskách rady je povolené len v certifikovanom sebestačnom vozidle, najviac dve noci na tom istom mieste, a v deň odchodu odchádzate do 9:00. Sprievodca voľným kempovaním v Aucklande číta vyhlášku celú, aj so zakázanými a obmedzenými oblasťami, takže táto stránka zostáva pri okolí Matakany.",
+            "Stan alebo vozidlo bez certifikátu nemá na pozemku rady miesto. Od 7. júna 2026 sa počíta len <a data-guide=\"self-contained-campervan-green-warrant\">zelený warrant</a> a vysvetľuje ho sprievodca warrantom sebestačného karavanu. Kontroly prebiehajú celé leto a oznámenie ide registrovanému majiteľovi, čo je pri prenájme požičovňa."
+          ],
+          "tips": [
+            "Vyhláška platná v celom regióne",
+            "Dve noci, odchod do 9:00",
+            "Potrebný zelený warrant"
+          ]
+        },
+        {
+          "heading": "Miesta rady pri Warkworthe a na pobreží",
+          "body": [
+            "Označené miesta rady v oblasti sú malé a roztrúsené: prístavná rezervácia v Port Albert na strane Kaipara, pár miest v Parry Kauri Park vo Warkworthe a hŕstka miest na pobrežiach Mahurangi a Whangaparāoa, napríklad Snells Beach, každé pre tri až desať vozidiel. Zoznam nájdete na mape a stránke rady, ten sa mení, takže miesto si overte skôr, než od neho bude závisieť vaša noc.",
+            "Pre také nízke počty sa miesta v lete a v piatkové noci zaplnia ešte pred tmou. Rezervovaný autokemp vám zaručí posteľ a sociálne zariadenia a voľné miesta pre nečakaný príchod berte radšej ako bonus než ako plán."
+          ],
+          "tips": [
+            "3 až 10 vozidiel na miesto",
+            "Port Albert je na strane Kaipara",
+            "Bezplatné miesta berte ako zálohu"
+          ]
+        },
+        {
+          "heading": "Regionálne parky a rezervované autokempy",
+          "body": [
+            "Regionálne parky Auckland Council sú pre <a data-guide=\"freedom-camping-new-zealand-guide\">voľné kempovanie</a> zatvorené, ale dva z nich prevádzkujú rezervované autokempy vhodné na víkend v okolí: Tawharanui na konci dlhej cesty po polostrove s plážami na oboch stranách a Mahurangi, kde autokempy ležia nad chránenými zátokami. Obe sa rezervujú cez radu a najlepšie januárové víkendy sa vypredajú skoro.",
+            "Sú pre stany aj karavany, s toaletami a vodou, a niektoré zátoky sú kúsok pešo od vody. Psy, ohne a nočný pokoj sa riadia pravidlami parku, ktoré uvádza rezervačná stránka, a sú prísnejšie než vo väčšine <a data-guide=\"holiday-parks-new-zealand-guide\">karavanových parkov</a>."
+          ],
+          "tips": [
+            "Tawharanui a Mahurangi: rezervujte vopred",
+            "Regionálne parky zakazujú voľné kempovanie",
+            "Pravidlá pre psy a ohne sa líšia"
+          ]
+        },
+        {
+          "heading": "Karavanové parky a pozemky DOC",
+          "body": [
+            "Warkworth, Snells Beach, Omaha a Leigh majú každý <a data-guide=\"holiday-parks-new-zealand-guide\">karavanové parky</a> alebo autokempy na dosah, s miestami s prípojkou a chatkami. Cez Vianoce sú spoľahlivou voľbou a veľkonočný víkend prináša rovnaké davy ako pláže. Ako funguje rezervácia, vysvetľuje sprievodca karavanovými parkami.",
+            "Pozemky DOC v regióne Auckland sú väčšinou na ostrovoch. Údaje DOC v KiwiCamping (z 11. augusta 2026) uvádzajú 9 kempov v Aucklande, z toho 1 bezplatný a 5 s prístupom pre karavany, s nočnými sadzbami pre dospelých od $10 do $18, a Home Bay na ostrove Motutapu je najväčší s miestom pre 131. Žiadny nie je cestou blízko Matakany."
+          ],
+          "tips": [
+            "Karavanové parky pri každej pláži",
+            "Miesta DOC v Aucklande sú na ostrovoch",
+            "Veľká noc sa plní ako Vianoce"
+          ]
+        },
+        {
+          "heading": "KiwiCamping v okolí Matakany",
+          "body": [
+            "KiwiCamping uvádza kempy a chaty DOC, karavanové parky s vybavením a vypúšťacími stanicami okolo Aucklandu, s filtrami pre prístup karavanov. Nemá miesta rady pre <a data-guide=\"freedom-camping-new-zealand-guide\">voľné kempovanie</a> ani rezervácie regionálnych parkov, takže pre tie použite stránky rady.",
+            "Pridajte noc v Matakane do výletu z Aucklandu do Bay of Islands a pozrite si vzdialenosť a čas jazdy do ďalšej zastávky, ktorou je Whangārei, o niečo viac než hodinu ďalej. Uložené miesta zostávajú v telefóne a mapa, trasy, predpoveď a fotky potrebujú pripojenie, ktoré je na cestách po polostrove nespoľahlivé. Na stiahnutie zadarmo, s nákupmi v aplikácii."
+          ],
+          "tips": [
+            "Rezervácie rady a parkov: použite ich stránky",
+            "Whangārei je asi hodinu ďalej",
+            "Uložené miesta zostávajú v telefóne"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Môžem kempovať zadarmo pri Matakane?",
+          "Len v certifikovanom sebestačnom vozidle na jednom z malých označených miest rady, najviac dve noci. Regionálne parky a väčšina ostatných verejných území sú pre to zatvorené, takže bezpečnejším plánom je rezervovaný autokemp alebo karavanový park."
+        ],
+        [
+          "Môžem kempovať v regionálnom parku Tawharanui?",
+          "Áno, v jeho rezervovanom autokempe, nie ako voľné kempovanie. Rezervujte cez Auckland Council ešte pred cestou."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: voľné kempovanie"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: voľné kempovanie"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping na Novom Zélande: kde prenocovať v jurtách, kupolách a safari stanoch",
+      "description": "Glamping na Novom Zélande: čo to je, druhy ubytovania, najlepšie regióny od Bay of Islands po Queenstown, koľko stojí, kedy rezervovať a ako zapadá do výletu v karavane.",
+      "region": "Nový Zéland",
+      "imageAlt": "Bay of Islands pri Waitangi za slnečného dňa",
+      "intro": "Glamping je kempovanie s pohodlím, ktoré je už pripravené: safari stan so skutočnou posteľou, jurta s kozubom na drevo, kupola pod hviezdami, malá chatka pri jazere. Nový Zéland ich má veľa, od Bay of Islands po Queenstown, väčšinou ich prevádzkujú súkromné osoby na farmách, vinohradoch a v karavanových parkoch. Hodí sa na noc či dve počas výletu v karavane, ako odmena, na daždivé obdobie alebo pri zvláštnej príležitosti.",
+      "sections": [
+        {
+          "heading": "Čo sa považuje za glamping",
+          "body": [
+            "Oficiálna definícia neexistuje a ponuka je široká. Safari stany a zvonovité stany majú skutočné postele a terasu, jurty a kupoly majú kúrenie a niekedy súkromnú kúpeľňu a malé domčeky, chatky a domčeky na stromoch sú niekde medzi tým. Väčšina je na súkromnom pozemku a niekoľko z nich je v <a data-guide=\"holiday-parks-new-zealand-guide\">karavanových parkoch</a>. DOC glamping neprevádzkuje, hoci má chaty a chatky.",
+            "Pozrite sa, čo je v cene: posteľná bielizeň, kúpeľňa, kuchyňa, kúrenie a raňajky sa veľmi líšia, rovnako ako cena. Glamping na odľahlom mieste môže mať kompostovacie toalety a žiadnu elektrinu, preto stojí za to ponuku si pozorne prečítať."
+          ],
+          "tips": [
+            "Safari stany, jurty, kupoly a malé domčeky",
+            "Väčšinou na súkromnom pozemku",
+            "Skontrolujte, čo je v cene"
+          ]
+        },
+        {
+          "heading": "Kde hľadať",
+          "body": [
+            "Bay of Islands a Northland majú pobyty na farmách a stany pri pobreží, Coromandel má miesta na pláži aj v buši a Waiheke má vinohrady a výhľady. Na Južnom ostrove majú Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> a Golden Bay možnosti pri vode a Queenstown, Wānaka a Central Otago majú miesta pri jazere a vo vinohradoch s výhľadom na hory.",
+            "Kaikōura, Tekapo a Aoraki Mount Cook ponúkajú pobyty pod tmavou oblohou, s kupolami na pozorovanie hviezd. Abel Tasman, Bay of Islands a Queenstown sú najrušnejšie, takže pre pokojnejšie miesto hľadajte ďalej."
+          ],
+          "tips": [
+            "Northland, Coromandel a Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Kupoly na pozorovanie hviezd"
+          ]
+        },
+        {
+          "heading": "Cena a kedy rezervovať",
+          "body": [
+            "Ceny sa veľmi líšia, od jednoduchých stanov zhruba za cenu dobrej izby v moteli až po luxusné kupoly a lodge za niekoľko stoviek dolárov za noc, a v lete a cez školské prázdniny rastú. Aktuálnu cenu a čo je v nej zahrnuté si pozrite na stránke prevádzkovateľa a opýtajte sa na podmienky storna, pretože počasie môže plán zmeniť.",
+            "Najlepšie miesta sa rezervujú mesiace vopred na obdobie od decembra do februára a na Veľkú noc a školské prázdniny, takže rezervujte hneď, ako máte termín. Mimo leta sú dobré ceny, hoci niektoré miesta v zime zatvárajú. Dátumy nájdete v sprievodcovi školskými a štátnymi sviatkami."
+          ],
+          "tips": [
+            "V lete ceny rastú",
+            "Skontrolujte podmienky storna",
+            "Na leto rezervujte mesiace vopred"
+          ]
+        },
+        {
+          "heading": "Ako zaradiť glamping do výletu v karavane",
+          "body": [
+            "Noc v glampingu medzi nocami v karavane vám dá poriadnu posteľ, teplú sprchu a čas bez šoférovania a poslúži aj ako záloha pri daždi. Obzvlášť dobre funguje tam, kde <a data-guide=\"freedom-camping-new-zealand-guide\">voľné kempovanie</a> nie je povolené a miest je málo, napríklad v Bay of Islands, Queenstowne a Abel Tasman.",
+            "Ak máte karavan, <a data-guide=\"holiday-parks-new-zealand-guide\">karavanový park</a> s chatkami je lacnejšia voľba na noc voľna a sprievodca karavanovými parkami popisuje možnosti. Sprievodca kempovaním v daždi má viac o tom, ako zostať v suchu a nájsť miesto."
+          ],
+          "tips": [
+            "Odmena medzi nocami v karavane",
+            "Záloha pri daždi",
+            "Chatky v karavanových parkoch sú lacnejšie"
+          ]
+        },
+        {
+          "heading": "Ako sa tam dostať a čo vziať so sebou",
+          "body": [
+            "Mnohé glampingové miesta sú pri štrkových alebo farmárskych cestách, niektoré so strmou príjazdovou cestou, preto si overte trasu a či sa tam karavan dostane. Opýtajte sa hostiteľa na parkovanie pre váš karavan. Zoberte si teplé oblečenie, baterku, repelent proti hmyzu a vlastné jedlo, ak ubytovanie nemá kuchyňu, a skontrolujte časy príchodu, pretože hostitelia často nie sú na mieste celý deň.",
+            "Rešpektujte pozemok, odneste si odpadky a v noci dodržiavajte ticho, pretože mnohé miesta sú na fungujúcich farmách s dobytkom. Sprievodca <a data-guide=\"responsible-camping-new-zealand\">zodpovedným kempovaním</a> popisuje základy."
+          ],
+          "tips": [
+            "Overte prístup po ceste pre karavan",
+            "Vezmite si teplé oblečenie a baterku",
+            "Rešpektujte fungujúce farmy"
+          ]
+        },
+        {
+          "heading": "Plánovanie cesty v KiwiCamping",
+          "body": [
+            "Na iPhone KiwiCamping zobrazuje na mape <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>, chaty a karavanové parky, filtruje ich podľa prístupu pre karavany a vybavenia a ukazuje karavanové parky s ich rezervovateľnými pobytmi. Uložte si miesta, ktoré sa vám páčia, pridajte ich do výletu s dátumami a každá zastávka dostane predpoveď. Súkromné glampingové miesta v zozname nie sú, preto ich hľadajte na stránkach prevádzkovateľov.",
+            "Pobyty v <a data-guide=\"holiday-parks-new-zealand-guide\">karavanových parkoch</a> sa dajú rezervovať cez ponuku, kým rezervácie DOC zostávajú na vlastných stránkach DOC. Na stiahnutie zadarmo, s nákupmi v aplikácii."
+          ],
+          "tips": [
+            "Ukladajte karavanové parky a chaty",
+            "Predpoveď pri každej zastávke",
+            "Súkromný glamping sa rezervuje u prevádzkovateľa"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Čo je glamping na Novom Zélande?",
+          "Kempovanie s pripraveným pohodlím, napríklad safari stan s posteľou, jurta alebo kupola, zvyčajne na súkromnom pozemku. Skontrolujte, čo je v cene, pretože sa to veľmi líši."
+        ],
+        [
+          "Kedy rezervovať glamping na Novom Zélande?",
+          "Mesiace vopred na obdobie od decembra do februára a školské prázdniny. V zime a v prechodných obdobiach je to jednoduchšie, hoci niektoré miesta zatvárajú."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: jedinečné miesta na ubytovanie"
+        },
+        {
+          "label": "DOC: miesta na ubytovanie"
+        },
+        {
+          "label": "MBIE: dátumy školských a štátnych sviatkov"
+        }
+      ],
+      "priceTable": null
+    },
+    "can-i-camp-anywhere-on-doc-land": {
+      "title": "Môžem kempovať kdekoľvek na pozemkoch DOC na NZ? (Pravidlá 2026)",
+      "description": "Nie: rezervácie DOC zakazujú kempovanie mimo kempov, iné chránené pozemky ho povoľujú, pokiaľ oznam nehovorí inak, a Great Walks vyžadujú rezervované miesta. Pravidlá 2026.",
+      "region": "Nový Zéland",
+      "imageAlt": "Otvorená trávnatá plocha kempu DOC so stolom na piknik medzi pôvodnými stromami v Siberia Flat v národnom parku Kahurangi",
+      "intro": "Nie. Kempovanie na pozemkoch, ktoré spravuje Department of Conservation, je na niektorých miestach povolené a na iných zakázané a o tom rozhoduje druh pozemku, na ktorom sa nachádzate, a to, či tam DOC kempovanie obmedzil. Podľa Freedom Camping Act 2011 je verejný chránený pozemok otvorený pre freedom camping, pokiaľ ho DOC oznamom nezakázal alebo neobmedzil, ale krajinné a oddychové rezervácie spravované DOC sú mimo určených kempov pre kempovanie uzavreté a národné parky a Great Walks majú vlastné obmedzenia. DOC zverejňuje zakázané a obmedzené miesta po jednotlivých okresoch, takže práve tento zoznam treba skontrolovať.",
+      "sections": [
+        {
+          "heading": "Tri druhy pozemkov DOC, tri rôzne odpovede",
+          "body": [
+            "Zákon definuje chránený pozemok ako pozemok, ktorý DOC kontroluje alebo spravuje podľa Conservation Act 1987, National Parks Act 1980, Reserves Act 1977 alebo Wildlife Act 1953. Na takom pozemku paragraf 15 hovorí, že <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> je povolený, pokiaľ ho oznam DOC podľa paragrafu 17 alebo iný predpis neobmedzuje či nezakazuje. Preto sú chránené parky a bežné chránené oblasti najotvorenejšou kategóriou, pričom výnimky vymedzujú oznamy.",
+            "Rezervácie fungujú opačne. Podľa paragrafu 44 zákona Reserves Act nesmie nikto bez súhlasu ministra používať rezerváciu ani vozidlo či stan na nej na osobné ubytovanie, okrem vyhradených kempov a niekoľkých ďalších vymedzených prípadov. V krajinných alebo oddychových rezerváciách spravovaných DOC nemôžete robiť freedom camping, pokiaľ DOC neposkytol či neschválil určený kemp, a národné parky pridávajú vlastné pravidlá pre jednotlivé trasy."
+          ],
+          "tips": [
+            "Chránené oblasti: otvorené, pokiaľ oznam nehovorí inak",
+            "Rezervácie: zatvorené, pokiaľ nie je poskytnutý kemp",
+            "Národné parky: prečítajte si stránku parku alebo trasy"
+          ]
+        },
+        {
+          "heading": "Zoznam oznamov DOC po okresoch",
+          "body": [
+            "DOC vedie stránku chránených oblastí, kde je <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> zakázaný alebo obmedzený, zoskupenú podľa okresov od Northlandu po Southland a Fiordland, s interaktívnou mapou a oznamom v PDF pre každé miesto. Oznamy sú právnym nástrojom, takže miesto môže byť úplne zakázané, obmedzené na certifikované sebestačné vozidlá, obmedzené počtom nocí v kalendárnom mesiaci alebo obmedzené na určité hodiny či sezóny. Stránka dodáva, že nie každá obmedzená oblasť má značku.",
+            "Príklady ukazujú rozsah. V Northlande sú Cape Reinga a Tapotupotu v rezervácii Te Paki zakázané, zatiaľ čo Bland Bay je otvorená len pre sebestačné vozidlá. V strede Severného ostrova sú Whakapapa Village a väčšina parkovísk v národnom parku Tongariro zakázané, ale Pillars of Hercules a Umukarikari v Kaimanawa Forest Park povoľujú certifikované vozidlá na štyri noci v kalendárnom mesiaci. Parkoviská pri ceste k ľadovcu Franz Josef na West Coast a parkoviská Kepler Track a The Divide vo Fiordland sú zakázané.",
+            "Niektoré záznamy pridávajú hodiny a sezóny. Tukino Mountain Road v národnom parku Tongariro povoľuje certifikované vozidlá len od 5 pm do 9 am od 1. novembra do 30. apríla a Owaka Heads v Catlins uplatňuje podobné nočné okno od 2. októbra do 31. marca. V Canterbury sú Quailburn a Round Bush obmedzené na štyri noci mesačne, ale povoľujú vozidlá, ktoré nie sú sebestačné, a v Otago je Rum Curries v Gibbston Conservation Area obmedzený na stany na dve noci mesačne."
+          ],
+          "tips": [
+            "Vyhľadajte presné miesto, nie okres",
+            "Štyri noci mesačne je bežný limit",
+            "Niektoré oznamy povoľujú necertifikované vozidlá"
+          ]
+        },
+        {
+          "heading": "Ďaleko od cesty: národné parky a divočina",
+          "body": [
+            "Definícia <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> v zákone siaha len do vzdialenosti 200 metrov od cesty, oblasti prístupnej vozidlami, trasy Great Walks alebo mora. Ďalej do vnútra pravidlá určuje park alebo trasa a líšia sa. Na Round the Mountain Track v národnom parku Tongariro DOC uvádza, že kempovanie mimo určených kempov je povolené okrem vzdialenosti do 500 m od Tongariro Northern Circuit a do 200 m od samotnej Round the Mountain Track.",
+            "Na trasách Rees a Dart v národnom parku Mount Aspiring brožúra DOC uvádza, že kempovanie je povolené všade okrem krehkých alpínskych a subalpínskych oblastí medzi Shelter Rock Hut a Dart Hut a na súkromnej Rees Valley Station a že Cascade Saddle Route je obmedzená na toaletnú plochu pri Cascade Creek. V národnom parku <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> informačný list k výletu uvádza, že kempovanie je povolené len v určených kempoch a hamaky nie sú dovolené.",
+            "Niekoľko pravidiel platí takmer všade. Stránka DOC o freedom camping uvádza základy: dodržiavajte značky s obmedzením kempovania, nakladajte so svojím odpadom vrátane ľudského, nerozkladajte oheň, nepoškodzujte rastliny ani zvieratá a buďte ohľaduplní. Jeho sprievodca minimálnym vplyvom na prírodu vás žiada, aby ste používali poskytnutú toaletu a keď nie je žiadna, dodržiavali pokyn poo-in-a-loo."
+          ],
+          "tips": [
+            "Za 200 m platia vlastné pravidlá parku",
+            "Hamaky sú v kempoch Abel Tasman zakázané",
+            "Nikdy nepredpokladajte, že pokojná rovinka je povolená"
+          ]
+        },
+        {
+          "heading": "Great Walks: miesto, kde spíte, je súčasťou rezervácie",
+          "body": [
+            "DOC uvádza, že <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> nie je pri trasách Great Walks vo všeobecnosti povolený a samotné Great Walks sú postavené na rezervovaných chatách a kempoch. Na Milford Track nie je kempovanie povolené vôbec. Okrem Milford a Paparoa ponúka každá Great Walk kempovanie pri chatách alebo vo vyhradených oblastiach a DOC opisuje takmer 60 kempov na Great Walks s toaletami, umývadlami na ruky a zásobovaním vodou.",
+            "Pri Lake Waikaremoana stránka DOC uvádza, že kempovanie na trase je povolené len v určených kempoch, a na <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> Coast Track musí byť každá chata a kemp rezervovaný po celý rok, pričom ľudia bez platnej rezervácie alebo na nesprávnom mieste platia pokutový poplatok alebo ich požiadajú, aby odišli. Rezervačné podmienky DOC určujú sadzbu pokuty za nerezervované použitie ako bežný poplatok plus celý poplatok za dospelého a sľubujú, že bez rezervácie nie je zaručený žiadny prístup, okrem núdzového prístrešia v nepriaznivých podmienkach."
+          ],
+          "tips": [
+            "Na Milford Track nie je kempovanie povolené",
+            "Rezervujte presný kemp uvedený na vstupenke",
+            "Nerezervované použitie sa účtuje sadzbou pokuty"
+          ]
+        },
+        {
+          "heading": "Kategórie kempov a koľko stoja",
+          "body": [
+            "<a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a> patria do kategórií s vybavením, štandardné, základné, divočina a Great Walk. Základné kempy sú bezplatné a majú veľmi obmedzené zariadenia, štandardné účtujú dospelým 10 $ až 20 $ za noc a miesta s vybavením bez elektriky stoja 25 $. Poplatky za deti sú zhruba polovičné, dojčatá sú zadarmo a ceny v divočine a na Great Walk sa líšia, preto je smerodajná stránka každého kempu.",
+            "DOC účtuje dvoch dospelých, ak rezervujete alebo obsadíte kemp, ktorý nehodláte použiť, napríklad ak na ňom necháte prázdny stan alebo vozidlo. Stránka každého kempu uvádza, či sa dá miesto rezervovať, alebo ide o princíp kto prv príde, a podmienky DOC uplatňujú sadzbu pokuty na nerezervované použitie rezervovateľného miesta. Kempy sú jednoduchou odpoveďou tam, kde oznamy okresu vylučujú kempovanie pri ceste."
+          ],
+          "tips": [
+            "Základné kempy nestoja nič",
+            "Štandardné kempy účtujú za dospelého",
+            "Prázdny stan sa účtuje ako dvaja dospelí"
+          ]
+        },
+        {
+          "heading": "Pokuty, oznamy a pravidlá, ktoré bolia",
+          "body": [
+            "Kempovanie tam, kde to oznam DOC zakazuje alebo obmedzuje, je priestupok za 400 $, rovnako ako príprava na kempovanie postavením stanu alebo zaparkovaním na tento účel. Nepredloženie preukazu warrant na pozemku obmedzenom na sebestačné vozidlá stojí 200 $, odmietnutie odísť na výzvu kontrolóra 600 $ a poškodenie pozemku, rastlín či stavieb alebo odloženie odpadu mimo koša 800 $. Tieto sumy sú v nariadeniach <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> (Penalties for Infringement Offences) Regulations 2023 a úradníci DOC môžu v prípadoch, ktoré zákon stanovuje, vozidlo aj zhabať a odtiahnuť.",
+            "Popri pokutách platia ďalšie pravidlá DOC. Na chránenom pozemku nemôžete kempovať ani navštíviť chatu s domácim zvieraťom, pokiaľ to DOC písomne neschválil, a to ani keď zviera zostane vo vozidle, a psy nesmú v národnom parku kempovať s vami nikdy. Na lietanie s dronom nad verejným chráneným pozemkom je potrebné povolenie od DOC a pravidlá pre oheň v kempoch sú prísne, preto si pred zapálením čohokoľvek skontrolujte rady o <a data-guide=\"campfire-rules-new-zealand\">táboráku</a> a období požiarov."
+          ],
+          "tips": [
+            "400 $ za kempovanie v rozpore s oznamom",
+            "200 $ za chýbajúci preukaz warrant tam, kde sa vyžaduje",
+            "Domáce zvieratá potrebujú písomný súhlas DOC"
+          ]
+        },
+        {
+          "heading": "Autá, dodávky a stany na pozemkoch DOC",
+          "body": [
+            "Vozidlo, v ktorom ste, je podľa <a data-guide=\"freedom-camping-rules-new-zealand\">pravidiel freedom camping</a> DOC menej dôležité než na pozemku obce. Paragraf 15 dovoľuje každému kempujúcemu zostať na otvorenom chránenom pozemku, certifikovaný ako sebestačný alebo nie, pokiaľ oznam nehovorí len o sebestačných. Tam, kde to oznam hovorí, treba predložiť preukaz warrant a od 7. júna 2026 sa počíta len zelený warrant.",
+            "Stan alebo auto bez <a data-guide=\"self-contained-campervan-green-warrant\">zeleného warrantu</a> je preto použiteľné v otvorenej chránenej oblasti, v kempe DOC alebo na niekoľkých obmedzených miestach, ktoré povoľujú necertifikované vozidlá. Nie je použiteľné v krajinnej alebo oddychovej rezervácii, na uvedenom zakázanom parkovisku ani na Great Walks. Ak si nie ste istí, či je kus pozemku rezerváciou, chránenou oblasťou alebo národným parkom, uvádza to stránka DOC o danom mieste."
+          ],
+          "tips": [
+            "Zelený warrant len na pozemkoch pre sebestačné vozidlá",
+            "Stany a autá fungujú na otvorenom chránenom pozemku",
+            "Rezervácie a uvedené parkoviská nie"
+          ]
+        },
+        {
+          "heading": "Kontrola na mieste",
+          "body": [
+            "Hľadajte pri vstupe značky obmedzenia kempovania: jedna znamená, že nočné kempovanie je do 200 m zakázané, druhá, že kempovať smú len <a data-guide=\"self-contained-campervan-green-warrant\">certifikované sebestačné</a> vozidlá. Potom skontrolujte zoznam zakázaných a obmedzených miest DOC a stránku samotného miesta kvôli upozorneniam, pretože uzávery po búrkach sa menia rýchlejšie než vytlačené informácie.",
+            "KiwiCamping je aplikácia pre iPhone s údajmi o <a data-guide=\"doc-campsites-new-zealand-guide\">kempoch DOC</a> a chatách, oznamami DOC o freedom camping po okresoch, filtrami, uloženými miestami a výletmi, takže si pred príjazdom môžete vyhľadať oznam pre danú oblasť. Podrobnosti o mieste, uložené miesta a sprievodcovia fungujú bez signálu; dlaždice mapy, trasovanie, počasie a fotky ho potrebujú. Rozhoduje stránka DOC a značka na mieste, preto berte aplikáciu ako pripomienku skontrolovať."
+          ],
+          "tips": [
+            "Skontrolujte zoznam DOC a upozornenia miesta",
+            "Prečítajte si značku pri vstupe",
+            "Uložte si oznam, kým máte signál"
+          ]
+        },
+        {
+          "heading": "Stručne",
+          "body": [
+            "Na pozemkoch DOC nemôžete kempovať kdekoľvek. Otvorené chránené oblasti to povoľujú, kým oznam nehovorí inak, rezervácie len v určených kempoch a Great Walks vyžadujú rezervované chaty alebo kempy.",
+            "Skontrolujte oznam okresu, stránku parku alebo trasy a značku pri vstupe a majte v zálohe <a data-guide=\"doc-campsites-new-zealand-guide\">kemp DOC</a>, ak by sa prvá možnosť ukázala ako obmedzená."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Môžete robiť freedom camping na pozemkoch DOC?",
+          "Áno, na veľkej časti verejných chránených pozemkov, pokiaľ to DOC nezakázal alebo neobmedzil. DOC zverejňuje zoznam zakázaných a obmedzených chránených oblastí po okresoch a jeho krajinné a oddychové rezervácie sú pre freedom camping mimo kempov uzavreté. Dodržiavajte značky, nakladajte so svojím odpadom, nerozkladajte oheň a nepoškodzujte rastliny ani zvieratá."
+        ],
+        [
+          "Môžete kempovať v divočine DOC mimo chát a kempov?",
+          "Na niektorých miestach a rozhodujú vlastné pravidlá parku. Do 200 m od cesty alebo mora ide o freedom camping, ktorý upravuje zákon, oznamy DOC a miestne predpisy. Ďalej v divočine platia pravidlá parku, napríklad 500 m pás okolo Northern Circuit v Tongariro alebo len určené kempy v Abel Tasman."
+        ],
+        [
+          "Môžem na pozemku DOC kempovať v aute alebo dodávke, ktoré nie je sebestačné?",
+          "Často áno, na otvorenom chránenom pozemku, pretože oznamy DOC obmedzujú niektoré miesta na sebestačné vozidlá, ale zákon nevyžaduje certifikáciu na všetkých pozemkoch DOC. Nemôžete kempovať v krajinných alebo oddychových rezerváciách mimo určených kempov, na uvedených zakázaných parkoviskách ani na trasách Great Walk. Niektoré miesta DOC, napríklad Quailburn a Round Bush v Canterbury, výslovne povoľujú necertifikované vozidlá na štyri noci mesačne."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Freedom camping na verejných chránených pozemkoch"
+        },
+        {
+          "label": "DOC: Chránené oblasti, kde je freedom camping zakázaný alebo obmedzený"
+        },
+        {
+          "label": "DOC: Kategórie kempov, zariadenia a poplatky"
+        },
+        {
+          "label": "DOC: Ako byť kempujúcim s malým dopadom"
+        },
+        {
+          "label": "DOC: Domáce zvieratá na chránených pozemkoch"
+        },
+        {
+          "label": "DOC: Round the Mountain Track, národný park Tongariro"
+        },
+        {
+          "label": "DOC: Brožúra o trasách Rees a Dart"
+        },
+        {
+          "label": "DOC: Informačný list k Abel Tasman Coast Track"
+        },
+        {
+          "label": "DOC: Milford Track"
+        },
+        {
+          "label": "DOC: Lake Waikaremoana Great Walk"
+        },
+        {
+          "label": "DOC: Podmienky pre chaty, kempy a Great Walks"
+        },
+        {
+          "label": "Freedom Camping Act 2011"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "Reserves Act 1977, section 44"
         }
       ],
       "priceTable": null

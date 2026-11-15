@@ -464,20 +464,20 @@
       "openTool": "Abrir la calculadora",
       "ctaEyebrow": "Planifícalo en KiwiCamping",
       "ctaTitle": "Busca las paradas y luego haz las cuentas.",
-      "ctaText": "KiwiCamping se descarga gratis para iPhone. Las fichas de los holiday parks, alojamientos y tours que se pueden reservar son de acceso gratuito en la app. Los campings del DOC, los refugios, los puntos de vaciado y las guías se abren con el Pase.",
+      "ctaText": "Todos los lugares para acampar y alojarte en un mismo mapa, con filtros, fotos, tarifas y un planificador de viajes para toda la ruta.",
       "ctaButton": "Descargar la app",
       "enterValidValues": "Introduce valores válidos",
       "enterValidAmount": "Introduce un importe válido"
     },
     "index": {
-      "metaTitle": "Calculadoras para viajar por Nueva Zelanda: combustible, horas y camping",
-      "metaDescription": "Calculadoras gratis para tu road trip por Nueva Zelanda: combustible, horas al volante, coste del camping, conversor de NZD y depósitos de agua de la camper.",
+      "metaTitle": "Calculadoras de road trip por Nueva Zelanda: combustible, distancia y tiempo",
+      "metaDescription": "Calculadoras gratis para un road trip por Nueva Zelanda: combustible con los últimos precios, tiempos y distancias entre ciudades, coste del camping, NZD y depósitos de agua.",
       "toolsTitle": "Una calculadora para cada pregunta",
       "toolsText": "Cada calculadora tiene su propia página con la fórmula, un ejemplo resuelto con cifras de Nueva Zelanda, los supuestos que hay detrás y respuestas a las preguntas más habituales."
     },
     "fuel": {
-      "metaTitle": "Calculadora de combustible en Nueva Zelanda para tu camper",
-      "metaDescription": "Calcula litros y coste de combustible en Nueva Zelanda con distancia, l/100 km y precio por litro. Incluye fórmula, ejemplo de 1.000 km y la referencia del MBIE.",
+      "metaTitle": "Calculadora de combustible en Nueva Zelanda: gasolina, diésel y RUC (2026)",
+      "metaDescription": "Calcula lo que cuesta la gasolina o el diésel de un road trip por Nueva Zelanda con los últimos precios del MBIE para 91, 95 y diésel, con los road user charges del diésel y un ejemplo de camper de 1.000 km.",
       "eyebrow": "Calculadora de combustible",
       "cardEyebrow": "Calculadora de combustible",
       "h1": "Calculadora de combustible para un road trip por Nueva Zelanda",
@@ -526,8 +526,8 @@
       "dieselRuc": "{cost} más {ruc} de RUC"
     },
     "drive": {
-      "metaTitle": "Calculadora de tiempo de conducción en Nueva Zelanda: horas reales",
-      "metaDescription": "Calcula cuánto dura de verdad un día al volante en Nueva Zelanda según distancia, tipo de carretera y paradas, con fórmula, ejemplo y velocidades usadas.",
+      "metaTitle": "Calculadora de tiempo de conducción en Nueva Zelanda: duración entre ciudades",
+      "metaDescription": "Cuánto se tarda en conducir por Nueva Zelanda: de Auckland a Wellington, de 8 a 8,5 horas; de Christchurch a Queenstown, unas 6. Rutas principales, distancias y una calculadora para cualquier día.",
       "eyebrow": "Calculadora de tiempo de conducción",
       "cardEyebrow": "Estimador de la jornada al volante",
       "h1": "Calculadora de tiempo de conducción para las carreteras de Nueva Zelanda",
@@ -1035,10 +1035,10 @@
     },
     "east-cape-road-trip": {
       "title": "Road trip por East Cape: ruta de Gisborne a Ōpōtiki con campings",
-      "description": "Recorre East Cape de Gisborne a Ōpōtiki: pueblos de surf, bahías de pōhutukawa, carreteras remotas con pocos servicios y dónde acampar por el camino.",
+      "description": "El road trip por el East Cape en la State Highway 35, de Gisborne a Ōpōtiki, en tres días o más: el muelle (wharf) de Tolaga Bay, el faro, paradas de combustible y dónde acampar.",
       "region": "East Cape",
       "imageAlt": "Carretera remota de East Cape junto al Pacífico",
-      "intro": "La State Highway 35 es una de las carreteras más gratificantes del país para ir sin prisa. Aquí importan más el combustible, los horarios de apertura y los daños de los temporales, así que el itinerario debe seguir la luz del día y las condiciones locales, y no una hora de llegada fija.",
+      "intro": "El road trip por el East Cape sigue la State Highway 35 alrededor del cabo, de Gisborne a Ōpōtiki, y necesita tres días o más, con noches cerca de Tolaga Bay, Te Araroa y Waihau Bay. Es una de las carreteras tranquilas más gratificantes del país, pero aquí importan más el combustible, los horarios y los daños de las tormentas, así que llena el depósito en Gisborne y en Ōpōtiki y deja que la luz del día y las condiciones locales marquen el itinerario, en lugar de una hora de llegada fija.",
       "sections": [
         {
           "heading": "De Gisborne a Tolaga Bay",
@@ -4977,10 +4977,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "Refugios del DOC en Nueva Zelanda por región: tipos, tarifas, tickets",
-      "description": "Dónde están los refugios del DOC por región, cuánto cuestan los refugios con servicios, estándar y básicos en 2026/27 y cómo funcionan tickets, Hut Pass y reservas.",
+      "description": "927 refugios del DOC por región con las tarifas de 2026/27 y las tres formas de pagar una noche: reservar en bookings.doc.govt.nz, tickets de refugio o el Backcountry Hut Pass.",
       "region": "Naturaleza remota de Nueva Zelanda",
       "imageAlt": "Refugio en las montañas de Nueva Zelanda",
-      "intro": "El DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) cuida más de 950 refugios, y los datos del DOC en KiwiCamping recogen 927 de ellos, desde refugios con servicios (serviced huts) con calefacción y colchones hasta casetas de dos literas (bivvies). La mayoría están en la Isla Sur: solo Canterbury tiene 180 y la West Coast 140, mientras que los grupos más grandes de la Isla Norte están en las cordilleras Ruahine, Kaweka y Tararua. En esos datos, revisados el 24 de agosto de 2026, solo 127 de los 927 se podían reservar, y aunque el DOC ya ha pasado a reserva online todos los refugios con servicios, la mayoría sigue funcionando por orden de llegada: gratis si es básico, de pago con tickets de refugio (hut tickets) o con un Backcountry Hut Pass si es estándar.",
+      "intro": "El DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda) cuida más de 950 refugios, y los datos del DOC en KiwiCamping recogen 927 de ellos, desde refugios con servicios (serviced huts) con calefacción y colchones hasta refugios mínimos de dos literas (bivvies). La mayoría están en la South Island (Isla Sur): solo Canterbury tiene 180 y la West Coast 140, mientras que los grupos más grandes de la North Island están en las cordilleras Ruahine, Kaweka y Tararua. En esos datos, revisados el 24 de agosto de 2026, solo 127 de los 927 se podían reservar, y aunque el DOC ya ha pasado todos los refugios con servicios a la reserva por internet, la mayoría sigue funcionando por orden de llegada: gratis si son básicos, de pago con tickets de refugio o con un Backcountry Hut Pass si son estándar. Así que hay tres formas de pagar una noche: reservar los refugios con servicios y los de las Great Walks (las grandes rutas de senderismo de varios días del DOC) en bookings.doc.govt.nz, comprar Backcountry Hut Tickets, disponibles por internet desde el 1 de noviembre de 2026, para un refugio estándar, o llevar un Hut Pass que cubre la mayoría de los refugios con servicios y estándar durante 12 meses.",
       "sections": [
         {
           "heading": "Categorías de refugio y tarifas de 2026/27",
@@ -6610,10 +6610,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Conducir una camper en Nueva Zelanda: permiso, velocidad y tamaño (2026)",
-      "description": "Conducir una camper en Nueva Zelanda: qué cubre un permiso de coche, límites de velocidad, viento en carreteras expuestas, medidas del ferri y los errores de los visitantes.",
+      "description": "Un permiso de conducir de coche completo sirve para campers de hasta 6.000 kg en Nueva Zelanda. Límites de velocidad, dejar pasar a otros vehículos, viento, altura y longitud en los ferris.",
       "region": "Carreteras de Nueva Zelanda",
       "imageAlt": "Camper grande en una carretera estrecha de Nueva Zelanda",
-      "intro": "Una camper puede conducirse legalmente con el permiso de conducir de coche (Class 1) y, aun así, al volante se siente completamente distinta. En la entrega del vehículo tienen que quedar claros la altura, la anchura, la longitud, el peso cargado y todas las carreteras que excluye el contrato de alquiler.",
+      "intro": "El permiso de conducir de coche (Class 1), o un permiso de coche extranjero completo con el que puedas conducir allí, cubre campers y autocaravanas de hasta 6.000 kg de peso total con carga. Por debajo de 3.500 kg se aplica el límite de velocidad normal fuera de las zonas urbanas; los vehículos más pesados tienen un límite más bajo. Una camper puede ser legal con el permiso de coche y aun así sentirse completamente distinta a un coche, así que en la entrega del vehículo deben quedar claros la altura, la anchura, la longitud, el peso con carga y todas las carreteras que excluye el contrato de alquiler.",
       "sections": [
         {
           "heading": "Mide antes de arrancar",
@@ -9931,11 +9931,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Dónde acampar en Nueva Zelanda: guía completa de lugares",
-      "description": "Campings del DOC, terrenos de conservación, terrenos municipales, lugares gestionados por iwi y holiday parks privados: cada uno tiene normas y costes distintos.",
+      "title": "Dónde acampar en Nueva Zelanda: campings por tipo y región",
+      "description": "Dónde acampar en Nueva Zelanda: campings del DOC, holiday parks, acampada libre en terrenos municipales y terrenos comunitarios, lo que cuesta y permite cada uno, isla por isla.",
       "region": "Nueva Zelanda",
       "imageAlt": "Camper aparcada en un camping de la costa de Nueva Zelanda",
-      "intro": "La red de camping de Nueva Zelanda se reparte entre cuatro tipos de terreno bastante distintos, y con cada uno cambian las normas, el precio y el sistema de reserva. Saber ante cuál estás te dice casi todo lo que necesitas: si puedes llegar sin reserva, si hace falta certificación, a quién preguntar cuando algo no está claro y cuánto deberías esperar pagar.",
+      "intro": "En Nueva Zelanda puedes acampar en campings del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos del país) en terrenos de conservación, en holiday parks (camping privado con cabañas y servicios), en sitios municipales de acampada libre (freedom camping) y en campings de iwi (las tribus maoríes), comunitarios y de recintos feriales (showgrounds). Los campings básicos del DOC son gratuitos y el resto cobra una tarifa, los holiday parks tienen electricidad y duchas de agua caliente, y los terrenos municipales suelen permitir la acampada libre en vehículos self-contained (autónomos: váter fijo, depósitos de agua limpia y de aguas grises) certificados durante una o dos noches donde lo permita la ordenanza municipal. Las normas, el precio y el sistema de reserva cambian con cada tipo de terreno, así que saber ante cuál estás te dice casi todo lo que necesitas: si puedes llegar sin reserva, si hace falta certificación, a quién preguntar y cuánto deberías esperar pagar.",
       "sections": [
         {
           "heading": "Los cuatro tipos de terreno",
@@ -23190,7 +23190,7 @@
           "heading": "El río, DOC y los parques de vacaciones",
           "body": [
             "El río Whanganui es donde de verdad se hace el camping en esta zona. La Whanganui Journey Great Walk, una travesía en canoa de tres a cinco días, reserva sus refugios y campings a través de DOC, y la guía de camping en la Whanganui Journey cubre las fechas y las tarifas. Los datos de DOC de KiwiCamping (11 de agosto de 2026) enumeran 20 campings en Manawatū-Whanganui, solo 2 son gratuitos y solo 3 tienen acceso para autocaravanas, con tarifas nocturnas para adultos desde 10 hasta 19 $, y Ohinepane es el más grande con capacidad para 36.",
-            "En el pueblo, los <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> y campings son la respuesta fiable para una tienda, una furgoneta no certificada o una llegada tardía, con parcelas con suministros, cocinas y cabañas. Rara vez están llenos fuera de las vacaciones de verano, pero Whanganui está en la carretera entre Taranaki y la capital, así que el viernes de un fin de semana largo es otra cuestión. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva."
+            "En el pueblo, los <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> y los campings son la respuesta fiable para una tienda, una furgoneta sin certificar o una llegada tarde, con parcelas con electricidad, cocinas y cabañas. Rara vez están llenos fuera de las vacaciones de verano, pero Whanganui está en la carretera entre Taranaki y la capital, así que el viernes de un fin de semana largo es otra cosa. La guía de holiday parks explica cómo funciona la reserva."
           ],
           "tips": [
             "20 campings DOC en la región",
@@ -23202,7 +23202,7 @@
           "heading": "Usando KiwiCamping por Whanganui",
           "body": [
             "KiwiCamping muestra los campings DOC y las cabañas, los parques de vacaciones con sus instalaciones y puntos de recogida, con filtros para el acceso de autocaravanas. No incluye los sitios de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento, así que usa la página del ayuntamiento para Castlecliff y guarda un parque de vacaciones para cada noche por si las bahías están llenas.",
-            "Añade Whanganui a un viaje con su fecha y lee la distancia al siguiente punto, ya sea el trayecto hacia el sur a Wellington o hacia el norte hacia Taupō. Los lugares guardados y sus detalles se quedan en el móvil, mientras que los mosaicos del mapa, el enrutamiento, el tiempo y las fotos necesitan señal, algo que importa en la carretera por el río. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade Whanganui a un viaje con su fecha y mira la distancia hasta la siguiente parada, ya sea el trayecto al sur hacia Wellington o al norte hacia Taupō. Los lugares guardados y sus detalles se quedan en el teléfono, mientras que el mapa, las rutas, el tiempo y las fotos necesitan cobertura, algo que importa en la carretera del río. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "La página del ayuntamiento decide Castlecliff",
@@ -23463,7 +23463,7 @@
           "heading": "Las normas de Auckland que se aplican aquí",
           "body": [
             "La ordenanza de <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> de Auckland se aplica en toda la región, incluyendo Rodney y la costa de Hibiscus. Acampar en carreteras y aparcamientos municipales solo está permitido en vehículos autosuficientes certificados, por hasta dos noches en el mismo lugar, y tienes que irte antes de las 9 de la mañana el día que te vayas. La guía de freedom camping en Auckland lee la ordenanza completa, con sus zonas prohibidas y restringidas, así que esta página se centra en el extremo de Matakana.",
-            "Una tienda de campaña o un vehículo sin certificado no tienen cabida en terrenos del ayuntamiento. Desde el 7 de junio de 2026, el permiso tiene que ser el verde, como explica la guía del permiso para autocaravana autónoma. La vigilancia se extiende durante todo el verano y se notifica al propietario registrado, que en el caso de un alquiler es la empresa de alquiler."
+            "Una tienda o un vehículo sin certificado no tiene cabida en los terrenos municipales. Desde el 7 de junio de 2026 solo cuenta la <a data-guide=\"self-contained-campervan-green-warrant\">tarjeta verde (green warrant)</a>, y la guía de la certificación self-contained de las campers lo explica. Los controles se mantienen durante todo el verano y la multa llega al titular registrado, que en un alquiler es la empresa de alquiler."
           ],
           "tips": [
             "Ordenanza regional",
@@ -23498,7 +23498,7 @@
         {
           "heading": "Parques de vacaciones y terrenos del DOC",
           "body": [
-            "Warkworth, Snells Beach, Omaha y Leigh tienen <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> o campings para autocaravanas al alcance, con parcelas con suministros y cabañas. Son la opción fiable en Navidad, y el fin de semana de Pascua trae la misma multitud que las playas. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva.",
+            "Warkworth, Snells Beach, Omaha y Leigh tienen cada uno <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> o campings a mano, con parcelas con electricidad y cabañas. Son la opción fiable en Navidad, y el fin de semana de Semana Santa trae las mismas multitudes que las playas. La guía de holiday parks explica cómo funciona la reserva.",
             "El terreno del DOC en la región de Auckland está mayoritariamente en islas. Los datos del DOC de KiwiCamping (11 de agosto de 2026) enumeran 9 campings en Auckland, uno de ellos gratuito y 5 con acceso para autocaravanas, con tarifas nocturnas para adultos que van desde $10 hasta $18, y Home Bay en la Isla Motutapu es el más grande con capacidad para 131 personas. Ninguno está cerca de Matakana por carretera."
           ],
           "tips": [
@@ -23511,7 +23511,7 @@
           "heading": "Usando KiwiCamping por Matakana",
           "body": [
             "KiwiCamping lista los campings DOC y las cabañas, parques de vacaciones con sus instalaciones y puntos de recogida por toda Auckland, con filtros para el acceso de autocaravanas. No incluye los sitios de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento ni las reservas de parques regionales, así que usa las páginas del ayuntamiento para eso.",
-            "Añade la noche en Matakana a tu viaje de Auckland a la Bahía de las Islas y lee la distancia y el tiempo de conducción hasta la siguiente parada, Whangārei, un poco más de una hora. Los lugares guardados se quedan en el móvil, y el mapa, las rutas, el pronóstico y las fotos necesitan conexión, la cual es irregular en las carreteras de la península. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade la noche de Matakana a un viaje de Auckland a Bay of Islands y mira la distancia y el tiempo de conducción hasta la siguiente parada, que es Whangārei, algo más de una hora más allá. Los lugares guardados se quedan en el teléfono, y el mapa, las rutas, la previsión del tiempo y las fotos necesitan conexión, que es irregular en las carreteras de la península. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Reservas de ayuntamientos y parques: usa sus páginas",
@@ -23557,7 +23557,7 @@
           "heading": "Lo que dice la ordenanza de 2025",
           "body": [
             "La ordenanza de <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> del Queenstown Lakes District Council de 2025 entró en vigor el 1 de diciembre de 2025, tras que el Tribunal Superior anulase la ordenanza de 2021 tras un recurso de la Motor Caravan Association. Prohíbe el camping libre en zonas urbanas, incluidos los aparcamientos en la vía, y solo lo permite en vehículos certificados y autónomos en los aparcamientos designados, además de algunas carreteras rurales con condiciones. La mayoría de las reservas del ayuntamiento están cerradas al camping según la Reserves Act.",
-            "En los sitios designados llegas después de las 18:00 y te vas antes de las 08:00, no te quedes más de dos noches en un periodo de 30 días y mantén tu vehículo y tus pertenencias dentro del espacio marcado. Desde el 7 de junio de 2026, el permiso tiene que ser el verde, lo que explica la guía del permiso para la autocaravana autónoma. La página del ayuntamiento y el registro con el código QR en cada sitio son la palabra final, y el ayuntamiento ha planeado una decisión adicional en diciembre de 2026."
+            "En los sitios designados llegas después de las 6 de la tarde y te vas antes de las 8 de la mañana, te quedas como máximo dos noches en cualquier periodo de 30 días y mantienes el vehículo y tus cosas dentro del espacio marcado. Desde el 7 de junio de 2026 la tarjeta tiene que ser la verde; la guía de la certificación self-contained de las campers tiene los detalles. La página del ayuntamiento y el check-in con QR de cada sitio tienen la última palabra, y el ayuntamiento tenía prevista otra decisión en diciembre de 2026."
           ],
           "tips": [
             "Zonas urbanas prohibidas",
@@ -23592,7 +23592,7 @@
         {
           "heading": "Parques de vacaciones y terrenos del DOC",
           "body": [
-            "Arrowtown tiene su propio <a data-guide=\"holiday-parks-new-zealand-guide\">parque de vacaciones</a> junto al río, y Queenstown, Frankton y Lake Hayes tienen varios más, con parcelas con suministros, cabañas y zonas de tiendas. Se llenan desde Navidad hasta Semana Santa, y los colores del otoño en abril traen una segunda oleada, así que reserva antes de llegar. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva.",
+            "Arrowtown tiene su propio <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> junto al río, y Queenstown, Frankton y Lake Hayes tienen varios más, con parcelas con electricidad, cabañas y zonas para tiendas. Se llenan de Navidad a Semana Santa, y los colores del otoño en abril traen una segunda oleada, así que reserva antes de llegar. La guía de holiday parks explica cómo funciona la reserva.",
             "El terreno del DOC alrededor de los lagos es la otra opción gratuita o barata. Los datos del DOC de KiwiCamping (11 de agosto de 2026) enumeran 30 <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> en Otago, 8 de ellos gratuitos y 17 con acceso para autocaravanas, con tarifas nocturnas para adultos desde $5 hasta $42, y Twelve Mile Delta cerca de Queenstown es el más grande con espacio para 100. La guía de Queenstown a Glenorchy cubre la carretera hacia el norte."
           ],
           "tips": [
@@ -23605,7 +23605,7 @@
           "heading": "Usando KiwiCamping por Arrowtown",
           "body": [
             "KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> y cabañas, parques de vacaciones y puntos de basuras por Queenstown y Arrowtown, con filtros para autocaravanas. No tiene los aparcamientos del ayuntamiento, así que usa la página del ayuntamiento para esos y guarda un parque de vacaciones como noche de reserva.",
-            "Añade Arrowtown a un viaje con Queenstown y Glenorchy, y lee los trayectos cortos: unos 20 minutos a Queenstown y una hora a Glenorchy. Los lugares guardados y los detalles se quedan en el móvil, y los mosaicos del mapa, el enrutamiento, el tiempo y las fotos se cargan cuando tienes señal. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade Arrowtown a un viaje con Queenstown y Glenorchy, y mira los tramos cortos: unos 20 minutos hasta Queenstown y una hora hasta Glenorchy. Los lugares guardados y sus detalles se quedan en el teléfono, y el mapa, las rutas, el tiempo y las fotos se cargan cuando hay cobertura. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Aparcamientos municipales: usa la página del ayuntamiento",
@@ -23687,7 +23687,7 @@
           "heading": "Otros sitios y los parques de vacaciones",
           "body": [
             "Los sitios del ayuntamiento cercanos en la lista incluyen Dipton y Balfour, ambos <a data-guide=\"self-contained-campervan-green-warrant\">certificados como autosuficientes</a>, y Mossburn y Athol están en el mismo distrito. Cada uno es una parada de pueblo pequeño con una estancia corta y pocos servicios, útil para pasar una noche en la carretera y nada más.",
-            "Los parques de vacaciones en Te Anau, Gore y Queenstown acogen a todo el mundo, y son la solución cuando los sitios gratuitos están llenos. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva. Los datos del DOC de KiwiCamping (11 de agosto de 2026) enumeran 5 <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> en Southland, con tarifas nocturnas para adultos desde $6 hasta $28 y solo 2 con acceso para autocaravanas, y Mavora Lakes es el más grande con espacio para 60."
+            "Los holiday parks de Te Anau, Gore y Queenstown aceptan a todo el mundo, y son la solución cuando los sitios gratuitos están llenos. La guía de holiday parks explica cómo funciona la reserva. Los datos del DOC de KiwiCamping (11 de agosto de 2026) recogen 5 <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> en Southland, con tarifas nocturnas para adultos de 6 a 28 NZD y solo 2 con acceso para campers, y Mavora Lakes es el más grande, con espacio para 60."
           ],
           "tips": [
             "Dipton y Balfour: solo autosuficientes",
@@ -23699,7 +23699,7 @@
           "heading": "Usando KiwiCamping alrededor de Lumsden",
           "body": [
             "En KiwiCamping puedes ver campings DOC y cabañas, parques de vacaciones y puntos de basuras por todo Southland, con filtros para el acceso en autocaravana que necesites. Las zonas de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento no están en la app, así que usa el mapa del ayuntamiento para Lumsden.",
-            "Añade Lumsden a un viaje como la noche antes de Te Anau o Queenstown, y lee la distancia y el tiempo de conducción entre las paradas. Los lugares guardados se quedan en el móvil, y el mapa, las indicaciones, el tiempo y las fotos esperan a que haya señal, la cual se pierde en las carreteras cercanas a Mavora. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade Lumsden a un viaje como la noche anterior a Te Anau o Queenstown, y mira la distancia y el tiempo de conducción entre las paradas. Los lugares guardados se quedan en el teléfono, y el mapa, las indicaciones, el tiempo y las fotos esperan a que haya cobertura, que se pierde en las carreteras de los alrededores de Mavora. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "El mapa del ayuntamiento decide Lumsden",
@@ -23781,7 +23781,7 @@
           "heading": "Campings y terrenos de DOC",
           "body": [
             "Para una cama reservada, los <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> y campings de autocaravanas en Invercargill, Riverton y Tuatapere aceptan tiendas y autocaravanas, con parcelas con suministro eléctrico y cocinas. La guía de la Ruta Escénica del Sur cubre las paradas entre Dunedin y Queenstown, y la guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva.",
-            "Los datos de KiwiCamping de DOC (11 de agosto de 2026) listan 5 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campings</a> en Southland, con tarifas nocturnas para adultos desde 6 hasta 28 $ y solo 2 con acceso para autocaravanas, y Mavora Lakes es el más grande con capacidad para 60. El Hump Ridge Track comienza cerca de Tuatapere y se reserva por separado a través de su propio fideicomiso."
+            "En Southland, los datos del DOC de KiwiCamping (11 de agosto de 2026) muestran 5 <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, solo 2 con acceso para campers, que cobran a los adultos de 6 a 28 NZD la noche, y Mavora Lakes es el más grande, con espacio para 60. La Hump Ridge Track empieza cerca de Tuatapere y se reserva aparte, a través de su propia fundación (trust)."
           ],
           "tips": [
             "5 campings DOC en Southland",
@@ -23793,7 +23793,7 @@
           "heading": "Usando KiwiCamping en la costa sur",
           "body": [
             "KiwiCamping muestra los campings DOC y las cabañas, los parques de vacaciones y las estaciones de basuras a lo largo de la costa de Southland, con filtros para el acceso de autocaravanas, aunque no las reservas de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento. Usa el mapa del ayuntamiento para Colac Bay y Monkey Island, y guarda un camping para cada noche.",
-            "Pon Colac Bay en un viaje con las piernas a ambos lados, Invercargill a unos 45 minutos al este y Tuatapere a media hora al oeste, y planifica el combustible en Invercargill o Riverton. Los lugares guardados se quedan en el móvil, y el mapa, la ruta, el pronóstico y las fotos esperan a que haya señal, que es irregular después de Orepuki. La app es gratuita para descargar, con compras dentro de la app."
+            "Pon Colac Bay en un viaje con los tramos a ambos lados, Invercargill a unos 45 minutos al este y Tuatapere a media hora al oeste, y planifica el combustible en Invercargill o Riverton. Los lugares guardados se quedan en el teléfono, y el mapa, las rutas, la previsión del tiempo y las fotos esperan a que haya cobertura, que es irregular pasado Orepuki. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "El mapa del ayuntamiento decide las reservas",
@@ -23874,7 +23874,7 @@
         {
           "heading": "Campings, DOC y la carretera costera",
           "body": [
-            "Westport y la costa de Buller tienen <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> y campings, en Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki y Karamea, con parcelas con suministros, zonas de tiendas y cabañas, y son la forma de dormir cerca del mar. La página del ayuntamiento enlaza con su lista de campings. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva.",
+            "Westport y la costa de Buller tienen <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> y campings, en Carters Beach, Westport, Cape Foulwind, Charleston, Punakaiki y Karamea, con parcelas con electricidad, zonas para tiendas y cabañas, y son la forma de dormir cerca del mar. La propia página del ayuntamiento enlaza con su lista de campings. La guía de holiday parks explica cómo funciona la reserva.",
             "Los datos de DOC de KiwiCamping (11 de agosto de 2026) enumeran 14 <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> en la costa oeste, solo 1 es gratuito y 10 tienen acceso para autocaravanas, con tarifas nocturnas para adultos desde 10 hasta 20 $, y el lago Māhinapua es el más grande con capacidad para 100. La Paparoa Track comienza cerca de Punakaiki y Blackball, y sus refugios se reservan a través de DOC."
           ],
           "tips": [
@@ -23887,7 +23887,7 @@
           "heading": "Usando KiwiCamping por Westport",
           "body": [
             "KiwiCamping lista <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> y cabañas, parques de vacaciones y puntos de basuras a lo largo de la costa oeste, con filtros para el acceso de autocaravanas. No incluye las zonas de no acampada de Buller, así que usa la página del ayuntamiento para evitarlas.",
-            "Haz una noche en Westport en un viaje entre Nelson y Greymouth, y lee los tramos, que son de unas 3,5 horas desde Nelson y 2 horas hasta Greymouth, con combustible en Westport. Los lugares guardados se quedan en el móvil, y el mapa, la ruta, el pronóstico y las fotos se cargan cuando hay señal, que es escasa a lo largo del Buller Gorge. La app es gratuita para descargar, con compras dentro de la app."
+            "Coloca una noche en Westport en un viaje entre Nelson y Greymouth, y mira los tramos, que son de unas 3,5 horas desde Nelson y 2 horas más hasta Greymouth, con combustible en Westport. Los lugares guardados se quedan en el teléfono, y el mapa, las rutas, la previsión del tiempo y las fotos se cargan cuando hay cobertura, que escasea a lo largo del Buller Gorge. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "La página del ayuntamiento muestra las zonas sin acampar",
@@ -23969,7 +23969,7 @@
           "heading": "Moteles, parques de vacaciones y reservar con antelación",
           "body": [
             "Haast tiene un número reducido de <a data-guide=\"holiday-parks-new-zealand-guide\">parques de vacaciones</a> y moteles, y la demanda en verano supera fácilmente su oferta, ya que el Paso de Haast es el único enlace por carretera entre la Costa Oeste y Otago. Reserva antes de salir de Wānaka o Fox, ya que llegar tarde sin reserva puede significar un viaje de 120 km hasta el siguiente alojamiento.",
-            "Jackson Bay, a 50 km por la carretera costera, tiene su propio camping y una tienda de pescado y patatas al final de la carretera, y al norte, el lago Moeraki tiene un alojamiento y un <a data-guide=\"doc-campsites-new-zealand-guide\">camping DOC</a>. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva."
+            "Jackson Bay, a 50 km por la carretera de la costa, tiene su propio camping y una tienda de fish and chips al final de la carretera, y Lake Moeraki, al norte, tiene un lodge y un <a data-guide=\"doc-campsites-new-zealand-guide\">camping del DOC</a>. La guía de holiday parks explica cómo funciona la reserva."
           ],
           "tips": [
             "Reserva antes de salir de Wānaka o Fox",
@@ -23981,7 +23981,7 @@
           "heading": "Usando KiwiCamping por Haast",
           "body": [
             "KiwiCamping muestra campings DOC y cabañas, parques de vacaciones y puntos de basuras por South Westland, con filtros para el acceso de autocaravanas. No tiene los espacios de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento, así que usa la página del ayuntamiento para esos.",
-            "Pon Haast en un viaje entre Wānaka y los glaciares, y lee las distancias, ya que cada trayecto dura más de dos horas. Los lugares guardados y sus detalles se quedan en el móvil, y el mapa, las rutas, el pronóstico y las fotos necesitan señal, lo cual es raro en tramos largos por aquí. La app es gratuita para descargar, con compras dentro de la app."
+            "Pon Haast en un viaje entre Wānaka y los glaciares, y mira la longitud de los tramos, ya que cada lado supera las dos horas. Los lugares guardados y sus detalles se quedan en el teléfono, y el mapa, las rutas, la previsión del tiempo y las fotos necesitan cobertura, que aquí falta en tramos largos. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "La página del Consejo decide los sitios",
@@ -24093,7 +24093,7 @@
           "heading": "Abel Tasman, Kaiteriteri y los parques de vacaciones",
           "body": [
             "Kaiteriteri, Marahau y Mapua no tienen <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a>, y los campings del Parque Nacional Abel Tasman son de DOC, reservados a través de su sistema todo el año, como explica la guía de los campings del sendero costero Abel Tasman. En verano, los parques de vacaciones de Kaiteriteri y Marahau y los campings para autocaravanas en Motueka son la opción práctica, y se agotan en Navidad.",
-            "Los datos de DOC de KiwiCamping (11 de agosto de 2026) listan 37 <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> en Nelson Tasman, solo 2 son gratuitos y 8 tienen acceso para autocaravanas, con tarifas nocturnas para adultos desde $10 hasta $31, y Tōtaranui es el más grande con espacio para 269. La guía de parques de vacaciones en Nueva Zelanda explica cómo funciona la reserva."
+            "Los datos del DOC de KiwiCamping (11 de agosto de 2026) recogen 37 <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> en Nelson Tasman, solo 2 de ellos gratuitos y 8 con acceso para campers, con tarifas nocturnas para adultos de 10 a 31 NZD, y Tōtaranui es el más grande, con espacio para 269. La guía de holiday parks explica cómo funciona la reserva."
           ],
           "tips": [
             "Campings de Abel Tasman reserva todo el año",
@@ -24105,7 +24105,7 @@
           "heading": "Usando KiwiCamping por Motueka",
           "body": [
             "En KiwiCamping encontrarás <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> y cabañas, parques de vacaciones y puntos de basuras por Motueka y Abel Tasman, con filtros para el acceso de autocaravanas. Los sitios del ayuntamiento no están en la app, así que usa la página del ayuntamiento para esos y guarda un parque de vacaciones como respaldo.",
-            "Añade Motueka a un viaje desde Nelson, a 45 minutos al este, y lee el trayecto a Golden Bay sobre Takaka Hill. Los lugares guardados se quedan en el móvil, y el mapa, el enrutamiento, el tiempo y las fotos necesitan señal, la cual se pierde en la colina. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade Motueka a un viaje desde Nelson, a 45 minutos al este, y mira el tramo hasta Golden Bay por el Takaka Hill. Los lugares guardados se quedan en el teléfono, y el mapa, las rutas, el tiempo y las fotos necesitan cobertura, que se pierde en el paso. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "La página del Consejo decide los sitios",
@@ -24150,7 +24150,7 @@
         {
           "heading": "Lo que permite el Gisborne District Council",
           "body": [
-            "El ayuntamiento permite acampar solo en zonas de acampada restringidas, y su página dice que el vehículo debe estar <a data-guide=\"self-contained-campervan-green-warrant\">certificado como autónomo</a> para poder quedarse allí. Acampar en un vehículo que no esté certificado es una de las infracciones enumeradas, junto con quedarse más tiempo del permitido y dañar el medio ambiente. Desde el 7 de junio de 2026, el permiso tiene que ser el verde, lo que explica la guía del permiso para autocaravanas autónomas.",
+            "El ayuntamiento solo permite acampar en zonas de acampada restringida (restricted camping areas), y su página dice que el vehículo debe estar <a data-guide=\"self-contained-campervan-green-warrant\">certificado como self-contained</a> para quedarse en ellas. Acampar en un vehículo sin certificar es una de las infracciones recogidas, junto con pasarse de noches y dañar el entorno. Solo cuenta la tarjeta verde desde el 7 de junio de 2026, como explica la guía de la certificación self-contained de las campers.",
             "El <a data-guide=\"camping-rules-local-councils-new-zealand\">reglamento</a> ha sido revisado varias veces desde 2021 tras las quejas de los residentes sobre los sitios de playa, así que lee la página del ayuntamiento para ver la lista actual de zonas, la temporada y los límites. Las listas de terceros citan temporadas diferentes, y la página del ayuntamiento es la única en la que puedes confiar."
           ],
           "tips": [
@@ -24199,7 +24199,7 @@
           "heading": "Usando KiwiCamping por Gisborne",
           "body": [
             "KiwiCamping lista campings DOC y cabañas, parques de vacaciones y puntos de basuras en la costa este, con filtros para autocaravanas, aunque no las zonas de <a data-guide=\"freedom-camping-new-zealand-guide\">camping libre</a> del ayuntamiento. Revisa la página del ayuntamiento para Kaiti Beach y guarda un camping como reserva para la noche.",
-            "Añade Gisborne a tu viaje como punto de inicio del recorrido por el East Cape y lee las etapas, ya que el trayecto desde Napier son unas 3,5 horas y desde Whakatāne unas 2,5. Los lugares guardados y los detalles se quedan en el móvil, mientras que el mapa, la ruta, el tiempo y las fotos necesitan señal, la cual es escasa en el cabo. La app es gratuita para descargar, con compras dentro de la app."
+            "Añade Gisborne a un viaje como el inicio del circuito del East Cape, y mira los tramos, ya que el trayecto desde Napier es de unas 3,5 horas y desde Whakatāne de unas 2,5. Los lugares guardados y sus detalles se quedan en el teléfono, mientras que el mapa, las rutas, el tiempo y las fotos necesitan cobertura, que escasea en el cabo. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "La página del ayuntamiento decide Kaiti Beach",
@@ -25577,7 +25577,7 @@
         {
           "heading": "Plan tus tres días en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los campings <a data-guide=\"doc-campsites-new-zealand-guide\">DOC</a>, cabañas y parques de vacaciones, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una reserva cerca de la ciudad, añade las paradas que elijas a un viaje en orden, y la app muestra la distancia entre cada par de paradas y un pronóstico para cada lugar de tu lista. No da indicaciones paso a paso ni tráfico en directo, así que usa la app de mapas para las autopistas.",
+            "Abre KiwiCamping en tu iPhone y el mapa te muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks alrededor de la ciudad, con filtros de acceso para campers y de servicios. Fija una base y una alternativa, enlaza las paradas que elijas en un viaje, y cada tramo tendrá su distancia y cada lugar su previsión del tiempo. No incluye navegación, así que ten abierta tu app de mapas para las autopistas.",
             "Las reservas para los campings del ayuntamiento y del DOC se hacen en sus páginas de reserva individuales. Descárgalos gratis, con compras dentro de la app."
           ],
           "tips": [
@@ -25680,7 +25680,7 @@
         {
           "heading": "Plan tus tres días en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los campings <a data-guide=\"doc-campsites-new-zealand-guide\">DOC</a>, cabañas y parques de vacaciones, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base fuera de la ciudad y una de respaldo, añade las paradas a un viaje en orden, y la app muestra la distancia entre cada par de paradas y un pronóstico en cada lugar, lo que ayuda en una ciudad con mucho viento. No da indicaciones paso a paso ni tráfico en directo, así que usa tu app de mapas para las carreteras.",
+            "KiwiCamping pone los <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks en un mapa que puedes filtrar por acceso para campers y servicios, algo que encaja con un iPhone en la cabina. Ten una base fuera de la ciudad y otra de repuesto, ordena las paradas como un viaje y verás la distancia entre cada par más una previsión del tiempo por lugar, útil cuando el viento decide el día. Las rutas y el tráfico en directo los resuelve otra app, así que apóyate en una app de mapas para las carreteras.",
             "Las reservas de DOC y del consejo se quedan en sus propias páginas de reserva. Descargables gratis, con compras dentro de la app."
           ],
           "tips": [
@@ -25783,8 +25783,8 @@
         {
           "heading": "Plan tus tres días en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones por Dunedin y la costa de Otago, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una de reserva, añádelas a un viaje en orden, y la app muestra la distancia entre cada par de paradas y un pronóstico para cada lugar, lo que te ayuda a decidir qué día te viene mejor para la península. No da indicaciones paso a paso ni tráfico en directo, así que usa la app de mapas para las carreteras.",
-            "Las reservas para los sitios de DOC se quedan en las propias páginas de reservas de DOC. Descarga gratuita, con compras dentro de la aplicación."
+            "Alrededor de Dunedin y la costa de Otago, KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks en su mapa para iPhone, y puedes filtrar por acceso para campers y servicios. Añade una base y una alternativa a un viaje en el orden en que las vas a recorrer, y la app calcula la distancia entre cada par y muestra una previsión del tiempo para cada lugar, lo que ayuda a elegir el día de la península. No hay indicaciones habladas ni avisos de tráfico, así que una app de mapas sigue encargándose de las carreteras.",
+            "Todo lo que reserves en un sitio del DOC se hace en la web del DOC, porque la app solo muestra los lugares. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda una base y una copia de seguridad",
@@ -25886,8 +25886,8 @@
         {
           "heading": "Plan tus tres días en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones alrededor de Rotorua y los lagos, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una reserva, añádelas a un viaje en orden, y la app muestra la distancia entre cada parada y un pronóstico para cada lugar. No da indicaciones paso a paso ni tráfico en directo, así que usa la app de mapas para las carreteras.",
-            "Las reservas para los sitios de DOC se quedan en las propias páginas de reservas de DOC. Descarga gratuita, con compras dentro de la aplicación."
+            "KiwiCamping cubre Rotorua y los lagos con <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks, que se pueden filtrar por acceso para campers y servicios, en una app para iPhone. Guarda una base y una alternativa, ordénalas como un viaje y verás la distancia entre cada par junto con una previsión del tiempo en cada lugar. No llega a las indicaciones ni al tráfico en directo, así que usa tu app de mapas para las carreteras.",
+            "Los sitios del DOC de Rotorua se reservan en las páginas del propio DOC, no en la app, que se descarga gratis y tiene compras dentro de la app."
           ],
           "tips": [
             "Guarda una base y una copia de seguridad",
@@ -25989,7 +25989,7 @@
         {
           "heading": "Plan del viaje en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones a lo largo de esta costa, con filtros para el acceso de autocaravanas y las instalaciones. Guarda los que te gusten, añádelos a un viaje como paradas ordenadas y la app te muestra la distancia entre cada par y un pronóstico para cada lugar de tu lista. No da indicaciones paso a paso ni tráfico en directo, así que ten abierto el Journey Planner de NZTA para las condiciones de la carretera.",
+            "La app para iPhone KiwiCamping muestra en el mapa <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks a lo largo de esta costa y los filtra por acceso para campers y servicios. Marca como favoritos los lugares que te gusten, añádelos a un viaje como paradas ordenadas y te da la distancia entre paradas vecinas y una previsión del tiempo en cada una. Las condiciones de la carretera quedan fuera, así que ten abierto el Journey Planner de la NZTA mientras conduces.",
             "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
           ],
           "tips": [
@@ -26092,8 +26092,8 @@
         {
           "heading": "Plan del viaje en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones a lo largo de ambas rutas, con filtros para el acceso de autocaravanas y las instalaciones. Guarda los que te gusten, añádelos a un viaje como paradas ordenadas y la app te muestra la distancia entre cada par y un pronóstico para cada lugar de tu lista, lo que te ayuda a elegir entre el paso de montaña y la costa. No da indicaciones paso a paso ni tráfico en directo, así que consulta NZTA para cierres.",
-            "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
+            "Para las dos rutas, KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks en un mapa para iPhone, con el acceso para campers y los servicios como filtros. Añade los lugares que te gusten a un viaje en orden de conducción para ver la distancia de cada tramo y una previsión del tiempo por parada, útil cuando estás sopesando el paso de montaña frente a la costa. No sigue los cortes de carretera, así que consulta la NZTA antes de decidirte.",
+            "Reserva los campings y los refugios del DOC en las páginas de reserva del propio DOC, porque la app no admite reservas. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda las paradas en orden de conducción",
@@ -26195,8 +26195,8 @@
         {
           "heading": "Plan del viaje en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones a lo largo de esta costa, con filtros para el acceso de autocaravanas y las instalaciones. Guarda los que te gusten, añádelos a un viaje como paradas ordenadas, y la app te muestra la distancia entre cada par y un pronóstico para cada lugar de tu lista. No da indicaciones paso a paso ni tráfico en directo, así que consulta NZTA para cierres.",
-            "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
+            "Por esta costa, KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks, y sus filtros para iPhone los reducen a los que tienen acceso para campers y servicios. Haz una preselección de lo que te guste, ordena las paradas en un viaje y la app te da la distancia entre cada par de paradas vecinas y una previsión del tiempo en cada lugar. No sigue los cortes de carretera ni da indicaciones, así que la NZTA sigue siendo la fuente para el estado de las carreteras.",
+            "La app deja las reservas del DOC en manos de las páginas de reserva del propio DOC. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda las paradas en orden de conducción",
@@ -26298,8 +26298,8 @@
         {
           "heading": "Usando KiwiCamping para elegir una base",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones alrededor de Wānaka, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una de respaldo, añádelas a un viaje con fechas, y la app muestra un pronóstico en cada lugar, lo que te ayuda a elegir el día en Roys Peak. No da indicaciones paso a paso ni tráfico en directo.",
-            "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
+            "Alrededor de Wānaka, KiwiCamping muestra en el iPhone <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks, con filtros de acceso para campers y servicios. Elige una base y una alternativa, pon las fechas del viaje y cada lugar tendrá su previsión del tiempo, lo que facilita elegir el día de Roys Peak. No incluye indicaciones ni tráfico en directo.",
+            "Reserva cualquier sitio del DOC en las páginas de reserva del DOC; la app te ayuda a encontrar lugares y a planificar el orden. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda una base y una copia de seguridad",
@@ -26401,8 +26401,8 @@
         {
           "heading": "Usando KiwiCamping para elegir una base",
           "body": [
-            "KiwiCamping es una app para iPhone que mapea <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones alrededor del Parque Nacional Tongariro, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una de respaldo, añádelas a un viaje con fechas, y la app muestra un pronóstico en cada lugar, lo que te ayuda a elegir el día de cruce. No da indicaciones paso a paso ni tráfico en tiempo real.",
-            "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
+            "KiwiCamping, una app para iPhone, muestra en el mapa <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks cerca del Tongariro National Park, y puedes filtrar por acceso para campers y servicios. Fija una base y una alternativa en un viaje con fechas y mira la previsión del tiempo en cada una, que te dice qué día conviene para la travesía. No incluye indicaciones ni tráfico en directo.",
+            "Las reservas en los sitios del DOC se hacen en las páginas de reserva del DOC, no en la app. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda una base y una copia de seguridad",
@@ -26607,8 +26607,8 @@
         {
           "heading": "Plan el viaje en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones alrededor de Golden Bay y Karamea, con filtros para el acceso de autocaravanas y las instalaciones. Guarda las cabañas y campings que planeas usar, añádelos a un viaje con fechas y la app te muestra un pronóstico para cada lugar. No da indicaciones paso a paso ni tráfico en tiempo real.",
-            "Las reservas de DOC se quedan en las propias páginas de reservas de DOC. Descargables gratis, con compras dentro de la app."
+            "KiwiCamping para iPhone cubre Golden Bay y Karamea, con <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks que se filtran por acceso para campers y servicios. Añade los refugios y los campings que pienses usar a un viaje con fechas y la app asigna una previsión del tiempo a cada uno. No da indicaciones ni tráfico en directo.",
+            "Los refugios y los campings en terrenos del DOC se reservan en las páginas del propio DOC, nunca en la app. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda las cabañas que reservas",
@@ -26710,8 +26710,8 @@
         {
           "heading": "Plan el viaje en KiwiCamping",
           "body": [
-            "KiwiCamping es una app de iPhone que mapea los <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a>, cabañas y parques de vacaciones por Nelson y Tasman, con filtros para el acceso de autocaravanas y las instalaciones. Guarda una base y una de respaldo, añádelas a un viaje con fechas, y la app muestra un pronóstico en cada lugar. No da indicaciones paso a paso ni tráfico en directo, así que usa el mapa de la ruta del propio sendero.",
-            "Las reservas para los sitios de DOC se quedan en las propias páginas de reservas de DOC. Descarga gratuita, con compras dentro de la aplicación."
+            "KiwiCamping para iPhone cubre Nelson y Tasman, con <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks en el mapa y filtros de acceso para campers y servicios. Añade una base y una alternativa a un viaje con fechas para ver una previsión del tiempo por lugar. No tiene indicaciones paso a paso ni tráfico en directo, así que usa el mapa propio de la ruta para el trazado.",
+            "La app no admite reservas del DOC, así que reserva en las páginas de reserva del DOC. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Guarda una base y una copia de seguridad",
@@ -34169,7 +34169,7 @@
           "heading": "Plan de la Surf Highway 45 en KiwiCamping",
           "body": [
             "KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">DOC campsites</a> y cabañas por Taranaki, parques de vacaciones con sus instalaciones y puntos de basuras, y te permite añadirlos a un viaje como paradas programadas. Muestra la distancia y el tiempo de conducción entre paradas y un pronóstico para cada lugar, lo cual ayuda cuando el tiempo en la montaña cambia.",
-            "Guarda una noche en New Plymouth y una noche en Ōpunake, y lee el trayecto entre ellas. Los lugares y guías guardados se quedan en el móvil, mientras que los mapas, la ruta, el tiempo y las fotos necesitan señal, la cual es débil en los tramos finales de las carreteras costeras. La app es gratuita para descargar, con compras dentro de la app."
+            "Guarda una noche en New Plymouth y una noche en Ōpunake, y mira el tramo entre ellas. Los lugares guardados y las guías se quedan en el teléfono, mientras que el mapa, las rutas, el tiempo y las fotos necesitan cobertura, que escasea al final de las carreteras de la costa. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "New Plymouth y Ōpunake como las dos noches",
@@ -34279,7 +34279,7 @@
           "heading": "Plan la ruta de la Autopista del Termómetro en KiwiCamping",
           "body": [
             "KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> y cabañas, parques de vacaciones con sus instalaciones y puntos de basuras por Rotorua, Taupō y Hawke's Bay, con filtros para el acceso de autocaravanas. Añade tus cuatro noches a un viaje como paradas ordenadas, y te muestra la distancia y el tiempo de conducción entre cada par, además de un pronóstico para cada lugar.",
-            "Guarda los lugares de antemano. Los detalles de los lugares, los lugares guardados y las guías se quedan en el móvil, mientras que los mosaicos del mapa, el enrutamiento, el tiempo y las fotos necesitan señal, la cual es escasa en la carretera Napier-Taupō. La app es gratuita para descargar, con compras dentro de la app."
+            "Guarda los lugares de antemano. Los detalles de cada lugar, los lugares guardados y las guías se quedan en el teléfono, mientras que el mapa, las rutas, el tiempo y las fotos necesitan cobertura, que escasea en la carretera Napier-Taupō. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Añade cada noche como parada",
@@ -34399,7 +34399,7 @@
           "heading": "Plan de la Carretera de la Costa del Pacífico en KiwiCamping",
           "body": [
             "KiwiCamping muestra <a data-guide=\"doc-campsites-new-zealand-guide\">campings DOC</a> y cabañas, parques de vacaciones con sus instalaciones y puntos de recogida a lo largo de la costa este, con filtros para el acceso de autocaravanas. Añade cada noche a un viaje como parada ordenada, y te muestra la distancia y el tiempo de conducción entre cada par, además de un pronóstico para cada lugar.",
-            "Guarda tus lugares antes de irte. Los detalles de los lugares, los lugares guardados y las guías se quedan en el móvil, mientras que los mosaicos del mapa, el enrutamiento, el tiempo y las fotos necesitan señal, la cual se pierde en el desfiladero de Waioeka y en el tramo de Wairoa. La app es gratuita para descargar, con compras dentro de la app."
+            "Guarda tus lugares antes de salir. Los detalles de cada lugar, los lugares guardados y las guías se quedan en el teléfono, mientras que el mapa, las rutas, el tiempo y las fotos necesitan cobertura, que se pierde en el Waioeka Gorge y en el tramo de Wairoa. Se descarga gratis, con compras dentro de la app."
           ],
           "tips": [
             "Añade cada noche como parada",
@@ -35222,11 +35222,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Normas de acampada libre en Nueva Zelanda, región por región",
-      "description": "La Freedom Camping Act, las ordenanzas municipales, la certificación self-contained y cómo se controla de verdad sobre el terreno.",
+      "title": "Normas de acampada libre en Nueva Zelanda 2026: dónde es legal y las multas",
+      "description": "Dónde puedes hacer acampada libre en Nueva Zelanda en 2026: ordenanzas municipales, terrenos del DOC, la tarjeta verde que necesita tu vehículo desde junio, límites de estancia y multas.",
       "region": "Nueva Zelanda",
       "imageAlt": "Cartel de acampada libre autorizada junto a una camper",
-      "intro": "La acampada libre (freedom camping) en Nueva Zelanda es legal donde está permitida y una infracción en cualquier otro sitio, y la línea que separa un caso del otro la traza el organismo que gestiona el terreno que pisan tus ruedas. La Freedom Camping Act 2011 fija un marco nacional, pero los ayuntamientos (councils) redactan sus propias ordenanzas, así que una norma que aprendiste en un distrito dice muy poco del siguiente.",
+      "intro": "La acampada libre (freedom camping) en Nueva Zelanda solo es legal donde lo permite el organismo que gestiona el terreno: en terrenos municipales según la ordenanza de cada ayuntamiento, en terrenos de conservación a menos que un aviso del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos del país) lo prohíba o lo restrinja, y nunca en terrenos privados sin permiso. La mayoría de los sitios municipales y muchas zonas del DOC solo admiten vehículos self-contained (autónomos: váter fijo, depósitos de agua limpia y de aguas grises) certificados, y desde el 7 de junio de 2026 solo cuenta la tarjeta verde (green warrant). La Freedom Camping Act 2011 fija el marco nacional, pero los ayuntamientos redactan sus propias ordenanzas, así que una norma que aprendiste en un distrito dice muy poco del siguiente.",
       "sections": [
         {
           "heading": "Qué significa realmente la acampada libre aquí",
@@ -36154,7 +36154,7 @@
       "description": "Dónde vaciar el váter de una camper en Nueva Zelanda: los 262 puntos de vaciado de KiwiCamping por región, la mayoría gratis, cómo usarlos y la multa de 800 NZD por verter residuos.",
       "region": "Campings de Nueva Zelanda",
       "imageAlt": "Camper usando un punto de vaciado señalizado",
-      "intro": "Con los residuos, el camping responsable deja de ser teoría y las sanciones se ponen serias. Verter aguas negras o grises en el lugar equivocado conlleva multas bastante más altas que una multa normal por acampada libre (freedom camping), y es la conducta que más probabilidades tiene de hacer que cierren para siempre un sitio popular.",
+      "intro": "Vacía el casete del váter de la camper o el depósito de aguas grises solo en un punto de vaciado. Nuestros datos recogen 262 puntos de vaciado públicos en toda Nueva Zelanda, y la mayoría se pueden usar gratis. Verter aguas del váter o aguas grises en cualquier otro sitio conlleva una multa más alta que una infracción normal de acampada libre, y es el comportamiento que más probabilidades tiene de provocar el cierre definitivo de un sitio popular.",
       "sections": [
         {
           "heading": "Conoce tus tres tipos de residuos",
@@ -36253,17 +36253,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Hogueras en Nueva Zelanda 2026: temporada de fuego y prohibiciones",
-      "description": "Abierta, restringida o prohibida: cómo funcionan las temporadas de fuego en Nueva Zelanda, dónde ver la prohibición de hoy, cuándo pedir permiso y cómo cocinar con el fuego prohibido.",
+      "title": "Prohibición de fuego en Nueva Zelanda 2026-27: temporadas de fuego y normas sobre hogueras",
+      "description": "Consulta la temporada de fuego de hoy en tu zona en checkitsalright.nz. Temporadas abierta, restringida y prohibida, prohibiciones totales de fuego, hogueras en el DOC y hornillos de gas.",
       "region": "Nueva Zelanda",
       "imageAlt": "Hoguera pequeña y controlada en un sitio donde está permitido hacer fuego",
-      "intro": "Un fogón ya hecho y un montón de ceniza vieja demuestran que alguien hizo fuego aquí alguna vez, no que tú puedas hacerlo hoy. Nueva Zelanda tiene un sistema de temporadas de fuego en tres niveles que cambia según las condiciones, y el gestor del terreno puede prohibir el fuego diga lo que diga ese sistema.",
+      "intro": "Consulta la temporada de fuego de hoy en tu zona en checkitsalright.nz, un servicio de Fire and Emergency New Zealand (el servicio de bomberos y emergencias del país): introduce la dirección o el lugar y te dice si puedes encender fuego y si necesitas permiso. Cada zona está siempre en una de tres temporadas de fuego. Abierta significa que puedes encender un fuego al aire libre sin permiso, restringida significa que antes necesitas un permiso de Fire and Emergency, y prohibida, que casi todo el mundo llama prohibición total de fuego (total fire ban), significa que no se puede hacer ningún fuego al aire libre. En los terrenos de conservación el DOC mantiene una temporada restringida todo el año, así que solo se permiten hogueras en un fogón designado de un camping del DOC (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos del país) cuando no hay ninguna prohibición en vigor. Los hornillos de gas no necesitan permiso. Un fogón antiguo demuestra que alguien hizo fuego aquí alguna vez, no que tú puedas hacerlo hoy.",
       "sections": [
         {
           "heading": "Las tres temporadas de fuego",
           "body": [
-            "En una temporada de fuego abierta (open fire season) puedes encender un fuego al aire libre sin permiso, siempre dentro de las normas propias del gestor del terreno. En una temporada restringida (restricted) necesitas un permiso de Fire and Emergency New Zealand (el servicio de bomberos y emergencias del país) antes de encender nada al aire libre. En una temporada prohibida (prohibited) los fuegos al aire libre están prohibidos por completo y no se concederá ningún permiso.",
-            "La temporada se fija por distrito y cambia según las condiciones, a veces con poca antelación durante un periodo seco. Comprueba el estado actual del distrito exacto en el que estás ese mismo día, no el del distrito que cruzaste esta mañana. Cómo encajan estas normas con la previsión de El Niño para este verano se explica en la guía sobre <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">acampar en Navidad</a> y el verano 2026-27."
+            "En una temporada de fuego abierta (open) puedes encender un fuego al aire libre sin permiso, siempre dentro de las normas propias del gestor del terreno. En una temporada restringida (restricted) necesitas un permiso de Fire and Emergency New Zealand para casi todos los fuegos al aire libre, y debes cumplir sus condiciones. Una temporada prohibida (prohibited) es una prohibición total de fuego: los fuegos al aire libre quedan prohibidos sin excepción, los permisos ya concedidos se suspenden y los nuevos solo se conceden en circunstancias excepcionales.",
+            "Fire and Emergency fija la temporada zona por zona y la cambia según las condiciones, a veces con poca antelación durante un periodo seco, y anuncia cada cambio para la zona. Muchas zonas pasan a temporada restringida cuando el verano se seca, y algunas a prohibida, así que un fuego que era legal en octubre puede no serlo en enero. Consulta checkitsalright.nz para el lugar exacto donde acampas ese mismo día, no para el distrito que cruzaste esta mañana, y mira también el peligro de incendio: Fire and Emergency te pide que aplaces incluso un fuego permitido cuando el peligro es Muy alto (Very High) o Extremo (Extreme). Cómo encajan estas normas con la previsión de El Niño para este verano se explica en nuestra guía para <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">acampar en Navidad</a> y el verano de 2026-27."
           ],
           "tips": [
             "Comprueba el distrito ese mismo día",
@@ -36303,8 +36303,8 @@
         {
           "heading": "El gestor del terreno puede ser más estricto",
           "body": [
-            "La temporada de fuego marca un mínimo, no un permiso. Los <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a> (Department of Conservation, el organismo público que gestiona los parques y espacios protegidos de Nueva Zelanda), los parques regionales, los terrenos municipales (council reserves) y los campings privados fijan sus propias normas, y muchos prohíben el fuego abierto de forma permanente, sea cual sea la temporada. Cuando se aplican dos normas, manda la más estricta.",
-            "Lee la página concreta del camping y el cartel del sitio. Algunos campings del DOC permiten un fuego pequeño solo en el fogón que se facilita, otros prohíben por completo el combustible sólido, y el fuego en zonas remotas tiene condiciones aparte sobre la ubicación, el espacio que hay que despejar y el tamaño."
+            "La temporada de fuego marca un mínimo, no un permiso. Los <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, los parques regionales, los terrenos municipales (council reserves) y los campings privados fijan sus propias normas, y muchos prohíben el fuego abierto de forma permanente, sea cual sea la temporada. Cuando se aplican dos normas, manda la más estricta. En los terrenos de conservación públicos el DOC mantiene una temporada de fuego restringida todo el año, y algunos lugares, como las islas gestionadas por el DOC, tienen una prohibición total de fuego todo el año.",
+            "En un camping o una zona de día del DOC, solo se permite una hoguera en el fogón o el hoyo de fuego designado y solo cuando no hay prohibición de fuego. En zonas remotas (backcountry) el DOC permite un fuego pequeño para cocinar o calentarse, de menos de medio metro de ancho y de alto, a al menos 3 metros de los árboles y de cualquier cosa que pueda prender, y solo cuando ninguna prohibición o aviso lo impide. Las hogueras grandes, las barbacoas de carbón y el hāngī en terrenos del DOC necesitan un permiso de Fire and Emergency, que según el DOC normalmente no se concede. Lee también la página del camping y el cartel del sitio."
           ],
           "tips": []
         },
@@ -36331,7 +36331,7 @@
         {
           "heading": "Cocinar cuando hay prohibición de fuego",
           "body": [
-            "Los hornillos de gas son la solución práctica y, por lo general, están permitidos cuando los fuegos abiertos no lo están, pero compruébalo, porque una temporada de fuego prohibida también puede restringir algunos aparatos. Úsalos sobre una superficie estable y nivelada, bien lejos de la tela de la tienda y de la vegetación.",
+            "Los hornillos de gas son la solución práctica. Fire and Emergency dice que no hace falta permiso de fuego para barbacoas, hornillos o estufas de gas, y el DOC dice que normalmente puedes usar quemadores de gas y hornillos cerrados de combustible líquido para cocinar en cualquier momento, aunque no los hornillos de combustible líquido de parte superior abierta, como los de alcohol de quemar (methylated spirits). Un ayuntamiento o un propietario aún puede restringirlos, así que mira el cartel. Úsalos sobre una superficie estable y nivelada, bien lejos de la tela de la tienda y de la vegetación, y mantén las botellas de gas de repuesto a 5 metros de la llama.",
             "No cocines nunca dentro de una tienda cerrada, un toldo o un vehículo sin ventilación. El riesgo es el monóxido de carbono, que no huele y ha matado a personas que acampaban en Nueva Zelanda. Deja que el hornillo se enfríe del todo antes de guardarlo en un vehículo o en una tienda, y guarda las botellas de gas de pie y en un sitio ventilado. ¿Vas a un recinto de eventos de verano? Allí se aplican además sus propias normas de fuego, y la guía sobre <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">acampar en Nochevieja</a> y eventos de verano explica qué comprobar antes de ir."
           ],
           "tips": [
@@ -38540,6 +38540,109 @@
         },
         {
           "label": "DOC: comparar las Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping en Nueva Zelanda: dónde alojarte en yurtas, domos y tiendas safari",
+      "description": "Glamping en Nueva Zelanda: qué es, los tipos de alojamiento, las mejores regiones de la Bay of Islands a Queenstown, cuánto cuesta, cuándo reservar y cómo encaja en un viaje en camper.",
+      "region": "Nueva Zelanda",
+      "imageAlt": "La Bay of Islands en Waitangi en un día soleado",
+      "intro": "El glamping es acampar con las comodidades ya montadas: una tienda safari con una cama de verdad, una yurta con estufa de leña, un domo bajo las estrellas, una cabaña diminuta junto a un lago. Nueva Zelanda tiene muchísimos, de la Bay of Islands a Queenstown, casi siempre de gestión privada y en granjas, viñedos y holiday parks. Encaja bien para una o dos noches en un viaje en camper, como capricho, para un periodo de lluvia o para una ocasión especial.",
+      "sections": [
+        {
+          "heading": "Qué se considera glamping",
+          "body": [
+            "No hay una definición oficial y la gama es amplia. Las tiendas safari y las tiendas de campaña tipo campana tienen camas de verdad y una terraza, las yurtas y los domos tienen calefacción y a veces baño privado, y las tiny houses, las cabañas y las casas en los árboles quedan en un punto intermedio. La mayoría están en terrenos privados, y unos pocos en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>. El DOC no gestiona glamping, aunque sí tiene refugios y cabañas.",
+            "Fíjate en qué incluye: la ropa de cama, el baño, la cocina, la calefacción y el desayuno varían mucho, y el precio también. Una estancia de glamping en un lugar remoto puede tener váteres de compostaje y no tener electricidad, y conviene leer bien el anuncio."
+          ],
+          "tips": [
+            "Tiendas safari, yurtas, domos y tiny houses",
+            "Casi siempre en terrenos privados",
+            "Mira qué incluye"
+          ]
+        },
+        {
+          "heading": "Dónde buscar",
+          "body": [
+            "La Bay of Islands y Northland tienen estancias en granjas y tiendas junto a la costa, la Coromandel tiene sitios de playa y de bush, y Waiheke tiene viñedos y vistas. En la South Island (Isla Sur), el Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> y Golden Bay tienen opciones a pie de agua, y Queenstown, Wānaka y Central Otago tienen sitios junto a los lagos y entre viñedos con vistas a las montañas.",
+            "Kaikōura, Tekapo y Aoraki Mount Cook tienen alojamientos bajo cielos oscuros, con domos para mirar las estrellas. El Abel Tasman, la Bay of Islands y Queenstown son los más concurridos, así que busca más lejos si quieres un sitio más tranquilo."
+          ],
+          "tips": [
+            "Northland, Coromandel y Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Domos para mirar las estrellas"
+          ]
+        },
+        {
+          "heading": "Coste y cuándo reservar",
+          "body": [
+            "Los precios varían mucho, desde tiendas sencillas más o menos al precio de una buena habitación de motel hasta domos y lodges de lujo por varios cientos de dólares neozelandeses la noche, y suben en verano y en las vacaciones escolares. Mira la página del propio operador para ver el precio actual y qué incluye, y pregunta por las condiciones de cancelación, porque el tiempo puede cambiar un plan.",
+            "Los mejores sitios se reservan con meses de antelación para diciembre a febrero y para Semana Santa y las vacaciones escolares, así que reserva en cuanto tengas las fechas. Fuera del verano hay buenas tarifas, aunque algunos sitios cierran en invierno. La guía de vacaciones escolares y días festivos tiene las fechas."
+          ],
+          "tips": [
+            "Los precios suben en verano",
+            "Mira las condiciones de cancelación",
+            "Reserva con meses de antelación para el verano"
+          ]
+        },
+        {
+          "heading": "Cómo encajar el glamping en un viaje en camper",
+          "body": [
+            "Una noche de glamping entre noches de camper te da una cama de verdad, una ducha caliente y un tiempo sin conducir, y sirve como alternativa si llueve. Es especialmente buena donde no se permite la <a data-guide=\"freedom-camping-new-zealand-guide\">acampada libre</a> y escasean los sitios, como en la Bay of Islands, Queenstown y el Abel Tasman.",
+            "Si tienes una camper, un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> con cabañas es la opción más barata para una noche de descanso, y la guía de holiday parks recoge las opciones. La guía de acampar con mal tiempo tiene más sobre cómo mantenerte seco y encontrar un sitio."
+          ],
+          "tips": [
+            "Una noche de capricho entre noches en la camper",
+            "Alternativa si llueve",
+            "Las cabañas de los holiday parks son más baratas"
+          ]
+        },
+        {
+          "heading": "Cómo llegar y qué llevar",
+          "body": [
+            "Muchos sitios de glamping están en caminos de grava o de granja, algunos con una entrada empinada, así que comprueba las indicaciones y si una camper puede llegar. Pregunta al anfitrión dónde aparcar tu camper. Lleva ropa de abrigo, una linterna, repelente de insectos y tu propia comida si el alojamiento no tiene cocina, y ten en cuenta los horarios de llegada (check-in), porque los anfitriones a menudo no están en el sitio todo el día.",
+            "Respeta el terreno, llévate la basura y mantén el ruido bajo por la noche, porque muchos sitios están en granjas en funcionamiento con ganado. La guía de <a data-guide=\"responsible-camping-new-zealand\">acampada responsable</a> recoge lo básico."
+          ],
+          "tips": [
+            "Comprueba el acceso para una camper",
+            "Lleva ropa de abrigo y una linterna",
+            "Respeta las granjas en funcionamiento"
+          ]
+        },
+        {
+          "heading": "Planifica tu viaje con KiwiCamping",
+          "body": [
+            "En el iPhone, KiwiCamping muestra en el mapa <a data-guide=\"doc-campsites-new-zealand-guide\">campings del DOC</a>, refugios y holiday parks, los filtra por acceso para campers y servicios, y muestra los holiday parks con sus estancias reservables. Guarda los lugares que te gusten, añádelos a un viaje con fechas y cada parada tendrá su previsión del tiempo. Los sitios de glamping privados no aparecen, así que mira las páginas de los propios operadores.",
+            "Las estancias en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> se pueden reservar a través de la ficha, mientras que las reservas del DOC se quedan en las páginas del propio DOC. Se descarga gratis, con compras dentro de la app."
+          ],
+          "tips": [
+            "Guarda holiday parks y refugios",
+            "Previsión del tiempo en cada parada",
+            "El glamping privado se reserva con el operador"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Qué es el glamping en Nueva Zelanda?",
+          "Acampar con las comodidades ya montadas, como una tienda safari con cama, una yurta o un domo, normalmente en terrenos privados. Fíjate en qué incluye, porque varía mucho."
+        ],
+        [
+          "¿Cuándo debo reservar glamping en Nueva Zelanda?",
+          "Con meses de antelación para diciembre a febrero y las vacaciones escolares. En invierno y en temporada media es más fácil, aunque algunos sitios cierran."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: lugares singulares donde alojarse"
+        },
+        {
+          "label": "DOC: lugares donde alojarse"
+        },
+        {
+          "label": "MBIE: fechas de las vacaciones escolares y de los días festivos"
         }
       ],
       "priceTable": null

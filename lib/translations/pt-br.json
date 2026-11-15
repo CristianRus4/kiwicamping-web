@@ -24692,7 +24692,7 @@
         {
           "heading": "Planeje os seus três dias no KiwiCamping",
           "body": [
-            "O KiwiCamping é um app para iPhone que mapeia <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a>, refúgios e parques de férias, com filtros de acesso para motorhomes e de comodidades. Salve uma base e uma reserva perto da cidade, adicione em ordem a uma viagem as paradas que escolher, e o app mostra a distância entre cada par de paradas e a previsão do tempo de cada lugar da sua lista. Não dá trajetos passo a passo nem trânsito em tempo real, então use o seu app de mapas para as rodovias.",
+            "Abra o KiwiCamping no seu iPhone e o mapa mostra <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a>, refúgios e parques de férias ao redor da cidade, com filtros de acesso para motorhomes e de comodidades. Fixe uma base e uma reserva, junte as paradas que escolher numa viagem, e cada trecho ganha uma distância e cada lugar, uma previsão do tempo. A navegação passo a passo não faz parte, então deixe o seu app de mapas aberto para as rodovias.",
             "As reservas dos campings do município e do DOC ficam nas próprias páginas de reserva deles. Grátis para baixar, com compras dentro do app."
           ],
           "tips": [
@@ -37761,6 +37761,384 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-not-working-new-zealand": {
+      "title": "WikiCamps não funciona na Nova Zelândia? Veja o que você pode fazer (2027)",
+      "description": "O WikiCamps NZ desconecta você, mostra anúncios ou ficou mais difícil de usar desde a atualização? Por que campistas trocam pelo KiwiCamping, sem login, e como levar sua viagem para lá.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Campervans de aluguel estacionados num estacionamento molhado à beira da estrada, abaixo de colinas cobertas de mata",
+      "intro": "Se o WikiCamps New Zealand continua desconectando você, mostra anúncios num app que você pagou ou ficou mais difícil de usar desde a grande atualização, você não precisa gastar um dia da South Island para resolver isso. O KiwiCamping abre direto no mapa: sem conta, sem anúncios, com todos os campings, refúgios e trilhas do DOC a partir dos dados do próprio Department of Conservation, e um planejador de viagem feito em torno da estrada que você de fato vai percorrer. Nós fazemos o KiwiCamping, e aqui está por que os campistas estão trocando, o que o KiwiCamping faz por eles e como levar uma viagem para lá em poucos minutos.",
+      "sections": [
+        {
+          "heading": "Por que os viajantes estão deixando o WikiCamps",
+          "body": [
+            "Mais difícil de usar. Muitos usuários antigos dizem que a nova versão esconde tarefas simples atrás de toques extras, e muita gente já pergunta se <a data-guide=\"is-wikicamps-nz-worth-it\">o WikiCamps NZ ainda vale a pena</a>.",
+            "Desconectado. O <a data-guide=\"wikicamps-nz-account-login\">login do WikiCamps NZ</a> está preso a uma conta, e usuários dizem que o app os desconecta do nada, o que mais pesa na West Coast ou em Fiordland, a quilômetros de qualquer sinal.",
+            "Anúncios num app pago. Muitos campistas compraram o WikiCamps uma vez e agora veem anúncios dentro dele, e alguns dizem que <a data-guide=\"kiwicamping-filters-guide\">filtros</a> favoritos mudaram com a atualização.",
+            "Telas de atualização. Usuários dizem que uma cópia desatualizada do WikiCamps pode se recusar a abrir até ser atualizada, e essa tela costuma aparecer num camping <a data-guide=\"kiwicamping-offline-data-guide\">sem sinal</a>."
+          ],
+          "tips": [
+            "Mais difícil de usar desde a atualização",
+            "Desconectado longe do sinal",
+            "Anúncios num app que você pagou"
+          ]
+        },
+        {
+          "heading": "O que o KiwiCamping faz de diferente",
+          "body": [
+            "O KiwiCamping abre direto no mapa. Não há conta, login nem código por e-mail, então nada pode desconectar você no camping, e não há anúncios. Seus lugares salvos, <a data-guide=\"save-places-kiwicamping\">coleções</a> e viagens sincronizam discretamente pelo iCloud que já está no seu iPhone.",
+            "Todo camping, refúgio e trilha do DOC vem dos dados do próprio Department of Conservation, com as tarifas, as regras para cães e as exigências de reserva do DOC, junto com parques de férias, áreas de camping livre e estações de descarte públicas nas duas ilhas. O diretório inteiro está dentro do app, então busca, filtros e detalhes dos lugares funcionam sem sinal, sem nada para baixar antes, ao contrário do <a data-guide=\"does-wikicamps-nz-work-offline\">Modo Offline do WikiCamps</a>.",
+            "Cada lugar abre com o que você precisa para decidir: tarifas, comodidades, condições, contato e dados de reserva. Escolha Cães permitidos, acesso 4WD ou acesso para caravanas no topo da lista de filtros, e só ficam no mapa os lugares que atendem a todas as suas escolhas."
+          ],
+          "tips": [
+            "Sem conta, sem login, sem anúncios",
+            "Todo camping, refúgio e trilha do DOC",
+            "Os detalhes funcionam sem sinal"
+          ]
+        },
+        {
+          "heading": "Um planejador de viagem feito para a estrada",
+          "body": [
+            "Se você sente falta do antigo <a data-guide=\"wikicamps-nz-trip-planner-alternative\">planejador de viagem do WikiCamps</a>, este mantém tudo simples. Defina sua casa uma vez na aba Você e depois comece e termine qualquer viagem em Home com um toque. Toque em Adicionar parada e uma única busca encontra lugares do DOC, seus pins salvos ou qualquer endereço, então até um lugar favorito que não está na lista entra. Cada parada mostra sua distância e o tempo de direção, a própria data, anotações e previsão do tempo, e você pode ir marcando as paradas conforme avança.",
+            "Os lugares salvos se organizam sozinhos. Curtidos, Favoritos, Quero visitar e Visitados se preenchem conforme você marca os lugares, e você pode montar suas próprias <a data-guide=\"save-places-kiwicamping\">coleções</a> com nome para uma ilha, uma estação ou uma lista curta. A aba Você monta um mapa de onde você já esteve, com as noites acampadas e os quilômetros percorridos."
+          ],
+          "tips": [
+            "Comece e termine em Home",
+            "Adicione qualquer endereço ou pin",
+            "Coleções que se preenchem sozinhas"
+          ]
+        },
+        {
+          "heading": "Como trocar e levar sua viagem",
+          "body": [
+            "Quando você <a data-guide=\"switch-from-wikicamps-nz\">troca do WikiCamps</a>, levar uma viagem leva alguns minutos. Abra sua viagem no WikiCamps ou anote as paradas, e depois refaça-a no KiwiCamping com os passos abaixo.",
+            "Comece pelas noites já reservadas, como <a data-guide=\"doc-campsites-new-zealand-guide\">campings do DOC</a> no verão ou uma travessia de balsa, e preencha as lacunas depois. Todo lugar favorito pode ir com você: adicione-o pelo nome, digite o endereço ou solte um pin no mapa e adicione-o à viagem."
+          ],
+          "tips": [
+            "Adicione paradas por nome, endereço ou pin",
+            "Primeiro as noites reservadas",
+            "Comece em Home com um toque"
+          ],
+          "table": {
+            "caption": "Como levar uma viagem do WikiCamps para o KiwiCamping.",
+            "head": [
+              "Passo",
+              "O que fazer"
+            ],
+            "rows": [
+              [
+                "1. Baixe",
+                "Baixe o KiwiCamping na App Store; ele abre direto no mapa, sem conta"
+              ],
+              [
+                "2. Crie uma viagem",
+                "Crie uma viagem e toque em Iniciar em Home"
+              ],
+              [
+                "3. Adicione cada parada",
+                "Toque em Adicionar parada e busque o nome de um lugar, um endereço ou um dos seus pins"
+              ],
+              [
+                "4. Coloque em ordem",
+                "Arraste as paradas para a ordem em que você vai dirigir e confira o tempo de direção de cada uma"
+              ],
+              [
+                "5. Adicione os detalhes",
+                "Defina uma data e anotações em cada parada e confira a previsão do tempo"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "KiwiCamping e WikiCamps comparados",
+          "body": [
+            "Coloque <a data-guide=\"wikicamps-nz-vs-kiwicamping\">WikiCamps NZ e KiwiCamping</a> lado a lado e eles parecem muito diferentes. O WikiCamps cresceu com lugares que os próprios usuários adicionam e está preso a uma conta. O KiwiCamping parte do DOC e de outras fontes oficiais, não tem conta nem anúncios e é feito em torno do planejamento da viagem.",
+            "Viajando em dois? <a data-guide=\"share-nz-trip-plan-kiwicamping\">Compartilhe a viagem</a> com seu parceiro e escolha Colaborar: vocês dois adicionam, reordenam e marcam paradas, e as mudanças aparecem em segundos. A família em casa também pode acompanhar: Enviar cópia manda um link que abre a viagem em qualquer navegador."
+          ],
+          "tips": [
+            "Dados oficiais contra listagens de usuários",
+            "Sem conta contra conta obrigatória",
+            "Planeje ao vivo com seu parceiro"
+          ],
+          "table": {
+            "caption": "Como os dois apps diferem.",
+            "head": [
+              "",
+              "KiwiCamping",
+              "WikiCamps"
+            ],
+            "rows": [
+              [
+                "Conta",
+                "Nenhuma; sincroniza pelo iCloud",
+                "Conta do WikiCamps obrigatória"
+              ],
+              [
+                "Anúncios",
+                "Nenhum",
+                "Sim, num app pago"
+              ],
+              [
+                "De onde vêm os lugares",
+                "DOC e outras fontes oficiais",
+                "Em sua maioria adicionados por usuários"
+              ],
+              [
+                "Planejamento de viagem",
+                "Início em Home, qualquer endereço ou pin, datas, anotações, previsão do tempo e tempo de direção por parada",
+                "Viagens com paradas"
+              ],
+              [
+                "Planejamento com um parceiro",
+                "Edite a mesma viagem ao vivo pelo iCloud",
+                "Links de viagem compartilhada"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Baixe o KiwiCamping",
+          "body": [
+            "Se o WikiCamps parou de funcionar para você, o KiwiCamping é gratuito para baixar, com compras no app. Abra, busque sua próxima parada e adicione-a a uma viagem, e em minutos você já está planejando de novo.",
+            "As regras no local continuam valendo primeiro. Siga a placa do local, a <a data-guide=\"camping-rules-local-councils-new-zealand\">norma do conselho</a>, o DOC e qualquer aviso de fechamento atual, seja o que for que um app diga."
+          ],
+          "tips": [
+            "Download gratuito, sem conta",
+            "Busque, salve, planeje",
+            "Placas, conselhos e DOC vêm primeiro"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "O WikiCamps não funciona. O que posso usar no lugar?",
+          "O KiwiCamping é um app de camping da Nova Zelândia sem conta, sem login e sem anúncios. Todo camping, refúgio e trilha do DOC está num só mapa, junto com parques de férias e áreas de camping livre, os detalhes dos lugares abrem sem sinal, e os lugares salvos viram uma viagem com datas e tempos de direção."
+        ],
+        [
+          "O KiwiCamping me obriga a fazer login?",
+          "Não. Não existe conta nem tela de login no KiwiCamping. Com o iCloud ativado, seus lugares salvos, coleções e viagens sincronizam de forma privada pela sua Conta Apple, e uma compra é restaurada pela mesma Conta Apple."
+        ],
+        [
+          "Posso levar minha viagem do WikiCamps para o KiwiCamping?",
+          "Sim, em poucos minutos. Crie uma viagem nova, toque em Adicionar parada e adicione cada lugar por nome, endereço ou pin salvo, depois arraste as paradas para a ordem em que você vai dirigir."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "hipcamp-alternatives": {
+      "title": "As 7 melhores alternativas ao Hipcamp na Nova Zelândia em 2026",
+      "description": "O Hipcamp lista terrenos particulares, parques de férias e campings na web. KiwiCamping, Campable, CamperMate, WikiCamps, Rankers, DOC e parques de férias comparados em preço, reserva e uso offline, e quando o Hipcamp ainda é a melhor escolha.",
+      "region": "Nova Zelândia",
+      "imageAlt": "Uma barraca laranja num camping gramado ao lado de uma placa do DOC em Māori Beach, na Stewart Island",
+      "intro": "O Hipcamp é um site de reservas de terrenos particulares, parques de férias e campings, e sua página da Nova Zelândia lista mais de 3.300 lugares para barracas, campervans e hospedagem. As pessoas procuram alternativas quando querem um app de celular, locais públicos e gratuitos, ou um planejador que ligue as noites entre si. Quem publica este guia faz o KiwiCamping, por isso ele aparece primeiro, com os motivos, e cada item diz o que faz melhor que o Hipcamp e o que faz pior. Preços e avaliações vêm da App Store da Nova Zelândia e do site de cada empresa, conferidos em 21 de outubro de 2026, e a página do próprio Hipcamp foi lida em 28 de outubro de 2026.",
+      "sections": [
+        {
+          "heading": "Alternativas ao Hipcamp num relance",
+          "body": [
+            "Para camping público e um plano de viagem com datas, comece pelo KiwiCamping. Para um mercado de reservas de terrenos particulares parecido, feito para campervans, o Campable é o mais próximo, e para um app gratuito e completo, o CamperMate.",
+            "O WikiCamps serve para uma lista muito grande de locais, o Rankers para avaliações locais de lugares que recebem bem, o site do DOC para campings e refúgios em terras de conservação, e um <a data-guide=\"holiday-parks-new-zealand-guide\">parque de férias</a> para uma cama com energia garantida."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Conferido em 21 de outubro de 2026 na App Store da Nova Zelândia e no site de cada empresa. As avaliações são médias da App Store da Nova Zelândia, com o número de avaliações.",
+            "head": [
+              "App ou site",
+              "Melhor para",
+              "Preço",
+              "Nota na NZ"
+            ],
+            "rows": [
+              [
+                "Hipcamp",
+                "Terrenos particulares, parques de férias e campings reservados pela web",
+                "Navegar é grátis; confira as tarifas na reserva",
+                "Sem listagem na App Store da NZ"
+              ],
+              [
+                "KiwiCamping",
+                "Lugares do DOC e um plano de viagem com datas",
+                "Grátis para baixar, com compras no app",
+                "3,8 (4)"
+              ],
+              [
+                "Campable",
+                "Terrenos particulares com reserva instantânea para campervans",
+                "App grátis; sem taxa de reserva para o hóspede",
+                "4,5 (13)"
+              ],
+              [
+                "CamperMate",
+                "Um app completo e gratuito, NZ e Austrália",
+                "Grátis; contém anúncios",
+                "4,4 (606)"
+              ],
+              [
+                "WikiCamps New Zealand",
+                "Uma lista grande de locais",
+                "NZ$7,99 uma vez",
+                "4,5 (137)"
+              ],
+              [
+                "Rankers Camping NZ",
+                "Avaliações de lugares que recebem bem para pernoitar",
+                "Grátis",
+                "4,7 (3.322)"
+              ],
+              [
+                "Sistema de reservas do DOC",
+                "Campings e refúgios em terras de conservação",
+                "Site; tarifas conforme o DOC",
+                "Não se aplica"
+              ],
+              [
+                "Reserva em parques de férias",
+                "Locais com energia e comodidades",
+                "Cartão TOP 10 por NZ$55 por 2 anos",
+                "Não se aplica"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. KiwiCamping: o melhor para locais públicos e um plano de viagem com datas",
+          "body": [
+            "O Hipcamp é feito em torno de anfitriões e reservas, enquanto o KiwiCamping é feito em torno da rota: um mapa de campings, refúgios e trilhas do DOC, parques de férias, estações de descarte, áreas de uso diurno e os avisos de <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a> do DOC, com filtros de água, banheiros, chuveiros, energia, cães, acesso de veículos e tarifas. Uma viagem põe cada noite numa data, mostra a distância entre as paradas e traz uma lista de verificação.",
+            "Não é um mercado de terrenos particulares e não tem disponibilidade ao vivo. Hospedagens e passeios pelo BookIt e os lugares do DOC abertos para reserva levam você ao parceiro ou ao DOC para reservar. Os detalhes dos lugares ficam salvos no celular, então podem ser lidos <a data-guide=\"kiwicamping-offline-data-guide\">sem sinal</a>, enquanto os blocos do mapa, as rotas, a previsão do tempo e as fotos precisam de conexão.",
+            "O app é para iPhone, exige iOS 26 ou mais recente e é novo, então sua nota se apoia em 4 avaliações da Nova Zelândia, com média de 3,8."
+          ],
+          "tips": [
+            "Escolha para: locais públicos e um plano de viagem",
+            "Sem reserva de terrenos particulares",
+            "Só iPhone; poucas avaliações"
+          ]
+        },
+        {
+          "heading": "2. Campable: o melhor para terrenos particulares reservados para campervan",
+          "body": [
+            "O Campable é o mais próximo, em espírito, das listagens de terrenos particulares do Hipcamp. Anfitriões de fazendas, pomares e vinhedos abrem um pedaço de terra para campervans e motorhomes, alguns lugares reservam na hora e outros pedem antes o aval do anfitrião, e o preço mostrado é o preço pago, sem taxa de reserva para o hóspede.",
+            "Ele pede um veículo <a data-guide=\"self-contained-campervan-green-warrant\">autossuficiente certificado</a>, os anfitriões escolhem as demais regras, e cancelamentos com menos de seis dias perdem pelo menos metade. A listagem para iPhone tem nota 4,5 com 13 avaliações da Nova Zelândia, enquanto o Google Play mostra uma nota menor com mais avaliações, então leia os comentários recentes."
+          ],
+          "tips": [
+            "Escolha para: terrenos particulares com reserva instantânea",
+            "Veículos autossuficientes",
+            "Cancelamento tardio rígido"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: o melhor app gratuito e completo",
+          "body": [
+            "O CamperMate não custa nada, cobre a Nova Zelândia e a Austrália e lista campings, parques de férias, locais de <a data-guide=\"freedom-camping-new-zealand-guide\">camping livre</a>, estações de descarte e banheiros, com avaliações e fotos. Sua listagem diz que os mapas podem ser baixados para uso sem conexão com a internet, e que as reservas podem ser conferidas e feitas no app.",
+            "Ele tem anúncios e nota 4,4 com 606 avaliações da Nova Zelândia. Alguns de seus lugares são adicionados ou corrigidos por viajantes, então confirme as regras de um local antes de ir até lá."
+          ],
+          "tips": [
+            "Escolha para: um app gratuito com mapas para baixar",
+            "Contém anúncios",
+            "Lugares adicionados por viajantes"
+          ]
+        },
+        {
+          "heading": "4. Rankers Camping NZ: o melhor para avaliações locais",
+          "body": [
+            "O Rankers é gratuito e tem a maior base de avaliações de qualquer <a data-guide=\"best-nz-camping-apps\">app de camping</a> da Nova Zelândia, 4,7 com 3.322 avaliações. Ele se concentra em lugares onde a comunidade local disse que pernoites são bem-vindos, com mais de 108.000 avaliações de viajantes que sua equipe lê, e acrescenta cerca de 500 campings que você pode reservar.",
+            "As informações dos campings <a data-guide=\"kiwicamping-offline-data-guide\">funcionam offline</a> desde o dia em que você instala, e os pacotes de mapas são baixados por Wi-Fi. Ele ganha comissão sobre reservas e ofertas de atividades sem custo extra para você, e sua lista de cerca de 1.500 lugares é menor do que a do WikiCamps."
+          ],
+          "tips": [
+            "Escolha para: lugares que recebem bem",
+            "Grátis",
+            "Lista menor que a do WikiCamps"
+          ]
+        },
+        {
+          "heading": "5. WikiCamps New Zealand: o melhor para a lista mais longa",
+          "body": [
+            "O WikiCamps custa NZ$7,99 uma vez na App Store da Nova Zelândia, sem assinatura. Ele lista mais de 12.000 locais com avaliações de viajantes, fotos e notas sobre tarifas, inclui um <a data-guide=\"plan-trip-kiwicamping\">planejador de viagem</a> e um modo offline, e diz que mais de 1.000 locais podem ser reservados dentro do app.",
+            "Ele tem nota 4,5 com 137 avaliações da Nova Zelândia e uma nota menor no Google Play, com mais de mil avaliações. As listagens são escritas por usuários, então os dados de um local podem ficar defasados, e os locais reserváveis são uma pequena parte do total."
+          ],
+          "tips": [
+            "Escolha para: a lista mais longa",
+            "NZ$7,99 uma vez",
+            "Listagens escritas por usuários"
+          ]
+        },
+        {
+          "heading": "6. O site de reservas do DOC: o melhor para terras de conservação",
+          "body": [
+            "O DOC reserva refúgios e campings de Great Walk, outros refúgios, campings padrão e com serviços e alojamentos pelo próprio site, e não oferece app para isso. Campings padrão custam de $10 a $20 por adulto por noite, os com serviços de $20 a $28, e os básicos são gratuitos; a maioria dos cerca de 950 refúgios funciona por ordem de chegada.",
+            "Não há terrenos particulares nele nem mercado no meio, então você paga os preços publicados pelo DOC. O guia de reservas deste site o compara com as outras formas."
+          ],
+          "tips": [
+            "Escolha para: refúgios e campings do DOC",
+            "Preços oficiais",
+            "Site, não um app"
+          ]
+        },
+        {
+          "heading": "7. Parques de férias: o melhor para locais com energia e comodidades",
+          "body": [
+            "Um <a data-guide=\"holiday-parks-new-zealand-guide\">parque de férias</a> oferece locais com energia, cozinhas e chuveiros, e uma reserva garante a vaga numa noite cheia de verão. A TOP 10 Holiday Parks administra 52 parques, aceita reservas pelo site e vende um cartão de membro por NZ$55 por 2 anos que dá 10% de desconto na hospedagem, e a Holiday Parks New Zealand representa 230 parques associados.",
+            "Cada rede ou parque reserva por conta própria, e o Hipcamp também lista alguns parques de férias, então a mesma cama pode aparecer em mais de um lugar com preços diferentes. Compare o total no checkout antes de pagar."
+          ],
+          "tips": [
+            "Escolha para: certeza e energia",
+            "Rede por rede",
+            "Compare os totais no checkout"
+          ]
+        },
+        {
+          "heading": "Quando o Hipcamp ainda é a melhor escolha",
+          "body": [
+            "Escolha o Hipcamp para navegar por terrenos particulares, <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a> e campings num só lugar, no navegador de um laptop ou celular, com fotos, filtros para barracas, RVs, hospedagem, pets, banheiros e chuveiros, e avaliações de hóspedes mostradas em porcentagem. Sua página da Nova Zelândia lista 3.302 lugares, um conjunto maior que o dos mercados de terrenos particulares e uma mistura de terrenos de anfitriões e parques comerciais.",
+            "O app do Hipcamp para iPhone está listado na App Store dos Estados Unidos, mas nenhuma listagem da Nova Zelândia apareceu em 28 de outubro de 2026, então um viajante da Nova Zelândia reserva pelo site. A página não informava taxas para o hóspede nem condições de cancelamento, então leia-as no checkout e confira se as regras do anfitrião e do veículo da listagem servem para o seu veículo."
+          ],
+          "tips": [
+            "Terrenos particulares e parques num só lugar",
+            "3.302 listagens na NZ em sua página",
+            "Leia tarifas e condições no checkout"
+          ]
+        },
+        {
+          "heading": "Como a lista foi escolhida e conferida",
+          "body": [
+            "A lista cobre as opções com que um usuário do Hipcamp mais provavelmente o compararia: outro mercado de terrenos particulares, três apps de diretório, as reservas oficiais do DOC e os <a data-guide=\"holiday-parks-new-zealand-guide\">parques de férias</a>. Preço, nota, versão e recursos vieram da App Store da Nova Zelândia e das páginas de cada empresa em 21 de outubro de 2026, e a página do Hipcamp para a Nova Zelândia foi lida em 28 de outubro de 2026.",
+            "As condições mudam com frequência, então leia as condições atuais de um serviço antes de pagar. Deixar um recurso de fora de um item não é afirmar que o app não o tem."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Existe um app do Hipcamp na Nova Zelândia?",
+          "Nenhuma listagem na App Store da Nova Zelândia apareceu em 28 de outubro de 2026. As listagens do Hipcamp na Nova Zelândia são reservadas pelo site."
+        ],
+        [
+          "Qual é a alternativa mais próxima do Hipcamp para campervans?",
+          "O Campable, que lista terrenos particulares como fazendas, pomares e vinhedos para campervans e motorhomes autossuficientes, com reserva instantânea em alguns lugares."
+        ],
+        [
+          "Qual alternativa ao Hipcamp é gratuita?",
+          "O CamperMate e o Rankers Camping NZ são gratuitos para baixar, e o KiwiCamping é gratuito para baixar, com compras no app. O WikiCamps New Zealand custa NZ$7,99 uma vez."
+        ],
+        [
+          "Onde reservo campings e refúgios do DOC?",
+          "No próprio site do DOC, que aceita reservas de refúgios de Great Walk, outros refúgios e campings pelos preços publicados pelo DOC."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: reservas online"
+        },
+        {
+          "label": "DOC: instalações e tarifas dos campings"
+        },
+        {
+          "label": "TOP 10 Holiday Parks"
+        },
+        {
+          "label": "Holiday Parks New Zealand"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
@@ -37790,7 +38168,7 @@
       "openTool": "Abrir a calculadora",
       "ctaEyebrow": "Planeje no KiwiCamping",
       "ctaTitle": "Encontre as paradas e depois faça as contas.",
-      "ctaText": "O KiwiCamping é gratuito para baixar no iPhone. Parques de férias, hospedagens e passeios reserváveis são gratuitos no app. Os campings e refúgios do DOC, as estações de descarte e os guias abrem com o Passe.",
+      "ctaText": "Todos os lugares para acampar e ficar num só mapa, com filtros, fotos, tarifas e um planejador de viagem para a rota inteira.",
       "ctaButton": "Baixar o app",
       "enterValidValues": "Informe valores válidos",
       "enterValidAmount": "Informe um valor válido"

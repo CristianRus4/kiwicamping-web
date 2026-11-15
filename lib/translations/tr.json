@@ -440,7 +440,7 @@
       "openTool": "Hesaplayıcıyı açın",
       "ctaEyebrow": "KiwiCamping’de planlayın",
       "ctaTitle": "Durakları bulun, sonra hesabı yapın.",
-      "ctaText": "KiwiCamping iPhone için ücretsiz indirilir. Rezerve edilebilen tatil parkları, konaklamalar ve turlar uygulamada ücretsizdir. DOC kamp alanları, kulübeleri, boşaltım istasyonları ve rehberler Pass ile açılır.",
+      "ctaText": "Kamp yapılacak ve konaklanacak her yer tek haritada: filtreler, fotoğraflar, ücretler ve tüm rota için bir gezi planlayıcı.",
       "ctaButton": "Uygulamayı indirin",
       "enterValidValues": "Geçerli değerler girin",
       "enterValidAmount": "Geçerli bir tutar girin"
@@ -2906,7 +2906,7 @@
           "heading": "KiwiCamping'de Auckland'dan Tauranga'ya planlama",
           "body": [
             "Bu gezinin Bay of Plenty ucu için KiwiCamping, Waihī Beach'ten Mount Maunganui'ye kadar <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanlarını</a>, kulübeleri ve holiday park'ları haritalar. Kaydedilen yerler sizin seçtiğiniz sırayla, aralarındaki kilometreler ve her plaj ya da kasaba için bir tahminle bir yolculuğa dönüşür. Bir navigasyon cihazı değil bir planlayıcıdır; bu yüzden canlı sürüşü Apple Maps veya Google Maps'e bırakın.",
-            "DOC rezervasyonları DOC'un kendi rezervasyon sayfalarında kalır ve <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a>'lar kendi rezervasyonlarını alır."
+            "DOC kamp alanlarını doğrudan DOC üzerinden rezerve edin; Tauranga ve Mount çevresindeki <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkları</a> ise rezervasyonlarını kendileri alır."
           ],
           "tips": [
             "Durakları sürüş sırasıyla kaydedin",
@@ -38422,6 +38422,203 @@
         },
         {
           "label": "DOC: Great Walks'ı karşılaştırın"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Matakana ve Warkworth Çevresinde Serbest Kamp: Nerede Kalınır",
+      "description": "Matakana ve Warkworth çevresinde karavanla nerede uyunur: Auckland Council'ın birkaç küçük serbest kamp alanı, Tawharanui ve Mahurangi'deki rezervasyonlu bölge parkı kamp alanları ve onların yerine kullanılacak tatil parkları.",
+      "region": "Auckland",
+      "imageAlt": "Batı kıyısında bir plajda koyu renkli kumun üzerinde köpüren dalgalar, uzakta bir burun ve bir deniz kayalığı",
+      "intro": "Matakana ve Warkworth, Auckland'ın bir saat kuzeyindedir ve şehirle aynı Auckland Council yönetmeliğine tabidir: yalnızca sertifikalı kendi kendine yeterli araçlar, tabelayla işaretlenmiş birkaç yerde, birkaç gece için. Buradaki alanlar küçüktür, çoğu zaman yalnızca bir avuç araç alır ve çevrelerindeki bölge parkları serbest kampa kapalıdır. Matakana pazarlarında ya da Mahurangi kıyısının plajlarında geçirilecek bir hafta sonu için daha iyi plan, rezervasyonlu bir kamp alanı ya da tatil parkıdır; belediye alanları ise geç varışlar için yedek olarak kalır.",
+      "sections": [
+        {
+          "heading": "Burada geçerli olan Auckland kuralları",
+          "body": [
+            "Auckland'ın <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw yönetmeliği, Rodney ve Hibiscus Coast dahil tüm bölgede geçerlidir. Belediyeye ait yollarda ve otoparklarda kamp yalnızca sertifikalı kendi kendine yeterli bir araçla, aynı yerde en fazla iki gece yapılabilir ve ayrılacağınız gün saat 9'a kadar yerinizi boşaltmanız gerekir. Auckland'da serbest kamp rehberi yönetmeliği yasak ve kısıtlı alanlarıyla birlikte ayrıntılı biçimde anlatır; bu sayfa bu yüzden yalnızca Matakana tarafına odaklanır.",
+            "Çadırın ya da sertifikasız bir aracın belediye arazisinde yeri yoktur. 7 Haziran 2026'dan itibaren yalnızca <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a> geçerlidir; kendi kendine yeterli karavan sertifikası rehberi bunu açıklar. Denetimler yaz boyunca sürer ve bildirim araç sahibine gider; kiralık araçlarda bu, kiralama şirketidir."
+          ],
+          "tips": [
+            "Bölge genelinde geçerli yönetmelik",
+            "İki gece, sabah 9'a kadar ayrılın",
+            "Green warrant gerekir"
+          ]
+        },
+        {
+          "heading": "Warkworth ve kıyı yakınındaki belediye alanları",
+          "body": [
+            "Belediyenin bölgedeki tabelalı alanları küçük ve dağınıktır: Kaipara tarafında Port Albert'taki bir iskele rezervi, Warkworth'taki Parry Kauri Park'ta birkaç yer ve Mahurangi ile Whangaparāoa kıyılarında Snells Beach gibi bir avuç nokta; her biri üç ile on araç arasında alır. Liste belediyenin harita ve sayfasında yer alır ve zaman zaman değişir, bu yüzden bir geceyi buna bağlamadan önce yeri doğrulayın.",
+            "Sayılar bu kadar düşük olduğundan, yazın ve cuma geceleri alanlar hava kararmadan dolar. Rezervasyonlu bir kamp alanı size garantili bir yer ve tuvalet bloğu sağlar; plansız gelenlere kalan yerler ise plan olarak değil, bonus olarak düşünülmelidir."
+          ],
+          "tips": [
+            "Alan başına 3 ila 10 araç",
+            "Port Albert, Kaipara tarafındadır",
+            "Ücretsiz alanları yedek olarak görün"
+          ]
+        },
+        {
+          "heading": "Bölge parkları ve rezervasyonlu kamp alanları",
+          "body": [
+            "Auckland Council'ın bölge parkları <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kampa</a> kapalıdır, ancak bunlardan ikisi bölgede bir hafta sonu için uygun, rezervasyonlu kamp alanları işletir: uzun bir yarımada yolunun sonunda, iki yanında plajlar bulunan Tawharanui ve kamp alanlarının korunaklı koyların üzerinde yer aldığı Mahurangi. İkisi de rezervasyonu belediye üzerinden alır ve ocak ayının en iyi hafta sonları erken dolar.",
+            "Hem çadırlara hem karavanlara uygundurlar; tuvalet ve su vardır ve bazı koylar suya kısa bir yürüyüş mesafesindedir. Köpek, ateş ve sessizlik saatleri parkın kendi kurallarına tabidir; bunlar rezervasyon sayfasında listelenir ve çoğu <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkından</a> daha katıdır."
+          ],
+          "tips": [
+            "Tawharanui ve Mahurangi: önceden rezerve edin",
+            "Bölge parklarında serbest kamp yasaktır",
+            "Köpek ve ateş kuralları farklıdır"
+          ]
+        },
+        {
+          "heading": "Tatil parkları ve DOC arazisi",
+          "body": [
+            "Warkworth, Snells Beach, Omaha ve Leigh'in her birinde yakın mesafede, elektrikli alanları ve kabinleri olan <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkları</a> ya da motor kampları vardır. Noel döneminde güvenilir seçenektir; Paskalya hafta sonu da plajlardaki kalabalığın aynısını getirir. Tatil parkları rehberi rezervasyonun nasıl işlediğini anlatır.",
+            "Auckland bölgesindeki DOC arazisi çoğunlukla adalardadır. KiwiCamping'in DOC verileri (11 Ağustos 2026) Auckland'da 9 kamp alanı listeler; bunlardan 1'i ücretsiz, 5'inde karavan erişimi var, yetişkin gecelik ücretleri $10 ile $18 arasında ve Motutapu Island'daki Home Bay 131 kişilik yeriyle en büyüğüdür. Hiçbiri Matakana'ya karayoluyla yakın değildir."
+          ],
+          "tips": [
+            "Her plajın yakınında tatil parkları",
+            "Auckland'daki DOC alanları adalardadır",
+            "Paskalya da Noel gibi dolar"
+          ]
+        },
+        {
+          "heading": "Matakana çevresinde KiwiCamping kullanımı",
+          "body": [
+            "KiwiCamping, Auckland çevresindeki DOC kamp alanlarını ve kulübelerini, olanaklarıyla birlikte tatil parklarını ve boşaltım istasyonlarını listeler; karavan erişimi için filtreler de sunar. Belediyenin <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kamp</a> alanlarını ya da bölge parkı rezervasyonlarını içermez, bunlar için belediyenin sayfalarını kullanın.",
+            "Matakana gecesini Auckland'dan Bay of Islands'a bir geziye ekleyin ve bir sonraki durağa mesafeyi ve sürüş süresini okuyun; bu da bir saatten biraz uzun bir sürüşle ulaşılan Whangārei'dir. Kayıtlı yerler telefonda kalır; harita, rotalar, hava tahmini ve fotoğraflar bağlantı gerektirir ve yarımada yollarında bağlantı zayıftır. İndirmek ücretsiz, uygulama içi satın alımlar var."
+          ],
+          "tips": [
+            "Belediye ve park rezervasyonları: kendi sayfalarını kullanın",
+            "Whangārei yaklaşık bir saat ileride",
+            "Kayıtlı yerler telefonda kalır"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Matakana yakınında serbest kamp yapabilir miyim?",
+          "Yalnızca sertifikalı kendi kendine yeterli bir araçla, belediyenin küçük tabelalı alanlarından birinde ve en fazla iki gece. Bölge parkları ve çoğu rezerv alanı buna kapalıdır, bu yüzden rezervasyonlu bir kamp alanı ya da tatil parkı daha güvenli plandır."
+        ],
+        [
+          "Tawharanui Regional Park'ta kamp yapabilir miyim?",
+          "Evet, rezervasyonlu kamp alanında; serbest kamp olarak değil. Yola çıkmadan önce Auckland Council üzerinden yer ayırtın."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: serbest kamp"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: serbest kamp"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Yeni Zelanda'da Glamping: Yurt, Kubbe ve Safari Çadırlarında Nerede Kalınır",
+      "description": "Yeni Zelanda'da glamping: nedir, konaklama türleri, Bay of Islands'tan Queenstown'a en iyi bölgeler, maliyeti, ne zaman rezervasyon yapılır ve bir karavan gezisine nasıl uyar.",
+      "region": "Yeni Zelanda",
+      "imageAlt": "Güneşli bir günde Waitangi'deki Bay of Islands",
+      "intro": "Glamping, konforları hazır kamp demektir: gerçek yataklı bir safari çadırı, odun sobalı bir yurt, yıldızların altında bir kubbe, bir gölün kıyısında minik bir kabin. Yeni Zelanda'da Bay of Islands'tan Queenstown'a kadar bunlardan çok var; çoğu özel işletilir ve çiftliklerde, bağlarda ve tatil parklarında yer alır. Bir karavan gezisinde bir iki gece için uygundur: kendinizi şımartmak, yağmurlu bir dönemi atlatmak ya da özel bir gün için.",
+      "sections": [
+        {
+          "heading": "Neler glamping sayılır",
+          "body": [
+            "Resmî bir tanım yoktur ve yelpaze geniştir. Safari çadırlarında ve çan çadırlarda gerçek yataklar ve bir teras bulunur, yurtlarda ve kubbelerde ısıtıcılar, bazen de özel banyo vardır; minik evler, kabinler ve ağaç evleri bunların arasında yer alır. Çoğu özel arazidedir, birkaçı da <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parklarındadır</a>. DOC glamping işletmez, ancak kulübeleri ve kabinleri vardır.",
+            "Nelerin dahil olduğuna bakın: yatak takımı, banyo, mutfak, ısıtma ve kahvaltı çok değişir, fiyat da öyle. Uzak bir yerdeki glamping konaklamasında kompost tuvaletler olabilir ve elektrik bulunmayabilir; ilanı dikkatle okumakta fayda var."
+          ],
+          "tips": [
+            "Safari çadırları, yurtlar, kubbeler ve minik evler",
+            "Çoğunlukla özel arazide",
+            "Nelerin dahil olduğunu kontrol edin"
+          ]
+        },
+        {
+          "heading": "Nerelere bakmalı",
+          "body": [
+            "Bay of Islands ve Northland'da çiftlik konaklamaları ve kıyı çadırları, Coromandel'de plaj ve orman alanları, Waiheke'de ise bağlar ve manzaralar var. South Island'da Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> ve Golden Bay'de kıyıdaki seçenekler, Queenstown, Wānaka ve Central Otago'da ise dağ manzaralı göl kıyısı ve bağ alanları bulunur.",
+            "Kaikōura, Tekapo ve Aoraki Mount Cook'ta karanlık gökyüzünün altında konaklamalar, yıldız izlemek için kubbeler vardır. Abel Tasman, Bay of Islands ve Queenstown en kalabalık yerlerdir; daha sakin bir alan için biraz daha uzağa bakın."
+          ],
+          "tips": [
+            "Northland, Coromandel ve Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Yıldız izlemek için kubbeler"
+          ]
+        },
+        {
+          "heading": "Maliyet ve ne zaman rezervasyon yapılır",
+          "body": [
+            "Fiyatlar çok değişir: iyi bir motel odası kadar tutan sade çadırlardan, geceliği birkaç yüz dolara çıkan lüks kubbelere ve konaklara kadar; yazın ve okul tatillerinde de artarlar. Güncel fiyat ve nelerin dahil olduğu için işletmenin kendi sayfasına bakın, iptal koşullarını da sorun, çünkü hava planı değiştirebilir.",
+            "En iyi alanlar aralıktan şubata, Paskalya ve okul tatilleri için aylar öncesinden dolar; bu yüzden tarihleriniz belli olur olmaz yer ayırtın. Yaz dışında iyi fiyatlar bulunur, ancak bazı alanlar kışın kapanır. Okul ve resmî tatiller rehberinde tarihler yer alır."
+          ],
+          "tips": [
+            "Yazın fiyatlar artar",
+            "İptal koşullarını kontrol edin",
+            "Yaz için aylar önceden rezerve edin"
+          ]
+        },
+        {
+          "heading": "Glamping'i bir karavan gezisine yerleştirmek",
+          "body": [
+            "Karavan geceleri arasında bir glamping gecesi size düzgün bir yatak, sıcak bir duş ve araba kullanmadan geçen bir zaman verir; yağışlı havada da yedek plan işlevi görür. Özellikle <a data-guide=\"freedom-camping-new-zealand-guide\">serbest kampa</a> izin verilmeyen ve yer bulmanın zor olduğu Bay of Islands, Queenstown ve Abel Tasman gibi yerlerde çok iyidir.",
+            "Bir karavanınız varsa, kabinli bir <a data-guide=\"holiday-parks-new-zealand-guide\">tatil parkı</a> bir gecelik mola için daha ucuz seçenektir; seçenekleri tatil parkları rehberi anlatır. Yağışlı hava kamp rehberinde kuru kalmak ve yer bulmak hakkında daha fazlası var."
+          ],
+          "tips": [
+            "Karavan geceleri arasında bir şımarma gecesi",
+            "Yağışlı hava için yedek plan",
+            "Tatil parkı kabinleri daha ucuzdur"
+          ]
+        },
+        {
+          "heading": "Oraya ulaşmak ve neler getirmeli",
+          "body": [
+            "Birçok glamping alanı çakıllı ya da çiftlik yollarındadır, bazılarında dik bir giriş yolu vardır; bu yüzden yol tariflerine ve karavanın oraya ulaşıp ulaşamayacağına bakın. Ev sahibine karavanınızın park yeri hakkında sorun. Sıcak giysiler, bir fener, böcek kovucu ve konaklamada mutfak yoksa kendi yiyeceğinizi getirin; giriş saatlerini de kontrol edin, çünkü ev sahipleri çoğu zaman gün boyu yerinde olmaz.",
+            "Araziye saygı gösterin, çöplerinizi götürün ve geceleri gürültüyü düşük tutun; birçok alan hayvanların bulunduğu çalışan çiftliklerdedir. <a data-guide=\"responsible-camping-new-zealand\">Sorumlu kamp</a> rehberi temelleri anlatır."
+          ],
+          "tips": [
+            "Karavan için yol erişimini kontrol edin",
+            "Sıcak giysiler ve bir fener getirin",
+            "Çalışan çiftliklere saygı gösterin"
+          ]
+        },
+        {
+          "heading": "KiwiCamping ile gezinizi planlamak",
+          "body": [
+            "iPhone'da KiwiCamping, <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kamp alanlarını</a>, kulübeleri ve tatil parklarını haritada gösterir, karavan erişimi ve olanaklara göre filtreler ve tatil parklarını rezerve edilebilir konaklamalarıyla birlikte sunar. Beğendiğiniz yerleri kaydedin, tarihli bir geziye ekleyin; her durak için bir hava tahmini görürsünüz. Özel glamping alanları listelenmez, bunlar için işletmelerin kendi sayfalarına bakın.",
+            "<a data-guide=\"holiday-parks-new-zealand-guide\">Tatil parkı</a> konaklamaları ilan üzerinden rezerve edilebilir, DOC rezervasyonları ise DOC'un kendi sayfalarında kalır. İndirmek ücretsiz, uygulama içi satın alımlar var."
+          ],
+          "tips": [
+            "Tatil parklarını ve kulübeleri kaydedin",
+            "Her durakta hava tahmini",
+            "Özel glamping işletmeyle rezerve edilir"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Yeni Zelanda'da glamping nedir?",
+          "Konforları hazır kamp: yataklı bir safari çadırı, bir yurt ya da bir kubbe gibi, genellikle özel arazide. Nelerin dahil olduğuna bakın, çünkü çok değişir."
+        ],
+        [
+          "Yeni Zelanda'da glamping için ne zaman rezervasyon yapmalıyım?",
+          "Aralıktan şubata ve okul tatilleri için aylar öncesinden. Kış ve ara mevsimler daha kolaydır, ancak bazı alanlar kapanır."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: benzersiz konaklama yerleri"
+        },
+        {
+          "label": "DOC: konaklama yerleri"
+        },
+        {
+          "label": "MBIE: okul ve resmî tatil tarihleri"
         }
       ],
       "priceTable": null

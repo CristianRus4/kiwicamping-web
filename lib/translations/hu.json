@@ -440,7 +440,7 @@
       "openTool": "A kalkulátor megnyitása",
       "ctaEyebrow": "Tervezd meg a KiwiCamping-ben",
       "ctaTitle": "Találd meg a megállókat, aztán számolj.",
-      "ctaText": "A KiwiCamping ingyenesen letölthető iPhone-ra. A foglalható nyaralóparkok, szállások és túrák ingyenesek az alkalmazásban. A DOC-kempingek, kunyhók, ürítőállomások és az útmutatók a Passszal nyílnak meg.",
+      "ctaText": "Minden hely, ahol kempingezhetsz és megszállhatsz, egyetlen térképen, szűrőkkel, fotókkal, díjakkal és útitervezővel az egész útvonalhoz.",
       "ctaButton": "Alkalmazás letöltése",
       "enterValidValues": "Adj meg érvényes értékeket",
       "enterValidAmount": "Adj meg érvényes összeget"
@@ -2906,7 +2906,7 @@
           "heading": "Auckland–Tauranga tervezés a KiwiCampingben",
           "body": [
             "Az út Bay of Plenty végén a KiwiCamping térképre teszi a <a data-guide=\"doc-campsites-new-zealand-guide\">DOC kempingeket</a>, kunyhókat és nyaralóparkokat Waihī Beachtől Mount Maunganuiig. A mentett helyekből az általad választott sorrendben útiterv lesz, a köztük lévő kilométerekkel és minden strand vagy város előrejelzésével. Ez tervező, nem GPS, ezért az élő vezetést hagyd az Apple Mapsre vagy a Google Mapsre.",
-            "A DOC foglalások a DOC saját foglalási oldalain maradnak, a <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkok</a> pedig saját foglalásokat fogadnak."
+            "A DOC-kempingeket magán a DOC-on keresztül foglald; a Tauranga és a Mount környéki <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkok</a> mind a saját foglalási rendszerüket használják."
           ],
           "tips": [
             "Mentsd a megállókat vezetési sorrendben",
@@ -21749,7 +21749,7 @@
           "heading": "A KiwiCamping használata Hawke's Bayben",
           "body": [
             "A KiwiCamping megmutatja a régió DOC kempingeit és kunyhóit, a nyaralóparkokat létesítményeikkel és a szennyvízleeresztő állomásokat, szűrőkkel, amelyek leszűkítik azokat arra, amire a járműved szükséges. Nem tartalmazza az önkormányzatok <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> helyeit, ezért azokhoz használd a fenti önkormányzati oldalakat, és minden éjszakára mentsd el tartalékként egy nyaralóparkot.",
-            "Tedd a napieri éjszakát egy útitervbe dátummal és megjegyzéssel, és olvasd le a távolságot a következő megállóig, ami a legtöbb embernek a Wellingtonba vagy Taupōba, illetve onnan vezető út. A mentett Hawke's Bay-i helyeid és részleteik térerő nélkül is olvashatók maradnak; a térkép, az útvonalak, az előrejelzés és a fotók betöltődnek, ha újra van jeled. Az alkalmazás ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+            "Tedd a napieri éjszakát egy útitervbe dátummal és megjegyzéssel, és olvasd le a távolságot a következő megállóig, ami a legtöbb embernek a Wellingtonba vagy Taupōba, illetve onnan vezető út. A mentett Hawke's Bay-i helyeid és részleteik térerő nélkül is olvashatók maradnak; a térkép, az útvonalak, az előrejelzés és a fotók betöltődnek, amint újra van térerőd. Ingyen letölthető, alkalmazáson belüli vásárlásokkal."
           ],
           "tips": [
             "Önkormányzati helyek: használd az önkormányzat oldalát",
@@ -37750,6 +37750,875 @@
         },
         {
           "label": "DOC: a Great Walks összehasonlítása"
+        }
+      ],
+      "priceTable": null
+    },
+    "road-user-charges-campervan-new-zealand": {
+      "title": "Úthasználati díj (RUC) lakóautóknak Új-Zélandon 2026–27: díjak és bérleti költségek",
+      "description": "A dízel lakóautók 1000 km-enként 76 $ úthasználati díjat fizetnek, a bérlőcégek pedig kb. 8 $-t számláznak 100 km-enként. Mennyibe kerül a RUC, és olcsóbb-e a dízel a benzinnél.",
+      "region": "Új-Zéland",
+      "imageAlt": "Egy kis G.A.S benzinkút Waikariban, North Canterburyben, a kutak előtt, egy narancssárga-fehér bolt előtt",
+      "intro": "Új-Zélandon a dízeljárművek nem az üzemanyag árában fizetik az útadót; helyette kilométer szerint úthasználati díjat (RUC) fizetnek. Egy legfeljebb 3500 kg-os könnyű dízeljárműnél a RUC 1000 km-enként 76 $, kilométerenként kb. 7,6 cent, a bérlőcég pedig kb. 8 $-t számláz 100 km-enként, amikor visszaadod az autót. A benzines járművek az útadót a kútnál fizetik, RUC-ot nem. A díjtáblázatokat és a bérlőcégek feltételeit 2026. november 3-án olvastuk.",
+      "sections": [
+        {
+          "heading": "RUC-díjak lakóautókra",
+          "body": [
+            "A RUC-ot a saját járműre 1000 km-es blokkokban vásárolják, a jármű típusa és tömege szerint megállapított díjon. A legtöbb lakóautó könnyű jármű, legfeljebb 3500 kg, 1000 km-enként 76 $-ért. Egy nagyobb, 3501 és 6000 kg közötti lakóautó 82 $-t fizet. Minden vásárláshoz ügyintézési díj jön: 12,44 $ online vagy az NZTA alkalmazásban, és 13,71 $ egy ügynök pultjánál.",
+            "Az akkumulátoros elektromos járművek ugyanannyit fizetnek, 76 $-t, mint a könnyű dízelek, a plug-in benzines hibridek pedig 38 $-t. Egy hagyományos benzines vagy benzines hibrid jármű nem fizet RUC-ot. Az NZTA saját díjoldala blokkolja az automatikus olvasást, ezért ezek az adatok a 2026. augusztus 6-tól érvényes díjtáblázat egy közzétett másolatából származnak; vásárlás előtt erősítsd meg őket az NZTA-nál."
+          ],
+          "tips": [
+            "Könnyű dízel: 76 $ 1000 km-enként",
+            "3,5–6 tonna: 82 $",
+            "Ügyintézési díj: 12,44 $ online"
+          ],
+          "table": {
+            "caption": "A RUC-díjak könnyű járművekre 1000 km-enként, GST-vel, 2026. augusztus 6-tól érvényesek.",
+            "head": [
+              "Jármű",
+              "Díj 1000 km-enként"
+            ],
+            "rows": [
+              [
+                "Könnyű dízel, legfeljebb 3500 kg",
+                "76 $"
+              ],
+              [
+                "Dízel, 3501–6000 kg (kéttengelyes)",
+                "82 $"
+              ],
+              [
+                "Akkumulátoros elektromos, legfeljebb 3500 kg",
+                "76 $"
+              ],
+              [
+                "Plug-in benzines hibrid",
+                "38 $"
+              ],
+              [
+                "Benzines vagy benzines hibrid",
+                "Nincs RUC; az adó az üzemanyag árában van"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Mit számláznak a bérlőcégek",
+          "body": [
+            "A bérlőcég megvásárolja a RUC-ot az autóihoz, és a megtett kilométerek után számlázza neked, általában az autó visszaadásakor. A Maui 8,04 $-t számláz 100 km-enként, a 4 és 6 fős, vécével és zuhannyal felszerelt járműveire pedig 8,18 $-t, és azt mondja, hogy visszaadáskor számítják ki és szedik be. A JUCY bérleti szerződése a 2026. május 1-jétől kezdődő foglalásokra 8,00 $-t ír elő 100 km-enként. A Mighty Campers 7,64 $-t közöl, a 4 és 6 fős, vécés és zuhanyos járműveire pedig 8,04 $-t.",
+            "Egy 2000 km-es út egy dízel bérautóval ezért kb. 160–165 $ RUC-ot ad a végszámlához. Néhány cég lehetővé teszi, hogy napi díjként előre kifizesd; kérdezd meg, melyik olcsóbb a tervezett távolságra, és nézd meg a díjat a saját szerződésedben, mert a cég megváltoztathatja."
+          ],
+          "tips": [
+            "Bérelt autó RUC-ja: kb. 8 $ 100 km-enként",
+            "Az autó visszaadásakor számlázzák",
+            "2000 km: kb. 160 $"
+          ],
+          "table": {
+            "caption": "A bérlőcégek RUC-díjai 100 km-enként, az egyes cégek feltételei szerint. Olvasva: 2026. november 3.",
+            "head": [
+              "Cég",
+              "Szokásos autók",
+              "4 és 6 fős, vécével és zuhannyal"
+            ],
+            "rows": [
+              [
+                "Maui",
+                "8,04 $",
+                "8,18 $"
+              ],
+              [
+                "JUCY",
+                "8,00 $",
+                "8,00 $ (egy díj minden autóra)"
+              ],
+              [
+                "Mighty Campers",
+                "7,64 $",
+                "8,04 $"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Olcsóbb a dízel lakóautó, mint a benzines?",
+          "body": [
+            "Literenként a dízel olcsóbb a kútnál, mert nincs benne útadó. Az MBIE heti üzemanyagár-figyelése a 2026. október 23-i hétre a 91-es normál benzint literenként 3,61 $-ra, a dízelt 3,24 $-ra tette. A RUC aztán kb. 7,6 centet ad vissza kilométerenként a saját autódon, vagy kb. 8 centet egy bérelt autón.",
+            "Azonos fogyasztásnál a benzin nyer: egy 100 km-en 10 litert fogyasztó autó benzinnel kb. 36 $-ba kerül 100 km-enként, dízellel pedig kb. 32 $-ba plusz 8 $ RUC, vagyis 40 $. A dízel csak akkor jön ki jobban, ha a dízelautó érezhetően kevesebbet fogyaszt, mint a benzines. A két autó valós fogyasztását hasonlítsd össze, ne a kúti árat."
+          ],
+          "tips": [
+            "Azonos fogyasztásnál a benzin olcsóbb",
+            "A dízel csak alacsonyabb fogyasztással nyer",
+            "Hasonlítsd össze a liter per 100 km értéket"
+          ]
+        },
+        {
+          "heading": "Ha dízel lakóautód van",
+          "body": [
+            "A saját autónak érvényes RUC-engedéllyel kell rendelkeznie, amely a szélvédőn látható, és az óraállásán lévő távolságot fedezi, a következő blokkot pedig a határ elérése előtt kell megvenned. Az engedély az autóval marad, ezért a fel nem használt RUC eladáskor a következő tulajdonosra száll, és visszatérítést igényelhetsz az eladott, leselejtezett vagy exportált autóra, ha legalább 20 $ fel nem használt maradt.",
+            "Használt dízelautó vásárlásakor hasonlítsd össze a RUC-címkét a kilométeróra állásával. Ha az autó már túlment az engedélyén, ezt a távolságot is megveszed."
+          ],
+          "tips": [
+            "Tartsd a RUC-ot a kilométeróra előtt",
+            "A fel nem használt RUC az autóval megy",
+            "Vásárláskor nézd meg a címkét"
+          ]
+        },
+        {
+          "heading": "Mi változik legközelebb",
+          "body": [
+            "Új-Zéland a 2026-os üzemanyagválság idején nem csökkentette az üzemanyag-jövedéki adót és a RUC-ot; a pénzügyminiszter 2026 márciusában kizárta a RUC csökkentését. 2026. augusztus 31-én a kormány eltörölte a 2027. január 1-jére esedékes üzemanyag-jövedékiadó-emelést, és a hozzá tartozó RUC-emelést is elhalasztotta, az emeléseket most 2028. január 1-jétől tervezik.",
+            "A kormány azt is tervezi, hogy a benzines járműveket átviszi a RUC-ra, és megszünteti a benzin jövedéki adóját. A 2025 novemberében benyújtott Land Transport (Revenue) Amendment Bill elindítja ezt a változást, de a benzines autókra nem tűztek ki átállási dátumot, így egy benzines lakóautó 2026–27-ben még a kútnál fizeti az útadóját."
+          ],
+          "tips": [
+            "2027. január 1-jén nincs RUC-emelés",
+            "A benzines autók még nincsenek RUC-on",
+            "Emelések 2028-tól tervezve"
+          ]
+        },
+        {
+          "heading": "Távolságok tervezése a KiwiCampingben",
+          "body": [
+            "A KiwiCamping összeadja az útitervedben lévő megállók közötti vezetési távolságot, így foglalás előtt megbecsülheted a kilométereket és a dízel bérautó RUC-ját. Told el a kempingeket és <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkokat</a>, ahol megállsz, és az útiterv megtartja az összeget.",
+            "A távolság kiszámításához kapcsolat kell, akárcsak a térképhez, az időjáráshoz és a fotókhoz, de minden mentett hely megtartja a részleteit a telefonon a térerő nélküli szakaszokra."
+          ],
+          "tips": [
+            "Add össze az út teljes távolságát",
+            "Becsüld meg a RUC-ot foglalás előtt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Fizetek úthasználati díjat egy bérelt lakóautón Új-Zélandon?",
+          "Igen, ha dízel. A bérlőcég a megtett kilométerek után számlázza a RUC-ot, általában az autó visszaadásakor: a Maui 8,04 $-t számláz 100 km-enként, a JUCY 8,00 $-t, a Mighty Campers pedig 7,64 $-t a legtöbb autóra. A benzines autók nem fizetnek RUC-ot."
+        ],
+        [
+          "Mennyi a RUC egy dízel lakóautóra 2026-ban?",
+          "1000 km-enként 76 $ egy legfeljebb 3500 kg-os könnyű dízeljárműre, és 82 $ a 3501–6000 kg-osra, plusz 12,44 $ ügyintézési díj, ha online vásárolsz. A 2027. január 1-jére tervezett emelést 2028-ra halasztották."
+        ],
+        [
+          "Olcsóbb a dízel vagy a benzines lakóautó Új-Zélandon?",
+          "Azonos fogyasztásnál a benzin olcsóbb: a dízel kevesebbe kerül a kútnál, de a RUC kb. 8 centet ad kilométerenként. A dízelautó csak akkor spórol pénzt, ha érezhetően kevesebbet fogyaszt, mint a benzines."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NZTA: úthasználati díjak és tranzakciós díjak"
+        },
+        {
+          "label": "Calculate.co.nz: NZ road user charges rates 2026"
+        },
+        {
+          "label": "Maui: gyakori kérdések"
+        },
+        {
+          "label": "JUCY New Zealand bérleti szerződés, 2026. május 1-jétől kezdődő foglalások"
+        },
+        {
+          "label": "Mighty Campers: díjak és költségek"
+        },
+        {
+          "label": "MBIE: heti üzemanyagár-figyelés"
+        },
+        {
+          "label": "RNZ: Nicola Willis rules out reduction in road user charges"
+        },
+        {
+          "label": "1News: Government scraps 2027 fuel excise increase"
+        },
+        {
+          "label": "Ministry of Transport: úthasználati díjak rendszere"
+        }
+      ],
+      "priceTable": null
+    },
+    "can-i-fly-a-drone-at-a-doc-campsite-nz": {
+      "title": "Repülhetek drónnal egy DOC-kempingben Új-Zélandon? (2026-os szabályok)",
+      "description": "Nem, DOC-engedély nélkül, és még engedéllyel is távol kell maradnod a kempingektől és a kunyhóktól. A 2026-os engedélyezési zónák, díjak, a CAA Part 101 szabályai és az önkormányzati földek.",
+      "region": "Új-Zéland",
+      "imageAlt": "Légifelvétel a Whāngapoua Beachről és a Coromandel partvidékéről naplementekor",
+      "intro": "Nem, engedély nélkül nem. A Conservation Act 1987 szerint a drón légi járműnek számít, a DOC pedig engedélyt (concession) kér minden olyan légi járműre, amely felszáll, leszáll vagy lebeg állami természetvédelmi területen. Még engedéllyel is arra utasítanak a DOC feltételei, hogy kerüld a forgalmas helyeket, például a kempingeket, a kunyhókat és a parkolókat, így a kemping az a hely a DOC földjén, ahol a repülés a legkevésbé valószínű, hogy elfogadható.",
+      "sections": [
+        {
+          "heading": "Miért rossz hely a kemping a repüléshez",
+          "body": [
+            "A Conservation Act 17ZF szakasza szerint légi jármű nem szállhat le természetvédelmi területen és nem szállhat fel onnan, hacsak nem adtak engedélyt, ugyanez a szakasz pedig azt mondja, hogy a leszállás magában foglalja a lebegést is. A DOC ezt úgy értelmezi, hogy a drónokra minden célra vonatkozik: szabadidős, kereskedelmi és kutatási célra egyaránt. Az a drón, amelyet a kempinghelyedről indítasz, vagy amelyet a mögötte lévő folyó fölött tartasz egyhelyben, beleesik ebbe a szabályba.",
+            "A DOC saját üzemeltetési feltételei az engedélyesek számára még tovább mennek. Arra kérik a pilótákat, hogy a nagy forgalmú pihenőterületektől távol működjenek, névszerint megemlítve a kempingeket, a kempingterületeket, a kunyhókat, a bivakokat, a szálláshelyeket, a parkolókat és a piknikezőhelyeket. Azt is tiltják, hogy bárki felett repülj vagy lebegj az illető beleegyezése nélkül. Egy kemping tele van olyan emberekkel, akik a csendért jöttek, ezért mondják a DOC kemping- és kunyhófeltételei, hogy nincs drónhasználat, hacsak a DOC nem engedélyezi."
+          ],
+          "tips": [
+            "A drón légi jármű a Conservation Act szerint",
+            "A lebegés ugyanannyit számít, mint a leszállás",
+            "Az engedély feltételei a kempingektől terelnek el"
+          ]
+        },
+        {
+          "heading": "DOC drónengedély beszerzése",
+          "body": [
+            "Szabadidős repüléshez a DOC a természetvédelmi területet zöld, narancssárga és piros zónára osztja a Discover the Outdoors térképén. A zöld zónában az engedélyt automatikusan jóváhagyják, és azonnal online kiadják: 180 $ plusz GST, amelyet a DOC engedélyoldala 207 $-nak mutat, egy évig érvényes és legfeljebb 25 kg-os drónokra. A narancssárga zónát eseti alapon bírálják el, legalább 2450 $ plusz GST díjjal, a piros zónát ritkán hagyják jóvá, 180 $ minimális díjjal és öt munkanapos átfutással.",
+            "A térképet úgy nézheted meg, hogy kiválasztod a szabadidős drónengedély réteget, és rákattintasz a területre. A zónák eltérhetnek szabadidős, kutatási és kereskedelmi célra, és a DOC oldala szerint e-mailt kell írni a permissions@doc.govt.nz címre, ha egy területnek nincs színe. A kérelmeket már nem fogadják a helyi DOC-irodákban vagy látogatóközpontokban. A narancssárga és piros kérelmeket e-mailben, a DOC űrlapján kell beadni, és a DOC költségbecsléssel válaszol, mielőtt bármit feldolgozna."
+          ],
+          "tips": [
+            "Zöld zóna: 180 $ plusz GST, azonnal kiadják",
+            "Kérelem előtt nézd meg a zónát",
+            "A narancssárga és a piros e-mailben megy, nem látogatóközpontban"
+          ]
+        },
+        {
+          "heading": "Helyek, ahol a válasz egyszerűen nem",
+          "body": [
+            "Egyes parkok a saját oldalukon kimondják. Az Aoraki/Mount Cook National Park a park egész területén tiltja a szabadidős drónhasználatot, és a White Horse Hill kempingjének oldala a drónokat a nem megengedett dolgok között sorolja fel. A Tongariro Northern Circuit oldalai szerint engedély nélküli drónrepülés szigorúan tilos, a Hump Ridge Track oldala pedig azt mondja, hogy az engedély nélküli drónhasználat a Fiordland National Parkban tilos.",
+            "A DOC kunyhókra, kempingekre, Great Walks-ra, faházakra és szálláshelyekre vonatkozó feltételei tartalmaznak egy kikötést, amely így szól: nincs drónhasználat, hacsak a DOC nem engedélyezi. Ha foglalható DOC-helyen szállsz meg, foglaláskor ebbe beleegyeztél, ezért egy drón az autóban a foglalásod és a szomszédaid számára is kockázat."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "A Civil Aviation szabályai ráadásul érvényesek",
+          "body": [
+            "A DOC-engedély csak a földre vonatkozik. A Civil Aviation Rules 101. része, amelyet a Civil Aviation Authority (CAA) kezel, minden repülésre továbbra is érvényes: maradj 120 méter alatt a talaj felett, tartsd a drónt saját szemeddel látótávolságon belül, repülj nappal, és kérj beleegyezést, mielőtt emberek és ingatlanok felett repülsz. A szabályok a repülőtér határától számított 4 km-en belüli repülést is korlátozzák, hacsak nem teljesülnek további feltételek.",
+            "A DOC előírja az engedélyeseknek, hogy minden repülést naplózzanak az AirSharében, a légtér-alkalmazásban és weboldalon, amely a korlátozott területeket is feltérképezi. Ha repülőtér vagy leszállópálya közelében szeretnél repülni, utazás előtt nézd meg a térképet, és tartsd be az adott zóna szabályait."
+          ],
+          "tips": [
+            "Legfeljebb 120 méter magasság",
+            "Csak nappal és látótávolságon belül",
+            "Beleegyezés emberek vagy ingatlanok feletti repülés előtt"
+          ]
+        },
+        {
+          "heading": "Vadvilág, wāhi tapu és zaj",
+          "body": [
+            "Az engedélyeseknek legalább 100 m-re kell felszállniuk és leszállniuk a vadvilágtól, legalább 50 m-re kell tőle maradniuk, és kerülniük kell a pihenő vagy fészkelő madarakat. A tengeri emlősök, például a delfinek, a fókák és a bálnák vízszintesen 150 m-t igényelnek. Ha egy madár többször körbe-körbe repül vagy lecsap a drónra, azonnal szállj le.",
+            "A DOC azt is kéri a pilótáktól, hogy ne repüljenek és ne filmezzenek wāhi tapu felett, és kérelmezési folyamata magában foglalja a hapū és iwi véleményét. A zaj éppolyan fontos, mint a távolság: egy drón zúgása messzire hallatszik egy csendes folyóparton, és a melletted lévők azért választottak DOC-helyet, mert csendet akartak."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Önkormányzati földek és szabad kempingezési helyek",
+          "body": [
+            "Az önkormányzati rezervátumok és az út menti <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezési</a> területek nem természetvédelmi területek, ezért a DOC engedélye nem vonatkozik rájuk. Saját szabályaik vannak, és a CAA Part 101 továbbra is érvényes. Az Auckland Council a legtöbb helyi parkban engedély nélkül engedi a repülést, de tiltja a drónokat olyan helyeken, mint a temetők, a Tūpuna Maunga helyszínek, a Cornwall Park és a Botanic Gardens, a regionális parkokban pedig engedélyt kér.",
+            "A Christchurch City Council legfeljebb 1,5 kg-os könnyű drónt engedélyez a legtöbb önkormányzati ingatlan felett engedély nélkül, de bármilyen tömegre engedélyt kér az örökségvédelmi parkok közelében, játszótértől vagy parkhatártól 10 méteren belül, valamint a listázott vizes élőhelyeken és tengerparti helyszíneken. Mindig olvasd el az önkormányzat saját oldalát arról a helyről, ahol kempingezel, és olvasd el a táblát a szabad kempingezési területen."
+          ],
+          "tips": [
+            "Minden önkormányzat maga állapítja meg a parkszabályait",
+            "A tömegkorlátok önkormányzatonként eltérnek",
+            "A szabad kempingezési terület nem felhívás repülésre"
+          ]
+        },
+        {
+          "heading": "Magánszféra, beleegyezés és mi történik, ha figyelmen kívül hagyod a szabályokat",
+          "body": [
+            "A Privacy Commissioner szerint a saját céljaidra gyűjtött felvételek általában kívül esnek a Privacy Act hatályán, de az erősen sértő filmezés, például sátrakba vagy fürdőszobákba, így is jogi problémákat vethet fel. A magánszférától függetlenül a CAA szabályai előírják a beleegyezést, mielőtt emberek felett repülsz, egy idegenek kempingje pedig pontosan az a hely, ahol senki nem adta meg.",
+            "Tudatosan DOC-engedély (concession) nélkül repülni a Conservation Act 39. és 43C. szakasza szerint bűncselekmény, magánszemélyre legfeljebb két év börtön vagy legfeljebb 100 000 $ pénzbüntetés a maximális büntetés. A természetvédelmi szabálysértési rendeletek nem sorolnak fel drónspecifikus bírságot, ezért az ügy a bíróságon megy keresztül. A DOC írásos értesítéssel is megszüntetheti az engedélyt, ha a feltételeket megszegik, a CAA pedig fegyelmi lépéseket tehet, beleértve a vádemelést. Drón bejelentéséhez hívd a DOC forródrótját a 0800 DOC HOT (0800 362 468) számon."
+          ],
+          "tips": [
+            "Bűncselekmény a Conservation Act szerint",
+            "A CAA külön vádat emelhet",
+            "Jelentsd a 0800 362 468 számon"
+          ]
+        },
+        {
+          "heading": "Mit tegyél helyette",
+          "body": [
+            "Ha számít a felvétel, vedd meg a zöld zónás engedélyt utazás előtt, válassz egy zöldre térképezett túraútkiindulást vagy tópartot, amely nincs egy kemping mellett, és maradj jó messze más emberektől. Ha csak kilátást szeretnél a kempinghelyről, egy állványra tett telefon vagy egy rúdra szerelt kis kamera közel jár hozzá, a DOC saját tanácsa pedig az, hogy szilárd talajról használj kamerát vagy szelfibotot, vagy hagyd otthon a technikát.",
+            "Ha az útvonalad kempingjeit helyként mented a KiwiCampingben, az iPhone-os alkalmazásban, rövid listát kapsz, amelyet indulás előtt összevethetsz a DOC drónos térképével. A helyek részletei és a mentett helyek jel nélkül is megnyílnak; a térképcsempékhez, az útvonaltervezéshez, az időjáráshoz és a fotókhoz jel kell."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "A rövid változat",
+          "body": [
+            "Engedély nélkül nem repülhet drón <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempingben</a>, és engedéllyel sem szabad a kempingek, a kunyhók vagy a parkolók közelében repülni. Az Aoraki/Mount Cook kerek perec tiltja a szabadidős drónokat, más parkok pedig saját tilalmakat sorolnak fel.",
+            "Nézd meg a zónatérképet, vidd magaddal az engedélyed, naplózd a repülést az AirSharében, maradj 120 méter alatt, és a kempingben hagyd a drónt a táskában."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Repülhetek drónnal egy DOC-kempingben Új-Zélandon?",
+          "Nem, DOC-engedély nélkül nem, és a DOC feltételei még akkor is arra utasítják az engedélyeseket, hogy kerüljék a kempingeket, a kunyhókat és a parkolókat. Néhány hely, például az Aoraki/Mount Cook National Park, teljesen tiltja a szabadidős drónhasználatot."
+        ],
+        [
+          "Kell engedély a drón repüléséhez DOC-földön?",
+          "Igen. Minden drónhoz, amely állami természetvédelmi területen felszáll, leszáll vagy lebeg, DOC-engedély (concession) kell. A zöld zónára szóló szabadidős engedély 180 $ plusz GST, azonnal online kiadják, és egy évig érvényes."
+        ],
+        [
+          "Repülhetek drónnal nemzeti parkban Új-Zélandon?",
+          "Csak DOC-engedéllyel, és több nemzeti park tovább korlátozza. Az Aoraki/Mount Cook tiltja a szabadidős használatot, a DOC pedig azt mondja, hogy az engedély nélküli drónhasználat tilos olyan helyeken, mint a Tongariro Northern Circuit és a Fiordland Hump Ridge Track."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: Drone use on conservation land"
+        },
+        {
+          "label": "DOC: Drone operating conditions"
+        },
+        {
+          "label": "DOC: szabadidős drónengedély igénylése"
+        },
+        {
+          "label": "DOC engedélyek oldala: drónrepülési engedély igénylése a zöld zónákban"
+        },
+        {
+          "label": "DOC: Huts, campsites, Great Walks, cabins and lodges terms and conditions"
+        },
+        {
+          "label": "DOC: White Horse Hill Campsite, Aoraki/Mount Cook National Park"
+        },
+        {
+          "label": "Legislation: Conservation Act 1987 (sections 17ZF, 39, 43C)"
+        },
+        {
+          "label": "CAA: Part 101 rules for drones"
+        },
+        {
+          "label": "Auckland Council: Flying drones and UAVs"
+        },
+        {
+          "label": "Christchurch City Council: Drones and remotely piloted aircraft systems"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Szabad kempingezés Matakana és Warkworth környékén: hol aludjunk",
+      "description": "Hol aludhatsz lakóautóban Matakana és Warkworth környékén: az Auckland Council néhány kis szabadkempingező helye, a foglalással használható Tawharanui és Mahurangi regionális parki kempingek, és a helyettük választható nyaralóparkok.",
+      "region": "Auckland",
+      "imageAlt": "Hullámok mosják a sötét homokot egy nyugati parti strandon, a távolban egy földnyelv és egy tengeri szikla",
+      "intro": "Matakana és Warkworth egy órányira fekszik Aucklandtől északra, és rájuk ugyanaz az Auckland Council rendelet vonatkozik, mint a városra: csak tanúsított önellátó jármű, néhány kitáblázott helyen, pár éjszakára. A helyek itt kicsik, gyakran csak egy maroknyi járműnek jutnak, a környező regionális parkokban pedig tilos a szabad kempingezés. Egy hétvégére a matakanai piacokra vagy a Mahurangi-part strandjaira jobb terv egy lefoglalt kemping vagy egy nyaralópark, az önkormányzati helyek pedig késői érkezésnél jók tartaléknak.",
+      "sections": [
+        {
+          "heading": "Az itt érvényes aucklandi szabályok",
+          "body": [
+            "Auckland Freedom Camping in Vehicles Bylaw rendelete az egész régióra vonatkozik, Rodney-t és a Hibiscus Coastot is beleértve. Az önkormányzati utakon és parkolókban csak tanúsított önellátó járművel szabad kempingezni (<a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezés</a>), ugyanazon a helyen legfeljebb két éjszakát, és az elutazás napján 9 óráig el kell indulnod. Az aucklandi szabad kempingezésről szóló útmutató a rendeletet teljes egészében tárgyalja a tiltott és korlátozott területekkel együtt, ezért ez az oldal a Matakana környéki részre szorítkozik.",
+            "Sátornak vagy tanúsítvány nélküli járműnek nincs helye az önkormányzati területen. 2026. június 7-től csak a <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a> számít, amit az önellátó lakóautó-tanúsítványról szóló útmutató magyaráz el. Az ellenőrzés egész nyáron folyik, és az értesítés a bejegyzett tulajdonoshoz megy, bérautónál ez a kölcsönző cég."
+          ],
+          "tips": [
+            "Az egész régióra érvényes rendelet",
+            "Két éjszaka, reggel 9-ig indulás",
+            "Green warrant szükséges"
+          ]
+        },
+        {
+          "heading": "Önkormányzati helyek Warkworth és a tengerpart közelében",
+          "body": [
+            "Az önkormányzat kitáblázott helyei a környéken kicsik és szétszórtak: egy mólóparkoló Port Albertben a Kaipara-oldalon, néhány hely a warkworthi Parry Kauri Parkban, és egy maroknyi pont a Mahurangi és a Whangaparāoa partján, például Snells Beach, mindegyik három és tíz jármű közötti befogadóképességgel. A lista az önkormányzat térképén és oldalán található, és változik, ezért ellenőrizz egy helyet, mielőtt egy éjszaka múlik rajta.",
+            "Mivel ilyen kevés a hely, nyáron és péntek esténként sötétedés előtt megtelnek. A lefoglalt kemping biztos fekvőhelyet és mosdóblokkot ad, a tervezés nélkül érkezőknek maradó helyeket pedig jobb bónusznak tekinteni, mint tervnek."
+          ],
+          "tips": [
+            "Helyenként 3-10 jármű",
+            "Port Albert a Kaipara-oldalon van",
+            "Az ingyenes helyeket tekintsd tartaléknak"
+          ]
+        },
+        {
+          "heading": "Regionális parkok és foglalható kempingek",
+          "body": [
+            "Az Auckland Council regionális parkjaiban tilos a <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezés</a>, de kettőben foglalható kemping működik, amely jól jön egy hétvégére a környéken: Tawharanui egy hosszú félszigeti út végén, mindkét oldalán strandokkal, és Mahurangi, ahol a kempingek védett öblök fölött fekszenek. Mindkettő az önkormányzaton keresztül foglalható, és a januári legjobb hétvégék hamar elkelnek.",
+            "Sátrasoknak és lakóautósoknak egyaránt valók, van mosdó és víz, és egyes öblök a víztől csak egy rövid sétára vannak. A kutyákra, a tűzre és a csendes órákra a park saját szabályai vonatkoznak, amelyeket a foglalási oldal sorol fel, és ezek szigorúbbak, mint a legtöbb <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkban</a>."
+          ],
+          "tips": [
+            "Tawharanui és Mahurangi: foglalj előre",
+            "A regionális parkokban tilos a szabad kempingezés",
+            "A kutya- és tűzszabályok eltérnek"
+          ]
+        },
+        {
+          "heading": "Nyaralóparkok és DOC-területek",
+          "body": [
+            "Warkworth, Snells Beach, Omaha és Leigh közelében egyaránt van <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralópark</a> vagy motor camp, áramos helyekkel és faházakkal. Karácsonykor ezek a megbízható választás, és a húsvéti hétvége ugyanazokat a tömegeket hozza, mint a strandok. A nyaralóparkokról szóló útmutató elmagyarázza, hogyan működik a foglalás.",
+            "A DOC területei az aucklandi régióban többnyire szigeteken vannak. A KiwiCamping DOC-adatai (2026. augusztus 11.) 9 aucklandi kempinget tartalmaznak, ebből 1 ingyenes és 5 lakóautóval is megközelíthető, a felnőttek éjszakánkénti díja $10 és $18 között van, a Motutapu Island-i Home Bay pedig a legnagyobb, 131 fő befogadására alkalmas. Egyik sincs Matakana közelében közúton."
+          ],
+          "tips": [
+            "Nyaralópark minden strand közelében",
+            "Az aucklandi DOC-helyek szigeteken vannak",
+            "Húsvétkor ugyanúgy megtelnek, mint karácsonykor"
+          ]
+        },
+        {
+          "heading": "A KiwiCamping használata Matakana környékén",
+          "body": [
+            "A KiwiCamping felsorolja az aucklandi környék DOC-kempingjeit és kunyhóit, a nyaralóparkokat a szolgáltatásaikkal és az ürítőállomásokkal, lakóautós megközelíthetőségi szűrőkkel. Az önkormányzat <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezésre</a> kijelölt helyeit és a regionális parkok foglalásait nem tartalmazza, ezekhez használd az önkormányzat oldalait.",
+            "Add hozzá a matakanai éjszakát egy Auckland és a Bay of Islands közötti úthoz, és olvasd le a távolságot és az autózási időt a következő megállóig, ami Whangārei, alig több mint egy órányira. A mentett helyek a telefonon maradnak, a térképhez, az útvonalakhoz, az előrejelzéshez és a fotókhoz viszont kapcsolat kell, ami a félszigeti utakon ingadozó. Ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "Önkormányzati és parki foglalás: használd az ő oldalaikat",
+            "Whangārei nagyjából egy órányira van",
+            "A mentett helyek a telefonon maradnak"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kempingezhetek szabadon Matakana közelében?",
+          "Csak tanúsított önellátó járművel, az önkormányzat egyik kis kitáblázott helyén, legfeljebb két éjszakára. A regionális parkok és a legtöbb rezervátum le van zárva előle, ezért a lefoglalt kemping vagy nyaralópark a biztosabb terv."
+        ],
+        [
+          "Kempingezhetek a Tawharanui Regional Parkban?",
+          "Igen, a foglalható kempingjében, nem szabad kempingezésként. Az indulás előtt foglalj az Auckland Councilnél."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: szabad kempingezés"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: szabad kempingezés"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping Új-Zélandon: hol aludjunk jurtában, kupolában és szafarisátorban",
+      "description": "Glamping Új-Zélandon: mi ez, milyen szálláskategóriák vannak, a legjobb régiók a Bay of Islandstől Queenstownig, mennyibe kerül és mikor foglalj, és hogyan illeszkedik egy lakóautós útba.",
+      "region": "Új-Zéland",
+      "imageAlt": "A Bay of Islands Waitangi mellett egy napsütéses napon",
+      "intro": "A glamping olyan kempingezés, ahol a kényelem már fel van állítva: szafarisátor valódi ággyal, jurta kandallóval, kupola a csillagos ég alatt, apró faház egy tó partján. Új-Zélandon rengeteg van belőlük a Bay of Islandstől Queenstownig, többnyire magánkézben, farmokon, szőlőültetvényeken és nyaralóparkokban. Egy-két éjszakára való egy lakóautós úton, jutalomként, esős időszakra vagy különleges alkalomra.",
+      "sections": [
+        {
+          "heading": "Mi számít glampingnek",
+          "body": [
+            "Hivatalos meghatározás nincs, és a választék széles. A szafari- és harangsátrakban valódi ágy és terasz van, a jurtákban és kupolákban fűtés, néha saját fürdőszoba, a kisházak, faházak és lombházak pedig valahol köztük helyezkednek el. A legtöbb magánterületen áll, néhány <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkban</a> is van. A DOC nem üzemeltet glampinget, bár vannak kunyhói és faházai.",
+            "Nézd meg, mi tartozik hozzá: az ágynemű, a fürdőszoba, a konyha, a fűtés és a reggeli nagyon különböző lehet, ahogy az ár is. Egy félreeső glamping szálláson komposztáló vécé lehet, áram nélkül, ezért érdemes figyelmesen elolvasni a hirdetést."
+          ],
+          "tips": [
+            "Szafarisátrak, jurták, kupolák és apró házak",
+            "Többnyire magánterületen",
+            "Nézd meg, mi tartozik hozzá"
+          ]
+        },
+        {
+          "heading": "Hol keress",
+          "body": [
+            "A Bay of Islandsen és Northlandben farmszállások és tengerparti sátrak vannak, a Coromandelen strandi és bokros helyek, Waihekén szőlőültetvények és kilátás. A Déli-szigeten a Marlborough Sounds, az <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> és a Golden Bay vízparti lehetőségeket kínál, Queenstownban, Wānakán és Central Otagóban pedig tóparti és szőlőültetvényi helyek vannak hegyi kilátással.",
+            "Kaikōurában, Tekapónál és az Aoraki Mount Cooknál sötét égbolt alatti szállások vannak, csillagnézésre való kupolákkal. Az Abel Tasman, a Bay of Islands és Queenstown a legforgalmasabb, ezért csendesebb helyért nézz távolabb."
+          ],
+          "tips": [
+            "Northland, Coromandel és Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Kupolák csillagnézéshez"
+          ]
+        },
+        {
+          "heading": "Költségek és mikor foglalj",
+          "body": [
+            "Az árak nagyon eltérnek: az egyszerű sátraké nagyjából egy jó motelszoba árával egyezik, a luxuskupoláké és lodge-oké több száz dollár éjszakánként, és nyáron meg az iskolai szünetekben emelkednek. Nézd meg a szolgáltató saját oldalán az aktuális árat és hogy mi tartozik hozzá, és kérdezd meg a lemondási feltételeket, mert az időjárás felboríthat egy tervet.",
+            "A legjobb helyek decembertől februárig, valamint húsvétra és az iskolai szünetekre hónapokkal előre elkelnek, ezért amint megvannak a dátumaid, foglalj. Nyáron kívül jó árak vannak, bár néhány hely télen bezár. Az iskolai és munkaszüneti napokról szóló útmutatóban megtalálod a dátumokat."
+          ],
+          "tips": [
+            "Nyáron emelkednek az árak",
+            "Nézd meg a lemondási feltételeket",
+            "Nyárra hónapokkal előre foglalj"
+          ]
+        },
+        {
+          "heading": "A glamping beillesztése egy lakóautós útba",
+          "body": [
+            "Egy glamping éjszaka a lakóautós éjszakák között rendes ágyat, meleg zuhanyt és vezetés nélküli időt ad, és esős időben is jó tartalék. Különösen ott jó, ahol a <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezés</a> tilos és kevés a hely, például a Bay of Islandsen, Queenstownban és az Abel Tasmanon.",
+            "Ha van lakóautód, a faházakkal rendelkező <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralópark</a> olcsóbb választás egy pihenőéjszakára, és a nyaralóparkokról szóló útmutató részletezi a lehetőségeket. Az esős időben való kempingezésről szóló útmutatóban több szó esik arról, hogyan maradj szárazon és hogyan találj helyet."
+          ],
+          "tips": [
+            "Egy kényeztető éjszaka a lakóautós éjszakák között",
+            "Tartalék esős időre",
+            "A nyaralóparki faházak olcsóbbak"
+          ]
+        },
+        {
+          "heading": "Az odajutás és mit vigyél",
+          "body": [
+            "Sok glamping hely kavicsos vagy farmi úton van, némelyiknek meredek a felhajtója, ezért nézd meg az útleírást, és hogy lakóautóval megközelíthető-e. Kérdezd meg a háziaktól, hová parkolhatsz a járművel. Vigyél meleg ruhát, zseblámpát, rovarriasztót és saját élelmet, ha a szálláson nincs konyha, és figyelj a bejelentkezési időkre, mert a házigazdák gyakran nincsenek egész nap a helyszínen.",
+            "Tiszteld a földet, vidd el a szemetedet, és éjszaka maradj csendben, mert sok hely működő farmon van, állatokkal. A <a data-guide=\"responsible-camping-new-zealand\">felelős kempingezésről</a> szóló útmutató összefoglalja az alapokat."
+          ],
+          "tips": [
+            "Ellenőrizd, hogy az út járható-e lakóautóval",
+            "Vigyél meleg ruhát és zseblámpát",
+            "Tiszteld a működő farmokat"
+          ]
+        },
+        {
+          "heading": "Az utad megtervezése a KiwiCampingben",
+          "body": [
+            "iPhone-on a KiwiCamping térképre teszi a <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempingeket</a>, kunyhókat és nyaralóparkokat, lakóautós megközelíthetőség és szolgáltatások szerint szűri őket, és a nyaralóparkokat a foglalható szálláshelyeikkel mutatja. Mentsd el a kedvenc helyeidet, add hozzá őket egy dátumozott úthoz, és minden megállóhoz előrejelzés tartozik. A magán glamping helyek nincsenek listázva, ezekhez nézd meg a szolgáltatók saját oldalait.",
+            "A <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparki</a> szállások a hirdetésen keresztül foglalhatók, a DOC-foglalások pedig a DOC saját oldalain maradnak. Ingyen letölthető, alkalmazáson belüli vásárlásokkal."
+          ],
+          "tips": [
+            "Mentsd el a nyaralóparkokat és kunyhókat",
+            "Előrejelzés minden megállónál",
+            "A magán glampinget a szolgáltatónál foglalod"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mi az a glamping Új-Zélandon?",
+          "Kempingezés kész kényelemmel, például szafarisátor ággyal, jurta vagy kupola, általában magánterületen. Nézd meg, mi tartozik hozzá, mert nagyon eltérő."
+        ],
+        [
+          "Mikor foglaljak glampinget Új-Zélandon?",
+          "Decembertől februárig és az iskolai szünetekre hónapokkal előre. Télen és az átmeneti évszakokban könnyebb, bár néhány hely bezár."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: különleges szálláshelyek"
+        },
+        {
+          "label": "DOC: szálláshelyek"
+        },
+        {
+          "label": "MBIE: az iskolai és munkaszüneti napok dátumai"
+        }
+      ],
+      "priceTable": null
+    },
+    "working-holiday-road-trip-budget-new-zealand-2026": {
+      "title": "Working holiday road trip költségvetés NZ-n 2026: heti bontásban",
+      "description": "Egy hét kempingezés és üzemanyag egy furgonban nagyjából $318 és $878 között van, attól függően, hol alszol. Vízumpénz, minimálbér, DOC-díjak és az egyes összegek mögötti számítás.",
+      "region": "Új-Zéland",
+      "imageAlt": "Szépen sorakozó szőlőtőkék a marlborough-i Wairau-völgyben, a távolban száraz dombokkal",
+      "intro": "Egy hét kempingezés és üzemanyag egy új-zélandi road tripen nagyjából $318-ba kerül, ha ingyenes DOC-kempingeket használsz és szabadon kempingezel, és legfeljebb nagyjából $878-ba hetente, ha minden éjszaka áramos nyaralóparki hely, heti 800 km-rel egy benzines furgonban. Ebben nincs benne az étel, maga a furgon és a vízum. Az Immigration New Zealand a working holiday kérelmezőktől a legtöbb országból NZ$4 200 összegű pénzeszközt kér, a vízum díját NZ$770-től tünteti fel, a felnőtt minimálbér pedig 2026. április 1-jétől óránként $23,95. Minden összeg új-zélandi dollárban van, 2026. október 21-én olvastuk le őket, és megmutatjuk a számítást, hogy módosíthasd a feltevéseket.",
+      "sections": [
+        {
+          "heading": "Repülés előtt: vízum és pénzeszközök",
+          "body": [
+            "Az Immigration New Zealand minden jogosult országnak külön working holiday oldalt közöl. A Németország, Kanada, USA, Franciaország, Írország és Japán oldalai legalább $4 200 pénzeszközt kérnek, az Egyesült Királyság oldala pedig legalább $350-t havonta. Ezen felül tovább utazáshoz szükséges jegy vagy annak megvásárlására elég pénz is kell, a bizonyíték pedig bankszámla- vagy hitelkártya-kivonat. Minden országoldal a vízum díját „from $770” formában mutatja, az útlevelednek megfelelő pontos díj csak az országadataid megadása után jelenik meg.",
+            "Az International Visitor Levy $100 sok working holiday-es utazónak, és az Immigration New Zealand díjról szóló oldala elmagyarázza, ki fizeti. Ez az útmutató az oldal szövegéből nem tudta megerősíteni, hogy a $770-en felül kell-e fizetni, ezért nézd meg a kérelmed összesítőjét. A vízum a vízum időtartamára engedélyez ideiglenes munkát, összesen legfeljebb 6 hónap tanulást, és nem kell hozzá állásajánlat, de állandó állás nem vállalható, és vállalkozást sem működtethetsz. A korhatár a legtöbb országoldalon 18 és 30 év között van, az Egyesült Királyságnál és Kanadánál 18 és 35 év között."
+          ],
+          "tips": [
+            "A pénzeszközök országonként eltérnek",
+            "A $770 kiindulási összeg",
+            "Nézd meg a díjat a kérelmeden"
+          ]
+        },
+        {
+          "heading": "Mennyibe kerül egy hét kempingstílusonként",
+          "body": [
+            "A táblázat két megadott feltevést használ. Az üzemanyag heti 800 km 100 kilométerenként 11 literrel, vagyis 88 liter, az MBIE országos táblaára szerint a normál benzinre 2026. október 16-án (előzetes) literenként $3,617: 88 szorozva $3,617-tel nagyjából $318. A kempingezéshez a DOC díjoldalát használjuk, a <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkokhoz</a> pedig a kempingdíjakról szóló útmutatóban használt, helyenként és éjszakánként $25 és $80 közötti tervezési sávot, mert a nyaralópark-láncok az éjszakai árakat csak a foglalási rendszerükben teszik közzé.",
+            "Egy dízelfurgon megváltoztatja az üzemanyagsort. Literenkénti $3,245-ös áron 88 liter nagyjából $286-ba kerül, a bérelt furgon útfelhasználási díja (road user charges) a thl 100 kilométerenkénti $8,04-es díjával 800 km-re nagyjából $64-t tesz hozzá, így a hét nagyjából $350. A saját furgon 1000 kilométerenként fizet RUC-ot, a díj az NZTA oldalán található."
+          ],
+          "tips": [
+            "Az útvonalad szerint módosítsd a kilométereket",
+            "A nyaralóparki árak helyárak, nem személyenkéntiek",
+            "A dízel RUC-ot ad hozzá"
+          ],
+          "table": {
+            "caption": "Kempingezés plusz üzemanyag egy hétre, 7 éjszaka, 800 km 11 L/100 km fogyasztással egy benzines furgonban, literenkénti $3,617-es áron. Az étel és a furgon nincs benne.",
+            "head": [
+              "Kempingstílus",
+              "Kempingezés, 7 éjszaka",
+              "Üzemanyaggal, egyedül utazó",
+              "Üzemanyaggal, két felnőtt egy furgonban"
+            ],
+            "rows": [
+              [
+                "Ingyenes: egyszerű DOC-kempingek és szabad kempingezés",
+                "$0",
+                "$318",
+                "$318"
+              ],
+              [
+                "DOC standard kempingek, $10-tól $20-ig felnőttenként éjszakánként",
+                "$70-tól $140-ig felnőttenként",
+                "$388-tól $458-ig",
+                "$458-tól $598-ig"
+              ],
+              [
+                "DOC szolgáltatásos, áram nélküli, $25 felnőttenként éjszakánként",
+                "$175 felnőttenként",
+                "$493",
+                "$668"
+              ],
+              [
+                "Nyaralóparki hely, $25-tól $80-ig éjszakánként (tervezési sáv)",
+                "$175-tól $560-ig helyenként",
+                "$493-tól $878-ig",
+                "$493-tól $878-ig"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kempingköltségek: DOC-díjak és a Campsite Pass",
+          "body": [
+            "A DOC díjoldala a szolgáltatásos áram nélküli vagy sátorhelyeket $25-ért sorolja fel felnőttenként (18 évtől) és $12,50-ért gyerekenként (5 és 17 év között), a szolgáltatásos áramos helyeket $20 és $28 között felnőttenként és $10 és $14 között gyerekenként, a standard kempingeket pedig $10 és $20 között felnőttenként és $5 és $10 között gyerekenként. Az egyszerű kempingek ingyenesek, a csecsemők is ingyenesek. A backcountry és Great Walk kempingek díja változó. Egy üresen hagyott sátor vagy jármű után két felnőttnek megfelelő díjat számítanak.",
+            "A DOC Campsite Pass $295-be kerül felnőttnek és $147,50-be gyereknek vagy fiatalnak, a választott kezdődátumtól egy évig érvényes, és a legtöbb <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempinget</a> lefedi, egy kizárt lista kivételével. Egyetlen kempingben legfeljebb 7 éjszakát enged meg 30 napos időszakban, és az áramos kempingekben éjszakánként $3-t ad hozzá minden pass-használóra. Éjszakánként $25-nál a $295 nagyjából 12 éjszaka, vagyis a pass csak akkor térül meg, ha sok fizetős DOC-helyen szállsz meg. A nyaralóparki klubok eltérnek: a TOP 10 saját oldala a klubját 2 évre $55-ért sorolja fel, a wellingtoni TOP 10-ben pedig a mosás $6 gépenként, a szárítás is $6."
+          ],
+          "tips": [
+            "Hasonlítsd össze a $295-t a valószínű éjszakáiddal",
+            "A pass kempingenként 30 napban 7 éjszakára korlátoz",
+            "A DOC-díjak szezononként változhatnak"
+          ]
+        },
+        {
+          "heading": "Üzemanyag, komp és a furgon",
+          "body": [
+            "Hosszú útvonalon az üzemanyag a legnagyobb folyó költség, ezért az üzemanyag-útmutatóval váltsd át a távolságodat. A <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook-szoros</a> átkelése járművel többe kerül, mint egy gyalogos jegy: az Interislander szerint a járművek viteldíja $258-tól indul, és járatonként, viteldíjtípusonként és a foglalás előidejétől függően változik, az árat pedig a jármű hossza határozza meg. A Bluebridge az oldal szövegében nem mutat viteldíjat.",
+            "Ha bérelsz, a lakóautó-bérlési költségek útmutatója a napi díjat, a biztosítást, az egyirányú díjakat és a kiegészítőket tárgyalja. Ha vásárolsz, a vásárlási útmutató a <a data-guide=\"wof-registration-campervan-new-zealand\">WoF</a>-ot, a rego-t és a tulajdonosváltást tárgyalja, az eladási útmutató pedig a végén való kiszállást. A Jucy Crib a $95-ös csúcsáron 7 napra $665-ba kerül a biztosítás és a kiegészítők előtt."
+          ],
+          "tips": [
+            "Nyáron foglald előre a kompot",
+            "A furgon árát a futási költségektől külön számold",
+            "Hasonlítsd össze a bérlést a vétellel és eladással"
+          ]
+        },
+        {
+          "heading": "Mennyit kereshetsz",
+          "body": [
+            "2026. április 1-jétől a felnőtt minimálbér óránként $23,95 adózás előtt, ami egy 8 órás napra $191,60, egy 40 órás hétre $958. A kezdő és a tanulói bér óránként $19,16. Az Employment New Zealand szerint az ideiglenes migráns munkavállalókat ugyanazok az alapjogok illetik meg, és a béreket évente felülvizsgálják.",
+            "Hasonlítsd ezt össze egy hét $318 és $878 közötti kempingezésével és üzemanyagával: minimálbéren egy 40 órás hét adózás előtt a táblázat minden sorát fedezi, de az étel, a furgon és az adó még hátravan. A betakarítási és vendéglátóipari munkaórák változnak, ezért az összeget tekintsd felső határnak, nem ígéretnek."
+          ],
+          "tips": [
+            "A bérek adózás előttiek",
+            "A kezdő bér $19,16",
+            "A munkaórák munkától és szezontól függnek"
+          ]
+        },
+        {
+          "heading": "Tervezd meg az útvonalat és az éjszakákat a KiwiCampingben",
+          "body": [
+            "A KiwiCamping a beépített adataiban 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempinget</a> és 927 DOC-kunyhót sorol fel (2026. augusztus 24-i állapot), minden hely kategóriájával és a DOC szerinti díjával. Szűrj költségre az ingyenes helyekért, mentsd el a kiválasztottakat, és építs belőlük utat sorba rendezett megállókkal, dátumokkal, valamint a köztük lévő távolsággal és autózási idővel, így a kilométereid, és velük az üzemanyagsorod egy valódi útvonalból jön. A helyoldalak térerő nélkül is működnek a telefonon, a térképek, útvonalak, az előrejelzés és a fotók visszatérnek, ha újra van jeled. A KiwiCamping ingyen letölthető, alkalmazáson belüli vásárlásokkal.",
+            "Az alkalmazás nem szab árat a <a data-guide=\"holiday-parks-new-zealand-guide\">nyaralóparkoknak</a> vagy a bérlésnek. Használd az éjszakák és kilométerek megszámolásához, aztán töltsd ki a fenti táblázatot."
+          ],
+          "tips": [
+            "A költségszűrővel találsz ingyenes helyeket",
+            "Előbb számold meg az éjszakákat és a kilométereket",
+            "Minden éjszakára mentsd el a tartalék helyet"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mennyi pénz kell egy új-zélandi working holidayhoz?",
+          "Az Immigration New Zealand a Németország, Kanada, USA, Franciaország, Írország és Japán oldalain legalább $4 200 pénzeszközt kér, az Egyesült Királyságnál legalább $350-t havonta, emellett tovább utazáshoz szükséges jegyet vagy annak megvásárlására elég pénzt. A vízum díja $770-től tűnik fel, a pontos díjat a kérelem benyújtásakor mutatja."
+        ],
+        [
+          "Mennyibe kerül egy hét road trip Új-Zélandon?",
+          "A kempingezés és az üzemanyag egy benzines furgonban, heti 800 km mellett nagyjából $318 és $878 között van: $318 ingyenes kempingekkel, és legfeljebb $878 áramos nyaralóparki helyeken, a $25 és $80 közötti tervezési sávval. Az étel, a furgon és a vízum extra."
+        ],
+        [
+          "Megéri a DOC Campsite Pass egy working holidayhoz?",
+          "Felnőttnek $295-ért csak akkor térül meg, ha sok éjszakát töltesz fizetős DOC-kempingekben. Éjszakánként $25-nál nagyjából 12 éjszakát fed le, egyetlen kempingben 30 napban 7 éjszakát enged meg, és az áramos helyeken éjszakánként és használónként $3-t ad hozzá."
+        ],
+        [
+          "Mennyi a minimálbér Új-Zélandon 2026-ban?",
+          "2026. április 1-jétől felnőtteknek óránként $23,95 jár adózás előtt, ami egy 40 órás hétre $958. A kezdő és a tanulói bér $19,16, és az ideiglenes migráns munkavállalókat ugyanazok az alapjogok illetik meg."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Immigration New Zealand: Germany working holiday visa"
+        },
+        {
+          "label": "Immigration New Zealand: United Kingdom working holiday visa"
+        },
+        {
+          "label": "Immigration New Zealand: Canada working holiday visa"
+        },
+        {
+          "label": "Immigration New Zealand: paying the International Visitor Levy"
+        },
+        {
+          "label": "Employment New Zealand: minimum wage rates and types"
+        },
+        {
+          "label": "MBIE: weekly fuel price monitoring data"
+        },
+        {
+          "label": "DOC: kempingek szolgáltatásai és díjai"
+        },
+        {
+          "label": "DOC: Campsite Pass"
+        },
+        {
+          "label": "TOP 10 Holiday Parks: Wellington"
+        },
+        {
+          "label": "Interislander: Cook-szoros kompjegyárak és fizetési lehetőségek"
+        },
+        {
+          "label": "thl: Summary of Rental Conditions, New Zealand, version 16"
+        },
+        {
+          "label": "Jucy: mennyibe kerül egy lakóautó bérlése Új-Zélandon"
+        }
+      ],
+      "priceTable": null
+    },
+    "north-island-vs-south-island-campervan": {
+      "title": "Észak-sziget vagy Déli-sziget lakóautóval: melyik? (2026)",
+      "description": "Hasonlítsd össze a szigeteket lakóautóval: a Cook-szoros komp szabályai, egyirányú bérlési díjak, DOC-kempingek és kunyhók, Great Walks és téli utak. Hivatalos tények, felhajtás nélkül.",
+      "region": "Új-Zéland",
+      "imageAlt": "Az Interislander Cook-szoros kompja Picton kikötőjében, mögötte erdős marlborough-i Sounds-dombokkal",
+      "intro": "A Déli-szigeten több a DOC-kemping, kunyhó és Great Walk, mint az Északin, de mindkét szigetre ugyanaz a szabad kempingezési törvény vonatkozik, és a lakóautósok számára az igazi különbség a Cook-szoros komp. A bérlőcégek szerint a komppal kell átvinni a furgont a szigetek között, az átkelés nagyjából 3,5 órás és külön foglalandó, az Auckland és a dél közötti egyirányú bérlésnek pedig díja van. Az alábbi szabályokat és díjakat 2026. október 21-én olvastuk le, a számok pedig a KiwiCamping beépített adataiból származnak, a 2026. augusztus 24-i állapot szerint.",
+      "sections": [
+        {
+          "heading": "A Cook-szoros komp a választóvonal",
+          "body": [
+            "Az Interislander Wellington és Picton közötti átkelése nagyjából 3,5 órát vesz igénybe, a járművek viteldíja $258-tól indul, az árat a járat, a viteldíjtípus, a foglalás előidejének hossza és a jármű hossza határozza meg. A járművet a foglaláskor adod hozzá a típusával, magasságával és teljes hosszával, a kerékpártartót, tetőboxot és vontatóhorgot is beleértve. A járműhely gyorsan megtelik, különösen hétvégén, iskolai szünetekben és nyáron, és foglalás nélküli érkezés nem garantál helyet. A módosítás személyenként $20-ba és járművenként $30-ba kerül a viteldíjfeltételek oldala szerint. A Bluebridge-nek külön lakóautó- és motorhome-kategóriája van, és személyenként és járművenként $20 módosítási díjat számít fel.",
+            "A thl bérlőcsoport szerint a szigetek között komp használata kötelező, azt magadnak kell lefoglalnod, és 7,7 m-es motorhome-helyet kell foglalnod, bármekkora furgont béreltél. A Wicked Campers is megadja, hogy a komp nincs benne. A <a data-guide=\"cook-strait-ferry-campervan-guide\">Cook-szoros</a> útmutató lépésről lépésre végigvezet a foglaláson."
+          ],
+          "tips": [
+            "Foglald előre a járműhelyet",
+            "Add meg a valódi hosszt",
+            "A komp a bérléstől külön van"
+          ]
+        },
+        {
+          "heading": "Az egyirányú bérlési díjak az egy szigeten maradásnak kedveznek",
+          "body": [
+            "Az Aucklandben kezdődő és Christchurchben vagy Queenstownban végződő út egyirányú bérlést használ. A thl csoport díja Aucklandtől Christchurchig vagy Queenstownig $200 (2026. április 1-jétől szeptember 30-ig) és $300 (2026. október 1-jétől 2027. március 31-ig), az ellenkező irányban pedig $200 október 1-jétől március 31-ig. Christchurchtől Queenstownig egész évben $200, Queenstowntól Christchurchig október 1-jétől március 31-ig $100. A Spaceships szerint az egyirányú utazásnak nincs külön díja. A thl ezenfelül $270 queenstowni telephelydíjat számít fel.",
+            "Egy rövidebb útra az olcsóbb terv egy sziget, oda-vissza bérlés és komp nélkül. Hosszabb útnál az egyik városban bérelni és a másikban leadni megspórolja a visszafordulást, és a komp a költségvetés egy sora lesz, nem a főcím."
+          ],
+          "tips": [
+            "Hasonlítsd össze az oda-vissza és az egyirányú végösszegeket",
+            "Nézd meg a queenstowni díjat",
+            "A Spaceships nem közöl egyirányú díjat"
+          ]
+        },
+        {
+          "heading": "Kemping- és túrakínálat szigetenként",
+          "body": [
+            "A KiwiCamping beépített adatai szigetenként számolják a helyeket. A DOC-kempingek, kunyhók és túraútvonalak mind többen vannak a Déli-szigeten, ahol sokkal több a kunyhói fekvőhely is. A DOC szerint több mint 320 kempinget kezel országszerte, és a <a data-guide=\"freedom-camping-new-zealand-guide\">szabad kempingezés</a> oldalán nem tesz közzé szigetenkénti számot, ezért az alábbi alkalmazásszámok az alkalmazás saját számai az általa tartalmazott helyekről, nem az Új-Zélandon lévő összes helyről szóló állítás.",
+            "A DOC Great Walks összehasonlítása tizenegy túrát sorol fel: hármat az Északi-szigeten (Lake Waikaremoana, Tongariro Northern Circuit és a Whanganui Journey) és hetet a Déli-sziget szárazföldi részén (<a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a>, Heaphy, Paparoa, Routeburn, Kepler, Milford és Hump Ridge), valamint a Rakiura Trackot Stewart Island/Rakiurán."
+          ],
+          "tips": [
+            "Az alkalmazás számai a beépített adataira vonatkoznak",
+            "A Great Walkokhoz DOC-foglalás kell",
+            "Nézd meg a DOC oldalát minden túrához"
+          ],
+          "table": {
+            "caption": "A KiwiCamping beépített adataiban lévő helyek szigetenként, 2026. augusztus 24-i állapot. A Great Walks a DOC összehasonlító oldaláról, 2026. október 21-én olvasva.",
+            "head": [
+              "Sziget",
+              "DOC-kempingek",
+              "DOC-kunyhók",
+              "DOC-túraútvonalak",
+              "Great Walks"
+            ],
+            "rows": [
+              [
+                "Északi-sziget",
+                "122",
+                "245",
+                "635",
+                "3"
+              ],
+              [
+                "Déli-sziget",
+                "165",
+                "682",
+                "814",
+                "7 a szárazföldi részen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "A szabályok nem változnak a szigetek között",
+          "body": [
+            "A <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> Act, az országos green warrant szabály és a bírságok országszerte érvényesek. Köztulajdonú területen a szabad kempingezéshez green warranttal rendelkező, tanúsított önellátó jármű kell, kivéve, ha egy helyet más járművekre jelöltek ki, a kék matricák pedig 2026. június 7-én megszűntek érvényesnek számítani. Ami eltér, az az egyes önkormányzatok rendelete és az egyes DOC-körzetek közleményei, ezért nézd meg a helyi szabályt abban a városban vagy körzetben, ahol vagy.",
+            "A bérlőcég útlistája mindkét szigeten érvényes. A thl és a Travellers Autobarn kizárja a Crown Range és Cardrona Valley útját, a Skippers Roadot és a Ninety Mile Beachet, a thl pedig a Coromandelt is kizárja Colville és Waikawau északi részén, valamint a síterepekre vezető utakat június 1-jétől október 31-ig."
+          ],
+          "tips": [
+            "Ugyanaz a törvény, eltérő rendeletek",
+            "Nézd meg a DOC-körzet közleményeit",
+            "Olvasd el a bérlő útlistáját"
+          ]
+        },
+        {
+          "heading": "Tél és hegyi hágók",
+          "body": [
+            "Az NZTA Journey Plannerében egy 2025. szeptemberi közleményben hófigyelmeztetések szerepeltek a Crown Range, a Haast Pass, a Lindis Pass, az Arthur's Pass és a Lewis Pass területére. Ez egyetlen esemény, nem állandó szabály, de megmutatja, hogy ezek a Déli-szigeti hágók hideg időben lezárulhatnak vagy óvatosságot igényelhetnek. A <a data-guide=\"winter-driving-new-zealand-campervan\">téli vezetésről</a> szóló útmutató a hóláncokat és az ellenőrzéseket tárgyalja, az NZTA útvonaltervezője pedig az élő állapotot mutatja.",
+            "Az északi-szigeti útvonalakon más korlátok vannak, például a Tongariro-vidék alpesi időjárása a KiwiCamping saját 14 napos útmutatójában, amely a transzferek és az alpesi előrejelzés köré tervez. Az NZTA közleményében megnevezett hágók mind a Déli-szigeten vannak, ezért nézd meg az előrejelzéseket és az NZTA élő állapotjelentéseit, mielőtt télen egy hegyi szakaszra elköteleződsz."
+          ],
+          "tips": [
+            "Minden hágó előtt nézd meg az NZTA-t",
+            "Vigyél hóláncot, ha bérled",
+            "Télen tervezz rugalmas napokat"
+          ]
+        },
+        {
+          "heading": "Melyik sziget illik hozzád",
+          "body": [
+            "A Déli-szigetet válaszd, ha a kunyhók, túraútvonalak és Great Walkok a lényeg: mindegyikből több van a KiwiCamping adataiban és a DOC listáján, a hágóutakkal és a komppal vagy az egyirányú díjjal együtt, ami egy oda vezető úttal jár. Az Északi-szigetet válaszd egy komp nélküli körhöz, például a KiwiCamping útmutatójának 14 napos útvonalához.",
+            "Egy út, amelyre mindkét szigetre jut idő, kifizeti a kompot és az egyirányú bérlést, de nagyjából három hét kell hozzá, hogy ne kapkodj. A háromhetes útvonal és a kéthetes Északi-szigeti útmutató megmutatja, hogyan alakul mindkettő."
+          ],
+          "tips": [
+            "Rövid út: egy sziget",
+            "Három hét: mindkettő",
+            "Előbb számold ki a komp és az egyirányú díj árát"
+          ]
+        },
+        {
+          "heading": "Tervezz mindkét szigetre a KiwiCampingben",
+          "body": [
+            "A KiwiCamping Északi-szigeti 14 napos útmutatója 1306 km-t fed le 21 hellyel, az összes helyét egy koppintással elmentheted, aztán hozzáadhatsz megállókat a Déli-szigeten, ha átkelsz. Építhetsz utat sorba rendezett megállókkal, dátumokkal, valamint a köztük lévő távolsággal és autózási idővel, az adatok pedig 287 <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-kempinget</a> és 927 DOC-kunyhót fednek le 2026. augusztus 24-i állapot szerint. Térerő nélkül is olvashatók a kempingek és kunyhók adatai, a térképcsempék, az útvonaltervezés, az időjárás és a fotók újracsatlakozáskor térnek vissza. A KiwiCamping ingyen letölthető, alkalmazáson belüli vásárlásokkal.",
+            "Az alkalmazás nem foglalja le a kompot vagy a furgont. Használd arra, hogy lásd, milyen messze vannak egymástól a megállók, aztán számold ki az átkelés árát."
+          ],
+          "tips": [
+            "Egy egész útmutatót mentsd el egyszerre",
+            "Nézd meg az útvonal összes kilométerét",
+            "Add hozzá a komp napját megállóként"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kompra kell vinnem a lakóautót a Cook-szoroson, ha mindkét szigetet meg akarom látogatni?",
+          "Igen. A thl, amelyé a Maui, a Britz, az Apollo és a Mighty, azt mondja, hogy a szigetek között komp használata kötelező, és azt magadnak kell lefoglalnod az üzemeltetőnél. Az átkelés nagyjából 3,5 órás, az Interislander járműviteldíjai pedig $258-tól indulnak."
+        ],
+        [
+          "Olcsóbb egy szigeten maradni lakóautóval?",
+          "Általában igen, mert elkerülöd a kompot. Ugyanabból a városból való oda-vissza bérlés az egyirányú díjat is elkerüli, amit a thl csoport Aucklandtől Christchurchig vagy Queenstownig a dátumtól függően $200-ban vagy $300-ban állapít meg."
+        ],
+        [
+          "Melyik szigeten van több DOC-kemping?",
+          "A KiwiCamping beépített adataiban 2026. augusztus 24-i állapot szerint a Déli-szigeten 165, az Északi-szigeten 122 DOC-kemping van, a Déli-szigeten pedig 682 DOC-kunyhó az Északi-sziget 245-jével szemben."
+        ],
+        [
+          "Eltérnek a szabad kempingezés szabályai az Északi- és a Déli-szigeten?",
+          "A törvény és a bírságok országosak. Az önkormányzatok saját rendeletet alkotnak, a DOC pedig körzetenként tesz közzé közleményeket, így a helyi szabály változik a városonként vagy körzetenként."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Interislander: ferry FAQs"
+        },
+        {
+          "label": "Interislander: Cook-szoros kompjegyárak és fizetési lehetőségek"
+        },
+        {
+          "label": "Bluebridge: fizetés"
+        },
+        {
+          "label": "thl: Summary of Rental Conditions, New Zealand, version 16"
+        },
+        {
+          "label": "Maui: gyakran ismételt kérdések"
+        },
+        {
+          "label": "Spaceships: Új-Zéland"
+        },
+        {
+          "label": "Travellers Autobarn: Terms and Conditions New Zealand, 2026. június 19."
+        },
+        {
+          "label": "DOC: Great Walks összehasonlítása"
+        },
+        {
+          "label": "DOC: szabad kempingezés"
+        },
+        {
+          "label": "PGDB: önellátó járművek, magántulajdonú járművek"
+        },
+        {
+          "label": "NZTA Journey Planner: let it snow, take it slow"
         }
       ],
       "priceTable": null

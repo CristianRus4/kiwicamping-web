@@ -435,20 +435,20 @@
       "openTool": "Otevřít kalkulačku",
       "ctaEyebrow": "Naplánujte to v KiwiCamping",
       "ctaTitle": "Najděte zastávky, pak počítejte.",
-      "ctaText": "KiwiCamping pro iPhone se stahuje zdarma. Holiday parky, ubytování a zájezdy (tours) s možností rezervace jsou v aplikaci zdarma. Kempy DOC, chaty, výlevky a průvodce odemyká Pass.",
+      "ctaText": "Všechna místa ke kempování a ubytování na jedné mapě, s filtry, fotkami, poplatky a plánovačem cest pro celou trasu.",
       "ctaButton": "Stáhnout aplikaci",
       "enterValidValues": "Zadejte platné hodnoty",
       "enterValidAmount": "Zadejte platnou částku"
     },
     "index": {
-      "metaTitle": "Kalkulačky pro road trip po NZ: palivo, doba jízdy, cena kempu",
-      "metaDescription": "Bezplatné kalkulačky pro road trip po Novém Zélandu: náklady na palivo, doba jízdy podle typu silnice, cena kempu za osobu nebo za místo, převod NZD a vodní nádrže v campervanu.",
+      "metaTitle": "Kalkulačka road tripu po NZ: palivo, vzdálenost a doba jízdy",
+      "metaDescription": "Bezplatné kalkulačky pro road trip po Novém Zélandu: náklady na palivo podle nejnovějších cen benzínu a nafty, doby jízdy a vzdálenosti mezi většími městy, ceny kempů, převod NZD a vodní nádrže.",
       "toolsTitle": "Jedna kalkulačka na jednu otázku",
       "toolsText": "Každá kalkulačka má vlastní stránku se vzorcem, příkladem s novozélandskými čísly, předpoklady, ze kterých vychází, a odpověďmi na časté otázky."
     },
     "fuel": {
-      "metaTitle": "Kalkulačka paliva NZ: palivo na road trip s campervanem",
-      "metaDescription": "Spočítejte litry a cenu paliva na road trip po Novém Zélandu podle vzdálenosti, spotřeby v l/100 km a ceny u pumpy. Se vzorcem, příkladem pro 1 000 km a orientační cenou MBIE.",
+      "metaTitle": "Kalkulačka paliva na NZ: benzín, nafta a RUC (2026)",
+      "metaDescription": "Spočítejte cenu benzínu nebo nafty na road trip po Novém Zélandu podle nejnovějších cen MBIE pro 91, 95 a naftu, se silničními poplatky pro dieselová vozidla a příkladem pro campervan na 1 000 km.",
       "eyebrow": "Kalkulačka nákladů na palivo",
       "cardEyebrow": "Kalkulačka paliva",
       "h1": "Kalkulačka nákladů na palivo pro road trip po Novém Zélandu",
@@ -497,8 +497,8 @@
       "dieselRuc": "{cost} plus {ruc} RUC"
     },
     "drive": {
-      "metaTitle": "Kalkulačka doby jízdy NZ: reálné hodiny podle typu silnice",
-      "metaDescription": "Odhadněte, jak dlouho den za volantem na Novém Zélandu skutečně trvá, podle vzdálenosti, typu silnice a zastávek. Se vzorcem, příkladem výpočtu a použitými rychlostmi.",
+      "metaTitle": "Kalkulačka doby jízdy na NZ: doby jízdy mezi městy",
+      "metaDescription": "Jak dlouho trvají jízdy po Novém Zélandu: z Aucklandu do Wellingtonu 8 až 8,5 hodiny, z Christchurch do Queenstownu asi 6. Hlavní trasy, vzdálenosti a kalkulačka pro každý den.",
       "eyebrow": "Kalkulačka doby jízdy",
       "cardEyebrow": "Odhad dne za volantem",
       "h1": "Kalkulačka doby jízdy po novozélandských silnicích",
@@ -1006,10 +1006,10 @@
     },
     "east-cape-road-trip": {
       "title": "Road trip po East Cape: z Gisborne do Ōpōtiki s kempováním",
-      "description": "Objeďte East Cape z Gisborne do Ōpōtiki: surfařská městečka, zátoky s pōhutukawa, odlehlé silnice s minimem služeb a kde cestou přespat.",
+      "description": "Road trip kolem East Cape po State Highway 35 z Gisborne do Ōpōtiki za tři dny nebo déle: molo v Tolaga Bay, maják, kde natankovat a kde kempovat.",
       "region": "East Cape",
       "imageAlt": "Odlehlá silnice na East Cape podél Tichého oceánu",
-      "intro": "State Highway 35 patří k nejvděčnějším silnicím v zemi, po kterých se vyplatí jet pomalu. Palivo, otevírací doba a škody po bouřích tu hrají větší roli, takže plán cesty by se měl řídit denním světlem a místními podmínkami, ne pevným časem příjezdu.",
+      "intro": "Road trip kolem East Cape vede po State Highway 35 okolo mysu z Gisborne do Ōpōtiki a vyžaduje tři dny nebo víc, s nocemi u Tolaga Bay, Te Araroa a Waihau Bay. Patří k nejvděčnějším silnicím v zemi, po kterých se vyplatí jet pomalu, ale palivo, otevírací doba a škody po bouřích tu hrají větší roli, takže natankujte v Gisborne a Ōpōtiki a plán cesty nechte řídit denním světlem a místními podmínkami, ne pevným časem příjezdu.",
       "sections": [
         {
           "heading": "Z Gisborne do Tolaga Bay",
@@ -2901,7 +2901,7 @@
           "heading": "Plánování Auckland–Tauranga v KiwiCamping",
           "body": [
             "Pro konec tohoto výletu v Bay of Plenty KiwiCamping zobrazuje na mapě <a data-guide=\"doc-campsites-new-zealand-guide\">kempy DOC</a>, chaty a prázdninové parky od Waihī Beach po Mount Maunganui. Uložená místa se stanou výletem v pořadí, které zvolíte, s kilometry mezi nimi a předpovědí pro každou pláž nebo město. Je to plánovač, ne navigace, takže živé řízení nechte na Apple Maps nebo Google Maps.",
-            "Rezervace DOC zůstávají na vlastních rezervačních stránkách DOC a <a data-guide=\"holiday-parks-new-zealand-guide\">prázdninové parky</a> přijímají vlastní rezervace."
+            "Kempy DOC rezervujte přímo přes DOC, kdežto <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parky</a> kolem Tauranga a Mount Maunganui vyřizují rezervace samy."
           ],
           "tips": [
             "Ukládejte zastávky v pořadí jízdy",
@@ -4948,10 +4948,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "Chaty DOC na Novém Zélandu podle regionů: typy, poplatky, lístky",
-      "description": "Kde stojí chaty DOC podle regionů, kolik stojí chaty Serviced, Standard a Basic v sezoně 2026/27 a jak fungují lístky, Hut Pass a rezervace.",
+      "description": "927 chat DOC podle regionů s poplatky na 2026/27 a tři způsoby, jak zaplatit noc: rezervace na bookings.doc.govt.nz, lístky na chaty nebo Backcountry Hut Pass.",
       "region": "Novozélandská divočina",
       "imageAlt": "Chata v odlehlých horách Nového Zélandu",
-      "intro": "DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) spravuje přes 950 chat a v datech DOC v KiwiCamping jich je 927, od chat Serviced s topením a matracemi až po bivaky se dvěma palandami. Většina jich stojí na Jižním ostrově (South Island): jen v Canterbury jich je 180 a na West Coast 140, zatímco největší shluky na Severním ostrově (North Island) jsou v pohořích Ruahine, Kaweka a Tararua. V těchto datech, ověřených 24. srpna 2026, šlo rezervovat jen 127 z 927 chat, a ačkoli DOC mezitím převedl všechny chaty Serviced do online rezervací, většina chat funguje dál na principu „kdo dřív přijde“: chaty Basic jsou zdarma, u chat Standard se platí lístky (hut tickets) nebo permanentkou Backcountry Hut Pass.",
+      "intro": "DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) spravuje přes 950 chat a v datech DOC v KiwiCamping jich je 927, od chat Serviced s topením a matracemi až po bivaky se dvěma palandami. Většina jich stojí na Jižním ostrově (South Island): jen v Canterbury jich je 180 a na West Coast 140, zatímco největší shluky na Severním ostrově (North Island) jsou v pohořích Ruahine, Kaweka a Tararua. V těchto datech, ověřených 24. srpna 2026, šlo rezervovat jen 127 z 927 chat, a ačkoli DOC mezitím převedl všechny chaty Serviced do online rezervací, většina chat funguje dál na principu „kdo dřív přijde“: chaty Basic jsou zdarma, u chat Standard se platí lístky (hut tickets) nebo permanentkou Backcountry Hut Pass. Existují tedy tři způsoby, jak zaplatit noc: chaty Serviced a chaty na Great Walks (nejznámějších vícedenních trecích, které spravuje DOC) rezervujte na bookings.doc.govt.nz, pro chatu Standard kupte Backcountry Hut Tickets, které jsou online od 1. listopadu 2026, nebo mějte Hut Pass, který na 12 měsíců pokryje většinu chat Serviced a Standard.",
       "sections": [
         {
           "heading": "Kategorie chat a poplatky 2026/27",
@@ -6581,10 +6581,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Jízda campervanem na NZ: řidičský průkaz, rychlost, rozměry (2026)",
-      "description": "Campervanem po Novém Zélandu: na co stačí průkaz na auto, rychlostní limity, vítr na exponovaných silnicích, rozměry pro trajekt a časté chyby návštěvníků.",
+      "description": "Plný řidičský průkaz na auto stačí na Novém Zélandu na campervany do 6 000 kg. Rychlostní limity, jak pustit předjíždějící auta, vítr, výška a délka pro trajekt.",
       "region": "Silnice na Novém Zélandu",
       "imageAlt": "Velký campervan na úzké silnici na Novém Zélandu",
-      "intro": "Campervan můžete legálně řídit s řidičským průkazem Class 1, a přesto se řídí úplně jinak než osobní auto. Při převzetí by mělo být jasné, jak je vozidlo vysoké, široké a dlouhé, kolik váží naložené a které silnice nájemní smlouva vylučuje.",
+      "intro": "Plný řidičský průkaz na auto (Class 1) nebo plný zahraniční řidičský průkaz na auto, s nímž tu smíte řídit, stačí na campervany a obytné vozy do 6 000 kg celkové hmotnosti naloženého vozidla. Do 3 500 kg platí běžný rychlostní limit na silnicích mimo obec, těžší vozidla mají limit nižší. Campervan může být legální s průkazem na auto a přesto se řídit úplně jinak než osobní auto, takže při převzetí by mělo být jasné, jak je vozidlo vysoké, široké a dlouhé, kolik váží naložené a které silnice nájemní smlouva vylučuje.",
       "sections": [
         {
           "heading": "Změřte, než se rozjedete",
@@ -9902,11 +9902,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Kde se dá kempovat na Novém Zélandu: přehled všech typů míst",
-      "description": "Kempy DOC, chráněná území, obecní pozemky (council reserves), místa spravovaná iwi a soukromé holiday parky: každý typ má jiná pravidla i ceny.",
+      "title": "Kde kempovat na Novém Zélandu: kempy podle typu a regionu",
+      "description": "Kde kempovat na Novém Zélandu: kempy DOC, holiday parky, freedom camping na obecních pozemcích a komunitní kempy, kolik každý stojí a co dovoluje, ostrov po ostrově.",
       "region": "Nový Zéland",
       "imageAlt": "Obytné auto zaparkované v pobřežním kempu na Novém Zélandu",
-      "intro": "Kempování na Novém Zélandu se rozkládá na čtyřech docela odlišných typech pozemků a s každým se mění pravidla, cena i rezervační systém. Když víte, o jaký typ jde, víte téměř všechno podstatné: jestli můžete prostě přijet, jestli potřebujete certifikaci, koho se zeptat, když je něco nejasné, a kolik asi zaplatíte.",
+      "intro": "Na Novém Zélandu můžete kempovat v kempech DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) na chráněných územích, v holiday parcích (komerční kempy s chatkami a zázemím), na místech pro freedom camping (volné kempování mimo placené kempy) spravovaných místní samosprávou (council) a v kempech iwi, komunit a na výstavištích (showground). Základní místa DOC jsou zdarma a ostatní se platí, holiday parky mají elektřinu a teplé sprchy a na pozemcích samospráv se freedom camping obvykle povoluje certifikovaným vozidlům self-contained (soběstačná vozidla s pevně instalovaným WC a nádržemi na vodu) na jednu nebo dvě noci, kde to dovoluje obecní vyhláška (bylaw). Pravidla, cena i rezervační systém se mění podle druhu pozemku, takže když víte, o který jde, víte skoro všechno podstatné: jestli můžete prostě přijet, jestli potřebujete certifikaci, koho se zeptat a kolik asi zaplatíte.",
       "sections": [
         {
           "heading": "Čtyři typy pozemků",
@@ -21922,7 +21922,7 @@
           "heading": "Používání KiwiCamping v Hawke's Bay",
           "body": [
             "KiwiCamping zobrazuje kempy a chaty DOC v regionu, prázdninové parky s jejich vybavením a vypouštěcí stanice s filtry, které je zúží na to, co vaše vozidlo potřebuje. Neobsahuje místa <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> obcí, proto pro ně použijte stránky obcí výše a uložte si prázdninový park jako záložní řešení na každou noc.",
-            "Vložte noc v Napier do výletu s datem a poznámkou a přečtěte si vzdálenost k další zastávce, což je pro většinu lidí cesta do nebo z Wellington nebo Taupō. Vaše uložená místa v Hawke's Bay a jejich podrobnosti zůstávají čitelné bez signálu; mapa, navigace, předpověď a fotografie se načtou, jakmile znovu máte signál. Aplikace je zdarma ke stažení, s nákupy v aplikaci."
+            "Zařaďte noc v Napier do cesty s datem a poznámkou a přečtěte si vzdálenost k další zastávce, což je pro většinu lidí cesta do nebo z Wellingtonu nebo Taupō. Vaše uložená místa v Hawke's Bay a jejich podrobnosti zůstanou čitelné i bez signálu; mapa, navigace, předpověď a fotky se načtou, jakmile zase budete mít signál. Ke stažení zdarma, s nákupy v aplikaci."
           ],
           "tips": [
             "Místa obcí: použijte stránku obce",
@@ -35148,11 +35148,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Pravidla freedom campingu na Novém Zélandu podle regionů",
-      "description": "Zákon Freedom Camping Act, obecní vyhlášky, certifikace self-contained a jak vypadá vymáhání v terénu.",
+      "title": "Pravidla freedom campingu na NZ 2026: kde je legální a pokuty",
+      "description": "Kde můžete na Novém Zélandu v roce 2026 freedom kempovat: obecní vyhlášky, pozemky DOC, zelený štítek (green warrant), který vozidlo potřebuje od června, limity pobytu a pokuty.",
       "region": "Nový Zéland",
       "imageAlt": "Cedule povoleného freedom campingu vedle obytného auta",
-      "intro": "Freedom camping na Novém Zélandu je legální tam, kde je povolený, a všude jinde přestupek. Hranici mezi tím určuje ten, kdo spravuje pozemek pod vašimi koly. Zákon Freedom Camping Act 2011 stanoví celostátní rámec, ale obce si píšou vlastní vyhlášky, takže pravidlo, které jste se naučili v jednom okrese, vám o sousedním říká jen málo.",
+      "intro": "Freedom camping (volné kempování mimo placené kempy) je na Novém Zélandu legální jen tam, kde to dovolí ten, kdo pozemek spravuje: na pozemcích místní samosprávy (council) podle její obecní vyhlášky (bylaw), na chráněných územích, pokud to oznámení DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) nezakazuje nebo neomezuje, a na soukromé půdě nikdy bez svolení. Většina míst samospráv a mnoho oblastí DOC připouští jen certifikovaná vozidla self-contained (soběstačná vozidla s pevně instalovaným WC a nádržemi na vodu) a od 7. června 2026 se počítá jen zelený štítek (green warrant). Zákon Freedom Camping Act 2011 stanoví celostátní rámec, ale samosprávy si píšou vlastní vyhlášky, takže pravidlo, které jste se naučili v jednom okrese, vám o sousedním říká jen málo.",
       "sections": [
         {
           "heading": "Co freedom camping tady vlastně znamená",
@@ -35494,15 +35494,15 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "Rezervace kempů a chat DOC 2026: postup, poplatky, termíny",
-      "description": "Chaty, kempy a Great Walks DOC rezervujete na bookings.doc.govt.nz. Poplatky 2026/27, Hut Pass, nebo Campsite Pass, chaty bez rezervace a co když je plno.",
+      "description": "Rezervace DOC se dělají na bookings.doc.govt.nz. Jak se přihlásit a rezervovat chaty, kempy a Great Walks, poplatky na 2026/27 pro dospělé a děti a storno.",
       "region": "Chráněná území na Novém Zélandu",
       "imageAlt": "Stan v kempu Department of Conservation",
-      "intro": "Chaty a kempy DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) i Great Walks (nejznámější vícedenní treky, které spravuje DOC) se rezervují přímo v rezervačním systému úřadu na bookings.doc.govt.nz nebo v informačním centru DOC. Potřebujete bezplatný účet, celá částka se platí při rezervaci a potvrzovací e-mail je na místě vaším dokladem. Rezervace na sezonu 2026/27, tedy na pobyty od 1. července 2026 do 30. června 2027, se otevřely v květnu 2026. Většinu horských chat v odlehlé přírodě a mnoho základních kempů nejde rezervovat vůbec a platí v nich pravidlo „kdo dřív přijde“. Níže najdete poplatky, oba passy, přehled míst, která rezervaci vyžadují, a co dělat, když je vybrané místo plné.",
+      "intro": "Chaty a kempy DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) i Great Walks (nejznámější vícedenní treky, které spravuje DOC) se rezervují na jednom oficiálním webu, v rezervačním systému úřadu na bookings.doc.govt.nz, nebo v informačním centru DOC. Zřiďte si bezplatný účet a přihlaste se, vyhledejte místo, vyberte termín a počet osob a zaplaťte celou cenu kartou Visa nebo Mastercard; potvrzovací e-mail je vaše rezervace. Rezervace na sezonu 2026/27, tedy na pobyty od 1. července 2026 do 30. června 2027, se otevřely v květnu 2026. Chaty a kempy na Great Walks v sezoně, každou chatu Serviced i mnoho kempů je nutné rezervovat, zatímco většina horských chat v odlehlé přírodě a mnoho základních kempů funguje na principu „kdo dřív přijde“. Níže najdete poplatky pro dospělé a děti, pro obyvatele Nového Zélandu i zahraniční návštěvníky, storno poplatky a co dělat, když je místo, které chcete, plné.",
       "sections": [
         {
           "heading": "Kde a jak rezervovat",
           "body": [
-            "Otevřete bookings.doc.govt.nz, vytvořte si účet a před hledáním se přihlaste. Najděte chatu, kemp nebo Great Walk, zvolte termín a počet osob, u kempu přidejte registrační značku vozidla a zaplaťte kartou Visa nebo Mastercard. Celá částka se strhává při rezervaci a všechny ceny zahrnují GST. Mnoho z těchto míst vám zarezervují i informační centra DOC, osobně nebo po telefonu, za poplatek 10 NZD.",
+            "Otevřete bookings.doc.govt.nz, vytvořte si účet a před hledáním se přihlaste. Najděte chatu, kemp nebo Great Walk, zvolte termín a počet osob, u kempu přidejte registrační značku vozidla a zaplaťte kartou Visa nebo Mastercard. Great Walks fungují stejně: žádná záloha ani splátky, celý pobyt se účtuje za každou osobu a každou noc při rezervaci a rezervace neplatí, dokud není zaplacená a potvrzená. Všechny ceny jsou v novozélandských dolarech a zahrnují GST. Informační centra DOC zarezervují mnoho stejných míst osobně nebo po telefonu, za servisní poplatek 10 NZD.",
             "Potvrzovací e-mail je rezervace. Stáhněte si ho nebo vytiskněte, než opustíte oblast se signálem, spolu s případným passem, protože rangeři a správci chat ho mohou chtít vidět a většina <a data-guide=\"doc-huts-new-zealand-guide\">chat DOC</a> i mnoho kempů nemá signál. Lůžka v chatách s rezervací se nepřidělují, takže rezervací máte jisté lůžko, ne konkrétní, a v kempech bez číslovaných míst si vyberete z těch, která jsou při příjezdu volná."
           ],
           "tips": [
@@ -35752,7 +35752,7 @@
           "heading": "Změna nebo zrušení rezervace",
           "body": [
             "Zrušíte-li rezervaci v den rezervace nebo následující den a příjezd je vzdálený víc než dva dny, DOC neúčtuje nic. Od 48 hodin po rezervaci do 15 dnů před příjezdem činí poplatek 10 %. V posledních 14 dnech se zvyšuje podle typu: chaty 20 %, od tří dnů před příjezdem 30 %; kempy 20 a pak 75 %; Great Walks 50 a pak 75 %; lodge, chatky a chaty pro výhradní obsazení (sole-occupancy huts) 100 %. Při zrušení den před příjezdem, v den příjezdu nebo později propadá celá částka, stejně jako když se nedostavíte.",
-            "Pokud nepřijedete první noc vícedenní rezervace a do 24 hodin se neozvete v kanceláři kempu, DOC zbytek zruší bez vrácení peněz. Vrácení peněz kvůli počasí není automatické. Když DOC místo uzavře nebo váš pobyt zruší, například kvůli bouři, záplavám nebo oranžovému či červenému varování MetService vydanému pro danou oblast den předem, napište do 7 dnů rezervačnímu týmu DOC, dřív než rezervaci sami změníte, a dostanete plnou náhradu za nevyužité noci nebo, pokud pobyt ještě nezačal, převod na volné termíny ve stejné sezoně. Pokud je počasí jen špatné a místo zůstává otevřené, platí běžné storno poplatky, a proto DOC doporučuje cestovní pojištění."
+            "Pokud nepřijedete první noc vícedenní rezervace a do 24 hodin se neozvete v kanceláři kempu, DOC zbytek zruší bez vrácení peněz. Vrácení peněz kvůli počasí není automatické. Když DOC místo uzavře nebo váš pobyt zruší, například kvůli bouři, záplavám nebo oranžovému či červenému varování MetService pro danou oblast den předem, napište do 7 dnů rezervačnímu týmu DOC na booking@doc.govt.nz, dřív než rezervaci sami změníte, a dostanete plnou náhradu za nevyužité noci nebo, pokud pobyt ještě nezačal, převod na volné termíny ve stejné sezoně. Pokud je počasí jen špatné a místo zůstává otevřené, platí běžné storno poplatky, a proto DOC doporučuje cestovní pojištění."
           ],
           "tips": [],
           "table": {
@@ -35804,7 +35804,7 @@
         {
           "heading": "Když je chata nebo kemp, který chcete, obsazený",
           "body": [
-            "Zkuste stejné místo v jiných termínech, zvlášť v týdnech na okraji sezony před školními prázdninami a po nich, a podívejte se na kempy: DOC uvádí, že mnoho z nich mělo dobrou dostupnost, když byly chaty plné, i když Milford Track a Paparoa Track žádné nemají. Vyprodaný Great Walk vyměňte za jiný, kde je víc volných míst, nebo projděte nedalekou trasu s chatami bez rezervace. DOC sám radí kontrolovat dál i v následujících měsících, protože lidé rezervace ruší a zrušení se objevují celý rok, dokonce i na Milford Track.",
+            "Zkuste stejné místo v jiných termínech, zvlášť v týdnech na okraji sezony před školními prázdninami a po nich, a podívejte se na kempy: DOC uvádí, že mnoho z nich mělo dobrou dostupnost, když byly chaty plné, i když Milford Track a Paparoa Track žádné nemají. Vyprodaný Great Walk vyměňte za jiný, kde je víc místa, nebo projděte nedalekou trasu s chatami bez rezervace. DOC sám radí kontrolovat dál i v následujících měsících, protože lidé rezervace ruší a zrušení se objevují celý rok, dokonce i na Milford Track. Zrušená místa se znovu objeví na bookings.doc.govt.nz a může si je zarezervovat kdokoli. Nezávislé služby s upozorněními, například GreatWalkHuts.com, greatwalks.online, HutSnag a NZtracker, systém hlídají a pošlou vám e-mail, když se místo uvolní; jsou to soukromé firmy, ne součást DOC, některé si účtují poplatek za upozornění (ověřeno 3. listopadu 2026) a rezervovat a platit stále musíte na webu DOC.",
             "Pro noc s vozidlem je realistickou zálohou holiday park nebo kemp DOC se samoregistrací. KiwiCamping ukazuje každou chatu a kemp DOC ve svých datech s kategorií, poplatkem a informací, jestli se rezervuje, vedle holiday parků, které lze v aplikaci rezervovat přes BookIt, takže nejbližší alternativu najdete i bez signálu. Místa DOC v aplikaci vyžadují Pass; ubytování přes BookIt je zdarma k prohlížení i rezervaci. Pravidla pro nejrušnější týdny v nejvytíženějších kempech, například minimální poplatek v Tōtaranui, jsou v průvodci o <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempování o Vánocích</a> a v létě 2026-27."
           ],
           "tips": [
@@ -36080,7 +36080,7 @@
       "description": "Kde vyprázdnit WC obytného auta na Novém Zélandu: 262 výlevek v KiwiCamping podle regionů, většina zdarma, jak je používat a pokuta 800 NZD za vylití odpadu.",
       "region": "Kempy na Novém Zélandu",
       "imageAlt": "Obytné auto u označené výlevky",
-      "intro": "Právě u odpadu se zodpovědné kempování projeví nejkonkrétněji a právě tady přituhují tresty. Za vypouštění odpadu z WC nebo šedé vody na nesprávném místě hrozí podstatně vyšší pokuty než za běžný přestupek při freedom campingu (volné kempování mimo placené kempy) a ze všech prohřešků nejspíš právě tento vede k tomu, že se oblíbené místo natrvalo zavře.",
+      "intro": "WC kazetu nebo nádrž na šedou vodu z campervanu vyprazdňujte jen na výlevce (dump station, místo pro vylití WC kazety a šedé vody). Naše data uvádějí 262 veřejných výleven po celém Novém Zélandu a většinu z nich lze používat zdarma. Vypouštění odpadu z WC nebo šedé vody kdekoli jinde se trestá vyšší pokutou než běžný přestupek při freedom campingu (volné kempování mimo placené kempy) a je to chování, kvůli kterému se oblíbené místo nejspíš zavře natrvalo.",
       "sections": [
         {
           "heading": "Poznejte tři druhy odpadu",
@@ -36179,17 +36179,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Požární sezona a pravidla ohně na NZ 2026: nejdřív ověřte zákaz",
-      "description": "Otevřená, omezená, zakázaná: jak fungují novozélandské požární sezony, kde zjistit dnešní zákaz ohně, kdy potřebujete povolení a jak vařit, když platí zákaz.",
+      "title": "Zákaz ohně na NZ 2026–27: požární sezony a pravidla pro táborák",
+      "description": "Dnešní požární sezonu pro svou oblast zjistíte na checkitsalright.nz. Otevřená, omezená a zakázaná sezona, úplné zákazy ohně, táboráky na pozemcích DOC a plynové vařiče.",
       "region": "Nový Zéland",
       "imageAlt": "Malý hlídaný táborák na místě, kde je oheň povolený",
-      "intro": "Stávající ohniště a hromádka starého popela dokazují jen to, že tu někdo kdysi oheň měl, ne že ho smíte rozdělat dnes. Na Novém Zélandu platí třístupňový systém požárních sezon, který se mění podle podmínek, a správce území může oheň zakázat bez ohledu na to, co systém říká.",
+      "intro": "Dnešní požární sezonu pro svou oblast zjistěte na checkitsalright.nz, který provozuje Fire and Emergency New Zealand: zadejte adresu nebo místo a zjistíte, jestli smíte rozdělat oheň a jestli potřebujete povolení. Každá oblast je vždy v jedné ze tří požárních sezon. Otevřená (open) znamená, že oheň pod širým nebem smíte rozdělat bez povolení, omezená (restricted) znamená, že nejdřív potřebujete povolení od Fire and Emergency, a zakázaná (prohibited), které většina lidí říká úplný zákaz ohně (total fire ban), znamená žádné ohně pod širým nebem. Na chráněných územích drží DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) omezenou sezonu celoročně, takže táboráky jsou povolené jen ve vyhrazeném ohništi v kempu DOC a jen když neplatí zákaz. Plynové vařiče povolení nepotřebují. Staré ohniště dokazuje jen to, že tu někdo kdysi oheň měl, ne že ho smíte rozdělat dnes.",
       "sections": [
         {
           "heading": "Tři požární sezony",
           "body": [
-            "V otevřené požární sezoně (open fire season) smíte rozdělat oheň pod širým nebem bez povolení, pokud to neomezují pravidla správce území. V omezené sezoně (restricted) potřebujete povolení od Fire and Emergency New Zealand, než pod širým nebem cokoli zapálíte. V zakázané sezoně (prohibited) jsou ohně pod širým nebem úplně zakázané a žádné povolení se nevydává.",
-            "Sezona se vyhlašuje po okresech a mění se podle podmínek, za sucha někdy ze dne na den. Ověřte si aktuální stav pro okres, ve kterém právě jste, v daný den, ne pro ten, kterým jste projeli ráno. Jak se tato pravidla potkávají s letošním výhledem El Niño na léto, popisuje průvodce o <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempování o Vánocích</a> a v létě 2026-27."
+            "V otevřené požární sezoně (open fire season) smíte rozdělat oheň pod širým nebem bez povolení, s výhradou pravidel samotného správce území. V omezené sezoně (restricted) potřebujete na většinu ohňů pod širým nebem povolení od Fire and Emergency New Zealand a musíte dodržet jeho podmínky. Zakázaná požární sezona (prohibited) je úplný zákaz ohně (total fire ban): ohně pod širým nebem jsou zakázané úplně, už vydaná povolení se pozastavují a nová se udělují jen ve výjimečných případech.",
+            "Fire and Emergency vyhlašuje sezonu po zónách a mění ji podle podmínek, za sucha někdy s krátkým předstihem, a každou změnu pro danou oblast oznamuje. Mnoho oblastí přechází s vysycháním léta do omezené sezony a některé do zakázané, takže oheň, který byl v říjnu legální, nemusí být legální v lednu. Na checkitsalright.nz si ověřte přesné místo, na kterém ten den kempujete, ne okres, kterým jste ráno projeli, a podívejte se i na nebezpečí požáru: Fire and Emergency vás žádá, abyste odložili i povolený oheň, když je nebezpečí Very High nebo Extreme. Jak se tato pravidla potkávají s letošním výhledem El Niño na léto, popisuje náš průvodce <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">kempováním o Vánocích</a> a v létě 2026–27."
           ],
           "tips": [
             "Okres ověřte v daný den",
@@ -36229,8 +36229,8 @@
         {
           "heading": "Správce území může být přísnější",
           "body": [
-            "Požární sezona je spodní hranice, ne povolení. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a>, regionální parky, obecní pozemky (council reserves) i soukromé kempy mají vlastní pravidla a mnohé z nich zakazují otevřený oheň trvale, bez ohledu na sezonu. Kde platí dvě pravidla, rozhoduje to přísnější.",
-            "Přečtěte si stránku konkrétního kempu a ceduli na místě. Některé kempy DOC povolují malý oheň jen ve vyhrazeném ohništi, jiné zakazují pevná paliva úplně a u ohňů v divočině platí zvláštní podmínky pro umístění, volný prostor kolem a velikost."
+            "Požární sezona je spodní hranice, ne povolení. <a data-guide=\"doc-campsites-new-zealand-guide\">Kempy DOC</a>, regionální parky, obecní pozemky (council reserves) i soukromé kempy mají vlastní pravidla a mnohé z nich zakazují otevřený oheň trvale, bez ohledu na sezonu. Kde platí dvě pravidla, rozhoduje to přísnější. Na veřejných chráněných územích drží DOC omezenou požární sezonu celoročně a některá místa, třeba ostrovy u pobřeží spravované DOC, mají úplný zákaz ohně po celý rok.",
+            "V kempu nebo v oblasti pro denní pobyt DOC je táborák povolený jen ve vyhrazeném ohništi a jen když neplatí zákaz ohně. V divočině DOC dovoluje malý oheň na vaření nebo ohřátí, menší než půl metru na šířku i na výšku, nejméně 3 metry od stromů a čehokoli, co by mohlo chytit, a jen když ho nezakazuje zákaz nebo oznámení. Velké hranice, grily na dřevěné uhlí a hāngī na pozemcích DOC vyžadují povolení od Fire and Emergency, které se podle DOC obvykle nevydává. Přečtěte si také stránku konkrétního kempu a ceduli na místě."
           ],
           "tips": []
         },
@@ -36257,7 +36257,7 @@
         {
           "heading": "Vaření, když jsou ohně zakázané",
           "body": [
-            "Praktická odpověď jsou plynové vařiče, které bývají povolené, i když otevřené ohně ne, ale ověřte si to, protože zakázaná požární sezona může omezit i některé spotřebiče. Používejte je na stabilním rovném povrchu, daleko od plátna stanu i vegetace.",
+            "Praktická odpověď jsou plynové vařiče. Fire and Emergency uvádí, že na plynové grily, vařiče a ohřívače povolení k ohni nepotřebujete, a DOC říká, že plynové hořáky a uzavřené vařiče na kapalné palivo můžete na vaření obvykle používat kdykoli, ale ne vařiče na kapalné palivo s otevřeným vrchem, například lihové. Místní samospráva nebo majitel pozemku je přesto může omezit, takže se řiďte ceduli. Používejte je na stabilním rovném povrchu, daleko od plátna stanu a vegetace a náhradní plynové lahve mějte 5 metrů od plamene.",
             "Nikdy nevařte uvnitř zavřeného stanu, pod markýzou ani v nevětraném autě. Hrozí otrava oxidem uhelnatým, který nemá zápach a na Novém Zélandu už kempující usmrtil. Nechte vařič úplně vychladnout, než ho dáte zpět do auta nebo stanu, a plynové lahve skladujte nastojato na větraném místě. Míříte na letní akci? Platí tam navíc vlastní pravidla pro oheň a průvodce o <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">kempování na Silvestra</a> a letních akcích ukazuje, co si před cestou ověřit."
           ],
           "tips": [
@@ -38466,6 +38466,154 @@
         },
         {
           "label": "DOC: srovnání Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "can-i-fly-a-drone-at-a-doc-campsite-nz": {
+      "title": "Dá se létat s dronem v kempu DOC na NZ? (pravidla 2026)",
+      "description": "Ne bez povolení DOC a ani s ním se nesmíte přibližovat ke kempům a chatám. Zóny pro povolení 2026, poplatky, pravidla CAA Part 101 a pozemky samospráv.",
+      "region": "Nový Zéland",
+      "imageAlt": "Letecký pohled na Whāngapoua Beach a pobřeží Coromandel při západu slunce",
+      "intro": "Ne bez povolení. Podle zákona Conservation Act 1987 je dron letadlo a DOC (Department of Conservation, novozélandský úřad pro ochranu přírody) vyžaduje povolení (concession) pro každé letadlo, které na veřejném chráněném území vzlétá, přistává nebo se vznáší. Ani s povolením vám podmínky DOC ukládají držet se stranou od rušných míst, jako jsou kempy, chaty a parkoviště, takže kemp je na pozemcích DOC místo, kde je létání nejméně přijatelné.",
+      "sections": [
+        {
+          "heading": "Proč je kemp špatné místo k létání",
+          "body": [
+            "Podle oddílu 17ZF zákona Conservation Act nesmí žádné letadlo na chráněném území přistát ani z něj vzlétnout, pokud nebylo uděleno povolení (concession), a tentýž oddíl říká, že přistání zahrnuje i vznášení se. DOC to vykládá tak, že se to týká dronů pro každý účel: rekreaci, komerční práci i výzkum. Dron vypuštěný z vašeho místa v kempu nebo držený na místě nad řekou za ním tomuto pravidlu podléhá.",
+            "Vlastní provozní podmínky DOC pro držitele povolení jdou ještě dál. Žádají piloty, aby létali mimo rušná rekreační místa, a jmenují kempy, tábořiště, chaty, bivaky, ubytovny, parkoviště a místa k piknikům. Také zakazují létat nebo se vznášet nad kteroukoli osobou bez jejího souhlasu. Kemp je plný lidí, kteří přijeli za klidem, a proto podmínky DOC pro kempy a chaty říkají, že drony jsou zakázané, pokud je DOC nepovolí."
+          ],
+          "tips": [
+            "Dron je podle zákona Conservation Act letadlo",
+            "Vznášení se platí jako přistání",
+            "Podmínky povolení vás od kempů odvádějí"
+          ]
+        },
+        {
+          "heading": "Jak získat povolení DOC pro dron",
+          "body": [
+            "Pro rekreační létání DOC dělí chráněná území na zelené, oranžové a červené zóny na své mapě Discover the Outdoors. V zelené zóně se povolení schvaluje automaticky a vydává se hned online: 180 NZD plus GST, což web povolení DOC ukazuje jako 207 NZD, platí jeden rok a pro drony do 25 kg. Oranžová zóna se posuzuje případ od případu s minimálním poplatkem 2 450 NZD plus GST a červená zóna se schvaluje jen zřídka, s minimálním poplatkem 180 NZD a vyřízením do pěti pracovních dnů.",
+            "Mapu zkontrolujte tak, že zvolíte vrstvu povolení pro rekreační drony a kliknete na oblast. Zóny se mohou lišit pro rekreační, výzkumné a komerční použití a stránka DOC říká, že když oblast nemá barvu, máte napsat na permissions@doc.govt.nz. Žádosti se už nepřijímají v místních kancelářích DOC ani v informačních centrech. Oranžové a červené žádosti se podávají e-mailem na formuláři DOC a DOC odpoví odhadem ceny, než cokoli zpracuje."
+          ],
+          "tips": [
+            "Zelená zóna: 180 NZD plus GST, vydáno hned",
+            "Zónu ověřte před podáním žádosti",
+            "Oranžová a červená e-mailem, ne v informačním centru"
+          ]
+        },
+        {
+          "heading": "Místa, kde je odpověď prostě ne",
+          "body": [
+            "Některé parky to říkají na vlastních stránkách. Národní park Aoraki/Mount Cook zakazuje rekreační používání dronů v celém parku a stránka jeho kempu White Horse Hill uvádí drony mezi věcmi, které nejsou povolené. Stránky Tongariro Northern Circuit říkají, že létání s dronem bez povolení je přísně zakázané, a stránka Hump Ridge Track uvádí, že neoprávněné používání dronů v Národním parku Fiordland je zakázané.",
+            "Podmínky DOC pro chaty, kempy, Great Walks (nejznámější vícedenní treky, které spravuje DOC), chatky a ubytovny obsahují větu, která zní: žádné používání dronů, pokud ho DOC nepovolí. Pokud bydlíte na místě DOC, které se rezervuje, souhlasili jste s tím při rezervaci, takže dron v autě je riziko pro vaši rezervaci i pro sousedy."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Navíc platí pravidla civilního letectví",
+          "body": [
+            "Povolení DOC řeší jen pozemek. Part 101 Civil Aviation Rules, který spravuje Civil Aviation Authority (CAA), platí pro každý let dál: držte se pod 120 metry nad zemí, mějte dron na očích, létejte za denního světla a před letem nad lidmi a majetkem si zajistěte souhlas. Pravidla také omezují létání do 4 km od hranice letiště (aerodrome), pokud nejsou splněny další podmínky.",
+            "DOC vyžaduje, aby držitelé povolení zapisovali každý let do AirShare, aplikace a webu pro vzdušný prostor, které také zobrazují omezené oblasti. Pokud chcete létat poblíž letiště, zkontrolujte mapu před cestou a držte se pravidel pro danou zónu."
+          ],
+          "tips": [
+            "Maximální výška 120 metrů",
+            "Jen za denního světla a v přímém dohledu",
+            "Souhlas před letem nad lidmi nebo majetkem"
+          ]
+        },
+        {
+          "heading": "Zvěř, wāhi tapu a hluk",
+          "body": [
+            "Držitelé povolení musí vzlétat a přistávat nejméně 100 m od zvěře, držet se od ní nejméně 50 m a vyhýbat se ptákům na hnízdech nebo odpočinku. Mořští savci, jako jsou delfíni, tuleni a velryby, potřebují 150 m vodorovně. Pokud pták dron opakovaně obkružuje nebo na něj útočí střemhlav, okamžitě přistaňte.",
+            "DOC také žádá piloty, aby nelétali nad wāhi tapu (posvátnými místy) ani je nefilmovali, a jeho proces žádostí zahrnuje názor hapū a iwi (maorských kmenů a rodů). Hluk je stejně důležitý jako vzdálenost: hukot dronu se nese daleko nad tichou říční nivou a lidé vedle vás si místo DOC vybrali právě kvůli klidu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pozemky samospráv a místa pro freedom camping",
+          "body": [
+            "Obecní pozemky (council reserves) a <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> (volné kempování mimo placené kempy) u silnic nejsou chráněná území, takže se na ně povolení DOC nevztahuje. Mají vlastní pravidla a CAA Part 101 platí dál. Auckland Council dovoluje létat ve většině místních parků bez povolení, ale zakazuje drony na místech, jako jsou hřbitovy, Tūpuna Maunga, Cornwall Park a Botanic Gardens, a v regionálních parcích vyžaduje povolení.",
+            "Christchurch City Council dovoluje lehký dron do 1,5 kg nad většinou majetku samosprávy bez povolení, ale vyžaduje povolení pro jakoukoli hmotnost v blízkosti památkových parků, do 10 metrů od hřiště nebo hranice parku a na vyjmenovaných mokřadech a pobřežních místech. Vždy si přečtěte stránku samosprávy k místu, kde kempujete, a ceduli u místa pro freedom camping."
+          ],
+          "tips": [
+            "Každá samospráva má vlastní pravidla pro parky",
+            "Hmotnostní limity se liší podle samospráv",
+            "Místo pro freedom camping není pozvánkou k létání"
+          ]
+        },
+        {
+          "heading": "Soukromí, souhlas a co se stane, když pravidla ignorujete",
+          "body": [
+            "Privacy Commissioner uvádí, že záběry pořízené pro vlastní účely obecně spadají mimo Privacy Act, ale natáčení, které je velmi urážlivé, například do stanů nebo koupelen, může stále vyvolat právní problémy. Nezávisle na soukromí pravidla CAA vyžadují souhlas před letem nad lidmi a kemp cizích lidí je přesně místo, kde ho nikdo nedal.",
+            "Vědomé létání bez povolení DOC je trestný čin podle oddílů 39 a 43C zákona Conservation Act, s maximálním trestem dvou let vězení nebo pokuty až 100 000 NZD pro jednotlivce. Předpisy o přestupcích proti ochraně přírody neuvádějí žádnou pokutu určenou přímo pro drony, takže případ jde k soudu. DOC také může povolení písemným oznámením ukončit, pokud jsou porušeny podmínky, a CAA může přistoupit k disciplinárnímu řízení včetně stíhání. Dron nahlásíte na horké lince DOC na 0800 DOC HOT (0800 362 468)."
+          ],
+          "tips": [
+            "Trestný čin podle zákona Conservation Act",
+            "CAA může stíhat samostatně",
+            "Hlaste na 0800 362 468"
+          ]
+        },
+        {
+          "heading": "Co dělat místo toho",
+          "body": [
+            "Pokud na záběru záleží, kupte povolení pro zelenou zónu před cestou, vyberte výchozí bod trasy nebo břeh jezera, které jsou na mapě zelené a nejsou vedle kempu, a držte se od ostatních lidí dál. Pokud chcete jen výhled z místa, přiblíží se k tomu telefon na stativu nebo malá kamera na tyči a samotná rada DOC zní: použijte kameru nebo selfie tyč z pevné země nebo nechte techniku doma.",
+            "Když si kempy na trase uložíte jako místa v KiwiCamping, aplikaci pro iPhone, máte krátký seznam, který před odjezdem ověříte na mapě dronů DOC. Podrobnosti o místech a uložená místa se otevřou bez signálu; mapové dlaždice, navigace, předpověď a fotky ho potřebují."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Stručně",
+          "body": [
+            "Žádný dron v <a data-guide=\"doc-campsites-new-zealand-guide\">kempu DOC</a> bez povolení a ani s ním žádné létání blízko kempů, chat nebo parkovišť. Aoraki/Mount Cook zakazuje rekreační drony úplně a další parky uvádějí vlastní zákazy.",
+            "Zkontrolujte mapu zón, mějte u sebe povolení, zapište let do AirShare, držte se pod 120 metry a v kempu nechte dron v tašce."
+          ],
+          "tips": []
+        }
+      ],
+      "faq": [
+        [
+          "Smím v kempu DOC na Novém Zélandu létat s dronem?",
+          "Ne bez povolení DOC a podmínky DOC ukládají držitelům povolení, aby se kempům, chatám a parkovištím vyhýbali i s ním. Některá místa, například Národní park Aoraki/Mount Cook, zakazují rekreační používání dronů úplně."
+        ],
+        [
+          "Potřebuji povolení k létání s dronem na pozemcích DOC?",
+          "Ano. Každý dron, který na veřejném chráněném území vzlétá, přistává nebo se vznáší, potřebuje povolení DOC (concession). Rekreační povolení pro zelenou zónu stojí 180 NZD plus GST, vydává se hned online a platí jeden rok."
+        ],
+        [
+          "Smím létat s dronem v národním parku na Novém Zélandu?",
+          "Jen s povolením DOC a několik národních parků to omezuje ještě víc. Aoraki/Mount Cook zakazuje rekreační používání a DOC uvádí, že neoprávněné používání dronů je zakázané na místech, jako je Tongariro Northern Circuit nebo Hump Ridge Track ve Fiordlandu."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "DOC: použití dronů na chráněných územích"
+        },
+        {
+          "label": "DOC: provozní podmínky pro drony"
+        },
+        {
+          "label": "DOC: žádost o rekreační povolení pro dron"
+        },
+        {
+          "label": "Web povolení DOC: žádost o létání s dronem v zelených zónách"
+        },
+        {
+          "label": "DOC: podmínky pro chaty, kempy, Great Walks, chatky a ubytovny"
+        },
+        {
+          "label": "DOC: kemp White Horse Hill, Národní park Aoraki/Mount Cook"
+        },
+        {
+          "label": "Legislation: Conservation Act 1987 (oddíly 17ZF, 39, 43C)"
+        },
+        {
+          "label": "CAA: pravidla Part 101 pro drony"
+        },
+        {
+          "label": "Auckland Council: létání s drony a UAV"
+        },
+        {
+          "label": "Christchurch City Council: drony a systémy dálkově řízených letadel"
         }
       ],
       "priceTable": null

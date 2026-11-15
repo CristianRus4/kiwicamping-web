@@ -440,7 +440,7 @@
       "openTool": "Mở công cụ tính",
       "ctaEyebrow": "Lên kế hoạch trong KiwiCamping",
       "ctaTitle": "Tìm các điểm dừng, rồi tính toán.",
-      "ctaText": "KiwiCamping miễn phí tải về cho iPhone. Các công viên nghỉ dưỡng, chỗ lưu trú và tour đặt được đều miễn phí trong ứng dụng. Khu cắm trại DOC, nhà nghỉ, trạm xả thải và các hướng dẫn mở bằng Pass.",
+      "ctaText": "Mọi nơi để cắm trại và lưu trú trên một bản đồ, với bộ lọc, ảnh, phí và công cụ lên lịch trình cho cả hành trình.",
       "ctaButton": "Tải ứng dụng",
       "enterValidValues": "Nhập giá trị hợp lệ",
       "enterValidAmount": "Nhập số tiền hợp lệ"
@@ -2906,7 +2906,7 @@
           "heading": "Lên kế hoạch Auckland đến Tauranga trong KiwiCamping",
           "body": [
             "Với đầu Bay of Plenty của chuyến đi này, KiwiCamping hiển thị <a data-guide=\"doc-campsites-new-zealand-guide\">khu cắm trại DOC</a>, nhà nghỉ trên núi và holiday park từ Waihī Beach đến Mount Maunganui. Các địa điểm đã lưu trở thành một hành trình theo thứ tự bạn chọn, với số km giữa chúng và dự báo thời tiết cho từng bãi biển hoặc thị trấn. Đây là công cụ lên kế hoạch chứ không phải thiết bị dẫn đường, vì vậy hãy để việc lái xe trực tiếp cho Apple Maps hoặc Google Maps.",
-            "Việc đặt chỗ DOC vẫn thực hiện trên các trang đặt chỗ riêng của DOC, và <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> nhận đặt chỗ riêng."
+            "Hãy đặt khu cắm trại DOC trực tiếp qua DOC; các <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a> quanh Tauranga và Mount đều tự nhận đặt chỗ riêng."
           ],
           "tips": [
             "Lưu các điểm dừng theo thứ tự lái xe",
@@ -38422,6 +38422,203 @@
         },
         {
           "label": "DOC: so sánh các Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Cắm trại tự do quanh Matakana và Warkworth: nên ở đâu",
+      "description": "Nơi ngủ bằng campervan quanh Matakana và Warkworth: vài điểm cắm trại tự do nhỏ của Auckland Council, các khu cắm trại đặt trước trong công viên vùng ở Tawharanui và Mahurangi, và các công viên nghỉ dưỡng nên dùng thay thế.",
+      "region": "Auckland",
+      "imageAlt": "Sóng vỗ trên bãi cát sẫm màu ở một bãi biển bờ tây, với một mũi đất và một cột đá biển ở phía xa",
+      "intro": "Matakana và Warkworth nằm cách Auckland một giờ về phía bắc, và chịu cùng quy định của Auckland Council như thành phố: chỉ dành cho xe tự túc có chứng nhận, ở một vài điểm có biển báo, trong vài đêm. Các điểm ở đây nhỏ, thường chỉ chứa vài xe, và các công viên vùng xung quanh đều cấm cắm trại tự do. Kế hoạch tốt hơn cho một cuối tuần ở chợ Matakana hay các bãi biển ven bờ Mahurangi là một khu cắm trại đặt trước hoặc một công viên nghỉ dưỡng, còn các điểm của hội đồng chỉ là phương án dự phòng khi đến muộn.",
+      "sections": [
+        {
+          "heading": "Quy định của Auckland áp dụng ở đây",
+          "body": [
+            "Quy định <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw của Auckland áp dụng trên toàn vùng, kể cả Rodney và Hibiscus Coast. Cắm trại trên đường và bãi đỗ xe của hội đồng chỉ được phép trong xe tự túc có chứng nhận, tối đa hai đêm tại cùng một chỗ, và bạn phải rời đi trước 9 giờ sáng vào ngày khởi hành. Hướng dẫn cắm trại tự do ở Auckland đọc toàn bộ quy định này, cùng các khu vực bị cấm và bị hạn chế, nên trang này chỉ nói về phía Matakana.",
+            "Lều hoặc xe không có chứng nhận không được phép ở trên đất của hội đồng. Từ 7 tháng 6 năm 2026, chỉ <a data-guide=\"self-contained-campervan-green-warrant\">giấy chứng nhận xanh</a> được chấp nhận, và hướng dẫn về giấy chứng nhận xe campervan tự túc giải thích điều này. Việc kiểm tra diễn ra suốt mùa hè, và thông báo được gửi đến chủ xe đăng ký, với xe thuê thì đó là công ty cho thuê."
+          ],
+          "tips": [
+            "Quy định áp dụng toàn vùng",
+            "Hai đêm, rời đi trước 9 giờ sáng",
+            "Cần giấy chứng nhận xanh"
+          ]
+        },
+        {
+          "heading": "Các điểm của hội đồng gần Warkworth và bờ biển",
+          "body": [
+            "Các điểm có biển báo của hội đồng trong khu vực đều nhỏ và nằm rải rác: một khu bảo tồn bên bến tàu ở Port Albert phía Kaipara, vài chỗ ở Parry Kauri Park tại Warkworth, và một số điểm trên bờ biển Mahurangi và Whangaparāoa như Snells Beach, mỗi nơi chứa từ ba đến mười xe. Bản đồ và trang của hội đồng có danh sách này, và danh sách thay đổi, vì vậy hãy xác nhận một điểm trước khi một đêm phụ thuộc vào nó.",
+            "Vì số chỗ rất ít, các điểm này kín trước khi trời tối vào mùa hè và vào tối thứ Sáu. Một khu cắm trại đặt trước đảm bảo cho bạn một chỗ ngủ và một khu vệ sinh, còn những chỗ còn lại cho người đến không có kế hoạch nên được coi là phần thưởng hơn là một kế hoạch."
+          ],
+          "tips": [
+            "3 đến 10 xe mỗi điểm",
+            "Port Albert ở phía Kaipara",
+            "Coi các điểm miễn phí là phương án dự phòng"
+          ]
+        },
+        {
+          "heading": "Công viên vùng và khu cắm trại đặt trước",
+          "body": [
+            "Các công viên vùng của Auckland Council cấm <a data-guide=\"freedom-camping-new-zealand-guide\">cắm trại tự do</a>, nhưng hai trong số đó có khu cắm trại đặt trước phù hợp cho một cuối tuần trong vùng: Tawharanui ở cuối một con đường bán đảo dài, với bãi biển ở cả hai bên, và Mahurangi, nơi các khu cắm trại nằm trên những vịnh nhỏ kín gió. Cả hai nhận đặt chỗ qua hội đồng, và những cuối tuần đẹp nhất của tháng 1 hết chỗ sớm.",
+            "Các khu này dành cho cả lều và campervan, có nhà vệ sinh và nước, và một số vịnh chỉ cách mặt nước một đoạn đi bộ ngắn. Quy định về chó, lửa và giờ yên tĩnh theo quy định riêng của công viên, được liệt kê trên trang đặt chỗ, và chúng nghiêm hơn hầu hết các <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a>."
+          ],
+          "tips": [
+            "Tawharanui và Mahurangi: đặt trước",
+            "Công viên vùng cấm cắm trại tự do",
+            "Quy định về chó và lửa khác nhau"
+          ]
+        },
+        {
+          "heading": "Công viên nghỉ dưỡng và đất DOC",
+          "body": [
+            "Warkworth, Snells Beach, Omaha và Leigh đều có <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a> hoặc khu cắm trại ô tô trong tầm với, có chỗ có điện và cabin. Đó là lựa chọn đáng tin cậy vào dịp Giáng sinh, và cuối tuần Lễ Phục sinh cũng đông như các bãi biển. Hướng dẫn về công viên nghỉ dưỡng giải thích cách đặt chỗ.",
+            "Đất DOC trong vùng Auckland phần lớn nằm trên các hòn đảo. Dữ liệu DOC của KiwiCamping (11 tháng 8 năm 2026) liệt kê 9 khu cắm trại ở Auckland, 1 trong số đó miễn phí và 5 cho phép campervan vào, với giá người lớn mỗi đêm từ $10 đến $18, và Home Bay trên Motutapu Island là nơi lớn nhất với chỗ cho 131. Không nơi nào gần Matakana bằng đường bộ."
+          ],
+          "tips": [
+            "Công viên nghỉ dưỡng gần mỗi bãi biển",
+            "Các điểm DOC ở Auckland nằm trên các đảo",
+            "Lễ Phục sinh đông như Giáng sinh"
+          ]
+        },
+        {
+          "heading": "Dùng KiwiCamping quanh Matakana",
+          "body": [
+            "KiwiCamping liệt kê các khu cắm trại và nhà nghỉ DOC, các công viên nghỉ dưỡng cùng tiện nghi và các trạm xả thải quanh Auckland, với bộ lọc cho campervan. Ứng dụng không có các điểm <a data-guide=\"freedom-camping-new-zealand-guide\">cắm trại tự do</a> của hội đồng hay việc đặt chỗ công viên vùng, vì vậy hãy dùng các trang của hội đồng cho những nơi đó.",
+            "Hãy thêm đêm ở Matakana vào chuyến đi từ Auckland đến Bay of Islands và xem khoảng cách và thời gian lái đến điểm dừng tiếp theo, là Whangārei, hơn một giờ nữa. Các địa điểm đã lưu nằm sẵn trên điện thoại, còn bản đồ, tuyến đường, dự báo và ảnh cần có kết nối, vốn chập chờn trên các đường bán đảo. Miễn phí tải, có mua trong ứng dụng."
+          ],
+          "tips": [
+            "Đặt chỗ hội đồng và công viên: dùng trang của họ",
+            "Whangārei cách khoảng một giờ nữa",
+            "Các địa điểm đã lưu nằm sẵn trên điện thoại"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Tôi có thể cắm trại tự do gần Matakana không?",
+          "Chỉ trong xe tự túc có chứng nhận tại một trong các điểm nhỏ có biển báo của hội đồng, tối đa hai đêm. Các công viên vùng và hầu hết khu bảo tồn đều cấm, vì vậy một khu cắm trại đặt trước hoặc công viên nghỉ dưỡng là kế hoạch an toàn hơn."
+        ],
+        [
+          "Tôi có thể cắm trại ở Tawharanui Regional Park không?",
+          "Có, tại khu cắm trại đặt trước của công viên, không phải cắm trại tự do. Hãy đặt chỗ qua Auckland Council trước khi lái đến."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: cắm trại tự do"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: cắm trại tự do"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping ở New Zealand: nơi ở trong yurt, mái vòm và lều safari",
+      "description": "Glamping ở New Zealand: glamping là gì, các kiểu lưu trú, những vùng đẹp nhất từ Bay of Islands đến Queenstown, chi phí và khi nào nên đặt, và cách kết hợp vào một chuyến đi campervan.",
+      "region": "New Zealand",
+      "imageAlt": "Bay of Islands tại Waitangi vào một ngày nắng",
+      "intro": "Glamping nghĩa là cắm trại với những tiện nghi đã được dựng sẵn: một chiếc lều safari có giường thật, một yurt có bếp củi, một mái vòm dưới bầu trời sao, một căn cabin nhỏ bên hồ. New Zealand có rất nhiều nơi như vậy, từ Bay of Islands đến Queenstown, phần lớn do tư nhân vận hành và nằm trong các trang trại, vườn nho và công viên nghỉ dưỡng. Nó hợp cho một hoặc hai đêm trong chuyến đi campervan, như một món quà cho bản thân, lúc trời mưa hay dịp đặc biệt.",
+      "sections": [
+        {
+          "heading": "Thế nào được coi là glamping",
+          "body": [
+            "Không có định nghĩa chính thức, và phạm vi rất rộng. Lều safari và lều chuông có giường thật và một hiên, yurt và mái vòm có máy sưởi và đôi khi có phòng tắm riêng, còn nhà nhỏ, cabin và nhà trên cây nằm ở giữa. Hầu hết nằm trên đất tư, và một số ở trong các <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a>. DOC không vận hành glamping, dù có các nhà nghỉ và cabin.",
+            "Hãy xem những gì được bao gồm: chăn ga, phòng tắm, bếp, hệ thống sưởi và bữa sáng khác nhau rất nhiều, giá cũng vậy. Một chỗ glamping ở nơi hẻo lánh có thể có nhà vệ sinh ủ phân và không có điện, nên đáng đọc kỹ phần mô tả."
+          ],
+          "tips": [
+            "Lều safari, yurt, mái vòm và nhà nhỏ",
+            "Phần lớn nằm trên đất tư",
+            "Kiểm tra những gì được bao gồm"
+          ]
+        },
+        {
+          "heading": "Nên tìm ở đâu",
+          "body": [
+            "Bay of Islands và Northland có các chỗ ở trong trang trại và lều ven biển, Coromandel có các điểm ven biển và trong rừng, còn Waiheke có vườn nho và cảnh đẹp. Ở South Island, Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> và Golden Bay có các lựa chọn bên bờ nước, còn Queenstown, Wānaka và Central Otago có các điểm bên hồ và vườn nho nhìn ra núi.",
+            "Kaikōura, Tekapo và Aoraki Mount Cook có các chỗ ở dưới bầu trời tối, với mái vòm để ngắm sao. Abel Tasman, Bay of Islands và Queenstown là nơi đông nhất, vì vậy hãy tìm xa hơn để có một chỗ yên tĩnh hơn."
+          ],
+          "tips": [
+            "Northland, Coromandel và Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Mái vòm để ngắm sao"
+          ]
+        },
+        {
+          "heading": "Chi phí và khi nào nên đặt",
+          "body": [
+            "Giá cả dao động rất lớn, từ những chiếc lều đơn giản với giá khoảng một phòng motel tốt đến các mái vòm và lodge sang trọng vài trăm đô la một đêm, và tăng vào mùa hè và kỳ nghỉ học. Hãy xem trang riêng của đơn vị vận hành để biết giá hiện tại và những gì được bao gồm, và hỏi về điều khoản hủy, vì thời tiết có thể thay đổi kế hoạch.",
+            "Những chỗ tốt nhất được đặt trước nhiều tháng cho tháng 12 đến tháng 2 và các kỳ nghỉ Lễ Phục sinh và nghỉ học, vì vậy hãy đặt ngay khi đã chốt ngày. Ngoài mùa hè có mức giá tốt, dù một số chỗ đóng cửa vào mùa đông. Hướng dẫn về ngày nghỉ học và nghỉ lễ có các ngày cụ thể."
+          ],
+          "tips": [
+            "Giá tăng vào mùa hè",
+            "Kiểm tra điều khoản hủy",
+            "Đặt trước nhiều tháng cho mùa hè"
+          ]
+        },
+        {
+          "heading": "Kết hợp glamping vào chuyến đi campervan",
+          "body": [
+            "Một đêm glamping xen giữa các đêm campervan cho bạn một chiếc giường tử tế, một vòi nước nóng và thời gian không phải lái xe, và nó dùng được như phương án dự phòng khi trời mưa. Nó đặc biệt hợp ở nơi <a data-guide=\"freedom-camping-new-zealand-guide\">cắm trại tự do</a> không được phép và chỗ ở khan hiếm, như Bay of Islands, Queenstown và Abel Tasman.",
+            "Nếu bạn có campervan, một <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a> có cabin là lựa chọn rẻ hơn cho một đêm nghỉ, và hướng dẫn về công viên nghỉ dưỡng nêu các lựa chọn. Hướng dẫn cắm trại khi trời mưa có thêm về cách giữ khô ráo và tìm chỗ ở."
+          ],
+          "tips": [
+            "Một đêm thưởng cho bản thân giữa các đêm trên xe",
+            "Phương án dự phòng khi trời mưa",
+            "Cabin ở công viên nghỉ dưỡng rẻ hơn"
+          ]
+        },
+        {
+          "heading": "Cách đến nơi và những thứ cần mang",
+          "body": [
+            "Nhiều chỗ glamping nằm trên đường sỏi hoặc đường trang trại, một số có lối vào dốc, vì vậy hãy kiểm tra chỉ dẫn và xem campervan có vào được không. Hãy hỏi chủ nhà về chỗ đỗ cho xe của bạn. Mang theo quần áo ấm, đèn pin, thuốc chống côn trùng và đồ ăn của riêng bạn nếu chỗ ở không có bếp, và kiểm tra giờ nhận phòng, vì chủ nhà thường không có mặt cả ngày.",
+            "Hãy tôn trọng đất đai, mang rác đi và giữ yên tĩnh vào ban đêm, vì nhiều chỗ nằm trên các trang trại đang hoạt động có gia súc. Hướng dẫn về <a data-guide=\"responsible-camping-new-zealand\">cắm trại có trách nhiệm</a> nêu những điều cơ bản."
+          ],
+          "tips": [
+            "Kiểm tra đường vào cho xe van",
+            "Mang quần áo ấm và đèn pin",
+            "Tôn trọng các trang trại đang hoạt động"
+          ]
+        },
+        {
+          "heading": "Lên kế hoạch chuyến đi trong KiwiCamping",
+          "body": [
+            "Trên iPhone, KiwiCamping lập bản đồ các <a data-guide=\"doc-campsites-new-zealand-guide\">khu cắm trại DOC</a>, nhà nghỉ và công viên nghỉ dưỡng, lọc theo khả năng vào của campervan và tiện nghi, và hiển thị các công viên nghỉ dưỡng cùng các lựa chọn đặt được. Hãy lưu những nơi bạn thích, thêm chúng vào một chuyến đi có ngày, và mỗi điểm dừng sẽ có dự báo thời tiết. Các chỗ glamping tư nhân không được liệt kê, vì vậy hãy xem trang riêng của đơn vị vận hành.",
+            "Bạn có thể đặt chỗ ở <a data-guide=\"holiday-parks-new-zealand-guide\">công viên nghỉ dưỡng</a> qua phần liệt kê, còn việc đặt chỗ DOC vẫn ở trang riêng của DOC. Miễn phí tải, có mua trong ứng dụng."
+          ],
+          "tips": [
+            "Lưu công viên nghỉ dưỡng và nhà nghỉ",
+            "Dự báo ở mỗi điểm dừng",
+            "Glamping tư nhân đặt trực tiếp với đơn vị vận hành"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Glamping ở New Zealand là gì?",
+          "Cắm trại với tiện nghi dựng sẵn, như lều safari có giường, yurt hoặc mái vòm, thường trên đất tư. Hãy kiểm tra những gì được bao gồm, vì khác nhau rất nhiều."
+        ],
+        [
+          "Khi nào nên đặt glamping ở New Zealand?",
+          "Trước nhiều tháng cho tháng 12 đến tháng 2 và kỳ nghỉ học. Mùa đông và các mùa chuyển tiếp dễ hơn, dù một số chỗ đóng cửa."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: nơi lưu trú độc đáo"
+        },
+        {
+          "label": "DOC: nơi lưu trú"
+        },
+        {
+          "label": "MBIE: ngày nghỉ học và nghỉ lễ"
         }
       ],
       "priceTable": null

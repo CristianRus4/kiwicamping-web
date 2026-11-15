@@ -435,20 +435,20 @@
       "openTool": "Öppna räknaren",
       "ctaEyebrow": "Planera i KiwiCamping",
       "ctaTitle": "Hitta stoppen och räkna sedan på det.",
-      "ctaText": "KiwiCamping är gratis att ladda ned till iPhone. Holiday parks, boenden och turer som går att boka ser du gratis i appen. DOC-campingplatser, stugor, tömningsstationer och guiderna låses upp med Pass.",
+      "ctaText": "Alla platser att campa och bo på, samlade på en karta, med filter, bilder, avgifter och en reseplanerare för hela rutten.",
       "ctaButton": "Ladda ned appen",
       "enterValidValues": "Ange giltiga värden",
       "enterValidAmount": "Ange ett giltigt belopp"
     },
     "index": {
-      "metaTitle": "Räknare för roadtrip i Nya Zeeland: bränsle, körtid, camping",
-      "metaDescription": "Gratis räknare för roadtrip i Nya Zeeland: bränslekostnad, körtid efter vägtyp, campingkostnad per person eller per plats, omräkning av NZD och vattentankar i husbil.",
+      "metaTitle": "Roadtripräknare för Nya Zeeland: bränsle, sträcka och körtid",
+      "metaDescription": "Gratis roadtripräknare för Nya Zeeland: bränslekostnad med de senaste bensin- och dieselpriserna, körtider och avstånd mellan större orter, campingkostnader, omräkning av NZD och vattentankar.",
       "toolsTitle": "En räknare för varje fråga",
       "toolsText": "Varje räknare har en egen sida med formeln, ett räkneexempel med nyzeeländska siffror, antagandena bakom och svar på vanliga frågor."
     },
     "fuel": {
-      "metaTitle": "Bränslekostnad i Nya Zeeland: räkna på roadtripen med husbil",
-      "metaDescription": "Räkna ut liter och bränslekostnad för en roadtrip i Nya Zeeland utifrån sträcka, L/100 km och pumppris, med formel, räkneexempel på 1 000 km och MBIE:s riktpris.",
+      "metaTitle": "Bränslekostnad i Nya Zeeland: bensin, diesel och RUC (2026)",
+      "metaDescription": "Räkna ut kostnaden för bensin eller diesel på en roadtrip i Nya Zeeland med MBIE:s senaste priser för 91, 95 och diesel, med RUC (road user charges) för diesel och ett exempel på 1 000 km i husbil.",
       "eyebrow": "Räknare för bränslekostnad",
       "cardEyebrow": "Bränsleräknare",
       "h1": "Räknare för bränslekostnaden på en roadtrip i Nya Zeeland",
@@ -497,8 +497,8 @@
       "dieselRuc": "{cost} plus {ruc} i RUC"
     },
     "drive": {
-      "metaTitle": "Körtid i Nya Zeeland: räkna realistiska timmar per vägtyp",
-      "metaDescription": "Uppskatta hur lång en kördag i Nya Zeeland egentligen blir utifrån sträckan, vägtypen och dina stopp, med formel, räkneexempel och de hastigheter som används.",
+      "metaTitle": "Körtidsräknare för Nya Zeeland: restid mellan orter",
+      "metaDescription": "Så lång tid tar det att köra i Nya Zeeland: Auckland till Wellington 8 till 8,5 timmar, Christchurch till Queenstown ungefär 6. Huvudrutter, avstånd och en räknare för valfri dag.",
       "eyebrow": "Räknare för körtid",
       "cardEyebrow": "Räkna på kördagen",
       "h1": "Räknare för körtid på vägarna i Nya Zeeland",
@@ -38417,6 +38417,203 @@
         },
         {
           "label": "DOC: jämför Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Fricamping kring Matakana och Warkworth: var du kan stanna",
+      "description": "Var du kan sova i husbil kring Matakana och Warkworth: Auckland Councils få små platser för freedom camping, de bokade campingplatserna i regionala parker vid Tawharanui och Mahurangi, och holiday parks som du kan välja i stället.",
+      "region": "Auckland",
+      "imageAlt": "Bränningar som sköljer över mörk sand på en strand på västkusten, med en udde och en klippstack i fjärran",
+      "intro": "Matakana och Warkworth ligger en timme norr om Auckland och omfattas av samma föreskrifter från Auckland Council som staden: bara certifierat self-contained fordon (alltså certifierat självförsörjande med fast toalett och vattentankar), på några få skyltade platser, i ett par nätter. Platserna här är små, ofta bara en handfull fordon, och de regionala parkerna runtomkring är stängda för freedom camping (fricamping utanför campingplatserna, där kommunen eller DOC tillåter det). Den bättre planen för en helg på marknaderna i Matakana eller på stränderna längs Mahurangi-kusten är en bokad campingplats eller en holiday park (en större camping med stugor, kök och ofta pool, ungefär som en svensk familjecamping), med kommunens platser som reserv om du kommer sent.",
+      "sections": [
+        {
+          "heading": "Aucklands regler som gäller här",
+          "body": [
+            "Aucklands <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw (kommunens föreskrifter för fricamping i fordon) gäller i hela regionen, även Rodney och Hibiscus Coast. Du får bara campa på kommunala vägar och parkeringar i ett certifierat self-contained fordon, högst två nätter på samma plats, och du lämnar platsen senast kl. 9 den dag du åker. Guiden om fricamping i Auckland går igenom föreskrifterna i sin helhet, med förbjudna och begränsade områden, så den här sidan håller sig till Matakana-änden.",
+            "Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. Ett tält eller ett fordon utan certifikat har ingen plats på kommunal mark. Från 7 juni 2026 gäller bara <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a>, och guiden om self-contained-intyget förklarar det. Kontrollerna pågår hela sommaren, och en avgiftsavi skickas till den registrerade ägaren, som för en hyrbil är biluthyrningsfirman."
+          ],
+          "tips": [
+            "Föreskrifter för hela regionen",
+            "Två nätter, iväg före kl. 9",
+            "Green warrant krävs"
+          ]
+        },
+        {
+          "heading": "Kommunala platser nära Warkworth och kusten",
+          "body": [
+            "Kommunens skyltade platser i området är små och utspridda: ett kajreservat vid Port Albert på Kaipara-sidan, några platser vid Parry Kauri Park i Warkworth och en handfull platser längs kusterna vid Mahurangi och Whangaparāoa, till exempel Snells Beach, med plats för mellan tre och tio fordon vardera. Kommunens karta och sida har listan, och den ändras, så bekräfta en plats innan en natt hänger på den.",
+            "Eftersom platserna är så få blir de fulla före mörkret på sommaren och på fredagskvällar. En bokad campingplats ger dig en säker plats och en toalettbyggnad, och de platser som finns kvar för den som kommer oplanerat ska ses som en bonus, inte som en plan."
+          ],
+          "tips": [
+            "3 till 10 fordon per plats",
+            "Port Albert ligger på Kaipara-sidan",
+            "Se de gratis platserna som reserv"
+          ]
+        },
+        {
+          "heading": "Regionala parker och bokade campingplatser",
+          "body": [
+            "Auckland Councils regionala parker är stängda för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, men två av dem har bokade campingplatser som passar för en helg i området: Tawharanui i slutet av en lång väg ut på en halvö, med stränder på båda sidor, och Mahurangi, där campingplatserna ligger ovanför skyddade vikar. Båda tar emot bokningar via kommunen, och de bästa helgerna i januari går tidigt.",
+            "De passar både tält och husbilar, med toaletter och vatten, och några vikar ligger en kort promenad från vattnet. Regler för hundar, eld och tysta timmar följer parkens egna regler, som bokningssidan listar, och de är strängare än på de flesta <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>."
+          ],
+          "tips": [
+            "Tawharanui och Mahurangi: boka i förväg",
+            "Regionala parker förbjuder freedom camping",
+            "Reglerna för hundar och eld skiljer sig"
+          ]
+        },
+        {
+          "heading": "Holiday parks och DOC-mark",
+          "body": [
+            "I Warkworth, Snells Beach, Omaha och Leigh finns det <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> eller motor camps inom räckhåll, med elplatser och stugor. De är det pålitliga valet över jul, och påskhelgen drar samma folkmassor som stränderna gör. Guiden om holiday parks förklarar hur bokningen fungerar.",
+            "DOC-mark i Auckland-regionen ligger mest på öar. KiwiCampings DOC-data (11 augusti 2026) listar 9 campingplatser i Auckland, 1 av dem gratis och 5 med plats för husbil, med vuxenpriser från 10 till 18 NZD per natt, och Home Bay på Motutapu Island är störst med plats för 131. Ingen ligger nära Matakana på väg."
+          ],
+          "tips": [
+            "Holiday parks nära varje strand",
+            "DOC-platserna i Auckland ligger på öar",
+            "Påsk blir lika fullt som jul"
+          ]
+        },
+        {
+          "heading": "Använd KiwiCamping kring Matakana",
+          "body": [
+            "KiwiCamping har DOC-campingplatser och DOC-stugor, holiday parks med sin utrustning och tömningsstationer (dump stations) runt Auckland, med filter för husbilsåtkomst. Appen har inte kommunens platser för <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> eller bokningarna i regionala parker, så använd kommunens sidor för dem.",
+            "Lägg in natten i Matakana i en resa från Auckland till Bay of Islands och läs avståndet och körtiden till nästa stopp, som är Whangārei, drygt en timme längre fram. Sparade platser finns kvar i telefonen, men kartan, rutterna, prognosen och bilderna kräver uppkoppling, som är ojämn på vägarna ut på halvön. Appen är gratis att ladda ner, med köp i appen."
+          ],
+          "tips": [
+            "Kommunens och parkernas bokningar: använd deras sidor",
+            "Whangārei ligger ungefär en timme bort",
+            "Sparade platser finns kvar i telefonen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan jag fricampa nära Matakana?",
+          "Bara i ett certifierat self-contained fordon på någon av kommunens små skyltade platser, högst två nätter. Regionala parker och de flesta reservat är stängda för det, så en bokad campingplats eller holiday park är den säkrare planen."
+        ],
+        [
+          "Kan jag campa i Tawharanui Regional Park?",
+          "Ja, på den bokade campingplatsen, men inte som freedom camping. Boka via Auckland Council innan du kör dit."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council: Freedom camping"
+        },
+        {
+          "label": "Auckland Council: Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC: freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping i Nya Zeeland: boende i jurtor, kupoler och safaritält",
+      "description": "Glamping i Nya Zeeland: vad det är, vilka sorters boende som finns, de bästa regionerna från Bay of Islands till Queenstown, vad det kostar och när du bör boka, och hur det passar in på en husbilsresa.",
+      "region": "Nya Zeeland",
+      "imageAlt": "Bay of Islands vid Waitangi en solig dag",
+      "intro": "Glamping betyder camping där bekvämligheterna redan är på plats: ett safaritält med en riktig säng, en jurta med vedkamin, en kupol under stjärnorna, en liten stuga vid en sjö. Nya Zeeland har gott om dem, från Bay of Islands till Queenstown, mest privatägda och på gårdar, vingårdar och holiday parks. Det passar för en eller två nätter på en husbilsresa, som en guldkant, under en regnperiod eller vid ett speciellt tillfälle.",
+      "sections": [
+        {
+          "heading": "Vad som räknas som glamping",
+          "body": [
+            "Det finns ingen officiell definition, och spannet är brett. Safaritält och klockeltält har riktiga sängar och ett trädäck, jurtor och kupoler har värme och ibland ett eget badrum, och små hus, stugor och trädkojor ligger däremellan. De flesta ligger på privat mark, och några finns på <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (större campingplatser med stugor och kök, ungefär som en svensk familjecamping). DOC driver ingen glamping, men har stugor och cabins.",
+            "Titta på vad som ingår: sängkläder, badrum, kök, värme och frukost varierar mycket, och det gör priset också. Ett glampingboende på en avlägsen plats kan ha komposttoaletter och ingen el, så det lönar sig att läsa annonsen noga."
+          ],
+          "tips": [
+            "Safaritält, jurtor, kupoler och små hus",
+            "Mest på privat mark",
+            "Kolla vad som ingår"
+          ]
+        },
+        {
+          "heading": "Var du kan leta",
+          "body": [
+            "Bay of Islands och Northland har gårdsboenden och tält vid kusten, Coromandel har platser vid stranden och i bushen, och Waiheke har vingårdar och utsikt. På South Island (Sydön) har Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> och Golden Bay boenden vid vattnet, och Queenstown, Wānaka och Central Otago har platser vid sjöar och vingårdar med utsikt över bergen.",
+            "Kaikōura, Tekapo och Aoraki Mount Cook har boenden under en mörk stjärnhimmel, med kupoler för stjärnskådning. Abel Tasman, Bay of Islands och Queenstown är mest besökta, så leta längre bort efter en lugnare plats."
+          ],
+          "tips": [
+            "Northland, Coromandel och Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Kupoler för stjärnskådning"
+          ]
+        },
+        {
+          "heading": "Kostnad och när du bör boka",
+          "body": [
+            "Priserna varierar mycket, från enkla tält som kostar ungefär som ett bra motellrum till lyxiga kupoler och lodger för flera hundra dollar per natt, och de stiger på sommaren och under skollov. Kolla arrangörens egen sida för aktuellt pris och vad som ingår, och fråga om avbokningsvillkoren, eftersom vädret kan ändra en plan.",
+            "De bästa platserna blir fullbokade månader i förväg för december till februari samt påsken och skollov, så boka så fort du vet dina datum. Utanför sommaren finns bra priser, men vissa platser stänger på vintern. Guiden om skollov och helgdagar har datumen."
+          ],
+          "tips": [
+            "Priserna stiger på sommaren",
+            "Kolla avbokningsvillkoren",
+            "Boka månader i förväg för sommaren"
+          ]
+        },
+        {
+          "heading": "Glamping som del av en husbilsresa",
+          "body": [
+            "En natt med glamping mellan husbilsnätterna ger dig en riktig säng, en varm dusch och en dag utan körning, och den fungerar som reserv när det regnar. Det passar särskilt bra där <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> inte är tillåtet och platserna är få, som Bay of Islands, Queenstown och Abel Tasman.",
+            "Har du en husbil är en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> med stugor det billigare alternativet för en natt ledigt, och guiden om holiday parks går igenom valen. Guiden om camping i regnväder har mer om hur du håller dig torr och hittar en plats."
+          ],
+          "tips": [
+            "En guldkantsnatt mellan husbilsnätterna",
+            "Reserv när det regnar",
+            "Stugor på holiday parks är billigare"
+          ]
+        },
+        {
+          "heading": "Ta dig dit och vad du ska ha med",
+          "body": [
+            "Många glampingplatser ligger vid grusvägar eller gårdsvägar, några med en brant uppfart, så kolla vägbeskrivningen och om en husbil kan ta sig fram. Fråga värden om parkering för din husbil. Ta med varma kläder, en ficklampa, myggmedel och egen mat om boendet saknar kök, och kolla incheckningstiderna, eftersom värdarna ofta inte är på plats hela dagen.",
+            "Visa hänsyn till marken, ta med dig soporna och håll nere ljudet på natten, eftersom många platser ligger på gårdar med djur. Guiden om <a data-guide=\"responsible-camping-new-zealand\">ansvarsfull camping</a> går igenom grunderna."
+          ],
+          "tips": [
+            "Kolla vägen fram för en husbil",
+            "Ta med varma kläder och en ficklampa",
+            "Visa hänsyn på gårdar som är i drift"
+          ]
+        },
+        {
+          "heading": "Planera din resa i KiwiCamping",
+          "body": [
+            "På iPhone visar KiwiCamping <a data-guide=\"doc-campsites-new-zealand-guide\">DOC-campingplatser</a>, stugor och holiday parks på kartan, filtrerar dem efter husbilsåtkomst och utrustning och visar holiday parks med deras bokningsbara boenden. Spara platserna du gillar och lägg dem i en resa med datum, så får varje stopp en prognos. Privata glampingplatser finns inte med, så titta på arrangörernas egna sidor för dem.",
+            "Boenden på <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> kan bokas via annonsen, medan DOC-bokningar finns kvar på DOC:s egna sidor. Appen är gratis att ladda ner, med köp i appen."
+          ],
+          "tips": [
+            "Spara holiday parks och stugor",
+            "Prognos vid varje stopp",
+            "Privat glamping bokas hos arrangören"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad är glamping i Nya Zeeland?",
+          "Camping med bekvämligheter på plats, till exempel ett safaritält med säng, en jurta eller en kupol, oftast på privat mark. Kolla vad som ingår, eftersom det varierar mycket."
+        ],
+        [
+          "När bör jag boka glamping i Nya Zeeland?",
+          "Månader i förväg för december till februari och skollov. Vintern och mellansäsongerna är lättare, men vissa platser stänger."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand: unika ställen att bo på"
+        },
+        {
+          "label": "DOC: boenden"
+        },
+        {
+          "label": "MBIE: datum för skollov och helgdagar"
         }
       ],
       "priceTable": null

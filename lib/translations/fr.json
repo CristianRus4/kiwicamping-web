@@ -464,20 +464,20 @@
       "openTool": "Ouvrir le calculateur",
       "ctaEyebrow": "Préparez votre road trip dans KiwiCamping",
       "ctaTitle": "Trouvez les étapes, puis faites le calcul.",
-      "ctaText": "KiwiCamping se télécharge gratuitement sur iPhone. Les holiday parks réservables, les hébergements et les excursions sont gratuits dans l’app. Les campings du DOC, les refuges, les aires de vidange et les guides s’ouvrent avec le Pass.",
+      "ctaText": "Tous les lieux où camper et dormir sur une seule carte, avec filtres, photos, tarifs et un planificateur de voyage pour tout l’itinéraire.",
       "ctaButton": "Télécharger l’app",
       "enterValidValues": "Saisissez des valeurs valides",
       "enterValidAmount": "Saisissez un montant valide"
     },
     "index": {
-      "metaTitle": "Calculateurs de road trip en Nouvelle-Zélande : carburant, durée, camping",
-      "metaDescription": "Calculateurs gratuits pour un road trip en Nouvelle-Zélande : carburant, durée de trajet selon la route, camping par personne ou par emplacement, conversion en NZD et réservoirs d’eau du van.",
+      "metaTitle": "Calculateur de road trip en Nouvelle-Zélande : carburant, distance et durée",
+      "metaDescription": "Calculateurs gratuits pour un road trip en Nouvelle-Zélande : coût du carburant aux derniers prix de l’essence et du diesel, durées de trajet et distances entre les principales villes, coût des campings, conversion en NZD et réservoirs d’eau.",
       "toolsTitle": "Un calculateur par question",
       "toolsText": "Chaque calculateur a sa propre page avec la formule, un exemple de calcul avec des chiffres néo-zélandais, les hypothèses retenues et des réponses aux questions courantes."
     },
     "fuel": {
-      "metaTitle": "Calculateur de carburant en Nouvelle-Zélande : road trip en van",
-      "metaDescription": "Calculez les litres et le coût du carburant d’un road trip en Nouvelle-Zélande d’après la distance, les l/100 km et le prix à la pompe, avec la formule, un exemple sur 1 000 km et la référence du MBIE.",
+      "metaTitle": "Coût du carburant en Nouvelle-Zélande : essence, diesel et RUC (2026)",
+      "metaDescription": "Calculez le coût de l’essence ou du diesel d’un road trip en Nouvelle-Zélande aux derniers prix du MBIE pour l’essence 91, 95 et le diesel, avec les road user charges (RUC) du diesel et un exemple de van sur 1 000 km.",
       "eyebrow": "Calculateur du coût du carburant",
       "cardEyebrow": "Calcul du carburant",
       "h1": "Calculateur du coût du carburant pour un road trip en Nouvelle-Zélande",
@@ -526,8 +526,8 @@
       "dieselRuc": "{cost} plus {ruc} de RUC"
     },
     "drive": {
-      "metaTitle": "Durée de trajet en Nouvelle-Zélande : le vrai temps selon la route",
-      "metaDescription": "Estimez la durée réelle d’une journée de route en Nouvelle-Zélande d’après la distance, le type de route et vos arrêts, avec la formule, un exemple et les vitesses retenues.",
+      "metaTitle": "Durée de trajet en Nouvelle-Zélande : temps de route entre les villes",
+      "metaDescription": "Combien de temps durent les trajets en Nouvelle-Zélande : d’Auckland à Wellington, de 8 à 8,5 heures, de Christchurch à Queenstown, environ 6. Principaux itinéraires, distances et calculateur pour chaque journée de route.",
       "eyebrow": "Calculateur de durée de trajet",
       "cardEyebrow": "Durée d’une journée de route",
       "h1": "Calculateur de durée de trajet sur les routes de Nouvelle-Zélande",
@@ -1035,10 +1035,10 @@
     },
     "east-cape-road-trip": {
       "title": "Road trip à l’East Cape : de Gisborne à Ōpōtiki en camping",
-      "description": "Parcourez l’East Cape de Gisborne à Ōpōtiki : villages de surf, baies de pōhutukawa, routes isolées avec peu de services, et où camper sur le tour.",
+      "description": "Le road trip de l’East Cape sur la State Highway 35, de Gisborne à Ōpōtiki, en trois jours ou plus : le wharf de Tolaga Bay, le phare, les stations-service et où camper.",
       "region": "East Cape",
       "imageAlt": "Route isolée de l’East Cape en bord de Pacifique",
-      "intro": "La State Highway 35 est l’une des routes les plus gratifiantes du pays pour qui prend son temps. Ici, le carburant, les horaires d’ouverture et les dégâts de tempête comptent plus qu’ailleurs : calez l’itinéraire sur la lumière du jour et les conditions locales plutôt que sur une heure d’arrivée fixe.",
+      "intro": "Le road trip de l’East Cape suit la State Highway 35 autour du Cape, de Gisborne à Ōpōtiki, et demande trois jours ou plus, avec des nuits autour de Tolaga Bay, Te Araroa et Waihau Bay. C’est l’une des routes les plus belles du pays pour qui prend son temps, mais ici le carburant, les horaires d’ouverture et les dégâts de tempête comptent davantage : faites le plein à Gisborne et à Ōpōtiki, et laissez la lumière du jour et les conditions locales fixer votre itinéraire plutôt qu’une heure d’arrivée précise.",
       "sections": [
         {
           "heading": "De Gisborne à Tolaga Bay",
@@ -4977,10 +4977,10 @@
     },
     "doc-huts-new-zealand-guide": {
       "title": "Refuges du DOC en Nouvelle-Zélande : région, types, tarifs, tickets",
-      "description": "Où se trouvent les refuges du DOC, région par région, ce que coûtent les refuges Serviced, Standard et Basic en 2026/27, et comment fonctionnent les tickets de refuge, le Hut Pass et les réservations.",
+      "description": "927 refuges du DOC par région avec les tarifs 2026/27, et les trois façons de payer une nuit : réserver sur bookings.doc.govt.nz, acheter des tickets de refuge ou utiliser le Backcountry Hut Pass.",
       "region": "Arrière-pays néo-zélandais",
       "imageAlt": "Refuge isolé dans les montagnes néo-zélandaises",
-      "intro": "Le DOC gère plus de 950 refuges, et les données DOC de KiwiCamping en recensent 927, du refuge Serviced avec chauffage et matelas jusqu’au bivvy à deux couchettes. La plupart se trouvent dans l’île du Sud : le Canterbury en compte 180 à lui seul et la West Coast 140, tandis que les plus gros groupes de l’île du Nord se situent dans les chaînes de Ruahine, de Kaweka et de Tararua. Dans ces données, vérifiées le 24 août 2026, seuls 127 des 927 pouvaient se réserver, et si le DOC a depuis mis en ligne tous les refuges Serviced, la plupart des refuges restent au premier arrivé, premier servi : gratuits s’ils sont Basic, payants avec des tickets de refuge ou un Backcountry Hut Pass s’ils sont Standard.",
+      "intro": "Le DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) gère plus de 950 refuges, et les données DOC de KiwiCamping en recensent 927, du refuge Serviced avec chauffage et matelas jusqu’au bivvy à deux couchettes. La plupart se trouvent dans l’île du Sud : le Canterbury en compte 180 à lui seul et la West Coast 140, tandis que les plus gros groupes de l’île du Nord se situent dans les chaînes de Ruahine, de Kaweka et de Tararua. Dans ces données, vérifiées le 24 août 2026, seuls 127 des 927 pouvaient se réserver, et si le DOC a depuis mis en ligne tous les refuges Serviced, la plupart des refuges restent au premier arrivé, premier servi : gratuits s’ils sont Basic, payants avec des tickets de refuge ou un Backcountry Hut Pass s’ils sont Standard. Il y a donc trois façons de payer une nuit : réserver les refuges Serviced et ceux des Great Walks (grandes randonnées emblématiques) sur bookings.doc.govt.nz, acheter des Backcountry Hut Tickets, en ligne depuis le 1er novembre 2026, pour un refuge Standard, ou emporter un Hut Pass qui couvre la plupart des refuges Serviced et Standard pendant 12 mois.",
       "sections": [
         {
           "heading": "Catégories de refuges et tarifs 2026/27",
@@ -6610,10 +6610,10 @@
     },
     "campervan-road-rules-new-zealand": {
       "title": "Conduire un van en Nouvelle-Zélande : permis, vitesse, gabarit (2026)",
-      "description": "Conduire un van en Nouvelle-Zélande : ce que couvre un permis voiture, limitations de vitesse, vent sur les routes exposées, dimensions pour le ferry et erreurs des visiteurs.",
+      "description": "Un permis voiture complet couvre les vans jusqu’à 6 000 kg en Nouvelle-Zélande. Limitations de vitesse, laisser passer les autres véhicules, vent, hauteur et longueur pour le ferry.",
       "region": "Routes néo-zélandaises",
       "imageAlt": "Grand van sur une route étroite de Nouvelle-Zélande",
-      "intro": "Un van peut se conduire légalement avec un permis Class 1 (le permis voiture néo-zélandais) et pourtant n’avoir rien à voir avec une voiture. Lors de la remise du véhicule, faites-vous préciser la hauteur, la largeur, la longueur, le poids en charge et toutes les routes exclues par le contrat de location.",
+      "intro": "Un permis voiture complet (Class 1), ou un permis voiture étranger complet avec lequel vous avez le droit de conduire ici, couvre les vans et les camping-cars jusqu’à 6 000 kg de poids total en charge. Sous 3 500 kg, la limitation de vitesse normale hors agglomération s’applique ; les véhicules plus lourds ont une limite plus basse. Un van peut être légal avec un permis voiture et pourtant n’avoir rien à voir avec une voiture : lors de la remise du véhicule, faites-vous préciser la hauteur, la largeur, la longueur, le poids en charge et toutes les routes exclues par le contrat de location.",
       "sections": [
         {
           "heading": "Prenez les mesures avant de rouler",
@@ -9931,11 +9931,11 @@
       "priceTable": null
     },
     "where-to-camp-in-new-zealand": {
-      "title": "Où camper en Nouvelle-Zélande : le guide complet des terrains",
-      "description": "Campings du DOC, terres protégées, réserves municipales, lieux gérés par les iwi et holiday parks privés : chaque type a ses règles et ses tarifs.",
+      "title": "Où camper en Nouvelle-Zélande : les campings par type et par région",
+      "description": "Où camper en Nouvelle-Zélande : campings du DOC, holiday parks, camping libre municipal et terrains communautaires, ce que chacun coûte et autorise, île par île.",
       "region": "Nouvelle-Zélande",
       "imageAlt": "Van garé sur un camping côtier en Nouvelle-Zélande",
-      "intro": "Le réseau de camping néo-zélandais s’étend sur quatre types de terrain assez différents, et les règles, le prix et le système de réservation changent avec chacun. Savoir de quel type il s’agit vous dit l’essentiel : si vous pouvez arriver sans réserver, si une certification est exigée, à qui poser la question quand un point n’est pas clair et ce qu’il faut s’attendre à payer.",
+      "intro": "On peut camper en Nouvelle-Zélande dans les campings du DOC sur les terres protégées, dans les holiday parks, sur les sites de freedom camping (camping libre, sur terrain public, hors camping aménagé) des conseils et dans les camps des iwi, des communautés et des showgrounds (terrains de foire agricole). Les sites DOC Basic sont gratuits et les autres payants, les holiday parks offrent électricité et douches chaudes, et les terrains municipaux autorisent en général le freedom camping aux véhicules certifiés self-contained pour une nuit ou deux là où l’arrêté le permet. Les règles, le prix et le système de réservation changent selon le type de terrain : savoir duquel il s’agit vous dit l’essentiel, c’est-à-dire si vous pouvez arriver sans réserver, si une certification est exigée, à qui poser la question et ce qu’il faut s’attendre à payer.",
       "sections": [
         {
           "heading": "Les quatre types de terrain",
@@ -35128,11 +35128,11 @@
       "priceTable": null
     },
     "freedom-camping-rules-new-zealand": {
-      "title": "Règles du camping libre en Nouvelle-Zélande, région par région",
-      "description": "Freedom Camping Act, arrêtés municipaux, certification self-contained et réalité des contrôles sur le terrain.",
+      "title": "Règles du freedom camping en Nouvelle-Zélande 2026 : où c’est légal et les amendes",
+      "description": "Où pratiquer le freedom camping en Nouvelle-Zélande en 2026 : arrêtés municipaux, terres du DOC, le green warrant exigé pour votre véhicule depuis juin, durées de séjour et amendes.",
       "region": "Nouvelle-Zélande",
       "imageAlt": "Panneau de freedom camping autorisé à côté d’un van",
-      "intro": "En Nouvelle-Zélande, le freedom camping est légal là où il est autorisé et sanctionné partout ailleurs, et la frontière est tracée par l’organisme qui gère le terrain sous vos roues. Le Freedom Camping Act 2011 fixe un cadre national, mais chaque commune rédige son propre arrêté : la règle apprise dans un district ne vous dit presque rien du suivant.",
+      "intro": "Le freedom camping (camping libre) en Nouvelle-Zélande n’est légal que là où l’organisme qui gère le terrain l’autorise : sur les terrains municipaux selon l’arrêté de la commune, sur les terres protégées sauf si un avis du DOC l’interdit ou le restreint, et jamais sur un terrain privé sans permission. La plupart des sites municipaux et de nombreuses zones du DOC n’admettent que les véhicules certifiés self-contained, et depuis le 7 juin 2026, seul un green warrant compte. Le Freedom Camping Act 2011 fixe le cadre national, mais chaque conseil rédige son propre arrêté : la règle apprise dans un district ne vous dit presque rien du suivant.",
       "sections": [
         {
           "heading": "Ce que freedom camping veut vraiment dire ici",
@@ -35474,15 +35474,15 @@
     },
     "doc-campsites-new-zealand-guide": {
       "title": "Réserver un refuge ou un camping du DOC 2026 : tarifs et dates",
-      "description": "Réservez les refuges, les campings et les Great Walks du DOC sur bookings.doc.govt.nz. Tarifs 2026/27, Hut Pass ou Campsite Pass, refuges au premier arrivé et que faire quand c’est complet.",
+      "description": "Les réservations du DOC se font sur bookings.doc.govt.nz. Comment se connecter et réserver refuges, campings et Great Walks, tarifs 2026/27 pour adultes et enfants, et annulations.",
       "region": "Terres protégées de Nouvelle-Zélande",
       "imageAlt": "Tente dans un camping du Department of Conservation",
-      "intro": "Les refuges, campings et Great Walks du DOC se réservent sur le système de réservation propre au Department of Conservation, à l’adresse bookings.doc.govt.nz, ou dans un centre d’accueil des visiteurs du DOC. Il faut un compte gratuit, on paie la totalité à la réservation, et l’e-mail de confirmation sert de preuve sur place. Les réservations de la saison 2026/27, qui couvrent les séjours du 1er juillet 2026 au 30 juin 2027, ont ouvert en mai 2026. La plupart des refuges d’arrière-pays et de nombreux campings Basic ne se réservent pas du tout et fonctionnent au premier arrivé, premier servi. Au programme : les tarifs, les deux passes, les lieux qui exigent une réservation et que faire quand celui que vous voulez est complet.",
+      "intro": "Les refuges, campings et Great Walks du DOC se réservent sur un seul site officiel, le système de réservation du Department of Conservation, à l’adresse bookings.doc.govt.nz, ou dans un centre d’accueil des visiteurs du DOC. Créez un compte gratuit et connectez-vous, cherchez le lieu, choisissez les dates et le nombre de personnes, puis payez le prix total par Visa ou Mastercard ; l’e-mail de confirmation vaut réservation. Les réservations de la saison 2026/27, qui couvrent les séjours du 1er juillet 2026 au 30 juin 2027, ont ouvert en mai 2026. Pour les refuges et campings des Great Walks en saison, pour chaque refuge Serviced et pour de nombreux campings, la réservation est obligatoire, tandis que la plupart des refuges d’arrière-pays et de nombreux campings Basic fonctionnent au premier arrivé, premier servi. Ci-dessous : les tarifs pour adultes et enfants, résidents néo-zélandais et visiteurs étrangers, les frais d’annulation et que faire quand le lieu voulu est complet.",
       "sections": [
         {
           "heading": "Où et comment réserver",
           "body": [
-            "Allez sur bookings.doc.govt.nz, créez un compte et connectez-vous avant de chercher. Trouvez le refuge, le camping ou la Great Walk, choisissez les dates et le nombre de personnes, ajoutez l’immatriculation du véhicule pour un camping, et payez par Visa ou Mastercard. Le paiement intégral est prélevé à la réservation et tous les prix incluent la GST. Les centres d’accueil du DOC peuvent réserver beaucoup des mêmes lieux en personne ou par téléphone, moyennant 10 $ de frais de service.",
+            "Rendez-vous sur bookings.doc.govt.nz, créez un compte et connectez-vous avant de chercher. Trouvez le refuge, le camping ou la Great Walk, choisissez les dates et le nombre de personnes, ajoutez l’immatriculation du véhicule pour un camping, et payez par Visa ou Mastercard. Les Great Walks fonctionnent de la même façon : il n’y a ni acompte ni paiement échelonné, la totalité du séjour est prélevée pour chaque personne et chaque nuit à la réservation, et une réservation n’est valable qu’une fois payée et confirmée. Tous les prix sont en dollars néo-zélandais et incluent la GST. Les centres d’accueil du DOC peuvent réserver beaucoup des mêmes lieux en personne ou par téléphone, moyennant 10 $ de frais de service.",
             "L’e-mail de confirmation vaut réservation. Téléchargez-le ou imprimez-le avant de perdre le réseau, avec votre éventuel pass, car les rangers et les gardiens de refuge peuvent le demander et la plupart des <a data-guide=\"doc-huts-new-zealand-guide\">refuges du DOC</a> et de nombreux campings n’ont aucun réseau. Les couchettes des refuges réservables ne sont pas attribuées : une réservation achète donc un lit, pas un lit précis, et pour les campings sans emplacements numérotés, vous choisissez parmi les emplacements libres à votre arrivée."
           ],
           "tips": [
@@ -35543,14 +35543,14 @@
           "heading": "Modifier ou annuler une réservation",
           "body": [
             "Annulez le jour de la réservation ou le lendemain, à condition que l’arrivée soit à plus de deux jours, et le DOC ne facture rien. De 48 heures après la réservation jusqu’à 15 jours avant l’arrivée, les frais sont de 10 %. À moins de 14 jours, ils montent selon le type : refuges 20 %, puis 30 % à partir de trois jours avant ; campings 20 puis 75 % ; Great Walks 50 puis 75 % ; lodges, cabanes et refuges à occupation exclusive 100 %. Annuler la veille, le jour même ou après fait perdre la totalité du montant, tout comme ne pas se présenter.",
-            "Si vous ne vous présentez pas la première nuit d’une réservation de plusieurs nuits et que vous ne contactez pas le bureau du site dans les 24 heures, le DOC annule le reste sans remboursement. Les remboursements pour cause de météo ne sont pas automatiques. Si le DOC ferme le lieu ou annule votre séjour, par exemple pour une tempête, des inondations ou une alerte orange ou rouge de MetService pour la zone la veille, écrivez à l’équipe de réservation du DOC dans les 7 jours, avant de modifier vous-même la réservation, pour obtenir le remboursement intégral des nuits non utilisées ou, si votre séjour n’a pas commencé, un report sur des dates disponibles de la même saison. Si le temps est simplement mauvais et que le lieu reste ouvert, les frais d’annulation normaux s’appliquent, ce qui explique que le DOC recommande une assurance voyage."
+            "Si vous ne vous présentez pas la première nuit d’une réservation de plusieurs nuits et que vous ne contactez pas le bureau du site dans les 24 heures, le DOC annule le reste sans remboursement. Les remboursements pour cause de météo ne sont pas automatiques. Si le DOC ferme le lieu ou annule votre séjour, par exemple pour une tempête, des inondations ou une alerte MetService orange ou rouge pour la zone la veille, écrivez à l’équipe de réservation du DOC à booking@doc.govt.nz dans les 7 jours, avant de modifier vous-même la réservation, pour obtenir le remboursement intégral des nuits non utilisées ou, si votre séjour n’a pas commencé, un report sur des dates disponibles de la même saison. Si le temps est simplement mauvais et que le lieu reste ouvert, les frais d’annulation normaux s’appliquent, c’est pourquoi le DOC recommande une assurance voyage."
           ],
           "tips": []
         },
         {
           "heading": "Quand le refuge ou le camping voulu est complet",
           "body": [
-            "Vérifiez le même lieu à d’autres dates, surtout les semaines d’intersaison de part et d’autre des vacances scolaires, et regardez les campings : le DOC indique que beaucoup avaient encore de bonnes disponibilités quand les refuges étaient pleins, même si les sentiers Milford et Paparoa n’en ont aucune. Remplacez une Great Walk complète par une autre qui a plus de place, ou faites un sentier à refuges non réservables à proximité. Le conseil du DOC lui-même est de continuer à vérifier les mois suivants, car des gens annulent et même la Milford Track connaît des annulations tout au long de l’année.",
+            "Vérifiez le même lieu à d’autres dates, surtout les semaines d’intersaison de part et d’autre des vacances scolaires, et regardez les campings : le DOC indique que beaucoup avaient encore de bonnes disponibilités quand les refuges étaient pleins, même si les sentiers Milford et Paparoa n’en ont aucune. Remplacez une Great Walk complète par une autre qui a plus de place, ou faites un sentier à refuges non réservables à proximité. Le conseil du DOC lui-même est de continuer à vérifier au fil des mois suivants, car des gens annulent et même la Milford Track connaît des annulations tout au long de l’année. Les places annulées réapparaissent sur bookings.doc.govt.nz pour que n’importe qui les réserve. Des services d’alerte indépendants comme GreatWalkHuts.com, greatwalks.online, HutSnag et NZtracker surveillent le système et vous envoient un e-mail quand une place se libère ; ce sont des entreprises privées, sans lien avec le DOC, certaines font payer chaque alerte (vérifié le 3 novembre 2026), et vous réservez et payez toujours sur le site du DOC.",
             "Pour une nuit en véhicule, un holiday park ou un camping du DOC en auto-inscription est la solution de repli réaliste. KiwiCamping montre dans ses données chaque refuge et chaque camping du DOC avec sa catégorie, son tarif et la possibilité de réserver ou non, à côté des holiday parks réservables via BookIt dans l’app, si bien que vous trouvez l’alternative la plus proche sans signal. Les lieux du DOC dans l’app nécessitent le Pass ; les séjours BookIt se consultent et se réservent gratuitement. Les règles de la semaine de pointe dans les campings les plus fréquentés, comme le tarif minimum à Tōtaranui, figurent dans le guide sur <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camper à Noël</a> et l’été 2026-27."
           ],
           "tips": [
@@ -35826,7 +35826,7 @@
       "description": "Où vider les toilettes du van en Nouvelle-Zélande : les 262 aires de vidange de KiwiCamping par région, la plupart gratuites, leur mode d’emploi et l’amende de 800 $ pour rejet de déchets.",
       "region": "Camping en Nouvelle-Zélande",
       "imageAlt": "Van utilisant une aire de vidange signalée",
-      "intro": "C’est avec les eaux usées et les déchets que le camping responsable devient concret, et que les sanctions deviennent sérieuses. Vidanger des eaux de toilettes ou des eaux grises au mauvais endroit expose à des amendes bien plus élevées qu’une infraction ordinaire au freedom camping (camping libre, sur terrain public, hors camping aménagé), et c’est le comportement qui risque le plus de faire fermer définitivement un site très fréquenté.",
+      "intro": "Ne videz une cassette de WC chimique ou un réservoir d’eaux grises de van qu’à une aire de vidange. Nos données recensent 262 aires de vidange publiques en Nouvelle-Zélande, et la plupart sont gratuites. Vider des eaux de toilettes ou des eaux grises ailleurs expose à une amende plus élevée qu’une infraction ordinaire au freedom camping (camping libre, sur terrain public, hors camping aménagé), et c’est le comportement qui risque le plus de faire fermer définitivement un site très fréquenté.",
       "sections": [
         {
           "heading": "Les trois types de déchets à connaître",
@@ -35925,17 +35925,17 @@
       "priceTable": null
     },
     "campfire-rules-new-zealand": {
-      "title": "Feux de camp en Nouvelle-Zélande 2026 : vérifiez les interdictions",
-      "description": "Saison de feu ouverte, restreinte ou interdite : où vérifier l’interdiction du jour, quand un permis s’impose et comment cuisiner malgré l’interdiction.",
+      "title": "Interdiction de feu en Nouvelle-Zélande 2026-27 : saisons de feu et règles pour les feux de camp",
+      "description": "Vérifiez la saison de feu du jour pour votre zone sur checkitsalright.nz. Saisons ouverte, restreinte et interdite, interdictions totales de feu, feux de camp au DOC et réchauds à gaz.",
       "region": "Nouvelle-Zélande",
       "imageAlt": "Petit feu de camp maîtrisé dans un foyer autorisé",
-      "intro": "Un foyer déjà aménagé et un tas de vieilles cendres prouvent que quelqu’un a fait du feu ici un jour, pas que vous en avez le droit aujourd’hui. La Nouvelle-Zélande applique un système de saisons de feu à trois niveaux, qui évolue avec les conditions, et le gestionnaire du terrain peut interdire les feux quoi que dise ce système.",
+      "intro": "Vérifiez la saison de feu du jour pour votre zone sur checkitsalright.nz, géré par Fire and Emergency New Zealand (le service néo-zélandais d’incendie et de secours) : saisissez l’adresse ou le lieu et le site vous dit si vous pouvez allumer un feu et s’il vous faut un permis. Chaque zone est toujours dans l’une des trois saisons de feu. Ouverte (open) signifie que vous pouvez faire un feu en plein air sans permis, restreinte (restricted) que vous avez d’abord besoin d’un permis de Fire and Emergency, et interdite (prohibited), que la plupart des gens appellent une interdiction totale de feu, qu’aucun feu en plein air n’est permis. Sur les terres protégées, le DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) maintient une saison restreinte toute l’année : les feux de camp ne sont donc autorisés que dans un foyer désigné d’un camping du DOC, et seulement en l’absence d’interdiction. Les réchauds à gaz ne demandent aucun permis. Un vieux foyer prouve que quelqu’un a fait du feu ici un jour, pas que vous en avez le droit aujourd’hui.",
       "sections": [
         {
           "heading": "Les trois saisons de feu",
           "body": [
-            "En saison ouverte (open), vous pouvez faire un feu en plein air sans permis, dans le respect des règles propres au gestionnaire du terrain. En saison restreinte (restricted), il faut un permis de Fire and Emergency New Zealand (le service néo-zélandais d’incendie et de secours) avant d’allumer quoi que ce soit en plein air. En saison interdite (prohibited), les feux en plein air sont purement et simplement interdits et aucun permis n’est délivré.",
-            "La saison est fixée par district et change avec les conditions, parfois à court préavis pendant une période sèche. Vérifiez le statut en vigueur pour le district exact où vous vous trouvez le jour même, pas pour celui que vous avez traversé ce matin. La façon dont ces règles s’articulent avec les prévisions El Niño de cet été est traitée dans le guide sur <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camper à Noël</a> et l’été 2026-27."
+            "En saison de feu ouverte, vous pouvez allumer un feu en plein air sans permis, dans le respect des règles propres au gestionnaire du terrain. En saison restreinte, il faut un permis de Fire and Emergency New Zealand pour la plupart des feux en plein air, et vous devez en respecter les conditions. Une saison de feu interdite est une interdiction totale de feu : les feux en plein air sont purement et simplement interdits, les permis déjà délivrés sont suspendus et de nouveaux ne sont accordés que dans des circonstances exceptionnelles.",
+            "Fire and Emergency fixe la saison zone par zone et la modifie selon les conditions, parfois à court préavis pendant une période sèche, en annonçant chaque changement pour la zone concernée. De nombreuses zones passent en saison restreinte quand l’été s’assèche, et certaines en saison interdite : un feu légal en octobre peut ne plus l’être en janvier. Vérifiez checkitsalright.nz pour l’endroit exact où vous campez le jour même, pas pour le district que vous avez traversé ce matin, et regardez aussi le danger d’incendie : Fire and Emergency demande de reporter même un feu autorisé quand le danger est Very High ou Extreme. La façon dont ces règles s’articulent avec les prévisions El Niño de cet été est traitée dans notre guide sur <a data-guide=\"christmas-summer-camping-new-zealand-2026-27\">camper à Noël</a> et l’été 2026-27."
           ],
           "tips": [
             "Vérifiez le district le jour même",
@@ -35946,8 +35946,8 @@
         {
           "heading": "Le gestionnaire du terrain peut être plus strict",
           "body": [
-            "La saison de feu fixe un minimum, pas une autorisation. Les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a> (Department of Conservation, l’organisme public qui gère les espaces naturels protégés), les parcs régionaux, les réserves municipales et les campings privés fixent tous leurs propres règles, et beaucoup interdisent les feux en plein air de façon permanente, quelle que soit la saison. Quand deux règles s’appliquent, c’est la plus stricte qui l’emporte.",
-            "Lisez la page du camping concerné et le panneau sur place. Certains campings du DOC n’autorisent un petit feu que dans le foyer fourni, d’autres interdisent tout combustible solide, et les feux en arrière-pays sont soumis à des conditions distinctes d’emplacement, de dégagement et de taille."
+            "La saison de feu fixe un minimum, pas une autorisation. Les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, les parcs régionaux, les réserves municipales et les campings privés fixent tous leurs propres règles, et beaucoup interdisent les feux en plein air de façon permanente, quelle que soit la saison. Quand deux règles s’appliquent, c’est la plus stricte qui l’emporte. Sur les terres protégées publiques, le DOC applique une saison de feu restreinte toute l’année, et certains lieux, comme les îles du large gérées par le DOC, ont une interdiction totale de feu toute l’année.",
+            "Dans un camping ou une aire de jour du DOC, un feu de camp n’est autorisé que dans le foyer ou le brasero désigné, et seulement s’il n’y a pas d’interdiction de feu. En arrière-pays, le DOC autorise un petit feu pour cuisiner ou se réchauffer, de moins d’un demi-mètre de large et de haut, à au moins 3 mètres des arbres et de tout ce qui pourrait prendre feu, et seulement si aucune interdiction ni aucun avis ne l’interdit. Les grands feux, les barbecues à charbon et les hāngī sur les terres du DOC demandent un permis de Fire and Emergency, que le DOC dit ne pas accorder en général. Lisez aussi la page du camping et le panneau sur place."
           ],
           "tips": []
         },
@@ -35974,7 +35974,7 @@
         {
           "heading": "Cuisiner quand les feux sont interdits",
           "body": [
-            "Le réchaud à gaz est la solution pratique, et il est en général autorisé quand les feux en plein air ne le sont pas, mais vérifiez, car une saison de feu interdite peut aussi restreindre certains appareils. Utilisez-le sur une surface stable et plane, bien à l’écart de la toile de tente et de la végétation.",
+            "Le réchaud à gaz est la solution pratique. Fire and Emergency indique qu’aucun permis de feu n’est nécessaire pour les barbecues, réchauds ou radiateurs à gaz, et le DOC indique qu’on peut en général utiliser à tout moment des brûleurs à gaz et des réchauds à combustible liquide fermés pour cuisiner, mais pas les réchauds à combustible liquide à dessus ouvert, comme ceux à alcool à brûler. Une commune ou un propriétaire peut tout de même les restreindre : vérifiez donc le panneau. Utilisez-les sur une surface stable et plane, bien à l’écart de la toile de tente et de la végétation, et gardez les bouteilles de gaz de rechange à 5 mètres de la flamme.",
             "Ne cuisinez jamais dans une tente fermée, dans un auvent ou dans un véhicule non ventilé. Le risque est le monoxyde de carbone, un gaz inodore qui a tué des campeurs en Nouvelle-Zélande. Laissez un réchaud refroidir complètement avant de le ranger dans un véhicule ou une tente, et stockez les bouteilles de gaz debout, dans un endroit ventilé. Vous allez sur un site d’événement estival ? Ses propres règles sur les feux s’appliquent en plus, et le guide sur <a data-guide=\"new-years-eve-summer-event-camping-new-zealand\">camper à la Saint-Sylvestre</a> et les événements d’été indique quoi vérifier avant de partir."
           ],
           "tips": [
@@ -38183,6 +38183,203 @@
         },
         {
           "label": "DOC : comparer les Great Walks"
+        }
+      ],
+      "priceTable": null
+    },
+    "freedom-camping-matakana": {
+      "title": "Freedom camping autour de Matakana et Warkworth : où dormir",
+      "description": "Où dormir en van autour de Matakana et Warkworth : les rares petits sites de freedom camping de l’Auckland Council, les campings de parcs régionaux à réserver de Tawharanui et de Mahurangi, et les holiday parks à choisir à la place.",
+      "region": "Auckland",
+      "imageAlt": "Les vagues sur le sable sombre d’une plage de la côte ouest, avec un promontoire et une aiguille rocheuse au loin",
+      "intro": "Matakana et Warkworth se trouvent à une heure au nord d’Auckland et relèvent du même arrêté de l’Auckland Council que la ville : véhicules certifiés self-contained uniquement, à quelques endroits signalés, pour une ou deux nuits. Les sites sont petits, souvent quelques véhicules seulement, et les parcs régionaux alentour sont fermés au freedom camping (camping libre). Pour un week-end aux marchés de Matakana ou sur les plages de la Mahurangi coast, le meilleur plan est un camping réservé ou un holiday park, les sites municipaux servant de solution de secours en cas d’arrivée tardive.",
+      "sections": [
+        {
+          "heading": "Les règles d’Auckland qui s’appliquent ici",
+          "body": [
+            "L’arrêté <a data-guide=\"freedom-camping-new-zealand-guide\">Freedom Camping</a> in Vehicles Bylaw d’Auckland s’applique à toute la région, y compris Rodney et la Hibiscus Coast. Camper sur les routes et parkings municipaux n’est autorisé que dans un véhicule certifié self-contained, pendant deux nuits maximum au même endroit, et vous partez avant 9 h le jour du départ. Le guide du freedom camping à Auckland détaille l’arrêté en entier, avec ses zones interdites et restreintes ; cette page se limite donc au secteur de Matakana.",
+            "Une tente ou un véhicule sans certificat n’a pas sa place sur les terrains municipaux. Depuis le 7 juin 2026, seul le <a data-guide=\"self-contained-campervan-green-warrant\">green warrant</a> compte, et le guide du certificat self-contained pour van l’explique. Les contrôles se poursuivent tout l’été, et l’avis est envoyé au propriétaire enregistré, qui pour une location est la société de location."
+          ],
+          "tips": [
+            "Arrêté valable pour toute la région",
+            "Deux nuits, départ avant 9 h",
+            "Green warrant obligatoire"
+          ]
+        },
+        {
+          "heading": "Sites municipaux près de Warkworth et de la côte",
+          "body": [
+            "Les sites signalés par le conseil dans le secteur sont petits et dispersés : une réserve avec wharf à Port Albert côté Kaipara, quelques places à Parry Kauri Park à Warkworth, et une poignée d’emplacements sur les côtes de Mahurangi et de Whangaparāoa, comme Snells Beach, chacun accueillant de trois à dix véhicules. La carte et la page du conseil donnent la liste, qui change : confirmez un lieu avant de faire dépendre une nuit de lui.",
+            "Comme les capacités sont très faibles, les sites se remplissent avant la nuit en été et les vendredis soir. Un camping réservé vous garantit un emplacement et un bloc sanitaire ; les places restantes pour l’arrivée imprévue sont à voir comme un bonus plutôt que comme un plan."
+          ],
+          "tips": [
+            "De 3 à 10 véhicules par site",
+            "Port Albert est côté Kaipara",
+            "Voyez les sites gratuits comme une solution de secours"
+          ]
+        },
+        {
+          "heading": "Parcs régionaux et campings réservés",
+          "body": [
+            "Les parcs régionaux de l’Auckland Council sont fermés au <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a>, mais deux d’entre eux ont des campings à réserver qui conviennent à un week-end dans le secteur : Tawharanui, au bout d’une longue route sur la péninsule, avec des plages des deux côtés, et Mahurangi, où les campings dominent des criques abritées. Les deux se réservent auprès du conseil, et les meilleurs week-ends de janvier partent tôt.",
+            "Ils accueillent tentes et vans, avec toilettes et eau, et certaines baies sont à quelques pas de l’eau. Chiens, feux et heures de silence suivent les règles propres au parc, que la page de réservation détaille, et elles sont plus strictes que dans la plupart des <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a>."
+          ],
+          "tips": [
+            "Tawharanui et Mahurangi : réservez à l’avance",
+            "Freedom camping interdit dans les parcs régionaux",
+            "Règles différentes pour les chiens et les feux"
+          ]
+        },
+        {
+          "heading": "Holiday parks et terres du DOC",
+          "body": [
+            "Warkworth, Snells Beach, Omaha et Leigh ont chacun des <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (campings privés tout équipés) ou motor camps à proximité, avec emplacements électriques et bungalows. C’est le choix fiable à Noël, et le week-end de Pâques amène les mêmes foules que les plages. Le guide des holiday parks explique comment réserver.",
+            "Les terres du DOC dans la région d’Auckland sont surtout des îles. Les données DOC de KiwiCamping (11 août 2026) recensent 9 campings à Auckland, dont 1 gratuit et 5 accessibles aux vans, avec des tarifs adultes de 10 $ à 18 $ la nuit, et Home Bay, sur Motutapu Island, est le plus grand, avec 131 places. Aucun n’est proche de Matakana par la route."
+          ],
+          "tips": [
+            "Des holiday parks près de chaque plage",
+            "Les sites du DOC à Auckland sont sur des îles",
+            "Pâques se remplit comme Noël"
+          ]
+        },
+        {
+          "heading": "Utiliser KiwiCamping autour de Matakana",
+          "body": [
+            "KiwiCamping recense les campings et refuges du DOC, les holiday parks avec leurs équipements et les aires de vidange autour d’Auckland, avec des filtres pour l’accès des vans. L’app n’inclut ni les sites de <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> du conseil ni les réservations des parcs régionaux : utilisez les pages du conseil pour cela.",
+            "Ajoutez la nuit à Matakana à un trajet d’Auckland à la Bay of Islands et consultez la distance et le temps de route jusqu’à l’étape suivante, Whangārei, un peu plus d’une heure plus loin. Les lieux enregistrés restent sur le téléphone, tandis que la carte, les itinéraires, les prévisions et les photos demandent une connexion, souvent irrégulière sur les routes de la péninsule. Téléchargement gratuit, avec achats intégrés."
+          ],
+          "tips": [
+            "Réservations du conseil et des parcs : utilisez leurs pages",
+            "Whangārei est à environ une heure",
+            "Les lieux enregistrés restent sur le téléphone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Puis-je faire du freedom camping près de Matakana ?",
+          "Uniquement dans un véhicule certifié self-contained, sur l’un des petits sites signalés du conseil, deux nuits au maximum. Les parcs régionaux et la plupart des réserves l’interdisent : un camping réservé ou un holiday park est donc le plan le plus sûr."
+        ],
+        [
+          "Puis-je camper au Tawharanui Regional Park ?",
+          "Oui, dans son camping à réserver, pas en freedom camping. Réservez auprès de l’Auckland Council avant de vous y rendre."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Auckland Council : Freedom camping"
+        },
+        {
+          "label": "Auckland Council : Freedom Camping in Vehicles Bylaw"
+        },
+        {
+          "label": "Freedom Camping (Penalties for Infringement Offences) Regulations 2023"
+        },
+        {
+          "label": "DOC : freedom camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "glamping-new-zealand": {
+      "title": "Glamping en Nouvelle-Zélande : où dormir en yourte, en dôme ou sous tente safari",
+      "description": "Le glamping en Nouvelle-Zélande : de quoi il s’agit, les types d’hébergement, les meilleures régions de la Bay of Islands à Queenstown, ce que ça coûte, quand réserver et comment l’intégrer à un road trip en van.",
+      "region": "Nouvelle-Zélande",
+      "imageAlt": "La Bay of Islands à Waitangi par une journée ensoleillée",
+      "intro": "Le glamping, c’est du camping avec le confort déjà installé : une tente safari avec un vrai lit, une yourte avec un poêle à bois, un dôme sous les étoiles, une minuscule cabane au bord d’un lac. La Nouvelle-Zélande en compte beaucoup, de la Bay of Islands à Queenstown, surtout gérés par des particuliers, dans des fermes, des vignobles et des holiday parks. Cela convient pour une nuit ou deux au cours d’un road trip en van, pour se faire plaisir, pour un épisode pluvieux ou une occasion spéciale.",
+      "sections": [
+        {
+          "heading": "Ce que recouvre le glamping",
+          "body": [
+            "Il n’existe pas de définition officielle, et l’éventail est large. Les tentes safari et les tentes cloches ont de vrais lits et une terrasse, les yourtes et les dômes ont du chauffage et parfois une salle de bains privée, et les tiny houses, cabanes et cabanes dans les arbres se situent entre les deux. La plupart sont sur des terrains privés, et quelques-unes dans des <a data-guide=\"holiday-parks-new-zealand-guide\">holiday parks</a> (campings privés tout équipés). Le DOC (Department of Conservation, l’organisme public qui gère les espaces naturels protégés) ne propose pas de glamping, même s’il a des refuges et des cabanes.",
+            "Regardez ce qui est inclus : le linge de lit, la salle de bains, la cuisine, le chauffage et le petit-déjeuner varient beaucoup, tout comme le prix. Un séjour de glamping dans un lieu isolé peut avoir des toilettes sèches et pas d’électricité : mieux vaut lire attentivement l’annonce."
+          ],
+          "tips": [
+            "Tentes safari, yourtes, dômes et tiny houses",
+            "Surtout sur des terrains privés",
+            "Vérifiez ce qui est inclus"
+          ]
+        },
+        {
+          "heading": "Où chercher",
+          "body": [
+            "La Bay of Islands et le Northland proposent des séjours à la ferme et des tentes sur la côte, la Coromandel a des sites de plage et de forêt, et Waiheke des vignobles et des vues. Dans l’île du Sud, les Marlborough Sounds, <a data-guide=\"nelson-abel-tasman-golden-bay\">Abel Tasman</a> et Golden Bay offrent des options en bord de mer, et Queenstown, Wānaka et Central Otago ont des sites au bord des lacs et dans les vignobles avec vue sur les montagnes.",
+            "Kaikōura, Tekapo et Aoraki Mount Cook proposent des séjours sous le ciel nocturne, avec des dômes pour observer les étoiles. L’Abel Tasman, la Bay of Islands et Queenstown sont les plus fréquentés : cherchez plus loin pour un site plus tranquille."
+          ],
+          "tips": [
+            "Northland, Coromandel et Waiheke",
+            "Marlborough, Abel Tasman, Queenstown",
+            "Des dômes pour observer les étoiles"
+          ]
+        },
+        {
+          "heading": "Coût et quand réserver",
+          "body": [
+            "Les prix varient beaucoup, de simples tentes à peu près au prix d’une bonne chambre de motel jusqu’aux dômes de luxe et aux lodges à plusieurs centaines de dollars la nuit, et ils montent en été et pendant les vacances scolaires. Consultez la page de l’hébergeur pour le prix actuel et ce qui est inclus, et renseignez-vous sur les conditions d’annulation, car la météo peut changer un projet.",
+            "Les meilleurs sites sont réservés des mois à l’avance pour décembre à février, Pâques et les vacances scolaires : réservez dès que vos dates sont fixées. Hors été, les tarifs sont intéressants, même si certains sites ferment en hiver. Le guide des vacances scolaires et des jours fériés donne les dates."
+          ],
+          "tips": [
+            "Les prix montent en été",
+            "Vérifiez les conditions d’annulation",
+            "Réservez des mois à l’avance pour l’été"
+          ]
+        },
+        {
+          "heading": "Intégrer le glamping à un road trip en van",
+          "body": [
+            "Une nuit de glamping entre deux nuits en van vous offre un vrai lit, une douche chaude et du temps sans conduire, et sert de solution de repli par temps de pluie. C’est surtout utile là où le <a data-guide=\"freedom-camping-new-zealand-guide\">freedom camping</a> (camping libre) est interdit et où les emplacements sont rares, comme la Bay of Islands, Queenstown et l’Abel Tasman.",
+            "Si vous avez un van, un <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> avec bungalows est l’option la moins chère pour une nuit de pause, et le guide des holiday parks présente les choix. Le guide du camping sous la pluie en dit plus sur comment rester au sec et trouver un emplacement."
+          ],
+          "tips": [
+            "Une nuit de plaisir entre deux nuits en van",
+            "Solution de repli par temps de pluie",
+            "Les bungalows de holiday park coûtent moins cher"
+          ]
+        },
+        {
+          "heading": "Y aller et quoi emporter",
+          "body": [
+            "De nombreux sites de glamping sont sur des routes en gravier ou de ferme, certains avec une allée en pente raide : vérifiez l’itinéraire et si un van peut y accéder. Demandez à l’hôte où garer votre van. Emportez des vêtements chauds, une lampe torche, un répulsif contre les insectes et votre propre nourriture si le séjour n’a pas de cuisine, et vérifiez les heures d’arrivée, car les hôtes ne sont souvent pas sur place toute la journée.",
+            "Respectez les lieux, remportez vos déchets et faites peu de bruit la nuit, car de nombreux sites sont dans des fermes en activité avec du bétail. Le guide du <a data-guide=\"responsible-camping-new-zealand\">camping responsable</a> couvre les bases."
+          ],
+          "tips": [
+            "Vérifiez l’accès routier pour un van",
+            "Emportez des vêtements chauds et une lampe torche",
+            "Respectez les fermes en activité"
+          ]
+        },
+        {
+          "heading": "Préparer votre voyage avec KiwiCamping",
+          "body": [
+            "Sur iPhone, KiwiCamping affiche sur la carte les <a data-guide=\"doc-campsites-new-zealand-guide\">campings du DOC</a>, les refuges et les holiday parks, les filtre selon l’accès des vans et les équipements, et présente les holiday parks avec leurs séjours réservables. Enregistrez les lieux qui vous plaisent, ajoutez-les à un voyage daté, et chaque étape reçoit une prévision météo. Les sites de glamping privés ne sont pas listés : consultez les pages des hébergeurs pour ceux-là.",
+            "Les séjours en <a data-guide=\"holiday-parks-new-zealand-guide\">holiday park</a> peuvent se réserver depuis la fiche, tandis que les réservations du DOC restent sur les pages du DOC. Téléchargement gratuit, avec achats intégrés."
+          ],
+          "tips": [
+            "Enregistrez holiday parks et refuges",
+            "Prévisions à chaque étape",
+            "Le glamping privé se réserve auprès de l’hébergeur"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qu’est-ce que le glamping en Nouvelle-Zélande ?",
+          "Du camping avec le confort déjà installé, comme une tente safari avec un lit, une yourte ou un dôme, en général sur un terrain privé. Vérifiez ce qui est inclus, car cela varie beaucoup."
+        ],
+        [
+          "Quand réserver un glamping en Nouvelle-Zélande ?",
+          "Des mois à l’avance pour décembre à février et les vacances scolaires. L’hiver et l’intersaison sont plus faciles, même si certains sites ferment."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism New Zealand : hébergements insolites"
+        },
+        {
+          "label": "DOC : où dormir"
+        },
+        {
+          "label": "MBIE : dates des vacances scolaires et des jours fériés"
         }
       ],
       "priceTable": null
