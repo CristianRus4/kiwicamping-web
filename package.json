@@ -21,6 +21,7 @@
     "places:links": "node scripts/place-links.mjs",
     "places:worker": "NODE_ENV=production tsx scripts/export-place-pages.tsx --out worker-dist",
     "links:assets": "tsx scripts/export-link-assets.tsx",
+    "links:symbols": "node scripts/link-symbols.mjs",
     "images:manifest": "node scripts/build-image-manifest.mjs",
     "images:credits": "node scripts/build-image-credits.mjs",
     "images:og": "node scripts/build-og-images.mjs",
