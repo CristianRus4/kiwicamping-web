@@ -20,6 +20,7 @@
     "places:export": "node --no-warnings scripts/export-places.mjs",
     "places:links": "node scripts/place-links.mjs",
     "places:worker": "NODE_ENV=production tsx scripts/export-place-pages.tsx --out worker-dist",
+    "links:assets": "tsx scripts/export-link-assets.tsx",
     "images:manifest": "node scripts/build-image-manifest.mjs",
     "images:credits": "node scripts/build-image-credits.mjs",
     "images:og": "node scripts/build-og-images.mjs",

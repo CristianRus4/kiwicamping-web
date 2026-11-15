@@ -352,7 +352,10 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
         "When analytics is allowed, Google Analytics sets two first-party cookies: _ga, and a second whose name starts with _ga_. Both expire after 13 months. In the European Economic Area, the United Kingdom and Switzerland these cookies are set only after you choose Accept on the consent bar. Until then, and if you choose Decline, no analytics cookies are stored and Google receives only cookieless signals that carry no identifier. You can change your choice at any time with the Privacy choices link at the foot of every page.",
         "Google signals and ad personalisation are switched off, so analytics data is not linked to Google accounts and is not used for advertising. Analytics data is kept for 14 months and then deleted. KiwiCamping still uses no advertising trackers on this website.",
       ] },
-      { heading: "Retention and control", paragraphs: ["You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted."] },
+      { heading: "Retention and control", paragraphs: [
+        "You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted.",
+        "A “Send link” page stores what you chose to publish (the trip or collection name, its places and dates) to show the page, and removing the link deletes it.",
+      ] },
       { heading: "Children and contact", paragraphs: [
         "KiwiCamping is a general travel utility and is not directed to children. Do not submit personal information about a child through support.",
         "For privacy questions, contact KiwiCamping support.",

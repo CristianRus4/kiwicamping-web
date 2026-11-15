@@ -4,9 +4,10 @@ import { Footer } from "@/components/footer";
 import { SUPPORT_EMAIL, SUPPORT_MAILTO } from "@/lib/site";
 import { staticPages } from "@/lib/source-strings";
 import { mainData } from "@/lib/analytics";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, pageOpenGraph } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Privacy policy", description: "How KiwiCamping handles app and website data.", alternates: { canonical: "/privacy/", languages: alternatesFor("privacy") } };
+const description = "How KiwiCamping handles app and website data.";
+export const metadata: Metadata = { title: "Privacy policy", description, alternates: { canonical: "/privacy/", languages: alternatesFor("privacy") }, openGraph: pageOpenGraph("Privacy policy", description, "/privacy/") };
 
 /** Rendered from the same English source the translations are made from, so the two never drift. */
 export default function Privacy() {

@@ -7,6 +7,7 @@ import credits from "@/lib/image-credits.json";
 import dataMeta from "@/lib/data/hubs.meta.json";
 import { articleHref, articles, isScheduled } from "@/lib/site";
 import { mainData } from "@/lib/analytics";
+import { pageOpenGraph } from "@/lib/seo";
 
 type Credit = { slug: string; subject: string; creator: string; licence: string; licenceUrl?: string; sourceUrl?: string };
 type DataSource = { licence: string; name: string; attribution?: string; changes?: string; licenceUrl?: string; termsUrl?: string; sourceUrl?: string };
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
   description: "Attribution and licence details for every photograph used in the KiwiCamping guides, and for the Department of Conservation data behind the region pages.",
   // English only, so it advertises no language alternates.
   alternates: { canonical: "/credits/" },
+  openGraph: pageOpenGraph("Photo and data credits", "Attribution and licence details for every photograph used in the KiwiCamping guides, and for the Department of Conservation data behind the region pages.", "/credits/"),
 };
 
 // Keyed by slug, but linked by the article's own canonical path: fifteen guides are published

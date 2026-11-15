@@ -8,13 +8,13 @@ import { FuelCalculator } from "@/components/fuel-calculator";
 import { DriveTimeCalculator } from "@/components/drive-time-calculator";
 import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, pageOpenGraph } from "@/lib/seo";
 import { mainData } from "@/lib/analytics";
 import { toolStrings } from "@/lib/source-strings";
 import { toolIds, toolPath, toolScript } from "@/lib/tools";
 
 const index = toolStrings.index;
-export const metadata: Metadata = { title: index.metaTitle, description: index.metaDescription, alternates: { canonical: "/tools/", languages: alternatesFor("tools") } };
+export const metadata: Metadata = { title: index.metaTitle, description: index.metaDescription, alternates: { canonical: "/tools/", languages: alternatesFor("tools") }, openGraph: pageOpenGraph(index.metaTitle, index.metaDescription, "/tools/") };
 
 /**
  * The tools index. Every calculator still works here, and each one also has its own page with the

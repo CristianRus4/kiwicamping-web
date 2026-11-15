@@ -35,17 +35,25 @@ export function appPlaceId(siteId) {
   return `${APP_PREFIX[type]}:${id}`;
 }
 
-/** The map for the full pages (site ids, mapped to the app's) and the small pages (already app ids). */
-export function placePages(places, stubs = []) {
+/** Every app place id to the place whose page it opens, sorted by id: the full pages (site ids, mapped to the
+ * app's) and the small pages (already app ids). */
+export function placesById(places, stubs = []) {
   const map = new Map();
   const add = (id, place) => {
-    const path = `/places/${place.stateSlug}/${place.slug}/`;
-    if (map.has(id)) throw new Error(`Place id ${id} has two pages: ${map.get(id)} and ${path}`);
-    map.set(id, path);
+    if (map.has(id)) throw new Error(`Place id ${id} has two pages: ${pathOf(map.get(id))} and ${pathOf(place)}`);
+    map.set(id, place);
   };
   for (const place of places) add(appPlaceId(place.id), place);
   for (const stub of stubs) add(stub.id, stub);
-  return Object.fromEntries([...map].sort(([a], [b]) => a.localeCompare(b)));
+  return new Map([...map].sort(([a], [b]) => a.localeCompare(b)));
+}
+
+/** A place's page path, with its trailing slash. */
+export const pathOf = (place) => `/places/${place.stateSlug}/${place.slug}/`;
+
+/** The map for the full and the small pages. */
+export function placePages(places, stubs = []) {
+  return Object.fromEntries([...placesById(places, stubs)].map(([id, place]) => [id, pathOf(place)]));
 }
 
 /** Writes the map to `out`; returns the number of ids in it. */

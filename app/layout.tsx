@@ -29,25 +29,11 @@ export const metadata: Metadata = {
   authors: [{ name: "KiwiCamping" }],
   creator: "KiwiCamping",
   publisher: "KiwiCamping",
-  openGraph: {
-    type: "website",
-    locale: defaultOgLocale,
-    alternateLocale: ogAlternates("en"),
-    siteName: "KiwiCamping",
-    title: "KiwiCamping: the camping map and road trip planner for New Zealand",
-    description:
-      "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
-    url: `${SITE_URL}/`,
-    // A 1200x630 card. The hero screenshot used to fill this slot, and being 1000x1500 it was
-    // centre-cropped to a strip by every social preview that rendered it.
-    images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "KiwiCamping: NZ camping map and road trip planner",
-    description: "6,500+ New Zealand places offline. Filter, save and plan the whole road trip.",
-    images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
-  },
+  // Only what every page shares. A page's openGraph replaces this object whole, and the twitter tags
+  // follow that page's own openGraph (Next.js fills them in), so no page ever shows another page's
+  // title, description or image. Every page sets its own openGraph (pageOpenGraph in lib/seo.ts).
+  openGraph: { type: "website", locale: defaultOgLocale, alternateLocale: ogAlternates("en"), siteName: "KiwiCamping", images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }] },
+  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: { icon: "/images/kiwicamping-app-icon.png", shortcut: "/images/kiwicamping-app-icon.png", apple: "/images/kiwicamping-app-icon.png" },
   other: { "apple-itunes-app": smartBannerContent("en"), "naver-site-verification": "0d9c5b2881ff6654540894f1693e36e57630c695" },

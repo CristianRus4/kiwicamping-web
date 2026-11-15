@@ -10,6 +10,10 @@ export const defaultHreflang = englishLocale.hreflang[0];
  * iMessage often show an empty card for a WebP og:image.
  */
 export const homeOgImage = { url: `${SITE_URL}/images/kiwicamping-og-v2.png`, width: 1200, height: 630, type: "image/png" };
+/** The Open Graph block of a page that has no photo of its own: its title, description and URL, the universal image. */
+export const pageOpenGraph = (title: string, description: string, path: string, alt = "KiwiCamping") => ({
+  type: "website" as const, siteName: "KiwiCamping", locale: defaultOgLocale, title, description, url: `${SITE_URL}${path}`, images: [{ ...homeOgImage, alt }],
+});
 /** A guide's link-preview image: the JPG copy scripts/build-og-images.mjs makes of its WebP hero. */
 export const articleOgImage = (slug: string) => ({ url: `${SITE_URL}/images/og/${slug}.jpg`, width: 1200, height: 630, type: "image/jpeg" });
 

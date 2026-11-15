@@ -13,12 +13,19 @@ import { summerGuideSlugs } from "@/lib/summer";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
 import { PlacesHome } from "@/components/places/places-home";
-import { alternatesFor, homeSchema } from "@/lib/seo";
+import { alternatesFor, defaultOgLocale, homeOgImage, homeSchema, ogAlternates } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "KiwiCamping: NZ Camping App, Campsite & Freedom Camping Map" },
   description: "New Zealand camping app for iPhone with a campsite map of 6,500+ places: DOC campsites, huts, holiday parks, freedom camping areas and dump stations, plus a trip planner.",
   alternates: { canonical: "/", languages: alternatesFor("home") },
+  openGraph: {
+    type: "website", locale: defaultOgLocale, alternateLocale: ogAlternates("en"), siteName: "KiwiCamping",
+    title: "KiwiCamping: the camping map and road trip planner for New Zealand",
+    description: "6,500+ campsites, DOC huts, holiday parks and freedom camping areas, bundled offline. Filter, save and plan the whole trip.",
+    url: `${SITE_URL}/`, images: [{ ...homeOgImage, alt: "KiwiCamping, the camping and road trip app for New Zealand" }],
+  },
 };
 
 const features = [
