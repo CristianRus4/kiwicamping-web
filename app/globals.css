@@ -257,11 +257,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-breadcrumb { padding: 15px 0; border-bottom: 1px solid var(--line); color: var(--muted); display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
 .article-breadcrumb a { display: flex; align-items: center; gap: 7px; }
 .article-breadcrumb svg { width: 14px; }
-.article-header { padding: 65px 7% 48px; text-align: center; }
-.article-header .eyebrow { justify-content: center; }
-.article-header h1 { margin: 20px 0; font-size: clamp(47px, 6vw, 76px); font-weight: 720; letter-spacing: -0.025em; line-height: 1.08; }
-.article-header > p { max-width: 800px; margin: auto; color: var(--muted); font-size: 20px; }
-.article-header > div { margin-top: 24px; display: flex; justify-content: center; gap: 22px; color: var(--muted); font-size: 11px; }
+.article-header { padding: 65px 0 48px; text-align: start; }
+.article-header .eyebrow { justify-content: flex-start; }
+.article-header h1 { max-width: 920px; margin: 20px 0; font-size: clamp(47px, 6vw, 76px); font-weight: 720; letter-spacing: -0.025em; line-height: 1.08; }
+.article-header > p { max-width: 800px; margin: 0; color: var(--muted); font-size: 20px; }
+.article-header > div { margin-top: 24px; display: flex; justify-content: flex-start; gap: 22px; color: var(--muted); font-size: 11px; }
 .article-header > div span { display: flex; align-items: center; gap: 6px; }
 .article-header svg { width: 14px; }
 .article-header .official-link { margin-top: 26px; min-height: 48px; padding: 0 20px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; transition: background 180ms ease; }
@@ -523,7 +523,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-header { padding: 48px 0 34px; }
   .article-header h1 { font-size: 44px; }
   .article-header > p { font-size: 17px; }
-  .article-header > div { flex-direction: column; align-items: center; gap: 5px; }
+  .article-header > div { flex-direction: column; align-items: flex-start; gap: 5px; }
   .article-hero-image { height: 310px; border-radius: 6px; }
   .guide-figure { margin-top: 22px; }
   .article-layout { padding-top: 50px; }
