@@ -173,23 +173,30 @@ Setup (Cristian): ask DOC for a new key for the server (keep the old one valid: 
 `npx wrangler secret put DOC_API_KEY --config places-worker/wrangler.jsonc` and paste it when asked. Never copy
 the key from the app.
 
-## DOC photos: proposal (16 Nov 2026, not done)
+## DOC photos: use DOC's own addresses (16 Nov 2026, proposal, not switched)
 
-Today both the app (Kiwi/Camp/KiwiPlacesRepository.swift `docImageBase`, DataManager.swift) and this site's
-place pages (543 photo URLs in the place data) load DOC photos from the public GitHub repo
-`CristianRus4/kiwicamping`: `campsites_images/campsite_<id>.jpg` (186 files, 27 MB) and
-`huts_images/hut_<id>.jpg` (743 files, 113 MB). GitHub rate-limits raw files and the repo can't be renamed or
-made private without breaking every photo.
+Today both the app (Kiwi/Camp/KiwiPlacesRepository.swift `docImageBase`, DataManager.swift) and this site's place
+pages load DOC photos from the public GitHub repo `CristianRus4/kiwicamping`: `campsites_images/campsite_<id>.jpg`
+and `huts_images/hut_<id>.jpg` (928 photos). **That repo stays up and unchanged** while any App Store version
+still points at it.
 
-Proposal:
-- **Bucket:** a new R2 bucket `kiwicamping-media`, separate from `kiwicamping-places` (whose sync deletes
-  anything it didn't build). Same paths as today: `campsites_images/campsite_<id>.jpg`, `huts_images/hut_<id>.jpg`.
-- **Address:** the bucket's custom domain `media.campingapp.nz` (R2 → Settings → Custom domain), served from
-  Cloudflare's cache with no Worker in the way, so it doesn't use the Workers' 100,000 requests a day. The app's
-  change is one line (`docImageBase` → `https://media.campingapp.nz/`), and the site's place export swaps the same
-  prefix.
-- **Upload and refresh:** a script mirrors the two folders into the bucket, uploading only changed files (MD5 vs
-  ETag, as scripts/sync-places-r2.mjs does); run once, then monthly from a scheduled workflow, or straight from
-  wherever the photos are made. The GitHub repo stays up until no App Store version points at it.
-- **Cost:** 929 photos, 140 MB: inside R2's free tier (10 GB stored, 1 million writes and 10 million reads a
-  month, no egress fees), so $0 now, and still $0 at ten times the photos.
+Instead of hosting copies, use the photo DOC itself shows on each place's page:
+- **Where it comes from:** every DOC campsite and hut in the app's data has a `website` link
+  (`https://www.doc.govt.nz/link/<guid>.aspx`). That page's share picture (`og:image`) is DOC's photo of the place.
+  A script (outside this repo for now: Webs/.growth-lanes/doc-photos/collect.py) reads all 1,214 pages, four at a
+  time, and keeps the photo's path under `https://www.doc.govt.nz/`, such as
+  `contentassets/cf39971f7ce4428a841777d9e2ad03d5/kuripapango-campsite-1920.jpg`.
+- **Coverage (16 Nov):** 1,159 places have a DOC photo: 925 of the 928 in the GitHub repo, plus 234 that have none
+  today. 48 DOC pages have no photo, 6 pages are gone (404: campsites 100037922, 100038010, 100094138, 100100774,
+  100133707 and hut 100031574), and one didn't resolve. The 3 GitHub-only photos stay on GitHub as the fallback.
+- **Sizes:** DOC serves each photo in several sizes from the same path: `thumbs/gallery/<path>` (460×300, ~35 KB) for
+  lists and cards, `thumbs/hero/<path>` (1066×600, ~150 KB) for a place's page, and `<path>` itself (the original,
+  up to ~450 KB).
+- **Serving:** DOC's site is behind Cloudflare (`cache-control: public, max-age=1800`), answers other sites'
+  pages normally, and costs us nothing to serve. Photos keep the place pages' existing credit, "DOC, CC BY 4.0".
+- **Refresh:** rerun the script monthly; DOC changes a place's photo rarely, and a changed photo has a new path.
+  A photo that stops loading falls back to the GitHub copy, then to no photo.
+- **App (a separate job for the app):** look up the DOC path for a place, load `thumbs/gallery/` or `thumbs/hero/`
+  from `https://www.doc.govt.nz/`, and keep the GitHub address as the fallback, so older versions and missing
+  photos still work.
+- **Site:** `scripts/export-places.mjs` takes the DOC path first and keeps the GitHub address as the fallback.
