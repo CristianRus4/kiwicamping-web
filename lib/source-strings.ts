@@ -416,7 +416,7 @@ export const toolStrings = {
     toolsText: "Each calculator has its own page with the formula, a worked example using New Zealand figures, the assumptions behind it and answers to common questions.",
   },
   fuel: {
-    metaTitle: "Fuel Cost Calculator NZ: Petrol, Diesel and RUC (2026)",
+    metaTitle: "Fuel Cost Calculator NZ: Petrol, Diesel and RUC (2027)",
     metaDescription: "Work out petrol or diesel cost for a NZ road trip at MBIE's latest prices for 91, 95 and diesel, with road user charges for diesel and a 1,000 km campervan example.",
     eyebrow: "Fuel cost calculator",
     cardEyebrow: "Fuel calculator",

@@ -13,7 +13,7 @@ export const legacyOnlyArticles: Article[] = [
     legacyPath: "/best-nz-camping-apps.html",
     related: ["wikicamps-nz-vs-kiwicamping", "is-wikicamps-nz-worth-it", "campermate-vs-wikicamps-nz"],
     listicle: true,
-    title: "Best Camping Apps for New Zealand 2026: 7 Compared",
+    title: "Best Camping Apps for New Zealand 2027: 7 Compared",
     description: "KiwiCamping, Rankers, CamperMate, WikiCamps, Campable, NZMCA and AllTrails compared on price, offline use, ratings and what each does best. Checked October 2026.",
     category: "App guides",
     region: "New Zealand",

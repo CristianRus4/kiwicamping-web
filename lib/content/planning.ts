@@ -49,7 +49,7 @@ export const planningArticles: Article[] = [
 
   a({
     slug: "cook-strait-ferry-campervan-guide",
-    title: "Cook Strait Ferry with a Campervan: Fares and Booking 2026",
+    title: "Cook Strait Ferry with a Campervan: Fares and Booking 2027",
     description: "Interislander or Bluebridge with a campervan: how vehicle length sets the fare, when to book, check-in and what to do before boarding.",
     category: "Trip planning", region: "Wellington and Picton", readTime: 4,
     places: ["Wellington ferry terminal", "Cook Strait", "Picton ferry terminal", "Marlborough Sounds"],

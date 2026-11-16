@@ -11,7 +11,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "auckland-to-wellington-drive-guide",
     publishAt: "2026-11-11",
-    title: "Auckland to Wellington Drive 2026: Route, Time, Stops and Camping",
+    title: "Auckland to Wellington Drive 2027: Route, Time, Stops and Camping",
     description: "Auckland to Wellington by road: about 640 km and 8 to 8.5 hours on State Highway 1 through Hamilton, Taupō and the Desert Road, with fuel stops, winter notes and where to camp.",
     category: "Road trips",
     region: "North Island",
@@ -82,7 +82,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "christchurch-to-queenstown-drive-guide",
     publishAt: "2026-11-11",
-    title: "Christchurch to Queenstown Drive 2026: Route, Time, Stops and Camping",
+    title: "Christchurch to Queenstown Drive 2027: Route, Time, Stops and Camping",
     description: "Christchurch to Queenstown by road: about 6 hours via Lake Tekapo, Ōmārama and the Lindis Pass, with the Ōamaru and Crown Range alternatives, official leg times, fuel and camping.",
     category: "Road trips",
     region: "Canterbury and Otago",
@@ -154,7 +154,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "queenstown-to-milford-sound-drive-guide",
     publishAt: "2026-11-11",
-    title: "Queenstown to Milford Sound Drive 2026: Route, Time, Winter Rules and Stops",
+    title: "Queenstown to Milford Sound Drive 2027: Route, Time, Winter Rules and Stops",
     description: "Queenstown to Milford Sound by road: 170 km to Te Anau and 120 km up the Milford Road, about 4 hours each way, with the Homer Tunnel, fuel, DOC's winter chain advice and campsites.",
     category: "Road trips",
     region: "Fiordland",
@@ -231,7 +231,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "auckland-to-bay-of-islands-drive-guide",
     publishAt: "2026-11-11",
-    title: "Auckland to Bay of Islands Drive 2026: Route, Time, Ferry and Camping",
+    title: "Auckland to Bay of Islands Drive 2027: Route, Time, Ferry and Camping",
     description: "Auckland to the Bay of Islands by road: about 240 km and 3 to 3.5 hours on State Highway 1 through Whangārei and Kawakawa, the Opua car ferry to Russell, fuel notes and where to camp.",
     category: "Road trips",
     region: "Northland",
@@ -325,7 +325,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "wellington-to-napier-drive-guide",
     publishAt: "2026-11-11",
-    title: "Wellington to Napier Drive 2026: Route, Time, Remutaka Hill and Camping",
+    title: "Wellington to Napier Drive 2027: Route, Time, Remutaka Hill and Camping",
     description: "Wellington to Napier by road on State Highway 2: over the Remutaka Hill and through the Wairarapa to Hawke's Bay, just over 3 hours to Central Hawke's Bay, hill closures, stops and where to camp.",
     category: "Road trips",
     region: "North Island",
@@ -400,7 +400,7 @@ export const driveGuideArticles: Article[] = [
   a({
     slug: "christchurch-to-dunedin-drive-guide",
     publishAt: "2026-11-11",
-    title: "Christchurch to Dunedin Drive 2026: Route, Time, Moeraki and Camping",
+    title: "Christchurch to Dunedin Drive 2027: Route, Time, Moeraki and Camping",
     description: "Christchurch to Dunedin by road on State Highway 1: about 360 km and 5 hours via Timaru, Ōamaru and the Moeraki Boulders, with the inland alternative, snow notes and where to camp.",
     category: "Road trips",
     region: "Canterbury and Otago",

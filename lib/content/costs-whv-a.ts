@@ -11,7 +11,7 @@ export const costsWhvArticlesA: Article[] = [
   a({
     slug: "campervan-hire-cost-new-zealand-2026",
     publishAt: "2026-11-11",
-    title: "Campervan Hire Cost in NZ 2026: Rates, Excess, Fees",
+    title: "Campervan Hire Cost in NZ 2027: Rates, Excess, Fees",
     description: "Jucy's own guide lists 2-berth vans from $35 a day in low season and $95 at peak. See the excess, bond, one-way and Queenstown fees that change the real price.",
     category: "Costs & budget",
     region: "New Zealand",
@@ -94,7 +94,7 @@ export const costsWhvArticlesA: Article[] = [
   a({
     slug: "buying-a-campervan-new-zealand-working-holiday",
     publishAt: "2026-11-11",
-    title: "Buying a Campervan in NZ on a Working Holiday (2026)",
+    title: "Buying a Campervan in NZ on a Working Holiday (2027)",
     description: "What to check before buying a campervan in New Zealand: WoF changes from 1 November 2026, change of ownership, PPSR, RUC and the green warrant for freedom camping.",
     category: "Trip planning",
     region: "New Zealand",
@@ -164,7 +164,7 @@ export const costsWhvArticlesA: Article[] = [
   a({
     slug: "selling-a-campervan-new-zealand-before-you-leave",
     publishAt: "2026-11-11",
-    title: "Selling a Campervan in NZ Before You Leave (2026)",
+    title: "Selling a Campervan in NZ Before You Leave (2027)",
     description: "Tell NZTA at the time of sale, clear any money owing, sell unused RUC with the van and plan your timing. What NZTA says about plates, rego refunds and buyers.",
     category: "Trip planning",
     region: "New Zealand",
@@ -221,7 +221,7 @@ export const costsWhvArticlesA: Article[] = [
   a({
     slug: "holiday-park-prices-new-zealand-2026",
     publishAt: "2026-11-11",
-    title: "Holiday Park Prices in NZ 2026: Powered, Unpowered and Cabin Rates",
+    title: "Holiday Park Prices in NZ 2027: Powered, Unpowered and Cabin Rates",
     description: "What NZ holiday parks publish for powered and unpowered sites and cabins, by region and season, set against DOC's serviced campsite fees, with the TOP 10 membership and ways to spend less.",
     category: "Costs & budget",
     region: "New Zealand",

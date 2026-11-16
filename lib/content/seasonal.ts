@@ -572,7 +572,7 @@ export const seasonalArticles: Article[] = [
   a({
     slug: "freedom-camping-tent-new-zealand",
     hubs: ["freedom-camping", "camping"],
-    title: "Freedom Camping With a Tent in New Zealand: Where It's Allowed in 2026",
+    title: "Freedom Camping With a Tent in New Zealand: Where It's Allowed in 2027",
     description: "Tents don't need a green warrant, but most councils ban them on public land. Where tent freedom camping is allowed in 2026, council by council, on DOC land, and the free campsites that fill the gaps.",
     category: "Rules & safety",
     region: "New Zealand",
@@ -654,7 +654,7 @@ export const seasonalArticles: Article[] = [
   a({
     slug: "camping-without-self-contained-vehicle-new-zealand",
     hubs: ["camping", "freedom-camping"],
-    title: "Camping Without a Self-Contained Vehicle in New Zealand (2026): Where You Can Stay",
+    title: "Camping Without a Self-Contained Vehicle in New Zealand (2027): Where You Can Stay",
     description: "No green warrant? Where a car, an uncertified van or a non-self-contained hire campervan can stay in 2026: council sites that allow it, DOC land and campsites, campgrounds, costs and fines.",
     category: "Trip planning",
     region: "New Zealand",

@@ -10,7 +10,7 @@ export const costsWhvArticlesB: Article[] = [
   a({
     slug: "working-holiday-road-trip-budget-new-zealand-2026",
     publishAt: "2026-11-11",
-    title: "Working Holiday Road Trip Budget in NZ 2026: Per Week",
+    title: "Working Holiday Road Trip Budget in NZ 2027: Per Week",
     description: "A week of camping and fuel in a van costs about $318 to $878 depending on where you sleep. See visa funds, minimum wage, DOC fees and the arithmetic behind each figure.",
     category: "Costs & budget",
     region: "New Zealand",
@@ -79,7 +79,7 @@ export const costsWhvArticlesB: Article[] = [
   a({
     slug: "north-island-vs-south-island-campervan",
     publishAt: "2026-11-11",
-    title: "North Island vs South Island by Campervan: Which? (2026)",
+    title: "North Island vs South Island by Campervan: Which? (2027)",
     description: "Compare the islands by campervan: Cook Strait ferry rules, one-way hire fees, DOC campsites and huts, Great Walks and winter roads. Official facts, no hype.",
     category: "Trip planning",
     region: "New Zealand",
@@ -149,7 +149,7 @@ export const costsWhvArticlesB: Article[] = [
   a({
     slug: "campervan-vs-car-and-tent-new-zealand",
     publishAt: "2026-11-11",
-    title: "Campervan vs Car and Tent in NZ: Costs and Rules (2026)",
+    title: "Campervan vs Car and Tent in NZ: Costs and Rules (2027)",
     description: "A campervan needs a green warrant to freedom camp on council land; a tent follows each council's bylaw. Compare fines, DOC fees, hire prices and what each costs.",
     category: "Trip planning",
     region: "New Zealand",
