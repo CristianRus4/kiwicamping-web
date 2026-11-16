@@ -13,7 +13,7 @@ const smokefreeLaws = { label: "Ministry of Health: recent changes to smokefree 
 export const smokingArticles: Article[] = [
   a({
     slug: "cigarette-prices-new-zealand",
-    publishAt: "2026-11-17",
+    publishAt: "2026-11-16",
     title: "How Much Do Cigarettes Cost in New Zealand in 2027?",
     description: "A pack of 20 cigarettes costs about NZ$37 to $55 in New Zealand and a pack of 25 about $50 to $68. Tobacco pouch and vape prices, and why tax keeps pushing them up.",
     category: "Costs & budget",
@@ -77,7 +77,7 @@ export const smokingArticles: Article[] = [
   }),
   a({
     slug: "smoking-vaping-rules-new-zealand",
-    publishAt: "2026-11-17",
+    publishAt: "2026-11-16",
     title: "Smoking and Vaping in New Zealand: Rules for Travellers (2027)",
     description: "What you can bring in duty free, the vape rules, the legal age, where you cannot smoke or vape in New Zealand, fire seasons and butts, and the fines, for campers and travellers.",
     category: "Rules & safety",
@@ -129,7 +129,7 @@ export const smokingArticles: Article[] = [
   }),
   a({
     slug: "where-to-buy-cigarettes-vapes-new-zealand",
-    publishAt: "2026-11-17",
+    publishAt: "2026-11-16",
     title: "Where to Buy Cigarettes and Vapes in New Zealand (2027)",
     description: "Where travellers buy cigarettes, tobacco and vapes in New Zealand: supermarkets, dairies, petrol stations and vape shops, the ID you need, and what to expect in remote areas.",
     category: "Trip planning",
