@@ -84,6 +84,7 @@ const targets: LinkTarget[] = [
   { pattern: /\beating out\b|\btakeaway\b/i, slug: "eating-out-new-zealand-prices-2026" },
   { pattern: /\bcigarette prices\b|\bprice of cigarettes\b/i, slug: "cigarette-prices-new-zealand" },
   { pattern: /\bsmoking and vaping rules\b/i, slug: "smoking-vaping-rules-new-zealand" },
+  { pattern: /\bwhere to buy cigarettes(?: and vapes)?\b/i, slug: "where-to-buy-cigarettes-vapes-new-zealand" },
   { pattern: /\bbeer prices\b|\bprice of a beer\b|\bflat white\b|\bcoffee prices\b/i, slug: "beer-wine-coffee-prices-new-zealand" },
   { pattern: /\baccommodation costs?\b|\bhostels?\b/i, slug: "accommodation-costs-new-zealand-2026" },
   { pattern: /\bpublic transport\b/i, slug: "public-transport-costs-new-zealand-2026" },

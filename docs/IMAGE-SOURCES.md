@@ -274,3 +274,4 @@ All article images are real photographs sourced from Wikimedia Commons. They wer
 | `doc-huts-campsites-app-wikicamps-kiwicamping` | DOC Hut On The Rakiura Track Stewart Island.jpg | Ingolfson | Public domain | [Source](https://commons.wikimedia.org/wiki/File:DOC_Hut_On_The_Rakiura_Track_Stewart_Island.jpg) |
 | `cigarette-prices-new-zealand` | Musselburgh Rise dairy and hairdresser, 18 Dec 2025.jpg | Andykatib | CC0 | [Source](https://commons.wikimedia.org/wiki/File:Musselburgh_Rise_dairy_and_hairdresser,_18_Dec_2025.jpg) |
 | `smoking-vaping-rules-new-zealand` | Sign-1120381, Wainuiomata, Wellington, New Zealand.jpg | Wainuio | CC BY-SA 4.0 | [Source](https://commons.wikimedia.org/wiki/File:Sign-1120381,_Wainuiomata,_Wellington,_New_Zealand.jpg) |
+| `where-to-buy-cigarettes-vapes-new-zealand` | Scotties 4 Square (1375877196).jpg | Sids1 from New Zealand | CC BY 2.0 | [Source](https://commons.wikimedia.org/wiki/File:Scotties_4_Square_(1375877196).jpg) |
