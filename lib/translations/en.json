@@ -8942,41 +8942,100 @@
       }
     },
     "beer-wine-coffee-prices-new-zealand": {
-      "title": "How Much Is a Beer in New Zealand? 2026 Pub and Shop Prices",
-      "description": "A pub pint costs about NZ$7 to $15 and a cappuccino $5 to $7.50 in 2026. Supermarket beer and wine prices compared with bars and cafes.",
+      "title": "How Much Is a Beer in New Zealand? Pub, Supermarket and Bottle Store Prices (2027)",
+      "description": "A pint or handle costs about NZ$10 to $16 in a New Zealand pub and a supermarket dozen $24 to $34. Prices town by town, where to buy, happy hours, wine and coffee.",
       "region": "New Zealand",
       "imageAlt": "New Zealand coffee and wine on a table",
-      "intro": "A 500 ml domestic beer costs about NZ$7 to $15 in a New Zealand pub and $2.59 to $10 from a supermarket, a cappuccino $5 to $7.50 and a mid-range bottle of wine $12.50 to $22.99. Drinks accumulate because they arrive as small transactions: a coffee stop, a pub round and a bottle for camp can exceed the food budget without any single purchase feeling large.",
+      "intro": "A beer in a New Zealand pub costs about NZ$10 to $16 for a pint or handle of local lager or craft, a little less in a country pub and a little more in Queenstown. From a supermarket or bottle store a six-pack is about $14 to $25 and a dozen of the big brands $24 to $34, so a cold one at camp costs a fraction of a round at the bar. Supermarkets sell beer and wine but not spirits, and prices creep up every year, so treat these as today's ranges.",
       "sections": [
         {
-          "heading": "Compare like with like",
+          "heading": "Beer prices town by town",
           "body": [
-            "A pub price pays for service and venue, while a supermarket bottle is consumed elsewhere. Do not use one to call the other unusually expensive.",
-            "Cellar-door tastings may charge a fee, waive it with purchase or require bookings. Check before building an afternoon around several venues."
+            "The table gives today's usual range for a pint or handle of local beer on tap, and for a six-pack and a dozen of 330 ml bottles or cans from a supermarket or bottle store. The pub column runs from a mainstream lager at the low end to a craft pint at the top. The shop columns run from the big national brands to local craft, and the low end is usually a supermarket special.",
+            "Shop prices hardly change from town to town, because the supermarket chains price the same nationwide, so the real difference is in the pub. Queenstown and the centres of Auckland and Wellington sit at the top, while student Dunedin and country pubs sit at the bottom. In a remote town the only shop may be a small grocery or a bottle store, where a dozen costs a few dollars more."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Typical beer prices in New Zealand, November 2026 (NZ$)",
+            "head": [
+              "Town",
+              "Pub pint or handle",
+              "Six-pack from a shop",
+              "Dozen from a shop"
+            ],
+            "rows": [
+              [
+                "Auckland",
+                "$11 to $16",
+                "$14 to $25",
+                "$24 to $34"
+              ],
+              [
+                "Wellington",
+                "$11 to $17",
+                "$14 to $25",
+                "$24 to $34"
+              ],
+              [
+                "Christchurch",
+                "$10 to $15",
+                "$14 to $24",
+                "$24 to $33"
+              ],
+              [
+                "Queenstown",
+                "$12 to $18",
+                "$16 to $26",
+                "$26 to $36"
+              ],
+              [
+                "Rotorua",
+                "$10 to $14",
+                "$14 to $24",
+                "$24 to $33"
+              ],
+              [
+                "Dunedin",
+                "$9 to $14",
+                "$14 to $24",
+                "$24 to $33"
+              ],
+              [
+                "Nelson",
+                "$10 to $15",
+                "$14 to $25",
+                "$24 to $34"
+              ],
+              [
+                "Small-town pubs",
+                "$9 to $13",
+                "$16 to $27",
+                "$26 to $36"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pints, handles and jugs in the pub",
+          "body": [
+            "Ask for a pint or a handle and you get a glass of about 425 to 500 ml, not always the full 568 ml pint you may know from home; a handle is the same pour in a glass with a handle. Expect about $10 to $16 for a mainstream lager or a local craft beer, a little more for a strong hazy IPA, and $10 to $15 for a 330 ml imported bottle.",
+            "A jug of about 1.1 litres, usually $20 to $32, is the classic way for a group to share and works out cheaper per glass. Craft bars and brewery taprooms often pour smaller glasses of around 300 ml, and a tasting paddle of four or five small pours costs about $15 to $25, which is a good way to try the local beers without buying full pints."
           ],
           "tips": []
         },
         {
-          "heading": "Keep alcohol out of driving",
+          "heading": "Supermarkets sell beer and wine, but not spirits",
           "body": [
-            "Nominate a sober driver, use a tour or leave the campervan parked. A legal threshold is not a target and <a data-guide=\"alcohol-fatigue-driving-new-zealand\">fatigue</a> can compound impairment.",
-            "Do not carry an open drink where vehicle rules or rental conditions prohibit it. Store bottles securely before travel."
+            "Woolworths, New World, Pak'nSave and most Four Square stores sell beer, cider and wine, and they are usually the cheapest place to buy them. They cannot sell spirits or the spirit-based premixed drinks Kiwis call RTDs, so for a bottle of gin or rum, or a box of bourbon and cola, you need a bottle store such as Liquorland, Super Liquor, Liquor King or The Bottle-O.",
+            "Beer comes in six-packs, dozens and bigger packs of 15, 18 or 24, and the bigger the pack, the cheaper each can. Supermarkets run beer and wine specials most weeks, so the same dozen can cost $24 one week and $32 the next. Bottle stores often match the supermarket on the big brands and carry more craft beer, cold beer and spirits."
           ],
           "tips": []
         },
         {
-          "heading": "Water first",
+          "heading": "Coffee: a flat white a day adds up",
           "body": [
-            "Carry refillable drinking water so remote cafe prices do not become the hydration plan. Confirm potable taps at campgrounds.",
-            "Budget drinks as discretionary spending. Cutting one round often protects a worthwhile activity or better campsite later."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Coffee is a daily line, not an occasional one",
-          "body": [
-            "New Zealand takes coffee seriously and the standard in small towns is genuinely high, which is precisely why it becomes a budget item. Two flat whites a day for two people is a substantial weekly amount, and it accumulates without ever feeling like a decision.",
-            "A stovetop or aeropress in the van covers the morning cup for a fraction of the cost and leaves the cafe stop as something chosen rather than automatic. Most travellers who do this end up drinking better coffee, not worse."
+            "New Zealand takes coffee seriously, and even a small-town cafe usually makes a very good flat white. A flat white or cappuccino costs about $5 to $7.50, with city and Queenstown cafes at the top, and plant milk or an extra shot adds 50 cents to a dollar. Two cups a day for two people comes to $150 or more a week, and it never feels like a decision.",
+            "A stovetop pot or plunger in the van covers the morning cup for a fraction of the cost and leaves the cafe stop as a treat rather than a habit. Supermarket ground coffee is good, and most travellers who do this end up enjoying the cafe coffee more, not less."
           ],
           "tips": [
             "Two cups a day adds up fast",
@@ -8985,18 +9044,18 @@
           ]
         },
         {
-          "heading": "Buying wine and beer sensibly",
+          "heading": "Wine: supermarket bottles and cellar doors",
           "body": [
-            "Supermarkets sell beer and wine but not spirits, which are restricted to licensed bottle stores. Wine is the clear value proposition here: local wine at <a data-guide=\"new-zealand-grocery-prices-2026\">supermarket prices</a> is very good, and the regions worth buying from are the ones you are driving through.",
-            "Cellar door tastings frequently carry a fee that is refunded against a purchase. Buying a bottle at the vineyard is rarely cheaper than the supermarket, but it is the only way to get the small-production wines that never reach a shelf."
+            "Wine is where New Zealand is good value. A decent bottle of local Sauvignon Blanc, Pinot Gris or Pinot Noir costs about $12 to $25 at the supermarket, often less on special, and a glass in a bar or restaurant is about $11 to $18. Buy the region's wine in the region: Marlborough for Sauvignon Blanc, Central Otago for Pinot Noir and Hawke's Bay for reds.",
+            "Cellar doors often charge $10 to $25 for a tasting, and many take it off the price if you buy a bottle. Buying at the vineyard is rarely cheaper than the supermarket, but it is the only way to get the small-batch wines that never reach a shelf. Sort out a driver or a tour before a tasting afternoon, not after it."
           ],
           "tips": []
         },
         {
           "heading": "Drinking and the driving day",
           "body": [
-            "New Zealand's adult limit is 250 micrograms per litre of breath or 50 milligrams per 100 millilitres of blood, and it is zero for drivers under twenty. Enforcement is active and checkpoints are common, including on rural roads and in the middle of the day.",
-            "The only safe plan on a road trip is to separate drinking from driving completely: stay where you are drinking, use a designated driver, or drink at the end of the day once the vehicle is parked for the night. Never treat a conversion table as an allowance."
+            "New Zealand's adult limit is 250 micrograms per litre of breath or 50 milligrams per 100 millilitres of blood, and it is zero for drivers under twenty. Police run checkpoints often, including on rural roads and in the middle of the day.",
+            "The only safe plan on a road trip is to keep drinking and driving apart: stay where you drink, have a sober driver, or open a beer once the van is parked for the night. <a data-guide=\"alcohol-fatigue-driving-new-zealand\">Fatigue</a> and alcohol add up, and a limit is never an allowance."
           ],
           "tips": [
             "Zero limit under 20",
@@ -9005,19 +9064,19 @@
           ]
         },
         {
-          "heading": "Water is the one to get right",
+          "heading": "The cheapest ways to drink",
           "body": [
-            "Tap water is safe and excellent across almost all of New Zealand, and buying bottled water is close to pure waste. Carry refillable bottles and fill them at any potable tap in a town, campground or public facility.",
-            "In the backcountry the position reverses: treat any water from a stream, tank or untreated supply, because giardia is present. The rule is simple enough to remember as town water yes, wild water treat."
+            "Happy hour is common in pubs and bars, often somewhere between 4pm and 7pm, with pints at about $8 to $10, and some pubs run cheap jug nights or a meal with a pint. Offers are low-key, because the law limits drinks deals that push heavy drinking, so ask at the bar or check the board rather than looking for big signs.",
+            "The biggest saving is drinking at camp: a supermarket dozen on special works out at about $2 to $3 a can, against $10 or more for a glass in the pub. Buy the bigger pack, watch the weekly specials, bring your duty-free allowance of 4.5 litres of beer or wine and three bottles of spirits when you fly in, and keep the beer cold in a chilly bin rather than paying extra for it chilled."
           ],
           "tips": []
         },
         {
-          "heading": "Where to buy what",
+          "heading": "Where and when you can buy alcohol",
           "body": [
-            "Alcohol licensing here splits the two: wine and beer are on supermarket shelves while spirits are not. Opening hours for alcohol sales are regulated and vary by district, and some areas restrict sales on particular days, so do not assume a late purchase is possible.",
-            "Craft beer is well established and most regions have local breweries worth trying at the source. Taprooms usually offer tasting flights, which is a cheaper way to work out what you like than buying by the bottle.",
-            "Buying wine directly from a cellar door is rarely cheaper than a supermarket, but it is the only way to get small-production bottles that never reach a shelf. If price is the priority, buy the region's wine at the supermarket in that region."
+            "You must be 18 to buy alcohol, and shops and bars ask for ID from anyone who looks under 25. The accepted ID is a passport, a New Zealand driver licence or a Kiwi Access Card, so carry your passport: an <a data-guide=\"overseas-driver-licence-new-zealand\">overseas driver licence</a> is often refused.",
+            "Shops can sell alcohol between 7am and 11pm at most, and many councils set shorter hours, often stopping at 9pm, so do not count on a late run to the bottle store. Shops cannot sell alcohol on Good Friday, Easter Sunday or Christmas Day, or before 1pm on Anzac Day, and bars can then serve only people having a meal. Many towns also have alcohol-free zones in streets, parks and beaches, especially over summer and New Year, with a fine of about $250 for drinking there.",
+            "Craft beer is well established, and most regions have a local brewery worth a stop, many with a taproom and food. If you are crossing the Tasman as well, the <a data-guide=\"aussiecamps-alcohol-coffee-drink-prices-australia\">AussieCamps guide to beer prices in Australia</a> covers pubs and bottle shops there."
           ],
           "tips": []
         }
@@ -9025,11 +9084,11 @@
       "faq": [
         [
           "How much is a beer in New Zealand?",
-          "In a pub a 500 ml domestic draught beer costs about NZ$7 to $15 and an imported bottle $9 to $15; a 500 ml domestic beer from the supermarket is $2.59 to $10. Buying from a supermarket rather than a bar is the single biggest saving on a long trip."
+          "A pint or handle of local beer costs about NZ$10 to $16 in a pub, with Queenstown and the city centres at the top and country pubs nearer $9 to $13. From a supermarket a six-pack is about $14 to $25 and a dozen of the big brands $24 to $34, often less on special."
         ],
         [
-          "How much does coffee cost in New Zealand?",
-          "A flat white sits in a fairly narrow band nationwide, with city cafés at the top of it. New Zealand coffee is genuinely good, which is the reason this line item creeps up on people."
+          "Can you buy beer at the supermarket in New Zealand?",
+          "Yes. Supermarkets sell beer, cider and wine, usually at the best prices, but not spirits or spirit-based premixed drinks, which you buy at a bottle store. Shops can sell alcohol until 11pm at the latest, and many councils set an earlier time, often 9pm."
         ]
       ],
       "sources": [
@@ -9041,27 +9100,27 @@
         }
       ],
       "priceTable": {
-        "note": "Community national ranges updated June 2026. Venue, location, brand and alcohol serving size vary.",
+        "note": "Typical ranges in November 2026. Pub prices vary with the town, the venue and the brand, shop prices drop a long way on special, and all of them rise a little each year.",
         "rows": [
           {
             "label": "Cappuccino",
             "unit": "cafe"
           },
           {
-            "label": "Domestic draft beer",
-            "unit": "500 ml pub serving"
+            "label": "Local beer on tap",
+            "unit": "pint or handle in a pub"
           },
           {
             "label": "Imported beer",
-            "unit": "330 ml pub bottle"
+            "unit": "330 ml bottle in a bar"
           },
           {
-            "label": "Domestic beer",
-            "unit": "500 ml retail bottle"
+            "label": "Local beer from a shop",
+            "unit": "500 ml can or bottle"
           },
           {
             "label": "Mid-range wine",
-            "unit": "750 ml retail bottle"
+            "unit": "750 ml bottle from a shop"
           }
         ]
       }

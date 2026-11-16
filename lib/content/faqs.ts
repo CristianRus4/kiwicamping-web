@@ -294,8 +294,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do you tip in New Zealand?", "No. Tipping is not expected and service is not priced assuming it, and there is no service charge on a normal bill."],
   ],
   "beer-wine-coffee-prices-new-zealand": [
-    ["How much is a beer in New Zealand?", "In a pub a 500 ml domestic draught beer costs about NZ$7 to $15 and an imported bottle $9 to $15; a 500 ml domestic beer from the supermarket is $2.59 to $10. Buying from a supermarket rather than a bar is the single biggest saving on a long trip."],
-    ["How much does coffee cost in New Zealand?", "A flat white sits in a fairly narrow band nationwide, with city cafés at the top of it. New Zealand coffee is genuinely good, which is the reason this line item creeps up on people."],
+    ["How much is a beer in New Zealand?", "A pint or handle of local beer costs about NZ$10 to $16 in a pub, with Queenstown and the city centres at the top and country pubs nearer $9 to $13. From a supermarket a six-pack is about $14 to $25 and a dozen of the big brands $24 to $34, often less on special."],
+    ["Can you buy beer at the supermarket in New Zealand?", "Yes. Supermarkets sell beer, cider and wine, usually at the best prices, but not spirits or spirit-based premixed drinks, which you buy at a bottle store. Shops can sell alcohol until 11pm at the latest, and many councils set an earlier time, often 9pm."],
   ],
   "accommodation-costs-new-zealand-2026": [
     ["How much is accommodation in New Zealand per night?", "It runs from a hostel dorm through a holiday park cabin and a motel to a hotel room, and the guide prices each with dated figures. Peak summer in Queenstown and the Bay of Islands sits well above the national picture."],
