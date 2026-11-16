@@ -41,7 +41,7 @@ export const smokingArticles: Article[] = [
         "The brand sets the price, not the town, so an Auckland supermarket and a West Coast dairy charge much the same, give or take a dollar or two. Every pack is the same plain dark olive colour with large health warnings, so the brand name in small print is how you tell them apart.",
       ], ["Value 20s about $37 to $42", "Premium 20s up to about $55", "No discount for a carton"]),
       s("Rolling tobacco and other tobacco", [
-        "Rolling tobacco is taxed by weight, so it is no longer the cheap option it once was. A 30 g pouch costs about $80 to $105 and a 50 g pouch proportionally more, and papers and filters add a few dollars. Per cigarette it works out about the same as a value pack of 20.",
+        "Rolling tobacco is taxed by weight, so it is no longer the cheap option it once was. A 30 g pouch costs about $80 to $105 and a 50 g pouch proportionally more, and papers and filter tips add a few dollars. Per cigarette it works out about the same as a value pack of 20.",
         "Cigars, cigarillos and pipe tobacco carry the same weight-based tax and are sold mostly by tobacconists and some bottle stores. Heated tobacco sticks for devices such as IQOS are taxed at a lower rate than cigarettes, but fewer shops stock them.",
       ]),
       s("Why cigarettes cost so much in New Zealand", [
@@ -61,8 +61,8 @@ export const smokingArticles: Article[] = [
         "Keep packs and pouches dry and out of the sun in the van, and carry a pocket ashtray, because butts are litter and a fire risk in summer. Rental campervans and holiday park cabins are smokefree inside, and a cleaning fee for smoke in a rental can run to several hundred dollars.",
       ], ["Buy before remote stretches", "Carry a pocket ashtray", "No smoking inside rentals"]),
       s("Where to buy, and where to smoke", [
-        "Cigarettes are sold in supermarkets, dairies, petrol stations and many bottle stores, always from a closed cabinet behind the counter, and you must be 18 to buy them. The guide on where to buy cigarettes and vapes covers the shops, ID and remote areas.",
-        "Smokefree places, fire seasons and fines have a guide of their own. If Australia is next on your trip, the AussieCamps guide to cigarette prices in Australia has the prices there.",
+        "Cigarettes are sold in supermarkets, dairies, petrol stations and many bottle stores, always from a closed cabinet behind the counter, and you must be 18 to buy them. The guide on where to buy cigarettes and vapes covers the shops, ID and remote areas, and the rules guide covers smokefree places and fines.",
+        "Whatever you smoke, take the butts with you and check the fire danger before lighting up in summer. If Australia is next on your trip, the AussieCamps guide to cigarette prices in Australia has the prices there.",
       ]),
     ],
     faq: [
@@ -101,7 +101,7 @@ export const smokingArticles: Article[] = [
         "You may have read that New Zealand banned cigarettes for anyone born after 2008. That law was repealed in 2024 before it took effect, together with the plans to cut the number of shops and the nicotine in cigarettes, so adults of any age can still buy them.",
       ]),
       s("Where you cannot smoke or vape", [
-        "Smoking and vaping are banned inside workplaces, bars, restaurants, cafes, shops and airports, on public transport, and anywhere on the grounds of schools and early learning centres. It is also illegal to smoke or vape in a vehicle with anyone under 18 in it, even with the windows down, and police can fine you $50.",
+        "Smoking and vaping are banned inside workplaces, bars, restaurants, cafes, shops and airports, on buses, trains and ferries, and anywhere on the grounds of schools and early learning centres. It is also illegal to smoke or vape in a vehicle with anyone under 18 in it, even with the windows down, and police can fine you $50.",
         "Outdoors the rules are local. Many councils have made their playgrounds, parks, sports grounds, beaches and town squares smokefree, with signs asking you not to smoke or vape there; most rely on goodwill rather than fines, but people will notice. Outdoor dining areas are often smokefree by the venue's own rules, so look for a sign before lighting up.",
       ], ["No smoking or vaping indoors in public", "$50 fine with children in the car", "Respect smokefree signs outdoors"]),
       s("Campgrounds, huts and rental vans", [

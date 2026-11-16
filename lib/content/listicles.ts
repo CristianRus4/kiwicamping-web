@@ -161,7 +161,7 @@ export const listicleArticles: Article[] = [
     sections: [
       s("The verdict in two sentences", [
         "For a camping or campervan trip, plan in KiwiCamping, because the places to sleep come from DOC's own data and the plan keeps dates, notes and to-dos on each stop; then let Google Maps or Apple Maps do the turn-by-turn driving. If you are planning with a group, mixing hotels and flights, or want a free planner with no stop limit, Wanderlog is the stronger choice.",
-        "Whatever you plan in, check the NZ Transport Agency's Journeys site for closures on the morning you drive. Slips, snow and roadworks can close passes such as Arthur's Pass and the Haast, and NZTA is the official source on whether a state highway is open.",
+        "Whatever you plan in, check the NZ Transport Agency's Journeys site for closures on the morning you drive. Slips, snow and roadworks can close passes such as Arthur's Pass and the Haast, and NZTA is the official source on whether a state highway is open. Planning Australia as well? The AussieCamps guide to road trip planner apps in Australia compares the planners there.",
       ], undefined, {
         caption: "Checked 20 October 2026 on the New Zealand App Store and each developer's help pages. Ratings are New Zealand App Store averages with the number of ratings.",
         head: ["App", "Best for", "Price", "Multi-stop routes", "Without signal", "NZ rating"],
@@ -727,7 +727,7 @@ export const listicleArticles: Article[] = [
       ], ["Waitomo: chance-based credit", "Gull: unmanned pumps and promo days", "Mobil: Smiles points"]),
       s("Diesel, EVs and remote roads", [
         "MBIE's diesel figure excludes road user charges. NZTA charges $76 per 1,000 km for light diesel vehicles, so add about 7.6 cents a kilometre to the pump cost when you compare a diesel campervan with a petrol car. Hire companies bill RUC in different ways; ask before you book.",
-        "For electric vehicles, PlugShare (4.6 from 4,173) maps chargers from many networks, and the Z app also handles Z's EV charging. On remote routes the cheapest fuel is the fuel you already have: DOC notes there are no fuel stations between Te Anau and Milford Sound, so fill up in Te Anau.",
+        "For electric vehicles, PlugShare (4.6 from 4,173) maps chargers from many networks, and the Z app also handles Z's EV charging. On remote routes the cheapest fuel is the fuel you already have: DOC notes there are no fuel stations between Te Anau and Milford Sound, so fill up in Te Anau. Driving on to Australia? The AussieCamps guide to fuel price apps in Australia compares the apps there.",
       ]),
       s("Where KiwiCamping fits", [
         "KiwiCamping does not show fuel prices, so it is not on the list above. What it does show is distance: a trip in KiwiCamping gives the distance and drive time for each leg between stops, so you can see which legs are long and plan where to fill up before them. A collection of saved places also shows how far apart its two furthest places are, a rough idea of how much ground the trip covers.",
@@ -1210,7 +1210,7 @@ export const listicleArticles: Article[] = [
       ], ["Choose it for: thl hire vans", "Free", "Last updated June 2025"]),
       s("Council and NZMCA lists", [
         "Councils publish their own stations, and fees vary. Waitaki District Council lists free dump stations at north Oamaru, east Omarama and Mill Reserve in Palmerston, and at its lakes camping grounds it is free with a camping ground ticket and otherwise $5 by donation box. Hurunui District Council lists stations at Amberley Beach, Cheviot, Culverden, Hanmer Springs and Waikari and suggests checking the CamperMate app or an AA map for private ones.",
-        "NZMCA says dump stations are typically built in accordance with NZ Standard 5465:2001. Vehicle certification now runs under the Plumbers, Gasfitters and Drainlayers (Self-Contained Vehicles) Regulations 2023.",
+        "NZMCA says dump stations are typically built in accordance with NZ Standard 5465:2001. Vehicle certification now runs under the Plumbers, Gasfitters and Drainlayers (Self-Contained Vehicles) Regulations 2023. Heading to Australia as well? The AussieCamps guide to dump point and toilet apps in Australia compares the apps there.",
       ], ["Waitaki: free at several sites", "Hurunui: five listed stations", "Check the council before you go"]),
       s("The rules that sit behind a dump station", [
         "Since 7 June 2026 only a green-warrant vehicle counts as self-contained, and the old blue warrant cannot be used for freedom camping. The requirements do not apply at a campground, holiday park or private property. The 2023 regulations require a wastewater system that stores greywater and blackwater and a way to dispose of wastewater hygienically to an appropriate outfall.",

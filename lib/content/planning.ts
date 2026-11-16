@@ -38,7 +38,7 @@ export const planningArticles: Article[] = [
       ]),
       s("Keep a real contingency", [
         "Hold money for the things that are not in anyone's plan: a tyre, a windscreen chip, a ferry change, a closed pass that forces a paid night, a day when the weather makes a cabin the sensible choice. A budget with no slack turns every small problem into a decision about whether to continue.",
-        "Review your actual spending after three or four days and adjust while the correction is still small. The lines that drift are almost always food, coffee and paid activities rather than accommodation, and they are the easiest to bring back.",
+        "Review your actual spending after three or four days and adjust while the correction is still small. The lines that drift are almost always food, coffee and paid activities rather than accommodation, and they are the easiest to bring back. Heading to Australia too? The AussieCamps guide to a campervan road trip budget in Australia builds the same budget there.",
       ], ["Hold a genuine reserve", "Review spending in week one", "Food and activities drift, not camps"]),
     ],
     sources: [

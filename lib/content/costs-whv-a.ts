@@ -62,7 +62,7 @@ export const costsWhvArticlesA: Article[] = [
       ], ["Read the road list for your company","Crown Range is barred by thl and Autobarn","Breaking the list can void cover"]),
       s("A worked two-week example", [
         "Take Jucy's Crib at its peak rate of $95 a day for 14 days: $1,330 before extras. Adding Essentials cover at $35 a day gives $130 a day, or $1,820 for the 14 days. The Crib is not self-contained, so freedom camping on council land is off the table and each night is a campground. Add fuel, any ferry fare and campsite fees on top, and read the freedom camping guide on what a certified self-contained van allows.",
-        "The same arithmetic applies to any company once you have a quote: the daily rate plus the daily cover, times the days, then the one-way fee, location fee, ferry and fuel.",
+        "The same arithmetic applies to any company once you have a quote: the daily rate plus the daily cover, times the days, then the one-way fee, location fee, ferry and fuel. Hiring a van across the Tasman too? The AussieCamps guide to campervan hire costs in Australia breaks down the quotes there.",
       ], ["Rate plus daily cover, times days","Add one-way, location and ferry fees","Not self-contained means campgrounds"]),
       s("Plan the hire around the route in KiwiCamping", [
         `KiwiCamping lists 287 DOC campsites and 927 DOC huts in its bundled data (as of 24 August 2026), with fees and facilities from DOC's own pages. You can save places, build a trip with ordered stops and read the distance and drive time between them, so you can see how many kilometres and nights a route needs before you pick a van size and hire length. Its place details sit on your phone and open without signal, while map tiles, routing, weather and photos need coverage. KiwiCamping is free to download, with in-app purchases.`,
@@ -263,7 +263,7 @@ export const costsWhvArticlesA: Article[] = [
       ], ["Avoid the 20 December to Waitangi Day window", "Mix DOC and holiday park nights", "Read cancellation terms"]),
       s("Booking terms that change the price", [
         "Tauranga Bay's listing says a cancellation within 14 days of arrival costs one night's rate for each cabin or site booked. Spencer Beach's listing notes that minimum stays apply over the peak season and public holidays. The Camp's page says guests who stayed the previous summer book Christmas and New Year before 31 March, and new guests email the park from 1 April, so the best summer sites go early.",
-        "Parks also charge for pets, extra vehicles and visitors at some sites, so ask when you book. A quote that leaves them out will not match the final bill.",
+        "Parks also charge for pets, extra vehicles and visitors at some sites, so ask when you book. A quote that leaves them out will not match the final bill. Heading to Australia as well? The AussieCamps guide to holiday park prices in Australia covers sites and cabins there.",
       ], ["Cancellation can cost a night", "Peak minimum stays apply", "Summer bookings open as early as April"]),
       s("Using KiwiCamping to price a trip", [
         "KiwiCamping lists holiday parks next to DOC campsites and huts, with a fees and facilities summary, a link to book where a park takes bookings, and the nightly cost shown in the currency you choose. A cost filter limits the map to free places or paid ones. Place details, saved places and guides work offline, and the map tiles, routing, weather and photos need signal.",

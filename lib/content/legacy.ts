@@ -81,7 +81,7 @@ export const legacyOnlyArticles: Article[] = [
       ]),
       s("Which combination suits your trip", [
         "For a self-contained van moving through remote areas, put DOC data that opens without signal first, then add a review-led app for the busier stretches where you have reception anyway. For a family trip built around powered sites and school holidays, a booking-oriented app earns its place and offline depth matters less.",
-        "For a mixed trip with serious walking, run a camping app for the vehicle nights and AllTrails or DOC's track pages for the tramping days. Carrying two apps is a reasonable outcome, not a failure to choose.",
+        "For a mixed trip with serious walking, run a camping app for the vehicle nights and AllTrails or DOC's track pages for the tramping days. Carrying two apps is a reasonable outcome, not a failure to choose. Crossing to Australia as well? The AussieCamps guide to the best camping apps in Australia compares the apps there.",
       ]),
       s("Check the rule, not the pin", [
         "Every app in this comparison, including ours, is a planning aid. The council bylaw, the DOC notice, DOC alerts and land-manager directions override anything stored on a phone, and they change more often than app data refreshes. Fire restrictions and rāhui in particular can be imposed quickly.",

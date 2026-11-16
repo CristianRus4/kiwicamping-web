@@ -251,7 +251,7 @@ export const k10Articles: Article[] = [
       ], ["Mix DOC sites and holiday parks", "Groceries every few days", "Budget for showers, laundry, SIM"]),
       s("Activities and the season", [
         "A single scenic flight, jet boat, glacier walk or Milford Sound cruise can cost as much as several ordinary days. Pick the two or three you care about most before you go, book them, and treat everything else as a bonus. Many of the best things to do in New Zealand, from the walks to the hot pools by the river, are free or cheap.",
-        "December to February is the most expensive time, with higher vehicle rates and busier campsites. March, April and November are cheaper and still warm enough for most people, and winter is cheapest of all outside the ski towns.",
+        "December to February is the most expensive time, with higher vehicle rates and busier campsites. March, April and November are cheaper and still warm enough for most people, and winter is cheapest of all outside the ski towns. Planning Australia as well? The AussieCamps guide to the cost of a two-week trip in Australia adds up the same fortnight there.",
       ], ["Choose two or three big activities", "Many highlights are free", "Shoulder season is cheaper"]),
       s("Building your own number", [
         "Start with the fixed costs: flights, the vehicle and its extras, the ferry and the activities you have booked. Add fuel for your route, then multiply your daily range for food, campsites and small things by 14. Finally, add a reserve of ten to fifteen percent for a changed plan, a flat tyre or an extra night in a holiday park when the weather turns.",

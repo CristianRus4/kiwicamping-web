@@ -452,7 +452,7 @@ export const migratedArticles: Article[] = [
       ]),
       s("If a fire is genuinely permitted", [
         "Use the existing authorised fireplace where one is provided rather than building a new ring. Clear combustible material well back, keep the fire small, and have water immediately to hand, not in the vehicle, but beside you. Never light beneath overhanging trees, on peat, in strong wind, or near dry grass, gorse or mānuka, all of which carry fire far faster than people expect.",
-        "Burn only fuel you are permitted to use. Collecting living vegetation is prohibited on conservation land, and many sites require you to bring your own wood. Do not burn rubbish, plastic, foil or treated timber.",
+        "Burn only fuel you are permitted to use. Collecting living vegetation is prohibited on conservation land, and many sites require you to bring your own wood. Do not burn rubbish, plastic, foil or treated timber. Heading to Australia as well? The AussieCamps guide to campfire rules in Australia explains the rules there.",
       ], ["Water beside you, not in the van", "Never light in wind or under trees", "Bring fuel; do not collect living wood"]),
       s("Putting it out properly", [
         "A fire is out when it is cold to the touch, and getting there takes longer than most people allow. Douse it, stir the ashes, douse again, and keep going until you can put your hand in the remains. Embers survive under ash for many hours and wind can restart them long after you have gone to bed.",
