@@ -112,10 +112,10 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-17 | can-i-park-a-campervan-on-the-street-overnight-nz | index |
 | 2026-11-17 | christchurch-campervan-starting-point | index |
 | 2026-11-17 | doc-campsite-pass-new-zealand | index |
-| 2026-11-17 | doc-hut-great-walk-booked-out | index |
-| 2026-11-17 | dunedin-3-days-campervan | index |
-| 2026-11-17 | easy-campervan-meals-new-zealand | index |
-| 2026-11-17 | easy-doc-huts-families-first-timers | index |
+| 2026-11-17 | cigarette-prices-new-zealand | scheduled |
+| 2026-11-17 | smoking-vaping-rules-new-zealand | scheduled |
+| 2026-11-17 | where-to-buy-cigarettes-vapes-new-zealand | scheduled |
+| 2026-11-17 | beer-wine-coffee-prices-new-zealand | index |
 | 2026-11-18 | freedom-camping-akaroa | index |
 | 2026-11-18 | freedom-camping-arrowtown | index |
 | 2026-11-18 | freedom-camping-auckland-2026 | index |
@@ -225,3 +225,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-28 | matariki-camping-new-zealand-2027 | index |
 | 2026-11-28 | walks-closed-for-lambing-new-zealand | index |
 | 2026-11-28 | halloween-guy-fawkes-camping-new-zealand | index |
+| 2026-11-28 | doc-hut-great-walk-booked-out | index |
+| 2026-11-29 | dunedin-3-days-campervan | index |
+| 2026-11-29 | easy-campervan-meals-new-zealand | index |
+| 2026-11-29 | easy-doc-huts-families-first-timers | index |
