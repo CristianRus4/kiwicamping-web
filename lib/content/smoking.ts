@@ -75,4 +75,56 @@ export const smokingArticles: Article[] = [
       smokefreeLaws,
     ],
   }),
+  a({
+    slug: "smoking-vaping-rules-new-zealand",
+    publishAt: "2026-11-17",
+    title: "Smoking and Vaping in New Zealand: Rules for Travellers (2027)",
+    description: "What you can bring in duty free, the vape rules, the legal age, where you cannot smoke or vape in New Zealand, fire seasons and butts, and the fines, for campers and travellers.",
+    category: "Rules & safety",
+    region: "New Zealand",
+    places: ["Airports", "Campgrounds", "Beaches", "National parks", "Rental campervans"],
+    imageAlt: "A sign on a sports ground fence in Lower Hutt saying the park is alcohol and smoke free",
+    related: ["campfire-rules-new-zealand", "cigarette-prices-new-zealand", "where-to-buy-cigarettes-vapes-new-zealand", "doc-campsite-rules", "camping-wastewater-rubbish-new-zealand", "responsible-camping-new-zealand"],
+    intro:
+      "You can smoke and vape in New Zealand: cigarettes are still sold to anyone 18 or over, because the planned ban for younger generations was repealed in 2024. Travellers aged 17 or over can bring 50 cigarettes or 50 g of tobacco duty free, plus a personal supply of vaping gear. What catches visitors out is where they cannot light up: indoors, in a car with children, in rental vans and cabins, on many council parks and beaches, and anywhere outdoors when the fire danger is high.",
+    sections: [
+      s("What you can bring into New Zealand", [
+        "Each traveller aged 17 or over can bring 50 cigarettes, or 50 g of cigars or tobacco, or a 50 g mix of them, duty free. Over that, declare it on your arrival card and pay duty and GST on the extra, or drop it in the bins before the Customs desk. Undeclared tobacco is seized and can bring a fine, and the allowance belongs to each traveller, so it cannot be shared.",
+        "The alcohol allowance is separate: 4.5 litres of wine or beer and three bottles of spirits of up to 1.125 litres each. Heated tobacco sticks count as tobacco, so they come out of the same 50 g.",
+      ], ["50 cigarettes or 50 g, aged 17 or over", "Declare anything over the limit", "The allowance is per person"]),
+      s("Bringing a vape", [
+        "You can bring a vape and a personal supply of e-liquid or pods for your own use. Pack the device and spare batteries in your cabin bag, never in checked luggage, and do not use or charge it on the plane. A personal amount is fine; a quantity that looks like stock for resale is not.",
+        "Single-use disposable vapes cannot be sold in New Zealand, so if you vape, a refillable device is easier to keep going, because pods, coils and e-liquid are sold everywhere. Dairies and petrol stations sell only tobacco, mint and menthol flavours, and specialist vape shops have the rest.",
+      ], ["Vape in your cabin bag", "Bring a refillable device", "Personal amounts only"]),
+      s("The legal age, and the ban that never started", [
+        "You must be 18 to buy cigarettes, tobacco and vaping products, and shops ask for ID from anyone who looks under 25. Bring your passport, because an overseas driver licence may not be accepted. Buying them for someone under 18 is an offence too.",
+        "You may have read that New Zealand banned cigarettes for anyone born after 2008. That law was repealed in 2024 before it took effect, together with the plans to cut the number of shops and the nicotine in cigarettes, so adults of any age can still buy them.",
+      ]),
+      s("Where you cannot smoke or vape", [
+        "Smoking and vaping are banned inside workplaces, bars, restaurants, cafes, shops and airports, on public transport, and anywhere on the grounds of schools and early learning centres. It is also illegal to smoke or vape in a vehicle with anyone under 18 in it, even with the windows down, and police can fine you $50.",
+        "Outdoors the rules are local. Many councils have made their playgrounds, parks, sports grounds, beaches and town squares smokefree, with signs asking you not to smoke or vape there; most rely on goodwill rather than fines, but people will notice. Outdoor dining areas are often smokefree by the venue's own rules, so look for a sign before lighting up.",
+      ], ["No smoking or vaping indoors in public", "$50 fine with children in the car", "Respect smokefree signs outdoors"]),
+      s("Campgrounds, huts and rental vans", [
+        "Holiday parks keep their kitchens, bathrooms, cabins and lounges smokefree, and most ask you to smoke away from other people's sites. DOC huts are smokefree inside. At DOC campsites and in national parks the fire danger is what matters most, because one dropped butt can start a fire in dry grass or scrub.",
+        "Rental campervans and cars are smokefree inside, vaping included, and the companies charge a cleaning fee, often several hundred dollars, if they can smell smoke. Smoke outside, away from the awning and the gas bottle, and never smoke in a tent or near a gas cooker.",
+      ], ["Huts are smokefree inside", "No smoking in rental vans", "Smoke away from other campers"]),
+      s("Fire seasons and cigarette butts", [
+        "In summer much of New Zealand is in a restricted or prohibited fire season, and a total fire ban can be declared at short notice in dry, windy weather. Check the fire danger at checkitsalright.nz before lighting anything, and when it is high, smoke only on gravel, sand or bare ground well away from grass, and put every butt right out.",
+        "Never flick a butt from a car window or drop it on a track or beach. Butts are litter, they are toxic to birds and sea life, and a single one can start a roadside fire that costs thousands to put out. Carry a pocket ashtray or a small tin and empty it into a rubbish bin later.",
+      ], ["Check checkitsalright.nz", "Carry a pocket ashtray", "Never flick a butt from a car"]),
+      s("Fines at a glance", [
+        "Smoking or vaping in a car with a child under 18 is a $50 fine, and dropping a butt can bring a council littering fine of up to $400. Undeclared tobacco over the allowance is seized, and Customs can fine you or take you to court. Lighting a fire in a prohibited fire season, or causing one, is an offence that can bring a large fine.",
+        "None of this stops anyone smoking on a camping trip; it just means picking the place. If you are crossing the Tasman too, the AussieCamps guide to smoking and vaping rules in Australia covers the rules there, which are stricter on vapes.",
+      ]),
+    ],
+    faq: [
+      ["Can I bring a vape to New Zealand?", "Yes. You can bring a vape and a personal supply of e-liquid or pods. Carry the device and batteries in your cabin bag, not in checked luggage, and do not use it on the plane. Disposable vapes are no longer sold in New Zealand, so a refillable device is easier to keep going."],
+      ["Did New Zealand ban cigarettes?", "No. A law that would have banned sales to anyone born after 2008 was repealed in 2024 before it took effect. Anyone 18 or over can buy cigarettes, tobacco and vapes, with ID if they look under 25."],
+    ],
+    sources: [
+      customsAllowances,
+      smokefreeLaws,
+      { label: "Fire and Emergency New Zealand: fire seasons and bans", url: "https://www.checkitsalright.nz/" },
+    ],
+  }),
 ];
