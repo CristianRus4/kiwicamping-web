@@ -21,6 +21,7 @@ import { costsWhvArticlesA } from "@/lib/content/costs-whv-a";
 import { costsWhvArticlesB } from "@/lib/content/costs-whv-b";
 import { driveGuideArticles } from "@/lib/content/drive-guides";
 import { k7Articles } from "@/lib/content/k7-guides";
+import { smokingArticles } from "@/lib/content/smoking";
 import { articleFaqs } from "@/lib/content/faqs";
 import { migratedArticles } from "@/lib/content/legacy-migrated";
 import { lakesWalksViewsArticles } from "@/lib/content/lakes-walks-views";
@@ -97,6 +98,7 @@ export const allArticles: Article[] = applyScreenFigures([
   ...costsWhvArticlesB,
   ...driveGuideArticles,
   ...k7Articles,
+  ...smokingArticles,
   ...migratedArticles,
   ...lakesWalksViewsArticles,
   ...wikiK1Articles,

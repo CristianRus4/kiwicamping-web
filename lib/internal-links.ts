@@ -82,6 +82,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bdaily budget\b|\btravel costs?\b/i, slug: "new-zealand-travel-cost-2026" },
   { pattern: /\bcampervan budget\b/i, slug: "campervan-budget-new-zealand" },
   { pattern: /\beating out\b|\btakeaway\b/i, slug: "eating-out-new-zealand-prices-2026" },
+  { pattern: /\bcigarette prices\b|\bprice of cigarettes\b/i, slug: "cigarette-prices-new-zealand" },
   { pattern: /\bbeer prices\b|\bprice of a beer\b|\bflat white\b|\bcoffee prices\b/i, slug: "beer-wine-coffee-prices-new-zealand" },
   { pattern: /\baccommodation costs?\b|\bhostels?\b/i, slug: "accommodation-costs-new-zealand-2026" },
   { pattern: /\bpublic transport\b/i, slug: "public-transport-costs-new-zealand-2026" },
