@@ -1,5 +1,6 @@
 import { allArticles, articleHref, isScheduled, sitePath } from "@/lib/site";
 import { routeAt } from "@/lib/routes";
+import { isSisterLink, sisterLinks } from "@/lib/sister-links";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -21,6 +22,8 @@ import { routeAt } from "@/lib/routes";
 type LinkTarget = { pattern: RegExp; slug: string };
 
 const targets: LinkTarget[] = [
+  // Twins on the sister site (lib/sister-links.ts): each phrase names AussieCamps, so it wins its paragraph.
+  ...Object.entries(sisterLinks).map(([slug, { pattern }]) => ({ pattern, slug })),
   { pattern: /\bWikiCamps alternatives\b/i, slug: "wikicamps-alternatives" },
   { pattern: /\bwhether WikiCamps NZ is worth it\b/i, slug: "is-wikicamps-nz-worth-it" },
   { pattern: /\bWikiCamps NZ vs KiwiCamping\b/i, slug: "wikicamps-nz-vs-kiwicamping" },
@@ -105,7 +108,7 @@ const bySlug = new Map(allArticles.map((article) => [article.slug, article]));
  * the choice of links (and the markup in en.json) does not move on its publish day; until then the
  * renderers below write its link as plain text.
  */
-const live = targets.filter((target) => bySlug.has(target.slug));
+const live = targets.filter((target) => bySlug.has(target.slug) || isSisterLink(target.slug));
 
 const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -144,6 +147,7 @@ export function selectLinks(paragraphs: readonly string[], currentSlug: string, 
  * otherwise its English URL (.html for legacy guides).
  */
 function guideHref(slug: string, prefix: string) {
+  if (isSisterLink(slug)) return sisterLinks[slug].url;
   const root = prefix.replace(/\/$/, "");
   return root && routeAt(`${root}/guides/${slug}/`) ? `${root}/guides/${slug}/` : articleHref(bySlug.get(slug)!);
 }
@@ -189,7 +193,7 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
 
 /**
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
- * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL under `root`
+ * `<a data-guide="slug">` naming a guide that exists (or an AussieCamps twin, lib/sister-links.ts), rewritten to that guide's URL under `root`
  * (the edition's home path from `localeRoot`, e.g. `/de`; "" for English, where a legacy guide
  * links to its .html URL), or to its English URL when that edition has not translated it. Any other tag is shown as text, never interpreted; a stray or unknown
  * link, or one to a guide not yet published, is reduced to its text.
@@ -201,7 +205,8 @@ export function renderGuideLinks(text: string, root: string): string {
   for (const match of text.matchAll(guideMarkup)) {
     html += clean(text.slice(last, match.index));
     const inner = clean(match[2]);
-    html += bySlug.has(match[1]) && !isScheduled(match[1]) ? `<a href="${sitePath(guideHref(match[1], root))}">${inner}</a>` : inner;
+    html += isSisterLink(match[1]) ? `<a href="${guideHref(match[1], root)}">${inner}</a>`
+      : bySlug.has(match[1]) && !isScheduled(match[1]) ? `<a href="${sitePath(guideHref(match[1], root))}">${inner}</a>` : inner;
     last = match.index! + match[0].length;
   }
   return html + clean(text.slice(last));

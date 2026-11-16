@@ -28,6 +28,7 @@ import { summerGuideSlugs } from "@/lib/summer";
 import { LanguageSwitcher } from "./language-switcher";
 import type { StaticPageKind } from "@/lib/source-strings";
 import { toolCopy, toolIds, toolPath, toolsIndexCopy } from "@/lib/tools";
+import { SISTER_SITE } from "@/lib/sister-links";
 
 const prefix = (locale: LocaleCode, path = "") => sitePath(`${localeRoot(locale)}${path}`);
 
@@ -38,7 +39,7 @@ export function LocalizedHeader({ locale }: { locale: LocaleCode }) {
 
 export function LocalizedFooter({ locale, pageKey }: { locale: LocaleCode; pageKey: string }) {
   const ui = getTranslation(locale);
-  return <><footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={hrefFor("support",locale)}>{ui.navSupport}</Link><a href={SUPPORT_MAILTO}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={appStoreUrl({placement:"foot",locale})} data-cta="foot">{ui.download}</a><Link href={hrefFor("privacy",locale)}>{ui.privacy}</Link><Link href={hrefFor("terms",locale)}>{ui.terms}</Link><PrivacyChoicesLink locale={locale}/></div></div><LanguageSwitcher current={locale} pageKey={pageKey}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer><ConsentBar locale={locale}/></>;
+  return <><footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link><a href={SISTER_SITE.url}>{SISTER_SITE.name}</a></div><div><strong>{ui.help}</strong><Link href={hrefFor("support",locale)}>{ui.navSupport}</Link><a href={SUPPORT_MAILTO}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={appStoreUrl({placement:"foot",locale})} data-cta="foot">{ui.download}</a><Link href={hrefFor("privacy",locale)}>{ui.privacy}</Link><Link href={hrefFor("terms",locale)}>{ui.terms}</Link><PrivacyChoicesLink locale={locale}/></div></div><LanguageSwitcher current={locale} pageKey={pageKey}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer><ConsentBar locale={locale}/></>;
 }
 
 /** The QR card plus the store button, exactly as the English pages show it. */

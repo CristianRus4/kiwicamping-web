@@ -5,7 +5,11 @@ import { resolve } from "node:path";
 const root = resolve(import.meta.dirname, "..");
 const contentFiles = (await readdir(resolve(root, "lib/content"))).filter((name) => name.endsWith(".ts")).map((name) => `lib/content/${name}`);
 const publicFiles = [...contentFiles, "lib/article-model.ts", "lib/site.ts", "app/page.tsx", "app/guides/page.tsx", "app/tools/page.tsx", "app/support/page.tsx", "app/privacy/page.tsx", "app/terms/page.tsx", "components/footer.tsx", "components/guide-article.tsx"];
-const content = (await Promise.all(publicFiles.map((file) => readFile(resolve(root, file), "utf8")))).join("\n");
+const { sisterLinks } = await import("../lib/sister-links.ts");
+// AussieCamps may be named in guide prose only as a link to its twin there (lib/sister-links.ts);
+// those phrases are removed before the copy guards below. The footer names it from SISTER_SITE.
+const sisterLinkText = (text) => Object.values(sisterLinks).reduce((rest, { pattern }) => rest.replace(new RegExp(pattern.source, "g"), ""), text);
+const content = sisterLinkText((await Promise.all(publicFiles.map((file) => readFile(resolve(root, file), "utf8")))).join("\n"));
 
 const entries = [...content.matchAll(/slug:\s*"([^"]+)"(?:,\s*legacyPath:\s*"([^"]+)")?/g)].map((match) => ({ slug: match[1], legacyPath: match[2] }));
 const slugs = entries.map((entry) => entry.slug);

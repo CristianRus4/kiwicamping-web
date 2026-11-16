@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { OpenAppLabel } from "./open-app-label";
 import { SUPPORT_MAILTO } from "@/lib/site";
+import { SISTER_SITE } from "@/lib/sister-links";
 import { appStoreUrl } from "@/lib/app-store";
 import { BrandMark } from "./brand-mark";
 import { ConsentBar, PrivacyChoicesLink } from "./consent-bar";
@@ -12,7 +13,7 @@ export function Footer({ pageKey = "home", openApp }: { pageKey?: string; openAp
     <footer className="footer">
       <div className="footer-grid">
         <div><BrandMark /><p>Find 6,500+ New Zealand places offline, save the ones that matter and build complete road trips with routes, distance, dates, notes and to-dos.</p></div>
-        <div><strong>Explore</strong><Link href="/guides/">Travel guides</Link><Link href="/camping/">DOC campsites</Link><Link href="/huts/">DOC huts</Link><Link href="/freedom-camping/">Freedom camping</Link><Link href="/tools/">Tools</Link><Link href="/#features">Features</Link></div>
+        <div><strong>Explore</strong><Link href="/guides/">Travel guides</Link><Link href="/camping/">DOC campsites</Link><Link href="/huts/">DOC huts</Link><Link href="/freedom-camping/">Freedom camping</Link><Link href="/tools/">Tools</Link><Link href="/#features">Features</Link><a href={SISTER_SITE.url}>{SISTER_SITE.name}</a></div>
         <div><strong>Help</strong><Link href="/support/">Support & FAQ</Link><a href={SUPPORT_MAILTO}>Contact</a></div>
         <div><strong>{openApp ? "The app" : "Get the app"}</strong><a href={appStoreUrl({ placement: "foot", locale: "en" })} data-cta="foot" data-open-app={openApp}>{openApp ? <OpenAppLabel /> : "Download app"}</a><Link href="/privacy/">Privacy</Link><Link href="/terms/">Terms</Link><PrivacyChoicesLink locale="en" /></div>
       </div>
