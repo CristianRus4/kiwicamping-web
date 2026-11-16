@@ -16,7 +16,7 @@ export const migratedArticles: Article[] = [
     slug: "freedom-camping-rules-new-zealand",
     legacyPath: "/freedom-camping-rules-nz.html", hubs: ["freedom-camping"],
     related: ["freedom-camping-south-island", "freedom-camping-north-island"],
-    title: "Freedom Camping Rules NZ 2026: Where It's Legal and the Fines",
+    title: "Freedom Camping Rules NZ 2027: Where It's Legal and the Fines",
     description: "Where you can freedom camp in New Zealand in 2026: council bylaws, DOC land, the green warrant your vehicle needs since June, stay limits and the fines.",
     category: "Rules & safety",
     region: "New Zealand",
@@ -179,7 +179,7 @@ export const migratedArticles: Article[] = [
     // Scheduled guides: each joins the related list on its publish day (lib/related.ts uses published guides only).
     related: ["doc-campsite-pass-new-zealand", "doc-hut-great-walk-booked-out", "easy-doc-huts-families-first-timers"],
     officialLink: { domain: "bookings.doc.govt.nz", url: "https://bookings.doc.govt.nz/" },
-    title: "DOC Hut & Campsite Bookings 2026: How to Book, Fees, Dates",
+    title: "DOC Hut & Campsite Bookings 2027: How to Book, Fees, Dates",
     description: "DOC bookings are made at bookings.doc.govt.nz. How to log in and book huts, campsites and Great Walks, 2026/27 fees for adults and children, and cancellations.",
     category: "Camping guides",
     region: "New Zealand conservation land",
@@ -315,7 +315,7 @@ export const migratedArticles: Article[] = [
   a({
     slug: "holiday-parks-new-zealand-guide",
     legacyPath: "/holiday-parks-nz-booking-guide.html",
-    title: "Holiday Parks NZ 2026: Memberships, Costs and How to Book",
+    title: "Holiday Parks NZ 2027: Memberships, Costs and How to Book",
     description: "TOP 10 Club costs $55 for two years and saves 10% a stay. How holiday park rates are built, when to book, late arrival, and the cost against DOC sites.",
     category: "Camping guides",
     region: "New Zealand towns and coast",
@@ -673,7 +673,7 @@ export const migratedArticles: Article[] = [
   a({
     slug: "camping-fees-new-zealand-2026",
     legacyPath: "/camping-costs-nz.html",
-    title: "NZ Camping Costs 2026: DOC Fees, Holiday Parks, Daily Budget",
+    title: "NZ Camping Costs 2027: DOC Fees, Holiday Parks, Daily Budget",
     description: "DOC campsite fees per adult for 2026/27, holiday park rates, fuel and food, built into daily camping budgets in NZD and converted into 10 currencies.",
     category: "Costs & budget",
     region: "New Zealand camps",

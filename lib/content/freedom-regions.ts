@@ -12,7 +12,7 @@ const s = (heading: string, body: string[], tips?: string[], table?: ArticleTabl
 export const freedomRegionArticles: Article[] = [
   a({
     slug: "freedom-camping-south-island",
-    title: "Freedom Camping in the South Island 2026: The Rules Council by Council",
+    title: "Freedom Camping in the South Island 2027: The Rules Council by Council",
     description: "Where freedom camping is legal on the South Island in 2026: each council's rules from Marlborough to Southland, what a tent or an uncertified van can still do, DOC land, fines and the summer pinch points.",
     category: "Rules & safety",
     region: "South Island",
@@ -89,7 +89,7 @@ export const freedomRegionArticles: Article[] = [
   }),
   a({
     slug: "freedom-camping-north-island",
-    title: "Freedom Camping in the North Island 2026: Where It Is Legal, Region by Region",
+    title: "Freedom Camping in the North Island 2027: Where It Is Legal, Region by Region",
     description: "The North Island's freedom camping rules in 2026, from Northland to Wellington: each council's sites and night limits, the few places a tent or an uncertified van can stay, DOC land, fines and summer hot spots.",
     category: "Rules & safety",
     region: "North Island",
@@ -170,7 +170,7 @@ export const freedomRegionArticles: Article[] = [
   }),
   a({
     slug: "freedom-camping-taupo",
-    title: "Freedom Camping in Taupō 2026: Reid's Farm, the Lake and the Rules",
+    title: "Freedom Camping in Taupō 2027: Reid's Farm, the Lake and the Rules",
     description: "Freedom camping around Taupō in 2026: who may stay where under the council's 2023 bylaw, Hipapatua Reid's Farm, Mangakino and Whakamaru, why most of the lake edge is closed, DOC land near Tūrangi, and fines.",
     category: "Rules & safety",
     region: "Taupō",
@@ -224,7 +224,7 @@ export const freedomRegionArticles: Article[] = [
   }),
   a({
     slug: "freedom-camping-west-coast",
-    title: "Freedom Camping on the West Coast 2026: Karamea to Haast, Town by Town",
+    title: "Freedom Camping on the West Coast 2027: Karamea to Haast, Town by Town",
     description: "Where you can freedom camp on the South Island's West Coast in 2026: Buller, Grey and Westland's rules, Punakaiki and the glacier towns, the community sites, DOC campsites, dump stations and fines.",
     category: "Rules & safety",
     region: "West Coast",
@@ -284,7 +284,7 @@ export const freedomRegionArticles: Article[] = [
   }),
   a({
     slug: "freedom-camping-wanaka",
-    title: "Freedom Camping in Wānaka 2026: The Car Parks, Hāwea and Luggate",
+    title: "Freedom Camping in Wānaka 2027: The Car Parks, Hāwea and Luggate",
     description: "Where you can freedom camp around Wānaka in 2026: the council's designated car parks at the Recreation Centre, Beacon Point Road and Hāwea, Luggate Red Bridge, the Allenby Place closure, December's bylaw decision, DOC campsites and fines.",
     category: "Rules & safety",
     region: "Wānaka",

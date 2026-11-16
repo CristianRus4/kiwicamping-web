@@ -12,7 +12,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-thames-coromandel-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Thames-Coromandel 2026: Where You Can Stay",
+    title: "Freedom Camping in Thames-Coromandel 2027: Where You Can Stay",
     description: "Thames-Coromandel's Freedom Camping Bylaw: certified self-contained vehicles only, two nights, 25 signed sites with vehicle limits, 84 prohibited areas, fines and the DOC campsites nearby.",
     category: "Rules & safety",
     region: "Coromandel",
@@ -95,7 +95,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-queenstown-lakes-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Queenstown Lakes 2026: Where You Can Stay",
+    title: "Freedom Camping in Queenstown Lakes 2027: Where You Can Stay",
     description: "Queenstown Lakes' Freedom Camping Bylaw 2025: 15 designated car parks for certified self-contained vehicles, two nights in 30 days, 6pm to 8am, no urban camping, fines and the changes due in December.",
     category: "Rules & safety",
     region: "Queenstown Lakes",
@@ -165,7 +165,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-tauranga-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Tauranga 2026: Where You Can Stay",
+    title: "Freedom Camping in Tauranga 2027: Where You Can Stay",
     description: "Tauranga's Freedom Camping Bylaw: certified self-contained vehicles only, 25 reserves with space and day limits, two nights per location per month, prohibited areas at Mount Maunganui and Papamoa, and fines.",
     category: "Rules & safety",
     region: "Bay of Plenty",
@@ -248,7 +248,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-whangarei-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Whangārei 2026: Where You Can Stay",
+    title: "Freedom Camping in Whangārei 2027: Where You Can Stay",
     description: "Whangārei's Camping in Public Places Bylaw: 23 council sites for self-contained vehicles, 17 for vehicles without certification, five areas for tents, night limits, no-camping areas, fines and DOC campsites.",
     category: "Rules & safety",
     region: "Northland",
@@ -328,7 +328,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-southland-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Southland 2026: Where You Can Stay",
+    title: "Freedom Camping in Southland 2027: Where You Can Stay",
     description: "Southland District Council's Freedom Camping Bylaw: designated sites in small towns, seven nights in 30 days by default, no council site listed at Te Anau, Manapouri, Riverton or Tuatapere, fines and DOC alternatives.",
     category: "Rules & safety",
     region: "Southland",
@@ -402,7 +402,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-new-plymouth-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in New Plymouth 2026: Where You Can Stay",
+    title: "Freedom Camping in New Plymouth 2027: Where You Can Stay",
     description: "New Plymouth's Freedom Camping Bylaw 2024: tents banned, certified self-contained vehicles three nights in 30 days, two six-space sites for vehicles without certification, banned areas, fines and nearby campgrounds.",
     category: "Rules & safety",
     region: "Taranaki",
@@ -460,7 +460,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-waitaki-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Waitaki 2026: Where You Can Stay",
+    title: "Freedom Camping in Waitaki 2027: Where You Can Stay",
     description: "Waitaki's Responsible Freedom Camping Bylaw: certified self-contained vehicles only, three nights in four weeks, no designated sites, prohibited areas in Oamaru and the lakes villages, fee-paying campgrounds, fines.",
     category: "Rules & safety",
     region: "Waitaki",
@@ -510,7 +510,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-whakatane-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Whakatāne 2026: Where You Can Stay",
+    title: "Freedom Camping in Whakatāne 2027: Where You Can Stay",
     description: "Whakatāne's Freedom Camping Bylaw 2024: four Whakatāne and Ōhope sites for certified self-contained vehicles, tents allowed in the general permission, Aniwhenua Reserve, banned areas, nights, fines.",
     category: "Rules & safety",
     region: "Bay of Plenty",
@@ -569,7 +569,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-auckland-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Auckland 2026: Rules, Limits and Where to Stay",
+    title: "Freedom Camping in Auckland 2027: Rules, Limits and Where to Stay",
     description: "Auckland's Freedom Camping in Vehicles Bylaw: certified self-contained vehicles only, two nights, away by 9am, 58 prohibited and 20 restricted areas, Waiheke limits, fines and campgrounds that take everyone else.",
     category: "Rules & safety",
     region: "Auckland",
@@ -634,7 +634,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-christchurch-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Christchurch and Akaroa 2026: Where You Can Stay",
+    title: "Freedom Camping in Christchurch and Akaroa 2027: Where You Can Stay",
     description: "Christchurch's Freedom Camping Bylaw 2021: two signposted areas at Naval Point and Akaroa for certified self-contained vehicles, two nights in 30 days, prohibited areas from New Brighton to Banks Peninsula, fines and council camping grounds.",
     category: "Rules & safety",
     region: "Canterbury",
@@ -696,7 +696,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-tasman-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Tasman 2026: Motueka, Richmond, Takaka and Abel Tasman",
+    title: "Freedom Camping in Tasman 2027: Motueka, Richmond, Takaka and Abel Tasman",
     description: "Tasman District's Responsible Camping Bylaw 2025: no tents on public land, three sites that take vehicles without certification, designated spaces for self-contained vehicles, prohibited beach townships, fines and DOC campsites.",
     category: "Rules & safety",
     region: "Nelson Tasman",
@@ -762,7 +762,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-westland-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Westland 2026: Hokitika, Franz Josef, Fox Glacier and Haast",
+    title: "Freedom Camping in Westland 2027: Hokitika, Franz Josef, Fox Glacier and Haast",
     description: "Westland District's freedom camping rules: three community-run sites for certified self-contained vehicles, council dump stations, the 2024 draft bylaw's townships and sites, reserves ruled out, fines and DOC campsites on the West Coast.",
     category: "Rules & safety",
     region: "West Coast",
@@ -828,7 +828,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-mackenzie-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Mackenzie 2026: Tekapo, Twizel and Lake Pukaki",
+    title: "Freedom Camping in Mackenzie 2027: Tekapo, Twizel and Lake Pukaki",
     description: "Mackenzie District's Responsible Freedom Camping Bylaw 2023: prohibited areas at Tekapo and Twizel, a three-night limit at restricted sites, the 23 December to January closure window, self-contained rules and where else to stay.",
     category: "Rules & safety",
     region: "Mackenzie",
@@ -879,7 +879,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-dunedin-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Dunedin 2026: Where You Can Stay",
+    title: "Freedom Camping in Dunedin 2027: Where You Can Stay",
     description: "Dunedin's freedom camping rules: certified self-contained vehicles on most council parking land, two nights per location, three sites for tents and vehicles without certification, fines and DOC campsites.",
     category: "Rules & safety",
     region: "Otago",
@@ -939,7 +939,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-wellington-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Wellington 2026: Where You Can Stay",
+    title: "Freedom Camping in Wellington 2027: Where You Can Stay",
     description: "Wellington City's freedom camping rules: certified self-contained vehicles only, 52 spaces at Evans Bay Marina and 16 at Te Kopahou, four nights a month, the $30 Barnett Street option, fines and dump stations.",
     category: "Rules & safety",
     region: "Wellington",
@@ -1000,7 +1000,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-far-north-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in the Far North 2026: Where You Can Stay",
+    title: "Freedom Camping in the Far North 2027: Where You Can Stay",
     description: "Far North District Council allows no camping or overnight parking in its parks, reserves and beaches, and points to seven approved sites near toilets and water. What the council says, the reported site list and the DOC alternatives.",
     category: "Rules & safety",
     region: "Northland",
@@ -1066,7 +1066,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-marlborough-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Marlborough 2026: Where You Can Stay",
+    title: "Freedom Camping in Marlborough 2027: Where You Can Stay",
     description: "Marlborough's Responsible Camping Control Bylaw 2022: certified self-contained vehicles at 11 council sites around Blenheim, Renwick and Rai Valley, one or two nights, the Wairau Diversion update, fines and DOC campsites.",
     category: "Rules & safety",
     region: "Marlborough",
@@ -1134,7 +1134,7 @@ export const freedomCouncilArticles: Article[] = [
   a({
     slug: "freedom-camping-rotorua-2026",
     publishAt: "2026-11-11",
-    title: "Freedom Camping in Rotorua 2026: Where You Can Stay",
+    title: "Freedom Camping in Rotorua 2027: Where You Can Stay",
     description: "Rotorua Lakes Council's six camping sites: three free for certified self-contained vehicles (Government Gardens, Hamurana, Trout Pool), three paid lake reserves, two nights per calendar month, tents at two reserves and fines.",
     category: "Rules & safety",
     region: "Bay of Plenty",
