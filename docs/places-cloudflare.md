@@ -151,52 +151,24 @@ and nothing is sent), so an unchanged trip is never written again. Before an exp
 write each link again when its last successful PUT is older than about 3 months, even unchanged (keep the date of
 the last PUT with the record). Then a lifecycle rule on `links/` with a 12-month age can go in pages.yml.
 
-## DOC closure alerts (16 Nov 2026)
+## DOC closure alerts: not on the site (16 Nov 2026)
 
-The app fetches closure alerts through the site instead of calling DOC with a key built into the app
-(places-worker/src/alerts.js, route `campingapp.nz/api/alerts/*`):
+Cristian's decision: no DOC key for the website, so the site doesn't serve DOC alerts. A proxy at
+`campingapp.nz/api/alerts/*` was built and removed the same day without ever being used (it is in commit bc10f410
+if it's ever wanted). The app keeps calling DOC with its own key, unchanged.
 
-| Address | DOC source |
-|---|---|
-| `https://campingapp.nz/api/alerts/campsites` | `https://api.doc.govt.nz/v2/campsites/alerts` |
-| `https://campingapp.nz/api/alerts/huts` | `https://api.doc.govt.nz/v2/huts/alerts` |
-| `https://campingapp.nz/api/alerts/tracks` | `https://api.doc.govt.nz/v1/tracks/alerts` |
+## DOC photos: staying on GitHub (16 Nov 2026)
 
-- DOC's JSON comes back byte for byte, so the app only changes the address (and drops its `x-api-key`).
-- The Worker sends the server's own DOC key (the Worker secret `DOC_API_KEY`) as `x-api-key`, keeps each answer
-  6 hours in the data centre's cache, and saves every good answer to `alerts/<kind>.json` in `kiwicamping-links`.
-  When DOC fails, or before the key is set, it serves that saved copy with `X-Alerts-Stale: 1`; with no copy
-  either, 503. `X-Alerts-Fetched-At` gives the fetch time for the app's "as of" line.
-- Reads count toward the per-client read limit (300 a minute).
+The app (Kiwi/Camp/KiwiPlacesRepository.swift `docImageBase`, DataManager.swift) and this site's place pages load
+DOC photos from the public GitHub repo `CristianRus4/kiwicamping` (`campsites_images/campsite_<id>.jpg`,
+`huts_images/hut_<id>.jpg`, 928 photos). Cristian's decision: leave it as it is, and don't move or switch anything
+that works.
 
-Setup (Cristian): ask DOC for a new key for the server (keep the old one valid: App Store versions use it), then
-`npx wrangler secret put DOC_API_KEY --config places-worker/wrangler.jsonc` and paste it when asked. Never copy
-the key from the app.
-
-## DOC photos: use DOC's own addresses (16 Nov 2026, proposal, not switched)
-
-Today both the app (Kiwi/Camp/KiwiPlacesRepository.swift `docImageBase`, DataManager.swift) and this site's place
-pages load DOC photos from the public GitHub repo `CristianRus4/kiwicamping`: `campsites_images/campsite_<id>.jpg`
-and `huts_images/hut_<id>.jpg` (928 photos). **That repo stays up and unchanged** while any App Store version
-still points at it.
-
-Instead of hosting copies, use the photo DOC itself shows on each place's page:
-- **Where it comes from:** every DOC campsite and hut in the app's data has a `website` link
-  (`https://www.doc.govt.nz/link/<guid>.aspx`). That page's share picture (`og:image`) is DOC's photo of the place.
-  A script (outside this repo for now: Webs/.growth-lanes/doc-photos/collect.py) reads all 1,214 pages, four at a
-  time, and keeps the photo's path under `https://www.doc.govt.nz/`, such as
-  `contentassets/cf39971f7ce4428a841777d9e2ad03d5/kuripapango-campsite-1920.jpg`.
-- **Coverage (16 Nov):** 1,159 places have a DOC photo: 925 of the 928 in the GitHub repo, plus 234 that have none
-  today. 48 DOC pages have no photo, 6 pages are gone (404: campsites 100037922, 100038010, 100094138, 100100774,
-  100133707 and hut 100031574), and one didn't resolve. The 3 GitHub-only photos stay on GitHub as the fallback.
-- **Sizes:** DOC serves each photo in several sizes from the same path: `thumbs/gallery/<path>` (460×300, ~35 KB) for
-  lists and cards, `thumbs/hero/<path>` (1066×600, ~150 KB) for a place's page, and `<path>` itself (the original,
-  up to ~450 KB).
-- **Serving:** DOC's site is behind Cloudflare (`cache-control: public, max-age=1800`), answers other sites'
-  pages normally, and costs us nothing to serve. Photos keep the place pages' existing credit, "DOC, CC BY 4.0".
-- **Refresh:** rerun the script monthly; DOC changes a place's photo rarely, and a changed photo has a new path.
-  A photo that stops loading falls back to the GitHub copy, then to no photo.
-- **App (a separate job for the app):** look up the DOC path for a place, load `thumbs/gallery/` or `thumbs/hero/`
-  from `https://www.doc.govt.nz/`, and keep the GitHub address as the fallback, so older versions and missing
-  photos still work.
-- **Site:** `scripts/export-places.mjs` takes the DOC path first and keeps the GitHub address as the fallback.
+If it's ever needed, DOC's own photos are an option with no hosting:
+- **Source:** each DOC place's page (the `website` link in the app's data) names its photo as the share picture
+  (`og:image`). On 16 Nov, 1,159 of the 1,214 places had one: 925 of the 928 on GitHub, plus 234 more. 48 pages had
+  no photo, and 6 pages were gone (404: campsites 100037922, 100038010, 100094138, 100100774 and 100133707, and hut
+  100031574).
+- **Sizes:** each path under `https://www.doc.govt.nz/` also comes as `thumbs/gallery/<path>` (460×300) and
+  `thumbs/hero/<path>` (1066×600).
+- **The list:** Webs/.growth-lanes/doc-photos (collect.py, doc-photos.json).

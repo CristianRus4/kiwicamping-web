@@ -15,8 +15,8 @@
     // The links people publish from the app. Never synced or emptied by the build (pages.yml creates it).
     { "binding": "LINKS", "bucket_name": "kiwicamping-links" }
   ],
-  // Per IP (CF-Connecting-IP), free: writes to the links API, and reads of the API, the link pages and the DOC
-  // alerts. The namespace ids are this site's own (AussieCamps uses 1001 and 1002 in the same Cloudflare account).
+  // Per IP (CF-Connecting-IP), free: writes to the links API, and reads of the API and the link pages.
+  // The namespace ids are this site's own (AussieCamps uses 1001 and 1002 in the same Cloudflare account).
   "ratelimits": [
     { "name": "LINK_WRITES", "namespace_id": "2001", "simple": { "limit": 30, "period": 60 } },
     { "name": "LINK_READS", "namespace_id": "2002", "simple": { "limit": 300, "period": 60 } }
@@ -26,8 +26,6 @@
     { "pattern": "campingapp.nz/places/*", "zone_name": "campingapp.nz" },
     { "pattern": "campingapp.nz/api/links/*", "zone_name": "campingapp.nz" },
     { "pattern": "campingapp.nz/trip/*", "zone_name": "campingapp.nz" },
-    { "pattern": "campingapp.nz/collection/*", "zone_name": "campingapp.nz" },
-    // DOC closure alerts for the app, with the server's DOC key (src/alerts.js; secret DOC_API_KEY).
-    { "pattern": "campingapp.nz/api/alerts/*", "zone_name": "campingapp.nz" }
+    { "pattern": "campingapp.nz/collection/*", "zone_name": "campingapp.nz" }
   ]
 }

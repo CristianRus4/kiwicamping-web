@@ -8,7 +8,6 @@
  *   slash like GitHub Pages. R2 has no file limit.
  * - Without it, the pages are the Worker's static assets, served before this code runs.
  * - /places/_assets/<file>.css is the bucket's copy of the build's CSS, which those pages link.
- * - /api/alerts/<campsites|huts|tracks> is DOC's closure alerts through the site (src/alerts.js).
  * - /api/links/* is the links API; /trip/<id> and /collection/<id> (12 letters or digits) are a link's page.
  *   Anything else under /trip/ and /collection/ (the old /trip/#<payload> page) passes through.
  *
@@ -19,7 +18,6 @@
 import { json, linkKey, linksApi } from "./links-api.js";
 import { renderLinkPage } from "./link-page.js";
 import { pickLanguage, usesMiles } from "./labels.js";
-import { alerts } from "./alerts.js";
 
 // placeId: the app's place ids that can have a card (scripts/place-links.mjs); other stop ids show as plain rows.
 // support and contactSubject: the site's own contact address (lib/site.ts SUPPORT_MAILTO), for Report and the contact line.
@@ -114,11 +112,6 @@ async function linkPage(request, env, ctx, kind, id) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
-    const alert = /^\/api\/alerts\/([a-z]+)\/?$/.exec(url.pathname);
-    if (alert) {
-      const blocked = await limiter(request, env)("read");
-      return blocked ?? alerts(request, env, ctx, SITE, alert[1]);
-    }
     if (url.pathname.startsWith("/api/links/") && env.LINKS) {
       return linksApi(request, env, SITE, url.pathname.slice("/api/links/".length), limiter(request, env), clientKey(request.headers.get("cf-connecting-ip") ?? "local"), ctx);
     }
