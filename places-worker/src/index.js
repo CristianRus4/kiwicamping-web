@@ -8,6 +8,7 @@
  *   slash like GitHub Pages. R2 has no file limit.
  * - Without it, the pages are the Worker's static assets, served before this code runs.
  * - /places/_assets/<file>.css is the bucket's copy of the build's CSS, which those pages link.
+ * - /api/alerts/<campsites|huts|tracks> is DOC's closure alerts through the site (src/alerts.js).
  * - /api/links/* is the links API; /trip/<id> and /collection/<id> (12 letters or digits) are a link's page.
  *   Anything else under /trip/ and /collection/ (the old /trip/#<payload> page) passes through.
  *
@@ -17,9 +18,12 @@
  */
 import { json, linkKey, linksApi } from "./links-api.js";
 import { renderLinkPage } from "./link-page.js";
+import { pickLanguage, usesMiles } from "./labels.js";
+import { alerts } from "./alerts.js";
 
 // placeId: the app's place ids that can have a card (scripts/place-links.mjs); other stop ids show as plain rows.
-const SITE = { url: "https://campingapp.nz", name: "KiwiCamping", scheme: "kiwicamping", ogLocale: "en_NZ", placeId: /^[a-z_]+:[A-Za-z0-9-]{1,36}$/ };
+// support and contactSubject: the site's own contact address (lib/site.ts SUPPORT_MAILTO), for Report and the contact line.
+const SITE = { url: "https://campingapp.nz", name: "KiwiCamping", scheme: "kiwicamping", ogLocale: "en_NZ", placeId: /^[a-z_]+:[A-Za-z0-9-]{1,36}$/, support: "support@cntxtlabs.co", contactSubject: "KiwiCamping web contact" };
 const PAGE = /^\/places\/([a-z0-9-]+)\/([a-z0-9-]+)(\/?)$/;
 const LINK_PAGE = /^\/(trip|collection)\/([A-Za-z0-9]{12})(\/?)$/;
 const STYLESHEET = /^\/places\/_assets\/([A-Za-z0-9._-]+\.css)$/;
@@ -91,23 +95,33 @@ async function linkPage(request, env, ctx, kind, id) {
   else if (object) { link = await object.json(); status = 200; }
   // A link always lives at its own kind's path.
   if (link && link.kind !== kind) { await shell.body.cancel(); return Response.redirect(`${new URL(request.url).origin}/${link.kind}/${id}`, 302); }
-  const headers = new Headers({ "content-type": "text/html; charset=utf-8", "cache-control": status === 404 ? "no-store" : "public, max-age=60" });
+  // The page's own words, dates and distances follow the visitor's language and units (src/labels.js).
+  const accept = request.headers.get("accept-language");
+  const code = pickLanguage(accept), miles = usesMiles(accept);
+  const headers = new Headers({ "content-type": "text/html; charset=utf-8", "cache-control": status === 404 ? "no-store" : "public, max-age=60", vary: "accept-language" });
   if (object) {
-    headers.set("etag", `"${object.etag}-${shell.etag}"`);
+    headers.set("etag", `"${object.etag}-${shell.etag}-${code}${miles ? "-mi" : ""}"`);
     if (matchesTag(request.headers.get("if-none-match"), headers.get("etag"))) {
       await shell.body.cancel();
       return new Response(null, { status: 304, headers });
     }
   }
   if (request.method === "HEAD") { await shell.body.cancel(); return new Response(null, { status, headers }); }
-  const page = await renderLinkPage({ site: SITE, shell, places: env.PLACES, ctx, kind, id, link, status });
+  const page = await renderLinkPage({ site: SITE, shell, places: env.PLACES, ctx, kind, id, link, status, code, miles });
   return new Response(page.body, { status, headers });
 }
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
-    if (url.pathname.startsWith("/api/links/") && env.LINKS) return linksApi(request, env, SITE, url.pathname.slice("/api/links/".length), limiter(request, env));
+    const alert = /^\/api\/alerts\/([a-z]+)\/?$/.exec(url.pathname);
+    if (alert) {
+      const blocked = await limiter(request, env)("read");
+      return blocked ?? alerts(request, env, ctx, SITE, alert[1]);
+    }
+    if (url.pathname.startsWith("/api/links/") && env.LINKS) {
+      return linksApi(request, env, SITE, url.pathname.slice("/api/links/".length), limiter(request, env), clientKey(request.headers.get("cf-connecting-ip") ?? "local"), ctx);
+    }
     const link = LINK_PAGE.exec(url.pathname);
     if (link && env.LINKS && env.PLACES) {
       if (link[3]) return Response.redirect(`${url.origin}/${link[1]}/${link[2]}${url.search}`, 301);

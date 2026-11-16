@@ -58,6 +58,7 @@ passes through to GitHub Pages.
 | `PUT /api/links/<id>`, `Authorization: Bearer <token>`, JSON body ≤ 64 KB | 200 `{"url":"https://campingapp.nz/trip/<id>"}` (or `/collection/<id>`); 400 `{"error":"…"}` for a bad body or id, 401 no token, 403 another token, 413 too big |
 | `DELETE /api/links/<id>`, same token | 204; the page then answers 410 "This link was removed", and a later PUT with the same token restores it |
 | `GET /api/links/<id>` | the stored link, `no-store`; 404 unknown, 410 removed |
+| `GET /api/links/stats/<yyyy-mm-dd>` | that UTC day's totals: `writes`, `creates`, `removes`, `capped`, `clients` (counts only) |
 | anything under `/api/links/<id>/` | 404 |
 
 - The first PUT claims the id: it stores the SHA-256 of the token with the link, as a conditional create, so
@@ -70,6 +71,8 @@ passes through to GitHub Pages.
   app; the page doesn't use them and always shows the site's own green.
 - Rate limits per client (an IPv4 address, or an IPv6 /64): 30 writes and 300 reads (API and pages) a minute, then 429 with `Retry-After: 60`.
   Other methods get 405.
+  Each site has its own counters (rate-limit namespace ids: AussieCamps 1001 and 1002, KiwiCamping 2001 and
+  2002; both sites are in one Cloudflare account). See "Write limits" for the daily caps.
 - Storage: the R2 bucket `kiwicamping-links` (binding LINKS), objects `links/<id>.json`. pages.yml creates
   the bucket if it is missing; nothing in the build ever syncs or empties it.
 
@@ -94,3 +97,99 @@ while GitHub Pages is still deploying the same build. The Worker serves it as im
 Local test: `npx wrangler dev --config places-worker/wrangler.jsonc --compatibility-date 2026-05-22` (the
 local runtime may be older than the config's date), after putting the shell and some cards into the local
 bucket with `npx wrangler r2 object put kiwicamping-places/<key> --file <file> --local`.
+
+## Taking a page down (16 Nov 2026)
+
+Every live link's page ends with a small **Report** link: a mail to support@cntxtlabs.co with the page's
+address in the subject. To take a page down:
+
+1. Read the report and open the page (`https://campingapp.nz/trip/<id>` or `/collection/<id>`).
+2. GitHub → Actions → **Links admin** → Run workflow, action `remove`, id = the 12 letters or digits after
+   `/trip/` or `/collection/`. Or locally, with the Cloudflare secrets in the environment:
+   `CLOUDFLARE_API_TOKEN=… CLOUDFLARE_ACCOUNT_ID=… node scripts/remove-link.mjs <id>`.
+3. The page and `GET /api/links/<id>` answer 410 "This link was removed" within a minute (the page's cache).
+
+It leaves the same tombstone as the owner's DELETE plus `b: "1"`: the owner's app can't put the page back (its
+PUT answers 410). Undo by hand only: in the Cloudflare dashboard, delete `links/<id>.json` from `kiwicamping-links`; the
+owner's next change then publishes it again. Action `report` lists what the bucket holds, including anything
+left under `images/`.
+
+## Write limits (16 Nov 2026)
+
+Anyone can call the API, and the first PUT to an unused id claims it, so writes are limited three ways:
+
+- Per minute, per client: 30 writes, 300 reads (above).
+- Per UTC day, per client (`counters/<day>/<hash of the address>.json`): 300 writes and 50 new links. The app
+  sends a link a few seconds after each change and nothing while it is unchanged, so one person editing all day
+  stays far below both. Over either: 429 until midnight UTC.
+- The day's totals (`stats/<day>.json`, `GET /api/links/stats/<day>`). `node scripts/link-stats.mjs [day]`
+  prints yesterday's and, above 2,000 writes, 200 new links or 20 capped requests, raises the Ops banner
+  "Check unusual KiwiCamping link traffic…" and exits 2. It belongs in the daily morning task (Links admin → `stats`
+  runs it on GitHub). The totals are read, add, write: two writes at once can lose a count.
+
+pages.yml adds R2 lifecycle rules so counters go after 2 days and totals after 400.
+
+**Later, with the app:** App Attest on the first PUT. The app would ask DeviceCheck's `DCAppAttestService` for a
+key and an attestation once per install, send them with the first PUT of a new id, and the Worker would verify
+the attestation against Apple's root (and keep the key's public key with the link, so later PUTs can be
+asserted too). A website-only check can't do it: the app has to produce the attestation.
+
+## The page's language (16 Nov 2026)
+
+The page's own words (its stats, the headings and messages of a missing or removed link, the contact line and
+Report) follow the visitor's `Accept-Language`, in the 28 languages the site has, falling back to English
+(places-worker/src/labels.js; machine-translated, not reviewed by a person). Dates and numbers use the language's
+own format, and distances are in miles for visitors whose first locale is in the US, the UK, Liberia or Myanmar.
+The rest of the page (header, footer, Open in app) is the English shell. Answers carry `Vary: Accept-Language`
+and an ETag per language and unit. The link preview's text (`og:description`) stays English.
+
+## Expiry: not yet (16 Nov 2026)
+
+Pages don't expire. Expiring links not updated for 12 months would delete pages people still use: the app sends a
+link only when its content changes (`CampingPublicLink.publish`: an unchanged payload's hash matches the record's
+and nothing is sent), so an unchanged trip is never written again. Before an expiry rule is added, the app must
+write each link again when its last successful PUT is older than about 3 months, even unchanged (keep the date of
+the last PUT with the record). Then a lifecycle rule on `links/` with a 12-month age can go in pages.yml.
+
+## DOC closure alerts (16 Nov 2026)
+
+The app fetches closure alerts through the site instead of calling DOC with a key built into the app
+(places-worker/src/alerts.js, route `campingapp.nz/api/alerts/*`):
+
+| Address | DOC source |
+|---|---|
+| `https://campingapp.nz/api/alerts/campsites` | `https://api.doc.govt.nz/v2/campsites/alerts` |
+| `https://campingapp.nz/api/alerts/huts` | `https://api.doc.govt.nz/v2/huts/alerts` |
+| `https://campingapp.nz/api/alerts/tracks` | `https://api.doc.govt.nz/v1/tracks/alerts` |
+
+- DOC's JSON comes back byte for byte, so the app only changes the address (and drops its `x-api-key`).
+- The Worker sends the server's own DOC key (the Worker secret `DOC_API_KEY`) as `x-api-key`, keeps each answer
+  6 hours in the data centre's cache, and saves every good answer to `alerts/<kind>.json` in `kiwicamping-links`.
+  When DOC fails, or before the key is set, it serves that saved copy with `X-Alerts-Stale: 1`; with no copy
+  either, 503. `X-Alerts-Fetched-At` gives the fetch time for the app's "as of" line.
+- Reads count toward the per-client read limit (300 a minute).
+
+Setup (Cristian): ask DOC for a new key for the server (keep the old one valid: App Store versions use it), then
+`npx wrangler secret put DOC_API_KEY --config places-worker/wrangler.jsonc` and paste it when asked. Never copy
+the key from the app.
+
+## DOC photos: proposal (16 Nov 2026, not done)
+
+Today both the app (Kiwi/Camp/KiwiPlacesRepository.swift `docImageBase`, DataManager.swift) and this site's
+place pages (543 photo URLs in the place data) load DOC photos from the public GitHub repo
+`CristianRus4/kiwicamping`: `campsites_images/campsite_<id>.jpg` (186 files, 27 MB) and
+`huts_images/hut_<id>.jpg` (743 files, 113 MB). GitHub rate-limits raw files and the repo can't be renamed or
+made private without breaking every photo.
+
+Proposal:
+- **Bucket:** a new R2 bucket `kiwicamping-media`, separate from `kiwicamping-places` (whose sync deletes
+  anything it didn't build). Same paths as today: `campsites_images/campsite_<id>.jpg`, `huts_images/hut_<id>.jpg`.
+- **Address:** the bucket's custom domain `media.campingapp.nz` (R2 → Settings → Custom domain), served from
+  Cloudflare's cache with no Worker in the way, so it doesn't use the Workers' 100,000 requests a day. The app's
+  change is one line (`docImageBase` → `https://media.campingapp.nz/`), and the site's place export swaps the same
+  prefix.
+- **Upload and refresh:** a script mirrors the two folders into the bucket, uploading only changed files (MD5 vs
+  ETag, as scripts/sync-places-r2.mjs does); run once, then monthly from a scheduled workflow, or straight from
+  wherever the photos are made. The GitHub repo stays up until no App Store version points at it.
+- **Cost:** 929 photos, 140 MB: inside R2's free tier (10 GB stored, 1 million writes and 10 million reads a
+  month, no egress fees), so $0 now, and still $0 at ten times the photos.
