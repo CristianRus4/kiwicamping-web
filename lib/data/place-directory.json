@@ -1,0 +1,251 @@
+{
+ "asOf": "2026-11-14",
+ "states": [
+  {
+   "slug": "auckland",
+   "name": "Auckland",
+   "code": "auckland",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "bay-of-plenty",
+   "name": "Bay of Plenty",
+   "code": "bay-of-plenty",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "canterbury",
+   "name": "Canterbury",
+   "code": "canterbury",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "central-north-island",
+   "name": "Central North Island",
+   "code": "central-north-island",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "coromandel",
+   "name": "Coromandel",
+   "code": "coromandel",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "east-coast",
+   "name": "East Coast",
+   "code": "east-coast",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays"
+   ]
+  },
+  {
+   "slug": "fiordland",
+   "name": "Fiordland",
+   "code": "fiordland",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "hawkes-bay",
+   "name": "Hawke's Bay",
+   "code": "hawkes-bay",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "manawatu-whanganui",
+   "name": "Manawatū/Whanganui",
+   "code": "manawatu-whanganui",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "marlborough",
+   "name": "Marlborough",
+   "code": "marlborough",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "nelson-tasman",
+   "name": "Nelson/Tasman",
+   "code": "nelson-tasman",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "northland",
+   "name": "Northland",
+   "code": "northland",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "otago",
+   "name": "Otago",
+   "code": "otago",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "southland",
+   "name": "Southland",
+   "code": "southland",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "taranaki",
+   "name": "Taranaki",
+   "code": "taranaki",
+   "listings": [
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "waikato",
+   "name": "Waikato",
+   "code": "waikato",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "wairarapa",
+   "name": "Wairarapa",
+   "code": "wairarapa",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "wellington-kapiti",
+   "name": "Wellington/Kāpiti",
+   "code": "wellington-kapiti",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  },
+  {
+   "slug": "west-coast",
+   "name": "West Coast",
+   "code": "west-coast",
+   "listings": [
+    "doc-campsites",
+    "doc-huts",
+    "holiday-parks",
+    "tracks",
+    "stays",
+    "tours"
+   ]
+  }
+ ],
+ "indexed": []
+}

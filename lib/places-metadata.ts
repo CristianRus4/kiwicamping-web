@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { homeOgImage } from "@/lib/seo";
-import { isListingType, photoUrl, placePath, placeStatePath, placesPath, type Place, type PlaceState, typeLabel } from "@/lib/places";
+import { isListingType, photoUrl, placeListingPath, placePath, placeStatePath, placesPath, type Place, type PlaceState, typeLabel } from "@/lib/places";
+import type { Listing } from "@/lib/place-directory";
 import { placeDescription } from "@/lib/places-copy";
 import { regionIntros } from "@/lib/region-intros";
 
@@ -50,6 +51,14 @@ export function placeStateMetadata(state: PlaceState): Metadata {
   const intro = regionIntros[state.slug];
   const description = intro ? (intro.length <= 155 ? intro : `${intro.slice(0, intro.lastIndexOf(" ", 154))}…`) : `DOC campsites, huts and holiday parks in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
   return { title, description, alternates: { canonical: placeStatePath(state) }, ...social(og(title, description, placeStatePath(state))), robots };
+}
+
+/** A listing by type (`/places/<region>/<listing>/`, lib/place-directory.ts), rendered for the Worker. */
+export function placeListingMetadata(state: PlaceState, listing: Listing, indexable: boolean): Metadata {
+  const path = placeListingPath(state, listing);
+  const title = `${listing.title} in ${state.name}`;
+  const description = `${listing.title} in ${state.name} in KiwiCamping, on the map and from A to Z.`;
+  return { title, description, alternates: { canonical: path }, ...social(og(title, description, path)), robots: indexable ? robots : noindex, other: { "apple-itunes-app": smartBannerContent("en") } };
 }
 
 export function placesMetadata(): Metadata {

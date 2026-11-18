@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
-    "prebuild": "npm run articles:dates && npm run images:og && node scripts/decrypt-places.mjs",
+    "prebuild": "npm run articles:dates && npm run images:og && node scripts/decrypt-places.mjs && tsx scripts/build-place-directory.ts",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
     "export": "tsx scripts/export-github-pages.mjs",
     "build:pages": "npm run build && npm run export",

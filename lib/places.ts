@@ -1,4 +1,6 @@
 import placesFile from "./data/places.json";
+import directoryFile from "./data/place-directory.json";
+import { listingPath, listings, type Listing } from "@/lib/place-directory";
 import { builtHubs } from "@/lib/hubs";
 import { sitePath } from "@/lib/site";
 
@@ -48,6 +50,22 @@ export const placeStates: PlaceState[] = [...new Map(places.map((place) => [plac
   .map((place) => ({ slug: place.stateSlug, name: place.stateName, code: place.stateName, island: place.island, places: places.filter((other) => other.stateSlug === place.stateSlug) }))
   .sort((a, b) => a.island.localeCompare(b.island) || a.name.localeCompare(b.name));
 export const islands = ["North Island", "South Island"] as const;
+
+/**
+ * The listings by type (lib/place-directory.ts), served by the Worker with the extra place pages: each
+ * region's, and the Worker pages search engines may index (scripts/build-place-directory.ts). Every region
+ * with a listing has full listings, so its region page links them (scripts/export-place-pages.tsx checks).
+ */
+const directory = directoryFile as { asOf: string | null; states: { slug: string; name: string; code: string; listings: string[] }[]; indexed: string[] };
+export const directoryAsOf = directory.asOf;
+export const indexedWorkerPaths = directory.indexed;
+export const stateListings = (state: { slug: string }): Listing[] => (directory.states.find((entry) => entry.slug === state.slug)?.listings ?? [])
+  .flatMap((slug) => listings.find((listing) => listing.slug === slug) ?? []);
+export const placeListingPath = (state: { slug: string }, listing: Pick<Listing, "slug">) => sitePath(listingPath(state.slug, listing));
+/** Every region page; in New Zealand every region with a place has full listings. */
+export const directoryStates = placeStates;
+/** Every listing page the Worker serves, by path. */
+export const listingPaths = directory.states.flatMap((state) => state.listings.map((slug) => listingPath(state.slug, { slug })));
 
 export const placesPath = () => sitePath("/places");
 export const placeStatePath = (state: { slug: string }) => sitePath(`/places/${state.slug}`);

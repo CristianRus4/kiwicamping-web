@@ -11,7 +11,8 @@ import { builtHubs } from "@/lib/hubs";
 import { hubGuides } from "@/lib/hub-regions";
 import { SITE_URL, articleHref, articles } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { mapLabel, feeLabel, islands, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import { mapLabel, feeLabel, islands, photoUrl, placeListingPath, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, stateListings, typeLabel, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import type { Listing } from "@/lib/place-directory";
 
 const where = (place: Place) => place.park ?? place.stateName;
 
@@ -39,8 +40,8 @@ m.slice(0,100).forEach(function(p){var l=document.createElement("li"),a=document
 q.addEventListener("input",r);})();`;
 }
 
-/** A region page's search: hides the rows that do not match. */
-const filterScript = `(function(){var q=document.getElementById("pl-q");function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
+/** A region page's or listing's search: hides the rows that do not match. */
+const filterScript = `(function(){var q=document.getElementById("pl-q");if(!q)return;function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
 function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=!!v&&n(row.textContent).indexOf(v)<0;});}
 q.addEventListener("input",r);})();`;
 
@@ -100,6 +101,7 @@ export function PlacesState({ state }: { state: PlaceState }) {
           {intro && <p className="pl-intro">{intro}</p>}
         </header>
         <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} labels={state.places.map(mapLabel)} label={`Places to camp in ${state.name}`} precision={3} />
+        <LinkList title="By type" links={stateListings(state).map((listing) => ({ href: placeListingPath(state, listing), label: listing.title }))} />
         <SearchBox placeholder={`Search places in ${state.name}`} />
         <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
           <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
@@ -113,6 +115,46 @@ export function PlacesState({ state }: { state: PlaceState }) {
     </main>
     <Footer pageKey={`places:${state.slug}`} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
+  </>;
+}
+
+/**
+ * A listing by type: every listed place of the listing's types in one region (lib/place-directory.ts), full
+ * listings and extra places alike, A to Z. The region page's layout, rows without photos (most of these places
+ * have none) and its search. Rendered for the Worker by scripts/export-place-pages.tsx, not by the Pages build.
+ */
+export function PlacesListing({ state, listing, places: listed, indexable }: { state: PlaceState; listing: Listing; places: Place[]; indexable: boolean }) {
+  const path = placeListingPath(state, listing);
+  const url = `${SITE_URL}${path}`;
+  const title = `${listing.title} in ${state.name}`;
+  const sorted = [...listed].sort((a, b) => a.name.localeCompare(b.name) || (a.locality ?? "").localeCompare(b.locality ?? ""));
+  const located = sorted.filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng));
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "ItemList", "@id": `${url}#places`, name: title, itemListElement: sorted.map((place, position) => ({ "@type": "ListItem", position: position + 1, name: place.name, url: `${SITE_URL}${placePath(place)}` })) },
+      { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Places", item: `${SITE_URL}${placesPath()}` }, { "@type": "ListItem", position: 2, name: state.name, item: `${SITE_URL}${placeStatePath(state)}` }, { "@type": "ListItem", position: 3, name: listing.title, item: url }] },
+    ],
+  };
+  return <>
+    <Header />
+    <main {...mainData({ kind: "places", locale: "en", slug: `${state.slug}/${listing.slug}` })}>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: "Places", path: placesPath() }, { name: state.name, path: placeStatePath(state) }, { name: listing.title, path }]} />
+        <header className="pl-header">
+          <h1>{title}</h1>
+        </header>
+        <PlaceMap points={located.map((place) => [place.lng, place.lat] as [number, number])} labels={located.map(mapLabel)} label={title} precision={3} />
+        <SearchBox placeholder={`Search ${listing.title.startsWith("DOC") ? listing.title : listing.title.toLowerCase()} in ${state.name}`} />
+        <ul className="pl-rows pl-az pl-rows-plain">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
+          <strong>{place.name}</strong><small>{[typeLabel(place).one, place.park ?? place.locality].filter(Boolean).join(" · ")}</small>
+        </Link></li>)}</ul>
+        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+      </div>
+    </main>
+    <Footer pageKey={`places:${state.slug}/${listing.slug}`} />
+    {indexable && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />}
     <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
   </>;
 }

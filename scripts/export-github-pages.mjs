@@ -193,12 +193,17 @@ function localTarget(reference) {
   return /\.[a-z0-9]+$/i.test(local) ? resolve(output, local) : resolve(output, local, "index.html");
 }
 
+// The listings by type (lib/data/place-directory.json) are served by the Cloudflare Worker
+// (docs/places-cloudflare.md), not this export; the region pages link them.
+const directory = JSON.parse(await readFile(resolve(root, "lib/data/place-directory.json"), "utf8"));
+const workerPages = new Set(directory.states.flatMap((state) => state.listings.map((slug) => resolve(output, `places/${state.slug}/${slug}`, "index.html"))));
+
 // Read each page again instead of holding every page's HTML in memory (the site now exports thousands).
 for (const route of htmlRoutes) {
   const html = await readFile(outputPath(route), "utf8");
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
-    if (target && !only) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
+    if (target && !only) await access(target).catch(() => workerPages.has(target) || assert.fail(`${route} links to missing ${match[1]}`));
   }
 }
 

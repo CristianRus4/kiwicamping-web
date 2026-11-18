@@ -172,3 +172,34 @@ If it's ever needed, DOC's own photos are an option with no hosting:
 - **Sizes:** each path under `https://www.doc.govt.nz/` also comes as `thumbs/gallery/<path>` (460×300) and
   `thumbs/hero/<path>` (1066×600).
 - **The list:** Webs/.growth-lanes/doc-photos (collect.py, doc-photos.json).
+
+## The listings by type (18 Nov 2026)
+
+Every listed place page, full or extra, is reachable from `/places/`: the region page's **By type** list links a
+listing per type, `/places/<region>/<listing>/` (for example `/places/canterbury/tracks/`), and the listing links
+every listed place of its types in that region, A to Z, with the map and the region page's search. 112 listings
+cover 4,151 of the 6,229 place pages.
+
+- **Left out, on purpose:** the 262 dump stations and 1,699 day-use areas come from WikiCamps-derived files
+  (lib/data/hubs.meta.json, licence `exclude`; Cristian, 18 Nov: "stays out, I don't want WikiCamps to
+  complain"). They get no listing, no link, no sitemap entry and stay noindex; their existing pages are
+  untouched. The 77 council campgrounds and 40 council holiday parks from the app's New Zealand database have
+  no credit in their records and no entry in hubs.meta.json, so they stay out too until their sources are
+  recorded (they come from council websites and an official information response, not WikiCamps).
+- **One place to change:** lib/place-directory.ts. It names each listing, the app types it holds, its `indexed`
+  switch, the `unlisted` types, and `isListed` (a record needs a credit). A new app type fails the build until
+  someone checks its source and licence. The track listing's slug is `tracks` because a day-use area already
+  has the page `/places/west-coast/walking-tracks/`; the build fails if a listing's slug ever equals a place's.
+- **Search engines:** every listing switch is off: all listings and extra place pages stay noindex and out of
+  the sitemaps. Turning one on puts that listing and its places with enough facts (`hasEnoughFacts`: a name, a
+  locality, coordinates, a facility or fact, not closed) in the English sitemap (lib/sitemaps.ts).
+- **Build:** `npm run prebuild` runs scripts/build-place-directory.ts, which writes the committed
+  lib/data/place-directory.json (each region's listings and the indexable Worker paths: public URLs only).
+  scripts/export-place-pages.tsx renders the listings into the shell of an exported region page, after proving
+  the region page rebuilt there matches the export, and fails if any listed place page is in no listing.
+  scripts/audit-seo.mjs accepts the Worker's indexable URLs in the sitemap and, with `WORKER_DIST` (or
+  worker-dist) present, checks each Worker page's robots against it.
+- **Routing:** none changed. The Worker already answers `/places/<region>/<slug>/` from R2, so a listing is
+  one more object, `places/<region>/<listing>/index.html`.
+- **Free plan:** 112 more R2 objects, a few MB in all. No change to Worker requests per page view or to
+  GitHub Pages.

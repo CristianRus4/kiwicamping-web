@@ -1,6 +1,7 @@
 import { SITE_URL } from "@/lib/site";
 import { exportRoutes } from "@/lib/routes";
 import { sitemapNames } from "@/lib/routes/crawlers";
+import { workerSitemapRoutes } from "@/lib/routes/places";
 import { localeEntry } from "@/lib/locales";
 
 /**
@@ -17,7 +18,7 @@ const segmentOf = (locale: string) => (locale === "en" ? "en" : localeEntry(loca
 const escapeXml = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 function entries(name: string) {
-  return exportRoutes().filter((route) => route.indexable && route.kind !== "crawler" && segmentOf(route.locale) === name);
+  return [...exportRoutes(), ...(name === "en" ? workerSitemapRoutes() : [])].filter((route) => route.indexable && route.kind !== "crawler" && segmentOf(route.locale) === name);
 }
 
 export function sitemapIndex(): Response {
