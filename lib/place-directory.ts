@@ -49,16 +49,18 @@ export function listingOf(type: string): Listing | undefined {
 }
 
 /**
- * Whether a place is listed: its type has a listing and the record names its source (`credit`). A record with
- * no credit has no clear source and stays out: the council campgrounds and holiday parks from the app's New
- * Zealand database, until their sources are in lib/data/hubs.meta.json.
+ * Whether a place is listed: its type has a listing and its source is known. A record names its source in
+ * `credit`. The council campgrounds and holiday parks carry none: they are the `campsite:` records from the
+ * app's New Zealand database, gathered from council websites and an official information request, and
+ * Cristian said on 18 Nov 2026 to list them. Any other record without a credit stays out.
  */
-export const isListed = (place: { type: string; credit?: string | null }) => Boolean(listingOf(place.type)) && Boolean(place.credit?.trim());
+const isCouncilPlace = (place: { id?: string; type: string }) => Boolean(place.id?.startsWith("campsite:")) && (place.type === "campground" || place.type === "holiday_park");
+export const isListed = (place: { id?: string; type: string; credit?: string | null }) => Boolean(listingOf(place.type)) && (Boolean(place.credit?.trim()) || isCouncilPlace(place));
 
 export const listingPath = (stateSlug: string, listing: Pick<Listing, "slug">) => `/places/${stateSlug}/${listing.slug}/`;
 
 type Facts = {
-  type: string; typeName?: string; credit?: string | null; name: string; locality: string | null; lat: number; lng: number; closed?: boolean;
+  id?: string; type: string; typeName?: string; credit?: string | null; name: string; locality: string | null; lat: number; lng: number; closed?: boolean;
   amenities: string[]; activities: string[]; fee: string | null; sites: number | null; bookingRequired: boolean | null; dogs?: string | null;
 };
 
