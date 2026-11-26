@@ -113,6 +113,14 @@ const currencyDigits = (currency: string) => currency === "JPY" || currency === 
  */
 export const fuelPrices = { week: "2026-10-23", regular: 3.61, premium: 3.81, diesel: 3.24, rucPer1000: 76 } as const;
 
+/**
+ * The English fuel calculator's search snippet, with this week's prices filled in from `fuelPrices`.
+ * It lives here, not in `toolStrings`, because a translation counts as complete only when its
+ * placeholders match the English: adding these to the shared string would send every translated
+ * fuel page back to English until each language was redone.
+ */
+export const fuelMetaDescriptionEnglish = "Regular 91 is {fuelPrice} a litre and diesel {dieselPrice} (MBIE, {fuelDate}). Work out any NZ road trip's fuel cost from kilometres and L/100 km, plus diesel road user charges.";
+
 /** The values each calculator opens with. The rendered output and the worked example use the same ones. */
 export const toolDefaults = {
   fuel: { distance: 1000, consumption: 12, price: fuelPrices.regular },

@@ -17,6 +17,10 @@ import { GA_MEASUREMENT_ID } from "@/lib/site";
  *    link's `data-cta` placement and its `ct` campaign token. `window.acTrack(name, params)` sends
  *    any other event (the tools use it) with the same page context attached.
  *
+ * Headless crawlers that report a screen no real display has (square, like 1366 × 1366 or
+ * 1600 × 1600, or 1280 × 1200) get nothing: no tag, no events, only a no-op `acTrack`. In November
+ * 2026 they were about three in four of GA4's users, from Singapore and China, with no engagement.
+ *
  * The consent bar itself is server-rendered hidden (components/consent-bar.tsx); this script shows
  * it only when no choice is stored and the browser's time zone is in Europe (CONSENT_TIME_ZONES).
  * Google's per-region default above is the backstop for visitors whose time zone says otherwise.
@@ -64,6 +68,8 @@ export function mainData({ kind, locale, slug, category }: { kind: PageKind; loc
 
 export function analyticsScript(id: string = GA_MEASUREMENT_ID): string {
   return `(function(w,d){
+var sw=w.screen&&w.screen.width,sh=w.screen&&w.screen.height;
+if((sw>=1000&&sw===sh)||(sw===1280&&(sh===1200||sh===1600))){w.acTrack=function(){};return}
 var id=${JSON.stringify(id)},key=${JSON.stringify(CONSENT_STORAGE_KEY)},stored=null,tz='';
 w.dataLayer=w.dataLayer||[];
 function gtag(){w.dataLayer.push(arguments)}

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { ToolPage } from "@/components/tool-page";
 import { SITE_URL } from "@/lib/site";
 import { alternatesFor, defaultOgLocale, homeOgImage } from "@/lib/seo";
-import { toolBySlug, toolCopy, toolIds, toolPageKey, toolPath, tools } from "@/lib/tools";
+import { copyValues, fill, fuelMetaDescriptionEnglish, intlLocale, toolBySlug, toolCopy, toolIds, toolPageKey, toolPath, tools } from "@/lib/tools";
 
 export const dynamicParams = false;
 
@@ -16,12 +16,13 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   if (!id) return {};
   const { tool } = toolCopy("en", id);
   const url = toolPath("en", id);
+  const description = id === "fuel" ? fill(fuelMetaDescriptionEnglish, copyValues(intlLocale("en", id))) : tool.metaDescription;
   return {
     title: tool.metaTitle,
-    description: tool.metaDescription,
+    description,
     alternates: { canonical: url, languages: alternatesFor(toolPageKey(id)) },
-    openGraph: { type: "website", siteName: "KiwiCamping", locale: defaultOgLocale, title: tool.metaTitle, description: tool.metaDescription, url: `${SITE_URL}${url}`, images: [{ ...homeOgImage, alt: "KiwiCamping" }] },
-    twitter: { card: "summary_large_image", title: tool.metaTitle, description: tool.metaDescription, images: [{ ...homeOgImage, alt: "KiwiCamping" }] },
+    openGraph: { type: "website", siteName: "KiwiCamping", locale: defaultOgLocale, title: tool.metaTitle, description, url: `${SITE_URL}${url}`, images: [{ ...homeOgImage, alt: "KiwiCamping" }] },
+    twitter: { card: "summary_large_image", title: tool.metaTitle, description, images: [{ ...homeOgImage, alt: "KiwiCamping" }] },
   };
 }
 

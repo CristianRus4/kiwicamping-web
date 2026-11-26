@@ -11,7 +11,7 @@ import { APP_STORE_URL } from "../lib/site.ts";
  * against a small stub DOM. The stub covers exactly what the script touches: localStorage, the time
  * zone, <main> data attributes, the consent bar, delegated clicks and cookies.
  */
-function run({ timeZone = "Pacific/Auckland", stored = null, storageThrows = false, main = { "data-page-kind": "guide", "data-locale": "de", "data-slug": "doc-hut-rules-etiquette", "data-category": "Rules & safety" }, bar = true, readyState = "loading" } = {}) {
+function run({ timeZone = "Pacific/Auckland", stored = null, storageThrows = false, main = { "data-page-kind": "guide", "data-locale": "de", "data-slug": "doc-hut-rules-etiquette", "data-category": "Rules & safety" }, bar = true, readyState = "loading", screen } = {}) {
   const listeners = {};
   const storage = new Map(stored ? [[CONSENT_STORAGE_KEY, stored]] : []);
   const classes = new Set();
@@ -32,6 +32,7 @@ function run({ timeZone = "Pacific/Auckland", stored = null, storageThrows = fal
     set cookie(value) { const [pair, ...attributes] = value.split(";"); const [name] = pair.split("="); if (attributes.some((attribute) => attribute.trim() === "Max-Age=0")) cookies.delete(name.trim()); },
   };
   const window = {
+    screen,
     localStorage: {
       getItem: (name) => { if (storageThrows) throw new Error("blocked"); return storage.get(name) ?? null; },
       setItem: (name, value) => { if (storageThrows) throw new Error("blocked"); storage.set(name, value); },
@@ -112,6 +113,18 @@ test("the footer link reopens the bar for anyone", () => {
   page.fire("click", { target: { closest: (selector) => (selector === "[data-consent-open]" ? {} : null) } });
   assert.equal(page.barElement.hidden, false);
   assert.ok(page.decline.focused || page.accept.focused);
+});
+
+test("headless crawlers with a screen no real display has load nothing", () => {
+  for (const screen of [{ width: 1366, height: 1366 }, { width: 1600, height: 1600 }, { width: 1280, height: 1200 }, { width: 1280, height: 1600 }]) {
+    const page = run({ screen });
+    assert.equal(page.window.dataLayer, undefined, `${screen.width}x${screen.height}`);
+    assert.equal(page.appended.length, 0);
+    assert.doesNotThrow(() => page.window.acTrack("tool_used", { tool: "fuel" }));
+  }
+  for (const screen of [{ width: 1920, height: 1080 }, { width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 800, height: 800 }]) {
+    assert.equal(run({ screen }).appended.length, 1, `${screen.width}x${screen.height} still loads the tag`);
+  }
 });
 
 test("blocked storage, a missing <main> and a missing bar never break the page", () => {
